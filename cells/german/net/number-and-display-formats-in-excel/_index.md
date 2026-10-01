@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zahlen- und Anzeigeformate in Excel
@@ -37,13 +35,13 @@ Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells exportieren und das Zahlenf
 ### [Datum/Uhrzeit in C# nach ISO formatieren – Vollständiger Leitfaden](./format-datetime-to-iso-in-c-complete-guide/)
 Erfahren Sie, wie Sie Datum- und Uhrzeitwerte in C# in das ISO‑Format konvertieren – Schritt für Schritt erklärt.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Wie man Währung in einer Grid‑Spalte formatiert – Schritt‑für‑Schritt‑Anleitung](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 Erfahren Sie, wie Sie Währungswerte in einer Grid‑Spalte mit Aspose.Cells für .NET formatieren und anpassen.
 ### [Zahlenformat in Excel anwenden – Schritt‑für‑Schritt‑Anleitung zum Formatieren von Spalten](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
@@ -52,7 +50,6 @@ Lernen Sie, wie Sie mit Aspose.Cells für .NET Spalten in Excel schnell und prä
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

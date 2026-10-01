@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Benutzerdefinierte Zahlen- und Datumsformatierung in Excel
@@ -62,23 +60,23 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe erstell
 ### [Japanisches Ära-Datum in C# mit Aspose.Cells – Vollständige Anleitung](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells japanische Ära-Daten in C# korrekt parsen und verarbeiten.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Zellen benutzerdefiniertes Format in C# festlegen – Vollständige Anleitung zum Schreiben & Lesen von Datumsangaben in Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 Erfahren Sie, wie Sie mit Aspose.Cells benutzerdefinierte Datumsformate setzen und sowohl schreiben als auch lesen können.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [String in DateTime konvertieren in C# – Daten in Excel schreiben und lesen](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Zeichenketten in Datumswerte umwandeln und Datumswerte in Excel schreiben und lesen.
 ### [Erstellen eines Arbeitsbuchs und Konvertieren eines Strings in ein Datum in C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
@@ -89,8 +87,6 @@ Erfahren Sie in diesem umfassenden Tutorial, wie Sie mit Aspose.Cells für .NET 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

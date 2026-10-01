@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # तालिकाएँ और सूचियाँ
@@ -68,13 +66,13 @@
 ### [Word तालिका में पंक्तियों को हटाएँ – पूर्ण C# गाइड](./delete-rows-word-table-complete-c-guide/)
 C# में Word तालिका से पंक्तियों को हटाने के लिए विस्तृत चरण-दर-चरण मार्गदर्शिका।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Aspose.Cells में तालिका हेडर हटाएँ – पूर्ण गाइड](./remove-table-header-in-aspose-cells-complete-guide/)
 Aspose.Cells का उपयोग करके Excel तालिका के हेडर को हटाने की पूरी प्रक्रिया सीखें। सरल चरणों में डेटा को साफ़ करें।
 ### [C# के साथ Excel में तालिका का नाम बदलें – चरण‑दर‑चरण गाइड](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
@@ -83,7 +81,6 @@ C# कोड का उपयोग करके Excel तालिका का
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

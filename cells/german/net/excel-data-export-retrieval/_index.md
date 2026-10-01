@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel-Datenexport und -abruf
@@ -39,13 +37,13 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Daten per C# exportieren 
 ### [Arbeitsblattbereich in C# exportieren – Vollständiger Programmierleitfaden](./export-worksheet-range-in-c-complete-programming-guide/)
 Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET einen Arbeitsblattbereich in C# exportieren.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Arbeitsmappe erstellen C# – DataTable mit Formatierung nach Excel exportieren](./create-workbook-c-export-datatable-to-excel-with-formatting/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Arbeitsmappe in C# erstellen und ein DataTable mit Formatierung nach Excel exportieren.
 
@@ -55,7 +53,6 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine neue Arbeitsmappe erstelle
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Conversão e Renderização
@@ -55,13 +53,13 @@ Aprenda a converter documentos Word (.docx) em SVG usando Aspose.Words para .NET
 ### [Incorporar fontes em HTML – Guia completo para desenvolvedores .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
 Aprenda a incorporar fontes em documentos HTML usando Aspose.Cells para .NET, garantindo renderização correta em todos os navegadores.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Planilha Excel para PNG – Exportar uma Tabela Dinâmica como PNG em C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 Aprenda a exportar uma Tabela Dinâmica do Excel como imagem PNG usando Aspose.Cells para .NET em C#.
 
@@ -73,8 +71,6 @@ Aprenda a transformar arquivos markdown em planilhas Excel usando C# e Aspose.Ce
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

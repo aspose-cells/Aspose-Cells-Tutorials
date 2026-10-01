@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # تنسيق الأرقام والتاريخ المخصص في Excel
@@ -55,23 +53,23 @@
 ### [تحليل تاريخ العصر الياباني في C# باستخدام Aspose.Cells – دليل كامل](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 تعرف على كيفية تحليل تواريخ العصور اليابانية في C# باستخدام Aspose.Cells من خلال دليل شامل خطوة بخطوة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [تعيين تنسيق مخصص للخلية في C# – دليل كامل لكتابة وقراءة التواريخ في Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 تعلم كيفية تعيين تنسيق مخصص للخلية وكتابة وقراءة التواريخ في Excel باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [تحويل السلسلة إلى DateTime في C# – كتابة وقراءة التواريخ في Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 تعلم كيفية تحويل النص إلى كائن DateTime في C# وكتابة وقراءة التواريخ في ملفات Excel باستخدام Aspose.Cells لـ .NET.
 ### [كيفية إنشاء مصنف وتحويل سلسلة إلى تاريخ في C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
@@ -82,8 +80,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

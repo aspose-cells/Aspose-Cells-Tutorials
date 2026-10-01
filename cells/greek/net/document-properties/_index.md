@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ιδιότητες εγγράφου
@@ -40,23 +38,23 @@
 ### [Πώς να αποθηκεύσετε XLSB με προσαρμοσμένες ιδιότητες σε C# – Οδηγός βήμα‑βήμα](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
 Μάθετε πώς να αποθηκεύετε αρχεία XLSB με προσαρμοσμένες ιδιότητες χρησιμοποιώντας το Aspose.Cells για .NET σε C#. Οδηγός βήμα‑βήμα.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Πώς να αποθηκεύσετε XLSB – Προσθήκη προσαρμοσμένης ιδιότητας σε C#](./how-to-save-xlsb-add-custom-property-in-c/)
 Μάθετε πώς να αποθηκεύσετε αρχεία XLSB προσθέτοντας προσαρμοσμένη ιδιότητα χρησιμοποιώντας Aspose.Cells για .NET σε C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Πώς να αποθηκεύσετε XLSB με προσαρμοσμένη ιδιότητα – Οδηγός βήμα προς βήμα C#](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
 Μάθετε πώς να αποθηκεύσετε ένα αρχείο XLSB με προσαρμοσμένη ιδιότητα χρησιμοποιώντας το Aspose.Cells για .NET σε C#.
 ### [Δημιουργία βιβλίου εργασίας Excel C# – Προσθήκη προσαρμοσμένης ιδιότητας & αποθήκευση XLSB](./create-excel-workbook-c-add-custom-property-save-xlsb/)
@@ -67,8 +65,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

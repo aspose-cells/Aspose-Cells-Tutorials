@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Belge Özellikleri
@@ -40,23 +38,23 @@ Aspose.Cells for .NET kullanarak bir Excel çalışma kitabı oluşturun, özel 
 ### [C# ile Özel Özellikli XLSB Kaydetme – Adım Adım Kılavuz](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
 Aspose.Cells for .NET kullanarak C# ile özel özellikli bir XLSB dosyasını nasıl kaydedeceğinizi adım adım öğrenin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [XLSB Kaydetme – C#'ta Özel Özellik Ekleme](./how-to-save-xlsb-add-custom-property-in-c/)
 Aspose.Cells for .NET kullanarak C# ile XLSB dosyasını kaydederken özel bir özellik eklemeyi öğrenin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [XLSB'yi Özel Bir Özellik ile Kaydetme – Adım Adım C# Kılavuzu](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
 Aspose.Cells for .NET ile XLSB dosyasını özel bir özellik ekleyerek adım adım nasıl kaydedeceğinizi öğrenin.
 ### [Excel Çalışma Kitabı Oluşturma C# – Özel Özellik Ekle & XLSB Olarak Kaydet](./create-excel-workbook-c-add-custom-property-save-xlsb/)
@@ -67,8 +65,6 @@ Aspose.Cells for .NET kullanarak C# ile Excel dosyalarına özel özellik ekleme
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

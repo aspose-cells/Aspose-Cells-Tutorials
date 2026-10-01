@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # التحويل والتقديم
@@ -55,13 +53,13 @@
 ### [تضمين الخطوط في HTML – دليل كامل لمطوري .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
 تعلم كيفية تضمين الخطوط في ملفات HTML باستخدام Aspose.HTML لـ .NET لضمان عرض النصوص بشكل صحيح عبر المتصفحات.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [ورقة Excel إلى PNG – تصدير جدول محوري كصورة PNG في C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 تعلم كيفية تصدير جدول محوري من Excel كملف PNG باستخدام Aspose.Cells في C# بسهولة.
 
@@ -73,8 +71,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

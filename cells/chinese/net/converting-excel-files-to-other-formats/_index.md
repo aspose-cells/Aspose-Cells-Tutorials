@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 将Excel文件转换为其他格式
@@ -79,13 +77,13 @@ Aspose.Cells for .NET 简化了文档转换，允许开发人员自动化流程�
 ### [将 Excel 转换为 Word – 使用 C# 的完整指南](./convert-excel-to-word-complete-guide-with-c/)
 本指南详细演示如何使用 Aspose.Cells for .NET 将 Excel 文件转换为 Word 文档，提供完整的 C# 示例代码。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [使用 C# 将 Excel 保存为 Docx – 完整分步指南](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 本指南提供使用 Aspose.Cells for .NET 通过 C# 将 Excel 文件保存为 Docx 的完整分步示例，帮助您轻松生成文档。
 ### [在 .NET 中以编程方式从 Excel 创建 PPT – 完整 C# 自动化指南](./create-ppt-from-excel-full-c-automation-guide/)
@@ -115,8 +113,6 @@ Aspose.Cells for .NET 简化了文档转换，允许开发人员自动化流程�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

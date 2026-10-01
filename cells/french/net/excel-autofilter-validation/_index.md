@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Filtre automatique et validation Excel
@@ -43,13 +41,13 @@ Apprenez à extraire la première table d'un classeur Excel en C# avec Aspose.Ce
 ### [Comment utiliser AutoFilter en automatisation Excel C# – Guide complet étape par étape](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
 Apprenez à appliquer AutoFilter dans vos projets d'automatisation Excel C# grâce à un guide détaillé pas à pas.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Supprimer le filtre automatique dans Excel en C# – Guide complet étape par étape](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Apprenez à supprimer le filtre automatique d'un classeur Excel en C# avec Aspose.Cells grâce à ce guide complet pas à pas.
 ### [Interface de filtre claire dans Excel avec C# – Supprimer le bouton AutoFilter](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
@@ -60,7 +58,6 @@ Apprenez à masquer les flèches de filtre dans Excel en utilisant C# avec Aspos
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

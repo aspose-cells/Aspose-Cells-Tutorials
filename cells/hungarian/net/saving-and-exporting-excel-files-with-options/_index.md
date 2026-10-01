@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel fájlok mentése és exportálása a Beállítások segítségével
@@ -48,20 +46,19 @@ Egyszerűsítse CSV-exportjait a kezdő üres sorok és oszlopok levágásával 
 Ismerje meg, hogyan menthet egy munkafüzetet C#-ban az Aspose.Cells segítségével, lépésről lépésre a teljes Excel automatizálás érdekében.
 ### [FlatOpcSaveOptions használata C#-ban – Teljes útmutató](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Hogyan mentse el a munkafüzetet C#-ban – Teljes útmutató a szűrők törléséhez és az Excel exportálásához](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
 Ismerje meg, hogyan mentheti el a munkafüzetet C#-ban, törölheti a szűrőket, és exportálhatja az Excel fájlt az Aspose.Cells for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

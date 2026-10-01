@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # एक्सेल में संख्या और प्रदर्शन प्रारूप
@@ -37,13 +35,13 @@
 ### [C# में datetime को ISO फ़ॉर्मेट में बदलना – पूर्ण गाइड](./format-datetime-to-iso-in-c-complete-guide/)
 C# में Aspose.Cells का उपयोग करके datetime को ISO फ़ॉर्मेट में बदलना सीखें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [ग्रिड कॉलम में मुद्रा को फ़ॉर्मेट करने का चरण‑दर‑चरण गाइड](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 Aspose.Cells .NET के साथ ग्रिड कॉलम में मुद्रा फ़ॉर्मेट लागू करने के चरण‑दर‑चरण निर्देश।
 ### [एक्सेल में संख्या फ़ॉर्मेट लागू करना – कॉलम फ़ॉर्मेट करने के लिए चरण‑दर‑चरण गाइड](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
@@ -52,7 +50,6 @@ Aspose.Cells के साथ Excel में कॉलम्स पर सं�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

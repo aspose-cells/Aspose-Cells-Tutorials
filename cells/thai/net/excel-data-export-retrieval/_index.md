@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การส่งออกและการดึงข้อมูล Excel
@@ -39,13 +37,13 @@
 ### [ส่งออกช่วงแผ่นงานใน C# – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./export-worksheet-range-in-c-complete-programming-guide/)
 เรียนรู้วิธีส่งออกช่วงของแผ่นงานใน Excel ด้วย Aspose.Cells สำหรับ .NET ในบทช่วยสอนขั้นตอนเต็มรูปแบบนี้
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [สร้าง Workbook C# – ส่งออก DataTable ไปยัง Excel พร้อมการจัดรูปแบบ](./create-workbook-c-export-datatable-to-excel-with-formatting/)
 เรียนรู้วิธีสร้าง Workbook ด้วย C# และส่งออก DataTable ไปยังไฟล์ Excel พร้อมการจัดรูปแบบขั้นสูง
 
@@ -55,7 +53,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel 주석 및 주석
@@ -45,13 +43,13 @@ Aspose.Cells for .NET C#를 활용해 Excel 셀에 주석을 삽입하는 방법
 ### [C#를 사용하여 Excel에 주석 추가 – 완전 단계별 가이드](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
 Aspose.Cells for .NET을 사용해 C#로 Excel에 주석을 추가하는 방법을 단계별로 안내합니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Excel 워크북 만들기 C# – 주석 추가 및 XLSX로 저장](./create-excel-workbook-c-add-comment-save-as-xlsx/)
 Aspose.Cells for .NET을 사용하여 C#에서 Excel 워크북을 만들고, 주석을 추가한 뒤 XLSX 형식으로 저장하는 방법을 단계별로 안내합니다.
 
@@ -63,8 +61,6 @@ Aspose.Cells for .NET을 사용해 프로그래밍 방식으로 Excel 파일을 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

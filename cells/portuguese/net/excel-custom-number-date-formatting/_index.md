@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formatação personalizada de números e datas no Excel
@@ -55,23 +53,23 @@ Aprenda a criar uma pasta de trabalho do Excel com formatação personalizada us
 ### [Analisar data da era japonesa em C# com Aspose.Cells – Guia completo](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Aprenda a analisar datas da era japonesa em C# usando Aspose.Cells neste guia completo.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Definir Formato Personalizado de Célula em C# – Guia Completo para Gravar e Ler Datas no Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 Aprenda a definir formatos personalizados de células e a gravar e ler datas no Excel usando C# com Aspose.Cells.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Converter string para DateTime em C# – Gravar e ler datas no Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 Aprenda a converter strings em objetos DateTime e manipular datas ao gravar e ler planilhas do Excel usando Aspose.Cells para .NET.
 ### [Como criar uma pasta de trabalho e converter string para data em C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
@@ -83,8 +81,6 @@ Aprenda a definir o formato de data em planilhas Excel usando C# com este guia c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

@@ -8,9 +8,7 @@ url: /net/tables-and-lists/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tables and Lists
@@ -60,13 +58,13 @@ Learn to rename an Excel table using Aspose.Cells for .NET with this comprehensi
 ### [Delete rows word table – Complete C# Guide](./delete-rows-word-table-complete-c-guide/)
 Learn how to delete rows from a Word table using Aspose.Words for .NET with a complete C# guide.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Remove Table Header in Aspose.Cells – Complete Guide](./remove-table-header-in-aspose-cells-complete-guide/)
 Learn how to remove table headers in Excel using Aspose.Cells for .NET with this step-by-step guide.
 ### [How to Rename Table in Excel with C# – Step‑by‑Step Guide](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
@@ -75,7 +73,6 @@ Learn how to rename a table in Excel using C# and Aspose.Cells for .NET with thi
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

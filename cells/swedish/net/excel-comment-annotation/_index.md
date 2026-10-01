@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel-kommentar och annotering
@@ -45,13 +43,13 @@ Lär dig hur du lägger till en kommentar i en Excel-cell med Aspose.Cells för 
 ### [Lägg till en kommentar i Excel med C# – Komplett steg‑för‑steg‑guide](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
 Lär dig hur du lägger till kommentarer i Excel med C# och Aspose.Cells för .NET. En komplett steg‑för‑steg‑guide.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Skapa Excel-arbetsbok i C# – Lägg till kommentar och spara som XLSX](./create-excel-workbook-c-add-comment-save-as-xlsx/)
 Lär dig hur du skapar en Excel-arbetsbok i C#, lägger till en kommentar och sparar den som XLSX med Aspose.Cells för .NET.
 
@@ -63,8 +61,6 @@ Lär dig hur du programatiskt skapar en Excel-fil, lägger till kommentarer och 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

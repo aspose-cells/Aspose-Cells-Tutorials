@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # एक्सेल ऑटोफ़िल्टर और सत्यापन
@@ -43,13 +41,13 @@ C# के साथ Aspose.Cells का उपयोग करके Excel व�
 ### [C# Excel ऑटोफ़िल्टर का उपयोग कैसे करें – पूर्ण चरण‑दर‑चरण गाइड](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
 Aspose.Cells के साथ C# में Excel ऑटोफ़िल्टर लागू करने के सभी चरणों को सीखें और डेटा फ़िल्टरिंग को आसान बनाएं।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [C# में Excel से ऑटोफ़िल्टर हटाएँ – पूर्ण चरण‑दर‑चरण गाइड](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Aspose.Cells for .NET का उपयोग करके C# में Excel से ऑटोफ़िल्टर हटाने की पूरी चरण‑दर‑चरण गाइड।
 ### [C# के साथ Excel में फ़िल्टर UI साफ़ करें – ऑटोफ़िल्टर बटन हटाएँ](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
@@ -60,7 +58,6 @@ C# का उपयोग करके Excel में फ़िल्टर ए
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

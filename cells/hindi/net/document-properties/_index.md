@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # दस्तावेज़ गुण
@@ -40,23 +38,23 @@ Excel वर्कबुक बनाएं, कस्टम प्रॉपर�
 ### [C# में कस्टम प्रॉपर्टीज़ के साथ XLSB कैसे सहेजें – चरण‑दर‑चरण गाइड](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
 C# में Aspose.Cells का उपयोग करके XLSB फ़ाइल में कस्टम प्रॉपर्टीज़ जोड़ने और सहेजने की प्रक्रिया सीखें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [.NET में XLSB को सहेजना – C# में कस्टम प्रॉपर्टी जोड़ना](./how-to-save-xlsb-add-custom-property-in-c/)
 C# में कस्टम प्रॉपर्टी जोड़कर XLSB फ़ाइल को सहेजने की चरण-दर-चरण गाइड।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [कैसे कस्टम प्रॉपर्टी के साथ XLSB सहेजें – चरण-दर-चरण C# गाइड](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
 C# में कस्टम प्रॉपर्टी के साथ XLSB फ़ाइल को सहेजने की पूरी प्रक्रिया सीखें।
 ### [C# में Excel वर्कबुक बनाएं – कस्टम प्रॉपर्टी जोड़ें और XLSB में सहेजें](./create-excel-workbook-c-add-custom-property-save-xlsb/)
@@ -67,8 +65,6 @@ C# का उपयोग करके Excel में कस्टम प्र
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

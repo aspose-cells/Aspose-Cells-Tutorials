@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Умные маркеры в Aspose.Cells для динамических данных
@@ -121,13 +119,13 @@ Aspose.Cells Smart Markers также поддерживает анонимны�
 Узнайте, как связывать листы в Excel с помощью SmartMarker, создавая динамические отчеты, следуя пошаговым инструкциям.
 ### [Создание рабочей книги из XLSX с помощью Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Как создать рабочую книгу с интеллектуальными маркерами – руководство Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
 Узнайте, как быстро генерировать Excel‑файлы, используя интеллектуальные маркеры в Aspose.Cells для .NET, шаг за шагом.
 ### [Создать коллекцию смарт‑маркеров – Полное руководство C#](./create-smart-marker-collection-complete-c-guide/)
@@ -158,7 +156,6 @@ Aspose.Cells Smart Markers также поддерживает анонимны�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

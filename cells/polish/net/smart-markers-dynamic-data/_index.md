@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Inteligentne znaczniki w Aspose.Cells dla dynamicznych danych
@@ -118,13 +116,13 @@ Dowiedz się, jak konwertować pliki JSON do formatu Excel przy użyciu C# i bib
 ### [Jak połączyć arkusze w Excelu za pomocą SmartMarker – przewodnik krok po kroku](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
 Dowiedz się, jak przy użyciu SmartMarker łączyć arkusze w Excelu, tworząc spójne raporty. Przewodnik krok po kroku dla .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Jak utworzyć skoroszyt przy użyciu inteligentnych znaczników – przewodnik Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
 Dowiedz się, jak krok po kroku utworzyć nowy skoroszyt Excel przy użyciu inteligentnych znaczników w Aspose.Cells dla .NET.
 ### [Automatyczne nazewnictwo arkuszy Excel – łatwy sposób generowania arkuszy](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
@@ -157,7 +155,6 @@ Dowiedz się, jak w C# stworzyć raport master‑detail, wypełniając szablon E
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

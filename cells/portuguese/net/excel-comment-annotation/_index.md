@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Comentários e Anotações do Excel
@@ -45,13 +43,13 @@ Aprenda a inserir comentários em células do Excel com Aspose.Cells para .NET u
 ### [Adicionar comentário ao Excel com C# – Guia completo passo a passo](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
 Aprenda a inserir comentários em planilhas Excel usando C# com o Aspose.Cells para .NET. Guia detalhado passo a passo.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Criar Pasta de Trabalho Excel C# – Adicionar Comentário e Salvar como XLSX](./create-excel-workbook-c-add-comment-save-as-xlsx/)
 Aprenda a criar uma pasta de trabalho Excel em C# adicionando um comentário e salvando como XLSX usando Aspose.Cells para .NET.
 
@@ -63,8 +61,6 @@ Aprenda a criar um arquivo Excel programaticamente, adicionar comentários e sal
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

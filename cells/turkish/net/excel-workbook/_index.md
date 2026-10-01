@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Çalışma Kitabı
@@ -93,22 +91,22 @@ Excel sayfalarınızdaki tanımlı adlar, verilerinizi yönetmenin kullanışlı
 | [C# ile Excel Çalışma Kitabı Oluşturma – Tam Programlama Kılavuzu](./create-excel-workbook-in-c-complete-programming-guide/) | Aspose.Cells for .NET kullanarak C# ile Excel çalışma kitabı oluşturmayı adım adım öğrenin. |  
 | [Excel Çalışma Kitabı Oluşturma C# – Genişletme Fonksiyonlu Tam Kılavuz](./create-excel-workbook-c-full-guide-with-expand-function/) | Aspose.Cells for .NET kullanarak C# ile genişletme işlevi ekleyerek tam bir Excel çalışma kitabı oluşturmayı adım adım öğrenin. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 | [Stilize Tabloyla Excel Çalışma Kitabı Oluşturma – Adım Adım Rehber](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Aspose.Cells for .NET kullanarak stilize bir tablo içeren Excel çalışma kitabını adım adım oluşturmayı öğrenin. |  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 | [C#'ta Yeni Çalışma Kitabı Oluştur – Formül Ekle ve Excel Dosyasını Kaydet](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Aspose.Cells for .NET kullanarak C# ile yeni bir çalışma kitabı oluşturup, formül ekleyip, dosyayı kaydetmeyi öğrenin. |
 | [Excel Çalışma Kitabı Oluştur C# – JSON'dan XLSX Oluştur](./create-excel-workbook-c-generate-xlsx-from-json/) | Aspose.Cells for .NET ile JSON verilerinden XLSX dosyası oluşturmayı adım adım öğrenin. |
 | [Excel Çalışma Kitabı Oluştur C# – Tarih Yazma ve XLSX Olarak Kaydetme](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Aspose.Cells for .NET kullanarak C# ile tarihleri nasıl yazıp Excel dosyasını XLSX olarak kaydedeceğinizi adım adım öğrenin. |
@@ -124,8 +122,6 @@ Excel sayfalarınızdaki tanımlı adlar, verilerinizi yönetmenin kullanışlı
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel 自動篩選與驗證
@@ -43,13 +41,13 @@
 ### [如何在 C# Excel 自動化中使用自動篩選 – 完整逐步指南](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
 透過本完整的逐步教學，學習在 C# 中使用 Aspose.Cells 進行 Excel 自動篩選，提升資料處理效率。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [在 C# 中移除 Excel 自動篩選 – 完整步驟指南](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 透過本完整的逐步指南，了解如何在 C# 中使用 Aspose.Cells 移除 Excel 的自動篩選功能。
 ### [使用 C# 清除 Excel 篩選 UI – 移除 AutoFilter 按鈕](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
@@ -60,7 +58,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # العلامات الذكية في Aspose.Cells للبيانات الديناميكية
@@ -118,13 +116,13 @@
 تعلم كيفية دمج بيانات Excel في تطبيقات C# باستخدام العلامات الذكية لإنشاء تقارير ديناميكية وشاملة بسهولة.
 ### [إنشاء قالب Excel باستخدام العلامات الذكية في C# – دليل شامل](./create-excel-template-with-smart-markers-in-c-complete-guide/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [تكرار البيانات في Excel – تعبئة القالب باستخدام SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
 تعلم كيفية تكرار البيانات في Excel وتعبئة القالب باستخدام SmartMarker لإنشاء تقارير ديناميكية.
 
@@ -161,7 +159,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

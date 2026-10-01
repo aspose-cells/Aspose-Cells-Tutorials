@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Конвертация и рендеринг
@@ -55,13 +53,13 @@
 ### [Встраивание шрифтов в HTML – Полное руководство для разработчиков .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
 Узнайте, как эффективно встраивать шрифты в HTML с помощью Aspose.Cells для .NET, обеспечивая корректное отображение текста.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Экспорт сводной таблицы из листа Excel в PNG в C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 Узнайте, как экспортировать сводную таблицу из Excel в формат PNG с помощью Aspose.Cells для .NET на C#.
 
@@ -73,8 +71,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

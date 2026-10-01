@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 行列管理
@@ -82,13 +80,13 @@
 ### [如何在 GridJs 中插入行 – 高效添加多行网格](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 通过本分步指南，学习在 GridJs 中高效插入多行，实现网格数据的快速扩展。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [使用 Aspose.Cells for .NET 加载 Excel 文件 – 删除行和特定行](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 了解如何在 C# 中使用 Aspose.Cells 加载 Excel 并删除指定的行或批量行，提供完整代码示例。
 ### [使用 Aspose.Cells for .NET 删除 Excel 表格中的行 – 分步指南](./delete-rows-excel-table-with-c-step-by-step-guide/)
@@ -102,8 +100,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

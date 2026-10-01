@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formats numériques et d'affichage dans Excel
@@ -37,13 +35,13 @@ Exportez un classeur Excel tout en conservant le format des nombres grâce à As
 ### [Format de date/heure en ISO en C# – Guide complet](./format-datetime-to-iso-in-c-complete-guide/)
 Apprenez à convertir des objets DateTime en chaînes ISO 8601 avec C# en utilisant Aspose.Cells pour .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Comment formater la devise dans une colonne de grille – Guide étape par étape](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 Apprenez à appliquer un format monétaire aux colonnes de grille avec Aspose.Cells pour .NET, étape par étape.
 ### [Appliquer le format de nombre Excel – Guide étape par étape pour formater les colonnes](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
@@ -52,7 +50,6 @@ Apprenez à appliquer des formats numériques aux colonnes Excel avec Aspose.Cel
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

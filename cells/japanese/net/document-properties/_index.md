@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ドキュメントのプロパティ
@@ -40,23 +38,23 @@ Aspose.Cells for .NET を使用して、Excel ワークブックを作成し、�
 ### [C# でカスタム プロパティ付き XLSB を保存する方法 – ステップバイステップ ガイド](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
 Aspose.Cells for .NET を使用して、カスタム プロパティを含む XLSB ファイルを C# で保存する手順を学びます。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [C# でカスタム プロパティを追加して XLSB を保存する方法](./how-to-save-xlsb-add-custom-property-in-c/)
 Aspose.Cells for .NET を使用して、C# で XLSB ファイルを保存し、カスタム プロパティを追加する手順を解説します。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [.NET でカスタム プロパティ付き XLSB を保存する方法 – ステップバイステップ C# ガイド](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
 Aspose.Cells for .NET を使用して、カスタム プロパティを設定したまま XLSB ファイルを保存する手順をステップバイステップで解説します。
 ### [C# で Excel ワークブックを作成 – カスタム プロパティを追加し XLSB で保存](./create-excel-workbook-c-add-custom-property-save-xlsb/)
@@ -67,8 +65,6 @@ Aspose.Cells for .NET を使用して、C# で Excel にカスタム プロパ�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

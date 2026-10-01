@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # มาร์กเกอร์อัจฉริยะใน Aspose.Cells สำหรับข้อมูลไดนามิก
@@ -119,13 +117,13 @@
 ### [สร้างสมุดงานจากไฟล์ XLSX ด้วย Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
 เรียนรู้วิธีใช้ SmartMarkerProcessor เพื่อสร้างสมุดงานจากไฟล์ XLSX อย่างง่ายดายใน Aspose.Cells
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [วิธีสร้าง Workbook ด้วย Smart Markers – Output High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
 เรียนรู้วิธีใช้ Smart Markers เพื่อสร้าง Workbook ที่แสดงค่าต่ำสุดและสูงสุดอย่างอัตโนมัติ
 
@@ -157,7 +155,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

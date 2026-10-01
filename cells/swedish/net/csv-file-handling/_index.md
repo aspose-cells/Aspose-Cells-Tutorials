@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hantering av CSV-filer
@@ -42,13 +40,13 @@ Lär dig hur du sparar Excel-filer som CSV i C# med en steg-för-steg-guide för
 ### [Skapa ny arbetsbok och exportera till CSV – Steg‑för‑steg C#‑guide](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 Lär dig hur du skapar en ny arbetsbok och exporterar den till CSV med C# i Aspose.Cells för .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Exportera tabell till CSV – Komplett C#-guide med anpassade talformat](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
 Lär dig hur du exporterar en tabell till CSV i C# med anpassade talformat för exakt datarepresentation.
 ### [Exportera tabell till CSV i C# – Komplett guide](./export-table-to-csv-in-c-complete-guide/)
@@ -57,7 +55,6 @@ Lär dig hur du exporterar en tabell till CSV med C# och Aspose.Cells för .NET 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

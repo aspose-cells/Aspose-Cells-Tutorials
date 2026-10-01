@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # गतिशील डेटा के लिए Aspose.Cells में स्मार्ट मार्कर
@@ -124,13 +122,13 @@ Aspose.Cells के स्मार्ट मार्कर का उपयो
 ### [C# में एक्सेल रिपोर्ट कैसे जनरेट करें – स्मार्टमार्कर का पूर्ण गाइड](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 ### [टेम्प्लेट लोड करें और स्मार्टमार्कर के साथ एक्सेल रिपोर्ट बनाएं](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [डेटा को एक्सेल में निर्यात करें: एरे से टेम्पलेट भरें C# में](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
 C# में एरे डेटा का उपयोग करके टेम्पलेट को भरें और एक्सेल फ़ाइल निर्यात करने का चरण-दर-चरण मार्गदर्शन।
 
@@ -160,7 +158,6 @@ C# में स्मार्टमार्कर का उपयोग क�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

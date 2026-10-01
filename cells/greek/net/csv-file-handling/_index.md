@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Χειρισμός αρχείων CSV
@@ -42,13 +40,13 @@
 ### [Δημιουργία νέου βιβλίου εργασίας και εξαγωγή σε CSV – Οδηγός βήμα‑βήμα C#](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 Μάθετε πώς να δημιουργήσετε νέο βιβλίο εργασίας και να το εξάγετε σε CSV με το Aspose.Cells για .NET, ακολουθώντας βήμα‑βήμα οδηγίες C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Εξαγωγή Πίνακα σε CSV – Πλήρης Οδηγός C# με Προσαρμοσμένες Μορφές Αριθμών](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
 Μάθετε πώς να εξάγετε πίνακες σε CSV χρησιμοποιώντας C# και να προσαρμόζετε μορφές αριθμών με το Aspose.Cells.
 ### [Εξαγωγή Πίνακα σε CSV με C# – Πλήρης Οδηγός](./export-table-to-csv-in-c-complete-guide/)
@@ -57,7 +55,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

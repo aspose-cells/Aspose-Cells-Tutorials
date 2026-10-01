@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Egyéni szám- és dátumformázás Excelben
@@ -55,23 +53,23 @@ Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet egyedi formátummal C#-ba
 ### [Japán korszak dátumának feldolgozása C#-ban az Aspose.Cells segítségével – Teljes útmutató](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Tanulja meg, hogyan értelmezze a japán era dátumokat C#-ban az Aspose.Cells használatával, részletes lépésről-lépésre útmutató.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Cellák egyéni formátumának beállítása C#-ban – Teljes útmutató dátumok írásához és olvasásához Excelben](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 Tanulja meg, hogyan állíthat be egyéni cellaformátumot és kezelheti a dátumokat Excelben az Aspose.Cells for .NET segítségével ebben a részletes útmutatóban.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [String konvertálása DateTime-re C#-ban – Dátumok írása és olvasása Excelben](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 Tanulja meg, hogyan konvertálja a karakterláncokat DateTime objektummá C#-ban, és írja/olvassa a dátumokat Excel fájlokban az Aspose.Cells segítségével.
 ### [Hogyan hozzunk létre munkafüzetet és konvertáljunk karakterláncot dátummá C#-ban](./how-to-create-workbook-and-convert-string-to-date-in-c/)
@@ -82,8 +80,6 @@ Tanuld meg, hogyan állíthatsz be Excel dátumformátumot C#‑ban az Aspose.Ce
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

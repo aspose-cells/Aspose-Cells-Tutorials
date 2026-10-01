@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Smart Markers trong Aspose.Cells cho dữ liệu động
@@ -108,13 +106,13 @@ Tìm hiểu cách sử dụng SmartMarker để liên kết các sheet trong Exc
 ### [Chuyển đổi JSON sang Excel với C# – Hướng dẫn từng bước](./convert-json-to-excel-with-c-step-by-step-guide/)
 ### [Tạo Workbook từ XLSX bằng Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Cách tạo Workbook bằng Smart Markers – Hướng dẫn Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
 Hướng dẫn chi tiết cách tạo một Workbook mới bằng Smart Markers trong Aspose.Cells cho .NET.
 ### [Tự Đặt Tên Các Sheet Excel – Cách Dễ Dàng Tạo Sheet](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
@@ -155,7 +153,6 @@ Hướng dẫn sử dụng Smart Marker để tạo giá trị ô dựa trên đ
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

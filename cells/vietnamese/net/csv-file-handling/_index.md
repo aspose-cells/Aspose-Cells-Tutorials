@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xử lý tệp CSV
@@ -42,13 +40,13 @@ Hướng dẫn chi tiết cách lưu tệp Excel dưới dạng CSV bằng C# s�
 ### [Tạo Workbook mới và xuất ra CSV – Hướng dẫn từng bước C#](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 Hướng dẫn chi tiết cách tạo workbook mới và xuất dữ liệu sang CSV bằng C# trong Aspose.Cells.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Xuất bảng sang CSV – Hướng dẫn C# đầy đủ với định dạng số tùy chỉnh](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
 Hướng dẫn chi tiết cách xuất bảng dữ liệu sang tệp CSV trong C#, bao gồm việc áp dụng định dạng số tùy chỉnh.
 ### [Xuất bảng sang CSV trong C# – Hướng dẫn toàn diện](./export-table-to-csv-in-c-complete-guide/)
@@ -57,7 +55,6 @@ Hướng dẫn chi tiết cách xuất dữ liệu bảng sang tệp CSV bằng 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

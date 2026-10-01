@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # CSV fájlkezelés
@@ -42,13 +40,13 @@ Ismerd meg, hogyan mentheted el az Excel munkafüzeteket CSV formátumba C#-ban 
 ### [Új munkafüzet létrehozása és exportálása CSV-be – Lépésről lépésre C# útmutató](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 Ismerd meg, hogyan hozhatsz létre új munkafüzetet és exportálhatod CSV formátumba C#-ban az Aspose.Cells for .NET segítségével.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Táblázat exportálása CSV-be – Teljes C# útmutató egyedi számformátumokkal](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
 Ismerd meg, hogyan exportálj táblázatot CSV-be C#-ban egyedi számformátumok használatával.
 ### [Táblázat exportálása CSV-be C#-ban – Teljes útmutató](./export-table-to-csv-in-c-complete-guide/)
@@ -57,7 +55,6 @@ Tanuld meg, hogyan exportálj táblázatokat CSV formátumba C#-ban az Aspose.Ce
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

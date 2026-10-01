@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पंक्ति और स्तंभ प्रबंधन
@@ -85,22 +83,22 @@ C# कोड के साथ Excel में डेटा को पुनर�
 ### [.NET के लिए Aspose.Cells का उपयोग करके पंक्तियों को हटाएँ – Excel में हेडर पंक्ति को सुरक्षित रखें](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 Excel में हेडर पंक्ति को सुरक्षित रखते हुए पंक्तियों को हटाने के लिए चरण-दर-चरण मार्गदर्शिका।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Excel फ़ाइल लोड करें C# – पंक्तियों को हटाएँ और विशिष्ट पंक्तियों को हटाएँ](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [C# के साथ Excel तालिका में पंक्तियों को हटाएँ – चरण‑दर‑चरण मार्गदर्शिका](./delete-rows-excel-table-with-c-step-by-step-guide/)
 .NET के लिए Aspose.Cells का उपयोग करके Excel तालिका से पंक्तियों को हटाने की विस्तृत चरण-दर-चरण गाइड।
 
@@ -114,8 +112,6 @@ GridJs में कई पंक्तियों को तेज़ी स�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

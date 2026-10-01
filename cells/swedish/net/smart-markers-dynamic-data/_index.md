@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Smarta markörer i Aspose.Cells för dynamisk data
@@ -115,13 +113,13 @@ Lär dig steg för steg hur du exporterar data till Excel med Smart Marker i C#.
 ### [Hur du länkar blad i Excel med SmartMarker – Steg‑för‑steg‑guide](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
 ### [Konvertera JSON till Excel med C# – Steg‑för‑steg‑guide](./convert-json-to-excel-with-c-step-by-step-guide/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Automatiskt namnge Excel-ark – Enkelt sätt att skapa ark](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
 Lär dig hur du automatiskt kan namnge Excel-ark baserat på data för att snabbt skapa flera kalkylblad.
 ### [Hur man skapar en arbetsbok med smarta markörer – Aspose.Cells-guide](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
@@ -152,7 +150,6 @@ Lär dig hur du bygger en master‑detail‑rapport i C# genom att fylla en Exce
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

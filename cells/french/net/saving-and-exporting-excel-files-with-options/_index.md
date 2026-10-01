@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Enregistrement et exportation de fichiers Excel avec options
@@ -48,19 +46,18 @@ Simplifiez vos exportations CSV en supprimant les lignes et colonnes vides avec 
 ### [Comment utiliser FlatOpcSaveOptions en C# – Guide complet](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
 Découvrez comment utiliser FlatOpcSaveOptions en C# avec Aspose.Cells pour .NET, guide complet étape par étape.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Comment enregistrer un classeur en C# – Guide complet pour effacer les filtres et exporter Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

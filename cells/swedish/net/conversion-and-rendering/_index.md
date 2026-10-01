@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konvertering och rendering
@@ -55,13 +53,13 @@ Lär dig hur du konverterar Word-dokument till SVG med Aspose.Words för .NET i 
 ### [Bädda in typsnitt i HTML – Fullständig guide för .NET-utvecklare](./embed-fonts-in-html-complete-guide-for-net-developers/)
 Lär dig hur du bäddar in typsnitt i HTML med Aspose.Cells för .NET i en komplett steg-för-steg-guide.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Excel-ark till PNG – Exportera en pivottabell som PNG i C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 Lär dig hur du exporterar en pivottabell från ett Excel-ark till PNG med Aspose.Cells i C#.
 
@@ -73,8 +71,6 @@ Lär dig hur du omvandlar markdown-filer till Excel med en komplett C#-guide.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

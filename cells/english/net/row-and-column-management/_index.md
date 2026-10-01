@@ -8,9 +8,7 @@ url: /net/row-and-column-management/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Row and Column Management
@@ -83,13 +81,13 @@ Learn how to dynamically generate and repeat rows in Excel using Aspose.Cells fo
 ### [How to Insert Rows in GridJs – Add Multiple Rows Grid Efficiently](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 Learn how to efficiently add multiple rows to a GridJs grid using simple code examples and step-by-step instructions.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Load Excel File C# – How to Delete Rows and Remove Specific Rows](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Learn how to load an Excel file in C# and delete rows, including removing specific rows, using Aspose.Cells for .NET.
 ### [Delete Rows Excel Table with C# – Step‑by‑Step Guide](./delete-rows-excel-table-with-c-step-by-step-guide/)
@@ -104,8 +102,6 @@ Learn how to quickly add multiple rows in GridJs with a simple step-by-step guid
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konvertieren von Excel-Dateien in andere Formate
@@ -81,13 +79,13 @@ Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie den Fortschritt 
 ### [Excel in Word konvertieren – Vollständige Anleitung mit C#](./convert-excel-to-word-complete-guide-with-c/)
 Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie Excel‑Dateien mit Aspose.Cells für .NET in Word‑Dokumente konvertieren.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Programmgesteuertes Konvertieren einer Excel-Datei in DOCX mit C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien programmgesteuert in DOCX speichern. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen.
 ### [Programmgesteuertes Erstellen eines neuen Arbeitsbuchs – Excel mit voller Präzision nach TXT exportieren in .NET](./create-new-workbook-export-excel-to-txt-with-full-precision/)
@@ -118,8 +116,6 @@ Erfahren Sie, wie Sie Excel-Arbeitsblätter programmgesteuert in tab‑getrennte
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

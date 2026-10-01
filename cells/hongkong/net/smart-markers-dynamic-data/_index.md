@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells 中用於動態資料的智慧標記
@@ -116,13 +114,13 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 ### [使用 Aspose.Cells SmartMarkerProcessor 從 XLSX 建立工作簿](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
 了解如何使用 Aspose.Cells 的 SmartMarkerProcessor 從現有 XLSX 檔案建立工作簿，以便在報表中使用智慧標記。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [如何使用智慧標記建立工作簿 – Aspose.Cells 指南](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
 本教學說明如何使用 Aspose.Cells Smart Markers 建立工作簿，快速產生動態 Excel 報表。
 ### [建立智慧標記集合 – 完整 C# 指南](./create-smart-marker-collection-complete-c-guide/)
@@ -153,7 +151,6 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

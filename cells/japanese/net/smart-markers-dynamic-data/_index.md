@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells の動的データ用スマートマーカー
@@ -119,13 +117,13 @@ C# で JSON データを読み込み、Aspose.Cells を使って Excel ファイ
 
 ### [SmartMarker で Excel のシートをリンクする方法 – ステップバイステップ ガイド](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Excelでデータを繰り返す – スマートマーカーでテンプレートにデータを埋め込む](./repeat-data-in-excel-populate-template-with-smartmarker/)
 スマートマーカーを使い、テンプレートの行を繰り返し生成し、データを自動的に埋め込む方法を解説します。
 ### [スマートマーカーでワークブックを作成する – 出力（High Low）](./how-to-create-workbook-with-smart-markers-output-high-low/)
@@ -155,7 +153,6 @@ SmartMarker を使用して、マスターディテイル構造のデータを E
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

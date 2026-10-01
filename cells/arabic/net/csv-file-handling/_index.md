@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # معالجة ملفات CSV
@@ -42,13 +40,13 @@
 ### [إنشاء مصنف جديد وتصديره إلى CSV – دليل خطوة بخطوة بلغة C#](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 تعلم كيفية إنشاء مصنف جديد وتصديره إلى ملف CSV باستخدام Aspose.Cells لـ .NET مع أمثلة C# واضحة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [تصدير جدول إلى CSV – دليل C# كامل مع تنسيقات أرقام مخصصة](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
 تعلم كيفية تصدير الجداول إلى ملفات CSV باستخدام C# مع تنسيقات أرقام مخصصة بسهولة وفعالية.
 ### [تصدير جدول إلى CSV في C# – دليل كامل](./export-table-to-csv-in-c-complete-guide/)
@@ -57,7 +55,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

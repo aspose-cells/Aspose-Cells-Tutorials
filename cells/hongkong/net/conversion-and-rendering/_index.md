@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 轉換和渲染
@@ -55,13 +53,13 @@
 ### [在 HTML 中嵌入字型 – .NET 開發人員完整指南](./embed-fonts-in-html-complete-guide-for-net-developers/)
 學習如何在 .NET 中使用 Aspose.Cells 將字型嵌入 HTML，以確保跨平台顯示一致性。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Excel 工作表轉 PNG – 在 C# 中匯出樞紐分析表為 PNG](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 學習如何使用 Aspose.Cells for .NET 在 C# 中將 Excel 樞紐分析表匯出為 PNG 圖像。
 
@@ -73,8 +71,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

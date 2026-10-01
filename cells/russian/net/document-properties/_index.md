@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Свойства документа
@@ -40,23 +38,23 @@
 ### [Как сохранить XLSB с пользовательскими свойствами в C# – пошаговое руководство](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
 Узнайте, как сохранить файл XLSB с пользовательскими свойствами в C# с помощью Aspose.Cells для .NET, следуя пошаговому руководству.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Как сохранить XLSB – добавить пользовательское свойство в C#](./how-to-save-xlsb-add-custom-property-in-c/)
 Узнайте, как сохранить файл XLSB и добавить пользовательское свойство с помощью Aspose.Cells для .NET в C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Как сохранить XLSB с пользовательским свойством – пошаговое руководство C#](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
 Узнайте, как сохранить файл XLSB с пользовательским свойством, используя Aspose.Cells для .NET в C#.
 ### [Создание рабочей книги Excel C# – Добавление пользовательского свойства и сохранение в XLSB](./create-excel-workbook-c-add-custom-property-save-xlsb/)
@@ -67,8 +65,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

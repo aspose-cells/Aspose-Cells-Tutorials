@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Σχόλιο και σχολιασμός Excel
@@ -46,13 +44,13 @@
 ### [Προσθήκη σχολίου στο Excel με C# – Πλήρης Οδηγός Βήμα‑Βήμα](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
 Μάθετε πώς να προσθέτετε σχόλια στο Excel χρησιμοποιώντας C# και το Aspose.Cells για .NET. Οδηγός βήμα‑βήμα για πλήρη έλεγχο.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Δημιουργία βιβλίου εργασίας Excel με C# – Προσθήκη σχολίου & αποθήκευση ως XLSX](./create-excel-workbook-c-add-comment-save-as-xlsx/)
 Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel σε C#, να προσθέσετε σχόλιο και να το αποθηκεύσετε ως αρχείο XLSX χρησιμοποιώντας το Aspose.Cells.
 
@@ -64,8 +62,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

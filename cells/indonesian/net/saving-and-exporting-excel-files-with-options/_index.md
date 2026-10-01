@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menyimpan dan Mengekspor File Excel dengan Opsi
@@ -49,19 +47,18 @@ Pelajari cara menyimpan workbook menggunakan C# dengan Aspose.Cells, langkah dem
 ### [Cara Menggunakan FlatOpcSaveOptions di C# – Panduan Lengkap](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
 Pelajari cara menggunakan FlatOpcSaveOptions di C# untuk menyimpan file Excel dengan opsi khusus menggunakan Aspose.Cells untuk .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Cara Menyimpan Workbook di C# – Panduan Lengkap Menghapus Filter dan Mengekspor Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

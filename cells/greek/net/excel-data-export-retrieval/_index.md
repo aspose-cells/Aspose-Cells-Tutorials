@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Εξαγωγή και ανάκτηση δεδομένων Excel
@@ -39,13 +37,13 @@
 ### [Εξαγωγή περιοχής φύλλου εργασίας σε C# – Πλήρης οδηγός προγραμματισμού](./export-worksheet-range-in-c-complete-programming-guide/)
 Μάθετε πώς να εξάγετε μια περιοχή φύλλου εργασίας σε C# με το Aspose.Cells για .NET σε αυτόν τον πλήρη προγραμματιστικό οδηγό.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Δημιουργία βιβλίου εργασίας C# – Εξαγωγή DataTable σε Excel με μορφοποίηση](./create-workbook-c-export-datatable-to-excel-with-formatting/)
 Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας και να εξάγετε ένα DataTable σε Excel με μορφοποίηση χρησιμοποιώντας το Aspose.Cells για .NET.
 
@@ -55,7 +53,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

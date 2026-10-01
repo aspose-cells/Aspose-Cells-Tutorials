@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Buku Kerja Excel
@@ -93,22 +91,22 @@ Jadi, mengapa tidak memanfaatkan kesempatan ini untuk meningkatkan keterampilan 
 | [Membuat Buku Kerja Excel di C# – Panduan Pemrograman Lengkap](./create-excel-workbook-in-c-complete-programming-guide/) | Pelajari cara membuat buku kerja Excel menggunakan C# dengan panduan langkah demi langkah lengkap. |
 | [Buat Buku Kerja Excel C# – Panduan Lengkap dengan Fungsi Expand](./create-excel-workbook-c-full-guide-with-expand-function/) | Pelajari cara membuat buku kerja Excel dengan C# secara lengkap, termasuk penggunaan fungsi Expand untuk memperluas data secara dinamis. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 | [Buat Workbook Excel dengan Tabel Bergaya – Panduan Langkah‑demi‑Langkah](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Pelajari cara membuat workbook Excel dengan tabel bergaya menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 | [Buat Buku Kerja Baru di C# – Tambahkan Rumus dan Simpan File Excel](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Pelajari cara membuat buku kerja baru di C#, menambahkan rumus, dan menyimpan file Excel menggunakan Aspose.Cells. |  
 | [Buat Buku Kerja Excel C# – Hasilkan XLSX dari JSON](./create-excel-workbook-c-generate-xlsx-from-json/) | Pelajari cara membuat buku kerja Excel dengan C# dan mengonversi data JSON menjadi file XLSX menggunakan Aspose.Cells. |  
 | [Buat Buku Kerja Excel C# – Panduan Langkah‑demi‑Langkah Menulis Tanggal & Menyimpan sebagai XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Pelajari cara membuat buku kerja Excel dengan C#, menulis tanggal, dan menyimpannya sebagai file XLSX menggunakan Aspose.Cells. |  
@@ -124,8 +122,6 @@ Jadi, mengapa tidak memanfaatkan kesempatan ini untuk meningkatkan keterampilan 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

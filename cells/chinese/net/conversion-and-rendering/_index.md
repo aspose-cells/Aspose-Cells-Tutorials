@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 转换和渲染
@@ -59,13 +57,13 @@
 ### [在 HTML 中嵌入字体 – .NET 开发人员完整指南](./embed-fonts-in-html-complete-guide-for-net-developers/)
 学习如何在 .NET 中使用 Aspose.Cells 将字体嵌入 HTML，以确保文档在不同环境中保持一致的外观。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Excel 工作表转 PNG – 在 C# 中导出透视表为 PNG](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 学习如何使用 Aspose.Cells for .NET 将 Excel 透视表导出为 PNG 图像，适用于 C# 开发人员。
 
@@ -77,8 +75,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

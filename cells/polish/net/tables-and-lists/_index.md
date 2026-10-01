@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabele i listy
@@ -60,13 +58,13 @@ Dowiedz się, jak zmienić nazwę tabeli w programie Excel przy użyciu Aspose.C
 ### [Usuwanie wierszy w tabeli Word – kompletny przewodnik C#](./delete-rows-word-table-complete-c-guide/)
 Naucz się usuwać wiersze w tabeli Word przy użyciu Aspose.Words dla .NET w języku C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Usuwanie nagłówka tabeli w Aspose.Cells – kompletny przewodnik](./remove-table-header-in-aspose-cells-complete-guide/)
 Dowiedz się, jak usunąć nagłówek tabeli w Excelu przy użyciu Aspose.Cells w kilku prostych krokach.
 ### [Jak zmienić nazwę tabeli w Excelu przy użyciu C# – przewodnik krok po kroku](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
@@ -75,7 +73,6 @@ Dowiedz się, jak zmienić nazwę tabeli w Excelu przy użyciu Aspose.Cells dla 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

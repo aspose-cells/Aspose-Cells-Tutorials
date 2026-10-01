@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Autofilter och Validering
@@ -43,13 +41,13 @@ Lär dig hur du extraherar den första tabellen från en Excel-arbetsbok med Asp
 ### [Hur man använder AutoFilter i C# Excel‑automatisering – Fullständig steg‑för‑steg‑guide](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
 Lär dig att implementera AutoFilter i C#‑program för Excel med en detaljerad steg‑för‑steg‑instruktion.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Ta bort autofilter i Excel i C# – Komplett steg‑för‑steg‑guide](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Lär dig hur du tar bort autofilter i ett Excel‑ark med Aspose.Cells för .NET i C# med en tydlig steg‑för‑steg‑instruktion.
 ### [Rensa filter‑UI i Excel med C# – Ta bort AutoFilter‑knappen](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
@@ -60,7 +58,6 @@ Lär dig hur du tar bort filterpilarna i Excel med C# och Aspose.Cells i en full
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

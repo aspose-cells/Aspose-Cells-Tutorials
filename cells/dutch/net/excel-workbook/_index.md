@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel-werkmap
@@ -93,22 +91,22 @@ Dus waarom zou u deze kans niet grijpen om uw Excel-vaardigheden te verbeteren? 
 | [Excel-werkmap maken in C# – Complete programmeergids](./create-excel-workbook-in-c-complete-programming-guide/) | Leer hoe u een Excel-werkmap maakt in C# met een volledige programmeergids. |  
 | [Excel-werkmap maken in C# – volledige gids met uitbreidingsfunctie](./create-excel-workbook-c-full-guide-with-expand-function/) | Leer hoe u een Excel-werkmap maakt in C# met een volledige gids, inclusief het gebruik van de uitbreidingsfunctie. |  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 | [Excel-werkmap maken met gestylede tabel – Stapsgewijze handleiding](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Leer hoe u een Excel-werkmap maakt met een opgemaakte tabel met Aspose.Cells voor .NET. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 | [Excel-werkmap maken in C# – Stapsgewijze handleiding](./create-excel-workbook-in-c-step-by-step-guide/) | Leer hoe u een Excel-werkmap maakt in C# met gedetailleerde, stap‑voor‑stap codevoorbeelden. |
 | [Nieuw werkboek maken in C# – Formule toevoegen en Excel-bestand opslaan](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Leer hoe u in C# een nieuw Excel-werkboek maakt, een formule toevoegt en het bestand opslaat met Aspose.Cells. |  
 | [Excel-werkmap maken C# – Stapsgewijze handleiding om datums te schrijven en op te slaan als XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Leer hoe u met C# een Excel-werkmap maakt, datums invoegt en opslaat als XLSX-bestand met Aspose.Cells voor .NET. |
@@ -124,8 +122,6 @@ Dus waarom zou u deze kans niet grijpen om uw Excel-vaardigheden te verbeteren? 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

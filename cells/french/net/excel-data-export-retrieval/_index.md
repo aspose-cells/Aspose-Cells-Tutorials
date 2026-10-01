@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Exportation et récupération de données Excel
@@ -39,13 +37,13 @@ Apprenez à exporter des données Excel avec Aspose.Cells pour .NET grâce à ce
 ### [Exporter une plage de feuilles de calcul en C# – Guide complet de programmation](./export-worksheet-range-in-c-complete-programming-guide/)
 Apprenez à exporter une plage de feuilles de calcul en C# avec Aspose.Cells pour .NET dans ce guide complet, adapté aux débutants et aux développeurs avancés.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Créer un classeur C# – Exporter DataTable vers Excel avec mise en forme](./create-workbook-c-export-datatable-to-excel-with-formatting/)
 Apprenez à créer un classeur C#, exporter un DataTable vers Excel et appliquer une mise en forme grâce à Aspose.Cells pour .NET.
 
@@ -55,7 +53,6 @@ Apprenez à créer un nouveau classeur et à exporter les données Excel en fich
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

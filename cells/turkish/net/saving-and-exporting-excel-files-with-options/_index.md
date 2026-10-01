@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Seçeneklerle Excel Dosyalarını Kaydetme ve Dışa Aktarma
@@ -49,20 +47,19 @@ Aspose.Cells for .NET ile C# içinde çalışma kitabını kaydetmeyi adım adı
 ### [C#'ta FlatOpcSaveOptions Kullanımı – Tam Kılavuz](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
 Aspose.Cells for .NET ile FlatOpcSaveOptions ayarlarını C# içinde nasıl kullanacağınızı adım adım öğrenin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [C#'ta Çalışma Kitabını Kaydetme – Filtreleri Temizleme ve Excel Dışa Aktarma Tam Kılavuzu](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
 Aspose.Cells for .NET ile C# içinde çalışma kitabını kaydederken filtreleri temizleyip Excel olarak dışa aktarmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

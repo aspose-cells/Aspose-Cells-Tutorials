@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Dosyalarını Diğer Biçimlere Dönüştürme
@@ -81,13 +79,13 @@ Aspose.Cells for .NET kullanarak C# ile XLSX dosyalarını hızlı ve doğru bir
 ### [Excel'de Yazdırma Alanını Ayarlama ve PowerPoint'e Dışa Aktarma – Adım Adım Kılavuz](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
 Aspose.Cells for .NET kullanarak Excel'de yazdırma alanını belirleyip, dosyayı PowerPoint sunumuna nasıl dönüştüreceğinizi öğrenin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Excel'den PPT Oluşturma – Tam C# Otomasyon Kılavuzu](./create-ppt-from-excel-full-c-automation-guide/)
 Aspose.Cells for .NET kullanarak Excel dosyasından tam otomasyonlu PPT sunumu oluşturmayı adım adım öğrenin.
 ### [.NET'te Yeni Çalışma Kitabı Oluştur – Excel'i Tam Hassasiyetle TXT'ye Dışa Aktar](./create-new-workbook-export-excel-to-txt-with-full-precision/)
@@ -119,8 +117,6 @@ Aspose.Cells for .NET kullanarak C# ile Excel dosyasını Docx formatına nasıl
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

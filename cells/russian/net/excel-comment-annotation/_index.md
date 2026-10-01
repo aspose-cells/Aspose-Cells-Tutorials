@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Комментарии и примечания Excel
@@ -45,13 +43,13 @@
 ### [Добавить комментарий в Excel с C# – Полное пошаговое руководство](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
 Узнайте, как добавить комментарий в Excel с помощью C# и Aspose.Cells для .NET. Полное пошаговое руководство.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Создать книгу Excel C# – Добавить комментарий и сохранить как XLSX](./create-excel-workbook-c-add-comment-save-as-xlsx/)
 Узнайте, как создать книгу Excel на C#, добавить комментарий и сохранить её в формате XLSX с помощью Aspose.Cells для .NET.
 
@@ -63,8 +61,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

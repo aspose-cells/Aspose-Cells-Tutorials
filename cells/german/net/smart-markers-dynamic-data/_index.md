@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Intelligente Markierungen in Aspose.Cells für dynamische Daten
@@ -129,13 +127,13 @@ Erfahren Sie, wie Sie mit Aspose.Cells Vorlagen mithilfe von Smart Markern Schri
 Erfahren Sie, wie Sie mit Aspose.Cells und SmartMarker in C# komplette Excel-Berichte automatisch generieren.
 ### [Exportieren von Daten nach Excel mit Smart Marker – Vollständige C#-Anleitung](./export-data-to-excel-with-smart-marker-full-c-guide/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Excel-Tabellenblätter automatisch benennen – einfacher Weg zum Generieren von Blättern](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
 Erfahren Sie, wie Sie mit Aspose.Cells Excel-Tabellenblätter automatisch benennen und so Berichte effizient erstellen.
 
@@ -169,7 +167,6 @@ Erfahren Sie, wie Sie mit Smart Markers ein Excel‑Arbeitsbuch erstellen, das j
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

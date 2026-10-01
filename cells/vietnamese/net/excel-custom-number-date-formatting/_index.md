@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Định dạng ngày tháng và số tùy chỉnh trong Excel
@@ -55,23 +53,23 @@ Hướng dẫn chi tiết cách tạo workbook Excel với định dạng tùy c
 ### [Phân tích ngày Niên đại Nhật Bản trong C# với Aspose.Cells – Hướng dẫn đầy đủ](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Hướng dẫn chi tiết cách phân tích ngày theo niên đại Nhật Bản trong C# bằng Aspose.Cells, bao gồm các ví dụ thực tế.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Đặt Định dạng Tùy chỉnh cho Ô trong C# – Hướng dẫn Toàn diện về Ghi & Đọc Ngày trong Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 Khám phá cách thiết lập định dạng tùy chỉnh cho ô và đọc/ghi ngày tháng trong Excel bằng Aspose.Cells cho .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Chuyển đổi chuỗi thành DateTime trong C# – Ghi và Đọc ngày trong Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 Hướng dẫn cách chuyển đổi chuỗi thành DateTime và thao tác ghi, đọc ngày trong Excel bằng Aspose.Cells cho .NET.
 ### [Cách tạo workbook và chuyển đổi chuỗi thành ngày trong C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
@@ -82,8 +80,6 @@ Hướng dẫn cách thiết lập định dạng ngày cho ô Excel trong C# b�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

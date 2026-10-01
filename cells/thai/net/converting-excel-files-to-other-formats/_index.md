@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การแปลงไฟล์ Excel เป็นรูปแบบอื่น
@@ -81,13 +79,13 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 ### [แปลง Excel เป็น Word – คู่มือเต็มด้วย C#](./convert-excel-to-word-complete-guide-with-c/)
 เรียนรู้วิธีแปลงไฟล์ Excel เป็น Word ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือเต็มขั้นตอน
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [สร้าง PPT จาก Excel – คู่มืออัตโนมัติเต็มรูปแบบ C#](./create-ppt-from-excel-full-c-automation-guide/)
 เรียนรู้วิธีสร้างไฟล์ PPT จากข้อมูล Excel ด้วย C# โดยใช้ Aspose.Cells อย่างละเอียดและครบถ้วน
 ### [สร้างสมุดงานใหม่ – ส่งออก Excel เป็น TXT ด้วยความแม่นยำเต็มรูปแบบ](./create-new-workbook-export-excel-to-txt-with-full-precision/)
@@ -115,8 +113,6 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

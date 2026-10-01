@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Komentar dan Anotasi Excel
@@ -45,13 +43,13 @@ Pelajari cara menambahkan komentar ke sel Excel menggunakan Aspose.Cells dengan 
 ### [Menambahkan Komentar ke Excel dengan C# – Panduan Lengkap Langkah demi Langkah](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
 Pelajari cara menambahkan komentar ke file Excel menggunakan C# dengan Aspose.Cells for .NET dalam panduan langkah demi langkah yang lengkap.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Buat Workbook Excel C# – Tambahkan Komentar & Simpan sebagai XLSX](./create-excel-workbook-c-add-comment-save-as-xlsx/)
 Pelajari cara membuat workbook Excel dengan C#, menambahkan komentar, dan menyimpannya sebagai file XLSX menggunakan Aspose.Cells untuk .NET.
 
@@ -63,8 +61,6 @@ Pelajari cara membuat file Excel secara programatis, menambahkan komentar, dan m
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

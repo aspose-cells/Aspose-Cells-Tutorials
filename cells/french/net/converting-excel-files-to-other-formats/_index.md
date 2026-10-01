@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Conversion de fichiers Excel vers d'autres formats
@@ -90,13 +88,13 @@ Apprenez à convertir des fichiers XLSX en CSV avec C# en suivant un guide déta
 ### [Convertir Excel en Word – Guide complet avec C#](./convert-excel-to-word-complete-guide-with-c/)
 Apprenez à convertir un fichier Excel en Word avec C# en suivant un guide complet étape par étape.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Enregistrer Excel au format Docx avec C# – Guide complet étape par étape](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 Apprenez à enregistrer un classeur Excel au format DOCX en C# avec Aspose.Cells, étape par étape.
 ### [Créer une présentation PPT à partir d'Excel – Guide complet d'automatisation C#](./create-ppt-from-excel-full-c-automation-guide/)
@@ -126,8 +124,6 @@ Apprenez à enregistrer un classeur Excel au format TXT en conservant les chiffr
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

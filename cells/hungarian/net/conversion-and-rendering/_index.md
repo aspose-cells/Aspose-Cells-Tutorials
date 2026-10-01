@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konverzió és renderelés
@@ -55,13 +53,13 @@ Tanuld meg, hogyan konvertálhatsz DOCX fájlokat SVG formátumba az Aspose.Word
 ### [Betűtípusok beágyazása HTML-be – Teljes útmutató .NET fejlesztőknek](./embed-fonts-in-html-complete-guide-for-net-developers/)
 Ismerd meg, hogyan ágyazhatod be a betűtípusokat HTML-fájlokba az Aspose.Cells segítségével .NET környezetben, lépésről lépésre útmutató.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Excel munkalap PNG-be – Pivot tábla exportálása PNG-ként C#-ban](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 Tanuld meg, hogyan exportálhatsz Pivot táblákat PNG képként C#-ban az Aspose.Cells for .NET használatával.
 
@@ -73,8 +71,6 @@ Tanuld meg, hogyan alakíthatod át a Markdown fájlokat Excel táblázatokká C
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

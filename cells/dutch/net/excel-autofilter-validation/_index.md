@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Autofilter en Validatie
@@ -43,13 +41,13 @@ Leer hoe u met Aspose.Cells de eerste tabel uit een Excel-werkmap haalt in C# me
 ### [Hoe AutoFilter te gebruiken in C# Excel-automatisering – Volledige stapsgewijze handleiding](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
 Leer hoe u AutoFilter in C# kunt toepassen voor Excel-automatisering met een gedetailleerde stap‑voor‑stap handleiding.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Verwijder autofilter in Excel met C# – Complete stapsgewijze gids](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Leer hoe u met Aspose.Cells in .NET een autofilter uit een Excel‑werkblad verwijdert, stap voor stap uitgelegd.
 ### [Duidelijke filter-UI in Excel met C# – Verwijder AutoFilter-knop](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
@@ -60,7 +58,6 @@ Leer hoe u filterpijlen in Excel verbergt met C# en Aspose.Cells voor .NET in de
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

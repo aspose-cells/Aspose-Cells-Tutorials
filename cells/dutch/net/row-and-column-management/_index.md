@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rij- en kolombeheer
@@ -87,13 +85,13 @@ Leer hoe u met Aspose.Cells dynamisch rijen kunt toevoegen om items in Excel te 
 ### [Hoe rijen invoegen in GridJs – Meerdere rijen efficiënt toevoegen aan het raster](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 Leer hoe u meerdere rijen efficiënt kunt toevoegen aan een GridJs‑grid met eenvoudige codevoorbeelden.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Rijen uit Excel-tabel verwijderen met C# – Stapsgewijze handleiding](./delete-rows-excel-table-with-c-step-by-step-guide/)
 Leer hoe u rijen uit een Excel‑tabel verwijdert met C# in een duidelijke, stap‑voor‑stap handleiding.
 ### [Rijen invoegen in Excel met C# – Stapsgewijze handleiding](./insert-rows-in-excel-with-c-step-by-step-guide/)
@@ -106,7 +104,6 @@ Leer hoe u met GridJs meerdere rijen in één keer kunt toevoegen via een eenvou
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

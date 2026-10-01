@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konversi dan Rendering
@@ -55,13 +53,13 @@ Pelajari cara mengonversi file Word (docx) menjadi SVG dengan mudah menggunakan 
 ### [Menyematkan Font dalam HTML – Panduan Lengkap untuk Pengembang .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
 Pelajari cara menyematkan font ke dalam file HTML menggunakan Aspose.HTML untuk .NET dalam panduan lengkap ini.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Lembar Excel ke PNG – Ekspor Pivot Table sebagai PNG dalam C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 Pelajari cara mengekspor Pivot Table dari Excel menjadi gambar PNG menggunakan Aspose.Cells dalam C# dengan langkah mudah.
 
@@ -73,8 +71,6 @@ Pelajari cara mengonversi file markdown menjadi spreadsheet Excel menggunakan As
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

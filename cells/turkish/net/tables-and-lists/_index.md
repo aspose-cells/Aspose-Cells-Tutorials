@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tablolar ve Listeler
@@ -60,13 +58,13 @@ Aspose.Cells for .NET kullanarak C# içinde bir aralıktan tablo oluşturmayı a
 ### [Word Tablosunda Satırları Silme – Tam C# Rehberi](./delete-rows-word-table-complete-c-guide/)
 Aspose.Words for .NET kullanarak Word tablosundaki satırları nasıl sileceğinizi adım adım öğrenin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Aspose.Cells'te Tablo Başlığını Kaldırma – Tam Kılavuz](./remove-table-header-in-aspose-cells-complete-guide/)
 Aspose.Cells for .NET kullanarak Excel tablolarındaki başlığı nasıl kaldıracağınızı adım adım öğrenin.
 ### [C# ile Excel'de Tabloyu Yeniden Adlandırma – Adım Adım Kılavuz](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
@@ -75,7 +73,6 @@ Aspose.Cells for .NET kullanarak Excel'de tabloyu yeniden adlandırmayı adım a
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

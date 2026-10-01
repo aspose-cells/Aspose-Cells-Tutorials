@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # रूपांतरण और प्रतिपादन
@@ -55,13 +53,13 @@ Aspose.Words के साथ .NET में Word फ़ाइलों को S
 ### [HTML में फ़ॉन्ट एम्बेड करना – .NET डेवलपर्स के लिए पूर्ण गाइड](./embed-fonts-in-html-complete-guide-for-net-developers/)
 Aspose.Cells के साथ .NET में HTML फ़ाइलों में फ़ॉन्ट एम्बेड करने की पूरी प्रक्रिया सीखें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Excel शीट को PNG में – C# में पिवट टेबल को PNG के रूप में निर्यात करें](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 Aspose.Cells का उपयोग करके C# में पिवट टेबल को PNG इमेज के रूप में निर्यात करना सीखें।
 
@@ -73,8 +71,6 @@ C# में Aspose.Cells का उपयोग करके मार्कड
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

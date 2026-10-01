@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel 中的数字和显示格式
@@ -37,13 +35,13 @@
 ### [在 C# 中将日期时间格式化为 ISO – 完整指南](./format-datetime-to-iso-in-c-complete-guide/)
 使用 Aspose.Cells for .NET 在 C# 中将日期时间转换为 ISO 8601 格式的完整指南。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [在网格列中格式化货币 – 步骤指南](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 使用 Aspose.Cells for .NET，逐步学习在网格列中设置货币格式的技巧。
 ### [在 Excel 中应用数字格式 – 列格式化的逐步指南](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
@@ -52,7 +50,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

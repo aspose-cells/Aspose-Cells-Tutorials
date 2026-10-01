@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Vlastní formátování čísel a data v Excelu
@@ -55,23 +53,23 @@ Naučte se, jak pomocí Aspose.Cells pro .NET v C# vytvořit Excel sešit s vlas
 ### [Rozparsování japonského data era v C# s Aspose.Cells – Kompletní průvodce](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Naučte se, jak v C# pomocí Aspose.Cells převést a zpracovat japonské datum v éře, včetně podrobného postupu a příkladů.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Nastavení vlastního formátu buňky v C# – Kompletní průvodce zápisem a čtením dat v Excelu](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 V tomto podrobném tutoriálu se naučíte, jak nastavit vlastní formát buňky a pracovat s daty v Excelu pomocí Aspose.Cells pro .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Převod řetězce na DateTime v C# – Zápis a čtení dat v Excelu](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 Naučte se, jak převést řetězec na DateTime a zapisovat a číst data v Excelu pomocí Aspose.Cells pro .NET.
 ### [Jak vytvořit sešit a převést řetězec na datum v C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
@@ -82,8 +80,6 @@ V tomto podrobném tutoriálu se naučíte, jak nastavit formát data v Excelu p
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

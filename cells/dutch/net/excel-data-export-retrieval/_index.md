@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel-gegevens exporteren en ophalen
@@ -39,13 +37,13 @@ Leer in deze stap‑voor‑stap C#‑handleiding hoe u Excel‑gegevens kunt exp
 ### [Werkbladbereik exporteren in C# – Complete programmeergids](./export-worksheet-range-in-c-complete-programming-guide/)
 Leer in deze uitgebreide gids hoe u een bereik van een werkblad kunt exporteren met Aspose.Cells voor .NET in C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Werkmap maken C# – DataTable exporteren naar Excel met opmaak](./create-workbook-c-export-datatable-to-excel-with-formatting/)
 Leer hoe u met Aspose.Cells een Excel-werkmap maakt en een DataTable exporteert met opmaak in C#.
 
@@ -55,7 +53,6 @@ Leer hoe u met Aspose.Cells een nieuwe werkmap maakt en gegevens nauwkeurig naar
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

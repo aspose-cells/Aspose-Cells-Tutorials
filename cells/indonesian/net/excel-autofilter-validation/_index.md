@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Filter Otomatis dan Validasi Excel
@@ -43,13 +41,13 @@ Pelajari cara mengekstrak tabel pertama dari workbook Excel menggunakan Aspose.C
 ### [Cara Menggunakan AutoFilter dalam Otomatisasi Excel C# – Panduan Lengkap Langkah demi Langkah](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
 Panduan lengkap langkah demi langkah menggunakan AutoFilter dalam otomatisasi Excel dengan C# dan Aspose.Cells.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Menghapus Autofilter Excel di C# – Panduan Lengkap Langkah demi Langkah](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Panduan lengkap untuk menghapus autofilter pada file Excel menggunakan Aspose.Cells di C# dengan contoh kode langkah demi langkah.
 ### [Bersihkan UI Filter di Excel dengan C# – Hapus Tombol AutoFilter](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
@@ -60,7 +58,6 @@ Pelajari cara menyembunyikan panah filter di Excel menggunakan C# dengan Aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # คุณสมบัติของเอกสาร
@@ -40,23 +38,23 @@
 ### [วิธีบันทึกไฟล์ XLSB พร้อมคุณสมบัติกำหนดเองใน C# – คู่มือขั้นตอนโดยขั้นตอน](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
 เรียนรู้วิธีบันทึกไฟล์ XLSB พร้อมคุณสมบัติกำหนดเองใน C# ด้วยคู่มือขั้นตอนโดยขั้นตอนของเรา
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [วิธีบันทึก XLSB – เพิ่มคุณสมบัติที่กำหนดเองใน C#](./how-to-save-xlsb-add-custom-property-in-c/)
 เรียนรู้วิธีบันทึกไฟล์ XLSB พร้อมเพิ่มคุณสมบัติที่กำหนดเองโดยใช้ C# และ Aspose.Cells สำหรับ .NET
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [วิธีบันทึกไฟล์ XLSB พร้อมคุณสมบัติกำหนดเอง – คู่มือ C# ทีละขั้นตอน](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
 เรียนรู้วิธีบันทึกไฟล์ XLSB พร้อมคุณสมบัติกำหนดเองใน Aspose.Cells สำหรับ .NET ด้วยคู่มือ C# ทีละขั้นตอน
 ### [สร้างเวิร์กบุ๊ก Excel ด้วย C# – เพิ่มคุณสมบัติแบบกำหนดเองและบันทึกเป็น XLSB](./create-excel-workbook-c-add-custom-property-save-xlsb/)
@@ -67,8 +65,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

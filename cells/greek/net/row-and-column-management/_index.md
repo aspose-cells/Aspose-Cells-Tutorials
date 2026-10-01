@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Διαχείριση γραμμών και στηλών
@@ -83,23 +81,23 @@
 ### [Πώς να εισαγάγετε γραμμές στο GridJs – Προσθήκη πολλαπλών γραμμών στο πλέγμα αποδοτικά](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 Μάθετε πώς να προσθέσετε πολλές γραμμές στο GridJs με αποδοτικό τρόπο, βήμα προς βήμα οδηγίες.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Φόρτωση αρχείου Excel C# – Πώς να διαγράψετε γραμμές και να αφαιρέσετε συγκεκριμένες γραμμές](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Μάθετε πώς να φορτώσετε ένα αρχείο Excel σε C# και να διαγράψετε ή να αφαιρέσετε συγκεκριμένες γραμμές με Aspose.Cells.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Διαγραφή γραμμών πίνακα Excel με C# – Οδηγός βήμα προς βήμα](./delete-rows-excel-table-with-c-step-by-step-guide/)
 Μάθετε πώς να διαγράψετε γραμμές από πίνακα Excel χρησιμοποιώντας C# με αναλυτικές οδηγίες βήμα προς βήμα.
 ### [Εισαγωγή γραμμών στο Excel με C# – Οδηγός βήμα‑βήμα](./insert-rows-in-excel-with-c-step-by-step-guide/)
@@ -112,8 +110,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Πίνακες και Λίστες
@@ -60,13 +58,13 @@
 ### [Διαγραφή γραμμών πίνακα Word – Πλήρης Οδηγός C#](./delete-rows-word-table-complete-c-guide/)
 Μάθετε πώς να διαγράψετε γραμμές από πίνακα Word χρησιμοποιώντας το Aspose.Words για .NET σε αυτόν τον πλήρη οδηγό C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Αφαίρεση κεφαλίδας πίνακα στο Aspose.Cells – Πλήρης οδηγός](./remove-table-header-in-aspose-cells-complete-guide/)
 Μάθετε πώς να αφαιρέσετε την κεφαλίδα ενός πίνακα στο Excel με το Aspose.Cells για .NET.
 ### [Πώς να μετονομάσετε πίνακα στο Excel με C# – Οδηγός βήμα προς βήμα](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
@@ -75,7 +73,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

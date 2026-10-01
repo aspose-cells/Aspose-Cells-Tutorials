@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การจัดการแถวและคอลัมน์
@@ -85,13 +83,13 @@
 ### [วิธีแทรกแถวใน GridJs – เพิ่มหลายแถวใน Grid อย่างมีประสิทธิภาพ](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 เรียนรู้วิธีแทรกหลายแถวใน GridJs อย่างมีประสิทธิภาพด้วยขั้นตอนที่เข้าใจง่าย
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [ลบแถวในตาราง Excel ด้วย C# – คู่มือขั้นตอนโดยละเอียด](./delete-rows-excel-table-with-c-step-by-step-guide/)
 เรียนรู้วิธีลบแถวในตาราง Excel ด้วย C# อย่างละเอียดตามขั้นตอน
 ### [แทรกแถวใน Excel ด้วย C# – คู่มือทีละขั้นตอน](./insert-rows-in-excel-with-c-step-by-step-guide/)
@@ -104,7 +102,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

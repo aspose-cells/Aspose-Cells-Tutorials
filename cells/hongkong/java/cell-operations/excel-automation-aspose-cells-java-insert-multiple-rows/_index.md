@@ -11,9 +11,8 @@ url: /zh-hant/java/cell-operations/excel-automation-aspose-cells-java-insert-mul
 weight: 1
 ---
 
- unchanged.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

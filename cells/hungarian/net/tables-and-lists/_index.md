@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Táblázatok és listák
@@ -61,13 +59,13 @@ Tanulja meg, hogyan törölhet sorokat egy Word táblázatból C#-ban az Aspose.
 ### [Excel-tábla létrehozása C#‑ban – Lépés‑ről‑lépésre útmutató](./create-excel-table-in-c-step-by-step-guide/)
 Tanulja meg, hogyan hozhat létre Excel‑táblákat C#‑ban az Aspose.Cells for .NET segítségével lépésről‑lépésre.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Táblázatfejléc eltávolítása Aspose.Cells-ben – Teljes útmutató](./remove-table-header-in-aspose-cells-complete-guide/)
 Tanuld meg, hogyan távolíthatod el a táblázatfejlécet Aspose.Cells for .NET használatával lépésről lépésre útmutatóban.
 ### [Hogyan nevezzen át egy táblázatot Excelben C#‑val – Lépésről‑lépésre útmutató](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
@@ -76,7 +74,6 @@ Tanulja meg, hogyan nevezhet át táblázatot Excelben C#‑ban egyszerű, rész
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

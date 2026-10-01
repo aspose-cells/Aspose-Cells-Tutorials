@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Obsługa plików CSV
@@ -42,13 +40,13 @@ Dowiedz się, jak w C# zapisać plik Excel (XLSX) jako CSV, korzystając z Aspos
 ### [Utwórz nowy skoroszyt i wyeksportuj do CSV – Przewodnik krok po kroku w C#](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 Dowiedz się, jak w C# utworzyć nowy skoroszyt i wyeksportować go do formatu CSV przy użyciu Aspose.Cells.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Eksport tabeli do CSV – Kompletny przewodnik C# z niestandardowymi formatami liczb](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
 Dowiedz się, jak wyeksportować tabelę do CSV w C#, używając własnych formatów liczb, krok po kroku.
 ### [Eksport tabeli do CSV w C# – Kompletny przewodnik](./export-table-to-csv-in-c-complete-guide/)
@@ -57,7 +55,6 @@ Dowiedz się, jak w C# wyeksportować tabelę do pliku CSV, korzystając z Aspos
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

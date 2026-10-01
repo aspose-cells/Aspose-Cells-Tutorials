@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Propriedades do documento
@@ -40,23 +38,23 @@ Aprenda a criar uma pasta de trabalho Excel, adicionar propriedades personalizad
 ### [Como salvar XLSB com propriedades personalizadas em C# – Guia passo a passo](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
 Aprenda a salvar arquivos XLSB com propriedades personalizadas usando Aspose.Cells para .NET em C# com este guia passo a passo.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Como salvar XLSB – Adicionar propriedade personalizada em C#](./how-to-save-xlsb-add-custom-property-in-c/)
 Aprenda a salvar arquivos XLSB e inserir propriedades personalizadas em C# usando Aspose.Cells.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Como salvar XLSB com uma propriedade personalizada – Guia passo a passo em C#](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
 Aprenda a salvar arquivos XLSB com uma propriedade personalizada usando Aspose.Cells para .NET em C#.
 ### [Criar Pasta de Trabalho Excel C# – Adicionar Propriedade Personalizada e Salvar XLSB](./create-excel-workbook-c-add-custom-property-save-xlsb/)
@@ -67,8 +65,6 @@ Aprenda a adicionar uma propriedade personalizada em planilhas Excel usando C# c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

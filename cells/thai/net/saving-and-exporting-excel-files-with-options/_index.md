@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การบันทึกและส่งออกไฟล์ Excel ด้วยตัวเลือก
@@ -49,20 +47,19 @@ Aspose.Cells สำหรับ .NET มอบเครื่องมืออ�
 ### [วิธีใช้ FlatOpcSaveOptions ใน C# – คู่มือฉบับสมบูรณ์](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
 เรียนรู้วิธีใช้ FlatOpcSaveOptions เพื่อบันทึกไฟล์ Excel ด้วยตัวเลือกที่กำหนดใน C# อย่างละเอียด
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [วิธีบันทึก Workbook ใน C# – คู่มือครบถ้วนสำหรับการล้างตัวกรองและการส่งออก Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
 เรียนรู้วิธีบันทึก Workbook ใน C# พร้อมล้างตัวกรองและส่งออกไฟล์ Excel อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

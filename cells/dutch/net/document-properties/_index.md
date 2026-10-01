@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Documenteigenschappen
@@ -40,23 +38,23 @@ Leer hoe u een Excel-werkmap maakt, aangepaste eigenschappen toevoegt en deze op
 ### [Hoe XLSB op te slaan met aangepaste eigenschappen in C# – Stapsgewijze handleiding](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
 Leer hoe u een XLSB-bestand opslaat met aangepaste documenteigenschappen in C# met onze stap‑voor‑stap handleiding.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Hoe XLSB op te slaan – aangepaste eigenschap toevoegen in C#](./how-to-save-xlsb-add-custom-property-in-c/)
 Leer hoe u een aangepaste eigenschap toevoegt aan een XLSB-bestand met Aspose.Cells voor .NET in C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Hoe XLSB op te slaan met een aangepaste eigenschap – Stapsgewijze C#‑gids](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
 Leer hoe u een XLSB-bestand opslaat met een aangepaste eigenschap in C# met Aspose.Cells.
 ### [Excel-werkmap maken C# – Aangepaste eigenschap toevoegen en XLSB opslaan](./create-excel-workbook-c-add-custom-property-save-xlsb/)
@@ -67,8 +65,6 @@ Leer hoe u een aangepaste eigenschap toevoegt aan een Excel‑bestand met C# met
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

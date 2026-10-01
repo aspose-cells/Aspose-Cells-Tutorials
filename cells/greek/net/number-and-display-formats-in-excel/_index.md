@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Μορφές αριθμών και εμφάνισης στο Excel
@@ -37,13 +35,13 @@
 ### [Μορφοποίηση ημερομηνίας/ώρας σε ISO σε C# – Πλήρης Οδηγός](./format-datetime-to-iso-in-c-complete-guide/)
 Μάθετε πώς να μετατρέψετε ημερομηνίες σε μορφή ISO χρησιμοποιώντας C# με Aspose.Cells για .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [πώς να μορφοποιήσετε το νόμισμα σε μια στήλη πλέγματος – Οδηγός βήμα‑βήμα](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 Μάθετε πώς να μορφοποιήσετε νομίσματα σε στήλες πλέγματος χρησιμοποιώντας Aspose.Cells για .NET, βήμα προς βήμα.
 ### [Εφαρμογή μορφής αριθμού στο Excel – Οδηγός βήμα‑βήμα για μορφοποίηση στηλών](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
@@ -52,7 +50,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

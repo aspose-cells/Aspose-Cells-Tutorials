@@ -8,9 +8,7 @@ url: /net/excel-data-export-retrieval/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Data Export and Retrieval
@@ -40,13 +38,13 @@ Learn how to export Excel data in C# using Aspose.Cells for .NET, with a detaile
 ### [Export worksheet range in C# – Complete Programming Guide](./export-worksheet-range-in-c-complete-programming-guide/)
 Learn how to export a specific worksheet range to various formats using Aspose.Cells for .NET in C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Create Workbook C# – Export DataTable to Excel with Formatting](./create-workbook-c-export-datatable-to-excel-with-formatting/)
 Learn how to create a workbook in C# and export a DataTable to Excel with formatting using Aspose.Cells for .NET.
 
@@ -56,7 +54,6 @@ Learn how to create a new workbook and export Excel data to a TXT file with prec
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

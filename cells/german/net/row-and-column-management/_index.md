@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zeilen- und Spaltenverwaltung
@@ -83,13 +81,13 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET wiederholende Elemente in Excel
 ### [Wie man Zeilen in GridJs einfügt – Mehrere Zeilen effizient zum Grid hinzufügen](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 Erfahren Sie, wie Sie mit GridJs mehrere Zeilen effizient in ein Grid einfügen. Schritt-für-Schritt-Anleitung für .NET-Entwickler.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Excel-Datei laden C# – Zeilen löschen und bestimmte Zeilen entfernen](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien in C# laden und gezielt Zeilen löschen oder bestimmte Zeilen entfernen.
 ### [Zeilen aus Excel‑Tabelle mit C# löschen – Schritt‑für‑Schritt‑Anleitung](./delete-rows-excel-table-with-c-step-by-step-guide/)
@@ -104,8 +102,6 @@ Erfahren Sie, wie Sie mit GridJs mehrere Zeilen schnell in Ihre Tabelle einfüge
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

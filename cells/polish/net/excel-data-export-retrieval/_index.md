@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Eksport i pobieranie danych z programu Excel
@@ -39,13 +37,13 @@ Dowiedz się, jak wyeksportować dane z programu Excel przy użyciu Aspose.Cells
 ### [Eksport zakresu arkusza w C# – Kompletny przewodnik programistyczny](./export-worksheet-range-in-c-complete-programming-guide/)
 Dowiedz się, jak wyeksportować zakres arkusza w C# przy użyciu Aspose.Cells, krok po kroku, dla programistów .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Utwórz skoroszyt w C# – Eksportuj DataTable do Excela z formatowaniem](./create-workbook-c-export-datatable-to-excel-with-formatting/)
 Dowiedz się, jak w C# utworzyć skoroszyt i wyeksportować DataTable do Excela, zachowując formatowanie komórek.
 
@@ -55,7 +53,6 @@ Dowiedz się, jak w C# utworzyć nowy skoroszyt i precyzyjnie wyeksportować jeg
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

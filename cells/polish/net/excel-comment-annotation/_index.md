@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Komentarze i adnotacje w programie Excel
@@ -46,13 +44,13 @@ Dowiedz się, jak w C# tworzyć skoroszyt Excel i automatycznie dodawać oraz wy
 ### [Dodaj komentarz do Excela w C# - Kompletny przewodnik krok po kroku](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
 Poznaj, jak dodać komentarz do arkusza Excel przy użyciu C# i Aspose.Cells dla .NET w pełnym przewodniku krok po kroku.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Utwórz skoroszyt Excel w C# – Dodaj komentarz i zapisz jako XLSX](./create-excel-workbook-c-add-comment-save-as-xlsx/)
 Dowiedz się, jak w C# utworzyć skoroszyt Excel, dodać komentarz i zapisać go jako plik XLSX przy użyciu Aspose.Cells.
 
@@ -64,8 +62,6 @@ Dowiedz się, jak programowo tworzyć plik Excel, dodawać komentarze i zapisywa
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

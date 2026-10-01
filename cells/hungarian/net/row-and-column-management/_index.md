@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sor- és oszlopkezelés
@@ -90,13 +88,13 @@ Ismerje meg, hogyan hozhat létre dinamikusan sorokat az Excelben C# segítség�
 ### [Aspose Cells sorok törlése – Fejléc sor védelme Excelben](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 Ismerje meg, hogyan törölhet sorokat úgy, hogy a fejléc sort megőrizze az Excel-fájlban az Aspose.Cells for .NET használatával.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Sorok törlése Excel táblázatból C#‑val – Lépésről lépésre útmutató](./delete-rows-excel-table-with-c-step-by-step-guide/)
 Ismerje meg, hogyan törölhet több sort egy Excel‑táblázatból C#‑ban az Aspose.Cells for .NET segítségével.
 ### [Sorok beszúrása Excelben C#‑val – Lépésről‑lépésre útmutató](./insert-rows-in-excel-with-c-step-by-step-guide/)
@@ -109,7 +107,6 @@ Ismerje meg, hogyan adhat hozzá több sort egyszerre a GridJs táblázathoz gyo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

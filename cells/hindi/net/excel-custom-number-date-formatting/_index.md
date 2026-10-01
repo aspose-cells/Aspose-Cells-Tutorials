@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # एक्सेल कस्टम संख्या और दिनांक स्वरूपण
@@ -55,23 +53,23 @@ C# का उपयोग करके Excel में तिथियों क
 ### [C# में Aspose.Cells के साथ जापानी युग तिथि को पार्स करें – पूर्ण गाइड](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 इस ट्यूटोरियल में सीखें कि .NET के लिए Aspose.Cells का उपयोग करके जापानी युग तिथि को C# में कैसे पार्स करें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [C# में सेल कस्टम फ़ॉर्मेट सेट करें – Excel में तिथियों को लिखने और पढ़ने की पूर्ण गाइड](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 इस गाइड में .NET के लिए Aspose.Cells का उपयोग करके Excel में तिथियों को लिखने और पढ़ने के लिए सेल कस्टम फ़ॉर्मेट कैसे सेट करें, सीखें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [C# में स्ट्रिंग को DateTime में बदलें – Excel में तिथियों को लिखें और पढ़ें](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 इस ट्यूटोरियल में सीखें कि C# में स्ट्रिंग को DateTime में कैसे बदलें और Excel में तिथियों को लिखें व पढ़ें।
 ### [C# में वर्कबुक बनाना और स्ट्रिंग को तिथि में बदलना](./how-to-create-workbook-and-convert-string-to-date-in-c/)
@@ -82,8 +80,6 @@ C# का उपयोग करके Excel में तिथि स्वर
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

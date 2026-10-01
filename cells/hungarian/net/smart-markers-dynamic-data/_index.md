@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Intelligens jelölők az Aspose.Cells-ben dinamikus adatokhoz
@@ -113,13 +111,13 @@ Ismerje meg, hogyan helyettesítheti a változókat JSON-ban SmartMarkerrel, hog
 ### [Excel sablon feltöltése – Adatok kitöltése SmartMarkerrel](./populate-excel-template-fill-excel-data-via-smartmarker/)
 Ismerje meg, hogyan tölthet fel egy Excel sablont adatokal SmartMarker használatával lépésről lépésre útmutatóval.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Kedvezmény sablon létrehozása C#‑ban – Lépés‑ről‑lépésre útmutató](./create-discount-template-in-c-step-by-step-guide/)
 Ismerje meg, hogyan hozhat létre kedvezmény sablont C#‑ban az Aspose.Cells segítségével, részletes lépésekkel a dinamikus Excel-jelentéshez.
 
@@ -158,7 +156,6 @@ Ismerje meg, hogyan hozhat létre feltételes cellaértékeket Smart Marker seg�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

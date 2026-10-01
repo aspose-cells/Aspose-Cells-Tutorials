@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konvertera Excel-filer till andra format
@@ -79,13 +77,13 @@ Lär dig hur du konverterar XLSX-filer till CSV i C# med en komplett steg‑för
 ### [Konvertera Excel till Word – Komplett guide med C#](./convert-excel-to-word-complete-guide-with-c/)
 Lär dig hur du konverterar Excel-filer till Word med Aspose.Cells för .NET i en komplett steg‑för‑steg‑guide.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Skapa PPT från Excel – Fullständig C#-automatiseringsguide](./create-ppt-from-excel-full-c-automation-guide/)Lär dig hur du automatiskt skapar PowerPoint-presentationer från Excel med Aspose.Cells i C# med en komplett steg-för-steg-guide.
 ### [Skapa ny arbetsbok – Exportera Excel till TXT med full precision](./create-new-workbook-export-excel-to-txt-with-full-precision/)
 Lär dig hur du skapar en ny arbetsbok och exporterar Excel till TXT med full precision i Aspose.Cells för .NET.
@@ -117,8 +115,6 @@ Lär dig hur du exporterar Excel-data till tab‑avgränsad text med Aspose.Cell
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

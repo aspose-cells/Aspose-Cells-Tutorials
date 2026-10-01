@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Slimme markeringen in Aspose.Cells voor dynamische gegevens
@@ -118,13 +116,13 @@ Leer hoe u JSON-gegevens eenvoudig omzet naar Excel-bestanden met C# en Aspose.C
 ### [Werkboek maken vanuit XLSX met Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
 Leer hoe u een werkboek kunt maken vanuit een XLSX-bestand met SmartMarkerProcessor in Aspose.Cells voor .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Automatisch Excel-bladen benoemen – Gemakkelijke manier om bladen te genereren](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
 Leer hoe u met Aspose.Cells automatisch namen aan Excel-werkbladen toekent, waardoor het genereren van meerdere bladen eenvoudig wordt.
 ### [Hoe maak je een werkmap met slimme markeringen – Aspose.Cells-gids](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
@@ -156,7 +154,6 @@ Leer hoe u met SmartMarker een master‑detailrapport maakt door een Excel‑sja
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

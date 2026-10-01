@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Esportazione e recupero dati Excel
@@ -39,13 +37,13 @@ Impara a esportare dati da Excel con Aspose.Cells per .NET usando C# in questa g
 ### [Esporta intervallo di foglio di lavoro in C# – Guida completa di programmazione](./export-worksheet-range-in-c-complete-programming-guide/)
 Scopri come esportare un intervallo di foglio di lavoro in C# usando Aspose.Cells per .NET in questa guida completa.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Crea cartella di lavoro C# – Esporta DataTable in Excel con formattazione](./create-workbook-c-export-datatable-to-excel-with-formatting/)
 Impara a creare una cartella di lavoro C# ed esportare un DataTable in Excel applicando formattazioni avanzate con Aspose.Cells.
 
@@ -55,7 +53,6 @@ Impara a creare una nuova cartella di lavoro e a esportare i dati Excel in forma
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

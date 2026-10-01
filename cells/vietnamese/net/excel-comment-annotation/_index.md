@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bình luận và chú thích Excel
@@ -45,13 +43,13 @@ Tìm hiểu cách thêm bình luận vào ô Excel bằng Aspose.Cells C# cho .N
 ### [Thêm bình luận vào Excel bằng C# – Hướng dẫn chi tiết từng bước](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
 Tìm hiểu cách thêm bình luận vào Excel bằng C# sử dụng Aspose.Cells cho .NET. Hướng dẫn chi tiết từng bước.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Tạo Workbook Excel C# – Thêm Bình luận & Lưu dưới dạng XLSX](./create-excel-workbook-c-add-comment-save-as-xlsx/)
 Tìm hiểu cách tạo workbook Excel bằng C#, thêm bình luận và lưu dưới dạng XLSX bằng Aspose.Cells cho .NET.
 
@@ -63,8 +61,6 @@ Hướng dẫn tạo tệp Excel bằng mã, chèn bình luận và lưu dưới
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

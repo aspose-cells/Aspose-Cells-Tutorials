@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel 数据导出和检索
@@ -39,13 +37,13 @@
 ### [在 C# 中导出工作表范围 – 完整编程指南](./export-worksheet-range-in-c-complete-programming-guide/)
 通过本分步教程学习如何使用 Aspose.Cells for .NET 在 C# 中导出工作表范围，适合各类开发人员。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [创建工作簿 C# – 将 DataTable 导出到 Excel 并进行格式化](./create-workbook-c-export-datatable-to-excel-with-formatting/)
 通过本分步教程学习如何使用 Aspose.Cells for .NET 将 DataTable 导出到 Excel 并应用格式设置，适合所有开发人员。
 
@@ -55,7 +53,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formatage personnalisé des nombres et des dates dans Excel
@@ -55,23 +53,23 @@ Apprenez à créer un classeur Excel avec un format personnalisé en C# à l'aid
 ### [Analyser la date d'ère japonaise en C# avec Aspose.Cells – Guide complet](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Apprenez à analyser les dates du calendrier japonais en C# à l'aide d'Aspose.Cells grâce à ce guide complet.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Définir le format personnalisé d'une cellule en C# – Guide complet pour écrire et lire des dates dans Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 Apprenez à appliquer et lire des formats de date personnalisés dans Excel avec Aspose.Cells pour .NET en C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Convertir une chaîne en DateTime en C# – Écrire et lire des dates dans Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 Apprenez à convertir des chaînes en objets DateTime et à écrire/lire des dates dans Excel avec Aspose.Cells pour .NET.
 ### [Comment créer un classeur et convertir une chaîne en date en C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
@@ -82,8 +80,6 @@ Apprenez à définir le format de date dans Excel avec C# grâce à un guide com
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

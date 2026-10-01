@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Salvataggio ed esportazione di file Excel con opzioni
@@ -49,20 +47,19 @@ Scopri come salvare una cartella di lavoro in C# con Aspose.Cells, seguendo una 
 ### [Guida completa all'uso di FlatOpcSaveOptions in C#](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
 Scopri come utilizzare FlatOpcSaveOptions per salvare file Excel con opzioni avanzate in C# con questa guida passo passo.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Come salvare una cartella di lavoro in C# – Guida completa per rimuovere i filtri ed esportare Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
 Scopri come rimuovere i filtri e salvare ed esportare un file Excel usando Aspose.Cells per .NET con C# in pochi passaggi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

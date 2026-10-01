@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dokumenteigenschaften
@@ -40,23 +38,23 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe erstell
 ### [Speichern von XLSB mit benutzerdefinierten Eigenschaften in C# – Schritt‑für‑Schritt‑Anleitung](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET XLSB-Dateien speichern und benutzerdefinierte Dokumenteigenschaften hinzufügen.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Wie man XLSB speichert – Benutzerdefinierte Eigenschaft in C# hinzufügen](./how-to-save-xlsb-add-custom-property-in-c/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine benutzerdefinierte Eigenschaft zu einer XLSB-Datei hinzufügen und speichern.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Wie man XLSB mit einer benutzerdefinierten Eigenschaft speichert – Schritt‑für‑Schritt C#‑Leitfaden](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
 Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.Cells für .NET XLSB-Dateien mit einer benutzerdefinierten Eigenschaft speichern.
 ### [Excel-Arbeitsmappe erstellen in C# – Benutzerdefinierte Eigenschaft hinzufügen & XLSB speichern](./create-excel-workbook-c-add-custom-property-save-xlsb/)
@@ -67,8 +65,6 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET benutzerdefinierte Eigenschafte
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

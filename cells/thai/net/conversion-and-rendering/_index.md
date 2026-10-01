@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การแปลงและการเรนเดอร์
@@ -57,13 +55,13 @@
 ### [ฝังฟอนต์ใน HTML – คู่มือเต็มสำหรับนักพัฒนา .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
 เรียนรู้วิธีฝังฟอนต์ในไฟล์ HTML ด้วย Aspose.Cells สำหรับ .NET เพื่อให้การแสดงผลสอดคล้องทุกอุปกรณ์
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [แปลงชีต Excel เป็น PNG – ส่งออก Pivot Table เป็น PNG ใน C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 เรียนรู้วิธีส่งออก Pivot Table จากไฟล์ Excel เป็นรูปภาพ PNG ด้วย Aspose.Cells ใน C# อย่างง่ายและรวดเร็ว
 
@@ -75,8 +73,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
