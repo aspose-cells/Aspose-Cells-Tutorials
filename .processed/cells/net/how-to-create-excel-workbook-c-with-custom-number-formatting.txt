@@ -1,0 +1,7 @@
+Title: How to create Excel workbook C# with custom number formatting
+Slug: how-to-create-excel-workbook-c-with-custom-number-formatting
+Category: excel-custom-number-date-formatting
+ProcessedDate: 2026-10-01T11:49:42.235839
+SourceRepo: AI Search API
+Keywords: create excel workbook c#, apply custom number format, how to format numbers excel, set cell decimal places, save workbook as xlsx
+PRNumber: 174
