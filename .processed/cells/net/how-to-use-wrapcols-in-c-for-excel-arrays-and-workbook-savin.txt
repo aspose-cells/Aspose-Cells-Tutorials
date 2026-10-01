@@ -1,0 +1,7 @@
+Title: How to use WRAPCOLS in C# for Excel arrays and workbook saving
+Slug: how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin
+Category: excel-formulas-and-calculation-options
+ProcessedDate: 2026-10-01T11:50:18.913249
+SourceRepo: AI Search API
+Keywords: how to use wrapcols, force formula calculation, write excel file c#, save workbook to file, how to add formula excel
+PRNumber: 174
