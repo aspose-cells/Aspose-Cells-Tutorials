@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Управление строками и столбцами
@@ -83,13 +81,13 @@
 ### [Как вставить строки в GridJs – эффективно добавить несколько строк в сетку](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 Пошаговое руководство по вставке нескольких строк в GridJs для эффективного управления данными.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Загрузка Excel-файла C# – Как удалить строки и удалить конкретные строки](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Пошаговое руководство по загрузке Excel-файла в C# и удалению отдельных или выбранных строк.
 ### [Удалить строки в таблице Excel с C# – пошаговое руководство](./delete-rows-excel-table-with-c-step-by-step-guide/)
@@ -104,8 +102,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

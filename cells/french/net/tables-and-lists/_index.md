@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tableaux et listes
@@ -65,13 +63,13 @@ Apprenez à créer un tableau Excel à partir d'une plage de cellules en C# avec
 ### [Comment renommer un tableau en C# – Guide complet](./how-to-rename-table-in-c-full-guide/)
 Apprenez à renommer un tableau dans Excel en utilisant C# avec Aspose.Cells pour .NET grâce à ce guide complet étape par étape.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Supprimer l'en-tête de tableau dans Aspose.Cells – Guide complet](./remove-table-header-in-aspose-cells-complete-guide/)
 Apprenez à supprimer l'en-tête d'un tableau Excel avec Aspose.Cells grâce à ce guide complet étape par étape.
 ### [Comment renommer un tableau dans Excel avec C# – Guide étape par étape](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
@@ -80,7 +78,6 @@ Apprenez à renommer un tableau Excel en C# avec Aspose.Cells grâce à ce guide
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

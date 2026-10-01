@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตารางและรายการ
@@ -58,13 +56,13 @@
 ### [วิธีเปลี่ยนชื่อตารางใน C# – คู่มือเต็ม](./how-to-rename-table-in-c-full-guide/)
 เรียนรู้วิธีเปลี่ยนชื่อตารางใน Excel ด้วย Aspose.Cells สำหรับ .NET ด้วยโค้ด C# อย่างละเอียดและง่ายต่อการทำตาม
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [วิธีเปลี่ยนชื่อตารางใน Excel ด้วย C# – คู่มือทีละขั้นตอน](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
 เรียนรู้วิธีเปลี่ยนชื่อตารางใน Excel ด้วย C# ด้วยคู่มือขั้นตอนที่ชัดเจนและง่ายต่อการทำตาม
 ### [การลบส่วนหัวของตารางใน Aspose.Cells – คู่มือฉบับสมบูรณ์](./remove-table-header-in-aspose-cells-complete-guide/)
@@ -73,7 +71,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

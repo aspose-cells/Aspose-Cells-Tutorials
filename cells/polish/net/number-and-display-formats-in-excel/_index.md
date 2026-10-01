@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formaty liczb i wyświetlania w programie Excel
@@ -37,13 +35,13 @@ Dowiedz się, jak wyeksportować arkusz Excel zachowując formatowanie liczb prz
 ### [Formatowanie daty i czasu do ISO w C# – Kompletny przewodnik](./format-datetime-to-iso-in-c-complete-guide/)
 Dowiedz się, jak w C# konwertować daty i czasy do formatu ISO przy użyciu Aspose.Cells dla .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Jak sformatować walutę w kolumnie siatki – przewodnik krok po kroku](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 Poznaj krok po kroku, jak sformatować walutę w kolumnie siatki przy użyciu Aspose.Cells dla .NET.
 ### [Zastosowanie formatu liczbowego w Excelu – Przewodnik krok po kroku formatowania kolumn](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
@@ -52,7 +50,6 @@ Dowiedz się, jak programowo zastosować format liczbowy w Excelu i sformatować
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

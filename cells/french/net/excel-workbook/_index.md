@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # classeur Excel
@@ -92,22 +90,22 @@ Alors pourquoi ne pas saisir cette occasion d'améliorer vos compétences Excel�
 | [Créer un classeur Excel C# – Guide complet avec Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | Apprenez à créer un classeur Excel en C# avec Aspose.Cells grâce à ce guide complet étape par étape. |
 | [Créer un classeur Excel en C# – Guide complet de programmation](./create-excel-workbook-in-c-complete-programming-guide/) | Apprenez à créer un classeur Excel en C# avec Aspose.Cells pour .NET grâce à ce guide complet étape par étape. |  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 | [Créer un classeur Excel avec tableau stylisé – Guide étape par étape](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Apprenez à créer un classeur Excel contenant un tableau formaté avec Aspose.Cells pour .NET, grâce à un guide détaillé pas à pas. |  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 | [Créer un nouveau classeur en C# – Guide étape par étape](./create-new-workbook-in-c-step-by-step-guide/) | Apprenez à créer un nouveau classeur Excel en C# avec Aspose.Cells pour .NET grâce à ce guide détaillé étape par étape. |  
 | [Créer un nouveau classeur Excel en C# – Guide étape par étape](./create-new-excel-workbook-in-c-step-by-step-guide/) | Apprenez à créer un nouveau classeur Excel en C# avec Aspose.Cells pour .NET grâce à ce guide détaillé étape par étape. |
 | [Créer un nouveau classeur en C# – Ajouter une formule et enregistrer le fichier Excel](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Apprenez à créer un nouveau classeur, ajouter une formule et enregistrer le fichier Excel avec Aspose.Cells pour .NET. |
@@ -123,8 +121,6 @@ Alors pourquoi ne pas saisir cette occasion d'améliorer vos compétences Excel�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

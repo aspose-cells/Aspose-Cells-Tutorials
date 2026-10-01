@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells の動的データ用スマートマーカー
@@ -112,13 +110,13 @@ Aspose.Cells のスマートマーカーを活用し、条件に応じてセル�
 ### [Smart Marker を使用してデータを Excel にエクスポートする – 完全 C# ガイド](./export-data-to-excel-with-smart-marker-full-c-guide/)
 ### [Excel テンプレートにデータを入力 – SmartMarker で Excel データを埋め込む](./populate-excel-template-fill-excel-data-via-smartmarker/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Excelでデータを繰り返す – スマートマーカーでテンプレートにデータを埋め込む](./repeat-data-in-excel-populate-template-with-smartmarker/)
 スマートマーカーを使い、テンプレートの行を繰り返し生成し、データを自動的に埋め込む方法を解説します。
 ### [スマートマーカーでワークブックを作成する – 出力（High Low）](./how-to-create-workbook-with-smart-markers-output-high-low/)
@@ -148,7 +146,6 @@ SmartMarker を使用して、マスターディテイル構造のデータを E
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

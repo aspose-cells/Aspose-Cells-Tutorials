@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Έξυπνοι δείκτες στο Aspose.Cells για δυναμικά δεδομένα
@@ -110,13 +108,13 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 ### [Εξαγωγή δεδομένων σε Excel με Smart Marker – Πλήρης οδηγός C#](./export-data-to-excel-with-smart-marker-full-c-guide/)
 Μάθετε πώς να εξάγετε δεδομένα σε αρχεία Excel χρησιμοποιώντας Smart Marker με πλήρη οδηγό C# βήμα προς βήμα.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Πώς να δημιουργήσετε ιεραρχία με SmartMarker – Οδηγός βήμα‑βήμα](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε ιεραρχικές δομές σε Excel χρησιμοποιώντας SmartMarker, βήμα‑βήμα με παραδείγματα κώδικα.
 
@@ -151,7 +149,6 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

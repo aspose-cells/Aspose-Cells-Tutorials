@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Slimme markeringen in Aspose.Cells voor dynamische gegevens
@@ -112,13 +110,13 @@ Leer hoe u met Aspose.Cells gegevens uit meerdere bronnen samenvoegt in Excel vi
 ### [Excel-sjabloon maken met Smart Markers in C# – Volledige gids](./create-excel-template-with-smart-markers-in-c-complete-guide/)
 Leer stap voor stap hoe u een Excel-sjabloon maakt met Smart Markers in C# voor dynamische rapportgeneratie.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Automatisch Excel-bladen benoemen – Gemakkelijke manier om bladen te genereren](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
 Leer hoe u met Aspose.Cells automatisch namen aan Excel-werkbladen toekent, waardoor het genereren van meerdere bladen eenvoudig wordt.
 ### [Hoe maak je een werkmap met slimme markeringen – Aspose.Cells-gids](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
@@ -150,7 +148,6 @@ Leer hoe u met SmartMarker een master‑detailrapport maakt door een Excel‑sja
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

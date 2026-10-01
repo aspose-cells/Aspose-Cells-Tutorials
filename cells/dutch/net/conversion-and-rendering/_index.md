@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Conversie en rendering
@@ -55,13 +53,13 @@ Leer hoe u Word-documenten naar SVG converteert met Aspose.Words voor .NET in de
 ### [Lettertypen insluiten in HTML – Volledige gids voor .NET-ontwikkelaars](./embed-fonts-in-html-complete-guide-for-net-developers/)
 Leer hoe u lettertypen in HTML insluit met Aspose.Cells voor .NET in deze stapsgewijze volledige gids.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Excel-werkblad naar PNG – Exporteer een draaitabel als PNG in C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 Leer hoe u met Aspose.Cells een draaitabel uit een Excel-werkblad exporteert als PNG-afbeelding in C#.
 
@@ -73,8 +71,6 @@ Leer hoe je markdown-bestanden omzet naar Excel met een volledige C#-handleiding
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

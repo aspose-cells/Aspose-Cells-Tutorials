@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aangepaste getal- en datumnotatie in Excel
@@ -51,23 +49,23 @@ Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap maakt in C# en een aange
 ### [Hoe een datum in Excel te parseren met C# – Complete gids](./how-to-parse-date-in-excel-with-c-complete-guide/)
 Leer hoe u met Aspose.Cells voor .NET datumwaarden in Excel kunt parseren met C# in deze volledige gids.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Cel aangepast formaat instellen in C# – Complete gids voor het schrijven en lezen van datums in Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 Leer hoe u met Aspose.Cells voor .NET aangepaste celopmaak instelt en datumwaarden correct schrijft en leest in Excel.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [String naar DateTime converteren in C# – Datums schrijven en lezen in Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 Leer hoe u met Aspose.Cells voor .NET strings naar DateTime converteert en datums in Excel schrijft en leest.
 ### [Hoe een werkmap te maken en een tekenreeks naar datum te converteren in C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
@@ -78,8 +76,6 @@ Leer hoe u met Aspose.Cells voor .NET het datumformaat in Excel instelt via C# m
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

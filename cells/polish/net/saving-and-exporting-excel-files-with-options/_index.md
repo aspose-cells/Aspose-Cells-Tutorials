@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zapisywanie i eksportowanie plików Excel z opcjami
@@ -49,20 +47,19 @@ Dowiedz się, jak zapisać skoroszyt w C# przy użyciu Aspose.Cells, krok po kro
 ### [Jak używać FlatOpcSaveOptions w C# – Kompletny przewodnik](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
 Pełny przewodnik pokazujący, jak skonfigurować i zastosować FlatOpcSaveOptions w C# przy zapisywaniu plików przy użyciu Aspose.Cells.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Jak zapisać skoroszyt w C# – Kompletny przewodnik po czyszczeniu filtrów i eksportowaniu Excela](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
 Dowiedz się, jak zapisać skoroszyt, usunąć filtry i wyeksportować plik Excel w C# przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

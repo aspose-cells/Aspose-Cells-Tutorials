@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel fájlok konvertálása más formátumokba
@@ -82,13 +80,13 @@ Ismerje meg, hogyan hozhat létre PowerPoint‑prezentációt Excel‑adatokból
 ### [Nyomtatási terület beállítása Excelben és exportálás PowerPointba – Lépés‑ről‑lépésre útmutató](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
 Ismerje meg, hogyan állíthat be nyomtatási területet Excelben, majd exportálhatja a munkalapot PowerPoint diára az Aspose.Cells for .NET segítségével.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Excel mentése Docx formátumba C#‑val – Teljes lépésről‑lépésre útmutató](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 Ismerje meg, hogyan menthet Excel-fájlt DOCX formátumba C#‑ban az Aspose.Cells for .NET segítségével, részletes kódpéldákkal.
 ### [Új munkafüzet létrehozása – Exportálja az Excelt TXT-be teljes pontossággal](./create-new-workbook-export-excel-to-txt-with-full-precision/)
@@ -115,8 +113,6 @@ Ismerje meg, hogyan konvertálhat Excel-fájlokat PowerPoint diákba C#-ban az A
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

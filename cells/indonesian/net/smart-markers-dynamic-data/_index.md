@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Intelligens jelölők az Aspose.Cells-ben dinamikus adatokhoz
@@ -111,13 +109,13 @@ Pelajari cara memuat templat Excel dan menghasilkan laporan dinamis menggunakan 
 Pelajari cara mengekspor data ke file Excel menggunakan Smart Marker dengan contoh lengkap dalam C#.
 ### [Isi Template Excel – Mengisi Data Excel melalui SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Membuat koleksi smart marker – Panduan lengkap C#](./create-smart-marker-collection-complete-c-guide/)
 Pelajari cara membuat koleksi smart marker secara menyeluruh menggunakan C# dengan Aspose.Cells untuk laporan Excel dinamis.
 
@@ -158,7 +156,6 @@ Pelajari cara menetapkan nilai sel secara bersyarat menggunakan Smart Marker di 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

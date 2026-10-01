@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # الجداول والقوائم
@@ -58,13 +56,13 @@
 ### [كيفية إعادة تسمية جدول في C# – دليل كامل](./how-to-rename-table-in-c-full-guide/)
 تعلم خطوة بخطوة كيفية إعادة تسمية جدول في Excel باستخدام Aspose.Cells لـ .NET مع مثال عملي بلغة C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [إزالة رأس الجدول في Aspose.Cells – دليل شامل](./remove-table-header-in-aspose-cells-complete-guide/)
 تعلم كيفية حذف رأس الجدول في ملفات Excel باستخدام Aspose.Cells خطوة بخطوة في هذا الدليل الكامل.
 ### [كيفية إعادة تسمية جدول في Excel باستخدام C# – دليل خطوة بخطوة](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
@@ -73,7 +71,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

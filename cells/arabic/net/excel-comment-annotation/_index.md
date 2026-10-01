@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # التعليقات والتوضيحات في Excel
@@ -45,13 +43,13 @@
 ### [إضافة تعليق إلى Excel باستخدام C# – دليل شامل خطوة بخطوة](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
 تعلم كيفية إضافة تعليقات إلى ملفات Excel باستخدام لغة C# مع Aspose.Cells خطوة بخطوة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [إنشاء مصنف Excel C# – إضافة تعليق وحفظه كملف XLSX](./create-excel-workbook-c-add-comment-save-as-xlsx/)
 تعلم كيفية إنشاء مصنف Excel باستخدام C# وإضافة تعليق ثم حفظه بصيغة XLSX باستخدام Aspose.Cells.
 
@@ -63,8 +61,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

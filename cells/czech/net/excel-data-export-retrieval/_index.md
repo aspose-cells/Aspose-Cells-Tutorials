@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Export a načítání dat z Excelu
@@ -39,13 +37,13 @@ Naučte se, jak exportovat data z Excelu pomocí Aspose.Cells pro .NET v tomto p
 ### [Export rozsahu listu v C# – Kompletní programovací průvodce](./export-worksheet-range-in-c-complete-programming-guide/)
 Naučte se, jak exportovat rozsah listu v C# pomocí Aspose.Cells pro .NET v tomto podrobném průvodci, vhodném pro vývojáře všech úrovní.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Vytvořit sešit C# – Export DataTable do Excelu s formátováním](./create-workbook-c-export-datatable-to-excel-with-formatting/)
 Naučte se, jak pomocí Aspose.Cells vytvořit sešit v C#, exportovat DataTable do Excelu a aplikovat formátování.
 
@@ -55,7 +53,6 @@ Naučte se, jak pomocí Aspose.Cells vytvořit nový sešit a exportovat data do
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

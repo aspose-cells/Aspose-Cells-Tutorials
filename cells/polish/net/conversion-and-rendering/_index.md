@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwersja i renderowanie
@@ -55,13 +53,13 @@ Dowiedz się, jak przekształcić dokumenty Word (docx) na format SVG przy użyc
 ### [Osadzanie czcionek w HTML – Pełny przewodnik dla programistów .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
 Poznaj, jak osadzić czcionki w dokumentach HTML przy pomocy Aspose.Cells w .NET, aby zapewnić spójny wygląd na wszystkich platformach.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Arkusz Excel do PNG – Eksport tabeli przestawnej jako PNG w C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 Dowiedz się, jak wyeksportować tabelę przestawną z Excela jako obraz PNG przy użyciu Aspose.Cells w C#.
 
@@ -73,8 +71,6 @@ Dowiedz się, jak w C# przekształcić pliki markdown w arkusze Excel przy użyc
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

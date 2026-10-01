@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excelのコメントと注釈
@@ -45,13 +43,13 @@ Aspose.Cells for .NET を使用して、Excel のセルにコメントを追加�
 ### [C#でExcelにコメントを追加する – 完全ステップバイステップガイド](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
 Aspose.Cells for .NET を使い、C# で Excel にコメントを追加する方法をステップバイステップで学び、スプレッドシートを強化しましょう。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [C# で Excel ワークブックを作成 – コメントを追加して XLSX 形式で保存](./create-excel-workbook-c-add-comment-save-as-xlsx/)
 Aspose.Cells for .NET を使用し、C# で Excel ワークブックを作成し、コメントを追加して XLSX ファイルとして保存する方法を学びます。
 
@@ -63,8 +61,6 @@ Aspose.Cells for .NET を使用して、プログラムからExcelファイル�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

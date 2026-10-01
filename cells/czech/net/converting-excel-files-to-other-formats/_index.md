@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Převod souborů aplikace Excel do jiných formátů
@@ -79,13 +77,13 @@ Naučte se, jak nastavit tiskovou oblast v Excelu a exportovat ji do PowerPointu
 ### [Programový převod XLSX na CSV v C# – Kompletní krok‑za‑krokem průvodce](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Cells v C# převést soubory XLSX do CSV s podrobnými ukázkami kódu a tipy pro optimální výkon.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Uložení Excelu jako DOCX v C# – Kompletní průvodce krok za krokem](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Cells v C# uložit soubor Excel jako DOCX v podrobném průvodci krok za krokem.
 ### [Vytvoření nového sešitu – Export Excel do TXT s plnou přesností v .NET](./create-new-workbook-export-excel-to-txt-with-full-precision/)
@@ -116,8 +114,6 @@ Naučte se, jak pomocí Aspose.Cells převést Excel do DOCX a exportovat grafy 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

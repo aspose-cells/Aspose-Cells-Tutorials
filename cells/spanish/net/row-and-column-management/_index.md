@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gestión de filas y columnas
@@ -85,13 +83,13 @@ Aprenda a generar filas dinámicamente en Excel repitiendo elementos usando C# c
 ### [Cómo insertar filas en GridJs – Añadir varias filas a la cuadrícula de forma eficiente](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 Aprenda a insertar múltiples filas en GridJs de manera eficiente con este tutorial paso a paso.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Eliminar filas de tabla de Excel con C# – Guía paso a paso](./delete-rows-excel-table-with-c-step-by-step-guide/)
 Aprenda a eliminar filas de una tabla de Excel usando C# con Aspose.Cells, siguiendo una guía paso a paso.
 ### [Insertar filas en Excel con C# – Guía paso a paso](./insert-rows-in-excel-with-c-step-by-step-guide/)
@@ -104,7 +102,6 @@ Descubra una guía paso a paso para insertar varias filas en GridJs de forma rá
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

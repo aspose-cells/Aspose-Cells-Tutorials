@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells 中用于动态数据的智能标记
@@ -113,13 +111,13 @@ Aspose.Cells 智能标记器还支持匿名类型，无需预定义结构即可�
 本指南详细演示如何在 C# 使用 Aspose.Cells 的智能标记实现 Excel 数据合并，步骤清晰，帮助快速生成报表。
 ### [使用智能标记创建 Excel 模板（C#）– 完整指南](./create-excel-template-with-smart-markers-in-c-complete-guide/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [自动命名 Excel 工作表 – 轻松生成工作表](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
 了解如何使用 Aspose.Cells 自动为生成的工作簿命名工作表，实现快速、灵活的报表创建。
 ### [如何使用智能标记创建工作簿 – Aspose.Cells 指南](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
@@ -148,7 +146,6 @@ Aspose.Cells 智能标记器还支持匿名类型，无需预定义结构即可�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

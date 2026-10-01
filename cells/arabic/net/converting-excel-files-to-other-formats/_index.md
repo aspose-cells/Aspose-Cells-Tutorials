@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # تحويل ملفات Excel إلى تنسيقات أخرى
@@ -91,13 +89,13 @@
 ### [تحويل Excel إلى Word – دليل كامل باستخدام C#](./convert-excel-to-word-complete-guide-with-c/)
 تعرّف على كيفية تحويل ملفات Excel إلى Word باستخدام C# و Aspose.Cells في دليل شامل خطوة بخطوة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [إنشاء PPT من Excel – دليل كامل لأتمتة C#](./create-ppt-from-excel-full-c-automation-guide/)
 تعلم كيفية إنشاء ملفات PPT من جداول Excel باستخدام C# وأتمتة كاملة عبر Aspose.Cells.
 
@@ -122,11 +120,10 @@
 تعلم كيفية تحويل ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells لـ .NET مع مثال كامل بلغة C#.
 ### [حفظ Excel كملف txt – دليل C# كامل لتصدير الأرقام ذات الخانات المهمة](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 تعرف على كيفية حفظ ملفات Excel كملفات txt مع الحفاظ على الأرقام ذات الخانات المهمة باستخدام Aspose.Cells لـ .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

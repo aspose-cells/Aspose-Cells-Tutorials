@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formattazione personalizzata di numeri e date in Excel
@@ -51,23 +49,23 @@ Scopri come creare una cartella di lavoro Excel in C# e applicare un formato num
 ### [Come analizzare una data in Excel con C# – Guida completa](./how-to-parse-date-in-excel-with-c-complete-guide/)
 Scopri come analizzare correttamente le date in Excel usando C# e Aspose.Cells con questa guida passo passo.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Imposta Formato Personalizzato della Cella in C# – Guida Completa alla Scrittura e Lettura di Date in Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 Scopri come impostare formati personalizzati per le date in Excel usando C# e Aspose.Cells, con esempi di scrittura e lettura.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Converti stringa in DateTime in C# – Scrivi e leggi date in Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 Impara a convertire stringhe in DateTime in C# e a scrivere/leggere date nei fogli Excel con Aspose.Cells per .NET.
 ### [Come creare una cartella di lavoro e convertire una stringa in data in C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
@@ -78,8 +76,6 @@ Scopri come impostare il formato data in Excel usando C# con Aspose.Cells per .N
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

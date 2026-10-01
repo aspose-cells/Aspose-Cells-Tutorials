@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Conversión de archivos de Excel a otros formatos
@@ -80,13 +78,13 @@ Aprenda a monitorizar el progreso de la conversión de TIFF mediante programaci�
 ### [Crear PowerPoint a partir de Excel – Guía paso a paso en C#](./create-powerpoint-from-excel-step-by-step-c-guide/)
 Aprenda a generar presentaciones PowerPoint desde archivos de Excel usando Aspose.Cells para .NET con este tutorial paso a paso en C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Guardar Excel como DOCX con C# – Guía completa paso a paso](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 Aprenda a guardar un libro de Excel como archivo DOCX usando C# y Aspose.Cells, con ejemplos detallados paso a paso.
 ### [Crear PPT a partir de Excel – Guía completa de automatización en C#](./create-ppt-from-excel-full-c-automation-guide/)
@@ -119,8 +117,6 @@ Aprenda a guardar un archivo DOCX desde Excel y exportar gráficos a Word usando
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gestion des fichiers CSV
@@ -42,13 +40,13 @@ Apprenez à enregistrer des fichiers Excel au format CSV en C# avec Aspose.Cells
 ### [Créer un nouveau classeur et l'exporter en CSV – Guide pas à pas C#](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 Apprenez à créer un classeur, y ajouter des données et l'exporter au format CSV avec Aspose.Cells pour .NET en C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Exporter un tableau en CSV – Guide complet C# avec formats numériques personnalisés](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
 Apprenez à exporter des tableaux en CSV avec Aspose.Cells en C#, en appliquant des formats numériques personnalisés.
 ### [Exporter un tableau en CSV en C# – Guide complet](./export-table-to-csv-in-c-complete-guide/)
@@ -57,7 +55,6 @@ Apprenez à exporter des tableaux vers des fichiers CSV en C# avec Aspose.Cells,
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

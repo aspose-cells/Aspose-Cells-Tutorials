@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # تنسيقات الأرقام والعرض في Excel
@@ -37,13 +35,13 @@
 ### [تحويل التاريخ والوقت إلى صيغة ISO في C# – دليل شامل](./format-datetime-to-iso-in-c-complete-guide/)
 دليل شامل لتحويل التاريخ والوقت إلى صيغة ISO في C# باستخدام Aspose.Cells.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [كيفية تنسيق العملة في عمود الشبكة – دليل خطوة بخطوة](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 تعلم كيفية تنسيق القيم النقدية في عمود الشبكة باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
 ### [تطبيق تنسيق الأرقام في Excel – دليل خطوة بخطوة لتنسيق الأعمدة](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
@@ -52,7 +50,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

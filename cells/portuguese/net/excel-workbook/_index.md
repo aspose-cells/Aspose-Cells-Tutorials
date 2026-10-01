@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pasta de trabalho do Excel
@@ -92,22 +90,22 @@ Então, por que não aproveitar esta oportunidade para aprimorar suas habilidade
 | [Criar pasta de trabalho Excel C# – Guia completo com Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | Aprenda a criar uma pasta de trabalho Excel usando C# e Aspose.Cells com este guia passo a passo completo. |
 | [Criar pasta de trabalho Excel em C# – Guia completo de programação](./create-excel-workbook-in-c-complete-programming-guide/) | Aprenda a criar uma pasta de trabalho Excel em C# usando Aspose.Cells com este guia completo passo a passo. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 | [Criar pasta de trabalho Excel com tabela estilizada – Guia passo a passo](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Aprenda a criar uma pasta de trabalho Excel contendo uma tabela estilizada usando Aspose.Cells para .NET, passo a passo. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 | [Criar pasta de trabalho Excel C# – Guia passo a passo](./create-excel-workbook-c-step-by-step-guide/) | Aprenda a criar uma pasta de trabalho Excel usando C# com o Aspose.Cells para .NET neste tutorial passo a passo. |
 | [Como criar uma pasta de trabalho em C# – escrever valor e formatar número](./how-to-create-workbook-in-c-write-value-format-number/) | Aprenda a criar uma pasta de trabalho, inserir valores e aplicar formatação numérica usando Aspose.Cells para .NET em C#. |
 | [Criar nova pasta de trabalho em C# – Adicionar fórmula e salvar arquivo Excel](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Aprenda a criar uma nova pasta de trabalho, inserir fórmulas e salvar o arquivo Excel usando Aspose.Cells para .NET em C#. |
@@ -123,8 +121,6 @@ Então, por que não aproveitar esta oportunidade para aprimorar suas habilidade
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lưu và Xuất Tệp Excel với Tùy chọn
@@ -48,19 +46,18 @@ Tối ưu hóa việc xuất CSV của bạn bằng cách cắt bớt các hàng
 Hướng dẫn chi tiết cách lưu workbook bằng C# sử dụng Aspose.Cells, bao gồm các tùy chọn lưu và tự động hoá quy trình Excel.
 ### [Cách sử dụng FlatOpcSaveOptions trong C# – Hướng dẫn đầy đủ](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Cách Lưu Workbook trong C# – Hướng Dẫn Toàn Diện về Xóa Bộ Lọc và Xuất Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

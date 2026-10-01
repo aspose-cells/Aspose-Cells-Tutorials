@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automatický filtr a ověření v Excelu
@@ -43,13 +41,13 @@ Naučte se, jak pomocí Aspose.Cells v .NET získat první tabulku z Excel seši
 ### [Jak používat AutoFilter v C# automatizaci Excelu – Kompletní krok za krokem průvodce](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
 Podrobný návod, jak v C# pomocí Aspose.Cells implementovat funkci AutoFilter pro efektivní filtrování dat v Excelu.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Odstranění automatického filtru v Excelu v C# – Kompletní krok‑za‑krokem průvodce](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Cells v .NET odstranit automatický filtr v Excelu pomocí podrobného krok‑za‑krokem průvodce.
 ### [Vymazat UI filtru v Excelu pomocí C# – Odstranit tlačítko AutoFilter](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
@@ -60,7 +58,6 @@ Naučte se, jak pomocí Aspose.Cells v .NET skrýt šipky filtru v Excelu a zjed
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konvertierung und Rendering
@@ -55,13 +53,13 @@ Erfahren Sie, wie Sie Word‑Dokumente mit Aspose.Words in SVG konvertieren und 
 ### [Schriftarten in HTML einbetten – Vollständige Anleitung für .NET-Entwickler](./embed-fonts-in-html-complete-guide-for-net-developers/)
 Erfahren Sie, wie Sie mit Aspose.Cells Schriftarten in HTML einbetten, um konsistente Darstellung in .NET-Anwendungen zu gewährleisten.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Excel-Blatt zu PNG – Pivot‑Tabelle als PNG exportieren in C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 Erfahren Sie, wie Sie mit Aspose.Cells eine Pivot‑Tabelle aus einem Excel‑Blatt in ein PNG‑Bild in C# exportieren.
 
@@ -73,8 +71,6 @@ Erfahren Sie, wie Sie mit C# Markdown-Dateien in Excel-Tabellen umwandeln und da
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

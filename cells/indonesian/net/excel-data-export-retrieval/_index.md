@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekspor dan Pengambilan Data Excel
@@ -39,13 +37,13 @@ Pelajari cara mengekspor data ke file Excel menggunakan Aspose.Cells untuk .NET 
 ### [Ekspor rentang lembar kerja di C# – Panduan Pemrograman Lengkap](./export-worksheet-range-in-c-complete-programming-guide/)
 Pelajari cara mengekspor rentang lembar kerja di C# menggunakan Aspose.Cells untuk .NET dalam panduan lengkap ini, cocok untuk semua tingkat pengembang.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Buat Workbook C# – Ekspor DataTable ke Excel dengan Pemformatan](./create-workbook-c-export-datatable-to-excel-with-formatting/)
 Pelajari cara membuat workbook di C#, mengekspor DataTable ke Excel, dan menerapkan pemformatan menggunakan Aspose.Cells untuk .NET.
 
@@ -55,7 +53,6 @@ Pelajari cara membuat workbook baru dan mengekspor data Excel ke file TXT dengan
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

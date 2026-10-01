@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabele i listy
@@ -58,13 +56,13 @@ Dowiedz się, jak utworzyć tabelę z zakresu w C# przy użyciu Aspose.Cells dla
 ### [Jak zmienić nazwę tabeli w C# – pełny przewodnik](./how-to-rename-table-in-c-full-guide/)
 Dowiedz się, jak zmienić nazwę tabeli w programie Excel przy użyciu Aspose.Cells dla .NET w języku C# w tym szczegółowym przewodniku krok po kroku.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Usuwanie nagłówka tabeli w Aspose.Cells – kompletny przewodnik](./remove-table-header-in-aspose-cells-complete-guide/)
 Dowiedz się, jak usunąć nagłówek tabeli w Excelu przy użyciu Aspose.Cells w kilku prostych krokach.
 ### [Jak zmienić nazwę tabeli w Excelu przy użyciu C# – przewodnik krok po kroku](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
@@ -73,7 +71,6 @@ Dowiedz się, jak zmienić nazwę tabeli w Excelu przy użyciu Aspose.Cells dla 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

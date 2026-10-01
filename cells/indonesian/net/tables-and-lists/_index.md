@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Táblázatok és listák
@@ -57,13 +55,13 @@ Tanuld meg, hogyan állíthatsz be megjegyzéseket táblázatokhoz Excelben az A
 ### [Cara Mengganti Nama Tabel di C# – Panduan Lengkap](./how-to-rename-table-in-c-full-guide/)
 Pelajari cara mengubah nama tabel di Excel menggunakan Aspose.Cells for .NET dengan C# secara mudah.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Menghapus Header Tabel di Aspose.Cells – Panduan Lengkap](./remove-table-header-in-aspose-cells-complete-guide/)
 Pelajari cara menghapus header tabel di Aspose.Cells dengan panduan lengkap langkah demi langkah.
 
@@ -73,7 +71,6 @@ Pelajari cara mengganti nama tabel di Excel menggunakan C# dengan panduan langka
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

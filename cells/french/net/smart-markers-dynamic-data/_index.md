@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Marqueurs intelligents dans Aspose.Cells pour les données dynamiques
@@ -107,13 +105,13 @@ Apprenez à remplacer des variables JSON à l'aide de SmartMarker dans Aspose.Ce
 ### [Fusion de données Excel en C# – Guide complet des marqueurs intelligents](./excel-data-merging-in-c-complete-smart-marker-guide/)
 ### [Créer un modèle Excel avec des marqueurs intelligents en C# – Guide complet](./create-excel-template-with-smart-markers-in-c-complete-guide/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Nommer automatiquement les feuilles Excel – Méthode simple pour générer des feuilles](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
 ### [Comment créer un classeur avec des marqueurs intelligents – Guide Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
 ### [Créer une collection de marqueurs intelligents – Guide complet C#](./create-smart-marker-collection-complete-c-guide/)
@@ -139,7 +137,6 @@ Apprenez à générer un rapport maître‑détail en remplissant un modèle Exc
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

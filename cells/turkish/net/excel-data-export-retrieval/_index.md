@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Veri Dışa Aktarımı ve Alma
@@ -40,13 +38,13 @@ Bu adım adım rehberde, C# ve Aspose.Cells kullanarak Excel verilerini nasıl d
 ### [C#'ta Çalışma Sayfası Aralığını Dışa Aktarma – Tam Programlama Kılavuzu](./export-worksheet-range-in-c-complete-programming-guide/)
 Bu kapsamlı rehberde, Aspose.Cells for .NET kullanarak C# ile çalışma sayfası aralığını dışa aktarmayı öğrenin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Workbook Oluşturma C# – DataTable'ı Biçimlendirme ile Excel'e Aktarma](./create-workbook-c-export-datatable-to-excel-with-formatting/)
 Bu eğitimde, Aspose.Cells for .NET kullanarak C# ile bir çalışma kitabı oluşturup, DataTable'ı biçimlendirilmiş şekilde Excel'e aktarmayı öğrenin.
 
@@ -56,7 +54,6 @@ Aspose.Cells for .NET ile yeni bir çalışma kitabı oluşturup, Excel verileri
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

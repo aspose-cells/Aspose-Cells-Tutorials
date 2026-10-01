@@ -33,11 +33,13 @@ url: /cs/java/advanced-features/mastering-aspose-cells-java-freeze-panes-excel/
 weight: 1
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
+
+
+
 
 # Jak použít Aspose.Cells k zamrznutí oken v Excelu (Java)
 
@@ -186,10 +188,9 @@ Pro hlubší průzkum—např. tvorbu grafů, validaci dat nebo kontingenční t
 - [Uložit soubor Excel v Javě s Aspose.Cells – Mistrovství automatizace sešitu](/cells/java/automation-batch-processing/aspose-cells-java-excel-workbook-automation/)
 - [Extrahovat URL z Excelu s Aspose.Cells pro Java – Načíst datové spojení](/cells/java/advanced-features/aspose-cells-java-excel-data-connections/)
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/main-wrap-class >}}

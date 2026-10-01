@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Yorum ve Açıklama
@@ -45,13 +43,13 @@ Aspose.Cells for .NET kullanarak Excel hücresine yorum eklemeyi adım adım ke�
 ### [C# ile Excel'e Yorum Ekle – Tam Adım Adım Kılavuz](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
 Aspose.Cells for .NET kullanarak C# ile Excel'e yorum eklemeyi öğrenin. Detaylı adım adım kılavuz.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Excel Çalışma Kitabı Oluştur C# – Yorum Ekle ve XLSX Olarak Kaydet](./create-excel-workbook-c-add-comment-save-as-xlsx/)
 Aspose.Cells for .NET kullanarak C# ile Excel çalışma kitabı oluşturun, yorum ekleyin ve XLSX olarak kaydedin.
 
@@ -63,8 +61,6 @@ Aspose.Cells for .NET kullanarak programlı bir şekilde Excel dosyası oluştur
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

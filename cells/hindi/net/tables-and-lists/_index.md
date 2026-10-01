@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # तालिकाएँ और सूचियाँ
@@ -66,13 +64,13 @@
 ### [C# में रेंज से टेबल बनाएं – पूर्ण Aspose.Cells ट्यूटोरियल](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
 इस व्यापक गाइड में .NET के लिए Aspose.Cells का उपयोग करके रेंज से टेबल बनाने की पूरी प्रक्रिया सीखें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Aspose.Cells में तालिका हेडर हटाएँ – पूर्ण गाइड](./remove-table-header-in-aspose-cells-complete-guide/)
 Aspose.Cells का उपयोग करके Excel तालिका के हेडर को हटाने की पूरी प्रक्रिया सीखें। सरल चरणों में डेटा को साफ़ करें।
 ### [C# के साथ Excel में तालिका का नाम बदलें – चरण‑दर‑चरण गाइड](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
@@ -81,7 +79,6 @@ C# कोड का उपयोग करके Excel तालिका का
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

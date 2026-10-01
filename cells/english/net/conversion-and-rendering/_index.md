@@ -8,9 +8,7 @@ url: /net/conversion-and-rendering/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Conversion and Rendering
@@ -55,13 +53,13 @@ Learn how to convert Word DOCX files to SVG format using Aspose.Words for .NET i
 ### [embed fonts in html – Complete Guide for .NET Developers](./embed-fonts-in-html-complete-guide-for-net-developers/)
 Learn how to embed fonts in HTML with Aspose.Slides for .NET, ensuring consistent typography across browsers in this comprehensive guide.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [excel sheet to png – Export a Pivot Table as PNG in C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 Learn how to export an Excel pivot table as a PNG image using Aspose.Cells for .NET in C#.
 
@@ -73,8 +71,6 @@ Learn how to transform Markdown files into Excel spreadsheets using C# and Aspos
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel-opmerkingen en -annotaties
@@ -45,13 +43,13 @@ Leer hoe u met Aspose.Cells voor .NET een opmerking aan een Excel-cel kunt toevo
 ### [Opmerking toevoegen aan Excel met C# – Complete stapsgewijze handleiding](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
 Leer hoe u met C# een opmerking aan Excel toevoegt met Aspose.Cells voor .NET. Volledige stap‑voor‑stap handleiding.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Maak Excel-werkmap C# – Opmerking toevoegen en opslaan als XLSX](./create-excel-workbook-c-add-comment-save-as-xlsx/)
 Leer hoe u een Excel-werkmap maakt in C#, een opmerking toevoegt en opslaat als XLSX met Aspose.Cells voor .NET.
 
@@ -63,8 +61,6 @@ Leer hoe u met Aspose.Cells voor .NET een Excel-bestand maakt, opmerkingen toevo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

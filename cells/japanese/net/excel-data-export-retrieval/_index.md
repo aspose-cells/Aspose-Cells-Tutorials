@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excelデータのエクスポートと取得
@@ -39,13 +37,13 @@ Aspose.Cells for .NET を使用し、C# で Excel データをエクスポート
 ### [C#でワークシート範囲をエクスポートする – 完全プログラミングガイド](./export-worksheet-range-in-c-complete-programming-guide/)
 Aspose.Cells for .NET を使用して、C# でワークシートの特定範囲をエクスポートする方法をステップバイステップで解説します。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [C# でワークブックを作成 – フォーマット付きで DataTable を Excel にエクスポート](./create-workbook-c-export-datatable-to-excel-with-formatting/)
 C# を使用して DataTable を書式設定付きで Excel にエクスポートし、ワークブックを作成する方法を学びます。
 
@@ -55,7 +53,6 @@ C# を使用して新しいワークブックを作成し、Excel データを�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

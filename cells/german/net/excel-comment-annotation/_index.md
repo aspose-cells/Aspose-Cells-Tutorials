@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel-Kommentare und -Anmerkungen
@@ -45,13 +43,13 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET in C# Kommentare zu Excel-Zelle
 ### [Kommentar zu Excel mit C# hinzufügen – vollständige Schritt‑für‑Schritt‑Anleitung](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET in C# Kommentare zu Excel hinzufügen – detaillierte Schritt‑für‑Schritt‑Anleitung.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Excel-Arbeitsmappe erstellen C# – Kommentar hinzufügen und als XLSX speichern](./create-excel-workbook-c-add-comment-save-as-xlsx/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET in C# eine Excel-Arbeitsmappe erstellen, einen Kommentar hinzufügen und sie als XLSX speichern.
 
@@ -63,8 +61,6 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Datei programmgesteu
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

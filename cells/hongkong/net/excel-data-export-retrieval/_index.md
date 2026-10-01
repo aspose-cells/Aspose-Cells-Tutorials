@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel 資料匯出與檢索
@@ -39,13 +37,13 @@
 ### [在 C# 中匯出工作表範圍 – 完整程式設計指南](./export-worksheet-range-in-c-complete-programming-guide/)
 本完整指南說明如何使用 Aspose.Cells for .NET 在 C# 中匯出指定的工作表範圍。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [建立工作簿 C# – 匯出 DataTable 至 Excel 並套用格式](./create-workbook-c-export-datatable-to-excel-with-formatting/)
 本教學示範如何使用 Aspose.Cells for .NET 於 C# 中建立工作簿，將 DataTable 匯出至 Excel，並套用格式設定。
 
@@ -55,7 +53,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

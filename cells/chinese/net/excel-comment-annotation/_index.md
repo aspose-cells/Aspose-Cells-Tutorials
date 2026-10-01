@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel 注释和注解
@@ -45,13 +43,13 @@
 ### [使用 C# 向 Excel 添加注释 – 完整分步指南](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
 了解如何使用 Aspose.Cells for .NET 在 C# 中向 Excel 添加注释，提供完整的分步指南。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [创建 Excel 工作簿 C# – 添加注释并保存为 XLSX](./create-excel-workbook-c-add-comment-save-as-xlsx/)
 了解如何使用 Aspose.Cells for .NET 在 C# 中创建 Excel 工作簿，添加注释并保存为 XLSX 格式。
 
@@ -63,8 +61,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

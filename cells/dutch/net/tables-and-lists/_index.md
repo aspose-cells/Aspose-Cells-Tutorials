@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabellen en lijsten
@@ -58,13 +56,13 @@ Leer hoe u met Aspose.Cells voor .NET een Excel‑tabel maakt in C# met duidelij
 ### [Hoe een tabel hernoemen in C# – volledige gids](./how-to-rename-table-in-c-full-guide/)
 Leer stap voor stap hoe u een tabel in Excel hernoemt met Aspose.Cells voor .NET in C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Hoe een tabel hernoemen in Excel met C# – Stapsgewijze handleiding](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
 Leer hoe u een tabel in Excel hernoemt met C# in een eenvoudige stap‑voor‑stap gids.
 ### [Verwijder tabelkop in Aspose.Cells – Complete gids](./remove-table-header-in-aspose-cells-complete-guide/)
@@ -73,7 +71,6 @@ Leer hoe u met Aspose.Cells de tabelkop uit een Excel-werkblad verwijdert in een
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

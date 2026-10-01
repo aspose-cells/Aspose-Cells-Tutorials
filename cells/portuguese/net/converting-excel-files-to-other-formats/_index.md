@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convertendo arquivos do Excel para outros formatos
@@ -80,13 +78,13 @@ Aprenda a definir a área de impressão no Excel e exportar para PowerPoint usan
 ### [Exportar Excel para PowerPoint – Guia Completo em C#](./export-excel-to-powerpoint-complete-c-guide/)
 Aprenda a exportar planilhas do Excel para PowerPoint usando Aspose.Cells para .NET com este guia passo a passo em C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Salvar Excel como Docx com C# – Guia Completo Passo a Passo](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 Aprenda a salvar arquivos Excel como DOCX usando C# com o Aspose.Cells, seguindo um guia passo a passo completo.
 ### [Convertendo arquivo Excel para Markdown programaticamente no .NET](./converting-excel-to-markdown/)
@@ -121,8 +119,6 @@ Aprenda a exportar planilhas do Excel como arquivos de texto delimitados por tab
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

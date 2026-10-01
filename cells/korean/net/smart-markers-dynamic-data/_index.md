@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells의 동적 데이터를 위한 스마트 마커
@@ -117,13 +115,13 @@ C#와 SmartMarker를 활용해 전체 단계별로 Excel 보고서를 생성하�
 ### [SmartMarker를 사용한 JSON 변수 대체 완전 가이드](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 ### [스마트 마커를 사용하여 템플릿 로드 및 Excel 보고서 생성 방법](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ## [Excel 시트 자동 이름 지정 – 시트를 손쉽게 생성하는 방법](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
 Aspose.Cells를 사용하여 데이터에 따라 Excel 시트 이름을 자동으로 지정하고, 여러 시트를 빠르게 생성하는 방법을 단계별로 안내합니다.
 
@@ -155,7 +153,6 @@ C#에서 SmartMarker를 사용해 마스터‑디테일 보고서를 만들고 E
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

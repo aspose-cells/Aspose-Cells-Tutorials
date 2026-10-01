@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # オプション付きで Excel ファイルを保存およびエクスポートする
@@ -49,20 +47,19 @@ Aspose.Cells for .NET を使用して、C# でワークブックを保存し、�
 ### [C# で FlatOpcSaveOptions を使用する方法 – 完全ガイド](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
 Aspose.Cells の FlatOpcSaveOptions を C# で活用し、Excel ファイルの保存オプションを細かく制御する方法をステップバイステップで解説します。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [C# でブックを保存する方法 – フィルターのクリアと Excel エクスポートの完全ガイド](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
 Aspose.Cells for .NET を使用して、C# でブックを保存し、適用されたフィルターをクリアし、Excel 形式でエクスポートする手順を詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

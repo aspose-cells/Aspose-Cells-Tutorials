@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Conversion et rendu
@@ -62,13 +60,13 @@ Apprenez à convertir des documents Word (.docx) en SVG avec Aspose.Words, grâc
 ### [Intégrer des polices dans HTML – Guide complet pour les développeurs .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
 Apprenez à intégrer des polices dans les fichiers HTML avec Aspose.HTML pour .NET grâce à ce guide complet étape par étape.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Feuille Excel en PNG – Exporter un tableau croisé dynamique en PNG en C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 Apprenez à exporter un tableau croisé dynamique d'Excel au format PNG en C# avec Aspose.Cells, étape par étape.
 
@@ -80,8 +78,6 @@ Apprenez à transformer du texte markdown en fichiers Excel avec Aspose.Cells en
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

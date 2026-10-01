@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rad- och kolumnhantering
@@ -83,13 +81,13 @@ Lär dig hur du dynamiskt genererar rader i Excel för att upprepa data med C# o
 ### [Hur man infogar rader i GridJs – Lägg till flera rader i rutnätet effektivt](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 Lär dig hur du effektivt lägger till flera rader i ett GridJs‑rutnät med enkla kodexempel.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Ladda Excel-fil C# – Hur du tar bort rader och specifika rader](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Lär dig hur du tar bort rader och specifika rader i en Excel-fil med Aspose.Cells för .NET i C#.
 ### [Ta bort rader i Excel-tabell med C# – Steg‑för‑steg‑guide](./delete-rows-excel-table-with-c-step-by-step-guide/)
@@ -104,8 +102,6 @@ Lär dig hur du snabbt lägger till flera rader i GridJs med enkla kodexempel.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Tự động lọc và Xác thực
@@ -43,13 +41,13 @@ Khám phá cách truy xuất bảng đầu tiên trong workbook Excel bằng Asp
 ### [Cách Sử Dụng AutoFilter trong Tự Động Hóa Excel C# – Hướng Dẫn Chi Tiết Từng Bước](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
 Hướng dẫn chi tiết cách áp dụng AutoFilter trong Excel bằng C# để tự động hóa quy trình xử lý dữ liệu.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Xóa bộ lọc tự động trong Excel bằng C# – Hướng dẫn chi tiết từng bước](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Hướng dẫn chi tiết cách loại bỏ autofilter trong Excel bằng Aspose.Cells cho .NET, giúp bạn quản lý dữ liệu hiệu quả.
 ### [Xóa giao diện bộ lọc trong Excel bằng C# – Loại bỏ nút AutoFilter](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
@@ -60,7 +58,6 @@ Khám phá cách ẩn các mũi tên lọc trong Excel bằng C# với Aspose.Ce
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

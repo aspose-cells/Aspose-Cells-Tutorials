@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Marcadores inteligentes en Aspose.Cells para datos dinámicos
@@ -122,13 +120,13 @@ Aprenda a usar SmartMarker para rellenar una plantilla de Excel con datos dinám
 ### [Exportar datos a Excel con Smart Marker – Guía completa en C#](./export-data-to-excel-with-smart-marker-full-c-guide/)
 Aprenda paso a paso cómo exportar datos a archivos Excel usando Smart Markers en C#, con ejemplos completos y mejores prácticas.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Nombrar automáticamente hojas de Excel – Forma fácil de generar hojas](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
 Aprenda a asignar nombres automáticamente a las hojas de Excel al generar informes, simplificando la organización de sus libros.
 ### [Cómo crear un libro de trabajo con marcadores inteligentes – Guía de Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
@@ -162,7 +160,6 @@ Aprenda a generar un informe maestro‑detalle en C# rellenando una plantilla de
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

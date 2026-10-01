@@ -8,9 +8,7 @@ url: /net/document-properties/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Document Properties
@@ -40,23 +38,23 @@ Learn how to create an Excel workbook, add custom properties, and save it as XLS
 ### [How to Save XLSB with Custom Properties in C# – Step‑by‑Step Guide](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
 Learn how to save XLSB files with custom properties in Excel using Aspose.Cells for .NET with this step-by-step guide.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [How to Save XLSB – Add Custom Property in C#](./how-to-save-xlsb-add-custom-property-in-c/)
 Learn how to save XLSB files and add a custom property in C# using Aspose.Cells for .NET with this step-by-step guide.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [How to Save XLSB with a Custom Property – Step‑by‑Step C# Guide](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
 Learn how to save XLSB files with a custom property using Aspose.Cells for .NET in C#. Follow our step-by-step guide.
 ### [Create Excel Workbook C# – Add Custom Property & Save XLSB](./create-excel-workbook-c-add-custom-property-save-xlsb/)
@@ -67,8 +65,6 @@ Learn how to add a custom property in Excel using Aspose.Cells for .NET with a s
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

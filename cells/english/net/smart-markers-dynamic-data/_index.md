@@ -8,9 +8,7 @@ url: /net/smart-markers-dynamic-data/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Smart Markers in Aspose.Cells for Dynamic Data
@@ -113,13 +111,13 @@ Learn how to create an Excel workbook in C# and insert arrays into cells using A
 ### [Create Excel Template with Smart Markers in C# – Complete Guide](./create-excel-template-with-smart-markers-in-c-complete-guide/)
 Learn how to create an Excel template using Smart Markers in C# with step‑by‑step instructions for dynamic report generation.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [repeat data in excel – Populate template with SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
 Learn how to repeat rows of data in an Excel template using SmartMarker to populate dynamic content efficiently.
 ### [Create smart marker collection – Complete C# Guide](./create-smart-marker-collection-complete-c-guide/)
@@ -148,7 +146,6 @@ Learn how to generate a master‑detail Excel report in C# by populating a templ
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

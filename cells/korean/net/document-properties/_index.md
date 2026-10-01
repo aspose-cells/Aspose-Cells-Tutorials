@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 문서 속성
@@ -40,23 +38,23 @@ Aspose.Cells for .NET을 사용해 Excel 통합 문서를 만들고, 사용자 �
 ### [C#에서 사용자 지정 속성으로 XLSB 저장하기 – 단계별 가이드](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
 XLSB 파일에 사용자 지정 속성을 추가하고 저장하는 방법을 단계별로 안내합니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [.NET에서 XLSB 저장 – 사용자 지정 속성 추가](./how-to-save-xlsb-add-custom-property-in-c/)
 C#를 사용해 XLSB 파일을 저장하고 사용자 지정 속성을 추가하는 방법을 단계별로 안내합니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [XLSB 파일을 사용자 지정 속성과 함께 저장하는 방법 – 단계별 C# 가이드](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
 Aspose.Cells for .NET을 사용하여 사용자 지정 속성을 포함한 XLSB 파일을 저장하는 방법을 단계별로 안내합니다.
 ### [Excel 워크북 만들기 C# – 사용자 정의 속성 추가 및 XLSB 저장](./create-excel-workbook-c-add-custom-property-save-xlsb/)
@@ -67,8 +65,6 @@ C#를 사용해 Excel에 사용자 지정 속성을 추가하는 방법을 단�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # विकल्पों के साथ एक्सेल फ़ाइलों को सहेजना और निर्यात करना
@@ -49,20 +47,19 @@ Aspose.Cells for .NET का उपयोग करके C# में वर्
 ### [C# में FlatOpcSaveOptions का उपयोग कैसे करें – पूर्ण गाइड](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
 C# में Aspose.Cells के साथ FlatOpcSaveOptions का उपयोग करके फ़ाइल सहेजने के विकल्प कैसे सेट करें, इस पूर्ण गाइड में जानें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [C# में वर्कबुक को सहेजना – फ़िल्टर हटाने और Excel निर्यात करने की पूर्ण गाइड](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
 Aspose.Cells for .NET का उपयोग करके फ़िल्टर हटाते हुए वर्कबुक सहेजने और Excel निर्यात करने के चरण-दर-चरण निर्देश।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

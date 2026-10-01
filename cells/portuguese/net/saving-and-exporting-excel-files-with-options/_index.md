@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Salvando e exportando arquivos do Excel com opções
@@ -47,20 +45,19 @@ Simplifique suas exportações de CSV removendo linhas e colunas em branco inici
 ### [Como salvar a pasta de trabalho em C# – Guia completo de automação do Excel](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
 ### [Como usar FlatOpcSaveOptions em C# – Guia completo](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Como salvar a pasta de trabalho em C# – Guia completo para limpar filtros e exportar Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
 Aprenda a salvar a pasta de trabalho em C#, removendo filtros e exportando para Excel com o Aspose.Cells para .NET em um guia passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

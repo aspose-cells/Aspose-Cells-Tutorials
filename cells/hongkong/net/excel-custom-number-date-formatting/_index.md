@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel 自訂數字與日期格式
@@ -51,23 +49,23 @@
 ### [如何在 C# 中解析 Excel 日期 – 完整指南](./how-to-parse-date-in-excel-with-c-complete-guide/)
 學習如何使用 Aspose.Cells for .NET 在 C# 中解析 Excel 日期，提供完整步驟與範例。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [在 C# 中設定儲存格自訂格式 – 完整的 Excel 日期寫入與讀取指南](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 本教學說明如何使用 Aspose.Cells for .NET 在 C# 中設定儲存格的自訂日期格式，並正確寫入與讀取日期資料。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [在 C# 中將字串轉換為 DateTime – 在 Excel 中寫入與讀取日期](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 學習如何在 C# 中將字串轉換為 DateTime，並使用 Aspose.Cells 在 Excel 中寫入與讀取日期。
 ### [如何在 C# 中建立工作簿並將字串轉換為日期](./how-to-create-workbook-and-convert-string-to-date-in-c/)
@@ -78,8 +76,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

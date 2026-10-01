@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabeller och listor
@@ -58,13 +56,13 @@ Lär dig skapa en Excel-tabell från ett område i C# med Aspose.Cells i denna k
 ### [Hur du byter namn på en tabell i C# – Fullständig guide](./how-to-rename-table-in-c-full-guide/)
 Lär dig hur du byter namn på en Excel‑tabell med Aspose.Cells för .NET i C# med vår steg‑för‑steg‑guide.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Ta bort tabellrubrik i Aspose.Cells – komplett guide](./remove-table-header-in-aspose-cells-complete-guide/)
 Lär dig hur du tar bort rubriker från tabeller i Excel med Aspose.Cells för .NET i denna steg‑för‑steg‑guide.
 ### [Byt namn på tabell i Excel med C# – Steg‑för‑steg‑guide](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
@@ -73,7 +71,6 @@ Lär dig hur du byter namn på en tabell i Excel med C# i denna detaljerade steg
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

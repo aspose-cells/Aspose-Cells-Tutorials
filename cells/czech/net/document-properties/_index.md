@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Vlastnosti dokumentu
@@ -40,23 +38,23 @@ Naučte se vytvořit sešit Excel, přidat vlastní vlastnosti a uložit jej ve 
 ### [Jak uložit XLSB s vlastními vlastnostmi v C# – krok za krokem](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
 Naučte se, jak v C# pomocí Aspose.Cells uložit soubor XLSB s vlastními vlastnostmi.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Jak uložit XLSB – přidání vlastní vlastnosti v C#](./how-to-save-xlsb-add-custom-property-in-c/)
 Naučte se, jak uložit soubor XLSB a přidat vlastní vlastnost pomocí Aspose.Cells pro .NET v jazyce C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Jak uložit XLSB s vlastní vlastností – krok za krokem průvodce v C#](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
 Naučte se, jak uložit soubor XLSB a přidat vlastní vlastnost pomocí Aspose.Cells pro .NET v jazyce C#.
 ### [Vytvořit Excel sešit v C# – Přidat vlastní vlastnost a uložit jako XLSB](./create-excel-workbook-c-add-custom-property-save-xlsb/)
@@ -67,8 +65,6 @@ Naučte se, jak pomocí C# přidat vlastní vlastnost do souboru Excel s podrobn
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

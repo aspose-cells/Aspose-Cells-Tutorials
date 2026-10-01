@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Getal- en weergaveformaten in Excel
@@ -37,13 +35,13 @@ Leer hoe u Excel-bestanden exporteert met behoud van getalnotaties en opmaak met
 ### [Datum/tijd formatteren naar ISO in C# – Complete gids](./format-datetime-to-iso-in-c-complete-guide/)
 Leer hoe u datum- en tijdwaarden naar ISO-indeling formatteert in C# met Aspose.Cells voor .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Hoe valuta in een rasterkolom opmaken – stapsgewijze handleiding](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 Leer hoe u valuta in een rasterkolom formatteert met Aspose.Cells voor .NET in een eenvoudige stap‑voor‑stap gids.
 ### [Numberformat toepassen in Excel – Stapsgewijze handleiding voor het opmaken van kolommen](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
@@ -52,7 +50,6 @@ Leer hoe u kolommen in Excel automatisch kunt opmaken met Aspose.Cells voor .NET
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

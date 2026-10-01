@@ -14,25 +14,16 @@ url: /nl/java/automation-batch-processing/aspose-cells-java-two-three-color-scal
 weight: 1
 ---
 
- text.
 
-Now footer.
 
-**Last Updated:** 2026-03-09 (keep date)
 
-**Tested With:** Aspose.Cells 25.3 for Java (keep)
 
-**Author:** Aspose (keep)
 
-Then closing shortcodes.
 
-Now produce final content.
 
-Check that we didn't translate any URLs or code placeholders.
 
-Make sure headings remain same level.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

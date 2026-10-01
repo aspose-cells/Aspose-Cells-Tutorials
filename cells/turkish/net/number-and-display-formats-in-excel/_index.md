@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Sayı ve Görüntüleme Biçimleri
@@ -37,13 +35,13 @@ Aspose.Cells for .NET kullanarak Excel dosyalarını biçimlendirmeyi koruyarak 
 ### [C#'ta Tarih ve Saati ISO'ya Dönüştürme – Tam Kılavuz](./format-datetime-to-iso-in-c-complete-guide/)
 C# ve Aspose.Cells for .NET kullanarak tarih ve saat değerlerini ISO 8601 formatına dönüştürmeyi öğrenin. Bu adım adım rehberle doğru biçimlendirmeyi sağlayın.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Bir Grid Sütununda Para Birimini Biçimlendirme – Adım Adım Kılavuz](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 Aspose.Cells for .NET kullanarak bir grid sütununda para birimi biçimlendirmeyi adım adım öğrenin.
 ### [Excel'de Sayı Biçimi Uygulama – Sütunları Biçimlendirme Adım Adım Kılavuzu](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
@@ -52,7 +50,6 @@ Aspose.Cells for .NET ile Excel'de sütunları sayı biçimiyle nasıl biçimlen
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

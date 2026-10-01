@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabelle ed elenchi
@@ -58,13 +56,13 @@ Scopri come creare una tabella Excel a partire da un intervallo usando Aspose.Ce
 ### [Come rinominare una tabella in C# – Guida completa](./how-to-rename-table-in-c-full-guide/)
 Scopri come rinominare una tabella in Excel usando Aspose.Cells per .NET con C#. Segui la nostra guida passo passo per modificare i nomi delle tabelle.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Rimuovere l'intestazione della tabella in Aspose.Cells – Guida completa](./remove-table-header-in-aspose-cells-complete-guide/)
 Scopri come rimuovere l'intestazione di una tabella in Aspose.Cells con una guida completa passo passo.
 ### [Come rinominare una tabella in Excel con C# – Guida passo‑passo](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
@@ -73,7 +71,6 @@ Scopri come rinominare una tabella in Excel usando C# con Aspose.Cells per .NET 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

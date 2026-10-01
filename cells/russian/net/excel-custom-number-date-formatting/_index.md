@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Пользовательское форматирование чисел и дат в Excel
@@ -51,23 +49,23 @@
 ### [Как разобрать дату в Excel с помощью C# – Полное руководство](./how-to-parse-date-in-excel-with-c-complete-guide/)
 Узнайте, как правильно парсить даты в Excel с помощью C# используя Aspose.Cells для .NET в этом полном руководстве.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Установить пользовательский формат ячейки в C# – Полное руководство по записи и чтению дат в Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 Узнайте, как установить пользовательский формат ячейки и работать с датами в Excel с помощью Aspose.Cells для .NET в этом полном руководстве.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Преобразование строки в DateTime в C# – запись и чтение дат в Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 Узнайте, как преобразовать строку в DateTime и работать с датами в Excel с помощью Aspose.Cells для .NET в этом руководстве.
 ### [Как создать рабочую книгу и преобразовать строку в дату в C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
@@ -78,8 +76,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

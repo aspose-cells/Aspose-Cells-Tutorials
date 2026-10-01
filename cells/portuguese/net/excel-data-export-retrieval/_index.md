@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Exportação e recuperação de dados do Excel
@@ -40,13 +38,13 @@ Aprenda a exportar dados do Excel usando o Aspose.Cells para .NET em C# neste gu
 ### [Exportar intervalo de planilha em C# – Guia de Programação Completo](./export-worksheet-range-in-c-complete-programming-guide/)
 Aprenda a exportar intervalos de planilhas usando Aspose.Cells para .NET neste guia completo, ideal para desenvolvedores de todos os níveis.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Criar Pasta de Trabalho C# – Exportar DataTable para Excel com Formatação](./create-workbook-c-export-datatable-to-excel-with-formatting/)
 Aprenda como criar uma pasta de trabalho e exportar um DataTable para Excel com formatação usando Aspose.Cells para .NET.
 
@@ -56,7 +54,6 @@ Aprenda como criar uma nova pasta de trabalho e exportar dados do Excel para um 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

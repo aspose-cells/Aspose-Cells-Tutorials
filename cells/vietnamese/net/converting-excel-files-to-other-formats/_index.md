@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi các tập tin Excel sang các định dạng khác
@@ -89,13 +87,13 @@ Học cách theo dõi tiến trình chuyển đổi TIFF theo chương trình b�
 ### [Xuất Excel sang PowerPoint – Hướng dẫn C# đầy đủ](./export-excel-to-powerpoint-complete-c-guide/)
 Tìm hiểu cách xuất chương trình Excel sang bản trình chiếu PowerPoint bằng Aspose.Cells cho .NET với C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Lưu Excel dưới dạng Docx với C# – Hướng dẫn chi tiết từng bước](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 Hướng dẫn chi tiết cách lưu tệp Excel thành định dạng Docx bằng C# sử dụng Aspose.Cells cho .NET.
 ### [Tạo PPT từ Excel – Hướng dẫn tự động hóa đầy đủ bằng C#](./create-ppt-from-excel-full-c-automation-guide/)
@@ -132,9 +130,6 @@ Tìm hiểu cách lưu Excel thành tệp txt và xuất các số với chữ s
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-

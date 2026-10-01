@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel の数値と表示形式
@@ -37,13 +35,13 @@ Aspose.Cells for .NET を使用して、書式設定を保持したまま Excel 
 ### [C# で DateTime を ISO 形式に変換する – 完全ガイド](./format-datetime-to-iso-in-c-complete-guide/)
 C# で DateTime を ISO 形式に変換する方法を詳しく解説し、実装例を紹介します。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [グリッド列で通貨をフォーマットする方法 – ステップバイステップガイド](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 Aspose.Cells for .NET を使用して、グリッド列の通貨表示をステップバイステップで設定する方法を学びます。
 ### [Excel の数値書式を適用する – 列の書式設定ステップバイステップガイド](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
@@ -52,7 +50,6 @@ Aspose.Cells for .NET を使用して、列に数値書式を適用する方法�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

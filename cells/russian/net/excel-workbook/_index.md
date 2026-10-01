@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Рабочая книга Excel
@@ -92,22 +90,22 @@ Power Query может стать настоящим прорывом в обр�
 | [Создание рабочей книги Excel с C# – Полное руководство по использованию EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Узнайте, как создать рабочую книгу Excel с помощью C# и функции EXPAND в Aspose.Cells для .NET. |
 | [Создание рабочей книги Excel на C# – Полное руководство с Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | Подробное пошаговое руководство по созданию рабочей книги Excel на C# с использованием Aspose.Cells. |  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 | [Создать книгу Excel со стилизованной таблицей – пошаговое руководство](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Создайте книгу Excel со стилизованной таблицей, следуя пошаговому руководству по использованию Aspose.Cells для .NET. |  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 | [Создать новую рабочую книгу в C# – Добавить формулу и сохранить файл Excel](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Узнайте, как создать новую книгу Excel в C#, добавить формулу и сохранить файл с помощью Aspose.Cells для .NET. |  
 | [Создать новую рабочую книгу в C# – пошаговое руководство](./create-new-workbook-in-c-step-by-step-guide/) | Узнайте, как создать новую рабочую книгу Excel в C# с помощью Aspose.Cells, следуя подробному пошаговому руководству. |  
 | [Создать новую рабочую книгу Excel в C# – пошаговое руководство](./create-new-excel-workbook-in-c-step-by-step-guide/) | Узнайте, как создать новую рабочую книгу Excel в C# с помощью Aspose.Cells для .NET, следуя пошаговому руководству. |  
@@ -118,13 +116,11 @@ Power Query может стать настоящим прорывом в обр�
 | [Создать книгу Excel C# – пошаговое руководство](./create-excel-workbook-c-step-by-step-guide/) | Узнайте, как создать книгу Excel с помощью C# и Aspose.Cells, следуя пошаговому руководству. |  
 | [Как создать рабочую книгу в C# – пошаговое руководство](./how-to-create-workbook-in-c-step-by-step-guide/) | Узнайте, как создать рабочую книгу в C# с помощью Aspose.Cells для .NET, следуя нашему пошаговому руководству. |  
 | [Создать новую рабочую книгу – Преобразовать Markdown в Excel на C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Узнайте, как создать новую книгу Excel и конвертировать Markdown в Excel с помощью C# и Aspose.Cells. |  
-| [Как создать рабочую книгу в C# – записать значение и отформатировать число](./how-to-create-workbook-in-c-write-value-format-number/) | Узнайте, как создать новую книгу Excel в C#, записать значение в ячейку и применить числовое форматирование с помощью Aspose.Cells. |  
+| [Как создать рабочую книгу в C# – записать значение и отформатировать число](./how-to-create-workbook-in-c-write-value-format-number/) | Узнайте, как создать новую книгу Excel в C#, записать значение в ячейку и применить числовое форматирование с помощью Aspose.Cells. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

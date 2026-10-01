@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Обработка CSV-файлов
@@ -42,13 +40,13 @@
 ### [Создание новой книги и экспорт в CSV – пошаговое руководство C#](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 Узнайте, как создать новую книгу Excel и экспортировать её в CSV с помощью Aspose.Cells для .NET, следуя пошаговому руководству на C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Экспорт таблицы в CSV – Полное руководство C# с пользовательскими форматами чисел](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
 Узнайте, как экспортировать таблицу в CSV с помощью C#, включая настройку пользовательских форматов чисел для точного отображения данных.
 ### [Экспорт таблицы в CSV на C# – Полное руководство](./export-table-to-csv-in-c-complete-guide/)
@@ -57,7 +55,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

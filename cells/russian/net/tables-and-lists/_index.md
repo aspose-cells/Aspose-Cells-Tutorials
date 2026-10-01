@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Таблицы и списки
@@ -58,13 +56,13 @@
 ### [Как переименовать таблицу в C# – Полное руководство](./how-to-rename-table-in-c-full-guide/)
 Переименуйте таблицу в Excel с помощью Aspose.Cells для .NET, следуя нашему полному пошаговому руководству.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Удалить заголовок таблицы в Aspose.Cells – Полное руководство](./remove-table-header-in-aspose-cells-complete-guide/)
 Узнайте, как удалить заголовок таблицы в Excel с помощью Aspose.Cells для .NET, следуя нашему подробному руководству.
 ### [Как переименовать таблицу в Excel с помощью C# – пошаговое руководство](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
@@ -73,7 +71,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

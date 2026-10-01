@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ความคิดเห็นและคำอธิบายประกอบของ Excel
@@ -45,13 +43,13 @@
 ### [เพิ่มความคิดเห็นใน Excel ด้วย C# – คู่มือขั้นตอนเต็ม](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
 เรียนรู้วิธีเพิ่มความคิดเห็นใน Excel ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอน
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [สร้าง Excel Workbook C# – เพิ่มความคิดเห็นและบันทึกเป็น XLSX](./create-excel-workbook-c-add-comment-save-as-xlsx/)
 เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# เพิ่มความคิดเห็นและบันทึกเป็น XLSX ด้วย Aspose.Cells
 
@@ -63,8 +61,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

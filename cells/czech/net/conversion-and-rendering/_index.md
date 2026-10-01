@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konverze a vykreslování
@@ -55,13 +53,13 @@ Naučte se převádět soubory DOCX do formátu SVG pomocí Aspose.Words v .NET 
 ### [Vložení písem do HTML – Kompletní průvodce pro vývojáře .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
 Naučte se, jak vložit písma do HTML při převodu Excelu pomocí Aspose.Cells v .NET a zachovat přesné formátování.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Excel list do PNG – Export kontingenční tabulky jako PNG v C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 Naučte se exportovat kontingenční tabulku z Excelu do formátu PNG pomocí Aspose.Cells v C#.
 
@@ -73,8 +71,6 @@ Naučte se převádět soubory markdown do formátu Excel pomocí Aspose.Cells v
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

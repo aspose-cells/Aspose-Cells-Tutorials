@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabelas e Listas
@@ -58,13 +56,13 @@ Aprenda a criar uma tabela a partir de um intervalo no Excel usando C# e Aspose.
 ### [Como renomear tabela em C# – Guia completo](./how-to-rename-table-in-c-full-guide/)
 Aprenda a renomear tabelas no Excel usando Aspose.Cells para .NET com C# neste guia passo a passo.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Remover cabeçalho da tabela no Aspose.Cells – Guia completo](./remove-table-header-in-aspose-cells-complete-guide/)
 Aprenda a remover o cabeçalho de uma tabela no Excel usando Aspose.Cells para .NET neste guia completo passo a passo.
 ### [Como renomear tabela no Excel com C# – Guia passo a passo](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
@@ -73,7 +71,6 @@ Aprenda a renomear tabelas no Excel usando C# com Aspose.Cells de forma simples 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Číselné a zobrazovací formáty v Excelu
@@ -37,13 +35,13 @@ Exportujte Excel s formátováním pomocí Aspose.Cells pro .NET a zachovejte č
 ### [Formátování data a času na ISO v C# – Kompletní průvodce](./format-datetime-to-iso-in-c-complete-guide/)
 Naučte se, jak v C# převést datum a čas do formátu ISO pomocí Aspose.Cells pro .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Jak formátovat měnu ve sloupci mřížky – krok‑za‑krokem](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Cells pro .NET nastavit formát měny ve sloupci mřížky v několika krocích.
 ### [Použití formátu čísel v Excelu – krok za krokem průvodce formátováním sloupců](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
@@ -52,7 +50,6 @@ Naučte se, jak pomocí Aspose.Cells pro .NET aplikovat číselné formáty na s
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

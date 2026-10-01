@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Handhabung von CSV-Dateien
@@ -40,13 +38,13 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Arbeitsmappen in CSV-Dateien ex
 ### [Neues Arbeitsbuch erstellen und in CSV exportieren – Schritt‑für‑Schritt C#‑Leitfaden](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 Erfahren Sie, wie Sie ein neues Arbeitsbuch erstellen und es mit Aspose.Cells für .NET in eine CSV-Datei exportieren – ein klarer C#‑Leitfaden.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Tabelle in CSV exportieren – Vollständiger C#-Leitfaden mit benutzerdefinierten Zahlenformaten](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
 Erfahren Sie, wie Sie Tabellen mit benutzerdefinierten Zahlenformaten in CSV-Dateien exportieren, inklusive vollständigem C#-Beispiel.
 ### [Tabelle in CSV exportieren in C# – Komplettanleitung](./export-table-to-csv-in-c-complete-guide/)
@@ -55,7 +53,6 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Tabellen in CSV-Dateien exporti
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

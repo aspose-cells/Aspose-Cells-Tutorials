@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel-bestanden opslaan en exporteren met opties
@@ -49,20 +47,19 @@ Leer hoe u een werkmap opslaat in C# met een volledige gids voor Excel-automatis
 ### [Hoe FlatOpcSaveOptions in C# te gebruiken – Complete gids](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
 Leer stap voor stap hoe u FlatOpcSaveOptions kunt toepassen in C# om Excel-bestanden efficiënt op te slaan met Aspose.Cells.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Hoe een werkmap op te slaan in C# – Complete gids voor het wissen van filters en het exporteren van Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
 Leer hoe u filters kunt wissen, een werkmap opslaat en exporteert naar Excel met Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

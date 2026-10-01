@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Otomatik Filtreleme ve Doğrulama
@@ -43,13 +41,13 @@ Aspose.Cells for .NET kullanarak C# ile bir Excel dosyasındaki ilk tabloyu nas�
 ### [C# Excel Otomasyonunda AutoFilter Kullanımı – Tam Adım Adım Kılavuz](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
 Aspose.Cells ile C# içinde AutoFilter özelliğini adım adım nasıl uygulayacağınızı öğrenin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [C# ile Excel Otomatik Filtreyi Kaldırma – Tam Adım Adım Kılavuz](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Aspose.Cells for .NET kullanarak Excel'deki otomatik filtreyi nasıl kaldıracağınızı adım adım öğrenin.
 ### [C# ile Excel'de Filtre Arayüzünü Temizle – AutoFilter Düğmesini Kaldır](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
@@ -60,7 +58,6 @@ Aspose.Cells for .NET kullanarak Excel'de filtre oklarını gizleme adımların�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

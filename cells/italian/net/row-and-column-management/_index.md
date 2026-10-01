@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gestione di righe e colonne
@@ -86,13 +84,13 @@ Scopri come generare dinamicamente righe in Excel per ripetere elementi usando C
 ### [Come inserire righe in GridJs – Aggiungere più righe alla griglia in modo efficiente](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 Scopri come inserire più righe in GridJs in modo efficiente con una guida passo passo.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Inserire righe in Excel con C# – Guida passo‑passo](./insert-rows-in-excel-with-c-step-by-step-guide/)
 Scopri come inserire righe in Excel usando C# con Aspose.Cells per .NET. Guida dettagliata passo passo.
 ### [Elimina righe da una tabella Excel con C# – Guida passo‑passo](./delete-rows-excel-table-with-c-step-by-step-guide/)
@@ -106,7 +104,6 @@ Scopri come inserire rapidamente più righe in una tabella GridJs con pochi pass
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

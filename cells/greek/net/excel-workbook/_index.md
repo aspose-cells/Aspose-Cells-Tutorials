@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Βιβλίο εργασίας Excel
@@ -92,13 +90,13 @@
 | [Δημιουργία βιβλίου εργασίας Excel C# – Πλήρης οδηγός με Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel με C# χρησιμοποιώντας το Aspose.Cells σε έναν ολοκληρωμένο οδηγό βήμα προς βήμα. |  
 | [Δημιουργία βιβλίου εργασίας Excel σε C# – Πλήρης προγραμματιστικός οδηγός](./create-excel-workbook-in-c-complete-programming-guide/) | Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel χρησιμοποιώντας C# με έναν πλήρη προγραμματιστικό οδηγό. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 | [Δημιουργία βιβλίου εργασίας Excel με μορφοποιημένο πίνακα – Οδηγός βήμα προς βήμα](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel με μορφοποιημένο πίνακα, ακολουθώντας βήμα‑προς‑βήμα οδηγίες. |  
 | [Δημιουργία νέου βιβλίου εργασίας σε C# – Προσθήκη τύπου και αποθήκευση αρχείου Excel](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Μάθετε πώς να δημιουργήσετε νέο βιβλίο εργασίας, να προσθέσετε τύπο και να αποθηκεύσετε το αρχείο Excel χρησιμοποιώντας C# και Aspose.Cells. |  
 | [Δημιουργία βιβλίου εργασίας Excel C# – Δημιουργία XLSX από JSON](./create-excel-workbook-c-generate-xlsx-from-json/) | Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel σε μορφή XLSX από δεδομένα JSON χρησιμοποιώντας C# και Aspose.Cells. |
@@ -115,7 +113,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

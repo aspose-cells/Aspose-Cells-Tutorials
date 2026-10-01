@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Komentáře a anotace v Excelu
@@ -45,13 +43,13 @@ Naučte se, jak přidat komentář do buňky v Excelu pomocí Aspose.Cells pro .
 ### [Přidání komentáře do Excelu pomocí C# – Kompletní průvodce krok za krokem](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Cells pro .NET přidat komentář do Excelu v C# s podrobným krok za krokem návodem.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Vytvořte Excel sešitu v C# – Přidejte komentář a uložte jako XLSX](./create-excel-workbook-c-add-comment-save-as-xlsx/)
 Naučte se, jak vytvořit sešit Excel v C#, přidat komentář a uložit jej jako soubor XLSX pomocí Aspose.Cells pro .NET.
 
@@ -63,8 +61,6 @@ Naučte se, jak pomocí Aspose.Cells pro .NET programově vytvořit soubor Excel
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

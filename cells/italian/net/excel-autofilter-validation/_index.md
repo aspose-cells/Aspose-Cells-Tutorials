@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Filtro automatico e convalida di Excel
@@ -43,13 +41,13 @@ Scopri come estrarre la prima tabella da una cartella di lavoro Excel usando Asp
 ### [Come utilizzare AutoFilter in C# per l'automazione di Excel – Guida completa passo‑passo](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
 Scopri come applicare AutoFilter in C# con Aspose.Cells per automatizzare Excel, passo dopo passo, con esempi pratici.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Rimuovere il filtro automatico in Excel con C# – Guida completa passo‑a‑passo](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Scopri come rimuovere il filtro automatico da un foglio Excel usando Aspose.Cells per .NET con questa guida dettagliata passo dopo passo.
 ### [Interfaccia filtro chiara in Excel con C# – Rimuovi il pulsante AutoFilter](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
@@ -60,7 +58,6 @@ Scopri come nascondere le frecce di filtro in Excel con C# usando Aspose.Cells p
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Inteligentní markery v Aspose.Cells pro dynamická data
@@ -114,13 +112,13 @@ Kompletní návod, jak pomocí Aspose.Cells SmartMarker v C# vytvořit dynamick�
 ### [Vytvoření šablony Excel s inteligentními značkami v C# – Kompletní průvodce](./create-excel-template-with-smart-markers-in-c-complete-guide/)
 ### [Sloučení dat v Excelu v C# – Kompletní průvodce Smart Markery](./excel-data-merging-in-c-complete-smart-marker-guide/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Vytvoření kolekce inteligentních značek – kompletní průvodce v C#](./create-smart-marker-collection-complete-c-guide/)
 Kompletní návod v C#, jak vytvořit kolekci inteligentních značek pro generování dynamických Excelových sestav pomocí Aspose.Cells.
 
@@ -151,7 +149,6 @@ Naučte se vytvořit hlavní‑detailní report v C# a naplnit Excel šablonu po
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

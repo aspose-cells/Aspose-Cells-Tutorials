@@ -12,7 +12,7 @@ url: /de/java/cell-operations/excel-automation-aspose-cells-java-html-cells/
 weight: 1
 ---
 
- final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

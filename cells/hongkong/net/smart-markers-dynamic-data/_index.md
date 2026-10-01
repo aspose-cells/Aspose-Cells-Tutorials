@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells 中用於動態資料的智慧標記
@@ -111,13 +109,13 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 ### [Excel 資料合併（C#）– 完整智慧標記指南](./excel-data-merging-in-c-complete-smart-marker-guide/)
 了解如何在 C# 中使用 Aspose.Cells 智慧標記合併 Excel 資料，打造動態報表的完整步驟指南。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [如何使用智慧標記建立工作簿 – Aspose.Cells 指南](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
 本教學說明如何使用 Aspose.Cells Smart Markers 建立工作簿，快速產生動態 Excel 報表。
 ### [建立智慧標記集合 – 完整 C# 指南](./create-smart-marker-collection-complete-c-guide/)
@@ -148,7 +146,6 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi và Kết xuất
@@ -55,13 +53,13 @@ Học cách chuyển đổi tài liệu Word (docx) sang định dạng SVG mộ
 ### [Nhúng phông chữ trong HTML – Hướng dẫn đầy đủ cho nhà phát triển .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
 Tìm hiểu cách nhúng phông chữ vào tài liệu HTML bằng Aspose.Words cho .NET, đảm bảo hiển thị chính xác trên mọi trình duyệt.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [excel sheet to png – Xuất Pivot Table dưới dạng PNG trong C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 Hướng dẫn xuất Pivot Table từ Excel sang PNG bằng C# và Aspose.Cells.
 
@@ -73,8 +71,6 @@ Hướng dẫn chi tiết cách chuyển đổi nội dung markdown thành tệp
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

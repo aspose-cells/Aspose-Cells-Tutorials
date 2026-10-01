@@ -13,9 +13,8 @@ url: /nl/java/cell-operations/excel-automation-aspose-cells-java-insert-multiple
 weight: 1
 ---
 
-.
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

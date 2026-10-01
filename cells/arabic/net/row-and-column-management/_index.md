@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # إدارة الصفوف والأعمدة
@@ -85,13 +83,13 @@
 ### [كيفية إدراج الصفوف في GridJs – إضافة عدة صفوف إلى الشبكة بكفاءة](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 دليل خطوة بخطوة لإدراج صفوف متعددة في GridJs بفعالية وسهولة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [حذف الصفوف في جدول Excel باستخدام C# – دليل خطوة بخطوة](./delete-rows-excel-table-with-c-step-by-step-guide/)
 تعلم كيفية حذف الصفوف من جدول Excel باستخدام C# خطوة بخطوة مع Aspose.Cells.
 ### [إدراج صفوف في Excel باستخدام C# – دليل خطوة بخطوة](./insert-rows-in-excel-with-c-step-by-step-guide/)
@@ -104,7 +102,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

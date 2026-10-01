@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formatos de números e exibição no Excel
@@ -37,13 +35,13 @@ Aprenda a exportar planilhas Excel mantendo a formatação e os formatos numéri
 ### [Formatar datetime para ISO em C# – Guia Completo](./format-datetime-to-iso-in-c-complete-guide/)
 Aprenda a converter valores datetime para o padrão ISO usando C# e Aspose.Cells, garantindo consistência nas datas.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Como formatar moeda em uma coluna de grade – Guia passo a passo](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 Aprenda a aplicar formatação de moeda em colunas de grade usando Aspose.Cells para .NET, passo a passo.
 ### [Aplicar formato numérico no Excel – Guia passo a passo para formatar colunas](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
@@ -52,7 +50,6 @@ Aprenda a aplicar formatos numéricos a colunas no Excel passo a passo com Aspos
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

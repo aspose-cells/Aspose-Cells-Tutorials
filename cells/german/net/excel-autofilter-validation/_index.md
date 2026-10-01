@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel-Autofilter und -Validierung
@@ -43,13 +41,13 @@ Erfahren Sie, wie Sie mit Aspose.Cells die erste Tabelle einer Excel-Arbeitsmapp
 ### [Wie man AutoFilter in C# Excel‑Automatisierung verwendet – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
 Erfahren Sie, wie Sie mit Aspose.Cells AutoFilter in C# automatisiert einsetzen – detaillierte Schritt‑für‑Schritt‑Anleitung.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Entfernen des Autofilters in Excel mit C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie den Autofilter in Excel mithilfe von C# und Aspose.Cells vollständig entfernen – klar und detailliert erklärt.
 ### [Filter-UI in Excel mit C# – AutoFilter-Schaltfläche entfernen](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
@@ -60,7 +58,6 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET die Filterpfeile in Excel ausbl
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

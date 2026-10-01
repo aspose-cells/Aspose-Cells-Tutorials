@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabellen und Listen
@@ -58,13 +56,13 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Tabelle aus einem bestehen
 ### [Wie man eine Tabelle in C# umbenennt – Vollständiger Leitfaden](./how-to-rename-table-in-c-full-guide/)
 Erfahren Sie Schritt für Schritt, wie Sie mit Aspose.Cells für .NET Tabellen in C# umbenennen und Ihre Excel-Dateien effizient verwalten.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Tabellenkopf in Aspose.Cells entfernen – Komplettanleitung](./remove-table-header-in-aspose-cells-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET den Tabellenkopf entfernen und Ihre Excel-Dateien optimal anpassen – Schritt für Schritt.
 ### [Tabelle in Excel mit C# umbenennen – Schritt‑für‑Schritt-Anleitung](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
@@ -73,7 +71,6 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Tabelle in Excel per C# um
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dönüştürme ve İşleme
@@ -55,13 +53,13 @@ Aspose.Words ile Word belgelerinizi SVG formatına dönüştürmeyi adım adım 
 ### [HTML'de Font Gömme – .NET Geliştiricileri İçin Tam Kılavuz](./embed-fonts-in-html-complete-guide-for-net-developers/)
 Aspose.Cells ile .NET uygulamalarınızda HTML çıktısına gömülü fontları eklemeyi adım adım öğrenin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Excel sayfasını PNG'ye – C#'ta Pivot Tablosunu PNG Olarak Dışa Aktarma](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 Aspose.Cells ile bir pivot tabloyu PNG formatında kaydedin, C# uygulamanızda görsel raporlar oluşturun.
 
@@ -73,8 +71,6 @@ C# kullanarak Markdown dosyalarını Excel çalışma sayfalarına dönüştürm
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

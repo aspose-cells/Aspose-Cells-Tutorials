@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thuộc tính tài liệu
@@ -40,23 +38,23 @@ Hướng dẫn tạo workbook Excel, thêm các thuộc tính tùy chỉnh và l
 ### [Cách Lưu XLSB với Thuộc Tính Tùy Chỉnh trong C# – Hướng Dẫn Từng Bước](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
 Hướng dẫn chi tiết cách lưu tệp XLSB kèm thuộc tính tùy chỉnh bằng Aspose.Cells cho .NET trong C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Cách lưu XLSB – Thêm thuộc tính tùy chỉnh trong C#](./how-to-save-xlsb-add-custom-property-in-c/)
 Tìm hiểu cách lưu tệp XLSB và thêm thuộc tính tùy chỉnh trong C# bằng Aspose.Cells cho .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Cách Lưu XLSB với Thuộc Tính Tùy Chỉnh – Hướng Dẫn Bước‑Bước C#](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
 Hướng dẫn chi tiết cách lưu tệp XLSB và thêm thuộc tính tùy chỉnh bằng Aspose.Cells cho .NET trong C#.
 ### [Tạo Workbook Excel C# – Thêm Thuộc Tính Tùy chỉnh & Lưu XLSB](./create-excel-workbook-c-add-custom-property-save-xlsb/)
@@ -67,8 +65,6 @@ Tìm hiểu cách thêm thuộc tính tùy chỉnh vào Excel bằng C# với As
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Αυτόματο φίλτρο και επικύρωση Excel
@@ -43,13 +41,13 @@
 ### [Πώς να χρησιμοποιήσετε το AutoFilter σε αυτοματοποίηση Excel με C# – Πλήρης οδηγός βήμα‑βήμα](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
 Μάθετε πώς να εφαρμόσετε το AutoFilter σε αρχεία Excel χρησιμοποιώντας C# και Aspose.Cells, βήμα‑βήμα, για αποτελεσματική διαχείριση δεδομένων.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Αφαίρεση αυτόματου φίλτρου Excel σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Μάθετε πώς να αφαιρέσετε το αυτόματο φίλτρο από ένα αρχείο Excel χρησιμοποιώντας το Aspose.Cells σε .NET με λεπτομερή οδηγό βήμα‑βήμα.
 ### [Καθαρό UI φίλτρου στο Excel με C# – Αφαίρεση του κουμπιού AutoFilter](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
@@ -60,7 +58,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

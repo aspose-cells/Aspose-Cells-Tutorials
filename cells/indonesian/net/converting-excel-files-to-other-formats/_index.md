@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengonversi File Excel ke Format Lain
@@ -79,13 +77,13 @@ Pelajari cara mengekspor file Excel ke PowerPoint secara terprogram menggunakan 
 ### [Mengonversi Excel ke PowerPoint dengan C# – Panduan Lengkap](./convert-excel-to-powerpoint-with-c-complete-guide/)
 Pelajari cara mengonversi file Excel ke PowerPoint secara terprogram menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah ini.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Simpan Excel sebagai Docx dengan C# – Panduan Lengkap Langkah demi Langkah](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 Pelajari cara menyimpan file Excel menjadi dokumen Docx menggunakan C# dengan panduan langkah demi langkah yang lengkap.
 ### [Buat buku kerja baru – Ekspor Excel ke TXT dengan Presisi Penuh](./create-new-workbook-export-excel-to-txt-with-full-precision/)
@@ -117,8 +115,6 @@ Pelajari cara mengekspor file Excel menjadi teks berformat tab-delimited menggun
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

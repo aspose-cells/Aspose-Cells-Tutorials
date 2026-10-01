@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Экспорт и извлечение данных Excel
@@ -39,13 +37,13 @@
 ### [Экспорт диапазона листа в C# – Полное руководство по программированию](./export-worksheet-range-in-c-complete-programming-guide/)
 Узнайте, как экспортировать диапазон листа Excel в C# с помощью Aspose.Cells, следуя полному пошаговому руководству.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Создание рабочей книги C# – Экспорт DataTable в Excel с форматированием](./create-workbook-c-export-datatable-to-excel-with-formatting/)
 Узнайте, как создать рабочую книгу в C#, экспортировать DataTable в Excel и применить форматирование с помощью Aspose.Cells.
 
@@ -55,7 +53,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
