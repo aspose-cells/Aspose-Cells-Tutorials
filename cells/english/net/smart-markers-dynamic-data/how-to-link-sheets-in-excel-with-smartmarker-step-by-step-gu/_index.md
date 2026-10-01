@@ -210,45 +210,6 @@ If your property names don’t line up (`MasterKey` vs `Id`), you can use the `S
 processor.Map("MasterId", "Id"); // tells the engine that MasterId maps to Id
 ```
 
----
-
-## Full Working Example
-
-Putting everything together, here’s a complete, copy‑paste‑ready program you can run immediately.
-
-```csharp
-using System;
-using GrapeCity.Documents.Excel;
-
-namespace MasterDetailDemo
-{
-    class Program
-    {
-        static void Main()
-        {
-            // 1️⃣ Prepare hierarchical data
-            var sampleData = new
-            {
-                Master = new[]
-                {
-                    new { Id = 1, Name = "A" },
-                    new { Id = 2, Name = "B" }
-                },
-                Details = new[]
-                {
-                    new { MasterId = 1, Item = "Item1" },
-                    new { MasterId = 1, Item = "Item1‑Extra" },
-                    new { MasterId = 2, Item = "Item2" }
-                }
-            };
-
-            // 2️⃣ Create workbook and template sheets
-            IWorkbook wb = new Workbook();
-
-            var master = wb.Worksheets.Add("MasterSheet");
-            master.Range["A1"].Value
-
-
 ## What Should You Learn Next?
 
 

@@ -192,42 +192,6 @@ wb.Save("MasterDetailReport.xlsx");
 processor.Map("MasterId", "Id"); // tells the engine that MasterId maps to Id
 ```
 
-## 完整工作示例
-
-将所有内容整合在一起，下面是一个完整的、可直接复制粘贴运行的程序示例。
-
-```csharp
-using System;
-using GrapeCity.Documents.Excel;
-
-namespace MasterDetailDemo
-{
-    class Program
-    {
-        static void Main()
-        {
-            // 1️⃣ Prepare hierarchical data
-            var sampleData = new
-            {
-                Master = new[]
-                {
-                    new { Id = 1, Name = "A" },
-                    new { Id = 2, Name = "B" }
-                },
-                Details = new[]
-                {
-                    new { MasterId = 1, Item = "Item1" },
-                    new { MasterId = 1, Item = "Item1‑Extra" },
-                    new { MasterId = 2, Item = "Item2" }
-                }
-            };
-
-            // 2️⃣ Create workbook and template sheets
-            IWorkbook wb = new Workbook();
-
-            var master = wb.Worksheets.Add("MasterSheet");
-            master.Range["A1"].Value
-
 
 ## 接下来你应该学习什么？
 

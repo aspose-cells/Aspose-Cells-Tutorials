@@ -200,42 +200,6 @@ Ha a tulajdonnév nem egyezik (`MasterKey` vs `Id`), a `SmartMarkerProcessor.Map
 processor.Map("MasterId", "Id"); // tells the engine that MasterId maps to Id
 ```
 
-## Teljes működő példa
-
-Mindent összerakva, itt egy komplett, másolás‑beillesztésre kész program, amelyet azonnal futtathatsz.
-
-```csharp
-using System;
-using GrapeCity.Documents.Excel;
-
-namespace MasterDetailDemo
-{
-    class Program
-    {
-        static void Main()
-        {
-            // 1️⃣ Prepare hierarchical data
-            var sampleData = new
-            {
-                Master = new[]
-                {
-                    new { Id = 1, Name = "A" },
-                    new { Id = 2, Name = "B" }
-                },
-                Details = new[]
-                {
-                    new { MasterId = 1, Item = "Item1" },
-                    new { MasterId = 1, Item = "Item1‑Extra" },
-                    new { MasterId = 2, Item = "Item2" }
-                }
-            };
-
-            // 2️⃣ Create workbook and template sheets
-            IWorkbook wb = new Workbook();
-
-            var master = wb.Worksheets.Add("MasterSheet");
-            master.Range["A1"].Value
-
 
 ## Mit érdemes még megtanulni?
 

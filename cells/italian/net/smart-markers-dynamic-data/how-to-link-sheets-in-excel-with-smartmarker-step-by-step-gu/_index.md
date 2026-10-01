@@ -211,45 +211,6 @@ Se i nomi delle tue proprietà non coincidono (`MasterKey` vs `Id`), puoi usare 
 processor.Map("MasterId", "Id"); // tells the engine that MasterId maps to Id
 ```
 
----
-
-## Esempio completo funzionante
-
-Ecco un programma completo, pronto per il copia‑incolla, che puoi eseguire subito.
-
-```csharp
-using System;
-using GrapeCity.Documents.Excel;
-
-namespace MasterDetailDemo
-{
-    class Program
-    {
-        static void Main()
-        {
-            // 1️⃣ Prepare hierarchical data
-            var sampleData = new
-            {
-                Master = new[]
-                {
-                    new { Id = 1, Name = "A" },
-                    new { Id = 2, Name = "B" }
-                },
-                Details = new[]
-                {
-                    new { MasterId = 1, Item = "Item1" },
-                    new { MasterId = 1, Item = "Item1‑Extra" },
-                    new { MasterId = 2, Item = "Item2" }
-                }
-            };
-
-            // 2️⃣ Create workbook and template sheets
-            IWorkbook wb = new Workbook();
-
-            var master = wb.Worksheets.Add("MasterSheet");
-            master.Range["A1"].Value
-
-
 ## Cosa dovresti imparare dopo?
 
 I seguenti tutorial coprono argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi con spiegazioni passo‑passo per aiutarti a padroneggiare funzionalità aggiuntive dell'API e a esplorare approcci di implementazione alternativi nei tuoi progetti.

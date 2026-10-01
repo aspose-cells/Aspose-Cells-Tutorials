@@ -211,45 +211,6 @@ Nếu tên thuộc tính của bạn không khớp (`MasterKey` vs `Id`), bạn 
 processor.Map("MasterId", "Id"); // tells the engine that MasterId maps to Id
 ```
 
----
-
-## Ví Dụ Hoàn Chỉnh Hoạt Động
-
-Kết hợp tất cả lại, đây là một chương trình hoàn chỉnh, sẵn sàng sao chép‑dán mà bạn có thể chạy ngay lập tức.
-
-```csharp
-using System;
-using GrapeCity.Documents.Excel;
-
-namespace MasterDetailDemo
-{
-    class Program
-    {
-        static void Main()
-        {
-            // 1️⃣ Prepare hierarchical data
-            var sampleData = new
-            {
-                Master = new[]
-                {
-                    new { Id = 1, Name = "A" },
-                    new { Id = 2, Name = "B" }
-                },
-                Details = new[]
-                {
-                    new { MasterId = 1, Item = "Item1" },
-                    new { MasterId = 1, Item = "Item1‑Extra" },
-                    new { MasterId = 2, Item = "Item2" }
-                }
-            };
-
-            // 2️⃣ Create workbook and template sheets
-            IWorkbook wb = new Workbook();
-
-            var master = wb.Worksheets.Add("MasterSheet");
-            master.Range["A1"].Value
-
-
 ## Bạn Nên Học Gì Tiếp Theo?
 
 Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoàn chỉnh với giải thích từng bước để giúp bạn làm chủ các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.

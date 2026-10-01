@@ -198,42 +198,6 @@ Jika nama properti Anda tidak cocok (`MasterKey` vs `Id`), Anda dapat menggunaka
 processor.Map("MasterId", "Id"); // tells the engine that MasterId maps to Id
 ```
 
-## Contoh Lengkap yang Berfungsi
-
-Menggabungkan semuanya, berikut program lengkap yang siap disalin‑tempel dan dapat dijalankan segera.
-
-```csharp
-using System;
-using GrapeCity.Documents.Excel;
-
-namespace MasterDetailDemo
-{
-    class Program
-    {
-        static void Main()
-        {
-            // 1️⃣ Prepare hierarchical data
-            var sampleData = new
-            {
-                Master = new[]
-                {
-                    new { Id = 1, Name = "A" },
-                    new { Id = 2, Name = "B" }
-                },
-                Details = new[]
-                {
-                    new { MasterId = 1, Item = "Item1" },
-                    new { MasterId = 1, Item = "Item1‑Extra" },
-                    new { MasterId = 2, Item = "Item2" }
-                }
-            };
-
-            // 2️⃣ Create workbook and template sheets
-            IWorkbook wb = new Workbook();
-
-            var master = wb.Worksheets.Add("MasterSheet");
-            master.Range["A1"].Value
-
 
 ## Apa yang Harus Anda Pelajari Selanjutnya?
 
