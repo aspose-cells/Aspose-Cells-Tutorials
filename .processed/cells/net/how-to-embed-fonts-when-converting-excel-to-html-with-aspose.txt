@@ -1,0 +1,7 @@
+Title: How to embed fonts when converting Excel to HTML with Aspose.Cells
+Slug: how-to-embed-fonts-when-converting-excel-to-html-with-aspose
+Category: exporting-excel-to-html-with-advanced-options
+ProcessedDate: 2026-10-01T11:50:24.671863
+SourceRepo: AI Search API
+Keywords: how to embed fonts, convert excel to html, embed fonts in html, how to export excel, export excel as html
+PRNumber: 174

@@ -131,7 +131,7 @@ Výukový program pro Aspose.Words v Javě
 ### [Nastavení obrázku na pozadí v Excelu pomocí Aspose.Cells v Javě (podrobný návod)](./set-background-picture-excel-aspose-cells-java/)
 Naučte se, jak vylepšit své excelovské sestavy přidáním obrázků na pozadí pomocí Aspose.Cells v Javě. Pro bezproblémovou implementaci postupujte podle tohoto podrobného návodu.
 
-
+### [Jak exportovat tvar pomocí ShapeExportOptions v Javě](./how-to-export-shape-with-shapeexportoptions-in-java/)
 
 ## Další zdroje
 

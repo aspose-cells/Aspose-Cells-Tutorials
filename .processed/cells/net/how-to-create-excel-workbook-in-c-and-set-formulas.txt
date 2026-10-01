@@ -1,0 +1,7 @@
+Title: How to create Excel workbook in C# and set formulas
+Slug: how-to-create-excel-workbook-in-c-and-set-formulas
+Category: excel-formulas-and-calculation-options
+ProcessedDate: 2026-10-01T11:50:34.334430
+SourceRepo: AI Search API
+Keywords: create excel workbook c#, how to calculate cot, set formula in cell, write formula to cell, how to use pi function
+PRNumber: 174

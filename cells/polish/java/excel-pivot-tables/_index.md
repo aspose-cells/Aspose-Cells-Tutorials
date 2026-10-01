@@ -44,6 +44,8 @@ Dowiedz się, jak odświeżyć dane tabeli przestawnej w Aspose.Cells dla Java. 
 Dowiedz się, jak dostosować style tabeli przestawnej w Aspose.Cells for Java API. Twórz wizualnie atrakcyjne tabele przestawne z łatwością.
 ### [Kopiowanie tabeli przestawnej w Javie – zachowaj ją, wyeksportuj do PPTX](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
 Dowiedz się, jak skopiować tabelę przestawną w Aspose.Cells for Java, zachować jej ustawienia i wyeksportować do prezentacji PPTX.
+### [Jak kopiować tabele przestawne między skoroszytami Excel w Javie](./how-to-copy-pivot-tables-between-excel-workbooks-in-java/)
+Dowiedz się, jak kopiować tabele przestawne między skoroszytami Excel przy użyciu Aspose.Cells for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

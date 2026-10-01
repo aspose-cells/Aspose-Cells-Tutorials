@@ -1,0 +1,7 @@
+Title: How to add custom properties to an Excel workbook
+Slug: how-to-add-custom-properties-to-an-excel-workbook
+Category: document-properties
+ProcessedDate: 2026-10-01T11:49:28.695201
+SourceRepo: AI Search API
+Keywords: add custom properties, how to add custom, excel custom properties, add project id, read custom properties
+PRNumber: 174

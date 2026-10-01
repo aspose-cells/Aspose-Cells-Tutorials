@@ -14,7 +14,7 @@
 
 # Excel képek és alakzatok oktatóanyagai Aspose.Cells Java-hoz
 
-Kép- és alakzat-oktatóanyagaink bemutatják, hogyan egészítheti ki vizuális elemekkel az Excel-táblázatokat az Aspose.Cells segítségével Java nyelven. Ezek a gyakorlati útmutatók végigvezetik a képek beszúrásán és formázásán, egyéni alakzatok létrehozásán, diagramok megvalósításán és a rajzobjektumok munkalapokon belüli kezelésén. Minden oktatóanyag részletes Java-kódpéldákat tartalmaz a gyakori vizuális javítási forgatókönyvekhez, segítve Önt abban, hogy lebilincselőbb táblázatkezelő alkalmazásokat hozzon létre, amelyek hatékonyan kombinálják az adatokat grafikus elemekkel.
+Kép- és alakzat-oktatóanyagaink bemutatják, hogyan egészítheti ki vizuális elemekkel az Excel-táblázatokat az Aspose.Cells segítségével Java nyelven. Ezek a gyakorlati útmutatók végigvezetik a képek beszúrását és formázását, egyéni alakzatok létrehozását, diagramok megvalósítását és a rajzobjektumok munkalapokon belüli kezelését. Minden oktatóanyag részletes Java-kódpéldákat tartalmaz a gyakori vizuális javítási forgatókönyvekhez, segítve Önt abban, hogy lebilincselőbb táblázatkezelő alkalmazásokat hozzon létre, amelyek hatékonyan kombinálják az adatokat grafikus elemekkel.
 
 ## Amit tanulni fogsz
 
@@ -117,7 +117,7 @@ Tanuld meg, hogyan manipulálhatsz összetett Excel alakzatokat az Aspose.Cells 
 Tanuld meg, hogyan automatizálhatod és manipulálhatod a szövegdobozokat Excelben az Aspose.Cells for Java használatával. Fejleszd a dinamikus jelentéskészítés és az automatizált adatbevitel terén szerzett készségeidet.
 
 ### [Mester munkafüzet létrehozása és alakzat-beállítás Aspose.Cells Java-val](./mastering-workbook-creation-shape-adjustment-aspose-cells-java/)
-Tanuld meg, hogyan hozhatsz létre és módosíthatsz hatékonyan Excel munkafüzeteket az Aspose.Cells for Java segítségével. Tökéletes a jelentéskészítés automatizálásához és az adatkezelés fejlesztéséhez.
+Tanuld meg, hogyan hozhatsz létre és módosíthass hatékonyan Excel munkafüzeteket az Aspose.Cells for Java segítségével. Tökéletes a jelentéskészítés automatizálásához és az adatkezelés fejlesztéséhez.
 
 ### [Karakterközök elsajátítása Excel alakzatokban az Aspose.Cells for Java használatával](./modifying-excel-shape-character-spacing-aspose-cells-java/)
 Tanuld meg, hogyan állíthatod be a karakterközöket az Excel alakzatokon belül az Aspose.Cells for Java segítségével. Javítsd a szöveg megjelenítését és professzionalizmusát lépésről lépésre szóló útmutatónkkal.
@@ -131,7 +131,8 @@ Kód oktatóanyag az Aspose.Words Java-hoz
 ### [Háttérkép beállítása Excelben az Aspose.Cells Java használatával (lépésről lépésre útmutató)](./set-background-picture-excel-aspose-cells-java/)
 Ismerd meg, hogyan teheted teljessé Excel-jelentéseidet háttérképek hozzáadásával az Aspose.Cells Java segítségével. Kövesd ezt a lépésről lépésre szóló útmutatót a zökkenőmentes megvalósításhoz.
 
-
+### [Alakzat exportálása ShapeExportOptions használatával Java-ban](./how-to-export-shape-with-shapeexportoptions-in-java/)
+Ismerje meg, hogyan exportálhat alakzatokat ShapeExportOptions osztállyal Java-ban az Aspose.Cells segítségével.
 
 ## További források
 

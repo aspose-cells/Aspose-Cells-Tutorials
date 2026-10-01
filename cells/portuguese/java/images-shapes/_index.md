@@ -131,7 +131,8 @@ Um tutorial de código para Aspose.Words Java
 ### [Definir uma imagem de fundo no Excel usando Aspose.Cells Java (guia passo a passo)](./set-background-picture-excel-aspose-cells-java/)
 Aprenda a aprimorar seus relatórios do Excel adicionando imagens de fundo com o Aspose.Cells Java. Siga este guia passo a passo para uma implementação perfeita.
 
-
+### [Como exportar forma com ShapeExportOptions em Java](./how-to-export-shape-with-shapeexportoptions-in-java/)
+Aprenda a exportar formas do Excel como imagens usando ShapeExportOptions com Aspose.Cells para Java.
 
 ## Recursos adicionais
 

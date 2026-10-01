@@ -131,7 +131,8 @@
 ### [Установка фонового рисунка в Excel с помощью Aspose.Cells Java (пошаговое руководство)](./set-background-picture-excel-aspose-cells-java/)
 Узнайте, как улучшить отчеты Excel, добавив фоновые изображения с помощью Aspose.Cells Java. Следуйте этому пошаговому руководству для беспроблемной реализации.
 
-
+### [Как экспортировать фигуру с ShapeExportOptions в Java](./how-to-export-shape-with-shapeexportoptions-in-java/)
+Узнайте, как экспортировать отдельные фигуры из листа Excel в различные форматы, используя ShapeExportOptions в Aspose.Cells для Java.
 
 ## Дополнительные ресурсы
 

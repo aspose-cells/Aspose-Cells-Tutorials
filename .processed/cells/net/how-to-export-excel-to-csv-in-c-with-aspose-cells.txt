@@ -1,0 +1,7 @@
+Title: How to export Excel to CSV in C# with Aspose.Cells
+Slug: how-to-export-excel-to-csv-in-c-with-aspose-cells
+Category: csv-file-handling
+ProcessedDate: 2026-10-01T11:49:46.990345
+SourceRepo: AI Search API
+Keywords: export excel to csv, write csv file c#, convert xlsx to csv c#, how to export xlsx as csv, export range to csv
+PRNumber: 174

@@ -29,7 +29,7 @@
 ### [如何使用 Aspose.Cells Java 將圖像新增至 Excel：綜合指南](./add-images-excel-aspose-cells-java-guide/)
 了解如何使用 Aspose.Cells for Java 以程式設計方式將影像插入 Excel 電子表格。本指南涵蓋了從設定環境到執行程式碼的所有內容。
 
-### [如何使用 Aspose.Cells for Java 在 Excel 中套用 3D 形狀格式](./aspose-cells-java-3d-shape-formatting/)
+### [如何使用 Aspose.Cells Java 在 Excel 中套用 3D 形狀格式](./aspose-cells-java-3d-shape-formatting/)
 了解如何使用 Aspose.Cells for Java 透過視覺上引人入勝的 3D 形狀增強您的 Excel 報告。請按照本逐步指南即可輕鬆實施。
 
 ### [使用 Aspose.Cells Java 在 Excel 中加入線條：綜合指南](./aspose-cells-java-add-lines-excel/)
@@ -131,7 +131,8 @@ Aspose.Words Java 程式碼教程
 ### [使用 Aspose.Cells Java 在 Excel 中設定背景圖片（逐步指南）](./set-background-picture-excel-aspose-cells-java/)
 了解如何透過使用 Aspose.Cells Java 新增背景影像來增強您的 Excel 報告。按照本逐步指南可實現無縫實施。
 
-
+### [如何在 Java 中使用 ShapeExportOptions 匯出形狀](./how-to-export-shape-with-shapeexportoptions-in-java/)
+了解如何使用 Aspose.Cells for Java 的 ShapeExportOptions 將形狀匯出為圖像或其他格式。
 
 ## 其他資源
 
