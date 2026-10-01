@@ -103,6 +103,10 @@ Hướng dẫn chi tiết các bước để xuất tệp Excel sang HTML bằng
 Tìm hiểu cách nhúng phông chữ trong HTML khi xuất Excel sang HTML bằng C# với Aspose.Cells cho .NET trong hướng dẫn chi tiết.
 ### [Chuyển đổi Excel sang HTML trong C# – Hướng dẫn toàn diện](./convert-excel-to-html-in-c-complete-guide/)
 Tìm hiểu cách chuyển đổi tệp Excel sang HTML bằng C# với Aspose.Cells cho .NET trong hướng dẫn chi tiết từng bước.
+### [Tạo tùy chọn lưu HTML trong C# – Hướng dẫn đầy đủ](./create-html-save-options-in-c-full-guide/)
+Khám phá cách cấu hình các tùy chọn lưu HTML trong C# bằng Aspose.Cells cho .NET qua hướng dẫn chi tiết từng bước.
+### [Lưu Excel dưới dạng HTML – Hướng dẫn đầy đủ về xuất và chuyển đổi tệp Excel](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
+Tìm hiểu cách lưu tệp Excel thành HTML và chuyển đổi chúng một cách toàn diện bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

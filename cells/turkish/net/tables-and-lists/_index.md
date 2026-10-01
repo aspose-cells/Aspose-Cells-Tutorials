@@ -57,6 +57,8 @@ Kolay adım adım kılavuzumuzla Aspose.Cells for .NET kullanarak Excel'de tablo
 Aspose.Cells for .NET kullanarak C# ile Excel'de tablo oluşturmayı adım adım öğrenin.
 ### [C#'ta Aralıktan Tablo Oluşturma – Tam Aspose.Cells Eğitimi](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
 Aspose.Cells for .NET kullanarak C# içinde bir aralıktan tablo oluşturmayı adım adım öğrenin. Veri yönetimini kolaylaştırın.
+### [Word Tablosunda Satırları Silme – Tam C# Rehberi](./delete-rows-word-table-complete-c-guide/)
+Aspose.Words for .NET kullanarak Word tablosundaki satırları nasıl sileceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

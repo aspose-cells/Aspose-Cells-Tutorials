@@ -50,6 +50,10 @@ Pelajari cara menulis nilai tanggal dan waktu ke file Excel menggunakan Aspose.C
 Pelajari cara membuat workbook Excel di C# dan menerapkan format angka kustom menggunakan Aspose.Cells untuk .NET dalam tutorial langkah demi langkah ini.
 ### [Cara Mengurai Tanggal di Excel dengan C# – Panduan Lengkap](./how-to-parse-date-in-excel-with-c-complete-guide/)
 Pelajari cara mengurai tanggal di Excel menggunakan C# dengan panduan lengkap ini menggunakan Aspose.Cells untuk .NET.
+### [Buat Workbook Excel dengan Format Kustom – Panduan C#](./create-excel-workbook-with-custom-format-c-guide/)
+Pelajari cara membuat workbook Excel dengan format kustom menggunakan Aspose.Cells untuk .NET dalam panduan C# ini.
+### [Mengurai Tanggal Era Jepang di C# dengan Aspose.Cells – Panduan Lengkap](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+Pelajari cara mengurai tanggal era Jepang di C# menggunakan Aspose.Cells dengan panduan lengkap langkah demi langkah ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

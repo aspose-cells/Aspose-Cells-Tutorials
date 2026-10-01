@@ -57,6 +57,8 @@ Dowiedz się, jak w C# utworzyć tabelę Excel przy użyciu Aspose.Cells, krok p
 Dowiedz się, jak utworzyć tabelę z zakresu w C# przy użyciu Aspose.Cells dla .NET, krok po kroku.
 ### [Jak zmienić nazwę tabeli w C# – pełny przewodnik](./how-to-rename-table-in-c-full-guide/)
 Dowiedz się, jak zmienić nazwę tabeli w programie Excel przy użyciu Aspose.Cells dla .NET w języku C# w tym szczegółowym przewodniku krok po kroku.
+### [Usuwanie wierszy w tabeli Word – kompletny przewodnik C#](./delete-rows-word-table-complete-c-guide/)
+Naucz się usuwać wiersze w tabeli Word przy użyciu Aspose.Words dla .NET w języku C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

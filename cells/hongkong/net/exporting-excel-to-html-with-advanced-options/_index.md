@@ -110,6 +110,10 @@ HTML 匯出中一個經常被忽略的方面是自閉合標籤的管理。 Excel
 本完整指南說明如何使用 Aspose.Cells for .NET 於 C# 中將 Excel 檔案匯出為 HTML，涵蓋所有關鍵設定與範例。
 ### [如何將 Excel 匯出為 HTML – 完整程式設計指南](./how-to-export-excel-to-html-complete-programming-guide/)
 透過本完整的程式設計指南，學習使用 Aspose.Cells for .NET 將 Excel 匯出為 HTML 的所有步驟與技巧。
+### [在 C# 中建立 HTML 儲存選項 – 完整指南](./create-html-save-options-in-c-full-guide/)
+透過本完整指南，學習如何在 Aspose.Cells for .NET 中使用 C# 設定 HTML 儲存選項，提升匯出品質與控制力。
+### [將 Excel 儲存為 HTML – 完整的匯出與轉換 Excel 檔案指南](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
+透過本完整指南，了解如何使用 Aspose.Cells for .NET 將 Excel 匯出為 HTML 並進行檔案轉換。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

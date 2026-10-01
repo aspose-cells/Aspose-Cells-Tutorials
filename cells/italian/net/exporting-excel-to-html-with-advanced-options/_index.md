@@ -62,6 +62,9 @@ Infine, parliamo dei piccoli dettagli che fanno la differenza. La possibilità d
 ## Tutorial sull'esportazione di Excel in HTML con opzioni avanzate
 ### [Come esportare Excel in HTML – Guida completa di programmazione](./how-to-export-excel-to-html-complete-programming-guide/)
 Scopri passo passo come esportare Excel in HTML con una guida completa di programmazione usando Aspose.Cells per .NET.
+### [Crea opzioni di salvataggio HTML in C# – Guida completa](./create-html-save-options-in-c-full-guide/)
+Scopri come configurare le opzioni di salvataggio HTML in C# con Aspose.Cells per .NET in questa guida completa passo passo.
+
 ### [Esclusione degli stili non utilizzati durante l'esportazione di Excel in HTML](./excluding-unused-styles/)
 Scopri come escludere gli stili inutilizzati durante l'esportazione di Excel in HTML utilizzando Aspose.Cells per .NET in questa guida dettagliata passo dopo passo.
 ### [Esportazione delle proprietà della cartella di lavoro e del foglio di lavoro del documento in HTML](./exporting-document-workbook-and-worksheet-properties/)
@@ -88,6 +91,8 @@ Scopri come utilizzare Aspose.Cells per .NET per impostare la larghezza delle co
 Scopri come salvare un file Excel in HTML mantenendo i riquadri congelati usando Aspose.Cells per .NET con esempi C# passo passo.
 ### [Impostazione del nome della scheda di un singolo foglio nell'esportazione HTML](./setting-single-sheet-tab-name/)
 Imposta facilmente il nome di una singola scheda foglio durante l'esportazione HTML utilizzando Aspose.Cells per .NET. Guida dettagliata con esempi di codice inclusi.
+### [Salva Excel come HTML – Guida completa all'esportazione e conversione di file Excel](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
+
 ### [Come incorporare i font in HTML – Guida completa C#](./how-to-embed-fonts-in-html-complete-c-guide/)
 Scopri come incorporare i font nei file HTML usando Aspose.Cells per .NET con C#, passo passo.
 ### [Salva Excel come HTML – Guida completa C#](./save-excel-as-html-complete-c-guide/)

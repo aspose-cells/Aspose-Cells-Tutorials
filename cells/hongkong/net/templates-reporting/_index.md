@@ -57,6 +57,8 @@ Aspose.Cells Net 代碼教程
 本指南說明如何使用 Aspose.Cells for .NET 從 Excel 範本快速產生工作簿，涵蓋設定、資料綁定與保存步驟。
 ### [使用 Aspose.Cells 程式化保存已填充工作簿](./save-populated-workbook-programmatically-with-aspose-cells/)
 了解如何使用 Aspose.Cells 以程式方式保存已填充資料的 Excel 工作簿，確保正確的檔案格式與效能。
+### [使用 Aspose.Cells 建立工作簿範本 – 完整指南](./create-workbook-template-with-aspose-cells-complete-guide/)
+了解如何使用 Aspose.Cells 建立工作簿範本，從設計到資料綁定，完整步驟教學。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

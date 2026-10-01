@@ -49,6 +49,10 @@ Aspose.Cells를 사용해 C#에서 Excel 날짜를 ISO 형식으로 포맷하는
 ### [C#에서 Excel 워크북 만들기 – 사용자 지정 숫자 형식 적용](./create-excel-workbook-in-c-apply-custom-number-format/)
 Aspose.Cells for .NET을 사용하여 C#에서 Excel 워크북을 생성하고 사용자 지정 숫자 형식을 적용하는 방법을 배웁니다.
 ### [C#로 Excel에서 날짜 파싱하기 – 완전 가이드](./how-to-parse-date-in-excel-with-c-complete-guide/)
+### [사용자 지정 서식으로 Excel 워크북 만들기 – C# 가이드](./create-excel-workbook-with-custom-format-c-guide/)
+Aspose.Cells for .NET을 사용하여 C#에서 사용자 지정 서식이 적용된 Excel 워크북을 만드는 방법을 단계별로 안내합니다.
+### [Aspose.Cells를 사용한 C#에서 일본 연호 날짜 구문 분석 – 전체 가이드](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+Aspose.Cells를 활용해 C#에서 일본 연호 형식 날짜를 정확히 파싱하고 처리하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

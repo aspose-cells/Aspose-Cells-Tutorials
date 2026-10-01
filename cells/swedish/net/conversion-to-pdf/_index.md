@@ -59,6 +59,8 @@ Lär dig hur du infogar Unicode-tecken i Excel och exporterar till PDF med Aspos
 Lär dig hur du avrundar siffror korrekt vid Excel‑till‑PDF‑konvertering med C# och Aspose.Cells.
 ### [Spara Word-dokument som PDF – Komplett C#-guide](./save-word-document-as-pdf-complete-c-guide/)
 Lär dig hur du sparar Word-dokument som PDF med C# och Aspose.Words i en komplett steg-för-steg-guide.
+### [Hur du bäddar in teckensnitt vid konvertering av Excel till PDF – Steg‑för‑steg‑guide](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
+Lär dig hur du bäddar in teckensnitt i PDF‑utdata när du konverterar Excel‑filer med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

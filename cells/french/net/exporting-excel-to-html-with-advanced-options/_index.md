@@ -102,6 +102,11 @@ Apprenez à utiliser Aspose.Cells pour .NET pour définir des largeurs de colonn
 
 ### [Définition du nom de l'onglet d'une seule feuille dans l'exportation HTML](./setting-single-sheet-tab-name/)
 Définissez facilement un nom d'onglet pour une seule feuille lors de l'exportation HTML avec Aspose.Cells pour .NET. Guide étape par étape avec exemples de code inclus.
+### [Créer des options d’enregistrement HTML en C# – Guide complet](./create-html-save-options-in-c-full-guide/)
+
+### [Enregistrer Excel en HTML – Guide complet pour l'exportation et la conversion de fichiers Excel](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
+Apprenez à enregistrer des classeurs Excel au format HTML et à convertir des fichiers Excel grâce à ce guide complet étape par étape avec Aspose.Cells pour .NET.
+
 ### [Comment exporter Excel vers HTML – Guide étape par étape](./how-to-export-excel-to-html-step-by-step-guide/)
 Apprenez à exporter Excel vers HTML pas à pas avec Aspose.Cells pour .NET grâce à ce guide complet et illustré.
 

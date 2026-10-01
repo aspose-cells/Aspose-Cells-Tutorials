@@ -38,6 +38,8 @@ Dowiedz się, jak konwertować wykresy na obrazy w .NET za pomocą Aspose.Cells 
 Dowiedz się, jak konwertować arkusze kalkulacyjne programu Excel na obrazy w .NET przy użyciu Aspose.Cells dzięki naszemu przewodnikowi krok po kroku. Usprawnij wizualizację danych.
 ### [Jak zapisać tabelę przestawną jako obraz – przewodnik krok po kroku](./how-to-save-pivot-as-an-image-step-by-step-guide/)
 Dowiedz się, jak zapisać tabelę przestawną jako obraz w .NET przy użyciu Aspose.Cells dzięki naszemu przewodnikowi krok po kroku.
+### [Eksport zakresu Excel jako obrazu – Kompletny przewodnik C#](./export-excel-range-as-image-complete-c-guide/)
+Dowiedz się, jak wyeksportować wybrany zakres komórek z pliku Excel jako obraz przy użyciu Aspose.Cells w C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

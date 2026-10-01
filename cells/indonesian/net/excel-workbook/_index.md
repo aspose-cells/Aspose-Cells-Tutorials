@@ -91,6 +91,7 @@ Jadi, mengapa tidak memanfaatkan kesempatan ini untuk meningkatkan keterampilan 
 | [Buat Buku Kerja Excel dengan C# – Panduan Lengkap Menggunakan EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Pelajari cara membuat buku kerja Excel dengan C# menggunakan fitur EXPAND secara lengkap. |  
 | [Buat Buku Kerja Excel C# – Panduan Lengkap dengan Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | Pelajari cara membuat buku kerja Excel menggunakan C# dengan Aspose.Cells dalam panduan lengkap langkah demi langkah. |  
 | [Membuat Buku Kerja Excel di C# – Panduan Pemrograman Lengkap](./create-excel-workbook-in-c-complete-programming-guide/) | Pelajari cara membuat buku kerja Excel menggunakan C# dengan panduan langkah demi langkah lengkap. |
+| [Buat Buku Kerja Excel C# – Panduan Lengkap dengan Fungsi Expand](./create-excel-workbook-c-full-guide-with-expand-function/) | Pelajari cara membuat buku kerja Excel dengan C# secara lengkap, termasuk penggunaan fungsi Expand untuk memperluas data secara dinamis. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

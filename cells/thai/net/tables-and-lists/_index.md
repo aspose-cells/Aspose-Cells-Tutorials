@@ -57,6 +57,8 @@
 เรียนรู้วิธีสร้างตารางจากช่วงใน Excel ด้วย C# โดยใช้ Aspose.Cells อย่างละเอียดและครบถ้วน
 ### [วิธีเปลี่ยนชื่อตารางใน C# – คู่มือเต็ม](./how-to-rename-table-in-c-full-guide/)
 เรียนรู้วิธีเปลี่ยนชื่อตารางใน Excel ด้วย Aspose.Cells สำหรับ .NET ด้วยโค้ด C# อย่างละเอียดและง่ายต่อการทำตาม
+### [ลบแถวในตาราง Word – คู่มือ C# ฉบับสมบูรณ์](./delete-rows-word-table-complete-c-guide/)
+เรียนรู้วิธีลบแถวในตาราง Word ด้วย Aspose.Words for .NET ด้วยโค้ด C# อย่างละเอียดและง่ายต่อการทำตาม
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

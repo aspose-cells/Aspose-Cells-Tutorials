@@ -50,6 +50,10 @@ Apprenez à écrire des valeurs de date et d'heure dans Excel avec Aspose.Cells 
 Apprenez à créer un classeur Excel en C# et à appliquer un format numérique personnalisé avec Aspose.Cells pour .NET.
 ### [Comment analyser une date dans Excel avec C# – Guide complet](./how-to-parse-date-in-excel-with-c-complete-guide/)
 Apprenez à analyser et convertir des dates dans Excel en C# avec Aspose.Cells pour .NET grâce à ce guide complet.
+### [Créer un classeur Excel avec un format personnalisé – Guide C#](./create-excel-workbook-with-custom-format-c-guide/)
+Apprenez à créer un classeur Excel avec un format personnalisé en C# à l'aide d'Aspose.Cells pour .NET.
+### [Analyser la date d'ère japonaise en C# avec Aspose.Cells – Guide complet](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+Apprenez à analyser les dates du calendrier japonais en C# à l'aide d'Aspose.Cells grâce à ce guide complet.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -92,6 +92,7 @@ En resumen, Aspose.Cells para .NET abre un mundo de posibilidades para quienes b
 | [Crear libro de Excel con C# – Guía completa para usar EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Aprenda a crear libros de Excel con C# utilizando la función EXPAND de Aspose.Cells para .NET paso a paso. |
 | [Crear libro de Excel C# – Guía completa con Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | Aprenda paso a paso cómo crear un libro de Excel en C# usando Aspose.Cells, con ejemplos completos y buenas prácticas. |
 | [Crear libro de Excel en C# – Guía completa de programación](./create-excel-workbook-in-c-complete-programming-guide/) | Aprenda a crear un libro de Excel en C# paso a paso con Aspose.Cells para .NET en esta guía completa de programación. |
+| [Crear libro de Excel C# – Guía completa con función Expand](./create-excel-workbook-c-full-guide-with-expand-function/) | Aprenda a crear un libro de Excel en C# con Aspose.Cells, incluyendo la función Expand para gestionar rangos dinámicos paso a paso. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

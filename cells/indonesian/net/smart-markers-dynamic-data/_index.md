@@ -155,6 +155,15 @@ Pelajari cara membuat tabel Excel dinamis menggunakan Smart Markers di Aspose.Ce
 ### [Buat Nilai Sel Bersyarat dengan Aspose.Cells Smart Marker](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
 Pelajari cara menetapkan nilai sel secara bersyarat menggunakan Smart Marker di Aspose.Cells untuk .NET.
 
+### [Membuat Workbook dari XLSX dengan Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+Pelajari cara membuat workbook baru dari file XLSX menggunakan SmartMarkerProcessor di Aspose.Cells.
+
+### [Cara Menautkan Sheet di Excel dengan SmartMarker – Panduan Langkah demi Langkah](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
+Pelajari cara menghubungkan sheet di Excel menggunakan SmartMarker secara mudah dengan contoh langkah demi langkah.
+
+### [Konversi JSON ke Excel dengan C# – Panduan Langkah demi Langkah](./convert-json-to-excel-with-c-step-by-step-guide/)
+Pelajari cara mengubah data JSON menjadi file Excel menggunakan C# dengan contoh kode lengkap dan penjelasan detail.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

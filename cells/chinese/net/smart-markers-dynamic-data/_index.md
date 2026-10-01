@@ -112,6 +112,12 @@ Aspose.Cells 智能标记器还支持匿名类型，无需预定义结构即可�
 ### [C# 中的 Excel 数据合并 – 完整智能标记指南](./excel-data-merging-in-c-complete-smart-marker-guide/)
 本指南详细演示如何在 C# 使用 Aspose.Cells 的智能标记实现 Excel 数据合并，步骤清晰，帮助快速生成报表。
 ### [使用智能标记创建 Excel 模板（C#）– 完整指南](./create-excel-template-with-smart-markers-in-c-complete-guide/)
+### [使用 Aspose.Cells SmartMarkerProcessor 从 XLSX 创建工作簿](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+学习如何使用 Aspose.Cells 的 SmartMarkerProcessor 从现有 XLSX 文件生成工作簿，实现快速数据填充和报告生成。
+### [如何使用 SmartMarker 在 Excel 中链接工作表 – 步骤指南](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
+学习在 Aspose.Cells for .NET 中使用智能标记链接多个工作表，实现跨表数据关联和自动更新。
+### [使用 C# 将 JSON 转换为 Excel – 步骤指南](./convert-json-to-excel-with-c-step-by-step-guide/)
+了解如何使用 C# 将 JSON 数据转换为 Excel 文件的完整步骤，适用于 .NET 开发者。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -57,6 +57,8 @@ Naučte se, jak pomocí Aspose.Cells v C# vytvořit tabulku v Excelu krok po kro
 Naučte se, jak převést oblast na tabulku v Excelu pomocí Aspose.Cells v C# s podrobným krok za krokem návodem.
 ### [Jak přejmenovat tabulku v C# pomocí Aspose.Cells – kompletní průvodce](./how-to-rename-table-in-c-full-guide/)
 Naučte se, jak snadno přejmenovat tabulku v Excelu pomocí Aspose.Cells pro .NET v tomto podrobném průvodci.
+### [Smazání řádků v tabulce Word – Kompletní průvodce C#](./delete-rows-word-table-complete-c-guide/)
+Naučte se, jak pomocí Aspose.Words pro .NET smazat řádky v tabulce Word pomocí C# v tomto podrobném průvodci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -55,6 +55,8 @@ Aprenda a enlazar datos a plantillas de Excel y generar archivos automáticament
 Aprenda a generar un libro de Excel a partir de una plantilla usando Aspose.Cells para .NET con código C# paso a paso.
 ### [Crear Excel a partir de una plantilla – Guía paso a paso para desarrolladores .NET](./create-excel-from-template-step-by-step-guide-for-net-develo/)
 Aprenda a generar archivos Excel a partir de plantillas usando Aspose.Cells para .NET, con instrucciones paso a paso para desarrolladores.
+### [Crear plantilla de libro de trabajo con Aspose.Cells – Guía completa](./create-workbook-template-with-aspose-cells-complete-guide/)
+Aprenda a crear plantillas de libros de Excel con Aspose.Cells, configurando marcadores y estilos para generar informes automatizados.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

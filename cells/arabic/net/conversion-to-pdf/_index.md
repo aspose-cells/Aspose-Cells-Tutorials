@@ -59,6 +59,8 @@
 تعلم كيفية تقريب القيم الرقمية في ملفات Excel أثناء تحويلها إلى PDF باستخدام Aspose.Cells وC# خطوة بخطوة.
 ### [حفظ مستند Word كملف PDF – دليل C# الكامل](./save-word-document-as-pdf-complete-c-guide/)
 تعلم كيفية حفظ مستندات Word بصيغة PDF باستخدام Aspose.Words وC# خطوة بخطوة.
+### [كيفية تضمين الخطوط عند تحويل Excel إلى PDF – دليل خطوة بخطوة](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
+تعرّف على طريقة تضمين الخطوط في ملفات PDF عند تحويل Excel باستخدام Aspose.Cells خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

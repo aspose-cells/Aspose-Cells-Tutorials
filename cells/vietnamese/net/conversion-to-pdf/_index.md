@@ -59,6 +59,8 @@ Hướng dẫn chèn ký tự Unicode vào Excel và chuyển đổi sang PDF b�
 Hướng dẫn chi tiết cách làm tròn các số trong tài liệu Excel khi chuyển sang PDF bằng C# và Aspose.Cells.
 ### [Lưu tài liệu Word thành PDF – Hướng dẫn C# đầy đủ](./save-word-document-as-pdf-complete-c-guide/)
 Hướng dẫn chi tiết cách lưu tài liệu Word thành PDF bằng C# và Aspose.Words.
+### [Cách nhúng phông chữ khi chuyển đổi Excel sang PDF – Hướng dẫn từng bước](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
+Hướng dẫn nhúng phông chữ vào tài liệu PDF khi chuyển đổi từ Excel bằng Aspose.Cells, đảm bảo hiển thị đúng trên mọi thiết bị.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

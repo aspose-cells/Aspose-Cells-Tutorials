@@ -89,12 +89,18 @@ Discover how to use Aspose.Cells for .NET to prefix table styles in HTML, enhanc
 Easily print headings in Excel with a step-by-step guide using Aspose.Cells for .NET. Export your data neatly to HTML and impress your audience.
 ### [Recognizing Self-Closing Tags Programmatically in Excel](./recognizing-self-closing-tags/)
 Unlock the potential of self-closing tags in Excel with our step-by-step guide featuring Aspose.Cells for .NET.
+### [Save Excel as HTML – Full Guide to Exporting and Converting Excel Files](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
+Learn how to save Excel files as HTML and convert them efficiently using Aspose.Cells for .NET in this comprehensive step-by-step guide.
+
 ### [Setting Scalable Column Width Programmatically in Excel](./setting-scalable-column-width/)
 Learn how to use Aspose.Cells for .NET to set scalable column widths in Excel files programmatically. Perfect for efficient data presentation.
 ### [Save Excel as HTML with Frozen Panes – Complete C# Guide](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
 Learn how to save Excel as HTML with frozen panes using Aspose.Cells for .NET in this comprehensive C# guide.
 ### [Setting Single Sheet Tab Name in HTML Export](./setting-single-sheet-tab-name/)
 Easily set a single sheet tab name during HTML export using Aspose.Cells for .NET. Step-by-step guide with code examples included.
+### [Create HTML Save Options in C# – Full Guide](./create-html-save-options-in-c-full-guide/)
+Learn how to configure HTML save options in C# using Aspose.Cells for .NET with a comprehensive step-by-step guide.
+
 ### [How to Embed Fonts in HTML – Complete C# Guide](./how-to-embed-fonts-in-html-complete-c-guide/)
 Learn how to embed fonts in HTML using Aspose.Cells for .NET with C# in this comprehensive step-by-step guide.
 ### [Save Excel as HTML – Complete C# Guide](./save-excel-as-html-complete-c-guide/)

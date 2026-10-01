@@ -59,6 +59,8 @@
 使用 Aspose.Cells for .NET 的完整 C# 教學，教您在將 Excel 轉換為 PDF 時正確四捨五入數字。
 ### [將 Word 文件另存為 PDF – 完整 C# 指南](./save-word-document-as-pdf-complete-c-guide/)
 使用 Aspose.Words for .NET 的完整 C# 教學，教您將 Word 文件保存為 PDF，確保格式正確。
+### [在 .NET 中將字型嵌入 Excel 轉 PDF 的逐步指南](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
+了解如何在將 Excel 檔案轉換為 PDF 時嵌入字型，確保所有文字正確顯示，提供完整的步驟說明。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -57,6 +57,8 @@ Learn how to set comments for tables in Excel using Aspose.Cells for .NET with o
 Create an Excel table in C# using Aspose.Cells for .NET with this detailed step‑by‑step guide.
 ### [How to Rename Table in C# – Full Guide](./how-to-rename-table-in-c-full-guide/)
 Learn to rename an Excel table using Aspose.Cells for .NET with this comprehensive step-by-step guide.
+### [Delete rows word table – Complete C# Guide](./delete-rows-word-table-complete-c-guide/)
+Learn how to delete rows from a Word table using Aspose.Words for .NET with a complete C# guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

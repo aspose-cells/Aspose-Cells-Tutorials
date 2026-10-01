@@ -57,6 +57,10 @@ Erfahren Sie, wie Sie mit Aspose.Cells Zahlen in C# formatieren und Trennzeichen
 
 ### [Datum im ISO-Format aus Excel formatieren – Vollständige C#‑Anleitung](./format-date-iso-from-excel-complete-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells das Datum aus Excel im ISO‑Format formatieren und in C# weiterverarbeiten.
+### [Excel-Arbeitsmappe mit benutzerdefiniertem Format erstellen – C#-Leitfaden](./create-excel-workbook-with-custom-format-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe erstellen und benutzerdefinierte Formate in C# anwenden.
+### [Japanisches Ära-Datum in C# mit Aspose.Cells – Vollständige Anleitung](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells japanische Ära-Daten in C# korrekt parsen und verarbeiten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

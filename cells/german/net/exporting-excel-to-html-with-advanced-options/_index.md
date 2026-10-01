@@ -81,6 +81,8 @@ Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells 
 In diesem umfassenden Handbuch erfahren Sie, wie Sie überlagerte Inhalte in Excel beim Speichern im HTML-Format mit Aspose.Cells für .NET ausblenden.
 ### [HTML-Speicheroptionen als Präfix für Tabellenelemente](./prefixing-table-elements-styles/)
 Entdecken Sie anhand schrittweiser Beispiele, wie Sie mit Aspose.Cells für .NET Tabellenstile in HTML mit Präfixen versehen und so Ihre Excel-Exporte verbessern.
+### [HTML-Speicheroptionen in C# erstellen – Vollständige Anleitung](./create-html-save-options-in-c-full-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET HTML-Speicheroptionen in C# vollständig konfigurieren und nutzen.
 ### [Überschriften programmgesteuert in Excel drucken](./printing-headings/)
 Drucken Sie Überschriften in Excel ganz einfach mit einer Schritt-für-Schritt-Anleitung mit Aspose.Cells für .NET. Exportieren Sie Ihre Daten übersichtlich in HTML und beeindrucken Sie Ihr Publikum.
 ### [Selbstschließende Tags programmgesteuert in Excel erkennen](./recognizing-self-closing-tags/)
@@ -107,6 +109,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien inklusive eingefr
 Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Excel in HTML konvertieren.
 ### [Excel nach HTML exportieren – Vollständiger Programmierleitfaden](./how-to-export-excel-to-html-complete-programming-guide/)
 Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Excel vollständig nach HTML exportieren.
+### [Excel als HTML speichern – Vollständige Anleitung zum Exportieren und Konvertieren von Excel-Dateien](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
+Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für .NET vollständig in HTML exportieren und konvertieren – Schritt für Schritt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

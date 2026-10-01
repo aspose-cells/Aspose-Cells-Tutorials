@@ -36,6 +36,12 @@ Bu eğitim, formül alanlarının bütünlüğünü koruyarak veri kümelerinizi
 Bu adım adım eğitimle Aspose.Cells for .NET'i kullanarak Excel hücre değerlerinin özel sayı biçimlerine göre nasıl kontrol edileceğini öğrenin.
 ### [Excel Sayfasına Veri Aktarırken Formül Alanlarını Belirleyin](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Bu detaylı eğitimde, Aspose.Cells for .NET kullanarak belirtilen formül alanlarına sahip Excel sayfalarına veri aktarmayı öğrenin.
+### [Özel Biçimle Excel Çalışma Kitabı Oluşturma – C# Kılavuzu](./create-excel-workbook-with-custom-format-c-guide/)
+Aspose.Cells for .NET kullanarak özel sayı biçimleriyle bir Excel çalışma kitabı oluşturmayı adım adım öğrenin.
+
+### [C# ile Japon Dönemi Tarihini Ayrıştırma – Aspose.Cells Tam Kılavuz](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+Aspose.Cells kullanarak C# içinde Japon era tarihlerini nasıl ayrıştıracağınızı adım adım öğrenin.
+
 ### [C# ile Excel Çalışma Kitabı Oluşturma – Özel Sayı Biçimi Uygulama](./create-excel-workbook-in-c-apply-custom-number-format/)
 Aspose.Cells for .NET kullanarak C# ile bir Excel çalışma kitabı oluşturup, hücrelere özel sayı biçimi uygulamayı öğrenin.
 

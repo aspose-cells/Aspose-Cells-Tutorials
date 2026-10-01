@@ -91,6 +91,7 @@ Więc dlaczego nie skorzystać z tej szansy na rozwinięcie swoich umiejętnośc
 | [Utwórz skoroszyt programu Excel w C# – Kompletny przewodnik po używaniu EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Dowiedz się, jak utworzyć skoroszyt programu Excel w C# przy użyciu funkcji EXPAND w Aspose.Cells dla .NET. |  
 | [Utwórz skoroszyt programu Excel w C# – Kompletny przewodnik z Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | Dowiedz się, jak w C# utworzyć nowy skoroszyt Excel przy użyciu Aspose.Cells, krok po kroku. |  
 | [Utwórz skoroszyt programu Excel w C# – Kompletny przewodnik programistyczny](./create-excel-workbook-in-c-complete-programming-guide/) | Kompletny przewodnik krok po kroku, jak utworzyć skoroszyt Excel w C# przy użyciu Aspose.Cells dla .NET. |  
+| [Utwórz skoroszyt programu Excel w C# – pełny przewodnik z funkcją Expand](./create-excel-workbook-c-full-guide-with-expand-function/) | Krok po kroku pokażemy, jak stworzyć skoroszyt Excel w C# i użyć funkcji Expand do dynamicznego rozwijania danych. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

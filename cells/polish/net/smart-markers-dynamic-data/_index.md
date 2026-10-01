@@ -111,6 +111,12 @@ Kompletny przewodnik, jak w C# tworzyć skoroszyt Excel i wstawiać tablice do k
 Dowiedz się, jak scalać dane w Excelu przy użyciu inteligentnych znaczników w C#, krok po kroku, aby tworzyć dynamiczne raporty.
 ### [Tworzenie szablonu Excel z inteligentnymi znacznikami w C# – Kompletny przewodnik](./create-excel-template-with-smart-markers-in-c-complete-guide/)
 Dowiedz się, jak w C# stworzyć szablon Excel wykorzystujący inteligentne znaczniki, krok po kroku, aby generować dynamiczne raporty.
+### [Utwórz skoroszyt z pliku XLSX przy użyciu Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+Dowiedz się, jak przy użyciu SmartMarkerProcessor w Aspose.Cells utworzyć skoroszyt Excel z istniejącego pliku XLSX.
+### [Konwertuj JSON do Excela w C# – Przewodnik krok po kroku](./convert-json-to-excel-with-c-step-by-step-guide/)
+Dowiedz się, jak konwertować pliki JSON do formatu Excel przy użyciu C# i biblioteki Aspose.Cells, krok po kroku.
+### [Jak połączyć arkusze w Excelu za pomocą SmartMarker – przewodnik krok po kroku](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
+Dowiedz się, jak przy użyciu SmartMarker łączyć arkusze w Excelu, tworząc spójne raporty. Przewodnik krok po kroku dla .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

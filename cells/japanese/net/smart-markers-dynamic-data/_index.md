@@ -111,6 +111,13 @@ Aspose.Cells のスマートマーカーを活用し、条件に応じてセル�
 ### [Excel の動的シート命名のための Aspose.Cells でマーカーを使用する方法](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
 ### [Smart Marker を使用してデータを Excel にエクスポートする – 完全 C# ガイド](./export-data-to-excel-with-smart-marker-full-c-guide/)
 ### [Excel テンプレートにデータを入力 – SmartMarker で Excel データを埋め込む](./populate-excel-template-fill-excel-data-via-smartmarker/)
+### [Aspose.Cells SmartMarkerProcessor を使用して XLSX からワークブックを作成する](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+Aspose.Cells の SmartMarkerProcessor で XLSX ファイルから新しいワークブックを生成する手順を解説します。
+
+### [C# で JSON を Excel に変換する – ステップバイステップ ガイド](./convert-json-to-excel-with-c-step-by-step-guide/)
+C# で JSON データを読み込み、Aspose.Cells を使って Excel ファイルに変換する手順を詳しく解説します。
+
+### [SmartMarker で Excel のシートをリンクする方法 – ステップバイステップ ガイド](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

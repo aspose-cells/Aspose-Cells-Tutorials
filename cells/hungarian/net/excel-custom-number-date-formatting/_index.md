@@ -50,6 +50,10 @@ Ismerd meg, hogyan írj dátum- és időértékeket Excel fájlokba C#-ban az As
 Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet C#-ban, és alkalmazhatsz egyéni számformátumot az Aspose.Cells for .NET segítségével.
 ### [Dátumok feldolgozása Excelben C#-ban – Teljes útmutató](./how-to-parse-date-in-excel-with-c-complete-guide/)
 Ismerd meg, hogyan lehet C#-ban dátumokat beolvasni és konvertálni Excel fájlokban az Aspose.Cells segítségével.
+### [Excel munkafüzet létrehozása egyéni formátummal – C# útmutató](./create-excel-workbook-with-custom-format-c-guide/)
+Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet egyedi formátummal C#-ban az Aspose.Cells segítségével.
+### [Japán korszak dátumának feldolgozása C#-ban az Aspose.Cells segítségével – Teljes útmutató](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+Tanulja meg, hogyan értelmezze a japán era dátumokat C#-ban az Aspose.Cells használatával, részletes lépésről-lépésre útmutató.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

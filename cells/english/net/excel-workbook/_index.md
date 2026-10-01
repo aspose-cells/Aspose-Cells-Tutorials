@@ -91,6 +91,7 @@ So why not embrace this chance to enhance your Excel skills? Each tutorial not o
 | [Xades Signature Support](./xades-signature-support/) | Learn how to add Xades signatures to Excel files using Aspose.Cells for .NET with this step-by-step guide. Secure your documents. |  
 | [Create new workbook C# – Step‑by‑Step Guide with Spilled Formulas](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Learn how to create a new workbook in C# with spilled formulas using Aspose.Cells for .NET in a step-by-step guide. |
 | [Create Excel Workbook with C# – Complete Guide to Using EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Learn how to create an Excel workbook in C# using the EXPAND feature with Aspose.Cells for .NET in this comprehensive step-by-step guide. |  
+| [Create Excel Workbook C# – Full Guide with Expand Function](./create-excel-workbook-c-full-guide-with-expand-function/) | Learn how to create an Excel workbook in C# using Aspose.Cells for .NET with the Expand function, step-by-step guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

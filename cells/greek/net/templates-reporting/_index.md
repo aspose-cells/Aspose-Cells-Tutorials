@@ -55,6 +55,8 @@
 Μάθετε πώς να αποθηκεύετε ένα βιβλίο εργασίας Excel από δεδομένα JSON χρησιμοποιώντας το Aspose.Cells για .NET.
 ### [Δημιουργία Excel από Πρότυπο – Προσθήκη Δεδομένων, Εικόνας, Αποθήκευση XLSX](./create-excel-from-template-add-data-image-save-xlsx/)
 Μάθετε πώς να δημιουργήσετε αρχείο Excel από πρότυπο, να προσθέσετε δεδομένα και εικόνες και να το αποθηκεύσετε ως XLSX.
+### [Δημιουργία προτύπου βιβλίου εργασίας με Aspose.Cells – Πλήρης Οδηγός](./create-workbook-template-with-aspose-cells-complete-guide/)
+Μάθετε πώς να δημιουργήσετε πρότυπο βιβλίου εργασίας στο Excel με το Aspose.Cells, ακολουθώντας έναν πλήρη βήμα‑προς‑βήμα οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

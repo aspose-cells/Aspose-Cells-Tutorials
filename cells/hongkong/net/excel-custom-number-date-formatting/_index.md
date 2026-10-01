@@ -50,6 +50,10 @@
 學習如何在 C# 使用 Aspose.Cells 建立 Excel 工作簿並套用自訂數字格式。
 ### [如何在 C# 中解析 Excel 日期 – 完整指南](./how-to-parse-date-in-excel-with-c-complete-guide/)
 學習如何使用 Aspose.Cells for .NET 在 C# 中解析 Excel 日期，提供完整步驟與範例。
+### [使用 C# 建立自訂格式的 Excel 工作簿 – 教學](./create-excel-workbook-with-custom-format-c-guide/)
+在本教學中了解如何使用 Aspose.Cells for .NET 以 C# 建立帶有自訂格式的 Excel 工作簿。
+### [使用 C# 解析日本年號日期 – Aspose.Cells 完整指南](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+在本完整指南中學習如何使用 Aspose.Cells for .NET 於 C# 解析日本年號日期。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

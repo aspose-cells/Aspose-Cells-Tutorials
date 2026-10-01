@@ -91,6 +91,7 @@ Então, por que não aproveitar esta oportunidade para aprimorar suas habilidade
 | [Criar pasta de trabalho Excel com C# – Guia completo para usar EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Aprenda a criar uma pasta de trabalho Excel usando C# e a funcionalidade EXPAND com este guia passo a passo. |
 | [Criar pasta de trabalho Excel C# – Guia completo com Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | Aprenda a criar uma pasta de trabalho Excel usando C# e Aspose.Cells com este guia passo a passo completo. |
 | [Criar pasta de trabalho Excel em C# – Guia completo de programação](./create-excel-workbook-in-c-complete-programming-guide/) | Aprenda a criar uma pasta de trabalho Excel em C# usando Aspose.Cells com este guia completo passo a passo. |
+| [Criar Pasta de Trabalho Excel C# – Guia Completo com Função Expandir](./create-excel-workbook-c-full-guide-with-expand-function/) | Aprenda a criar uma pasta de trabalho Excel em C# com guia completo, incluindo a função Expandir para melhorar a usabilidade. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

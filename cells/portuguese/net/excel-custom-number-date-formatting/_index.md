@@ -50,6 +50,10 @@ Aprenda a escrever valores de data e hora em planilhas Excel usando Aspose.Cells
 Aprenda a criar uma pasta de trabalho Excel em C# e aplicar formatos numéricos personalizados usando Aspose.Cells.
 ### [Como analisar data no Excel com C# – Guia completo](./how-to-parse-date-in-excel-with-c-complete-guide/)
 Aprenda a analisar datas em planilhas do Excel usando C# com o Aspose.Cells neste tutorial completo.
+### [Criar pasta de trabalho do Excel com formato personalizado – Guia C#](./create-excel-workbook-with-custom-format-c-guide/)
+Aprenda a criar uma pasta de trabalho do Excel com formatação personalizada usando Aspose.Cells para .NET em C#.
+### [Analisar data da era japonesa em C# com Aspose.Cells – Guia completo](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+Aprenda a analisar datas da era japonesa em C# usando Aspose.Cells neste guia completo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

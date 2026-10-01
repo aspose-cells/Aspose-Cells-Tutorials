@@ -111,6 +111,12 @@ Leer hoe u met Aspose.Cells arrays in Excel-cellen kunt invoegen via een volledi
 Leer hoe u met Aspose.Cells gegevens uit meerdere bronnen samenvoegt in Excel via Smart Markers in C#.
 ### [Excel-sjabloon maken met Smart Markers in C# – Volledige gids](./create-excel-template-with-smart-markers-in-c-complete-guide/)
 Leer stap voor stap hoe u een Excel-sjabloon maakt met Smart Markers in C# voor dynamische rapportgeneratie.
+### [JSON naar Excel converteren met C# – Stapsgewijze handleiding](./convert-json-to-excel-with-c-step-by-step-guide/)
+Leer hoe u JSON-gegevens eenvoudig omzet naar Excel-bestanden met C# en Aspose.Cells in deze stap‑voor‑stap tutorial.
+### [Hoe werkbladen koppelen in Excel met SmartMarker – Stapsgewijze handleiding](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
+
+### [Werkboek maken vanuit XLSX met Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+Leer hoe u een werkboek kunt maken vanuit een XLSX-bestand met SmartMarkerProcessor in Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

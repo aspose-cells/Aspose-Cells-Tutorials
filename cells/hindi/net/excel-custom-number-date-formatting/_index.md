@@ -50,6 +50,10 @@ C# में Aspose.Cells का उपयोग करके Excel में da
 .NET के लिए Aspose.Cells का उपयोग करके C# में Excel वर्कबुक बनाते समय कस्टम नंबर फ़ॉर्मेट कैसे लागू करें, सीखें।
 ### [C# के साथ Excel में तिथि पार्स करना – पूर्ण गाइड](./how-to-parse-date-in-excel-with-c-complete-guide/)
 C# का उपयोग करके Excel में तिथियों को पार्स करने की पूरी प्रक्रिया सीखें, कोड उदाहरण और सर्वोत्तम प्रथाओं के साथ।
+### [कस्टम फ़ॉर्मेट के साथ Excel वर्कबुक बनाएं – C# गाइड](./create-excel-workbook-with-custom-format-c-guide/)
+इस गाइड में .NET के लिए Aspose.Cells का उपयोग करके कस्टम फ़ॉर्मेट के साथ Excel वर्कबुक बनाने के चरण देखें।
+### [C# में Aspose.Cells के साथ जापानी युग तिथि को पार्स करें – पूर्ण गाइड](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+इस ट्यूटोरियल में सीखें कि .NET के लिए Aspose.Cells का उपयोग करके जापानी युग तिथि को C# में कैसे पार्स करें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

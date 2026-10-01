@@ -57,6 +57,8 @@ Aprenda a criar uma tabela do Excel em C# usando Aspose.Cells com este guia pass
 Aprenda a criar uma tabela a partir de um intervalo no Excel usando C# e Aspose.Cells com este tutorial passo a passo.
 ### [Como renomear tabela em C# – Guia completo](./how-to-rename-table-in-c-full-guide/)
 Aprenda a renomear tabelas no Excel usando Aspose.Cells para .NET com C# neste guia passo a passo.
+### [Excluir linhas de tabela do Word – Guia completo em C#](./delete-rows-word-table-complete-c-guide/)
+Aprenda a excluir linhas de tabelas no Word usando Aspose.Words para .NET com este guia passo a passo em C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

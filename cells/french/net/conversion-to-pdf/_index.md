@@ -59,6 +59,8 @@ Apprenez à insérer des caractères Unicode dans vos feuilles Excel et à les c
 Apprenez à arrondir les nombres lors de la conversion d'Excel en PDF avec Aspose.Cells en C# grâce à ce guide complet.
 ### [Enregistrer un document Word en PDF – Guide complet C#](./save-word-document-as-pdf-complete-c-guide/)
 Apprenez à enregistrer un document Word au format PDF avec Aspose.Words en C# grâce à ce guide complet.
+### [Comment intégrer des polices lors de la conversion d'Excel en PDF – Guide étape par étape](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
+Apprenez à incorporer les polices dans vos PDF lors de la conversion d'Excel avec Aspose.Cells, étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

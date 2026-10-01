@@ -59,6 +59,8 @@ Pelajari cara menyisipkan karakter Unicode ke dalam lembar kerja Excel dan mengo
 Pelajari cara membulatkan nilai numerik dalam file Excel saat mengonversinya ke PDF menggunakan Aspose.Cells dengan contoh kode C# lengkap.
 ### [Simpan Dokumen Word sebagai PDF – Panduan Lengkap C#](./save-word-document-as-pdf-complete-c-guide/)
 Pelajari cara menyimpan dokumen Word ke PDF dengan Aspose.Words menggunakan contoh kode C# lengkap.
+### [Cara menyematkan font saat mengonversi Excel ke PDF – Panduan Langkah demi Langkah](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
+Pelajari cara menyematkan font dalam PDF saat mengonversi file Excel menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -64,6 +64,8 @@ Apprenez à créer un tableau Excel à partir d'une plage de cellules en C# avec
 
 ### [Comment renommer un tableau en C# – Guide complet](./how-to-rename-table-in-c-full-guide/)
 Apprenez à renommer un tableau dans Excel en utilisant C# avec Aspose.Cells pour .NET grâce à ce guide complet étape par étape.
+### [Supprimer des lignes d'un tableau Word – Guide complet C#](./delete-rows-word-table-complete-c-guide/)
+Apprenez à supprimer des lignes d'un tableau Word en C# avec Aspose.Words grâce à ce guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -59,6 +59,8 @@ Aprende a insertar caracteres Unicode en tus hojas de Excel y exportarlas a PDF 
 Aprende a redondear números al convertir archivos de Excel a PDF usando Aspose.Cells en C#. Guía paso a paso para resultados precisos.
 ### [Guardar documento Word como PDF – Guía completa en C#](./save-word-document-as-pdf-complete-c-guide/)
 Aprende a guardar documentos Word como PDF usando Aspose.Words en C#. Guía paso a paso para resultados profesionales.
+### [Cómo incrustar fuentes al convertir Excel a PDF en .NET – Guía paso a paso](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
+Aprende a incrustar fuentes en los PDFs generados desde Excel usando Aspose.Cells para .NET. Sigue nuestra guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

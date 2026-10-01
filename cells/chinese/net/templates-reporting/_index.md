@@ -53,6 +53,8 @@ Aspose.Cells Net 代码教程
 学习如何使用 C# 将数据绑定到 Excel 模板，实现自动化填充和报告生成。
 ### [使用 C# 从模板创建工作簿 – 步骤指南](./create-workbook-from-template-in-c-step-by-step-guide/)
 本指南详细演示如何在 C# 中使用 Aspose.Cells 从 Excel 模板创建工作簿并填充数据。
+### [使用 Aspose.Cells 创建工作簿模板 – 完整指南](./create-workbook-template-with-aspose-cells-complete-guide/)
+学习如何使用 Aspose.Cells 创建工作簿模板并进行完整的报表生成，涵盖模板设计、数据绑定和导出。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

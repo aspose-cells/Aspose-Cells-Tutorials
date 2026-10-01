@@ -57,6 +57,8 @@ Leer hoe u opmerkingen voor tabellen in Excel instelt met Aspose.Cells voor .NET
 Leer hoe u met Aspose.Cells voor .NET een Excel‑tabel maakt in C# met duidelijke stap‑voor‑stap instructies.
 ### [Hoe een tabel hernoemen in C# – volledige gids](./how-to-rename-table-in-c-full-guide/)
 Leer stap voor stap hoe u een tabel in Excel hernoemt met Aspose.Cells voor .NET in C#.
+### [Rijen verwijderen uit Word-tabel – Complete C#-gids](./delete-rows-word-table-complete-c-guide/)
+Leer hoe u rijen uit een Word-tabel verwijdert met Aspose.Words voor .NET in C# met deze stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

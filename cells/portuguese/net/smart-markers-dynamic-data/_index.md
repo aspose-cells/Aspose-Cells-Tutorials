@@ -113,6 +113,12 @@ Aprenda a criar uma pasta de trabalho Excel usando C# e inserir matrizes em cél
 Aprenda passo a passo como criar um modelo de Excel usando Marcadores Inteligentes em C# com este guia completo.
 ### [Habilitar a Opção de Intervalo Aninhado no Aspose.Cells SmartMarker](./enable-nested-range-option-in-aspose-cells-smartmarker/)
 Aprenda a habilitar a opção de intervalo aninhado nos Marcadores Inteligentes do Aspose.Cells para gerar relatórios mais complexos.
+### [Como vincular planilhas no Excel com SmartMarker – Guia passo a passo](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
+Aprenda a conectar planilhas no Excel usando SmartMarker, criando relatórios interligados de forma simples e eficiente.
+### [Converter JSON para Excel com C# – Guia passo a passo](./convert-json-to-excel-with-c-step-by-step-guide/)
+Aprenda a converter arquivos JSON em planilhas Excel usando C# com o Aspose.Cells, passo a passo.
+### [Criar Pasta de Trabalho a partir de XLSX com Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+Aprenda a gerar uma nova pasta de trabalho a partir de um arquivo XLSX usando o SmartMarkerProcessor do Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

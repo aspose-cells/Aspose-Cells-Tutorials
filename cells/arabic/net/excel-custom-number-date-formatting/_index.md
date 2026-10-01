@@ -50,6 +50,10 @@
 تعلم كيفية إنشاء ملف Excel باستخدام C# وتطبيق تنسيق رقم مخصص باستخدام Aspose.Cells لـ .NET.
 ### [كيفية تحليل التاريخ في Excel باستخدام C# – دليل كامل](./how-to-parse-date-in-excel-with-c-complete-guide/)
 تعلم كيفية استخراج وتحليل تواريخ Excel باستخدام C# خطوة بخطوة مع Aspose.Cells لـ .NET.
+### [إنشاء مصنف Excel بتنسيق مخصص – دليل C#](./create-excel-workbook-with-custom-format-c-guide/)
+تعرف على كيفية إنشاء مصنف Excel بتنسيق مخصص باستخدام Aspose.Cells لـ .NET في هذا الدليل التفصيلي.
+### [تحليل تاريخ العصر الياباني في C# باستخدام Aspose.Cells – دليل كامل](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+تعرف على كيفية تحليل تواريخ العصور اليابانية في C# باستخدام Aspose.Cells من خلال دليل شامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

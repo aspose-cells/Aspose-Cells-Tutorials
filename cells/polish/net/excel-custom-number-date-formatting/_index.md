@@ -50,6 +50,10 @@ Dowiedz się, jak zapisywać wartości daty i czasu w plikach Excel przy użyciu
 Dowiedz się, jak w C# utworzyć skoroszyt Excel i zastosować niestandardowy format liczbowy przy użyciu Aspose.Cells.
 ### [Jak parsować daty w Excelu w C# – kompletny przewodnik](./how-to-parse-date-in-excel-with-c-complete-guide/)
 Dowiedz się, jak parsować daty w Excelu przy użyciu C# i Aspose.Cells, krok po kroku, aby skutecznie obsługiwać formaty dat.
+### [Utwórz skoroszyt programu Excel z niestandardowym formatem – przewodnik C#](./create-excel-workbook-with-custom-format-c-guide/)
+Dowiedz się, jak w C# utworzyć skoroszyt Excel i zastosować niestandardowe formatowanie komórek przy użyciu Aspose.Cells.
+### [Parsowanie daty japońskiej ery w C# przy użyciu Aspose.Cells – pełny przewodnik](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+Dowiedz się, jak w C# parsować daty w japońskim formacie ery przy użyciu Aspose.Cells, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

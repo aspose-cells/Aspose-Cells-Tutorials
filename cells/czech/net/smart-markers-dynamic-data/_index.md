@@ -73,6 +73,9 @@ Vylepšete si soubory Excelu pomocí inteligentních značek pro efektivní vyho
 Snadno seskupujte data pomocí chytrých značek v Aspose.Cells pro .NET. Postupujte podle našeho komplexního průvodce s podrobnými pokyny.
 ### [Vkládání obrázků pomocí značek obrázků v Aspose.Cells](./insert-images-smart-markers/)
 Zjistěte, jak vkládat obrázky pomocí značek obrázků v Aspose.Cells pro .NET s naším podrobným návodem! Vylepšete své excelovské sestavy pomocí vizuální grafiky.
+### [Jak propojit listy v Excelu pomocí SmartMarker – krok za krokem](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
+Naučte se pomocí SmartMarker v Aspose.Cells propojit různé listy v Excelu a vytvořit propojené reporty krok po kroku.
+
 ### [Použití anonymních typů s inteligentními značkami Aspose.Cells](./use-anonymous-types-smart-markers/)
 Naučte se, jak používat anonymní typy s inteligentními značkami v Aspose.Cells pro dynamické generování sestav v Excelu v .NET. Postupujte podle našeho jednoduchého návodu.
 ### [Použití atributu stylu kopírování v inteligentních značkách Aspose.Cells](./copy-style-attribute-smart-markers/)
@@ -89,6 +92,12 @@ Odemkněte potenciál reportingu v Excelu s Aspose.Cells a snadno zvládněte vn
 Naučte se, jak povolit možnost vnořeného rozsahu v Aspose.Cells SmartMarker a generovat komplexní tabulky s vnořenými daty.
 ### [Implementace variabilního pole s inteligentními značkami Aspose.Cells](./variable-array-smart-markers/)
 Odemkněte sílu Aspose.Cells. Naučte se krok za krokem implementovat proměnná pole pomocí inteligentních markerů pro bezproblémové generování sestav v Excelu.
+### [Převod JSON do Excelu pomocí C# – krok za krokem](./convert-json-to-excel-with-c-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells v C# převést data ve formátu JSON do souboru Excel pomocí podrobného průvodce.
+
+### [Vytvoření sešitu z XLSX pomocí Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+Naučte se, jak pomocí SmartMarkerProcessor vytvořit nový sešit z existujícího souboru XLSX v Aspose.Cells pro .NET.
+
 ### [Vyplnění šablony Excel – Naplnění dat v Excelu pomocí SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
 
 ### [Export dat do Excelu pomocí Smart Marker – Kompletní průvodce v C#](./export-data-to-excel-with-smart-marker-full-c-guide/)

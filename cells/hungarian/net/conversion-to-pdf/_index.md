@@ -59,6 +59,8 @@ Tanulja meg, hogyan szúrhat be Unicode karaktereket Excelben, majd mentheti PDF
 Ismerd meg, hogyan kerekítheted a számokat Excel-fájl PDF konvertálása során C#-ban az Aspose.Cells segítségével.
 ### [Word dokumentum mentése PDF-be – Teljes C# útmutató](./save-word-document-as-pdf-complete-c-guide/)
 Tanulja meg, hogyan menthet Word dokumentumokat PDF formátumba C#-ban az Aspose.Words segítségével, lépésről lépésre útmutatóval.
+### [Hogyan ágyazz be betűtípusokat Excel PDF-be konvertálásakor – Lépésről‑lépésre útmutató](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
+Ismerd meg, hogyan ágyazhatod be a betűtípusokat Excel-fájlok PDF-be konvertálásakor az Aspose.Cells segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

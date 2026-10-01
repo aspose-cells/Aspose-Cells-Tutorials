@@ -89,6 +89,13 @@ Engedd szabadjára az Aspose.Cells erejét ezzel a lépésről lépésre haladó
 Az Aspose.Cells segítségével lépésről lépésre haladva könnyedén kezelheted a beágyazott objektumokat intelligens jelölők segítségével, így az Excel-jelentéskészítésben rejlő lehetőségeket is kihasználhatod.
 ### [Változó tömb implementálása intelligens jelölőkkel Aspose.Cells](./variable-array-smart-markers/)
 Engedd szabadjára az Aspose.Cells erejét. Tanuld meg, hogyan valósíthatsz meg változó tömböket intelligens jelölőkkel lépésről lépésre a zökkenőmentes Excel-jelentéskészítéshez.
+### [Munkafüzet létrehozása XLSX-ből az Aspose.Cells SmartMarkerProcessor-rel](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+
+### [Hogyan kapcsoljunk össze munkalapokat Excelben SmartMarkerrel – Lépésről‑lépésre útmutató](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
+Ismerje meg, hogyan hozhat hivatkozásokat munkalapok között SmartMarkerrel, hogy dinamikus, összekapcsolt Excel‑jelentéseket készítsen.
+
+### [JSON konvertálása Excelbe C#‑val – Lépésről‑lépésre útmutató](./convert-json-to-excel-with-c-step-by-step-guide/)
+
 ### [Excel munkafüzet létrehozása C# – Teljes útmutató a tömbök cellákba történő beszúrásához](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
 Ismerje meg, hogyan hozhat létre Excel munkafüzetet C#-ban, és szúrhat be tömböket cellákba lépésről lépésre.
 

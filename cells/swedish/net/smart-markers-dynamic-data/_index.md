@@ -111,6 +111,9 @@ Lär dig hur du med Smart Markers skapar dynamiska Excel-tabeller som automatisk
 Lär dig hur du använder SmartMarker för att fylla i data i en Excel-mall och generera dynamiska rapporter.
 ### [Exportera data till Excel med Smart Marker – Fullständig C#-guide](./export-data-to-excel-with-smart-marker-full-c-guide/)
 Lär dig steg för steg hur du exporterar data till Excel med Smart Marker i C#.
+### [Skapa arbetsbok från XLSX med Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+### [Hur du länkar blad i Excel med SmartMarker – Steg‑för‑steg‑guide](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
+### [Konvertera JSON till Excel med C# – Steg‑för‑steg‑guide](./convert-json-to-excel-with-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

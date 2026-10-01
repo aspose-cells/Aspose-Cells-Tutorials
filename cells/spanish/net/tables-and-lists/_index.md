@@ -57,6 +57,8 @@ Aprenda a crear tablas de Excel en C# con Aspose.Cells paso a paso, simplificand
 Aprenda a crear una tabla a partir de un rango en C# usando Aspose.Cells con este tutorial paso a paso.
 ### [Cómo renombrar una tabla en C# – Guía completa](./how-to-rename-table-in-c-full-guide/)
 Aprenda a cambiar el nombre de una tabla en Excel usando Aspose.Cells para .NET con C# en esta guía paso a paso.
+### [Eliminar filas de tabla Word – Guía completa en C#](./delete-rows-word-table-complete-c-guide/)
+Aprenda a eliminar filas de una tabla en Word usando Aspose.Words para .NET con C# paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

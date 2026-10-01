@@ -70,6 +70,7 @@ Warum also nicht diese Chance nutzen, Ihre Excel-Kenntnisse zu verbessern? Jedes
 | Titel | Beschreibung |
 | --- | --- |
 | [Zugriff auf Informationen zur Weberweiterung](./access-web-extension-information/) | Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET auf Web-Erweiterungsinformationen in Excel-Dateien zugreifen. |  
+| [Excel-Arbeitsmappe erstellen C# – Vollständige Anleitung mit Expand-Funktion](./create-excel-workbook-c-full-guide-with-expand-function/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET in C# eine Excel-Arbeitsmappe erstellen und die Expand-Funktion vollständig nutzen. |  
 | [Fügen Sie einer bereits signierten Excel-Datei eine digitale Signatur hinzu](./add-digital-signature-to-an-already-signed-excel-file/) | Erfahren Sie in dieser ausführlichen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET einer bereits signierten Excel-Datei eine digitale Signatur hinzufügen. |  
 | [Web-Erweiterung hinzufügen](./add-web-extension/) | Erfahren Sie in diesem umfassenden Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET Weberweiterungen zu Excel-Dateien hinzufügen und so die Funktionalität Ihrer Tabellenkalkulation verbessern. |  
 | [Komprimierungsstufe anpassen](./adjust-compression-level/) Erfahren Sie, wie Sie die Komprimierungsstufen für Excel-Dateien mit Aspose.Cells für .NET anpassen. Optimieren Sie Ihre Dateigrößen effizient mit dieser Schritt-für-Schritt-Anleitung. |  

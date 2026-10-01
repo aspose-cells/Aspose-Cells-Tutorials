@@ -91,6 +91,7 @@ Power Query может стать настоящим прорывом в обр�
 | [Создать главный лист в C# – Полное руководство Aspose.Cells](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Узнайте, как создать главный лист в Excel с помощью Aspose.Cells для .NET на C# в полном пошаговом руководстве. |  
 | [Создание рабочей книги Excel с C# – Полное руководство по использованию EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Узнайте, как создать рабочую книгу Excel с помощью C# и функции EXPAND в Aspose.Cells для .NET. |
 | [Создание рабочей книги Excel на C# – Полное руководство с Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | Подробное пошаговое руководство по созданию рабочей книги Excel на C# с использованием Aspose.Cells. |  
+| [Создать книгу Excel C# – Полное руководство с функцией Expand](./create-excel-workbook-c-full-guide-with-expand-function/) | Узнайте, как создать книгу Excel на C# с полной инструкцией и использовать функцию Expand. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

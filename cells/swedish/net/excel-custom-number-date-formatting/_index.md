@@ -50,6 +50,10 @@ Lär dig hur du skriver datum och tid till Excel med Aspose.Cells för .NET i en
 Lär dig hur du skapar en Excel-arbetsbok i C# och tillämpar ett anpassat talformat med Aspose.Cells för .NET.
 ### [Hur du parsar datum i Excel med C# – Komplett guide](./how-to-parse-date-in-excel-with-c-complete-guide/)
 Lär dig hur du parsar datum i Excel med C# i den här kompletta guiden.
+### [Skapa Excel-arbetsbok med anpassat format – C#-guide](./create-excel-workbook-with-custom-format-c-guide/)
+Lär dig hur du skapar en Excel-arbetsbok med anpassade format i C# med Aspose.Cells för .NET.
+### [Analysera japanskt era-datum i C# med Aspose.Cells – Fullständig guide](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+Lär dig hur du tolkar japanska era-datum i C# med Aspose.Cells i den här omfattande guiden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -152,6 +152,14 @@ C#에서 중첩 JSON을 파싱하고 JSON 페이로드를 만드는 방법을 �
 ### [C#에서 마스터‑디테일 보고서 만들기 – SmartMarker로 Excel 템플릿 채우기](./create-master-detail-report-in-c-populate-excel-template-wit/)
 C#에서 SmartMarker를 사용해 마스터‑디테일 보고서를 만들고 Excel 템플릿에 데이터를 채우는 방법을 단계별로 안내합니다.
 
+### [Aspose.Cells SmartMarkerProcessor를 사용하여 XLSX에서 워크북 만들기](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+Aspose.Cells SmartMarkerProcessor를 활용해 기존 XLSX 파일을 워크북으로 변환하고 스마트 마커를 적용하는 방법을 단계별로 안내합니다.
+
+### [C#으로 JSON을 Excel로 변환하는 단계별 가이드](./convert-json-to-excel-with-c-step-by-step-guide/)
+C# 코드를 활용해 JSON 데이터를 Excel 파일로 변환하는 방법을 단계별로 안내합니다.
+
+### [스마트 마커를 사용하여 Excel에서 시트 연결하기 – 단계별 가이드](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

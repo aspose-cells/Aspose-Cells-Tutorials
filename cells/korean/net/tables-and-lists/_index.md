@@ -58,6 +58,7 @@ Aspose.Cells for .NET을 사용하여 C# 코드로 범위에서 표를 생성하
 
 ### [C#에서 테이블 이름 바꾸기 – 전체 가이드](./how-to-rename-table-in-c-full-guide/)
 C# 코드를 사용하여 Excel 테이블의 이름을 변경하는 방법을 단계별로 안내합니다.
+### [행 삭제 워드 테이블 – 완전 C# 가이드](./delete-rows-word-table-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

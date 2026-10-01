@@ -91,6 +91,7 @@ Excel sayfalarınızdaki tanımlı adlar, verilerinizi yönetmenin kullanışlı
 | [Excel Çalışma Kitabı Oluştur – C# ile EXPAND Kullanım Kılavuzu](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | C# ile Excel çalışma kitabı oluşturmayı ve EXPAND özelliğini kapsamlı bir şekilde öğrenin. |
 | [C# ile Excel Çalışma Kitabı Oluşturma – Aspose.Cells ile Tam Kılavuz](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | Aspose.Cells for .NET kullanarak C# ile Excel çalışma kitabı oluşturmayı adım adım öğrenin. |
 | [C# ile Excel Çalışma Kitabı Oluşturma – Tam Programlama Kılavuzu](./create-excel-workbook-in-c-complete-programming-guide/) | Aspose.Cells for .NET kullanarak C# ile Excel çalışma kitabı oluşturmayı adım adım öğrenin. |  
+| [Excel Çalışma Kitabı Oluşturma C# – Genişletme Fonksiyonlu Tam Kılavuz](./create-excel-workbook-c-full-guide-with-expand-function/) | Aspose.Cells for .NET kullanarak C# ile genişletme işlevi ekleyerek tam bir Excel çalışma kitabı oluşturmayı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,6 +56,8 @@ Tanuld meg, hogyan állíthatsz be megjegyzéseket táblázatokhoz Excelben az A
 ### [Membuat Tabel Excel di C# – Panduan Langkah demi Langkah](./create-excel-table-in-c-step-by-step-guide/)
 ### [Cara Mengganti Nama Tabel di C# – Panduan Lengkap](./how-to-rename-table-in-c-full-guide/)
 Pelajari cara mengubah nama tabel di Excel menggunakan Aspose.Cells for .NET dengan C# secara mudah.
+### [Menghapus baris tabel Word – Panduan Lengkap C#](./delete-rows-word-table-complete-c-guide/)
+Pelajari cara menghapus baris dalam tabel Word menggunakan Aspose.Words for .NET dengan contoh lengkap dalam C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

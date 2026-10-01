@@ -38,6 +38,8 @@
 เรียนรู้วิธีการแปลงเวิร์กชีต Excel เป็นรูปภาพใน .NET โดยใช้ Aspose.Cells ด้วยคำแนะนำทีละขั้นตอนของเรา ปรับปรุงการแสดงภาพข้อมูลของคุณให้มีประสิทธิภาพยิ่งขึ้น
 ### [วิธีบันทึก Pivot เป็นรูปภาพ – คู่มือทีละขั้นตอน](./how-to-save-pivot-as-an-image-step-by-step-guide/)
 เรียนรู้วิธีบันทึก Pivot Table เป็นรูปภาพใน .NET ด้วย Aspose.Cells ผ่านขั้นตอนง่าย ๆ เพื่อการนำเสนอข้อมูลที่ชัดเจน
+### [ส่งออกช่วง Excel เป็นรูปภาพ – คู่มือ C# ฉบับสมบูรณ์](./export-excel-range-as-image-complete-c-guide/)
+เรียนรู้วิธีส่งออกช่วงของ Excel เป็นรูปภาพใน .NET ด้วย Aspose.Cells ด้วยคำแนะนำทีละขั้นตอน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

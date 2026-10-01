@@ -48,6 +48,10 @@ Aspose.Cells for .NET を使用して、C# で Excel に日時データを書き
 ### [C# で Excel ワークブックを作成 – カスタム数値書式を適用](./create-excel-workbook-in-c-apply-custom-number-format/)
 Aspose.Cells for .NET を使用して、C# で Excel ワークブックを作成し、カスタム数値書式を適用する方法を学びます。
 ### [C# で Excel の日付を解析する方法 – 完全ガイド](./how-to-parse-date-in-excel-with-c-complete-guide/)
+### [カスタム書式で Excel ワークブックを作成 – C# ガイド](./create-excel-workbook-with-custom-format-c-guide/)
+Aspose.Cells for .NET を使用し、C# でカスタム書式を設定した Excel ワークブックを作成する方法を学びます。
+### [C# で和暦日付を解析する – Aspose.Cells 完全ガイド](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+Aspose.Cells を利用して C# で和暦日付を正しく解析し、Excel に適用する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

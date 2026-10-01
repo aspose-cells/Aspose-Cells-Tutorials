@@ -56,6 +56,8 @@ Aspose.Cells for .NET を使用して、C# で Excel テーブルを作成する
 ### [Aspose.Cells を使用して C# で範囲からテーブルを作成する](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
 ### [C# でテーブルの名前を変更する完全ガイド](./how-to-rename-table-in-c-full-guide/)
 Aspose.Cells for .NET を使用して、C# で Excel テーブルの名前を簡単に変更する手順をステップバイステップで解説します。
+### [Word テーブルの行を削除する – 完全 C# ガイド](./delete-rows-word-table-complete-c-guide/)
+Aspose.Words for .NET を使用して、Word テーブルの行を削除する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

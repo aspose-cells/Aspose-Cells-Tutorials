@@ -59,6 +59,8 @@ Leer hoe u met Aspose.Cells voor .NET Excel-bestanden maakt op basis van sjablon
 Leer hoe u een Excel-bestand maakt op basis van een sjabloon, gegevens en afbeeldingen toevoegt en het bestand opslaat als XLSX.
 ### [Opgeslagen werkmap programmatisch opslaan met Aspose.Cells](./save-populated-workbook-programmatically-with-aspose-cells/)
 Leer hoe u een ingevuld werkboek programmeerbaar opslaat met Aspose.Cells in .NET.
+### [Werkboek-sjabloon maken met Aspose.Cells – Complete gids](./create-workbook-template-with-aspose-cells-complete-guide/)
+Leer hoe u met Aspose.Cells een herbruikbaar werkboek-sjabloon maakt en automatisch gegevens invoegt voor efficiënte rapportage.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,6 +50,10 @@ Leer hoe u met Aspose.Cells datum‑ en tijdwaarden naar Excel schrijft in C#, s
 Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap maakt in C# en een aangepast getalformaat toepast.
 ### [Hoe een datum in Excel te parseren met C# – Complete gids](./how-to-parse-date-in-excel-with-c-complete-guide/)
 Leer hoe u met Aspose.Cells voor .NET datumwaarden in Excel kunt parseren met C# in deze volledige gids.
+### [Excel-werkmap maken met aangepaste opmaak – C#-gids](./create-excel-workbook-with-custom-format-c-guide/)
+Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap maakt met aangepaste opmaak in C#.
+### [Japanse jaartijd datum parseren in C# met Aspose.Cells – Volledige gids](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+Leer hoe u met Aspose.Cells Japanse jaartijddatums in C# kunt parseren en correct kunt weergeven in Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -115,6 +115,11 @@ Aspose.Cells Smart Markers также поддерживает анонимны�
 Узнайте, как с помощью интеллектуальных маркеров создавать динамические таблицы Excel, автоматически заполнять данные и управлять структурой.
 ### [Создание условного значения ячейки с помощью Aspose.Cells Smart Marker](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
 Узнайте, как использовать интеллектуальные маркеры Aspose.Cells для установки условных значений ячеек в Excel.
+### [Конвертация JSON в Excel с C# – пошаговое руководство](./convert-json-to-excel-with-c-step-by-step-guide/)
+Узнайте, как с помощью Aspose.Cells преобразовать JSON‑данные в файл Excel, используя C# в пошаговом руководстве.
+### [Как связать листы в Excel с помощью SmartMarker – пошаговое руководство](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
+Узнайте, как связывать листы в Excel с помощью SmartMarker, создавая динамические отчеты, следуя пошаговым инструкциям.
+### [Создание рабочей книги из XLSX с помощью Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,6 +50,10 @@ Naučte se, jak zapisovat datum a čas do Excelu v C# pomocí Aspose.Cells v pod
 Naučte se, jak v C# vytvořit nový Excel sešit a aplikovat na buňky vlastní číselný formát pomocí Aspose.Cells.
 ### [Jak parsovat datum v Excelu pomocí C# – Kompletní průvodce](./how-to-parse-date-in-excel-with-c-complete-guide/)
 Naučte se, jak pomocí Aspose.Cells v C# analyzovat a převádět datumové hodnoty v Excelu v tomto podrobném průvodci.
+### [Vytvoření Excel sešitu s vlastním formátem – C# průvodce](./create-excel-workbook-with-custom-format-c-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET v C# vytvořit Excel sešit s vlastním formátem v tomto podrobném průvodci.
+### [Rozparsování japonského data era v C# s Aspose.Cells – Kompletní průvodce](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+Naučte se, jak v C# pomocí Aspose.Cells převést a zpracovat japonské datum v éře, včetně podrobného postupu a příkladů.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

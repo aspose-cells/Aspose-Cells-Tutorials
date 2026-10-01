@@ -57,6 +57,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET in C# eine Excel‑Tabelle von 
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Tabelle aus einem bestehenden Bereich in C# erstellen.
 ### [Wie man eine Tabelle in C# umbenennt – Vollständiger Leitfaden](./how-to-rename-table-in-c-full-guide/)
 Erfahren Sie Schritt für Schritt, wie Sie mit Aspose.Cells für .NET Tabellen in C# umbenennen und Ihre Excel-Dateien effizient verwalten.
+### [Zeilen aus Word-Tabelle löschen – Vollständige C#-Anleitung](./delete-rows-word-table-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words für .NET Zeilen aus einer Word‑Tabelle programmgesteuert entfernen – Schritt für Schritt in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

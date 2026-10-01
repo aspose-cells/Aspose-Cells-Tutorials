@@ -59,6 +59,8 @@
 Μάθετε πώς να στρογγυλοποιήσετε αριθμούς κατά τη μετατροπή αρχείων Excel σε PDF με το Aspose.Cells σε C#.
 ### [Αποθήκευση Εγγράφου Word ως PDF – Πλήρης Οδηγός C#](./save-word-document-as-pdf-complete-c-guide/)
 Μάθετε πώς να αποθηκεύσετε έγγραφα Word σε PDF χρησιμοποιώντας το Aspose.Words για .NET με αυτόν τον πλήρη οδηγό C#.
+### [Πώς να ενσωματώσετε γραμματοσειρές κατά τη μετατροπή Excel σε PDF – Οδηγός βήμα‑βήμα](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
+Μάθετε πώς να ενσωματώσετε γραμματοσειρές στα PDF που προέρχονται από αρχεία Excel, εξασφαλίζοντας σωστή εμφάνιση κειμένου.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

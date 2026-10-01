@@ -64,6 +64,8 @@ Kompletní návod, jak pomocí Aspose.Cells pro .NET vytvořit Excel report v C#
 Naučte se, jak pomocí Aspose.Cells vytvořit sešit ze šablony, vložit data a obrázek a uložit jej jako soubor XLSX.
 ### [Uložení naplněného sešitu programově pomocí Aspose.Cells](./save-populated-workbook-programmatically-with-aspose-cells/)
 Naučte se, jak programově uložit naplněný sešit v Excelu pomocí Aspose.Cells.
+### [Vytvořte šablonu sešitu s Aspose.Cells – Kompletní průvodce](./create-workbook-template-with-aspose-cells-complete-guide/)
+Kompletní průvodce vytvořením šablony sešitu v Aspose.Cells, včetně nastavení šablon, vazby dat a generování výstupů.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

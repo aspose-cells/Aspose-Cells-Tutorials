@@ -110,6 +110,11 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 學習在 C# 中建立 Excel 工作簿，並將陣列資料插入儲存格的完整步驟與技巧。
 ### [Excel 資料合併（C#）– 完整智慧標記指南](./excel-data-merging-in-c-complete-smart-marker-guide/)
 了解如何在 C# 中使用 Aspose.Cells 智慧標記合併 Excel 資料，打造動態報表的完整步驟指南。
+### [如何使用 SmartMarker 在 Excel 中連結工作表 – 步驟指南](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
+了解如何使用 Aspose.Cells SmartMarker 在 Excel 工作表之間建立連結，實現跨表資料同步的完整步驟指南。
+### [使用 C# 將 JSON 轉換為 Excel 的逐步指南](./convert-json-to-excel-with-c-step-by-step-guide/)
+### [使用 Aspose.Cells SmartMarkerProcessor 從 XLSX 建立工作簿](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+了解如何使用 Aspose.Cells 的 SmartMarkerProcessor 從現有 XLSX 檔案建立工作簿，以便在報表中使用智慧標記。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

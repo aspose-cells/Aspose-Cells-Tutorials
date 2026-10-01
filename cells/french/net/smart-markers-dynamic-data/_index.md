@@ -62,6 +62,7 @@ Exploitez la puissance d'Aspose.Cells pour .NET pour ajouter des étiquettes per
 Découvrez comment renseigner automatiquement des données sur plusieurs feuilles de calcul dans Excel grâce à la bibliothèque Aspose.Cells pour .NET. Apprenez la procédure étape par étape pour simplifier vos tâches de gestion de données.
 ### [Comment charger un modèle et créer un rapport Excel avec SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 Apprenez à charger un modèle Excel et générer un rapport dynamique en utilisant les SmartMarkers d'Aspose.Cells pour .NET.
+### [Comment lier des feuilles dans Excel avec SmartMarker – Guide étape par étape](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
 ### [Copier le style avec un marqueur intelligent dans Aspose.Cells .NET](./copy-style-smart-marker/)
 Copiez facilement les styles et formats d'un fichier modèle vers votre fichier Excel généré. Ce tutoriel complet vous guide pas à pas.
 ### [Utiliser des formules dynamiques dans les marqueurs intelligents Aspose.Cells](./dynamic-formulas-smart-markers/)
@@ -106,6 +107,9 @@ Apprenez à remplacer des variables JSON à l'aide de SmartMarker dans Aspose.Ce
 ### [Créer un classeur Excel C# – Guide complet pour insérer des tableaux dans les cellules](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
 ### [Fusion de données Excel en C# – Guide complet des marqueurs intelligents](./excel-data-merging-in-c-complete-smart-marker-guide/)
 ### [Créer un modèle Excel avec des marqueurs intelligents en C# – Guide complet](./create-excel-template-with-smart-markers-in-c-complete-guide/)
+### [Créer un classeur à partir d'un fichier XLSX avec Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+Apprenez à générer un classeur Excel à partir d'un fichier XLSX en utilisant SmartMarkerProcessor d'Aspose.Cells.
+### [Convertir JSON en Excel avec C# – Guide étape par étape](./convert-json-to-excel-with-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

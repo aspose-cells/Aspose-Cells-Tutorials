@@ -59,6 +59,8 @@ Aspose.Cells для .NET — это жемчужина, если вы работ
 Узнайте, как правильно округлять числовые данные при преобразовании Excel в PDF с помощью Aspose.Cells и C#.
 ### [Сохранить документ Word в PDF – Полное руководство C#](./save-word-document-as-pdf-complete-c-guide/)
 Узнайте, как сохранить документ Word в PDF с помощью Aspose.Words и C# в полном пошаговом руководстве.
+### [Как внедрить шрифты при конвертации Excel в PDF — пошаговое руководство](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
+Узнайте, как встроить шрифты в PDF при конвертации Excel, чтобы сохранить точное отображение текста.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -103,6 +103,9 @@ Ismerje meg, hogyan menthet Excel fájlokat HTML-be fagyasztott ablaktörlőkkel
 Ismerd meg, hogyan konvertálhatod az Excel fájlokat HTML-be C#-ban az Aspose.Cells for .NET segítségével, lépésről lépésre útmutatóval.
 ### [Excel exportálása HTML-be – Teljes programozási útmutató](./how-to-export-excel-to-html-complete-programming-guide/)
 Részletes, lépésről lépésre bemutató, amely a teljes folyamatot lefedi az Excel HTML-be exportálásához .NET környezetben.
+### [HTML mentési beállítások létrehozása C#-ban – Teljes útmutató](./create-html-save-options-in-c-full-guide/)
+### [Excel mentése HTML-ként – Teljes útmutató az Excel fájlok exportálásához és konvertálásához](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
+Ismerje meg, hogyan menthet Excel fájlokat HTML formátumba, és konvertálhatja őket részletes, lépésről-lépésre útmutatóval az Aspose.Cells for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

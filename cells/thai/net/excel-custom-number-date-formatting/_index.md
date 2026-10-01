@@ -50,6 +50,10 @@
 เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# และกำหนดรูปแบบตัวเลขแบบกำหนดเองด้วย Aspose.Cells สำหรับ .NET
 ### [วิธีแปลงวันที่ใน Excel ด้วย C# – คู่มือฉบับสมบูรณ์](./how-to-parse-date-in-excel-with-c-complete-guide/)
 เรียนรู้วิธีการแปลงและจัดการวันที่ในไฟล์ Excel ด้วย C# อย่างละเอียดโดยใช้ Aspose.Cells สำหรับ .NET
+### [สร้างสมุดงาน Excel ด้วยรูปแบบกำหนดเอง – คู่มือ C#](./create-excel-workbook-with-custom-format-c-guide/)
+เรียนรู้วิธีสร้างไฟล์ Excel พร้อมรูปแบบกำหนดเองโดยใช้ Aspose.Cells สำหรับ .NET ด้วยภาษา C#
+### [การแยกวันที่ตามยุคญี่ปุ่นใน C# ด้วย Aspose.Cells – คู่มือเต็ม](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+เรียนรู้วิธีแปลงและประมวลผลวันที่ตามระบบยุคญี่ปุ่นใน C# ด้วย Aspose.Cells อย่างละเอียดในคู่มือฉบับเต็ม
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -57,6 +57,7 @@
 تعلم كيفية إنشاء جدول Excel باستخدام C# مع إرشادات مفصلة خطوة بخطوة باستخدام Aspose.Cells.
 ### [كيفية إعادة تسمية جدول في C# – دليل كامل](./how-to-rename-table-in-c-full-guide/)
 تعلم خطوة بخطوة كيفية إعادة تسمية جدول في Excel باستخدام Aspose.Cells لـ .NET مع مثال عملي بلغة C#.
+### [حذف صفوف جدول Word – دليل C# كامل](./delete-rows-word-table-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

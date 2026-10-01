@@ -119,6 +119,10 @@
 Узнайте, как полностью конвертировать файлы Excel в HTML с помощью C# и Aspose.Cells для .NET в этом подробном руководстве.
 ### [Как экспортировать Excel в HTML – Полное руководство по программированию](./how-to-export-excel-to-html-complete-programming-guide/)
 Узнайте, как полностью программно экспортировать Excel в HTML с помощью Aspose.Cells для .NET в этом подробном руководстве.
+### [Создание параметров сохранения HTML в C# – Полное руководство](./create-html-save-options-in-c-full-guide/)
+Узнайте, как программно настроить параметры сохранения HTML в C# с помощью Aspose.Cells для .NET в полном пошаговом руководстве.
+### [Сохранение Excel в HTML – Полное руководство по экспорту и конвертации файлов Excel](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
+Узнайте, как полностью экспортировать и конвертировать файлы Excel в HTML с помощью Aspose.Cells для .NET в этом подробном руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

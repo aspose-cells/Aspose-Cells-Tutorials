@@ -59,6 +59,8 @@ Naučte se, jak vložit Unicode znaky do Excelu a exportovat soubor jako PDF pom
 Naučte se, jak správně zaokrouhlit čísla při převodu Excel souborů do PDF pomocí Aspose.Cells a C#.
 ### [Uložení Word dokumentu jako PDF – Kompletní průvodce v C#](./save-word-document-as-pdf-complete-c-guide/)
 Naučte se, jak pomocí Aspose.Words převést Word dokumenty do PDF v C# s podrobným návodem.
+### [Jak vložit písma při převodu Excelu do PDF – krok za krokem](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
+Naučte se, jak během konverze Excelu do PDF vložit písma, aby PDF vypadalo stejně jako originál.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -57,6 +57,8 @@ Impara a generare report Excel in C# con Aspose.Cells, seguendo una procedura de
 Scopri come generare file Excel da un modello predefinito usando Aspose.Cells per .NET, passo dopo passo.
 ### [Salva una cartella di lavoro popolata programmaticamente con Aspose.Cells](./save-populated-workbook-programmatically-with-aspose-cells/)
 Scopri come salvare programmaticamente una cartella di lavoro Excel popolata usando Aspose.Cells per .NET.
+### [Crea modello di cartella di lavoro con Aspose.Cells – Guida completa](./create-workbook-template-with-aspose-cells-complete-guide/)
+Scopri come creare un modello di cartella di lavoro Excel con Aspose.Cells, includendo data binding, formattazione e generazione automatica di report.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

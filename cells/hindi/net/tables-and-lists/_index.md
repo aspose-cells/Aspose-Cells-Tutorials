@@ -65,6 +65,8 @@
 
 ### [C# में रेंज से टेबल बनाएं – पूर्ण Aspose.Cells ट्यूटोरियल](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
 इस व्यापक गाइड में .NET के लिए Aspose.Cells का उपयोग करके रेंज से टेबल बनाने की पूरी प्रक्रिया सीखें।
+### [Word तालिका में पंक्तियों को हटाएँ – पूर्ण C# गाइड](./delete-rows-word-table-complete-c-guide/)
+C# में Word तालिका से पंक्तियों को हटाने के लिए विस्तृत चरण-दर-चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

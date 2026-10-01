@@ -59,6 +59,8 @@ Erfahren Sie, wie Sie Unicode-Zeichen in Excel einfügen und das Dokument anschl
 Erfahren Sie, wie Sie Zahlen beim Export von Excel nach PDF mit Aspose.Cells in C# korrekt runden.
 ### [Word-Dokument als PDF speichern – Vollständige C#-Anleitung](./save-word-document-as-pdf-complete-c-guide/)
 Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words in C# problemlos in PDF konvertieren.
+### [Schriftarten einbetten beim Konvertieren von Excel zu PDF – Schritt‑für‑Schritt‑Anleitung](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
+Erfahren Sie, wie Sie Schriftarten in PDFs einbetten, um das Layout Ihrer Excel‑Dateien beizubehalten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

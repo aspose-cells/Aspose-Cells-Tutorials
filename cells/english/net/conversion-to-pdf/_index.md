@@ -59,6 +59,8 @@ Learn how to insert Unicode characters in Excel and export the sheet to PDF usin
 Learn how to round numbers during Excel to PDF conversion using Aspose.Cells for .NET with a complete C# guide.
 ### [Save Word Document as PDF – Complete C# Guide](./save-word-document-as-pdf-complete-c-guide/)
 Learn how to save Word documents as PDF using Aspose.Words for .NET with a complete C# guide.
+### [How to embed fonts when converting Excel to PDF – Step‑by‑Step Guide](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
+Learn how to embed fonts during Excel to PDF conversion with Aspose.Cells for .NET to ensure text displays correctly.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

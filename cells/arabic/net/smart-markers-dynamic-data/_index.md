@@ -59,6 +59,13 @@
 تتيح مرونة القوائم العامة للمطورين التعامل مع البيانات بطريقة منظمة دون التأثير على الأداء. في هذا البرنامج التعليمي، ستتعلم كيفية الاستفادة من القوائم العامة مع العلامات الذكية لإنشاء تقارير Excel قوية وديناميكية. يضمن هذا النهج سهولة التعامل مع مجموعات البيانات مع الحفاظ على سلامة النوع والأداء القوي في تطبيقاتك. تابع معنا لمعرفة كيف يمكن لهذا أن يُفيد في إنشاء تقاريرك. [اقرأ المزيد](./generic-list-smart-markers/)
 
 ## العلامات الذكية في Aspose.Cells لدروس البيانات الديناميكية
+### [إنشاء مصنف من XLSX باستخدام Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+تعلم كيفية إنشاء مصنف Excel من ملف XLSX باستخدام SmartMarkerProcessor في Aspose.Cells.
+
+### [تحويل JSON إلى Excel باستخدام C# – دليل خطوة بخطوة](./convert-json-to-excel-with-c-step-by-step-guide/)
+
+### [كيفية ربط الأوراق في Excel باستخدام SmartMarker – دليل خطوة بخطوة](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
+
 ### [إضافة تسميات مخصصة باستخدام علامات ذكية في Aspose.Cells](./add-custom-labels-smart-markers/)
 استغلّ إمكانيات Aspose.Cells لـ .NET لإضافة تسميات مخصصة وعلامات ذكية إلى مستندات Excel. اتبع هذا البرنامج التعليمي خطوة بخطوة لإنشاء تقارير ديناميكية وجذابة بصريًا.
 ### [تعبئة البيانات تلقائيًا عبر الأوراق في Aspose.Cells](./auto-populate-data-smart-markers/)
