@@ -52,9 +52,10 @@ HTML 콘텐츠를 Excel 시트에 직접 삽입할 수 있다는 사실, 알고 
 ## 스마트 마커를 사용하여 변수 배열 구현
 다양한 양의 데이터를 자주 다루시나요? 스마트 마커의 가변 배열 기능을 사용하면 데이터 목록을 유연하게 관리할 수 있습니다. 즉, 템플릿을 매번 다시 디자인할 필요 없이 다양한 크기의 데이터세트에 맞춰 조정되는 보고서를 생성할 수 있습니다. 가변 배열을 구현하는 방법을 배우면 보고 프로세스를 간소화하고 데이터 표현을 향상시킬 수 있습니다. 이 튜토리얼에서는 보고서에서 가변 배열을 사용하는 방법을 단계별로 설명합니다. [더 읽어보세요](./variable-array-smart-markers/)
 
-### [Aspose.Cells SmartMarkerProcessor를 사용하여 XLSX에서 워크북 만들기](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
-Aspose.Cells SmartMarkerProcessor를 활용해 기존 XLSX 파일을 워크북으로 변환하고 스마트 마커를 적용하는 방법을 단계별로 안내합니다.
+## 스마트 마커에서 일반 목록 사용
+일반 목록의 유연성 덕분에 개발자는 성능 저하 없이 체계적인 방식으로 데이터를 처리할 수 있습니다. 이 튜토리얼에서는 스마트 마커와 함께 일반 목록을 활용하여 강력하고 동적인 Excel 보고서를 만드는 방법을 알아봅니다. 이 방법을 사용하면 애플리케이션에서 강력한 유형 안정성과 성능을 유지하면서 데이터 컬렉션을 쉽게 조작할 수 있습니다. 이 기능이 보고서 생성에 어떤 이점을 제공하는지 자세히 살펴보세요. [더 읽어보세요](./generic-list-smart-markers/)
 
+## Aspose.Cells의 동적 데이터용 스마트 마커 튜토리얼
 ### [Aspose.Cells에서 스마트 마커를 사용하여 사용자 정의 레이블 추가](./add-custom-labels-smart-markers/)
 Aspose.Cells for .NET의 강력한 기능을 활용하여 Excel 문서에 사용자 지정 레이블과 스마트 마커를 추가해 보세요. 단계별 튜토리얼을 따라 동적이고 시각적으로 매력적인 보고서를 만들어 보세요.
 ### [Aspose.Cells에서 시트 전체에 데이터 자동 채우기](./auto-populate-data-smart-markers/)
@@ -115,10 +116,6 @@ SmartMarker를 활용해 Excel 템플릿에 데이터를 자동으로 채우는 
 C#와 SmartMarker를 활용해 전체 단계별로 Excel 보고서를 생성하는 방법을 안내합니다.
 ### [SmartMarker를 사용한 JSON 변수 대체 완전 가이드](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 ### [스마트 마커를 사용하여 템플릿 로드 및 Excel 보고서 생성 방법](./how-to-load-template-and-create-excel-report-with-smartmarke/)
-### [C#으로 JSON을 Excel로 변환하는 단계별 가이드](./convert-json-to-excel-with-c-step-by-step-guide/)
-C# 코드를 활용해 JSON 데이터를 Excel 파일로 변환하는 방법을 단계별로 안내합니다.
-
-### [스마트 마커를 사용하여 Excel에서 시트 연결하기 – 단계별 가이드](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -154,6 +151,14 @@ C#와 Aspose.Cells를 사용해 청구서를 자동으로 생성하고, 워크�
 C#에서 중첩 JSON을 파싱하고 JSON 페이로드를 만드는 방법을 단계별로 안내합니다.
 ### [C#에서 마스터‑디테일 보고서 만들기 – SmartMarker로 Excel 템플릿 채우기](./create-master-detail-report-in-c-populate-excel-template-wit/)
 C#에서 SmartMarker를 사용해 마스터‑디테일 보고서를 만들고 Excel 템플릿에 데이터를 채우는 방법을 단계별로 안내합니다.
+
+### [Aspose.Cells SmartMarkerProcessor를 사용하여 XLSX에서 워크북 만들기](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+Aspose.Cells SmartMarkerProcessor를 활용해 기존 XLSX 파일을 워크북으로 변환하고 스마트 마커를 적용하는 방법을 단계별로 안내합니다.
+
+### [C#으로 JSON을 Excel로 변환하는 단계별 가이드](./convert-json-to-excel-with-c-step-by-step-guide/)
+C# 코드를 활용해 JSON 데이터를 Excel 파일로 변환하는 방법을 단계별로 안내합니다.
+
+### [스마트 마커를 사용하여 Excel에서 시트 연결하기 – 단계별 가이드](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

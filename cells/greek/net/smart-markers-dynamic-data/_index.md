@@ -88,6 +88,15 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 Μάθετε πώς να ενεργοποιήσετε την επιλογή Nested Range στα Smart Markers του Aspose.Cells για .NET, ώστε να διαχειρίζεστε πολύπλοκες δομές δεδομένων.
 
 ### [Υλοποίηση μεταβλητού πίνακα με έξυπνους δείκτες Aspose.Cells](./variable-array-smart-markers/)
+Ξεκλειδώστε τη δύναμη του Aspose.Cells. Μάθετε πώς να υλοποιείτε μεταβλητούς πίνακες με το Smart Markers βήμα προς βήμα για απρόσκοπτη δημιουργία αναφορών Excel.
+### [Μετατροπή JSON σε Excel με C# – Οδηγός βήμα προς βήμα](./convert-json-to-excel-with-c-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε δεδομένα JSON σε αρχεία Excel χρησιμοποιώντας C# και τη βιβλιοθήκη Aspose.Cells, βήμα προς βήμα.
+
+### [Πώς να συνδέσετε φύλλα στο Excel με SmartMarker – Οδηγός βήμα προς βήμα](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
+Μάθετε πώς να συνδέσετε διαφορετικά φύλλα εργασίας στο Excel χρησιμοποιώντας SmartMarker, βήμα προς βήμα, για δυναμικές αναφορές.
+
+### [Δημιουργία βιβλίου εργασίας από XLSX με Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+
 ### [Συγχώνευση δεδομένων Excel σε C# – Πλήρης Οδηγός Smart Markers](./excel-data-merging-in-c-complete-smart-marker-guide/)
 Μάθετε πώς να συγχωνεύετε δεδομένα Excel χρησιμοποιώντας Smart Markers σε C# για δυναμικές και αποδοτικές αναφορές.
 
@@ -108,11 +117,6 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 ### [Πώς να φορτώσετε πρότυπο και να δημιουργήσετε αναφορά Excel με SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 ### [Εξαγωγή δεδομένων σε Excel με Smart Marker – Πλήρης οδηγός C#](./export-data-to-excel-with-smart-marker-full-c-guide/)
 Μάθετε πώς να εξάγετε δεδομένα σε αρχεία Excel χρησιμοποιώντας Smart Marker με πλήρη οδηγό C# βήμα προς βήμα.
-### [Μετατροπή JSON σε Excel με C# – Οδηγός βήμα προς βήμα](./convert-json-to-excel-with-c-step-by-step-guide/)
-Μάθετε πώς να μετατρέψετε δεδομένα JSON σε αρχεία Excel χρησιμοποιώντας C# και τη βιβλιοθήκη Aspose.Cells, βήμα προς βήμα.
-### [Πώς να συνδέσετε φύλλα στο Excel με SmartMarker – Οδηγός βήμα προς βήμα](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
-Μάθετε πώς να συνδέσετε διαφορετικά φύλλα εργασίας στο Excel χρησιμοποιώντας SmartMarker, βήμα προς βήμα, για δυναμικές αναφορές.
-### [Δημιουργία βιβλίου εργασίας από XLSX με Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

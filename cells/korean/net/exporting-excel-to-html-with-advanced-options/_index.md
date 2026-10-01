@@ -65,6 +65,7 @@ HTML 내보내기에서 자주 간과되는 측면 중 하나는 자동으로 �
 ## 고급 옵션을 사용하여 Excel을 HTML로 내보내기 튜토리얼
 ### [Excel을 HTML로 내보내는 동안 사용하지 않는 스타일 제외](./excluding-unused-styles/)
 ### [HTML로 문서 통합 문서 및 워크시트 속성 내보내기](./exporting-document-workbook-and-worksheet-properties/)
+Aspose.Cells for .NET을 사용하여 Excel 문서, 통합 문서 및 워크시트 속성을 HTML로 내보내는 방법을 알아보세요. 간단한 단계별 가이드가 포함됩니다.
 ### [Excel에서 인쇄 영역을 프로그래밍 방식으로 HTML로 내보내기](./exporting-print-area/)
 
 ### [Excel에서 유사한 테두리 스타일을 프로그래밍 방식으로 내보내기](./exporting-similar-border-style/)
@@ -86,6 +87,10 @@ Aspose.Cells for .NET을 사용하여 Excel을 HTML로 내보낼 때 글꼴을 �
 ### [Excel에서 프로그래밍 방식으로 확장 가능한 열 너비 설정](./setting-scalable-column-width/)
 
 ### [HTML 내보내기에서 단일 시트 탭 이름 설정](./setting-single-sheet-tab-name/)
+### [C#에서 HTML 저장 옵션 만들기 – 전체 가이드](./create-html-save-options-in-c-full-guide/)
+
+### [Excel을 HTML로 저장 – Excel 파일 내보내기 및 변환에 대한 전체 가이드](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
+
 ### [HTML에 글꼴을 삽입하는 방법 – 완전 C# 가이드](./how-to-embed-fonts-in-html-complete-c-guide/)
 Aspose.Cells for .NET을 사용하여 HTML에 글꼴을 임베드하는 전체 C# 단계별 가이드를 확인하세요.
 ### [Excel을 HTML로 저장 – 전체 C# 가이드](./save-excel-as-html-complete-c-guide/)
@@ -104,8 +109,6 @@ Aspose.Cells for .NET을 활용해 Excel 파일에서 HTML로 글꼴을 삽입�
 Aspose.Cells for .NET을 사용하여 C#에서 Excel 파일을 HTML로 변환하는 전체 단계별 가이드를 확인하세요.
 ### [Excel을 HTML로 내보내는 방법 – 완전 프로그래밍 가이드](./how-to-export-excel-to-html-complete-programming-guide/)
 Aspose.Cells for .NET을 활용해 Excel을 HTML로 내보내는 전체 프로그래밍 과정을 단계별로 안내합니다.
-### [C#에서 HTML 저장 옵션 만들기 – 전체 가이드](./create-html-save-options-in-c-full-guide/)
-### [Excel을 HTML로 저장 – Excel 파일 내보내기 및 변환에 대한 전체 가이드](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

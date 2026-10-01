@@ -81,6 +81,12 @@ Naučte se, jak používat Aspose.Cells pro .NET k programovému nastavení šk�
 Snadné nastavení názvu záložky jednoho listu během exportu HTML pomocí Aspose.Cells pro .NET. Podrobný návod s příklady kódu.
 
 ## Export z Excelu do HTML s pokročilými možnostmi – tutoriály
+### [Uložení Excelu jako HTML – Kompletní průvodce exportem a konverzí souborů Excel](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
+Naučte se, jak pomocí Aspose.Cells pro .NET uložit Excel jako HTML a provést kompletní export a konverzi.
+
+### [Vytvoření možností uložení HTML v C# – Kompletní průvodce](./create-html-save-options-in-c-full-guide/)
+Naučte se, jak vytvořit možnosti uložení HTML v C# pomocí Aspose.Cells pro .NET v tomto podrobném průvodci.
+
 ### [Vyloučení nepoužívaných stylů při exportu Excelu do HTML](./excluding-unused-styles/)
 Naučte se v tomto podrobném návodu krok za krokem, jak vyloučit nepoužívané styly při exportu Excelu do HTML pomocí Aspose.Cells pro .NET.
 ### [Export vlastností sešitu dokumentu a listu v HTML](./exporting-document-workbook-and-worksheet-properties/)
@@ -125,8 +131,6 @@ Naučte se, jak programově uložit Excel jako HTML se zmraženými panely pomoc
 Kompletní návod, jak pomocí Aspose.Cells pro .NET převést soubory Excel do HTML pomocí jazyka C#.
 ### [Jak exportovat Excel do HTML – Kompletní programovací průvodce](./how-to-export-excel-to-html-complete-programming-guide/)
 Kompletní návod, jak programově exportovat soubory Excel do HTML pomocí Aspose.Cells pro .NET.
-### [Vytvoření možností uložení HTML v C# – Kompletní průvodce](./create-html-save-options-in-c-full-guide/)
-Naučte se, jak vytvořit možnosti uložení HTML v C# pomocí Aspose.Cells pro .NET v tomto podrobném průvodci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

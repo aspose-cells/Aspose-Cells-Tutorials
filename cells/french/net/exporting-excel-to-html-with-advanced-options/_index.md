@@ -65,7 +65,7 @@ Enfin, parlons des petits détails qui font toute la différence. La possibilit�
 
 
 ## Tutoriels sur l'exportation d'Excel vers HTML avec les options avancées
-### [Exclusion des styles inutilisés lors de l’exportation d’Excel vers HTML](./excluding-unused-styles/)
+### [Exclusion des styles inutilisés lors de l'exportation d'Excel vers HTML](./excluding-unused-styles/)
 Découvrez comment exclure les styles inutilisés lors de l’exportation d’Excel vers HTML à l’aide d’Aspose.Cells pour .NET dans ce guide détaillé étape par étape.
 
 ### [Exportation des propriétés du classeur et de la feuille de calcul au format HTML](./exporting-document-workbook-and-worksheet-properties/)
@@ -102,6 +102,11 @@ Apprenez à utiliser Aspose.Cells pour .NET pour définir des largeurs de colonn
 
 ### [Définition du nom de l'onglet d'une seule feuille dans l'exportation HTML](./setting-single-sheet-tab-name/)
 Définissez facilement un nom d'onglet pour une seule feuille lors de l'exportation HTML avec Aspose.Cells pour .NET. Guide étape par étape avec exemples de code inclus.
+### [Créer des options d’enregistrement HTML en C# – Guide complet](./create-html-save-options-in-c-full-guide/)
+
+### [Enregistrer Excel en HTML – Guide complet pour l'exportation et la conversion de fichiers Excel](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
+Apprenez à enregistrer des classeurs Excel au format HTML et à convertir des fichiers Excel grâce à ce guide complet étape par étape avec Aspose.Cells pour .NET.
+
 ### [Comment exporter Excel vers HTML – Guide étape par étape](./how-to-export-excel-to-html-step-by-step-guide/)
 Apprenez à exporter Excel vers HTML pas à pas avec Aspose.Cells pour .NET grâce à ce guide complet et illustré.
 
@@ -123,9 +128,6 @@ Apprenez à convertir des fichiers Excel en HTML avec C# en suivant ce guide com
 Découvrez comment intégrer des polices dans le HTML lors de l'exportation d'Excel vers HTML avec Aspose.Cells pour .NET en C#.
 ### [Comment exporter Excel vers HTML – Guide complet de programmation](./how-to-export-excel-to-html-complete-programming-guide/)
 Apprenez à exporter Excel vers HTML avec un guide complet de programmation utilisant Aspose.Cells pour .NET, étape par étape.
-### [Créer des options d’enregistrement HTML en C# – Guide complet](./create-html-save-options-in-c-full-guide/)
-### [Enregistrer Excel en HTML – Guide complet pour l'exportation et la conversion de fichiers Excel](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
-Apprenez à enregistrer des classeurs Excel au format HTML et à convertir des fichiers Excel grâce à ce guide complet étape par étape avec Aspose.Cells pour .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -53,26 +53,18 @@ Un aspetto spesso trascurato delle esportazioni HTML è la gestione dei tag auto
 
 ## Prefissare in modo efficiente gli stili degli elementi della tabella
 
-L'applicazione di stili ai dati tabellari può migliorare la leggibilità e l'aspetto estetico. Con Aspose.Cells, puoi imparare ad aggiungere agli stili degli elementi tabella delle opzioni di salvataggio HTML. Questa funzionalità ti consente di introdurre stili o configurazioni personalizzate che migliorano la qualità di presentazione complessiva del tuo HTML esportato. Pensaci: puoi creare report visivamente coerenti che rispecchiano la personalità del tuo brand. Ti interessa dare stile a un professionista? [Dai un'occhiata a questa guida](./prefixing-table-elements-styles/)
+L'applicazione di stili ai dati tabellari può migliorare la leggibilità e l'aspetto estetico. Con Aspose.Cells, puoi imparare ad aggiungere agli stili degli elementi tabella delle opzioni di salvataggio HTML. Questa funzionalità ti consente di introdurre stili o configurazioni personalizzate che migliorano la qualità di presentazione complessiva del tuo HTML esportato. Pensaci: puoi creare report visivamente coerenti che rispecchiano la personalità del tuo brand. Ti interessa dare stile a un professionista? [Dai un'occhiata a questa guida](./prefixing-table-elements-styles/).
 
-### [Crea opzioni di salvataggio HTML in C# – Guida completa](./create-html-save-options-in-c-full-guide/)
-Scopri come configurare le opzioni di salvataggio HTML in C# con Aspose.Cells per .NET in questa guida completa passo passo.
+## Impostazione dei nomi delle schede dei singoli fogli
 
-## Stampa di intestazioni in modo programmatico in Excel
-
-Stampa facilmente le intestazioni in Excel con una guida passo passo utilizzando Aspose.Cells per .NET. Esporta i tuoi dati in modo ordinato in HTML e stupisci il tuo pubblico.
-
-## Impostazione della larghezza scalabile delle colonne a livello di programmazione in Excel
-
-Scopri come utilizzare Aspose.Cells per .NET per impostare la larghezza delle colonne scalabile nei file Excel a livello di codice. Perfetto per una presentazione efficiente dei dati.
-
-## Impostazione del nome della scheda di un singolo foglio nell'esportazione HTML
-
-Imposta facilmente il nome di una singola scheda foglio durante l'esportazione HTML utilizzando Aspose.Cells per .NET. Guida dettagliata con esempi di codice inclusi.
+Infine, parliamo dei piccoli dettagli che fanno la differenza. La possibilità di impostare un singolo nome per la scheda del foglio durante l'esportazione HTML può offrire maggiore chiarezza agli utenti che interagiscono con i report HTML. Questa piccola modifica consente una migliore navigazione, soprattutto quando si gestiscono report complessi contenenti più fogli. Dopotutto, chi non apprezza un po' di organizzazione? [Scopri come semplificare le tue schede qui](./setting-single-sheet-tab-name/).
 
 ## Tutorial sull'esportazione di Excel in HTML con opzioni avanzate
 ### [Come esportare Excel in HTML – Guida completa di programmazione](./how-to-export-excel-to-html-complete-programming-guide/)
 Scopri passo passo come esportare Excel in HTML con una guida completa di programmazione usando Aspose.Cells per .NET.
+### [Crea opzioni di salvataggio HTML in C# – Guida completa](./create-html-save-options-in-c-full-guide/)
+Scopri come configurare le opzioni di salvataggio HTML in C# con Aspose.Cells per .NET in questa guida completa passo passo.
+
 ### [Esclusione degli stili non utilizzati durante l'esportazione di Excel in HTML](./excluding-unused-styles/)
 Scopri come escludere gli stili inutilizzati durante l'esportazione di Excel in HTML utilizzando Aspose.Cells per .NET in questa guida dettagliata passo dopo passo.
 ### [Esportazione delle proprietà della cartella di lavoro e del foglio di lavoro del documento in HTML](./exporting-document-workbook-and-worksheet-properties/)
@@ -99,6 +91,8 @@ Scopri come utilizzare Aspose.Cells per .NET per impostare la larghezza delle co
 Scopri come salvare un file Excel in HTML mantenendo i riquadri congelati usando Aspose.Cells per .NET con esempi C# passo passo.
 ### [Impostazione del nome della scheda di un singolo foglio nell'esportazione HTML](./setting-single-sheet-tab-name/)
 Imposta facilmente il nome di una singola scheda foglio durante l'esportazione HTML utilizzando Aspose.Cells per .NET. Guida dettagliata con esempi di codice inclusi.
+### [Salva Excel come HTML – Guida completa all'esportazione e conversione di file Excel](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
+
 ### [Come incorporare i font in HTML – Guida completa C#](./how-to-embed-fonts-in-html-complete-c-guide/)
 Scopri come incorporare i font nei file HTML usando Aspose.Cells per .NET con C#, passo passo.
 ### [Salva Excel come HTML – Guida completa C#](./save-excel-as-html-complete-c-guide/)
@@ -117,7 +111,6 @@ Scopri come esportare Excel in HTML passo dopo passo utilizzando Aspose.Cells pe
 Scopri come incorporare i font nei file HTML esportati da Excel usando Aspose.Cells per .NET con C#.
 ### [Converti Excel in HTML con C# – Guida completa](./convert-excel-to-html-in-c-complete-guide/)
 Scopri come convertire file Excel in HTML usando C# con Aspose.Cells per .NET in questa guida completa passo passo.
-### [Salva Excel come HTML – Guida completa all'esportazione e conversione di file Excel](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

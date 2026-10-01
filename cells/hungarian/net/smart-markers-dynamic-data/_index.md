@@ -84,10 +84,18 @@ Tanuld meg a képletparaméterek használatát az intelligens jelölőkben az As
 ### [Általános lista használata az intelligens markerekben az Aspose.Cells függvényben](./generic-list-smart-markers/)
 Sajátítsa el az Aspose.Cells for .NET-et általános listákkal és intelligens jelölőkkel, hogy könnyen készíthessen dinamikus Excel-jelentéseket. Könnyen használható útmutató fejlesztőknek.
 ### [HTML tulajdonságok használata intelligens jelölőkben Aspose.Cells .NET](./html-property-smart-markers/)
-Engedd szabadjára az Aspose.Cells erejét ezzel a lépésről‑lépésre haladó oktatóanyaggal, amely bemutatja a HTML tulajdonság használatát az intelligens jelölőkben .NET alkalmazásokhoz.
+Engedd szabadjára az Aspose.Cells erejét ezzel a lépésről lépésre haladó oktatóanyaggal, amely bemutatja a HTML tulajdonság használatát az intelligens jelölőkben .NET alkalmazásokhoz.
 ### [Beágyazott objektumok kezelése intelligens jelölőkkel Aspose.Cells](./nested-objects-smart-markers/)
-Az Aspose.Cells segítségével lépésről lépésre haladva könnyen kezelheted a beágyazott objektumokat intelligens jelölők segítségével, így az Excel-jelentéskészítésben rejlő lehetőségeket is kihasználhatod.
+Az Aspose.Cells segítségével lépésről lépésre haladva könnyedén kezelheted a beágyazott objektumokat intelligens jelölők segítségével, így az Excel-jelentéskészítésben rejlő lehetőségeket is kihasználhatod.
 ### [Változó tömb implementálása intelligens jelölőkkel Aspose.Cells](./variable-array-smart-markers/)
+Engedd szabadjára az Aspose.Cells erejét. Tanuld meg, hogyan valósíthatsz meg változó tömböket intelligens jelölőkkel lépésről lépésre a zökkenőmentes Excel-jelentéskészítéshez.
+### [Munkafüzet létrehozása XLSX-ből az Aspose.Cells SmartMarkerProcessor-rel](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+
+### [Hogyan kapcsoljunk össze munkalapokat Excelben SmartMarkerrel – Lépésről‑lépésre útmutató](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
+Ismerje meg, hogyan hozhat hivatkozásokat munkalapok között SmartMarkerrel, hogy dinamikus, összekapcsolt Excel‑jelentéseket készítsen.
+
+### [JSON konvertálása Excelbe C#‑val – Lépésről‑lépésre útmutató](./convert-json-to-excel-with-c-step-by-step-guide/)
+
 ### [Excel munkafüzet létrehozása C# – Teljes útmutató a tömbök cellákba történő beszúrásához](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
 Ismerje meg, hogyan hozhat létre Excel munkafüzetet C#-ban, és szúrhat be tömböket cellákba lépésről lépésre.
 
@@ -104,10 +112,6 @@ Lépésről lépésre bemutatja, hogyan hozhat létre Excel sablont Smart Marker
 Ismerje meg, hogyan helyettesítheti a változókat JSON-ban SmartMarkerrel, hogy dinamikus adatkitöltést érjen el.
 ### [Excel sablon feltöltése – Adatok kitöltése SmartMarkerrel](./populate-excel-template-fill-excel-data-via-smartmarker/)
 Ismerje meg, hogyan tölthet fel egy Excel sablont adatokal SmartMarker használatával lépésről lépésre útmutatóval.
-### [Munkafüzet létrehozása XLSX-ből az Aspose.Cells SmartMarkerProcessor-rel](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
-### [Hogyan kapcsoljunk össze munkalapokat Excelben SmartMarkerrel – Lépésről‑lépésre útmutató](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
-Ismerje meg, hogyan hozhat hivatkozásokat munkalapok között SmartMarkerrel, hogy dinamikus, összekapcsolt Excel‑jelentéseket készítsen.
-### [JSON konvertálása Excelbe C#‑val – Lépésről‑lépésre útmutató](./convert-json-to-excel-with-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

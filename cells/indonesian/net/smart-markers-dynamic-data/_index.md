@@ -52,9 +52,10 @@ Az adathalmazokban lévő üres értékek kezelése macerás lehet, de az Aspose
 ## Változó tömb megvalósítása intelligens jelölőkkel
 Gyakran dolgozik változó mennyiségű adattal? A Smart Markers változó tömb funkciója lehetővé teszi az adatlisták rugalmas kezelését. Ez azt jelenti, hogy olyan jelentéseket készíthet, amelyek alkalmazkodnak a különböző méretű adathalmazokhoz anélkül, hogy minden alkalommal újra kellene terveznie a sablonokat. A változó tömbök megvalósításának elsajátításával egyszerűsítheti jelentéskészítési folyamatait és javíthatja az adatok megjelenítését. Ez az oktatóanyag lebontja a lépéseket, amelyek segítenek elkezdeni a változó tömbök használatát a jelentéseiben. [További információ](./variable-array-smart-markers/)
 
-### [Membuat Workbook dari XLSX dengan Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
-Pelajari cara membuat workbook baru dari file XLSX menggunakan SmartMarkerProcessor di Aspose.Cells.
+## Általános lista használata az intelligens jelölőkben
+Az általános listák rugalmassága lehetővé teszi a fejlesztők számára, hogy strukturált módon kezeljék az adatokat a teljesítmény feláldozása nélkül. Ebben az oktatóanyagban megtanulod, hogyan használhatod ki az általános listákat intelligens jelölőkkel robusztus, dinamikus Excel-jelentések létrehozásához. Ez a megközelítés biztosítja, hogy könnyedén kezelhesd az adatgyűjteményeket, miközben megőrzöd az erős típusbiztonságot és teljesítményt az alkalmazásaidban. Kövesd a cikket, hogy megtudd, hogyan segíthet ez a jelentéskészítésben. [További információ](./generic-list-smart-markers/)
 
+## Intelligens jelölők az Aspose.Cells-ben dinamikus adatokhoz - Oktatóanyagok
 ### [Mengaktifkan Opsi Nested Range di Aspose.Cells SmartMarker](./enable-nested-range-option-in-aspose-cells-smartmarker/)
 
 ### [Egyéni címkék hozzáadása intelligens jelölőkkel az Aspose.Cells-ben](./add-custom-labels-smart-markers/)
@@ -109,11 +110,6 @@ Pelajari cara memuat templat Excel dan menghasilkan laporan dinamis menggunakan 
 ### [Ekspor data ke Excel dengan Smart Marker – Panduan Lengkap C#](./export-data-to-excel-with-smart-marker-full-c-guide/)
 Pelajari cara mengekspor data ke file Excel menggunakan Smart Marker dengan contoh lengkap dalam C#.
 ### [Isi Template Excel – Mengisi Data Excel melalui SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
-### [Cara Menautkan Sheet di Excel dengan SmartMarker – Panduan Langkah demi Langkah](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
-Pelajari cara menghubungkan sheet di Excel menggunakan SmartMarker secara mudah dengan contoh langkah demi langkah.
-
-### [Konversi JSON ke Excel dengan C# – Panduan Langkah demi Langkah](./convert-json-to-excel-with-c-step-by-step-guide/)
-Pelajari cara mengubah data JSON menjadi file Excel menggunakan C# dengan contoh kode lengkap dan penjelasan detail.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -158,6 +154,15 @@ Pelajari cara membuat tabel Excel dinamis menggunakan Smart Markers di Aspose.Ce
 
 ### [Buat Nilai Sel Bersyarat dengan Aspose.Cells Smart Marker](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
 Pelajari cara menetapkan nilai sel secara bersyarat menggunakan Smart Marker di Aspose.Cells untuk .NET.
+
+### [Membuat Workbook dari XLSX dengan Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+Pelajari cara membuat workbook baru dari file XLSX menggunakan SmartMarkerProcessor di Aspose.Cells.
+
+### [Cara Menautkan Sheet di Excel dengan SmartMarker – Panduan Langkah demi Langkah](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
+Pelajari cara menghubungkan sheet di Excel menggunakan SmartMarker secara mudah dengan contoh langkah demi langkah.
+
+### [Konversi JSON ke Excel dengan C# – Panduan Langkah demi Langkah](./convert-json-to-excel-with-c-step-by-step-guide/)
+Pelajari cara mengubah data JSON menjadi file Excel menggunakan C# dengan contoh kode lengkap dan penjelasan detail.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

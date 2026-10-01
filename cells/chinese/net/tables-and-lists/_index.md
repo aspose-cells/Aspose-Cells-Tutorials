@@ -38,6 +38,8 @@ Aspose.Cells for .NET 最强大的功能之一就是能够轻松读取和写入�
 
 ## 表格和列表教程
 ### [使用 Aspose.Cells 在 Excel 中创建列表对象](./creating-list-object/)
+遵循本详细指南，使用 Aspose.Cells for .NET 在 Excel 中创建列表对象。轻松掌握数据管理和计算。
+
 ### [使用 Aspose.Cells 在 Excel 中格式化列表对象](./formatting-list-object/)
 学习如何使用 Aspose.Cells for .NET 在 Excel 中格式化列表对象。轻松创建和设置表格样式。
 
@@ -55,6 +57,8 @@ Aspose.Cells for .NET 最强大的功能之一就是能够轻松读取和写入�
 
 ### [在 Excel 中设置表格或列表的注释](./setting-comment-of-table-or-list/)
 通过我们简单的分步指南了解如何使用 Aspose.Cells for .NET 为 Excel 中的表格设置注释。
+### [删除 Word 表格行 – 完整 C# 指南](./delete-rows-word-table-complete-c-guide/)
+
 ### [使用 Aspose.Cells 在 C# 中创建 Excel 表格 – 步骤指南](./create-excel-table-in-c-step-by-step-guide/)
 通过本分步教程，学习如何使用 Aspose.Cells for .NET 在 C# 中创建并配置 Excel 表格，实现高效数据管理。
 
@@ -67,7 +71,6 @@ Aspose.Cells for .NET 最强大的功能之一就是能够轻松读取和写入�
 通过本完整指南，学习如何使用 Aspose.Cells for .NET 在 C# 中将现有范围转换为表格，实现高效数据管理。
 ### [如何在 C# 中重命名表格 – 完整指南](./how-to-rename-table-in-c-full-guide/)
 通过本完整指南，学习使用 Aspose.Cells for .NET 在 C# 中重命名 Excel 表格，轻松管理表格名称。
-### [删除 Word 表格行 – 完整 C# 指南](./delete-rows-word-table-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
