@@ -105,7 +105,7 @@ Leer hoe u dynamisch gekoppelde afbeeldingen in Excel-bestanden kunt invoegen me
 Leer hoe u afbeeldingen naadloos kunt integreren in uw Excel-rapporten met behulp van Java en Aspose.Cells. Deze handleiding behandelt alles van het lezen van afbeeldingsbestanden tot het maken van dynamische werkmappen.
 
 ### [Masterwerkboek en vormmanipulatie in Java met Aspose.Cells voor Java](./master-workbook-shape-manipulation-aspose-cells-java/)
-Leer Excel-taken automatiseren en werkmappen en vormen bewerken met Aspose.Cells voor Java. Deze handleiding behandelt het maken van werkmappen, het toevoegen van vormen en het ophalen van verbindingspunten.
+Leer Excel-taken automatiseren en werkboeken en vormen bewerken met Aspose.Cells voor Java. Deze handleiding behandelt het maken van werkboeken, het toevoegen van vormen en het ophalen van verbindingspunten.
 
 ### [Excel Draw-objectgebeurtenisafhandeling met Aspose.Cells in Java: een uitgebreide handleiding](./mastering-draw-object-event-handling-excel-aspose-cells-java/)
 Leer hoe je objectgebeurtenissen in Excel kunt afhandelen met Aspose.Cells voor Java. Leer vormen bewerken en werkmappen naar PDF converteren.
@@ -131,7 +131,7 @@ Een codetutorial voor Aspose.Words Java
 ### [Een achtergrondafbeelding instellen in Excel met Aspose.Cells Java (stap-voor-staphandleiding)](./set-background-picture-excel-aspose-cells-java/)
 Leer hoe u uw Excel-rapporten kunt verbeteren door achtergrondafbeeldingen toe te voegen met Aspose.Cells Java. Volg deze stapsgewijze handleiding voor een naadloze implementatie.
 
-
+### [Hoe een vorm exporteren met ShapeExportOptions in Java](./how-to-export-shape-with-shapeexportoptions-in-java/)
 
 ## Aanvullende bronnen
 

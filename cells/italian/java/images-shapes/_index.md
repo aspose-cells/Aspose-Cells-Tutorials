@@ -113,7 +113,7 @@ Padroneggia la gestione degli eventi degli oggetti di disegno in Excel utilizzan
 ### [Padroneggiare le forme di Excel in Java con Aspose.Cells: una guida completa](./mastering-excel-shapes-aspose-cells-java-guide/)
 Scopri come manipolare forme complesse di Excel utilizzando Aspose.Cells per Java. Perfeziona le tue competenze nell'automazione dei report e nel miglioramento delle visualizzazioni.
 
-### [Padroneggia la modifica delle caselle di testo in Excel con Aspose.Cells per Java: una guida completa](./mastering-excel-textbox-manipulation-aspose-cells-java/)
+### [Padroneggiare la modifica delle caselle di testo in Excel con Aspose.Cells per Java: una guida completa](./mastering-excel-textbox-manipulation-aspose-cells-java/)
 Scopri come automatizzare e manipolare le caselle di testo in Excel utilizzando Aspose.Cells per Java. Migliora le tue competenze nella generazione di report dinamici e nell'inserimento automatico dei dati.
 
 ### [Creazione di cartelle di lavoro principali e regolazione delle forme con Aspose.Cells Java](./mastering-workbook-creation-shape-adjustment-aspose-cells-java/)
@@ -131,7 +131,8 @@ Un tutorial sul codice per Aspose.Words Java
 ### [Impostare un'immagine di sfondo in Excel utilizzando Aspose.Cells Java (guida passo passo)](./set-background-picture-excel-aspose-cells-java/)
 Scopri come migliorare i tuoi report Excel aggiungendo immagini di sfondo con Aspose.Cells Java. Segui questa guida passo passo per un'implementazione impeccabile.
 
-
+### [Come esportare una forma con ShapeExportOptions in Java](./how-to-export-shape-with-shapeexportoptions-in-java/)
+Scopri come esportare forme da un foglio Excel usando ShapeExportOptions con Aspose.Cells per Java.
 
 ## Risorse aggiuntive
 

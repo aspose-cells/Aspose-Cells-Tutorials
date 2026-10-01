@@ -131,7 +131,8 @@ Samouczek dotyczący kodu dla Aspose.Words Java
 ### [Ustawianie obrazu tła w programie Excel za pomocą Aspose.Cells Java (przewodnik krok po kroku)](./set-background-picture-excel-aspose-cells-java/)
 Dowiedz się, jak ulepszyć raporty Excela, dodając obrazy tła za pomocą Aspose.Cells Java. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby uzyskać bezproblemową implementację.
 
-
+### [Jak wyeksportować kształt przy użyciu ShapeExportOptions w Javie](./how-to-export-shape-with-shapeexportoptions-in-java/)
+Dowiedz się, jak wyeksportować kształt z użyciem ShapeExportOptions przy pomocy Aspose.Cells for Java.
 
 ## Dodatkowe zasoby
 
