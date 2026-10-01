@@ -1,0 +1,7 @@
+Title: How to convert Excel to SVG with Aspose.Cells – step‑by‑step guide
+Slug: how-to-convert-excel-to-svg-with-aspose-cells-step-by-step-g
+Category: conversion-and-rendering
+ProcessedDate: 2026-10-01T11:50:22.243857
+SourceRepo: AI Search API
+Keywords: convert excel to svg, save excel file as svg, how to export excel to svg, export excel worksheet as svg
+PRNumber: 174
