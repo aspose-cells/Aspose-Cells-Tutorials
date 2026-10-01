@@ -1,0 +1,7 @@
+Title: Create excel workbook and save it to file in C#
+Slug: create-excel-workbook-and-save-it-to-file-in-c
+Category: excel-workbook
+ProcessedDate: 2026-10-01T11:49:24.160601
+SourceRepo: AI Search API
+Keywords: create excel workbook, save workbook to file, create excel file programmatically
+PRNumber: 174
