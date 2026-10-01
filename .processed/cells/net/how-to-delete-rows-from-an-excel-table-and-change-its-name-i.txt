@@ -1,0 +1,7 @@
+Title: How to delete rows from an Excel table and change its name in C#
+Slug: how-to-delete-rows-from-an-excel-table-and-change-its-name-i
+Category: tables-and-lists
+ProcessedDate: 2026-10-01T11:49:37.624650
+SourceRepo: AI Search API
+Keywords: delete rows excel table, change excel table name, load excel workbook c#, remove rows from excel table, update excel table name
+PRNumber: 174
