@@ -31,6 +31,9 @@ Bạn muốn khám phá thêm ví dụ? Hãy khám phá [áp dụng định dạ
 ### [Áp dụng Định dạng có điều kiện tại Runtime trong Excel](./applying-conditional-formatting-at-runtime/)
 Tìm hiểu cách áp dụng định dạng có điều kiện khi chạy trong Excel với Aspose.Cells cho .NET trong hướng dẫn toàn diện, từng bước này.
 
+### [Tạo Workbook Excel C# – Hướng dẫn từng bước với Định dạng có điều kiện](./create-excel-workbook-c-step-by-step-guide-with-conditional/)
+Hướng dẫn chi tiết cách tạo workbook Excel bằng C# và áp dụng định dạng có điều kiện trong Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

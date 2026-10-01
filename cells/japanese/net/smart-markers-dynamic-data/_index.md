@@ -52,6 +52,65 @@ ExcelシートにHTMLコンテンツを直接組み込むことができるこ�
 ## スマートマーカーで変数配列を実装する
 さまざまな量のデータを扱う機会が多いですか？スマートマーカーの変数配列機能を使えば、データリストを柔軟に管理できます。つまり、テンプレートを毎回再設計することなく、さまざまなサイズのデータセットに適応したレポートを生成できるのです。変数配列の実装方法を学ぶことで、レポート作成プロセスを効率化し、データのプレゼンテーションを強化できます。このチュートリアルでは、レポートで変数配列を使い始めるための手順を詳しく説明します。 [続きを読む](./variable-array-smart-markers/)
 
+### [SmartMarker で JSON の変数を置換する方法 – 完全ガイド](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+SmartMarker を使用して JSON 内の変数を置換する手順を詳しく解説し、動的なレポート作成を支援します。
+
+## スマートマーカーで汎用リストを使用する
+汎用リストの柔軟性により、開発者はパフォーマンスを損なうことなく、構造化された方法でデータを処理できます。このチュートリアルでは、スマートマーカーと汎用リストを活用して、堅牢で動的なExcelレポートを作成する方法を学びます。このアプローチにより、アプリケーションで強力な型安全性とパフォーマンスを維持しながら、データコレクションを簡単に操作できます。このアプローチがレポート作成にどのように役立つか、ぜひご覧ください。 [続きを読む](./generic-list-smart-markers/)
+
+## Aspose.Cells のスマートマーカーを使用した動的データチュートリアル
+### [C# で Excel データマージ – 完全スマートマーカーガイド](./excel-data-merging-in-c-complete-smart-marker-guide/)
+Aspose.Cells のスマートマーカーを使用して、C# で Excel データを統合し、動的レポートを作成する方法をステップバイステップで解説します。
+
+### [Aspose.Cells でスマートマーカーを使用してカスタムラベルを追加する](./add-custom-labels-smart-markers/)
+Aspose.Cells for .NET のパワーをフル活用して、Excel ドキュメントにカスタムラベルやスマートマーカーを追加しましょう。このステップバイステップのチュートリアルに従って、ダイナミックで視覚的に魅力的なレポートを作成しましょう。
+### [Aspose.Cells でシート間のデータを自動入力する](./auto-populate-data-smart-markers/)
+Aspose.Cells for .NETライブラリを使用して、Excelの複数のワークシートにデータを自動入力する方法を学びます。データ管理タスクを効率化するための手順をステップバイステップで学びます。
+### [Aspose.Cells .NET でスマート マーカーを使用してスタイルをコピーする](./copy-style-smart-marker/)
+テンプレートファイルから生成されたExcel出力にスタイルと書式を簡単にコピーできます。この包括的なチュートリアルでは、手順をステップバイステップで説明します。
+### [スマートマーカーAspose.Cellsで動的な数式を使用する](./dynamic-formulas-smart-markers/)
+Aspose.Cells for .NET を使用してスマート マーカーで動的な数式を使用し、Excel レポート生成プロセスを強化する方法を学習します。
+### [Aspose.Cells でスマート マーカーを使用して IsBlank を評価する](./evaluate-isblank-smart-markers/)
+Aspose.Cells for .NET を使って、スマートマーカーで Excel ファイルを強化し、空白の値を効率的に評価しましょう。このステップバイステップガイドでその方法を学びましょう。
+### [Aspose.Cells .NET でスマートマーカーを使用してデータをグループ化する](./group-data-smart-markers/)
+Aspose.Cells for .NET のスマートマーカーを使えば、データを簡単にグループ化できます。詳細な手順については、包括的なガイドをご覧ください。
+### [Aspose.Cells に画像マーカー付きの画像を挿入する](./insert-images-smart-markers/)
+Aspose.Cells for .NET で画像マーカーを使って画像を挿入する方法を、ステップバイステップガイドでご紹介します。Excel レポートをビジュアルで効果的に強化しましょう。
+### [スマートマーカーで匿名型を使用する Aspose.Cells](./use-anonymous-types-smart-markers/)
+Aspose.Cells のスマートマーカー付き匿名型を使用して、.NET で動的な Excel レポートを生成する方法を学びましょう。簡単なガイドをご覧ください。
+### [Aspose.Cells スマートマーカーでスタイル属性のコピーを適用する](./copy-style-attribute-smart-markers/)
+Aspose.Cells for .NET のパワーを体験し、Excel スマートマーカーにコピースタイル属性を簡単に適用する方法を学びましょう。この包括的なチュートリアルでは、ステップバイステップで手順を説明します。
+### [スマートマーカーフィールド Aspose.Cells で数式パラメータを使用する](./formula-parameter-smart-marker/)
+Aspose.Cells for .NET でスマートマーカー内の数式パラメータを使用する方法を学びます。動的なスプレッドシートを簡単に作成できます。
+### [スマートマーカーAspose.Cellsで汎用リストを使用する](./generic-list-smart-markers/)
+Aspose.Cells for .NET の汎用リストとスマートマーカーをマスターすれば、動的な Excel レポートを簡単に作成できます。開発者向けの簡単なガイドです。
+### [スマートマーカー Aspose.Cells .NET で HTML プロパティを使用する](./html-property-smart-markers/)
+.NET アプリケーションのスマート マーカーで HTML プロパティを使用する方法に関するこのステップ バイ ステップのチュートリアルで、Aspose.Cells のパワーを解き放ちましょう。
+### [スマートマーカーでネストされたオブジェクトを処理する Aspose.Cells](./nested-objects-smart-markers/)
+ステップバイステップ ガイドに従ってスマート マーカーを使用してネストされたオブジェクトを簡単に処理することにより、Aspose.Cells による Excel レポートの可能性を最大限に引き出します。
+### [スマートマーカーAspose.Cellsで変数配列を実装する](./variable-array-smart-markers/)
+Aspose.Cells のパワーを解き放ちましょう。スマートマーカーを使用して変数配列を実装し、シームレスな Excel レポートを生成する方法を段階的に学びます。
+### [C# で Excel ワークブックを作成 – 配列をセルに挿入する完全ガイド](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+
+### [C# でスマートマーカーを使用して Excel テンプレートを作成する – 完全ガイド](./create-excel-template-with-smart-markers-in-c-complete-guide/)
+Aspose.Cells のスマートマーカーを活用し、C# で Excel テンプレートを作成する手順をステップバイステップで解説します。
+
+### [Aspose.Cells スマートマーカーでネストされた範囲オプションを有効にする](./enable-nested-range-option-in-aspose-cells-smartmarker/)
+
+### [C# で Excel レポートを生成する方法 – SmartMarker を使用した完全ガイド](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+### [Aspose.Cells でスマートマーカーを使用して動的なワークシートを作成する](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
+### [スマートマーカーを使用したテンプレートの書き方 – ステップバイステップガイド](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+### [スマートマーカーでテンプレートを読み込み、Excel レポートを作成する方法](./how-to-load-template-and-create-excel-report-with-smartmarke/)
+テンプレートをロードし、スマートマーカーを使用して動的な Excel レポートを生成する手順をステップバイステップで解説します。
+### [スマートマーカーで動的 Excel テーブルを作成するガイド](./create-dynamic-excel-table-smart-marker-guide/)
+スマートマーカーを使用して、データに基づく動的な Excel テーブルを自動生成し、レポート作成を効率化する方法を学びます。
+
+### [Aspose.Cells でスマートマーカーを使用して条件付きセル値を作成する](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+Aspose.Cells のスマートマーカーを活用し、条件に応じてセルの値を動的に設定する方法をステップバイステップで解説します。
+
+### [Excel の動的シート命名のための Aspose.Cells でマーカーを使用する方法](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
+### [Smart Marker を使用してデータを Excel にエクスポートする – 完全 C# ガイド](./export-data-to-excel-with-smart-marker-full-c-guide/)
+### [Excel テンプレートにデータを入力 – SmartMarker で Excel データを埋め込む](./populate-excel-template-fill-excel-data-via-smartmarker/)
 ### [Aspose.Cells SmartMarkerProcessor を使用して XLSX からワークブックを作成する](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
 Aspose.Cells の SmartMarkerProcessor で XLSX ファイルから新しいワークブックを生成する手順を解説します。
 
@@ -59,6 +118,39 @@ Aspose.Cells の SmartMarkerProcessor で XLSX ファイルから新しいワー
 C# で JSON データを読み込み、Aspose.Cells を使って Excel ファイルに変換する手順を詳しく解説します。
 
 ### [SmartMarker で Excel のシートをリンクする方法 – ステップバイステップ ガイド](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Excelでデータを繰り返す – スマートマーカーでテンプレートにデータを埋め込む](./repeat-data-in-excel-populate-template-with-smartmarker/)
+スマートマーカーを使い、テンプレートの行を繰り返し生成し、データを自動的に埋め込む方法を解説します。
+### [スマートマーカーでワークブックを作成する – 出力（High Low）](./how-to-create-workbook-with-smart-markers-output-high-low/)
+スマートマーカーを使用して、High/Low データを含むワークブックを生成し、条件に応じた出力を実装する方法を学びます。
+### [スマートマーカーを使用してワークブックを作成する方法 – Aspose.Cells ガイド](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+Aspose.Cells for .NET を使用して、スマートマーカーでワークブックを作成する手順をステップバイステップで解説します。
+### [Excelシートを自動命名 – シート生成の簡単な方法](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+### [スマートマーカー コレクションの作成 – 完全 C# ガイド](./create-smart-marker-collection-complete-c-guide/)
+Aspose.Cells のスマートマーカーコレクションを C# で作成し、複数のデータセットを効率的に処理する方法をステップバイステップで解説します。
+### [C# でスマートマーカー コレクションを作成する – 完全ガイド](./create-smart-marker-collection-in-c-complete-guide/)
+Aspose.Cells のスマートマーカー機能を活用し、C# でコレクションを作成して複数データセットを効率的に処理する方法をステップバイステップで解説します。
+### [Aspose.Cells で Excel をエクスポートする – C# 開発者向け完全ガイド](./how-to-export-excel-complete-guide-for-c-developers/)
+### [Aspose.Cells で配列からテンプレートにデータを入力して Excel にエクスポート](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+### [シート名を自動的に付ける方法 – C#で複数シートを生成する](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+C# で Aspose.Cells を使用し、データに基づいてシート名を自動付与し、複数のシートを動的に生成する方法を学びます。
+### [マスターデータオブジェクトの作成 – 詳細シート生成のステップバイステップガイド](./create-master-data-object-step-by-step-guide-to-generate-det/)
+マスターデータオブジェクトを作成し、詳細シートを自動生成する手順を段階的に解説します。
+### [C# で請求書生成を自動化 – 動的なワークシート名付けと繰り返し](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+### [C# で割引テンプレートを作成する – ステップバイステップガイド](./create-discount-template-in-c-step-by-step-guide/)
+### [スマートマーカーで階層構造を作成する – ステップバイステップ ガイド](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+Aspose.Cells のスマートマーカーを使用して、階層データを Excel に組み込み、階層構造のレポートを作成する方法をステップごとに解説します。
+### [C# でネストされた JSON を解析 – JSON ペイロードの作成](./parse-nested-json-c-create-json-payload-c/)
+C# を使用してネストされた JSON データを解析し、必要な情報を抽出して JSON ペイロードを作成する方法を学びます。
+### [C# でマスターディテイルレポートを作成 – SmartMarker で Excel テンプレートにデータを入力](./create-master-detail-report-in-c-populate-excel-template-wit/)
+SmartMarker を使用して、マスターディテイル構造のデータを Excel テンプレートに自動的に埋め込む方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

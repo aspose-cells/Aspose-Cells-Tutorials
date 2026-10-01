@@ -51,8 +51,26 @@ Convierte fácilmente tablas en rangos en Excel con Aspose.Cells para .NET y gu�
 Descubra el poder de Aspose.Cells para .NET. Aprenda a leer y escribir tablas con fuentes de datos de consulta con esta guía detallada paso a paso.
 ### [Establecer comentario de tabla o lista en Excel](./setting-comment-of-table-or-list/)
 Aprenda a configurar comentarios para tablas en Excel usando Aspose.Cells para .NET con nuestra sencilla guía paso a paso.
+### [Crear tabla de Excel en C# – Guía paso a paso](./create-excel-table-in-c-step-by-step-guide/)
+Aprenda a crear tablas de Excel en C# con Aspose.Cells paso a paso, simplificando la gestión y el formato de datos.
+### [Crear tabla a partir de un rango en C# – Tutorial completo de Aspose.Cells](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+Aprenda a crear una tabla a partir de un rango en C# usando Aspose.Cells con este tutorial paso a paso.
+### [Cómo renombrar una tabla en C# – Guía completa](./how-to-rename-table-in-c-full-guide/)
+Aprenda a cambiar el nombre de una tabla en Excel usando Aspose.Cells para .NET con C# en esta guía paso a paso.
 ### [Eliminar filas de tabla Word – Guía completa en C#](./delete-rows-word-table-complete-c-guide/)
 Aprenda a eliminar filas de una tabla en Word usando Aspose.Words para .NET con C# paso a paso.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Eliminar el encabezado de tabla en Aspose.Cells – Guía completa](./remove-table-header-in-aspose-cells-complete-guide/)
+Aprenda a eliminar el encabezado de una tabla en Excel usando Aspose.Cells con esta guía paso a paso.
+### [Cómo renombrar una tabla en Excel con C# – Guía paso a paso](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Aprenda a cambiar el nombre de una tabla en Excel usando C# y Aspose.Cells con esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

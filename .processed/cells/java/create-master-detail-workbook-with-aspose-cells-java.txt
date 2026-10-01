@@ -1,0 +1,7 @@
+Title: Create master detail workbook with Aspose.Cells (Java)
+Slug: create-master-detail-workbook-with-aspose-cells-java
+Category: templates-reporting
+ProcessedDate: 2026-06-09T00:57:51.209326
+SourceRepo: AI Search API
+Keywords: create master detail workbook
+PRNumber: 93

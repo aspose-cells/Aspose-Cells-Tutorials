@@ -1,0 +1,7 @@
+Title: How to force formula calculation and use lambda in Excel with C#
+Slug: how-to-force-formula-calculation-and-use-lambda-in-excel-wit
+Category: excel-formulas-and-calculation-options
+ProcessedDate: 2026-09-09T02:23:01.361344
+SourceRepo: AI Search API
+Keywords: force formula calculation, use lambda in excel, how to use excel lambda, generate spill range excel, dynamic array functions c#
+PRNumber: 155

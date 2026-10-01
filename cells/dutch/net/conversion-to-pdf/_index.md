@@ -34,6 +34,31 @@ Maar wacht, er is meer! Wat als je grafieken van je Excel-sheets naar PDF wilt c
 Converteer Excel-spreadsheets eenvoudig naar PDF met Aspose.Cells voor .NET! Volg onze stapsgewijze handleiding voor een naadloze ervaring.
 ### [Grafiek converteren naar PDF in .NET](./convert-chart-to-pdf/)
 Leer hoe je Excel-grafieken naar PDF converteert in .NET met Aspose.Cells met deze stapsgewijze handleiding! Perfect voor programmeurs van alle niveaus.
+### [Hoe PDF-opties in te stellen in C# – Exporteer Excel naar PDF met volledige controle](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
+Leer hoe je met Aspose.Cells PDF-opties configureert voor nauwkeurige Excel-naar-PDF conversies in C#.
+
+### [PDF maken vanuit Excel in C# – Stapsgewijze gids](./create-pdf-from-excel-in-c-step-by-step-guide/)
+Maak PDF's vanuit Excel in C# met Aspose.Cells. Volg onze stapsgewijze handleiding voor een eenvoudige en efficiënte conversie.
+### [Exporteren van werkmap naar PDF – Complete C#-gids](./export-workbook-to-pdf-complete-c-guide/)
+Leer hoe je een Excel-werkmap naar PDF exporteert met C# en Aspose.Cells in deze volledige gids.
+### [Hoe lettertypen in te sluiten bij het converteren van Excel naar PDF – Complete gids](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+Leer hoe u lettertypen kunt insluiten bij het omzetten van Excel-bestanden naar PDF met Aspose.Cells voor .NET.
+### [Docx naar PDF converteren in C# – Complete gids](./convert-docx-to-pdf-in-c-complete-guide/)
+Converteer docx-bestanden naar PDF in C# met Aspose.Words. Volg onze stapsgewijze handleiding voor een naadloze ervaring.
+### [Werkmap opslaan als PDF in C# – Exporteer Excel naar PDF/A‑3b](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
+Leer hoe je een Excel-werkmap opslaat als PDF/A‑3b met Aspose.Cells in C# – stap‑voor‑stap handleiding.
+### [Werkboek opslaan als pdf met Aspose.Cells – Complete stapsgewijze handleiding](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
+Sla een werkmap op als PDF met Aspose.Cells via een volledige stap‑voor‑stap handleiding.
+### [Lettertypen insluiten in PDF – Werkboek opslaan als PDF in C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
+Ontdek hoe je lettertypen insluit bij het opslaan van een werkboek als PDF in C# met Aspose.Cells.
+### [Lettertypen insluiten in PDF met C# – Complete gids](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
+Leer hoe je met C# en Aspose.Cells lettertypen in PDF's insluit voor optimale weergave.
+### [Unicode invoegen in Excel en opslaan als PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
+Leer hoe je Unicode-tekens in Excel invoegt en het bestand opslaat als PDF met Aspose.Cells.
+### [Hoe getallen afronden bij het converteren van Excel naar PDF – Complete C#-gids](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
+Leer hoe je getallen correct afrondt tijdens het omzetten van Excel naar PDF met Aspose.Cells en C#.
+### [Word-document opslaan als PDF – Complete C#-gids](./save-word-document-as-pdf-complete-c-guide/)
+Leer hoe je een Word-document opslaat als PDF met Aspose.Words en C# in deze volledige gids.
 ### [Lettertypen insluiten bij het converteren van Excel naar PDF – Stapsgewijze handleiding](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
 Leer hoe je lettertypen insluit tijdens het converteren van Excel-bestanden naar PDF met Aspose.Cells voor .NET.
 

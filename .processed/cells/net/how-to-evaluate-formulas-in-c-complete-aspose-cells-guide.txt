@@ -1,0 +1,7 @@
+Title: How to Evaluate Formulas in C# – Complete Aspose.Cells Guide
+Slug: how-to-evaluate-formulas-in-c-complete-aspose-cells-guide
+Category: calculation-engine
+ProcessedDate: 2026-06-18T07:29:26.210772
+SourceRepo: AI Search API
+Keywords: how to evaluate formulas, how to use expand, use expand function, create new workbook c#, generate excel array formula
+PRNumber: 97

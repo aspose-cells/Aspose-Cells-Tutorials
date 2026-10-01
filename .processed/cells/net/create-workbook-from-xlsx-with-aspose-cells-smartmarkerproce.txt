@@ -1,0 +1,7 @@
+Title: Create Workbook from XLSX with Aspose.Cells SmartMarkerProcessor
+Slug: create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-06-08T23:12:03.434673
+SourceRepo: AI Search API
+Keywords: create workbook from xlsx
+PRNumber: 92

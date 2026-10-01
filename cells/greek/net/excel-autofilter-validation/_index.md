@@ -36,6 +36,26 @@
 Μάθετε πώς να φιλτράρετε αυτόματα γραμμές του Excel χρησιμοποιώντας το Aspose.Cells σε .NET χωρίς κόπο με αυτόν τον ολοκληρωμένο οδηγό βήμα προς βήμα.
 ### [Επικύρωση Δεκαδικών Δεδομένων στο Excel](./decimal-data-validation-in-excel/)
 Ανακαλύψτε πώς να εφαρμόσετε την επικύρωση δεκαδικών δεδομένων στο Excel χρησιμοποιώντας το Aspose.Cells για .NET με τον εύχρηστο οδηγό μας. Βελτιώστε την ακεραιότητα των δεδομένων χωρίς κόπο.
+### [Αφαίρεση Αυτόματου Φίλτρου από το Excel – Πλήρης Οδηγός C#](./remove-autofilter-from-excel-complete-c-guide/)
+Μάθετε πώς να αφαιρέσετε το αυτόματο φίλτρο από αρχεία Excel χρησιμοποιώντας το Aspose.Cells σε .NET με C#.
+### [Λήψη του Πρώτου Πίνακα από το Βιβλίο Εργασίας Excel σε C# – Πλήρης Οδηγός](./get-first-table-from-excel-workbook-in-c-complete-guide/)
+Μάθετε πώς να εξάγετε τον πρώτο πίνακα από ένα αρχείο Excel χρησιμοποιώντας Aspose.Cells σε C#.
+### [Πώς να χρησιμοποιήσετε το AutoFilter σε αυτοματοποίηση Excel με C# – Πλήρης οδηγός βήμα‑βήμα](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
+Μάθετε πώς να εφαρμόσετε το AutoFilter σε αρχεία Excel χρησιμοποιώντας C# και Aspose.Cells, βήμα‑βήμα, για αποτελεσματική διαχείριση δεδομένων.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Αφαίρεση αυτόματου φίλτρου Excel σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
+Μάθετε πώς να αφαιρέσετε το αυτόματο φίλτρο από ένα αρχείο Excel χρησιμοποιώντας το Aspose.Cells σε .NET με λεπτομερή οδηγό βήμα‑βήμα.
+### [Καθαρό UI φίλτρου στο Excel με C# – Αφαίρεση του κουμπιού AutoFilter](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
+Μάθετε πώς να αφαιρέσετε το κουμπί AutoFilter και να βελτιώσετε το UI του φίλτρου στο Excel με C# και Aspose.Cells.
+### [Απόκρυψη βελών φίλτρου στο Excel με C# – Πλήρης Οδηγός](./hide-filter-arrows-excel-with-c-complete-guide/)
+Μάθετε πώς να κρύψετε τα βέλη φίλτρου στο Excel χρησιμοποιώντας C# και Aspose.Cells, βελτιώνοντας την εμφάνιση των φύλλων σας.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

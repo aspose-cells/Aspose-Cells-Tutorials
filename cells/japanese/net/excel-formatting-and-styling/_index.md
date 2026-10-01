@@ -43,7 +43,7 @@ Excelドキュメントにちょっとしたアクセントを加えたいと思
 
 セルが小さすぎてテキストが全部表示されず、イライラした経験はありませんか？セルのサイズを変更したり、貴重な情報を見失ったりする代わりに、テキストを折り返せたらどうでしょうか？これにより、データの読みやすさが維持されるだけでなく、スプレッドシートの見た目も整います。ステップバイステップガイドをご覧ください。 [セル内で長いテキストを折り返す](./wrapping-long-text-within-cells/)レイアウトが乱雑にならずにデータを読みやすく保つ方法を学びます。
 
-## Excelの書式設定とスタイル設定のチュートリアル
+## Excelの書式設定とスタイルのチュートリアル
 ### [Excelでグラデーション塗りつぶし効果を適用する](./applying-gradient-fill-effects/)
 Aspose.Cells for .NET を使って、Excel ドキュメントをワンランクアップさせましょう。このステップバイステップのチュートリアルで、魅力的なグラデーション塗りつぶし効果の適用方法を学びましょう。
 ### [Excelの定義済みスタイルと書式設定の使用](./using-excel-predefined-styles-and-formatting/)
@@ -52,6 +52,8 @@ Aspose.Cells for .NET を使って、Excel で定義済みのスタイルと書�
 この簡単なガイドでは、Aspose.Cells for .NET を使用して Excel セルの書式を設定する方法を学びます。スタイルと境界線をマスターして、正確なデータ表示を実現しましょう。
 ### [スタイルと書式設定オブジェクトの操作](./working-with-styles-and-formatting-objects/)
 Aspose.Cells for .NET を使用して Excel シートをフォーマットする方法をステップバイステップのガイドで学習し、プロのようにスタイルをマスターしましょう。
+### [Aspose.Cellsでセルスタイルを適用 – フォーマット付きDataTableのインポート](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+Aspose.Cells for .NET を使用して、DataTable をインポートしながらセルスタイルと書式設定を適用する方法を学びます。
 ### [Excelのセルに罫線を追加する](./adding-borders-to-cells/)
 Aspose.Cells for .NET を使用して、Excel のセルにスタイリッシュな罫線を追加する方法を学びましょう。このステップバイステップのガイドに従って、わかりやすく魅力的なスプレッドシートを作成しましょう。
 ### [Excelのセル範囲に罫線を適用する](./applying-borders-to-range-of-cells/)
@@ -72,6 +74,10 @@ Aspose.Cells for .NET を使用して、Excel のセルサイズに合わせて�
 Aspose.Cells for .NET を使えば、Excel のテキストの方向を変換できます。ステップバイステップのガイドに従って、テキストの回転や調整を簡単に行うことができます。
 ### [Excelでセル内の長いテキストを折り返す](./wrapping-long-text-within-cells/)
 この分かりやすいガイドでは、Aspose.Cells for .NET を使って Excel のセル内の長いテキストを折り返す方法を学びます。スプレッドシートを簡単に変換できます。
+### [C# で Excel の列をスタイル設定する – DataTable のインポート](./how-to-style-columns-in-excel-with-c-import-datatable/)
+Aspose.Cells for .NET を使用し、C# で DataTable をインポートしながら Excel の列に書式やスタイルを適用する方法を学びます。
+### [C# でセルスタイルを作成 – セルにスタイルを適用し、テキストを中央揃えにする](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
+Aspose.Cells for .NET を使用して、C# でセルにスタイルを適用し、テキストを中央揃えにする方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

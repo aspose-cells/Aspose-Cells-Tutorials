@@ -38,6 +38,7 @@ Accéder à des feuilles de calcul spécifiques par leur nom ou leur index peut 
 | [Tutoriel C# pour supprimer une feuille de calcul Excel par index](./delete-excel-worksheet-by-index-csharp-tutorial/) | Apprenez à supprimer une feuille de calcul Excel par index en C# avec Aspose.Cells. Suivez ce tutoriel étape par étape pour simplifier la gestion de votre classeur. |  
 | [Tutoriel C# pour supprimer une feuille de calcul Excel par nom](./delete-excel-worksheet-by-name-csharp-tutorial/) | Apprenez à supprimer des feuilles de calcul Excel par nom en C#. Ce tutoriel pour débutants vous guide pas à pas avec Aspose.Cells pour .NET. |  
 | [Tutoriel C# pour obtenir une feuille de calcul Excel par nom](./get-excel-worksheet-by-name-csharp-tutorial/) | Accédez aux feuilles de calcul Excel par nom en C# avec des instructions étape par étape, en utilisant Aspose.Cells pour .NET pour une meilleure efficacité du code. |  
+| [Tutoriel C# : Créer une nouvelle feuille de calcul en C# – Guide complet des formules de tableau dynamique](./create-new-worksheet-in-c-complete-guide-to-dynamic-array-fo/) | Apprenez à créer une nouvelle feuille de calcul en C# avec des formules de tableau dynamique, étape par étape avec Aspose.Cells. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

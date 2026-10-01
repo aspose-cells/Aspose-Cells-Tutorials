@@ -102,6 +102,8 @@ Erfahren Sie, wie Sie die Sprache Ihrer Excel-Dateien mit Aspose.Cells .NET fest
 ### [Aktualisieren Sie Excel Power Query-Formeln mit Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Erfahren Sie, wie Sie Power Query-Formeln in Excel-Arbeitsmappen mit Aspose.Cells für .NET programmgesteuert aktualisieren. Master-Datenquellenverwaltung für dynamisches Reporting.
 
+### [Wie man WRAPCOLS in C# verwendet – Excel-Arbeitsmappe mit Wrap-Funktionen erstellen](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+
 ## Grundlegendes zu Excel-Formeltypen
 
 Excel-Formeln gibt es in verschiedenen Formen, jede mit einzigartigen Eigenschaften, die Aspose.Cells verwalten kann:
@@ -160,6 +162,8 @@ Für eine robuste Formelimplementierung:
 4. **Dokumentation**: Klare Dokumentation komplexer Formelstrukturen
 
 Indem Sie diese Formelfunktionen mit Aspose.Cells für .NET beherrschen, können Sie in Ihren Tabellenkalkulationen anspruchsvolle Berechnungs-Engines erstellen, die genaue, dynamische Ergebnisse liefern, ohne dass eine Excel-Installation erforderlich ist.
+### [Wie man den Kotangens in Excel mit C# berechnet – Arbeitsmappe erstellen, EXPAND verwenden und speichern](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+Erfahren Sie, wie Sie mit Aspose.Cells in C# den Kotangens berechnen, eine Arbeitsmappe erstellen, EXPAND nutzen und die Datei speichern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

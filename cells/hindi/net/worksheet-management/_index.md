@@ -152,6 +152,9 @@ Aspose.Cells for .NET के साथ नाम से Excel वर्कशी
 ### [उन्नत डेटा विश्लेषण के लिए Aspose.Cells .NET का उपयोग करके Excel में वर्कशीट पैन को कैसे विभाजित करें](./split-worksheet-panes-excel-aspose-cells-dotnet)
 Excel में वर्कशीट पैन को विभाजित करने के लिए Aspose.Cells for .NET का उपयोग करना सीखें, बड़े डेटासेट के बेहतर विज़ुअलाइज़ेशन के लिए डेटा नेविगेशन और विश्लेषण दक्षता में सुधार करें।
 
+### [SmartMarkerProcessor का उपयोग कैसे करें – Excel में मौजूदा शीट का नाम बदलें](./how-to-use-smartmarkerprocessor-rename-existing-sheet-in-exc/)
+SmartMarkerProcessor का उपयोग करके Excel में मौजूदा शीट का नाम बदलने की प्रक्रिया सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

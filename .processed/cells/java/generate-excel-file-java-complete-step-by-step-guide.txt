@@ -1,0 +1,7 @@
+Title: Generate Excel File Java – Complete Step‑by‑Step Guide
+Slug: generate-excel-file-java-complete-step-by-step-guide
+Category: workbook-operations
+ProcessedDate: 2026-07-20T11:31:59.262530
+SourceRepo: AI Search API
+Keywords: generate excel file java, calculate all formulas, use expand function, create excel workbook java, save workbook xlsx
+PRNumber: 123

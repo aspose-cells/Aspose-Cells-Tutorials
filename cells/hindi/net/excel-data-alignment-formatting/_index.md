@@ -38,6 +38,9 @@
 ### [स्वरूपण खोए बिना एक्सेल सेल संरेखण बदलें](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
 .NET के लिए Aspose.Cells का उपयोग करके बिना फ़ॉर्मेटिंग खोए Excel सेल संरेखण को बदलने का तरीका जानें। निर्बाध नियंत्रण के लिए हमारे व्यापक चरण-दर-चरण मार्गदर्शिका का पालन करें।
 
+### [Excel में टेक्स्ट रैप कैसे करें: सेल में टेक्स्ट रैप, ऑटो‑फ़िट और सहेजें](./how-to-wrap-text-in-excel-wrap-text-in-cell-auto-fit-save/)
+Aspose.Cells for .NET का उपयोग करके Excel में टेक्स्ट रैप, ऑटो‑फ़िट सेट करें और फ़ाइल को सुरक्षित रूप से सहेजें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

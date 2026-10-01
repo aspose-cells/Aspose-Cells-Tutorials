@@ -29,6 +29,9 @@ Con los avances tecnológicos, la demanda de una gestión documental eficaz est�
 ### [Configuración de la propiedad Enlace al documento de contenido en .NET](./configuring-link-to-content-document-property/)
 Aprenda a vincular propiedades de documentos a contenido en Excel con Aspose.Cells para .NET. Tutorial paso a paso para desarrolladores.
 
+### [Crear instancia GridJsOptions – Configurar opciones de la cuadrícula JavaScript](./create-gridjsoptions-instance-configure-grid-options-javascr/)
+Aprenda a crear una instancia de GridJsOptions y configurar opciones de cuadrícula en JavaScript con Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

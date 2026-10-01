@@ -38,6 +38,22 @@ Lär dig hur du smidigt konverterar Excel till PDF med Aspose.Cells i .NET. Föl
 Lär dig hur du konverterar ett Excel-ark till SVG med Aspose.Cells för .NET med den här steg-för-steg-guiden. Perfekt för .NET-utvecklare som vill rendera Excel till SVG.
 ### [Konvertera Excel till MHTML i .NET](./converting-excel-to-mhtml/)
 Lär dig hur du effektivt konverterar Excel-filer till MHTML-format i .NET med Aspose.Cells, vilket förbättrar dina rapporterings- och datadelningsmöjligheter.
+### [Skapa bild från Excel – Exportera pivottabell till PNG i C#](./create-image-from-excel-export-pivot-to-png-in-c/)
+Lär dig hur du exporterar en pivottabell från Excel till en PNG-bild med Aspose.Cells i C#.
+### [Hur du laddar Markdown och konverterar det till Excel – Steg‑för‑steg‑guide](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
+Lär dig hur du laddar Markdown och konverterar det till Excel med en steg‑för‑steg‑guide.
+### [Spara docx som txt – Konvertera Word till txt enkelt med Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+Lär dig hur du snabbt konverterar DOCX-filer till ren text med Aspose.Words i .NET.
+### [Hur man laddar Markdown i Excel – Komplett C#-guide](./how-to-load-markdown-into-excel-complete-c-guide/)
+Lär dig hur du importerar Markdown-filer till Excel med C# och Aspose.Cells i en komplett steg-för-steg-guide.
+### [Excel-kalkylblad till PNG – Komplett C#-guide för att spara Excel som bild](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+Lär dig steg-för-steg hur du sparar ett Excel-ark som PNG-bild med Aspose.Cells i C#.
+### [Konvertera Markdown till Excel med C# – Steg‑för‑steg‑guide](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+Lär dig hur du med C# konverterar Markdown-filer till Excel‑arbetsböcker steg för steg med Aspose.Cells.
+### [Konvertera docx till SVG – Fullständig guide för att spara Word som SVG](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
+Lär dig hur du konverterar Word-dokument till SVG med Aspose.Words för .NET i en komplett steg-för-steg-guide.
+### [Bädda in typsnitt i HTML – Fullständig guide för .NET-utvecklare](./embed-fonts-in-html-complete-guide-for-net-developers/)
+Lär dig hur du bäddar in typsnitt i HTML med Aspose.Cells för .NET i en komplett steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -46,3 +62,19 @@ Lär dig hur du effektivt konverterar Excel-filer till MHTML-format i .NET med A
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Excel-ark till PNG – Exportera en pivottabell som PNG i C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
+Lär dig hur du exporterar en pivottabell från ett Excel-ark till PNG med Aspose.Cells i C#.
+
+### [Skapa ny arbetsbok i C# – Importera Markdown till Excel](./create-new-workbook-in-c-import-markdown-to-excel/)
+Lär dig hur du skapar en ny arbetsbok i C# och importerar Markdown-innehåll till Excel med Aspose.Cells.
+### [Konvertera markdown till Excel – Komplett C#-guide](./convert-markdown-to-excel-complete-c-guide/)
+Lär dig hur du omvandlar markdown-filer till Excel med en komplett C#-guide.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

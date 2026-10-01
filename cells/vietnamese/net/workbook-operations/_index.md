@@ -94,6 +94,9 @@ Tìm hiểu cách điều chỉnh mức độ nén của sổ làm việc Excel 
 Tìm hiểu cách cho phép dấu nháy đơn đứng đầu trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn đơn giản có kèm ví dụ về mã, mẹo và câu hỏi thường gặp.
 ### [Tạo sổ làm việc được chia sẻ bằng Aspose.Cells](./create-shared-workbook/)
 Mở khóa khả năng cộng tác liền mạch bằng cách tạo sổ làm việc chung bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng này.
+### [Tạo sổ làm việc mới trong C# – Hướng dẫn từng bước](./create-new-workbook-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo sổ làm việc mới trong C# bằng Aspose.Cells, từng bước một.
+
 ### [Phát hiện các loại liên kết trong sổ làm việc](./detect-link-types/)
 Mở khóa sức mạnh của Aspose.Cells cho .NET bằng cách tìm hiểu cách phát hiện hiệu quả các loại siêu liên kết trong bảng tính Excel với hướng dẫn toàn diện này.
 ### [Trích xuất tệp Mol nhúng từ sổ làm việc](./extract-embedded-mol-file/)

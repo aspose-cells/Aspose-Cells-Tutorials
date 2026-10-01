@@ -1,0 +1,7 @@
+Title: How to Export CSV from Excel Cells – Complete Guide
+Slug: how-to-export-csv-from-excel-cells-complete-guide
+Category: excel-import-export
+ProcessedDate: 2026-06-27T20:25:59.813975
+SourceRepo: AI Search API
+Keywords: how to export csv, how to set digits, export excel data csv, export excel cells csv, export selected cells csv
+PRNumber: 105

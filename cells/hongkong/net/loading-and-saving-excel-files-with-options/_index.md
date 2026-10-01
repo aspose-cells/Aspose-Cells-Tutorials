@@ -32,6 +32,8 @@
 了解如何使用 Aspose.Cells for .NET 將 HTML 載入到 Excel 時自動調整列和行。包含逐步指南。
 ### [儲存為 HTML 時停用下層顯示的評論](./disabling-downlevel-revealed-comments/)
 透過本詳細的逐步指南，了解如何在使用 Aspose.Cells for .NET 將 Excel 工作簿儲存為 HTML 時停用下層顯示的註解。
+### [在 C# 中建立新工作簿 – 載入具有日本曆法的 Excel](./create-new-workbook-in-c-load-excel-with-japanese-calendar/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中建立新工作簿並載入使用日本曆的 Excel 檔案。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
