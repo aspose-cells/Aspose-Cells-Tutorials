@@ -1,0 +1,7 @@
+Title: Convert dataset to Excel and populate an Excel template
+Slug: convert-dataset-to-excel-and-populate-an-excel-template
+Category: templates-reporting
+ProcessedDate: 2026-10-01T11:50:14.400379
+SourceRepo: AI Search API
+Keywords: convert dataset to excel, populate excel template, load excel template, generate excel from template, how to replace markers
+PRNumber: 174
