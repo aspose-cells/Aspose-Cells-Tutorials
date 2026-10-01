@@ -1,0 +1,7 @@
+Title: How to complete a flat OPC tutorial with Aspose.Cells in C#
+Slug: how-to-complete-a-flat-opc-tutorial-with-aspose-cells-in-c
+Category: saving-files-in-different-formats
+ProcessedDate: 2026-10-01T11:50:26.948783
+SourceRepo: AI Search API
+Keywords: flat opc tutorial, load excel workbook
+PRNumber: 174
