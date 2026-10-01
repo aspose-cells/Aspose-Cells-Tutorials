@@ -54,6 +54,10 @@
 Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel με προσαρμοσμένες μορφές χρησιμοποιώντας Aspose.Cells για .NET σε C#.
 ### [Ανάλυση ημερομηνίας ιαπωνικής εποχής σε C# με Aspose.Cells – Πλήρης Οδηγός](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Μάθετε πώς να αναλύετε ημερομηνίες ιαπωνικής εποχής σε C# χρησιμοποιώντας το Aspose.Cells με πλήρη οδηγίες βήμα-βήμα.
+### [Πώς να δημιουργήσετε βιβλίο εργασίας Excel σε C# με προσαρμοσμένη μορφοποίηση αριθμών](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel σε C# και να εφαρμόσετε προσαρμοσμένη μορφοποίηση αριθμών με Aspose.Cells.
+### [Πώς να μετατρέψετε ημερομηνία ιαπωνικής εποχής σε Γρηγοριανή σε C#](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+Μάθετε πώς να μετατρέψετε ημερομηνίες ιαπωνικής εποχής σε γρηγοριακό ημερολόγιο χρησιμοποιώντας Aspose.Cells για .NET σε C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -86,4 +90,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

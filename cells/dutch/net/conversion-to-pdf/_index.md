@@ -61,6 +61,8 @@ Leer hoe je getallen correct afrondt tijdens het omzetten van Excel naar PDF met
 Leer hoe je een Word-document opslaat als PDF met Aspose.Words en C# in deze volledige gids.
 ### [Lettertypen insluiten bij het converteren van Excel naar PDF – Stapsgewijze handleiding](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
 Leer hoe je lettertypen insluit tijdens het converteren van Excel-bestanden naar PDF met Aspose.Cells voor .NET.
+### [Hoe een werkmap opslaan als PDF met Aspose.Cells in C#](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
+Leer hoe je een Excel-werkmap opslaat als PDF met Aspose.Cells in C# via een stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

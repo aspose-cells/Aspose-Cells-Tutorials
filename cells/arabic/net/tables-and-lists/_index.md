@@ -58,6 +58,8 @@
 ### [كيفية إعادة تسمية جدول في C# – دليل كامل](./how-to-rename-table-in-c-full-guide/)
 تعلم خطوة بخطوة كيفية إعادة تسمية جدول في Excel باستخدام Aspose.Cells لـ .NET مع مثال عملي بلغة C#.
 ### [حذف صفوف جدول Word – دليل C# كامل](./delete-rows-word-table-complete-c-guide/)
+### [حذف صفوف من جدول Excel وتغيير اسمه في C#](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
+تعلم كيفية حذف صفوف من جدول Excel وتغيير اسمه باستخدام C# مع Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

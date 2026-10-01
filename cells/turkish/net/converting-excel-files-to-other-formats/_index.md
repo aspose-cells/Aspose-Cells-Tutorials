@@ -81,6 +81,27 @@ Aspose.Cells for .NET kullanarak C# ile XLSX dosyalarını hızlı ve doğru bir
 ### [Excel'de Yazdırma Alanını Ayarlama ve PowerPoint'e Dışa Aktarma – Adım Adım Kılavuz](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
 Aspose.Cells for .NET kullanarak Excel'de yazdırma alanını belirleyip, dosyayı PowerPoint sunumuna nasıl dönüştüreceğinizi öğrenin.
 
+### [Excel'i PowerPoint'e Dışa Aktarma – Tam C# Öğreticisi](./create-powerpoint-from-excel-complete-c-tutorial/)
+Aspose.Cells for .NET kullanarak Excel verilerinden tam bir PowerPoint sunumu oluşturmayı adım adım öğrenin.
+### [Excel'i PowerPoint'e Dışa Aktarma – Adım Adım Kılavuz](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak Excel verilerini PowerPoint sunumlarına nasıl dışa aktaracağınızı adım adım örneklerle öğrenin.
+### [Aspose.Cells ile Excel'den PowerPoint Oluşturma – adım adım kılavuz](./create-powerpoint-from-excel-with-aspose-cells-step-by-step/)
+Aspose.Cells for .NET kullanarak Excel dosyalarından PowerPoint sunumları oluşturmayı adım adım öğrenin.
+
+### [Excel'i txt olarak kaydet – Sayıları Önemli Basamaklarla Dışa Aktarmak için Tam C# Kılavuzu](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
+Aspose.Cells for .NET kullanarak Excel dosyalarını txt formatına kaydedip, sayıları belirli basamak hassasiyetiyle dışa aktarmayı öğrenin.
+### [Excel'i Metin Olarak Kaydet – Excel'i TXT'ye Aktarmak İçin Tam C# Kılavuzu](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
+Aspose.Cells kullanarak .NET'te Excel dosyalarını TXT formatına nasıl kaydedeceğinizi adım adım öğrenin.
+### [Excel'den Word Oluşturma – Hızlı C# Kılavuzu](./create-word-from-excel-quick-c-guide/)
+Aspose.Cells for .NET kullanarak Excel dosyasından hızlı bir şekilde Word belgesi oluşturmayı adım adım öğrenin.
+### [Excel'i Sekmeli Metin Olarak Dışa Aktarma Rehberi](./how-to-export-excel-tab-delimited-text-guide/)
+Aspose.Cells for .NET kullanarak Excel dosyalarını sekmeli metin (tab‑delimited) formatına nasıl dışa aktaracağınızı öğrenin.
+### [Excel Dosyasını .NET'te Programatik Olarak PowerPoint'e Dönüştürme – Adım Adım C# Kılavuzu](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+Aspose.Cells for .NET kullanarak Excel dosyalarını PowerPoint sunumlarına (PPTX) dönüştürmek için adım adım C# kod örnekleri.
+
+### [C# ile Excel Dosyasını Docx Olarak Kaydet – Tam Adım Adım Kılavuz](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak C# ile Excel dosyasını Docx formatına nasıl kaydedeceğinizi adım adım öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -123,4 +144,3 @@ Aspose.Cells for .NET kullanarak C# ile Excel dosyasını Docx formatına nasıl
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

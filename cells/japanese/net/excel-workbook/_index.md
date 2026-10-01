@@ -91,7 +91,8 @@ Excelスキルを向上させるチャンスをぜひ活用してください。
 | [C# でマスターシートを作成する – 完全 Aspose.Cells ガイド](./create-master-sheet-in-c-complete-aspose-cells-guide/) ステップバイステップのガイドで、Aspose.Cells for .NET を使用して C# でマスターシートを作成する方法を学びます。 |  
 | [C# で Excel ワークブックを作成する – Aspose.Cells 完全ガイド](./create-excel-workbook-c-complete-guide-with-aspose-cells/) Aspose.Cells for .NET を使用し、C# で Excel ワークブックを作成する手順をステップバイステップで解説します。 |  
 | [C# で Excel ワークブックを作成する – 完全プログラミングガイド](./create-excel-workbook-in-c-complete-programming-guide/) Aspose.Cells for .NET を使用して C# で Excel ワークブックを作成する手順をステップバイステップで解説します。 |  
-| [C#でExcelワークブックを作成 – 展開機能付きフルガイド](./create-excel-workbook-c-full-guide-with-expand-function/) Aspose.Cells for .NET を使用して、C# で展開機能を持つ Excel ワークブックを作成する手順をステップバイステップで解説します。 |
+| [C#でExcelワークブックを作成 – 展開機能付きフルガイド](./create-excel-workbook-c-full-guide-with-expand-function/) Aspose.Cells for .NET を使用して、C# で展開機能を持つ Excel ワークブックを作成する手順をステップバイステップで解説します。 |  
+| [C# で Excel ワークブックを作成し、ファイルに保存する](./create-excel-workbook-and-save-it-to-file-in-c/) このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して C# で Excel ワークブックを作成し、ファイルに保存する方法を学びます。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -125,4 +126,3 @@ Excelスキルを向上させるチャンスをぜひ活用してください。
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

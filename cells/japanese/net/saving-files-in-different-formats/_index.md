@@ -63,6 +63,8 @@ Aspose.Cells for .NET を使用して XLS ファイルを簡単に保存する�
 ### [XLSXファイルを保存](./save-xlsx-file/)
 Aspose.Cells for .NET を使用して XLSX ファイルを保存する方法を、ステップバイステップで解説します。Excel 管理を効率化できます。
 ### [C#でXLSBを保存する方法 – ステップバイステップガイド](./how-to-save-xlsb-in-c-step-by-step-guide/)
+### [C# で Aspose.Cells を使用したフラット OPC チュートリアルの完了方法](./how-to-complete-a-flat-opc-tutorial-with-aspose-cells-in-c/)
+C# で Aspose.Cells を使用してフラット OPC チュートリアルを完了する方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

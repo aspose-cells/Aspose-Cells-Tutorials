@@ -59,6 +59,7 @@
 เรียนรู้วิธีเปลี่ยนชื่อตารางใน Excel ด้วย Aspose.Cells สำหรับ .NET ด้วยโค้ด C# อย่างละเอียดและง่ายต่อการทำตาม
 ### [ลบแถวในตาราง Word – คู่มือ C# ฉบับสมบูรณ์](./delete-rows-word-table-complete-c-guide/)
 เรียนรู้วิธีลบแถวในตาราง Word ด้วย Aspose.Words for .NET ด้วยโค้ด C# อย่างละเอียดและง่ายต่อการทำตาม
+### [วิธีลบแถวจากตาราง Excel และเปลี่ยนชื่อใน C#](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

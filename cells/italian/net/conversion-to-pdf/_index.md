@@ -61,6 +61,8 @@ Impara a gestire l'arrotondamento dei numeri durante la conversione di file Exce
 Impara a salvare documenti Word in PDF usando Aspose.Words per .NET con una guida completa in C#.
 ### [Come incorporare i font durante la conversione di Excel in PDF – Guida passo‑passo](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
 Scopri come incorporare i font nei PDF generati da Excel con Aspose.Cells, garantendo la corretta visualizzazione del testo.
+### [Come salvare la cartella di lavoro come PDF con Aspose.Cells in C#](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
+Scopri come salvare una cartella di lavoro Excel come PDF usando Aspose.Cells in C# con questa guida passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

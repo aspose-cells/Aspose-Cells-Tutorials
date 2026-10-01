@@ -56,6 +56,11 @@ C# kullanarak Excel raporu oluşturmayı adım adım öğrenin; veri bağlama, b
 ### [Şablondan Excel Oluşturma – .NET Geliştiricileri için Adım Adım Kılavuz](./create-excel-from-template-step-by-step-guide-for-net-develo/)
 .NET geliştiricileri için şablon kullanarak Excel dosyası oluşturmayı adım adım öğrenin.
 
+### [Veri Kümesini Excel'e Dönüştürme ve Excel Şablonunu Doldurma](./convert-dataset-to-excel-and-populate-an-excel-template)
+Veri kümesini Excel dosyasına dönüştürüp, bir şablona otomatik olarak veri yerleştirerek rapor oluşturmayı öğrenin.
+
+### [Şablondan Excel Oluşturma ve Tekrarlanan Sayfalar Oluşturma](./how-to-create-excel-from-template-and-generate-repeated-shee)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

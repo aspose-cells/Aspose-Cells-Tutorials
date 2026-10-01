@@ -44,6 +44,9 @@ Erfahren Sie, wie Sie mit Aspose.Cells Diagramme aus Excel in PowerPoint exporti
 ### [Diagramme aus Word exportieren – Vollständiger C#-Leitfaden](./how-to-export-charts-from-word-complete-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words Diagramme aus Word-Dokumenten extrahieren und in C# weiterverarbeiten.
 
+### [Diagramm zu Word hinzufügen – Excel‑Diagramm einbetten mit Aspose](./how-to-add-chart-to-word-with-aspose-embed-excel-chart/)
+Erfahren Sie, wie Sie ein Excel‑Diagramm in ein Word‑Dokument einbetten, indem Sie Aspose verwenden.
+
 ### [Diagramm nach PowerPoint exportieren mit C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./export-chart-to-powerpoint-with-c-complete-step-by-step-guid/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Diagramme in PowerPoint‑Präsentationen exportieren. Schritt‑für‑Schritt‑Anleitung mit C#.
 

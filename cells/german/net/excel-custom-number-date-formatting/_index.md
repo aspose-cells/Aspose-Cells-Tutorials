@@ -40,6 +40,9 @@ Erfahren Sie in diesem ausführlichen Tutorial, wie Sie mit Aspose.Cells für .N
 ### [Erstellen Sie eine Excel-Arbeitsmappe in C# – Benutzerdefiniertes Zahlenformat anwenden](./create-excel-workbook-in-c-apply-custom-number-format/)
 Erfahren Sie in diesem Tutorial, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe in C# erstellen und ein benutzerdefiniertes Zahlenformat anwenden.
 
+### [Wie man ein Excel-Arbeitsbuch in C# mit benutzerdefiniertem Zahlenformat erstellt](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
+Erfahren Sie in diesem Tutorial, wie Sie mit Aspose.Cells für .NET ein Excel-Arbeitsbuch in C# erstellen und ein benutzerdefiniertes Zahlenformat anwenden.
+
 ### [Wie man ein Datum in Excel mit C# parst – Komplettanleitung](./how-to-parse-date-in-excel-with-c-complete-guide/)
 Erfahren Sie in diesem umfassenden Tutorial, wie Sie mit Aspose.Cells für .NET ein Datum in Excel mithilfe von C# korrekt parsen.
 
@@ -61,6 +64,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells das Datum aus Excel im ISO‑Format forma
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe erstellen und benutzerdefinierte Formate in C# anwenden.
 ### [Japanisches Ära-Datum in C# mit Aspose.Cells – Vollständige Anleitung](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells japanische Ära-Daten in C# korrekt parsen und verarbeiten.
+### [Wie man ein japanisches Ära-Datum in ein gregorianisches Datum in C# konvertiert](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET japanische Ära-Daten in das gregorianische Kalenderformat konvertieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -93,4 +98,3 @@ Erfahren Sie in diesem umfassenden Tutorial, wie Sie mit Aspose.Cells für .NET 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

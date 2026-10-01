@@ -62,6 +62,9 @@
 ### [在 .NET 中將字型嵌入 Excel 轉 PDF 的逐步指南](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
 了解如何在將 Excel 檔案轉換為 PDF 時嵌入字型，確保所有文字正確顯示，提供完整的步驟說明。
 
+### [如何在 C# 中使用 Aspose.Cells 將活頁簿儲存為 PDF](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
+本教學說明如何在 C# 使用 Aspose.Cells 將 Excel 活頁簿儲存為 PDF，步驟簡單明瞭。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

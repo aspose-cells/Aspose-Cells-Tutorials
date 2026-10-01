@@ -71,6 +71,9 @@ Học cách đổi tên bảng trong Excel bằng Aspose.Cells cho .NET với h�
 ### [Xóa các hàng trong bảng Word – Hướng dẫn đầy đủ C#](./delete-rows-word-table-complete-c-guide/)
 Học cách xóa các hàng trong bảng Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước.
 
+### [Cách xóa các hàng trong bảng Excel và đổi tên bảng trong C#](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
+Hướng dẫn chi tiết cách xóa hàng và đổi tên bảng trong Excel bằng Aspose.Cells cho .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

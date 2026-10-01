@@ -59,6 +59,8 @@ Leer hoe u met Aspose.Cells voor .NET een Excel‑tabel maakt in C# met duidelij
 Leer stap voor stap hoe u een tabel in Excel hernoemt met Aspose.Cells voor .NET in C#.
 ### [Rijen verwijderen uit Word-tabel – Complete C#-gids](./delete-rows-word-table-complete-c-guide/)
 Leer hoe u rijen uit een Word-tabel verwijdert met Aspose.Words voor .NET in C# met deze stapsgewijze handleiding.
+### [Rijen verwijderen uit een Excel-tabel en de naam wijzigen in C#](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
+Leer hoe u rijen uit een Excel‑tabel verwijdert en de tabelnaam aanpast met Aspose.Cells voor .NET in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

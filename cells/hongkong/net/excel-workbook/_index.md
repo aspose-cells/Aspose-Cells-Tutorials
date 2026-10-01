@@ -92,6 +92,7 @@ Excel 工作表中定義的名稱可以是管理資料的便捷方式。它們�
 | [使用 Aspose.Cells 建立 Excel 工作簿 C# 完整指南](./create-excel-workbook-c-complete-guide-with-aspose-cells/) |本完整指南示範如何使用 Aspose.Cells for .NET 於 C# 中建立 Excel 工作簿，涵蓋所有關鍵步驟與範例。 |  
 | [使用 C# 建立 Excel 工作簿 – 完整程式設計指南](./create-excel-workbook-in-c-complete-programming-guide/) |本完整指南示範如何使用 Aspose.Cells for .NET 在 C# 中從頭建立 Excel 工作簿，涵蓋所有關鍵步驟與範例程式碼。 |  
 | [建立 Excel 工作簿 C# – 完整指南與展開功能](./create-excel-workbook-c-full-guide-with-expand-function/) |透過本完整步驟教學，使用 Aspose.Cells for .NET 在 C# 中建立 Excel 工作簿，並加入展開功能以提升使用者體驗。 |  
+| [在 C# 中建立 Excel 工作簿並儲存至檔案](./create-excel-workbook-and-save-it-to-file-in-c/) |示範如何使用 Aspose.Cells for .NET 在 C# 中建立 Excel 工作簿並將其儲存為檔案。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -128,4 +129,3 @@ Excel 工作表中定義的名稱可以是管理資料的便捷方式。它們�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

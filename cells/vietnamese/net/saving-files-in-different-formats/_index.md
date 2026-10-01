@@ -64,6 +64,8 @@ Tìm hiểu cách chuyển đổi sổ làm việc Excel sang định dạng CSV
 Tìm hiểu cách lưu tệp XLS dễ dàng bằng Aspose.Cells cho .NET. Hướng dẫn từng bước có kèm ví dụ thực tế và câu hỏi thường gặp.
 ### [Lưu tệp XLSX](./save-xlsx-file/)
 Khám phá cách lưu tệp XLSX bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Đơn giản hóa việc quản lý Excel của bạn một cách dễ dàng.
+### [Cách hoàn thành hướng dẫn flat OPC với Aspose.Cells trong C#](./how-to-complete-a-flat-opc-tutorial-with-aspose-cells-in-c/)
+Khám phá cách thực hiện hướng dẫn flat OPC bằng Aspose.Cells trong C# qua các bước chi tiết.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

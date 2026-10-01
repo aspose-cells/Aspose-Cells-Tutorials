@@ -83,10 +83,16 @@ Tự động tính lại toàn bộ công thức trong Excel bằng Aspose.Cells
 Tìm hiểu cách tạo file Excel bằng C# và áp dụng logic điều kiện trong Aspose.Cells cho .NET qua hướng dẫn chi tiết.
 ### [Cách tính Cotangent trong Excel bằng C# – Hướng dẫn từng bước](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
 Tìm hiểu cách tính hàm cotangent trong Excel bằng C# với Aspose.Cells cho .NET qua hướng dẫn chi tiết từng bước.
-### [Cách Sử Dụng WRAPCOLS trong C# – Chuyển Đổi Mảng Thành Ma Trận](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
-Hướng dẫn cách sử dụng hàm WRAPCOLS trong C# để chuyển đổi mảng thành ma trận một cách dễ dàng với Aspose.Cells.
+### [Cách Sử Dụng WRAPCOLS trong C# – Chuyển Đổi Mảng Thành Ma Trận](./how-to-use-wrapcols-in-c/)
+Hướng dẫn cách sử dụng hàm WRAPCOLS trong C# để chuyển đổi mảng thành ma trận.
 ### [Cách tạo mảng trong Excel bằng C# – Hướng dẫn từng bước](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 Tìm hiểu cách tạo mảng trong Excel bằng C# với Aspose.Cells cho .NET qua hướng dẫn chi tiết từng bước.
+### [Cách tạo workbook Excel C# với công thức mảng động](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
+Hướng dẫn từng bước tạo workbook Excel bằng C# và áp dụng công thức mảng động với Aspose.Cells.
+### [Cách sử dụng WRAPCOLS trong C# cho mảng Excel và lưu workbook](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
+Khám phá cách dùng hàm WRAPCOLS trong C# để chuyển đổi mảng thành ma trận và lưu workbook Excel bằng Aspose.Cells.
+### [Cách tạo workbook Excel trong C# và đặt công thức](./how-to-create-excel-workbook-in-c-and-set-formulas/)
+Hướng dẫn tạo workbook Excel trong C# và thiết lập công thức bằng Aspose.Cells một cách chi tiết.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

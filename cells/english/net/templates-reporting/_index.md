@@ -54,6 +54,12 @@ Learn how to generate an Excel workbook from a template using Aspose.Cells for .
 ### [Save Excel Workbook from JSON – Complete Guide](./save-excel-workbook-from-json-complete-guide/)
 Learn how to convert JSON data into an Excel workbook and save it using Aspose.Cells for .NET, covering parsing, data binding, and file output.
 
+### [Convert dataset to Excel and populate an Excel template](./convert-dataset-to-excel-and-populate-an-excel-template)
+Learn how to convert a dataset to Excel and fill an Excel template using Aspose.Cells for .NET.
+
+### [How to create Excel from template and generate repeated sheets](./how-to-create-excel-from-template-and-generate-repeated-shee)
+Learn how to generate an Excel workbook from a template and automatically create repeated sheets using Aspose.Cells for .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

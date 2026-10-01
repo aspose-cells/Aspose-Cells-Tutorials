@@ -98,13 +98,13 @@ Scopri come incorporare i font nei file HTML usando Aspose.Cells per .NET con C#
 ### [Salva Excel come HTML – Guida completa C#](./save-excel-as-html-complete-c-guide/)
 Scopri come salvare un file Excel in HTML usando C# con Aspose.Cells per .NET in questa guida completa passo passo.
 ### [Incorporare i font HTML durante l'esportazione di Excel – Guida completa C#](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
-Scopri come incorporare i font nei file HTML esportati da Excel con Aspose.Cells per .NET usando C# in questa guida passo passo.
-### [Come esportare Excel in HTML – Conservare i riquadri congelati in C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
-Scopri come preservare i riquadri congelati durante l'esportazione di Excel in HTML utilizzando Aspose.Cells per .NET con C#.
+Scopri come incorporare i font nei file HTML usando Aspose.Cells per .NET con C#, passo passo.
 ### [Come incorporare i font in HTML – Convertire Excel in HTML con C#](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
 Scopri come incorporare i font nei file HTML generati da Excel usando Aspose.Cells per .NET con C#, garantendo una resa tipografica coerente.
 ### [Come incorporare i font in HTML da Excel – Guida completa](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
 Scopri come incorporare i font nei file HTML esportati da Excel usando Aspose.Cells per .NET in questa guida completa passo passo.
+### [Come incorporare i font durante la conversione di Excel in HTML con Aspose.Cells](./how-to-embed-fonts-when-converting-excel-to-html-with-aspose/)
+Scopri come incorporare i font durante la conversione di Excel in HTML usando Aspose.Cells per .NET, con esempi passo passo.
 ### [Come esportare Excel in HTML – Guida passo‑passo](./how-to-export-excel-to-html-step-by-step-guide/)
 Scopri come esportare Excel in HTML passo dopo passo utilizzando Aspose.Cells per .NET in questa guida completa.
 ### [Incorporare i font in HTML – Esporta Excel in HTML con C#](./embed-fonts-in-html-export-excel-to-html-with-c/)

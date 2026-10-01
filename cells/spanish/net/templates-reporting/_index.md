@@ -58,6 +58,12 @@ Aprenda a generar archivos Excel a partir de plantillas usando Aspose.Cells para
 ### [Crear plantilla de libro de trabajo con Aspose.Cells – Guía completa](./create-workbook-template-with-aspose-cells-complete-guide/)
 Aprenda a crear plantillas de libros de Excel con Aspose.Cells, configurando marcadores y estilos para generar informes automatizados.
 
+### [Convertir conjunto de datos a Excel y poblar una plantilla de Excel](./convert-dataset-to-excel-and-populate-an-excel-template)
+Aprenda a convertir un conjunto de datos a Excel y a rellenar una plantilla de Excel usando Aspose.Cells para .NET.
+
+### [Cómo crear Excel a partir de una plantilla y generar hojas repetidas](./how-to-create-excel-from-template-and-generate-repeated-shee)
+Aprenda a crear archivos Excel a partir de una plantilla y generar hojas repetidas automáticamente.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

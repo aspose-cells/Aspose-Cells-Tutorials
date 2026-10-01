@@ -61,6 +61,8 @@ Apprenez à charger du texte Markdown et à le transformer en fichier Excel avec
 Apprenez à convertir des documents Word (.docx) en SVG avec Aspose.Words, grâce à un guide complet étape par étape.
 ### [Intégrer des polices dans HTML – Guide complet pour les développeurs .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
 Apprenez à intégrer des polices dans les fichiers HTML avec Aspose.HTML pour .NET grâce à ce guide complet étape par étape.
+### [Comment convertir Excel en SVG avec Aspose.Cells – guide étape par étape](./how-to-convert-excel-to-svg-with-aspose-cells-step-by-step-g/)
+Apprenez à convertir des fichiers Excel en SVG avec Aspose.Cells grâce à un guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -84,4 +86,3 @@ Apprenez à transformer du texte markdown en fichiers Excel avec Aspose.Cells en
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

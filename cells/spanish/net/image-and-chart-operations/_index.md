@@ -42,6 +42,9 @@ Aprenda a exportar un rango de celdas de Excel como imagen en .NET usando Aspose
 ### [Cómo guardar una tabla dinámica como imagen – Guía paso a paso](./how-to-save-pivot-as-an-image-step-by-step-guide/)
 Aprenda a guardar una tabla dinámica como imagen en .NET con Aspose.Cells con esta guía paso a paso.
 
+### [Cómo exportar tablas dinámicas como imágenes usando Aspose.Cells en C#](./how-to-export-pivot-tables-as-images-using-aspose-cells-in-c/)
+Aprenda a exportar tablas dinámicas como imágenes en .NET con Aspose.Cells mediante esta guía paso a paso.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

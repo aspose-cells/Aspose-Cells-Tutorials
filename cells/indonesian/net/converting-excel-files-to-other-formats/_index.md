@@ -78,6 +78,10 @@ Pelajari cara melacak kemajuan konversi TIFF secara terprogram menggunakan Aspos
 Pelajari cara mengekspor file Excel ke PowerPoint secara terprogram menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah ini.
 ### [Mengonversi Excel ke PowerPoint dengan C# – Panduan Lengkap](./convert-excel-to-powerpoint-with-c-complete-guide/)
 Pelajari cara mengonversi file Excel ke PowerPoint secara terprogram menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah ini.
+### [Mengonversi Excel ke PowerPoint – Panduan Langkah‑demi‑Langkah C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+Pelajari cara mengonversi file Excel ke PowerPoint secara terprogram menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah dalam C#.
+### [Buat PowerPoint dari Excel dengan Aspose.Cells – panduan langkah demi langkah](./create-powerpoint-from-excel-with-aspose-cells-step-by-step/)
+Pelajari cara membuat presentasi PowerPoint dari file Excel secara terprogram menggunakan Aspose.Cells dengan panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -121,4 +125,3 @@ Pelajari cara mengekspor file Excel menjadi teks berformat tab-delimited menggun
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

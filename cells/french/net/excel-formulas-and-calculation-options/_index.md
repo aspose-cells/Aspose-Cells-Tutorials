@@ -69,7 +69,6 @@ Exploitez le potentiel d'Excel avec Aspose.Cells pour .NET. Apprenez étape par 
 Exploitez toute la puissance d'Excel avec Aspose.Cells pour .NET. Apprenez à traiter des données à l'aide de fonctions matricielles dans ce tutoriel détaillé.
 ### [Comment étendre un tableau en C# avec Aspose.Cells – Guide étape par étape](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Apprenez à étendre un tableau en C# avec Aspose.Cells grâce à ce guide détaillé pas à pas.
-
 ### [Traitement des données à l'aide des fonctions intégrées dans Excel](./processing-data-using-built-in-functions/)
 Découvrez comment traiter des données à l'aide des fonctions intégrées d'Excel avec Aspose.Cells pour .NET. Suivez un tutoriel étape par étape pour une automatisation facile.
 ### [Traitement des données à l'aide de R1C1 dans Excel](./processing-data-using-r1c1/)
@@ -86,8 +85,14 @@ Apprenez à créer un fichier Excel en C# avec une logique conditionnelle grâce
 Apprenez à calculer la fonction cotangente dans Excel en utilisant C# avec Aspose.Cells, grâce à ce guide détaillé étape par étape.
 ### [Comment utiliser WRAPCOLS en C# – Remodeler les tableaux en matrices](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
 Apprenez à utiliser la fonction WRAPCOLS en C# pour convertir des tableaux en matrices avec Aspose.Cells pour .NET.
+### [Comment utiliser WRAPCOLS en C# pour les tableaux Excel et l’enregistrement du classeur](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
+Apprenez à appliquer WRAPCOLS en C# pour transformer des tableaux Excel et enregistrer le classeur avec Aspose.Cells.
 ### [Comment créer un tableau dans Excel avec C# – Guide étape par étape](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 Apprenez à créer et manipuler des tableaux dans Excel en utilisant C# avec Aspose.Cells, grâce à ce guide détaillé étape par étape.
+### [Comment créer un classeur Excel en C# et définir des formules](./how-to-create-excel-workbook-in-c-and-set-formulas/)
+Apprenez à créer un classeur Excel en C# et à y ajouter des formules avec Aspose.Cells, étape par étape.
+### [Comment créer un classeur Excel C# avec une formule de tableau dynamique](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
+Apprenez à créer un classeur Excel en C# avec une formule de tableau dynamique grâce à Aspose.Cells pour .NET, étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

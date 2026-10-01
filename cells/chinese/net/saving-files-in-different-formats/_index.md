@@ -64,6 +64,8 @@
 学习如何使用 Aspose.Cells for .NET 轻松保存 XLS 文件。包含分步指南、实际示例和常见问题解答。
 ### [保存 XLSX 文件](./save-xlsx-file/)
 通过本分步指南，了解如何使用 Aspose.Cells for .NET 保存 XLSX 文件。轻松简化您的 Excel 管理。
+### [如何在 C# 中使用 Aspose.Cells 完成平面 OPC 教程](./how-to-complete-a-flat-opc-tutorial-with-aspose-cells-in-c/)
+本教程演示如何在 C# 中使用 Aspose.Cells 完成平面 OPC 文件的创建与保存。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

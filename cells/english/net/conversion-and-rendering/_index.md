@@ -36,6 +36,8 @@ Finally, we can't forget about the Converting Excel to MHTML in .NET guide. MHTM
 Learn to advanced convert Excel to PDF seamlessly with Aspose.Cells in .NET. Follow our step-by-step guide.
 ### [Converting Worksheet to SVG in .NET](./converting-worksheet-to-svg/)
 Learn how to convert an Excel worksheet to SVG using Aspose.Cells for .NET with this step-by-step guide. Perfect for .NET developers looking to render Excel to SVG.
+### [How to convert Excel to SVG with Aspose.Cells – step‑by‑step guide](./how-to-convert-excel-to-svg-with-aspose-cells-step-by-step-g/)
+Learn how to convert Excel to SVG using Aspose.Cells for .NET with this detailed step‑by‑step guide.
 ### [Converting Excel to MHTML in .NET](./converting-excel-to-mhtml/)
 Learn how to efficiently convert Excel files to MHTML format in .NET with Aspose.Cells, boosting your reporting and data-sharing capabilities.
 ### [Create Image from Excel – Export Pivot to PNG in C#](./create-image-from-excel-export-pivot-to-png-in-c/)
@@ -77,4 +79,3 @@ Learn how to transform Markdown files into Excel spreadsheets using C# and Aspos
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

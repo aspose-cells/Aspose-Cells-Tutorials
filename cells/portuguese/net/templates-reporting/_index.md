@@ -51,14 +51,24 @@ Aprenda a dominar a integração de dados usando os Marcadores Inteligentes do A
 
 ### [Vinculação de Dados em Modelos do Excel: Preencher Modelos com C#](./template-data-binding-in-excel-populate-templates-with-c/)
 Aprenda a usar a vinculação de dados para preencher modelos do Excel programaticamente com C# usando Aspose.Cells.
+
 ### [Criar pasta de trabalho a partir de modelo em C# – Guia passo a passo](./create-workbook-from-template-in-c-step-by-step-guide/)
 Aprenda a gerar uma pasta de trabalho do Excel a partir de um modelo usando Aspose.Cells para .NET em C# passo a passo.
+
 ### [Salvar Pasta de Trabalho do Excel a partir de JSON – Guia Completo](./save-excel-workbook-from-json-complete-guide/)
 Aprenda a salvar uma pasta de trabalho do Excel a partir de dados JSON usando Aspose.Cells para .NET.
+
 ### [Criar Excel a partir de modelo – Guia passo a passo para desenvolvedores .NET](./create-excel-from-template-step-by-step-guide-for-net-develo/)
 Aprenda a gerar planilhas Excel a partir de modelos usando Aspose.Cells para .NET, com instruções detalhadas passo a passo.
+
 ### [Salvar pasta de trabalho preenchida programaticamente com Aspose.Cells](./save-populated-workbook-programmatically-with-aspose-cells/)
 Aprenda a salvar programaticamente uma pasta de trabalho já preenchida usando Aspose.Cells para .NET.
+
+### [Converter conjunto de dados para Excel e preencher um modelo Excel](./convert-dataset-to-excel-and-populate-an-excel-template)
+Aprenda a converter um conjunto de dados em planilha Excel e preenchê‑la usando um modelo com Aspose.Cells para .NET.
+
+### [Como criar Excel a partir de modelo e gerar planilhas repetidas](./how-to-create-excel-from-template-and-generate-repeated-shee)
+Aprenda a gerar planilhas Excel a partir de um modelo e criar múltiplas abas repetidas programaticamente usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

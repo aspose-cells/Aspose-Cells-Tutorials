@@ -54,6 +54,10 @@ Dowiedz się, jak parsować daty w Excelu przy użyciu C# i Aspose.Cells, krok p
 Dowiedz się, jak w C# utworzyć skoroszyt Excel i zastosować niestandardowe formatowanie komórek przy użyciu Aspose.Cells.
 ### [Parsowanie daty japońskiej ery w C# przy użyciu Aspose.Cells – pełny przewodnik](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Dowiedz się, jak w C# parsować daty w japońskim formacie ery przy użyciu Aspose.Cells, krok po kroku.
+### [Jak utworzyć skoroszyt Excel w C# z niestandardowym formatowaniem liczb](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
+Dowiedz się, jak w C# utworzyć skoroszyt Excel i zastosować własne formaty liczb przy użyciu Aspose.Cells.
+### [Jak przekonwertować datę w erze japońskiej na kalendarz gregoriański w C#](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+Dowiedz się, jak przekształcić daty w japońskiej erze na daty gregoriańskie w C# przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -86,4 +90,3 @@ Dowiedz się, jak ustawić format daty w arkuszach Excel przy użyciu Aspose.Cel
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

@@ -56,6 +56,11 @@ C# を使用してテンプレートからワークブックを作成し、デ�
 ### [テンプレートから Excel を作成する – .NET 開発者向けステップバイステップガイド](./create-excel-from-template-step-by-step-guide-for-net-develo/)
 テンプレートを使用して Excel ファイルを作成する手順を .NET 開発者向けに詳しく解説します。
 
+### [データセットを Excel に変換し、Excel テンプレートにデータを入力する](./convert-dataset-to-excel-and-populate-an-excel-template)
+データセットを Excel に変換し、テンプレートにデータを自動的に埋め込む方法を学びます。
+
+### [テンプレートから Excel を作成し、繰り返しシートを生成する方法](./how-to-create-excel-from-template-and-generate-repeated-shee)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

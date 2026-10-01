@@ -89,9 +89,10 @@ Perché non cogliere l'occasione per migliorare le tue competenze in Excel? Ogni
 | [Crea nuova cartella di lavoro C# – Guida passo‑passo con formule spilt](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Scopri come creare una nuova cartella di lavoro in C# con Aspose.Cells, includendo formule spilt passo dopo passo. |
 | [Crea foglio master in C# – Guida completa Aspose.Cells](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Scopri come creare un foglio master in C# utilizzando Aspose.Cells con questa guida completa passo passo. |
 | [Crea cartella di lavoro Excel con C# – Guida completa all'uso di EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Scopri come creare una cartella di lavoro Excel in C# utilizzando la funzionalità EXPAND di Aspose.Cells per .NET, passo dopo passo. |
-| [Crea cartella di lavoro Excel C# – Guida completa con Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | Scopri come creare una cartella di lavoro Excel in C# passo dopo passo usando Aspose.Cells. |
+| [Crea cartella di lavoro Excel C# – Guida completa con Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | Scopri come creare una cartella di lavoro Excel in C# passo passo usando Aspose.Cells. |
+| [Crea cartella di lavoro Excel e salvala su file in C#](./create-excel-workbook-and-save-it-to-file-in-c/) | Scopri come creare una cartella di lavoro Excel e salvarla su file usando Aspose.Cells per .NET in C# passo passo. |
 | [Crea cartella di lavoro Excel in C# – Guida completa di programmazione](./create-excel-workbook-in-c-complete-programming-guide/) | Scopri come creare una cartella di lavoro Excel in C# con una guida passo passo completa usando Aspose.Cells per .NET. |
-| [Crea cartella di lavoro Excel C# – Guida completa con funzione Expand](./create-excel-workbook-c-full-guide-with-expand-function/) | Scopri come creare una cartella di lavoro Excel in C# con la funzione Expand, passo dopo passo con Aspose.Cells per .NET. |  
+| [Crea cartella di lavoro Excel C# – Guida completa con funzione Expand](./create-excel-workbook-c-full-guide-with-expand-function/) | Scopri come creare una cartella di lavoro Excel in C# con la funzione Expand, passo dopo passo con Aspose.Cells per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -128,4 +129,3 @@ Perché non cogliere l'occasione per migliorare le tue competenze in Excel? Ogni
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

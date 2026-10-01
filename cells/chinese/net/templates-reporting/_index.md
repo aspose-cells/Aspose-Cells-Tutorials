@@ -56,6 +56,11 @@ Aspose.Cells Net 代码教程
 ### [使用 Aspose.Cells 创建工作簿模板 – 完整指南](./create-workbook-template-with-aspose-cells-complete-guide/)
 学习如何使用 Aspose.Cells 创建工作簿模板并进行完整的报表生成，涵盖模板设计、数据绑定和导出。
 
+### [将数据集转换为 Excel 并填充 Excel 模板](./convert-dataset-to-excel-and-populate-an-excel-template/)
+
+### [如何从模板创建 Excel 并生成重复工作表](./how-to-create-excel-from-template-and-generate-repeated-shee)
+学习如何使用模板创建 Excel 并生成多个重复的工作表。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

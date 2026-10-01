@@ -44,6 +44,8 @@ Impara a esportare i grafici Excel in presentazioni PowerPoint con C# usando Asp
 Scopri come esportare i grafici da Word usando Aspose.Words per .NET con C# in questa guida passo passo.
 ### [Come esportare i grafici – Guida completa PowerPoint C#](./how-to-export-charts-complete-powerpoint-c-guide/)
 Impara a esportare i grafici da Excel a PowerPoint usando C# con questa guida completa passo passo.
+### [Come aggiungere un grafico a Word con Aspose – incorporare grafico Excel](./how-to-add-chart-to-word-with-aspose-embed-excel-chart/)
+Impara a inserire un grafico Excel in un documento Word usando Aspose.Cells per .NET con C# in pochi passaggi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

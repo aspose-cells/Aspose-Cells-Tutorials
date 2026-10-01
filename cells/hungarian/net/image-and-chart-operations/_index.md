@@ -40,6 +40,8 @@ Tanuld meg, hogyan konvertálhatsz Excel-munkafüzeteket képekké .NET-ben az A
 Tanuld meg, hogyan mentheted el a Pivot táblákat képként az Aspose.Cells segítségével, részletes lépésekkel.
 ### [Excel-tartomány exportálása képként – Teljes C# útmutató](./export-excel-range-as-image-complete-c-guide/)
 Ismerd meg, hogyan exportálhatsz egy Excel-tartományt képként C#-ban az Aspose.Cells segítségével, lépésről lépésre útmutatóval.
+### [Hogyan exportálja a Pivot táblákat képként az Aspose.Cells segítségével C#-ban](./how-to-export-pivot-tables-as-images-using-aspose-cells-in-c/)
+Tanuld meg, hogyan exportálhatja a Pivot táblákat képekké C#-ban az Aspose.Cells használatával, részletes lépésekkel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

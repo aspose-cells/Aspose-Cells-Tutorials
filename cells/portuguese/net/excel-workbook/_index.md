@@ -41,7 +41,7 @@ Gerenciar conexões externas — especialmente em arquivos XLSB — pode ser com
 
 ## Aumentando a segurança com proteção por senha
 
-A segurança é essencial, principalmente para pastas de trabalho compartilhadas que contêm informações confidenciais. Nosso tutorial sobre [Proteger com senha ou desproteger pasta de trabalho compartilhada](./password-protect-or-unprotect-shared-workbook/) detalha as etapas para bloquear suas pastas de trabalho para que apenas as pessoas certas possam acessá-las. Você se sentirá mais confiante ao compartilhar arquivos quando souber que eles estão seguros.
+A segurança é essencial, principalmente para pastas de trabalho compartilhadas que contêm informações confidenciais. Nosso tutorial sobre [Proteger com senha ou desproteger pasta de trabalho compartilhada](./password-protect-or-unprotect-shared-workbook/) detalha as etapas para bloquear suas pastas de trabalho para que apenas as pessoas certas possam acessá‑las. Você se sentirá mais confiante ao compartilhar arquivos quando souber que eles estão seguros.
 
 ## Aumentando a produtividade com Regex
 
@@ -53,7 +53,7 @@ As Consultas do Power podem ser um verdadeiro divisor de águas na manipulação
 
 ## Gerenciando visualizações de impressão
 
-De vez em quando, você precisa apresentar seus dados da maneira mais profissional possível. Aprender a criar pré-visualizações de impressão pode ser uma habilidade vital. Em nosso tutorial sobre [Visualização de impressão da pasta de trabalho](./workbook-print-preview/)você descobrirá como formatar seus dados corretamente antes de imprimir. Esse processo pode evitar erros embaraçosos e garantir que seus relatórios tenham a mesma aparência no papel quanto na tela.
+De vez em quando, você precisa apresentar seus dados da maneira mais profissional possível. Aprender a criar pré‑visualizações de impressão pode ser uma habilidade vital. Em nosso tutorial sobre [Visualização de impressão da pasta de trabalho](./workbook-print-preview/)você descobrirá como formatar seus dados corretamente antes de imprimir. Esse processo pode evitar erros embaraçosos e garantir que seus relatórios tenham a mesma aparência no papel quanto na tela.
 
 ## Trabalhando com nomes definidos
 
@@ -113,14 +113,14 @@ Então, por que não aproveitar esta oportunidade para aprimorar suas habilidade
 | [Como criar uma pasta de trabalho em C# – escrever valor e formatar número](./how-to-create-workbook-in-c-write-value-format-number/) | Aprenda a criar uma pasta de trabalho, inserir valores e aplicar formatação numérica usando Aspose.Cells para .NET em C#. |
 | [Criar nova pasta de trabalho em C# – Adicionar fórmula e salvar arquivo Excel](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Aprenda a criar uma nova pasta de trabalho, inserir fórmulas e salvar o arquivo Excel usando Aspose.Cells para .NET em C#. |
 | [Criar pasta de trabalho Excel C# – Gerar XLSX a partir de JSON](./create-excel-workbook-c-generate-xlsx-from-json/) | Aprenda a gerar um arquivo XLSX a partir de dados JSON usando Aspose.Cells para .NET em C#. |  
-| [Criar pasta de trabalho Excel C# – Guia passo a passo para escrever datas e salvar como XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Aprenda a criar uma pasta de trabalho Excel em C#, escrever datas e salvar como XLSX usando Aspose.Cells para .NET. |  
+| [Criar pasta de trabalho Excel C# – Guia passo a passo para escrever datas e salvar como XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Aprenda a criar uma pasta de trabalho Excel em C#, escrever datas e salvar como XLSX usando Aspose.Cells para .NET. |
 | [Criar pasta de trabalho do Excel em C# – Guia passo a passo](./create-excel-workbook-in-c-step-by-step-guide/) | Aprenda a criar uma pasta de trabalho do Excel usando C# com exemplos claros e passo a passo usando Aspose.Cells para .NET. |
 | [Criar nova pasta de trabalho em C# – Guia passo a passo](./create-new-workbook-in-c-step-by-step-guide/) | Aprenda a criar uma nova pasta de trabalho Excel usando C# com o Aspose.Cells passo a passo. |  
-| [Criar nova pasta de trabalho Excel em C# – Guia passo a passo](./create-new-excel-workbook-in-c-step-by-step-guide/) | Aprenda a criar uma nova pasta de trabalho Excel em C# usando Aspose.Cells, passo a passo. |  
-| [Como criar uma pasta de trabalho em C# – Guia passo a passo](./how-to-create-workbook-in-c-step-by-step-guide/) | Aprenda a criar uma pasta de trabalho do Excel em C# usando Aspose.Cells com este tutorial passo a passo. |  
+| [Criar nova pasta de trabalho Excel em C# – Guia passo a passo](./create-new-excel-workbook-in-c-step-by-step-guide/) | Aprenda a criar uma nova pasta de trabalho Excel em C# usando Aspose.Cells, passo a passo. |
+| [Como criar uma pasta de trabalho em C# – Guia passo a passo](./how-to-create-workbook-in-c-step-by-step-guide/) | Aprenda a criar uma pasta de trabalho do Excel em C# usando Aspose.Cells com este tutorial passo a passo. |
 | [Criar arquivo Excel programaticamente com C# – Guia passo a passo](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Aprenda a criar arquivos Excel programaticamente usando C# e Aspose.Cells para .NET com este guia passo a passo. |
 | [Criar nova pasta de trabalho – Converter Markdown para Excel em C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Aprenda a criar uma nova pasta de trabalho e converter Markdown para Excel usando C# e Aspose.Cells para .NET. |
-
+| [Criar pasta de trabalho Excel e salvá‑la em arquivo em C#](./create-excel-workbook-and-save-it-to-file-in-c/) | Aprenda a criar uma pasta de trabalho Excel e salvá‑la em um arquivo usando Aspose.Cells para .NET em C# passo a passo. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -128,4 +128,3 @@ Então, por que não aproveitar esta oportunidade para aprimorar suas habilidade
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

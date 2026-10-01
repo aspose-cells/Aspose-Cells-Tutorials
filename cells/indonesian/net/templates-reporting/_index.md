@@ -56,6 +56,10 @@ Pelajari cara membuat workbook Excel dari templat menggunakan C# dengan panduan 
 ### [Buat Excel dari Template – Panduan Langkah-demi-Langkah untuk Pengembang .NET](./create-excel-from-template-step-by-step-guide-for-net-develo/)
 Pelajari cara membuat file Excel dari template menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah untuk pengembang.
 
+### [Mengonversi dataset ke Excel dan mengisi template Excel](./convert-dataset-to-excel-and-populate-an-excel-template)
+
+### [Cara membuat Excel dari templat dan menghasilkan lembar berulang](./how-to-create-excel-from-template-and-generate-repeated-shee)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

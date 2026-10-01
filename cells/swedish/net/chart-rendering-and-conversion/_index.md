@@ -44,6 +44,8 @@ Lär dig exportera diagram från Excel till PowerPoint med C# i en komplett steg
 Lär dig hur du exporterar diagram från Word till olika format med Aspose.Words för .NET i en komplett C#-guide.
 ### [Hur du exporterar diagram – Komplett PowerPoint C#-guide](./how-to-export-charts-complete-powerpoint-c-guide/)
 Lär dig exportera Excel-diagram till PowerPoint med C# i en komplett steg-för-steg-guide.
+### [Hur du lägger till diagram i Word med Aspose – bädda in Excel-diagram](./how-to-add-chart-to-word-with-aspose-embed-excel-chart/)
+Lär dig hur du bäddar in ett Excel-diagram i ett Word-dokument med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

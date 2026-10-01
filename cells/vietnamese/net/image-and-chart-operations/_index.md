@@ -38,6 +38,8 @@ Tìm hiểu cách chuyển đổi biểu đồ thành hình ảnh trong .NET b�
 Tìm hiểu cách chuyển đổi bảng tính Excel thành hình ảnh trong .NET bằng Aspose.Cells với hướng dẫn từng bước của chúng tôi. Tối ưu hóa hình ảnh hóa dữ liệu của bạn.
 ### [Cách lưu Pivot dưới dạng hình ảnh – Hướng dẫn từng bước](./how-to-save-pivot-as-an-image-step-by-step-guide/)
 Tìm hiểu cách lưu Pivot Table thành hình ảnh trong .NET bằng Aspose.Cells với hướng dẫn chi tiết từng bước.
+### [Cách xuất Pivot Table thành hình ảnh bằng Aspose.Cells trong C#](./how-to-export-pivot-tables-as-images-using-aspose-cells-in-c/)
+Hướng dẫn chi tiết cách xuất Pivot Table thành hình ảnh trong C# bằng Aspose.Cells.
 ### [Xuất vùng Excel thành hình ảnh – Hướng dẫn C# chi tiết](./export-excel-range-as-image-complete-c-guide/)
 Tìm hiểu cách xuất một vùng dữ liệu Excel thành hình ảnh trong .NET bằng Aspose.Cells với hướng dẫn chi tiết từng bước.
 

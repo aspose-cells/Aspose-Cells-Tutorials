@@ -38,6 +38,8 @@
 学习如何使用 Aspose.Cells 在 .NET 中将 Excel 工作表转换为图像，并遵循我们的分步指南。简化您的数据可视化。
 ### [如何将数据透视表保存为图像 – 步骤指南](./how-to-save-pivot-as-an-image-step-by-step-guide/)
 本教程逐步演示如何使用 Aspose.Cells 将 Excel 数据透视表导出为图像，帮助您轻松共享分析结果。
+### [如何使用 Aspose.Cells 在 C# 中将数据透视表导出为图像](./how-to-export-pivot-tables-as-images-using-aspose-cells-in-c/)
+本教程提供在 C# 环境下使用 Aspose.Cells 将 Excel 数据透视表导出为图像的完整步骤和示例代码。
 ### [导出 Excel 区域为图像 – 完整 C# 指南](./export-excel-range-as-image-complete-c-guide/)
 学习如何使用 Aspose.Cells 在 .NET 中将 Excel 区域导出为图像，提供完整的 C# 示例和步骤指南。
 

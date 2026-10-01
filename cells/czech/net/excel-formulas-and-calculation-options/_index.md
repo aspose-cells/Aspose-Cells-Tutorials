@@ -89,7 +89,14 @@ Naučte se, jak v C# pomocí Aspose.Cells přepočítat všechny vzorce v sešit
 ### [Jak rozšířit pole v C# pomocí Aspose.Cells – krok za krokem](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Naučte se, jak pomocí Aspose.Cells rozšířit pole v C# a efektivně pracovat s dynamickými daty v Excelu.
 ### [Jak použít WRAPCOLS v C# – Přetvořit pole na matice](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
-Naučte se, jak v C# pomocí WRAPCOLS převést pole na matici v Aspose.Cells pro .NET.
+Objevte, jak v C# pomocí WRAPCOLS převést pole na matici v Aspose.Cells pro .NET.
+### [Jak použít WRAPCOLS v C# pro pole v Excelu a uložení sešitu](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
+Naučte se pomocí Aspose.Cells v C# použít funkci WRAPCOLS pro práci s poli a uložit sešit v Excelu.
+### [Jak vytvořit Excel sešit v C# s dynamickým polem vzorce](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
+Naučte se, jak pomocí Aspose.Cells pro .NET v C# vytvořit sešit s dynamickým polem vzorce.
+
+### [Jak vytvořit Excel sešit v C# a nastavit vzorce](./how-to-create-excel-workbook-in-c-and-set-formulas/)
+Naučte se, jak pomocí Aspose.Cells pro .NET v C# vytvořit Excel sešit a nastavit v něm vzorce.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

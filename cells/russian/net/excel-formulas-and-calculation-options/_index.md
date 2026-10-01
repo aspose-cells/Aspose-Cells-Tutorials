@@ -85,8 +85,14 @@ Excel поставляется с множеством встроенных фу
 Узнайте, как расширить массив в C# с помощью Aspose.Cells, следуя пошаговым инструкциям в этом руководстве.
 ### [Как использовать WRAPCOLS в C# – преобразование массивов в матрицы](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
 Узнайте, как применять функцию WRAPCOLS в C# с Aspose.Cells для преобразования одномерных массивов в матрицы.
+### [Как использовать WRAPCOLS в C# для массивов Excel и сохранения книги](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
+Узнайте, как применять WRAPCOLS в C# с Aspose.Cells для преобразования массивов и сохранения рабочей книги.
 ### [Как создать массив в Excel с помощью C# – пошаговое руководство](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 Узнайте, как создать массив в Excel с помощью C# в этом пошаговом руководстве.
+### [Как создать книгу Excel в C# и задать формулы](./how-to-create-excel-workbook-in-c-and-set-formulas/)
+Узнайте, как создать книгу Excel в C# и задать формулы с помощью Aspose.Cells.
+### [Как создать книгу Excel на C# с динамической формулой массива](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
+Узнайте, как создать книгу Excel в C# с динамической формулой массива, используя Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

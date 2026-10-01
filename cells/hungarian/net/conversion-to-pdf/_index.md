@@ -36,7 +36,6 @@ Konvertálj Excel táblázatokat PDF-be egyszerűen az Aspose.Cells for .NET seg
 Tanuld meg, hogyan konvertálhatsz Excel-diagramokat PDF-be .NET-ben az Aspose.Cells használatával ezzel a lépésről lépésre szóló útmutatóval! Tökéletes minden szintű programozó számára.
 ### [PDF beállítások beállítása C#-ban – Excel exportálása PDF-be teljes irányítással](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
 Ismerd meg, hogyan szabhatod testre a PDF opciókat C#-ban, és exportálj Excel fájlokat PDF-be teljes kontrollal az Aspose.Cells segítségével.
-
 ### [PDF létrehozása Excelből C#‑ban – Lépésről‑lépésre útmutató](./create-pdf-from-excel-in-c-step-by-step-guide/)
 Ismerd meg, hogyan hozhatsz létre PDF-et Excel fájlokból C#‑ban az Aspose.Cells segítségével, részletes lépésekkel.
 ### [Munkafüzet exportálása PDF-be – Teljes C# útmutató](./export-workbook-to-pdf-complete-c-guide/)
@@ -61,6 +60,8 @@ Ismerd meg, hogyan kerekítheted a számokat Excel-fájl PDF konvertálása sor�
 Tanulja meg, hogyan menthet Word dokumentumokat PDF formátumba C#-ban az Aspose.Words segítségével, lépésről lépésre útmutatóval.
 ### [Hogyan ágyazz be betűtípusokat Excel PDF-be konvertálásakor – Lépésről‑lépésre útmutató](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
 Ismerd meg, hogyan ágyazhatod be a betűtípusokat Excel-fájlok PDF-be konvertálásakor az Aspose.Cells segítségével.
+### [Munkafüzet mentése PDF-ként Aspose.Cells segítségével C#-ban](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
+Ismerd meg, hogyan mentheted el a munkafüzetet PDF formátumban az Aspose.Cells használatával C#-ban.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -82,10 +82,13 @@ Excel มาพร้อมกับฟังก์ชันในตัวม�
 เรียนรู้วิธีคำนวณค่าโคแทนเจนต์ใน Excel ด้วย C# อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
 ### [วิธีขยายอาร์เรย์ใน C# ด้วย Aspose.Cells – คู่มือแบบขั้นตอนต่อขั้นตอน](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 เรียนรู้วิธีขยายอาร์เรย์ใน C# ด้วย Aspose.Cells อย่างละเอียดในคู่มือขั้นตอนต่อขั้นตอนนี้
-### [วิธีใช้ WRAPCOLS ใน C# – ปรับรูปแบบอาเรย์เป็นเมทริกซ์](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
-เรียนรู้วิธีใช้ฟังก์ชัน WRAPCOLS ใน C# เพื่อแปลงอาเรย์ให้เป็นเมทริกซ์อย่างง่ายดาย
+### [วิธีใช้ WRAPCOLS ใน C# – ปรับรูปแบบอาเรย์เป็นเมทริกซ์](./how-to-use-wrapcols-in-c/)
+### [วิธีใช้ WRAPCOLS ใน C# สำหรับอาเรย์ Excel และการบันทึกสมุดงาน](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
 ### [วิธีสร้างอาร์เรย์ใน Excel ด้วย C# – คู่มือทีละขั้นตอน](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
-เรียนรู้วิธีสร้างอาร์เรย์ใน Excel ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET ผ่านคู่มือทีละขั้นตอนที่เข้าใจง่าย
+เรียนรู้วิธีสร้างอาร์เรย์ใน Excel ด้วย C# โดยใช้ Aspose.Cells ผ่านคู่มือขั้นตอนต่อขั้นตอนที่เข้าใจง่าย
+### [วิธีสร้างสมุดงาน Excel ด้วย C# พร้อมสูตรอาร์เรย์แบบไดนามิก](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
+เรียนรู้วิธีสร้างสมุดงาน Excel ด้วย C# และใช้สูตรอาร์เรย์แบบไดนามิกด้วย Aspose.Cells
+### [วิธีสร้างสมุดงาน Excel ใน C# และตั้งสูตร](./how-to-create-excel-workbook-in-c-and-set-formulas/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

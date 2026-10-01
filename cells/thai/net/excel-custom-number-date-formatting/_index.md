@@ -54,6 +54,10 @@
 เรียนรู้วิธีสร้างไฟล์ Excel พร้อมรูปแบบกำหนดเองโดยใช้ Aspose.Cells สำหรับ .NET ด้วยภาษา C#
 ### [การแยกวันที่ตามยุคญี่ปุ่นใน C# ด้วย Aspose.Cells – คู่มือเต็ม](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 เรียนรู้วิธีแปลงและประมวลผลวันที่ตามระบบยุคญี่ปุ่นใน C# ด้วย Aspose.Cells อย่างละเอียดในคู่มือฉบับเต็ม
+### [วิธีสร้างเวิร์กบุ๊ก Excel ด้วย C# พร้อมการกำหนดรูปแบบตัวเลขแบบกำหนดเอง](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
+เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# และกำหนดรูปแบบตัวเลขตามต้องการด้วย Aspose.Cells
+### [วิธีแปลงวันที่ยุคญี่ปุ่นเป็นวันที่เกรกอเรียนใน C#](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+เรียนรู้วิธีแปลงวันที่ตามระบบยุคญี่ปุ่นเป็นวันที่เกรกอเรียนโดยใช้ Aspose.Cells กับ C# อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -86,4 +90,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

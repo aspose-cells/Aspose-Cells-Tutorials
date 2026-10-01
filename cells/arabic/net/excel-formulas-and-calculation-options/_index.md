@@ -82,10 +82,16 @@
 اكتشف طريقة حساب الدالة القاطعة المثلثية (cot) في Excel باستخدام C# خطوة بخطوة مع Aspose.Cells.
 ### [كيفية توسيع المصفوفة في C# باستخدام Aspose.Cells – دليل خطوة بخطوة](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 تعلم كيفية توسيع المصفوفات في C# باستخدام Aspose.Cells خطوة بخطوة لتسهيل معالجة البيانات في Excel.
-### [كيفية استخدام WRAPCOLS في C# – تحويل المصفوفات إلى مصفوفات ثنائية الأبعاد](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+### [كيفية استخدام WRAPCOLS في C# – تحويل المصفوفات إلى مصفوفات ثنائية الأبعاد](./how-to-use-wrapcols-in-c/)
 تعلم كيفية استخدام الدالة WRAPCOLS في C# لإعادة تشكيل المصفوفات إلى مصفوفات ثنائية الأبعاد بسهولة باستخدام Aspose.Cells.
 ### [كيفية إنشاء مصفوفة في Excel باستخدام C# – دليل خطوة بخطوة](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 تعلم كيفية إنشاء واستخدام مصفوفات في Excel باستخدام C# خطوة بخطوة مع Aspose.Cells لـ .NET.
+### [كيفية إنشاء مصنف Excel باستخدام C# مع صيغة مصفوفة ديناميكية](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
+تعلم كيفية إنشاء مصنف Excel باستخدام C# مع صيغة مصفوفة ديناميكية خطوة بخطوة.
+### [كيفية استخدام WRAPCOLS في C# لمصفوفات Excel وحفظ المصنف](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
+تعلم تطبيق دالة WRAPCOLS في C# لتحويل المصفوفات إلى مصفوفات ثنائية الأبعاد وحفظ المصنف باستخدام Aspose.Cells.
+### [كيفية إنشاء مصنف Excel في C# وتعيين الصيغ](./how-to-create-excel-workbook-in-c-and-set-formulas/)
+تعلم خطوة بخطوة إنشاء مصنف Excel في C# وتعيين الصيغ باستخدام Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

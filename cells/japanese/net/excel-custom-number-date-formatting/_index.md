@@ -52,6 +52,8 @@ Aspose.Cells for .NET を使用して、C# で Excel ワークブックを作成
 Aspose.Cells for .NET を使用し、C# でカスタム書式を設定した Excel ワークブックを作成する方法を学びます。
 ### [C# で和暦日付を解析する – Aspose.Cells 完全ガイド](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Aspose.Cells を利用して C# で和暦日付を正しく解析し、Excel に適用する方法をステップバイステップで解説します。
+### [C# で和暦日付をグレゴリオ暦に変換する方法](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+### [C# でカスタム数値書式を使用した Excel ワークブックの作成](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -83,4 +85,3 @@ Aspose.Cells for .NET を使用して、C# で新しいワークブックを作�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

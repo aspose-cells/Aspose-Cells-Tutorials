@@ -65,7 +65,7 @@
 Узнайте, как исключить неиспользуемые стили при экспорте Excel в HTML с помощью Aspose.Cells для .NET в этом подробном пошаговом руководстве.
 
 ### [Как экспортировать Excel в HTML – пошаговое руководство](./how-to-export-excel-to-html-step-by-step-guide/)
-Узнайте, как экспортировать Excel в HTML с помощью Aspose.Cells для .NET в этом подробном пошаговом руководстве.
+Узнайте, как экспортировать Excel в HTML с помощью Aspose.Cells для .NET в этом подробном руководстве.
 
 ### [Экспорт свойств рабочей книги и листа документа в HTML](./exporting-document-workbook-and-worksheet-properties/)
 Узнайте, как экспортировать свойства документа Excel, рабочей книги и листа в HTML с помощью Aspose.Cells для .NET. Включено простое пошаговое руководство.
@@ -115,6 +115,8 @@
 Узнайте, как сохранить Excel как HTML с замороженными областями, используя Aspose.Cells для .NET в полном руководстве на C#.
 ### [Встраивание шрифтов в HTML – экспорт Excel в HTML с C#](./embed-fonts-in-html-export-excel-to-html-with-c/)
 Узнайте, как встраивать шрифты в HTML при экспорте Excel в HTML с помощью Aspose.Cells для .NET и C#.
+### [Как внедрить шрифты при конвертации Excel в HTML с Aspose.Cells](./how-to-embed-fonts-when-converting-excel-to-html-with-aspose/)
+Узнайте, как программно внедрять шрифты в HTML при конвертации Excel с помощью Aspose.Cells для .NET.
 ### [Конвертировать Excel в HTML на C# – Полное руководство](./convert-excel-to-html-in-c-complete-guide/)
 Узнайте, как полностью конвертировать файлы Excel в HTML с помощью C# и Aspose.Cells для .NET в этом подробном руководстве.
 ### [Как экспортировать Excel в HTML – Полное руководство по программированию](./how-to-export-excel-to-html-complete-programming-guide/)

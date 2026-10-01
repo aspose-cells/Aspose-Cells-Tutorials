@@ -44,6 +44,7 @@
 เรียนรู้วิธีส่งออกแผนภูมิจากเอกสาร Word เป็นรูปภาพหรือ PDF ด้วย C# โดยใช้ Aspose.Words อย่างละเอียด
 ### [วิธีการส่งออกแผนภูมิ – คู่มือ PowerPoint C# แบบครบถ้วน](./how-to-export-charts-complete-powerpoint-c-guide/)
 เรียนรู้วิธีส่งออกแผนภูมิจาก Excel ไปยัง PowerPoint ด้วย C# อย่างละเอียดและครบถ้วนในขั้นตอนเดียว
+### [วิธีเพิ่มแผนภูมิลงใน Word ด้วย Aspose – ฝังแผนภูมิ Excel](./how-to-add-chart-to-word-with-aspose-embed-excel-chart/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

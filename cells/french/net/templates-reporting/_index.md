@@ -51,12 +51,21 @@ Apprenez à maîtriser l'intégration de données avec les marqueurs intelligent
 
 ### [Créer un classeur à partir d'un modèle en C# – Guide étape par étape](./create-workbook-from-template-in-c-step-by-step-guide/)
 Apprenez à générer un classeur Excel à partir d'un modèle en C# avec Aspose.Cells, étape par étape.
+
 ### [Créer un rapport Excel en C# – Guide étape par étape](./create-excel-report-in-c-step-by-step-guide/)
 Apprenez à créer un rapport Excel en C# avec Aspose.Cells, étape par étape, de l'initialisation du classeur à la génération du fichier.
+
 ### [Créer un classeur Excel à partir d'un modèle – Guide étape par étape pour les développeurs .NET](./create-excel-from-template-step-by-step-guide-for-net-develo/)
 Apprenez à générer un classeur Excel à partir d'un modèle en suivant un guide détaillé pour les développeurs .NET.
+
 ### [Créer un Excel à partir d'un modèle – Ajouter des données, une image, enregistrer en XLSX](./create-excel-from-template-add-data-image-save-xlsx/)
 Apprenez à générer un classeur Excel à partir d'un modèle, insérer des données et des images, puis enregistrer le fichier au format XLSX.
+
+### [Convertir un jeu de données en Excel et remplir un modèle Excel](./convert-dataset-to-excel-and-populate-an-excel-template/)
+Apprenez à convertir un jeu de données en fichier Excel et à le remplir à l'aide d'un modèle Excel avec Aspose.Cells pour .NET.
+
+### [Comment créer un Excel à partir d'un modèle et générer des feuilles répétées](./how-to-create-excel-from-template-and-generate-repeated-shee)
+Apprenez à créer un classeur Excel à partir d'un modèle et à générer automatiquement des feuilles répétées.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

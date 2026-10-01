@@ -51,14 +51,24 @@ Học cách làm chủ tích hợp dữ liệu bằng Aspose.Cells .NET Smart Ma
 
 ### [Liên kết dữ liệu mẫu trong Excel: Điền dữ liệu vào mẫu bằng C#](./template-data-binding-in-excel-populate-templates-with-c/)
 Hướng dẫn cách sử dụng Aspose.Cells để liên kết dữ liệu với các mẫu Excel và tự động điền nội dung bằng C#.
+
 ### [Tạo sổ làm việc từ mẫu trong C# – Hướng dẫn từng bước](./create-workbook-from-template-in-c-step-by-step-guide/)
 Hướng dẫn chi tiết cách tạo sổ làm việc Excel từ mẫu bằng C# sử dụng Aspose.Cells, bao gồm các bước thiết lập, liên kết dữ liệu và lưu file.
+
 ### [Lưu sổ làm việc Excel từ JSON – Hướng dẫn đầy đủ](./save-excel-workbook-from-json-complete-guide/)
 Hướng dẫn chi tiết cách lưu sổ làm việc Excel từ dữ liệu JSON bằng Aspose.Cells cho .NET.
+
 ### [Tạo báo cáo Excel bằng C# – Hướng dẫn từng bước](./create-excel-report-in-c-step-by-step-guide/)
 Tìm hiểu cách tạo báo cáo Excel bằng C# với Aspose.Cells, bao gồm các bước chi tiết từ khởi tạo đến lưu file.
+
 ### [Tạo Excel từ mẫu – Hướng dẫn từng bước cho nhà phát triển .NET](./create-excel-from-template-step-by-step-guide-for-net-develo/)
 Hướng dẫn chi tiết cách tạo tệp Excel từ mẫu sử dụng Aspose.Cells cho .NET, phù hợp cho các nhà phát triển.
+
+### [Chuyển đổi bộ dữ liệu sang Excel và điền vào mẫu Excel](./convert-dataset-to-excel-and-populate-an-excel-template/)
+Hướng dẫn cách chuyển dữ liệu từ bộ dữ liệu sang tệp Excel và tự động điền nội dung vào mẫu Excel bằng Aspose.Cells cho .NET.
+
+### [Cách tạo Excel từ mẫu và tạo các sheet lặp lại](./how-to-create-excel-from-template-and-generate-repeated-shee)
+Hướng dẫn tạo tệp Excel từ mẫu và tự động tạo các sheet lặp lại.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

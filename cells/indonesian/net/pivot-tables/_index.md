@@ -21,6 +21,8 @@ Dengan menggunakan Aspose.Cells for .NET, Anda dapat sepenuhnya menyesuaikan tab
 
 {{< tutorial-card link="./pivot-table-save-in-ods/" title="Simpan Tabel Pivot sebagai ODS di Aspose.Cells" imgSrc="./pivot-table-save-in-ods/images/thumb.png" >}}
 
+{{< tutorial-card link="./copy-pivot-table-between-worksheets-in-c-step-by-step-guide/" title="Salin tabel pivot antar lembar kerja di C# – panduan langkah demi langkah" imgSrc="./copy-pivot-table-between-worksheets-in-c-step-by-step-guide/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

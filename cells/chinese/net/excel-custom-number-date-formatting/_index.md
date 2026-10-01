@@ -39,6 +39,9 @@
 ### [在 C# 中创建 Excel 工作簿 – 应用自定义数字格式](./create-excel-workbook-in-c-apply-custom-number-format/)
 本教程演示如何使用 Aspose.Cells for .NET 在 C# 中创建工作簿并应用自定义数字格式，以满足特定显示需求。
 
+### [如何在 C# 中创建 Excel 工作簿并使用自定义数字格式](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
+通过本教程学习如何在 C# 使用 Aspose.Cells 创建 Excel 工作簿并应用自定义数字格式。
+
 ### [使用 C# 解析 Excel 日期 – 完整指南](./how-to-parse-date-in-excel-with-c-complete-guide/)
 本教程详细讲解如何在 C# 中使用 Aspose.Cells 解析 Excel 中的日期，并处理常见格式问题。
 
@@ -46,7 +49,7 @@
 通过本完整指南学习如何在 C# 中使用 Aspose.Cells 为数字添加分隔符。
 
 ### [从 Excel 格式化 ISO 日期 – 完整 C# 指南](./format-date-iso-from-excel-complete-c-guide/)
-通过本完整指南学习如何在 C# 中使用 Aspose.Cells 将 Excel 日期转换为 ISO 格式。
+通过本完整指南学习如何在 C# 使用 Aspose.Cells 将 Excel 日期转换为 ISO 格式。
 
 ### [C# 中的 Excel 自定义数字格式 – 完整指南](./custom-number-format-excel-in-c-complete-guide/)
 通过本完整指南学习如何在 C# 使用 Aspose.Cells 实现 Excel 自定义数字格式。
@@ -58,6 +61,8 @@
 通过本实用教程学习如何使用 Aspose.Cells for .NET 在 C# 中创建带自定义格式的 Excel 工作簿。
 ### [使用 Aspose.Cells 解析日语纪元日期（C#） – 完整指南](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 本完整指南教您在 C# 中使用 Aspose.Cells 解析和处理日本纪元日期，涵盖示例代码和注意事项。
+### [如何在 C# 中将日本纪元日期转换为公历](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+本教程展示如何使用 Aspose.Cells for .NET 在 C# 中将日本纪元日期转换为公历日期。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -90,4 +95,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

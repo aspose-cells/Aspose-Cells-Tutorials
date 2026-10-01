@@ -40,6 +40,8 @@
 เรียนรู้วิธีบันทึก Pivot Table เป็นรูปภาพใน .NET ด้วย Aspose.Cells ผ่านขั้นตอนง่าย ๆ เพื่อการนำเสนอข้อมูลที่ชัดเจน
 ### [ส่งออกช่วง Excel เป็นรูปภาพ – คู่มือ C# ฉบับสมบูรณ์](./export-excel-range-as-image-complete-c-guide/)
 เรียนรู้วิธีส่งออกช่วงของ Excel เป็นรูปภาพใน .NET ด้วย Aspose.Cells ด้วยคำแนะนำทีละขั้นตอน
+### [วิธีส่งออก Pivot Table เป็นรูปภาพ – คู่มือทีละขั้นตอน](./how-to-export-pivot-tables-as-images-using-aspose-cells-in-c/)
+เรียนรู้วิธีส่งออก Pivot Table เป็นรูปภาพใน C# ด้วย Aspose.Cells ผ่านขั้นตอนง่าย ๆ เพื่อการนำเสนอข้อมูลที่ชัดเจน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

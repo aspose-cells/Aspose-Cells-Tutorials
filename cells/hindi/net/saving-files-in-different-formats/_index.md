@@ -75,6 +75,9 @@
 ### [XLSX फ़ाइल सहेजें](./save-xlsx-file/)
 इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके XLSX फ़ाइलों को सहेजने का तरीका जानें। अपने Excel प्रबंधन को सहजता से सुव्यवस्थित करें।
 
+### [Aspose.Cells के साथ C# में फ्लैट OPC ट्यूटोरियल कैसे पूरा करें](./how-to-complete-a-flat-opc-tutorial-with-aspose-cells-in-c/)
+C# में Aspose.Cells का उपयोग करके फ्लैट OPC ट्यूटोरियल को चरण-दर-चरण पूरा करने का तरीका सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

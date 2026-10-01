@@ -48,12 +48,16 @@ Hướng dẫn chi tiết cách áp dụng định dạng số tùy chỉnh khi 
 Hướng dẫn chi tiết cách ghi giá trị ngày và giờ vào tệp Excel bằng Aspose.Cells cho C#.
 ### [Tạo Workbook Excel trong C# – Áp dụng Định dạng Số Tùy chỉnh](./create-excel-workbook-in-c-apply-custom-number-format/)
 Tìm hiểu cách tạo workbook Excel trong C# và áp dụng định dạng số tùy chỉnh bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
+### [Cách tạo workbook Excel C# với định dạng số tùy chỉnh](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
+Hướng dẫn chi tiết cách tạo workbook Excel trong C# và áp dụng định dạng số tùy chỉnh bằng Aspose.Cells.
 ### [Cách phân tích ngày trong Excel với C# – Hướng dẫn đầy đủ](./how-to-parse-date-in-excel-with-c-complete-guide/)
 Tìm hiểu cách phân tích ngày trong Excel bằng C# và Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
 ### [Tạo workbook Excel với định dạng tùy chỉnh – Hướng dẫn C#](./create-excel-workbook-with-custom-format-c-guide/)
 Hướng dẫn chi tiết cách tạo workbook Excel với định dạng tùy chỉnh bằng C# và Aspose.Cells.
 ### [Phân tích ngày Niên đại Nhật Bản trong C# với Aspose.Cells – Hướng dẫn đầy đủ](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Hướng dẫn chi tiết cách phân tích ngày theo niên đại Nhật Bản trong C# bằng Aspose.Cells, bao gồm các ví dụ thực tế.
+### [Cách chuyển đổi ngày theo niên đại Nhật Bản sang Dương lịch trong C#](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+Hướng dẫn chi tiết cách chuyển đổi ngày theo niên đại Nhật Bản sang Dương lịch trong C# bằng Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -86,4 +90,3 @@ Hướng dẫn cách thiết lập định dạng ngày cho ô Excel trong C# b�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

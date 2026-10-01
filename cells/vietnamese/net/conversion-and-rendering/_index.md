@@ -27,6 +27,9 @@ Một trong những tính năng nổi bật mà bạn sẽ gặp là hướng d�
 
 Tiếp theo, có hướng dẫn về Chuyển đổi bảng tính sang SVG trong .NET. Nếu bạn từng mong muốn có một cách để làm cho dữ liệu Excel của mình hấp dẫn về mặt hình ảnh và thân thiện với web, SVG chính là câu trả lời dành cho bạn! Định dạng vector này đảm bảo rằng biểu đồ và đồ thị của bạn vẫn giữ được chất lượng bất kể kích thước màn hình. Và với Aspose.Cells, mọi thứ trở nên đơn giản. Hướng dẫn này giúp bạn thực hiện toàn bộ quy trình, giúp bạn dễ dàng tiếp cận ngay cả với những người không quen thuộc với các khía cạnh kỹ thuật của SVG. Bạn muốn tìm hiểu cách cải thiện bản trình bày trên web của mình? Hãy xem hướng dẫn đầy đủ [đây](./converting-worksheet-to-svg/).
 
+### [Cách chuyển đổi Excel sang SVG với Aspose.Cells – hướng dẫn chi tiết](./how-to-convert-excel-to-svg-with-aspose-cells-step-by-step-g/)
+Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang định dạng SVG bằng Aspose.Cells trong .NET.
+
 ## Chuyển đổi Excel sang MHTML trong .NET
 
 Cuối cùng, chúng ta không thể quên hướng dẫn Chuyển đổi Excel sang MHTML trong .NET. MHTML hoàn hảo để nắm bắt bản chất của bảng tính cùng với định dạng của chúng, cho phép bạn chia sẻ các báo cáo hoàn chỉnh. Hướng dẫn này sẽ giúp bạn tăng cường khả năng báo cáo, giúp việc cộng tác trở nên liền mạch và hiệu quả. Đây là tài liệu phải đọc đối với bất kỳ ai nghiêm túc về việc chia sẻ dữ liệu! Hãy khám phá hướng dẫn hữu ích này [đây](./converting-excel-to-mhtml/).
@@ -77,4 +80,3 @@ Hướng dẫn chi tiết cách chuyển đổi nội dung markdown thành tệp
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

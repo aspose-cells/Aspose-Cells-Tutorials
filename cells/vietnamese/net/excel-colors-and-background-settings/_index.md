@@ -38,6 +38,8 @@ Hướng dẫn chi tiết cách áp dụng màu nền xen kẽ cho các hàng tr
 Hướng dẫn cách áp dụng màu nền xen kẽ cho các dòng trong bảng tính Excel bằng Aspose.Cells cho .NET và C#.
 ### [Cài đặt nền cột trong Excel bằng C# – Hướng dẫn toàn diện](./set-column-background-in-excel-with-c-complete-guide/)
 Hướng dẫn chi tiết cách đặt màu nền cho cột trong Excel bằng C# sử dụng Aspose.Cells cho .NET.
+### [Cách thêm màu nền xen kẽ cho các cột trong Excel bằng C#](./how-to-add-alternating-column-colors-in-excel-using-c/)
+Hướng dẫn chi tiết cách áp dụng màu nền xen kẽ cho các cột trong bảng tính Excel bằng Aspose.Cells cho .NET và C#.
 ### [Màu nền xen kẽ cho các hàng trong bảng tính C# – Hướng dẫn đầy đủ](./alternating-row-colors-in-c-worksheets-complete-guide/)
 Tìm hiểu cách áp dụng màu nền xen kẽ cho các hàng trong bảng tính C# bằng Aspose.Cells cho .NET, cải thiện khả năng đọc và thẩm mỹ.
 

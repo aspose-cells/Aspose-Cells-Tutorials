@@ -59,6 +59,8 @@ Create an Excel table in C# using Aspose.Cells for .NET with this detailed stepâ
 Learn to rename an Excel table using Aspose.Cells for .NET with this comprehensive step-by-step guide.
 ### [Delete rows word table â€“ Complete C# Guide](./delete-rows-word-table-complete-c-guide/)
 Learn how to delete rows from a Word table using Aspose.Words for .NET with a complete C# guide.
+### [How to delete rows from an Excel table and change its name in C#](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
+Learn how to delete rows from an Excel table and rename it using Aspose.Cells for .NET in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

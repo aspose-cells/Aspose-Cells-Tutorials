@@ -58,8 +58,13 @@ Dowiedz się, jak przy użyciu Aspose.Cells dla .NET zapisać skoroszyt Excel be
 Dowiedz się, jak tworzyć pliki Excel z szablonów przy użyciu Aspose.Cells dla .NET, krok po kroku.
 ### [Utwórz plik Excel z szablonu – Dodaj dane, obraz, zapisz jako XLSX](./create-excel-from-template-add-data-image-save-xlsx/)
 Dowiedz się, jak tworzyć plik Excel z szablonu, wstawiać dane i obrazy oraz zapisywać w formacie XLSX.
+### [Jak utworzyć Excel z szablonu i generować powtarzające się arkusze](./how-to-create-excel-from-template-and-generate-repeated-shee/)
+Dowiedz się, jak programowo tworzyć pliki Excel z szablonu i generować powtarzające się arkusze.
 ### [Utwórz szablon skoroszytu z Aspose.Cells – Kompletny przewodnik](./create-workbook-template-with-aspose-cells-complete-guide/)
 Dowiedz się, jak krok po kroku stworzyć szablon skoroszytu w Aspose.Cells, aby automatyzować generowanie raportów Excel.
+
+### [Konwertuj zestaw danych do Excela i wypełnij szablon Excela](./convert-dataset-to-excel-and-populate-an-excel-template)
+Dowiedz się, jak przekształcić zestaw danych w plik Excel i wypełnić szablon Excela przy użyciu Aspose.Cells dla .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
