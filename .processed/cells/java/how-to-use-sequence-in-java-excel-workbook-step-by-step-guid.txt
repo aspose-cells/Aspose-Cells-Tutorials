@@ -1,0 +1,7 @@
+Title: How to Use SEQUENCE in Java Excel Workbook – Step‑by‑Step Guide
+Slug: how-to-use-sequence-in-java-excel-workbook-step-by-step-guid
+Category: formulas-functions
+ProcessedDate: 2026-06-18T09:54:39.753513
+SourceRepo: AI Search API
+Keywords: how to use sequence, save workbook as xlsx, use sequence function, create excel workbook java, set dynamic array formula
+PRNumber: 98

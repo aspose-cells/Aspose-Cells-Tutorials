@@ -1,0 +1,7 @@
+Title: Create flat OPC file with C# – Complete Guide
+Slug: create-flat-opc-file-with-c-complete-guide
+Category: saving-and-exporting-excel-files-with-options
+ProcessedDate: 2026-06-24T15:37:01.178935
+SourceRepo: AI Search API
+Keywords: create flat opc file
+PRNumber: 103

@@ -1,0 +1,7 @@
+Title: Create vertical array Excel with Java – Full Step‑by‑Step Guide
+Slug: create-vertical-array-excel-with-java-full-step-by-step-guid
+Category: spreadsheet-automation
+ProcessedDate: 2026-06-21T12:26:12.147833
+SourceRepo: AI Search API
+Keywords: create vertical array excel, create excel workbook java, insert sequence formula excel, generate number array excel, how to calculate workbook formulas
+PRNumber: 100

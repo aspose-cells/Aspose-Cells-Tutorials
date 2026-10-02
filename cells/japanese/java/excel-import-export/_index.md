@@ -37,10 +37,12 @@ Aspose.Cells for Java を使って、Excel データのエクスポート機能�
 
 ### [CSVエクスポートJavaコード](./csv-export-java-code/)
 Aspose.Cells for Javaを使用してデータをCSV形式にエクスポートする方法を学びましょう。シームレスなCSVエクスポートを実現するソースコード付きのステップバイステップガイドです。
-
+### [JavaでCSVをエクスポートする方法 – 有効数字の設定とエクスポート範囲の指定](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
+Aspose.Cells for Javaを使用して、CSVエクスポート時に有効数字を設定し、エクスポート範囲を指定する方法を解説します。
 ### [Excel から PDF へのエクスポート](./exporting-excel-to-pdf/)
 Aspose.Cells for Javaを使って、ExcelファイルをPDFに簡単にエクスポートする方法を学びましょう。ステップバイステップガイドで手順を分かりやすく解説します。今すぐ変換を始めましょう！
-
+### [ワークブックからPDFを作成する方法 – 完全Javaガイド](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
+Aspose.Cells for Java を使用して、ワークブックをPDFに変換する手順をステップバイステップで解説します。実用的なコード例付き。
 ### [ExcelからXML Javaへのエクスポート](./export-excel-to-xml-java/)
 Aspose.Cells for Javaを使って、JavaでExcelをXMLにエクスポートする方法を学びましょう。ソースコード付きのステップバイステップガイドで、シームレスなデータ変換を実現します。
 

@@ -47,6 +47,11 @@
 Узнайте, как реализовать проверку данных импорта Excel с помощью Aspose.Cells для Java с помощью этого всеобъемлющего пошагового руководства. Обеспечьте точность данных и улучшите пользовательский опыт. 
 ### [Экспорт Excel в HTML Java](./export-excel-to-html-java/)
 Узнайте, как экспортировать Excel в HTML в Java с помощью Aspose.Cells для Java. Следуйте этому пошаговому руководству с исходным кодом, чтобы легко и без усилий преобразовать файлы Excel в HTML.
+### [Как экспортировать CSV с Java – установить значимые цифры и диапазон экспорта в CSV](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
+Узнайте, как экспортировать данные в CSV с помощью Aspose.Cells для Java, задав значимые цифры и диапазон экспорта.
+
+### [Как создать PDF из рабочей книги – Полное руководство Java](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
+Узнайте, как создать PDF из рабочей книги с помощью Aspose.Cells для Java. Пошаговое руководство с примером кода.
 ### [Конвертация XLSX в PPTX – Полное руководство по экспорту редактируемых фигур](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
 Полное руководство по конвертации XLSX в PPTX и экспорту редактируемых фигур с помощью Aspose.Cells для Java.
 ### [Конвертация JSON в XLSX с Aspose.Cells Java – Полное руководство](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)

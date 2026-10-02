@@ -32,116 +32,11 @@ Aprenda a automatizar a criação e o gerenciamento de pastas de trabalho do Exc
 ### [Aspose.Cells Java: Exibir versão e criar pasta de trabalho compartilhada](./aspose-cells-java-display-version-create-shared-workbook/)
 Um tutorial de código para Aspose.Words Java
 
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
 ### [Guia Java Aspose.Cells: Dominando a manipulação de pastas de trabalho do Excel](./aspose-cells-java-excel-manipulation-guide/)
 Aprenda a manipular pastas de trabalho do Excel em Java usando Aspose.Cells. Este guia aborda a inicialização de pastas de trabalho, a adição de planilhas e imagens, a definição de posições de imagens e o salvamento eficiente de arquivos.
 
 ### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
 Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
-Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
-
-### [Criar e salvar pastas de trabalho do Excel usando Aspose.Cells Java](./aspose-cells-java-create-save-excel-workbooks/)
-Aprenda a automatizar a criação e o gerenciamento de pastas de trabalho do Excel usando o Aspose.Cells para Java. Este guia aborda como instanciar, salvar e definir propriedades de configuração de página.
 
 ### [Crie e personalize pastas de trabalho do Excel usando Aspose.Cells Java: um guia passo a passo](./create-customize-excel-workbooks-aspose-cells-java/)
 Aprenda a automatizar a criação e a personalização de pastas de trabalho do Excel com o Aspose.Cells Java. Aumente a produtividade dominando as operações da pasta de trabalho.

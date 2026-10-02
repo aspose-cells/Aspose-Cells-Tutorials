@@ -1,0 +1,7 @@
+Title: Save Excel Workbook from JSON – Complete C# Guide
+Slug: save-excel-workbook-from-json-complete-c-guide
+Category: saving-and-exporting-excel-files-with-options
+ProcessedDate: 2026-06-18T07:28:56.782910
+SourceRepo: AI Search API
+Keywords: save excel workbook, convert json to excel, import json array excel, load json string excel, process json csharp
+PRNumber: 97

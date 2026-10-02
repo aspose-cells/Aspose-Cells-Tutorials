@@ -31,6 +31,9 @@ Möchten Sie weitere Beispiele entdecken? Tauchen Sie ein in die [Anwenden der b
 ### [Anwenden der bedingten Formatierung zur Laufzeit in Excel](./applying-conditional-formatting-at-runtime/)
 Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET zur Laufzeit in Excel bedingte Formatierung anwenden.
 
+### [Excel-Arbeitsmappe erstellen C# – Schritt‑für‑Schritt‑Anleitung mit bedingter Formatierung](./create-excel-workbook-c-step-by-step-guide-with-conditional/)
+Erfahren Sie, wie Sie mit C# und Aspose.Cells eine Excel-Arbeitsmappe erstellen und bedingte Formatierung hinzufügen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

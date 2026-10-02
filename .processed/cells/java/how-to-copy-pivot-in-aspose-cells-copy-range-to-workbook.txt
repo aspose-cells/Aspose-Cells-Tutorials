@@ -1,0 +1,7 @@
+Title: How to copy pivot in Aspose.Cells – copy range to workbook
+Slug: how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook
+Category: excel-pivot-tables
+ProcessedDate: 2026-08-08T07:14:30.149490
+SourceRepo: AI Search API
+Keywords: how to copy pivot, copy range to workbook, aspose.cells copy range
+PRNumber: 137

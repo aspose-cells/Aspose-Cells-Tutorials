@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Intelligens jelölők az Aspose.Cells-ben dinamikus adatokhoz
@@ -56,6 +54,8 @@ Gyakran dolgozik változó mennyiségű adattal? A Smart Markers változó tömb
 Az általános listák rugalmassága lehetővé teszi a fejlesztők számára, hogy strukturált módon kezeljék az adatokat a teljesítmény feláldozása nélkül. Ebben az oktatóanyagban megtanulod, hogyan használhatod ki az általános listákat intelligens jelölőkkel robusztus, dinamikus Excel-jelentések létrehozásához. Ez a megközelítés biztosítja, hogy könnyedén kezelhesd az adatgyűjteményeket, miközben megőrzöd az erős típusbiztonságot és teljesítményt az alkalmazásaidban. Kövesd a cikket, hogy megtudd, hogyan segíthet ez a jelentéskészítésben. [További információ](./generic-list-smart-markers/)
 
 ## Intelligens jelölők az Aspose.Cells-ben dinamikus adatokhoz - Oktatóanyagok
+### [Mengaktifkan Opsi Nested Range di Aspose.Cells SmartMarker](./enable-nested-range-option-in-aspose-cells-smartmarker/)
+
 ### [Egyéni címkék hozzáadása intelligens jelölőkkel az Aspose.Cells-ben](./add-custom-labels-smart-markers/)
 Használd ki az Aspose.Cells for .NET erejét, hogy egyéni címkéket és intelligens jelölőket adhass Excel-dokumentumaidhoz. Kövesd ezt a lépésről lépésre szóló útmutatót, és készíts dinamikus, vizuálisan vonzó jelentéseket.
 ### [Adatok automatikus kitöltése a munkalapok között az Aspose.Cells-ben](./auto-populate-data-smart-markers/)
@@ -77,18 +77,94 @@ Fedezd fel az Aspose.Cells for .NET erejét, és tudd meg, hogyan alkalmazhatsz 
 ### [Képletparaméter használata az Aspose.Cells intelligens jelölőmezőben](./formula-parameter-smart-marker/)
 Tanuld meg a képletparaméterek használatát az intelligens jelölőkben az Aspose.Cells for .NET segítségével. Hozz létre dinamikus táblázatokat könnyedén.
 ### [Általános lista használata az intelligens markerekben az Aspose.Cells függvényben](./generic-list-smart-markers/)
-Sajátítsa el az Aspose.Cells for .NET-et általános listákkal és intelligens jelölőkkel, hogy könnyedén készíthessen dinamikus Excel-jelentéseket. Könnyen használható útmutató fejlesztőknek.
+Sajátítsa el az Aspose.Cells for .NET-et általános listákkal és intelligens jelölőkkel, hogy könnyen készíthessen dinamikus Excel-jelentéseket. Könnyen használható útmutató fejlesztőknek.
 ### [HTML tulajdonságok használata intelligens jelölőkben Aspose.Cells .NET](./html-property-smart-markers/)
 Engedd szabadjára az Aspose.Cells erejét ezzel a lépésről lépésre haladó oktatóanyaggal, amely bemutatja a HTML tulajdonság használatát az intelligens jelölőkben .NET alkalmazásokhoz.
 ### [Beágyazott objektumok kezelése intelligens jelölőkkel Aspose.Cells](./nested-objects-smart-markers/)
 Az Aspose.Cells segítségével lépésről lépésre haladva könnyedén kezelheted a beágyazott objektumokat intelligens jelölők segítségével, így az Excel-jelentéskészítésben rejlő lehetőségeket is kihasználhatod.
 ### [Változó tömb implementálása intelligens jelölőkkel Aspose.Cells](./variable-array-smart-markers/)
 Engedd szabadjára az Aspose.Cells erejét. Tanuld meg, hogyan valósíthatsz meg változó tömböket intelligens jelölőkkel lépésről lépésre a zökkenőmentes Excel-jelentéskészítéshez.
+### [Membuat Workbook Excel C# – Panduan Lengkap Menyisipkan Array ke Sel](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+Pelajari cara membuat workbook Excel dengan C# dan menyisipkan array ke dalam sel secara lengkap.
+
+### [Penggabungan data Excel di C# – Panduan Lengkap Smart Marker](./excel-data-merging-in-c-complete-smart-marker-guide/)
+Pelajari cara menggabungkan data Excel di C# dengan panduan lengkap Smart Marker.
+
+### [Buat Template Excel dengan Smart Markers di C# – Panduan Lengkap](./create-excel-template-with-smart-markers-in-c-complete-guide/)
+Pelajari cara membuat template Excel menggunakan Smart Markers di C# dengan langkah-langkah lengkap untuk laporan dinamis.
+
+### [Cara Mengganti Variabel dalam JSON dengan SmartMarker – Panduan Lengkap](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+Pelajari cara mengganti variabel dalam JSON menggunakan SmartMarker secara lengkap.
+
+### [Buat Lembar Kerja Dinamis dengan Smart Markers di Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
+Pelajari cara membuat lembar kerja dinamis menggunakan Smart Markers di Aspose.Cells untuk .NET, memungkinkan pembuatan laporan Excel yang fleksibel dan otomatis.
+
+### [Cara Menulis Template dengan Smart Markers – Panduan Langkah‑per‑Langkah](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+Pelajari cara membuat template Excel menggunakan Smart Markers secara detail dengan panduan langkah demi langkah.
+
+### [Cara Membuat Laporan Excel di C# – Panduan Lengkap Menggunakan SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+### [Cara Memuat Template dan Membuat Laporan Excel dengan SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
+Pelajari cara memuat templat Excel dan menghasilkan laporan dinamis menggunakan SmartMarker di Aspose.Cells for .NET.
+### [Ekspor data ke Excel dengan Smart Marker – Panduan Lengkap C#](./export-data-to-excel-with-smart-marker-full-c-guide/)
+Pelajari cara mengekspor data ke file Excel menggunakan Smart Marker dengan contoh lengkap dalam C#.
+### [Isi Template Excel – Mengisi Data Excel melalui SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
+
+
+
+
+
+
+
+
+### [Membuat koleksi smart marker – Panduan lengkap C#](./create-smart-marker-collection-complete-c-guide/)
+Pelajari cara membuat koleksi smart marker secara menyeluruh menggunakan C# dengan Aspose.Cells untuk laporan Excel dinamis.
+
+### [Cara Membuat Workbook dengan Smart Markers – Panduan Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+
+### [Penamaan Otomatis Lembar Excel – Cara Mudah Membuat Lembar](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+Pelajari cara secara otomatis memberi nama lembar kerja Excel dengan mudah menggunakan Aspose.Cells, mempercepat pembuatan laporan dinamis.
+
+### [Buat Koleksi Smart Marker di C# – Panduan Lengkap](./create-smart-marker-collection-in-c-complete-guide/)
+Pelajari cara membuat koleksi smart marker secara lengkap menggunakan C# dengan Aspose.Cells untuk laporan Excel dinamis.
+### [Cara Mengekspor Excel – Panduan Lengkap untuk Pengembang C#](./how-to-export-excel-complete-guide-for-c-developers/)
+Panduan lengkap untuk mengembangkan aplikasi C# yang mengekspor data ke file Excel menggunakan Aspose.Cells.
+### [Ulangi data di Excel – Isi templat dengan SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+### [Ekspor Data ke Excel: Isi Template dari Array di C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+### [Cara Menamai Sheet Secara Otomatis – Menghasilkan Banyak Sheet di C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+Pelajari cara memberi nama sheet secara otomatis dan menghasilkan banyak sheet dalam file Excel menggunakan C# dengan Aspose.Cells.
+### [Buat Objek Data Master – Panduan Langkah-demi-Langkah untuk Menghasilkan Lembar Detail](./create-master-data-object-step-by-step-guide-to-generate-det/)
+Pelajari cara membuat objek data master dan menghasilkan lembar detail secara otomatis dengan Aspose.Cells.
+### [Otomatisasi Pembuatan Faktur – Penamaan Dinamis Lembar Kerja & Pengulangan di C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+Pelajari cara mengotomatisasi pembuatan faktur dengan penamaan lembar kerja dinamis dan pengulangan data menggunakan Aspose.Cells di C#.
+### [Buat Template Diskon di C# – Panduan Langkah demi Langkah](./create-discount-template-in-c-step-by-step-guide/)
+### [Cara Membuat Hierarki dengan SmartMarker – Panduan Langkah demi Langkah](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+Pelajari cara membangun struktur hierarki dalam Excel menggunakan SmartMarker dengan contoh langkah demi langkah.
+### [Mengurai JSON Bersarang C# – Membuat Payload JSON C#](./parse-nested-json-c-create-json-payload-c/)
+Pelajari cara mengurai JSON bersarang dan membuat payload JSON menggunakan C# dengan Aspose.Cells.
+### [Cara Membuat Workbook dengan Smart Markers – Output Tinggi Rendah](./how-to-create-workbook-with-smart-markers-output-high-low/)
+Pelajari cara membuat workbook menggunakan Smart Markers untuk menghasilkan nilai tinggi dan rendah secara dinamis.
+### [Buat laporan master-detail di C# – Isi templat Excel dengan SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
+
+### [Buat Tabel Excel Dinamis – Panduan Smart Marker](./create-dynamic-excel-table-smart-marker-guide/)
+Pelajari cara membuat tabel Excel dinamis menggunakan Smart Markers di Aspose.Cells untuk .NET, langkah demi langkah.
+
+### [Cara Menggunakan Penanda di Aspose.Cells untuk Penamaan Lembar Dinamis di Excel](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
+
+### [Buat Nilai Sel Bersyarat dengan Aspose.Cells Smart Marker](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+Pelajari cara menetapkan nilai sel secara bersyarat menggunakan Smart Marker di Aspose.Cells untuk .NET.
+
+### [Membuat Workbook dari XLSX dengan Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+Pelajari cara membuat workbook baru dari file XLSX menggunakan SmartMarkerProcessor di Aspose.Cells.
+
+### [Cara Menautkan Sheet di Excel dengan SmartMarker – Panduan Langkah demi Langkah](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
+Pelajari cara menghubungkan sheet di Excel menggunakan SmartMarker secara mudah dengan contoh langkah demi langkah.
+
+### [Konversi JSON ke Excel dengan C# – Panduan Langkah demi Langkah](./convert-json-to-excel-with-c-step-by-step-guide/)
+Pelajari cara mengubah data JSON menjadi file Excel menggunakan C# dengan contoh kode lengkap dan penjelasan detail.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

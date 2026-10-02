@@ -152,6 +152,9 @@ Lär dig hur du ställer in färger på kalkylbladsflikar i Excel med Aspose.Cel
 ### [Så här delar du upp kalkylbladsrutor i Excel med hjälp av Aspose.Cells .NET för förbättrad dataanalys](./split-worksheet-panes-excel-aspose-cells-dotnet)
 Lär dig hur du använder Aspose.Cells för .NET för att dela upp kalkylbladsrutor i Excel, vilket förbättrar datanavigering och analyseffektivitet för bättre visualisering av stora datamängder.
 
+### [Hur du använder SmartMarkerProcessor – Byt namn på ett befintligt blad i Excel](./how-to-use-smartmarkerprocessor-rename-existing-sheet-in-exc/)
+Lär dig hur du med SmartMarkerProcessor byter namn på ett befintligt kalkylblad i en Excel-fil med Aspose.Cells för .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

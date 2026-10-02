@@ -47,7 +47,8 @@
 ### [إزالة عناصر تحكم ActiveX من Excel باستخدام Aspose.Cells Java](./remove-activex-controls-excel-aspose-cells-java/)
 برنامج تعليمي لبرمجة Aspose.Words في Java
 
-
+### [كيفية تضمين الخطوط – دليل شامل لتصدير HTML و XPS و OLE](./how-to-embed-fonts-complete-guide-for-html-xps-and-ole-expor/)
+تعرف على طريقة تضمين الخطوط في ملفات HTML و XPS و OLE باستخدام Aspose.Cells لـ Java لضمان عرض صحيح للوثائق.
 
 ## موارد إضافية
 

@@ -1,0 +1,7 @@
+Title: Create Multiple Sheets in Excel with Java – Complete Template‑Based Guide
+Slug: create-multiple-sheets-in-excel-with-java-complete-template
+Category: worksheet-management
+ProcessedDate: 2026-06-21T12:26:27.697453
+SourceRepo: AI Search API
+Keywords: create multiple sheets, export data to sheets, template based excel, save workbook xlsx, insert index worksheet
+PRNumber: 100

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Seçeneklerle Excel Dosyalarını Kaydetme ve Dışa Aktarma
@@ -44,11 +42,24 @@ Aspose.Cells kullanarak Excel dosyalarını .NET'te yüklerken uyarılarla nası
 Aspose.Cells for .NET'i adım adım talimatlarla kullanarak Excel dosyasında sürüm, yazar ve başlık gibi belge özelliklerinin programlı olarak nasıl belirleneceğini öğrenin.
 ### [Dışa Aktarma Sırasında Önde Gelen Boş Satır ve Sütunları Kesme](./trimming-leading-blank-rows-and-columns/)
 Aspose.Cells for .NET ile öndeki boş satırları ve sütunları kırparak CSV dışa aktarımlarınızı kolaylaştırın. Temiz veriler sadece birkaç adım ötede.
+### [C#'ta Çalışma Kitabını Kaydetme – Tam Excel Otomasyon Rehberi](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
+Aspose.Cells for .NET ile C# içinde çalışma kitabını kaydetmeyi adım adım öğrenin.
+### [C#'ta FlatOpcSaveOptions Kullanımı – Tam Kılavuz](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Aspose.Cells for .NET ile FlatOpcSaveOptions ayarlarını C# içinde nasıl kullanacağınızı adım adım öğrenin.
+
+
+
+
+
+
+
+
+### [C#'ta Çalışma Kitabını Kaydetme – Filtreleri Temizleme ve Excel Dışa Aktarma Tam Kılavuzu](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Aspose.Cells for .NET ile C# içinde çalışma kitabını kaydederken filtreleri temizleyip Excel olarak dışa aktarmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

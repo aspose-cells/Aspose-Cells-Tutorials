@@ -35,8 +35,12 @@ Learn how to perform bulk data import from Excel using Aspose.Cells for Java API
 Unlock the potential of Excel data export methods using Aspose.Cells for Java. Learn with practical source code examples in this comprehensive guide. Optimize your data management skills today.
 ### [CSV Export Java Code](./csv-export-java-code/)
 Learn how to export data to CSV format using Aspose.Cells for Java. Step-by-step guide with source code for seamless CSV export.
+### [How to Export CSV with Java – Set Significant Digits & Export Range to CSV](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
+Learn how to export CSV with Aspose.Cells for Java, setting significant digits and specifying export range.
 ### [Exporting Excel to PDF](./exporting-excel-to-pdf/)
 Learn how to export Excel files to PDF effortlessly using Aspose.Cells for Java. Our step-by-step guide simplifies the process. Start converting today!
+### [How to Create PDF from a Workbook – Complete Java Guide](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
+Learn how to generate PDF files from Excel workbooks using Aspose.Cells for Java with a complete step-by-step guide.
 ### [Export Excel to XML Java](./export-excel-to-xml-java/)
 Learn how to export Excel to XML in Java with Aspose.Cells for Java. Step-by-step guide with source code for seamless data conversion.
 ### [Data Import from Excel](./data-import-from-excel/)

@@ -54,6 +54,8 @@ Fedezze fel, hogyan kezelheti a külső erőforrásokat az Excel PDF-be konvert�
 Tanuld meg, hogyan hozhatsz létre PDF könyvjelzőket diagramlapokhoz az Aspose.Cells for .NET programban ezzel az átfogó, lépésről lépésre szóló útmutatóval.
 ### [Cellatartomány exportálása képpé az Aspose.Cells segítségével](./export-range-of-cells-to-image/)
 Ezzel a lépésről lépésre haladó útmutatóval könnyedén exportálhatsz Excel cellatartományokat képekbe az Aspose.Cells for .NET segítségével. Javítsd a jelentéseidet és prezentációidat.
+### [Hogyan exportáljunk pivot táblát PNG formátumba C#‑ban – Lépésről lépésre útmutató](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
+Tanuld meg, hogyan exportálhatod a pivot táblákat PNG képekké C#‑ban az Aspose.Cells for .NET használatával.
 ### [Objektumhatárok rajzolása az Aspose.Cells segítségével](./get-draw-object-and-bound/)
 Fedezze fel, hogyan kinyerheti a rajzolt objektumok határait Excelben az Aspose.Cells for .NET használatával átfogó, lépésről lépésre szóló útmutatónkkal.
 ### [Hibák figyelmen kívül hagyása az Excel PDF-be konvertálása során az Aspose.Cells segítségével](./ignore-errors-while-rendering/)
@@ -62,6 +64,8 @@ Tanuld meg, hogyan hagyd figyelmen kívül a hibákat Excel-fájlok PDF-be konve
 Tanuld meg, hogyan nyomtathatsz üres oldalt az Aspose.Cells for .NET segítségével, így biztosítva, hogy jelentéseid mindig professzionálisan jelenjenek meg, még üresen is.
 ### [Szekvenciális oldalak renderelése az Aspose.Cells-ben](./render-limited-number-of-sequential-pages/)
 Tanuld meg, hogyan jeleníts meg szekvenciális oldalakat Excelben az Aspose.Cells for .NET segítségével. Ez a lépésről lépésre bemutató részletes útmutatást nyújt a kiválasztott oldalak képekké konvertálásához.
+### [Pivot hivatkozási tartomány létrehozása – Pivot tábla kép exportálása PNG-ként](./create-pivot-reference-range-export-pivot-table-image-as-png/)
+Tanuld meg, hogyan hozhatsz létre pivot hivatkozási tartományt, és exportálhatod a pivot táblát PNG képként az Aspose.Cells for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

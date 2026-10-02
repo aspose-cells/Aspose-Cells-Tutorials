@@ -476,9 +476,6 @@ Learn how to programmatically retrieve Excel file versions with Aspose.Cells for
 ### [How to Save Excel Files in Various Formats Using Aspose.Cells Java](./save-excel-files-aspose-cells-java/)
 Learn how to seamlessly save Excel files in multiple formats with Aspose.Cells for Java. This guide covers XLSX, PDF, HTML, and more.
 
-### [How to Set Excel Document Version Using Aspose.Cells for Java](./set-excel-version-aspose-cells-java/)
-Learn how to set and manage document properties like versioning in Excel files using Aspose.Cells for Java. Follow this step-by-step guide for efficient workbook operations.
-
 ### [Save Workbook as XLSX in Java – Complete Programming Guide](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
 Learn how to save an Excel workbook as XLSX using Aspose.Cells for Java with detailed code examples and best practices.
 

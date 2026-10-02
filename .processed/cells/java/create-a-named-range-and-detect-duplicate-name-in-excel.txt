@@ -1,0 +1,7 @@
+Title: Create a named range and detect duplicate name in Excel
+Slug: create-a-named-range-and-detect-duplicate-name-in-excel
+Category: range-management
+ProcessedDate: 2026-09-28T03:34:03.191512
+SourceRepo: AI Search API
+Keywords: create named range, set table name, create excel table, add named range, detect duplicate name
+PRNumber: 172

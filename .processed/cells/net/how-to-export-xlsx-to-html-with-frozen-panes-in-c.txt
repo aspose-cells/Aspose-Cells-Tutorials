@@ -1,0 +1,7 @@
+Title: How to export xlsx to html with frozen panes in C#
+Slug: how-to-export-xlsx-to-html-with-frozen-panes-in-c
+Category: exporting-excel-to-html-with-advanced-options
+ProcessedDate: 2026-09-28T02:40:04.770071
+SourceRepo: AI Search API
+Keywords: export xlsx to html, save excel as html, export excel to html, convert xlsx to html, save workbook as html
+PRNumber: 171

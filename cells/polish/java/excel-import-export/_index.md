@@ -49,6 +49,10 @@ Dowiedz się, jak przekształcić pliki JSON w arkusze XLSX przy użyciu Aspose.
 Dowiedz się, jak wdrożyć walidację importu danych Excela przy użyciu Aspose.Cells for Java dzięki temu kompleksowemu przewodnikowi krok po kroku. Zapewnij dokładność danych i popraw wrażenia użytkownika. 
 ### [Eksportuj Excela do HTML Java](./export-excel-to-html-java/)
 Dowiedz się, jak eksportować Excel do HTML w Javie za pomocą Aspose.Cells for Java. Postępuj zgodnie z tym przewodnikiem krok po kroku z kodem źródłowym, aby bezproblemowo przekonwertować pliki Excel do HTML.
+### [Jak wyeksportować CSV w Javie – Ustaw znaczące cyfry i zakres eksportu do CSV](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
+Dowiedz się, jak wyeksportować dane do CSV w Javie, ustawiając znaczące cyfry i zakres eksportu, korzystając z Aspose.Cells for Java.
+### [Jak utworzyć PDF ze skoroszytu – Kompletny przewodnik Java](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
+Dowiedz się, jak przy użyciu Aspose.Cells for Java utworzyć plik PDF ze skoroszytu Excel w kilku prostych krokach.
 ### [Konwertuj XLSX do PPTX – Kompletny przewodnik po eksporcie edytowalnych kształtów](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
 Dowiedz się, jak konwertować pliki XLSX do PPTX i eksportować edytowalne kształty przy użyciu Aspose.Cells for Java.
 ### [Osadzanie czcionek HTML – Excel do HTML z pełnym osadzaniem czcionek](./embed-fonts-html-excel-to-html-with-full-font-embedding/)

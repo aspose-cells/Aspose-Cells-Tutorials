@@ -1,0 +1,7 @@
+Title: How to Use Expand in Java – Complete Excel Guide
+Slug: how-to-use-expand-in-java-complete-excel-guide
+Category: spreadsheet-automation
+ProcessedDate: 2026-06-21T12:26:29.676287
+SourceRepo: AI Search API
+Keywords: how to use expand, expand array to rows, write excel formula code, save excel file java
+PRNumber: 100

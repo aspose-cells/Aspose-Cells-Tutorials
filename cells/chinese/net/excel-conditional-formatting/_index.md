@@ -31,6 +31,9 @@
 ### [在 Excel 中运行时应用条件格式](./applying-conditional-formatting-at-runtime/)
 通过本全面的分步指南了解如何使用 Aspose.Cells for .NET 在 Excel 运行时应用条件格式。
 
+### [使用 C# 创建 Excel 工作簿 – 带条件格式的分步指南](./create-excel-workbook-c-step-by-step-guide-with-conditional/)
+本指南详细演示如何使用 C# 创建 Excel 工作簿并应用条件格式，实现自动化数据高亮。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

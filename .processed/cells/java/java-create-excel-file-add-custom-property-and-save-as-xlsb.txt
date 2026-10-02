@@ -1,0 +1,7 @@
+Title: Java create excel file, add custom property and save as XLSB
+Slug: java-create-excel-file-add-custom-property-and-save-as-xlsb
+Category: workbook-operations
+ProcessedDate: 2026-08-17T22:55:05.213167
+SourceRepo: AI Search API
+Keywords: java create excel file, add custom property, how to create xlsb, how to add custom property, save workbook as xlsb
+PRNumber: 146

@@ -1,0 +1,7 @@
+Title: Format Date Column Excel – Complete C# Guide to Export DataTable
+Slug: format-date-column-excel-complete-c-guide-to-export-datatabl
+Category: excel-custom-number-date-formatting
+ProcessedDate: 2026-07-14T07:43:12.265804
+SourceRepo: AI Search API
+Keywords: format date column excel, excel export datatable c#, import datatable to excel
+PRNumber: 118

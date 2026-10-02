@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konverzió és renderelés
@@ -38,11 +36,41 @@ Tanuld meg, hogyan konvertálhatsz Excel fájlokat PDF-be zökkenőmentesen hala
 Tanuld meg, hogyan konvertálhatsz egy Excel-munkafüzetet SVG formátumba az Aspose.Cells for .NET segítségével ebből a lépésről lépésre bemutató útmutatóból. Tökéletes .NET-fejlesztők számára, akik Excelből szeretnének SVG formátumot megjeleníteni.
 ### [Excel konvertálása MHTML-re .NET-ben](./converting-excel-to-mhtml/)
 Ismerd meg, hogyan konvertálhatsz hatékonyan Excel fájlokat MHTML formátumba .NET-ben az Aspose.Cells segítségével, amivel fellendítheted a jelentéskészítési és adatmegosztási képességeidet.
+### [Kép létrehozása Excelből – Pivot exportálása PNG-be C#-ban](./create-image-from-excel-export-pivot-to-png-in-c/)
+Tanuld meg, hogyan exportálhatsz pivot táblákat PNG képként C#-ban az Aspose.Cells segítségével.
+### [Hogyan töltsünk be Markdown fájlt és konvertáljuk Excelbe – Lépésről‑lépésre útmutató](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
+Tanuld meg, hogyan olvashatsz be Markdown tartalmat és alakíthatod át Excel táblázattá az Aspose.Cells segítségével .NET-ben.
+### [Hogyan töltsd be a Markdown-t Excelbe – Teljes C# útmutató](./how-to-load-markdown-into-excel-complete-c-guide/)
+Tanuld meg, hogyan konvertálhatod a Markdown tartalmat Excel munkafüzetbe C#-ban az Aspose.Cells segítségével.
+### [docx mentése txt-ként – Word konvertálása txt-be egyszerűen az Aspose.Words segítségével](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+Tanuld meg, hogyan mentheted el a docx fájlokat egyszerű szöveg (txt) formátumba az Aspose.Words .NET könyvtárral.
+### [Excel munkalap PNG-be – Teljes C# útmutató az Excel kép mentéséhez](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+Tanuld meg, hogyan mentheted el Excel munkalapjaidat PNG képként C#-ban az Aspose.Cells segítségével .NET környezetben.
+### [Markdown konvertálása Excelbe C#‑val – Lépésről‑lépésre útmutató](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+Tanuld meg, hogyan alakíthatod át a Markdown fájlokat Excel táblázatokká C# használatával az Aspose.Cells segítségével.
+### [DOCX konvertálása SVG-be – Teljes útmutató a Word SVG-ként mentéséhez](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
+Tanuld meg, hogyan konvertálhatsz DOCX fájlokat SVG formátumba az Aspose.Words segítségével .NET-ben, lépésről lépésre útmutató.
+### [Betűtípusok beágyazása HTML-be – Teljes útmutató .NET fejlesztőknek](./embed-fonts-in-html-complete-guide-for-net-developers/)
+Ismerd meg, hogyan ágyazhatod be a betűtípusokat HTML-fájlokba az Aspose.Cells segítségével .NET környezetben, lépésről lépésre útmutató.
+
+
+
+
+
+
+
+
+### [Excel munkalap PNG-be – Pivot tábla exportálása PNG-ként C#-ban](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
+Tanuld meg, hogyan exportálhatsz Pivot táblákat PNG képként C#-ban az Aspose.Cells for .NET használatával.
+
+### [Új munkafüzet létrehozása C#-ban – Markdown importálása Excelbe](./create-new-workbook-in-c-import-markdown-to-excel/)
+Tanuld meg, hogyan hozhatsz létre új Excel munkafüzetet C#-ban, és importálj Markdown tartalmat Excelbe az Aspose.Cells segítségével.
+### [Markdown konvertálása Excelbe – Teljes C# útmutató](./convert-markdown-to-excel-complete-c-guide/)
+Tanuld meg, hogyan alakíthatod át a Markdown fájlokat Excel táblázatokká C# segítségével az Aspose.Cells használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
