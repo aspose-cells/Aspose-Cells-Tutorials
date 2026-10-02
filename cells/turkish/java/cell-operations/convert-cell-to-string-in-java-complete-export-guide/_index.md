@@ -1,37 +1,41 @@
 ---
 category: general
-date: 2026-06-08
-description: Aspose.Cells kullanarak Java'da hücreyi dizeye dönüştür – hücreyi bilimsel
-  gösterimle dışa aktarmayı, dışa aktarma seçeneklerini ayarlamayı ve Excel çıktısını
-  kontrol etmeyi öğrenin.
+date: 2026-10-02
+description: Aspose.Cells kullanarak Java’da excel sütununu string’e dönüştürmeyi,
+  excel hücresini metin olarak export etmeyi, scientific notation kontrol etmeyi ve
+  precise Excel output için export seçeneklerini özelleştirmeyi öğrenin.
 draft: false
 keywords:
-- convert cell to string
-- how to export cell
-- how to set export
-- export excel scientific notation
-- export excel cell string
-language: tr
-og_description: Java'da Aspose.Cells ile hücreyi string'e dönüştürün. Bu kılavuz,
-  hücreyi dışa aktarmayı, dışa aktarma seçeneklerini ayarlamayı ve Excel dosyaları
-  için bilimsel gösterimi kullanmayı gösterir.
-og_title: Java'da Hücreyi String'e Dönüştür – Tam Dışa Aktarım Öğreticisi
+- convert excel column to string
+- export excel cell as text
+- export excel file java
+- export excel with scientific notation
+- convert formula result to string
+lastmod: 2026-10-02
+og_description: Aspose.Cells kullanarak Java’da excel sütununu string’e dönüştürmeyi,
+  excel hücresini metin olarak export etmeyi ve scientific notation uygulayarak accurate
+  Excel outputs elde etmeyi öğrenin.
+og_image_alt: Developer guide showing how to convert an Excel column to a string in
+  Java with Aspose.Cells
+og_title: Java’da excel sütununu string’e dönüştürme – export rehberi
 schemas:
 - author: Aspose
-  dateModified: '2026-06-08'
-  description: Convert cell to string in Java using Aspose.Cells – learn how to export
-    cell with scientific notation, set export options, and control Excel output.
-  headline: Convert Cell to String in Java – Complete Export Guide
+  dateModified: '2026-10-02'
+  description: Convert excel column to string in Java using Aspose.Cells – learn how
+    to export cell with scientific notation, set export options, and control Excel
+    output.
+  headline: Convert excel column to string in Java – complete export guide
   type: TechArticle
-- description: Convert cell to string in Java using Aspose.Cells – learn how to export
-    cell with scientific notation, set export options, and control Excel output.
-  name: Convert Cell to String in Java – Complete Export Guide
+- description: Convert excel column to string in Java using Aspose.Cells – learn how
+    to export cell with scientific notation, set export options, and control Excel
+    output.
+  name: Convert excel column to string in Java – complete export guide
   steps:
   - name: Prerequisites
     text: '- Java 17 or later (the code works with earlier versions, but we recommend
       the newest LTS). - Aspose.Cells for Java library (version 23.10 or newer). -
       A basic Maven or Gradle project setup so you can add the Aspose.Cells dependency.
-      - An Excel file (`source.xlsx`) placed in a folder you can referen'
+      - An Excel file (`source.xlsx`) placed in a folder you can reference.'
   - name: Does this work with older Excel formats (XLS)?
     text: Yes—Aspose.Cells abstracts the file format, so the same code works for `.xls`,
       `.xlsx`, and even `.xlsb`. Just change the file extension in the `save` call.
@@ -49,7 +53,7 @@ tags:
 - Aspose.Cells
 - Excel
 - Export
-title: Java'da Hücreyi String'e Dönüştür – Tam Dışa Aktarma Rehberi
+title: Java’da excel sütununu string’e dönüştürme – export rehberi
 url: /tr/java/cell-operations/convert-cell-to-string-in-java-complete-export-guide/
 ---
 
@@ -57,27 +61,33 @@ url: /tr/java/cell-operations/convert-cell-to-string-in-java-complete-export-gui
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hücreyi Java'da String'e Dönüştür – Tam İhracat Rehberi
+# Java’da Excel sütununu dize dönüştür – dışa aktarma kılavuzu
 
-Java'da Excel dosyalarıyla çalışırken **convert cell to string** yapmanız gerektiğini hiç düşündünüz mü? Bu, özellikle kaynak verilerde göründükleri gibi tam olarak korumak istediğiniz ID'ler veya bilimsel değerler gibi sayılar olduğunda yaygın bir sorun. Bu öğreticide, bir hücrenin değerini string olarak kaydetmeyi zorlayan ve ayrıca **how to export cell** verilerini bilimsel gösterim gibi özel ayarlarla nasıl dışa aktaracağınızı gösteren uygulamalı bir çözüm üzerinden ilerleyeceğiz.
+Java’da Excel dosyalarıyla çalışırken **convert excel column to string** yapmanız gerektiğinde hiç oldu mu? Bu, özellikle kaynak verilerde göründüğü gibi tam olarak korumak istediğiniz ID’ler veya bilimsel değerler gibi sayılar olduğunda yaygın bir sorundur. Bu öğreticide, bir hücrenin değerini dize olarak kaydetmeyi zorlamakla kalmayıp, aynı zamanda **how to export excel cell as text** gösteren, bilimsel gösterim gibi özelleştirilmiş ayarları kullanan bir uygulamalı çözüm üzerinden ilerleyeceğiz.
 
-Eğer **how to set export** parametrelerini merak ettiyseniz veya çıktının düz bir sayı yerine “1.23E+04” gibi görünmesini istiyorsanız, doğru yerdesiniz. Sonunda çalıştırmaya hazır bir Java kod parçacığı, her seçeneğin net açıklamaları ve Excel ihracatlarınızı düzenli tutmak için birkaç uzman ipucu elde edeceksiniz.
+Eğer **how to set export** parametrelerini merak ettiyseniz veya çıktının düz bir sayı yerine “1.23E+04” gibi görünmesini istiyorsanız, doğru yerdesiniz. Sonunda çalıştırmaya hazır bir Java kod parçacığı, her seçeneğin net açıklamaları ve Excel dışa aktarmalarınızı düzenli tutacak birkaç uzman ipucu elde edeceksiniz.
 
-## Neler Başaracaksınız
+## Hızlı cevaplar
+- **What does “convert excel column to string” do?** Çalışma kitabının seçilen hücreleri metin olarak yazmasını zorlar, tam görsel temsili korur.
+- **Which library handles the export?** Aspose.Cells for Java, ince ayar kontrolü için `ExportTableOptions` API’sini sağlar.
+- **Can I keep scientific notation while exporting as text?** Evet—özel bir sayı formatı ayarlayın ve `exportAsString` özelliğini etkinleştirin.
+- **Will formulas be lost?** Hayır, formül çalışma kitabında kalır; yalnızca hesaplanan sonuç metin olarak yazılır.
+- **Is this approach compatible with .xls, .xlsx, and .xlsb?** Kesinlikle, aynı kod üç formatta da çalışır.
 
-- Orijinal tipi ne olursa olsun, herhangi bir çalışma sayfası hücresinin string olarak yazılmasını zorlayın.  
-- Değeri metin olarak tutarken özel bir sayı formatı (bilimsel gösterim) uygulayın.  
-- **export excel cell string** ile normal sayısal dışa aktarma arasındaki farkı anlayın.  
-- Kendi projenize ekleyebileceğiniz tam, çalıştırılabilir bir örnekle ilerleyin.
+## convert excel column to string nedir?
+*convert excel column to string* işlemi, Aspose.Cells’in kaydetme sürecinde hücrenin temel değerini bir metin dizesi olarak ele almasını söyler; böylece sayılar, tarih veya bilimsel değerler Excel tarafından yeniden yorumlanmaz. Pratikte bu, dışa aktarma sırasında hücrenin veri tipinin TEXT olarak değiştirildiği anlamına gelir, böylece Excel daha fazla sayısal ayrıştırma veya yuvarlama yapmaz.
 
-### Önkoşullar
+## Bu görev için Aspose.Cells neden kullanılmalı?
+Aspose.Cells **50+ giriş ve çıkış formatını** destekler—XLS, XLSX, XLSB, CSV ve HTML dahil—ve tüm dosyayı belleğe yüklemeden çok sayfalı çalışma kitaplarını işleyebilir, bu da size hız ve ölçeklenebilirlik sağlar. Ayrıca stil, formül ve grafik işleme için zengin bir API sunar, bu da karmaşık raporlama hatları için tek duraklı bir çözüm olur.
 
-- Java 17 veya daha yenisi (kod daha eski sürümlerde de çalışır, ancak en yeni LTS sürümünü öneririz).  
-- Aspose.Cells for Java kütüphanesi (versiyon 23.10 veya daha yenisi).  
-- Aspose.Cells bağımlılığını ekleyebileceğiniz temel bir Maven veya Gradle proje ayarı.  
-- Kodunuzdan referans alabileceğiniz bir klasöre yerleştirilmiş bir Excel dosyası (`source.xlsx`).
+## Önkoşullar
 
-> **Pro ipucu:** Maven kullanıyorsanız, bağımlılığı şu şekilde ekleyin:
+- Java 17 veya üzeri (kod daha eski sürümlerle de çalışabilir, ancak en yeni LTS önerilir).  
+- Aspose.Cells for Java kütüphanesi (versiyon 23.10 veya daha yeni).  
+- Maven veya Gradle tabanlı temel bir proje kurulumu, böylece Aspose.Cells bağımlılığını ekleyebilirsiniz.  
+- Kodunuzdan referans verebileceğiniz bir klasöre yerleştirilmiş bir Excel dosyası (`source.xlsx`).
+
+> **Pro tip:** Maven kullanıyorsanız, bağımlılığı şu şekilde ekleyin:
 
 ```xml
 <dependency>
@@ -88,13 +98,12 @@ Eğer **how to set export** parametrelerini merak ettiyseniz veya çıktının d
 </dependency>
 ```
 
-Şimdi “Ne” ve “Neden” konularını ele aldığımıza göre, **how**‑a—adım adım—dalalım.
+## Java’da bir hücreyi dizeye nasıl dönüştürürsünüz?
 
----
+Çalışma kitabını yükleyin, hedef hücreyi seçin, `ExportTableOptions` uygulayın ve kaydedin. Bu dört adımlı desen, hücreyi biçimlendirmeyi koruyarak dizeye dönüştürmenin standart yoludur. Yaklaşım, hücrenin bir sayı, tarih veya formül içerip içermediğine bakılmaksızın çalışır ve çeşitli elektronik tablolar arasında tutarlı bir çıktı sağlar.
 
-## Hücreyi String'e Dönüştür ve İhracat Seçeneklerini Kullan
-
-İlk yapmamız gereken, dönüştürmek istediğimiz hücreyi içeren çalışma kitabını (workbook) yüklemektir. Bu adım basit ama çok önemlidir; geçerli bir `Workbook` nesnesi olmadan, ihracat mantığının hiçbiri çalışmaz.
+### Adım 1: çalışma kitabını yükle
+`Workbook` sınıfı, Aspose.Cells’in bellek içindeki tüm Excel dosyasını temsil eden üst‑seviye nesnesidir.  
 
 ```java
 // Step 1: Load the source workbook
@@ -106,11 +115,10 @@ if (workbook.getWorksheets().getCount() == 0) {
 }
 ```
 
-*Why this matters:* Çalışma kitabını yüklemek, iç hücre modeline erişim sağlar. Aspose.Cells, her hücreyi bir değer, bir stil ve—bizim için kritik olan—ihracat seçenekleri tutabilen bir nesne olarak ele alır. Çalışma kitabının boş olmadığını garantileyerek, ileride sessiz bir hatayı önlemiş oluruz.
+*Why this matters:* Çalışma kitabını yüklemek, her çalışma sayfasına, satıra ve hücreye erişim sağlar, böylece dışa aktarma kontrolünü hassas bir şekilde yönetebilirsiniz.
 
-## Hücreyi Özel Ayarlarla Nasıl Dışa Aktarılır
-
-Sonra dönüştürmek istediğimiz tam hücreyi alıyoruz. Bu örnekte **B2** hedefleniyor, ancak adresi ihtiyacınıza göre değiştirebilirsiniz.
+### Adım 2: hedef hücreyi seç
+Herhangi bir hücreye A1 notasyonu ile ulaşabilirsiniz. Bu örnekte **B2** ile çalışıyoruz, ancak adresi ihtiyacınız olan herhangi bir sütunla değiştirebilirsiniz.
 
 ```java
 // Step 2: Access the first worksheet and the target cell (B2)
@@ -121,11 +129,10 @@ Cell cell = worksheet.getCells().get("B2");
 System.out.println("Original value: " + cell.getStringValue());
 ```
 
-*Why this matters:* Hücreye doğrudan adres vermek, ihracat talimatlarını tam olarak gerektiği yere eklememizi sağlar. Eğer ihracat seçeneklerini tüm çalışma sayfasına uygulamaya çalışırsanız, **how to export cell** senaryolarının sıkça gerektirdiği ince ayarlı kontrolü kaybedersiniz.
+*Why this matters:* Hücreyi doğrudan adreslemek, dışa aktarma talimatlarını tam olarak gerektiği yere eklemenizi sağlar ve diğer hücrelerde istenmeyen yan etkilere yol açmaz.
 
-## Bilimsel Gösterim İçin İhracat Seçeneklerini Nasıl Ayarlarsınız
-
-Şimdi öğreticinin özü geliyor: hücrenin değeri string olarak kaydedilirken *ve* bilimsel gösterimle görüntülenir şekilde ihracatı yapılandırmak. Aspose.Cells, tam bu amaç için bir `ExportTableOptions` sınıfı sunar.
+### Adım 3: bilimsel gösterim için dışa aktarma seçeneklerini yapılandır
+`ExportTableOptions` sınıfı, bir hücrenin nasıl yazılacağını belirlemenizi sağlar. `exportAsString` ayarı metin çıktısını zorlar, `setNumberFormat` ise görüntüleme için bilimsel bir desen uygular.
 
 ```java
 // Step 3: Configure export options to force the cell value to be saved as a string
@@ -138,14 +145,11 @@ cell.getExportTableOptions().set(exportOptions);
 ```
 
 *Why this matters:*  
-- `setExportAsString(true)` kütüphaneye, kaydetme işlemi sırasında hücre içeriğini metin olarak ele almasını söyler. Bu, **convert cell to string** işleminin kalbidir.  
-- `setNumberFormat("0.00E+00")` sadece ihracat adımı için bilimsel bir format uygular. Altındaki hücre hâlâ sayısal bir değer tutabilir, ancak ortaya çıkan dosya “1.23E+04” olarak gösterilir ve **export excel scientific notation** gereksinimini karşılar.
+- `setExportAsString(true)` hücrenin içeriğinin metin olarak kaydedilmesini sağlar, temel **convert excel column to string** hedefini gerçekleştirir.  
+- `setNumberFormat("0.00E+00")` dışa aktarılan metnin bilimsel gösterimde görünmesini sağlar, **export excel with scientific notation** gereksinimini karşılar.
 
-> **Köşe durum:** Hücre zaten sayı gibi görünen bir string içeriyorsa, format yok sayılır çünkü değer zaten metindir. Bu durumda, sayı formatı eklemeden sadece `exportAsString` ayarlayabilirsiniz.
-
-## Özel İhracat Ayarlarıyla Çalışma Kitabını Kaydet
-
-İhracat seçenekleri eklendikten sonra, son adım çalışma kitabını yeni bir dosyaya yazmaktır. Bu, **B2** hücresinin string olarak saklandığı ancak bilimsel gösterimde göründüğü bir Excel dosyası üretir.
+### Adım 4: özel seçeneklerle çalışma kitabını kaydet
+Kaydetme, dışa aktarma hattını tetikler, yapılandırdığınız seçenekleri uygular ve seçilen hücrenin bir dize olarak saklandığı yeni bir dosya üretir.
 
 ```java
 // Step 4: Save the workbook with the custom export settings
@@ -159,25 +163,26 @@ System.out.println("Exported value type: " + exportedCell.getType()); // Should 
 System.out.println("Exported display: " + exportedCell.getStringValue());
 ```
 
-*Why this matters:* Kaydetme, ihracat hattını tetikler ve daha önce ayarladığımız seçenekleri uygular. Doğrulama bloğu, hücrenin **type** değerinin artık `STRING` olduğunu gösterir ve **export excel cell string** başarısını teyit eder.
+*Why this matters:* Kaydedilen dosya artık hücreyi `STRING` tipinde içerir, dışa aktarmanın başarılı olduğunu doğrular.
 
-## Yaygın Sorular & Tuzaklar
+## Tüm bir sütun için excel hücresini metin olarak nasıl dışa aktarılır
 
-### Bu eski Excel formatları (XLS) ile çalışır mı?
+Bir bütün sütunu dönüştürmeniz gerekiyorsa, her hücreyi yineleyin ve bellek kullanımını azaltmak için tek bir `ExportTableOptions` örneğini yeniden kullanın. Aynı `ExportTableOptions` her hücreye uygulandığında, sütundaki her girişin metinsel temsili korunur; bu, önde gelen sıfırları kaybetmemesi gereken ürün kodları gibi tanımlayıcılar için kritiktir. Bu yaklaşım büyük veri setleri için verimli bir şekilde ölçeklenir.
 
-Evet—Aspose.Cells dosya formatını soyutlar, bu yüzden aynı kod `.xls`, `.xlsx` ve hatta `.xlsb` için çalışır. `save` çağrısındaki dosya uzantısını değiştirmeniz yeterlidir.
+## Yaygın sorular ve tuzaklar
 
-### Tüm bir sütunu dönüştürmem gerekirse ne olur?
+### Bu, eski Excel formatları (XLS) ile çalışır mı?
+Evet—Aspose.Cells dosya formatını soyutlar, bu yüzden aynı kod `.xls`, `.xlsx` ve hatta `.xlsb` için çalışır. `save` çağrısındaki dosya uzantısını sadece değiştirin.
 
-Sütunun hücreleri üzerinde döngü kurarak aynı `ExportTableOptions` her birine uygulayabilirsiniz. Büyük veri setleri için, bellek kullanımını azaltmak amacıyla tek bir `ExportTableOptions` örneği oluşturup hücreler arasında paylaşmayı düşünün.
+### Tüm bir sütunu dönüştürmem gerekirse ne yapmalıyım?
+Sütunun hücreleri üzerinde döngü kurabilir ve aynı `ExportTableOptions`’ı her birine uygulayabilirsiniz. Büyük veri setleri için tek bir `ExportTableOptions` örneği kullanarak bellek yükünü azaltın.
 
 ### Formüller etkilenir mi?
+Bir hücre formül içeriyorsa, `setExportAsString(true)` *hesaplanmış* sonucu metin olarak yazar, formülü değil. Formül çalışma kitabı nesnesinde aynı kalır, ancak dışa aktarılan dosyada sonuç bir dize olarak gösterilir.
 
-Bir hücre formül içeriyorsa, `setExportAsString(true)` *hesaplanan* sonucu metin olarak yazmaya zorlar, formülün kendisini değil. Formül, çalışma kitabı nesnesinde aynı kalır, ancak dışa aktarılan dosyada sonuç string olarak gösterilir.
+## Tam çalışan örnek
 
-## Tam Çalışan Örnek
-
-Aşağıda, `Main.java` dosyasına kopyalayıp yapıştırabileceğiniz tam, bağımsız bir program bulunmaktadır. İçinde import'lar, `main` metodu ve tartışılan tüm adımlar yer alır.
+Aşağıda, bir `Main.java` dosyasına kopyalayıp yapıştırabileceğiniz, tüm adımları içeren eksiksiz, bağımsız bir program yer alıyor. İçe aktarmalar, `main` metodu ve tüm gerekli adımlar dahildir.
 
 ```java
 import com.aspose.cells.*;
@@ -221,7 +226,7 @@ public class ExportCellAsString {
 }
 ```
 
-**Beklenen çıktı** (`B2` başlangıçta `12345` sayısını içeriyormuş gibi varsayarsak):
+**Beklenen çıktı** (örnek olarak `B2` hücresi başlangıçta `12345` sayısını tutuyorsa):
 
 ```
 Original value: 12345
@@ -230,25 +235,56 @@ Exported type: STRING
 Exported display: 1.23E+04
 ```
 
-Son görüntünün bilimsel formatı koruduğuna ve hücre tipinin artık string olduğuna dikkat edin—tam olarak **convert cell to string** vaat ettiği gibi.
+Göründüğü gibi son gösterim bilimsel formatı korurken hücre tipi artık bir dize—tam da **convert excel column to string** vaat ettiği gibi.
+
+## Sıkça Sorulan Sorular
+
+**S: Birden fazla çalışma sayfasını aynı anda dışa aktarabilir miyim?**  
+C: Evet, her çalışma sayfasını yineleyin, aynı `ExportTableOptions`’ı uygulayın ve çalışma kitabını bir kez kaydedin—tüm sayfalar bireysel dışa aktarma ayarlarını korur.
+
+**S: Bu yaklaşım Linux sunucularında çalışır mı?**  
+C: Kesinlikle. Aspose.Cells for Java platform‑bağımsızdır ve herhangi bir JVM‑uyumlu ortamda, Linux, Windows ve macOS dahil, çalışır.
+
+**S: Ne kadar büyük bir çalışma kitabını işleyebilirim?**  
+C: Aspose.Cells, **her sayfada 1 milyon satıra** kadar dosyaları işleyebilir; tek sınırlama kullanılabilir yığın belleğidir; akış API’leri bellek tüketimini daha da azaltır.
+
+**S: Üretim ortamında lisans gerekli mi?**  
+C: Evet, ticari bir lisans değerlendirme su işaretlerini kaldırır ve tam işlevselliği açar. Test için ücretsiz deneme sürümü mevcuttur.
+
+**S: Bunu koşullu biçimlendirme ile birleştirebilir miyim?**  
+C: Kesinlikle. Dışa aktarmadan önce koşullu biçimlendirme uygulayın; biçimlendirme korunur çünkü temel çalışma kitabı değişmeden kalır.
 
 ## Sonuç
 
-Aspose.Cells kullanarak Java'da **convert cell to string** nasıl yapılacağını, çalışma kitabını yüklemekten ihracat seçeneklerini yapılandırmaya ve sonucu doğrulamaya kadar her şeyi gösterdik. **how to export cell**'i özel ayarlarla ustalaşarak, **export excel scientific notation**, düz metin temsili ya da her ikisine ihtiyaç duyduğunuzda Excel çıktısı üzerinde kesin kontrol elde edersiniz.
+Aspose.Cells kullanarak Java’da **convert excel column to string** işlemini nasıl yapacağınızı, çalışma kitabını yüklemekten dışa aktarma seçeneklerini yapılandırmaya ve sonucu doğrulamaya kadar her aşamayı gösterdik. **how to export excel cell as text** özelleştirilmiş ayarlarla nasıl kontrol edeceğinizi öğrendiniz; bu da **export excel with scientific notation**, düz metin temsili veya her ikisini birden ihtiyacınız olduğunda tam kontrol sağlar.
 
-Bir sonraki meydan okumaya hazır mısınız? Aynı tekniği tüm bir aralığa uygulamayı deneyin, farklı sayı formatlarıyla oynayın veya şık bir rapor için koşullu biçimlendirme ile birleştirin. Araçlar artık sizin elinizde—Excel ihracatlarınızı tam istediğiniz gibi davranacak şekilde ayarlayın.
+Bir sonraki zorluğa hazır mısınız? Aynı tekniği bir aralık için uygulamayı deneyin, farklı sayı formatlarıyla oynayın veya raporunuzu şık bir hale getirmek için koşullu biçimlendirme ile birleştirin. Araçlar artık elinizde—Excel dışa aktarmalarınızı tam istediğiniz gibi davranacak şekilde yönetin.
 
-Kodlamanız keyifli olsun!
+İyi kodlamalar!
 
-## Sonra Ne Öğrenmelisiniz?
+## Sonraki öğrenmeniz gerekenler?
 
-Aşağıdaki öğreticiler, bu rehberde gösterilen tekniklere dayanarak yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini öğrenmenize ve kendi projelerinizde alternatif uygulama yaklaşımlarını keşfetmenize yardımcı olacak adım adım açıklamalarla tam çalışan kod örnekleri içerir.
+Sütun dönüşümünü öğrendikten sonra, aynı temel API kavramlarını kullanan hücreleri görüntü olarak render etme, HTML raporları oluşturma veya çalışma sayfalarını PNG grafiklerine dönüştürme gibi ilgili dışa aktarma senaryolarını keşfedebilirsiniz.
 
 - [Aspose.Cells for Java kullanarak Excel Hücrelerini Görüntü Olarak Dışa Aktarma](/cells/english/java/import-export/export-excel-cells-as-image-aspose-cells-java/)
-- [Aspose.Cells Java ile Excel'i HTML'e Oluşturma ve Dışa Aktarma | Çalışma Kitabı İşlemleri Rehberi](/cells/english/java/workbook-operations/aspose-cells-java-excel-html-export/)
-- [Aspose.Cells Java ile Excel Çalışma Sayfasını PNG Olarak Dışa Aktarma](/cells/english/java/workbook-operations/export-excel-to-png-aspose-cells-java/)
+- [Aspose.Cells Java Kullanarak Excel’i HTML’ye Oluşturma ve Dışa Aktarma | Workbook Operations Guide](/cells/english/java/workbook-operations/aspose-cells-java-excel-html-export/)
+- [Aspose.Cells Java Kullanarak Excel Çalışma Sayfasını PNG’ye Dışa Aktarma](/cells/english/java/workbook-operations/export-excel-to-png-aspose-cells-java/)
+
+---
+
+**Son Güncelleme:** 2026-10-02  
+**Test Edilen Versiyon:** Aspose.Cells for Java 23.10  
+**Yazar:** Aspose
+
+## İlgili Öğreticiler
+
+- [Aspose.Cells Java ile Excel Hücre Satır Sütun İndekslerini Dönüştür](/cells/java/cell-operations/convert-excel-cell-names-to-indices-aspose-cells-java/)
+- [Aspose.Cells for Java Kullanarak Excel’i Metne Dönüştürme: Kapsamlı Rehber](/cells/java/workbook-operations/convert-excel-text-aspose-cells-java/)
+- [Aspose.Cells for Java ile İndeksi Hücre Adlarına Dönüştürme](/cells/java/cell-operations/aspose-cells-java-cell-index-to-name-conversion/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
