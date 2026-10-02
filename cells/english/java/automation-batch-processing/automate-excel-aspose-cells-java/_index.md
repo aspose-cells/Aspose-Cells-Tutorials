@@ -66,9 +66,7 @@ schemas:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Excel workbook Java using Aspose.Cells – Complete Guide
@@ -98,7 +96,7 @@ Aspose.Cells supports **70+** input and output formats—including XLSX, CSV, PD
 - Maven or Gradle build system.  
 - Aspose.Cells for Java library version 25.3 or later.
 
-### Required Libraries and Setup
+### Required libraries and setup
 
 Include the necessary dependencies in your project. If using Maven, add the following to your `pom.xml`:
 
@@ -127,7 +125,7 @@ To buy a permanent license, visit [Purchase a License](https://purchase.aspose.c
 Need a short‑term key? Submit a [Temporary License Request](https://purchase.aspose.com/temporary-license/).  
 For community help, join the [Community Support Forum](https://forum.aspose.com/c/cells/9).
 
-## Setting Up Aspose.Cells for Java
+## Setting up Aspose.Cells for java
 
 Before diving into code implementation, ensure your environment is correctly set up with Aspose.Cells.
 
@@ -141,7 +139,7 @@ Before diving into code implementation, ensure your environment is correctly set
 
 The `Workbook` class is the top‑level object representing an entire Excel file in memory. Load a new workbook by calling `new Workbook()`—this creates an empty Excel file in memory, ready for sheets, cells, and styles. The object represents the entire workbook, so all subsequent operations flow through it. After creation you can immediately add worksheets, write data, and finally save the file to any supported format.
 
-### 1. Workbook Creation and Initialization
+### 1. workbook creation and initialization
 #### Overview
 Begin by creating a new `Workbook` object, representing your Excel file in code.
 
@@ -160,7 +158,7 @@ This step initializes an empty workbook where you can add sheets and data progra
 
 A `Worksheet` represents a single sheet within a workbook, containing its own cells, rows, and columns. Call `workbook.getWorksheets().add("SheetName")`—the method returns the index of the newly added sheet, which you can use for further references. Adding worksheets lets you separate logical data groups, such as “Summary”, “Details”, or “Charts”, making the final workbook easier to navigate and maintain.
 
-### 2. Adding a Worksheet
+### 2. adding a worksheet
 #### Overview
 Add worksheets to the workbook for organizing data into different sections.
 
@@ -181,7 +179,7 @@ The `add()` method adds a new worksheet and returns its index, which you use to 
 
 The `Cells` collection provides access to individual cells in a worksheet. Use `worksheet.getCells().get("A1")` to retrieve a cell object, then call `setValue()` or `putValue()` to change its contents. This direct approach lets you write numbers, strings, dates, or formulas exactly where you need them, and you can also apply styles or formulas to the same cell object.
 
-### 3. Accessing and Modifying Cells
+### 3. accessing and modifying cells
 #### Overview
 Access specific cells to set or retrieve data.
 
@@ -202,7 +200,7 @@ This code accesses the "A1" cell and assigns it a value, demonstrating basic dat
 
 The `Names` collection stores user‑defined named ranges for easy reference. Create a named range with `workbook.getWorksheets().get(0).getNames().add("MyRange", "A1:B10")`. Named ranges act like variables in formulas, making complex worksheets easier to read and maintain, and they can be reused across multiple formulas and charts.
 
-### 4. Creating and Naming Ranges
+### 4. creating and naming ranges
 #### Overview
 Create named ranges for easier reference within large datasets.
 
@@ -223,7 +221,7 @@ Naming ranges improves code readability and maintenance, especially in complex w
 
 A `Style` object defines formatting such as fonts, colors, and borders for cells or ranges. Apply a style to a range and set its `setOutlineBorder()` property. Borders help visually separate sections, improving the overall look of generated reports and making key data stand out for readers.
 
-### 5. Setting Outline Borders
+### 5. setting outline borders
 #### Overview
 Apply visual styling such as borders for better data presentation.
 
@@ -244,7 +242,7 @@ This adds a distinct border to your specified range for enhanced visibility.
 
 The `SaveFormat` enum specifies the output file format, e.g., XLSX, CSV, or PDF. Invoke `workbook.save("path/to/file.xlsx", SaveFormat.XLSX)`. The `SaveFormat` enum lets you choose among XLSX, CSV, PDF, and many other formats. Saving writes the in‑memory representation to disk, ready for downstream processing or user download.
 
-### 6. Saving the Workbook
+### 6. saving the workbook
 #### Overview
 Finally, save the modified workbook to a file.
 
@@ -272,12 +270,12 @@ To optimise performance while using Aspose.Cells:
 - Use streams for reading/writing large files to reduce memory footprint.  
 - Dispose of objects properly by calling `dispose()` on them once they are no longer needed, preventing resource leaks.
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **Out‑of‑Memory errors**: Switch to `Workbook` constructors that accept `InputStream` and enable `setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` to work with large files.  
 - **License not applied**: Ensure the license file is loaded before any Aspose.Cells calls, otherwise the evaluation watermark will appear.  
 - **Incorrect file path on save**: Verify that the target directory exists and the application has write permissions.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I handle large Excel files efficiently?**  
 A: Use streaming APIs, limit worksheet count, and call `dispose()` on unused objects to keep memory usage low.

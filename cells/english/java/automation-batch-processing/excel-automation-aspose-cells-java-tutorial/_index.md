@@ -53,9 +53,7 @@ schemas:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Excel to ODS with Aspose.Cells for Java – Complete Guide
@@ -83,7 +81,7 @@ Aspose.Cells supports **70+ input and output formats**, can process **500‑page
 - **Maven or Gradle:** For dependency management  
 - Basic Java knowledge and an IDE such as IntelliJ IDEA or Eclipse  
 
-## Setting Up Aspose.Cells for Java
+## Setting up Aspose.Cells for java
 
 ### Maven
 Add this dependency to your `pom.xml` file:
@@ -111,7 +109,7 @@ Load the workbook with `new Workbook("input.xlsx")` and immediately call `workbo
 
 ### Step‑by‑Step Implementation
 
-#### Retrieve Aspose.Cells Version
+#### Retrieve Aspose.Cells version
 **Version** is a utility class that provides the current Aspose.Cells library version as a string.  
 ```java
 import com.aspose.cells.CellsHelper;
@@ -173,7 +171,7 @@ Aspose.Cells for Java can be leveraged in many real‑world scenarios:
 - **Resource Optimization:** Close workbook objects (`workbook.dispose()`) after processing to free native resources promptly.  
 - **Efficient Data Handling:** Leverage `worksheet.getCells().exportArray()` for bulk data extraction instead of iterating cell‑by‑cell.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 - **Problem:** “OutOfMemoryError” when processing large files.  
   **Solution:** Enable streaming mode by setting `LoadOptions.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` before loading the workbook.  
@@ -184,7 +182,7 @@ Aspose.Cells for Java can be leveraged in many real‑world scenarios:
 - **Problem:** ODS output loses cell styles.  
   **Solution:** Use `SaveOptions` with `setValidateMergedCells(true)` to preserve complex styling during conversion.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I handle large Excel files efficiently?**  
 A: Utilize Aspose.Cells' streaming API for reading/writing large files without loading them entirely in memory.
@@ -213,7 +211,7 @@ A: Over 70 formats, including XLS, XLSX, CSV, ODS, and HTML, are fully supported
 - **Purchase Licenses:** Secure your commercial license through [Aspose Purchase](https://purchase.aspose.com/buy)  
 - **Free Trial and Temporary License:** Start with a free trial or request a temporary license for full access.
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
@@ -221,9 +219,9 @@ A: Over 70 formats, including XLS, XLSX, CSV, ODS, and HTML, are fully supported
 - [Convert Excel Sheets to Images with Aspose.Cells in Java: A Complete Guide](/cells/java/workbook-operations/convert-excel-sheets-to-images-aspose-cells-java/)
 - [Guide: Aspose.Cells Java License & Excel Tasks](/cells/java/getting-started/aspose-cells-java-license-excel-operations-guide/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

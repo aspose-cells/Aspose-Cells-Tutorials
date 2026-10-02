@@ -56,9 +56,7 @@ schemas:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Export chart to PNG using Aspose.Cells Java
@@ -87,7 +85,7 @@ Exporting charts to PNG with Aspose.Cells gives high performance, low memory usa
 - **IDE** such as IntelliJ IDEA or Eclipse.  
 - **Maven or Gradle** for dependency management.  
 
-### Required Libraries and Dependencies
+### Required libraries and dependencies
 
 **Maven**  
 ```xml
@@ -117,7 +115,7 @@ Aspose.Cells offers a free trial to evaluate its features:
 - For production use, purchase a license at [Purchase Aspose.Cells](https://purchase.aspose.com/buy).  
 - A temporary license can be requested for extended testing.
 
-## Setting Up Aspose.Cells for Java
+## Setting up Aspose.Cells for java
 
 Once your environment is ready, initialize Aspose.Cells in your project:
 
@@ -142,36 +140,36 @@ To export a chart to PNG with Aspose.Cells for Java, first load the workbook usi
 
 **Overview**: Load an existing workbook, ensure the chart reflects the latest data, and prepare it for rendering.
 
-#### 1. Load the Workbook  
+#### 1. load the workbook
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook book = new Workbook(dataDir + "sample.xlsx");
 ```  
 *Definition anchor*: The `Workbook` class represents an entire Excel file in memory, providing access to worksheets, charts, and cells.
 
-#### 2. Access the Worksheet and Chart  
+#### 2. access the worksheet and chart
 ```java
 Worksheet sheet = book.getWorksheets().get(0);
 Chart chart = sheet.getCharts().get(0);
 ```  
 *Definition anchor*: The `Worksheet` object gives you row/column access, while the `Chart` object encapsulates all chart‑specific properties.
 
-#### 3. Refresh the Chart  
+#### 3. refresh the chart
 ```java
 chart.calculate();
 ```  
 Calling `calculate()` forces the chart to recompute its series based on any changed source data, guaranteeing visual accuracy.
 
-### Customize Globalization Settings for Charts
+### Customize globalization settings for charts
 
 **Overview**: Adjust date, time, and number formats to match regional conventions before rendering.
 
-#### 1. Load the Workbook  
+#### 1. load the workbook
 ```java
 Workbook book = new Workbook(dataDir + "sample.xlsx");
 ```  
 
-#### 2. Set Custom Globalization Settings  
+#### 2. set custom globalization settings
 ```java
 CustomSettings customGlobalizationSettings = new CustomSettings();
 customGlobalizationSettings.setChartSettings(new CustomChartGlobalizationSettings());
@@ -179,11 +177,11 @@ book.getSettings().setGlobalizationSettings(customGlobalizationSettings);
 ```  
 You can specify locale‑specific patterns such as `"dd-MMM-yyyy"` for dates or `"#,##0.00"` for numbers, ensuring the exported PNG respects local standards.
 
-### Render Chart to Image
+### Render chart to image
 
 **Overview**: Convert the refreshed chart into a PNG file that can be used in presentations, PDFs, or web pages.
 
-#### 1. Load the Workbook and Access the Chart  
+#### 1. load the workbook and access the chart
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 Workbook book = new Workbook(dataDir + "sample.xlsx");
@@ -192,7 +190,7 @@ Chart chart = sheet.getCharts().get(0);
 chart.calculate();
 ```  
 
-#### 2. Render to Image  
+#### 2. render to image
 ```java
 ImageOrPrintOptions options = new ImageOrPrintOptions();
 chart.toImage(outDir + "CustomTextforOtherLabelofPieChart_out.png", options);
@@ -211,7 +209,7 @@ The `toImage()` method writes the chart to a `java.io.OutputStream`. By setting 
 - **Selective Refresh**: Call `chart.calculate()` only on charts whose source data changed.  
 - **Thread Safety**: Instantiate a separate `Workbook` per thread to avoid concurrency issues.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Solution |
 |-------|----------|
@@ -219,7 +217,7 @@ The `toImage()` method writes the chart to a `java.io.OutputStream`. By setting 
 | PNG output is blank | Confirm the chart is not hidden and that `calculate()` has been called before rendering. |
 | Slow rendering on large files | Enable `MemorySetting.MEMORY_PREFERENCE` and render only the required worksheet. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I resolve license activation issues?**  
 A: Place the `Aspose.Cells.lic` file in the resources folder and load it with `License license = new License(); license.setLicense("Aspose.Cells.lic");`.
@@ -253,7 +251,7 @@ By mastering these steps, you can reliably **export chart to PNG** and integrate
 **Tested With:** Aspose.Cells 25.3 for Java  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
@@ -262,12 +260,19 @@ By mastering these steps, you can reliably **export chart to PNG** and integrate
 - [How to Customize Excel Charts with Theme Colors Using Aspose.Cells Java](/cells/java/charts-graphs/customize-excel-charts-aspose-cells-java/)
 
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
+
+
+
 
 ```text
 // Direct answer (no code block needed here as per preservation rules)
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
