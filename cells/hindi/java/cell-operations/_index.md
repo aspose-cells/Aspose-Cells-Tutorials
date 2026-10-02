@@ -51,13 +51,13 @@ Aspose.Cells के साथ अपने Java‑आधारित Excel ड�
 ### [Aspose.Cells Java का उपयोग करके Excel सेल्स से डेटा प्राप्त करना&#58; एक व्यापक गाइड](./aspose-cells-java-data-retrieval-excel/)
 Aspose.Cells for Java का उपयोग करके Excel फ़ाइलों से विभिन्न प्रकार के डेटा को प्रभावी ढंग से निकालना सीखें। सेल ऑपरेशन्स में महारत हासिल करें, Maven या Gradle के साथ डिपेंडेंसीज़ को मैनेज करें, और प्रदर्शन को ऑप्टिमाइज़ करें।
 
-### [Aspose.Cells Java के साथ नामों को कॉलम्स में विभाजित करें](./aspose-cells-java-split-names-columns/)
 ### [जावा एक्सेल में सेल से डेटटाइम प्राप्त करें – पूर्ण गाइड](./get-datetime-from-cell-in-java-excel-complete-guide/)
 जावा में Aspose.Cells का उपयोग करके Excel सेल से तिथि‑समय मान निकालने की पूरी प्रक्रिया सीखें।
 
-### [जावा के लिए Aspose.Cells का उपयोग करके Excel में सक्रिय सेल कैसे सेट करें: एक संपूर्ण गाइड](./aspose-cells-java-set-active-cell-excel/)
-जावा के लिए Aspose.Cells का उपयोग करके Excel में सक्रिय सेल सेट करना सीखें। यह मार्गदर्शिका कुशल स्प्रेडशीट हेरफेर के लिए इंस्टॉलेशन, कॉन्फ़िगरेशन और व्यावहारिक अनुप्रयोगों को कवर करती है।
+### [Aspose.Cells for Java का उपयोग करके Excel में एक्टिव सेल सेट करना&#58; एक पूर्ण गाइड](./aspose-cells-java-set-active-cell-excel/)
+Aspose.Cells for Java का उपयोग करके Excel में एक्टिव सेल सेट करना सीखें। यह गाइड इंस्टॉलेशन, कॉन्फ़िगरेशन, और प्रभावी स्प्रेडशीट मैनिपुलेशन के व्यावहारिक अनुप्रयोगों को कवर करता है।
 
+### [Aspose.Cells Java के साथ नामों को कॉलम्स में विभाजित करें](./aspose-cells-java-split-names-columns/)
 Aspose.Words Java के लिए एक कोड ट्यूटोरियल
 
 ### [Aspose.Cells in Java के साथ वर्कबुक सेल मैनिपुलेशन में महारत&#58; Excel ऑटोमेशन के लिए एक पूर्ण गाइड](./aspose-cells-java-workbook-cell-manipulation/)

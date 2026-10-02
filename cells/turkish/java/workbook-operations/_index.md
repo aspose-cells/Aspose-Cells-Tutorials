@@ -284,7 +284,7 @@ Aspose.Cells ile Java'da Excel dosyalarını zahmetsizce yönetmeyi ve analiz et
 ### [Aspose.Cells Java'yı Kullanarak Excel'den HTML'e Dönüştürme: CrossHideRight Tekniğine Hakim Olun](./excel-html-conversion-aspose-cells-java-crosshide-right/)
 Aspose.Cells for Java ile Excel dosyalarını HTML'e nasıl dönüştüreceğinizi öğrenin ve üst üste binen içeriği etkili bir şekilde işlemek için CrossHideRight yöntemini kullanın.
 
-### [Aspose.Cells Java'yı Kullanarak Excel'i HTML'ye Dönüştürme ve Yorumları Gizleyin](./excel-html-conversion-hide-comments-aspose-cells-java/)
+### [Aspose.Cells Java'yı Kullanarak Excel'i HTML'ye Dönüştürün ve Yorumları Gizleyin](./excel-html-conversion-hide-comments-aspose-cells-java/)
 Aspose.Cells for Java'yı kullanarak Excel çalışma kitaplarını sorunsuz bir şekilde HTML'ye nasıl dönüştüreceğinizi ve daha temiz çıktılar için yorumları gizleme seçeneklerini öğrenin.
 
 ### [Java'da Excel'den Görüntüye Dönüştürme: Aspose.Cells Kullanarak Adım Adım Kılavuz](./excel-image-conversion-aspose-cells-java/)

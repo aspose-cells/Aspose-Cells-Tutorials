@@ -168,7 +168,7 @@ Aspose.Words Java 代码教程
 学习如何使用 Aspose.Cells for Java 将 Excel 工作表转换为高质量的 TIFF 图像。本指南涵盖了如何加载工作簿、配置图像选项以及如何高效地渲染工作表。
 
 ### [使用 Java 中的 Aspose.Cells 将 Excel 工作表转换为图像：完整指南](./convert-excel-sheets-to-images-aspose-cells-java/)
-学习如何使用 Aspose.Cells for Java 轻松将 Excel 表格转换为高质量图像。非常适合用于演示稿、报告和 Web 集成。
+学习如何使用 Aspose.Cells for Java 轻松将 Excel 表格转换为高质量图像。非常适合用于演示文稿、报告和 Web 集成。
 
 ### [使用 Aspose.Cells for Java 将 Excel 转换为文本：综合指南](./convert-excel-text-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 将 Excel 表格无缝转换为文本。本指南涵盖安装、配置和实际应用。
@@ -192,7 +192,7 @@ Aspose.Words Java 代码教程
 学习如何使用 Aspose.Cells for Java 将 Excel 工作表转换为高质量的 PNG 图像。请遵循我们详细的指南和代码示例。
 
 ### [使用 Aspose.Cells Java 将 Excel 表格转换为 SVG：综合指南](./convert-excel-to-svg-aspose-cells-java/)
-通过本分步指南了解如何使用 Aspose.Cells for Java 将 Excel 工作簿无缝转换为可扩展的 SVG 文件，非常适合 Web 应用程序和演示稿。
+通过本分步指南了解如何使用 Aspose.Cells for Java 将 Excel 工作簿无缝转换为可扩展的 SVG 文件，非常适合 Web 应用程序和演示文稿。
 
 ### [综合指南：使用 Aspose.Cells Java 将 Excel 转换为 TIFF](./convert-excel-to-tiff-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 将 Excel 文件高效地转换为 TIFF 图像。本指南涵盖设置、转换过程和进度回调。
@@ -413,7 +413,7 @@ Aspose.Words Java 代码教程
 ### [使用 Aspose.Cells Java 将工作簿转换为 PDF 的综合指南](./master-workbook-pdf-conversion-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 将 Excel 工作簿转换为优化的 PDF 文件，并提供详细的实施指南和高级选项。
 
-### [使用 Aspose.Cells for Java 管理工作簿 XML 部分：综合指南](./master-workbook-xml-parts-aspose-cells-java/)
+### [如何使用 Aspose.Cells for Java 管理工作簿 XML 部分：综合指南](./master-workbook-xml-parts-aspose-cells-java/)
 使用 Aspose.Cells for Java 掌握工作簿 XML 部分。学习如何在 Excel 工作簿中添加、管理和搜索自定义 XML 数据。
 
 ### [掌握 Aspose.Cells for Java：高效地从 Excel 工作簿中加载和提取文本](./mastering-aspose-cells-excel-load-extract-text/)
@@ -481,6 +481,8 @@ Aspose.Words Java 代码教程
 
 ### [创建 Excel 工作簿 Java – 完整分步指南](./create-excel-workbook-java-complete-step-by-step-guide/)
 学习如何使用 Java 创建 Excel 工作簿并进行完整的分步操作，涵盖创建、配置和保存等关键步骤。
+
+
 
 ## 其他资源
 

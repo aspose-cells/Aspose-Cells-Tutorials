@@ -45,12 +45,12 @@ Onze cel‑operaties handleidingen bieden praktische, hands‑on begeleiding voo
 
 ### [Hoe gegevens uit Excel-cellen op te halen met Aspose.Cells Java&#58; Een uitgebreide gids](./aspose-cells-java-data-retrieval-excel/)
 
-### [Namen splitsen in kolommen met Aspose.Cells Java](./aspose-cells-java-split-names-columns/)
 ### [Datum‑tijd ophalen uit cel in Java Excel – een complete gids](./get-datetime-from-cell-in-java-excel-complete-guide/)
 Leer hoe u datum‑ en tijdwaarden uit een Excel‑cel haalt met Aspose.Cells voor Java.
 
-### [Een actieve cel instellen in Excel met Aspose.Cells voor Java: een complete handleiding](./aspose-cells-java-set-active-cell-excel/)
-Leer hoe je een actieve cel in Excel instelt met Aspose.Cells voor Java. Deze handleiding behandelt de installatie, configuratie en praktische toepassingen voor efficiënte spreadsheetbewerking.
+### [Hoe een actieve cel in Excel in te stellen met Aspose.Cells voor Java&#58; Een volledige gids](./aspose-cells-java-set-active-cell-excel/)
+
+### [Namen splitsen in kolommen met Aspose.Cells Java](./aspose-cells-java-split-names-columns/)
 
 ### [Werkboekcelmanipulatie beheersen met Aspose.Cells in Java&#58; Een volledige gids voor Excel-automatisering](./aspose-cells-java-workbook-cell-manipulation/)
 
@@ -60,12 +60,12 @@ Leer hoe je een actieve cel in Excel instelt met Aspose.Cells voor Java. Deze ha
 
 ### [Hoe tekst naar getallen te converteren in Excel met Aspose.Cells voor Java](./convert-text-to-numbers-excel-aspose-cells-java/)
 
-### [Meerdere rijen invoegen in Excel met Aspose.Cells Java&#58; Een uitgebreide gids](./excel-automation-aspose-cells-java-insert-multiple-rows/)
 ### [Cel naar tekenreeks converteren in Java – Complete exportgids](./convert-cell-to-string-in-java-complete-export-guide/)
 Leer hoe u een celwaarde naar een tekenreeks converteert en exporteert met Aspose.Cells voor Java.
 
-### [Excel-automatisering met Aspose.Cells voor Java: HTML in cellen insluiten voor verbeterde rapporten](./excel-automation-aspose-cells-java-html-cells/)
-Leer hoe u Excel-rapporten kunt automatiseren door HTML-inhoud in cellen in te sluiten met Aspose.Cells voor Java. Leer hoe u werkmappen kunt maken, cellen kunt bewerken en bestanden kunt opslaan met RTF-opmaak.
+### [Excel-automatisering met Aspose.Cells voor Java&#58; HTML in cellen insluiten voor verbeterde rapporten](./excel-automation-aspose-cells-java-html-cells/)
+
+### [Meerdere rijen invoegen in Excel met Aspose.Cells Java&#58; Een uitgebreide gids](./excel-automation-aspose-cells-java-insert-multiple-rows/)
 
 ### [Excel-automatisering met Aspose.Cells Java&#58; Gids voor werkboek- en celmanipulatie](./excel-automation-aspose-cells-java-workbook-manipulation/)
 

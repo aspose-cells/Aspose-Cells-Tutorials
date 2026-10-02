@@ -150,7 +150,7 @@ Pelajari cara mengotomatiskan penataan gaya di Excel menggunakan Aspose.Cells un
 Pelajari cara mengekstrak dan mengelola tema dari buku kerja Excel menggunakan Aspose.Cells untuk Java. Panduan ini mencakup penyiapan, contoh kode, dan praktik terbaik.
 
 ### [Inisialisasi Buku Kerja Excel & Penataan Sel menggunakan Aspose.Cells Java: Panduan Lengkap](./excel-workbook-initialization-cell-styling-aspose-cells-java/)
-Kuasai inisialisasi dan penataan buku kerja Excel dengan Aspose.Cells Java. Panduan ini mencakup penyiapan buku kerja, modifikasi sel, dan teknik penataan.
+Kuasai inisialisasi dan penataan buku kerja Excel dengan Aspose.Cells untuk Java. Panduan ini mencakup penyiapan buku kerja, modifikasi sel, dan teknik penataan.
 
 ### [Menguasai Penataan Buku Kerja di Excel dengan Aspose.Cells Java: Panduan Lengkap untuk Pengembang](./excel-workbook-styling-aspose-cells-java/)
 Pelajari cara menyederhanakan penataan dan manipulasi data buku kerja Excel Anda menggunakan Aspose.Cells Java. Panduan ini mencakup inisialisasi, teknik penataan, dan penanganan data yang efisien.
@@ -225,7 +225,7 @@ Pelajari cara mengotomatiskan modifikasi gaya dalam lembar kerja Excel dengan As
 Pelajari cara mengoptimalkan lembar Excel Anda dengan menggabungkan sel menggunakan Aspose.Cells untuk Java. Panduan ini mencakup manipulasi, penataan, dan penyimpanan buku kerja secara efisien.
 
 ### [Memutar Teks di Sel Excel Menggunakan Aspose.Cells Java: Panduan Lengkap](./rotate-text-excel-cells-aspose-cells-java/)
-Pelajari cara memutar teks di sel Excel menggunakan Aspose.Cells Java. Sempurnakan lembar kerja Anda dengan keterbacaan dan desain yang lebih baik.
+Pelajari cara memutar teks di sel Excel menggunakan Aspose.Cells untuk Java. Sempurnakan lembar kerja Anda dengan keterbacaan dan desain yang lebih baik.
 
 ### [Cara Mengatur Faktor Zoom Lembar Kerja Excel Menggunakan Aspose.Cells untuk Java](./set-zoom-factor-excel-aspose-cells-java/)
 Pelajari cara mengatur faktor zoom di lembar kerja Excel dengan Aspose.Cells untuk Java. Tingkatkan kemampuan presentasi dan peninjauan data Anda secara terprogram.

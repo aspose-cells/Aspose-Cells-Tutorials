@@ -45,10 +45,10 @@ Our cell‑operations tutorials give you practical, hands‑on guidance for work
 
 ### [Hogyan nyerjünk ki adatokat Excel cellákból az Aspose.Cells Java&#58; Átfogó útmutató](./aspose-cells-java-data-retrieval-excel/)
 
-### [Hogyan állítsunk be aktív cellát Excelben az Aspose.Cells for Java&#58; Teljes útmutató](./aspose-cells-java-set-active-cell-excel/)
 ### [Dátum és idő lekérése cellából Java Excelben – Teljes útmutató](./get-datetime-from-cell-in-java-excel-complete-guide/)
 Tanuld meg, hogyan olvashatsz dátum- és időértékeket Excel cellákból az Aspose.Cells for Java segítségével.
 
+### [Hogyan állítsunk be aktív cellát Excelben az Aspose.Cells for Java&#58; Teljes útmutató](./aspose-cells-java-set-active-cell-excel/)
 
 ### [Nevek oszlopokra bontása az Aspose.Cells Java‑val](./aspose-cells-java-split-names-columns/)
 
@@ -76,11 +76,14 @@ Egy kód tutorial az Aspose.Words Java számára
 
 ### [Excel feltöltése adatokkal az Aspose.Cells és Smart Markers segítségével](./populate-excel-aspose-cells-smart-markers/)
 
+Egy kód tutorial az Aspose.Words Java számára
+
 ### [Oszlop szélességének beállítása Excelben az Aspose.Cells Java használatával](./set-column-width-excel-aspose-cells-java/)
 
-Egy kód tutorial az Aspose.Words Java számára
 ### [Cella konvertálása sztringgé Java-ban – Teljes export útmutató](./convert-cell-to-string-in-java-complete-export-guide/)
 Tanuld meg, hogyan konvertálhatod az Excel cellákat szöveggé Java-ban az Aspose.Cells használatával, és exportáld őket könnyedén.
+
+Egy kód tutorial az Aspose.Words Java számára
 
 ## További források
 

@@ -44,13 +44,13 @@ weight: 4
 
 ### [How to Retrieve Data from Excel Cells Using Aspose.Cells Java&#58; คู่มือครบวงจร](./aspose-cells-java-data-retrieval-excel/)
 
-### [Split Names into Columns with Aspose.Cells Java](./aspose-cells-java-split-names-columns/)
-บทแนะนำโค้ดสำหรับ Aspose.Words Java
 ### [ดึงวันที่และเวลาจากเซลล์ใน Excel ด้วย Java – คู่มือฉบับสมบูรณ์](./get-datetime-from-cell-in-java-excel-complete-guide/)
 เรียนรู้วิธีดึงข้อมูลวันที่และเวลาจากเซลล์ Excel อย่างแม่นยำโดยใช้ Aspose.Cells สำหรับ Java
 
-### [วิธีตั้งค่าเซลล์ที่ใช้งานอยู่ใน Excel โดยใช้ Aspose.Cells สำหรับ Java: คู่มือฉบับสมบูรณ์](./aspose-cells-java-set-active-cell-excel/)
-เรียนรู้วิธีการตั้งค่าเซลล์ที่ใช้งานอยู่ใน Excel โดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการติดตั้ง การกำหนดค่า และแอปพลิเคชันจริงสำหรับการจัดการสเปรดชีตอย่างมีประสิทธิภาพ
+### [How to Set an Active Cell in Excel Using Aspose.Cells for Java&#58; คู่มือฉบับสมบูรณ์](./aspose-cells-java-set-active-cell-excel/)
+
+### [Split Names into Columns with Aspose.Cells Java](./aspose-cells-java-split-names-columns/)
+บทแนะนำโค้ดสำหรับ Aspose.Words Java
 
 ### [Master Workbook Cell Manipulation with Aspose.Cells in Java&#58; คู่มือฉบับสมบูรณ์สำหรับการทำงานอัตโนมัติใน Excel](./aspose-cells-java-workbook-cell-manipulation/)
 
@@ -77,6 +77,7 @@ weight: 4
 
 ### [Set Column Width in Excel Using Aspose.Cells Java](./set-column-width-excel-aspose-cells-java/)
 บทแนะนำโค้ดสำหรับ Aspose.Words Java
+
 ### [แปลงเซลล์เป็นสตริงใน Java – คู่มือการส่งออกแบบสมบูรณ์](./convert-cell-to-string-in-java-complete-export-guide/)
 เรียนรู้วิธีแปลงค่าเซลล์เป็นสตริงและส่งออกข้อมูล Excel ด้วย Aspose.Cells สำหรับ Java อย่างละเอียด
 

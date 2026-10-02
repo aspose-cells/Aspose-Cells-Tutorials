@@ -377,7 +377,7 @@ Impara a gestire le operazioni sui file in Java utilizzando Aspose.Cells. Questa
 ### [Ripristino automatico della cartella di lavoro Java: gestione dei file Excel con Aspose.Cells](./java-workbook-autorecovery-aspose-cells/)
 Scopri come gestire il ripristino automatico delle cartelle di lavoro di Excel in Java utilizzando Aspose.Cells. Migliora la sicurezza dei dati e semplifica il flusso di lavoro.
 
-### [Come limitare le pagine PDF in Java usando Aspose.Cells: una guida passo per passo](./limit-pages-pdf-aspose-cells-java/)
+### [Come limitare le pagine PDF in Java usando Aspose.Cells: una guida passo passo](./limit-pages-pdf-aspose-cells-java/)
 Scopri come limitare il numero di pagine nei PDF generati da file Excel utilizzando Aspose.Cells per Java. Questa guida fornisce istruzioni dettagliate e applicazioni pratiche.
 
 ### [Come caricare un file CSV utilizzando Aspose.Cells per Java: una guida completa](./load-csv-aspose-cells-java-tutorial/)
@@ -481,6 +481,8 @@ Scopri come impostare e gestire le proprietà dei documenti, come il controllo d
 
 ### [Salva cartella di lavoro come XLSX in Java – Guida completa di programmazione](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
 Scopri come salvare una cartella di lavoro Excel in formato XLSX usando Aspose.Cells per Java con esempi di codice dettagliati.
+
+
 
 ## Risorse aggiuntive
 
