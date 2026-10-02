@@ -46,6 +46,9 @@ weight: 4
 ### [如何使用 Aspose.Cells for Java 在 Excel 中设置活动单元格&#58; 完整指南](./aspose-cells-java-set-active-cell-excel/)
 
 ### [使用 Aspose.Cells Java 将名称拆分到列](./aspose-cells-java-split-names-columns/)
+### [在 Aspose.Cells for Java 中从单元格获取日期时间 – 完整指南](./get-datetime-from-cell-in-java-excel-complete-guide/)
+学习如何使用 Aspose.Cells for Java 从 Excel 单元格中提取日期时间值，并进行正确的解析和格式化。
+
 
 Aspose.Words Java 代码教程
 
@@ -76,6 +79,9 @@ Aspose.Words Java 代码教程
 ### [使用 Aspose.Cells Java 设置 Excel 列宽](./set-column-width-excel-aspose-cells-java/)
 
 Aspose.Words Java 代码教程
+
+### [在 Java 中将单元格转换为字符串 – 完整导出指南](./convert-cell-to-string-in-java-complete-export-guide/)
+学习如何使用 Aspose.Cells for Java 将 Excel 单元格转换为字符串并导出数据。
 
 ## 其他资源
 

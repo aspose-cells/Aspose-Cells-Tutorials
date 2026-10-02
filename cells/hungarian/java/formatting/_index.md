@@ -233,6 +233,9 @@ Tanulja meg, hogyan rendezheti hatékonyan az Excel-adatokat oszlopszín szerint
 ### [Hogyan formázzuk az Excel cellákat és adjunk hozzá hiperhivatkozásokat az Aspose.Cells for Java használatával?](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Sajátítsd el az Excel-cellák formázását és a hiperhivatkozások hozzáadását Java-alkalmazásaidban az Aspose.Cells segítségével. Kövesd ezt az átfogó útmutatót a zökkenőmentes integráció és formázás érdekében.
 
+### [Excel munkafüzet létrehozása dinamikus formázással Java-ban – Teljes útmutató](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+Tanulja meg, hogyan hozhat létre Excel munkafüzetet dinamikus formázással Java-ban, részletes kódpéldákkal és lépésről-lépésre útmutatóval.
+
 
 
 ## További források

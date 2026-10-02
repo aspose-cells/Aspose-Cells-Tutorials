@@ -44,6 +44,15 @@
 ### [Δημιουργία δυναμικών αναφορών Excel χρησιμοποιώντας Aspose.Cells Java και Smart Markers](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 Μάθετε πώς να αυτοματοποιείτε τη δημιουργία δυναμικών αναφορών Excel με το Aspose.Cells για Java χρησιμοποιώντας έξυπνους δείκτες. Βελτιστοποιήστε αποτελεσματικά τη διαδικασία αναφοράς σας.
 
+### [Δημιουργία βιβλίου εργασίας master‑detail με Aspose.Cells για Java](./create-master-detail-workbook-with-aspose-cells-java/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας master‑detail χρησιμοποιώντας το Aspose.Cells για Java.
+
+### [Πώς να δημιουργήσετε φύλλα εργασίας με Smart Markers – Πλήρης οδηγός Java](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
+Μάθετε πώς να δημιουργείτε φύλλα εργασίας χρησιμοποιώντας Smart Markers σε πλήρη οδηγό Java, με παραδείγματα κώδικα.
+
+### [Aspose Cells Smart Markers: Φόρτωση προτύπου Excel και δημιουργία Excel από το πρότυπο](./aspose-cells-smart-markers-load-excel-template-generate-exce/)
+Μάθετε πώς να φορτώνετε πρότυπο Excel και να δημιουργείτε αρχεία Excel χρησιμοποιώντας Smart Markers με Aspose.Cells για Java.
+
 
 
 ## Πρόσθετοι Πόροι

@@ -83,7 +83,8 @@ Ismerje meg, hogyan automatizálhatja az Excel-feladatokat az Aspose.Cells for J
 ### [FormulaText implementálása az Aspose.Cells-ben Java-ban: Lépésről lépésre útmutató](./implementing-formula-text-aspose-cells-java-guide/)
 Tanuld meg, hogyan lehet képletszöveget kinyerni Excel cellákból az Aspose.Cells és Java használatával. Ez az útmutató a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
 
-
+### [Hogyan használjuk a Reduce függvényt Excelben Java-val – Lambda képlet útmutató](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
+Ismerje meg, hogyan használhatja a Reduce függvényt Excelben Java-val lambda képletekkel a hatékony számításokhoz.
 
 ## További források
 

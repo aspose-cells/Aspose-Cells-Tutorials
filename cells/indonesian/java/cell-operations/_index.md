@@ -42,6 +42,9 @@ Tutorial operasi‑sel kami memberikan panduan praktis dan langsung untuk bekerj
 ### [Menguasai Sistem Tanggal 1904 di Excel Menggunakan Aspose.Cells Java untuk Operasi Sel yang Efektif](./aspose-cells-java-configure-1904-date-system-excel/)
 
 ### [Menguasai Aspose.Cells&#58; Mengimplementasikan CopyOptions & PasteOptions di Java untuk Manajemen Data Excel](./aspose-cells-java-copy-paste-options/)
+### [Dapatkan datetime dari sel Excel di Java – Panduan Lengkap](./get-datetime-from-cell-in-java-excel-complete-guide/)
+Pelajari cara mengambil nilai datetime dari sel Excel menggunakan Aspose.Cells untuk Java, termasuk contoh kode lengkap dan tips optimalisasi.
+
 
 ### [Cara Mengambil Data dari Sel Excel Menggunakan Aspose.Cells Java&#58; Panduan Komprehensif](./aspose-cells-java-data-retrieval-excel/)
 
@@ -75,6 +78,9 @@ Tutorial kode untuk Aspose.Words Java
 
 ### [Atur Lebar Kolom di Excel Menggunakan Aspose.Cells Java](./set-column-width-excel-aspose-cells-java/)
 Tutorial kode untuk Aspose.Words Java
+
+### [Mengonversi Sel menjadi String di Java – Panduan Ekspor Lengkap](./convert-cell-to-string-in-java-complete-export-guide/)
+Pelajari cara mengonversi nilai sel menjadi string di Java menggunakan Aspose.Cells, termasuk contoh kode lengkap untuk ekspor data.
 
 ## Sumber Daya Tambahan
 

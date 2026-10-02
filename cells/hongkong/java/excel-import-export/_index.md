@@ -51,6 +51,14 @@
 了解如何使用 Aspose.Cells for Java 設定有效位數並選取匯出範圍，將資料匯出為 CSV 檔案。
 ### [如何從工作簿建立 PDF – 完整 Java 指南](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
 了解如何使用 Aspose.Cells for Java 將工作簿匯出為 PDF，提供完整的程式碼範例與逐步說明。
+### [嵌入字型 HTML – Excel 轉 HTML 完整字型嵌入](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
+了解如何使用 Aspose.Cells for Java 將 Excel 轉換為 HTML 並完整嵌入字型。提供逐步指南與原始程式碼示例。
+### [將 XLSX 轉換為 PPTX – 完整指南：匯出可編輯形狀](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
+了解如何使用 Aspose.Cells for Java 將 Excel 工作表轉換為 PowerPoint，並匯出可編輯的圖形與形狀。
+### [使用 Aspose.Cells for Java 將 JSON 轉換為 XLSX – 完整指南](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
+了解如何使用 Aspose.Cells for Java 將 JSON 資料轉換為 XLSX 檔案，並提供完整的步驟與原始程式碼示例。
+### [將 Markdown 轉換為 Excel – 使用 Aspose.Cells 完整指南](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
+了解如何使用 Aspose.Cells for Java 將 Markdown 內容轉換為 Excel 檔案，提供逐步指南與原始程式碼示例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

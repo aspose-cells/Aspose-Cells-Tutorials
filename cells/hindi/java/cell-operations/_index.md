@@ -51,6 +51,9 @@ Aspose.Cells के साथ अपने Java‑आधारित Excel ड�
 ### [Aspose.Cells Java का उपयोग करके Excel सेल्स से डेटा प्राप्त करना&#58; एक व्यापक गाइड](./aspose-cells-java-data-retrieval-excel/)
 Aspose.Cells for Java का उपयोग करके Excel फ़ाइलों से विभिन्न प्रकार के डेटा को प्रभावी ढंग से निकालना सीखें। सेल ऑपरेशन्स में महारत हासिल करें, Maven या Gradle के साथ डिपेंडेंसीज़ को मैनेज करें, और प्रदर्शन को ऑप्टिमाइज़ करें।
 
+### [जावा एक्सेल में सेल से डेटटाइम प्राप्त करें – पूर्ण गाइड](./get-datetime-from-cell-in-java-excel-complete-guide/)
+जावा में Aspose.Cells का उपयोग करके Excel सेल से तिथि‑समय मान निकालने की पूरी प्रक्रिया सीखें।
+
 ### [Aspose.Cells for Java का उपयोग करके Excel में एक्टिव सेल सेट करना&#58; एक पूर्ण गाइड](./aspose-cells-java-set-active-cell-excel/)
 Aspose.Cells for Java का उपयोग करके Excel में एक्टिव सेल सेट करना सीखें। यह गाइड इंस्टॉलेशन, कॉन्फ़िगरेशन, और प्रभावी स्प्रेडशीट मैनिपुलेशन के व्यावहारिक अनुप्रयोगों को कवर करता है।
 
@@ -92,6 +95,9 @@ Aspose.Words Java के लिए एक कोड ट्यूटोरिय�
 
 ### [Aspose.Cells Java का उपयोग करके Excel में कॉलम चौड़ाई सेट करें](./set-column-width-excel-aspose-cells-java/)
 Aspose.Words Java के लिए एक कोड ट्यूटोरियल
+
+### [जावा में सेल को स्ट्रिंग में बदलें – पूर्ण निर्यात गाइड](./convert-cell-to-string-in-java-complete-export-guide/)
+Aspose.Cells for Java का उपयोग करके सेल को स्ट्रिंग में बदलने और निर्यात करने की पूरी प्रक्रिया सीखें।
 
 ## अतिरिक्त संसाधन
 

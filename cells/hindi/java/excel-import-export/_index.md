@@ -51,6 +51,14 @@ Aspose.Cells for Java के साथ जावा में Excel को XML �
 जावा के लिए Aspose.Cells का उपयोग करके CSV निर्यात करते समय महत्वपूर्ण अंकों को सेट करना और निर्यात रेंज निर्दिष्ट करना सीखें।
 ### [वर्कबुक से PDF बनाना – पूर्ण जावा गाइड](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
 जावा के लिए Aspose.Cells का उपयोग करके वर्कबुक को PDF में बदलना सीखें। चरण-दर-स्तर मार्गदर्शिका के साथ सहज रूपांतरण।
+### [फ़ॉन्ट एम्बेडिंग के साथ HTML निर्यात – Excel को HTML में पूर्ण फ़ॉन्ट एम्बेडिंग](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
+Aspose.Cells for Java का उपयोग करके Excel को HTML में पूर्ण फ़ॉन्ट एम्बेडिंग के साथ निर्यात करना सीखें। चरण‑दर‑स्तर मार्गदर्शिका।
+### [XLSX को PPTX में बदलें – संपादन योग्य आकार निर्यात करने की पूर्ण गाइड](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
+Aspose.Cells for Java का उपयोग करके XLSX फ़ाइलों को PPTX में बदलें और संपादन योग्य शैप्स को निर्यात करना सीखें।
+### [Aspose.Cells Java के साथ JSON को XLSX में बदलें – पूर्ण गाइड](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
+Aspose.Cells for Java का उपयोग करके JSON डेटा को XLSX फ़ाइल में बदलना सीखें। इस चरण‑दर‑स्तर गाइड से सहज रूपांतरण प्राप्त करें।
+### [मार्कडाउन को एक्सेल में बदलें – Aspose.Cells का उपयोग करके पूर्ण गाइड](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
+Aspose.Cells for Java का उपयोग करके मार्कडाउन को एक्सेल में बदलना सीखें। इस चरण‑दर‑स्तर गाइड के साथ सहज रूपांतरण प्राप्त करें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

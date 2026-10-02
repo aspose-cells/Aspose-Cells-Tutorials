@@ -48,8 +48,12 @@ Pelajari Otomatisasi Buku Kerja Excel di Java dengan Aspose.Cells: Buat, Baca, P
 Jelajahi cara mengotomatiskan pembuatan dan penyesuaian bagan Excel menggunakan Aspose.Cells untuk Java dengan contoh kode sumber. Sederhanakan tugas pembuatan bagan Anda. 
 ### [Otomatisasi Excel dengan Java](./excel-automation-with-java/)
 Pelajari cara mengotomatiskan tugas Excel di Java dengan contoh kode sumber menggunakan Aspose.Cells, pustaka hebat untuk manipulasi Excel.
+### [Buat Excel secara programatis di Java – Panduan Langkah demi Langkah](./create-excel-programmatically-in-java-step-by-step-guide/)
+Pelajari cara membuat file Excel secara programatis di Java dengan contoh kode sumber langkah demi langkah menggunakan Aspose.Cells.
 ### [Integrasi Data di Excel](./data-integration-in-excel/)
 Pelajari cara mengintegrasikan data secara efisien di Excel untuk mendapatkan wawasan dan pengambilan keputusan yang lebih baik. Panduan langkah demi langkah dengan kode sumber menggunakan Aspose.Cells untuk Java.
+### [Nonaktifkan Autofilter di Excel dengan Java – Panduan Langkah demi Langkah](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
+Pelajari cara menonaktifkan autofilter di Excel menggunakan Aspose.Cells untuk Java dengan contoh kode sumber langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -46,6 +46,9 @@ weight: 4
 ### [Πώς να Ανακτήσετε Δεδομένα από Κελιά Excel Χρησιμοποιώντας Aspose.Cells Java&#58; Ένας Πλήρης Οδηγός](./aspose-cells-java-data-retrieval-excel/)
 
 ### [Πώς να Ορίσετε ένα Ενεργό Κελί σε Excel Χρησιμοποιώντας Aspose.Cells for Java&#58; Ένας Πλήρης Οδηγός](./aspose-cells-java-set-active-cell-excel/)
+### [Ανάκτηση ημερομηνίας και ώρας από κελί σε Java Excel – Πλήρης Οδηγός](./get-datetime-from-cell-in-java-excel-complete-guide/)
+Μάθετε πώς να εξάγετε τιμές ημερομηνίας και ώρας από κελιά Excel χρησιμοποιώντας το Aspose.Cells για Java.
+
 
 ### [Διαίρεση Ονομάτων σε Στήλες με Aspose.Cells Java](./aspose-cells-java-split-names-columns/)
 Ένα tutorial κώδικα για Aspose.Words Java
@@ -75,6 +78,8 @@ weight: 4
 
 ### [Ορισμός Πλάτους Στήλης σε Excel Χρησιμοποιώντας Aspose.Cells Java](./set-column-width-excel-aspose-cells-java/)
 Ένα tutorial κώδικα για Aspose.Words Java
+### [Μετατροπή κελιού σε συμβολοσειρά σε Java – Πλήρης οδηγός εξαγωγής](./convert-cell-to-string-in-java-complete-export-guide/)
+Μάθετε πώς να μετατρέψετε ένα κελί σε συμβολοσειρά και να το εξάγετε με το Aspose.Cells για Java.
 
 ## Πρόσθετοι Πόροι
 

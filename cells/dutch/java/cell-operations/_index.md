@@ -45,6 +45,9 @@ Onze cel‑operaties handleidingen bieden praktische, hands‑on begeleiding voo
 
 ### [Hoe gegevens uit Excel-cellen op te halen met Aspose.Cells Java&#58; Een uitgebreide gids](./aspose-cells-java-data-retrieval-excel/)
 
+### [Datum‑tijd ophalen uit cel in Java Excel – een complete gids](./get-datetime-from-cell-in-java-excel-complete-guide/)
+Leer hoe u datum‑ en tijdwaarden uit een Excel‑cel haalt met Aspose.Cells voor Java.
+
 ### [Hoe een actieve cel in Excel in te stellen met Aspose.Cells voor Java&#58; Een volledige gids](./aspose-cells-java-set-active-cell-excel/)
 
 ### [Namen splitsen in kolommen met Aspose.Cells Java](./aspose-cells-java-split-names-columns/)
@@ -56,6 +59,9 @@ Onze cel‑operaties handleidingen bieden praktische, hands‑on begeleiding voo
 ### [Hoe Excel-celnamen naar indexen te converteren met Aspose.Cells voor Java&#58; Een stap‑voor‑stap gids](./convert-excel-cell-names-to-indices-aspose-cells-java/)
 
 ### [Hoe tekst naar getallen te converteren in Excel met Aspose.Cells voor Java](./convert-text-to-numbers-excel-aspose-cells-java/)
+
+### [Cel naar tekenreeks converteren in Java – Complete exportgids](./convert-cell-to-string-in-java-complete-export-guide/)
+Leer hoe u een celwaarde naar een tekenreeks converteert en exporteert met Aspose.Cells voor Java.
 
 ### [Excel-automatisering met Aspose.Cells voor Java&#58; HTML in cellen insluiten voor verbeterde rapporten](./excel-automation-aspose-cells-java-html-cells/)
 

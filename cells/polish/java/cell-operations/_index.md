@@ -46,6 +46,9 @@ Nasze samouczki dotyczące operacji na komórkach zapewniają praktyczne, prakty
 ### [Jak pobrać dane z komórek Excel przy użyciu Aspose.Cells Java&#58; Kompletny przewodnik](./aspose-cells-java-data-retrieval-excel/)
 
 ### [Jak ustawić aktywną komórkę w Excel przy użyciu Aspose.Cells for Java&#58; Pełny przewodnik](./aspose-cells-java-set-active-cell-excel/)
+### [Pobierz datę i godzinę z komórki w Javie Excel – kompletny przewodnik](./get-datetime-from-cell-in-java-excel-complete-guide/)
+Dowiedz się, jak wydajnie pobierać wartości daty i czasu z komórek Excela przy użyciu Aspose.Cells dla Java.
+
 
 ### [Rozdzielanie nazw na kolumny przy użyciu Aspose.Cells Java](./aspose-cells-java-split-names-columns/)
 Samouczek kodu dla Aspose.Words Java
@@ -75,6 +78,8 @@ Samouczek kodu dla Aspose.Words Java
 
 ### [Ustawianie szerokości kolumn w Excel przy użyciu Aspose.Cells Java](./set-column-width-excel-aspose-cells-java/)
 Samouczek kodu dla Aspose.Words Java
+### [Konwersja komórki na ciąg znaków w Javie – Kompletny przewodnik eksportu](./convert-cell-to-string-in-java-complete-export-guide/)
+Dowiedz się, jak konwertować komórki Excela na ciągi znaków w Javie przy użyciu Aspose.Cells, aby ułatwić eksport danych.
 
 ## Dodatkowe zasoby
 

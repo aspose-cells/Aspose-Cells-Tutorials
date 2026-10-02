@@ -44,6 +44,8 @@ Aspose.Cells for Javaでピボットテーブルデータを更新する方法�
 Aspose.Cells for Java API でピボットテーブルのスタイルをカスタマイズする方法を学びましょう。視覚的に魅力的なピボットテーブルを簡単に作成できます。
 ### [Javaでピボットテーブルをコピー – 保持してPPTXにエクスポート](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
 Aspose.Cells for Java を使用して、ピボットテーブルをコピーし、書式やデータを保持したまま PowerPoint PPTX ファイルへエクスポートする方法を学びます。
+### [Javaでピボットテーブルをコピーする方法 – 完全 Aspose.Cells ガイド](./how-to-copy-pivot-table-in-java-complete-aspose-cells-guide/)
+Aspose.Cells for Java を使用して、ピボットテーブルをコピーする手順とベストプラクティスを学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

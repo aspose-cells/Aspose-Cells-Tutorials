@@ -44,6 +44,8 @@ Erfahren Sie, wie Sie PivotTable-Daten in Aspose.Cells für Java aktualisieren. 
 Erfahren Sie, wie Sie Pivot-Tabellenstile in Aspose.Cells für die Java-API anpassen. Erstellen Sie mühelos optisch ansprechende Pivot-Tabellen.
 ### [Pivot-Tabelle in Java kopieren – beibehalten und nach PPTX exportieren](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
 Erfahren Sie, wie Sie mit Aspose.Cells Pivot-Tabellen in Java duplizieren, unverändert behalten und als PPTX-Präsentation exportieren.
+### [Wie man Pivot-Tabellen in Java kopiert – Vollständige Aspose.Cells-Anleitung](./how-to-copy-pivot-table-in-java-complete-aspose-cells-guide/)
+Erfahren Sie, wie Sie Pivot-Tabellen mit Aspose.Cells für Java kopieren und in Ihre Anwendungen integrieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

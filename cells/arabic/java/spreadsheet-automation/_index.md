@@ -50,6 +50,9 @@
 تعرف على كيفية أتمتة مهام Excel في Java باستخدام أمثلة التعليمات البرمجية المصدرية باستخدام Aspose.Cells، وهي مكتبة قوية للتعامل مع Excel.
 ### [تكامل البيانات في Excel](./data-integration-in-excel/)
 تعلّم كيفية دمج البيانات بكفاءة في Excel لتحسين الرؤى واتخاذ القرارات. دليل خطوة بخطوة مع الكود المصدري باستخدام Aspose.Cells لـ Java.
+### [تعطيل الفلتر التلقائي في Excel باستخدام Java – دليل خطوة بخطوة](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
+تعلم كيفية تعطيل الفلتر التلقائي في ملفات Excel باستخدام Aspose.Cells لجافا خطوة بخطوة.
+### [إنشاء Excel برمجيًا في Java – دليل خطوة بخطوة](./create-excel-programmatically-in-java-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

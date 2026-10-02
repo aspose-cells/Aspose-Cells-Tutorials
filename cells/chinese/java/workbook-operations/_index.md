@@ -476,6 +476,12 @@ Aspose.Words Java 代码教程
 ### [如何使用 Aspose.Cells for Java 设置 Excel 文档版本](./set-excel-version-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 设置和管理 Excel 文件中的文档属性（例如版本控制）。按照本分步指南，高效地操作工作簿。
 
+### [在 Java 中将工作簿保存为 XLSX – 完整编程指南](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
+学习如何使用 Aspose.Cells for Java 将工作簿保存为 XLSX 格式，提供完整代码示例和最佳实践。
+
+### [创建 Excel 工作簿 Java – 完整分步指南](./create-excel-workbook-java-complete-step-by-step-guide/)
+学习如何使用 Java 创建 Excel 工作簿并进行完整的分步操作，涵盖创建、配置和保存等关键步骤。
+
 
 
 ## 其他资源

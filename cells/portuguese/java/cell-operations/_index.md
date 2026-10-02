@@ -51,6 +51,9 @@ Aprimore seu gerenciamento de dados Excel baseado em Java com Aspose.Cells. Apre
 ### [Como Recuperar Dados de Células Excel Usando Aspose.Cells Java&#58; Um Guia Abrangente](./aspose-cells-java-data-retrieval-excel/)
 Aprenda a extrair eficientemente diversos tipos de dados de arquivos Excel usando Aspose.Cells para Java. Domine operações de célula, gerencie dependências com Maven ou Gradle e otimize o desempenho.
 
+### [Obter data e hora de célula no Excel usando Java – Guia completo](./get-datetime-from-cell-in-java-excel-complete-guide/)
+Aprenda a extrair valores de data e hora de células do Excel com Aspose.Cells para Java, incluindo configuração, leitura e formatação corretas.
+
 ### [Como Definir uma Célula Ativa no Excel Usando Aspose.Cells para Java&#58; Um Guia Completo](./aspose-cells-java-set-active-cell-excel/)
 Aprenda a definir uma célula ativa no Excel usando Aspose.Cells para Java. Este guia cobre instalação, configuração e aplicações práticas para manipulação eficiente de planilhas.
 
@@ -92,6 +95,9 @@ Um tutorial de código para Aspose.Words Java
 
 ### [Definir Largura da Coluna no Excel Usando Aspose.Cells Java](./set-column-width-excel-aspose-cells-java/)
 Um tutorial de código para Aspose.Words Java
+
+### [Converter célula para string em Java – Guia completo de exportação](./convert-cell-to-string-in-java-complete-export-guide/)
+Aprenda a converter o conteúdo de uma célula para string em Java usando Aspose.Cells, facilitando a exportação de dados.
 
 ## Recursos Adicionais
 

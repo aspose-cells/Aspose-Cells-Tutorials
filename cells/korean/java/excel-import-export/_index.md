@@ -45,11 +45,19 @@ Aspose.Cells for Java를 사용하여 Java에서 Excel을 XML로 내보내는 �
 Aspose.Cells for Java를 사용하여 Excel에서 데이터를 가져오는 방법을 알아보세요. 원활한 데이터 검색을 위한 소스 코드가 포함된 종합 가이드입니다.
 ### [Excel을 JSON으로 내보내기](./export-excel-to-json/)
 Aspose.Cells for Java를 사용하여 Excel 데이터를 JSON으로 내보내는 방법을 알아보세요. 소스 코드와 함께 단계별 가이드를 따라 하면 원활하게 변환할 수 있습니다.
+### [Aspose.Cells Java로 JSON을 XLSX로 변환 – 전체 가이드](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
+Aspose.Cells for Java를 활용해 JSON 데이터를 XLSX 파일로 변환하는 방법을 단계별로 안내합니다. 실용적인 예제 코드를 통해 손쉽게 변환하세요.
 ### [Excel 가져오기 데이터 유효성 검사](./excel-import-data-validation/)
 이 포괄적인 단계별 가이드를 통해 Aspose.Cells for Java를 사용하여 Excel 가져오기 데이터 유효성 검사를 구현하는 방법을 알아보세요. 데이터 정확성을 보장하고 사용자 경험을 향상시킵니다. 
 ### [Excel을 HTML Java로 내보내기](./export-excel-to-html-java/)
 Aspose.Cells for Java를 사용하여 Java에서 Excel을 HTML로 내보내는 방법을 알아보세요. 소스 코드와 함께 제공되는 이 단계별 가이드를 따라 Excel 파일을 HTML로 손쉽게 변환해 보세요.
 ### [Java로 CSV 내보내기 – 유효숫자 설정 및 내보내기 범위 지정](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
+### [XLSX를 PPTX로 변환 – 편집 가능한 도형 내보내기 완전 가이드](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
+Aspose.Cells for Java를 사용해 XLSX 파일을 PPTX로 변환하고 편집 가능한 도형을 내보내는 방법을 단계별로 안내합니다.
+### [전체 폰트 포함 Excel을 HTML로 내보내기](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
+Aspose.Cells for Java를 사용하여 Excel 파일을 HTML로 변환하면서 모든 폰트를 완전히 포함하는 방법을 단계별로 안내합니다.
+### [Markdown을 Excel로 변환 – Aspose.Cells 사용 전체 가이드](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
+Aspose.Cells를 활용해 Markdown 파일을 Excel 형식으로 변환하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

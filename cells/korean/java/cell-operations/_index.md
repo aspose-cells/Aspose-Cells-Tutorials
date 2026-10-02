@@ -76,6 +76,12 @@ Aspose.Words Java용 코드 튜토리얼
 
 ### [Aspose.Cells Java를 사용하여 Excel에서 열 너비 설정하기](./set-column-width-excel-aspose-cells-java/)
 
+### [Java에서 셀을 문자열로 변환 – 완전한 내보내기 가이드](./convert-cell-to-string-in-java-complete-export-guide/)
+Aspose.Cells for Java를 사용하여 셀 값을 문자열로 변환하고 내보내는 방법을 단계별로 안내합니다.
+
+### [Java Excel에서 셀의 날짜 및 시간 가져오기 – 완전 가이드](./get-datetime-from-cell-in-java-excel-complete-guide/)
+Aspose.Cells for Java를 사용하여 Excel 셀에서 날짜와 시간을 추출하는 방법을 단계별로 안내합니다.
+
 Aspose.Words Java용 코드 튜토리얼
 
 ## 추가 리소스

@@ -71,6 +71,11 @@ Our cell‑operations tutorials give you practical, hands‑on guidance for work
 ### [Aspose.Cells ve Akıllı İşaretçilerle Excel'i Veriyle Doldurma](./populate-excel-aspose-cells-smart-markers/)
 
 ### [Aspose.Cells Java ile Excel'de Sütun Genişliği Ayarlama](./set-column-width-excel-aspose-cells-java/)
+### [Java'da Hücreyi Dizeye Dönüştürme – Tam Dışa Aktarım Kılavuzu](./convert-cell-to-string-in-java-complete-export-guide/)
+Aspose.Cells for Java kullanarak bir hücreyi metin (String) formatına dönüştürüp dışa aktarmayı adım adım öğrenin.
+
+### [Java Excel'de Hücreden Tarih ve Saat Almak – Tam Kılavuz](./get-datetime-from-cell-in-java-excel-complete-guide/)
+Aspose.Cells for Java kullanarak bir Excel hücresinden tarih ve saat değerlerini nasıl okuyacağınızı adım adım öğrenin.
 
 ## Ek Kaynaklar
 

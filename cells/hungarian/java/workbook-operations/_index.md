@@ -29,6 +29,12 @@ Munkafüzet-műveletekkel foglalkozó oktatóanyagaink átfogó útmutatást ny�
 ### [Aspose.Cells Java: Excel-munkafüzetek létrehozása és mentése – lépésről lépésre útmutató](./aspose-cells-java-create-save-excel-workbooks/)
 Ismerje meg, hogyan automatizálhatja az Excel-munkafüzetek létrehozását és kezelését az Aspose.Cells for Java használatával. Ez az útmutató a példányosítást, a mentést és az oldalbeállítási tulajdonságok beállítását ismerteti.
 
+### [Excel munkafüzet létrehozása Java – Teljes lépésről‑lépésre útmutató](./create-excel-workbook-java-complete-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre Excel munkafüzetet Java-ban az Aspose.Cells segítségével, részletes kódpéldákkal.
+
+### [Munkafüzet mentése XLSX formátumban Java-ban – Teljes programozási útmutató](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
+Ismerje meg, hogyan menthet egy munkafüzetet XLSX formátumban Java használatával az Aspose.Cells segítségével.
+
 ### [Aspose.Cells Java: Verzió megjelenítése és megosztott munkafüzet létrehozása](./aspose-cells-java-display-version-create-shared-workbook/)
 Kód oktatóanyag az Aspose.Words Java-hoz
 

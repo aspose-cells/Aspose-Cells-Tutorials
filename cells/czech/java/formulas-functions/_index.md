@@ -83,7 +83,8 @@ Naučte se, jak automatizovat úlohy v Excelu pomocí Aspose.Cells pro Javu. Tat
 ### [Jak implementovat FormulaText v Aspose.Cells pro Javu: Podrobný návod](./implementing-formula-text-aspose-cells-java-guide/)
 Naučte se, jak extrahovat text vzorců z buněk aplikace Excel pomocí Aspose.Cells v Javě. Tato příručka se zabývá nastavením, implementací a praktickými aplikacemi.
 
-
+### [Jak používat Reduce v Excelu s Javou – Průvodce lambda vzorci](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
+Naučte se, jak pomocí lambda výrazu Reduce v Excelu s Javou provádět agregace a zjednodušit výpočty.
 
 ## Další zdroje
 

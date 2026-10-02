@@ -83,7 +83,8 @@
 ### [Как реализовать FormulaText в Aspose.Cells для Java: пошаговое руководство](./implementing-formula-text-aspose-cells-java-guide/)
 Узнайте, как извлечь текст формулы из ячеек Excel с помощью Aspose.Cells с Java. Это руководство охватывает настройку, реализацию и практическое применение.
 
-
+### [Как использовать Reduce в Excel с Java – руководство по лямбда-формулам](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
+Узнайте, как применять функцию Reduce в формулах Excel с помощью Java и лямбда-выражений, улучшая обработку данных.
 
 ## Дополнительные ресурсы
 

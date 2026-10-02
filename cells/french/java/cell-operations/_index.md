@@ -42,6 +42,9 @@ Nos tutoriels d'opérations sur les cellules vous offrent des conseils pratiques
 ### [Maîtriser le système de date 1904 dans Excel avec Aspose.Cells Java pour des opérations de cellules efficaces](./aspose-cells-java-configure-1904-date-system-excel/)
 
 ### [Maîtriser Aspose.Cells&#58; Implémentation de CopyOptions & PasteOptions en Java pour la gestion des données Excel](./aspose-cells-java-copy-paste-options/)
+### [Obtenir la date et l'heure d'une cellule en Java Excel – Guide complet](./get-datetime-from-cell-in-java-excel-complete-guide/)
+Apprenez à extraire la date et l'heure d'une cellule Excel en Java avec Aspose.Cells, incluant configuration, lecture et formatage.
+
 
 ### [Comment récupérer des données à partir des cellules Excel avec Aspose.Cells Java&#58; Guide complet](./aspose-cells-java-data-retrieval-excel/)
 
@@ -59,6 +62,9 @@ Un tutoriel de code pour Aspose.Words Java
 ### [Comment convertir du texte en nombres dans Excel avec Aspose.Cells for Java](./convert-text-to-numbers-excel-aspose-cells-java/)
 
 ### [Automatisation Excel avec Aspose.Cells pour Java&#58; Intégration de HTML dans les cellules pour des rapports améliorés](./excel-automation-aspose-cells-java-html-cells/)
+### [Convertir une cellule en chaîne de caractères en Java – Guide complet d'exportation](./convert-cell-to-string-in-java-complete-export-guide/)
+Apprenez à convertir le contenu d'une cellule Excel en texte avec Aspose.Cells pour Java et à l'exporter facilement.
+
 
 ### [Insérer plusieurs lignes dans Excel avec Aspose.Cells Java&#58; Guide complet](./excel-automation-aspose-cells-java-insert-multiple-rows/)
 
