@@ -176,11 +176,14 @@ workbook.Save("Output/InvoicePopulated.xlsx");
 如果 `Items` 为空，SmartMarker 会保留表头但不会插入任何行。为避免出现空白区域，可添加条件块：
 
 ```csharp
-{{#if Orders.Items.Length > 0}}
-    ... table rows ...
-{{else}}
-    No items were ordered.
-{{/if}}
+if (order.Items.Length > 0)
+{
+    // ... table rows ...
+}
+else
+{
+    // No items were ordered.
+}
 ```
 
 ### 自定义数字格式

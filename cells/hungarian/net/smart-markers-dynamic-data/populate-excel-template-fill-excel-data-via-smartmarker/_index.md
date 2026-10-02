@@ -180,11 +180,14 @@ A **Excel sablon feltöltése** lépés most befejeződött, és sikeresen **kit
 Ha az `Items` üres, a SmartMarker a táblázat fejlécét érintetlenül hagyja, de nem szúr be sorokat. A üres hely elkerülése érdekében hozzáadhatsz egy feltételes blokkot:
 
 ```csharp
-{{#if Orders.Items.Length > 0}}
-    ... table rows ...
-{{else}}
-    No items were ordered.
-{{/if}}
+if (order.Items.Length > 0)
+{
+    // ... table rows ...
+}
+else
+{
+    // No items were ordered.
+}
 ```
 
 ### Egyedi számformátumok

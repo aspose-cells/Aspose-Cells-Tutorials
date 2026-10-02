@@ -178,11 +178,14 @@ Krok **vyplnění šablony Excel** je nyní dokončen a úspěšně jste **napln
 Pokud je `Items` prázdná, SmartMarker ponechá záhlaví tabulky, ale nevloží žádné řádky. Aby se předešlo prázdnému prostoru, můžete přidat podmíněný blok:
 
 ```csharp
-{{#if Orders.Items.Length > 0}}
-    ... table rows ...
-{{else}}
-    No items were ordered.
-{{/if}}
+if (order.Items.Length > 0)
+{
+    // ... table rows ...
+}
+else
+{
+    // No items were ordered.
+}
 ```
 
 ### Vlastní formáty čísel

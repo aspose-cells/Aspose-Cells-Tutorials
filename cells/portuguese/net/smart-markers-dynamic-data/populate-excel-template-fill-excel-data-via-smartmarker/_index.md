@@ -179,11 +179,14 @@ A etapa de **preencher modelo Excel** está concluída, e você preencheu **Exce
 Se `Items` estiver vazio, o SmartMarker deixará o cabeçalho da tabela intacto, mas não inserirá linhas. Para evitar um espaço em branco, você pode adicionar um bloco condicional:
 
 ```csharp
-{{#if Orders.Items.Length > 0}}
-    ... table rows ...
-{{else}}
-    No items were ordered.
-{{/if}}
+if (order.Items.Length > 0)
+{
+    // ... table rows ...
+}
+else
+{
+    // No items were ordered.
+}
 ```
 
 ### Formatos Numéricos Personalizados

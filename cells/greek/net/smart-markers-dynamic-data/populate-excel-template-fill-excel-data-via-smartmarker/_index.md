@@ -180,11 +180,14 @@ workbook.Save("Output/InvoicePopulated.xlsx");
 Αν το `Items` είναι κενό, το SmartMarker θα αφήσει την κεφαλίδα του πίνακα αμετάβλητη αλλά δεν θα εισάγει γραμμές. Για να αποφύγετε κενό χώρο, μπορείτε να προσθέσετε ένα υπό όρους μπλοκ:
 
 ```csharp
-{{#if Orders.Items.Length > 0}}
-    ... table rows ...
-{{else}}
-    No items were ordered.
-{{/if}}
+if (order.Items.Length > 0)
+{
+    // ... table rows ...
+}
+else
+{
+    // No items were ordered.
+}
 ```
 
 ### Προσαρμοσμένες Μορφές Αριθμών

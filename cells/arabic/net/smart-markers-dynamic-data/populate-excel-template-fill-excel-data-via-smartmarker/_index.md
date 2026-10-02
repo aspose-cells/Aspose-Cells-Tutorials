@@ -178,11 +178,14 @@ workbook.Save("Output/InvoicePopulated.xlsx");
 إذا كانت `Items` فارغة، سيترك SmartMarker عنوان الجدول دون إدراج أي صفوف. لتجنب مساحة فارغة، يمكنك إضافة كتلة شرطية:
 
 ```csharp
-{{#if Orders.Items.Length > 0}}
-    ... table rows ...
-{{else}}
-    No items were ordered.
-{{/if}}
+if (order.Items.Length > 0)
+{
+    // ... table rows ...
+}
+else
+{
+    // No items were ordered.
+}
 ```
 
 ### تنسيقات الأرقام المخصصة
