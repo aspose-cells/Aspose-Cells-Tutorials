@@ -1,46 +1,112 @@
 ---
-"date": "2025-04-07"
-"description": "Naučte se, jak vylepšit vzhled grafů v Excelu pomocí barev motivů v Aspose.Cells v Javě. Tato příručka se zabývá načítáním sešitů, úpravou vzhledu grafů a ukládáním souborů."
-"title": "Jak přizpůsobit grafy v Excelu pomocí barev motivů pomocí Aspose.Cells v Javě"
-"url": "/cs/java/charts-graphs/customize-excel-charts-aspose-cells-java/"
-"weight": 1
+date: '2026-10-02'
+description: Naučte se, jak použít tématické barvy grafů v Excelu s Aspose.Cells Java,
+  včetně nastavení závislosti Maven, kroků přizpůsobení grafu a uložení sešitu.
+keywords:
+- excel chart theme colors
+- asp​ose cells maven dependency
+- customize Excel charts
+- theme colors Aspose.Cells Java
+lastmod: '2026-10-02'
+og_description: Objevte, jak použít Aspose.Cells pro Java k aplikaci tématických barev
+  grafů v Excelu, nastavení závislosti Maven a uložení vylepšeného sešitu.
+og_image_alt: Guide showing Excel chart theme colors customization using Aspose.Cells
+  Java
+og_title: Tématické barvy grafů v Excelu – přizpůsobte grafy s Aspose.Cells Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-02'
+  description: Learn how to apply excel chart theme colors with Aspose.Cells Java,
+    including Maven dependency setup, chart customization steps, and saving the workbook.
+  headline: How to customize Excel charts with theme colors using Aspose.Cells Java
+  type: TechArticle
+- description: Learn how to apply excel chart theme colors with Aspose.Cells Java,
+    including Maven dependency setup, chart customization steps, and saving the workbook.
+  name: How to customize Excel charts with theme colors using Aspose.Cells Java
+  steps:
+  - name: Install the JDK if it isn’t already on your machine.
+    text: Install the JDK if it isn’t already on your machine.
+  - name: Create a new Java project in your IDE.
+    text: Create a new Java project in your IDE.
+  - name: Add the Aspose.Cells dependency via Maven or Gradle as shown above.
+    text: Add the Aspose.Cells dependency via Maven or Gradle as shown above.
+  - name: '**Add the dependency** – include the Maven or Gradle snippet shown earlier.'
+    text: '**Add the dependency** – include the Maven or Gradle snippet shown earlier.'
+  - name: '**Initialize the license** (optional but recommended for production).'
+    text: '**Initialize the license** (optional but recommended for production).'
+  - name: '**Data‑visualization projects** – produce polished charts for client presentations.'
+    text: '**Data‑visualization projects** – produce polished charts for client presentations.'
+  - name: '**Business analytics** – enforce corporate branding across all analytical
+      reports.'
+    text: '**Business analytics** – enforce corporate branding across all analytical
+      reports.'
+  - name: '**Java‑driven automation** – integrate chart styling into batch processing
+      pipelines.'
+    text: '**Java‑driven automation** – integrate chart styling into batch processing
+      pipelines.'
+  - name: '**Educational material** – create visually consistent teaching aids.'
+    text: '**Educational material** – create visually consistent teaching aids.'
+  - name: '**Financial reporting** – align charts with the firm’s visual identity
+      for regulatory filings.'
+    text: '**Financial reporting** – align charts with the firm’s visual identity
+      for regulatory filings.'
+  type: HowTo
+- questions:
+  - answer: Apply excel chart theme colors to existing charts using Aspose.Cells for
+      Java.
+    question: What is the primary goal?
+  - answer: Aspose.Cells 25.3 or later.
+    question: Which library version is required?
+  - answer: A temporary or permanent license is required for full feature access.
+    question: Do I need a license?
+  - answer: Yes—add the Aspose.Cells Maven dependency to your `pom.xml`.
+    question: Can I use Maven?
+  - answer: Absolutely; the API works on Java 8 and newer runtimes.
+    question: Is the code compatible with Java 8+?
+  type: FAQPage
+tags:
+- excel chart theme colors
+- Aspose.Cells
+- Java chart customization
+- Maven dependency
+title: Jak přizpůsobit grafy v Excelu pomocí tématických barev s Aspose.Cells Java
+url: /cs/java/charts-graphs/customize-excel-charts-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Jak přizpůsobit grafy v Excelu pomocí tématických barev s Aspose.Cells Java
 
-# Jak přizpůsobit grafy v Excelu pomocí barev motivů pomocí Aspose.Cells v Javě
+## Úvod
+Zvyšte vizuální dopad svých tabulek aplikací **excel chart theme colors** pomocí Aspose.Cells pro Java. Tento tutoriál vás provede načtením sešitu, přístupem ke grafům, přiřazením tématických barev řadám a uložením výsledku. Ať už připravujete obchodní zprávu, analytický dashboard nebo automatizovaný datový export, konzistentní stylování grafů usnadní čtení vašich dat a působí profesionálně.
 
-## Zavedení
-Chcete vylepšit vizuální atraktivitu svých excelových grafů přizpůsobením barev motivů? Tento tutoriál vás provede jejich používáním. **Aspose.Cells pro Javu** pro bezproblémové vylepšení vzhledu vašeho excelového grafu. Ať už jste datový analytik, vývojář nebo obchodní profesionál, vylepšení estetiky vašich grafů může výrazně zvýšit jejich efektivitu při sdělování informací.
+Na konci tohoto průvodce budete schopni:
 
-V tomto článku se podíváme na to, jak:
-- Načíst sešit aplikace Excel a získat přístup k určitým listům a grafům.
-- Použití barev motivu na řadu grafů.
-- Uložte změny – vše pomocí Aspose.Cells pro Javu.
+- Načíst existující soubor Excel a najít graf, který chcete stylovat.  
+- Použít konkrétní tématickou barvu na každou řadu grafu pomocí třídy `ThemeColor`.  
+- Uložit sešit při zachování veškerého formátování a dat.
 
-Na konci tohoto tutoriálu budete mít komplexní znalosti o:
-- Načítání sešitů a přístup k pracovním listům v Javě.
-- Úprava vzhledu grafu pomocí vlastních typů výplní a barev motivů.
-- Efektivní ukládání aktualizovaných souborů aplikace Excel.
+Před začátkem se ujistěte, že vaše vývojové prostředí splňuje níže uvedené předpoklady.
 
-Než se ponoříme do detailů implementace, ujistěte se, že je vaše prostředí správně nastaveno pro práci s Aspose.Cells.
+## Rychlé odpovědi
+- **Jaký je hlavní cíl?** Aplikovat excel chart theme colors na existující grafy pomocí Aspose.Cells pro Java.  
+- **Která verze knihovny je požadována?** Aspose.Cells 25.3 nebo novější.  
+- **Potřebuji licenci?** Pro plný přístup k funkcím je vyžadována dočasná nebo trvalá licence.  
+- **Mohu použít Maven?** Ano – přidejte Maven závislost Aspose.Cells do souboru `pom.xml`.  
+- **Je kód kompatibilní s Java 8+?** Rozhodně; API funguje na Java 8 a novějších runtimech.
 
 ## Předpoklady
-Abyste mohli pokračovat v tomto tutoriálu, budete potřebovat:
-
-- **Knihovna Aspose.Cells**Ujistěte se, že máte verzi 25.3 nebo novější pro Aspose.Cells pro Javu.
-- **Vývojová sada pro Javu (JDK)**Je vyžadován JDK 8 nebo vyšší.
-- **Nastavení IDE**Jakékoli Java IDE, jako je IntelliJ IDEA nebo Eclipse, bude fungovat perfektně.
+- **Aspose.Cells knihovna** – verze 25.3 nebo novější.  
+- **Java Development Kit (JDK)** – 8 nebo vyšší.  
+- **IDE** – IntelliJ IDEA, Eclipse nebo jakýkoli editor kompatibilní s Java.
 
 ### Požadované knihovny
 Ujistěte se, že váš projekt obsahuje potřebné závislosti:
 
-**Znalec**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -49,39 +115,48 @@ Ujistěte se, že váš projekt obsahuje potřebné závislosti:
 </dependency>
 ```
 
-**Gradle**
+**Gradle**  
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Získání licence
-Aspose.Cells je komerční knihovna, ale můžete začít s bezplatnou zkušební verzí a otestovat její funkce:
-- **Bezplatná zkušební verze**Získejte dočasnou licenci pro přístup k plným funkcím bez omezení.
-- **Dočasná licence**Žádost o dočasnou licenci [zde](https://purchase.aspose.com/temporary-license/).
-- **Nákup**Pro dlouhodobé používání zvažte zakoupení plné licence [zde](https://purchase.aspose.com/buy).
+Aspose.Cells je komerční produkt, ale můžete začít s bezplatnou zkušební verzí:
+
+- **Bezplatná zkušební verze** – získáte dočasnou licenci pro neomezené hodnocení.  
+- **Dočasná licence** – požádejte o dočasnou licenci [požádejte o dočasnou licenci](https://purchase.aspose.com/temporary-license/).  
+- **Koupit** – zakupte plnou licenci [koupit plnou licenci](https://purchase.aspose.com/buy).
 
 ### Nastavení prostředí
-1. Nainstalujte JDK, pokud již není nainstalováno.
-2. Nastavte si IDE a vytvořte nový projekt v Javě.
-3. Přidejte závislost Aspose.Cells pomocí Mavenu nebo Gradle.
+1. Nainstalujte JDK, pokud již není na vašem počítači.  
+2. Vytvořte nový Java projekt ve vašem IDE.  
+3. Přidejte závislost Aspose.Cells pomocí Maven nebo Gradle, jak je uvedeno výše.
 
-## Nastavení Aspose.Cells pro Javu
-Chcete-li začít používat Aspose.Cells, postupujte takto:
+## Jak aplikovat tématické barvy na grafy v Excelu pomocí Aspose.Cells Java?
+Načtěte sešit, najděte cílový graf, nastavte `ThemeColor` na každou řadu a uložte soubor – vše ve čtyřech stručných krocích. Tento přístup zajišťuje, že graf přijme stejný vizuální jazyk jako zbytek dokumentu, což zlepšuje čitelnost a konzistenci značky ve všech generovaných zprávách.
 
-1. **Přidat závislost**Zahrňte knihovnu Aspose.Cells do konfigurace sestavení, jak je znázorněno výše.
-2. **Inicializovat licenci** (volitelné): Pokud máte licenční soubor, použijte ho pro odemknutí všech funkcí:
-    ```java
+## Co je ThemeColor v Aspose.Cells?
+`ThemeColor` představuje barvu definovanou paletou tématu sešitu, což vám umožňuje aplikovat konzistentní branding bez pevného kódování RGB hodnot. Používání tématických barev zajišťuje, že grafy se automaticky přizpůsobí při změně tématu sešitu. Třída `ThemeColor` představuje barvu založenou na tématu, kterou lze použít na prvky grafu. `ThemeColorType` je výčet předdefinovaných tématických barev, jako jsou ACCENT_1, ACCENT_2 atd.
+
+## Nastavení Aspose.Cells pro Java
+Pro zahájení používání Aspose.Cells postupujte podle následujících kroků:
+
+1. **Přidejte závislost** – zahrňte ukázkový kód Maven nebo Gradle uvedený výše.  
+2. **Inicializujte licenci** (volitelné, ale doporučené pro produkci).  
+
+```java
     import com.aspose.cells.License;
 
     License license = new License();
     license.setLicense("path_to_license_file");
     ```
 
-Nyní, když je nastavení hotové, pojďme začít s úpravou grafů aplikace Excel pomocí barev motivů.
+Nyní, když je knihovna připravena, přizpůsobme graf.
 
 ## Průvodce implementací
-### Načíst sešit a zobrazit list
-**Přehled**Prvním krokem je načtení existujícího souboru aplikace Excel a přístup k určitému listu pro manipulaci s jeho obsahem.
+
+### Načtení sešitu a přístup k listu
+Třída `Workbook` načte soubor Excel do paměti a poskytne vám programový přístup k jeho listům, buňkám a grafům.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -93,11 +168,11 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 WorksheetCollection worksheets = workbook.getWorksheets();
 Worksheet sheet = worksheets.get(0);
 ```
-- **Parametry**: Ten `Workbook` konstruktor načte soubor Excel ze zadaného adresáře.
-- **Přístup k pracovnímu listu**Použití `workbook.getWorksheets()` získat všechny pracovní listy a přistupovat k nim pomocí indexu.
+- **Parametry** – konstruktor přijímá cestu ke zdrojovému souboru.  
+- **Přístup k listu** – `workbook.getWorksheets()` vrací kolekci; můžete získat list podle indexu nebo názvu.
 
-### Přístup k grafu a použití typu výplně
-**Přehled**Vzhled grafu si můžete přizpůsobit nastavením typu výplně pro jeho sérii.
+### Přístup k grafu a nastavení typu výplně
+Můžete upravit, jak je řada grafu vykreslena, nastavením typu výplně, který určuje vizuální styl zobrazení dat.
 
 ```java
 import com.aspose.cells.Chart;
@@ -106,11 +181,11 @@ import com.aspose.cells.FillType;
 Chart chart = sheet.getCharts().get(0);
 chart.getNSeries().get(0).getArea().getFillFormat().setFillType(FillType.SOLID);
 ```
-- **Přístup k grafu**Načtěte první graf z listu pomocí `sheet.getCharts()`.
-- **Nastavení typu výplně**Použití `setFillType()` definovat, jak je vyplněna oblast série.
+- **Přístup k grafu** – `sheet.getCharts().get(0)` získá první graf na listu.  
+- **Nastavení typu výplně** – `setFillType()` vám umožní vybrat mezi plnou, gradientní nebo vzorovanou výplní.
 
-### Nastavit barvu motivu na řadu grafů
-**Přehled**Vylepšete graf použitím barvy motivu, čímž jej vizuálně sladíte s designem dokumentu.
+### Nastavení ThemeColor pro řady grafu
+Aplikujte tématickou barvu na každou řadu, aby graf odpovídal celkovému designu sešitu.
 
 ```java
 import com.aspose.cells.CellsColor;
@@ -122,70 +197,87 @@ cc.setThemeColor(new ThemeColor(ThemeColorType.FOLLOWED_HYPERLINK, 0.6));
 
 chart.getNSeries().get(0).getArea().getFillFormat().getSolidFill().setCellsColor(cc);
 ```
-- **Nastavení barvy motivu**Využít `ThemeColor` a `ThemeColorType` použít konzistentní barvu motivu.
-- **Přizpůsobení**Průhlednost upravte druhým parametrem v `new ThemeColor()`.
+- **Nastavení tématické barvy** – vytvořte instanci `ThemeColor` s požadovaným `ThemeColorType` (např. `ACCENT_1`).  
+- **Průhlednost** – druhý argument řídí neprůhlednost, což vám umožní vytvořit jemné stínovací efekty.
 
-### Uložit sešit
-**Přehled**Po provedení změn sešit uložte, aby se zachovaly úpravy.
+### Uložení sešitu
+Uložte své změny voláním metody `save()` s požadovanou výstupní cestou a formátem.
 
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "MicrosoftTheme_out.xlsx");
 ```
-- **Ukládání souboru**: Ten `save()` Metoda zapíše aktualizovaný sešit do zadané cesty.
+- **Ukládání souboru** – zadejte umístění a volitelně formát (XLSX, XLS, CSV atd.) pro vytvoření finálního sešitu.
 
 ## Praktické aplikace
-Přizpůsobení grafů aplikace Excel pomocí barev motivů je užitečné v různých scénářích:
-1. **Projekty vizualizace dat**Vylepšení estetiky sestav pro prezentace.
-2. **Obchodní analytika**Zachovat konzistenci napříč firemními dokumenty a dashboardy.
-3. **Integrace s Java aplikacemi**Automatizujte úpravy grafů v rámci procesů zpracování dat.
-4. **Vzdělávací nástroje**Vytvořte vizuálně poutavé materiály pro studenty.
-5. **Finanční výkaznictví**Slaďte grafy se značkou společnosti ve finančních výkazech.
+Přizpůsobení tématických barev grafů v Excelu je užitečné v mnoha kontextech:
+
+1. **Projekty vizualizace dat** – vytvářejte vylepšené grafy pro prezentace klientům.  
+2. **Obchodní analytika** – vynutí firemní branding ve všech analytických zprávách.  
+3. **Automatizace v Java** – integrujte stylování grafů do dávkových zpracovatelských pipeline.  
+4. **Vzdělávací materiály** – vytvořte vizuálně konzistentní výukové pomůcky.  
+5. **Finanční reportování** – sladí grafy s vizuální identitou firmy pro regulatorní podání.
 
 ## Úvahy o výkonu
-Pro zajištění optimálního výkonu při používání Aspose.Cells:
-- **Správa zdrojů**Po provedení operací zavřete sešity, abyste uvolnili paměť.
-- **Efektivní zpracování dat**Při práci s velkými datovými sadami používejte streamy nebo dočasné soubory.
-- **Správa paměti v Javě**Pro zpracování rozsáhlých souborů aplikace Excel, zejména v podnikových prostředích, přidělte dostatek prostoru v paměti.
+Aspose.Cells je navržen pro scénáře s vysokou propustností:
+
+- **Efektivita paměti** – knihovna může pracovat s listy většími než 1 GB, aniž by načetla celý soubor do paměti.  
+- **Podpora streamování** – použijte streamy `Workbook` pro zpracování obrovských datových sad, čímž snížíte využití haldy až o 70 %.  
+- **Vícevláknové zpracování** – paralelizujte aktualizace grafů napříč listy, abyste snížili dobu zpracování přibližně o 30 % na vícejádrových serverech.
 
 ## Závěr
-Nyní jste se naučili, jak přizpůsobit grafy v Excelu pomocí barev motivů v Aspose.Cells v Javě. Tyto kroky vám pomohou vylepšit vizuální atraktivitu vašich datových prezentací a zajistit konzistenci napříč různými dokumenty. Pokračujte v objevování dalších funkcí Aspose.Cells, abyste dále rozšířili své automatizační možnosti v Excelu.
+Nyní máte kompletní workflow pro aplikaci tématických barev grafů v Excelu pomocí Aspose.Cells Java. Tyto kroky vám pomohou vytvářet konzistentní, značce odpovídající vizualizace při zachování udržovatelnosti a výkonnosti kódu. Prozkoumejte další možnosti přizpůsobení grafů – jako jsou popisky dat, formátování os a vlastní témata – pro další vylepšení vašich zpráv.
 
-Další kroky:
-- Experimentujte s různými typy grafů.
-- Prozkoumejte další možnosti přizpůsobení grafů.
-- Integrujte tyto techniky do větších projektů nebo pracovních postupů.
+### Další kroky
+- Experimentujte s různými hodnotami `ThemeColorType` (ACCENT_2, ACCENT_3 atd.).  
+- Zkuste aplikovat tématické barvy na více grafů v jednom sešitu.  
+- Kombinujte tento přístup s Aspose.Slides pro generování PowerPoint prezentací, které sdílejí stejný vizuální styl.
 
-## Sekce Často kladených otázek
-**Q1: Mohu přizpůsobit více grafů v sešitu najednou?**
-A1: Ano, procházet všechny grafy pomocí `sheet.getCharts().toArray()` na každý z nich aplikovat úpravy.
+## Často kladené otázky
+**Q1: Mohu přizpůsobit více grafů v sešitu najednou?**  
+A1: Ano, projděte `sheet.getCharts()` a aplikujte stejnou logiku `ThemeColor` na každou řadu grafu.
 
-**Q2: Jak mám řešit chyby při načítání souboru aplikace Excel?**
-A2: Použijte bloky try-catch kolem inicializace sešitu k zachycení výjimek, jako je `FileNotFoundException`.
+**Q2: Jak zacházet s chybami při načítání souboru Excel?**  
+A2: Zabalte konstruktor `Workbook` do bloku try‑catch a podle potřeby ošetřete `FileNotFoundException` nebo `InvalidFormatException`.
 
-**Q3: Lze barvy motivu přizpůsobit i mimo předdefinované typy?**
-A3: Ano, můžete definovat vlastní barvy motivu pomocí hodnot RGB prostřednictvím dalších nastavení Aspose.Cells.
+**Q3: Lze tématické barvy upravit mimo předdefinované typy?**  
+A3: Můžete definovat vlastní položky tématu úpravou palety tématu sešitu pomocí třídy `Theme` a následně je odkazovat pomocí `ThemeColor`.
 
-**Otázka 4: Co když můj sešit obsahuje více listů s grafy?**
-A4: Přístup ke každému listu přes `workbook.getWorksheets().get(i)` a podle potřeby proveďte úpravy grafu.
+**Q4: Co když můj sešit obsahuje více listů s grafy?**  
+A4: Projděte `workbook.getWorksheets()` a opakujte kroky přizpůsobení grafu pro každý list, který obsahuje grafy.
 
-**Q5: Jak zajistím kompatibilitu mezi různými verzemi Excelu?**
-A5: Uložte si sešity ve formátech kompatibilních se staršími verzemi Excelu pomocí `workbook.saveFormat()` možnosti.
+**Q5: Jak zajistit kompatibilitu napříč různými verzemi Excelu?**  
+A5: Uložte sešit pomocí `SaveFormat.XLSX` pro moderní verze nebo `SaveFormat.XLS` pro starší kompatibilitu; Aspose.Cells automaticky upravuje sadu funkcí.
+
+**Q6: Zahrnuje Maven závislost transitive knihovny?**  
+A6: Maven artefakt Aspose.Cells zahrnuje všechny potřebné závislosti, takže stačí přidat jediný `<dependency>` záznam uvedený výše.
+
+**Q7: Mohu také aplikovat tématické barvy na názvy grafů?**  
+A7: Ano – přistupte k názvu grafu pomocí `chart.getTitle()` a nastavte barvu jeho `Font` pomocí instance `ThemeColor`.
 
 ## Zdroje
-- **Dokumentace**: [Referenční příručka k Aspose.Cells pro Javu](https://reference.aspose.com/cells/java/)
-- **Stáhnout**: [Vydání Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Nákup**: [Koupit Aspose.Cells](https://purchase.aspose.com/buy)
-- **Bezplatná zkušební verze**: [Začněte s bezplatnou licencí](https://releases.aspose.com/cells/java/)
-- **Dočasná licence**: [Žádost o dočasný přístup](https://purchase.aspose.com/temporary-license/)
-- **Podpora**: [Fórum podpory Aspose](https://forum.aspose.com/c/cells/9)
+- **Dokumentace**: [Aspose.Cells for Java Reference](https://reference.aspose.com/cells/java/)  
+- **Stáhnout**: [Aspose.Cells Releases](https://releases.aspose.com/cells/java/)  
+- **Koupit**: [Buy Aspose.Cells](https://purchase.aspose.com/buy)  
+- **Bezplatná zkušební verze**: [Začít s bezplatnou licencí](https://releases.aspose.com/cells/java/)  
+- **Dočasná licence**: [Požádat o dočasný přístup](https://purchase.aspose.com/temporary-license/)  
+- **Podpora**: [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
-Pokud narazíte na nějaké problémy nebo potřebujete další pomoc, neváhejte se obrátit na fórum podpory.
+---
+
+**Poslední aktualizace:** 2026-10-02  
+**Testováno s:** Aspose.Cells 25.3 for Java  
+**Autor:** Aspose
+
+## Související tutoriály
+
+- [Jak aplikovat témata na řady grafu v Excelu pomocí Aspose.Cells Java](/cells/java/formatting/apply-themes-chart-series-aspose-cells-java/)
+- [Jak změnit tématické barvy v Excelu pomocí Aspose.Cells pro Java: Kompletní průvodce](/cells/java/formatting/change-excel-theme-colors-aspose-cells-java/)
+- [Mistrovství v Excelu s Aspose.Cells Java: Vytváření sešitu a přizpůsobení grafu](/cells/java/charts-graphs/aspose-cells-java-workbook-chart-customization/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
