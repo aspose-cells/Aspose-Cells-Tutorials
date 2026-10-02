@@ -178,11 +178,14 @@ workbook.Save("Output/InvoicePopulated.xlsx");
 หาก `Items` ว่าง, SmartMarker จะคงส่วนหัวของตารางไว้แต่จะไม่แทรกแถวใด ๆ. เพื่อหลีกเลี่ยงช่องว่าง, คุณสามารถเพิ่มบล็อกเงื่อนไขได้:
 
 ```csharp
-{{#if Orders.Items.Length > 0}}
-    ... table rows ...
-{{else}}
-    No items were ordered.
-{{/if}}
+if (order.Items.Length > 0)
+{
+    // ... table rows ...
+}
+else
+{
+    // No items were ordered.
+}
 ```
 
 ### รูปแบบตัวเลขที่กำหนดเอง

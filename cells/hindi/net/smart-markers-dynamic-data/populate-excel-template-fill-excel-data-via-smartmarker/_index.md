@@ -178,11 +178,14 @@ workbook.Save("Output/InvoicePopulated.xlsx");
 यदि `Items` खाली है, तो SmartMarker टेबल हेडर को बरकरार रखेगा लेकिन कोई पंक्तियाँ इन्सर्ट नहीं करेगा। खाली स्पेस से बचने के लिए आप एक कंडीशनल ब्लॉक जोड़ सकते हैं:
 
 ```csharp
-{{#if Orders.Items.Length > 0}}
-    ... table rows ...
-{{else}}
-    No items were ordered.
-{{/if}}
+if (order.Items.Length > 0)
+{
+    // ... table rows ...
+}
+else
+{
+    // No items were ordered.
+}
 ```
 
 ### कस्टम नंबर फ़ॉर्मेट्स

@@ -178,11 +178,14 @@ workbook.Save("Output/InvoicePopulated.xlsx");
 `Items` が空の場合、SmartMarker はテーブルヘッダーは残すものの行は挿入しません。空白スペースを防ぐために条件ブロックを追加できます：
 
 ```csharp
-{{#if Orders.Items.Length > 0}}
-    ... table rows ...
-{{else}}
-    No items were ordered.
-{{/if}}
+if (order.Items.Length > 0)
+{
+    // ... table rows ...
+}
+else
+{
+    // No items were ordered.
+}
 ```
 
 ### カスタム数値書式

@@ -178,11 +178,14 @@ The **populate Excel template** step is now complete, and you have successfully 
 If `Items` is empty, SmartMarker will leave the table header intact but won’t insert any rows. To avoid a blank space, you can add a conditional block:
 
 ```csharp
-{{#if Orders.Items.Length > 0}}
-    ... table rows ...
-{{else}}
-    No items were ordered.
-{{/if}}
+if (order.Items.Length > 0)
+{
+    // ... table rows ...
+}
+else
+{
+    // No items were ordered.
+}
 ```
 
 ### Custom Number Formats
