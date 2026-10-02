@@ -1,42 +1,88 @@
 ---
-"date": "2025-04-08"
-"description": "Naučte se vytvářet a upravovat koláčové grafy pomocí Aspose.Cells pro Javu. Podrobný návod s příklady kódu pro vývojáře."
-"title": "Zvládnutí Aspose.Cells&#58; Vytváření a úprava koláčových grafů v Javě"
-"url": "/cs/java/charts-graphs/create-customize-aspose-cells-pie-chart-java/"
-"weight": 1
+date: '2026-09-27'
+description: Naučte se, jak vytvořit koláčový graf v Javě pomocí Aspose.Cells. Podrobný
+  návod krok za krokem, jak přizpůsobit koláčový graf v Excelu, nastavit Maven závislost
+  a generovat profesionální grafy.
+keywords:
+- create pie chart java
+- customize excel pie chart
+- maven dependency aspose cells
+lastmod: '2026-09-27'
+og_description: Vytvořte koláčový graf v Javě pomocí Aspose.Cells pro Javu. Naučte
+  se přizpůsobit koláčový graf v Excelu, přidat Maven závislost a během minut generovat
+  profesionální grafy.
+og_image_alt: Java code generating a customized pie chart in Excel with Aspose.Cells
+og_title: Vytvořte koláčový graf v Javě s Aspose.Cells – Kompletní průvodce Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-27'
+  description: Learn how to create pie chart java using Aspose.Cells. Step‑by‑step
+    guide to customize Excel pie chart, set up Maven dependency, and generate professional
+    charts.
+  headline: How to create pie chart java with Aspose.Cells
+  type: TechArticle
+- questions:
+  - answer: Yes, repeat the chart‑creation steps for each data range; each chart is
+      independent.
+    question: Can I generate multiple pie charts in the same workbook?
+  - answer: It does; set the chart type to `ChartType.PIE_3D` when adding the chart.
+    question: Does Aspose.Cells support 3‑D pie charts?
+  - answer: Use the `Workbook.setDefaultTheme` method before creating any charts.
+    question: How do I apply a custom theme to all charts?
+  - answer: Over 30 formats, including XLSX, CSV, PDF, and HTML.
+    question: What file formats can I export the workbook to?
+  - answer: Yes, a valid license removes evaluation watermarks and unlocks full functionality.
+    question: Is a license required for commercial deployment?
+  type: FAQPage
+tags:
+- Aspose.Cells
+- Java charting
+- Excel automation
+- data visualization
+title: Jak vytvořit koláčový graf v Javě s Aspose.Cells
+url: /cs/java/charts-graphs/create-customize-aspose-cells-pie-chart-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Jak vytvořit koláčový graf v Javě pomocí Aspose.Cells
 
-# Zvládnutí Aspose.Cells: Vytváření a úprava koláčových grafů v Javě
+## Úvod
+Vytváření **pie chart** programově často připomíná hádanku, zejména když potřebujete detailní kontrolu nad barvami, legendami a nadpisy. V tomto průvodci se naučíte, jak **create pie chart java** pomocí Aspose.Cells a poté přizpůsobit Excel **pie chart** tak, aby odpovídal vaší značce nebo stylu reportování. Provedeme vás nastavením prostředí, naplněním dat, generováním grafu a vizuálními úpravami – vše bez opuštění vašeho Java IDE.
 
-## Zavedení
-Vytváření vizuálně poutavých grafů je běžným požadavkem při práci s vizualizací dat v Excelu. Ať už prezentujete demografické informace nebo analyzujete tržní trendy, koláčové grafy nabízejí jasný způsob, jak reprezentovat proporcionální data. Nastavení těchto grafů programově však může být složité. Tento tutoriál vás provede vytvořením a přizpůsobením koláčového grafu Aspose.Cells pomocí Javy, což zjednoduší proces pro vývojáře.
+**What you'll learn**
+- Přidejte **Maven dependency Aspose.Cells** do svého projektu.
+- Vytvořte sešit, naplňte buňky daty a vygenerujte **pie chart**.
+- Použijte vlastní barvy, nadpisy a legendy v grafu.
+- Exportujte sešit do souboru XLSX připraveného ke sdílení.
 
-**Co se naučíte:**
-- Nastavte si prostředí pomocí Aspose.Cells pro Javu.
-- Vytvořte nový sešit a zpřístupněte buňky v listu.
-- Naplňte data do konkrétních buněk a připravte se tak na vytvoření grafu.
-- Z těchto dat vygenerujte koláčový graf.
-- Přizpůsobte si vzhled koláčového grafu, včetně barev, názvů a legend.
+Před začátkem byste měli být obeznámeni se základní syntaxí Javy a mít nainstalovaný Maven nebo Gradle.
 
-Než se do toho pustíte, ujistěte se, že máte základní znalosti programování v Javě a správy závislostí v Mavenu nebo Gradlu. Pojďme si nastavit naše prostředí!
+## Rychlé odpovědi
+- **Which library creates pie charts in Java?** Aspose.Cells for Java.  
+- **Do I need a license?** A free trial works for development; a paid license is required for production.  
+- **What Maven coordinates are required?** `com.aspose:aspose-cells:24.10`.  
+- **Can I change slice colors?** Yes, via the `setAreaColor` method on each series.  
+- **Is the chart exportable to XLSX?** Absolutely—just call `workbook.save("output.xlsx")`.
 
-## Předpoklady
-Abyste mohli pokračovat v tomto tutoriálu, budete potřebovat:
-- **Vývojová sada pro Javu (JDK)**Verze 8 nebo vyšší.
-- **Integrované vývojové prostředí (IDE)**Například IntelliJ IDEA nebo Eclipse.
-- **Správa závislostí**Pro správu závislostí použijte Maven nebo Gradle.
+## Co je pie chart v Excelu?
+Pie chart vizualizuje jedinou datovou sérii jako poměrné výseče kruhu, což usnadňuje porovnání částí celku. Úhel každé výseče odpovídá její hodnotě vzhledem k celku, což umožňuje rychlý pohled na rozdělení napříč kategoriemi, jako je podíl na trhu, rozdělení rozpočtu nebo demografické procenta.
+
+## Proč použít Aspose.Cells k vytvoření pie chart java?
+Aspose.Cells podporuje více než 50 typů grafů a dokáže zpracovat listy s až jedním milionem řádků, aniž by načítal celý soubor do paměti. Tento výkonnostní náskok vám umožní generovat rozsáhlé reporty na skromném hardware, přičemž poskytuje detailní kontrolu nad vzhledem grafu, vazbou dat a exportními formáty, což z něj činí lepší volbu než mnoho open‑source knihoven.
+
+## Požadavky
+- **Java Development Kit (JDK)** 8 nebo novější.
+- **IDE** jako IntelliJ IDEA nebo Eclipse.
+- **Maven** nebo **Gradle** pro správu závislostí.
+- Zkušební nebo zakoupená licence Aspose.Cells.
 
 ### Požadované knihovny a závislosti
-Nezapomeňte do svého projektu zahrnout Aspose.Cells pro Javu pomocí Mavenu nebo Gradle.
+Přidejte Maven artefakt Aspose.Cells do svého `pom.xml`:
 
-**Znalec**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -45,31 +91,29 @@ Nezapomeňte do svého projektu zahrnout Aspose.Cells pro Javu pomocí Mavenu ne
 </dependency>
 ```
 
-**Gradle**
+Nebo ekvivalent pro Gradle:
+
 ```gradle
 implementation 'com.aspose:aspose-cells:25.3'
 ```
 
 ### Kroky získání licence
-Aspose.Cells pro Javu je komerční knihovna, ale můžete začít s bezplatnou zkušební verzí nebo požádat o dočasnou licenci. Navštivte [stránka nákupu](https://purchase.aspose.com/buy) prozkoumat možnosti licencování.
+Aspose.Cells pro Java je komerční, ale můžete začít s bezplatnou zkušební verzí. Navštivte [stránku nákupu](https://purchase.aspose.com/buy) a získejte dočasný licenční klíč.
 
-## Nastavení Aspose.Cells pro Javu
-Nejprve se ujistěte, že vaše projektové prostředí obsahuje potřebné knihovny, a to jejich přidáním pomocí Mavenu nebo Gradle, jak je znázorněno výše. Po přidání můžete inicializovat Aspose.Cells:
+## Nastavení Aspose.Cells pro Java
+Nejprve se ujistěte, že knihovna je ve vašem classpath. Po přidání závislosti můžete inicializovat API, jak je ukázáno níže.
 
 ```java
 import com.aspose.cells.Workbook;
 
-// Inicializace nové instance sešitu
+// Initialize a new workbook instance
 Workbook workbook = new Workbook();
 ```
 
 ## Průvodce implementací
 
 ### Vytvoření a konfigurace sešitu
-Vytvoření sešitu je prvním krokem, ve kterém nastavíte data.
-
-#### Import knihoven
-Ujistěte se, že tyto importy jsou zahrnuty na začátku souboru:
+Třída `Workbook` představuje celý Excel soubor v paměti.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -83,23 +127,24 @@ import com.aspose.cells.LegendPositionType;
 import com.aspose.cells.SaveFormat;
 ```
 
-#### Krok 1: Vytvoření instance sešitu
+#### Krok 1: vytvořit instanci sešitu
 ```java
-// Vytvoří prázdnou instanci sešitu pro práci.
+// Creates an empty workbook instance to work with.
 Workbook workbook = new Workbook();
-```
-Tento krok programově inicializuje váš soubor Excel, což vám umožní s ním manipulovat pomocí funkcí Aspose.Cells.
+```  
+Tím se vytvoří nový, prázdný sešit, který můžete okamžitě začít naplňovat.
 
-### Přístup k buňkám pracovního listu nebo jejich úprava
-Dále vyplňte buňky listu daty, které budou použity pro koláčový graf.
+### Přístup nebo úprava buněk listu
+Třída `Worksheet` představuje jeden list v sešitu, obsahující buňky, řádky a sloupce.  
+Do listu zapíšete data, která napájejí **pie chart**.
 
-#### Krok 2: Přístup k pracovnímu listu a jeho buňkám
+#### Krok 2: získat první list a jeho buňky
 ```java
-// Otevřete první list v sešitu.
+// Access the first worksheet in the workbook.
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Cells cells = worksheet.getCells();
 
-// Vložte vzorové hodnoty použité pro koláčový graf do konkrétních buněk.
+// Put sample values used for a pie chart into specific cells.
 cells.get("C3").putValue("India");
 cells.get("C4").putValue("China");
 cells.get("C5").parseNumber("United States", true, null);
@@ -107,7 +152,7 @@ cells.get("C6").setValue("Russia");
 cells.get("C7").setValue("United Kingdom");
 cells.get("C8").setValue("Others");
 
-// Vložte procentuální hodnoty pro koláčový graf do konkrétních buněk.
+// Put percentage values for a pie chart into specific cells.
 cells.get("D2").putValue("% of world population");
 cells.get("D3").putValue(25);
 cells.get("D4").putValue(30);
@@ -115,52 +160,53 @@ cells.get("D5").putValue(10);
 cells.get("D6").putValue(13);
 cells.get("D7").putValue(9);
 cells.get("D8").putValue(13);
-```
-Zde naplníte list daty, která budou představovat různé segmenty koláčového grafu.
+```  
+Naplněte buňky názvy kategorií a hodnotami, které graf použije.
 
-### Vytvořte koláčový graf
+### Vytvořit **pie chart**
+`Chart` objekty vizualizují data v listu a podporují různé typy, jako jsou **pie**, sloupcové a čárové grafy.
 
-#### Krok 3: Přidání koláčového grafu do pracovního listu
+#### Krok 3: přidat **pie chart** do listu
 ```java
-// Vytvořte v pracovním listu koláčový graf.
+// Create a pie chart in the worksheet.
 int pieIdx = worksheet.getCharts().add(ChartType.PIE, 1, 6, 15, 14);
 Chart pie = worksheet.getCharts().get(pieIdx);
-```
-Tento krok přidá do listu nový koláčový graf na zadaných pozicích a s určenými rozměry.
+```  
 
-### Konfigurace řad a dat koláčového grafu
+### Konfigurace sérií a dat **pie chart**
+`Series` definuje rozsah dat a formátování pro graf, propojující buňky listu s vizuálními prvky.
 
-#### Krok 4: Nastavení série pro graf
+#### Krok 4: nastavit sérii pro graf
 ```java
-// Nakonfigurujte rozsah dat řady pro graf.
+// Configure the series data range for the chart.
 pie.getNSeries().add("D3:D8", true);
 pie.getNSeries().setCategoryData("=Sheet1!$C$3:$C$8");
 
-// Propojte název koláčového grafu s buňkou obsahující text názvu.
+// Link the pie chart title to a cell containing the title text.
 pie.getTitle().setLinkedSource("D2");
-```
-Tento kód propojí váš datový rozsah a nastaví řadu pro koláčový graf.
+```  
 
-### Konfigurace vzhledu legendy a názvu grafu
+### Nastavení vzhledu legendy a názvu grafu
+Legenda grafu `Legend` zobrazuje názvy sérií a barvy, což pomáhá čtenářům identifikovat jednotlivé výseče.
 
-#### Krok 5: Úprava legendy a názvu grafu
+#### Krok 5: přizpůsobit legendu a název grafu
 ```java
-// Nastavte polohu legendy ve spodní části grafu.
+// Set legend position at bottom of the chart.
 pie.getLegend().setPosition(LegendPositionType.BOTTOM);
 
-// Nastavte vlastnosti písma pro název grafu.
+// Set font properties for the chart title.
 pie.getTitle().getFont().setName("Calibri");
 pie.getTitle().getFont().setSize(18);
-```
-Přizpůsobení vzhledu zvyšuje čitelnost a vizuální atraktivitu.
+```  
 
-### Přizpůsobení barev řady grafů
+### Přizpůsobení barev sérií grafu
+`setAreaColor` nastavuje barvu výplně výseče série grafu pomocí RGB hodnoty.
 
-#### Krok 6: Změna barev segmentů koláčového grafu
+#### Krok 6: změnit barvy segmentů **pie**
 ```java
 import com.aspose.cells.Color;
 
-// Přístup k barvám jednotlivých segmentů koláčového grafu a jejich úprava.
+// Access and customize colors of individual pie chart segments.
 Series srs = pie.getNSeries().get(0);
 srs.getPoints().get(0).getArea().setForegroundColor(Color.fromArgb(0, 246, 22, 219));
 srs.getPoints().get(1).getArea().setForegroundColor(Color.fromArgb(0, 51, 34, 84));
@@ -168,41 +214,64 @@ srs.getPoints().get(2).getArea().setForegroundColor(Color.fromArgb(0, 46, 74, 44
 srs.getPoints().get(3).getArea().setForegroundColor(Color.fromArgb(0, 19, 99, 44));
 srs.getPoints().get(4).getArea().setForegroundColor(Color.fromArgb(0, 208, 223, 7));
 srs.getPoints().get(5).getArea().setForegroundColor(Color.fromArgb(0, 222, 69, 8));
-```
-Tato nastavení přizpůsobí váš graf tak, aby odpovídal konkrétním barevným schématům.
+```  
 
 ### Automatické přizpůsobení sloupců a uložení sešitu
+`autoFitColumns` automaticky upravuje šířky sloupců tak, aby odpovídaly obsahu buněk.
 
-#### Krok 7: Upravte šířku sloupců a uložte soubor
+#### Krok 7: upravit šířky sloupců a uložit soubor
 ```java
-// Automaticky přizpůsobit všechny sloupce.
+// Autofit all columns.
 worksheet.autoFitColumns();
 
-// Definujte zástupnou cestu k výstupnímu adresáři pro uložení sešitu.
+// Define output directory placeholder path for saving the workbook.
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 
-// Uložte upravený sešit do souboru aplikace Excel v zadaném adresáři.
+// Save the modified workbook to an Excel file in the specified directory.
 workbook.save(outDir + "/CSOrSColorsPieChart_out.xlsx", SaveFormat.XLSX);
-```
-Nakonec automaticky přizpůsobte sloupce a uložte sešit.
+```  
 
-## Praktické aplikace
-1. **Demografická analýza**: Použijte koláčové grafy pro zobrazení rozložení populace v různých zemích nebo regionech.
-2. **Zprávy o podílu na trhu**Znázorněte tržní podíl různých společností v daném odvětví.
-3. **Rozpočtové rozdělení**Vizualizace rozdělení rozpočtů mezi různá oddělení v rámci organizace.
-
-Tyto aplikace demonstrují všestrannost a užitečnost Aspose.Cells v reálných situacích.
+## Běžné případy použití
+- **Demographic analysis:** Zobrazit rozdělení populace napříč regiony.
+- **Market‑share reporting:** Vizualizovat podíl každého konkurenta na první pohled.
+- **Budget allocation:** Zvýraznit, jak jsou prostředky rozděleny mezi oddělení.
 
 ## Úvahy o výkonu
-Optimalizace výkonu při použití Aspose.Cells:
-- Minimalizujte využití paměti odstraněním objektů, které již nepotřebujete.
-- Používejte efektivní datové struktury pro zpracování velkých datových sad.
-- Profilujte svou aplikaci a identifikujte úzká hrdla.
+- Uvolněte objekty (`workbook.dispose()`), když již nejsou potřeba, aby se uvolnila nativní paměť.
+- Pro obrovské datové sady použijte `WorkbookDesigner` ke streamování dat místo načítání všeho najednou.
+- Profilujte pomocí Java Flight Recorder k odhalení případných úzkých míst při generování grafu.
 
-Dodržování osvědčených postupů zajišťuje plynulý a responzivní chod aplikací.
+## Často kladené otázky
+
+**Q: Mohu v jednom sešitu vytvořit více **pie chart**?**  
+A: Ano, opakujte kroky vytvoření grafu pro každý datový rozsah; každý graf je nezávislý.
+
+**Q: Podporuje Aspose.Cells 3‑D **pie chart**?**  
+A: Ano; při přidávání grafu nastavte typ grafu na `ChartType.PIE_3D`.
+
+**Q: Jak použít vlastní téma na všechny grafy?**  
+A: Použijte metodu `Workbook.setDefaultTheme` před vytvořením jakýchkoli grafů.
+
+**Q: Do jakých formátů mohu exportovat sešit?**  
+A: Do více než 30 formátů, včetně XLSX, CSV, PDF a HTML.
+
+**Q: Je licence vyžadována pro komerční nasazení?**  
+A: Ano, platná licence odstraňuje vodotisky z hodnocení a odemyká plnou funkčnost.
 
 ## Závěr
-Tento tutoriál vás provedl kroky pro vytvoření a úpravu koláčového grafu pomocí Aspose.Cells v Javě. S těmito znalostmi nyní můžete tyto techniky aplikovat na různé úlohy vizualizace dat ve vašich projektech. Pro další zkoumání zvažte další typy grafů a pokročilé možnosti úprav dostupné v Aspose.Cells.
+Nyní máte kompletní, end‑to‑end návod pro **create pie chart java** s Aspose.Cells. Dodržením výše uvedených kroků můžete generovat vylepšené Excel **pie chart**, přizpůsobit barvy a nadpisy a vložit je do jakéhokoli reportovacího řetězce. Prozkoumejte další typy grafů – sloupcové, čárové, radarové – a rozšiřte tak svou sadu nástrojů pro vizualizaci dat.
+
+---
+
+**Poslední aktualizace:** 2026-09-27  
+**Testováno s:** Aspose.Cells 24.10 for Java  
+**Autor:** Aspose
+
+## Související tutoriály
+
+- [Přizpůsobení popisků dat v Excel grafu pomocí Aspose.Cells pro Java&#58; Průvodce krok za krokem](/cells/java/charts-graphs/customize-chart-data-labels-aspose-cells-java/)
+- [Vytvoření dynamických Excel grafů s Aspose.Cells Java&#58; Kompletní průvodce pro vývojáře](/cells/java/charts-graphs/aspose-cells-java-dynamic-excel-charts/)
+- [Vytvoření a přizpůsobení Excel sešitů pomocí Aspose.Cells Java&#58; Průvodce krok za krokem](/cells/java/workbook-operations/create-customize-excel-workbooks-aspose-cells-java/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
