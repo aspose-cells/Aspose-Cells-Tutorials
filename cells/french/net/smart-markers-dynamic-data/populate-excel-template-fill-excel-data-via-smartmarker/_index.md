@@ -180,11 +180,14 @@ L’étape **remplir le modèle Excel** est maintenant terminée, et vous avez r
 Si `Items` est vide, SmartMarker laissera l’en‑tête du tableau intacte mais n’insérera aucune ligne. Pour éviter un espace blanc, vous pouvez ajouter un bloc conditionnel :
 
 ```csharp
-{{#if Orders.Items.Length > 0}}
-    ... table rows ...
-{{else}}
-    No items were ordered.
-{{/if}}
+if (order.Items.Length > 0)
+{
+    // ... table rows ...
+}
+else
+{
+    // No items were ordered.
+}
 ```
 
 ### Formats numériques personnalisés

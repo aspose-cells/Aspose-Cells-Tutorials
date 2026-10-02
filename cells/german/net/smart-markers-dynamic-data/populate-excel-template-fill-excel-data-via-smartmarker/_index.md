@@ -180,11 +180,14 @@ Der Schritt **Excel‑Vorlage ausfüllen** ist nun abgeschlossen, und Sie haben 
 Ist `Items` leer, lässt SmartMarker die Tabellenüberschrift erhalten, fügt jedoch keine Zeilen ein. Um einen leeren Raum zu vermeiden, können Sie einen bedingten Block hinzufügen:
 
 ```csharp
-{{#if Orders.Items.Length > 0}}
-    ... table rows ...
-{{else}}
-    No items were ordered.
-{{/if}}
+if (order.Items.Length > 0)
+{
+    // ... table rows ...
+}
+else
+{
+    // No items were ordered.
+}
 ```
 
 ### Benutzerdefinierte Zahlenformate

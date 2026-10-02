@@ -179,11 +179,14 @@ Krok **wypełniania szablonu Excel** jest teraz zakończony, a Ty pomyślnie **w
 Jeśli `Items` jest pusty, SmartMarker pozostawi nagłówek tabeli nienaruszony, ale nie wstawi żadnych wierszy. Aby uniknąć pustej przestrzeni, możesz dodać blok warunkowy:
 
 ```csharp
-{{#if Orders.Items.Length > 0}}
-    ... table rows ...
-{{else}}
-    No items were ordered.
-{{/if}}
+if (order.Items.Length > 0)
+{
+    // ... table rows ...
+}
+else
+{
+    // No items were ordered.
+}
 ```
 
 ### Własne formaty liczb

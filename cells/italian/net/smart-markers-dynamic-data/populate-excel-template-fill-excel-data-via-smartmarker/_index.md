@@ -178,11 +178,14 @@ Il passo di **popolare il modello Excel** è ora completato, e hai riempito con 
 Se `Items` è vuoto, SmartMarker lascerà intatta l'intestazione della tabella ma non inserirà righe. Per evitare uno spazio vuoto, puoi aggiungere un blocco condizionale:
 
 ```csharp
-{{#if Orders.Items.Length > 0}}
-    ... table rows ...
-{{else}}
-    No items were ordered.
-{{/if}}
+if (order.Items.Length > 0)
+{
+    // ... table rows ...
+}
+else
+{
+    // No items were ordered.
+}
 ```
 
 ### Formati numerici personalizzati
