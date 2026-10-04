@@ -1,0 +1,7 @@
+Title: How to copy pivot table in Excel with C# and Aspose.Cells
+Slug: how-to-copy-pivot-table-in-excel-with-c-and-aspose-cells
+Category: pivot-tables
+ProcessedDate: 2026-10-04T14:23:26.166987
+SourceRepo: AI Search API
+Keywords: copy pivot table, how to copy pivot, copy excel range, how to copy rows, duplicate pivot table
+PRNumber: 180
