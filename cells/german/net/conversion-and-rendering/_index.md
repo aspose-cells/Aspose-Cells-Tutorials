@@ -68,6 +68,9 @@ Erfahren Sie, wie Sie mit Aspose.Cells ein neues Excel-Arbeitsbuch in C# erstell
 ### [Markdown nach Excel konvertieren – Vollständiger C#-Leitfaden](./convert-markdown-to-excel-complete-c-guide/)
 Erfahren Sie, wie Sie mit C# Markdown-Dateien in Excel-Tabellen umwandeln und dabei Aspose.Cells nutzen.
 
+### [Wie man JSON in Excel in C# mit einer einzigen kommagetrennten Zelle konvertiert](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Erfahren Sie, wie Sie JSON-Daten mit Aspose.Cells in Excel umwandeln, wobei jede Zeile in einer einzigen kommagetrennten Zelle gespeichert wird.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

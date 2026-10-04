@@ -21,6 +21,8 @@ Com o Aspose.Cells para .NET, você pode personalizar totalmente tabelas dinâmi
 
 {{< tutorial-card link="./pivot-table-save-in-ods/" title="Salvar Tabela Dinâmica como ODS em Aspose.Cells" imgSrc="./pivot-table-save-in-ods/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-copy-pivot-table-in-excel-with-c-and-aspose-cells/" title="Como copiar uma tabela dinâmica no Excel com C# e Aspose.Cells" imgSrc="./how-to-copy-pivot-table-in-excel-with-c-and-aspose-cells/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

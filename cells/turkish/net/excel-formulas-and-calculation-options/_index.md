@@ -86,6 +86,8 @@ Aspose.Cells for .NET kullanarak koşullu mantık içeren bir Excel dosyasını 
 Aspose.Cells kullanarak C# dilinde dizileri dinamik olarak genişletmeyi adım adım öğrenin.
 ### [C#'ta WRAPCOLS Kullanımı – Dizileri Matrislere Dönüştürme](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
 Bu adım adım kılavuzda Aspose.Cells for .NET kullanarak C#'ta WRAPCOLS fonksiyonuyla dizileri matrislere nasıl dönüştüreceğinizi öğrenin.
+### [C# ile EXPAND Fonksiyonunu Kullanarak Excel Çalışma Kitabı Oluşturma](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+Bu adım adım kılavuzda Aspose.Cells for .NET kullanarak C# ile EXPAND fonksiyonunu nasıl kullanıp bir Excel çalışma kitabı oluşturacağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -88,6 +88,8 @@ Apprenez à calculer la fonction cotangente dans Excel en utilisant C# avec Aspo
 Apprenez à utiliser la fonction WRAPCOLS en C# pour convertir des tableaux en matrices avec Aspose.Cells pour .NET.
 ### [Comment créer un tableau dans Excel avec C# – Guide étape par étape](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 Apprenez à créer et manipuler des tableaux dans Excel en utilisant C# avec Aspose.Cells, grâce à ce guide détaillé étape par étape.
+### [Comment créer un classeur Excel en C# avec la fonction EXPAND](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+Apprenez à créer un classeur Excel en C# en utilisant la fonction EXPAND avec Aspose.Cells, guide étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

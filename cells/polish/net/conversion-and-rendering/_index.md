@@ -65,8 +65,12 @@ Dowiedz się, jak wyeksportować tabelę przestawną z Excela jako obraz PNG prz
 
 ### [Utwórz nowy skoroszyt w C# – Importuj Markdown do Excela](./create-new-workbook-in-c-import-markdown-to-excel/)
 Dowiedz się, jak w C# utworzyć nowy skoroszyt i zaimportować zawartość Markdown do pliku Excel przy użyciu Aspose.Cells.
+
 ### [Konwertuj markdown do Excela – Kompletny przewodnik C#](./convert-markdown-to-excel-complete-c-guide/)
 Dowiedz się, jak w C# przekształcić pliki markdown w arkusze Excel przy użyciu Aspose.Cells.
+
+### [Jak przekonwertować JSON do Excela w C# przy użyciu jednej komórki z przecinkami](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Dowiedz się, jak w C# zamienić dane JSON w arkusz Excel, wykorzystując jedną komórkę z wartościami oddzielonymi przecinkami.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

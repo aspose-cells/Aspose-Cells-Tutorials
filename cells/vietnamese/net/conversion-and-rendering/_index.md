@@ -67,6 +67,8 @@ Hướng dẫn xuất Pivot Table từ Excel sang PNG bằng C# và Aspose.Cells
 Hướng dẫn cách tạo một workbook mới trong C# và nhập nội dung Markdown vào Excel bằng Aspose.Cells.
 ### [Chuyển đổi markdown sang Excel – Hướng dẫn C# đầy đủ](./convert-markdown-to-excel-complete-c-guide/)
 Hướng dẫn chi tiết cách chuyển đổi nội dung markdown thành tệp Excel bằng C# và Aspose.Cells.
+### [Cách chuyển đổi JSON sang Excel trong C# với một ô chứa dữ liệu phân tách bằng dấu phẩy](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Hướng dẫn chi tiết cách chuyển đổi dữ liệu JSON thành file Excel trong C# với một ô duy nhất chứa các giá trị được ngăn cách bằng dấu phẩy.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

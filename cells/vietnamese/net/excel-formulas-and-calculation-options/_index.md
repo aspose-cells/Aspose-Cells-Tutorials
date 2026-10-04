@@ -69,6 +69,8 @@ Mở khóa tiềm năng của Excel với Aspose.Cells cho .NET. Tìm hiểu t�
 Mở khóa sức mạnh của Excel với Aspose.Cells cho .NET. Tìm hiểu cách xử lý dữ liệu bằng các hàm mảng trong hướng dẫn chi tiết này.
 ### [Cách mở rộng mảng trong C# với Aspose.Cells – Hướng dẫn từng bước](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Tìm hiểu cách mở rộng mảng trong C# bằng Aspose.Cells qua hướng dẫn chi tiết từng bước.
+### [Cách tạo workbook Excel trong C# với hàm EXPAND](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+Hướng dẫn từng bước tạo workbook Excel trong C# sử dụng hàm EXPAND với Aspose.Cells.
 ### [Xử lý dữ liệu bằng các hàm tích hợp trong Excel](./processing-data-using-built-in-functions/)
 Khám phá cách xử lý dữ liệu bằng các hàm tích hợp trong Excel với Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước để tự động hóa dễ dàng.
 ### [Xử lý dữ liệu bằng R1C1 trong Excel](./processing-data-using-r1c1/)

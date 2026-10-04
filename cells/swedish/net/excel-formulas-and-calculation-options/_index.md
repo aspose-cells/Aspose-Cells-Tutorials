@@ -88,6 +88,8 @@ Lär dig att skapa en Excel-fil i C# med villkorslogik steg för steg med Aspose
 Lär dig hur du utökar en array i C# med Aspose.Cells genom en tydlig steg‑för‑steg‑guide.
 ### [Hur man skapar en array i Excel med C# – Steg‑för‑steg‑guide](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 Lär dig hur du skapar en array i Excel med C# med vår steg‑för‑steg‑guide för Aspose.Cells för .NET.
+### [Hur man skapar Excel-arbetsbok i C# med EXPAND-funktionen](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+Lär dig hur du skapar en Excel-arbetsbok i C# med EXPAND‑funktionen med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

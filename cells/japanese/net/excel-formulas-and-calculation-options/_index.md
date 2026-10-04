@@ -78,6 +78,9 @@ Aspose.Cells for .NET を使用して、Excel で R1C1 数式を使ってデー�
 ### [C# で WRAPCOLS を使用する方法 – 配列を行列に変形](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
 Aspose.Cells for .NET の WRAPCOLS 関数を利用し、一次元配列を行列に変換する手順を分かりやすく解説します。
 
+### [C# で EXPAND 関数を使用して Excel ワークブックを作成する方法](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+Aspose.Cells for .NET を使って、C# で EXPAND 関数を利用し Excel ワークブックを作成する手順を解説します。
+
 ### [C# で Excel ファイルを作成 – 条件付きロジックによるステップバイステップガイド](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 Aspose.Cells for .NET を使用して C# で条件付きロジックを組み込んだ Excel ファイルを作成する方法をステップバイステップで解説します。
 
