@@ -80,16 +80,16 @@ Zjistěte, jak registrovat a volat funkce z doplňků v Excelu pomocí Aspose.Ce
 Zjistěte, jak v Excelu pomocí Aspose.Cells pro .NET zadat maximální počet řádků pro sdílené vzorce, a to v tomto jednoduchém a podrobném tutoriálu.
 ### [Jak vytvořit pole v Excelu pomocí C# – průvodce krok za krokem](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 Naučte se pomocí Aspose.Cells pro .NET v C# vytvořit pole v Excelu v podrobném průvodci krok za krokem.
-
 ### [c# vytvořit Excel soubor – krok za krokem s podmíněnou logikou](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 Naučte se vytvořit Excel soubor v C# pomocí Aspose.Cells s podmíněnou logikou krok za krokem.
-
 ### [Přepočítat všechny vzorce v C# – Obnovit Excel](./recalculate-all-formulas-in-c-refresh-excel/)
 Naučte se, jak v C# pomocí Aspose.Cells přepočítat všechny vzorce v sešitu a aktualizovat data v Excelu.
 ### [Jak rozšířit pole v C# pomocí Aspose.Cells – krok za krokem](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Naučte se, jak pomocí Aspose.Cells rozšířit pole v C# a efektivně pracovat s dynamickými daty v Excelu.
 ### [Jak použít WRAPCOLS v C# – Přetvořit pole na matice](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
 Naučte se, jak v C# pomocí WRAPCOLS převést pole na matici v Aspose.Cells pro .NET.
+### [Jak vytvořit Excel sešit v C# s funkcí EXPAND](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+Naučte se pomocí Aspose.Cells pro .NET vytvořit sešit Excel v C# a využít funkci EXPAND pro rozšíření dat.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

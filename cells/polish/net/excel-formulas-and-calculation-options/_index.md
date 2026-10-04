@@ -89,6 +89,9 @@ Dowiedz się, jak w prosty sposób rozszerzyć tablicę w C# przy użyciu Aspose
 ### [c# tworzenie pliku Excel – przewodnik krok po kroku z logiką warunkową](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 Dowiedz się, jak w C# tworzyć plik Excel krok po kroku, wykorzystując logikę warunkową przy pomocy Aspose.Cells dla .NET.
 
+### [Jak utworzyć skoroszyt Excel w C# z funkcją EXPAND](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+Dowiedz się, jak przy użyciu Aspose.Cells dla .NET w C# utworzyć skoroszyt Excel wykorzystując funkcję EXPAND w prostym przewodniku krok po kroku.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

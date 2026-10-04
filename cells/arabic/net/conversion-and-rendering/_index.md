@@ -67,6 +67,8 @@
 تعلم كيفية إنشاء مصنف Excel جديد في C# واستيراد محتوى Markdown إلى ورقة العمل باستخدام Aspose.Cells.
 ### [تحويل markdown إلى Excel – دليل C# كامل](./convert-markdown-to-excel-complete-c-guide/)
 تعلم كيفية تحويل ملفات markdown إلى جداول Excel باستخدام Aspose.Cells في C# خطوة بخطوة.
+### [كيفية تحويل JSON إلى Excel في C# باستخدام خلية مفصولة بفواصل واحدة](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+تعلم كيفية تحويل ملفات JSON إلى Excel في C# بخلية مفصولة بفواصل واحدة باستخدام Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

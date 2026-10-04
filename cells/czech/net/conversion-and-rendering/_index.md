@@ -67,6 +67,8 @@ Naučte se exportovat kontingenční tabulku z Excelu do formátu PNG pomocí As
 Naučte se vytvořit nový sešit v C# a importovat obsah Markdown do Excelu pomocí Aspose.Cells.
 ### [Převod markdownu do Excelu – Kompletní průvodce v C#](./convert-markdown-to-excel-complete-c-guide/)
 Naučte se převádět soubory markdown do formátu Excel pomocí Aspose.Cells v C# s podrobným krok‑za‑krokem návodem.
+### [Jak převést JSON do Excel v C# s jednou buňkou oddělenou čárkou](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Naučte se převést JSON do Excel v C# pomocí jedné buňky s čárkou oddělených hodnot.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

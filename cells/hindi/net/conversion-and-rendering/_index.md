@@ -68,6 +68,9 @@ C# कोड का उपयोग करके नया Excel वर्कब
 ### [मार्कडाउन को Excel में परिवर्तित करना – पूर्ण C# गाइड](./convert-markdown-to-excel-complete-c-guide/)
 C# में Aspose.Cells का उपयोग करके मार्कडाउन फ़ाइल को Excel स्प्रेडशीट में बदलने की पूरी प्रक्रिया सीखें।
 
+### [C# में एकल कॉमा‑सेपरेटेड सेल के साथ JSON को Excel में कैसे बदलें](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Aspose.Cells का उपयोग करके C# में JSON डेटा को एकल कॉमा‑सेपरेटेड सेल से Excel फ़ाइल में बदलना सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

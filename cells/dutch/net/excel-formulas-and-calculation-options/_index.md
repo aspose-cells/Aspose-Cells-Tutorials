@@ -87,6 +87,8 @@ Leer hoe u cotangens berekent in Excel met C# via een duidelijke, stap‑voor‑
 Leer hoe u een array in C# kunt uitbreiden met Aspose.Cells in deze stapsgewijze handleiding.
 ### [Hoe een array in Excel maken met C# – Stapsgewijze handleiding](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 Leer hoe je met Aspose.Cells voor .NET een array in Excel kunt maken met C# in deze gedetailleerde stap‑voor‑stap gids.
+### [Hoe een Excel-werkmap te maken in C# met de EXPAND-functie](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+Leer hoe je met Aspose.Cells voor .NET een Excel-werkmap maakt in C# met de EXPAND-functie in deze stapsgewijze tutorial.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

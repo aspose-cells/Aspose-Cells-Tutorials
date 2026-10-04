@@ -65,8 +65,12 @@ Tanuld meg, hogyan exportálhatsz Pivot táblákat PNG képként C#-ban az Aspos
 
 ### [Új munkafüzet létrehozása C#-ban – Markdown importálása Excelbe](./create-new-workbook-in-c-import-markdown-to-excel/)
 Tanuld meg, hogyan hozhatsz létre új Excel munkafüzetet C#-ban, és importálj Markdown tartalmat Excelbe az Aspose.Cells segítségével.
+
 ### [Markdown konvertálása Excelbe – Teljes C# útmutató](./convert-markdown-to-excel-complete-c-guide/)
 Tanuld meg, hogyan alakíthatod át a Markdown fájlokat Excel táblázatokká C# segítségével az Aspose.Cells használatával.
+
+### [JSON konvertálása Excelbe C#-ban egyetlen vesszővel elválasztott cellával](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Tanuld meg, hogyan konvertálhatsz JSON adatot Excel munkafüzetbe C#-ban egyetlen vesszővel elválasztott cella használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

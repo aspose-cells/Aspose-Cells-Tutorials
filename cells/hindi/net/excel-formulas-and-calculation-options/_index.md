@@ -66,6 +66,8 @@
 ### [Aspose.Cells के साथ C# में एरे को विस्तारित करने की चरण‑दर‑चरण गाइड](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Aspose.Cells का उपयोग करके C# में एरे को कैसे विस्तारित करें, इस विस्तृत मार्गदर्शिका में सीखें।
 
+### [C# में EXPAND फ़ंक्शन के साथ Excel वर्कबुक कैसे बनाएं](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+
 ### [c# एक्सेल फ़ाइल बनाना – शर्तीय लॉजिक के साथ चरण‑दर‑चरण गाइड](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 
 ### [C# में सभी फ़ॉर्मूले पुनः गणना करें – Excel रीफ़्रेश करें](./recalculate-all-formulas-in-c-refresh-excel/)

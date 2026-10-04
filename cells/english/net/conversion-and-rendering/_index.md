@@ -67,6 +67,8 @@ Learn how to export an Excel pivot table as a PNG image using Aspose.Cells for .
 Learn how to create a new workbook in C# and import Markdown content into Excel using Aspose.Cells.
 ### [Convert markdown to Excel – Complete C# Guide](./convert-markdown-to-excel-complete-c-guide/)
 Learn how to transform Markdown files into Excel spreadsheets using C# and Aspose.Cells in this comprehensive guide.
+### [How to convert JSON to Excel in C# with a single comma‑separated cell](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Learn how to transform JSON data into an Excel file in C#, handling a single comma‑separated cell efficiently.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

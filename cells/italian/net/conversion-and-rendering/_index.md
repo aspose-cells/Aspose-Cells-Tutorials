@@ -36,6 +36,8 @@ Impara a convertire Excel in PDF in modo semplice e avanzato con Aspose.Cells in
 Scopri come convertire un foglio di lavoro Excel in SVG utilizzando Aspose.Cells per .NET con questa guida passo passo. Perfetto per gli sviluppatori .NET che desiderano convertire Excel in SVG.
 ### [Conversione di Excel in MHTML in .NET](./converting-excel-to-mhtml/)
 Scopri come convertire in modo efficiente i file Excel nel formato MHTML in .NET con Aspose.Cells, potenziando le tue capacità di reporting e condivisione dei dati.
+### [Come convertire JSON in Excel in C# con una singola cella separata da virgole](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Scopri come trasformare dati JSON in un file Excel in C#, inserendo tutti gli elementi in una singola cella separata da virgole.
 ### [Salva docx come txt – Converti Word in txt facilmente con Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
 Scopri come convertire documenti Word (.docx) in file di testo (.txt) rapidamente con Aspose.Words per .NET.
 

@@ -69,6 +69,8 @@ Excel 隨附大量內建函數，可執行各種計算和資料操作。了解�
 使用 Aspose.Cells for .NET 釋放 Excel 的強大功能。在本詳細教程中學習使用數組函數處理資料。
 ### [在 C# 中使用 Aspose.Cells 展開陣列 – 步驟說明指南](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 透過本逐步指南了解如何在 C# 中使用 Aspose.Cells 展開陣列，以提升資料處理效率。
+### [如何在 C# 中使用 EXPAND 函數建立 Excel 工作簿](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+本逐步指南說明如何在 C# 中使用 Aspose.Cells 的 EXPAND 函數建立 Excel 工作簿。
 ### [使用 Excel 內建函數處理數據](./processing-data-using-built-in-functions/)
 了解如何使用 Aspose.Cells for .NET 中的 Excel 內建函數處理資料。按照逐步教程輕鬆自動化。
 ### [使用 Excel 中的 R1C1 處理數據](./processing-data-using-r1c1/)

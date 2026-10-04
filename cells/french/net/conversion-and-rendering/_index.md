@@ -74,6 +74,8 @@ Apprenez à exporter un tableau croisé dynamique d'Excel au format PNG en C# av
 Apprenez à créer un classeur Excel en C# et à importer du contenu Markdown, étape par étape avec Aspose.Cells.
 ### [Convertir le markdown en Excel – Guide complet C#](./convert-markdown-to-excel-complete-c-guide/)
 Apprenez à transformer du texte markdown en fichiers Excel avec Aspose.Cells en C#, étape par étape.
+### [Comment convertir JSON en Excel en C# avec une seule cellule séparée par des virgules](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Apprenez à transformer des données JSON en classeur Excel en C# en utilisant une seule cellule contenant des valeurs séparées par des virgules.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

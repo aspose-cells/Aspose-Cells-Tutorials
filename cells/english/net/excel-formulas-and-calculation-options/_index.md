@@ -87,6 +87,8 @@ Step-by-step guide to calculate cotangent in Excel using C# with Aspose.Cells fo
 Learn how to expand an array in C# using Aspose.Cells with this step‑by‑step guide.
 ### [How to Create Array in Excel with C# – Step‑by‑Step Guide](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 Learn how to create an array in Excel using C# with Aspose.Cells for .NET in this step-by-step guide.
+### [How to create Excel workbook in C# with the EXPAND function](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+Learn to generate an Excel workbook in C# using the EXPAND function with Aspose.Cells for .NET in this step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

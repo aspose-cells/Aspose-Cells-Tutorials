@@ -69,6 +69,8 @@ Aprenda a exportar una tabla dinámica de Excel a una imagen PNG usando Aspose.C
 Aprenda a crear un nuevo libro de trabajo en C# e importar contenido Markdown a Excel usando Aspose.Cells.
 ### [Convertir markdown a Excel – Guía completa en C#](./convert-markdown-to-excel-complete-c-guide/)
 Aprenda a convertir archivos markdown a Excel usando Aspose.Cells con C# paso a paso.
+### [Cómo convertir JSON a Excel en C# con una sola celda separada por comas](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Aprenda a transformar datos JSON en una hoja de Excel en C#, usando una única celda con valores separados por comas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

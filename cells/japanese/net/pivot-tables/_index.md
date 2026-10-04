@@ -21,6 +21,8 @@ Aspose.Cells for .NET を使用すると、計算フィールドの追加、デ�
 
 {{< tutorial-card link="./pivot-table-save-in-ods/" title="Aspose.Cells でピボット テーブルを ODS として保存する" imgSrc="./pivot-table-save-in-ods/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-copy-pivot-table-in-excel-with-c-and-aspose-cells/" title="C# と Aspose.Cells を使用して Excel のピボットテーブルをコピーする方法" imgSrc="./how-to-copy-pivot-table-in-excel-with-c-and-aspose-cells/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
