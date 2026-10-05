@@ -84,9 +84,13 @@ Sajátítsa el az Aspose.Cells for .NET-et általános listákkal és intelligen
 ### [HTML tulajdonságok használata intelligens jelölőkben Aspose.Cells .NET](./html-property-smart-markers/)
 Engedd szabadjára az Aspose.Cells erejét ezzel a lépésről lépésre haladó oktatóanyaggal, amely bemutatja a HTML tulajdonság használatát az intelligens jelölőkben .NET alkalmazásokhoz.
 ### [Beágyazott objektumok kezelése intelligens jelölőkkel Aspose.Cells](./nested-objects-smart-markers/)
-Az Aspose.Cells segítségével lépésről lépésre haladva könnyen kezelheted a beágyazott objektumokat intelligens jelölők segítségével, így az Excel-jelentéskészítésben rejlő lehetőségeket is kihasználhatod.
+Az Aspose.Cells segítségével lépésről lépésre haladva könnyedén kezelheted a beágyazott objektumokat intelligens jelölők segítségével, így az Excel-jelentéskészítésben rejlő lehetőségeket is kihasználhatod.
 ### [Változó tömb implementálása intelligens jelölőkkel Aspose.Cells](./variable-array-smart-markers/)
 Engedd szabadjára az Aspose.Cells erejét. Tanuld meg, hogyan valósíthatsz meg változó tömböket intelligens jelölőkkel lépésről lépésre a zökkenőmentes Excel-jelentéskészítéshez.
+### [SmartMarker alkalmazása munkalapon C#-ban – Teljes útmutató](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
+
+### [Excel programozott létrehozása Aspose.Cells Smart Markerekkel](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+
 ### [Munkafüzet létrehozása XLSX-ből az Aspose.Cells SmartMarkerProcessor-rel](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
 
 ### [Hogyan kapcsoljunk össze munkalapokat Excelben SmartMarkerrel – Lépésről‑lépésre útmutató](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
@@ -152,8 +156,6 @@ Ismerd meg, hogyan hozhatsz létre dinamikus munkalapokat intelligens jelölőkk
 
 ### [Feltételes cellaérték létrehozása Aspose.Cells Smart Markerrel](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
 Ismerje meg, hogyan hozhat létre feltételes cellaértékeket Smart Marker segítségével az Aspose.Cells .NET-ben.
-### [SmartMarker alkalmazása munkalapon C#-ban – Teljes útmutató](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
-### [Excel programozott létrehozása Aspose.Cells Smart Markerekkel](./create-excel-programmatically-using-aspose-cells-smart-marke/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

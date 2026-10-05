@@ -80,13 +80,18 @@ Aspose.Cells स्मार्ट मार्कर अनाम प्रक�
 जेनेरिक सूचियों और स्मार्ट मार्करों के साथ .NET के लिए Aspose.Cells को मास्टर करें ताकि आसानी से गतिशील एक्सेल रिपोर्ट बनाई जा सके। डेवलपर्स के लिए आसान गाइड।
 ### [स्मार्ट मार्कर Aspose.Cells .NET में HTML प्रॉपर्टी का उपयोग करें](./html-property-smart-markers/)
 .NET अनुप्रयोगों के लिए स्मार्ट मार्करों में HTML प्रॉपर्टी का उपयोग करने पर इस चरण-दर-चरण ट्यूटोरियल के साथ Aspose.Cells की शक्ति को अनलॉक करें।
-### [स्मार्ट मार्करों में नेस्टेड ऑब्जेक्ट्स को संभालें Aspose.Cells](./nested-objects-smart-markers/)
+### [स्मार्ट मार्करों के साथ नेस्टेड ऑब्जेक्ट्स को संभालें Aspose.Cells](./nested-objects-smart-markers/)
 चरण-दर-चरण मार्गदर्शिका में स्मार्ट मार्कर का उपयोग करके नेस्टेड ऑब्जेक्ट्स को आसानी से प्रबंधित करके Aspose.Cells के साथ एक्सेल रिपोर्टिंग की क्षमता को अनलॉक करें।
 ### [Aspose.Cells में नेस्टेड रेंज विकल्प सक्षम करें](./enable-nested-range-option-in-aspose-cells-smartmarker/)
 Aspose.Cells में Nested Range विकल्प को सक्षम करके जटिल डेटा संरचनाओं को आसानी से संभालें।
 
 ### [स्मार्ट मार्करों के साथ चर सरणी को लागू करें Aspose.Cells](./variable-array-smart-markers/)
 Aspose.Cells की शक्ति को अनलॉक करें। सहज Excel रिपोर्ट निर्माण के लिए स्मार्ट मार्कर के साथ चरण-दर-चरण परिवर्तनीय सरणियों को लागू करना सीखें।
+### [C# में वर्कशीट पर स्मार्टमार्कर लागू करें – पूर्ण गाइड](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
+C# का उपयोग करके Aspose.Cells में वर्कशीट पर स्मार्टमार्कर लागू करने के चरण-दर-चरण पूर्ण गाइड।
+
+### [Aspose.Cells स्मार्ट मार्कर्स का उपयोग करके प्रोग्रामेटिकली Excel बनाएं](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+
 ### [Excel में शीट्स को SmartMarker के साथ लिंक करने का तरीका – चरण‑दर‑चरण गाइड](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
 SmartMarker का उपयोग करके Excel में विभिन्न शीट्स को जोड़ने की प्रक्रिया सीखें, जिससे डेटा एकीकृत और गतिशील रिपोर्ट बन सके।
 
@@ -154,9 +159,6 @@ C# में नेस्टेड JSON को पार्स करके JSON
 ### [स्मार्ट मार्कर के साथ वर्कबुक बनाना – आउटपुट हाई लो](./how-to-create-workbook-with-smart-markers-output-high-low/)
 ### [C# में मास्टर‑डिटेल रिपोर्ट बनाएं – स्मार्टमार्कर के साथ Excel टेम्पलेट भरें](./create-master-detail-report-in-c-populate-excel-template-wit/)
 C# में स्मार्टमार्कर का उपयोग करके मास्टर‑डिटेल रिपोर्ट बनाएं और Excel टेम्पलेट को डेटा से भरें।
-### [C# में वर्कशीट पर स्मार्टमार्कर लागू करें – पूर्ण गाइड](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
-C# का उपयोग करके Aspose.Cells में वर्कशीट पर स्मार्टमार्कर लागू करने के चरण-दर-चरण पूर्ण गाइड।
-### [Aspose.Cells स्मार्ट मार्कर्स का उपयोग करके प्रोग्रामेटिकली Excel बनाएं](./create-excel-programmatically-using-aspose-cells-smart-marke/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

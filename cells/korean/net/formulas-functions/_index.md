@@ -100,6 +100,7 @@ Aspose.Cells for .NET을 사용하여 배열 수식을 완벽하게 다루는 �
 Aspose.Cells .NET을 사용하여 Excel 파일의 언어를 지정하는 방법을 알아보세요. 수식 설정의 국제화를 위한 단계별 가이드를 통해 문서 접근성과 규정 준수를 강화하세요.
 
 ### [Aspose.Cells .NET을 사용하여 Excel Power Query 수식 업데이트](./update-power-query-formulas-aspose-cells-net)
+Aspose.Cells for .NET을 사용하여 Excel 통합 문서에서 Power Query 수식을 프로그래밍 방식으로 업데이트하는 방법을 알아보세요. 동적 보고를 위한 마스터 데이터 소스 관리 방법을 알아보세요.
 
 ### [C#에서 WRAPCOLS 사용하기 – 배열을 매트릭스로 재구성](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
 

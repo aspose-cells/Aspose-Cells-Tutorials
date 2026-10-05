@@ -24,7 +24,7 @@ Först och främst, låt oss prata om att komma åt dokumentegenskaper i .NET. D
 Nu när du kan komma åt befintliga egenskaper, tänk om du vill lägga till dina egna? Det är här kreativiteten kommer in i bilden! Du kanske vill tagga dina Excel-filer med projektnamn eller andra relevanta detaljer. Genom att följa instruktionerna. [Lägga till dokumentegenskaper i .NET](./adding-document-properties/) I denna handledning kommer du att upptäcka hur du kan berika dina dokument med anpassade egenskaper. Det är som att ge dina filer en personlig touch! Tänk bara på det som att inreda ditt hem; ju fler unika detaljer du lägger till, desto mer återspeglar det din personlighet.
 
 ## Åtkomst till värde för dokumentegenskaper
-Har du någonsin behövt specifik information från en Excel-fil och känt dig vilsen bland otaliga ark? [Åtkomst till värden för dokumentegenskaper i .NET](./accessing-value-of-document-properties/) Handledningen tar upp detta genom att lära dig hur du effektivt extraherar dessa värdefulla informationsbitar. Du kommer att guidas genom metoder som hämtar specifika egenskapsvärden så att du inte behöver gräva igenom data manuellt. Den här handledningen är perfekt för de tillfällena då du har bråttom eller jonglerar med flera filer – tänk på det som att ha en personlig assistent som vet exakt var man hittar data i dina dokument.
+Har du någonsin behövt specifik information från en Excel-fil och känt dig vilsen bland otaliga ark? [Åtkomst till värden för dokumentegenskaper i .NET](./accessing-value-of-document-properties/) Handledningen tar upp detta genom att lära dig hur du effektivt extraherar dessa värdefulla informationsbitar. Du kommer att guidas genom metoder som hämtar specifika egenskapsvärden så att du inte behöver gräva igenom data manuellt. Den här handledningen är perfekt för de tillfällen då du har bråttom eller jonglerar med flera filer – tänk på det som att ha en personlig assistent som vet exakt var man hittar data i dina dokument.
 
 ## Handledningar om dokumentegenskaper
 ### [Åtkomst till dokumentegenskaper i .NET](./accessing-document-properties/)
@@ -33,6 +33,9 @@ Lär dig hur du får åtkomst till dokumentegenskaper i Excel med Aspose.Cells f
 Lär dig hur du får åtkomst till dokumentegenskaper i Excel med Aspose.Cells för .NET med vår steg-för-steg-guide. Hantera dina kalkylblad effektivt.
 ### [Lägga till dokumentegenskaper i .NET](./adding-document-properties/)
 Lär dig hur du lägger till dokumentegenskaper i Excel med hjälp av Aspose.Cells för .NET med den här detaljerade steg-för-steg-guiden.
+### [Hur man lägger till Excel-metadata – Komplett C#-arbetsboksguide](./how-to-add-excel-metadata-complete-c-workbook-guide/)
+Lär dig hur du lägger till metadata i Excel med en komplett C#-arbetsboksguide för effektiv filhantering.
+
 ### [Skapa Excel-arbetsbok – Lägg till anpassade egenskaper och spara som XLSB](./create-excel-workbook-add-custom-properties-and-save-as-xlsb/)
 Lär dig hur du skapar en Excel-arbetsbok, lägger till anpassade dokumentegenskaper och sparar den som en XLSB-fil med Aspose.Cells för .NET.
 ### [Hur du sparar XLSB med anpassade egenskaper i C# – Steg‑för‑steg‑guide](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
@@ -61,8 +64,6 @@ Lär dig hur du sparar en XLSB-fil med en anpassad egenskap i C# med Aspose.Cell
 Lär dig hur du skapar en Excel-arbetsbok i C#, lägger till en anpassad egenskap och sparar den som XLSB med Aspose.Cells för .NET.
 ### [Hur du lägger till en anpassad egenskap i Excel med C# – Steg‑för‑steg‑guide](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
 Lär dig hur du lägger till en anpassad egenskap i ett Excel‑ark med C# och Aspose.Cells i en tydlig steg‑för‑steg‑guide.
-### [Hur man lägger till Excel-metadata – Komplett C#-arbetsboksguide](./how-to-add-excel-metadata-complete-c-workbook-guide/)
-Lär dig hur du lägger till metadata i Excel med en komplett C#-arbetsboksguide för effektiv filhantering.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

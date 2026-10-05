@@ -65,7 +65,7 @@ Enfin, parlons des petits détails qui font toute la différence. La possibilit�
 
 
 ## Tutoriels sur l'exportation d'Excel vers HTML avec les options avancées
-### [Exclusion des styles inutilisés lors de l’exportation d’Excel vers HTML](./excluding-unused-styles/)
+### [Exclusion des styles inutilisés lors de l'exportation d'Excel vers HTML](./excluding-unused-styles/)
 Découvrez comment exclure les styles inutilisés lors de l’exportation d’Excel vers HTML à l’aide d’Aspose.Cells pour .NET dans ce guide détaillé étape par étape.
 
 ### [Exportation des propriétés du classeur et de la feuille de calcul au format HTML](./exporting-document-workbook-and-worksheet-properties/)
@@ -80,10 +80,11 @@ Apprenez à exporter des styles de bordure similaires dans Excel par programmati
 
 ### [Exporter le CSS de la feuille de calcul séparément dans la sortie HTML](./exporting-worksheet-css-separately/)
 Apprenez à exporter efficacement des feuilles de calcul Excel au format HTML avec un CSS séparé à l'aide d'Aspose.Cells pour .NET dans ce didacticiel complet étape par étape.
-### [Intégrer des polices HTML lors de l'exportation d'Excel – Guide complet C#](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
-Apprenez à incorporer des polices dans le HTML généré lors de l'exportation d'Excel avec Aspose.Cells pour .NET en C#.
 ### [Intégrer des polices dans HTML – Exporter le classeur Excel au format HTML avec Aspose.Cells](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
 Découvrez comment intégrer des polices dans le HTML lors de l'exportation d'un classeur Excel avec Aspose.Cells pour .NET.
+
+### [Intégrer des polices HTML lors de l'exportation d'Excel – Guide complet C#](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
+Apprenez à incorporer des polices dans le HTML généré lors de l'exportation d'Excel avec Aspose.Cells pour .NET en C#.
 ### [Récupération d'une chaîne HTML5 à partir d'une cellule dans Excel par programmation](./getting-html5-string-from-cell/)
 Découvrez comment récupérer des chaînes HTML5 à partir de cellules Excel par programmation à l'aide d'Aspose.Cells pour .NET dans ce guide détaillé étape par étape.
 
@@ -104,6 +105,9 @@ Apprenez à utiliser Aspose.Cells pour .NET pour définir des largeurs de colonn
 
 ### [Définition du nom de l'onglet d'une seule feuille dans l'exportation HTML](./setting-single-sheet-tab-name/)
 Définissez facilement un nom d'onglet pour une seule feuille lors de l'exportation HTML avec Aspose.Cells pour .NET. Guide étape par étape avec exemples de code inclus.
+### [Convertir Excel en HTML – Guide complet avec Aspose.Cells](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+Apprenez à convertir des classeurs Excel en HTML avec Aspose.Cells pour .NET grâce à un guide complet étape par étape.
+
 ### [Créer des options d’enregistrement HTML en C# – Guide complet](./create-html-save-options-in-c-full-guide/)
 
 ### [Enregistrer Excel en HTML – Guide complet pour l'exportation et la conversion de fichiers Excel](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
@@ -130,8 +134,6 @@ Apprenez à convertir des fichiers Excel en HTML avec C# en suivant ce guide com
 Découvrez comment intégrer des polices dans le HTML lors de l'exportation d'Excel vers HTML avec Aspose.Cells pour .NET en C#.
 ### [Comment exporter Excel vers HTML – Guide complet de programmation](./how-to-export-excel-to-html-complete-programming-guide/)
 Apprenez à exporter Excel vers HTML avec un guide complet de programmation utilisant Aspose.Cells pour .NET, étape par étape.
-### [Convertir Excel en HTML – Guide complet avec Aspose.Cells](./convert-excel-to-html-complete-guide-using-aspose-cells/)
-Apprenez à convertir des classeurs Excel en HTML avec Aspose.Cells pour .NET grâce à un guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

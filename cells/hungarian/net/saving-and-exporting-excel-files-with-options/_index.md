@@ -35,13 +35,15 @@ Az üres sorok és oszlopok eltorzíthatják az exportálást, különösen CSV-
 
 ## Excel fájlok mentése és exportálása az Options oktatóanyagokkal
 ### [Megjegyzések exportálása Excel fájl HTML-be mentése közben](./exporting-comments/)
-Ismerje meg, hogyan exportálhatja egyszerűen a megjegyzéseket miközben Excel-fájlokat ment HTML-be az Aspose.Cells for .NET használatával. Kövesse ezt a lépésenkénti útmutatót a megjegyzések megőrzéséhez.
+Ismerje meg, hogyan exportálhatja egyszerűen a megjegyzéseket, miközben Excel-fájlokat ment HTML-be az Aspose.Cells for .NET használatával. Kövesse ezt a lépésenkénti útmutatót a megjegyzések megőrzéséhez.
 ### [Figyelmeztetések érkeznek az Excel fájl betöltésekor .NET-ben](./getting-warnings-while-loading-excel-file/)
 Tanuld meg, hogyan kezelheted a figyelmeztetéseket Excel-fájlok .NET-ben történő betöltésekor az Aspose.Cells segítségével egyszerű, lépésről lépésre haladó útmutatónkkal.
 ### [Excel fájl dokumentumverziójának programozott megadása .NET-ben](./specifying-document-version-of-excel-file/)
 Tanulja meg, hogyan adhat meg dokumentumtulajdonságokat, például verziót, szerzőt és címet egy Excel-fájlban programozottan az Aspose.Cells for .NET használatával lépésről lépésre bemutatott utasításokkal.
 ### [Üres sorok és oszlopok levágása exportálás közben](./trimming-leading-blank-rows-and-columns/)
 Egyszerűsítse CSV-exportjait a kezdő üres sorok és oszlopok levágásával az Aspose.Cells for .NET segítségével. A tiszta adatok mindössze néhány lépésnyire vannak.
+### [Excel munkafüzet mentése JSON-ból – Teljes C# útmutató](./save-excel-workbook-from-json-complete-c-guide/)
+
 ### [Munkafüzet mentése C#-ban – Teljes Excel automatizálási útmutató](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
 Ismerje meg, hogyan menthet egy munkafüzetet C#-ban az Aspose.Cells segítségével, lépésről lépésre a teljes Excel automatizálás érdekében.
 ### [FlatOpcSaveOptions használata C#-ban – Teljes útmutató](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
@@ -55,7 +57,6 @@ Ismerje meg, hogyan menthet egy munkafüzetet C#-ban az Aspose.Cells segítség�
 
 ### [Hogyan mentse el a munkafüzetet C#-ban – Teljes útmutató a szűrők törléséhez és az Excel exportálásához](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
 Ismerje meg, hogyan mentheti el a munkafüzetet C#-ban, törölheti a szűrőket, és exportálhatja az Excel fájlt az Aspose.Cells for .NET segítségével.
-### [Excel munkafüzet mentése JSON-ból – Teljes C# útmutató](./save-excel-workbook-from-json-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

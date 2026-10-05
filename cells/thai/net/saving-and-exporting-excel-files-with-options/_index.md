@@ -35,12 +35,15 @@ Aspose.Cells สำหรับ .NET มอบเครื่องมืออ�
 
 ## การบันทึกและส่งออกไฟล์ Excel พร้อมบทช่วยสอนตัวเลือก
 ### [การส่งออกความคิดเห็นขณะบันทึกไฟล์ Excelเป็น HTML](./exporting-comments/)
+เรียนรู้วิธีการส่งออกความคิดเห็นได้อย่างง่ายดายในขณะที่บันทึกไฟล์ Excelเป็น HTML โดยใช้ Aspose.Cells สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อเก็บรักษาคำอธิบายประกอบ
 ### [ได้รับคำเตือนขณะโหลดไฟล์ Excelใน .NET](./getting-warnings-while-loading-excel-file/)
 เรียนรู้วิธีการจัดการคำเตือนในขณะโหลดไฟล์ Excelใน .NET โดยใช้ Aspose.Cells ด้วยคู่มือทีละขั้นตอนง่ายๆ ของเรา
 ### [การระบุเวอร์ชันเอกสารของไฟล์ Excelในโปรแกรม .NET](./specifying-document-version-of-excel-file/)
 เรียนรู้วิธีระบุคุณสมบัติของเอกสาร เช่น เวอร์ชัน ผู้เขียน และชื่อเรื่องในไฟล์ Excelด้วยโปรแกรม Aspose.Cells สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน
 ### [การตัดแถวและคอลัมน์ว่างด้านหน้าขณะส่งออก](./trimming-leading-blank-rows-and-columns/)
 ปรับปรุงการส่งออก CSV ของคุณโดยตัดแถวและคอลัมน์ว่างด้านหน้าออกด้วย Aspose.Cells สำหรับ .NET ข้อมูลที่สะอาดอยู่ห่างออกไปเพียงไม่กี่ขั้นตอน
+### [บันทึกเวิร์กบุ๊ก Excel จาก JSON – คู่มือ C# ฉบับสมบูรณ์](./save-excel-workbook-from-json-complete-c-guide/)
+
 ### [วิธีบันทึกเวิร์กบุ๊กใน C# – คู่มือการทำงานอัตโนมัติ Excel อย่างครบถ้วน](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
 เรียนรู้วิธีบันทึกเวิร์กบุ๊กใน C# อย่างละเอียด พร้อมเทคนิคการทำงานอัตโนมัติของ Excel อย่างครบถ้วน
 ### [วิธีใช้ FlatOpcSaveOptions ใน C# – คู่มือฉบับสมบูรณ์](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
@@ -55,7 +58,6 @@ Aspose.Cells สำหรับ .NET มอบเครื่องมืออ�
 
 ### [วิธีบันทึก Workbook ใน C# – คู่มือครบถ้วนสำหรับการล้างตัวกรองและการส่งออก Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
 เรียนรู้วิธีบันทึก Workbook ใน C# พร้อมล้างตัวกรองและส่งออกไฟล์ Excel อย่างละเอียด
-### [บันทึกเวิร์กบุ๊ก Excel จาก JSON – คู่มือ C# ฉบับสมบูรณ์](./save-excel-workbook-from-json-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

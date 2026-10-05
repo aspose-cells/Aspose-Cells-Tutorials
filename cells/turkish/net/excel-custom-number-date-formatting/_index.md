@@ -25,7 +25,7 @@ Eğitimimizde, bir hücrenin özel biçimlendirme ölçütlerinizi karşılayıp
 
 ## Excel Sayfasına Veri Aktarırken Formül Alanlarını Belirleyin
 
-Şimdi, veri içe aktarımlarından bahsedelim. Verileri Excel'e taşımak bazen bazı parçaların eksik olduğu bir bulmacayı çözmeye çalışmak gibi hissettirebilir. Korkmayın! Aspose.Cells ile formül alanlarını belirtirken veri içe aktarma çocuk oyuncağıdır.
+Şimdi, veri içe aktarımlarından bahsedelim. Verileri Excel'e taşımak bazen bazı parçaların eksik olduğu bir bulmacayı çözmeye çalışmak gibi hissettirebilir. Korkmayın! Aspose.Cells ile formül alanlarını belirtirken veri içe aktarmak çocuk oyuncağıdır.
 
 Bu eğitim, formül alanlarının bütünlüğünü koruyarak veri kümelerinizi içe aktarma becerileriyle sizi donatacaktır. Şunu düşünün: Bir CSV dosyasında finansal projeksiyonlarınız var ve bu çok önemli formülleri kaybetmeden Excel'e aktarmanız gerekiyor. Bunu, verilerinizin bozulmadan ve kullanılabilir şekilde gelmesini sağlayan net örnekler ve en iyi uygulamalarla nasıl yapacağınızı gösteriyoruz. [Devamını oku](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 
@@ -34,6 +34,12 @@ Bu eğitim, formül alanlarının bütünlüğünü koruyarak veri kümelerinizi
 Bu adım adım eğitimle Aspose.Cells for .NET'i kullanarak Excel hücre değerlerinin özel sayı biçimlerine göre nasıl kontrol edileceğini öğrenin.
 ### [Excel Sayfasına Veri Aktarırken Formül Alanlarını Belirleyin](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Bu detaylı eğitimde, Aspose.Cells for .NET kullanarak belirtilen formül alanlarına sahip Excel sayfalarına veri aktarmayı öğrenin.
+### [C# ile Excel'de Tarih Biçimini Ayarlama – Tam İçe Aktarma Biçimlendirme Kılavuzu](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+Bu kapsamlı rehberde, C# kullanarak Excel'e veri içe aktarırken tarih biçimini nasıl ayarlayacağınızı öğrenin.
+
+### [Japon Takvim Tarihleriyle Excel Çalışma Kitabı Oluşturma – Tam Kılavuz](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+Bu kapsamlı rehberde, Aspose.Cells for .NET kullanarak Japon takvim tarihleriyle bir Excel çalışma kitabı oluşturmayı öğrenin.
+
 ### [Özel Biçimle Excel Çalışma Kitabı Oluşturma – C# Kılavuzu](./create-excel-workbook-with-custom-format-c-guide/)
 Aspose.Cells for .NET kullanarak özel sayı biçimleriyle bir Excel çalışma kitabı oluşturmayı adım adım öğrenin.
 
@@ -82,10 +88,6 @@ Bu eğitimde, Aspose.Cells for .NET kullanarak C#'ta dizeyi DateTime'e dönüşt
 Aspose.Cells for .NET kullanarak C# dilinde bir çalışma kitabı oluşturmayı ve metin biçimindeki tarihleri gerçek tarih nesnelerine dönüştürmeyi öğrenin.
 ### [C#'ta Excel tarih formatını ayarlama – Tam Adım Adım Kılavuz](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 Bu kapsamlı rehberde, Aspose.Cells for .NET kullanarak C# ile Excel tarih formatını nasıl ayarlayacağınızı adım adım öğrenin.
-### [C# ile Excel'de Tarih Biçimini Ayarlama – Tam İçe Aktarma Biçimlendirme Kılavuzu](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
-Bu kapsamlı rehberde, C# kullanarak Excel'e veri içe aktarırken tarih biçimini nasıl ayarlayacağınızı öğrenin.
-### [Japon Takvim Tarihleriyle Excel Çalışma Kitabı Oluşturma – Tam Kılavuz](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
-Bu kapsamlı rehberde, Aspose.Cells for .NET kullanarak Japon takvim tarihleriyle bir Excel çalışma kitabı oluşturmayı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

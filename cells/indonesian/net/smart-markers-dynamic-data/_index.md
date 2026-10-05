@@ -83,6 +83,10 @@ Engedd szabadjára az Aspose.Cells erejét ezzel a lépésről lépésre haladó
 ### [Beágyazott objektumok kezelése intelligens jelölőkkel Aspose.Cells](./nested-objects-smart-markers/)
 Az Aspose.Cells segítségével lépésről lépésre haladva könnyedén kezelheted a beágyazott objektumokat intelligens jelölők segítségével, így az Excel-jelentéskészítésben rejlő lehetőségeket is kihasználhatod.
 ### [Változó tömb implementálása intelligens jelölőkkel Aspose.Cells](./variable-array-smart-markers/)
+Engedd szabadjára az Aspose.Cells erejét. Tanuld meg, hogyan valósíthatsz meg változó tömböket intelligens jelölőkkel lépésről lépésre a zökkenőmentes Excel-jelentéskészítéshez.
+### [Menerapkan SmartMarker ke Worksheet di C# – Panduan Lengkap](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
+Panduan lengkap untuk menggunakan SmartMarker pada lembar kerja dengan C# di Aspose.Cells.
+
 ### [Membuat Workbook Excel C# – Panduan Lengkap Menyisipkan Array ke Sel](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
 Pelajari cara membuat workbook Excel dengan C# dan menyisipkan array ke dalam sel secara lengkap.
 
@@ -160,8 +164,6 @@ Pelajari cara menghubungkan sheet di Excel menggunakan SmartMarker secara mudah 
 
 ### [Konversi JSON ke Excel dengan C# – Panduan Langkah demi Langkah](./convert-json-to-excel-with-c-step-by-step-guide/)
 Pelajari cara mengubah data JSON menjadi file Excel menggunakan C# dengan contoh kode lengkap dan penjelasan detail.
-### [Menerapkan SmartMarker ke Worksheet di C# – Panduan Lengkap](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
-Panduan lengkap untuk menggunakan SmartMarker pada lembar kerja dengan C# di Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
