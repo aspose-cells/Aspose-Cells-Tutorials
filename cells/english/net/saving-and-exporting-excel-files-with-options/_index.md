@@ -8,9 +8,7 @@ url: /net/saving-and-exporting-excel-files-with-options/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Saving and Exporting Excel Files with Options
@@ -44,13 +42,26 @@ Learn how to handle warnings while loading Excel files in .NET using Aspose.Cell
 Learn how to specify document properties like version, author, and title in an Excel file programmatically using Aspose.Cells for .NET with step-by-step instructions.
 ### [Trimming Leading Blank Rows and Columns while Exporting](./trimming-leading-blank-rows-and-columns/)
 Streamline your CSV exports by trimming leading blank rows and columns with Aspose.Cells for .NET. Clean data is just a few steps away.
+### [How to Save Workbook in C# – Complete Excel Automation Guide](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
+Learn how to save a workbook using C# with Aspose.Cells for .NET in a complete automation guide.
+
+
+
+
+
+
+
+
+### [How to Save Workbook in C# – Complete Guide to Clearing Filters and Exporting Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Learn how to clear filters and export Excel workbooks in C# using Aspose.Cells, with step-by-step instructions for saving and exporting.
+### [How to Use FlatOpcSaveOptions in C# – Complete Guide](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Learn how to use FlatOpcSaveOptions in C# with Aspose.Cells for .NET to save Excel files in OPC format, covering all options and best practices.
 ### [Save Excel Workbook from JSON – Complete C# Guide](./save-excel-workbook-from-json-complete-c-guide/)
 Learn how to generate an Excel workbook from JSON data using C# and Aspose.Cells, with a complete step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

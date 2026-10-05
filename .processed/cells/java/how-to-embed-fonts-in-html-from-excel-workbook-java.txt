@@ -1,0 +1,7 @@
+Title: How to Embed Fonts in HTML from Excel Workbook – Java
+Slug: how-to-embed-fonts-in-html-from-excel-workbook-java
+Category: excel-import-export
+ProcessedDate: 2026-06-18T09:54:53.057255
+SourceRepo: AI Search API
+Keywords: how to embed fonts, enable font embedding, embed fonts html, convert workbook html, load excel workbook java
+PRNumber: 98

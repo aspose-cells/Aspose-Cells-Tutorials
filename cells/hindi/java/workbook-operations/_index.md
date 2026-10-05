@@ -29,6 +29,12 @@
 ### [Aspose.Cells Java: Excel वर्कबुक बनाएं और सहेजें - एक चरण-दर-चरण मार्गदर्शिका](./aspose-cells-java-create-save-excel-workbooks/)
 जावा के लिए Aspose.Cells का उपयोग करके Excel कार्यपुस्तिकाओं के निर्माण और प्रबंधन को स्वचालित करने का तरीका जानें। यह मार्गदर्शिका पृष्ठ सेटअप गुणों को इंस्टेंटिएट करना, सहेजना और सेट करना शामिल करती है।
 
+### [Excel वर्कबुक जावा में बनाएं – पूर्ण चरण-दर-चरण गाइड](./create-excel-workbook-java-complete-step-by-step-guide/)
+जावा में Aspose.Cells का उपयोग करके Excel वर्कबुक बनाने और सहेजने के लिए विस्तृत चरण-दर-चरण मार्गदर्शन।
+
+### [जावा में वर्कबुक को XLSX के रूप में सहेजें – पूर्ण प्रोग्रामिंग गाइड](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
+जावा में Aspose.Cells का उपयोग करके वर्कबुक को XLSX फ़ॉर्मेट में सहेजने का विस्तृत चरण-दर-चरण मार्गदर्शन।
+
 ### [Aspose.Cells Java: संस्करण प्रदर्शित करें और साझा कार्यपुस्तिका बनाएँ](./aspose-cells-java-display-version-create-shared-workbook/)
 Aspose.Words Java के लिए एक कोड ट्यूटोरियल
 

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Vlastní formátování čísel a data v Excelu
@@ -36,6 +34,48 @@ Tento tutoriál vás vybaví dovednostmi pro import datových sad a zároveň za
 Naučte se, jak porovnat hodnoty buněk v Excelu s vlastními číselnými formáty pomocí Aspose.Cells pro .NET v tomto podrobném tutoriálu.
 ### [Zadání polí vzorců při importu dat do excelového listu](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 V tomto podrobném návodu se naučíte, jak importovat data do excelových listů se zadanými poli vzorců pomocí Aspose.Cells pro .NET.
+### [Vlastní číselný formát v Excelu v C# – Kompletní průvodce](./custom-number-format-excel-in-c-complete-guide/)
+Kompletní průvodce vytvářením a používáním vlastních číselných formátů v Excelu pomocí Aspose.Cells pro .NET v jazyce C#.
+### [Formátování čísel s oddělovačem v C# – Kompletní průvodce Aspose.Cells](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+Naučte se, jak pomocí Aspose.Cells v C# formátovat čísla s oddělovačem pro lepší čitelnost a prezentaci dat.
+### [Formátování data ISO z Excelu – Kompletní průvodce C#](./format-date-iso-from-excel-complete-c-guide/)
+Naučte se, jak pomocí Aspose.Cells v C# převést data z Excelu do formátu ISO a zajistit správné zobrazení datumů.
+### [Použití vlastního číselného formátu při exportu tabulky v C# – krok za krokem](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+Naučte se, jak aplikovat vlastní číselný formát při exportu Excelu v C# pomocí Aspose.Cells v podrobném průvodci.
+### [Zapisování data a času do Excelu – kompletní průvodce pro vývojáře C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
+Naučte se, jak zapisovat datum a čas do Excelu v C# pomocí Aspose.Cells v podrobném průvodci.
+### [Vytvořte Excel sešit v C# – Použijte vlastní číselný formát](./create-excel-workbook-in-c-apply-custom-number-format/)
+Naučte se, jak v C# vytvořit nový Excel sešit a aplikovat na buňky vlastní číselný formát pomocí Aspose.Cells.
+### [Jak parsovat datum v Excelu pomocí C# – Kompletní průvodce](./how-to-parse-date-in-excel-with-c-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells v C# analyzovat a převádět datumové hodnoty v Excelu v tomto podrobném průvodci.
+### [Vytvoření Excel sešitu s vlastním formátem – C# průvodce](./create-excel-workbook-with-custom-format-c-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET v C# vytvořit Excel sešit s vlastním formátem v tomto podrobném průvodci.
+### [Rozparsování japonského data era v C# s Aspose.Cells – Kompletní průvodce](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+Naučte se, jak v C# pomocí Aspose.Cells převést a zpracovat japonské datum v éře, včetně podrobného postupu a příkladů.
+
+
+
+
+
+
+
+
+### [Nastavení vlastního formátu buňky v C# – Kompletní průvodce zápisem a čtením dat v Excelu](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
+V tomto podrobném tutoriálu se naučíte, jak nastavit vlastní formát buňky a pracovat s daty v Excelu pomocí Aspose.Cells pro .NET.
+
+
+
+
+
+
+
+
+### [Převod řetězce na DateTime v C# – Zápis a čtení dat v Excelu](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+Naučte se, jak převést řetězec na DateTime a zapisovat a číst data v Excelu pomocí Aspose.Cells pro .NET.
+### [Jak vytvořit sešit a převést řetězec na datum v C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Naučte se, jak pomocí Aspose.Cells vytvořit sešit a převést textový řetězec na datum v jazyce C#.
+### [Nastavte formát data v Excelu v C# – Kompletní průvodce krok za krokem](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+V tomto podrobném tutoriálu se naučíte, jak nastavit formát data v Excelu pomocí C# krok za krokem.
 ### [Nastavte formát data v Excelu pomocí C# – Kompletní průvodce importním formátováním](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
 Kompletní průvodce nastavením formátu data v Excelu pomocí C# při importu dat s Aspose.Cells pro .NET.
 ### [Vytvořte Excel sešit s japonskými kalendářními daty – Kompletní průvodce](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
@@ -44,7 +84,6 @@ Kompletní návod, jak pomocí Aspose.Cells vytvořit sešit Excel s daty japons
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

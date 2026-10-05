@@ -83,7 +83,8 @@ Aspose.Words Java 代码教程
 ### [如何在 Aspose.Cells for Java 中实现 FormulaText：分步指南](./implementing-formula-text-aspose-cells-java-guide/)
 学习如何使用 Aspose.Cells 和 Java 从 Excel 单元格中提取公式文本。本指南涵盖设置、实现和实际应用。
 
-
+### [如何在 Excel 中使用 Reduce（Java）— Lambda 公式指南](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
+了解如何在 Java 中使用 Aspose.Cells 实现 Excel 的 Reduce 函数，通过 Lambda 表达式进行高级聚合计算。
 
 ## 其他资源
 

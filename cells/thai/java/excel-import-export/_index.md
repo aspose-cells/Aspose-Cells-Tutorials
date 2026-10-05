@@ -37,6 +37,8 @@
 เรียนรู้วิธีส่งออกข้อมูลเป็นรูปแบบ CSV โดยใช้ Aspose.Cells สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการส่งออก CSV ได้อย่างราบรื่น
 ### [การส่งออก Excel ไปยัง PDF](./exporting-excel-to-pdf/)
 เรียนรู้วิธีการส่งออกไฟล์ Excel เป็น PDF ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ Java คำแนะนำทีละขั้นตอนของเราจะทำให้กระบวนการนี้ง่ายขึ้น เริ่มแปลงไฟล์ได้แล้ววันนี้!
+### [วิธีสร้าง PDF จาก Workbook – คู่มือ Java ฉบับสมบูรณ์](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
+เรียนรู้วิธีแปลง Workbook เป็นไฟล์ PDF อย่างละเอียดด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดขั้นตอนครบถ้วน
 ### [การส่งออก Excel ไปยัง XML Java](./export-excel-to-xml-java/)
 เรียนรู้วิธีการส่งออก Excel ไปยัง XML ใน Java ด้วย Aspose.Cells สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการแปลงข้อมูลอย่างราบรื่น
 ### [นำเข้าข้อมูลจาก Excel](./data-import-from-excel/)
@@ -47,6 +49,20 @@
 เรียนรู้วิธีนำการตรวจสอบข้อมูลนำเข้า Excel ไปใช้โดยใช้ Aspose.Cells สำหรับ Java ด้วยคู่มือทีละขั้นตอนฉบับสมบูรณ์นี้ รับรองความถูกต้องของข้อมูลและปรับปรุงประสบการณ์ของผู้ใช้ 
 ### [ส่งออก Excel เป็น HTML Java](./export-excel-to-html-java/)
 เรียนรู้วิธีการส่งออก Excel เป็น HTML ใน Java โดยใช้ Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้พร้อมโค้ดต้นฉบับเพื่อแปลงไฟล์ Excel เป็น HTML ได้อย่างราบรื่นและง่ายดาย
+### [แปลง XLSX เป็น PPTX – คู่มือครบถ้วนสำหรับการส่งออกรูปทรงที่แก้ไขได้](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
+เรียนรู้วิธีแปลงไฟล์ XLSX เป็น PPTX พร้อมส่งออกรูปทรงที่แก้ไขได้โดยใช้ Aspose.Cells สำหรับ Java
+
+### [แปลง JSON เป็น XLSX ด้วย Aspose.Cells Java – คู่มือเต็ม](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
+เรียนรู้วิธีแปลงข้อมูล JSON เป็นไฟล์ XLSX ด้วย Aspose.Cells สำหรับ Java ผ่านคู่มือขั้นตอนพร้อมตัวอย่างโค้ด
+
+### [ฝังฟอนต์ HTML – แปลง Excel เป็น HTML พร้อมฝังฟอนต์เต็มรูปแบบ](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
+เรียนรู้วิธีฝังฟอนต์เมื่อแปลงไฟล์ Excel เป็น HTML ด้วย Aspose.Cells สำหรับ Java
+
+### [แปลง Markdown เป็น Excel – คู่มือครบถ้วนโดยใช้ Aspose.Cells](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
+เรียนรู้วิธีแปลงไฟล์ Markdown เป็น Excel ด้วย Aspose.Cells พร้อมตัวอย่างโค้ดขั้นตอนที่ชัดเจน
+
+### [วิธีส่งออก CSV ด้วย Java – ตั้งค่าตัวเลขสำคัญและช่วงการส่งออกเป็น CSV](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
+เรียนรู้วิธีส่งออก CSV ด้วย Java ตั้งค่าตัวเลขสำคัญและกำหนดช่วงข้อมูลที่ต้องการส่งออกอย่างแม่นยำ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

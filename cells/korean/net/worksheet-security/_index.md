@@ -45,6 +45,8 @@ Aspose.Cells for .NET을 사용하여 Excel 워크시트에서 편집 가능한 
 Aspose.Cells for .NET을 사용하여 Excel 워크시트의 셀과 범위를 보호하는 방법을 알아보세요. 이 단계별 가이드를 따라 스프레드시트를 보호하세요.
 ### [Aspose.Cells를 사용하여 전체 워크시트를 암호로 보호](./protect-worksheet-password/)
 이 포괄적인 단계별 튜토리얼을 통해 Aspose.Cells for .NET을 사용하여 암호 보안으로 Excel 워크시트를 보호하는 방법을 알아보세요.
+### [Excel에 비밀번호 추가 – 전체 시트 보호 가이드](./add-password-to-excel-complete-sheet-protection-guide/)
+Aspose.Cells for .NET을 사용해 Excel 시트를 비밀번호로 완전 보호하는 방법을 단계별로 설명합니다.
 ### [Aspose.Cells를 사용하여 워크시트의 열 보호](./protect-columns/)
 Aspose.Cells for .NET을 사용하여 Excel에서 열을 보호하는 방법을 알아보세요. Excel 시트에서 열을 효과적으로 잠그는 방법에 대한 자세한 튜토리얼을 참조하세요.
 ### [Aspose.Cells를 사용하여 워크시트의 특정 셀 보호](./protect-specific-cells/)

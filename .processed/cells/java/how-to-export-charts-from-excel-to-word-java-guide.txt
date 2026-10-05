@@ -1,0 +1,7 @@
+Title: How to Export Charts from Excel to Word – Java Guide
+Slug: how-to-export-charts-from-excel-to-word-java-guide
+Category: integration-interoperability
+ProcessedDate: 2026-06-18T09:54:44.184984
+SourceRepo: AI Search API
+Keywords: how to export charts, excel to word conversion, java export excel, save excel as word, export excel workbook
+PRNumber: 98

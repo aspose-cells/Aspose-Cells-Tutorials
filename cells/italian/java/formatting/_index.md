@@ -233,6 +233,9 @@ Scopri come ordinare in modo efficiente i dati di Excel in base al colore delle 
 ### [Come formattare le celle di Excel e aggiungere collegamenti ipertestuali utilizzando Aspose.Cells per Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Padroneggia lo stile delle celle di Excel e aggiungi collegamenti ipertestuali nelle tue applicazioni Java con Aspose.Cells. Segui questa guida completa per un'integrazione e una formattazione perfette.
 
+### [Creare una cartella di lavoro Excel con formattazione dinamica in Java – Guida completa](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+Scopri come creare una cartella di lavoro Excel con formattazione dinamica utilizzando Aspose.Cells per Java, con esempi di codice completi.
+
 
 
 ## Risorse aggiuntive

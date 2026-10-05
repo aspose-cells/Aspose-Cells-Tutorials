@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Salvando e exportando arquivos do Excel com opções
@@ -44,13 +42,24 @@ Aprenda como lidar com avisos ao carregar arquivos do Excel no .NET usando o Asp
 Aprenda a especificar propriedades de documento como versão, autor e título em um arquivo Excel programaticamente usando o Aspose.Cells para .NET com instruções passo a passo.
 ### [Aparando linhas e colunas em branco iniciais durante a exportação](./trimming-leading-blank-rows-and-columns/)
 Simplifique suas exportações de CSV removendo linhas e colunas em branco iniciais com o Aspose.Cells para .NET. Dados limpos estão a apenas alguns passos de distância.
+### [Como salvar a pasta de trabalho em C# – Guia completo de automação do Excel](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
+### [Como usar FlatOpcSaveOptions em C# – Guia completo](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+
+
+
+
+
+
+
+
+### [Como salvar a pasta de trabalho em C# – Guia completo para limpar filtros e exportar Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Aprenda a salvar a pasta de trabalho em C#, removendo filtros e exportando para Excel com o Aspose.Cells para .NET em um guia passo a passo.
 ### [Salvar pasta de trabalho do Excel a partir de JSON – Guia completo em C#](./save-excel-workbook-from-json-complete-c-guide/)
 Aprenda a criar e salvar arquivos Excel a partir de dados JSON usando Aspose.Cells para .NET com C# passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

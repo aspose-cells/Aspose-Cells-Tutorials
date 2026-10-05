@@ -476,6 +476,12 @@ Aspose.Cells for Java를 사용하여 Excel 파일을 다양한 형식으로 원
 ### [Java용 Aspose.Cells를 사용하여 Excel 문서 버전을 설정하는 방법](./set-excel-version-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 파일의 버전 관리와 같은 문서 속성을 설정하고 관리하는 방법을 알아보세요. 효율적인 통합 문서 작업을 위한 단계별 가이드를 따라해 보세요.
 
+### [Aspose.Cells Java: Save Workbook as XLSX in Java – Complete Programming Guide](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
+Aspose.Cells for Java를 사용하여 워크북을 XLSX 형식으로 저장하는 방법을 단계별로 안내합니다.
+
+### [Java로 Excel 워크북 만들기 – 완전 단계별 가이드](./create-excel-workbook-java-complete-step-by-step-guide/)
+Aspose.Cells for Java를 사용하여 Java에서 Excel 워크북을 만들고 저장하는 방법을 단계별로 안내합니다.
+
 
 
 ## 추가 자료

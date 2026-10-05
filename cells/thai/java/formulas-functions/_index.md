@@ -83,7 +83,8 @@
 ### [วิธีการใช้ FormulaText ใน Aspose.Cells สำหรับ Java: คำแนะนำทีละขั้นตอน](./implementing-formula-text-aspose-cells-java-guide/)
 เรียนรู้วิธีแยกข้อความสูตรจากเซลล์ Excel โดยใช้ Aspose.Cells กับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า การนำไปใช้งาน และแอปพลิเคชันจริง
 
-
+### [วิธีใช้ Reduce ใน Excel ด้วย Java – คู่มือสูตร Lambda](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
+เรียนรู้การใช้ฟังก์ชัน Reduce ใน Excel ผ่าน Java ด้วยสูตร Lambda เพื่อทำการคำนวณขั้นสูงอย่างมีประสิทธิภาพ
 
 ## แหล่งข้อมูลเพิ่มเติม
 

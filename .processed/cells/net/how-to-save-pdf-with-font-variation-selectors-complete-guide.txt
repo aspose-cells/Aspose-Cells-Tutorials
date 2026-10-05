@@ -1,0 +1,7 @@
+Title: how to save pdf with font variation selectors – complete guide
+Slug: how-to-save-pdf-with-font-variation-selectors-complete-guide
+Category: conversion-to-pdf
+ProcessedDate: 2026-07-04T03:38:50.941629
+SourceRepo: AI Search API
+Keywords: how to save pdf, save document as pdf, export document to pdf, how to enable selectors, export word to pdf
+PRNumber: 112

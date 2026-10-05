@@ -1,0 +1,7 @@
+Title: Create Excel Workbook in Java – Complete Step‑by‑Step Guide
+Slug: create-excel-workbook-in-java-complete-step-by-step-guide
+Category: workbook-operations
+ProcessedDate: 2026-07-01T00:55:43.080417
+SourceRepo: AI Search API
+Keywords: create excel workbook, set excel formula, array to range excel, output cell value, how to use wraprows
+PRNumber: 109

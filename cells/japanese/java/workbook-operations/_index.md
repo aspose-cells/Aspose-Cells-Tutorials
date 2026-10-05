@@ -476,6 +476,11 @@ Aspose.Cells for Javaを使って、Excelファイルを複数の形式でシー
 ### [Aspose.Cells for Java を使用して Excel ドキュメントのバージョンを設定する方法](./set-excel-version-aspose-cells-java/)
 Aspose.Cells for Java を使用して、Excel ファイルのバージョン管理などのドキュメントプロパティを設定および管理する方法を学びます。このステップバイステップガイドに従って、ワークブックを効率的に操作しましょう。
 
+### [JavaでワークブックをXLSXとして保存 – 完全プログラミングガイド](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
+
+### [JavaでExcelワークブックを作成する – 完全ステップバイステップガイド](./create-excel-workbook-java-complete-step-by-step-guide/)
+JavaとAspose.Cellsを使用して、Excelワークブックの作成、設定、保存方法を段階的に学びます。
+
 
 
 ## 追加リソース

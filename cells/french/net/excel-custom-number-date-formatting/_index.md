@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formatage personnalisé des nombres et des dates dans Excel
@@ -36,6 +34,48 @@ Ce tutoriel vous permettra d'acquérir les compétences nécessaires pour import
 Apprenez à vérifier les valeurs des cellules Excel par rapport aux formats numériques personnalisés à l'aide d'Aspose.Cells pour .NET avec ce didacticiel étape par étape.
 ### [Spécifier les champs de formule lors de l'importation de données dans une feuille Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Découvrez comment importer des données dans des feuilles Excel avec des champs de formule spécifiés à l'aide d'Aspose.Cells pour .NET dans ce didacticiel détaillé.
+### [Format numérique personnalisé Excel en C# – Guide complet](./custom-number-format-excel-in-c-complete-guide/)
+Apprenez à appliquer des formats numériques personnalisés dans Excel avec C# grâce à ce guide complet.
+### [Formater un nombre avec séparateur en C# – Guide complet Aspose.Cells](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
+Apprenez à formater des nombres avec séparateur en C# en utilisant Aspose.Cells grâce à ce guide complet.
+### [Formater une date ISO depuis Excel – Guide complet C#](./format-date-iso-from-excel-complete-c-guide/)
+Apprenez à convertir des dates Excel au format ISO en C# avec Aspose.Cells grâce à ce guide complet.
+### [Appliquer un format numérique personnalisé lors de l'exportation de feuille de calcul C# – Guide étape par étape](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+Apprenez à appliquer un format numérique personnalisé lors de l'exportation d'une feuille de calcul C# avec Aspose.Cells, étape par étape.
+### [Écrire une date/heure dans Excel – Guide complet pour les développeurs C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
+Apprenez à écrire des valeurs de date et d'heure dans Excel avec Aspose.Cells en C#, étape par étape.
+### [Créer un classeur Excel en C# – Appliquer un format numérique personnalisé](./create-excel-workbook-in-c-apply-custom-number-format/)
+Apprenez à créer un classeur Excel en C# et à appliquer un format numérique personnalisé avec Aspose.Cells pour .NET.
+### [Comment analyser une date dans Excel avec C# – Guide complet](./how-to-parse-date-in-excel-with-c-complete-guide/)
+Apprenez à analyser et convertir des dates dans Excel en C# avec Aspose.Cells pour .NET grâce à ce guide complet.
+### [Créer un classeur Excel avec un format personnalisé – Guide C#](./create-excel-workbook-with-custom-format-c-guide/)
+Apprenez à créer un classeur Excel avec un format personnalisé en C# à l'aide d'Aspose.Cells pour .NET.
+### [Analyser la date d'ère japonaise en C# avec Aspose.Cells – Guide complet](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+Apprenez à analyser les dates du calendrier japonais en C# à l'aide d'Aspose.Cells grâce à ce guide complet.
+
+
+
+
+
+
+
+
+### [Définir le format personnalisé d'une cellule en C# – Guide complet pour écrire et lire des dates dans Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
+Apprenez à appliquer et lire des formats de date personnalisés dans Excel avec Aspose.Cells pour .NET en C#.
+
+
+
+
+
+
+
+
+### [Convertir une chaîne en DateTime en C# – Écrire et lire des dates dans Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+Apprenez à convertir des chaînes en objets DateTime et à écrire/lire des dates dans Excel avec Aspose.Cells pour .NET.
+### [Comment créer un classeur et convertir une chaîne en date en C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+Apprenez à créer un classeur Excel et à convertir des chaînes en dates avec Aspose.Cells pour .NET en C#.
+### [Définir le format de date Excel en C# – Guide complet étape par étape](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+Apprenez à définir le format de date dans Excel avec C# grâce à un guide complet et détaillé pas à pas.
 ### [Définir le format de date dans Excel avec C# – Guide complet de formatage d'importation](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
 Apprenez à appliquer un format de date personnalisé dans Excel en C# grâce à un guide complet de formatage d'importation.
 ### [Créer un classeur Excel avec des dates du calendrier japonais – Guide complet](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
@@ -44,7 +84,6 @@ Apprenez à créer un classeur Excel utilisant le calendrier japonais pour les d
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

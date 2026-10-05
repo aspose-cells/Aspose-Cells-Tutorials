@@ -37,6 +37,8 @@ Lees meer over hoe u [De uitlijning van Excel-cellen wijzigen zonder opmaak te v
 ## Zelfstudies over uitlijning en opmaak van Excel-gegevens
 ### [De uitlijning van Excel-cellen wijzigen zonder opmaak te verliezen](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
 Leer hoe u de uitlijning van Excel-cellen kunt wijzigen zonder de opmaak te verliezen met Aspose.Cells voor .NET. Volg onze uitgebreide stapsgewijze handleiding voor naadloze controle.
+### [Hoe tekst in Excel te omwikkelen: Tekst in cel omwikkelen, automatisch aanpassen en opslaan](./how-to-wrap-text-in-excel-wrap-text-in-cell-auto-fit-save/)
+Leer hoe u tekst in Excel-cellen kunt omwikkelen, automatisch de celgrootte aanpassen en het bestand opslaan met Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

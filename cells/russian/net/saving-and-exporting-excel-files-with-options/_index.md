@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Сохранение и экспорт файлов Excel с параметрами
@@ -44,13 +42,26 @@ Aspose.Cells for .NET предоставляет разработчикам мо
 Узнайте, как программно указать свойства документа, такие как версия, автор и заголовок в файле Excel, используя Aspose.Cells для .NET, с помощью пошаговых инструкций.
 ### [Обрезка начальных пустых строк и столбцов при экспорте](./trimming-leading-blank-rows-and-columns/)
 Оптимизируйте экспорт CSV, обрезая начальные пустые строки и столбцы с помощью Aspose.Cells для .NET. Чистые данные всего в нескольких шагах.
+### [Как сохранить рабочую книгу в C# — Полное руководство по автоматизации Excel](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
+Узнайте, как сохранить рабочую книгу с помощью Aspose.Cells в C#, следуя полному пошаговому руководству по автоматизации Excel.
+### [Как использовать FlatOpcSaveOptions в C# – Полное руководство](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Подробное руководство по использованию FlatOpcSaveOptions в C# для сохранения файлов Excel с настройками OPC.
+
+
+
+
+
+
+
+
+### [Как сохранить рабочую книгу в C# – Полное руководство по очистке фильтров и экспорту Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Узнайте, как программно сохранять книгу, удалять фильтры и экспортировать данные Excel с помощью Aspose.Cells для .NET.
 ### [Сохранить книгу Excel из JSON – Полное руководство C#](./save-excel-workbook-from-json-complete-c-guide/)
 Узнайте, как преобразовать JSON в книгу Excel с помощью Aspose.Cells для .NET, используя полный пример на C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

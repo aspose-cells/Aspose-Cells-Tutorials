@@ -476,7 +476,8 @@ Tìm hiểu cách lưu tệp Excel ở nhiều định dạng một cách liền
 ### [Cách thiết lập phiên bản tài liệu Excel bằng Aspose.Cells cho Java](./set-excel-version-aspose-cells-java/)
 Tìm hiểu cách thiết lập và quản lý các thuộc tính tài liệu như phiên bản trong tệp Excel bằng Aspose.Cells for Java. Thực hiện theo hướng dẫn từng bước này để vận hành sổ làm việc hiệu quả.
 
-
+### [Lưu sổ làm việc dưới dạng XLSX trong Java – Hướng dẫn lập trình toàn diện](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
+Hướng dẫn chi tiết cách lưu sổ làm việc Excel dưới dạng XLSX bằng Aspose.Cells cho Java, bao gồm thiết lập, lưu và các tùy chọn nâng cao.
 
 ## Tài nguyên bổ sung
 

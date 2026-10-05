@@ -31,6 +31,9 @@
 ### [Εφαρμογή μορφοποίησης υπό όρους κατά τον χρόνο εκτέλεσης στο Excel](./applying-conditional-formatting-at-runtime/)
 Μάθετε πώς να εφαρμόζετε μορφοποίηση υπό όρους κατά τον χρόνο εκτέλεσης στο Excel με το Aspose.Cells για .NET σε αυτόν τον ολοκληρωμένο οδηγό βήμα προς βήμα.
 
+### [Δημιουργία βιβλίου εργασίας Excel C# – Οδηγός βήμα προς βήμα με μορφοποίηση υπό όρους](./create-excel-workbook-c-step-by-step-guide-with-conditional/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel με C# και να εφαρμόσετε μορφοποίηση υπό όρους σε αυτόν τον οδηγό βήμα‑βήμα.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -233,6 +233,9 @@ Learn how to efficiently sort Excel data by column color using Aspose.Cells for 
 ### [How to Style Excel Cells and Add Hyperlinks Using Aspose.Cells for Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Master styling Excel cells and adding hyperlinks in your Java applications with Aspose.Cells. Follow this comprehensive guide for seamless integration and formatting.
 
+### [Create Excel Workbook with Dynamic Formatting in Java – Full Guide](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+Learn how to create Excel workbooks with dynamic formatting using Aspose.Cells for Java, including code examples and best practices.
+
 
 
 ## Additional Resources

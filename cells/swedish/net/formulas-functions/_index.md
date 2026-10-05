@@ -45,7 +45,7 @@ Lär dig hur du programmatiskt extraherar formeltext från Excel-filer med Aspos
 ### [Automatisera Excel-uppgifter med Aspose.Cells .NET: Ställ in formler i intervall](./aspose-cells-net-set-formulas-ranges)
 Lär dig hur du automatiserar inställningen av formler i intervall med Aspose.Cells för .NET. Effektivisera dina Excel-arbetsflöden effektivt med C# genom att tillämpa samma formel på flera celler samtidigt.
 
-### [Effektiv CSV-import med formler med hjälp av Aspose.Cells .NET Guide](./csv-imports-formulas-aspose-cells-net-guide)
+### [Effektiv CSV-import med förmler med hjälp av Aspose.Cells .NET Guide](./csv-imports-formulas-aspose-cells-net-guide)
 Lär dig hur du importerar CSV-filer som innehåller komplexa formler till Excel med Aspose.Cells för .NET utan att förlora funktionalitet. Bemästra hur du bevarar formellogik under dataimport.
 
 ### [Anpassa cellformler i Aspose.Cells .NET: Guide till globaliseringsinställningar](./custom-aspose-cells-net-globalization-settings)
@@ -102,6 +102,10 @@ Lär dig hur du anger språket för dina Excel-filer med Aspose.Cells .NET. För
 ### [Uppdatera Excel Power Query-formler med Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Lär dig hur du programmatiskt uppdaterar Power Query-formler i Excel-arbetsböcker med Aspose.Cells för .NET. Hantering av huvuddatakällor för dynamisk rapportering.
 
+### [Hur man beräknar cotangens i Excel med C# – Skapa arbetsbok, använd EXPAND och spara](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+Lär dig hur du beräknar cotangens i Excel med Aspose.Cells för .NET, skapar en arbetsbok, använder EXPAND-funktionen och sparar filen.
+
+### [Hur man använder Lambda i C# med Excel-formler – Komplett guide](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
 ### [Hur man använder WRAPCOLS i C# – Omforma en array till en matris i Excel](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
 
 ## Förstå Excel-formeltyper
@@ -162,6 +166,8 @@ För robust formelimplementering:
 4. **Dokumentation**Upprätthåll tydlig dokumentation av komplexa formelstrukturer
 
 Genom att bemästra dessa formelfunktioner med Aspose.Cells för .NET kan du skapa sofistikerade beräkningsmotorer i dina kalkylblad som ger exakta, dynamiska resultat utan att behöva installera Excel.
+### [Skapa Excel-arbetsbok i C# – Lambda, SEQUENCE & EXPAND-guide](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+Lär dig hur du skapar en Excel-arbetsbok i C# och använder de nya Lambda-, SEQUENCE- och EXPAND-funktionerna med Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

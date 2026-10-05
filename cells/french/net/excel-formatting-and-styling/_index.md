@@ -50,8 +50,12 @@ Améliorez vos documents Excel avec Aspose.Cells pour .NET. Apprenez à applique
 Découvrez comment utiliser les styles et la mise en forme prédéfinis dans Excel avec Aspose.Cells pour .NET. Créez facilement de superbes feuilles de calcul.
 ### [Mise en forme avec Get Style ou Set Style dans Excel](./formatting-with-get-style-or-set-style/)
 Apprenez à mettre en forme des cellules Excel avec Aspose.Cells pour .NET grâce à ce guide simple. Maîtrisez les styles et les bordures pour une présentation précise des données.
+### [Créer un style de cellule en C# – Comment appliquer un style à une cellule et centrer le texte](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
+Apprenez à créer un style de cellule en C# avec Aspose.Cells, appliquer le style et centrer le texte dans vos feuilles Excel.
 ### [Travailler avec des styles et des objets de formatage](./working-with-styles-and-formatting-objects/)
 Apprenez à formater des feuilles Excel avec Aspose.Cells pour .NET grâce à un guide étape par étape et maîtrisez les styles comme un pro.
+### [Comment styliser les colonnes dans Excel avec C# – Importation d'un DataTable](./how-to-style-columns-in-excel-with-c-import-datatable/)
+Apprenez à appliquer des styles aux colonnes Excel en important un DataTable avec Aspose.Cells pour .NET et C#.
 ### [Ajout de bordures aux cellules dans Excel](./adding-borders-to-cells/)
 Apprenez à ajouter des bordures élégantes aux cellules dans Excel avec Aspose.Cells pour .NET. Suivez ce guide étape par étape pour des feuilles de calcul claires et attrayantes.
 ### [Application de bordures à une plage de cellules dans Excel](./applying-borders-to-range-of-cells/)
@@ -72,6 +76,8 @@ Apprenez à aligner le texte verticalement dans les cellules Excel à l’aide d
 Transformez l'orientation du texte dans Excel avec Aspose.Cells pour .NET. Suivez notre guide étape par étape pour faire pivoter et ajuster facilement le texte.
 ### [Envelopper du texte long dans les cellules dans Excel](./wrapping-long-text-within-cells/)
 Apprenez à ajuster le texte long dans les cellules Excel avec Aspose.Cells pour .NET grâce à ce guide facile à suivre. Transformez vos feuilles de calcul sans effort.
+### [Appliquer des styles de cellule avec Aspose.Cells – Importer DataTable avec mise en forme](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+Apprenez à appliquer des styles de cellule lors de l'importation d'un DataTable avec mise en forme grâce à Aspose.Cells pour .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -233,6 +233,9 @@ Leer hoe u Excel-gegevens efficiënt kunt sorteren op kolomkleur met Aspose.Cell
 ### [Hoe u Excel-cellen kunt stylen en hyperlinks kunt toevoegen met Aspose.Cells voor Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Beheers de styling van Excel-cellen en het toevoegen van hyperlinks in je Java-applicaties met Aspose.Cells. Volg deze uitgebreide handleiding voor naadloze integratie en opmaak.
 
+### [Excel-werkmap maken met dynamische opmaak in Java – volledige handleiding](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+Leer hoe u een Excel-werkmap maakt en dynamische opmaak toepast met Aspose.Cells voor Java. Deze volledige handleiding bevat stap‑voor‑stap codevoorbeelden.
+
 
 
 ## Aanvullende bronnen

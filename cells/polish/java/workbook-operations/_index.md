@@ -215,6 +215,9 @@ Dowiedz się, jak używać Aspose.Cells for Java do tworzenia i uzyskiwania dost
 ### [Tworzenie skoroszytów za pomocą Aspose.Cells Java](./create-configure-workbooks-aspose-cells-java/)
 Samouczek dotyczący kodu dla Aspose.Words Java
 
+### [Utworzenie skoroszytu Excel w Javie – Kompletny przewodnik krok po kroku](./create-excel-workbook-java-complete-step-by-step-guide/)
+Dowiedz się, jak programowo tworzyć skoroszyt programu Excel w Javie, korzystając z Aspose.Cells, z pełnym przykładem kodu.
+
 ### [Tworzenie i dostosowywanie skoroszytów programu Excel za pomocą Aspose.Cells Java: przewodnik krok po kroku](./create-customize-excel-workbooks-aspose-cells-java/)
 Dowiedz się, jak zautomatyzować tworzenie i dostosowywanie skoroszytów programu Excel za pomocą Aspose.Cells for Java. Zwiększ produktywność, opanowując operacje skoroszytu.
 
@@ -475,6 +478,9 @@ Dowiedz się, jak bezproblemowo zapisywać pliki Excel w wielu formatach za pomo
 
 ### [Jak ustawić wersję dokumentu Excel za pomocą Aspose.Cells dla Java](./set-excel-version-aspose-cells-java/)
 Dowiedz się, jak ustawiać i zarządzać właściwościami dokumentu, takimi jak wersjonowanie w plikach Excela, za pomocą Aspose.Cells for Java. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby uzyskać wydajne operacje skoroszytu.
+
+### [Zapisz skoroszyt jako XLSX w Javie – Kompletny przewodnik programistyczny](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
+Dowiedz się, jak zapisać skoroszyt programu Excel w formacie XLSX przy użyciu Aspose.Cells for Java.
 
 
 
