@@ -85,6 +85,12 @@ Scopri come abilitare l'opzione Intervallo nidificato per gestire dati gerarchic
 
 ### [Implementare array di variabili con marcatori intelligenti Aspose.Cells](./variable-array-smart-markers/)
 Sfrutta la potenza di Aspose.Cells. Scopri come implementare matrici di variabili con Smart Markers passo dopo passo per una generazione fluida di report Excel.
+### [Applica SmartMarker al foglio di lavoro in C# – Guida completa](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
+Scopri come applicare SmartMarker a un foglio di lavoro usando C#, passo dopo passo, per generare report Excel dinamici.
+
+### [Crea Excel programmaticamente usando gli Smart Markers di Aspose.Cells](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+Scopri come generare file Excel in modo programmatico con gli Smart Markers di Aspose.Cells per .NET.
+
 ### [Crea cartella di lavoro da XLSX con Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
 Scopri come generare una cartella di lavoro a partire da un file XLSX utilizzando SmartMarkerProcessor di Aspose.Cells.
 

@@ -40,6 +40,8 @@ Dowiedz się, jak konwertować pliki DOCX do formatu XPS w C# przy użyciu Aspos
 Pełny przewodnik, jak w C# konwertować pliki Excel do formatu XPS przy użyciu Aspose.Cells, z praktycznymi przykładami kodu.
 ### [Utworzenie nowego skoroszytu Excel – przewodnik Unicode i eksportu XPS](./create-new-excel-workbook-unicode-xps-export-guide/)
 Dowiedz się, jak utworzyć nowy skoroszyt Excel obsługujący Unicode i wyeksportować go do formatu XPS przy użyciu Aspose.Cells.
+### [Osadzanie czcionek w XPS przy użyciu C# – Kompletny przewodnik programistyczny](./embed-fonts-in-xps-with-c-complete-programming-guide/)
+Dowiedz się, jak osadzić czcionki w dokumentach XPS przy użyciu C#, aby zapewnić prawidłowe wyświetlanie i drukowanie.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

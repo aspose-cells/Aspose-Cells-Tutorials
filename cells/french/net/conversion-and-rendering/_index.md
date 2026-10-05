@@ -74,6 +74,8 @@ Apprenez à exporter un tableau croisé dynamique d'Excel au format PNG en C# av
 Apprenez à créer un classeur Excel en C# et à importer du contenu Markdown, étape par étape avec Aspose.Cells.
 ### [Convertir le markdown en Excel – Guide complet C#](./convert-markdown-to-excel-complete-c-guide/)
 Apprenez à transformer du texte markdown en fichiers Excel avec Aspose.Cells en C#, étape par étape.
+### [Exporter Excel en PNG avec Aspose.Cells – Guide complet étape par étape](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Apprenez à exporter vos feuilles Excel au format PNG avec Aspose.Cells en suivant un guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

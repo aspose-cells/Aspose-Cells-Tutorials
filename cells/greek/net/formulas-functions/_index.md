@@ -87,6 +87,9 @@
 ### [Δημιουργία βιβλίου εργασίας Excel C# – Οδηγός Lambda, SEQUENCE & EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 Μάθετε πώς να δημιουργήσετε βιβλία εργασίας Excel σε C# χρησιμοποιώντας τις συναρτήσεις Lambda, SEQUENCE και EXPAND του Aspose.Cells.
 
+### [Πώς να χρησιμοποιήσετε τη WRAPCOLS σε C# – Αναδιαμόρφωση πίνακα σε μήτρα στο Excel](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
+Μάθετε πώς να χρησιμοποιήσετε τη WRAPCOLS σε C# για να μετατρέψετε έναν μονοδιάστατο πίνακα σε μήτρα στο Excel.
+
 ## Κατανόηση των τύπων τύπων του Excel
 
 Οι τύποι του Excel διατίθενται σε διάφορες μορφές, καθεμία από τις οποίες έχει μοναδικά χαρακτηριστικά που μπορεί να διαχειριστεί το Aspose.Cells:

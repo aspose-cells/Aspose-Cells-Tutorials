@@ -60,6 +60,8 @@ C# का उपयोग करके डेटा बाइंड करें
 .NET के लिए Aspose.Cells का उपयोग करके C# में Excel वर्कबुक बनाएं, मुद्रा स्वरूप लागू करें और DataTable डेटा आयात करें।
 ### [C# में नया वर्कबुक बनाएं – मार्कडाउन को तेज़ी से Excel में परिवर्तित करें](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
 .NET के लिए Aspose.Cells का उपयोग करके C# में नया वर्कबुक बनाते हुए मार्कडाउन को शीघ्रता से Excel में बदलना सीखें।
+### [C# में Worksheet को DataTable में परिवर्तित करें – पूर्ण प्रोग्रामिंग गाइड](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
+C# में Aspose.Cells का उपयोग करके Worksheet को DataTable में बदलने की पूरी मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

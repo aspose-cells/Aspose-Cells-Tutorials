@@ -76,6 +76,10 @@ C# का उपयोग करके Excel में तिथियों क
 C# में Aspose.Cells का उपयोग करके वर्कबुक बनाना और स्ट्रिंग को तिथि फ़ॉर्मेट में परिवर्तित करना सीखें।
 ### [C# में Excel तिथि स्वरूप सेट करें – पूर्ण चरण-दर-चरण गाइड](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 C# का उपयोग करके Excel में तिथि स्वरूप कैसे सेट करें, इस विस्तृत चरण-दर-चरण गाइड में सीखें।
+### [C# के साथ Excel में तिथि स्वरूप सेट करें – पूर्ण आयात फ़ॉर्मेटिंग गाइड](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+.NET के लिए Aspose.Cells का उपयोग करके C# में Excel की तिथि फ़ॉर्मेट को कैसे सेट करें, इस पूर्ण आयात फ़ॉर्मेटिंग गाइड में सीखें।
+### [जापानी कैलेंडर तिथियों के साथ Excel वर्कबुक बनाएं – पूर्ण गाइड](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+.NET के लिए Aspose.Cells का उपयोग करके जापानी कैलेंडर तिथियों के साथ Excel वर्कबुक बनाने की पूरी गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

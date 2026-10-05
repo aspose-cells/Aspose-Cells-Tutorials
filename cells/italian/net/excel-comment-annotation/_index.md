@@ -57,6 +57,8 @@ Scopri come creare una cartella di lavoro Excel in C#, aggiungere un commento e 
 Scopri come inserire commenti in un modello Excel usando Smart Markers con Aspose.Cells per .NET in C#.
 ### [Crea file Excel programmaticamente – Aggiungi commenti e salva come XLSX](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
 Scopri come creare un file Excel da zero, aggiungere commenti e salvarlo in formato XLSX usando Aspose.Cells per .NET.
+### [Aggiungere un commento a una cella in Excel con Smart Marker di Aspose.Cells](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
+Scopri come inserire commenti in una cella Excel utilizzando i marker intelligenti di Aspose.Cells per .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

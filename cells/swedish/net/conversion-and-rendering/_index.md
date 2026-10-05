@@ -67,6 +67,8 @@ Lär dig hur du exporterar en pivottabell från ett Excel-ark till PNG med Aspos
 Lär dig hur du skapar en ny arbetsbok i C# och importerar Markdown-innehåll till Excel med Aspose.Cells.
 ### [Konvertera markdown till Excel – Komplett C#-guide](./convert-markdown-to-excel-complete-c-guide/)
 Lär dig hur du omvandlar markdown-filer till Excel med en komplett C#-guide.
+### [Exportera Excel till PNG med Aspose.Cells – Komplett steg‑för‑steg‑guide](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Lär dig hur du exporterar Excel-filer till PNG med Aspose.Cells i .NET med en komplett steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

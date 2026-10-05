@@ -78,6 +78,10 @@ Aprenda a convertir cadenas a DateTime y a escribir/leer fechas en Excel con Asp
 Aprenda a crear un libro de trabajo y convertir cadenas a fechas en C# usando Aspose.Cells para .NET.
 ### [Establecer formato de fecha de Excel en C# – Guía completa paso a paso](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 Aprenda a establecer el formato de fecha en archivos de Excel usando C# y Aspose.Cells con esta guía completa paso a paso.
+### [Establecer formato de fecha en Excel con C# – Guía completa de formato de importación](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+Aprenda a aplicar formatos de fecha en Excel usando C# y Aspose.Cells, con ejemplos completos de importación y configuración de estilos.
+### [Crear libro de Excel con fechas del calendario japonés – Guía completa](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+Aprenda a generar libros de Excel que utilizan el calendario japonés, con ejemplos completos y configuración de formatos usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

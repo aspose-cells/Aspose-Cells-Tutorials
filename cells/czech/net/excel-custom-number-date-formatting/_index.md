@@ -76,6 +76,10 @@ Naučte se, jak převést řetězec na DateTime a zapisovat a číst data v Exce
 Naučte se, jak pomocí Aspose.Cells vytvořit sešit a převést textový řetězec na datum v jazyce C#.
 ### [Nastavte formát data v Excelu v C# – Kompletní průvodce krok za krokem](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 V tomto podrobném tutoriálu se naučíte, jak nastavit formát data v Excelu pomocí C# krok za krokem.
+### [Nastavte formát data v Excelu pomocí C# – Kompletní průvodce importním formátováním](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+Kompletní průvodce nastavením formátu data v Excelu pomocí C# při importu dat s Aspose.Cells pro .NET.
+### [Vytvořte Excel sešit s japonskými kalendářními daty – Kompletní průvodce](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+Kompletní návod, jak pomocí Aspose.Cells vytvořit sešit Excel s daty japonského kalendáře v C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

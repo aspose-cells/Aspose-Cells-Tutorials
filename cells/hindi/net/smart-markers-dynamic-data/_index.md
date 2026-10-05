@@ -87,6 +87,11 @@ Aspose.Cells में Nested Range विकल्प को सक्षम �
 
 ### [स्मार्ट मार्करों के साथ चर सरणी को लागू करें Aspose.Cells](./variable-array-smart-markers/)
 Aspose.Cells की शक्ति को अनलॉक करें। सहज Excel रिपोर्ट निर्माण के लिए स्मार्ट मार्कर के साथ चरण-दर-चरण परिवर्तनीय सरणियों को लागू करना सीखें।
+### [C# में वर्कशीट पर स्मार्टमार्कर लागू करें – पूर्ण गाइड](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
+C# का उपयोग करके Aspose.Cells में वर्कशीट पर स्मार्टमार्कर लागू करने के चरण-दर-चरण पूर्ण गाइड।
+
+### [Aspose.Cells स्मार्ट मार्कर्स का उपयोग करके प्रोग्रामेटिकली Excel बनाएं](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+
 ### [Excel में शीट्स को SmartMarker के साथ लिंक करने का तरीका – चरण‑दर‑चरण गाइड](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
 SmartMarker का उपयोग करके Excel में विभिन्न शीट्स को जोड़ने की प्रक्रिया सीखें, जिससे डेटा एकीकृत और गतिशील रिपोर्ट बन सके।
 

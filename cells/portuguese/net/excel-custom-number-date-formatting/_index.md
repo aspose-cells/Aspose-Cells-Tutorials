@@ -77,6 +77,10 @@ Aprenda como criar uma pasta de trabalho e converter strings para datas usando A
 
 ### [Definir formato de data do Excel em C# – Guia completo passo a passo](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 Aprenda a definir o formato de data em planilhas Excel usando C# com este guia completo passo a passo.
+### [Definir formato de data no Excel com C# – Guia completo de formatação de importação](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+Aprenda a definir formatos de data ao importar dados para o Excel usando C# com o Aspose.Cells para .NET.
+### [Criar pasta de trabalho do Excel com datas do calendário japonês – Guia completo](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+Aprenda a criar pastas de trabalho do Excel usando datas do calendário japonês com o Aspose.Cells para .NET neste guia completo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -54,6 +54,8 @@ Hướng dẫn chi tiết cách lưu workbook bằng C# sử dụng Aspose.Cells
 
 
 ### [Cách Lưu Workbook trong C# – Hướng Dẫn Toàn Diện về Xóa Bộ Lọc và Xuất Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+### [Lưu Workbook Excel từ JSON – Hướng dẫn C# đầy đủ](./save-excel-workbook-from-json-complete-c-guide/)
+Hướng dẫn chi tiết cách chuyển đổi dữ liệu JSON thành workbook Excel bằng C# và Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

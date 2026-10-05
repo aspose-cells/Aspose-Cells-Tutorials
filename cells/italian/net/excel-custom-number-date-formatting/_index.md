@@ -76,6 +76,10 @@ Impara a convertire stringhe in DateTime in C# e a scrivere/leggere date nei fog
 Impara a creare una cartella di lavoro Excel e a trasformare una stringa in data usando Aspose.Cells per .NET in C#.
 ### [Imposta il formato data di Excel in C# – Guida completa passo‑passo](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 Scopri come impostare il formato data in Excel usando C# con Aspose.Cells per .NET in questa guida dettagliata.
+### [Imposta il formato data in Excel con C# – Guida completa alla formattazione di importazione](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+Scopri come impostare il formato data in Excel usando C# con Aspose.Cells, includendo tutti i passaggi per la formattazione durante l'importazione.
+### [Crea cartella di lavoro Excel con date del calendario giapponese – Guida completa](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+Scopri come creare una cartella di lavoro Excel con date del calendario giapponese usando Aspose.Cells per .NET, passo dopo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

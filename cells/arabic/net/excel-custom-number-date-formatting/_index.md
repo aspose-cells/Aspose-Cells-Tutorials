@@ -76,6 +76,10 @@
 تعلم كيفية إنشاء مصنف Excel وتحويل نص إلى تاريخ باستخدام Aspose.Cells لـ .NET في C#.
 ### [ضبط تنسيق تاريخ Excel في C# – دليل شامل خطوة بخطوة](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 تعلم كيفية تعيين تنسيق التاريخ في ملفات Excel باستخدام C# خطوة بخطوة مع Aspose.Cells.
+### [تعيين تنسيق التاريخ في Excel باستخدام C# – دليل تنسيق الاستيراد الكامل](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+تعلم كيفية تعيين تنسيق التاريخ في ملفات Excel باستخدام C# مع دليل شامل لتنسيق الاستيراد الكامل.
+### [إنشاء دفتر عمل Excel بتواريخ التقويم الياباني – دليل كامل](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+تعلم كيفية إنشاء ملف Excel يستخدم تواريخ التقويم الياباني باستخدام Aspose.Cells لـ .NET في دليل شامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -149,6 +149,10 @@ Hướng dẫn cách sử dụng Markers trong Aspose.Cells để đặt tên c�
 
 ### [Tạo Giá Trị Ô Có Điều Kiện với Aspose.Cells Smart Marker](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
 Hướng dẫn sử dụng Smart Marker để tạo giá trị ô dựa trên điều kiện, tăng tính linh hoạt cho báo cáo Excel.
+### [Áp dụng SmartMarker vào Worksheet trong C# – Hướng dẫn đầy đủ](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
+Hướng dẫn chi tiết cách sử dụng SmartMarker để áp dụng vào Worksheet trong C#, tạo báo cáo Excel động một cách dễ dàng.
+### [Tạo Excel bằng cách lập trình sử dụng Aspose.Cells Smart Markers](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+Khám phá cách tự động tạo tệp Excel bằng Smart Markers trong Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

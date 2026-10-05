@@ -148,6 +148,9 @@ Aspose.Cells 智能标记器还支持匿名类型，无需预定义结构即可�
 ### [如何使用智能标记创建工作簿 – 输出高低](./how-to-create-workbook-with-smart-markers-output-high-low/)
 ### [在 C# 中创建主从报表 – 使用 SmartMarker 填充 Excel 模板](./create-master-detail-report-in-c-populate-excel-template-wit/)
 本教程演示如何在 C# 中使用 Aspose.Cells SmartMarker 将数据填充到 Excel 模板，实现主从报表的生成。
+### [使用 Aspose.Cells 智能标记以编程方式创建 Excel](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+了解如何使用 Aspose.Cells 的智能标记在 .NET 中以编程方式生成 Excel 文件，实现自动化报表生成。
+### [在 Aspose.Cells 中将 SmartMarker 应用于工作表（C# 完整指南）](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

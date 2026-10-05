@@ -51,6 +51,8 @@ Aprenda a criar uma nova pasta de trabalho e exportá‑la como CSV usando Aspos
 Aprenda a exportar tabelas para CSV em C# com Aspose.Cells, incluindo formatos numéricos personalizados para números e datas.
 ### [Exportar Tabela para CSV em C# – Guia Completo](./export-table-to-csv-in-c-complete-guide/)
 Aprenda a exportar tabelas para arquivos CSV usando C# com o Aspose.Cells, passo a passo, cobrindo opções avançadas e melhores práticas.
+### [Salvar Pasta de Trabalho como CSV – Guia Completo para Exportar Excel para CSV em C#](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-i/)
+Aprenda a salvar uma pasta de trabalho como CSV usando Aspose.Cells para .NET, com exemplos completos em C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

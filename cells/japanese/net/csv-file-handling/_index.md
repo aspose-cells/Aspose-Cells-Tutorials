@@ -51,6 +51,8 @@ Aspose.Cells for .NET を使用して新しいワークブックを作成し、C
 Aspose.Cells for .NET を使い、テーブルをCSVにエクスポートし、カスタム数値書式を適用する方法をステップバイステップで解説します。
 ### [C# でテーブルを CSV にエクスポートする完全ガイド](./export-table-to-csv-in-c-complete-guide/)
 Aspose.Cells for .NET を使用して、テーブルデータを CSV 形式にエクスポートする方法をステップバイステップで解説します。
+### [ワークブックをCSVとして保存 – C#でExcelをCSVにエクスポートする完全ガイド](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-i/)
+Aspose.Cells for .NET を使用して、ワークブックをCSV形式で保存し、ExcelデータをC#でエクスポートする方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

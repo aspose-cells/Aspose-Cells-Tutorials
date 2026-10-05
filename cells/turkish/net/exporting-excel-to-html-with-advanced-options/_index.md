@@ -96,6 +96,10 @@ Aspose.Cells for .NET ile HTML çıktısına yazı tiplerini gömerek tutarlı g
 Aspose.Cells for .NET ile C# kullanarak Excel dosyalarını HTML'ye kaydetmeyi ayrıntılı olarak öğrenin.
 ### [HTML Dışa Aktarmada Tek Sayfa Sekme Adı Ayarlama](./setting-single-sheet-tab-name/)
 Aspose.Cells for .NET kullanarak HTML dışa aktarma sırasında tek bir sayfa sekmesi adını kolayca ayarlayın. Kod örnekleri içeren adım adım kılavuz.
+### [HTML'ye Yazı Tipi Gömme – Aspose.Cells ile Excel Çalışma Kitabını HTML'ye Dışa Aktarma](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
+
+### [Excel'i HTML'ye Dönüştürme – Aspose.Cells Kullanarak Tam Kılavuz](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+
 ### [C# ile Excel'i HTML'ye Aktarırken Yazı Tiplerini Gömme](./embed-fonts-in-html-export-excel-to-html-with-c/)
 
 ### [C# ile Excel'i HTML'ye Dönüştürme – Tam Kılavuz](./convert-excel-to-html-in-c-complete-guide/)

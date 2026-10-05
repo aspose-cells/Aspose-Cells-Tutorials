@@ -107,6 +107,8 @@ Leer hoe u Lambda-expressies in C# kunt toepassen op Excel-formules met Aspose.C
 ### [Hoe WRAPCOLS te gebruiken in C# – Maak Excel-werkmap met Wrap-functies](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
 
 ### [Maak Excel-werkmap C# – Lambda, SEQUENCE & EXPAND-gids](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+### [Hoe WRAPCOLS te gebruiken in C# – Een array omvormen tot een matrix in Excel](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
+Leer hoe u met WRAPCOLS in C# een eendimensionale array omzet naar een matrix in Excel met Aspose.Cells.
 
 ## Inzicht in Excel-formuletypen
 

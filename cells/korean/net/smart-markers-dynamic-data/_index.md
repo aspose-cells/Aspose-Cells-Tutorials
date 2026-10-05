@@ -157,6 +157,9 @@ Aspose.Cells SmartMarkerProcessor를 활용해 기존 XLSX 파일을 워크북�
 C# 코드를 활용해 JSON 데이터를 Excel 파일로 변환하는 방법을 단계별로 안내합니다.
 
 ### [스마트 마커를 사용하여 Excel에서 시트 연결하기 – 단계별 가이드](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
+### [C#에서 워크시트에 SmartMarker 적용 – 완전 가이드](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
+C#을 사용하여 워크시트에 SmartMarker를 적용하는 방법을 단계별로 안내하는 완전 가이드입니다.
+### [Aspose.Cells 스마트 마커를 사용하여 프로그래밍 방식으로 Excel 만들기](./create-excel-programmatically-using-aspose-cells-smart-marke/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

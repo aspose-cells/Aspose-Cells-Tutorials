@@ -40,6 +40,8 @@ Naučte se, jak převést soubory DOCX do formátu XPS pomocí Aspose.Cells pro 
 Naučte se, jak převést soubory Excelu do formátu XPS pomocí C# s podrobným návodem a praktickými ukázkami kódu.
 ### [Vytvoření nového sešitu Excel – Průvodce Unicode a exportem do XPS](./create-new-excel-workbook-unicode-xps-export-guide/)
 Naučte se, jak vytvořit nový sešit Excel s podporou Unicode a exportovat jej do XPS pomocí Aspose.Cells pro .NET.
+### [Vložení fontů do XPS pomocí C# – Kompletní programovací průvodce](./embed-fonts-in-xps-with-c-complete-programming-guide/)
+Naučte se, jak vložit fonty do XPS souborů v C# pomocí Aspose.Cells, včetně praktických ukázek kódu a podrobných kroků.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

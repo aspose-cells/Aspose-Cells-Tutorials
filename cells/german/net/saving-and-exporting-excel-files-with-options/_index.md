@@ -56,6 +56,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET die FlatOpcSaveOptions nutzen, 
 
 ### [So speichern Sie Arbeitsmappe in C# – Vollständige Anleitung zum Löschen von Filtern und Exportieren von Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Arbeitsmappen in C# speichern, Filter entfernen und Excel exportieren.
+### [Excel-Arbeitsmappe aus JSON speichern – Vollständige C#-Anleitung](./save-excel-workbook-from-json-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe aus JSON-Daten erstellen und speichern – Schritt für Schritt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

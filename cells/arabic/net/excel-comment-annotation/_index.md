@@ -57,6 +57,8 @@
 تعلم كيفية إضافة تعليقات إلى قالب Excel وتعبئته بالبيانات باستخدام العلامات الذكية في C# مع Aspose.Cells.
 ### [إنشاء ملف Excel برمجيًا – إضافة تعليقات وحفظ كملف XLSX](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
 تعلم كيفية إنشاء ملف Excel برمجيًا وإضافة تعليقات ثم حفظه بصيغة XLSX باستخدام Aspose.Cells لـ .NET.
+### [إضافة تعليق خلية في Excel باستخدام Aspose.Cells Smart Marker](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
+تعرّف على كيفية إضافة تعليقات إلى خلايا Excel باستخدام Aspose.Cells Smart Marker. حسّن جداولك بسهولة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -84,6 +84,9 @@ Engedd szabadjára az Aspose.Cells erejét ezzel a lépésről lépésre haladó
 Az Aspose.Cells segítségével lépésről lépésre haladva könnyedén kezelheted a beágyazott objektumokat intelligens jelölők segítségével, így az Excel-jelentéskészítésben rejlő lehetőségeket is kihasználhatod.
 ### [Változó tömb implementálása intelligens jelölőkkel Aspose.Cells](./variable-array-smart-markers/)
 Engedd szabadjára az Aspose.Cells erejét. Tanuld meg, hogyan valósíthatsz meg változó tömböket intelligens jelölőkkel lépésről lépésre a zökkenőmentes Excel-jelentéskészítéshez.
+### [Menerapkan SmartMarker ke Worksheet di C# – Panduan Lengkap](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
+Panduan lengkap untuk menggunakan SmartMarker pada lembar kerja dengan C# di Aspose.Cells.
+
 ### [Membuat Workbook Excel C# – Panduan Lengkap Menyisipkan Array ke Sel](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
 Pelajari cara membuat workbook Excel dengan C# dan menyisipkan array ke dalam sel secara lengkap.
 

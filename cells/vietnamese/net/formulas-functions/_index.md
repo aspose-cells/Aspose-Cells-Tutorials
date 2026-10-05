@@ -108,6 +108,7 @@ Tìm hiểu cách cập nhật công thức Power Query theo chương trình tro
 ### [Cách sử dụng WRAPCOLS trong C# – Tạo Workbook Excel với các hàm Wrap](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
 
 ### [Tạo Workbook Excel C# – Hướng dẫn Lambda, SEQUENCE & EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+### [Cách sử dụng WRAPCOLS trong C# – Chuyển đổi mảng thành ma trận trong Excel](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
 
 ## Hiểu về các loại công thức Excel
 

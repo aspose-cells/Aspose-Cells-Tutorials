@@ -67,6 +67,8 @@ Aspose.Cells का उपयोग करके C# में पिवट ट�
 C# कोड का उपयोग करके नया Excel वर्कबुक बनाएं और मार्कडाउन सामग्री को शीट में आयात करने का चरण-दर-चरण मार्गदर्शन।
 ### [मार्कडाउन को Excel में परिवर्तित करना – पूर्ण C# गाइड](./convert-markdown-to-excel-complete-c-guide/)
 C# में Aspose.Cells का उपयोग करके मार्कडाउन फ़ाइल को Excel स्प्रेडशीट में बदलने की पूरी प्रक्रिया सीखें।
+### [Aspose.Cells के साथ Excel को PNG में निर्यात – पूर्ण चरण‑दर‑चरण मार्गदर्शिका](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Aspose.Cells का उपयोग करके Excel फ़ाइलों को PNG इमेज में बदलना सीखें, विस्तृत चरणों के साथ।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

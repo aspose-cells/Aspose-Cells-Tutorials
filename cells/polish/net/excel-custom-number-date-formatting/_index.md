@@ -76,6 +76,10 @@ Dowiedz się, jak konwertować ciągi znaków na DateTime w C# i zapisywać oraz
 Dowiedz się, jak w Aspose.Cells dla .NET utworzyć nowy skoroszyt i przekształcić tekstowy ciąg znaków w wartość daty w języku C#.
 ### [Ustaw format daty w Excelu w C# – Kompletny przewodnik krok po kroku](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 Dowiedz się, jak ustawić format daty w arkuszach Excel przy użyciu Aspose.Cells dla .NET w języku C#, krok po kroku.
+### [Ustaw format daty w Excelu przy użyciu C# – Kompletny przewodnik formatowania importu](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+Dowiedz się, jak ustawić format daty w Excelu przy użyciu C# i Aspose.Cells dla .NET, obejmując pełne formatowanie importu.
+### [Utwórz skoroszyt Excel z datami kalendarza japońskiego – pełny przewodnik](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+Dowiedz się, jak przy użyciu Aspose.Cells tworzyć skoroszyty Excel z datami w kalendarzu japońskim, krok po kroku, w pełnym przewodniku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

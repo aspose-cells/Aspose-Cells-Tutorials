@@ -40,6 +40,8 @@ Aspose.Words for .NET を使用して、C# で docx ファイルを XPS に変�
 C# と Aspose.Cells を使用して、Excel ファイルを XPS 形式に変換する手順を詳しく解説します。
 ### [新しい Excel ワークブックの作成 – Unicode と XPS エクスポート ガイド](./create-new-excel-workbook-unicode-xps-export-guide/)
 Aspose.Cells for .NET を使用して、Unicode 対応の新規 Excel ワークブックを作成し、XPS 形式へエクスポートする手順を解説します。
+### [C# でフォントを XPS に埋め込む – 完全プログラミングガイド](./embed-fonts-in-xps-with-c-complete-programming-guide/)
+Aspose.Cells for .NET を使用し、C# で XPS ドキュメントにフォントを埋め込む方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

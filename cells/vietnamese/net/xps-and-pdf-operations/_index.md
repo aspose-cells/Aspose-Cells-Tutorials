@@ -40,6 +40,8 @@ Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang định d�
 Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang XPS bằng C# sử dụng Aspose.Cells, kèm ví dụ mã thực tế.
 ### [Tạo Workbook Excel mới – Hướng dẫn xuất Unicode & XPS](./create-new-excel-workbook-unicode-xps-export-guide/)
 Hướng dẫn tạo workbook Excel mới với hỗ trợ Unicode và xuất sang định dạng XPS bằng Aspose.Cells cho .NET.
+### [Nhúng phông chữ trong XPS bằng C# – Hướng dẫn lập trình chi tiết](./embed-fonts-in-xps-with-c-complete-programming-guide/)
+Hướng dẫn chi tiết cách nhúng phông chữ vào tài liệu XPS bằng C# với Aspose.Cells, kèm ví dụ mã thực tế.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

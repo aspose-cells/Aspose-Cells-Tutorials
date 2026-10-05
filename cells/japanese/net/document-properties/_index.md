@@ -61,6 +61,8 @@ Aspose.Cells for .NET を使用して、カスタム プロパティを設定し
 Aspose.Cells for .NET を使用して、C# でカスタム プロパティを持つ Excel ワークブックを作成し、XLSB 形式で保存する手順を解説します。
 ### [C# で Excel にカスタム プロパティを追加する方法 – ステップバイステップ ガイド](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
 Aspose.Cells for .NET を使用して、C# で Excel にカスタム プロパティを追加する手順を詳しく解説します。
+### [Excel メタデータの追加方法 – 完全な C# ワークブック ガイド](./how-to-add-excel-metadata-complete-c-workbook-guide/)
+Aspose.Cells for .NET を使用して、C# で Excel のメタデータを追加・管理する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

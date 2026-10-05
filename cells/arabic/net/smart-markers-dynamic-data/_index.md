@@ -155,6 +155,10 @@
 تعلم كيفية إنشاء مصنف Excel باستخدام العلامات الذكية لإنتاج قيم عالية ومنخفضة تلقائيًا.
 ### [إنشاء تقرير رئيسي وتفصيلي في C# – تعبئة قالب Excel باستخدام SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
 تعلم كيفية إنشاء تقرير رئيسي‑تفصيلي وتعبئة قالب Excel باستخدام SmartMarker في Aspose.Cells للـ .NET.
+### [تطبيق SmartMarker على ورقة العمل في C# – دليل كامل](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
+تعلم كيفية تطبيق SmartMarker على ورقة عمل باستخدام C# لإنشاء تقارير Excel ديناميكية خطوة بخطوة.
+### [إنشاء Excel برمجيًا باستخدام علامات Aspose.Cells الذكية](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+تعلم كيفية إنشاء ملفات Excel برمجيًا باستخدام علامات Aspose.Cells الذكية في .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

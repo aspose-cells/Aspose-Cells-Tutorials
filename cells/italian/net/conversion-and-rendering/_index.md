@@ -69,6 +69,8 @@ Impara a esportare una tabella pivot da Excel in formato PNG usando Aspose.Cells
 Scopri come creare un nuovo workbook in C# e importare contenuti Markdown in Excel con Aspose.Cells.
 ### [Converti markdown in Excel – Guida completa C#](./convert-markdown-to-excel-complete-c-guide/)
 Scopri come trasformare file markdown in fogli Excel usando C# e Aspose.Cells, con esempi passo passo.
+### [Esporta Excel in PNG con Aspose.Cells – Guida completa passo‑passo](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Impara a esportare i fogli di calcolo Excel in immagini PNG con Aspose.Cells per .NET, seguendo una guida dettagliata passo dopo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

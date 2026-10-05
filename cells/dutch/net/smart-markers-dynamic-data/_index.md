@@ -150,6 +150,10 @@ Leer hoe u geneste JSON-structuren kunt parseren en een JSON-payload kunt genere
 Leer hoe u een Excel-werkmap genereert met slimme markeringen die hoge en lage waarden dynamisch weergeven.
 ### [Maak master-detailrapport in C# – Excel-sjabloon vullen met SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
 Leer hoe u met SmartMarker een master‑detailrapport maakt door een Excel‑sjabloon vanuit C# te vullen.
+### [SmartMarker toepassen op werkblad in C# – Complete gids](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
+Leer hoe u SmartMarker in C# kunt toepassen op een werkblad om dynamische Excel-rapporten te genereren met volledige stapsgewijze instructies.
+### [Excel programmatically maken met Aspose.Cells Smart Markers](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+Leer hoe u met Aspose.Cells Smart Markers een Excel-bestand programmatically kunt genereren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,6 +56,8 @@ Lär dig hur du använder FlatOpcSaveOptions i C# för att spara Excel-filer med
 
 ### [Hur man sparar arbetsbok i C# – Komplett guide för att rensa filter och exportera Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
 Lär dig spara en arbetsbok i C#, ta bort filter och exportera till Excel med en komplett steg-för-steg-guide.
+### [Spara Excel-arbetsbok från JSON – Komplett C#-guide](./save-excel-workbook-from-json-complete-c-guide/)
+Lär dig hur du skapar en Excel-arbetsbok från JSON med C# och Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

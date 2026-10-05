@@ -67,6 +67,8 @@
 تعلم كيفية إنشاء مصنف Excel جديد في C# واستيراد محتوى Markdown إلى ورقة العمل باستخدام Aspose.Cells.
 ### [تحويل markdown إلى Excel – دليل C# كامل](./convert-markdown-to-excel-complete-c-guide/)
 تعلم كيفية تحويل ملفات markdown إلى جداول Excel باستخدام Aspose.Cells في C# خطوة بخطوة.
+### [تصدير Excel إلى PNG باستخدام Aspose.Cells – دليل شامل خطوة بخطوة](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+تعلم كيفية تصدير ملفات Excel إلى صور PNG بسهولة باستخدام Aspose.Cells في .NET من خلال دليل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

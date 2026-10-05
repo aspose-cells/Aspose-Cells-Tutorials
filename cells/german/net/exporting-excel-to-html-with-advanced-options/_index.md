@@ -77,6 +77,8 @@ Erfahren Sie in diesem umfassenden Schritt-für-Schritt-Tutorial, wie Sie Excel-
 Erfahren Sie in dieser ausführlichen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET programmgesteuert HTML5-Zeichenfolgen aus Excel-Zellen abrufen.
 ### [Schriftarten in HTML einbetten – Excel nach HTML exportieren mit C#](./embed-fonts-in-html-export-excel-to-html-with-c/)
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Schriftarten beim HTML-Export von Excel in C# einbetten.
+### [Schriftarten in HTML einbetten – Excel-Arbeitsmappe nach HTML exportieren mit Aspose.Cells](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Schriftarten in die HTML-Ausgabe einbetten und ein konsistentes Layout sicherstellen.
 ### [Überlagerten Inhalt mit Cross Hide Right beim Speichern im HTML-Format ausblenden](./hiding-overlaid-content-with-cross-hide-right/)
 In diesem umfassenden Handbuch erfahren Sie, wie Sie überlagerte Inhalte in Excel beim Speichern im HTML-Format mit Aspose.Cells für .NET ausblenden.
 ### [HTML-Speicheroptionen als Präfix für Tabellenelemente](./prefixing-table-elements-styles/)
@@ -111,6 +113,8 @@ Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit A
 Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Excel vollständig nach HTML exportieren.
 ### [Excel als HTML speichern – Vollständige Anleitung zum Exportieren und Konvertieren von Excel-Dateien](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für .NET vollständig in HTML exportieren und konvertieren – Schritt für Schritt.
+### [Excel nach HTML konvertieren – Komplettanleitung mit Aspose.Cells](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie Excel mit Aspose.Cells vollständig nach HTML konvertieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

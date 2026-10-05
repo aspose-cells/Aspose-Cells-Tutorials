@@ -57,6 +57,8 @@ Hướng dẫn tạo workbook Excel bằng C#, áp dụng định dạng tiền 
 Hướng dẫn tạo workbook mới bằng C# và chuyển đổi nội dung Markdown thành file Excel một cách nhanh chóng.
 ### [Dữ liệu JSON sang Excel – Hướng dẫn đầy đủ chuyển đổi mảng JSON sang Excel](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
 Tìm hiểu cách chuyển đổi dữ liệu JSON thành file Excel bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
+### [Chuyển Worksheet sang DataTable trong C# – Hướng dẫn lập trình đầy đủ](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
+Hướng dẫn chi tiết cách chuyển Worksheet thành DataTable trong C# bằng Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

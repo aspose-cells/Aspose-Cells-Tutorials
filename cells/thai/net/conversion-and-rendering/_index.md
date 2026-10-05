@@ -69,6 +69,8 @@
 เรียนรู้วิธีสร้างไฟล์ Excel ใหม่ด้วย C# แล้วนำเข้าเนื้อหา Markdown ไปยังเวิร์กชีตโดยใช้ Aspose.Cells
 ### [แปลง markdown เป็น Excel – คู่มือ C# ฉบับสมบูรณ์](./convert-markdown-to-excel-complete-c-guide/)
 เรียนรู้วิธีแปลงไฟล์ markdown เป็นไฟล์ Excel ด้วย C# อย่างละเอียดและครบถ้วน
+### [ส่งออก Excel เป็น PNG ด้วย Aspose.Cells – คู่มือขั้นตอนเต็ม](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+เรียนรู้วิธีส่งออกไฟล์ Excel เป็นรูปภาพ PNG อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET ผ่านขั้นตอนที่เข้าใจง่าย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

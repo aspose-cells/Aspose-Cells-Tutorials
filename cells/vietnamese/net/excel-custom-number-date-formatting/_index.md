@@ -76,6 +76,10 @@ Hướng dẫn cách chuyển đổi chuỗi thành DateTime và thao tác ghi, 
 Hướng dẫn tạo workbook và chuyển đổi chuỗi thành kiểu ngày trong C# bằng Aspose.Cells cho .NET.
 ### [Đặt định dạng ngày Excel trong C# – Hướng dẫn chi tiết từng bước](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 Hướng dẫn cách thiết lập định dạng ngày cho ô Excel trong C# bằng Aspose.Cells, từng bước chi tiết.
+### [Đặt định dạng ngày trong Excel bằng C# – Hướng dẫn Định dạng Nhập khẩu Toàn diện](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+Hướng dẫn chi tiết cách thiết lập định dạng ngày trong Excel bằng C# sử dụng Aspose.Cells cho .NET.
+### [Tạo workbook Excel với ngày lịch Nhật Bản – Hướng dẫn toàn diện](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+Tìm hiểu cách tạo workbook Excel với ngày theo lịch Nhật Bản bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -112,6 +112,10 @@
 เรียนรู้วิธีกำหนดตัวเลือกการบันทึก HTMLใน C# อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
 ### [บันทึก Excel เป็น HTML – คู่มือเต็มสำหรับการส่งออกและแปลงไฟล์ Excel](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
 เรียนรู้วิธีบันทึกไฟล์ Excel เป็น HTML อย่างครบถ้วนด้วย Aspose.Cells สำหรับ .NET ผ่านคู่มือขั้นตอนที่ละเอียด
+### [แปลง Excel เป็น HTML – คู่มือฉบับสมบูรณ์โดยใช้ Aspose.Cells](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+เรียนรู้วิธีแปลงไฟล์ Excel เป็น HTML อย่างครบถ้วนด้วย Aspose.Cells สำหรับ .NET ในคู่มือขั้นตอนเดียว
+### [ฝังฟอนต์ใน HTML – ส่งออกเวิร์กบุ๊ก Excel ไปยัง HTML ด้วย Aspose.Cells](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
+เรียนรู้วิธีฝังฟอนต์ในไฟล์ HTML เมื่อส่งออกเวิร์กบุ๊ก Excel ด้วย Aspose.Cells สำหรับ .NET เพื่อให้แสดงผลอย่างถูกต้องบนเว็บ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

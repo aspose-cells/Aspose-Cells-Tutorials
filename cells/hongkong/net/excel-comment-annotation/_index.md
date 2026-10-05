@@ -57,6 +57,8 @@
 了解如何在 C# 中使用智慧標記將資料填入 Excel 範本，並新增註解以提升工作表功能。
 ### [以程式方式建立 Excel 檔案 – 新增註解並儲存為 XLSX](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
 了解如何使用 Aspose.Cells for .NET 以程式方式建立 Excel 檔案，新增註解並儲存為 XLSX 格式。
+### [使用 Aspose.Cells 智能標記在 Excel 中新增註解儲存格](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
+了解如何使用 Aspose.Cells 智能標記在 Excel 中為儲存格新增註解，以簡化資料匯入流程。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

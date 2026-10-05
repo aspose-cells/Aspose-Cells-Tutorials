@@ -40,6 +40,8 @@
 本指南詳細說明如何使用 Aspose.Cells for .NET 及 C# 將 Excel 檔案轉換為 XPS，包含完整程式碼範例。
 ### [建立新的 Excel 活頁簿 – Unicode 與 XPS 匯出指南](./create-new-excel-workbook-unicode-xps-export-guide/)
 學習如何在 Aspose.Cells for .NET 中建立 Unicode 支援的 Excel 活頁簿，並將其匯出為 XPS 格式。
+### [在 C# 中嵌入字型於 XPS – 完整程式設計指南](./embed-fonts-in-xps-with-c-complete-programming-guide/)
+學習如何在 XPS 文件中嵌入字型，確保文字正確顯示，並提供完整的 C# 程式碼範例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

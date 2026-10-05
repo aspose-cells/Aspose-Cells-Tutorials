@@ -115,6 +115,10 @@ Learn how to embed custom fonts when converting Excel to HTML using Aspose.Cells
 Learn how to embed fonts in HTML exported from Excel using Aspose.Cells for .NET in this comprehensive step-by-step guide.
 ### [How to Export Excel to HTML – Complete Programming Guide](./how-to-export-excel-to-html-complete-programming-guide/)
 Learn how to export Excel to HTML using Aspose.Cells for .NET with a complete programming guide, step-by-step examples included.
+### [Embed Fonts in HTML – Export Excel Workbook to HTML with Aspose.Cells](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
+Learn how to embed fonts in HTML when exporting an Excel workbook to HTML using Aspose.Cells for .NET.
+### [Convert Excel to HTML – Complete Guide Using Aspose.Cells](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+Learn how to convert Excel files to HTML with a comprehensive step-by-step guide using Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,6 +56,8 @@ Aspose.Cells for .NET предоставляет разработчикам мо
 
 ### [Как сохранить рабочую книгу в C# – Полное руководство по очистке фильтров и экспорту Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
 Узнайте, как программно сохранять книгу, удалять фильтры и экспортировать данные Excel с помощью Aspose.Cells для .NET.
+### [Сохранить книгу Excel из JSON – Полное руководство C#](./save-excel-workbook-from-json-complete-c-guide/)
+Узнайте, как преобразовать JSON в книгу Excel с помощью Aspose.Cells для .NET, используя полный пример на C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

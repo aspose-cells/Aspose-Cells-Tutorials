@@ -54,6 +54,8 @@ Découvrez comment utiliser FlatOpcSaveOptions en C# avec Aspose.Cells pour .NET
 
 
 ### [Comment enregistrer un classeur en C# – Guide complet pour effacer les filtres et exporter Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+### [Enregistrer un classeur Excel à partir de JSON – Guide complet C#](./save-excel-workbook-from-json-complete-c-guide/)
+Apprenez à créer et enregistrer un classeur Excel à partir de données JSON en C# avec Aspose.Cells pour .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

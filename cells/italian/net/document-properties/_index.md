@@ -61,6 +61,8 @@ Impara a salvare un file XLSB aggiungendo una proprietà personalizzata usando A
 Scopri come creare una cartella di lavoro Excel in C#, aggiungere una proprietà personalizzata e salvarla in formato XLSB.
 ### [Come aggiungere una proprietà personalizzata in Excel con C# – Guida passo‑passo](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
 Scopri come aggiungere una proprietà personalizzata a un file Excel usando C# con Aspose.Cells, passo dopo passo.
+### [Come aggiungere i metadati di Excel – Guida completa al workbook C#](./how-to-add-excel-metadata-complete-c-workbook-guide/)
+Impara a inserire metadati personalizzati in un file Excel usando Aspose.Cells per .NET con esempi pratici in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

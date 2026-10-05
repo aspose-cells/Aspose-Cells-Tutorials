@@ -57,6 +57,8 @@ Aprenda a crear un libro de Excel en C# con Aspose.Cells, añadir comentarios y 
 Aprenda a agregar comentarios a una plantilla de Excel usando marcadores inteligentes con Aspose.Cells para .NET en C#.
 ### [Crear archivo de Excel programáticamente – Añadir comentarios y guardar como XLSX](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
 Aprenda a crear un archivo de Excel mediante código, añadir comentarios y guardarlo como XLSX con Aspose.Cells para .NET.
+### [Agregar comentario a una celda en Excel con Aspose.Cells Smart Marker](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
+Aprenda a agregar comentarios a celdas en Excel usando Smart Marker de Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -61,6 +61,8 @@
 Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel σε C#, να εισάγετε δεδομένα JSON και να το αποθηκεύσετε ως αρχείο XLSX με το Aspose.Cells.
 ### [Δημιουργία βιβλίου εργασίας Excel C# – Εφαρμογή μορφοποίησης νομίσματος και εισαγωγή DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
 Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel σε C#, να εφαρμόσετε μορφοποίηση νομίσματος και να εισάγετε DataTable χρησιμοποιώντας το Aspose.Cells.
+### [Μετατροπή φύλλου εργασίας σε DataTable σε C# – Πλήρης οδηγός προγραμματισμού](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
+Μάθετε πώς να μετατρέψετε ένα φύλλο εργασίας σε DataTable χρησιμοποιώντας το Aspose.Cells για .NET σε αυτόν τον πλήρη οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

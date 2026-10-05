@@ -93,6 +93,11 @@ Erfahren Sie, wie Sie die Option für verschachtelte Bereiche aktivieren, um kom
 
 ### [Implementieren Sie ein Variablenarray mit intelligenten Markierungen Aspose.Cells](./variable-array-smart-markers/)
 Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells. Erfahren Sie Schritt für Schritt, wie Sie variable Arrays mit Smart Markers für die nahtlose Erstellung von Excel-Berichten implementieren.
+### [Excel programmgesteuert mit Aspose.Cells Smart Markers erstellen](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers Excel-Dateien programmgesteuert erstellen und Daten dynamisch einfügen.
+
+### [SmartMarker auf Arbeitsblatt in C# anwenden – Komplettanleitung](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
+
 ### [Arbeitsmappe aus XLSX mit Aspose.Cells SmartMarkerProcessor erstellen](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
 Lernen Sie, wie Sie mit dem SmartMarkerProcessor von Aspose.Cells eine Arbeitsmappe aus einer XLSX‑Vorlage erstellen und Daten dynamisch einfügen.
 

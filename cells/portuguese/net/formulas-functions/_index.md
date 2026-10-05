@@ -168,6 +168,8 @@ Para implementação robusta da fórmula:
 4. **Documentação**: Manter documentação clara de estruturas de fórmulas complexas
 
 Ao dominar esses recursos de fórmula com o Aspose.Cells para .NET, você pode criar mecanismos de cálculo sofisticados em suas planilhas que fornecem resultados precisos e dinâmicos sem exigir instalação do Excel.
+### [Como usar WRAPCOLS em C# – Redimensionar um array para uma matriz no Excel](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
+Aprenda a usar a função WRAPCOLS em C# com Aspose.Cells para transformar um array unidimensional em uma matriz no Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -59,6 +59,8 @@ Learn how to create an Excel workbook in C#, apply currency formatting, and impo
 Learn how to quickly create a new workbook in C# and convert Markdown files to Excel using Aspose.Cells for .NET.
 ### [json data to excel – Full Guide to Convert JSON Array Excel](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
 Learn how to convert JSON arrays to Excel files using Aspose.Cells for .NET in this comprehensive guide.
+### [Convert Worksheet to DataTable in C# – Complete Programming Guide](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
+Learn how to convert an Excel worksheet to a DataTable using Aspose.Cells for .NET in this comprehensive guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -76,6 +76,10 @@ Pelajari cara mengonversi string menjadi DateTime dan menulis serta membaca tang
 Pelajari cara membuat workbook dan mengonversi string menjadi tanggal di C# menggunakan Aspose.Cells untuk .NET dalam tutorial langkah demi langkah ini.
 ### [Set format tanggal Excel di C# – Panduan Lengkap Langkah demi Langkah](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 Pelajari cara mengatur format tanggal di Excel menggunakan C# dengan panduan langkah demi langkah lengkap menggunakan Aspose.Cells untuk .NET.
+### [Atur format tanggal di Excel dengan C# – Panduan Lengkap Format Impor](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+Pelajari cara mengatur format tanggal di Excel menggunakan C# dengan panduan lengkap format impor pada Aspose.Cells untuk .NET.
+### [Buat Workbook Excel dengan Tanggal Kalender Jepang – Panduan Lengkap](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+Pelajari cara membuat workbook Excel dengan tanggal kalender Jepang menggunakan Aspose.Cells untuk .NET dalam panduan lengkap ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

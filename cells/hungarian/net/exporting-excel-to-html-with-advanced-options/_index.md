@@ -106,6 +106,8 @@ Részletes, lépésről lépésre bemutató, amely a teljes folyamatot lefedi az
 ### [HTML mentési beállítások létrehozása C#-ban – Teljes útmutató](./create-html-save-options-in-c-full-guide/)
 ### [Excel mentése HTML-ként – Teljes útmutató az Excel fájlok exportálásához és konvertálásához](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
 Ismerje meg, hogyan menthet Excel fájlokat HTML formátumba, és konvertálhatja őket részletes, lépésről-lépésre útmutatóval az Aspose.Cells for .NET segítségével.
+### [Betűtípusok beágyazása HTML-be – Excel munkafüzet exportálása HTML-be az Aspose.Cells segítségével](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
+Ismerje meg, hogyan ágyazhat be betűtípusokat az exportált HTML-be, hogy a megjelenés minden eszközön egységes legyen az Aspose.Cells for .NET használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

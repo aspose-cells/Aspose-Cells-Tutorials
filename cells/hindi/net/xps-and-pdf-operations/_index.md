@@ -40,6 +40,8 @@ C# में Aspose.Words का उपयोग करके DOCX फ़ाइ�
 C# में Aspose.Cells का उपयोग करके Excel को XPS में बदलने की पूरी गाइड। चरण-दर-चरण कोड उदाहरण।
 ### [नया Excel वर्कबुक बनाएं – Unicode और XPS निर्यात गाइड](./create-new-excel-workbook-unicode-xps-export-guide/)
 Aspose.Cells का उपयोग करके Unicode समर्थन के साथ नया Excel वर्कबुक बनाएं और उसे XPS फ़ॉर्मेट में निर्यात करना सीखें।
+### [C# के साथ XPS में फ़ॉन्ट एम्बेड करना – पूर्ण प्रोग्रामिंग गाइड](./embed-fonts-in-xps-with-c-complete-programming-guide/)
+Aspose.Cells के साथ C# में XPS फ़ाइलों में फ़ॉन्ट एम्बेड करने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

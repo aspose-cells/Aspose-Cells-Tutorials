@@ -54,6 +54,8 @@ Lär dig hur du beräknar en arbetsbok i C#, sorterar data och använder formler
 Lär dig hur du tvingar omedelbar formelberäkning i C# för att automatisera Excel-arbetsböcker med fullständig kontroll.
 ### [Skapa Excel-arbetsbok – Konvertera array till matris med WRAPCOLS](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
 Lär dig hur du skapar en Excel-arbetsbok och omvandlar en array till en matris med funktionen WRAPCOLS i Aspose.Cells.
+### [Hur man utvärderar formler i C# – Komplett Aspose.Cells-guide](./how-to-evaluate-formulas-in-c-complete-aspose-cells-guide/)
+Lär dig hur du utvärderar Excel-formler i C# med en komplett guide för Aspose.Cells.
 
 ## Fördelar
 

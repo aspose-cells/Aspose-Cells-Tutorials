@@ -98,6 +98,10 @@ Leer hoe u Excel naar HTML exporteert met een volledige programmeergids voor Asp
 Leer stap voor stap hoe u met Aspose.Cells voor .NET HTML-opslagopties in C# configureert en geavanceerde exportinstellingen toepast.
 ### [Excel opslaan als HTML – Volledige gids voor het exporteren en converteren van Excel‑bestanden](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
 Leer hoe u Excel als HTML opslaat met Aspose.Cells voor .NET in deze uitgebreide stapsgewijze gids.
+### [Lettertypen insluiten in HTML – Exporteer Excel-werkmap naar HTML met Aspose.Cells](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
+Leer hoe u lettertypen insluit bij het exporteren van een Excel-werkmap naar HTML met Aspose.Cells voor .NET in deze stapsgewijze handleiding.
+### [Excel converteren naar HTML – Complete gids met Aspose.Cells](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+Leer hoe u Excel naar HTML converteert met een volledige gids en Aspose.Cells voor .NET in deze stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

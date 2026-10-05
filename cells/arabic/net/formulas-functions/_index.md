@@ -105,6 +105,10 @@
 تعرّف على كيفية تحديث صيغ Power Query برمجيًا في مصنفات Excel باستخدام Aspose.Cells لـ .NET. إدارة مصادر البيانات الرئيسية لإعداد تقارير ديناميكية.
 
 ### [كيفية استخدام WRAPCOLS في C# – إنشاء مصنف Excel مع وظائف التغليف](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+### [كيفية استخدام WRAPCOLS في C# – تحويل مصفوفة إلى مصفوفة (ماتريكس) في Excel](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
+تعلّم كيفية استخدام WRAPCOLS في C# لإعادة تشكيل مصفوفة إلى مصفوفة (ماتريكس) داخل Excel باستخدام Aspose.Cells.
+
+## فهم أنواع الصيغ في Excel
 
 ### [إنشاء مصنف Excel C# – دليل Lambda و SEQUENCE و EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 

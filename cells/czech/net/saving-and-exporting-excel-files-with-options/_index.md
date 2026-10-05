@@ -56,6 +56,8 @@ Naučte se, jak využít FlatOpcSaveOptions pro ukládání souborů s možnost�
 
 ### [Jak uložit sešit v C# – Kompletní průvodce odstraňováním filtrů a exportem Excelu](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
 Naučte se, jak uložit sešit, vymazat filtry a exportovat Excel pomocí Aspose.Cells pro .NET.
+### [Uložení sešitu Excel z JSON – kompletní průvodce v C#](./save-excel-workbook-from-json-complete-c-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET převést data JSON do sešitu Excel a uložit jej pomocí C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

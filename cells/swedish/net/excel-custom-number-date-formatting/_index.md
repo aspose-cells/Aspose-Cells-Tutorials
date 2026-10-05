@@ -76,6 +76,10 @@ Lär dig hur du konverterar strängar till DateTime i C# och hanterar datum i Ex
 Lär dig hur du skapar en arbetsbok och omvandlar en textsträng till ett datum med Aspose.Cells för .NET i C#.
 ### [Ställ in Excel-datumformat i C# – Komplett steg‑för‑steg‑guide](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 Lär dig hur du anger datumformat i Excel med C# i en detaljerad steg‑för‑steg‑guide.
+### [Ställ in datumformat i Excel med C# – Fullständig guide för importformatering](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+Lär dig hur du ställer in datumformat i Excel med C# och Aspose.Cells för .NET i den här omfattande importformateringsguiden.
+### [Skapa Excel-arbetsbok med japanska kalenderdatum – Fullständig guide](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+Lär dig hur du skapar en Excel-arbetsbok med japanska kalenderdatum med Aspose.Cells för .NET i den här kompletta guiden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

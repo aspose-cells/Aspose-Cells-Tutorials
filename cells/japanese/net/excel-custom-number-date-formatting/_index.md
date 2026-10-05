@@ -73,6 +73,10 @@ Aspose.Cells for .NET を使用し、文字列を DateTime に変換し、Excel 
 ### [C# でワークブックを作成し、文字列を日付に変換する方法](./how-to-create-workbook-and-convert-string-to-date-in-c/)
 Aspose.Cells for .NET を使用して、C# で新しいワークブックを作成し、文字列データを日付型に変換する手順を解説します。
 ### [C# で Excel の日付形式を設定する – 完全ステップバイステップガイド](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+### [C# で Excel の日付形式を設定する – 完全インポート書式設定ガイド](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+この包括的なチュートリアルでは、Aspose.Cells for .NET と C# を使用して、Excel の日付形式を設定し、インポート時の書式を完全に制御する方法を学びます。
+### [日本のカレンダー日付で Excel ワークブックを作成する – 完全ガイド](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+Aspose.Cells for .NET を使用し、日本の和暦カレンダー日付を持つ Excel ワークブックを作成し、書式設定とインポートを完全に制御する方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

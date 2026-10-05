@@ -57,6 +57,8 @@
 了解如何使用 Aspose.Cells for .NET 在 C# 中通过智能标记填充 Excel 模板并添加注释。
 ### [使用代码创建 Excel 文件 – 添加注释并保存为 XLSX](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
 了解如何使用 Aspose.Cells for .NET 通过代码创建 Excel 文件，添加注释并保存为 XLSX 格式。
+### [在 Excel 中使用 Aspose.Cells 智能标记添加注释单元格](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
+了解如何使用 Aspose.Cells 智能标记在 Excel 中添加注释单元格，以实现自动化和批量处理。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

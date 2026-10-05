@@ -57,6 +57,8 @@ Apprenez à créer un classeur Excel en C#, ajouter un commentaire et le sauvega
 Apprenez à ajouter des commentaires en remplissant un modèle Excel avec des Smart Markers en C#.
 ### [Créer un fichier Excel par programme – Ajouter des commentaires et enregistrer au format XLSX](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
 Apprenez à créer un classeur Excel, ajouter des commentaires et le sauvegarder en XLSX avec Aspose.Cells pour .NET.
+### [Ajouter un commentaire de cellule dans Excel avec Aspose.Cells Smart Marker](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
+Apprenez à insérer des commentaires de cellule dans Excel en utilisant les Smart Markers d'Aspose.Cells pour .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

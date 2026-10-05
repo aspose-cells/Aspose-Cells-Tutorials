@@ -67,6 +67,8 @@ Aspose.Cells for .NET を使用して、C# でピボットテーブルを PNG �
 C# を使用して新しい Excel ワークブックを作成し、Markdown コンテンツをインポートして表形式に変換する手順を解説します。
 ### [Markdown を Excel に変換 – 完全 C# ガイド](./convert-markdown-to-excel-complete-c-guide/)
 Aspose.Cells を使用して、Markdown ファイルを Excel に変換する方法を C# で詳しく解説します。
+### [Aspose.Cells で Excel を PNG にエクスポート – 完全ステップバイステップガイド](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Aspose.Cells を使用して Excel シートを高品質な PNG 画像に変換する方法を、手順ごとに詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

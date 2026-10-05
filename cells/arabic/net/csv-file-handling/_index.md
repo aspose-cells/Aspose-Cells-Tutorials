@@ -51,6 +51,8 @@
 تعلم كيفية تصدير الجداول إلى ملفات CSV باستخدام C# مع تنسيقات أرقام مخصصة بسهولة وفعالية.
 ### [تصدير جدول إلى CSV في C# – دليل كامل](./export-table-to-csv-in-c-complete-guide/)
 تعلم كيفية تصدير الجداول إلى ملفات CSV باستخدام C# و Aspose.Cells خطوة بخطوة.
+### [حفظ المصنف كملف CSV – دليل كامل لتصدير Excel إلى CSV في C#](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-i/)
+تعلم كيفية حفظ المصنف كملف CSV باستخدام Aspose.Cells لـ .NET في بيئة C# خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

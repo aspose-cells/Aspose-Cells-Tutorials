@@ -102,6 +102,8 @@
 ### [使用 Aspose.Cells .NET 更新 Excel Power Query 公式](./update-power-query-formulas-aspose-cells-net)
 了解如何使用 Aspose.Cells for .NET 以程式設計方式更新 Excel 工作簿中的 Power Query 公式。主資料來源管理，用於動態報告。
 
+### [如何在 C# 中使用 WRAPCOLS – 將陣列重新塑形為 Excel 矩陣](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
+
 ### [如何在 C# 中使用 WRAPCOLS – 建立具備換列功能的 Excel 工作簿](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
 
 ### [建立 Excel 工作簿 C# – Lambda、SEQUENCE 與 EXPAND 指南](./create-excel-workbook-c-lambda-sequence-expand-guide/)

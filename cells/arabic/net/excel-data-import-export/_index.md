@@ -57,6 +57,8 @@
 تعلم كيفية إنشاء مصنف Excel جديد في C# وتحويل ملفات Markdown إلى Excel بسرعة باستخدام Aspose.Cells for .NET.
 ### [بيانات JSON إلى Excel – دليل كامل لتحويل مصفوفة JSON إلى Excel](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
 تعرف على كيفية تحويل بيانات JSON إلى ملفات Excel بسهولة باستخدام Aspose.Cells لـ .NET في هذا الدليل الشامل.
+### [تحويل ورقة العمل إلى DataTable في C# – دليل برمجة كامل](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
+تعلم كيفية تحويل ورقة عمل Excel إلى كائن DataTable باستخدام Aspose.Cells لـ .NET في دليل برمجة شامل.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

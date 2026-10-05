@@ -152,6 +152,10 @@ Aspose.Cells Smart Markers также поддерживает анонимны�
 Научитесь разбирать вложенные JSON‑структуры и создавать JSON‑payload в C# с пошаговыми примерами.
 ### [Как создать рабочую книгу с помощью смарт-маркеров – вывод High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
 ### [Создание отчета master-detail в C# – Заполнение шаблона Excel с помощью SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
+### [Применить SmartMarker к листу в C# – Полное руководство](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
+Полное руководство по применению SmartMarker к листу в C#, показывающее шаги создания динамических отчетов в Excel.
+### [Создайте Excel программно с помощью Aspose.Cells Smart Markers](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+Узнайте, как программно создавать файлы Excel, используя Smart Markers в Aspose.Cells для .NET, с пошаговыми примерами кода.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

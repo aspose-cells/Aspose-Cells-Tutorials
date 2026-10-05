@@ -40,6 +40,8 @@ Scopri come convertire i file DOCX in XPS usando C# con una guida completa e ese
 Scopri come convertire file Excel in XPS usando C# con una guida completa passo passo e esempi di codice.
 ### [Creare un nuovo workbook Excel – Guida all'esportazione Unicode e XPS](./create-new-excel-workbook-unicode-xps-export-guide/)
 Scopri come creare un nuovo workbook Excel con supporto Unicode e esportarlo in XPS usando Aspose.Cells per .NET.
+### [Incorporare i font in XPS con C# – Guida completa di programmazione](./embed-fonts-in-xps-with-c-complete-programming-guide/)
+Scopri come incorporare i font nei file XPS usando C# e Aspose.Cells, con esempi di codice dettagliati.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

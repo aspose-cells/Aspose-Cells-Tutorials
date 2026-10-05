@@ -67,6 +67,8 @@ Tanuld meg, hogyan exportálhatsz Pivot táblákat PNG képként C#-ban az Aspos
 Tanuld meg, hogyan hozhatsz létre új Excel munkafüzetet C#-ban, és importálj Markdown tartalmat Excelbe az Aspose.Cells segítségével.
 ### [Markdown konvertálása Excelbe – Teljes C# útmutató](./convert-markdown-to-excel-complete-c-guide/)
 Tanuld meg, hogyan alakíthatod át a Markdown fájlokat Excel táblázatokká C# segítségével az Aspose.Cells használatával.
+### [Excel exportálása PNG-be az Aspose.Cells segítségével – Teljes lépésről‑lépésre útmutató](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Tanuld meg, hogyan exportálhatsz Excel-fájlokat PNG képekké az Aspose.Cells használatával .NET környezetben, részletes lépésekkel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -146,6 +146,8 @@ Lär dig hur du parsar nästlad JSON i C# och skapar JSON‑payloads för att an
 Lär dig att generera en arbetsbok som visar hög- och lågvärden med Smart Markers i Aspose.Cells.
 ### [Skapa master‑detail‑rapport i C# – Fyll i Excel‑mall med SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
 Lär dig hur du bygger en master‑detail‑rapport i C# genom att fylla en Excel‑mall med SmartMarker‑teknik.
+### [Applicera SmartMarker på arbetsblad i C# – Komplett guide](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
+### [Skapa Excel programatiskt med Aspose.Cells Smart Markers](./create-excel-programmatically-using-aspose-cells-smart-marke/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

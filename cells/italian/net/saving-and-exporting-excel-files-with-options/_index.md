@@ -56,6 +56,8 @@ Scopri come utilizzare FlatOpcSaveOptions per salvare file Excel con opzioni ava
 
 ### [Come salvare una cartella di lavoro in C# – Guida completa per rimuovere i filtri ed esportare Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
 Scopri come rimuovere i filtri e salvare ed esportare un file Excel usando Aspose.Cells per .NET con C# in pochi passaggi.
+### [Salva cartella di lavoro Excel da JSON – Guida completa C#](./save-excel-workbook-from-json-complete-c-guide/)
+Impara a creare e salvare una cartella di lavoro Excel a partire da dati JSON usando Aspose.Cells per .NET con C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

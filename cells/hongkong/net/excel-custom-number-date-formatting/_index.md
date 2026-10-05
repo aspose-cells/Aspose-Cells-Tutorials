@@ -76,6 +76,10 @@
 在本教學中學習如何使用 Aspose.Cells for .NET 在 C# 建立工作簿並將字串轉換為日期。
 ### [在 C# 中設定 Excel 日期格式 – 完整步驟指南](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 本完整指南逐步說明如何在 C# 使用 Aspose.Cells 設定 Excel 工作表的日期格式，提升報表呈現與資料一致性。
+### [在 Excel 中使用 C# 設定日期格式 – 完整匯入格式指南](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+本教學說明如何使用 Aspose.Cells for .NET 於匯入時設定 Excel 日期格式，確保資料正確呈現。
+### [使用日本曆日期建立 Excel 活頁簿 – 完整指南](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+本教學說明如何使用 Aspose.Cells for .NET 在 Excel 中建立並處理使用日本曆日期的活頁簿。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

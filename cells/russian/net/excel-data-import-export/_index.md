@@ -57,6 +57,8 @@
 Создайте новую книгу Excel в C# и быстро конвертируйте Markdown в Excel с помощью Aspose.Cells.
 ### [JSON в Excel – Полное руководство по преобразованию массива JSON в Excel](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
 Узнайте, как конвертировать массив JSON в файл Excel с помощью Aspose.Cells для .NET в этом полном руководстве.
+### [Преобразование листа в DataTable на C# – Полное руководство](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
+Узнайте, как преобразовать лист Excel в DataTable на C# с помощью Aspose.Cells для .NET в полном руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

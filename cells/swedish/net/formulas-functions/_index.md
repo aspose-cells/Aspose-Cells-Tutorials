@@ -106,6 +106,7 @@ Lär dig hur du programmatiskt uppdaterar Power Query-formler i Excel-arbetsböc
 Lär dig hur du beräknar cotangens i Excel med Aspose.Cells för .NET, skapar en arbetsbok, använder EXPAND-funktionen och sparar filen.
 
 ### [Hur man använder Lambda i C# med Excel-formler – Komplett guide](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
+### [Hur man använder WRAPCOLS i C# – Omforma en array till en matris i Excel](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
 
 ## Förstå Excel-formeltyper
 

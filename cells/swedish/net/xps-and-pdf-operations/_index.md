@@ -40,6 +40,8 @@ Lär dig hur du konverterar DOCX-filer till XPS med C# och Aspose.Words i en kom
 Lär dig hur du konverterar Excel-filer till XPS med C# i en komplett steg-för-steg-guide.
 ### [Skapa ny Excel-arbetsbok – Unicode- och XPS-exportguide](./create-new-excel-workbook-unicode-xps-export-guide/)
 Lär dig hur du skapar en ny Excel-arbetsbok med Unicode-stöd och exporterar den till XPS med Aspose.Cells för .NET.
+### [Bädda in teckensnitt i XPS med C# – Komplett programmeringsguide](./embed-fonts-in-xps-with-c-complete-programming-guide/)
+Lär dig hur du bäddar in teckensnitt i XPS-filer med C# och Aspose.Cells för .NET i en komplett steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

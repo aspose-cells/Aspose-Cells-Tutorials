@@ -42,6 +42,8 @@ Aspose.Cells สำหรับ .NET มอบเครื่องมืออ�
 เรียนรู้วิธีระบุคุณสมบัติของเอกสาร เช่น เวอร์ชัน ผู้เขียน และชื่อเรื่องในไฟล์ Excelด้วยโปรแกรม Aspose.Cells สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน
 ### [การตัดแถวและคอลัมน์ว่างด้านหน้าขณะส่งออก](./trimming-leading-blank-rows-and-columns/)
 ปรับปรุงการส่งออก CSV ของคุณโดยตัดแถวและคอลัมน์ว่างด้านหน้าออกด้วย Aspose.Cells สำหรับ .NET ข้อมูลที่สะอาดอยู่ห่างออกไปเพียงไม่กี่ขั้นตอน
+### [บันทึกเวิร์กบุ๊ก Excel จาก JSON – คู่มือ C# ฉบับสมบูรณ์](./save-excel-workbook-from-json-complete-c-guide/)
+
 ### [วิธีบันทึกเวิร์กบุ๊กใน C# – คู่มือการทำงานอัตโนมัติ Excel อย่างครบถ้วน](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
 เรียนรู้วิธีบันทึกเวิร์กบุ๊กใน C# อย่างละเอียด พร้อมเทคนิคการทำงานอัตโนมัติของ Excel อย่างครบถ้วน
 ### [วิธีใช้ FlatOpcSaveOptions ใน C# – คู่มือฉบับสมบูรณ์](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)

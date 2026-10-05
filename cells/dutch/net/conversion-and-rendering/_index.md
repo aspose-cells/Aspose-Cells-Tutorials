@@ -67,6 +67,8 @@ Leer hoe u met Aspose.Cells een draaitabel uit een Excel-werkblad exporteert als
 Leer hoe je met Aspose.Cells een nieuw Excel-werkboek maakt in C# en Markdown-inhoud importeert.
 ### [Markdown naar Excel converteren – Complete C#-gids](./convert-markdown-to-excel-complete-c-guide/)
 Leer hoe je markdown-bestanden omzet naar Excel met een volledige C#-handleiding, stap voor stap met Aspose.Cells.
+### [Export Excel naar PNG met Aspose.Cells – Complete stapsgewijze handleiding](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Leer hoe u Excel-bestanden kunt exporteren naar PNG met Aspose.Cells in .NET via een volledige stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

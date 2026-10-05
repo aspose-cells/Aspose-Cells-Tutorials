@@ -61,6 +61,8 @@ C# में कस्टम प्रॉपर्टी के साथ XLSB �
 C# का उपयोग करके Excel वर्कबुक बनाएं, कस्टम प्रॉपर्टी जोड़ें और फ़ाइल को XLSB फ़ॉर्मेट में सहेजें।
 ### [C# के साथ Excel में कस्टम प्रॉपर्टी कैसे जोड़ें – चरण‑बद्ध गाइड](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
 C# का उपयोग करके Excel में कस्टम प्रॉपर्टी जोड़ने की चरण-दर-चरण गाइड। Aspose.Cells के साथ आसान तरीका।
+### [Excel मेटाडेटा कैसे जोड़ें – पूर्ण C# वर्कबुक गाइड](./how-to-add-excel-metadata-complete-c-workbook-guide/)
+C# में Aspose.Cells का उपयोग करके Excel फ़ाइल में मेटाडेटा जोड़ने के चरण-दर-चरण मार्गदर्शन।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

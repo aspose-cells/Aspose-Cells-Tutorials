@@ -51,6 +51,8 @@ Aspose.Cells for .NET을 사용해 새 워크북을 만들고, 데이터를 CSV 
 Aspose.Cells for .NET을 사용하여 테이블 데이터를 CSV 파일로 내보내고, 사용자 지정 숫자 형식을 적용하는 방법을 단계별로 안내합니다.
 ### [C#에서 테이블을 CSV로 내보내기 – 완전 가이드](./export-table-to-csv-in-c-complete-guide/)
 Aspose.Cells for .NET을 사용하여 C#에서 테이블 데이터를 CSV 파일로 내보내는 방법을 단계별로 안내합니다.
+### [워크북을 CSV로 저장 – C#에서 Excel을 CSV로 내보내는 완전 가이드](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-i/)
+Aspose.Cells for .NET을 사용하여 워크북을 CSV 파일로 저장하고 내보내는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

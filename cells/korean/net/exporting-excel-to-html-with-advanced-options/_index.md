@@ -109,6 +109,9 @@ Aspose.Cells for .NET을 활용해 Excel 파일에서 HTML로 글꼴을 삽입�
 Aspose.Cells for .NET을 사용하여 C#에서 Excel 파일을 HTML로 변환하는 전체 단계별 가이드를 확인하세요.
 ### [Excel을 HTML로 내보내는 방법 – 완전 프로그래밍 가이드](./how-to-export-excel-to-html-complete-programming-guide/)
 Aspose.Cells for .NET을 활용해 Excel을 HTML로 내보내는 전체 프로그래밍 과정을 단계별로 안내합니다.
+### [Aspose.Cells를 사용한 Excel을 HTML로 변환 – 완전 가이드](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+Aspose.Cells for .NET을 활용해 Excel 파일을 HTML로 변환하는 전체 단계별 가이드를 확인하세요.
+### [HTML에 글꼴 포함 – Aspose.Cells로 Excel 통합 문서를 HTML로 내보내기](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

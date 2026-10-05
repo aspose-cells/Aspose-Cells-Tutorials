@@ -61,6 +61,8 @@ Learn how to save XLSB files with a custom property using Aspose.Cells for .NET 
 Learn how to create an Excel workbook in C#, add a custom property, and save it as XLSB using Aspose.Cells for .NET.
 ### [How to Add Custom Property in Excel with C# – Step‑by‑Step Guide](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
 Learn how to add a custom property in Excel using Aspose.Cells for .NET with a step‑by‑step guide.
+### [How to Add Excel Metadata – Complete C# Workbook Guide](./how-to-add-excel-metadata-complete-c-workbook-guide/)
+Learn how to add Excel metadata using Aspose.Cells for .NET with a complete C# workbook guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -57,6 +57,8 @@
 เรียนรู้วิธีสร้างเวิร์กบุ๊กใหม่ใน C# และแปลงไฟล์ Markdown เป็น Excel อย่างรวดเร็วด้วย Aspose.Cells
 ### [json data to excel – คู่มือเต็มสำหรับการแปลง JSON Array เป็น Excel](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
 เรียนรู้วิธีแปลงข้อมูล JSON เป็นไฟล์ Excel อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
+### [แปลง Worksheet เป็น DataTable ใน C# – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
+เรียนรู้วิธีแปลง Worksheet เป็น DataTable ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

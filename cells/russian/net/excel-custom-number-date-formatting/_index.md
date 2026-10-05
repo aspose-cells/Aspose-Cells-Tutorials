@@ -76,6 +76,10 @@
 Узнайте, как создать рабочую книгу и преобразовать строку в дату с помощью Aspose.Cells для .NET в этом руководстве.
 ### [Установить формат даты в Excel в C# – Полное пошаговое руководство](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 Узнайте, как задать пользовательский формат даты в Excel с помощью Aspose.Cells для .NET в C# в этом полном пошаговом руководстве.
+### [Установите формат даты в Excel с C# – Полное руководство по импортному форматированию](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+Узнайте, как установить формат даты в Excel с помощью Aspose.Cells для .NET в этом полном руководстве по импортному форматированию.
+### [Создание книги Excel с датами японского календаря – Полное руководство](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+Узнайте, как создать книгу Excel с датами японского календаря, используя Aspose.Cells для .NET, в этом полном руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

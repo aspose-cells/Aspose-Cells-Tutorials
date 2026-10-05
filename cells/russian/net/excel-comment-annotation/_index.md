@@ -57,6 +57,8 @@
 Узнайте, как использовать Smart Markers в C# для заполнения шаблона Excel комментариями.
 ### [Создать файл Excel программно – добавить комментарии и сохранить как XLSX](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
 Узнайте, как программно создавать файлы Excel, добавлять комментарии и сохранять их в формате XLSX с помощью Aspose.Cells для .NET.
+### [Добавить комментарий к ячейке в Excel с помощью Aspose.Cells Smart Marker](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
+Узнайте, как использовать Smart Marker для добавления комментариев к ячейкам в Excel с Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -60,6 +60,8 @@
 ### [إنشاء مصنف Excel C# – إضافة خاصية مخصصة وحفظ بصيغة XLSB](./create-excel-workbook-c-add-custom-property-save-xlsb/)
 ### [كيفية إضافة خاصية مخصصة في Excel باستخدام C# – دليل خطوة بخطوة](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
 تعلم كيفية إنشاء خاصية مخصصة في ملفات Excel باستخدام C# خطوة بخطوة مع Aspose.Cells.
+### [كيفية إضافة بيانات تعريف Excel – دليل كامل لدفتر عمل C#](./how-to-add-excel-metadata-complete-c-workbook-guide/)
+تعلم كيفية إضافة بيانات تعريف إلى ملفات Excel باستخدام C# خطوة بخطوة مع دليل شامل يغطي جميع الجوانب.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

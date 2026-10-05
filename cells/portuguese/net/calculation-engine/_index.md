@@ -51,6 +51,8 @@ Aprenda a otimizar o tempo de cálculo do Excel usando opções recursivas no As
 Aprenda a calcular uma pasta de trabalho usando C#, incluindo ordenação de dados e aplicação de fórmulas avançadas com Aspose.Cells .NET.
 ### [Criar Pasta de Trabalho Excel – Converter Array em Matriz com WRAPCOLS](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
 Aprenda a criar uma pasta de trabalho Excel e converter um array em matriz usando a função WRAPCOLS do Aspose.Cells .NET.
+### [Como Avaliar Fórmulas em C# – Guia Completo do Aspose.Cells](./how-to-evaluate-formulas-in-c-complete-aspose-cells-guide/)
+Aprenda a avaliar fórmulas do Excel em C# usando Aspose.Cells, com exemplos passo a passo e dicas de desempenho.
 
 ## Benefícios
 

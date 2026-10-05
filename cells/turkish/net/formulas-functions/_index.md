@@ -101,6 +101,9 @@ Aspose.Cells .NET kullanarak Excel dosyalarınızın dilini nasıl belirleyeceğ
 
 ### [Excel Power Query Formüllerini Aspose.Cells .NET ile Güncelleyin](./update-power-query-formulas-aspose-cells-net)
 
+### [C#'ta WRAPCOLS Kullanımı – Diziyi Excel'de Matrise Dönüştürme](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
+C# ile Aspose.Cells kullanarak WRAPCOLS işleviyle bir dizi verisini Excel'de matris biçimine dönüştürmeyi öğrenin.
+
 ### [C#'ta WRAPCOLS Kullanımı – Wrap Fonksiyonlarıyla Excel Çalışma Kitabı Oluşturma](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
 
 ### [Excel Çalışma Kitabı Oluşturma C# – Lambda, SEQUENCE ve EXPAND Kılavuzu](./create-excel-workbook-c-lambda-sequence-expand-guide/)

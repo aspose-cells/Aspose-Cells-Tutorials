@@ -57,6 +57,8 @@ Naučte se, jak vytvořit sešit Excel v C#, přidat komentář a uložit jej ja
 Naučte se, jak pomocí Aspose.Cells pro .NET přidat komentář a naplnit šablonu Excelu pomocí Smart Markerů v C#.
 ### [Vytvořit Excel soubor programově – Přidat komentáře a uložit jako XLSX](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
 Naučte se, jak pomocí Aspose.Cells pro .NET programově vytvořit soubor Excel, přidat komentáře a uložit jej ve formátu XLSX.
+### [Přidání komentáře buňky v Excelu pomocí Aspose.Cells Smart Marker](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
+Naučte se, jak pomocí Aspose.Cells Smart Marker přidat komentář buňky v Excelu a automatizovat anotace.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

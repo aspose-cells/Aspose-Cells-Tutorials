@@ -71,6 +71,8 @@
 了解如何使用 Aspose.Cells for .NET 在 C# 中创建工作簿并将 Markdown 内容导入 Excel，实现快速文档转换。
 ### [将 Markdown 转换为 Excel – 完整 C# 指南](./convert-markdown-to-excel-complete-c-guide/)
 学习如何使用 C# 将 Markdown 内容转换为 Excel 文件的完整步骤和示例。
+### [使用 Aspose.Cells 将 Excel 导出为 PNG – 完整分步指南](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+本指南详细演示如何使用 Aspose.Cells 将 Excel 工作表导出为高质量 PNG 图像，步骤清晰易懂。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

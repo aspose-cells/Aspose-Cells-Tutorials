@@ -51,6 +51,8 @@ Hướng dẫn chi tiết cách tạo workbook mới và xuất dữ liệu sang
 Hướng dẫn chi tiết cách xuất bảng dữ liệu sang tệp CSV trong C#, bao gồm việc áp dụng định dạng số tùy chỉnh.
 ### [Xuất bảng sang CSV trong C# – Hướng dẫn toàn diện](./export-table-to-csv-in-c-complete-guide/)
 Hướng dẫn chi tiết cách xuất dữ liệu bảng sang tệp CSV bằng C# và Aspose.Cells, bao gồm các tùy chọn định dạng và tối ưu hiệu suất.
+### [Lưu Workbook dưới dạng CSV – Hướng dẫn toàn diện xuất Excel sang CSV trong C#](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-i/)
+Hướng dẫn chi tiết cách lưu workbook thành tệp CSV bằng Aspose.Cells cho .NET trong C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

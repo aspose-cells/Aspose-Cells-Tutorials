@@ -40,6 +40,8 @@
 Подробное руководство по конвертации файлов Excel в XPS с использованием C# и Aspose.Cells, включая примеры кода.
 ### [Создание новой книги Excel – Руководство по Unicode и экспорту в XPS](./create-new-excel-workbook-unicode-xps-export-guide/)
 Узнайте, как создать новую книгу Excel с поддержкой Unicode и экспортировать её в XPS, используя Aspose.Cells для .NET.
+### [Встраивание шрифтов в XPS с C# – Полное руководство по программированию](./embed-fonts-in-xps-with-c-complete-programming-guide/)
+Узнайте, как встраивать шрифты в XPS‑документы с помощью C# и Aspose.Cells, следуя подробному пошаговому руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

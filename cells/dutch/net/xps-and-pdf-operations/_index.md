@@ -40,6 +40,8 @@ Leer hoe u docx-bestanden naar XPS converteert met C# en Aspose.Cells, stap voor
 Leer stap voor stap hoe u Excel-bestanden naar XPS converteert met C# en Aspose.Cells, inclusief volledige codevoorbeelden.
 ### [Nieuw Excel-werkboek maken – Unicode- en XPS-exportgids](./create-new-excel-workbook-unicode-xps-export-guide/)
 Leer hoe u een nieuw Excel-werkboek maakt met Unicode-ondersteuning en exporteert naar XPS met Aspose.Cells.
+### [Lettertypen insluiten in XPS met C# – Complete programmeergids](./embed-fonts-in-xps-with-c-complete-programming-guide/)
+Leer hoe u lettertypen in XPS-documenten kunt insluiten met C# en Aspose.Cells, inclusief voorbeeldcode en stapsgewijze instructies.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

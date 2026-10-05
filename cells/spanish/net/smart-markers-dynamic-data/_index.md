@@ -162,6 +162,10 @@ Aprenda a analizar estructuras JSON anidadas y generar la carga JSON correspondi
 Aprenda a generar un libro de Excel usando Marcadores Inteligentes que muestra valores máximos y mínimos en sus datos.
 ### [Crear informe maestro‑detalle en C# – Rellenar plantilla de Excel con SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
 Aprenda a generar un informe maestro‑detalle en C# rellenando una plantilla de Excel usando SmartMarkers de Aspose.Cells.
+### [Aplicar SmartMarker a la hoja de cálculo en C# – Guía completa](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
+Aprenda paso a paso cómo aplicar SmartMarker a una hoja de cálculo usando C#, creando informes de Excel dinámicos y personalizados.
+### [Crear Excel programáticamente usando Marcadores Inteligentes de Aspose.Cells](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+Aprenda a generar archivos Excel de forma programática utilizando los Marcadores Inteligentes de Aspose.Cells en .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

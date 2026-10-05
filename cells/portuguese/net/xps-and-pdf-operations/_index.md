@@ -40,6 +40,8 @@ Aprenda a converter documentos DOCX para XPS em C# com exemplos práticos e cód
 Aprenda passo a passo como converter arquivos Excel para XPS usando C# e Aspose.Cells, com exemplos completos de código.
 ### [Criar Nova Pasta de Trabalho do Excel – Guia de Exportação Unicode e XPS](./create-new-excel-workbook-unicode-xps-export-guide/)
 Aprenda a criar uma nova pasta de trabalho do Excel com suporte Unicode e exportá‑la para XPS usando Aspose.Cells para .NET.
+### [Incorporar fontes em XPS com C# – Guia completo de programação](./embed-fonts-in-xps-with-c-complete-programming-guide/)
+Aprenda a incorporar fontes em documentos XPS usando C# e Aspose.Cells, garantindo a fidelidade visual nas conversões.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

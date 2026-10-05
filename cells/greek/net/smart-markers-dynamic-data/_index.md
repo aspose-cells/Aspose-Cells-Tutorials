@@ -153,6 +153,9 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 
 ### [Δημιουργία υπό συνθήκη τιμής κελιού με Smart Marker του Aspose.Cells](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
 Μάθετε πώς να ορίζετε τιμές κελιών βάσει συνθηκών χρησιμοποιώντας Smart Markers στο Aspose.Cells για .NET.
+### [Εφαρμογή SmartMarker σε φύλλο εργασίας σε C# – Πλήρης Οδηγός](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
+Μάθετε πώς να εφαρμόσετε SmartMarker σε ένα φύλλο εργασίας χρησιμοποιώντας C#, βήμα-βήμα οδηγίες για πλήρη ενσωμάτωση.
+### [Δημιουργία Excel προγραμματιστικά με χρήση Smart Markers του Aspose.Cells](./create-excel-programmatically-using-aspose-cells-smart-marke/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

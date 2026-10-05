@@ -57,6 +57,8 @@ Dowiedz się, jak w C# utworzyć skoroszyt Excel, zastosować format waluty i za
 Dowiedz się, jak w kilku krokach utworzyć nowy skoroszyt w C# i przekształcić plik Markdown w arkusz Excel przy użyciu Aspose.Cells.
 ### [Dane JSON do Excela – Pełny przewodnik konwersji tablicy JSON do Excela](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
 Dowiedz się, jak przekształcić tablicę JSON w plik Excel przy użyciu Aspose.Cells dla .NET w kilku prostych krokach.
+### [Konwertuj arkusz kalkulacyjny na DataTable w C# – Kompletny przewodnik programistyczny](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
+Dowiedz się, jak przekształcić arkusz Excel w obiekt DataTable w C# przy użyciu Aspose.Cells dla .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

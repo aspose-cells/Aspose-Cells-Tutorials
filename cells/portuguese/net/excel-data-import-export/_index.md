@@ -57,6 +57,8 @@ Aprenda a criar uma pasta de trabalho Excel em C#, aplicar formato de moeda e im
 Aprenda a gerar rapidamente uma nova planilha Excel a partir de Markdown usando C# e Aspose.Cells.
 ### [json para excel – Guia completo para converter array JSON em Excel](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
 Aprenda a converter dados JSON em planilhas Excel usando Aspose.Cells para .NET com este guia completo.
+### [Converter planilha para DataTable em C# – Guia completo de programação](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
+Aprenda a converter uma planilha do Excel em um DataTable usando Aspose.Cells para .NET em C# com este guia completo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

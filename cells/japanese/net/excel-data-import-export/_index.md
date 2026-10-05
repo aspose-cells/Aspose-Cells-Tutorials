@@ -57,6 +57,8 @@ Aspose.Cells for .NET を使用して、C# で通貨書式を設定し、DataTab
 Aspose.Cells for .NET を使用して、C# で新しいワークブックを作成し、Markdown を迅速に Excel に変換する方法を解説します。
 ### [JSON データを Excel に変換 – JSON 配列を Excel に変換する完全ガイド](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
 Aspose.Cells for .NET を使用し、JSON 配列を Excel に変換する手順を詳しく解説します。
+### [C#でワークシートをDataTableに変換する – 完全プログラミングガイド](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
+Aspose.Cells for .NET を使用して、ワークシートのデータを DataTable に変換する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

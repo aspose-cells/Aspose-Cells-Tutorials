@@ -87,6 +87,11 @@ Akıllı İşaretleyicileri adım adım bir kılavuzda kullanarak iç içe geçm
 Aspose.Cells SmartMarker'da iç içe aralık seçeneğini nasıl etkinleştirip dinamik veri doldurmayı geliştireceğinizi öğrenin.
 ### [Akıllı İşaretleyiciler Aspose.Cells ile Değişken Dizisini Uygulayın](./variable-array-smart-markers/)
 Aspose.Cells'in gücünü açığa çıkarın. Kusursuz Excel rapor üretimi için Akıllı İşaretleyiciler ile değişken dizilerini adım adım nasıl uygulayacağınızı öğrenin.
+### [C#'ta Çalışma Sayfasına SmartMarker Uygulama – Tam Kılavuz](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
+C# kullanarak bir çalışma sayfasına SmartMarker eklemeyi ve dinamik veri doldurmayı adım adım öğrenin.
+
+### [Aspose.Cells'de Akıllı İşaretleyicileri Kullanarak Programlı Excel Oluşturma](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+
 ### [Aspose.Cells SmartMarkerProcessor ile XLSX'den Çalışma Kitabı Oluşturma](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
 Aspose.Cells SmartMarkerProcessor kullanarak bir XLSX dosyasından çalışma kitabı oluşturmayı adım adım öğrenin.
 

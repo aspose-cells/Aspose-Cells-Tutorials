@@ -67,6 +67,8 @@ Aprenda a exportar uma Tabela Dinâmica do Excel como imagem PNG usando Aspose.C
 Aprenda a criar uma nova pasta de trabalho e importar conteúdo Markdown para Excel usando Aspose.Cells em C#.
 ### [Converter markdown para Excel – Guia completo em C#](./convert-markdown-to-excel-complete-c-guide/)
 Aprenda a transformar arquivos markdown em planilhas Excel usando C# e Aspose.Cells, com passo a passo detalhado.
+### [Exportando Excel para PNG com Aspose.Cells – Guia Completo Passo a Passo](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Aprenda a exportar planilhas do Excel para imagens PNG usando Aspose.Cells no .NET com este guia passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

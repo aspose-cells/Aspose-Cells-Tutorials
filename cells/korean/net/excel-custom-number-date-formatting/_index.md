@@ -75,6 +75,9 @@ Aspose.Cells for .NET을 사용해 문자열을 DateTime으로 변환하고 Exce
 Aspose.Cells for .NET을 사용하여 C#에서 워크북을 생성하고 문자열을 날짜 형식으로 변환하는 방법을 단계별로 안내합니다.
 ### [C#에서 Excel 날짜 형식 설정 – 완전 단계별 가이드](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 이 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 C#에서 Excel 날짜 형식을 설정하는 방법을 배울 수 있습니다.
+### [C#로 Excel에서 날짜 형식 설정 – 전체 가져오기 서식 가이드](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+Aspose.Cells for .NET을 사용하여 C#로 Excel 파일에 날짜 형식을 적용하고 전체 가져오기 서식을 설정하는 방법을 배웁니다.
+### [일본 달력 날짜가 포함된 Excel 워크북 만들기 – 전체 가이드](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

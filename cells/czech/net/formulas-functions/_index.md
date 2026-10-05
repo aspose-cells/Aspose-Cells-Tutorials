@@ -108,6 +108,9 @@ Naučte se, jak programově aktualizovat vzorce Power Query v sešitech Excelu p
 ### [Vytvoření Excel sešitu v C# – průvodce Lambda, SEQUENCE a EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 Naučte se, jak pomocí Aspose.Cells v C# vytvořit sešit Excel s funkcemi Lambda, SEQUENCE a EXPAND pro dynamické výpočty.
 
+### [Jak použít WRAPCOLS v C# – Přetvořit pole na matici v Excelu](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
+Naučte se, jak pomocí funkce WRAPCOLS v C# převést jednorozměrné pole na matici v Excelu pomocí Aspose.Cells.
+
 ## Pochopení typů vzorců v Excelu
 
 ### Standardní buněčné vzorce

@@ -40,6 +40,8 @@
 دليل شامل يشرح خطوة بخطوة كيفية تحويل ملفات Excel إلى XPS باستخدام لغة C# ومكتبة Aspose.Cells.
 ### [إنشاء مصنف Excel جديد – دليل Unicode وتصدير XPS](./create-new-excel-workbook-unicode-xps-export-guide/)
 تعرف على إنشاء مصنف Excel جديد يدعم Unicode وتصديره إلى XPS باستخدام Aspose.Cells لـ .NET.
+### [تضمين الخطوط في XPS باستخدام C# – دليل برمجة كامل](./embed-fonts-in-xps-with-c-complete-programming-guide/)
+تعلم كيفية تضمين الخطوط في ملفات XPS باستخدام C# مع Aspose.Cells، خطوة بخطوة مع أمثلة شاملة للشفرة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

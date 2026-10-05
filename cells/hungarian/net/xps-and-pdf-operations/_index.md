@@ -40,6 +40,8 @@ Tanuld meg, hogyan konvertálhatsz DOCX fájlokat XPS formátumba C#-ban az Aspo
 Tanuld meg, hogyan konvertálj Excel fájlokat XPS formátumba C# segítségével részletes példákkal és lépésről-lépésre útmutatóval.
 ### [Új Excel munkafüzet létrehozása – Unicode és XPS export útmutató](./create-new-excel-workbook-unicode-xps-export-guide/)
 Ismerd meg, hogyan hozhatsz létre Unicode karaktereket tartalmazó Excel munkafüzetet, és exportálhatod XPS formátumba Aspose.Cells segítségével.
+### [Betűtípusok beágyazása XPS-be C#-ban – Teljes programozási útmutató](./embed-fonts-in-xps-with-c-complete-programming-guide/)
+Ismerd meg, hogyan ágyazhatod be a betűtípusokat XPS dokumentumokba C#-ban az Aspose.Cells segítségével, részletes példákkal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

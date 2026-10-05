@@ -76,6 +76,10 @@
 เรียนรู้วิธีสร้างเวิร์กบุ๊กใน Aspose.Cells สำหรับ .NET และแปลงสตริงเป็นวันที่ใน C# อย่างง่าย
 ### [ตั้งค่ารูปแบบวันที่ใน Excel ด้วย C# – คู่มือขั้นตอนเต็ม](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 เรียนรู้วิธีตั้งค่ารูปแบบวันที่ในไฟล์ Excel ด้วย C# อย่างละเอียดผ่านขั้นตอนที่เข้าใจง่าย
+### [ตั้งค่ารูปแบบวันที่ใน Excel ด้วย C# – คู่มือการจัดรูปแบบการนำเข้าเต็มรูปแบบ](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+เรียนรู้วิธีตั้งค่ารูปแบบวันที่ในไฟล์ Excel ด้วย C# พร้อมขั้นตอนการจัดรูปแบบการนำเข้าข้อมูลอย่างละเอียด
+### [สร้างสมุดงาน Excel ด้วยวันที่ปฏิทินญี่ปุ่น – คู่มือเต็ม](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+เรียนรู้วิธีสร้างไฟล์ Excel ที่ใช้วันที่ตามปฏิทินญี่ปุ่นด้วย Aspose.Cells สำหรับ .NET ผ่านคู่มือเต็มขั้นตอน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

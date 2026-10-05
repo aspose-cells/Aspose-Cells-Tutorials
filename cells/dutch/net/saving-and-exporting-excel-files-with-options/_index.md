@@ -56,6 +56,8 @@ Leer stap voor stap hoe u FlatOpcSaveOptions kunt toepassen in C# om Excel-besta
 
 ### [Hoe een werkmap op te slaan in C# – Complete gids voor het wissen van filters en het exporteren van Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
 Leer hoe u filters kunt wissen, een werkmap opslaat en exporteert naar Excel met Aspose.Cells voor .NET.
+### [Excel-werkmap opslaan vanuit JSON – Complete C#-gids](./save-excel-workbook-from-json-complete-c-guide/)
+Leer hoe u een Excel-werkmap vanuit JSON-gegevens kunt maken en opslaan met Aspose.Cells voor .NET in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

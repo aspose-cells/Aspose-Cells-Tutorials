@@ -65,6 +65,8 @@ Aspose.Cells를 사용하여 C#에서 피벗 테이블을 PNG 이미지로 내�
 C#과 Aspose.Cells를 활용해 마크다운 파일을 Excel 워크북으로 변환하고 새 워크북을 생성하는 방법을 단계별로 설명합니다.
 ### [Markdown을 Excel로 변환 – 완전한 C# 가이드](./convert-markdown-to-excel-complete-c-guide/)
 Aspose.Cells를 사용하여 C#에서 Markdown을 Excel 파일로 변환하는 전체 가이드를 확인하세요.
+### [Aspose.Cells를 사용하여 Excel을 PNG로 내보내기 – 완전 단계별 가이드](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Aspose.Cells for .NET을 활용해 Excel 워크시트를 PNG 이미지로 변환하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

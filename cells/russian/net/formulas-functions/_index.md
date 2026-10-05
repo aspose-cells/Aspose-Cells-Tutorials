@@ -111,6 +111,7 @@
 
 ### [Как использовать лямбда-выражения в C# с формулами Excel – Полное руководство](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
 Узнайте, как применять лямбда-выражения в C# для создания и вычисления формул Excel с помощью Aspose.Cells.
+### [Как использовать WRAPCOLS в C# – преобразовать массив в матрицу в Excel](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
 
 ## Понимание типов формул Excel
 

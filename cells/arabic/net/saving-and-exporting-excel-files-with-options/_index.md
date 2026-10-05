@@ -55,6 +55,8 @@
 
 ### [كيفية حفظ المصنف في C# – دليل كامل لإزالة الفلاتر وتصدير Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
 اكتشف كيفية حفظ المصنف وإزالة الفلاتر وتصدير ملف Excel باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
+### [حفظ مصنف Excel من JSON – دليل C# كامل](./save-excel-workbook-from-json-complete-c-guide/)
+تعلم كيفية تحويل بيانات JSON إلى مصنف Excel وحفظه باستخدام Aspose.Cells for .NET مع مثال شامل بلغة C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

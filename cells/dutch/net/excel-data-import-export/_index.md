@@ -57,6 +57,8 @@ Leer hoe u met Aspose.Cells een Excel-werkmap in C# maakt, valuta-opmaak toepast
 Leer hoe u met Aspose.Cells een nieuw werkboek maakt en Markdown-inhoud snel naar Excel converteert in C#.
 ### [json-gegevens naar Excel – volledige gids voor het converteren van JSON-array naar Excel](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
 Leer hoe u JSON-arraygegevens eenvoudig naar Excel converteert met Aspose.Cells voor .NET in deze volledige gids.
+### [Werkblad converteren naar DataTable in C# – Complete programmeergids](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
+Leer hoe u een werkblad in C# omzet naar een DataTable met Aspose.Cells voor .NET, stap voor stap uitgelegd.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -67,6 +67,8 @@ Aspose.Cells ile bir pivot tabloyu PNG formatında kaydedin, C# uygulamanızda g
 C# ve Aspose.Cells kullanarak Markdown dosyasını Excel çalışma kitabına dönüştürmeyi adım adım öğrenin.
 ### [Markdown'ı Excel'e Dönüştürme – Tam C# Rehberi](./convert-markdown-to-excel-complete-c-guide/)
 C# kullanarak Markdown dosyalarını Excel çalışma sayfalarına dönüştürmeyi adım adım öğrenin.
+### [Aspose.Cells ile Excel'i PNG'ye Dışa Aktarma – Tam Adım‑Adım Kılavuz](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Aspose.Cells kullanarak Excel dosyalarını PNG formatına nasıl dönüştüreceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

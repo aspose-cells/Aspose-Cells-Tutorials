@@ -90,6 +90,12 @@ Odemkněte potenciál reportingu v Excelu s Aspose.Cells a snadno zvládněte vn
 Naučte se, jak povolit možnost vnořeného rozsahu v Aspose.Cells SmartMarker a generovat komplexní tabulky s vnořenými daty.
 ### [Implementace variabilního pole s inteligentními značkami Aspose.Cells](./variable-array-smart-markers/)
 Odemkněte sílu Aspose.Cells. Naučte se krok za krokem implementovat proměnná pole pomocí inteligentních markerů pro bezproblémové generování sestav v Excelu.
+### [Použití SmartMarkeru na list v C# – Kompletní průvodce](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
+Naučte se, jak aplikovat SmartMarker na konkrétní list v Excelu pomocí C# a vytvořit tak dynamické reporty.
+
+### [Vytvoření Excelu programově pomocí Aspose.Cells Smart Markers](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+Naučte se, jak pomocí Aspose.Cells Smart Markers programově vytvořit soubor Excel a naplnit jej daty.
+
 ### [Převod JSON do Excelu pomocí C# – krok za krokem](./convert-json-to-excel-with-c-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Cells v C# převést data ve formátu JSON do souboru Excel pomocí podrobného průvodce.
 

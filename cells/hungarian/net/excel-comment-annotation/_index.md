@@ -58,6 +58,8 @@ Tanuld meg, hogyan hozhatsz létre Excel munkafüzetet C#-ban, adj hozzá megjeg
 Tanulja meg, hogyan adjon megjegyzést egy Excel sablonhoz okos jelölőkkel C#-ban az Aspose.Cells for .NET segítségével.
 ### [Excel-fájl létrehozása programozottan – Megjegyzések hozzáadása és mentés XLSX formátumban](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
 Tanuld meg, hogyan hozhatsz létre Excel-fájlt programozottan, megjegyzéseket adhatsz hozzá, és mentheted XLSX formátumban az Aspose.Cells for .NET segítségével.
+### [Megjegyzés cella hozzáadása Excelben az Aspose.Cells Smart Marker használatával](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
+Ismerje meg, hogyan adhat hozzá megjegyzést cellához az Aspose.Cells Smart Marker használatával Excelben.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

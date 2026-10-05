@@ -76,6 +76,10 @@ Learn how to convert string values to DateTime in C# and read/write dates in Exc
 Learn how to create a workbook and convert a string to a date using Aspose.Cells for .NET in this concise tutorial.
 ### [set excel date format in C# – Complete Step‑by‑Step Guide](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 Learn how to set Excel date format in C# with Aspose.Cells for .NET in this complete step‑by‑step guide.
+### [Set date format in Excel with C# – Full Import Formatting Guide](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+Learn how to set date format in Excel using C# with Aspose.Cells for .NET in this comprehensive guide.
+### [Create Excel Workbook with Japanese Calendar Dates – Full Guide](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+Learn how to create Excel workbooks with Japanese calendar dates using Aspose.Cells for .NET in this full guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

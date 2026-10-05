@@ -76,6 +76,10 @@ Apprenez à convertir des chaînes en objets DateTime et à écrire/lire des dat
 Apprenez à créer un classeur Excel et à convertir des chaînes en dates avec Aspose.Cells pour .NET en C#.
 ### [Définir le format de date Excel en C# – Guide complet étape par étape](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 Apprenez à définir le format de date dans Excel avec C# grâce à un guide complet et détaillé pas à pas.
+### [Définir le format de date dans Excel avec C# – Guide complet de formatage d'importation](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+Apprenez à appliquer un format de date personnalisé dans Excel en C# grâce à un guide complet de formatage d'importation.
+### [Créer un classeur Excel avec des dates du calendrier japonais – Guide complet](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+Apprenez à créer un classeur Excel utilisant le calendrier japonais pour les dates, grâce à un guide complet pas à pas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
