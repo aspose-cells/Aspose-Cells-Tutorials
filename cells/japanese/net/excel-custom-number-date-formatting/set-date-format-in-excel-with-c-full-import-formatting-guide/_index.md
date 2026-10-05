@@ -263,51 +263,6 @@ foreach (DataRow row in dataTable.Rows)
 
 その後、カスタム書式で “N/A” を表示させる設定を行います。
 
----
-
-## 完全動作サンプル
-
-以下はコピー＆ペーストで動作する完全版プログラムです。コンソールアプリとして実行すれば、整形された Excel ファイルが生成されます。
-
-```csharp
-using System;
-using System.Data;
-using System.Drawing;
-using Aspose.Cells;
-
-class ExcelExportDemo
-{
-    static void Main()
-    {
-        // 1️⃣ データ取得
-        DataTable dataTable = GetData();
-
-        // 2️⃣ ワークブックとスタイル配列作成
-        Workbook wb = new Workbook();
-        Worksheet ws = wb.Worksheets[0];
-        Style[] columnStyles = new Style[dataTable.Columns.Count];
-
-        // 2a️⃣ 日付列 – 書式設定
-        columnStyles[0] = wb.CreateStyle();
-        columnStyles[0].Number = 14; // 短い日付 (MM/dd/yyyy)
-
-        // 2b️⃣ テキスト列 – 背景色と前景色設定
-        columnStyles[1] = wb.CreateStyle();
-        columnStyles[1].ForegroundColor = Color.LightBlue;
-        columnStyles[1].Pattern = BackgroundType.Solid;
-        columnStyles[1].Font.Color = Color.DarkBlue; // 前景色適用
-
-        // 3️⃣ 書式付きでインポート
-        ws.Cells.ImportDataTable(dataTable, true, 0, 0, columnStyles);
-
-        // 任意: ヘッダー行のスタイル
-        Style headerStyle = wb.CreateStyle();
-        headerStyle.Font.IsBold = true;
-        headerStyle.ForegroundColor = Color.Gold;
-        headerStyle.Pattern = BackgroundType.Solid;
-        ws.Cells
-
-
 ## 次に学ぶべきこと
 
 

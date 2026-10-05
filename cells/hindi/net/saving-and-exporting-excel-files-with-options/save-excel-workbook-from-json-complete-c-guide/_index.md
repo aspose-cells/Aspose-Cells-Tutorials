@@ -196,67 +196,6 @@ workbook.Save("report.pdf", SaveFormat.Pdf);
 
 > **Why does format matter?** कुछ डाउनस्ट्रीम टूल्स (जैसे Power BI) CSV की अपेक्षा करते हैं, जबकि अन्य (जैसे लीगल टीम) PDF मांग सकते हैं। वही **save Excel workbook** कॉल एक ही लाइन बदलकर सभी को संतुष्ट कर सकता है।
 
----
-
-## Full End‑to‑End Example – सब कुछ एक साथ
-
-नीचे एक पॉलिश्ड संस्करण है जो **convert JSON to Excel** दर्शाता है, हेडर जोड़ता है, खाली एरेज़ को संभालता है, और तीन फ़ॉर्मैट्स में सहेजता है। इसे एक नए कंसोल प्रोजेक्ट में कॉपी‑पेस्ट करें और चलाएँ।
-
-```csharp
-using System;
-using System.IO;
-using Aspose.Cells;
-using Aspose.Cells.SmartMarker;
-
-namespace JsonToExcelDemo
-{
-    class Program
-    {
-        static void Main()
-        {
-            // -------------------------------------------------
-            // 1️⃣ Initialise workbook and worksheet
-            // -------------------------------------------------
-            Workbook workbook = new Workbook();
-            Worksheet sheet = workbook.Worksheets[0];
-
-            // -------------------------------------------------
-            // 2️⃣ Load JSON – here we read from a local file.
-            // -------------------------------------------------
-            string jsonPath = "data.json";
-
-            if (!File.Exists(jsonPath))
-            {
-                Console.WriteLine($"File {jsonPath} not found. Creating sample JSON.");
-                File.WriteAllText(jsonPath, "{\"Items\":[\"Apple\",\"Banana\",\"Cherry\"]}");
-            }
-
-            string json = File.ReadAllText(jsonPath);
-
-            // -------------------------------------------------
-            // 3️⃣ Prepare SmartMarker – we want a table layout
-            // -------------------------------------------------
-            SmartMarkerProcessor processor = new SmartMarkerProcessor
-            {
-                Options = { ArrayAsSingle = false } // each array element gets its own row
-            };
-
-            // Add a header manually – classic **import JSON array Excel** pattern
-            sheet.Cells["A1"].PutValue("Fruit");
-
-            // -------------------------------------------------
-            // 4️⃣ Process the JSON into the worksheet
-            // -------------------------------------------------
-            processor.Process(sheet, json);
-
-            // -------------------------------------------------
-            // 5️⃣ Save the workbook in multiple formats
-            // -------------------------------------------------
-            workbook.Save("report.xlsx"); // **save Excel workbook** as XLSX
-            workbook.Save("report.csv", SaveFormat.Csv);
-            workbook.Save("report.pdf
-
-
 ## अब आप क्या सीख सकते हैं?
 
 

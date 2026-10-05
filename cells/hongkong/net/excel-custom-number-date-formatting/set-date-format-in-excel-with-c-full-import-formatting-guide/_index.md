@@ -263,51 +263,6 @@ foreach (DataRow row in dataTable.Rows)
 
 然後調整樣式，使用自訂格式在偵測到哨兵值時顯示「N/A」。
 
----
-
-## 完整範例程式
-
-以下是可直接複製貼上的完整程式。以 Console 應用程式執行，即可產生格式化好的 Excel 檔案。
-
-```csharp
-using System;
-using System.Data;
-using System.Drawing;
-using Aspose.Cells;
-
-class ExcelExportDemo
-{
-    static void Main()
-    {
-        // 1️⃣ 取得資料
-        DataTable dataTable = GetData();
-
-        // 2️⃣ 建立活頁簿與樣式陣列
-        Workbook wb = new Workbook();
-        Worksheet ws = wb.Worksheets[0];
-        Style[] columnStyles = new Style[dataTable.Columns.Count];
-
-        // 2a️⃣ 日期欄位 – 設定日期格式
-        columnStyles[0] = wb.CreateStyle();
-        columnStyles[0].Number = 14; // short date (MM/dd/yyyy)
-
-        // 2b️⃣ 文字欄位 – 設定背景與前景顏色
-        columnStyles[1] = wb.CreateStyle();
-        columnStyles[1].ForegroundColor = Color.LightBlue;
-        columnStyles[1].Pattern = BackgroundType.Solid;
-        columnStyles[1].Font.Color = Color.DarkBlue; // apply foreground color
-
-        // 3️⃣ 匯入並套用格式
-        ws.Cells.ImportDataTable(dataTable, true, 0, 0, columnStyles);
-
-        // 可選：設定標題列樣式
-        Style headerStyle = wb.CreateStyle();
-        headerStyle.Font.IsBold = true;
-        headerStyle.ForegroundColor = Color.Gold;
-        headerStyle.Pattern = BackgroundType.Solid;
-        ws.Cells
-
-
 ## 接下來你可以學什麼？
 
 以下教學與本指南內容緊密相關，能幫助你進一步掌握 API 功能，或探索在專案中使用的其他實作方式。

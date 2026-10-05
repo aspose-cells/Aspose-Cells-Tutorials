@@ -268,51 +268,6 @@ foreach (DataRow row in dataTable.Rows)
 
 Quindi regola lo stile per visualizzare un formato personalizzato che mostri “N/A” per il valore sentinella.
 
----
-
-## Esempio completo funzionante
-
-Di seguito trovi il programma completo, pronto da copiare‑incollare. Eseguilo come applicazione console e otterrai un file Excel ben formattato.
-
-```csharp
-using System;
-using System.Data;
-using System.Drawing;
-using Aspose.Cells;
-
-class ExcelExportDemo
-{
-    static void Main()
-    {
-        // 1️⃣ Retrieve data
-        DataTable dataTable = GetData();
-
-        // 2️⃣ Create workbook & style array
-        Workbook wb = new Workbook();
-        Worksheet ws = wb.Worksheets[0];
-        Style[] columnStyles = new Style[dataTable.Columns.Count];
-
-        // 2a️⃣ Date column – set date format
-        columnStyles[0] = wb.CreateStyle();
-        columnStyles[0].Number = 14; // short date (MM/dd/yyyy)
-
-        // 2b️⃣ Text column – set background & foreground colors
-        columnStyles[1] = wb.CreateStyle();
-        columnStyles[1].ForegroundColor = Color.LightBlue;
-        columnStyles[1].Pattern = BackgroundType.Solid;
-        columnStyles[1].Font.Color = Color.DarkBlue; // apply foreground color
-
-        // 3️⃣ Import with formatting
-        ws.Cells.ImportDataTable(dataTable, true, 0, 0, columnStyles);
-
-        // Optional: style header row
-        Style headerStyle = wb.CreateStyle();
-        headerStyle.Font.IsBold = true;
-        headerStyle.ForegroundColor = Color.Gold;
-        headerStyle.Pattern = BackgroundType.Solid;
-        ws.Cells
-
-
 ## Cosa dovresti imparare dopo?
 
 
