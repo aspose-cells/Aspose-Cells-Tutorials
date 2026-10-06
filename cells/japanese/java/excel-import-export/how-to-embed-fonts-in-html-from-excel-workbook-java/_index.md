@@ -189,41 +189,6 @@ Workbook workbook = new Workbook("YOUR_DIRECTORY/fonts.xlsx", loadOptions);
 
 Now the **load excel workbook java** step also doubles as a way to guarantee **enable font embedding** works even on headless servers.
 
-## 完全動作例 – 最初から最後まで
-
-Below is a complete, self‑contained Java class you can compile and run. It demonstrates **how to embed fonts**, **enable font embedding**, **embed fonts html**, **convert workbook html**, and **load excel workbook java**—all in one place。
-
-```java
-package com.example.fontembed;
-
-import com.aspose.cells.Workbook;
-import com.aspose.cells.HtmlSaveOptions;
-import com.aspose.cells.LoadOptions;
-
-public class EmbedFontsExample {
-    public static void main(String[] args) {
-        // ---------- Configuration ----------
-        String inputPath = "YOUR_DIRECTORY/fonts.xlsx";     // <-- replace with your file
-        String outputPath = "YOUR_DIRECTORY/embedded.html"; // <-- replace with desired output
-
-        // Optional: tell Aspose where custom fonts live
-        LoadOptions loadOptions = new LoadOptions();
-        loadOptions.setFontFolder("YOUR_DIRECTORY/custom_fonts"); // if you have a special folder
-
-        try {
-            // ---------- Step 1: Load Excel workbook (load excel workbook java) ----------
-            Workbook workbook = new Workbook(inputPath, loadOptions);
-            System.out.println("Workbook loaded successfully.");
-
-            // ---------- Step 2: Enable font embedding (enable font embedding) ----------
-            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-            saveOptions.setEmbedAllFonts(true); // critical for embed fonts html
-            // You can also limit to specific fonts:
-            // saveOptions.setEmbedSpecificFonts(new String[]{"MyFont", "AnotherFont"});
-
-            // ---------- Step 3: Convert workbook to HTML (convert workbook html)
-
-
 ## 次に学ぶべきことは？
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.

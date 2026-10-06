@@ -193,41 +193,6 @@ Workbook workbook = new Workbook("YOUR_DIRECTORY/fonts.xlsx", loadOptions);
 
 Ahora el paso **load excel workbook java** también sirve como una forma de garantizar que **enable font embedding** funcione incluso en servidores sin interfaz gráfica.
 
-## Ejemplo completo – De principio a fin
-
-A continuación se muestra una clase Java completa y autocontenida que puedes compilar y ejecutar. Demuestra **cómo incrustar fuentes**, **enable font embedding**, **embed fonts html**, **convert workbook html**, y **load excel workbook java**—todo en un solo lugar.
-
-```java
-package com.example.fontembed;
-
-import com.aspose.cells.Workbook;
-import com.aspose.cells.HtmlSaveOptions;
-import com.aspose.cells.LoadOptions;
-
-public class EmbedFontsExample {
-    public static void main(String[] args) {
-        // ---------- Configuration ----------
-        String inputPath = "YOUR_DIRECTORY/fonts.xlsx";     // <-- replace with your file
-        String outputPath = "YOUR_DIRECTORY/embedded.html"; // <-- replace with desired output
-
-        // Optional: tell Aspose where custom fonts live
-        LoadOptions loadOptions = new LoadOptions();
-        loadOptions.setFontFolder("YOUR_DIRECTORY/custom_fonts"); // if you have a special folder
-
-        try {
-            // ---------- Step 1: Load Excel workbook (load excel workbook java) ----------
-            Workbook workbook = new Workbook(inputPath, loadOptions);
-            System.out.println("Workbook loaded successfully.");
-
-            // ---------- Step 2: Enable font embedding (enable font embedding) ----------
-            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-            saveOptions.setEmbedAllFonts(true); // critical for embed fonts html
-            // You can also limit to specific fonts:
-            // saveOptions.setEmbedSpecificFonts(new String[]{"MyFont", "AnotherFont"});
-
-            // ---------- Step 3: Convert workbook to HTML (convert workbook html)
-
-
 ## Qué deberías aprender a continuación?
 
 Los siguientes tutoriales cubren temas estrechamente relacionados que se basan en las técnicas demostradas en esta guía. Cada recurso incluye ejemplos de código completos y funcionales con explicaciones paso a paso para ayudarte a dominar características adicionales de la API y explorar enfoques de implementación alternativos en tus propios proyectos.

@@ -191,41 +191,6 @@ Workbook workbook = new Workbook("YOUR_DIRECTORY/fonts.xlsx", loadOptions);
 
 Nu fungeert de **load excel workbook java** stap ook als een manier om te garanderen dat **enable font embedding** werkt, zelfs op headless servers.
 
-## Volledig werkend voorbeeld – Van begin tot eind
-
-Hieronder staat een complete, zelfstandige Java‑klasse die je kunt compileren en uitvoeren. Het demonstreert **hoe je lettertypen kunt insluiten**, **enable font embedding**, **embed fonts html**, **convert workbook html**, en **load excel workbook java**—alles op één plek.
-
-```java
-package com.example.fontembed;
-
-import com.aspose.cells.Workbook;
-import com.aspose.cells.HtmlSaveOptions;
-import com.aspose.cells.LoadOptions;
-
-public class EmbedFontsExample {
-    public static void main(String[] args) {
-        // ---------- Configuration ----------
-        String inputPath = "YOUR_DIRECTORY/fonts.xlsx";     // <-- replace with your file
-        String outputPath = "YOUR_DIRECTORY/embedded.html"; // <-- replace with desired output
-
-        // Optional: tell Aspose where custom fonts live
-        LoadOptions loadOptions = new LoadOptions();
-        loadOptions.setFontFolder("YOUR_DIRECTORY/custom_fonts"); // if you have a special folder
-
-        try {
-            // ---------- Step 1: Load Excel workbook (load excel workbook java) ----------
-            Workbook workbook = new Workbook(inputPath, loadOptions);
-            System.out.println("Workbook loaded successfully.");
-
-            // ---------- Step 2: Enable font embedding (enable font embedding) ----------
-            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-            saveOptions.setEmbedAllFonts(true); // critical for embed fonts html
-            // You can also limit to specific fonts:
-            // saveOptions.setEmbedSpecificFonts(new String[]{"MyFont", "AnotherFont"});
-
-            // ---------- Step 3: Convert workbook to HTML (convert workbook html)
-
-
 ## Wat moet je hierna leren?
 
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden gedemonstreerd. Elke bron bevat volledige werkende code‑voorbeelden met stap‑voor‑stap uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.

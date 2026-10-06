@@ -192,41 +192,6 @@ Workbook workbook = new Workbook("YOUR_DIRECTORY/fonts.xlsx", loadOptions);
 
 अब **load excel workbook java** चरण भी यह सुनिश्चित करता है कि **फ़ॉन्ट एम्बेडिंग सक्षम** हेडलेस सर्वरों पर भी काम करे।
 
-## Full Working Example – From Start to Finish
-
-नीचे एक पूर्ण, स्व‑निर्भर Java क्लास दिया गया है जिसे आप कंपाइल और रन कर सकते हैं। यह **फ़ॉन्ट एम्बेड कैसे करें**, **फ़ॉन्ट एम्बेडिंग सक्षम**, **फ़ॉन्ट एम्बेड HTML**, **वर्कबुक HTML कन्वर्ट**, और **load excel workbook java** को एक ही जगह दर्शाता है।
-
-```java
-package com.example.fontembed;
-
-import com.aspose.cells.Workbook;
-import com.aspose.cells.HtmlSaveOptions;
-import com.aspose.cells.LoadOptions;
-
-public class EmbedFontsExample {
-    public static void main(String[] args) {
-        // ---------- Configuration ----------
-        String inputPath = "YOUR_DIRECTORY/fonts.xlsx";     // <-- replace with your file
-        String outputPath = "YOUR_DIRECTORY/embedded.html"; // <-- replace with desired output
-
-        // Optional: tell Aspose where custom fonts live
-        LoadOptions loadOptions = new LoadOptions();
-        loadOptions.setFontFolder("YOUR_DIRECTORY/custom_fonts"); // if you have a special folder
-
-        try {
-            // ---------- Step 1: Load Excel workbook (load excel workbook java) ----------
-            Workbook workbook = new Workbook(inputPath, loadOptions);
-            System.out.println("Workbook loaded successfully.");
-
-            // ---------- Step 2: Enable font embedding (enable font embedding) ----------
-            HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-            saveOptions.setEmbedAllFonts(true); // critical for embed fonts html
-            // You can also limit to specific fonts:
-            // saveOptions.setEmbedSpecificFonts(new String[]{"MyFont", "AnotherFont"});
-
-            // ---------- Step 3: Convert workbook to HTML (convert workbook html)
-
-
 ## What Should You Learn Next?
 
 
