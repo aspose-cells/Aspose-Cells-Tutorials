@@ -84,7 +84,7 @@ Aspose.Cells for .NET을 사용하여 파일 관리를 간소화하고 Excel 작
 Aspose.Cells를 사용하여 .NET에서 데이터 조작을 효율적으로 관리하는 방법을 알아보세요. 서식을 유지하면서 Excel 통합 문서 내보내기를 간소화하세요.
 
 ### [Aspose.Cells .NET을 활용한 Excel 데이터 관리 마스터링: 개발자와 분석가를 위한 종합 가이드](./mastering-excel-data-management-aspose-cells-net)
-Aspose.Cells for .NET을 사용하여 Excel 데이터를 효율적으로 관리하고 분석하는 방법을 알아보세요. 이 가이드에서는 통합 문서 로드, 워크시트 액세스, 셀 개수 계산 방법을 다룹니다.
+Aspose.Cells for .NET을 사용하여 Excel 데이터를 효율적으로 관리하고 분석하는 방법을 알아보세요. 이 가이드는 통합 문서 로드, 워크시트 액세스, 셀 개수 계산 방법을 다룹니다.
 
 ### [Aspose.Cells를 사용한 .NET에서의 Excel 조작: 조건부 서식에 대한 포괄적인 가이드](./mastering-excel-manipulation-aspose-cells-net)
 Aspose.Cells for .NET을 사용하여 Excel 데이터 시각화 및 조작을 자동화하는 방법을 알아보세요. 조건부 서식, 아이콘 세트 등을 완벽하게 익히세요.
@@ -95,7 +95,8 @@ Aspose.Cells for .NET을 사용하여 CSV 파일을 효율적으로 열고 정�
 ### [.NET용 Aspose.Cells를 사용하여 HTML에서 중복 공백 제거: 완전한 가이드](./trim-redundant-spaces-html-aspose-cells-net)
 Aspose.Cells for .NET을 사용하여 HTML 데이터에서 중복 공백을 효율적으로 제거하는 방법을 알아보고 Excel 데이터 가져오기 및 조작 기술을 향상시키세요.
 
-
+### [C#을 사용하여 Excel에서 배열 만들기 – 단계별 가이드](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+C# 코드를 사용해 Excel 워크시트에 배열을 생성하고 데이터를 채우는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

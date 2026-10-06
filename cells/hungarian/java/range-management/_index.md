@@ -66,10 +66,10 @@ Tanuld meg, hogyan automatizálhatod a csoportosítást és a tagolást Excelben
 Kód oktatóanyag az Aspose.Words Java-hoz
 
 ### [Excel nyomtatási területek automatizálása Aspose.Cells használatával Java-ban: lépésről lépésre útmutató](./excel-print-areas-automation-aspose-cells-java-guide/)
-Tanuld meg, hogyan automatizálhatod az Excel nyomtatási területeit az Aspose.Cells for Java segítségével. Sajátítsd el a munkafüzetek kezelését és hatékonyabbá tegyél jelentéskészítési feladatokat.
+Tanuld meg, hogyan automatizálhatod az Excel nyomtatási területeit az Aspose.Cells for Java segítségével. Sajátítsd el a munkafüzetek kezelését és hatékonyabbá tedd jelentéskészítési feladataidat.
 
 ### [Egyetlen oszlop hatékony másolása Excelben az Aspose.Cells Java használatával](./excel-single-column-copying-aspose-cells-java/)
-Tanulja meg, hogyan automatizálhatja az egyes oszlopok több oszlopba történő másolásának folyamatát az Aspose.Cells for Java használatával. Egyszerűsítse adatkezelési feladatait könnyedén.
+Tanulja meg, hogyan automatizálhatja az egyes oszlopok több oszlopba történő másolásának folyamatát az Aspose.Cells for Java segítségével. Egyszerűsítse adatkezelési feladatait könnyedén.
 
 ### [Egyéni objektumok importálása egyesített Excel-cellákba az Aspose.Cells for Java használatával: Átfogó útmutató](./import-custom-objects-merged-cells-java-aspose-cells/)
 Ismerje meg, hogyan importálhat hatékonyan egyéni objektumokat egyesített cellákba Excelben az Aspose.Cells for Java használatával. Ismerje meg a főbb adatkezelési technikákat ezzel az átfogó útmutatóval.
@@ -83,7 +83,8 @@ Tanuld meg, hogyan kezelheted és manipulálhatod hatékonyan az adattartományo
 ### [Excel cellák szétválasztása Java-ban az Aspose.Cells használatával: lépésről lépésre útmutató](./unmerge-excel-cells-aspose-cells-java-guide/)
 Ismerje meg, hogyan lehet hatékonyan szétválasztani a cellákat Excel-fájlokban az Aspose.Cells for Java használatával. Ez az útmutató kódpéldákkal ismerteti az egyesített cellák beállítását, észlelését és szétválasztását.
 
-
+### [Név hozzárendelése cellához Excelben Java-val – Teljes útmutató](./assign-name-to-cell-in-excel-using-java-complete-guide/)
+Tanuld meg, hogyan adhatunk nevet egy cellához Excelben Java-val, lépésről lépésre útmutatóval és kódpéldákkal.
 
 ## További források
 

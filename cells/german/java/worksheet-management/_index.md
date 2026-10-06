@@ -59,6 +59,9 @@ Ein Code-Tutorial für Aspose.Words Java
 ### [Aspose.Cells Java meistern: Intelligente Markierungen für dynamische Daten in Arbeitsblättern nutzen](./aspose-cells-java-smart-markers-worksheets/)
 Erfahren Sie, wie Sie die Excel-Dateigenerierung mit Aspose.Cells für Java und intelligenten Markierungen automatisieren. Optimieren Sie noch heute Ihr Datenmanagement und Ihren Workflow.
 
+### [So verwenden Sie SmartMarkerProcessor für dynamische Blattnamen](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
+Erfahren Sie, wie Sie mit SmartMarkerProcessor dynamische Blattnamen in Excel-Arbeitsmappen automatisch festlegen.
+
 ### [Master Aspose.Cells Java: Umfassender Leitfaden zur Arbeitsmappen- und Arbeitsblattverwaltung](./aspose-cells-java-workbook-worksheet-guide/)
 Erfahren Sie, wie Sie Excel-Arbeitsmappen mit Aspose.Cells für Java verwalten. Diese Anleitung behandelt die Instanziierung von Arbeitsmappen, den Zugriff auf Arbeitsblätter, Seiteneinstellungen, Drucktitel und mehr.
 
@@ -73,6 +76,9 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java Spalten aus einer Excel-Arbeits
 
 ### [So löschen Sie Zeilen in Excel mit Aspose.Cells für Java | Anleitung & Tutorial](./delete-row-excel-aspose-cells-java/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java effizient Zeilen aus einer Excel-Datei löschen. Diese Anleitung umfasst die Einrichtung, Codebeispiele und praktische Anwendungen.
+
+### [Zeilen in Arbeitsblättern mit Java löschen – Vollständige Anleitung](./delete-rows-in-worksheet-with-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Zeilen aus einem Arbeitsblatt effizient löschen. Schritt-für-Schritt-Anleitung inklusive Codebeispielen.
 
 ### [Verwalten Sie die Sichtbarkeit von Excel-Registerkarten mit Aspose.Cells in Java](./display-excel-tabs-aspose-cells-java/)
 Erfahren Sie, wie Sie Excel-Registerkarten mit Aspose.Cells für Java ein- und ausblenden. Diese Anleitung behandelt die Einrichtung, die Codeimplementierung und bewährte Methoden für eine effektive Arbeitsblattverwaltung.

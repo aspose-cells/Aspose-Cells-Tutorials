@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # คุณสมบัติของเอกสาร
@@ -35,13 +33,42 @@
 เรียนรู้วิธีการเข้าถึงคุณสมบัติเอกสารใน Excel โดยใช้ Aspose.Cells สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนของเรา จัดการสเปรดชีตของคุณอย่างมีประสิทธิภาพ
 ### [การเพิ่มคุณสมบัติเอกสารใน .NET](./adding-document-properties/)
 เรียนรู้วิธีการเพิ่มคุณสมบัติเอกสารใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้
+### [สร้างเวิร์กบุ๊ก Excel – เพิ่มคุณสมบัติกำหนดเองและบันทึกเป็น XLSB](./create-excel-workbook-add-custom-properties-and-save-as-xlsb/)
+เรียนรู้วิธีการสร้างไฟล์ Excel เพิ่มคุณสมบัติกำหนดเองและบันทึกเป็นรูปแบบ XLSB ด้วย Aspose.Cells สำหรับ .NET
+### [วิธีบันทึกไฟล์ XLSB พร้อมคุณสมบัติกำหนดเองใน C# – คู่มือขั้นตอนโดยขั้นตอน](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
+เรียนรู้วิธีบันทึกไฟล์ XLSB พร้อมคุณสมบัติกำหนดเองใน C# ด้วยคู่มือขั้นตอนโดยขั้นตอนของเรา
+
+
+
+
+
+
+
+
+### [วิธีบันทึก XLSB – เพิ่มคุณสมบัติที่กำหนดเองใน C#](./how-to-save-xlsb-add-custom-property-in-c/)
+เรียนรู้วิธีบันทึกไฟล์ XLSB พร้อมเพิ่มคุณสมบัติที่กำหนดเองโดยใช้ C# และ Aspose.Cells สำหรับ .NET
+
+
+
+
+
+
+
+
+### [วิธีบันทึกไฟล์ XLSB พร้อมคุณสมบัติกำหนดเอง – คู่มือ C# ทีละขั้นตอน](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
+เรียนรู้วิธีบันทึกไฟล์ XLSB พร้อมคุณสมบัติกำหนดเองใน Aspose.Cells สำหรับ .NET ด้วยคู่มือ C# ทีละขั้นตอน
+### [สร้างเวิร์กบุ๊ก Excel ด้วย C# – เพิ่มคุณสมบัติแบบกำหนดเองและบันทึกเป็น XLSB](./create-excel-workbook-c-add-custom-property-save-xlsb/)
+เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# เพิ่มคุณสมบัติแบบกำหนดเองและบันทึกเป็นรูปแบบ XLSB
+### [วิธีเพิ่มคุณสมบัติแบบกำหนดเองใน Excel ด้วย C# – คู่มือขั้นตอนต่อขั้นตอน](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
+เรียนรู้วิธีการเพิ่มคุณสมบัติแบบกำหนดเองใน Excel ด้วย C# ผ่านคู่มือขั้นตอนต่อขั้นตอนของเรา
+### [วิธีเพิ่มเมตาดาต้า Excel – คู่มือสมบูรณ์สำหรับ C# Workbook](./how-to-add-excel-metadata-complete-c-workbook-guide/)
+เรียนรู้วิธีการเพิ่มเมตาดาต้าในไฟล์ Excel ด้วย C# ผ่านคู่มือขั้นตอนที่ละเอียดและครบถ้วน
 ### [สร้างคุณสมบัติแบบกำหนดเอง Aspose – คู่มือ Excel ฉบับสมบูรณ์](./create-custom-property-aspose-complete-excel-guide/)
 เรียนรู้วิธีการสร้างคุณสมบัติแบบกำหนดเองใน Excel ด้วย Aspose.Cells สำหรับ .NET ผ่านคู่มือฉบับสมบูรณ์นี้
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

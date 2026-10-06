@@ -45,6 +45,7 @@
 了解如何使用 Aspose.Cells for .NET 保护 Excel 工作表中的单元格和区域。请按照本分步指南保护您的电子表格。
 ### [使用 Aspose.Cells 使用密码保护整个工作表](./protect-worksheet-password/)
 通过本全面的分步教程，了解如何使用 Aspose.Cells for .NET 通过密码安全保护您的 Excel 工作表。
+### [向 Excel 添加密码 – 完整工作表保护指南](./add-password-to-excel-complete-sheet-protection-guide/)
 ### [使用 Aspose.Cells 保护工作表中的列](./protect-columns/)
 了解如何使用 Aspose.Cells for .NET 保护 Excel 中的列。按照此详细教程，有效地锁定 Excel 工作表中的列。
 ### [使用 Aspose.Cells 保护工作表中的特定单元格](./protect-specific-cells/)

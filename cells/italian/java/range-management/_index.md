@@ -83,7 +83,8 @@ Scopri come gestire e manipolare in modo efficiente intervalli di dati in Excel 
 ### [Separare le celle di Excel in Java utilizzando Aspose.Cells: una guida passo passo](./unmerge-excel-cells-aspose-cells-java-guide/)
 Scopri come separare in modo efficiente le celle nei file Excel utilizzando Aspose.Cells per Java. Questa guida illustra la configurazione, il rilevamento e la separazione delle celle unite con esempi di codice.
 
-
+### [Assegnare un nome a una cella in Excel con Java – Guida completa](./assign-name-to-cell-in-excel-using-java-complete-guide/)
+Scopri come assegnare un nome a una cella in Excel usando Aspose.Cells per Java con esempi di codice passo passo.
 
 ## Risorse aggiuntive
 

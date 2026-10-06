@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 文件屬性
@@ -35,13 +33,42 @@ Excel 中的文件屬性就像是關於文件的元資料一樣。想像一下�
 透過我們的逐步指南了解如何使用 Aspose.Cells for .NET 存取 Excel 中的文件屬性。有效率地管理您的電子表格。
 ### [在 .NET 中新增文件屬性](./adding-document-properties/)
 透過本詳細的逐步指南了解如何使用 Aspose.Cells for .NET 在 Excel 中新增文件屬性。
+### [建立 Excel 活頁簿 – 新增自訂屬性並儲存為 XLSB](./create-excel-workbook-add-custom-properties-and-save-as-xlsb/)
+了解如何使用 Aspose.Cells for .NET 建立工作簿、加入自訂屬性，並將檔案儲存為 XLSB 格式。
+### [如何在 C# 中使用自訂屬性保存 XLSB – 步驟指南](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
+透過本分步指南了解如何在 C# 中使用 Aspose.Cells for .NET 將 XLSB 檔案保存並設定自訂屬性。
+
+
+
+
+
+
+
+
+### [如何在 C# 中儲存 XLSB 並新增自訂屬性](./how-to-save-xlsb-add-custom-property-in-c/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中將工作簿儲存為 XLSB 並加入自訂屬性。
+
+
+
+
+
+
+
+
+### [如何以自訂屬性儲存 XLSB – C# 步驟指南](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
+透過本分步指南了解如何在 C# 中使用 Aspose.Cells for .NET 以自訂屬性儲存 XLSB 檔案。
+### [在 C# 中建立 Excel 工作簿 – 新增自訂屬性並儲存為 XLSB](./create-excel-workbook-c-add-custom-property-save-xlsb/)
+學習如何在 C# 使用 Aspose.Cells 建立 Excel 工作簿、加入自訂屬性，並將檔案儲存為 XLSB 格式。
+### [如何在 Excel 中使用 C# 新增自訂屬性 – 步驟指南](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
+本教學說明如何使用 C# 在 Excel 中新增自訂屬性，提供完整的步驟說明。
+### [如何新增 Excel 中繼資料 – 完整 C# 工作簿指南](./how-to-add-excel-metadata-complete-c-workbook-guide/)
+本完整指南說明如何在 C# 中使用 Aspose.Cells 為 Excel 工作簿新增中繼資料。
 ### [在 Aspose 中建立自訂屬性 – 完整 Excel 指南](./create-custom-property-aspose-complete-excel-guide/)
 本完整指南說明如何在 Excel 中使用 Aspose 建立自訂屬性，提升文件管理與搜尋功能。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

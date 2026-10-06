@@ -1,0 +1,7 @@
+Title: How to duplicate pivot in Java using Aspose.Cells
+Slug: how-to-duplicate-pivot-in-java-using-aspose-cells
+Category: excel-pivot-tables
+ProcessedDate: 2026-09-18T14:52:10.190587
+SourceRepo: AI Search API
+Keywords: how to duplicate pivot, copy range between workbooks, how to copy pivot, copy pivot to workbook, load excel workbook java
+PRNumber: 164

@@ -74,6 +74,9 @@ Apprenez à supprimer des colonnes d'un classeur Excel avec Aspose.Cells pour Ja
 ### [Comment supprimer des lignes dans Excel avec Aspose.Cells pour Java | Guide et tutoriel](./delete-row-excel-aspose-cells-java/)
 Apprenez à supprimer efficacement des lignes d'un fichier Excel avec Aspose.Cells pour Java. Ce guide couvre la configuration, des exemples de code et des applications pratiques.
 
+### [Supprimer des lignes dans une feuille de calcul avec Java : guide complet](./delete-rows-in-worksheet-with-java-complete-guide/)
+Apprenez à supprimer des lignes d’une feuille Excel en Java avec Aspose.Cells, incluant exemples de code et conseils d’optimisation.
+
 ### [Gérer la visibilité des onglets Excel avec Aspose.Cells en Java](./display-excel-tabs-aspose-cells-java/)
 Apprenez à afficher ou masquer les onglets Excel avec Aspose.Cells pour Java. Ce guide couvre la configuration, l'implémentation du code et les bonnes pratiques pour une gestion efficace des feuilles de calcul.
 
@@ -98,7 +101,8 @@ Un tutoriel de code pour Aspose.Words Java
 ### [Afficher les lignes et les colonnes dans Excel avec Aspose.Cells Java : guide étape par étape](./unhide-rows-columns-excel-aspose-cells-java/)
 Apprenez à afficher facilement les lignes et les colonnes masquées dans vos fichiers Excel grâce à Aspose.Cells pour Java. Automatisez la gestion des données grâce à ce guide complet.
 
-
+### [Comment utiliser SmartMarkerProcessor pour nommer dynamiquement les feuilles](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
+Apprenez à utiliser SmartMarkerProcessor afin de nommer automatiquement les feuilles de calcul en fonction de données dynamiques avec Aspose.Cells pour Java.
 
 ## Ressources supplémentaires
 

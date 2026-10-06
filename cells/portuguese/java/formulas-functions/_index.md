@@ -83,7 +83,10 @@ Aprenda a automatizar tarefas do Excel usando o Aspose.Cells para Java. Este gui
 ### [Como implementar FormulaText em Aspose.Cells para Java: um guia passo a passo](./implementing-formula-text-aspose-cells-java-guide/)
 Aprenda a extrair texto de fórmula de células do Excel usando Aspose.Cells com Java. Este guia aborda configuração, implementação e aplicações práticas.
 
-
+### [Como usar Reduce no Excel com Java – Guia de Fórmula Lambda](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
+Aprenda a usar a função Reduce no Excel com Java, implementando fórmulas lambda para cálculos avançados e otimização de planilhas.
+### [Como usar SEQUENCE em uma pasta de trabalho Excel Java – Guia passo a passo](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+Aprenda a aplicar a função SEQUENCE em planilhas Excel usando Aspose.Cells para Java, automatizando a geração de sequências numéricas.
 
 ## Recursos adicionais
 

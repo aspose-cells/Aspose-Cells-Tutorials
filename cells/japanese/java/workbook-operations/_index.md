@@ -221,6 +221,9 @@ Aspose.Cells for Java を使用して Excel ブックの作成とカスタマイ
 ### [Aspose.Cells for Java を使用して Excel ブックを作成し、結合する方法 | 完全ガイド](./create-merge-excel-workbooks-aspose-cells-java/)
 この包括的なガイドでは、Aspose.Cells for Java を使用して Excel ワークブックを効率的に作成および結合する方法を学習します。今すぐワークブック操作を効率化しましょう。
 
+### [Aspose.Cells for Java を使用して Excel ブックを保存する – 完全ガイド（コピー範囲）](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
+Aspose.Cells for Java を使用して、Excel のセル範囲をコピーしながらワークブックをファイルに保存する方法を学びます。
+
 ### [Java で Aspose.Cells を使用して Excel ブックを作成し保存する方法](./create-save-excel-workbook-aspose-cells-java/)
 Java向けの強力なAspose.Cellsライブラリを使用して、Excelブックを作成、操作、保存する方法を学びましょう。このステップバイステップガイドでは、セットアップから実装まですべてを網羅しています。
 
@@ -475,6 +478,14 @@ Aspose.Cells for Javaを使って、Excelファイルを複数の形式でシー
 
 ### [Aspose.Cells for Java を使用して Excel ドキュメントのバージョンを設定する方法](./set-excel-version-aspose-cells-java/)
 Aspose.Cells for Java を使用して、Excel ファイルのバージョン管理などのドキュメントプロパティを設定および管理する方法を学びます。このステップバイステップガイドに従って、ワークブックを効率的に操作しましょう。
+
+### [Excel にカスタム プロパティを追加する方法（Java） – 値を取得して XLSB として保存](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
+Aspose.Cells for Java を使用して Excel にカスタム プロパティを追加し、値を取得して XLSB 形式で保存する方法を学びます。
+
+### [JavaでワークブックをXLSXとして保存 – 完全プログラミングガイド](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
+
+### [JavaでExcelワークブックを作成する – 完全ステップバイステップガイド](./create-excel-workbook-java-complete-step-by-step-guide/)
+JavaとAspose.Cellsを使用して、Excelワークブックの作成、設定、保存方法を段階的に学びます。
 
 
 

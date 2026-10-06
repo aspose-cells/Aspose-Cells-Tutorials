@@ -1,0 +1,7 @@
+Title: How to embed fonts in HTML when saving a workbook
+Slug: how-to-embed-fonts-in-html-when-saving-a-workbook
+Category: exporting-excel-to-html-with-advanced-options
+ProcessedDate: 2026-09-28T02:40:00.047745
+SourceRepo: AI Search API
+Keywords: how to embed fonts in html, save workbook as html
+PRNumber: 171

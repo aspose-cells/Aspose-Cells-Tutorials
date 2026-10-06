@@ -74,6 +74,9 @@ Ismerje meg, hogyan törölhet oszlopokat egy Excel-munkafüzetből az Aspose.Ce
 ### [Sorok törlése Excelben az Aspose.Cells for Java használatával | Útmutató és oktatóanyag](./delete-row-excel-aspose-cells-java/)
 Ismerd meg, hogyan törölhetsz hatékonyan sorokat egy Excel-fájlból az Aspose.Cells for Java használatával. Ez az útmutató bemutatja a beállítást, a kódpéldákat és a gyakorlati alkalmazásokat.
 
+### [Sorok törlése munkalapon Java-val – Teljes útmutató](./delete-rows-in-worksheet-with-java-complete-guide/)
+Ismerd meg, hogyan törölhetsz sorokat egy Excel-munkalapon Java-val, részletes kódpéldákkal és legjobb gyakorlatokkal.
+
 ### [Excel lapok láthatóságának kezelése az Aspose.Cells segítségével Java-ban](./display-excel-tabs-aspose-cells-java/)
 Ismerje meg, hogyan jelenítheti meg vagy rejtheti el az Excel-füleket az Aspose.Cells for Java használatával. Ez az útmutató a hatékony munkalapkezelés beállítását, kódmegvalósítását és ajánlott gyakorlatait ismerteti.
 
@@ -98,7 +101,8 @@ Kód oktatóanyag az Aspose.Words Java-hoz
 ### [Sorok és oszlopok megjelenítése Excelben az Aspose.Cells Java használatával: lépésről lépésre útmutató](./unhide-rows-columns-excel-aspose-cells-java/)
 Tanuld meg, hogyan jelenítheted meg könnyedén a sorokat és oszlopokat Excel-fájlokban az Aspose.Cells for Java segítségével. Automatizáld az adatkezelést ezzel az átfogó útmutatóval.
 
-
+### [Hogyan használjuk a SmartMarkerProcessor-t dinamikus lapnevezéshez](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
+Tanuld meg, hogyan nevezheted át dinamikusan a munkalapokat a SmartMarkerProcessor segítségével az Aspose.Cells for Java használatával.
 
 ## További források
 

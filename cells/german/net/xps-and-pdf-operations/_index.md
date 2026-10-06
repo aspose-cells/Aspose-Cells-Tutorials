@@ -32,6 +32,16 @@ Als Nächstes befassen wir uns mit den Feinheiten der PDF-Verwaltung. PDFs sind 
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für .NET in nur wenigen einfachen Schritten in das XPS-Format konvertieren, angeleitet durch praktische Codebeispiele.
 ### [Festlegen der PDF-Erstellungszeit in .NET](./setting-pdf-creation-time/)
 Erfahren Sie, wie Sie die PDF-Erstellungszeit in .NET mit Aspose.Cells festlegen. Folgen Sie unserer Schritt-für-Schritt-Anleitung für die nahtlose Konvertierung von Excel in PDF.
+### [Wie man Unicode in Excel mit C# schreibt – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-write-unicode-in-excel-with-c-complete-step-by-step-g/)
+Erfahren Sie, wie Sie Unicode‑Zeichen in Excel‑Tabellen mit C# korrekt einfügen und speichern – inklusive Code‑Beispielen.
+### [DOCX in XPS konvertieren in C# – Komplettanleitung](./convert-docx-to-xps-in-c-complete-guide/)
+Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Cells in C# problemlos in das XPS-Format konvertieren, inklusive Codebeispielen.
+### [Excel in XPS mit C# konvertieren – Komplettanleitung](./convert-excel-to-xps-with-c-complete-guide/)
+Erfahren Sie, wie Sie Excel-Dateien mit C# und Aspose.Cells in das XPS-Format konvertieren – Schritt-für-Schritt-Anleitung mit Beispielcode.
+### [Neues Excel-Arbeitsbuch erstellen – Unicode‑ und XPS‑Export‑Leitfaden](./create-new-excel-workbook-unicode-xps-export-guide/)
+Erfahren Sie, wie Sie ein neues Excel‑Arbeitsbuch mit Unicode‑Unterstützung erstellen und es als XPS‑Datei exportieren.
+### [Schriftarten in XPS mit C# einbetten – Vollständiger Programmierleitfaden](./embed-fonts-in-xps-with-c-complete-programming-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Schriftarten in XPS-Dokumente einbetten, um ein konsistentes Layout sicherzustellen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

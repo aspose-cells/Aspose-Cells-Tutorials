@@ -59,6 +59,9 @@ Výukový program pro Aspose.Words v Javě
 ### [Zvládnutí Aspose.Cells v Javě: Využití inteligentních značek pro dynamická data v pracovních listech](./aspose-cells-java-smart-markers-worksheets/)
 Naučte se, jak automatizovat generování souborů Excelu pomocí Aspose.Cells pro Javu s inteligentními značkami. Zjednodušte správu dat a optimalizujte svůj pracovní postup ještě dnes.
 
+### [Jak použít SmartMarkerProcessor pro dynamické pojmenování listů](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
+Naučte se, jak pomocí SmartMarkerProcessor automaticky pojmenovávat listy v Excelu během generování souboru.
+
 ### [Zvládněte Aspose.Cells v Javě: Komplexní průvodce správou sešitů a listů](./aspose-cells-java-workbook-worksheet-guide/)
 Naučte se, jak spravovat sešity aplikace Excel pomocí nástroje Aspose.Cells pro Javu. Tato příručka se zabývá vytvářením instancí sešitů, přístupem k pracovním listům, nastavením stránek, titulky pro tisk a dalšími informacemi.
 
@@ -73,6 +76,9 @@ Naučte se, jak odstranit sloupce z excelového sešitu pomocí Aspose.Cells pro
 
 ### [Jak odstranit řádky v Excelu pomocí Aspose.Cells pro Javu | Průvodce a tutoriál](./delete-row-excel-aspose-cells-java/)
 Naučte se, jak efektivně mazat řádky ze souboru Excelu pomocí Aspose.Cells pro Javu. Tato příručka se zabývá nastavením, příklady kódu a praktickými aplikacemi.
+
+### [Odstranění řádků v listu pomocí Javy – Kompletní průvodce](./delete-rows-in-worksheet-with-java-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells pro Javu efektivně mazat řádky v listu Excelu. Kompletní průvodce s ukázkami kódu.
 
 ### [Správa viditelnosti záložek v Excelu pomocí Aspose.Cells v Javě](./display-excel-tabs-aspose-cells-java/)
 Naučte se, jak zobrazit nebo skrýt karty Excelu pomocí Aspose.Cells pro Javu. Tato příručka se zabývá nastavením, implementací kódu a osvědčenými postupy pro efektivní správu listů.

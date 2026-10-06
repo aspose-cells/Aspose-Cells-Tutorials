@@ -1,0 +1,7 @@
+Title: How to Export Excel to SVG – Step‑by‑Step Java Guide
+Slug: how-to-export-excel-to-svg-step-by-step-java-guide
+Category: excel-import-export
+ProcessedDate: 2026-07-01T00:55:47.278650
+SourceRepo: AI Search API
+Keywords: how to export excel to svg
+PRNumber: 109

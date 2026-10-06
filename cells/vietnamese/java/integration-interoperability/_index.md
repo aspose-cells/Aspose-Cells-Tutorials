@@ -53,7 +53,14 @@ Học cách tự động hóa các tác vụ Excel bằng Aspose.Cells for Java,
 ### [Làm chủ việc triển khai lớp học Java Teacher với tích hợp Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 Tìm hiểu cách triển khai lớp Giáo viên trong Java, quản lý dữ liệu học sinh và tích hợp Aspose.Cells để xử lý tệp Excel tốt hơn.
 
+### [Chuyển đổi Excel sang PPTX với Java – Hướng dẫn lập trình đầy đủ](./convert-excel-to-pptx-with-java-complete-programming-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang bản trình chiếu PPTX bằng Aspose.Cells for Java, bao gồm ví dụ mã và các tùy chọn tùy chỉnh.
 
+### [Cách xuất biểu đồ từ Excel sang Word – Hướng dẫn Java](./how-to-export-charts-from-excel-to-word-java-guide/)
+Hướng dẫn chi tiết cách xuất biểu đồ Excel sang tài liệu Word bằng Aspose.Cells for Java, bao gồm ví dụ mã và tùy chọn tùy chỉnh.
+
+### [Cách sử dụng WRAPCOLS trong Java – Hướng dẫn đầy đủ về công thức mảng Excel](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
+Tìm hiểu cách sử dụng hàm WRAPCOLS trong Java để làm việc với công thức mảng Excel, bao gồm ví dụ mã và hướng dẫn chi tiết.
 
 ## Tài nguyên bổ sung
 

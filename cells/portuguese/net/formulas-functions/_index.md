@@ -102,6 +102,14 @@ Aprenda a especificar o idioma dos seus arquivos do Excel usando o Aspose.Cells 
 ### [Atualizar fórmulas do Excel Power Query com Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Aprenda a atualizar programaticamente fórmulas do Power Query em pastas de trabalho do Excel usando o Aspose.Cells para .NET. Gerenciamento de fontes de dados mestre para relatórios dinâmicos.
 
+### [Como usar WRAPCOLS em C# – Crie uma pasta de trabalho Excel com funções de ajuste](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+Aprenda a aplicar a função WRAPCOLS em C# para criar planilhas Excel que dividem texto em várias linhas automaticamente.
+
+### [Criar Pasta de Trabalho Excel em C# – Guia Lambda, SEQUENCE e EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+Aprenda a criar pastas de trabalho Excel em C# usando as funções Lambda, SEQUENCE e EXPAND para gerar dados dinâmicos de forma eficiente.
+### [Como Calcular a Cotangente no Excel com C# – Criar Pasta de Trabalho, Usar EXPAND e Salvar](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+Aprenda a criar uma pasta de trabalho, usar a função EXPAND e salvar o Excel ao calcular a cotangente com Aspose.Cells e C#.
+
 ## Compreendendo os tipos de fórmulas do Excel
 
 As fórmulas do Excel vêm em vários formatos, cada uma com características únicas que o Aspose.Cells pode gerenciar:
@@ -160,6 +168,8 @@ Para implementação robusta da fórmula:
 4. **Documentação**: Manter documentação clara de estruturas de fórmulas complexas
 
 Ao dominar esses recursos de fórmula com o Aspose.Cells para .NET, você pode criar mecanismos de cálculo sofisticados em suas planilhas que fornecem resultados precisos e dinâmicos sem exigir instalação do Excel.
+### [Como usar WRAPCOLS em C# – Redimensionar um array para uma matriz no Excel](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
+Aprenda a usar a função WRAPCOLS em C# com Aspose.Cells para transformar um array unidimensional em uma matriz no Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

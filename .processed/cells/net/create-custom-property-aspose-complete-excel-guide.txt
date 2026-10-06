@@ -1,0 +1,7 @@
+Title: Create Custom Property Aspose – Complete Excel Guide
+Slug: create-custom-property-aspose-complete-excel-guide
+Category: document-properties
+ProcessedDate: 2026-06-21T10:54:08.447504
+SourceRepo: AI Search API
+Keywords: create custom property aspose, retrieve custom property value, add custom property excel, read excel file aspose, load workbook from file
+PRNumber: 99

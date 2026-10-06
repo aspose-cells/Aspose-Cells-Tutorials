@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-08"
-"description": "Opanuj automatyzację programu Excel za pomocą Aspose.Cells dla Javy. Naucz się tworzyć skoroszyty, manipulować komórkami, ustawiać formuły, stosować style i wykonywać zaawansowane wyszukiwania programowo."
-"title": "Automatyzacja programu Excel z Aspose.Cells Java&#58; Podręcznik dotyczący skoroszytu i manipulacji komórkami"
-"url": "/pl/java/cell-operations/excel-automation-aspose-cells-java-workbook-manipulation/"
-"weight": 1
+date: '2026-03-20'
+description: Naucz się znajdować komórkę po wartości w Excelu przy użyciu Aspose.Cells
+  dla Javy oraz opanuj tworzenie skoroszytów, niestandardowe style i optymalizację
+  wydajności.
+keywords:
+- Excel automation
+- Aspose.Cells Java
+- workbook manipulation
+title: 'Znajdź komórkę według wartości w Excelu przy użyciu Aspose.Cells Java: Tworzenie
+  skoroszytu i zaawansowana manipulacja komórkami'
+url: /pl/java/cell-operations/excel-automation-aspose-cells-java-workbook-manipulation/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,34 +19,49 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Znajdź komórkę według wartości w Excelu przy użyciu Aspose.Cells Java: Tworzenie skoroszytu i zaawansowana manipulacja komórkami
 
-# Opanowanie automatyzacji programu Excel za pomocą Aspose.Cells Java: Tworzenie skoroszytu i zaawansowana manipulacja komórkami
+## Introduction
 
-## Wstęp
+Masz dość ręcznej edycji arkuszy kalkulacyjnych lub potrzebujesz **find cell by value** w Excelu automatycznie? Odkryj moc Aspose.Cells for Java, aby **create Excel workbook Java**, manipulować wartościami komórek, ustawiać formuły, stosować niestandardowe style i programowo wykonywać zaawansowane wyszukiwania. Ten przewodnik podniesie Twoje umiejętności automatyzacji Excela i pokaże, jak **automate Excel Java** zadania efektywnie.
 
-Masz dość ręcznej edycji arkuszy kalkulacyjnych lub automatyzacji złożonych zadań w programie Excel? Odkryj moc Aspose.Cells for Java, aby tworzyć skoroszyty, manipulować wartościami komórek, ustawiać formuły, stosować niestandardowe style i wykonywać zaawansowane wyszukiwania programowo. Ten przewodnik poprawi Twoje umiejętności automatyzacji w programie Excel.
+**Co się nauczysz**
+- Inicjalizacja skoroszytu i dostęp do arkuszy.
+- Techniki manipulacji wartościami komórek przy użyciu formuł oraz stosowanie niestandardowych stylów.
+- Użycie zaawansowanych opcji wyszukiwania, aby **find cell by value** nawet przy zmianach formatowania.
+- Scenariusze rzeczywiste, takie jak generowanie raportów finansowych i optymalizacja wydajności.
 
-**Czego się nauczysz:**
-- Inicjowanie skoroszytu i uzyskiwanie dostępu do arkuszy kalkulacyjnych.
-- Techniki manipulowania wartościami komórek za pomocą formuł i stosowania niestandardowych stylów.
-- Korzystanie z opcji wyszukiwania zaawansowanego w celu znalezienia określonych wartości pomimo zmian formatowania.
-- Praktyczne zastosowania w scenariuszach z życia wziętych.
+### Quick Answers
+- **Jaka jest podstawowa klasa do tworzenia skoroszytu?** `Workbook`
+- **Która metoda oblicza wszystkie formuły przed zapisem?** `workbook.calculateFormula()`
+- **Jak można wyszukiwać przy użyciu oryginalnych wartości komórek?** Ustaw `LookInType.ORIGINAL_VALUES` w `FindOptions`
+- **Jaki menedżer zależności jest zalecany?** Maven lub Gradle (pokazano poniżej)
+- **Czy wymagana jest licencja do produkcji?** Tak, potrzebna jest licencja komercyjna
 
-Zacznijmy od wymagań wstępnych dla Aspose.Cells Java.
+## What is “find cell by value” in Aspose.Cells?
+Znajdowanie komórki według jej podstawowej wartości oznacza wyszukiwanie surowych danych przechowywanych w komórce, ignorując wszelkie niestandardowe formaty liczbowe lub stylizację wizualną. Jest to niezbędne, gdy formuły lub formatowanie maskują rzeczywistą wartość, którą trzeba odnaleźć.
 
-## Wymagania wstępne
+## Why use Aspose.Cells for Java to automate Excel tasks?
+- **Skoncentrowany na wydajności:** Wbudowane optymalizacje pozwalają obsługiwać duże skoroszyty bez nadmiernego zużycia pamięci.  
+- **Bogate API:** Pełna kontrola nad tworzeniem skoroszytu, stylizacją i możliwościami wyszukiwania.  
+- **Cross‑platform:** Działa w każdym środowisku kompatybilnym z Java, od aplikacji desktopowych po usługi w chmurze.  
+- **Enterprise‑ready:** Obsługuje generowanie raportów finansowych, list inwentarzowych i innych dokumentów z precyzyjnym formatowaniem.
 
-Przed wdrożeniem zadań automatyzacji programu Excel za pomocą Aspose.Cells for Java upewnij się, że masz:
-1. **Biblioteki i zależności:** Dodaj bibliotekę Aspose.Cells do swojego projektu, określając wersję 25.3 lub nowszą.
-2. **Konfiguracja środowiska:** Obsługa języka Java za pomocą narzędzi do kompilacji Maven lub Gradle.
-3. **Wymagania wstępne dotyczące wiedzy:** Podstawowa znajomość programowania w Javie i znajomość operacji w programie Excel.
+## Prerequisites
 
-## Konfigurowanie Aspose.Cells dla Java
+Przed wdrożeniem zadań automatyzacji Excela przy użyciu Aspose.Cells for Java, upewnij się, że masz:
 
-Zintegruj Aspose.Cells ze swoimi projektami Java za pomocą narzędzia do zarządzania zależnościami, takiego jak Maven lub Gradle.
+1. **Biblioteki i zależności:** Dołącz bibliotekę Aspose.Cells (wersja 25.3 lub nowsza).  
+2. **Konfiguracja środowiska:** Java 8+ z Maven lub Gradle.  
+3. **Wymagania wiedzy:** Podstawowa znajomość programowania w Javie oraz pojęć związanych z Excelem.
 
-**Konfiguracja Maven:**
-Dodaj poniższe do swojego `pom.xml`:
+## Setting Up Aspose.Cells for Java
+
+Zintegruj Aspose.Cells w swoich projektach Java za pomocą narzędzia do zarządzania zależnościami, takiego jak Maven lub Gradle.
+
+**Maven Setup**  
+Add the following to your `pom.xml`:
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -48,162 +70,189 @@ Dodaj poniższe do swojego `pom.xml`:
 </dependency>
 ```
 
-**Konfiguracja Gradle:**
-Uwzględnij to w swoim `build.gradle`:
+**Gradle Setup**  
+Include this in your `build.gradle`:
+
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Nabycie licencji
-Aspose.Cells for Java jest produktem komercyjnym, ale możesz zacząć od bezpłatnej wersji próbnej, aby poznać jego funkcje.
-1. **Bezpłatna wersja próbna:** Pobierz i przetestuj bez ograniczeń funkcji.
-2. **Licencja tymczasowa:** Uzyskaj tymczasową licencję na rozszerzoną ocenę.
-3. **Zakup:** Jeśli Aspose.Cells spełnia Twoje potrzeby, kup pełną licencję.
+### License Acquisition
+Aspose.Cells for Java jest produktem komercyjnym, ale możesz rozpocząć od darmowej wersji próbnej, aby ocenić jego funkcje.
 
-### Podstawowa inicjalizacja
-Aby zainicjować Aspose.Cells w projekcie:
+1. **Darmowa wersja próbna:** Pobierz i testuj bez ograniczeń funkcji.  
+2. **Licencja tymczasowa:** Uzyskaj tymczasową licencję na wydłużoną ocenę.  
+3. **Zakup:** Nabyj pełną licencję, jeśli Aspose.Cells spełnia Twoje potrzeby.
+
+### Basic Initialization
+To initialize Aspose.Cells in your project:
+
 ```java
-// Importuj niezbędne pakiety
+// Import necessary packages
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 
-// Zainicjuj nowy skoroszyt
+// Initialize a new workbook
 Workbook workbook = new Workbook();
 ```
 
-## Przewodnik wdrażania
+## Implementation Guide
 
-W tej sekcji omówiono tworzenie skoroszytów, manipulowanie komórkami i zaawansowane funkcje wyszukiwania.
+Ta sekcja obejmuje tworzenie skoroszytu, manipulację komórkami oraz zaawansowane funkcje wyszukiwania.
 
-### Funkcja 1: Tworzenie skoroszytu i manipulacja komórkami
+### Feature 1: Workbook Creation and Cell Manipulation
 
-#### Przegląd
-Utwórz skoroszyt programu Excel, uzyskaj dostęp do arkuszy kalkulacyjnych, manipuluj wartościami komórek za pomocą formuł i programowo stosuj niestandardowe style.
+#### Overview
+Utwórz skoroszyt Excel, uzyskaj dostęp do arkuszy, manipuluj wartościami komórek przy użyciu formuł i programowo stosuj niestandardowe style.
 
-#### Wdrażanie krok po kroku
-**1. Utwórz nowy skoroszyt:**
-Zacznij od utworzenia instancji `Workbook` klasa:
+#### Step‑by‑Step Implementation
+
+**1. Create a New Workbook**  
+Start by creating an instance of the `Workbook` class:
+
 ```java
 import com.aspose.cells.Workbook;
-// Zainicjuj nowy obiekt skoroszytu
+// Initialize a new workbook object
 Workbook workbook = new Workbook();
 ```
 
-**2. Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego:**
-Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego w nowo utworzonym skoroszycie:
+**2. Access the First Worksheet**  
+Retrieve the first worksheet in your newly created workbook:
+
 ```java
 import com.aspose.cells.Worksheet;
-// Pobierz pierwszy arkusz kalkulacyjny
+// Retrieve the first worksheet
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-**3. Dodaj wartości i ustaw formuły:**
-Dodaj wartości do określonych komórek i ustaw formułę, która obliczy ich sumę:
+**3. Add Values and Set Formulas**  
+Populate cells A1 and A2, then apply a sum formula to D4:
+
 ```java
-// Ustaw wartości w komórkach A1 i A2
+// Set values in cells A1 and A2
 worksheet.getCells().get("A1").putValue(10);
 worksheet.getCells().get("A2").putValue(10);
-// Zastosuj formułę sumy do komórki D4
+// Apply sum formula to cell D4
 import com.aspose.cells.Cell;
 Cell cell = worksheet.getCells().get("D4");
 cell.setFormula(":=Sum(A1:A2)");
 ```
 
-**4. Dostosuj style komórek:**
-Zastosuj niestandardowe style, aby uzyskać lepszy wygląd wizualny:
+**4. Customize Cell Styles**  
+Apply a custom style to make the result stand out:
+
 ```java
 import com.aspose.cells.Style;
-// Ustaw niestandardowy styl dla komórki D4
+// Set a custom style for cell D4
 Style style = cell.getStyle();
-style.setCustom("---"); // Format niestandardowy jako ---
+style.setCustom("---"); // Custom format as ---
 cell.setStyle(style);
 ```
 
-**5. Oblicz i zapisz skoroszyt:**
-Przed zapisaniem upewnij się, że wszystkie obliczenia formuły zostały zaktualizowane:
+**5. Calculate and Save Workbook**  
+Make sure all formulas are evaluated before persisting the file:
+
 ```java
 workbook.calculateFormula();
-// Zdefiniuj ścieżkę do katalogu wyjściowego
+// Define output directory path
 String outDir = "YOUR_OUTPUT_DIRECTORY";
-// Zapisz zmodyfikowany skoroszyt
+// Save the modified workbook
 workbook.save(outDir + "SDUOriginalValues_out.xlsx");
 ```
 
-#### Porady dotyczące rozwiązywania problemów
-- Sprawdź, czy środowisko Java jest poprawnie skonfigurowane.
-- Sprawdź, czy Aspose.Cells zostało prawidłowo dodane jako zależność w Twoim projekcie.
+#### Troubleshooting Tips
+- Sprawdź, czy Twoje środowisko Java spełnia wymagania biblioteki.  
+- Upewnij się, że plik JAR Aspose.Cells jest poprawnie odwoływany w ścieżce kompilacji.
 
-### Funkcja 2: wyszukiwanie za pomocą FindOptions przy użyciu oryginalnych wartości
+### Feature 2: Searching with FindOptions Using Original Values
 
-#### Przegląd
-Możesz wyszukiwać określone wartości w skoroszycie programu Excel, nawet jeśli niestandardowe formatowanie może przesłaniać faktyczną zawartość.
+#### Overview
+Search for specific values within an Excel workbook, even when custom formatting might hide the underlying data. This is the core of **find cell by value** functionality.
 
-#### Wdrażanie krok po kroku
-**1. Zainicjuj skoroszyt i arkusz kalkulacyjny:**
-Zakładając, że skoroszyt i arkusz kalkulacyjny są już skonfigurowane:
+#### Step‑by‑Step Implementation
+
+**1. Initialize Workbook and Worksheet**  
+(Assuming the workbook from Feature 1 is already loaded.)
+
 ```java
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-**2. Skonfiguruj opcje wyszukiwania:**
-Ustaw opcje wyszukiwania na podstawie oryginalnych wartości komórek, ignorując wszelkie niestandardowe formatowanie:
+**2. Configure Search Options**  
+Set the search to look at original values and match the entire cell content:
+
 ```java
 import com.aspose.cells.FindOptions;
 import com.aspose.cells.LookAtType;
 import com.aspose.cells.LookInType;
 FindOptions options = new FindOptions();
-options.setLookInType(LookInType.ORIGINAL_VALUES); // Spójrz na oryginalne wartości komórek
-options.setLookAtType(LookAtType.ENTIRE_CONTENT); // Dopasuj całą zawartość komórki
+options.setLookInType(LookInType.ORIGINAL_VALUES); // Look at original cell values
+options.setLookAtType(LookAtType.ENTIRE_CONTENT); // Match the entire content of the cell
 ```
 
-**3. Wykonaj operację wyszukiwania:**
-Wyszukaj konkretną wartość, korzystając z skonfigurowanych opcji:
+**3. Perform Search Operation**  
+Search for the expected result (e.g., the sum calculated in D4):
+
 ```java
 import com.aspose.cells.Cell;
-// Zdefiniuj wartość, której chcesz szukać
-Object obj = 20; // Oczekiwany wynik wzoru w D4
+// Define the value to search for
+Object obj = 20; // Expected result from formula in D4
 Cell foundCell = worksheet.getCells().find(obj, null, options);
 ```
 
-#### Porady dotyczące rozwiązywania problemów
-- Upewnij się, że kryteria wyszukiwania są poprawnie zdefiniowane.
-- Przed rozpoczęciem wyszukiwania sprawdź, czy komórki zawierają oczekiwane wartości.
+If `foundCell` is not `null`, you have successfully **found cell by value** regardless of formatting.
 
-## Zastosowania praktyczne
+#### Troubleshooting Tips
+- Upewnij się, że komórka, której szukasz, rzeczywiście zawiera oczekiwaną oryginalną wartość.  
+- Pamiętaj, że `LookInType.ORIGINAL_VALUES` ignoruje formaty liczb, dlatego działa przy ukrytych danych.
 
-Zapoznaj się z rzeczywistymi scenariuszami, w których te funkcje mogą okazać się przydatne:
-1. **Automatyczne raportowanie finansowe:** Generuj raporty finansowe z obliczeniowymi podsumowaniami i niestandardowym formatowaniem.
-2. **Systemy zarządzania zapasami:** Wyszukaj poziomy zapasów używając oryginalnych wartości, niezależnie od formatu wyświetlania.
-3. **Projekty analizy danych:** Twórz dynamiczne skoroszyty, które automatycznie aktualizują obliczenia na podstawie zmian danych.
+## Practical Applications
 
-## Rozważania dotyczące wydajności
+Poznaj scenariusze rzeczywiste, w których te funkcje błyszczą:
 
-Optymalizacja wydajności podczas pracy z Aspose.Cells w Javie:
-- **Zarządzanie pamięcią:** Bądź świadomy wykorzystania pamięci, zwłaszcza w przypadku dużych zestawów danych. Pozbywaj się niepotrzebnych obiektów i zarządzaj zasobami efektywnie.
-- **Przetwarzanie wsadowe:** Przetwarzaj komórki w partiach, aby zmniejszyć obciążenie i skrócić czas realizacji.
-- **Optymalizacja formuł:** Używaj efektywnych formuł i ograniczaj odwołania do zakresów komórek, gdzie to możliwe.
+1. **Automatyczne raportowanie finansowe:** Generuj sprawozdania finansowe z obliczonymi sumami i stosuj firmowy styl.  
+2. **Systemy zarządzania zapasami:** Lokalizuj poziomy zapasów używając oryginalnych wartości, nawet gdy komórki wyświetlają jednostki lub symbole walut.  
+3. **Projekty analizy danych:** Twórz dynamiczne skoroszyty, które automatycznie aktualizują obliczenia w miarę zmian danych źródłowych.
 
-## Wniosek
+## Performance Considerations
 
-W tym samouczku zbadano automatyzację zadań programu Excel przy użyciu Aspose.Cells for Java, skupiając się na tworzeniu skoroszytów, manipulacji komórkami i zaawansowanych wyszukiwaniach. Opanuj te techniki, aby ulepszyć swoje przepływy pracy przetwarzania danych.
+Optymalizacja wydajności Excela jest kluczowa przy pracy z dużymi zestawami danych:
 
-**Następne kroki:**
-- Eksperymentuj z dodatkowymi funkcjami, takimi jak wykresy i tabele przestawne.
-- Zapoznaj się z obszerną dokumentacją Aspose.Cells, aby odblokować więcej możliwości.
+- **Zarządzanie pamięcią:** Usuń nieużywane obiekty i użyj `workbook.dispose()` po zakończeniu.  
+- **Przetwarzanie wsadowe:** Przetwarzaj wiersze partiami, aby zmniejszyć narzut.  
+- **Efektywne formuły:** Preferuj wbudowane funkcje zamiast złożonych formuł niestandardowych.
 
-Gotowy, aby przenieść swoje umiejętności automatyzacji Excela na wyższy poziom? Zanurz się w poniższych zasobach i zacznij wdrażać już dziś!
+## Common Pitfalls & How to Avoid Them
 
-## Sekcja FAQ
+| Objaw | Przyczyna | Rozwiązanie |
+|-------|-----------|-------------|
+| `foundCell` zwraca `null` | Wartość wyszukiwania nieobecna lub formuła nie została obliczona | Wywołaj `workbook.calculateFormula()` przed wyszukiwaniem |
+| Błędy braku pamięci przy dużych plikach | Skoroszyt wczytany w całości do pamięci | Użyj opcji strumieniowania `Workbook` lub podziel przetwarzanie |
+| Style nie zastosowane | Obiekt Style nie został przypisany z powrotem do komórki | Po modyfikacji `Style` wywołaj `cell.setStyle(style)` |
 
-1. **Do czego służy Aspose.Cells for Java?**
-   - Automatyzuje zadania związane z tworzeniem, przetwarzaniem i wyszukiwaniem danych w arkuszach kalkulacyjnych Excel przy użyciu języka Java.
+## Frequently Asked Questions
 
-2. **Jak skonfigurować Aspose.Cells za pomocą Maven lub Gradle?**
-   - Dodaj odpowiedni fragment zależności podany powyżej do swojego `pom.xml` Lub `build.gradle` plik.
+**Q: What is Aspose.Cells for Java used for?**  
+A: It automates tasks related to creating, manipulating, and searching data in Excel spreadsheets using Java.
 
-3. **Czy mogę wyszukiwać wartości, nawet jeśli formatowanie komórek je ukrywa?**
-   - Tak, używam `FindOptions` skonfigurowano tak, aby przeglądać oryginalne wartości, co umożliwia wykonywanie takich wyszukiwań.
+**Q: How do I set up Aspose.Cells with Maven or Gradle?**  
+A: Add the dependency snippets provided in the **Setting Up Aspose.Cells for Java** section to your `pom.xml` or `build.gradle`.
+
+**Q: Can I search for values even if cell formatting hides them?**  
+A: Yes. Configure `FindOptions` with `LookInType.ORIGINAL_VALUES` to search based on the underlying data.
+
+**Q: How can I improve performance when processing huge workbooks?**  
+A: Follow the **Performance Considerations** section—manage memory, process in batches, and use efficient formulas.
+
+**Q: Is a license required for production use?**  
+A: Yes, a commercial license is required for production deployments. A free trial is available for evaluation.
+
+---
+
+**Ostatnia aktualizacja:** 2026-03-20  
+**Testowano z:** Aspose.Cells 25.3 (Java)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

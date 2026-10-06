@@ -1,0 +1,7 @@
+Title: Add comment to cell in C# – Generate Excel from data
+Slug: add-comment-to-cell-in-c-generate-excel-from-data
+Category: excel-comment-annotation
+ProcessedDate: 2026-06-24T15:36:54.713936
+SourceRepo: AI Search API
+Keywords: add comment to cell, save workbook as xlsx, generate excel from data, create workbook worksheet
+PRNumber: 103

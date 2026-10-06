@@ -1,0 +1,7 @@
+Title: How to use Aspose in Java – create Excel workbook with new functions
+Slug: how-to-use-aspose-in-java-create-excel-workbook-with-new-fun
+Category: formulas-functions
+ProcessedDate: 2026-08-11T11:57:42.200302
+SourceRepo: AI Search API
+Keywords: how to use aspose, use lambda function java, create excel workbook java, use reduce function java, calculate cot function
+PRNumber: 141

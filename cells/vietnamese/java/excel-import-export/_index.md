@@ -35,6 +35,8 @@ Tìm hiểu cách thực hiện nhập dữ liệu hàng loạt từ Excel bằn
 Mở khóa tiềm năng của các phương pháp xuất dữ liệu Excel bằng Aspose.Cells for Java. Tìm hiểu với các ví dụ mã nguồn thực tế trong hướng dẫn toàn diện này. Tối ưu hóa kỹ năng quản lý dữ liệu của bạn ngay hôm nay.
 ### [Xuất CSV Mã Java](./csv-export-java-code/)
 Tìm hiểu cách xuất dữ liệu sang định dạng CSV bằng Aspose.Cells for Java. Hướng dẫn từng bước với mã nguồn để xuất CSV liền mạch.
+### [Cách xuất Excel: Hướng dẫn từng bước chuyển đổi sang CSV](./how-to-export-excel-step-by-step-guide-to-csv-conversion/)
+Hướng dẫn chi tiết cách xuất tệp Excel sang CSV bằng Aspose.Cells for Java, kèm ví dụ mã nguồn để thực hiện chuyển đổi nhanh chóng.
 ### [Xuất Excel sang PDF](./exporting-excel-to-pdf/)
 Tìm hiểu cách xuất tệp Excel sang PDF dễ dàng bằng Aspose.Cells for Java. Hướng dẫn từng bước của chúng tôi giúp đơn giản hóa quy trình. Bắt đầu chuyển đổi ngay hôm nay!
 ### [Xuất Excel sang XML Java](./export-excel-to-xml-java/)
@@ -43,10 +45,32 @@ Tìm hiểu cách xuất Excel sang XML trong Java bằng Aspose.Cells for Java.
 Tìm hiểu cách nhập dữ liệu từ Excel bằng Aspose.Cells cho Java. Hướng dẫn toàn diện với mã nguồn để truy xuất dữ liệu liền mạch.
 ### [Xuất Excel sang JSON](./export-excel-to-json/)
 Tìm hiểu cách xuất dữ liệu Excel sang JSON bằng Aspose.Cells for Java. Thực hiện theo hướng dẫn từng bước này với mã nguồn để chuyển đổi liền mạch.
+### [Chuyển đổi JSON sang XLSX với Aspose.Cells Java – Hướng dẫn toàn diện](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
+Tìm hiểu cách chuyển đổi dữ liệu JSON sang tệp XLSX bằng Aspose.Cells for Java qua hướng dẫn chi tiết và ví dụ mã nguồn thực tế.
 ### [Xác thực dữ liệu nhập Excel](./excel-import-data-validation/)
 Tìm hiểu cách triển khai xác thực dữ liệu nhập Excel bằng Aspose.Cells cho Java với hướng dẫn từng bước toàn diện này. Đảm bảo độ chính xác của dữ liệu và nâng cao trải nghiệm người dùng. 
 ### [Xuất Excel sang HTML Java](./export-excel-to-html-java/)
 Tìm hiểu cách xuất Excel sang HTML trong Java bằng Aspose.Cells for Java. Thực hiện theo hướng dẫn từng bước này với mã nguồn để chuyển đổi liền mạch các tệp Excel của bạn sang HTML một cách dễ dàng.
+### [Cách xuất CSV với Java – Đặt chữ số có ý nghĩa và xuất phạm vi sang CSV](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
+Hướng dẫn chi tiết cách xuất dữ liệu sang CSV trong Java, thiết lập chữ số có nghĩa và chỉ định phạm vi xuất.
+### [Cách tạo PDF từ Workbook – Hướng dẫn Java đầy đủ](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
+Tìm hiểu cách tạo PDF từ Workbook bằng Aspose.Cells for Java. Hướng dẫn chi tiết với mã nguồn để chuyển đổi nhanh chóng và chính xác.
+### [Chuyển đổi XLSX sang PPTX – Hướng dẫn toàn diện xuất các hình dạng có thể chỉnh sửa](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
+Tìm hiểu cách chuyển đổi tệp XLSX sang PPTX và xuất các hình dạng có thể chỉnh sửa bằng Aspose.Cells cho Java.
+### [Nhúng phông chữ HTML – Excel sang HTML với việc nhúng phông chữ đầy đủ](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
+Hướng dẫn chi tiết cách xuất Excel sang HTML và nhúng toàn bộ phông chữ để đảm bảo hiển thị chính xác trên mọi trình duyệt.
+### [Chuyển đổi Markdown sang Excel – Hướng dẫn toàn diện sử dụng Aspose.Cells](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
+Tìm hiểu cách chuyển đổi tệp Markdown sang Excel bằng Aspose.Cells trong hướng dẫn chi tiết này.
+### [Cách xuất Excel sang SVG – Hướng dẫn Java đầy đủ](./how-to-export-excel-to-svg-complete-java-guide/)
+Tìm hiểu cách xuất dữ liệu Excel sang định dạng SVG trong Java bằng Aspose.Cells. Hướng dẫn chi tiết với mã nguồn để chuyển đổi mượt mà.
+### [Tải tệp JSON Java – Hướng dẫn đầy đủ chuyển đổi JSON sang Excel](./load-json-file-java-full-guide-to-convert-json-to-excel/)
+Tìm hiểu cách tải tệp JSON và chuyển đổi dữ liệu sang Excel bằng Aspose.Cells cho Java. Hướng dẫn chi tiết với mã nguồn.
+### [Tạo tệp Excel Java – Hướng dẫn đầy đủ với định dạng hàng và xuất XLSX](./create-excel-file-java-full-guide-with-row-styling-and-xlsx/)
+Tìm hiểu cách tạo tệp Excel trong Java, áp dụng định dạng hàng và xuất dưới dạng XLSX bằng Aspose.Cells.
+### [Cách nhúng phông chữ vào HTML từ workbook Excel – Java](./how-to-embed-fonts-in-html-from-excel-workbook-java/)
+Hướng dẫn chi tiết cách nhúng phông chữ vào tệp HTML khi xuất từ workbook Excel bằng Aspose.Cells for Java.
+### [Flat OPC Tutorial Aspose: Load Excel Workbook in Java](./flat-opc-tutorial-aspose-load-excel-workbook-in-java/)
+Tìm hiểu cách tải workbook Excel bằng công nghệ Flat OPC trong Java với Aspose.Cells, kèm ví dụ mã nguồn chi tiết.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

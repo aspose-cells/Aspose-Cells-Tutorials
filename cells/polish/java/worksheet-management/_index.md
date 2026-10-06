@@ -74,6 +74,9 @@ Dowiedz się, jak usuwać kolumny z skoroszytu programu Excel za pomocą Aspose.
 ### [Jak usunąć wiersze w programie Excel za pomocą Aspose.Cells dla języka Java | Przewodnik i samouczek](./delete-row-excel-aspose-cells-java/)
 Dowiedz się, jak skutecznie usuwać wiersze z pliku Excel za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje konfigurację, przykłady kodu i praktyczne zastosowania.
 
+### [Usuwanie wierszy w arkuszu przy użyciu Javy – kompletny przewodnik](./delete-rows-in-worksheet-with-java-complete-guide/)
+Dowiedz się, jak programowo usuwać wiersze z arkusza kalkulacyjnego w Javie, korzystając z Aspose.Cells, z praktycznymi przykładami i wskazówkami optymalizacji.
+
 ### [Zarządzanie widocznością kart programu Excel za pomocą Aspose.Cells w Javie](./display-excel-tabs-aspose-cells-java/)
 Dowiedz się, jak wyświetlać lub ukrywać karty programu Excel za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje konfigurację, implementację kodu i najlepsze praktyki efektywnego zarządzania arkuszami kalkulacyjnymi.
 
@@ -98,7 +101,8 @@ Samouczek dotyczący kodu dla Aspose.Words Java
 ### [Odkryj wiersze i kolumny w programie Excel za pomocą Aspose.Cells Java: przewodnik krok po kroku](./unhide-rows-columns-excel-aspose-cells-java/)
 Dowiedz się, jak bez wysiłku odkrywać wiersze i kolumny w plikach Excela za pomocą Aspose.Cells for Java. Zautomatyzuj zarządzanie danymi dzięki temu kompleksowemu przewodnikowi.
 
-
+### [Jak używać SmartMarkerProcessor do dynamicznego nazewnictwa arkuszy](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
+Dowiedz się, jak dynamicznie nadawać nazwy arkuszom w Excelu przy użyciu SmartMarkerProcessor w Aspose.Cells for Java.
 
 ## Dodatkowe zasoby
 
