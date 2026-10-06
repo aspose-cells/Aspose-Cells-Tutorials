@@ -51,6 +51,8 @@ Aspose.Cells を使用すると、標準的な Excel 表記（「A1」など）�
 ### [Aspose.Cells for .NET を使用して Excel の結合セルを解除する | セル操作ガイド](./unmerge-cells-excel-aspose-net)
 ### [Aspose.Cells を使用して共有 Excel のリビジョン ログの日数を更新する](./update-revision-logs-days-aspose-cells-net)
 ### [Read Write Excel C# – Excel セルの読み取りと書き込みの完全ガイド](./read-write-excel-c-complete-guide-to-reading-and-writing-exc/)
+### [C#でExcelに日付を書き込む方法 – 完全プログラミングガイド](./how-to-write-date-excel-in-c-complete-programming-guide/)
+C# を使用して Excel に日付を書き込む方法を学びます。このガイドでは、日付形式の設定やセルへの書き込み手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

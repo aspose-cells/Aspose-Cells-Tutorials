@@ -59,6 +59,8 @@ Ismerje meg, hogyan hozhat létre Excel-fájlokat sablonok alapján .NET környe
 Tanulja meg, hogyan menthet programozottan egy adatkitöltött Excel-munkafüzetet az Aspose.Cells használatával.
 ### [Munkafüzet sablon létrehozása Aspose.Cells segítségével – Teljes útmutató](./create-workbook-template-with-aspose-cells-complete-guide/)
 Ismerje meg, hogyan hozhat létre és testreszabhat munkafüzet sablonokat az Aspose.Cells .NET könyvtárral a teljes útmutatóban.
+### [Hogyan használjuk az Excelt körlevélhez – Teljes C# útmutató](./how-to-use-excel-for-mail-merge-complete-c-guide/)
+Ismerje meg, hogyan hozhat létre körleveleket Excelből C#-ban az Aspose.Cells segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

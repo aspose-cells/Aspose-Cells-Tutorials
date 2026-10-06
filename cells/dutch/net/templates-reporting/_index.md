@@ -61,6 +61,11 @@ Leer hoe u een Excel-bestand maakt op basis van een sjabloon, gegevens en afbeel
 Leer hoe u een ingevuld werkboek programmeerbaar opslaat met Aspose.Cells in .NET.
 ### [Werkboek-sjabloon maken met Aspose.Cells – Complete gids](./create-workbook-template-with-aspose-cells-complete-guide/)
 Leer hoe u met Aspose.Cells een herbruikbaar werkboek-sjabloon maakt en automatisch gegevens invoegt voor efficiënte rapportage.
+### [Hoe een Excel-sjabloonbestand op te slaan – Stapsgewijze handleiding](./how-to-save-excel-template-file-step-by-step-guide/)
+Leer hoe u een Excel-sjabloonbestand opslaat met Aspose.Cells .NET, inclusief bestandsindeling, padinstellingen en voorbeeldcode.
+
+### [Hoe Excel te gebruiken voor mailmerge – Complete C#-gids](./how-to-use-excel-for-mail-merge-complete-c-guide/)
+Leer stap voor stap hoe u Excel kunt inzetten voor mailmerge met C#, inclusief voorbeeldcode en configuratie.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

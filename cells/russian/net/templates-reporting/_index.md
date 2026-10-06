@@ -61,6 +61,11 @@ Aspose.Cells for .NET предоставляет мощные инструмен
 Узнайте, как создать файл Excel из шаблона, добавить данные и изображения, а затем сохранить его в формате XLSX.
 ### [Сохранение заполненной рабочей книги программно с Aspose.Cells](./save-populated-workbook-programmatically-with-aspose-cells/)
 Узнайте, как программно сохранять заполненную рабочую книгу с помощью Aspose.Cells.
+### [Как сохранить файл шаблона Excel – пошаговое руководство](./how-to-save-excel-template-file-step-by-step-guide/)
+Узнайте, как сохранить шаблон Excel с помощью Aspose.Cells для .NET, следуя пошаговым инструкциям.
+
+### [Как использовать Excel для слияния почты – полное руководство C#](./how-to-use-excel-for-mail-merge-complete-c-guide/)
+Узнайте, как выполнять слияние почты в Excel с помощью Aspose.Cells на C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

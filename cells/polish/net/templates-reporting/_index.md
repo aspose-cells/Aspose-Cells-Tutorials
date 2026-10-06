@@ -38,7 +38,7 @@ Dowiedz się, jak tworzyć dynamiczne raporty Excela przy użyciu Aspose.Cells d
 Dowiedz się, jak automatyzować dynamiczne raporty programu Excel za pomocą pakietu Aspose.Cells for .NET, który oferuje inteligentne znaczniki i zaawansowane wykresy.
 
 ### [Generuj dynamiczne raporty Excela przy użyciu inteligentnych znaczników Aspose.Cells .NET](./generate-excel-reports-aspose-cells-net-smart-markers)
-Dowiedz się, jak tworzyć dynamiczne raporty Excela za pomocą Aspose.Cells .NET przy użyciu inteligentnych znaczników. Ten przewodnik obejmuje definicje klas, powiązanie danych i stylizację profesjonalnych arkuszy kalkulacyjnych.
+Dowiedz się, jak tworzyć dynamiczne raporty Excela przy użyciu Aspose.Cells .NET przy użyciu inteligentnych znaczników. Ten przewodnik obejmuje definicje klas, powiązanie danych i stylizację profesjonalnych arkuszy kalkulacyjnych.
 
 ### [Projektowanie skoroszytu głównego przy użyciu Aspose.Cells .NET i SmartMarkers w celu wydajnego raportowania](./master-workbook-design-aspose-cells-smartmarkers)
 Dowiedz się, jak używać Aspose.Cells .NET ze SmartMarkers do tworzenia dynamicznych skoroszytów programu Excel, automatyzowania raportowania i wydajnego zarządzania danymi.
@@ -60,6 +60,11 @@ Dowiedz się, jak tworzyć pliki Excel z szablonów przy użyciu Aspose.Cells dl
 Dowiedz się, jak tworzyć plik Excel z szablonu, wstawiać dane i obrazy oraz zapisywać w formacie XLSX.
 ### [Utwórz szablon skoroszytu z Aspose.Cells – Kompletny przewodnik](./create-workbook-template-with-aspose-cells-complete-guide/)
 Dowiedz się, jak krok po kroku stworzyć szablon skoroszytu w Aspose.Cells, aby automatyzować generowanie raportów Excel.
+### [Jak zapisać plik szablonu Excela – przewodnik krok po kroku](./how-to-save-excel-template-file-step-by-step-guide/)
+Dowiedz się, jak w kilku prostych krokach zapisać szablon Excela przy użyciu Aspose.Cells dla .NET.
+
+### [Jak używać Excela do korespondencji seryjnej – kompletny przewodnik C#](./how-to-use-excel-for-mail-merge-complete-c-guide/)
+Dowiedz się, jak wykorzystać Excela do korespondencji seryjnej w C#, tworząc szablony i generując dokumenty przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

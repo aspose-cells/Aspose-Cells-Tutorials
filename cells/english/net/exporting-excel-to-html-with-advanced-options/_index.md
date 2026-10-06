@@ -51,6 +51,9 @@ Oh, and if you think printing headings in Excel might be tedious, think again! W
 
 One often-overlooked aspect of HTML exports is the management of self-closing tags. Excel sheets can be complex, containing various elements that may require specific formatting, like images or empty cells. The tutorial on recognizing self-closing tags programmatically guides you through extracting these elements seamlessly, ensuring your output HTML is clean and well-structured. Imagine simplifying your code and making your HTML more compatible with web standards – sounds great, right? [Discover the details here](./recognizing-self-closing-tags/).
 
+### [Save Excel as HTML – Complete Guide with Code Samples](./save-excel-as-html-complete-guide-with-code-samples/)
+Learn how to save Excel files as HTML with comprehensive code samples using Aspose.Cells for .NET.
+
 ## Efficiently Prefixing Table Element Styles
 
 Styling tabular data can enhance readability and aesthetic appeal. With Aspose.Cells, you can learn how to prefix table elements styles with HTML save options. This feature allows you to introduce custom styles or configurations that elevate the overall presentation quality of your exported HTML. Think about it – you can create visually cohesive reports that resonate with your brand’s personality. Interested in styling like a pro? [Check out this guide](./prefixing-table-elements-styles/).

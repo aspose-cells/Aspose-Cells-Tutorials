@@ -82,6 +82,8 @@ Aprenda a establecer el formato de fecha en archivos de Excel usando C# y Aspose
 Aprenda a aplicar formatos de fecha en Excel usando C# y Aspose.Cells, con ejemplos completos de importación y configuración de estilos.
 ### [Crear libro de Excel con fechas del calendario japonés – Guía completa](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
 Aprenda a generar libros de Excel que utilizan el calendario japonés, con ejemplos completos y configuración de formatos usando Aspose.Cells para .NET.
+### [Crear libro de Excel C# – Limitar dígitos significativos en Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
+Aprenda a crear un libro de Excel en C# y limitar la cantidad de dígitos significativos usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

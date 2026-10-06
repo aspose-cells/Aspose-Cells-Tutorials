@@ -116,6 +116,8 @@
 เรียนรู้วิธีแปลงไฟล์ Excel เป็น HTML อย่างครบถ้วนด้วย Aspose.Cells สำหรับ .NET ในคู่มือขั้นตอนเดียว
 ### [ฝังฟอนต์ใน HTML – ส่งออกเวิร์กบุ๊ก Excel ไปยัง HTML ด้วย Aspose.Cells](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
 เรียนรู้วิธีฝังฟอนต์ในไฟล์ HTML เมื่อส่งออกเวิร์กบุ๊ก Excel ด้วย Aspose.Cells สำหรับ .NET เพื่อให้แสดงผลอย่างถูกต้องบนเว็บ
+### [บันทึก Excel เป็น HTML – คู่มือฉบับสมบูรณ์พร้อมตัวอย่างโค้ด](./save-excel-as-html-complete-guide-with-code-samples/)
+เรียนรู้วิธีบันทึกไฟล์ Excel เป็น HTML อย่างเต็มรูปแบบพร้อมตัวอย่างโค้ดโดยใช้ Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

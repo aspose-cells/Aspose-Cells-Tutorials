@@ -122,6 +122,8 @@
 Μάθετε πώς να ενσωματώνετε γραμματοσειρές στο HTML κατά την εξαγωγή βιβλίου εργασίας Excel με το Aspose.Cells για .NET.
 ### [Μετατροπή Excel σε HTML – Πλήρης Οδηγός με Aspose.Cells](./convert-excel-to-html-complete-guide-using-aspose-cells/)
 Μάθετε πώς να μετατρέψετε αρχεία Excel σε HTML βήμα-βήμα με το Aspose.Cells για .NET.
+### [Αποθήκευση Excel ως HTML – Πλήρης Οδηγός με Παραδείγματα Κώδικα](./save-excel-as-html-complete-guide-with-code-samples/)
+Μάθετε πώς να αποθηκεύετε αρχεία Excel σε HTML με πλήρη οδηγίες και παραδείγματα κώδικα χρησιμοποιώντας Aspose.Cells για .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

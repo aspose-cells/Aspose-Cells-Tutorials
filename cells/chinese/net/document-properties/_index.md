@@ -63,6 +63,8 @@ Excel 中的文档属性就像文件的元数据一样。想象一下：每个 E
 通过本详细教程，学习如何使用 C# 在 Excel 中添加自定义属性，轻松实现个性化文档管理。
 ### [如何添加 Excel 元数据 – 完整的 C# 工作簿指南](./how-to-add-excel-metadata-complete-c-workbook-guide/)
 通过本完整指南，学习在 C# 中使用 Aspose.Cells 为 Excel 工作簿添加元数据。
+### [创建自定义属性 Aspose – 完整 Excel 指南](./create-custom-property-aspose-complete-excel-guide/)
+通过本完整指南，学习如何使用 Aspose.Cells for .NET 在 Excel 中创建自定义属性，提升文件的元数据管理。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

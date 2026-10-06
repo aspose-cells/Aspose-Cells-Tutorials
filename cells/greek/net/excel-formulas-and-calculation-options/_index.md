@@ -87,6 +87,7 @@
 Μάθετε πώς να χρησιμοποιείτε τη λειτουργία WRAPCOLS σε C# για να μετατρέψετε μονοδιάστατους πίνακες σε δισδιάστατους πίνακες.
 ### [Πώς να δημιουργήσετε πίνακα στο Excel με C# – Οδηγός βήμα‑βήμα](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 Μάθετε πώς να δημιουργείτε πίνακες στο Excel χρησιμοποιώντας C# με το Aspose.Cells για .NET σε αυτόν τον αναλυτικό οδηγό βήμα‑βήμα.
+### [Πώς να υπολογίσετε την συνεφαπτομένη στο Excel με C# – Πλήρης οδηγός](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

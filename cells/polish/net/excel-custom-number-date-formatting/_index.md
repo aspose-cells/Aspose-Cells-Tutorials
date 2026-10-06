@@ -80,6 +80,8 @@ Dowiedz się, jak ustawić format daty w arkuszach Excel przy użyciu Aspose.Cel
 Dowiedz się, jak ustawić format daty w Excelu przy użyciu C# i Aspose.Cells dla .NET, obejmując pełne formatowanie importu.
 ### [Utwórz skoroszyt Excel z datami kalendarza japońskiego – pełny przewodnik](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
 Dowiedz się, jak przy użyciu Aspose.Cells tworzyć skoroszyty Excel z datami w kalendarzu japońskim, krok po kroku, w pełnym przewodniku.
+### [Utwórz skoroszyt Excel w C# – Ogranicz znaczące cyfry w Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
+Dowiedz się, jak w C# utworzyć skoroszyt Excel i ograniczyć liczbę znaczących cyfr przy formatowaniu danych przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -69,6 +69,10 @@ Erfahren Sie, wie Sie mit Aspose.Cells ein neues Excel-Arbeitsbuch in C# erstell
 Erfahren Sie, wie Sie mit C# Markdown-Dateien in Excel-Tabellen umwandeln und dabei Aspose.Cells nutzen.
 ### [Exportieren von Excel nach PNG mit Aspose.Cells – Vollständige Schritt‑für‑Schritt‑Anleitung](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
 Erfahren Sie, wie Sie Excel‑Tabellen mit Aspose.Cells nach PNG exportieren und dabei jedes Detail beibehalten – eine vollständige Schritt‑für‑Schritt‑Anleitung.
+### [XLSX in PNG konvertieren – Vollständige C#‑Anleitung](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Erfahren Sie, wie Sie Excel‑XLSX‑Dateien mit Aspose.Cells in PNG‑Bilder umwandeln – Schritt‑für‑Schritt in C#.
+### [Wie man Sonderzeichen in Excel einfügt – Schritt‑für‑Schritt‑Anleitung](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells Sonderzeichen in Excel einfügen und Ihre Tabellen professionell gestalten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

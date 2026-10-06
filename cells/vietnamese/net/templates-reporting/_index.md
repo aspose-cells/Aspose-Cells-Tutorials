@@ -59,6 +59,11 @@ Hướng dẫn chi tiết cách lưu sổ làm việc Excel từ dữ liệu JSO
 Tìm hiểu cách tạo báo cáo Excel bằng C# với Aspose.Cells, bao gồm các bước chi tiết từ khởi tạo đến lưu file.
 ### [Tạo Excel từ mẫu – Hướng dẫn từng bước cho nhà phát triển .NET](./create-excel-from-template-step-by-step-guide-for-net-develo/)
 Hướng dẫn chi tiết cách tạo tệp Excel từ mẫu sử dụng Aspose.Cells cho .NET, phù hợp cho các nhà phát triển.
+### [Cách lưu tệp mẫu Excel – Hướng dẫn từng bước](./how-to-save-excel-template-file-step-by-step-guide/)
+Hướng dẫn chi tiết cách lưu tệp mẫu Excel bằng Aspose.Cells cho .NET, bao gồm các bước thiết lập và lưu trữ.
+
+### [Cách sử dụng Excel cho Mail Merge – Hướng dẫn C# đầy đủ](./how-to-use-excel-for-mail-merge-complete-c-guide/)
+Hướng dẫn chi tiết cách kết hợp Excel với Mail Merge trong C#, bao gồm các bước thiết lập, mẫu và mã mẫu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

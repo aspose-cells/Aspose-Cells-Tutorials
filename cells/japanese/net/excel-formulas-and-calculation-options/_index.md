@@ -89,6 +89,8 @@ Aspose.Cells for .NET を使い、C# で Excel の余接関数を計算する手
 Aspose.Cells を利用して C# で配列を拡張する手順を詳しく解説します。実践的なサンプルで簡単に実装できます。
 ### [C# で Excel の配列を作成する方法 – ステップバイステップ ガイド](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 Aspose.Cells for .NET を使用して、C# で Excel の配列を作成する方法をステップバイステップで解説します。
+### [C# で Excel の余接関数を計算する方法 – 完全ガイド](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+Aspose.Cells for .NET を使用して、C# で Excel の余接関数を計算する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

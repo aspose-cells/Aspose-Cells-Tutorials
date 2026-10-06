@@ -60,6 +60,8 @@ Aspose.Cells Net에 대한 코드 튜토리얼
 템플릿을 활용해 .NET에서 Excel 파일을 생성하는 방법을 단계별로 안내합니다.
 ### [Aspose.Cells를 사용하여 채워진 워크북을 프로그래밍 방식으로 저장하기](./save-populated-workbook-programmatically-with-aspose-cells/)
 Aspose.Cells를 이용해 데이터를 채운 워크북을 프로그래밍 방식으로 저장하는 방법을 단계별로 설명합니다.
+### [Excel 템플릿 파일 저장 방법 – 단계별 가이드](./how-to-save-excel-template-file-step-by-step-guide/)
+Excel 템플릿 파일을 저장하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

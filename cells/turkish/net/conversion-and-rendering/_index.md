@@ -69,6 +69,10 @@ C# ve Aspose.Cells kullanarak Markdown dosyasını Excel çalışma kitabına d�
 C# kullanarak Markdown dosyalarını Excel çalışma sayfalarına dönüştürmeyi adım adım öğrenin.
 ### [Aspose.Cells ile Excel'i PNG'ye Dışa Aktarma – Tam Adım‑Adım Kılavuz](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
 Aspose.Cells kullanarak Excel dosyalarını PNG formatına nasıl dönüştüreceğinizi adım adım öğrenin.
+### [XLSX'i PNG'ye Dönüştürme – Tam C# Kılavuzu](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Aspose.Cells ile XLSX dosyalarını PNG formatına dönüştürmeyi adım adım öğrenin, C# örnekleriyle uygulayın.
+### [Excel'de Özel Karakterleri Eklemek – Adım Adım Kılavuz](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Aspose.Cells ile Excel'e özel karakter eklemeyi adım adım öğrenin, belgelerinizi zenginleştirin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

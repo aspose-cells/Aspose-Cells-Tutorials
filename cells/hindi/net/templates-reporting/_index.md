@@ -63,6 +63,11 @@ Aspose.Cells का उपयोग करके कार्यपुस्त�
 टेम्पलेट का उपयोग करके .NET में एक्सेल फ़ाइल बनाने की प्रक्रिया को चरण‑दर‑चरण समझें।
 ### [टेम्पलेट से एक्सेल बनाएं – डेटा, छवि जोड़ें, XLSX सहेजें](./create-excel-from-template-add-data-image-save-xlsx/)
 टेम्पलेट का उपयोग करके Excel फ़ाइल बनाएं, डेटा और छवि जोड़ें, फिर XLSX फ़ॉर्मेट में सहेजें।
+### [Excel टेम्पलेट फ़ाइल को कैसे सहेजें – चरण‑दर‑चरण गाइड](./how-to-save-excel-template-file-step-by-step-guide/)
+Excel टेम्पलेट फ़ाइल को सुरक्षित रूप से सहेजने के चरणों को सीखें, Aspose.Cells .NET के साथ आसान गाइड।
+
+### [Excel का उपयोग करके मेल मर्ज कैसे करें – पूर्ण C# गाइड](./how-to-use-excel-for-mail-merge-complete-c-guide/)
+C# में Aspose.Cells के साथ Excel का उपयोग करके मेल मर्ज कैसे लागू करें, इस पूर्ण गाइड में सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

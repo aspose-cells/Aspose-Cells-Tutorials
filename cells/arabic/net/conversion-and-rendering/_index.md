@@ -69,6 +69,10 @@
 تعلم كيفية تحويل ملفات markdown إلى جداول Excel باستخدام Aspose.Cells في C# خطوة بخطوة.
 ### [تصدير Excel إلى PNG باستخدام Aspose.Cells – دليل شامل خطوة بخطوة](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
 تعلم كيفية تصدير ملفات Excel إلى صور PNG بسهولة باستخدام Aspose.Cells في .NET من خلال دليل خطوة بخطوة.
+### [كيفية تحويل XLSX إلى PNG – دليل C# كامل](./how-to-convert-xlsx-to-png-complete-c-guide/)
+تعلم خطوة بخطوة كيفية تحويل ملفات XLSX إلى صور PNG باستخدام Aspose.Cells وC# في دليل شامل.
+### [كيفية إدراج الأحرف الخاصة في Excel – دليل خطوة بخطوة](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+تعلم كيفية إدراج الأحرف الخاصة في ملفات Excel باستخدام Aspose.Cells خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

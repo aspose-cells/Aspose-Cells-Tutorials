@@ -88,6 +88,8 @@ Lär dig att skapa en Excel-fil i C# med villkorslogik steg för steg med Aspose
 Lär dig hur du utökar en array i C# med Aspose.Cells genom en tydlig steg‑för‑steg‑guide.
 ### [Hur man skapar en array i Excel med C# – Steg‑för‑steg‑guide](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 Lär dig hur du skapar en array i Excel med C# med vår steg‑för‑steg‑guide för Aspose.Cells för .NET.
+### [Hur man beräknar cotangens i Excel med C# – Komplett guide](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+Lär dig hur du beräknar cotangens i Excel med C# med Aspose.Cells för .NET i denna omfattande guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

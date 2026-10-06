@@ -44,6 +44,8 @@ Kumpulan tutorial ini mencakup semuanya, mulai dari akses dan manipulasi sel das
 ### [Mengatur Lebar Kolom di Excel dengan Aspose.Cells .NET](./excel-column-width-aspose-cells-net)
 ### [Menguasai Ekstraksi Data Excel Menggunakan Aspose.Cells untuk .NET | Panduan C#](./excel-data-extraction-aspose-cells-net-guide)
 ### [Pencarian Data Efisien di Excel Menggunakan Aspose.Cells dan C# untuk Pengembang .NET](./master-data-search-excel-aspose-cells-net-csharp)
+Pelajari cara menerapkan fungsi pencarian data yang efektif di Excel menggunakan Aspose.Cells dengan C#. Tingkatkan aplikasi Anda dengan menguasai manajemen data Excel dengan pendekatan dioptimalkan untuk menemukan konten tertentu dalam lembar kerja yang besar.
+
 ### [Menguasai Properti ContentType di Excel dengan Aspose.Cells untuk .NET](./mastering-contenttype-properties-aspose-cells-net)
 ### [Temukan Jumlah Baris & Kolom Maksimum di Excel menggunakan Aspose.Cells .NET | Panduan Operasi Sel](./max-rows-columns-excel-aspose-cells-dotnet)
 ### [Memodifikasi Sel Excel dengan Aspose.Cells .NET](./modify-excel-cells-aspose-cells-dotnet-guide)
@@ -51,6 +53,7 @@ Kumpulan tutorial ini mencakup semuanya, mulai dari akses dan manipulasi sel das
 ### [Memisahkan Sel yang Digabungkan di Excel menggunakan Aspose.Cells untuk .NET | Panduan Operasi Sel](./unmerge-cells-excel-aspose-net)
 ### [Memperbarui Hari Log Revisi di Excel Bersama dengan Aspose.Cells](./update-revision-logs-days-aspose-cells-net)
 ### [Baca Tulis Excel C# – Panduan Lengkap Membaca dan Menulis Sel Excel](./read-write-excel-c-complete-guide-to-reading-and-writing-exc/)
+### [Cara Menulis Tanggal Excel di C# – Panduan Pemrograman Lengkap](./how-to-write-date-excel-in-c-complete-programming-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

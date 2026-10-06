@@ -69,6 +69,10 @@ Lär dig hur du skapar en ny arbetsbok i C# och importerar Markdown-innehåll ti
 Lär dig hur du omvandlar markdown-filer till Excel med en komplett C#-guide.
 ### [Exportera Excel till PNG med Aspose.Cells – Komplett steg‑för‑steg‑guide](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
 Lär dig hur du exporterar Excel-filer till PNG med Aspose.Cells i .NET med en komplett steg-för-steg-guide.
+### [Hur man konverterar XLSX till PNG – Komplett C#-guide](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Lär dig steg för steg hur du konverterar XLSX-filer till PNG-bilder med C# och Aspose.Cells.
+### [Hur man infogar specialtecken i Excel – Steg‑för‑steg‑guide](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Lär dig hur du enkelt infogar specialtecken i Excel med en tydlig steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

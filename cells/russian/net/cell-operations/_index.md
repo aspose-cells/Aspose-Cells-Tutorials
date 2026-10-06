@@ -104,6 +104,8 @@
 
 ### [Чтение и запись Excel C# – Полное руководство по чтению и записи ячеек Excel](./read-write-excel-c-complete-guide-to-reading-and-writing-exc/)
 Узнайте, как эффективно читать и записывать данные в ячейки Excel с помощью Aspose.Cells для .NET на C#.
+### [Как записать дату в Excel на C# – Полное руководство по программированию](./how-to-write-date-excel-in-c-complete-programming-guide/)
+Узнайте, как программно записывать даты в файлы Excel с помощью C# и Aspose.Cells, включая форматы и локализацию.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

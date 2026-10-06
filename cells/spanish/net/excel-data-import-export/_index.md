@@ -59,6 +59,8 @@ Aprenda a crear un libro de Excel desde C# y convertir contenido Markdown a Exce
 Aprenda a convertir datos JSON a Excel usando Aspose.Cells para .NET en esta guía completa.
 ### [Convertir hoja de cálculo a DataTable en C# – Guía completa de programación](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
 Aprenda a convertir una hoja de cálculo en un DataTable usando Aspose.Cells para .NET en C#. Guía completa paso a paso.
+### [Importar JSON a Excel con Aspose.Cells – Guía completa de programación](./import-json-to-excel-with-aspose-cells-complete-programming/)
+Aprenda a importar datos JSON a Excel usando Aspose.Cells para .NET con esta guía completa paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

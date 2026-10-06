@@ -103,6 +103,7 @@ Excel सेल सामग्री, स्वरूपण और गुणो
 साझा Excel कार्यपुस्तिकाओं में संशोधन इतिहास लॉग को अपडेट करने की प्रक्रिया में महारत हासिल करें। यह ट्यूटोरियल दिखाता है कि सहयोगी वातावरण में बेहतर दस्तावेज़ प्रबंधन के लिए संशोधन ट्रैकिंग सुविधाओं को प्रोग्रामेटिक रूप से कैसे हेरफेर किया जाए।
 
 ### [Read Write Excel C# – Excel सेल पढ़ने और लिखने का पूर्ण गाइड](./read-write-excel-c-complete-guide-to-reading-and-writing-exc/)
+### [C# में Excel में तिथि लिखना – पूर्ण प्रोग्रामिंग गाइड](./how-to-write-date-excel-in-c-complete-programming-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

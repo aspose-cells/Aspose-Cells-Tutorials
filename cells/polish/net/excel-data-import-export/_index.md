@@ -59,6 +59,8 @@ Dowiedz się, jak w kilku krokach utworzyć nowy skoroszyt w C# i przekształci�
 Dowiedz się, jak przekształcić tablicę JSON w plik Excel przy użyciu Aspose.Cells dla .NET w kilku prostych krokach.
 ### [Konwertuj arkusz kalkulacyjny na DataTable w C# – Kompletny przewodnik programistyczny](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
 Dowiedz się, jak przekształcić arkusz Excel w obiekt DataTable w C# przy użyciu Aspose.Cells dla .NET.
+### [Import JSON do Excela przy użyciu Aspose.Cells – Kompletny przewodnik programistyczny](./import-json-to-excel-with-aspose-cells-complete-programming/)
+Dowiedz się, jak zaimportować pliki JSON do Excela przy użyciu Aspose.Cells w pełnym przewodniku programistycznym.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

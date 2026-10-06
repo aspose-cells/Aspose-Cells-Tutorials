@@ -63,6 +63,8 @@ Dowiedz się, jak w C# utworzyć skoroszyt Excel, dodać własną właściwość
 Dowiedz się, jak dodać własną właściwość do pliku Excel przy użyciu C# i Aspose.Cells dla .NET, krok po kroku.
 ### [Jak dodać metadane Excela – Kompletny przewodnik po skoroszycie w C#](./how-to-add-excel-metadata-complete-c-workbook-guide/)
 Dowiedz się, jak dodać metadane do plików Excel przy użyciu Aspose.Cells w C#, krok po kroku.
+### [Tworzenie własnej właściwości Aspose – Kompletny przewodnik Excel](./create-custom-property-aspose-complete-excel-guide/)
+Dowiedz się, jak tworzyć własne właściwości w Excelu przy użyciu Aspose.Cells dla .NET w kompletnym przewodniku krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

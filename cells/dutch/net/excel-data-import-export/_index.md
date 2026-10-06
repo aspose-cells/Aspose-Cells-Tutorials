@@ -59,6 +59,8 @@ Leer hoe u met Aspose.Cells een nieuw werkboek maakt en Markdown-inhoud snel naa
 Leer hoe u JSON-arraygegevens eenvoudig naar Excel converteert met Aspose.Cells voor .NET in deze volledige gids.
 ### [Werkblad converteren naar DataTable in C# – Complete programmeergids](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
 Leer hoe u een werkblad in C# omzet naar een DataTable met Aspose.Cells voor .NET, stap voor stap uitgelegd.
+### [JSON importeren naar Excel met Aspose.Cells – Complete programmeergids](./import-json-to-excel-with-aspose-cells-complete-programming/)
+Leer stap voor stap hoe u JSON-gegevens naar Excel importeert met Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

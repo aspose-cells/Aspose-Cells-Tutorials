@@ -69,6 +69,10 @@
 Узнайте, как преобразовать файлы markdown в Excel с помощью Aspose.Cells и C#, следуя пошаговому руководству.
 ### [Экспорт Excel в PNG с Aspose.Cells – Полное пошаговое руководство](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
 Узнайте, как экспортировать файлы Excel в формат PNG с помощью Aspose.Cells, следуя полному пошаговому руководству.
+### [Как конвертировать XLSX в PNG – Полное руководство C#](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Узнайте, как преобразовать файлы XLSX в PNG с помощью Aspose.Cells в C#, следуя пошаговому руководству.
+### [Как вставить специальные символы в Excel – пошаговое руководство](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Узнайте, как вставлять специальные символы в Excel с помощью Aspose.Cells в .NET, следуя пошаговому руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

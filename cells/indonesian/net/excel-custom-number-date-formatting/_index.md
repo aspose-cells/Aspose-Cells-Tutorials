@@ -80,6 +80,8 @@ Pelajari cara mengatur format tanggal di Excel menggunakan C# dengan panduan lan
 Pelajari cara mengatur format tanggal di Excel menggunakan C# dengan panduan lengkap format impor pada Aspose.Cells untuk .NET.
 ### [Buat Workbook Excel dengan Tanggal Kalender Jepang – Panduan Lengkap](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
 Pelajari cara membuat workbook Excel dengan tanggal kalender Jepang menggunakan Aspose.Cells untuk .NET dalam panduan lengkap ini.
+### [Buat Workbook Excel C# – Batasi Digit Signifikan Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
+Pelajari cara membuat workbook Excel dengan C# dan membatasi jumlah digit signifikan menggunakan Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

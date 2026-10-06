@@ -80,6 +80,8 @@
 Узнайте, как установить формат даты в Excel с помощью Aspose.Cells для .NET в этом полном руководстве по импортному форматированию.
 ### [Создание книги Excel с датами японского календаря – Полное руководство](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
 Узнайте, как создать книгу Excel с датами японского календаря, используя Aspose.Cells для .NET, в этом полном руководстве.
+### [Создание рабочей книги Excel C# – Ограничение значимых цифр в Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
+Узнайте, как создать рабочую книгу Excel в C# и ограничить количество значимых цифр в ячейках с помощью Aspose.Cells для .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -89,6 +89,8 @@ Excel 内置了大量函数，可用于执行各种计算和数据操作。了�
 学习如何使用 Aspose.Cells for .NET 在 C# 中通过 WRAPCOLS 将一维数组转换为矩阵，实现高效数据处理。
 ### [使用 C# 在 Excel 中创建数组 – 步骤指南](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 通过本分步教程，学习如何使用 Aspose.Cells for .NET 在 Excel 中使用 C# 创建数组，实现高效数据处理。
+### [如何在 Excel 中使用 C# 计算余切 – 完整指南](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+使用 Aspose.Cells for .NET，了解在 Excel 中通过 C# 计算余切的完整步骤，实现精准的三角函数运算。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -59,6 +59,8 @@ Lär dig hur du snabbt skapar en ny Excel-arbetsbok i C# och konverterar Markdow
 Lär dig hur du konverterar JSON-arrayer till Excel-filer med Aspose.Cells för .NET i en steg-för-steg-guide.
 ### [Konvertera arbetsblad till DataTable i C# – Komplett programmeringsguide](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
 Lär dig hur du konverterar ett Excel‑arbetsblad till en DataTable i C# med en komplett guide.
+### [Importera JSON till Excel med Aspose.Cells – Komplett programmeringsguide](./import-json-to-excel-with-aspose-cells-complete-programming/)
+Lär dig hur du importerar JSON-data till Excel med Aspose.Cells i en komplett programmeringsguide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

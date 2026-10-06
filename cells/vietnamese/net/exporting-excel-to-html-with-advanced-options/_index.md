@@ -110,6 +110,8 @@ Tìm hiểu cách lưu tệp Excel thành HTML và chuyển đổi chúng một 
 ### [Nhúng phông chữ trong HTML – Xuất sổ làm việc Excel sang HTML bằng Aspose.Cells](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
 ### [Chuyển đổi Excel sang HTML – Hướng dẫn toàn diện sử dụng Aspose.Cells](./convert-excel-to-html-complete-guide-using-aspose-cells/)
 Tìm hiểu cách chuyển đổi tệp Excel sang HTML một cách toàn diện bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
+### [Lưu Excel dưới dạng HTML – Hướng dẫn toàn diện với các mẫu mã](./save-excel-as-html-complete-guide-with-code-samples/)
+Tìm hiểu cách lưu tệp Excel thành HTML bằng Aspose.Cells cho .NET với hướng dẫn chi tiết và các mẫu mã.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

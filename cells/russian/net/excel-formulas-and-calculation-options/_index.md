@@ -87,6 +87,8 @@ Excel поставляется с множеством встроенных фу
 Узнайте, как применять функцию WRAPCOLS в C# с Aspose.Cells для преобразования одномерных массивов в матрицы.
 ### [Как создать массив в Excel с помощью C# – пошаговое руководство](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 Узнайте, как создать массив в Excel с помощью C# в этом пошаговом руководстве.
+### [Как вычислить котангенс в Excel с помощью C# – Полное руководство](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+Узнайте, как вычислять котангенс в Excel с помощью C# и Aspose.Cells для .NET в этом полном руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

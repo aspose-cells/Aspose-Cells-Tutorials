@@ -69,6 +69,10 @@ Naučte se vytvořit nový sešit v C# a importovat obsah Markdown do Excelu pom
 Naučte se převádět soubory markdown do formátu Excel pomocí Aspose.Cells v C# s podrobným krok‑za‑krokem návodem.
 ### [Export Excel do PNG pomocí Aspose.Cells – Kompletní průvodce krok za krokem](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
 Naučte se, jak exportovat soubory Excel do formátu PNG pomocí Aspose.Cells v .NET v tomto podrobném průvodci.
+### [Jak vložit speciální znaky v Excelu – krok‑za‑krokem průvodce](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Naučte se, jak v Excelu vkládat speciální znaky pomocí Aspose.Cells v .NET v podrobném průvodci.
+### [Jak převést XLSX na PNG – Kompletní průvodce v C#](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Naučte se převádět soubory XLSX na PNG pomocí Aspose.Cells v C# s podrobným krok‑za‑krokem návodem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

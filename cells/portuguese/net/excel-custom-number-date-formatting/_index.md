@@ -81,6 +81,8 @@ Aprenda a definir o formato de data em planilhas Excel usando C# com este guia c
 Aprenda a definir formatos de data ao importar dados para o Excel usando C# com o Aspose.Cells para .NET.
 ### [Criar pasta de trabalho do Excel com datas do calendário japonês – Guia completo](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
 Aprenda a criar pastas de trabalho do Excel usando datas do calendário japonês com o Aspose.Cells para .NET neste guia completo.
+### [Criar Pasta de Trabalho Excel C# – Limitar Dígitos Significativos no Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
+Aprenda a criar uma pasta de trabalho Excel em C# limitando o número de dígitos significativos usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

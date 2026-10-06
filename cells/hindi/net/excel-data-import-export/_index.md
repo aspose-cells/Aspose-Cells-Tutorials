@@ -62,6 +62,8 @@ C# का उपयोग करके डेटा बाइंड करें
 .NET के लिए Aspose.Cells का उपयोग करके C# में नया वर्कबुक बनाते हुए मार्कडाउन को शीघ्रता से Excel में बदलना सीखें।
 ### [C# में Worksheet को DataTable में परिवर्तित करें – पूर्ण प्रोग्रामिंग गाइड](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
 C# में Aspose.Cells का उपयोग करके Worksheet को DataTable में बदलने की पूरी मार्गदर्शिका।
+### [Aspose.Cells के साथ JSON को Excel में आयात करें – पूर्ण प्रोग्रामिंग गाइड](./import-json-to-excel-with-aspose-cells-complete-programming/)
+.NET के लिए Aspose.Cells का उपयोग करके JSON डेटा को Excel में आयात करने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

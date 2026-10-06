@@ -71,6 +71,10 @@
 เรียนรู้วิธีแปลงไฟล์ markdown เป็นไฟล์ Excel ด้วย C# อย่างละเอียดและครบถ้วน
 ### [ส่งออก Excel เป็น PNG ด้วย Aspose.Cells – คู่มือขั้นตอนเต็ม](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
 เรียนรู้วิธีส่งออกไฟล์ Excel เป็นรูปภาพ PNG อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET ผ่านขั้นตอนที่เข้าใจง่าย
+### [วิธีแปลง XLSX เป็น PNG – คู่มือ C# ฉบับสมบูรณ์](./how-to-convert-xlsx-to-png-complete-c-guide/)
+เรียนรู้วิธีแปลงไฟล์ XLSX เป็น PNG ด้วย C# อย่างละเอียดโดยใช้ Aspose.Cells
+### [วิธีแทรกอักขระพิเศษใน Excel – คู่มือขั้นตอนโดยละเอียด](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+เรียนรู้วิธีแทรกอักขระพิเศษใน Excel อย่างละเอียดด้วยขั้นตอนที่ชัดเจนโดยใช้ Aspose.Cells
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

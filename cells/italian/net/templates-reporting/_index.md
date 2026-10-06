@@ -59,6 +59,11 @@ Scopri come generare file Excel da un modello predefinito usando Aspose.Cells pe
 Scopri come salvare programmaticamente una cartella di lavoro Excel popolata usando Aspose.Cells per .NET.
 ### [Crea modello di cartella di lavoro con Aspose.Cells – Guida completa](./create-workbook-template-with-aspose-cells-complete-guide/)
 Scopri come creare un modello di cartella di lavoro Excel con Aspose.Cells, includendo data binding, formattazione e generazione automatica di report.
+### [Come salvare un file modello Excel – Guida passo‑passo](./how-to-save-excel-template-file-step-by-step-guide/)
+Scopri come salvare un file modello Excel con Aspose.Cells per .NET, passo dopo passo, includendo impostazioni di formato e opzioni di output.
+
+### [Come utilizzare Excel per la stampa unione – Guida completa C#](./how-to-use-excel-for-mail-merge-complete-c-guide/)
+Scopri come eseguire la stampa unione con Excel usando Aspose.Cells per .NET in C# passo dopo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

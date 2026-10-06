@@ -80,6 +80,8 @@ Hướng dẫn cách thiết lập định dạng ngày cho ô Excel trong C# b�
 Hướng dẫn chi tiết cách thiết lập định dạng ngày trong Excel bằng C# sử dụng Aspose.Cells cho .NET.
 ### [Tạo workbook Excel với ngày lịch Nhật Bản – Hướng dẫn toàn diện](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
 Tìm hiểu cách tạo workbook Excel với ngày theo lịch Nhật Bản bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
+### [Tạo Workbook Excel C# – Giới hạn chữ số có ý nghĩa trong Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
+Tìm hiểu cách tạo workbook Excel trong C# và giới hạn số chữ số có ý nghĩa bằng Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

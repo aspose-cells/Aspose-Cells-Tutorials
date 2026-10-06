@@ -55,6 +55,11 @@ C# kodu kullanarak bir Excel şablonundan çalışma kitabı oluşturmayı ve ve
 C# kullanarak Excel raporu oluşturmayı adım adım öğrenin; veri bağlama, biçimlendirme ve dosya kaydetme süreçleri anlatılır.
 ### [Şablondan Excel Oluşturma – .NET Geliştiricileri için Adım Adım Kılavuz](./create-excel-from-template-step-by-step-guide-for-net-develo/)
 .NET geliştiricileri için şablon kullanarak Excel dosyası oluşturmayı adım adım öğrenin.
+### [Excel Şablon Dosyasını Kaydetme – Adım Adım Kılavuz](./how-to-save-excel-template-file-step-by-step-guide/)
+Excel şablon dosyalarını kaydetme sürecini adım adım öğrenin ve raporlarınızı otomatikleştirin.
+
+### [Excel'i Mail Birleştirme İçin Nasıl Kullanılır – Tam C# Kılavuzu](./how-to-use-excel-for-mail-merge-complete-c-guide/)
+C# ile Excel dosyalarını mail birleştirme için nasıl hazırlayacağınızı ve otomatikleştireceğinizi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

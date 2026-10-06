@@ -80,6 +80,8 @@ Leer hoe u met Aspose.Cells voor .NET het datumformaat in Excel instelt via C# m
 Leer hoe u met Aspose.Cells voor .NET de datumopmaak in Excel instelt tijdens een volledige import.
 ### [Excel-werkmap maken met Japanse kalenderdatums – Volledige gids](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
 Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap maakt met Japanse kalenderdatums in een volledige stap‑voor‑stap gids.
+### [Excel-werkmap maken C# – Beperk significante cijfers in Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
+Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap maakt en het aantal significante cijfers beperkt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

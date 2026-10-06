@@ -104,6 +104,8 @@ Maîtrisez le processus de mise à jour des journaux d'historique des révisions
 
 ### [Lire et écrire Excel C# – Guide complet de lecture et d'écriture des cellules Excel](./read-write-excel-c-complete-guide-to-reading-and-writing-exc/)
 Apprenez à lire et écrire des cellules Excel en C# avec Aspose.Cells, incluant des exemples de code et des meilleures pratiques pour la manipulation des données.
+### [Comment écrire une date Excel en C# – Guide complet de programmation](./how-to-write-date-excel-in-c-complete-programming-guide/)
+Apprenez à écrire des dates dans des cellules Excel en C# avec Aspose.Cells grâce à un guide complet pas à pas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

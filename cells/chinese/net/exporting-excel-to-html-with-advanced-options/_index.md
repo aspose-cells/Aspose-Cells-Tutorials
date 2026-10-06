@@ -116,6 +116,8 @@ HTML 导出过程中，一个经常被忽视的方面是自闭合标签的管理
 
 ### [将 Excel 转换为 HTML – 使用 Aspose.Cells 的完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
 通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [将 Excel 保存为 HTML – 完整指南与代码示例](./save-excel-as-html-complete-guide-with-code-samples/)
+通过本详细的分步指南，了解如何使用 Aspose.Cells for .NET 将 Excel 保存为 HTML，并提供完整代码示例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

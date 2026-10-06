@@ -98,6 +98,8 @@ Dowiedz się, jak programowo zapisać plik Excel jako HTML i konwertować go prz
 
 ### [Konwersja Excela do HTML – Kompletny przewodnik z użyciem Aspose.Cells](./convert-excel-to-html-complete-guide-using-aspose-cells/)
 Dowiedz się, jak konwertować pliki Excel do HTML przy użyciu Aspose.Cells w pełnym przewodniku krok po kroku.
+### [Zapisz Excel jako HTML – Kompletny przewodnik z przykładami kodu](./save-excel-as-html-complete-guide-with-code-samples/)
+Dowiedz się, jak zapisać plik Excel jako HTML, korzystając z pełnego przewodnika i przykładów kodu w Aspose.Cells dla .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

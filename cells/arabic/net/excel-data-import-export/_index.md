@@ -59,6 +59,8 @@
 تعرف على كيفية تحويل بيانات JSON إلى ملفات Excel بسهولة باستخدام Aspose.Cells لـ .NET في هذا الدليل الشامل.
 ### [تحويل ورقة العمل إلى DataTable في C# – دليل برمجة كامل](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
 تعلم كيفية تحويل ورقة عمل Excel إلى كائن DataTable باستخدام Aspose.Cells لـ .NET في دليل برمجة شامل.
+### [استيراد JSON إلى Excel باستخدام Aspose.Cells – دليل برمجة كامل](./import-json-to-excel-with-aspose-cells-complete-programming/)
+تعرف على كيفية استيراد بيانات JSON إلى Excel باستخدام Aspose.Cells لـ .NET في هذا الدليل البرمجي الشامل.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

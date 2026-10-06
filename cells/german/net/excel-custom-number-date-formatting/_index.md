@@ -34,7 +34,6 @@ Dieses Tutorial vermittelt Ihnen die Fähigkeiten, Ihre Datensätze unter Beibeh
 Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET Excel-Zellenwerte mit benutzerdefinierten Zahlenformaten vergleichen.
 
 ### [Geben Sie beim Importieren von Daten in ein Excel-Tabellenblatt Formelfelder an](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
-Erfahren Sie in diesem ausführlichen Tutorial, wie Sie mit Aspose.Cells für .NET Daten mit angegebenen Formelfeldern in Excel-Tabten importieren.
 ### [Datumsformat in Excel mit C# festlegen – Vollständiger Importformatierungsleitfaden](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET das Datumsformat in Excel per C# festlegen und vollständige Importformatierung anwenden.
 
@@ -89,6 +88,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Zeichenketten in Datumswerte um
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Arbeitsbuch erzeugen und Zeichenfolgen in Datumswerte umwandeln.
 ### [Excel-Datumsformat in C# festlegen – Komplett‑Anleitung Schritt für Schritt](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 Erfahren Sie in diesem umfassenden Tutorial, wie Sie mit Aspose.Cells für .NET das Datumsformat in Excel per C# festlegen.
+### [Excel-Arbeitsmappe erstellen C# – Signifikante Stellen begrenzen](./create-excel-workbook-c-limit-significant-digits-excel/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe in C# erstellen und die signifikanten Stellen von Zahlen begrenzen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

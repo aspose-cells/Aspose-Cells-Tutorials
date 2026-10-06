@@ -77,6 +77,8 @@ Aspose.Cells for .NET を使用して、C# で新しいワークブックを作�
 この包括的なチュートリアルでは、Aspose.Cells for .NET と C# を使用して、Excel の日付形式を設定し、インポート時の書式を完全に制御する方法を学びます。
 ### [日本のカレンダー日付で Excel ワークブックを作成する – 完全ガイド](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
 Aspose.Cells for .NET を使用し、日本の和暦カレンダー日付を持つ Excel ワークブックを作成し、書式設定とインポートを完全に制御する方法を学びます。
+### [C#でExcelワークブックを作成 – 有効数字の制限](./create-excel-workbook-c-limit-significant-digits-excel/)
+Aspose.Cells for .NET を使用して、C# で Excel ワークブックを作成し、有効数字の桁数を制限する方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

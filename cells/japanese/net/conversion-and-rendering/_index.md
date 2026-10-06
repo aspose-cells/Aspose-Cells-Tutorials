@@ -69,6 +69,10 @@ C# を使用して新しい Excel ワークブックを作成し、Markdown コ�
 Aspose.Cells を使用して、Markdown ファイルを Excel に変換する方法を C# で詳しく解説します。
 ### [Aspose.Cells で Excel を PNG にエクスポート – 完全ステップバイステップガイド](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
 Aspose.Cells を使用して Excel シートを高品質な PNG 画像に変換する方法を、手順ごとに詳しく解説します。
+### [XLSX を PNG に変換する方法 – 完全 C# ガイド](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Aspose.Cells を使用して、.NET 環境で XLSX ファイルを PNG 画像に変換する手順を詳しく解説します。
+### [Excel に特殊文字を挿入する方法 – ステップバイステップ ガイド](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Aspose.Cells を使用して、Excel に特殊文字を簡単に挿入する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

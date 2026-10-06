@@ -70,6 +70,12 @@ C# में Aspose.Cells का उपयोग करके मार्कड
 ### [Aspose.Cells के साथ Excel को PNG में निर्यात – पूर्ण चरण‑दर‑चरण मार्गदर्शिका](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
 Aspose.Cells का उपयोग करके Excel फ़ाइलों को PNG इमेज में बदलना सीखें, विस्तृत चरणों के साथ।
 
+### [XLSX को PNG में परिवर्तित करना – पूर्ण C# गाइड](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Aspose.Cells के साथ C# में XLSX फ़ाइल को PNG इमेज में आसानी से बदलना सीखें। चरण-दर-चरण मार्गदर्शिका।
+
+### [Excel में विशेष अक्षर कैसे डालें – चरण‑दर‑चरण गाइड](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Aspose.Cells का उपयोग करके Excel में विशेष अक्षर सम्मिलित करने की पूरी प्रक्रिया सीखें। आसान चरण‑दर‑चरण गाइड।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

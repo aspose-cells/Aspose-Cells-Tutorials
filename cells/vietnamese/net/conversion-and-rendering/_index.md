@@ -69,6 +69,10 @@ Hướng dẫn cách tạo một workbook mới trong C# và nhập nội dung M
 Hướng dẫn chi tiết cách chuyển đổi nội dung markdown thành tệp Excel bằng C# và Aspose.Cells.
 ### [Xuất Excel sang PNG với Aspose.Cells – Hướng dẫn chi tiết từng bước](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
 Học cách xuất tệp Excel sang định dạng PNG một cách chi tiết và dễ dàng với Aspose.Cells cho .NET.
+### [Cách chuyển đổi XLSX sang PNG – Hướng dẫn C# đầy đủ](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Tìm hiểu cách chuyển đổi tệp XLSX sang PNG bằng Aspose.Cells trong .NET với hướng dẫn chi tiết từng bước.
+### [Cách chèn ký tự đặc biệt trong Excel – Hướng dẫn từng bước](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Tìm hiểu cách chèn các ký tự đặc biệt vào bảng tính Excel bằng Aspose.Cells trong .NET qua hướng dẫn chi tiết từng bước.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

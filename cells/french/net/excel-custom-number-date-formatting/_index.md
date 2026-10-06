@@ -80,6 +80,8 @@ Apprenez à définir le format de date dans Excel avec C# grâce à un guide com
 Apprenez à appliquer un format de date personnalisé dans Excel en C# grâce à un guide complet de formatage d'importation.
 ### [Créer un classeur Excel avec des dates du calendrier japonais – Guide complet](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
 Apprenez à créer un classeur Excel utilisant le calendrier japonais pour les dates, grâce à un guide complet pas à pas.
+### [Créer un classeur Excel C# – Limiter les chiffres significatifs](./create-excel-workbook-c-limit-significant-digits-excel/)
+Apprenez à créer un classeur Excel en C# et à limiter les chiffres significatifs à l'aide d'Aspose.Cells pour .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

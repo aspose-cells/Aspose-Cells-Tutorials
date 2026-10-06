@@ -55,6 +55,8 @@ C# を使用して Excel テンプレートにデータをバインドし、動�
 C# を使用してテンプレートからワークブックを作成し、データバインドやスタイル設定の手順を詳しく解説します。
 ### [テンプレートから Excel を作成する – .NET 開発者向けステップバイステップガイド](./create-excel-from-template-step-by-step-guide-for-net-develo/)
 テンプレートを使用して Excel ファイルを作成する手順を .NET 開発者向けに詳しく解説します。
+### [Excel テンプレート ファイルの保存方法 – ステップバイステップ ガイド](./how-to-save-excel-template-file-step-by-step-guide/)
+Aspose.Cells for .NET を使用して、Excel テンプレート ファイルを保存する手順を詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

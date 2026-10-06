@@ -87,6 +87,8 @@ Leer hoe u cotangens berekent in Excel met C# via een duidelijke, stap‑voor‑
 Leer hoe u een array in C# kunt uitbreiden met Aspose.Cells in deze stapsgewijze handleiding.
 ### [Hoe een array in Excel maken met C# – Stapsgewijze handleiding](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 Leer hoe je met Aspose.Cells voor .NET een array in Excel kunt maken met C# in deze gedetailleerde stap‑voor‑stap gids.
+### [Hoe cotangens te berekenen in Excel met C# – Complete gids](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+Leer stap voor stap hoe je de cotangens-functie in Excel kunt berekenen met C# en Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

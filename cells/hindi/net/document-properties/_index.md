@@ -63,6 +63,8 @@ C# का उपयोग करके Excel वर्कबुक बनाए�
 C# का उपयोग करके Excel में कस्टम प्रॉपर्टी जोड़ने की चरण-दर-चरण गाइड। Aspose.Cells के साथ आसान तरीका।
 ### [Excel मेटाडेटा कैसे जोड़ें – पूर्ण C# वर्कबुक गाइड](./how-to-add-excel-metadata-complete-c-workbook-guide/)
 C# में Aspose.Cells का उपयोग करके Excel फ़ाइल में मेटाडेटा जोड़ने के चरण-दर-चरण मार्गदर्शन।
+### [Aspose के साथ कस्टम प्रॉपर्टी बनाना – पूर्ण Excel गाइड](./create-custom-property-aspose-complete-excel-guide/)
+Aspose.Cells का उपयोग करके Excel फ़ाइल में कस्टम प्रॉपर्टी बनाने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -80,6 +80,8 @@ Tanuld meg, hogyan állíthatsz be Excel dátumformátumot C#‑ban az Aspose.Ce
 Tanuld meg, hogyan állíthatsz be dátumformátumot Excelben C# segítségével, teljes import formázási útmutatóval.
 ### [Excel munkafüzet létrehozása japán naptári dátumokkal – Teljes útmutató](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
 Tanuld meg, hogyan hozhatsz létre Excel munkafüzetet japán naptári dátumokkal a teljes útmutató segítségével.
+### [Excel munkafüzet létrehozása C# – Jelentős számjegyek korlátozása Excelben](./create-excel-workbook-c-limit-significant-digits-excel/)
+Ismerje meg, hogyan hozhat létre Excel munkafüzetet C#-ban, és korlátozhatja a számok jelentős számjegyeit az Aspose.Cells segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

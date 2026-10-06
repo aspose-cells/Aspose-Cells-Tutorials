@@ -78,6 +78,8 @@ Aspose.Cells for .NET을 사용하여 C#에서 워크북을 생성하고 문자�
 ### [C#로 Excel에서 날짜 형식 설정 – 전체 가져오기 서식 가이드](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
 Aspose.Cells for .NET을 사용하여 C#로 Excel 파일에 날짜 형식을 적용하고 전체 가져오기 서식을 설정하는 방법을 배웁니다.
 ### [일본 달력 날짜가 포함된 Excel 워크북 만들기 – 전체 가이드](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+### [Excel 워크북 만들기 C# – 유효 숫자 자리수 제한](./create-excel-workbook-c-limit-significant-digits-excel/)
+Aspose.Cells for .NET을 사용하여 C#에서 Excel 워크북을 생성하고 유효 숫자 자리수를 제한하는 방법을 배웁니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

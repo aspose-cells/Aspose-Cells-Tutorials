@@ -63,6 +63,8 @@ Découvrez comment créer un classeur Excel en C#, ajouter une propriété perso
 Apprenez à créer et ajouter une propriété personnalisée à un classeur Excel en C# avec Aspose.Cells, grâce à ce guide détaillé.
 ### [Comment ajouter des métadonnées Excel – Guide complet du classeur C#](./how-to-add-excel-metadata-complete-c-workbook-guide/)
 Apprenez à ajouter des métadonnées à vos fichiers Excel avec Aspose.Cells pour .NET grâce à ce guide complet étape par étape.
+### [Créer une propriété personnalisée Aspose – Guide complet Excel](./create-custom-property-aspose-complete-excel-guide/)
+Apprenez à créer une propriété personnalisée dans Excel avec Aspose.Cells pour .NET grâce à notre guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

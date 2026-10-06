@@ -80,6 +80,8 @@ Learn how to set Excel date format in C# with Aspose.Cells for .NET in this comp
 Learn how to set date format in Excel using C# with Aspose.Cells for .NET in this comprehensive guide.
 ### [Create Excel Workbook with Japanese Calendar Dates – Full Guide](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
 Learn how to create Excel workbooks with Japanese calendar dates using Aspose.Cells for .NET in this full guide.
+### [Create Excel Workbook C# – Limit Significant Digits Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
+Learn how to create an Excel workbook in C# and limit significant digits using Aspose.Cells for .NET in this concise tutorial.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

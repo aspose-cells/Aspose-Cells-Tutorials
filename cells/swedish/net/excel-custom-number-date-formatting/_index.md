@@ -80,6 +80,8 @@ Lär dig hur du anger datumformat i Excel med C# i en detaljerad steg‑för‑s
 Lär dig hur du ställer in datumformat i Excel med C# och Aspose.Cells för .NET i den här omfattande importformateringsguiden.
 ### [Skapa Excel-arbetsbok med japanska kalenderdatum – Fullständig guide](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
 Lär dig hur du skapar en Excel-arbetsbok med japanska kalenderdatum med Aspose.Cells för .NET i den här kompletta guiden.
+### [Skapa Excel-arbetsbok C# – Begränsa signifikanta siffror i Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
+Lär dig hur du skapar en Excel-arbetsbok i C# och begränsar antalet signifikanta siffror med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -23,11 +23,11 @@
 
 ## 在 .NET 中將工作表轉換為 SVG
 
-接下來是在 .NET 中將工作表轉換為 SVG 的教學。如果您希望讓您的 Excel 資料在視覺上更具吸引力並且適合網絡，那麼 SVG 就是您的答案！這種向量格式可確保您的圖表和圖形無論螢幕尺寸如何都能保持其品質。使用 Aspose.Cells，一切都變得簡單。本指南可協助您完成整個過程，即使對於不熟悉 SVG 技術的人來說也很容易理解。想要了解如何增強您的網頁簡報嗎？查看完整教程 [這裡](./converting-worksheet-to-svg/).
+接下來是在 .NET 中將工作表轉換為 SVG 的教學。如果您希望讓您的 Excel 資料在視覺上更具吸引力並且適合網絡，那麼 SVG 就是您的答案！這種向量格式可確保您的圖表和圖形無論螢幕尺寸如何都能保持其品質。使用 Aspose.Cells，一切都變得簡單。本指南可協助您完成整個過程，即使對於不熟悉 SVG 技術的人來說也很容易理解。想要了解如何增強您的網頁簡報嗎？查看完整教程 [這裡](./converting-worksheet-to-svg/)。
 
 ## 在 .NET 中將 Excel 轉換為 MHTML
 
-最後，我們不能忘記在 .NET 指南中將 Excel 轉換為 MHTML。 MHTML 非常適合捕捉電子表格的本質及其格式，讓您可以分享完整的報告。本教學將幫助您提升報告能力，使協作變得無縫且有效。對於任何認真對待資料共享的人來說，這都是必讀之物！深入了解這份實用指南 [這裡](./converting-excel-to-mhtml/).
+最後，我們不能忘記在 .NET 指南中將 Excel 轉換為 MHTML。 MHTML 非常適合捕捉電子表格的本質及其格式，讓您可以分享完整的報告。本教學將幫助您提升報告能力，使協作變得無縫且有效。對於任何認真對待資料共享的人來說，這都是必讀之物！深入了解這份實用指南 [這裡](./converting-excel-to-mhtml/)。
 
 ## 轉換和渲染教程
 ### [.NET 中的進階 PDF 轉換](./advanced-conversion-to-pdf/)
@@ -70,6 +70,10 @@
 學習如何在 C# 使用 Aspose.Cells 建立新工作簿，並將 Markdown 內容匯入 Excel 表格。
 ### [將 Markdown 轉換為 Excel – 完整 C# 指南](./convert-markdown-to-excel-complete-c-guide/)
 學習如何使用 C# 將 Markdown 檔案轉換為 Excel 工作表的完整指南。
+### [如何將 XLSX 轉換為 PNG – 完整 C# 指南](./how-to-convert-xlsx-to-png-complete-c-guide/)
+學習使用 Aspose.Cells for .NET 將 XLSX 檔案轉換為 PNG 圖像，提供完整的 C# 操作步驟。
+### [如何在 Excel 中插入特殊字元 – 步驟說明指南](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+學習使用 Aspose.Cells for .NET 在 Excel 中插入特殊字元的完整步驟，提升資料呈現與輸入效率。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

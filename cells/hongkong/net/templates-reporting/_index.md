@@ -59,6 +59,11 @@ Aspose.Cells Net 代碼教程
 了解如何使用 Aspose.Cells 以程式方式保存已填充資料的 Excel 工作簿，確保正確的檔案格式與效能。
 ### [使用 Aspose.Cells 建立工作簿範本 – 完整指南](./create-workbook-template-with-aspose-cells-complete-guide/)
 了解如何使用 Aspose.Cells 建立工作簿範本，從設計到資料綁定，完整步驟教學。
+### [如何保存 Excel 範本檔案 – 步驟指南](./how-to-save-excel-template-file-step-by-step-guide/)
+了解如何使用 Aspose.Cells for .NET 將 Excel 範本檔案保存至指定位置，確保模板正確保存。
+
+### [如何使用 Excel 進行郵件合併 – 完整 C# 指南](./how-to-use-excel-for-mail-merge-complete-c-guide/)
+本指南說明如何在 C# 中使用 Aspose.Cells for .NET 透過 Excel 完成郵件合併，包括模板建立、資料綁定與輸出。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

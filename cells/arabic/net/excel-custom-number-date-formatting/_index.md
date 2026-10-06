@@ -80,6 +80,8 @@
 تعلم كيفية تعيين تنسيق التاريخ في ملفات Excel باستخدام C# مع دليل شامل لتنسيق الاستيراد الكامل.
 ### [إنشاء دفتر عمل Excel بتواريخ التقويم الياباني – دليل كامل](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
 تعلم كيفية إنشاء ملف Excel يستخدم تواريخ التقويم الياباني باستخدام Aspose.Cells لـ .NET في دليل شامل خطوة بخطوة.
+### [إنشاء مصنف Excel C# – تحديد عدد الأرقام المهمة في Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
+تعرف على كيفية إنشاء مصنف Excel باستخدام C# وتحديد عدد الأرقام المهمة باستخدام Aspose.Cells لـ .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

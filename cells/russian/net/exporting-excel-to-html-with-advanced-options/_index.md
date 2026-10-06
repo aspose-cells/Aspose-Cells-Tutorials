@@ -129,6 +129,8 @@
 
 ### [Конвертировать Excel в HTML – Полное руководство с использованием Aspose.Cells](./convert-excel-to-html-complete-guide-using-aspose-cells/)
 Подробное пошаговое руководство по конвертации файлов Excel в HTML с помощью Aspose.Cells для .NET.
+### [Сохранить Excel как HTML – Полное руководство с примерами кода](./save-excel-as-html-complete-guide-with-code-samples/)
+Узнайте, как сохранить Excel в HTML с полным руководством и примерами кода, используя Aspose.Cells для .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

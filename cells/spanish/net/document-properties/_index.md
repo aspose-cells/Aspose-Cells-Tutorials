@@ -63,6 +63,8 @@ Aprenda a crear un libro de Excel en C#, añadir una propiedad personalizada y g
 Aprenda a agregar una propiedad personalizada en Excel usando Aspose.Cells para .NET con esta guía paso a paso.
 ### [Cómo agregar metadatos de Excel – Guía completa de libro de trabajo en C#](./how-to-add-excel-metadata-complete-c-workbook-guide/)
 Aprenda a agregar metadatos a archivos de Excel con Aspose.Cells para .NET mediante una guía completa paso a paso en C#.
+### [Crear propiedad personalizada Aspose – Guía completa de Excel](./create-custom-property-aspose-complete-excel-guide/)
+Aprenda a crear una propiedad personalizada en Excel usando Aspose.Cells para .NET con esta guía completa paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

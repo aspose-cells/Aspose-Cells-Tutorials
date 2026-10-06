@@ -85,6 +85,9 @@ Aspose.Cells for .NET을 사용하여 Excel을 HTML로 내보낼 때 글꼴을 �
 ### [Excel에서 프로그래밍 방식으로 자체 닫힘 태그 인식](./recognizing-self-closing-tags/)
 
 ### [Excel에서 프로그래밍 방식으로 확장 가능한 열 너비 설정](./setting-scalable-column-width/)
+### [Excel을 HTML로 저장 – 코드 샘플이 포함된 완전 가이드](./save-excel-as-html-complete-guide-with-code-samples/)
+Aspose.Cells for .NET을 사용하여 Excel 파일을 HTML로 저장하는 전체 과정과 코드 예제를 단계별로 안내합니다.
+
 
 ### [HTML 내보내기에서 단일 시트 탭 이름 설정](./setting-single-sheet-tab-name/)
 ### [C#에서 HTML 저장 옵션 만들기 – 전체 가이드](./create-html-save-options-in-c-full-guide/)

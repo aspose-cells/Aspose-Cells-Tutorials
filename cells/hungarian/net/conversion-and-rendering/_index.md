@@ -69,6 +69,10 @@ Tanuld meg, hogyan hozhatsz létre új Excel munkafüzetet C#-ban, és importál
 Tanuld meg, hogyan alakíthatod át a Markdown fájlokat Excel táblázatokká C# segítségével az Aspose.Cells használatával.
 ### [Excel exportálása PNG-be az Aspose.Cells segítségével – Teljes lépésről‑lépésre útmutató](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
 Tanuld meg, hogyan exportálhatsz Excel-fájlokat PNG képekké az Aspose.Cells használatával .NET környezetben, részletes lépésekkel.
+### [Hogyan konvertáljunk XLSX-et PNG-re – Teljes C# útmutató](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Tanulja meg, hogyan konvertálhatja az XLSX fájlokat PNG képekké C#-ban az Aspose.Cells segítségével, lépésről lépésre útmutatóval.
+### [Hogyan illesszünk speciális karaktereket az Excelbe – Lépésről‑lépésre útmutató](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Tanulja meg, hogyan illeszthet speciális karaktereket Excelbe lépésről‑lépésre az Aspose.Cells segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

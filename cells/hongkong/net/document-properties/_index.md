@@ -63,6 +63,8 @@ Excel 中的文件屬性就像是關於文件的元資料一樣。想像一下�
 本教學說明如何使用 C# 在 Excel 中新增自訂屬性，提供完整的步驟說明。
 ### [如何新增 Excel 中繼資料 – 完整 C# 工作簿指南](./how-to-add-excel-metadata-complete-c-workbook-guide/)
 本完整指南說明如何在 C# 中使用 Aspose.Cells 為 Excel 工作簿新增中繼資料。
+### [在 Aspose 中建立自訂屬性 – 完整 Excel 指南](./create-custom-property-aspose-complete-excel-guide/)
+本完整指南說明如何在 Excel 中使用 Aspose 建立自訂屬性，提升文件管理與搜尋功能。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

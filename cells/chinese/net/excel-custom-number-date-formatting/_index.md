@@ -84,6 +84,8 @@
 通过本完整指南学习如何使用 Aspose.Cells for .NET 在 C# 中设置 Excel 日期格式并进行导入。
 ### [使用日本日历日期创建 Excel 工作簿 – 完整指南](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
 通过本完整指南学习如何使用 Aspose.Cells for .NET 在 Excel 中创建并处理日本日历日期。
+### [创建 Excel 工作簿 C# – 限制有效数字 Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
+在本教程中学习如何使用 Aspose.Cells for .NET 在 C# 中创建 Excel 工作簿并限制有效数字。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

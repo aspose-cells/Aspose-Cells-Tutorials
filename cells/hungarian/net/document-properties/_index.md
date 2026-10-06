@@ -63,6 +63,8 @@ Ismerje meg, hogyan hozhat létre Excel munkafüzetet C#-ban, adhat hozzá egyé
 Ismerje meg, hogyan adhat hozzá egyéni tulajdonságokat egy Excel-fájlhoz C#‑ban az Aspose.Cells for .NET segítségével.
 ### [Excel metaadatok hozzáadása – Teljes C# munkafüzet útmutató](./how-to-add-excel-metadata-complete-c-workbook-guide/)
 Ismerje meg, hogyan adhat hozzá Excel metaadatokat egy C# munkafüzetben lépésről lépésre útmutatónk segítségével.
+### [Egyéni tulajdonság létrehozása Aspose – Teljes Excel útmutató](./create-custom-property-aspose-complete-excel-guide/)
+Tanulja meg, hogyan hozhat létre egyéni tulajdonságokat az Excelben az Aspose.Cells for .NET segítségével, lépésről lépésre útmutató.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

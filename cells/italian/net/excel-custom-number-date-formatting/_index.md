@@ -80,6 +80,8 @@ Scopri come impostare il formato data in Excel usando C# con Aspose.Cells per .N
 Scopri come impostare il formato data in Excel usando C# con Aspose.Cells, includendo tutti i passaggi per la formattazione durante l'importazione.
 ### [Crea cartella di lavoro Excel con date del calendario giapponese – Guida completa](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
 Scopri come creare una cartella di lavoro Excel con date del calendario giapponese usando Aspose.Cells per .NET, passo dopo passo.
+### [Crea cartella di lavoro Excel C# – Limita le cifre significative in Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
+Scopri come creare una cartella di lavoro Excel in C# e limitare le cifre significative dei valori numerici usando Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

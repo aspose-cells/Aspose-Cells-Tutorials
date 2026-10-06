@@ -134,6 +134,8 @@ Kompletní návod, jak programově exportovat soubory Excel do HTML pomocí Aspo
 ### [Převod Excelu do HTML – Kompletní průvodce pomocí Aspose.Cells](./convert-excel-to-html-complete-guide-using-aspose-cells/)
 Naučte se, jak kompletně převést soubory Excel do HTML pomocí Aspose.Cells pro .NET v tomto podrobném návodu.
 ### [Vložení fontů do HTML – Export sešitu Excel do HTML pomocí Aspose.Cells](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
+### [Uložení Excelu jako HTML – Kompletní průvodce s ukázkami kódu](./save-excel-as-html-complete-guide-with-code-samples/)
+Kompletní návod, jak programově uložit soubor Excel jako HTML s podrobnými ukázkami kódu v Aspose.Cells pro .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

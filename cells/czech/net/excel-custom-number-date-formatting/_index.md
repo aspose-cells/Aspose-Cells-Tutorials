@@ -80,6 +80,8 @@ V tomto podrobném tutoriálu se naučíte, jak nastavit formát data v Excelu p
 Kompletní průvodce nastavením formátu data v Excelu pomocí C# při importu dat s Aspose.Cells pro .NET.
 ### [Vytvořte Excel sešit s japonskými kalendářními daty – Kompletní průvodce](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
 Kompletní návod, jak pomocí Aspose.Cells vytvořit sešit Excel s daty japonského kalendáře v C#.
+### [Vytvoření Excel sešitu v C# – Omezení významných číslic v Excelu](./create-excel-workbook-c-limit-significant-digits-excel/)
+Naučte se, jak pomocí Aspose.Cells vytvořit Excel sešit v C# a nastavit omezení počtu významných číslic.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

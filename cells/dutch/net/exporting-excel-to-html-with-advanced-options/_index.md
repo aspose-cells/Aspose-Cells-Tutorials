@@ -102,6 +102,8 @@ Leer hoe u Excel als HTML opslaat met Aspose.Cells voor .NET in deze uitgebreide
 Leer hoe u lettertypen insluit bij het exporteren van een Excel-werkmap naar HTML met Aspose.Cells voor .NET in deze stapsgewijze handleiding.
 ### [Excel converteren naar HTML – Complete gids met Aspose.Cells](./convert-excel-to-html-complete-guide-using-aspose-cells/)
 Leer hoe u Excel naar HTML converteert met een volledige gids en Aspose.Cells voor .NET in deze stapsgewijze handleiding.
+### [Excel opslaan als HTML – Complete gids met codevoorbeelden](./save-excel-as-html-complete-guide-with-code-samples/)
+Leer hoe u Excel-bestanden opslaat als HTML met volledige codevoorbeelden in Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

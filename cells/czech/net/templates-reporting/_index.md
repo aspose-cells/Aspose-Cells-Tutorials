@@ -66,6 +66,11 @@ Naučte se, jak pomocí Aspose.Cells vytvořit sešit ze šablony, vložit data 
 Naučte se, jak programově uložit naplněný sešit v Excelu pomocí Aspose.Cells.
 ### [Vytvořte šablonu sešitu s Aspose.Cells – Kompletní průvodce](./create-workbook-template-with-aspose-cells-complete-guide/)
 Kompletní průvodce vytvořením šablony sešitu v Aspose.Cells, včetně nastavení šablon, vazby dat a generování výstupů.
+### [Jak uložit soubor šablony Excel – krok za krokem průvodce](./how-to-save-excel-template-file-step-by-step-guide/)
+Naučte se, jak uložit šablonu Excelu pomocí Aspose.Cells pro .NET v několika jednoduchých krocích.
+
+### [Jak použít Excel pro hromadnou korespondenci – kompletní průvodce v C#](./how-to-use-excel-for-mail-merge-complete-c-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET a C# provádět hromadnou korespondenci v Excelu, včetně nastavení šablon a exportu dokumentů.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

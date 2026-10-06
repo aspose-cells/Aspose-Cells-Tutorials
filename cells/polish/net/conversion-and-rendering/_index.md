@@ -69,6 +69,10 @@ Dowiedz się, jak w C# utworzyć nowy skoroszyt i zaimportować zawartość Mark
 Dowiedz się, jak w C# przekształcić pliki markdown w arkusze Excel przy użyciu Aspose.Cells.
 ### [Eksportowanie Excela do PNG przy użyciu Aspose.Cells – Kompletny przewodnik krok po kroku](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
 Dowiedz się, jak wyeksportować arkusz Excela do obrazu PNG przy użyciu Aspose.Cells w .NET, krok po kroku.
+### [Jak przekonwertować XLSX na PNG – Kompletny przewodnik C#](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Dowiedz się, jak w prosty sposób konwertować pliki XLSX do PNG w C# przy użyciu Aspose.Cells, krok po kroku.
+### [Jak wstawić znaki specjalne w Excelu – przewodnik krok po kroku](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Poznaj, jak wstawić różne znaki specjalne w Excelu przy użyciu Aspose.Cells w .NET, krok po kroku, aby wzbogacić swoje arkusze.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

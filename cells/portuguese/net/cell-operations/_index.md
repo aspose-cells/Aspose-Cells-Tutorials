@@ -102,6 +102,8 @@ Aprenda a desfazer a mesclagem de células mescladas no Excel com o Aspose.Cells
 ### [Atualizar dias de log de revisão no Excel compartilhado com Aspose.Cells](./update-revision-logs-days-aspose-cells-net)
 Domine o processo de atualização de registros do histórico de revisões em pastas de trabalho compartilhadas do Excel. Este tutorial mostra como manipular os recursos de rastreamento de revisões programaticamente para melhorar o gerenciamento de documentos em ambientes colaborativos.
 
+### [Como escrever datas no Excel em C# – Guia completo de programação](./how-to-write-date-excel-in-c-complete-programming-guide/)
+Aprenda a inserir e formatar datas em planilhas Excel usando C# e Aspose.Cells, com exemplos de código completos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -67,6 +67,10 @@ C#과 Aspose.Cells를 활용해 마크다운 파일을 Excel 워크북으로 변
 Aspose.Cells를 사용하여 C#에서 Markdown을 Excel 파일로 변환하는 전체 가이드를 확인하세요.
 ### [Aspose.Cells를 사용하여 Excel을 PNG로 내보내기 – 완전 단계별 가이드](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
 Aspose.Cells for .NET을 활용해 Excel 워크시트를 PNG 이미지로 변환하는 방법을 단계별로 안내합니다.
+### [XLSX를 PNG로 변환하는 방법 – 완전한 C# 가이드](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Aspose.Cells for .NET을 사용하여 XLSX 파일을 PNG 이미지로 변환하는 단계별 C# 가이드입니다.
+### [Excel에서 특수 문자를 삽입하는 방법 – 단계별 가이드](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Aspose.Cells for .NET을 사용하여 Excel에 특수 문자를 삽입하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

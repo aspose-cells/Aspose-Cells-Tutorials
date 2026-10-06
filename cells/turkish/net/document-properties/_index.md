@@ -63,6 +63,8 @@ Aspose.Cells for .NET kullanarak C# ile bir Excel çalışma kitabı oluşturun,
 Aspose.Cells for .NET kullanarak C# ile Excel dosyalarına özel özellik eklemeyi adım adım öğrenin.
 ### [Excel Metaverisini Nasıl Ekleyebilirsiniz – Tam C# Çalışma Kitabı Kılavuzu](./how-to-add-excel-metadata-complete-c-workbook-guide/)
 Aspose.Cells for .NET kullanarak Excel dosyalarına metaveri eklemeyi adım adım öğrenin.
+### [Aspose ile Özel Özellik Oluşturma – Tam Excel Rehberi](./create-custom-property-aspose-complete-excel-guide/)
+Aspose.Cells for .NET ile Excel dosyalarınıza özel özellik eklemeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

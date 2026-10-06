@@ -63,6 +63,8 @@ Aprenda a criar uma pasta de trabalho Excel em C#, adicionar uma propriedade per
 Aprenda a adicionar uma propriedade personalizada em planilhas Excel usando C# com Aspose.Cells, seguindo um guia passo a passo.
 ### [Como adicionar metadados ao Excel – Guia completo de workbook em C#](./how-to-add-excel-metadata-complete-c-workbook-guide/)
 Aprenda a inserir metadados em arquivos Excel usando C# com Aspose.Cells, passo a passo para personalizar suas planilhas.
+### [Criar Propriedade Personalizada Aspose – Guia Completo do Excel](./create-custom-property-aspose-complete-excel-guide/)
+Aprenda a criar propriedades personalizadas em arquivos Excel usando Aspose.Cells para .NET com este guia completo passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

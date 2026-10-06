@@ -87,6 +87,8 @@ Excel 隨附大量內建函數，可執行各種計算和資料操作。了解�
 透過本逐步指南了解如何使用 Aspose.Cells for .NET 在 C# 中使用 WRAPCOLS 重新塑形陣列為矩陣。
 ### [如何使用 C# 在 Excel 中建立陣列 – 步驟指南](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 透過本逐步教學，學習如何使用 Aspose.Cells for .NET 及 C# 在 Excel 中建立與操作陣列。
+### [如何在 Excel 中使用 C# 計算餘切 – 完整指南](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+本完整指南說明如何使用 Aspose.Cells for .NET 及 C# 在 Excel 中計算餘切函數，步驟清晰易懂。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

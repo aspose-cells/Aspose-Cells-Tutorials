@@ -67,7 +67,7 @@ Zjistěte, jak používat Aspose.Cells pro .NET k programovému provádění vý
 ### [Přerušení nebo zrušení výpočtu vzorce v sešitu](./interrupt-or-cancel-formula-calculation-of-workbook/)
 Naučte se v tomto podrobném návodu krok za krokem, jak přerušit výpočty vzorců v Excelu pomocí Aspose.Cells pro .NET.
 ### [Zpracování dat pomocí doplňkových funkcí v Excelu](./processing-data-using-add-in-function/)
-Odemkněte potenciál Excelu s Aspose.Cells pro .NET. Naučte se krok za krokem, jak zpracovávat data pomocí výkonných doplňkových funkcí.
+Odemkněte potenciál Excelu s Aspose.Cells pro .NET. Naučte se krok za krokem, jak zpracovávat data pomocí doplňkových funkcí.
 ### [Zpracování dat pomocí funkce Array v Excelu](./processing-data-using-array-function/)
 Odemkněte sílu Excelu s Aspose.Cells pro .NET. Naučte se zpracovávat data pomocí maticových funkcí v tomto podrobném tutoriálu.
 ### [Zpracování dat pomocí vestavěných funkcí v Excelu](./processing-data-using-built-in-functions/)
@@ -90,6 +90,8 @@ Naučte se, jak v C# pomocí Aspose.Cells přepočítat všechny vzorce v sešit
 Naučte se, jak pomocí Aspose.Cells rozšířit pole v C# a efektivně pracovat s dynamickými daty v Excelu.
 ### [Jak použít WRAPCOLS v C# – Přetvořit pole na matice](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
 Naučte se, jak v C# pomocí WRAPCOLS převést pole na matici v Aspose.Cells pro .NET.
+### [Jak vypočítat kotangens v Excelu pomocí C# – Kompletní průvodce](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET a C# vypočítat funkci kotangens v Excelu v podrobném průvodci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

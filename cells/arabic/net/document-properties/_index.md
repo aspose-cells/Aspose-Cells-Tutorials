@@ -62,6 +62,8 @@
 تعلم كيفية إنشاء خاصية مخصصة في ملفات Excel باستخدام C# خطوة بخطوة مع Aspose.Cells.
 ### [كيفية إضافة بيانات تعريف Excel – دليل كامل لدفتر عمل C#](./how-to-add-excel-metadata-complete-c-workbook-guide/)
 تعلم كيفية إضافة بيانات تعريف إلى ملفات Excel باستخدام C# خطوة بخطوة مع دليل شامل يغطي جميع الجوانب.
+### [إنشاء خاصية مخصصة Aspose – دليل Excel كامل](./create-custom-property-aspose-complete-excel-guide/)
+تعلم كيفية إنشاء خصائص مخصصة في ملفات Excel باستخدام Aspose.Cells للـ .NET خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

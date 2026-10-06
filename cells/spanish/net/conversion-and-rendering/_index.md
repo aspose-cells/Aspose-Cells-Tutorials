@@ -71,6 +71,10 @@ Aprenda a crear un nuevo libro de trabajo en C# e importar contenido Markdown a 
 Aprenda a convertir archivos markdown a Excel usando Aspose.Cells con C# paso a paso.
 ### [Exportar Excel a PNG con Aspose.Cells – Guía completa paso a paso](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
 Aprenda a exportar hojas de cálculo de Excel a imágenes PNG con Aspose.Cells en .NET mediante una guía detallada paso a paso.
+### [Cómo convertir XLSX a PNG – Guía completa en C#](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Aprenda a convertir archivos XLSX a imágenes PNG usando Aspose.Cells en C#, paso a paso y con ejemplos claros.
+### [Cómo insertar caracteres especiales en Excel – Guía paso a paso](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Aprenda a insertar caracteres especiales en Excel con Aspose.Cells paso a paso, mejorando la presentación de sus datos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

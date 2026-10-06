@@ -87,6 +87,8 @@ Pelajari cara membuat file Excel menggunakan C# dengan logika kondisional dalam 
 Pelajari cara menggunakan fungsi WRAPCOLS di C# dengan Aspose.Cells untuk mengubah array menjadi matriks secara efisien.
 ### [Cara Membuat Array di Excel dengan C# – Panduan Langkah‑per‑Langkah](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 Pelajari cara membuat array di Excel menggunakan C# dengan Aspose.Cells melalui panduan langkah demi langkah yang mudah diikuti.
+### [Cara Menghitung Kotangen di Excel dengan C# – Panduan Lengkap](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+Pelajari cara menghitung fungsi kotangen di Excel menggunakan C# dengan Aspose.Cells dalam panduan lengkap ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

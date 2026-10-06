@@ -121,6 +121,8 @@ Aspose.Cells for .NET を使用して、Excel ファイルを HTML にエクス�
 
 ### [Excel を HTML に変換 – Aspose.Cells を使用した完全ガイド](./convert-excel-to-html-complete-guide-using-aspose-cells/)
 この包括的なステップバイステップガイドでは、Aspose.Cells for .NET を使用して Excel を HTML に変換する方法を詳しく解説します。
+### [Excel を HTML に保存する – コードサンプル付き完全ガイド](./save-excel-as-html-complete-guide-with-code-samples/)
+この包括的なステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して、コードサンプルと共に Excel を HTML に保存する方法を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -119,6 +119,8 @@ Pelajari cara menyimpan file Excel sebagai HTML dengan panduan lengkap, termasuk
 Pelajari cara menyematkan font dalam output HTML saat mengekspor buku kerja Excel menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah ini.
 ### [Mengonversi Excel ke HTML – Panduan Lengkap Menggunakan Aspose.Cells](./convert-excel-to-html-complete-guide-using-aspose-cells/)
 Pelajari cara mengonversi file Excel ke HTML secara lengkap dengan Aspose.Cells untuk .NET dalam panduan langkah demi langkah ini.
+### [Simpan Excel sebagai HTML – Panduan Lengkap dengan Contoh Kode](./save-excel-as-html-complete-guide-with-code-samples/)
+Pelajari cara menyimpan file Excel sebagai HTML dengan panduan lengkap dan contoh kode menggunakan Aspose.Cells untuk .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -59,6 +59,8 @@ Apprenez à créer un classeur Excel à partir de Markdown en C# rapidement avec
 Apprenez à transformer des données JSON en fichiers Excel avec Aspose.Cells pour .NET grâce à ce guide complet.
 ### [Convertir une feuille de calcul en DataTable en C# – Guide de programmation complet](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
 Apprenez à convertir une feuille de calcul Excel en DataTable avec C# en utilisant Aspose.Cells pour .NET. Guide complet pas à pas.
+### [Importer JSON vers Excel avec Aspose.Cells – Guide complet de programmation](./import-json-to-excel-with-aspose-cells-complete-programming/)
+Apprenez à convertir des fichiers JSON en feuilles Excel en utilisant Aspose.Cells pour .NET, étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

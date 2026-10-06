@@ -61,6 +61,8 @@ Aspose.Cells for .NET을 사용해 C#에서 새 워크북을 만들고 마크다
 Aspose.Cells for .NET을 활용해 JSON 배열 데이터를 Excel 파일로 변환하는 전체 가이드를 확인하세요.
 ### [C#에서 워크시트를 DataTable로 변환하는 완전 프로그래밍 가이드](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
 Aspose.Cells for .NET을 활용해 워크시트를 DataTable로 변환하는 완전 가이드를 확인하세요.
+### [Aspose.Cells를 사용하여 JSON을 Excel로 가져오기 – 완전 프로그래밍 가이드](./import-json-to-excel-with-aspose-cells-complete-programming/)
+Aspose.Cells for .NET을 활용해 JSON 데이터를 Excel 파일로 변환하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

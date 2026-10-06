@@ -117,6 +117,8 @@ Aprenda a guardar archivos de Excel como HTML y convertirlos usando Aspose.Cells
 Aprenda a incrustar fuentes en el HTML al exportar libros de Excel usando Aspose.Cells para .NET en esta guía paso a paso.
 ### [Convertir Excel a HTML – Guía completa usando Aspose.Cells](./convert-excel-to-html-complete-guide-using-aspose-cells/)
 Aprenda a convertir archivos de Excel a HTML paso a paso con Aspose.Cells en esta guía completa.
+### [Guardar Excel como HTML – Guía completa con ejemplos de código](./save-excel-as-html-complete-guide-with-code-samples/)
+Aprenda a guardar archivos de Excel como HTML con una guía completa y ejemplos de código usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

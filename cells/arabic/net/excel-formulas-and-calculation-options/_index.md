@@ -86,6 +86,8 @@
 تعلم كيفية استخدام الدالة WRAPCOLS في C# لإعادة تشكيل المصفوفات إلى مصفوفات ثنائية الأبعاد بسهولة باستخدام Aspose.Cells.
 ### [كيفية إنشاء مصفوفة في Excel باستخدام C# – دليل خطوة بخطوة](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 تعلم كيفية إنشاء واستخدام مصفوفات في Excel باستخدام C# خطوة بخطوة مع Aspose.Cells لـ .NET.
+### [كيفية حساب القاطع المثلثي في Excel باستخدام C# – دليل كامل](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+تعلم خطوة بخطوة كيفية حساب الدالة القاطعة في Excel باستخدام لغة C# مع Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

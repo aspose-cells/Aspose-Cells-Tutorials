@@ -69,6 +69,10 @@ Pelajari cara membuat workbook baru di C# dan mengimpor konten Markdown ke Excel
 Pelajari cara mengonversi file markdown menjadi spreadsheet Excel menggunakan Aspose.Cells dengan contoh kode lengkap C#.
 ### [Ekspor Excel ke PNG dengan Aspose.Cells – Panduan Lengkap Langkah-demi-Langkah](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
 Pelajari cara mengekspor file Excel ke format PNG dengan Aspose.Cells dalam .NET melalui panduan langkah demi langkah yang mudah diikuti.
+### [Cara Mengonversi XLSX ke PNG – Panduan Lengkap C#](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Pelajari cara mengonversi file XLSX menjadi gambar PNG menggunakan Aspose.Cells dengan C# dalam panduan lengkap ini.
+### [Cara Menyisipkan Karakter Khusus di Excel – Panduan Langkah‑per‑Langkah](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Pelajari cara menyisipkan karakter khusus di Excel dengan panduan langkah demi langkah menggunakan Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

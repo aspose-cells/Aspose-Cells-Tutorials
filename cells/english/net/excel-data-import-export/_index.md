@@ -61,6 +61,8 @@ Learn how to quickly create a new workbook in C# and convert Markdown files to E
 Learn how to convert JSON arrays to Excel files using Aspose.Cells for .NET in this comprehensive guide.
 ### [Convert Worksheet to DataTable in C# – Complete Programming Guide](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
 Learn how to convert an Excel worksheet to a DataTable using Aspose.Cells for .NET in this comprehensive guide.
+### [Import JSON to Excel with Aspose.Cells – Complete Programming Guide](./import-json-to-excel-with-aspose-cells-complete-programming/)
+Learn how to import JSON data into Excel using Aspose.Cells for .NET in a comprehensive programming guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

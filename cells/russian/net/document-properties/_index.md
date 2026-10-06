@@ -63,6 +63,8 @@
 Узнайте, как добавить пользовательское свойство в файл Excel с помощью C# и Aspose.Cells, следуя подробному пошаговому руководству.
 ### [Как добавить метаданные Excel – Полное руководство по рабочей книге C#](./how-to-add-excel-metadata-complete-c-workbook-guide/)
 Подробное руководство по добавлению метаданных в файлы Excel с помощью C# и Aspose.Cells.
+### [Создание пользовательского свойства Aspose – Полное руководство по Excel](./create-custom-property-aspose-complete-excel-guide/)
+Узнайте, как создать пользовательское свойство в Excel с помощью Aspose.Cells для .NET в полном пошаговом руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
