@@ -54,6 +54,7 @@ Tìm hiểu cách tích hợp dữ liệu hiệu quả trong Excel để có th�
 Khám phá cách tắt Autofilter trong Excel bằng Aspose.Cells for Java, kèm ví dụ mã nguồn chi tiết để tự động hóa.
 ### [Tạo Excel bằng chương trình trong Java – Hướng dẫn từng bước](./create-excel-programmatically-in-java-step-by-step-guide/)
 Hướng dẫn chi tiết cách tạo tệp Excel bằng mã Java sử dụng Aspose.Cells, kèm ví dụ thực tế từng bước.
+### [Cách tắt bộ lọc tự động trong Excel bằng Java – Hướng dẫn đầy đủ](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

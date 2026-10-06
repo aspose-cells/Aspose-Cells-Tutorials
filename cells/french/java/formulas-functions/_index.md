@@ -86,6 +86,8 @@ Apprenez à extraire le texte d'une formule de cellules Excel avec Aspose.Cells 
 ### [Comment utiliser Reduce dans Excel avec Java – Guide de formule Lambda](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
 
 
+### [Comment utiliser SEQUENCE dans un classeur Excel Java – guide étape par étape](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+Apprenez à appliquer la fonction SEQUENCE d'Excel avec Aspose.Cells pour Java afin de générer des séries de données dynamiques dans vos classeurs.
 
 ## Ressources supplémentaires
 

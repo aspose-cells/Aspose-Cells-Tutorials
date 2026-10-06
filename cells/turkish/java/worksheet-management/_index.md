@@ -74,10 +74,13 @@ Aspose.Cells for Java kullanarak bir Excel çalışma kitabından sütunları na
 ### [Java için Aspose.Cells Kullanarak Excel'de Satırları Nasıl Silebilirim | Kılavuz ve Eğitim](./delete-row-excel-aspose-cells-java/)
 Java için Aspose.Cells'i kullanarak bir Excel dosyasından satırları etkili bir şekilde nasıl sileceğinizi öğrenin. Bu kılavuz kurulumu, kod örneklerini ve pratik uygulamaları kapsar.
 
+### [Java ile Çalışma Sayfasında Satır Silme – Tam Kılavuz](./delete-rows-in-worksheet-with-java-complete-guide/)
+Java için Aspose.Cells kullanarak Excel çalışma sayfasındaki satırları nasıl silip yönetebileceğinizi öğrenin. Adım adım örnekler ve en iyi uygulamalar.
+
 ### [Java'da Aspose.Cells ile Excel Sekmelerinin Görünürlüğünü Yönetin](./display-excel-tabs-aspose-cells-java/)
 Aspose.Cells for Java kullanarak Excel sekmelerini nasıl görüntüleyeceğinizi veya gizleyeceğinizi öğrenin. Bu kılavuz, etkili çalışma sayfası yönetimi için kurulumu, kod uygulamasını ve en iyi uygulamaları kapsar.
 
-### [Aspose.Cells for Java Kullanarak Excel'de Satırları ve Sütunları Gizleme: Kapsamlı Bir Kılavuz](./hide-rows-columns-aspose-cells-java/)
+### [Aspose.Cells for Java Kullanarak Excel'de Satır ve Sütunları Gizleme: Kapsamlı Bir Kılavuz](./hide-rows-columns-aspose-cells-java/)
 Aspose.Cells with Java kullanarak Excel elektronik tablolarındaki satırları ve sütunları nasıl etkili bir şekilde gizleyeceğinizi öğrenin. Veri yönetimi becerilerinizi bugün geliştirin!
 
 ### [Aspose.Cells Java'yı Kullanarak Excel Sekmelerini Zahmetsizce Gizleyin ve Kaydedin](./hide-save-excel-tabs-aspose-cells-java/)
@@ -94,6 +97,9 @@ Java için Aspose.Cells kullanarak çalışma sayfası benzersiz kimliklerini na
 
 ### [Aspose.Cells Java ile HTML'de Tek Sayfa Sekmesi Adı Ayarlama](./set-single-sheet-tab-name-html-aspose-cells-java/)
 Aspose.Words Java için bir kod eğitimi
+
+### [Dinamik Çalışma Sayfası Adlandırma için SmartMarkerProcessor Kullanımı](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
+SmartMarkerProcessor ile çalışma sayfalarına dinamik adlar atamayı öğrenin ve Excel raporlarınızı otomatikleştirin.
 
 ### [Aspose.Cells Java Kullanarak Excel'de Satır ve Sütunları Gösterme: Adım Adım Kılavuz](./unhide-rows-columns-excel-aspose-cells-java/)
 Aspose.Cells for Java kullanarak Excel dosyalarındaki satırları ve sütunları zahmetsizce nasıl gizleyeceğinizi öğrenin. Bu kapsamlı kılavuzla veri yönetimini otomatikleştirin.

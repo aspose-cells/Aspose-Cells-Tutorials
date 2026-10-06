@@ -53,6 +53,8 @@
 ### [تعطيل الفلتر التلقائي في Excel باستخدام Java – دليل خطوة بخطوة](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
 تعلم كيفية تعطيل الفلتر التلقائي في ملفات Excel باستخدام Aspose.Cells لجافا خطوة بخطوة.
 ### [إنشاء Excel برمجيًا في Java – دليل خطوة بخطوة](./create-excel-programmatically-in-java-step-by-step-guide/)
+### [كيفية إيقاف تشغيل الفلتر التلقائي في Excel باستخدام Java – دليل كامل](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+تعلم كيفية إلغاء الفلتر التلقائي في ملفات Excel باستخدام Aspose.Cells لجافا خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

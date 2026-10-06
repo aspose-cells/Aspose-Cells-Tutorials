@@ -85,6 +85,8 @@
 
 ### [Как использовать Reduce в Excel с Java – руководство по лямбда-формулам](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
 Узнайте, как применять функцию Reduce в формулах Excel с помощью Java и лямбда-выражений, улучшая обработку данных.
+### [Как использовать SEQUENCE в рабочей книге Excel на Java – пошаговое руководство](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+Узнайте, как применять функцию SEQUENCE в Excel с помощью Aspose.Cells для Java, включая примеры кода.
 
 ## Дополнительные ресурсы
 

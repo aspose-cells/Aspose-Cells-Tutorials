@@ -53,7 +53,11 @@ Erfahren Sie, wie Sie Excel-Aufgaben mit Aspose.Cells für Java automatisieren, 
 ### [Beherrschen der Java-Lehrerklassenimplementierung mit Aspose.Cells-Integration](./master-teacher-class-java-aspose-cells/)
 Erfahren Sie, wie Sie eine Lehrerklasse in Java implementieren, Schülerdaten verwalten und Aspose.Cells für eine verbesserte Excel-Dateiverwaltung integrieren.
 
+### [Wie man WRAPCOLS in Java verwendet – Vollständige Anleitung zu Excel-Array-Formeln](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
+Erfahren Sie, wie Sie die WRAPCOLS-Funktion in Aspose.Cells für Java einsetzen, um Excel-Array-Formeln zu erstellen und zu verwalten.
 
+### [Wie man Diagramme von Excel nach Word exportiert – Java-Anleitung](./how-to-export-charts-from-excel-to-word-java-guide/)
+Erfahren Sie, wie Sie Diagramme aus Excel mit Aspose.Cells für Java nach Word exportieren, inkl. Codebeispielen und Schritt‑für‑Schritt‑Anleitung.
 
 ## Weitere Ressourcen
 

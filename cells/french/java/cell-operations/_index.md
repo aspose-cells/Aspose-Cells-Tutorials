@@ -44,6 +44,9 @@ Nos tutoriels d'opérations sur les cellules vous offrent des conseils pratiques
 ### [Maîtriser Aspose.Cells&#58; Implémentation de CopyOptions & PasteOptions en Java pour la gestion des données Excel](./aspose-cells-java-copy-paste-options/)
 ### [Obtenir la date et l'heure d'une cellule en Java Excel – Guide complet](./get-datetime-from-cell-in-java-excel-complete-guide/)
 Apprenez à extraire la date et l'heure d'une cellule Excel en Java avec Aspose.Cells, incluant configuration, lecture et formatage.
+### [Analyser la date d'ère japonaise depuis Excel en Java – Guide complet](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Apprenez à extraire et convertir les dates au format d'ère japonaise d'Excel en Java avec Aspose.Cells, incluant exemples de code complets.
+
 
 
 ### [Comment récupérer des données à partir des cellules Excel avec Aspose.Cells Java&#58; Guide complet](./aspose-cells-java-data-retrieval-excel/)

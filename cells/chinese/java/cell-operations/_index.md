@@ -40,6 +40,9 @@ weight: 4
 ### [使用 Aspose.Cells Java 掌握 Excel 中的 1904 日期系统，以实现高效的单元格操作](./aspose-cells-java-configure-1904-date-system-excel/)
 
 ### [精通 Aspose.Cells&#58; 在 Java 中实现 CopyOptions 与 PasteOptions 进行 Excel 数据管理](./aspose-cells-java-copy-paste-options/)
+### [在 Java 中解析 Excel 的日本纪元日期 – 完整指南](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+学习如何使用 Aspose.Cells for Java 读取并解析 Excel 中的日本纪元日期，将其转换为标准日期格式。
+
 
 ### [如何使用 Aspose.Cells Java&#58; 综合指南从 Excel 单元格检索数据](./aspose-cells-java-data-retrieval-excel/)
 

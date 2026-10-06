@@ -54,6 +54,8 @@ Java와 Aspose.Cells를 이용해 Excel 워크시트에서 자동 필터를 비�
 더 나은 통찰력과 의사 결정을 위해 Excel에서 데이터를 효율적으로 통합하는 방법을 알아보세요. Aspose.Cells for Java를 사용하여 소스 코드를 포함한 단계별 가이드를 제공합니다.
 ### [Java로 프로그래밍 방식 Excel 생성 – 단계별 가이드](./create-excel-programmatically-in-java-step-by-step-guide/)
 Aspose.Cells for Java를 사용해 코드를 통해 Excel 파일을 생성하고 저장하는 방법을 단계별로 안내합니다.
+### [Java를 사용하여 Excel 자동 필터 끄기 – 전체 가이드](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+Java와 Aspose.Cells를 활용해 Excel에서 자동 필터를 해제하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

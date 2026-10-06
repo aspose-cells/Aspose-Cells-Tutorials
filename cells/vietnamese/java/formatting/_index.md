@@ -59,6 +59,9 @@ Tìm hiểu cách tùy chỉnh phông chữ trong tài liệu Excel bằng Aspos
 ### [Làm chủ định dạng số tùy chỉnh trong sổ làm việc Java Excel với Aspose.Cells](./aspose-cells-java-custom-number-formats-handling/)
 Tìm hiểu cách xử lý định dạng số tùy chỉnh trong sổ làm việc Java bằng Aspose.Cells. Hướng dẫn này bao gồm cấu hình sổ làm việc, xử lý ngoại lệ và các ứng dụng thực tế.
 
+### [Cài đặt định dạng số trong Excel bằng Java – Hướng dẫn đầy đủ](./set-number-format-excel-in-java-complete-guide/)
+Tìm hiểu cách thiết lập và tùy chỉnh định dạng số trong tệp Excel bằng Aspose.Cells cho Java, kèm ví dụ mã và mẹo tối ưu.
+
 ### [Làm chủ trình bày dữ liệu trong Excel: Định dạng số và ngày tùy chỉnh với Aspose.Cells cho Java](./aspose-cells-java-data-formatting-excel/)
 Tìm hiểu cách áp dụng định dạng số và kiểu ngày tùy chỉnh bằng Aspose.Cells cho Java, cải thiện khả năng trình bày dữ liệu trong bảng tính Excel.
 
@@ -75,7 +78,7 @@ Tìm hiểu cách cải thiện cách trình bày dữ liệu Excel bằng cách
 Tìm hiểu cách trích xuất và phân tích màu hiệu ứng phát sáng từ các hình dạng trong tệp Excel theo chương trình bằng Aspose.Cells for Java. Tăng cường khả năng trực quan hóa dữ liệu và báo cáo của bạn.
 
 ### [Đặt chiều rộng cột theo pixel bằng Aspose.Cells cho Java: Hướng dẫn đầy đủ](./aspose-cells-java-set-column-width-pixels/)
-Tìm hiểu cách đặt chiều rộng cột theo pixel với Aspose.Cells cho Java. Hướng dẫn này bao gồm cài đặt, ví dụ mã và ứng dụng thực tế.
+Tìm hiểu cách đặt chiều rộng cột theo pixel với Aspose.Cells for Java. Hướng dẫn này bao gồm cài đặt, ví dụ mã và ứng dụng thực tế.
 
 ### [Thiết lập kích thước phông chữ trong Excel bằng Aspose.Cells Java - Hướng dẫn toàn diện](./aspose-cells-java-set-font-size-excel/)
 Tìm hiểu cách thiết lập kích thước phông chữ trong tệp Excel bằng Aspose.Cells for Java với hướng dẫn từng bước này. Nâng cao kỹ năng định dạng tài liệu của bạn ngay hôm nay!

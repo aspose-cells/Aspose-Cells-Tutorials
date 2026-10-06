@@ -85,6 +85,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells und Java Formeltext aus Excel-Zellen extr
 
 ### [Wie man Reduce in Excel mit Java verwendet – Lambda-Formel-Leitfaden](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
 Erfahren Sie, wie Sie die Reduce-Funktion in Excel mithilfe von Java und Lambda-Ausdrücken implementieren und anwenden.
+### [Wie man SEQUENCE in einer Java‑Excel‑Arbeitsmappe verwendet – Schritt‑für‑Schritt‑Anleitung](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+Erfahren Sie, wie Sie die SEQUENCE‑Funktion in Aspose.Cells für Java einsetzen, um dynamische Werte in Excel‑Arbeitsmappen zu erzeugen.
 
 ## Weitere Ressourcen
 

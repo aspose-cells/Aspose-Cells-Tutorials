@@ -39,6 +39,8 @@ Aspose.Cells for Java を使って、Excel データのエクスポート機能�
 Aspose.Cells for Javaを使用してデータをCSV形式にエクスポートする方法を学びましょう。シームレスなCSVエクスポートを実現するソースコード付きのステップバイステップガイドです。
 ### [JavaでCSVをエクスポートする方法 – 有効数字の設定とエクスポート範囲の指定](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
 Aspose.Cells for Javaを使用して、CSVエクスポート時に有効数字を設定し、エクスポート範囲を指定する方法を解説します。
+### [Excel のエクスポート：CSV 変換ステップバイステップガイド](./how-to-export-excel-step-by-step-guide-to-csv-conversion/)
+Aspose.Cells for Java を使用して、Excel を CSV にエクスポートする手順をステップバイステップで学びましょう。
 ### [Excel から PDF へのエクスポート](./exporting-excel-to-pdf/)
 Aspose.Cells for Javaを使って、ExcelファイルをPDFに簡単にエクスポートする方法を学びましょう。ステップバイステップガイドで手順を分かりやすく解説します。今すぐ変換を始めましょう！
 ### [ワークブックからPDFを作成する方法 – 完全Javaガイド](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
@@ -57,6 +59,16 @@ Aspose.Cells for Javaを使用してExcelデータをJSONにエクスポート�
 
 ### [ExcelをHTML Javaにエクスポート](./export-excel-to-html-java/)
 Aspose.Cells for Javaを使用して、JavaでExcelファイルをHTMLにエクスポートする方法を学びましょう。ソースコード付きのこのステップバイステップガイドに従って、Excelファイルをシームレスかつ簡単にHTMLに変換しましょう。
+### [JSON ファイルの読み込み（Java） – JSON を Excel に変換する完全ガイド](./load-json-file-java-full-guide-to-convert-json-to-excel/)
+Aspose.Cells for Java を使用して、JSON データを Excel に変換する手順をステップバイステップで解説します。
+### [JavaでExcelファイルを作成 – 行スタイリングとXLSXエクスポートの完全ガイド](./create-excel-file-java-full-guide-with-row-styling-and-xlsx/)
+Aspose.Cells for Java を使用して、行のスタイル設定やXLSX形式でのエクスポートを含む、Excelファイル作成の全手順を学びます。
+### [Excel を SVG にエクスポートする完全 Java ガイド](./how-to-export-excel-to-svg-complete-java-guide/)
+Aspose.Cells for Java を使用して、Excel ファイルを SVG 形式にエクスポートする手順をステップバイステップで解説します。実用的なコード例で学びましょう。
+### [ExcelブックからHTMLにフォントを埋め込む方法 – Java](./how-to-embed-fonts-in-html-from-excel-workbook-java/)
+Aspose.Cells for Java を使用して、ExcelブックからHTMLへフォントを埋め込む手順を学びましょう。ステップバイステップのガイドです。
+### [Flat OPC チュートリアル Aspose: JavaでExcelブックをロードする](./flat-opc-tutorial-aspose-load-excel-workbook-in-java/)
+Aspose.Cells for Java を使用して、Flat OPC 形式の Excel ブックをロードする手順をステップバイステップで解説します。
 
 ### [XLSX を PPTX に変換 – 編集可能なシェイプをエクスポートする完全ガイド](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
 Aspose.Cells for Java を使用して、XLSX ファイルを PPTX に変換し、編集可能なシェイプをエクスポートする方法を学びましょう。

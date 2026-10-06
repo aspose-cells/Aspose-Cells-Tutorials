@@ -54,6 +54,8 @@
 了解如何在 Excel 中有效地整合資料以獲得更好的洞察力和決策能力。使用 Aspose.Cells for Java 的源代碼的逐步指南。
 ### [使用 Java 停用 Excel 自動篩選 – 步驟指南](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
 了解如何透過 Aspose.Cells for Java 程式碼停用 Excel 工作表的自動篩選功能，提升報表生成效率。
+### [如何使用 Java 關閉 Excel 自動篩選 – 完整指南](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+了解如何使用 Aspose.Cells for Java 在 Excel 中關閉自動篩選功能，並透過範例程式碼完整實作。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

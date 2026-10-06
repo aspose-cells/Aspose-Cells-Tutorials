@@ -233,6 +233,9 @@ Aspose.Cells for Java का उपयोग करके स्तंभ रं
 ### [जावा के लिए Aspose.Cells का उपयोग करके Excel कक्षों को स्टाइल कैसे करें और हाइपरलिंक कैसे जोड़ें](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Aspose.Cells के साथ अपने जावा अनुप्रयोगों में Excel सेल की स्टाइलिंग और हाइपरलिंक जोड़ना सीखें। सहज एकीकरण और फ़ॉर्मेटिंग के लिए इस व्यापक गाइड का पालन करें।
 
+### [जावा के लिए Aspose.Cells का उपयोग करके Excel में संख्या फ़ॉर्मेट सेट करें – पूर्ण गाइड](./set-number-format-excel-in-java-complete-guide/)
+जावा में Aspose.Cells का उपयोग करके Excel में कस्टम संख्या फ़ॉर्मेट लागू करने के चरण-दर-चरण निर्देश।
+
 ### [जावा में डायनामिक फ़ॉर्मेटिंग के साथ Excel वर्कबुक बनाएं – पूर्ण गाइड](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 जावा के लिए Aspose.Cells का उपयोग करके डायनामिक फ़ॉर्मेटिंग के साथ Excel वर्कबुक बनाने और प्रबंधित करने का चरण-दर-चरण मार्गदर्शन।
 

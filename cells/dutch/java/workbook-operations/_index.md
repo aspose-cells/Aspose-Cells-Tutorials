@@ -113,6 +113,9 @@ Leer hoe u een werkmap opslaat als XLSX-bestand in Java met Aspose.Cells, inclus
 ### [Werkboekbewerkingen in Java onder de knie krijgen: Excel-bestanden laden en benoemde bereiken beheren met Aspose.Cells](./aspose-cells-java-load-workbook-manage-named-ranges/)
 Leer hoe u Excel-taken in Java kunt automatiseren met Aspose.Cells. Deze handleiding behandelt het laden van werkmappen en het efficiënt beheren van benoemde bereiken.
 
+### [Save Workbook to File – Complete Java Guide for Copying Excel Ranges](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
+Leer hoe u een werkmap opslaat naar een bestand en Excel-bereiken kopieert met Aspose.Cells voor Java.
+
 ### [Beheer van werkmappen in Java: Excel-papierformaat laden en controleren met Aspose.Cells](./aspose-cells-java-load-workbook-paper-size/)
 Leer hoe u Aspose.Cells voor Java kunt gebruiken om Excel-werkmappen te beheren door bestanden te laden, toegang te krijgen tot werkbladen en de instellingen voor het papierformaat te controleren.
 
@@ -340,6 +343,9 @@ Leer hoe u Excel XLSB-bestanden beheert met Aspose.Cells voor Java. Deze tutoria
 
 ### [Aangepaste Excel-eigenschappen exporteren naar PDF met Aspose.Cells voor Java](./export-excel-custom-properties-pdf-aspose-cells-java/)
 Leer hoe u aangepaste eigenschappen van een Excel-werkmap naar een PDF exporteert met Aspose.Cells voor Java. Stroomlijn uw gegevensbeheer met deze stapsgewijze handleiding.
+
+### [Hoe aangepaste eigenschap toevoegen in Excel (Java) – Waarde ophalen en opslaan als XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
+Leer hoe u een aangepaste eigenschap toevoegt aan een Excel-werkmap, de waarde ophaalt en opslaat als XLSB met Aspose.Cells voor Java.
 
 ### [Excel exporteren naar HTML met Aspose.Cells Java: een stapsgewijze handleiding](./export-excel-html-aspose-cells-java/)
 Leer hoe je Excel-bestanden naadloos exporteert als HTML met Aspose.Cells voor Java. Deze handleiding behandelt het laden van werkmappen, aangepaste streamproviders en het eenvoudig opslaan van werkmappen.

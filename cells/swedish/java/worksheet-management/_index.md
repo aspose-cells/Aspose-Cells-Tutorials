@@ -74,6 +74,9 @@ Lär dig hur du tar bort kolumner från en Excel-arbetsbok med Aspose.Cells för
 ### [Hur man tar bort rader i Excel med Aspose.Cells för Java | Guide och handledning](./delete-row-excel-aspose-cells-java/)
 Lär dig hur du effektivt tar bort rader från en Excel-fil med Aspose.Cells för Java. Den här guiden behandlar installation, kodexempel och praktiska tillämpningar.
 
+### [Ta bort rader i kalkylblad med Java – Komplett guide](./delete-rows-in-worksheet-with-java-complete-guide/)
+Lär dig hur du effektivt tar bort rader i ett kalkylblad med Aspose.Cells för Java. Guiden innehåller installation, kodexempel och bästa praxis.
+
 ### [Hantera synligheten för Excel-flikar med Aspose.Cells i Java](./display-excel-tabs-aspose-cells-java/)
 Lär dig hur du visar eller döljer Excel-flikar med Aspose.Cells för Java. Den här guiden behandlar installation, kodimplementering och bästa praxis för effektiv hantering av kalkylblad.
 
@@ -98,7 +101,8 @@ En kodhandledning för Aspose.Words Java
 ### [Visa rader och kolumner i Excel med hjälp av Aspose.Cells Java: En steg-för-steg-guide](./unhide-rows-columns-excel-aspose-cells-java/)
 Lär dig hur du enkelt kan visa rader och kolumner i Excel-filer med Aspose.Cells för Java. Automatisera datahantering med den här omfattande guiden.
 
-
+### [Hur man använder SmartMarkerProcessor för dynamisk namngening av kalkylblad](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
+Lär dig hur du med SmartMarkerProcessor kan namnge kalkylblad dynamiskt baserat på data i dina Excel-filer.
 
 ## Ytterligare resurser
 

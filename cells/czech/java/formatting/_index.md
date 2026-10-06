@@ -235,6 +235,8 @@ Zvládněte stylování buněk v Excelu a přidávání hypertextových odkazů 
 
 ### [Vytvoření sešitu Excel s dynamickým formátováním v Javě – Kompletní průvodce](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 Naučte se, jak pomocí Aspose.Cells pro Javu vytvořit sešit Excel s dynamickým formátováním, včetně příkladů kódu a tipů pro optimalizaci.
+### [Nastavení číselného formátu v Excelu v Javě – Kompletní průvodce](./set-number-format-excel-in-java-complete-guide/)
+Naučte se, jak nastavit číselné formáty v souborech Excel pomocí Aspose.Cells pro Javu.
 
 ## Další zdroje
 

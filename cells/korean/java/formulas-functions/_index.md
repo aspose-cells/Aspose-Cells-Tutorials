@@ -85,6 +85,8 @@ Aspose.Cells와 Java를 사용하여 Excel 셀에서 수식 텍스트를 추출�
 
 ### [Aspose.Cells Java를 사용하여 Excel에서 Reduce 사용하기 – 람다 수식 가이드](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
 Java용 Aspose.Cells를 사용하여 Excel에서 Reduce 함수를 람다 수식으로 구현하고 활용하는 방법을 알아보세요.
+### [Java Excel 워크북에서 SEQUENCE 사용 방법 – 단계별 가이드](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+Aspose.Cells for Java를 사용하여 Excel 워크북에서 SEQUENCE 함수를 적용하고 활용하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

@@ -54,6 +54,8 @@ Tanulja meg, hogyan kapcsolhatja ki az Excel autofiltr funkciót Java-val az Asp
 Ismerd meg, hogyan integrálhatod hatékonyan az adatokat az Excelben a jobb elemzések és döntéshozatal érdekében. Lépésről lépésre útmutató forráskóddal az Aspose.Cells for Java használatával.
 ### [Excel programozott létrehozása Java‑ban – Lépésről‑lépésre útmutató](./create-excel-programmatically-in-java-step-by-step-guide/)
 Ismerje meg, hogyan hozhat létre Excel-fájlokat Java‑ban programozottan, részletes kódrészletekkel és magyarázatokkal.
+### [Hogyan kapcsoljuk ki az automatikus szűrőt Excelben Java-val – Teljes útmutató](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+Lépésről lépésre bemutatjuk, hogyan kapcsolhatja ki az Excel automatikus szűrőjét Java kóddal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -100,6 +100,8 @@ Um tutorial de código para Aspose.Words Java
 Aprenda a converter o conteúdo de uma célula para string em Java usando Aspose.Cells, facilitando a exportação de dados.
 
 ## Recursos Adicionais
+### [Analisar data da era japonesa do Excel em Java – Guia completo](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Aprenda a analisar datas da era japonesa em arquivos Excel usando Aspose.Cells para Java, com exemplos completos e passo a passo.
 
 - [Documentação Aspose.Cells para Java](https://docs.aspose.com/cells/java/)
 - [Referência da API Aspose.Cells para Java](https://reference.aspose.com/cells/java/)

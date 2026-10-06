@@ -65,6 +65,9 @@ Apprenez à automatiser le regroupement et la création de plans dans Excel avec
 ### [Maîtrisez les plages nommées dans Excel avec Aspose.Cells pour Java](./excel-named-ranges-aspose-cells-java/)
 Un tutoriel de code pour Aspose.Words Java
 
+### [Attribuer un nom à une cellule dans Excel avec Java – Guide complet](./assign-name-to-cell-in-excel-using-java-complete-guide/)
+Apprenez à attribuer un nom à une cellule Excel en Java, avec des exemples de code détaillés.
+
 ### [Automatiser les zones d'impression Excel avec Aspose.Cells pour Java : guide étape par étape](./excel-print-areas-automation-aspose-cells-java-guide/)
 Apprenez à automatiser les zones d'impression Excel avec Aspose.Cells pour Java. Maîtrisez la manipulation des classeurs et optimisez vos tâches de reporting.
 

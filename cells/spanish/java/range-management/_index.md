@@ -65,6 +65,9 @@ Aprenda a automatizar la agrupación y el esquema en Excel con Aspose.Cells para
 ### [Domine los rangos con nombre en Excel con Aspose.Cells para Java](./excel-named-ranges-aspose-cells-java/)
 Un tutorial de código para Aspose.Words Java
 
+### [Asignar nombre a una celda en Excel con Java – Guía completa](./assign-name-to-cell-in-excel-using-java-complete-guide/)
+Aprenda a asignar nombres a celdas en Excel usando Aspose.Cells para Java, con ejemplos de código y mejores prácticas.
+
 ### [Automatizar las áreas de impresión de Excel con Aspose.Cells para Java: guía paso a paso](./excel-print-areas-automation-aspose-cells-java-guide/)
 Aprenda a automatizar las áreas de impresión de Excel con Aspose.Cells para Java. Domine la manipulación de libros de trabajo y agilice sus informes eficientemente.
 

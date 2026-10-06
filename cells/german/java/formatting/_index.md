@@ -237,6 +237,8 @@ Gestalten Sie Excel-Zellen und fügen Sie Hyperlinks in Ihren Java-Anwendungen m
 Erfahren Sie, wie Sie mit Aspose.Cells für Java ein Excel-Arbeitsbuch erstellen und dynamische Formatierungen anwenden.
 
 
+### [Zahlenformat in Excel mit Java festlegen – Vollständige Anleitung](./set-number-format-excel-in-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Zahlenformate in Excel festlegen und anpassen, um Daten optimal darzustellen.
 
 ## Weitere Ressourcen
 

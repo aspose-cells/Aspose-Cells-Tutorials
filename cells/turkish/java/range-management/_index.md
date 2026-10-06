@@ -83,7 +83,7 @@ Aspose.Cells for Java kullanarak Excel'de veri aralıklarını nasıl verimli bi
 ### [Aspose.Cells Kullanarak Java'da Excel Hücrelerini Ayırma: Adım Adım Kılavuz](./unmerge-excel-cells-aspose-cells-java-guide/)
 Aspose.Cells for Java kullanarak Excel dosyalarındaki hücreleri etkin bir şekilde ayırmayı öğrenin. Bu kılavuz, kod örnekleriyle birleştirilmiş hücrelerin kurulumunu, algılanmasını ve ayrılmasını kapsar.
 
-
+### [Java Kullanarak Excel'de Hücreye İsim Atama – Tam Kılavuz](./assign-name-to-cell-in-excel-using-java-complete-guide/)
 
 ## Ek Kaynaklar
 

@@ -85,6 +85,8 @@ Scopri come estrarre il testo delle formule dalle celle di Excel utilizzando Asp
 
 ### [Come utilizzare Reduce in Excel con Java – Guida alle formule Lambda](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
 Scopri come applicare la funzione Reduce nelle formule Excel usando Java e le espressioni lambda per calcoli avanzati.
+### [Come utilizzare SEQUENCE in una cartella di lavoro Excel con Java – Guida passo‑passo](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+Scopri come applicare la funzione SEQUENCE in Aspose.Cells per Java per generare sequenze di dati in modo semplice e veloce.
 
 ## Risorse aggiuntive
 

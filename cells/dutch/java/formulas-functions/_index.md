@@ -85,6 +85,8 @@ Leer hoe u formuletekst uit Excel-cellen kunt extraheren met Aspose.Cells en Jav
 
 ### [Hoe Reduce in Excel te gebruiken met Java – Lambda-formulegids](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
 Leer hoe u de Reduce-functie in Excel toepast via Java met lambda-expressies voor geavanceerde berekeningen.
+### [Hoe SEQUENCE te gebruiken in Java Excel-werkmap – Stapsgewijze handleiding](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+Leer hoe u de SEQUENCE-functie in Excel-werkboeken met Aspose.Cells voor Java toepast, inclusief codevoorbeelden en configuratie.
 
 ## Aanvullende bronnen
 

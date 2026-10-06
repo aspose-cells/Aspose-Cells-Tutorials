@@ -59,6 +59,18 @@ Lär dig hur du konverterar JSON-data till XLSX-filer med Aspose.Cells för Java
 Lär dig hur du konverterar Excel till HTML med fullständig inbäddning av teckensnitt för att bevara layout och stil.
 ### [Konvertera Markdown till Excel – Komplett guide med Aspose.Cells](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
 Lär dig hur du konverterar Markdown-filer till Excel med Aspose.Cells i en steg-för-steg-guide med kodexempel.
+### [Ladda JSON-fil Java – Fullständig guide för att konvertera JSON till Excel](./load-json-file-java-full-guide-to-convert-json-to-excel/)
+Lär dig hur du laddar JSON-filer i Java och konverterar dem till Excel med Aspose.Cells för Java. Steg-för-steg-guide med kodexempel.
+### [Skapa Excel-fil i Java – Fullständig guide med radformatering och XLSX-export](./create-excel-file-java-full-guide-with-row-styling-and-xlsx/)
+Lär dig skapa Excel-filer i Java, applicera radstilar och exportera till XLSX med Aspose.Cells.
+### [Hur du exporterar Excel: Steg‑för‑steg guide till CSV-konvertering](./how-to-export-excel-step-by-step-guide-to-csv-conversion/)
+Lär dig hur du exporterar Excel till CSV med Aspose.Cells för Java. Steg‑för‑steg‑guide med kodexempel för smidig konvertering.
+### [Exportera Excel till SVG – Komplett Java-guide](./how-to-export-excel-to-svg-complete-java-guide/)
+Lär dig hur du exporterar Excel-filer till SVG med Aspose.Cells för Java. Steg‑för‑steg‑guide med kodexempel för vektorbaserad konvertering.
+### [Hur du bäddar in teckensnitt i HTML från en Excel-arbetsbok – Java](./how-to-embed-fonts-in-html-from-excel-workbook-java/)
+Lär dig hur du bäddar in teckensnitt i HTML‑genererade filer från en Excel‑arbetsbok med Aspose.Cells för Java.
+### [Flat OPC-handledning Aspose: Ladda Excel-arbetsbok i Java](./flat-opc-tutorial-aspose-load-excel-workbook-in-java/)
+Lär dig hur du använder Flat OPC för att ladda en Excel-arbetsbok i Java med Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -85,6 +85,8 @@ Aspose.Words Java 代码教程
 
 ### [如何在 Excel 中使用 Reduce（Java）— Lambda 公式指南](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
 了解如何在 Java 中使用 Aspose.Cells 实现 Excel 的 Reduce 函数，通过 Lambda 表达式进行高级聚合计算。
+### [在 Java Excel 工作簿中使用 SEQUENCE 的分步指南](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+学习如何在 Aspose.Cells for Java 中使用 SEQUENCE 函数创建动态序列并自动填充单元格。
 
 ## 其他资源
 

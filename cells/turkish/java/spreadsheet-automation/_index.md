@@ -55,6 +55,8 @@ Java ve Aspose.Cells kullanarak Excel dosyalarındaki otomatik filtre özelliği
 
 ### [Java'da Programlı Olarak Excel Oluşturma – Adım Adım Kılavuz](./create-excel-programmatically-in-java-step-by-step-guide/)
 Java ve Aspose.Cells kullanarak Excel dosyalarını programatik olarak oluşturmayı adım adım öğrenin.
+### [Java ile Excel'de Otomatik Filtreyi Kapatma – Tam Kılavuz](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+Aspose.Cells for Java ile Excel'de otomatik filtreyi kapatmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -54,6 +54,8 @@ Aspose.Cells के साथ जावा में Excel वर्कबुक
 जावा के साथ Aspose.Cells का उपयोग करके एक्सेल फ़ाइल में ऑटोफ़िल्टर को निष्क्रिय करने का तरीका सीखें।
 ### [जावा में प्रोग्रामेटिक रूप से Excel बनाएं – चरण-दर-चरण मार्गदर्शिका](./create-excel-programmatically-in-java-step-by-step-guide/)
 जावा के लिए Aspose.Cells का उपयोग करके स्रोत कोड उदाहरणों के साथ Excel को प्रोग्रामेटिक रूप से बनाना सीखें।
+### [जावा के साथ एक्सेल में ऑटो फ़िल्टर को बंद करने का तरीका – पूर्ण गाइड](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+जावा कोड के साथ एक्सेल में ऑटो फ़िल्टर को निष्क्रिय करने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

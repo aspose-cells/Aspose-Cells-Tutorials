@@ -54,6 +54,8 @@
 学习如何使用 Aspose.Cells for Java 在 Excel 中禁用自动筛选功能，提供源代码示例和分步说明。
 ### [使用 Java 编程创建 Excel – 步骤指南](./create-excel-programmatically-in-java-step-by-step-guide/)
 通过示例代码，学习在 Java 中使用 Aspose.Cells 以编程方式创建 Excel 文件的完整步骤。
+### [如何在 Excel 中使用 Java 关闭自动筛选 – 完整指南](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+学习使用 Aspose.Cells for Java 在 Excel 中关闭自动筛选功能的完整步骤和示例代码。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

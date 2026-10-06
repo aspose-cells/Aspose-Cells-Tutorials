@@ -84,6 +84,8 @@ Egy kód tutorial az Aspose.Words Java számára
 Tanuld meg, hogyan konvertálhatod az Excel cellákat szöveggé Java-ban az Aspose.Cells használatával, és exportáld őket könnyedén.
 
 Egy kód tutorial az Aspose.Words Java számára
+### [Japán korszak dátumának elemzése Excelből Java-ban – Teljes útmutató](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Tanuld meg, hogyan olvashatod és konvertálhatod a japán korszak dátumait Excel-fájlokból Java segítségével.
 
 ## További források
 

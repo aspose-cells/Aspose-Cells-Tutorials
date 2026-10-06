@@ -84,6 +84,7 @@
 تعرّف على كيفية استخراج نص الصيغة من خلايا Excel باستخدام Aspose.Cells مع Java. يغطي هذا الدليل الإعداد والتنفيذ والتطبيقات العملية.
 
 ### [كيفية استخدام Reduce في Excel مع Java – دليل صيغ Lambda](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
+### [كيفية استخدام SEQUENCE في مصنف Excel Java – دليل خطوة بخطوة](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
 
 ## موارد إضافية
 

@@ -85,6 +85,8 @@
 
 ### [Πώς να χρησιμοποιήσετε τη λειτουργία Reduce στο Excel με Java – Οδηγός τύπου Lambda](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
 Μάθετε πώς να εφαρμόζετε τη λειτουργία Reduce σε τύπους Excel χρησιμοποιώντας Java και Lambda για προηγμένες υπολογιστικές εργασίες.
+### [Πώς να χρησιμοποιήσετε τη λειτουργία SEQUENCE σε βιβλίο εργασίας Excel Java – Οδηγός βήμα‑προς‑βήμα](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+Μάθετε πώς να χρησιμοποιείτε τη λειτουργία SEQUENCE στο Aspose.Cells για Java για δημιουργία δυναμικών σειρών κελιών σε βιβλία εργασίας Excel.
 
 ## Πρόσθετοι Πόροι
 

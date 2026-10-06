@@ -85,6 +85,8 @@ Aspose.CellsとJavaを使ってExcelのセルから数式テキストを抽出�
 
 ### [JavaでExcelのReduceを使用する方法 – ラムダ式ガイド](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
 JavaとAspose.CellsでReduce関数をラムダ式として実装し、データ集計を効率化する手順を学びます。
+### [Java Excel ワークブックで SEQUENCE を使用する方法 – ステップバイステップ ガイド](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+Aspose.Cells for Java を使用して、Excel ワークブックで SEQUENCE 関数を適用し、連続データを自動生成する方法を学びます。
 
 ## 追加リソース
 

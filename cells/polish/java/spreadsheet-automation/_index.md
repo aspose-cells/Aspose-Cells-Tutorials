@@ -54,6 +54,8 @@ Dowiedz się, jak skutecznie integrować dane w programie Excel, aby uzyskać le
 Dowiedz się, jak wyłączyć autofilter w plikach Excel przy użyciu Aspose.Cells for Java, z przykładami kodu źródłowego.
 ### [Tworzenie pliku Excel programowo w Javie – przewodnik krok po kroku](./create-excel-programmatically-in-java-step-by-step-guide/)
 Dowiedz się, jak programowo tworzyć pliki Excel w Javie przy użyciu Aspose.Cells, krok po kroku, z przykładami kodu źródłowego.
+### [Jak wyłączyć filtr automatyczny w Excelu przy użyciu Javy – pełny przewodnik](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+Dowiedz się, jak wyłączyć filtr automatyczny w Excelu przy użyciu Aspose.Cells for Java, z przykładami kodu i praktycznymi wskazówkami.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

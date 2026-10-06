@@ -46,6 +46,8 @@ Tìm hiểu cách tùy chỉnh kiểu bảng trục trong Aspose.Cells cho Java 
 Hướng dẫn sao chép Bảng Pivot trong Java, giữ nguyên dữ liệu và xuất ra file PPTX.
 ### [Cách sao chép bảng Pivot trong Java – Hướng dẫn đầy đủ Aspose.Cells](./how-to-copy-pivot-table-in-java-complete-aspose-cells-guide/)
 Hướng dẫn sao chép Pivot Table trong Aspose.Cells for Java, giúp bạn tái sử dụng và chia sẻ báo cáo một cách nhanh chóng và hiệu quả.
+### [Tạo PNG từ Pivot trong Java – Hướng dẫn chi tiết từng bước](./create-png-from-pivot-in-java-full-step-by-step-guide/)
+Hướng dẫn chi tiết cách xuất Pivot Table thành ảnh PNG trong Java bằng Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

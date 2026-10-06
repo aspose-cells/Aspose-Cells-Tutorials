@@ -54,6 +54,8 @@ Aprenda a integrar datos eficientemente en Excel para obtener mejores perspectiv
 Aprenda a desactivar el autofiltro en archivos Excel usando Aspose.Cells para Java con ejemplos de código paso a paso.
 ### [Crear Excel programáticamente en Java – Guía paso a paso](./create-excel-programmatically-in-java-step-by-step-guide/)
 Aprenda a crear archivos Excel mediante código Java con Aspose.Cells, siguiendo una guía paso a paso con ejemplos claros.
+### [Cómo desactivar el filtro automático en Excel con Java – Guía completa](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+Aprenda a desactivar el filtro automático en archivos de Excel usando Aspose.Cells para Java con ejemplos de código paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

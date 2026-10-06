@@ -87,6 +87,8 @@ Aspose.Words Java के लिए एक कोड ट्यूटोरिय�
 Java के साथ Aspose.Cells का उपयोग करके Excel में Reduce फ़ंक्शन लागू करना और लैम्ब्डा फ़ॉर्मूला से डेटा को संक्षिप्त करना सीखें।
 
 
+### [जावा Excel वर्कबुक में SEQUENCE का उपयोग कैसे करें – चरण‑दर‑चरण गाइड](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+जावा में Aspose.Cells का उपयोग करके Excel वर्कबुक में SEQUENCE फ़ंक्शन को लागू करने और उपयोग करने के चरणों को सीखें।
 
 ## अतिरिक्त संसाधन
 

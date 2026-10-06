@@ -83,7 +83,8 @@ Dowiedz się, jak skutecznie zarządzać zakresami danych w programie Excel i ma
 ### [Rozdzielanie komórek Excela w Javie za pomocą Aspose.Cells: przewodnik krok po kroku](./unmerge-excel-cells-aspose-cells-java-guide/)
 Dowiedz się, jak skutecznie rozdzielić komórki w plikach Excela za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje konfigurację, wykrywanie i rozłączanie połączonych komórek z przykładami kodu.
 
-
+### [Przypisz nazwę komórce w Excelu przy użyciu Javy – kompletny przewodnik](./assign-name-to-cell-in-excel-using-java-complete-guide/)
+Dowiedz się, jak przypisać nazwę do pojedynczej komórki w Excelu przy użyciu Aspose.Cells for Java, krok po kroku.
 
 ## Dodatkowe zasoby
 

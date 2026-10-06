@@ -85,6 +85,8 @@ Learn how to extract formula text from Excel cells using Aspose.Cells with Java.
 
 ### [How to Use Reduce in Excel with Java – Lambda Formula Guide](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
 Learn how to implement the Reduce lambda function in Excel formulas using Aspose.Cells for Java, with step-by-step code examples.
+### [How to Use SEQUENCE in Java Excel Workbook – Step‑by‑Step Guide](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+Learn how to use the SEQUENCE function in Excel workbooks with Aspose.Cells for Java, including syntax, parameters, and practical examples.
 
 ## Additional Resources
 

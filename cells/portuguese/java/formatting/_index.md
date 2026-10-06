@@ -235,6 +235,8 @@ Domine a estilização de células do Excel e a adição de hiperlinks em seus a
 
 ### [Criar Pasta de Trabalho Excel com Formatação Dinâmica em Java – Guia Completo](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 Aprenda a criar uma pasta de trabalho Excel com formatação dinâmica usando Aspose.Cells para Java, com exemplos de código completos.
+### [Definir Formato de Número no Excel em Java – Guia Completo](./set-number-format-excel-in-java-complete-guide/)
+Aprenda a definir formatos numéricos personalizados em planilhas do Excel usando Aspose.Cells para Java, com exemplos de código passo a passo.
 
 ## Recursos adicionais
 

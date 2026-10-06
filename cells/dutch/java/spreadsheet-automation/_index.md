@@ -54,6 +54,8 @@ Leer hoe u Excel-bestanden programmatisch kunt maken in Java met Aspose.Cells, i
 Leer hoe u gegevens efficiënt kunt integreren in Excel voor betere inzichten en betere besluitvorming. Stapsgewijze handleiding met broncode met Aspose.Cells voor Java.
 ### [Autofilter uitschakelen in Excel met Java – Stapsgewijze handleiding](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
 Leer hoe u het autofilter in Excel kunt uitschakelen met Aspose.Cells voor Java, inclusief voorbeeldcode.
+### [Hoe AutoFilter in Excel uit te schakelen met Java – Volledige gids](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+Leer hoe u AutoFilter in Excel kunt uitschakelen met Aspose.Cells voor Java, inclusief voorbeeldcode en stapsgewijze instructies.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

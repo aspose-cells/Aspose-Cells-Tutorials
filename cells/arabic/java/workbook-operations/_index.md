@@ -482,7 +482,9 @@
 ### [حفظ المصنف كملف XLSX في Java – دليل برمجة كامل](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
 تعرف على كيفية حفظ المصنف بتنسيق XLSX باستخدام Aspose.Cells لـ Java مع دليل برمجة شامل.
 
+### [حفظ المصنف إلى ملف – دليل Java الكامل لنسخ نطاقات Excel](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
 
+### [كيفية إضافة خاصية مخصصة في Excel (Java) – استرجاع القيمة وحفظها كـ XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
 
 ## موارد إضافية
 

@@ -58,6 +58,18 @@ Aspose.Cells for Java를 사용해 XLSX 파일을 PPTX로 변환하고 편집 �
 Aspose.Cells for Java를 사용하여 Excel 파일을 HTML로 변환하면서 모든 폰트를 완전히 포함하는 방법을 단계별로 안내합니다.
 ### [Markdown을 Excel로 변환 – Aspose.Cells 사용 전체 가이드](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
 Aspose.Cells를 활용해 Markdown 파일을 Excel 형식으로 변환하는 방법을 단계별로 안내합니다.
+### [Excel을 SVG로 내보내기 – 완전한 Java 가이드](./how-to-export-excel-to-svg-complete-java-guide/)
+Aspose.Cells for Java를 사용해 Excel 파일을 SVG로 변환하는 방법을 단계별로 안내합니다.
+### [JSON 파일 로드 Java – JSON을 Excel로 변환하는 전체 가이드](./load-json-file-java-full-guide-to-convert-json-to-excel/)
+Aspose.Cells for Java를 사용하여 JSON 파일을 로드하고 Excel로 변환하는 방법을 단계별로 안내합니다.
+### [Java로 Excel 파일 만들기 – 행 스타일링 및 XLSX 내보내기 전체 가이드](./create-excel-file-java-full-guide-with-row-styling-and-xlsx/)
+Aspose.Cells for Java를 사용해 행 스타일을 적용하고 XLSX 형식으로 내보내는 Excel 파일 생성 방법을 단계별로 안내합니다.
+### [Excel 내보내기 방법: CSV 변환 단계별 가이드](./how-to-export-excel-step-by-step-guide-to-csv-conversion/)
+Aspose.Cells for Java를 사용하여 Excel 파일을 CSV 형식으로 변환하는 단계별 방법을 안내합니다.
+### [HTML로 Excel 워크북에서 글꼴 임베드하기 – Java](./how-to-embed-fonts-in-html-from-excel-workbook-java/)
+Aspose.Cells for Java를 사용하여 Excel 워크북에서 HTML로 글꼴을 임베드하는 방법을 단계별로 안내합니다.
+### [Flat OPC 튜토리얼 Aspose: Java에서 Excel 워크북 로드](./flat-opc-tutorial-aspose-load-excel-workbook-in-java/)
+Aspose.Cells for Java를 사용하여 Flat OPC 형식의 Excel 워크북을 로드하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

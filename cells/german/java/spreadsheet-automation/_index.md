@@ -54,6 +54,8 @@ Erfahren Sie, wie Sie Daten effizient in Excel integrieren, um bessere Einblicke
 Erfahren Sie, wie Sie den Autofilter in Excel‑Dateien mit Aspose.Cells für Java deaktivieren und so die Datenverarbeitung vereinfachen.
 ### [Excel programmgesteuert in Java erstellen – Schritt‑für‑Schritt‑Anleitung](./create-excel-programmatically-in-java-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells Excel-Dateien in Java programmgesteuert erstellen – komplette Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
+### [So deaktivieren Sie den Auto-Filter in Excel mit Java – Vollständige Anleitung](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+Erfahren Sie, wie Sie den Auto-Filter in Excel mithilfe von Aspose.Cells für Java ausschalten und Ihre Arbeitsblätter automatisieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

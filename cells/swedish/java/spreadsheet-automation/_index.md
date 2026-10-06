@@ -54,6 +54,8 @@ Lär dig att programatiskt skapa Excel-filer i Java med Aspose.Cells genom tydli
 Lär dig hur du effektivt integrerar data i Excel för bättre insikter och beslutsfattande. Steg-för-steg-guide med källkod med Aspose.Cells för Java.
 ### [Inaktivera autofilter i Excel med Java – steg‑för‑steg‑guide](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
 Lär dig hur du inaktiverar autofilter i Excel-program med Aspose.Cells för Java, med tydliga kodexempel och steg‑för‑steg‑instruktioner.
+### [Hur du stänger av Auto Filter i Excel med Java – Fullständig guide](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+Lär dig hur du inaktiverar Auto Filter i Excel med Aspose.Cells för Java genom steg-för-steg kodexempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
