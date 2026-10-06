@@ -53,6 +53,12 @@
 ### [Πώς να απενεργοποιήσετε το Auto Filter στο Excel με Java – Πλήρης Οδηγός](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
 Μάθετε πώς να απενεργοποιήσετε το Auto Filter σε αρχεία Excel χρησιμοποιώντας Aspose.Cells για Java, βήμα-βήμα με παραδείγματα κώδικα.
 
+### [Απενεργοποίηση Autofilter στο Excel με Java – Οδηγός βήμα‑βήμα](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
+Μάθετε πώς να απενεργοποιήσετε το Autofilter σε αρχεία Excel χρησιμοποιώντας το Aspose.Cells για Java, με παραδείγματα κώδικα.
+
+### [Δημιουργία Excel προγραμματιστικά σε Java – Οδηγός βήμα‑βήμα](./create-excel-programmatically-in-java-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε αρχεία Excel από το μηδέν σε Java χρησιμοποιώντας το Aspose.Cells, με παραδείγματα κώδικα βήμα‑βήμα.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

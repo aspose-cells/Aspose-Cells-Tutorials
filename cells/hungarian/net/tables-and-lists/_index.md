@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Táblázatok és listák
@@ -45,17 +43,37 @@ Tanuld meg, hogyan formázhatsz listaobjektumokat Excelben az Aspose.Cells for .
 Tanuld meg, hogyan konvertálhatsz Excel-táblázatokat ODS-sé az Aspose.Cells for .NET segítségével egyszerű, lépésről lépésre bemutató oktatóanyagunkkal.
 ### [Táblázat konvertálása tartományba Excelben](./converting-table-to-range/)
 Az Aspose.Cells for .NET segítségével könnyedén konvertálhatsz Excel-táblázatokat tartományokká. Kövesd lépésről lépésre szóló útmutatónkat, hogy az adatkezelés gyerekjáték legyen.
+### [Táblázat létrehozása tartományból C#-ban – Teljes Aspose.Cells oktatóanyag](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+Tanuld meg, hogyan hozhatsz létre táblázatot egy tartományból C#-ban az Aspose.Cells segítségével.
 ### [Táblázat konvertálása tartomnyá opciókkal](./converting-table-to-range-with-options/)
 Az Aspose.Cells for .NET segítségével lépésről lépésre haladva táblázatokat alakíthatsz át tartományokká Excelben. Fejleszd adatkezelési készségeidet Excelben.
 ### [Tábla olvasása és írása lekérdezési adatforrással](./reading-and-writing-table-with-query-data-source/)
 Engedd szabadjára az Aspose.Cells for .NET erejét. Tanuld meg, hogyan kell táblázatokat olvasni és írni lekérdezési adatforrásokkal ebben a részletes, lépésről lépésre haladó útmutatóban.
 ### [Táblázat vagy lista megjegyzésének beállítása Excelben](./setting-comment-of-table-or-list/)
-Tanuld meg, hogyan állíthatsz be megjegyzéseket táblázatokhoz Excelben az Aspose.Cells for .NET használatával egyszerű, lépésről lépésre bemutató útmutatónkkal.
+Tanuld meg, hogyan állíthatsz be megjegyzéseket táblázatokhoz Excelben az Aspose.Cells for .NET használatával egyszerű, lépésről‑lépésre bemutató útmutatónkkal.
+### [Sorok törlése Word táblázatban – Teljes C# útmutató](./delete-rows-word-table-complete-c-guide/)
+Tanulja meg, hogyan törölhet sorokat egy Word táblázatból C#-ban az Aspose.Words segítségével.
+
+### [Táblázat átnevezése C#-ban – Teljes útmutató](./how-to-rename-table-in-c-full-guide/)
+
+### [Excel-tábla létrehozása C#‑ban – Lépés‑ről‑lépésre útmutató](./create-excel-table-in-c-step-by-step-guide/)
+Tanulja meg, hogyan hozhat létre Excel‑táblákat C#‑ban az Aspose.Cells for .NET segítségével lépésről‑lépésre.
+
+
+
+
+
+
+
+
+### [Táblázatfejléc eltávolítása Aspose.Cells-ben – Teljes útmutató](./remove-table-header-in-aspose-cells-complete-guide/)
+Tanuld meg, hogyan távolíthatod el a táblázatfejlécet Aspose.Cells for .NET használatával lépésről lépésre útmutatóban.
+### [Hogyan nevezzen át egy táblázatot Excelben C#‑val – Lépésről‑lépésre útmutató](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Tanulja meg, hogyan nevezhet át táblázatot Excelben C#‑ban egyszerű, részletes lépésekkel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

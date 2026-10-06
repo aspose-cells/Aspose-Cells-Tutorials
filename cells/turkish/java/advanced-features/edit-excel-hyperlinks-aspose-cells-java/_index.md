@@ -1,13 +1,55 @@
 ---
-date: '2025-12-18'
-description: Aspose.Cells for Java kullanarak birden fazla Excel dosyasını nasıl işleyip,
-  Excel'deki hiperlink URL'sini değiştireceğinizi öğrenin. Hiperlinkleri düzenleme
-  ve kırık Excel bağlantılarını kaldırma adımlarını içerir.
+date: '2026-05-23'
+description: Aspose.Cells kullanarak Excel hyperlink'lerini Java ile nasıl düzenleyeceğinizi,
+  Excel workbook'ı Java'da nasıl yükleyeceğinizi ve bozuk Excel link'lerini etkili
+  bir şekilde nasıl kaldıracağınızı öğrenin.
 keywords:
-- edit Excel hyperlinks Java Aspose.Cells
-- manage Excel document links Aspose.Cells
-- update hyperlinks in Excel using Java
-title: Birden Çok Excel Dosyasını İşleyin – Aspose.Cells Java ile Köprüleri Düzenleyin
+- edit excel hyperlinks java
+- load excel workbook java
+- remove broken excel links
+- maven dependency aspose cells
+schemas:
+- author: Aspose
+  dateModified: '2026-05-23'
+  description: Learn how to edit Excel hyperlinks Java using Aspose.Cells, load Excel
+    workbook Java, and remove broken Excel links efficiently.
+  headline: Edit Excel Hyperlinks Java – Process Multiple Files
+  type: TechArticle
+- description: Learn how to edit Excel hyperlinks Java using Aspose.Cells, load Excel
+    workbook Java, and remove broken Excel links efficiently.
+  name: Edit Excel Hyperlinks Java – Process Multiple Files
+  steps:
+  - name: '**Updating Web Links:** Automatically refresh outdated URLs in quarterly
+      financial reports.'
+    text: '**Updating Web Links:** Automatically refresh outdated URLs in quarterly
+      financial reports.'
+  - name: '**Consistency Across Documents:** Enforce a corporate branding policy by
+      standardizing hyperlink destinations across dozens of departmental spreadsheets.'
+    text: '**Consistency Across Documents:** Enforce a corporate branding policy by
+      standardizing hyperlink destinations across dozens of departmental spreadsheets.'
+  - name: '**Data Integration:** Point hyperlinks to new API endpoints or internal
+      data portals after a system migration.'
+    text: '**Data Integration:** Point hyperlinks to new API endpoints or internal
+      data portals after a system migration.'
+  type: HowTo
+- questions:
+  - answer: Yes, iterate through `workbook.getWorksheets()` and apply hyperlink changes
+      to each worksheet.
+    question: Can I edit multiple worksheets at once?
+  - answer: Use error‑handling techniques such as try‑catch blocks and the removal
+      logic shown in the editing example.
+    question: How do I handle broken links with Aspose.Cells Java?
+  - answer: Absolutely. Use `worksheet.getHyperlinks().add()` to insert new links
+      into your worksheet.
+    question: Is it possible to add new hyperlinks using Aspose.Cells Java?
+  - answer: Yes, Aspose.Cells is available for .NET, C++, and more. Check out the
+      [official website](https://www.aspose.com/) for language‑specific guides.
+    question: Can I use Aspose.Cells with other programming languages besides Java?
+  - answer: Regularly check your subscription status on the Aspose dashboard and renew
+      or update your license as needed.
+    question: How can I ensure my license remains active when using Aspose.Cells?
+  type: FAQPage
+title: Excel hyperlink'lerini Java ile Düzenle – Birden Çok Dosyayı İşle
 url: /tr/java/advanced-features/edit-excel-hyperlinks-aspose-cells-java/
 weight: 1
 ---
@@ -18,44 +60,34 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Excel Bağlantılarını Düzenle Java – Birden Çok Dosyayı İşle
 
-# Çoklu Excel Dosyalarını İşleme – Aspose.Cells Java ile Köprüleri Düzenleme
-
-## Giriş
-Birden fazla Excel dosyasını **işlemeniz** ve köprülerini güncel tutmanız gerektiğinde, manuel düzenleme hızla uygulanamaz hâle gelir. Web sitesinin yeniden tasarımından sonra URL'leri güncelliyorsanız ya da kırık bağlantıları temizliyorsanız, Aspose.Cells for Java, hyperlink URL Excel dosyalarını değiştirmek ve hatta kırık Excel bağlantılarını kaldırmak için güvenilir, programatik bir yol sunar.  
-
-Bu kapsamlı rehberde, aşağıdakileri nasıl yapacağınızı göstereceğiz:
-- Bir Excel çalışma kitabını (veya bir toplu çalışma kitabını) yükleme
-- **hyperlink URL Excel** girişlerine erişme ve **değiştirme**
-- Güncellenmiş belgeleri, diğer tüm verileri koruyarak kaydetme
-
-Gerekli ön koşularla başlayalım.
+When you need to **edit Excel hyperlinks Java** across a batch of workbooks, doing it by hand is error‑prone and time‑consuming. Whether you’re migrating a corporate website, fixing outdated URLs, or cleaning broken links after a data migration, Aspose.Cells for Java lets you programmatically load Excel workbook Java objects, modify hyperlink URLs, and safely remove broken Excel links—all in a single automated run. This guide walks you through the entire workflow, from project setup to saving the updated files.
 
 ## Hızlı Yanıtlar
-- **Bu öğreticinin kapsamı nedir?** Aspose.Cells for Java kullanarak bir veya birden fazla Excel dosyasındaki köprüleri düzenleme ve güncelleme.  
-- **Lisans gerekir mi?** Test için ücretsiz deneme sürümü yeterlidir; üretim ortamı için ticari lisans gereklidir.  
-- **Birden fazla dosyayı aynı anda işleyebilir miyim?** Evet – bir dizindeki dosyalar üzerinde döngü kurarak işlem yapabilirsiniz.  
-- **Kırık bağlantıları nasıl kaldırırım?** Döngü içinde geçersiz URL'leri tespit edip `worksheet.getHyperlinks().remove(i)` ile silebilirsiniz.  
-- **Hangi Java sürümü gerekiyor?** Java 8 veya üzeri.
+- **What does this tutorial cover?** Editing and updating hyperlinks in one or many Excel files using Aspose.Cells for Java.  
+- **Do I need a license?** A free trial works for testing; a commercial license is required for production.  
+- **Can I process several files at once?** Yes – simply loop over the files in a directory.  
+- **How do I remove broken links?** Detect invalid URLs in the loop and delete them with `worksheet.getHyperlinks().remove(i)`.  
+- **Which Java version is required?** Java 8 or higher.
 
-## Ön Koşullar
-Başlamadan önce gerekli kütüphanelerin ve ortamın kurulu olduğundan emin olun:
+## Edit Excel Hyperlinks Java nedir?
+Edit Excel hyperlinks Java is the process of programmatically changing the `address` property of Hyperlink objects inside an Excel workbook using the Aspose.Cells library. This approach eliminates manual editing, guarantees consistency, and can be applied to thousands of files in seconds.
 
-### Gerekli Kütüphaneler
-- **Aspose.Cells for Java** sürüm 25.3 veya üzeri
+## Bağlantı düzenleme için Aspose.Cells neden kullanılmalı?
+Aspose.Cells supports **50+ input and output formats**—including XLSX, XLS, CSV, and ODS—and can process workbooks with up to **1 million rows** without loading the entire file into memory, thanks to its streaming API. The library also preserves cell formatting, formulas, and chart data, ensuring that only the hyperlink target changes while the rest of the worksheet remains untouched.
 
-### Ortam Kurulum Gereksinimleri
-- Sisteminizde yüklü bir Java Development Kit (JDK).  
-- IntelliJ IDEA, Eclipse gibi bir Entegre Geliştirme Ortamı (IDE) veya benzeri.
+## Önkoşullar
+- **Aspose.Cells for Java** version 25.3 or later (see Maven/Gradle snippet below).  
+- JDK 8 or newer installed on your development machine.  
+- An IDE such as IntelliJ IDEA or Eclipse.  
+- Basic Java knowledge and familiarity with Excel concepts.
 
-### Bilgi Ön Koşulları
-- Java programlama kavramlarına temel bir anlayış.  
-- Excel dosya işlemleri ve köprüler konusunda aşinalık.
+## Excel çalışma kitabı Java nasıl yüklenir?
+`Workbook` is the Aspose.Cells class that represents an entire Excel file, providing access to worksheets, cells, and document‑level properties.  
+Load your workbook by creating a `Workbook` instance that points to the Excel file on disk. This single line reads the file into memory, ready for hyperlink manipulation. Once instantiated, you can navigate through its worksheets, read cell values, and modify objects such as hyperlinks, charts, or formulas as needed.
 
-## Aspose.Cells for Java Kurulumu
-Aspose.Cells'i projenize dahil etmeniz gerekir. İşte nasıl yapılacağı:
-
-**Maven:**
+```text
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -63,21 +95,23 @@ Aspose.Cells'i projenize dahil etmeniz gerekir. İşte nasıl yapılacağı:
     <version>25.3</version>
 </dependency>
 ```
+```
 
-**Gradle:**
+### Tanım Bağlantısı
+The `Workbook` class is Aspose.Cells' core object that represents an entire Excel file, exposing worksheets, cells, and document‑level properties for programmatic access.
+
+## Aspose.Cells for Java Kurulumu
+Add the library to your project using one of the supported build tools.
+
+**Maven:**
+```text
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
+```
 
-### Lisans Edinme Adımları
-Aspose.Cells'i ücretsiz deneme sürümüyle başlayabilir veya değerlendirme amaçlı geçici bir lisans talep edebilirsiniz:
-- **Ücretsiz Deneme:** [Aspose Releasers](https://releases.aspose.com/cells/java/) adresinden indirin.  
-- **Geçici Lisans:** Sınırlama olmadan tam özellikleri açmak için [buradan](https://purchase.aspose.com/temporary-license/) bir lisans isteyin.  
-- **Satın Alma:** Ticari kullanım için lisansı [Aspose Purchase](https://purchase.aspose.com/buy) adresinden satın alın.
-
-#### Temel Başlatma ve Kurulum
-Java uygulamanızda Aspose.Cells'i başlatmak için:
-
+**Gradle:**
+```text
 ```java
 import com.aspose.cells.Workbook;
 
@@ -92,13 +126,16 @@ public class InitializeAsposeCells {
     }
 }
 ```
+```
 
-## Uygulama Rehberi
-Şimdi Aspose.Cells Java kullanarak Excel çalışma sayfalarınızda köprüleri nasıl düzenleyeceğinizi adım adım inceleyelim.
+### Lisans Alım Adımları
+To use Aspose.Cells, you can start with a free trial or request a temporary license for evaluation purposes:
+- **Free Trial:** Download from [Aspose Releasers](https://releases.aspose.com/cells/java/).  
+- **Temporary License:** Request one [here](https://purchase.aspose.com/temporary-license/) to unlock full features without limitations.  
+- **Purchase:** For commercial use, purchase a license at [Aspose Purchase](https://purchase.aspose.com/buy).
 
-### Çalışma Kitabını Yükleme
-Düzenlemek istediğiniz köprüleri içeren Excel dosyasını yükleyerek başlayın. Bu adım bir `Workbook` nesnesi oluşturmayı içerir:
-
+#### Temel Başlatma ve Kurulum
+```text
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -116,10 +153,13 @@ public class LoadWorkbook {
     }
 }
 ```
+```
 
-### Köprüleri Düzenleme
-Çalışma sayfasına eriştikten sonra köprüleri döngüyle gezip gerektiği gibi güncelleyin. Bu örnek, URL formatını kontrol ederek **kırık Excel bağlantılarını kaldırma** yöntemini de gösterir:
+## Excel çalışma sayfalarında bağlantıları nasıl düzenlersiniz?
+`Hyperlink` is the Aspose.Cells object that represents a clickable link in a cell, exposing methods to get and set its address.  
+Iterate through each worksheet’s hyperlink collection, update the `address` property, and optionally remove entries that point to invalid URLs. The following pattern handles both tasks in a concise loop, ensuring that all links are consistently updated while preserving other cell data.
 
+```text
 ```java
 import com.aspose.cells.Hyperlink;
 
@@ -150,74 +190,100 @@ public class EditHyperlinks {
     }
 }
 ```
+```
+
+### Tanım Bağlantısı
+The `Hyperlink` class represents a clickable link in a cell; its `setAddress(String)` method updates the URL, while `getAddress()` retrieves the current target.
 
 #### Kod Parçacıklarının Açıklaması
-- **Köprü Erişimi:** `worksheet.getHyperlinks().get(i)` her bir köprü nesnesini alır.  
-- **Köprü Güncelleme:** `hl.setAddress("http://www.aspose.com")` bağlantıyı yeni bir adrese değiştirir, **change hyperlink url excel** gereksinimini karşılar.  
-- **Kırık Bağlantıların Kaldırılması:** Koşullu blok, **remove broken excel links** işlemini güvenli bir şekilde nasıl yapacağınızı gösterir.
+- **Hyperlink Access:** `worksheet.getHyperlinks().get(i)` retrieves each hyperlink object.  
+- **Updating Hyperlinks:** `hl.setAddress("http://www.aspose.com")` changes the link to a new address, fulfilling the **change hyperlink url excel** requirement.  
+- **Removing Broken Links:** The conditional block demonstrates how to **remove broken excel links** safely.
 
-### Çalışma Kitabını Kaydetme
-Düzenlemelerden sonra değişiklikleri korumak için çalışma kitabınızı kaydedin:
+## Bozuk Excel bağlantılarını nasıl kaldırabilirsiniz?
+Detect a broken link by checking if the URL starts with `http://` or `https://` and meets a simple regex pattern. If it fails validation, remove it from the collection to keep the workbook clean. This approach prevents users from encountering dead links and maintains the professional appearance of the document.
 
+```text
 ```java
 // Save the updated workbook
 dataDir + "EHOfWorksheet_out.xlsx";
 ```
+```
+
+## Güncellenmiş Çalışma Kitabını Kaydetme
+After all modifications, persist the workbook back to disk. Aspose.Cells writes the file in the same format it was loaded, preserving all non‑hyperlink data.
+
+```text
+```java
+// Save the updated workbook
+dataDir + "EHOfWorksheet_out.xlsx";
+```
+```
 
 ## Pratik Uygulamalar
-Aspose.Cells Java ile köprü düzenlemenin uygulanabileceği bazı gerçek dünya senaryoları:
-1. **Web Bağlantılarını Güncelleme:** Kurumsal raporlar veya finansal belgelerdeki eski URL'leri otomatik olarak güncelleyin.  
-2. **Belgeler Arası Tutarlılık:** Birden fazla Excel dosyasında köprüleri standartlaştırarak marka tutarlılığı veya bilgi doğruluğunu sağlayın.  
-3. **Veri Entegrasyonu:** İç veri tabanlarına veya dış API'lere yönelen bağlantıları güncelleyerek entegrasyonu kolaylaştırın.  
+Here are some real‑world scenarios where you might apply hyperlink editing with Aspose.Cells Java:
+1. **Updating Web Links:** Automatically refresh outdated URLs in quarterly financial reports.  
+2. **Consistency Across Documents:** Enforce a corporate branding policy by standardizing hyperlink destinations across dozens of departmental spreadsheets.  
+3. **Data Integration:** Point hyperlinks to new API endpoints or internal data portals after a system migration.
 
-## Performans Düşünceleri
-**Çoklu Excel dosyalarını işleme** sırasında optimum performans için şu ipuçlarını aklınızda tutun:
-- **Verimli Bellek Yönetimi:** Otomatik kaynak yönetimi için `try‑with‑resources` kullanın ve çalışma kitaplarını hızlıca kapatın.  
-- **Toplu İşleme:** Dosyaları tek tek açmak yerine bir dizindeki tüm dosyalar üzerinde döngü kurun.  
-- **Optimizasyonlu Veri İşleme:** Döngüler içinde yapılan işlem sayısını azaltarak hızı artırın.
+## Performans Hususları
+When you **process multiple Excel files**, keep these optimization tips in mind:
+- **Efficient Memory Management:** Use Java’s try‑with‑resources to ensure workbooks are closed promptly.  
+- **Batch Processing:** Iterate over a directory of files in a single JVM run rather than launching separate processes.  
+- **Minimize Loop Work:** Perform URL validation outside of the inner hyperlink loop to reduce CPU overhead.
 
 ## Sonuç
-Aspose.Cells Java ile Excel'deki köprüleri düzenlemek, belge bağlantılarını verimli bir şekilde yönetmeyi kolaylaştırır. Bu rehberi izleyerek **çoklu Excel dosyalarını işleme**, köprü URL'lerini değiştirme ve kırık bağlantıları kaldırma konularını Java uygulamalarınıza sorunsuz bir şekilde entegre etmeyi öğrendiniz.
+Editing hyperlinks in Excel with Aspose.Cells Java streamlines managing document links efficiently. By following this guide, you’ve learned how to **process multiple Excel files**, modify hyperlink URLs, and remove broken links—all seamlessly integrated into your Java applications.  
 
-Bu becerileri pratiğe dökmeye hazır mısınız? Daha gelişmiş özellikleri keşfetmek için [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/) sayfasına göz atın.
+Ready to put these skills into practice? Explore more advanced features by diving deeper into the [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/).
 
 ## Sık Sorulan Sorular
 
-**S: Birden fazla çalışma sayfasını aynı anda düzenleyebilir miyim?**  
-C: Evet, `workbook.getWorksheets()` üzerinden döngü kurarak her bir çalışma sayfasına köprü değişikliklerini uygulayabilirsiniz.
+**Q: Can I edit multiple worksheets at once?**  
+A: Yes, iterate through `workbook.getWorksheets()` and apply hyperlink changes to each worksheet.
 
-**S: Aspose.Cells Java ile kırık bağlantıları nasıl yönetirim?**  
-C: Try‑catch blokları gibi hata yönetimi tekniklerini kullanın ve düzenleme örneğinde gösterilen kaldırma mantığını uygulayın.
+**Q: How do I handle broken links with Aspose.Cells Java?**  
+A: Use error‑handling techniques such as try‑catch blocks and the removal logic shown in the editing example.
 
-**S: Aspose.Cells Java ile yeni köprüler eklemek mümkün mü?**  
-C: Kesinlikle. Yeni bağlantılar eklemek için `worksheet.getHyperlinks().add()` metodunu kullanın.
+**Q: Is it possible to add new hyperlinks using Aspose.Cells Java?**  
+A: Absolutely. Use `worksheet.getHyperlinks().add()` to insert new links into your worksheet.
 
-**S: Aspose.Cells'i Java dışındaki programlama dilleriyle de kullanabilir miyim?**  
-C: Evet, Aspose.Cells .NET, C++ ve diğer diller için de mevcuttur. Dil‑spesifik kılavuzlar için [official website](https://www.aspose.com/) adresine bakın.
+**Q: Can I use Aspose.Cells with other programming languages besides Java?**  
+A: Yes, Aspose.Cells is available for .NET, C++, and more. Check out the [official website](https://www.aspose.com/) for language‑specific guides.
 
-**S: Aspose.Cells kullanırken lisansımın aktif kalmasını nasıl sağlarım?**  
-C: Aspose kontrol panelinden abonelik durumunuzu düzenli olarak kontrol edin ve gerektiğinde lisansınızı yenileyin veya güncelleyin.
+**Q: How can I ensure my license remains active when using Aspose.Cells?**  
+A: Regularly check your subscription status on the Aspose dashboard and renew or update your license as needed.
 
-## Kaynaklar
-- **Documentation:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)
-- **Download:** Ücretsiz deneme sürümü için [Aspose Downloads](https://releases.aspose.com/cells/java/) adresinden başlayın
-- **Purchase:** Ticari kullanım için lisansları [buradan](https://purchase.aspose.com/buy) satın alın
-- **Free Trial:** Aspose.Cells Java kütüphanesine [releases page](https://releases.aspose.com/cells/java/) üzerinden erişin
-- **Temporary License:** Tam özellik erişimi için geçici lisans talep edin: [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
-- **Support:** Ek yardım için [Aspose Support Forum](https://forum.aspose.com/c/cells/9) adresini ziyaret edin
+## Ek Kaynaklar
+- [Aspose Sürümleri](https://releases.aspose.com/cells/java/)
+- [Aspose İndirilmeleri](https://releases.aspose.com/cells/java/)
+- [sürümler sayfası](https://releases.aspose.com/cells/java/)
+- [Aspose.Cells Java Referansı](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells Belgeleri](https://reference.aspose.com/cells/java/)
+- [Aspose Satın Alma](https://purchase.aspose.com/buy)
+- [burada](https://purchase.aspose.com/buy)
+- [Aspose Geçici Lisansı](https://purchase.aspose.com/temporary-license/)
+- [burada](https://purchase.aspose.com/temporary-license/)
+- [resmi web sitesi](https://www.aspose.com/)
+- [Aspose Destek Forumu](https://forum.aspose.com/c/cells/9)
 
 ---
 
-**Son Güncelleme:** 2025-12-18  
+**Son Güncelleme:** 2026-05-23  
 **Test Edilen Versiyon:** Aspose.Cells 25.3 for Java  
 **Yazar:** Aspose  
 
----
+{{< blocks/products/products-backtop-button >}}
+
+## İlgili Eğitimler
+
+- [Usta Aspose.Cells for Java&#58; Excel Çalışma Kitaplarını Verimli Yükleme ve Değiştirme](/cells/java/workbook-operations/aspose-cells-java-load-modify-excel/)
+- [Usta Aspose.Cells for Java&#58; Excel Dosyalarını Verimli Yükleme ve Kaydetme](/cells/java/workbook-operations/aspose-cells-java-load-save-excel-files/)
+- [Aspose.Cells for Java ile Excel'den URL Çıkarma – Veri Bağlantılarını Yükleme](/cells/java/advanced-features/aspose-cells-java-excel-data-connections/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

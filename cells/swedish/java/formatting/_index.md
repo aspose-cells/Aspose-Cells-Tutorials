@@ -113,6 +113,9 @@ Lär dig hur du använder Aspose.Cells för Java för att skapa och formatera Ex
 ### [Automatisera villkorsstyrd formatering i Excel med Aspose.Cells för Java: En komplett guide](./automate-conditional-formatting-excel-aspose-cells-java/)
 Lär dig hur du automatiserar villkorsstyrd formatering i Excel med Aspose.Cells för Java. Effektivisera ditt arbetsflöde och öka produktiviteten genom att effektivt tillämpa dynamiska regler.
 
+### [Skapa Excel-arbetsbok med dynamisk formatering i Java – En komplett guide](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+Lär dig hur du skapar en Excel-arbetsbok med dynamisk formatering i Java med hjälp av Aspose.Cells. Steg-för-steg-instruktioner och kodexempel.
+
 ### [Så här ändrar du Excel-temafärger med Aspose.Cells för Java: En omfattande guide](./change-excel-theme-colors-aspose-cells-java/)
 Lär dig hur du ändrar temafärger i Excel-filer programmatiskt med Aspose.Cells för Java. Följ den här steg-för-steg-guiden för att förbättra dina kalkylblads utseende och bibehålla varumärkeskonsekvens.
 

@@ -83,6 +83,8 @@ Tìm hiểu cách tự động hóa các tác vụ Excel bằng Aspose.Cells for
 ### [Cách triển khai FormulaText trong Aspose.Cells cho Java: Hướng dẫn từng bước](./implementing-formula-text-aspose-cells-java-guide/)
 Tìm hiểu cách trích xuất văn bản công thức từ các ô Excel bằng Aspose.Cells với Java. Hướng dẫn này bao gồm thiết lập, triển khai và ứng dụng thực tế.
 
+### [Cách sử dụng Reduce trong Excel với Java – Hướng dẫn công thức Lambda](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
+Tìm hiểu cách áp dụng hàm Reduce trong Excel bằng Java để thực hiện các phép tính tổng hợp với công thức Lambda.
 ### [Cách sử dụng SEQUENCE trong sổ làm việc Excel Java – Hướng dẫn từng bước](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
 Tìm hiểu cách sử dụng hàm SEQUENCE trong Excel bằng Aspose.Cells cho Java để tạo dãy dữ liệu động một cách dễ dàng.
 

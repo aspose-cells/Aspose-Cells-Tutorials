@@ -1,12 +1,12 @@
 ---
-date: '2025-12-10'
-description: Aspose.Cells for Java के साथ Excel में छवियों में हाइपरलिंक जोड़ना सीखें,
-  स्थिर चित्रों को इंटरैक्टिव लिंक में बदलकर अधिक समृद्ध स्प्रेडशीट बनाएं।
+date: '2026-02-16'
+description: Aspose.Cells for Java के साथ क्लिक करने योग्य इमेज एक्सेल बनाना सीखें,
+  इंटरैक्टिव स्प्रेडशीट्स के लिए चित्रों में हाइपरलिंक जोड़ें।
 keywords:
 - image hyperlinks in Excel
 - Aspose.Cells for Java
 - interactive Excel spreadsheets
-title: Aspose.Cells for Java का उपयोग करके Excel में छवियों में हाइपरलिंक कैसे जोड़ें
+title: Aspose.Cells for Java का उपयोग करके क्लिक करने योग्य इमेज वाला एक्सेल बनाएं
 url: /hi/java/advanced-features/add-image-hyperlinks-excel-aspose-cells-java/
 weight: 1
 ---
@@ -17,36 +17,37 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Excel में चित्रों में हाइपरलिंक कैसे जोड़ें Aspose.Cells for Java का उपयोग करके
+# Aspose.Cells for Java का उपयोग करके क्लिक करने योग्य इमेज एक्सेल बनाएं
 
-## Introduction
+## परिचय
 
-यदि आप अपने Excel रिपोर्ट को अधिक इंटरैक्टिव बनाना चाहते हैं, तो चित्रों में हाइपरलिंक जोड़ना सीखना एक अच्छा प्रारंभ बिंदु है। इस ट्यूटोरियल में आप देखेंगे कि Aspose.Cells for Java कैसे क्लिक करने योग्य चित्र एम्बेड करता है, जिससे स्थैतिक विज़ुअल को फ़ंक्शनल लिंक में बदला जा सकता है जो वेब पेज, दस्तावेज़ या अन्य संसाधनों को सीधे स्प्रेडशीट से खोलता है।
+यदि आप **क्लिक करने योग्य इमेज एक्सेल** वर्कबुक बनाना चाहते हैं जो उपयोगकर्ताओं को एक क्लिक में वेबसाइट, दस्तावेज़ या अन्य संसाधनों पर ले जाएँ, तो आप सही जगह पर हैं। इस ट्यूटोरियल में हम देखेंगे कि Aspose.Cells for Java कैसे आपको **हाइपरलिंक एक्सेल पिक्चर** ऑब्जेक्ट जोड़ने, स्क्रीन टिप्स कॉन्फ़िगर करने, और आपके स्प्रेडशीट को सुंदर और कार्यात्मक रखने में सक्षम बनाता है।
 
-### What You'll Learn
+### आप क्या सीखेंगे
 - Java में Aspose.Cells वर्कबुक को इनिशियलाइज़ करना।  
-- एक चित्र सम्मिलित करना और उसे हाइपरलिंक में बदलना।  
-- मुख्य मेथड्स जैसे `addHyperlink`, `setPlacement`, और `setScreenTip`।  
-- परफ़ॉर्मेंस और लाइसेंसिंग के लिए सर्वोत्तम प्रथाएँ।  
+- एक इमेज डालना और उसे क्लिक करने योग्य हाइपरलिंक में बदलना।  
+- `addHyperlink`, `setPlacement`, और `setScreenTip` जैसे प्रमुख मेथड्स।  
+- प्रदर्शन और लाइसेंसिंग के लिए सर्वोत्तम प्रथाएँ।
 
-## Quick Answers
-- **आवश्यक लाइब्रेरी कौन सी है?** Aspose.Cells for Java।  
-- **क्या मैं .xlsx फ़ाइलें उपयोग कर सकता हूँ?** हाँ – API .xls और .xlsx दोनों के साथ काम करता है।  
+## त्वरित उत्तर
+- **कौनसी लाइब्रेरी आवश्यक है?** Aspose.Cells for Java.  
+- **क्या मैं .xlsx फ़ाइलें उपयोग कर सकता हूँ?** हाँ – API .xls और .xlsx दोनों के साथ काम करती है।  
 - **क्या मुझे लाइसेंस चाहिए?** मूल्यांकन के लिए ट्रायल काम करता है; उत्पादन के लिए स्थायी लाइसेंस आवश्यक है।  
-- **कोड की कितनी पंक्तियाँ?** क्लिक करने योग्य चित्र जोड़ने के लिए लगभग 20 पंक्तियाँ।  
-- **क्या यह थ्रेड‑सेफ़ है?** Workbook ऑब्जेक्ट थ्रेड‑सेफ़ नहीं हैं; प्रत्येक थ्रेड के लिए अलग इंस्टेंस बनाएं।
+- **कोड की कितनी पंक्तियाँ?** क्लिक करने योग्य इमेज जोड़ने के लिए लगभग 20 पंक्तियाँ।  
+- **क्या यह थ्रेड‑सेफ है?** Workbook ऑब्जेक्ट थ्रेड‑सेफ नहीं हैं; प्रत्येक थ्रेड के लिए अलग इंस्टेंस बनाएँ।  
+- **क्या मैं एक्सेल में स्क्रीन टिप जोड़ सकता हूँ?** हाँ – `Hyperlink.setScreenTip()` का उपयोग करके उपयोगी होवर टेक्स्ट दिखाएँ।
 
-## How to Add Hyperlink to an Image in Excel
+## Aspose.Cells for Java के साथ क्लिक करने योग्य इमेज एक्सेल कैसे बनाएं
 
-### Prerequisites
-Before you begin, make sure you have:
+### पूर्वापेक्षाएँ
+शुरू करने से पहले, सुनिश्चित करें कि आपके पास है:
 
 - **Aspose.Cells for Java** (v25.3 या बाद का)।  
-- **JDK 8+** स्थापित हो।  
-- एक IDE (IntelliJ IDEA, Eclipse, या NetBeans) और निर्भरता प्रबंधन के लिए Maven या Gradle।  
+- **JDK 8+** स्थापित है।  
+- एक IDE (IntelliJ IDEA, Eclipse, या NetBeans) और निर्भरता प्रबंधन के लिए Maven या Gradle।
 
-### Required Libraries
-Add Aspose.Cells to your project:
+### आवश्यक लाइब्रेरी
+अपने प्रोजेक्ट में Aspose.Cells जोड़ें:
 
 **Maven**
 ```xml
@@ -62,16 +63,15 @@ Add Aspose.Cells to your project:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### License Acquisition
-Aspose.Cells व्यावसायिक है, लेकिन आप मुफ्त ट्रायल से शुरू कर सकते हैं या अस्थायी लाइसेंस का अनुरोध कर सकते हैं:
+### लाइसेंस प्राप्त करना
+Aspose.Cells एक व्यावसायिक उत्पाद है, लेकिन आप मुफ्त ट्रायल से शुरू कर सकते हैं या अस्थायी लाइसेंस का अनुरोध कर सकते हैं:
 
-- फ़्री ट्रायल: [Aspose Downloads](https://releases.aspose.com/cells/java/) से डाउनलोड करें।  
-- अस्थायी लाइसेंस: [Temporary License page](https://purchase.aspose.com/temporary-license/) के माध्यम से अनुरोध करें।  
-- खरीद: दीर्घकालिक उपयोग के लिए, [Aspose Purchase](https://purchase.aspose.com/buy) पर जाएँ।
+- मुफ्त ट्रायल: डाउनलोड करें [Aspose डाउनलोड्स](https://releases.aspose.com/cells/java/)।  
+- अस्थायी लाइसेंस: अनुरोध करें [अस्थायी लाइसेंस पेज](https://purchase.aspose.com/temporary-license/) के माध्यम से।  
+- खरीदारी: दीर्घकालिक उपयोग के लिए, देखें [Aspose खरीदारी](https://purchase.aspose.com/buy)।
 
-### Basic Initialization
-Create a workbook and get the first worksheet:
-
+### बुनियादी प्रारंभिककरण
+एक वर्कबुक बनाएं और पहली वर्कशीट प्राप्त करें:
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -81,11 +81,10 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Step‑by‑Step Implementation
+## चरण‑दर‑चरण कार्यान्वयन
 
-### Step 1: Prepare Your Workbook
-We start by creating a new workbook and selecting the first sheet.
-
+### चरण 1: अपना वर्कबुक तैयार करें
+हम एक नया वर्कबुक बनाकर और पहली शीट चुनकर शुरू करते हैं।
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -94,26 +93,23 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### Step 2: Insert a Label and Adjust Cell Size
-Add a descriptive label and give the cell enough space for the picture.
-
+### चरण 2: लेबल डालें और सेल आकार समायोजित करें
+एक वर्णनात्मक लेबल जोड़ें और चित्र के लिए सेल में पर्याप्त जगह दें।
 ```java
 worksheet.getCells().get("C2").setValue("Image Hyperlink");
 worksheet.getCells().setRowHeight(3, 100); // Set row height for C4
 worksheet.getCells().setColumnWidth(2, 21); // Adjust column width for C column
 ```
 
-### Step 3: Add the Image
-Load the picture file and place it on the sheet.
-
+### चरण 3: छवि जोड़ें
+चित्र फ़ाइल लोड करें और उसे शीट पर रखें।
 ```java
 int index = worksheet.getPictures().add(3, 2, "path/to/aspose-logo.jpg");
 ```
-*Tip*: `"path/to/aspose-logo.jpg"` को अपने चित्र फ़ाइल के वास्तविक पथ से बदलें।
+*टिप*: `"path/to/aspose-logo.jpg"` को अपनी छवि फ़ाइल के वास्तविक पथ से बदलें।
 
-### Step 4: Configure Placement and Add the Hyperlink
-Make the picture free‑floating and attach a hyperlink to it.
-
+### चरण 4: प्लेसमेंट कॉन्फ़िगर करें और हाइपरलिंक जोड़ें
+चित्र को फ्री‑फ़्लोटिंग बनाएं और उस पर हाइपरलिंक संलग्न करें।
 ```java
 import com.aspose.cells.Picture;
 import com.aspose.cells.PlacementType;
@@ -125,9 +121,8 @@ pic.setPlacement(PlacementType.FREE_FLOATING);
 pic.addHyperlink("http://www.aspose.com/");
 ```
 
-### Step 5: Set a Screen Tip and Save the Workbook
-Provide a helpful tooltip and write the workbook to disk.
-
+### चरण 5: स्क्रीन टिप सेट करें और वर्कबुक सहेजें
+एक उपयोगी टूलटिप प्रदान करें और वर्कबुक को डिस्क पर लिखें।
 ```java
 import com.aspose.cells.Hyperlink;
 
@@ -137,54 +132,60 @@ hlink.setScreenTip("Click to go to Aspose site");
 workbook.save("AIHyperlinks_out.xls");
 ```
 
-## Troubleshooting Tips
-- **Image path errors** – फ़ाइल स्थान को दोबारा जांचें और सुनिश्चित करें कि एप्लिकेशन के पास पढ़ने की अनुमति है।  
-- **License not applied** – यदि ट्रायल समाप्त हो जाता है, तो हाइपरलिंक काम करना बंद कर सकते हैं; `License.setLicense` के साथ वैध लाइसेंस लागू करें।  
-- **Hyperlink not clickable** – सुनिश्चित करें कि चित्र का `PlacementType` `FREE_FLOATING` पर सेट है।  
+## हाइपरलिंक एक्सेल पिक्चर क्यों जोड़ें?
+क्लिक करने योग्य चित्र को एम्बेड करने से आप ब्रांडिंग तत्वों, आइकनों या आरेखों को सीधे नेविगेशन पॉइंट में बदल सकते हैं। इससे मार्केटिंग डैशबोर्ड, तकनीकी मैनुअल और शैक्षिक वर्कशीट में उपयोगकर्ता अनुभव बेहतर होता है क्योंकि संबंधित सामग्री तक पहुँचने के लिए आवश्यक क्लिकों की संख्या कम हो जाती है।
 
-## Practical Applications
-Embedding clickable images is useful in many scenarios:
+## एक्सेल में स्क्रीन टिप कैसे जोड़ें
+`setScreenTip` मेथड आपको वह होवर टेक्स्ट परिभाषित करने देता है जो उपयोगकर्ता जब चित्र पर कर्सर रखते हैं तो दिखाई देता है। यह संदर्भ प्रदान करने के लिए आदर्श है, जैसे “उत्पाद विवरण देखें” या “ट्यूटोरियल वीडियो खोलें”।
 
-1. **Marketing reports** – ब्रांड लोगो को प्रोडक्ट पेज से लिंक करें।  
-2. **Technical documentation** – डायग्राम संलग्न करें जो विस्तृत स्कीमैटिक खोलते हैं।  
-3. **Educational worksheets** – आइकन को अतिरिक्त वीडियो के शॉर्टकट में बदलें।  
-4. **Project dashboards** – स्टेटस आइकन को संबंधित टास्क ट्रैकर खोलने के लिए बनाएं।  
+## समस्या निवारण टिप्स
+- **इमेज पाथ त्रुटियाँ** – फ़ाइल स्थान दोबारा जांचें और सुनिश्चित करें कि एप्लिकेशन को पढ़ने की अनुमति है।  
+- **लाइसेंस लागू नहीं हुआ** – यदि ट्रायल समाप्त हो जाता है, तो हाइपरलिंक काम करना बंद कर सकते हैं; `License.setLicense` के साथ वैध लाइसेंस लागू करें।  
+- **हाइपरलिंक क्लिक योग्य नहीं** – पुष्टि करें कि चित्र का `PlacementType` `FREE_FLOATING` पर सेट है।
 
-## Performance Considerations
-- छवि फ़ाइल आकार को उचित रखें; बड़ी तस्वीरें वर्कबुक मेमोरी उपयोग बढ़ाती हैं।  
+## व्यावहारिक उपयोग
+क्लिक करने योग्य छवियों को एम्बेड करना कई परिदृश्यों में उपयोगी है:
+
+1. **मार्केटिंग रिपोर्ट्स** – ब्रांड लोगो को उत्पाद पेजों से लिंक करें।  
+2. **तकनीकी दस्तावेज़ीकरण** – आरेख जोड़ें जो विस्तृत स्कीमैटिक खोलते हैं।  
+3. **शैक्षिक वर्कशीट** – आइकनों को अतिरिक्त वीडियो के शॉर्टकट में बदलें।  
+4. **प्रोजेक्ट डैशबोर्ड** – स्टेटस आइकनों को संबंधित टास्क ट्रैकर खोलने के लिए बनाएं।
+
+## प्रदर्शन संबंधी विचार
+- इमेज फ़ाइल आकार को उचित रखें; बड़ी छवियां वर्कबुक मेमोरी उपयोग बढ़ा देती हैं।  
 - लूप में कई फ़ाइलें प्रोसेस करते समय अप्रयुक्त ऑब्जेक्ट्स (`workbook.dispose()`) को डिस्पोज़ करें।  
-- परफ़ॉर्मेंस सुधार और बग फिक्स के लिए नवीनतम Aspose.Cells संस्करण में अपग्रेड करें।  
+- प्रदर्शन सुधार और बग फिक्स के लिए नवीनतम Aspose.Cells संस्करण में अपग्रेड करें।
 
-## Conclusion
-आप अब जानते हैं **Excel में चित्रों में हाइपरलिंक कैसे जोड़ें** Aspose.Cells for Java का उपयोग करके, जिससे आप अधिक समृद्ध, इंटरैक्टिव स्प्रेडशीट बना सकते हैं। विभिन्न URLs, स्क्रीन टिप्स, और चित्र प्लेसमेंट के साथ प्रयोग करें ताकि आपकी रिपोर्टिंग आवश्यकताओं के अनुसार अनुकूल हो सके। अगला कदम आप शैप्स में हाइपरलिंक जोड़ने या कई वर्कशीट्स में बड़े पैमाने पर चित्र सम्मिलित करने को स्वचालित करने का अन्वेषण कर सकते हैं।
+## निष्कर्ष
+अब आप जानते हैं कि Aspose.Cells for Java का उपयोग करके Excel में चित्रों में **हाइपरलिंक कैसे जोड़ें**, जिससे आप **क्लिक करने योग्य इमेज एक्सेल** वर्कबुक बना सकते हैं जो अधिक समृद्ध और इंटरैक्टिव होते हैं। विभिन्न URL, स्क्रीन टिप्स और चित्र प्लेसमेंट के साथ प्रयोग करें ताकि आपकी रिपोर्टिंग आवश्यकताओं के अनुसार हो सके। अगला, आप शैप्स में हाइपरलिंक जोड़ने या कई वर्कशीट में बड़े पैमाने पर इमेज इन्सर्शन को स्वचालित करने का अन्वेषण कर सकते हैं।
 
-## Frequently Asked Questions
+## अक्सर पूछे जाने वाले प्रश्न
 
-**Q:** Aspose.Cells for Java द्वारा समर्थित अधिकतम चित्र आकार क्या है?  
-**A:** कोई सख्त सीमा नहीं है, लेकिन बहुत बड़ी छवियाँ परफ़ॉर्मेंस को प्रभावित कर सकती हैं और फ़ाइल आकार बढ़ा सकती हैं।
+**प्रश्न:** Aspose.Cells for Java द्वारा समर्थित अधिकतम इमेज आकार क्या है?  
+**उत्तर:** कोई सख्त सीमा नहीं है, लेकिन बहुत बड़ी छवियां प्रदर्शन को प्रभावित कर सकती हैं और फ़ाइल आकार बढ़ा सकती हैं।
 
-**Q:** क्या मैं इस फीचर को .xlsx फ़ाइलों के साथ उपयोग कर सकता हूँ?  
-**A:** हाँ, API `.xls` और `.xlsx` दोनों फ़ॉर्मेट के साथ काम करता है।
+**प्रश्न:** क्या मैं इस फीचर को .xlsx फ़ाइलों के साथ उपयोग कर सकता हूँ?  
+**उत्तर:** हाँ, API दोनों `.xls` और `.xlsx` फ़ॉर्मेट के साथ काम करती है।
 
-**Q:** हाइपरलिंक जोड़ते समय अपवादों को कैसे संभालें?  
-**A:** कोड को try‑catch ब्लॉक में रखें और `Exception` विवरण को लॉग करें ताकि पाथ या लाइसेंसिंग समस्याओं का निदान किया जा सके।
+**प्रश्न:** हाइपरलिंक जोड़ते समय अपवादों को कैसे संभालें?  
+**उत्तर:** कोड को try‑catch ब्लॉक में रखें और `Exception` विवरण को लॉग करें ताकि पाथ या लाइसेंसिंग समस्याओं का निदान किया जा सके।
 
-**Q:** क्या जोड़ने के बाद चित्र से हाइपरलिंक हटाना संभव है?  
-**A:** हाँ – `Picture` ऑब्जेक्ट प्राप्त करें और `pic.getHyperlink().remove()` कॉल करें या कलेक्शन से चित्र को हटाएँ।
+**प्रश्न:** क्या इमेज से हाइपरलिंक जोड़ने के बाद उसे हटाना संभव है?  
+**उत्तर:** हाँ – `Picture` ऑब्जेक्ट प्राप्त करें और `pic.getHyperlink().remove()` कॉल करें या कलेक्शन से चित्र को हटाएँ।
 
-**Q:** मेरा हाइपरलिंक अपेक्षित रूप से क्यों काम नहीं कर रहा हो सकता है?  
-**A:** सामान्य कारणों में गलत URL स्ट्रिंग, `http://`/`https://` प्रीफ़िक्स की कमी, या अनलाइसेंस्ड ट्रायल जो कुछ फीचर को डिसेबल कर देता है।
+**प्रश्न:** मेरा हाइपरलिंक अपेक्षित रूप से क्यों काम नहीं कर रहा हो सकता है?  
+**उत्तर:** सामान्य कारणों में गलत URL स्ट्रिंग, `http://`/`https://` प्रीफ़िक्स का अभाव, या एक अनलाइसेंस्ड ट्रायल जो कुछ फीचर्स को अक्षम कर देता है, शामिल हैं।
 
-## Additional Resources
-- **Documentation:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
-- **Download:** [Aspose Cells Release](https://releases.aspose.com/cells/java/)  
-- **Purchase and Trial:** Visit [Aspose Purchase](https://purchase.aspose.com/buy) or [Temporary License Page](https://purchase.aspose.com/temporary-license/) for licensing options.  
-- **Support Forum:** For assistance, check out the [Aspose Support Forum](https://forum.aspose.com/c/cells/9).
+## अतिरिक्त संसाधन
+- **दस्तावेज़ीकरण:** [Aspose.Cells Java रेफ़रेंस](https://reference.aspose.com/cells/java/)  
+- **डाउनलोड:** [Aspose Cells रिलीज़](https://releases.aspose.com/cells/java/)  
+- **खरीद और ट्रायल:** लाइसेंस विकल्पों के लिए देखें [Aspose खरीदारी](https://purchase.aspose.com/buy) या [अस्थायी लाइसेंस पेज](https://purchase.aspose.com/temporary-license/)।  
+- **सपोर्ट फ़ोरम:** सहायता के लिए देखें [Aspose सपोर्ट फ़ोरम](https://forum.aspose.com/c/cells/9)।
 
 ---
 
-**अंतिम अपडेट:** 2025-12-10  
-**परीक्षित संस्करण:** Aspose.Cells for Java 25.3  
+**अंतिम अपडेट:** 2026-02-16  
+**परीक्षण किया गया:** Aspose.Cells for Java 25.3  
 **लेखक:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

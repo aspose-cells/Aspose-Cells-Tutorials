@@ -218,6 +218,9 @@ En kodhandledning för Aspose.Words Java
 ### [Skapa och anpassa Excel-arbetsböcker med Aspose.Cells Java: En steg-för-steg-guide](./create-customize-excel-workbooks-aspose-cells-java/)
 Lär dig hur du automatiserar skapandet och anpassningen av Excel-arbetsböcker med Aspose.Cells för Java. Öka produktiviteten genom att bemästra arbetsboksoperationer.
 
+### [Skapa Excel-arbetsbok i Java – Komplett steg‑för‑steg‑guide](./create-excel-workbook-java-complete-step-by-step-guide/)
+Lär dig hur du skapar en Excel-arbetsbok i Java med Aspose.Cells genom en detaljerad steg‑för‑steg‑guide.
+
 ### [Hur man skapar och sammanfogar Excel-arbetsböcker med Aspose.Cells för Java | Komplett guide](./create-merge-excel-workbooks-aspose-cells-java/)
 Lär dig hur du effektivt skapar och sammanfogar Excel-arbetsböcker med Aspose.Cells för Java med den här omfattande guiden. Effektivisera dina arbetsboksoperationer idag.
 
@@ -475,6 +478,9 @@ Lär dig hur du smidigt sparar Excel-filer i flera format med Aspose.Cells för 
 
 ### [Så här ställer du in Excel-dokumentversion med Aspose.Cells för Java](./set-excel-version-aspose-cells-java/)
 Lär dig hur du ställer in och hanterar dokumentegenskaper som versionshantering i Excel-filer med Aspose.Cells för Java. Följ den här steg-för-steg-guiden för effektiv arbetsbokshantering.
+
+### [Spara arbetsbok som XLSX i Java – Komplett programmeringsguide](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
+Lär dig hur du sparar en Excel-arbetsbok som XLSX i Java med Aspose.Cells, inklusive kodexempel och bästa praxis.
 
 ### [Spara arbetsbok till fil – Komplett Java-guide för att kopiera Excel-områden](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
 Lär dig hur du sparar en arbetsbok till fil och kopierar Excel-områden med Aspose.Cells för Java i en komplett guide.

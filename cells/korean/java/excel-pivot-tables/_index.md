@@ -42,6 +42,10 @@ Aspose.Cells for Java를 사용하여 피벗 테이블에 계산 필드를 만�
 Aspose.Cells for Java에서 피벗 테이블 데이터를 새로 고치는 방법을 알아보세요. 데이터를 손쉽게 최신 상태로 유지하세요.
 ### [피벗 테이블 스타일 사용자 지정](./customizing-pivot-table-styles/)
 Aspose.Cells for Java API에서 피벗 테이블 스타일을 사용자 지정하는 방법을 알아보세요. 시각적으로 매력적인 피벗 테이블을 쉽게 만들 수 있습니다.
+### [Java에서 피벗 테이블 복사 – 보존하고 PPTX로 내보내기](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
+Aspose.Cells for Java를 사용해 피벗 테이블을 복사하고, 원본을 유지한 채 PPTX 파일로 내보내는 방법을 알아보세요.
+### [Java에서 피벗 테이블 복사하기 – 완전한 Aspose.Cells 가이드](./how-to-copy-pivot-table-in-java-complete-aspose-cells-guide/)
+Aspose.Cells for Java를 사용하여 피벗 테이블을 복사하는 방법을 단계별로 안내합니다. 효율적인 데이터 복제와 관리 기술을 배워보세요.
 ### [Java에서 피벗을 사용해 PNG 만들기 – 전체 단계별 가이드](./create-png-from-pivot-in-java-full-step-by-step-guide/)
 Aspose.Cells for Java를 활용해 피벗 테이블을 이미지(PNG)로 변환하는 방법을 단계별로 안내합니다.
 

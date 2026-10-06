@@ -1,0 +1,7 @@
+Title: Create Dynamic Array in Excel with Python – Step‑by‑Step Guide
+Slug: create-dynamic-array-in-excel-with-python-step-by-step-guide
+Category: import-and-export
+ProcessedDate: 2026-06-21T13:05:26.320980
+SourceRepo: AI Search API
+Keywords: create dynamic array, sequence function excel, read formula result, recalculate excel formulas, excel sequence example
+PRNumber: 101

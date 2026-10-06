@@ -1,0 +1,7 @@
+Title: Copy Workbook in C# – Export Table to Another Worksheet
+Slug: copy-workbook-in-c-export-table-to-another-worksheet
+Category: excel-copy-worksheet
+ProcessedDate: 2026-06-21T10:54:17.144176
+SourceRepo: AI Search API
+Keywords: copy workbook in c#, export table to another worksheet
+PRNumber: 99

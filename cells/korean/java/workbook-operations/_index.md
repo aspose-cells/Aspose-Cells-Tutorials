@@ -230,9 +230,6 @@ Aspose.Cells for Java를 사용하여 ODS 파일을 쉽게 생성하고 저장�
 ### [Aspose.Cells for Java를 사용하여 Excel 통합 문서를 SVG로 만들고 저장하는 방법](./create-save-workbook-svg-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 통합 문서 생성을 자동화하고 SVG 파일로 내보내는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드를 따라해 보세요.
 
-### [Aspose.Cells Java를 사용하여 암호화된 파일의 파일 형식 감지](./detect-encrypted-file-format-aspose-cells-java/)
-Aspose.Words Java에 대한 코드 튜토리얼
-
 ### [Java용 Aspose.Cells를 사용하여 Excel 호환성 검사기를 비활성화하는 방법](./disable-excel-compatibility-checker-aspose-cells-java/)
 Aspose.Cells for Java에서 Excel 호환성 검사를 비활성화하는 방법을 알아보세요. 다양한 Office 버전 간의 원활한 통합을 보장합니다.
 
@@ -340,9 +337,6 @@ Aspose.Cells for Java를 사용하여 Excel 파일에 사용자 정의 속성을
 
 ### [Aspose.Cells Java를 사용하여 Excel 인쇄 영역을 HTML로 내보내기](./export-excel-print-area-html-aspose-cells-java/)
 Aspose.Cells for Java에 대한 코드 튜토리얼
-
-### [Aspose.Cells Java를 사용하여 Excel 인쇄 영역을 HTML로 내보내기](./export-excel-print-area-html-aspose-cells-java/)
-Aspose.Words Java에 대한 코드 튜토리얼
 
 ### [Aspose.Cells for Java를 사용하여 Excel 시트를 이미지로 내보내기 - 종합 가이드](./export-excel-sheets-images-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 시트를 고화질 이미지로 변환하는 방법을 알아보세요. 스프레드시트를 내보내고 JPEG 또는 PNG로 렌더링하는 방법에 대한 단계별 가이드를 따라해 보세요.
@@ -457,6 +451,13 @@ Aspose.Cells for Java를 사용하여 Excel 파일을 다양한 형식으로 원
 
 ### [Java용 Aspose.Cells를 사용하여 Excel 문서 버전을 설정하는 방법](./set-excel-version-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 파일의 버전 관리와 같은 문서 속성을 설정하고 관리하는 방법을 알아보세요. 효율적인 통합 문서 작업을 위한 단계별 가이드를 따라해 보세요.
+
+### [Aspose.Cells Java: Save Workbook as XLSX in Java – Complete Programming Guide](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
+Aspose.Cells for Java를 사용하여 워크북을 XLSX 형식으로 저장하는 방법을 단계별로 안내합니다.
+
+### [Java로 Excel 워크북 만들기 – 완전 단계별 가이드](./create-excel-workbook-java-complete-step-by-step-guide/)
+Aspose.Cells for Java를 사용하여 Java에서 Excel 워크북을 만들고 저장하는 방법을 단계별로 안내합니다.
+
 
 ### [통합 문서를 파일에 저장 – Excel 범위 복사를 위한 완전한 Java 가이드](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
 Excel 범위를 복사하고 통합 문서를 파일로 저장하는 방법을 단계별로 안내합니다.

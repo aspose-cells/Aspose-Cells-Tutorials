@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwersja i renderowanie
@@ -38,11 +36,43 @@ Naucz się zaawansowanej konwersji Excela do PDF bezproblemowo z Aspose.Cells w 
 Dowiedz się, jak przekonwertować arkusz kalkulacyjny programu Excel do formatu SVG za pomocą Aspose.Cells dla platformy .NET, korzystając z tego przewodnika krok po kroku. Idealne dla programistów .NET, którzy chcą renderować arkusz programu Excel do formatu SVG.
 ### [Konwersja Excela do MHTML w .NET](./converting-excel-to-mhtml/)
 Dowiedz się, jak efektywnie konwertować pliki Excel do formatu MHTML w środowisku .NET za pomocą Aspose.Cells, zwiększając w ten sposób możliwości raportowania i udostępniania danych.
+### [Utwórz obraz z Excela – eksportuj tabelę przestawną do PNG w C#](./create-image-from-excel-export-pivot-to-png-in-c/)
+Dowiedz się, jak wygenerować obraz PNG z tabeli przestawnej w Excelu przy użyciu Aspose.Cells w C#.
+### [Jak wczytać Markdown i przekonwertować go na Excel – przewodnik krok po kroku](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
+Dowiedz się, jak wczytać plik Markdown i przekształcić go w arkusz Excel przy użyciu Aspose.Cells w .NET.
+### [Zapisz docx jako txt – łatwo konwertuj Word do txt za pomocą Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+Dowiedz się, jak szybko i łatwo konwertować dokumenty Word (docx) do formatu txt przy użyciu Aspose.Words.
+### [Jak załadować Markdown do Excela – Kompletny przewodnik C#](./how-to-load-markdown-into-excel-complete-c-guide/)
+Dowiedz się, jak w prosty sposób wczytać pliki Markdown do Excela przy użyciu C# i Aspose.Cells.
+### [Arkusz Excel do PNG – Kompletny przewodnik C# dotyczący zapisywania Excela jako obrazu](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+Dowiedz się, jak zapisać arkusz Excel jako plik PNG przy użyciu Aspose.Cells w C#, krok po kroku.
+### [Konwertuj Markdown do Excela w C# – Przewodnik krok po kroku](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+Dowiedz się, jak przekształcić pliki Markdown w arkusze Excel przy użyciu C# i biblioteki Aspose.Cells, krok po kroku.
+### [Konwersja docx do SVG – Pełny przewodnik zapisywania Worda jako SVG](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
+Dowiedz się, jak przekształcić dokumenty Word (docx) na format SVG przy użyciu Aspose.Words w .NET, krok po kroku.
+### [Osadzanie czcionek w HTML – Pełny przewodnik dla programistów .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
+Poznaj, jak osadzić czcionki w dokumentach HTML przy pomocy Aspose.Cells w .NET, aby zapewnić spójny wygląd na wszystkich platformach.
+
+
+
+
+
+
+
+
+### [Arkusz Excel do PNG – Eksport tabeli przestawnej jako PNG w C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
+Dowiedz się, jak wyeksportować tabelę przestawną z Excela jako obraz PNG przy użyciu Aspose.Cells w C#.
+
+### [Utwórz nowy skoroszyt w C# – Importuj Markdown do Excela](./create-new-workbook-in-c-import-markdown-to-excel/)
+Dowiedz się, jak w C# utworzyć nowy skoroszyt i zaimportować zawartość Markdown do pliku Excel przy użyciu Aspose.Cells.
+### [Konwertuj markdown do Excela – Kompletny przewodnik C#](./convert-markdown-to-excel-complete-c-guide/)
+Dowiedz się, jak w C# przekształcić pliki markdown w arkusze Excel przy użyciu Aspose.Cells.
+### [Eksportowanie Excela do PNG przy użyciu Aspose.Cells – Kompletny przewodnik krok po kroku](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Dowiedz się, jak wyeksportować arkusz Excela do obrazu PNG przy użyciu Aspose.Cells w .NET, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

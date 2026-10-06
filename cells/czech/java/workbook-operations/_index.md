@@ -29,6 +29,12 @@ Naše tutoriály pro práci se sešity poskytují komplexní návod pro programo
 ### [Aspose.Cells Java: Vytváření a ukládání sešitů Excelu – Podrobný návod](./aspose-cells-java-create-save-excel-workbooks/)
 Naučte se, jak automatizovat vytváření a správu sešitů aplikace Excel pomocí Aspose.Cells pro Javu. Tato příručka se zabývá vytvářením instancí, ukládáním a nastavováním vlastností stránky.
 
+### [Vytvořte Excel sešit v Javě – Kompletní krok‑za‑krokem průvodce](./create-excel-workbook-java-complete-step-by-step-guide/)
+Naučte se, jak vytvořit sešit Excel v Javě pomocí Aspose.Cells s podrobným návodem krok za krokem.
+
+### [Uložení sešitu jako XLSX v Javě – Kompletní programovací průvodce](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
+Naučte se, jak pomocí Aspose.Cells pro Javu uložit sešit Excelu ve formátu XLSX s kompletními ukázkami kódu.
+
 ### [Aspose.Cells Java: Zobrazení verze a vytvoření sdíleného sešitu](./aspose-cells-java-display-version-create-shared-workbook/)
 Výukový program pro Aspose.Words v Javě
 

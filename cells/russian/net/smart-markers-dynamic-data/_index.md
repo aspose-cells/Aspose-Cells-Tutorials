@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Умные маркеры в Aspose.Cells для динамических данных
@@ -56,6 +54,12 @@ Aspose.Cells Smart Markers также поддерживает анонимны�
 Гибкость универсальных списков позволяет разработчикам структурированно обрабатывать данные без потери производительности. В этом руководстве вы узнаете, как использовать универсальные списки с интеллектуальными маркерами для создания надежных динамических отчетов Excel. Такой подход гарантирует, что вы сможете легко манипулировать коллекциями данных, сохраняя при этом высокую безопасность типов и производительность в своих приложениях. Продолжайте, чтобы увидеть, как это может принести пользу созданию отчетов. [Читать далее](./generic-list-smart-markers/)
 
 ## Умные маркеры в Aspose.Cells для динамических данных. Учебники
+### [Объединение данных Excel в C# – Полное руководство по Smart Markers](./excel-data-merging-in-c-complete-smart-marker-guide/)
+Узнайте, как объединять данные из нескольких источников в Excel с помощью Smart Markers в Aspose.Cells для .NET.
+
+### [Создание рабочей книги Excel C# – Полное руководство по вставке массивов в ячейки](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+Узнайте, как с помощью Aspose.Cells создавать рабочие книги Excel в C# и вставлять массивы данных непосредственно в ячейки.
+
 ### [Добавьте пользовательские метки с помощью смарт-маркеров в Aspose.Cells](./add-custom-labels-smart-markers/)
 Откройте для себя мощь Aspose.Cells для .NET, чтобы добавлять пользовательские метки и интеллектуальные маркеры в документы Excel. Следуйте этому пошаговому руководству и создавайте динамичные, визуально привлекательные отчеты.
 ### [Автоматическое заполнение данных на листах в Aspose.Cells](./auto-populate-data-smart-markers/)
@@ -64,6 +68,8 @@ Aspose.Cells Smart Markers также поддерживает анонимны�
 Легко копируйте стили и форматы из файла шаблона в сгенерированный вами вывод Excel. Это всеобъемлющее руководство проведет вас через пошаговый процесс.
 ### [Использование динамических формул в интеллектуальных маркерах Aspose.Cells](./dynamic-formulas-smart-markers/)
 Узнайте, как использовать динамические формулы в интеллектуальных маркерах с Aspose.Cells для .NET, улучшая процесс создания отчетов Excel.
+### [Создайте динамические листы с помощью интеллектуальных маркеров в Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
+Узнайте, как генерировать листы Excel динамически, используя Smart Markers в Aspose.Cells для .NET, шаг за шагом.
 ### [Оценка IsBlank с помощью интеллектуальных маркеров в Aspose.Cells](./evaluate-isblank-smart-markers/)
 Улучшите свои файлы Excel с помощью интеллектуальных маркеров для эффективной оценки пустых значений с помощью Aspose.Cells для .NET. Узнайте, как это сделать, в этом пошаговом руководстве.
 ### [Группировка данных с помощью смарт-маркеров в Aspose.Cells .NET](./group-data-smart-markers/)
@@ -82,13 +88,78 @@ Aspose.Cells Smart Markers также поддерживает анонимны�
 Откройте для себя возможности Aspose.Cells с помощью этого пошагового руководства по использованию свойства HTML в интеллектуальных маркерах для приложений .NET.
 ### [Обработка вложенных объектов с помощью интеллектуальных маркеров Aspose.Cells](./nested-objects-smart-markers/)
 Раскройте потенциал отчетов Excel с помощью Aspose.Cells, легко обрабатывая вложенные объекты с помощью интеллектуальных маркеров в пошаговом руководстве.
+### [Включить опцию вложенного диапазона в Aspose.Cells SmartMarker](./enable-nested-range-option-in-aspose-cells-smartmarker/)
+Узнайте, как включить опцию вложенного диапазона в Aspose.Cells SmartMarker для более гибкой обработки вложенных данных в Excel.
+
 ### [Реализация массива переменных с помощью интеллектуальных маркеров Aspose.Cells](./variable-array-smart-markers/)
 Откройте для себя мощь Aspose.Cells. Узнайте, как шаг за шагом реализовать переменные массивы с помощью Smart Markers для бесперебойного создания отчетов Excel.
+### [Создание шаблона Excel с помощью Smart Markers в C# – Полное руководство](./create-excel-template-with-smart-markers-in-c-complete-guide/)
+Узнайте, как с помощью Aspose.Cells создать шаблон Excel, используя Smart Markers в C#, шаг за шагом, для динамических отчетов.
+
+### [Экспорт данных в Excel с помощью Smart Marker – Полное руководство на C#](./export-data-to-excel-with-smart-marker-full-c-guide/)
+
+### [Заполнить шаблон Excel – Заполнение данных Excel с помощью SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
+
+### [Как создать отчет Excel в C# – Полное руководство с использованием SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+### [Как написать шаблон с интеллектуальными маркерами – пошаговое руководство](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+Подробное пошаговое руководство по созданию шаблона Excel с использованием интеллектуальных маркеров в Aspose.Cells.
+### [Как заменять переменные в JSON с помощью SmartMarker – Полное руководство](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+Узнайте, как использовать SmartMarker для замены переменных в JSON‑файлах при генерации отчетов Excel.
+### [Как загрузить шаблон и создать отчет Excel с помощью SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
+Узнайте, как загрузить шаблон Excel и сгенерировать отчет, используя SmartMarker в Aspose.Cells for .NET.
+### [Как использовать маркеры в Aspose.Cells для динамического именования листов в Excel](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
+Узнайте, как применять маркеры в Aspose.Cells для автоматического создания и переименования листов Excel на основе данных.
+### [Создание динамической таблицы Excel – руководство по смарт-маркерам](./create-dynamic-excel-table-smart-marker-guide/)
+Узнайте, как с помощью интеллектуальных маркеров создавать динамические таблицы Excel, автоматически заполнять данные и управлять структурой.
+### [Создание условного значения ячейки с помощью Aspose.Cells Smart Marker](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+Узнайте, как использовать интеллектуальные маркеры Aspose.Cells для установки условных значений ячеек в Excel.
+### [Конвертация JSON в Excel с C# – пошаговое руководство](./convert-json-to-excel-with-c-step-by-step-guide/)
+Узнайте, как с помощью Aspose.Cells преобразовать JSON‑данные в файл Excel, используя C# в пошаговом руководстве.
+### [Как связать листы в Excel с помощью SmartMarker – пошаговое руководство](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
+Узнайте, как связывать листы в Excel с помощью SmartMarker, создавая динамические отчеты, следуя пошаговым инструкциям.
+### [Создание рабочей книги из XLSX с помощью Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+
+
+
+
+
+
+
+
+### [Как создать рабочую книгу с интеллектуальными маркерами – руководство Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+Узнайте, как быстро генерировать Excel‑файлы, используя интеллектуальные маркеры в Aspose.Cells для .NET, шаг за шагом.
+### [Создать коллекцию смарт‑маркеров – Полное руководство C#](./create-smart-marker-collection-complete-c-guide/)
+Подробное пошаговое руководство по созданию коллекции смарт‑маркеров в Aspose.Cells с использованием C#.
+### [Создать коллекцию смарт‑маркеров в C# – Полное руководство](./create-smart-marker-collection-in-c-complete-guide/)
+Подробное руководство по созданию коллекции смарт‑маркеров в Aspose.Cells с использованием C#.
+### [Автоматическое именование листов Excel – простой способ создания листов](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+Узнайте, как автоматически присваивать имена листам Excel, упрощая процесс генерации множества листов в отчетах.
+### [Как экспортировать Excel — Полное руководство для разработчиков C#](./how-to-export-excel-complete-guide-for-c-developers/)
+Подробное руководство по экспорту файлов Excel в C# с использованием Aspose.Cells, охватывающее настройку, форматы и лучшие практики.
+### [Экспорт данных в Excel: заполнение шаблона из массива в C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+Узнайте, как использовать Aspose.Cells для заполнения Excel‑шаблона данными из массива в C#, создавая динамические отчеты.
+### [Повтор данных в Excel – Заполнение шаблона с помощью SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+### [Как автоматически именовать листы – генерировать несколько листов в C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+Узнайте, как автоматически присваивать имена листам Excel и генерировать несколько листов в C# с помощью Aspose.Cells.
+### [Создать объект главных данных – пошаговое руководство по генерации листа деталей](./create-master-data-object-step-by-step-guide-to-generate-det/)
+### [Автоматизация генерации счетов – динамическое именование листов и повторение в C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+Узнайте, как автоматически создавать счета, динамически именовать листы и повторять их в Excel с помощью Aspose.Cells и C#.
+### [Создать шаблон скидки в C# – пошаговое руководство](./create-discount-template-in-c-step-by-step-guide/)
+Узнайте, как создать шаблон скидки в Excel с помощью Aspose.Cells for .NET, используя C# в пошаговом руководстве.
+### [Как создать иерархию с помощью SmartMarker – пошаговое руководство](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+Узнайте, как создавать иерархические структуры в Excel с помощью SmartMarker в Aspose.Cells for .NET, следуя пошаговому руководству.
+### [Разбор вложенного JSON в C# – Создание JSON‑payload в C#](./parse-nested-json-c-create-json-payload-c/)
+Научитесь разбирать вложенные JSON‑структуры и создавать JSON‑payload в C# с пошаговыми примерами.
+### [Как создать рабочую книгу с помощью смарт-маркеров – вывод High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
+### [Создание отчета master-detail в C# – Заполнение шаблона Excel с помощью SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
+### [Применить SmartMarker к листу в C# – Полное руководство](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
+Полное руководство по применению SmartMarker к листу в C#, показывающее шаги создания динамических отчетов в Excel.
+### [Создайте Excel программно с помощью Aspose.Cells Smart Markers](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+Узнайте, как программно создавать файлы Excel, используя Smart Markers в Aspose.Cells для .NET, с пошаговыми примерами кода.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

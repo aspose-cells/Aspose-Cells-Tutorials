@@ -1,0 +1,7 @@
+Title: Copy worksheet with pivot in C# using Aspose.Cells
+Slug: copy-worksheet-with-pivot-in-c-using-aspose-cells
+Category: excel-copy-worksheet
+ProcessedDate: 2026-08-08T07:08:19.463529
+SourceRepo: AI Search API
+Keywords: copy worksheet with pivot, how to copy pivot to new workbook, copy excel sheet c#, load excel file aspose.cells
+PRNumber: 136

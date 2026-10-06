@@ -233,6 +233,10 @@
 ### [كيفية تصميم خلايا Excel وإضافة ارتباطات تشعبية باستخدام Aspose.Cells لـ Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 أتقن تنسيق خلايا Excel وإضافة الروابط التشعبية في تطبيقات Java باستخدام Aspose.Cells. اتبع هذا الدليل الشامل للتكامل والتنسيق بسلاسة.
 
+### [إنشاء مصنف Excel بتنسيق ديناميكي في Java – دليل كامل](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+تعلم كيفية إنشاء مصنف Excel وتطبيق تنسيقات ديناميكية باستخدام Aspose.Cells لجافا خطوة بخطوة.
+
+
 ### [تعيين تنسيق الأرقام في Excel باستخدام Java – دليل كامل](./set-number-format-excel-in-java-complete-guide/)
 
 ## موارد إضافية

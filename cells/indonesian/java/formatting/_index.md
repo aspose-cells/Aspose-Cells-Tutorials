@@ -68,6 +68,9 @@ Pelajari cara menerapkan format angka dan gaya tanggal khusus menggunakan Aspose
 ### [Cara Membuat & Memformat Sel Excel Menggunakan Aspose.Cells untuk Java: Panduan Langkah demi Langkah](./aspose-cells-java-excel-automation-guide/)
 Pelajari cara mengotomatiskan dan memformat file Excel dengan mudah menggunakan Aspose.Cells untuk Java. Panduan ini mencakup pembuatan buku kerja, pemformatan sel, dan teknik penyimpanan.
 
+### [Membuat Buku Kerja Excel dengan Pemformatan Dinamis di Java – Panduan Lengkap](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+Pelajari cara membuat buku kerja Excel secara dinamis dengan pemformatan yang dapat berubah menggunakan Aspose.Cells untuk Java dalam panduan lengkap ini.
+
 ### [Mengoptimalkan Spasi HTML & Menyesuaikan Kolom Secara Otomatis di Excel Menggunakan Aspose.Cells untuk Java](./aspose-cells-java-optimize-html-spaces-auto-fit-columns/)
 Pelajari cara menghapus spasi yang berlebihan dari HTML dan menyesuaikan kolom secara otomatis di Excel menggunakan Aspose.Cells untuk Java. Sempurnakan penyajian data dengan format yang efisien.
 

@@ -236,7 +236,8 @@ Tìm hiểu cách sắp xếp dữ liệu Excel hiệu quả theo màu cột b�
 ### [Cách định dạng ô Excel và thêm siêu liên kết bằng Aspose.Cells cho Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Làm chủ kiểu dáng ô Excel và thêm siêu liên kết vào ứng dụng Java của bạn với Aspose.Cells. Làm theo hướng dẫn toàn diện này để tích hợp và định dạng liền mạch.
 
-
+### [Tạo sổ làm việc Excel với Định dạng Động trong Java – Hướng dẫn đầy đủ](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+Hướng dẫn chi tiết cách tạo sổ làm việc Excel và áp dụng định dạng động bằng Aspose.Cells cho Java.
 
 ## Tài nguyên bổ sung
 

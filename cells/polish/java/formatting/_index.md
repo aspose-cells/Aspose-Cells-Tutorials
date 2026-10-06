@@ -233,6 +233,10 @@ Dowiedz się, jak skutecznie sortować dane w programie Excel według koloru kol
 ### [Jak stylizować komórki programu Excel i dodawać hiperłącza za pomocą Aspose.Cells dla języka Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Opanuj stylizowanie komórek Excela i dodawanie hiperłączy w aplikacjach Java za pomocą Aspose.Cells. Postępuj zgodnie z tym kompleksowym przewodnikiem, aby uzyskać bezproblemową integrację i formatowanie.
 
+### [Utwórz skoroszyt Excel z dynamicznym formatowaniem w Javie – kompletny przewodnik](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+Dowiedz się, jak programowo tworzyć skoroszyty Excel i stosować dynamiczne formatowanie przy użyciu Aspose.Cells dla Java.
+
+
 ### [Ustaw format liczbowy w Excelu w Javie – kompletny przewodnik](./set-number-format-excel-in-java-complete-guide/)
 Dowiedz się, jak programowo ustawiać formaty liczb w plikach Excel przy użyciu Aspose.Cells for Java, z przykładami kodu.
 

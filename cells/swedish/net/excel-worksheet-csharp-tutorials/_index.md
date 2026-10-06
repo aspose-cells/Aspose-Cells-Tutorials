@@ -38,6 +38,7 @@ Att komma åt specifika arbetsblad med namn eller index kan ibland kännas som a
 | [Ta bort Excel-arbetsblad efter index C#-handledning](./delete-excel-worksheet-by-index-csharp-tutorial/) | Lär dig hur du tar bort ett Excel-kalkylblad efter index i C# med hjälp av Aspose.Cells. Följ den här enkla steg-för-steg-handledningen för att förenkla hanteringen av din arbetsbok. |  
 | [Ta bort Excel-arbetsblad efter namn C#-handledning](./delete-excel-worksheet-by-name-csharp-tutorial/) | Lär dig hur du tar bort Excel-kalkylblad med namn i C#. Den här nybörjarvänliga handledningen guidar dig steg för steg med Aspose.Cells för .NET. |  
 | [Hämta Excel-arbetsblad efter namn C#-handledning](./get-excel-worksheet-by-name-csharp-tutorial/) | Få åtkomst till Excel-kalkylblad efter namn i C# med steg-för-steg-vägledning, med Aspose.Cells för .NET för bättre kodeffektivitet. |  
+| [Skapa nytt kalkylblad i C# – Komplett guide till dynamiska array-formler](./create-new-worksheet-in-c-complete-guide-to-dynamic-array-fo/) | Lär dig hur du skapar ett nytt kalkylblad i C# och använder dynamiska array-formler med Aspose.Cells. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

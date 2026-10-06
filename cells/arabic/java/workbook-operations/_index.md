@@ -227,6 +227,9 @@
 ### [إنشاء ملفات ODS وحفظها باستخدام Aspose.Cells لـ Java: دليل المطور](./create-save-ods-files-aspose-cells-java/)
 تعرّف على كيفية إنشاء ملفات ODS وحفظها بسهولة باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل كل شيء، من الإعداد إلى الحفظ باستخدام خيارات المخطط.
 
+### [إنشاء Excel Workbook Java – دليل خطوة بخطوة كامل](./create-excel-workbook-java-complete-step-by-step-guide/)
+تعرّف على كيفية إنشاء مصنف Excel من الصفر باستخدام Aspose.Cells لـ Java مع شرح كامل خطوة بخطوة.
+
 ### [كيفية إنشاء مصنف Excel وحفظه بصيغة SVG باستخدام Aspose.Cells لـ Java](./create-save-workbook-svg-aspose-cells-java/)
 تعرّف على كيفية أتمتة إنشاء مصنفات Excel وتصديرها كملفات SVG باستخدام Aspose.Cells لجافا. اتبع هذا الدليل خطوة بخطوة لتكامل سلس.
 
@@ -475,6 +478,9 @@
 
 ### [كيفية تعيين إصدار مستند Excel باستخدام Aspose.Cells لـ Java](./set-excel-version-aspose-cells-java/)
 تعرّف على كيفية تعيين وإدارة خصائص المستندات، مثل إدارة الإصدارات، في ملفات Excel باستخدام Aspose.Cells لجافا. اتبع هذا الدليل خطوة بخطوة لإدارة المصنفات بكفاءة.
+
+### [حفظ المصنف كملف XLSX في Java – دليل برمجة كامل](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
+تعرف على كيفية حفظ المصنف بتنسيق XLSX باستخدام Aspose.Cells لـ Java مع دليل برمجة شامل.
 
 ### [حفظ المصنف إلى ملف – دليل Java الكامل لنسخ نطاقات Excel](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
 

@@ -1,0 +1,7 @@
+Title: Programmatically Copy Worksheet Range – Complete Java Guide
+Slug: programmatically-copy-worksheet-range-complete-java-guide
+Category: range-management
+ProcessedDate: 2026-06-21T12:25:41.837493
+SourceRepo: AI Search API
+Keywords: programmatically copy worksheet range, how to copy excel range to another workbook
+PRNumber: 100

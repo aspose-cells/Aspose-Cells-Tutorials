@@ -1,0 +1,7 @@
+Title: Create Excel workbook C# and transpose column to row
+Slug: create-excel-workbook-c-and-transpose-column-to-row
+Category: row-and-column-management
+ProcessedDate: 2026-09-21T18:24:38.977306
+SourceRepo: AI Search API
+Keywords: create excel workbook c#, transpose column to row, force formula calculation, convert column to row, auto calculate formulas
+PRNumber: 165

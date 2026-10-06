@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel-kommentar och annotering
@@ -38,11 +36,33 @@ Lär dig hur du lägger till kommentarer med bilder i Excel med Aspose.Cells fö
 Lär dig hur du lägger till kommentarer i celler i Excel med Aspose.Cells för .NET. Steg-för-steg-guide för nybörjare för att förbättra Excels funktionalitet.
 ### [Formatera kommentarer - Teckensnitt, färg, justering](./format-comments-font-color-alignment/)
 Upptäck hur du enkelt formaterar Excel-kommentarer med Aspose.Cells för .NET. Anpassa teckensnitt, storlek och justering för att förbättra dina kalkylblad.
+### [Skapa Excel-arbetsbok i C# – Lägg till och fyll kommentarer med smarta markörer](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
+Lär dig hur du skapar en Excel-arbetsbok i C# och använder smarta markörer för att lägga till och fylla kommentarer.
+### [Lägg till en kommentar i Excel-cell med Aspose.Cells C#](./add-comment-to-excel-cell-using-aspose-cells-c/)
+Lär dig hur du lägger till en kommentar i en Excel-cell med Aspose.Cells för .NET i C#.
+### [Lägg till en kommentar i Excel med C# – Komplett steg‑för‑steg‑guide](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
+Lär dig hur du lägger till kommentarer i Excel med C# och Aspose.Cells för .NET. En komplett steg‑för‑steg‑guide.
+
+
+
+
+
+
+
+
+### [Skapa Excel-arbetsbok i C# – Lägg till kommentar och spara som XLSX](./create-excel-workbook-c-add-comment-save-as-xlsx/)
+Lär dig hur du skapar en Excel-arbetsbok i C#, lägger till en kommentar och sparar den som XLSX med Aspose.Cells för .NET.
+
+### [Lägg till kommentar i Excel – Hur du fyller i en Excel-mall med Smart Markers i C#](./add-comment-excel-how-to-populate-an-excel-template-with-sma/)
+Lär dig hur du använder Smart Markers i C# för att fylla i en Excel-mall med kommentarer.
+### [Skapa Excel-fil programatiskt – Lägg till kommentarer och spara som XLSX](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
+Lär dig hur du programatiskt skapar en Excel-fil, lägger till kommentarer och sparar den som XLSX med Aspose.Cells för .NET.
+### [Lägg till en kommentarcell i Excel med Aspose.Cells Smart Marker](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
+Lär dig hur du använder Smart Marker för att automatiskt lägga till kommentarer i celler i Excel med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

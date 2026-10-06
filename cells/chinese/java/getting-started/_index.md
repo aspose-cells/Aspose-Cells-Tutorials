@@ -38,6 +38,9 @@ Aspose.Words Java 代码教程
 ### [Aspose.Cells Java许可证设置和验证：完整指南](./aspose-cells-java-license-setup-guide/)
 通过我们全面的指南，掌握 Aspose.Cells Java 许可证的设置和验证方法。轻松访问所有高级功能。
 
+### [创建已授权工作簿 – 完整 Aspose.Cells Java 指南](./create-licensed-workbook-full-aspose-cells-java-guide/)
+本指南详细演示如何在 Java 中使用 Aspose.Cells 创建并授权工作簿，涵盖许可证设置、工作簿初始化和保存。
+
 ### [Aspose.Cells for Java：如何高效创建和格式化 Excel 工作簿](./aspose-cells-java-workbook-creation-guide/)
 学习如何使用 Aspose.Cells 在 Java 中自动创建和格式化 Excel 工作簿。本指南涵盖设置、工作簿操作和单元格格式化技术。
 
