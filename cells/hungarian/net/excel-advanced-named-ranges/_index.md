@@ -38,6 +38,8 @@ Könnyedén azonosíthatod a cellákat egy elnevezett tartományban az Excelben 
 Tanuld meg, hogyan egyesíthetsz cellákat egy elnevezett tartományban az Aspose.Cells for .NET használatával ebben a lépésenkénti oktatóanyagban. Ismerd meg, hogyan formázhatod, stílusozhatod és automatizálhatod az Excel-jelentéseket.
 ### [Excel munkafüzet létrehozása – Lépésről‑lépésre útmutató táblák hozzáadásához és elnevezési szabályokhoz](./create-excel-workbook-step-by-step-guide-to-adding-tables-an/)
 Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet, adj hozzá táblákat és állíts be elnevezési szabályokat lépésről‑lépésre.
+### [Táblázat nevének hozzárendelése és névütközések elkerülése](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
+Ismerd meg, hogyan adhatod meg a táblázat nevét, és kerüld el a névütközéseket az Aspose.Cells for .NET használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

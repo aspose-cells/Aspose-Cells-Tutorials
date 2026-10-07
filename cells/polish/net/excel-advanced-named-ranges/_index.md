@@ -36,6 +36,8 @@ Piękno tej funkcjonalności tkwi w łatwości użytkowania. Komórki można sca
 Bez trudu zidentyfikujesz komórki w nazwanym zakresie w programie Excel, korzystając z Aspose.Cells dla .NET dzięki temu kompleksowemu samouczkowi krok po kroku.
 ### [Scalanie komórek w nazwanym zakresie w programie Excel](./merge-cells-in-named-range/)
 Dowiedz się, jak scalać komórki w nazwanym zakresie za pomocą Aspose.Cells dla .NET w tym samouczku krok po kroku. Odkryj, jak formatować, stylizować i automatyzować raporty programu Excel.
+### [Przypisz nazwę do tabeli Excel i unikaj konfliktów nazw](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
+Dowiedz się, jak przypisać nazwę do tabeli Excel i zapobiegać konfliktom nazw przy użyciu Aspose.Cells dla .NET.
 ### [Utworzenie skoroszytu Excel – Przewodnik krok po kroku po dodawaniu tabel i reguł nazewnictwa](./create-excel-workbook-step-by-step-guide-to-adding-tables-an/)
 Dowiedz się, jak utworzyć skoroszyt Excel, dodać tabele i zdefiniować reguły nazewnictwa przy użyciu Aspose.Cells dla .NET w tym samouczku krok po kroku.
 

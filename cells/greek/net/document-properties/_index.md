@@ -65,6 +65,8 @@
 Μάθετε πώς να προσθέσετε μεταδεδομένα σε αρχεία Excel χρησιμοποιώντας το Aspose.Cells για .NET με έναν πλήρη οδηγό C#.
 ### [Δημιουργία Προσαρμοσμένης Ιδιότητας Aspose – Πλήρης Οδηγός Excel](./create-custom-property-aspose-complete-excel-guide/)
 Μάθετε πώς να δημιουργείτε προσαρμοσμένες ιδιότητες σε αρχεία Excel χρησιμοποιώντας το Aspose.Cells για .NET με έναν πλήρη οδηγό βήμα προς βήμα.
+### [Πώς να διαχειριστείτε προσαρμοσμένες ιδιότητες Excel σε C# – οδηγός βήμα‑βήμα](./how-to-manage-excel-custom-properties-in-c-a-step-by-step-tu/)
+Μάθετε πώς να δημιουργείτε, διαβάζετε και ενημερώνετε προσαρμοσμένες ιδιότητες Excel με Aspose.Cells για .NET σε C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

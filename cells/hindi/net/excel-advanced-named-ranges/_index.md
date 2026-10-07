@@ -38,6 +38,8 @@
 इस चरण-दर-चरण ट्यूटोरियल में Aspose.Cells for .NET का उपयोग करके नामित श्रेणी में सेल मर्ज करना सीखें। Excel रिपोर्ट को फ़ॉर्मेट, स्टाइल और स्वचालित करने का तरीका जानें।
 ### [Excel वर्कबुक बनाना – तालिकाएँ जोड़ने और नामकरण नियमों का चरण‑दर‑चरण गाइड](./create-excel-workbook-step-by-step-guide-to-adding-tables-an/)
 इस चरण‑दर‑चरण गाइड में .NET के लिए Aspose.Cells का उपयोग करके वर्कबुक बनाना, तालिकाएँ जोड़ना और नामकरण नियम सेट करना सीखें।
+### [Excel तालिका को नाम दें और नामकरण टकराव से बचें](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
+Aspose.Cells for .NET का उपयोग करके Excel तालिका को नामित करने और नामकरण टकराव को रोकने के चरण‑दर‑चरण गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

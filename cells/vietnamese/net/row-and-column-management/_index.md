@@ -83,6 +83,9 @@ Tìm hiểu cách chèn nhiều hàng vào GridJs một cách hiệu quả với
 
 ### [Aspose Cells Xóa hàng – Bảo vệ hàng tiêu đề trong Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 Hướng dẫn cách xóa các hàng trong Excel bằng Aspose.Cells trong khi bảo vệ hàng tiêu đề không bị xóa.
+### [Xóa hàng trong bảng Excel bằng Aspose.Cells – Giữ lại hàng tiêu đề](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
+Hướng dẫn chi tiết cách xóa các hàng trong bảng Excel bằng Aspose.Cells mà vẫn giữ lại hàng tiêu đề.
+
 ### [Cách lặp lại các mục trong Excel – Tạo hàng động với C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Hướng dẫn chi tiết cách tự động tạo các hàng lặp lại dữ liệu trong Excel bằng C# và Aspose.Cells.
 

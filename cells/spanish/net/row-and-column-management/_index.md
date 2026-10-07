@@ -66,6 +66,10 @@ Aprenda a eliminar una columna en un archivo de Excel con Aspose.Cells para .NET
 Aprenda a eliminar una fila en Excel con Aspose.Cells para .NET. Esta guía paso a paso cubre los prerrequisitos, la importación de código y una guía detallada para una manipulación de datos fluida.
 ### [Eliminar filas usando Aspose.Cells para .NET – Proteger la fila de encabezado en Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 Aprenda a eliminar filas en Excel mientras protege la fila de encabezado con Aspose.Cells para .NET.
+
+### [Cómo usar Aspose.Cells para eliminar filas en una tabla de Excel manteniendo el encabezado](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
+Aprenda a eliminar filas de una tabla de Excel con Aspose.Cells sin afectar la fila de encabezado.
+
 ### [Eliminar varias filas en Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Aprenda a eliminar varias filas en Excel con Aspose.Cells para .NET. Esta guía detallada, paso a paso, cubre los prerrequisitos, ejemplos de código y preguntas frecuentes para desarrolladores.
 ### [Cargar archivo Excel C# – Cómo eliminar filas y quitar filas específicas](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)

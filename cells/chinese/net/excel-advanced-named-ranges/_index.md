@@ -38,6 +38,8 @@
 在本分步教程中，学习如何使用 Aspose.Cells for .NET 合并指定范围内的单元格。了解如何格式化、设置样式以及自动化 Excel 报表。
 ### [创建 Excel 工作簿 – 添加表格和命名规则的分步指南](./create-excel-workbook-step-by-step-guide-to-adding-tables-an/)
 通过本教程，使用 Aspose.Cells for .NET 创建工作簿、添加表格并设置命名规则，实现自动化报表。
+### [为 Excel 表格分配名称并避免命名冲突](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
+本教程演示如何为 Excel 表格分配唯一名称，避免命名冲突。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

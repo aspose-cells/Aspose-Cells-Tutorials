@@ -65,6 +65,8 @@ C#를 사용해 Excel에 사용자 지정 속성을 추가하는 방법을 단�
 Aspose.Cells for .NET을 활용해 Excel 파일에 메타데이터를 추가하는 완전한 C# 워크북 가이드를 제공합니다.
 ### [Aspose에서 사용자 지정 속성 만들기 – 완전한 Excel 가이드](./create-custom-property-aspose-complete-excel-guide/)
 Aspose.Cells를 사용해 Excel 파일에 사용자 지정 속성을 추가하고 관리하는 전체 단계별 가이드를 확인하세요.
+### [C#로 Excel 사용자 지정 속성 관리하기 – 단계별 튜토리얼](./how-to-manage-excel-custom-properties-in-c-a-step-by-step-tu/)
+C#를 사용해 Excel 파일의 사용자 지정 속성을 추가, 수정, 삭제하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

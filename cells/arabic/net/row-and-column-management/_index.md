@@ -66,6 +66,8 @@
 تعرّف على كيفية حذف صف في Excel باستخدام Aspose.Cells لـ .NET. يغطي هذا الدليل التفصيلي المتطلبات الأساسية، واستيراد الكود، وشرحًا تفصيليًا لمعالجة البيانات بسلاسة.
 ### [حذف الصفوف باستخدام Aspose.Cells لـ .NET – حماية صف العنوان في Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 تعلم كيفية حذف الصفوف مع الحفاظ على صف العنوان غير متأثر في ملفات Excel باستخدام Aspose.Cells لـ .NET.
+### [كيفية استخدام Aspose.Cells لحذف الصفوف في جدول Excel مع الحفاظ على رأس الجدول](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
+تعلم كيفية حذف الصفوف من جدول Excel باستخدام Aspose.Cells مع الحفاظ على صف العنوان.
 ### [حذف صفوف متعددة في Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 تعلم كيفية حذف صفوف متعددة في Excel باستخدام Aspose.Cells لـ .NET. يغطي هذا الدليل المفصل، خطوة بخطوة، المتطلبات الأساسية، وأمثلة البرمجة، والأسئلة الشائعة للمطورين.
 ### [إدراج عمود في Aspose.Cells .NET](./insert-column-aspose-cells/)

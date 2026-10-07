@@ -54,6 +54,8 @@ Aprenda a remover filtros automáticos de planilhas Excel usando Aspose.Cells pa
 Aprenda a remover o botão AutoFiltro da interface do Excel usando Aspose.Cells e C# para melhorar a experiência do usuário.
 ### [Ocultar setas de filtro no Excel com C# – Guia Completo](./hide-filter-arrows-excel-with-c-complete-guide/)
 Aprenda a remover as setas de filtro nas planilhas do Excel usando Aspose.Cells e C# de forma simples e eficaz.
+### [Como remover o AutoFiltro de tabelas do Excel usando C#](./how-to-remove-autofilter-from-excel-tables-using-c/)
+Aprenda a remover o AutoFiltro de tabelas Excel usando Aspose.Cells para .NET com este guia passo a passo em C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -77,9 +77,10 @@ Zmień kierunek tekstu w programie Excel za pomocą Aspose.Cells dla .NET. Post�
 Dowiedz się, jak zawijać długiego tekstu w komórkach Excela za pomocą Aspose.Cells dla .NET w tym łatwym do naśladowania przewodniku. Przekształcaj swoje arkusze kalkulacyjne bez wysiłku.
 ### [Zastosuj style komórek przy użyciu Aspose.Cells – importowanie DataTable z formatowaniem](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
 Dowiedz się, jak zastosować style komórek podczas importowania DataTable do Excela przy użyciu Aspose.Cells dla .NET.
-
 ### [Tworzenie stylu komórki w C# – Jak zastosować styl do komórki i wyśrodkować tekst](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
 Dowiedz się, jak utworzyć styl komórki w Aspose.Cells dla .NET przy użyciu C# i wyśrodkować tekst w komórce.
+### [Jak utworzyć skoroszyt Excel w C# z niestandardowym formatowaniem i zapisać jako XLSX](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
+Dowiedz się, jak w C# utworzyć skoroszyt Excel z własnym formatowaniem i zapisać go jako plik XLSX przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

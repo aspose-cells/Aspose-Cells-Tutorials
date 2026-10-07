@@ -38,6 +38,8 @@ Identifikasi sel dengan mudah dalam rentang bernama di Excel menggunakan Aspose.
 Pelajari cara menggabungkan sel dalam rentang bernama menggunakan Aspose.Cells for .NET dalam tutorial langkah demi langkah ini. Temukan cara memformat, memberi gaya, dan mengotomatiskan laporan Excel.
 ### [Buat Workbook Excel – Panduan Langkah‑per‑Langkah Menambahkan Tabel dan Aturan Penamaan](./create-excel-workbook-step-by-step-guide-to-adding-tables-an/)
 Pelajari cara membuat workbook Excel, menambahkan tabel, dan menetapkan aturan penamaan dengan panduan langkah demi langkah.
+### [Berikan Nama pada Tabel Excel dan Hindari Konflik Penamaan](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
+Pelajari cara menetapkan nama pada tabel Excel serta menghindari konflik penamaan dengan tutorial langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

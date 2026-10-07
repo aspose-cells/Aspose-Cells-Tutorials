@@ -54,6 +54,8 @@ Learn how to format Excel cells using Aspose.Cells for .NET in this easy guide. 
 Learn how to format Excel sheets with Aspose.Cells for .NET through a step-by-step guide, and master styles like a pro.
 ### [Apply Cell Styles with Aspose.Cells – Import DataTable with Formatting](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
 Import a DataTable into Excel and apply cell styles using Aspose.Cells for .NET in a concise step-by-step guide.
+### [How to create Excel workbook C# with custom formatting and save as XLSX](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
+Learn how to create an Excel workbook in C# with custom formatting and save it as an XLSX file using Aspose.Cells for .NET.
 ### [Adding Borders to Cells in Excel](./adding-borders-to-cells/)
 Learn how to add stylish borders to cells in Excel using Aspose.Cells for .NET. Follow this step-by-step guide for clear and engaging spreadsheets.
 ### [Applying Borders to Range of Cells in Excel](./applying-borders-to-range-of-cells/)

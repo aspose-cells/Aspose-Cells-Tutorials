@@ -92,6 +92,7 @@ Dowiedz się, jak zastosować metodę WRAPCOLS w Aspose.Cells, aby w prosty spos
 Poznaj, jak przy użyciu GridJs wstawić wiele wierszy jednocześnie, aby przyspieszyć manipulację danymi w tabelach.
 ### [Jak wstawiać wiersze w GridJs – Efektywne dodawanie wielu wierszy do siatki](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 Dowiedz się, jak efektywnie dodać wiele wierszy do siatki w GridJs, krok po kroku, z przykładami kodu.
+### [Jak używać Aspose.Cells do usuwania wierszy w tabeli Excel przy zachowaniu nagłówka](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

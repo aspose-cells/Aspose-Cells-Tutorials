@@ -38,6 +38,8 @@ Identifique facilmente células em um intervalo nomeado no Excel usando o Aspose
 Aprenda a mesclar células em um intervalo nomeado usando o Aspose.Cells para .NET neste tutorial passo a passo. Descubra como formatar, estilizar e automatizar relatórios do Excel.
 ### [Criar Pasta de Trabalho Excel – Guia Passo a Passo para Adicionar Tabelas e Regras de Nomeação](./create-excel-workbook-step-by-step-guide-to-adding-tables-an/)
 Aprenda a criar uma pasta de trabalho Excel, adicionar tabelas e definir regras de nomeação com este tutorial detalhado passo a passo.
+### [Atribuir nome à tabela Excel e evitar conflitos de nomenclatura](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
+Aprenda a atribuir nomes às tabelas do Excel e prevenir conflitos de nomenclatura usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

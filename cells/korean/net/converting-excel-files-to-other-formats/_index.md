@@ -112,6 +112,11 @@ Aspose.Cells for .NET을 사용하여 Excel을 탭 구분 텍스트 파일로 �
 ### [Excel에서 DOCX 저장하기 – 차트를 Word로 내보내는 완전 가이드](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
 ### [.NET에서 Excel 파일을 PowerPoint로 변환 – 단계별 C# 가이드](./convert-excel-to-powerpoint-step-by-step-c-guide/)
 
+Aspose.Cells for .NET을 사용하여 Excel 파일을 PowerPoint 프레젠테이션으로 변환하는 방법을 단계별로 안내합니다.
+
+### [C#에서 편집 가능한 텍스트 상자를 포함한 PPT로 Excel 저장하는 방법](./how-to-save-excel-as-ppt-with-editable-text-boxes-in-c/)
+Aspose.Cells for .NET을 사용하여 Excel 파일을 편집 가능한 텍스트 상자가 포함된 PPT 파일로 저장하는 단계별 가이드입니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

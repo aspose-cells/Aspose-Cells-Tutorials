@@ -83,13 +83,6 @@ Naučte se, jak pomocí C# a Aspose.Cells dynamicky generovat řádky a opakovat
 ### [Jak vložit řádky v GridJs – Přidat více řádků do mřížky efektivně](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 Naučte se efektivně přidávat více řádků do GridJs pomocí podrobného návodu.
 
-
-
-
-
-
-
-
 ### [Vložení řádků v Excelu pomocí C# – krok‑za‑krokem průvodce](./insert-rows-in-excel-with-c-step-by-step-guide/)
 Podrobný návod, jak pomocí C# a Aspose.Cells vložit řádky do Excelu krok za krokem.
 ### [Jak použít WRAPCOLS: Vytvořte dvousloupcové rozvržení v C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
@@ -98,6 +91,9 @@ Naučte se, jak pomocí metody WRAPCOLS vytvořit dvousloupcové rozvržení v E
 Podrobný návod, jak pomocí Aspose.Cells pro .NET s C# smazat řádky v tabulce Excel.
 ### [Jak vložit řádky v GridJs – rychlé přidání více řádků](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Naučte se rychle přidávat více řádků v GridJs pomocí jednoduchých kroků a ukázek kódu.
+
+### [Jak pomocí Aspose.Cells smazat řádky v tabulce Excel a zachovat hlavičku](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
+Naučte se, jak pomocí Aspose.Cells smazat řádky v tabulce Excel a zachovat hlavičku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -110,6 +110,9 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 ### [แปลง Excel เป็น PowerPoint – คู่มือขั้นตอนโดยขั้นตอน C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
 เรียนรู้วิธีแปลงไฟล์ Excel เป็น PowerPoint (PPTX) ด้วย C# อย่างละเอียด
 
+### [วิธีบันทึก Excel เป็น PPT พร้อมกล่องข้อความที่แก้ไขได้ใน C#](./how-to-save-excel-as-ppt-with-editable-text-boxes-in-c/)
+เรียนรู้วิธีบันทึกไฟล์ Excel เป็น PowerPoint พร้อมกล่องข้อความที่แก้ไขได้โดยใช้ C# และ Aspose.Cells
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

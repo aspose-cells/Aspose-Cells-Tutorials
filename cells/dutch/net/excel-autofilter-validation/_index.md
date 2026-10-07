@@ -51,9 +51,11 @@ Leer hoe u AutoFilter in C# kunt toepassen voor Excel-automatisering met een ged
 ### [Verwijder autofilter in Excel met C# – Complete stapsgewijze gids](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Leer hoe u met Aspose.Cells in .NET een autofilter uit een Excel‑werkblad verwijdert, stap voor stap uitgelegd.
 ### [Duidelijke filter-UI in Excel met C# – Verwijder AutoFilter-knop](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
-Leer hoe u de AutoFilter-knop uit de Excel-werkbalk verwijdert met C# en Aspose.Cells, zodat de filter-UI overzichtelijk blijft.
+Leer hoe u de AutoFilter-knop uit de Excel‑werkbalk verwijdert met C# en Aspose.Cells, zodat de filter-UI overzichtelijk blijft.
 ### [Verberg filterpijlen in Excel met C# – Complete gids](./hide-filter-arrows-excel-with-c-complete-guide/)
 Leer hoe u filterpijlen in Excel verbergt met C# en Aspose.Cells voor .NET in deze volledige gids.
+### [Hoe autofilter uit Excel-tabellen te verwijderen met C#](./how-to-remove-autofilter-from-excel-tables-using-c/)
+Leer hoe u met Aspose.Cells in .NET een autofilter uit Excel‑tabellen verwijdert met C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

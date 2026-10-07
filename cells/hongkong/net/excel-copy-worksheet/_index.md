@@ -45,6 +45,7 @@ Aspose.Cells for .NET 提供了強大的操作 Excel 檔案的功能，包括複
 | [建立新工作簿 – 複製帶有樞紐分析表的工作表](./create-new-workbook-how-to-copy-a-worksheet-with-a-pivot-tab/) |了解如何使用 Aspose.Cells for .NET 建立新工作簿，並將包含樞紐分析表的工作表複製過去。 |  
 | [使用 Aspose.Cells 的 C# 複製工作表完整指南](./how-to-copy-worksheet-in-c-with-aspose-cells-complete-guide/) |本完整指南說明如何在 C# 中使用 Aspose.Cells 複製工作表，提供詳細程式碼範例與步驟說明。 |  
 | [在 C# 中複製工作簿 – 匯出表格至另一工作表](./copy-workbook-in-c-export-table-to-another-worksheet/) |透過本逐步指南學習在 C# 中使用 Aspose.Cells for .NET 複製工作簿並將表格匯出至其他工作表。 |  
+| [使用 C# 建立重複的詳細工作表](./create-duplicated-detail-sheets-in-excel-using-c/) |透過本指南學習如何使用 C# 在 Excel 中建立並複製詳細工作表。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

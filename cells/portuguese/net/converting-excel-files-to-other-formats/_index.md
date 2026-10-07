@@ -35,6 +35,9 @@ Para quem precisa de saídas especializadas, o Aspose.Cells suporta conversões 
 
 - [Convertendo arquivo Excel para PPTX programaticamente no .NET](./converting-excel-file-to-pptx/): Transforme planilhas do Excel em slides de apresentação. Este tutorial oferece trechos de código fáceis de implementar para converter dados do Excel para PPTX.
 
+- [Como salvar Excel como PPT com caixas de texto editáveis em C#](./how-to-save-excel-as-ppt-with-editable-text-boxes-in-c/)
+Aprenda a salvar planilhas do Excel como apresentações PPT contendo caixas de texto editáveis usando C# e Aspose.Cells.
+
 - [Acompanhamento do progresso da conversão de documentos para TIFF programaticamente no .NET](./tracking-document-conversion-progress-for-tiff/): Rastreie e gerencie conversões de arquivos TIFF, uma ferramenta valiosa para criar arquivos baseados em imagens.
 
 O Aspose.Cells para .NET simplifica as transformações de documentos, permitindo que os desenvolvedores automatizem processos e economizem tempo em conversões entre vários formatos.
@@ -60,8 +63,8 @@ Aprenda a converter arquivos XLSX para CSV usando C# e Aspose.Cells, com um guia
 Aprenda como converter um arquivo do Excel em uma apresentação do PowerPoint (PPTX) programaticamente usando o Aspose.Cells para .NET com este guia passo a passo.
 ### [Criar PowerPoint a partir do Excel – Guia passo a passo em C#](./create-powerpoint-from-excel-step-by-step-c-guide/)
 Aprenda a criar apresentações PowerPoint a partir de arquivos Excel usando Aspose.Cells para .NET com este guia passo a passo em C#.
-### [Convertendo Excel para PowerPoint com C# – Guia Completo](./convert-excel-to-powerpoint-with-c-complete-guide/)
-Aprenda a converter planilhas do Excel em apresentações PowerPoint usando C# e Aspose.Cells para .NET neste guia completo passo a passo.
+### [Convertendo Excel para PowerPoint – Guia passo a passo em C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+Aprenda a converter arquivos do Excel em apresentações PowerPoint usando Aspose.Cells para .NET com este guia detalhado em C#.
 ### [Especificando HTML CrossType na saída HTML programaticamente no .NET](./specifying-html-crosstype-in-output-html/)
 Aprenda a especificar HTML CrossType no Aspose.Cells para .NET. Siga nosso tutorial passo a passo para converter arquivos do Excel para HTML com precisão.
 ### [Leitura de números em planilhas programadas em .NET](./reading-numbers-spreadsheet/)

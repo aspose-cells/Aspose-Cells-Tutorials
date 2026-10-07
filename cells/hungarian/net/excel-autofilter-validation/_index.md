@@ -54,6 +54,7 @@ Ismerje meg, hogyan távolíthatja el az autofiltert Excel fájlokból C#‑ban 
 Tanulja meg, hogyan távolíthatja el az AutoFilter gombot és tisztíthatja meg a szűrő felületet Excelben C# használatával.
 ### [Szűrőnyilak elrejtése Excelben C#-val – Teljes útmutató](./hide-filter-arrows-excel-with-c-complete-guide/)
 Tanulja meg, hogyan rejtheti el a szűrő nyilakat Excelben C# használatával, hogy tisztább legyen a munkalap.
+### [Hogyan távolítsuk el az autofiltert Excel táblázatokból C#-ban](./how-to-remove-autofilter-from-excel-tables-using-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

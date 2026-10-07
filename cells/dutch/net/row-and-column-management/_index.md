@@ -68,6 +68,8 @@ Leer hoe u een rij in Excel verwijdert met Aspose.Cells voor .NET. Deze stapsgew
 Leer hoe u meerdere rijen in Excel kunt verwijderen met Aspose.Cells voor .NET. Deze gedetailleerde, stapsgewijze handleiding behandelt de vereisten, codevoorbeelden en veelgestelde vragen voor ontwikkelaars.
 ### [Rijen verwijderen – Koprij beschermen met Aspose.Cells .NET](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 Leer hoe u rijen kunt verwijderen terwijl u de koprij beschermt in Excel met Aspose.Cells voor .NET.
+### [Hoe Aspose.Cells te gebruiken om rijen in een Excel‑tabel te verwijderen terwijl de kop behouden blijft](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
+Leer hoe u rijen uit een Excel‑tabel verwijdert met Aspose.Cells, terwijl de header behouden blijft, via een duidelijke stap‑voor‑stap handleiding.
 
 ### [Een kolom invoegen in Aspose.Cells .NET](./insert-column-aspose-cells/)
 Leer hoe je een kolom in Excel invoegt met Aspose.Cells voor .NET. Volg onze eenvoudige, stapsgewijze handleiding om naadloos een nieuwe kolom toe te voegen. Perfect voor .NET-ontwikkelaars.

@@ -35,6 +35,9 @@ Voor wie gespecialiseerde output nodig heeft, ondersteunt Aspose.Cells TIFF-, Po
 
 - [Excel-bestand programmatisch naar PPTX converteren in .NET](./converting-excel-file-to-pptx/): Zet Excel-sheets om in presentatieslides. Deze tutorial biedt eenvoudig te implementeren codefragmenten voor het converteren van Excel-gegevens naar PPTX.
 
+- [Hoe Excel opslaan als PPT met bewerkbare tekstvakken in C#](./how-to-save-excel-as-ppt-with-editable-text-boxes-in-c/)
+  Leer hoe u een Excel-werkblad opslaat als PowerPoint met bewerkbare tekstvakken via C# en Aspose.Cells.
+
 - [Documentconversievoortgang voor TIFF programmatisch volgen in .NET](./tracking-document-conversion-progress-for-tiff/): Volg en beheer TIFF-bestandsconversies, een waardevol hulpmiddel voor het maken van op afbeeldingen gebaseerde archieven.
 
 Aspose.Cells voor .NET vereenvoudigt documenttransformaties, waardoor ontwikkelaars processen kunnen automatiseren en tijd kunnen besparen bij het converteren naar verschillende formaten.
@@ -61,7 +64,7 @@ Leer hoe u met Aspose.Cells voor .NET Excel-werkbladen exporteert naar PowerPoin
 ### [Printgebied instellen in Excel en exporteren naar PowerPoint – Stapsgewijze handleiding](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
 Leer hoe u met Aspose.Cells voor .NET het printgebied in Excel instelt en vervolgens naar PowerPoint exporteert in een stapsgewijze handleiding.
 ### [PowerPoint maken vanuit Excel – Stapsgewijze C#-handleiding](./create-powerpoint-from-excel-step-by-step-c-guide/)
-Leer hoe u met Aspose.Cells voor .NET een PowerPoint-presentatie maakt vanuit een Excel-werkmap met C#.
+Leer hoe u met Aspose.Cells voor .NET een PowerPoint-presentatie maakt vanuit een Excel-werkblad met stapsgewijze codevoorbeelden.
 ### [Excel-bestand programmatisch naar PowerPoint converteren met C# – Complete gids](./convert-excel-to-powerpoint-with-c-complete-guide/)
 Leer stap voor stap hoe u Excel-werkbladen naar PowerPoint-presentaties converteert met C# en Aspose.Cells voor .NET.
 ### [HTML CrossType specificeren in uitvoer-HTML programmatisch in .NET](./specifying-html-crosstype-in-output-html/)

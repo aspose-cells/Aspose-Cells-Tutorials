@@ -66,6 +66,8 @@ Aspose.Cells for .NET을 사용하여 Excel 파일에서 열을 삭제하는 방
 Aspose.Cells for .NET을 사용하여 Excel에서 행을 삭제하는 방법을 알아보세요. 이 단계별 가이드에서는 필수 구성 요소, 코드 가져오기, 그리고 원활한 데이터 조작을 위한 자세한 안내를 제공합니다.
 ### [Aspose Cells 행 삭제 – Excel에서 헤더 행 보호](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 Aspose.Cells for .NET을 사용하여 헤더 행을 보호하면서 Excel에서 행을 삭제하는 방법을 단계별로 안내합니다.
+### [Aspose.Cells를 사용하여 헤더를 유지하면서 Excel 테이블에서 행을 삭제하는 방법](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
+Aspose.Cells for .NET을 사용하여 헤더를 보존하면서 Excel 테이블에서 행을 삭제하는 단계별 가이드를 확인하세요.
 ### [Aspose.Cells .NET에서 여러 행 삭제](./delete-multiple-rows-aspose-cells/)
 Aspose.Cells for .NET을 사용하여 Excel에서 여러 행을 삭제하는 방법을 알아보세요. 이 상세하고 단계별 가이드는 개발자를 위한 필수 조건, 코딩 예제, FAQ를 다룹니다.
 ### [Aspose.Cells .NET에 열 삽입](./insert-column-aspose-cells/)
@@ -79,7 +81,6 @@ Aspose.Cells for .NET을 사용하여 Excel에 여러 행을 삽입하는 방법
 ### [Excel에서 항목 반복하기 – C#을 사용한 동적 행 생성](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 C# 코드를 사용해 Excel에서 항목을 반복하고 동적으로 행을 생성하는 방법을 단계별로 안내합니다.
 ### [GridJs에서 행 삽입 방법 – 여러 행을 효율적으로 추가하기](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
-GridJs를 사용하여 여러 행을 효율적으로 삽입하는 단계별 가이드를 확인해 보세요.
 
 
 

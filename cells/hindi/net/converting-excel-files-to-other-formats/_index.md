@@ -112,6 +112,9 @@ Aspose.Cells for .NET का उपयोग करके Excel डेटा स
 ### [.NET में प्रोग्रामेटिक रूप से Excel को PowerPoint में परिवर्तित करना](./convert-excel-to-powerpoint-step-by-step-c-guide/)
 Aspose.Cells का उपयोग करके .NET में Excel फ़ाइलों को PowerPoint (PPTX) में बदलने के लिए चरण‑दर‑चरण मार्गदर्शिका।
 
+### [C# में संपादन योग्य टेक्स्ट बॉक्स के साथ Excel को PPT के रूप में सहेजें](./how-to-save-excel-as-ppt-with-editable-text-boxes-in-c/)
+Aspose.Cells for .NET का उपयोग करके Excel शीट को PPT में बदलें और टेक्स्ट बॉक्स को संपादन योग्य बनाएं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -38,6 +38,8 @@ Snadno identifikujte buňky v pojmenované oblasti v Excelu pomocí Aspose.Cells
 tomuto podrobném tutoriálu se naučte, jak sloučit buňky v pojmenované oblasti pomocí Aspose.Cells pro .NET. Objevte, jak formátovat, stylovat a automatizovat sestavy v Excelu.
 ### [Vytvoření sešitu Excel – krok za krokem průvodce přidáváním tabulek a pojmenovacími pravidly](./create-excel-workbook-step-by-step-guide-to-adding-tables-an/)
 Kompletní průvodce vytvořením sešitu Excel, přidáním tabulek a nastavením pojmenovacích pravidel pomocí Aspose.Cells pro .NET.
+### [Přiřaďte název tabulce Excel a vyhněte se konfliktům názvů](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
+Naučte se, jak přiřadit název tabulce v Excelu a předejít konfliktům názvů pomocí Aspose.Cells pro .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

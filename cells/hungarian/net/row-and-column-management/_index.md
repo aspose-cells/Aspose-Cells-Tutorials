@@ -86,14 +86,9 @@ Ismerje meg, hogyan adhat hozzá több sort a GridJs rácshoz hatékonyan, lép�
 Ismerje meg, hogyan hozhat létre dinamikusan sorokat az Excelben C# segítségével az elemek ismétléséhez.
 
 ### [Aspose Cells sorok törlése – Fejléc sor védelme Excelben](./aspose-cells-delete-rows-protect-header-row-in-excel/)
-Ismerje meg, hogyan törölhet sorokat úgy, hogy a fejléc sort megőrizze az Excel-fájlban az Aspose.Cells for .NET használatával.
 
-
-
-
-
-
-
+### [Hogyan használjuk az Aspose.Cells-et sorok törlésére egy Excel táblázatban a fejléc megtartásával](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
+Ismerje meg, hogyan törölhet sorokat egy Excel‑táblázatból a fejléc megtartásával az Aspose.Cells for .NET segítségével.
 
 ### [Sorok törlése Excel táblázatból C#‑val – Lépésről lépésre útmutató](./delete-rows-excel-table-with-c-step-by-step-guide/)
 Ismerje meg, hogyan törölhet több sort egy Excel‑táblázatból C#‑ban az Aspose.Cells for .NET segítségével.

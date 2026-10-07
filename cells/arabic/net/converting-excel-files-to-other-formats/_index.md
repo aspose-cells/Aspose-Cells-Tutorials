@@ -44,7 +44,7 @@
 تعلّم كيفية تحويل ملفات CSV إلى JSON في .NET باستخدام Aspose.Cells. دليل خطوة بخطوة لتحويل البيانات مع أمثلة برمجية سهلة الاستخدام.
 
 ### [تحويل ملف Excel إلى DOCX برمجيًا في .NET](./converting-excel-file-to-docx/)
-تعرّف على كيفية تحويل ملفات Excel برمجيًا إلى DOCX باستخدام Aspose.Cells لـ .NET في هذا الدليل المفصل. مثالي لإنشاء التقارير ومشاركة البيانات.
+تعرّف على كيفية تحويل ملفات Excel برمجياً إلى DOCX باستخدام Aspose.Cells لـ .NET في هذا الدليل المفصل. مثالي لإنشاء التقارير ومشاركة البيانات.
 ### [حفظ ملف Excel كـ Docx باستخدام C# – دليل خطوة بخطوة كامل](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 دليل شامل يوضح كيفية حفظ مصنف Excel كملف Docx باستخدام C# مع أمثلة برمجية خطوة بخطوة.
 ### [تحويل ملف Excel إلى HTML باستخدام Tooltip في .NET](./converting-excel-file-to-html-with-tooltip/)
@@ -89,15 +89,11 @@
 ### [تحويل Excel إلى Word – دليل كامل باستخدام C#](./convert-excel-to-word-complete-guide-with-c/)
 تعرّف على كيفية تحويل ملفات Excel إلى Word باستخدام C# و Aspose.Cells في دليل شامل خطوة بخطوة.
 
-
-
-
-
-
-
-
 ### [إنشاء PPT من Excel – دليل كامل لأتمتة C#](./create-ppt-from-excel-full-c-automation-guide/)
 تعلم كيفية إنشاء ملفات PPT من جداول Excel باستخدام C# وأتمتة كاملة عبر Aspose.Cells.
+
+### [حفظ Excel كـ PPT مع مربعات نص قابلة للتحرير في C#](./how-to-save-excel-as-ppt-with-editable-text-boxes-in-c/)
+تعلم كيفية حفظ ملف Excel كعرض PowerPoint مع مربعات نص قابلة للتعديل باستخدام C# و Aspose.Cells.
 
 ### [إنشاء مصنف جديد – تصدير Excel إلى TXT بدقة كاملة](./create-new-workbook-export-excel-to-txt-with-full-precision/)
 تعلم كيفية إنشاء مصنف جديد وتصديره إلى ملف TXT مع الحفاظ على الدقة الكاملة للبيانات باستخدام Aspose.Cells لـ .NET.

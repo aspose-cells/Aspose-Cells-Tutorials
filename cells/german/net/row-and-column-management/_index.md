@@ -66,6 +66,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Spalte in einer Excel-Date
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Zeile in Excel löschen. Diese Schritt-für-Schritt-Anleitung behandelt die Voraussetzungen, den Codeimport und eine detaillierte Anleitung zur nahtlosen Datenmanipulation.
 ### [Aspose.Cells Zeilen löschen – Kopfzeile in Excel schützen](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Zeilen löschen, während Sie die Kopfzeile Ihrer Excel‑Tabelle schützen.
+### [Wie man Aspose.Cells verwendet, um Zeilen in einer Excel‑Tabelle zu löschen und die Kopfzeile beizubehalten](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
+Erfahren Sie, wie Sie mit Aspose.Cells Zeilen aus einer Excel‑Tabelle entfernen, ohne die Kopfzeile zu löschen.
 ### [Löschen mehrerer Zeilen in Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET mehrere Zeilen in Excel löschen. Diese detaillierte Schritt-für-Schritt-Anleitung enthält Voraussetzungen, Programmierbeispiele und FAQs für Entwickler.
 ### [Einfügen einer Spalte in Aspose.Cells .NET](./insert-column-aspose-cells/)
@@ -97,7 +99,7 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Zeilen in Excel per C# einfüge
 ### [Wie man WRAPCOLS verwendet: Erstellen eines Zwei‑Spalten‑Layouts in C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 Erfahren Sie, wie Sie mit WRAPCOLS in Aspose.Cells für .NET ein zweispaltiges Layout in C# erstellen.
 ### [Zeilen in GridJs einfügen – Mehrere Zeilen schnell hinzufügen](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
-Erfahren Sie, wie Sie mit GridJs mehrere Zeilen schnell in Ihre Tabelle einfügen. Schritt-für-Schritt-Anleitung für .NET-Entwickler.
+Erfahren Sie, wie Sie mit GridJs mehrere Zeilen schnell in Ihre Tabelle einfügen. Schritt‑für‑Schritt‑Anleitung für .NET-Entwickler.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

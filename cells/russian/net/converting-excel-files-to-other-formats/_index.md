@@ -35,6 +35,9 @@
 
 - [Программное преобразование файла Excel в PPTX в .NET](./converting-excel-file-to-pptx/): Превратите листы Excel в слайды презентации. Этот урок предлагает простые в реализации фрагменты кода для преобразования данных Excel в PPTX.
 
+- [Как сохранить Excel как PPT с редактируемыми текстовыми полями в C#](./how-to-save-excel-as-ppt-with-editable-text-boxes-in-c/)
+  Узнайте, как программно сохранить файл Excel в презентацию PowerPoint с редактируемыми текстовыми полями, используя C# и Aspose.Cells.
+
 - [Установка области печати в Excel и экспорт в PowerPoint – пошаговое руководство](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
 
 - [Отслеживание процесса преобразования документа в формат TIFF программным способом в .NET](./tracking-document-conversion-progress-for-tiff/): Отслеживайте и управляйте преобразованиями файлов TIFF — ценным инструментом для создания архивов на основе изображений.
@@ -66,7 +69,7 @@ Aspose.Cells для .NET упрощает преобразование доку�
 ### [Экспорт Excel в PowerPoint – Полное руководство C#](./export-excel-to-powerpoint-complete-c-guide/)
 Узнайте, как экспортировать файлы Excel в PowerPoint с помощью Aspose.Cells для .NET, следуя полному руководству на C#.
 ### [Создание PowerPoint из Excel – пошаговое руководство C#](./create-powerpoint-from-excel-step-by-step-c-guide/)
-Узнайте, как программно создавать презентации PowerPoint из файлов Excel с помощью Aspose.Cells для .NET, следуя пошаговым инструкциям на C#.
+Узнайте, как программно создавать презентации PowerPoint из файлов Excel с помощью Aspose.Cells для .NET на C#.
 
 ### [Указание HTML CrossType в выходном HTML программным способом в .NET](./specifying-html-crosstype-in-output-html/)
 Узнайте, как указать HTML CrossType в Aspose.Cells для .NET. Следуйте нашему пошаговому руководству, чтобы преобразовать файлы Excel в HTML с точностью.
