@@ -1,0 +1,7 @@
+Title: Create detail sheets in Java with Aspose.Cells smart markers
+Slug: create-detail-sheets-in-java-with-aspose-cells-smart-markers
+Category: templates-reporting
+ProcessedDate: 2026-08-11T11:57:32.745090
+SourceRepo: AI Search API
+Keywords: create detail sheets, java create worksheets, sheet name from field, process data source, use smart markers
+PRNumber: 141

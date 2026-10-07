@@ -1,0 +1,7 @@
+Title: How to save xlsb files with custom properties using Aspose.Cells for Java
+Slug: how-to-save-xlsb-files-with-custom-properties-using-aspose-c
+Category: workbook-operations
+ProcessedDate: 2026-08-21T02:59:48.804287
+SourceRepo: AI Search API
+Keywords: how to save xlsb, add custom property, how to add property, how to create workbook, write custom property
+PRNumber: 147

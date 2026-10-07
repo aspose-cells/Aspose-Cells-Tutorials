@@ -77,6 +77,9 @@ Leer hoe u Excel-werkmappen en -werkbladen efficiënt kunt beheren met Aspose.Ce
 ### [Excel-sheet-ID's wijzigen in .NET met Aspose.Cells: een uitgebreide handleiding](./change-excel-sheet-id-net-aspose-cells)
 Leer hoe u Excel-sheet-ID's kunt wijzigen met Aspose.Cells voor .NET. Deze handleiding behandelt de installatie, codevoorbeelden en aanbevolen procedures voor efficiënt werkbladbeheer en het onderhouden van correcte bladverwijzingen.
 
+### [Hoe SmartMarkerProcessor te gebruiken – Bestaand werkblad in Excel hernoemen](./how-to-use-smartmarkerprocessor-rename-existing-sheet-in-exc/)
+Leer hoe u met SmartMarkerProcessor een bestaand werkblad in een Excel-bestand kunt hernoemen via Aspose.Cells voor .NET.
+
 ### [Dialoogbladen in Excel identificeren met Aspose.Cells .NET: een uitgebreide handleiding](./check-excel-dialog-sheet-aspose-cells-net)
 Leer hoe u met Aspose.Cells voor .NET kunt controleren of een Excel-werkblad een dialoogblad is. Verbeter uw automatisering met deze gedetailleerde handleiding voor het identificeren van gespecialiseerde werkbladtypen in uw werkmappen.
 

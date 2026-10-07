@@ -59,6 +59,9 @@ Leer hoe u lettertypen in Excel-documenten kunt aanpassen met Aspose.Cells voor 
 ### [Aangepaste getalnotaties in Java Excel-werkmappen onder de knie krijgen met Aspose.Cells](./aspose-cells-java-custom-number-formats-handling/)
 Leer hoe u aangepaste getalnotaties in Java-werkmappen kunt verwerken met Aspose.Cells. Deze handleiding behandelt de configuratie van werkmappen, uitzonderingsafhandeling en praktische toepassingen.
 
+### [Getalnotatie instellen in Excel met Java – Complete handleiding](./set-number-format-excel-in-java-complete-guide/)
+Leer hoe u getalnotaties in Excel-werkbladen instelt met Aspose.Cells voor Java, inclusief codevoorbeelden en best practices.
+
 ### [Gegevenspresentatie in Excel onder de knie krijgen: getal- en aangepaste datumnotatie met Aspose.Cells voor Java](./aspose-cells-java-data-formatting-excel/)
 Leer hoe u getalnotaties en aangepaste datumstijlen kunt toepassen met Aspose.Cells voor Java, waarmee u de presentatie van gegevens in Excel-spreadsheets kunt verbeteren.
 
@@ -235,6 +238,10 @@ Leer hoe u Excel-gegevens efficiënt kunt sorteren op kolomkleur met Aspose.Cell
 
 ### [Hoe u Excel-cellen kunt stylen en hyperlinks kunt toevoegen met Aspose.Cells voor Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Beheers de styling van Excel-cellen en het toevoegen van hyperlinks in je Java-applicaties met Aspose.Cells. Volg deze uitgebreide handleiding voor naadloze integratie en opmaak.
+
+### [Excel-werkmap maken met dynamische opmaak in Java – volledige handleiding](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+Leer hoe u een Excel-werkmap maakt en dynamische opmaak toepast met Aspose.Cells voor Java. Deze volledige handleiding bevat stap‑voor‑stap codevoorbeelden.
+
 
 ### [Hoe stijlen toe te passen bij het converteren van DataTable naar Excel – volledige Java-gids](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 Leer hoe u met Aspose.Cells voor Java stijlen toepast tijdens het omzetten van een DataTable naar een Excel-bestand.

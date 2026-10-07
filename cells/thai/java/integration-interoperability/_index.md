@@ -53,11 +53,18 @@
 ### [การเรียนรู้การใช้งานคลาสครูสอน Java โดยการบูรณาการ Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 เรียนรู้วิธีการนำคลาสครูมาใช้ในภาษา Java จัดการข้อมูลนักเรียน และรวม Aspose.Cells เพื่อการจัดการไฟล์ Excel ที่ได้รับการปรับปรุง
 
+### [แปลง Excel เป็น PPTX ด้วย Java – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./convert-excel-to-pptx-with-java-complete-programming-guide/)
+เรียนรู้วิธีแปลงไฟล์ Excel เป็นสไลด์ PowerPoint (PPTX) ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดครบถ้วน
 ### [สร้าง PowerPoint จาก Excel – คู่มือเต็มสำหรับ Java](./create-powerpoint-from-excel-full-java-guide/)
 
 ### [แปลง Excel ไปเป็น PowerPoint – คู่มือเต็มสำหรับ Java](./convert-excel-to-powerpoint-complete-java-guide/)
 เรียนรู้วิธีแปลงไฟล์ Excel ไปเป็นงานนำเสนอ PowerPoint อย่างเต็มรูปแบบด้วย Aspose.Cells สำหรับ Java
 
+### [วิธีส่งออกแผนภูมิจาก Excel ไปยัง Word – คู่มือ Java](./how-to-export-charts-from-excel-to-word-java-guide/)
+เรียนรู้วิธีแปลงและส่งออกแผนภูมิจากไฟล์ Excel ไปยังเอกสาร Word ด้วย Aspose.Cells สำหรับ Java อย่างละเอียด
+
+### [วิธีใช้ WRAPCOLS ใน Java – คู่มือฉบับสมบูรณ์สำหรับสูตรอาร์เรย์ใน Excel](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
+เรียนรู้วิธีใช้ฟังก์ชัน WRAPCOLS ใน Java เพื่อจัดการสูตรอาร์เรย์ใน Excel อย่างเต็มที่ พร้อมตัวอย่างโค้ดและแนวทางปฏิบัติ
 
 ## แหล่งข้อมูลเพิ่มเติม
 

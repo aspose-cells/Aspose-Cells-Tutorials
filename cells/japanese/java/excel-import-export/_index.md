@@ -31,24 +31,58 @@ Aspose.Cells for Java で Excel のインポートとエクスポートをマス
 ## Excelインポートエクスポートチュートリアル
 ### [Excel の一括データインポート](./bulk-data-import-excel/)
 Aspose.Cells for Java APIを使用してExcelから一括データをインポートする方法を学びましょう。このステップバイステップガイドでデータ処理を効率化しましょう。
+
 ### [Excelデータのエクスポート方法](./excel-data-export-methods/)
 Aspose.Cells for Java を使って、Excel データのエクスポート機能の可能性を最大限に引き出しましょう。この包括的なガイドでは、実用的なソースコード例を使って学習できます。今すぐデータ管理スキルを最適化しましょう。
+
 ### [CSVエクスポートJavaコード](./csv-export-java-code/)
 Aspose.Cells for Javaを使用してデータをCSV形式にエクスポートする方法を学びましょう。シームレスなCSVエクスポートを実現するソースコード付きのステップバイステップガイドです。
+### [JavaでCSVをエクスポートする方法 – 有効数字の設定とエクスポート範囲の指定](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
+Aspose.Cells for Javaを使用して、CSVエクスポート時に有効数字を設定し、エクスポート範囲を指定する方法を解説します。
+### [Excel のエクスポート：CSV 変換ステップバイステップガイド](./how-to-export-excel-step-by-step-guide-to-csv-conversion/)
+Aspose.Cells for Java を使用して、Excel を CSV にエクスポートする手順をステップバイステップで学びましょう。
 ### [XLSX を CSV にエクスポート – 完全 Java ガイド](./export-xlsx-as-csv-complete-java-guide/)
 Aspose.Cells for Java を使用して、XLSX ファイルを CSV 形式に変換する手順をステップバイステップで解説します。実用的なコード例で学べます。
 ### [Excel から PDF へのエクスポート](./exporting-excel-to-pdf/)
 Aspose.Cells for Javaを使って、ExcelファイルをPDFに簡単にエクスポートする方法を学びましょう。ステップバイステップガイドで手順を分かりやすく解説します。今すぐ変換を始めましょう！
+### [ワークブックからPDFを作成する方法 – 完全Javaガイド](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
+Aspose.Cells for Java を使用して、ワークブックをPDFに変換する手順をステップバイステップで解説します。実用的なコード例付き。
 ### [ExcelからXML Javaへのエクスポート](./export-excel-to-xml-java/)
 Aspose.Cells for Javaを使って、JavaでExcelをXMLにエクスポートする方法を学びましょう。ソースコード付きのステップバイステップガイドで、シームレスなデータ変換を実現します。
+
 ### [Excelからのデータインポート](./data-import-from-excel/)
 Aspose.Cells for Javaを使ってExcelからデータをインポートする方法を学びましょう。シームレスなデータ取得のためのソースコード付きの包括的なガイドです。
+
 ### [Excel を JSON にエクスポート](./export-excel-to-json/)
 Aspose.Cells for Javaを使用してExcelデータをJSONにエクスポートする方法を学びましょう。ソースコード付きのステップバイステップガイドに従って、スムーズな変換を実現しましょう。
+
 ### [Excel インポートデータの検証](./excel-import-data-validation/)
 この包括的なステップバイステップガイドでは、Aspose.Cells for Java を使用してExcelインポートデータの検証を実装する方法を学習します。データの正確性を確保し、ユーザーエクスペリエンスを向上させます。 
+
 ### [ExcelをHTML Javaにエクスポート](./export-excel-to-html-java/)
 Aspose.Cells for Javaを使用して、JavaでExcelファイルをHTMLにエクスポートする方法を学びましょう。ソースコード付きのこのステップバイステップガイドに従って、Excelファイルをシームレスかつ簡単にHTMLに変換しましょう。
+### [JSON ファイルの読み込み（Java） – JSON を Excel に変換する完全ガイド](./load-json-file-java-full-guide-to-convert-json-to-excel/)
+Aspose.Cells for Java を使用して、JSON データを Excel に変換する手順をステップバイステップで解説します。
+### [JavaでExcelファイルを作成 – 行スタイリングとXLSXエクスポートの完全ガイド](./create-excel-file-java-full-guide-with-row-styling-and-xlsx/)
+Aspose.Cells for Java を使用して、行のスタイル設定やXLSX形式でのエクスポートを含む、Excelファイル作成の全手順を学びます。
+### [Excel を SVG にエクスポートする完全 Java ガイド](./how-to-export-excel-to-svg-complete-java-guide/)
+Aspose.Cells for Java を使用して、Excel ファイルを SVG 形式にエクスポートする手順をステップバイステップで解説します。実用的なコード例で学びましょう。
+### [ExcelブックからHTMLにフォントを埋め込む方法 – Java](./how-to-embed-fonts-in-html-from-excel-workbook-java/)
+Aspose.Cells for Java を使用して、ExcelブックからHTMLへフォントを埋め込む手順を学びましょう。ステップバイステップのガイドです。
+### [Flat OPC チュートリアル Aspose: JavaでExcelブックをロードする](./flat-opc-tutorial-aspose-load-excel-workbook-in-java/)
+Aspose.Cells for Java を使用して、Flat OPC 形式の Excel ブックをロードする手順をステップバイステップで解説します。
+
+### [XLSX を PPTX に変換 – 編集可能なシェイプをエクスポートする完全ガイド](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
+Aspose.Cells for Java を使用して、XLSX ファイルを PPTX に変換し、編集可能なシェイプをエクスポートする方法を学びましょう。
+
+### [Aspose.Cells JavaでJSONをXLSXに変換する完全ガイド](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
+Aspose.Cells for Java を使用して、JSON データを XLSX ファイルに変換する方法を学びましょう。ステップバイステップのコード例で解説します。
+
+### [フォント埋め込み HTML – Excel から HTML へ完全フォント埋め込み](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
+Aspose.Cells for Java を使用して、Excel を HTML に変換する際にフォントを完全に埋め込む方法を学び、正確な表示を実現します。
+
+### [Markdown を Excel に変換 – Aspose.Cells を使用した完全ガイド](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
+Aspose.Cells を利用して、Markdown ファイルを Excel に変換する手順をステップバイステップで解説します。
 ### [ワークブックをXLSXとして保存 – JSONからXLSXを生成](./save-workbook-as-xlsx-generate-xlsx-from-json/)
 Aspose.Cells for Java を使用して、JSON データから XLSX ワークブックを生成し、保存する方法を学びます。
 ### [Javaで数値エクスポートの精度を設定：有効数字の設定](./set-numeric-export-precision-in-java-set-significant-digits/)

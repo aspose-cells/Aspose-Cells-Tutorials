@@ -38,6 +38,7 @@
 | [Удаление листа Excel по индексу Учебник C#](./delete-excel-worksheet-by-index-csharp-tutorial/) | Узнайте, как удалить лист Excel по индексу в C# с помощью Aspose.Cells. Следуйте этому простому пошаговому руководству, чтобы упростить управление рабочей книгой. |  
 | [Удаление листа Excel по имени Учебник C#](./delete-excel-worksheet-by-name-csharp-tutorial/) | Узнайте, как удалить листы Excel по имени с помощью C#. Этот понятный для новичков урок пошагово проведет вас по Aspose.Cells для .NET. |  
 | [Получить лист Excel по имени C# Tutorial](./get-excel-worksheet-by-name-csharp-tutorial/) | Получайте доступ к рабочим листам Excel по имени в C# с пошаговыми инструкциями, используя Aspose.Cells для .NET для повышения эффективности кода. |  
+| [Создание нового листа в C# – Полное руководство по динамическим массивным формулам](./create-new-worksheet-in-c-complete-guide-to-dynamic-array-fo/) | Узнайте, как создать новый лист в Excel с помощью C# и применять динамические массивные формулы в Aspose.Cells. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

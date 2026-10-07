@@ -59,7 +59,6 @@ HTMLエクスポートで見落とされがちな点の一つが、自己終了�
 
 最後に、大きな違いを生む小さな点についてお話ししましょう。HTMLエクスポート時に単一のシートタブ名を設定できるようになると、HTMLレポートを操作するユーザーにとって分かりやすくなります。この小さな調整により、特に複数のシートを含む複雑なレポートを扱う際に、ナビゲーションが向上します。ちょっとした整理整頓は誰にとっても嬉しいものです。 [タブを効率化する方法はこちら](./setting-single-sheet-tab-name/).
 
-
 ## 詳細オプション付きExcelからHTMLへのエクスポートチュートリアル
 ### [Excel を HTML にエクスポートする際に未使用のスタイルを除外する](./excluding-unused-styles/)
 この詳細なステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して Excel を HTML にエクスポートする際に、未使用のスタイルを除外する方法を説明します。
@@ -71,20 +70,59 @@ Aspose.Cells for .NET を使用して、Excel ドキュメント、ワークブ�
 この簡単なステップバイステップ ガイドで、Aspose.Cells for .NET を使用して Excel で同様の境界線スタイルをプログラム的にエクスポートする方法を学びます。
 ### [ワークシート CSS を出力 HTML に個別にエクスポートする](./exporting-worksheet-css-separately/)
 この包括的なステップバイステップのチュートリアルでは、Aspose.Cells for .NET を使用して、個別の CSS で Excel ワークシートを HTML に効果的にエクスポートする方法を学習します。
+
+### [HTML にフォントを埋め込む – Aspose.Cells で Excel ワークブックを HTML にエクスポート](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
+Aspose.Cells for .NET を使用して、Excel ワークブックのフォントを HTML に埋め込み、正確な表示を実現する方法をステップバイステップで解説します。
+
 ### [Excel のセルから HTML5 文字列をプログラムで取得する](./getting-html5-string-from-cell/)
-この詳細なステップバイステップ ガイドでは、Aspose.Cells for .NET を使用してプログラムで Excel セルから HTML5 文字列を取得する方法を学習します。
+この詳細なステップバイステップ ガイドでは、Aspose.Cells for .NET を使用してプログラムで Excel セルから HTML5文字列を取得する方法を学習します。
 ### [HTML に保存するときに、オーバーレイされたコンテンツを Cross Hide Right で非表示にする](./hiding-overlaid-content-with-cross-hide-right/)
 この包括的なガイドでは、Aspose.Cells for .NET を使用して HTML に保存するときに Excel でオーバーレイされたコンテンツを非表示にする方法を学習します。
+
 ### [表要素のスタイルにHTML保存オプションをプレフィックスとして追加する](./prefixing-table-elements-styles/)
 Aspose.Cells for .NET を使用して HTML のテーブル スタイルにプレフィックスを付け、Excel エクスポートを強化する方法を、ステップバイステップの例で説明します。
+
 ### [Excelでプログラム的に見出しを印刷する](./printing-headings/)
 Aspose.Cells for .NET のステップバイステップガイドを使えば、Excel の見出しを簡単に印刷できます。データを HTML にきれいにエクスポートして、相手に印象づけましょう。
+
 ### [Excel で自己終了タグをプログラム的に認識する](./recognizing-self-closing-tags/)
 Aspose.Cells for .NET を特集したステップバイステップ ガイドを使用して、Excel の自己終了タグの可能性を最大限に引き出します。
-### [Excel でプログラム的にスケーラブルな列幅を設定する](./setting-scalable-column-width/)
+### [Excelでプログラム的にスケーラブルな列幅を設定する](./setting-scalable-column-width/)
 Aspose.Cells for .NET を使用して、Excel ファイルの列幅をプログラムで調整する方法を学びます。効率的なデータプレゼンテーションに最適です。
+
 ### [HTMLエクスポートで単一シートのタブ名を設定する](./setting-single-sheet-tab-name/)
 Aspose.Cells for .NET を使用すると、HTML エクスポート時に単一のシートのタブ名を簡単に設定できます。コード例を含むステップバイステップのガイドです。
+### [HTML にフォントを埋め込む方法 – 完全 C# ガイド](./how-to-embed-fonts-in-html-complete-c-guide/)
+Aspose.Cells for .NET を使用して、HTML にフォントを埋め込み、表示を正確に保つ手順をステップバイステップで解説します。
+### [Excel を HTML に保存 – 完全 C# ガイド](./save-excel-as-html-complete-c-guide/)
+Aspose.Cells for .NET を使用し、C# で Excel を HTML に完全に保存する手順を詳しく解説します。
+### [Excel を HTML にエクスポートする際に凍結ペインを保持する方法（C#）](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
+このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して C# で凍結ペインを保持しながら Excel を HTML にエクスポートする方法を説明します。
+### [Excel を HTML にエクスポートする際にフォントを埋め込む – 完全な C# ガイド](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
+Aspose.Cells for .NET を使用して、Excel を HTML にエクスポートする際にフォントを埋め込む方法をステップバイステップで解説します。
+### [HTML にフォントを埋め込む方法 – C# で Excel を HTML に変換する](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
+Aspose.Cells for .NET を使用し、C# で Excel を HTML に変換する際にフォントを埋め込む手順をステップバイステップで解説します。
+### [Excel から HTML にフォントを埋め込む方法 – 完全ガイド](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
+Aspose.Cells for .NET を使用して、Excel から HTML にフォントを埋め込む手順をステップバイステップで解説します。
+### [Excel を HTML にエクスポートする方法 – ステップバイステップ ガイド](./how-to-export-excel-to-html-step-by-step-guide/)
+Aspose.Cells for .NET を使用して、Excel を HTML にエクスポートする手順を段階的に解説します。
+### [フリーズペイン付きで Excel を HTML に保存する – 完全 C# ガイド](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
+Aspose.Cells for .NET を使用し、フリーズペインを保持したまま Excel を HTML にエクスポートする完全な C# 手順を解説します。
+### [HTML にフォントを埋め込む – C# で Excel を HTML にエクスポート](./embed-fonts-in-html-export-excel-to-html-with-c/)
+このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して、HTML にフォントを埋め込みながら Excel を HTML にエクスポートする方法を説明します。
+### [C# で Excel を HTML に変換する完全ガイド](./convert-excel-to-html-in-c-complete-guide/)
+Aspose.Cells for .NET を使用し、C# で Excel を HTML に変換する手順を詳しく解説します。
+### [Excel を HTML にエクスポートする方法 – 完全プログラミングガイド](./how-to-export-excel-to-html-complete-programming-guide/)
+Aspose.Cells for .NET を使用して、Excel を HTML にエクスポートする完全なプログラミング手順を解説します。
+### [C# で HTML 保存オプションを作成する – 完全ガイド](./create-html-save-options-in-c-full-guide/)
+Aspose.Cells for .NET を使用し、C# で HTML 保存オプションを設定する方法をステップバイステップで解説します。
+### [Excel を HTML に保存する – エクスポートと変換の完全ガイド](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
+Aspose.Cells for .NET を使用して、Excel ファイルを HTML にエクスポートし、変換する手順を詳細に解説します。
+
+### [Excel を HTML に変換 – Aspose.Cells を使用した完全ガイド](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+この包括的なステップバイステップガイドでは、Aspose.Cells for .NET を使用して Excel を HTML に変換する方法を詳しく解説します。
+### [Excel を HTML に保存する – コードサンプル付き完全ガイド](./save-excel-as-html-complete-guide-with-code-samples/)
+この包括的なステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して、コードサンプルと共に Excel を HTML に保存する方法を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

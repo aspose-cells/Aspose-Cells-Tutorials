@@ -138,7 +138,7 @@ Aspose.Words Java 代码教程
 学习如何使用 Aspose.Cells for Java 管理 Excel 工作簿的版本和格式。检索版本信息、配置 Open XML 兼容性等等。
 
 ### [使用 Aspose.Cells 掌握 Java 中的 Excel 工作簿操作](./aspose-cells-java-workbook-manipulation/)
-学习使用 Aspose.Cells for Java 自动执行 Excel 任务。本教程涵盖如何高效地设置、加载、创建、复制和保存工作簿。
+学习使用 Aspose.Cells for Java 自动执行 Excel 工作簿操作。本教程涵盖如何高效地设置、加载、创建、复制和保存工作簿。
 
 ### [掌握使用 Aspose.Cells for Java 进行工作簿操作：综合指南](./aspose-cells-java-workbook-manipulation-guide/)
 学习使用 Aspose.Cells for Java 自动化 Excel 工作簿操作。本指南涵盖如何高效地创建、修改和保存工作簿。
@@ -479,6 +479,16 @@ Aspose.Words Java 代码教程
 ### [如何使用 Aspose.Cells for Java 设置 Excel 文档版本](./set-excel-version-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 设置和管理 Excel 文件中的文档属性（例如版本控制）。按照本分步指南，高效地操作工作簿。
 
+### [在 Java 中将工作簿保存为 XLSX – 完整编程指南](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
+学习如何使用 Aspose.Cells for Java 将工作簿保存为 XLSX 格式，提供完整代码示例和最佳实践。
+
+### [创建 Excel 工作簿 Java – 完整分步指南](./create-excel-workbook-java-complete-step-by-step-guide/)
+学习如何使用 Java 创建 Excel 工作簿并进行完整的分步操作，涵盖创建、配置和保存等关键步骤。
+
+### [将工作簿保存到文件 – 完整的 Java 指南用于复制 Excel 区域](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
+
+### [如何在 Excel（Java）中添加自定义属性 – 检索值并保存为 XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
+学习如何使用 Aspose.Cells for Java 在 Excel 工作簿中添加自定义属性、检索其值并将工作簿保存为 XLSB 格式。
 
 ## 其他资源
 

@@ -9,25 +9,7 @@ url: /id/java/advanced-excel-charts/chart-interactivity/
 weight: 19
 ---
 
-We need to translate "Add Data Labels to Excel Chart and Change Chart Type – Aspose.Cells Java" heading.
-
-Also "Interactive charts give your Excel reports a new level of insight..." etc.
-
-Make sure to keep bold formatting.
-
-Translate "Quick Answers" etc.
-
-Translate table content.
-
-Translate FAQs.
-
-Make sure to keep markdown formatting.
-
-Let's craft translation.
-
-We'll keep URLs unchanged.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

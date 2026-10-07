@@ -50,6 +50,12 @@
 Узнайте, как автоматизировать задачи Excel на Java с помощью примеров исходного кода, используя Aspose.Cells, мощную библиотеку для работы с Excel.
 ### [Интеграция данных в Excel](./data-integration-in-excel/)
 Узнайте, как эффективно интегрировать данные в Excel для лучшего понимания и принятия решений. Пошаговое руководство с исходным кодом с использованием Aspose.Cells для Java.
+### [Отключение автофильтра в Excel с помощью Java – пошаговое руководство](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
+Узнайте, как отключить автофильтр в файлах Excel с помощью Aspose.Cells для Java, следуя пошаговым примерам кода.
+### [Создание Excel программно в Java – пошаговое руководство](./create-excel-programmatically-in-java-step-by-step-guide/)
+Узнайте, как программно создавать файлы Excel на Java с помощью Aspose.Cells, следуя пошаговым примерам кода.
+### [Как отключить автофильтр в Excel с помощью Java – Полное руководство](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+Узнайте, как отключить автофильтр в Excel с помощью Aspose.Cells для Java, используя примеры кода.
 ### [Как отключить AutoFilter в Excel с помощью Java – Полное руководство](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
 Узнайте, как отключить AutoFilter в Excel с помощью Aspose.Cells для Java, используя примеры кода и пошаговые инструкции.
 ### [Создание вертикального массива Excel с Java – Полное пошаговое руководство](./create-vertical-array-excel-with-java-full-step-by-step-guid/)

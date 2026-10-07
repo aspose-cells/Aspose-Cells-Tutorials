@@ -1,5 +1,5 @@
 ---
-"description": "Ξεκλειδώστε τη δύναμη του Aspose.Cells για Java με τα ολοκληρωμένα εκπαιδευτικά μας σεμινάρια. Μάθετε την αυτοματοποίηση υπολογτικών φύλλων βήμα προς βήμα για αποτελεσματική ανάπτυξη Java."
+"description": "Ξεκλειδώστε τη δύναμη του Aspose.Cells για Java με τα ολοκληρωμένα εκπαιδευτικά μας σεμινάρια. Μάθετε την αυτοματοποίηση υπολογιστικών φύλλων βήμα προς βήμα για αποτελεσματική ανάπτυξη Java."
 "linktitle": "Αυτοματοποίηση υπολογτικών φύλλων"
 "second_title": "API επεξεργασίας Java Excel Aspose.Cells"
 "title": "Αυτοματοποίηση υπολογτικών φύλλων"
@@ -50,6 +50,14 @@
 Μάθετε πώς να αυτοματοποιείτε εργασίες Excel σε Java με παραδείγματα πηγαίου κώδικα χρησιμοποιώντας το Aspose.Cells, μια ισχυρή βιβλιοθήκη για χειρισμό του Excel.
 ### [Ενοποίηση δεδομένων στο Excel](./data-integration-in-excel/)
 Μάθετε πώς να ενσωματώνετε αποτελεσματικά δεδομένα στο Excel για καλύτερες πληροφορίες και λήψη αποφάσεων. Οδηγός βήμα προς βήμα με πηγαίο κώδικα χρησιμοποιώντας το Aspose.Cells για Java.
+### [Πώς να απενεργοποιήσετε το Auto Filter στο Excel με Java – Πλήρης Οδηγός](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+Μάθετε πώς να απενεργοποιήσετε το Auto Filter σε αρχεία Excel χρησιμοποιώντας Aspose.Cells για Java, βήμα-βήμα με παραδείγματα κώδικα.
+
+### [Απενεργοποίηση Autofilter στο Excel με Java – Οδηγός βήμα‑βήμα](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
+Μάθετε πώς να απενεργοποιήσετε το Autofilter σε αρχεία Excel χρησιμοποιώντας το Aspose.Cells για Java, με παραδείγματα κώδικα.
+
+### [Δημιουργία Excel προγραμματιστικά σε Java – Οδηγός βήμα‑βήμα](./create-excel-programmatically-in-java-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε αρχεία Excel από το μηδέν σε Java χρησιμοποιώντας το Aspose.Cells, με παραδείγματα κώδικα βήμα‑βήμα.
 ### [Πώς να απενεργοποιήσετε το AutoFilter στο Excel με Java – Πλήρης οδηγός](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
 Μάθετε πώς να απενεργοποιήσετε το AutoFilter σε αρχεία Excel χρησιμοποιώντας Aspose.Cells για Java, με βήμα‑βήμα παραδείγματα κώδικα.
 ### [Δημιουργία κατακόρυφου πίνακα Excel με Java – Πλήρης οδηγός βήμα‑βήμα](./create-vertical-array-excel-with-java-full-step-by-step-guid/)

@@ -42,6 +42,10 @@
 تعرّف على كيفية تحديث بيانات جدول البيانات المحوري في Aspose.Cells لجافا. حافظ على تحديث بياناتك بسهولة.
 ### [تخصيص أنماط الجدول المحوري](./customizing-pivot-table-styles/)
 تعرّف على كيفية تخصيص أنماط جداول البيانات المحورية في Aspose.Cells لواجهة برمجة تطبيقات Java. أنشئ جداول بيانات محورية جذابة بصريًا بسهولة.
+### [نسخ جدول محوري في Java – الحفاظ عليه، وتصديره إلى PPTX](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
+تعلم كيفية نسخ جدول محوري في Java مع الحفاظ على تنسيقه وتصديره إلى ملف PPTX بسهولة باستخدام Aspose.Cells.
+### [كيفية نسخ جدول محوري في Java – دليل Aspose.Cells الكامل](./how-to-copy-pivot-table-in-java-complete-aspose-cells-guide/)
+### [إنشاء صورة PNG من جدول محوري في Java – دليل خطوة بخطوة كامل](./create-png-from-pivot-in-java-full-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

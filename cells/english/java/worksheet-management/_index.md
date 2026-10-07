@@ -59,6 +59,9 @@ A code tutorial for Aspose.Words Java
 ### [Mastering Aspose.Cells Java&#58; Utilize Smart Markers for Dynamic Data in Worksheets](./aspose-cells-java-smart-markers-worksheets/)
 Learn how to automate Excel file generation using Aspose.Cells for Java with smart markers. Streamline data management and optimize your workflow today.
 
+### [How to Use SmartMarkerProcessor for Dynamic Sheet Naming](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
+Learn how to dynamically name Excel sheets using SmartMarkerProcessor in Aspose.Cells for Java.
+
 ### [Master Aspose.Cells Java&#58; Comprehensive Guide to Workbook and Worksheet Management](./aspose-cells-java-workbook-worksheet-guide/)
 Learn how to manage Excel workbooks with Aspose.Cells for Java. This guide covers workbook instantiation, worksheet access, page setups, print titles, and more.
 
@@ -73,6 +76,9 @@ Learn how to delete columns from an Excel workbook using Aspose.Cells for Java. 
 
 ### [How to Delete Rows in Excel Using Aspose.Cells for Java | Guide & Tutorial](./delete-row-excel-aspose-cells-java/)
 Learn how to efficiently delete rows from an Excel file using Aspose.Cells for Java. This guide covers setup, code examples, and practical applications.
+
+### [Delete rows in worksheet with Java – Complete Guide](./delete-rows-in-worksheet-with-java-complete-guide/)
+Learn how to delete rows in an Excel worksheet using Aspose.Cells for Java with clear steps and code samples.
 
 ### [Manage Excel Tabs Visibility with Aspose.Cells in Java](./display-excel-tabs-aspose-cells-java/)
 Learn how to display or hide Excel tabs using Aspose.Cells for Java. This guide covers setup, code implementation, and best practices for effective worksheet management.

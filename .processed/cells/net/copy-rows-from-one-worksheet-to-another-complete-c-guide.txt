@@ -1,0 +1,7 @@
+Title: Copy rows from one worksheet to another – Complete C# Guide
+Slug: copy-rows-from-one-worksheet-to-another-complete-c-guide
+Category: row-and-column-management
+ProcessedDate: 2026-07-29T18:29:41.732675
+SourceRepo: AI Search API
+Keywords: copy rows from one worksheet to another, load excel workbook programmatically
+PRNumber: 129

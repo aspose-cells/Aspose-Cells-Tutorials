@@ -152,6 +152,8 @@
 ### [如何使用 Aspose.Cells .NET 在 Excel 中拆分工作表窗格以增强数据分析](./split-worksheet-panes-excel-aspose-cells-dotnet)
 了解如何使用 Aspose.Cells for .NET 在 Excel 中拆分工作表窗格，提高数据导航和分析效率，从而更好地可视化大型数据集。
 
+### [如何使用 SmartMarkerProcessor – 在 Excel 中重命名现有工作表](./how-to-use-smartmarkerprocessor-rename-existing-sheet-in-exc/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -83,6 +83,10 @@ Ismerje meg, hogyan automatizálhatja az Excel-feladatokat az Aspose.Cells for J
 ### [FormulaText implementálása az Aspose.Cells-ben Java-ban: Lépésről lépésre útmutató](./implementing-formula-text-aspose-cells-java-guide/)
 Tanuld meg, hogyan lehet képletszöveget kinyerni Excel cellákból az Aspose.Cells és Java használatával. Ez az útmutató a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
 
+### [Hogyan használjuk a Reduce függvényt Excelben Java-val – Lambda képlet útmutató](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
+Ismerje meg, hogyan használhatja a Reduce függvényt Excelben Java-val lambda képletekkel a hatékony számításokhoz.
+### [Hogyan használjuk a SEQUENCE függvényt Java Excel munkafüzetben – Lépésről lépésre útmutató](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+Ismerje meg, hogyan alkalmazhatja a SEQUENCE függvényt az Aspose.Cells for Java segítségével Excel munkafüzetekben, részletes példákkal.
 ### [Hogyan használjuk a WRAPCOLS-t Java-ban – Teljes Excel WRAPCOLS példa](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 Ismerje meg, hogyan alkalmazhatja a WRAPCOLS függvényt Java-ban az Aspose.Cells segítségével, részletes példakóddal.
 

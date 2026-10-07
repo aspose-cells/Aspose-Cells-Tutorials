@@ -93,6 +93,9 @@ Scopri come utilizzare Aspose.Cells per .NET per trovare il numero massimo di ri
 ### [Modificare le celle di Excel con Aspose.Cells .NET](./modify-excel-cells-aspose-cells-dotnet-guide)
 Padroneggia le tecniche essenziali per modificare il contenuto, la formattazione e le proprietà delle celle di Excel a livello di codice. Questa guida illustra come aggiornare i valori, applicare stili e gestire gli attributi delle celle nelle cartelle di lavoro di Excel in modo efficiente.
 
+### [Leggere e Scrivere Excel C# – Guida Completa alla Lettura e Scrittura delle Celle Excel](./read-write-excel-c-complete-guide-to-reading-and-writing-exc/)
+Scopri come leggere e scrivere celle Excel in C# con esempi pratici, best practice e ottimizzazioni per gestire grandi volumi di dati.
+
 ### [Spostare le celle in Excel con Aspose.Cells e C#](./move-cells-excel-aspose-csharp-guide)
 Scopri come spostare o copiare celle e intervalli in modo programmatico all'interno dei fogli di lavoro di Excel. Questo tutorial illustra diversi approcci per riposizionare i dati preservando la formattazione e gestendo correttamente i riferimenti alle formule.
 
@@ -102,6 +105,8 @@ Scopri come separare le celle unite in Excel con Aspose.Cells per .NET. Questa g
 ### [Aggiorna i giorni del registro delle revisioni in Excel condiviso con Aspose.Cells](./update-revision-logs-days-aspose-cells-net)
 Padroneggia il processo di aggiornamento dei registri della cronologia delle revisioni nelle cartelle di lavoro Excel condivise. Questo tutorial mostra come gestire le funzionalità di monitoraggio delle revisioni a livello di codice per una migliore gestione dei documenti in ambienti collaborativi.
 
+### [Come scrivere date in Excel con C# – Guida completa alla programmazione](./how-to-write-date-excel-in-c-complete-programming-guide/)
+Scopri come inserire e formattare correttamente le date in file Excel usando Aspose.Cells per .NET con esempi di codice C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

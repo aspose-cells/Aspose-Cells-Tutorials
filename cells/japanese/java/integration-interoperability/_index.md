@@ -53,6 +53,14 @@ Aspose.Cells for Java を使用して、ワークブックの読み込み、グ�
 ### [Aspose.Cells 統合による Java 教師クラスの実装をマスターする](./master-teacher-class-java-aspose-cells/)
 Java で Teacher クラスを実装し、生徒データを管理し、Aspose.Cells を統合して Excel ファイルの処理を強化する方法を学習します。
 
+### [Java で Excel を PPTX に変換 – 完全プログラミングガイド](./convert-excel-to-pptx-with-java-complete-programming-guide/)
+Java と Aspose.Cells を使用して、Excel ファイルを PowerPoint プレゼンテーション (PPTX) に変換する方法をステップバイステップで解説します。
+
+### [Excel から Word へチャートをエクスポートする方法 – Java ガイド](./how-to-export-charts-from-excel-to-word-java-guide/)
+Java と Aspose.Cells を使用して、Excel のチャートを Word 文書にエクスポートする手順を学びます。
+
+### [Java で WRAPCOLS を使用する方法 – Excel 配列数式の完全ガイド](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
+Java と Aspose.Cells を使って WRAPCOLS 関数を活用し、Excel の配列数式を実装する手順を詳しく解説します。
 ### [Excel から PowerPoint を作成 – 完全 Java ガイド](./create-powerpoint-from-excel-full-java-guide/)
 Excel データを使用して PowerPoint プレゼンテーションを作成する方法を、Aspose.Cells と Aspose.Slides を組み合わせた完全な Java ガイドで学びます。
 

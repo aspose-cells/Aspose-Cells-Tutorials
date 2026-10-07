@@ -45,6 +45,8 @@
 ### [إتقان وظائف Excel الإضافية باستخدام Aspose.Cells لـ Java](./excel-addin-functions-aspose-cells-java/)
 ### [أتمتة Excel في Java: تحميل المصنفات وتطبيق الصيغ المشتركة باستخدام Aspose.Cells](./excel-automation-aspose-cells-java-load-formulas/)
 ### [كيفية تنفيذ FormulaText في Aspose.Cells لـ Java: دليل خطوة بخطوة](./implementing-formula-text-aspose-cells-java-guide/)
+### [كيفية استخدام Reduce في Excel مع Java – دليل صيغ Lambda](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
+### [كيفية استخدام SEQUENCE في مصنف Excel Java – دليل خطوة بخطوة](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
 ### [كيفية استخدام WRAPCOLS في Java – مثال كامل على Excel WRAPCOLS](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 
 ## موارد إضافية

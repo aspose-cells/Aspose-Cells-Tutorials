@@ -233,6 +233,12 @@
 ### [Πώς να διαμορφώσετε κελιά Excel και να προσθέσετε υπερσυνδέσμους χρησιμοποιώντας το Aspose.Cells για Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Εξασκηθείτε στη διαμόρφωση κελιών Excel και στην προσθήκη υπερσυνδέσμων στις εφαρμογές Java με το Aspose.Cells. Ακολουθήστε αυτόν τον ολοκληρωμένο οδηγό για απρόσκοπτη ενσωμάτωση και μορφοποίηση.
 
+### [Ορισμός μορφής αριθμού στο Excel με Java – Πλήρης οδηγός](./set-number-format-excel-in-java-complete-guide/)
+Μάθετε πώς να ορίζετε μορφές αριθμού σε αρχεία Excel χρησιμοποιώντας το Aspose.Cells για Java.
+
+### [Δημιουργία βιβλίου εργασίας Excel με δυναμική μορφοποίηση σε Java – Πλήρης οδηγός](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel με δυναμική μορφοποίηση χρησιμοποιώντας το Aspose.Cells για Java.
+
 ### [Πώς να εφαρμόσετε στυλ κατά τη μετατροπή DataTable σε Excel – Πλήρης οδηγός Java](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 Μάθετε πώς να εφαρμόζετε στυλ σε DataTable κατά τη μετατροπή του σε αρχείο Excel χρησιμοποιώντας το Aspose.Cells για Java.
 

@@ -26,7 +26,7 @@ Aspose.Cells Java 튜토리얼을 통해 워크시트 조작을 마스터하세�
 
 ## 사용 가능한 튜토리얼
 
-### [Java에서 Aspose.Cells를 사용하여 이름으로 Excel 워크시트에 효율적으로 액세스](./access-excel-sheets-name-aspose-cells-java/)
+### [Java에서 Aspose.Cells를 사용하여 이름으로 Excel 워크시트를 효율적으로 액세스](./access-excel-sheets-name-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 특정 워크시트에 이름으로 액세스하는 방법을 알아보세요. 이 포괄적인 가이드를 통해 데이터 처리를 간소화하세요.
 
 ### [Aspose.Cells for Java를 사용하여 Excel에 워크시트를 추가하는 방법: 완전한 가이드](./add-spreadsheets-excel-aspose-cells-java/)
@@ -74,6 +74,9 @@ Aspose.Cells for Java를 사용하여 Excel 통합 문서에서 열을 삭제하
 ### [Aspose.Cells for Java를 사용하여 Excel에서 행을 삭제하는 방법 | 가이드 및 튜토리얼](./delete-row-excel-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 파일에서 행을 효율적으로 삭제하는 방법을 알아보세요. 이 가이드에서는 설정, 코드 예제, 그리고 실제 활용 사례를 다룹니다.
 
+### [Java로 워크시트에서 행 삭제: 완전 가이드](./delete-rows-in-worksheet-with-java-complete-guide/)
+Aspose.Cells for Java를 사용하여 워크시트에서 행을 삭제하는 방법을 알아보세요. 설정, 구현 및 최적화 팁을 다룹니다.
+
 ### [Java에서 Aspose.Cells를 사용하여 Excel 탭 표시 여부 관리](./display-excel-tabs-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 탭을 표시하거나 숨기는 방법을 알아보세요. 이 가이드에서는 효과적인 워크시트 관리를 위한 설정, 코드 구현 및 모범 사례를 다룹니다.
 
@@ -98,6 +101,8 @@ Aspose.Words Java에 대한 코드 튜토리얼
 ### [Aspose.Cells Java를 사용하여 Excel에서 행 및 열 숨기기 해제: 단계별 가이드](./unhide-rows-columns-excel-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 파일의 행과 열을 손쉽게 숨기는 방법을 알아보세요. 이 포괄적인 가이드를 통해 데이터 관리를 자동화하세요.
 
+### [동적 시트 이름 지정에 SmartMarkerProcessor 사용 방법](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
+SmartMarkerProcessor를 활용하여 Excel 워크시트 이름을 동적으로 지정하는 방법을 단계별로 안내합니다.
 ### [Java를 사용하여 Excel에 여러 시트 만들기 – 완전한 템플릿 기반 가이드](./create-multiple-sheets-in-excel-with-java-complete-template/)
 Java와 Aspose.Cells를 사용해 템플릿 기반으로 Excel에 여러 워크시트를 생성하는 방법을 단계별로 안내합니다.
 

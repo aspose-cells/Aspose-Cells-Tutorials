@@ -83,6 +83,10 @@
 ### [Πώς να εφαρμόσετε το FormulaText στο Aspose.Cells για Java: Οδηγός βήμα προς βήμα](./implementing-formula-text-aspose-cells-java-guide/)
 Μάθετε πώς να εξάγετε κείμενο τύπου από κελιά του Excel χρησιμοποιώντας το Aspose.Cells με Java. Αυτός ο οδηγός καλύπτει την εγκατάσταση, την υλοποίηση και τις πρακτικές εφαρμογές.
 
+### [Πώς να χρησιμοποιήσετε τη λειτουργία Reduce στο Excel με Java – Οδηγός τύπου Lambda](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
+Μάθετε πώς να εφαρμόζετε τη λειτουργία Reduce σε τύπους Excel χρησιμοποιώντας Java και Lambda για προηγμένες υπολογιστικές εργασίες.
+### [Πώς να χρησιμοποιήσετε τη λειτουργία SEQUENCE σε βιβλίο εργασίας Excel Java – Οδηγός βήμα‑προς‑βήμα](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+Μάθετε πώς να χρησιμοποιείτε τη λειτουργία SEQUENCE στο Aspose.Cells για Java για δημιουργία δυναμικών σειρών κελιών σε βιβλία εργασίας Excel.
 ### [Πώς να χρησιμοποιήσετε το WRAPCOLS σε Java – Πλήρες παράδειγμα Excel WRAPCOLS](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 Μάθετε πώς να εφαρμόζετε τη λειτουργία WRAPCOLS με Aspose.Cells για Java, βήμα-βήμα, με πλήρη παράδειγμα κώδικα.
 

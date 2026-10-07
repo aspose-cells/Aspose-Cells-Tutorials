@@ -35,6 +35,9 @@ Nepodceňujte sílu velikosti! Dobře zvolená velikost písma může ovlivnit, 
 
 Rozmanitost je kořením života a to platí i pro písma. Podívejte se na náš tutoriál na [Použití různých stylů písma v Excelu](./applying-different-fonts-styles/) prozkoumat různé možnosti stylingu, od tučného písma po kurzívu, které mohou dramaticky změnit vzhled vaší tabulky! Pomocí Aspose.Cells pro .NET můžete snadno kombinovat styly a vytvářet tak dynamické a poutavé pracovní listy. 
 
+### [Aplikace tučného písma v textovém poli – krok za krokem v C#](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET aplikovat tučné písmo na textové pole v Excelu v C#.
+
 ## Použití podtrženého písma v Excelu
 
 Už jste někdy cítili potřebu zdůraznit určitou informaci v excelových tabulkách? Podtržení může být vaším nejlepším přítelem! V našem podrobném průvodci... [Použití podtrženého písma v Excelu](./using-font-underline-type/), ukážeme vám, jak efektivně aplikovat podtržení na text v buňkách pomocí Aspose.Cells pro .NET. Tento přímočarý podrobný tutoriál vám usnadní přidání zdůraznění tam, kde je to nejdůležitější, ať už jde o nadpisy, důležité poznámky nebo konkrétní datové body.
@@ -68,6 +71,10 @@ Naučte se v tomto podrobném návodu krok za krokem, jak v Excelu pomocí Aspos
 Naučte se, jak v Excelu pomocí Aspose.Cells pro .NET aplikovat efekty dolního indexu v tomto komplexním průvodci. Součástí je i podrobný návod.
 ### [Přizpůsobení efektu Super Script na text v Excelu](./customizing-super-script-effect/)
 Naučte se, jak přizpůsobit horní index v Excelu pomocí Aspose.Cells pro .NET. Vylepšete své tabulky pomocí snadných kroků.
+### [Jak vložit písma do exportů Excel v C# – kompletní průvodce](./how-to-embed-fonts-in-c-excel-exports-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET vložit vlastní písma do exportovaných souborů Excel v C# a zajistit správné zobrazení na všech zařízeních.
+### [Jak zkopírovat písmo z buňky Excel do TextBoxu – krok za krokem](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
+Naučte se, jak pomocí Aspose.Cells pro .NET zkopírovat formát písma z buňky Excel do TextBoxu v C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

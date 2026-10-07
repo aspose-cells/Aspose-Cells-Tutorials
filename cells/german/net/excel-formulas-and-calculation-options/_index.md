@@ -57,6 +57,8 @@ Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells 
 Automatisieren Sie Ihre Excel-Aufgaben mit Aspose.Cells für .NET. Lernen Sie in diesem umfassenden Tutorial, Formeln programmgesteuert zu berechnen.
 ### [Formeln einmalig programmgesteuert in Excel berechnen](./calculating-formulas-once/)
 Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie Excel-Formeln programmgesteuert mit Aspose.Cells für .NET berechnen. Verbessern Sie Ihre Excel-Automatisierungskenntnisse.
+### [Wie man den Kotangens in Excel mit C# berechnet – Schritt‑für‑Schritt‑Anleitung](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie den Kotangens in Excel mit C# berechnen.
 ### [Zirkelbezüge in Excel programmgesteuert erkennen](./detecting-circular-reference/)
 Mit Aspose.Cells für .NET erkennen Sie Zirkelbezüge in Excel ganz einfach. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um genaue Berechnungen in Ihren Tabellen zu gewährleisten.
 ### [Direkte Berechnungsformel in Excel programmgesteuert](./direct-calculation-formula/)
@@ -67,6 +69,8 @@ Erfahren Sie in dieser ausführlichen Schritt-für-Schritt-Anleitung, wie Sie Ex
 Nutzen Sie das Potenzial von Excel mit Aspose.Cells für .NET. Erfahren Sie Schritt für Schritt, wie Sie Daten mit leistungsstarken Add-In-Funktionen verarbeiten.
 ### [Verarbeiten von Daten mit der Array-Funktion in Excel](./processing-data-using-array-function/)
 Entfesseln Sie die Leistungsfähigkeit von Excel mit Aspose.Cells für .NET. Lernen Sie in diesem ausführlichen Tutorial, Daten mit Array-Funktionen zu verarbeiten.
+### [Erstellen eines Arrays in Excel mit C# – Schritt‑für‑Schritt‑Anleitung](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit C# ein Array in Excel erstellen – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
 ### [Verarbeiten von Daten mithilfe integrierter Funktionen in Excel](./processing-data-using-built-in-functions/)
 Entdecken Sie, wie Sie mit Aspose.Cells für .NET Daten mithilfe integrierter Excel-Funktionen verarbeiten. Folgen Sie einer Schritt-für-Schritt-Anleitung für eine einfache Automatisierung.
 ### [Verarbeiten von Daten mit R1C1 in Excel](./processing-data-using-r1c1/)
@@ -75,6 +79,15 @@ Erfahren Sie, wie Sie Daten mit R1C1-Formeln in Excel mithilfe von Aspose.Cells 
 Entdecken Sie mit unserem einfachen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET Funktionen von Add-Ins in Excel registrieren und aufrufen.
 ### [Festlegen der maximalen Zeilenanzahl gemeinsamer Formeln in Excel](./specifying-maximum-rows-of-shared-formula/)
 Entdecken Sie mit diesem einfachen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET die maximale Zeilenanzahl für freigegebene Formeln in Excel festlegen.
+### [Alle Formeln in C# neu berechnen – Excel aktualisieren](./recalculate-all-formulas-in-c-refresh-excel/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET alle Formeln in einer Arbeitsmappe neu berechnen und das Excel-Dokument aktualisieren.
+### [c# Excel-Datei erstellen – Schritt‑für‑Schritt‑Anleitung mit bedingter Logik](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.Cells für .NET Excel-Dateien in C# erstellen und bedingte Logik anwenden.
+### [Wie man ein Array in C# mit Aspose.Cells erweitert – Schritt‑für‑Schritt‑Anleitung](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+### [Wie man WRAPCOLS in C# verwendet – Arrays in Matrizen umformen](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET die WRAPCOLS-Funktion in C# nutzen, um Arrays einfach in Matrizen zu transformieren.
+### [Wie man den Kotangens in Excel mit C# berechnet – Komplettanleitung](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+Entdecken Sie, wie Sie den Kotangens in Excel mithilfe von C# und Aspose.Cells berechnen. Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

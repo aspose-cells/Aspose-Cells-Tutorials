@@ -99,7 +99,10 @@ Pelajari cara memuat, mengakses, dan memodifikasi buku kerja Excel secara efisie
 Pelajari cara memuat buku kerja Excel secara efisien menggunakan Aspose.Cells untuk Java dengan opsi pemuatan khusus. Tingkatkan kinerja dan kelola kumpulan data besar secara efektif.
 
 ### [Cara Memuat dan Menyimpan Excel sebagai CSV Menggunakan Aspose.Cells untuk Java: Panduan Lengkap](./aspose-cells-java-load-save-excel-csv/)
-Pelajari cara mengonversi file Excel ke format CSV secara efisien menggunakan Aspose.Cells untuk Java. Panduan ini membahas cara memuat, mengonfigurasi, dan menyimpan buku kerja dengan langkah-langkah terperinci.
+Pelajari cara mengonversi file Excel ke format CSV secara efisien menggunakan Aspose.Cells untuk Java. Panduan ini membahas cara memuat, mengkonfigurasi, dan menyimpan buku kerja dengan langkah-langkah terperinci.
+
+### [Simpan Buku Kerja sebagai XLSX di Java – Panduan Pemrograman Lengkap](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
+Pelajari cara menyimpan buku kerja Excel sebagai file XLSX menggunakan Aspose.Cells untuk Java dengan contoh kode lengkap.
 
 ### [Menguasai Aspose.Cells untuk Java: Memuat dan Menyimpan File Excel Secara Efisien](./aspose-cells-java-load-save-excel-files/)
 Pelajari cara memuat, memanipulasi, dan menyimpan file Excel secara efisien menggunakan Aspose.Cells untuk Java dengan panduan komprehensif ini.
@@ -216,7 +219,7 @@ Pelajari cara menggunakan Aspose.Cells untuk Java untuk membuat dan mengakses le
 Tutorial kode untuk Aspose.Words Java
 
 ### [Membuat dan Menyesuaikan Buku Kerja Excel Menggunakan Aspose.Cells Java: Panduan Langkah demi Langkah](./create-customize-excel-workbooks-aspose-cells-java/)
-Pelajari cara mengotomatiskan pembuatan dan penyesuaian buku kerja Excel dengan Aspose.Cells untuk Java. Tingkatkan produktivitas dengan menguasai operasi buku kerja.
+Pelajari cara mengotomatiskan pembuatan dan penyesuaian buku kerja Excel dengan Aspose.Cells Java. Tingkatkan produktivitas dengan menguasai operasi buku kerja.
 
 ### [Membuat dan Menggabungkan Buku Kerja Excel Menggunakan Aspose.Cells untuk Java | Panduan Lengkap](./create-merge-excel-workbooks-aspose-cells-java/)
 Pelajari cara membuat dan menggabungkan buku kerja Excel secara efisien menggunakan Aspose.Cells untuk Java dengan panduan lengkap ini. Sederhanakan operasi buku kerja Anda hari ini.
@@ -473,11 +476,20 @@ Pelajari cara mengambil versi file Excel secara terprogram dengan Aspose.Cells u
 ### [Cara Menyimpan File Excel dalam Berbagai Format Menggunakan Aspose.Cells Java](./save-excel-files-aspose-cells-java/)
 Pelajari cara menyimpan file Excel dalam berbagai format dengan mudah menggunakan Aspose.Cells untuk Java. Panduan ini mencakup XLSX, PDF, HTML, dan banyak lagi.
 
+### [Simpan Buku Kerja ke File – Panduan Lengkap Java untuk Menyalin Rentang Excel](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
+Pelajari cara menyimpan buku kerja ke file dan menyalin rentang sel Excel menggunakan Aspose.Cells untuk Java dengan contoh kode lengkap.
+
 ### [Cara Mengatur Versi Dokumen Excel Menggunakan Aspose.Cells untuk Java](./set-excel-version-aspose-cells-java/)
 Pelajari cara mengatur dan mengelola properti dokumen seperti pembuatan versi dalam file Excel menggunakan Aspose.Cells untuk Java. Ikuti panduan langkah demi langkah ini untuk pengoperasian buku kerja yang efisien.
 
+### [Membuat Buku Kerja Excel Java – Panduan Lengkap Langkah demi Langkah](./create-excel-workbook-java-complete-step-by-step-guide/)
+Panduan lengkap membuat buku kerja Excel di Java menggunakan Aspose.Cells, dengan contoh kode langkah demi langkah.
+
 ### [Membuat Buku Kerja Baru di Java – Panduan Langkah demi Langkah](./create-new-workbook-in-java-step-by-step-guide/)
 Panduan langkah demi langkah untuk membuat buku kerja Excel baru menggunakan Aspose.Cells untuk Java.
+
+### [Cara Menambahkan Properti Kustom di Excel (Java) – Mengambil Nilai & Menyimpan sebagai XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
+Pelajari cara menambahkan properti kustom ke file Excel menggunakan Aspose.Cells untuk Java, mengambil nilainya, dan menyimpan sebagai file XLSB.
 
 ## Sumber Daya Tambahan
 

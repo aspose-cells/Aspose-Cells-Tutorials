@@ -32,6 +32,16 @@ Dále se pojďme ponořit do složitostí správy PDF. PDF soubory jsou široce 
 Naučte se, jak převést soubory Excelu do formátu XPS pomocí Aspose.Cells pro .NET v několika snadných krocích s praktickými příklady kódu.
 ### [Nastavení času vytvoření PDF v .NET](./setting-pdf-creation-time/)
 Naučte se, jak nastavit čas vytvoření PDF v .NET pomocí Aspose.Cells. Postupujte podle našeho podrobného návodu pro bezproblémovou konverzi z Excelu do PDF.
+### [Jak zapisovat Unicode v Excelu pomocí C# – Kompletní průvodce krok za krokem](./how-to-write-unicode-in-excel-with-c-complete-step-by-step-g/)
+Naučte se, jak zapisovat Unicode v Excelu pomocí C# s podrobnými příklady a tipy.
+### [Převod docx na xps v C# – Kompletní průvodce](./convert-docx-to-xps-in-c-complete-guide/)
+Naučte se, jak převést soubory DOCX do formátu XPS pomocí Aspose.Cells pro .NET v několika snadných krocích s praktickými příklady kódu.
+### [Převod Excelu do XPS pomocí C# – kompletní průvodce](./convert-excel-to-xps-with-c-complete-guide/)
+Naučte se, jak převést soubory Excelu do formátu XPS pomocí C# s podrobným návodem a praktickými ukázkami kódu.
+### [Vytvoření nového sešitu Excel – Průvodce Unicode a exportem do XPS](./create-new-excel-workbook-unicode-xps-export-guide/)
+Naučte se, jak vytvořit nový sešit Excel s podporou Unicode a exportovat jej do XPS pomocí Aspose.Cells pro .NET.
+### [Vložení fontů do XPS pomocí C# – Kompletní programovací průvodce](./embed-fonts-in-xps-with-c-complete-programming-guide/)
+Naučte se, jak vložit fonty do XPS souborů v C# pomocí Aspose.Cells, včetně praktických ukázek kódu a podrobných kroků.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

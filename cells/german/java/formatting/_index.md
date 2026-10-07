@@ -236,8 +236,14 @@ Erfahren Sie, wie Sie Excel-Daten mit Aspose.Cells für Java effizient nach Spal
 ### [So formatieren Sie Excel-Zellen und fügen Hyperlinks mit Aspose.Cells für Java hinzu](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Gestalten Sie Excel-Zellen und fügen Sie Hyperlinks in Ihren Java-Anwendungen mit Aspose.Cells ein. Folgen Sie dieser umfassenden Anleitung für nahtlose Integration und Formatierung.
 
+### [Erstellen Sie ein Excel-Arbeitsbuch mit dynamischer Formatierung in Java – Vollständige Anleitung](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java ein Excel-Arbeitsbuch erstellen und dynamische Formatierungen anwenden.
+
 ### [So wenden Sie Stile beim Konvertieren einer DataTable nach Excel an – Vollständige Java-Anleitung](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java beim Konvertieren einer DataTable nach Excel Stile anwenden und formatierte Arbeitsmappen erzeugen.
+
+### [Zahlenformat in Excel mit Java festlegen – Vollständige Anleitung](./set-number-format-excel-in-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Zahlenformate in Excel festlegen und anpassen, um Daten optimal darzustellen.
 
 ## Weitere Ressourcen
 

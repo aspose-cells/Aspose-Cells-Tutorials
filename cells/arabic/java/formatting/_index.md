@@ -210,7 +210,7 @@
 تعلّم كيفية تطبيق تأثيرات الظل على أشكال Excel باستخدام Aspose.Cells لـ Java. حسّن جداول بياناتك بتصميم مرئي احترافي.
 
 ### [إتقان أنماط Excel في Java باستخدام Aspose.Cells: دليل شامل](./mastering-styles-excel-aspose-cells-java/)
-تعلُّم كيفية إنشاء أنماط مخصصة وتطبيقها برمجياً على ملفات Excel باستخدام Aspose.Cells لـ Java. حسّن قابلية القراءة وادمجها بسلاسة في سير عمل إدارة بياناتك.
+تعلّم كيفية إنشاء أنماط مخصصة وتطبيقها برمجياً على ملفات Excel باستخدام Aspose.Cells لـ Java. حسّن قابلية القراءة وادمجها بسلاسة في سير عمل إدارة بياناتك.
 
 ### [دمج الخلايا وتطبيق الأنماط في Excel باستخدام Aspose.Cells لـ Java - دليل شامل](./merge-cells-apply-styles-aspose-cells-java/)
 تعرّف على كيفية دمج الخلايا وتطبيق أنماط مخصصة في جداول بيانات Excel باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل كل شيء، بدءًا من الإعداد ووصولًا إلى حفظ الملفات بتنسيقات متعددة.
@@ -233,9 +233,13 @@
 ### [كيفية تصميم خلايا Excel وإضافة ارتباطات تشعبية باستخدام Aspose.Cells لـ Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 أتقن تنسيق خلايا Excel وإضافة الروابط التشعبية في تطبيقات Java باستخدام Aspose.Cells. اتبع هذا الدليل الشامل للتكامل والتنسيق بسلاسة.
 
+### [إنشاء مصنف Excel بتنسيق ديناميكي في Java – دليل كامل](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+تعلم كيفية إنشاء مصنف Excel وتطبيق تنسيقات ديناميكية باستخدام Aspose.Cells لجافا خطوة بخطوة.
 ### [كيفية تطبيق الأنماط عند تحويل DataTable إلى Excel – دليل كامل لجافا](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 
 ### [تنسيق تاريخ Aspose Cells: كيفية تعيين تنسيق تاريخ مخصص في Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+
+### [تعيين تنسيق الأرقام في Excel باستخدام Java – دليل كامل](./set-number-format-excel-in-java-complete-guide/)
 
 ## موارد إضافية
 

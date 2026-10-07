@@ -29,6 +29,9 @@ Atlamaya hazır mısınız? Ziyaret edin [.NET'te İçerik Belgesi Özelliğine 
 ### [.NET'te İçerik Belgesi Özelliğine Bağlantıyı Yapılandırma](./configuring-link-to-content-document-property/)
 Aspose.Cells for .NET kullanarak Excel'de belge özelliklerinin içeriğe nasıl bağlanacağını öğrenin. Geliştiriciler için adım adım eğitim.
 
+### [GridJsOptions Örneği Oluştur – Grid Seçeneklerini JavaScript ile Yapılandır](./create-gridjsoptions-instance-configure-grid-options-javascr/)
+GridJsOptions nesnesi oluşturup, JavaScript'te grid seçeneklerini nasıl yapılandıracağınızı öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

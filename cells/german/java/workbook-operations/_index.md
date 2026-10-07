@@ -29,6 +29,8 @@ Unsere Tutorials zu Arbeitsmappenoperationen bieten umfassende Anleitungen für 
 ### [Aspose.Cells Java: Erstellen und Speichern von Excel-Arbeitsmappen – Eine Schritt-für-Schritt-Anleitung](./aspose-cells-java-create-save-excel-workbooks/)
 Erfahren Sie, wie Sie die Erstellung und Verwaltung von Excel-Arbeitsmappen mit Aspose.Cells für Java automatisieren. Diese Anleitung behandelt das Instanziieren, Speichern und Festlegen von Seiteneinrichtungseigenschaften.
 
+### [Excel-Arbeitsmappe mit Java erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-excel-workbook-java-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java eine neue Excel-Arbeitsmappe von Grund auf erstellen und speichern.
 ### [Neues Arbeitsbuch in Java erstellen – Schritt‑für‑Schritt‑Anleitung](./create-new-workbook-in-java-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java ein neues Arbeitsbuch erstellen und speichern.
 
@@ -479,7 +481,13 @@ Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java nahtlos in versch
 ### [So legen Sie die Excel-Dokumentversion mit Aspose.Cells für Java fest](./set-excel-version-aspose-cells-java/)
 Erfahren Sie, wie Sie Dokumenteigenschaften wie die Versionsverwaltung in Excel-Dateien mit Aspose.Cells für Java festlegen und verwalten. Folgen Sie dieser Schritt-für-Schritt-Anleitung für effiziente Arbeitsmappenvorgänge.
 
+### [Arbeitsmappe als XLSX in Java speichern – Vollständiger Programmierleitfaden](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
 
+### [Arbeitsmappe in Datei speichern – Vollständige Java-Anleitung zum Kopieren von Excel-Bereichen](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Arbeitsmappen in Dateien speichern und Excel‑Bereiche effizient kopieren.
+
+### [Wie man benutzerdefinierte Eigenschaften in Excel (Java) hinzufügt – Wert abrufen & als XLSB speichern](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
+Erfahren Sie, wie Sie benutzerdefinierte Eigenschaften zu einer Excel-Arbeitsmappe hinzufügen, den Wert auslesen und die Datei als XLSB speichern.
 
 ## Weitere Ressourcen
 

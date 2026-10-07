@@ -230,6 +230,11 @@ Aspose.Cells for Java kullanarak Excel verilerini sütun rengine göre verimli b
 ### [Java için Aspose.Cells Kullanarak Excel Hücrelerine Nasıl Stil Verilir ve Köprüler Nasıl Eklenir](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Aspose.Cells ile Excel hücrelerini biçimlendirmede ve Java uygulamalarınıza köprüler eklemede ustalaşın. Kusursuz entegrasyon ve biçimlendirme için bu kapsamlı kılavuzu izleyin.
 
+### [Java’da Excel’de Sayı Biçimini Ayarlama – Eksiksiz Kılavuz](./set-number-format-excel-in-java-complete-guide/)
+
+### [Java’da Dinamik Biçimlendirme ile Excel Çalışma Kitabı Oluşturma – Tam Kılavuz](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+Aspose.Cells for Java kullanarak dinamik biçimlendirme ile Excel çalışma kitabı oluşturmayı öğrenin.
+
 ### [DataTable'ı Excel'e Dönüştürürken Stilleri Nasıl Uygularsınız – Tam Java Kılavuzu](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 
 ### [Aspose Cells Tarih Biçimi: Java'da Özel Tarih Biçimi Nasıl Ayarlanır](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)

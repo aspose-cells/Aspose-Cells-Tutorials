@@ -38,6 +38,9 @@
 ### [變更 Excel 儲存格對齊方式而不遺失格式](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
 了解如何使用 Aspose.Cells for .NET 變更 Excel 儲存格對齊方式而不遺失格式。按照我們全面的逐步指南實現無縫控制。
 
+### [如何在 Excel 中換行文字：在儲存格內換行、自动調整大小與保存](./how-to-wrap-text-in-excel-wrap-text-in-cell-auto-fit-save/)
+了解如何使用 Aspose.Cells 在 Excel 中換行文字、設定自動調整列高與欄寬，並保存工作表。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
