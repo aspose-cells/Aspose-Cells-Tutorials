@@ -485,6 +485,7 @@
 ### [حفظ المصنف إلى ملف – دليل Java الكامل لنسخ نطاقات Excel](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
 
 ### [كيفية إضافة خاصية مخصصة في Excel (Java) – استرجاع القيمة وحفظها كـ XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
+### [إنشاء مصنف جديد في Java – دليل خطوة بخطوة](./create-new-workbook-in-java-step-by-step-guide/)
 
 ## موارد إضافية
 

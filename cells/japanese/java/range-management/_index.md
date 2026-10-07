@@ -86,7 +86,8 @@ Aspose.Cells for Java を使用して、Excel のデータ範囲を効率的に�
 ### [Aspose.Cells を使用して Java で Excel セルの結合を解除する: ステップバイステップ ガイド](./unmerge-excel-cells-aspose-cells-java-guide/)
 Aspose.Cells for Java を使用して、Excel ファイル内のセルを効率的に結合解除する方法を学びます。このガイドでは、結合セルの設定、検出、結合解除について、コード例を交えて解説します。
 
-
+### [プログラムでワークシートの範囲をコピーする – 完全 Java ガイド](./programmatically-copy-worksheet-range-complete-java-guide/)
+Aspose.Cells for Java を使用して、ワークシートのセル範囲をプログラムでコピーする方法をステップバイステップで解説します。
 
 ## 追加リソース
 

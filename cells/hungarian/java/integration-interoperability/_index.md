@@ -49,6 +49,11 @@ Integrációs oktatóanyagaink bemutatják, hogyan kombinálhatja az Aspose.Cell
 ### [Hogyan exportáljunk diagramokat Excelből Word-be – Java útmutató](./how-to-export-charts-from-excel-to-word-java-guide/)
 
 ### [Hogyan használjuk a WRAPCOLS-t Java-ban – Teljes útmutató az Excel tömbképletekhez](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
+### [PowerPoint létrehozása Excelből – Teljes Java útmutató](./create-powerpoint-from-excel-full-java-guide/)
+Ismerje meg, hogyan hozhat létre PowerPoint prezentációt Excel adatokból az Aspose.Cells for Java segítségével, lépésről lépésre útmutatóval.
+
+### [Excel konvertálása PowerPointba – Teljes Java útmutató](./convert-excel-to-powerpoint-complete-java-guide/)
+Ismerje meg, hogyan konvertálhat Excel fájlokat PowerPoint prezentációkká az Aspose.Cells for Java használatával, részletes lépésekkel.
 
 ## További források
 

@@ -53,6 +53,8 @@ Tìm hiểu cách tạo các bảng tính bằng Smart Markers trong Aspose.Cell
 ### [Aspose Cells Smart Markers: Tải mẫu Excel và tạo Excel từ mẫu](./aspose-cells-smart-markers-load-excel-template-generate-exce/)
 Tìm hiểu cách sử dụng Smart Markers để tải mẫu Excel và tạo tệp Excel mới dựa trên dữ liệu.
 
+### [Tạo SmartMarker cho Workbook – Điền dữ liệu vào Workbook Excel](./create-workbook-smartmarker-populate-excel-workbook/)
+Hướng dẫn cách sử dụng SmartMarker để tạo và điền dữ liệu vào một workbook Excel bằng Aspose.Cells cho Java.
 
 ## Tài nguyên bổ sung
 

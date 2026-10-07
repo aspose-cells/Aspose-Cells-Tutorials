@@ -35,6 +35,8 @@ Aspose.Cells for Java API를 사용하여 Excel에서 대량 데이터를 가져
 Aspose.Cells for Java를 사용하여 Excel 데이터 내보내기 방법의 잠재력을 최대한 활용하세요. 이 포괄적인 가이드에서 실용적인 소스 코드 예제를 통해 학습하고, 지금 바로 데이터 관리 역량을 최적화하세요.
 ### [CSV 내보내기 Java 코드](./csv-export-java-code/)
 Aspose.Cells for Java를 사용하여 데이터를 CSV 형식으로 내보내는 방법을 알아보세요. 소스 코드가 포함된 단계별 가이드를 통해 CSV 파일을 원활하게 내보낼 수 있습니다.
+### [XLSX를 CSV로 내보내기 – 완전 Java 가이드](./export-xlsx-as-csv-complete-java-guide/)
+Aspose.Cells for Java를 사용하여 XLSX 파일을 CSV 형식으로 변환하는 방법을 단계별로 안내합니다.
 ### [Excel을 PDF로 내보내기](./exporting-excel-to-pdf/)
 Aspose.Cells for Java를 사용하여 Excel 파일을 PDF로 손쉽게 내보내는 방법을 알아보세요. 단계별 가이드를 통해 과정을 간소화할 수 있습니다. 지금 바로 변환을 시작하세요!
 ### [워크북에서 PDF 만들기 – 완전 Java 가이드](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
@@ -70,6 +72,14 @@ Aspose.Cells for Java를 사용하여 Excel 파일을 CSV 형식으로 변환하
 Aspose.Cells for Java를 사용하여 Excel 워크북에서 HTML로 글꼴을 임베드하는 방법을 단계별로 안내합니다.
 ### [Flat OPC 튜토리얼 Aspose: Java에서 Excel 워크북 로드](./flat-opc-tutorial-aspose-load-excel-workbook-in-java/)
 Aspose.Cells for Java를 사용하여 Flat OPC 형식의 Excel 워크북을 로드하는 방법을 단계별로 안내합니다.
+### [Excel 파일을 HTML로 변환 – 폰트 삽입 포함 완전 가이드](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
+Aspose.Cells for Java를 사용해 Excel 파일을 HTML로 변환하고 폰트를 포함하는 방법을 단계별로 안내합니다.
+### [워크북을 XLSX로 저장 – JSON에서 XLSX 생성](./save-workbook-as-xlsx-generate-xlsx-from-json/)
+Aspose.Cells for Java를 사용하여 JSON 데이터를 XLSX 파일로 변환하고 워크북을 저장하는 방법을 단계별로 안내합니다.
+### [Excel을 Word로 변환 – 완전 Java 가이드 (2026)](./convert-excel-to-word-complete-java-guide-2026/)
+Aspose.Cells for Java를 사용하여 Excel을 Word 문서로 변환하는 방법을 단계별로 안내합니다.
+### [Excel을 SVG 변환 시 폰트 삽입 방법](./how-to-embed-fonts-in-excel-to-svg-conversion/)
+Aspose.Cells for Java를 사용하여 Excel을 SVG로 변환할 때 폰트를 포함하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

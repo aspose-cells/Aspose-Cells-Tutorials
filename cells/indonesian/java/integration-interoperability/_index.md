@@ -60,6 +60,11 @@ Pelajari cara mengonversi file Excel menjadi presentasi PPTX menggunakan Aspose.
 
 ### [Cara Menggunakan WRAPCOLS di Java – Panduan Lengkap untuk Rumus Array Excel](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
 Pelajari cara menggunakan fungsi WRAPCOLS di Java dengan Aspose.Cells untuk membuat dan mengelola rumus array Excel secara efisien.
+### [Buat PowerPoint dari Excel – Panduan Java Lengkap](./create-powerpoint-from-excel-full-java-guide/)
+Pelajari cara menghasilkan file PowerPoint dari data Excel menggunakan Aspose.Slides dan Aspose.Cells dalam Java.
+
+### [Mengonversi Excel ke PowerPoint – Panduan Java Lengkap](./convert-excel-to-powerpoint-complete-java-guide/)
+Pelajari cara mengonversi file Excel menjadi presentasi PowerPoint menggunakan Aspose.Slides dan Aspose.Cells dalam Java.
 
 ## Sumber Daya Tambahan
 

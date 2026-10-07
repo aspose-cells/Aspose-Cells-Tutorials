@@ -85,6 +85,8 @@
 
 ### [Ανάθεση ονόματος σε κελί στο Excel χρησιμοποιώντας Java – Πλήρης Οδηγός](./assign-name-to-cell-in-excel-using-java-complete-guide/)
 Μάθετε πώς να ορίζετε ονόματα σε κελιά Excel με το Aspose.Cells για Java, βήμα-βήμα οδηγίες και παραδείγματα κώδικα.
+### [Προγραμματιστική Αντιγραφή Εύρους Φύλλου Εργασίας – Πλήρης Οδηγός Java](./programmatically-copy-worksheet-range-complete-java-guide/)
+Μάθετε πώς να αντιγράψετε προγραμματιστικά εύρη φύλλων εργασίας στο Excel χρησιμοποιώντας το Aspose.Cells για Java.
 
 ## Πρόσθετοι Πόροι
 

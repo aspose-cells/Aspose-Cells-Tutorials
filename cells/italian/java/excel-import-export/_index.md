@@ -71,6 +71,16 @@ Scopri come esportare file Excel in formato SVG utilizzando Aspose.Cells per Jav
 Scopri come incorporare i font nei file HTML generati da una cartella di lavoro Excel usando Aspose.Cells per Java.
 ### [Tutorial Flat OPC Aspose: Carica cartella di lavoro Excel in Java](./flat-opc-tutorial-aspose-load-excel-workbook-in-java/)
 Scopri come caricare una cartella di lavoro Excel in Java utilizzando il formato Flat OPC con Aspose.Cells.
+### [Converti file Excel in HTML – Guida completa con incorporamento dei font](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
+Scopri come esportare file Excel in HTML con incorporamento dei font usando Aspose.Cells per Java. Guida passo passo con codice sorgente.
+### [Salva cartella di lavoro come XLSX – Genera XLSX da JSON](./save-workbook-as-xlsx-generate-xlsx-from-json/)
+Scopri come salvare una cartella di lavoro come file XLSX generandolo a partire da dati JSON con Aspose.Cells per Java.
+### [Esporta XLSX in CSV – Guida completa Java](./export-xlsx-as-csv-complete-java-guide/)
+Scopri come esportare file XLSX in CSV utilizzando Aspose.Cells per Java. Guida completa con esempi di codice.
+### [Converti Excel in Word – Guida Java completa (2026)](./convert-excel-to-word-complete-java-guide-2026/)
+Scopri come convertire file Excel in documenti Word con Aspose.Cells per Java. Guida completa con esempi di codice per una conversione fluida.
+### [Come incorporare i font nella conversione da Excel a SVG](./how-to-embed-fonts-in-excel-to-svg-conversion/)
+Scopri come incorporare i font durante la conversione di file Excel in SVG usando Aspose.Cells per Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -30,7 +30,7 @@
 
 ### 生成令人惊叹的报告
 
-使用 Aspose.Cells 提升您的报表制作水平。自定义布局、添加图表，并以 PDF 和 Excel 等多种格式导出报表。
+使用 Aspose.Cells提升您的报表制作水平。自定义布局、添加图表，并以 PDF 和 Excel 等多种格式导出报表。
 
 使用 Aspose.Cells for Java 简化您的电子表格任务。立即开始！
 ## 电子表格自动化教程
@@ -56,6 +56,9 @@
 通过示例代码，学习在 Java 中使用 Aspose.Cells 以编程方式创建 Excel 文件的完整步骤。
 ### [如何在 Excel 中使用 Java 关闭自动筛选 – 完整指南](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
 学习使用 Aspose.Cells for Java 在 Excel 中关闭自动筛选功能的完整步骤和示例代码。
+### [如何使用 Java 在 Excel 中关闭自动筛选 – 完整指南](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+### [使用 Java 创建垂直数组 Excel – 完整分步指南](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+### [如何在 Java 中使用 Expand – 完整 Excel 指南](./how-to-use-expand-in-java-complete-excel-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,6 +56,12 @@ Ismerd meg, hogyan integrálhatod hatékonyan az adatokat az Excelben a jobb ele
 Ismerje meg, hogyan hozhat létre Excel-fájlokat Java‑ban programozottan, részletes kódrészletekkel és magyarázatokkal.
 ### [Hogyan kapcsoljuk ki az automatikus szűrőt Excelben Java-val – Teljes útmutató](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
 Lépésről lépésre bemutatjuk, hogyan kapcsolhatja ki az Excel automatikus szűrőjét Java kóddal.
+### [Hogyan kapcsoljuk ki az AutoFilter-t Excelben Java-val – Teljes útmutató](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+Tanulja meg, hogyan kapcsolhatja ki az AutoFilter funkciót Excel fájlokban Java kóddal, lépésről lépésre útmutatóval.
+### [Vertikális tömb létrehozása Excelben Java-val – Teljes lépésről‑lépésre útmutató](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+Ismerje meg, hogyan hozhat létre vertikális tömböket Excelben Java kóddal, részletes példákkal és magyarázatokkal.
+### [Hogyan használjuk az Expand-et Java-val – Teljes Excel útmutató](./how-to-use-expand-in-java-complete-excel-guide/)
+Ismerje meg, hogyan alkalmazhatja az Expand függvényt Java-ban Excel-fájlokban, részletes példákkal és lépésről‑lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

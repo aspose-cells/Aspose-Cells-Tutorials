@@ -61,6 +61,11 @@
 
 ### [كيفية استخدام WRAPCOLS في Java – دليل كامل لصيغ المصفوفة في Excel](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
 تعلم كيفية استخدام الدالة WRAPCOLS في Java لإنشاء صيغ مصفوفية متقدمة في Excel مع أمثلة عملية خطوة بخطوة.
+### [إنشاء عرض PowerPoint من Excel – دليل Java كامل](./create-powerpoint-from-excel-full-java-guide/)
+تعلم كيفية إنشاء عروض PowerPoint من ملفات Excel باستخدام Aspose.Cells و Aspose.Slides في Java خطوة بخطوة.
+
+### [تحويل Excel إلى PowerPoint – دليل Java كامل](./convert-excel-to-powerpoint-complete-java-guide/)
+تعلم كيفية تحويل ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells و Aspose.Slides في Java خطوة بخطوة.
 
 ## موارد إضافية
 

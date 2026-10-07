@@ -239,7 +239,11 @@
 ### [Δημιουργία βιβλίου εργασίας Excel με δυναμική μορφοποίηση σε Java – Πλήρης οδηγός](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel με δυναμική μορφοποίηση χρησιμοποιώντας το Aspose.Cells για Java.
 
+### [Πώς να εφαρμόσετε στυλ κατά τη μετατροπή DataTable σε Excel – Πλήρης οδηγός Java](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
+Μάθετε πώς να εφαρμόζετε στυλ σε DataTable κατά τη μετατροπή του σε αρχείο Excel χρησιμοποιώντας το Aspose.Cells για Java.
 
+### [Aspose Cells Μορφή Ημερομηνίας: Πώς να ορίσετε προσαρμοσμένη μορφή ημερομηνίας σε Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+Μάθετε πώς να ορίσετε προσαρμοσμένη μορφή ημερομηνίας σε αρχεία Excel χρησιμοποιώντας το Aspose.Cells για Java.
 
 ## Πρόσθετοι Πόροι
 

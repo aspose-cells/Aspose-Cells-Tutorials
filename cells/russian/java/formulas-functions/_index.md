@@ -87,6 +87,8 @@
 Узнайте, как применять функцию Reduce в формулах Excel с помощью Java и лямбда-выражений, улучшая обработку данных.
 ### [Как использовать SEQUENCE в рабочей книге Excel на Java – пошаговое руководство](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
 Узнайте, как применять функцию SEQUENCE в Excel с помощью Aspose.Cells для Java, включая примеры кода.
+### [Как использовать WRAPCOLS в Java – Полный пример Excel WRAPCOLS](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+Узнайте, как применять функцию WRAPCOLS в Aspose.Cells для Java, чтобы разбивать текст по столбцам в Excel с полным примером кода.
 
 ## Дополнительные ресурсы
 

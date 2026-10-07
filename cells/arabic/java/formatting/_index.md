@@ -235,7 +235,9 @@
 
 ### [إنشاء مصنف Excel بتنسيق ديناميكي في Java – دليل كامل](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 تعلم كيفية إنشاء مصنف Excel وتطبيق تنسيقات ديناميكية باستخدام Aspose.Cells لجافا خطوة بخطوة.
+### [كيفية تطبيق الأنماط عند تحويل DataTable إلى Excel – دليل كامل لجافا](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 
+### [تنسيق تاريخ Aspose Cells: كيفية تعيين تنسيق تاريخ مخصص في Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
 
 ### [تعيين تنسيق الأرقام في Excel باستخدام Java – دليل كامل](./set-number-format-excel-in-java-complete-guide/)
 

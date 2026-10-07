@@ -61,6 +61,11 @@ Hướng dẫn chi tiết cách xuất biểu đồ Excel sang tài liệu Word 
 
 ### [Cách sử dụng WRAPCOLS trong Java – Hướng dẫn đầy đủ về công thức mảng Excel](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
 Tìm hiểu cách sử dụng hàm WRAPCOLS trong Java để làm việc với công thức mảng Excel, bao gồm ví dụ mã và hướng dẫn chi tiết.
+### [Tạo PowerPoint từ Excel – Hướng dẫn Java đầy đủ](./create-powerpoint-from-excel-full-java-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.Slides cho Java để chuyển đổi dữ liệu Excel thành bản trình chiếu PowerPoint, bao gồm ví dụ mã thực tế.
+
+### [Chuyển đổi Excel sang PowerPoint – Hướng dẫn Java đầy đủ](./convert-excel-to-powerpoint-complete-java-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang bản trình chiếu PowerPoint bằng Aspose.Slides cho Java, kèm ví dụ mã thực tế.
 
 ## Tài nguyên bổ sung
 

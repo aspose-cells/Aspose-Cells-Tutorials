@@ -215,6 +215,9 @@ Aspose.Words Java 程式碼教程
 ### [使用 Aspose.Cells Java 建立工作簿](./create-configure-workbooks-aspose-cells-java/)
 Aspose.Words Java 程式碼教程
 
+### [在 Java 中建立新工作簿 - 逐步指南](./create-new-workbook-in-java-step-by-step-guide/)
+了解如何使用 Aspose.Cells for Java 在 Java 中建立新工作簿，並學習設定、儲存及基本操作的完整步驟。
+
 ### [建立 Excel 工作簿 Java – 完整逐步指南](./create-excel-workbook-java-complete-step-by-step-guide/)
 了解如何使用 Aspose.Cells for Java 完整地建立 Excel 工作簿，提供逐步說明與完整程式碼範例。
 
@@ -463,6 +466,9 @@ Aspose.Words Java 程式碼教程
 
 ### [使用 Aspose.Cells for Java 有效率地將 Excel 轉換為具有自訂日期格式的 PDF](./render-excel-custom-date-formats-pdf-aspose-cells-java/)
 掌握使用 Aspose.Cells for Java 將 Excel 檔案轉換為 PDF 同時保留自訂日期格式。了解設定、實作和效能技巧。
+
+### [使用 Aspose.Cells for Java 將 Excel 渲染為 PDF 並進行錯誤處理：綜合指南](./render-excel-ppdf-aspose-cells-java-error-handling/)
+了解如何使用 Aspose.Cells for Java 將 Excel 檔案轉換為 PDF，並採用強大的錯誤處理策略。非常適合批次和數據報告。
 
 ### [使用 Aspose.Cells for Java 將 Excel 渲染為 PDF 並進行錯誤處理：綜合指南](./render-excel-pdf-aspose-cells-java-error-handling/)
 了解如何使用 Aspose.Cells for Java 將 Excel 檔案轉換為 PDF，並採用強大的錯誤處理策略。非常適合批次和數據報告。

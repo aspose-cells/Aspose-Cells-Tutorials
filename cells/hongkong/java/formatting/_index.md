@@ -238,6 +238,10 @@ Aspose.Words Java 程式碼教程
 
 ### [在 Java 中建立具動態格式化的 Excel 工作簿 – 完整指南](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 了解如何使用 Aspose.Cells for Java 在 Java 中建立 Excel 工作簿，並套用動態格式化以提升資料呈現效果。
+### [將 DataTable 轉換為 Excel 時套用樣式 – 完整 Java 教學](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
+
+### [Aspose Cells 日期格式：如何在 Java 中設定自訂日期格式](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+了解如何使用 Aspose.Cells for Java 在 Excel 中設定自訂日期格式，以符合特定顯示需求。
 
 ## 其他資源
 

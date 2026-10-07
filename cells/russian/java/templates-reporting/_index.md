@@ -52,6 +52,7 @@
 
 ### [Aspose Cells Smart Markers: загрузка шаблона Excel и генерация Excel из шаблона](./aspose-cells-smart-markers-load-excel-template-generate-exce/)
 Узнайте, как загрузить шаблон Excel и сгенерировать новый файл с помощью Smart Markers в Aspose.Cells для Java.
+### [Создание SmartMarker в рабочей книге – заполнение Excel рабочей книги](./create-workbook-smartmarker-populate-excel-workbook/)
 
 ## Дополнительные ресурсы
 

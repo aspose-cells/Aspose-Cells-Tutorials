@@ -65,6 +65,9 @@
 ### [掌握 Excel 中的数据呈现：使用 Aspose.Cells for Java 设置数字和自定义日期格式](./aspose-cells-java-data-formatting-excel/)
 了解如何使用 Aspose.Cells for Java 应用数字格式和自定义日期样式，增强 Excel 电子表格中的数据呈现。
 
+### [Aspose Cells 日期格式：如何在 Java 中设置自定义日期格式](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+学习如何使用 Aspose.Cells for Java 在 Excel 中自定义日期格式，包括设置模式、应用于单元格以及保存工作簿的完整步骤。
+
 ### [如何使用 Aspose.Cells for Java 创建和格式化 Excel 单元格：分步指南](./aspose-cells-java-excel-automation-guide/)
 学习如何使用 Aspose.Cells for Java 轻松实现 Excel 文件的自动化和格式化。本指南涵盖工作簿创建、单元格格式化和保存技巧。
 
@@ -238,6 +241,8 @@ Aspose.Words Java 代码教程
 
 ### [使用 Java 动态格式创建 Excel 工作簿：完整指南](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 了解如何使用 Aspose.Cells for Java 在 Java 中创建具备动态格式的 Excel 工作簿，提供完整步骤、代码示例和最佳实践。
+### [在将 DataTable 转换为 Excel 时应用样式 – 完整 Java 指南](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
+学习如何使用 Aspose.Cells for Java 将 DataTable 导出为 Excel 并在转换过程中应用自定义单元格样式，提升报表外观。
 
 ## 其他资源
 

@@ -56,6 +56,12 @@ Lär dig hur du effektivt integrerar data i Excel för bättre insikter och besl
 Lär dig hur du inaktiverar autofilter i Excel-program med Aspose.Cells för Java, med tydliga kodexempel och steg‑för‑steg‑instruktioner.
 ### [Hur du stänger av Auto Filter i Excel med Java – Fullständig guide](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
 Lär dig hur du inaktiverar Auto Filter i Excel med Aspose.Cells för Java genom steg-för-steg kodexempel.
+### [Hur du inaktiverar AutoFilter i Excel med Java – Komplett guide](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+Lär dig hur du programatiskt inaktiverar AutoFilter i Excel-filer med Aspose.Cells för Java, steg-för-steg med kodexempel.
+### [Skapa vertikal array i Excel med Java – Fullständig steg‑för‑steg‑guide](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+Lär dig skapa vertikala arrayer i Excel med Java och Aspose.Cells. Steg‑för‑steg‑guide med kodexempel för effektiv datahantering.
+### [Hur du använder Expand i Java – Komplett guide](./how-to-use-expand-in-java-complete-excel-guide/)
+Lär dig hur du använder Expand-funktionen i Java med Aspose.Cells för att manipulera Excel-data effektivt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

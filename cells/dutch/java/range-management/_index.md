@@ -85,6 +85,8 @@ Leer hoe je cellen in Excel-bestanden efficiënt kunt ontkoppelen met Aspose.Cel
 
 ### [Naam toewijzen aan een cel in Excel met Java – Complete gids](./assign-name-to-cell-in-excel-using-java-complete-guide/)
 Leer hoe u een naam toewijst aan een cel in Excel met Aspose.Cells voor Java, inclusief codevoorbeelden en best practices.
+### [Programmeermatig werkbladbereik kopiëren – Complete Java-gids](./programmatically-copy-worksheet-range-complete-java-guide/)
+Leer hoe u met Aspose.Cells voor Java een bereik van een werkblad programmatic kopieert, inclusief codevoorbeelden en best practices.
 
 ## Aanvullende bronnen
 

@@ -103,6 +103,8 @@ Tanuld meg, hogyan jelenítheted meg könnyedén a sorokat és oszlopokat Excel-
 
 ### [Hogyan használjuk a SmartMarkerProcessor-t dinamikus lapnevezéshez](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
 Tanuld meg, hogyan nevezheted át dinamikusan a munkalapokat a SmartMarkerProcessor segítségével az Aspose.Cells for Java használatával.
+### [Több munkalap létrehozása Excelben Java-val – Teljes sablonalapú útmutató](./create-multiple-sheets-in-excel-with-java-complete-template/)
+Ismerd meg, hogyan hozhatsz létre több munkalapot egy Excel-fájlban Java és sablonok segítségével, részletes példákkal.
 
 ## További források
 

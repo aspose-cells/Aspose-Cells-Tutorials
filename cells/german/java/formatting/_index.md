@@ -62,6 +62,9 @@ Erfahren Sie, wie Sie benutzerdefinierte Zahlenformate in Java-Arbeitsmappen mit
 ### [Datenpräsentation in Excel meistern: Zahlen- und benutzerdefinierte Datumsformatierung mit Aspose.Cells für Java](./aspose-cells-java-data-formatting-excel/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Zahlenformate und benutzerdefinierte Datumsstile anwenden und so die Datendarstellung in Excel-Tabellen verbessern.
 
+### [Aspose Cells Datumsformat: So setzen Sie ein benutzerdefiniertes Datumsformat in Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java benutzerdefinierte Datumsformate in Excel festlegen und formatieren.
+
 ### [So erstellen und formatieren Sie Excel-Zellen mit Aspose.Cells für Java: Eine Schritt-für-Schritt-Anleitung](./aspose-cells-java-excel-automation-guide/)
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java einfach automatisieren und formatieren. Diese Anleitung behandelt die Erstellung von Arbeitsmappen, die Formatierung von Zellen und Speichertechniken.
 
@@ -236,6 +239,8 @@ Gestalten Sie Excel-Zellen und fügen Sie Hyperlinks in Ihren Java-Anwendungen m
 ### [Erstellen Sie ein Excel-Arbeitsbuch mit dynamischer Formatierung in Java – Vollständige Anleitung](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java ein Excel-Arbeitsbuch erstellen und dynamische Formatierungen anwenden.
 
+### [So wenden Sie Stile beim Konvertieren einer DataTable nach Excel an – Vollständige Java-Anleitung](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java beim Konvertieren einer DataTable nach Excel Stile anwenden und formatierte Arbeitsmappen erzeugen.
 
 ### [Zahlenformat in Excel mit Java festlegen – Vollständige Anleitung](./set-number-format-excel-in-java-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Zahlenformate in Excel festlegen und anpassen, um Daten optimal darzustellen.

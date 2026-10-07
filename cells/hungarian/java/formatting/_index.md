@@ -212,7 +212,7 @@ Tanuld meg, hogyan állíthatod be könnyedén az Excel sormagasságait az Aspos
 Tanuld meg, hogyan alkalmazhatsz árnyékeffektusokat Excel-alakzatokra az Aspose.Cells for Java segítségével. Dobd fel táblázataidat professzionális vizuális stílusokkal.
 
 ### [Excel stílusok elsajátítása Java-ban az Aspose.Cells segítségével: Átfogó útmutató](./mastering-styles-excel-aspose-cells-java/)
-Ismerje meg, hogyan hozhat létre és alkalmazhat programozottan egyéni stílusokat Excel-fájljaira az Aspose.Cells for Java használatával. Növelje az olvashatóságot és integrálja zökkenőmentesen az adatkezelési munkafolyamatokba.
+Ismerje meg, hogyan hozhat létre és alkalmazhat programozottan egyéni stílusokat Excel-fájlokra az Aspose.Cells for Java használatával. Növelje az olvashatóságot és integrálja zökkenőmentesen az adatkezelési munkafolyamatokba.
 
 ### [Cellák egyesítése és stílusok alkalmazása Excelben az Aspose.Cells for Java használatával - Teljes útmutató](./merge-cells-apply-styles-aspose-cells-java/)
 Ismerd meg, hogyan egyesíthetsz cellákat és alkalmazhatsz egyéni stílusokat Excel-táblázatokban az Aspose.Cells for Java használatával. Ez az útmutató mindent lefed a beállítástól kezdve a fájlok többféle formátumban történő mentéséig.
@@ -238,7 +238,11 @@ Sajátítsd el az Excel-cellák formázását és a hiperhivatkozások hozzáad�
 ### [Excel munkafüzet létrehozása dinamikus formázással Java-ban – Teljes útmutató](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 Tanulja meg, hogyan hozhat létre Excel munkafüzetet dinamikus formázással Java-ban, részletes kódpéldákkal és lépésről-lépésre útmutatóval.
 
+### [Stílusok alkalmazása DataTable Excel-be konvertálásakor – Teljes Java útmutató](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
+Ismerje meg, hogyan alkalmazhat stílusokat a DataTable Excel-be konvertálásakor az Aspose.Cells for Java segítségével.
 
+### [Aspose.Cells dátumformátum: Egyéni dátumformátum beállítása Java-ban](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+Tanuld meg, hogyan állíthatsz be egyedi dátumformátumot Excel-fájlokban az Aspose.Cells for Java használatával.
 
 ## További források
 

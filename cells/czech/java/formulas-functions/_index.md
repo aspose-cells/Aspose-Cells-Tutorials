@@ -87,6 +87,8 @@ Naučte se, jak extrahovat text vzorců z buněk aplikace Excel pomocí Aspose.C
 Naučte se, jak pomocí lambda výrazu Reduce v Excelu s Javou provádět agregace a zjednodušit výpočty.
 ### [Jak použít SEQUENCE v Excel sešitu v Javě – krok za krokem](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
 Naučte se, jak pomocí Aspose.Cells pro Javu využít funkci SEQUENCE k dynamickému generování řad v Excelu.
+### [Jak použít WRAPCOLS v Javě – Kompletní příklad Excel WRAPCOLS](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+Naučte se, jak pomocí Aspose.Cells pro Javu implementovat funkci WRAPCOLS v Excelu a automatizovat rozdělení textu do sloupců.
 
 ## Další zdroje
 

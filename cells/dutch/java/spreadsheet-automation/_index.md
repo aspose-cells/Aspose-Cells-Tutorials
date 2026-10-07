@@ -56,6 +56,11 @@ Leer hoe u gegevens efficiënt kunt integreren in Excel voor betere inzichten en
 Leer hoe u het autofilter in Excel kunt uitschakelen met Aspose.Cells voor Java, inclusief voorbeeldcode.
 ### [Hoe AutoFilter in Excel uit te schakelen met Java – Volledige gids](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
 Leer hoe u AutoFilter in Excel kunt uitschakelen met Aspose.Cells voor Java, inclusief voorbeeldcode en stapsgewijze instructies.
+### [AutoFilter uitschakelen in Excel met Java – Complete gids](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+Leer hoe u AutoFilter in Excel-programma's kunt uitschakelen met Aspose.Cells voor Java, inclusief voorbeeldcode en stapsgewijze uitleg.
+### [Maak verticale array Excel met Java – Volledige stapsgewijze gids](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+### [Hoe Expand te gebruiken in Java – Complete Excel-gids](./how-to-use-expand-in-java-complete-excel-guide/)
+Leer hoe u de Expand-functie in Excel kunt toepassen met Aspose.Cells voor Java, inclusief voorbeeldcode en stapsgewijze uitleg.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

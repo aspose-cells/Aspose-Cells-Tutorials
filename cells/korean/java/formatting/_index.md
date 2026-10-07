@@ -57,13 +57,15 @@ Aspose.Cells for Java를 사용하여 조건부 서식을 적용하여 데이터
 Aspose.Cells for Java를 사용하여 Excel 문서에서 글꼴을 사용자 지정하는 방법, 글꼴 소스 설정 및 일반적인 문제 해결 방법을 알아보세요.
 
 ### [Aspose.Cells를 사용하여 Java Excel 통합 문서의 사용자 지정 숫자 형식 마스터하기](./aspose-cells-java-custom-number-formats-handling/)
-Aspose.Cells를 사용하여 Java 통합 문서에서 사용자 지정 숫자 형식을 처리하는 방법을 알아보세요. 이 가이드에서는 통합 문서 구성, 예외 처리 및 실제 응용 프로그램을 다룹니다.
+Aspose.Cells를 사용하여 Java 통합 문서에서 사용자 지정 숫자 형식을 처리하는 방법을 알아보세요. 이 가이드는 통합 문서 구성, 예외 처리 및 실제 응용 프로그램을 다룹니다.
 
 ### [Aspose.Cells for Java를 사용하여 Excel에서 숫자 형식을 지정하고 사용자 정의 날짜 스타일을 적용하는 방법](./aspose-cells-java-data-formatting-excel/)
 Java용 Aspose.Cells를 사용하여 숫자 형식과 사용자 정의 날짜 스타일을 적용하고 Excel 스프레드시트에서 데이터 표현을 개선하는 방법을 알아보세요.
 
 ### [Set Number Format Excel in Java – Complete Guide](./set-number-format-excel-in-java-complete-guide/)
 Aspose.Cells for Java를 사용하여 Excel 셀에 숫자 형식을 지정하고 사용자 정의하는 방법을 단계별로 안내합니다.
+### [Aspose Cells 날짜 형식: Java에서 사용자 정의 날짜 형식 지정 방법](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+Aspose.Cells for Java를 사용하여 Excel 셀에 사용자 정의 날짜 형식을 적용하는 방법을 단계별로 안내합니다.
 
 ### [Java용 Aspose.Cells를 사용하여 Excel 셀을 만들고 서식을 지정하는 방법: 단계별 가이드](./aspose-cells-java-excel-automation-guide/)
 Aspose.Cells for Java를 사용하여 Excel 파일을 쉽게 자동화하고 서식을 지정하는 방법을 알아보세요. 이 가이드는 통합 문서 생성, 셀 서식 지정 및 저장 방법을 다룹니다.
@@ -121,9 +123,6 @@ Aspose.Cells for Java를 사용하여 Excel 파일의 글꼴 색상을 효율적
 
 ### [Aspose.Cells Java를 사용하여 Excel 그라데이션 채우기를 HTML로 변환하는 방법](./convert-excel-gradient-fill-html-aspose-cells-java/)
 Java용 Aspose.Cells 라이브러리를 사용하여 그래디언트 채우기가 있는 Excel 파일을 HTML로 변환하는 방법을 알아보고 시각적으로 매력적인 웹 프레젠테이션을 만들어 보세요.
-
-### [Aspose.Cells for Java를 사용하여 Excel/ODS 파일 만들기 및 스타일 지정: 포괄적인 가이드](./create-style-excel-ods-aspose-cells-java/)
-Aspose.Cells for Java를 사용하여 Excel 및 ODS 파일을 프로그래밍 방식으로 생성, 스타일 지정 및 관리하는 방법을 알아보세요. 스프레드시트 작업 시간을 절약하고 오류를 줄여보세요.
 
 ### [Java용 Aspose.Cells에서 사용자 정의 글꼴 구현: 일관된 통합 문서 렌더링을 위한 포괄적인 가이드](./custom-fonts-aspose-cells-java-guide/)
 Aspose.Cells for Java를 사용하여 사용자 지정 글꼴을 적용한 Excel 통합 문서 렌더링의 일관성을 보장하는 방법을 알아보세요. 이 가이드는 설정, 구성 및 실제 적용 사례를 다룹니다.
@@ -239,7 +238,8 @@ Aspose.Cells를 사용하여 Java 애플리케이션에 Excel 셀 스타일을 �
 ### [Java에서 동적 서식이 적용된 Excel 통합 문서 만들기 – 완전 가이드](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 Aspose.Cells for Java를 사용해 Java에서 동적 서식이 적용된 Excel 통합 문서를 생성하는 방법을 단계별로 설명합니다.
 
-
+### [Aspose.Cells for Java를 사용하여 Excel/ODS 파일 만들기 및 스타일 지정: 포괄적인 가이드](./create-style-excel-ods-aspose-cells-java/)
+Aspose.Cells for Java를 사용
 
 ## 추가 자료
 

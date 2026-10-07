@@ -87,6 +87,8 @@ Lär dig hur du extraherar formeltext från Excel-celler med hjälp av Aspose.Ce
 Lär dig hur du använder Reduce-funktionen i Excel med Java och lambda-uttryck för att förenkla dataaggregering.
 ### [Hur du använder SEQUENCE i Java Excel-arbetsbok – Steg‑för‑steg‑guide](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
 Lär dig hur du använder SEQUENCE-funktionen i Aspose.Cells för Java för att generera sekvenser i Excel‑arbetsböcker.
+### [Hur man använder WRAPCOLS i Java – Komplett Excel WRAPCOLS-exempel](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+Lär dig hur du använder WRAPCOLS-funktionen i Aspose.Cells för Java för att automatiskt justera kolumnbredden i Excel.
 
 ## Ytterligare resurser
 

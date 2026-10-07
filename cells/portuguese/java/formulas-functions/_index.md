@@ -87,6 +87,8 @@ Aprenda a extrair texto de fórmula de células do Excel usando Aspose.Cells com
 Aprenda a usar a função Reduce no Excel com Java, implementando fórmulas lambda para cálculos avançados e otimização de planilhas.
 ### [Como usar SEQUENCE em uma pasta de trabalho Excel Java – Guia passo a passo](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
 Aprenda a aplicar a função SEQUENCE em planilhas Excel usando Aspose.Cells para Java, automatizando a geração de sequências numéricas.
+### [Como usar WRAPCOLS em Java – Exemplo completo de WRAPCOLS no Excel](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+Aprenda a aplicar a função WRAPCOLS com Aspose.Cells para Java, incluindo exemplos completos de código para manipular planilhas do Excel.
 
 ## Recursos adicionais
 

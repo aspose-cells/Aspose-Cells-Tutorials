@@ -103,6 +103,8 @@ Aspose.Cells for Java를 사용하여 Excel 파일의 행과 열을 손쉽게 �
 
 ### [동적 시트 이름 지정에 SmartMarkerProcessor 사용 방법](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
 SmartMarkerProcessor를 활용하여 Excel 워크시트 이름을 동적으로 지정하는 방법을 단계별로 안내합니다.
+### [Java를 사용하여 Excel에 여러 시트 만들기 – 완전한 템플릿 기반 가이드](./create-multiple-sheets-in-excel-with-java-complete-template/)
+Java와 Aspose.Cells를 사용해 템플릿 기반으로 Excel에 여러 워크시트를 생성하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

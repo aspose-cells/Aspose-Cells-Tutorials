@@ -58,6 +58,11 @@ Erfahren Sie, wie Sie die WRAPCOLS-Funktion in Aspose.Cells für Java einsetzen,
 
 ### [Wie man Diagramme von Excel nach Word exportiert – Java-Anleitung](./how-to-export-charts-from-excel-to-word-java-guide/)
 Erfahren Sie, wie Sie Diagramme aus Excel mit Aspose.Cells für Java nach Word exportieren, inkl. Codebeispielen und Schritt‑für‑Schritt‑Anleitung.
+### [PowerPoint aus Excel erstellen – Vollständiger Java-Leitfaden](./create-powerpoint-from-excel-full-java-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Excel-Daten in PowerPoint-Präsentationen umwandeln und automatisieren.
+
+### [Excel in PowerPoint konvertieren – Vollständiger Java-Leitfaden](./convert-excel-to-powerpoint-complete-java-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Excel-Daten in PowerPoint-Präsentationen umwandeln und automatisieren.
 
 ## Weitere Ressourcen
 

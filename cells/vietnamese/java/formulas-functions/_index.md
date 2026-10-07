@@ -87,6 +87,8 @@ Tìm hiểu cách trích xuất văn bản công thức từ các ô Excel bằn
 Tìm hiểu cách áp dụng hàm Reduce trong Excel bằng Java để thực hiện các phép tính tổng hợp với công thức Lambda.
 ### [Cách sử dụng SEQUENCE trong sổ làm việc Excel Java – Hướng dẫn từng bước](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
 Tìm hiểu cách sử dụng hàm SEQUENCE trong Excel bằng Aspose.Cells cho Java để tạo dãy dữ liệu động một cách dễ dàng.
+### [Cách sử dụng WRAPCOLS trong Java – Ví dụ đầy đủ WRAPCOLS trong Excel](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+Hướng dẫn chi tiết cách áp dụng hàm WRAPCOLS trong Aspose.Cells Java để chia cột dữ liệu và tạo bảng tính Excel linh hoạt.
 
 ## Tài nguyên bổ sung
 

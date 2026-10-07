@@ -61,6 +61,11 @@
 
 ### [Как использовать WRAPCOLS в Java – Полное руководство по массивным формулам Excel](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
 Узнайте, как применять функцию WRAPCOLS в Java с Aspose.Cells для создания и работы с массивными формулами в Excel.
+### [Создание PowerPoint из Excel – Полное руководство на Java](./create-powerpoint-from-excel-full-java-guide/)
+Узнайте, как с помощью Aspose.Cells для Java создать презентацию PowerPoint из данных Excel, используя полный пример кода.
+
+### [Конвертация Excel в PowerPoint – Полное руководство на Java](./convert-excel-to-powerpoint-complete-java-guide/)
+Узнайте, как с помощью Aspose.Cells для Java преобразовать файлы Excel в презентации PowerPoint, используя полный пример кода.
 
 ## Дополнительные ресурсы
 

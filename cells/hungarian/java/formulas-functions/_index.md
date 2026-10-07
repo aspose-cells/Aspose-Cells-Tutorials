@@ -87,6 +87,8 @@ Tanuld meg, hogyan lehet képletszöveget kinyerni Excel cellákból az Aspose.C
 Ismerje meg, hogyan használhatja a Reduce függvényt Excelben Java-val lambda képletekkel a hatékony számításokhoz.
 ### [Hogyan használjuk a SEQUENCE függvényt Java Excel munkafüzetben – Lépésről lépésre útmutató](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
 Ismerje meg, hogyan alkalmazhatja a SEQUENCE függvényt az Aspose.Cells for Java segítségével Excel munkafüzetekben, részletes példákkal.
+### [Hogyan használjuk a WRAPCOLS-t Java-ban – Teljes Excel WRAPCOLS példa](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+Ismerje meg, hogyan alkalmazhatja a WRAPCOLS függvényt Java-ban az Aspose.Cells segítségével, részletes példakóddal.
 
 ## További források
 

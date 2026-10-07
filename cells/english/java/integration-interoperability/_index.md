@@ -61,6 +61,11 @@ Learn how to export Excel charts to Word documents using Aspose.Cells for Java, 
 
 ### [How to Use WRAPCOLS in Java – Complete Guide to Excel Array Formulas](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
 Learn how to apply the WRAPCOLS function in Java using Aspose.Cells to create and manage Excel array formulas efficiently.
+### [Create PowerPoint from Excel – Full Java Guide](./create-powerpoint-from-excel-full-java-guide/)
+Learn how to generate PowerPoint presentations from Excel data using Aspose.Cells and Aspose.Slides for Java in this comprehensive guide.
+
+### [Convert Excel to PowerPoint – Complete Java Guide](./convert-excel-to-powerpoint-complete-java-guide/)
+Learn how to convert Excel workbooks to PowerPoint presentations using Aspose.Cells and Aspose.Slides for Java in a step-by-step guide.
 
 ## Additional Resources
 

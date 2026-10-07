@@ -52,6 +52,8 @@ Leer hoe u met Smart Markers dynamisch werkbladen genereert in Java met Aspose.C
 
 ### [Aspose Cells Smart Markers: Laad Excel-sjabloon & genereer Excel vanuit sjabloon](./aspose-cells-smart-markers-load-excel-template-generate-exce/)
 Leer hoe u met Smart Markers een Excel-sjabloon laadt en dynamisch een nieuw Excel-bestand genereert.
+### [Werkmap SmartMarker maken – Excel-werkmap vullen](./create-workbook-smartmarker-populate-excel-workbook/)
+Leer hoe u met SmartMarkers een Excel-werkmap kunt maken en automatisch gegevens kunt invoegen.
 
 ## Aanvullende bronnen
 

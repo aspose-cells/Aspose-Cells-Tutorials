@@ -59,6 +59,11 @@
 
 ### [Πώς να χρησιμοποιήσετε τη WRAPCOLS σε Java – Πλήρης Οδηγός για τους Πίνακες Συναρτήσεων του Excel](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
 Μάθετε πώς να εφαρμόσετε τη λειτουργία WRAPCOLS σε Java για δημιουργία και διαχείριση πινάκων τύπων Excel.
+### [Δημιουργία PowerPoint από Excel – Πλήρης Οδηγός Java](./create-powerpoint-from-excel-full-java-guide/)
+Μάθετε πώς να δημιουργήσετε παρουσιάσεις PowerPoint από αρχεία Excel χρησιμοποιώντας το Aspose.Cells για Java, βήμα προς βήμα.
+
+### [Μετατροπή Excel σε PowerPoint – Πλήρης Οδηγός Java](./convert-excel-to-powerpoint-complete-java-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία Excel σε παρουσιάσεις PowerPoint με Aspose.Cells για Java, βήμα προς βήμα.
 
 ## Πρόσθετοι Πόροι
 

@@ -53,6 +53,8 @@ Learn how to load an Excel template and generate a new Excel file using Smart Ma
 ### [Create master detail workbook with Aspose.Cells (Java)](./create-master-detail-workbook-with-aspose-cells-java/)
 Learn how to build a master-detail workbook using Aspose.Cells for Java, linking data across sheets for comprehensive reporting.
 
+### [Create Workbook SmartMarker – Populate Excel Workbook](./create-workbook-smartmarker-populate-excel-workbook/)
+Learn how to use SmartMarker to populate an Excel workbook programmatically with Aspose.Cells for Java.
 
 ## Additional Resources
 

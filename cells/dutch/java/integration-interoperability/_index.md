@@ -61,6 +61,11 @@ Leer hoe u met Aspose.Cells voor Java grafieken uit Excel kunt exporteren naar W
 
 ### [Hoe WRAPCOLS te gebruiken in Java – Complete gids voor Excel-arrayformules](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
 Leer hoe u de WRAPCOLS-functie in Java toepast om Excel-arrayformules efficiënt te gebruiken.
+### [PowerPoint maken vanuit Excel – volledige Java-gids](./create-powerpoint-from-excel-full-java-guide/)
+Leer hoe u met Aspose.Cells voor Java een PowerPoint-presentatie genereert op basis van Excel-gegevens, met volledige codevoorbeelden.
+
+### [Excel converteren naar PowerPoint – volledige Java-gids](./convert-excel-to-powerpoint-complete-java-guide/)
+Leer hoe u Excel-bestanden omzet naar PowerPoint-presentaties met Aspose.Cells voor Java, inclusief volledige codevoorbeelden.
 
 ## Aanvullende bronnen
 

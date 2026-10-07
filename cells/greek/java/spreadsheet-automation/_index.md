@@ -13,7 +13,7 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Αυτοματοποίηση υπολογιστικών φύλλων
+# Αυτοματοποίηση υπολογτικών φύλλων
 
 
 Ανακαλύψτε τη δύναμη του Aspose.Cells για Java στα Tutorials Αυτοματοποίησης Υπολογιστικών Φύλλων. Μάθετε να βελτιστοποιείτε εργασίες δεδομένων, να χειρίζεστε υπολογιστικά φύλλα και να δημιουργείτε αναφορές χωρίς κόπο.
@@ -58,6 +58,12 @@
 
 ### [Δημιουργία Excel προγραμματιστικά σε Java – Οδηγός βήμα‑βήμα](./create-excel-programmatically-in-java-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε αρχεία Excel από το μηδέν σε Java χρησιμοποιώντας το Aspose.Cells, με παραδείγματα κώδικα βήμα‑βήμα.
+### [Πώς να απενεργοποιήσετε το AutoFilter στο Excel με Java – Πλήρης οδηγός](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+Μάθετε πώς να απενεργοποιήσετε το AutoFilter σε αρχεία Excel χρησιμοποιώντας Aspose.Cells για Java, με βήμα‑βήμα παραδείγματα κώδικα.
+### [Δημιουργία κατακόρυφου πίνακα Excel με Java – Πλήρης οδηγός βήμα‑βήμα](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+Μάθετε πώς να δημιουργήσετε κατακόρυφο πίνακα Excel με Java, χρησιμοποιώντας Aspose.Cells, με πλήρη βήμα‑βήμα οδηγίες και παραδείγματα κώδικα.
+### [Πώς να χρησιμοποιήσετε το Expand σε Java – Πλήρης οδηγός Excel](./how-to-use-expand-in-java-complete-excel-guide/)
+Μάθετε πώς να χρησιμοποιήσετε τη μέθοδο Expand σε Java για να επεκτείνετε περιοχές σε φύλλα Excel με παραδείγματα κώδικα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

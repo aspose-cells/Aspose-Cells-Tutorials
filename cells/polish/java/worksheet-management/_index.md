@@ -103,6 +103,8 @@ Dowiedz się, jak bez wysiłku odkrywać wiersze i kolumny w plikach Excela za p
 
 ### [Jak używać SmartMarkerProcessor do dynamicznego nazewnictwa arkuszy](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
 Dowiedz się, jak dynamicznie nadawać nazwy arkuszom w Excelu przy użyciu SmartMarkerProcessor w Aspose.Cells for Java.
+### [Tworzenie wielu arkuszy w Excelu w Javie – Kompletny przewodnik oparty na szablonie](./create-multiple-sheets-in-excel-with-java-complete-template/)
+Dowiedz się, jak programowo tworzyć wiele arkuszy w pliku Excel przy użyciu szablonów w Aspose.Cells for Java.
 
 ## Dodatkowe zasoby
 

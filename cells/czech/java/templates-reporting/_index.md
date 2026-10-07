@@ -52,6 +52,8 @@ Naučte se, jak pomocí Aspose.Cells pro Javu vytvořit sešit s hlavní a podro
 
 ### [Aspose Cells Smart Markery: Načtení šablony Excel a generování Excelu ze šablony](./aspose-cells-smart-markers-load-excel-template-generate-exce/)
 Naučte se načíst Excel šablonu a pomocí Smart Markerů vygenerovat nový Excel soubor přímo ze šablony.
+### [Vytvoření SmartMarkeru sešitu – Naplnění Excel sešitu](./create-workbook-smartmarker-populate-excel-workbook/)
+Naučte se, jak pomocí SmartMarkeru vytvořit a naplnit Excel sešit programově v Aspose.Cells pro Javu.
 
 ## Další zdroje
 

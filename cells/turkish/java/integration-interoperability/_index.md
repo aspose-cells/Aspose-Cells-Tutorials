@@ -58,6 +58,11 @@ Aspose.Cells for Java kullanarak Excel dosyalarındaki grafiklerinizi Word belge
 
 ### [Java'da WRAPCOLS Kullanımı – Excel Dizi Formülleri İçin Tam Kılavuz](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
 Java'da Aspose.Cells kullanarak WRAPCOLS fonksiyonunu ve dizi formüllerini nasıl uygulayacağınızı adım adım öğrenin.
+### [Excel'den PowerPoint Oluşturma – Tam Java Kılavuzu](./create-powerpoint-from-excel-full-java-guide/)
+Excel dosyalarından veri alarak PowerPoint sunumları oluşturmayı adım adım gösteren kapsamlı bir Java rehberi.
+
+### [Excel'i PowerPoint'e Dönüştür – Tam Java Kılavuzu](./convert-excel-to-powerpoint-complete-java-guide/)
+Excel dosyalarından veri alarak PowerPoint sunumları oluşturmayı adım adım gösteren kapsamlı bir Java rehberi.
 
 ## Ek Kaynaklar
 

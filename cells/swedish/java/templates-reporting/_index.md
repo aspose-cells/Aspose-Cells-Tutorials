@@ -46,6 +46,8 @@ Lär dig hur du automatiserar dynamisk generering av Excel-rapporter med Aspose.
 
 ### [Skapa master‑detailarbetsbok med Aspose.Cells för Java](./create-master-detail-workbook-with-aspose-cells-java/)
 Lär dig hur du bygger en master‑detailarbetsbok i Excel med Aspose.Cells för Java för att enkelt hantera relaterade data.
+### [Skapa arbetsbok SmartMarker – Populera Excel-arbetsbok](./create-workbook-smartmarker-populate-excel-workbook/)
+Lär dig hur du använder SmartMarker för att skapa och fylla i en Excel-arbetsbok med data i Aspose.Cells för Java.
 
 ### [Hur du genererar kalkylblad med Smart Markers – Fullständig Java-guide](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
 Lär dig steg för steg hur du använder Smart Markers för att automatiskt skapa kalkylblad i Java med Aspose.Cells.

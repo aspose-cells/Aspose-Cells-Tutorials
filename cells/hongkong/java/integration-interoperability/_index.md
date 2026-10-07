@@ -61,6 +61,11 @@
 
 ### [如何在 Java 中使用 WRAPCOLS – Excel 陣列公式完整指南](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
 了解如何在 Java 中使用 WRAPCOLS 公式來處理 Excel 陣列公式。本指南提供設定、程式碼示例與最佳實踐。
+### [從 Excel 建立 PowerPoint – 完整 Java 指南](./create-powerpoint-from-excel-full-java-guide/)
+了解如何使用 Aspose.Cells for Java 從 Excel 資料生成 PowerPoint 簡報的完整步驟指南。
+
+### [將 Excel 轉換為 PowerPoint – 完整 Java 指南](./convert-excel-to-powerpoint-complete-java-guide/)
+了解如何使用 Aspose.Cells for Java 將 Excel 檔案轉換為 PowerPoint 簡報的完整步驟指南。
 
 ## 其他資源
 

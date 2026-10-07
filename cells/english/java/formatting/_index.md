@@ -62,6 +62,9 @@ Learn how to handle custom number formats in Java workbooks using Aspose.Cells. 
 ### [Mastering Data Presentation in Excel&#58; Number and Custom Date Formatting with Aspose.Cells for Java](./aspose-cells-java-data-formatting-excel/)
 Learn how to apply number formats and custom date styles using Aspose.Cells for Java, enhancing data presentation in Excel spreadsheets.
 
+### [Aspose Cells Date Format: How to Set Custom Date Format in Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+Learn how to set custom date formats in Excel using Aspose.Cells for Java, with step-by-step code examples and best practices.
+
 ### [How to Create & Format Excel Cells Using Aspose.Cells for Java&#58; A Step-by-Step Guide](./aspose-cells-java-excel-automation-guide/)
 Learn how to automate and format Excel files with ease using Aspose.Cells for Java. This guide covers workbook creation, cell formatting, and saving techniques.
 
@@ -240,6 +243,8 @@ Master styling Excel cells and adding hyperlinks in your Java applications with 
 Learn how to create Excel workbooks with dynamic formatting using Aspose.Cells for Java, including code examples and best practices.
 
 
+### [How to Apply Styles When Converting DataTable to Excel – Full Java Guide](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
+Learn how to apply cell styles while converting a DataTable to Excel using Aspose.Cells for Java, with step-by-step code examples.
 
 ## Additional Resources
 

@@ -53,6 +53,9 @@ Apprenez à automatiser la copie de colonnes dans Excel avec Aspose.Cells pour J
 ### [Comment copier plusieurs colonnes dans Excel avec Aspose.Cells Java : guide complet](./copy-multiple-columns-excel-aspose-cells-java/)
 Découvrez comment automatiser la copie de plusieurs colonnes dans une feuille de calcul Excel avec Aspose.Cells pour Java. Ce guide couvre la configuration, la mise en œuvre et le dépannage.
 
+### [Copier une plage de feuille de calcul par programme – Guide complet Java](./programmatically-copy-worksheet-range-complete-java-guide/)
+Apprenez à copier une plage de cellules d'une feuille de calcul Excel en Java avec Aspose.Cells, étape par étape.
+
 ### [Créer une plage d'union dans Excel avec Aspose.Cells Java : un guide complet](./create-union-range-excel-aspose-cells-java/)
 Apprenez à utiliser Aspose.Cells pour Java pour créer des plages d’union dans Excel, améliorant ainsi la présentation et la lisibilité des données.
 

@@ -65,6 +65,9 @@ Tìm hiểu cách thiết lập và tùy chỉnh định dạng số trong tệp
 ### [Làm chủ trình bày dữ liệu trong Excel: Định dạng số và ngày tùy chỉnh với Aspose.Cells cho Java](./aspose-cells-java-data-formatting-excel/)
 Tìm hiểu cách áp dụng định dạng số và kiểu ngày tùy chỉnh bằng Aspose.Cells cho Java, cải thiện khả năng trình bày dữ liệu trong bảng tính Excel.
 
+### [Định dạng ngày Aspose Cells: Cách thiết lập định dạng ngày tùy chỉnh trong Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+Tìm hiểu cách thiết lập định dạng ngày tùy chỉnh trong Excel bằng Aspose.Cells cho Java.
+
 ### [Cách tạo và định dạng ô Excel bằng Aspose.Cells cho Java: Hướng dẫn từng bước](./aspose-cells-java-excel-automation-guide/)
 Tìm hiểu cách tự động hóa và định dạng tệp Excel dễ dàng bằng Aspose.Cells for Java. Hướng dẫn này bao gồm cách tạo sổ làm việc, định dạng ô và kỹ thuật lưu.
 
@@ -238,6 +241,8 @@ Làm chủ kiểu dáng ô Excel và thêm siêu liên kết vào ứng dụng J
 
 ### [Tạo sổ làm việc Excel với Định dạng Động trong Java – Hướng dẫn đầy đủ](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 Hướng dẫn chi tiết cách tạo sổ làm việc Excel và áp dụng định dạng động bằng Aspose.Cells cho Java.
+### [Cách áp dụng kiểu khi chuyển DataTable sang Excel – Hướng dẫn đầy đủ Java](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
+Tìm hiểu cách áp dụng các kiểu định dạng khi chuyển đổi DataTable sang tệp Excel bằng Aspose.Cells cho Java.
 
 ## Tài nguyên bổ sung
 

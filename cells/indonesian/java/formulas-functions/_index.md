@@ -85,6 +85,7 @@ Pelajari cara mengekstrak teks rumus dari sel Excel menggunakan Aspose.Cells den
 
 ### [Cara Menggunakan Reduce di Excel dengan Java – Panduan Formula Lambda](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
 ### [Cara Menggunakan SEQUENCE di Buku Kerja Excel Java – Panduan Langkah demi Langkah](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+### [Cara Menggunakan WRAPCOLS di Java – Contoh Lengkap Excel WRAPCOLS](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 
 ## Sumber Daya Tambahan
 

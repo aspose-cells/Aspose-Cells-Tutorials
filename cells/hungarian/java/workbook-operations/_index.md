@@ -180,7 +180,7 @@ Tanuld meg, hogyan konvertálhatsz könnyedén Excel-táblázatokat kiváló min
 Ismerd meg, hogyan konvertálhatsz zökkenőmentesen Excel-táblázatokat szöveggé az Aspose.Cells for Java segítségével. Ez az útmutató a telepítést, a konfigurációt és a gyakorlati alkalmazásokat ismerteti.
 
 ### [Excel konvertálása kompatibilis PDF-vé az Aspose.Cells használatával Java-ban: Átfogó útmutató](./convert-excel-to-compliant-pdf-aspose-cells-java/)
-Tanuld meg, hogyan konvertálhatsz Excel-munkafüzeteket kompatibilis PDF-fájlokká az Aspose.Cells for Java segítségével, biztosítva az iparági szabványok, például a PDF/A betartását. Tökéletesítsd adatkonverziós készségeidet.
+Tanuld meg, hogyan konvertálhatsz Excel-munkafüzeteket kompatibilis PDF-fájlokká az Aspose.Cells for Java használatával, biztosítva az iparági szabványok, például a PDF/A betartását. Tökéletesítsd adatkonverziós készségeidet.
 
 ### [Hatékonyan konvertálj Excelt HTML-be az Aspose.Cells for Java használatával: Átfogó útmutató](./convert-excel-to-html-aspose-cells-java/)
 Ismerd meg, hogyan konvertálhatsz zökkenőmentesen Excel fájlokat HTML-be az Aspose.Cells for Java segítségével. Ez az útmutató a betöltést, a mentési lehetőségeket és a bevált gyakorlatokat ismerteti.
@@ -220,6 +220,9 @@ Ismerje meg, hogyan használhatja az Aspose.Cells for Java eszközt Excel-tábl�
 
 ### [Munkafüzetek létrehozása Aspose.Cells Java-val](./create-configure-workbooks-aspose-cells-java/)
 Kód oktatóanyag az Aspose.Words Java-hoz
+
+### [Új munkafüzet létrehozása Java-ban – lépésről lépésre útmutató](./create-new-workbook-in-java-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre új Excel munkafüzetet Java nyelven lépésről lépésre.
 
 ### [Excel-munkafüzetek létrehozása és testreszabása Aspose.Cells Java használatával: lépésről lépésre útmutató](./create-customize-excel-workbooks-aspose-cells-java/)
 Ismerje meg, hogyan automatizálhatja az Excel-munkafüzetek létrehozását és testreszabását az Aspose.Cells for Java segítségével. Növelje a termelékenységet a munkafüzet-műveletek elsajátításával.

@@ -239,7 +239,11 @@ Padroneggia lo stile delle celle di Excel e aggiungi collegamenti ipertestuali n
 ### [Creare una cartella di lavoro Excel con formattazione dinamica in Java – Guida completa](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 Scopri come creare una cartella di lavoro Excel con formattazione dinamica utilizzando Aspose.Cells per Java, con esempi di codice completi.
 
+### [Come applicare stili durante la conversione di DataTable in Excel – Guida completa Java](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
+Scopri come convertire una DataTable in Excel applicando stili personalizzati con Aspose.Cells per Java, con esempi di codice passo passo.
 
+### [Formato data Aspose Cells: Come impostare un formato data personalizzato in Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+Scopri come impostare formati data personalizzati nei fogli Excel con Aspose.Cells per Java, con esempi di codice chiari e pratici.
 
 ## Risorse aggiuntive
 

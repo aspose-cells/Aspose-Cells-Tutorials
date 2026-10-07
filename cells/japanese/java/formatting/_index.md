@@ -246,6 +246,11 @@ Aspose.Cells for Java を使用して、Excel のセルにカスタム数値書�
 - [無料サポート](https://forum.aspose.com/)
 - [一時ライセンス](https://purchase.aspose.com/temporary-license/)
 
+### [DataTable を Excel に変換する際にスタイルを適用する方法 – 完全 Java ガイド](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
+Aspose.Cells for Java を使用して、DataTable を Excel に変換しながらセルスタイルを適用する手順をステップバイステップで解説します。
+
+### [Aspose.Cells for Java を使用して Excel のカスタム日付書式を設定する方法](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+Aspose.Cells for Java を使用して、Excel のセルにカスタム日付書式を適用する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

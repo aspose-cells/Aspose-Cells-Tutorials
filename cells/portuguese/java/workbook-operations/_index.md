@@ -29,6 +29,9 @@ Nossos tutoriais de operações com pastas de trabalho oferecem orientações ab
 ### [Aspose.Cells Java: Crie e salve pastas de trabalho do Excel - Um guia passo a passo](./aspose-cells-java-create-save-excel-workbooks/)
 Aprenda a automatizar a criação e o gerenciamento de pastas de trabalho do Excel usando o Aspose.Cells para Java. Este guia aborda como instanciar, salvar e definir propriedades de configuração de página.
 
+### [Criar nova pasta de trabalho em Java – Guia passo a passo](./create-new-workbook-in-java-step-by-step-guide/)
+Aprenda a criar uma nova pasta de trabalho do Excel em Java usando Aspose.Cells, com exemplos de código passo a passo.
+
 ### [Aspose.Cells Java: Exibir versão e criar pasta de trabalho compartilhada](./aspose-cells-java-display-version-create-shared-workbook/)
 Um tutorial de código para Aspose.Words Java
 

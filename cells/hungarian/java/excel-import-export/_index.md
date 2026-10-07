@@ -75,6 +75,17 @@ Tanuld meg, hogyan exportálhatsz Excel-fájlokat SVG formátumba Java-ban az As
 Ismerd meg, hogyan ágyazhatod be a betűtípusokat HTML-be Excel munkafüzetből az Aspose.Cells for Java segítségével.
 ### [Flat OPC oktatóanyag Aspose: Excel munkafüzet betöltése Java-ban](./flat-opc-tutorial-aspose-load-excel-workbook-in-java/)
 Ismerd meg, hogyan tölthetsz be Excel munkafüzetet Java-ban a Flat OPC formátummal az Aspose segítségével.
+### [Munkafüzet mentése XLSX-ként – XLSX generálása JSON-ból](./save-workbook-as-xlsx-generate-xlsx-from-json/)
+Ismerd meg, hogyan hozhatsz létre XLSX fájlt JSON adatokból és mentheted a munkafüzetet XLSX formátumban az Aspose.Cells for Java segítségével.
+### [Numerikus export pontosság beállítása Java-ban: jelentős számjegyek beállítása](./set-numeric-export-precision-in-java-set-significant-digits/)
+### [XLSX exportálása CSV-be – Teljes Java útmutató](./export-xlsx-as-csv-complete-java-guide/)
+Tanuld meg, hogyan exportálhatsz XLSX fájlokat CSV formátumba Java-ban az Aspose.Cells for Java segítségével, lépésről lépésre útmutatóval.
+### [Excel konvertálása Word-be – Teljes Java útmutató (2026)](./convert-excel-to-word-complete-java-guide-2026/)
+Tanuld meg, hogyan konvertálhatsz Excel-fájlokat Word-dokumentummá Java-ban az Aspose.Cells és Aspose.Words segítségével.
+### [Betűtípusok beágyazása az Excel → SVG konverzió során](./how-to-embed-fonts-in-excel-to-svg-conversion/)
+Ismerd meg, hogyan ágyazhatsz be betűtípusokat az Excel fájlok SVG formátumba konvertálásakor az Aspose.Cells for Java segítségével.
+### [Excel fájl konvertálása HTML-be – Teljes útmutató betűtípus beágyazással](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
+Tanuld meg, hogyan konvertálj Excel fájlokat HTML-be, miközben beágyazod a betűtípusokat, lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

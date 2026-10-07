@@ -71,6 +71,16 @@ Naučte se vytvořit soubor Excel v Javě, aplikovat stylování řádků a expo
 Naučte se, jak vložit písma do HTML z Excel sešitu pomocí Aspose.Cells pro Javu.
 ### [Flat OPC tutoriál Aspose: Načtení Excel sešitu v Javě](./flat-opc-tutorial-aspose-load-excel-workbook-in-java/)
 Naučte se, jak načíst Excel sešit pomocí Flat OPC v Aspose.Cells pro Javu.
+### [Převod souboru Excel do HTML – Kompletní průvodce s vložením fontů](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
+Naučte se převést soubory Excel do HTML a vložit potřebná písma pomocí Aspose.Cells pro Javu v tomto kompletním průvodci.
+### [Uložení sešitu jako XLSX – Generování XLSX z JSON](./save-workbook-as-xlsx-generate-xlsx-from-json/)
+Naučte se, jak uložit sešit jako soubor XLSX a vytvořit XLSX z JSON pomocí Aspose.Cells pro Javu.
+### [Export XLSX jako CSV – Kompletní průvodce v Javě](./export-xlsx-as-csv-complete-java-guide/)
+Kompletní návod, jak převést soubory XLSX na CSV v Javě pomocí Aspose.Cells.
+### [Převod Excelu do Wordu – Kompletní průvodce v Javě (2026)](./convert-excel-to-word-complete-java-guide-2026/)
+Naučte se, jak převést soubory Excel do Wordu pomocí Aspose.Cells pro Javu v tomto kompletním průvodci (2026).
+### [Jak vložit písma při konverzi Excelu do SVG](./how-to-embed-fonts-in-excel-to-svg-conversion/)
+Naučte se, jak vložit písma při konverzi souborů Excel do SVG pomocí Aspose.Cells pro Javu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

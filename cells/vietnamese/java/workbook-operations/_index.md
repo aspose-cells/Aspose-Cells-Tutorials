@@ -484,6 +484,8 @@ Tìm hiểu cách lưu sổ làm việc Excel vào tệp và sao chép các vùn
 
 ### [Lưu sổ làm việc dưới dạng XLSX trong Java – Hướng dẫn lập trình toàn diện](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
 Hướng dẫn chi tiết cách lưu sổ làm việc Excel dưới dạng XLSX bằng Aspose.Cells cho Java, bao gồm thiết lập, lưu và các tùy chọn nâng cao.
+### [Tạo sổ làm việc mới trong Java – Hướng dẫn từng bước](./create-new-workbook-in-java-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo một sổ làm việc Excel mới trong Java bằng Aspose.Cells, bao gồm các bước cài đặt và mã mẫu.
 
 ## Tài nguyên bổ sung
 

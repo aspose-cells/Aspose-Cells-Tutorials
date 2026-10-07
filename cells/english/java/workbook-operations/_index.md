@@ -220,6 +220,8 @@ A code tutorial for Aspose.Words Java
 
 ### [Create Excel Workbook Java – Complete Step‑by‑Step Guide](./create-excel-workbook-java-complete-step-by-step-guide/)
 Learn how to create an Excel workbook from scratch using Aspose.Cells for Java with detailed code examples and step‑by‑step instructions.
+### [Create New Workbook in Java – Step‑by‑Step Guide](./create-new-workbook-in-java-step-by-step-guide/)
+Learn how to create a new Excel workbook from scratch using Aspose.Cells for Java with detailed code examples.
 
 ### [Create and Customize Excel Workbooks Using Aspose.Cells Java&#58; A Step-by-Step Guide](./create-customize-excel-workbooks-aspose-cells-java/)
 Learn how to automate the creation and customization of Excel workbooks with Aspose.Cells for Java. Enhance productivity by mastering workbook operations.

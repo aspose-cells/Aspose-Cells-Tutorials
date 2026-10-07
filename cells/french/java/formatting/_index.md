@@ -238,6 +238,11 @@ Maîtrisez le style des cellules Excel et l'ajout d'hyperliens dans vos applicat
 
 ### [Créer un classeur Excel avec mise en forme dynamique en Java – Guide complet](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 Apprenez à créer un classeur Excel avec une mise en forme dynamique en Java en suivant ce guide complet.
+### [Comment appliquer des styles lors de la conversion d'un DataTable en Excel – Guide complet Java](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
+Apprenez à appliquer des styles lors de la conversion d'un DataTable en fichier Excel avec Aspose.Cells pour Java. Guide complet pas à pas.
+
+### [Format de date Aspose Cells : comment définir un format de date personnalisé en Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+Apprenez à définir un format de date personnalisé dans Excel avec Aspose.Cells pour Java.
 
 ## Ressources supplémentaires
 

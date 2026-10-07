@@ -61,6 +61,11 @@ Naučte se, jak pomocí Aspose.Cells pro Javu exportovat grafy z Excelu do dokum
 
 ### [Jak používat WRAPCOLS v Javě – Kompletní průvodce Excelovými maticovými vzorci](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
 Naučte se, jak v Javě použít funkci WRAPCOLS pro práci s maticovými vzorci v Excelu.
+### [Vytvořte PowerPoint z Excelu – Kompletní průvodce v Javě](./create-powerpoint-from-excel-full-java-guide/)
+Naučte se, jak pomocí Aspose.Cells a Aspose.Slides v Javě převést data z Excelu do prezentace PowerPoint s kompletním příkladem kódu.
+
+### [Převod Excelu do PowerPointu – Kompletní průvodce v Javě](./convert-excel-to-powerpoint-complete-java-guide/)
+Naučte se, jak v Javě pomocí Aspose.Cells a Aspose.Slides převést data z Excelu do prezentace PowerPoint s kompletním příkladem kódu.
 
 ## Další zdroje
 

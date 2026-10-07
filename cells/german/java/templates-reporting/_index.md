@@ -46,6 +46,8 @@ Erfahren Sie, wie Sie die dynamische Excel-Berichterstellung mit Aspose.Cells f�
 
 ### [Erstellen einer Master-Detail-Arbeitsmappe mit Aspose.Cells (Java)](./create-master-detail-workbook-with-aspose-cells-java/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java ein Master‑Detail‑Arbeitsbuch erstellen und Daten aus mehreren Quellen verknüpfen.
+### [Arbeitsmappe mit SmartMarker erstellen – Excel-Arbeitsmappe füllen](./create-workbook-smartmarker-populate-excel-workbook/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java einen SmartMarker erstellen und damit eine Excel-Arbeitsmappe programmgesteuert befüllen.
 
 ### [Wie man Arbeitsblätter mit Smart Markern generiert – Vollständige Java-Anleitung](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Smart Marker nutzen, um Arbeitsblätter automatisch zu erstellen und Daten zu füllen.

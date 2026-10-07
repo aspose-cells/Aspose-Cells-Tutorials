@@ -61,6 +61,11 @@ Java と Aspose.Cells を使用して、Excel のチャートを Word 文書に�
 
 ### [Java で WRAPCOLS を使用する方法 – Excel 配列数式の完全ガイド](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
 Java と Aspose.Cells を使って WRAPCOLS 関数を活用し、Excel の配列数式を実装する手順を詳しく解説します。
+### [Excel から PowerPoint を作成 – 完全 Java ガイド](./create-powerpoint-from-excel-full-java-guide/)
+Excel データを使用して PowerPoint プレゼンテーションを作成する方法を、Aspose.Cells と Aspose.Slides を組み合わせた完全な Java ガイドで学びます。
+
+### [Excel を PowerPoint に変換 – 完全 Java ガイド](./convert-excel-to-powerpoint-complete-java-guide/)
+Aspose.Cells と Aspose.Slides を使用して、Excel データを PowerPoint スライドに変換する手順を完全に解説します。
 
 ## 追加リソース
 

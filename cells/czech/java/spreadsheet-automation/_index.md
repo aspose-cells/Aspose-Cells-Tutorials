@@ -63,6 +63,12 @@ Naučte se, jak programově vytvořit soubor Excel v Javě pomocí Aspose.Cells 
 
 ### [Jak vypnout automatický filtr v Excelu pomocí Javy – Kompletní průvodce](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
 Naučte se, jak pomocí Aspose.Cells v Javě vypnout automatický filtr v Excelu a zjednodušit zpracování dat.
+### [Jak vypnout AutoFilter v Excelu pomocí Javy – Kompletní průvodce](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells pro Javu vypnout funkci AutoFilter v Excelu a získat plnou kontrolu nad daty.
+### [Vytvořte vertikální pole v Excelu pomocí Javy – Kompletní průvodce krok za krokem](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+Naučte se, jak v Excelu pomocí Aspose.Cells a Javy vytvořit vertikální pole, včetně podrobných ukázek kódu a kroků.
+### [Jak použít Expand v Excelu pomocí Javy – Kompletní průvodce](./how-to-use-expand-in-java-complete-excel-guide/)
+Naučte se, jak pomocí Aspose.Cells pro Javu použít funkci Expand v Excelu a automatizovat rozšíření dat s praktickými ukázkami kódu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -41,6 +41,8 @@ Aspose.Cells for Javaを使用してデータをCSV形式にエクスポート�
 Aspose.Cells for Javaを使用して、CSVエクスポート時に有効数字を設定し、エクスポート範囲を指定する方法を解説します。
 ### [Excel のエクスポート：CSV 変換ステップバイステップガイド](./how-to-export-excel-step-by-step-guide-to-csv-conversion/)
 Aspose.Cells for Java を使用して、Excel を CSV にエクスポートする手順をステップバイステップで学びましょう。
+### [XLSX を CSV にエクスポート – 完全 Java ガイド](./export-xlsx-as-csv-complete-java-guide/)
+Aspose.Cells for Java を使用して、XLSX ファイルを CSV 形式に変換する手順をステップバイステップで解説します。実用的なコード例で学べます。
 ### [Excel から PDF へのエクスポート](./exporting-excel-to-pdf/)
 Aspose.Cells for Javaを使って、ExcelファイルをPDFに簡単にエクスポートする方法を学びましょう。ステップバイステップガイドで手順を分かりやすく解説します。今すぐ変換を始めましょう！
 ### [ワークブックからPDFを作成する方法 – 完全Javaガイド](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
@@ -81,6 +83,16 @@ Aspose.Cells for Java を使用して、Excel を HTML に変換する際にフ�
 
 ### [Markdown を Excel に変換 – Aspose.Cells を使用した完全ガイド](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
 Aspose.Cells を利用して、Markdown ファイルを Excel に変換する手順をステップバイステップで解説します。
+### [ワークブックをXLSXとして保存 – JSONからXLSXを生成](./save-workbook-as-xlsx-generate-xlsx-from-json/)
+Aspose.Cells for Java を使用して、JSON データから XLSX ワークブックを生成し、保存する方法を学びます。
+### [Javaで数値エクスポートの精度を設定：有効数字の設定](./set-numeric-export-precision-in-java-set-significant-digits/)
+Aspose.Cells for Java を使用して、数値エクスポート時の有効数字を設定し、精度をコントロールする方法を学びます。
+### [Excel を Word に変換 – 完全 Java ガイド (2026)](./convert-excel-to-word-complete-java-guide-2026/)
+Aspose.Cells for Java を使用して、Excel ファイルを Word 文書に変換する方法を学びましょう。実用的なコード例でステップバイステップ解説します。
+### [Excel を SVG に変換する際のフォント埋め込み方法](./how-to-embed-fonts-in-excel-to-svg-conversion/)
+Aspose.Cells for Java を使用して、Excel を SVG に変換する際にフォントを埋め込む手順をステップバイステップで解説します。
+### [Excel を HTML に変換 – フォント埋め込み完全ガイド](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
+Aspose.Cells for Java を使用して、Excel ファイルを HTML に変換し、フォントを埋め込む手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

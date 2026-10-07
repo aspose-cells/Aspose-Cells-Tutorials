@@ -61,6 +61,11 @@ Aprenda a exportar gráficos de Excel a documentos Word usando Aspose.Cells para
 
 ### [Cómo usar WRAPCOLS en Java – Guía completa de fórmulas de matriz en Excel](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
 Aprenda a aplicar la función WRAPCOLS en Java con Aspose.Cells para crear y manejar fórmulas de matriz en Excel de forma eficiente.
+### [Crear PowerPoint desde Excel – Guía completa en Java](./create-powerpoint-from-excel-full-java-guide/)
+Aprenda a generar presentaciones PowerPoint a partir de datos de Excel usando Aspose.Slides y Aspose.Cells en Java.
+
+### [Convertir Excel a PowerPoint – Guía completa en Java](./convert-excel-to-powerpoint-complete-java-guide/)
+Aprenda a convertir archivos Excel en presentaciones PowerPoint usando Aspose.Slides y Aspose.Cells en Java.
 
 ## Recursos adicionales
 

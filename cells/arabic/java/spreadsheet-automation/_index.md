@@ -55,6 +55,12 @@
 ### [إنشاء Excel برمجيًا في Java – دليل خطوة بخطوة](./create-excel-programmatically-in-java-step-by-step-guide/)
 ### [كيفية إيقاف تشغيل الفلتر التلقائي في Excel باستخدام Java – دليل كامل](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
 تعلم كيفية إلغاء الفلتر التلقائي في ملفات Excel باستخدام Aspose.Cells لجافا خطوة بخطوة.
+### [كيفية إيقاف تشغيل AutoFilter في Excel باستخدام Java – دليل كامل](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+تعلم كيفية تعطيل خاصية AutoFilter في ملفات Excel باستخدام Aspose.Cells لجافا خطوة بخطوة.
+### [إنشاء مصفوفة عمودية في Excel باستخدام Java – دليل كامل خطوة بخطوة](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+تعلم كيفية إنشاء مصفوفة عمودية في ملفات Excel باستخدام Aspose.Cells لجافا مع دليل شامل خطوة بخطوة.
+### [كيفية استخدام Expand في Java – دليل إكسل كامل](./how-to-use-expand-in-java-complete-excel-guide/)
+تعلم كيفية استخدام Expand في ملفات Excel باستخدام Aspose.Cells لجافا خطوة بخطوة مع أمثلة الكود المصدرية.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

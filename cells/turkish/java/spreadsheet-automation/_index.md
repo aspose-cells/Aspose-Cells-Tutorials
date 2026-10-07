@@ -40,6 +40,8 @@ Aspose.Cells for Java ile toplu Excel işleme görevlerini nasıl kolaylaştıra
 Java için Aspose.Cells'i kullanarak kaynak kod örnekleriyle veri girişini nasıl verimli bir şekilde otomatikleştireceğinizi öğrenin. Veri işlemede üretkenliği ve doğruluğu artırın.
 ### [Dinamik Excel Raporları](./dynamic-excel-reports/)
 Aspose.Cells for Java ile dinamik Excel raporlarını kolayca oluşturun. Veri güncellemelerini otomatikleştirin, biçimlendirme uygulayın ve zamandan tasarruf edin.
+### [Java ile Dikey Dizi Excel Oluşturma – Tam Adım‑Adım Kılavuz](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+Java ve Aspose.Cells kullanarak dikey dizi içeren Excel dosyalarını adım adım oluşturmayı öğrenin.
 ### [Otomatik Veri Çıkarımı](./automated-data-extraction/)
 Java için Aspose.Cells'i kullanarak kaynak kod örnekleriyle veri çıkarmayı nasıl verimli bir şekilde otomatikleştireceğinizi öğrenin. Excel dosyalarından zahmetsizce veri çıkarın.
 ### [Excel Çalışma Kitabı Otomasyonu](./excel-workbook-automation/)
@@ -57,6 +59,10 @@ Java ve Aspose.Cells kullanarak Excel dosyalarındaki otomatik filtre özelliği
 Java ve Aspose.Cells kullanarak Excel dosyalarını programatik olarak oluşturmayı adım adım öğrenin.
 ### [Java ile Excel'de Otomatik Filtreyi Kapatma – Tam Kılavuz](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
 Aspose.Cells for Java ile Excel'de otomatik filtreyi kapatmayı adım adım öğrenin.
+### [Java ile Excel'de Otomatik Filtreyi Kapatma – Tam Kılavuz](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+Java ve Aspose.Cells kullanarak Excel'de Otomatik Filtre özelliğini nasıl devre dışı bırakacağınızı adım adım öğrenin.
+### [Java'da Expand Kullanımı – Tam Excel Kılavuzu](./how-to-use-expand-in-java-complete-excel-guide/)
+Aspose.Cells for Java kullanarak Expand işlevini nasıl uygulayacağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

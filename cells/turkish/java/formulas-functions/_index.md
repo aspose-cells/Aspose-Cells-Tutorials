@@ -87,6 +87,7 @@ Java ile Aspose.Cells kullanarak Excel hücrelerinden formül metninin nasıl ç
 ### [Java Excel Çalışma Kitabında SEQUENCE Kullanımı – Adım Adım Kılavuz](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
 Java Excel çalışma kitabında SEQUENCE işlevini nasıl kullanacağınızı adım adım öğrenin.
 
+### [Java'da WRAPCOLS Nasıl Kullanılır – Tam Excel WRAPCOLS Örneği](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 
 ## Ek Kaynaklar
 

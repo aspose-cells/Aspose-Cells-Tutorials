@@ -237,6 +237,11 @@ Domine a estilização de células do Excel e a adição de hiperlinks em seus a
 Aprenda a criar uma pasta de trabalho Excel com formatação dinâmica usando Aspose.Cells para Java, com exemplos de código completos.
 ### [Definir Formato de Número no Excel em Java – Guia Completo](./set-number-format-excel-in-java-complete-guide/)
 Aprenda a definir formatos numéricos personalizados em planilhas do Excel usando Aspose.Cells para Java, com exemplos de código passo a passo.
+### [Como aplicar estilos ao converter DataTable para Excel – Guia completo em Java](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
+Aprenda a aplicar estilos ao converter um DataTable para Excel usando Aspose.Cells para Java, com exemplos de código passo a passo.
+
+### [Aspose Cells Formato de Data: Como Definir Formato de Data Personalizado em Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+Aprenda a definir formatos de data personalizados em planilhas Excel usando Aspose.Cells para Java, com exemplos de código passo a passo.
 
 ## Recursos adicionais
 

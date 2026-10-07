@@ -61,6 +61,11 @@ Dowiedz się, jak wyeksportować wykresy z Excela do dokumentu Word przy użyciu
 
 ### [Jak używać WRAPCOLS w Javie – Kompletny przewodnik po formułach tablicowych Excela](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
 Dowiedz się, jak stosować funkcję WRAPCOLS w Javie przy użyciu Aspose.Cells, aby tworzyć i obsługiwać formuły tablicowe w Excelu.
+### [Utwórz PowerPoint z Excela – pełny przewodnik Java](./create-powerpoint-from-excel-full-java-guide/)
+Dowiedz się, jak wygenerować prezentację PowerPoint z danych Excela przy użyciu Aspose.Slides i Aspose.Cells w Javie.
+
+### [Konwersja Excela do PowerPoint – Kompletny przewodnik Java](./convert-excel-to-powerpoint-complete-java-guide/)
+Naucz się konwertować pliki Excel na prezentacje PowerPoint przy użyciu Aspose.Slides i Aspose.Cells w Javie.
 
 ## Dodatkowe zasoby
 

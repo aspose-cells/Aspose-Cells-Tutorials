@@ -26,7 +26,7 @@
 
 ## Διαθέσιμα εκπαιδευτικά βίντεο
 
-### [Κύριοι τύποι πινάκων Excel με το Aspose.Cells Java: Βελτιστοποίηση υπολογισμών και μορφοποίησης](./aspose-cells-java-array-formulas-custom-calculations/)
+### [Κύριοι τύποι πινάκων Excel με το Aspose.Cells Java: Βελτιστοποίηση υπολογμών και μορφοποίησης](./aspose-cells-java-array-formulas-custom-calculations/)
 Μάθετε να ορίζετε τύπους πινάκων, να εφαρμόζετε στυλ αριθμών, να προσαρμόζετε υπολογισμούς και να αποθηκεύετε βιβλία εργασίας αποτελεσματικά χρησιμοποιώντας το Aspose.Cells για Java.
 
 ### [Πώς να δημιουργήσετε μια προσαρμοσμένη στατική συνάρτηση τιμής στο Aspose.Cells Java](./aspose-cells-java-custom-static-value-function/)
@@ -87,6 +87,8 @@
 Μάθετε πώς να εφαρμόζετε τη λειτουργία Reduce σε τύπους Excel χρησιμοποιώντας Java και Lambda για προηγμένες υπολογιστικές εργασίες.
 ### [Πώς να χρησιμοποιήσετε τη λειτουργία SEQUENCE σε βιβλίο εργασίας Excel Java – Οδηγός βήμα‑προς‑βήμα](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
 Μάθετε πώς να χρησιμοποιείτε τη λειτουργία SEQUENCE στο Aspose.Cells για Java για δημιουργία δυναμικών σειρών κελιών σε βιβλία εργασίας Excel.
+### [Πώς να χρησιμοποιήσετε το WRAPCOLS σε Java – Πλήρες παράδειγμα Excel WRAPCOLS](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+Μάθετε πώς να εφαρμόζετε τη λειτουργία WRAPCOLS με Aspose.Cells για Java, βήμα-βήμα, με πλήρη παράδειγμα κώδικα.
 
 ## Πρόσθετοι Πόροι
 

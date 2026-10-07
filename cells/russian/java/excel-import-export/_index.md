@@ -35,6 +35,10 @@
 Раскройте потенциал методов экспорта данных Excel с помощью Aspose.Cells для Java. Изучите практические примеры исходного кода в этом комплексном руководстве. Оптимизируйте свои навыки управления данными уже сегодня.
 ### [Экспорт CSV-кода Java](./csv-export-java-code/)
 Узнайте, как экспортировать данные в формат CSV с помощью Aspose.Cells для Java. Пошаговое руководство с исходным кодом для бесшовного экспорта CSV.
+
+### [Экспорт XLSX в CSV – Полное руководство Java](./export-xlsx-as-csv-complete-java-guide/)
+Узнайте, как экспортировать файлы XLSX в CSV с помощью Aspose.Cells для Java. Пошаговое руководство с полным примером кода.
+
 ### [Экспорт Excel в PDF](./exporting-excel-to-pdf/)
 Узнайте, как легко экспортировать файлы Excel в PDF с помощью Aspose.Cells для Java. Наше пошаговое руководство упрощает процесс. Начните конвертацию сегодня!
 ### [Экспорт Excel в XML Java](./export-excel-to-xml-java/)
@@ -72,6 +76,18 @@
 Узнайте, как внедрить шрифты в HTML из книги Excel с помощью Aspose.Cells для Java. Пошаговое руководство с примером кода.
 ### [Flat OPC Tutorial Aspose: загрузка рабочей книги Excel в Java](./flat-opc-tutorial-aspose-load-excel-workbook-in-java/)
 Узнайте, как загрузить рабочую книгу Excel в Java с помощью Flat OPC Tutorial Aspose.
+### [Конвертировать файл Excel в HTML – Полное руководство с внедрением шрифтов](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
+Узнайте, как конвертировать файлы Excel в HTML с внедрением шрифтов, используя Aspose.Cells для Java. Пошаговое руководство с примером кода.
+### [Сохранить книгу как XLSX – Генерация XLSX из JSON](./save-workbook-as-xlsx-generate-xlsx-from-json/)
+Узнайте, как сохранить рабочую книгу в формате XLSX, генерируя файл из JSON с помощью Aspose.Cells для Java.
+### [Установка точности числового экспорта в Java: задать значимые цифры](./set-numeric-export-precision-in-java-set-significant-digits/)
+Узнайте, как установить точность экспорта чисел, задав количество значимых цифр, используя Aspose.Cells для Java.
+
+### [Как внедрить шрифты при конвертации Excel в SVG](./how-to-embed-fonts-in-excel-to-svg-conversion/)
+Узнайте, как внедрить шрифты при конвертации файлов Excel в SVG с помощью Aspose.Cells для Java. Пошаговое руководство с примером кода.
+
+### [Конвертировать Excel в Word – Полное руководство Java (2026)](./convert-excel-to-word-complete-java-guide-2026/)
+Узнайте, как конвертировать файлы Excel в Word с помощью Aspose.Cells для Java. Пошаговое руководство с полным примером кода.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

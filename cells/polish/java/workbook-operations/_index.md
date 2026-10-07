@@ -29,6 +29,9 @@ Nasze samouczki dotyczące operacji skoroszytu zapewniają kompleksowe wskazówk
 ### [Aspose.Cells Java: Tworzenie i zapisywanie skoroszytów programu Excel — przewodnik krok po kroku](./aspose-cells-java-create-save-excel-workbooks/)
 Dowiedz się, jak zautomatyzować tworzenie i zarządzanie skoroszytami programu Excel przy użyciu Aspose.Cells for Java. Ten przewodnik obejmuje tworzenie instancji, zapisywanie i ustawianie właściwości konfiguracji strony.
 
+### [Tworzenie nowego skoroszytu w Javie – przewodnik krok po kroku](./create-new-workbook-in-java-step-by-step-guide/)
+Dowiedz się, jak utworzyć nowy skoroszyt programu Excel w Javie, korzystając z Aspose.Cells, krok po kroku.
+
 ### [Aspose.Cells Java: Wyświetlanie wersji i tworzenie udostępnionego skoroszytu](./aspose-cells-java-display-version-create-shared-workbook/)
 Samouczek dotyczący kodu dla Aspose.Words Java
 

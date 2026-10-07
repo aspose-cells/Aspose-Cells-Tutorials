@@ -102,6 +102,8 @@
 تعلّم كيفية إظهار الصفوف والأعمدة في ملفات Excel بسهولة باستخدام Aspose.Cells لجافا. أتمت إدارة البيانات مع هذا الدليل الشامل.
 
 ### [كيفية استخدام SmartMarkerProcessor لتسمية الأوراق ديناميكياً](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
+### [إنشاء أوراق متعددة في Excel باستخدام Java – دليل شامل يعتمد على القوالب](./create-multiple-sheets-in-excel-with-java-complete-template/)
+تعرّف على كيفية إنشاء أوراق عمل متعددة في Excel باستخدام Java مع القوالب الجاهزة. يغطي الدليل الخطوات الكاملة والنصائح العملية.
 
 ## موارد إضافية
 

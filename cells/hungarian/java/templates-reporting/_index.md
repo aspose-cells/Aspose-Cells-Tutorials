@@ -52,6 +52,8 @@ Ismerd meg, hogyan hozhatsz létre munkalapokat Smart Markerekkel a teljes Java 
 
 ### [Aspose Cells Smart Markerek: Excel-sablon betöltése és Excel generálása sablonból](./aspose-cells-smart-markers-load-excel-template-generate-exce/)
 Tanulja meg, hogyan töltsön be Excel-sablont és generáljon új Excel-fájlt Smart Markerek segítségével Aspose Cells Java-ban.
+### [Munkafüzet SmartMarker létrehozása – Excel munkafüzet feltöltése](./create-workbook-smartmarker-populate-excel-workbook/)
+Tanuld meg, hogyan hozhatsz létre SmartMarker-t egy munkafüzetben és töltsd fel adatával az Excel fájlt az Aspose.Cells for Java segítségével.
 
 ## További források
 

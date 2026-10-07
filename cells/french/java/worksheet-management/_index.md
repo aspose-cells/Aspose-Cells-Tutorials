@@ -103,6 +103,8 @@ Apprenez à afficher facilement les lignes et les colonnes masquées dans vos fi
 
 ### [Comment utiliser SmartMarkerProcessor pour nommer dynamiquement les feuilles](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
 Apprenez à utiliser SmartMarkerProcessor afin de nommer automatiquement les feuilles de calcul en fonction de données dynamiques avec Aspose.Cells pour Java.
+### [Créer plusieurs feuilles dans Excel avec Java – Guide complet basé sur les modèles](./create-multiple-sheets-in-excel-with-java-complete-template/)
+Apprenez à générer plusieurs feuilles Excel à partir d'un modèle en Java avec Aspose.Cells, incluant configuration, remplissage de données et sauvegarde.
 
 ## Ressources supplémentaires
 

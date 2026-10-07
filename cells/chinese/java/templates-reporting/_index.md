@@ -51,6 +51,8 @@
 本指南详细演示如何在 Aspose.Cells for Java 中使用智能标记生成多个工作表，实现动态报表自动化。
 
 ### [Aspose Cells 智能标记：加载 Excel 模板并从模板生成 Excel](./aspose-cells-smart-markers-load-excel-template-generate-exce/)
+### [创建工作簿 SmartMarker – 填充 Excel 工作簿](./create-workbook-smartmarker-populate-excel-workbook/)
+学习如何使用 SmartMarker 在 Excel 工作簿中填充数据，实现自动化报表生成。
 
 ## 其他资源
 

@@ -61,6 +61,11 @@ Aspose.Cells for Java를 사용하여 Excel 차트를 Word 문서로 내보내�
 
 ### [Java에서 WRAPCOLS 사용 방법 – Excel 배열 수식 완전 가이드](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
 Aspose.Cells for Java를 활용해 WRAPCOLS 함수를 사용하여 Excel 배열 수식을 구현하고 적용하는 방법을 단계별로 안내합니다.
+### [Excel에서 PowerPoint 만들기 – 전체 Java 가이드](./create-powerpoint-from-excel-full-java-guide/)
+Aspose.Cells for Java를 사용해 Excel 데이터를 PowerPoint 프레젠테이션으로 변환하는 방법을 단계별로 안내합니다.
+
+### [Excel을 PowerPoint로 변환 – 전체 Java 가이드](./convert-excel-to-powerpoint-complete-java-guide/)
+Aspose.Cells for Java를 사용해 Excel 데이터를 PowerPoint 프레젠테이션으로 변환하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

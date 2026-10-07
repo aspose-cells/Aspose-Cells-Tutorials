@@ -50,6 +50,8 @@
 
 ### [Aspose Cells Smart Markers: تحميل قالب Excel وإنشاء Excel من القالب](./aspose-cells-smart-markers-load-excel-template-generate-exce/)
 
+### [إنشاء SmartMarker لمصنف Excel – تعبئة المصنف](./create-workbook-smartmarker-populate-excel-workbook/)
+تعلم كيفية إنشاء SmartMarker لمصنف Excel وتعبئته بالبيانات باستخدام Aspose.Cells لجافا.
 
 
 ## موارد إضافية

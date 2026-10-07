@@ -59,6 +59,11 @@ Java के लिए Aspose.Cells का उपयोग करके Excel क
 
 ### [जावा में WRAPCOLS का उपयोग कैसे करें – Excel एरे फ़ॉर्मूले की संपूर्ण गाइड](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
 जावा में Aspose.Cells का उपयोग करके WRAPCOLS फ़ंक्शन के साथ एरे फ़ॉर्मूले लागू करने की पूरी प्रक्रिया सीखें।
+### [Excel से PowerPoint बनाएं – पूर्ण Java गाइड](./create-powerpoint-from-excel-full-java-guide/)
+Excel डेटा को PowerPoint प्रस्तुति में बदलना, Aspose.Slides और Java के साथ विस्तृत चरण-दर-स्टेप गाइड।
+
+### [Excel को PowerPoint में बदलें – पूर्ण Java गाइड](./convert-excel-to-powerpoint-complete-java-guide/)
+Excel फ़ाइल को PowerPoint प्रस्तुति में बदलने के लिए Aspose.Slides और Java के साथ विस्तृत चरण-दर-चरण मार्गदर्शिका।
 
 ## अतिरिक्त संसाधन
 

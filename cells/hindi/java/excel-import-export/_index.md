@@ -70,6 +70,22 @@ Aspose.Cells for Java का उपयोग करके पंक्तिय�
 Aspose.Cells for Java का उपयोग करके Excel वर्कबुक से HTML में फ़ॉन्ट एम्बेड करने की चरण‑दर‑स्टेप गाइड।
 ### [फ़्लैट OPC ट्यूटोरियल Aspose: जावा में Excel वर्कबुक लोड करें](./flat-opc-tutorial-aspose-load-excel-workbook-in-java/)
 Aspose.Cells for Java का उपयोग करके फ़्लैट OPC फ़ॉर्मेट में Excel वर्कबुक लोड करने की प्रक्रिया सीखें।
+### [XLSX को CSV के रूप में निर्यात करें – पूर्ण जावा गाइड](./export-xlsx-as-csv-complete-java-guide/)
+Aspose.Cells for Java का उपयोग करके XLSX फ़ाइल को CSV में निर्यात करने की पूरी प्रक्रिया सीखें।
+
+### [वर्कबुक को XLSX के रूप में सहेजें – JSON से XLSX बनाएं](./save-workbook-as-xlsx-generate-xlsx-from-json/)
+Aspose.Cells for Java का उपयोग करके JSON डेटा से XLSX वर्कबुक बनाना और सहेजना सीखें।
+### [Excel फ़ाइल को HTML में बदलें – फ़ॉन्ट एम्बेडिंग के साथ पूर्ण गाइड](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
+Aspose.Cells for Java का उपयोग करके Excel फ़ाइल को HTML में बदलें और फ़ॉन्ट एम्बेड करने की पूरी प्रक्रिया सीखें।
+
+### [जावा में संख्यात्मक निर्यात सटीकता सेट करें: महत्वपूर्ण अंकों को सेट करें](./set-numeric-export-precision-in-java-set-significant-digits/)
+Aspose.Cells for Java का उपयोग करके संख्यात्मक निर्यात की सटीकता को नियंत्रित करना सीखें। महत्वपूर्ण अंकों को सेट करने की चरण-दर-स्टेप मार्गदर्शिका।
+
+### [Excel को Word में बदलें – पूर्ण जावा गाइड (2026)](./convert-excel-to-word-complete-java-guide-2026/)
+Aspose.Cells for Java का उपयोग करके Excel फ़ाइल को Word दस्तावेज़ में परिवर्तित करना सीखें। चरण-दर-स्टेप कोड उदाहरणों के साथ।
+
+### [Excel को SVG में बदलते समय फ़ॉन्ट एम्बेड करना कैसे करें](./how-to-embed-fonts-in-excel-to-svg-conversion/)
+Aspose.Cells for Java का उपयोग करके Excel को SVG में बदलते समय फ़ॉन्ट एम्बेड करने की प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

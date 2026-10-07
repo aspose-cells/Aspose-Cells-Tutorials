@@ -71,6 +71,18 @@ Aspose.Cells for Java kullanarak Excel dosyalarını SVG formatına nasıl aktar
 Aspose.Cells for Java kullanarak Excel çalışma kitabındaki yazı tiplerini HTML çıktısına nasıl gömeceğinizi öğrenin.
 ### [Düz OPC Eğitimi Aspose: Java'da Excel Çalışma Kitabı Yükleme](./flat-opc-tutorial-aspose-load-excel-workbook-in-java/)
 Aspose.Cells for Java kullanarak düz OPC formatında bir Excel çalışma kitabını nasıl yükleyeceğinizi adım adım öğrenin.
+### [Excel'ten SVG'ye Dönüştürürken Yazı Tiplerini Gömme](./how-to-embed-fonts-in-excel-to-svg-conversion/)
+Aspose.Cells for Java kullanarak Excel dosyalarını SVG'ye dönüştürürken yazı tiplerini nasıl gömeceğinizi öğrenin.
+### [Çalışma Kitabını XLSX Olarak Kaydet – JSON'dan XLSX Oluştur](./save-workbook-as-xlsx-generate-xlsx-from-json/)
+Aspose.Cells for Java kullanarak JSON verilerinden XLSX dosyası oluşturmayı ve çalışma kitabını XLSX formatında kaydetmeyi öğrenin.
+### [Java'da Sayısal Dışa Aktarım Hassasiyetini Ayarlama: Önemli Basamakları Belirleme](./set-numeric-export-precision-in-java-set-significant-digits/)
+Aspose.Cells for Java kullanarak sayısal dışa aktarımda önemli basamakları nasıl ayarlayacağınızı öğrenin.
+### [XLSX'i CSV Olarak Dışa Aktarma – Tam Java Rehberi](./export-xlsx-as-csv-complete-java-guide/)
+Aspose.Cells for Java ile XLSX dosyalarını CSV formatına nasıl aktaracağınızı öğrenin. Kaynak kodlu adım adım tam rehber.
+### [Excel'i Word'e Dönüştür – Tam Java Rehberi (2026)](./convert-excel-to-word-complete-java-guide-2026/)
+Aspose.Cells for Java kullanarak Excel dosyalarını Word belgelerine nasıl dönüştüreceğinizi öğrenin. Adım adım kaynak kodlu kılavuz.
+### [Excel Dosyasını HTML'ye Dönüştür – Yazı Tipi Gömme ile Tam Rehber](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
+Aspose.Cells for Java kullanarak Excel dosyalarını HTML'ye dönüştürürken yazı tiplerini nasıl gömeceğinizi öğrenin. Adım adım kaynak kodlu kılavuz.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

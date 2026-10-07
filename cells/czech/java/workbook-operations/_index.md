@@ -487,6 +487,8 @@ Naučte se, jak uložit sešit do souboru a kopírovat oblasti v Excelu pomocí 
 
 ### [Jak přidat vlastní vlastnost v Excelu (Java) – Načíst hodnotu a uložit jako XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
 Naučte se, jak přidat vlastní vlastnost do souboru Excel pomocí Aspose.Cells pro Javu, načíst její hodnotu a uložit sešit jako XLSB.
+### [Vytvoření nového sešitu v Javě – krok za krokem průvodce](./create-new-workbook-in-java-step-by-step-guide/)
+Naučte se, jak vytvořit nový sešit Excelu v Javě pomocí Aspose.Cells, krok za krokem s praktickými ukázkami kódu.
 
 ## Další zdroje
 

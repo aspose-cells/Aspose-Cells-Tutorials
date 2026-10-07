@@ -71,6 +71,18 @@ Dowiedz się, jak wczytać plik JSON w Javie i przekonwertować go do formatu Ex
 Dowiedz się, jak w Javie utworzyć plik Excel, zastosować stylizację wierszy i wyeksportować go jako XLSX.
 ### [Samouczek Flat OPC Aspose: Ładowanie skoroszytu Excel w Javie](./flat-opc-tutorial-aspose-load-excel-workbook-in-java/)
 Dowiedz się, jak załadować skoroszyt Excel przy użyciu Flat OPC w Javie z Aspose.
+### [Konwertowanie pliku Excel do HTML – Kompletny przewodnik z osadzaniem czcionek](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
+Dowiedz się, jak konwertować pliki Excel do HTML z osadzaniem czcionek przy użyciu Aspose.Cells for Java. Przewodnik krok po kroku z przykładowym kodem.
+### [Zapisz skoroszyt jako XLSX – generowanie XLSX z JSON](./save-workbook-as-xlsx-generate-xlsx-from-json/)
+Dowiedz się, jak zapisać skoroszyt jako plik XLSX, generując go bezpośrednio z danych JSON przy użyciu Aspose.Cells for Java.
+### [Ustaw precyzję eksportu liczb w Javie: ustaw znaczące cyfry](./set-numeric-export-precision-in-java-set-significant-digits/)
+Dowiedz się, jak ustawić precyzję eksportu liczb i określić liczbę znaczących cyfr przy użyciu Aspose.Cells for Java.
+### [Eksport XLSX jako CSV – Kompletny przewodnik Java](./export-xlsx-as-csv-complete-java-guide/)
+Dowiedz się, jak w pełni konwertować pliki XLSX do formatu CSV w Javie przy użyciu Aspose.Cells, krok po kroku z przykładowym kodem.
+### [Konwertowanie Excela do Worda – Kompletny przewodnik Java (2026)](./convert-excel-to-word-complete-java-guide-2026/)
+Dowiedz się, jak konwertować pliki Excel do Word przy użyciu Aspose.Cells for Java. Przewodnik krok po kroku z przykładowym kodem.
+### [Jak osadzić czcionki w konwersji Excela do SVG](./how-to-embed-fonts-in-excel-to-svg-conversion/)
+Dowiedz się, jak osadzić czcionki podczas konwersji plików Excel do formatu SVG przy użyciu Aspose.Cells for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

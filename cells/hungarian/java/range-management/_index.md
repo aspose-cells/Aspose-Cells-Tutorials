@@ -85,6 +85,8 @@ Ismerje meg, hogyan lehet hatékonyan szétválasztani a cellákat Excel-fájlok
 
 ### [Név hozzárendelése cellához Excelben Java-val – Teljes útmutató](./assign-name-to-cell-in-excel-using-java-complete-guide/)
 Tanuld meg, hogyan adhatunk nevet egy cellához Excelben Java-val, lépésről lépésre útmutatóval és kódpéldákkal.
+### [Programozott módon munkalap-tartomány másolása – Teljes Java útmutató](./programmatically-copy-worksheet-range-complete-java-guide/)
+Ismerd meg, hogyan másolhatod programozottan a munkalap-tartományokat Java-ban az Aspose.Cells segítségével.
 
 ## További források
 

@@ -496,6 +496,8 @@ Lär dig hur du lägger till en anpassad egenskap i en Excel-arbetsbok med Aspos
 - [Gratis support](https://forum.aspose.com/)
 - [Tillfällig licens](https://purchase.aspose.com/temporary-license/)
 
+### [Skapa ny arbetsbok i Java – Steg‑för‑steg‑guide](./create-new-workbook-in-java-step-by-step-guide/)
+Lär dig hur du skapar en ny Excel-arbetsbok i Java med Aspose.Cells steg för steg.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

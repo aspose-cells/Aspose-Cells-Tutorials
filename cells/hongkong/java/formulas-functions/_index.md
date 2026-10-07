@@ -87,6 +87,8 @@ Aspose.Words Java 程式碼教程
 了解如何在 Java 中使用 Aspose.Cells 透過 Lambda 表達式實作 Reduce 函數，以簡化 Excel 資料彙總與計算。
 ### [在 Java Excel 工作簿中使用 SEQUENCE – 步驟指南](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
 了解如何在 Aspose.Cells for Java 中使用 SEQUENCE 函數建立動態序列，並將其應用於 Excel 工作簿。
+### [如何在 Java 中使用 WRAPCOLS – 完整的 Excel WRAPCOLS 範例](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+了解如何在 Aspose.Cells for Java 中使用 WRAPCOLS 函數，完整示範 Excel 中的列換行操作。
 
 ## 其他資源
 

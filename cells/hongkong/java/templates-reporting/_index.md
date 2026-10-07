@@ -52,6 +52,8 @@
 
 ### [Aspose Cells 智慧標記：載入 Excel 範本並從範本產生 Excel](./aspose-cells-smart-markers-load-excel-template-generate-exce/)
 了解如何使用 Aspose.Cells 智慧標記載入 Excel 範本，並自動生成新的 Excel 報告。
+### [建立工作簿 SmartMarker – 填寫 Excel 工作簿](./create-workbook-smartmarker-populate-excel-workbook/)
+了解如何使用 SmartMarker 在 Excel 工作簿中動態填充資料，實作高效報表生成。
 
 ## 其他資源
 

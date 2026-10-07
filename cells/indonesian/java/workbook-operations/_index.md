@@ -221,7 +221,7 @@ Tutorial kode untuk Aspose.Words Java
 ### [Membuat dan Menyesuaikan Buku Kerja Excel Menggunakan Aspose.Cells Java: Panduan Langkah demi Langkah](./create-customize-excel-workbooks-aspose-cells-java/)
 Pelajari cara mengotomatiskan pembuatan dan penyesuaian buku kerja Excel dengan Aspose.Cells Java. Tingkatkan produktivitas dengan menguasai operasi buku kerja.
 
-### [Cara Membuat dan Menggabungkan Buku Kerja Excel Menggunakan Aspose.Cells untuk Java | Panduan Lengkap](./create-merge-excel-workbooks-aspose-cells-java/)
+### [Membuat dan Menggabungkan Buku Kerja Excel Menggunakan Aspose.Cells untuk Java | Panduan Lengkap](./create-merge-excel-workbooks-aspose-cells-java/)
 Pelajari cara membuat dan menggabungkan buku kerja Excel secara efisien menggunakan Aspose.Cells untuk Java dengan panduan lengkap ini. Sederhanakan operasi buku kerja Anda hari ini.
 
 ### [Panduan Membuat dan Menyimpan Buku Kerja Excel Menggunakan Aspose.Cells di Java](./create-save-excel-workbook-aspose-cells-java/)
@@ -485,6 +485,8 @@ Pelajari cara mengatur dan mengelola properti dokumen seperti pembuatan versi da
 ### [Membuat Buku Kerja Excel Java – Panduan Lengkap Langkah demi Langkah](./create-excel-workbook-java-complete-step-by-step-guide/)
 Panduan lengkap membuat buku kerja Excel di Java menggunakan Aspose.Cells, dengan contoh kode langkah demi langkah.
 
+### [Membuat Buku Kerja Baru di Java – Panduan Langkah demi Langkah](./create-new-workbook-in-java-step-by-step-guide/)
+Panduan langkah demi langkah untuk membuat buku kerja Excel baru menggunakan Aspose.Cells untuk Java.
 
 ### [Cara Menambahkan Properti Kustom di Excel (Java) – Mengambil Nilai & Menyimpan sebagai XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
 Pelajari cara menambahkan properti kustom ke file Excel menggunakan Aspose.Cells untuk Java, mengambil nilainya, dan menyimpan sebagai file XLSB.
