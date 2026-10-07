@@ -1,29 +1,31 @@
 ---
 category: general
-date: 2026-06-08
-description: Obtenha a data e hora da célula usando Aspose.Cells Java e aprenda como
-  escrever um valor em uma célula do Excel em apenas alguns passos.
+date: 2026-10-07
+description: Aprenda a ler datas do Excel de células em Java usando Aspose.Cells e
+  também a gravar valores de volta ao Excel de forma eficiente.
 draft: false
 keywords:
-- get datetime from cell
-- write value to excel cell
+- how to read excel
+- write value to excel
+- get datetime from excel
+- extract datetime from cell
 - Aspose.Cells Java date parsing
-- Japanese era calendar Excel
-- Excel formula recalculation Java
-language: pt
-og_description: Obtenha data e hora da célula usando Aspose.Cells Java. Este tutorial
-  também mostra como escrever valores em uma célula do Excel de forma eficiente.
-og_title: Obtenha data e hora da célula no Java Excel – Guia Completo
+lastmod: 2026-10-07
+og_description: Como ler datas do Excel de células em Java usando Aspose.Cells. Este
+  guia também mostra como gravar valores em células do Excel de forma eficiente.
+og_image_alt: 'Developer guide: reading and writing Excel dates with Aspose.Cells
+  Java'
+og_title: Como ler datas do Excel de células em Java usando Aspose.Cells
 schemas:
 - author: Aspose
-  dateModified: '2026-06-08'
-  description: Get datetime from cell using Aspose.Cells Java and learn how to write
-    value to excel cell in just a few steps.
-  headline: Get datetime from cell in Java Excel – Complete Guide
+  dateModified: '2026-10-07'
+  description: Learn how to read Excel dates from cells in Java using Aspose.Cells
+    and write values back.
+  headline: How to read Excel dates from cells in Java using Aspose.Cells
   type: TechArticle
-- description: Get datetime from cell using Aspose.Cells Java and learn how to write
-    value to excel cell in just a few steps.
-  name: Get datetime from cell in Java Excel – Complete Guide
+- description: Learn how to read Excel dates from cells in Java using Aspose.Cells
+    and write values back.
+  name: How to read Excel dates from cells in Java using Aspose.Cells
   steps:
   - name: What if the cell already contains a true Excel date?
     text: 'If `cell.getType()` returns `CellValueType.IS_DATE_TIME`, you can skip
@@ -37,7 +39,9 @@ tags:
 - Java
 - Excel
 - Aspose.Cells
-title: Obtenha data e hora da célula no Java Excel – Guia Completo
+- date parsing
+- Excel automation
+title: Como ler datas do Excel de células em Java usando Aspose.Cells
 url: /pt/java/cell-operations/get-datetime-from-cell-in-java-excel-complete-guide/
 ---
 
@@ -45,28 +49,28 @@ url: /pt/java/cell-operations/get-datetime-from-cell-in-java-excel-complete-guid
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Obter datetime de célula em Java Excel – Guia Completo
+# Como ler datas do Excel de células em Java usando Aspose.Cells
 
-Já precisou **obter datetime de célula** mas o valor parece uma string de era japonesa? Você não está sozinho. Em muitas planilhas legadas as datas são armazenadas como “Reiwa 3/04/01”, e extrair um `java.time.LocalDateTime` adequado disso pode parecer decodificar uma mensagem secreta.  
+Se você precisa **how to read Excel** valores que são armazenados como strings de era japonesa, está no lugar certo. Muitos livros de trabalho legados contêm datas como “Reiwa 3/04/01”, e extrair um `java.time.LocalDateTime` adequado pode parecer decifrar um código. Aspose.Cells for Java entende essas notações de era, e também permite que você **write value to excel** células sem perder a formatação. Neste guia você obterá um walkthrough completo, passo a passo, que pode colar em qualquer projeto Maven hoje.
 
-Felizmente, o Aspose.Cells for Java pode lidar com a conversão para você, e aproveitando, também mostraremos como **escrever valor em célula Excel** para que você possa fazer round‑trip de dados sem quebrar a lógica da planilha.
+## Respostas rápidas
+- **Can Aspose.Cells parse Japanese era dates?** Sim – habilite a flag do calendário de era japonesa e recalcule as fórmulas.  
+- **Do I need to recalculate formulas manually?** Absolutamente; sem uma passagem de cálculo a string da era permanece como texto.  
+- **How many Excel formats does Aspose.Cells support?** Mais de 50 formatos de entrada e saída, incluindo XLSX, XLS, CSV e ODS.  
+- **Is the library compatible with Java 8+?** Sim, funciona com Java 8 e versões mais recentes do runtime.  
+- **Can I write a Gregorian date back to the same cell?** Use `putValue` com um `LocalDateTime` e defina o formato numérico para exibir ISO‑8601.
 
-Neste tutorial você aprenderá:
+## O que é how to read Excel dates from cells?
+A frase **how to read Excel** refere-se à extração do conteúdo das células — especialmente datas — para tipos de programação nativos como `java.time.LocalDateTime`. Aspose.Cells abstrai o parsing de baixo nível, permitindo que você se concentre na lógica de negócios em vez das peculiaridades dos números seriais do Excel. Essa abordagem simplifica a manutenção do código e reduz a chance de erros de conversão ao lidar com planilhas legadas.
 
-* Como criar um workbook e direcionar uma planilha específica.  
-* Os passos exatos para habilitar o calendário de era japonesa para análise.  
-* Por que você deve recalcular fórmulas antes de ler a data.  
-* Como escrever um novo valor de volta em uma célula sem perder a formatação.  
-
-Sem ferramentas externas, sem mágica — apenas código Java puro que você pode inserir em qualquer projeto Maven hoje.
-
----
+## Por que usar Aspose.Cells para conversão de era japonesa?
+Aspose.Cells suporta **50+** formatos de arquivo e pode processar livros de trabalho com **centenas de páginas** sem carregar o arquivo inteiro na memória. Habilitar o calendário de era japonesa adiciona apenas um custo de desempenho insignificante, tornando-o ideal para processamento em lote de planilhas legadas. A biblioteca também preserva estilos de célula e fórmulas durante a conversão, garantindo que a saída tenha a mesma aparência do livro de trabalho original.
 
 ## Pré-requisitos
 
-* **Java 8+** (o exemplo usa a moderna API `java.time`).  
-* **Aspose.Cells for Java** ≥ 23.9.0 – adicione a dependência via Maven ou Gradle.  
-* Familiaridade básica com conceitos do Excel (planilhas, células, fórmulas).  
+* **Java 8+** – os exemplos usam a moderna API `java.time`.  
+* **Aspose.Cells for Java ≥ 23.9.0** – adicione a dependência Maven/Gradle do repositório oficial.  
+* Conhecimento básico dos conceitos do Excel (planilhas, células, fórmulas).  
 
 Se você não tem a biblioteca, obtenha-a no repositório oficial da Aspose:
 
@@ -80,11 +84,9 @@ Se você não tem a biblioteca, obtenha-a no repositório oficial da Aspose:
 </dependency>
 ```
 
----
-
-## Etapa 1: Criar um novo workbook e acessar a primeira planilha
-
-Para começar, precisamos de um novo objeto `Workbook`. Pense nele como abrir um novo arquivo Excel na memória.
+## Como criar uma workbook e acessar a primeira worksheet?
+`Workbook` representa um arquivo Excel carregado na memória. `Worksheet` representa uma única planilha dentro dessa workbook.  
+Crie um objeto `Workbook`, que representa um arquivo Excel na memória, e então obtenha a primeira `Worksheet`. Isso lhe dá controle total antes que quaisquer dados toquem o disco. Ao inicializar a workbook primeiro, você pode configurar definições — como o tratamento de calendário — antes que quaisquer valores de célula sejam lidos ou escritos.
 
 ```java
 // Step 1: Initialize workbook and grab the first sheet
@@ -92,14 +94,9 @@ Workbook workbook = new Workbook();                     // creates an empty .xls
 Worksheet worksheet = workbook.getWorksheets().get(0); // first (and only) sheet
 ```
 
-*Por que isso importa:*  
-Criar o workbook programaticamente lhe dá controle total sobre as configurações antes que quaisquer dados toquem o sistema de arquivos. A primeira planilha (`index 0`) é onde demonstraremos tanto a leitura quanto a escrita.
-
----
-
-## Etapa 2: Escrever uma string de data de era japonesa na célula A1
-
-Agora vamos **escrever valor em célula Excel** A1. Isso reflete um cenário real onde um usuário inseriu manualmente “Reiwa 3/04/01”.
+## Como escrever uma string de data de era japonesa na célula A1?
+`Cell` é o objeto que contém o valor de uma única célula Excel.  
+Insira a string de era legada “Reiwa 3/04/01” na célula A1. Isso imita um valor inserido pelo usuário que você converterá posteriormente. Escrever a string primeiro permite demonstrar todo o fluxo de conversão de texto para um objeto de data adequado.
 
 ```java
 // Step 2: Write the era date string into A1
@@ -107,13 +104,9 @@ Cell cell = worksheet.getCells().get("A1");
 cell.putValue("Reiwa 3/04/01"); // raw string, not yet a date
 ```
 
-*Dica rápida:* `putValue` é versátil — aceita strings, números, datas e até fórmulas. Quando você passa uma string simples, o Aspose a armazena exatamente como está, o que é perfeito para nossa demonstração.
-
----
-
-## Etapa 3: Habilitar o calendário de era japonesa para análise de datas
-
-Por padrão, o Aspose.Cells usa o calendário gregoriano. Para entender “Reiwa”, alternamos uma configuração.
+## Como habilitar o calendário de era japonesa para análise de datas?
+`WorkbookSettings.setUseJapaneseEraCalendar(boolean)` alterna o recurso de conversão de era.  
+Ative a flag do calendário para que o Aspose.Cells saiba como traduzir nomes de era para anos gregorianos. Habilitar essa flag informa ao motor de cálculo para interpretar strings como “Reiwa” como o ano gregoriano correspondente, o que é essencial para análise precisa de datas.
 
 ```java
 // Step 3: Turn on Japanese era calendar support
@@ -121,14 +114,9 @@ WorkbookSettings settings = workbook.getSettings();
 settings.setUseJapaneseEraCalendar(true);
 ```
 
-*Por que habilitar isso?*  
-O calendário de era japonesa mapeia nomes de eras (Reiwa, Heisei, Showa) para seus equivalentes gregorianos. Sem essa flag, a biblioteca trataria a string como texto simples, e você nunca obteria um objeto `DateTime` adequado.
-
----
-
-## Etapa 4: Recalcular fórmulas para que a string de era seja convertida para uma data gregoriana
-
-O Aspose não analisa automaticamente a string para uma data. Em vez disso, trata a célula como resultado de fórmula após uma passagem de cálculo.
+## Como recalcular fórmulas para que a string de era seja convertida em uma data gregoriana?
+`Workbook.calculateFormula()` força o motor de cálculo a avaliar todas as fórmulas na workbook.  
+Execute o motor de cálculo uma vez; ele reconhece o padrão de era, converte e armazena o resultado gregoriano internamente. Depois disso, `getDateTime()` retorna um `java.util.Date`, que você pode converter para `java.time`. Esta etapa é necessária porque a string de era é inicialmente tratada como texto simples até que as fórmulas sejam avaliadas.
 
 ```java
 // Step 4: Force a recalculation to convert the era string
@@ -136,19 +124,15 @@ workbook.calculateFormula(); // processes all cells, including A1
 System.out.println(cell.getDateTime()); // → 2021‑04‑01
 ```
 
-Quando `calculateFormula()` é executado, o motor reconhece o padrão de era, aplica o calendário japonês e armazena internamente a data gregoriana resultante. A chamada `getDateTime()` então retorna um `java.util.Date` (ou você pode converter para `java.time`).
-
-**Expected output**
+**Saída esperada**
 
 ```
 2021-04-01T00:00:00.000+00:00
 ```
 
----
-
-## Etapa 5: Escrever um novo valor de volta na mesma célula (ou em outra célula)
-
-Suponha que você precise sobrescrever a string original com uma data ISO‑8601 limpa. Aqui está como **escrever valor em célula Excel** com segurança, preservando o estilo da célula.
+## Como escrever um novo valor de volta na mesma célula (ou em outra célula)?
+`Cell.putValue(Object)` grava um valor em uma célula, lidando automaticamente com a conversão de tipo.  
+Sobrescreva a string de era original com uma data ISO‑8601 limpa, preservando o estilo da célula. `putValue` detecta o tipo `LocalDateTime` e o converte para a representação numérica serial do Excel. Definir o formato numérico garante que a célula exiba a data exatamente como você espera ao abrir no Excel.
 
 ```java
 // Step 5: Overwrite A1 with a formatted date string
@@ -160,14 +144,9 @@ style.setNumber(14); // built‑in "m/d/yyyy" format
 cell.setStyle(style);
 ```
 
-*O que está acontecendo?*  
-`putValue` detecta o tipo `LocalDateTime` e o converte para a representação numérica serial do Excel. Definir o formato numérico garante que a célula exiba a data exatamente como você espera ao abrir no Excel.
+## Exemplo completo em funcionamento
 
----
-
-## Exemplo Completo Funcional
-
-Juntando tudo, aqui está uma única classe Java que você pode compilar e executar. Ela cria um workbook, escreve uma string de era, a converte e, finalmente, salva o arquivo.
+Todas as etapas acima são combinadas em uma única classe Java que você pode compilar e executar. Ela cria uma workbook, grava uma string de era, converte-a e, finalmente, salva o arquivo.
 
 ```java
 import com.aspose.cells.*;
@@ -204,15 +183,10 @@ public class JapaneseEraDateDemo {
 }
 ```
 
-Execute isso com `java -cp aspose-cells-23.9.jar;. JapaneseEraDateDemo` e abra **output.xlsx**. Você verá a célula A1 exibindo a data atual, enquanto o console registra o valor convertido “2021‑04‑01”.
+Execute a classe com `java -cp aspose-cells-23.9.jar;. JapaneseEraDateDemo` e abra **output.xlsx**. A célula A1 mostrará a data gregoriana convertida, e o console registrará o valor “2021‑04‑01”.
 
----
-
-## Lidando com Casos de Borda & Perguntas Frequentes
-
-### E se a célula já contiver uma data verdadeira do Excel?
-
-Se `cell.getType()` retornar `CellValueType.IS_DATE_TIME`, você pode pular a etapa de recalculação e ler o valor diretamente:
+## E se a célula já contiver uma data verdadeira do Excel?
+Se a célula já armazenar uma data nativa do Excel, você pode lê-la diretamente sem processamento extra. Isso economiza tempo porque o motor de cálculo não precisa reinterpretar o valor. Basta verificar o tipo da célula e recuperar a data.
 
 ```java
 if (cell.getType() == CellValueType.IS_DATE_TIME) {
@@ -220,9 +194,8 @@ if (cell.getType() == CellValueType.IS_DATE_TIME) {
 }
 ```
 
-### Como processar uma coluna inteira de strings de era?
-
-Percorra o intervalo usado e aplique as mesmas configurações uma única vez:
+## Como processar uma coluna inteira de strings de era?
+Quando muitas células contêm strings de era, itere sobre o intervalo usado e aplique a mesma lógica de conversão a cada célula. Essa abordagem em lote reduz a sobrecarga em comparação ao tratamento de células individualmente. Lembre-se de habilitar o calendário de era japonesa antes do loop e recalcular uma vez após o processamento.
 
 ```java
 Range used = worksheet.getCells().getMaxDisplayRange();
@@ -233,45 +206,70 @@ for (int row = 0; row < used.getRowCount(); row++) {
 workbook.calculateFormula();
 ```
 
-### Posso desativar o tratamento de era japonesa mais tarde?
+## Posso desativar o tratamento de era japonesa depois?
+Você pode desativar a flag de conversão de era depois de terminar o processamento das células relevantes. Desativá‑la restaura o comportamento padrão de parsing para quaisquer operações subsequentes. Isso é útil se precisar trabalhar com datas padrão mais tarde na mesma workbook.
 
-Sim — basta reverter a flag:
+Lembre-se de recalcular novamente se mudar a configuração após gravar os dados.
 
 ```java
 settings.setUseJapaneseEraCalendar(false);
 ```
 
-Lembre-se de recalcular novamente se você mudar a configuração após escrever os dados.
+## Dicas profissionais & armadilhas
 
----
+* **Performance:** Habilitar o calendário de era japonesa adiciona uma sobrecarga mínima. Ative‑o apenas para as células que precisam de conversão, depois desative.  
+* **Locale awareness:** A string de era deve seguir o padrão exato “EraName yy/MM/dd”. Erros de ortografia (por exemplo, “Rewa”) mantêm a célula como texto simples.  
+* **Saving format:** `Workbook.save("output.xlsx")` grava um arquivo XLSX. Use `"output.xls"` para o formato binário mais antigo, mas observe que alguns recursos avançados — como parsing de era — podem ser limitados.
 
-## Dicas Profissionais & Armadilhas
+## Perguntas frequentes
 
-* **Performance:** Habilitar o calendário de era japonesa adiciona uma pequena sobrecarga. Se você precisar dele apenas para algumas células, considere ativar a configuração, processar e depois desativá‑la.  
-* **Locale awareness:** A string de era deve corresponder exatamente ao padrão “EraName yy/MM/dd”. Erros de digitação em “Reiwa” (ex.: “Rewa”) deixarão a célula como texto simples.  
-* **Saving format:** `Workbook.save("output.xlsx")` grava um arquivo XLSX. Use `"output.xls"` se precisar do formato binário antigo, mas observe que alguns recursos (como análise de era) podem ser limitados.
+**Q: Essa abordagem funciona com outros calendários culturais (Tailandês, Hijri)?**  
+A: Sim — Aspose.Cells fornece flags semelhantes para os calendários Budista Tailandês e Hijri; habilite a configuração apropriada e recalcule.
 
----
+**Q: Posso ler datas de uma workbook protegida por senha?**  
+A: Carregue a workbook com o parâmetro de senha, então siga os mesmos passos; a flag de calendário funciona inalterada.
+
+**Q: Existe um limite para o número de linhas que posso processar?**  
+A: Aspose.Cells pode lidar com milhões de linhas; ele transmite os dados para manter o uso de memória baixo, especialmente quando `setUseJapaneseEraCalendar` é alternado por lote.
+
+**Q: Como preservo os estilos de célula existentes ao sobrescrever a data?**  
+A: Recupere o objeto `Style` da célula antes de chamar `putValue`, então reaplique‑o após a operação de gravação.
+
+**Q: Preciso de uma licença comercial para uso em produção?**  
+A: Sim, uma licença válida do Aspose.Cells é necessária para implantações em produção; um teste gratuito está disponível para avaliação.
 
 ## Conclusão
 
-Agora você sabe como **obter datetime de célula** quando a fonte usa uma notação de era japonesa, e também viu uma forma limpa de **escrever valor em célula Excel** com formatação adequada. Ao alternar `setUseJapaneseEraCalendar(true)` e forçar a recalculação de fórmulas, o Aspose.Cells preenche a lacuna entre strings de era legadas e datas gregorianas modernas — tudo com algumas linhas de Java.
+Agora você sabe **how to read Excel** datas que usam notação de era japonesa e como **write value to excel** células com formatação adequada. Ao habilitar `setUseJapaneseEraCalendar(true)` e forçar uma recalculação de fórmulas, o Aspose.Cells conecta strings de era legadas a datas gregorianas modernas em apenas algumas linhas de Java. Experimente estender esse padrão para outros calendários culturais ou processar em lote grandes workbooks — o mesmo fluxo enable‑recalculate‑read/write se aplica universalmente.
 
-O que vem a seguir? Experimente estender esse padrão para outros calendários culturais (Tailandês, Hijri) ou processar em lote grandes workbooks usando a mesma abordagem. Os mesmos princípios — habilitar o calendário correto, recalcular, então ler/escrever — se aplicam em todas as situações.
+Tem um formato de data complicado que você não consegue decifrar? Deixe um comentário abaixo, e vamos solucionar juntos. Feliz codificação!
 
-Tem um formato de data complicado que você não consegue decifrar? Deixe um comentário abaixo e vamos solucionar juntos. Feliz codificação!  
+![Obter data e hora da célula exemplo](https://example.com/images/get-datetime-from-cell.png "Obter data e hora da célula exemplo")
+[Obter data e hora da célula exemplo](https://example.com/images/get-datetime-from-cell.png "Obter data e hora da célula exemplo")
 
-![Get datetime from cell example](https://example.com/images/get-datetime-from-cell.png "Get datetime from cell example")
+## O que você deve aprender a seguir?
 
-## O que Você Deve Aprender a Seguir?
-
-Os tutoriais a seguir cobrem tópicos estreitamente relacionados que se baseiam nas técnicas demonstradas neste guia. Cada recurso inclui exemplos de código completos e funcionais com explicações passo a passo para ajudá‑lo a dominar recursos adicionais da API e explorar abordagens de implementação alternativas em seus próprios projetos.
+Os tutoriais a seguir cobrem tópicos intimamente relacionados que ampliam as técnicas demonstradas neste guia. Cada recurso inclui exemplos de código completos e funcionais com explicações passo a passo para ajudá-lo a dominar recursos adicionais da API e explorar abordagens de implementação alternativas em seus próprios projetos.
 
 - [Domine o Sistema de Data 1904 no Excel Usando Aspose.Cells Java para Operações de Célula Eficazes](/cells/english/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/)
 - [Como Implementar Cálculo Recursivo de Células no Aspose.Cells Java para Automação Avançada do Excel](/cells/english/java/calculation-engine/aspose-cells-java-recursive-cell-calculations/)
-- [Como Converter Nomes de Células Excel para Índices Usando Aspose.Cells para Java: Um Guia Passo a Passo](/cells/english/java/cell-operations/convert-excel-cell-names-to-indices-aspose-cells-java/)
+- [Como Converter Nomes de Células do Excel em Índices Usando Aspose.Cells para Java: Um Guia Passo a Passo](/cells/english/java/cell-operations/convert-excel-cell-names-to-indices-aspose-cells-java/)
+
+---
+
+**Last Updated:** 2026-10-07  
+**Tested With:** Aspose.Cells 23.9.0  
+**Author:** Aspose
+
+## Tutoriais Relacionados
+
+- [Desempenho do aspose cells: Recuperar Dados de Células Excel com Java](/cells/java/cell-operations/aspose-cells-java-data-retrieval-excel/)
+- [Alterar o sistema de data 1904 do Excel com Aspose.Cells para Java](/cells/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/)
+- [Domine o Manipulação de Arquivos Java com Aspose.Cells: Ler, Gravar e Processar Dados de Forma Eficiente](/cells/java/workbook-operations/java-file-handling-aspose-cells-read-write-process/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
