@@ -71,6 +71,8 @@ Learn how to load JSON files in Java and convert them to Excel using Aspose.Cell
 Learn how to create Excel files in Java with row styling and export to XLSX using Aspose.Cells. Step-by-step guide with source code.
 ### [How to Embed Fonts in HTML from Excel Workbook – Java](./how-to-embed-fonts-in-html-from-excel-workbook-java/)
 Learn how to embed fonts in HTML generated from an Excel workbook using Aspose.Cells for Java. Step-by-step guide with code examples.
+### [How to load JSON into Excel with Aspose.Cells for Java](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+Learn how to import JSON data into Excel worksheets using Aspose.Cells for Java with a step-by-step guide and sample code.
 ### [Flat OPC Tutorial Aspose: Load Excel Workbook in Java](./flat-opc-tutorial-aspose-load-excel-workbook-in-java/)
 Learn how to load an Excel workbook using Flat OPC format with Aspose.Cells for Java. Step-by-step guide with sample code.
 ### [Convert Excel to Word – Complete Java Guide (2026)](./convert-excel-to-word-complete-java-guide-2026/)

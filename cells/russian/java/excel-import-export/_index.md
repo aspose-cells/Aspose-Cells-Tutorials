@@ -68,6 +68,8 @@
 Узнайте, как экспортировать файлы Excel в формат SVG с помощью Aspose.Cells для Java. Пошаговое руководство с примером кода.
 ### [Загрузка JSON-файла в Java – Полное руководство по конвертации JSON в Excel](./load-json-file-java-full-guide-to-convert-json-to-excel/)
 Узнайте, как загрузить JSON в Java и преобразовать его в Excel с помощью Aspose.Cells, следуя пошаговым инструкциям.
+### [Как загрузить JSON в Excel с Aspose.Cells для Java](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+Узнайте, как загрузить данные из JSON в Excel с помощью Aspose.Cells для Java. Пошаговое руководство с примером кода.
 ### [Создание Excel файла Java – Полное руководство со стилизацией строк и экспортом в XLSX](./create-excel-file-java-full-guide-with-row-styling-and-xlsx/)
 Узнайте, как создать файл Excel в Java, применить стили к строкам и экспортировать в формат XLSX с помощью Aspose.Cells.
 ### [Как экспортировать Excel: пошаговое руководство по конвертации в CSV](./how-to-export-excel-step-by-step-guide-to-csv-conversion/)

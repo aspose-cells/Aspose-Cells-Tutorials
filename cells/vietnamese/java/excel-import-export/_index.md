@@ -81,6 +81,8 @@ Hướng dẫn chi tiết cách chuyển đổi tệp XLSX sang CSV trong Java b
 Khám phá cách chuyển đổi Excel sang Word bằng Aspose.Cells for Java với hướng dẫn chi tiết và mã nguồn mẫu năm 2026.
 ### [Cách nhúng phông chữ trong chuyển đổi Excel sang SVG](./how-to-embed-fonts-in-excel-to-svg-conversion/)
 Hướng dẫn chi tiết cách nhúng phông chữ vào tệp SVG khi chuyển đổi từ Excel bằng Aspose.Cells for Java.
+### [Cách tải JSON vào Excel bằng Aspose.Cells cho Java](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+Hướng dẫn chi tiết cách tải dữ liệu JSON vào tệp Excel bằng Aspose.Cells cho Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -96,6 +96,9 @@
 ### [如何在 Excel 转 SVG 转换中嵌入字体](./how-to-embed-fonts-in-excel-to-svg-conversion/)
 学习如何在使用 Aspose.Cells for Java 将 Excel 转换为 SVG 时嵌入自定义字体，确保输出保持原始字体样式。
 
+### [如何使用 Aspose.Cells for Java 将 JSON 加载到 Excel](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+学习如何使用 Aspose.Cells for Java 将 JSON 数据加载并转换为 Excel 工作簿，包含完整代码示例。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

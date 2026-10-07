@@ -81,6 +81,8 @@ Kompletní návod, jak převést soubory XLSX na CSV v Javě pomocí Aspose.Cell
 Naučte se, jak převést soubory Excel do Wordu pomocí Aspose.Cells pro Javu v tomto kompletním průvodci (2026).
 ### [Jak vložit písma při konverzi Excelu do SVG](./how-to-embed-fonts-in-excel-to-svg-conversion/)
 Naučte se, jak vložit písma při konverzi souborů Excel do SVG pomocí Aspose.Cells pro Javu.
+### [Jak načíst JSON do Excelu pomocí Aspose.Cells pro Javu](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+Naučte se, jak načíst soubory JSON do Excelu pomocí Aspose.Cells pro Javu s podrobným ukázkovým kódem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

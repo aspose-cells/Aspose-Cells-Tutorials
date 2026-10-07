@@ -65,6 +65,8 @@ Pelajari cara mengekspor workbook Excel ke HTML dengan menyematkan semua font me
 Pelajari cara mengonversi file Markdown menjadi workbook Excel dengan Aspose.Cells dalam panduan langkah demi langkah lengkap.
 ### [Memuat File JSON Java – Panduan Lengkap Mengonversi JSON ke Excel](./load-json-file-java-full-guide-to-convert-json-to-excel/)
 Pelajari cara memuat file JSON dan mengonversinya menjadi Excel menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan contoh kode.
+### [Cara Memuat JSON ke Excel dengan Aspose.Cells untuk Java](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+Pelajari cara memuat data JSON ke dalam workbook Excel menggunakan Aspose.Cells untuk Java dengan contoh kode langkah demi langkah.
 ### [Buat File Excel Java – Panduan Lengkap dengan Styling Baris dan Ekspor XLSX](./create-excel-file-java-full-guide-with-row-styling-and-xlsx/)
 Pelajari cara membuat file Excel di Java dengan styling baris dan mengekspor ke format XLSX menggunakan Aspose.Cells.
 ### [Cara Mengekspor Excel ke SVG – Panduan Java Lengkap](./how-to-export-excel-to-svg-complete-java-guide/)

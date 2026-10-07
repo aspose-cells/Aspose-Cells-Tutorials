@@ -64,6 +64,8 @@ Aspose.Cells를 활용해 Markdown 파일을 Excel 형식으로 변환하는 방
 Aspose.Cells for Java를 사용해 Excel 파일을 SVG로 변환하는 방법을 단계별로 안내합니다.
 ### [JSON 파일 로드 Java – JSON을 Excel로 변환하는 전체 가이드](./load-json-file-java-full-guide-to-convert-json-to-excel/)
 Aspose.Cells for Java를 사용하여 JSON 파일을 로드하고 Excel로 변환하는 방법을 단계별로 안내합니다.
+### [Aspose.Cells for Java로 JSON을 Excel에 로드하는 방법](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+
 ### [Java로 Excel 파일 만들기 – 행 스타일링 및 XLSX 내보내기 전체 가이드](./create-excel-file-java-full-guide-with-row-styling-and-xlsx/)
 Aspose.Cells for Java를 사용해 행 스타일을 적용하고 XLSX 형식으로 내보내는 Excel 파일 생성 방법을 단계별로 안내합니다.
 ### [Excel 내보내기 방법: CSV 변환 단계별 가이드](./how-to-export-excel-step-by-step-guide-to-csv-conversion/)

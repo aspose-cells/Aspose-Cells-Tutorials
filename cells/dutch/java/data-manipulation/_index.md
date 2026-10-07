@@ -62,6 +62,9 @@ Leer hoe u Excel-sheets efficiënt kunt vullen met geneste gegevens met Aspose.C
 ### [Regex-vervanging uitvoeren in Excel met Aspose.Cells voor Java: een uitgebreide handleiding](./regex-replacement-excel-aspose-cells-java-guide/)
 Leer hoe u tekstvervangingen in Excel-bestanden kunt automatiseren met behulp van regex met Aspose.Cells voor Java. Deze stapsgewijze handleiding behandelt initialisatie, configuratie en praktische toepassingen.
 
+### [Kolommen splitsen in Java met Aspose.Cells – stapsgewijze handleiding](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
+Leer hoe u kolommen in Excel-sheets kunt splitsen met Aspose.Cells voor Java, stap voor stap met voorbeeldcode.
+
 
 
 ## Aanvullende bronnen

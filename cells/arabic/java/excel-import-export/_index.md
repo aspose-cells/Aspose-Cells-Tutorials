@@ -83,6 +83,8 @@
 تعلم كيفية تضمين الخطوط عند تحويل ملفات Excel إلى SVG باستخدام Aspose.Cells لجافا لضمان جودة الرسومات.
 ### [تحويل ملف Excel إلى HTML – دليل شامل مع تضمين الخطوط](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
 تعلم كيفية تحويل ملفات Excel إلى HTML مع تضمين الخطوط لضمان عرض صحيح للرسومات والنصوص في دليل خطوة بخطوة.
+### [كيفية تحميل JSON إلى Excel باستخدام Aspose.Cells لجافا](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+تعرف على طريقة تحميل ملفات JSON وتحويلها إلى جداول Excel باستخدام Aspose.Cells لجافا خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

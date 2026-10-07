@@ -48,6 +48,8 @@ Pelajari cara menyalin Tabel Pivot di Aspose.Cells untuk Java, mempertahankan fo
 Pelajari cara menyalin Tabel Pivot di Excel menggunakan Aspose.Cells untuk Java dengan contoh kode lengkap.
 ### [Buat PNG dari Pivot di Java – Panduan Langkah demi Langkah Lengkap](./create-png-from-pivot-in-java-full-step-by-step-guide/)
 Pelajari cara mengekspor Tabel Pivot menjadi gambar PNG menggunakan Aspose.Cells untuk Java dengan panduan lengkap langkah demi langkah.
+### [Cara menggandakan tabel pivot di Excel dengan Java – panduan langkah demi langkah](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
+Pelajari cara menggandakan tabel pivot di Excel menggunakan Aspose.Cells untuk Java dengan panduan lengkap langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

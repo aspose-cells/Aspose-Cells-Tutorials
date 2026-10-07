@@ -81,6 +81,8 @@ Scopri come esportare file XLSX in CSV utilizzando Aspose.Cells per Java. Guida 
 Scopri come convertire file Excel in documenti Word con Aspose.Cells per Java. Guida completa con esempi di codice per una conversione fluida.
 ### [Come incorporare i font nella conversione da Excel a SVG](./how-to-embed-fonts-in-excel-to-svg-conversion/)
 Scopri come incorporare i font durante la conversione di file Excel in SVG usando Aspose.Cells per Java.
+### [Come caricare JSON in Excel con Aspose.Cells per Java](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+Scopri come caricare file JSON in Excel utilizzando Aspose.Cells per Java. Guida passo passo con esempi di codice.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

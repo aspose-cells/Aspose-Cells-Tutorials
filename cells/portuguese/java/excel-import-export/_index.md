@@ -67,6 +67,8 @@ Aprenda a converter arquivos Markdown em planilhas Excel usando Aspose.Cells. Gu
 Aprenda a incorporar fontes em HTML a partir de uma pasta de trabalho Excel usando Aspose.Cells para Java. Guia passo a passo com código-fonte.
 ### [Carregar Arquivo JSON Java – Guia Completo para Converter JSON em Excel](./load-json-file-java-full-guide-to-convert-json-to-excel/)
 Aprenda a carregar arquivos JSON em Java e convertê-los para Excel usando Aspose.Cells, com exemplos de código passo a passo.
+### [Como carregar JSON no Excel com Aspose.Cells para Java](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+Aprenda a importar dados JSON para planilhas Excel usando Aspose.Cells para Java com exemplos de código passo a passo.
 ### [Criar Arquivo Excel Java – Guia Completo com Estilização de Linhas e Exportação XLSX](./create-excel-file-java-full-guide-with-row-styling-and-xlsx/)
 Aprenda a criar arquivos Excel em Java usando Aspose.Cells, aplicando estilos de linha e exportando para XLSX neste guia passo a passo.
 ### [Exportar Excel para SVG – Guia Completo em Java](./how-to-export-excel-to-svg-complete-java-guide/)

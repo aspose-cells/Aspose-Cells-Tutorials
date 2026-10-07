@@ -49,6 +49,8 @@
 了解如何使用 Aspose.Cells for Java 將 Excel 資料匯出為 JSON。請按照本逐步指南和原始程式碼進行無縫轉換。
 ### [載入 JSON 檔案（Java） – 完整指南將 JSON 轉換為 Excel](./load-json-file-java-full-guide-to-convert-json-to-excel/)
 了解如何使用 Aspose.Cells for Java 將 JSON 檔案載入並轉換為 Excel 工作表，提供完整範例與步驟說明。
+### [如何將 JSON 載入 Excel（使用 Aspose.Cells for Java）](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+了解如何使用 Aspose.Cells for Java 將 JSON 資料載入 Excel 工作簿，提供逐步說明與原始碼範例。
 ### [將工作簿另存為 XLSX – 從 JSON 產生 XLSX](./save-workbook-as-xlsx-generate-xlsx-from-json/)
 了解如何使用 Aspose.Cells for Java 從 JSON 資料生成 XLSX 工作簿並將其儲存為 XLSX 檔案。
 ### [Excel 導入資料驗證](./excel-import-data-validation/)

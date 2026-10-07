@@ -79,6 +79,8 @@
 ### [Πώς να ενσωματώσετε γραμματοσειρές στη μετατροπή Excel σε SVG](./how-to-embed-fonts-in-excel-to-svg-conversion/)
 ### [Μετατροπή αρχείου Excel σε HTML – Πλήρης Οδηγός με Ενσωμάτωση Γραμματοσειρών](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
 Μάθετε πώς να μετατρέψετε αρχεία Excel σε HTML με ενσωμάτωση γραμματοσειρών χρησιμοποιώντας Aspose.Cells για Java σε πλήρη βήμα-βήμα οδηγό.
+### [Πώς να φορτώσετε JSON σε Excel με Aspose.Cells για Java](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+Μάθετε πώς να φορτώνετε αρχεία JSON σε Excel χρησιμοποιώντας το Aspose.Cells για Java, με βήμα‑βήμα οδηγίες και παραδείγματα κώδικα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

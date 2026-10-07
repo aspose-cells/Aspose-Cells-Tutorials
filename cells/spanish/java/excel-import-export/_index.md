@@ -93,6 +93,9 @@ Aprenda a convertir archivos de Excel a documentos Word con Aspose.Cells para Ja
 ### [Cómo incrustar fuentes en la conversión de Excel a SVG](./how-to-embed-fonts-in-excel-to-svg-conversion/)
 Aprenda a incrustar fuentes al convertir archivos de Excel a SVG con Aspose.Cells para Java. Guía paso a paso con código fuente.
 
+### [Cómo cargar JSON en Excel con Aspose.Cells para Java](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+Aprenda a cargar datos JSON en Excel usando Aspose.Cells para Java. Guía paso a paso con ejemplos de código.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

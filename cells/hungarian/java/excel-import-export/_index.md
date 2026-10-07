@@ -86,6 +86,7 @@ Tanuld meg, hogyan konvertálhatsz Excel-fájlokat Word-dokumentummá Java-ban a
 Ismerd meg, hogyan ágyazhatsz be betűtípusokat az Excel fájlok SVG formátumba konvertálásakor az Aspose.Cells for Java segítségével.
 ### [Excel fájl konvertálása HTML-be – Teljes útmutató betűtípus beágyazással](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
 Tanuld meg, hogyan konvertálj Excel fájlokat HTML-be, miközben beágyazod a betűtípusokat, lépésről lépésre útmutatóval.
+### [Hogyan tölts be JSON-t Excelbe az Aspose.Cells for Java segítségével](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

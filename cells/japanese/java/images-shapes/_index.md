@@ -129,9 +129,8 @@ Aspose.Cells for Java を使用して、Excel シートから空白を削除し�
 Aspose.Words Javaのコードチュートリアル
 
 ### [Aspose.Cells Java を使用して Excel に背景画像を設定する (ステップバイステップ ガイド)](./set-background-picture-excel-aspose-cells-java/)
-Aspose.Cells Javaを使って背景画像を追加し、Excelレポートを魅力的にする方法を学びましょう。このステップバイステップガイドに従って、シームレスに実装しましょう。
 
-
+### [Aspose.Cells を使用して Java で範囲から PNG を作成する方法](./how-to-create-png-from-range-in-java-with-aspose-cells/)
 
 ## 追加リソース
 

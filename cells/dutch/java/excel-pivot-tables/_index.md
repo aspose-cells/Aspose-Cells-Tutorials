@@ -46,6 +46,8 @@ Leer hoe u draaitabelstijlen kunt aanpassen in Aspose.Cells voor Java API. Maak 
 Leer hoe u een draaitabel in Java kopieert met Aspose.Cells. Volledige gids voor eenvoudige duplicatie en bewerking van draaitabellen.
 ### [PNG maken vanuit draaitabel in Java – Volledige stapsgewijze handleiding](./create-png-from-pivot-in-java-full-step-by-step-guide/)
 Leer hoe u met Aspose.Cells voor Java een PNG-afbeelding van een draaitabel genereert, stap voor stap met voorbeeldcode.
+### [Hoe draaitabellen te dupliceren in Excel met Java – stapsgewijze handleiding](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
+Leer hoe u draaitabellen in Excel dupliceert met Aspose.Cells voor Java, stap voor stap met voorbeeldcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

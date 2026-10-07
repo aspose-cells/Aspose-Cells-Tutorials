@@ -48,6 +48,7 @@ Aspose.Cells for Java kullanarak pivot tablosunu kopyalayın, koruyun ve PPTX fo
 Aspose.Cells for Java kullanarak bir pivot tabloyu nasıl kopyalayacağınızı adım adım öğrenin.
 ### [Java'da Pivot'tan PNG Oluşturma – Tam Adım Adım Kılavuz](./create-png-from-pivot-in-java-full-step-by-step-guide/)
 Aspose.Cells for Java kullanarak Pivot Tablo verilerinden PNG görüntüsü oluşturmayı adım adım öğrenin.
+### [Java ile Excel'de Pivot Tabloları Nasıl Çoğaltılır – Adım Adım Kılavuz](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

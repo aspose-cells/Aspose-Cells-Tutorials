@@ -61,6 +61,8 @@ Lär dig hur du konverterar Excel till HTML med fullständig inbäddning av teck
 Lär dig hur du konverterar Markdown-filer till Excel med Aspose.Cells i en steg-för-steg-guide med kodexempel.
 ### [Ladda JSON-fil Java – Fullständig guide för att konvertera JSON till Excel](./load-json-file-java-full-guide-to-convert-json-to-excel/)
 Lär dig hur du laddar JSON-filer i Java och konverterar dem till Excel med Aspose.Cells för Java. Steg-för-steg-guide med kodexempel.
+### [Hur man laddar JSON i Excel med Aspose.Cells för Java](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+Lär dig hur du laddar JSON-data i en Excel-arbetsbok med Aspose.Cells för Java.
 ### [Skapa Excel-fil i Java – Fullständig guide med radformatering och XLSX-export](./create-excel-file-java-full-guide-with-row-styling-and-xlsx/)
 Lär dig skapa Excel-filer i Java, applicera radstilar och exportera till XLSX med Aspose.Cells.
 ### [Hur du exporterar Excel: Steg‑för‑steg guide till CSV-konvertering](./how-to-export-excel-step-by-step-guide-to-csv-conversion/)

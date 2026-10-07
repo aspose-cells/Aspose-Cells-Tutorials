@@ -64,6 +64,9 @@ Aspose.Cells for Java का उपयोग करके Excel को CSV फ�
 Aspose.Cells for Java का उपयोग करके Excel को SVG फ़ॉर्मेट में निर्यात करना सीखें। विस्तृत चरण‑दर‑स्टेप गाइड।
 ### [JSON फ़ाइल लोड करें जावा – JSON को Excel में बदलने की पूरी गाइड](./load-json-file-java-full-guide-to-convert-json-to-excel/)
 Aspose.Cells for Java का उपयोग करके JSON फ़ाइल को Excel में परिवर्तित करना सीखें। चरण-दर-स्टेप गाइड।
+
+### [Aspose.Cells for Java के साथ JSON को Excel में लोड करना](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+
 ### [Excel फ़ाइल बनाना जावा – पंक्ति स्टाइलिंग और XLSX निर्यात के साथ पूर्ण गाइड](./create-excel-file-java-full-guide-with-row-styling-and-xlsx/)
 Aspose.Cells for Java का उपयोग करके पंक्तियों को स्टाइल करके Excel फ़ाइल बनाना और XLSX फ़ॉर्मेट में निर्यात करना सीखें।
 ### [Excel वर्कबुक से HTML में फ़ॉन्ट एम्बेड कैसे करें – जावा](./how-to-embed-fonts-in-html-from-excel-workbook-java/)
