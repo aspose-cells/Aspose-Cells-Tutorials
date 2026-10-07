@@ -1,0 +1,7 @@
+Title: How to create Excel workbook C# with custom formatting and save as XLSX
+Slug: how-to-create-excel-workbook-c-with-custom-formatting-and-sa
+Category: excel-formatting-and-styling
+ProcessedDate: 2026-10-07T18:43:45.097643
+SourceRepo: AI Search API
+Keywords: create excel workbook c#, apply custom number format, change cell font color, save workbook as xlsx, format imported data excel
+PRNumber: 183
