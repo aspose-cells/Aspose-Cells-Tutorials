@@ -1,0 +1,7 @@
+Title: How to manage Excel custom properties in C# – a step-by-step tutorial
+Slug: how-to-manage-excel-custom-properties-in-c-a-step-by-step-tu
+Category: document-properties
+ProcessedDate: 2026-10-07T18:43:35.738468
+SourceRepo: AI Search API
+Keywords: excel custom properties tutorial
+PRNumber: 183

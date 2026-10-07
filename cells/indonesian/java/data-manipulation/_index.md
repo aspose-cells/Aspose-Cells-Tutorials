@@ -62,6 +62,8 @@ Pelajari cara mengisi lembar Excel secara efisien dengan data bertingkat menggun
 ### [Cara Melakukan Penggantian Regex di Excel Menggunakan Aspose.Cells untuk Java: Panduan Lengkap](./regex-replacement-excel-aspose-cells-java-guide/)
 Pelajari cara mengotomatiskan penggantian teks dalam file Excel menggunakan regex dengan Aspose.Cells untuk Java. Panduan langkah demi langkah ini mencakup inisialisasi, konfigurasi, dan aplikasi praktis.
 
+### [Cara Membagi Kolom di Java dengan Aspose.Cells – panduan langkah demi langkah](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
+Pelajari cara membagi kolom dalam file Excel menggunakan Aspose.Cells untuk Java dengan panduan langkah demi langkah.
 
 
 ## Sumber Daya Tambahan

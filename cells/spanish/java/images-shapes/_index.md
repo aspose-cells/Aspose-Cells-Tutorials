@@ -131,7 +131,7 @@ Un tutorial de código para Aspose.Words Java
 ### [Establecer una imagen de fondo en Excel con Aspose.Cells Java (guía paso a paso)](./set-background-picture-excel-aspose-cells-java/)
 Aprenda a mejorar sus informes de Excel añadiendo imágenes de fondo con Aspose.Cells Java. Siga esta guía paso a paso para una implementación fluida.
 
-
+### [Cómo crear PNG a partir de un rango en Java con Aspose.Cells](./how-to-create-png-from-range-in-java-with-aspose-cells/)
 
 ## Recursos adicionales
 

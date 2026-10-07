@@ -78,6 +78,8 @@ Apprenez à intégrer des polices dans un fichier HTML à partir d'un classeur E
 Apprenez à convertir un classeur Excel en fichier SVG avec Aspose.Cells pour Java. Guide complet avec exemples de code.
 ### [Chargement d'un fichier JSON Java – Guide complet pour convertir JSON en Excel](./load-json-file-java-full-guide-to-convert-json-to-excel/)
 Apprenez à charger un fichier JSON en Java et à le convertir en Excel avec Aspose.Cells. Guide complet avec exemples de code.
+### [Comment charger un fichier JSON dans Excel avec Aspose.Cells pour Java](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+Apprenez à charger un fichier JSON en Java et à le convertir en classeur Excel avec Aspose.Cells. Guide complet étape par étape.
 ### [Tutoriel Flat OPC Aspose : charger un classeur Excel en Java](./flat-opc-tutorial-aspose-load-excel-workbook-in-java/)
 Apprenez à charger un classeur Excel en Java avec Aspose.Cells via Flat OPC. Guide étape par étape avec exemples de code.
 

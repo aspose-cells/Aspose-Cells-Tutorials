@@ -129,9 +129,8 @@
 Ένα σεμινάριο κώδικα για το Aspose.Words Java
 
 ### [Ορισμός εικόνας φόντου στο Excel χρησιμοποιώντας το Aspose.Cells Java (Οδηγός βήμα προς βήμα)](./set-background-picture-excel-aspose-cells-java/)
-Μάθετε πώς να βελτιώσετε τις αναφορές σας στο Excel προσθέτοντας εικόνες φόντου με το Aspose.Cells Java. Ακολουθήστε αυτόν τον οδηγό βήμα προς βήμα για απρόσκοπτη εφαρμογή.
 
-
+### [Πώς να δημιουργήσετε PNG από περιοχή σε Java με το Aspose.Cells](./how-to-create-png-from-range-in-java-with-aspose-cells/)
 
 ## Πρόσθετοι Πόροι
 

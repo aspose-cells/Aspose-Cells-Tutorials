@@ -1,0 +1,7 @@
+Title: How to use Aspose.Cells to delete rows in an Excel table while keeping the header
+Slug: how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi
+Category: row-and-column-management
+ProcessedDate: 2026-10-07T18:43:49.786804
+SourceRepo: AI Search API
+Keywords: aspose cells delete rows, delete rows excel table, excel table row deletion, protect excel table rows, remove rows except header
+PRNumber: 183

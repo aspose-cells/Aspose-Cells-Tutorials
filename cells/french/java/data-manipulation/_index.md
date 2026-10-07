@@ -62,7 +62,8 @@ Apprenez à remplir efficacement des feuilles Excel avec des données imbriquée
 ### [Comment effectuer un remplacement d'expressions régulières dans Excel avec Aspose.Cells pour Java : guide complet](./regex-replacement-excel-aspose-cells-java-guide/)
 Apprenez à automatiser les remplacements de texte dans les fichiers Excel grâce aux expressions régulières avec Aspose.Cells pour Java. Ce guide étape par étape couvre l'initialisation, la configuration et les applications pratiques.
 
-
+### [Comment diviser des colonnes en Java avec Aspose.Cells – guide étape par étape](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
+Apprenez à séparer les colonnes d’une feuille Excel en Java à l’aide d’Aspose.Cells grâce à ce guide détaillé.
 
 ## Ressources supplémentaires
 

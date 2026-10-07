@@ -100,6 +100,9 @@
 ### [วิธีฝังฟอนต์ในการแปลง Excel เป็น SVG](./how-to-embed-fonts-in-excel-to-svg-conversion/)
 เรียนรู้วิธีฝังฟอนต์เมื่อแปลงไฟล์ Excel เป็น SVG ด้วย Aspose.Cells สำหรับ Java เพื่อให้ผลลัพธ์แสดงฟอนต์อย่างถูกต้อง
 
+### [วิธีโหลดไฟล์ JSON ไปยัง Excel ด้วย Aspose.Cells สำหรับ Java](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+เรียนรู้วิธีโหลดข้อมูล JSON เข้าไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java อย่างละเอียด
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

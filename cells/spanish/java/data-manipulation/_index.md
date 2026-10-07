@@ -56,6 +56,9 @@ Aprenda a manipular datos eficientemente en Excel con Aspose.Cells para Java. Es
 ### [Combinar datos en Excel con notificaciones mediante Aspose.Cells Java: una guía completa](./merge-data-excel-notifications-aspose-cells-java/)
 Aprenda a automatizar la combinación de datos en Excel utilizando Aspose.Cells para Java, completo con notificaciones en tiempo real e integración de marcadores inteligentes.
 
+### [Cómo dividir columnas en Java con Aspose.Cells – guía paso a paso](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
+Aprenda a dividir columnas en archivos de Excel usando Aspose.Cells para Java con esta guía paso a paso.
+
 ### [Cómo rellenar Excel con datos anidados usando Aspose.Cells para Java: una guía completa](./populate-excel-nested-data-aspose-cells-java/)
 Aprenda a rellenar hojas de Excel con datos anidados de forma eficiente usando Aspose.Cells para Java. Esta guía explica cómo configurar libros de trabajo, implementar marcadores inteligentes y procesar conjuntos de datos complejos.
 

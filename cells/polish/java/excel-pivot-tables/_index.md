@@ -48,6 +48,8 @@ Dowiedz się, jak skopiować tabelę przestawną w Aspose.Cells for Java, zachow
 Dowiedz się, jak skopiować tabelę przestawną w Javie przy użyciu Aspose.Cells, aby łatwo duplikować i modyfikować raporty.
 ### [Tworzenie PNG z tabeli przestawnej w Javie – Kompletny przewodnik krok po kroku](./create-png-from-pivot-in-java-full-step-by-step-guide/)
 Poznaj proces generowania obrazu PNG z tabeli przestawnej przy użyciu Aspose.Cells dla Java, opisany szczegółowo krok po kroku.
+### [Jak duplikować tabele przestawne w Excelu przy użyciu Javy – przewodnik krok po kroku](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
+Dowiedz się, jak w prosty sposób skopiować i duplikować tabele przestawne w Excelu przy użyciu Aspose.Cells for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

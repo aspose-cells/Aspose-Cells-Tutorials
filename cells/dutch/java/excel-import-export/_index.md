@@ -63,6 +63,8 @@ Leer hoe u lettertypen insluit bij het converteren van Excel naar HTML met Aspos
 Leer hoe u Markdown-bestanden omzet naar Excel met Aspose.Cells in deze stapsgewijze volledige gids.
 ### [JSON-bestand laden Java – Volledige gids om JSON naar Excel te converteren](./load-json-file-java-full-guide-to-convert-json-to-excel/)
 Leer hoe u JSON-bestanden laadt en converteert naar Excel met Aspose.Cells voor Java in deze stapsgewijze handleiding.
+### [Hoe JSON in Excel laden met Aspose.Cells voor Java](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+Leer hoe u JSON-gegevens laadt en converteert naar een Excel-werkmap met Aspose.Cells voor Java.
 ### [Excel-bestand maken in Java – Volledige gids met rijstyling en XLSX-export](./create-excel-file-java-full-guide-with-row-styling-and-xlsx/)
 Leer hoe u een Excel-bestand maakt in Java, rijen stijlt en exporteert naar XLSX met Aspose.Cells.
 ### [Hoe Excel exporteren naar SVG – Complete Java-gids](./how-to-export-excel-to-svg-complete-java-guide/)

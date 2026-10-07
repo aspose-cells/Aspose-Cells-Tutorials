@@ -67,6 +67,8 @@ Dowiedz się, jak osadzić czcionki w wygenerowanym HTML z pliku Excel przy uży
 Dowiedz się, jak bezproblemowo wyeksportować dane z Excela do formatu SVG w Javie, korzystając z Aspose.Cells. Przewodnik krok po kroku z kodem źródłowym.
 ### [Ładowanie pliku JSON w Javie – Pełny przewodnik konwersji JSON do Excela](./load-json-file-java-full-guide-to-convert-json-to-excel/)
 Dowiedz się, jak wczytać plik JSON w Javie i przekonwertować go do formatu Excel przy użyciu Aspose.Cells.
+### [Jak wczytać JSON do Excela przy użyciu Aspose.Cells for Java](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+Dowiedz się, jak wczytać plik JSON i przekonwertować go na arkusz Excel przy pomocy Aspose.Cells for Java.
 ### [Tworzenie pliku Excel w Javie – Pełny przewodnik ze stylizacją wierszy i eksportem XLSX](./create-excel-file-java-full-guide-with-row-styling-and-xlsx/)
 Dowiedz się, jak w Javie utworzyć plik Excel, zastosować stylizację wierszy i wyeksportować go jako XLSX.
 ### [Samouczek Flat OPC Aspose: Ładowanie skoroszytu Excel w Javie](./flat-opc-tutorial-aspose-load-excel-workbook-in-java/)

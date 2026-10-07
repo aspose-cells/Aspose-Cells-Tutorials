@@ -46,6 +46,7 @@ Aspose.Cells สำหรับ Java ช่วยให้คุณสามา�
 ### [วิธีคัดลอกตารางสรุปข้อมูลใน Java – คู่มือ Aspose.Cells ฉบับสมบูรณ์](./how-to-copy-pivot-table-in-java-complete-aspose-cells-guide/)
 ### [สร้าง PNG จาก Pivot ใน Java – คู่มือเต็มขั้นตอน](./create-png-from-pivot-in-java-full-step-by-step-guide/)
 เรียนรู้วิธีแปลง Pivot Table เป็นไฟล์ PNG ใน Java ด้วย Aspose.Cells อย่างละเอียดและครบถ้วน
+### [วิธีทำสำเนาตารางสรุปข้อมูลใน Excel ด้วย Java – คู่มือขั้นตอนโดยละเอียด](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

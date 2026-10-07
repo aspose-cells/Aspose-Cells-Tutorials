@@ -62,7 +62,8 @@
 ### [كيفية استبدال التعابير العادية في Excel باستخدام Aspose.Cells لـ Java: دليل شامل](./regex-replacement-excel-aspose-cells-java-guide/)
 تعرّف على كيفية أتمتة استبدال النصوص في ملفات Excel باستخدام التعبيرات العادية باستخدام Aspose.Cells لجافا. يغطي هذا الدليل خطوة بخطوة التهيئة والتكوين والتطبيقات العملية.
 
-
+### [كيفية تقسيم الأعمدة في Java باستخدام Aspose.Cells – دليل خطوة بخطوة](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
+تعلم كيفية تقسيم الأعمدة في ملفات Excel باستخدام Aspose.Cells لجافا خطوة بخطوة.
 
 ## موارد إضافية
 

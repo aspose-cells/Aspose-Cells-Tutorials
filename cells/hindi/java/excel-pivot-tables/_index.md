@@ -48,6 +48,8 @@ Aspose.Cells for Java का उपयोग करके पिवट टेब
 Aspose.Cells for Java का उपयोग करके पिवट टेबल को कॉपी करने की पूरी प्रक्रिया सीखें।
 ### [जावा में पिवट से PNG बनाना – पूर्ण चरण-दर-चरण गाइड](./create-png-from-pivot-in-java-full-step-by-step-guide/)
 Aspose.Cells for Java का उपयोग करके पिवट टेबल से PNG इमेज बनाने की पूरी प्रक्रिया सीखें।
+### [Java के साथ Excel में पिवट टेबल्स को डुप्लिकेट करने का चरण‑दर‑चरण गाइड](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
+Java में Aspose.Cells के साथ पिवट टेबल्स को डुप्लिकेट करने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
