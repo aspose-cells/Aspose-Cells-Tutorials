@@ -41,7 +41,7 @@ Textjustering är avgörande för läsbarheten, och du skulle bli förvånad öv
 
 ## Radbryta lång text i celler
 
-Har du någonsin upplevt det där frustrerande ögonblicket när en cell är för liten för att visa all text? Istället för att ändra storlek på cellen eller förlora värdefull information, tänk om du helt enkelt kunde radbryta texten? Detta gör inte bara dina data läsbara utan säkerställer också att ditt kalkylblad behåller ett snyggt utseende. Kolla in vår steg-för-steg-guide om [radbryta lång text i celler](./wrapping-long-text-within-cells/)Du lär dig hur du gör dina data lättlästa utan att det blir rörigt i layouten.
+Har du någonsin upplevt det där frustrerande ögonblicket när en cell är för liten för att visa all text? Istället för att ändra storlek på cellen eller förlora värdefull information, tänk om du helt enkelt kunde radbryda texten? Detta gör inte bara dina data läsbara utan säkerställer också att ditt kalkylblad behåller ett snyggt utseende. Kolla in vår steg-för-steg-guide om [radbryta lång text i celler](./wrapping-long-text-within-cells/)Du lär dig hur du gör dina data lättlästa utan att det blir rörigt i layouten.
 
 ## Handledningar för formatering och styling i Excel
 ### [Använda gradientfyllningseffekter i Excel](./applying-gradient-fill-effects/)
@@ -76,7 +76,7 @@ Omvandla textriktning i Excel med Aspose.Cells för .NET. Följ vår steg-för-s
 Lär dig hur du radbryter lång text i Excel-celler med Aspose.Cells för .NET i den här lättförståeliga guiden. Förvandla dina kalkylblad utan ansträngning.
 ### [Styling av kolumner i Excel med C# – Importera DataTable](./how-to-style-columns-in-excel-with-c-import-datatable/)
 ### [Skapa cellstil i C# – Hur man tillämpar stil på en cell och centrerar text](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
-Lär dig hur du skapar en cellstil i C# med Aspose.Cells för .NET och centrerar text i cellen.
+### [Hur man skapar Excel-arbetsbok i C# med anpassad formatering och sparar som XLSX](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

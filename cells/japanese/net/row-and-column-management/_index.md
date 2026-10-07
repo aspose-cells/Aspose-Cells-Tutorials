@@ -69,7 +69,7 @@ Aspose.Cells for .NET を使って Excel の行を削除する方法を学びま
 ### [Aspose.Cells .NET で複数の行を削除する](./delete-multiple-rows-aspose-cells/)
 Aspose.Cells for .NET を使用して、Excel で複数の行を削除する方法を学びます。この詳細なステップバイステップガイドでは、前提条件、コーディング例、開発者向けの FAQ を網羅しています。
 ### [Aspose.Cells .NET に列を挿入する](./insert-column-aspose-cells/)
-Aspose.Cells for .NETを使ってExcelに列を挿入する方法を学びましょう。シンプルなステップバイステップガイドに従って、シームレスに新しい列を追加しましょう。.NET開発者に最適です。
+Aspose.Cells .NETを使ってExcelに列を挿入する方法を学びましょう。シンプルなステップバイステップガイドに従って、シームレスに新しい列を追加しましょう。.NET開発者に最適です。
 ### [Aspose.Cells .NET で行を挿入する](./insert-row-aspose-cells/)
 このステップバイステップガイドでは、Aspose.Cells for .NET を使用して Excel に行を挿入する方法を学習します。データ操作スキルを手軽に向上させましょう。
 ### [Aspose.Cells .NET で書式付き行を挿入する](./insert-row-formatting-aspose-cells/)
@@ -94,6 +94,8 @@ C# で動的に行を生成し、Excel のアイテムを繰り返し入力す�
 Aspose.Cells for .NET を使用して、Excel ファイルから行を削除し、特定の行だけを除去する手順を解説します。
 ### [C# を使用して Excel テーブルの行を削除する](./delete-rows-excel-table-with-c-step-by-step-guide/)
 C# と Aspose.Cells for .NET を使って、Excel テーブルから行を削除する手順を詳しく解説します。
+### [ヘッダーを保持しながら Excel テーブルの行を削除するための Aspose.Cells の使用方法](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
+ヘッダー行を保持したまま、Excel テーブルから特定の行を削除する手順をステップバイステップで解説します。
 ### [C# を使用して Excel に行を挿入する – ステップバイステップ ガイド](./insert-rows-in-excel-with-c-step-by-step-guide/)
 Aspose.Cells for .NET を使用し、C# で Excel に行を挿入する方法をステップバイステップで解説します。
 ### [WRAPCOLS の使い方: C# で 2 列レイアウトを作成する](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)

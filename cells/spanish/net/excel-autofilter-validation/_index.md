@@ -36,6 +36,8 @@ Aprenda a filtrar automáticamente filas de Excel usando Aspose.Cells en .NET si
 Descubra cómo implementar la validación de datos decimales en Excel con Aspose.Cells para .NET con nuestra guía sencilla. Mejore la integridad de los datos sin esfuerzo.
 ### [Eliminar AutoFiltro de Excel – Guía completa en C#](./remove-autofilter-from-excel-complete-c-guide/)
 Aprenda a eliminar el AutoFiltro de una hoja de Excel usando Aspose.Cells en .NET con este tutorial paso a paso.
+### [Cómo eliminar el autofiltro de tablas de Excel usando C#](./how-to-remove-autofilter-from-excel-tables-using-c/)
+Aprenda a eliminar el autofiltro de tablas de Excel usando Aspose.Cells en .NET con esta guía paso a paso.
 ### [Obtener la primera tabla del libro de Excel en C# – Guía completa](./get-first-table-from-excel-workbook-in-c-complete-guide/)
 Aprenda a extraer la primera tabla de un libro de Excel usando Aspose.Cells en C# con esta guía paso a paso.
 ### [Cómo usar AutoFilter en C# para la automatización de Excel – Guía completa paso a paso](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)

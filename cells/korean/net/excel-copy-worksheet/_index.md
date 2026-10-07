@@ -44,6 +44,7 @@ Aspose.Cells for .NET은 스프레드시트 복사를 포함하여 Excel 파일�
 | [Excel 이동 워크시트](./excel-move-worksheet/) | Aspose.Cells for .NET을 사용하여 Excel에서 워크시트를 이동하는 방법을 단계별 가이드를 통해 알아보세요. Excel 프로그래밍의 기술을 마스터하세요. |  
 | [새 워크북 만들기 – 피벗 테이블이 있는 워크시트 복사](./create-new-workbook-how-to-copy-a-worksheet-with-a-pivot-tab/) | Aspose.Cells for .NET을 사용하여 피벗 테이블이 포함된 워크시트를 새 워크북으로 복사하는 방법을 단계별로 안내합니다. |  
 | [C#에서 Aspose.Cells를 사용한 워크시트 복사 완전 가이드](./how-to-copy-worksheet-in-c-with-aspose-cells-complete-guide/) | Aspose.Cells for .NET을 사용해 C#에서 워크시트를 복사하는 전체 과정을 단계별로 안내합니다. |  
+| [C#를 사용해 Excel에서 중복 상세 시트 만들기](./create-duplicated-detail-sheets-in-excel-using-c/) | Aspose.Cells for .NET을 활용해 C#로 Excel에서 상세 시트를 복제하는 방법을 단계별로 안내합니다. |  
 | [C#에서 워크북 복사 – 테이블을 다른 워크시트로 내보내기](./copy-workbook-in-c-export-table-to-another-worksheet/) | Aspose.Cells for .NET을 사용하여 C#에서 워크북을 복사하고 테이블을 다른 워크시트로 내보내는 방법을 단계별로 안내합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

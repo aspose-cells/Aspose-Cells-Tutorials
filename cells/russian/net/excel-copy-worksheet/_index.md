@@ -45,6 +45,7 @@ Aspose.Cells for .NET предлагает мощные функциональн
 | [Создать новую книгу – Как скопировать лист с сводной таблицей](./create-new-workbook-how-to-copy-a-worksheet-with-a-pivot-tab/) | Узнайте, как создать новую книгу Excel и скопировать лист с Pivot‑таблицей, используя Aspose.Cells для .NET. |  
 | [Как скопировать рабочий лист в C# с Aspose.Cells – Полное руководство](./how-to-copy-worksheet-in-c-with-aspose-cells-complete-guide/) | Подробное руководство по копированию листов Excel в C# с использованием Aspose.Cells, включая примеры кода и лучшие практики. |  
 | [Excel Копировать книгу в C# – Экспортировать таблицу в другой лист](./copy-workbook-in-c-export-table-to-another-worksheet/) | Узнайте, как в C# скопировать рабочую книгу и экспортировать таблицу в другой лист с помощью Aspose.Cells. |  
+| [Создать дублированные листы деталей в Excel с помощью C#](./create-duplicated-detail-sheets-in-excel-using-c/) | Узнайте, как создать дублированные листы деталей в Excel с помощью C# и Aspose.Cells. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

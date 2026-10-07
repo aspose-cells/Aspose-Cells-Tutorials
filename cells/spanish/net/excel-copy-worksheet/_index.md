@@ -33,7 +33,7 @@ Ahora bien, ¿qué hay de mover las hojas de cálculo? A veces, no se trata solo
 
 Aprenda a copiar hojas de cálculo de Excel y personalizarlas con Aspose.Cells para .NET. Estos tutoriales paso a paso le guiarán por los diferentes métodos para copiar una hoja de cálculo, incluyendo copiar con o sin fórmulas, opciones de formato y gestión de datos. Aprenda a conservar vínculos de celdas, ajustar las dimensiones de columnas y filas, y mucho más. Tanto si desea crear plantillas reutilizables como modificar hojas existentes, estos tutoriales le proporcionaràn todo el conocimiento necesario para dominar la copia de hojas de cálculo de Excel con Aspose.Cells para .NET.
 
-Aspose.Cells para .NET ofrece potentes funciones para manipular archivos de Excel, incluyendo la copia de hojas de cálculo. Con estos tutoriales, no solo aprenderá a copiar una hoja de cálculo, sino también a personalizar el contenido, el formato y las propiedades de la hoja copiada. Tanto si es un desarrollador experimentado como si es principiante, estos tutoriales le proporcionarán los conocimientos necesarios para aprovechar al máximo las funciones de copia de hojas de cálculo de Aspose.Cells para .NET y optimizar su flujo de trabajo de procesamiento de archivos de Excel.
+Aspose.Cells para .NET ofrece potentes funciones para manipular archivos de Excel, incluyendo la copia de hojas de cálculo. Con estos tutoriales, no solo aprenderá a copiar una hoja de cálculo, sino también a personalizar el contenido, el formato y las propiedades de la hoja copiada. Tanto si es un desarrollador experimentado como si es principiante, estos tutoriales le proporcionararán los conocimientos necesarios para aprovechar al máximo las funciones de copia de hojas de cálculo de Aspose.Cells para .NET y optimizar su flujo de trabajo de procesamiento de archivos de Excel.
 
 ## Tutoriales 
 | Título | Descripción |
@@ -45,6 +45,7 @@ Aspose.Cells para .NET ofrece potentes funciones para manipular archivos de Exce
 | [Crear nuevo libro de trabajo – Cómo copiar una hoja de cálculo con una tabla dinámica](./create-new-workbook-how-to-copy-a-worksheet-with-a-pivot-tab/) | Aprenda a crear un libro nuevo y copiar una hoja que contiene una tabla dinámica usando Aspose.Cells para .NET. |
 | [Cómo copiar una hoja de cálculo en C# con Aspose.Cells – Guía completa](./how-to-copy-worksheet-in-c-with-aspose-cells-complete-guide/) | Aprenda a copiar una hoja de cálculo en C# usando Aspose.Cells con una guía paso a paso. |
 | [Copiar libro de trabajo en C# – Exportar tabla a otra hoja de cálculo](./copy-workbook-in-c-export-table-to-another-worksheet/) | Aprenda a copiar un libro de trabajo y exportar una tabla a otra hoja de cálculo usando Aspose.Cells para .NET en C#. |
+| [Crear hojas de detalle duplicadas en Excel usando C#](./create-duplicated-detail-sheets-in-excel-using-c/) | Aprenda a crear hojas de detalle duplicadas en Excel con C# usando Aspose.Cells, paso a paso y con ejemplos de código. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

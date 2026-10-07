@@ -56,6 +56,9 @@
 ### [ซ่อนลูกศรตัวกรองใน Excel ด้วย C# – คู่มือฉบับสมบูรณ์](./hide-filter-arrows-excel-with-c-complete-guide/)
 เรียนรู้วิธีซ่อนลูกศรตัวกรองใน Excel ด้วย C# อย่างครบถ้วนโดยใช้ Aspose.Cells
 
+### [วิธีลบ Autofilter จากตาราง Excel ด้วย C#](./how-to-remove-autofilter-from-excel-tables-using-c/)
+เรียนรู้วิธีลบ Autofilter จากตาราง Excel อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET ด้วยคู่มือ C# ที่ครบถ้วน
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

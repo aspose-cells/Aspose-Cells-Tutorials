@@ -65,6 +65,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET benutzerdefinierte Eigenschafte
 Erfahren Sie, wie Sie mit C# Excel-Metadaten hinzufügen und verwalten – ein umfassender Leitfaden für Aspose.Cells.
 ### [Erstellen einer benutzerdefinierten Eigenschaft mit Aspose – Komplettleitfaden für Excel](./create-custom-property-aspose-complete-excel-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET benutzerdefinierte Eigenschaften in Excel erstellen und verwalten – Schritt für Schritt.
+### [Wie man Excel‑Benutzerdefinierte Eigenschaften in C# verwaltet – eine Schritt‑für‑Schritt‑Anleitung](./how-to-manage-excel-custom-properties-in-c-a-step-by-step-tu/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET benutzerdefinierte Eigenschaften in Excel in C# verwalten – Schritt für Schritt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

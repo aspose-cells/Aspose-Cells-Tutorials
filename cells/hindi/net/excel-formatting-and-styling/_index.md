@@ -76,6 +76,8 @@ Aspose.Cells for .NET की दुनिया में आपका स्व
 ### [C# में सेल स्टाइल बनाना – सेल पर स्टाइल लागू करना और टेक्स्ट को केंद्रित करना](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
 ### [Aspose.Cells के साथ सेल शैलियाँ लागू करें – फ़ॉर्मेटिंग के साथ DataTable आयात करें](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
 .NET के लिए Aspose.Cells का उपयोग करके DataTable को फ़ॉर्मेटिंग के साथ आयात करते हुए सेल शैलियों को लागू करना सीखें।
+### [C# के साथ कस्टम फ़ॉर्मेटिंग वाला Excel वर्कबुक बनाना और XLSX के रूप में सहेजना](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
+C# और Aspose.Cells का उपयोग करके कस्टम फ़ॉर्मेटिंग के साथ Excel वर्कबुक बनाएं और उसे XLSX फ़ाइल के रूप में सहेजें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

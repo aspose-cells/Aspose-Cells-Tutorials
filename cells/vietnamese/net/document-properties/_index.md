@@ -65,6 +65,8 @@ Tìm hiểu cách thêm thuộc tính tùy chỉnh vào Excel bằng C# với As
 Tìm hiểu cách thêm siêu dữ liệu vào tệp Excel bằng Aspose.Cells cho .NET với hướng dẫn chi tiết từng bước.
 ### [Tạo Thuộc Tính Tùy Chỉnh Aspose – Hướng Dẫn Excel Toàn Diện](./create-custom-property-aspose-complete-excel-guide/)
 Tìm hiểu cách tạo thuộc tính tùy chỉnh trong Excel bằng Aspose.Cells cho .NET qua hướng dẫn chi tiết và đầy đủ.
+### [Cách quản lý thuộc tính tùy chỉnh Excel trong C# – hướng dẫn từng bước](./how-to-manage-excel-custom-properties-in-c-a-step-by-step-tu/)
+Hướng dẫn chi tiết cách quản lý các thuộc tính tùy chỉnh trong tệp Excel bằng C# và Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

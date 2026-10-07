@@ -66,6 +66,9 @@ Excel 中的文档属性就像文件的元数据一样。想象一下：每个 E
 ### [创建自定义属性 Aspose – 完整 Excel 指南](./create-custom-property-aspose-complete-excel-guide/)
 通过本完整指南，学习如何使用 Aspose.Cells for .NET 在 Excel 中创建自定义属性，提升文件的元数据管理。
 
+### [如何在 C# 中管理 Excel 自定义属性 – 分步教程](./how-to-manage-excel-custom-properties-in-c-a-step-by-step-tu/)
+通过本分步教程，学习如何在 C# 中管理 Excel 自定义属性。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

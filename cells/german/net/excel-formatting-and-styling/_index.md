@@ -78,6 +78,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Spalten in Excel per C# formati
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET in C# einen Zellstil erstellen, anwenden und den Text zentrieren.
 ### [Zellstile mit Aspose.Cells anwenden – DataTable mit Formatierung importieren](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
 Lernen Sie, wie Sie Zellstile anwenden und ein DataTable mit Formatierung importieren, um formatierte Excel-Tabellen zu erstellen.
+### [Erstellen einer Excel-Arbeitsmappe in C# mit benutzerdefiniertem Format und als XLSX speichern](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET in C# eine Excel-Arbeitsmappe erstellen, benutzerdefiniert formatieren und als XLSX speichern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

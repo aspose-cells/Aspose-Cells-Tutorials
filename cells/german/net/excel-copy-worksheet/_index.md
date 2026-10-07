@@ -45,6 +45,7 @@ Aspose.Cells für .NET bietet leistungsstarke Funktionen zur Bearbeitung von Exc
 | [Neues Arbeitsbuch erstellen – Wie man ein Arbeitsblatt mit einer Pivot‑Tabelle kopiert](./create-new-workbook-how-to-copy-a-worksheet-with-a-pivot-tab/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein neues Arbeitsbuch erstellen und ein Arbeitsblatt mit einer Pivot‑Tabelle kopieren. |  
 | [Wie man ein Arbeitsblatt in C# mit Aspose.Cells kopiert – Komplettanleitung](./how-to-copy-worksheet-in-c-with-aspose-cells-complete-guide/) | Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie ein Arbeitsblatt in C# mit Aspose.Cells vollständig kopieren. |  
 | [Arbeitsmappe in C# kopieren – Tabelle in ein anderes Arbeitsblatt exportieren](./copy-workbook-in-c-export-table-to-another-worksheet/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Arbeitsmappe kopieren und eine Tabelle in ein anderes Arbeitsblatt exportieren. |  
+| [Duplizierte Detailblätter in Excel mit C# erstellen](./create-duplicated-detail-sheets-in-excel-using-c/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET in C# Detailblätter duplizieren und automatisieren. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -38,6 +38,8 @@
 在本逐步教學中了解如何使用 Aspose.Cells for .NET 合併命名範圍內的儲存格。了解如何格式化、設定樣式以及自動化 Excel 報表。
 ### [建立 Excel 工作簿：新增表格與命名規則的逐步指南](./create-excel-workbook-step-by-step-guide-to-adding-tables-an/)
 本分步指南教您如何在 Excel 工作簿中新增表格並設定命名規則。
+### [為 Excel 表格指派名稱並避免命名衝突](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
+學習如何為 Excel 表格設定唯一名稱，避免命名衝突並確保資料正確性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

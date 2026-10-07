@@ -60,11 +60,13 @@ C# में कस्टम प्रॉपर्टी के साथ XLSB �
 ### [C# में Excel वर्कबुक बनाएं – कस्टम प्रॉपर्टी जोड़ें और XLSB में सहेजें](./create-excel-workbook-c-add-custom-property-save-xlsb/)
 C# का उपयोग करके Excel वर्कबुक बनाएं, कस्टम प्रॉपर्टी जोड़ें और फ़ाइल को XLSB फ़ॉर्मेट में सहेजें।
 ### [C# के साथ Excel में कस्टम प्रॉपर्टी कैसे जोड़ें – चरण‑बद्ध गाइड](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
-C# का उपयोग करके Excel में कस्टम प्रॉपर्टी जोड़ने की चरण-दर-चरण गाइड। Aspose.Cells के साथ आसान तरीका।
+C# का उपयोग करके Excel में कस्टम प्रॉपर्टी जोड़ने की चरण-दर-शरण गाइड। Aspose.Cells के साथ आसान तरीका।
 ### [Excel मेटाडेटा कैसे जोड़ें – पूर्ण C# वर्कबुक गाइड](./how-to-add-excel-metadata-complete-c-workbook-guide/)
-C# में Aspose.Cells का उपयोग करके Excel फ़ाइल में मेटाडेटा जोड़ने के चरण-दर-चरण मार्गदर्शन।
+C# में Aspose.Cells का उपयोग करके Excel फ़ाइल में मेटाडेटा जोड़ने के चरण-दर-शरण मार्गदर्शन।
 ### [Aspose के साथ कस्टम प्रॉपर्टी बनाना – पूर्ण Excel गाइड](./create-custom-property-aspose-complete-excel-guide/)
 Aspose.Cells का उपयोग करके Excel फ़ाइल में कस्टम प्रॉपर्टी बनाने की पूरी प्रक्रिया सीखें।
+### [C# में Excel कस्टम प्रॉपर्टीज़ को प्रबंधित करने का तरीका – चरण‑दर‑चरण ट्यूटोरियल](./how-to-manage-excel-custom-properties-in-c-a-step-by-step-tu/)
+C# में Aspose.Cells का उपयोग करके Excel कस्टम प्रॉपर्टीज़ को जोड़ने, पढ़ने और अपडेट करने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

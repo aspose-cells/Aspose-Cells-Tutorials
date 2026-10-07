@@ -78,6 +78,8 @@ Transformez l'orientation du texte dans Excel avec Aspose.Cells pour .NET. Suive
 Apprenez à ajuster le texte long dans les cellules Excel avec Aspose.Cells pour .NET grâce à ce guide facile à suivre. Transformez vos feuilles de calcul sans effort.
 ### [Appliquer des styles de cellule avec Aspose.Cells – Importer DataTable avec mise en forme](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
 Apprenez à appliquer des styles de cellule lors de l'importation d'un DataTable avec mise en forme grâce à Aspose.Cells pour .NET.
+### [Comment créer un classeur Excel en C# avec un formatage personnalisé et l’enregistrer au format XLSX](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
+Apprenez à créer un classeur Excel en C# avec un formatage personnalisé et à le sauvegarder au format XLSX à l’aide d’Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -38,6 +38,8 @@ Identifiera enkelt celler i ett namngivet område i Excel med hjälp av Aspose.C
 Lär dig hur du sammanfogar celler i ett namngivet område med hjälp av Aspose.Cells för .NET i den här steg-för-steg-handledningen. Upptäck hur du formaterar, stiliserar och automatiserar Excel-rapporter.
 ### [Skapa Excel-arbetsbok – Steg‑för‑steg‑guide för att lägga till tabeller och namngivningsregler](./create-excel-workbook-step-by-step-guide-to-adding-tables-an/)
 Lär dig hur du skapar en Excel-arbetsbok, lägger till tabeller och definierar namngivningsregler med Aspose.Cells för .NET.
+### [Tilldela namn till Excel-tabell och undvik namnkonflikter](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
+Lär dig hur du tilldelar namn till en Excel-tabell och hanterar namnkonflikter med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

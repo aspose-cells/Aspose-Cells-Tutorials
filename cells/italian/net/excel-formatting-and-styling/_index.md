@@ -78,6 +78,8 @@ Scopri come mandare a capo testo lungo nelle celle di Excel con Aspose.Cells per
 Scopri come creare e applicare uno stile a una cella in Excel con Aspose.Cells per .NET, centrando il testo in modo semplice.
 ### [Applicare stili di cella con Aspose.Cells – Importare DataTable con formattazione](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
 Scopri come applicare stili di cella durante l'importazione di un DataTable con formattazione usando Aspose.Cells per .NET.
+### [Come creare una cartella di lavoro Excel in C# con formattazione personalizzata e salvarla come XLSX](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
+Scopri come creare una cartella di lavoro Excel in C# con formattazione personalizzata e salvarla come file XLSX usando Aspose.Cells per .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

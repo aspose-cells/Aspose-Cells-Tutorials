@@ -83,15 +83,11 @@ Aprenda a gerar linhas dinamicamente no Excel repetindo itens usando C# com Aspo
 ### [Como inserir linhas no GridJs – Adicionar várias linhas ao grid de forma eficiente](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 Aprenda a inserir múltiplas linhas no GridJs de forma eficiente com este guia passo a passo.
 
-
-
-
-
-
-
-
 ### [Excluir linhas de tabela do Excel com C# – Guia passo a passo](./delete-rows-excel-table-with-c-step-by-step-guide/)
 Aprenda a excluir linhas de uma tabela do Excel usando C# e Aspose.Cells, com instruções passo a passo e exemplos práticos.
+### [Como usar Aspose.Cells para excluir linhas em uma tabela do Excel mantendo o cabeçalho](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
+Aprenda a excluir linhas de uma tabela do Excel usando Aspose.Cells, preservando a linha de cabeçalho.
+
 ### [Inserir linhas no Excel com C# – Guia passo a passo](./insert-rows-in-excel-with-c-step-by-step-guide/)
 Aprenda a inserir linhas no Excel usando C# e Aspose.Cells para .NET com este guia passo a passo, facilitando a manipulação de dados.
 ### [Como usar WRAPCOLS: criar um layout de duas colunas em C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
