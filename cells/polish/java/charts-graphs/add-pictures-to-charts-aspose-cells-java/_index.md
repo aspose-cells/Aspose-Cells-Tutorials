@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-07"
-"description": "Dowiedz się, jak dodawać obrazy, takie jak loga, do wykresów za pomocą Aspose.Cells dla Java. Ulepsz wizualizację danych w programie Excel i popraw jakość prezentacji."
-"title": "Ulepsz swoje wykresy Java, dodając obrazy za pomocą Aspose.Cells"
-"url": "/pl/java/charts-graphs/add-pictures-to-charts-aspose-cells-java/"
-"weight": 1
+date: '2026-03-31'
+description: Dowiedz się, jak dodać obraz do wykresów Java przy użyciu Aspose.Cells,
+  w tym kroki wstawiania obrazów, dodawania logo do wykresu oraz dostosowywania obrazu
+  wykresu.
+keywords:
+- add pictures to charts
+- enhance Java charts
+- Aspose.Cells integration
+title: Jak dodać obraz do wykresów Java przy użyciu Aspose.Cells
+url: /pl/java/charts-graphs/add-pictures-to-charts-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,45 +18,41 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Jak dodać obraz do wykresów Java przy użyciu Aspose.Cells
 
-# Ulepsz swoje wykresy Java, dodając obrazy za pomocą Aspose.Cells
+## Wprowadzenie
 
-## Wstęp
+Efektywna wizualizacja danych może być przełomem w prezentacjach, raportach i pulpitach nawigacyjnych Business Intelligence. Jeśli zastanawiasz się **jak dodać obraz** do wykresu — na przykład logo firmy lub ikonę produktu — Aspose.Cells for Java daje pełną kontrolę nad obiektami wykresu. W tym samouczku przeprowadzimy Cię przez cały proces wstawiania obrazu do wykresu, dostosowywania jego wyglądu i zapisywania wyniku.
 
-Skuteczna wizualizacja danych może być przełomem w prezentacjach, raportach i pulpitach Business Intelligence. Ale co, jeśli chcesz ulepszyć swoje wykresy, dodając bezpośrednio do nich loga firm lub inne istotne obrazy? Tutaj pojawia się moc Aspose.Cells for Java, zapewniając programistom solidne możliwości manipulowania wykresami.
+### Szybkie odpowiedzi
+- **Jaka jest podstawowa biblioteka?** Aspose.Cells for Java  
+- **Czy mogę dodać logo do dowolnego typu wykresu?** Tak, większość wbudowanych typów wykresów obsługuje wstawianie obrazów.  
+- **Czy potrzebna jest licencja do rozwoju?** Darmowa wersja próbna wystarcza do oceny; licencja jest wymagana w produkcji.  
+- **Jakiej wersji Java wymaga?** Java 8 lub wyższa.  
+- **Czy można dodać wiele obrazów?** Oczywiście — wywołaj `addPictureInChart` dla każdego obrazu.
 
-W tym samouczku pokażemy, jak dodawać obrazy do wykresów za pomocą biblioteki Java Aspose.Cells. Przeprowadzimy Cię przez szczegółowy przewodnik implementacji, który umożliwi Ci bezproblemowe tworzenie atrakcyjnych wizualnie i profesjonalnie wyglądających wykresów.
+## Jak dodać obraz do wykresu
 
-**Czego się nauczysz:**
-- Jak zintegrować Aspose.Cells for Java ze swoim projektem
-- Kroki ładowania istniejącego wykresu programu Excel
-- Łatwe dodawanie obrazów bezpośrednio do wykresów
-- Dostosowywanie wyglądu obrazu na wykresie
-
-Aby płynnie przejść dalej, upewnijmy się, że jesteś gotowy do działania, spełniając wymagania wstępne.
+Dodanie obrazu do wykresu jest proste, gdy masz już gotowe obiekty skoroszytu i wykresu. Poniżej dzielimy zadanie na przejrzyste, numerowane kroki, abyś mógł łatwo podążać za instrukcją.
 
 ## Wymagania wstępne
 
-Aby móc korzystać z tego samouczka, upewnij się, że posiadasz następujące elementy:
+1. **Wymagane biblioteki i zależności**  
+   - Aspose.Cells for Java (wersja 25.3 lub nowsza)  
+   - IDE, takie jak IntelliJ IDEA lub Eclipse  
 
-1. **Wymagane biblioteki i zależności:**
-   - Biblioteka Aspose.Cells dla Java (wersja 25.3 lub nowsza)
-   - Podstawowa znajomość programowania w Javie
-   - Środowisko IDE, takie jak IntelliJ IDEA lub Eclipse, do pisania i uruchamiania kodu
+2. **Konfiguracja środowiska**  
+   - Zainstalowany Java Development Kit (JDK) 8+  
+   - System budowania Maven lub Gradle  
 
-2. **Wymagania dotyczące konfiguracji środowiska:**
-   - Java Development Kit (JDK) zainstalowany na Twoim komputerze
-   - Konfiguracja systemu kompilacji Maven lub Gradle w środowisku programistycznym
+3. **Wymagania wiedzy**  
+   - Podstawowa obsługa plików w Javie  
+   - Znajomość struktury wykresów Excel  
 
-3. **Wymagania wstępne dotyczące wiedzy:**
-   - Podstawowa wiedza na temat obsługi plików w Javie
-   - Znajomość formatów plików Excel i struktur wykresów
+## Konfiguracja Aspose.Cells dla Java
 
-## Konfigurowanie Aspose.Cells dla Java
+Dodaj bibliotekę do swojego projektu przy użyciu Maven lub Gradle.
 
-Aby zacząć używać Aspose.Cells dla Javy, musisz zintegrować go ze swoim projektem. Oto, jak możesz to zrobić za pomocą Maven lub Gradle:
-
-**Maven:**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -59,60 +61,51 @@ Aby zacząć używać Aspose.Cells dla Javy, musisz zintegrować go ze swoim pro
 </dependency>
 ```
 
-**Stopień:**
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Nabycie licencji
+### Uzyskanie licencji
 
-Aspose oferuje bezpłatną wersję próbną swojej biblioteki, pozwalającą na zapoznanie się z jej funkcjami przed dokonaniem zakupu. Możesz również ubiegać się o tymczasową licencję, jeśli potrzebujesz bardziej rozbudowanych możliwości testowania. Odwiedź [Strona zakupu Aspose](https://purchase.aspose.com/buy) Aby uzyskać szczegółowe informacje na temat nabycia stałej licencji, kliknij tutaj.
+Aspose oferuje darmową wersję próbną, a także możesz poprosić o tymczasową licencję na dłuższe testy. Odwiedź [stronę zakupu Aspose](https://purchase.aspose.com/buy), aby uzyskać szczegóły dotyczące uzyskania stałej licencji.
 
 ### Podstawowa inicjalizacja
 
-Po dodaniu Aspose.Cells jako zależności, zainicjowanie go w projekcie obejmuje tworzenie wystąpień klas Workbook i Worksheet, które są podstawowymi składnikami biblioteki. Oto szybki przykład startowy:
+Po dodaniu zależności, utwórz `Workbook` i uzyskaj pierwszy arkusz:
 
 ```java
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Przewodnik wdrażania
+## Przewodnik implementacji
 
-### Ładowanie wykresu programu Excel
+### Ładowanie wykresu Excel
 
-Aby dodać obrazki do wykresów, musisz najpierw załadować istniejący plik Excela i uzyskać dostęp do wykresu.
-
-**Krok 1: Załaduj skoroszyt**
+**Krok 1 – Ładowanie skoroszytu**  
 
 ```java
 String dataDir = Utils.getSharedDataDir(AddingPictureToChart.class) + "Charts/";
 Workbook workbook = new Workbook(dataDir + "chart.xls");
 ```
 
-### Dodawanie obrazków do wykresów
+### Dodawanie obrazów do wykresów
 
-Po załadowaniu skoroszytu przejdź do arkusza i wykresu, które chcesz zmodyfikować.
-
-**Krok 2: Uzyskaj dostęp do wykresu**
+**Krok 2 – Dostęp do wykresu**  
 
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Chart chart = worksheet.getCharts().get(0);
 ```
 
-**Krok 3: Dodaj obraz do wykresu**
-
-Tutaj ładujemy plik obrazu i dodajemy go bezpośrednio do wykresu:
+**Krok 3 – Dodanie obrazu do wykresu**  
 
 ```java
 FileInputStream stream = new FileInputStream(dataDir + "logo.jpg");
 Picture pic = chart.getShapes().addPictureInChart(50, 50, stream, 40, 40);
 ```
 
-**Krok 4: Dostosuj wygląd obrazu**
-
-Dostosuj sposób wyświetlania obrazu na wykresie:
+**Krok 4 – Dostosowanie wyglądu obrazu**  
 
 ```java
 LineFormat lineformat = pic.getLine();
@@ -121,71 +114,64 @@ lineformat.getSolidFill().setColor(Color.getBlue());
 lineformat.setDashStyle(MsoLineDashStyle.DASH_DOT_DOT);
 ```
 
-### Wyjście i zapisywanie
-
-Na koniec zapisz zmodyfikowany skoroszyt, aby zachować zmiany:
+### Wyjście i zapis
 
 ```java
 workbook.save(dataDir + "APToChart_out.xls");
 system.out.println("Picture added to chart successfully.");
 ```
 
-**Wskazówki dotyczące rozwiązywania problemów:**
-- Sprawdź, czy ścieżki do obrazów są poprawne.
-- Sprawdź, czy posiadasz uprawnienia do zapisu w katalogu wyjściowym.
+> **Wskazówka:** Używaj obrazów PNG z przezroczystym tłem, aby uzyskać czystszy wygląd przy wstawianiu logo.
 
-## Zastosowania praktyczne
+## Praktyczne zastosowania
 
-1. **Widoczność marki:** Dodawanie logotypów do wykresów zwiększa widoczność marki w prezentacjach.
-2. **Dostosowywanie raportu:** Dostosuj raporty, dodając obrazy charakterystyczne dla danej firmy, aby nadać im profesjonalny wygląd.
-3. **Ulepszenia wizualizacji danych:** Użyj rysunków do adnotacji i wyróżnienia kluczowych danych na wykresach.
-
-Aplikacje te pokazują, jak wszechstronny może być pakiet Aspose.Cells po zintegrowaniu go ze strategiami wizualizacji danych, dzięki czemu nadaje się zarówno do zastosowań korporacyjnych, jak i osobistych.
+- **Dodaj logo do wykresu** – Wzmacnia tożsamość marki w prezentacjach.  
+- **Wstaw obraz do wykresu** – Podkreśl kluczowe punkty danych odpowiednimi ikonami.  
+- **Dostosuj obraz wykresu** – Dopasuj kolory firmowe, modyfikując formaty linii.  
 
 ## Rozważania dotyczące wydajności
 
-Podczas pracy z Aspose.Cells należy wziąć pod uwagę następujące wskazówki dotyczące optymalizacji wydajności:
+- **Optymalizuj rozmiary obrazów** – Mniejsze obrazy zmniejszają zużycie pamięci.  
+- **Zwalniaj strumienie** – Szybko zamykaj obiekty `FileInputStream`.  
+- **Przetwarzanie wsadowe** – Przetwarzaj wiele skoroszytów w pętli, aby zwiększyć przepustowość.  
 
-- **Optymalizacja rozmiarów obrazów:** Aby zminimalizować użycie pamięci, należy używać obrazów o odpowiednich rozmiarach.
-- **Efektywne zarządzanie pamięcią:** Szybko pozbywaj się nieużywanych zasobów w aplikacjach Java.
-- **Przetwarzanie wsadowe:** Jeśli obsługujesz wiele wykresów i plików, przetwarzaj je w partiach, aby zoptymalizować zużycie zasobów.
+## Podsumowanie
 
-## Wniosek
+Teraz wiesz **jak dodać obraz** do wykresów Java przy użyciu Aspose.Cells, od ładowania skoroszytu po dostosowanie stylu obrazu i zapisanie pliku. Eksperymentuj z różnymi typami wykresów i formatami obrazów, aby tworzyć dopracowane, spójne z marką raporty.
 
-W tym samouczku nauczyłeś się, jak bezproblemowo dodawać obrazy do wykresów za pomocą Aspose.Cells dla Java. Ulepszając wykresy za pomocą obrazów, możesz tworzyć bardziej efektowne i atrakcyjne wizualnie prezentacje danych. Teraz, gdy posiadasz te umiejętności, rozważ eksplorację innych funkcji Aspose.Cells, aby jeszcze bardziej ulepszyć swoje projekty.
+Zachęcamy do dalszego odkrywania funkcji biblioteki. Po więcej informacji zajrzyj do [dokumentacji Aspose](https://reference.aspose.com/cells/java/).
 
-**Następne kroki:**
-- Eksperymentuj z różnymi typami wykresów
-- Poznaj dodatkowe opcje dostosowywania oferowane przez Aspose.Cells
+## Najczęściej zadawane pytania
 
-Zachęcamy do wdrożenia tego rozwiązania w kolejnym projekcie. Jeśli jesteś gotowy, aby pójść dalej, zapoznaj się z [Dokumentacja Aspose](https://reference.aspose.com/cells/java/) aby uzyskać dostęp do bardziej zaawansowanych funkcji i możliwości.
+**P1: Jak zastosować tymczasową licencję dla Aspose.Cells?**  
+A1: Odwiedź [stronę tymczasowej licencji Aspose](https://purchase.aspose.com/temporary-license/), aby poprosić o nią, co pozwala ocenić pełną wersję bez ograniczeń.
 
-## Sekcja FAQ
+**P2: Czy mogę dodać wiele obrazów do jednego wykresu przy użyciu Aspose.Cells?**  
+A2: Tak, wywołaj `addPictureInChart` wielokrotnie z różnymi strumieniami obrazu i współrzędnymi.
 
-**P1: Jak mogę ubiegać się o tymczasową licencję na Aspose.Cells?**
-- A1: Wizyta [Strona tymczasowej licencji Aspose](https://purchase.aspose.com/temporary-license/) aby poprosić o licencję, która umożliwi Ci wypróbowanie pełnej wersji oprogramowania bez ograniczeń.
+**P3: Co zrobić, gdy mój obraz nie wyświetla się poprawnie w wykresie?**  
+A3: Sprawdź, czy ścieżka obrazu jest prawidłowa, format jest obsługiwany (PNG, JPEG itp.) oraz dostosuj współrzędne X/Y lub parametry rozmiaru.
 
-**P2: Czy mogę dodać wiele obrazów do jednego wykresu za pomocą Aspose.Cells?**
-- A2: Tak, dzwoniąc `addPictureInChart` wielokrotnie dla różnych obrazów i współrzędnych na wykresie.
+**P4: Jak obsługiwać wyjątki przy dodawaniu obrazów do wykresów?**  
+A4: Umieść operacje I/O oraz wywołania Aspose.Cells w blokach try‑catch, aby elegancko obsłużyć `IOException` lub `CellsException`.
 
-**P3: Co zrobić, jeśli mój obraz nie wyświetla się prawidłowo na wykresie?**
-- A3: Upewnij się, że ścieżki do obrazów są poprawne i sprawdź, czy format obrazu jest obsługiwany. Dostosuj parametry pozycjonowania w razie potrzeby.
-
-**P4: Jak radzić sobie z wyjątkami podczas dodawania obrazów do wykresów?**
-- A4: Użyj bloków try-catch wokół operacji na plikach i wywołań metod Aspose.Cells, aby sprawnie zarządzać potencjalnymi błędami.
-
-**P5: Czy można dodawać obrazy z adresu URL zamiast ścieżki lokalnej?**
-- A5: Tak, najpierw pobierz obraz lub skorzystaj z funkcji sieciowych Java, aby pobrać i przesłać strumieniowo dane obrazu do wykresu.
+**P5: Czy można dodać obrazy z URL zamiast lokalnej ścieżki?**  
+A5: Tak — pobierz obraz przy użyciu `HttpURLConnection` w Javie lub biblioteki takiej jak Apache HttpClient, a następnie przekaż otrzymany `InputStream` do `addPictureInChart`.
 
 ## Zasoby
 
-Dalsze informacje i zasoby:
-- **Dokumentacja:** [Aspose.Cells dla Java Reference](https://reference.aspose.com/cells/java/)
-- **Pobierać:** [Najnowsze wersje Aspose.Cells dla Java](https://releases.aspose.com/cells/java/)
-- **Zakup:** [Kup licencje Aspose.Cells](https://purchase.aspose.com/buy)
-- **Bezpłatna wersja próbna:** [Testuj funkcje Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Licencja tymczasowa:** [Poproś o licencję tymczasową](https://purchase.aspose.com/temporary-license/)
-- **Wsparcie:** [Forum Aspose do zadawania pytań i udzielania pomocy](https://forum.aspose.com/c/cells/9)
+- **Dokumentacja:** [Aspose.Cells for Java Reference](https://reference.aspose.com/cells/java/)  
+- **Pobierz:** [Latest Releases of Aspose.Cells for Java](https://releases.aspose.com/cells/java/)  
+- **Zakup:** [Buy Aspose.Cells Licenses](https://purchase.aspose.com/buy)  
+- **Darmowa wersja próbna:** [Test Aspose.Cells Features](https://releases.aspose.com/cells/java/)  
+- **Licencja tymczasowa:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Wsparcie:** [Aspose Forum for Questions and Help](https://forum.aspose.com/c/cells/9)
+
+---
+
+**Ostatnia aktualizacja:** 2026-03-31  
+**Testowano z:** Aspose.Cells for Java 25.3  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

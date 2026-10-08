@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dinamik Veriler için Aspose.Cells'deki Akıllı İşaretleyiciler
@@ -26,7 +24,7 @@ Bir rapordaki her hücre için benzersiz bir etiket istediğinizi düşünün. A
 Birden fazla sayfaya yayılmış büyük miktarda veri işliyorsanız, bu özellik oyunun kurallarını değiştirir. Aspose.Cells, birden fazla çalışma sayfasına verileri verimli bir şekilde otomatik olarak doldurmanızı sağlayarak veri yönetimini daha akıcı ve hızlı hale getirir. Verileri otomatik olarak doğru hücrelere aktararak iş akışlarını kolaylaştırabilirsiniz. [Devamını oku](./auto-populate-data-smart-markers/)
 
 ## Resim İşaretleyicileri ile Resim Ekleme
-Görseller raporları hayat katar! Aspose.Cells ile, Resim İşaretleyicileri kullanarak Excel dosyalarınıza resimler ekleyebilirsiniz. Görselleri doğrudan Excel hücrelerinizin içine nasıl entegre edeceğinizi öğrenin, izleyicilerinizi etkileyen daha bilgilendirici, görsel olarak çekici bir rapor oluşturun. [Devamını oku](./insert-images-smart-markers/)
+Görseller raporlar
 
 ## Akıllı İşaretleyicilerde Dinamik Formülleri Kullanın
 Formüller hesaplamaları otomatikleştirebilir ve veri işlemeyi zahmetsiz hale getirebilir. Aspose.Cells ile Akıllı İşaretleyicilerde dinamik formüller kullanabilir ve yeni veriler eklendikçe hesaplamaların otomatik olarak güncellenmesini sağlayabilirsiniz. Bu özellik, değişen verilere sorunsuz bir şekilde uyum sağlayan raporlar oluşturmaya yardımcı olur, zamandan tasarruf sağlar ve doğruluğu artırır. [Devamını oku](./dynamic-formulas-smart-markers/)
@@ -80,10 +78,87 @@ Aspose.Cells for .NET ile akıllı işaretçilerde formül parametrelerini kulla
 Dinamik Excel raporlarını zahmetsizce oluşturmak için Genel Listeler ve Akıllı İşaretleyiciler ile .NET için Aspose.Cells'i öğrenin. Geliştiriciler için kolay kılavuz.
 ### [Akıllı İşaretleyicilerde HTML Özelliğini Kullanın Aspose.Cells .NET](./html-property-smart-markers/)
 .NET uygulamaları için akıllı işaretleyicilerde HTML özelliğini kullanmaya ilişkin bu adım adım eğitimle Aspose.Cells'in gücünü açığa çıkarın.
+### [Dinamik Excel Tablosu Oluşturma – Akıllı İşaretçi Kılavuzu](./create-dynamic-excel-table-smart-marker-guide/)
+Aspose.Cells for .NET ile Akıllı İşaretleyicileri kullanarak dinamik bir Excel tablosu oluşturmayı adım adım öğrenin.
+
 ### [Akıllı İşaretleyiciler Aspose.Cells ile İç İçe Nesneleri Yönetin](./nested-objects-smart-markers/)
 Akıllı İşaretleyicileri adım adım bir kılavuzda kullanarak iç içe geçmiş nesneleri zahmetsizce işleyerek Aspose.Cells ile Excel raporlamasının potansiyelini ortaya çıkarın.
+### [Aspose.Cells SmartMarker'da İç İçe Aralık Seçeneğini Etkinleştirin](./enable-nested-range-option-in-aspose-cells-smartmarker/)
+Aspose.Cells SmartMarker'da iç içe aralık seçeneğini nasıl etkinleştirip dinamik veri doldurmayı geliştireceğinizi öğrenin.
 ### [Akıllı İşaretleyiciler Aspose.Cells ile Değişken Dizisini Uygulayın](./variable-array-smart-markers/)
 Aspose.Cells'in gücünü açığa çıkarın. Kusursuz Excel rapor üretimi için Akıllı İşaretleyiciler ile değişken dizilerini adım adım nasıl uygulayacağınızı öğrenin.
+### [C#'ta Çalışma Sayfasına SmartMarker Uygulama – Tam Kılavuz](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
+C# kullanarak bir çalışma sayfasına SmartMarker eklemeyi ve dinamik veri doldurmayı adım adım öğrenin.
+
+### [Aspose.Cells'de Akıllı İşaretleyicileri Kullanarak Programlı Excel Oluşturma](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+
+### [Aspose.Cells SmartMarkerProcessor ile XLSX'den Çalışma Kitabı Oluşturma](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+Aspose.Cells SmartMarkerProcessor kullanarak bir XLSX dosyasından çalışma kitabı oluşturmayı adım adım öğrenin.
+
+### [C# ile JSON'u Excel'e Dönüştürme – Adım Adım Kılavuz](./convert-json-to-excel-with-c-step-by-step-guide/)
+
+### [Excel'de Akıllı İşaretleyici ile Sayfaları Bağlama – Adım Adım Kılavuz](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
+
+### [Aspose.Cells'de Dinamik Sayfa Adlandırma için İşaretleyicileri Kullanma](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
+
+### [Aspose.Cells Akıllı İşaretleyici ile Koşullu Hücre Değeri Oluşturma](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+
+### [Şablonu Yükleyip SmartMarker ile Excel Raporu Oluşturma](./how-to-load-template-and-create-excel-report-with-smartmarke/)
+
+### [SmartMarker ile JSON'da Değişkenleri Değiştirme – Tam Kılavuz](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+
+### [Aspose.Cells'de Akıllı İşaretleyicilerle Dinamik Çalışma Sayfaları Oluşturun](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
+Aspose.Cells for .NET kullanarak akıllı işaretleyicilerle dinamik çalışma sayfaları oluşturmayı adım adım öğrenin.
+
+### [Akıllı İşaretleyicilerle Şablon Yazma – Adım Adım Kılavuz](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+Akıllı İşaretleyicilerle şablon oluşturmayı öğrenin ve adım adım örneklerle Excel raporlarınızı özelleştirin.
+
+### [C# ile Excel Raporu Oluşturma – SmartMarker Kullanarak Tam Kılavuz](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+SmartMarker ile C# kullanarak dinamik Excel raporları oluşturmayı adım adım öğrenin.
+### [Excel Çalışma Kitabı Oluşturma C# – Hücrelere Dizi Ekleme Tam Kılavuzu](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+### [C# ile Excel Veri Birleştirme – Tam Smart Marker Kılavuzu](./excel-data-merging-in-c-complete-smart-marker-guide/)
+C# kullanarak Excel dosyalarında veri birleştirme işlemlerini Smart Marker ile adım adım öğrenin.
+### [C# ile Smart Markers Kullanarak Excel Şablonu Oluşturma – Tam Kılavuz](./create-excel-template-with-smart-markers-in-c-complete-guide/)
+C# ve Aspose.Cells ile Smart Markers kullanarak tam bir Excel şablonu oluşturmayı adım adım öğrenin.
+
+
+
+
+
+
+
+
+### [Akıllı İşaretleyicilerle Çalışma Kitabı Oluşturma – Yüksek Düşük Çıktı](./how-to-create-workbook-with-smart-markers-output-high-low/)
+Aspose.Cells for .NET ile Akıllı İşaretleyicileri kullanarak yüksek ve düşük değerli bir çalışma kitabı oluşturmayı öğrenin.
+
+### [Akıllı İşaretleyiciler Aspose.Cells ile Hiyerarşi Oluşturma – Adım Adım Kılavuz](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+Akıllı İşaretleyicileri kullanarak Excel içinde hiyerarşik veri yapıları oluşturmayı adım adım öğrenin.
+### [Akıllı İşaretleyicilerle Çalışma Kitabı Oluşturma – Aspose.Cells Rehberi](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+### [Excel Sayfalarını Otomatik Olarak İsimlendirme – Sayfaları Kolayca Oluşturma](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+### [Akıllı İşaretleyici Koleksiyonu Oluşturma – Tam C# Rehberi](./create-smart-marker-collection-complete-c-guide/)
+### [C#'ta Akıllı İşaretleyici Koleksiyonu Oluşturma – Tam Rehber](./create-smart-marker-collection-in-c-complete-guide/)
+C# kullanarak Aspose.Cells Smart Markers ile tam bir işaretleyici koleksiyonu oluşturmayı adım adım öğrenin.
+### [Excel'de veriyi tekrarlama – Şablonu SmartMarker ile doldurma](./repeat-data-in-excel-populate-template-with-smartmarker/)
+SmartMarker kullanarak bir şablona aynı veriyi birden çok kez ekleyerek Excel raporlarınızı dinamik olarak oluşturun.
+### [Excel'i Dışa Aktarma – C# Geliştiricileri için Tam Kılavuz](./how-to-export-excel-complete-guide-for-c-developers/)
+C# geliştiricileri için Excel dosyalarını dışa aktarmanın tüm adımlarını öğrenin ve raporlarınızı kolayca paylaşın.
+### [Verileri Excel'e Aktarın: C#'ta Bir Dizi Kullanarak Şablonu Doldurun](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+C# ile bir dizi verisini kullanarak Excel şablonunu doldurup dinamik raporlar oluşturmayı öğrenin.
+### [Sayfaları Otomatik Olarak Adlandırma – C#'ta Çoklu Sayfa Oluşturma](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+C# kullanarak Excel dosyalarında sayfaları otomatik adlandırmayı ve birden çok sayfa oluşturmayı öğrenin.
+### [Ana Veri Nesnesi Oluşturma – Detay Sayfası Oluşturmak için Adım Adım Kılavuz](./create-master-data-object-step-by-step-guide-to-generate-det/)
+Aspose.Cells ile ana veri nesnesi oluşturup, detay sayfasını otomatik olarak üretmeyi adım adım öğrenin.
+### [C#'ta Fatura Oluşturmayı Otomatikleştirme – Dinamik Çalışma Sayfası Adlandırma ve Tekrarlama](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+C# kullanarak fatura oluşturma sürecini otomatikleştirin, dinamik çalışma sayfası adlandırma ve veri tekrarını kolayca yönetin.
+### [C#'ta İndirim Şablonu Oluşturma – Adım Adım Kılavuz](./create-discount-template-in-c-step-by-step-guide/)
+### [Parse Nested JSON C# – Create JSON Payload C#](./parse-nested-json-c-create-json-payload-c/)
+C# ile iç içe JSON verilerini ayrıştırın ve JSON yükü oluşturmayı adım adım öğrenin.
+### [C#'ta Ana Detay Raporu Oluşturma – SmartMarker ile Excel Şablonunu Doldurma](./create-master-detail-report-in-c-populate-excel-template-wit/)
+
+### [Excel Şablonunu Doldurun – SmartMarker ile Excel Verilerini Doldurun](./populate-excel-template-fill-excel-data-via-smartmarker/)
+SmartMarker kullanarak bir Excel şablonunu doldurmayı ve verileri otomatik olarak yerleştirmeyi adım adım öğrenin.
+
+### [Akıllı İşaretçi ile Verileri Excel'e Aktarın – Tam C# Kılavuzu](./export-data-to-excel-with-smart-marker-full-c-guide/)
 ### [Aspose Cells Akıllı İşaretleyicileri: Modelden Excel Oluşturma C#'ta](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
 Model nesnelerinden Excel dosyaları oluşturmak için Aspose.Cells Smart Markers'ı C# ile nasıl kullanacağınızı öğrenin.
 ### [SmartMarker ile Çoklu Sayfalar Oluşturun – Tam C# Kılavuzu](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
@@ -93,7 +168,6 @@ SmartMarker kullanarak C# ile bir Excel dosyasında birden çok sayfa oluşturma
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

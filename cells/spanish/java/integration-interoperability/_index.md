@@ -53,7 +53,19 @@ Aprenda a automatizar tareas de Excel con Aspose.Cells para Java, incluida la ca
 ### [Implementación de la clase de Java Teacher con integración de Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 Aprenda a implementar una clase Teacher en Java, administrar datos de estudiantes e integrar Aspose.Cells para un mejor manejo de archivos Excel.
 
+### [Convertir Excel a PPTX con Java – Guía completa de programación](./convert-excel-to-pptx-with-java-complete-programming-guide/)
+Aprenda a convertir archivos Excel a presentaciones PPTX usando Aspose.Cells para Java con ejemplos de código completos.
 
+### [Cómo exportar gráficos de Excel a Word – Guía Java](./how-to-export-charts-from-excel-to-word-java-guide/)
+Aprenda a exportar gráficos de Excel a documentos Word usando Aspose.Cells para Java, con ejemplos de código completos.
+
+### [Cómo usar WRAPCOLS en Java – Guía completa de fórmulas de matriz en Excel](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
+Aprenda a aplicar la función WRAPCOLS en Java con Aspose.Cells para crear y manejar fórmulas de matriz en Excel de forma eficiente.
+### [Crear PowerPoint desde Excel – Guía completa en Java](./create-powerpoint-from-excel-full-java-guide/)
+Aprenda a generar presentaciones PowerPoint a partir de datos de Excel usando Aspose.Slides y Aspose.Cells en Java.
+
+### [Convertir Excel a PowerPoint – Guía completa en Java](./convert-excel-to-powerpoint-complete-java-guide/)
+Aprenda a convertir archivos Excel en presentaciones PowerPoint usando Aspose.Slides y Aspose.Cells en Java.
 
 ## Recursos adicionales
 

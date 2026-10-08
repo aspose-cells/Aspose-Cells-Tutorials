@@ -35,6 +35,9 @@ Pelajari cara mengonversi nilai enum menjadi string dengan Aspose.Cells untuk Ja
 ### [Aspose.Cells Java: Membuat dan Mengelola Rentang Bernama dalam File Excel](./aspose-cells-java-manage-named-ranges/)
 Pelajari cara membuat, mengelola, dan memanipulasi rentang bernama menggunakan Aspose.Cells untuk Java. Tutorial ini memandu Anda dalam menyiapkan lingkungan dan menguasai fitur-fitur utama dengan contoh kode.
 
+### [Menetapkan Nama ke Sel di Excel Menggunakan Java – Panduan Lengkap](./assign-name-to-cell-in-excel-using-java-complete-guide/)
+Pelajari cara menetapkan nama pada sel di Excel dengan Java menggunakan Aspose.Cells dalam panduan lengkap ini.
+
 ### [Mengakses Rentang Tampilan Maksimum di Buku Kerja Excel menggunakan Aspose.Cells Java](./aspose-cells-java-max-display-range/)
 Pelajari cara mengakses rentang tampilan maksimum lembar kerja di Excel menggunakan Aspose.Cells untuk Java. Kuasai fitur ini dengan panduan langkah demi langkah kami.
 
@@ -70,6 +73,9 @@ Pelajari cara mengotomatiskan area cetak Excel dengan Aspose.Cells untuk Java. K
 
 ### [Menyalin Satu Kolom Secara Efisien di Excel Menggunakan Aspose.Cells Java](./excel-single-column-copying-aspose-cells-java/)
 Pelajari cara mengotomatiskan proses penyalinan kolom tunggal ke beberapa kolom lain menggunakan Aspose.Cells untuk Java. Sederhanakan tugas penanganan data Anda dengan mudah.
+
+### [Menyalin Rentang Lembar Kerja Secara Programatik – Panduan Lengkap Java](./programmatically-copy-worksheet-range-complete-java-guide/)
+Pelajari cara menyalin rentang lembar kerja secara programatik di Excel menggunakan Aspose.Cells untuk Java dengan contoh kode lengkap.
 
 ### [Mengimpor Objek Kustom ke dalam Sel Excel yang Digabungkan Menggunakan Aspose.Cells untuk Java: Panduan Lengkap](./import-custom-objects-merged-cells-java-aspose-cells/)
 Pelajari cara mengimpor objek kustom secara efisien ke dalam sel gabungan di Excel menggunakan Aspose.Cells untuk Java. Kuasai penanganan data dengan panduan lengkap ini.

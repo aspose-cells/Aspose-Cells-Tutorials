@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การบันทึกและส่งออกไฟล์ Excel ด้วยตัวเลือก
@@ -44,6 +42,22 @@ Aspose.Cells สำหรับ .NET มอบเครื่องมืออ�
 เรียนรู้วิธีระบุคุณสมบัติของเอกสาร เช่น เวอร์ชัน ผู้เขียน และชื่อเรื่องในไฟล์ Excelด้วยโปรแกรม Aspose.Cells สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอน
 ### [การตัดแถวและคอลัมน์ว่างด้านหน้าขณะส่งออก](./trimming-leading-blank-rows-and-columns/)
 ปรับปรุงการส่งออก CSV ของคุณโดยตัดแถวและคอลัมน์ว่างด้านหน้าออกด้วย Aspose.Cells สำหรับ .NET ข้อมูลที่สะอาดอยู่ห่างออกไปเพียงไม่กี่ขั้นตอน
+### [บันทึกเวิร์กบุ๊ก Excel จาก JSON – คู่มือ C# ฉบับสมบูรณ์](./save-excel-workbook-from-json-complete-c-guide/)
+
+### [วิธีบันทึกเวิร์กบุ๊กใน C# – คู่มือการทำงานอัตโนมัติ Excel อย่างครบถ้วน](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
+เรียนรู้วิธีบันทึกเวิร์กบุ๊กใน C# อย่างละเอียด พร้อมเทคนิคการทำงานอัตโนมัติของ Excel อย่างครบถ้วน
+### [วิธีใช้ FlatOpcSaveOptions ใน C# – คู่มือฉบับสมบูรณ์](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+เรียนรู้วิธีใช้ FlatOpcSaveOptions เพื่อบันทึกไฟล์ Excel ด้วยตัวเลือกที่กำหนดใน C# อย่างละเอียด
+
+
+
+
+
+
+
+
+### [วิธีบันทึก Workbook ใน C# – คู่มือครบถ้วนสำหรับการล้างตัวกรองและการส่งออก Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+เรียนรู้วิธีบันทึก Workbook ใน C# พร้อมล้างตัวกรองและส่งออกไฟล์ Excel อย่างละเอียด
 ### [สร้างไฟล์ flat OPC ด้วย C# – คู่มือฉบับสมบูรณ์](./create-flat-opc-file-with-c-complete-guide/)
 เรียนรู้วิธีสร้างไฟล์ flat OPC ด้วย C# อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
 ### [บันทึก Workbook เป็น XLSX – คู่มือฉบับสมบูรณ์เพื่อสร้าง Excel พร้อมข้อมูล](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
@@ -52,7 +66,6 @@ Aspose.Cells สำหรับ .NET มอบเครื่องมืออ�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

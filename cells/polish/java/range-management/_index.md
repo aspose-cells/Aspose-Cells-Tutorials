@@ -51,7 +51,7 @@ Dowiedz się, jak używać Aspose.Cells for Java do konwersji tabel HTML na dobr
 Dowiedz się, jak zautomatyzować kopiowanie kolumn w programie Excel za pomocą Aspose.Cells for Java. Usprawnij swój przepływ pracy i zwiększ produktywność dzięki temu łatwemu w użyciu przewodnikowi.
 
 ### [Jak kopiować wiele kolumn w programie Excel za pomocą Aspose.Cells Java: kompletny przewodnik](./copy-multiple-columns-excel-aspose-cells-java/)
-Dowiedz się, jak zautomatyzować kopiowanie wielu kolumn w arkuszu kalkulacyjnym programu Excel za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje konfigurację, implementację i rozwiązywanie problemów.
+Dowiedz się, jak zautomatyzować kopiowanie wielu kolumn w arkuszu kalkulacyjnym programu Excel przy użyciu Aspose.Cells for Java. Ten przewodnik obejmuje konfigurację, implementację i rozwiązywanie problemów.
 
 ### [Tworzenie zakresu unii w programie Excel przy użyciu Aspose.Cells Java: kompleksowy przewodnik](./create-union-range-excel-aspose-cells-java/)
 Dowiedz się, jak używać Aspose.Cells for Java do tworzenia zakresów unii w programie Excel, co poprawia prezentację danych i ich czytelność.
@@ -71,6 +71,9 @@ Dowiedz się, jak zautomatyzować obszary wydruku w programie Excel za pomocą A
 ### [Efektywne kopiowanie pojedynczej kolumny w programie Excel przy użyciu Aspose.Cells Java](./excel-single-column-copying-aspose-cells-java/)
 Dowiedz się, jak zautomatyzować proces kopiowania pojedynczych kolumn do wielu innych, używając Aspose.Cells for Java. Usprawnij zadania związane z obsługą danych z łatwością.
 
+### [Programowe kopiowanie zakresu arkusza – Kompletny przewodnik Java](./programmatically-copy-worksheet-range-complete-java-guide/)
+Dowiedz się, jak programowo kopiować zakresy arkusza w Excelu przy użyciu Aspose.Cells dla Java.
+
 ### [Importowanie niestandardowych obiektów do połączonych komórek programu Excel za pomocą Aspose.Cells dla języka Java: kompleksowy przewodnik](./import-custom-objects-merged-cells-java-aspose-cells/)
 Dowiedz się, jak skutecznie importować niestandardowe obiekty do scalonych komórek w programie Excel przy użyciu Aspose.Cells for Java. Opanuj obsługę danych dzięki temu kompleksowemu przewodnikowi.
 
@@ -83,7 +86,8 @@ Dowiedz się, jak skutecznie zarządzać zakresami danych w programie Excel i ma
 ### [Rozdzielanie komórek Excela w Javie za pomocą Aspose.Cells: przewodnik krok po kroku](./unmerge-excel-cells-aspose-cells-java-guide/)
 Dowiedz się, jak skutecznie rozdzielić komórki w plikach Excela za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje konfigurację, wykrywanie i rozłączanie połączonych komórek z przykładami kodu.
 
-
+### [Przypisz nazwę komórce w Excelu przy użyciu Javy – kompletny przewodnik](./assign-name-to-cell-in-excel-using-java-complete-guide/)
+Dowiedz się, jak przypisać nazwę do pojedynczej komórki w Excelu przy użyciu Aspose.Cells for Java, krok po kroku.
 
 ## Dodatkowe zasoby
 

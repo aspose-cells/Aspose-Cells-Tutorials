@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Handhabung von CSV-Dateien
@@ -35,13 +33,30 @@ Weitere Informationen finden Sie in unseren ausführlichen Tutorials auf [Öffne
 Erfahren Sie in unserer umfassenden Schritt-für-Schritt-Anleitung, wie Sie CSV-Dateien mit Aspose.Cells für .NET öffnen. Meistern Sie die Datenmanipulation.
 ### [Öffnen von CSV-Dateien mit dem bevorzugten Parser](./csv-file-opening-csv-files-with-preferred-parser/)
 Erfahren Sie, wie Sie CSV-Dateien mit benutzerdefinierten Parsern in Aspose.Cells für .NET öffnen und analysieren. Verarbeiten Sie Text und Datum mühelos. Perfekt für Entwickler.
+### [Arbeitsmappe als CSV in C# speichern – Excel nach CSV exportieren](./save-workbook-as-csv-in-c-export-excel-to-csv/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Arbeitsmappen in CSV-Dateien exportieren und speichern.
+### [Neues Arbeitsbuch erstellen und in CSV exportieren – Schritt‑für‑Schritt C#‑Leitfaden](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
+Erfahren Sie, wie Sie ein neues Arbeitsbuch erstellen und es mit Aspose.Cells für .NET in eine CSV-Datei exportieren – ein klarer C#‑Leitfaden.
+
+
+
+
+
+
+
+
+### [Tabelle in CSV exportieren – Vollständiger C#-Leitfaden mit benutzerdefinierten Zahlenformaten](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
+Erfahren Sie, wie Sie Tabellen mit benutzerdefinierten Zahlenformaten in CSV-Dateien exportieren, inklusive vollständigem C#-Beispiel.
+### [Tabelle in CSV exportieren in C# – Komplettanleitung](./export-table-to-csv-in-c-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Tabellen in CSV-Dateien exportieren – Schritt für Schritt und vollständig erklärt.
+### [Arbeitsmappe als CSV speichern – Vollständige Anleitung zum Exportieren von Excel nach CSV in C#](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-i/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Arbeitsmappen effizient als CSV exportieren und dabei Optionen für Trennzeichen und Encoding nutzen.
 ### [Neues Arbeitsbuch in C# erstellen – Vollständige Anleitung zum Exportieren von Excel nach CSV](./create-new-workbook-in-c-full-guide-to-export-excel-to-csv/)
 Erfahren Sie, wie Sie mit Aspose.Cells ein neues Arbeitsbuch in C# erstellen und Excel-Daten effizient als CSV exportieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

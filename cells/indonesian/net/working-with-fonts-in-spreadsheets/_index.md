@@ -38,6 +38,8 @@ Tanuld meg, hogyan kérhetsz le és listázhatsz betűtípusokat Excel-tábláza
 Tanuld meg, hogyan állíthatsz be alapértelmezett betűtípusokat a PDF mentési beállításaihoz az Aspose.Cells for .NET használatával, így biztosítva, hogy dokumentumaid minden alkalommal tökéletesen nézzenek ki.
 ### [Betűtípusok megadása munkafüzet megjelenítéséhez](./specify-fonts-for-workbook-rendering/)
 Ismerje meg, hogyan adhat meg egyéni betűtípusokat a munkafüzetek rendereléséhez az Aspose.Cells for .NET használatával. Lépésről lépésre útmutató a tökéletes PDF-kimenet biztosításához.
+### [Mengubah Font Kotak Teks dalam Grid – Panduan Lengkap Langkah demi Langkah](./change-textbox-font-in-a-grid-complete-step-by-step-guide/)
+Pelajari cara mengubah font kotak teks dalam grid menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

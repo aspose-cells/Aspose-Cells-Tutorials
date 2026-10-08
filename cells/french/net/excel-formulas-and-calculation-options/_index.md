@@ -67,6 +67,9 @@ Découvrez comment interrompre les calculs de formules Excel à l’aide d’Asp
 Exploitez le potentiel d'Excel avec Aspose.Cells pour .NET. Apprenez étape par étape à traiter les données grâce à de puissantes fonctions complémentaires.
 ### [Traitement des données à l'aide de la fonction de tableau dans Excel](./processing-data-using-array-function/)
 Exploitez toute la puissance d'Excel avec Aspose.Cells pour .NET. Apprenez à traiter des données à l'aide de fonctions matricielles dans ce tutoriel détaillé.
+### [Comment étendre un tableau en C# avec Aspose.Cells – Guide étape par étape](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Apprenez à étendre un tableau en C# avec Aspose.Cells grâce à ce guide détaillé pas à pas.
+
 ### [Appliquer une formule matricielle Excel en C# – Guide complet](./apply-array-formula-excel-in-c-complete-guide/)
 Apprenez à appliquer une formule matricielle dans Excel en C# avec Aspose.Cells pour .NET grâce à ce guide complet étape par étape.
 ### [Traitement des données à l'aide des fonctions intégrées dans Excel](./processing-data-using-built-in-functions/)
@@ -77,6 +80,18 @@ Découvrez comment traiter des données avec les formules R1C1 dans Excel grâce
 Découvrez comment enregistrer et appeler des fonctions à partir de compléments dans Excel à l'aide d'Aspose.Cells pour .NET avec notre didacticiel simple étape par étape.
 ### [Spécification du nombre maximal de lignes de formules partagées dans Excel](./specifying-maximum-rows-of-shared-formula/)
 Découvrez comment spécifier le nombre maximal de lignes pour les formules partagées dans Excel à l'aide d'Aspose.Cells pour .NET avec ce didacticiel simple, étape par étape.
+### [Recalculer toutes les formules en C# – Actualiser Excel](./recalculate-all-formulas-in-c-refresh-excel/)
+Découvrez comment recalculer toutes les formules d’un classeur Excel en C# avec Aspose.Cells pour .NET, étape par étape.
+### [c# créer un fichier Excel – Guide étape par étape avec logique conditionnelle](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Apprenez à créer un fichier Excel en C# avec une logique conditionnelle grâce à ce guide pas à pas.
+### [Comment calculer la cotangente dans Excel avec C# – Guide étape par étape](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Apprenez à calculer la fonction cotangente dans Excel en utilisant C# avec Aspose.Cells, grâce à ce guide détaillé étape par étape.
+### [Comment utiliser WRAPCOLS en C# – Remodeler les tableaux en matrices](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Apprenez à utiliser la fonction WRAPCOLS en C# pour convertir des tableaux en matrices avec Aspose.Cells pour .NET.
+### [Comment créer un tableau dans Excel avec C# – Guide étape par étape](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Apprenez à créer et manipuler des tableaux dans Excel en utilisant C# avec Aspose.Cells, grâce à ce guide détaillé étape par étape.
+### [Comment calculer la cotangente dans Excel avec C# – Guide complet](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+Apprenez à calculer la fonction cotangente dans Excel en utilisant C# avec Aspose.Cells pour .NET grâce à ce guide complet étape par étape.
 ### [Comment utiliser WRAPCOLS dans Excel – Exemple complet en C#](./how-to-use-wrapcols-in-excel-complete-c-example/)
 Apprenez à appliquer la fonction WRAPCOLS dans Excel avec un exemple complet en C# utilisant Aspose.Cells pour .NET.
 

@@ -36,20 +36,41 @@ Aspose.Cells for Java でスプレッドシートの作業を効率化しまし�
 ## スプレッドシート自動化チュートリアル
 ### [バッチExcel処理](./batch-excel-processing/)
 Aspose.Cells for Java を使って、Excel のバッチ処理タスクを効率化する方法を学びましょう。ソースコード例を使って、データの処理、変換、操作を自動化しましょう。
+
 ### [自動データ入力](./automated-data-entry/)
 Aspose.Cells for Java のソースコード例を使って、データ入力を効率的に自動化する方法を学びましょう。データ処理の生産性と精度を向上させます。
+
 ### [動的Excelレポート](./dynamic-excel-reports/)
 Aspose.Cells for Javaを使えば、動的なExcelレポートを簡単に作成できます。データ更新の自動化、書式設定の適用、そして時間の節約も実現できます。
+
 ### [自動データ抽出](./automated-data-extraction/)
 Aspose.Cells for Java のソースコード例を使って、データ抽出を効率的に自動化する方法を学びましょう。Excel ファイルから簡単にデータを抽出できます。
+
 ### [Excel ワークブックの自動化](./excel-workbook-automation/)
 Aspose.Cellsを使ってJavaでExcelワークブックの自動化を学習：Excelファイルをプログラムで作成、読み取り、更新。今すぐ始めましょう！
+
 ### [Excelグラフの自動化](./automating-excel-charts/)
 Aspose.Cells for Java を使って Excel のグラフ作成とカスタマイズを自動化する方法を、ソースコード例とともに解説します。グラフ作成作業を効率化します。 
+
 ### [JavaによるExcel自動化](./excel-automation-with-java/)
 Excel 操作用の強力なライブラリである Aspose.Cells を使用して、ソース コードの例とともに Java で Excel タスクを自動化する方法を学習します。
+
+### [JavaでExcelをプログラム的に作成 – ステップバイステップガイド](./create-excel-programmatically-in-java-step-by-step-guide/)
+Aspose.Cells for Java を使用して、コードから Excel ファイルを作成する方法をステップバイステップで学びます。
+
 ### [Excelでのデータ統合](./data-integration-in-excel/)
 Excelでデータを効率的に統合し、より優れた洞察と意思決定を実現する方法を学びましょう。Aspose.Cells for Javaを使用したソースコード付きのステップバイステップガイドです。
+### [JavaでExcelのオートフィルタをオフにする方法 – 完全ガイド](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+Aspose.Cells for Java を使って、Excel のオートフィルタ機能をオフにし、データ抽出や分析をスムーズに行う方法を解説します。
+
+### [JavaでExcelのオートフィルタを無効にする – ステップバイステップガイド](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
+Aspose.Cells for Java を使用して、Excel のオートフィルタ機能をプログラムで無効化する方法を学びます。
+### [JavaでExcelのAutoFilterをオフにする方法 – 完全ガイド](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+Aspose.Cells for Java を使用して、Excel の AutoFilter を無効にする方法をステップバイステップで解説します。
+### [Javaで縦方向配列Excelを作成 – 完全ステップバイステップガイド](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+Aspose.Cells for Java を使用して、縦方向の配列を持つ Excel シートを作成する方法をステップバイステップで解説します。
+### [JavaでExpandを使用する方法 – 完全Excelガイド](./how-to-use-expand-in-java-complete-excel-guide/)
+Aspose.Cells for Java を使用して、Expand 機能の使い方と Excel での活用方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

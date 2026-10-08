@@ -102,6 +102,8 @@ Tìm hiểu cách hủy hợp nhất các ô đã hợp nhất trong Excel bằn
 ### [Cập nhật ngày nhật ký sửa đổi trong Excel dùng chung với Aspose.Cells](./update-revision-logs-days-aspose-cells-net)
 Nắm vững quy trình cập nhật nhật ký lịch sử sửa đổi trong sổ làm việc Excel được chia sẻ. Hướng dẫn này chỉ cách thao tác các tính năng theo dõi sửa đổi theo chương trình để quản lý tài liệu tốt hơn trong môi trường cộng tác.
 
+### [Cách ghi ngày Excel trong C# – Hướng dẫn lập trình toàn diện](./how-to-write-date-excel-in-c-complete-programming-guide/)
+Hướng dẫn chi tiết cách ghi ngày vào ô Excel bằng C# sử dụng Aspose.Cells, bao gồm định dạng, vùng thời gian và các lưu ý quan trọng.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

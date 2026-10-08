@@ -29,6 +29,9 @@ Onze tutorials over opmerkingen en annotaties laten zien hoe u samenwerkingsfunc
 ### [Afbeelding toevoegen aan Excel-opmerking met Aspose.Cells voor Java: een complete handleiding](./add-image-excel-comment-aspose-cells-java/)
 Leer hoe je afbeeldingen toevoegt aan Excel-opmerkingen met Aspose.Cells voor Java. Deze handleiding behandelt alles van installatie tot implementatie, en verbetert je spreadsheets effectief.
 
+### [Hoe een opmerking toe te voegen in Excel met Java: een complete handleiding](./how-to-add-comment-in-excel-with-java-complete-guide/)
+Leer stap voor stap hoe u met Java een opmerking aan een Excel-werkblad toevoegt, inclusief codevoorbeelden en configuratie‑instructies.
+
 ### [Master Aspose.Cells Java: efficiënt beheer van Excel-opmerkingen](./aspose-cells-java-excel-comment-management/)
 Leer hoe u Excel-opmerkingen beheert en verwijdert met Aspose.Cells voor Java. Automatiseer de gegevensverwerking met onze stapsgewijze handleiding voor het beheer van opmerkingen.
 

@@ -38,6 +38,8 @@ Aprenda a obtener y enumerar fuentes de hojas de cálculo de Excel usando Aspose
 Aprenda a configurar fuentes predeterminadas para las opciones de guardado de PDF usando Aspose.Cells para .NET, garantizando que sus documentos se vean perfectos en todo momento.
 ### [Especificar fuentes para la representación del libro de trabajo](./specify-fonts-for-workbook-rendering/)
 Aprenda a especificar fuentes personalizadas para la representación de libros de trabajo con Aspose.Cells para .NET. Una guía paso a paso para garantizar una salida PDF perfecta.
+### [Cambiar la fuente del cuadro de texto en una cuadrícula – Guía completa paso a paso](./change-textbox-font-in-a-grid-complete-step-by-step-guide/)
+Aprenda a modificar la fuente de los cuadros de texto dentro de una cuadrícula usando Aspose.Cells para .NET, con instrucciones detalladas paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

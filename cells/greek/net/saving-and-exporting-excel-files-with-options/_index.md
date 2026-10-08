@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Αποθήκευση και εξαγωγή αρχείων Excel με επιλογές
@@ -44,6 +42,22 @@
 Μάθετε πώς να καθορίζετε ιδιότητες εγγράφου όπως έκδοση, συντάκτη και τίτλο σε ένα αρχείο Excel μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Cells για .NET με οδηγίες βήμα προς βήμα.
 ### [Περικοπή κορυφαίων κενών γραμμών και στηλών κατά την εξαγωγή](./trimming-leading-blank-rows-and-columns/)
 Βελτιστοποιήστε τις εξαγωγές CSV σας περικόπτοντας τις πρώτες κενές γραμμές και στήλες με το Aspose.Cells για .NET. Τα καθαρά δεδομένα απέχουν μόλις λίγα βήματα.
+### [Πώς να αποθηκεύσετε βιβλίο εργασίας σε C# – Ολοκληρωμένος οδηγός αυτοματοποίησης Excel](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
+Μάθετε πώς να αποθηκεύσετε ένα βιβλίο εργασίας σε C# χρησιμοποιώντας το Aspose.Cells, ακολουθώντας βήμα-βήμα οδηγίες για πλήρη αυτοματοποίηση Excel.
+### [Πώς να χρησιμοποιήσετε το FlatOpcSaveOptions σε C# – Πλήρης Οδηγός](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Μάθετε πώς να εφαρμόζετε τις επιλογές FlatOpcSaveOptions για αποθήκευση αρχείων Excel με βέλτιστη απόδοση σε C#.
+
+
+
+
+
+
+
+
+### [Πώς να αποθηκεύσετε το βιβλίο εργασίας σε C# – Πλήρης οδηγός για την εκκαθάριση φίλτρων και την εξαγωγή Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Μάθετε πώς να αποθηκεύσετε ένα βιβλίο εργασίας σε C#, να καθαρίσετε τα φίλτρα και να εξάγετε το αρχείο Excel με το Aspose.Cells για .NET.
+### [Αποθήκευση βιβλίου εργασίας Excel από JSON – Πλήρης οδηγός C#](./save-excel-workbook-from-json-complete-c-guide/)
+Μάθετε πώς να δημιουργήσετε και να αποθηκεύσετε ένα βιβλίο εργασίας Excel από δεδομένα JSON χρησιμοποιώντας C# και Aspose.Cells.
 ### [Δημιουργία flat OPC αρχείου με C# – Πλήρης οδηγός](./create-flat-opc-file-with-c-complete-guide/)
 Μάθετε πώς να δημιουργήσετε ένα flat OPC αρχείο χρησιμοποιώντας C# με τον πλήρη οδηγό μας βήμα προς βήμα.
 ### [Αποθήκευση βιβλίου εργασίας ως XLSX – Πλήρης οδηγός για δημιουργία Excel με δεδομένα](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
@@ -52,7 +66,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

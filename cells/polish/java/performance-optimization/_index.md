@@ -68,7 +68,8 @@ Naucz się optymalizować skoroszyty programu Excel w Javie za pomocą Aspose.Ce
 ### [Optymalizacja komórek skoroszytu programu Excel w języku Java przy użyciu Aspose.Cells: kompletny przewodnik](./optimize-workbook-cells-java-aspose-cells-guide/)
 Dowiedz się, jak skutecznie optymalizować i zarządzać komórkami skoroszytu programu Excel za pomocą Aspose.Cells for Java. Ulepsz swoje aplikacje Java dzięki temu kompleksowemu przewodnikowi.
 
-
+### [Ustaw useflatopc true – Jak zapisać skoroszyty Excel w formacie Flat OPC w Javie](./set-useflatopc-true-how-to-save-excel-workbooks-with-flat-op/)
+Dowiedz się, jak używać opcji useFlatOPC=true, aby zapisywać skoroszyty Excel w formacie Flat OPC przy użyciu Aspose.Cells for Java.
 
 ## Dodatkowe zasoby
 

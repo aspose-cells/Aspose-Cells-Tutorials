@@ -63,6 +63,19 @@
 ### [Excel में R1C1 का उपयोग करके डेटा प्रोसेस करना](./processing-data-using-r1c1/)
 ### [Excel में ऐड-इन से फ़ंक्शन पंजीकृत करना और कॉल करना](./registering-and-calling-function-from-add-in/)
 ### [एक्सेल में साझा सूत्र की अधिकतम पंक्तियाँ निर्दिष्ट करना](./specifying-maximum-rows-of-shared-formula/)
+### [Aspose.Cells के साथ C# में एरे को विस्तारित करने की चरण‑दर‑चरण गाइड](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Aspose.Cells का उपयोग करके C# में एरे को कैसे विस्तारित करें, इस विस्तृत मार्गदर्शिका में सीखें।
+
+### [c# एक्सेल फ़ाइल बनाना – शर्तीय लॉजिक के साथ चरण‑दर‑चरण गाइड](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+
+### [C# में सभी फ़ॉर्मूले पुनः गणना करें – Excel रीफ़्रेश करें](./recalculate-all-formulas-in-c-refresh-excel/)
+### [C# के साथ Excel में कोटैन्जेंट कैसे गणना करें – चरण‑दर‑चरण गाइड](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+C# और Aspose.Cells का उपयोग करके Excel में कोटैन्जेंट फ़ॉर्मूला की गणना करने के लिए इस चरण‑दर‑चरण मार्गदर्शिका का पालन करें।
+### [C# में WRAPCOLS का उपयोग कैसे करें – एरे को मैट्रिक्स में पुनः आकार देना](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+इस ट्यूटोरियल में C# में WRAPCOLS फ़ंक्शन का उपयोग करके एरे को मैट्रिक्स में बदलना सीखें।
+### [C# के साथ Excel में एरे कैसे बनाएं – चरण‑दर‑चरण गाइड](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+C# और Aspose.Cells का उपयोग करके Excel में एरे बनाने की प्रक्रिया को सरलता से सीखें।
+### [C# के साथ Excel में कोटैन्जेंट कैसे गणना करें – पूर्ण गाइड](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 ### [Excel में WRAPCOLS का उपयोग कैसे करें – पूर्ण C# उदाहरण](./how-to-use-wrapcols-in-excel-complete-c-example/)
 ### [C# में एरे फ़ॉर्मूला Excel लागू करना – पूर्ण गाइड](./apply-array-formula-excel-in-c-complete-guide/)
 

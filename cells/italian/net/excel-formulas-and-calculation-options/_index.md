@@ -56,7 +56,8 @@ Scopri come aggiungere celle alla finestra di controllo delle formule di Excel u
 
 ### [Calcolo delle formule in Excel a livello di programmazione](./calculating-formulas/)
 Automatizza le tue attività in Excel con Aspose.Cells per .NET. Impara a calcolare le formule a livello di codice in questo tutorial completo.
-
+### [Ricalcolare tutte le formule in C# – Aggiornare Excel](./recalculate-all-formulas-in-c-refresh-excel/)
+Scopri come ricalcolare tutte le formule in un foglio Excel usando Aspose.Cells per .NET con C# in questa guida passo passo.
 ### [Calcolo delle formule una volta a livello di programmazione in Excel](./calculating-formulas-once/)
 Scopri come calcolare le formule di Excel a livello di codice utilizzando Aspose.Cells per .NET in questo tutorial passo passo. Migliora le tue competenze di automazione in Excel.
 
@@ -74,7 +75,8 @@ Sfrutta il potenziale di Excel con Aspose.Cells per .NET. Scopri passo dopo pass
 
 ### [Elaborazione dei dati tramite la funzione Array in Excel](./processing-data-using-array-function/)
 Sfrutta la potenza di Excel con Aspose.Cells per .NET. Impara a elaborare i dati utilizzando le funzioni array in questo tutorial dettagliato.
-
+### [Come utilizzare WRAPCOLS in C# – Rimodellare gli array in matrici](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Scopri come usare la funzione WRAPCOLS in C# per trasformare array in matrici con Aspose.Cells per .NET, passo passo.
 ### [Elaborazione dei dati tramite funzioni integrate in Excel](./processing-data-using-built-in-functions/)
 Scopri come elaborare i dati utilizzando le funzioni integrate in Excel con Aspose.Cells per .NET. Segui un tutorial passo passo per una facile automazione.
 
@@ -86,6 +88,14 @@ Scopri come registrare e richiamare funzioni dai componenti aggiuntivi in Excel 
 
 ### [Specificare il numero massimo di righe di formule condivise in Excel](./specifying-maximum-rows-of-shared-formula/)
 Scopri come specificare il numero massimo di righe per le formule condivise in Excel utilizzando Aspose.Cells per .NET con questo semplice tutorial passo dopo passo.
+### [c# crea file Excel – Guida passo‑passo con logica condizionale](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Impara a generare file Excel con C# usando Aspose.Cells, includendo logica condizionale per automatizzare i tuoi fogli di calcolo.
+### [Come calcolare la cotangente in Excel con C# – Guida passo‑passo](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Scopri come calcolare la cotangente in Excel usando C# con Aspose.Cells per .NET in questa guida dettagliata passo passo.
+### [Come espandere un array in C# con Aspose.Cells – Guida passo‑passo](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Scopri come espandere un array in C# utilizzando Aspose.Cells con questa guida dettagliata passo passo.
+### [Creare un array in Excel con C# – Guida passo‑passo](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+### [Come calcolare la cotangente in Excel con C# – Guida completa](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 
 ### [Come utilizzare WRAPCOLS in Excel – Esempio completo C#](./how-to-use-wrapcols-in-excel-complete-c-example/)
 Scopri come usare la funzione WRAPCOLS in Excel con un esempio completo in C# usando Aspose.Cells per .NET.

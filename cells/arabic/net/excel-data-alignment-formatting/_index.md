@@ -37,6 +37,8 @@
 ## دروس محاذاة وتنسيق البيانات في Excel
 ### [تغيير محاذاة خلايا Excel دون فقدان التنسيق](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
 تعرّف على كيفية تغيير محاذاة خلايا Excel دون فقدان التنسيق باستخدام Aspose.Cells لـ .NET. اتبع دليلنا الشامل خطوة بخطوة للتحكم السلس.
+### [كيفية لف النص في Excel: لف النص داخل الخلية، ضبط تلقائي وحفظ](./how-to-wrap-text-in-excel-wrap-text-in-cell-auto-fit-save/)
+تعلم كيفية لف النص داخل خلايا Excel، ضبط العرض تلقائيًا وحفظ الملف باستخدام Aspose.Cells لـ .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

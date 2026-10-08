@@ -32,6 +32,16 @@
 學習如何使用 Aspose.Cells for .NET 透過幾個簡單的步驟將 Excel 檔案轉換為 XPS 格式，並附有實際程式碼範例的指導。
 ### [在 .NET 中設定 PDF 建立時間](./setting-pdf-creation-time/)
 了解如何使用 Aspose.Cells 在 .NET 中設定 PDF 建立時間。按照我們的逐步指南，實現 Excel 到 PDF 的無縫轉換。
+### [如何使用 C# 在 Excel 中寫入 Unicode – 完整步驟指南](./how-to-write-unicode-in-excel-with-c-complete-step-by-step-g/)
+學習使用 Aspose.Cells for .NET 及 C# 在 Excel 中寫入 Unicode 字元的完整步驟與範例。
+### [在 C# 中將 docx 轉換為 XPS – 完整指南](./convert-docx-to-xps-in-c-complete-guide/)
+學習如何使用 Aspose.Words for .NET 在 C# 中將 docx 檔案轉換為 XPS，提供完整步驟與程式碼範例。
+### [使用 C# 完整指南：將 Excel 轉換為 XPS](./convert-excel-to-xps-with-c-complete-guide/)
+本指南詳細說明如何使用 Aspose.Cells for .NET 及 C# 將 Excel 檔案轉換為 XPS，包含完整程式碼範例。
+### [建立新的 Excel 活頁簿 – Unicode 與 XPS 匯出指南](./create-new-excel-workbook-unicode-xps-export-guide/)
+學習如何在 Aspose.Cells for .NET 中建立 Unicode 支援的 Excel 活頁簿，並將其匯出為 XPS 格式。
+### [在 C# 中嵌入字型於 XPS – 完整程式設計指南](./embed-fonts-in-xps-with-c-complete-programming-guide/)
+學習如何在 XPS 文件中嵌入字型，確保文字正確顯示，並提供完整的 C# 程式碼範例。
 ### [使用 Aspose.Cells 嵌入字型至 PDF – 完整 C# 指南](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
 學習如何在使用 Aspose.Cells 產生 PDF 時嵌入字型，確保文件在任何環境中正確顯示。
 

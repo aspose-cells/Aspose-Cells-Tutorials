@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Salvataggio ed esportazione di file Excel con opzioni
@@ -44,6 +42,22 @@ Scopri come gestire gli avvisi durante il caricamento di file Excel in .NET util
 Scopri come specificare le proprietà del documento, quali versione, autore e titolo, in un file Excel a livello di programmazione utilizzando Aspose.Cells per .NET con istruzioni dettagliate.
 ### [Taglio delle righe e delle colonne vuote iniziali durante l'esportazione](./trimming-leading-blank-rows-and-columns/)
 Semplifica le tue esportazioni CSV eliminando le righe e le colonne vuote iniziali con Aspose.Cells per .NET. Ottieni dati puliti in pochi passaggi.
+### [Come salvare una cartella di lavoro in C# – Guida completa all'automazione di Excel](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
+Scopri come salvare una cartella di lavoro in C# con Aspose.Cells, seguendo una guida completa all'automazione di Excel.
+### [Guida completa all'uso di FlatOpcSaveOptions in C#](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Scopri come utilizzare FlatOpcSaveOptions per salvare file Excel con opzioni avanzate in C# con questa guida passo passo.
+
+
+
+
+
+
+
+
+### [Come salvare una cartella di lavoro in C# – Guida completa per rimuovere i filtri ed esportare Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Scopri come rimuovere i filtri e salvare ed esportare un file Excel usando Aspose.Cells per .NET con C# in pochi passaggi.
+### [Salva cartella di lavoro Excel da JSON – Guida completa C#](./save-excel-workbook-from-json-complete-c-guide/)
+Impara a creare e salvare una cartella di lavoro Excel a partire da dati JSON usando Aspose.Cells per .NET con C#.
 ### [Creare un file OPC flat con C# – Guida completa](./create-flat-opc-file-with-c-complete-guide/)
 Scopri come generare un file OPC flat usando C# con Aspose.Cells, passo passo, per una gestione avanzata dei documenti Excel.
 ### [Salva cartella di lavoro come XLSX – Guida completa per generare Excel con dati](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
@@ -52,7 +66,6 @@ Impara a salvare una cartella di lavoro in formato XLSX usando Aspose.Cells per 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

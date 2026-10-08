@@ -35,6 +35,9 @@ Aspose.Cells for Javaを使って列挙値を文字列に変換し、ライブ�
 ### [Aspose.Cells Java: Excel ファイル内の名前付き範囲の作成と管理](./aspose-cells-java-manage-named-ranges/)
 Aspose.Cells for Java を使用して名前付き範囲を作成、管理、操作する方法を学びます。このチュートリアルでは、環境の設定から主要な機能の習得までを、コード例を用いて解説します。
 
+### [Java を使用して Excel のセルに名前を割り当てる – 完全ガイド](./assign-name-to-cell-in-excel-using-java-complete-guide/)
+Java と Aspose.Cells を使い、Excel のセルに名前を付けて管理する方法をステップバイステップで解説します。
+
 ### [Aspose.Cells Java を使用して Excel ブックの最大表示範囲にアクセスする](./aspose-cells-java-max-display-range/)
 Aspose.Cells for Java を使用して、Excel ワークシートの最大表示範囲にアクセスする方法を学びましょう。ステップバイステップガイドでこの機能をマスターしましょう。
 
@@ -83,7 +86,8 @@ Aspose.Cells for Java を使用して、Excel のデータ範囲を効率的に�
 ### [Aspose.Cells を使用して Java で Excel セルの結合を解除する: ステップバイステップ ガイド](./unmerge-excel-cells-aspose-cells-java-guide/)
 Aspose.Cells for Java を使用して、Excel ファイル内のセルを効率的に結合解除する方法を学びます。このガイドでは、結合セルの設定、検出、結合解除について、コード例を交えて解説します。
 
-
+### [プログラムでワークシートの範囲をコピーする – 完全 Java ガイド](./programmatically-copy-worksheet-range-complete-java-guide/)
+Aspose.Cells for Java を使用して、ワークシートのセル範囲をプログラムでコピーする方法をステップバイステップで解説します。
 
 ## 追加リソース
 

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Speichern und Exportieren von Excel-Dateien mit Optionen
@@ -44,6 +42,22 @@ Erfahren Sie mit unserer einfachen Schritt-für-Schritt-Anleitung, wie Sie mit W
 Erfahren Sie anhand schrittweiser Anleitungen, wie Sie Dokumenteigenschaften wie Version, Autor und Titel in einer Excel-Datei programmgesteuert mit Aspose.Cells für .NET angeben.
 ### [Entfernen führender leerer Zeilen und Spalten beim Exportieren](./trimming-leading-blank-rows-and-columns/)
 Optimieren Sie Ihre CSV-Exporte, indem Sie führende leere Zeilen und Spalten mit Aspose.Cells für .NET entfernen. Saubere Daten sind nur wenige Schritte entfernt.
+### [Wie man eine Arbeitsmappe in C# speichert – Vollständiger Excel-Automatisierungsleitfaden](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Arbeitsmappe in C# vollständig automatisieren und speichern.
+### [Wie man FlatOpcSaveOptions in C# verwendet – Komplettanleitung](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET die FlatOpcSaveOptions nutzen, um Excel-Dateien effizient zu speichern.
+
+
+
+
+
+
+
+
+### [So speichern Sie Arbeitsmappe in C# – Vollständige Anleitung zum Löschen von Filtern und Exportieren von Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Arbeitsmappen in C# speichern, Filter entfernen und Excel exportieren.
+### [Excel-Arbeitsmappe aus JSON speichern – Vollständige C#-Anleitung](./save-excel-workbook-from-json-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe aus JSON-Daten erstellen und speichern – Schritt für Schritt.
 ### [Flache OPC-Datei mit C# erstellen – Komplettanleitung](./create-flat-opc-file-with-c-complete-guide/)
 Erfahren Sie, wie Sie mit C# eine flache OPC-Datei erstellen und alle Schritte der Komplettanleitung umsetzen.
 ### [Arbeitsmappe als XLSX speichern – Komplettanleitung zur Generierung von Excel mit Daten](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
@@ -52,7 +66,6 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Arbeitsmappen als XLSX speicher
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

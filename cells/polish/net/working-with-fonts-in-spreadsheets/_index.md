@@ -38,6 +38,8 @@ Dowiedz się, jak pobierać i wyświetlać czcionki z arkuszy kalkulacyjnych pro
 Dowiedz się, jak ustawić domyślne czcionki dla opcji zapisywania plików PDF przy użyciu Aspose.Cells for .NET, aby mieć pewność, że Twoje dokumenty będą za każdym razem wyglądać idealnie.
 ### [Określ czcionki do renderowania skoroszytu](./specify-fonts-for-workbook-rendering/)
 Dowiedz się, jak określić niestandardowe czcionki do renderowania skoroszytu za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku, który zapewni idealne wyjście PDF.
+### [Zmień czcionkę pola tekstowego w siatce – kompletny przewodnik krok po kroku](./change-textbox-font-in-a-grid-complete-step-by-step-guide/)
+Dowiedz się, jak zmienić czcionkę pola tekstowego w siatce przy użyciu Aspose.Cells dla .NET, krok po kroku, aby uzyskać pożądany wygląd.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

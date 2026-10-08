@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel fájlok mentése és exportálása a Beállítások segítségével
@@ -44,6 +42,21 @@ Tanuld meg, hogyan kezelheted a figyelmeztetéseket Excel-fájlok .NET-ben tört
 Tanulja meg, hogyan adhat meg dokumentumtulajdonságokat, például verziót, szerzőt és címet egy Excel-fájlban programozottan az Aspose.Cells for .NET használatával lépésről lépésre bemutatott utasításokkal.
 ### [Üres sorok és oszlopok levágása exportálás közben](./trimming-leading-blank-rows-and-columns/)
 Egyszerűsítse CSV-exportjait a kezdő üres sorok és oszlopok levágásával az Aspose.Cells for .NET segítségével. A tiszta adatok mindössze néhány lépésnyire vannak.
+### [Excel munkafüzet mentése JSON-ból – Teljes C# útmutató](./save-excel-workbook-from-json-complete-c-guide/)
+
+### [Munkafüzet mentése C#-ban – Teljes Excel automatizálási útmutató](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
+Ismerje meg, hogyan menthet egy munkafüzetet C#-ban az Aspose.Cells segítségével, lépésről lépésre a teljes Excel automatizálás érdekében.
+### [FlatOpcSaveOptions használata C#-ban – Teljes útmutató](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+
+
+
+
+
+
+
+
+### [Hogyan mentse el a munkafüzetet C#-ban – Teljes útmutató a szűrők törléséhez és az Excel exportálásához](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Ismerje meg, hogyan mentheti el a munkafüzetet C#-ban, törölheti a szűrőket, és exportálhatja az Excel fájlt az Aspose.Cells for .NET segítségével.
 ### [Lapos OPC fájl létrehozása C#-ban – Teljes útmutató](./create-flat-opc-file-with-c-complete-guide/)
 Ismerje meg, hogyan hozhat létre lapos OPC fájlt C#-ban az Aspose.Cells segítségével, lépésről lépésre útmutató.
 ### [Munkafüzet mentése XLSX formátumban – Teljes útmutató Excel adatgeneráláshoz](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
@@ -51,7 +64,6 @@ Ismerje meg, hogyan hozhat létre lapos OPC fájlt C#-ban az Aspose.Cells segít
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

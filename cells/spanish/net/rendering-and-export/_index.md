@@ -64,6 +64,10 @@ Aprenda a ignorar errores al convertir archivos de Excel a PDF con Aspose.Cells 
 Aprenda a imprimir una página en blanco usando Aspose.Cells para .NET, garantizando que sus informes siempre aparezcan profesionales, incluso cuando estén vacíos.
 ### [Renderizar páginas secuenciales en Aspose.Cells](./render-limited-number-of-sequential-pages/)
 Aprenda a renderizar páginas secuenciales en Excel con Aspose.Cells para .NET. Este tutorial paso a paso ofrece una guía detallada para convertir páginas seleccionadas en imágenes.
+### [Crear rango de referencia de tabla dinámica – Exportar imagen de tabla dinámica como PNG](./create-pivot-reference-range-export-pivot-table-image-as-png/)
+Aprenda a crear un rango de referencia para una tabla dinámica y exportar su imagen como PNG usando Aspose.Cells para .NET.
+### [Cómo exportar una tabla dinámica a PNG en C# – Guía paso a paso](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
+Aprenda a exportar una tabla dinámica de Excel a PNG usando Aspose.Cells para .NET con esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

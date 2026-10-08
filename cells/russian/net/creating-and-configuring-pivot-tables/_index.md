@@ -92,6 +92,8 @@ Aspose.Cells также поддерживает автоматизацию сл
 ### [Формат отображения данных сводной таблицы Ранжирование в .NET](./pivot-table-data-display-format-ranking/)
 Узнайте, как создавать и управлять рейтингами форматов отображения данных сводной таблицы в .NET с помощью Aspose.Cells с помощью этого пошагового руководства.
 
+### [Как создать сводную таблицу в C# – Полное руководство с Aspose.Cells](./how-to-create-pivot-in-c-full-guide-with-aspose-cells/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

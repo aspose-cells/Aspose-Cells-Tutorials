@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel-opmerkingen en -annotaties
@@ -38,13 +36,35 @@ Leer hoe u opmerkingen aan afbeeldingen toevoegt in Excel met Aspose.Cells voor 
 Leer hoe u opmerkingen aan cellen in Excel kunt toevoegen met Aspose.Cells voor .NET. Stapsgewijze handleiding voor beginners om de functionaliteit van Excel te verbeteren.
 ### [Opmaakopmerkingen - Lettertype, kleur, uitlijning](./format-comments-font-color-alignment/)
 Ontdek hoe u moeiteloos Excel-opmerkingen kunt opmaken met Aspose.Cells voor .NET. Pas het lettertype, de tekengrootte en de uitlijning aan om uw spreadsheets te verbeteren.
+### [Excel-werkmap maken C# – Opmerkingen toevoegen en invullen met slimme markeringen](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
+Leer hoe u opmerkingen toevoegt en vult met slimme markeringen in een Excel-werkmap met Aspose.Cells voor .NET.
+### [Opmerking toevoegen aan Excel-cel met Aspose.Cells C#](./add-comment-to-excel-cell-using-aspose-cells-c/)
+Leer hoe u met Aspose.Cells voor .NET een opmerking aan een Excel-cel kunt toevoegen met C#.
+### [Opmerking toevoegen aan Excel met C# – Complete stapsgewijze handleiding](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
+Leer hoe u met C# een opmerking aan Excel toevoegt met Aspose.Cells voor .NET. Volledige stap‑voor‑stap handleiding.
+
+
+
+
+
+
+
+
+### [Maak Excel-werkmap C# – Opmerking toevoegen en opslaan als XLSX](./create-excel-workbook-c-add-comment-save-as-xlsx/)
+Leer hoe u een Excel-werkmap maakt in C#, een opmerking toevoegt en opslaat als XLSX met Aspose.Cells voor .NET.
+
+### [Opmerking toevoegen in Excel – Hoe een Excel-sjabloon te vullen met slimme markers in C#](./add-comment-excel-how-to-populate-an-excel-template-with-sma/)
+Leer hoe u een Excel-sjabloon vult met slimme markers en opmerkingen toevoegt in C# met Aspose.Cells voor .NET.
+### [Excel-bestand programmatically maken – Opmerkingen toevoegen en opslaan als XLSX](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
+Leer hoe u met Aspose.Cells voor .NET een Excel-bestand maakt, opmerkingen toevoegt en opslaat als XLSX.
+### [Opmerkingcel toevoegen in Excel met Aspose.Cells Smart Marker](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
+Leer hoe u met Aspose.Cells Smart Marker een opmerkingcel toevoegt in Excel, zodat u dynamisch gegevens kunt annoteren.
 ### [Opmerking toevoegen aan cel in C# – Excel genereren uit gegevens](./add-comment-to-cell-in-c-generate-excel-from-data/)
 Leer hoe u met Aspose.Cells voor .NET een opmerking aan een cel toevoegt in C# en Excel genereert uit gegevens.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

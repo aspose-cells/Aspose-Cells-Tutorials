@@ -57,6 +57,8 @@ Dowiedz się, jak dodawać komórki do okna Excel Formula Watch Window przy uży
 Zautomatyzuj swoje zadania w programie Excel za pomocą Aspose.Cells dla .NET. Naucz się obliczać formuły programowo w tym kompleksowym samouczku.
 ### [Obliczanie formuł jednorazowo programowo w programie Excel](./calculating-formulas-once/)
 Dowiedz się, jak programowo obliczać formuły programu Excel przy użyciu Aspose.Cells dla .NET w tym samouczku krok po kroku. Udoskonal swoje umiejętności automatyzacji programu Excel.
+### [Recalculate All Formulas in C# – Refresh Excel](./recalculate-all-formulas-in-c-refresh-excel/)
+Dowiedz się, jak w C# przy użyciu Aspose.Cells odświeżyć wszystkie formuły w programie Excel w prostym przewodniku krok po kroku.
 ### [Wykrywanie odwołań cyklicznych w programie Excel programowo](./detecting-circular-reference/)
 Łatwe wykrywanie odwołań cyklicznych w programie Excel przy użyciu Aspose.Cells dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić dokładne obliczenia w arkuszach kalkulacyjnych.
 ### [Formuła bezpośredniego obliczenia w programie Excel programowo](./direct-calculation-formula/)
@@ -67,6 +69,9 @@ Dowiedz się, jak przerywać obliczenia formuł programu Excel za pomocą Aspose
 Odblokuj potencjał programu Excel dzięki Aspose.Cells dla .NET. Dowiedz się krok po kroku, jak przetwarzać dane za pomocą potężnych funkcji Add-In.
 ### [Przetwarzanie danych za pomocą funkcji tablicowej w programie Excel](./processing-data-using-array-function/)
 Odblokuj moc programu Excel dzięki Aspose.Cells dla .NET. Naucz się przetwarzać dane za pomocą funkcji tablicowych w tym szczegółowym samouczku.
+### [Jak utworzyć tablicę w Excelu przy użyciu C# – przewodnik krok po kroku](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Dowiedz się, jak tworzyć tablice w Excelu przy użyciu C# i Aspose.Cells dla .NET, krok po kroku.
+
 ### [Przetwarzanie danych za pomocą wbudowanych funkcji w programie Excel](./processing-data-using-built-in-functions/)
 Dowiedz się, jak przetwarzać dane za pomocą wbudowanych funkcji w programie Excel z Aspose.Cells dla .NET. Postępuj zgodnie z samouczkiem krok po kroku, aby uzyskać łatą automatyzację.
 ### [Przetwarzanie danych za pomocą R1C1 w programie Excel](./processing-data-using-r1c1/)
@@ -75,6 +80,16 @@ Poznaj sposób przetwarzania danych za pomocą formuł R1C1 w programie Excel pr
 Dowiedz się, jak rejestrować i wywoływać funkcje z dodatków w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego prostego samouczka krok po kroku.
 ### [Określanie maksymalnej liczby wierszy współdzielonej formuły w programie Excel](./specifying-maximum-rows-of-shared-formula/)
 Dowiedz się, jak określić maksymalną liczbę wierszy dla współdzielonych formuł w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego prostego samouczka krok po kroku.
+### [Jak używać WRAPCOLS w C# – przekształcanie tablic w macierze](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Dowiedz się, jak używać funkcji WRAPCOLS w C# do przekształcania jednowymiarowych tablic w macierze przy pomocy Aspose.Cells.
+
+### [Jak rozszerzyć tablicę w C# przy użyciu Aspose.Cells – przewodnik krok po kroku](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Dowiedz się, jak w prosty sposób rozszerzyć tablicę w C# przy użyciu Aspose.Cells, korzystając z naszego szczegółowego przewodnika krok po kroku.
+
+### [c# tworzenie pliku Excel – przewodnik krok po kroku z logiką warunkową](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Dowiedz się, jak w C# tworzyć plik Excel krok po kroku, wykorzystując logikę warunkową przy pomocy Aspose.Cells dla .NET.
+### [Jak obliczyć cotangens w Excelu przy użyciu C# – Kompletny przewodnik](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+Dowiedz się, jak obliczyć cotangens w Excelu przy użyciu Aspose.Cells i C#. Kompletny przewodnik krok po kroku.
 ### [Jak używać WRAPCOLS w Excelu – kompletny przykład w C#](./how-to-use-wrapcols-in-excel-complete-c-example/)
 ### [Zastosowanie formuły tablicowej w Excelu w C# – kompletny przewodnik](./apply-array-formula-excel-in-c-complete-guide/)
 Dowiedz się, jak zastosować formułę tablicową w Excelu przy użyciu Aspose.Cells w C#, krok po kroku, w pełnym przewodniku.

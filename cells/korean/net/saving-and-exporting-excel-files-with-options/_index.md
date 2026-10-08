@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 옵션을 사용하여 Excel 파일 저장 및 내보내기
@@ -44,6 +42,23 @@ Aspose.Cells를 사용하여 .NET에서 Excel 파일을 로드할 때 발생하�
 Aspose.Cells for .NET을 사용하여 단계별 지침을 통해 Excel 파일에서 버전, 작성자, 제목과 같은 문서 속성을 프로그래밍 방식으로 지정하는 방법을 알아보세요.
 ### [내보내는 동안 선행 빈 행과 열 자르기](./trimming-leading-blank-rows-and-columns/)
 Aspose.Cells for .NET을 사용하여 앞의 빈 행과 열을 잘라 CSV 내보내기를 간소화하세요. 몇 단계만 거치면 정리된 데이터를 얻을 수 있습니다.
+### [JSON에서 Excel 워크북 저장 – 완전 C# 가이드](./save-excel-workbook-from-json-complete-c-guide/)
+JSON 데이터를 활용해 Excel 워크북을 생성하고 저장하는 단계별 가이드를 제공합니다.
+
+### [C#에서 워크북 저장하기 – 완전한 Excel 자동화 가이드](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
+Aspose.Cells for .NET을 사용하여 C#에서 워크북을 저장하고 자동화하는 전체 단계별 가이드를 확인하세요.
+### [C#에서 FlatOpcSaveOptions 사용하기 – 완전 가이드](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Aspose.Cells for .NET에서 C#으로 FlatOpcSaveOptions를 활용해 Excel 파일을 저장하는 방법을 단계별로 안내합니다.
+
+
+
+
+
+
+
+
+### [C#에서 워크북 저장하기 – 필터 지우기 및 Excel 내보내기 완전 가이드](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Aspose.Cells for .NET을 사용하여 C#에서 워크북을 저장하고, 필터를 제거한 뒤 Excel 파일로 내보내는 방법을 단계별로 안내합니다.
 ### [C#로 평면 OPC 파일 만들기 – 완전 가이드](./create-flat-opc-file-with-c-complete-guide/)
 Aspose.Cells for .NET을 사용하여 C#에서 평면 OPC 파일을 생성하는 전체 단계별 가이드를 확인하세요.
 ### [워크북을 XLSX로 저장 – 데이터로 Excel 생성 완전 가이드](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
@@ -52,7 +67,6 @@ Aspose.Cells for .NET을 사용하여 데이터를 포함한 Excel 파일을 XLS
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -65,6 +65,9 @@ Aprenda a automatizar agrupamentos e estruturas no Excel com o Aspose.Cells para
 ### [Domine intervalos nomeados no Excel com Aspose.Cells para Java](./excel-named-ranges-aspose-cells-java/)
 Um tutorial de código para Aspose.Words Java
 
+### [Atribuir Nome a uma Célula no Excel usando Java – Guia Completo](./assign-name-to-cell-in-excel-using-java-complete-guide/)
+Aprenda a atribuir nomes a células no Excel usando Aspose.Cells para Java, com exemplos de código detalhados.
+
 ### [Automatize áreas de impressão do Excel usando Aspose.Cells para Java: um guia passo a passo](./excel-print-areas-automation-aspose-cells-java-guide/)
 Aprenda a automatizar áreas de impressão do Excel com o Aspose.Cells para Java. Domine a manipulação de pastas de trabalho e simplifique suas tarefas de relatórios com eficiência.
 
@@ -83,7 +86,8 @@ Aprenda a gerenciar e manipular intervalos de dados com eficiência no Excel usa
 ### [Desfazer a mesclagem de células do Excel em Java usando Aspose.Cells: um guia passo a passo](./unmerge-excel-cells-aspose-cells-java-guide/)
 Aprenda a desfazer a mesclagem de células em arquivos do Excel com eficiência usando o Aspose.Cells para Java. Este guia aborda a configuração, a detecção e a desmembramento de células mescladas com exemplos de código.
 
-
+### [Copiar intervalo de planilha programaticamente – Guia completo Java](./programmatically-copy-worksheet-range-complete-java-guide/)
+Aprenda a copiar intervalos de planilhas no Excel programaticamente usando Aspose.Cells para Java com exemplos completos.
 
 ## Recursos adicionais
 

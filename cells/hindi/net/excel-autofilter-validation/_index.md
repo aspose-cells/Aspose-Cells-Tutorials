@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # एक्सेल ऑटोफ़िल्टर और सत्यापन
@@ -36,11 +34,30 @@
 इस व्यापक चरण-दर-चरण मार्गदर्शिका के साथ .NET में Aspose.Cells का उपयोग करके Excel पंक्तियों को आसानी से ऑटोफ़िल्टर करना सीखें।
 ### [एक्सेल में दशमलव डेटा सत्यापन](./decimal-data-validation-in-excel/)
 हमारे आसान-से-अनुसरण गाइड के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel में दशमलव डेटा सत्यापन को लागू करने का तरीका जानें। आसानी से डेटा अखंडता को बढ़ाएँ।
+### [Excel से ऑटोफ़िल्टर हटाएँ – पूर्ण C# गाइड](./remove-autofilter-from-excel-complete-c-guide/)
+C# में Aspose.Cells का उपयोग करके Excel से ऑटोफ़िल्टर को पूरी तरह हटाने की चरण-दर-चरण गाइड।
+### [C# में Excel वर्कबुक से पहली तालिका प्राप्त करें – पूर्ण गाइड](./get-first-table-from-excel-workbook-in-c-complete-guide/)
+C# के साथ Aspose.Cells का उपयोग करके Excel वर्कबुक से पहली तालिका निकालने की पूरी प्रक्रिया सीखें।
+### [C# Excel ऑटोफ़िल्टर का उपयोग कैसे करें – पूर्ण चरण‑दर‑चरण गाइड](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
+Aspose.Cells के साथ C# में Excel ऑटोफ़िल्टर लागू करने के सभी चरणों को सीखें और डेटा फ़िल्टरिंग को आसान बनाएं।
+
+
+
+
+
+
+
+
+### [C# में Excel से ऑटोफ़िल्टर हटाएँ – पूर्ण चरण‑दर‑चरण गाइड](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
+Aspose.Cells for .NET का उपयोग करके C# में Excel से ऑटोफ़िल्टर हटाने की पूरी चरण‑दर‑चरण गाइड।
+### [C# के साथ Excel में फ़िल्टर UI साफ़ करें – ऑटोफ़िल्टर बटन हटाएँ](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
+C# में Aspose.Cells का उपयोग करके Excel से ऑटोफ़िल्टर बटन हटाने और फ़िल्टर UI को साफ़ करने की प्रक्रिया सीखें।
+### [C# के साथ Excel में फ़िल्टर एरो छिपाएँ – पूर्ण गाइड](./hide-filter-arrows-excel-with-c-complete-guide/)
+C# का उपयोग करके Excel में फ़िल्टर एरो को कैसे छिपाएँ, इस पूर्ण गाइड में चरण-दर-चरण सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

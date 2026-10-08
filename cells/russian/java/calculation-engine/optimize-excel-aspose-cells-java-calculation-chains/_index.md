@@ -11,18 +11,6 @@ url: /ru/java/calculation-engine/optimize-excel-aspose-cells-java-calculation-ch
 weight: 1
 ---
 
-; they are not code blocks but placeholders. They should stay as is.
-
-We need to translate the content inside code blocks? The placeholders are not actual code; they are placeholders. The instruction says preserve code blocks exactly. So we keep them unchanged.
-
-Thus we translate all visible text.
-
-Let's produce final output.
-
-We need to keep the shortcodes at top and bottom.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

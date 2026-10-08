@@ -33,6 +33,8 @@ Jetzt, wo Ihre Spalten gut aussehen, dürfen wir die Zeilen nicht vergessen! Das
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie das Spaltenformat in Excel mit Aspose.Cells für .NET anpassen. Ideal für Entwickler, die Excel-Aufgaben automatisieren.
 ### [Programmgesteuertes Anwenden der Formatierung auf eine Excel-Zeile](./applying-formatting-to-an-excel-row/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET programmgesteuert Formatierungen auf Excel-Zeilen anwenden. Diese detaillierte Schritt-für-Schritt-Anleitung deckt alles von der Ausrichtung bis zu den Rändern ab.
+### [Excel-Arbeitsmappe erstellen – Spalten umbrechen und als XLSX speichern](./create-excel-workbook-wrap-columns-and-save-as-xlsx/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe erstellen, Spalten umbrechen und die Datei als XLSX speichern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

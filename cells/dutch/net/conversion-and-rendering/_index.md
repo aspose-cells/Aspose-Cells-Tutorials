@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Conversie en rendering
@@ -38,11 +36,47 @@ Leer hoe je Excel naadloos naar PDF kunt converteren met Aspose.Cells in .NET. V
 Leer hoe je een Excel-werkblad naar SVG converteert met Aspose.Cells voor .NET met deze stapsgewijze handleiding. Perfect voor .NET-ontwikkelaars die Excel naar SVG willen renderen.
 ### [Excel naar MHTML converteren in .NET](./converting-excel-to-mhtml/)
 Leer hoe u Excel-bestanden efficiënt kunt converteren naar het MHTML-formaat in .NET met Aspose.Cells. Zo verbetert u uw rapportage- en gegevensdelingsmogelijkheden.
+### [Afbeelding maken vanuit Excel – Export Pivot naar PNG in C#](./create-image-from-excel-export-pivot-to-png-in-c/)
+Leer hoe u een afbeelding van een draaitabel in Excel kunt exporteren naar PNG met Aspose.Cells in C#.
+### [Hoe Markdown te laden en om te zetten naar Excel – Stapsgewijze handleiding](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
+Leer hoe u Markdown-bestanden kunt laden en converteren naar Excel met Aspose.Cells in een stapsgewijze handleiding.
+### [docx opslaan als txt – Converteer Word naar txt eenvoudig met Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+Leer hoe u Word-documenten eenvoudig omzet naar platte tekstbestanden (txt) met Aspose.Words in .NET.
+### [Hoe Markdown in Excel te laden – Complete C#-gids](./how-to-load-markdown-into-excel-complete-c-guide/)
+Leer hoe u Markdown-bestanden kunt importeren en weergeven in Excel met Aspose.Cells en C#.
+### [Excel-werkblad naar PNG – Complete C#-gids voor het opslaan van Excel als afbeelding](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+Leer hoe u met Aspose.Cells een Excel-werkblad als PNG-afbeelding opslaat via een volledige C#-handleiding.
+### [Markdown naar Excel converteren met C# – Stapsgewijze handleiding](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+Leer hoe u met Aspose.Cells en C# Markdown-bestanden naar Excel converteert in een stapsgewijze handleiding.
+### [Docx naar SVG converteren – Volledige gids voor het opslaan van Word als SVG](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
+Leer hoe u Word-documenten naar SVG converteert met Aspose.Words voor .NET in deze stapsgewijze volledige gids.
+### [Lettertypen insluiten in HTML – Volledige gids voor .NET-ontwikkelaars](./embed-fonts-in-html-complete-guide-for-net-developers/)
+Leer hoe u lettertypen in HTML insluit met Aspose.Cells voor .NET in deze stapsgewijze volledige gids.
+
+
+
+
+
+
+
+
+### [Excel-werkblad naar PNG – Exporteer een draaitabel als PNG in C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
+Leer hoe u met Aspose.Cells een draaitabel uit een Excel-werkblad exporteert als PNG-afbeelding in C#.
+
+### [Nieuw werkboek maken in C# – Markdown importeren naar Excel](./create-new-workbook-in-c-import-markdown-to-excel/)
+Leer hoe je met Aspose.Cells een nieuw Excel-werkboek maakt in C# en Markdown-inhoud importeert.
+### [Markdown naar Excel converteren – Complete C#-gids](./convert-markdown-to-excel-complete-c-guide/)
+Leer hoe je markdown-bestanden omzet naar Excel met een volledige C#-handleiding, stap voor stap met Aspose.Cells.
+### [Export Excel naar PNG met Aspose.Cells – Complete stapsgewijze handleiding](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Leer hoe u Excel-bestanden kunt exporteren naar PNG met Aspose.Cells in .NET via een volledige stapsgewijze handleiding.
+### [Hoe XLSX naar PNG converteren – Complete C# gids](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Leer hoe je XLSX-bestanden naar PNG-afbeeldingen converteert met Aspose.Cells in C# – een volledige stapsgewijze gids.
+### [Hoe speciale tekens in Excel invoegen – Stapsgewijze gids](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Leer hoe u speciale tekens in Excel kunt invoegen met Aspose.Cells in .NET – een volledige stap‑voor‑stap handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

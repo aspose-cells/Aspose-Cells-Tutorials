@@ -67,6 +67,8 @@ Leer hoe u Excel-formuleberekeningen kunt onderbreken met Aspose.Cells voor .NET
 Benut het potentieel van Excel met Aspose.Cells voor .NET. Leer stap voor stap hoe u gegevens verwerkt met behulp van krachtige invoegtoepassingen.
 ### [Gegevens verwerken met behulp van een matrixfunctie in Excel](./processing-data-using-array-function/)
 Ontgrendel de kracht van Excel met Aspose.Cells voor .NET. Leer gegevens verwerken met matrixfuncties in deze gedetailleerde tutorial.
+### [Hoe WRAPCOLS in C# te gebruiken – Arrays omvormen tot matrices](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Leer hoe u WRAPCOLS in C# toepast om arrays om te vormen tot matrices met Aspose.Cells voor .NET.
 ### [Gegevens verwerken met ingebouwde functies in Excel](./processing-data-using-built-in-functions/)
 Ontdek hoe u gegevens kunt verwerken met behulp van ingebouwde functies in Excel met Aspose.Cells voor .NET. Volg een stapsgewijze handleiding voor eenvoudige automatisering.
 ### [Gegevens verwerken met R1C1 in Excel](./processing-data-using-r1c1/)
@@ -75,6 +77,18 @@ Ontdek hoe u gegevens verwerkt met R1C1-formules in Excel met Aspose.Cells voor 
 Ontdek hoe u functies vanuit invoegtoepassingen in Excel kunt registreren en aanroepen met Aspose.Cells voor .NET met onze eenvoudige stapsgewijze zelfstudie.
 ### [Het maximale aantal rijen van een gedeelde formule in Excel specificeren](./specifying-maximum-rows-of-shared-formula/)
 Ontdek hoe u het maximum aantal rijen voor gedeelde formules in Excel kunt opgeven met Aspose.Cells voor .NET met deze eenvoudige, stapsgewijze zelfstudie.
+### [Alle formules opnieuw berekenen in C# – Excel vernieuwen](./recalculate-all-formulas-in-c-refresh-excel/)
+Leer hoe u met Aspose.Cells voor .NET alle formules in een werkmap opnieuw kunt berekenen en het blad kunt vernieuwen via C#.
+### [c# Excel-bestand maken – Stapsgewijze gids met voorwaardelijke logica](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Leer hoe u met Aspose.Cells voor .NET een Excel-bestand maakt in C# met voorwaardelijke logica, stap voor stap.
+### [Hoe cotangens te berekenen in Excel met C# – Stapsgewijze handleiding](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Leer hoe u cotangens berekent in Excel met C# via een duidelijke, stap‑voor‑stap tutorial.
+### [Hoe een array uit te breiden in C# met Aspose.Cells – Stapsgewijze gids](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Leer hoe u een array in C# kunt uitbreiden met Aspose.Cells in deze stapsgewijze handleiding.
+### [Hoe een array in Excel maken met C# – Stapsgewijze handleiding](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Leer hoe je met Aspose.Cells voor .NET een array in Excel kunt maken met C# in deze gedetailleerde stap‑voor‑stap gids.
+### [Hoe cotangens te berekenen in Excel met C# – Complete gids](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+Leer stap voor stap hoe je de cotangens-functie in Excel kunt berekenen met C# en Aspose.Cells.
 ### [Hoe WRAPCOLS in Excel te gebruiken – Volledig C#-voorbeeld](./how-to-use-wrapcols-in-excel-complete-c-example/)
 Leer hoe je de WRAPCOLS-functie in Excel gebruikt met een volledig C#-voorbeeld in Aspose.Cells voor .NET.
 ### [Arrayformule in Excel toepassen met C# – Volledige gids](./apply-array-formula-excel-in-c-complete-guide/)

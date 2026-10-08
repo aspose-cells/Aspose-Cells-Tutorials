@@ -35,7 +35,7 @@ Y si buscas agregarle algo de estilo a tus diseños, descubre cómo [Imágenes d
 
 ## Acceder a formas no primitivas
 
-Comprender las formas es fundamental al trabajar con Excel, especialmente cuando se busca crear documentos complejos y visualmente atractivos. El tutorial sobre... [Acceder a formas no primitivas en Excel](./access-non-primitive-shape-excel/) Es invaluable. Te guía sobre cómo interactuar con formas más complejas, más allá de los formatos estándar. Piensa en ello como si estuvieras desbloqueando un conjunto de herramientas avanzado; de repente, ya no estás limitado por las formas básicas y puedes implementar diseños y funcionalidades más creativos en tus hojas de cálculo.
+Comprender las formas es fundamental al trabajar con Excel, especialmente cuando se busca crear documentos complejos y visualmente atractivos. El tutorial sobre... [Acceder a formas no primitivas en Excel](./access-non-primitive-shape-excel/) Es invaluable. Te guía sobre cómo interactuar con formas más complejas, más allá de los formatos estándar. Piensa en ello como si estuvieras desbloqueando un conjunto de herramientas avanzado; de repente, ya no estás limitado por las formas básicas y puedes implementar diseños y funcionalidades más creativos en sus hojas de cálculo.
 
 ## Actualización de objetos OLE para contenido dinámico
 
@@ -50,6 +50,9 @@ Por último, hablemos de la presentación. No se trata solo de los datos, sino d
 Aprenda a extraer texto de un SmartArt de tipo engranaje en Excel con Aspose.Cells para .NET. Incluye una guía paso a paso y un ejemplo de código.
 ### [Reemplazar etiqueta con texto en cuadro de texto en Excel](./replace-tag-text-textbox-excel/)
 Reemplace fácilmente el texto en los cuadros de texto de sus hojas de Excel con Aspose.Cells para .NET. Una guía paso a paso para la automatización de Excel.
+### [Cambiar el tamaño de fuente del cuadro de texto en Excel con C# – Guía completa](./change-textbox-font-size-in-excel-with-c-complete-guide/)
+Aprenda a cambiar el tamaño de fuente de los cuadros de texto en Excel usando C# y Aspose.Cells para .NET. Guía paso a paso con ejemplos de código.
+
 ### [Girar texto con forma en Excel](./rotate-text-shape-excel/)
 Aprenda a rotar texto con formas en Excel con Aspose.Cells para .NET. Siga esta guía paso a paso para lograr una presentación perfecta en Excel.
 ### [Imagen de mosaico como textura en forma en Excel](./tile-picture-texture-shape-excel/)
@@ -68,6 +71,8 @@ Aprenda a configurar márgenes para comentarios y formas en Excel con Aspose.Cel
 Aprenda a acceder a formas no primitivas en Excel con Aspose.Cells para .NET. Descubra metodologías paso a paso en esta guía completa.
 ### [Actualizar objeto OLE en Excel](./refresh-ole-object-excel/)
 Aprenda a actualizar objetos OLE en Excel usando Aspose.Cells para .NET con una guía paso a paso, mejorando sus habilidades de automatización de Excel sin problemas.
+### [Poner texto en negrita en un cuadro de texto en Excel con C# – Guía paso a paso](./make-textbox-text-bold-in-excel-with-c-step-by-step-guide/)
+Aprenda a aplicar negrita al texto de un cuadro de texto en Excel usando Aspose.Cells para .NET y C#. Guía paso a paso con ejemplos de código.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Spara och exportera Excel-filer med alternativ
@@ -44,6 +42,22 @@ Lär dig hur du hanterar varningar när du laddar Excel-filer i .NET med Aspose.
 Lär dig hur du anger dokumentegenskaper som version, författare och titel i en Excel-fil programmatiskt med hjälp av Aspose.Cells för .NET med steg-för-steg-instruktioner.
 ### [Trimma inledande tomma rader och kolumner vid export](./trimming-leading-blank-rows-and-columns/)
 Effektivisera dina CSV-exporter genom att ta bort inledande tomma rader och kolumner med Aspose.Cells för .NET. Ren data är bara några steg bort.
+### [Hur man sparar arbetsbok i C# – Komplett guide för Excel-automatisering](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
+Lär dig steg för steg hur du sparar en arbetsbok i C# med Aspose.Cells och automatiserar hela Excel-processen.
+### [Hur man använder FlatOpcSaveOptions i C# – Komplett guide](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Lär dig hur du använder FlatOpcSaveOptions i C# för att spara Excel-filer med avancerade alternativ och förbättrad kontroll.
+
+
+
+
+
+
+
+
+### [Hur man sparar arbetsbok i C# – Komplett guide för att rensa filter och exportera Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Lär dig spara en arbetsbok i C#, ta bort filter och exportera till Excel med en komplett steg-för-steg-guide.
+### [Spara Excel-arbetsbok från JSON – Komplett C#-guide](./save-excel-workbook-from-json-complete-c-guide/)
+Lär dig hur du skapar en Excel-arbetsbok från JSON med C# och Aspose.Cells för .NET.
 ### [Skapa flat OPC-fil med C# – Komplett guide](./create-flat-opc-file-with-c-complete-guide/)
 Lär dig hur du skapar en flat OPC-fil med C# med Aspose.Cells för .NET i en komplett guide.
 ### [Spara arbetsbok som XLSX – Komplett guide för att generera Excel med data](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
@@ -52,7 +66,6 @@ Lär dig steg för steg hur du sparar en arbetsbok som XLSX och genererar Excel-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

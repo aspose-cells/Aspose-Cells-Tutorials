@@ -11,11 +11,7 @@ url: /ru/java/advanced-features/add-slicers-excel-aspose-cells-java-guide/
 weight: 1
 ---
 
- with translations.
-
-Be careful to keep markdown formatting.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

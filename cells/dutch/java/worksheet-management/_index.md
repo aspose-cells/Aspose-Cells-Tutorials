@@ -32,6 +32,9 @@ Leer hoe je specifieke werkbladen op naam kunt benaderen met Aspose.Cells voor J
 ### [Werkbladen toevoegen in Excel met Aspose.Cells voor Java: een complete handleiding](./add-spreadsheets-excel-aspose-cells-java/)
 Leer hoe u programmatisch werkbladen aan een Excel-bestand kunt toevoegen met Aspose.Cells voor Java. Deze handleiding behandelt de installatie, implementatie en praktische toepassingen.
 
+### [Meerdere werkbladen maken in Excel met Java – Complete sjabloongebaseerde handleiding](./create-multiple-sheets-in-excel-with-java-complete-template/)
+Leer hoe u met Aspose.Cells voor Java meerdere werkbladen in één Excel-bestand kunt maken met behulp van een kant‑en‑klare sjabloon.
+
 ### [Een kolom invoegen in Excel met Aspose.Cells voor Java - Een uitgebreide handleiding](./aspose-cells-java-insert-column-excel/)
 Beheers het invoegen van kolommen in je Excel-werkbladen met Aspose.Cells voor Java. Volg deze gedetailleerde handleiding om automatisch rapporten te genereren en je gegevensbeheer te verbeteren.
 
@@ -59,6 +62,9 @@ Een codetutorial voor Aspose.Words Java
 ### [Aspose.Cells Java onder de knie krijgen: slimme markeringen gebruiken voor dynamische gegevens in werkbladen](./aspose-cells-java-smart-markers-worksheets/)
 Leer hoe u Excel-bestandsgeneratie kunt automatiseren met Aspose.Cells voor Java met slimme markeringen. Stroomlijn uw gegevensbeheer en optimaliseer uw workflow vandaag nog.
 
+### [Hoe SmartMarkerProcessor te gebruiken voor dynamische bladnaamgeving](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
+Leer hoe u met SmartMarkerProcessor dynamische werkbladnamen kunt instellen in Excel-bestanden met Aspose.Cells voor Java.
+
 ### [Master Aspose.Cells Java: Uitgebreide handleiding voor werkmap- en werkbladbeheer](./aspose-cells-java-workbook-worksheet-guide/)
 Leer hoe u Excel-werkmappen beheert met Aspose.Cells voor Java. Deze handleiding behandelt het maken van werkmappen, toegang tot werkbladen, pagina-instellingen, afdruktitels en meer.
 
@@ -73,6 +79,9 @@ Leer hoe u kolommen uit een Excel-werkmap verwijdert met Aspose.Cells voor Java.
 
 ### [Rijen verwijderen in Excel met Aspose.Cells voor Java | Handleiding en tutorial](./delete-row-excel-aspose-cells-java/)
 Leer hoe je efficiënt rijen uit een Excel-bestand verwijdert met Aspose.Cells voor Java. Deze handleiding behandelt de installatie, codevoorbeelden en praktische toepassingen.
+
+### [Rijen verwijderen in werkblad met Java – volledige handleiding](./delete-rows-in-worksheet-with-java-complete-guide/)
+Leer hoe u met Aspose.Cells voor Java rijen uit een werkblad kunt verwijderen met voorbeeldcode en best practices.
 
 ### [Beheer de zichtbaarheid van Excel-tabbladen met Aspose.Cells in Java](./display-excel-tabs-aspose-cells-java/)
 Leer hoe u Excel-tabbladen kunt weergeven of verbergen met Aspose.Cells voor Java. Deze handleiding behandelt de installatie, code-implementatie en aanbevolen procedures voor effectief werkbladbeheer.

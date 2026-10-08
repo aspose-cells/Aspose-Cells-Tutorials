@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ukládání a export souborů aplikace Excel s možnostmi
@@ -44,6 +42,22 @@ Naučte se, jak zpracovávat varování při načítání souborů Excelu v .NET
 Naučte se, jak programově zadat vlastnosti dokumentu, jako je verze, autor a název, v souboru aplikace Excel pomocí Aspose.Cells pro .NET s podrobnými pokyny.
 ### [Ořezávání úvodních prázdných řádků a sloupců při exportu](./trimming-leading-blank-rows-and-columns/)
 Zjednodušte export CSV oříznutím úvodních prázdných řádků a sloupců pomocí Aspose.Cells pro .NET. Čistá data jsou jen pár kroků od vás.
+### [Jak uložit sešit v C# – Kompletní průvodce automatizací Excelu](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
+Naučte se, jak uložit sešit pomocí Aspose.Cells v C# s podrobným návodem pro kompletní automatizaci Excelu.
+### [Jak použít FlatOpcSaveOptions v C# – Kompletní průvodce](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Naučte se, jak využít FlatOpcSaveOptions pro ukládání souborů s možností Flat OPC v C# pomocí Aspose.Cells pro .NET.
+
+
+
+
+
+
+
+
+### [Jak uložit sešit v C# – Kompletní průvodce odstraňováním filtrů a exportem Excelu](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Naučte se, jak uložit sešit, vymazat filtry a exportovat Excel pomocí Aspose.Cells pro .NET.
+### [Uložení sešitu Excel z JSON – kompletní průvodce v C#](./save-excel-workbook-from-json-complete-c-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET převést data JSON do sešitu Excel a uložit jej pomocí C#.
 ### [Vytvoření plochého souboru OPC pomocí C# – Kompletní průvodce](./create-flat-opc-file-with-c-complete-guide/)
 Kompletní návod, jak pomocí C# vytvořit plochý OPC soubor pro Excel, včetně kroků a ukázek kódu.
 ### [Uložení sešitu jako XLSX – Kompletní průvodce generováním Excelu s daty](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
@@ -52,7 +66,6 @@ Kompletní návod, jak uložit sešit jako soubor XLSX a generovat Excel s daty 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

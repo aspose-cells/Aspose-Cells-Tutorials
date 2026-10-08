@@ -47,7 +47,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java effizient GUIDs aus eingebettet
 ### [Entfernen Sie ActiveX-Steuerelemente aus Excel mit Aspose.Cells Java](./remove-activex-controls-excel-aspose-cells-java/)
 Ein Code-Tutorial für Aspose.Words Java
 
-
+### [So betten Sie Schriftarten ein – Vollständige Anleitung für HTML-, XPS- und OLE-Export](./how-to-embed-fonts-complete-guide-for-html-xps-and-ole-expor/)
+Erfahren Sie, wie Sie Schriftarten in HTML-, XPS- und OLE-Exporten mit Aspose.Cells für Java einbetten, um konsistente Darstellung sicherzustellen.
 
 ## Weitere Ressourcen
 

@@ -34,6 +34,33 @@
 使用 Aspose.Cells for .NET 輕鬆將 Excel 電子表格轉換為 PDF！按照我們的逐步指南，獲得無縫體驗。
 ### [在.NET中將圖表轉換為PDF](./convert-chart-to-pdf/)
 透過本逐步指南了解如何使用 Aspose.Cells 在 .NET 中將 Excel 圖表轉換為 PDF！適合各個層級的程式設計師。
+### [如何在 C# 中設定 PDF 選項 – 完全掌控 Excel 匯出為 PDF](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
+本教學說明如何在 C# 使用 Aspose.Cells 設定 PDF 轉換選項，完整控制檔案大小、方向與品質。
+
+### [在 C# 中從 Excel 建立 PDF – 逐步指南](./create-pdf-from-excel-in-c-step-by-step-guide/)
+使用 Aspose.Cells for .NET，透過簡單步驟在 C# 中將 Excel 檔案轉換為 PDF。
+### [匯出工作簿至 PDF – 完整 C# 指南](./export-workbook-to-pdf-complete-c-guide/)
+使用 Aspose.Cells for .NET，完整步驟教您在 C# 中將工作簿匯出為 PDF。
+### [在將 Excel 轉換為 PDF 時嵌入字型 – 完整指南](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+本指南說明如何在使用 Aspose.Cells 轉換 Excel 為 PDF 時嵌入字型，確保文件在任何裝置上正確顯示。
+### [在 C# 中將 docx 轉換為 PDF – 完整指南](./convert-docx-to-pdf-in-c-complete-guide/)
+使用 Aspose.Words for .NET 輕鬆將 docx 文件轉換為 PDF，按照我們的逐步指南，獲得無縫體驗。
+### [在 C# 中將工作簿儲存為 PDF – 匯出 Excel 為 PDF/A‑3b](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
+使用 Aspose.Cells for .NET，了解如何將 Excel 工作簿匯出為符合 PDF/A‑3b 標準的 PDF 檔案。
+### [使用 Aspose.Cells 將活頁簿另存為 PDF – 完整逐步指南](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
+本指南詳細說明如何使用 Aspose.Cells 將 Excel 活頁簿完整轉換為 PDF，步驟清晰易懂。
+### [如何在 PDF 中嵌入字型 – 在 C# 中將活頁簿另存為 PDF](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
+使用 Aspose.Cells for .NET，了解如何在 C# 中將字型嵌入 PDF，確保文件在任何裝置上正確顯示。
+### [使用 C# 在 PDF 中嵌入字體 – 完整指南](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
+本完整指南教您使用 C# 與 Aspose.Cells 在 PDF 中嵌入字體，確保文件跨平台顯示一致。
+### [如何在 Excel 中插入 Unicode 並儲存為 PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
+使用 Aspose.Cells for .NET，了解如何在 Excel 中插入 Unicode 字元並將檔案儲存為 PDF。
+### [將 Excel 轉換為 PDF 時如何四捨五入數字 – 完整 C# 指南](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
+使用 Aspose.Cells for .NET 的完整 C# 教學，教您在將 Excel 轉換為 PDF 時正確四捨五入數字。
+### [將 Word 文件另存為 PDF – 完整 C# 指南](./save-word-document-as-pdf-complete-c-guide/)
+使用 Aspose.Words for .NET 的完整 C# 教學，教您將 Word 文件保存為 PDF，確保格式正確。
+### [在 .NET 中將字型嵌入 Excel 轉 PDF 的逐步指南](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
+了解如何在將 Excel 檔案轉換為 PDF 時嵌入字型，確保所有文字正確顯示，提供完整的步驟說明。
 ### [在 PDF 中嵌入字型 – 完整的 C# 指南：將 Excel 匯出為 PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
 本完整 C# 教學說明如何在匯出 Excel 為 PDF 時嵌入字型，確保文件在任何裝置上正確顯示。
 

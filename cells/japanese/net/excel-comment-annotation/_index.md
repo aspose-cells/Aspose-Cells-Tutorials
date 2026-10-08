@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excelのコメントと注釈
@@ -38,13 +36,35 @@ Aspose.Cells for .NET を使用して、Excel に画像付きのコメントを�
 Aspose.Cells for .NET を使用して Excel のセルにコメントを追加する方法を学びます。Excel の機能を強化するための初心者向けステップバイステップガイドです。
 ### [コメントの書式設定 - フォント、色、配置](./format-comments-font-color-alignment/)
 Aspose.Cells for .NET を使って、Excel のコメントを簡単にフォーマットする方法を学びましょう。フォント、サイズ、配置をカスタマイズして、スプレッドシートをより魅力的に演出しましょう。
+### [Excelワークブックの作成（C#） – スマートマーカーでコメントを追加・入力](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
+Aspose.Cells for .NET を使用して、C# で Excel ワークブックを作成し、スマートマーカーを利用してコメントを追加・入力する方法を学びます。
+### [Aspose.Cells C# を使用して Excel のセルにコメントを追加する](./add-comment-to-excel-cell-using-aspose-cells-c/)
+Aspose.Cells for .NET を使用して、Excel のセルにコメントを追加する方法を学びましょう。
+### [C#でExcelにコメントを追加する – 完全ステップバイステップガイド](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
+Aspose.Cells for .NET を使い、C# で Excel にコメントを追加する方法をステップバイステップで学び、スプレッドシートを強化しましょう。
+
+
+
+
+
+
+
+
+### [C# で Excel ワークブックを作成 – コメントを追加して XLSX 形式で保存](./create-excel-workbook-c-add-comment-save-as-xlsx/)
+Aspose.Cells for .NET を使用し、C# で Excel ワークブックを作成し、コメントを追加して XLSX ファイルとして保存する方法を学びます。
+
+### [Excelにコメントを追加 – C#でスマートマーカーを使用してExcelテンプレートにデータを入力する方法](./add-comment-excel-how-to-populate-an-excel-template-with-sma/)
+Aspose.Cells for .NET を使用して、C# でスマートマーカーを活用し、Excel テンプレートにコメントを自動的に挿入する方法を学びます。
+### [プログラムでExcelファイルを作成 – コメントを追加してXLSXとして保存](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
+Aspose.Cells for .NET を使用して、プログラムからExcelファイルを作成し、コメントを追加してXLSX形式で保存する方法を学びます。
+### [Aspose.Cells スマートマーカーで Excel にコメントセルを追加する](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
+Aspose.Cells のスマートマーカー機能を使い、Excel シートにコメントセルを自動的に挿入する方法を学びます。
 ### [C# でセルにコメントを追加 – データから Excel を生成](./add-comment-to-cell-in-c-generate-excel-from-data/)
 Aspose.Cells for .NET を使い、データから生成した Excel のセルにコメントを追加する手順を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

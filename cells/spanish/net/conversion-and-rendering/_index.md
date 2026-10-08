@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Conversión y renderizado
@@ -38,11 +36,49 @@ Aprenda a convertir Excel a PDF de forma avanzada y sin problemas con Aspose.Cel
 Aprenda a convertir una hoja de cálculo de Excel a SVG con Aspose.Cells para .NET con esta guía paso a paso. Ideal para desarrolladores .NET que buscan convertir Excel a SVG.
 ### [Conversión de Excel a MHTML en .NET](./converting-excel-to-mhtml/)
 Aprenda a convertir de manera eficiente archivos de Excel al formato MHTML en .NET con Aspose.Cells, mejorando sus capacidades de generación de informes y de intercambio de datos.
+### [Guardar docx como txt – Convertir Word a txt fácilmente con Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+Aprenda a guardar documentos Word (.docx) como archivos de texto plano (.txt) usando Aspose.Words en .NET de forma sencilla.
+
+### [Cómo cargar Markdown en Excel – Guía completa en C#](./how-to-load-markdown-into-excel-complete-c-guide/)
+Aprenda a importar archivos Markdown a Excel usando Aspose.Cells con C#, paso a paso y sin complicaciones.
+
+### [Crear imagen desde Excel – Exportar tabla dinámica a PNG en C#](./create-image-from-excel-export-pivot-to-png-in-c/)
+Aprenda a generar una imagen PNG de una tabla dinámica de Excel usando Aspose.Cells en C# paso a paso.
+### [Cómo cargar Markdown y convertirlo a Excel – Guía paso a paso](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
+Aprenda a cargar archivos Markdown y transformarlos en hojas de cálculo Excel usando Aspose.Cells en .NET, paso a paso.
+### [Hoja de cálculo de Excel a PNG – Guía completa en C# para guardar Excel como imagen](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+Aprenda a convertir hojas de cálculo de Excel a imágenes PNG usando Aspose.Cells y C#, paso a paso.
+### [Convertir Markdown a Excel con C# – Guía paso a paso](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+Aprenda a transformar archivos Markdown en hojas de cálculo Excel usando Aspose.Cells y C#, con instrucciones detalladas paso a paso.
+### [Convertir docx a SVG – Guía completa para guardar Word como SVG](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
+Aprenda a convertir documentos Word (docx) a SVG con Aspose.Words para .NET mediante esta guía paso a paso.
+### [Incrustar fuentes en HTML – Guía completa para desarrolladores .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
+Aprenda a incrustar fuentes en archivos HTML usando Aspose.Cells para .NET, garantizando una visualización consistente en todos los navegadores.
+
+
+
+
+
+
+
+
+### [Hoja de Excel a PNG – Exportar una tabla dinámica como PNG en C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
+Aprenda a exportar una tabla dinámica de Excel a una imagen PNG usando Aspose.Cells en C# con esta guía paso a paso.
+
+### [Crear nuevo libro de trabajo en C# – Importar Markdown a Excel](./create-new-workbook-in-c-import-markdown-to-excel/)
+Aprenda a crear un nuevo libro de trabajo en C# e importar contenido Markdown a Excel usando Aspose.Cells.
+### [Convertir markdown a Excel – Guía completa en C#](./convert-markdown-to-excel-complete-c-guide/)
+Aprenda a convertir archivos markdown a Excel usando Aspose.Cells con C# paso a paso.
+### [Exportar Excel a PNG con Aspose.Cells – Guía completa paso a paso](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Aprenda a exportar hojas de cálculo de Excel a imágenes PNG con Aspose.Cells en .NET mediante una guía detallada paso a paso.
+### [Cómo convertir XLSX a PNG – Guía completa en C#](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Aprenda a convertir archivos XLSX a imágenes PNG usando Aspose.Cells en C#, paso a paso y con ejemplos claros.
+### [Cómo insertar caracteres especiales en Excel – Guía paso a paso](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Aprenda a insertar caracteres especiales en Excel con Aspose.Cells paso a paso, mejorando la presentación de sus datos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

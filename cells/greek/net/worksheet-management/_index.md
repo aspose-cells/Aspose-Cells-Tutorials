@@ -152,6 +152,9 @@
 ### [Πώς να διαχωρίσετε τα παράθυρα φύλλων εργασίας στο Excel χρησιμοποιώντας το Aspose.Cells .NET για βελτιωμένη ανάλυση δεδομένων](./split-worksheet-panes-excel-aspose-cells-dotnet)
 Μάθετε πώς να χρησιμοποιείτε το Aspose.Cells για .NET για να διαχωρίζετε τα τμήματα πλαισίων φύλλων εργασίας στο Excel, βελτιώνοντας την πλοήγηση και την αποτελεσματικότητα της ανάλυσης δεδομένων για καλύτερη οπτικοποίηση μεγάλων συνόλων δεδομένων.
 
+### [Πώς να χρησιμοποιήσετε το SmartMarkerProcessor – Μετονομασία υπάρχοντος φύλλου στο Excel](./how-to-use-smartmarkerprocessor-rename-existing-sheet-in-exc/)
+Μάθετε πώς να μετονομάσετε ένα υπάρχον φύλλο Excel χρησιμοποιώντας το SmartMarkerProcessor του Aspose.Cells για .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

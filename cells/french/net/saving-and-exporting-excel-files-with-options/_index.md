@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Enregistrement et exportation de fichiers Excel avec options
@@ -44,6 +42,20 @@ Découvrez comment gérer les avertissements lors du chargement de fichiers Exce
 Découvrez comment spécifier les propriétés d'un document telles que la version, l'auteur et le titre dans un fichier Excel par programmation à l'aide d'Aspose.Cells pour .NET avec des instructions étape par étape.
 ### [Suppression des lignes et des colonnes vides de début lors de l'exportation](./trimming-leading-blank-rows-and-columns/)
 Simplifiez vos exportations CSV en supprimant les lignes et colonnes vides avec Aspose.Cells pour .NET. Nettoyez vos données en quelques étapes seulement.
+### [Comment enregistrer un classeur en C# – Guide complet d'automatisation Excel](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
+### [Comment utiliser FlatOpcSaveOptions en C# – Guide complet](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Découvrez comment utiliser FlatOpcSaveOptions en C# avec Aspose.Cells pour .NET, guide complet étape par étape.
+
+
+
+
+
+
+
+
+### [Comment enregistrer un classeur en C# – Guide complet pour effacer les filtres et exporter Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+### [Enregistrer un classeur Excel à partir de JSON – Guide complet C#](./save-excel-workbook-from-json-complete-c-guide/)
+Apprenez à créer et enregistrer un classeur Excel à partir de données JSON en C# avec Aspose.Cells pour .NET.
 ### [Créer un fichier OPC plat avec C# – Guide complet](./create-flat-opc-file-with-c-complete-guide/)
 Apprenez à créer un fichier OPC plat en C# avec Aspose.Cells, étape par étape, pour une manipulation efficace des classeurs.
 ### [Enregistrer le classeur au format XLSX – Guide complet pour générer Excel avec des données](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
@@ -52,7 +64,6 @@ Découvrez comment enregistrer un classeur au format XLSX et générer des fichi
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

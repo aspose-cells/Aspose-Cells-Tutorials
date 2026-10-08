@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konverze a vykreslování
@@ -38,11 +36,47 @@ Naučte se bezproblémově převádět Excel do PDF pomocí Aspose.Cells v .NET.
 Naučte se, jak převést list aplikace Excel do formátu SVG pomocí Aspose.Cells pro .NET v tomto podrobném návodu. Ideální pro vývojáře .NET, kteří chtějí vykreslit Excel do formátu SVG.
 ### [Převod Excelu do MHTML v .NET](./converting-excel-to-mhtml/)
 Naučte se, jak efektivně převádět soubory Excelu do formátu MHTML v .NET pomocí Aspose.Cells a vylepšit tak své možnosti tvorby reportů a sdílení dat.
+### [Vytvoření obrázku z Excelu – Export kontingenční tabulky do PNG v C#](./create-image-from-excel-export-pivot-to-png-in-c/)
+Naučte se exportovat kontingenční tabulku z Excelu do PNG pomocí Aspose.Cells v C#.
+### [Jak načíst Markdown a převést jej do Excelu – krok za krokem](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
+Naučte se načíst soubor Markdown a pomocí Aspose.Cells jej převést do formátu Excel v podrobném průvodci.
+### [Uložení docx jako txt – Jednoduchý převod Word do txt pomocí Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+Naučte se rychle převést soubory Word (DOCX) na prostý text (TXT) pomocí Aspose.Words v .NET.
+### [Jak načíst Markdown do Excelu – Kompletní průvodce C#](./how-to-load-markdown-into-excel-complete-c-guide/)
+Naučte se načíst soubory Markdown do Excelu pomocí Aspose.Cells v C# a efektivně zpracovávat textová data.
+### [Excel list do PNG – Kompletní průvodce C# pro uložení Excelu jako obrázek](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+Naučte se, jak převést list Excelu do PNG pomocí Aspose.Cells v C# a získat vysoce kvalitní obrázky.
+### [Převod Markdown do Excelu pomocí C# – krok za krokem](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+Naučte se převést soubory Markdown do Excelu pomocí Aspose.Cells v C# pomocí podrobného průvodce krok za krokem.
+### [Převod docx do SVG – Kompletní průvodce ukládáním Wordu jako SVG](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
+Naučte se převádět soubory DOCX do formátu SVG pomocí Aspose.Words v .NET a zachovat vysokou kvalitu grafiky.
+### [Vložení písem do HTML – Kompletní průvodce pro vývojáře .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
+Naučte se, jak vložit písma do HTML při převodu Excelu pomocí Aspose.Cells v .NET a zachovat přesné formátování.
+
+
+
+
+
+
+
+
+### [Excel list do PNG – Export kontingenční tabulky jako PNG v C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
+Naučte se exportovat kontingenční tabulku z Excelu do formátu PNG pomocí Aspose.Cells v C#.
+
+### [Vytvoření nového sešitu v C# – Import Markdown do Excelu](./create-new-workbook-in-c-import-markdown-to-excel/)
+Naučte se vytvořit nový sešit v C# a importovat obsah Markdown do Excelu pomocí Aspose.Cells.
+### [Převod markdownu do Excelu – Kompletní průvodce v C#](./convert-markdown-to-excel-complete-c-guide/)
+Naučte se převádět soubory markdown do formátu Excel pomocí Aspose.Cells v C# s podrobným krok‑za‑krokem návodem.
+### [Export Excel do PNG pomocí Aspose.Cells – Kompletní průvodce krok za krokem](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Naučte se, jak exportovat soubory Excel do formátu PNG pomocí Aspose.Cells v .NET v tomto podrobném průvodci.
+### [Jak vložit speciální znaky v Excelu – krok‑za‑krokem průvodce](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Naučte se, jak v Excelu vkládat speciální znaky pomocí Aspose.Cells v .NET v podrobném průvodci.
+### [Jak převést XLSX na PNG – Kompletní průvodce v C#](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Naučte se převádět soubory XLSX na PNG pomocí Aspose.Cells v C# s podrobným krok‑za‑krokem návodem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
