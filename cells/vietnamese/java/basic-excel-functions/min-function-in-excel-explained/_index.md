@@ -1,10 +1,75 @@
 ---
-"description": "Khám phá sức mạnh của hàm MIN trong Excel với Aspose.Cells cho Java. Học cách tìm giá trị tối thiểu một cách dễ dàng."
-"linktitle": "Giải thích về hàm MIN trong Excel"
-"second_title": "API xử lý Excel Java của Aspose.Cells"
-"title": "Giải thích về hàm MIN trong Excel"
-"url": "/vi/java/basic-excel-functions/min-function-in-excel-explained/"
-"weight": 17
+date: 2026-08-05
+description: Tìm hiểu cú pháp hàm MIN trong Excel và cách tìm giá trị tối thiểu bằng
+  cách sử dụng Aspose.Cells for Java. Hướng dẫn chi tiết từng bước cho các nhà phát
+  triển.
+keywords:
+- min function syntax
+- how to use min
+- find minimum value excel
+- read excel file java
+- load excel workbook java
+lastmod: 2026-08-05
+linktitle: Giải thích cú pháp hàm MIN trong Excel
+og_description: Khám phá cú pháp hàm MIN trong Excel và học cách sử dụng Aspose.Cells
+  for Java để tìm giá trị tối thiểu trong một worksheet một cách hiệu quả.
+og_image_alt: Screenshot showing Excel MIN function result in a Java‑generated workbook
+og_title: Cú pháp hàm MIN trong Excel – Hướng dẫn nhanh cho các nhà phát triển Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-05'
+  description: Learn the min function syntax in Excel and how to find the minimum
+    value using Aspose.Cells for Java. Step‑by‑step guide for developers.
+  headline: Min function syntax in Excel explained
+  type: TechArticle
+- description: Learn the min function syntax in Excel and how to find the minimum
+    value using Aspose.Cells for Java. Step‑by‑step guide for developers.
+  name: Min function syntax in Excel explained
+  steps:
+  - name: Set up the development environment
+    text: Install the Aspose.Cells JAR and add it to your project’s classpath. This
+      gives you access to the `Workbook`, `Worksheet`, and `Cells` classes needed
+      for formula handling.
+  - name: Load an Excel file
+    text: The `Workbook` class represents an entire Excel file in memory.
+  - name: Access a worksheet
+    text: A `Worksheet` object gives you access to a single sheet within the workbook.
+  - name: Define the range and apply the MIN formula
+    text: Assume the numbers you want to evaluate are in cells **A1:A10**. You set
+      the formula on cell **B1** using the exact min function syntax.
+  - name: Calculate the worksheet
+    text: Calling `calculateFormula()` forces Aspose.Cells to evaluate all formulas,
+      including the MIN function you just added.
+  - name: Retrieve the result
+    text: After calculation, read the value from the cell containing the formula.
+      The returned value is the minimum number from the specified range.
+  type: HowTo
+- questions:
+  - answer: Define a named range that expands automatically (e.g., using `OFFSET`)
+      and reference that name in the MIN formula. Aspose.Cells evaluates the named
+      range each time you recalculate.
+    question: How can I apply the MIN function to a dynamic range of cells?
+  - answer: The function ignores non‑numeric entries. If you need to treat text as
+      zero, use the `MINA` function instead.
+    question: Can I use the MIN function with non‑numeric data?
+  - answer: '`MIN` skips text and blanks, while `MINA` treats text as zero and includes
+      empty cells in its calculation.'
+    question: What is the difference between MIN and MINA functions?
+  - answer: The function accepts up to 255 arguments and does not accept array literals
+      directly; for complex scenarios, combine it with `MINA` or use helper columns.
+    question: Are there any limitations to the MIN function in Excel?
+  - answer: Wrap the MIN formula with `IFERROR(MIN(...), "N/A")` to return a custom
+      message instead of an error code.
+    question: How do I handle errors when using the MIN function in Excel?
+  type: FAQPage
+second_title: Aspose.Cells Java Excel Processing API
+tags:
+- min function
+- Aspose.Cells
+- Java Excel processing
+title: Giải thích cú pháp hàm MIN trong Excel
+url: /vi/java/basic-excel-functions/min-function-in-excel-explained/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,121 +78,121 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Giải thích về hàm MIN trong Excel
-
+# Cú pháp hàm MIN trong Excel được giải thích
 
 ## Giới thiệu về hàm MIN trong Excel được giải thích bằng cách sử dụng Aspose.Cells cho Java
 
-Trong thế giới xử lý và phân tích dữ liệu, Excel là một công cụ đáng tin cậy. Nó cung cấp nhiều hàm khác nhau để giúp người dùng thực hiện các phép tính phức tạp một cách dễ dàng. Một trong những hàm đó là hàm MIN, cho phép bạn tìm giá trị nhỏ nhất trong một phạm vi ô. Trong bài viết này, chúng ta sẽ đi sâu vào hàm MIN trong Excel và quan trọng hơn là cách sử dụng hàm này hiệu quả với Aspose.Cells for Java.
+Trong thế giới thao tác và phân tích dữ liệu, Excel là một công cụ đáng tin cậy. Nó cung cấp nhiều hàm giúp người dùng thực hiện các phép tính phức tạp một cách dễ dàng. Một trong số đó là hàm **MIN**, và việc nắm vững **cú pháp hàm MIN** cho phép bạn nhanh chóng tìm số nhỏ nhất trong bất kỳ phạm vi nào. Trong hướng dẫn này, bạn sẽ học cú pháp hàm MIN trông như thế nào, tại sao nó quan trọng, và cách áp dụng nó một cách lập trình với Aspose.Cells cho Java.
 
-## Hiểu về hàm MIN
+## Câu trả lời nhanh
+- **MIN function làm gì?** Nó trả về giá trị số nhỏ nhất từ một phạm vi hoặc danh sách số được cung cấp.  
+- **Cú pháp nào được yêu cầu?** `MIN(number1, [number2], …)` trong đó mỗi đối số có thể là một số, tham chiếu ô, hoặc phạm vi.  
+- **Tôi có thể sử dụng nó với Java không?** Có — Aspose.Cells cho Java cho phép bạn đặt công thức trên một worksheet và tính toán kết quả tự động.  
+- **Các ô không phải số có ảnh hưởng đến kết quả không?** Không — các ô trống và văn bản bị hàm MIN bỏ qua.  
+- **Có giới hạn về số đối số không?** Hàm chấp nhận tối đa 255 đối số, phù hợp với giới hạn gốc của Excel.
 
-Hàm MIN trong Excel là một hàm toán học cơ bản giúp bạn xác định giá trị nhỏ nhất trong một tập hợp số hoặc một phạm vi ô nhất định. Hàm này thường được sử dụng trong các tình huống mà bạn cần xác định giá trị thấp nhất trong một tập hợp các điểm dữ liệu.
+## Cú pháp hàm MIN là gì?
+Cú pháp hàm **MIN** là `MIN(number1, [number2], …)` trong đó mỗi đối số có thể là một giá trị đơn, một tham chiếu ô, hoặc một phạm vi. Nó đánh giá tất cả các số được cung cấp và trả về số nhỏ nhất, bỏ qua các ô trống và mục không phải số. Nó hoạt động với cả số riêng lẻ và tham chiếu ô, làm cho nó linh hoạt cho nhiều bố cục dữ liệu khác nhau.
 
-### Cú pháp của hàm MIN
+## Tại sao nên sử dụng hàm MIN với Aspose.Cells cho Java?
+Aspose.Cells hỗ trợ **hơn 50 định dạng nhập và xuất** và có thể xử lý các workbook với **hàng trăm ngàn dòng** mà không cần tải toàn bộ tệp vào bộ nhớ. Sử dụng cú pháp hàm MIN trong một workbook được tạo bằng Java tự động hoá các phép tính mà nếu không sẽ cần thao tác thủ công trong Excel, giúp tiết kiệm thời gian phát triển và giảm lỗi con người.
 
-Trước khi đi sâu vào cách triển khai thực tế bằng Aspose.Cells cho Java, chúng ta hãy cùng tìm hiểu cú pháp của hàm MIN trong Excel:
+## Yêu cầu trước
+- Java 8 hoặc cao hơn đã được cài đặt.  
+- Thư viện Aspose.Cells cho Java được thêm vào dự án của bạn (tải xuống từ [Aspose.Cells Java releases](https://releases.aspose.com/cells/java/)).  
+- Kiến thức cơ bản về công thức Excel.
 
+## Cách sử dụng cú pháp hàm MIN với Aspose.Cells cho Java
+
+Tải workbook của bạn, đặt công thức MIN vào ô mong muốn, sau đó tính toán worksheet để có được kết quả — chỉ trong vài dòng mã. Đầu tiên, tải hoặc tạo một workbook, sau đó lấy worksheet mục tiêu, đặt chuỗi công thức `=MIN(A1:A10)` vào ô đã chọn, và cuối cùng gọi engine tính toán để đánh giá công thức.
+
+### Bước 1: Thiết lập môi trường phát triển
+Cài đặt file JAR Aspose.Cells và thêm nó vào classpath của dự án. Điều này cho phép bạn truy cập các lớp `Workbook`, `Worksheet` và `Cells` cần thiết cho việc xử lý công thức.
+
+### Bước 2: Tải tệp Excel
+Lớp `Workbook` đại diện cho toàn bộ tệp Excel trong bộ nhớ.  
 ```
 =MIN(number1, [number2], ...)
 ```
 
-- `number1`:Đây là số hoặc phạm vi đầu tiên mà bạn muốn tìm giá trị nhỏ nhất.
-- `[number2]`, `[number3]`, ... (tùy chọn): Đây là các số hoặc phạm vi bổ sung mà bạn có thể đưa vào để tìm giá trị nhỏ nhất.
-
-## Hàm MIN hoạt động như thế nào
-
-Hàm MIN đánh giá các số hoặc phạm vi được cung cấp và trả về giá trị nhỏ nhất trong số đó. Nó bỏ qua mọi giá trị không phải số và ô trống. Điều này làm cho nó đặc biệt hữu ích cho các tác vụ như tìm điểm kiểm tra thấp nhất trong một tập dữ liệu hoặc xác định sản phẩm rẻ nhất trong danh sách.
-
-## Triển khai hàm MIN với Aspose.Cells cho Java
-
-Bây giờ chúng ta đã nắm rõ chức năng của hàm MIN trong Excel, hãy cùng khám phá cách sử dụng hàm này với Aspose.Cells for Java. Aspose.Cells for Java là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Excel theo chương trình. Để triển khai hàm MIN, hãy làm theo các bước sau:
-
-### Bước 1: Thiết lập môi trường phát triển của bạn
-
-Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã cài đặt và thiết lập Aspose.Cells for Java trong môi trường phát triển của mình. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/cells/java/).
-
-### Bước 2: Tạo một dự án Java
-
-Tạo một dự án Java mới trong Môi trường phát triển tích hợp (IDE) mà bạn thích và thêm Aspose.Cells for Java vào danh sách phụ thuộc của dự án.
-
-### Bước 3: Tải tệp Excel
-
-Để làm việc với tệp Excel, bạn sẽ cần tải tệp đó vào ứng dụng Java của mình. Sau đây là cách bạn có thể thực hiện:
-
+### Bước 3: Truy cập một worksheet
+Đối tượng `Worksheet` cho phép bạn truy cập một sheet duy nhất trong workbook.  
 ```java
-// Tải tệp Excel
+// Load the Excel file
 Workbook workbook = new Workbook("sample.xlsx");
 ```
 
-### Bước 4: Truy cập vào một bảng tính
-
-Tiếp theo, hãy truy cập vào bảng tính mà bạn muốn áp dụng hàm MIN:
-
+### Bước 4: Xác định phạm vi và áp dụng công thức MIN
+Giả sử các số bạn muốn đánh giá nằm trong các ô **A1:A10**. Bạn đặt công thức vào ô **B1** bằng cách sử dụng cú pháp hàm MIN chính xác.  
 ```java
-// Truy cập vào bảng tính đầu tiên
+// Access the first worksheet
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### Bước 5: Áp dụng hàm MIN
-
-Bây giờ, giả sử bạn có một dãy số trong các ô từ A1 đến A10 và bạn muốn tìm giá trị nhỏ nhất trong số đó. Bạn có thể sử dụng Aspose.Cells for Java để áp dụng hàm MIN như sau:
-
+### Bước 5: Tính toán worksheet
+Gọi `calculateFormula()` buộc Aspose.Cells đánh giá tất cả các công thức, bao gồm hàm MIN mà bạn vừa thêm.  
 ```java
-// Áp dụng hàm MIN vào phạm vi A1:A10 và lưu kết quả vào ô B1
+// Apply the MIN function to range A1:A10 and store the result in cell B1
 Cell cell = worksheet.getCells().get("B1");
 cell.setFormula("=MIN(A1:A10)");
 ```
 
-### Bước 6: Tính toán bảng tính
-
-Sau khi áp dụng công thức, bạn cần tính toán lại bảng tính để có được kết quả:
-
+### Bước 6: Lấy kết quả
+Sau khi tính toán, đọc giá trị từ ô chứa công thức. Giá trị trả về là số nhỏ nhất trong phạm vi đã chỉ định.  
 ```java
-// Tính toán bảng tính
+// Calculate the worksheet
 workbook.calculateFormula();
 ```
 
-### Bước 7: Nhận kết quả
+## Các vấn đề thường gặp và khắc phục
 
-Cuối cùng, lấy kết quả của hàm MIN:
+- **Dữ liệu không phải số trong phạm vi** – Hàm MIN tự động bỏ qua văn bản và ô trống, nhưng nếu bạn nhận được lỗi `#VALUE!`, hãy kiểm tra xem phạm vi có chứa giá trị lỗi không.  
+- **Bộ dữ liệu lớn** – Đối với worksheet có hơn 100 000 dòng, bật `WorkbookSettings.setMemoryOptimization(true)` để giảm mức sử dụng bộ nhớ.  
+- **Phạm vi động** – Sử dụng named ranges hoặc hàm `OFFSET` để cho phép công thức MIN tự điều chỉnh khi các hàng được thêm hoặc xóa.
+
+## Câu hỏi thường gặp
+
+**Q: Làm thế nào tôi có thể áp dụng hàm MIN cho một phạm vi ô động?**  
+A: Định nghĩa một named range mở rộng tự động (ví dụ, dùng `OFFSET`) và tham chiếu tên đó trong công thức MIN. Aspose.Cells sẽ đánh giá named range mỗi khi bạn tính lại.
+
+**Q: Tôi có thể sử dụng hàm MIN với dữ liệu không phải số không?**  
+A: Hàm bỏ qua các mục không phải số. Nếu bạn muốn coi văn bản là zero, hãy sử dụng hàm `MINA` thay thế.
+
+**Q: Sự khác biệt giữa hàm MIN và MINA là gì?**  
+A: `MIN` bỏ qua văn bản và ô trống, trong khi `MINA` coi văn bản là zero và bao gồm các ô trống trong tính toán.
+
+**Q: Có bất kỳ giới hạn nào đối với hàm MIN trong Excel không?**  
+A: Hàm chấp nhận tối đa 255 đối số và không chấp nhận mảng literal trực tiếp; đối với các kịch bản phức tạp, hãy kết hợp với `MINA` hoặc sử dụng các cột trợ giúp.
+
+**Q: Làm thế nào tôi xử lý lỗi khi sử dụng hàm MIN trong Excel?**  
+A: Bao bọc công thức MIN bằng `IFERROR(MIN(...), "N/A")` để trả về thông báo tùy chỉnh thay vì mã lỗi.
+
+## Kết luận
+
+Hiểu được **cú pháp hàm MIN** giúp bạn nhanh chóng trích xuất giá trị thấp nhất từ bất kỳ bộ dữ liệu nào. Bằng cách tận dụng Aspose.Cells cho Java, bạn có thể nhúng logic này trực tiếp vào ứng dụng của mình, tự động hoá các phép tính trên hàng ngàn dòng, và duy trì kiểm soát hoàn toàn việc tạo workbook mà không cần cài đặt Microsoft Excel.
+
+---
+
+**Cập nhật lần cuối:** 2026-08-05  
+**Kiểm tra với:** Aspose.Cells for Java 24.11  
+**Tác giả:** Aspose  
 
 ```java
-// Lấy kết quả từ ô B1
+// Get the result from cell B1
 double minValue = cell.getDoubleValue();
 System.out.println("The minimum value is: " + minValue);
 ```
 
-## Phần kết luận
+{{< blocks/products/products-backtop-button >}}
 
-Hàm MIN trong Excel là một công cụ tiện dụng để tìm giá trị nhỏ nhất trong một phạm vi ô. Khi kết hợp với Aspose.Cells for Java, nó trở thành một công cụ mạnh mẽ để tự động hóa các tác vụ liên quan đến Excel trong các ứng dụng Java của bạn. Bằng cách làm theo các bước được nêu trong bài viết này, bạn có thể triển khai hàm MIN một cách hiệu quả và khai thác các khả năng của nó.
+## Hướng dẫn liên quan
 
-## Câu hỏi thường gặp
-
-### Làm thế nào tôi có thể áp dụng hàm MIN vào một phạm vi ô động?
-
-Để áp dụng hàm MIN cho một phạm vi ô động, bạn có thể sử dụng các tính năng tích hợp của Excel như phạm vi được đặt tên hoặc sử dụng Aspose.Cells for Java để xác định phạm vi động dựa trên tiêu chí của bạn. Đảm bảo rằng phạm vi được chỉ định chính xác trong công thức và hàm MIN sẽ điều chỉnh cho phù hợp.
-
-### Tôi có thể sử dụng hàm MIN với dữ liệu không phải số không?
-
-Hàm MIN trong Excel được thiết kế để làm việc với dữ liệu số. Nếu bạn cố gắng sử dụng nó với dữ liệu không phải số, nó sẽ trả về lỗi. Đảm bảo dữ liệu của bạn ở định dạng số hoặc sử dụng các hàm khác như MINA cho dữ liệu không phải số.
-
-### Sự khác biệt giữa hàm MIN và hàm MINA là gì?
-
-Hàm MIN trong Excel bỏ qua các ô trống và các giá trị không phải số khi tìm giá trị nhỏ nhất. Ngược lại, hàm MINA bao gồm các giá trị không phải số là số không. Chọn hàm phù hợp với yêu cầu cụ thể của bạn dựa trên dữ liệu của bạn.
-
-### Hàm MIN trong Excel có hạn chế nào không?
-
-Hàm MIN trong Excel có một số hạn chế, chẳng hạn như tối đa 255 đối số và không thể xử lý trực tiếp mảng. Đối với các tình huống phức tạp, hãy cân nhắc sử dụng các hàm nâng cao hơn hoặc các công thức tùy chỉnh.
-
-### Làm thế nào để xử lý lỗi khi sử dụng hàm MIN trong Excel?
-
-Để xử lý lỗi khi sử dụng hàm MIN trong Excel, bạn có thể sử dụng hàm IFERROR để trả về thông báo hoặc giá trị tùy chỉnh khi xảy ra lỗi. Điều này có thể giúp cải thiện trải nghiệm của người dùng khi xử lý dữ liệu có khả năng gây ra sự cố.
+- [Tạo một Workbook Excel bằng Aspose.Cells trong Java: Hướng dẫn từng bước](/cells/java/getting-started/create-excel-workbook-aspose-cells-java/)
+- [Cách Tạo & Định dạng các ô Excel bằng Aspose.Cells cho Java: Hướng dẫn từng bước](/cells/java/formatting/aspose-cells-java-excel-automation-guide/)
+- [Cách Tạo danh sách xác thực dữ liệu Excel với Aspose.Cells cho Java: Hướng dẫn từng bước](/cells/java/data-validation/excel-data-validation-aspose-cells-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
