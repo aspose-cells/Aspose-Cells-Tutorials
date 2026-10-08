@@ -222,42 +222,6 @@ workbook.Worksheets[0].Cells.CopyRows(sourceRow: 0, destinationRow: 0, totalRows
 
 ---
 
-## สรุปตัวอย่างทำงานเต็มรูปแบบ
-
-เมื่อนำทุกอย่างมารวมกัน นี่คือโปรแกรมเต็มที่คุณสามารถวางในแอปคอนโซลและรันได้ทันที:
-
-```csharp
-using Aspose.Cells;
-using Aspose.Cells.Drawing;
-using Aspose.Cells.Pivot;
-using Aspose.Cells.SmartMarker;
-
-class Program
-{
-    static void Main()
-    {
-        var workbook = new Workbook("YOUR_DIRECTORY/template.xlsx");
-        workbook.Worksheets[0].Cells.CopyRows(0, 0, 30);
-
-        var orders = new[]
-        {
-            new { Id = 101, Items = new[] { "Pen", "Paper" } },
-            new { Id = 102, Items = new[] { "Book" } }
-        };
-        var smOpts = new SmartMarkerOptions { DetailSheetNewName = "OrderDetail" };
-        workbook.Worksheets[0].SmartMarkerProcessing(new { Orders = orders }, smOpts);
-
-        var pptxOpts = new PptxSaveOptions
-        {
-            ExportChartsAsEditable = true,
-            ExportOleObjects = true,
-            ExportTextBoxesAsEditable = true
-        };
-        workbook.Save("YOUR_DIRECTORY/result.pptx", pptxOpts);
-
-        var
-
-
 ## สิ่งที่คุณควรเรียนต่อไป?
 
 บทแนะนำต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดและต่อยอดจากเทคนิคที่แสดงในคู่มือนี้ แต่ละแหล่งข้อมูลมีตัวอย่างโค้ดทำงานครบถ้วนพร้อมคำอธิบายขั้นตอนเพื่อช่วยให้คุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจวิธีการทำงานอื่น ๆ ในโปรเจกต์ของคุณ

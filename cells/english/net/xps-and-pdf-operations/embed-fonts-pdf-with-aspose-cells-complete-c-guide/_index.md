@@ -221,42 +221,6 @@ Because the pivot’s cache lives in the worksheet, copying the rows does **not*
 
 ---
 
-## Full Working Example Recap
-
-Putting everything together, here’s the complete program you can drop into a console app and run immediately:
-
-```csharp
-using Aspose.Cells;
-using Aspose.Cells.Drawing;
-using Aspose.Cells.Pivot;
-using Aspose.Cells.SmartMarker;
-
-class Program
-{
-    static void Main()
-    {
-        var workbook = new Workbook("YOUR_DIRECTORY/template.xlsx");
-        workbook.Worksheets[0].Cells.CopyRows(0, 0, 30);
-
-        var orders = new[]
-        {
-            new { Id = 101, Items = new[] { "Pen", "Paper" } },
-            new { Id = 102, Items = new[] { "Book" } }
-        };
-        var smOpts = new SmartMarkerOptions { DetailSheetNewName = "OrderDetail" };
-        workbook.Worksheets[0].SmartMarkerProcessing(new { Orders = orders }, smOpts);
-
-        var pptxOpts = new PptxSaveOptions
-        {
-            ExportChartsAsEditable = true,
-            ExportOleObjects = true,
-            ExportTextBoxesAsEditable = true
-        };
-        workbook.Save("YOUR_DIRECTORY/result.pptx", pptxOpts);
-
-        var
-
-
 ## What Should You Learn Next?
 
 
