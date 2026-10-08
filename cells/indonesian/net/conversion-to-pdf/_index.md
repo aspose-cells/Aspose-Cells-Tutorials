@@ -61,6 +61,8 @@ Pelajari cara membulatkan nilai numerik dalam file Excel saat mengonversinya ke 
 Pelajari cara menyimpan dokumen Word ke PDF dengan Aspose.Words menggunakan contoh kode C# lengkap.
 ### [Cara menyematkan font saat mengonversi Excel ke PDF – Panduan Langkah demi Langkah](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
 Pelajari cara menyematkan font dalam PDF saat mengonversi file Excel menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah.
+### [Menyematkan Font dalam PDF – Panduan Lengkap C# untuk Mengekspor Excel ke PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
+Pelajari cara menyematkan font dalam PDF saat mengekspor file Excel menggunakan C# dengan Aspose.Cells untuk .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

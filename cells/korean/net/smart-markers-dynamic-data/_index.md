@@ -160,6 +160,9 @@ C# 코드를 활용해 JSON 데이터를 Excel 파일로 변환하는 방법을 
 ### [C#에서 워크시트에 SmartMarker 적용 – 완전 가이드](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
 C#을 사용하여 워크시트에 SmartMarker를 적용하는 방법을 단계별로 안내하는 완전 가이드입니다.
 ### [Aspose.Cells 스마트 마커를 사용하여 프로그래밍 방식으로 Excel 만들기](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+### [Aspose Cells 스마트 마커: C# 모델에서 Excel 생성](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
+Aspose.Cells를 사용해 C# 모델 데이터를 기반으로 Excel 파일을 자동으로 생성하고 스마트 마커를 적용하는 방법을 단계별로 안내합니다.
+### [Excel로 데이터 내보내기 – 스마트 마커를 사용한 Excel 템플릿 채우기 완전 가이드](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -68,6 +68,8 @@ Lastly, let’s talk about the little details that make a big difference. Being 
 Learn how to embed fonts when exporting Excel to HTML using Aspose.Cells for .NET with C# in this step-by-step guide.
 ### [Convert Excel to HTML in C# – Complete Guide](./convert-excel-to-html-in-c-complete-guide/)
 Learn how to convert Excel to HTML using Aspose.Cells for .NET with C# in this comprehensive step-by-step guide.
+### [Create HTML from table in C# – Complete Guide](./create-html-from-table-in-c-complete-guide/)
+Learn how to create HTML from a table in C# using Aspose.Cells for .NET in this comprehensive step-by-step guide.
 ### [Excluding Unused Styles while Exporting Excel to HTML](./excluding-unused-styles/)
 Learn how to exclude unused styles while exporting Excel to HTML using Aspose.Cells for .NET in this detailed step-by-step guide.
 ### [Exporting Document Workbook and Worksheet Properties in HTML](./exporting-document-workbook-and-worksheet-properties/)
@@ -122,6 +124,10 @@ Learn how to export Excel to HTML using Aspose.Cells for .NET with a complete pr
 Learn how to embed fonts in HTML when exporting an Excel workbook to HTML using Aspose.Cells for .NET.
 ### [Convert Excel to HTML – Complete Guide Using Aspose.Cells](./convert-excel-to-html-complete-guide-using-aspose-cells/)
 Learn how to convert Excel files to HTML with a comprehensive step-by-step guide using Aspose.Cells for .NET.
+### [How to embed fonts when exporting Excel to HTML – Complete C# Guide](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
+Learn how to embed custom fonts when exporting Excel to HTML using Aspose.Cells for .NET in this complete C# guide.
+### [Export Excel to HTML with C# – Complete Programming Guide](./export-excel-to-html-with-c-complete-programming-guide/)
+Learn how to export Excel to HTML using C# with Aspose.Cells for .NET in this complete programming guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -59,6 +59,8 @@
 Узнайте, как программно создавать файлы Excel, добавлять комментарии и сохранять их в формате XLSX с помощью Aspose.Cells для .NET.
 ### [Добавить комментарий к ячейке в Excel с помощью Aspose.Cells Smart Marker](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
 Узнайте, как использовать Smart Marker для добавления комментариев к ячейкам в Excel с Aspose.Cells.
+### [Добавить комментарий к ячейке в C# – Генерация Excel из данных](./add-comment-to-cell-in-c-generate-excel-from-data/)
+Узнайте, как добавить комментарий к ячейке в C# и создать файл Excel из данных с помощью Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

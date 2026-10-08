@@ -59,6 +59,8 @@ Hướng dẫn cách sử dụng Smart Markers trong C# để tự động đi�
 Hướng dẫn tạo tệp Excel bằng mã, chèn bình luận và lưu dưới định dạng XLSX bằng Aspose.Cells cho .NET.
 ### [Thêm bình luận ô trong Excel bằng Aspose.Cells Smart Marker](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
 Tìm hiểu cách thêm bình luận vào ô trong Excel bằng Aspose.Cells Smart Marker cho .NET. Hướng dẫn nhanh và chi tiết.
+### [Thêm bình luận vào ô trong C# – Tạo Excel từ dữ liệu](./add-comment-to-cell-in-c-generate-excel-from-data/)
+Hướng dẫn cách thêm bình luận vào ô bằng C# và tạo tệp Excel từ dữ liệu sử dụng Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

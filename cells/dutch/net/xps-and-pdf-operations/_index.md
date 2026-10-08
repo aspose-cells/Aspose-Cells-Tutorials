@@ -42,6 +42,8 @@ Leer stap voor stap hoe u Excel-bestanden naar XPS converteert met C# en Aspose.
 Leer hoe u een nieuw Excel-werkboek maakt met Unicode-ondersteuning en exporteert naar XPS met Aspose.Cells.
 ### [Lettertypen insluiten in XPS met C# – Complete programmeergids](./embed-fonts-in-xps-with-c-complete-programming-guide/)
 Leer hoe u lettertypen in XPS-documenten kunt insluiten met C# en Aspose.Cells, inclusief voorbeeldcode en stapsgewijze instructies.
+### [Lettertypen insluiten in PDF met Aspose.Cells – Complete C#-gids](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
+Leer hoe u lettertypen in PDF's insluit met Aspose.Cells in C#, stap voor stap met voorbeeldcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

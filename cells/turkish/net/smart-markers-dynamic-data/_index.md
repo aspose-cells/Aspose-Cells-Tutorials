@@ -159,6 +159,11 @@ C# ile iç içe JSON verilerini ayrıştırın ve JSON yükü oluşturmayı adı
 SmartMarker kullanarak bir Excel şablonunu doldurmayı ve verileri otomatik olarak yerleştirmeyi adım adım öğrenin.
 
 ### [Akıllı İşaretçi ile Verileri Excel'e Aktarın – Tam C# Kılavuzu](./export-data-to-excel-with-smart-marker-full-c-guide/)
+### [Aspose Cells Akıllı İşaretleyicileri: Modelden Excel Oluşturma C#'ta](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
+Model nesnelerinden Excel dosyaları oluşturmak için Aspose.Cells Smart Markers'ı C# ile nasıl kullanacağınızı öğrenin.
+### [SmartMarker ile Çoklu Sayfalar Oluşturun – Tam C# Kılavuzu](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
+SmartMarker kullanarak C# ile bir Excel dosyasında birden çok sayfa oluşturmayı adım adım öğrenin.
+### [Verileri Excel'e Aktarın – Akıllı İşaretleyicilerle Excel Şablonunu Doldurma Tam Kılavuzu](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -66,6 +66,8 @@ Impara a visualizzare pagine sequenziali in Excel con Aspose.Cells per .NET. Que
 Scopri come creare un intervallo di riferimento per una pivot e esportare l'immagine della tabella pivot in formato PNG con Aspose.Cells per .NET.
 ### [Come esportare una tabella pivot in PNG in C# – Guida passo‑passo](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
 Scopri come esportare una tabella pivot di Excel in formato PNG usando Aspose.Cells per .NET con C# passo dopo passo.
+### [Crea immagine PNG Pivot in C# – Guida completa passo passo](./create-png-pivot-image-in-c-full-step-by-step-guide/)
+Scopri come generare un'immagine PNG da una tabella pivot in C# con Aspose.Cells, passo dopo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

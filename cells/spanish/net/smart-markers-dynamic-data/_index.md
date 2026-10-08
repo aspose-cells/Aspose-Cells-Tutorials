@@ -166,6 +166,12 @@ Aprenda a generar un informe maestro‑detalle en C# rellenando una plantilla de
 Aprenda paso a paso cómo aplicar SmartMarker a una hoja de cálculo usando C#, creando informes de Excel dinámicos y personalizados.
 ### [Crear Excel programáticamente usando Marcadores Inteligentes de Aspose.Cells](./create-excel-programmatically-using-aspose-cells-smart-marke/)
 Aprenda a generar archivos Excel de forma programática utilizando los Marcadores Inteligentes de Aspose.Cells en .NET.
+### [Generar varias hojas con SmartMarker – Guía completa en C#](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
+Aprenda a crear múltiples hojas de cálculo en Excel usando SmartMarker con C#, paso a paso, para generar informes dinámicos y estructurados.
+### [Exportar datos a Excel – Guía completa para rellenar plantilla de Excel con Marcadores Inteligentes](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
+Aprenda a exportar datos a Excel usando Marcadores Inteligentes para rellenar plantillas de forma automática y eficiente.
+### [Aspose Cells Marcadores Inteligentes: Generar Excel desde un modelo en C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
+Aprenda a generar archivos Excel a partir de un modelo de datos usando Marcadores Inteligentes en Aspose.Cells para .NET con C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

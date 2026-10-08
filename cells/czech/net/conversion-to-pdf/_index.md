@@ -61,6 +61,8 @@ Naučte se, jak správně zaokrouhlit čísla při převodu Excel souborů do PD
 Naučte se, jak pomocí Aspose.Words převést Word dokumenty do PDF v C# s podrobným návodem.
 ### [Jak vložit písma při převodu Excelu do PDF – krok za krokem](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
 Naučte se, jak během konverze Excelu do PDF vložit písma, aby PDF vypadalo stejně jako originál.
+### [Vložení fontů do PDF – Kompletní průvodce C# pro export Excelu do PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
+Naučte se, jak vložit písma do PDF při exportu Excelu pomocí Aspose.Cells v C#. Kompletní krok za krokem návod.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

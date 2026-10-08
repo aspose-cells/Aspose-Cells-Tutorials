@@ -154,6 +154,12 @@ Leer hoe u met SmartMarker een master‑detailrapport maakt door een Excel‑sja
 Leer hoe u SmartMarker in C# kunt toepassen op een werkblad om dynamische Excel-rapporten te genereren met volledige stapsgewijze instructies.
 ### [Excel programmatically maken met Aspose.Cells Smart Markers](./create-excel-programmatically-using-aspose-cells-smart-marke/)
 Leer hoe u met Aspose.Cells Smart Markers een Excel-bestand programmatically kunt genereren.
+### [Meerdere werkbladen genereren met SmartMarker – Complete C#-gids](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
+Leer hoe u met SmartMarker meerdere Excel-werkbladen genereert in C#, inclusief voorbeeldcode en stapsgewijze instructies.
+### [Gegevens exporteren naar Excel – Complete gids voor het vullen van een Excel-sjabloon met Smart Markers](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
+Leer stap voor stap hoe u gegevens exporteert naar een Excel-sjabloon met Smart Markers in Aspose.Cells voor .NET.
+### [Aspose Cells Smart Markers: Genereer Excel vanuit model in C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
+Leer hoe u met Smart Markers in Aspose.Cells Excel-bestanden genereert rechtstreeks vanuit een .NET‑model in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

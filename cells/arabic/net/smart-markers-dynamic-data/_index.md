@@ -159,6 +159,11 @@
 تعلم كيفية تطبيق SmartMarker على ورقة عمل باستخدام C# لإنشاء تقارير Excel ديناميكية خطوة بخطوة.
 ### [إنشاء Excel برمجيًا باستخدام علامات Aspose.Cells الذكية](./create-excel-programmatically-using-aspose-cells-smart-marke/)
 تعلم كيفية إنشاء ملفات Excel برمجيًا باستخدام علامات Aspose.Cells الذكية في .NET.
+### [إنشاء أوراق متعددة باستخدام SmartMarker – دليل كامل بلغة C#](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
+تعلم كيفية إنشاء عدة أوراق عمل في Excel باستخدام SmartMarker في Aspose.Cells مع مثال كامل بلغة C#.
+### [إنشاء ملف Excel من نموذج باستخدام Aspose.Cells Smart Markers في C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
+تعلم خطوة بخطوة كيفية إنشاء ملف Excel من نموذج بيانات باستخدام Aspose.Cells Smart Markers في C#.
+### [تصدير البيانات إلى Excel – دليل كامل لملء قالب Excel باستخدام العلامات الذكية](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -42,6 +42,8 @@ C# と Aspose.Cells を使用して、Excel ファイルを XPS 形式に変換�
 Aspose.Cells for .NET を使用して、Unicode 対応の新規 Excel ワークブックを作成し、XPS 形式へエクスポートする手順を解説します。
 ### [C# でフォントを XPS に埋め込む – 完全プログラミングガイド](./embed-fonts-in-xps-with-c-complete-programming-guide/)
 Aspose.Cells for .NET を使用し、C# で XPS ドキュメントにフォントを埋め込む方法をステップバイステップで解説します。
+### [Aspose.Cells でフォントを埋め込んだ PDF – 完全 C# ガイド](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
+Aspose.Cells を使用して PDF にフォントを埋め込み、正確な表示を保証する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

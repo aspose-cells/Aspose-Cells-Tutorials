@@ -135,6 +135,12 @@ Apprenez à convertir des fichiers Excel en HTML avec C# en suivant ce guide com
 Découvrez comment intégrer des polices dans le HTML lors de l'exportation d'Excel vers HTML avec Aspose.Cells pour .NET en C#.
 ### [Comment exporter Excel vers HTML – Guide complet de programmation](./how-to-export-excel-to-html-complete-programming-guide/)
 Apprenez à exporter Excel vers HTML avec un guide complet de programmation utilisant Aspose.Cells pour .NET, étape par étape.
+### [Créer du HTML à partir d'un tableau en C# – Guide complet](./create-html-from-table-in-c-complete-guide/)
+Apprenez à générer du HTML à partir d’un tableau Excel en C# avec Aspose.Cells, guide complet étape par étape.
+### [Comment intégrer des polices lors de l'exportation d'Excel vers HTML – Guide complet C#](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
+Découvrez comment intégrer des polices lors de l'exportation d'Excel vers HTML avec Aspose.Cells pour .NET, guide complet en C# étape par étape.
+### [Exporter Excel vers HTML avec C# – Guide complet de programmation](./export-excel-to-html-with-c-complete-programming-guide/)
+Apprenez à exporter Excel vers HTML en C# avec Aspose.Cells, guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -42,6 +42,8 @@
 学习如何在 .NET 中创建新的 Excel 工作簿，处理 Unicode 内容并导出为 XPS 文件的完整步骤。
 ### [在 C# 中嵌入字体到 XPS – 完整编程指南](./embed-fonts-in-xps-with-c-complete-programming-guide/)
 学习如何使用 Aspose.Cells for .NET 在 C# 中将字体嵌入 XPS 文档，确保文档在任何设备上保持一致的显示效果。
+### [在 .NET 中嵌入字体到 PDF – 完整 C# 指南](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
+学习如何使用 Aspose.Cells 在 .NET 中嵌入字体到 PDF，并提供完整的 C# 示例代码。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

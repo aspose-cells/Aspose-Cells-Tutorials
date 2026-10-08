@@ -61,6 +61,8 @@ Aprende a redondear números al convertir archivos de Excel a PDF usando Aspose.
 Aprende a guardar documentos Word como PDF usando Aspose.Words en C#. Guía paso a paso para resultados profesionales.
 ### [Cómo incrustar fuentes al convertir Excel a PDF en .NET – Guía paso a paso](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
 Aprende a incrustar fuentes en los PDFs generados desde Excel usando Aspose.Cells para .NET. Sigue nuestra guía paso a paso.
+### [Incrustar fuentes en PDF – Guía completa en C# para exportar Excel a PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
+Aprende a incrustar fuentes en PDFs al exportar Excel con Aspose.Cells usando C#. Sigue nuestra guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

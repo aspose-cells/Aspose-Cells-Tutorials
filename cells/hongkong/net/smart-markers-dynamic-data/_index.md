@@ -150,6 +150,11 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 ### [使用 Aspose.Cells 智慧標記程式化建立 Excel](./create-excel-programmatically-using-aspose-cells-smart-marke/)
 使用 Aspose.Cells 智慧標記以程式方式建立 Excel 檔案，示範自動化報表生成流程。
 ### [在 C# 中將 SmartMarker 應用於工作表 – 完整指南](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
+### [使用智慧標記產生多工作表 – 完整 C# 指南](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
+### [匯出資料至 Excel – 使用智慧標記填充 Excel 範本的完整指南](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
+本完整指南說明如何使用 Aspose.Cells Smart Markers 將資料匯出至 Excel，並填充範本以產生動態報表。
+### [Aspose Cells 智慧標記：在 C# 中從模型產生 Excel](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
+了解如何使用 Aspose.Cells Smart Markers，透過 C# 模型直接產生 Excel 檔案，簡化報表生成流程。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

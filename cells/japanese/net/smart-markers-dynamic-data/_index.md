@@ -153,6 +153,14 @@ SmartMarker を使用して、マスターディテイル構造のデータを E
 Aspose.Cells のスマートマーカーを活用し、コードだけで Excel ファイルを生成する手順をステップバイステップで解説します。
 ### [C# でワークシートにスマートマーカーを適用する完全ガイド](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
 Aspose.Cells for .NET を使用して、C# でワークシートにスマートマーカーを適用し、動的な Excel レポートを作成する方法をステップバイステップで解説します。
+### [Aspose.Cells スマートマーカー: C# でモデルから Excel を生成](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
+Aspose.Cells のスマートマーカーを使用して、C# のモデル データから Excel ファイルを自動生成する方法をステップバイステップで解説します。
+
+### [Excel へデータをエクスポート – スマートマーカーで Excel テンプレートにデータを埋め込む完全ガイド](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
+スマートマーカーを使用して、Excel テンプレートにデータを自動的に埋め込み、レポートを生成する方法をステップバイステップで解説します。
+
+### [SmartMarker を使用して複数シートを生成する – 完全 C# ガイド](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
+SmartMarker を活用し、C# で Excel に複数のシートを自動生成する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

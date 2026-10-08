@@ -61,6 +61,8 @@ Ismerd meg, hogyan kerekítheted a számokat Excel-fájl PDF konvertálása sor�
 Tanulja meg, hogyan menthet Word dokumentumokat PDF formátumba C#-ban az Aspose.Words segítségével, lépésről lépésre útmutatóval.
 ### [Hogyan ágyazz be betűtípusokat Excel PDF-be konvertálásakor – Lépésről‑lépésre útmutató](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
 Ismerd meg, hogyan ágyazhatod be a betűtípusokat Excel-fájlok PDF-be konvertálásakor az Aspose.Cells segítségével.
+### [Betűtípusok beágyazása PDF-be – Teljes C# útmutató az Excel PDF-be exportálásához](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
+Tanulja meg, hogyan ágyazhat be betűtípusokat PDF-be C#-ban az Aspose.Cells segítségével, hogy az Excel exportok megőrizzék a formázást.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

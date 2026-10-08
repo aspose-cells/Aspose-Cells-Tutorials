@@ -168,6 +168,9 @@ Erfahren Sie, wie Sie mit Aspose.Cells in C# eine Rabattvorlage erstellen, um au
 ### [Wie man ein Arbeitsbuch mit Smart Markers – Ausgabe Hoch/Niedrig erstellt](./how-to-create-workbook-with-smart-markers-output-high-low/)
 Erfahren Sie, wie Sie mit Smart Markers ein Excel‑Arbeitsbuch erstellen, das je nach High‑Low‑Ausgabe dynamisch Werte anzeigt.
 ### [Master-Detail-Bericht in C# erstellen – Excel-Vorlage mit SmartMarker füllen](./create-master-detail-report-in-c-populate-excel-template-wit/)
+### [Mehrere Arbeitsblätter mit SmartMarker generieren – Vollständige C#-Anleitung](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
+### [Exportieren von Daten nach Excel – Vollständige Anleitung zum Befüllen einer Excel-Vorlage mit Smart Markern](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
+### [Aspose Cells Smart Markers: Excel aus Modell in C# generieren](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

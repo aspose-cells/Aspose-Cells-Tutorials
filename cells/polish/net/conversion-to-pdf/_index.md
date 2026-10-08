@@ -61,6 +61,8 @@ Dowiedz się, jak zaokrąglać liczby w plikach Excel podczas konwersji do PDF p
 Dowiedz się, jak przy użyciu Aspose.Words i C# zapisać dokument Word w formacie PDF w kilku prostych krokach.
 ### [Jak osadzić czcionki przy konwertowaniu Excela do PDF – przewodnik krok po kroku](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
 Dowiedz się, jak osadzić czcionki w plikach PDF generowanych z Excela, aby zachować ich wygląd na wszystkich urządzeniach.
+### [Osadzanie czcionek w PDF – Kompletny przewodnik C# do eksportu Excela do PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
+Dowiedz się, jak osadzić czcionki w plikach PDF przy eksporcie z Excela w C#, aby zachować wygląd dokumentu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

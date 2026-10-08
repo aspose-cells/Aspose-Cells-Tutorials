@@ -154,6 +154,11 @@ Dowiedz się, jak w C# stworzyć raport master‑detail, wypełniając szablon E
 ### [Zastosowanie SmartMarker w arkuszu w C# – Kompletny przewodnik](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
 Dowiedz się, jak zastosować SmartMarker w arkuszu Excel przy użyciu C#, krok po kroku, aby generować dynamiczne raporty.
 ### [Tworzenie pliku Excel programowo przy użyciu Aspose.Cells Smart Markers](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+### [Generowanie wielu arkuszy przy użyciu SmartMarker – Kompletny przewodnik C#](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
+Dowiedz się, jak generować wiele arkuszy w Excelu przy użyciu SmartMarker w C#, krok po kroku, aby tworzyć dynamiczne raporty.
+### [Aspose Cells Smart Markers: Generowanie Excela z modelu w C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
+Poznaj, jak przy użyciu Smart Markers w Aspose.Cells generować pliki Excel bezpośrednio z modelu w C#.
+### [Eksport danych do Excela – Kompletny przewodnik po wypełnianiu szablonu Excela za pomocą inteligentnych znaczników](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

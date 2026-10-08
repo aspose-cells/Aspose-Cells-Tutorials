@@ -72,6 +72,8 @@ Frigör Excels potential med Aspose.Cells för .NET. Lär dig steg för steg hur
 Lås upp kraften i Excel med Aspose.Cells för .NET. Lär dig bearbeta data med hjälp av arrayfunktioner i den här detaljerade handledningen.
 ### [Hur man använder WRAPCOLS i C# – Omforma arrayer till matriser](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
 Lär dig hur du med WRAPCOLS-funktionen i C# omvandlar en-dimensionella arrayer till tvådimensionella matriser med Aspose.Cells för .NET.
+### [Applicera arrayformel i Excel i C# – Komplett guide](./apply-array-formula-excel-in-c-complete-guide/)
+Lär dig steg för steg hur du använder en arrayformel i Excel med Aspose.Cells för .NET i C# i vår kompletta guide.
 ### [Bearbeta data med hjälp av inbyggda funktioner i Excel](./processing-data-using-built-in-functions/)
 Upptäck hur du bearbetar data med hjälp av inbyggda funktioner i Excel med Aspose.Cells för .NET. Följ en steg-för-steg-handledning för enkel automatisering.
 ### [Bearbeta data med R1C1 i Excel](./processing-data-using-r1c1/)
@@ -90,6 +92,8 @@ Lär dig hur du utökar en array i C# med Aspose.Cells genom en tydlig steg‑f�
 Lär dig hur du skapar en array i Excel med C# med vår steg‑för‑steg‑guide för Aspose.Cells för .NET.
 ### [Hur man beräknar cotangens i Excel med C# – Komplett guide](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 Lär dig hur du beräknar cotangens i Excel med C# med Aspose.Cells för .NET i denna omfattande guide.
+### [Hur du använder WRAPCOLS i Excel – Komplett C#-exempel](./how-to-use-wrapcols-in-excel-complete-c-example/)
+Lär dig hur du använder WRAPCOLS-funktionen i Excel med ett komplett C#-exempel i Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

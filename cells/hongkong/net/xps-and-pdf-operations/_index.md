@@ -42,6 +42,8 @@
 學習如何在 Aspose.Cells for .NET 中建立 Unicode 支援的 Excel 活頁簿，並將其匯出為 XPS 格式。
 ### [在 C# 中嵌入字型於 XPS – 完整程式設計指南](./embed-fonts-in-xps-with-c-complete-programming-guide/)
 學習如何在 XPS 文件中嵌入字型，確保文字正確顯示，並提供完整的 C# 程式碼範例。
+### [使用 Aspose.Cells 嵌入字型至 PDF – 完整 C# 指南](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
+學習如何在使用 Aspose.Cells 產生 PDF 時嵌入字型，確保文件在任何環境中正確顯示。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

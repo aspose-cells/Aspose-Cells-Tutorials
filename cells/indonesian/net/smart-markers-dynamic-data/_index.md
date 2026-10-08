@@ -164,6 +164,11 @@ Pelajari cara menghubungkan sheet di Excel menggunakan SmartMarker secara mudah 
 
 ### [Konversi JSON ke Excel dengan C# – Panduan Langkah demi Langkah](./convert-json-to-excel-with-c-step-by-step-guide/)
 Pelajari cara mengubah data JSON menjadi file Excel menggunakan C# dengan contoh kode lengkap dan penjelasan detail.
+### [Membuat Beberapa Lembar dengan SmartMarker – Panduan Lengkap C#](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
+Pelajari cara menghasilkan banyak lembar kerja secara otomatis menggunakan SmartMarker dalam proyek C# Anda.
+### [Ekspor Data ke Excel – Panduan Lengkap Mengisi Template Excel dengan Smart Markers](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
+Pelajari cara mengekspor data ke file Excel secara otomatis dengan mengisi template menggunakan Smart Markers dalam Aspose.Cells for .NET.
+### [Aspose Cells Smart Markers: Membuat Excel dari Model dengan C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

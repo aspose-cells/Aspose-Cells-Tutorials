@@ -59,6 +59,8 @@ Learn how to populate an Excel template with smart markers using Aspose.Cells fo
 Learn how to programmatically create an Excel file, add comments, and save it as XLSX using Aspose.Cells for .NET.
 ### [Add Comment Cell in Excel with Aspose.Cells Smart Marker](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
 Learn how to add a comment to a cell in Excel using Aspose.Cells Smart Marker. Simplify dynamic comment insertion with markers.
+### [Add comment to cell in C# – Generate Excel from data](./add-comment-to-cell-in-c-generate-excel-from-data/)
+Learn how to add a comment to a cell while generating Excel files from data using Aspose.Cells for .NET in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -42,6 +42,8 @@ C# kullanarak Excel dosyalarını XPS formatına dönüştürmenin adım adım r
 Aspose.Cells for .NET kullanarak Unicode desteğiyle yeni bir Excel çalışma kitabı oluşturmayı ve XPS olarak dışa aktarmayı öğrenin.
 ### [C# ile XPS'e Yazı Tipi Gömme – Tam Programlama Kılavuzu](./embed-fonts-in-xps-with-c-complete-programming-guide/)
 C# ile XPS dosyalarına yazı tiplerini nasıl gömeceğinizi adım adım öğrenin.
+### [Aspose.Cells ile PDF'ye Font Gömme – Tam C# Kılavuzu](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
+Aspose.Cells kullanarak PDF'ye gömülü font eklemeyi ve C# ile adım adım nasıl yapılacağını öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

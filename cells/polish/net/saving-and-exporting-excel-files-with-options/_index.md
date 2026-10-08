@@ -58,6 +58,10 @@ Pełny przewodnik pokazujący, jak skonfigurować i zastosować FlatOpcSaveOptio
 Dowiedz się, jak zapisać skoroszyt, usunąć filtry i wyeksportować plik Excel w C# przy użyciu Aspose.Cells.
 ### [Zapisz skoroszyt Excela z JSON – Kompletny przewodnik C#](./save-excel-workbook-from-json-complete-c-guide/)
 Dowiedz się, jak w pełni wykorzystać Aspose.Cells for .NET do tworzenia skoroszytu Excel z danych JSON przy użyciu C#.
+### [Utworzenie płaskiego pliku OPC w C# – Kompletny przewodnik](./create-flat-opc-file-with-c-complete-guide/)
+Dowiedz się, jak w C# utworzyć płaski plik OPC przy użyciu Aspose.Cells, krok po kroku, od początku do końca.
+### [Zapisz skoroszyt jako XLSX – Kompletny przewodnik generowania Excela z danymi](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+Dowiedz się, jak w .NET zapisać skoroszyt jako plik XLSX, generując pełny arkusz Excel z danymi przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

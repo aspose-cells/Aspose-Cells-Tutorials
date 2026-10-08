@@ -31,7 +31,7 @@ Die Anpassung von Dokumentmetadaten wie Version, Autor oder Titel ist für eine 
 
 ### Entfernen führender leerer Zeilen und Spalten beim Exportieren
 
-Leere Zeilen und Spalten können Ihre Exporte überladen, insbesondere bei CSV-Dateien. Die [Entfernen führender leerer Zeilen und Spalten beim Exportieren](./trimming-leading-blank-rows-and-columns/) Mit diesem Tutorial können Sie Ihre Daten bereinigen, indem Sie unnötige Leerzeichen am Zeilen- und Spaltenanfang entfernen. Dieses Tutorial eignet sich ideal für Entwickler, die prägnante und übersichtliche Dateien erstellen möchten, die bereit für Analysen oder Präsentationen sind. Eine saubere, übersichtliche Ausgabe sieht nicht nur professionell aus, sondern erleichtert auch die Datenverarbeitung erheblich.
+Leere Zeilen und Spalten können Ihre Exporte überladen, insbesondere bei CSV-Dateien. Die [Entfernen führender leerer Zeilen und Spalten beim Exportieren](./trimming-leading-blank-rows-and-columns/) Mit diesem Tutorial können Sie Ihre Daten bereinigen, indem Sie unnötige Leerzeichen am Zeilen- und Spaltenanfang entfernen. Dieses Tutorial eignet sich ideal für Entwickler, die prägnante, übersichtliche Dateien erstellen möchten, die bereit für Analysen oder Präsentationen sind. Eine saubere, übersichtliche Ausgabe sieht nicht nur professionell aus, sondern erleichtert auch die Datenverarbeitung erheblich.
 
 ## Speichern und Exportieren von Excel-Dateien mit Options-Tutorials
 ### [Exportieren von Kommentaren beim Speichern einer Excel-Datei im HTML-Format](./exporting-comments/)
@@ -58,6 +58,10 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET die FlatOpcSaveOptions nutzen, 
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Arbeitsmappen in C# speichern, Filter entfernen und Excel exportieren.
 ### [Excel-Arbeitsmappe aus JSON speichern – Vollständige C#-Anleitung](./save-excel-workbook-from-json-complete-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe aus JSON-Daten erstellen und speichern – Schritt für Schritt.
+### [Flache OPC-Datei mit C# erstellen – Komplettanleitung](./create-flat-opc-file-with-c-complete-guide/)
+Erfahren Sie, wie Sie mit C# eine flache OPC-Datei erstellen und alle Schritte der Komplettanleitung umsetzen.
+### [Arbeitsmappe als XLSX speichern – Komplettanleitung zur Generierung von Excel mit Daten](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Arbeitsmappen als XLSX speichern und Daten effizient generieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

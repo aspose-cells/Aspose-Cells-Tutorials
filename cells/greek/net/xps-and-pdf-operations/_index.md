@@ -42,6 +42,8 @@
 Μάθετε πώς να δημιουργήσετε νέο βιβλίο εργασίας Excel με υποστήριξη Unicode και να το εξάγετε σε μορφή XPS χρησιμοποιώντας το Aspose.Cells.
 ### [Ενσωμάτωση γραμματοσειρών σε XPS με C# – Πλήρης οδηγός προγραμματισμού](./embed-fonts-in-xps-with-c-complete-programming-guide/)
 Μάθετε πώς να ενσωματώνετε γραμματοσειρές σε αρχεία XPS χρησιμοποιώντας C# και το Aspose.Cells, βήμα-βήμα με παραδείγματα κώδικα.
+### [Ενσωμάτωση γραμματοσειρών PDF με Aspose.Cells – Πλήρης οδηγός C#](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
+Μάθετε πώς να ενσωματώνετε γραμματοσειρές σε αρχεία PDF χρησιμοποιώντας το Aspose.Cells με C# σε απλά βήματα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

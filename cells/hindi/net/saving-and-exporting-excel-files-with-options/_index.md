@@ -58,6 +58,10 @@ C# में Aspose.Cells के साथ FlatOpcSaveOptions का उपय�
 Aspose.Cells for .NET का उपयोग करके फ़िल्टर हटाते हुए वर्कबुक सहेजने और Excel निर्यात करने के चरण-दर-चरण निर्देश।
 ### [JSON से Excel वर्कबुक सहेजना – पूर्ण C# गाइड](./save-excel-workbook-from-json-complete-c-guide/)
 Aspose.Cells for .NET का उपयोग करके JSON डेटा से Excel वर्कबुक बनाने और सहेजने की पूरी प्रक्रिया सीखें।
+### [C# के साथ फ्लैट OPC फ़ाइल बनाना – पूर्ण गाइड](./create-flat-opc-file-with-c-complete-guide/)
+C# में Aspose.Cells का उपयोग करके फ्लैट OPC फ़ाइल बनाने की पूरी प्रक्रिया सीखें। चरण-दर-चरण मार्गदर्शिका।
+### [वर्कबुक को XLSX के रूप में सहेजें – डेटा के साथ Excel उत्पन्न करने के लिए पूर्ण गाइड](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+डेटा के साथ Excel फ़ाइल बनाने के लिए वर्कबुक को XLSX फ़ॉर्मेट में सहेजने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

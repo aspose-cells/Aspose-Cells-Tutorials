@@ -92,6 +92,10 @@ Naučte se, jak pomocí Aspose.Cells rozšířit pole v C# a efektivně pracovat
 Naučte se, jak v C# pomocí WRAPCOLS převést pole na matici v Aspose.Cells pro .NET.
 ### [Jak vypočítat kotangens v Excelu pomocí C# – Kompletní průvodce](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 Naučte se, jak pomocí Aspose.Cells pro .NET a C# vypočítat funkci kotangens v Excelu v podrobném průvodci.
+### [Jak použít WRAPCOLS v Excelu – kompletní příklad v C#](./how-to-use-wrapcols-in-excel-complete-c-example/)
+Naučte se, jak pomocí Aspose.Cells pro .NET použít funkci WRAPCOLS v Excelu v kompletním příkladu v C#.
+### [Použití pole vzorce v Excelu v C# – Kompletní průvodce](./apply-array-formula-excel-in-c-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET aplikovat pole vzorce v Excelu v C# v tomto kompletním průvodci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

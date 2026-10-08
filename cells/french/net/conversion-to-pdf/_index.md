@@ -61,6 +61,8 @@ Apprenez à arrondir les nombres lors de la conversion d'Excel en PDF avec Aspos
 Apprenez à enregistrer un document Word au format PDF avec Aspose.Words en C# grâce à ce guide complet.
 ### [Comment intégrer des polices lors de la conversion d'Excel en PDF – Guide étape par étape](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
 Apprenez à incorporer les polices dans vos PDF lors de la conversion d'Excel avec Aspose.Cells, étape par étape.
+### [Intégrer les polices dans le PDF – Guide complet C# pour exporter Excel en PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
+Apprenez à intégrer les polices dans les PDF générés à partir d'Excel avec Aspose.Cells en C#, garantissant une apparence cohérente sur tous les appareils.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -89,6 +89,10 @@ Aprenda a utilizar a função WRAPCOLS em C# para transformar arrays unidimensio
 ### [Como criar matriz no Excel com C# – Guia passo a passo](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 ### [Como calcular cotangente no Excel com C# – Guia completo](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 Aprenda a calcular a cotangente no Excel usando C# com o Aspose.Cells para .NET neste guia passo a passo completo.
+### [Como usar WRAPCOLS no Excel – Exemplo completo em C#](./how-to-use-wrapcols-in-excel-complete-c-example/)
+Aprenda a usar a função WRAPCOLS no Excel com um exemplo completo em C# usando Aspose.Cells para .NET.
+### [Aplicar Fórmula de Matriz no Excel em C# – Guia Completo](./apply-array-formula-excel-in-c-complete-guide/)
+Aprenda a aplicar fórmulas de matriz no Excel usando C# e Aspose.Cells com este guia passo a passo completo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

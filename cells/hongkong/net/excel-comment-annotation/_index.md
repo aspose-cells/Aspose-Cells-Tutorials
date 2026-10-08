@@ -59,6 +59,8 @@
 了解如何使用 Aspose.Cells for .NET 以程式方式建立 Excel 檔案，新增註解並儲存為 XLSX 格式。
 ### [使用 Aspose.Cells 智能標記在 Excel 中新增註解儲存格](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
 了解如何使用 Aspose.Cells 智能標記在 Excel 中為儲存格新增註解，以簡化資料匯入流程。
+### [在 C# 中向儲存格新增註解 – 從資料生成 Excel](./add-comment-to-cell-in-c-generate-excel-from-data/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中從資料生成 Excel 並向儲存格新增註解。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

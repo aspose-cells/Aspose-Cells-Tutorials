@@ -55,6 +55,9 @@ tym szczegółowym przewodniku krok po kroku dowiesz się, jak programowo pobier
 
 ### [Ukrywanie nałożonej zawartości za pomocą funkcji Cross Hide Right podczas zapisywania w formacie HTML](./hiding-overlaid-content-with-cross-hide-right/)
 tym kompleksowym przewodniku dowiesz się, jak ukryć nakładaną zawartość w programie Excel podczas zapisywania w formacie HTML za pomocą Aspose.Cells dla platformy .NET.
+### [Jak osadzić czcionki przy eksporcie Excela do HTML – Kompletny przewodnik C#](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
+Dowiedz się, jak osadzić czcionki przy eksporcie plików Excel do HTML przy użyciu Aspose.Cells dla .NET w tym kompletnym przewodniku C#.
+
 
 ### [Dodawanie prefiksu do stylów elementów tabeli za pomocą opcji zapisu HTML](./prefixing-table-elements-styles/)
 Dowiedz się, jak używać Aspose.Cells for .NET do dodawania prefiksów do stylów tabel w formacie HTML, wzbogacając eksportowane dane w programie Excel o przykłady krok po kroku.
@@ -100,6 +103,12 @@ Dowiedz się, jak programowo zapisać plik Excel jako HTML i konwertować go prz
 Dowiedz się, jak konwertować pliki Excel do HTML przy użyciu Aspose.Cells w pełnym przewodniku krok po kroku.
 ### [Zapisz Excel jako HTML – Kompletny przewodnik z przykładami kodu](./save-excel-as-html-complete-guide-with-code-samples/)
 Dowiedz się, jak zapisać plik Excel jako HTML, korzystając z pełnego przewodnika i przykładów kodu w Aspose.Cells dla .NET.
+
+### [Utworzenie HTML z tabeli w C# – Kompletny przewodnik](./create-html-from-table-in-c-complete-guide/)
+Dowiedz się, jak programowo generować kod HTML z tabeli w C# przy użyciu Aspose.Cells, krok po kroku.
+
+### [Eksportowanie Excela do HTML w C# – Kompletny przewodnik programistyczny](./export-excel-to-html-with-c-complete-programming-guide/)
+Dowiedz się, jak programowo eksportować pliki Excel do HTML przy użyciu C# i Aspose.Cells dla .NET w tym kompletnym przewodniku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -153,6 +153,10 @@ Hướng dẫn sử dụng Smart Marker để tạo giá trị ô dựa trên đ
 Hướng dẫn chi tiết cách sử dụng SmartMarker để áp dụng vào Worksheet trong C#, tạo báo cáo Excel động một cách dễ dàng.
 ### [Tạo Excel bằng cách lập trình sử dụng Aspose.Cells Smart Markers](./create-excel-programmatically-using-aspose-cells-smart-marke/)
 Khám phá cách tự động tạo tệp Excel bằng Smart Markers trong Aspose.Cells cho .NET.
+### [Aspose Cells Smart Markers: Tạo Excel từ Model trong C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
+Hướng dẫn cách sử dụng Smart Markers để tạo tệp Excel trực tiếp từ Model trong C# với Aspose.Cells.
+### [Tạo nhiều trang tính với SmartMarker – Hướng dẫn C# đầy đủ](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
+### [Xuất dữ liệu ra Excel – Hướng dẫn đầy đủ để điền mẫu Excel bằng Smart Markers](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

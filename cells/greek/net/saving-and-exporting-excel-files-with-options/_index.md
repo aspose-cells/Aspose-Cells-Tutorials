@@ -58,6 +58,10 @@
 Μάθετε πώς να αποθηκεύσετε ένα βιβλίο εργασίας σε C#, να καθαρίσετε τα φίλτρα και να εξάγετε το αρχείο Excel με το Aspose.Cells για .NET.
 ### [Αποθήκευση βιβλίου εργασίας Excel από JSON – Πλήρης οδηγός C#](./save-excel-workbook-from-json-complete-c-guide/)
 Μάθετε πώς να δημιουργήσετε και να αποθηκεύσετε ένα βιβλίο εργασίας Excel από δεδομένα JSON χρησιμοποιώντας C# και Aspose.Cells.
+### [Δημιουργία flat OPC αρχείου με C# – Πλήρης οδηγός](./create-flat-opc-file-with-c-complete-guide/)
+Μάθετε πώς να δημιουργήσετε ένα flat OPC αρχείο χρησιμοποιώντας C# με τον πλήρη οδηγό μας βήμα προς βήμα.
+### [Αποθήκευση βιβλίου εργασίας ως XLSX – Πλήρης οδηγός για δημιουργία Excel με δεδομένα](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+Μάθετε πώς να αποθηκεύσετε ένα βιβλίο εργασίας ως αρχείο XLSX και να δημιουργήσετε Excel με δεδομένα χρησιμοποιώντας Aspose.Cells για .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

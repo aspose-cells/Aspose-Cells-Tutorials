@@ -148,6 +148,11 @@ Lär dig att generera en arbetsbok som visar hög- och lågvärden med Smart Mar
 Lär dig hur du bygger en master‑detail‑rapport i C# genom att fylla en Excel‑mall med SmartMarker‑teknik.
 ### [Applicera SmartMarker på arbetsblad i C# – Komplett guide](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
 ### [Skapa Excel programatiskt med Aspose.Cells Smart Markers](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+### [Exportera data till Excel – Komplett guide för att fylla i Excel-mall med smarta markörer](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
+Lär dig steg för steg hur du använder smarta markörer för att automatiskt fylla en Excel‑mall med data från .NET‑applikationer.
+### [Generera flera blad med SmartMarker – Komplett C#-guide](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
+### [Aspose Cells Smart Markers: Generera Excel från modell i C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
+Lär dig hur du använder Smart Markers för att skapa Excel-filer direkt från en .NET-modell med C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

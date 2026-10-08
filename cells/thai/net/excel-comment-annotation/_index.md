@@ -60,6 +60,8 @@
 เรียนรู้วิธีใช้ Smart Markers ใน C# เพื่อเติมข้อมูลลงในเทมเพลต Excel อย่างอัตโนมัติด้วย Aspose.Cells
 ### [สร้างไฟล์ Excel ด้วยโปรแกรม – เพิ่มความคิดเห็นและบันทึกเป็น XLSX](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
 เรียนรู้วิธีสร้างไฟล์ Excel ด้วยโค้ด, เพิ่มความคิดเห็น, แล้วบันทึกเป็นรูปแบบ XLSX โดยใช้ Aspose.Cells สำหรับ .NET
+### [เพิ่มความคิดเห็นในเซลล์ด้วย C# – สร้าง Excel จากข้อมูล](./add-comment-to-cell-in-c-generate-excel-from-data/)
+เรียนรู้วิธีเพิ่มความคิดเห็นในเซลล์ Excel ด้วย C# และสร้างไฟล์จากข้อมูลโดยใช้ Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

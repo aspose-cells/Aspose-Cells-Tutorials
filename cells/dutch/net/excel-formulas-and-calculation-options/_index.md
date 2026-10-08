@@ -89,6 +89,10 @@ Leer hoe u een array in C# kunt uitbreiden met Aspose.Cells in deze stapsgewijze
 Leer hoe je met Aspose.Cells voor .NET een array in Excel kunt maken met C# in deze gedetailleerde stap‑voor‑stap gids.
 ### [Hoe cotangens te berekenen in Excel met C# – Complete gids](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 Leer stap voor stap hoe je de cotangens-functie in Excel kunt berekenen met C# en Aspose.Cells.
+### [Hoe WRAPCOLS in Excel te gebruiken – Volledig C#-voorbeeld](./how-to-use-wrapcols-in-excel-complete-c-example/)
+Leer hoe je de WRAPCOLS-functie in Excel gebruikt met een volledig C#-voorbeeld in Aspose.Cells voor .NET.
+### [Arrayformule in Excel toepassen met C# – Volledige gids](./apply-array-formula-excel-in-c-complete-guide/)
+Leer stap voor stap hoe je een arrayformule in Excel toepast met C# en Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

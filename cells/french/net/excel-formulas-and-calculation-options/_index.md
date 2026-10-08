@@ -70,6 +70,8 @@ Exploitez toute la puissance d'Excel avec Aspose.Cells pour .NET. Apprenez à tr
 ### [Comment étendre un tableau en C# avec Aspose.Cells – Guide étape par étape](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Apprenez à étendre un tableau en C# avec Aspose.Cells grâce à ce guide détaillé pas à pas.
 
+### [Appliquer une formule matricielle Excel en C# – Guide complet](./apply-array-formula-excel-in-c-complete-guide/)
+Apprenez à appliquer une formule matricielle dans Excel en C# avec Aspose.Cells pour .NET grâce à ce guide complet étape par étape.
 ### [Traitement des données à l'aide des fonctions intégrées dans Excel](./processing-data-using-built-in-functions/)
 Découvrez comment traiter des données à l'aide des fonctions intégrées d'Excel avec Aspose.Cells pour .NET. Suivez un tutoriel étape par étape pour une automatisation facile.
 ### [Traitement des données à l'aide de R1C1 dans Excel](./processing-data-using-r1c1/)
@@ -90,6 +92,8 @@ Apprenez à utiliser la fonction WRAPCOLS en C# pour convertir des tableaux en m
 Apprenez à créer et manipuler des tableaux dans Excel en utilisant C# avec Aspose.Cells, grâce à ce guide détaillé étape par étape.
 ### [Comment calculer la cotangente dans Excel avec C# – Guide complet](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 Apprenez à calculer la fonction cotangente dans Excel en utilisant C# avec Aspose.Cells pour .NET grâce à ce guide complet étape par étape.
+### [Comment utiliser WRAPCOLS dans Excel – Exemple complet en C#](./how-to-use-wrapcols-in-excel-complete-c-example/)
+Apprenez à appliquer la fonction WRAPCOLS dans Excel avec un exemple complet en C# utilisant Aspose.Cells pour .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

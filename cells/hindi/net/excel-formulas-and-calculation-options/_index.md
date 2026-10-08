@@ -76,6 +76,8 @@ C# और Aspose.Cells का उपयोग करके Excel में क�
 ### [C# के साथ Excel में एरे कैसे बनाएं – चरण‑दर‑चरण गाइड](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 C# और Aspose.Cells का उपयोग करके Excel में एरे बनाने की प्रक्रिया को सरलता से सीखें।
 ### [C# के साथ Excel में कोटैन्जेंट कैसे गणना करें – पूर्ण गाइड](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+### [Excel में WRAPCOLS का उपयोग कैसे करें – पूर्ण C# उदाहरण](./how-to-use-wrapcols-in-excel-complete-c-example/)
+### [C# में एरे फ़ॉर्मूला Excel लागू करना – पूर्ण गाइड](./apply-array-formula-excel-in-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

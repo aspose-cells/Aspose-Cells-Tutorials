@@ -57,6 +57,10 @@
 اكتشف كيفية حفظ المصنف وإزالة الفلاتر وتصدير ملف Excel باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
 ### [حفظ مصنف Excel من JSON – دليل C# كامل](./save-excel-workbook-from-json-complete-c-guide/)
 تعلم كيفية تحويل بيانات JSON إلى مصنف Excel وحفظه باستخدام Aspose.Cells for .NET مع مثال شامل بلغة C#.
+### [إنشاء ملف OPC مسطح باستخدام C# – دليل كامل](./create-flat-opc-file-with-c-complete-guide/)
+دليل شامل لإنشاء ملف OPC مسطح باستخدام C# مع Aspose.Cells.
+### [حفظ دفتر العمل كملف XLSX – دليل كامل لإنشاء Excel بالبيانات](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+تعرف على كيفية حفظ دفتر العمل كملف XLSX وإنشاء ملفات Excel مليئة بالبيانات باستخدام Aspose.Cells لـ .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

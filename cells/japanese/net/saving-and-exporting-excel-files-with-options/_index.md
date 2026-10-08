@@ -58,6 +58,9 @@ Aspose.Cells の FlatOpcSaveOptions を C# で活用し、Excel ファイルの�
 Aspose.Cells for .NET を使用して、C# でブックを保存し、適用されたフィルターをクリアし、Excel 形式でエクスポートする手順を詳しく解説します。
 ### [JSON から Excel ワークブックを保存 – 完全 C# ガイド](./save-excel-workbook-from-json-complete-c-guide/)
 JSON データを使用して Excel ワークブックを作成し、保存する方法をステップバイステップで解説します。
+### [C# を使用してフラット OPC ファイルを作成する – 完全ガイド](./create-flat-opc-file-with-c-complete-guide/)
+Aspose.Cells for .NET を使用して、C# でフラット OPC ファイルを作成する手順をステップバイステップで解説します。
+### [ワークブックを XLSX として保存 – データで Excel を生成する完全ガイド](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

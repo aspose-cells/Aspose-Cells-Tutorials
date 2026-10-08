@@ -59,6 +59,8 @@ Naučte se, jak pomocí Aspose.Cells pro .NET přidat komentář a naplnit šabl
 Naučte se, jak pomocí Aspose.Cells pro .NET programově vytvořit soubor Excel, přidat komentáře a uložit jej ve formátu XLSX.
 ### [Přidání komentáře buňky v Excelu pomocí Aspose.Cells Smart Marker](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
 Naučte se, jak pomocí Aspose.Cells Smart Marker přidat komentář buňky v Excelu a automatizovat anotace.
+### [Přidání komentáře do buňky v C# – Generování Excelu z dat](./add-comment-to-cell-in-c-generate-excel-from-data/)
+Naučte se přidávat komentář do buňky v C# a generovat Excel soubor z dat pomocí Aspose.Cells pro .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

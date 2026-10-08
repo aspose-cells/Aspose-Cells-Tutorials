@@ -53,6 +53,8 @@ Aspose.Cells for .NET का उपयोग करके टेबल को CS
 Aspose.Cells for .NET का उपयोग करके C# में तालिका को CSV में निर्यात करने की पूरी प्रक्रिया सीखें। आसान चरणों में डेटा को सहेजें।
 ### [वर्कबुक को CSV के रूप में सहेजें – C# में एक्सेल को CSV में निर्यात करने की पूरी गाइड](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-i/)
 Aspose.Cells for .NET का उपयोग करके वर्कबुक को CSV फ़ाइल में निर्यात करने की चरण-दर-चरण प्रक्रिया सीखें।
+### [C# में नया वर्कबुक बनाना – एक्सेल को CSV में निर्यात करने का पूर्ण गाइड](./create-new-workbook-in-c-full-guide-to-export-excel-to-csv/)
+C# में Aspose.Cells का उपयोग करके नया वर्कबुक बनाना और एक्सेल डेटा को CSV फ़ाइल में निर्यात करना सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

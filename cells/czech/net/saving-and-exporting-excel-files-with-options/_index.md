@@ -58,6 +58,10 @@ Naučte se, jak využít FlatOpcSaveOptions pro ukládání souborů s možnost�
 Naučte se, jak uložit sešit, vymazat filtry a exportovat Excel pomocí Aspose.Cells pro .NET.
 ### [Uložení sešitu Excel z JSON – kompletní průvodce v C#](./save-excel-workbook-from-json-complete-c-guide/)
 Naučte se, jak pomocí Aspose.Cells pro .NET převést data JSON do sešitu Excel a uložit jej pomocí C#.
+### [Vytvoření plochého souboru OPC pomocí C# – Kompletní průvodce](./create-flat-opc-file-with-c-complete-guide/)
+Kompletní návod, jak pomocí C# vytvořit plochý OPC soubor pro Excel, včetně kroků a ukázek kódu.
+### [Uložení sešitu jako XLSX – Kompletní průvodce generováním Excelu s daty](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+Kompletní návod, jak uložit sešit jako soubor XLSX a generovat Excel s daty pomocí Aspose.Cells pro .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

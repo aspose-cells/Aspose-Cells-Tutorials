@@ -66,6 +66,8 @@
 Μάθετε πώς να δημιουργήσετε μια περιοχή αναφοράς Pivot και να εξάγετε την εικόνα του πίνακα Pivot σε μορφή PNG.
 ### [Πώς να εξάγετε Pivot σε PNG σε C# – Οδηγός βήμα‑βήμα](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
 Μάθετε πώς να εξάγετε ένα PivotTable σε εικόνα PNG χρησιμοποιώντας το Aspose.Cells για .NET σε C# με αυτόν τον οδηγό βήμα‑βήμα.
+### [Δημιουργία εικόνας PNG Pivot σε C# – Πλήρης οδηγός βήμα προς βήμα](./create-png-pivot-image-in-c-full-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε εικόνα PNG από Pivot Table σε C# με αναλυτικές οδηγίες βήμα προς βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

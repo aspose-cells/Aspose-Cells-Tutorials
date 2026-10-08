@@ -58,6 +58,10 @@ Leer stap voor stap hoe u FlatOpcSaveOptions kunt toepassen in C# om Excel-besta
 Leer hoe u filters kunt wissen, een werkmap opslaat en exporteert naar Excel met Aspose.Cells voor .NET.
 ### [Excel-werkmap opslaan vanuit JSON – Complete C#-gids](./save-excel-workbook-from-json-complete-c-guide/)
 Leer hoe u een Excel-werkmap vanuit JSON-gegevens kunt maken en opslaan met Aspose.Cells voor .NET in C#.
+### [Flat OPC-bestand maken met C# – Complete gids](./create-flat-opc-file-with-c-complete-guide/)
+Leer hoe u een plat OPC‑bestand maakt met C# met behulp van Aspose.Cells voor .NET in deze volledige gids.
+### [Werkboek opslaan als XLSX – Complete gids voor het genereren van Excel met gegevens](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+Leer hoe u een werkmap opslaat als XLSX en Excel-bestanden genereert met data met Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

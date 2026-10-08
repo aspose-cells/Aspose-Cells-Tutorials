@@ -42,6 +42,8 @@
 تعرف على إنشاء مصنف Excel جديد يدعم Unicode وتصديره إلى XPS باستخدام Aspose.Cells لـ .NET.
 ### [تضمين الخطوط في XPS باستخدام C# – دليل برمجة كامل](./embed-fonts-in-xps-with-c-complete-programming-guide/)
 تعلم كيفية تضمين الخطوط في ملفات XPS باستخدام C# مع Aspose.Cells، خطوة بخطوة مع أمثلة شاملة للشفرة.
+### [تضمين الخطوط في PDF باستخدام Aspose.Cells – دليل C# كامل](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
+تعرف على كيفية تضمين الخطوط في ملفات PDF باستخدام Aspose.Cells لـ .NET مع دليل شامل بلغة C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

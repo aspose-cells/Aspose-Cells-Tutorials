@@ -131,6 +131,12 @@
 Подробное пошаговое руководство по конвертации файлов Excel в HTML с помощью Aspose.Cells для .NET.
 ### [Сохранить Excel как HTML – Полное руководство с примерами кода](./save-excel-as-html-complete-guide-with-code-samples/)
 Узнайте, как сохранить Excel в HTML с полным руководством и примерами кода, используя Aspose.Cells для .NET.
+### [Создание HTML из таблицы в C# – Полное руководство](./create-html-from-table-in-c-complete-guide/)
+Узнайте, как программно создать HTML из таблицы в C# с помощью Aspose.Cells для .NET в этом полном руководстве.
+### [Как внедрить шрифты при экспорте Excel в HTML – Полное руководство C#](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
+Узнайте, как внедрять шрифты при экспорте Excel в HTML с помощью Aspose.Cells для .NET в полном руководстве на C#.
+### [Экспорт Excel в HTML с C# – Полное руководство по программированию](./export-excel-to-html-with-c-complete-programming-guide/)
+Узнайте, как программно экспортировать Excel в HTML с помощью C# и Aspose.Cells для .NET в полном руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

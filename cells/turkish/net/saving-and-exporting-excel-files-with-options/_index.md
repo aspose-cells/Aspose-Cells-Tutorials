@@ -58,6 +58,10 @@ Aspose.Cells for .NET ile FlatOpcSaveOptions ayarlarını C# içinde nasıl kull
 Aspose.Cells for .NET ile C# içinde çalışma kitabını kaydederken filtreleri temizleyip Excel olarak dışa aktarmayı adım adım öğrenin.
 ### [JSON'dan Excel Çalışma Kitabı Kaydetme – Tam C# Rehberi](./save-excel-workbook-from-json-complete-c-guide/)
 Aspose.Cells for .NET kullanarak JSON verilerinden Excel çalışma kitabı oluşturmayı ve kaydetmeyi adım adım öğrenin.
+### [C# ile Düz OPC Dosyası Oluşturma – Tam Kılavuz](./create-flat-opc-file-with-c-complete-guide/)
+Aspose.Cells for .NET ile C# kullanarak düz OPC dosyası oluşturmayı adım adım öğrenin.
+### [Çalışma Kitabını XLSX Olarak Kaydet – Veri ile Excel Oluşturma Tam Kılavuzu](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+Aspose.Cells for .NET kullanarak çalışma kitabını XLSX olarak kaydetmeyi ve veri ile Excel oluşturmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

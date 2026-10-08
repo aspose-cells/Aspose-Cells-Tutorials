@@ -90,6 +90,9 @@ Dowiedz się, jak w prosty sposób rozszerzyć tablicę w C# przy użyciu Aspose
 Dowiedz się, jak w C# tworzyć plik Excel krok po kroku, wykorzystując logikę warunkową przy pomocy Aspose.Cells dla .NET.
 ### [Jak obliczyć cotangens w Excelu przy użyciu C# – Kompletny przewodnik](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 Dowiedz się, jak obliczyć cotangens w Excelu przy użyciu Aspose.Cells i C#. Kompletny przewodnik krok po kroku.
+### [Jak używać WRAPCOLS w Excelu – kompletny przykład w C#](./how-to-use-wrapcols-in-excel-complete-c-example/)
+### [Zastosowanie formuły tablicowej w Excelu w C# – kompletny przewodnik](./apply-array-formula-excel-in-c-complete-guide/)
+Dowiedz się, jak zastosować formułę tablicową w Excelu przy użyciu Aspose.Cells w C#, krok po kroku, w pełnym przewodniku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

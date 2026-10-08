@@ -69,6 +69,8 @@ Excel 隨附大量內建函數，可執行各種計算和資料操作。了解�
 使用 Aspose.Cells for .NET 釋放 Excel 的強大功能。在本詳細教程中學習使用數組函數處理資料。
 ### [在 C# 中使用 Aspose.Cells 展開陣列 – 步驟說明指南](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 透過本逐步指南了解如何在 C# 中使用 Aspose.Cells 展開陣列，以提升資料處理效率。
+### [在 C# 中套用 Excel 陣列公式 – 完整指南](./apply-array-formula-excel-in-c-complete-guide/)
+透過本完整指南學習如何在 C# 使用 Aspose.Cells for .NET 在 Excel 中套用陣列公式，提升資料處理效率。
 ### [使用 Excel 內建函數處理數據](./processing-data-using-built-in-functions/)
 了解如何使用 Aspose.Cells for .NET 中的 Excel 內建函數處理資料。按照逐步教程輕鬆自動化。
 ### [使用 Excel 中的 R1C1 處理數據](./processing-data-using-r1c1/)
@@ -89,6 +91,9 @@ Excel 隨附大量內建函數，可執行各種計算和資料操作。了解�
 透過本逐步教學，學習如何使用 Aspose.Cells for .NET 及 C# 在 Excel 中建立與操作陣列。
 ### [如何在 Excel 中使用 C# 計算餘切 – 完整指南](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 本完整指南說明如何使用 Aspose.Cells for .NET 及 C# 在 Excel 中計算餘切函數，步驟清晰易懂。
+
+### [如何在 Excel 中使用 WRAPCOLS – 完整 C# 範例](./how-to-use-wrapcols-in-excel-complete-c-example/)
+了解如何使用 Aspose.Cells for .NET 以 C# 完整示例在 Excel 中運用 WRAPCOLS 函數，提升資料排版效率。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

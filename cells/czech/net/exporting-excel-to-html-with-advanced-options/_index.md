@@ -136,6 +136,12 @@ Naučte se, jak kompletně převést soubory Excel do HTML pomocí Aspose.Cells 
 ### [Vložení fontů do HTML – Export sešitu Excel do HTML pomocí Aspose.Cells](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
 ### [Uložení Excelu jako HTML – Kompletní průvodce s ukázkami kódu](./save-excel-as-html-complete-guide-with-code-samples/)
 Kompletní návod, jak programově uložit soubor Excel jako HTML s podrobnými ukázkami kódu v Aspose.Cells pro .NET.
+### [Vytvoření HTML z tabulky v C# – Kompletní průvodce](./create-html-from-table-in-c-complete-guide/)
+Naučte se, jak v C# programově vytvořit HTML kód z tabulky pomocí Aspose.Cells pro .NET v tomto podrobném průvodci.
+### [Jak vložit písma při exportu Excelu do HTML – Kompletní C# průvodce](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
+Naučte se, jak programově vložit písma do HTML při exportu Excelu pomocí Aspose.Cells pro .NET v tomto podrobném C# průvodci.
+### [Export Excel do HTML s C# – Kompletní programovací průvodce](./export-excel-to-html-with-c-complete-programming-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET v C# kompletně exportovat Excel do HTML v tomto podrobném průvodci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

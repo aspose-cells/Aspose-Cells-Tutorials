@@ -59,6 +59,8 @@ Lär dig hur du använder Smart Markers i C# för att fylla i en Excel-mall med 
 Lär dig hur du programatiskt skapar en Excel-fil, lägger till kommentarer och sparar den som XLSX med Aspose.Cells för .NET.
 ### [Lägg till en kommentarcell i Excel med Aspose.Cells Smart Marker](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
 Lär dig hur du använder Smart Marker för att automatiskt lägga till kommentarer i celler i Excel med Aspose.Cells för .NET.
+### [Lägg till en kommentar i en cell i C# – Generera Excel från data](./add-comment-to-cell-in-c-generate-excel-from-data/)
+Lär dig hur du lägger till en kommentar i en cell med C# och genererar ett Excel‑ark från data med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

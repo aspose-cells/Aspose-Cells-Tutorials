@@ -61,6 +61,8 @@ Lär dig hur du avrundar siffror korrekt vid Excel‑till‑PDF‑konvertering m
 Lär dig hur du sparar Word-dokument som PDF med C# och Aspose.Words i en komplett steg-för-steg-guide.
 ### [Hur du bäddar in teckensnitt vid konvertering av Excel till PDF – Steg‑för‑steg‑guide](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
 Lär dig hur du bäddar in teckensnitt i PDF‑utdata när du konverterar Excel‑filer med Aspose.Cells för .NET.
+### [Bädda in teckensnitt i PDF – Komplett C#-guide för att exportera Excel till PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
+Lär dig hur du bäddar in teckensnitt i PDF när du exporterar Excel med Aspose.Cells i C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

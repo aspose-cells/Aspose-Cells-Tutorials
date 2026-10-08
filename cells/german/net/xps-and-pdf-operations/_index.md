@@ -42,6 +42,8 @@ Erfahren Sie, wie Sie Excel-Dateien mit C# und Aspose.Cells in das XPS-Format ko
 Erfahren Sie, wie Sie ein neues Excel‑Arbeitsbuch mit Unicode‑Unterstützung erstellen und es als XPS‑Datei exportieren.
 ### [Schriftarten in XPS mit C# einbetten – Vollständiger Programmierleitfaden](./embed-fonts-in-xps-with-c-complete-programming-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Schriftarten in XPS-Dokumente einbetten, um ein konsistentes Layout sicherzustellen.
+### [Schriftarten in PDF einbetten mit Aspose.Cells – Vollständiger C#-Leitfaden](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Schriftarten in PDFs einbetten, um die Dokumentdarstellung zu sichern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

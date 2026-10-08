@@ -61,6 +61,8 @@ Erfahren Sie, wie Sie Zahlen beim Export von Excel nach PDF mit Aspose.Cells in 
 Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words in C# problemlos in PDF konvertieren.
 ### [Schriftarten einbetten beim Konvertieren von Excel zu PDF – Schritt‑für‑Schritt‑Anleitung](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
 Erfahren Sie, wie Sie Schriftarten in PDFs einbetten, um das Layout Ihrer Excel‑Dateien beizubehalten.
+### [Schriftarten in PDF einbetten – Vollständiger C#-Leitfaden zum Exportieren von Excel nach PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
+Erfahren Sie, wie Sie mit Aspose.Cells Schriftarten in PDFs einbetten, um konsistente Darstellung Ihrer Excel-Exporte sicherzustellen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

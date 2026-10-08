@@ -58,6 +58,10 @@ Learn how to clear filters and export Excel workbooks in C# using Aspose.Cells, 
 Learn how to use FlatOpcSaveOptions in C# with Aspose.Cells for .NET to save Excel files in OPC format, covering all options and best practices.
 ### [Save Excel Workbook from JSON – Complete C# Guide](./save-excel-workbook-from-json-complete-c-guide/)
 Learn how to generate an Excel workbook from JSON data using C# and Aspose.Cells, with a complete step-by-step guide.
+### [Create flat OPC file with C# – Complete Guide](./create-flat-opc-file-with-c-complete-guide/)
+Learn how to generate a flat OPC file using C# with Aspose.Cells for .NET in this comprehensive step-by-step guide.
+### [Save Workbook as XLSX – Complete Guide to Generate Excel with Data](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+Learn how to generate an XLSX workbook with data using Aspose.Cells for .NET in this complete step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,7 +50,6 @@ Vannak gyakran használt egyéni függvényeid vagy bővítményeid? Nos, az Asp
 ## Sorkorlátok megadása megosztott képletekhez  
 Megosztott képletekkel való munka során fontos megérteni, hogyan lehet hatékonyan kezelni a sorkorlátokat. Ez segíthet megőrizni az átláthatóságot, miközben biztosítja, hogy a teljesítmény ne romoljon. Oktatóanyagunkban [A megosztott képlet maximális sorainak megadása Excelben](./specifying-maximum-rows-of-shared-formula/)betekintést nyújt abba, hogyan adhatja meg ezeket a korlátokat, ezáltal megelőzve a lehetséges lassulásokat vagy hibákat nagy adathalmazokban. Ugye nem szeretné, ha az Excel dugóként élne, ugye? A dolgok rendszerezése biztosítja az adatok zökkenőmentes áramlását.
 
-## Excel képletek és számítási lehetőségek oktatóanyagok
 ### [Hogyan számítsuk ki a kotangenset Excelben C#‑val – Lépésről lépésre útmutató](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
 Ismerd meg, hogyan számítható ki a kotangens függvény Excelben C#‑ban, részletes, lépésről‑lépésre útmutatóval.
 
@@ -92,6 +91,11 @@ Ismerje meg, hogyan számíthatja újra az összes képletet C#-ban az Aspose.Ce
 Ismerje meg, hogyan hozhat létre Excel fájlt C#‑ban feltételes logikával az Aspose.Cells for .NET segítségével, lépésről‑lépésre.
 ### [Hogyan bővítsük a tömböt C#-ban az Aspose.Cells segítségével – Lépésről‑lépésre útmutató](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Fedezze fel, hogyan lehet bővíteni a tömböt C#-ban az Aspose.Cells használatával ebben a részletes, lépésről‑lépésre útmutatóban.
+### [Tömbképlet alkalmazása Excelben C#-ban – Teljes útmutató](./apply-array-formula-excel-in-c-complete-guide/)
+Tanulja meg, hogyan alkalmazzon tömbképleteket Excelben C#-ban az Aspose.Cells for .NET segítségével ebben a részletes útmutatóban.
+
+### [Hogyan használjuk a WRAPCOLS függvényt Excelben – Teljes C# példa](./how-to-use-wrapcols-in-excel-complete-c-example/)
+Ismerje meg, hogyan alkalmazhatja a WRAPCOLS függvényt Excelben C#-ban egy részletes példán keresztül.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -89,6 +89,10 @@ Hướng dẫn cách sử dụng hàm WRAPCOLS trong C# để chuyển đổi m�
 Tìm hiểu cách tạo mảng trong Excel bằng C# với Aspose.Cells cho .NET qua hướng dẫn chi tiết từng bước.
 ### [Cách tính Cotangent trong Excel bằng C# – Hướng dẫn đầy đủ](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 Tìm hiểu cách tính hàm cotangent trong Excel bằng C# với Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
+### [Cách sử dụng WRAPCOLS trong Excel – Ví dụ đầy đủ C#](./how-to-use-wrapcols-in-excel-complete-c-example/)
+Tìm hiểu cách sử dụng hàm WRAPCOLS trong Excel với ví dụ C# đầy đủ bằng Aspose.Cells cho .NET.
+### [Áp dụng công thức mảng Excel trong C# – Hướng dẫn đầy đủ](./apply-array-formula-excel-in-c-complete-guide/)
+Tìm hiểu cách áp dụng công thức mảng trong Excel bằng C# với Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

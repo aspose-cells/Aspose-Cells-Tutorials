@@ -61,6 +61,8 @@
 Μάθετε πώς να αποθηκεύσετε έγγραφα Word σε PDF χρησιμοποιώντας το Aspose.Words για .NET με αυτόν τον πλήρη οδηγό C#.
 ### [Πώς να ενσωματώσετε γραμματοσειρές κατά τη μετατροπή Excel σε PDF – Οδηγός βήμα‑βήμα](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
 Μάθετε πώς να ενσωματώσετε γραμματοσειρές στα PDF που προέρχονται από αρχεία Excel, εξασφαλίζοντας σωστή εμφάνιση κειμένου.
+### [Ενσωμάτωση γραμματοσειρών σε PDF – Πλήρης οδηγός C# για εξαγωγή Excel σε PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
+Μάθετε πώς να ενσωματώνετε γραμματοσειρές σε PDF κατά την εξαγωγή αρχείων Excel με το Aspose.Cells σε C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

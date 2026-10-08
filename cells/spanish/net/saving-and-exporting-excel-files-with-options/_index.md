@@ -56,6 +56,8 @@ Aprenda a guardar libros de Excel programáticamente en C# con una guía paso a 
 ### [Cómo guardar un libro de trabajo en C# – Guía completa para borrar filtros y exportar Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
 ### [Guardar libro de Excel desde JSON – Guía completa en C#](./save-excel-workbook-from-json-complete-c-guide/)
 Aprenda a crear y guardar libros de Excel a partir de datos JSON usando Aspose.Cells para .NET con C#.
+### [Crear archivo OPC plano con C# – Guía completa](./create-flat-opc-file-with-c-complete-guide/)
+### [Guardar libro de trabajo como XLSX – Guía completa para generar Excel con datos](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

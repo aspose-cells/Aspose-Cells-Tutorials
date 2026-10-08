@@ -58,6 +58,10 @@ Aspose.Cells for .NET 為開發人員提供了強大的工具來管理 .NET 應�
 本教學說明如何在 C# 使用 Aspose.Cells 清除工作表篩選條件，然後儲存或匯出為 Excel 檔案的完整步驟。
 ### [從 JSON 儲存 Excel 工作簿 – 完整 C# 教學](./save-excel-workbook-from-json-complete-c-guide/)
 了解如何使用 Aspose.Cells for .NET 從 JSON 資料建立並儲存 Excel 工作簿的完整 C# 範例。
+### [使用 C# 建立平面 OPC 檔案 – 完整指南](./create-flat-opc-file-with-c-complete-guide/)
+本完整指南說明如何使用 C# 產生平面 OPC 檔案，涵蓋步驟與範例，協助您快速上手。
+### [將工作簿儲存為 XLSX – 生成含資料的 Excel 完整指南](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+本指南說明如何使用 Aspose.Cells for .NET 將工作簿儲存為 XLSX，並生成包含資料的 Excel 檔案。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

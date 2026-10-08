@@ -66,6 +66,8 @@ Aspose.Cells สำหรับ .NET เป็นโปรแกรมที่�
 เรียนรู้วิธีแทรกอักขระ Unicode ในไฟล์ Excel แล้วแปลงเป็น PDF ด้วย Aspose.Cells อย่างง่ายดาย
 ### [วิธีฝังฟอนต์เมื่อแปลง Excel เป็น PDF – คู่มือขั้นตอนโดยขั้นตอน](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
 เรียนรู้วิธีฝังฟอนต์ในไฟล์ PDF ที่ได้จากการแปลง Excel เพื่อให้แสดงผลตรงตามต้นฉบับ
+### [ฝังฟอนต์ใน PDF – คู่มือ C# ครบถ้วนสำหรับส่งออก Excel เป็น PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
+เรียนรู้วิธีฝังฟอนต์ในไฟล์ PDF จาก Excel ด้วย C# อย่างละเอียดเพื่อให้เอกสารแสดงผลตรงตามที่ต้องการ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

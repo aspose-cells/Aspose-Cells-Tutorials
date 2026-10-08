@@ -101,6 +101,9 @@ Aspose.Cells के साथ C# में Excel को HTML में निर
 Aspose.Cells का उपयोग करके Excel को HTML में परिवर्तित करने की पूरी गाइड, चरण-दर-चरण उदाहरणों के साथ।
 ### [Excel को HTML के रूप में सहेजें – कोड नमूनों के साथ पूर्ण गाइड](./save-excel-as-html-complete-guide-with-code-samples/)
 .NET के लिए Aspose.Cells का उपयोग करके Excel को HTML में सहेजने की पूरी प्रक्रिया और कोड उदाहरण देखें।
+### [C# में टेबल से HTML बनाना – पूर्ण गाइड](./create-html-from-table-in-c-complete-guide/)
+### [Excel को HTML में निर्यात करते समय फ़ॉन्ट एम्बेड करना – पूर्ण C# गाइड](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
+### [C# के साथ Excel को HTML में निर्यात – पूर्ण प्रोग्रामिंग गाइड](./export-excel-to-html-with-c-complete-programming-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

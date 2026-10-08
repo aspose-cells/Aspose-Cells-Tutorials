@@ -42,6 +42,8 @@ Scopri come convertire file Excel in XPS usando C# con una guida completa passo 
 Scopri come creare un nuovo workbook Excel con supporto Unicode e esportarlo in XPS usando Aspose.Cells per .NET.
 ### [Incorporare i font in XPS con C# – Guida completa di programmazione](./embed-fonts-in-xps-with-c-complete-programming-guide/)
 Scopri come incorporare i font nei file XPS usando C# e Aspose.Cells, con esempi di codice dettagliati.
+### [Incorporare i font PDF con Aspose.Cells – Guida completa C#](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
+Scopri come incorporare i font nei PDF generati da Aspose.Cells usando C#, garantendo la corretta visualizzazione del testo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

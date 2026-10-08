@@ -58,6 +58,10 @@ Scopri come utilizzare FlatOpcSaveOptions per salvare file Excel con opzioni ava
 Scopri come rimuovere i filtri e salvare ed esportare un file Excel usando Aspose.Cells per .NET con C# in pochi passaggi.
 ### [Salva cartella di lavoro Excel da JSON – Guida completa C#](./save-excel-workbook-from-json-complete-c-guide/)
 Impara a creare e salvare una cartella di lavoro Excel a partire da dati JSON usando Aspose.Cells per .NET con C#.
+### [Creare un file OPC flat con C# – Guida completa](./create-flat-opc-file-with-c-complete-guide/)
+Scopri come generare un file OPC flat usando C# con Aspose.Cells, passo passo, per una gestione avanzata dei documenti Excel.
+### [Salva cartella di lavoro come XLSX – Guida completa per generare Excel con dati](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+Impara a salvare una cartella di lavoro in formato XLSX usando Aspose.Cells per .NET, con dati personalizzati passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

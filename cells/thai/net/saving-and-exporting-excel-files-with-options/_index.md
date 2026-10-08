@@ -58,6 +58,10 @@ Aspose.Cells สำหรับ .NET มอบเครื่องมืออ�
 
 ### [วิธีบันทึก Workbook ใน C# – คู่มือครบถ้วนสำหรับการล้างตัวกรองและการส่งออก Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
 เรียนรู้วิธีบันทึก Workbook ใน C# พร้อมล้างตัวกรองและส่งออกไฟล์ Excel อย่างละเอียด
+### [สร้างไฟล์ flat OPC ด้วย C# – คู่มือฉบับสมบูรณ์](./create-flat-opc-file-with-c-complete-guide/)
+เรียนรู้วิธีสร้างไฟล์ flat OPC ด้วย C# อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
+### [บันทึก Workbook เป็น XLSX – คู่มือฉบับสมบูรณ์เพื่อสร้าง Excel พร้อมข้อมูล](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+เรียนรู้วิธีบันทึกไฟล์ Workbook เป็นรูปแบบ XLSX อย่างเต็มขั้น พร้อมการสร้างข้อมูล Excel อย่างมีประสิทธิภาพ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

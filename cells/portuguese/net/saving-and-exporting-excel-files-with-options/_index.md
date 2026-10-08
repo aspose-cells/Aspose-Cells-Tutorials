@@ -56,6 +56,9 @@ Simplifique suas exportações de CSV removendo linhas e colunas em branco inici
 Aprenda a salvar a pasta de trabalho em C#, removendo filtros e exportando para Excel com o Aspose.Cells para .NET em um guia passo a passo.
 ### [Salvar pasta de trabalho do Excel a partir de JSON – Guia completo em C#](./save-excel-workbook-from-json-complete-c-guide/)
 Aprenda a criar e salvar arquivos Excel a partir de dados JSON usando Aspose.Cells para .NET com C# passo a passo.
+### [Criar arquivo OPC plano com C# – Guia completo](./create-flat-opc-file-with-c-complete-guide/)
+Aprenda a gerar um arquivo OPC plano usando C# com o Aspose.Cells, passo a passo, para simplificar o armazenamento de planilhas.
+### [Salvar pasta de trabalho como XLSX – Guia completo para gerar Excel com dados](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

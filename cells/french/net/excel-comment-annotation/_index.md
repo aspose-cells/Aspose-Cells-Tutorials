@@ -59,6 +59,8 @@ Apprenez à ajouter des commentaires en remplissant un modèle Excel avec des Sm
 Apprenez à créer un classeur Excel, ajouter des commentaires et le sauvegarder en XLSX avec Aspose.Cells pour .NET.
 ### [Ajouter un commentaire de cellule dans Excel avec Aspose.Cells Smart Marker](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
 Apprenez à insérer des commentaires de cellule dans Excel en utilisant les Smart Markers d'Aspose.Cells pour .NET.
+### [Ajouter un commentaire à une cellule en C# – Générer Excel à partir de données](./add-comment-to-cell-in-c-generate-excel-from-data/)
+Apprenez à générer un fichier Excel à partir de données et à ajouter un commentaire à une cellule en C# avec Aspose.Cells pour .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -88,6 +88,9 @@ Aspose.Cells kullanarak C# dilinde dizileri dinamik olarak genişletmeyi adım a
 Bu adım adım kılavuzda Aspose.Cells for .NET kullanarak C#'ta WRAPCOLS fonksiyonuyla dizileri matrislere nasıl dönüştüreceğinizi öğrenin.
 ### [C# ile Excel'de Kotanjant Hesaplama – Tam Kılavuz](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 C# kodu kullanarak Excel'de kotanjant fonksiyonunu nasıl hesaplayacağınızı adım adım öğrenin.
+### [Excel'de WRAPCOLS Kullanımı – Tam C# Örneği](./how-to-use-wrapcols-in-excel-complete-c-example/)
+Aspose.Cells for .NET ile Excel'de WRAPCOLS işlevini C# örneğiyle nasıl kullanacağınızı adım adım öğrenin.
+### [C# ile Excel'de Dizi Formülü Uygulama – Tam Kılavuz](./apply-array-formula-excel-in-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

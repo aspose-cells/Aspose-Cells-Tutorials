@@ -53,6 +53,8 @@
 เรียนรู้วิธีส่งออกข้อมูลตารางเป็นไฟล์ CSV ด้วย C# อย่างละเอียดและง่ายต่อการนำไปใช้
 ### [บันทึกเวิร์กบุ๊กเป็น CSV – คู่มือครบวงจรสำหรับส่งออก Excel ไปเป็น CSV ใน C#](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-i/)
 เรียนรู้วิธีบันทึกไฟล์ Excel เป็น CSV อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET ด้วยตัวอย่างโค้ด C# ที่เข้าใจง่าย
+### [สร้าง Workbook ใหม่ใน C# – คู่มือเต็มสำหรับการส่งออก Excel ไปเป็น CSV](./create-new-workbook-in-c-full-guide-to-export-excel-to-csv/)
+เรียนรู้วิธีสร้าง Workbook ใหม่ใน C# และส่งออกไฟล์ Excel เป็น CSV ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

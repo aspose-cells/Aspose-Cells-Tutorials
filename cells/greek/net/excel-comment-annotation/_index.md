@@ -60,6 +60,8 @@
 Μάθετε πώς να δημιουργήσετε ένα αρχείο Excel μέσω κώδικα, να προσθέσετε σχόλια και να το αποθηκεύσετε σε μορφή XLSX χρησιμοποιώντας Aspose.Cells για .NET.
 ### [Προσθήκη σχολίου σε κελί στο Excel με Aspose.Cells Smart Marker](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
 Μάθετε πώς να προσθέτετε σχόλια σε κελιά του Excel με τη λειτουργία Smart Marker του Aspose.Cells.
+### [Προσθήκη σχολίου σε κελί σε C# – Δημιουργία Excel από δεδομένα](./add-comment-to-cell-in-c-generate-excel-from-data/)
+Μάθετε πώς να προσθέτετε σχόλιο σε κελί με C# και Aspose.Cells για .NET, δημιουργώντας Excel από δεδομένα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

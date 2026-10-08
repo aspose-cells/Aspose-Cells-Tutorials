@@ -88,6 +88,10 @@ Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET die WRAPCOLS-Funktion in C# nutzen, um Arrays einfach in Matrizen zu transformieren.
 ### [Wie man den Kotangens in Excel mit C# berechnet – Komplettanleitung](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 Entdecken Sie, wie Sie den Kotangens in Excel mithilfe von C# und Aspose.Cells berechnen. Schritt‑für‑Schritt‑Anleitung.
+### [Wie man WRAPCOLS in Excel verwendet – Komplettes C#-Beispiel](./how-to-use-wrapcols-in-excel-complete-c-example/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET die WRAPCOLS-Funktion in Excel nutzen, anhand eines vollständigen C#-Beispiels.
+### [Array-Formel in Excel mit C# anwenden – Komplettanleitung](./apply-array-formula-excel-in-c-complete-guide/)
+Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Array-Formeln in Excel mittels C# anwenden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

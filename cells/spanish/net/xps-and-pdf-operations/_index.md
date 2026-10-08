@@ -42,6 +42,8 @@ Aprenda a convertir archivos de Excel a XPS usando C# y Aspose.Cells con ejemplo
 Aprenda a crear un libro de Excel con soporte Unicode y exportarlo a XPS usando Aspose.Cells para .NET.
 ### [Incrustar fuentes en XPS con C# – Guía completa de programación](./embed-fonts-in-xps-with-c-complete-programming-guide/)
 Aprenda a incrustar fuentes en documentos XPS usando C# y Aspose.Cells, con ejemplos paso a paso para garantizar la correcta visualización.
+### [Incrustar fuentes PDF con Aspose.Cells – Guía completa en C#](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
+Aprenda a incrustar fuentes en PDFs generados con Aspose.Cells usando C#, garantizando la correcta visualización del documento.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

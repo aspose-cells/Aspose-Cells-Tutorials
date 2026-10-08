@@ -61,6 +61,8 @@ Aspose.Cells for .NET を使って、C# で PDF にフォントを埋め込む�
 Aspose.Words を使用して、Word ファイルを高品質な PDF に変換する手順をステップバイステップで解説します。
 ### [.NET で Excel を PDF に変換する際のフォント埋め込み方法 – ステップバイステップガイド](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
 このガイドでは、Excel を PDF に変換する際にフォントを埋め込む手順を詳しく解説します。
+### [PDFにフォントを埋め込む – 完全なC#ガイドでExcelをPDFにエクスポート](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
+この包括的なC#ガイドでは、ExcelをPDFにエクスポートする際のフォント埋め込み方法を詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

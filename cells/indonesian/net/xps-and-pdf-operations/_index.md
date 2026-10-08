@@ -43,6 +43,8 @@ Pelajari cara mengonversi file Excel ke format XPS menggunakan C# dengan langkah
 Pelajari cara membuat workbook Excel baru dengan dukungan Unicode dan mengekspor ke format XPS menggunakan Aspose.Cells for .NET.
 ### [Menyematkan Font di XPS dengan C# – Panduan Pemrograman Lengkap](./embed-fonts-in-xps-with-c-complete-programming-guide/)
 Pelajari cara menyematkan font ke dalam file XPS menggunakan C# dengan contoh kode lengkap.
+### [Menyematkan font PDF dengan Aspose.Cells – Panduan Lengkap C#](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
+Pelajari cara menyematkan font ke dalam file PDF menggunakan Aspose.Cells dengan contoh kode C# lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -61,6 +61,8 @@
 تعلم كيفية حفظ مستندات Word بصيغة PDF باستخدام Aspose.Words وC# خطوة بخطوة.
 ### [كيفية تضمين الخطوط عند تحويل Excel إلى PDF – دليل خطوة بخطوة](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
 تعرّف على طريقة تضمين الخطوط في ملفات PDF عند تحويل Excel باستخدام Aspose.Cells خطوة بخطوة.
+### [تضمين الخطوط في PDF – دليل C# كامل لتصدير Excel إلى PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
+تعلم كيفية تضمين الخطوط في ملفات PDF عند تصدير جداول Excel باستخدام Aspose.Cells وC# لضمان عرض النصوص بشكل صحيح.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

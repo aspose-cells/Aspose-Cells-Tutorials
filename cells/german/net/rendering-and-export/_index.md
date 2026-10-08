@@ -33,7 +33,7 @@ Doch damit nicht genug! Je nach Bedarf möchten Sie möglicherweise bestimmte Re
 
 ## Navigieren in Diagrammblatt-Lesezeichen
 
-Wenn Sie mit umfangreichen Datensätzen und Diagrammblättern arbeiten, finden Sie das Tutorial auf [Erstellen Sie ein PDF-Lesezeichen für ein Diagrammblatt in Aspose.Cells](./create-pdf-bookmark-entry-for-chart-sheet/) Besonders hilfreich. Diese Anleitung zeigt Ihnen, wie Sie Lesezeichen nicht nur für Standardarbeitsblätter, sondern auch für Diagrammblätter erstellen. So können Sie Ihren Betrachtern eine interaktive Führung durch Ihre Datenvisualisierung bieten – sie können direkt zu den für sie relevanten Erkenntnissen springen. Betrachten Sie Lesezeichen als Wegweiser – sie führen Ihr Publikum genau dorthin, wo es hin muss, sparen Zeit und fördern die Auseinandersetzung mit Ihren Dokumenten.
+Wenn Sie mit umfangreichen Datensätzen und Diagrammblättern arbeiten, finden Sie das Tutorial auf [Erstellen Sie ein PDF-Lesezeichen für ein Diagrammblatt in Aspose.Cells](./create-pdf-bookmark-entry-for-chart-sheet/) Besonders hilfreich. Diese Anleitung zeigt Ihnen, wie Sie Lesezeichen nicht nur für Standardarbeitsblätter, sondern auch für Diagrammblätter erstellen. So bieten Sie Ihren Betrachtern eine interaktive Führung durch Ihre Datenvisualisierung – sie können direkt zu den für sie relevanten Erkenntnissen springen. Betrachten Sie Lesezeichen als Wegweiser – sie führen Ihr Publikum genau dorthin, wo es hin muss, sparen Zeit und fördern die Auseinandersetzung mit Ihren Dokumenten.
 
 ## Umgang mit leeren Zuständen
 
@@ -66,6 +66,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET aufeinanderfolgende Seiten in E
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET einen Pivot-Referenzbereich festlegen und das Pivot-Tabellenbild als PNG exportieren.
 ### [Wie Sie Pivot nach PNG in C# exportieren – Schritt‑für‑Schritt‑Anleitung](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
 Erfahren Sie, wie Sie Pivot-Tabellen mit Aspose.Cells für .NET in PNG-Bilder exportieren – eine leicht verständliche Schritt‑für‑Schritt‑Anleitung.
+### [PNG-Pivot-Bild in C# erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-png-pivot-image-in-c-full-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Pivot‑Diagramm als PNG‑Bild in C# generieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -59,6 +59,10 @@ Aspose.Cells for .NET에서 C#으로 FlatOpcSaveOptions를 활용해 Excel 파�
 
 ### [C#에서 워크북 저장하기 – 필터 지우기 및 Excel 내보내기 완전 가이드](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
 Aspose.Cells for .NET을 사용하여 C#에서 워크북을 저장하고, 필터를 제거한 뒤 Excel 파일로 내보내는 방법을 단계별로 안내합니다.
+### [C#로 평면 OPC 파일 만들기 – 완전 가이드](./create-flat-opc-file-with-c-complete-guide/)
+Aspose.Cells for .NET을 사용하여 C#에서 평면 OPC 파일을 생성하는 전체 단계별 가이드를 확인하세요.
+### [워크북을 XLSX로 저장 – 데이터로 Excel 생성 완전 가이드](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+Aspose.Cells for .NET을 사용하여 데이터를 포함한 Excel 파일을 XLSX 형식으로 저장하는 전체 단계별 가이드를 확인하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

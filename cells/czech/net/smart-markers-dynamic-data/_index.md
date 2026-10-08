@@ -83,7 +83,7 @@ Naučte se používat parametry vzorců v inteligentních značkovačích s Aspo
 ### [Použití generického seznamu v inteligentních markerech Aspose.Cells](./generic-list-smart-markers/)
 Zvládněte Aspose.Cells pro .NET s generickými seznamy a inteligentními značkami pro snadné vytváření dynamických sestav v Excelu. Snadný průvodce pro vývojáře.
 ### [Použití HTML vlastnosti v inteligentních markerech Aspose.Cells .NET](./html-property-smart-markers/)
-Odemkněte sílu Aspose.Cells s tímto podrobným návodem o použití vlastnosti HTML v inteligentních značkovačích pro aplikace .NET.
+Odemkněte sílu Aspose.Cells s tímto podrobným návodem o použití vlastnosti HTML v inteligentních značkovacích pro aplikace .NET.
 ### [Zvládání vnořených objektů pomocí inteligentních značek Aspose.Cells](./nested-objects-smart-markers/)
 Odemkněte potenciál reportingu v Excelu s Aspose.Cells a snadno zvládněte vnořené objekty pomocí inteligentních značek v podrobném návodu.
 ### [Povolení možnosti vnořeného rozsahu v Aspose.Cells SmartMarker](./enable-nested-range-option-in-aspose-cells-smartmarker/)
@@ -160,6 +160,10 @@ Naučte se, jak parsovat vnořené JSON struktury v C# a vytvořit JSON payload 
 Naučte se pomocí inteligentních značek vytvořit sešit, který generuje výstup High a Low hodnoty.
 ### [Vytvoření hlavního a podrobného reportu v C# – Naplnění šablony Excel pomocí SmartMarkeru](./create-master-detail-report-in-c-populate-excel-template-wit/)
 Naučte se vytvořit hlavní‑detailní report v C# a naplnit Excel šablonu pomocí SmartMarkeru v Aspose.Cells.
+### [Generování více listů pomocí SmartMarker – Kompletní průvodce v C#](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
+Naučte se pomocí SmartMarker v Aspose.Cells generovat více listů v Excelu pomocí kompletního C# průvodce.
+### [Aspose Cells Smart Markers: Generování Excelu z modelu v C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
+### [Export dat do Excelu – Kompletní průvodce vyplněním šablony Excel pomocí inteligentních značek](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

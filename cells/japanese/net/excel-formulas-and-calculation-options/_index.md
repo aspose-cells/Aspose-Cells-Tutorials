@@ -67,6 +67,8 @@ Aspose.Cells for .NET を使用して Excel の計算をプログラムで実行
 Aspose.Cells for .NET で Excel の潜在能力を最大限に引き出しましょう。強力なアドイン関数を使ってデータを処理する方法をステップバイステップで学習できます。
 ### [Excelの配列関数を使ったデータ処理](./processing-data-using-array-function/)
 Aspose.Cells for .NET で Excel のパワーを最大限に引き出しましょう。この詳細なチュートリアルでは、配列関数を使ったデータ処理方法を学びます。
+### [C#で配列数式を適用する – 完全ガイド](./apply-array-formula-excel-in-c-complete-guide/)
+Aspose.Cells for .NET を使用して、C# で配列数式を適用する方法をステップバイステップで解説します。
 ### [Excelの組み込み関数を使ったデータ処理](./processing-data-using-built-in-functions/)
 Aspose.Cells for .NET を使って、Excel の組み込み関数を使ってデータを処理する方法を学びましょう。ステップバイステップのチュートリアルに従って、簡単に自動化できます。
 ### [ExcelでR1C1を使用してデータを処理する](./processing-data-using-r1c1/)
@@ -91,6 +93,7 @@ Aspose.Cells を利用して C# で配列を拡張する手順を詳しく解説
 Aspose.Cells for .NET を使用して、C# で Excel の配列を作成する方法をステップバイステップで解説します。
 ### [C# で Excel の余接関数を計算する方法 – 完全ガイド](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 Aspose.Cells for .NET を使用して、C# で Excel の余接関数を計算する方法をステップバイステップで解説します。
+### [ExcelでWRAPCOLSを使用する方法 – 完全なC#例](./how-to-use-wrapcols-in-excel-complete-c-example/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

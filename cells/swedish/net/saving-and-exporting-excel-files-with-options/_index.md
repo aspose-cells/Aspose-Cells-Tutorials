@@ -58,6 +58,10 @@ Lär dig hur du använder FlatOpcSaveOptions i C# för att spara Excel-filer med
 Lär dig spara en arbetsbok i C#, ta bort filter och exportera till Excel med en komplett steg-för-steg-guide.
 ### [Spara Excel-arbetsbok från JSON – Komplett C#-guide](./save-excel-workbook-from-json-complete-c-guide/)
 Lär dig hur du skapar en Excel-arbetsbok från JSON med C# och Aspose.Cells för .NET.
+### [Skapa flat OPC-fil med C# – Komplett guide](./create-flat-opc-file-with-c-complete-guide/)
+Lär dig hur du skapar en flat OPC-fil med C# med Aspose.Cells för .NET i en komplett guide.
+### [Spara arbetsbok som XLSX – Komplett guide för att generera Excel med data](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+Lär dig steg för steg hur du sparar en arbetsbok som XLSX och genererar Excel-filer med data med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

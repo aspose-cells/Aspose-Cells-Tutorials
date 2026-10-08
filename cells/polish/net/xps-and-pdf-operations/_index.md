@@ -42,6 +42,8 @@ Pełny przewodnik, jak w C# konwertować pliki Excel do formatu XPS przy użyciu
 Dowiedz się, jak utworzyć nowy skoroszyt Excel obsługujący Unicode i wyeksportować go do formatu XPS przy użyciu Aspose.Cells.
 ### [Osadzanie czcionek w XPS przy użyciu C# – Kompletny przewodnik programistyczny](./embed-fonts-in-xps-with-c-complete-programming-guide/)
 Dowiedz się, jak osadzić czcionki w dokumentach XPS przy użyciu C#, aby zapewnić prawidłowe wyświetlanie i drukowanie.
+### [Osadzanie czcionek w PDF przy użyciu Aspose.Cells – Kompletny przewodnik C#](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
+Dowiedz się, jak osadzić czcionki w plikach PDF generowanych z Excela przy użyciu Aspose.Cells w języku C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
