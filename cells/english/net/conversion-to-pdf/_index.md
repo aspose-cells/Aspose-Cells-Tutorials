@@ -63,6 +63,8 @@ Learn how to save Word documents as PDF using Aspose.Words for .NET with a compl
 Learn how to embed fonts during Excel to PDF conversion with Aspose.Cells for .NET to ensure text displays correctly.
 ### [Embed Fonts in PDF – Complete C# Guide to Export Excel to PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
 Learn how to embed fonts when exporting Excel to PDF using Aspose.Cells in C#. Ensure text appears correctly across devices.
+### [How to Export PDF from Excel – Complete Guide to Save Workbook as PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
+Learn how to export an Excel workbook to PDF using Aspose.Cells for .NET with this comprehensive step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

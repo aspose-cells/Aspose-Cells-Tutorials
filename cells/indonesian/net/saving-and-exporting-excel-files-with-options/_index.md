@@ -61,6 +61,8 @@ Pelajari cara mengonversi data JSON menjadi buku kerja Excel menggunakan Aspose.
 Pelajari cara membuat file OPC datar menggunakan C# dengan panduan lengkap langkah demi langkah.
 ### [Simpan Workbook sebagai XLSX – Panduan Lengkap untuk Menghasilkan Excel dengan Data](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
 Pelajari cara menyimpan workbook sebagai file XLSX dengan data lengkap menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah.
+### [Cara Menyimpan Workbook di C# – Panduan Pemrograman Lengkap](./how-to-save-workbook-in-c-complete-programming-guide/)
+Pelajari cara menyimpan workbook menggunakan C# dengan panduan pemrograman lengkap menggunakan Aspose.Cells untuk .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

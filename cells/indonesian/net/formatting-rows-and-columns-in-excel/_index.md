@@ -35,6 +35,8 @@ Pelajari cara menyesuaikan format kolom di Excel menggunakan Aspose.Cells for .N
 Pelajari cara menerapkan pemformatan ke baris Excel secara terprogram menggunakan Aspose.Cells for .NET. Panduan terperinci dan langkah demi langkah ini mencakup semuanya, mulai dari penyelarasan hingga batas.
 ### [Buat Workbook Excel – Bungkus Kolom dan Simpan sebagai XLSX](./create-excel-workbook-wrap-columns-and-save-as-xlsx/)
 Pelajari cara membuat workbook Excel, membungkus kolom, dan menyimpannya sebagai file XLSX menggunakan Aspose.Cells for .NET.
+### [Cara Memformat Kolom Excel di C# – Panduan Lengkap](./how-to-format-excel-columns-in-c-complete-guide/)
+Pelajari cara memformat kolom Excel menggunakan Aspose.Cells for .NET dengan panduan lengkap langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

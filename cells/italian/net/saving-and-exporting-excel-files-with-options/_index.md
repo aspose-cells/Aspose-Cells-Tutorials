@@ -62,6 +62,8 @@ Impara a creare e salvare una cartella di lavoro Excel a partire da dati JSON us
 Scopri come generare un file OPC flat usando C# con Aspose.Cells, passo passo, per una gestione avanzata dei documenti Excel.
 ### [Salva cartella di lavoro come XLSX – Guida completa per generare Excel con dati](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
 Impara a salvare una cartella di lavoro in formato XLSX usando Aspose.Cells per .NET, con dati personalizzati passo passo.
+### [Come salvare una cartella di lavoro in C# – Guida completa di programmazione](./how-to-save-workbook-in-c-complete-programming-guide/)
+Scopri come salvare una cartella di lavoro in C# con Aspose.Cells per .NET, passo dopo passo, con esempi di codice completi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

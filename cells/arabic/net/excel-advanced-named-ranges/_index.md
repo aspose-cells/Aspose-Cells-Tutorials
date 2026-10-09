@@ -38,6 +38,8 @@
 تعرّف على كيفية دمج الخلايا في نطاق مُسمّى باستخدام Aspose.Cells لـ .NET في هذا البرنامج التعليمي المُفصّل. اكتشف كيفية تنسيق تقارير Excel وتنسيقها وأتمتتها.
 ### [إنشاء مصنف Excel – دليل خطوة بخطوة لإضافة الجداول وقواعد التسمية](./create-excel-workbook-step-by-step-guide-to-adding-tables-an/)
 تعلم كيفية إنشاء مصنف Excel وإضافة جداول وتطبيق قواعد التسمية باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
+### [حفظ ملف Excel وإضافة نطاق مسمى – دليل كامل C#](./save-excel-workbook-and-add-named-range-full-c-guide/)
+تعلم كيفية حفظ ملف Excel وإضافة نطاق مسمى باستخدام Aspose.Cells لـ .NET في دليل شامل بلغة C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

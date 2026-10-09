@@ -35,6 +35,8 @@
 学习如何使用 Aspose.Cells for .NET 以编程方式将格式应用于 Excel 行。本指南详细分步，涵盖从对齐到边框的所有内容。
 ### [创建 Excel 工作簿 – 换行列并保存为 XLSX](./create-excel-workbook-wrap-columns-and-save-as-xlsx/)
 本教程演示如何使用 Aspose.Cells for .NET 创建工作簿、设置列自动换行并将文件保存为 XLSX 格式。
+### [如何在 C# 中格式化 Excel 列 – 完整指南](./how-to-format-excel-columns-in-c-complete-guide/)
+本完整指南详细演示如何使用 Aspose.Cells for .NET 在 C# 中设置 Excel 列的格式，包括数字、日期和自定义样式。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -63,6 +63,8 @@ Impara a salvare documenti Word in PDF usando Aspose.Words per .NET con una guid
 Scopri come incorporare i font nei PDF generati da Excel con Aspose.Cells, garantendo la corretta visualizzazione del testo.
 ### [Incorporare i font in PDF – Guida completa C# per esportare Excel in PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
 Scopri come incorporare i font nei PDF esportati da Excel usando Aspose.Cells con C# in questa guida dettagliata.
+### [Come esportare PDF da Excel – Guida completa per salvare la cartella di lavoro come PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
+Scopri come esportare un foglio Excel in PDF passo passo con Aspose.Cells per .NET, dalla configurazione al salvataggio finale.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -62,6 +62,8 @@ Aspose.Cells for .NET предоставляет разработчикам мо
 Узнайте, как создать плоский OPC‑файл с помощью C# в полном руководстве Aspose.Cells для .NET.
 ### [Сохранить рабочую книгу как XLSX – Полное руководство по генерации Excel с данными](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
 Узнайте, как сохранить рабочую книгу в формате XLSX, генерируя Excel с данными, используя Aspose.Cells для .NET.
+### [Как сохранить рабочую книгу в C# – Полное руководство по программированию](./how-to-save-workbook-in-c-complete-programming-guide/)
+Узнайте, как сохранить рабочую книгу в C# с помощью Aspose.Cells для .NET, следуя полному пошаговому руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

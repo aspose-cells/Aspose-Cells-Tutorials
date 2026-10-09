@@ -69,6 +69,8 @@
 Узнайте, как удалить заголовок таблицы в Excel с помощью Aspose.Cells для .NET, следуя нашему подробному руководству.
 ### [Как переименовать таблицу в Excel с помощью C# – пошаговое руководство](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
 Узнайте, как переименовать таблицу в Excel с помощью Aspose.Cells для .NET, следуя нашему пошаговому руководству.
+### [Удаление нескольких строк в Word – Полное руководство по удалению строк таблицы](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
+Узнайте, как удалить несколько строк из таблицы Word с помощью Aspose.Words для .NET, следуя пошаговым инструкциям.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

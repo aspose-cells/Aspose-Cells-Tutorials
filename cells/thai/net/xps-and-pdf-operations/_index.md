@@ -48,6 +48,8 @@
 เรียนรู้วิธีเขียนข้อความ Unicode ลงในไฟล์ Excel ด้วย C# อย่างละเอียด พร้อมตัวอย่างโค้ดครบถ้วน
 ### [ฝังฟอนต์ใน PDF ด้วย Aspose.Cells – คู่มือ C# ฉบับสมบูรณ์](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
 เรียนรู้วิธีฝังฟอนต์ใน PDF ด้วย Aspose.Cells สำหรับ .NET พร้อมตัวอย่างโค้ด C# ทีละขั้นตอน
+### [บันทึกเวิร์กบุ๊กเป็น XPS ใน C# – คู่มือแบบทีละขั้นตอน](./save-workbook-as-xps-in-c-step-by-step-guide/)
+เรียนรู้วิธีบันทึกไฟล์ Excel เป็น XPS ด้วย C# โดยใช้ Aspose.Cells ขั้นตอนง่ายๆ พร้อมตัวอย่างโค้ด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

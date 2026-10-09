@@ -63,6 +63,8 @@ Aspose.Words を使用して、Word ファイルを高品質な PDF に変換す
 このガイドでは、Excel を PDF に変換する際にフォントを埋め込む手順を詳しく解説します。
 ### [PDFにフォントを埋め込む – 完全なC#ガイドでExcelをPDFにエクスポート](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
 この包括的なC#ガイドでは、ExcelをPDFにエクスポートする際のフォント埋め込み方法を詳しく解説します。
+### [Excel から PDF をエクスポートする方法 – ワークブックを PDF として保存する完全ガイド](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
+この完全ガイドでは、Excel ワークブックを PDF としてエクスポートする手順を詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

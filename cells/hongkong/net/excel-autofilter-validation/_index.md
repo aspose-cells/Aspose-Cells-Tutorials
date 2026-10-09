@@ -54,6 +54,8 @@
 透過本教學了解如何在 Excel 中使用 C# 隱藏或移除自動篩選按鈕，提升使用者介面整潔度。
 ### [使用 C# 隱藏 Excel 篩選箭頭 – 完整指南](./hide-filter-arrows-excel-with-c-complete-guide/)
 透過本指南，了解如何使用 C# 隱藏 Excel 中的篩選箭頭，提升工作表的外觀與使用體驗。
+### [使用 C# 向 Excel 添加表格 – 清除自動篩選並儲存檔案](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
+透過本指南，了解如何使用 Aspose.Cells for .NET 在 Excel 中新增表格、清除自動篩選並儲存檔案。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

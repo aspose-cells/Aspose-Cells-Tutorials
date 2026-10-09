@@ -61,6 +61,8 @@ C# में स्मार्ट मार्कर्स का उपयो�
 .NET के लिए Aspose.Cells स्मार्ट मार्कर का उपयोग करके Excel में टिप्पणी सेल जोड़ना सीखें।
 ### [C# में सेल में टिप्पणी जोड़ें – डेटा से Excel बनाएं](./add-comment-to-cell-in-c-generate-excel-from-data/)
 .NET के लिए Aspose.Cells का उपयोग करके डेटा से Excel बनाते समय C# में सेल में टिप्पणी कैसे जोड़ें, सीखें।
+### [C# के साथ Excel टिप्पणी सम्मिलित करें – पूर्ण SmartMarker गाइड](./insert-excel-comment-with-c-complete-smartmarker-guide/)
+.NET के लिए Aspose.Cells का उपयोग करके C# में SmartMarker के साथ Excel टिप्पणी जोड़ना सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

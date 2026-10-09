@@ -92,6 +92,8 @@ Dowiedz się, jak zastosować metodę WRAPCOLS w Aspose.Cells, aby w prosty spos
 Poznaj, jak przy użyciu GridJs wstawić wiele wierszy jednocześnie, aby przyspieszyć manipulację danymi w tabelach.
 ### [Jak wstawiać wiersze w GridJs – Efektywne dodawanie wielu wierszy do siatki](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 Dowiedz się, jak efektywnie dodać wiele wierszy do siatki w GridJs, krok po kroku, z przykładami kodu.
+### [Jak używać wrapcols w C# – Pełny przewodnik z Excel WRAPROWS i przeliczaniem formuł](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Dowiedz się, jak używać metody wrapcols w C#, wraz z funkcją WRAPROWS i przeliczaniem formuł w Excelu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -38,6 +38,8 @@ Aspose.Cells for .NET을 사용하여 명명된 범위 내에서 셀을 손쉽�
 이 단계별 튜토리얼에서는 Aspose.Cells for .NET을 사용하여 명명된 범위의 셀을 병합하는 방법을 알아봅니다. Excel 보고서의 서식, 스타일 지정 및 자동화 방법도 알아보세요.
 ### [Excel 워크북 만들기 – 테이블 추가 및 명명 규칙 단계별 가이드](./create-excel-workbook-step-by-step-guide-to-adding-tables-an/)
 Aspose.Cells for .NET을 사용해 Excel 워크북을 만들고, 테이블을 추가하고, 명명 규칙을 적용하는 방법을 단계별로 안내합니다.
+### [Excel 워크북 저장 및 명명된 범위 추가 – 전체 C# 가이드](./save-excel-workbook-and-add-named-range-full-c-guide/)
+Aspose.Cells for .NET을 사용하여 Excel 워크북을 저장하고 명명된 범위를 추가하는 전체 C# 가이드입니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

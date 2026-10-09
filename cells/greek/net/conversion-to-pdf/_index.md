@@ -63,6 +63,8 @@
 Μάθετε πώς να ενσωματώσετε γραμματοσειρές στα PDF που προέρχονται από αρχεία Excel, εξασφαλίζοντας σωστή εμφάνιση κειμένου.
 ### [Ενσωμάτωση γραμματοσειρών σε PDF – Πλήρης οδηγός C# για εξαγωγή Excel σε PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
 Μάθετε πώς να ενσωματώνετε γραμματοσειρές σε PDF κατά την εξαγωγή αρχείων Excel με το Aspose.Cells σε C#.
+### [Πώς να εξάγετε PDF από το Excel – Πλήρης οδηγός για αποθήκευση βιβλίου εργασίας ως PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
+Μάθετε πώς να αποθηκεύσετε το βιβλίο εργασίας Excel ως PDF με βήμα-βήμα οδηγίες και παραδείγματα κώδικα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -60,6 +60,8 @@ Ismerje meg, hogyan mentheti el a munkafüzetet C#-ban, törölheti a szűrőket
 ### [Lapos OPC fájl létrehozása C#-ban – Teljes útmutató](./create-flat-opc-file-with-c-complete-guide/)
 Ismerje meg, hogyan hozhat létre lapos OPC fájlt C#-ban az Aspose.Cells segítségével, lépésről lépésre útmutató.
 ### [Munkafüzet mentése XLSX formátumban – Teljes útmutató Excel adatgeneráláshoz](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+### [Hogyan mentse a munkafüzetet C#-ban – Teljes programozási útmutató](./how-to-save-workbook-in-c-complete-programming-guide/)
+Ismerje meg, hogyan menthet egy munkafüzetet C#-ban az Aspose.Cells for .NET segítségével lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

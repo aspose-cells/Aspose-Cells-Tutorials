@@ -44,6 +44,8 @@ Dowiedz się, jak utworzyć nowy skoroszyt Excel obsługujący Unicode i wyekspo
 Dowiedz się, jak osadzić czcionki w dokumentach XPS przy użyciu C#, aby zapewnić prawidłowe wyświetlanie i drukowanie.
 ### [Osadzanie czcionek w PDF przy użyciu Aspose.Cells – Kompletny przewodnik C#](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
 Dowiedz się, jak osadzić czcionki w plikach PDF generowanych z Excela przy użyciu Aspose.Cells w języku C#.
+### [Zapisz skoroszyt jako XPS w C# – przewodnik krok po kroku](./save-workbook-as-xps-in-c-step-by-step-guide/)
+Dowiedz się, jak zapisać skoroszyt Excel jako plik XPS w C# przy użyciu Aspose.Cells, krok po kroku z przykładami kodu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

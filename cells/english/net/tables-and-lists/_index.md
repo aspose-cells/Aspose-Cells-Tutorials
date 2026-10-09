@@ -69,6 +69,8 @@ Learn how to delete rows from a Word table using Aspose.Words for .NET with a co
 Learn how to remove table headers in Excel using Aspose.Cells for .NET with this step-by-step guide.
 ### [How to Rename Table in Excel with C# – Step‑by‑Step Guide](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
 Learn how to rename a table in Excel using C# and Aspose.Cells for .NET with this step‑by‑step guide.
+### [Delete Multiple Rows Word – Complete Guide to Removing Table Rows](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
+Learn how to delete multiple rows in a Word table using Aspose.Words for .NET in this comprehensive step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -73,6 +73,10 @@
 Узнайте, как преобразовать файлы XLSX в PNG с помощью Aspose.Cells в C#, следуя пошаговому руководству.
 ### [Как вставить специальные символы в Excel – пошаговое руководство](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
 Узнайте, как вставлять специальные символы в Excel с помощью Aspose.Cells в .NET, следуя пошаговому руководству.
+### [Сохранение PNG‑изображения из сводной таблицы Excel в C# – Полное руководство](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Узнайте, как экспортировать диаграммы сводных таблиц Excel в PNG‑изображения с помощью Aspose.Cells в C#.
+### [Встраивание шрифтов в HTML – Полное руководство по конвертации DOCX в HTML с полной поддержкой шрифтов](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Узнайте, как встраивать шрифты при конвертации DOCX в HTML с помощью Aspose.Words, обеспечивая полную поддержку шрифтов в веб‑контенте.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

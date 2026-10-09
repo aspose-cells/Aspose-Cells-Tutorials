@@ -55,6 +55,10 @@ Apprenez à exporter des tableaux vers des fichiers CSV en C# avec Aspose.Cells,
 Apprenez à enregistrer un classeur Excel en fichier CSV avec Aspose.Cells pour .NET en suivant ce guide complet.
 ### [Créer un nouveau classeur en C# – Guide complet pour exporter Excel en CSV](./create-new-workbook-in-c-full-guide-to-export-excel-to-csv/)
 Apprenez à créer un classeur Excel en C# et à l'exporter au format CSV avec Aspose.Cells pour .NET.
+### [Convertir un classeur Excel en CSV – Guide complet C#](./convert-excel-workbook-to-csv-complete-c-guide/)
+Apprenez à convertir un classeur Excel en fichier CSV avec Aspose.Cells pour .NET en suivant ce guide complet en C#.
+### [Exporter un tableau en CSV en C# – Guide complet de programmation](./export-table-to-csv-in-c-complete-programming-guide/)
+Apprenez à exporter des tableaux vers des fichiers CSV avec Aspose.Cells pour .NET en suivant ce guide complet en C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

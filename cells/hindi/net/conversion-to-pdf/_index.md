@@ -64,6 +64,8 @@ Word दस्तावेज़ को PDF में बदलने के ल
 Excel से PDF रूपांतरण में फ़ॉन्ट एम्बेड करने के लिए हमारे चरण‑दर‑चरण निर्देशों का पालन करें और दस्तावेज़ की सटीकता सुनिश्चित करें।
 ### [PDF में फ़ॉन्ट एम्बेड करें – Excel को PDF में निर्यात करने के लिए पूर्ण C# गाइड](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
 PDF को फ़ॉन्ट एम्बेड करने की पूरी प्रक्रिया सीखें, जिससे आपका Excel से निर्यात किया गया PDF सभी फ़ॉन्ट सही दिखाए।
+### [Excel से PDF निर्यात करने का तरीका – वर्कबुक को PDF के रूप में सहेजने की पूरी गाइड](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
+Aspose.Cells का उपयोग करके Excel वर्कबुक को PDF में बदलने के चरण-दर-चरण निर्देश।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

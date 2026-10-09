@@ -38,6 +38,8 @@ Identificeer moeiteloos cellen in een benoemd bereik in Excel met Aspose.Cells v
 Leer in deze stapsgewijze tutorial hoe u cellen in een benoemd bereik samenvoegt met Aspose.Cells voor .NET. Ontdek hoe u Excel-rapporten kunt opmaken, opmaken en automatiseren.
 ### [Excel-werkmap maken – Stapsgewijze handleiding voor het toevoegen van tabellen en benoemingsregels](./create-excel-workbook-step-by-step-guide-to-adding-tables-an/)
 Leer hoe u een Excel-werkmap maakt, tabellen toevoegt en benoemingsregels instelt met Aspose.Cells voor .NET.
+### [Excel-werkmap opslaan en benoemd bereik toevoegen – volledige C#-gids](./save-excel-workbook-and-add-named-range-full-c-guide/)
+Leer hoe u een Excel-werkmap opslaat en een benoemd bereik toevoegt met een volledige C#-handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

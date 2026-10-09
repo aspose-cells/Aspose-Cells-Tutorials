@@ -73,6 +73,8 @@ Tanuld meg, hogyan importálj Markdown fájlt Excelbe az Aspose.Cells for .NET s
 Tanuld meg, hogyan hozhatsz létre Excel-fájlokat JSON adatokból C#‑ban az Aspose.Cells segítségével, részletes példákkal.
 ### [Excel munkafüzet létrehozása C# – Teljes útmutató a cellák dátumának olvasásához](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
 Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet C#-ban, és olvashatsz dátumokat a cellákból lépésről lépésre.
+### [Japán korszak dátumának elemzése C#-ban – Teljes útmutató](./parse-japanese-era-date-in-c-complete-guide/)
+Tanulja meg, hogyan dolgozhat fel japán korszak dátumokat C#-ban az Aspose.Cells for .NET segítségével, lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

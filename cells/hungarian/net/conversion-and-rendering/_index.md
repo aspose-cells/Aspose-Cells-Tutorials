@@ -73,6 +73,10 @@ Tanuld meg, hogyan exportálhatsz Excel-fájlokat PNG képekké az Aspose.Cells 
 Tanulja meg, hogyan konvertálhatja az XLSX fájlokat PNG képekké C#-ban az Aspose.Cells segítségével, lépésről lépésre útmutatóval.
 ### [Hogyan illesszünk speciális karaktereket az Excelbe – Lépésről‑lépésre útmutató](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
 Tanulja meg, hogyan illeszthet speciális karaktereket Excelbe lépésről‑lépésre az Aspose.Cells segítségével.
+### [PNG kép mentése Excel pivot táblából C#-ban – Teljes útmutató](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Tanuld meg, hogyan menthetsz PNG képet egy Excel pivot táblából C#-ban az Aspose.Cells használatával.
+### [Betűtípusok beágyazása HTML-ben – Teljes útmutató a DOCX HTML-re konvertálásához teljes betűtípus-támogatással](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Tanuld meg, hogyan ágyazhatod be a betűtípusokat HTML-be a DOCX konvertálás során, hogy a megjelenés minden eszközön megmaradjon.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

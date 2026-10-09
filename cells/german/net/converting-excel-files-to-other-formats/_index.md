@@ -65,6 +65,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells den Druckbereich festlegen und die Arbeit
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Daten programmgesteuert in PowerPoint-Präsentationen konvertieren – Schritt für Schritt.
 ### [Excel in PowerPoint mit C# – Komplettanleitung](./convert-excel-to-powerpoint-with-c-complete-guide/)
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für .NET programmgesteuert in PowerPoint-Präsentationen konvertieren.
+### [Programmgesteuertes Exportieren von Excel nach PowerPoint – Vollständiger C#-Leitfaden](./how-to-export-excel-to-powerpoint-complete-c-guide/)
+Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Excel-Dateien programmgesteuert in PowerPoint-Präsentationen exportieren.
 ### [Programmgesteuertes Angeben von HTML CrossType in der HTML-Ausgabe in .NET](./specifying-html-crosstype-in-output-html/)
 Erfahren Sie, wie Sie HTML CrossType in Aspose.Cells für .NET angeben. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um Excel-Dateien präzise in HTML zu konvertieren.
 ### [Numbers-Tabellenkalkulation programmgesteuert in .NET lesen](./reading-numbers-spreadsheet/)

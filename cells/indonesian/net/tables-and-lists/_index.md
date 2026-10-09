@@ -69,6 +69,7 @@ Pelajari cara menghapus header tabel di Aspose.Cells dengan panduan lengkap lang
 
 ### [Cara Mengganti Nama Tabel di Excel dengan C# – Panduan Langkah demi Langkah](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
 Pelajari cara mengganti nama tabel di Excel menggunakan C# dengan panduan langkah demi langkah yang mudah diikuti.
+### [Menghapus Beberapa Baris di Word – Panduan Lengkap Menghapus Baris Tabel](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

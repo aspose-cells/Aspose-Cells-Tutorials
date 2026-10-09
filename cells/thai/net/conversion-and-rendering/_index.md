@@ -75,6 +75,10 @@
 เรียนรู้วิธีแปลงไฟล์ XLSX เป็น PNG ด้วย C# อย่างละเอียดโดยใช้ Aspose.Cells
 ### [วิธีแทรกอักขระพิเศษใน Excel – คู่มือขั้นตอนโดยละเอียด](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
 เรียนรู้วิธีแทรกอักขระพิเศษใน Excel อย่างละเอียดด้วยขั้นตอนที่ชัดเจนโดยใช้ Aspose.Cells
+### [บันทึกภาพ PNG จาก Pivot Table ของ Excel ใน C# – คู่มือครบถ้วน](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+เรียนรู้วิธีบันทึกรูปภาพ PNG จาก Pivot Table ของ Excel ด้วย C# อย่างละเอียดและง่ายต่อการทำตาม
+### [ฝังฟอนต์ใน HTML – คู่มือครบถ้วนในการแปลง DOCX เป็น HTML พร้อมการสนับสนุนฟอนต์เต็ม](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+เรียนรู้วิธีฝังฟอนต์ทั้งหมดเมื่อแปลงไฟล์ DOCX เป็น HTML ด้วย Aspose.Words เพื่อให้ผลลัพธ์แสดงฟอนต์อย่างถูกต้อง
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

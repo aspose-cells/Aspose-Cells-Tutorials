@@ -63,6 +63,8 @@
 使用 Aspose.Cells for .NET 学习如何在转换为 PDF 时嵌入字体，确保文档在任何设备上保持一致的外观。
 ### [在 PDF 中嵌入字体 – 完整的 C# 指南将 Excel 导出为 PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
 通过本完整 C# 指南，学习如何在导出 Excel 为 PDF 时嵌入字体，确保文档在任何设备上保持一致显示。
+### [如何从 Excel 导出 PDF – 完整指南：将工作簿保存为 PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
+本指南详细演示如何使用 Aspose.Cells 将 Excel 工作簿导出为 PDF，实现高质量保存。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

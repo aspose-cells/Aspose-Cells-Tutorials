@@ -44,6 +44,8 @@ Naučte se, jak vytvořit nový sešit Excel s podporou Unicode a exportovat jej
 Naučte se, jak vložit fonty do XPS souborů v C# pomocí Aspose.Cells, včetně praktických ukázek kódu a podrobných kroků.
 ### [Vložení fontů do PDF pomocí Aspose.Cells – Kompletní průvodce C#](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
 Naučte se, jak vložit písma do PDF souborů pomocí Aspose.Cells v C#, aby PDF mělo správné typografické vlastnosti.
+### [Uložení sešitu jako XPS v C# – krok za krokem průvodce](./save-workbook-as-xps-in-c-step-by-step-guide/)
+Naučte se, jak v C# pomocí Aspose.Cells uložit sešit jako XPS pomocí podrobného krok‑za‑krokem návodu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

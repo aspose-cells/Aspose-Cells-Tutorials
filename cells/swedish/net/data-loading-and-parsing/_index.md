@@ -73,6 +73,8 @@ Lär dig hur du importerar en Markdown-fil till Excel med Aspose.Cells för .NET
 Lär dig hur du skapar Excel-filer från JSON-data i C# med en detaljerad steg‑för‑steg‑guide.
 ### [Skapa Excel-arbetsbok C# – Fullständig guide för att läsa datum från celler](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
 Lär dig hur du skapar en Excel-arbetsbok i C# och läser datumvärden från celler med Aspose.Cells för .NET.
+### [Analysera japanskt era-datum i C# – Komplett guide](./parse-japanese-era-date-in-c-complete-guide/)
+Lär dig hur du tolkar japanska era-datum i C# med Aspose.Cells för .NET i denna kompletta steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

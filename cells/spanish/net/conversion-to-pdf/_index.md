@@ -63,6 +63,8 @@ Aprende a guardar documentos Word como PDF usando Aspose.Words en C#. Guía paso
 Aprende a incrustar fuentes en los PDFs generados desde Excel usando Aspose.Cells para .NET. Sigue nuestra guía paso a paso.
 ### [Incrustar fuentes en PDF – Guía completa en C# para exportar Excel a PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
 Aprende a incrustar fuentes en PDFs al exportar Excel con Aspose.Cells usando C#. Sigue nuestra guía paso a paso.
+### [Cómo exportar PDF desde Excel – Guía completa para guardar el libro de trabajo como PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
+Aprende a exportar tus libros de Excel a PDF con Aspose.Cells, paso a paso, para obtener documentos de alta calidad.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

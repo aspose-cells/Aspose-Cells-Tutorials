@@ -103,6 +103,8 @@ Fedezze fel a lépésről lépésre útmutatót a sorok Excelbe való beszúrás
 Ismerje meg, hogyan hozhat létre kétoszlopos elrendezést a WRAPCOLS funkcióval C#-ban az Aspose.Cells segítségével.
 ### [Hogyan szúrjunk be sorokat a GridJs-ben – Több sor gyors hozzáadása](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Ismerje meg, hogyan adhat hozzá több sort egyszerre a GridJs táblázathoz gyors és hatékony módon.
+### [Hogyan használja a wrapcols-t C#-ban – Teljes útmutató az Excel WRAPROWS és képletek újraszámítása](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Ismerje meg, hogyan alkalmazhatja a wrapcols függvényt C#-ban, az Excel WRAPROWS használatával és a képletek újraszámításával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

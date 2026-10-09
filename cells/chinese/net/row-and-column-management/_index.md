@@ -96,6 +96,7 @@
 了解如何在 C# 中使用 Aspose.Cells 的 WRAPCOLS 功能创建两列布局，提供完整代码示例和步骤说明。
 ### [如何在 GridJs 中插入行 – 快速添加多行](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 本教程提供在 GridJs 表格中一次性插入多行的分步指南，帮助您高效扩展数据。
+### [在 C# 中使用 wrapcols – 完整指南，包含 Excel WRAPROWS 与重新计算公式](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

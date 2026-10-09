@@ -98,6 +98,8 @@
 Узнайте, как применить WRAPCOLS для создания двухколоночного макета в Excel с помощью C# и Aspose.Cells.
 ### [Как вставить строки в GridJs – быстро добавить несколько строк](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Узнайте, как быстро добавить несколько строк в GridJs с помощью Aspose.Cells для .NET.
+### [Как использовать WrapCols в C# – Полное руководство с Excel WrapRows и пересчетом формул](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Подробное руководство по использованию свойства WrapCols в Aspose.Cells для .NET, включая WrapRows и пересчет формул.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

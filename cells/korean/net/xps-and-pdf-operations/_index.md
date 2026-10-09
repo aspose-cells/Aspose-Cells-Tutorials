@@ -44,6 +44,8 @@ Aspose.Cells for .NET을 사용해 새 Excel 워크북을 만들고, 유니코�
 Aspose.Cells for .NET을 사용하여 XPS 문서에 글꼴을 포함하는 방법을 단계별로 안내합니다.
 ### [Aspose.Cells로 PDF에 글꼴 삽입 – 완전한 C# 가이드](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
 Aspose.Cells를 활용해 PDF에 필요한 글꼴을 포함시키는 방법을 단계별 C# 코드 예제로 안내합니다.
+### [C#에서 워크북을 XPS로 저장 – 단계별 가이드](./save-workbook-as-xps-in-c-step-by-step-guide/)
+Aspose.Cells for .NET을 사용해 C#에서 Excel 워크북을 XPS 파일로 저장하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

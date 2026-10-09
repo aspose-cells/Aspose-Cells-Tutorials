@@ -71,6 +71,8 @@ Aspose.Cells for .NET kullanarak Markdown dosyasını Excel'e nasıl yükleyece�
 C# ve Aspose.Cells kullanarak JSON verilerinden Excel dosyası oluşturmayı adım adım öğrenin.
 ### [Excel Çalışma Kitabı Oluşturma C# – Hücrelerden Tarih Okuma Tam Kılavuzu](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
 Aspose.Cells for .NET ile C# kullanarak Excel çalışma kitabı oluşturun ve hücrelerdeki tarihleri nasıl okuyacağınızı öğrenin.
+### [C#'ta Japon era tarihini ayrıştırma – Tam Kılavuz](./parse-japanese-era-date-in-c-complete-guide/)
+Aspose.Cells for .NET ile C# içinde Japon era tarihlerini nasıl ayrıştıracağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

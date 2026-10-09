@@ -62,6 +62,8 @@ Leer hoe u een Excel-werkmap vanuit JSON-gegevens kunt maken en opslaan met Aspo
 Leer hoe u een plat OPC‑bestand maakt met C# met behulp van Aspose.Cells voor .NET in deze volledige gids.
 ### [Werkboek opslaan als XLSX – Complete gids voor het genereren van Excel met gegevens](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
 Leer hoe u een werkmap opslaat als XLSX en Excel-bestanden genereert met data met Aspose.Cells voor .NET.
+### [Hoe een werkmap op te slaan in C# – Complete programmeergids](./how-to-save-workbook-in-c-complete-programming-guide/)
+Leer stap voor stap hoe u een werkmap opslaat in C# met Aspose.Cells, inclusief alle opties en best practices.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

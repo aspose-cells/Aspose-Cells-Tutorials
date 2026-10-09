@@ -75,6 +75,10 @@ Aspose.Cells के साथ C# में XLSX फ़ाइल को PNG इ�
 
 ### [Excel में विशेष अक्षर कैसे डालें – चरण‑दर‑चरण गाइड](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
 Aspose.Cells का उपयोग करके Excel में विशेष अक्षर सम्मिलित करने की पूरी प्रक्रिया सीखें। आसान चरण‑दर‑चरण गाइड।
+### [C# में Excel पिवट टेबल से PNG इमेज सहेजें – पूर्ण गाइड](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Aspose.Cells का उपयोग करके C# में Excel पिवट टेबल से PNG इमेज निकालने और सहेजने की पूरी प्रक्रिया सीखें।
+### [HTML में फ़ॉन्ट एम्बेड करें – DOCX को HTML में पूर्ण फ़ॉन्ट समर्थन के साथ परिवर्तित करने की पूर्ण गाइड](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Aspose.Words का उपयोग करके DOCX फ़ाइलों को HTML में फ़ॉन्ट एम्बेड के साथ परिवर्तित करने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

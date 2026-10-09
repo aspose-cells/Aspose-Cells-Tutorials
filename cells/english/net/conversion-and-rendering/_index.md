@@ -77,6 +77,10 @@ Learn how to convert XLSX files to PNG images using Aspose.Cells for .NET with a
 
 ### [How to Insert Special Characters in Excel – Step‑by‑Step Guide](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
 Learn how to insert special characters in Excel using Aspose.Cells for .NET with a step‑by‑step guide.
+### [Save Image PNG from Excel Pivot Table in C# – Complete Guide](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Learn how to extract and save a pivot table as a PNG image using Aspose.Cells for .NET in C# with this comprehensive guide.
+### [Embed Fonts in HTML – Complete Guide to Converting DOCX to HTML with Full Font Support](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Learn how to embed fonts when converting DOCX to HTML using Aspose.Words for .NET, ensuring full font support in the output.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

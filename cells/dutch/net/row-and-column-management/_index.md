@@ -101,6 +101,9 @@ Leer hoe u met WRAPCOLS een tweekolomsindeling maakt in Excel via C# met Aspose.
 ### [Hoe rijen invoegen in GridJs – Voeg meerdere rijen snel toe](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Leer hoe u met GridJs meerdere rijen in één keer kunt toevoegen via een eenvoudige, stapsgewijze handleiding.
 
+### [Hoe wrapcols te gebruiken in C# – Volledige gids met Excel WRAPROWS & Formules opnieuw berekenen](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Ontdek hoe u wrapcols en wraprows in Excel kunt toepassen en formules automatisch laat herberekenen met Aspose.Cells voor .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

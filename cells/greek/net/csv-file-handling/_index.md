@@ -55,6 +55,10 @@
 Μάθετε πώς να αποθηκεύετε ένα βιβλίο εργασίας Excel ως CSV χρησιμοποιώντας το Aspose.Cells για .NET με βήμα‑βήμα οδηγίες.
 ### [Δημιουργία Νέου Φύλλου Εργασίας σε C# – Πλήρης Οδηγός για Εξαγωγή Excel σε CSV](./create-new-workbook-in-c-full-guide-to-export-excel-to-csv/)
 Μάθετε πώς να δημιουργήσετε νέο workbook σε C# και να το εξάγετε σε CSV με το Aspose.Cells για .NET.
+### [Μετατροπή βιβλίου εργασίας Excel σε CSV – Πλήρης οδηγός C#](./convert-excel-workbook-to-csv-complete-c-guide/)
+Μάθετε πώς να μετατρέπετε ένα βιβλίο εργασίας Excel σε αρχείο CSV χρησιμοποιώντας το Aspose.Cells για .NET με C#.
+### [Εξαγωγή πίνακα σε CSV με C# – Πλήρης προγραμματιστικός οδηγός](./export-table-to-csv-in-c-complete-programming-guide/)
+Μάθετε πώς να εξάγετε έναν πίνακα σε αρχείο CSV με το Aspose.Cells για .NET χρησιμοποιώντας C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

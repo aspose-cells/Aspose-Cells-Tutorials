@@ -63,6 +63,8 @@ Leer hoe je een Word-document opslaat als PDF met Aspose.Words en C# in deze vol
 Leer hoe je lettertypen insluit tijdens het converteren van Excel-bestanden naar PDF met Aspose.Cells voor .NET.
 ### [Lettertypen insluiten in PDF – Complete C#-gids voor het exporteren van Excel naar PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
 Leer hoe je lettertypen insluit bij het exporteren van Excel naar PDF met C# en Aspose.Cells.
+### [Hoe PDF exporteren vanuit Excel – Complete gids voor het opslaan van een werkmap als PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
+Leer hoe je een Excel-werkmap als PDF opslaat met Aspose.Cells voor .NET in deze volledige handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

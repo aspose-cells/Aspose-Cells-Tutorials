@@ -63,6 +63,8 @@ Aspose.Words를 사용하여 Word 문서를 PDF로 손쉽게 저장하는 단계
 Aspose.Cells를 사용해 Excel을 PDF로 변환하면서 글꼴을 포함하는 방법을 단계별로 안내합니다.
 ### [PDF에 폰트 포함 – Excel을 PDF로 내보내는 완전 C# 가이드](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
 Aspose.Cells를 사용해 Excel을 PDF로 변환할 때 폰트를 포함하는 방법을 단계별로 안내합니다.
+### [Excel에서 PDF 내보내기 – 워크북을 PDF로 저장하는 완전 가이드](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
+Aspose.Cells를 사용하여 Excel 워크북을 PDF로 저장하는 전체 단계별 가이드를 확인하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -62,6 +62,8 @@
 เรียนรู้วิธีสร้างไฟล์ Excel ด้วยโค้ด, เพิ่มความคิดเห็น, แล้วบันทึกเป็นรูปแบบ XLSX โดยใช้ Aspose.Cells สำหรับ .NET
 ### [เพิ่มความคิดเห็นในเซลล์ด้วย C# – สร้าง Excel จากข้อมูล](./add-comment-to-cell-in-c-generate-excel-from-data/)
 เรียนรู้วิธีเพิ่มความคิดเห็นในเซลล์ Excel ด้วย C# และสร้างไฟล์จากข้อมูลโดยใช้ Aspose.Cells สำหรับ .NET
+### [แทรกความคิดเห็น Excel ด้วย C# – คู่มือ SmartMarker ฉบับสมบูรณ์](./insert-excel-comment-with-c-complete-smartmarker-guide/)
+เรียนรู้วิธีแทรกความคิดเห็นใน Excel ด้วย C# ผ่าน SmartMarker ของ Aspose.Cells .NET เพื่อเพิ่มประสิทธิภาพให้สเปรดชีตของคุณ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

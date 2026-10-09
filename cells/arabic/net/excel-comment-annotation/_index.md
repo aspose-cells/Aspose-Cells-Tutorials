@@ -61,6 +61,8 @@
 تعرّف على كيفية إضافة تعليقات إلى خلايا Excel باستخدام Aspose.Cells Smart Marker. حسّن جداولك بسهولة.
 ### [إضافة تعليق إلى خلية في C# – إنشاء Excel من البيانات](./add-comment-to-cell-in-c-generate-excel-from-data/)
 تعرّف على كيفية إضافة تعليق إلى خلية في Excel باستخدام Aspose.Cells لـ .NET أثناء إنشاء ملف من البيانات.
+### [إدراج تعليق Excel باستخدام C# – دليل SmartMarker الكامل](./insert-excel-comment-with-c-complete-smartmarker-guide/)
+تعلم كيفية إضافة تعليقات إلى ملفات Excel باستخدام C# وSmartMarker في Aspose.Cells .NET خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

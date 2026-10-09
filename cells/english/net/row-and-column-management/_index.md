@@ -98,6 +98,8 @@ Learn how to insert rows in Excel using C# and Aspose.Cells for .NET with this d
 Learn how to use the WRAPCOLS feature in Aspose.Cells for .NET to create a two‑column layout in C# with step‑by‑step instructions.
 ### [How to Insert Rows in GridJs – Add Multiple Rows Quickly](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Learn how to quickly add multiple rows in GridJs with a simple step-by-step guide for efficient data handling.
+### [how to use wrapcols in C# – Full Guide with Excel WRAPROWS & Recalculate Formulas](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Learn how to use WrapCols in C# with Excel WrapRows and recalculate formulas in this comprehensive guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

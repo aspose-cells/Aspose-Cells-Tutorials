@@ -62,6 +62,8 @@ Lär dig hur du ställer in utskriftsområde i Excel och exporterar till PowerPo
 Lär dig hur du skapar en PowerPoint-presentation från en Excel-fil med Aspose.Cells för .NET i en steg‑för‑steg‑guide.
 ### [Konvertera Excel till PowerPoint med C# – Komplett guide](./convert-excel-to-powerpoint-with-c-complete-guide/)
 Lär dig hur du konverterar Excel-filer till PowerPoint-presentationer med C# och Aspose.Cells i en detaljerad steg-för-steg-guide.
+### [Hur du exporterar Excel till PowerPoint – Komplett C#-guide](./how-to-export-excel-to-powerpoint-complete-c-guide/)
+Lär dig steg för steg hur du med Aspose.Cells för .NET exporterar Excel-data till PowerPoint-presentationer med C#.
 ### [Ange HTML CrossType i utdata-HTML programmatiskt i .NET](./specifying-html-crosstype-in-output-html/)
 Lär dig hur du anger HTML CrossType i Aspose.Cells för .NET. Följ vår steg-för-steg-handledning för att konvertera Excel-filer till HTML med precision.
 ### [Läsa siffror programmatiskt i .NET](./reading-numbers-spreadsheet/)

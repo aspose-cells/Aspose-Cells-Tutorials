@@ -73,6 +73,8 @@ Naučte se, jak pomocí Aspose.Cells načíst soubor Markdown do Excelu a přev�
 Naučte se, jak pomocí Aspose.Cells pro .NET převést JSON data do souboru Excel v C# s podrobným krok‑za‑krokem návodem.
 ### [Vytvoření Excel sešitu C# – Kompletní průvodce čtením dat z buněk](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
 Naučte se, jak vytvořit sešit Excel v C# a číst data z buněk pomocí Aspose.Cells pro .NET.
+### [Rozbor japonského data éry v C# – Kompletní průvodce](./parse-japanese-era-date-in-c-complete-guide/)
+Naučte se, jak v C# zpracovat japonské datum ve formátu éry pomocí Aspose.Cells pro .NET s podrobným návodem a příklady kódu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

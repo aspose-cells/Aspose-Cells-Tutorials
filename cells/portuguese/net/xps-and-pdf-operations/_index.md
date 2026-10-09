@@ -44,6 +44,8 @@ Aprenda a criar uma nova pasta de trabalho do Excel com suporte Unicode e export
 Aprenda a incorporar fontes em documentos XPS usando C# e Aspose.Cells, garantindo a fidelidade visual nas conversões.
 ### [Incorporar fontes PDF com Aspose.Cells – Guia Completo em C#](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
 Aprenda a incorporar fontes em PDFs gerados com Aspose.Cells usando C#, garantindo que o documento mantenha a formatação correta.
+### [Salvar Pasta de Trabalho como XPS em C# – Guia Passo a Passo](./save-workbook-as-xps-in-c-step-by-step-guide/)
+Aprenda a salvar uma pasta de trabalho do Excel como XPS usando C# com Aspose.Cells, seguindo um guia detalhado passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

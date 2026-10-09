@@ -73,6 +73,10 @@
 تعلم خطوة بخطوة كيفية تحويل ملفات XLSX إلى صور PNG باستخدام Aspose.Cells وC# في دليل شامل.
 ### [كيفية إدراج الأحرف الخاصة في Excel – دليل خطوة بخطوة](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
 تعلم كيفية إدراج الأحرف الخاصة في ملفات Excel باستخدام Aspose.Cells خطوة بخطوة.
+### [حفظ صورة PNG من جدول محوري في Excel باستخدام C# – دليل كامل](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+تعلم كيفية حفظ صورة PNG من جدول محوري في Excel باستخدام C# مع Aspose.Cells. دليل شامل خطوة بخطوة.
+### [تضمين الخطوط في HTML – دليل كامل لتحويل DOCX إلى HTML مع دعم كامل للخطوط](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+تعلم كيفية تضمين الخطوط عند تحويل مستندات DOCX إلى HTML باستخدام Aspose.Words لضمان عرض النصوص بشكل صحيح على جميع المتصفحات.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

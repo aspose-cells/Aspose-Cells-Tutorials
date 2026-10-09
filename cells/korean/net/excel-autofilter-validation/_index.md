@@ -54,6 +54,7 @@ C#와 Aspose.Cells를 사용해 Excel에서 자동 필터를 완전히 제거하
 Aspose.Cells for .NET을 사용하여 Excel에서 자동 필터 버튼을 제거하고 UI를 정리하는 방법을 단계별로 안내합니다.
 ### [C#를 사용한 Excel 필터 화살표 숨기기 – 완전 가이드](./hide-filter-arrows-excel-with-c-complete-guide/)
 Aspose.Cells for .NET을 이용해 C#에서 Excel 필터 화살표를 숨기는 방법을 단계별로 안내합니다.
+### [C#를 사용하여 Excel에 테이블 추가 – 자동 필터 지우기 및 파일 저장](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

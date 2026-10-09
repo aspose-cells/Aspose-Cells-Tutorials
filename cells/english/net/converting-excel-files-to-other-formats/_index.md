@@ -65,6 +65,8 @@ Learn how to set the print area in Excel and export the sheet to PowerPoint usin
 Learn how to generate PowerPoint presentations from Excel data using C# and Aspose.Cells in a detailed step‑by‑step guide.
 ### [Convert Excel to PowerPoint with C# – Complete Guide](./convert-excel-to-powerpoint-with-c-complete-guide/)
 Learn how to convert Excel files to PowerPoint presentations using C# and Aspose.Cells for .NET in this comprehensive step-by-step guide.
+### [How to Export Excel to PowerPoint – Complete C# Guide](./how-to-export-excel-to-powerpoint-complete-c-guide/)
+Learn how to export Excel worksheets to PowerPoint presentations using Aspose.Cells for .NET with a complete C# step-by-step guide.
 ### [Specifying HTML CrossType in Output HTML Programmatically in .NET](./specifying-html-crosstype-in-output-html/)
 Learn how to specify HTML CrossType in Aspose.Cells for .NET. Follow our step-by-step tutorial to convert Excel files to HTML with precision.
 ### [Reading Numbers Spreadsheet Programmatically in .NET](./reading-numbers-spreadsheet/)

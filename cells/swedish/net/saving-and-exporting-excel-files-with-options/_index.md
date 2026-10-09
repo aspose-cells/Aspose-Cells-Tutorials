@@ -62,6 +62,8 @@ Lär dig hur du skapar en Excel-arbetsbok från JSON med C# och Aspose.Cells fö
 Lär dig hur du skapar en flat OPC-fil med C# med Aspose.Cells för .NET i en komplett guide.
 ### [Spara arbetsbok som XLSX – Komplett guide för att generera Excel med data](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
 Lär dig steg för steg hur du sparar en arbetsbok som XLSX och genererar Excel-filer med data med Aspose.Cells för .NET.
+### [Hur man sparar arbetsbok i C# – Komplett programmeringsguide](./how-to-save-workbook-in-c-complete-programming-guide/)
+Lär dig steg för steg hur du sparar en arbetsbok i C# med Aspose.Cells för .NET i en komplett programmeringsguide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

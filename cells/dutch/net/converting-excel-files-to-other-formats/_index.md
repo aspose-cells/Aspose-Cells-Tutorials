@@ -64,6 +64,8 @@ Leer hoe u met Aspose.Cells voor .NET het printgebied in Excel instelt en vervol
 Leer hoe u met Aspose.Cells voor .NET een PowerPoint-presentatie maakt vanuit een Excel-werkmap met C#.
 ### [Excel-bestand programmatisch naar PowerPoint converteren met C# – Complete gids](./convert-excel-to-powerpoint-with-c-complete-guide/)
 Leer stap voor stap hoe u Excel-werkbladen naar PowerPoint-presentaties converteert met C# en Aspose.Cells voor .NET.
+### [Excel-bestand programmatisch naar PowerPoint exporteren – Complete C#-gids](./how-to-export-excel-to-powerpoint-complete-c-guide/)
+Leer hoe u Excel-werkbladen naar PowerPoint-presentaties exporteert met een volledige C#-handleiding.
 ### [HTML CrossType specificeren in uitvoer-HTML programmatisch in .NET](./specifying-html-crosstype-in-output-html/)
 Leer hoe u HTML CrossType specificeert in Aspose.Cells voor .NET. Volg onze stapsgewijze tutorial om Excel-bestanden nauwkeurig naar HTML te converteren.
 ### [Getallenspreadsheets programmatisch lezen in .NET](./reading-numbers-spreadsheet/)

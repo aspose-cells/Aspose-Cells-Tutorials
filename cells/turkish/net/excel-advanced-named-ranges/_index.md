@@ -38,6 +38,8 @@ Bu kapsamlı adım adım eğitimle Aspose.Cells for .NET'i kullanarak Excel'de a
 Bu adım adım eğitimde Aspose.Cells for .NET kullanarak adlandırılmış aralıktaki hücreleri nasıl birleştireceğinizi öğrenin. Excel raporlarını nasıl biçimlendireceğinizi, biçimlendireceğinizi ve otomatikleştireceğinizi keşfedin.
 ### [Excel Çalışma Kitabı Oluşturma – Tablo Ekleme ve Adlandırma Kuralları İçin Adım‑Adım Kılavuz](./create-excel-workbook-step-by-step-guide-to-adding-tables-an/)
 Bu adım adım kılavuzda Aspose.Cells for .NET ile Excel çalışma kitabı oluşturmayı, tablo eklemeyi ve adlandırma kurallarını öğrenin.
+### [Excel Çalışma Kitabını Kaydet ve Adlandırılmış Aralık Ekle – Tam C# Kılavuzu](./save-excel-workbook-and-add-named-range-full-c-guide/)
+Aspose.Cells for .NET kullanarak bir Excel dosyasını kaydedin ve adlandırılmış bir aralık ekleyerek tam C# örneğiyle nasıl yapacağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

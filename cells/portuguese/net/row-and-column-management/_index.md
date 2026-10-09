@@ -98,6 +98,8 @@ Aprenda a inserir linhas no Excel usando C# e Aspose.Cells para .NET com este gu
 Aprenda a usar o método WRAPCOLS para gerar um layout de duas colunas em planilhas Excel com C# usando Aspose.Cells.
 ### [Como Inserir Linhas no GridJs – Adicionar Várias Linhas Rapidamente](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Aprenda a inserir múltiplas linhas rapidamente no GridJs com este guia passo a passo, facilitando a manipulação de dados em suas tabelas.
+### [Como usar WrapCols em C# – Guia completo com Excel WrapRows e Recalcular Fórmulas](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Aprenda passo a passo como aplicar WrapCols e WrapRows no Aspose.Cells para .NET, ajustando colunas e recalculando fórmulas automaticamente.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

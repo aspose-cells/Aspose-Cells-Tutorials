@@ -63,6 +63,8 @@
 تعرّف على طريقة تضمين الخطوط في ملفات PDF عند تحويل Excel باستخدام Aspose.Cells خطوة بخطوة.
 ### [تضمين الخطوط في PDF – دليل C# كامل لتصدير Excel إلى PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
 تعلم كيفية تضمين الخطوط في ملفات PDF عند تصدير جداول Excel باستخدام Aspose.Cells وC# لضمان عرض النصوص بشكل صحيح.
+### [كيفية تصدير PDF من Excel – دليل كامل لحفظ المصنف كملف PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
+تعلم خطوة بخطوة كيفية تصدير ملفات Excel إلى PDF وحفظ المصنف بصيغة PDF باستخدام Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -62,6 +62,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe aus JSO
 Erfahren Sie, wie Sie mit C# eine flache OPC-Datei erstellen und alle Schritte der Komplettanleitung umsetzen.
 ### [Arbeitsmappe als XLSX speichern – Komplettanleitung zur Generierung von Excel mit Daten](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Arbeitsmappen als XLSX speichern und Daten effizient generieren.
+### [Wie man ein Arbeitsbuch in C# speichert – Vollständiger Programmierleitfaden](./how-to-save-workbook-in-c-complete-programming-guide/)
+Erfahren Sie Schritt für Schritt, wie Sie mit Aspose.Cells für .NET ein Excel-Arbeitsbuch in C# speichern und alle Optionen nutzen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

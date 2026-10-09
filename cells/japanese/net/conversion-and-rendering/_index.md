@@ -73,6 +73,10 @@ Aspose.Cells を使用して Excel シートを高品質な PNG 画像に変換�
 Aspose.Cells を使用して、.NET 環境で XLSX ファイルを PNG 画像に変換する手順を詳しく解説します。
 ### [Excel に特殊文字を挿入する方法 – ステップバイステップ ガイド](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
 Aspose.Cells を使用して、Excel に特殊文字を簡単に挿入する手順をステップバイステップで解説します。
+### [C# で Excel ピボットテーブルから PNG 画像を保存する – 完全ガイド](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Aspose.Cells for .NET を使用して、Excel のピボットテーブルから PNG 画像を抽出し保存する方法をステップバイステップで解説します。
+### [HTML にフォントを埋め込む – フルフォントサポートで DOCX を HTML に変換する完全ガイド](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Aspose.Cells for .NET を使用して、DOCX を HTML に変換し、フォントを埋め込む方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

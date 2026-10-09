@@ -73,6 +73,10 @@ Lär dig hur du exporterar Excel-filer till PNG med Aspose.Cells i .NET med en k
 Lär dig steg för steg hur du konverterar XLSX-filer till PNG-bilder med C# och Aspose.Cells.
 ### [Hur man infogar specialtecken i Excel – Steg‑för‑steg‑guide](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
 Lär dig hur du enkelt infogar specialtecken i Excel med en tydlig steg‑för‑steg‑guide.
+### [Spara PNG-bild från Excel-pivot-tabell i C# – Komplett guide](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Lär dig hur du extraherar och sparar en pivot-tabell som PNG-bild i C# med Aspose.Cells.
+### [Bädda in teckensnitt i HTML – Komplett guide för konvertering av DOCX till HTML med full teckensnittsstöd](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Lär dig hur du konverterar DOCX till HTML och bäddar in alla teckensnitt för korrekt visning i webbläsare.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

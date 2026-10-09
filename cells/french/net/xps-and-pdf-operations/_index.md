@@ -44,6 +44,8 @@ Apprenez à créer un classeur Excel avec prise en charge Unicode et à l'export
 Apprenez à incorporer des polices dans les fichiers XPS en C# avec Aspose.Cells, grâce à un guide pas à pas et des exemples de code.
 ### [Intégrer des polices PDF avec Aspose.Cells – Guide complet C#](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
 Apprenez à incorporer des polices dans les PDF générés avec Aspose.Cells en C#, garantissant un affichage correct sur tous les appareils.
+### [Enregistrer un classeur au format XPS en C# – Guide étape par étape](./save-workbook-as-xps-in-c-step-by-step-guide/)
+Apprenez à enregistrer un classeur Excel au format XPS en C# grâce à un guide complet et des exemples de code.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

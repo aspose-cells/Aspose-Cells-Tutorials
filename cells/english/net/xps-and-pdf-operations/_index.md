@@ -44,6 +44,8 @@ Learn how to create a new Excel workbook with Unicode support and export it to X
 Learn how to embed fonts in XPS documents using C# and Aspose.Cells for .NET, ensuring proper rendering across devices.
 ### [Embed fonts PDF with Aspose.Cells – Complete C# Guide](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
 Learn how to embed fonts in PDF files using Aspose.Cells for .NET with a complete C# guide and practical code examples.
+### [Save Workbook as XPS in C# – Step‑by‑Step Guide](./save-workbook-as-xps-in-c-step-by-step-guide/)
+Learn how to save an Excel workbook as XPS in C# using Aspose.Cells for .NET with clear, step‑by‑step instructions.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

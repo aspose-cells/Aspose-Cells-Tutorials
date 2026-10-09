@@ -63,6 +63,8 @@
 了解如何在將 Excel 檔案轉換為 PDF 時嵌入字型，確保所有文字正確顯示，提供完整的步驟說明。
 ### [在 PDF 中嵌入字型 – 完整的 C# 指南：將 Excel 匯出為 PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
 本完整 C# 教學說明如何在匯出 Excel 為 PDF 時嵌入字型，確保文件在任何裝置上正確顯示。
+### [如何從 Excel 匯出 PDF – 完整指南：將工作簿另存為 PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
+本完整指南說明如何使用 Aspose.Cells 將 Excel 工作簿匯出為 PDF，步驟清晰易懂。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

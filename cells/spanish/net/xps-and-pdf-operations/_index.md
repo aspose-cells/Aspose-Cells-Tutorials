@@ -44,6 +44,8 @@ Aprenda a crear un libro de Excel con soporte Unicode y exportarlo a XPS usando 
 Aprenda a incrustar fuentes en documentos XPS usando C# y Aspose.Cells, con ejemplos paso a paso para garantizar la correcta visualización.
 ### [Incrustar fuentes PDF con Aspose.Cells – Guía completa en C#](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
 Aprenda a incrustar fuentes en PDFs generados con Aspose.Cells usando C#, garantizando la correcta visualización del documento.
+### [Guardar libro de trabajo como XPS en C# – Guía paso a paso](./save-workbook-as-xps-in-c-step-by-step-guide/)
+Aprenda a guardar un libro de Excel como XPS usando Aspose.Cells para .NET con ejemplos claros y paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

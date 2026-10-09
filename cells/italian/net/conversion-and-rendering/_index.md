@@ -75,6 +75,10 @@ Impara a esportare i fogli di calcolo Excel in immagini PNG con Aspose.Cells per
 Impara a trasformare file XLSX in immagini PNG usando Aspose.Cells e C#, passo passo.
 ### [Come inserire caratteri speciali in Excel – Guida passo‑passo](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
 Scopri come inserire caratteri speciali in Excel con Aspose.Cells, passo dopo passo, per migliorare i tuoi fogli di calcolo.
+### [Salva immagine PNG da tabella pivot Excel in C# – Guida completa](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Impara a estrarre e salvare immagini PNG da una tabella pivot di Excel usando Aspose.Cells in C# con questa guida completa.
+### [Incorporare i font in HTML – Guida completa alla conversione di DOCX in HTML con supporto completo dei font](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Scopri come incorporare tutti i font durante la conversione di DOCX in HTML con Aspose.Words per .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

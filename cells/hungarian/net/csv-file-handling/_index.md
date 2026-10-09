@@ -55,6 +55,10 @@ Tanuld meg, hogyan exportálj táblázatokat CSV formátumba C#-ban az Aspose.Ce
 Tanuld meg, hogyan mentheted el a munkafüzetet CSV formátumban C#-ban az Aspose.Cells for .NET segítségével.
 ### [Új munkafüzet létrehozása C#-ban – Teljes útmutató az Excel CSV-be exportálásához](./create-new-workbook-in-c-full-guide-to-export-excel-to-csv/)
 Ismerd meg, hogyan hozhatsz létre új munkafüzetet C#-ban, és exportáld Excel fájlodat CSV formátumba lépésről lépésre.
+### [Excel munkafüzet CSV-re konvertálása – Teljes C# útmutató](./convert-excel-workbook-to-csv-complete-c-guide/)
+Tanuld meg, hogyan konvertálj Excel munkafüzetet CSV formátumba C#-ban az Aspose.Cells for .NET segítségével.
+### [Táblázat exportálása CSV-be C#-ban – Teljes programozási útmutató](./export-table-to-csv-in-c-complete-programming-guide/)
+Tanuld meg, hogyan exportálj táblázatot CSV formátumba C#-ban az Aspose.Cells for .NET segítségével, lépésről lépésre útmutató.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

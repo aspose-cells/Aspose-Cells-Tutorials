@@ -61,6 +61,8 @@ JSON データを使用して Excel ワークブックを作成し、保存す�
 ### [C# を使用してフラット OPC ファイルを作成する – 完全ガイド](./create-flat-opc-file-with-c-complete-guide/)
 Aspose.Cells for .NET を使用して、C# でフラット OPC ファイルを作成する手順をステップバイステップで解説します。
 ### [ワークブックを XLSX として保存 – データで Excel を生成する完全ガイド](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+### [C# でワークブックを保存する方法 – 完全プログラミングガイド](./how-to-save-workbook-in-c-complete-programming-guide/)
+Aspose.Cells for .NET を使用して、C# でワークブックを保存する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

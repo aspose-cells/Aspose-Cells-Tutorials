@@ -70,6 +70,8 @@ Scopri come inserire dati JSON in un modello Excel utilizzando Aspose.Cells per 
 Scopri come generare file Excel da dati JSON usando C# con Aspose.Cells, passo dopo passo.
 ### [Creare cartella di lavoro Excel C# – Guida completa per leggere le date dalle celle](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
 Scopri come creare una cartella di lavoro Excel in C# e leggere correttamente le date dalle celle con Aspose.Cells per .NET.
+### [Analizza la data dell'era giapponese in C# – Guida completa](./parse-japanese-era-date-in-c-complete-guide/)
+Scopri come analizzare le date dell'era giapponese in C# con Aspose.Cells, includendo esempi pratici e passaggi dettagliati.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -38,6 +38,8 @@ Identifizieren Sie mit Aspose.Cells für .NET mühelos Zellen in einem benannten
 Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET Zellen in einem benannten Bereich zusammenführen. Erfahren Sie, wie Sie Excel-Berichte formatieren, gestalten und automatisieren.
 ### [Excel-Arbeitsmappe erstellen – Schritt‑für‑Schritt‑Anleitung zum Hinzufügen von Tabellen und Namensregeln](./create-excel-workbook-step-by-step-guide-to-adding-tables-an/)
 Erfahren Sie in diesem Schritt‑für‑Schritt‑Tutorial, wie Sie mit Aspose.Cells für .NET eine Excel‑Arbeitsmappe erstellen, Tabellen hinzufügen und Namensregeln setzen.
+### [Excel-Arbeitsmappe speichern und benannten Bereich hinzufügen – Vollständige C#‑Anleitung](./save-excel-workbook-and-add-named-range-full-c-guide/)
+Erfahren Sie in diesem Schritt‑für‑Schritt‑Tutorial, wie Sie mit Aspose.Cells für .NET eine Excel‑Arbeitsmappe speichern und einen benannten Bereich hinzufügen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -61,6 +61,7 @@
 دليل شامل لإنشاء ملف OPC مسطح باستخدام C# مع Aspose.Cells.
 ### [حفظ دفتر العمل كملف XLSX – دليل كامل لإنشاء Excel بالبيانات](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
 تعرف على كيفية حفظ دفتر العمل كملف XLSX وإنشاء ملفات Excel مليئة بالبيانات باستخدام Aspose.Cells لـ .NET.
+### [كيفية حفظ دفتر العمل في C# – دليل برمجة كامل](./how-to-save-workbook-in-c-complete-programming-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

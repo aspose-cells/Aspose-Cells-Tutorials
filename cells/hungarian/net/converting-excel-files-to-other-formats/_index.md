@@ -70,7 +70,6 @@ Ebben a részletes oktatóanyagban megtudhatja, hogyan menthet munkafüzetet Str
 ### [Dokumentumkonverziós folyamat követése programozottan .NET-ben](./tracking-document-conversion-progress/)
 leírás: Ebben a részletes oktatóanyagban megtudhatja, hogyan követheti nyomon a dokumentumkonverzió előrehaladását programozottan az Aspose.Cells for .NET használatával.
 ### [Dokumentumkonverziós folyamatkövetés TIFF formátumban programozottan .NET-ben](./tracking-document-conversion-progress-for-tiff/)
-Tanuld meg, hogyan követheted nyomon a TIFF konverzió előrehaladását programozottan az Aspose.Cells for .NET használatával lépésről lépésre bemutató útmutatónkkal. Fejleszd dokumentumkezelési készségeidet.
 ### [XLSX konvertálása CSV‑be C#‑ban – Teljes lépésről‑lépésre útmutató](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
 Ismerje meg, hogyan konvertálhat XLSX fájlokat CSV formátumba C#‑ban az Aspose.Cells segítségével, részletes kódpéldákkal.
 
@@ -109,6 +108,8 @@ Ismerje meg, hogyan exportálhatja az Excel-munkafüzetet tabulátorral elválas
 Tanuld meg, hogyan exportálhatod az Excel diagramokat DOCX fájlba a Wordben, lépésről lépésre útmutatóval.
 ### [Excel konvertálása PowerPointba – Lépésről lépésre C# útmutató](./convert-excel-to-powerpoint-step-by-step-c-guide/)
 Ismerje meg, hogyan konvertálhat Excel-fájlokat PowerPoint diákba C#-ban az Aspose.Cells segítségével, részletes kódmintákkal.
+### [Excel exportálása PowerPointba – Teljes C# útmutató](./how-to-export-excel-to-powerpoint-complete-c-guide/)
+Ismerje meg, hogyan exportálhat Excel-fájlokat PowerPoint bemutatóvá C#-ban az Aspose.Cells segítségével, lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -62,6 +62,8 @@ Aspose.Cells for .NET का उपयोग करके JSON डेटा स�
 C# में Aspose.Cells का उपयोग करके फ्लैट OPC फ़ाइल बनाने की पूरी प्रक्रिया सीखें। चरण-दर-चरण मार्गदर्शिका।
 ### [वर्कबुक को XLSX के रूप में सहेजें – डेटा के साथ Excel उत्पन्न करने के लिए पूर्ण गाइड](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
 डेटा के साथ Excel फ़ाइल बनाने के लिए वर्कबुक को XLSX फ़ॉर्मेट में सहेजने की पूरी प्रक्रिया सीखें।
+### [C# में वर्कबुक को सहेजने का तरीका – पूर्ण प्रोग्रामिंग गाइड](./how-to-save-workbook-in-c-complete-programming-guide/)
+Aspose.Cells for .NET के साथ C# में वर्कबुक को सहेजने की पूरी प्रक्रिया इस गाइड में विस्तृत रूप से समझी गई है।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

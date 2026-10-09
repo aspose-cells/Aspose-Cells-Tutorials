@@ -63,6 +63,8 @@ Naučte se, jak pomocí Aspose.Words převést Word dokumenty do PDF v C# s podr
 Naučte se, jak během konverze Excelu do PDF vložit písma, aby PDF vypadalo stejně jako originál.
 ### [Vložení fontů do PDF – Kompletní průvodce C# pro export Excelu do PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
 Naučte se, jak vložit písma do PDF při exportu Excelu pomocí Aspose.Cells v C#. Kompletní krok za krokem návod.
+### [Jak exportovat PDF z Excelu – Kompletní průvodce uložením sešitu jako PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
+Naučte se, jak snadno exportovat Excel do PDF a uložit celý sešit pomocí Aspose.Cells pro .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

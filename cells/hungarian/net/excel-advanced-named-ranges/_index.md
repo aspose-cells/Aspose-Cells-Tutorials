@@ -38,6 +38,8 @@ Könnyedén azonosíthatod a cellákat egy elnevezett tartományban az Excelben 
 Tanuld meg, hogyan egyesíthetsz cellákat egy elnevezett tartományban az Aspose.Cells for .NET használatával ebben a lépésenkénti oktatóanyagban. Ismerd meg, hogyan formázhatod, stílusozhatod és automatizálhatod az Excel-jelentéseket.
 ### [Excel munkafüzet létrehozása – Lépésről‑lépésre útmutató táblák hozzáadásához és elnevezési szabályokhoz](./create-excel-workbook-step-by-step-guide-to-adding-tables-an/)
 Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet, adj hozzá táblákat és állíts be elnevezési szabályokat lépésről‑lépésre.
+### [Excel munkafüzet mentése és elnevezett tartomány hozzáadása – Teljes C# útmutató](./save-excel-workbook-and-add-named-range-full-c-guide/)
+Tanulja meg, hogyan menthet Excel munkafüzetet és adhat hozzá elnevezett tartományt C#-ban az Aspose.Cells for .NET segítségével, lépésről lépésre.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

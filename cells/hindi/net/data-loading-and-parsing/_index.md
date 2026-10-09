@@ -79,6 +79,8 @@ Aspose.Cells का उपयोग करके मार्कडाउन फ
 .NET के लिए Aspose.Cells का उपयोग करके JSON डेटा से Excel फ़ाइल बनाना सीखें। पूर्ण चरण‑दर‑चरण मार्गदर्शिका।
 ### [Excel वर्कबुक बनाना C# – सेल्स से तिथियों को पढ़ने के लिए पूर्ण गाइड](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
 .NET के लिए Aspose.Cells का उपयोग करके C# में Excel वर्कबुक बनाएं और सेल्स से तिथियों को पढ़ें।
+### [C# में जापानी युग तिथि को पार्स करना – पूर्ण गाइड](./parse-japanese-era-date-in-c-complete-guide/)
+C# में Aspose.Cells का उपयोग करके जापानी युग तिथि को कैसे पार्स करें, इस पूर्ण गाइड में चरण-दर-चरण सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

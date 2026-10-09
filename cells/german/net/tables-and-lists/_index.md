@@ -69,6 +69,8 @@ Erfahren Sie, wie Sie mit Aspose.Words für .NET Zeilen aus einer Word‑Tabelle
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET den Tabellenkopf entfernen und Ihre Excel-Dateien optimal anpassen – Schritt für Schritt.
 ### [Tabelle in Excel mit C# umbenennen – Schritt‑für‑Schritt-Anleitung](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Tabelle in Excel per C# umbenennen – einfach und Schritt für Schritt.
+### [Mehrere Zeilen in Word löschen – Komplettanleitung zum Entfernen von Tabellenzeilen](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
+Erfahren Sie, wie Sie mit Aspose.Words für .NET mehrere Zeilen aus einer Tabelle entfernen – Schritt für Schritt erklärt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

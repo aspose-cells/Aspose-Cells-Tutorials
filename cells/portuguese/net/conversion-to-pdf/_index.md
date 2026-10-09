@@ -65,6 +65,8 @@ Aprenda a inserir caracteres Unicode em planilhas Excel e exportá‑las como PD
 Aprenda a incorporar fontes ao converter arquivos Excel em PDF usando Aspose.Cells, garantindo que o texto seja exibido corretamente em todos os dispositivos.
 ### [Incorporar fontes em PDF – Guia completo em C# para exportar Excel para PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
 Aprenda a incorporar fontes ao gerar PDFs a partir de arquivos Excel usando C# e Aspose.Cells, garantindo que o texto seja exibido corretamente.
+### [Como Exportar PDF do Excel – Guia Completo para Salvar a Pasta de Trabalho como PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
+Aprenda a exportar planilhas do Excel como PDF usando Aspose.Cells, passo a passo, para salvar sua pasta de trabalho como PDF.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

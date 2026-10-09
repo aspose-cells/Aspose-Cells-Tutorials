@@ -44,6 +44,8 @@ Ismerd meg, hogyan hozhatsz létre Unicode karaktereket tartalmazó Excel munkaf
 Ismerd meg, hogyan ágyazhatod be a betűtípusokat XPS dokumentumokba C#-ban az Aspose.Cells segítségével, részletes példákkal.
 ### [Betűtípusok beágyazása PDF-be az Aspose.Cells – Teljes C# útmutató](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
 Ismerd meg, hogyan ágyazhatod be a betűtípusokat PDF-fájlokba C#-ban az Aspose.Cells segítségével, lépésről lépésre példákkal.
+### [Munkafüzet mentése XPS formátumba C#‑ban – Lépésről‑lépésre útmutató](./save-workbook-as-xps-in-c-step-by-step-guide/)
+Tanuld meg, hogyan mentheted el az Excel munkafüzetet XPS formátumba C#‑ban részletes példákkal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

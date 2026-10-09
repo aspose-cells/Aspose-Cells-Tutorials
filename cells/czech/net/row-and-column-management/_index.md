@@ -98,6 +98,8 @@ Naučte se, jak pomocí metody WRAPCOLS vytvořit dvousloupcové rozvržení v E
 Podrobný návod, jak pomocí Aspose.Cells pro .NET s C# smazat řádky v tabulce Excel.
 ### [Jak vložit řádky v GridJs – rychlé přidání více řádků](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Naučte se rychle přidávat více řádků v GridJs pomocí jednoduchých kroků a ukázek kódu.
+### [Jak používat WrapCols v C# – Kompletní průvodce s Excel WrapRows a přepočítáním vzorců](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Objevte podrobný návod, jak použít WrapCols a WrapRows v Excelu pomocí Aspose.Cells pro .NET a přepočítat vzorce.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

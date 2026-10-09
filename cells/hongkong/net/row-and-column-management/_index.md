@@ -98,6 +98,8 @@
 了解如何在 C# 中使用 Aspose.Cells 的 WRAPCOLS 功能，快速建立雙欄佈局的步驟說明。
 ### [如何在 GridJs 中插入行 – 快速新增多行](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 了解如何使用 GridJs 快速插入多行，提升表格資料處理效率。
+### [在 C# 中使用 wrapcols – 完整指南，涵蓋 Excel WRAPROWS 與重新計算公式](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+了解如何在 C# 中使用 wrapcols、wraprows 以及重新計算公式，以有效管理 Excel 工作表。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

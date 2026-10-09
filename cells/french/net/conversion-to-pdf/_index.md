@@ -63,6 +63,8 @@ Apprenez à enregistrer un document Word au format PDF avec Aspose.Words en C# g
 Apprenez à incorporer les polices dans vos PDF lors de la conversion d'Excel avec Aspose.Cells, étape par étape.
 ### [Intégrer les polices dans le PDF – Guide complet C# pour exporter Excel en PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
 Apprenez à intégrer les polices dans les PDF générés à partir d'Excel avec Aspose.Cells en C#, garantissant une apparence cohérente sur tous les appareils.
+### [Comment exporter un PDF depuis Excel – Guide complet pour enregistrer le classeur au format PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
+Apprenez à enregistrer votre classeur Excel en PDF avec Aspose.Cells, étape par étape, pour une conversion fiable et de haute qualité.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

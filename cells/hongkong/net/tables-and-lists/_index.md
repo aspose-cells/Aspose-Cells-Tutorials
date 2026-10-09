@@ -69,6 +69,8 @@ Aspose.Cells for .NET 最強大的功能之一是它能夠輕鬆讀取和寫入�
 完整指南教您如何在 Aspose.Cells 中移除表格標題列，簡化資料處理。
 ### [使用 Aspose.Cells 在 Excel 中重新命名表格 – 步驟指南](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
 本分步指南說明如何使用 Aspose.Cells for .NET 及 C# 在 Excel 中快速重新命名表格。
+### [在 Word 中刪除多列 – 完整的表格列移除指南](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
+本指南說明如何使用 Aspose.Words for .NET 在 Word 文件中一次刪除多個表格列，步驟簡明易懂。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

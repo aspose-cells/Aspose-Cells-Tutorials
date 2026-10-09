@@ -58,6 +58,8 @@ Aprenda a guardar libros de Excel programáticamente en C# con una guía paso a 
 Aprenda a crear y guardar libros de Excel a partir de datos JSON usando Aspose.Cells para .NET con C#.
 ### [Crear archivo OPC plano con C# – Guía completa](./create-flat-opc-file-with-c-complete-guide/)
 ### [Guardar libro de trabajo como XLSX – Guía completa para generar Excel con datos](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+### [Cómo guardar un libro de trabajo en C# – Guía completa de programación](./how-to-save-workbook-in-c-complete-programming-guide/)
+Aprenda paso a paso a guardar un libro de Excel en C# usando Aspose.Cells, con ejemplos completos y mejores prácticas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

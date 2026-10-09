@@ -61,6 +61,8 @@ Pelajari cara membuat file Excel secara programatis, menambahkan komentar, dan m
 Pelajari cara menambahkan komentar ke sel Excel menggunakan Aspose.Cells Smart Marker untuk otomatisasi dan peningkatan produktivitas.
 ### [Menambahkan komentar ke sel di C# – Membuat Excel dari data](./add-comment-to-cell-in-c-generate-excel-from-data/)
 Pelajari cara menambahkan komentar ke sel menggunakan C# dan Aspose.Cells untuk .NET, menghasilkan file Excel dari data secara otomatis.
+### [Masukkan Komentar Excel dengan C# – Panduan SmartMarker Lengkap](./insert-excel-comment-with-c-complete-smartmarker-guide/)
+Pelajari cara menambahkan komentar ke Excel menggunakan C# dengan panduan lengkap SmartMarker.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

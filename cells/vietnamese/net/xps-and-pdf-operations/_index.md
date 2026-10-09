@@ -44,6 +44,8 @@ Hướng dẫn tạo workbook Excel mới với hỗ trợ Unicode và xuất sa
 Hướng dẫn chi tiết cách nhúng phông chữ vào tài liệu XPS bằng C# với Aspose.Cells, kèm ví dụ mã thực tế.
 ### [Nhúng phông chữ PDF với Aspose.Cells – Hướng dẫn C# đầy đủ](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
 Hướng dẫn chi tiết cách nhúng phông chữ vào PDF khi chuyển đổi Excel bằng Aspose.Cells trong C#.
+### [Lưu Workbook dưới dạng XPS trong C# – Hướng dẫn từng bước](./save-workbook-as-xps-in-c-step-by-step-guide/)
+Tìm hiểu cách lưu workbook dưới dạng XPS trong C# bằng Aspose.Cells, kèm ví dụ mã thực tế và hướng dẫn chi tiết.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

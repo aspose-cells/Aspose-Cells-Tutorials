@@ -62,6 +62,8 @@ Aspose.Cells for .NET kullanarak JSON verilerinden Excel çalışma kitabı olu�
 Aspose.Cells for .NET ile C# kullanarak düz OPC dosyası oluşturmayı adım adım öğrenin.
 ### [Çalışma Kitabını XLSX Olarak Kaydet – Veri ile Excel Oluşturma Tam Kılavuzu](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
 Aspose.Cells for .NET kullanarak çalışma kitabını XLSX olarak kaydetmeyi ve veri ile Excel oluşturmayı adım adım öğrenin.
+### [C# ile Çalışma Kitabını Kaydetme – Tam Programlama Kılavuzu](./how-to-save-workbook-in-c-complete-programming-guide/)
+Aspose.Cells for .NET kullanarak C# ile çalışma kitabını nasıl kaydedeceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

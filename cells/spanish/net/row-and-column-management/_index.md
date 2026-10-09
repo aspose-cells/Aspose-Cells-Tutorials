@@ -98,6 +98,8 @@ Aprenda a insertar filas en Excel usando C# con Aspose.Cells para .NET mediante 
 Aprenda a crear un diseño de dos columnas en Excel usando WRAPCOLS con Aspose.Cells para .NET.
 ### [Cómo insertar filas en GridJs – Añadir varias filas rápidamente](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Descubra una guía paso a paso para insertar varias filas en GridJs de forma rápida y sencilla.
+### [Cómo usar wrapcols en C# – Guía completa con Excel WRAPROWS y recalcular fórmulas](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Aprenda a aplicar wrapcols y wraprows en Excel con C#, y a recalcular fórmulas automáticamente paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

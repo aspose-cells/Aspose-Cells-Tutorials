@@ -99,6 +99,8 @@ Apprenez à utiliser la fonction WRAPCOLS pour générer automatiquement une dis
 
 ### [Comment insérer des lignes dans GridJs – Ajouter plusieurs lignes rapidement](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Apprenez à insérer rapidement plusieurs lignes dans GridJs avec ce guide étape par étape.
+### [Comment utiliser wrapcols en C# – Guide complet avec Excel WRAPROWS et recalcul des formules](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Découvrez comment appliquer wrapcols et wraprows dans Excel avec Aspose.Cells, et recalculer les formules efficacement.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

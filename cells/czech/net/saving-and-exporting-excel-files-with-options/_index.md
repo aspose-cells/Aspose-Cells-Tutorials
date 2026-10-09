@@ -62,6 +62,8 @@ Naučte se, jak pomocí Aspose.Cells pro .NET převést data JSON do sešitu Exc
 Kompletní návod, jak pomocí C# vytvořit plochý OPC soubor pro Excel, včetně kroků a ukázek kódu.
 ### [Uložení sešitu jako XLSX – Kompletní průvodce generováním Excelu s daty](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
 Kompletní návod, jak uložit sešit jako soubor XLSX a generovat Excel s daty pomocí Aspose.Cells pro .NET.
+### [Jak uložit sešit v C# – kompletní programovací průvodce](./how-to-save-workbook-in-c-complete-programming-guide/)
+Kompletní návod, jak v C# uložit sešit pomocí Aspose.Cells, včetně nastavení formátů, možností a příkladů kódu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

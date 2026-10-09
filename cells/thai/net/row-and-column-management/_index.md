@@ -98,6 +98,8 @@
 เรียนรู้วิธีใช้ WRAPCOLS เพื่อสร้างเค้าโครงสองคอลัมน์ใน C# ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด
 ### [วิธีแทรกแถวใน GridJs – เพิ่มหลายแถวอย่างรวดเร็ว](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 เรียนรู้วิธีเพิ่มหลายแถวใน GridJs อย่างรวดเร็วด้วยขั้นตอนง่าย ๆ สำหรับนักพัฒนา
+### [วิธีใช้ wrapcols ใน C# – คู่มือเต็มกับ Excel WRAPROWS & การคำนวณสูตรใหม่](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+เรียนรู้วิธีใช้ wrapcols ใน C# พร้อม WRAPROWS และการคำนวณสูตรใหม่ใน Excel อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

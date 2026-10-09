@@ -63,6 +63,8 @@ Dowiedz się, jak przy użyciu Aspose.Words i C# zapisać dokument Word w formac
 Dowiedz się, jak osadzić czcionki w plikach PDF generowanych z Excela, aby zachować ich wygląd na wszystkich urządzeniach.
 ### [Osadzanie czcionek w PDF – Kompletny przewodnik C# do eksportu Excela do PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
 Dowiedz się, jak osadzić czcionki w plikach PDF przy eksporcie z Excela w C#, aby zachować wygląd dokumentu.
+### [Jak wyeksportować PDF z Excela – Kompletny przewodnik zapisu skoroszytu jako PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
+Dowiedz się, jak zapisać skoroszyt Excela jako plik PDF przy użyciu Aspose.Cells w kilku prostych krokach.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -61,6 +61,8 @@
 Узнайте, как использовать Smart Marker для добавления комментариев к ячейкам в Excel с Aspose.Cells.
 ### [Добавить комментарий к ячейке в C# – Генерация Excel из данных](./add-comment-to-cell-in-c-generate-excel-from-data/)
 Узнайте, как добавить комментарий к ячейке в C# и создать файл Excel из данных с помощью Aspose.Cells.
+### [Вставка комментария в Excel с C# – Полное руководство по SmartMarker](./insert-excel-comment-with-c-complete-smartmarker-guide/)
+Узнайте, как с помощью SmartMarker вставлять комментарии в Excel с C# в Aspose.Cells для .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

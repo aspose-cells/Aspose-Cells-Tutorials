@@ -100,6 +100,8 @@ Pelajari cara menggunakan metode WRAPCOLS untuk membuat tata letak dua kolom dal
 
 ### [Cara Menyisipkan Baris di GridJs – Tambahkan Beberapa Baris dengan Cepat](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Pelajari cara menambahkan beberapa baris sekaligus di GridJs dengan cepat melalui contoh kode praktis.
+### [Cara Menggunakan wrapcols di C# – Panduan Lengkap dengan Excel WRAPROWS & Menghitung Ulang Rumus](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Pelajari cara menggunakan wrapcols di C#, menggabungkan Excel WRAPROWS, dan menghitung ulang rumus secara otomatis dalam panduan lengkap ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

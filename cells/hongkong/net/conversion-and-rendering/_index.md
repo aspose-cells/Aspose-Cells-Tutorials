@@ -74,6 +74,10 @@
 學習使用 Aspose.Cells for .NET 將 XLSX 檔案轉換為 PNG 圖像，提供完整的 C# 操作步驟。
 ### [如何在 Excel 中插入特殊字元 – 步驟說明指南](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
 學習使用 Aspose.Cells for .NET 在 Excel 中插入特殊字元的完整步驟，提升資料呈現與輸入效率。
+### [在 C# 中從 Excel 樞紐分析表儲存 PNG 圖像 – 完整指南](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+學習如何使用 Aspose.Cells for .NET 從 Excel 樞紐分析表導出 PNG 圖像，完整步驟指導。
+### [在 HTML 中嵌入字型 – 完整指南：將 DOCX 轉換為 HTML 並完整支援字型](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+學習使用 Aspose.Words for .NET 將 DOCX 轉換為 HTML，並嵌入所有字型以保持文件外觀一致。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

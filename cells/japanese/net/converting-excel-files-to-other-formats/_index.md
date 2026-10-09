@@ -64,6 +64,8 @@ Excel の印刷範囲を設定し、PowerPoint スライドへエクスポート
 Aspose.Cells for .NET を使用して、Excel データから PowerPoint プレゼンテーションを C# で自動生成する手順を解説します。
 ### [.NET でプログラム的に Excel ファイルを PowerPoint に変換する](./convert-excel-to-powerpoint-with-c-complete-guide/)
 Aspose.Cells for .NET を使用して、C# で Excel ファイルを PowerPoint プレゼンテーションに変換する方法をステップバイステップで解説します。
+### [C# 完全ガイド – Excel を PowerPoint にエクスポートする](./how-to-export-excel-to-powerpoint-complete-c-guide/)
+Aspose.Cells for .NET を使用して、C# で Excel を PowerPoint スライドに変換する手順を学びます。
 ### [.NET でプログラム的に出力 HTML に HTML CrossType を指定する](./specifying-html-crosstype-in-output-html/)
 Aspose.Cells for .NETでHTML CrossTypeを指定する方法を学びましょう。ステップバイステップのチュートリアルに従って、ExcelファイルをHTMLに正確に変換しましょう。
 ### [.NET でプログラム的に数値スプレッドシートを読み取る](./reading-numbers-spreadsheet/)

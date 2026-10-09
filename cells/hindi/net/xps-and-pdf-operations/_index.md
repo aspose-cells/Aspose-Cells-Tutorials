@@ -44,6 +44,8 @@ Aspose.Cells का उपयोग करके Unicode समर्थन क�
 Aspose.Cells के साथ C# में XPS फ़ाइलों में फ़ॉन्ट एम्बेड करने की पूरी प्रक्रिया सीखें।
 ### [Aspose.Cells के साथ PDF में फ़ॉन्ट एम्बेड करना – पूर्ण C# गाइड](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
 Aspose.Cells का उपयोग करके PDF में फ़ॉन्ट एम्बेड करने की पूरी प्रक्रिया सीखें, C# कोड उदाहरणों के साथ।
+### [C# में वर्कबुक को XPS के रूप में सहेजें – चरण‑बाय‑स्टेप गाइड](./save-workbook-as-xps-in-c-step-by-step-guide/)
+Aspose.Cells का उपयोग करके C# में Excel वर्कबुक को XPS फ़ॉर्मेट में सहेजने की प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -54,6 +54,8 @@ Apprenez à supprimer le filtre automatique d'un classeur Excel en C# avec Aspos
 Apprenez à supprimer le bouton AutoFilter et à nettoyer l'interface de filtre dans Excel en utilisant Aspose.Cells pour .NET avec C#.
 ### [Masquer les flèches de filtre Excel avec C# – Guide complet](./hide-filter-arrows-excel-with-c-complete-guide/)
 Apprenez à masquer les flèches de filtre dans Excel en utilisant C# avec Aspose.Cells, grâce à ce guide complet et facile à suivre.
+### [Ajouter un tableau à Excel avec C# – Effacer le filtre automatique et enregistrer le fichier](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
+Apprenez à ajouter un tableau, désactiver le filtre automatique et enregistrer le classeur Excel avec Aspose.Cells en C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

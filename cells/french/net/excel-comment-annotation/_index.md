@@ -61,6 +61,8 @@ Apprenez à créer un classeur Excel, ajouter des commentaires et le sauvegarder
 Apprenez à insérer des commentaires de cellule dans Excel en utilisant les Smart Markers d'Aspose.Cells pour .NET.
 ### [Ajouter un commentaire à une cellule en C# – Générer Excel à partir de données](./add-comment-to-cell-in-c-generate-excel-from-data/)
 Apprenez à générer un fichier Excel à partir de données et à ajouter un commentaire à une cellule en C# avec Aspose.Cells pour .NET.
+### [Insérer un commentaire Excel avec C# – Guide complet SmartMarker](./insert-excel-comment-with-c-complete-smartmarker-guide/)
+Apprenez à insérer un commentaire Excel en C# en utilisant SmartMarker avec Aspose.Cells pour .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -98,6 +98,8 @@ Lär dig hur du infogar rader i Excel med C# med vår detaljerade steg‑för‑
 Lär dig hur du använder WRAPCOLS för att skapa en tvåkolumnslayout i Excel med C# i en steg‑för‑steg‑guide.
 ### [Hur man infogar rader i GridJs – Lägg till flera rader snabbt](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Lär dig hur du snabbt lägger till flera rader i GridJs med enkla kodexempel.
+### [Hur man använder wrapcols i C# – Fullständig guide med Excel WRAPROWS & omberäkna formler](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Lär dig hur du använder wrapcols i C# tillsammans med Excel WRAPROWS och omberäknar formler i en komplett guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

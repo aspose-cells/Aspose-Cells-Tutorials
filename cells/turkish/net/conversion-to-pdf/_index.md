@@ -64,6 +64,8 @@ Excel dosyalarındaki sayıları PDF'ye dönüştürürken C# ile nasıl yuvarla
 Word belgelerinizi Aspose.Words for .NET ile kolayca PDF'ye dönüştürün! Adım adım rehberimizle eksiksiz bir deneyim yaşayın.
 ### [PDF'ye Yazı Tipi Gömme – Excel'i PDF'ye Dışa Aktarmak için Tam C# Rehberi](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
 Aspose.Cells ile Excel dosyalarınızı PDF'ye dönüştürürken yazı tiplerini gömerek doğru görüntüleme sağlayın. Adım adım C# rehberi.
+### [Excel'den PDF'ye Dışa Aktarma – Çalışma Kitabını PDF Olarak Kaydetme Tam Kılavuzu](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
+Excel çalışma kitabınızı PDF olarak kaydetmek için adım adım rehber. Aspose.Cells ile sorunsuz ve yüksek kalite sonuçlar elde edin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

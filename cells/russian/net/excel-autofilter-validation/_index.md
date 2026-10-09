@@ -54,6 +54,8 @@
 Узнайте, как убрать кнопку автофильтра в Excel с помощью Aspose.Cells для .NET и C#.
 ### [Скрытие стрелок фильтра в Excel с C# – Полное руководство](./hide-filter-arrows-excel-with-c-complete-guide/)
 Узнайте, как полностью скрыть стрелки автофильтра в Excel с помощью Aspose.Cells для .NET и C#.
+### [Добавление таблицы в Excel с C# – очистка автофильтра и сохранение файла](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
+Узнайте, как добавить таблицу в Excel с помощью C#, очистить автофильтр и сохранить файл, используя Aspose.Cells для .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

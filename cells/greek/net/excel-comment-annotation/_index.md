@@ -62,6 +62,8 @@
 Μάθετε πώς να προσθέτετε σχόλια σε κελιά του Excel με τη λειτουργία Smart Marker του Aspose.Cells.
 ### [Προσθήκη σχολίου σε κελί σε C# – Δημιουργία Excel από δεδομένα](./add-comment-to-cell-in-c-generate-excel-from-data/)
 Μάθετε πώς να προσθέτετε σχόλιο σε κελί με C# και Aspose.Cells για .NET, δημιουργώντας Excel από δεδομένα.
+### [Εισαγωγή σχολίου Excel με C# – Πλήρης οδηγός SmartMarker](./insert-excel-comment-with-c-complete-smartmarker-guide/)
+Μάθετε πώς να εισάγετε σχόλια στο Excel χρησιμοποιώντας C# και SmartMarker με το Aspose.Cells για .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

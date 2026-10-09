@@ -73,6 +73,8 @@ Aprenda a importar archivos Markdown a Excel usando Aspose.Cells para .NET con e
 Aprenda a crear archivos Excel desde datos JSON usando C# y Aspose.Cells con esta guía paso a paso.
 ### [Crear libro de Excel C# – Guía completa para leer fechas de celdas](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
 Aprenda a crear un libro de Excel en C# y leer fechas de celdas con Aspose.Cells, paso a paso.
+### [Analizar fecha de era japonesa en C# – Guía completa](./parse-japanese-era-date-in-c-complete-guide/)
+Aprenda a analizar fechas de era japonesa en C# con Aspose.Cells, paso a paso y con ejemplos de código.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

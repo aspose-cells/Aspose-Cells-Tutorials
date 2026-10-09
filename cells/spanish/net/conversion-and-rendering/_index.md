@@ -19,7 +19,7 @@ Al trabajar con archivos de Excel en .NET, saber cómo convertirlos a otros form
 
 ## Conversión avanzada a PDF en .NET
 
-Una de las funciones destacadas que encontrarás es el tutorial de Conversión Avanzada a PDF en .NET. ¿Para qué perder horas formateando tus datos de Excel cuando puedes obtener PDF de calidad profesional con solo unos clics? Esta guía paso a paso te guía por todo el proceso. No solo te explica cómo hacerlo, sino que también te asegura que comprendas los matices. Piensa en ello como si tuvieras un tutor personal que te guiara en el mundo de las conversiones de archivos. ¿La libertad de compartir tus datos manteniendo su integridad intacta? De eso se trata. ¿Quieres profundizar en esto? Consulta nuestra [Conversión avanzada a PDF en .NET](./advanced-conversion-to-pdf/) tutorial.
+Una de las funciones destacadas que encontrarás es el tutorial de Conversión Avanzada a PDF en .NET. ¿Para qué perder horas formateando tus datos de Excel cuando puedes obtener PDF de calidad profesional con solo unos clics? Esta guía paso a paso te guía por todo el proceso. No solo te explica cómo hacerlo, sino que también te asegura que comprendas los matices. Piensa en ello como si tuvieras un tutor personal que te guiara en el mundo de las conversiones de archivos. ¿La libertad de compartir tus datos manteniendo su integridad intacta? De eso se trata. ¿Quieres profundizar en esto? Consulte nuestra [Conversión avanzada a PDF en .NET](./advanced-conversion-to-pdf/) tutorial.
 
 ## Convertir una hoja de cálculo a SVG en .NET
 
@@ -75,6 +75,10 @@ Aprenda a exportar hojas de cálculo de Excel a imágenes PNG con Aspose.Cells e
 Aprenda a convertir archivos XLSX a imágenes PNG usando Aspose.Cells en C#, paso a paso y con ejemplos claros.
 ### [Cómo insertar caracteres especiales en Excel – Guía paso a paso](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
 Aprenda a insertar caracteres especiales en Excel con Aspose.Cells paso a paso, mejorando la presentación de sus datos.
+### [Guardar imagen PNG desde tabla dinámica de Excel en C# – Guía completa](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Aprenda a guardar imágenes PNG de tablas dinámicas de Excel usando C# con Aspose.Cells, siguiendo esta guía paso a paso.
+### [Incrustar fuentes en HTML – Guía completa para convertir DOCX a HTML con soporte total de fuentes](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Aprenda a convertir documentos DOCX a HTML manteniendo todas las fuentes incrustadas, garantizando una visualización fiel en cualquier navegador.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

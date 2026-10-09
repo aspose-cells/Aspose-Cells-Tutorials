@@ -44,6 +44,8 @@ Lär dig hur du skapar en ny Excel-arbetsbok med Unicode-stöd och exporterar de
 Lär dig hur du bäddar in teckensnitt i XPS-filer med C# och Aspose.Cells för .NET i en komplett steg-för-steg-guide.
 ### [Bädda in teckensnitt i PDF med Aspose.Cells – Komplett C#-guide](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
 Lär dig hur du bäddar in teckensnitt i PDF-filer med Aspose.Cells i C#, steg för steg med kodexempel.
+### [Spara arbetsbok som XPS i C# – Steg‑för‑steg‑guide](./save-workbook-as-xps-in-c-step-by-step-guide/)
+Lär dig hur du sparar en arbetsbok som XPS i C# med Aspose.Cells. Följ vår steg‑för‑steg‑guide med kodexempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

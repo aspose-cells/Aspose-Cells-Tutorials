@@ -44,6 +44,8 @@
 Узнайте, как встраивать шрифты в XPS‑документы с помощью C# и Aspose.Cells, следуя подробному пошаговому руководству.
 ### [Встраивание шрифтов в PDF с Aspose.Cells – Полное руководство C#](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
 Узнайте, как встраивать шрифты в PDF при помощи Aspose.Cells на C#, чтобы обеспечить корректное отображение текста в любых устройствах.
+### [Сохранение книги в XPS на C# – пошаговое руководство](./save-workbook-as-xps-in-c-step-by-step-guide/)
+Узнайте, как сохранить рабочую книгу Excel в формат XPS с помощью Aspose.Cells для .NET, следуя подробным шагам и примерам кода.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

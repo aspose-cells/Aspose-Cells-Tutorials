@@ -100,6 +100,8 @@ Scopri come eliminare righe da una tabella Excel con C# usando Aspose.Cells, gui
 Scopri come utilizzare WRAPCOLS per creare un layout a due colonne in C# con Aspose.Cells. Guida passo passo e chiara.
 ### [Come inserire righe in GridJs – Aggiungi più righe rapidamente](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Scopri come inserire rapidamente più righe in una tabella GridJs con pochi passaggi di codice.
+### [Come utilizzare wrapcols in C# – Guida completa con Excel WRAPROWS e ricalcolo delle formule](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Scopri come usare wrapcols in C# con Excel WRAPROWS e ricalcolare le formule in modo semplice e dettagliato.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

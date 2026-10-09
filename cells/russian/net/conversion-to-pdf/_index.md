@@ -63,6 +63,8 @@ Aspose.Cells для .NET — это жемчужина, если вы работ
 Узнайте, как встроить шрифты в PDF при конвертации Excel, чтобы сохранить точное отображение текста.
 ### [Встраивание шрифтов в PDF – Полное руководство C# по экспорту Excel в PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
 Узнайте, как встраивать шрифты в PDF при экспорте Excel с помощью Aspose.Cells и C# для сохранения точного отображения текста.
+### [Как экспортировать PDF из Excel – Полное руководство по сохранению рабочей книги в PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
+Узнайте, как сохранить рабочую книгу Excel в PDF с помощью Aspose.Cells в полном пошаговом руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

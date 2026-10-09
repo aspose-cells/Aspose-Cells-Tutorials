@@ -54,6 +54,8 @@
 اكتشف كيفية إزالة زر التصفية التلقائية من واجهة Excel باستخدام Aspose.Cells و C# لتحسين تجربة المستخدم.
 ### [إخفاء أسهم الفلتر في Excel باستخدام C# – دليل كامل](./hide-filter-arrows-excel-with-c-complete-guide/)
 تعلم كيفية إخفاء أسهم الفلتر في Excel باستخدام C# عبر دليل شامل خطوة بخطوة.
+### [إضافة جدول إلى Excel باستخدام C# – مسح الفلتر التلقائي وحفظ الملف](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
+تعلم إضافة جدول إلى ملف Excel باستخدام C#، مسح الفلتر التلقائي، وحفظ الملف بنجاح.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

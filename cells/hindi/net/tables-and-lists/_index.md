@@ -77,6 +77,8 @@ C# में Word तालिका से पंक्तियों को �
 Aspose.Cells का उपयोग करके Excel तालिका के हेडर को हटाने की पूरी प्रक्रिया सीखें। सरल चरणों में डेटा को साफ़ करें।
 ### [C# के साथ Excel में तालिका का नाम बदलें – चरण‑दर‑चरण गाइड](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
 C# कोड का उपयोग करके Excel तालिका का नाम बदलने की प्रक्रिया सीखें, सरल चरणों में पूरी गाइड।
+### [एकाधिक पंक्तियों को हटाएँ Word – तालिका पंक्तियों को हटाने की पूर्ण गाइड](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
+इस विस्तृत गाइड में .NET के लिए Aspose.Words का उपयोग करके Word तालिका से कई पंक्तियों को हटाने की प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

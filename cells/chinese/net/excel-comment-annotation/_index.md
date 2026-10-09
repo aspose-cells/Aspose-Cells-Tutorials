@@ -61,6 +61,8 @@
 了解如何使用 Aspose.Cells 智能标记在 Excel 中添加注释单元格，以实现自动化和批量处理。
 ### [在 C# 中向单元格添加注释 – 从数据生成 Excel](./add-comment-to-cell-in-c-generate-excel-from-data/)
 了解如何使用 Aspose.Cells for .NET 在 C# 中从数据生成 Excel 并向单元格添加注释。
+### [使用 C# 在 Excel 中插入注释 – 完整 SmartMarker 指南](./insert-excel-comment-with-c-complete-smartmarker-guide/)
+了解如何使用 Aspose.Cells for .NET 通过 SmartMarker 在 Excel 中插入注释，提升工作表交互性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

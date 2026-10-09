@@ -62,6 +62,8 @@ Aspose.Cells for .NET 為開發人員提供了強大的工具來管理 .NET 應�
 本完整指南說明如何使用 C# 產生平面 OPC 檔案，涵蓋步驟與範例，協助您快速上手。
 ### [將工作簿儲存為 XLSX – 生成含資料的 Excel 完整指南](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
 本指南說明如何使用 Aspose.Cells for .NET 將工作簿儲存為 XLSX，並生成包含資料的 Excel 檔案。
+### [如何在 C# 中儲存工作簿 – 完整程式設計指南](./how-to-save-workbook-in-c-complete-programming-guide/)
+本完整指南說明如何使用 Aspose.Cells for .NET 在 C# 中儲存工作簿，涵蓋所有關鍵步驟與選項設定。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

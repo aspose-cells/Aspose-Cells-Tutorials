@@ -62,6 +62,8 @@ Learn how to generate an Excel workbook from JSON data using C# and Aspose.Cells
 Learn how to generate a flat OPC file using C# with Aspose.Cells for .NET in this comprehensive step-by-step guide.
 ### [Save Workbook as XLSX – Complete Guide to Generate Excel with Data](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
 Learn how to generate an XLSX workbook with data using Aspose.Cells for .NET in this complete step-by-step guide.
+### [How to Save Workbook in C# – Complete Programming Guide](./how-to-save-workbook-in-c-complete-programming-guide/)
+Learn how to save a workbook using C# with Aspose.Cells for .NET in this complete programming guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

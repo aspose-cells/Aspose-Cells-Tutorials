@@ -44,6 +44,8 @@
 学习如何使用 Aspose.Cells for .NET 在 C# 中将字体嵌入 XPS 文档，确保文档在任何设备上保持一致的显示效果。
 ### [在 .NET 中嵌入字体到 PDF – 完整 C# 指南](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
 学习如何使用 Aspose.Cells 在 .NET 中嵌入字体到 PDF，并提供完整的 C# 示例代码。
+### [在 C# 中将工作簿保存为 XPS – 步骤指南](./save-workbook-as-xps-in-c-step-by-step-guide/)
+学习如何使用 Aspose.Cells for .NET 在 C# 中将 Excel 工作簿保存为 XPS 文件，提供完整代码示例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -60,6 +60,8 @@
 Μάθετε πώς να μετατρέψετε ένα αρχείο Excel σε παρουσίαση PowerPoint χρησιμοποιώντας C# και Aspose.Cells, βήμα προς βήμα.
 ### [Μετατροπή Excel σε PowerPoint με C# – Πλήρης Οδηγός](./convert-excel-to-powerpoint-with-c-complete-guide/)
 Μάθετε πώς να μετατρέψετε αρχεία Excel σε παρουσιάσεις PowerPoint (PPTX) με C# και Aspose.Cells σε έναν πλήρη οδηγό βήμα προς βήμα.
+### [Πώς να Εξάγετε το Excel σε PowerPoint – Πλήρης Οδηγός C#](./how-to-export-excel-to-powerpoint-complete-c-guide/)
+Μάθετε πώς να μετατρέψετε ένα φύλλο Excel σε παρουσίαση PowerPoint χρησιμοποιώντας C# και Aspose.Cells σε βήμα-βήμα οδηγό.
 ### [Καθορισμός HTML CrossType σε HTML εξόδου μέσω προγραμματισμού στο .NET](./specifying-html-crosstype-in-output-html/)
 Μάθετε πώς να καθορίζετε HTML CrossType στο Aspose.Cells για .NET. Ακολουθήστε τον αναλυτικό οδηγό μας για να μετατρέψετε αρχεία Excel σε HTML με ακρίβεια.
 ### [Ανάγνωση υπολογιστικού φύλλου αριθμών μέσω προγραμματισμού σε .NET](./reading-numbers-spreadsheet/)

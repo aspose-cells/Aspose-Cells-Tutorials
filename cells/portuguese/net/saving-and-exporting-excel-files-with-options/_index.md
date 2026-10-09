@@ -59,6 +59,8 @@ Aprenda a criar e salvar arquivos Excel a partir de dados JSON usando Aspose.Cel
 ### [Criar arquivo OPC plano com C# – Guia completo](./create-flat-opc-file-with-c-complete-guide/)
 Aprenda a gerar um arquivo OPC plano usando C# com o Aspose.Cells, passo a passo, para simplificar o armazenamento de planilhas.
 ### [Salvar pasta de trabalho como XLSX – Guia completo para gerar Excel com dados](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+### [Como salvar uma pasta de trabalho em C# – Guia de programação completo](./how-to-save-workbook-in-c-complete-programming-guide/)
+Aprenda a salvar uma pasta de trabalho usando C# com este guia completo passo a passo usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

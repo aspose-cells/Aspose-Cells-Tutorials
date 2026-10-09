@@ -73,6 +73,10 @@ Dowiedz się, jak wyeksportować arkusz Excela do obrazu PNG przy użyciu Aspose
 Dowiedz się, jak w prosty sposób konwertować pliki XLSX do PNG w C# przy użyciu Aspose.Cells, krok po kroku.
 ### [Jak wstawić znaki specjalne w Excelu – przewodnik krok po kroku](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
 Poznaj, jak wstawić różne znaki specjalne w Excelu przy użyciu Aspose.Cells w .NET, krok po kroku, aby wzbogacić swoje arkusze.
+### [Zapisz obraz PNG z tabeli przestawnej Excela w C# – Kompletny przewodnik](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Dowiedz się, jak wyeksportować obraz PNG z tabeli przestawnej Excel przy użyciu Aspose.Cells w C#.
+### [Osadzanie czcionek w HTML – Kompletny przewodnik konwersji DOCX do HTML z pełnym wsparciem czcionek](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Dowiedz się, jak osadzić czcionki przy konwersji dokumentów DOCX do HTML, aby uzyskać pełne wsparcie typograficzne.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

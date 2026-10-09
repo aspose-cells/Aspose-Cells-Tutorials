@@ -106,6 +106,8 @@
 Μάθετε πώς να εφαρμόσετε το WRAPCOLS για να δημιουργήσετε διάταξη δύο στηλών σε αρχεία Excel χρησιμοποιώντας C#.
 ### [Πώς να εισάγετε γραμμές στο GridJs – Προσθήκη πολλαπλών γραμμών γρήγορα](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Μάθετε πώς να προσθέσετε πολλές γραμμές στο GridJs γρήγορα με απλό κώδικα, βήμα προς βήμα οδηγίες.
+### [Πώς να χρησιμοποιήσετε το WrapCols σε C# – Πλήρης οδηγός με Excel WrapRows & Επανάληψη τύπων](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Μάθετε πώς να εφαρμόζετε τη μέθοδο WrapCols σε C#, να χρησιμοποιείτε WrapRows και να επαναϋπολογίζετε τύπους στο Excel με το Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

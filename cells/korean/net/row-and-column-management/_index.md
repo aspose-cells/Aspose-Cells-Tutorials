@@ -98,6 +98,8 @@ Aspose.Cells for .NET을 사용하여 C#로 Excel에 행을 삽입하는 방법�
 Aspose.Cells for .NET을 사용하여 C#에서 WRAPCOLS를 활용해 두 열 레이아웃을 만드는 단계별 가이드를 확인하세요.
 ### [GridJs에서 행 삽입 – 여러 행을 빠르게 추가하기](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 GridJs를 사용하여 그리드에 여러 행을 빠르게 삽입하는 단계별 가이드를 확인해 보세요.
+### [C#에서 wrapcols 사용 방법 – Excel WRAPROWS 및 수식 재계산 전체 가이드](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+C#에서 wrapcols와 wraprows를 활용하고 수식을 재계산하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

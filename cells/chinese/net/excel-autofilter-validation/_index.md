@@ -54,6 +54,8 @@
 本教程演示如何使用 C# 在 Excel 中隐藏 AutoFilter 按钮，实现更简洁的过滤界面。
 ### [使用 C# 隐藏 Excel 筛选箭头 – 完整指南](./hide-filter-arrows-excel-with-c-complete-guide/)
 本指南详细演示如何使用 Aspose.Cells for .NET 在 Excel 中隐藏筛选箭头，提升工作表外观。
+### [使用 C# 向 Excel 添加表格 – 清除自动筛选并保存文件](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
+本教程演示如何使用 Aspose.Cells for .NET 在 C# 中向 Excel 添加表格、清除自动筛选并保存文件，提升数据处理效率。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -38,6 +38,8 @@ Dễ dàng xác định các ô trong phạm vi được đặt tên trong Excel
 Tìm hiểu cách hợp nhất các ô trong một phạm vi được đặt tên bằng Aspose.Cells cho .NET trong hướng dẫn từng bước này. Khám phá cách định dạng, tạo kiểu và tự động hóa các báo cáo Excel.
 ### [Tạo Workbook Excel – Hướng Dẫn Từng Bước Thêm Bảng và Quy Tắc Đặt Tên](./create-excel-workbook-step-by-step-guide-to-adding-tables-an/)
 Hướng dẫn chi tiết cách tạo workbook Excel, thêm bảng và áp dụng quy tắc đặt tên bằng Aspose.Cells cho .NET.
+### [Lưu Workbook Excel và Thêm Phạm vi Được Đặt Tên – Hướng Dẫn C# Đầy Đủ](./save-excel-workbook-and-add-named-range-full-c-guide/)
+Hướng dẫn chi tiết cách lưu workbook Excel và thêm phạm vi được đặt tên bằng C# với Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
