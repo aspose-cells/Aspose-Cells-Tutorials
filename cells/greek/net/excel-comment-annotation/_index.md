@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Σχόλιο και σχολιασμός Excel
@@ -38,13 +36,38 @@
 Μάθετε πώς να προσθέτετε σχόλια σε κελιά στο Excel χρησιμοποιώντας το Aspose.Cells για .NET. Οδηγός βήμα προς βήμα για αρχάριους για τη βελτίωση της λειτουργικότητας του Excel.
 ### [Μορφοποίηση σχολίων - Γραμματοσειρά, Χρώμα, Στοίχιση](./format-comments-font-color-alignment/)
 Ανακαλύψτε πώς να μορφοποιείτε σχόλια στο Excel χωρίς κόπο χρησιμοποιώντας το Aspose.Cells για .NET. Προσαρμόστε τη γραμματοσειρά, το μέγεθος και τη στοίχιση για να βελτιώσετε τα υπολογιστικά σας φύλλα.
+### [Προσθήκη σχολίου σε κελί Excel χρησιμοποιώντας Aspose.Cells C#](./add-comment-to-excel-cell-using-aspose-cells-c/)
+Μάθετε πώς να προσθέτετε σχόλιο σε κελί Excel με το Aspose.Cells για C#.
+
+### [Δημιουργία βιβλίου εργασίας Excel C# – Προσθήκη και Συμπλήρωση σχολίων με Έξυπνα Σήματα](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel σε C# και να προσθέσετε ή να γεμίσετε σχόλια με έξυπνα σήματα.
+### [Προσθήκη σχολίου στο Excel με C# – Πλήρης Οδηγός Βήμα‑Βήμα](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
+Μάθετε πώς να προσθέτετε σχόλια στο Excel χρησιμοποιώντας C# και το Aspose.Cells για .NET. Οδηγός βήμα‑βήμα για πλήρη έλεγχο.
+
+
+
+
+
+
+
+
+### [Δημιουργία βιβλίου εργασίας Excel με C# – Προσθήκη σχολίου & αποθήκευση ως XLSX](./create-excel-workbook-c-add-comment-save-as-xlsx/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel σε C#, να προσθέσετε σχόλιο και να το αποθηκεύσετε ως αρχείο XLSX χρησιμοποιώντας το Aspose.Cells.
+
+### [Προσθήκη σχολίου Excel – Πώς να γεμίσετε ένα πρότυπο Excel με Smart Markers σε C#](./add-comment-excel-how-to-populate-an-excel-template-with-sma/)
+Μάθετε πώς να προσθέσετε σχόλιο σε πρότυπο Excel χρησιμοποιώντας Smart Markers με C# και Aspose.Cells για .NET.
+### [Δημιουργία αρχείου Excel προγραμματιστικά – Προσθήκη σχολίων & αποθήκευση ως XLSX](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
+Μάθετε πώς να δημιουργήσετε ένα αρχείο Excel μέσω κώδικα, να προσθέσετε σχόλια και να το αποθηκεύσετε σε μορφή XLSX χρησιμοποιώντας Aspose.Cells για .NET.
+### [Προσθήκη σχολίου σε κελί στο Excel με Aspose.Cells Smart Marker](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
+Μάθετε πώς να προσθέτετε σχόλια σε κελιά του Excel με τη λειτουργία Smart Marker του Aspose.Cells.
+### [Προσθήκη σχολίου σε κελί σε C# – Δημιουργία Excel από δεδομένα](./add-comment-to-cell-in-c-generate-excel-from-data/)
+Μάθετε πώς να προσθέτετε σχόλιο σε κελί με C# και Aspose.Cells για .NET, δημιουργώντας Excel από δεδομένα.
 ### [Εισαγωγή σχολίου Excel με C# – Πλήρης οδηγός SmartMarker](./insert-excel-comment-with-c-complete-smartmarker-guide/)
 Μάθετε πώς να εισάγετε σχόλια στο Excel χρησιμοποιώντας C# και SmartMarker με το Aspose.Cells για .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

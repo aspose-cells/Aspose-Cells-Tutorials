@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Guardar y exportar archivos de Excel con opciones
@@ -44,13 +42,28 @@ Aprenda a manejar advertencias al cargar archivos Excel en .NET usando Aspose.Ce
 Aprenda a especificar propiedades de documentos como versión, autor y título en un archivo Excel mediante programación utilizando Aspose.Cells para .NET con instrucciones paso a paso.
 ### [Recorte de filas y columnas en blanco iniciales al exportar](./trimming-leading-blank-rows-and-columns/)
 Optimice sus exportaciones CSV eliminando las filas y columnas vacías iniciales con Aspose.Cells para .NET. Limpiar sus datos está a solo unos pasos.
+### [Cómo guardar un libro de trabajo en C# – Guía completa de automatización de Excel](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
+Aprenda a guardar libros de Excel programáticamente en C# con una guía paso a paso para automatizar procesos completos.
+### [Cómo usar FlatOpcSaveOptions en C# – Guía completa](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+
+
+
+
+
+
+
+
+### [Cómo guardar un libro de trabajo en C# – Guía completa para borrar filtros y exportar Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+### [Guardar libro de Excel desde JSON – Guía completa en C#](./save-excel-workbook-from-json-complete-c-guide/)
+Aprenda a crear y guardar libros de Excel a partir de datos JSON usando Aspose.Cells para .NET con C#.
+### [Crear archivo OPC plano con C# – Guía completa](./create-flat-opc-file-with-c-complete-guide/)
+### [Guardar libro de trabajo como XLSX – Guía completa para generar Excel con datos](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
 ### [Cómo guardar un libro de trabajo en C# – Guía completa de programación](./how-to-save-workbook-in-c-complete-programming-guide/)
 Aprenda paso a paso a guardar un libro de Excel en C# usando Aspose.Cells, con ejemplos completos y mejores prácticas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

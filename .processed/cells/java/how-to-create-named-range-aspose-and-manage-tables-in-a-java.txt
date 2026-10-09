@@ -1,0 +1,7 @@
+Title: How to create named range aspose and manage tables in a Java workbook
+Slug: how-to-create-named-range-aspose-and-manage-tables-in-a-java
+Category: tables-structured-references
+ProcessedDate: 2026-08-21T03:00:07.398506
+SourceRepo: AI Search API
+Keywords: create named range aspose, save workbook xlsx, aspose workbook example, set table display name
+PRNumber: 147

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel-Kommentare und -Anmerkungen
@@ -38,13 +36,37 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Kommentare mit Bildern in Excel
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Kommentare zu Zellen in Excel hinzufügen. Schritt-für-Schritt-Anleitung für Anfänger zur Verbesserung der Excel-Funktionalität.
 ### [Kommentare formatieren – Schriftart, Farbe, Ausrichtung](./format-comments-font-color-alignment/)
 Entdecken Sie, wie Sie Excel-Kommentare mit Aspose.Cells für .NET mühelos formatieren. Passen Sie Schriftart, Größe und Ausrichtung an, um Ihre Tabellen zu verbessern.
+### [Excel-Arbeitsmappe erstellen in C# – Kommentare mit Smart Markern hinzufügen und ausfüllen](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Kommentare mithilfe von Smart Markern hinzufügen und ausfüllen.
+### [Kommentar zu einer Excel-Zelle hinzufügen mit Aspose.Cells C#](./add-comment-to-excel-cell-using-aspose-cells-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET in C# Kommentare zu Excel-Zellen hinzufügen.
+### [Kommentar zu Excel mit C# hinzufügen – vollständige Schritt‑für‑Schritt‑Anleitung](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET in C# Kommentare zu Excel hinzufügen – detaillierte Schritt‑für‑Schritt‑Anleitung.
+
+
+
+
+
+
+
+
+### [Excel-Arbeitsmappe erstellen C# – Kommentar hinzufügen und als XLSX speichern](./create-excel-workbook-c-add-comment-save-as-xlsx/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET in C# eine Excel-Arbeitsmappe erstellen, einen Kommentar hinzufügen und sie als XLSX speichern.
+
+### [Kommentar zu Excel hinzufügen – So füllen Sie eine Excel-Vorlage mit Smart Markern in C#](./add-comment-excel-how-to-populate-an-excel-template-with-sma/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Kommentare in Excel hinzufügen und Vorlagen mithilfe von Smart Markern in C# befüllen.
+### [Excel-Datei programmgesteuert erstellen – Kommentare hinzufügen & als XLSX speichern](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Datei programmgesteuert erstellen, Kommentare hinzufügen und als XLSX speichern.
+### [Kommentarzelle in Excel mit Aspose.Cells Smart Marker hinzufügen](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
+Erfahren Sie, wie Sie mithilfe von Aspose.Cells Smart Marker Kommentarzellen in Excel automatisch einfügen.
+### [Kommentar zu Zelle in C# hinzufügen – Excel aus Daten generieren](./add-comment-to-cell-in-c-generate-excel-from-data/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET in C# Kommentare zu Zellen hinzufügen und Excel-Dateien aus Daten generieren.
 ### [Excel-Kommentar mit C# einfügen – Vollständiger SmartMarker-Leitfaden](./insert-excel-comment-with-c-complete-smartmarker-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET und SmartMarker Kommentare in Excel per C# einfügen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

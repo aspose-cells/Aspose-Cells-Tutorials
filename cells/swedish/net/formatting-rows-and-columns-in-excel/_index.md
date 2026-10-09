@@ -33,6 +33,8 @@ Nu när dina kolumner ser snygga ut, låt oss inte glömma raderna! Formatering 
 Lär dig hur du anpassar formatet för en kolumn i Excel med hjälp av Aspose.Cells för .NET med den här steg-för-steg-guiden. Perfekt för utvecklare som automatiserar Excel-uppgifter.
 ### [Tillämpa formatering på en Excel-rad programmatiskt](./applying-formatting-to-an-excel-row/)
 Lär dig hur du formaterar en Excel-rad programmatiskt med Aspose.Cells för .NET. Den här detaljerade steg-för-steg-guiden täcker allt från justering till kantlinjer.
+### [Skapa Excel-arbetsbok – Wrappa kolumner och spara som XLSX](./create-excel-workbook-wrap-columns-and-save-as-xlsx/)
+Lär dig hur du skapar en Excel-arbetsbok, wrappar kolumner och sparar den som XLSX med Aspose.Cells för .NET.
 ### [Hur man formaterar Excel-kolumner i C# – Komplett guide](./how-to-format-excel-columns-in-c-complete-guide/)
 Lär dig steg-för-steg hur du formaterar kolumner i Excel med C# och Aspose.Cells för .NET för att förbättra dina kalkylblad.
 

@@ -335,6 +335,9 @@ Tìm hiểu cách quản lý các tệp Excel XLSB bằng Aspose.Cells for Java.
 ### [Cách xuất các thuộc tính Excel tùy chỉnh sang PDF bằng Aspose.Cells cho Java](./export-excel-custom-properties-pdf-aspose-cells-java/)
 Tìm hiểu cách xuất các thuộc tính tùy chỉnh từ sổ làm việc Excel sang PDF bằng Aspose.Cells for Java. Tối ưu hóa việc quản lý dữ liệu của bạn với hướng dẫn từng bước này.
 
+### [Cách thêm Thuộc Tính Tùy Chỉnh trong Excel (Java) – Lấy Giá Trị & Lưu dưới dạng XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
+Tìm hiểu cách thêm thuộc tính tùy chỉnh vào tệp Excel, truy xuất giá trị và lưu dưới dạng XLSB bằng Aspose.Cells cho Java.
+
 ### [Xuất Excel sang HTML bằng Aspose.Cells Java: Hướng dẫn từng bước](./export-excel-html-aspose-cells-java/)
 Tìm hiểu cách xuất tệp Excel dưới dạng HTML một cách liền mạch bằng Aspose.Cells for Java. Hướng dẫn này bao gồm cách tải sổ làm việc, nhà cung cấp luồng tùy chỉnh và lưu sổ làm việc một cách dễ dàng.
 
@@ -476,7 +479,13 @@ Tìm hiểu cách lưu tệp Excel ở nhiều định dạng một cách liền
 ### [Cách thiết lập phiên bản tài liệu Excel bằng Aspose.Cells cho Java](./set-excel-version-aspose-cells-java/)
 Tìm hiểu cách thiết lập và quản lý các thuộc tính tài liệu như phiên bản trong tệp Excel bằng Aspose.Cells for Java. Thực hiện theo hướng dẫn từng bước này để vận hành sổ làm việc hiệu quả.
 
+### [Lưu Sổ làm việc vào Tệp – Hướng dẫn Java toàn diện cho việc sao chép các vùng Excel](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
+Tìm hiểu cách lưu sổ làm việc Excel vào tệp và sao chép các vùng dữ liệu trong Java bằng Aspose.Cells.
 
+### [Lưu sổ làm việc dưới dạng XLSX trong Java – Hướng dẫn lập trình toàn diện](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
+Hướng dẫn chi tiết cách lưu sổ làm việc Excel dưới dạng XLSX bằng Aspose.Cells cho Java, bao gồm thiết lập, lưu và các tùy chọn nâng cao.
+### [Tạo sổ làm việc mới trong Java – Hướng dẫn từng bước](./create-new-workbook-in-java-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo một sổ làm việc Excel mới trong Java bằng Aspose.Cells, bao gồm các bước cài đặt và mã mẫu.
 
 ## Tài nguyên bổ sung
 

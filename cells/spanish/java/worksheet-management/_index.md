@@ -32,6 +32,9 @@ Aprenda a acceder a hojas de cálculo específicas por nombre con Aspose.Cells p
 ### [Cómo agregar hojas de cálculo en Excel con Aspose.Cells para Java: una guía completa](./add-spreadsheets-excel-aspose-cells-java/)
 Aprenda a agregar hojas de cálculo a un archivo de Excel mediante programación con Aspose.Cells para Java. Esta guía abarca la configuración, la implementación y las aplicaciones prácticas.
 
+### [Crear varias hojas en Excel con Java – Guía completa basada en plantillas](./create-multiple-sheets-in-excel-with-java-complete-template/)
+Aprenda a crear múltiples hojas en un archivo Excel usando plantillas con Aspose.Cells para Java.
+
 ### [Cómo insertar una columna en Excel con Aspose.Cells para Java: una guía completa](./aspose-cells-java-insert-column-excel/)
 Domine la inserción de columnas en sus hojas de cálculo de Excel con Aspose.Cells para Java. Siga esta guía detallada para automatizar la generación de informes y optimizar la gestión de datos.
 
@@ -74,6 +77,9 @@ Aprenda a eliminar columnas de un libro de Excel con Aspose.Cells para Java. Est
 ### [Cómo eliminar filas en Excel con Aspose.Cells para Java | Guía y tutorial](./delete-row-excel-aspose-cells-java/)
 Aprenda a eliminar filas de un archivo de Excel de forma eficiente con Aspose.Cells para Java. Esta guía abarca la configuración, ejemplos de código y aplicaciones prácticas.
 
+### [Eliminar filas en una hoja de cálculo con Java – Guía completa](./delete-rows-in-worksheet-with-java-complete-guide/)
+Aprenda a eliminar filas de una hoja de cálculo en Excel usando Aspose.Cells para Java con esta guía paso a paso.
+
 ### [Administrar la visibilidad de las pestañas de Excel con Aspose.Cells en Java](./display-excel-tabs-aspose-cells-java/)
 Aprenda a mostrar u ocultar pestañas de Excel con Aspose.Cells para Java. Esta guía abarca la configuración, la implementación de código y las prácticas recomendadas para una gestión eficaz de las hojas de cálculo.
 
@@ -97,6 +103,9 @@ Un tutorial de código para Aspose.Words Java
 
 ### [Mostrar filas y columnas en Excel con Aspose.Cells Java: guía paso a paso](./unhide-rows-columns-excel-aspose-cells-java/)
 Aprenda a mostrar filas y columnas en archivos de Excel fácilmente con Aspose.Cells para Java. Automatice la gestión de datos con esta guía completa.
+
+### [Cómo usar SmartMarkerProcessor para nombrar hojas de forma dinámica](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
+Aprenda a utilizar SmartMarkerProcessor para asignar nombres dinámicos a hojas de cálculo en Excel con Aspose.Cells para Java.
 
 
 

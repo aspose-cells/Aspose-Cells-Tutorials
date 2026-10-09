@@ -1,0 +1,7 @@
+Title: Set Custom Number Format in Excel with Java – Complete Guide
+Slug: set-custom-number-format-in-excel-with-java-complete-guide
+Category: formatting
+ProcessedDate: 2026-07-01T00:55:18.092969
+SourceRepo: AI Search API
+Keywords: set custom number format, get datetime from cell, create excel workbook java, calculate workbook formulas, output datetime value
+PRNumber: 109

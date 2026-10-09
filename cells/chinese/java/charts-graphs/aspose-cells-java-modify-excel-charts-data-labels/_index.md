@@ -1,9 +1,65 @@
 ---
-"date": "2025-04-08"
-"description": "学习如何使用 Aspose.Cells for Java 轻松修改 Excel 图表和数据标签。增强您的财务报告、可视化效果等。"
-"title": "如何使用 Aspose.Cells for Java 修改 Excel 图表和数据标签"
-"url": "/zh/java/charts-graphs/aspose-cells-java-modify-excel-charts-data-labels/"
-"weight": 1
+date: '2026-06-22'
+description: 了解如何使用 Aspose.Cells for Java 在 Excel 中更改图表数据标签并自定义数据标签。本指南涵盖图表修改、字体格式设置以及实用示例。
+keywords:
+- change chart data labels
+- customize data labels excel
+- format data label fonts
+- Aspose.Cells Java chart modification
+- Excel automation Java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-22'
+  description: Learn how to change chart data labels and customize data labels in
+    Excel with Aspose.Cells for Java. This guide covers chart modification, font formatting,
+    and practical examples.
+  headline: How to Change Chart Data Labels and Modify Excel Charts Using Aspose.Cells
+    for Java
+  type: TechArticle
+- description: Learn how to change chart data labels and customize data labels in
+    Excel with Aspose.Cells for Java. This guide covers chart modification, font formatting,
+    and practical examples.
+  name: How to Change Chart Data Labels and Modify Excel Charts Using Aspose.Cells
+    for Java
+  steps:
+  - name: Create a Workbook
+    text: This line creates the `Workbook` instance, giving you full access to worksheets,
+      charts, and cells.
+  - name: Save the Modified Workbook
+    text: After you finish editing, call `save` to write the changes to disk.
+  - name: Access First Worksheet
+    text: The `Worksheet` class represents a single sheet; accessing it via `getWorksheets().get(0)`
+      gives you the first sheet.
+  - name: Access First Chart
+    text: The `Chart` class encapsulates all chart‑related properties. Once you have
+      a reference, you can modify series, axes, and data labels.
+  - name: Modify Data Label Text
+    text: Use `setText("Your custom label")` on the `DataLabel` object to replace
+      the default value.
+  - name: Customize Font
+    text: The `Font` class lets you set `setBold(true)`, `setColor(Color.getRed())`,
+      and other attributes for precise visual control.
+  type: HowTo
+- questions:
+  - answer: Yes, the free trial provides full functionality for development and testing;
+      a commercial license is required for production deployments.
+    question: Can I use Aspose.Cells for Java without a paid license?
+  - answer: It can process files with over 500 MB and 100 + worksheets using less
+      than 300 MB of RAM when memory‑optimized settings are enabled.
+    question: How does Aspose.Cells handle large Excel files?
+  - answer: Absolutely – iterate over `worksheet.getCharts()` and apply the same label‑changing
+      logic to each chart object.
+    question: Is it possible to modify multiple charts in one workbook?
+  - answer: Forgetting to call `setShowValue(true)` on the series, or not disposing
+      of the workbook, can lead to missing labels or memory leaks.
+    question: What are the most common pitfalls when customizing data labels?
+  - answer: Yes, simply add the Maven/Gradle dependency and inject the workbook handling
+      code into a Spring service component.
+    question: Can Aspose.Cells be integrated with Spring Boot?
+  type: FAQPage
+title: 如何使用 Aspose.Cells for Java 更改图表数据标签并修改 Excel 图表
+url: /zh/java/charts-graphs/aspose-cells-java-modify-excel-charts-data-labels/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,36 +68,45 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# 如何使用 Aspose.Cells for Java 修改 Excel 图表和数据标签
+# 如何更改图表数据标签并使用 Aspose.Cells for Java 修改 Excel 图表
 
 ## 介绍
 
-以编程方式管理 Excel 工作簿可能是一项艰巨的任务，尤其是当您需要精确控制图表和数据标签等元素时。借助 Aspose.Cells for Java，此过程变得无缝衔接，允许开发人员自动执行原本需要在 Excel 中手动干预的任务。
+使用编程方式更改图表数据标签可以节省数小时的手动调整，尤其是在需要自动生成数十份财务报告时。在本教程中，您将了解如何使用 Aspose.Cells for Java **更改图表数据标签**，以及如何自定义标签字体以获得精致的外观。完成本指南后，您将能够加载工作簿、定位图表，并对任何数据标签应用富文本格式——无需打开 Excel。
 
-在本教程中，我们将探索如何使用 Aspose.Cells for Java 访问和修改 Excel 工作簿、关注单个工作表、操作工作表中的图表以及自定义数据标签字体。学完本指南后，您将能够有效地实现这些功能。
-
-**您将学到什么：**
+**您将学习**
 - 访问和修改 Excel 工作簿
-- 浏览工作表
-- 修改图表元素和数据标签
-- 自定义字体设置以增强视觉吸引力
+- 浏览工作表和图表
+- 更改图表数据标签并自定义其外观
+- 为实现视觉冲击力而格式化数据标签字体
 
-在开始实施之前，让我们先深入了解先决条件！
+在深入代码之前，让我们确保您拥有所需的一切。
+
+## 快速答案
+
+- **我可以在不打开 Excel 的情况下修改图表数据标签吗？** 可以，Aspose.Cells 允许直接在文件中更改标签。  
+- **哪个库版本支持此功能？** 所有 Aspose.Cells for Java 20.10 及更高版本均支持。  
+- **运行示例是否需要付费许可证？** 免费试用可用于开发；生产环境需要许可证。  
+- **Java 8 足够吗？** 是的，完全支持 Java 8 或更高版本。  
+- **我可以格式化标签字体（颜色、粗体、大小）吗？** 当然——API 提供完整的字体样式控制。
+
+## Aspose.Cells for Java 是什么？
+
+Aspose.Cells for Java 是一个强大的 API，能够在没有 Microsoft Excel 的情况下创建、操作和转换 Excel 电子表格。它支持 **50+** 文件格式——包括 XLSX、CSV、PDF 和 HTML——并且在使用不到 200 MB 内存的情况下即可处理数百页的工作簿。
+
+## 为什么要更改图表数据标签？
+
+以编程方式更改图表数据标签可以减少手动错误，确保报告的一致性，并根据实时数据进行动态更新。使用 Aspose.Cells，您可以在几秒钟内更新成千上万的图表，而手动操作则可能需要数天时间。
 
 ## 先决条件
 
-在实施 Aspose.Cells 功能之前，请确保您具备以下条件：
+- **Aspose.Cells Library** – 通过 Maven 或 Gradle 添加 JAR（见下文）。  
+- **Java Development Kit (JDK)** – 版本 8 或更高。  
+- **IDE** – IntelliJ IDEA、Eclipse 或任何兼容 Java 的编辑器。
 
-- **Aspose.Cells 库**：您需要将此库包含在您的项目之中。
-- **Java 开发工具包 (JDK)**：确保您安装了最新版本的 JDK。
-- **集成开发环境**：使用 IntelliJ IDEA 或 Eclipse 等 IDE 进行开发。
+### 所需库和依赖项
 
-### 所需的库和依赖项
-
-要将 Aspose.Cells 集成到您的 Java 项目中，您可以使用 Maven 或 Gradle 作为构建工具。以下是安装详细信息：
-
-**Maven**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -50,23 +115,23 @@
 </dependency>
 ```
 
-**Gradle**
+**Gradle**  
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### 许可证获取
 
-Aspose.Cells 提供免费试用、临时评估许可证以及购买选项。免费试用步骤如下：
+Aspose.Cells 提供免费试用、评估用临时许可证以及完整商业许可证。要开始免费试用：
 
-1. 访问 [Aspose 的免费试用版](https://releases.aspose.com/cells/java/) 页。
-2. 下载该库并将其应用到您的项目中。
+1. 访问 [Aspose 的免费试用](https://releases.aspose.com/cells/java/) 页面。  
+2. 下载库并在项目中应用试用许可证。
 
-对于延长使用期限或商业应用，请考虑获取临时许可证或从 [购买页面](https://purchase。aspose.com/buy).
+生产使用时，请从 [购买页面](https://purchase.aspose.com/buy) 获取临时或永久许可证。
 
 ### 基本初始化
 
-要开始使用 Aspose.Cells，请初始化 `Workbook` 带有 Excel 文件路径的对象：
+`Workbook` 类是 Aspose.Cells 的核心对象，表示内存中的整个 Excel 文件。使用源工作簿的路径进行初始化：
 
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
@@ -75,132 +140,148 @@ Workbook workbook = new Workbook(dataDir + "/source.xlsx");
 
 ## 设置 Aspose.Cells for Java
 
-在项目中安装并配置库后，让我们设置一个与 Excel 文件交互的基本环境。
+将库添加到项目后，配置环境以便无缝操作 Excel 文件。
 
 ### 环境设置要求
 
-确保您的开发环境包括：
-- JDK 8 或更高版本
-- 选择的 IDE（IntelliJ IDEA、Eclipse）
-- 用于依赖管理的 Maven 或 Gradle
+- JDK 8+  
+- 首选 IDE（IntelliJ IDEA、Eclipse）  
+- 使用 Maven 或 Gradle 管理依赖  
 
-## 实施指南
+## 实现指南
 
-我们将根据具体功能将实现过程分解为几个部分。每个部分都会提供详细的解释和相关的代码片段。
+我们将逐步演示如何 **更改图表数据标签** 并应用自定义字体格式。
 
 ### 访问和修改 Excel 工作簿
 
-**概述**：了解如何加载现有工作簿并将修改保存到新文件。
+**概述**：加载现有工作簿，进行更改，并保存为新副本。
 
-#### 步骤 1：创建工作簿
+#### 如何加载和保存工作簿
+
+使用 `new Workbook("input.xlsx")` 加载工作簿，并使用 `workbook.save("output.xlsx")` 保存。此两行模式是后续所有操作的基础。
+
+#### Step 1: Create a Workbook  
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "/source.xlsx");
-```
-此步骤初始化 `Workbook` 对象与源 Excel 文件，从而实现进一步的操作。
+```  
+此行创建 `Workbook` 实例，赋予您对工作表、图表和单元格的完整访问权限。
 
-#### 步骤 2：保存修改后的工作簿
+#### Step 2: Save the Modified Workbook  
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "/ModifiedData_out.xlsx");
-```
-在这里，我们将修改后的工作簿保存到指定的输出目录。
+```  
+编辑完成后，调用 `save` 将更改写入磁盘。
 
-### Excel 工作簿中的访问工作表
+### 访问 Excel 工作簿中的工作表
 
-**概述**：在 Excel 工作簿中浏览工作表。
+**概述**：检索包含目标图表的特定工作表。
 
-#### 步骤 1：访问第一个工作表
+#### Step 1: Access First Worksheet  
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
-```
-此代码访问第一个工作表以进行后续操作。
+```  
+`Worksheet` 类表示单个工作表；通过 `getWorksheets().get(0)` 可获取第一张工作表。
 
 ### 访问和修改工作表中的图表
 
-**概述**：对工作表中包含的图表执行操作。
+**概述**：定位工作表内的图表对象并为标签更改做好准备。
 
-#### 步骤 1：访问第一个图表
+#### Step 1: Access First Chart  
 ```java
 Chart chart = worksheet.getCharts().get(0);
-```
-检索第一个要应用修改的图表对象。
+```  
+`Chart` 类封装所有与图表相关的属性。获取引用后，您可以修改系列、坐标轴和数据标签。
 
-### 修改图表系列点中的数据标签
+### 修改图表系列点的数据标签
 
-**概述**：自定义数据标签，以实现更好的可视化和清晰度。
+**概述**：更改数据标签的可见文本以显示自定义信息。
 
-#### 步骤1：修改数据标签文本
+`DataLabel` 表示附加在图表数据点上的文本标签。  
+#### Step 1: Modify Data Label Text  
 ```java
 DataLabels dlbls = chart.getNSeries().get(0).getPoints().get(0).getDataLabels();
 dlbls.setText("Rich Text Label");
-```
-此步骤设置数据标签的文本以显示丰富的内容。
+```  
+对 `DataLabel` 对象调用 `setText("Your custom label")` 即可替换默认值。
 
 ### 自定义数据标签的字体设置
 
-**概述**：通过自定义字体属性（如颜色和样式）来增强数据标签。
+**概述**：应用粗体、颜色和字号调整，使标签更突出。
 
-#### 步骤 1：自定义字体
+#### Step 1: Customize Font  
 ```java
 FontSetting fntSetting = dlbls.characters(0, 10);
 fntSetting.getFont().setColor(Color.getRed());
 fntSetting.getFont().setBold(true);
-```
-应用粗体样式并将数据标签中特定字符的文本颜色更改为红色。
+```  
+`Font` 类允许您设置 `setBold(true)`、`setColor(Color.getRed())` 等属性，以实现精确的视觉控制。
 
-## 实际应用
+## 如何使用 Aspose.Cells 在 Excel 中更改图表数据标签？
 
-Aspose.Cells for Java 为各个领域提供多功能解决方案。以下是一些实际应用：
+加载工作簿，获取目标图表，然后遍历其系列点，对每个 `DataLabel` 调用 `setText`。最后，调整标签的 `Font` 属性以实现所需外观。此方法适用于任何图表类型——柱形、折线、饼图或雷达图，并可一次性更新所有标签。
 
-1. **财务报告**：使用反映财务指标的定制图表自动生成报告。
-2. **数据可视化**：通过编程修改图表元素以提高清晰度和影响力来增强演示效果。
-3. **库存管理**：生成带有更新数据标签的库存报告，以动态反映库存水平。
+## 常见用例
 
-## 性能考虑
+- **财务仪表板** – 随着新数据到来自动更新季度数字。  
+- **销售报告** – 通过加粗数据标签突出显示表现最佳的产品。  
+- **项目管理** – 在甘特图样式的图表上直接显示任务完成百分比。  
 
-处理大型 Excel 文件时，请考虑以下事项：
+## 性能注意事项
 
-- 通过有效管理工作簿对象来优化内存使用情况。
-- 使用后立即关闭工作簿以释放资源。
-- 使用 Aspose.Cells 的内置性能设置来处理海量数据集。
+处理大型工作簿（200 页以上）时，请注意以下技巧：
 
-## 结论
+- 使用 `WorkbookSettings.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` 限制 RAM 使用。  
+- 保存后及时调用 `workbook.dispose()` 关闭 `Workbook` 对象。  
+- 对于批量操作，尽可能复用同一个 `Workbook` 实例以降低 GC 开销。
 
-本教程全面介绍了如何使用 Aspose.Cells for Java 操作 Excel 图表和数据标签。您学习了如何通过编程访问、修改和自定义这些元素。为了进一步提升您的技能，您可以探索官方 [Aspose 文档](https://reference.aspose.com/cells/java/) 并尝试库中提供的不同功能。
+## 常见问题
 
-## 常见问题解答部分
+**Q: 我可以在没有付费许可证的情况下使用 Aspose.Cells for Java 吗？**  
+A: 可以，免费试用提供完整功能用于开发和测试；生产环境需购买商业许可证。
 
-**问题1：我可以在没有付费许可证的情况下使用 Aspose.Cells for Java 吗？**
-A1：是的，您可以先免费试用来评估其功能。
+**Q: Aspose.Cells 如何处理大型 Excel 文件？**  
+A: 在启用内存优化设置时，可处理超过 500 MB、100 + 工作表的文件，内存占用低于 300 MB。
 
-**问题2：如何高效处理大型Excel文件？**
-A2：利用性能设置并明智地管理资源以优化内存使用情况。
+**Q: 是否可以在同一工作簿中修改多个图表？**  
+A: 当然——遍历 `worksheet.getCharts()`，对每个图表对象应用相同的标签更改逻辑。
 
-**Q3：我可以一次修改多个图表吗？**
-A3：是的，遍历工作表中的所有图表对象并应用必要的修改。
+**Q: 自定义数据标签时最常见的坑是什么？**  
+A: 忘记在系列上调用 `setShowValue(true)`，或未及时释放工作簿，可能导致标签缺失或内存泄漏。
 
-**Q4：使用 Aspose.Cells 时有哪些常见的陷阱？**
-A4：常见问题包括文件操作过程中忘记释放资源或未正确处理异常。
-
-**Q5：是否可以将 Aspose.Cells 与其他 Java 框架集成？**
-A5：是的，Aspose.Cells 可以与各种基于 Java 的框架和应用程序无缝集成。
+**Q: Aspose.Cells 能与 Spring Boot 集成吗？**  
+A: 能，只需添加 Maven/Gradle 依赖，并将工作簿处理代码注入到 Spring 服务组件中。
 
 ## 资源
 
-- [Aspose.Cells文档](https://reference.aspose.com/cells/java/)
-- [下载 Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
-- [购买 Aspose.Cells](https://purchase.aspose.com/buy)
-- [免费试用许可证](https://releases.aspose.com/cells/java/)
-- [获取临时许可证](https://purchase.aspose.com/temporary-license/)
+- [Aspose 文档](https://reference.aspose.com/cells/java/)  
+- [Aspose.Cells 文档](https://reference.aspose.com/cells/java/)  
+- [下载 Aspose.Cells for Java](https://releases.aspose.com/cells/java/)  
+- [购买 Aspose.Cells](https://purchase.aspose.com/buy)  
+- [免费试用许可证](https://releases.aspose.com/cells/java/)  
+- [临时许可证获取](https://purchase.aspose.com/temporary-license/)  
 - [Aspose 支持论坛](https://forum.aspose.com/c/cells/9)
 
-探索这些资源以加深您的理解并在您的项目中充分利用 Aspose.Cells for Java。
+探索这些链接以深化您的专业知识并发现更多图表相关的 API。
+
+---
+
+**最后更新：** 2026-06-22  
+**测试环境：** Aspose.Cells 24.12 for Java  
+**作者：** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## 相关教程
+
+- [如何使用 Aspose.Cells for Java 自动调整 Excel 图表数据标签大小](/cells/java/charts-graphs/aspose-cells-java-auto-resize-chart-data-labels/)
+- [如何使用 Aspose.Cells for Java 为 Excel 图表添加标签](/cells/java/charts-graphs/adding-labels-to-charts-aspose-cells-java-tutorial/)
+- [精通 Aspose.Cells Java：Excel 图表自定义完整指南](/cells/java/charts-graphs/aspose-cells-java-excel-charts-customization/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

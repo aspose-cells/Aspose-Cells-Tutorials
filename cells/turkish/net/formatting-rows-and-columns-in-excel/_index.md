@@ -33,6 +33,8 @@ Artık sütunlarınız keskin göründüğüne göre, satırları unutmayalım! 
 Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel'de bir sütunun biçimini nasıl özelleştireceğinizi öğrenin. Excel görevlerini otomatikleştiren geliştiriciler için mükemmeldir.
 ### [Excel Satırına Programlı Biçimlendirme Uygulama](./applying-formatting-to-an-excel-row/)
 Aspose.Cells for .NET kullanarak Excel satırına biçimlendirmeyi programatik olarak nasıl uygulayacağınızı öğrenin. Bu ayrıntılı, adım adım kılavuz, hizalamadan kenarlıklara kadar her şeyi kapsar.
+### [Excel Çalışma Kitabı Oluştur – Sütunları Kaydır ve XLSX Olarak Kaydet](./create-excel-workbook-wrap-columns-and-save-as-xlsx/)
+Aspose.Cells for .NET kullanarak bir Excel çalışma kitabı oluşturun, sütunları kaydırın ve XLSX formatında kaydedin.
 ### [C# ile Excel Sütunlarını Biçimlendirme – Tam Kılavuz](./how-to-format-excel-columns-in-c-complete-guide/)
 Aspose.Cells for .NET kullanarak C# ile Excel sütunlarını biçimlendirmeyi adım adım öğrenin. Profesyonel raporlar için gerekli tüm ayarlar.
 

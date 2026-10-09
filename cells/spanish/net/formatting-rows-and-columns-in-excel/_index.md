@@ -36,6 +36,9 @@ Aprenda a aplicar formato a una fila de Excel mediante programación con Aspose.
 ### [Cómo dar formato a columnas de Excel en C# – Guía completa](./how-to-format-excel-columns-in-c-complete-guide/)
 Aprenda a dar formato a columnas de Excel usando Aspose.Cells para .NET en C#, paso a paso, con ejemplos claros.
 
+### [Crear libro de Excel – Ajustar columnas y guardar como XLSX](./create-excel-workbook-wrap-columns-and-save-as-xlsx/)
+Aprenda a crear un libro de Excel, envolver columnas y guardarlo como archivo XLSX usando Aspose.Cells para .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

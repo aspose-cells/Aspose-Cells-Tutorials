@@ -32,6 +32,22 @@
 เรียนรู้วิธีแปลงไฟล์ Excel เป็นรูปแบบ XPS โดยใช้ Aspose.Cells สำหรับ .NET ในขั้นตอนง่ายๆ เพียงไม่กี่ขั้นตอน พร้อมด้วยตัวอย่างโค้ดปฏิบัติจริง
 ### [การตั้งเวลาสร้าง PDF ใน .NET](./setting-pdf-creation-time/)
 เรียนรู้วิธีตั้งเวลาสร้าง PDF ใน .NET โดยใช้ Aspose.Cells ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการแปลง Excel เป็น PDF ได้อย่างราบรื่น
+### [ฝังฟอนต์ใน XPS ด้วย C# – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./embed-fonts-in-xps-with-c-complete-programming-guide/)
+เรียนรู้วิธีฝังฟอนต์ลงในไฟล์ XPS ด้วย C# อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนการทำงาน
+
+### [สร้างเวิร์กบุ๊ก Excel ใหม่ – คู่มือการส่งออก Unicode และ XPS](./create-new-excel-workbook-unicode-xps-export-guide/)
+เรียนรู้วิธีสร้างไฟล์ Excel ใหม่พร้อมการสนับสนุน Unicode และการส่งออกเป็น XPS อย่างละเอียด
+
+### [แปลง Excel เป็น XPS ด้วย C# - คู่มือเต็ม](./convert-excel-to-xps-with-c-complete-guide/)
+เรียนรู้วิธีแปลงไฟล์ Excel เป็น XPS ด้วย C# อย่างละเอียด พร้อมตัวอย่างโค้ดครบถ้วน
+
+### [แปลง docx เป็น xps ใน C# – คู่มือฉบับสมบูรณ์](./convert-docx-to-xps-in-c-complete-guide/)
+เรียนรู้วิธีแปลงไฟล์ docx เป็น XPS ด้วย C# โดยใช้ Aspose.Words อย่างละเอียด พร้อมตัวอย่างโค้ดที่ใช้งานได้จริง
+
+### [วิธีเขียน Unicode ใน Excel ด้วย C# – คู่มือขั้นตอนเต็ม](./how-to-write-unicode-in-excel-with-c-complete-step-by-step-g/)
+เรียนรู้วิธีเขียนข้อความ Unicode ลงในไฟล์ Excel ด้วย C# อย่างละเอียด พร้อมตัวอย่างโค้ดครบถ้วน
+### [ฝังฟอนต์ใน PDF ด้วย Aspose.Cells – คู่มือ C# ฉบับสมบูรณ์](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
+เรียนรู้วิธีฝังฟอนต์ใน PDF ด้วย Aspose.Cells สำหรับ .NET พร้อมตัวอย่างโค้ด C# ทีละขั้นตอน
 ### [บันทึกเวิร์กบุ๊กเป็น XPS ใน C# – คู่มือแบบทีละขั้นตอน](./save-workbook-as-xps-in-c-step-by-step-guide/)
 เรียนรู้วิธีบันทึกไฟล์ Excel เป็น XPS ด้วย C# โดยใช้ Aspose.Cells ขั้นตอนง่ายๆ พร้อมตัวอย่างโค้ด
 

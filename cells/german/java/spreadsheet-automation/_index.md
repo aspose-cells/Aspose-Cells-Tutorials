@@ -50,6 +50,18 @@ Erfahren Sie anhand von Quellcodebeispielen, wie Sie die Erstellung und Anpassun
 Erfahren Sie anhand von Quellcodebeispielen, wie Sie Excel-Aufgaben in Java automatisieren, indem Sie Aspose.Cells verwenden, eine leistungsstarke Bibliothek zur Excel-Bearbeitung.
 ### [Datenintegration in Excel](./data-integration-in-excel/)
 Erfahren Sie, wie Sie Daten effizient in Excel integrieren, um bessere Einblicke und bessere Entscheidungen zu erzielen. Schritt-für-Schritt-Anleitung mit Quellcode unter Verwendung von Aspose.Cells für Java.
+### [Autofilter in Excel mit Java deaktivieren – Schritt‑für‑Schritt‑Anleitung](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
+Erfahren Sie, wie Sie den Autofilter in Excel‑Dateien mit Aspose.Cells für Java deaktivieren und so die Datenverarbeitung vereinfachen.
+### [Excel programmgesteuert in Java erstellen – Schritt‑für‑Schritt‑Anleitung](./create-excel-programmatically-in-java-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells Excel-Dateien in Java programmgesteuert erstellen – komplette Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
+### [So deaktivieren Sie den Auto-Filter in Excel mit Java – Vollständige Anleitung](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+Erfahren Sie, wie Sie den Auto-Filter in Excel mithilfe von Aspose.Cells für Java ausschalten und Ihre Arbeitsblätter automatisieren.
+### [So deaktivieren Sie AutoFilter in Excel mit Java – Komplettanleitung](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+Erfahren Sie, wie Sie den AutoFilter in Excel mithilfe von Aspose.Cells für Java ausschalten und Ihre Arbeitsblätter automatisieren.
+### [Vertikales Array in Excel mit Java erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java vertikale Arrays in Excel erstellen, inklusive Codebeispielen und detaillierten Anweisungen.
+### [Wie man Expand in Java verwendet – Komplett‑Excel‑Leitfaden](./how-to-use-expand-in-java-complete-excel-guide/)
+Erfahren Sie anhand von Quellcodebeispielen, wie Sie die Expand‑Funktion in Excel mit Aspose.Cells für Java nutzen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,7 @@
+Title: How to Export PPTX from Excel – Complete Java Guide
+Slug: how-to-export-pptx-from-excel-complete-java-guide
+Category: excel-import-export
+ProcessedDate: 2026-07-17T08:03:30.046908
+SourceRepo: AI Search API
+Keywords: how to export pptx, set print area, export excel range, create editable powerpoint, export excel chart
+PRNumber: 122

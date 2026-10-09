@@ -83,7 +83,14 @@ Aspose.Words Java के लिए एक कोड ट्यूटोरिय�
 ### [Java के लिए Aspose.Cells में FormulaText को कैसे लागू करें: एक चरण-दर-चरण मार्गदर्शिका](./implementing-formula-text-aspose-cells-java-guide/)
 जावा के साथ Aspose.Cells का उपयोग करके Excel सेल से फ़ॉर्मूला टेक्स्ट निकालने का तरीका जानें। यह गाइड सेटअप, कार्यान्वयन और व्यावहारिक अनुप्रयोगों को कवर करती है।
 
+### [Java के साथ Excel में Reduce का उपयोग कैसे करें – लैम्ब्डा फ़ॉर्मूला गाइड](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
+Java के साथ Aspose.Cells का उपयोग करके Excel में Reduce फ़ंक्शन लागू करना और लैम्ब्डा फ़ॉर्मूला से डेटा को संक्षिप्त करना सीखें।
 
+### [Java में WRAPCOLS का उपयोग कैसे करें – पूर्ण Excel WRAPCOLS उदाहरण](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+Java में Aspose.Cells के साथ WRAPCOLS फ़ंक्शन लागू करना और विस्तृत उदाहरण देखना सीखें।
+
+### [जावा Excel वर्कबुक में SEQUENCE का उपयोग कैसे करें – चरण‑दर‑चरण गाइड](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+जावा में Aspose.Cells का उपयोग करके Excel वर्कबुक में SEQUENCE फ़ंक्शन को लागू करने और उपयोग करने के चरणों को सीखें।
 
 ## अतिरिक्त संसाधन
 

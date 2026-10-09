@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tablolar ve Listeler
@@ -51,13 +49,32 @@ Aspose.Cells for .NET'i kullanarak Excel'de tabloları aralıklara kolayca dön�
 .NET için Aspose.Cells'in gücünü açığa çıkarın. Bu ayrıntılı adım adım kılavuzda sorgu veri kaynaklarıyla tabloları okumayı ve yazmayı öğrenin.
 ### [Excel'de Tablo veya Listenin Yorumunu Ayarlama](./setting-comment-of-table-or-list/)
 Kolay adım adım kılavuzumuzla Aspose.Cells for .NET kullanarak Excel'de tablolara yorum eklemeyi öğrenin.
+### [C#'ta Tabloyu Yeniden Adlandırma – Tam Kılavuz](./how-to-rename-table-in-c-full-guide/)
+
+### [C# ile Excel Tablosu Oluşturma – Adım Adım Kılavuz](./create-excel-table-in-c-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak C# ile Excel'de tablo oluşturmayı adım adım öğrenin.
+### [C#'ta Aralıktan Tablo Oluşturma – Tam Aspose.Cells Eğitimi](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+Aspose.Cells for .NET kullanarak C# içinde bir aralıktan tablo oluşturmayı adım adım öğrenin. Veri yönetimini kolaylaştırın.
+### [Word Tablosunda Satırları Silme – Tam C# Rehberi](./delete-rows-word-table-complete-c-guide/)
+Aspose.Words for .NET kullanarak Word tablosundaki satırları nasıl sileceğinizi adım adım öğrenin.
+
+
+
+
+
+
+
+
+### [Aspose.Cells'te Tablo Başlığını Kaldırma – Tam Kılavuz](./remove-table-header-in-aspose-cells-complete-guide/)
+Aspose.Cells for .NET kullanarak Excel tablolarındaki başlığı nasıl kaldıracağınızı adım adım öğrenin.
+### [C# ile Excel'de Tabloyu Yeniden Adlandırma – Adım Adım Kılavuz](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak Excel'de tabloyu yeniden adlandırmayı adım adım öğrenin.
 ### [Word'de Birden Çok Satırı Sil – Tablo Satırlarını Kaldırma Tam Kılavuzu](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
 Aspose.Words for .NET kullanarak Word belgelerindeki tablo satırlarını toplu olarak nasıl sileceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

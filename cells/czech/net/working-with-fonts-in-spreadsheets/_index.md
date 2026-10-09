@@ -38,6 +38,8 @@ Naučte se, jak načítat a vypisovat písma z tabulek aplikace Excel pomocí As
 Naučte se, jak nastavit výchozí písma pro možnosti ukládání PDF pomocí Aspose.Cells pro .NET a zajistit, aby vaše dokumenty vypadaly pokaždé perfektně.
 ### [Určení písem pro vykreslování sešitu](./specify-fonts-for-workbook-rendering/)
 Naučte se, jak pomocí Aspose.Cells pro .NET zadat vlastní písma pro vykreslování sešitu. Podrobný návod, jak zajistit perfektní výstup do PDF.
+### [Změna písma textového pole v mřížce – kompletní krok‑za‑krokem průvodce](./change-textbox-font-in-a-grid-complete-step-by-step-guide/)
+Naučte se, jak změnit písmo textového pole v mřížce pomocí Aspose.Cells pro .NET v podrobném průvodci krok za krokem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

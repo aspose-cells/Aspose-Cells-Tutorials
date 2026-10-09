@@ -67,6 +67,8 @@
 أطلق العنان لإمكانيات Excel مع Aspose.Cells لـ .NET. تعلّم خطوة بخطوة كيفية معالجة البيانات باستخدام وظائف إضافية فعّالة.
 ### [معالجة البيانات باستخدام دالة المصفوفة في Excel](./processing-data-using-array-function/)
 استغلّ إمكانيات Excel مع Aspose.Cells لـ .NET. تعلّم معالجة البيانات باستخدام دوال المصفوفات في هذا البرنامج التعليمي المفصّل.
+### [تطبيق صيغة المصفوفة في Excel باستخدام C# – دليل كامل](./apply-array-formula-excel-in-c-complete-guide/)
+تعلم كيفية تطبيق صيغة المصفوفة في Excel باستخدام C# مع Aspose.Cells لـ .NET خطوة بخطوة في هذا الدليل الكامل.
 ### [معالجة البيانات باستخدام الوظائف المضمنة في Excel](./processing-data-using-built-in-functions/)
 اكتشف كيفية معالجة البيانات باستخدام الدوال المضمنة في Excel باستخدام Aspose.Cells لـ .NET. اتبع البرنامج التعليمي خطوة بخطوة لتسهيل الأتمتة.
 ### [معالجة البيانات باستخدام R1C1 في Excel](./processing-data-using-r1c1/)
@@ -75,6 +77,21 @@
 اكتشف كيفية تسجيل واستدعاء الوظائف من الوظائف الإضافية في Excel باستخدام Aspose.Cells لـ .NET من خلال البرنامج التعليمي السهل خطوة بخطوة.
 ### [تحديد الحد الأقصى لعدد صفوف الصيغة المشتركة في Excel](./specifying-maximum-rows-of-shared-formula/)
 اكتشف كيفية تحديد الحد الأقصى للصفوف للصيغ المشتركة في Excel باستخدام Aspose.Cells for .NET من خلال هذا البرنامج التعليمي السهل خطوة بخطوة.
+### [إعادة حساب جميع الصيغ في C# – تحديث Excel](./recalculate-all-formulas-in-c-refresh-excel/)
+تعلم كيفية إعادة حساب جميع صيغ المصنف في Excel باستخدام Aspose.Cells لـ .NET عبر C# لتحديث البيانات بسرعة.
+### [c# إنشاء ملف Excel – دليل خطوة بخطوة مع المنطق الشرطي](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+### [كيفية حساب القاطع المثلثي في Excel باستخدام C# – دليل خطوة بخطوة](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+اكتشف طريقة حساب الدالة القاطعة المثلثية (cot) في Excel باستخدام C# خطوة بخطوة مع Aspose.Cells.
+### [كيفية توسيع المصفوفة في C# باستخدام Aspose.Cells – دليل خطوة بخطوة](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+تعلم كيفية توسيع المصفوفات في C# باستخدام Aspose.Cells خطوة بخطوة لتسهيل معالجة البيانات في Excel.
+### [كيفية استخدام WRAPCOLS في C# – تحويل المصفوفات إلى مصفوفات ثنائية الأبعاد](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+تعلم كيفية استخدام الدالة WRAPCOLS في C# لإعادة تشكيل المصفوفات إلى مصفوفات ثنائية الأبعاد بسهولة باستخدام Aspose.Cells.
+### [كيفية إنشاء مصفوفة في Excel باستخدام C# – دليل خطوة بخطوة](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+تعلم كيفية إنشاء واستخدام مصفوفات في Excel باستخدام C# خطوة بخطوة مع Aspose.Cells لـ .NET.
+### [كيفية حساب القاطع المثلثي في Excel باستخدام C# – دليل كامل](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+تعلم خطوة بخطوة كيفية حساب الدالة القاطعة في Excel باستخدام لغة C# مع Aspose.Cells.
+### [كيفية استخدام WRAPCOLS في Excel – مثال كامل بلغة C#](./how-to-use-wrapcols-in-excel-complete-c-example/)
+تعلم كيفية استخدام الدالة WRAPCOLS في Excel مع مثال كامل بلغة C# لتطبيقات Aspose.Cells لـ .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

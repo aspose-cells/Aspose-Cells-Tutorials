@@ -152,6 +152,8 @@ Ismerd meg, hogyan állíthatod be a munkalapfülek színeit az Excelben az Aspo
 ### [Hogyan oszthatjuk fel a munkalap ablaktábláit Excelben az Aspose.Cells .NET használatával a továbbfejlesztett adatelemzéshez](./split-worksheet-panes-excel-aspose-cells-dotnet)
 Ismerje meg, hogyan használható az Aspose.Cells for .NET az Excel munkalappaneljeinek felosztására, javítva az adatnavigációt és az elemzési hatékonyságot a nagy adathalmazok jobb vizualizációja érdekében.
 
+### [Cara Menggunakan SmartMarkerProcessor – Mengganti Nama Lembar yang Ada di Excel](./how-to-use-smartmarkerprocessor-rename-existing-sheet-in-exc/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

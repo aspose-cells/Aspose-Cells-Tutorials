@@ -1,0 +1,7 @@
+Title: Create GridJs Instance – Complete Python Guide
+Slug: create-gridjs-instance-complete-python-guide
+Category: integration-and-interoperability
+ProcessedDate: 2026-07-01T01:23:55.392936
+SourceRepo: AI Search API
+Keywords: create gridjs instance
+PRNumber: 110

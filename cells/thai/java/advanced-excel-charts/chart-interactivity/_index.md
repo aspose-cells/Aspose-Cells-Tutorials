@@ -9,16 +9,6 @@ url: /th/java/advanced-excel-charts/chart-interactivity/
 weight: 19
 ---
 
- paragraphs, bullet points, table contents (Issue, Solution) but keep terms like "Tooltips not showing" maybe translate? Probably translate the text but keep technical terms. Keep table structure.
-
-Also translate the "Pro tip" note.
-
-Also translate "Last Updated", "Tested With", "Author". Keep dates.
-
-Make sure to preserve markdown formatting.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

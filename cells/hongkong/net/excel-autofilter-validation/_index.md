@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel 自動篩選與驗證
@@ -36,13 +34,32 @@
 透過本全面的逐步指南，了解如何輕鬆使用 .NET 中的 Aspose.Cells 自動過濾 Excel 行。
 ### [Excel 中的小數資料驗證](./decimal-data-validation-in-excel/)
 透過我們易於遵循的指南，了解如何使用 Aspose.Cells for .NET 在 Excel 中實現十進位資料驗證。輕鬆增強資料完整性。
+### [從 Excel 中移除自動篩選 – 完整 C# 指南](./remove-autofilter-from-excel-complete-c-guide/)
+本指南說明如何使用 Aspose.Cells for .NET 在 C# 中移除 Excel 工作表的自動篩選功能。
+### [在 C# 中從 Excel 工作簿取得第一個表格 – 完整指南](./get-first-table-from-excel-workbook-in-c-complete-guide/)
+學習如何使用 Aspose.Cells for .NET 在 C# 中提取 Excel 工作簿的第一個表格，快速掌握資料讀取技巧。
+### [如何在 C# Excel 自動化中使用自動篩選 – 完整逐步指南](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
+透過本完整的逐步教學，學習在 C# 中使用 Aspose.Cells 進行 Excel 自動篩選，提升資料處理效率。
+
+
+
+
+
+
+
+
+### [在 C# 中移除 Excel 自動篩選 – 完整步驟指南](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
+透過本完整的逐步指南，了解如何在 C# 中使用 Aspose.Cells 移除 Excel 的自動篩選功能。
+### [使用 C# 清除 Excel 篩選 UI – 移除 AutoFilter 按鈕](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
+透過本教學了解如何在 Excel 中使用 C# 隱藏或移除自動篩選按鈕，提升使用者介面整潔度。
+### [使用 C# 隱藏 Excel 篩選箭頭 – 完整指南](./hide-filter-arrows-excel-with-c-complete-guide/)
+透過本指南，了解如何使用 C# 隱藏 Excel 中的篩選箭頭，提升工作表的外觀與使用體驗。
 ### [使用 C# 向 Excel 添加表格 – 清除自動篩選並儲存檔案](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
 透過本指南，了解如何使用 Aspose.Cells for .NET 在 Excel 中新增表格、清除自動篩選並儲存檔案。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabelas e Listas
@@ -51,13 +49,32 @@ Converta tabelas em intervalos no Excel facilmente usando o Aspose.Cells para .N
 Descubra o poder do Aspose.Cells para .NET. Aprenda a ler e escrever tabelas com fontes de dados de consulta neste guia passo a passo detalhado.
 ### [Definir comentário de tabela ou lista no Excel](./setting-comment-of-table-or-list/)
 Aprenda como definir comentários para tabelas no Excel usando o Aspose.Cells para .NET com nosso guia passo a passo fácil.
+### [Criar tabela do Excel em C# – Guia passo a passo](./create-excel-table-in-c-step-by-step-guide/)
+Aprenda a criar uma tabela do Excel em C# usando Aspose.Cells com este guia passo a passo fácil.
+### [Criar tabela a partir de intervalo em C# – Tutorial completo do Aspose.Cells](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+Aprenda a criar uma tabela a partir de um intervalo no Excel usando C# e Aspose.Cells com este tutorial passo a passo.
+### [Como renomear tabela em C# – Guia completo](./how-to-rename-table-in-c-full-guide/)
+Aprenda a renomear tabelas no Excel usando Aspose.Cells para .NET com C# neste guia passo a passo.
+### [Excluir linhas de tabela do Word – Guia completo em C#](./delete-rows-word-table-complete-c-guide/)
+Aprenda a excluir linhas de tabelas no Word usando Aspose.Words para .NET com este guia passo a passo em C#.
+
+
+
+
+
+
+
+
+### [Remover cabeçalho da tabela no Aspose.Cells – Guia completo](./remove-table-header-in-aspose-cells-complete-guide/)
+Aprenda a remover o cabeçalho de uma tabela no Excel usando Aspose.Cells para .NET neste guia completo passo a passo.
+### [Como renomear tabela no Excel com C# – Guia passo a passo](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Aprenda a renomear tabelas no Excel usando C# com Aspose.Cells de forma simples e detalhada.
 ### [Excluir várias linhas no Word – Guia completo para remover linhas de tabela](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
 Aprenda a excluir múltiplas linhas de tabelas no Word usando Aspose.Words para .NET com este guia passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # オプション付きで Excel ファイルを保存およびエクスポートする
@@ -44,13 +42,31 @@ Aspose.Cells for .NET を使用して、Excel ファイルを HTML 形式で保�
 Aspose.Cells for .NET を使用して、Excel ファイル内のバージョン、作成者、タイトルなどのドキュメント プロパティをプログラムで指定する方法を、ステップ バイ ステップの手順で学習します。
 ### [エクスポート時に先頭の空白行と列をトリミングする](./trimming-leading-blank-rows-and-columns/)
 Aspose.Cells for .NET を使えば、先頭の空白行と列を削除することで、CSV エクスポートを効率化できます。わずか数ステップでクリーンなデータを作成できます。
+### [C# でワークブックを保存する方法 – 完全な Excel 自動化ガイド](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
+Aspose.Cells for .NET を使用して、C# でワークブックを保存し、完全な Excel 自動化プロセスを学びます。
+### [C# で FlatOpcSaveOptions を使用する方法 – 完全ガイド](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Aspose.Cells の FlatOpcSaveOptions を C# で活用し、Excel ファイルの保存オプションを細かく制御する方法をステップバイステップで解説します。
+
+
+
+
+
+
+
+
+### [C# でブックを保存する方法 – フィルターのクリアと Excel エクスポートの完全ガイド](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Aspose.Cells for .NET を使用して、C# でブックを保存し、適用されたフィルターをクリアし、Excel 形式でエクスポートする手順を詳しく解説します。
+### [JSON から Excel ワークブックを保存 – 完全 C# ガイド](./save-excel-workbook-from-json-complete-c-guide/)
+JSON データを使用して Excel ワークブックを作成し、保存する方法をステップバイステップで解説します。
+### [C# を使用してフラット OPC ファイルを作成する – 完全ガイド](./create-flat-opc-file-with-c-complete-guide/)
+Aspose.Cells for .NET を使用して、C# でフラット OPC ファイルを作成する手順をステップバイステップで解説します。
+### [ワークブックを XLSX として保存 – データで Excel を生成する完全ガイド](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
 ### [C# でワークブックを保存する方法 – 完全プログラミングガイド](./how-to-save-workbook-in-c-complete-programming-guide/)
 Aspose.Cells for .NET を使用して、C# でワークブックを保存する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -53,7 +53,16 @@ Excel web uzantılarını kolayca yönetmek için Java için Aspose.Cells'i nas�
 ### [Aspose.Cells Entegrasyonu ile Java Öğretmen Sınıfı Uygulamasında Ustalaşma](./master-teacher-class-java-aspose-cells/)
 Java'da Öğretmen sınıfının nasıl uygulanacağını, öğrenci verilerinin nasıl yönetileceğini ve gelişmiş Excel dosya yönetimi için Aspose.Cells'in nasıl entegre edileceğini öğrenin.
 
+### [Excel'den Word'e Grafik Aktarma – Java Kılavuzu](./how-to-export-charts-from-excel-to-word-java-guide/)
+Aspose.Cells for Java kullanarak Excel dosyalarındaki grafiklerinizi Word belgelerine nasıl aktaracağınızı adım adım öğrenin.
 
+### [Java'da WRAPCOLS Kullanımı – Excel Dizi Formülleri İçin Tam Kılavuz](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
+Java'da Aspose.Cells kullanarak WRAPCOLS fonksiyonunu ve dizi formüllerini nasıl uygulayacağınızı adım adım öğrenin.
+### [Excel'den PowerPoint Oluşturma – Tam Java Kılavuzu](./create-powerpoint-from-excel-full-java-guide/)
+Excel dosyalarından veri alarak PowerPoint sunumları oluşturmayı adım adım gösteren kapsamlı bir Java rehberi.
+
+### [Excel'i PowerPoint'e Dönüştür – Tam Java Kılavuzu](./convert-excel-to-powerpoint-complete-java-guide/)
+Excel dosyalarından veri alarak PowerPoint sunumları oluşturmayı adım adım gösteren kapsamlı bir Java rehberi.
 
 ## Ek Kaynaklar
 

@@ -47,7 +47,8 @@
 ### [ลบ ActiveX Controls ออกจาก Excel ด้วย Aspose.Cells Java](./remove-activex-controls-excel-aspose-cells-java/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Java
 
-
+### [วิธีฝังฟอนต์ – คู่มือฉบับสมบูรณ์สำหรับการส่งออก HTML, XPS และ OLE](./how-to-embed-fonts-complete-guide-for-html-xps-and-ole-expor/)
+เรียนรู้วิธีฝังฟอนต์เมื่อต้องการส่งออกเป็น HTML, XPS และ OLE ด้วย Aspose.Cells สำหรับ Java
 
 ## แหล่งข้อมูลเพิ่มเติม
 

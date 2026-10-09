@@ -67,6 +67,8 @@ Aspose.Cells for .NET を使用して Excel の計算をプログラムで実行
 Aspose.Cells for .NET で Excel の潜在能力を最大限に引き出しましょう。強力なアドイン関数を使ってデータを処理する方法をステップバイステップで学習できます。
 ### [Excelの配列関数を使ったデータ処理](./processing-data-using-array-function/)
 Aspose.Cells for .NET で Excel のパワーを最大限に引き出しましょう。この詳細なチュートリアルでは、配列関数を使ったデータ処理方法を学びます。
+### [C#で配列数式を適用する – 完全ガイド](./apply-array-formula-excel-in-c-complete-guide/)
+Aspose.Cells for .NET を使用して、C# で配列数式を適用する方法をステップバイステップで解説します。
 ### [Excelの組み込み関数を使ったデータ処理](./processing-data-using-built-in-functions/)
 Aspose.Cells for .NET を使って、Excel の組み込み関数を使ってデータを処理する方法を学びましょう。ステップバイステップのチュートリアルに従って、簡単に自動化できます。
 ### [ExcelでR1C1を使用してデータを処理する](./processing-data-using-r1c1/)
@@ -75,6 +77,23 @@ Aspose.Cells for .NET を使用して、Excel で R1C1 数式を使ってデー�
 簡単なステップバイステップのチュートリアルで、Aspose.Cells for .NET を使用して Excel のアドインから関数を登録および呼び出す方法を学びます。
 ### [Excelで共有数式の最大行数を指定する](./specifying-maximum-rows-of-shared-formula/)
 この簡単なステップバイステップのチュートリアルで、Aspose.Cells for .NET を使用して Excel の共有数式の最大行数を指定する方法を学びます。
+### [C# で WRAPCOLS を使用する方法 – 配列を行列に変形](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Aspose.Cells for .NET の WRAPCOLS 関数を利用し、一次元配列を行列に変換する手順を分かりやすく解説します。
+
+### [C# で Excel ファイルを作成 – 条件付きロジックによるステップバイステップガイド](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Aspose.Cells for .NET を使用して C# で条件付きロジックを組み込んだ Excel ファイルを作成する方法をステップバイステップで解説します。
+
+### [C# ですべての数式を再計算 – Excel をリフレッシュ](./recalculate-all-formulas-in-c-refresh-excel/)
+Aspose.Cells for .NET を使用して、Excel のすべての数式を再計算し、最新のデータに更新する方法をステップバイステップで解説します。
+### [C# で Excel の余接関数を計算する方法 – ステップバイステップ ガイド](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Aspose.Cells for .NET を使い、C# で Excel の余接関数を計算する手順を分かりやすく解説します。
+### [C# で配列を拡張する – Aspose.Cells ステップバイステップ ガイド](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Aspose.Cells を利用して C# で配列を拡張する手順を詳しく解説します。実践的なサンプルで簡単に実装できます。
+### [C# で Excel の配列を作成する方法 – ステップバイステップ ガイド](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Aspose.Cells for .NET を使用して、C# で Excel の配列を作成する方法をステップバイステップで解説します。
+### [C# で Excel の余接関数を計算する方法 – 完全ガイド](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+Aspose.Cells for .NET を使用して、C# で Excel の余接関数を計算する方法をステップバイステップで解説します。
+### [ExcelでWRAPCOLSを使用する方法 – 完全なC#例](./how-to-use-wrapcols-in-excel-complete-c-example/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

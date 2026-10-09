@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zapisywanie i eksportowanie plików Excel z opcjami
@@ -44,13 +42,32 @@ Dowiedz się, jak radzić sobie z ostrzeżeniami podczas ładowania plików Exce
 Dowiedz się, jak programowo określić właściwości dokumentu, takie jak wersja, autor i tytuł, w pliku Excela, korzystając z Aspose.Cells for .NET, korzystając z instrukcji krok po kroku.
 ### [Przycinanie wiodących pustych wierszy i kolumn podczas eksportowania](./trimming-leading-blank-rows-and-columns/)
 Usprawnij eksportowanie plików CSV, przycinając wiodące puste wiersze i kolumny za pomocą Aspose.Cells dla .NET. Czyste dane są zaledwie kilka kroków dalej.
+### [Jak zapisać skoroszyt w C# – Kompletny przewodnik automatyzacji Excel](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
+Dowiedz się, jak zapisać skoroszyt w C# przy użyciu Aspose.Cells, krok po kroku, aby w pełni zautomatyzować proces tworzenia plików Excel.
+### [Jak używać FlatOpcSaveOptions w C# – Kompletny przewodnik](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Pełny przewodnik pokazujący, jak skonfigurować i zastosować FlatOpcSaveOptions w C# przy zapisywaniu plików przy użyciu Aspose.Cells.
+
+
+
+
+
+
+
+
+### [Jak zapisać skoroszyt w C# – Kompletny przewodnik po czyszczeniu filtrów i eksportowaniu Excela](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Dowiedz się, jak zapisać skoroszyt, usunąć filtry i wyeksportować plik Excel w C# przy użyciu Aspose.Cells.
+### [Zapisz skoroszyt Excela z JSON – Kompletny przewodnik C#](./save-excel-workbook-from-json-complete-c-guide/)
+Dowiedz się, jak w pełni wykorzystać Aspose.Cells for .NET do tworzenia skoroszytu Excel z danych JSON przy użyciu C#.
+### [Utworzenie płaskiego pliku OPC w C# – Kompletny przewodnik](./create-flat-opc-file-with-c-complete-guide/)
+Dowiedz się, jak w C# utworzyć płaski plik OPC przy użyciu Aspose.Cells, krok po kroku, od początku do końca.
+### [Zapisz skoroszyt jako XLSX – Kompletny przewodnik generowania Excela z danymi](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+Dowiedz się, jak w .NET zapisać skoroszyt jako plik XLSX, generując pełny arkusz Excel z danymi przy użyciu Aspose.Cells.
 ### [Jak zapisać skoroszyt w C# – Kompletny przewodnik programistyczny](./how-to-save-workbook-in-c-complete-programming-guide/)
 Dowiedz się, jak zapisać skoroszyt przy użyciu Aspose.Cells w C#, krok po kroku, z pełnym przykładem kodu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

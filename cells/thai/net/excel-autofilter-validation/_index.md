@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การกรองอัตโนมัติและการตรวจสอบของ Excel
@@ -36,13 +34,33 @@
 เรียนรู้วิธีกรองแถว Excel อัตโนมัติโดยใช้ Aspose.Cells ใน .NET ได้อย่างง่ายดายด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้
 ### [การตรวจสอบข้อมูลทศนิยมใน Excel](./decimal-data-validation-in-excel/)
 ค้นพบวิธีการนำการตรวจสอบข้อมูลทศนิยมไปใช้ใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือที่ทำตามได้ง่ายของเรา ปรับปรุงความสมบูรณ์ของข้อมูลได้อย่างง่ายดาย
+### [วิธีใช้ AutoFilter ในการทำอัตโนมัติ Excel ด้วย C# – คู่มือเต็มขั้นตอน](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
+เรียนรู้วิธีการใช้ AutoFilter ในการทำอัตโนมัติ Excel ด้วย C# อย่างละเอียดด้วยคู่มือขั้นตอนเต็มรูปแบบ
+
+### [การลบ AutoFilter จาก Excel – คู่มือ C# ฉบับสมบูรณ์](./remove-autofilter-from-excel-complete-c-guide/)
+เรียนรู้วิธีลบ AutoFilter จากไฟล์ Excel ด้วย Aspose.Cells ใน .NET ด้วยคู่มือ C# ที่ครบถ้วนและเข้าใจง่าย
+### [รับตารางแรกจากเวิร์กบุ๊ก Excel ใน C# – คู่มือฉบับสมบูรณ์](./get-first-table-from-excel-workbook-in-c-complete-guide/)
+เรียนรู้วิธีดึงตารางแรกจากไฟล์ Excel ด้วย Aspose.Cells ใน C# อย่างละเอียดและง่ายต่อการทำตาม
+
+
+
+
+
+
+
+
+### [การลบ Autofilter ใน Excel ด้วย C# – คู่มือขั้นตอนเต็ม](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
+เรียนรู้วิธีลบ Autofilter จากไฟล์ Excel ด้วย Aspose.Cells ใน .NET อย่างละเอียดและง่ายดาย
+### [ล้าง UI ตัวกรองใน Excel ด้วย C# – ลบปุ่ม AutoFilter](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
+วิธีซ่อนหรือเอาปุ่ม AutoFilter ออกจากแถบเครื่องมือใน Excel ด้วย Aspose.Cells สำหรับ .NET เพื่อ UI ที่สะอาดตา
+### [ซ่อนลูกศรตัวกรองใน Excel ด้วย C# – คู่มือฉบับสมบูรณ์](./hide-filter-arrows-excel-with-c-complete-guide/)
+เรียนรู้วิธีซ่อนลูกศรตัวกรองใน Excel ด้วย C# อย่างครบถ้วนโดยใช้ Aspose.Cells
 ### [เพิ่มตารางใน Excel ด้วย C# – ล้าง Autofilter และบันทึกไฟล์](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
 เรียนรู้วิธีเพิ่มตารางใน Excel ด้วย C# พร้อมล้าง Autofilter และบันทึกไฟล์อย่างง่ายดาย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Autofilter en Validatie
@@ -36,13 +34,32 @@ Onze tutorial over [Decimale gegevensvalidatie in Excel](./decimal-data-validati
 Leer hoe u moeiteloos Excel-rijen kunt filteren met Aspose.Cells in .NET met deze uitgebreide stapsgewijze handleiding.
 ### [Decimale gegevensvalidatie in Excel](./decimal-data-validation-in-excel/)
 Ontdek hoe u decimale gegevensvalidatie in Excel implementeert met Aspose.Cells voor .NET met onze gebruiksvriendelijke handleiding. Verbeter moeiteloos de gegevensintegriteit.
+### [AutoFilter verwijderen uit Excel – Complete C#-gids](./remove-autofilter-from-excel-complete-c-guide/)
+Leer hoe u met Aspose.Cells in .NET een AutoFilter uit een Excel-werkblad verwijdert. Volledige C#-stappenplan.
+### [Eerste tabel uit Excel-werkmap ophalen in C# – Complete gids](./get-first-table-from-excel-workbook-in-c-complete-guide/)
+Leer hoe u met Aspose.Cells de eerste tabel uit een Excel-werkmap haalt in C# met een stapsgewijze handleiding.
+### [Hoe AutoFilter te gebruiken in C# Excel-automatisering – Volledige stapsgewijze handleiding](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
+Leer hoe u AutoFilter in C# kunt toepassen voor Excel-automatisering met een gedetailleerde stap‑voor‑stap handleiding.
+
+
+
+
+
+
+
+
+### [Verwijder autofilter in Excel met C# – Complete stapsgewijze gids](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
+Leer hoe u met Aspose.Cells in .NET een autofilter uit een Excel‑werkblad verwijdert, stap voor stap uitgelegd.
+### [Duidelijke filter-UI in Excel met C# – Verwijder AutoFilter-knop](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
+Leer hoe u de AutoFilter-knop uit de Excel-werkbalk verwijdert met C# en Aspose.Cells, zodat de filter-UI overzichtelijk blijft.
+### [Verberg filterpijlen in Excel met C# – Complete gids](./hide-filter-arrows-excel-with-c-complete-guide/)
+Leer hoe u filterpijlen in Excel verbergt met C# en Aspose.Cells voor .NET in deze volledige gids.
 ### [Tabel toevoegen aan Excel met C# – Autofilter wissen en bestand opslaan](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
 Leer hoe u een tabel toevoegt, de autofilter wist en het bestand opslaat met Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

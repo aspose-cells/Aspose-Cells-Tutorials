@@ -1,0 +1,7 @@
+Title: How to create conditional formatting rule for dates in Python
+Slug: how-to-create-conditional-formatting-rule-for-dates-in-pytho
+Category: formatting
+ProcessedDate: 2026-08-24T13:04:43.662690
+SourceRepo: AI Search API
+Keywords: create conditional formatting rule, auto fit column, conditional formatting by date, background color conditional format, date based conditional format
+PRNumber: 149

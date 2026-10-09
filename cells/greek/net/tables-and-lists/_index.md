@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Πίνακες και Λίστες
@@ -51,13 +49,32 @@
 Ξεκλειδώστε τη δύναμη του Aspose.Cells για .NET. Μάθετε να διαβάζετε και να γράφετε πίνακες με προελεύσεις δεδομένων ερωτημάτων σε αυτόν τον λεπτομερή οδηγό βήμα προς βήμα.
 ### [Ορισμός σχολίου για πίνακα ή λίστα στο Excel](./setting-comment-of-table-or-list/)
 Μάθετε πώς να ορίζετε σχόλια για πίνακες στο Excel χρησιμοποιώντας το Aspose.Cells για .NET με τον εύκολο οδηγό μας βήμα προς βήμα.
+### [Δημιουργία πίνακα Excel σε C# – Οδηγός βήμα‑βήμα](./create-excel-table-in-c-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε πίνακα Excel σε C# με οδηγίες βήμα‑βήμα.
+### [Δημιουργία πίνακα από εύρος σε C# – Πλήρης οδηγός Aspose.Cells](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+Μάθετε πώς να δημιουργείτε πίνακα από ένα εύρος κελιών σε C# χρησιμοποιώντας το Aspose.Cells για .NET, βήμα προς βήμα.
+### [Πώς να μετονομάσετε πίνακα σε C# – Πλήρης οδηγός](./how-to-rename-table-in-c-full-guide/)
+Μάθετε βήμα-βήμα πώς να μετονομάσετε έναν πίνακα Excel χρησιμοποιώντας το Aspose.Cells για .NET σε C#.
+### [Διαγραφή γραμμών πίνακα Word – Πλήρης Οδηγός C#](./delete-rows-word-table-complete-c-guide/)
+Μάθετε πώς να διαγράψετε γραμμές από πίνακα Word χρησιμοποιώντας το Aspose.Words για .NET σε αυτόν τον πλήρη οδηγό C#.
+
+
+
+
+
+
+
+
+### [Αφαίρεση κεφαλίδας πίνακα στο Aspose.Cells – Πλήρης οδηγός](./remove-table-header-in-aspose-cells-complete-guide/)
+Μάθετε πώς να αφαιρέσετε την κεφαλίδα ενός πίνακα στο Excel με το Aspose.Cells για .NET.
+### [Πώς να μετονομάσετε πίνακα στο Excel με C# – Οδηγός βήμα προς βήμα](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Μάθετε πώς να μετονομάσετε έναν πίνακα Excel χρησιμοποιώντας C# με το Aspose.Cells σε απλούς βήμα‑βήμα οδηγίες.
 ### [Διαγραφή πολλαπλών γραμμών Word – Πλήρης οδηγός αφαίρεσης γραμμών πίνακα](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
 Μάθετε πώς να διαγράψετε πολλαπλές γραμμές σε πίνακα Word χρησιμοποιώντας το Aspose.Words για .NET σε πλήρη οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

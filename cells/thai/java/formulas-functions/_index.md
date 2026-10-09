@@ -83,7 +83,12 @@
 ### [วิธีการใช้ FormulaText ใน Aspose.Cells สำหรับ Java: คำแนะนำทีละขั้นตอน](./implementing-formula-text-aspose-cells-java-guide/)
 เรียนรู้วิธีแยกข้อความสูตรจากเซลล์ Excel โดยใช้ Aspose.Cells กับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า การนำไปใช้งาน และแอปพลิเคชันจริง
 
-
+### [วิธีใช้ Reduce ใน Excel ด้วย Java – คู่มือสูตร Lambda](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
+เรียนรู้การใช้ฟังก์ชัน Reduce ใน Excel ผ่าน Java ด้วยสูตร Lambda เพื่อทำการคำนวณขั้นสูงอย่างมีประสิทธิภาพ
+### [วิธีใช้ SEQUENCE ในสมุดงาน Excel ด้วย Java – คู่มือทีละขั้นตอน](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+เรียนรู้วิธีใช้ฟังก์ชัน SEQUENCE ใน Aspose.Cells สำหรับ Java เพื่อสร้างลำดับค่าอัตโนมัติในเวิร์กบุ๊ก Excel
+### [วิธีใช้ WRAPCOLS ใน Java – ตัวอย่างเต็มของ Excel WRAPCOLS](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+เรียนรู้วิธีใช้ฟังก์ชัน WRAPCOLS ใน Aspose.Cells สำหรับ Java เพื่อจัดรูปแบบข้อมูลในเซลล์ Excel อย่างครบถ้วน
 
 ## แหล่งข้อมูลเพิ่มเติม
 

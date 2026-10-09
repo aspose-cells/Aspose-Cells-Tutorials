@@ -9,26 +9,6 @@ url: /ar/java/advanced-excel-charts/interactive-dashboards/
 weight: 10
 ---
 
-}} etc). Keep technical terms English. Ensure not to translate URLs, file paths, etc. Also keep shortcodes unchanged. Provide only translated content.
-
-We must translate headings, paragraphs, list items, table content, etc.
-
-We must keep code block placeholders as is. They are not actual code blocks but placeholders. Should keep them unchanged.
-
-Also need to translate the "Quick Answers" bullet points etc.
-
-Make sure to keep markdown formatting.
-
-Let's produce Arabic translation.
-
-Be careful with direction: Arabic is RTL, but we just write Arabic text.
-
-Let's translate.
-
-Start with shortcodes unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

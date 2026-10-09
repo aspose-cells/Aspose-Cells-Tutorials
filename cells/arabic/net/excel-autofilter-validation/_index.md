@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # التصفية التلقائية والتحقق من الصحة في Excel
@@ -36,13 +34,32 @@
 تعرف على كيفية تصفية صفوف Excel تلقائيًا باستخدام Aspose.Cells في .NET بسهولة باستخدام هذا الدليل الشامل خطوة بخطوة.
 ### [التحقق من صحة البيانات العشرية في Excel](./decimal-data-validation-in-excel/)
 اكتشف كيفية تطبيق التحقق من صحة البيانات العشرية في Excel باستخدام Aspose.Cells لـ .NET من خلال دليلنا السهل. حسّن سلامة البيانات بسهولة.
+### [إزالة AutoFilter من Excel – دليل C# كامل](./remove-autofilter-from-excel-complete-c-guide/)
+تعلم كيفية إزالة AutoFilter من ملفات Excel باستخدام Aspose.Cells في .NET عبر دليل شامل خطوة بخطوة.
+### [الحصول على أول جدول من دفتر عمل Excel في C# – دليل كامل](./get-first-table-from-excel-workbook-in-c-complete-guide/)
+تعلم كيفية استخراج أول جدول من ملف Excel باستخدام Aspose.Cells في .NET عبر دليل شامل خطوة بخطوة.
+### [كيفية استخدام AutoFilter في أتمتة Excel باستخدام C# – دليل كامل خطوة بخطوة](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
+تعلم كيفية تطبيق AutoFilter في أتمتة Excel باستخدام C# خطوة بخطوة مع Aspose.Cells.
+
+
+
+
+
+
+
+
+### [إزالة التصفية التلقائية في Excel باستخدام C# – دليل خطوة بخطوة كامل](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
+تعلم كيفية إزالة التصفية التلقائية من ملفات Excel باستخدام Aspose.Cells في C# من خلال دليل شامل خطوة بخطوة.
+### [إزالة زر AutoFilter في Excel باستخدام C#](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
+اكتشف كيفية إزالة زر التصفية التلقائية من واجهة Excel باستخدام Aspose.Cells و C# لتحسين تجربة المستخدم.
+### [إخفاء أسهم الفلتر في Excel باستخدام C# – دليل كامل](./hide-filter-arrows-excel-with-c-complete-guide/)
+تعلم كيفية إخفاء أسهم الفلتر في Excel باستخدام C# عبر دليل شامل خطوة بخطوة.
 ### [إضافة جدول إلى Excel باستخدام C# – مسح الفلتر التلقائي وحفظ الملف](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
 تعلم إضافة جدول إلى ملف Excel باستخدام C#، مسح الفلتر التلقائي، وحفظ الملف بنجاح.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

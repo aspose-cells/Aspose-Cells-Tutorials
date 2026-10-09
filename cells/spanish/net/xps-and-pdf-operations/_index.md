@@ -32,6 +32,18 @@ A continuación, analicemos las complejidades de la gestión de PDF. Los archivo
 Aprenda a convertir archivos de Excel al formato XPS usando Aspose.Cells para .NET en solo unos pocos y sencillos pasos, guiados con ejemplos de código prácticos.
 ### [Configuración del tiempo de creación de PDF en .NET](./setting-pdf-creation-time/)
 Aprenda a configurar la hora de creación de un PDF en .NET con Aspose.Cells. Siga nuestra guía paso a paso para una conversión fluida de Excel a PDF.
+### [Cómo escribir Unicode en Excel con C# – Guía completa paso a paso](./how-to-write-unicode-in-excel-with-c-complete-step-by-step-g/)
+Aprenda a escribir caracteres Unicode en Excel usando C#, con ejemplos claros y paso a paso para manejar texto multilingüe.
+### [Convertir docx a xps en C# – Guía completa](./convert-docx-to-xps-in-c-complete-guide/)
+Aprenda a convertir archivos DOCX al formato XPS usando C# y Aspose.Cells en pasos sencillos con ejemplos de código.
+### [Convertir Excel a XPS con C# - Guía completa](./convert-excel-to-xps-with-c-complete-guide/)
+Aprenda a convertir archivos de Excel a XPS usando C# y Aspose.Cells con ejemplos paso a paso.
+### [Crear nuevo libro de Excel – Guía de exportación Unicode y XPS](./create-new-excel-workbook-unicode-xps-export-guide/)
+Aprenda a crear un libro de Excel con soporte Unicode y exportarlo a XPS usando Aspose.Cells para .NET.
+### [Incrustar fuentes en XPS con C# – Guía completa de programación](./embed-fonts-in-xps-with-c-complete-programming-guide/)
+Aprenda a incrustar fuentes en documentos XPS usando C# y Aspose.Cells, con ejemplos paso a paso para garantizar la correcta visualización.
+### [Incrustar fuentes PDF con Aspose.Cells – Guía completa en C#](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
+Aprenda a incrustar fuentes en PDFs generados con Aspose.Cells usando C#, garantizando la correcta visualización del documento.
 ### [Guardar libro de trabajo como XPS en C# – Guía paso a paso](./save-workbook-as-xps-in-c-step-by-step-guide/)
 Aprenda a guardar un libro de Excel como XPS usando Aspose.Cells para .NET con ejemplos claros y paso a paso.
 

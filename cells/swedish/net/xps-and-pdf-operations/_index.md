@@ -32,6 +32,18 @@ Nu ska vi ta itu med PDF-hanteringens invecklade detaljer. PDF-filer används fl
 Lär dig hur du konverterar Excel-filer till XPS-format med hjälp av Aspose.Cells för .NET i bara några få enkla steg, guidade med praktiska kodexempel.
 ### [Ställa in PDF-skapningstid i .NET](./setting-pdf-creation-time/)
 Lär dig hur du ställer in tiden för PDF-skapande i .NET med Aspose.Cells. Följ vår steg-för-steg-guide för sömlös konvertering från Excel till PDF.
+### [Hur man skriver Unicode i Excel med C# – Komplett steg‑för‑steg‑guide](./how-to-write-unicode-in-excel-with-c-complete-step-by-step-g/)
+Lär dig hur du skriver Unicode‑tecken i Excel med C# genom en komplett steg‑för‑steg‑guide med kodexempel.
+### [Konvertera docx till xps i C# – Komplett guide](./convert-docx-to-xps-in-c-complete-guide/)
+Lär dig hur du konverterar DOCX-filer till XPS med C# och Aspose.Words i en komplett steg-för-steg-guide.
+### [Konvertera Excel till XPS med C# - Komplett guide](./convert-excel-to-xps-with-c-complete-guide/)
+Lär dig hur du konverterar Excel-filer till XPS med C# i en komplett steg-för-steg-guide.
+### [Skapa ny Excel-arbetsbok – Unicode- och XPS-exportguide](./create-new-excel-workbook-unicode-xps-export-guide/)
+Lär dig hur du skapar en ny Excel-arbetsbok med Unicode-stöd och exporterar den till XPS med Aspose.Cells för .NET.
+### [Bädda in teckensnitt i XPS med C# – Komplett programmeringsguide](./embed-fonts-in-xps-with-c-complete-programming-guide/)
+Lär dig hur du bäddar in teckensnitt i XPS-filer med C# och Aspose.Cells för .NET i en komplett steg-för-steg-guide.
+### [Bädda in teckensnitt i PDF med Aspose.Cells – Komplett C#-guide](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
+Lär dig hur du bäddar in teckensnitt i PDF-filer med Aspose.Cells i C#, steg för steg med kodexempel.
 ### [Spara arbetsbok som XPS i C# – Steg‑för‑steg‑guide](./save-workbook-as-xps-in-c-step-by-step-guide/)
 Lär dig hur du sparar en arbetsbok som XPS i C# med Aspose.Cells. Följ vår steg‑för‑steg‑guide med kodexempel.
 

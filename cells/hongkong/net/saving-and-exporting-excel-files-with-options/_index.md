@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 使用選項儲存和匯出 Excel 文件
@@ -44,13 +42,32 @@ Aspose.Cells for .NET 為開發人員提供了強大的工具來管理 .NET 應�
 了解如何使用 Aspose.Cells for .NET 以程式設計方式在 Excel 文件中指定文件屬性（如版本、作者和標題），並提供逐步說明。
 ### [匯出時修剪前導空白行和列](./trimming-leading-blank-rows-and-columns/)
 使用 Aspose.Cells for .NET 修剪前導空白行和列，簡化您的 CSV 匯出。清潔數據僅需幾步之遙。
+### [如何在 C# 中儲存工作簿 – 完整的 Excel 自動化指南](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中完整保存工作簿，實現 Excel 自動化的全流程指南。
+### [如何在 C# 中使用 FlatOpcSaveOptions – 完整指南](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+了解如何在 C# 中使用 FlatOpcSaveOptions 以最佳方式保存 Excel 文件，完整步驟說明。
+
+
+
+
+
+
+
+
+### [如何在 C# 中儲存工作簿 – 完整指南：清除篩選並匯出 Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+本教學說明如何在 C# 使用 Aspose.Cells 清除工作表篩選條件，然後儲存或匯出為 Excel 檔案的完整步驟。
+### [從 JSON 儲存 Excel 工作簿 – 完整 C# 教學](./save-excel-workbook-from-json-complete-c-guide/)
+了解如何使用 Aspose.Cells for .NET 從 JSON 資料建立並儲存 Excel 工作簿的完整 C# 範例。
+### [使用 C# 建立平面 OPC 檔案 – 完整指南](./create-flat-opc-file-with-c-complete-guide/)
+本完整指南說明如何使用 C# 產生平面 OPC 檔案，涵蓋步驟與範例，協助您快速上手。
+### [將工作簿儲存為 XLSX – 生成含資料的 Excel 完整指南](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+本指南說明如何使用 Aspose.Cells for .NET 將工作簿儲存為 XLSX，並生成包含資料的 Excel 檔案。
 ### [如何在 C# 中儲存工作簿 – 完整程式設計指南](./how-to-save-workbook-in-c-complete-programming-guide/)
 本完整指南說明如何使用 Aspose.Cells for .NET 在 C# 中儲存工作簿，涵蓋所有關鍵步驟與選項設定。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

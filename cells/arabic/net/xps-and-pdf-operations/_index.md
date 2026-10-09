@@ -32,6 +32,18 @@
 تعرف على كيفية تحويل ملفات Excel إلى تنسيق XPS باستخدام Aspose.Cells لـ .NET في بضع خطوات سهلة، مع إرشادات حول أمثلة التعليمات البرمجية العملية.
 ### [ضبط وقت إنشاء ملف PDF في .NET](./setting-pdf-creation-time/)
 تعرّف على كيفية ضبط وقت إنشاء ملف PDF في .NET باستخدام Aspose.Cells. اتبع دليلنا خطوة بخطوة لتحويل ملفات Excel إلى PDF بسلاسة.
+### [كيفية كتابة Unicode في Excel باستخدام C# – دليل خطوة بخطوة كامل](./how-to-write-unicode-in-excel-with-c-complete-step-by-step-g/)
+تعلم كيفية كتابة نص Unicode في ملفات Excel باستخدام C# مع أمثلة عملية وشاملة خطوة بخطوة.
+### [تحويل docx إلى xps في C# – دليل كامل](./convert-docx-to-xps-in-c-complete-guide/)
+تعرف على كيفية تحويل ملفات docx إلى XPS باستخدام C# و Aspose.Words خطوة بخطوة مع أمثلة عملية.
+### [تحويل Excel إلى XPS باستخدام C# - دليل كامل](./convert-excel-to-xps-with-c-complete-guide/)
+دليل شامل يشرح خطوة بخطوة كيفية تحويل ملفات Excel إلى XPS باستخدام لغة C# ومكتبة Aspose.Cells.
+### [إنشاء مصنف Excel جديد – دليل Unicode وتصدير XPS](./create-new-excel-workbook-unicode-xps-export-guide/)
+تعرف على إنشاء مصنف Excel جديد يدعم Unicode وتصديره إلى XPS باستخدام Aspose.Cells لـ .NET.
+### [تضمين الخطوط في XPS باستخدام C# – دليل برمجة كامل](./embed-fonts-in-xps-with-c-complete-programming-guide/)
+تعلم كيفية تضمين الخطوط في ملفات XPS باستخدام C# مع Aspose.Cells، خطوة بخطوة مع أمثلة شاملة للشفرة.
+### [تضمين الخطوط في PDF باستخدام Aspose.Cells – دليل C# كامل](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
+تعرف على كيفية تضمين الخطوط في ملفات PDF باستخدام Aspose.Cells لـ .NET مع دليل شامل بلغة C#.
 ### [حفظ دفتر العمل كملف XPS في C# – دليل خطوة بخطوة](./save-workbook-as-xps-in-c-step-by-step-guide/)
 تعلم كيفية حفظ دفتر عمل Excel كملف XPS باستخدام C# مع خطوات واضحة وأمثلة عملية.
 

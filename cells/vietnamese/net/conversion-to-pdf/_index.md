@@ -34,6 +34,35 @@ Nhưng hãy đợi đã, còn nhiều hơn thế nữa! Còn nếu bạn muốn 
 Chuyển đổi bảng tính Excel sang PDF dễ dàng với Aspose.Cells cho .NET! Làm theo hướng dẫn từng bước của chúng tôi để có trải nghiệm liền mạch.
 ### [Chuyển đổi biểu đồ sang PDF trong .NET](./convert-chart-to-pdf/)
 Tìm hiểu cách chuyển đổi biểu đồ Excel sang PDF trong .NET bằng Aspose.Cells với hướng dẫn từng bước này! Hoàn hảo cho các lập trình viên ở mọi cấp độ.
+### [Cách thiết lập tùy chọn PDF trong C# – Xuất Excel sang PDF với kiểm soát đầy đủ](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
+Tìm hiểu cách cấu hình các tùy chọn PDF khi xuất file Excel sang PDF bằng Aspose.Cells trong C# để có kiểm soát toàn diện.
+
+### [Tạo PDF từ Excel trong C# – Hướng dẫn từng bước](./create-pdf-from-excel-in-c-step-by-step-guide/)
+Tạo tệp PDF từ bảng tính Excel bằng C# với Aspose.Cells, hướng dẫn chi tiết từng bước để bạn nhanh chóng triển khai.
+### [Xuất Workbook sang PDF – Hướng dẫn C# đầy đủ](./export-workbook-to-pdf-complete-c-guide/)
+Xuất workbook Excel sang PDF bằng C# với Aspose.Cells, hướng dẫn chi tiết từng bước để bạn dễ dàng thực hiện.
+### [Cách nhúng phông chữ khi chuyển đổi Excel sang PDF – Hướng dẫn toàn diện](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
+Hướng dẫn chi tiết cách nhúng phông chữ vào PDF khi chuyển đổi tệp Excel bằng Aspose.Cells, đảm bảo văn bản hiển thị chính xác.
+### [Chuyển đổi docx sang PDF trong C# – Hướng dẫn đầy đủ](./convert-docx-to-pdf-in-c-complete-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF bằng C# với Aspose.Words, từng bước dễ hiểu cho mọi trình độ.
+### [Lưu Workbook dưới dạng PDF trong C# – Xuất Excel sang PDF/A‑3b](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
+Hướng dẫn cách lưu workbook Excel thành PDF/A‑3b bằng C# với Aspose.Cells.
+### [Lưu sổ làm việc dưới dạng PDF với Aspose.Cells – Hướng dẫn chi tiết từng bước](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
+Hướng dẫn lưu sổ làm việc Excel thành PDF bằng Aspose.Cells, chi tiết từng bước, phù hợp cho mọi lập trình viên.
+### [Cách nhúng phông chữ vào PDF – Lưu Workbook dưới dạng PDF trong C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
+Hướng dẫn nhúng phông chữ vào tệp PDF khi lưu workbook bằng Aspose.Cells trong C# để đảm bảo hiển thị đúng ký tự.
+### [Cách nhúng phông chữ vào PDF bằng C# – Hướng dẫn đầy đủ](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
+Hướng dẫn chi tiết cách nhúng phông chữ vào tệp PDF bằng C# với Aspose.Cells, đảm bảo hiển thị đúng trên mọi thiết bị.
+### [Cách chèn Unicode trong Excel và lưu dưới dạng PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
+Hướng dẫn chèn ký tự Unicode vào Excel và chuyển đổi sang PDF bằng Aspose.Cells cho .NET.
+### [Cách làm tròn số khi chuyển đổi Excel sang PDF – Hướng dẫn C# đầy đủ](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
+Hướng dẫn chi tiết cách làm tròn các số trong tài liệu Excel khi chuyển sang PDF bằng C# và Aspose.Cells.
+### [Lưu tài liệu Word thành PDF – Hướng dẫn C# đầy đủ](./save-word-document-as-pdf-complete-c-guide/)
+Hướng dẫn chi tiết cách lưu tài liệu Word thành PDF bằng C# và Aspose.Words.
+### [Cách nhúng phông chữ khi chuyển đổi Excel sang PDF – Hướng dẫn từng bước](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
+Hướng dẫn nhúng phông chữ vào tài liệu PDF khi chuyển đổi từ Excel bằng Aspose.Cells, đảm bảo hiển thị đúng trên mọi thiết bị.
+### [Nhúng phông chữ trong PDF – Hướng dẫn C# đầy đủ để xuất Excel sang PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
+Hướng dẫn chi tiết cách nhúng phông chữ vào PDF khi xuất tệp Excel bằng C# và Aspose.Cells.
 ### [Cách xuất PDF từ Excel – Hướng dẫn đầy đủ để lưu Workbook dưới dạng PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
 Hướng dẫn chi tiết cách lưu workbook Excel thành file PDF bằng Aspose.Cells cho .NET, dễ dàng và nhanh chóng.
 

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Speichern und Exportieren von Excel-Dateien mit Optionen
@@ -33,7 +31,7 @@ Die Anpassung von Dokumentmetadaten wie Version, Autor oder Titel ist für eine 
 
 ### Entfernen führender leerer Zeilen und Spalten beim Exportieren
 
-Leere Zeilen und Spalten können Ihre Exporte überladen, insbesondere bei CSV-Dateien. Die [Entfernen führender leerer Zeilen und Spalten beim Exportieren](./trimming-leading-blank-rows-and-columns/) Mit diesem Tutorial können Sie Ihre Daten bereinigen, indem Sie unnötige Leerzeichen am Zeilen- und Spaltenanfang entfernen. Dieses Tutorial eignet sich ideal für Entwickler, die prägnante und übersichtliche Dateien erstellen möchten, die bereit für Analysen oder Präsentationen sind. Eine saubere, übersichtliche Ausgabe sieht nicht nur professionell aus, sondern erleichtert auch die Datenverarbeitung erheblich.
+Leere Zeilen und Spalten können Ihre Exporte überladen, insbesondere bei CSV-Dateien. Die [Entfernen führender leerer Zeilen und Spalten beim Exportieren](./trimming-leading-blank-rows-and-columns/) Mit diesem Tutorial können Sie Ihre Daten bereinigen, indem Sie unnötige Leerzeichen am Zeilen- und Spaltenanfang entfernen. Dieses Tutorial eignet sich ideal für Entwickler, die prägnante, übersichtliche Dateien erstellen möchten, die bereit für Analysen oder Präsentationen sind. Eine saubere, übersichtliche Ausgabe sieht nicht nur professionell aus, sondern erleichtert auch die Datenverarbeitung erheblich.
 
 ## Speichern und Exportieren von Excel-Dateien mit Options-Tutorials
 ### [Exportieren von Kommentaren beim Speichern einer Excel-Datei im HTML-Format](./exporting-comments/)
@@ -44,13 +42,32 @@ Erfahren Sie mit unserer einfachen Schritt-für-Schritt-Anleitung, wie Sie mit W
 Erfahren Sie anhand schrittweiser Anleitungen, wie Sie Dokumenteigenschaften wie Version, Autor und Titel in einer Excel-Datei programmgesteuert mit Aspose.Cells für .NET angeben.
 ### [Entfernen führender leerer Zeilen und Spalten beim Exportieren](./trimming-leading-blank-rows-and-columns/)
 Optimieren Sie Ihre CSV-Exporte, indem Sie führende leere Zeilen und Spalten mit Aspose.Cells für .NET entfernen. Saubere Daten sind nur wenige Schritte entfernt.
+### [Wie man eine Arbeitsmappe in C# speichert – Vollständiger Excel-Automatisierungsleitfaden](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Arbeitsmappe in C# vollständig automatisieren und speichern.
+### [Wie man FlatOpcSaveOptions in C# verwendet – Komplettanleitung](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET die FlatOpcSaveOptions nutzen, um Excel-Dateien effizient zu speichern.
+
+
+
+
+
+
+
+
+### [So speichern Sie Arbeitsmappe in C# – Vollständige Anleitung zum Löschen von Filtern und Exportieren von Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Arbeitsmappen in C# speichern, Filter entfernen und Excel exportieren.
+### [Excel-Arbeitsmappe aus JSON speichern – Vollständige C#-Anleitung](./save-excel-workbook-from-json-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe aus JSON-Daten erstellen und speichern – Schritt für Schritt.
+### [Flache OPC-Datei mit C# erstellen – Komplettanleitung](./create-flat-opc-file-with-c-complete-guide/)
+Erfahren Sie, wie Sie mit C# eine flache OPC-Datei erstellen und alle Schritte der Komplettanleitung umsetzen.
+### [Arbeitsmappe als XLSX speichern – Komplettanleitung zur Generierung von Excel mit Daten](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Arbeitsmappen als XLSX speichern und Daten effizient generieren.
 ### [Wie man ein Arbeitsbuch in C# speichert – Vollständiger Programmierleitfaden](./how-to-save-workbook-in-c-complete-programming-guide/)
 Erfahren Sie Schritt für Schritt, wie Sie mit Aspose.Cells für .NET ein Excel-Arbeitsbuch in C# speichern und alle Optionen nutzen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

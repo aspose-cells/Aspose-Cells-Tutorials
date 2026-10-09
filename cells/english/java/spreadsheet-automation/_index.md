@@ -50,6 +50,18 @@ Explore how to automate Excel chart creation and customization using Aspose.Cell
 Learn how to automate Excel tasks in Java with source code examples using Aspose.Cells, a powerful library for Excel manipulation.
 ### [Data Integration in Excel](./data-integration-in-excel/)
 Learn how to efficiently integrate data in Excel for better insights and decision-making. Step-by-step guide with source code using Aspose.Cells for Java.
+### [Disable Autofilter in Excel with Java – Step‑by‑Step Guide](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
+Step‑by‑step guide to disabling Autofilter in Excel using Aspose.Cells for Java, with clear code examples.
+### [Create Excel programmatically in Java – Step‑by‑Step Guide](./create-excel-programmatically-in-java-step-by-step-guide/)
+Step‑by‑step guide to creating Excel files programmatically in Java using Aspose.Cells, with clear code examples.
+### [How to Turn Off Auto Filter in Excel with Java – Full Guide](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+Turn off auto filter in Excel using Aspose.Cells for Java to improve data handling and report generation.
+### [How to Turn Off AutoFilter in Excel with Java – Complete Guide](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+Learn how to disable Excel AutoFilter programmatically using Aspose.Cells for Java with step-by-step code examples.
+### [Create vertical array Excel with Java – Full Step‑by‑Step Guide](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+Learn how to create vertical arrays in Excel using Aspose.Cells for Java with a complete step‑by‑step guide.
+### [How to Use Expand in Java – Complete Excel Guide](./how-to-use-expand-in-java-complete-excel-guide/)
+Learn how to use the Expand feature in Aspose.Cells for Java to dynamically expand ranges and tables with step‑by‑step code examples.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,11 +1,12 @@
 ---
-date: '2025-12-29'
-description: 學習如何使用 Aspose.Cells for Java 偵測隱藏的 Excel 連結並管理 Excel 資料來源。提供逐步指南，以審核及確保活頁簿完整性。
+date: '2026-05-03'
+description: 學習如何使用 Aspose.Cells for Java 找出隱藏的外部連結並管理 Excel 資料來源。逐步指南，協助審核工作簿完整性。
 keywords:
-- detect hidden external links Excel
-- Aspose.Cells Java setup
-- audit data sources with Aspose.Cells
-title: 如何使用 Aspose.Cells for Java 檢測活頁簿中的隱藏 Excel 連結
+- find hidden external links
+- manage excel data sources
+- identify hidden excel references
+- detect hidden excel links
+title: 如何使用 Aspose.Cells for Java 在 Excel 工作簿中查找隱藏的外部連結
 url: /zh-hant/java/advanced-features/detect-hidden-external-links-excel-aspose-cells-java/
 weight: 1
 ---
@@ -16,41 +17,41 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 如何使用 Aspose.Cells for Java 偵測活頁簿中隱藏的 Excel 連結
+# 如何使用 Aspose.Cells for Java 在 Excel 工作簿中查找隱藏的外部連結
 
-## 介紹
+## 簡介
 
-偵測隱藏的 Excel 連結在您需要 **偵測隱藏的 Excel 連結** 並保持活頁簿透明且可靠時相當重要。無論您是在審核財務模型、確保合規，或只是清理舊有檔案，了解每一個外部參照──即使是隱藏的──都能保護資料完整性。在本教學中，我們將示範如何設定 Aspose.Cells for Java、載入活頁簿，並以程式方式找出所有隱藏的外部連結。
+在 Excel 工作簿中查找隱藏的外部連結是必須的，當您需要 **find hidden external links** 並保持檔案透明、可靠且符合稽核需求時。無論您是在審查財務模型、確保符合法規要求，或是清理舊有試算表，發現每一個隱蔽的參照都能保護資料完整性，防止意外的計算錯誤。在本教學中，我們將逐步說明如何設定 Aspose.Cells for Java、載入工作簿，並以程式方式識別任何隱藏的外部連結。
 
 ### 快速回答
-- **「偵測隱藏的 Excel 連結」是什麼意思？** 意指掃描活頁簿中 UI 看不到的外部參照。  
-- **為什麼要使用 Aspose.Cells？** 它提供純 Java API，無需安裝 Microsoft Office。  
-- **需要授權嗎？** 免費試用可用於評估；正式環境需購買永久授權。  
-- **可以一次處理多個檔案嗎？** 可以──只要在迴圈中重複使用相同的偵測邏輯。  
-- **支援哪些 Java 版本？** 需要 Java 8 或以上。
+- **What does “find hidden external links” mean?** 它表示掃描工作簿中未在 Excel 介面上顯示的外部參照。  
+- **Why use Aspose.Cells?** 它提供純 Java API，無需安裝 Microsoft Office 即可運作。  
+- **Do I need a license?** 免費試用版可用於評估；正式環境需購買永久授權。  
+- **Can I process many files at once?** 可以——您可以對多個檔案迴圈，重複使用相同的偵測邏輯。  
+- **Which Java versions are supported?** 需要 Java 8 或更高版本。
 
-## 什麼是偵測隱藏的 Excel 連結？
+## 什麼是 find hidden external links？
 
-當 Excel 活頁簿的公式從其他檔案取得資料時，這些參照會以 *外部連結* 形式儲存。部份連結可能被標記為「不顯示」而仍會影響計算。偵測這些連結可協助您 **管理 Excel 資料來源**，避免意外的資料變更。
+當 Excel 工作簿包含從其他檔案取得資料的公式時，這些參照會以 *external links* 形式儲存。其中一些連結可能被標記為不可見（hidden），但仍會影響計算。偵測它們有助於 **manage Excel data sources**、**identify hidden Excel references**，並避免在來源檔案變更時產生意外。
 
-## 為什麼使用 Aspose.Cells 來完成此任務？
+## 為何在此任務中使用 Aspose.Cells？
 
 Aspose.Cells for Java 提供：
 
-- **完整控制** 活頁簿物件，無需安裝 Excel。  
-- **強大 API** 可列舉外部連結並查詢其可見性。  
-- **高效能** 處理大型活頁簿，適合批次稽核。
+- **Full control** 於工作簿物件，無需安裝 Excel。  
+- **Robust API** 可列舉外部連結並查詢其可見性。  
+- **High performance** 處理大型工作簿，使批次稽核成為可能。  
 
-## 前置條件
+## 先決條件
 
 - Aspose.Cells for Java 25.3 或更新版本。  
-- Java 8 或以上（IntelliJ IDEA、Eclipse 或您慣用的任何 IDE）。  
-- Maven 或 Gradle 進行相依管理。
+- Java 8 或更高（IntelliJ IDEA、Eclipse，或您偏好的任何 IDE）。  
+- Maven 或 Gradle 進行相依管理。  
 
 ## 設定 Aspose.Cells for Java
 
 ### 使用 Maven
-在 `pom.xml` 中加入以下內容：
+將以下內容加入您的 `pom.xml` 檔案：
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -60,18 +61,18 @@ Aspose.Cells for Java 提供：
 ```
 
 ### 使用 Gradle
-在 `build.gradle` 中加入以下內容：
+在您的 `build.gradle` 檔案中加入以下內容：
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### 取得授權
+#### 授權取得
 
-您可以取得免費試用授權以測試 Aspose.Cells 功能，或購買正式授權供正式環境使用。亦提供臨時授權，讓您在無功能限制的情況下探索程式庫。詳情請參閱 [Aspose 的授權頁面](https://purchase.aspose.com/temporary-license/)。
+您可以取得免費試用授權以測試 Aspose.Cells 功能，或購買正式授權以供生產環境使用。亦提供臨時授權，讓您在無限制的情況下探索程式庫功能。詳情請參閱 [Aspose's Licensing Page](https://purchase.aspose.com/temporary-license/)。
 
 #### 基本初始化
 
-在專案加入 Aspose.Cells 後，請依下列方式初始化：
+在您的專案設定好 Aspose.Cells 後，請依以下方式初始化：
 ```java
 import com.aspose.cells.Workbook;
 
@@ -90,11 +91,11 @@ public class WorkbookSetup {
 
 ### 偵測隱藏的外部連結
 
-我們將載入活頁簿、取得其外部連結集合，並檢查每個連結的可見性狀態。
+我們將載入工作簿、取得其外部連結集合，並檢查每個連結的可見性狀態。
 
-#### 載入活頁簿
+#### 載入工作簿
 
-首先，確保您能存取活頁簿所在的目錄：
+首先，確保您能存取工作簿所在的目錄：
 ```java
 import com.aspose.cells.Workbook;
 import AsposeCellsExamples.Utils;
@@ -110,9 +111,9 @@ public class CheckWorkbookContainsHiddenExternalLinks {
 }
 ```
 
-#### 取得外部連結
+#### 存取外部連結
 
-活頁簿載入後，存取其外部連結集合：
+工作簿載入後，存取其外部連結集合：
 ```java
 import com.aspose.cells.ExternalLinkCollection;
 
@@ -128,7 +129,7 @@ public class CheckWorkbookContainsHiddenExternalLinks {
 
 #### 檢查連結可見性
 
-遍歷每個連結以判斷其可見性：
+遍歷每個連結以判斷其可見性狀態：
 ```java
 public class CheckWorkbookContainsHiddenExternalLinks {
     public static void main(String[] args) throws Exception {
@@ -145,71 +146,69 @@ public class CheckWorkbookContainsHiddenExternalLinks {
 }
 ```
 
-**說明：**  
+**說明:**  
 - `links.get(i).getDataSource()` 取得外部連結的 URL 或檔案路徑。  
-- `links.get(i).isReferred()` 告訴您活頁簿是否在任何公式中實際使用該連結。  
-- `links.get(i).isVisible()` 表示連結是否隱藏 (`false`) 或可見 (`true`)。
+- `links.get(i).isReferred()` 告訴您工作簿是否在任何公式中實際使用該連結。  
+- `links.get(i).isVisible()` 表示連結是隱藏 (`false`) 還是可見 (`true`)。  
 
-### 疑難排解技巧
+### 故障排除技巧
 
-常見問題包括檔案路徑錯誤或相依檔案遺失。請確保專案已加入所有必需的 Aspose.Cells JAR，並確認活頁簿路徑正確。
+常見問題包括檔案路徑不正確或缺少相依性。請確保您的專案已包含所有必需的 Aspose.Cells JAR，並確認工作簿路徑正確。
 
 ## 實務應用
 
-偵測隱藏的 Excel 連結在多種情境下都很有價值：
+偵測隱藏的外部連結在多種情境下都相當有價值：
 
-1. **資料稽核：** 確認財務報表中每個資料來源皆已列入。  
-2. **合規檢查：** 確保受管制文件中不存在未授權或隱藏的資料來源。  
-3. **整合專案：** 在將 Excel 資料同步至資料庫或 API 前，驗證外部連結的完整性。
+1. **Data Auditing:** 核實財務報告中引用的每一個資料來源皆已列入。  
+2. **Compliance Checks:** 確保受規範文件中不存在未授權或隱藏的資料來源。  
+3. **Integration Projects:** 在將 Excel 資料同步至資料庫或 API 前，驗證外部連結的完整性。  
 
 ## 效能考量
 
-處理大型活頁簿時：
+處理大型工作簿時：
 
-- 盡快釋放 `Workbook` 物件以回收記憶體。  
-- 如可能，僅對實際含有公式的工作表進行迭代。
+- 及時釋放 `Workbook` 物件以釋放記憶體。  
+- 如有可能，僅對實際包含公式的工作表進行迭代。  
 
-## 為什麼要偵測隱藏的 Excel 連結？（管理 Excel 資料來源）
+## 為何要找出隱藏的外部連結？（管理 Excel 資料來源）
 
-了解並 **管理 Excel 資料來源** 能讓試算表保持整潔，降低斷開參照的風險，並提升活頁簿整體效能。定期掃描隱藏連結，可確保組織內的唯一真實資料來源。
+了解並 **manage Excel data sources** 有助於保持試算表整潔，降低斷開參照的風險，提升整體工作簿效能。透過定期掃描隱藏連結，您可在組織內維持唯一真實來源。
 
 ## 結論
 
-本教學說明了如何使用 Aspose.Cells for Java **偵測活頁簿中的隱藏 Excel 連結**。此功能對維護資料透明度與完整性至關重要。欲進一步探索，請嘗試 Aspose.Cells 的其他功能，如公式重新計算、圖表操作或批次活頁簿轉換。
+在本教學中，您已學會如何使用 Aspose.Cells for Java **find hidden external links** 於工作簿中。此功能對於維持資料透明度與完整性至關重要。欲進一步探索，可嘗試 Aspose.Cells 的其他功能，如公式重新計算、圖表操作或批次工作簿轉換。
 
-想深入了解嗎？請參考 [Aspose.Cells 文件](https://reference.aspose.com/cells/java/) 以取得更多進階技巧。
+想深入了解嗎？請參閱 [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/) 以取得更多進階技巧。
 
 ## 常見問題
 
-**Q: 免費試用版在偵測隱藏連結上有任何限制嗎？**  
-A: 試用版提供完整功能，包括外部連結偵測，沒有功能限制。
+**Q: 免費試用版對偵測隱藏連結有任何限制嗎？**  
+A: 試用版提供完整功能，包括外部連結偵測，沒有任何限制。
 
 **Q: 若我刪除來源檔案，隱藏的連結會自動移除嗎？**  
-A: 不會。連結仍會保留在活頁簿中，必須透過 API 明確移除或更新。
+A: 不會。該連結會保留在工作簿中，直到您透過 API 明確移除或更新它。
 
-**Q: 我可以只篩選出隱藏的連結嗎？**  
-A: 可以──檢查 `isVisible()`，若回傳 `false` 即表示該連結為隱藏。
+**Q: 我可以過濾結果，只顯示隱藏的連結嗎？**  
+A: 可以——檢查 `isVisible()`；若回傳 `false`，即表示該連結為隱藏。
 
-**Q: 如何將偵測結果匯出為 CSV 檔？**  
-A: 迭代 `ExternalLinkCollection`，將每筆屬性寫入 `FileWriter`，最後存成 CSV。
+**Q: 如何將偵測結果匯出為 CSV 檔案？**  
+A: 迭代 `ExternalLinkCollection`，將每個屬性寫入 `FileWriter`，然後儲存為 CSV。
 
-**Q: 密碼保護的活頁簿也能偵測隱藏連結嗎？**  
-A: 可以──使用 `Workbook(String fileName, LoadOptions options)` 並提供密碼載入活頁簿，然後執行相同的偵測邏輯。
+**Q: 是否支援在受密碼保護的工作簿中偵測隱藏連結？**  
+A: 使用 `Workbook(String fileName, LoadOptions options)` 以密碼載入工作簿，然後執行相同的偵測邏輯。
 
 ## 資源
-- [Aspose.Cells 文件](https://reference.aspose.com/cells/java/)
-- [下載 Aspose.Cells](https://releases.aspose.com/cells/java/)
-- [購買授權](https://purchase.aspose.com/buy)
-- [免費試用](https://releases.aspose.com/cells/java/)
-- [臨時授權](https://purchase.aspose.com/temporary-license/)
+- [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)
+- [Download Aspose.Cells](https://releases.aspose.com/cells/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/cells/java/)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
 
 ---
 
-**最後更新：** 2025-12-29  
-**測試環境：** Aspose.Cells for Java 25.3  
-**作者：** Aspose  
-
----
+**Last Updated:** 2026-05-03  
+**Tested With:** Aspose.Cells for Java 25.3  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

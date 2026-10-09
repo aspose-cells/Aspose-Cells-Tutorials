@@ -71,7 +71,8 @@ Aspose.Words Java 程式碼教程
 ### [如何在 Java 中檢索 Aspose.Cells 版本：逐步指南](./retrieve-aspose-cells-version-java-guide/)
 透過本綜合指南了解如何檢查 Java 專案中 Aspose.Cells 的版本。確保相容性並有效利用新功能。
 
-
+### [建立授權工作簿 – 完整 Aspose.Cells Java 指南](./create-licensed-workbook-full-aspose-cells-java-guide/)
+了解如何在 Java 中使用 Aspose.Cells 建立具授權的工作簿，涵蓋設定授權、建立工作簿及保存流程的完整指南。
 
 ## 其他資源
 

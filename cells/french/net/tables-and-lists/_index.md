@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tableaux et listes
@@ -39,25 +37,51 @@ L'une des fonctionnalités les plus puissantes d'Aspose.Cells pour .NET est sa c
 ## Tutoriels sur les tableaux et les listes
 ### [Créer un objet de liste dans Excel à l'aide d'Aspose.Cells](./creating-list-object/)
 Créez un objet de liste dans Excel avec Aspose.Cells pour .NET grâce à ce guide détaillé. Maîtrisez la gestion des données et les calculs.
+
 ### [Formater un objet de liste dans Excel avec Aspose.Cells](./formatting-list-object/)
 Apprenez à mettre en forme un objet de liste dans Excel avec Aspose.Cells pour .NET. Créez et stylisez facilement des tableaux.
+
 ### [Convertir un tableau en ODS à l'aide d'Aspose.Cells](./converting-table-to-ods/)
 Apprenez à convertir des tableaux Excel en ODS à l'aide d'Aspose.Cells pour .NET avec notre didacticiel simple étape par étape.
+
 ### [Convertir un tableau en plage dans Excel](./converting-table-to-range/)
 Convertissez facilement des tableaux Excel en plages avec Aspose.Cells pour .NET. Suivez notre guide étape par étape pour simplifier la manipulation de vos données.
+
 ### [Convertir un tableau en plage avec options](./converting-table-to-range-with-options/)
 Convertissez facilement des tableaux en plages dans Excel grâce à Aspose.Cells pour .NET, grâce à des instructions étape par étape. Améliorez vos compétences en manipulation de données Excel.
+
 ### [Lecture et écriture d'une table avec une source de données de requête](./reading-and-writing-table-with-query-data-source/)
 Exploitez toute la puissance d'Aspose.Cells pour .NET. Apprenez à lire et écrire des tables avec des sources de données de requête grâce à ce guide détaillé étape par étape.
+
 ### [Définir un commentaire sur un tableau ou une liste dans Excel](./setting-comment-of-table-or-list/)
 Apprenez à définir des commentaires pour les tableaux dans Excel à l’aide d’Aspose.Cells pour .NET avec notre guide étape par étape simple.
+### [Créer un tableau Excel en C# – Guide étape par étape](./create-excel-table-in-c-step-by-step-guide/)
+Apprenez à créer un tableau Excel en C# avec Aspose.Cells pour .NET grâce à ce guide détaillé pas à pas.
+### [Créer un tableau à partir d'une plage en C# – Tutoriel complet Aspose.Cells](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+Apprenez à créer un tableau Excel à partir d'une plage de cellules en C# avec Aspose.Cells, étape par étape.
+
+### [Comment renommer un tableau en C# – Guide complet](./how-to-rename-table-in-c-full-guide/)
+Apprenez à renommer un tableau dans Excel en utilisant C# avec Aspose.Cells pour .NET grâce à ce guide complet étape par étape.
+### [Supprimer des lignes d'un tableau Word – Guide complet C#](./delete-rows-word-table-complete-c-guide/)
+Apprenez à supprimer des lignes d'un tableau Word en C# avec Aspose.Words grâce à ce guide complet étape par étape.
+
+
+
+
+
+
+
+
+### [Supprimer l'en-tête de tableau dans Aspose.Cells – Guide complet](./remove-table-header-in-aspose-cells-complete-guide/)
+Apprenez à supprimer l'en-tête d'un tableau Excel avec Aspose.Cells grâce à ce guide complet étape par étape.
+### [Comment renommer un tableau dans Excel avec C# – Guide étape par étape](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Apprenez à renommer un tableau Excel en C# avec Aspose.Cells grâce à ce guide détaillé étape par étape.
 ### [Supprimer plusieurs lignes Word – Guide complet pour supprimer des lignes de tableau](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
 Apprenez à supprimer plusieurs lignes d'un tableau Word avec Aspose.Words pour .NET grâce à ce guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -72,6 +72,12 @@ Excel 中经常被忽视的功能之一是处理超链接。您知道吗？使�
 学习如何使用 Aspose.Cells for .NET 更新共享工作簿中的修订日志历史记录。简化协作并保持清晰的文档记录。
 ### [在工作表中利用 OpenXml 的 Sheet_SheetId 属性](./utilize-sheet-sheetid-property/)
 使用 Aspose.Cells for .NET 解锁 Excel 的强大功能。通过我们的分步指南学习如何有效地操作 Sheet ID。
+### [如何创建工作表 – 动态 Excel 生成的分步指南](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
+使用 Aspose.Cells for .NET 动态生成 Excel 工作表的完整分步指南，帮助您快速创建并自定义工作表。
+### [在 C# 中重命名工作表 – 完整指南](./how-to-rename-worksheet-in-c-complete-guide/)
+使用 Aspose.Cells for .NET 在 C# 中轻松重命名 Excel 工作表，提供完整的分步指南和示例代码。
+### [在 C# 中为每个项目创建工作表 – 如何重复工作表](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+使用 Aspose.Cells for .NET 在 C# 中根据每个项目创建并重复工作表的分步指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

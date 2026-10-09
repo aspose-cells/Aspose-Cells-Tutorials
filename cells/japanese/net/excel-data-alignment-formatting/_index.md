@@ -38,6 +38,9 @@
 ### [書式を維持したままExcelのセルの配置を変更する](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
 Aspose.Cells for .NET を使用して、書式を維持したままExcelセルの配置を変更する方法を学びましょう。シームレスな制御を実現するには、包括的なステップバイステップガイドに従ってください。
 
+### [Excelでテキストを折り返す方法：セル内でテキストを折り返し、オートフィットと保存](./how-to-wrap-text-in-excel-wrap-text-in-cell-auto-fit-save/)
+セル内でテキストを折り返し、列幅を自動調整し、変更を保存する手順をステップバイステップで解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -72,6 +72,10 @@ Tanuld meg, hogyan igazíthatod függőlegesen a szöveget az Excel cellákban a
 A szöveg irányának átalakítása Excelben az Aspose.Cells for .NET segítségével. Kövesd lépésről lépésre szóló útmutatónkat a szöveg egyszerű elforgatásához és beállításához.
 ### [Hosszú szövegek sorba vágása cellákon belül Excelben](./wrapping-long-text-within-cells/)
 Tanuld meg, hogyan tördelheted a hosszú szöveget Excel cellákban az Aspose.Cells for .NET segítségével ebben a könnyen követhető útmutatóban. Könnyedén alakíthatod át táblázataidat.
+### [Hogyan formázzuk az oszlopokat Excelben C#‑ban – DataTable importálása](./how-to-style-columns-in-excel-with-c-import-datatable/)
+Tanulja meg, hogyan formázhatja az Excel oszlopokat C#‑ban DataTable importálásával az Aspose.Cells for .NET segítségével.
+### [Cellastílus létrehozása C#‑ban – Stílus alkalmazása cellára és szöveg középre igazítása](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
+### [Cellastílusok alkalmazása Aspose.Cells használatával – DataTable importálása formázással](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
