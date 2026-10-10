@@ -71,7 +71,7 @@ Aspose.Cells 智能标记器还支持匿名类型，无需预定义结构即可�
 使用 Aspose.Cells for .NET 中的智能标记轻松分组数据。请遵循我们全面的指南，获取分步说明。
 ### [在 Aspose.Cells 中插入带有图像标记的图像](./insert-images-smart-markers/)
 按照我们的分步指南，了解如何在 Aspose.Cells for .NET 中使用图像标记插入图像！有效地利用视觉效果增强您的 Excel 报告。
-### [使用智能标记 Aspose.Cells 的匿名类型](./use-anonymous-types-smart-markers/)
+### [使用 Aspose.Cells 智能标记的匿名类型](./use-anonymous-types-smart-markers/)
 了解如何在 Aspose.Cells 中使用带有智能标记的匿名类型在 .NET 中生成动态 Excel 报告。请遵循我们的简易指南。
 ### [在 Aspose.Cells 智能标记中应用复制样式属性](./copy-style-attribute-smart-markers/)
 探索 Aspose.Cells for .NET 的强大功能，并学习如何在 Excel 智能标记中轻松应用复制样式属性。本教程包含详细的分步说明。
@@ -116,13 +116,8 @@ Aspose.Cells 智能标记器还支持匿名类型，无需预定义结构即可�
 学习在 Aspose.Cells for .NET 中使用智能标记链接多个工作表，实现跨表数据关联和自动更新。
 ### [使用 C# 将 JSON 转换为 Excel – 步骤指南](./convert-json-to-excel-with-c-step-by-step-guide/)
 了解如何使用 C# 将 JSON 数据转换为 Excel 文件的完整步骤，适用于 .NET 开发者。
-
-
-
-
-
-
-
+### [使用 SmartMarker 将 JSON 转换为 XLSX（C#）](./convert-json-to-xlsx-in-c-using-smartmarker/)
+了解如何使用 Aspose.Cells SmartMarker 在 C# 中将 JSON 数据转换为 XLSX 文件，实现自动化报表生成。
 
 ### [自动命名 Excel 工作表 – 轻松生成工作表](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
 了解如何使用 Aspose.Cells 自动为生成的工作簿命名工作表，实现快速、灵活的报表创建。
@@ -156,7 +151,8 @@ Aspose.Cells 智能标记器还支持匿名类型，无需预定义结构即可�
 ### [导出数据到 Excel – 使用智能标记填充 Excel 模板的完整指南](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
 本完整指南展示如何使用 Aspose.Cells Smart Markers 将数据导出到 Excel，并填充预定义模板，实现自动化报表生成。
 ### [Aspose Cells 智能标记：使用模型在 C# 中生成 Excel](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
-学习如何使用 Aspose.Cells 智能标记从 .NET 模型生成 Excel，实现快速、自动化的报表创建。
+### [如何创建智能标记数据并填充 Excel 模板数据](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
+### [如何通过合并 Excel 模板与智能标记生成 Excel 报告](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

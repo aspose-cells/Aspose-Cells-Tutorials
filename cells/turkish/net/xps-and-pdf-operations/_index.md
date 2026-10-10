@@ -46,6 +46,8 @@ C# ile XPS dosyalarına yazı tiplerini nasıl gömeceğinizi adım adım öğre
 Aspose.Cells kullanarak PDF'ye gömülü font eklemeyi ve C# ile adım adım nasıl yapılacağını öğrenin.
 ### [C#'ta Çalışma Kitabını XPS Olarak Kaydet – Adım Adım Kılavuz](./save-workbook-as-xps-in-c-step-by-step-guide/)
 Aspose.Cells for .NET kullanarak C# ile bir çalışma kitabını XPS formatına kaydetmeyi adım adım öğrenin.
+### [C# ile Excel'i XPS'e Dönüştürme ve Excel Dosyasını Yükleme](./convert-excel-to-xps-in-c-and-load-excel-file/)
+C# kullanarak Excel dosyasını yükleyip XPS formatına dönüştürmeyi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

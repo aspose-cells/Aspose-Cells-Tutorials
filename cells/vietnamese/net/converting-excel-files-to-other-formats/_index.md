@@ -60,10 +60,10 @@ Tìm hiểu cách chuyển đổi tệp Excel sang PDF/A-1a cho mục đích lư
 Tìm hiểu cách chuyển đổi JSON sang CSV theo chương trình trong .NET bằng Aspose.Cells. Làm theo hướng dẫn từng bước của chúng tôi để đảm bảo chuyển đổi dữ liệu liền mạch.
 
 ### [Chuyển đổi tệp Excel sang PPTX theo chương trình trong .NET](./converting-excel-file-to-pptx/)
-Tìm hiểu cách chuyển đổi tệp Excel sang bản trình bày PowerPoint (PPTX) theo chương trình bằng Aspose.Cells cho .NET với hướng dẫn từng bước này.
+Tìm hiểu cách chuyển đổi tệp Excel sang bản trình chiếu PowerPoint (PPTX) theo chương trình bằng Aspose.Cells cho .NET với hướng dẫn từng bước này.
 ### [Tạo PowerPoint từ Excel – Hướng dẫn từng bước C#](./create-powerpoint-from-excel-step-by-step-c-guide/)
 Hướng dẫn chi tiết cách chuyển đổi dữ liệu Excel thành bản trình chiếu PowerPoint bằng C# và Aspose.Cells.
-### [Chuyển đổi Excel sang PowerPoint với C# – Hướng dẫn đầy đủ](./convert-excel-to-powerpoint-with-c-complete-guide/)
+### [Chuyển đổi Excel sang PowerPoint – Hướng dẫn đầy đủ C#](./convert-excel-to-powerpoint-with-c-complete-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang PowerPoint bằng C# và Aspose.Cells, bao gồm các ví dụ mã đầy đủ.
 ### [Chuyển đổi XLSX sang CSV trong C# – Hướng dẫn chi tiết từng bước](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
 Hướng dẫn từng bước để chuyển đổi tệp XLSX sang CSV bằng C# sử dụng Aspose.Cells cho .NET.
@@ -85,6 +85,9 @@ mô tả: Tìm hiểu cách theo dõi tiến trình chuyển đổi tài liệu 
 Học cách theo dõi tiến trình chuyển đổi TIFF theo chương trình bằng Aspose.Cells cho .NET với hướng dẫn từng bước của chúng tôi. Nâng cao kỹ năng quản lý tài liệu của bạn.
 
 ### [Đặt khu vực in trong Excel và xuất sang PowerPoint – Hướng dẫn từng bước](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
+
+### [Chuyển đổi Excel sang PowerPoint và đặt khu vực in](./convert-excel-to-powerpoint-and-set-print-area/)
+Hướng dẫn cách chuyển đổi bảng tính Excel sang PowerPoint và thiết lập khu vực in bằng Aspose.Cells cho .NET.
 
 ### [Xuất Excel sang PowerPoint – Hướng dẫn C# đầy đủ](./export-excel-to-powerpoint-complete-c-guide/)
 Tìm hiểu cách xuất chương trình Excel sang bản trình chiếu PowerPoint bằng Aspose.Cells cho .NET với C#.
@@ -121,13 +124,20 @@ Tìm hiểu cách chuyển đổi tệp Excel sang PowerPoint bằng C# với As
 ### [Lưu Excel dưới dạng Văn bản – Hướng dẫn C# đầy đủ để xuất Excel sang TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
 Tìm hiểu cách lưu tệp Excel dưới dạng văn bản (TXT) bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết từng bước.
 
+### [Lưu Excel dưới dạng văn bản – Hướng dẫn từng bước với Aspose.Cells](./how-to-save-excel-as-text-with-aspose-cells-step-by-step-gui/)
+Hướng dẫn chi tiết cách lưu bảng tính Excel thành tệp văn bản (TXT) bằng Aspose.Cells cho .NET, từng bước một.
+
 ### [Cách xuất Excel – Hướng dẫn văn bản phân tách bằng Tab](./how-to-export-excel-tab-delimited-text-guide/)
 Tìm hiểu cách xuất tệp Excel thành văn bản phân tách bằng Tab bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết từng bước.
+
 ### [Cách xuất Excel sang PowerPoint bằng C# – Hướng dẫn đầy đủ](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
 Hướng dẫn chi tiết cách chuyển đổi bảng tính Excel sang bản trình chiếu PowerPoint bằng C# và Aspose.Cells.
 
 ### [Lưu Excel dưới dạng txt – Hướng dẫn C# đầy đủ để xuất số với chữ số có ý nghĩa](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 Tìm hiểu cách lưu Excel thành tệp txt và xuất các số với chữ số có ý nghĩa bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết.
+
+### [Cách chuyển đổi Excel sang PNG với C# – hướng dẫn từng bước](./how-to-convert-excel-to-png-with-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang định dạng PNG bằng C# và Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

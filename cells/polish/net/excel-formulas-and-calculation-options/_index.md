@@ -82,7 +82,8 @@ Dowiedz się, jak rejestrować i wywoływać funkcje z dodatków w programie Exc
 Dowiedz się, jak określić maksymalną liczbę wierszy dla współdzielonych formuł w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego prostego samouczka krok po kroku.
 ### [Jak używać WRAPCOLS w C# – przekształcanie tablic w macierze](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
 Dowiedz się, jak używać funkcji WRAPCOLS w C# do przekształcania jednowymiarowych tablic w macierze przy pomocy Aspose.Cells.
-
+### [Jak utworzyć skoroszyt Excel i podzielić dane przy użyciu WRAPCOLS w C#](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
+Dowiedz się, jak w C# utworzyć skoroszyt Excel i podzielić dane na kolumny przy użyciu funkcji WRAPCOLS w Aspose.Cells.
 ### [Jak rozszerzyć tablicę w C# przy użyciu Aspose.Cells – przewodnik krok po kroku](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Dowiedz się, jak w prosty sposób rozszerzyć tablicę w C# przy użyciu Aspose.Cells, korzystając z naszego szczegółowego przewodnika krok po kroku.
 

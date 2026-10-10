@@ -46,6 +46,8 @@ Scopri come incorporare i font nei file XPS usando C# e Aspose.Cells, con esempi
 Scopri come incorporare i font nei PDF generati da Aspose.Cells usando C#, garantendo la corretta visualizzazione del testo.
 ### [Salva cartella di lavoro come XPS in C# – Guida passo‑passo](./save-workbook-as-xps-in-c-step-by-step-guide/)
 Scopri come salvare una cartella di lavoro Excel come file XPS usando C# con esempi pratici passo‑passo.
+### [Converti Excel in XPS in C# e carica il file Excel](./convert-excel-to-xps-in-c-and-load-excel-file/)
+Scopri come convertire un file Excel in XPS in C# e caricare il file Excel con esempi pratici.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

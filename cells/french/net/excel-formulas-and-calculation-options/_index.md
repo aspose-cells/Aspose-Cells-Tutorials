@@ -88,6 +88,8 @@ Apprenez à créer un fichier Excel en C# avec une logique conditionnelle grâce
 Apprenez à calculer la fonction cotangente dans Excel en utilisant C# avec Aspose.Cells, grâce à ce guide détaillé étape par étape.
 ### [Comment utiliser WRAPCOLS en C# – Remodeler les tableaux en matrices](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
 Apprenez à utiliser la fonction WRAPCOLS en C# pour convertir des tableaux en matrices avec Aspose.Cells pour .NET.
+### [Comment créer un classeur Excel et diviser les données avec WRAPCOLS en C#](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
+Apprenez à créer un classeur Excel et à répartir les données en utilisant WRAPCOLS avec Aspose.Cells pour .NET.
 ### [Comment créer un tableau dans Excel avec C# – Guide étape par étape](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 Apprenez à créer et manipuler des tableaux dans Excel en utilisant C# avec Aspose.Cells, grâce à ce guide détaillé étape par étape.
 ### [Comment calculer la cotangente dans Excel avec C# – Guide complet](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)

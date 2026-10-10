@@ -93,6 +93,8 @@ Tìm hiểu cách tính hàm cotangent trong Excel bằng C# với Aspose.Cells 
 Tìm hiểu cách sử dụng hàm WRAPCOLS trong Excel với ví dụ C# đầy đủ bằng Aspose.Cells cho .NET.
 ### [Áp dụng công thức mảng Excel trong C# – Hướng dẫn đầy đủ](./apply-array-formula-excel-in-c-complete-guide/)
 Tìm hiểu cách áp dụng công thức mảng trong Excel bằng C# với Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
+### [Cách tạo workbook Excel và chia dữ liệu bằng WRAPCOLS trong C#](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
+Hướng dẫn tạo workbook Excel và phân tách dữ liệu bằng hàm WRAPCOLS trong C# với Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

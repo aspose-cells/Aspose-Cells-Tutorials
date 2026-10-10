@@ -51,14 +51,24 @@ Lär dig bemästra dataintegration med hjälp av Aspose.Cells .NET Smart Markers
 
 ### [Mallsbindning i Excel: Fyll i mallar med C#](./template-data-binding-in-excel-populate-templates-with-c/)
 Lär dig hur du binder data till Excel-mallar med C# och automatiserar genereringen av kalkylblad.
+
+### [Hur man bearbetar Excel-mall och automatiskt namnger blad i C#](./how-to-process-excel-template-and-automatically-name-sheets/)
+Lär dig hur du bearbetar en Excel-mall och automatiskt ger kalkylbladen namn med C# och Aspose.Cells.
+
 ### [Skapa arbetsbok från mall i C# – Steg‑för‑steg‑guide](./create-workbook-from-template-in-c-step-by-step-guide/)
 Lär dig hur du skapar en Excel‑arbetsbok från en mall med Aspose.Cells för .NET i C# steg för steg.
+
 ### [Skapa Excel från mall – Steg‑för‑steg‑guide för .NET‑utvecklare](./create-excel-from-template-step-by-step-guide-for-net-develo/)
 Lär dig hur du genererar Excel-filer från en befintlig mall med Aspose.Cells för .NET i en detaljerad steg‑för‑steg‑guide.
+
 ### [Skapa Excel från mall – Lägg till data, bild och spara XLSX](./create-excel-from-template-add-data-image-save-xlsx/)
 Lär dig hur du skapar ett Excel-dokument från en mall, lägger till data och bilder och sparar det som XLSX.
+
 ### [Spara en ifylld arbetsbok programatiskt med Aspose.Cells](./save-populated-workbook-programmatically-with-aspose-cells/)
 Lär dig hur du sparar en ifylld Excel-arbetsbok programatiskt med Aspose.Cells för .NET.
+
+### [Hur du exporterar data till Excel med en C#‑mall – steg‑för‑steg‑guide](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
+Lär dig hur du med en C#‑mall exporterar data till Excel i en tydlig steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

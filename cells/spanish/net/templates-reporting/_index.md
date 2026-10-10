@@ -63,6 +63,12 @@ Guía paso a paso para guardar archivos de plantilla de Excel usando Aspose.Cell
 ### [Cómo usar Excel para combinación de correspondencia – Guía completa en C#](./how-to-use-excel-for-mail-merge-complete-c-guide/)
 Aprenda a utilizar Excel para combinar correspondencia mediante Aspose.Cells y C#, creando documentos personalizados de forma automatizada.
 
+### [Cómo procesar una plantilla de Excel y nombrar automáticamente las hojas en C#](./how-to-process-excel-template-and-automatically-name-sheets/)
+Aprenda a procesar plantillas de Excel y asignar nombres a las hojas automáticamente usando C# y Aspose.Cells.
+
+### [Cómo exportar datos a Excel usando una plantilla C# – guía paso a paso](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
+Aprenda a exportar datos a Excel mediante una plantilla C# con Aspose.Cells, siguiendo una guía paso a paso.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

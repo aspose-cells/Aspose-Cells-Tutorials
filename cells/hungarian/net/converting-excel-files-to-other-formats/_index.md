@@ -52,11 +52,15 @@ Néhány egyszerű lépésben konvertálhat Excel fájlokat HTML-lé az Aspose.C
 ### [Excel fájlok programozott konvertálása Markdown formátumba .NET-ben](./converting-excel-file-to-markdown/)
 Tanuld meg, hogyan konvertálhatsz Excel fájlokat Markdown formátumba az Aspose.Cells for .NET segítségével ebben a részletes, lépésről lépésre szóló útmutatóban. Növeld a termelékenységet az egyszerű fájlkonvertálással.
 ### [Excel fájlok programozott konvertálása PDF-be (A-1a) .NET-ben](./converting-excel-file-to-pdf-a-1a/)
-Tanulja meg, hogyan konvertálhat Excel-fájlokat PDF/A-1a formátumba archiválási célokra az Aspose.Cells for .NET segítségével. Lépésről lépésre útmutató kódpéldákkal.
+Tanulja meg, hogyan konvertálhat Excel-fájlokat PDF/A-1a formátumba archiválási célokra az Aspose.Cells for .NET segítségével. Lépésről‑lépésre útmutató kódpéldákkal.
+### [Excel fájlok programozott konvertálása PNG formátumba .NET-ben](./how-to-convert-excel-to-png-with-c-step-by-step-guide/)
+Tanulja meg, hogyan konvertálhat Excel-fájlokat PNG képként .NET-ben az Aspose.Cells segítségével. Lépésről‑lépésre útmutató kódmintákkal.
 ### [JSON programozott konvertálása CSV-vé .NET-ben](./converting-json-to-csv/)
 Tanuld meg, hogyan konvertálhatsz JSON fájlokat CSV fájlokká programozottan .NET-ben az Aspose.Cells segítségével. Kövesd lépésről lépésre szóló útmutatónkat a zökkenőmentes adatátalakítás érdekében.
 ### [Excel fájlok programozott konvertálása PPTX formátumba .NET-ben](./converting-excel-file-to-pptx/)
 Tanulja meg, hogyan konvertálhat Excel-fájlt PowerPoint-bemutatóvá (PPTX) programozottan az Aspose.Cells for .NET használatával ebből a lépésről lépésre szóló útmutatóból.
+### [Excel exportálása PowerPointba – Teljes C# útmutató](./export-excel-to-powerpoint-complete-c-guide/)
+Ismerje meg, hogyan exportálhat Excel-fájlokat PowerPoint prezentációvá teljes körű C# példákkal az Aspose.Cells for .NET segítségével.
 ### [Excel exportálása PowerPointba – Teljes C# útmutató](./export-excel-to-powerpoint-complete-c-guide/)
 Ismerje meg, hogyan exportálhat Excel-fájlokat PowerPoint prezentációvá teljes körű C# példákkal az Aspose.Cells for .NET segítségével.
 ### [Excel konvertálása PowerPointba C#-val – Teljes útmutató](./convert-excel-to-powerpoint-with-c-complete-guide/)
@@ -74,10 +78,7 @@ leírás: Ebben a részletes oktatóanyagban megtudhatja, hogyan követheti nyom
 Ismerje meg, hogyan konvertálhat XLSX fájlokat CSV formátumba C#‑ban az Aspose.Cells segítségével, részletes kódpéldákkal.
 
 ### [PowerPoint létrehozása Excelből – Lépésről‑lépésre C# útmutató](./create-powerpoint-from-excel-step-by-step-c-guide/)
-Ismerje meg, hogyan hozhat létre PowerPoint‑prezentációt Excel‑adatokból C#‑ban az Aspose.Cells segítségével, lépésről‑lépésre.
-
-### [Nyomtatási terület beállítása Excelben és exportálás PowerPointba – Lépés‑ről‑lépésre útmutató](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
-Ismerje meg, hogyan állíthat be nyomtatási területet Excelben, majd exportálhatja a munkalapot PowerPoint diára az Aspose.Cells for .NET segítségével.
+Ismerje meg, hogyan hozhat létre PowerPoint‑prezentációt Excel‑adatokból C#‑ban az Aspose.Cells segítségével.
 
 
 
@@ -95,21 +96,23 @@ Ismerje meg, hogyan hozhat létre PPT prezentációt Excel-fájlokból C#-ban az
 ### [Excel mentése txt formátumba – Teljes C# útmutató a számok jelentős számjegyeinek exportálásához](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 Ismerje meg, hogyan exportálhatja az Excel számértékeit txt fájlba, megőrizve a jelentős számjegyeket, C#-ban az Aspose.Cells segítségével.
 ### [PowerPoint létrehozása Excelből – Teljes C# oktatóanyag](./create-powerpoint-from-excel-complete-c-tutorial/)
-Tanulja meg, hogyan hozhat létre PowerPoint-prezentációt Excel-adatokból C#-ban az Aspose.Cells segítségével.
-### [Hogyan exportáljunk Excel-t PowerPointba – Lépésről‑lépésre útmutató](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
-Tanulja meg, hogyan exportálhat Excel-fájlokat PowerPoint-prezentációvá C#-ban az Aspose.Cells for .NET segítségével, részletes lépésekkel.
-### [PowerPoint létrehozása Excelből – Lépésről‑lépésre útmutató](./create-powerpoint-from-excel-step-by-step-guide/)
-Tanulja meg, hogyan hozhat létre PowerPoint‑prezentációt Excel‑adatokból lépésről‑lépésre az Aspose.Cells for .NET segítségével.
+Tanulja meg, hogyan hozhat létre PowerPoint‑prezentációt Excel‑adatokból C#‑ban az Aspose.Cells segítségével.
 ### [Excel mentése szövegként – Teljes C# útmutató az Excel TXT formátumba exportálásához](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
-Ismerje meg, hogyan menthet Excel-fájlokat TXT szövegfájlokba C#-ban az Aspose.Cells segítségével, lépésről-lépésre példákkal.
+Ismerje meg, hogyan menthet Excel-fájlokat TXT szövegfájlokba C#-ban az Aspose.Cells for .NET segítségével, lépésről‑lépésre példákkal.
+### [Excel mentése szövegként – lépésről‑lépésre útmutató](./how-to-save-excel-as-text-with-aspose-cells-step-by-step-gui/)
+Ismerje meg, hogyan menthet Excel-fájlokat egyszerű szövegfájlba az Aspose.Cells segítségével lépésről‑lépésre.
 ### [Excel exportálása – Tab‑elválasztott szöveg útmutató](./how-to-export-excel-tab-delimited-text-guide/)
-Ismerje meg, hogyan exportálhatja az Excel-munkafüzetet tabulátorral elválasztott szövegfájlba az Aspose.Cells for .NET segítségével.
+Ismerje meg, hogyan exportálhatja az Excel‑munkafüzetet tabulátorral elválasztott szövegfájlba az Aspose.Cells for .NET segítségével.
 ### [Hogyan mentsünk DOCX-et Excelből – Teljes útmutató a diagramok Word-be exportálásához](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
 Tanuld meg, hogyan exportálhatod az Excel diagramokat DOCX fájlba a Wordben, lépésről lépésre útmutatóval.
-### [Excel konvertálása PowerPointba – Lépésről lépésre C# útmutató](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+### [Excel konvertálása PowerPointba – Lépésről‑lépésre C# útmutató](./convert-excel-to-powerpoint-step-by-step-c-guide/)
 Ismerje meg, hogyan konvertálhat Excel-fájlokat PowerPoint diákba C#-ban az Aspose.Cells segítségével, részletes kódmintákkal.
 ### [Excel exportálása PowerPointba – Teljes C# útmutató](./how-to-export-excel-to-powerpoint-complete-c-guide/)
-Ismerje meg, hogyan exportálhat Excel-fájlokat PowerPoint bemutatóvá C#-ban az Aspose.Cells segítségével, lépésről lépésre útmutatóval.
+Ismerje meg, hogyan exportálhat Excel-fájlokat PowerPoint bemutatóvá C#-ban az Aspose.Cells for .NET segítségével, lépésről lépésre útmutatóval.
+### [Nyomtatási terület beállítása Excelben és exportálás PowerPointba – Lépés‑ről‑lépésre útmutató](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
+Ismerje meg, hogyan állíthat be nyomtatási területet Excelben, majd exportálhatja a munkalapot PowerPoint diára az Aspose.Cells for .NET segítségével.
+### [Excel konvertálása PowerPointba és nyomtatási terület beállítása](./convert-excel-to-powerpoint-and-set-print-area/)
+Ismerje meg, hogyan konvertálhat Excel-fájlokat PowerPoint prezentációvá, és állíthat be nyomtatási területet a folyamat során.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

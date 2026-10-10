@@ -1,0 +1,276 @@
+---
+category: general
+date: 2026-10-10
+description: สร้างข้อมูล smart marker และเติมข้อมูลเทมเพลต Excel ด้วย smart markers
+  ของ Aspose.Cells. ทำตามคู่มือขั้นตอนต่อไปนี้เพื่ออัตโนมัติรายงาน Excel.
+draft: false
+images:
+- PLACEHOLDER_URL/og-image.png
+keywords:
+- create smart marker data
+- fill excel template data
+- use aspose.cells smart markers
+language: th
+lastmod: 2026-10-10
+og_description: สร้างข้อมูล smart marker ด้วย smart marker ของ Aspose.Cells และเติมข้อมูลเทมเพลต
+  Excel ภายในไม่กี่นาที คู่มือนี้จะพาคุณผ่านตัวอย่างที่สมบูรณ์และสามารถรันได้
+og_image_alt: Screenshot showing the process of creating smart marker data in an Excel
+  worksheet
+og_title: สร้างข้อมูล Smart Marker และกรอกข้อมูลเทมเพลต Excel
+schemas:
+- author: Aspose
+  dateModified: '2026-10-10'
+  description: Create smart marker data and fill Excel template data using Aspose.Cells
+    smart markers. Follow this step‑by‑step guide to automate Excel reports.
+  headline: How to create smart marker data and fill Excel template data
+  type: TechArticle
+- description: Create smart marker data and fill Excel template data using Aspose.Cells
+    smart markers. Follow this step‑by‑step guide to automate Excel reports.
+  name: How to create smart marker data and fill Excel template data
+  steps:
+  - name: '**Loading the workbook** gives the processor a concrete file to work on.'
+    text: '**Loading the workbook** gives the processor a concrete file to work on.'
+  - name: '**Selecting the worksheet** ensures the processor scans the correct sheet;
+      you can target any sheet by index or name.'
+    text: '**Selecting the worksheet** ensures the processor scans the correct sheet;
+      you can target any sheet by index or name.'
+  - name: '**The data source** is an array of anonymous objects. Each property name
+      (`fieldName`) must match the marker name inside `${Comment:fieldName}`.'
+    text: '**The data source** is an array of anonymous objects. Each property name
+      (`fieldName`) must match the marker name inside `${Comment:fieldName}`.'
+  - name: '**`SmartMarkerProcessor`** is the engine that parses tags and performs
+      the replacement.'
+    text: '**`SmartMarkerProcessor`** is the engine that parses tags and performs
+      the replacement.'
+  - name: '**`Process`** performs the heavy lifting: it reads every `${...}` tag,
+      looks up the matching property in the data source, and writes the value into
+      the cell.'
+    text: '**`Process`** performs the heavy lifting: it reads every `${...}` tag,
+      looks up the matching property in the data source, and writes the value into
+      the cell.'
+  - name: '**Saving the workbook** writes the updated file to disk, ready for downstream
+      consumption.'
+    text: '**Saving the workbook** writes the updated file to disk, ready for downstream
+      consumption.'
+  - name: Open a new Excel workbook.
+    text: Open a new Excel workbook.
+  - name: 'In any cell where you want dynamic content, type a Smart Marker tag, for
+      example:'
+    text: 'In any cell where you want dynamic content, type a Smart Marker tag, for
+      example:'
+  - name: Save the file as `Template.xlsx`.
+    text: Save the file as `Template.xlsx`.
+  type: HowTo
+tags:
+- Aspose.Cells
+- C#
+- Excel automation
+title: วิธีสร้างข้อมูล Smart Marker และกรอกข้อมูลเทมเพลต Excel
+url: /th/net/smart-markers-dynamic-data/how-to-create-smart-marker-data-and-fill-excel-template-data/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# วิธีสร้างข้อมูล smart marker และเติมข้อมูลเทมเพลต Excel
+
+หากคุณต้องการ **สร้างข้อมูล smart marker** สำหรับเวิร์กบุ๊ก Excel, Smart Markers ของ Aspose.Cells ทำให้ทำได้ง่ายดาย บทเรียนนี้จะแสดงวิธี **เติมข้อมูลเทมเพลต Excel** โดยใช้ smart markers เพียงไม่กี่บรรทัดของโค้ด C#.
+
+คุณจะได้เรียนรู้วิธีฝังแท็ก Smart Marker ลงในเทมเพลต, จัดหาตัวแหล่งข้อมูล, รันโปรเซสเซอร์, และบันทึกไฟล์ที่เติมข้อมูลแล้ว ไม่ต้องใช้เครื่องมือภายนอก—เพียง Aspose.Cells for .NET และโปรเจกต์ C# เบื้องต้น
+
+## สิ่งที่คุณต้องการ
+
+- .NET 6.0 หรือใหม่กว่า (โค้ดนี้ยังทำงานกับ .NET Framework 4.7+)
+- Aspose.Cells for .NET (แพคเกจ NuGet `Aspose.Cells`)
+- เวิร์กบุ๊ก Excel ที่มีแท็ก Smart Marker เช่น `${Comment:fieldName}`
+- IDE สำหรับ C# (Visual Studio, Rider, หรือ VS Code)
+
+> **เคล็ดลับ:** เก็บไฟล์เวิร์กบุ๊กไว้ในโฟลเดอร์เดียวกับโปรเจกต์หรือใช้พาธแบบเต็มเพื่อหลีกเลี่ยงข้อผิดพลาดไฟล์ไม่พบ
+
+## วิธีสร้างข้อมูล smart marker ด้วย Aspose.Cells
+
+หัวใจของวิธีแก้คือ `SmartMarkerProcessor` ซึ่งสแกนแผ่นงานเพื่อค้นหาแท็ก, ดึงค่าที่ตรงกันจากแหล่งข้อมูล, และเขียนผลลัพธ์กลับลงในแผ่น
+
+```csharp
+using Aspose.Cells;
+using System;
+
+// 1️⃣ Load the workbook that contains Smart Marker tags.
+Workbook workbook = new Workbook("Template.xlsx");
+
+// 2️⃣ Get the worksheet where the tags reside.
+Worksheet ws = workbook.Worksheets[0];
+
+// 3️⃣ Prepare the data source that supplies values for the markers.
+var dataSource = new[]
+{
+    new { fieldName = "Sample comment text generated by C#." }
+};
+
+// 4️⃣ Create a SmartMarkerProcessor instance.
+SmartMarkerProcessor processor = new SmartMarkerProcessor();
+
+// 5️⃣ Process the worksheet, replacing Smart Marker tags with data from the source.
+processor.Process(ws, dataSource);
+
+// 6️⃣ Save the populated workbook.
+workbook.Save("Result.xlsx");
+```
+
+### ทำไมแต่ละบรรทัดถึงสำคัญ
+
+1. **การโหลดเวิร์กบุ๊ก** ให้โปรเซสเซอร์มีไฟล์ที่ทำงานได้จริง  
+2. **การเลือกแผ่นงาน** ทำให้โปรเซสเซอร์สแกนแผ่นที่ถูกต้อง; คุณสามารถระบุแผ่นโดยดัชนีหรือชื่อได้  
+3. **แหล่งข้อมูล** เป็นอาเรย์ของอ็อบเจกต์ที่ไม่มีชื่อ; ชื่อคุณสมบัติ (`fieldName`) ต้องตรงกับชื่อมาร์คเกอร์ใน `${Comment:fieldName}`  
+4. **`SmartMarkerProcessor`** คือเอนจินที่แยกวิเคราะห์แท็กและทำการแทนที่  
+5. **`Process`** ทำงานหนัก: อ่านทุกแท็ก `${...}`, ค้นหาคุณสมบัติที่ตรงกันในแหล่งข้อมูล, แล้วเขียนค่าลงในเซลล์  
+6. **การบันทึกเวิร์กบุ๊ก** จะเขียนไฟล์ที่อัปเดตลงดิสก์ พร้อมใช้งานต่อไป
+
+## การเตรียมเทมเพลต Excel เพื่อ **เติมข้อมูลเทมเพลต Excel**
+
+1. เปิดเวิร์กบุ๊ก Excel ใหม่  
+2. ในเซลล์ใดก็ได้ที่ต้องการเนื้อหาแบบไดนามิก, พิมพ์แท็ก Smart Marker, ตัวอย่างเช่น:  
+
+   ```
+   ${Comment:fieldName}
+   ```
+
+3. บันทึกไฟล์เป็น `Template.xlsx`  
+
+ไวยากรณ์ของแท็กเป็นรูปแบบ `${<CollectionName>:<PropertyName>}` ในตัวอย่างง่ายนี้เราละเว้นชื่อคอลเลกชันและใช้คอลเลกชันเริ่มต้นซึ่งคือแหล่งข้อมูลที่ส่งให้ `Process`
+
+> **กรณีขอบ:** หากแท็กอ้างอิงคุณสมบัติที่ไม่มีในแหล่งข้อมูล, Aspose.Cells จะไม่เปลี่ยนแปลงเซลล์นั้นเลย ควรตรวจสอบให้ชื่อคุณสมบัติตรงกันอย่างแม่นยำรวมถึงความแตกต่างของตัวพิมพ์
+
+## การสร้างแหล่งข้อมูลสำหรับ **ใช้ smart markers ของ Aspose.Cells**
+
+คุณสามารถส่งคอลเลกชันใดก็ได้ที่เป็น enumerable—อาเรย์, `List<T>`, `DataTable`, หรือแม้แต่วัตถุที่กำหนดเอง โปรเซสเซอร์จะวนลูปคอลเลกชันและทำซ้ำแถวสำหรับแต่ละรายการเมื่อใช้มาร์คเกอร์แบบตาราง
+
+```csharp
+// Example with a List<T>
+var comments = new List<Comment>
+{
+    new Comment { fieldName = "First comment." },
+    new Comment { fieldName = "Second comment." }
+};
+
+processor.Process(ws, comments);
+```
+
+```csharp
+public class Comment
+{
+    public string fieldName { get; set; }
+}
+```
+
+เมื่อคุณให้หลายแถว, Aspose.Cells จะขยายพื้นที่เทมเพลตโดยอัตโนมัติเพื่อรองรับรายการทั้งหมด ซึ่งเป็นประโยชน์สำหรับการสร้างรายงาน, ใบแจ้งหนี้, หรือตารางที่ขับเคลื่อนด้วยข้อมูล
+
+## การประมวลผลแผ่นงานโดยใช้ **smart markers ของ Aspose.Cells**
+
+เมธอด `Process` สามารถรับการตั้งค่าเพิ่มเติมได้, เช่น:
+
+- `SmartMarkerOptions` เพื่อควบคุมการจัดการเซลล์ที่ว่างเปล่า  
+- `DataSourceOptions` เพื่อระบุชื่อคอลเลกชันที่แตกต่าง
+
+```csharp
+SmartMarkerOptions options = new SmartMarkerOptions
+{
+    // Preserve empty cells as blanks instead of removing them.
+    PreserveEmptyCells = true
+};
+
+processor.Process(ws, dataSource, options);
+```
+
+ตัวเลือกเหล่านี้ให้คุณควบคุมการ **เติมข้อมูลเทมเพลต Excel** อย่างละเอียด, ทำให้ผลลัพธ์ตรงตามความต้องการด้านการจัดรูปแบบของคุณ
+
+## การบันทึกผลลัพธ์และตรวจสอบเอาต์พุต
+
+หลังจากประมวลผล, คุณสามารถบันทึกเวิร์กบุ๊กในรูปแบบใดก็ได้ที่ Aspose.Cells รองรับ, เช่น XLSX, CSV, หรือ PDF
+
+```csharp
+workbook.Save("Result.pdf", SaveFormat.Pdf);
+```
+
+เปิด `Result.xlsx` (หรือ `Result.pdf`) เพื่อตรวจสอบว่า placeholder `${Comment:fieldName}` ถูกแทนที่ด้วย **Sample comment text generated by C#** หากเซลล์ยังคงแสดงแท็กเดิม, ให้ตรวจสอบชื่อคุณสมบัติในแหล่งข้อมูลอีกครั้ง
+
+## ปัญหาที่พบบ่อยและวิธีหลีกเลี่ยง
+
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|-------|-----|
+| แท็กไม่ถูกแทนที่ | ชื่อคุณสมบัติไม่ตรงกัน (เช่น `fieldname` กับ `fieldName`) | ตรวจสอบให้ตรงกันแบบ case‑sensitive อย่างแม่นยำ |
+| แถวไม่ซ้ำ | แหล่งข้อมูลมีเพียงอ็อบเจกต์เดียวขณะที่เทมเพลตต้องการตาราง | ให้คอลเลกชันที่มีหลายรายการ |
+| เวิร์กบุ๊กพังขณะบันทึก | ใช้เวอร์ชัน Aspose.Cells ที่ล้าสมัย | อัปเกรดเป็นแพคเกจ NuGet เวอร์ชันล่าสุด |
+| รูปแบบหาย | ตัวประมวลผลเขียนทับสไตล์ของเซลล์ | รักษาสไตล์ด้วย `SmartMarkerOptions.PreserveCellFormatting = true` |
+
+## ตัวอย่างทำงานเต็มรูปแบบ
+
+ด้านล่างเป็นโปรแกรมที่สมบูรณ์ซึ่งคุณสามารถคัดลอก, วาง, และรันได้
+
+```csharp
+using Aspose.Cells;
+using System;
+using System.Collections.Generic;
+
+namespace SmartMarkerDemo
+{
+    class Program
+    {
+        static void Main()
+        {
+            // Load the template that contains the Smart Marker tag ${Comment:fieldName}
+            Workbook workbook = new Workbook("Template.xlsx");
+            Worksheet ws = workbook.Worksheets[0];
+
+            // Create a list of data objects – each object maps to the marker property.
+            var data = new List<Comment>
+            {
+                new Comment { fieldName = "First generated comment." },
+                new Comment { fieldName = "Second generated comment." },
+                new Comment { fieldName = "Third generated comment." }
+            };
+
+            // Initialise the processor and run it.
+            SmartMarkerProcessor processor = new SmartMarkerProcessor();
+            processor.Process(ws, data);
+
+            // Save the populated workbook.
+            workbook.Save("Result.xlsx");
+            Console.WriteLine("Smart marker processing complete. Check Result.xlsx.");
+        }
+    }
+
+    public class Comment
+    {
+        public string fieldName { get; set; }
+    }
+}
+```
+
+**ผลลัพธ์ที่คาดหวัง:** ใน `Result.xlsx`, เซลล์ที่เดิมมี `${Comment:fieldName}` จะขยายเป็นสามแถว, แต่ละแถวเต็มด้วยข้อความคอมเมนต์ที่สอดคล้องจากรายการ `data`
+
+## สรุป
+
+คุณได้เรียนรู้วิธี **สร้างข้อมูล smart marker**, **เติมข้อมูลเทมเพลต Excel**, และ **ใช้ smart markers ของ Aspose.Cells** เพื่ออัตโนมัติการสร้างรายงาน Excel กระบวนการสรุปเป็นสามขั้นตอน: ฝังแท็ก Smart Marker, จัดหาแหล่งข้อมูลที่ตรงกัน, และเรียก `SmartMarkerProcessor.Process` จากนี้คุณสามารถสำรวจสถานการณ์ขั้นสูงเพิ่มเติม เช่น คอลเลกชันซ้อนกัน, การจัดรูปแบบตามเงื่อนไข, หรือการส่งออกเป็น PDF
+
+### ขั้นตอนต่อไป
+
+- ทดลองใช้ **smart markers แบบตาราง** เพื่อสร้างตารางหลายแถวโดยอัตโนมัติ  
+- รวม smart markers กับ **conditional formatting** เพื่อไฮไลท์แถวที่ตรงตามเงื่อนไข  
+- ตรวจสอบเอกสาร Aspose.Cells เกี่ยวกับ **Smart Marker options** เพื่อปรับประสิทธิภาพ
+
+ขอให้เขียนโค้ดอย่างสนุกสนาน, และเพลิดเพลินกับเวลาที่ประหยัดจากการอัตโนมัติการทำงานกับ Excel!
+
+## คุณควรเรียนรู้อะไรต่อไป?
+
+บทเรียนต่อไปนี้ครอบคลุมหัวข้อที่เกี่ยวข้องอย่างใกล้ชิดและต่อยอดจากเทคนิคที่แสดงในคู่มือนี้ แต่ละแหล่งข้อมูลมีตัวอย่างโค้ดทำงานครบถ้วนพร้อมคำอธิบายขั้นตอนเพื่อช่วยคุณเชี่ยวชาญฟีเจอร์ API เพิ่มเติมและสำรวจแนวทางการนำไปใช้ในโปรเจกต์ของคุณเอง
+
+- [Automate Excel Workbooks with Aspose.Cells .NET: Utilize Smart Markers for Efficient Data Processing](/cells/english/net/automation-batch-processing/automate-excel-aspose-cells-workbook-smart-markers/)
+- [Master Aspose.Cells .NET Smart Markers & DataTable Integration for Efficient Data Management in Excel](/cells/english/net/import-export/aspose-cells-net-smart-markers-data-table-integration/)
+- [excel data merging in C# – Complete Smart Marker Guide](/cells/english/net/smart-markers-dynamic-data/excel-data-merging-in-c-complete-smart-marker-guide/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

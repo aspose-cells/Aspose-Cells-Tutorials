@@ -62,6 +62,12 @@ Ismerje meg, hogyan hozhat létre és testreszabhat munkafüzet sablonokat az As
 ### [Hogyan használjuk az Excelt körlevélhez – Teljes C# útmutató](./how-to-use-excel-for-mail-merge-complete-c-guide/)
 Ismerje meg, hogyan hozhat létre körleveleket Excelből C#-ban az Aspose.Cells segítségével.
 
+### [Excel sablon feldolgozása és a munkalapok automatikus elnevezése C#-ban](./how-to-process-excel-template-and-automatically-name-sheets)
+Tanulja meg, hogyan dolgozhat fel Excel sablonokat, és nevezze át automatikusan a munkalapokat C#-ban az Aspose.Cells segítségével.
+
+### [Adatok exportálása Excelbe C# sablon használatával – lépésről‑lépésre útmutató](./how-to-export-data-to-excel-using-a-c-template-step-by-step/)
+Ismerje meg, hogyan exportálhat adatokat Excelbe C# sablon segítségével lépésről‑lépésre.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

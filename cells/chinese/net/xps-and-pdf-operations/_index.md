@@ -46,6 +46,8 @@
 学习如何使用 Aspose.Cells 在 .NET 中嵌入字体到 PDF，并提供完整的 C# 示例代码。
 ### [在 C# 中将工作簿保存为 XPS – 步骤指南](./save-workbook-as-xps-in-c-step-by-step-guide/)
 学习如何使用 Aspose.Cells for .NET 在 C# 中将 Excel 工作簿保存为 XPS 文件，提供完整代码示例。
+### [在 C# 中将 Excel 转换为 XPS 并加载 Excel 文件](./convert-excel-to-xps-in-c-and-load-excel-file/)
+本指南演示如何使用 Aspose.Cells for .NET 在 C# 中加载 Excel 文件并将其转换为 XPS 格式，包含完整代码示例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

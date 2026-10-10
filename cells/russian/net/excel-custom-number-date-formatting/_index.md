@@ -52,6 +52,8 @@
 Узнайте, как создать рабочую книгу Excel с пользовательским форматом в C# с помощью Aspose.Cells для .NET в этом практическом руководстве.
 ### [Разбор даты японской эры в C# с Aspose.Cells – Полное руководство](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Узнайте, как в C# с помощью Aspose.Cells разобрать даты в японском календаре, включая эпохи, в полном пошаговом руководстве.
+### [Как создать книгу Excel и разобрать японские даты в C#](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
+Узнайте, как создать книгу Excel и разобрать японские даты в C# с помощью Aspose.Cells.
 
 
 
@@ -82,6 +84,8 @@
 Узнайте, как создать книгу Excel с датами японского календаря, используя Aspose.Cells для .NET, в этом полном руководстве.
 ### [Создание рабочей книги Excel C# – Ограничение значимых цифр в Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
 Узнайте, как создать рабочую книгу Excel в C# и ограничить количество значимых цифр в ячейках с помощью Aspose.Cells для .NET.
+### [Как применить числовой формат в Excel с Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
+Узнайте, как применить числовой формат в Excel с помощью Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

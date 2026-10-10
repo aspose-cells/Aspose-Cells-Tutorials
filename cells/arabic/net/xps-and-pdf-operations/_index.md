@@ -46,6 +46,8 @@
 تعرف على كيفية تضمين الخطوط في ملفات PDF باستخدام Aspose.Cells لـ .NET مع دليل شامل بلغة C#.
 ### [حفظ دفتر العمل كملف XPS في C# – دليل خطوة بخطوة](./save-workbook-as-xps-in-c-step-by-step-guide/)
 تعلم كيفية حفظ دفتر عمل Excel كملف XPS باستخدام C# مع خطوات واضحة وأمثلة عملية.
+### [تحويل Excel إلى XPS باستخدام C# وتحميل ملف Excel](./convert-excel-to-xps-in-c-and-load-excel-file/)
+تعلم كيفية تحويل ملفات Excel إلى XPS باستخدام C# مع تحميل ملف Excel مسبقًا خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

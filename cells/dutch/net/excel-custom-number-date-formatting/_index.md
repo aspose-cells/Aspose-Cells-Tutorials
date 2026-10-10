@@ -53,6 +53,9 @@ Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap maakt met aangepaste opm
 ### [Japanse jaartijd datum parseren in C# met Aspose.Cells – Volledige gids](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Leer hoe u met Aspose.Cells Japanse jaartijddatums in C# kunt parseren en correct kunt weergeven in Excel.
 
+### [Hoe een Excel-werkmap te maken en Japanse datums te parseren in C#](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
+Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap maakt en Japanse datums parseert in C#.
+
 
 
 
@@ -82,6 +85,9 @@ Leer hoe u met Aspose.Cells voor .NET de datumopmaak in Excel instelt tijdens ee
 Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap maakt met Japanse kalenderdatums in een volledige stap‑voor‑stap gids.
 ### [Excel-werkmap maken C# – Beperk significante cijfers in Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
 Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap maakt en het aantal significante cijfers beperkt.
+
+### [Hoe een getalopmaak toe te passen in Excel met Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
+Leer hoe u met Aspose.Cells een aangepast getalformaat in Excel toepast via C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

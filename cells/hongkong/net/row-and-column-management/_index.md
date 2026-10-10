@@ -66,6 +66,8 @@
 了解如何使用 Aspose.Cells for .NET 刪除 Excel 中的一行。本逐步指南涵蓋了先決條件、程式碼匯入以及無縫資料操作的詳細演練。
 ### [在 Aspose.Cells .NET 中刪除多行](./delete-multiple-rows-aspose-cells/)
 學習使用 Aspose.Cells for .NET 在 Excel 中刪除多行。這個詳細的逐步指南涵蓋了先決條件、編碼範例和開發人員常見問題。
+### [使用 Aspose.Cells for .NET 刪除 Excel 檔案中的整行](./how-to-delete-entire-row-in-an-excel-file-using-c/)
+了解如何使用 Aspose.Cells for .NET 透過 C# 刪除 Excel 檔案中的整行。
 ### [使用 Aspose.Cells for .NET 刪除行 – 在 Excel 中保護標題列](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 了解如何使用 Aspose.Cells for .NET 刪除 Excel 中的資料列，同時保留標題列不被刪除的步驟。
 ### [在 Aspose.Cells .NET 中插入列](./insert-column-aspose-cells/)
@@ -81,7 +83,6 @@
 ### [使用 Aspose.Cells for .NET 載入 Excel 檔案 C# – 如何刪除行與移除特定行](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 了解如何使用 Aspose.Cells for .NET 在 C# 中載入 Excel 檔案，並刪除或移除特定的行。
 ### [如何在 GridJs 中插入行 – 高效新增多行](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
-了解如何在 GridJs 中高效地一次插入多行，提升資料表操作的效率與便利性。
 
 
 

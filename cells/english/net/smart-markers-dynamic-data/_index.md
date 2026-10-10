@@ -93,11 +93,12 @@ Unlock the potential of Excel reporting with Aspose.Cells by handling nested obj
 Unlock the power of Aspose.Cells. Learn how to implement variable arrays with Smart Markers step-by-step for seamless Excel report generation.
 ### [Create Dynamic Worksheets with Smart Markers in Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 Learn how to generate dynamic worksheets using Smart Markers in Aspose.Cells for .NET, enabling flexible data-driven Excel reports.
-
 ### [How to Write Template with Smart Markers – Step‑by‑Step Guide](./how-to-write-template-with-smart-markers-step-by-step-guide/)
-Step-by-step guide to creating Excel templates using Smart Markers in Aspose.Cells for .NET.
-
+Unlock the power of Aspose.Cells with this step-by-step tutorial on using the HTML property in smart markers for .NET applications.
+### [How to generate Excel report by merging an Excel template with Smart Markers](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
+Learn how to merge an Excel template with data using Smart Markers to produce dynamic reports.
 ### [How to Generate Excel Report in C# – Full Guide Using SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+Learn how to generate an Excel report by merging an Excel template with Smart Markers...
 ### [How to Load Template and Create Excel Report with SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 Learn how to load an Excel template and generate a report using Smart Markers in Aspose.Cells for .NET.
 ### [Create Dynamic Excel Table – Smart Marker Guide](./create-dynamic-excel-table-smart-marker-guide/)
@@ -117,7 +118,7 @@ Learn how to create an Excel workbook in C# and insert arrays into cells using A
 ### [Create Excel Template with Smart Markers in C# – Complete Guide](./create-excel-template-with-smart-markers-in-c-complete-guide/)
 Learn how to create an Excel template using Smart Markers in C# with step‑by‑step instructions for dynamic report generation.
 ### [Convert JSON to Excel with C# – Step‑by‑Step Guide](./convert-json-to-excel-with-c-step-by-step-guide/)
-Learn how to convert JSON data to Excel files using C# and Aspose.Cells in a clear, step‑by‑step tutorial.
+### [Convert JSON to XLSX in C# using SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
 ### [Create Workbook from XLSX with Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
 
 
@@ -134,6 +135,7 @@ Learn how to repeat rows of data in an Excel template using SmartMarker to popul
 Step-by-step guide to creating a Smart Marker collection in C# using Aspose.Cells, covering setup, configuration, and data binding.
 ### [How to Create Hierarchy with SmartMarker – Step‑by‑Step Guide](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
 Learn to build hierarchical data structures in Excel using SmartMarker, enabling nested reporting with clear, organized layouts.
+### [How to create smart marker data and fill Excel template data](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
 ### [How to Create Workbook with Smart Markers – Aspose.Cells Guide](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
 ### [Auto Name Excel Sheets – Easy Way to Generate Sheets](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
 Learn how to automatically name Excel worksheets during generation using Aspose.Cells for .NET, simplifying workbook organization.

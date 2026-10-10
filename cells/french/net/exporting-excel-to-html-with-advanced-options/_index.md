@@ -76,6 +76,8 @@ Découvrez comment exporter les propriétés de documents, classeurs et feuilles
 Apprenez à exporter une zone d'impression spécifique au format HTML depuis Excel avec Aspose.Cells pour .NET dans ce guide détaillé. Optimisez la présentation de vos données.
 ### [Exportation d'Excel vers HTML – Conserver les lignes figées en C#](./export-excel-to-html-preserve-frozen-rows-in-c/)
 Apprenez à conserver les lignes figées lors de l'exportation d'Excel vers HTML en C# avec Aspose.Cells pour .NET, guide étape par étape.
+### [Comment exporter Excel vers HTML tout en conservant les volets figés](./how-to-export-excel-to-html-while-preserving-frozen-panes/)
+Apprenez à exporter un classeur Excel au format HTML tout en conservant les volets figés, grâce à Aspose.Cells pour .NET, guide étape par étape.
 ### [Exportation programmatique d'un style de bordure similaire dans Excel](./exporting-similar-border-style/)
 Apprenez à exporter des styles de bordure similaires dans Excel par programmation à l'aide d'Aspose.Cells pour .NET avec ce guide étape par étape simple.
 
@@ -139,6 +141,10 @@ Apprenez à exporter Excel vers HTML avec un guide complet de programmation util
 Apprenez à générer du HTML à partir d’un tableau Excel en C# avec Aspose.Cells, guide complet étape par étape.
 ### [Comment intégrer des polices lors de l'exportation d'Excel vers HTML – Guide complet C#](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
 Découvrez comment intégrer des polices lors de l'exportation d'Excel vers HTML avec Aspose.Cells pour .NET, guide complet en C# étape par étape.
+
+### [Comment intégrer des polices lors de l'exportation d'Excel vers HTML avec C#](./how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
+Apprenez à intégrer des polices lors de l'exportation d'Excel vers HTML avec C# en utilisant Aspose.Cells pour .NET.
+
 ### [Exporter Excel vers HTML avec C# – Guide complet de programmation](./export-excel-to-html-with-c-complete-programming-guide/)
 Apprenez à exporter Excel vers HTML en C# avec Aspose.Cells, guide complet étape par étape.
 
