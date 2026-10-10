@@ -1,0 +1,7 @@
+Title: Convert Excel to PowerPoint and set print area
+Slug: convert-excel-to-powerpoint-and-set-print-area
+Category: converting-excel-files-to-other-formats
+ProcessedDate: 2026-10-10T23:57:17.037803
+SourceRepo: AI Search API
+Keywords: convert excel to powerpoint, set print area excel, how to export excel, how to set print area, convert excel to pptx
+PRNumber: 188
