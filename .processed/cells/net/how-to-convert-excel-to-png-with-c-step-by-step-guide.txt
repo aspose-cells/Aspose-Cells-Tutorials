@@ -1,0 +1,7 @@
+Title: How to convert Excel to PNG with C# – step‑by‑step guide
+Slug: how-to-convert-excel-to-png-with-c-step-by-step-guide
+Category: converting-excel-files-to-other-formats
+ProcessedDate: 2026-10-10T23:57:31.729466
+SourceRepo: AI Search API
+Keywords: convert excel to png, export excel range, save excel as png, how to export excel, convert worksheet to image
+PRNumber: 188
