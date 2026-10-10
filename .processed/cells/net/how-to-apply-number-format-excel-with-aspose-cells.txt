@@ -1,0 +1,7 @@
+Title: How to apply number format excel with Aspose.Cells
+Slug: how-to-apply-number-format-excel-with-aspose-cells
+Category: excel-custom-number-date-formatting
+ProcessedDate: 2026-10-10T23:57:23.713273
+SourceRepo: AI Search API
+Keywords: apply number format excel, set date format excel, format excel cells date, set currency format excel, preserve header row excel
+PRNumber: 188
