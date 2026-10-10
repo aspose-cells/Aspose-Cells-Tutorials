@@ -94,6 +94,8 @@ Lär dig hur du skapar en array i Excel med C# med vår steg‑för‑steg‑gui
 Lär dig hur du beräknar cotangens i Excel med C# med Aspose.Cells för .NET i denna omfattande guide.
 ### [Hur du använder WRAPCOLS i Excel – Komplett C#-exempel](./how-to-use-wrapcols-in-excel-complete-c-example/)
 Lär dig hur du använder WRAPCOLS-funktionen i Excel med ett komplett C#-exempel i Aspose.Cells för .NET.
+### [Hur du skapar en Excel-arbetsbok och delar upp data med WRAPCOLS i C#](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
+Lär dig skapa en Excel-arbetsbok och använda WRAPCOLS för att dela upp data i C# med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -65,6 +65,12 @@ Aspose.Cells Net 代碼教程
 ### [如何使用 Excel 進行郵件合併 – 完整 C# 指南](./how-to-use-excel-for-mail-merge-complete-c-guide/)
 本指南說明如何在 C# 中使用 Aspose.Cells for .NET 透過 Excel 完成郵件合併，包括模板建立、資料綁定與輸出。
 
+### [如何在 C# 中處理 Excel 範本並自動命名工作表](./how-to-process-excel-template-and-automatically-name-sheets)
+了解如何在 C# 中處理 Excel 範本並自動為工作表命名，以提升報表生成效率。
+
+### [如何使用 C# 範本匯出資料至 Excel – 步驟指南](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
+說明如何使用 C# 範本將資料匯出為 Excel 檔案的完整步驟。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

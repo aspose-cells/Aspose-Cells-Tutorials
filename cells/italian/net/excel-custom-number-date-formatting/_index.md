@@ -52,6 +52,8 @@ Scopri come analizzare correttamente le date in Excel usando C# e Aspose.Cells c
 Impara a creare una cartella di lavoro Excel con formati personalizzati usando Aspose.Cells per .NET in C#.
 ### [Analizza la data dell'era giapponese in C# con Aspose.Cells – Guida completa](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Scopri come analizzare le date dell'era giapponese in C# usando Aspose.Cells, con esempi pratici e consigli per una conversione accurata.
+### [Come creare una cartella di lavoro Excel e analizzare le date giapponesi in C#](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
+Impara a creare una cartella di lavoro Excel in C# e a interpretare le date giapponesi con Aspose.Cells, con esempi pratici passo passo.
 
 
 
@@ -82,6 +84,9 @@ Scopri come impostare il formato data in Excel usando C# con Aspose.Cells, inclu
 Scopri come creare una cartella di lavoro Excel con date del calendario giapponese usando Aspose.Cells per .NET, passo dopo passo.
 ### [Crea cartella di lavoro Excel C# – Limita le cifre significative in Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
 Scopri come creare una cartella di lavoro Excel in C# e limitare le cifre significative dei valori numerici usando Aspose.Cells.
+
+### [Come applicare il formato numerico in Excel con Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
+Scopri come applicare formati numerici personalizzati a fogli Excel usando Aspose.Cells per .NET con esempi pratici.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

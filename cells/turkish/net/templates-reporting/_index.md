@@ -51,15 +51,23 @@ Bu kapsamlı kılavuzla Aspose.Cells .NET Smart Markers'ı kullanarak veri enteg
 
 ### [C# ile Şablondan Çalışma Kitabı Oluşturma – Adım Adım Kılavuz](./create-workbook-from-template-in-c-step-by-step-guide/)
 C# kodu kullanarak bir Excel şablonundan çalışma kitabı oluşturmayı ve veri bağlamayı öğrenin.
+
 ### [C# ile Excel Raporu Oluşturma – Adım Adım Kılavuz](./create-excel-report-in-c-step-by-step-guide/)
 C# kullanarak Excel raporu oluşturmayı adım adım öğrenin; veri bağlama, biçimlendirme ve dosya kaydetme süreçleri anlatılır.
+
 ### [Şablondan Excel Oluşturma – .NET Geliştiricileri için Adım Adım Kılavuz](./create-excel-from-template-step-by-step-guide-for-net-develo/)
 .NET geliştiricileri için şablon kullanarak Excel dosyası oluşturmayı adım adım öğrenin.
+
 ### [Excel Şablon Dosyasını Kaydetme – Adım Adım Kılavuz](./how-to-save-excel-template-file-step-by-step-guide/)
 Excel şablon dosyalarını kaydetme sürecini adım adım öğrenin ve raporlarınızı otomatikleştirin.
 
 ### [Excel'i Mail Birleştirme İçin Nasıl Kullanılır – Tam C# Kılavuzu](./how-to-use-excel-for-mail-merge-complete-c-guide/)
 C# ile Excel dosyalarını mail birleştirme için nasıl hazırlayacağınızı ve otomatikleştireceğinizi öğrenin.
+
+### [C# ile Excel şablonunu işleme ve sayfaları otomatik olarak adlandırma](./how-to-process-excel-template-and-automatically-name-sheets)
+
+### [C# Şablonu Kullanarak Veriyi Excel'e Aktarma – Adım Adım Kılavuz](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
+C# şablonu kullanarak veriyi Excel'e aktarmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

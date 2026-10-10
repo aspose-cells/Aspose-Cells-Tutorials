@@ -46,28 +46,8 @@ Aspose.Cells for .NET を使用して、C# で Excel に日時データを書き
 ### [C# で Excel ワークブックを作成 – カスタム数値書式を適用](./create-excel-workbook-in-c-apply-custom-number-format/)
 Aspose.Cells for .NET を使用して、C# で Excel ワークブックを作成し、カスタム数値書式を適用する方法を学びます。
 ### [C# で Excel の日付を解析する方法 – 完全ガイド](./how-to-parse-date-in-excel-with-c-complete-guide/)
-### [カスタム書式で Excel ワークブックを作成 – C# ガイド](./create-excel-workbook-with-custom-format-c-guide/)
-Aspose.Cells for .NET を使用し、C# でカスタム書式を設定した Excel ワークブックを作成する方法を学びます。
-### [C# で和暦日付を解析する – Aspose.Cells 完全ガイド](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
-Aspose.Cells を利用して C# で和暦日付を正しく解析し、Excel に適用する方法をステップバイステップで解説します。
-
-
-
-
-
-
-
-
 ### [C# でセルのカスタム書式を設定 – Excel の日付の書き込みと読み取りの完全ガイド](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 Aspose.Cells for .NET を使用して、C# でセルのカスタム書式を設定し、Excel の日付を書き込み・読み取りする方法を学びます。
-
-
-
-
-
-
-
-
 ### [C# で文字列を DateTime に変換 – Excel で日付を書き込み・読み取り](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 Aspose.Cells for .NET を使用し、文字列を DateTime に変換し、Excel に日付を書き込んだり読み取ったりする方法を学びます。
 ### [C# でワークブックを作成し、文字列を日付に変換する方法](./how-to-create-workbook-and-convert-string-to-date-in-c/)
@@ -79,6 +59,11 @@ Aspose.Cells for .NET を使用して、C# で新しいワークブックを作�
 Aspose.Cells for .NET を使用し、日本の和暦カレンダー日付を持つ Excel ワークブックを作成し、書式設定とインポートを完全に制御する方法を学びます。
 ### [C#でExcelワークブックを作成 – 有効数字の制限](./create-excel-workbook-c-limit-significant-digits-excel/)
 Aspose.Cells for .NET を使用して、C# で Excel ワークブックを作成し、有効数字の桁数を制限する方法を学びます。
+
+### [C#でExcelワークブックを作成し日本の日付を解析する](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
+### [Aspose.Cells で Excel の数値書式を適用する方法](./how-to-apply-number-format-excel-with-aspose-cells/)
+
+Aspose.Cells を使用して、Excel のセルに数値書式を設定する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

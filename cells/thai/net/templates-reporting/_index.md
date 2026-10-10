@@ -62,6 +62,12 @@ Aspose.Cells สำหรับ .NET มอบเครื่องมืออ�
 ### [สร้างเทมเพลตเวิร์กบุ๊กด้วย Aspose.Cells – คู่มือฉบับสมบูรณ์](./create-workbook-template-with-aspose-cells-complete-guide/)
 เรียนรู้วิธีสร้างเทมเพลตเวิร์กบุ๊กด้วย Aspose.Cells อย่างครบถ้วน ตั้งแต่การกำหนดโครงสร้าง การผูกข้อมูล ไปจนถึงการปรับแต่งรูปแบบ
 
+### [วิธีประมวลผลเทมเพลต Excel และตั้งชื่อแผ่นงานโดยอัตโนมัติใน C#](./how-to-process-excel-template-and-automatically-name-sheets)
+เรียนรู้วิธีใช้ Aspose.Cells สำหรับ .NET เพื่อประมวลผลเทมเพลต Excel และตั้งชื่อแผ่นงานโดยอัตโนมัติด้วย C#
+
+### [วิธีส่งออกข้อมูลไปยัง Excel ด้วยเทมเพลต C# – คู่มือขั้นตอนโดยขั้นตอน](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
+เรียนรู้วิธีส่งออกข้อมูลเป็นไฟล์ Excel ด้วยเทมเพลต C# อย่างละเอียด
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -17,19 +17,19 @@ url: /net/exporting-excel-to-html-with-advanced-options/
 
 ## Introduction
 
-In today’s data-driven world, knowing how to effectively export Excel documents to HTML can set you apart, right? Whether you’re a passionate developer, a data analyst, or just looking to share your findings, mastering this skill is essential. With Aspose.Cells for .NET, you have the tools at your fingertips to generate beautiful, functional HTML output. Let’s dive into some valuable tutorials that will help you in this journey.
+In today’s data‑driven world, knowing how to effectively export Excel documents to HTML can set you apart, right? Whether you’re a passionate developer, a data analyst, or just looking to share your findings, mastering this skill is essential. With Aspose.Cells for .NET, you have the tools at your fingertips to generate beautiful, functional HTML output. Let’s dive into some valuable tutorials that will help you in this journey.
 
 ## Exclude Unused Styles for Cleaner Output
 
-One of the simplest ways to start is by learning how to exclude unused styles when exporting to HTML. This method not only simplifies your HTML but also enhances performance by discarding unnecessary bloat. By default, Excel may include various styles that don’t get utilized. With our step-by-step guide, you can ensure that your exported document remains neat and professional. Curious? [Read more here](./excluding-unused-styles/).
+One of the simplest ways to start is by learning how to exclude unused styles when exporting to HTML. This method not only simplifies your HTML but also enhances performance by discarding unnecessary bloat. By default, Excel may include various styles that don’t get utilized. With our step‑by‑step guide, you can ensure that your exported document remains neat and professional. Curious? [Read more here](./excluding-unused-styles/).
 
 ## Exporting Properties for Comprehensive Documentation
 
-Additionally, understanding how to export document, workbook, and worksheet properties to HTML can add significant value to your exports. When the properties are embedded correctly, your audience can understand the context of your data, thus making your presentation more effective. Plus, it's incredibly easy to implement with Aspose.Cells for .NET. Want to know the ins-and-outs? [Discover more here](./exporting-document-workbook-and-worksheet-properties/).
+Additionally, understanding how to export document, workbook, and worksheet properties to HTML can add significant value to your exports. When the properties are embedded correctly, your audience can understand the context of your data, thus making your presentation more effective. Plus, it's incredibly easy to implement with Aspose.Cells for .NET. Want to know the ins‑and‑outs? [Discover more here](./exporting-document-workbook-and-worksheet-properties/).
 
 ## Programmatically Control Your Data Visualization
 
-Last but not least, let’s talk about setting scalable column widths and hiding overlaid content. These functionalities allow you to tailor the visual aspects of the exported document, making it user-friendly and aesthetically pleasing. Imagine preparing a report where every column fits perfectly, or where unnecessary elements don’t obfuscate the data. With tutorials guiding you through each step, you can achieve just that! Interested in perfecting your layout? [Click here to learn more](./setting-scalable-column-width/).
+Last but not least, let’s talk about setting scalable column widths and hiding overlaid content. These functionalities allow you to tailor the visual aspects of the exported document, making it user‑friendly and aesthetically pleasing. Imagine preparing a report where every column fits perfectly, or where unnecessary elements don’t obfuscate the data. With tutorials guiding you through each step, you can achieve just that! Interested in perfecting your layout? [Click here to learn more](./setting-scalable-column-width/).
 
 ## Exporting Print Area Programmatically
 
@@ -41,15 +41,15 @@ Another useful tip involves exporting similar border styles in Excel programmati
 
 ## CSS Management for Enhanced Design
 
-And let’s not forget about the power of CSS. Understanding how to export worksheet CSS separately in the output HTML can literally change the way your data is perceived. This feature gives you complete control of your design without conflicting with the Excel formatting. So, you can create visually appealing web pages that are still laser-focused on your data. Want to dive deep into this? [Explore more here](./exporting-worksheet-css-separately/).
+And let’s not forget about the power of CSS. Understanding how to export worksheet CSS separately in the output HTML can literally change the way your data is perceived. This feature gives you complete control of your design without conflicting with the Excel formatting. So, you can create visually appealing web pages that are still laser‑focused on your data. Want to dive deep into this? [Explore more here](./exporting-worksheet-css-separately/).
 
 ## Programmatic Printing Headings
 
-Oh, and if you think printing headings in Excel might be tedious, think again! With Aspose.Cells, you can print headings programmatically and seamlessly export your data to HTML. This small functionality can create a huge impact on data readability and helps keep your reports organized and easy to follow. Curious about how to implement this? [Get the step-by-step guide here](./printing-headings/).
+Oh, and if you think printing headings in Excel might be tedious, think again! With Aspose.Cells, you can print headings programmatically and seamlessly export your data to HTML. This small functionality can create a huge impact on data readability and helps keep your reports organized and easy to follow. Curious about how to implement this? [Get the step‑by‑step guide here](./printing-headings/).
 
-## Recognizing Self-Closing Tags
+## Recognizing Self‑Closing Tags
 
-One often-overlooked aspect of HTML exports is the management of self-closing tags. Excel sheets can be complex, containing various elements that may require specific formatting, like images or empty cells. The tutorial on recognizing self-closing tags programmatically guides you through extracting these elements seamlessly, ensuring your output HTML is clean and well-structured. Imagine simplifying your code and making your HTML more compatible with web standards – sounds great, right? [Discover the details here](./recognizing-self-closing-tags/).
+One often‑overlooked aspect of HTML exports is the management of self‑closing tags. Excel sheets can be complex, containing various elements that may require specific formatting, like images or empty cells. The tutorial on recognizing self‑closing tags programmatically guides you through extracting these elements seamlessly, ensuring your output HTML is clean and well‑structured. Imagine simplifying your code and making your HTML more compatible with web standards – sounds great, right? [Discover the details here](./recognizing-self-closing-tags/).
 
 ### [Save Excel as HTML – Complete Guide with Code Samples](./save-excel-as-html-complete-guide-with-code-samples/)
 Learn how to save Excel files as HTML with comprehensive code samples using Aspose.Cells for .NET.
@@ -65,67 +65,69 @@ Lastly, let’s talk about the little details that make a big difference. Being 
 
 ## Exporting Excel to HTML with Advanced Options Tutorials
 ### [Embed fonts in HTML – Export Excel to HTML with C#](./embed-fonts-in-html-export-excel-to-html-with-c/)
-Learn how to embed fonts when exporting Excel to HTML using Aspose.Cells for .NET with C# in this step-by-step guide.
+Learn how to embed fonts when exporting Excel to HTML using Aspose.Cells for .NET with C# in this step‑by‑step guide.
+### [How to embed fonts in HTML – Export Excel to HTML with C#](./how-to-embed-fonts-in-html-export-excel-to-html-with-c/)
+Learn how to embed fonts when exporting Excel to HTML using Aspose.Cells for .NET with C# in this step‑by‑step guide.
 ### [Convert Excel to HTML in C# – Complete Guide](./convert-excel-to-html-in-c-complete-guide/)
-Learn how to convert Excel to HTML using Aspose.Cells for .NET with C# in this comprehensive step-by-step guide.
+Learn how to convert Excel to HTML using Aspose.Cells for .NET with C# in this comprehensive step‑by‑step guide.
 ### [Create HTML from table in C# – Complete Guide](./create-html-from-table-in-c-complete-guide/)
-Learn how to create HTML from a table in C# using Aspose.Cells for .NET in this comprehensive step-by-step guide.
+Learn how to create HTML from a table in C# using Aspose.Cells for .NET in this comprehensive step‑by‑step guide.
 ### [Excluding Unused Styles while Exporting Excel to HTML](./excluding-unused-styles/)
-Learn how to exclude unused styles while exporting Excel to HTML using Aspose.Cells for .NET in this detailed step-by-step guide.
+Learn how to exclude unused styles while exporting Excel to HTML using Aspose.Cells for .NET in this detailed step‑by‑step guide.
 ### [Exporting Document Workbook and Worksheet Properties in HTML](./exporting-document-workbook-and-worksheet-properties/)
-Learn how to export Excel document, workbook, and worksheet properties to HTML using Aspose.Cells for .NET. Easy step-by-step guide included.
+Learn how to export Excel document, workbook, and worksheet properties to HTML using Aspose.Cells for .NET. Easy step‑by‑step guide included.
 ### [Exporting Print Area to Html in Excel Programmatically](./exporting-print-area/)
 Learn to export a specific print area to HTML from Excel using Aspose.Cells for .NET in this detailed guide. Optimize your data presentation.
 ### [Export Excel to HTML – Preserve Frozen Rows in C#](./export-excel-to-html-preserve-frozen-rows-in-c/)
-Learn how to preserve frozen rows when exporting Excel to HTML using Aspose.Cells for .NET in C# with a clear step-by-step guide.
+Learn how to preserve frozen rows when exporting Excel to HTML using Aspose.Cells for .NET in C# with a clear step‑by‑step guide.
 ### [Exporting Similar Border Style Programmatically in Excel](./exporting-similar-border-style/)
-Learn how to export similar border styles in Excel programmatically using Aspose.Cells for .NET with this easy step-by-step guide.
+Learn how to export similar border styles in Excel programmatically using Aspose.Cells for .NET with this easy step‑by‑step guide.
 ### [Exporting Worksheet CSS Separately in Output HTML](./exporting-worksheet-css-separately/)
-Learn how to export Excel worksheets to HTML effectively with separate CSS using Aspose.Cells for .NET in this comprehensive step-by-step tutorial.
+Learn how to export Excel worksheets to HTML effectively with separate CSS using Aspose.Cells for .NET in this comprehensive step‑by‑step tutorial.
 ### [Getting HTML5 String from Cell in Excel Programmatically](./getting-html5-string-from-cell/)
-Learn how to retrieve HTML5 strings from Excel cells programmatically using Aspose.Cells for .NET in this detailed, step-by-step guide.
+Learn how to retrieve HTML5 strings from Excel cells programmatically using Aspose.Cells for .NET in this detailed, step‑by‑step guide.
 ### [How to Export Excel to HTML – Step‑by‑Step Guide](./how-to-export-excel-to-html-step-by-step-guide/)
 Learn how to export Excel to HTML step‑by‑step using Aspose.Cells for .NET in this comprehensive guide.
 ### [Hiding Overlaid Content with Cross Hide Right while Saving to Html](./hiding-overlaid-content-with-cross-hide-right/)
 Learn how to hide overlaid content in Excel when saving to HTML using Aspose.Cells for .NET in this comprehensive guide.
 ### [Prefixing Table Elements Styles with Html Save Options](./prefixing-table-elements-styles/)
-Discover how to use Aspose.Cells for .NET to prefix table styles in HTML, enhancing your Excel exports with step-by-step examples.
+Discover how to use Aspose.Cells for .NET to prefix table styles in HTML, enhancing your Excel exports with step‑by‑step examples.
 ### [Printing Headings Programmatically in Excel](./printing-headings/)
-Easily print headings in Excel with a step-by-step guide using Aspose.Cells for .NET. Export your data neatly to HTML and impress your audience.
-### [Recognizing Self-Closing Tags Programmatically in Excel](./recognizing-self-closing-tags/)
-Unlock the potential of self-closing tags in Excel with our step-by-step guide featuring Aspose.Cells for .NET.
+Easily print headings in Excel with a step‑by‑step guide using Aspose.Cells for .NET. Export your data neatly to HTML and impress your audience.
+### [Recognizing Self‑Closing Tags Programmatically in Excel](./recognizing-self-closing-tags/)
+Unlock the potential of self‑closing tags in Excel with our step‑by‑step guide featuring Aspose.Cells for .NET.
 ### [Save Excel as HTML – Full Guide to Exporting and Converting Excel Files](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
-Learn how to save Excel files as HTML and convert them efficiently using Aspose.Cells for .NET in this comprehensive step-by-step guide.
-
+Learn how to save Excel files as HTML and convert them efficiently using Aspose.Cells for .NET in this comprehensive step‑by‑step guide.
 ### [Setting Scalable Column Width Programmatically in Excel](./setting-scalable-column-width/)
 Learn how to use Aspose.Cells for .NET to set scalable column widths in Excel files programmatically. Perfect for efficient data presentation.
 ### [Save Excel as HTML with Frozen Panes – Complete C# Guide](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
 Learn how to save Excel as HTML with frozen panes using Aspose.Cells for .NET in this comprehensive C# guide.
 ### [Setting Single Sheet Tab Name in HTML Export](./setting-single-sheet-tab-name/)
-Easily set a single sheet tab name during HTML export using Aspose.Cells for .NET. Step-by-step guide with code examples included.
+Easily set a single sheet tab name during HTML export using Aspose.Cells for .NET. Step‑by‑step guide with code examples included.
 ### [Create HTML Save Options in C# – Full Guide](./create-html-save-options-in-c-full-guide/)
-Learn how to configure HTML save options in C# using Aspose.Cells for .NET with a comprehensive step-by-step guide.
-
+Learn how to configure HTML save options in C# using Aspose.Cells for .NET with a comprehensive step‑by‑step guide.
 ### [How to Embed Fonts in HTML – Complete C# Guide](./how-to-embed-fonts-in-html-complete-c-guide/)
-Learn how to embed fonts in HTML using Aspose.Cells for .NET with C# in this comprehensive step-by-step guide.
+Learn how to embed fonts in HTML using Aspose.Cells for .NET with C# in this comprehensive step‑by‑step guide.
 ### [Save Excel as HTML – Complete C# Guide](./save-excel-as-html-complete-c-guide/)
-Learn how to save Excel files as HTML using C# with Aspose.Cells for .NET in this comprehensive step-by-step guide.
+Learn how to save Excel files as HTML using C# with Aspose.Cells for .NET in this comprehensive step‑by‑step guide.
 ### [embed fonts html when exporting Excel – Complete C# guide](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
 Learn how to embed fonts in HTML when exporting Excel using Aspose.Cells for .NET with a complete C# guide.
 ### [How to Export Excel to HTML – Preserve Frozen Panes in C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
-Learn how to preserve frozen panes when exporting Excel to HTML using Aspose.Cells for .NET with C# in this step-by-step guide.
+Learn how to preserve frozen panes when exporting Excel to HTML using Aspose.Cells for .NET with C# in this step‑by‑step guide.
+### [How to Export Excel to HTML while preserving frozen panes](./how-to-export-excel-to-html-while-preserving-frozen-panes/)
+Learn how to preserve frozen panes when exporting Excel to HTML using Aspose.Cells for .NET with C# in this step‑by‑step guide.
 ### [How to Embed Fonts in HTML – Convert Excel to HTML with C#](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
 Learn how to embed custom fonts when converting Excel to HTML using Aspose.Cells for .NET with C#.
 ### [How to Embed Fonts in HTML from Excel – Complete Guide](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
-Learn how to embed fonts in HTML exported from Excel using Aspose.Cells for .NET in this comprehensive step-by-step guide.
+Learn how to embed fonts in HTML exported from Excel using Aspose.Cells for .NET in this comprehensive step‑by‑step guide.
 ### [How to Export Excel to HTML – Complete Programming Guide](./how-to-export-excel-to-html-complete-programming-guide/)
-Learn how to export Excel to HTML using Aspose.Cells for .NET with a complete programming guide, step-by-step examples included.
+Learn how to export Excel to HTML using Aspose.Cells for .NET with a complete programming guide, step‑by‑step examples included.
 ### [Embed Fonts in HTML – Export Excel Workbook to HTML with Aspose.Cells](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
 Learn how to embed fonts in HTML when exporting an Excel workbook to HTML using Aspose.Cells for .NET.
 ### [Convert Excel to HTML – Complete Guide Using Aspose.Cells](./convert-excel-to-html-complete-guide-using-aspose-cells/)
-Learn how to convert Excel files to HTML with a comprehensive step-by-step guide using Aspose.Cells for .NET.
+Learn how to convert Excel files to HTML with a comprehensive step‑by‑step guide using Aspose.Cells for .NET.
 ### [How to embed fonts when exporting Excel to HTML – Complete C# Guide](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
-Learn how to embed custom fonts when exporting Excel to HTML using Aspose.Cells for .NET in this complete C# guide.
+Learn how to embed fonts when exporting Excel to HTML using Aspose.Cells for .NET with a complete C# guide.
 ### [Export Excel to HTML with C# – Complete Programming Guide](./export-excel-to-html-with-c-complete-programming-guide/)
 Learn how to export Excel to HTML using C# with Aspose.Cells for .NET in this complete programming guide.
 

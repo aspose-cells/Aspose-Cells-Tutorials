@@ -77,15 +77,15 @@ Descubra como registrar e chamar funções de suplementos no Excel usando o Aspo
 Descubra como especificar o número máximo de linhas para fórmulas compartilhadas no Excel usando o Aspose.Cells para .NET com este tutorial passo a passo fácil.
 ### [Como Expandir um Array em C# com Aspose.Cells – Guia Passo a Passo](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Aprenda a expandir arrays em C# usando Aspose.Cells com este tutorial passo a passo, facilitando a manipulação de dados no Excel.
-
 ### [Como Calcular Cotangente no Excel com C# – Guia Passo a Passo](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
 Aprenda a calcular a cotangente no Excel usando C# e Aspose.Cells para .NET com este guia passo a passo.
-
 ### [Recalcular todas as fórmulas em C# – Atualizar Excel](./recalculate-all-formulas-in-c-refresh-excel/)
 Aprenda a recalcular todas as fórmulas em uma planilha Excel usando C# com Aspose.Cells para .NET neste tutorial passo a passo.
 ### [c# criar arquivo Excel – Guia passo a passo com lógica condicional](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 ### [Como usar WRAPCOLS em C# – Redimensionar Arrays para Matrizes](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
 Aprenda a utilizar a função WRAPCOLS em C# para transformar arrays unidimensionais em matrizes com o Aspose.Cells.
+### [Como criar pasta de trabalho Excel e dividir dados com WRAPCOLS em C#](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
+Aprenda a criar uma pasta de trabalho Excel e dividir dados usando a função WRAPCOLS em C# com Aspose.Cells.
 ### [Como criar matriz no Excel com C# – Guia passo a passo](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 ### [Como calcular cotangente no Excel com C# – Guia completo](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 Aprenda a calcular a cotangente no Excel usando C# com o Aspose.Cells para .NET neste guia passo a passo completo.

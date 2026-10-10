@@ -81,13 +81,6 @@ Lär dig hur du dynamiskt genererar rader i Excel för att upprepa data med C# o
 ### [Hur man infogar rader i GridJs – Lägg till flera rader i rutnätet effektivt](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 Lär dig hur du effektivt lägger till flera rader i ett GridJs‑rutnät med enkla kodexempel.
 
-
-
-
-
-
-
-
 ### [Ladda Excel-fil C# – Hur du tar bort rader och specifika rader](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Lär dig hur du tar bort rader och specifika rader i en Excel-fil med Aspose.Cells för .NET i C#.
 ### [Ta bort rader i Excel-tabell med C# – Steg‑för‑steg‑guide](./delete-rows-excel-table-with-c-step-by-step-guide/)
@@ -100,6 +93,9 @@ Lär dig hur du använder WRAPCOLS för att skapa en tvåkolumnslayout i Excel m
 Lär dig hur du snabbt lägger till flera rader i GridJs med enkla kodexempel.
 ### [Hur man använder wrapcols i C# – Fullständig guide med Excel WRAPROWS & omberäkna formler](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Lär dig hur du använder wrapcols i C# tillsammans med Excel WRAPROWS och omberäknar formler i en komplett guide.
+
+### [Hur man tar bort en hel rad i en Excel-fil med C#](./how-to-delete-entire-row-in-an-excel-file-using-c/)
+Lär dig hur du tar bort en hel rad i en Excel-fil med C# och Aspose.Cells i några enkla steg.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

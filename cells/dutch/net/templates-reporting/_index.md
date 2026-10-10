@@ -56,7 +56,7 @@ Leer hoe u stap voor stap een Excel‑rapport maakt in C# met Aspose.Cells, van 
 ### [Excel maken vanuit sjabloon – Stapsgewijze gids voor .NET-ontwikkelaars](./create-excel-from-template-step-by-step-guide-for-net-develo/)
 Leer hoe u met Aspose.Cells voor .NET Excel-bestanden maakt op basis van sjablonen, stap voor stap.
 ### [Excel maken vanuit sjabloon – Voeg gegevens en afbeelding toe, sla op als XLSX](./create-excel-from-template-add-data-image-save-xlsx/)
-Leer hoe u een Excel-bestand maakt op basis van een sjabloon, gegevens en afbeeldingen toevoegt en het bestand opslaat als XLSX.
+Leer hoe u een Excel‑bestand maakt op basis van een sjabloon, gegevens en afbeeldingen toevoegt en het bestand opslaat als XLSX.
 ### [Opgeslagen werkmap programmatisch opslaan met Aspose.Cells](./save-populated-workbook-programmatically-with-aspose-cells/)
 Leer hoe u een ingevuld werkboek programmeerbaar opslaat met Aspose.Cells in .NET.
 ### [Werkboek-sjabloon maken met Aspose.Cells – Complete gids](./create-workbook-template-with-aspose-cells-complete-guide/)
@@ -66,6 +66,12 @@ Leer hoe u een Excel-sjabloonbestand opslaat met Aspose.Cells .NET, inclusief be
 
 ### [Hoe Excel te gebruiken voor mailmerge – Complete C#-gids](./how-to-use-excel-for-mail-merge-complete-c-guide/)
 Leer stap voor stap hoe u Excel kunt inzetten voor mailmerge met C#, inclusief voorbeeldcode en configuratie.
+
+### [Hoe Excel-sjabloon te verwerken en werkbladen automatisch te benoemen in C#](./how-to-process-excel-template-and-automatically-name-sheets)
+Leer hoe u een Excel-sjabloon verwerkt en werkbladen automatisch een naam geeft met C# en Aspose.Cells.
+
+### [Hoe gegevens exporteren naar Excel met een C#‑sjabloon – stapsgewijze gids](./how-to-export-data-to-excel-using-a-c-template-step-by-step/)
+Leer hoe u gegevens exporteert naar Excel met een C#‑sjabloon, stap voor stap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,21 +56,33 @@ Naučte se, jak pomocí Aspose.Cells .NET vytvořit Excelový soubor ze šablony
 Naučte se, jak pomocí C# naplnit Excel šablony daty a automaticky generovat dynamické reporty.
 ### [Vytvoření sešitu ze šablony v C# – krok za krokem průvodce](./create-workbook-from-template-in-c-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Cells pro .NET vytvořit sešit z existující šablony v C# krok po kroku.
+
 ### [Uložení sešitu Excel z JSON – Kompletní průvodce](./save-excel-workbook-from-json-complete-guide/)
 Naučte se, jak pomocí Aspose.Cells pro .NET načíst data z JSON a uložit je jako Excel sešit, včetně nastavení formátování a optimalizace.
+
 ### [Vytvořte Excel report v C# – krok za krokem průvodce](./create-excel-report-in-c-step-by-step-guide/)
 Kompletní návod, jak pomocí Aspose.Cells pro .NET vytvořit Excel report v C# krok po kroku.
+
 ### [Vytvořte Excel ze šablony – přidejte data, obrázek, uložte XLSX](./create-excel-from-template-add-data-image-save-xlsx/)
 Naučte se, jak pomocí Aspose.Cells vytvořit sešit ze šablony, vložit data a obrázek a uložit jej jako soubor XLSX.
+
 ### [Uložení naplněného sešitu programově pomocí Aspose.Cells](./save-populated-workbook-programmatically-with-aspose-cells/)
 Naučte se, jak programově uložit naplněný sešit v Excelu pomocí Aspose.Cells.
+
 ### [Vytvořte šablonu sešitu s Aspose.Cells – Kompletní průvodce](./create-workbook-template-with-aspose-cells-complete-guide/)
 Kompletní průvodce vytvořením šablony sešitu v Aspose.Cells, včetně nastavení šablon, vazby dat a generování výstupů.
+
 ### [Jak uložit soubor šablony Excel – krok za krokem průvodce](./how-to-save-excel-template-file-step-by-step-guide/)
 Naučte se, jak uložit šablonu Excelu pomocí Aspose.Cells pro .NET v několika jednoduchých krocích.
 
 ### [Jak použít Excel pro hromadnou korespondenci – kompletní průvodce v C#](./how-to-use-excel-for-mail-merge-complete-c-guide/)
 Naučte se, jak pomocí Aspose.Cells pro .NET a C# provádět hromadnou korespondenci v Excelu, včetně nastavení šablon a exportu dokumentů.
+
+### [Jak zpracovat šablonu Excel a automaticky pojmenovat listy v C#](./how-to-process-excel-template-and-automatically-name-sheets/)
+Naučte se, jak pomocí Aspose.Cells pro .NET zpracovat šablonu Excel a automaticky pojmenovat listy v C#.
+
+### [Jak exportovat data do Excelu pomocí šablony C# – krok za krokem](./how-to-export-data-to-excel-using-a-c-template-step-by-step/)
+Naučte se, jak pomocí šablony C# exportovat data do Excelu krok za krokem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

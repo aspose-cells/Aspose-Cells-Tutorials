@@ -63,7 +63,7 @@ Infine, parliamo dei piccoli dettagli che fanno la differenza. La possibilità d
 ### [Come esportare Excel in HTML – Guida completa di programmazione](./how-to-export-excel-to-html-complete-programming-guide/)
 Scopri passo passo come esportare Excel in HTML con una guida completa di programmazione usando Aspose.Cells per .NET.
 ### [Crea opzioni di salvataggio HTML in C# – Guida completa](./create-html-save-options-in-c-full-guide/)
-Scopri come configurare le opzioni di salvataggio HTML in C# con Aspose.Cells per .NET in questa guida completa passo passo.
+Scopri come configurare le opzioni di salvataggio HTML in C# con Aspose.Cells per .NET in questa guida completa passo dopo passo.
 
 ### [Esclusione degli stili non utilizzati durante l'esportazione di Excel in HTML](./excluding-unused-styles/)
 Scopri come escludere gli stili inutilizzati durante l'esportazione di Excel in HTML utilizzando Aspose.Cells per .NET in questa guida dettagliata passo dopo passo.
@@ -107,6 +107,8 @@ Scopri come salvare un file Excel in HTML usando C# con Aspose.Cells per .NET in
 Scopri come incorporare i font nei file HTML esportati da Excel con Aspose.Cells per .NET usando C# in questa guida passo passo.
 ### [Come esportare Excel in HTML – Conservare i riquadri congelati in C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
 Scopri come preservare i riquadri congelati durante l'esportazione di Excel in HTML utilizzando Aspose.Cells per .NET con C#.
+### [Come esportare Excel in HTML mantenendo i riquadri congelati](./how-to-export-excel-to-html-while-preserving-frozen-panes/)
+Scopri come mantenere i riquadri congelati durante l'esportazione di Excel in HTML con Aspose.Cells per .NET.
 ### [Come incorporare i font in HTML – Convertire Excel in HTML con C#](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
 Scopri come incorporare i font nei file HTML generati da Excel usando Aspose.Cells per .NET con C#, garantendo una resa tipografica coerente.
 ### [Come incorporare i font in HTML da Excel – Guida completa](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
@@ -122,6 +124,8 @@ Scopri come convertire file Excel in HTML usando C# con Aspose.Cells per .NET in
 Scopri come salvare Excel in HTML con esempi di codice passo passo usando Aspose.Cells per .NET.
 ### [Come incorporare i font durante l'esportazione di Excel in HTML – Guida completa C#](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
 Scopri come incorporare i font nei file HTML esportati da Excel con Aspose.Cells per .NET usando C# in questa guida passo passo.
+### [Come incorporare i font quando si esporta Excel in HTML con C#](./how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
+Scopri come incorporare i font nei file HTML esportati da Excel usando Aspose.Cells per .NET con C# in questa guida dettagliata.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

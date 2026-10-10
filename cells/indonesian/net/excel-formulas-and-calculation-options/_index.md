@@ -91,6 +91,8 @@ Pelajari cara membuat array di Excel menggunakan C# dengan Aspose.Cells melalui 
 Pelajari cara menghitung fungsi kotangen di Excel menggunakan C# dengan Aspose.Cells dalam panduan lengkap ini.
 ### [Cara Menggunakan WRAPCOLS di Excel – Contoh Lengkap C#](./how-to-use-wrapcols-in-excel-complete-c-example/)
 Pelajari cara menggunakan WRAPCOLS di Excel dengan contoh lengkap C# menggunakan Aspose.Cells for .NET.
+### [Cara membuat buku kerja Excel dan membagi data dengan WRAPCOLS di C#](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
+Pelajari cara membuat workbook Excel dan membagi data menggunakan fungsi WRAPCOLS dengan Aspose.Cells for .NET dalam panduan langkah demi langkah.
 ### [Menerapkan Rumus Array di Excel dengan C# – Panduan Lengkap](./apply-array-formula-excel-in-c-complete-guide/)
 Pelajari cara menerapkan rumus array di Excel menggunakan C# dengan Aspose.Cells dalam panduan lengkap ini.
 

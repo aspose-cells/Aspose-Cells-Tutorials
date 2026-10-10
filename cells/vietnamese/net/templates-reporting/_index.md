@@ -65,6 +65,12 @@ Hướng dẫn chi tiết cách lưu tệp mẫu Excel bằng Aspose.Cells cho .
 ### [Cách sử dụng Excel cho Mail Merge – Hướng dẫn C# đầy đủ](./how-to-use-excel-for-mail-merge-complete-c-guide/)
 Hướng dẫn chi tiết cách kết hợp Excel với Mail Merge trong C#, bao gồm các bước thiết lập, mẫu và mã mẫu.
 
+### [Cách xử lý mẫu Excel và tự động đặt tên các sheet trong C#](./how-to-process-excel-template-and-automatically-name-sheets/)
+Hướng dẫn cách sử dụng Aspose.Cells để xử lý mẫu Excel và tự động đặt tên các sheet trong C#.
+
+### [Cách xuất dữ liệu ra Excel bằng mẫu C# – hướng dẫn từng bước](./how-to-export-data-to-excel-using-a-c-template-step-by-step/)
+Hướng dẫn chi tiết cách xuất dữ liệu từ C# vào tệp Excel bằng mẫu, bao gồm thiết lập, liên kết dữ liệu và lưu file.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

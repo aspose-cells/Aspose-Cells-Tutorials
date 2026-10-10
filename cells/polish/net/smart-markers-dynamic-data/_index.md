@@ -96,6 +96,8 @@ Krok po kroku pokażemy, jak tworzyć szablony Excela wykorzystujące inteligent
 Dowiedz się, jak dynamicznie podmieniać zmienne w plikach JSON przy pomocy SmartMarker w Aspose.Cells, krok po kroku.
 ### [Jak załadować szablon i utworzyć raport Excel przy użyciu SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 Dowiedz się, jak wczytać szablon i wygenerować raport Excel przy pomocy SmartMarker w Aspose.Cells for .NET.
+### [Jak wygenerować raport Excel, łącząc szablon Excel z inteligentnymi znacznikami](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
+Poznaj krok po kroku, jak scalić szablon Excel z inteligentnymi znacznikami, aby automatycznie tworzyć raporty w Aspose.Cells.
 ### [Jak używać znaczników w Aspose.Cells do dynamicznego nazewnictwa arkuszy w Excelu](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
 Dowiedz się, jak wykorzystać znaczniki w Aspose.Cells, aby automatycznie nadawać arkuszom dynamiczne nazwy w plikach Excel.
 ### [Utwórz dynamiczną tabelę Excel – przewodnik po inteligentnych znacznikach](./create-dynamic-excel-table-smart-marker-guide/)
@@ -160,9 +162,14 @@ Dowiedz się, jak generować wiele arkuszy w Excelu przy użyciu SmartMarker w C
 Poznaj, jak przy użyciu Smart Markers w Aspose.Cells generować pliki Excel bezpośrednio z modelu w C#.
 ### [Eksport danych do Excela – Kompletny przewodnik po wypełnianiu szablonu Excela za pomocą inteligentnych znaczników](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
 
+### [Jak utworzyć dane inteligentnych znaczników i wypełnić szablon Excela](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
+Dowiedz się, jak tworzyć dane dla inteligentnych znaczników i wypełniać szablon Excela przy użyciu Aspose.Cells w .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+### [Konwertuj JSON do XLSX w C# przy użyciu SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)

@@ -115,6 +115,8 @@ Aspose.Cells の SmartMarkerProcessor で XLSX ファイルから新しいワー
 ### [C# で JSON を Excel に変換する – ステップバイステップ ガイド](./convert-json-to-excel-with-c-step-by-step-guide/)
 C# で JSON データを読み込み、Aspose.Cells を使って Excel ファイルに変換する手順を詳しく解説します。
 
+### [C# で JSON を XLSX に変換する – SmartMarker を使用した完全ガイド](./convert-json-to-xlsx-in-c-using-smartmarker/)
+
 ### [SmartMarker で Excel のシートをリンクする方法 – ステップバイステップ ガイド](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
 
 
@@ -161,6 +163,8 @@ Aspose.Cells のスマートマーカーを使用して、C# のモデル デー
 
 ### [SmartMarker を使用して複数シートを生成する – 完全 C# ガイド](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
 SmartMarker を活用し、C# で Excel に複数のシートを自動生成する方法をステップバイステップで解説します。
+
+### [スマートマーカー データを作成し Excel テンプレートにデータを埋め込む方法](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

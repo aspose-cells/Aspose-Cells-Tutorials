@@ -93,7 +93,7 @@
 ### [تنفيذ مصفوفة متغيرة باستخدام العلامات الذكية Aspose.Cells](./variable-array-smart-markers/)
 استغل قوة Aspose.Cells. تعلّم كيفية تنفيذ مصفوفات المتغيرات باستخدام Smart Markers خطوة بخطوة لإنشاء تقارير Excel بسلاسة.
 ### [كيفية إنشاء تقرير Excel في C# – دليل كامل باستخدام SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
-تعلم خطوة بخطوة كيفية إنشاء تقارير Excel باستخدام C# وSmartMarker في Aspose.Cells.
+تعلم خطوة بخطوة كيفية إنشاء تقارير Excel باستخدام C# وSmart Marker في Aspose.Cells.
 ### [إنشاء أوراق عمل ديناميكية باستخدام العلامات الذكية في Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 ### [كيفية كتابة القالب باستخدام العلامات الذكية – دليل خطوة بخطوة](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 تعلم كيفية إنشاء قالب Excel باستخدام العلامات الذكية خطوة بخطوة باستخدام Aspose.Cells لـ .NET.
@@ -110,6 +110,9 @@
 تعلم خطوة بخطوة كيفية تصدير البيانات إلى ملفات Excel باستخدام العلامة الذكية في C#.
 ### [ملء قالب Excel – تعبئة بيانات Excel باستخدام SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
 تعلم كيفية ملء قالب Excel بالبيانات عبر SmartMarker لإنشاء تقارير ديناميكية بسهولة.
+### [كيفية إنشاء بيانات العلامة الذكية وتعبئة بيانات قالب Excel](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
+تعلم كيفية إنشاء بيانات العلامة الذكية وتعبئة قالب Excel بالبيانات باستخدام Aspose.Cells.
+
 ### [إنشاء مصنف Excel C# – دليل شامل لإدراج المصفوفات في الخلايا](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
 دليل شامل لإنشاء مصنف Excel باستخدام C# وإدراج المصفوفات في الخلايا بسهولة.
 ### [دمج بيانات Excel في C# – دليل كامل للعلامات الذكية](./excel-data-merging-in-c-complete-smart-marker-guide/)
@@ -164,6 +167,9 @@
 ### [إنشاء ملف Excel من نموذج باستخدام Aspose.Cells Smart Markers في C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
 تعلم خطوة بخطوة كيفية إنشاء ملف Excel من نموذج بيانات باستخدام Aspose.Cells Smart Markers في C#.
 ### [تصدير البيانات إلى Excel – دليل كامل لملء قالب Excel باستخدام العلامات الذكية](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
+
+### [تحويل JSON إلى XLSX في C# باستخدام SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
+تعلم كيفية تحويل ملفات JSON إلى ملفات XLSX باستخدام SmartMarker في Aspose.Cells مع C# خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

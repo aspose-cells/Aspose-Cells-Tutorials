@@ -37,7 +37,7 @@ Erfahren Sie, wie Sie Unicode‑Zeichen in Excel‑Tabellen mit C# korrekt einf�
 ### [DOCX in XPS konvertieren in C# – Komplettanleitung](./convert-docx-to-xps-in-c-complete-guide/)
 Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.Cells in C# problemlos in das XPS-Format konvertieren, inklusive Codebeispielen.
 ### [Excel in XPS mit C# konvertieren – Komplettanleitung](./convert-excel-to-xps-with-c-complete-guide/)
-Erfahren Sie, wie Sie Excel-Dateien mit C# und Aspose.Cells in das XPS-Format konvertieren – Schritt-für-Schritt-Anleitung mit Beispielcode.
+Erfahren Sie, wie Sie Excel-Dateien mit C# und Aspose.Cells in das XPS-Format konvertieren – Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
 ### [Neues Excel-Arbeitsbuch erstellen – Unicode‑ und XPS‑Export‑Leitfaden](./create-new-excel-workbook-unicode-xps-export-guide/)
 Erfahren Sie, wie Sie ein neues Excel‑Arbeitsbuch mit Unicode‑Unterstützung erstellen und es als XPS‑Datei exportieren.
 ### [Schriftarten in XPS mit C# einbetten – Vollständiger Programmierleitfaden](./embed-fonts-in-xps-with-c-complete-programming-guide/)
@@ -46,6 +46,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Schriftarten in XPS-Dokumente e
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Schriftarten in PDFs einbetten, um die Dokumentdarstellung zu sichern.
 ### [Arbeitsmappe als XPS in C# speichern – Schritt‑für‑Schritt‑Anleitung](./save-workbook-as-xps-in-c-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Arbeitsmappe in C# unkompliziert als XPS speichern – detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Excel in XPS konvertieren in C# und Excel-Datei laden](./convert-excel-to-xps-in-c-and-load-excel-file/)
+Erfahren Sie, wie Sie eine Excel-Datei in C# laden und mit Aspose.Cells in das XPS-Format konvertieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

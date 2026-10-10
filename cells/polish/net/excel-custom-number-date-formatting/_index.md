@@ -74,14 +74,19 @@ Dowiedz się, jak ustawić niestandardowy format dat w komórkach Excel przy uż
 Dowiedz się, jak konwertować ciągi znaków na DateTime w C# i zapisywać oraz odczytywać daty w plikach Excel przy użyciu Aspose.Cells dla .NET.
 ### [Jak utworzyć skoroszyt i przekonwertować ciąg znaków na datę w C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
 Dowiedz się, jak w Aspose.Cells dla .NET utworzyć nowy skoroszyt i przekształcić tekstowy ciąg znaków w wartość daty w języku C#.
+### [Jak utworzyć skoroszyt Excel i parsować japońskie daty w C#](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
+Dowiedz się, jak w Aspose.Cells dla .NET utworzyć skoroszyt Excel i parsować japońskie daty w C# krok po kroku.
 ### [Ustaw format daty w Excelu w C# – Kompletny przewodnik krok po kroku](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 Dowiedz się, jak ustawić format daty w arkuszach Excel przy użyciu Aspose.Cells dla .NET w języku C#, krok po kroku.
 ### [Ustaw format daty w Excelu przy użyciu C# – Kompletny przewodnik formatowania importu](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
 Dowiedz się, jak ustawić format daty w Excelu przy użyciu C# i Aspose.Cells dla .NET, obejmując pełne formatowanie importu.
 ### [Utwórz skoroszyt Excel z datami kalendarza japońskiego – pełny przewodnik](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
-Dowiedz się, jak przy użyciu Aspose.Cells tworzyć skoroszyty Excel z datami w kalendarzu japońskim, krok po kroku, w pełnym przewodniku.
+Dowiedz się, jak przy użyciu Aspose.Cells tworzyć skoroszyty Excel z datami w kalendarzu japońskim, krok po kroku w pełnym przewodniku.
 ### [Utwórz skoroszyt Excel w C# – Ogranicz znaczące cyfry w Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
 Dowiedz się, jak w C# utworzyć skoroszyt Excel i ograniczyć liczbę znaczących cyfr przy formatowaniu danych przy użyciu Aspose.Cells.
+
+### [Jak zastosować format liczbowy w Excelu przy użyciu Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
+Dowiedz się, jak zastosować niestandardowy format liczbowy w Excelu przy pomocy Aspose.Cells w .NET, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

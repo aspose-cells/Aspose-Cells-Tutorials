@@ -90,6 +90,8 @@
 
 ### [Загрузка Excel-файла C# – Как удалить строки и удалить конкретные строки](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Пошаговое руководство по загрузке Excel-файла в C# и удалению отдельных или выбранных строк.
+### [Как удалить всю строку в файле Excel с помощью C#](./how-to-delete-entire-row-in-an-excel-file-using-c/)
+Узнайте, как удалить всю строку в файле Excel, используя C# и Aspose.Cells.
 ### [Удалить строки в таблице Excel с C# – пошаговое руководство](./delete-rows-excel-table-with-c-step-by-step-guide/)
 Узнайте, как удалить строки из таблицы Excel с помощью C# и Aspose.Cells, следуя нашему пошаговому руководству.
 ### [Вставка строк в Excel с C# – пошаговое руководство](./insert-rows-in-excel-with-c-step-by-step-guide/)

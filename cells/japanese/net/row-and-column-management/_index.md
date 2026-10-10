@@ -94,6 +94,8 @@ C# で動的に行を生成し、Excel のアイテムを繰り返し入力す�
 
 ### [C# で Excel ファイルを読み込む – 行の削除と特定行の除去方法](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Aspose.Cells for .NET を使用して、Excel ファイルから行を削除し、特定の行だけを除去する手順を解説します。
+### [C# を使用して Excel ファイルの行全体を削除する方法](./how-to-delete-entire-row-in-an-excel-file-using-c/)
+Aspose.Cells for .NET と C# を使用して、Excel ファイルから特定の行全体を削除する手順をステップバイステップで解説します。
 ### [C# を使用して Excel テーブルの行を削除する](./delete-rows-excel-table-with-c-step-by-step-guide/)
 C# と Aspose.Cells for .NET を使って、Excel テーブルから行を削除する手順を詳しく解説します。
 ### [C# を使用して Excel に行を挿入する – ステップバイステップ ガイド](./insert-rows-in-excel-with-c-step-by-step-guide/)

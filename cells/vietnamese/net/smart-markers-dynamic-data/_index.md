@@ -54,6 +54,10 @@ Bạn có thường xuyên xử lý nhiều lượng dữ liệu khác nhau khô
 Tính linh hoạt của Danh sách chung cho phép các nhà phát triển xử lý dữ liệu theo cách có cấu trúc mà không làm giảm hiệu suất. Trong hướng dẫn này, bạn sẽ học cách tận dụng Danh sách chung với Smart Markers để tạo các báo cáo Excel mạnh mẽ, năng động. Phương pháp này đảm bảo rằng bạn có thể dễ dàng thao tác các bộ sưu tập dữ liệu trong khi vẫn duy trì tính an toàn và hiệu suất của loại mạnh mẽ trong các ứng dụng của mình. Hãy làm theo để xem cách này có thể mang lại lợi ích cho việc tạo báo cáo của bạn. [Đọc thêm](./generic-list-smart-markers/)
 
 ## Smart Markers trong Aspose.Cells cho hướng dẫn về dữ liệu động
+### [How to create smart marker data and fill Excel template data](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
+
+### [Cách tạo báo cáo Excel bằng cách hợp nhất mẫu Excel với Smart Markers](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
+
 ### [Thêm nhãn tùy chỉnh với Smart Markers trong Aspose.Cells](./add-custom-labels-smart-markers/)
 Mở khóa sức mạnh của Aspose.Cells cho .NET để thêm nhãn tùy chỉnh và đánh dấu thông minh vào tài liệu Excel của bạn. Thực hiện theo hướng dẫn từng bước này và tạo các báo cáo động, hấp dẫn về mặt hình ảnh.
 ### [Tự động điền dữ liệu trên các trang tính trong Aspose.Cells](./auto-populate-data-smart-markers/)
@@ -95,23 +99,16 @@ Hướng dẫn tải mẫu và tạo báo cáo Excel động bằng SmartMarker 
 Hướng dẫn cách sử dụng SmartMarker để điền dữ liệu vào mẫu Excel, tạo báo cáo động nhanh chóng và chính xác.
 ### [Xuất dữ liệu ra Excel bằng Smart Marker – Hướng dẫn đầy đủ C#](./export-data-to-excel-with-smart-marker-full-c-guide/)
 ### [Tạo Sổ làm việc Excel C# – Hướng dẫn đầy đủ về việc chèn mảng vào ô](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
-
 ### [Tạo mẫu Excel với Smart Markers trong C# – Hướng dẫn toàn diện](./create-excel-template-with-smart-markers-in-c-complete-guide/)
 Hướng dẫn chi tiết cách tạo mẫu Excel sử dụng Smart Markers trong C#, giúp bạn xây dựng báo cáo động nhanh chóng và hiệu quả.
-
 ### [Kết hợp dữ liệu Excel trong C# – Hướng dẫn Smart Marker toàn diện](./excel-data-merging-in-c-complete-smart-marker-guide/)
 Khám phá cách hợp nhất dữ liệu Excel bằng Smart Markers trong C#, tạo báo cáo động một cách hiệu quả.
 ### [Cách liên kết các sheet trong Excel bằng SmartMarker – Hướng dẫn từng bước](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
 Tìm hiểu cách sử dụng SmartMarker để liên kết các sheet trong Excel, tự động chuyển dữ liệu giữa các bảng tính một cách dễ dàng.
 ### [Chuyển đổi JSON sang Excel với C# – Hướng dẫn từng bước](./convert-json-to-excel-with-c-step-by-step-guide/)
+### [Chuyển đổi JSON sang XLSX trong C# bằng SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
+
 ### [Tạo Workbook từ XLSX bằng Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
-
-
-
-
-
-
-
 
 ### [Cách tạo Workbook bằng Smart Markers – Hướng dẫn Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
 Hướng dẫn chi tiết cách tạo một Workbook mới bằng Smart Markers trong Aspose.Cells cho .NET.

@@ -63,6 +63,12 @@
 ### [Πώς να Χρησιμοποιήσετε το Excel για Συγχώνευση Αλληλογραφίας – Πλήρης Οδηγός C#](./how-to-use-excel-for-mail-merge-complete-c-guide/)
 Μάθετε πώς να δημιουργήσετε συγχώνευση αλληλογραφίας στο Excel χρησιμοποιώντας C# και Aspose.Cells.
 
+### [Πώς να επεξεργαστείτε πρότυπο Excel και να ονομάσετε αυτόματα τα φύλλα σε C#](./how-to-process-excel-template-and-automatically-name-sheets/)
+Μάθετε πώς να επεξεργαστείτε ένα πρότυπο Excel και να ονομάσετε αυτόματα τα φύλλα χρησιμοποιώντας C# και Aspose.Cells.
+
+### [Πώς να εξάγετε δεδομένα σε Excel χρησιμοποιώντας πρότυπο C# – οδηγός βήμα‑βήμα](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
+Μάθετε πώς να εξάγετε δεδομένα σε Excel χρησιμοποιώντας πρότυπο C# με βήμα‑βήμα οδηγίες.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
