@@ -1,0 +1,7 @@
+Title: How to export data to Excel using a C# template – step‑by‑step guide
+Slug: how-to-export-data-to-excel-using-a-c-template-step-by-step
+Category: templates-reporting
+ProcessedDate: 2026-10-10T23:57:43.879075
+SourceRepo: AI Search API
+Keywords: export data to excel, employee report excel, load excel template, automate excel generation, generate excel template c#
+PRNumber: 188
