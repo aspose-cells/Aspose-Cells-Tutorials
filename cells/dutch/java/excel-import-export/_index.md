@@ -83,6 +83,8 @@ Leer hoe u Excel-bestanden naar Word converteert met Aspose.Cells voor Java in d
 Leer hoe u lettertypen embedt bij het converteren van Excel-bestanden naar SVG met Aspose.Cells voor Java.
 ### [Excel-bestand converteren naar HTML – Complete gids met lettertype insluiten](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
 Leer hoe u Excel-bestanden naar HTML converteert en lettertypen insluit met Aspose.Cells voor Java in deze volledige gids.
+### [Markdown naar spreadsheet converteren in Java – stapsgewijze gids](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+Leer hoe u Markdown-bestanden omzet naar een spreadsheet in Java met Aspose.Cells voor Java in deze stapsgewijze gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

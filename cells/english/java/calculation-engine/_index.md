@@ -59,6 +59,9 @@ Learn how to efficiently interrupt formula calculations in workbooks using Aspos
 ### [Optimize Excel Calculations Using Aspose.Cells Java&#58; Mastering Calculation Chains for Efficient Workbook Processing](./optimize-excel-aspose-cells-java-calculation-chains/)
 Learn how to enhance Excel performance with Aspose.Cells for Java by implementing calculation chains, efficiently calculating formulas, and updating cell values.
 
+### [Recalculate all formulas excel with Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
+Learn how to force a full workbook recalculation of all formulas using Aspose.Cells for Java.
+
 ## Additional Resources
 - [Aspose.Cells for Java Documentation](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells for Java API Reference](https://reference.aspose.com/cells/java/)

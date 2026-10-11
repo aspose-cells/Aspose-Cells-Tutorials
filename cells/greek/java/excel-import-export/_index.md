@@ -65,6 +65,8 @@
 Μάθετε πώς να εξάγετε αρχεία Excel σε HTML με πλήρη ενσωμάτωση γραμματοσειρών, διασφαλίζοντας σωστή εμφάνιση σε όλα τα προγράμματα περιήγησης.
 ### [Μετατροπή Markdown σε Excel – Πλήρης Οδηγός Χρήσης Aspose.Cells](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
 Μάθετε πώς να μετατρέψετε αρχεία Markdown σε Excel χρησιμοποιώντας το Aspose.Cells για Java σε αυτόν τον ολοκληρωμένο οδηγό.
+### [Μετατροπή markdown σε υπολογιστικό φύλλο σε Java – βήμα‑βήμα οδηγός](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία markdown σε υπολογιστικό φύλλο χρησιμοποιώντας το Aspose.Cells για Java, με βήμα‑βήμα οδηγίες.
 ### [Πώς να εξάγετε Excel σε SVG – Πλήρης οδηγός Java](./how-to-export-excel-to-svg-complete-java-guide/)
 Μάθετε πώς να εξάγετε αρχεία Excel σε μορφή SVG χρησιμοποιώντας το Aspose.Cells για Java. Οδηγός βήμα‑βήμα με πηγαίο κώδικα.
 ### [Flat OPC Tutorial Aspose: Φόρτωση βιβλίου εργασίας Excel σε Java](./flat-opc-tutorial-aspose-load-excel-workbook-in-java/)

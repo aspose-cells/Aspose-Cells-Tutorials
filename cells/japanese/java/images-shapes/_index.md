@@ -59,6 +59,9 @@ Aspose.Cells for Java を使って、Excel プレゼンテーションに反射�
 ### [Aspose.Cells for Java で Excel シートを画像としてレンダリングする方法: 包括的なガイド](./aspose-cells-java-render-excel-sheets-images/)
 Aspose.Cells for Javaを使ってExcelデータを高品質な画像に変換する方法を学びましょう。このガイドでは、セットアップからレンダリングまでのすべての手順を網羅し、シームレスなデータ可視化を実現します。
 
+### [Aspose.Cells を使用して Java で Excel の範囲を画像としてエクスポートする方法](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
+Aspose.Cells for Java を使い、指定したセル範囲を高品質な画像に変換してエクスポートする手順を解説します。
+
 ### [Aspose.Cells Java を使用して ODS ファイルにグラフィック背景を設定する: ステップバイステップ ガイド](./aspose-cells-java-set-ods-graphic-background/)
 Aspose.Cells for Javaを使用してODSファイルにグラフィック背景を設定する方法を学びましょう。プロフェッショナルなビジュアルでスプレッドシートを強化し、魅力を高めましょう。
 
@@ -130,8 +133,6 @@ Aspose.Words Javaのコードチュートリアル
 
 ### [Aspose.Cells Java を使用して Excel に背景画像を設定する (ステップバイステップ ガイド)](./set-background-picture-excel-aspose-cells-java/)
 Aspose.Cells Javaを使って背景画像を追加し、Excelレポートを魅力的にする方法を学びましょう。このステップバイステップガイドに従って、シームレスに実装しましょう。
-
-
 
 ## 追加リソース
 

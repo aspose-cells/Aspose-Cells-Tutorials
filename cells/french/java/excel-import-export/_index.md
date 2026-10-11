@@ -72,6 +72,8 @@ Apprenez à convertir des fichiers JSON en classeurs XLSX avec Aspose.Cells pour
 Apprenez à exporter des classeurs Excel en HTML en incorporant toutes les polices pour garantir un rendu fidèle.
 ### [Convertir le Markdown en Excel – Guide complet avec Aspose.Cells](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
 Apprenez à transformer des fichiers Markdown en classeurs Excel avec Aspose.Cells grâce à ce guide complet étape par étape.
+### [Convertir le Markdown en feuille de calcul Java – guide étape par étape](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+Apprenez à transformer des fichiers Markdown en classeurs Excel avec Aspose.Cells pour Java, guide complet pas à pas.
 ### [Comment intégrer des polices dans HTML à partir d'un classeur Excel – Java](./how-to-embed-fonts-in-html-from-excel-workbook-java/)
 Apprenez à intégrer des polices dans un fichier HTML à partir d'un classeur Excel avec Aspose.Cells pour Java. Guide étape par étape avec exemples de code.
 ### [Comment exporter Excel en SVG – Guide complet Java](./how-to-export-excel-to-svg-complete-java-guide/)

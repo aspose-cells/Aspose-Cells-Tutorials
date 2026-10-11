@@ -61,6 +61,9 @@ Pelajari cara menghentikan perhitungan rumus secara efisien dalam workbook mengg
 ### [Optimize Excel Calculations Using Aspose.Cells Java&#58; Mastering Calculation Chains for Efficient Workbook Processing](./optimize-excel-aspose-cells-java-calculation-chains/)
 Pelajari cara meningkatkan kinerja Excel dengan Aspose.Cells untuk Java dengan mengimplementasikan rantai perhitungan, menghitung rumus secara efisien, dan memperbarui nilai sel.
 
+### [Menghitung Ulang Semua Rumus Excel dengan Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
+Tutorial kode untuk menghitung ulang semua rumus dalam workbook Excel menggunakan Aspose.Cells untuk Java
+
 ## Additional Resources
 - [Dokumentasi Aspose.Cells untuk Java](https://docs.aspose.com/cells/java/)
 - [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)

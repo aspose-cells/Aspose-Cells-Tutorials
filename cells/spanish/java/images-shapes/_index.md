@@ -48,13 +48,16 @@ Aprenda a usar Aspose.Cells para Java para agregar cuadros de texto y configurar
 Aprenda a mejorar sus archivos de Excel con WordArt usando Aspose.Cells para Java. Este tutorial abarca la configuración, ejemplos de código y aplicaciones prácticas.
 
 ### [Mejore sus informes de Excel: agregue formas de arco con degradados mediante Aspose.Cells para Java](./aspose-cells-java-arc-shapes-gradients-excel/)
-Aprenda a mejorar sus informes de Excel añadiendo formas de arco con rellenos degradados con Aspose.Cells para Java. Siga esta guía completa para crear documentos visualmente atractivos.
+Aprenda a mejorar sus informes de Excel añadiendo formas de arco con rellenos degradados con Aspose.Cells para Java. Siga una guía completa para crear documentos visualmente atractivos.
 
 ### [Cómo configurar una imagen de encabezado en Excel usando Aspose.Cells Java](./aspose-cells-java-header-image-excel/)
 Aprenda a agregar imágenes de encabezado personalizadas a los libros de Excel usando Aspose.Cells para Java, mejorando el atractivo visual y el profesionalismo de sus hojas de cálculo.
 
 ### [Cómo agregar efectos de reflejo en formas de Excel con Aspose.Cells para Java](./aspose-cells-java-reflection-effects-excel-shapes/)
 Aprenda a mejorar sus presentaciones de Excel con efectos de reflexión usando Aspose.Cells para Java. Siga esta guía paso a paso para optimizar su visualización de datos.
+
+### [Cómo exportar un rango de Excel como imagen en Java con Aspose.Cells](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
+Aprenda a exportar un rango de celdas de Excel a una imagen usando Aspose.Cells para Java.
 
 ### [Cómo renderizar hojas de Excel como imágenes con Aspose.Cells para Java: una guía completa](./aspose-cells-java-render-excel-sheets-images/)
 Aprenda a transformar sus datos de Excel en imágenes de alta calidad con Aspose.Cells para Java. Esta guía abarca todos los pasos, desde la configuración hasta la renderización, garantizando una visualización de datos fluida.

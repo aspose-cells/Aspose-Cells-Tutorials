@@ -86,6 +86,9 @@ Aspose.Words Java 代码教程
 ### [使用 Aspose.Cells for Java 掌握 Excel 范围管理：综合指南](./mastering-excel-range-management-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 高效地管理和操作 Excel 中的数据范围。非常适合自动化报表和构建数据驱动的应用程序。
 
+### [如何在 Java Excel 处理中使用 Expand 函数](./how-to-use-expand-function-in-java-excel-processing/)
+学习如何使用 Aspose.Cells for Java 的 Expand 功能在 Excel 中展开数据范围，实现更高效的处理。
+
 ### [使用 Aspose.Cells 在 Java 中取消合并 Excel 单元格：分步指南](./unmerge-excel-cells-aspose-cells-java-guide/)
 学习如何使用 Aspose.Cells for Java 高效地拆分 Excel 文件中的单元格。本指南包含合并单元格的设置、检测和拆分操作，并附带代码示例。
 

@@ -57,7 +57,9 @@ Aspose.Cells for Java का उपयोग करके XLSX फ़ाइल�
 ### [Aspose.Cells Java के साथ JSON को XLSX में बदलें – पूर्ण गाइड](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
 Aspose.Cells for Java का उपयोग करके JSON डेटा को XLSX फ़ाइल में बदलना सीखें। इस चरण‑दर‑स्तर गाइड से सहज रूपांतरण प्राप्त करें।
 ### [मार्कडाउन को एक्सेल में बदलें – Aspose.Cells का उपयोग करके पूर्ण गाइड](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
-Aspose.Cells for Java का उपयोग करके मार्कडाउन को एक्सेल में बदलना सीखें। इस चरण‑दर‑स्तर गाइड के साथ सहज रूपांतरण प्राप्त करें।
+Aspose.Cells for Java का उपयोग करके मार्कडाउन को एक्सेल में बदलना सीखें। इस चरण‑दर‑स्टेप गाइड के साथ सहज रूपांतरण प्राप्त करें।
+### [जावा में मार्कडाउन को स्प्रेडशीट में बदलें – चरण‑दर‑स्टेप गाइड](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+जावा में Aspose.Cells का उपयोग करके मार्कडाउन को एक्सेल स्प्रेडशीट में बदलने की प्रक्रिया सीखें। चरण‑दर‑स्टेप कोड उदाहरण।
 ### [Excel निर्यात कैसे करें: CSV रूपांतरण के लिए चरण‑दर‑स्टेप मार्गदर्शिका](./how-to-export-excel-step-by-step-guide-to-csv-conversion/)
 Aspose.Cells for Java का उपयोग करके Excel को CSV फ़ॉर्मेट में निर्यात करने की प्रक्रिया सीखें। सरल चरण‑दर‑स्टेप मार्गदर्शिका।
 ### [Excel को SVG में निर्यात कैसे करें – पूर्ण जावा गाइड](./how-to-export-excel-to-svg-complete-java-guide/)
@@ -79,10 +81,10 @@ Aspose.Cells for Java का उपयोग करके JSON डेटा स�
 Aspose.Cells for Java का उपयोग करके Excel फ़ाइल को HTML में बदलें और फ़ॉन्ट एम्बेड करने की पूरी प्रक्रिया सीखें।
 
 ### [जावा में संख्यात्मक निर्यात सटीकता सेट करें: महत्वपूर्ण अंकों को सेट करें](./set-numeric-export-precision-in-java-set-significant-digits/)
-Aspose.Cells for Java का उपयोग करके संख्यात्मक निर्यात की सटीकता को नियंत्रित करना सीखें। महत्वपूर्ण अंकों को सेट करने की चरण-दर-स्टेप मार्गदर्शिका।
+Aspose.Cells for Java का उपयोग करके संख्यात्मक निर्यात की सटीकता को नियंत्रित करना सीखें। महत्वपूर्ण अंकों को सेट करने की चरण‑दर‑स्टेप मार्गदर्शिका।
 
 ### [Excel को Word में बदलें – पूर्ण जावा गाइड (2026)](./convert-excel-to-word-complete-java-guide-2026/)
-Aspose.Cells for Java का उपयोग करके Excel फ़ाइल को Word दस्तावेज़ में परिवर्तित करना सीखें। चरण-दर-स्टेप कोड उदाहरणों के साथ।
+Aspose.Cells for Java का उपयोग करके Excel फ़ाइल को Word दस्तावेज़ में परिवर्तित करना सीखें। चरण‑दर‑स्टेप कोड उदाहरणों के साथ।
 
 ### [Excel को SVG में बदलते समय फ़ॉन्ट एम्बेड करना कैसे करें](./how-to-embed-fonts-in-excel-to-svg-conversion/)
 Aspose.Cells for Java का उपयोग करके Excel को SVG में बदलते समय फ़ॉन्ट एम्बेड करने की प्रक्रिया सीखें।

@@ -59,6 +59,9 @@ Aspose.Words Java 的程式碼教學
 ### [使用 Aspose.Cells Java 優化 Excel 計算：精通計算鏈以提升活頁簿處理效能](./optimize-excel-aspose-cells-java-calculation-chains/)
 了解如何透過實作計算鏈、有效計算公式與更新儲存格值，以 Aspose.Cells for Java 提升 Excel 效能。
 
+### [使用 Java Aspose.Cells 重新計算所有 Excel 公式](./recalculate-all-formulas-excel-with-java-aspose-cells/)
+示範如何使用 Aspose.Cells for Java 重新計算工作簿中的所有公式。
+
 ## 其他資源
 - [Aspose.Cells for Java 文件](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells for Java API 參考](https://reference.aspose.com/cells/java/)

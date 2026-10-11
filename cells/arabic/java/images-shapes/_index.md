@@ -131,7 +131,7 @@
 ### [تعيين صورة خلفية في Excel باستخدام Aspose.Cells Java (دليل خطوة بخطوة)](./set-background-picture-excel-aspose-cells-java/)
 تعرّف على كيفية تحسين تقارير Excel بإضافة صور خلفية باستخدام Aspose.Cells Java. اتبع هذا الدليل خطوة بخطوة لتنفيذ سلس.
 
-
+### [كيفية تصدير نطاق Excel كصورة في Java باستخدام Aspose.Cells](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
 
 ## موارد إضافية
 

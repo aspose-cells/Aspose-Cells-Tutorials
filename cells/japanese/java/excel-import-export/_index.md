@@ -81,7 +81,7 @@ Aspose.Cells for Java を使用して、JSON データを XLSX ファイルに�
 ### [フォント埋め込み HTML – Excel から HTML へ完全フォント埋め込み](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
 Aspose.Cells for Java を使用して、Excel を HTML に変換する際にフォントを完全に埋め込む方法を学び、正確な表示を実現します。
 
-### [Markdown を Excel に変換 – Aspose.Cells を使用した完全ガイド](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
+### [Markdown を Excel に変換 – Aspose.Cells を使用した完全ガイド](./convert-markdown-to-excel/)
 Aspose.Cells を利用して、Markdown ファイルを Excel に変換する手順をステップバイステップで解説します。
 ### [ワークブックをXLSXとして保存 – JSONからXLSXを生成](./save-workbook-as-xlsx-generate-xlsx-from-json/)
 Aspose.Cells for Java を使用して、JSON データから XLSX ワークブックを生成し、保存する方法を学びます。
@@ -93,6 +93,7 @@ Aspose.Cells for Java を使用して、Excel ファイルを Word 文書に変�
 Aspose.Cells for Java を使用して、Excel を SVG に変換する際にフォントを埋め込む手順をステップバイステップで解説します。
 ### [Excel を HTML に変換 – フォント埋め込み完全ガイド](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
 Aspose.Cells for Java を使用して、Excel ファイルを HTML に変換し、フォントを埋め込む手順をステップバイステップで解説します。
+### [JavaでMarkdownをスプレッドシートに変換 – ステップバイステップガイド](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

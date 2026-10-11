@@ -242,9 +242,11 @@ Beheers de styling van Excel-cellen en het toevoegen van hyperlinks in je Java-a
 ### [Excel-werkmap maken met dynamische opmaak in Java – volledige handleiding](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 Leer hoe u een Excel-werkmap maakt en dynamische opmaak toepast met Aspose.Cells voor Java. Deze volledige handleiding bevat stap‑voor‑stap codevoorbeelden.
 
-
 ### [Hoe stijlen toe te passen bij het converteren van DataTable naar Excel – volledige Java-gids](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 Leer hoe u met Aspose.Cells voor Java stijlen toepast tijdens het omzetten van een DataTable naar een Excel-bestand.
+
+### [Hoe u significante cijfers in Excel beperkt met Java](./how-to-limit-significant-digits-excel-using-java/)
+Leer hoe u met Aspose.Cells voor Java het aantal significante cijfers in Excel-werkbladen kunt beperken.
 
 ## Aanvullende bronnen
 

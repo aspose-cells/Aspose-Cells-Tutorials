@@ -60,6 +60,9 @@ weight: 22
 ### [تحسين حسابات Excel باستخدام Aspose.Cells Java&#58; إتقان سلاسل الحساب لمعالجة دفاتر العمل بفعالية](./optimize-excel-aspose-cells-java-calculation-chains/)
 تعلم كيفية تعزيز أداء Excel باستخدام Aspose.Cells للـ Java عبر تنفيذ سلاسل الحساب، حساب الصيغ بفعالية، وتحديث قيم الخلايا.
 
+### [إعادة حساب جميع صيغ Excel باستخدام Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
+دروس شفرة لإعادة حساب جميع الصيغ في ملفات Excel باستخدام Aspose.Cells للـ Java
+
 ## موارد إضافية
 - [توثيق Aspose.Cells للـ Java](https://docs.aspose.com/cells/java/)
 - [مرجع API لـ Aspose.Cells للـ Java](https://reference.aspose.com/cells/java/)

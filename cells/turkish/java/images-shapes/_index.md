@@ -48,7 +48,7 @@ Excel çalışma kitaplarına metin kutuları eklemek ve satır aralığını ay
 Aspose.Cells for Java kullanarak Excel dosyalarınızı WordArt ile nasıl geliştireceğinizi öğrenin. Bu eğitim kurulum, kod örnekleri ve pratik uygulamaları kapsar.
 
 ### [Excel Raporlarını Geliştirin: Java için Aspose.Cells Kullanarak Gradyanlar ile Yay Şekilleri Ekleyin](./aspose-cells-java-arc-shapes-gradients-excel/)
-Aspose.Cells for Java kullanarak degrade dolgulu yay şekilleri ekleyerek Excel raporlarınızı nasıl geliştireceğinizi öğrenin. Görsel olarak çekici belgeler oluşturmak için bu kapsamlı kılavuzu izleyin.
+Aspose.Cells for Java kullanarak degrade dolgulu yay şekilleri ekerek Excel raporlarınızı nasıl geliştireceğinizi öğrenin. Görsel olarak çekici belgeler oluşturmak için bu kapsamlı kılavuzu izleyin.
 
 ### [Aspose.Cells Java Kullanarak Excel'de Başlık Resmi Nasıl Ayarlanır](./aspose-cells-java-header-image-excel/)
 Aspose.Cells for Java'yı kullanarak Excel çalışma kitaplarına özel başlık resimlerinin nasıl ekleneceğini öğrenin, böylece elektronik tablolarınızın görsel çekiciliğini ve profesyonelliğini artırın.
@@ -131,7 +131,8 @@ Aspose.Words Java için bir kod eğitimi
 ### [Aspose.Cells Java Kullanarak Excel'de Arka Plan Resmi Ayarlama (Adım Adım Kılavuz)](./set-background-picture-excel-aspose-cells-java/)
 Aspose.Cells Java ile arka plan görüntüleri ekleyerek Excel raporlarınızı nasıl geliştireceğinizi öğrenin. Sorunsuz uygulama için bu adım adım kılavuzu izleyin.
 
-
+### [Aspose.Cells Java Kullanarak Excel Aralığını Görüntü Olarak Dışa Aktarma (Adım Adım Kılavuz)](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
+Aspose.Cells for Java kullanarak bir Excel aralığını resim dosyası olarak dışa aktarmayı öğrenin. Adım adım kod örnekleriyle raporlarınıza görsel veri ekleyin.
 
 ## Ek Kaynaklar
 

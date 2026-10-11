@@ -87,6 +87,8 @@
 
 ### [คัดลอกช่วงเวิร์กชีตโดยโปรแกรม – คู่มือ Java ฉบับสมบูรณ์](./programmatically-copy-worksheet-range-complete-java-guide/)
 
+### [วิธีใช้ฟังก์ชัน expand ในการประมวลผล Excel ด้วย Java](./how-to-use-expand-function-in-java-excel-processing/)
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสารประกอบ Aspose.Cells สำหรับ Java](https://docs.aspose.com/cells/java/)

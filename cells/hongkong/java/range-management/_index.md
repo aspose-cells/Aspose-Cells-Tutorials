@@ -89,6 +89,9 @@ Aspose.Words Java 程式碼教程
 ### [程式化複製工作表範圍 – 完整 Java 指南](./programmatically-copy-worksheet-range-complete-java-guide/)
 了解如何使用 Aspose.Cells for Java 程式化地複製工作表中的特定範圍，提供完整的範例與最佳實踐。
 
+### [如何在 Java Excel 處理中使用展開功能](./how-to-use-expand-function-in-java-excel-processing/)
+了解如何在 Java 中使用 Aspose.Cells 的展開功能處理 Excel 工作表。
+
 ## 其他資源
 
 - [Aspose.Cells for Java文檔](https://docs.aspose.com/cells/java/)

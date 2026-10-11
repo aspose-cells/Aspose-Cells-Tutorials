@@ -47,6 +47,9 @@ Master selecting cell ranges in Excel with Aspose.Cells for Java. This guide cov
 ### [How to Unmerge Cells in Excel Using Aspose.Cells for Java&#58; A Step-by-Step Guide](./aspose-cells-java-unmerging-excel-cells-guide/)
 Learn how to efficiently unmerge cells in Excel using Aspose.Cells for Java with this comprehensive guide. Ideal for data preparation and report generation.
 
+### [How to use expand function in Java Excel processing](./how-to-use-expand-function-in-java-excel-processing/)
+Learn how to apply the expand function in Aspose.Cells for Java to dynamically adjust ranges and process Excel data efficiently.
+
 ### [AutoFit Rows & Columns in Excel with Aspose.Cells for Java](./auto-fit-excel-aspose-cells-java/)
 Learn how to use Aspose.Cells for Java to convert HTML tables into well-structured Excel files, including auto-fitting rows and columns.
 

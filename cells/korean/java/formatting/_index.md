@@ -241,6 +241,9 @@ Aspose.Cells for Java를 사용해 Java에서 동적 서식이 적용된 Excel �
 ### [Aspose.Cells for Java를 사용하여 Excel/ODS 파일 만들기 및 스타일 지정: 포괄적인 가이드](./create-style-excel-ods-aspose-cells-java/)
 Aspose.Cells for Java를 사용
 
+### [Java를 사용하여 Excel에서 유효 숫자 자리수 제한하는 방법](./how-to-limit-significant-digits-excel-using-java/)
+Java와 Aspose.Cells를 사용해 Excel 셀의 유효숫자 자리수를 제한하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 - [Java용 Aspose.Cells 문서](https://docs.aspose.com/cells/java/)

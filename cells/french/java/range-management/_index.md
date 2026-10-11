@@ -89,7 +89,8 @@ Apprenez à gérer et manipuler efficacement des plages de données dans Excel a
 ### [Annuler la fusion de cellules Excel en Java avec Aspose.Cells : guide étape par étape](./unmerge-excel-cells-aspose-cells-java-guide/)
 Apprenez à fusionner efficacement des cellules dans des fichiers Excel avec Aspose.Cells pour Java. Ce guide couvre la configuration, la détection et la fusion de cellules, avec des exemples de code.
 
-
+### [Comment utiliser la fonction d'expansion dans le traitement Excel Java](./how-to-use-expand-function-in-java-excel-processing/)
+Apprenez à appliquer la fonction d'expansion pour manipuler efficacement les données Excel avec Aspose.Cells pour Java.
 
 ## Ressources supplémentaires
 

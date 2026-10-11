@@ -89,7 +89,8 @@ Erfahren Sie, wie Sie Datenbereiche in Excel mit Aspose.Cells für Java effizien
 ### [Excel-Zellen in Java mit Aspose.Cells trennen: Eine Schritt-für-Schritt-Anleitung](./unmerge-excel-cells-aspose-cells-java-guide/)
 Erfahren Sie, wie Sie Zellen in Excel-Dateien mit Aspose.Cells für Java effizient trennen. Diese Anleitung behandelt die Einrichtung, Erkennung und Trennung verbundener Zellen mit Codebeispielen.
 
-
+### [Wie man die Expand-Funktion in Java-Excel-Verarbeitung verwendet](./how-to-use-expand-function-in-java-excel-processing/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java die Expand-Funktion nutzen, um Daten in Excel effizient zu erweitern.
 
 ## Weitere Ressourcen
 

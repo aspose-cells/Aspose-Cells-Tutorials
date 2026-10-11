@@ -61,6 +61,8 @@ Naučte se, jak převést soubory JSON do formátu XLSX pomocí Aspose.Cells pro
 Naučte se, jak exportovat Excel do HTML s plným vložením všech použitých fontů pomocí Aspose.Cells pro Javu.
 ### [Převod Markdown do Excelu – Kompletní průvodce pomocí Aspose.Cells](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
 Naučte se, jak převést soubory Markdown do Excelu pomocí Aspose.Cells. Podrobný návod se zdrojovým kódem pro snadnou konverzi.
+### [Převod markdownu do tabulky v Javě – krok za krokem průvodce](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+Naučte se, jak převést soubory markdown do formátu Excel v Javě pomocí Aspose.Cells, s podrobným ukázkovým kódem.
 ### [Jak exportovat Excel do SVG – Kompletní průvodce v Javě](./how-to-export-excel-to-svg-complete-java-guide/)
 Naučte se, jak pomocí Aspose.Cells pro Javu exportovat soubory Excel do formátu SVG s podrobným ukázkovým kódem.
 ### [Načtení souboru JSON v Javě – Kompletní průvodce konverzí JSON do Excelu](./load-json-file-java-full-guide-to-convert-json-to-excel/)

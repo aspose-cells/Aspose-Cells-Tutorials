@@ -89,6 +89,9 @@ Lär dig hur du effektivt avsammanfogar celler i Excel-filer med Aspose.Cells f�
 ### [Tilldela namn till cell i Excel med Java – Komplett guide](./assign-name-to-cell-in-excel-using-java-complete-guide/)
 Lär dig hur du tilldelar ett namn till en cell i Excel med Aspose.Cells för Java, med kodexempel och steg-för-steg-instruktioner.
 
+### [Hur man använder expand‑funktionen i Java Excel‑bearbetning](./how-to-use-expand-function-in-java-excel-processing/)
+Lär dig hur du använder expand‑funktionen för att bearbeta Excel-filer i Java med Aspose.Cells.
+
 ## Ytterligare resurser
 
 - [Aspose.Cells för Java-dokumentation](https://docs.aspose.com/cells/java/)

@@ -235,8 +235,12 @@ Aspose.Cellsを使って、Excelセルのスタイル設定とJavaアプリケ�
 
 ### [Aspose.Cells for Java を使用して、動的書式設定付き Excel ワークブックを作成する方法 – 完全ガイド](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 Java と Aspose.Cells を活用し、動的な書式設定を持つ Excel ワークブックをステップバイステップで作成する方法を学びます。
+
 ### [Aspose.Cells for Java を使用して Excel の数値書式を設定する方法 - 完全ガイド](./set-number-format-excel-in-java-complete-guide/)
 Aspose.Cells for Java を使用して、Excel のセルにカスタム数値書式を設定し、データ表示を最適化する方法を学びます。
+
+### [Java を使用して Excel の有効数字を制限する方法](./how-to-limit-significant-digits-excel-using-java/)
+Java を使用して Excel の有効数字を制限する方法を学びます。
 
 ## 追加リソース
 

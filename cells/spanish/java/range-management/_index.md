@@ -89,7 +89,8 @@ Aprenda a gestionar y manipular eficientemente rangos de datos en Excel con Aspo
 ### [Descomponer celdas de Excel en Java con Aspose.Cells: guía paso a paso](./unmerge-excel-cells-aspose-cells-java-guide/)
 Aprenda a separar celdas de Excel de forma eficiente con Aspose.Cells para Java. Esta guía explica la configuración, la detección y la separación de celdas combinadas con ejemplos de código.
 
-
+### [Cómo usar la función expand en el procesamiento de Excel con Java](./how-to-use-expand-function-in-java-excel-processing/)
+Aprenda a usar la función expand en Aspose.Cells para Java y procesar rangos de Excel dinámicamente.
 
 ## Recursos adicionales
 

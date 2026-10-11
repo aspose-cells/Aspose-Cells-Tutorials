@@ -131,7 +131,8 @@ Aspose.Words Java에 대한 코드 튜토리얼
 ### [Aspose.Cells Java를 사용하여 Excel에서 배경 그림 설정하기(단계별 가이드)](./set-background-picture-excel-aspose-cells-java/)
 Aspose.Cells Java를 사용하여 배경 이미지를 추가하여 Excel 보고서를 더욱 풍부하게 만드는 방법을 알아보세요. 원활한 구현을 위한 단계별 가이드를 따라해 보세요.
 
-
+### [Aspose.Cells를 사용하여 Java에서 Excel 범위를 이미지로 내보내는 방법](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
+Aspose.Cells for Java를 사용해 Excel 워크시트의 특정 범위를 이미지 파일로 내보내는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

@@ -88,6 +88,9 @@ Tanuld meg, hogyan adhatunk nevet egy cellához Excelben Java-val, lépésről l
 ### [Programozott módon munkalap-tartomány másolása – Teljes Java útmutató](./programmatically-copy-worksheet-range-complete-java-guide/)
 Ismerd meg, hogyan másolhatod programozottan a munkalap-tartományokat Java-ban az Aspose.Cells segítségével.
 
+### [Hogyan használjuk az expand függvényt Java Excel feldolgozásban](./how-to-use-expand-function-in-java-excel-processing/)
+Ismerd meg, hogyan alkalmazhatod az expand függvényt az Excel-fájlok Java‑ban történő feldolgozásához az Aspose.Cells segítségével.
+
 ## További források
 
 - [Aspose.Cells Java-dokumentációhoz](https://docs.aspose.com/cells/java/)

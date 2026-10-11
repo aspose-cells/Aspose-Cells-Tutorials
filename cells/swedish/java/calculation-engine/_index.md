@@ -57,6 +57,9 @@ Lär dig hur du implementerar IWarningCallback‑gränssnittet med Aspose.Cells 
 ### [Mastering Aspose.Cells Java&#58; How to Interrupt Formula Calculation in Excel Workbooks](./master-aspose-cells-java-interrupt-formula-calculation-workbook/)
 Behärska Aspose.Cells Java: Hur man avbryter formelberäkning i Excel‑arbetsböcker. Lär dig hur du effektivt avbryter formelberäkningar i arbetsböcker med Aspose.Cells för Java. Perfekt för att optimera stora datamängder och förhindra oändliga loopar.
 
+### [Omberäkna alla formler i Excel med Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
+En guide för att omberäkna alla formler i en arbetsbok med Aspose.Cells för Java.
+
 ### [Optimize Excel Calculations Using Aspose.Cells Java&#58; Mastering Calculation Chains for Efficient Workbook Processing](./optimize-excel-aspose-cells-java-calculation-chains/)
 Optimera Excel‑beräkningar med Aspose.Cells Java: Behärska beräkningskedjor för effektiv arbetsbokshantering. Lär dig hur du förbättrar Excel‑prestanda med Aspose.Cells för Java genom att implementera beräkningskedjor, effektivt beräkna formler och uppdatera cellvärden.
 
