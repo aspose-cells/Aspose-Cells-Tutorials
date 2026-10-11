@@ -88,6 +88,8 @@
 
 ### [نسخ نطاق ورقة العمل برمجيًا – دليل Java كامل](./programmatically-copy-worksheet-range-complete-java-guide/)
 
+### [كيفية استخدام وظيفة التوسيع في معالجة Excel باستخدام Java](./how-to-use-expand-function-in-java-excel-processing/)
+
 ## موارد إضافية
 
 - [توثيق Aspose.Cells لـ Java](https://docs.aspose.com/cells/java/)

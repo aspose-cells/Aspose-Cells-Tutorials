@@ -242,9 +242,11 @@ Master styling Excel cells and adding hyperlinks in your Java applications with 
 ### [Create Excel Workbook with Dynamic Formatting in Java – Full Guide](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 Learn how to create Excel workbooks with dynamic formatting using Aspose.Cells for Java, including code examples and best practices.
 
-
 ### [How to Apply Styles When Converting DataTable to Excel – Full Java Guide](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 Learn how to apply cell styles while converting a DataTable to Excel using Aspose.Cells for Java, with step-by-step code examples.
+
+### [How to Limit Significant Digits in Excel Using Java](./how-to-limit-significant-digits-excel-using-java/)
+Learn how to restrict the number of significant digits displayed in Excel cells using Aspose.Cells for Java with clear code examples.
 
 ## Additional Resources
 

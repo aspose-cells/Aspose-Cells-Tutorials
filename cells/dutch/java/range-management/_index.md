@@ -88,6 +88,8 @@ Leer hoe u een naam toewijst aan een cel in Excel met Aspose.Cells voor Java, in
 ### [Programmeermatig werkbladbereik kopiëren – Complete Java-gids](./programmatically-copy-worksheet-range-complete-java-guide/)
 Leer hoe u met Aspose.Cells voor Java een bereik van een werkblad programmatic kopieert, inclusief codevoorbeelden en best practices.
 
+### [Hoe de expand-functie te gebruiken in Java Excel-verwerking](./how-to-use-expand-function-in-java-excel-processing/)
+
 ## Aanvullende bronnen
 
 - [Aspose.Cells voor Java-documentatie](https://docs.aspose.com/cells/java/)

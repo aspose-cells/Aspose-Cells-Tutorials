@@ -89,7 +89,8 @@ Pelajari cara mengelola dan memanipulasi rentang data secara efisien di Excel me
 ### [Memisahkan Sel Excel di Java Menggunakan Aspose.Cells: Panduan Langkah demi Langkah](./unmerge-excel-cells-aspose-cells-java-guide/)
 Pelajari cara memisahkan sel dalam file Excel secara efisien menggunakan Aspose.Cells untuk Java. Panduan ini mencakup pengaturan, deteksi, dan pemisahan sel yang digabungkan dengan contoh kode.
 
-
+### [Cara Menggunakan Fungsi Expand dalam Pemrosesan Excel Java](./how-to-use-expand-function-in-java-excel-processing/)
+Pelajari cara menggunakan fungsi expand di Aspose.Cells untuk Java dalam memproses file Excel secara efisien.
 
 ## Sumber Daya Tambahan
 

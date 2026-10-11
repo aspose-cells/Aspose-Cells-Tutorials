@@ -1,0 +1,7 @@
+Title: How to create Excel workbook and parse Japanese dates in C#
+Slug: how-to-create-excel-workbook-and-parse-japanese-dates-in-c
+Category: excel-custom-number-date-formatting
+ProcessedDate: 2026-10-10T23:57:29.679445
+SourceRepo: AI Search API
+Keywords: create excel workbook, set cell value, apply custom format, read date cell, excel date parsing
+PRNumber: 188

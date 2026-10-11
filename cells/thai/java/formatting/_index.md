@@ -238,11 +238,15 @@
 
 ### [สร้างสมุดงาน Excel ด้วยการจัดรูปแบบแบบไดนามิกโดยใช้ Aspose.Cells สำหรับ Java – คู่มือฉบับสมบูรณ์](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 เรียนรู้วิธีสร้างสมุดงาน Excel ที่มีการจัดรูปแบบแบบไดนามิกโดยใช้ Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน
+
 ### [วิธีการใช้สไตล์เมื่อแปลง DataTable เป็น Excel – คู่มือฉบับสมบูรณ์สำหรับ Java](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 เรียนรู้วิธีใช้สไตล์กับ DataTable ขณะแปลงเป็นไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java อย่างละเอียด
 
 ### [Aspose Cells รูปแบบวันที่: วิธีตั้งค่ารูปแบบวันที่แบบกำหนดเองใน Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
 เรียนรู้วิธีตั้งค่ารูปแบบวันที่แบบกำหนดเองใน Excel ด้วย Aspose.Cells สำหรับ Java อย่างละเอียด
+
+### [วิธีจำกัดจำนวนหลักสำคัญใน Excel ด้วย Java](./how-to-limit-significant-digits-excel-using-java/)
+เรียนรู้วิธีจำกัดจำนวนหลักสำคัญของตัวเลขในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java ผ่านตัวอย่างโค้ดที่ใช้งานได้จริง
 
 ## แหล่งข้อมูลเพิ่มเติม
 

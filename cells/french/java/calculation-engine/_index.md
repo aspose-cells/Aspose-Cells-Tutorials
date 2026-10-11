@@ -61,6 +61,9 @@ Apprenez à interrompre efficacement le calcul des formules dans les classeurs �
 ### [Optimiser les calculs Excel avec Aspose.Cells Java&#58; Maîtriser les chaînes de calcul pour un traitement efficace des classeurs](./optimize-excel-aspose-cells-java-calculation-chains/)
 Apprenez à améliorer les performances d’Excel avec Aspose.Cells for Java en implémentant des chaînes de calcul, en calculant les formules de manière efficace et en mettant à jour les valeurs des cellules.
 
+### [Recalculer toutes les formules Excel avec Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
+Apprenez à recalculer toutes les formules d’un classeur Excel en Java avec Aspose.Cells.
+
 ## Ressources supplémentaires
 - [Documentation Aspose.Cells for Java](https://docs.aspose.com/cells/java/)
 - [Référence API Aspose.Cells for Java](https://reference.aspose.com/cells/java/)

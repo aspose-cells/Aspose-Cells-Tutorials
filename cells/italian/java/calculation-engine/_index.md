@@ -61,6 +61,9 @@ Scopri come interrompere in modo efficiente il calcolo delle formule nei workboo
 ### [Ottimizzare i calcoli Excel con Aspose.Cells Java&#58; Padroneggiare le catene di calcolo per un'elaborazione efficiente dei workbook](./optimize-excel-aspose-cells-java-calculation-chains/)
 Scopri come migliorare le prestazioni di Excel con Aspose.Cells per Java implementando catene di calcolo, calcolando formule in modo efficiente e aggiornando i valori delle celle.
 
+### [Ricalcolare tutte le formule Excel con Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
+Un tutorial di codice per ricalcolare tutte le formule Excel usando Aspose.Cells per Java
+
 ## Risorse aggiuntive
 - [Documentazione di Aspose.Cells per Java](https://docs.aspose.com/cells/java/)
 - [Riferimento API di Aspose.Cells per Java](https://reference.aspose.com/cells/java/)

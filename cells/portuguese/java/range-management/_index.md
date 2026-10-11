@@ -89,6 +89,8 @@ Aprenda a desfazer a mesclagem de células em arquivos do Excel com eficiência 
 ### [Copiar intervalo de planilha programaticamente – Guia completo Java](./programmatically-copy-worksheet-range-complete-java-guide/)
 Aprenda a copiar intervalos de planilhas no Excel programaticamente usando Aspose.Cells para Java com exemplos completos.
 
+### [Como usar a função expand no processamento de Excel em Java](./how-to-use-expand-function-in-java-excel-processing/)
+
 ## Recursos adicionais
 
 - [Documentação do Aspose.Cells para Java](https://docs.aspose.com/cells/java/)

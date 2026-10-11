@@ -60,6 +60,9 @@ Aspose.Cells for Java를 사용해 워크북에서 수식 계산을 효율적으
 ### [Aspose.Cells Java&#58; 계산 체인 마스터링으로 효율적인 워크북 처리](./optimize-excel-aspose-cells-java-calculation-chains/)
 계산 체인을 구현하고 수식을 효율적으로 계산하며 셀 값을 업데이트함으로써 Aspose.Cells for Java를 사용해 Excel 성능을 향상시키는 방법을 배웁니다.
 
+### [Java Aspose.Cells를 사용하여 Excel의 모든 수식 재계산하기](./recalculate-all-formulas-excel-with-java-aspose-cells/)
+Java와 Aspose.Cells를 활용해 워크북의 모든 수식을 한 번에 재계산하는 방법을 안내합니다.
+
 ## 추가 리소스
 - [Aspose.Cells for Java 문서](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells for Java API 레퍼런스](https://reference.aspose.com/cells/java/)

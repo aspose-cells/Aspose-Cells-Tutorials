@@ -100,6 +100,9 @@
 ### [วิธีฝังฟอนต์ในการแปลง Excel เป็น SVG](./how-to-embed-fonts-in-excel-to-svg-conversion/)
 เรียนรู้วิธีฝังฟอนต์เมื่อแปลงไฟล์ Excel เป็น SVG ด้วย Aspose.Cells สำหรับ Java เพื่อให้ผลลัพธ์แสดงฟอนต์อย่างถูกต้อง
 
+### [แปลง Markdown เป็นสเปรดชีตใน Java – คู่มือขั้นตอนโดยขั้นตอน](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ Markdown เป็นสเปรดชีตโดยใช้ Aspose.Cells สำหรับ Java ด้วยคำแนะนำทีละขั้นตอนและโค้ดตัวอย่าง
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

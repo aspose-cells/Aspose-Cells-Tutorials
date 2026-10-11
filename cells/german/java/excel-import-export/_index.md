@@ -39,7 +39,7 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java CSV-Dateien exportieren, signif
 ### [Exportieren von Excel in PDF](./exporting-excel-to-pdf/)
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java mühelos in PDF exportieren. Unsere Schritt-für-Schritt-Anleitung vereinfacht den Prozess. Starten Sie noch heute mit der Konvertierung!
 ### [Wie man aus einer Arbeitsmappe ein PDF erstellt – Vollständiger Java-Leitfaden](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
-Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Arbeitsmappe in ein PDF konvertieren. Schritt-für-Schritt-Anleitung mit Beispielcode.
+Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Arbeitsmappe in ein PDF konvertieren. Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
 ### [Exportieren von Excel nach XML Java](./export-excel-to-xml-java/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Excel in XML in Java exportieren. Schritt‑für‑Schritt‑Anleitung mit Quellcode für die nahtlose Datenkonvertierung.
 ### [Datenimport aus Excel](./data-import-from-excel/)
@@ -79,6 +79,8 @@ Erfahren Sie, wie Sie XLSX-Dateien mit Aspose.Cells für Java effizient in CSV k
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java in Word-Dokumente konvertieren. Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
 ### [Wie man Schriftarten in Excel‑zu‑SVG‑Konvertierung einbettet](./how-to-embed-fonts-in-excel-to-svg-conversion/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Schriftarten in die Excel‑zu‑SVG‑Konvertierung einbetten.
+### [Markdown in Tabellenkalkulation konvertieren – Schritt‑für‑Schritt‑Leitfaden in Java](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Markdown-Dateien in Excel-Tabellen konvertieren – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

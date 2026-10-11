@@ -61,6 +61,9 @@ weight: 22
 ### [Optimize Excel Calculations Using Aspose.Cells Java&#58; Mastering Calculation Chains for Efficient Workbook Processing](./optimize-excel-aspose-cells-java-calculation-chains/)
 Узнайте, как повысить производительность Excel с помощью Aspose.Cells for Java, реализуя цепочки расчётов, эффективно вычисляя формулы и обновляя значения ячеек.
 
+### [Пересчитать все формулы Excel с помощью Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
+Кодовый учебник
+
 ## Дополнительные ресурсы
 - [Документация Aspose.Cells for Java](https://docs.aspose.com/cells/java/)
 - [Справочник API Aspose.Cells for Java](https://reference.aspose.com/cells/java/)

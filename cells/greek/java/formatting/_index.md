@@ -245,6 +245,8 @@
 ### [Aspose Cells Μορφή Ημερομηνίας: Πώς να ορίσετε προσαρμοσμένη μορφή ημερομηνίας σε Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
 Μάθετε πώς να ορίσετε προσαρμοσμένη μορφή ημερομηνίας σε αρχεία Excel χρησιμοποιώντας το Aspose.Cells για Java.
 
+### [Πώς να περιορίσετε τα σημαντικά ψηφία στο Excel χρησιμοποιώντας Java](./how-to-limit-significant-digits-excel-using-java/)
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.Cells για τεκμηρίωση Java](https://docs.aspose.com/cells/java/)

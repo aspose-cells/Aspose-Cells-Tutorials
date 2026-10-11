@@ -96,6 +96,9 @@
 ### [如何在 Excel 转 SVG 转换中嵌入字体](./how-to-embed-fonts-in-excel-to-svg-conversion/)
 学习如何在使用 Aspose.Cells for Java 将 Excel 转换为 SVG 时嵌入自定义字体，确保输出保持原始字体样式。
 
+### [将 Markdown 转换为电子表格 – Java 分步指南](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+学习如何使用 Aspose.Cells for Java 将 Markdown 文件转换为 Excel 电子表格，完整代码示例助您快速上手。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

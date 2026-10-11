@@ -245,6 +245,8 @@ Scopri come convertire una DataTable in Excel applicando stili personalizzati co
 ### [Formato data Aspose Cells: Come impostare un formato data personalizzato in Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
 Scopri come impostare formati data personalizzati nei fogli Excel con Aspose.Cells per Java, con esempi di codice chiari e pratici.
 
+### [Come limitare le cifre significative in Excel usando Java](./how-to-limit-significant-digits-excel-using-java/)
+
 ## Risorse aggiuntive
 
 - [Documentazione di Aspose.Cells per Java](https://docs.aspose.com/cells/java/)

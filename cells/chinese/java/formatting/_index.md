@@ -224,7 +224,7 @@ Aspose.Words Java 代码教程
 ### [使用 Aspose.Cells for Java 高效修改 Excel 中的命名样式](./modify-named-styles-excel-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 自动修改 Excel 电子表格中的样式，从而节省时间并确保一致性。
 
-### [使用 Aspose.Cells for Java 掌握 Excel 工作表与合并单元格的优化](./optimize-excel-sheets-merged-cells-aspose-cells-java/)
+### [使用 Aspose.Cells for Java 探索 Excel 工作表与合并单元格的优化](./optimize-excel-sheets-merged-cells-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 合并单元格来优化您的 Excel 工作表。本指南涵盖了工作簿的操作、样式设置以及高效的保存。
 
 ### [使用 Aspose.Cells Java 在 Excel 单元格中旋转文本：完整指南](./rotate-text-excel-cells-aspose-cells-java/)
@@ -242,7 +242,8 @@ Aspose.Words Java 代码教程
 ### [使用 Java 动态格式创建 Excel 工作簿：完整指南](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 了解如何使用 Aspose.Cells for Java 在 Java 中创建具备动态格式的 Excel 工作簿，提供完整步骤、代码示例和最佳实践。
 ### [在将 DataTable 转换为 Excel 时应用样式 – 完整 Java 指南](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
-学习如何使用 Aspose.Cells for Java 将 DataTable 导出为 Excel 并在转换过程中应用自定义单元格样式，提升报表外观。
+
+### [如何使用 Java 限制 Excel 中的有效数字](./how-to-limit-significant-digits-excel-using-java/)
 
 ## 其他资源
 

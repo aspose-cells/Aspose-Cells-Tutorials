@@ -89,6 +89,9 @@ Aspose.Cells for Java を使用して、Excel ファイル内のセルを効率�
 ### [プログラムでワークシートの範囲をコピーする – 完全 Java ガイド](./programmatically-copy-worksheet-range-complete-java-guide/)
 Aspose.Cells for Java を使用して、ワークシートのセル範囲をプログラムでコピーする方法をステップバイステップで解説します。
 
+### [Java Excel 処理で expand 関数を使用する方法](./how-to-use-expand-function-in-java-excel-processing/)
+expand 関数を活用して、セル範囲の拡張やデータ抽出を効率化する手順を解説します。
+
 ## 追加リソース
 
 - [Aspose.Cells for Java ドキュメント](https://docs.aspose.com/cells/java/)

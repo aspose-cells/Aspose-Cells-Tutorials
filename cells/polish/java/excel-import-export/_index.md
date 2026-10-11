@@ -83,6 +83,8 @@ Dowiedz się, jak w pełni konwertować pliki XLSX do formatu CSV w Javie przy u
 Dowiedz się, jak konwertować pliki Excel do Word przy użyciu Aspose.Cells for Java. Przewodnik krok po kroku z przykładowym kodem.
 ### [Jak osadzić czcionki w konwersji Excela do SVG](./how-to-embed-fonts-in-excel-to-svg-conversion/)
 Dowiedz się, jak osadzić czcionki podczas konwersji plików Excel do formatu SVG przy użyciu Aspose.Cells for Java.
+### [Konwertuj markdown do arkusza kalkulacyjnego w Javie – przewodnik krok po kroku](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+Dowiedz się, jak przekształcić pliki Markdown w arkusze kalkulacyjne w Javie przy użyciu Aspose.Cells – kompletny przewodnik krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -66,7 +66,9 @@
 ### [使用 Aspose.Cells for Java 將 JSON 轉換為 XLSX – 完整指南](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
 了解如何使用 Aspose.Cells for Java 將 JSON 資料轉換為 XLSX 檔案，並提供完整的步驟與原始程式碼示例。
 ### [將 Markdown 轉換為 Excel – 使用 Aspose.Cells 完整指南](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
-了解如何使用 Aspose.Cells for Java 將 Markdown 內容轉換為 Excel 檔案，提供逐步指南與原始程式碼示例。
+了解如何使用 Aspose.Cells for Java 將 Markdown 內容轉換為 Excel 檔案，提供逐步指南與原始碼示例。
+### [將 Markdown 轉換為試算表（Java） – 逐步指南](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+了解如何使用 Aspose.Cells for Java 將 Markdown 內容轉換為試算表，提供逐步說明與原始碼示例。
 ### [如何將字體嵌入 HTML（自 Excel 工作簿）– Java](./how-to-embed-fonts-in-html-from-excel-workbook-java/)
 了解如何使用 Aspose.Cells for Java 將 Excel 工作簿中的字體嵌入 HTML，提供逐步指南與原始碼示例。
 ### [建立 Excel 檔案（Java） – 完整指南，含列樣式與 XLSX 匯出](./create-excel-file-java-full-guide-with-row-styling-and-xlsx/)

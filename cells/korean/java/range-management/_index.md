@@ -89,6 +89,9 @@ Aspose.Cells for Java를 사용하여 Excel 파일에서 셀 병합을 효율적
 ### [Java를 사용하여 Excel 셀에 이름 지정 – 완전 가이드](./assign-name-to-cell-in-excel-using-java-complete-guide/)
 Java와 Aspose.Cells를 활용해 Excel 셀에 이름을 지정하고 관리하는 방법을 단계별로 안내합니다.
 
+### [Java Excel 처리에서 expand 함수 사용 방법](./how-to-use-expand-function-in-java-excel-processing/)
+Aspose.Cells for Java를 사용하여 Excel에서 expand 함수를 활용하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 - [Java용 Aspose.Cells 문서](https://docs.aspose.com/cells/java/)

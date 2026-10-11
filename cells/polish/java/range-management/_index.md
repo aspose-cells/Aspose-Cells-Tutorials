@@ -89,6 +89,9 @@ Dowiedz się, jak skutecznie rozdzielić komórki w plikach Excela za pomocą As
 ### [Przypisz nazwę komórce w Excelu przy użyciu Javy – kompletny przewodnik](./assign-name-to-cell-in-excel-using-java-complete-guide/)
 Dowiedz się, jak przypisać nazwę do pojedynczej komórki w Excelu przy użyciu Aspose.Cells for Java, krok po kroku.
 
+### [Jak używać funkcji expand w przetwarzaniu Excela w Javie](./how-to-use-expand-function-in-java-excel-processing/)
+Dowiedz się, jak wykorzystać funkcję expand w Aspose.Cells for Java do dynamicznego rozszerzania zakresów w arkuszach Excel.
+
 ## Dodatkowe zasoby
 
 - [Dokumentacja Aspose.Cells dla Java](https://docs.aspose.com/cells/java/)

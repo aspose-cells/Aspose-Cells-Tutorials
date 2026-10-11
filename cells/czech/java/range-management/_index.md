@@ -89,7 +89,8 @@ Naučte se, jak efektivně spravovat a manipulovat s datovými oblastmi v Excelu
 ### [Rozdělení buněk Excelu v Javě pomocí Aspose.Cells: Podrobný návod](./unmerge-excel-cells-aspose-cells-java-guide/)
 Naučte se, jak efektivně rozdělit buňky v souborech Excelu pomocí Aspose.Cells pro Javu. Tato příručka se zabývá nastavením, detekcí a rozdělováním sloučených buněk s příklady kódu.
 
-
+### [Jak použít funkci expand v Javě pro zpracování Excelu](./how-to-use-expand-function-in-java-excel-processing/)
+Naučte se, jak využít funkci expand v Aspose.Cells pro Javu k rozšíření oblastí a dynamickému přizpůsobení dat v Excelu.
 
 ## Další zdroje
 

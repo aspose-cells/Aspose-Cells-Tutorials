@@ -221,7 +221,7 @@ Aspose.Words Java 程式碼教程
 ### [使用 Aspose.Cells for Java 高效率修改 Excel 中的命名樣式](./modify-named-styles-excel-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 自動修改 Excel 電子表格中的樣式，從而節省時間並確保一致性。
 
-### [使用 Aspose.Cells for Java 掌握 Excel 工作表與合併儲存格的最佳化](./optimize-excel-sheets-merged-cells-aspose-cells-java/)
+### [使用 Aspose.Cells for Java 探索 Excel 工作表與合併儲存格的最佳化](./optimize-excel-sheets-merged-cells-aspose-cells-java/)
 學習使用 Aspose.Cells for Java 合併儲存格來最佳化您的 Excel 工作表。本指南涵蓋工作簿的操作、樣式和有效保存。
 
 ### [使用 Aspose.Cells Java 在 Excel 儲存格中旋轉文字：完整指南](./rotate-text-excel-cells-aspose-cells-java/)
@@ -241,7 +241,8 @@ Aspose.Words Java 程式碼教程
 ### [將 DataTable 轉換為 Excel 時套用樣式 – 完整 Java 教學](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 
 ### [Aspose Cells 日期格式：如何在 Java 中設定自訂日期格式](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
-了解如何使用 Aspose.Cells for Java 在 Excel 中設定自訂日期格式，以符合特定顯示需求。
+
+### [如何在 Excel 中使用 Java 限制有效位數](./how-to-limit-significant-digits-excel-using-java/)
 
 ## 其他資源
 

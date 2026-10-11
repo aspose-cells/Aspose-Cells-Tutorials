@@ -89,6 +89,9 @@ Tìm hiểu cách tách ô hiệu quả trong các tệp Excel bằng Aspose.Cel
 ### [Sao chép phạm vi trang tính bằng lập trình – Hướng dẫn Java toàn diện](./programmatically-copy-worksheet-range-complete-java-guide/)
 Tìm hiểu cách sao chép phạm vi worksheet trong Excel bằng Aspose.Cells cho Java một cách tự động và chi tiết.
 
+### [Cách sử dụng hàm expand trong xử lý Excel bằng Java](./how-to-use-expand-function-in-java-excel-processing/)
+Khám phá cách áp dụng hàm expand để mở rộng dữ liệu trong tệp Excel bằng Aspose.Cells cho Java.
+
 ## Tài nguyên bổ sung
 
 - [Tài liệu Aspose.Cells cho Java](https://docs.aspose.com/cells/java/)

@@ -243,6 +243,9 @@ Aprenda a aplicar estilos a los datos de un DataTable al exportarlos a Excel usa
 ### [Formato de fecha de Aspose Cells: cómo establecer un formato de fecha personalizado en Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
 Aprenda a establecer formatos de fecha personalizados en Excel usando Aspose.Cells para Java. Esta guía paso a paso muestra cómo definir y aplicar patrones de fecha.
 
+### [Cómo limitar los dígitos significativos en Excel usando Java](./how-to-limit-significant-digits-excel-using-java/)
+Aprenda a limitar la cantidad de dígitos significativos en celdas de Excel mediante Aspose.Cells para Java.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.Cells para Java](https://docs.aspose.com/cells/java/)
