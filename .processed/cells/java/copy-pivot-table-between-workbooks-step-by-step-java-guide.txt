@@ -1,0 +1,7 @@
+Title: Copy Pivot Table Between Workbooks – Step‑by‑Step Java Guide
+Slug: copy-pivot-table-between-workbooks-step-by-step-java-guide
+Category: excel-pivot-tables
+ProcessedDate: 2026-07-14T07:53:56.260010
+SourceRepo: AI Search API
+Keywords: copy pivot table, how to copy pivot, copy excel range, copy range between workbooks, export pivot table
+PRNumber: 119

@@ -11,9 +11,7 @@ url: /hi/java/calculation-engine/optimize-excel-aspose-cells-java-calculation-ch
 weight: 1
 ---
 
- formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

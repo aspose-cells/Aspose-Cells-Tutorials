@@ -1,0 +1,7 @@
+Title: Create Excel Workbook with Smart Markers – Java Guide
+Slug: create-excel-workbook-with-smart-markers-java-guide
+Category: templates-reporting
+ProcessedDate: 2026-07-04T05:23:21.198194
+SourceRepo: AI Search API
+Keywords: create excel workbook, populate excel template, populate excel with map, save workbook xlsx, use smart markers
+PRNumber: 113

@@ -1,0 +1,7 @@
+Title: How to copy range and preserve a pivot table in Java
+Slug: how-to-copy-range-and-preserve-a-pivot-table-in-java
+Category: excel-pivot-tables
+ProcessedDate: 2026-09-21T18:42:23.850508
+SourceRepo: AI Search API
+Keywords: how to copy range, copy pivot table, preserve pivot table, export pivot table, how to preserve pivot
+PRNumber: 166

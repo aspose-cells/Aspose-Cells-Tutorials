@@ -1,0 +1,7 @@
+Title: How to Use SEQUENCE in C# – Create Excel Workbook
+Slug: how-to-use-sequence-in-c-create-excel-workbook
+Category: formulas-functions
+ProcessedDate: 2026-07-04T03:38:13.661915
+SourceRepo: AI Search API
+Keywords: how to use sequence, create excel workbook c#, asp.net create excel file, generate incremental numbers excel
+PRNumber: 112

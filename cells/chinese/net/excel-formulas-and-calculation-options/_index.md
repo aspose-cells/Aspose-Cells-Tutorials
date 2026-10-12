@@ -67,6 +67,8 @@ Excel 内置了大量函数，可用于执行各种计算和数据操作。了�
 使用 Aspose.Cells for .NET 释放 Excel 的潜力。逐步学习如何使用强大的插件函数处理数据。
 ### [在 Excel 中使用数组函数处理数据](./processing-data-using-array-function/)
 使用 Aspose.Cells for .NET 解锁 Excel 的强大功能。在本详细教程中学习如何使用数组函数处理数据。
+### [如何使用 Aspose.Cells 在 C# 中扩展数组 – 步骤指南](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+通过本分步指南，学习如何使用 Aspose.Cells for .NET 在 C# 中扩展数组，实现灵活的数据处理。
 ### [使用 Excel 内置函数处理数据](./processing-data-using-built-in-functions/)
 了解如何使用 Aspose.Cells for .NET 在 Excel 中使用内置函数处理数据。按照分步教程轻松实现自动化。
 ### [使用 Excel 中的 R1C1 处理数据](./processing-data-using-r1c1/)
@@ -75,6 +77,24 @@ Excel 内置了大量函数，可用于执行各种计算和数据操作。了�
 通过我们简单的分步教程，了解如何使用 Aspose.Cells for .NET 在 Excel 中注册和调用插件中的函数。
 ### [在 Excel 中指定共享公式的最大行数](./specifying-maximum-rows-of-shared-formula/)
 通过这个简单的分步教程，了解如何使用 Aspose.Cells for .NET 指定 Excel 中共享公式的最大行数。
+### [如何使用 C# 在 Excel 中计算余切 – 步骤指南](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+使用 Aspose.Cells for .NET 通过 C# 在 Excel 中计算余切的详细分步指南。
+
+### [C# 创建 Excel 文件 – 带条件逻辑的分步指南](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+使用 Aspose.Cells for .NET，学习如何在 C# 中创建 Excel 文件并通过条件逻辑实现动态数据处理。
+
+### [在 C# 中重新计算所有公式 – 刷新 Excel](./recalculate-all-formulas-in-c-refresh-excel/)
+使用 Aspose.Cells for .NET 在 C# 中重新计算工作簿的所有公式，快速刷新 Excel 数据。
+### [在 C# 中使用 WRAPCOLS – 将数组重塑为矩阵](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+学习如何使用 Aspose.Cells for .NET 在 C# 中通过 WRAPCOLS 将一维数组转换为矩阵，实现高效数据处理。
+### [使用 C# 在 Excel 中创建数组 – 步骤指南](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+通过本分步教程，学习如何使用 Aspose.Cells for .NET 在 Excel 中使用 C# 创建数组，实现高效数据处理。
+### [如何在 Excel 中使用 C# 计算余切 – 完整指南](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+使用 Aspose.Cells for .NET，了解在 Excel 中通过 C# 计算余切的完整步骤，实现精准的三角函数运算。
+### [如何在 Excel 中使用 WRAPCOLS – 完整 C# 示例](./how-to-use-wrapcols-in-excel-complete-c-example/)
+通过本分步指南，学习使用 Aspose.Cells for .NET 在 Excel 中使用 WRAPCOLS，实现完整的 C# 示例。
+### [在 C# 中应用 Excel 数组公式 – 完整指南](./apply-array-formula-excel-in-c-complete-guide/)
+通过本分步指南，学习如何使用 Aspose.Cells for .NET 在 C# 中应用 Excel 数组公式，实现完整的解决方案。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

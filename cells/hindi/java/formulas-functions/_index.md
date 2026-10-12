@@ -86,7 +86,14 @@ Aspose.Words Java के लिए एक कोड ट्यूटोरिय�
 ### [Excel में कोटैन्जेंट कैसे गणना करें – पूर्ण गाइड](./how-to-calculate-cotangent-in-excel-complete-guide/)
 Excel में कोटैन्जेंट फ़ंक्शन का उपयोग करके कोटैन्जेंट मान कैसे निकालें, चरण-दर-चरण मार्गदर्शिका।
 
+### [Java के साथ Excel में Reduce का उपयोग कैसे करें – लैम्ब्डा फ़ॉर्मूला गाइड](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
+Java के साथ Aspose.Cells का उपयोग करके Excel में Reduce फ़ंक्शन लागू करना और लैम्ब्डा फ़ॉर्मूला से डेटा को संक्षिप्त करना सीखें।
 
+### [Java में WRAPCOLS का उपयोग कैसे करें – पूर्ण Excel WRAPCOLS उदाहरण](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+Java में Aspose.Cells के साथ WRAPCOLS फ़ंक्शन लागू करना और विस्तृत उदाहरण देखना सीखें।
+
+### [जावा Excel वर्कबुक में SEQUENCE का उपयोग कैसे करें – चरण‑दर‑चरण गाइड](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+जावा में Aspose.Cells का उपयोग करके Excel वर्कबुक में SEQUENCE फ़ंक्शन को लागू करने और उपयोग करने के चरणों को सीखें।
 
 ## अतिरिक्त संसाधन
 

@@ -1,0 +1,7 @@
+Title: Export Chart as PNG – Complete Guide to Convert Excel to HTML with Aspose.Cells
+Slug: export-chart-as-png-complete-guide-to-convert-excel-to-html
+Category: chart-rendering-and-conversion
+ProcessedDate: 2026-06-30T22:47:44.807402
+SourceRepo: AI Search API
+Keywords: export chart as png, convert excel to html, embed images as base64, save workbook as html, export excel chart to png
+PRNumber: 108

@@ -45,7 +45,7 @@ Pelajari cara menggunakan pustaka Aspose.Cells untuk Java untuk menambahkan kome
 Pelajari cara mengotomatiskan penambahan komentar ke file Excel dengan Aspose.Cells untuk Java. Sederhanakan alur kerja Anda dan tingkatkan tugas pengelolaan data secara efisien.
 
 ### [Mengedit Komentar Berulir Excel Menggunakan Aspose.Cells di Java](./edit-excel-threaded-comments-aspose-cells-java/)
-Pelajari cara mengedit komentar berulir secara efisien dalam file Excel dengan Aspose.Cells untuk Java. Ikuti panduan ini untuk pengaturan, contoh kode, dan praktik terbaik.
+Pelajari cara mengedit komentar berulir secara efisien dalam file Excel dengan Aspose.Cells di Java. Ikuti panduan ini untuk pengaturan, contoh kode, dan praktik terbaik.
 
 ### [Menguasai Arah Teks Komentar Excel Menggunakan Aspose.Cells untuk Java](./excel-comment-text-direction-aspose-cells-java/)
 Pelajari cara mengubah arah teks dalam komentar Excel dengan Aspose.Cells untuk Java. Ideal untuk mengintegrasikan bahasa yang ditulis dari kanan ke kiri seperti bahasa Arab atau Ibrani.
@@ -53,7 +53,8 @@ Pelajari cara mengubah arah teks dalam komentar Excel dengan Aspose.Cells untuk 
 ### [Ekspor Komentar Excel ke HTML dengan Aspose.Cells untuk Java](./export-excel-comments-html-aspose-cells-java/)
 Tutorial kode untuk Aspose.Words Java
 
-
+### [Cara Menambahkan Komentar di Excel dengan Java – Panduan Lengkap](./how-to-add-comment-in-excel-with-java-complete-guide/)
+Pelajari cara menambahkan komentar ke file Excel secara terprogram menggunakan Aspose.Cells untuk Java dalam panduan lengkap ini.
 
 ## Sumber Daya Tambahan
 

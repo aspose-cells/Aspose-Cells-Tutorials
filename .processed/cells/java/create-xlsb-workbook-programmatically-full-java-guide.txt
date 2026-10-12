@@ -1,0 +1,7 @@
+Title: Create XLSB Workbook Programmatically – Full Java Guide
+Slug: create-xlsb-workbook-programmatically-full-java-guide
+Category: workbook-operations
+ProcessedDate: 2026-07-01T00:55:05.559881
+SourceRepo: AI Search API
+Keywords: create xlsb workbook programmatically
+PRNumber: 109

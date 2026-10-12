@@ -27,43 +27,27 @@
 ## البرامج التعليمية المتاحة
 
 ### [إتقان صيغ المصفوفات في Excel باستخدام Aspose.Cells Java: تبسيط العمليات الحسابية والتنسيق](./aspose-cells-java-array-formulas-custom-calculations/)
-
 ### [كيفية إنشاء دالة قيمة ثابتة مخصصة في Aspose.Cells Java](./aspose-cells-java-custom-static-value-function/)
-
 ### [إتقان صيغ الروابط الخارجية في Excel باستخدام Aspose.Cells لـ Java](./aspose-cells-java-external-link-formulas-excel/)
-
 ### [إدارة صيغ النطاقات المسماة في الإعدادات المحلية الألمانية باستخدام Aspose.Cells Java](./aspose-cells-java-german-named-ranges/)
-
 ### [إتقان Aspose.Cells في Java: إضافة الصور والصيغ إلى مصنفات Excel](./aspose-cells-java-images-formulas-excel/)
-
 ### [الحفاظ على الدقة للأعداد الكبيرة باستخدام Aspose.Cells في Java: دليل شامل](./aspose-cells-java-large-numbers-precision/)
-
 ### [Master Aspose.Cells لـ Java: إدارة الصيغ المشتركة ومعلومات الإصدار](./aspose-cells-java-shared-formulas-version-info/)
-
 ### [إتقان Aspose.Cells في Java: تنفيذ العلامات الذكية والصيغ لأتمتة Excel](./aspose-cells-java-smart-markers-formulas/)
-
 ### [جمع القيم باستخدام نطاقات مُسمّاة في Aspose.Cells Java: دليل شامل](./aspose-cells-java-sum-named-ranges-functions/)
-
 ### [أتمتة صيغ Excel باستخدام الصيغ المنتشرة في Aspose.Cells لـ Java](./automate-excel-formulas-aspose-cells-java/)
-
 ### [الحساب المخصص في Aspose.Cells Java: تحسين وظيفة SUM](./custom-calculation-engine-aspose-cells-java-enhanced-sum/)
-
 ### [دالة SUM مخصصة في Excel باستخدام Aspose.Cells Java: حسّن حساباتك](./custom-sum-function-excel-aspose-cells-java/)
-
 ### [تخصيص صيغ Excel في Java باستخدام GlobalizationSettings و Aspose.Cells](./customize-excel-formulas-globalizationsettings-aspose-cells-java/)
-
 ### [اكتشاف الصيغ والبحث عنها في Excel باستخدام Aspose.Cells لـ Java](./detect-formulas-excel-aspose-cells-java/)
-
 ### [كيفية عرض صيغ ورقة العمل باستخدام Aspose.Cells في Java: دليل شامل](./display-formula-aspose-cells-java-tutorial/)
-
 ### [إتقان جداول بيانات Excel الديناميكية في Java باستخدام Aspose.Cells: دليل شامل](./dynamic-excel-sheets-aspose-cells-java-guide/)
-
 ### [إتقان وظائف Excel الإضافية باستخدام Aspose.Cells لـ Java](./excel-addin-functions-aspose-cells-java/)
-
 ### [أتمتة Excel في Java: تحميل المصنفات وتطبيق الصيغ المشتركة باستخدام Aspose.Cells](./excel-automation-aspose-cells-java-load-formulas/)
-
 ### [كيفية تنفيذ FormulaText في Aspose.Cells لـ Java: دليل خطوة بخطوة](./implementing-formula-text-aspose-cells-java-guide/)
-
+### [كيفية استخدام Reduce في Excel مع Java – دليل صيغ Lambda](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
+### [كيفية استخدام SEQUENCE في مصنف Excel Java – دليل خطوة بخطوة](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+### [كيفية استخدام WRAPCOLS في Java – مثال كامل على Excel WRAPCOLS](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 ### [كيفية حساب القاطع في Excel – دليل شامل](./how-to-calculate-cotangent-in-excel-complete-guide/)
 
 ## موارد إضافية

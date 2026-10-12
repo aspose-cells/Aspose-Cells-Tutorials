@@ -64,6 +64,8 @@
 استغلّ قوة قراءة التعليقات المترابطة في Excel مع Aspose.Cells لـ .NET. انغمس في هذا الدليل المفصّل للتعامل مع المستندات بسهولة.
 ### [إزالة التعليقات المترابطة من ورقة العمل](./remove-threaded-comments/)
 يمكنك بسهولة إزالة التعليقات المترابطة من أوراق عمل Excel باستخدام Aspose.Cells لـ .NET من خلال هذا الدليل المفصل. بسّط إدارة ملفات Excel.
+### [كيفية إعادة تسمية ورقة العمل في C# – دليل كامل](./how-to-rename-worksheet-in-c-complete-guide/)
+تعلم كيفية إعادة تسمية ورقة العمل في Excel باستخدام Aspose.Cells لـ .NET عبر دليل شامل خطوة بخطوة.
 ### [تعيين خلفية ملونة في ملف ODS](./set-ods-colored-background/)
 تعرف على كيفية تعيين خلفية ملونة في ملفات ODS باستخدام Aspose.Cells لـ .NET، مع دروس تعليمية ونصائح خطوة بخطوة.
 ### [تعيين الخلفية الرسومية في ملف ODS](./set-ods-graphic-background/)
@@ -72,6 +74,10 @@
 تعلّم كيفية تحديث سجلّ المراجعات في المصنفات المشتركة باستخدام Aspose.Cells لـ .NET. بسّط التعاون وحافظ على سجلات مستندات واضحة.
 ### [استخدام خاصية Sheet_SheetId في OpenXml في ورقة العمل](./utilize-sheet-sheetid-property/)
 استغل إمكانيات Excel مع Aspose.Cells لـ .NET. تعلّم كيفية التعامل مع مُعرِّفات الأوراق بفعالية من خلال دليلنا المُفصَّل خطوة بخطوة.
+### [كيفية إنشاء أوراق العمل – دليل خطوة بخطوة لإنشاء Excel ديناميكي](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
+تعلم إنشاء أوراق عمل Excel ديناميكيًا باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
+### [إنشاء ورقة عمل لكل عنصر – كيفية تكرار ورقة العمل في C#](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+تعلم كيفية إنشاء ورقة عمل لكل عنصر وتكرارها في C# باستخدام Aspose.Cells لـ .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

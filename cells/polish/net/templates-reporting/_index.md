@@ -22,19 +22,12 @@ Szablony oszczędzają czas rozwoju, oddzielając projektowanie od logiki przetw
 ## Projektowanie i przetwarzanie szablonów
 
 ### Inteligentne znaczniki do wiązania danych
-- [Generuj dynamiczne raporty Excela za pomocą inteligentnych znaczników](./generate-excel-reports-aspose-cells-net-smart-markers) - Twórz raporty oparte na danych z inteligentnymi znacznikami
-- [Poznaj SmartMarkers do automatyzacji raportów w programie Excel](./dynamic-excel-reports-aspose-cells-net) - Poznaj zaawansowane techniki inteligentnego znacznika
-- [Integracja danych głównych z inteligentnymi znacznikami](./mastering-data-integration-aspose-cells-smart-markers) - Efektywne wiązanie danych z inteligentnymi markerami
 
 ### Profesjonalne generowanie raportów
-- [Poznaj dynamiczne raporty Excela](./aspose-cells-net-dynamic-excel-reports-guide) - Twórz kompleksowe raporty w programie Excel
-- [Projektowanie skoroszytu z wykorzystaniem SmartMarkers](./master-workbook-design-aspose-cells-smartmarkers) - Projektuj wydajne szablony raportów
-- [Opanuj raporty Excela za pomocą wykresów](./dynamic-excel-reports-aspose-cells-net) - Dodawanie wizualizacji do raportów
 
 ## Zarządzanie metadanymi i właściwościami dokumentu
 
 ### Informacje o dokumencie
-- [Metadane skoroszytu głównego](./mastering-workbook-metadata-aspose-cells-net) - Zarządzanie właściwościami i metadanymi dokumentu
 
 ## Lista samouczków
 
@@ -45,7 +38,7 @@ Dowiedz się, jak tworzyć dynamiczne raporty Excela przy użyciu Aspose.Cells d
 Dowiedz się, jak automatyzować dynamiczne raporty programu Excel za pomocą pakietu Aspose.Cells for .NET, który oferuje inteligentne znaczniki i zaawansowane wykresy.
 
 ### [Generuj dynamiczne raporty Excela przy użyciu inteligentnych znaczników Aspose.Cells .NET](./generate-excel-reports-aspose-cells-net-smart-markers)
-Dowiedz się, jak tworzyć dynamiczne raporty Excela za pomocą Aspose.Cells .NET przy użyciu inteligentnych znaczników. Ten przewodnik obejmuje definicje klas, powiązanie danych i stylizację profesjonalnych arkuszy kalkulacyjnych.
+Dowiedz się, jak tworzyć dynamiczne raporty Excela przy użyciu Aspose.Cells .NET przy użyciu inteligentnych znaczników. Ten przewodnik obejmuje definicje klas, powiązanie danych i stylizację profesjonalnych arkuszy kalkulacyjnych.
 
 ### [Projektowanie skoroszytu głównego przy użyciu Aspose.Cells .NET i SmartMarkers w celu wydajnego raportowania](./master-workbook-design-aspose-cells-smartmarkers)
 Dowiedz się, jak używać Aspose.Cells .NET ze SmartMarkers do tworzenia dynamicznych skoroszytów programu Excel, automatyzowania raportowania i wydajnego zarządzania danymi.
@@ -55,6 +48,23 @@ Samouczek dotyczący kodu dla Aspose.Cells Net
 
 ### [Opanuj Aspose.Cells .NET Smart Markers do integracji danych w programie Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Naucz się opanowywać integrację danych za pomocą Aspose.Cells .NET Smart Markers dzięki temu kompleksowemu przewodnikowi. Zautomatyzuj swoje przepływy pracy w programie Excel i generuj raporty wydajnie.
+
+### [Zapisz wypełniony skoroszyt programowo przy użyciu Aspose.Cells](./save-populated-workbook-programmatically-with-aspose-cells/)
+Dowiedz się, jak programowo zapisać wypełniony skoroszyt Excel przy użyciu biblioteki Aspose.Cells w .NET.
+
+### [Zapisz skoroszyt Excel z JSON – Kompletny przewodnik](./save-excel-workbook-from-json-complete-guide/)
+Dowiedz się, jak przy użyciu Aspose.Cells dla .NET zapisać skoroszyt Excel bezpośrednio z danych JSON, krok po kroku.
+### [Tworzenie Excela z szablonu – przewodnik krok po kroku dla programistów .NET](./create-excel-from-template-step-by-step-guide-for-net-develo/)
+Dowiedz się, jak tworzyć pliki Excel z szablonów przy użyciu Aspose.Cells dla .NET, krok po kroku.
+### [Utwórz plik Excel z szablonu – Dodaj dane, obraz, zapisz jako XLSX](./create-excel-from-template-add-data-image-save-xlsx/)
+Dowiedz się, jak tworzyć plik Excel z szablonu, wstawiać dane i obrazy oraz zapisywać w formacie XLSX.
+### [Utwórz szablon skoroszytu z Aspose.Cells – Kompletny przewodnik](./create-workbook-template-with-aspose-cells-complete-guide/)
+Dowiedz się, jak krok po kroku stworzyć szablon skoroszytu w Aspose.Cells, aby automatyzować generowanie raportów Excel.
+### [Jak zapisać plik szablonu Excela – przewodnik krok po kroku](./how-to-save-excel-template-file-step-by-step-guide/)
+Dowiedz się, jak w kilku prostych krokach zapisać szablon Excela przy użyciu Aspose.Cells dla .NET.
+
+### [Jak używać Excela do korespondencji seryjnej – kompletny przewodnik C#](./how-to-use-excel-for-mail-merge-complete-c-guide/)
+Dowiedz się, jak wykorzystać Excela do korespondencji seryjnej w C#, tworząc szablony i generując dokumenty przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

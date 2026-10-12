@@ -55,8 +55,22 @@ Aspose.Cells for Java を使って Excel のグラフ作成とカスタマイズ
 ### [JavaによるExcel自動化](./excel-automation-with-java/)
 Excel 操作用の強力なライブラリである Aspose.Cells を使用して、ソース コードの例とともに Java で Excel タスクを自動化する方法を学習します。
 
+### [JavaでExcelをプログラム的に作成 – ステップバイステップガイド](./create-excel-programmatically-in-java-step-by-step-guide/)
+Aspose.Cells for Java を使用して、コードから Excel ファイルを作成する方法をステップバイステップで学びます。
+
 ### [Excelでのデータ統合](./data-integration-in-excel/)
 Excelでデータを効率的に統合し、より優れた洞察と意思決定を実現する方法を学びましょう。Aspose.Cells for Javaを使用したソースコード付きのステップバイステップガイドです。
+### [JavaでExcelのオートフィルタをオフにする方法 – 完全ガイド](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+Aspose.Cells for Java を使って、Excel のオートフィルタ機能をオフにし、データ抽出や分析をスムーズに行う方法を解説します。
+
+### [JavaでExcelのオートフィルタを無効にする – ステップバイステップガイド](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
+Aspose.Cells for Java を使用して、Excel のオートフィルタ機能をプログラムで無効化する方法を学びます。
+### [JavaでExcelのAutoFilterをオフにする方法 – 完全ガイド](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+Aspose.Cells for Java を使用して、Excel の AutoFilter を無効にする方法をステップバイステップで解説します。
+### [Javaで縦方向配列Excelを作成 – 完全ステップバイステップガイド](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+Aspose.Cells for Java を使用して、縦方向の配列を持つ Excel シートを作成する方法をステップバイステップで解説します。
+### [JavaでExpandを使用する方法 – 完全Excelガイド](./how-to-use-expand-in-java-complete-excel-guide/)
+Aspose.Cells for Java を使用して、Expand 機能の使い方と Excel での活用方法をステップバイステップで解説します。
 
 ### [JavaでExcelのオートフィルタをクリアする方法 – 完全ガイド](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
 Aspose.Cells for Java を使用し、Excel のオートフィルタを解除する手順をステップバイステップで解説します。

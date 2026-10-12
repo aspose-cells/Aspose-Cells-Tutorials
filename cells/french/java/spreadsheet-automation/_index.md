@@ -57,6 +57,20 @@ Apprenez à automatiser les tâches Excel en Java avec des exemples de code sour
 
 ### [Intégration de données dans Excel](./data-integration-in-excel/)
 Apprenez à intégrer efficacement des données dans Excel pour une meilleure compréhension et une meilleure prise de décision. Guide étape par étape avec code source utilisant Aspose.Cells pour Java.
+### [Comment désactiver le filtre automatique dans Excel avec Java – Guide complet](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+Apprenez à désactiver le filtre automatique dans Excel en utilisant Aspose.Cells pour Java, avec des exemples de code détaillés.
+
+### [Désactiver le filtre automatique dans Excel avec Java – Guide étape par étape](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
+Apprenez à désactiver le filtre automatique dans Excel à l'aide d'Aspose.Cells pour Java, avec un guide détaillé et du code source.
+
+### [Créer un fichier Excel programmé en Java – Guide étape par étape](./create-excel-programmatically-in-java-step-by-step-guide/)
+Apprenez à créer des classeurs Excel en Java avec Aspose.Cells grâce à un guide détaillé et du code source.
+### [Créer un tableau vertical Excel avec Java – Guide complet étape par étape](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+Apprenez à créer un tableau vertical dans Excel avec Java grâce à un guide complet étape par étape.
+### [Comment désactiver AutoFilter dans Excel avec Java – Guide complet](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+Apprenez à désactiver la fonction AutoFilter dans Excel en utilisant Aspose.Cells pour Java, avec des exemples de code détaillés.
+### [Comment utiliser Expand en Java – Guide complet Excel](./how-to-use-expand-in-java-complete-excel-guide/)
+Apprenez à utiliser la fonction Expand avec Aspose.Cells pour Java afin de gérer les plages dynamiques dans vos feuilles de calcul Excel.
 
 ### [Comment effacer le filtre automatique dans Excel avec Java – Guide complet](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
 Apprenez à désactiver le filtre automatique dans Excel en Java avec Aspose.Cells, incluant du code source et des exemples pratiques.

@@ -9,9 +9,7 @@ url: /ja/java/advanced-excel-charts/chart-interactivity/
 weight: 19
 ---
 
- just placeholders. Should we keep them as is? Yes.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

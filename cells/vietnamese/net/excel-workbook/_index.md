@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sổ làm việc Excel
@@ -75,6 +73,7 @@ Vậy tại sao không nắm bắt cơ hội này để nâng cao kỹ năng Exc
 | [Điều chỉnh mức độ nén](./adjust-compression-level/) Tìm hiểu cách điều chỉnh mức độ nén cho các tệp Excel bằng Aspose.Cells cho .NET. Tối ưu hóa kích thước tệp của bạn một cách hiệu quả với hướng dẫn từng bước này. |  
 | [Cho phép dấu nháy đơn đứng đầu](./allow-leading-apostrophe/) | Quản lý dấu nháy đơn đầu tiên trong Excel một cách dễ dàng với Aspose.Cells cho .NET. Hướng dẫn toàn diện này sẽ hướng dẫn bạn từng bước trong suốt quá trình. |  
 | [Tạo sổ làm việc chia sẻ](./create-shared-workbook/) | Tìm hiểu cách tạo sổ làm việc chung bằng Aspose.Cells cho .NET với hướng dẫn từng bước đơn giản này. Hoàn hảo để tăng cường sự cộng tác của nhóm. |  
+| [Tạo sổ làm việc Excel C# – Hướng dẫn đầy đủ với chức năng Expand](./create-excel-workbook-c-full-guide-with-expand-function/) | Hướng dẫn chi tiết cách tạo sổ làm việc Excel bằng C# và sử dụng chức năng Expand để mở rộng dữ liệu. |  
 | [Phát hiện các loại liên kết](./detect-link-types/) | Tìm hiểu cách phát hiện các loại siêu liên kết trong Excel bằng Aspose.Cells cho .NET. Bao gồm các bước dễ dàng và ví dụ về mã. |  
 | [Trích xuất tệp Mol nhúng](./extract-embedded-mol-file/) | Tìm hiểu cách dễ dàng trích xuất các tệp MOL nhúng từ sổ làm việc Excel bằng Aspose.Cells cho .NET. |  
 | [Lọc tên được xác định trong khi tải sổ làm việc](./filter-defined-names-while-loading-workbook/) Tìm hiểu cách lọc các tên đã xác định khi tải sổ làm việc bằng Aspose.Cells cho .NET trong hướng dẫn toàn diện này. |  
@@ -86,11 +85,43 @@ Vậy tại sao không nắm bắt cơ hội này để nâng cao kỹ năng Exc
 | [Bản xem trước khi in của sổ làm việc](./workbook-print-preview/) | Tìm hiểu cách tạo bản xem trước khi in cho các tệp Excel bằng Aspose.Cells cho .NET. Tìm hiểu các bước lập trình trong hướng dẫn chi tiết, dễ làm theo. |  
 | [Làm việc với Thuộc tính Kiểu Nội dung](./working-with-content-type-properties/) | Tìm hiểu cách sử dụng Aspose.Cells cho .NET để làm việc với các thuộc tính kiểu nội dung nhằm nâng cao khả năng quản lý siêu dữ liệu Excel. Thực hiện theo hướng dẫn từng bước đơn giản này. |  
 | [Hỗ trợ chữ ký Xades](./xades-signature-support/) | Tìm hiểu cách thêm chữ ký Xades vào tệp Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Bảo mật tài liệu của bạn. |  
+| [Tạo sổ làm việc mới C# – Hướng dẫn từng bước với công thức tràn](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Tìm hiểu cách tạo sổ làm việc mới trong C# với công thức tràn bằng Aspose.Cells cho .NET qua hướng dẫn chi tiết. |  
+| [Tạo sheet chính trong C# – Hướng dẫn đầy đủ Aspose.Cells](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Hướng dẫn chi tiết cách tạo sheet chính trong C# bằng Aspose.Cells, bao gồm các bước thực hiện và ví dụ mã. |  
+| [Tạo sổ làm việc Excel với C# – Hướng dẫn đầy đủ về việc sử dụng EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Hướng dẫn chi tiết cách tạo sổ làm việc Excel bằng C# và sử dụng tính năng EXPAND trong Aspose.Cells cho .NET. |  
+| [Tạo Workbook Excel C# – Hướng dẫn toàn diện với Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | Hướng dẫn chi tiết cách tạo sổ làm việc Excel bằng C# sử dụng Aspose.Cells, bao gồm các ví dụ mã đầy đủ. |  
+| [Tạo sổ làm việc Excel trong C# – Hướng dẫn lập trình đầy đủ](./create-excel-workbook-in-c-complete-programming-guide/) | Hướng dẫn chi tiết cách tạo sổ làm việc Excel bằng C# với Aspose.Cells, bao gồm các bước lập trình đầy đủ. |  
+
+
+
+
+
+
+
+
+| [Tạo sổ làm việc Excel với bảng định dạng – Hướng dẫn từng bước](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo sổ làm việc Excel với bảng được định dạng đẹp mắt bằng Aspose.Cells cho .NET. |  
+
+
+
+
+
+
+
+
+| [Tạo Sổ làm việc Mới trong C# – Thêm Công thức và Lưu Tệp Excel](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Hướng dẫn tạo sổ làm việc mới trong C#, thêm công thức và lưu tệp Excel bằng Aspose.Cells cho .NET. |  
+| [Tạo sổ làm việc Excel C# – Tạo XLSX từ JSON](./create-excel-workbook-c-generate-xlsx-from-json/) | Tìm hiểu cách tạo sổ làm việc Excel bằng C# và chuyển đổi dữ liệu JSON thành tệp XLSX bằng Aspose.Cells cho .NET. |  
+| [Tạo sổ làm việc Excel C# – Hướng dẫn từng bước viết ngày và lưu dưới dạng XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Hướng dẫn chi tiết cách tạo sổ làm việc Excel bằng C#, ghi ngày và lưu dưới dạng tệp XLSX bằng Aspose.Cells cho .NET. |
+| [Tạo sổ làm việc Excel trong C# – Hướng dẫn từng bước](./create-excel-workbook-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo sổ làm việc Excel bằng C# với Aspose.Cells, bao gồm các bước mã mẫu. |  
+| [Tạo sổ làm việc Excel bằng C# – Hướng dẫn từng bước](./create-excel-workbook-c-step-by-step-guide/) | Tìm hiểu cách tạo sổ làm việc Excel bằng C# với hướng dẫn chi tiết từng bước. |  
+| [Tạo sổ làm việc mới trong C# – Hướng dẫn từng bước](./create-new-workbook-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo một sổ làm việc Excel mới bằng C# với Aspose.Cells, bao gồm các bước mã mẫu. |  
+| [Tạo sổ làm việc Excel mới trong C# – Hướng dẫn từng bước](./create-new-excel-workbook-in-c-step-by-step-guide/) | Tìm hiểu cách tạo một sổ làm việc Excel mới bằng C# với Aspose.Cells qua hướng dẫn chi tiết từng bước. |  
+| [Cách tạo sổ làm việc trong C# – Hướng dẫn từng bước](./how-to-create-workbook-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo sổ làm việc Excel bằng C# với Aspose.Cells, từng bước một. |  
+| [Tạo tệp Excel bằng C# – Hướng dẫn từng bước](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo tệp Excel bằng C# sử dụng Aspose.Cells cho .NET, từng bước một. |  
+| [Tạo Sổ làm việc mới – Chuyển đổi Markdown sang Excel trong C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Hướng dẫn cách tạo sổ làm việc mới và chuyển đổi nội dung Markdown thành tệp Excel bằng C# và Aspose.Cells. |
+| [Cách tạo sổ làm việc trong C# – Ghi giá trị và định dạng số](./how-to-create-workbook-in-c-write-value-format-number/) | Tìm hiểu cách tạo sổ làm việc, ghi giá trị và định dạng số trong Excel bằng Aspose.Cells cho .NET với C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

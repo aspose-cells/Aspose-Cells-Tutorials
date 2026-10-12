@@ -29,6 +29,8 @@
 ### [Aspose.Cells Java: Excel 통합 문서 만들기 및 저장 - 단계별 가이드](./aspose-cells-java-create-save-excel-workbooks/)
 Aspose.Cells for Java를 사용하여 Excel 통합 문서 생성 및 관리를 자동화하는 방법을 알아보세요. 이 가이드에서는 페이지 설정 속성의 인스턴스화, 저장 및 설정 방법을 다룹니다.
 
+### [Java에서 새 통합 문서 만들기 – 단계별 가이드](./create-new-workbook-in-java-step-by-step-guide/)
+Aspose.Cells for Java를 사용하여 새 Excel 통합 문서를 생성하고 저장하는 방법을 단계별로 안내합니다.
 ### [워크북 일본 달력 만들기 – 완전 Java 튜토리얼](./create-workbook-japanese-calendar-complete-java-tutorial/)
 Aspose.Cells for Java를 사용하여 일본 달력 기능이 포함된 워크북을 만드는 방법을 단계별로 안내합니다.
 
@@ -168,13 +170,13 @@ Aspose.Cells for Java를 사용하여 Excel 파일을 MHTML로 변환하는 방�
 Aspose.Cells for Java를 사용하여 Excel 통합 문서를 PDFA-1a 호환 PDF로 변환하는 방법을 알아보세요. 이 단계별 준수 가이드를 따라 해 보세요.
 
 ### [Aspose.Cells for Java를 사용하여 Excel 시트를 TIFF 이미지로 변환: 포괄적인 가이드](./convert-excel-sheets-tiff-aspose-cells-java/)
-Aspose.Cells for Java를 사용하여 Excel 시트를 고품질 TIFF 이미지로 변환하는 방법을 알아보세요. 이 가이드에서는 통합 문서 로드, 이미지 옵션 구성, 효율적인 워크시트 렌더링 방법을 다룹니다.
+Aspose.Cells for Java를 사용하여 Excel 시트를 고품질 TIFF 이미지로 변환하는 방법을 알아보세요. 이 가이드는 통합 문서 로드, 이미지 옵션 구성, 효율적인 워크시트 렌더링 방법을 다룹니다.
 
 ### [Java에서 Aspose.Cells를 사용하여 Excel 시트를 이미지로 변환하기: 완벽한 가이드](./convert-excel-sheets-to-images-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 시트를 고품질 이미지로 손쉽게 변환하는 방법을 알아보세요. 프레젠테이션, 보고서 및 웹 통합에 적합합니다.
 
 ### [Aspose.Cells for Java를 사용하여 Excel을 텍스트로 변환: 포괄적인 가이드](./convert-excel-text-aspose-cells-java/)
-Aspose.Cells for Java를 사용하여 Excel 시트를 텍스트로 원활하게 변환하는 방법을 알아보세요. 이 가이드에서는 설치, 구성 및 실제 활용 방법을 다룹니다.
+Aspose.Cells for Java를 사용하여 Excel 시트를 텍스트로 원활하게 변환하는 방법을 알아보세요. 이 가이드는 설치, 구성 및 실제 활용 방법을 다룹니다.
 
 ### [Java에서 Aspose.Cells를 사용하여 Excel을 규격에 맞는 PDF로 변환하기: 포괄적인 가이드](./convert-excel-to-compliant-pdf-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 통합 문서를 PDF/A와 같은 업계 표준을 준수하는 PDF로 변환하는 방법을 알아보세요. 데이터 변환 기술을 완벽하게 익히세요.
@@ -183,7 +185,7 @@ Aspose.Cells for Java를 사용하여 Excel 통합 문서를 PDF/A와 같은 업
 Aspose.Cells for Java를 사용하여 Excel 파일을 HTML로 원활하게 변환하는 방법을 알아보세요. 이 가이드에서는 로드, 저장 옵션 및 모범 사례를 다룹니다.
 
 ### [Aspose.Cells Java를 사용하여 Excel을 최적화된 PDF로 변환: 단계별 가이드](./convert-excel-to-optimized-pdf-aspose-cells-java/)
-Aspose.Cells for Java를 사용하여 Excel 파일을 최적화된 PDF로 변환하는 방법을 알아보세요. 이 가이드에서는 통합 문서 불러오기, 최적화 옵션 설정, PDF 저장 방법을 다룹니다.
+Aspose.Cells for Java를 사용하여 Excel 파일을 최적화된 PDF로 변환하는 방법을 알아보세요. 이 가이드는 통합 문서 불러오기, 최적화 옵션 설정, PDF 저장 방법을 다룹니다.
 
 ### [Aspose.Cells를 사용하여 Java에서 Excel을 PDF로 변환하는 방법: 단계별 가이드](./convert-excel-to-pdf-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 파일을 고품질 PDF로 원활하게 변환하는 방법을 알아보세요. 이 가이드는 설정, 구성 및 모범 사례를 다룹니다.
@@ -338,6 +340,9 @@ Aspose.Cells for Java를 사용하여 Excel XLSB 파일을 관리하는 방법�
 ### [Aspose.Cells for Java를 사용하여 사용자 지정 Excel 속성을 PDF로 내보내는 방법](./export-excel-custom-properties-pdf-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 통합 문서의 사용자 지정 속성을 PDF로 내보내는 방법을 알아보세요. 이 단계별 가이드를 통해 데이터 관리를 간소화하세요.
 
+### [Excel에서 사용자 정의 속성 추가하기 (Java) – 값 검색 및 XLSB로 저장](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
+Aspose.Cells for Java를 사용하여 Excel 파일에 사용자 정의 속성을 추가하고 값을 검색한 뒤 XLSB 형식으로 저장하는 방법을 알아보세요.
+
 ### [Aspose.Cells Java를 사용하여 Excel을 HTML로 내보내기: 단계별 가이드](./export-excel-html-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 파일을 HTML로 원활하게 내보내는 방법을 알아보세요. 이 가이드는 통합 문서 로딩, 사용자 지정 스트림 공급자 사용, 그리고 통합 문서 저장 방법을 다룹니다.
 
@@ -426,7 +431,7 @@ Aspose.Cells for Java를 사용하여 Excel 통합 문서에서 텍스트를 효
 Excel 통합 문서 조작에 대한 단계별 튜토리얼을 통해 Aspose.Cells for Java를 완벽하게 익혀 보세요. 라이선스 적용, 통합 문서 생성 및 효율적인 수정 방법을 알아보세요.
 
 ### [Aspose.Cells를 사용하여 Java에서 CSV 처리 마스터하기: 종합 가이드](./mastering-csv-handling-aspose-cells-java/)
-Aspose.Cells for Java를 사용하여 CSV 파일을 효율적으로 관리하고 정리하는 방법을 알아보세요. 이 가이드에서는 설정, 옵션 로드, 유효하지 않은 문자 바꾸기에 대해 다룹니다.
+Aspose.Cells for Java를 사용하여 CSV 파일을 효율적으로 관리하고 정리하는 방법을 알아보세요. 이 가이드는 설정, 옵션 로드, 유효하지 않은 문자 바꾸기에 대해 다룹니다.
 
 ### [Aspose.Cells를 사용한 Java에서의 효율적인 CSV 처리: 개발자 가이드](./mastering-csv-handling-java-aspose-cells/)
 Aspose.Cells for Java를 사용하여 CSV 파일을 Excel 통합 문서에 효율적으로 로드하고 가져오는 방법을 알아보세요. 데이터 처리, 서식 지정 및 최적화 기술을 마스터하세요.
@@ -471,13 +476,22 @@ Aspose.Cells for Java를 사용하여 Excel 시트를 이미지로 렌더링하�
 Aspose.Cells for Java를 사용하여 Excel 파일을 XPS 형식으로 쉽게 변환하는 방법을 알아보세요. 이 가이드는 설정, 구성 및 단계별 구현 방법을 다룹니다.
 
 ### [Aspose.Cells for Java를 사용하여 Excel 파일 버전을 검색하는 방법: 개발자 가이드](./retrieve-excel-file-versions-aspose-cells-java/)
-Aspose.Cells for Java를 사용하여 Excel 파일 버전을 프로그래밍 방식으로 가져오는 방법을 알아보세요. 이 가이드에서는 설정부터 구현까지 모든 단계를 다루며, 다양한 Excel 형식 간의 호환성을 보장합니다.
+Aspose.Cells for Java를 사용하여 Excel 파일 버전을 프로그래밍 방식으로 가져오는 방법을 알아보세요. 이 가이드는 설정부터 구현까지 모든 단계를 다루며, 다양한 Excel 형식 간의 호환성을 보장합니다.
 
 ### [Aspose.Cells Java를 사용하여 다양한 형식으로 Excel 파일을 저장하는 방법](./save-excel-files-aspose-cells-java/)
-Aspose.Cells for Java를 사용하여 Excel 파일을 다양한 형식으로 원활하게 저장하는 방법을 알아보세요. 이 가이드에서는 XLSX, PDF, HTML 등을 다룹니다.
+Aspose.Cells for Java를 사용하여 Excel 파일을 다양한 형식으로 원활하게 저장하는 방법을 알아보세요. 이 가이드는 XLSX, PDF, HTML 등을 다룹니다.
 
 ### [Java용 Aspose.Cells를 사용하여 Excel 문서 버전을 설정하는 방법](./set-excel-version-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 파일의 버전 관리와 같은 문서 속성을 설정하고 관리하는 방법을 알아보세요. 효율적인 통합 문서 작업을 위한 단계별 가이드를 따라해 보세요.
+
+### [통합 문서를 파일에 저장 – Excel 범위 복사를 위한 완전한 Java 가이드](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
+Excel 범위를 복사하고 통합 문서를 파일로 저장하는 방법을 단계별로 안내합니다.
+
+### [Aspose.Cells Java: Save Workbook as XLSX in Java – Complete Programming Guide](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
+Aspose.Cells for Java를 사용하여 워크북을 XLSX 형식으로 저장하는 방법을 단계별로 안내합니다.
+
+### [Java로 Excel 워크북 만들기 – 완전 단계별 가이드](./create-excel-workbook-java-complete-step-by-step-guide/)
+Aspose.Cells for Java를 사용하여 Java에서 Excel 워크북을 만들고 저장하는 방법을 단계별로 안내합니다.
 
 
 

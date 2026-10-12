@@ -10,31 +10,7 @@ url: /hi/java/advanced-excel-charts/3d-charts/
 weight: 13
 ---
 
- Data Integration
-
-Paragraph.
-
-## Conclusion
-
-Paragraph.
-
-## Frequently Asked Questions
-
-Then Q&A.
-
-We need to translate Q and A.
-
-Make sure to keep markdown formatting.
-
-Also keep link at bottom unchanged.
-
-Now produce final content.
-
-Be careful with code block placeholders: they are not fenced code blocks, just placeholders. Should keep them as is.
-
-Also ensure we preserve bullet list formatting.
-
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

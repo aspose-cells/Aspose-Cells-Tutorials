@@ -9,26 +9,6 @@ url: /zh/java/advanced-excel-charts/interactive-dashboards/
 weight: 10
 ---
 
-/tutorial-page-section >}}
-
-# Add Button to Excel and Create Interactive Dashboards
-
-Translate title: "在 Excel 中添加按钮并创建交互式仪表板". Keep heading level.
-
-Proceed.
-
-All sections.
-
-Let's write Chinese translation.
-
-Be careful to keep bold formatting (**text**) etc.
-
-Also keep links unchanged.
-
-Tables: translate content but keep pipe separators.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
