@@ -253,7 +253,19 @@ public class CotangentDemo {
 
         // Print EXPAND spill range
         System.out.println("EXPAND spill (A1):");
+        for (int r = 0; r < 5; r++) {
+            for (int c = 0; c < 2; c++) {
+                System.out.print(cells.get(r, c).getStringValue() + "	");
+            }
+            System.out.println();
+        }
 
+        System.out.println("
+Cotangent of π/4 (B1): " + cells.get("B1").getStringValue());
+        System.out.println("Cotangent of 30 degrees (C1): " + cells.get("C1").getStringValue());
+    }
+}
+```
 
 ## 다음에 배워야 할 내용은?
 
