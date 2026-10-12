@@ -66,6 +66,8 @@
 
 ### [Конвертация Excel в PowerPoint – Полное руководство на Java](./convert-excel-to-powerpoint-complete-java-guide/)
 Узнайте, как с помощью Aspose.Cells для Java преобразовать файлы Excel в презентации PowerPoint, используя полный пример кода.
+### [Как экспортировать диаграммы из Excel в PowerPoint — Полное руководство на Java](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
+Узнайте, как с помощью Aspose.Cells для Java экспортировать диаграммы из Excel в презентацию PowerPoint, включая настройку и примеры кода.
 
 ## Дополнительные ресурсы
 

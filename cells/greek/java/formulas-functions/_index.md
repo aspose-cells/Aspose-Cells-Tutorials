@@ -89,6 +89,8 @@
 Μάθετε πώς να χρησιμοποιείτε τη λειτουργία SEQUENCE στο Aspose.Cells για Java για δημιουργία δυναμικών σειρών κελιών σε βιβλία εργασίας Excel.
 ### [Πώς να χρησιμοποιήσετε το WRAPCOLS σε Java – Πλήρες παράδειγμα Excel WRAPCOLS](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 Μάθετε πώς να εφαρμόζετε τη λειτουργία WRAPCOLS με Aspose.Cells για Java, βήμα-βήμα, με πλήρη παράδειγμα κώδικα.
+### [Πώς να υπολογίσετε τη Συνεφαπτομένη στο Excel – Πλήρης Οδηγός](./how-to-calculate-cotangent-in-excel-complete-guide/)
+Μάθετε πώς να υπολογίσετε τη συνεφαπτομένη σε αρχεία Excel με το Aspose.Cells για Java, βήμα προς βήμα οδηγίες και παραδείγματα κώδικα.
 
 ## Πρόσθετοι Πόροι
 

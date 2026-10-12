@@ -233,6 +233,9 @@ Pelajari cara membuat dan menyimpan file ODS dengan mudah menggunakan Aspose.Cel
 ### [Cara Membuat dan Menyimpan Buku Kerja Excel sebagai SVG menggunakan Aspose.Cells untuk Java](./create-save-workbook-svg-aspose-cells-java/)
 Pelajari cara mengotomatiskan pembuatan buku kerja Excel dan mengekspornya sebagai file SVG dengan Aspose.Cells untuk Java. Ikuti panduan langkah demi langkah ini untuk integrasi yang lancar.
 
+### [Buat Buku Kerja Kalender Jepang – Tutorial Java Lengkap](./create-workbook-japanese-calendar-complete-java-tutorial/)
+Pelajari cara membuat buku kerja Excel dengan kalender Jepang menggunakan Aspose.Cells untuk Java dalam tutorial lengkap ini.
+
 ### [Mendeteksi Format File dari File Terenkripsi dengan Aspose.Cells Java](./detect-encrypted-file-format-aspose-cells-java/)
 Tutorial kode untuk Aspose.Words Java
 

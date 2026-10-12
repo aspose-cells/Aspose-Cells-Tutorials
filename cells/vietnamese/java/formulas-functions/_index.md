@@ -89,6 +89,8 @@ Tìm hiểu cách áp dụng hàm Reduce trong Excel bằng Java để thực hi
 Tìm hiểu cách sử dụng hàm SEQUENCE trong Excel bằng Aspose.Cells cho Java để tạo dãy dữ liệu động một cách dễ dàng.
 ### [Cách sử dụng WRAPCOLS trong Java – Ví dụ đầy đủ WRAPCOLS trong Excel](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 Hướng dẫn chi tiết cách áp dụng hàm WRAPCOLS trong Aspose.Cells Java để chia cột dữ liệu và tạo bảng tính Excel linh hoạt.
+### [Cách tính Cotang trong Excel – Hướng dẫn toàn diện](./how-to-calculate-cotangent-in-excel-complete-guide/)
+Hướng dẫn chi tiết cách tính giá trị cotang trong Excel bằng công thức, bao gồm ví dụ mã Java sử dụng Aspose.Cells.
 
 ## Tài nguyên bổ sung
 

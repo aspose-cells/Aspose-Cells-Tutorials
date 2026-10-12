@@ -63,6 +63,9 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java vertikale Arrays in Excel erste
 ### [Wie man Expand in Java verwendet – Komplett‑Excel‑Leitfaden](./how-to-use-expand-in-java-complete-excel-guide/)
 Erfahren Sie anhand von Quellcodebeispielen, wie Sie die Expand‑Funktion in Excel mit Aspose.Cells für Java nutzen.
 
+### [Wie man AutoFilter in Excel mit Java löscht – Komplettanleitung](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java AutoFilter in Excel-Tabellen programmgesteuert entfernen und Daten sauber filtern.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

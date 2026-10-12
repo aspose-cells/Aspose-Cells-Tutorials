@@ -477,8 +477,6 @@
 تعرّف على كيفية حفظ ملفات Excel بسلاسة بتنسيقات متعددة باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل تنسيقات XLSX وPDF وHTML وغيرها.
 
 ### [كيفية تعيين إصدار مستند Excel باستخدام Aspose.Cells لـ Java](./set-excel-version-aspose-cells-java/)
-تعرّف على كيفية تعيين وإدارة خصائص المستندات، مثل إدارة الإصدارات، في ملفات Excel باستخدام Aspose.Cells لجافا. اتبع هذا الدليل خطوة بخطوة لإدارة المصنفات بكفاءة.
-
 ### [حفظ المصنف كملف XLSX في Java – دليل برمجة كامل](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
 تعرف على كيفية حفظ المصنف بتنسيق XLSX باستخدام Aspose.Cells لـ Java مع دليل برمجة شامل.
 
@@ -486,6 +484,8 @@
 
 ### [كيفية إضافة خاصية مخصصة في Excel (Java) – استرجاع القيمة وحفظها كـ XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
 ### [إنشاء مصنف جديد في Java – دليل خطوة بخطوة](./create-new-workbook-in-java-step-by-step-guide/)
+### [إنشاء مصنف تقويم ياباني – دليل Java كامل](./create-workbook-japanese-calendar-complete-java-tutorial/)
+تعرّف على كيفية إنشاء مصنف تقويم ياباني باستخدام Aspose.Cells لـ Java خطوة بخطوة.
 
 ## موارد إضافية
 

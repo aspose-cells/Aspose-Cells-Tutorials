@@ -62,6 +62,8 @@ Aprenda a desactivar AutoFilter en Excel usando Aspose.Cells para Java con ejemp
 Aprenda a crear matrices verticales en Excel usando Aspose.Cells para Java con ejemplos de código paso a paso.
 ### [Cómo usar Expand en Excel con Java – Guía completa](./how-to-use-expand-in-java-complete-excel-guide/)
 Aprenda a usar Expand en Java con Aspose.Cells para Excel, con ejemplos de código paso a paso.
+### [Cómo borrar AutoFiltro en Excel usando Java – Guía completa](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Aprenda a eliminar AutoFiltro en Excel con Aspose.Cells para Java mediante ejemplos de código fuente.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

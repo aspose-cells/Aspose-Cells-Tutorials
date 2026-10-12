@@ -51,11 +51,12 @@
 เรียนรู้การทำงานอัตโนมัติของ Excel ด้วย Aspose.Cells สำหรับ Java รวมถึงการโหลดเวิร์กบุ๊ก การตั้งค่าตัวเลือกสากล การเพิ่มผลรวมย่อย การคำนวณสูตร และการปรับคอลัมน์อัตโนมัติ
 
 ### [การเรียนรู้การใช้งานคลาสครูสอน Java โดยการบูรณาการ Aspose.Cells](./master-teacher-class-java-aspose-cells/)
-เรียนรู้วิธีการนำคลาสครูมาใช้ในภาษา Java จัดการข้อมูลนักเรียน และรวม Aspose.Cells เพื่อการจัดการไฟล์ Excel ที่ได้รับการปรับปรุง
 
 ### [แปลง Excel เป็น PPTX ด้วย Java – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./convert-excel-to-pptx-with-java-complete-programming-guide/)
 เรียนรู้วิธีแปลงไฟล์ Excel เป็นสไลด์ PowerPoint (PPTX) ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดครบถ้วน
 ### [สร้าง PowerPoint จาก Excel – คู่มือเต็มสำหรับ Java](./create-powerpoint-from-excel-full-java-guide/)
+### [วิธีส่งออกแผนภูมิจาก Excel ไปยัง PowerPoint – คู่มือ Java ฉบับเต็ม](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
+เรียนรู้ขั้นตอนการส่งออกแผนภูมิจากไฟล์ Excel ไปยัง PowerPoint ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดครบถ้วน
 
 ### [แปลง Excel ไปเป็น PowerPoint – คู่มือเต็มสำหรับ Java](./convert-excel-to-powerpoint-complete-java-guide/)
 เรียนรู้วิธีแปลงไฟล์ Excel ไปเป็นงานนำเสนอ PowerPoint อย่างเต็มรูปแบบด้วย Aspose.Cells สำหรับ Java

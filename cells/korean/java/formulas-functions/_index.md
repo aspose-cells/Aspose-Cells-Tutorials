@@ -89,6 +89,8 @@ Java용 Aspose.Cells를 사용하여 Excel에서 Reduce 함수를 람다 수식�
 Aspose.Cells for Java를 사용하여 Excel 워크북에서 SEQUENCE 함수를 적용하고 활용하는 방법을 단계별로 안내합니다.
 ### [Java에서 WRAPCOLS 사용 방법 – 완전한 Excel WRAPCOLS 예제](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 Java용 Aspose.Cells를 사용하여 WRAPCOLS 함수를 적용하고, 셀 데이터를 자동으로 래핑하는 전체 예제를 확인하세요.
+### [Excel에서 코탄젠트를 계산하는 방법 – 완전 가이드](./how-to-calculate-cotangent-in-excel-complete-guide/)
+Aspose.Cells for Java를 사용하여 Excel에서 코탄젠트 함수를 구현하고 계산하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

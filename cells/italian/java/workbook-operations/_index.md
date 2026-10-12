@@ -31,6 +31,8 @@ Scopri come automatizzare la creazione e la gestione di cartelle di lavoro Excel
 
 ### [Creare una nuova cartella di lavoro in Java – Guida passo passo](./create-new-workbook-in-java-step-by-step-guide/)
 Scopri come creare una nuova cartella di lavoro Excel in Java con Aspose.Cells, passo dopo passo, includendo impostazioni e salvataggio.
+### [Creare una cartella di lavoro con calendario giapponese – Tutorial Java completo](./create-workbook-japanese-calendar-complete-java-tutorial/)
+Scopri come creare una cartella di lavoro Excel con calendario giapponese usando Aspose.Cells per Java, passo passo.
 
 ### [Aspose.Cells Java: visualizza la versione e crea una cartella di lavoro condivisa](./aspose-cells-java-display-version-create-shared-workbook/)
 Un tutorial sul codice per Aspose.Words Java

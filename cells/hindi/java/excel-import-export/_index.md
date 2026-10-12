@@ -30,18 +30,20 @@ Aspose.Cells for Java के साथ एक्सेल आयात और �
 
 ## एक्सेल आयात निर्यात ट्यूटोरियल
 ### [बल्क डेटा आयात एक्सेल](./bulk-data-import-excel/)
+Aspose.Cells for Java API का उपयोग करके Excel से बल्क डेटा आयात करना सीखें। इस चरण-दर-स्टेप मार्गदर्शिका के साथ अपने डेटा प्रोसेसिंग को सुव्यवस्थित करें।
+
 ### [एक्सेल डेटा निर्यात विधियाँ](./excel-data-export-methods/)
 जावा के लिए Aspose.Cells का उपयोग करके Excel डेटा निर्यात विधियों की क्षमता को अनलॉक करें। इस व्यापक गाइड में व्यावहारिक स्रोत कोड उदाहरणों के साथ सीखें। आज ही अपने डेटा प्रबंधन कौशल को अनुकूलित करें।
+
 ### [CSV निर्यात जावा कोड](./csv-export-java-code/)
-Java के लिए Aspose.Cells का उपयोग करके CSV प्रारूप में डेटा निर्यात करना सीखें। सहज CSV निर्यात के लिए स्रोत कोड के साथ चरण-दर-स्तर मार्गदर्शिका।
 ### [एक्सेल को पीडीएफ में निर्यात करना](./exporting-excel-to-pdf/)
 जावा के लिए Aspose.Cells का उपयोग करके आसानी से Excel फ़ाइलों को PDF में निर्यात करना सीखें। हमारी चरण-दर-स्तर मार्गदर्शिका प्रक्रिया को सरल बनाती है। आज ही कनवर्ट करना शुरू करें!
 ### [एक्सेल को XML जावा में निर्यात करें](./export-excel-to-xml-java/)
 Aspose.Cells for Java के साथ जावा में Excel को XML में एक्सपोर्ट करना सीखें। सहज डेटा रूपांतरण के लिए स्रोत कोड के साथ चरण-दर-स्तर मार्गदर्शिका।
 ### [एक्सेल से डेटा आयात करें](./data-import-from-excel/)
 जावा के लिए Aspose.Cells का उपयोग करके Excel से डेटा आयात करना सीखें। निर्बाध डेटा पुनर्प्राप्ति के लिए स्रोत कोड के साथ एक व्यापक गाइड।
+
 ### [एक्सेल को JSON में निर्यात करें](./export-excel-to-json/)
-जावा के लिए Aspose.Cells का उपयोग करके Excel डेटा को JSON में निर्यात सीखें। सहज रूपांतरण के लिए स्रोत कोड के साथ इस चरण-दर-स्तर मार्गदर्शिका का पालन करें।
 ### [एक्सेल आयात डेटा सत्यापन](./excel-import-data-validation/)
 इस विस्तृत चरण-दर-स्तर मार्गदर्शिका के साथ Java के लिए Aspose.Cells का उपयोग करके Excel आयात डेटा सत्यापन को लागू करना सीखें। डेटा सटीकता सुनिश्चित करें और उपयोगकर्ता अनुभव को बेहतर बनाएँ। 
 ### [एक्सेल को HTML जावा में निर्यात करें](./export-excel-to-html-java/)
@@ -86,6 +88,25 @@ Aspose.Cells for Java का उपयोग करके Excel फ़ाइल 
 
 ### [Excel को SVG में बदलते समय फ़ॉन्ट एम्बेड करना कैसे करें](./how-to-embed-fonts-in-excel-to-svg-conversion/)
 Aspose.Cells for Java का उपयोग करके Excel को SVG में बदलते समय फ़ॉन्ट एम्बेड करने की प्रक्रिया सीखें।
+### [JSON से Excel बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./create-excel-from-json-full-step-by-step-guide/)
+JSON डेटा को Excel फ़ाइल में बदलना सीखें। इस पूर्ण चरण‑दर‑चरण गाइड में कोड उदाहरण और विस्तृत निर्देश हैं।
+
+### [Excel में वैकल्पिक कॉलम रंग – फ़ॉर्मेटिंग के साथ DataTable आयात](./alternating-column-colors-in-excel-import-datatable-with-for/)
+Aspose.Cells for Java का उपयोग करके फ़ॉर्मेटिंग के साथ DataTable को आयात करते हुए Excel में वैकल्पिक कॉलम रंग कैसे लागू करें, सीखें।
+
+### [Excel Cells से CSV निर्यात कैसे करें – पूर्ण गाइड](./how-to-export-csv-from-excel-cells-complete-guide/)
+Aspose.Cells for Java का उपयोग करके Excel सेल्स से CSV फ़ाइल निर्यात करना सीखें। विस्तृत कोड उदाहरणों के साथ चरण‑दर‑स्टेप गाइड।
+
+### [Excel को TSV के रूप में सहेजें – वर्कशीट्स को टेक्स्ट में निर्यात करने की पूर्ण गाइड](./save-excel-as-tsv-complete-guide-to-exporting-worksheets-to/)
+Aspose.Cells for Java का उपयोग करके Excel वर्कशीट्स को TSV फ़ॉर्मेट में निर्यात करना सीखें। चरण‑दर‑स्टेप मार्गदर्शिका।
+
+### [Excel से SVG में फ़ॉन्ट एम्बेड करना – पूर्ण जावा गाइड](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
+Aspose.Cells for Java का उपयोग करके Excel से SVG फ़ाइल में फ़ॉन्ट एम्बेड करने की पूरी प्रक्रिया सीखें।
+
+### [HTML में फ़ॉन्ट एम्बेड करें – Excel को HTML में बदलें और वर्कबुक सहेजें](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
+
+### [Excel को HTML में निर्यात – फ्रीज़्ड पेनस के साथ पूर्ण गाइड](./export-excel-to-html-complete-guide-with-frozen-panes/)
+Aspose.Cells for Java का उपयोग करके Excel फ़ाइल को HTML में निर्यात करें और फ्रीज़्ड पेनस को बनाए रखें। चरण‑दर‑स्टेप गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

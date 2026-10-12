@@ -66,6 +66,8 @@ Aprenda a gerar apresentações PowerPoint a partir de arquivos Excel usando Asp
 
 ### [Converter Excel para PowerPoint – Guia Completo em Java](./convert-excel-to-powerpoint-complete-java-guide/)
 Aprenda a converter arquivos Excel em apresentações PowerPoint usando Aspose.Slides e Aspose.Cells para Java, com exemplos de código completos.
+### [Como Exportar Gráficos do Excel para PowerPoint – Guia Completo em Java](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
+Aprenda a exportar gráficos do Excel para apresentações PowerPoint usando Aspose.Cells para Java, com exemplos de código completos.
 
 ## Recursos adicionais
 

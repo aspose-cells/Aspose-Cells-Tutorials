@@ -89,6 +89,8 @@ Naučte se, jak pomocí lambda výrazu Reduce v Excelu s Javou provádět agrega
 Naučte se, jak pomocí Aspose.Cells pro Javu využít funkci SEQUENCE k dynamickému generování řad v Excelu.
 ### [Jak použít WRAPCOLS v Javě – Kompletní příklad Excel WRAPCOLS](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 Naučte se, jak pomocí Aspose.Cells pro Javu implementovat funkci WRAPCOLS v Excelu a automatizovat rozdělení textu do sloupců.
+### [Jak vypočítat kotangens v Excelu – Kompletní průvodce](./how-to-calculate-cotangent-in-excel-complete-guide/)
+Naučte se, jak pomocí Excelu vypočítat kotangens a využít tuto funkci v různých výpočtech.
 
 ## Další zdroje
 

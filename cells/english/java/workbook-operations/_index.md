@@ -226,6 +226,9 @@ Learn how to create a new Excel workbook from scratch using Aspose.Cells for Jav
 ### [Create and Customize Excel Workbooks Using Aspose.Cells Java&#58; A Step-by-Step Guide](./create-customize-excel-workbooks-aspose-cells-java/)
 Learn how to automate the creation and customization of Excel workbooks with Aspose.Cells for Java. Enhance productivity by mastering workbook operations.
 
+### [Create Workbook Japanese Calendar – Complete Java Tutorial](./create-workbook-japanese-calendar-complete-java-tutorial/)
+Learn how to create an Excel workbook with Japanese calendar support using Aspose.Cells for Java in this comprehensive step-by-step tutorial.
+
 ### [How to Create and Merge Excel Workbooks Using Aspose.Cells for Java | Complete Guide](./create-merge-excel-workbooks-aspose-cells-java/)
 Learn how to efficiently create and merge Excel workbooks using Aspose.Cells for Java with this comprehensive guide. Streamline your workbook operations today.
 

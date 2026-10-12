@@ -65,6 +65,8 @@ Pelajari cara menghasilkan file PowerPoint dari data Excel menggunakan Aspose.Sl
 
 ### [Mengonversi Excel ke PowerPoint – Panduan Java Lengkap](./convert-excel-to-powerpoint-complete-java-guide/)
 Pelajari cara mengonversi file Excel menjadi presentasi PowerPoint menggunakan Aspose.Slides dan Aspose.Cells dalam Java.
+### [Cara Mengekspor Diagram dari Excel ke PowerPoint – Panduan Java Lengkap](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
+Panduan lengkap untuk mengekspor diagram Excel ke PowerPoint menggunakan Aspose.Cells untuk Java, termasuk contoh kode dan langkah-langkah implementasi.
 
 ## Sumber Daya Tambahan
 

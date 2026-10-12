@@ -35,6 +35,8 @@ Aspose.Cells for Java API'yi kullanarak Excel'den toplu veri aktarımının nas�
 Aspose.Cells for Java kullanarak Excel veri dışa aktarma yöntemlerinin potansiyelini açığa çıkarın. Bu kapsamlı kılavuzdaki pratik kaynak kodu örnekleriyle öğrenin. Veri yönetimi becerilerinizi bugün optimize edin.
 ### [CSV Java Kodunu Dışa Aktar](./csv-export-java-code/)
 Java için Aspose.Cells kullanarak verileri CSV formatına nasıl aktaracağınızı öğrenin. Sorunsuz CSV aktarımı için kaynak kodlu adım adım kılavuz.
+### [Excel Hücrelerinden CSV'ye Dışa Aktarma – Tam Kılavuz](./how-to-export-csv-from-excel-cells-complete-guide/)
+Aspose.Cells for Java kullanarak Excel hücrelerinden CSV dosyasına nasıl dışa aktaracağınızı öğrenin. Adım adım kaynak kodlu kılavuz.
 ### [Excel'i PDF'e Aktarma](./exporting-excel-to-pdf/)
 Aspose.Cells for Java kullanarak Excel dosyalarını zahmetsizce PDF'ye nasıl aktaracağınızı öğrenin. Adım adım kılavuzumuz süreci basitleştirir. Bugün dönüştürmeye başlayın!
 ### [Çalışma Kitabından PDF Oluşturma – Tam Java Rehberi](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
@@ -83,6 +85,18 @@ Aspose.Cells for Java ile XLSX dosyalarını CSV formatına nasıl aktaracağın
 Aspose.Cells for Java kullanarak Excel dosyalarını Word belgelerine nasıl dönüştüreceğinizi öğrenin. Adım adım kaynak kodlu kılavuz.
 ### [Excel Dosyasını HTML'ye Dönüştür – Yazı Tipi Gömme ile Tam Rehber](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
 Aspose.Cells for Java kullanarak Excel dosyalarını HTML'ye dönüştürürken yazı tiplerini nasıl gömeceğinizi öğrenin. Adım adım kaynak kodlu kılavuz.
+### [Excel'i HTML'ye Aktar – Dondurulmuş Panellerle Tam Kılavuz](./export-excel-to-html-complete-guide-with-frozen-panes/)
+Aspose.Cells for Java kullanarak Excel dosyalarını dondurulmuş panellerle HTML'ye nasıl dönüştüreceğinizi adım adım öğrenin.
+### [JSON'dan Excel Oluşturma – Tam Adım Adım Kılavuz](./create-excel-from-json-full-step-by-step-guide/)
+Aspose.Cells for Java kullanarak JSON verilerinden Excel dosyası oluşturmayı öğrenin. Kaynak kodlu adım adım rehber.
+### [Excel'de Alternatif Sütun Renkleri – Biçimlendirmeli DataTable İçe Aktarma](./alternating-column-colors-in-excel-import-datatable-with-for/)
+Aspose.Cells for Java kullanarak Excel'de sütun renklerini değiştirerek DataTable'ı biçimlendirilmiş şekilde nasıl içe aktaracağınızı öğrenin.
+### [Excel'i TSV Olarak Kaydet – Çalışma Sayfalarını Metne Aktarmanın Tam Kılavuzu](./save-excel-as-tsv-complete-guide-to-exporting-worksheets-to/)
+Aspose.Cells for Java ile Excel dosyalarını TSV formatına nasıl kaydedeceğinizi öğrenin. Kaynak kodlu adım adım tam kılavuz.
+### [Excel'den SVG'ye Yazı Tipi Gömme – Tam Java Kılavuzu](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
+Aspose.Cells for Java kullanarak Excel dosyasından SVG'ye yazı tiplerini nasıl gömeceğinizi adım adım öğrenin.
+### [HTML'de Yazı Tiplerini Göm – Excel'i HTML'ye Dönüştür ve Çalışma Kitabını Kaydet](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
+Aspose.Cells for Java kullanarak Excel dosyalarını HTML'ye dönüştürürken yazı tiplerini gömün ve çalışma kitabını kaydedin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

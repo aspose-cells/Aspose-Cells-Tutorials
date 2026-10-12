@@ -81,6 +81,20 @@ Kompletní návod, jak převést soubory XLSX na CSV v Javě pomocí Aspose.Cell
 Naučte se, jak převést soubory Excel do Wordu pomocí Aspose.Cells pro Javu v tomto kompletním průvodci (2026).
 ### [Jak vložit písma při konverzi Excelu do SVG](./how-to-embed-fonts-in-excel-to-svg-conversion/)
 Naučte se, jak vložit písma při konverzi souborů Excel do SVG pomocí Aspose.Cells pro Javu.
+### [Export Excel to HTML – Complete Guide with Frozen Panes](./export-excel-to-html-complete-guide-with-frozen-panes/)
+Naučte se exportovat Excel do HTML s kompletním návodem, včetně zmrazení řádků a sloupců pro lepší čitelnost.
+### [Vytvoření Excelu z JSON – Kompletní krok‑za‑krokem průvodce](./create-excel-from-json-full-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells pro Javu vytvořit soubor Excel z dat JSON pomocí podrobného návodu s ukázkovým kódem.
+### [Střídavé barvy sloupců v Excelu – Import DataTable s formátováním](./alternating-column-colors-in-excel-import-datatable-with-for/)
+Naučte se, jak importovat DataTable do Excelu s automatickým střídáním barev sloupců a zachováním formátování.
+### [Jak exportovat CSV z buněk Excelu – Kompletní průvodce](./how-to-export-csv-from-excel-cells-complete-guide/)
+Naučte se, jak exportovat data do formátu CSV z buněk Excelu pomocí Aspose.Cells pro Javu. Podrobný návod se zdrojovým kódem.
+### [Uložení Excelu jako TSV – Kompletní průvodce exportem listů do textu](./save-excel-as-tsv-complete-guide-to-exporting-worksheets-to/)
+Naučte se, jak exportovat listy Excelu do formátu TSV (text s oddělovačem tabulátoru) pomocí Aspose.Cells pro Javu.
+### [Jak vložit písma do SVG z Excelu – Kompletní průvodce v Javě](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
+Naučte se, jak vložit písma do SVG souborů generovaných z Excelu pomocí Aspose.Cells pro Javu.
+### [Vložení písem do HTML – Převod Excelu na HTML a uložení sešitu](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
+Naučte se, jak vložit písma do HTML souborů z Excelu a uložit sešit pomocí Aspose.Cells pro Javu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

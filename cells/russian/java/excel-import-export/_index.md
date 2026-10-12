@@ -88,6 +88,20 @@
 
 ### [Конвертировать Excel в Word – Полное руководство Java (2026)](./convert-excel-to-word-complete-java-guide-2026/)
 Узнайте, как конвертировать файлы Excel в Word с помощью Aspose.Cells для Java. Пошаговое руководство с полным примером кода.
+### [Экспорт Excel в HTML – Полное руководство с замороженными областями](./export-excel-to-html-complete-guide-with-frozen-panes/)
+Узнайте, как экспортировать Excel в HTML с замороженными областями, используя Aspose.Cells для Java. Пошаговое руководство с примером кода.
+### [Создание Excel из JSON – Полное пошаговое руководство](./create-excel-from-json-full-step-by-step-guide/)
+Узнайте, как создать файл Excel из JSON с помощью Aspose.Cells для Java. Пошаговое руководство с примером кода.
+### [Чередование цветов столбцов в Excel – импорт DataTable с форматированием](./alternating-column-colors-in-excel-import-datatable-with-for/)
+Узнайте, как импортировать DataTable в Excel с чередованием цветов столбцов и сохранением форматирования.
+### [Как экспортировать CSV из Excel Cells – Полное руководство](./how-to-export-csv-from-excel-cells-complete-guide/)
+Узнайте, как экспортировать данные в CSV из Excel с помощью Aspose.Cells для Java. Пошаговое руководство с примером кода.
+### [Сохранить Excel как TSV – Полное руководство по экспорту листов в текст](./save-excel-as-tsv-complete-guide-to-exporting-worksheets-to/)
+Узнайте, как экспортировать листы Excel в формат TSV с помощью Aspose.Cells для Java. Пошаговое руководство с примером кода.
+### [Как встроить шрифты в SVG из Excel – Полное руководство на Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
+Узнайте, как с помощью Aspose.Cells для Java встроить шрифты в SVG, экспортируемый из Excel, с пошаговыми примерами кода.
+### [Встраивание шрифтов в HTML – Конвертация Excel в HTML и сохранение книги](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
+Узнайте, как встроить шрифты при конвертации Excel в HTML и сохранить рабочую книгу с помощью Aspose.Cells для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

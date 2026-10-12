@@ -89,6 +89,8 @@ Leer hoe u de Reduce-functie in Excel toepast via Java met lambda-expressies voo
 Leer hoe u de SEQUENCE-functie in Excel-werkboeken met Aspose.Cells voor Java toepast, inclusief codevoorbeelden en configuratie.
 ### [Hoe WRAPCOLS te gebruiken in Java – Complete Excel WRAPCOLS-voorbeeld](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 Leer hoe u de WRAPCOLS-functie in Aspose.Cells voor Java toepast om kolombreedtes dynamisch aan te passen in Excel-bestanden.
+### [Hoe cotangens in Excel te berekenen – Complete gids](./how-to-calculate-cotangent-in-excel-complete-guide/)
+Leer hoe u de cotangensfunctie in Excel gebruikt en implementeert met Aspose.Cells voor Java.
 
 ## Aanvullende bronnen
 

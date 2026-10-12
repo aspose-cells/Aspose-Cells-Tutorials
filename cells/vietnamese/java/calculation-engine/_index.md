@@ -58,6 +58,8 @@ Tìm hiểu cách ngắt hiệu quả quá trình tính công thức trong workb
 
 ### [Tối ưu hoá Tính toán Excel bằng Aspose.Cells Java&#58; Thành thạo Chuỗi Tính toán cho Xử lý Workbook Hiệu quả](./optimize-excel-aspose-cells-java-calculation-chains/)
 Tìm hiểu cách nâng cao hiệu năng Excel với Aspose.Cells cho Java bằng cách triển khai chuỗi tính toán, tính toán công thức một cách hiệu quả và cập nhật giá trị ô.
+### [Mở tệp XLSX trong Java – Hướng dẫn toàn diện để tải sổ làm việc và tính lại công thức](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
+Hướng dẫn chi tiết cách mở tệp XLSX, tải sổ làm việc và thực hiện tính toán lại các công thức bằng Aspose.Cells cho Java.
 
 ## Tài nguyên bổ sung
 - [Tài liệu Aspose.Cells cho Java](https://docs.aspose.com/cells/java/)

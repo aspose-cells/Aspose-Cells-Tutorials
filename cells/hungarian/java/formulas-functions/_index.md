@@ -89,6 +89,8 @@ Ismerje meg, hogyan használhatja a Reduce függvényt Excelben Java-val lambda 
 Ismerje meg, hogyan alkalmazhatja a SEQUENCE függvényt az Aspose.Cells for Java segítségével Excel munkafüzetekben, részletes példákkal.
 ### [Hogyan használjuk a WRAPCOLS-t Java-ban – Teljes Excel WRAPCOLS példa](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 Ismerje meg, hogyan alkalmazhatja a WRAPCOLS függvényt Java-ban az Aspose.Cells segítségével, részletes példakóddal.
+### [Hogyan számítsuk ki a kotangenset Excelben – Teljes útmutató](./how-to-calculate-cotangent-in-excel-complete-guide/)
+Ismerje meg, hogyan számíthatja ki a kotangens értékét Excelben, lépésről lépésre példákkal és képlettel.
 
 ## További források
 

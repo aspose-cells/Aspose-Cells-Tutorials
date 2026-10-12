@@ -59,6 +59,8 @@ Behärska Aspose.Cells Java: Hur man avbryter formelberäkning i Excel‑arbetsb
 
 ### [Optimize Excel Calculations Using Aspose.Cells Java&#58; Mastering Calculation Chains for Efficient Workbook Processing](./optimize-excel-aspose-cells-java-calculation-chains/)
 Optimera Excel‑beräkningar med Aspose.Cells Java: Behärska beräkningskedjor för effektiv arbetsbokshantering. Lär dig hur du förbättrar Excel‑prestanda med Aspose.Cells för Java genom att implementera beräkningskedjor, effektivt beräkna formler och uppdatera cellvärden.
+### [Öppna XLSX-fil i Java – Komplett guide för att ladda arbetsbok och omberäkna formler](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
+Lär dig hur du öppnar en XLSX-fil, laddar arbetsboken och omberäknar formler med Aspose.Cells för Java.
 
 ## Ytterligare resurser
 - [Aspose.Cells för Java-dokumentation](https://docs.aspose.com/cells/java/)

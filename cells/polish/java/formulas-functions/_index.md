@@ -89,6 +89,8 @@ Dowiedz się, jak zastosować funkcję Reduce w Excelu przy użyciu Aspose.Cells
 Poznaj, jak w Aspose.Cells dla Java zastosować funkcję SEQUENCE do dynamicznego generowania danych w arkuszu Excel, krok po kroku.
 ### [Jak używać WRAPCOLS w Javie – Kompletny przykład WRAPCOLS w Excelu](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 Poznaj, jak zastosować funkcję WRAPCOLS w Aspose.Cells for Java, aby automatycznie dzielić tekst w komórkach i generować dynamiczne arkusze Excela.
+### [Jak obliczyć cotangens w Excelu – kompletny przewodnik](./how-to-calculate-cotangent-in-excel-complete-guide/)
+Dowiedz się, jak obliczyć cotangens w Excelu, korzystając z funkcji i formuł, krok po kroku, z przykładami kodu Java.
 
 ## Dodatkowe zasoby
 

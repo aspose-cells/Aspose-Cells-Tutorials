@@ -66,6 +66,8 @@ Hướng dẫn chi tiết cách sử dụng Aspose.Slides cho Java để chuyể
 
 ### [Chuyển đổi Excel sang PowerPoint – Hướng dẫn Java đầy đủ](./convert-excel-to-powerpoint-complete-java-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang bản trình chiếu PowerPoint bằng Aspose.Slides cho Java, kèm ví dụ mã thực tế.
+### [Cách xuất biểu đồ từ Excel sang PowerPoint – Hướng dẫn Java đầy đủ](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
+Hướng dẫn chi tiết cách xuất biểu đồ Excel sang PowerPoint bằng Aspose.Cells for Java, bao gồm mã mẫu và các bước triển khai.
 
 ## Tài nguyên bổ sung
 

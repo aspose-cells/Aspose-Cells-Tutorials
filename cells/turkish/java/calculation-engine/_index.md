@@ -60,6 +60,8 @@ Aspose.Cells for Java kullanarak çalışma kitaplarında formül hesaplamaları
 
 ### [Aspose.Cells Java&#58; Verimli Çalışma Kitabı İşleme İçin Hesaplama Zincirlerini Ustalıkla Kullanma](./optimize-excel-aspose-cells-java-calculation-chains/)
 Aspose.Cells for Java ile hesaplama zincirlerini uygulayarak Excel performansını nasıl artıracağınızı, formülleri verimli bir şekilde hesaplayıp hücre değerlerini güncelleyeceğinizi öğrenin.
+### [Java'da XLSX Dosyası Açma – Çalışma Kitabını Yükleme ve Formülleri Yeniden Hesaplama İçin Tam Kılavuz](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
+Java ile XLSX dosyasını açmayı, çalışma kitabını yüklemeyi ve formülleri yeniden hesaplamayı adım adım gösteren kapsamlı bir rehber.
 
 ## Ek Kaynaklar
 - [Aspose.Cells for Java Documentation](https://docs.aspose.com/cells/java/)

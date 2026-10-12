@@ -66,6 +66,8 @@
 
 ### [将 Excel 转换为 PowerPoint – 完整 Java 指南](./convert-excel-to-powerpoint-complete-java-guide/)
 通过 Aspose.Cells for Java 将 Excel 工作簿转换为 PowerPoint 演示文稿的完整步骤，包括读取工作表、生成幻灯片并保存。
+### [如何将图表从 Excel 导出到 PowerPoint – 完整 Java 指南](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
+学习如何使用 Aspose.Cells for Java 将 Excel 中的图表导出到 PowerPoint，实现跨文档可视化。
 
 ## 其他资源
 

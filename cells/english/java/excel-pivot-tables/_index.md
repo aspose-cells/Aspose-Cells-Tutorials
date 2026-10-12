@@ -48,6 +48,10 @@ Learn how to copy a Pivot Table in Java, preserve its formatting, and export it 
 Learn how to copy a Pivot Table in Java using Aspose.Cells, enabling duplication of data analysis structures efficiently.
 ### [Create PNG from Pivot in Java – Full Step‑by‑Step Guide](./create-png-from-pivot-in-java-full-step-by-step-guide/)
 Learn how to export Pivot Table data as PNG images using Aspose.Cells for Java in a detailed step‑by‑step tutorial.
+### [Copy Pivot Table Excel – Step‑by‑Step Guide Using Java](./copy-pivot-table-excel-step-by-step-guide-using-java/)
+Step-by-step guide to copy Pivot Tables in Excel using Aspose.Cells for Java.
+### [Export pivot table to PNG in Java – Complete Programming Guide](./export-pivot-table-to-png-in-java-complete-programming-guide/)
+Learn how to export Pivot Tables as PNG images using Aspose.Cells for Java. Complete guide with code examples.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

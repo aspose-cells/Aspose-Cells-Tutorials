@@ -64,6 +64,8 @@
 Μάθετε πώς να δημιουργήσετε κατακόρυφο πίνακα Excel με Java, χρησιμοποιώντας Aspose.Cells, με πλήρη βήμα‑βήμα οδηγίες και παραδείγματα κώδικα.
 ### [Πώς να χρησιμοποιήσετε το Expand σε Java – Πλήρης οδηγός Excel](./how-to-use-expand-in-java-complete-excel-guide/)
 Μάθετε πώς να χρησιμοποιήσετε τη μέθοδο Expand σε Java για να επεκτείνετε περιοχές σε φύλλα Excel με παραδείγματα κώδικα.
+### [Πώς να Καθαρίσετε το AutoFilter στο Excel με Java – Πλήρης Οδηγός](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Μάθετε πώς να αφαιρέσετε το AutoFilter από φύλλα Excel με Aspose.Cells για Java, βήμα-βήμα με παραδείγματα κώδικα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

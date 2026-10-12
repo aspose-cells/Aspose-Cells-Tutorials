@@ -66,6 +66,8 @@ Aspose.Cells for Java를 사용해 Excel 데이터를 PowerPoint 프레젠테이
 
 ### [Excel을 PowerPoint로 변환 – 전체 Java 가이드](./convert-excel-to-powerpoint-complete-java-guide/)
 Aspose.Cells for Java를 사용해 Excel 데이터를 PowerPoint 프레젠테이션으로 변환하는 방법을 단계별로 안내합니다.
+### [Excel에서 차트를 PowerPoint로 내보내는 방법 – 전체 Java 가이드](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
+Aspose.Cells for Java와 Aspose.Slides for Java를 사용하여 Excel 차트를 PowerPoint 슬라이드로 내보내는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

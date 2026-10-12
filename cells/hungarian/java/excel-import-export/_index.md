@@ -37,6 +37,8 @@ Fedezd fel az Excel adatexportálási metódusainak lehetőségeit az Aspose.Cel
 Tanuld meg, hogyan exportálhatsz adatokat CSV formátumba az Aspose.Cells for Java használatával. Lépésről lépésre útmutató forráskóddal a zökkenőmentes CSV exportáláshoz.
 ### [Excel exportálása: Lépésről lépésre útmutató CSV konverzióhoz](./how-to-export-excel-step-by-step-guide-to-csv-conversion/)
 Tanuld meg, hogyan exportálhatsz Excel-fájlokat CSV formátumba az Aspose.Cells for Java segítségével, részletes lépésről lépésre útmutatóval.
+### [Hogyan exportáljunk CSV-t Excel cellákból – Teljes útmutató](./how-to-export-csv-from-excel-cells-complete-guide/)
+Tanuld meg, hogyan exportálhatsz CSV fájlokat Excel cellákból az Aspose.Cells for Java segítségével, lépésről lépésre útmutatóval.
 ### [Excel exportálása PDF-be](./exporting-excel-to-pdf/)
 Tanuld meg, hogyan exportálhatsz Excel-fájlokat könnyedén PDF-be az Aspose.Cells for Java segítségével. Lépésről lépésre útmutatónk leegyszerűsíti a folyamatot. Kezdd el a konvertálást még ma!
 ### [Hogyan hozzunk létre PDF-et egy munkafüzetből – Teljes Java útmutató](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
@@ -86,6 +88,18 @@ Tanuld meg, hogyan konvertálhatsz Excel-fájlokat Word-dokumentummá Java-ban a
 Ismerd meg, hogyan ágyazhatsz be betűtípusokat az Excel fájlok SVG formátumba konvertálásakor az Aspose.Cells for Java segítségével.
 ### [Excel fájl konvertálása HTML-be – Teljes útmutató betűtípus beágyazással](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
 Tanuld meg, hogyan konvertálj Excel fájlokat HTML-be, miközben beágyazod a betűtípusokat, lépésről lépésre útmutatóval.
+### [Excel exportálása HTML-be – Teljes útmutató fagyasztott panelek használatával](./export-excel-to-html-complete-guide-with-frozen-panes/)
+Tanuld meg, hogyan exportálj Excel-fájlt HTML-be fagyasztott panelek megtartásával az Aspose.Cells for Java segítségével, lépésről lépésre útmutatóval.
+### [Excel létrehozása JSON-ból – Teljes lépésről lépésre útmutató](./create-excel-from-json-full-step-by-step-guide/)
+Ismerd meg, hogyan hozhatsz létre Excel-fájlt JSON adatokból az Aspose.Cells for Java segítségével, lépésről lépésre útmutatóval.
+### [Váltakozó oszlopszínek Excelben – DataTable importálása formázással](./alternating-column-colors-in-excel-import-datatable-with-for/)
+Tanuld meg, hogyan importálj DataTable-t Excelbe, miközben váltakozó oszlopszínekkel formázod a táblázat.
+### [Excel mentése TSV-ként – Teljes útmutató a munkalapok szövegfájlba exportálásához](./save-excel-as-tsv-complete-guide-to-exporting-worksheets-to/)
+Tanuld meg, hogyan exportálj Excel munkalapokat TSV formátumba, lépésről lépésre útmutatóval.
+### [Betűtípusok beágyazása SVG-be Excelből – Teljes Java útmutató](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
+Tanuld meg, hogyan ágyazz be betűtípusokat az Excelből generált SVG fájlokba Java-val, lépésről lépésre útmutatóval.
+### [Betűtípusok beágyazása HTML-be – Excel konvertálása HTML-re és munkafüzet mentése](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
+Tanuld meg, hogyan ágyazz be betűtípusokat Excelből generált HTML-be, és mentsd el a munkafüzetet Java-val.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -61,6 +61,8 @@ Leer hoe u AutoFilter in Excel-programma's kunt uitschakelen met Aspose.Cells vo
 ### [Maak verticale array Excel met Java – Volledige stapsgewijze gids](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
 ### [Hoe Expand te gebruiken in Java – Complete Excel-gids](./how-to-use-expand-in-java-complete-excel-guide/)
 Leer hoe u de Expand-functie in Excel kunt toepassen met Aspose.Cells voor Java, inclusief voorbeeldcode en stapsgewijze uitleg.
+### [AutoFilter wissen in Excel met Java – Complete gids](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Leer hoe u AutoFilter in Excel kunt verwijderen met Aspose.Cells voor Java, inclusief voorbeeldcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -89,6 +89,8 @@ Aspose.Words Java 代码教程
 学习如何在 Aspose.Cells for Java 中使用 SEQUENCE 函数创建动态序列并自动填充单元格。
 ### [如何在 Java 中使用 WRAPCOLS – 完整的 Excel WRAPCOLS 示例](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 学习在 Aspose.Cells for Java 中使用 WRAPCOLS 函数，实现列自动换行并提供完整示例。
+### [如何在 Excel 中计算余切 – 完整指南](./how-to-calculate-cotangent-in-excel-complete-guide/)
+学习如何在 Excel 中使用公式计算余切值，提供实现步骤和代码示例。
 
 ## 其他资源
 

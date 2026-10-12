@@ -89,6 +89,8 @@ Aspose.Words Java 程式碼教程
 了解如何在 Aspose.Cells for Java 中使用 SEQUENCE 函數建立動態序列，並將其應用於 Excel 工作簿。
 ### [如何在 Java 中使用 WRAPCOLS – 完整的 Excel WRAPCOLS 範例](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 了解如何在 Aspose.Cells for Java 中使用 WRAPCOLS 函數，完整示範 Excel 中的列換行操作。
+### [如何在 Excel 中計算餘切 – 完整指南](./how-to-calculate-cotangent-in-excel-complete-guide/)
+了解如何在 Excel 中使用公式計算餘切值，並在 Aspose.Cells for Java 中實作相關功能。
 
 ## 其他資源
 

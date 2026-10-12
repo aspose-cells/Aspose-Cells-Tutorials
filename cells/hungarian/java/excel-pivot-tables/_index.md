@@ -48,6 +48,10 @@ Tanuld meg, hogyan másolhatod a pivot táblát Java-ban, megőrizve formázás�
 Ismerd meg, hogyan másolhatod a pivot táblákat Java-ban az Aspose.Cells segítségével, a teljes folyamat lépéseit bemutatva.
 ### [PNG létrehozása pivot táblából Java‑ban – Teljes lépésről‑lépésre útmutató](./create-png-from-pivot-in-java-full-step-by-step-guide/)
 Ismerd meg, hogyan exportálhatod a pivot táblákat PNG képként Aspose.Cells for Java segítségével, részletes lépésekkel.
+### [Pivot tábla másolása Excelben – Lépésről‑lépésre útmutató Java használatával](./copy-pivot-table-excel-step-by-step-guide-using-java/)
+Ismerd meg, hogyan másolhatod a pivot táblákat Excelben Java-val, lépésről‑lépésre útmutatóval.
+### [Pivot tábla exportálása PNG formátumba Java‑ban – Teljes programozási útmutató](./export-pivot-table-to-png-in-java-complete-programming-guide/)
+Tanuld meg, hogyan exportálhatod a pivot táblákat PNG képként Java‑ban az Aspose.Cells segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

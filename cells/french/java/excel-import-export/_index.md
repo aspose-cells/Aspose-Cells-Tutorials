@@ -39,6 +39,8 @@ Exploitez le potentiel des méthodes d'exportation de données Excel avec Aspose
 Découvrez comment exporter des données au format CSV avec Aspose.Cells pour Java. Guide étape par étape avec code source pour une exportation CSV fluide.
 ### [Comment exporter CSV avec Java – Définir les chiffres significatifs et la plage d'exportation CSV](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
 Apprenez à exporter des données CSV en définissant les chiffres significatifs et la plage d'exportation avec Aspose.Cells pour Java.
+### [Comment exporter CSV depuis les cellules Excel – Guide complet](./how-to-export-csv-from-excel-cells-complete-guide/)
+Découvrez comment exporter des données au format CSV depuis les cellules Excel avec Aspose.Cells pour Java. Guide complet étape par étape.
 ### [Exportation d'Excel au format PDF](./exporting-excel-to-pdf/)
 Apprenez à exporter facilement des fichiers Excel au format PDF avec Aspose.Cells pour Java. Notre guide étape par étape simplifie le processus. Commencez la conversion dès aujourd'hui !
 ### [Comment créer un PDF à partir d'un classeur – Guide complet Java](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
@@ -92,6 +94,18 @@ Découvrez comment convertir des fichiers Excel en documents Word avec Aspose.Ce
 
 ### [Comment intégrer des polices lors de la conversion d'Excel en SVG](./how-to-embed-fonts-in-excel-to-svg-conversion/)
 Apprenez à intégrer des polices lors de la conversion de fichiers Excel en SVG avec Aspose.Cells pour Java. Guide étape par étape.
+### [Exporter Excel vers HTML – Guide complet avec volets figés](./export-excel-to-html-complete-guide-with-frozen-panes/)
+Apprenez à exporter un classeur Excel au format HTML avec Aspose.Cells pour Java, incluant la gestion des volets figés. Guide complet étape par étape.
+### [Créer un Excel à partir de JSON – Guide complet étape par étape](./create-excel-from-json-full-step-by-step-guide/)
+Apprenez à générer un classeur Excel à partir de données JSON avec Aspose.Cells pour Java, guide complet avec exemples de code.
+### [Couleurs de colonnes alternées dans Excel – Importer DataTable avec mise en forme](./alternating-column-colors-in-excel-import-datatable-with-for/)
+Apprenez à importer un DataTable dans Excel en appliquant des couleurs alternées aux colonnes pour améliorer la lisibilité, avec Aspose.Cells pour Java.
+### [Enregistrer Excel au format TSV – Guide complet pour exporter les feuilles de calcul en texte](./save-excel-as-tsv-complete-guide-to-exporting-worksheets-to/)
+Apprenez à enregistrer des classeurs Excel au format TSV avec Aspose.Cells pour Java. Guide complet avec exemples de code.
+### [Comment intégrer des polices dans SVG depuis Excel – Guide complet Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
+Découvrez comment intégrer des polices dans des fichiers SVG à partir d'Excel avec Aspose.Cells pour Java. Guide complet étape par étape.
+### [Intégrer des polices dans HTML – Convertir Excel en HTML et enregistrer le classeur](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
+Découvrez comment intégrer des polices dans HTML lors de la conversion d’un classeur Excel en HTML et l’enregistrement du classeur.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

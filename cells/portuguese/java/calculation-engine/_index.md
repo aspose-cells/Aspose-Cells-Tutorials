@@ -60,6 +60,10 @@ Aprenda a interromper eficientemente cálculos de fórmulas em pastas de trabalh
 
 ### [Otimizar Cálculos do Excel Usando Aspose.Cells Java&#58; Dominando Cadeias de Cálculo para Processamento Eficiente de Pastas de Trabalho](./optimize-excel-aspose-cells-java-calculation-chains/)
 Aprenda a melhorar o desempenho do Excel com Aspose.Cells para Java implementando cadeias de cálculo, calculando fórmulas de forma eficiente e atualizando valores de células.
+### [Abrir arquivo XLSX em Java – Guia completo para carregar a pasta de trabalho e recalcular fórmulas](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
+Aprenda a abrir arquivos XLSX, carregar a pasta de trabalho e recalcular todas as fórmulas usando Aspose.Cells para Java.
+
+## Recursos adicionais
 
 ## Recursos Adicionais
 - [Documentação do Aspose.Cells para Java](https://docs.aspose.com/cells/java/)

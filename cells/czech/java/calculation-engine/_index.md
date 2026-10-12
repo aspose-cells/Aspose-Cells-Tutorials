@@ -56,6 +56,8 @@ Naučte se, jak implementovat rozhraní IWarningCallback s Aspose.Cells Java pro
 
 ### [Mistrovství v Aspose.Cells Java&#58; Jak přerušit výpočet vzorců v Excel sešitech](./master-aspose-cells-java-interrupt-formula-calculation-workbook/)
 Naučte se efektivně přerušit výpočet vzorců v sešitech pomocí Aspose.Cells pro Javu. Ideální pro optimalizaci velkých datových sad a prevenci nekonečných smyček.
+### [Otevření souboru XLSX v Javě – Kompletní průvodce načtením sešitu a přepočítáním vzorců](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
+Naučte se, jak načíst soubor XLSX v Javě pomocí Aspose.Cells a přepočítat všechny vzorce pro přesné výsledky.
 
 ### [Optimalizace výpočtů v Excelu pomocí Aspose.Cells Java&#58; Mistrovství v řetězcích výpočtů pro efektivní zpracování sešitu](./optimize-excel-aspose-cells-java-calculation-chains/)
 Naučte se zlepšit výkon Excelu s Aspose.Cells pro Javu implementací řetězců výpočtů, efektivním výpočtem vzorců a aktualizací hodnot buněk.

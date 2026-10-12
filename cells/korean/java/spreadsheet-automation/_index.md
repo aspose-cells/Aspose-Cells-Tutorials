@@ -52,6 +52,8 @@ Java와 Aspose.Cells를 활용해 Excel에서 자동 필터를 해제하는 방�
 ### [Java를 사용하여 Excel에서 자동 필터 끄는 방법 – 완전 가이드](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
 ### [Java로 수직 배열 Excel 만들기 – 전체 단계별 가이드](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
 ### [Java에서 Expand 사용 방법 – 전체 Excel 가이드](./how-to-use-expand-in-java-complete-excel-guide/)
+### [Java를 사용한 Excel 자동 필터 해제 방법 – 완전 가이드](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Aspose.Cells for Java를 사용하여 Excel 자동 필터를 해제하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

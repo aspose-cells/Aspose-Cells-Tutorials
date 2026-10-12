@@ -63,6 +63,9 @@ Dowiedz się, jak w Javie utworzyć pionową tablicę w Excelu, korzystając z A
 ### [Jak używać Expand w Excelu przy użyciu Javy – Kompletny przewodnik](./how-to-use-expand-in-java-complete-excel-guide/)
 Dowiedz się, jak używać funkcji Expand w Excelu przy pomocy Aspose.Cells for Java, z przykładami kodu i praktycznymi wskazówkami.
 
+### [Jak wyczyścić AutoFilter w Excelu przy użyciu Javy – Kompletny przewodnik](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Dowiedz się, jak w kilku krokach usunąć filtr AutoFilter w Excelu przy pomocy Aspose.Cells for Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -225,7 +225,7 @@ Apprenez à créer et fusionner efficacement des classeurs Excel avec Aspose.Cel
 Apprenez à créer un classeur Excel en Java avec Aspose.Cells, étape par étape, incluant la configuration, la création et l'enregistrement.
 
 ### [Guide de création et d'enregistrement de classeurs Excel avec Aspose.Cells en Java](./create-save-excel-workbook-aspose-cells-java/)
-Apprenez à créer, manipuler et enregistrer des classeurs Excel grâce à la puissante bibliothèque Aspose.Cells pour Java. Ce guide étape par étape couvre toutes les étapes, de la configuration à la mise en œuvre.
+Apprenez à créer, manipuler et enregistrer des classeurs Excel grâce à la puissante bibliothèque Aspose.Cells pour Java. Ce guide étape par étape couvre toutes les étapes, de la configuration à la mise en implémentation.
 
 ### [Créer et enregistrer des fichiers ODS avec Aspose.Cells pour Java : Guide du développeur](./create-save-ods-files-aspose-cells-java/)
 Apprenez à créer et enregistrer facilement des fichiers ODS avec Aspose.Cells pour Java. Ce guide couvre toutes les étapes, de la configuration à l'enregistrement avec les options de schéma.
@@ -235,6 +235,10 @@ Apprenez à automatiser la création de classeurs Excel et à les exporter au fo
 
 ### [Enregistrer un classeur au format XLSX en Java – Guide complet de programmation](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
 Apprenez à enregistrer un classeur Excel au format XLSX en Java grâce à ce guide complet avec du code d'exemple.
+Apprenez à créer, manipuler et enregistrer des classeurs Excel grâce à la puissante bibliothèque Aspose.Cells pour Java. Ce guide étape par étape couvre toutes les étapes, de la configuration à la mise en implémentation.
+
+### [Créer un classeur avec le calendrier japonais – Tutoriel complet Java](./create-workbook-japanese-calendar-complete-java-tutorial/)
+Apprenez à créer un classeur Excel intégrant le calendrier japonais en Java avec Aspose.Cells, grâce à ce guide complet.
 
 ### [Détecter le format des fichiers cryptés avec Aspose.Cells Java](./detect-encrypted-file-format-aspose-cells-java/)
 Un tutoriel de code pour Aspose.Words Java

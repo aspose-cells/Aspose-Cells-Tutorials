@@ -57,6 +57,8 @@ Scopri come implementare l'interfaccia IWarningCallback con Aspose.Cells Java pe
 
 ### [Padroneggiare Aspose.Cells Java&#58; Come interrompere il calcolo delle formule nei workbook Excel](./master-aspose-cells-java-interrupt-formula-calculation-workbook/)
 Scopri come interrompere in modo efficiente il calcolo delle formule nei workbook usando Aspose.Cells per Java. Ideale per ottimizzare grandi set di dati e prevenire loop infiniti.
+### [Apri file XLSX in Java – Guida completa per caricare la cartella di lavoro e ricalcolare le formule](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
+Scopri come aprire un file XLSX in Java, caricare la cartella di lavoro e ricalcolare le formule con Aspose.Cells.
 
 ### [Ottimizzare i calcoli Excel con Aspose.Cells Java&#58; Padroneggiare le catene di calcolo per un'elaborazione efficiente dei workbook](./optimize-excel-aspose-cells-java-calculation-chains/)
 Scopri come migliorare le prestazioni di Excel con Aspose.Cells per Java implementando catene di calcolo, calcolando formule in modo efficiente e aggiornando i valori delle celle.

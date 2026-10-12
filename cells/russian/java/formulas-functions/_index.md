@@ -89,6 +89,8 @@
 Узнайте, как применять функцию SEQUENCE в Excel с помощью Aspose.Cells для Java, включая примеры кода.
 ### [Как использовать WRAPCOLS в Java – Полный пример Excel WRAPCOLS](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 Узнайте, как применять функцию WRAPCOLS в Aspose.Cells для Java, чтобы разбивать текст по столбцам в Excel с полным примером кода.
+### [Как вычислить котангенс в Excel – Полное руководство](./how-to-calculate-cotangent-in-excel-complete-guide/)
+Узнайте, как использовать функции Excel для расчета котангенса, включая примеры кода и рекомендации по точности.
 
 ## Дополнительные ресурсы
 

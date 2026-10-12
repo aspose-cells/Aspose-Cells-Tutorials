@@ -487,6 +487,8 @@ Lär dig hur du sparar en arbetsbok till fil och kopierar Excel-områden med Asp
 
 ### [Hur man lägger till anpassad egenskap i Excel (Java) – Hämta värde och spara som XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
 Lär dig hur du lägger till en anpassad egenskap i en Excel-arbetsbok med Aspose.Cells för Java, hämtar dess värde och sparar filen som XLSB.
+### [Skapa arbetsbok med japansk kalender – Komplett Java-handledning](./create-workbook-japanese-calendar-complete-java-tutorial/)
+Lär dig hur du skapar en arbetsbok med japansk kalender i Java med Aspose.Cells, inklusive datumformat och lokalanpassning.
 
 ## Ytterligare resurser
 

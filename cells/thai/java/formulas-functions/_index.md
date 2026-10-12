@@ -89,6 +89,9 @@
 เรียนรู้วิธีใช้ฟังก์ชัน SEQUENCE ใน Aspose.Cells สำหรับ Java เพื่อสร้างลำดับค่าอัตโนมัติในเวิร์กบุ๊ก Excel
 ### [วิธีใช้ WRAPCOLS ใน Java – ตัวอย่างเต็มของ Excel WRAPCOLS](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 เรียนรู้วิธีใช้ฟังก์ชัน WRAPCOLS ใน Aspose.Cells สำหรับ Java เพื่อจัดรูปแบบข้อมูลในเซลล์ Excel อย่างครบถ้วน
+### [วิธีคำนวณโคแทนเจนต์ใน Excel – คู่มือฉบับสมบูรณ์](./how-to-calculate-cotangent-in-excel-complete-guide/)
+เรียนรู้วิธีคำนวณฟังก์ชันโคแทนเจนต์ใน Excel อย่างละเอียด พร้อมตัวอย่างโค้ด Java และการใช้ Aspose.Cells
+
 
 ## แหล่งข้อมูลเพิ่มเติม
 

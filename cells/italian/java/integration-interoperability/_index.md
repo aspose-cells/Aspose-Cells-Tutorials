@@ -66,6 +66,8 @@ Scopri come generare presentazioni PowerPoint da file Excel utilizzando Aspose.S
 
 ### [Converti Excel in PowerPoint – Guida completa Java](./convert-excel-to-powerpoint-complete-java-guide/)
 Scopri come convertire file Excel in presentazioni PowerPoint con Aspose.Slides per Java, passo dopo passo.
+### [Come esportare i grafici da Excel a PowerPoint – Guida completa Java](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
+Scopri come esportare i grafici da Excel a PowerPoint usando Aspose.Cells per Java, con esempi di codice passo passo.
 
 ## Risorse aggiuntive
 

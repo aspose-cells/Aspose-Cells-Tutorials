@@ -60,6 +60,8 @@ weight: 22
 
 ### [Βελτιστοποίηση Υπολογισμών Excel με Aspose.Cells Java&#58; Κατάκτηση Αλυσίδων Υπολογισμού για Αποτελεσματική Επεξεργασία Βιβλιοθηκών](./optimize-excel-aspose-cells-java-calculation-chains/)
 Μάθετε πώς να ενισχύσετε την απόδοση του Excel με το Aspose.Cells for Java υλοποιώντας αλυσίδες υπολογισμού, υπολογίζοντας αποδοτικά τύπους και ενημερώνοντας τιμές κελιών.
+### [Άνοιγμα αρχείου XLSX σε Java – Πλήρης Οδηγός για Φόρτωση Βιβλίου Εργασίας & Επανάληψη Υπολογισμού Τύπων](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
+Μάθετε πώς να ανοίξετε αρχεία XLSX, να φορτώσετε το Workbook και να επανυπολογίσετε τύπους χρησιμοποιώντας το Aspose.Cells για Java.
 
 ## Πρόσθετοι Πόροι
 - [Τεκμηρίωση Aspose.Cells για Java](https://docs.aspose.com/cells/java/)

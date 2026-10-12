@@ -90,6 +90,8 @@ Apprenez à appliquer la fonction WRAPCOLS avec Aspose.Cells pour Java afin de t
 
 ### [Comment utiliser SEQUENCE dans un classeur Excel Java – guide étape par étape](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
 Apprenez à appliquer la fonction SEQUENCE d'Excel avec Aspose.Cells pour Java afin de générer des séries de données dynamiques dans vos classeurs.
+### [Comment calculer la cotangente dans Excel – Guide complet](./how-to-calculate-cotangent-in-excel-complete-guide/)
+Apprenez à calculer la fonction cotangente dans Excel en utilisant les formules appropriées et à gérer les cas particuliers.
 
 ## Ressources supplémentaires
 

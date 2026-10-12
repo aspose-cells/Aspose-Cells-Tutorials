@@ -89,6 +89,8 @@ Aprenda a usar a função Reduce no Excel com Java, implementando fórmulas lamb
 Aprenda a aplicar a função SEQUENCE em planilhas Excel usando Aspose.Cells para Java, automatizando a geração de sequências numéricas.
 ### [Como usar WRAPCOLS em Java – Exemplo completo de WRAPCOLS no Excel](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 Aprenda a aplicar a função WRAPCOLS com Aspose.Cells para Java, incluindo exemplos completos de código para manipular planilhas do Excel.
+### [Como Calcular a Cotangente no Excel – Guia Completo](./how-to-calculate-cotangent-in-excel-complete-guide/)
+Aprenda a usar funções trigonométricas no Excel para calcular a cotangente, com exemplos de código e dicas de precisão.
 
 ## Recursos adicionais
 

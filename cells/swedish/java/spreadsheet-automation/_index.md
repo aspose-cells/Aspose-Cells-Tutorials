@@ -62,6 +62,8 @@ Lär dig hur du programatiskt inaktiverar AutoFilter i Excel-filer med Aspose.Ce
 Lär dig skapa vertikala arrayer i Excel med Java och Aspose.Cells. Steg‑för‑steg‑guide med kodexempel för effektiv datahantering.
 ### [Hur du använder Expand i Java – Komplett guide](./how-to-use-expand-in-java-complete-excel-guide/)
 Lär dig hur du använder Expand-funktionen i Java med Aspose.Cells för att manipulera Excel-data effektivt.
+### [Hur du rensar AutoFilter i Excel med Java – Komplett guide](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Lär dig att ta bort AutoFilter i Excel-program med Aspose.Cells för Java genom tydliga kodexempel och steg-för-steg-instruktioner.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

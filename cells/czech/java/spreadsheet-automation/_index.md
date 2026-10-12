@@ -69,6 +69,8 @@ Naučte se, jak pomocí Aspose.Cells pro Javu vypnout funkci AutoFilter v Excelu
 Naučte se, jak v Excelu pomocí Aspose.Cells a Javy vytvořit vertikální pole, včetně podrobných ukázek kódu a kroků.
 ### [Jak použít Expand v Excelu pomocí Javy – Kompletní průvodce](./how-to-use-expand-in-java-complete-excel-guide/)
 Naučte se, jak pomocí Aspose.Cells pro Javu použít funkci Expand v Excelu a automatizovat rozšíření dat s praktickými ukázkami kódu.
+### [Jak vymazat AutoFilter v Excelu pomocí Javy – Kompletní průvodce](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells v Javě odstranit AutoFilter v Excelu a zjednodušit práci s daty.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -48,6 +48,7 @@
 ### [كيفية استخدام Reduce في Excel مع Java – دليل صيغ Lambda](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
 ### [كيفية استخدام SEQUENCE في مصنف Excel Java – دليل خطوة بخطوة](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
 ### [كيفية استخدام WRAPCOLS في Java – مثال كامل على Excel WRAPCOLS](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+### [كيفية حساب القاطع في Excel – دليل شامل](./how-to-calculate-cotangent-in-excel-complete-guide/)
 
 ## موارد إضافية
 

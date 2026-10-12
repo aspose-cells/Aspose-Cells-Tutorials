@@ -54,7 +54,6 @@ Java के लिए Aspose.Cells के साथ Excel कार्यों 
 Java के लिए Aspose.Cells का उपयोग करके Excel के चार्ट को Word दस्तावेज़ में निर्यात करने की चरण-दर-चरण प्रक्रिया सीखें।
 
 ### [Aspose.Cells एकीकरण के साथ जावा शिक्षक वर्ग कार्यान्वयन में महारत हासिल करना](./master-teacher-class-java-aspose-cells/)
-
 ### [जावा के साथ Excel को PPTX में बदलें – पूर्ण प्रोग्रामिंग गाइड](./convert-excel-to-pptx-with-java-complete-programming-guide/)
 
 ### [जावा में WRAPCOLS का उपयोग कैसे करें – Excel एरे फ़ॉर्मूले की संपूर्ण गाइड](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
@@ -64,6 +63,8 @@ Excel डेटा को PowerPoint प्रस्तुति में ब�
 
 ### [Excel को PowerPoint में बदलें – पूर्ण Java गाइड](./convert-excel-to-powerpoint-complete-java-guide/)
 Excel फ़ाइल को PowerPoint प्रस्तुति में बदलने के लिए Aspose.Slides और Java के साथ विस्तृत चरण-दर-चरण मार्गदर्शिका।
+### [Excel से चार्ट को PowerPoint में निर्यात करना – पूर्ण Java गाइड](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
+Java के साथ Aspose.Cells का उपयोग करके Excel चार्ट को PowerPoint स्लाइड में निर्यात करने की चरण-दर-चरण प्रक्रिया सीखें।
 
 ## अतिरिक्त संसाधन
 

@@ -79,6 +79,20 @@
 ### [Πώς να ενσωματώσετε γραμματοσειρές στη μετατροπή Excel σε SVG](./how-to-embed-fonts-in-excel-to-svg-conversion/)
 ### [Μετατροπή αρχείου Excel σε HTML – Πλήρης Οδηγός με Ενσωμάτωση Γραμματοσειρών](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
 Μάθετε πώς να μετατρέψετε αρχεία Excel σε HTML με ενσωμάτωση γραμματοσειρών χρησιμοποιώντας Aspose.Cells για Java σε πλήρη βήμα-βήμα οδηγό.
+### [Εξαγωγή Excel σε HTML – Πλήρης Οδηγός με Παγωμένα Πάνελ](./export-excel-to-html-complete-guide-with-frozen-panes/)
+Μάθετε πώς να εξάγετε αρχεία Excel σε HTML με πλήρη υποστήριξη παγωμένων πλαισίων, βήμα‑βήμα οδηγίες και παραδείγματα κώδικα.
+### [Δημιουργία Excel από JSON – Πλήρης Οδηγός Βήμα‑Βήμα](./create-excel-from-json-full-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε αρχεία Excel από δεδομένα JSON χρησιμοποιώντας το Aspose.Cells για Java, με πλήρη βήμα‑βήμα οδηγίες.
+### [Εναλλασσόμενα Χρώματα Στηλών στο Excel – Εισαγωγή DataTable με Μορφοποίηση](./alternating-column-colors-in-excel-import-datatable-with-for/)
+Μάθετε πώς να εφαρμόζετε εναλλασσόμενα χρώματα στις στήλες του Excel κατά την εισαγωγή DataTable με μορφοποίηση.
+### [Πώς να Εξάγετε CSV από Κελιά Excel – Πλήρης Οδηγός](./how-to-export-csv-from-excel-cells-complete-guide/)
+Μάθετε πώς να εξάγετε δεδομένα CSV από κελιά Excel χρησιμοποιώντας το Aspose.Cells για Java, βήμα‑βήμα οδηγός.
+### [Αποθήκευση Excel ως TSV – Πλήρης Οδηγός για Εξαγωγή Φύλλων Εργασίας σε Κείμενο](./save-excel-as-tsv-complete-guide-to-exporting-worksheets-to/)
+Μάθετε πώς να αποθηκεύετε αρχεία Excel ως TSV, εξάγοντας φύλλα εργασίας σε κείμενο με οδηγίες βήμα‑βήμα.
+### [Πώς να ενσωματώσετε γραμματοσειρές σε SVG από το Excel – Πλήρης οδηγός Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
+Μάθετε πώς να ενσωματώσετε γραμματοσειρές σε αρχεία SVG εξαγόμενα από Excel χρησιμοποιώντας το Aspose.Cells για Java.
+### [Ενσωμάτωση γραμματοσειρών σε HTML – Μετατροπή Excel σε HTML & Αποθήκευση βιβλίου εργασίας](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
+Μάθετε πώς να ενσωματώσετε γραμματοσειρές σε αρχεία HTML κατά τη μετατροπή Excel σε HTML και να αποθηκεύσετε το βιβλίο εργασίας.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -31,6 +31,8 @@
 
 ### [Aspose.Cells Java：在 Java 中创建新工作簿 – 分步指南](./create-new-workbook-in-java-step-by-step-guide/)
 学习如何使用 Aspose.Cells for Java 从头创建全新的 Excel 工作簿，涵盖实例化、属性设置和保存步骤。
+### [创建工作簿日本日历 – 完整 Java 教程](./create-workbook-japanese-calendar-complete-java-tutorial/)
+学习如何使用 Aspose.Cells for Java 创建包含日本日历的工作簿，包括日期设置、格式化和本地化步骤。
 
 ### [Aspose.Cells Java：显示版本并创建共享工作簿](./aspose-cells-java-display-version-create-shared-workbook/)
 Aspose.Words Java 代码教程

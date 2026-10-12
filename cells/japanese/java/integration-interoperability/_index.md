@@ -66,6 +66,8 @@ Excel データを使用して PowerPoint プレゼンテーションを作成�
 
 ### [Excel を PowerPoint に変換 – 完全 Java ガイド](./convert-excel-to-powerpoint-complete-java-guide/)
 Aspose.Cells と Aspose.Slides を使用して、Excel データを PowerPoint スライドに変換する手順を完全に解説します。
+### [Excel から PowerPoint へチャートをエクスポートする方法 – 完全な Java ガイド](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
+Excel のチャートを PowerPoint にエクスポートする方法を学び、コード実装とベストプラクティスを解説します。
 
 ## 追加リソース
 

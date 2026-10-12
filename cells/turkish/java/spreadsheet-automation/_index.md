@@ -63,6 +63,8 @@ Aspose.Cells for Java ile Excel'de otomatik filtreyi kapatmayı adım adım öğ
 Java ve Aspose.Cells kullanarak Excel'de Otomatik Filtre özelliğini nasıl devre dışı bırakacağınızı adım adım öğrenin.
 ### [Java'da Expand Kullanımı – Tam Excel Kılavuzu](./how-to-use-expand-in-java-complete-excel-guide/)
 Aspose.Cells for Java kullanarak Expand işlevini nasıl uygulayacağınızı adım adım öğrenin.
+### [Java ile Excel'de Otomatik Filtreyi Temizleme – Tam Kılavuz](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Aspose.Cells for Java kullanarak Excel'de otomatik filtreyi nasıl temizleyeceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
