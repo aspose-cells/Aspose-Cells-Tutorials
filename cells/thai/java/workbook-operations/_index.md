@@ -320,6 +320,9 @@
 ### [การแปลง Excel เป็น PDF อย่างมีประสิทธิภาพใน Java ด้วย Aspose.Cells: คู่มือที่ครอบคลุม](./excel-to-pdf-conversion-java-aspose-cells-java-guide/)
 เรียนรู้การแปลงไฟล์ Excel เป็น PDF โดยใช้ไลบรารี Aspose.Cells อันทรงพลังใน Java ปฏิบัติตามคำแนะนำที่ครอบคลุมนี้เพื่อการแปลงเอกสารอย่างราบรื่น
 
+### [การแปลง Excel เป็น PDF อย่างมีประสิทธิภาพใน Java ด้วย Aspose.Cells: คู่มือที่ครอบคลุม](./excel-to-pdf-conversion-java-aspose-cells-guide/)
+เรียนรู้การแปลงไฟล์ Excel เป็น PDF โดยใช้ไลบรารี Aspose.Cells อันทรงพลังใน Java ปฏิบัติตามคำแนะนำที่ครอบคลุมนี้เพื่อการแปลงเอกสารอย่างราบรื่น
+
 ### [เรียนรู้การดำเนินการเวิร์กบุ๊ก Excel ด้วย Aspose.Cells สำหรับ Java: คู่มือฉบับสมบูรณ์](./excel-workbook-creation-modification-aspose-cells-java/)
 เรียนรู้วิธีการสร้างและแก้ไขเวิร์กบุ๊ก Excel อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า การสร้างเวิร์กบุ๊ก การแก้ไขเซลล์ การกำหนดสูตร และอื่นๆ อีกมากมาย
 
@@ -479,13 +482,14 @@
 ### [วิธีตั้งค่าเวอร์ชันเอกสาร Excel โดยใช้ Aspose.Cells สำหรับ Java](./set-excel-version-aspose-cells-java/)
 เรียนรู้วิธีตั้งค่าและจัดการคุณสมบัติของเอกสาร เช่น การกำหนดเวอร์ชันในไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อการดำเนินการเวิร์กบุ๊กอย่างมีประสิทธิภาพ
 
+### [สร้างสมุดงานปฏิทินญี่ปุ่น – บทช่วยสอน Java ฉบับสมบูรณ์](./create-workbook-japanese-calendar-complete-java-tutorial/)
+เรียนรู้วิธีสร้างสมุดงานที่มีปฏิทินญี่ปุ่นโดยใช้ Aspose.Cells สำหรับ Java
+
 ### [บันทึกเวิร์กบุ๊กไปยังไฟล์ – คู่มือ Java ฉบับสมบูรณ์สำหรับการคัดลอกช่วง Excel](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
 เรียนรู้วิธีบันทึกเวิร์กบุ๊กเป็นไฟล์และคัดลอกช่วงข้อมูลใน Excel ด้วย Aspose.Cells สำหรับ Java
 
 ### [วิธีเพิ่มคุณสมบัติที่กำหนดเองใน Excel (Java) – ดึงค่าและบันทึกเป็น XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
 เรียนรู้วิธีเพิ่มคุณสมบัติที่กำหนดเองในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java ดึงค่าและบันทึกเป็นไฟล์ XLSB
-### [สร้างสมุดงานปฏิทินญี่ปุ่น – บทช่วยสอน Java ฉบับสมบูรณ์](./create-workbook-japanese-calendar-complete-java-tutorial/)
-เรียนรู้วิธีสร้างสมุดงานที่มีปฏิทินญี่ปุ่นโดยใช้ Aspose.Cells สำหรับ Java
 
 ## แหล่งข้อมูลเพิ่มเติม
 
