@@ -66,6 +66,8 @@ Leer hoe u een Excel-sjabloonbestand opslaat met Aspose.Cells .NET, inclusief be
 
 ### [Hoe Excel te gebruiken voor mailmerge – Complete C#-gids](./how-to-use-excel-for-mail-merge-complete-c-guide/)
 Leer stap voor stap hoe u Excel kunt inzetten voor mailmerge met C#, inclusief voorbeeldcode en configuratie.
+### [Hoe een factuur te genereren met Aspose.Cells – Complete programmeergids](./how-to-generate-invoice-with-aspose-cells-complete-programmi/)
+Leer hoe u facturen maakt met Aspose.Cells .NET, inclusief gegevensbinding, opmaak en export naar Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

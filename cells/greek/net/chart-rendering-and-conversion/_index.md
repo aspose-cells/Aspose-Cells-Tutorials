@@ -43,6 +43,8 @@
 Μάθετε πώς να εξάγετε γραφήματα από έγγραφα Word σε C# χρησιμοποιώντας το Aspose.Words, βήμα-βήμα οδηγίες για ακριβή αποτελέσματα.
 ### [Πώς να Εξάγετε Γραφήματα – Πλήρης Οδηγός PowerPoint C#](./how-to-export-charts-complete-powerpoint-c-guide/)
 Μάθετε πώς να εξάγετε γραφήματα Excel σε παρουσιάσεις PowerPoint χρησιμοποιώντας C# και Aspose.Cells.
+### [Εξαγωγή γραφήματος ως PNG – Πλήρης οδηγός για μετατροπή Excel σε HTML με Aspose.Cells](./export-chart-as-png-complete-guide-to-convert-excel-to-html/)
+Μάθετε πώς να εξάγετε γραφήματα Excel ως PNG και να τα ενσωματώσετε σε HTML χρησιμοποιώντας το Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

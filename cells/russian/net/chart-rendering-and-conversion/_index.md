@@ -44,6 +44,8 @@
 Узнайте, как экспортировать диаграммы из Word в C# с помощью Aspose.Words, следуя пошаговому полному руководству.
 ### [Как экспортировать диаграммы – Полное руководство по PowerPoint на C#](./how-to-export-charts-complete-powerpoint-c-guide/)
 Узнайте, как экспортировать диаграммы Excel в презентации PowerPoint с помощью C# и Aspose.Cells, следуя пошаговым инструкциям.
+### [Экспорт диаграммы в PNG – Полное руководство по конвертации Excel в HTML с Aspose.Cells](./export-chart-as-png-complete-guide-to-convert-excel-to-html/)
+Узнайте, как экспортировать диаграмму Excel в PNG и преобразовать её в HTML с помощью Aspose.Cells, следуя пошаговым инструкциям.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

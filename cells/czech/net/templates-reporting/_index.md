@@ -71,6 +71,8 @@ Naučte se, jak uložit šablonu Excelu pomocí Aspose.Cells pro .NET v několik
 
 ### [Jak použít Excel pro hromadnou korespondenci – kompletní průvodce v C#](./how-to-use-excel-for-mail-merge-complete-c-guide/)
 Naučte se, jak pomocí Aspose.Cells pro .NET a C# provádět hromadnou korespondenci v Excelu, včetně nastavení šablon a exportu dokumentů.
+### [Jak generovat fakturu pomocí Aspose.Cells – Kompletní programovací průvodce](./how-to-generate-invoice-with-aspose-cells-complete-programmi/)
+Naučte se krok za krokem vytvářet faktury v Excelu pomocí Aspose.Cells s kompletním programovacím návodem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -44,6 +44,8 @@ Dowiedz się, jak wyeksportować wykres z Excela do prezentacji PowerPoint przy 
 Jak wyeksportować wykresy z dokumentu Word przy użyciu C#. Kompletny przewodnik krok po kroku z przykładami kodu.
 ### [Jak eksportować wykresy – Kompletny przewodnik PowerPoint w C#](./how-to-export-charts-complete-powerpoint-c-guide/)
 Dowiedz się, jak eksportować wykresy z Excela do prezentacji PowerPoint przy użyciu C# i Aspose.Cells, krok po kroku.
+### [Eksport wykresu jako PNG – Kompletny przewodnik konwersji Excela do HTML z Aspose.Cells](./export-chart-as-png-complete-guide-to-convert-excel-to-html/)
+Dowiedz się, jak wyeksportować wykresy z Excela jako pliki PNG i konwertować je do HTML przy użyciu Aspose.Cells w .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

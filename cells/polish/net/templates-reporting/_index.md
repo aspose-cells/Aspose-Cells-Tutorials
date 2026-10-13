@@ -65,6 +65,8 @@ Dowiedz się, jak w kilku prostych krokach zapisać szablon Excela przy użyciu 
 
 ### [Jak używać Excela do korespondencji seryjnej – kompletny przewodnik C#](./how-to-use-excel-for-mail-merge-complete-c-guide/)
 Dowiedz się, jak wykorzystać Excela do korespondencji seryjnej w C#, tworząc szablony i generując dokumenty przy użyciu Aspose.Cells.
+### [Jak wygenerować fakturę przy użyciu Aspose.Cells – Kompletny przewodnik programistyczny](./how-to-generate-invoice-with-aspose-cells-complete-programmi/)
+Dowiedz się, jak programowo tworzyć faktury w Excelu przy użyciu Aspose.Cells, od przygotowania danych po formatowanie i zapis.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

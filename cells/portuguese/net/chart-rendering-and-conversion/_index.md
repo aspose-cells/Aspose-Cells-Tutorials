@@ -44,6 +44,8 @@ Aprenda a exportar gráficos do Excel para apresentações PowerPoint usando Asp
 Aprenda a exportar gráficos do Word para imagens ou PDFs usando C# com Aspose.Words, passo a passo.
 ### [Como Exportar Gráficos – Guia Completo de PowerPoint em C#](./how-to-export-charts-complete-powerpoint-c-guide/)
 Aprenda a exportar gráficos do Excel para apresentações PowerPoint usando C# e Aspose.Slides, passo a passo.
+### [Exportar Gráfico como PNG – Guia Completo para Converter Excel em HTML com Aspose.Cells](./export-chart-as-png-complete-guide-to-convert-excel-to-html/)
+Aprenda a exportar gráficos do Excel como PNG e convertê-los para HTML usando Aspose.Cells, com exemplos claros e passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

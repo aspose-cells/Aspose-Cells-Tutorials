@@ -118,6 +118,7 @@ Jadi, mengapa tidak memanfaatkan kesempatan ini untuk meningkatkan keterampilan 
 | [Buat File Excel Secara Programatis dengan C# – Panduan Langkah‑per‑Langkah](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Pelajari cara membuat file Excel secara programatis menggunakan C# dengan panduan langkah demi langkah kami. |  
 | [Buat Buku Kerja Baru – Konversi Markdown ke Excel dengan C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Pelajari cara membuat buku kerja baru dan mengonversi file Markdown menjadi Excel menggunakan C# dengan Aspose.Cells. |
 | [Cara Membuat Workbook di C# – Menulis Nilai & Memformat Angka](./how-to-create-workbook-in-c-write-value-format-number/) | Pelajari cara membuat workbook di C#, menulis nilai, dan memformat angka menggunakan Aspose.Cells untuk .NET. |
+| [Buat Buku Kerja Excel dengan Aspose.Cells – Panduan Lengkap](./create-excel-workbook-with-aspose-cells-full-guide/) | Pelajari cara membuat buku kerja Excel dari awal menggunakan Aspose.Cells dengan panduan lengkap langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

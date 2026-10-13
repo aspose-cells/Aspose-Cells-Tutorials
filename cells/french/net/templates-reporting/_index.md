@@ -57,6 +57,8 @@ Apprenez à créer un rapport Excel en C# avec Aspose.Cells, étape par étape, 
 Apprenez à générer un classeur Excel à partir d'un modèle en suivant un guide détaillé pour les développeurs .NET.
 ### [Créer un Excel à partir d'un modèle – Ajouter des données, une image, enregistrer en XLSX](./create-excel-from-template-add-data-image-save-xlsx/)
 Apprenez à générer un classeur Excel à partir d'un modèle, insérer des données et des images, puis enregistrer le fichier au format XLSX.
+### [Comment générer une facture avec Aspose.Cells – Guide complet de programmation](./how-to-generate-invoice-with-aspose-cells-complete-programmi/)
+Apprenez à créer automatiquement des factures Excel avec Aspose.Cells, du modèle à la génération et à l’enregistrement du fichier.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

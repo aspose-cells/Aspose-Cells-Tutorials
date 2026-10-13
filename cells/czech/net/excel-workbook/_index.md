@@ -118,6 +118,7 @@ Tak proč nevyužít této příležitosti a nezlepšit si své dovednosti v Exc
 | [Vytvořit soubor Excel programově v C# – krok za krokem](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Cells pro .NET v C# programově vytvořit soubor Excel od začátku. |  
 | [Vytvořit nový sešit – převést Markdown do Excelu v C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Naučte se, jak vytvořit nový sešit a převést soubor Markdown do formátu Excel pomocí Aspose.Cells pro .NET v C#. |  
 | [Jak vytvořit sešit v C# – Zapsat hodnotu a formátovat číslo](./how-to-create-workbook-in-c-write-value-format-number/) | Naučte se vytvořit nový sešit v C#, zapsat hodnotu a nastavit formát čísla pomocí Aspose.Cells pro .NET. |
+| [Vytvořit sešit aplikace Excel pomocí Aspose.Cells – Kompletní průvodce](./create-excel-workbook-with-aspose-cells-full-guide/) | Kompletní návod, jak pomocí Aspose.Cells pro .NET vytvořit nový sešit aplikace Excel s podrobnými ukázkami kódu. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

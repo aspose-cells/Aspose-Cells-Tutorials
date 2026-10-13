@@ -118,6 +118,7 @@ Power Query может стать настоящим прорывом в обр�
 | [Как создать рабочую книгу в C# – пошаговое руководство](./how-to-create-workbook-in-c-step-by-step-guide/) | Узнайте, как создать рабочую книгу в C# с помощью Aspose.Cells для .NET, следуя нашему пошаговому руководству. |  
 | [Создать новую рабочую книгу – Преобразовать Markdown в Excel на C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Узнайте, как создать новую книгу Excel и конвертировать Markdown в Excel с помощью C# и Aspose.Cells. |  
 | [Как создать рабочую книгу в C# – записать значение и отформатировать число](./how-to-create-workbook-in-c-write-value-format-number/) | Узнайте, как создать новую книгу Excel в C#, записать значение в ячейку и применить числовое форматирование с помощью Aspose.Cells. |
+| [Создать книгу Excel с Aspose.Cells – Полное руководство](./create-excel-workbook-with-aspose-cells-full-guide/) | Полное пошаговое руководство по созданию книги Excel с помощью Aspose.Cells для .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

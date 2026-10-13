@@ -43,6 +43,8 @@
 ### [كيفية تصدير المخططات من Word – دليل C# كامل](./how-to-export-charts-from-word-complete-c-guide/)
 ### [كيفية تصدير المخططات – دليل PowerPoint كامل بلغة C#](./how-to-export-charts-complete-powerpoint-c-guide/)
 تعلم كيفية تصدير المخططات إلى PowerPoint باستخدام Aspose.Slides لـ .NET مع دليل شامل بلغة C#.
+### [تصدير المخطط كـ PNG – دليل كامل لتحويل Excel إلى HTML باستخدام Aspose.Cells](./export-chart-as-png-complete-guide-to-convert-excel-to-html/)
+تعلم كيفية تصدير مخططات Excel كصور PNG وتحويل المصنفات إلى HTML باستخدام Aspose.Cells لـ .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

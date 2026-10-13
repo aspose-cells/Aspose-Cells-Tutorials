@@ -59,6 +59,8 @@ Lär dig hur du genererar Excel-filer från en befintlig mall med Aspose.Cells f
 Lär dig hur du skapar ett Excel-dokument från en mall, lägger till data och bilder och sparar det som XLSX.
 ### [Spara en ifylld arbetsbok programatiskt med Aspose.Cells](./save-populated-workbook-programmatically-with-aspose-cells/)
 Lär dig hur du sparar en ifylld Excel-arbetsbok programatiskt med Aspose.Cells för .NET.
+### [Så genererar du faktura med Aspose.Cells – En komplett programmeringsguide](./how-to-generate-invoice-with-aspose-cells-complete-programmi/)
+Lär dig steg för steg hur du skapar fakturor i Excel med Aspose.Cells, inklusive databindning, formatering och export.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -44,6 +44,8 @@ Học cách xuất biểu đồ Excel sang PowerPoint bằng C# với Aspose.Cel
 Hướng dẫn chi tiết cách xuất biểu đồ từ tài liệu Word sang hình ảnh hoặc PDF bằng Aspose.Words cho .NET sử dụng C#.
 ### [Cách xuất biểu đồ – Hướng dẫn PowerPoint đầy đủ cho C#](./how-to-export-charts-complete-powerpoint-c-guide/)
 Hướng dẫn chi tiết cách xuất biểu đồ từ Excel sang PowerPoint bằng C# với Aspose.Cells, bao gồm các bước và ví dụ mã.
+### [Xuất biểu đồ dưới dạng PNG – Hướng dẫn đầy đủ chuyển đổi Excel sang HTML với Aspose.Cells](./export-chart-as-png-complete-guide-to-convert-excel-to-html/)
+Học cách xuất biểu đồ Excel thành file PNG và chuyển đổi sang HTML bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

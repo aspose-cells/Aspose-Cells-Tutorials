@@ -44,6 +44,8 @@ Aspose.Cells for .NET を使用して、C# で Excel のチャートを PowerPoi
 Word 文書のグラフを抽出し、C# で画像や他形式へエクスポートする手順を詳しく解説します。
 ### [チャートのエクスポート方法 – 完全 PowerPoint C# ガイド](./how-to-export-charts-complete-powerpoint-c-guide/)
 Aspose.Cells for .NET を使用して、Excel のチャートを PowerPoint にエクスポートする手順を C# で詳しく解説します。
+### [チャートを PNG にエクスポート – Aspose.Cells で Excel を HTML に変換する完全ガイド](./export-chart-as-png-complete-guide-to-convert-excel-to-html/)
+Aspose.Cells を使って Excel のチャートを PNG 画像としてエクスポートし、HTML に変換する手順を詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

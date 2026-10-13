@@ -61,6 +61,8 @@ Aspose.Cells สำหรับ .NET มอบเครื่องมืออ�
 เรียนรู้วิธีบันทึกสมุดงาน Excel ที่มีข้อมูลแล้วโดยใช้โค้ด Aspose.Cells อย่างอัตโนมัติและมีประสิทธิภาพ
 ### [สร้างเทมเพลตเวิร์กบุ๊กด้วย Aspose.Cells – คู่มือฉบับสมบูรณ์](./create-workbook-template-with-aspose-cells-complete-guide/)
 เรียนรู้วิธีสร้างเทมเพลตเวิร์กบุ๊กด้วย Aspose.Cells อย่างครบถ้วน ตั้งแต่การกำหนดโครงสร้าง การผูกข้อมูล ไปจนถึงการปรับแต่งรูปแบบ
+### [วิธีสร้างใบแจ้งหนี้ด้วย Aspose.Cells – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./how-to-generate-invoice-with-aspose-cells-complete-programmi/)
+เรียนรู้ขั้นตอนการสร้างใบแจ้งหนี้อัตโนมัติด้วย Aspose.Cells สำหรับ .NET ตั้งแต่การออกแบบเทมเพลตจนถึงการผูกข้อมูลและบันทึกไฟล์
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

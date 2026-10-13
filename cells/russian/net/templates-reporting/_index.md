@@ -66,6 +66,8 @@ Aspose.Cells for .NET предоставляет мощные инструмен
 
 ### [Как использовать Excel для слияния почты – полное руководство C#](./how-to-use-excel-for-mail-merge-complete-c-guide/)
 Узнайте, как выполнять слияние почты в Excel с помощью Aspose.Cells на C#.
+### [Как создать счет‑фактуру с помощью Aspose.Cells – Полное руководство по программированию](./how-to-generate-invoice-with-aspose-cells-complete-programmi/)
+Узнайте, как программно создавать счета‑фактуры в Excel с помощью Aspose.Cells, используя полное пошаговое руководство.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -44,6 +44,8 @@ Naučte se exportovat grafy z Excelu do PowerPointu pomocí Aspose.Cells pro .NE
 Naučte se exportovat grafy z dokumentu Word do Excelu pomocí Aspose.Words a Aspose.Cells v C#.
 ### [Jak exportovat grafy – Kompletní průvodce PowerPointem v C#](./how-to-export-charts-complete-powerpoint-c-guide/)
 Naučte se exportovat grafy z Excelu do PowerPointu pomocí Aspose.Cells v C# s podrobnými ukázkami kódu.
+### [Export grafu jako PNG – Kompletní průvodce konverzí Excelu do HTML s Aspose.Cells](./export-chart-as-png-complete-guide-to-convert-excel-to-html/)
+Naučte se exportovat grafy z Excelu jako PNG a převádět je do HTML pomocí Aspose.Cells v .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

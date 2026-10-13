@@ -62,6 +62,8 @@ Guía paso a paso para guardar archivos de plantilla de Excel usando Aspose.Cell
 
 ### [Cómo usar Excel para combinación de correspondencia – Guía completa en C#](./how-to-use-excel-for-mail-merge-complete-c-guide/)
 Aprenda a utilizar Excel para combinar correspondencia mediante Aspose.Cells y C#, creando documentos personalizados de forma automatizada.
+### [Cómo generar una factura con Aspose.Cells – Guía completa de programación](./how-to-generate-invoice-with-aspose-cells-complete-programmi/)
+Aprenda a crear facturas automatizadas con Aspose.Cells .NET, cubriendo la configuración, el diseño y la exportación a formatos comunes.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

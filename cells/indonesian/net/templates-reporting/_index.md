@@ -57,6 +57,8 @@ Pelajari cara membuat workbook Excel dari templat menggunakan C# dengan panduan 
 Pelajari cara membuat file Excel dari template menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah untuk pengembang.
 ### [Cara Menggunakan Excel untuk Mail Merge – Panduan Lengkap C#](./how-to-use-excel-for-mail-merge-complete-c-guide/)
 Pelajari cara menggabungkan data ke dalam dokumen Word menggunakan Excel dan C# dengan Aspose.Cells.
+### [Cara Membuat Faktur dengan Aspose.Cells – Panduan Pemrograman Lengkap](./how-to-generate-invoice-with-aspose-cells-complete-programmi/)
+Pelajari cara membuat faktur otomatis menggunakan Aspose.Cells dengan contoh kode lengkap dan langkah‑langkah detail.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

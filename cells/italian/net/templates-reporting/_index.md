@@ -64,6 +64,8 @@ Scopri come salvare un file modello Excel con Aspose.Cells per .NET, passo dopo 
 
 ### [Come utilizzare Excel per la stampa unione – Guida completa C#](./how-to-use-excel-for-mail-merge-complete-c-guide/)
 Scopri come eseguire la stampa unione con Excel usando Aspose.Cells per .NET in C# passo dopo passo.
+### [Come generare una fattura con Aspose.Cells – Guida completa di programmazione](./how-to-generate-invoice-with-aspose-cells-complete-programmi/)
+Scopri come creare fatture Excel automatizzate con Aspose.Cells, includendo dati, formattazione e salvataggio in pochi passaggi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

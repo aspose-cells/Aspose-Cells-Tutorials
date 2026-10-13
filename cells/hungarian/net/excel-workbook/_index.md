@@ -118,6 +118,7 @@ Miért ne ragadnád meg ezt a lehetőséget, hogy fejleszd Excel-készségeidet?
 | [Excel-fájl létrehozása programozottan C#‑val – Lépésről lépésre útmutató](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre Excel-fájlt C#‑ban az Aspose.Cells for .NET segítségével lépésről lépésre. |
 | [Új munkafüzet létrehozása – Markdown konvertálása Excelbe C#‑ban](./create-new-workbook-convert-markdown-to-excel-in-c/) | Ismerje meg, hogyan hozhat létre új munkafüzetet, és konvertálja a Markdown szöveget Excelbe C#‑ban az Aspose.Cells for .NET segítségével. |
 | [Munkafüzet létrehozása C#-ban – Érték írása és számformázás](./how-to-create-workbook-in-c-write-value-format-number/) | Ismerje meg, hogyan hozhat létre új munkafüzetet C#-ban, írhat értékeket cellákba, és formázhat számokat az Aspose.Cells for .NET segítségével. |
+| [Excel munkafüzet létrehozása Aspose.Cells segítségével – Teljes útmutató](./create-excel-workbook-with-aspose-cells-full-guide/) | Lépésről lépésre bemutatja, hogyan hozhat létre teljes Excel munkafüzetet Aspose.Cells használatával. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
