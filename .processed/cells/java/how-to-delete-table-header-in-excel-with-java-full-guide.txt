@@ -1,0 +1,7 @@
+Title: How to Delete Table Header in Excel with Java – Full Guide
+Slug: how-to-delete-table-header-in-excel-with-java-full-guide
+Category: spreadsheet-automation
+ProcessedDate: 2026-07-04T05:22:35.514047
+SourceRepo: AI Search API
+Keywords: how to delete table header, delete multiple rows excel, delete rows from excel table, excel table row removal, remove first data row
+PRNumber: 113

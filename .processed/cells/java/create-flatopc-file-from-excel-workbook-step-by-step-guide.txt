@@ -1,0 +1,7 @@
+Title: Create FlatOPC File from Excel Workbook – Step‑by‑Step Guide
+Slug: create-flatopc-file-from-excel-workbook-step-by-step-guide
+Category: excel-import-export
+ProcessedDate: 2026-07-01T00:55:55.912166
+SourceRepo: AI Search API
+Keywords: create flatopc file, load excel workbook
+PRNumber: 109

@@ -1,0 +1,7 @@
+Title: Create Excel Workbook with Aspose.Cells – Full Guide
+Slug: create-excel-workbook-with-aspose-cells-full-guide
+Category: excel-workbook
+ProcessedDate: 2026-06-30T22:47:35.836416
+SourceRepo: AI Search API
+Keywords: create excel workbook, apply table style, save as xlsx, export excel to pdf, embed fonts pdf
+PRNumber: 108

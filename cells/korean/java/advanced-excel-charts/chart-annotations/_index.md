@@ -9,11 +9,9 @@ url: /ko/java/advanced-excel-charts/chart-annotations/
 weight: 16
 ---
 
- content with same shortcodes.
+{{< blocks/products/pf/main-wrap-class >}}
 
-Let's craft final output.{{< blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -156,10 +154,9 @@ Aspose.Cells for Java에 대한 추가 튜토리얼 및 문서는 [여기](https
 **Tested With:** Aspose.Cells for Java 24.12 (latest)  
 **Author:** Aspose  
 
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

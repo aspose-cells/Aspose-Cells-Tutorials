@@ -67,6 +67,8 @@ Excel มาพร้อมกับฟังก์ชันในตัวม�
 ปลดล็อกศักยภาพของ Excel ด้วย Aspose.Cells สำหรับ .NET เรียนรู้ขั้นตอนทีละขั้นตอนในการประมวลผลข้อมูลโดยใช้ฟังก์ชัน Add-In ที่ทรงพลัง
 ### [การประมวลผลข้อมูลโดยใช้ฟังก์ชันอาร์เรย์ใน Excel](./processing-data-using-array-function/)
 ปลดล็อกพลังของ Excel ด้วย Aspose.Cells สำหรับ .NET เรียนรู้การประมวลผลข้อมูลโดยใช้ฟังก์ชันอาร์เรย์ในบทช่วยสอนโดยละเอียดนี้
+### [การใช้สูตรอาร์เรย์ใน Excel ด้วย C# – คู่มือฉบับสมบูรณ์](./apply-array-formula-excel-in-c-complete-guide/)
+เรียนรู้วิธีใช้สูตรอาร์เรย์ใน Excel ด้วย C# อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนที่ทำตามได้ง่าย
 ### [การประมวลผลข้อมูลโดยใช้ฟังก์ชันในตัวใน Excel](./processing-data-using-built-in-functions/)
 ค้นพบวิธีการประมวลผลข้อมูลโดยใช้ฟังก์ชันในตัวใน Excel ด้วย Aspose.Cells สำหรับ .NET ปฏิบัติตามบทช่วยสอนทีละขั้นตอนเพื่อการทำงานอัตโนมัติที่ง่ายดาย
 ### [การประมวลผลข้อมูลโดยใช้ R1C1 ใน Excel](./processing-data-using-r1c1/)
@@ -75,6 +77,21 @@ Excel มาพร้อมกับฟังก์ชันในตัวม�
 ค้นพบวิธีการลงทะเบียนและเรียกใช้ฟังก์ชันจากส่วนเสริมใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนง่ายๆ ของเรา
 ### [การระบุแถวสูงสุดของสูตรที่ใช้ร่วมกันใน Excel](./specifying-maximum-rows-of-shared-formula/)
 ค้นพบวิธีการระบุจำนวนแถวสูงสุดสำหรับสูตรที่ใช้ร่วมกันใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนง่ายๆ นี้
+### [คำนวณสูตรทั้งหมดใหม่ใน C# – รีเฟรช Excel](./recalculate-all-formulas-in-c-refresh-excel/)
+### [c# สร้างไฟล์ Excel – คู่มือขั้นตอนต่อขั้นด้วยเงื่อนไข](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# พร้อมตรรกะเงื่อนไขแบบทีละขั้นตอนโดยใช้ Aspose.Cells สำหรับ .NET
+### [วิธีคำนวณค่าโคแทนเจนต์ใน Excel ด้วย C# – คู่มือทีละขั้นตอน](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+เรียนรู้วิธีคำนวณค่าโคแทนเจนต์ใน Excel ด้วย C# อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
+### [วิธีขยายอาร์เรย์ใน C# ด้วย Aspose.Cells – คู่มือแบบขั้นตอนต่อขั้นตอน](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+เรียนรู้วิธีขยายอาร์เรย์ใน C# ด้วย Aspose.Cells อย่างละเอียดในคู่มือขั้นตอนต่อขั้นตอนนี้
+### [วิธีใช้ WRAPCOLS ใน C# – ปรับรูปแบบอาเรย์เป็นเมทริกซ์](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+เรียนรู้วิธีใช้ฟังก์ชัน WRAPCOLS ใน C# เพื่อแปลงอาเรย์ให้เป็นเมทริกซ์อย่างง่ายดาย
+### [วิธีสร้างอาร์เรย์ใน Excel ด้วย C# – คู่มือทีละขั้นตอน](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+เรียนรู้วิธีสร้างอาร์เรย์ใน Excel ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET ผ่านคู่มือทีละขั้นตอนที่เข้าใจง่าย
+### [วิธีคำนวณโคแทนเจนต์ใน Excel ด้วย C# – คู่มือเต็ม](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+เรียนรู้วิธีคำนวณฟังก์ชันโคแทนเจนต์ใน Excel ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET อย่างละเอียดและง่ายต่อการทำตาม
+### [วิธีใช้ WRAPCOLS ใน Excel – ตัวอย่าง C# ครบถ้วน](./how-to-use-wrapcols-in-excel-complete-c-example/)
+เรียนรู้วิธีใช้ฟังก์ชัน WRAPCOLS ใน Excel ด้วยตัวอย่างโค้ด C# อย่างละเอียดโดยใช้ Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

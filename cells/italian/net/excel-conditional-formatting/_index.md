@@ -33,6 +33,9 @@ Scopri come applicare la formattazione condizionale in fase di esecuzione in Exc
 ### [Creare la formattazione condizionale in Excel con Aspose.Cells – Guida passo‑passo](./create-conditional-formatting-in-excel-with-aspose-cells-ste/)
 Impara a creare regole di formattazione condizionale in Excel usando Aspose.Cells passo dopo passo.
 
+### [Creare una cartella di lavoro Excel C# – Guida passo‑passo con formattazione condizionale](./create-excel-workbook-c-step-by-step-guide-with-conditional/)
+Impara a creare una cartella di lavoro Excel in C# con formattazione condizionale passo dopo passo usando Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

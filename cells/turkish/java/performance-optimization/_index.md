@@ -68,7 +68,8 @@ Geliştirilmiş performans ve azaltılmış bellek kullanımı için Aspose.Cell
 ### [Java'da Aspose.Cells Kullanarak Excel Çalışma Kitabı Hücrelerini Optimize Etme: Eksiksiz Bir Kılavuz](./optimize-workbook-cells-java-aspose-cells-guide/)
 Aspose.Cells for Java kullanarak Excel çalışma kitabı hücrelerini verimli bir şekilde nasıl optimize edeceğinizi ve yöneteceğinizi öğrenin. Bu kapsamlı kılavuzla Java uygulamalarınızı geliştirin.
 
-
+### [set useflatopc true – Java’da Düz OPC ile Excel Çalışma Kitaplarını Kaydetme](./set-useflatopc-true-how-to-save-excel-workbooks-with-flat-op/)
+Java’da Aspose.Cells kullanarak Excel çalışma kitaplarını Düz OPC formatında kaydetmek için useFlatOPC ayarını nasıl etkinleştireceğinizi öğrenin.
 
 ## Ek Kaynaklar
 

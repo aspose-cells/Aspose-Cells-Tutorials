@@ -47,6 +47,12 @@
 ### [تحسين وقت حساب Excel باستخدام الخيارات المتكررة في Aspose.Cells لـ .NET](./optimize-calculation-time-recursive-aspose-cells-net)
 تعرّف على كيفية تحسين أوقات حسابات Excel باستخدام الخيارات التكرارية في Aspose.Cells لـ .NET. يغطي هذا الدليل الإعداد، ونصائح الأداء، والتطبيقات العملية.
 
+### [إجبار حساب الصيغة في C# – دليل شامل لأتمتة Excel](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
+تعلم كيفية إجبار حساب الصيغ في C# لتسريع أتمتة Excel باستخدام Aspose.Cells.
+### [إنشاء مصنف Excel – تحويل مصفوفة إلى مصفوفة باستخدام WRAPCOLS](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
+تعلم كيفية إنشاء مصنف Excel وتحويل مصفوفة إلى مصفوفة باستخدام الدالة WRAPCOLS في Aspose.Cells.
+### [كيفية تقييم الصيغ في C# – دليل Aspose.Cells الكامل](./how-to-evaluate-formulas-in-c-complete-aspose-cells-guide/)
+تعرّف على كيفية تقييم الصيغ في C# باستخدام Aspose.Cells من خلال دليل شامل يوضح الخطوات والأمثلة العملية.
 
 ## فوائد
 

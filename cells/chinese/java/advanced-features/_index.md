@@ -6,12 +6,6 @@ url: /zh/java/advanced-features/
 weight: 18
 ---
 
-Then paragraph.
-
-Proceed.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

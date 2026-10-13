@@ -1,0 +1,7 @@
+Title: Sort Unique Values Excel – Complete Java Guide to Set Array Formulas
+Slug: sort-unique-values-excel-complete-java-guide-to-set-array-fo
+Category: formulas-functions
+ProcessedDate: 2026-07-01T00:55:22.259322
+SourceRepo: AI Search API
+Keywords: sort unique values excel, how to set formula, how to recalculate formulas, generate unique list excel, set array formula
+PRNumber: 109

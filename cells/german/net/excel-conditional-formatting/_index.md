@@ -33,6 +33,9 @@ Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit A
 ### [Erstellen einer bedingten Formatierung in Excel mit Aspose.Cells – Schritt‑für‑Schritt‑Anleitung](./create-conditional-formatting-in-excel-with-aspose-cells-ste/)
 Lernen Sie, wie Sie mit Aspose.Cells für .NET bedingte Formatierungen in Excel erstellen und anpassen.
 
+### [Excel-Arbeitsmappe erstellen C# – Schritt‑für‑Schritt‑Anleitung mit bedingter Formatierung](./create-excel-workbook-c-step-by-step-guide-with-conditional/)
+Erfahren Sie, wie Sie mit C# und Aspose.Cells eine Excel-Arbeitsmappe erstellen und bedingte Formatierung hinzufügen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

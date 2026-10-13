@@ -1,0 +1,7 @@
+Title: How to Export Excel to PowerPoint – Complete Guide
+Slug: how-to-export-excel-to-powerpoint-complete-guide
+Category: converting-excel-files-to-other-formats
+ProcessedDate: 2026-07-04T03:37:43.564449
+SourceRepo: AI Search API
+Keywords: how to export excel, create powerpoint from excel, editable text boxes, convert xlsx to pptx, presentation export options
+PRNumber: 112

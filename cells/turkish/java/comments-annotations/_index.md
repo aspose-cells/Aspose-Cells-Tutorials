@@ -53,7 +53,8 @@ Excel yorumlarında metin yönünün Aspose.Cells for Java ile nasıl değiştir
 ### [Aspose.Cells for Java ile Excel Yorumlarını HTML'ye Aktarma](./export-excel-comments-html-aspose-cells-java/)
 Aspose.Words Java için bir kod eğitimi
 
-
+### [Java ile Excel'de Yorum Ekleme – Tam Kılavuz](./how-to-add-comment-in-excel-with-java-complete-guide/)
+Java ve Aspose.Cells kullanarak Excel dosyalarına yorum eklemeyi adım adım öğrenin.
 
 ## Ek Kaynaklar
 

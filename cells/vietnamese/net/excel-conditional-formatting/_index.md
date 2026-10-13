@@ -33,6 +33,9 @@ Tìm hiểu cách áp dụng định dạng có điều kiện khi chạy trong 
 ### [Tạo Định dạng có Điều kiện trong Excel với Aspose.Cells – Hướng dẫn Từng bước](./create-conditional-formatting-in-excel-with-aspose-cells-ste/)
 Hướng dẫn chi tiết cách tạo định dạng có điều kiện trong Excel bằng Aspose.Cells cho .NET, từng bước một.
 
+### [Tạo Workbook Excel C# – Hướng dẫn từng bước với Định dạng có điều kiện](./create-excel-workbook-c-step-by-step-guide-with-conditional/)
+Hướng dẫn chi tiết cách tạo workbook Excel bằng C# và áp dụng định dạng có điều kiện trong Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

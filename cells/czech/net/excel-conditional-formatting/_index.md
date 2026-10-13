@@ -33,6 +33,9 @@ Naučte se, jak v Excelu s Aspose.Cells pro .NET za běhu použít podmíněné 
 ### [Vytvořte podmíněné formátování v Excelu s Aspose.Cells – průvodce krok za krokem](./create-conditional-formatting-in-excel-with-aspose-cells-ste/)
 Naučte se, jak pomocí Aspose.Cells vytvořit podmíněné formátování v Excelu krok po kroku.
 
+### [Vytvoření sešitu Excel v C# – krok za krokem průvodce s podmíněným formátováním](./create-excel-workbook-c-step-by-step-guide-with-conditional/)
+Naučte se, jak v C# pomocí Aspose.Cells vytvořit sešit Excel a aplikovat podmíněné formátování v podrobném návodu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

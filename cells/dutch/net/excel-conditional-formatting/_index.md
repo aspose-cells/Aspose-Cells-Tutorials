@@ -33,6 +33,9 @@ Leer hoe u voorwaardelijke opmaak kunt toepassen tijdens runtime in Excel met As
 ### [Voorwaardelijke opmaak maken in Excel met Aspose.Cells – Stapsgewijze handleiding](./create-conditional-formatting-in-excel-with-aspose-cells-ste/)
 Leer hoe u voorwaardelijke opmaak maakt in Excel met Aspose.Cells in deze duidelijke, stapsgewijze handleiding.
 
+### [Excel-werkmap maken in C# – Stapsgewijze handleiding met voorwaardelijke opmaak](./create-excel-workbook-c-step-by-step-guide-with-conditional/)
+Leer hoe u een Excel-werkmap maakt in C# met voorwaardelijke opmaak stap voor stap.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,11 +1,11 @@
 ---
-date: '2025-12-10'
-description: 学习如何使用 Aspose.Cells for Java 在 Excel 中为图像添加超链接，将静态图片转换为交互式链接，以创建更丰富的电子表格。
+date: '2026-02-16'
+description: 学习如何使用 Aspose.Cells for Java 创建可点击图片的 Excel，为图片添加超链接，实现交互式电子表格。
 keywords:
 - image hyperlinks in Excel
 - Aspose.Cells for Java
 - interactive Excel spreadsheets
-title: 如何使用 Aspose.Cells for Java 在 Excel 中为图片添加超链接
+title: 使用 Aspose.Cells for Java 创建可点击图片的 Excel
 url: /zh/java/advanced-features/add-image-hyperlinks-excel-aspose-cells-java/
 weight: 1
 ---
@@ -16,29 +16,30 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 如何使用 Aspose.Cells for Java 在 Excel 中为图片添加超链接
+# 使用 Aspose.Cells for Java 创建可点击图片的 Excel
 
 ## 介绍
 
-如果你想让 Excel 报表更具交互性，学习**如何为图片添加超链接**是一个很好的起点。在本教程中，你将看到 Aspose.Cells for Java 如何让你嵌入可点击的图片，将静态视觉元素转换为功能链接，直接从电子表格打开网页、文档或其他资源。
+如果您想 **创建可点击图片的 Excel** 工作簿，让用户只需一次点击即可跳转到网站、文档或其他资源，那么您来对地方了。在本教程中，我们将演示 Aspose.Cells for Java 如何帮助您 **添加超链接图片** 对象、配置屏幕提示，并保持电子表格既美观又实用。
 
-### 你将学到的内容
+### 您将学到的内容
 - 在 Java 中初始化 Aspose.Cells 工作簿。  
-- 插入图片并将其转换为超链接。  
+- 插入图片并将其转换为可点击的超链接。  
 - 关键方法如 `addHyperlink`、`setPlacement` 和 `setScreenTip`。  
 - 性能和授权的最佳实践。
 
-## 快速答案
+## 快速答疑
 - **需要哪个库？** Aspose.Cells for Java。  
 - **可以使用 .xlsx 文件吗？** 可以——API 同时支持 .xls 和 .xlsx。  
-- **需要授权吗？** 试用版可用于评估；生产环境必须使用正式授权。  
-- **代码行数大概多少？** 大约 20 行即可实现可点击图片。  
-- **线程安全吗？** Workbook 对象不是线程安全的；每个线程请创建独立实例。
+- **需要许可证吗？** 试用版可用于评估；生产环境必须使用正式许可证。  
+- **代码行数多少？** 大约 20 行即可添加一个可点击图片。  
+- **线程安全吗？** Workbook 对象不是线程安全的；每个线程请创建独立实例。  
+- **可以添加屏幕提示吗？** 可以——使用 `Hyperlink.setScreenTip()` 显示悬停提示文本。
 
-## 如何在 Excel 中为图片添加超链接
+## 使用 Aspose.Cells for Java 创建可点击图片的 Excel
 
 ### 前置条件
-在开始之前，请确保你已经具备：
+在开始之前，请确保您已具备：
 
 - **Aspose.Cells for Java**（v25.3 或更高）。  
 - 已安装 **JDK 8+**。  
@@ -61,15 +62,15 @@ weight: 1
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### 授权获取
-Aspose.Cells 为商业产品，但你可以先使用免费试用或申请临时授权：
+### 许可证获取
+Aspose.Cells 为商业软件，但您可以先使用免费试用或申请临时许可证：
 
 - 免费试用：从 [Aspose Downloads](https://releases.aspose.com/cells/java/) 下载。  
-- 临时授权：通过 [Temporary License page](https://purchase.aspose.com/temporary-license/) 申请。  
-- 正式购买：长期使用请访问 [Aspose Purchase](https://purchase.aspose.com/buy)。
+- 临时许可证：通过 [Temporary License page](https://purchase.aspose.com/temporary-license/) 申请。  
+- 购买：长期使用请访问 [Aspose Purchase](https://purchase.aspose.com/buy)。
 
 ### 基本初始化
-创建工作簿并获取第一张工作表：
+创建工作簿并获取第一个工作表：
 
 ```java
 import com.aspose.cells.Workbook;
@@ -83,7 +84,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 ## 步骤实现
 
 ### 步骤 1：准备工作簿
-我们先创建一个新工作簿并选取第一张工作表。
+我们先创建一个新工作簿并选取第一个工作表。
 
 ```java
 import com.aspose.cells.Workbook;
@@ -136,43 +137,49 @@ hlink.setScreenTip("Click to go to Aspose site");
 workbook.save("AIHyperlinks_out.xls");
 ```
 
-## 故障排除提示
+## 为什么要添加超链接图片？
+将可点击图片嵌入 Excel 可将品牌元素、图标或示意图转化为直接导航点。这在营销仪表盘、技术手册和教学工作表中能提升用户体验，减少访问相关内容的点击次数。
+
+## 如何添加屏幕提示
+`setScreenTip` 方法可定义用户将光标悬停在图片上时显示的提示文字。非常适合提供上下文，例如 “查看产品详情” 或 “打开教程视频”。
+
+## 故障排除技巧
 - **图片路径错误**——请再次确认文件位置并确保应用拥有读取权限。  
-- **授权未生效**——如果试用期过期，超链接可能失效；请使用 `License.setLicense` 加载有效授权。  
-- **超链接不可点击**——请检查图片的 `PlacementType` 是否已设为 `FREE_FLOATING`。
+- **许可证未生效**——试用期结束后，超链接可能失效；请使用 `License.setLicense` 加载有效许可证。  
+- **超链接不可点击**——检查图片的 `PlacementType` 是否已设置为 `FREE_FLOATING`。
 
 ## 实际应用场景
-在许多场景下嵌入可点击图片非常有用：
+将可点击图片嵌入 Excel 在以下情形中非常有用：
 
 1. **营销报告**——将品牌标志链接到产品页面。  
-2. **技术文档**——附加可打开详细原理图的图示。  
-3. **教学工作表**——将图标转换为补充视频的快捷入口。  
+2. **技术文档**——为图示添加打开详细原理图的链接。  
+3. **教学工作表**——将图标设为补充视频的快捷入口。  
 4. **项目仪表盘**——让状态图标打开相关任务跟踪器。
 
 ## 性能考虑
-- 保持图片文件大小适中；大图片会增加工作簿的内存占用。  
-- 在循环处理大量文件时，使用 `workbook.dispose()` 释放不再使用的对象。  
-- 升级到最新的 Aspose.Cells 版本以获得性能提升和 bug 修复。
+- 控制图片文件大小；大图片会增加工作簿内存占用。  
+- 在循环处理大量文件时，使用 `workbook.dispose()` 释放未使用的对象。  
+- 升级至最新的 Aspose.Cells 版本以获得性能提升和 bug 修复。
 
- 结论
-现在你已经掌握了**如何使用 Aspose.Cells for Java 在 Excel 中为图片添加超链接**，能够创建更丰富、更具交互性的电子表格。尝试不同的 URL、屏幕提示和图片放置方式，以满足你的报表需求。接下来，你可以探索为形状添加超链接，或在多个工作表中批量插入图片。
+## 结论
+现在您已经掌握了 **如何使用 Aspose.Cells for Java 为 Excel 中的图片添加超链接**，从而创建更丰富、更具交互性的 **可点击图片的 Excel** 工作簿。请尝试不同的 URL、屏幕提示和图片放置方式，以满足您的报表需求。接下来，您可以探索为形状添加超链接或在多个工作表中批量插入图片的自动化方案。
 
 ## 常见问题
 
-**Q:** Aspose.Cells for Java 支持的最大图片尺寸是多少？  
-**A:** 没有严格限制，但极大的图片会影响性能并增大文件体积。
+**问：** Aspose.Cells for Java 支持的最大图片尺寸是多少？  
+**答：** 没有严格限制，但极大的图片会影响性能并增大文件体积。
 
-**Q:** 该功能能在 .xlsx 文件中使用吗？  
-**A:** 能，API 同时支持 `.xls` 和 `.xlsx` 格式。
+**问：** 该功能可以在 .xlsx 文件中使用吗？  
+**答：** 可以，API 同时支持 `.xls` 和 `.xlsx` 格式。
 
-**Q:** 添加超链接时应如何处理异常？  
-**A:** 将代码放在 try‑catch 块中，并记录 `Exception` 细节以诊断路径或授权问题。
+**问：** 添加超链接时应如何处理异常？  
+**答：** 将代码放在 try‑catch 块中，记录 `Exception` 详情以诊断路径或授权问题。
 
-**Q:** 添加后能否删除图片的超链接？  
-**A:** 能——获取 `Picture` 对象后调用 `pic.getHyperlink().remove()`，或直接从集合中删除该图片。
+**问：** 是否可以在图片添加超链接后将其移除？  
+**答：** 可以——获取 `Picture` 对象后调用 `pic.getHyperlink().remove()`，或直接从集合中删除该图片。
 
-**Q:** 为什么我的超链接没有按预期工作？  
-**A:** 常见原因包括 URL 字符串错误、缺少 `http://`/`https://` 前缀，或未授权的试用版禁用了某些功能。
+**问：** 为什么我的超链接没有按预期工作？  
+**答：** 常见原因包括 URL 字符串错误、缺少 `http://`/`https://` 前缀，或未授权的试用版禁用了部分功能。
 
 ## 其他资源
 - **文档：** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
@@ -182,7 +189,7 @@ workbook.save("AIHyperlinks_out.xls");
 
 ---
 
-**最后更新：** 2025-12-10  
+**最后更新：** 2026-02-16  
 **测试环境：** Aspose.Cells for Java 25.3  
 **作者：** Aspose
 

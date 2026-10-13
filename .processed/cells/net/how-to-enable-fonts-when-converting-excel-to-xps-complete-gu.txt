@@ -1,0 +1,7 @@
+Title: How to Enable Fonts When Converting Excel to XPS – Complete Guide
+Slug: how-to-enable-fonts-when-converting-excel-to-xps-complete-gu
+Category: xps-and-pdf-operations
+ProcessedDate: 2026-07-04T03:38:25.992809
+SourceRepo: AI Search API
+Keywords: how to enable fonts, convert excel to xps
+PRNumber: 112
