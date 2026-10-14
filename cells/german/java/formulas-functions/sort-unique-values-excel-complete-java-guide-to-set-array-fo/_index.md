@@ -38,24 +38,6 @@ schemas:
   - name: Non‑Contiguous Data
     text: 'When your data lives in multiple columns, you can join them with `CHOOSE`
       or `TEXTJOIN` before applying `UNIQUE`. For example:'
-  - name: ' ## What Should You Learn Next?
-
-
-      The following tutorials cover closely related topics that build on the techniques
-      demonstrated in this guide. Each resource includes complete working code examples
-      with step-by-step explanations to help you master additional API features and
-      explore alternative implementation approaches in your own projects.
-
-      - [How to Sort Excel Files by Cell Color Using Aspose.Cells Java&#58; A Comprehensive
-      Guide](/cells/english/java/data-analysis/excel-file-sorting-aspose-cells-java/)
-      - [Mastering Aspose.Cells Java&#58; How to Interrupt Formula Calculation in
-      Excel Workbooks](/cells/english/java/calculation-engine/master-aspose-cells-java-interrupt-formula-calculation-workbook/)
-      - [How to Create an Excel Data Validation List with Aspose.Cells for Java&#58;
-      A Step-by-Step Guide](/cells/english/java/data-validation/excel-data-validation-aspose-cells-java/)
-
-      {{< /blocks/products/pf/tutorial-page-section >}}'
-    text: '{{< /blocks/products/pf/main-container >}} {{< /blocks/products/pf/main-wrap-class
-      >}} {{< blocks/products/products-backtop-button >}}'
   type: HowTo
 - questions:
   - answer: The `SORT` and `UNIQUE` functions are part of the Dynamic Array engine
@@ -69,8 +51,7 @@ schemas:
     question: Can I set the array formula on a range other than `A1`?
   - answer: 'Replace the static range with a dynamic one, e.g., `B:B` or a named range.
       The formula becomes `=SORT(UNIQUE(B:B))`. Be cautious with whole‑column references
-      on very large sheets; they can impact performance. --- ## Conclusion We’ve just
-      covered **how to set formula** in Java to **sort unique values'
+      on very large sheets; they can impact performance.'
     question: What if my source data is larger than `B1:B10`?
   type: FAQPage
 tags:
@@ -337,9 +318,13 @@ Ab hier können Sie weiter ausbauen – bedingte Formatierung hinzufügen, nach 
 
 Bereit, Ihre Excel‑Automatisierung auf das nächste Level zu heben? Probieren Sie `SORT` gegen `SORTBY` aus, um nach einer zweiten Spalte zu sortieren, oder experimentieren Sie mit `FILTER`, um Zeilen auszuschließen, die nicht den Geschäftsregeln entsprechen. Die Möglichkeiten sind praktisch unbegrenzt.
 
----
+## What Should You Learn Next?
 
-###
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
+
+- [How to Sort Excel Files by Cell Color Using Aspose.Cells Java&#58; A Comprehensive Guide](/cells/english/java/data-analysis/excel-file-sorting-aspose-cells-java/)
+- [Mastering Aspose.Cells Java&#58; How to Interrupt Formula Calculation in Excel Workbooks](/cells/english/java/calculation-engine/master-aspose-cells-java-interrupt-formula-calculation-workbook/)
+- [How to Create an Excel Data Validation List with Aspose.Cells for Java&#58; A Step-by-Step Guide](/cells/english/java/data-validation/excel-data-validation-aspose-cells-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
