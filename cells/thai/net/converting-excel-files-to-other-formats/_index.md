@@ -81,13 +81,6 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 ### [แปลง Excel เป็น Word – คู่มือเต็มด้วย C#](./convert-excel-to-word-complete-guide-with-c/)
 เรียนรู้วิธีแปลงไฟล์ Excel เป็น Word ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือเต็มขั้นตอน
 
-
-
-
-
-
-
-
 ### [สร้าง PPT จาก Excel – คู่มืออัตโนมัติเต็มรูปแบบ C#](./create-ppt-from-excel-full-c-automation-guide/)
 เรียนรู้วิธีสร้างไฟล์ PPT จากข้อมูล Excel ด้วย C# โดยใช้ Aspose.Cells อย่างละเอียดและครบถ้วน
 ### [สร้างสมุดงานใหม่ – ส่งออก Excel เป็น TXT ด้วยความแม่นยำเต็มรูปแบบ](./create-new-workbook-export-excel-to-txt-with-full-precision/)
@@ -97,6 +90,10 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 
 ### [บันทึก Excel เป็น txt – คำแนะนำ C# ฉบับสมบูรณ์เพื่อส่งออกตัวเลขพร้อมหลักสำคัญ](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 เรียนรู้วิธีบันทึกไฟล์ Excel เป็น txt ด้วย C# โดยรักษาความแม่นยำของตัวเลขสำคัญในขั้นตอนง่ายๆ
+### [วิธีบันทึก Excel เป็น TXT ด้วย Aspose.Cells ใน C#](./how-to-save-excel-as-txt-using-aspose-cells-in-c/)
+เรียนรู้วิธีบันทึกไฟล์ Excel เป็นรูปแบบ TXT ด้วย C# โดยใช้ Aspose.Cells อย่างละเอียด
+### [สร้าง PowerPoint จาก Excel – คู่มืออัตโนมัติเต็มรูปแบบ C#](./create-ppt-from-excel-full-c-automation-guide/)
+เรียนรู้วิธีสร้างไฟล์ PPT จากข้อมูล Excel ด้วย C# โดยใช้ Aspose.Cells อย่างละเอียดและครบถ้วน
 ### [สร้าง PowerPoint จาก Excel – คำแนะนำ C# ฉบับสมบูรณ์](./create-powerpoint-from-excel-complete-c-tutorial/)
 เรียนรู้วิธีสร้างไฟล์ PowerPoint จากข้อมูล Excel ด้วย Aspose.Cells สำหรับ .NET ด้วยคำแนะนำ C# ขั้นตอนเต็มรูปแบบ
 ### [วิธีส่งออก Excel ไปยัง PowerPoint – คำแนะนำขั้นตอนต่อขั้นตอน](./how-to-export-excel-to-powerpoint-step-by-step-guide/)

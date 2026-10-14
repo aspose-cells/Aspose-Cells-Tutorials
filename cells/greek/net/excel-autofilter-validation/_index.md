@@ -56,6 +56,8 @@
 Μάθετε πώς να κρύψετε τα βέλη φίλτρου στο Excel χρησιμοποιώντας C# και Aspose.Cells, βελτιώνοντας την εμφάνιση των φύλλων σας.
 ### [Προσθήκη Πίνακα στο Excel με C# – Καθαρισμός Autofilter και Αποθήκευση Αρχείου](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
 Μάθετε πώς να προσθέσετε πίνακα στο Excel, να καθαρίσετε το Autofilter και να αποθηκεύσετε το αρχείο χρησιμοποιώντας Aspose.Cells για .NET.
+### [Αφαίρεση Αυτόματου Φίλτρου στο Excel με C# – βήμα‑βήμα οδηγός](./remove-autofilter-in-excel-with-c-step-by-step-guide/)
+Μάθετε πώς να αφαιρέσετε το αυτόματο φίλτρο από το Excel βήμα‑βήμα, χρησιμοποιώντας Aspose.Cells σε .NET με C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

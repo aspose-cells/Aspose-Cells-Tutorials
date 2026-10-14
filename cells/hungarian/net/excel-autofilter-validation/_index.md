@@ -40,16 +40,10 @@ Tanulja meg, hogyan távolíthatja el az AutoFilter-t Excelből C#-ban az Aspose
 Ismerje meg, hogyan nyerheti ki az első táblázatot egy Excel munkafüzetből C#-ban az Aspose.Cells segítségével.
 ### [Hogyan használjuk az AutoFilter-t C# Excel automatizálásban – Teljes lépésről‑lépésre útmutató](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
 Ismerje meg, hogyan alkalmazhatja az AutoFilter-t C#-ban az Excel automatizálás során részletes, lépésről‑lépésre útmutatóval.
-
-
-
-
-
-
-
-
-### [Autofilter eltávolítása Excelben C#‑ban – Teljes lépésről‑lépésre útmutató](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
+### [AutoFilter eltávolítása Excelben C#‑ban – Teljes lépésről‑lépésre útmutató](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Ismerje meg, hogyan távolíthatja el az autofiltert Excel fájlokból C#‑ban az Aspose.Cells segítségével, részletes, lépésről‑lépésre útmutatóval.
+### [AutoFilter eltávolítása Excelben C#‑ban – lépésről‑lépésre útmutató](./remove-autofilter-in-excel-with-c-step-by-step-guide/)
+Ismerje meg, hogyan távolíthatja el az AutoFilter‑t Excelben C#‑ban, részletes lépésről‑lépésre útmutatóval.
 ### [Szűrő felület törlése Excelben C#-val – AutoFilter gomb eltávolítása](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 Tanulja meg, hogyan távolíthatja el az AutoFilter gombot és tisztíthatja meg a szűrő felületet Excelben C# használatával.
 ### [Szűrőnyilak elrejtése Excelben C#-val – Teljes útmutató](./hide-filter-arrows-excel-with-c-complete-guide/)

@@ -50,6 +50,8 @@ Aprenda a aplicar AutoFilter en Excel mediante C# con Aspose.Cells, siguiendo un
 
 ### [Eliminar autofiltro en Excel con C# – Guía completa paso a paso](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Aprenda a quitar el autofiltro de una hoja de Excel usando Aspose.Cells en .NET con una guía detallada paso a paso.
+### [Eliminar AutoFiltro en Excel con C# – guía paso a paso](./remove-autofilter-in-excel-with-c-step-by-step-guide/)
+Aprenda a eliminar el AutoFiltro de una hoja de Excel con Aspose.Cells en .NET mediante una guía paso a paso.
 ### [Eliminar la interfaz de filtro en Excel con C# – Quitar el botón AutoFilter](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 Aprenda a ocultar el botón AutoFilter en Excel usando Aspose.Cells con C# para una interfaz más limpia.
 ### [Ocultar flechas de filtro en Excel con C# – Guía completa](./hide-filter-arrows-excel-with-c-complete-guide/)

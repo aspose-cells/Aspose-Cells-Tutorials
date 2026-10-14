@@ -91,16 +91,8 @@ Så varför inte ta chansen att förbättra dina Excel-kunskaper? Varje handledn
 | [Skapa Excel-arbetsbok C# – Komplett guide med Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | Lär dig steg för steg hur du skapar en Excel-arbetsbok i C# med Aspose.Cells. |  
 | [Skapa Excel-arbetsbok i C# – Komplett programmeringsguide](./create-excel-workbook-in-c-complete-programming-guide/) | Lär dig steg-för-steg hur du skapar en Excel-arbetsbok i C# med Aspose.Cells för .NET. |
 | [Skapa Excel-arbetsbok i C# – Fullständig guide med Expand-funktion](./create-excel-workbook-c-full-guide-with-expand-function/) | Lär dig steg för steg hur du skapar en Excel-arbetsbok i C# med Expand-funktionen med Aspose.Cells för .NET. |  
-
-
-
-
-
-
-
-
-| [Skapa ny arbetsbok i C# – Lägg till formel och spara Excel-fil](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Lär dig hur du skapar en ny arbetsbok, lägger till en formel och sparar filen med Aspose.Cells för .NET. |
 | [Skapa Excel-arbetsbok C# – Generera XLSX från JSON](./create-excel-workbook-c-generate-xlsx-from-json/) | Lär dig hur du skapar en Excel-arbetsbok i C# och genererar en XLSX-fil från JSON-data med Aspose.Cells för .NET. |
+| [Skapa Excel-arbetsbok och lägg till datum i kalkylblad i C#](./create-excel-workbook-and-add-date-to-worksheet-in-c/) | Lär dig hur du skapar en Excel-arbetsbok och lägger till ett datum i ett kalkylblad med Aspose.Cells för .NET i C#. |
 | [Skapa Excel-arbetsbok C# – Steg‑för‑steg‑guide för att skriva datum och spara som XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Lär dig hur du skapar en Excel-arbetsbok i C#, skriver datum och sparar den som en XLSX-fil med Aspose.Cells för .NET. |
 | [Skapa Excel-arbetsbok i C# – Steg‑för‑steg‑guide](./create-excel-workbook-in-c-step-by-step-guide/) | Lär dig hur du skapar en Excel-arbetsbok i C# med Aspose.Cells för .NET i en detaljerad steg‑för‑steg‑guide. |  
 | [Skapa Excel-arbetsbok C# – Steg‑för‑steg‑guide](./create-excel-workbook-c-step-by-step-guide/) | Lär dig hur du skapar en Excel-arbetsbok i C# med en detaljerad steg‑för‑steg‑guide. |  

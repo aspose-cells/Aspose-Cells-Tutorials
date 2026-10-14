@@ -107,8 +107,8 @@ Aprenda a generar documentos Word a partir de datos de Excel usando Aspose.Cells
 ### [Convertir Excel a PowerPoint – Guía paso a paso en C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
 Aprenda a convertir archivos de Excel a presentaciones de PowerPoint usando Aspose.Cells para .NET con una guía paso a paso en C#.
 ### [Guardar Excel como Texto – Guía completa en C# para exportar Excel a TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
-Aprenda a guardar hojas de Excel como archivos de texto (TXT) usando Aspose.Cells para .NET con esta guía paso a paso.
-### [Crear PowerPoint desde Excel – Tutorial completo en C#](./create-powerpoint-from-excel-complete-c-tutorial/)
+Aprenda a guardar hojas de Excel como archivos txt en C#, conservando los dígitos significativos de los números.
+### [Crear PowerPoint a partir de Excel – Tutorial completo en C#](./create-powerpoint-from-excel-complete-c-tutorial/)
 Aprenda a generar presentaciones PowerPoint a partir de archivos Excel usando Aspose.Cells y C# en esta guía paso a paso.
 ### [Cómo exportar Excel a PowerPoint – Guía paso a paso](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
 Aprenda a exportar datos de Excel a presentaciones PowerPoint mediante Aspose.Cells para .NET con esta guía paso a paso.
@@ -124,6 +124,9 @@ Aprenda a guardar un archivo DOCX desde Excel y exportar gráficos a Word usando
 
 ### [Cómo exportar Excel a PowerPoint – Guía completa en C#](./how-to-export-excel-to-powerpoint-complete-c-guide/)
 Aprenda a exportar hojas de Excel a presentaciones PowerPoint usando Aspose.Cells y C#, paso a paso con ejemplos de código.
+
+### [Cómo guardar Excel como TXT usando Aspose.Cells en C#](./how-to-save-excel-as-txt-using-aspose-cells-in-c/)
+Aprenda a guardar hojas de Excel como archivos TXT usando Aspose.Cells para .NET con esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

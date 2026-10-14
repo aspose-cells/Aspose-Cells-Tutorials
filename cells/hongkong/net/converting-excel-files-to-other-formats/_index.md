@@ -108,13 +108,12 @@ Aspose.Cells for .NET 簡化了文件轉換，讓開發人員可以自動化流�
 
 ### [將 Excel 儲存為文字 – 完整 C# 教學：將 Excel 匯出為 TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
 本教學說明如何使用 Aspose.Cells for .NET 以 C# 將 Excel 工作表匯出為純文字 (TXT) 檔案。
-### [在 .NET 中以程式設計方式從 Excel 建立 Word – 快速 C# 指南](./create-word-from-excel-quick-c-guide/)
-本快速指南說明如何使用 Aspose.Cells for .NET 以 C# 將 Excel 工作表匯出為 Word 文件，提供簡潔的程式碼範例。
-
 ### [將 Excel 儲存為 txt – 完整 C# 教學：匯出具有有效位數的數字](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 本教學說明如何使用 Aspose.Cells for .NET 將 Excel 工作表儲存為 txt 檔，並確保數字以完整有效位數匯出。
 ### [在 .NET 中以程式設計方式匯出 Excel 為制表符分隔文字指南](./how-to-export-excel-tab-delimited-text-guide/)
 本教學說明如何使用 Aspose.Cells for .NET 將 Excel 工作表匯出為制表符分隔的文字檔案。
+### [在 .NET 中以程式設計方式將 Excel 儲存為 TXT](./how-to-save-excel-as-txt-using-aspose-cells-in-c/)
+本教學說明如何使用 Aspose.Cells for .NET 以 C# 將 Excel 工作表儲存為純文字 (TXT) 檔案。
 ### [如何將 Excel 匯出至 PowerPoint – 完整 C# 指南](./how-to-export-excel-to-powerpoint-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

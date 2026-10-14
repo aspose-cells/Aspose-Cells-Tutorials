@@ -50,6 +50,10 @@ Aspose.Cells के साथ C# में Excel ऑटोफ़िल्टर 
 
 ### [C# में Excel से ऑटोफ़िल्टर हटाएँ – पूर्ण चरण‑दर‑चरण गाइड](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Aspose.Cells for .NET का उपयोग करके C# में Excel से ऑटोफ़िल्टर हटाने की पूरी चरण‑दर‑चरण गाइड।
+
+### [C# के साथ Excel में ऑटोफ़िल्टर हटाएँ – चरण‑दर‑चरण गाइड](./remove-autofilter-in-excel-with-c-step-by-step-guide/)
+C# और Aspose.Cells का उपयोग करके Excel से ऑटोफ़िल्टर हटाने की चरण‑दर‑चरण प्रक्रिया।
+
 ### [C# के साथ Excel में फ़िल्टर UI साफ़ करें – ऑटोफ़िल्टर बटन हटाएँ](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 C# में Aspose.Cells का उपयोग करके Excel से ऑटोफ़िल्टर बटन हटाने और फ़िल्टर UI को साफ़ करने की प्रक्रिया सीखें।
 ### [C# के साथ Excel में फ़िल्टर एरो छिपाएँ – पूर्ण गाइड](./hide-filter-arrows-excel-with-c-complete-guide/)

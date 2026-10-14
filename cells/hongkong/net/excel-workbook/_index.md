@@ -85,10 +85,11 @@ Excel 工作表中定義的名稱可以是管理資料的便捷方式。它們�
 | [使用內容類型屬性](./working-with-content-type-properties/) |了解如何使用 Aspose.Cells for .NET 處理內容類型屬性以增強 Excel 元資料管理。請按照這個簡單的逐步指南進行操作。 |  
 | [Xades 簽名支持](./xades-signature-support/) |透過本逐步指南了解如何使用 Aspose.Cells for .NET 將 Xades 簽章新增至 Excel 檔案。保護您的文件。 |  
 | [建立新工作簿 C# – 逐步指南（含溢位公式）](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) |本分步教學示範如何使用 Aspose.Cells for .NET 在 C# 中建立新工作簿，並支援溢位公式。 |  
+| [在 C# 中建立 Excel 工作簿並新增日期](./create-excel-workbook-and-add-date-to-worksheet-in-c/) |了解如何使用 Aspose.Cells for .NET 在 C# 中建立 Excel 工作簿並將日期寫入工作表。 |  
 | [在 C# 中建立主工作表 – 完整 Aspose.Cells 指南](./create-master-sheet-in-c-complete-aspose-cells-guide/) |了解如何使用 Aspose.Cells for .NET 在 C# 中建立主工作表，完整指南一步步教您操作。 |  
 | [使用 C# 建立 Excel 工作簿 – 完整的 EXPAND 使用指南](./create-excel-workbook-with-c-complete-guide-to-using-expand/) |本完整指南說明如何在 C# 中使用 Aspose.Cells for .NET 的 EXPAND 功能建立 Excel 工作簿。 |
 | [使用 Aspose.Cells 建立 Excel 工作簿 C# 完整指南](./create-excel-workbook-c-complete-guide-with-aspose-cells/) |本完整指南示範如何使用 Aspose.Cells for .NET 於 C# 中建立 Excel 工作簿，涵蓋所有關鍵步驟與範例。 |  
-| [使用 C# 建立 Excel 工作簿 – 完整程式設計指南](./create-excel-workbook-in-c-complete-programming-guide/) |本完整指南示範如何使用 Aspose.Cells for .NET 在 C# 中從頭建立 Excel 工作簿，涵蓋所有關鍵步驟與範例程式碼。 |  
+| [使用 C# 建立 Excel 工作簿 – 完整程式設計指南](./create-excel-workbook-in-c-complete-programming-guide/) |本完整指南示範如何使用 Aspose.Cells for .NET 在 C# 中建立 Excel 工作簿，涵蓋所有關鍵步驟與範例程式碼。 |  
 | [建立 Excel 工作簿 C# – 完整指南與展開功能](./create-excel-workbook-c-full-guide-with-expand-function/) |透過本完整步驟教學，使用 Aspose.Cells for .NET 在 C# 中建立 Excel 工作簿，並加入展開功能以提升使用者體驗。 |  
 
 
