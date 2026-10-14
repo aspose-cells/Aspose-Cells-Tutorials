@@ -1,0 +1,7 @@
+Title: How to Embed Fonts in HTML from Excel – Full Guide
+Slug: how-to-embed-fonts-in-html-from-excel-full-guide
+Category: excel-import-export
+ProcessedDate: 2026-07-04T05:23:13.024206
+SourceRepo: AI Search API
+Keywords: how to embed fonts, embed fonts in html, export excel to html, convert xlsx to html, how to export excel
+PRNumber: 113

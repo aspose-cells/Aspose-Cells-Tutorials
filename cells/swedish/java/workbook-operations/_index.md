@@ -221,6 +221,9 @@ En kodhandledning för Aspose.Words Java
 ### [Skapa och anpassa Excel-arbetsböcker med Aspose.Cells Java: En steg-för-steg-guide](./create-customize-excel-workbooks-aspose-cells-java/)
 Lär dig hur du automatiserar skapandet och anpassningen av Excel-arbetsböcker med Aspose.Cells för Java. Öka produktiviteten genom att bemästra arbetsboksoperationer.
 
+### [Skapa Excel-arbetsbok i Java – Komplett steg‑för‑steg‑guide](./create-excel-workbook-java-complete-step-by-step-guide/)
+Lär dig hur du skapar en Excel-arbetsbok i Java med Aspose.Cells genom en detaljerad steg‑för‑steg‑guide.
+
 ### [Hur man skapar och sammanfogar Excel-arbetsböcker med Aspose.Cells för Java | Komplett guide](./create-merge-excel-workbooks-aspose-cells-java/)
 Lär dig hur du effektivt skapar och sammanfogar Excel-arbetsböcker med Aspose.Cells för Java med den här omfattande guiden. Effektivisera dina arbetsboksoperationer idag.
 
@@ -453,7 +456,7 @@ Lär dig hur du öppnar och manipulerar TSV-filer i Java med hjälp av Aspose.Ce
 Lär dig hur du konfigurerar Aspose.Cells för Java för att hoppa över dolda kalkylblad under export, vilket säkerställer tydliga och koncisa datautdata.
 
 ### [Läs och konvertera CSV-filer effektivt med Aspose.Cells Java](./read-and-convert-csv-aspose-cells-java/)
-Lär dig hur du sömlöst läser multikodade CSV-filer och konverterar dem till Excel-format med hjälp av Aspose.Cells för Java, med steg-för-steg-vägledning.
+Lär dig hur du sömlöst läser multikodade CSV-filer och konverterar dem till Excel-format med Aspose.Cells för Java, med steg-för-steg-vägledning.
 
 ### [Konvertera Excel till PNG, TIFF och PDF i Java med Aspose.Cells](./render-excel-as-png-tiff-pdf-aspose-cells-java/)
 Lär dig hur du konverterar Excel-filer till bilder (PNG, TIFF) eller PDF-filer med Aspose.Cells för Java. Följ den här steg-för-steg-guiden för att förbättra rapportdelning.
@@ -479,6 +482,16 @@ Lär dig hur du smidigt sparar Excel-filer i flera format med Aspose.Cells för 
 ### [Så här ställer du in Excel-dokumentversion med Aspose.Cells för Java](./set-excel-version-aspose-cells-java/)
 Lär dig hur du ställer in och hanterar dokumentegenskaper som versionshantering i Excel-filer med Aspose.Cells för Java. Följ den här steg-för-steg-guiden för effektiv arbetsbokshantering.
 
+### [Spara arbetsbok som XLSX i Java – Komplett programmeringsguide](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
+Lär dig hur du sparar en Excel-arbetsbok som XLSX i Java med Aspose.Cells, inklusive kodexempel och bästa praxis.
+
+### [Spara arbetsbok till fil – Komplett Java-guide för att kopiera Excel-områden](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
+Lär dig hur du sparar en arbetsbok till fil och kopierar Excel-områden med Aspose.Cells för Java i en komplett guide.
+
+### [Hur man lägger till anpassad egenskap i Excel (Java) – Hämta värde och spara som XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
+Lär dig hur du lägger till en anpassad egenskap i en Excel-arbetsbok med Aspose.Cells för Java, hämtar dess värde och sparar filen som XLSB.
+### [Skapa arbetsbok med japansk kalender – Komplett Java-handledning](./create-workbook-japanese-calendar-complete-java-tutorial/)
+Lär dig hur du skapar en arbetsbok med japansk kalender i Java med Aspose.Cells, inklusive datumformat och lokalanpassning.
 ### [Skapa XLSB-arbetsbok programatiskt – Fullständig Java-guide](./create-xlsb-workbook-programmatically-full-java-guide/)
 
 ## Ytterligare resurser
@@ -489,6 +502,8 @@ Lär dig hur du ställer in och hanterar dokumentegenskaper som versionshanterin
 - [Gratis support](https://forum.aspose.com/)
 - [Tillfällig licens](https://purchase.aspose.com/temporary-license/)
 
+### [Skapa ny arbetsbok i Java – Steg‑för‑steg‑guide](./create-new-workbook-in-java-step-by-step-guide/)
+Lär dig hur du skapar en ny Excel-arbetsbok i Java med Aspose.Cells steg för steg.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

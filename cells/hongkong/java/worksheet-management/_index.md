@@ -32,6 +32,9 @@
 ### [如何使用 Aspose.Cells for Java 在 Excel 中新增工作表：完整指南](./add-spreadsheets-excel-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 以程式設計方式將工作表新增至 Excel 檔案。本指南涵蓋設定、實施和實際應用。
 
+### [使用 Java 在 Excel 中建立多個工作表 – 完整範本指南](./create-multiple-sheets-in-excel-with-java-complete-template/)
+了解如何使用 Aspose.Cells for Java 透過範本一次性建立多個工作表，提升報表生成效率。
+
 ### [如何使用 Aspose.Cells for Java 在 Excel 中插入列 - 綜合指南](./aspose-cells-java-insert-column-excel/)
 掌握使用 Aspose.Cells for Java 將列插入 Excel 工作表。按照此詳細指南可以自動產生報表並增強資料管理。
 
@@ -59,6 +62,9 @@ Aspose.Words Java 程式碼教程
 ### [掌握 Aspose.Cells Java：利用智慧標記取得工作表中的動態數據](./aspose-cells-java-smart-markers-worksheets/)
 了解如何使用帶有智慧標記的 Aspose.Cells for Java 自動產生 Excel 檔案。立即簡化資料管理並優化您的工作流程。
 
+### [如何使用 SmartMarkerProcessor 進行動態工作表命名](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
+了解如何使用 Aspose.Cells for Java 的 SmartMarkerProcessor 動態設定工作表名稱，以自動化報表生成。
+
 ### [掌握 Aspose.Cells Java：工作簿和工作表管理綜合指南](./aspose-cells-java-workbook-worksheet-guide/)
 了解如何使用 Aspose.Cells for Java 管理 Excel 工作簿。本指南涵蓋工作簿實例、工作表存取、頁面設定、列印標題等。
 
@@ -73,6 +79,9 @@ Aspose.Words Java 程式碼教程
 
 ### [如何使用 Aspose.Cells for Java 刪除 Excel 中的行 |指南和教學課程](./delete-row-excel-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 有效地從 Excel 檔案中刪除行。本指南涵蓋設定、程式碼範例和實際應用。
+
+### [使用 Java 在工作表中刪除行 – 完整指南](./delete-rows-in-worksheet-with-java-complete-guide/)
+了解如何使用 Aspose.Cells for Java 在 Excel 工作表中刪除多行，提供完整步驟與最佳實踐。
 
 ### [使用 Java 中的 Aspose.Cells 管理 Excel 標籤可見性](./display-excel-tabs-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 顯示或隱藏 Excel 標籤。本指南涵蓋有效工作表管理的設定、程式碼實施和最佳實務。

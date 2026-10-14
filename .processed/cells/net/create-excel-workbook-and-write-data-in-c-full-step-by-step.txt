@@ -1,0 +1,7 @@
+Title: Create Excel Workbook and Write Data in C# – Full Step‑by‑Step Guide
+Slug: create-excel-workbook-and-write-data-in-c-full-step-by-step
+Category: excel-workbook
+ProcessedDate: 2026-07-04T03:37:48.747878
+SourceRepo: AI Search API
+Keywords: create excel workbook and write data, generate excel file programmatically, put value into specific excel cell, save excel workbook to directory
+PRNumber: 112

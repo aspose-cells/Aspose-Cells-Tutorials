@@ -47,7 +47,8 @@ Aspose.Cells for Java kullanarak Excel dosyalarındaki gömülü PowerPoint nesn
 ### [Aspose.Cells Java ile Excel'den ActiveX Denetimlerini Kaldırın](./remove-activex-controls-excel-aspose-cells-java/)
 Aspose.Words Java için bir kod eğitimi
 
-
+### [Yazı Tiplerini Gömme – HTML, XPS ve OLE Dışa Aktarım İçin Tam Kılavuz](./how-to-embed-fonts-complete-guide-for-html-xps-and-ole-expor/)
+HTML, XPS ve OLE dışa aktarma sırasında yazı tiplerini nasıl gömeceğinizi adım adım gösteren kapsamlı bir rehber.
 
 ## Ek Kaynaklar
 

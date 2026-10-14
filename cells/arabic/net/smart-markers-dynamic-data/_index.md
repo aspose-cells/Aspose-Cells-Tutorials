@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # العلامات الذكية في Aspose.Cells للبيانات الديناميكية
@@ -37,6 +35,9 @@
 ## التعامل مع الكائنات المتداخلة في العلامات الذكية
 قد يكون التعامل مع البيانات الهرمية في Excel أمرًا صعبًا. مع ذلك، باستخدام Aspose.Cells، تُمكّنك العلامات الذكية من إدارة الكائنات المتداخلة لمعالجة هياكل البيانات المعقدة دون فقدان الوضوح. يوضح هذا الدليل كيفية استخدام العلامات الذكية للكائنات المتداخلة، مما يساعدك على عرض بيانات مفصلة بدقة في تقاريرك. [اقرأ المزيد](./nested-objects-smart-markers/)
 
+### [تمكين خيار النطاق المتداخل في Aspose.Cells SmartMarker](./enable-nested-range-option-in-aspose-cells-smartmarker/)
+تعلم تمكين خيار النطاق المتداخل في Smart Markers لتسهيل معالجة البيانات المتداخلة في تقارير Excel.
+
 ## تطبيق سمة نمط النسخ في العلامات الذكية
 غالبًا ما يتطلب إنشاء تقارير احترافية تنسيقًا محددًا. تُسهّل خاصية "نسخ النمط" في Aspose.Cells Smart Markers نسخ أنماط متسقة من القوالب مباشرةً إلى جداول بيانات Excel المُنشأة. يُقدّم هذا البرنامج التعليمي شرحًا خطوة بخطوة لاستخدام هذه الميزة، مما يضمن ظهور تقاريرك بشكل أنيق ومتناسق. [اقرأ المزيد](./copy-style-attribute-smart-markers/)
 
@@ -56,6 +57,13 @@
 تتيح مرونة القوائم العامة للمطورين التعامل مع البيانات بطريقة منظمة دون التأثير على الأداء. في هذا البرنامج التعليمي، ستتعلم كيفية الاستفادة من القوائم العامة مع العلامات الذكية لإنشاء تقارير Excel قوية وديناميكية. يضمن هذا النهج سهولة التعامل مع مجموعات البيانات مع الحفاظ على سلامة النوع والأداء القوي في تطبيقاتك. تابع معنا لمعرفة كيف يمكن لهذا أن يُفيد في إنشاء تقاريرك. [اقرأ المزيد](./generic-list-smart-markers/)
 
 ## العلامات الذكية في Aspose.Cells لدروس البيانات الديناميكية
+### [إنشاء مصنف من XLSX باستخدام Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+تعلم كيفية إنشاء مصنف Excel من ملف XLSX باستخدام SmartMarkerProcessor في Aspose.Cells.
+
+### [تحويل JSON إلى Excel باستخدام C# – دليل خطوة بخطوة](./convert-json-to-excel-with-c-step-by-step-guide/)
+
+### [كيفية ربط الأوراق في Excel باستخدام SmartMarker – دليل خطوة بخطوة](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
+
 ### [إضافة تسميات مخصصة باستخدام علامات ذكية في Aspose.Cells](./add-custom-labels-smart-markers/)
 استغلّ إمكانيات Aspose.Cells لـ .NET لإضافة تسميات مخصصة وعلامات ذكية إلى مستندات Excel. اتبع هذا البرنامج التعليمي خطوة بخطوة لإنشاء تقارير ديناميكية وجذابة بصريًا.
 ### [تعبئة البيانات تلقائيًا عبر الأوراق في Aspose.Cells](./auto-populate-data-smart-markers/)
@@ -84,11 +92,82 @@
 قم بإطلاق العنان لإمكانيات إعداد التقارير في Excel باستخدام Aspose.Cells من خلال التعامل مع الكائنات المتداخلة بسهولة باستخدام Smart Markers في دليل خطوة بخطوة.
 ### [تنفيذ مصفوفة متغيرة باستخدام العلامات الذكية Aspose.Cells](./variable-array-smart-markers/)
 استغل قوة Aspose.Cells. تعلّم كيفية تنفيذ مصفوفات المتغيرات باستخدام Smart Markers خطوة بخطوة لإنشاء تقارير Excel بسلاسة.
+### [كيفية إنشاء تقرير Excel في C# – دليل كامل باستخدام SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+تعلم خطوة بخطوة كيفية إنشاء تقارير Excel باستخدام C# وSmartMarker في Aspose.Cells.
+### [إنشاء أوراق عمل ديناميكية باستخدام العلامات الذكية في Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
+### [كيفية كتابة القالب باستخدام العلامات الذكية – دليل خطوة بخطوة](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+تعلم كيفية إنشاء قالب Excel باستخدام العلامات الذكية خطوة بخطوة باستخدام Aspose.Cells لـ .NET.
+### [كيفية استبدال المتغيرات في JSON باستخدام SmartMarker – دليل شامل](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+تعلم كيفية استبدال المتغيرات داخل ملفات JSON باستخدام SmartMarker لإنشاء تقارير Excel ديناميكية بسهولة.
+### [كيفية تحميل القالب وإنشاء تقرير Excel باستخدام العلامة الذكية](./how-to-load-template-and-create-excel-report-with-smartmarke/)
+### [إنشاء جدول Excel ديناميكي – دليل العلامة الذكية](./create-dynamic-excel-table-smart-marker-guide/)
+تعلم كيفية إنشاء جداول Excel ديناميكية باستخدام العلامات الذكية في Aspose.Cells لتوليد تقارير مرنة ومحدثة تلقائيًا.
+### [كيفية استخدام العلامات في Aspose.Cells لتسمية الأوراق ديناميكيًا في Excel](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
+تعلم كيفية تعيين أسماء أوراق Excel تلقائيًا باستخدام العلامات الذكية في Aspose.Cells لإنشاء تقارير مرنة.
+### [إنشاء قيمة خلية شرطية باستخدام علامة Aspose.Cells الذكية](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+تعلم كيفية تعيين قيم خلايا بناءً على شروط باستخدام العلامات الذكية في Aspose.Cells لإنشاء تقارير Excel ديناميكية.
+### [تصدير البيانات إلى Excel باستخدام العلامة الذكية – دليل كامل C#](./export-data-to-excel-with-smart-marker-full-c-guide/)
+تعلم خطوة بخطوة كيفية تصدير البيانات إلى ملفات Excel باستخدام العلامة الذكية في C#.
+### [ملء قالب Excel – تعبئة بيانات Excel باستخدام SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
+تعلم كيفية ملء قالب Excel بالبيانات عبر SmartMarker لإنشاء تقارير ديناميكية بسهولة.
+### [إنشاء مصنف Excel C# – دليل شامل لإدراج المصفوفات في الخلايا](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+دليل شامل لإنشاء مصنف Excel باستخدام C# وإدراج المصفوفات في الخلايا بسهولة.
+### [دمج بيانات Excel في C# – دليل كامل للعلامات الذكية](./excel-data-merging-in-c-complete-smart-marker-guide/)
+تعلم كيفية دمج بيانات Excel في تطبيقات C# باستخدام العلامات الذكية لإنشاء تقارير ديناميكية وشاملة بسهولة.
+### [إنشاء قالب Excel باستخدام العلامات الذكية في C# – دليل شامل](./create-excel-template-with-smart-markers-in-c-complete-guide/)
+
+
+
+
+
+
+
+
+### [تكرار البيانات في Excel – تعبئة القالب باستخدام SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+تعلم كيفية تكرار البيانات في Excel وتعبئة القالب باستخدام SmartMarker لإنشاء تقارير ديناميكية.
+
+### [كيفية تصدير Excel – دليل كامل لمطوري C#](./how-to-export-excel-complete-guide-for-c-developers/)
+تعلم خطوة بخطوة كيفية تصدير ملفات Excel باستخدام Aspose.Cells في بيئة C# لإنشاء تقارير احترافية.
+
+### [تصدير البيانات إلى Excel: تعبئة قالب من مصفوفة في C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+تعلم كيفية تصدير البيانات إلى Excel وتعبئة قالب من مصفوفة باستخدام C#.
+### [أتمتة إنشاء الفواتير – تسمية أوراق العمل ديناميكيًا وتكرارها في C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
+تعلم كيفية إنشاء فواتير تلقائيًا مع تسمية أوراق العمل ديناميكيًا وتكرارها باستخدام Aspose.Cells في C#.
+
+### [كيفية إنشاء دفتر عمل باستخدام العلامات الذكية – دليل Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+تعلم خطوة بخطوة كيفية إنشاء ملف Excel باستخدام العلامات الذكية في Aspose.Cells لتوليد تقارير ديناميكية.
+### [تسمية أوراق Excel تلقائيًا – طريقة سهلة لتوليد الأوراق](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+اكتشف طريقة بسيطة لتسمية أوراق Excel تلقائيًا وإنشاء أوراق عمل متعددة بسرعة وسهولة.
+### [إنشاء مجموعة علامات ذكية – دليل C# كامل](./create-smart-marker-collection-complete-c-guide/)
+### [إنشاء مجموعة علامات ذكية في C# – دليل كامل](./create-smart-marker-collection-in-c-complete-guide/)
+تعلم خطوة بخطوة كيفية إنشاء مجموعة علامات ذكية باستخدام C# في Aspose.Cells لتوليد تقارير Excel ديناميكية.
+### [كيفية تسمية الأوراق تلقائيًا – إنشاء أوراق متعددة في C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+تعلم كيفية تسمية أوراق Excel تلقائيًا وإنشاء أوراق متعددة باستخدام Aspose.Cells في C# لتقارير ديناميكية.
+### [إنشاء كائن البيانات الرئيسي – دليل خطوة بخطوة لتوليد ورقة التفاصيل](./create-master-data-object-step-by-step-guide-to-generate-det/)
+اكتشف طريقة إنشاء كائن البيانات الرئيسي وتوليد ورقة التفاصيل تلقائيًا خطوة بخطوة باستخدام Aspose.Cells.
+### [إنشاء قالب خصم في C# – دليل خطوة بخطوة](./create-discount-template-in-c-step-by-step-guide/)
+تعلم كيفية إنشاء قالب خصم باستخدام Aspose.Cells في C# خطوة بخطوة لتوليد تقارير الفواتير بسهولة.
+### [كيفية إنشاء التسلسل الهرمي باستخدام SmartMarker – دليل خطوة بخطوة](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+تعلم إنشاء بنية هرمية في تقارير Excel باستخدام SmartMarker خطوة بخطوة بسهولة.
+### [تحليل JSON متداخل C# – إنشاء حمولة JSON C#](./parse-nested-json-c-create-json-payload-c/)
+اكتشف كيفية تحليل بيانات JSON المتداخلة في C# وإنشاء حمولة JSON جاهزة للاستخدام في تطبيقاتك.
+### [كيفية إنشاء مصنف باستخدام العلامات الذكية – إخراج عالي منخفض](./how-to-create-workbook-with-smart-markers-output-high-low/)
+تعلم كيفية إنشاء مصنف Excel باستخدام العلامات الذكية لإنتاج قيم عالية ومنخفضة تلقائيًا.
+### [إنشاء تقرير رئيسي وتفصيلي في C# – تعبئة قالب Excel باستخدام SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
+تعلم كيفية إنشاء تقرير رئيسي‑تفصيلي وتعبئة قالب Excel باستخدام SmartMarker في Aspose.Cells للـ .NET.
+### [تطبيق SmartMarker على ورقة العمل في C# – دليل كامل](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
+تعلم كيفية تطبيق SmartMarker على ورقة عمل باستخدام C# لإنشاء تقارير Excel ديناميكية خطوة بخطوة.
+### [إنشاء Excel برمجيًا باستخدام علامات Aspose.Cells الذكية](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+تعلم كيفية إنشاء ملفات Excel برمجيًا باستخدام علامات Aspose.Cells الذكية في .NET.
+### [إنشاء أوراق متعددة باستخدام SmartMarker – دليل كامل بلغة C#](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
+تعلم كيفية إنشاء عدة أوراق عمل في Excel باستخدام SmartMarker في Aspose.Cells مع مثال كامل بلغة C#.
+### [إنشاء ملف Excel من نموذج باستخدام Aspose.Cells Smart Markers في C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
+تعلم خطوة بخطوة كيفية إنشاء ملف Excel من نموذج بيانات باستخدام Aspose.Cells Smart Markers في C#.
+### [تصدير البيانات إلى Excel – دليل كامل لملء قالب Excel باستخدام العلامات الذكية](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

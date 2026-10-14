@@ -1,0 +1,7 @@
+Title: Write array formula in C# – Complete Programming Guide
+Slug: write-array-formula-in-c-complete-programming-guide
+Category: formulas-functions
+ProcessedDate: 2026-07-04T03:38:21.864006
+SourceRepo: AI Search API
+Keywords: write array formula, calculate excel cell, wrap list into columns, create 2‑column array, generate excel array
+PRNumber: 112
