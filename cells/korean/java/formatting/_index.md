@@ -190,7 +190,6 @@ Aspose.Cells for Java를 사용하여 Excel에서 스타일 기반 셀 검색을
 ### [Aspose.Cells를 사용하여 Java에서 사용자 정의 10진수 숫자 서식 지정하기](./master-custom-dbnum-formatting-aspose-cells-java/)
 Aspose.Cells를 사용하여 Java에서 사용자 지정 DBNum 서식을 구현하여 정확하고 전문적인 데이터 표현을 구현하는 방법을 알아보세요. 이 단계별 가이드를 따라 애플리케이션의 숫자 표시 기능을 향상시켜 보세요.
 
-### [Aspose.Cells for Java를 사용하여 Excel에서 사용자 정의 숫자 구분 기호 마스터하기](./master-custom-number-separators-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel에서 소수점과 천 단위 구분 기호를 사용자 지정하는 방법을 알아보고 다양한 로캘에서 데이터 명확성을 보장합니다.
 
 ### [Aspose.Cells for Java를 사용하여 Excel에서 셀을 병합하고 스타일을 지정하는 방법: 완전한 가이드](./master-merging-styling-cells-aspose-cells-java/)
@@ -247,7 +246,6 @@ Aspose.Cells를 사용하여 Java 애플리케이션에 Excel 셀 스타일을 �
 ### [Java에서 동적 서식이 적용된 Excel 통합 문서 만들기 – 완전 가이드](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 Aspose.Cells for Java를 사용해 Java에서 동적 서식이 적용된 Excel 통합 문서를 생성하는 방법을 단계별로 설명합니다.
 
-### [Aspose.Cells for Java를 사용하여 Excel/ODS 파일 만들기 및 스타일 지정: 포괄적인 가이드](./create-style-excel-ods-aspose-cells-java/)
 Aspose.Cells for Java를 사용
 ### [Java Excel 내보내기에서 글꼴을 굵게 설정하는 방법 – 완전한 가이드](./set-font-bold-in-java-excel-export-complete-guide/)
 

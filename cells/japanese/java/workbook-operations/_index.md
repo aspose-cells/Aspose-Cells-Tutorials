@@ -238,7 +238,6 @@ Aspose.Cells for Java を使用して、Javaで新しい Excel ワークブッ�
 ### [Aspose.Cells Javaでワークブックを作成する](./aspose-cells-java-workbook-creation/)
 Aspose.Cells for Javaを使用して、JavaでExcelブックを作成し、保存する方法をステップバイステップで解説します。
 
-### [Aspose.Cells for Java を使用して Excel ブックを作成およびアクセスし、PDF ブックマークを追加する](./create-access-excel-sheets-add-pdf-bookmarks-aspose-cells-java/)
 Aspose.Cells for Java を使用して Excel シートを作成してアクセスする方法、PDF にブックマークを追加する方法、ドキュメントのナビゲーションを効率化する方法について学習します。
 
 ### [JavaでExcelワークブックを作成する – 完全ステップバイステップガイド](./create-excel-workbook-in-java-complete-step-by-step-guide/)

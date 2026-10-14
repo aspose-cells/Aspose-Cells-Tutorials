@@ -29,12 +29,13 @@ Unsere Tutorials zu Arbeitsmappenoperationen bieten umfassende Anleitungen für 
 ### [Aspose.Cells Java: Erstellen und Speichern von Excel-Arbeitsmappen – Eine Schritt-für-Schritt-Anleitung](./aspose-cells-java-create-save-excel-workbooks/)
 Erfahren Sie, wie Sie die Erstellung und Verwaltung von Excel-Arbeitsmappen mit Aspose.Cells für Java automatisieren. Diese Anleitung behandelt das Instanziieren, Speichern und Festlegen von Seiteneinrichtungseigenschaften.
 
+### [Excel-Arbeitsmappe in Java erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-excel-workbook-in-java-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Excel-Arbeitsmappe von Grund auf erstellen und speichern.
+
 ### [Excel-Arbeitsmappe mit Java erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-excel-workbook-java-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java eine neue Excel-Arbeitsmappe von Grund auf erstellen und speichern.
 ### [Neues Arbeitsbuch in Java erstellen – Schritt‑für‑Schritt‑Anleitung](./create-new-workbook-in-java-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java ein neues Arbeitsbuch erstellen und speichern.
-### [Excel-Arbeitsmappe in Java erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-excel-workbook-in-java-complete-step-by-step-guide/)
-Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Excel-Arbeitsmappe von Grund auf erstellen und speichern.
 
 ### [Aspose.Cells Java: Version anzeigen und gemeinsame Arbeitsmappe erstellen](./aspose-cells-java-display-version-create-shared-workbook/)
 Ein Code-Tutorial für Aspose.Words Java
@@ -159,7 +160,7 @@ Erfahren Sie, wie Sie Excel-Arbeitsmappen formatieren und mit Aspose.Cells für 
 ### [Konvertieren Sie Apple Numbers mit Aspose.Cells für Java in PDF: Eine umfassende Anleitung](./convert-apple-numbers-pdf-aspose-cells-java/)
 Erfahren Sie, wie Sie Apple Numbers-Tabellen mit Aspose.Cells für Java in PDFs konvertieren. Diese Anleitung behandelt Einrichtung, Implementierung und Best Practices.
 
-### [So konvertieren Sie Excel-Dateien mit Aspose.Cells für Java in barrierefreie PDFs](./convert-excel-accessible-pdf-java-aspose-cells/)
+### [So konvertieren Sie Excel-Dateien mit Aspose.Cells in Java in barrierefreie PDFs](./convert-excel-accessible-pdf-java-aspose-cells/)
 Erfahren Sie, wie Sie Excel-Dateien mit Java und Aspose.Cells in barrierefreie PDFs konvertieren und dabei die Einhaltung der Barrierefreiheitsstandards sicherstellen.
 
 ### [Konvertieren Sie Excel mit Aspose.Cells in Java in HTML: Eine Schritt-für-Schritt-Anleitung](./convert-excel-html-aspose-cells-java/)
@@ -174,7 +175,7 @@ Erfahren Sie, wie Sie Excel-Arbeitsmappen mit Aspose.Cells für Java in PDFA-1a-
 ### [Konvertieren Sie Excel-Tabellen mit Aspose.Cells für Java in TIFF-Bilder: Ein umfassender Leitfaden](./convert-excel-sheets-tiff-aspose-cells-java/)
 Erfahren Sie, wie Sie Excel-Tabellen mit Aspose.Cells für Java in hochwertige TIFF-Bilder konvertieren. Diese Anleitung behandelt das Laden von Arbeitsmappen, das Konfigurieren von Bildoptionen und das effiziente Rendern von Arbeitsblättern.
 
-### [Konvertieren Sie Excel-Tabellen mit Aspose.Cells in Java: Eine vollständige Anleitung](./convert-excel-sheets-to-images-aspose-cells-java/)
+### [Konvertieren Sie Excel-Tabellen in Bilder mit Aspose.Cells in Java: Eine vollständige Anleitung](./convert-excel-sheets-to-images-aspose-cells-java/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java mühelos Excel-Tabellen in hochwertige Bilder konvertieren. Perfekt für Präsentationen, Berichte und Webintegrationen.
 
 ### [Konvertieren Sie Excel in Text mit Aspose.Cells für Java: Ein umfassender Leitfaden](./convert-excel-text-aspose-cells-java/)
@@ -404,6 +405,9 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java Excel-Arbeitsmappen effizient e
 ### [Effiziente CSV-zu-JSON-Konvertierung mit Aspose.Cells Java](./master-csv-to-json-conversion-aspose-cells-java/)
 Meistern Sie die Kunst der mühelosen Konvertierung von CSV-Dateien in das JSON-Format mit Aspose.Cells für Java und verbessern Sie so Ihre Datenverarbeitungs- und Integrationsfunktionen.
 
+### [Meistern Sie die Bearbeitung von Excel-Dateien mit Aspose.Cells für Java | Arbeitsmappen-Operationshandbuch](./master-excel-manipulation-aspose-cells-java/)
+Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java effizient bearbeiten. Diese Anleitung behandelt die Einrichtung, Arbeitsmappenoperationen und bewährte Methoden.
+
 ### [Meistern Sie die Excel-Manipulation in Java: Verwalten von Formen und ActiveX-Steuerelementen mit Aspose.Cells](./master-excel-manipulation-java-aspose-cells/)
 Lernen Sie, Excel-Formen und ActiveX-Steuerelemente mit Aspose.Cells für Java zu verwalten. Automatisieren Sie Berichte, optimieren Sie Tabellenkalkulationen und verarbeiten Sie komplexe Dateien effizient.
 
@@ -470,7 +474,7 @@ Meistern Sie die Konvertierung von Excel-Dateien in PDFs unter Beibehaltung benu
 ### [Rendern Sie Excel mit Fehlerbehandlung in PDF mit Aspose.Cells für Java: Ein umfassender Leitfaden](./render-excel-pdf-aspose-cells-java-error-handling/)
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java in PDF konvertieren – mit robusten Fehlerbehandlungsstrategien. Ideal für Stapelverarbeitung und Datenberichte.
 
-### [So rendern Sie Excel-Tabellen als Bilder mit Aspose.Cells für Java (Arbeitsmappen‑Operationen)](./render-excel-sheets-images-aspose-cells-java/)
+### [So rendern Sie Excel-Tabellen als Bilder mit Aspose.Cells für Java (Arbeitsmappenvorgänge)](./render-excel-sheets-images-aspose-cells-java/)
 Erfahren Sie, wie Sie Excel-Tabellen mit Aspose.Cells für Java in Bilder umwandeln. Meistern Sie Arbeitsmappenoperationen, optimieren Sie Berichtsfunktionen und integrieren Sie Excel-Grafiken nahtlos.
 
 ### [So konvertieren Sie Excel-Tabellen mit Aspose.Cells Java in das XPS-Format](./render-excel-to-xps-aspose-cells-java/)
