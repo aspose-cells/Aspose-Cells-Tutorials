@@ -60,6 +60,8 @@ Aspose.Cells for Java を使用してワークブック内の数式計算を効�
 計算チェーンを実装し、数式を効率的に計算しセル値を更新することで、Aspose.Cells for Java による Excel パフォーマンスを向上させる方法を学びます。
 ### [Java で XLSX ファイルを開く – ワークブックの読み込みと数式の再計算の完全ガイド](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
 Java で Aspose.Cells を使用して XLSX ファイルを読み込み、ワークブックをロードし、数式を再計算する方法をステップバイステップで解説します。
+### [Java で動的配列数式: Excel ブックを作成しすべての数式を計算する](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
+Aspose.Cells for Java を使用して、動的配列数式を含むブックを作成し、すべての数式を自動的に評価する方法を解説します。
 
 ## 追加リソース
 - [Aspose.Cells for Java ドキュメント](https://docs.aspose.com/cells/java/)

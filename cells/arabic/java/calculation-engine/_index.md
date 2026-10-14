@@ -61,6 +61,8 @@ weight: 22
 تعلم كيفية تعزيز أداء Excel باستخدام Aspose.Cells للـ Java عبر تنفيذ سلاسل الحساب، حساب الصيغ بفعالية، وتحديث قيم الخلايا.
 ### [فتح ملف XLSX في Java – دليل شامل لتحميل المصنف وإعادة حساب الصيغ](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
 تعلم كيفية فتح ملفات XLSX في Java، تحميل المصنف، وإعادة حساب الصيغ لضمان دقة البيانات.
+### [الصيغ الديناميكية للمصفوفات في Java: إنشاء مصنف Excel وحساب جميع الصيغ](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
+تعلم كيفية إنشاء مصنف Excel باستخدام Aspose.Cells في Java وتطبيق الصيغ الديناميكية لحساب جميع القيم تلقائيًا.
 
 ## موارد إضافية
 - [توثيق Aspose.Cells للـ Java](https://docs.aspose.com/cells/java/)

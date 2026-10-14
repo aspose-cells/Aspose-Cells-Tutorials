@@ -113,6 +113,20 @@
 เรียนรู้วิธีฝังฟอนต์ลงในไฟล์ SVG จาก Excel ด้วย Aspose.Cells สำหรับ Java ผ่านขั้นตอนเต็มรูปแบบ
 ### [ส่งออก Excel เป็น HTML – คู่มือเต็มขั้นตอนพร้อมแช่แข็งแผ่น](./export-excel-to-html-complete-guide-with-frozen-panes/)
 เรียนรู้วิธีส่งออกไฟล์ Excel เป็น HTML พร้อมการตรึงแผ่นงานด้วย Aspose.Cells สำหรับ Java
+### [วิธีฝังฟอนต์เมื่อแปลง Excel เป็น HTML – คู่มือฉบับสมบูรณ์](./how-to-embed-fonts-when-converting-excel-to-html-complete-gu/)
+เรียนรู้วิธีฝังฟอนต์ในไฟล์ HTML ที่แปลงจาก Excel ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดและขั้นตอนครบถ้วน
+### [แปลง Excel เป็น PPTX: คู่มือ Java ฉบับสมบูรณ์](./convert-excel-to-pptx-complete-java-guide/)
+เรียนรู้วิธีแปลงไฟล์ Excel เป็นสไลด์ PPTX ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดและขั้นตอนละเอียด
+### [แปลง Excel เป็น PDF/A ด้วย Java – คู่มือขั้นตอนครบถ้วน](./convert-excel-to-pdf-a-with-java-complete-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ Excel เป็น PDF/A ด้วย Java อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนครบถ้วน
+### [ส่งออกแผนภูมิเป็นภาพ – คู่มือครบถ้วนในการแปลง Excel เป็น Word](./export-chart-as-image-complete-guide-to-convert-excel-to-wor/)
+เรียนรู้วิธีส่งออกแผนภูมิจาก Excel เป็นรูปภาพและแปลงเป็นไฟล์ Word ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดขั้นตอนครบถ้วน
+### [วิธีส่งออก Excel เป็น SVG – คู่มือ Java ทีละขั้นตอน](./how-to-export-excel-to-svg-step-by-step-java-guide/)
+เรียนรู้วิธีส่งออกไฟล์ Excel เป็น SVG ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน
+### [สร้างไฟล์ FlatOPC จากเวิร์กบุ๊ก Excel – คู่มือทีละขั้นตอน](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
+เรียนรู้วิธีสร้างไฟล์ FlatOPC จากเวิร์กบุ๊ก Excel ด้วย Aspose.Cells สำหรับ Java ผ่านขั้นตอนที่ชัดเจนและโค้ดตัวอย่าง
+### [แปลง Excel เป็น PDF – คู่มือ Java ฉบับสมบูรณ์กับ Aspose.Cells](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
+เรียนรู้วิธีการแปลงไฟล์ Excel เป็น PDF อย่างละเอียดด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดและขั้นตอนครบถ้วน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

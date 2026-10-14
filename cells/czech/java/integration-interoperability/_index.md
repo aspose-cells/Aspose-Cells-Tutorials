@@ -68,6 +68,8 @@ Naučte se, jak pomocí Aspose.Cells a Aspose.Slides v Javě převést data z Ex
 Naučte se, jak v Javě pomocí Aspose.Cells a Aspose.Slides převést data z Excelu do prezentace PowerPoint s kompletním příkladem kódu.
 ### [Jak exportovat grafy z Excelu do PowerPointu – Kompletní průvodce v Javě](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
 Naučte se, jak pomocí Aspose.Cells pro Javu exportovat grafy z Excelu do PowerPointu a automatizovat tvorbu prezentací.
+### [Převod Excelu do PowerPointu – Kompletní průvodce krok za krokem](./convert-excel-to-powerpoint-full-step-by-step-guide/)
+Naučte se převádět soubory Excel do prezentací PowerPoint pomocí Aspose.Cells pro Javu s podrobnými ukázkami kódu.
 
 ## Další zdroje
 

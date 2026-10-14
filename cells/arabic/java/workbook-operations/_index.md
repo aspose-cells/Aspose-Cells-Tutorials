@@ -269,7 +269,7 @@
 ### [أتمتة Excel باستخدام Aspose.Cells Java: إنشاء مصنف رئيسي ورؤية الأعمدة/الصفوف](./excel-automation-aspose-cells-java-workbook-visibility/)
 تعرّف على كيفية أتمتة مهام Excel باستخدام Aspose.Cells لجافا. أنشئ المصنفات وعدّلها، وتحكّم في رؤية الأعمدة والصفوف بكفاءة.
 
-### [أتمتة Excel باستخدام Aspose.Cells: تحميل، حفظ، استبدال النص](./excel-automation-aspose-cells-load-save-text/)
+### [أتمتة Excel، تحميل، حفظ، استبدال النص](./excel-automation-aspose-cells-load-save-text/)
 برنامج تعليمي لبرمجة Aspose.Words في Java
 
 ### [أتمتة Excel باستخدام Aspose.Cells Java: إدارة خصائص المصنف وحفظ الملفات بكفاءة](./excel-automation-aspose-cells-manage-properties-save-files/)
@@ -486,6 +486,10 @@
 ### [إنشاء مصنف جديد في Java – دليل خطوة بخطوة](./create-new-workbook-in-java-step-by-step-guide/)
 ### [إنشاء مصنف تقويم ياباني – دليل Java كامل](./create-workbook-japanese-calendar-complete-java-tutorial/)
 تعرّف على كيفية إنشاء مصنف تقويم ياباني باستخدام Aspose.Cells لـ Java خطوة بخطوة.
+### [إنشاء مصنف XLSB برمجيًا – دليل Java كامل](./create-xlsb-workbook-programmatically-full-java-guide/)
+
+### [إنشاء مصنف Excel في Java – دليل خطوة بخطوة كامل](./create-excel-workbook-in-java-complete-step-by-step-guide/)
+تعرف على كيفية إنشاء مصنف Excel من الصفر في Java باستخدام Aspose.Cells مع شرح مفصل لكل خطوة.
 
 ## موارد إضافية
 

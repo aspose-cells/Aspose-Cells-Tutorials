@@ -54,6 +54,11 @@ Scopri come creare fogli di lavoro dinamici usando Smart Markers con Aspose.Cell
 Scopri come caricare un modello Excel e generare un nuovo file Excel usando Smart Markers con Aspose.Cells per Java.
 ### [Creare SmartMarker per cartella di lavoro – Popolare cartella di lavoro Excel](./create-workbook-smartmarker-populate-excel-workbook/)
 Scopri come usare SmartMarker per creare e popolare una cartella di lavoro Excel con Aspose.Cells per Java.
+### [Popola modello Excel con dati – Crea report Excel dal modello](./populate-excel-template-with-data-create-excel-report-from-t/)
+Impara a popolare un modello Excel con dati e generare report dinamici usando Aspose.Cells per Java.
+
+### [Aspose Cells Smart Markers – Popola modello Excel](./aspose-cells-smart-markers-populate-excel-template/)
+Impara a utilizzare Smart Markers per popolare un modello Excel con dati dinamici usando Aspose.Cells per Java.
 
 ## Risorse aggiuntive
 

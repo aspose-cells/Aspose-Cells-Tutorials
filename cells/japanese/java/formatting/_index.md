@@ -56,8 +56,11 @@ Aspose.Cells for Java を使用して条件付き書式を適用し、データ�
 ### [Aspose.Cells Java で Excel の書式設定にカスタム フォント設定を実装する方法](./aspose-cells-java-custom-fonts/)
 フォント ソースの設定や一般的な問題のトラブルシューティングなど、Aspose.Cells for Java を使用して Excel ドキュメント内のフォントをカスタマイズする方法を学習します。
 
-### [Aspose.Cells を使用した Java Excel ブックのカスタム数値形式をマスターする](./aspose-cells-java-custom-number-formats-handling/)
+### [Aspose.Cells を使用した Java でのワークブックのカスタム数値形式をマスターする: 完全ガイド](./aspose-cells-java-custom-number-formats-handling/)
 Aspose.Cellsを使用して、Javaワークブックでカスタム数値書式を処理する方法を学びます。このガイドでは、ワークブックの設定、例外処理、そして実際のアプリケーションについて説明します。
+
+### [Java で Excel のカスタム数値形式を設定する方法 – 完全ガイド](./set-custom-number-format-in-excel-with-java-complete-guide/)
+Java と Aspose.Cells を使用して、Excel のセルにカスタム数値書式を適用する手順とコード例を解説します。
 
 ### [Excel でのデータ表示をマスターする: Aspose.Cells for Java による数値とカスタム日付の書式設定](./aspose-cells-java-data-formatting-excel/)
 Aspose.Cells for Java を使用して数値形式とカスタム日付スタイルを適用し、Excel スプレッドシートでのデータの表示を強化する方法を学習します。
@@ -237,6 +240,8 @@ Aspose.Cellsを使って、Excelセルのスタイル設定とJavaアプリケ�
 Java と Aspose.Cells を活用し、動的な書式設定を持つ Excel ワークブックをステップバイステップで作成する方法を学びます。
 ### [Aspose.Cells for Java を使用して Excel の数値書式を設定する方法 - 完全ガイド](./set-number-format-excel-in-java-complete-guide/)
 Aspose.Cells for Java を使用して、Excel のセルにカスタム数値書式を設定し、データ表示を最適化する方法を学びます。
+### [Aspose.Cells for Java を使用して Java Excel エクスポートでフォントを太字に設定する方法 – 完全ガイド](./set-font-bold-in-java-excel-export-complete-guide/)
+Aspose.Cells for Java を使い、Excel エクスポート時にフォントを太字に設定する手順とコード例を詳しく解説します。
 
 ## 追加リソース
 

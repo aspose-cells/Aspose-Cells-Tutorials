@@ -493,6 +493,11 @@ Dowiedz się, jak zapisać skoroszyt do pliku i kopiować zakresy w Excelu przy 
 
 ### [Jak dodać własną właściwość w Excelu (Java) – Pobierz wartość i zapisz jako XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
 Dowiedz się, jak dodać własną właściwość do skoroszytu Excel w Javie, odczytać jej wartość i zapisać plik w formacie XLSB.
+### [Tworzenie skoroszytu XLSB programowo – pełny przewodnik Java](./create-xlsb-workbook-programmatically-full-java-guide/)
+Dowiedz się, jak programowo tworzyć skoroszyty XLSB w Javie przy użyciu Aspose.Cells, z pełnym przykładem kodu i wskazówkami konfiguracji.
+
+### [Tworzenie skoroszytu programu Excel w Javie – Kompletny przewodnik krok po kroku](./create-excel-workbook-in-java-complete-step-by-step-guide/)
+Dowiedz się, jak programowo tworzyć skoroszyty Excela w Javie, korzystając z Aspose.Cells, z pełnym przykładem kodu i wskazówkami konfiguracyjnymi.
 
 ## Dodatkowe zasoby
 

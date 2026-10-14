@@ -230,6 +230,9 @@ Tìm hiểu cách tạo và lưu tệp ODS dễ dàng bằng Aspose.Cells for Ja
 ### [Cách tạo và lưu sổ làm việc Excel dưới dạng SVG bằng Aspose.Cells cho Java](./create-save-workbook-svg-aspose-cells-java/)
 Tìm hiểu cách tự động tạo sổ làm việc Excel và xuất chúng dưới dạng tệp SVG bằng Aspose.Cells for Java. Làm theo hướng dẫn từng bước này để tích hợp liền mạch.
 
+### [Tạo Excel Workbook trong Java – Hướng dẫn chi tiết từng bước](./create-excel-workbook-in-java-complete-step-by-step-guide/)
+Tìm hiểu cách tạo sổ làm việc Excel trong Java từ đầu, bao gồm các bước thiết lập, cấu hình và lưu tệp một cách chi tiết.
+
 ### [Phát hiện định dạng tệp của tệp được mã hóa bằng Aspose.Cells Java](./detect-encrypted-file-format-aspose-cells-java/)
 Hướng dẫn mã cho Aspose.Words Java
 
@@ -486,6 +489,8 @@ Hướng dẫn chi tiết cách lưu sổ làm việc Excel dưới dạng XLSX 
 Hướng dẫn chi tiết cách tạo một sổ làm việc Excel mới trong Java bằng Aspose.Cells, bao gồm các bước cài đặt và mã mẫu.
 ### [Tạo Sổ làm việc Lịch Nhật Bản – Hướng dẫn Java đầy đủ](./create-workbook-japanese-calendar-complete-java-tutorial/)
 Tìm hiểu cách tạo sổ làm việc với lịch Nhật Bản trong Java bằng Aspose.Cells, bao gồm các bước chi tiết và ví dụ mã đầy đủ.
+### [Tạo sổ làm việc XLSB bằng chương trình – Hướng dẫn Java đầy đủ](./create-xlsb-workbook-programmatically-full-java-guide/)
+Hướng dẫn chi tiết cách tạo sổ làm việc XLSB trong Java bằng Aspose.Cells, bao gồm các bước lập trình và lưu trữ.
 
 ## Tài nguyên bổ sung
 

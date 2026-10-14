@@ -47,6 +47,8 @@ Aspose.Cells for Java を使用して、XLSX ファイルを CSV 形式に変換
 Aspose.Cells for Javaを使って、ExcelファイルをPDFに簡単にエクスポートする方法を学びましょう。ステップバイステップガイドで手順を分かりやすく解説します。今すぐ変換を始めましょう！
 ### [ワークブックからPDFを作成する方法 – 完全Javaガイド](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
 Aspose.Cells for Java を使用して、ワークブックをPDFに変換する手順をステップバイステップで解説します。実用的なコード例付き。
+### [Excel を PDF に変換 – Aspose.Cells 完全 Java ガイド](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
+Aspose.Cells for Java を使用して、Excel ファイルを PDF に変換する手順をステップバイステップで解説します。実用的なコード例とベストプラクティスを提供。
 ### [ExcelからXML Javaへのエクスポート](./export-excel-to-xml-java/)
 Aspose.Cells for Javaを使って、JavaでExcelをXMLにエクスポートする方法を学びましょう。ソースコード付きのステップバイステップガイドで、シームレスなデータ変換を実現します。
 
@@ -107,6 +109,18 @@ Aspose.Cells for Javaを使用して、ExcelセルのデータをCSV形式にエ
 Aspose.Cells for Java を使用して、Excel ワークシートを TSV 形式のテキストファイルにエクスポートする方法をステップバイステップで解説します。
 ### [Excel から SVG へのフォント埋め込み方法 – 完全 Java ガイド](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
 Aspose.Cells for Java を使用して、Excel から生成した SVG にフォントを埋め込む手順をステップバイステップで解説します。
+### [Excel を PPTX に変換: 完全 Java ガイド](./convert-excel-to-pptx-complete-java-guide/)
+Aspose.Cells for Java を使用して、Excel を PPTX に変換する方法を学びましょう。ステップバイステップのコード例で実装できます。
+### [JavaでExcelをPDF/Aに変換 – 完全ステップバイステップガイド](./convert-excel-to-pdf-a-with-java-complete-step-by-step-guide/)
+Aspose.Cells for Java を使用して、Excel ファイルを PDF/A 形式に変換する方法を学びます。実用的なコード例でステップバイステップ解説。
+### [チャートを画像としてエクスポート – Excel を Word に変換する完全ガイド](./export-chart-as-image-complete-guide-to-convert-excel-to-wor/)
+Aspose.Cells for Javaを使い、Excelのチャートを画像としてエクスポートし、Wordに変換する方法をステップバイステップで解説します。
+### [Excel を SVG にエクスポートする方法 – ステップバイステップ Java ガイド](./how-to-export-excel-to-svg-step-by-step-java-guide/)
+Aspose.Cells for Java を使用して、Excel を SVG 形式にエクスポートする手順を詳しく解説します。コード例付きで簡単に変換できます。
+### [Excel を HTML に変換する際のフォント埋め込み方法 – 完全ガイド](./how-to-embed-fonts-when-converting-excel-to-html-complete-gu/)
+Aspose.Cells for Java を使用して、Excel を HTML に変換する際にフォントを埋め込む手順をステップバイステップで解説します。
+### [Excel ワークブックから FlatOPC ファイルを作成する – ステップバイステップガイド](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
+Aspose.Cells for Java を使用して、Excel ワークブックから FlatOPC ファイルを生成する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

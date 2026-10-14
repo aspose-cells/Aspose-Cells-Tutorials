@@ -55,7 +55,11 @@ Aspose Cells स्मार्ट मार्कर्स का उपयो�
 
 ### [वर्कबुक स्मार्टमार्कर बनाएं – एक्सेल वर्कबुक को भरें](./create-workbook-smartmarker-populate-excel-workbook/)
 Aspose.Cells for Java का उपयोग करके वर्कबुक स्मार्टमार्कर बनाकर एक्सेल वर्कबुक में डेटा भरने की प्रक्रिया सीखें।
+### [डेटा के साथ Excel टेम्पलेट भरें – टेम्पलेट से Excel रिपोर्ट बनाएं](./populate-excel-template-with-data-create-excel-report-from-t/)
+Excel टेम्पलेट में डेटा भरकर टेम्पलेट से स्वचालित रूप से रिपोर्ट जनरेट करने की प्रक्रिया सीखें।
 
+### [Aspose Cells स्मार्ट मार्कर्स – Excel टेम्पलेट भरें](./aspose-cells-smart-markers-populate-excel-template/)
+स्मार्ट मार्कर्स का उपयोग करके Excel टेम्पलेट में डेटा भरें और रिपोर्ट जनरेट करें।
 
 ## अतिरिक्त संसाधन
 

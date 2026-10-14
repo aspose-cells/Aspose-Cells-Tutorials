@@ -61,6 +61,8 @@ Apprenez à gérer les formats numériques personnalisés dans les classeurs Jav
 
 ### [Définir le format de nombre Excel en Java – Guide complet](./set-number-format-excel-in-java-complete-guide/)
 Apprenez à définir le format de nombre dans les fichiers Excel avec Aspose.Cells pour Java, incluant des exemples de code complets.
+### [Définir un format de nombre personnalisé dans Excel avec Java – Guide complet](./set-custom-number-format-in-excel-with-java-complete-guide/)
+Apprenez à définir un format de nombre personnalisé dans Excel avec Aspose.Cells pour Java. Ce guide offre des exemples de code et astuces de performance.
 
 ### [Maîtriser la présentation des données dans Excel : formatage des nombres et des dates personnalisées avec Aspose.Cells pour Java](./aspose-cells-java-data-formatting-excel/)
 Apprenez à appliquer des formats numériques et des styles de date personnalisés à l'aide d'Aspose.Cells pour Java, améliorant ainsi la présentation des données dans les feuilles de calcul Excel.
@@ -243,6 +245,8 @@ Apprenez à appliquer des styles lors de la conversion d'un DataTable en fichier
 
 ### [Format de date Aspose Cells : comment définir un format de date personnalisé en Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
 Apprenez à définir un format de date personnalisé dans Excel avec Aspose.Cells pour Java.
+### [Définir le texte en gras dans l'export Excel Java – Guide complet](./set-font-bold-in-java-excel-export-complete-guide/)
+Apprenez à appliquer le style gras aux polices lors de l'exportation de fichiers Excel avec Aspose.Cells pour Java.
 
 ## Ressources supplémentaires
 

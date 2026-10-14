@@ -91,6 +91,8 @@ Poznaj, jak w Aspose.Cells dla Java zastosować funkcję SEQUENCE do dynamiczneg
 Poznaj, jak zastosować funkcję WRAPCOLS w Aspose.Cells for Java, aby automatycznie dzielić tekst w komórkach i generować dynamiczne arkusze Excela.
 ### [Jak obliczyć cotangens w Excelu – kompletny przewodnik](./how-to-calculate-cotangent-in-excel-complete-guide/)
 Dowiedz się, jak obliczyć cotangens w Excelu, korzystając z funkcji i formuł, krok po kroku, z przykładami kodu Java.
+### [Sortowanie unikalnych wartości w Excelu – Kompletny przewodnik Java do ustawiania formuł tablicowych](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+Dowiedz się, jak sortować unikalne wartości i ustawiać formuły tablicowe w Excelu przy użyciu Aspose.Cells dla Java.
 
 ## Dodatkowe zasoby
 

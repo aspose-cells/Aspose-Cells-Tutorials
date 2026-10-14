@@ -48,6 +48,11 @@ Aspose.Cells for Java를 사용하여 스마트 마커를 사용하여 동적 Ex
 스마트 마커를 활용해 Java에서 동적으로 워크시트를 생성하고 데이터를 바인딩하는 방법을 단계별로 안내합니다.
 ### [워크북 SmartMarker 만들기 – Excel 워크북 채우기](./create-workbook-smartmarker-populate-excel-workbook/)
 Aspose.Cells for Java를 사용하여 SmartMarker로 워크북을 만들고 데이터를 채워 Excel 파일을 생성하는 방법을 배웁니다.
+### [데이터로 Excel 템플릿 채우기 – 템플릿에서 Excel 보고서 만들기](./populate-excel-template-with-data-create-excel-report-from-t/)
+Aspose.Cells for Java를 사용해 Excel 템플릿에 데이터를 채우고, 템플릿 기반의 동적 Excel 보고서를 생성하는 방법을 단계별로 안내합니다.
+
+### [Aspose Cells 스마트 마커 – Excel 템플릿 채우기](./aspose-cells-smart-markers-populate-excel-template/)
+Aspose.Cells 스마트 마커를 사용하여 Excel 템플릿에 데이터를 채우고 동적 보고서를 생성하는 방법을 단계별로 안내합니다.
 
 ### [Aspose.Cells Java를 사용하여 마스터-디테일 워크북 만들기](./create-master-detail-workbook-with-aspose-cells-java/)
 Aspose.Cells for Java를 활용해 마스터-디테일 관계를 갖는 Excel 워크북을 설계하고, 데이터 바인딩 및 보고서를 자동 생성하는 방법을 배웁니다.

@@ -91,6 +91,8 @@ Lär dig hur du använder SEQUENCE-funktionen i Aspose.Cells för Java för att 
 Lär dig hur du använder WRAPCOLS-funktionen i Aspose.Cells för Java för att automatiskt justera kolumnbredden i Excel.
 ### [Hur man beräknar cotangens i Excel – Komplett guide](./how-to-calculate-cotangent-in-excel-complete-guide/)
 Lär dig hur du beräknar cotangens i Excel med en komplett steg-för-steg-guide och praktiska Java-kodexempel.
+### [Sortera unika värden i Excel – Komplett Java-guide för att ställa in matrisformler](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+Lär dig hur du sorterar unika värden i Excel med Aspose.Cells för Java och använder matrisformler för effektiv datahantering.
 
 ## Ytterligare resurser
 

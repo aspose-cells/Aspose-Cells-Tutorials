@@ -54,6 +54,11 @@ Poznaj kompletny przewodnik, jak tworzyć arkusze w Aspose.Cells dla Java przy u
 Dowiedz się, jak używać Smart Markers w Aspose.Cells do ładowania szablonu Excel i generowania nowego pliku Excel na jego podstawie.
 ### [Utwórz SmartMarker w skoroszycie – wypełnianie skoroszytu Excel](./create-workbook-smartmarker-populate-excel-workbook/)
 Dowiedz się, jak używać SmartMarkerów do automatycznego wypełniania skoroszytu Excel danymi w Aspose.Cells dla Java.
+### [Wypełnianie szablonu Excel danymi – Tworzenie raportu Excel z szablonu](./populate-excel-template-with-data-create-excel-report-from-t/)
+Dowiedz się, jak wypełnić szablon Excela danymi i wygenerować raport Excel przy użyciu Aspose.Cells dla Java.
+
+### [Aspose.Cells Smart Markers – Wypełnianie szablonu Excela](./aspose-cells-smart-markers-populate-excel-template/)
+Dowiedz się, jak używać Smart Markers w Aspose.Cells, aby wypełnić szablon Excela danymi i wygenerować raport.
 
 ## Dodatkowe zasoby
 

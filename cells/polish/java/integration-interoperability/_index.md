@@ -55,6 +55,8 @@ Dowiedz się, jak wdrożyć klasę Teacher w języku Java, zarządzać danymi uc
 
 ### [Konwertuj Excel do PPTX w Javie – Kompletny przewodnik programistyczny](./convert-excel-to-pptx-with-java-complete-programming-guide/)
 Dowiedz się, jak konwertować pliki Excel do formatu PPTX przy użyciu Aspose.Cells for Java, krok po kroku, z przykładami kodu.
+### [Konwertuj Excel do PowerPoint – Kompletny przewodnik krok po kroku](./convert-excel-to-powerpoint-full-step-by-step-guide/)
+Dowiedz się, jak przekształcić arkusze Excel w prezentacje PowerPoint przy użyciu Aspose.Cells for Java, krok po kroku.
 
 ### [Jak wyeksportować wykresy z Excela do Worda – przewodnik Java](./how-to-export-charts-from-excel-to-word-java-guide/)
 Dowiedz się, jak wyeksportować wykresy z Excela do dokumentu Word przy użyciu Aspose.Cells for Java, krok po kroku z przykładami kodu.

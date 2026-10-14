@@ -54,6 +54,11 @@ Pelajari cara menggunakan Smart Markers untuk membuat lembar kerja Excel secara 
 Pelajari cara memuat templat Excel dan menghasilkan file Excel baru menggunakan Smart Markers Aspose Cells di Java.
 ### [Buat SmartMarker Buku Kerja – Isi Buku Kerja Excel](./create-workbook-smartmarker-populate-excel-workbook/)
 Pelajari cara menggunakan SmartMarker untuk membuat dan mengisi buku kerja Excel secara otomatis dengan Aspose.Cells untuk Java.
+### [Mengisi Templat Excel dengan Data – Membuat Laporan Excel dari Templat](./populate-excel-template-with-data-create-excel-report-from-t/)
+Pelajari cara mengisi templat Excel dengan data aplikasi Anda dan menghasilkan laporan Excel secara otomatis menggunakan Aspose.Cells untuk Java.
+
+### [Aspose Cells Smart Markers – Mengisi Templat Excel](./aspose-cells-smart-markers-populate-excel-template/)
+Pelajari cara menggunakan Smart Markers di Aspose.Cells untuk mengisi templat Excel dengan data aplikasi secara otomatis.
 
 ## Sumber Daya Tambahan
 

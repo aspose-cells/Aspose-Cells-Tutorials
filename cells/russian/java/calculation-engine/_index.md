@@ -60,9 +60,10 @@ weight: 22
 ### [Открытие XLSX-файла в Java – Полное руководство по загрузке рабочей книги и пересчету формул](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
 Узнайте, как открыть файл XLSX в Java, загрузить рабочую книгу и пересчитать формулы с помощью Aspose.Cells.
 
-
 ### [Optimize Excel Calculations Using Aspose.Cells Java&#58; Mastering Calculation Chains for Efficient Workbook Processing](./optimize-excel-aspose-cells-java-calculation-chains/)
 Узнайте, как повысить производительность Excel с помощью Aspose.Cells for Java, реализуя цепочки расчётов, эффективно вычисляя формулы и обновляя значения ячеек.
+### [Динамические массивные формулы в Java: создание рабочей книги Excel и вычисление всех формул](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
+Узнайте, как создавать рабочие книги Excel в Java и вычислять динамические массивные формулы с помощью Aspose.Cells.
 
 ## Дополнительные ресурсы
 - [Документация Aspose.Cells for Java](https://docs.aspose.com/cells/java/)

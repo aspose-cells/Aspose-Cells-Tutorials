@@ -91,6 +91,8 @@ Aspose.Cells for Java를 사용하여 Excel 워크북에서 SEQUENCE 함수를 �
 Java용 Aspose.Cells를 사용하여 WRAPCOLS 함수를 적용하고, 셀 데이터를 자동으로 래핑하는 전체 예제를 확인하세요.
 ### [Excel에서 코탄젠트를 계산하는 방법 – 완전 가이드](./how-to-calculate-cotangent-in-excel-complete-guide/)
 Aspose.Cells for Java를 사용하여 Excel에서 코탄젠트 함수를 구현하고 계산하는 방법을 단계별로 안내합니다.
+### [Excel에서 고유값 정렬 – 배열 수식 설정을 위한 완전한 Java 가이드](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+Aspose.Cells for Java를 사용하여 고유값을 정렬하고 배열 수식을 설정하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

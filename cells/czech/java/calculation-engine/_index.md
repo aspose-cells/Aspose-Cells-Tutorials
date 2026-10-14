@@ -61,6 +61,8 @@ Naučte se, jak načíst soubor XLSX v Javě pomocí Aspose.Cells a přepočíta
 
 ### [Optimalizace výpočtů v Excelu pomocí Aspose.Cells Java&#58; Mistrovství v řetězcích výpočtů pro efektivní zpracování sešitu](./optimize-excel-aspose-cells-java-calculation-chains/)
 Naučte se zlepšit výkon Excelu s Aspose.Cells pro Javu implementací řetězců výpočtů, efektivním výpočtem vzorců a aktualizací hodnot buněk.
+### [Dynamické pole vzorců v Javě: Vytvořte Excel sešit a vypočítejte všechny vzorce](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
+Naučte se, jak pomocí Aspose.Cells v Javě vytvořit sešit s dynamickými poli a vypočítat všechny vzorce.
 
 ## Další zdroje
 - [Dokumentace Aspose.Cells pro Java](https://docs.aspose.com/cells/java/)

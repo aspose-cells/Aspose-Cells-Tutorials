@@ -62,6 +62,8 @@ Apprenez à interrompre efficacement le calcul des formules dans les classeurs �
 Apprenez à améliorer les performances d’Excel avec Aspose.Cells for Java en implémentant des chaînes de calcul, en calculant les formules de manière efficace et en mettant à jour les valeurs des cellules.
 ### [Ouvrir un fichier XLSX en Java – Guide complet pour charger le classeur et recalculer les formules](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
 Apprenez à charger un classeur XLSX avec Aspose.Cells pour Java et à recalculer toutes les formules efficacement.
+### [Formules de tableau dynamique en Java : créer un classeur Excel et calculer toutes les formules](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
+Apprenez à créer un classeur Excel en Java et à calculer toutes les formules, y compris les formules de tableau dynamique, avec Aspose.Cells.
 
 ## Ressources supplémentaires
 - [Documentation Aspose.Cells for Java](https://docs.aspose.com/cells/java/)

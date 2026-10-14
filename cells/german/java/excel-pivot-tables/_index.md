@@ -52,6 +52,10 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java Pivot-Tabellen in PNG-Bilder ko
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Pivot-Tabellen in Excel kopieren und in Ihre Anwendungen integrieren.
 ### [Exportieren einer Pivot-Tabelle nach PNG in Java – Vollständiger Programmierleitfaden](./export-pivot-table-to-png-in-java-complete-programming-guide/)
 Erfahren Sie, wie Sie Pivot-Tabellen mit Aspose.Cells für Java in PNG-Bilder exportieren und in Ihre Anwendungen einbinden.
+### [Wie man einen Bereich in Java kopiert – Pivot‑Tabelle kopieren mit Aspose.Cells](./how-to-copy-range-in-java-copy-pivot-table-with-aspose-cells/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java einen Bereich kopieren und eine Pivot‑Tabelle duplizieren.
+### [Wie man Pivot‑Tabellen als PNG exportiert – Vollständige Java‑Anleitung](./how-to-export-pivot-table-as-png-complete-java-guide/)
+Erfahren Sie, wie Sie Pivot‑Tabellen mit Aspose.Cells für Java als PNG‑Bild exportieren und in Berichten einbinden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,6 +56,8 @@ Ismerje meg, hogyan hozhat létre PowerPoint prezentációt Excel adatokból az 
 Ismerje meg, hogyan konvertálhat Excel fájlokat PowerPoint prezentációkká az Aspose.Cells for Java használatával, részletes lépésekkel.
 ### [Hogyan exportáljon diagramokat Excelből PowerPointba – Teljes Java útmutató](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
 Ismerje meg, hogyan exportálhat diagramokat Excelből PowerPointba Java használatával az Aspose.Cells és Aspose.Slides segítségével.
+### [Excel konvertálása PowerPointba – Teljes lépésről lépésre útmutató](./convert-excel-to-powerpoint-full-step-by-step-guide/)
+Ismerd meg, hogyan konvertálhatod az Excel fájlokat PowerPoint prezentációkká az Aspose.Cells for Java segítségével, részletes lépésekkel.
 
 ## További források
 

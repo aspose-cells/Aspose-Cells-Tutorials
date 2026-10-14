@@ -55,6 +55,8 @@ Aprenda a implementar una clase Teacher en Java, administrar datos de estudiante
 
 ### [Convertir Excel a PPTX con Java – Guía completa de programación](./convert-excel-to-pptx-with-java-complete-programming-guide/)
 Aprenda a convertir archivos Excel a presentaciones PPTX usando Aspose.Cells para Java con ejemplos de código completos.
+### [Convertir Excel a PowerPoint – Guía completa paso a paso](./convert-excel-to-powerpoint-full-step-by-step-guide/)
+Aprenda a convertir archivos Excel a presentaciones PowerPoint usando Aspose.Cells y Aspose.Slides para Java, con ejemplos paso a paso.
 
 ### [Cómo exportar gráficos de Excel a Word – Guía Java](./how-to-export-charts-from-excel-to-word-java-guide/)
 Aprenda a exportar gráficos de Excel a documentos Word usando Aspose.Cells para Java, con ejemplos de código completos.

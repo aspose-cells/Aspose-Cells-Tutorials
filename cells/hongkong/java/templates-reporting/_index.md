@@ -54,6 +54,11 @@
 了解如何使用 Aspose.Cells 智慧標記載入 Excel 範本，並自動生成新的 Excel 報告。
 ### [建立工作簿 SmartMarker – 填寫 Excel 工作簿](./create-workbook-smartmarker-populate-excel-workbook/)
 了解如何使用 SmartMarker 在 Excel 工作簿中動態填充資料，實作高效報表生成。
+### [使用資料填充 Excel 範本 – 從範本建立 Excel 報告](./populate-excel-template-with-data-create-excel-report-from-t/)
+說明如何使用 Aspose.Cells for Java 將資料填入 Excel 範本，並從範本生成完整的報告。
+
+### [Aspose Cells 智慧標記 – 填充 Excel 範本](./aspose-cells-smart-markers-populate-excel-template/)
+說明如何使用 Aspose.Cells 的智慧標記功能將資料填入 Excel 範本，快速生成報告。
 
 ## 其他資源
 

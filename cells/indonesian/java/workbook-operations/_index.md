@@ -212,6 +212,9 @@ Pelajari cara mengubah string HTML menjadi buku kerja Excel terstruktur mengguna
 ### [Konversi XLSB ke XLSM Menggunakan Aspose.Cells untuk Java: Panduan Langkah demi Langkah](./convert-xlsb-to-xlsm-aspose-cells-java/)
 Pelajari cara mengonversi file XLSB ke buku kerja XLSM yang mendukung makro menggunakan Aspose.Cells untuk Java. Ikuti panduan lengkap ini dengan contoh kode dan praktik terbaik.
 
+### [Membuat Buku Kerja XLSB Secara Programatis – Panduan Lengkap Java](./create-xlsb-workbook-programmatically-full-java-guide/)
+Pelajari cara membuat buku kerja XLSB secara programatis menggunakan Aspose.Cells untuk Java dengan panduan lengkap langkah demi langkah.
+
 ### [Membuat & Mengakses Lembar Excel, Menambahkan Bookmark PDF Menggunakan Aspose.Cells untuk Java](./create-access-excel-sheets-add-pdf-bookmarks-aspose-cells-java/)
 Pelajari cara menggunakan Aspose.Cells untuk Java untuk membuat dan mengakses lembar Excel, menambahkan bookmark dalam PDF, dan menyederhanakan navigasi dokumen Anda.
 

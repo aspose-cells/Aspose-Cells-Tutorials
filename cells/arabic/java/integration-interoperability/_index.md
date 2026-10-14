@@ -68,6 +68,8 @@
 تعلم كيفية تحويل ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells و Aspose.Slides في Java خطوة بخطوة.
 ### [كيفية تصدير المخططات من Excel إلى PowerPoint – دليل Java كامل](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
 تعلم كيفية تصدير المخططات من ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells لـ Java مع مثال كامل خطوة بخطوة.
+### [تحويل Excel إلى PowerPoint – دليل شامل خطوة بخطوة](./convert-excel-to-powerpoint-full-step-by-step-guide/)
+تعلم كيفية تحويل ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells لـ Java خطوة بخطوة مع أمثلة عملية.
 
 ## موارد إضافية
 

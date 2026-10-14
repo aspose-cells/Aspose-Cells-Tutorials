@@ -65,6 +65,8 @@ Excel डेटा को PowerPoint प्रस्तुति में ब�
 Excel फ़ाइल को PowerPoint प्रस्तुति में बदलने के लिए Aspose.Slides और Java के साथ विस्तृत चरण-दर-चरण मार्गदर्शिका।
 ### [Excel से चार्ट को PowerPoint में निर्यात करना – पूर्ण Java गाइड](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
 Java के साथ Aspose.Cells का उपयोग करके Excel चार्ट को PowerPoint स्लाइड में निर्यात करने की चरण-दर-चरण प्रक्रिया सीखें।
+### [Excel को PowerPoint में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-excel-to-powerpoint-full-step-by-step-guide/)
+Excel फ़ाइलों को PowerPoint प्रस्तुतियों में बदलने की पूरी प्रक्रिया, कोड उदाहरणों सहित।
 
 ## अतिरिक्त संसाधन
 

@@ -29,6 +29,9 @@
 ### [เรียนรู้สูตรอาร์เรย์ Excel อย่างเชี่ยวชาญด้วย Aspose.Cells Java: เพิ่มประสิทธิภาพการคำนวณและการจัดรูปแบบ](./aspose-cells-java-array-formulas-custom-calculations/)
 เรียนรู้การตั้งค่าสูตรอาร์เรย์ การใช้สไตล์ตัวเลข ปรับแต่งการคำนวณ และบันทึกเวิร์กบุ๊กอย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java
 
+### [จัดเรียงค่าที่ไม่ซ้ำใน Excel – คู่มือ Java ครบขั้นตอนสำหรับตั้งค่าสูตรอาร์เรย์](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+เรียนรู้วิธีจัดเรียงและกรองค่าที่ไม่ซ้ำใน Excel ด้วยการตั้งค่าสูตรอาร์เรย์โดยใช้ Aspose.Cells สำหรับ Java
+
 ### [วิธีการสร้างฟังก์ชันค่าคงที่แบบกำหนดเองใน Aspose.Cells Java](./aspose-cells-java-custom-static-value-function/)
 เรียนรู้วิธีการขยาย AbstractCalculationEngine สำหรับการคำนวณแบบกำหนดเองโดยใช้ Aspose.Cells Java ทำให้งาน Excel เป็นแบบอัตโนมัติด้วยค่าที่กำหนดไว้ล่วงหน้า
 

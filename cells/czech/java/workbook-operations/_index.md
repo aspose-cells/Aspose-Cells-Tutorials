@@ -34,6 +34,8 @@ Naučte se, jak vytvořit sešit Excel v Javě pomocí Aspose.Cells s podrobným
 
 ### [Uložení sešitu jako XLSX v Javě – Kompletní programovací průvodce](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
 Naučte se, jak pomocí Aspose.Cells pro Javu uložit sešit Excelu ve formátu XLSX s kompletními ukázkami kódu.
+### [Vytvoření sešitu Excel v Javě – Kompletní průvodce krok za krokem](./create-excel-workbook-in-java-complete-step-by-step-guide/)
+Naučte se, jak programově vytvořit sešit Excel v Javě pomocí Aspose.Cells s podrobnými ukázkami kódu.
 
 ### [Aspose.Cells Java: Zobrazení verze a vytvoření sdíleného sešitu](./aspose-cells-java-display-version-create-shared-workbook/)
 Výukový program pro Aspose.Words v Javě
@@ -491,6 +493,8 @@ Naučte se, jak přidat vlastní vlastnost do souboru Excel pomocí Aspose.Cells
 Naučte se, jak vytvořit nový sešit Excelu v Javě pomocí Aspose.Cells, krok za krokem s praktickými ukázkami kódu.
 ### [Vytvoření sešitu s japonským kalendářem – Kompletní Java tutoriál](./create-workbook-japanese-calendar-complete-java-tutorial/)
 Naučte se, jak vytvořit sešit s japonským kalendářem pomocí Aspose.Cells pro Javu.
+### [Vytvoření sešitu XLSB programově – Kompletní průvodce v Javě](./create-xlsb-workbook-programmatically-full-java-guide/)
+Naučte se, jak programově vytvořit sešit XLSB v Javě pomocí Aspose.Cells s podrobnými ukázkami kódu.
 
 ## Další zdroje
 

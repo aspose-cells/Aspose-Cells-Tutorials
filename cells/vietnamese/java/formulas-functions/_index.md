@@ -91,6 +91,8 @@ Tìm hiểu cách sử dụng hàm SEQUENCE trong Excel bằng Aspose.Cells cho 
 Hướng dẫn chi tiết cách áp dụng hàm WRAPCOLS trong Aspose.Cells Java để chia cột dữ liệu và tạo bảng tính Excel linh hoạt.
 ### [Cách tính Cotang trong Excel – Hướng dẫn toàn diện](./how-to-calculate-cotangent-in-excel-complete-guide/)
 Hướng dẫn chi tiết cách tính giá trị cotang trong Excel bằng công thức, bao gồm ví dụ mã Java sử dụng Aspose.Cells.
+### [Sắp xếp các giá trị duy nhất trong Excel – Hướng dẫn Java toàn diện để thiết lập công thức mảng](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+Hướng dẫn chi tiết cách sắp xếp và lọc các giá trị duy nhất trong Excel bằng công thức mảng sử dụng Aspose.Cells cho Java.
 
 ## Tài nguyên bổ sung
 

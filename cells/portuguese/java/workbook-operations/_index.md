@@ -38,6 +38,12 @@ Um tutorial de código para Aspose.Words Java
 ### [Como criar e exportar Excel para HTML usando Aspose.Cells Java | Guia de Operações da Pasta de Trabalho](./aspose-cells-java-excel-html-export/)
 Aprenda a usar o Aspose.Cells para Java para criar uma pasta de trabalho do Excel do zero, preenchê-la com dados e exportá-la como um arquivo HTML. Este guia passo a passo aborda tudo o que você precisa.
 
+### [Criar pasta de trabalho XLSB programaticamente – Guia completo em Java](./create-xlsb-workbook-programmatically-full-java-guide/)
+Aprenda a criar programaticamente uma pasta de trabalho XLSB usando Aspose.Cells para Java, com exemplos completos de código.
+
+### [Criar Pasta de Trabalho Excel em Java – Guia Completo Passo a Passo](./create-excel-workbook-in-java-complete-step-by-step-guide/)
+Aprenda a criar uma pasta de trabalho do Excel em Java usando Aspose.Cells, com exemplos completos passo a passo.
+
 ### [Guia Java Aspose.Cells: Dominando a manipulação de pastas de trabalho do Excel](./aspose-cells-java-excel-manipulation-guide/)
 Aprenda a manipular pastas de trabalho do Excel em Java usando Aspose.Cells. Este guia aborda a inicialização de pastas de trabalho, a adição de planilhas e imagens, a definição de posições de imagens e o salvamento eficiente de arquivos.
 

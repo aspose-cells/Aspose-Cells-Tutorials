@@ -52,6 +52,10 @@ Lär dig hur du exporterar en pivottabell till PNG i Java med Aspose.Cells, steg
 Lär dig hur du kopierar en pivottabell i Excel med Aspose.Cells för Java.
 ### [Exportera pivottabell till PNG i Java – Komplett programmeringsguide](./export-pivot-table-to-png-in-java-complete-programming-guide/)
 Lär dig hur du exporterar en pivottabell till PNG med Aspose.Cells för Java.
+### [Hur du kopierar ett område i Java – Kopiera pivottabell med Aspose.Cells](./how-to-copy-range-in-java-copy-pivot-table-with-aspose-cells/)
+Lär dig hur du kopierar ett område och duplicerar en pivottabell i Excel med Aspose.Cells för Java.
+### [Hur man exporterar pivottabell som PNG – komplett Java-guide](./how-to-export-pivot-table-as-png-complete-java-guide/)
+Lär dig hur du exporterar en pivottabell till PNG-bild med Aspose.Cells för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

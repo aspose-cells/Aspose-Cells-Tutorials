@@ -54,6 +54,11 @@ Lär dig steg för steg hur du använder Smart Markers för att automatiskt skap
 
 ### [Aspose Cells Smart Markers: Ladda Excel‑mall och generera Excel från mall](./aspose-cells-smart-markers-load-excel-template-generate-exce/)
 Lär dig hur du använder Smart Markers för att ladda en Excel‑mall och generera nya Excel‑filer programatiskt med Aspose.Cells för Java.
+### [Fyll i Excel-mall med data – Skapa Excel-rapport från mall](./populate-excel-template-with-data-create-excel-report-from-t/)
+Lär dig hur du fyller i en Excel-mall med data och genererar en rapport med Aspose.Cells för Java.
+
+### [Aspose Cells Smart Markers – Fyll i Excel-mall](./aspose-cells-smart-markers-populate-excel-template/)
+Lär dig hur du använder Smart Markers för att fylla i en Excel-mall med data med Aspose.Cells för Java.
 
 ## Ytterligare resurser
 

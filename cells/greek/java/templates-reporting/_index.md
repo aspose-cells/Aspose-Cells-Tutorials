@@ -56,6 +56,11 @@
 
 ### [Δημιουργία SmartMarker Φύλλου Εργασίας – Συμπλήρωση Φύλλου Εργασίας Excel](./create-workbook-smartmarker-populate-excel-workbook/)
 Μάθετε πώς να χρησιμοποιήσετε SmartMarker για να δημιουργήσετε και να γεμίσετε ένα φύλλο εργασίας Excel με δεδομένα σε Java.
+### [Συμπλήρωση προτύπου Excel με δεδομένα – Δημιουργία αναφοράς Excel από πρότυπο](./populate-excel-template-with-data-create-excel-report-from-t/)
+Μάθετε πώς να γεμίσετε ένα πρότυπο Excel με δεδομένα και να δημιουργήσετε αναφορά Excel μέσω του Aspose.Cells για Java.
+
+### [Aspose Cells Smart Markers – Συμπλήρωση προτύπου Excel](./aspose-cells-smart-markers-populate-excel-template/)
+Μάθετε πώς να γεμίσετε ένα πρότυπο Excel με δεδομένα χρησιμοποιώντας Smart Markers του Aspose.Cells για Java.
 
 ## Πρόσθετοι Πόροι
 

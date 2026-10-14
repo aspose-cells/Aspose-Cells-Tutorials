@@ -29,6 +29,9 @@ Unsere Tutorials zu Arbeitsmappenoperationen bieten umfassende Anleitungen für 
 ### [Aspose.Cells Java: Erstellen und Speichern von Excel-Arbeitsmappen – Eine Schritt-für-Schritt-Anleitung](./aspose-cells-java-create-save-excel-workbooks/)
 Erfahren Sie, wie Sie die Erstellung und Verwaltung von Excel-Arbeitsmappen mit Aspose.Cells für Java automatisieren. Diese Anleitung behandelt das Instanziieren, Speichern und Festlegen von Seiteneinrichtungseigenschaften.
 
+### [Excel-Arbeitsmappe in Java erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-excel-workbook-in-java-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Excel-Arbeitsmappe von Grund auf erstellen und speichern.
+
 ### [Excel-Arbeitsmappe mit Java erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-excel-workbook-java-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java eine neue Excel-Arbeitsmappe von Grund auf erstellen und speichern.
 ### [Neues Arbeitsbuch in Java erstellen – Schritt‑für‑Schritt‑Anleitung](./create-new-workbook-in-java-step-by-step-guide/)
@@ -339,6 +342,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java Excel-Arbeitsmappen effizient e
 
 ### [Meistern Sie die Excel XLSB-Dateiverwaltung in Java mit Aspose.Cells: Laden und Ändern von DB-Verbindungen](./excel-xlsb-management-aspose-cells-java/)
 Erfahren Sie, wie Sie Excel-XLSB-Dateien mit Aspose.Cells für Java verwalten. Dieses Tutorial behandelt das Laden, Ändern von Datenbankverbindungen und das effiziente Speichern von Änderungen.
+
+### [XLSB-Arbeitsmappe programmgesteuert erstellen – Vollständige Java-Anleitung](./create-xlsb-workbook-programmatically-full-java-guide/)
 
 ### [So exportieren Sie benutzerdefinierte Excel-Eigenschaften mit Aspose.Cells für Java in PDF](./export-excel-custom-properties-pdf-aspose-cells-java/)
 Erfahren Sie, wie Sie benutzerdefinierte Eigenschaften aus einer Excel-Arbeitsmappe mit Aspose.Cells für Java in eine PDF-Datei exportieren. Optimieren Sie Ihr Datenmanagement mit dieser Schritt-für-Schritt-Anleitung.

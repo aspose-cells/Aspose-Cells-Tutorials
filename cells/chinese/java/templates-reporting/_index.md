@@ -53,6 +53,11 @@
 ### [Aspose Cells 智能标记：加载 Excel 模板并从模板生成 Excel](./aspose-cells-smart-markers-load-excel-template-generate-exce/)
 ### [创建工作簿 SmartMarker – 填充 Excel 工作簿](./create-workbook-smartmarker-populate-excel-workbook/)
 学习如何使用 SmartMarker 在 Excel 工作簿中填充数据，实现自动化报表生成。
+### [使用数据填充 Excel 模板 – 从模板创建 Excel 报告](./populate-excel-template-with-data-create-excel-report-from-t/)
+学习如何使用 Aspose.Cells for Java 将数据填充到 Excel 模板并生成完整的报表。
+
+### [Aspose Cells 智能标记 – 填充 Excel 模板](./aspose-cells-smart-markers-populate-excel-template/)
+学习如何使用 Aspose.Cells 的智能标记将数据填充到 Excel 模板，实现自动化报表生成。
 
 ## 其他资源
 

@@ -54,6 +54,11 @@ Aprenda paso a paso a crear hojas de cálculo usando SmartMarkers en Java con As
 Aprenda a cargar una plantilla de Excel y generar archivos Excel usando SmartMarkers con Aspose.Cells para Java.
 ### [Crear SmartMarker de libro de trabajo – Poblar libro de Excel](./create-workbook-smartmarker-populate-excel-workbook/)
 Aprenda a crear un SmartMarker en un libro de Excel y rellenarlo con datos usando Aspose.Cells para Java.
+### [Rellenar plantilla de Excel con datos – Crear informe de Excel a partir de una plantilla](./populate-excel-template-with-data-create-excel-report-from-t/)
+Aprenda a rellenar una plantilla de Excel con datos y generar un informe usando Aspose.Cells para Java.
+
+### [Aspose Cells Smart Markers – Rellenar plantilla de Excel](./aspose-cells-smart-markers-populate-excel-template/)
+Aprenda a usar Smart Markers de Aspose.Cells para rellenar plantillas de Excel con datos dinámicos.
 
 ## Recursos adicionales
 

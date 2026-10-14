@@ -91,6 +91,8 @@ Erfahren Sie, wie Sie die SEQUENCE‑Funktion in Aspose.Cells für Java einsetze
 Erfahren Sie, wie Sie die WRAPCOLS-Funktion in Aspose.Cells für Java einsetzen, um Zelleninhalte automatisch zu umbrechen und Excel-Tabellen zu formatieren.
 ### [Wie Sie den Kotangens in Excel berechnen – Komplettanleitung](./how-to-calculate-cotangent-in-excel-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java den Kotangens in Excel berechnen und nutzen.
+### [Sortieren eindeutiger Werte in Excel – Vollständiger Java-Leitfaden zum Festlegen von Array-Formeln](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+Erfahren Sie, wie Sie in Excel eindeutige Werte sortieren und mithilfe von Array-Formeln in Java implementieren.
 
 ## Weitere Ressourcen
 

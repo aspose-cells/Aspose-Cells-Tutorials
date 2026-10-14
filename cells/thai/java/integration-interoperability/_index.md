@@ -57,6 +57,8 @@
 ### [สร้าง PowerPoint จาก Excel – คู่มือเต็มสำหรับ Java](./create-powerpoint-from-excel-full-java-guide/)
 ### [วิธีส่งออกแผนภูมิจาก Excel ไปยัง PowerPoint – คู่มือ Java ฉบับเต็ม](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
 เรียนรู้ขั้นตอนการส่งออกแผนภูมิจากไฟล์ Excel ไปยัง PowerPoint ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดครบถ้วน
+### [แปลง Excel เป็น PowerPoint – คู่มือเต็มขั้นตอน](./convert-excel-to-powerpoint-full-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ Excel ไปเป็น PowerPoint อย่างละเอียดด้วยขั้นตอนครบถ้วนโดยใช้ Aspose.Cells สำหรับ Java
 
 ### [แปลง Excel ไปเป็น PowerPoint – คู่มือเต็มสำหรับ Java](./convert-excel-to-powerpoint-complete-java-guide/)
 เรียนรู้วิธีแปลงไฟล์ Excel ไปเป็นงานนำเสนอ PowerPoint อย่างเต็มรูปแบบด้วย Aspose.Cells สำหรับ Java

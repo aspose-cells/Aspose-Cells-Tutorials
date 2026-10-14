@@ -55,6 +55,11 @@ Learn how to build a master-detail workbook using Aspose.Cells for Java, linking
 
 ### [Create Workbook SmartMarker – Populate Excel Workbook](./create-workbook-smartmarker-populate-excel-workbook/)
 Learn how to use SmartMarker to populate an Excel workbook programmatically with Aspose.Cells for Java.
+### [Populate Excel Template with Data – Create Excel Report from Template](./populate-excel-template-with-data-create-excel-report-from-t/)
+Learn how to populate an Excel template with data using Aspose.Cells for Java, creating reports directly from predefined templates.
+
+### [Aspose Cells Smart Markers – Populate Excel Template](./aspose-cells-smart-markers-populate-excel-template/)
+Learn how to use Smart Markers to populate an Excel template with data in Aspose.Cells for Java, creating dynamic reports efficiently.
 
 ## Additional Resources
 

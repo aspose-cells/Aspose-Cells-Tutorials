@@ -68,6 +68,8 @@ Lär dig hur du genererar PowerPoint-presentationer från Excel-data med Aspose.
 Lär dig hur du konverterar Excel-filer till PowerPoint-presentationer med Aspose.Cells och Aspose.Slides för Java i en komplett guide.
 ### [Hur man exporterar diagram från Excel till PowerPoint – Fullständig Java-guide](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
 Lär dig hur du med Aspose.Cells för Java exporterar Excel-diagram till PowerPoint-presentationer med komplett kodexempel.
+### [Konvertera Excel till PowerPoint – Fullständig steg‑för‑steg‑guide](./convert-excel-to-powerpoint-full-step-by-step-guide/)
+Lär dig hur du konverterar Excel-filer till PowerPoint-presentationer med Aspose.Cells för Java i en komplett steg‑för‑steg‑guide.
 
 ## Ytterligare resurser
 

@@ -41,6 +41,8 @@ Lär dig hur du exporterar CSV från Excel-celler med Aspose.Cells för Java i e
 Lär dig hur du enkelt exporterar Excel-filer till PDF med Aspose.Cells för Java. Vår steg-för-steg-guide förenklar processen. Börja konvertera idag!
 ### [Hur du skapar PDF från en arbetsbok – Komplett Java-guide](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
 Lär dig hur du skapar PDF-filer från en Excel-arbetsbok med Aspose.Cells för Java i denna kompletta steg-för-steg-guide.
+### [Konvertera Excel till PDF – Komplett Java‑guide med Aspose.Cells](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
+Lär dig hur du konverterar Excel-filer till PDF med Aspose.Cells i en detaljerad steg‑för‑steg‑Java‑guide.
 ### [Exportera Excel till XML Java](./export-excel-to-xml-java/)
 Lär dig hur du exporterar Excel till XML i Java med Aspose.Cells för Java. Steg-för-steg-guide med källkod för sömlös datakonvertering.
 ### [Dataimport från Excel](./data-import-from-excel/)
@@ -94,6 +96,18 @@ Lär dig hur du sparar Excel-filer som TSV och exporterar kalkylblad till text m
 Lär dig hur du bäddar in teckensnitt i SVG-filer från Excel med Aspose.Cells för Java i en komplett steg‑för‑steg‑guide.
 ### [Bädda in teckensnitt i HTML – Konvertera Excel till HTML och spara arbetsbok](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
 Lär dig hur du bäddar in teckensnitt när du konverterar Excel till HTML och sparar arbetsboken med Aspose.Cells för Java.
+### [Exportera Excel till SVG – Steg‑för‑steg Java‑guide](./how-to-export-excel-to-svg-step-by-step-java-guide/)
+Lär dig hur du exporterar Excel-filer till SVG-format med Aspose.Cells för Java i en detaljerad steg‑för‑steg‑guide.
+### [Konvertera Excel till PPTX: Komplett Java-guide](./convert-excel-to-pptx-complete-java-guide/)
+Lär dig hur du konverterar Excel-filer till PowerPoint PPTX med Aspose.Cells för Java i en komplett steg-för-steg-guide.
+### [Konvertera Excel till PDF/A med Java – Komplett steg‑för‑steg‑guide](./convert-excel-to-pdf-a-with-java-complete-step-by-step-guide/)
+Lär dig hur du konverterar Excel-filer till PDF/A-format med Aspose.Cells för Java i en detaljerad steg‑för‑steg-guide.
+### [Exportera diagram som bild – Komplett guide för att konvertera Excel till Word](./export-chart-as-image-complete-guide-to-convert-excel-to-wor/)
+Lär dig hur du exporterar diagram från Excel som bild och konverterar dem till Word med Aspose.Cells för Java i en steg‑för‑steg‑guide.
+### [Hur du bäddar in teckensnitt vid konvertering av Excel till HTML – Komplett guide](./how-to-embed-fonts-when-converting-excel-to-html-complete-gu/)
+Lär dig steg‑för‑steg hur du bäddar in teckensnitt när du konverterar Excel‑filer till HTML med Aspose.Cells för Java.
+### [Skapa FlatOPC-fil från Excel-arbetsbok – steg‑för‑steg‑guide](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
+Lär dig hur du skapar en FlatOPC-fil från en Excel-arbetsbok med Aspose.Cells för Java i en tydlig steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

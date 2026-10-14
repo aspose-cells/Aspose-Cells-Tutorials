@@ -40,6 +40,9 @@ Aspose.Cells for Java API का उपयोग करके Excel से ब�
 जावा के लिए Aspose.Cells का उपयोग करके आसानी से Excel फ़ाइलों को PDF में निर्यात करना सीखें। हमारी चरण-दर-स्तर मार्गदर्शिका प्रक्रिया को सरल बनाती है। आज ही कनवर्ट करना शुरू करें!
 ### [एक्सेल को XML जावा में निर्यात करें](./export-excel-to-xml-java/)
 Aspose.Cells for Java के साथ जावा में Excel को XML में एक्सपोर्ट करना सीखें। सहज डेटा रूपांतरण के लिए स्रोत कोड के साथ चरण-दर-स्तर मार्गदर्शिका।
+### [Excel को PDF में बदलें – Aspose.Cells के साथ पूर्ण जावा गाइड](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
+Aspose.Cells for Java का उपयोग करके Excel फ़ाइलों को PDF में बदलने की पूरी प्रक्रिया सीखें। चरण‑दर‑चरण कोड उदाहरणों के साथ।
+
 ### [एक्सेल से डेटा आयात करें](./data-import-from-excel/)
 जावा के लिए Aspose.Cells का उपयोग करके Excel से डेटा आयात करना सीखें। निर्बाध डेटा पुनर्प्राप्ति के लिए स्रोत कोड के साथ एक व्यापक गाइड।
 
@@ -107,6 +110,18 @@ Aspose.Cells for Java का उपयोग करके Excel से SVG फ�
 
 ### [Excel को HTML में निर्यात – फ्रीज़्ड पेनस के साथ पूर्ण गाइड](./export-excel-to-html-complete-guide-with-frozen-panes/)
 Aspose.Cells for Java का उपयोग करके Excel फ़ाइल को HTML में निर्यात करें और फ्रीज़्ड पेनस को बनाए रखें। चरण‑दर‑स्टेप गाइड।
+### [Excel वर्कबुक से FlatOPC फ़ाइल बनाएं – चरण‑दर‑चरण गाइड](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
+Aspose.Cells for Java का उपयोग करके Excel वर्कबुक से FlatOPC फ़ाइल बनाने की प्रक्रिया सीखें। चरण‑दर‑चरण कोड उदाहरणों के साथ।
+
+### [Excel को HTML में फ़ॉन्ट एम्बेड करना – पूर्ण गाइड](./how-to-embed-fonts-when-converting-excel-to-html-complete-gu/)
+
+### [Excel को PPTX में बदलें: पूर्ण जावा गाइड](./convert-excel-to-pptx-complete-java-guide/)
+
+### [जावा के साथ Excel को PDF/A में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-excel-to-pdf-a-with-java-complete-step-by-step-guide/)
+
+### [चार्ट को इमेज के रूप में निर्यात – एक्सेल को वर्ड में बदलने के लिए पूर्ण गाइड](./export-chart-as-image-complete-guide-to-convert-excel-to-wor/)
+
+### [Excel को SVG में निर्यात कैसे करें – चरण‑दर‑चरण जावा गाइड](./how-to-export-excel-to-svg-step-by-step-java-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

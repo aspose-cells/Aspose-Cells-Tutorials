@@ -33,6 +33,8 @@ Aspose.Cells for Java를 사용하여 Excel 통합 문서 생성 및 관리를 �
 Aspose.Cells for Java를 사용하여 새 Excel 통합 문서를 생성하고 저장하는 방법을 단계별로 안내합니다.
 ### [워크북 일본 달력 만들기 – 완전 Java 튜토리얼](./create-workbook-japanese-calendar-complete-java-tutorial/)
 Aspose.Cells for Java를 사용하여 일본 달력 기능이 포함된 워크북을 만드는 방법을 단계별로 안내합니다.
+### [Java에서 Excel 통합 문서 만들기 – 완전 단계별 가이드](./create-excel-workbook-in-java-complete-step-by-step-guide/)
+Aspose.Cells for Java를 사용해 Excel 통합 문서를 처음부터 만들고 저장하는 방법을 단계별로 안내합니다.
 
 ### [Aspose.Cells Java: 버전 표시 및 공유 통합 문서 만들기](./aspose-cells-java-display-version-create-shared-workbook/)
 Aspose.Words Java에 대한 코드 튜토리얼
@@ -44,7 +46,7 @@ Aspose.Cells for Java를 사용하여 Excel 통합 문서를 처음부터 만들
 Aspose.Cells를 사용하여 Java에서 Excel 통합 문서를 조작하는 방법을 알아보세요. 이 가이드에서는 통합 문서 초기화, 워크시트 및 이미지 추가, 그림 위치 설정, 효율적인 파일 저장 방법을 다룹니다.
 
 ### [Java용 Aspose.Cells를 사용하여 Excel을 Markdown으로 로드하고 저장하는 방법](./aspose-cells-java-excel-to-markdown/)
-Aspose.Cells for Java를 사용하여 Excel 파일을 마크다운 형식으로 효율적으로 변환하는 방법을 알아보세요. 이 가이드에서는 설정, 로드, 저장 및 실제 활용 방법을 다룹니다.
+Aspose.Cells for Java를 사용하여 Excel 파일을 마크다운 형식으로 효율적으로 변환하는 방법을 알아보세요. 이 가이드는 설정, 로드, 저장 및 실제 활용 방법을 다룹니다.
 
 ### [Aspose.Cells Java를 사용하여 Excel을 PDF로 변환](./aspose-cells-java-excel-to-pdf-conversion/)
 Aspose.Words Java에 대한 코드 튜토리얼
@@ -494,6 +496,8 @@ Aspose.Cells for Java를 사용하여 워크북을 XLSX 형식으로 저장하�
 Aspose.Cells for Java를 사용하여 Java에서 Excel 워크북을 만들고 저장하는 방법을 단계별로 안내합니다.
 
 
+### [프로그램 방식으로 XLSB 워크북 만들기 – 전체 Java 가이드](./create-xlsb-workbook-programmatically-full-java-guide/)
+Aspose.Cells for Java를 사용하여 프로그램 방식으로 XLSB 워크북을 생성하고 저장하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

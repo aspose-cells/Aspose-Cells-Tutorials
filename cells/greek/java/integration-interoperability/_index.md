@@ -66,6 +66,8 @@
 Μάθετε πώς να μετατρέψετε αρχεία Excel σε παρουσιάσεις PowerPoint με Aspose.Cells για Java, βήμα προς βήμα.
 ### [Πώς να Εξάγετε Διαγράμματα από το Excel στο PowerPoint – Πλήρης Οδηγός Java](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
 Μάθετε πώς να εξάγετε διαγράμματα Excel σε παρουσιάσεις PowerPoint χρησιμοποιώντας Aspose.Cells για Java, βήμα-βήμα με παραδείγματα κώδικα.
+### [Μετατροπή Excel σε PowerPoint – Πλήρης Οδηγός Βήμα‑βήμα](./convert-excel-to-powerpoint-full-step-by-step-guide/)
+Μάθετε πώς να μετατρέπετε αρχεία Excel σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Cells για Java, με πλήρη παραδείγματα κώδικα.
 
 ## Πρόσθετοι Πόροι
 

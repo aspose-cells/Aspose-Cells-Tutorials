@@ -91,6 +91,8 @@ Aspose.Cells for Java を使用して、Excel ワークブックで SEQUENCE 関
 Aspose.Cells for Java を使用して WRAPCOLS 関数を適用し、Excel シートの列幅を自動調整する手順を詳しく解説します。
 ### [Excelで余接関数を計算する方法 – 完全ガイド](./how-to-calculate-cotangent-in-excel-complete-guide/)
 Excelでcotangent関数を使用し、余接の計算方法と実装例をステップバイステップで解説します。
+### [Excelでユニーク値を並べ替える：配列数式設定の完全Javaガイド](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+Aspose.Cells for Java を使用して、配列数式でユニークな値をソートし、Excel シートに適用する方法を学びます。
 
 ## 追加リソース
 

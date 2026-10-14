@@ -91,6 +91,8 @@ Aspose.Words Java 程式碼教程
 了解如何在 Aspose.Cells for Java 中使用 WRAPCOLS 函數，完整示範 Excel 中的列換行操作。
 ### [如何在 Excel 中計算餘切 – 完整指南](./how-to-calculate-cotangent-in-excel-complete-guide/)
 了解如何在 Excel 中使用公式計算餘切值，並在 Aspose.Cells for Java 中實作相關功能。
+### [在 Excel 中排序唯一值 – 完整的 Java 陣列公式設定指南](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+了解如何使用 Aspose.Cells for Java 在 Excel 中設定陣列公式，以排序唯一值並提升資料處理效率。
 
 ## 其他資源
 

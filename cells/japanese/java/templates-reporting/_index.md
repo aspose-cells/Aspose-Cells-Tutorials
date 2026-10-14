@@ -54,6 +54,11 @@ Smart Markers を活用し、Java で動的にワークシートを作成する�
 Aspose.Cells のスマートマーカー機能でテンプレートを読み込み、データから Excel ファイルを自動生成する方法を学びます。
 ### [ワークブック SmartMarker の作成 – Excel ワークブックにデータを入力](./create-workbook-smartmarker-populate-excel-workbook/)
 SmartMarker を使用して、Excel ワークブック全体にデータを自動的に埋め込む方法を学びます。
+### [データで Excel テンプレートを埋め込む – テンプレートから Excel レポートを作成する](./populate-excel-template-with-data-create-excel-report-from-t/)
+Excel テンプレートにデータを埋め込み、テンプレートから動的なレポートを生成する方法を学びます。
+
+### [Aspose Cells スマートマーカー – Excel テンプレートにデータを埋め込む](./aspose-cells-smart-markers-populate-excel-template/)
+SmartMarker を使用して Excel テンプレートにデータを埋め込み、動的なレポートを自動生成する方法を学びます。
 
 ## 追加リソース
 

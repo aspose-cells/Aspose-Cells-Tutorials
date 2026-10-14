@@ -46,6 +46,11 @@ Akıllı işaretleyicileri kullanarak Aspose.Cells for Java ile dinamik Excel ra
 
 ### [Aspose.Cells (Java) ile Ana-Detay Çalışma Kitabı Oluşturma](./create-master-detail-workbook-with-aspose-cells-java/)
 Aspose.Cells for Java kullanarak ana ve detay sayfalarından oluşan bir çalışma kitabı oluşturmayı ve veri bağlamayı öğrenin.
+### [Veriyle Excel Şablonunu Doldurma – Şablondan Excel Raporu Oluşturma](./populate-excel-template-with-data-create-excel-report-from-t/)
+Excel şablonunu veriyle doldurup, şablondan dinamik bir Excel raporu oluşturmayı öğrenin.
+
+### [Aspose Cells Akıllı İşaretleyiciler – Excel Şablonunu Doldurma](./aspose-cells-smart-markers-populate-excel-template/)
+Aspose.Cells for Java ile SmartMarkers kullanarak Excel şablonunu veriyle doldurmayı öğrenin.
 
 ### [Smart Markers ile Çalışma Sayfaları Oluşturma – Tam Java Rehberi](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
 

@@ -49,6 +49,7 @@
 ### [كيفية استخدام SEQUENCE في مصنف Excel Java – دليل خطوة بخطوة](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
 ### [كيفية استخدام WRAPCOLS في Java – مثال كامل على Excel WRAPCOLS](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 ### [كيفية حساب القاطع في Excel – دليل شامل](./how-to-calculate-cotangent-in-excel-complete-guide/)
+### [فرز القيم الفريدة في Excel – دليل Java كامل لتعيين صيغ المصفوفة](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 
 ## موارد إضافية
 

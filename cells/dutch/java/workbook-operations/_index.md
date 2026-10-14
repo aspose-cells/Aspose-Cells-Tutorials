@@ -135,7 +135,7 @@ Leer hoe je FODS-bestanden in Java opent en bewerkt met Aspose.Cells. Deze handl
 Leer hoe u de Java-versie van Aspose.Cells kunt controleren en het maximale aantal rijen/kolommen in XLS/XLSX-formaat kunt bepalen. Beheer werkmapbewerkingen met Maven/Gradle-installatie.
 
 ### [Uitgebreide handleiding voor werkmapbeheer met Aspose.Cells Java](./aspose-cells-java-workbook-management/)
-Beheer werkmapbeheer door Excel-bestanden efficiënt te combineren met Aspose.Cells voor Java. Leer stapsgewijze integratie- en optimalisatietechnieken.
+Beheer werkmapbeheer door Excel-bestanden efficiënt te combineren met Aspose.Cells voor Java. Leer stapsgewijze integratie- en optimalisatetechnieken.
 
 ### [Beheer van werkmappen in Aspose.Cells voor Java: beheer Excel-versies en -indelingen efficiënt](./aspose-cells-java-workbook-management-guide/)
 Leer hoe u Excel-werkmapversies en -indelingen beheert met Aspose.Cells voor Java. Haal versiegegevens op, configureer Open XML-compatibiliteit en meer.
@@ -223,6 +223,8 @@ Een codetutorial voor Aspose.Words Java
 
 ### [Nieuwe werkmap maken in Java – Stapsgewijze handleiding](./create-new-workbook-in-java-step-by-step-guide/)
 Leer hoe u een nieuwe Excel-werkmap maakt in Java met Aspose.Cells, inclusief codevoorbeelden en opslaan.
+### [Excel-werkmap maken in Java – Complete stap‑voor‑stap handleiding](./create-excel-workbook-in-java-complete-step-by-step-guide/)
+Leer hoe u een Excel-werkmap maakt in Java met een volledige stap‑voor‑stap handleiding.
 
 ### [Excel-werkmappen maken en aanpassen met Aspose.Cells Java: een stapsgewijze handleiding](./create-customize-excel-workbooks-aspose-cells-java/)
 Leer hoe u het maken en aanpassen van Excel-werkmappen kunt automatiseren met Aspose.Cells voor Java. Verbeter uw productiviteit door werkmapbewerkingen onder de knie te krijgen.
@@ -505,6 +507,8 @@ Leer hoe u een werkmap met een Japanse kalender maakt met Aspose.Cells voor Java
 - [Gratis ondersteuning](https://forum.aspose.com/)
 - [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
 
+### [XLSB-werkmap programmatically maken – volledige Java-gids](./create-xlsb-workbook-programmatically-full-java-guide/)
+Leer hoe u met Aspose.Cells voor Java een XLSB-werkmap programmatically kunt maken en opslaan met volledige codevoorbeelden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

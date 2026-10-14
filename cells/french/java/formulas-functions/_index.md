@@ -92,6 +92,8 @@ Apprenez à appliquer la fonction WRAPCOLS avec Aspose.Cells pour Java afin de t
 Apprenez à appliquer la fonction SEQUENCE d'Excel avec Aspose.Cells pour Java afin de générer des séries de données dynamiques dans vos classeurs.
 ### [Comment calculer la cotangente dans Excel – Guide complet](./how-to-calculate-cotangent-in-excel-complete-guide/)
 Apprenez à calculer la fonction cotangente dans Excel en utilisant les formules appropriées et à gérer les cas particuliers.
+### [Trier les valeurs uniques dans Excel – Guide complet Java pour définir des formules matricielles](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+Apprenez à trier les valeurs uniques dans Excel en définissant des formules matricielles avec Aspose.Cells pour Java.
 
 ## Ressources supplémentaires
 

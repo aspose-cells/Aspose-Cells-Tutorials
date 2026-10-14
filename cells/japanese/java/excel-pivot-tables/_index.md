@@ -52,6 +52,10 @@ Aspose.Cells for Java を使用して、ピボットテーブルから PNG 画�
 Aspose.Cells for Java を使って、Excel のピボットテーブルを別のシートやブックにコピーする方法をステップごとに解説します。
 ### [Java でピボットテーブルを PNG にエクスポート – 完全プログラミングガイド](./export-pivot-table-to-png-in-java-complete-programming-guide/)
 Aspose.Cells for Java を使用して、ピボットテーブルを PNG 画像としてエクスポートする方法を学びます。
+### [Javaで範囲をコピーする方法 – Aspose.Cellsでピボットテーブルをコピー](./how-to-copy-range-in-java-copy-pivot-table-with-aspose-cells/)
+Aspose.Cells を使用して Java で範囲をコピーし、ピボットテーブルを複製する手順を学びます。
+### [ピボットテーブルをPNGとしてエクスポートする方法 – 完全なJavaガイド](./how-to-export-pivot-table-as-png-complete-java-guide/)
+Aspose.Cells を使用して Java でピボットテーブルを PNG 画像としてエクスポートする手順を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

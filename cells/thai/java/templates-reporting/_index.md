@@ -55,7 +55,11 @@
 
 ### [สร้าง SmartMarker ของ Workbook – เติมข้อมูลใน Excel Workbook](./create-workbook-smartmarker-populate-excel-workbook/)
 เรียนรู้วิธีใช้ SmartMarker เพื่อสร้างและเติมข้อมูลลงใน Workbook ของ Excel อย่างอัตโนมัติด้วย Aspose.Cells สำหรับ Java
+### [เติมข้อมูลลงในเทมเพลต Excel – สร้างรายงาน Excel จากเทมเพลต](./populate-excel-template-with-data-create-excel-report-from-t/)
+เรียนรู้วิธีเติมข้อมูลลงในเทมเพลต Excel เพื่อสร้างรายงาน Excel อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java
 
+### [Aspose Cells Smart Markers – เติมข้อมูลลงในเทมเพลต Excel](./aspose-cells-smart-markers-populate-excel-template/)
+เรียนรู้วิธีใช้ Smart Markers ของ Aspose.Cells เพื่อเติมข้อมูลลงในเทมเพลต Excel และสร้างรายงานอัตโนมัติ
 
 ## แหล่งข้อมูลเพิ่มเติม
 

@@ -45,6 +45,11 @@
 学习如何使用 Aspose.Cells for Java 轻松将 Excel 文件导出为 PDF。我们的分步指南简化了整个流程。立即开始转换！
 ### [如何从工作簿创建 PDF – 完整 Java 指南](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
 学习如何使用 Aspose.Cells for Java 将工作簿导出为 PDF。完整指南包含示例代码，帮助您轻松实现 PDF 转换。
+### [将 Excel 转换为 PDF – 使用 Aspose.Cells 的完整 Java 指南](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
+学习如何使用 Aspose.Cells for Java 将 Excel 文件完整转换为 PDF，提供详细代码示例和分步指南。
+
+### [使用 Java 将 Excel 转换为 PDF/A – 完整分步指南](./convert-excel-to-pdf-a-with-java-complete-step-by-step-guide/)
+学习如何使用 Aspose.Cells for Java 将 Excel 文件转换为 PDF/A 格式。提供完整代码示例和分步指南，帮助实现合规文档输出。
 ### [将 Excel 导出为 XML Java](./export-excel-to-xml-java/)
 学习如何使用 Aspose.Cells for Java 将 Excel 导出为 XML。本指南包含源代码，可帮助您实现无缝数据转换。
 
@@ -110,6 +115,16 @@
 学习使用 Aspose.Cells for Java 将 Excel 中的字体嵌入 SVG，提供完整代码示例，实现高质量矢量图输出。
 ### [在 HTML 中嵌入字体 – 将 Excel 转换为 HTML 并保存工作簿](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
 学习如何使用 Aspose.Cells for Java 将 Excel 转换为 HTML，嵌入字体并保存工作簿，实现高质量网页展示。
+### [在将 Excel 转换为 HTML 时嵌入字体 – 完整指南](./how-to-embed-fonts-when-converting-excel-to-html-complete-gu/)
+学习如何使用 Aspose.Cells for Java 在将 Excel 转换为 HTML 时嵌入字体。提供完整代码示例和分步指南。
+### [将 Excel 转换为 PPTX：完整 Java 指南](./convert-excel-to-pptx-complete-java-guide/)
+学习如何使用 Aspose.Cells for Java 将 Excel 文件转换为 PPTX 演示文稿。提供完整的代码示例和分步指南。
+### [将图表导出为图像 – 将 Excel 转换为 Word 的完整指南](./export-chart-as-image-complete-guide-to-convert-excel-to-wor/)
+学习如何使用 Aspose.Cells for Java 将 Excel 中的图表导出为图像，并嵌入 Word 文档。提供完整代码示例和分步指南。
+### [如何将 Excel 导出为 SVG – 步骤详解 Java 指南](./how-to-export-excel-to-svg-step-by-step-java-guide/)
+学习使用 Aspose.Cells for Java 将 Excel 工作簿导出为 SVG 矢量图。提供完整代码示例和分步指南，帮助您实现高质量图形输出。
+### [从 Excel 工作簿创建 FlatOPC 文件 – 步骤指南](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
+学习如何使用 Aspose.Cells for Java 将 Excel 工作簿导出为 FlatOPC 文件，提供完整代码示例和分步说明。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

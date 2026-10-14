@@ -90,6 +90,8 @@ Java Excel çalışma kitabında SEQUENCE işlevini nasıl kullanacağınızı a
 ### [Java'da WRAPCOLS Nasıl Kullanılır – Tam Excel WRAPCOLS Örneği](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 ### [Excel'de Kotanjantı Hesaplama – Tam Kılavuz](./how-to-calculate-cotangent-in-excel-complete-guide/)
 Excel'de kotanjant fonksiyonunu kullanarak trigonometrik hesaplamalar yapmayı öğrenin.
+### [Excel'de Tekil Değerleri Sıralama – Dizi Formüllerini Ayarlamak için Tam Java Rehberi](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+Java ve Aspose.Cells ile Excel'de benzersiz değerleri sıralamayı ve dizi formüllerini ayarlamayı adım adım öğrenin.
 
 ## Ek Kaynaklar
 

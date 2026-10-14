@@ -54,6 +54,11 @@ Aprenda a gerar planilhas usando Smart Markers no Aspose.Cells para Java com est
 Aprenda a usar Smart Markers para carregar um modelo Excel e gerar planilhas dinamicamente com Aspose.Cells para Java.
 ### [Criar SmartMarker de Pasta de Trabalho – Preencher Pasta de Trabalho Excel](./create-workbook-smartmarker-populate-excel-workbook/)
 Aprenda a usar SmartMarkers para criar e preencher uma pasta de trabalho Excel programaticamente com Aspose.Cells para Java.
+### [Preencher modelo Excel com dados – Criar relatório Excel a partir do modelo](./populate-excel-template-with-data-create-excel-report-from-t/)
+Aprenda a preencher um modelo Excel com dados e gerar relatórios dinamicamente usando Aspose.Cells para Java.
+
+### [Aspose Cells Marcadores Inteligentes – Preencher Modelo do Excel](./aspose-cells-smart-markers-populate-excel-template/)
+Aprenda a usar Marcadores Inteligentes do Aspose.Cells para Java para preencher modelos do Excel com dados dinamicamente.
 
 ## Recursos adicionais
 
