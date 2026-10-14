@@ -224,7 +224,12 @@ When you need to generate a report with tens of thousands of rows, enable stream
 
 ```java
 WorkbookSettings settings = new WorkbookSettings();
-settings.setMemorySetting(Memory
+settings.setMemorySetting(MemorySetting.MEMORY_PREFERENCE);
+
+LoadOptions loadOptions = new LoadOptions(LoadFormat.XLSX);
+loadOptions.setMemorySetting(MemorySetting.MEMORY_PREFERENCE);
+Workbook workbook = new Workbook("YOUR_TEMPLATE_PATH/OrderTemplate.xlsx", loadOptions);
+```
 
 
 ## What Should You Learn Next?

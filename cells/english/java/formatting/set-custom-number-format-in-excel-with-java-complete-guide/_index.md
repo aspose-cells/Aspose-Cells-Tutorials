@@ -250,8 +250,13 @@ public class MinimalDemo {
         Workbook wb = new Workbook();
         Worksheet ws = wb.getWorksheets().get(0);
         Cell c = ws.getCells().get("A1");
-        c
-
+        c.putValue("R02-04-01");
+        c.setNumberFormat("[$-ja-JP]ggge年m月d日");
+        wb.calculateFormula();
+        System.out.println(c.getDateTime().getTime());
+    }
+}
+```
 
 ## What Should You Learn Next?
 
