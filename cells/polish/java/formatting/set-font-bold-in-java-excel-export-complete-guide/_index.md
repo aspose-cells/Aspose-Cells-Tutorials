@@ -303,8 +303,27 @@ public class ExcelExportDemo {
         sheet.getCells().importDataTable(table, true, 0, 0, styles);
     }
 
-    private static void addConditionalFormatting(Worksheet sheet
+    private static void addConditionalFormatting(Worksheet sheet) {
+        // Define the range: rows 2‑5 (zero‑based), column C (index 2)
+        int firstRow = 1;  // row after header
+        int lastRow = sheet.getCells().getMaxDataRow();
+        int scoreCol = 2;  // zero‑based index for "Score"
 
+        // Build the range string, e.g., "C2:C5"
+        String range = new StyleRegion(firstRow, scoreCol, lastRow, scoreCol).getRefersTo();
+
+        // Create a new conditional formatting collection
+        FormatConditionCollection fcc = sheet.getConditionalFormattings().add();
+
+        // Add a condition: cell value > 90
+        FormatCondition condition = fcc.addCondition(FormatConditionType.CELL_VALUE, OperatorType.GREATER_THAN, "90", null);
+        condition.getStyle().setBackgroundColor(Color.getLightGreen());
+
+        // Apply the condition to the range
+        fcc.addArea(new CellArea(firstRow, scoreCol, lastRow, scoreCol));
+    }
+}
+```
 
 ## Co powinieneś nauczyć się dalej?
 
