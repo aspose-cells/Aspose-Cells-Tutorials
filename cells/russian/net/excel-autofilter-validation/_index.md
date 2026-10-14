@@ -40,16 +40,11 @@
 Узнайте, как извлечь первую таблицу из рабочей книги Excel с помощью Aspose.Cells в .NET, следуя нашему полному руководству.
 ### [Как использовать автофильтр в автоматизации Excel на C# – Полное пошаговое руководство](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
 Узнайте, как реализовать автофильтр в Excel с помощью C# и Aspose.Cells, следуя полному пошаговому руководству.
-
-
-
-
-
-
-
-
 ### [Удаление автофильтра в Excel на C# – Полное пошаговое руководство](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Узнайте, как полностью удалить автофильтр из Excel с помощью Aspose.Cells в C# в этом подробном пошаговом руководстве.
+### [Удалить автофильтр в Excel с C# – пошаговое руководство](./remove-autofilter-in-excel-with-c-step-by-step-guide/)
+Узнайте, как полностью удалить автофильтр из Excel с помощью Aspose.Cells в C# в этом подробном пошаговом руководстве.
+
 ### [Очистка UI фильтра в Excel с C# – Удалить кнопку автофильтра](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 Узнайте, как убрать кнопку автофильтра в Excel с помощью Aspose.Cells для .NET и C#.
 ### [Скрытие стрелок фильтра в Excel с C# – Полное руководство](./hide-filter-arrows-excel-with-c-complete-guide/)

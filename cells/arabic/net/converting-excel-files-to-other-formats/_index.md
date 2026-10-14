@@ -106,6 +106,8 @@
 
 ### [إنشاء Word من Excel – دليل سريع C#](./create-word-from-excel-quick-c-guide/)
 تعلم كيفية إنشاء مستند Word من ملف Excel باستخدام Aspose.Cells لـ .NET في دليل سريع خطوة بخطوة.
+### [حفظ ملف Excel كـ TXT باستخدام Aspose.Cells في C#](./how-to-save-excel-as-txt-using-aspose-cells-in-c/)
+دليل خطوة بخطوة لحفظ ملفات Excel بصيغة TXT باستخدام Aspose.Cells وC#.
 ### [حفظ ملف Excel كنص – دليل C# كامل لتصدير Excel إلى TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
 تعلم كيفية حفظ مصنف Excel كملف نصي (TXT) باستخدام C# و Aspose.Cells خطوة بخطوة.
 ### [كيفية تصدير Excel – دليل النص المفصول بعلامات التبويب](./how-to-export-excel-tab-delimited-text-guide/)

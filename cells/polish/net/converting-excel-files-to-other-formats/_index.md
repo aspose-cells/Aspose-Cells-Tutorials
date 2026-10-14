@@ -105,6 +105,8 @@ Dowiedz się, jak krok po kroku konwertować plik Excel na prezentację PowerPoi
 Dowiedz się, jak zapisać plik Excel jako txt w C#, zachowując znaczące cyfry liczb, korzystając z Aspose.Cells.
 ### [Zapisz Excel jako tekst – Kompletny przewodnik C# do eksportu Excela do TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
 Dowiedz się, jak w C# programowo zapisać arkusz Excel jako plik tekstowy TXT przy użyciu Aspose.Cells.
+### [Jak zapisać Excel jako TXT przy użyciu Aspose.Cells w C#](./how-to-save-excel-as-txt-using-aspose-cells-in-c/)
+Dowiedz się, jak programowo zapisać plik Excel jako TXT przy użyciu Aspose.Cells w C#.
 ### [Jak wyeksportować Excel do PowerPoint przy użyciu C# – Kompletny przewodnik](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
 Dowiedz się, jak programowo konwertować arkusze Excel na prezentacje PowerPoint przy użyciu C# i Aspose.Cells w pełnym przewodniku krok po kroku.
 ### [Utworzenie dokumentu Word z Excela – szybki przewodnik C#](./create-word-from-excel-quick-c-guide/)

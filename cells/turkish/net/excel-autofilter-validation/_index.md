@@ -50,6 +50,8 @@ Aspose.Cells ile C# içinde AutoFilter özelliğini adım adım nasıl uygulayac
 
 ### [C# ile Excel Otomatik Filtreyi Kaldırma – Tam Adım Adım Kılavuz](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Aspose.Cells for .NET kullanarak Excel'deki otomatik filtreyi nasıl kaldıracağınızı adım adım öğrenin.
+### [C# ile Excel'de AutoFilter'ı Kaldırma – Adım Adım Kılavuz](./remove-autofilter-in-excel-with-c-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak Excel'de AutoFilter'ı adım adım nasıl kaldıracağınızı öğrenin.
 ### [C# ile Excel'de Filtre Arayüzünü Temizle – AutoFilter Düğmesini Kaldır](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 Aspose.Cells for .NET kullanarak Excel'de AutoFilter düğmesini kaldırarak filtre arayüzünü nasıl temizleyeceğinizi adım adım öğrenin.
 ### [C# ile Excel'de Filtre Oklarını Gizleme – Tam Kılavuz](./hide-filter-arrows-excel-with-c-complete-guide/)

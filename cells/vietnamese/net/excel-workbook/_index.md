@@ -43,7 +43,7 @@ Bảo mật là điều cần thiết, đặc biệt đối với các sổ làm
 
 ## Tăng năng suất với Regex
 
-Bạn có phải là người hâm mộ regex không? Nếu không, bạn có thể muốn trở thành một người hâm mộ! Biểu thức chính quy có thể hợp lý hóa đáng kể các tác vụ của bạn, đặc biệt là khi làm việc với các tập dữ liệu lớn trong Excel. Hướng dẫn của chúng tôi về [Thay thế Regex](./regex-replace/) hướng dẫn bạn cách triển khai các hàm thay thế biểu thức chính quy trong bảng tính, giúp bạn tăng cường cả năng suất và độ chính xác.
+Bạn có phải là người hâm mộ regex không? Nếu không, bạn có thể muốn trở thành một người hâm mộ! Biểu thức chính quy có thể hợp lý hóa đáng kể các tác vụ của bạn, đặc biệt khi làm việc với các tập dữ liệu lớn trong Excel. Hướng dẫn của chúng tôi về [Thay thế Regex](./regex-replace/) hướng dẫn bạn cách triển khai các hàm thay thế biểu thức chính quy trong bảng tính, giúp bạn tăng cường cả năng suất và độ chính xác.
 
 ## Cập nhật các mục Power Query
 
@@ -98,6 +98,15 @@ Vậy tại sao không nắm bắt cơ hội này để nâng cao kỹ năng Exc
 
 
 
+| [Tạo sổ làm việc Excel và thêm ngày vào worksheet trong C#](./create-excel-workbook-and-add-date-to-worksheet-in-c/) | Hướng dẫn tạo sổ làm việc Excel và ghi ngày vào worksheet bằng C# với Aspose.Cells. |  
+
+
+
+
+
+
+
+
 | [Tạo sổ làm việc Excel với bảng định dạng – Hướng dẫn từng bước](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo sổ làm việc Excel với bảng được định dạng đẹp mắt bằng Aspose.Cells cho .NET. |  
 
 
@@ -113,7 +122,7 @@ Vậy tại sao không nắm bắt cơ hội này để nâng cao kỹ năng Exc
 | [Tạo sổ làm việc Excel trong C# – Hướng dẫn từng bước](./create-excel-workbook-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo sổ làm việc Excel bằng C# với Aspose.Cells, bao gồm các bước mã mẫu. |  
 | [Tạo sổ làm việc Excel bằng C# – Hướng dẫn từng bước](./create-excel-workbook-c-step-by-step-guide/) | Tìm hiểu cách tạo sổ làm việc Excel bằng C# với hướng dẫn chi tiết từng bước. |  
 | [Tạo sổ làm việc mới trong C# – Hướng dẫn từng bước](./create-new-workbook-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo một sổ làm việc Excel mới bằng C# với Aspose.Cells, bao gồm các bước mã mẫu. |  
-| [Tạo sổ làm việc Excel mới trong C# – Hướng dẫn từng bước](./create-new-excel-workbook-in-c-step-by-step-guide/) | Tìm hiểu cách tạo một sổ làm việc Excel mới bằng C# với Aspose.Cells qua hướng dẫn chi tiết từng bước. |  
+| [Tạo sổ làm việc Excel mới trong C# – Hướng dẫn từng bước](./create-new-excel-workbook-in-c-step-by-step-guide/) | Tìm hiểu cách tạo sổ làm việc Excel mới bằng C# với Aspose.Cells qua hướng dẫn chi tiết từng bước. |  
 | [Cách tạo sổ làm việc trong C# – Hướng dẫn từng bước](./how-to-create-workbook-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo sổ làm việc Excel bằng C# với Aspose.Cells, từng bước một. |  
 | [Tạo tệp Excel bằng C# – Hướng dẫn từng bước](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo tệp Excel bằng C# sử dụng Aspose.Cells cho .NET, từng bước một. |  
 | [Tạo Sổ làm việc mới – Chuyển đổi Markdown sang Excel trong C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Hướng dẫn cách tạo sổ làm việc mới và chuyển đổi nội dung Markdown thành tệp Excel bằng C# và Aspose.Cells. |

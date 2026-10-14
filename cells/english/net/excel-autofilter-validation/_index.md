@@ -48,6 +48,8 @@ Step-by-step guide to applying AutoFilter in Excel using C# and Aspose.Cells, si
 
 ### [remove autofilter excel in C# – Complete Step‑by‑Step Guide](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Learn how to remove autofilter from Excel using Aspose.Cells in .NET with this comprehensive step-by-step guide.
+### [Remove AutoFilter in Excel with C# – step‑by‑step guide](./remove-autofilter-in-excel-with-c-step-by-step-guide/)
+Learn how to remove AutoFilter from Excel using Aspose.Cells in C# with a clear step‑by‑step guide.
 ### [Clear filter UI in Excel with C# – Remove AutoFilter Button](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 Learn how to hide or remove the AutoFilter button in Excel using Aspose.Cells for .NET with C#.
 ### [hide filter arrows excel with C# – Complete Guide](./hide-filter-arrows-excel-with-c-complete-guide/)

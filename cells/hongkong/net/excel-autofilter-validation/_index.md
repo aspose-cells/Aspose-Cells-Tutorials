@@ -50,6 +50,8 @@
 
 ### [在 C# 中移除 Excel 自動篩選 – 完整步驟指南](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 透過本完整的逐步指南，了解如何在 C# 中使用 Aspose.Cells 移除 Excel 的自動篩選功能。
+### [在 C# 中移除 Excel 自動篩選 – 步驟指南](./remove-autofilter-in-excel-with-c-step-by-step-guide/)
+本完整的逐步指南說明如何在 C# 中使用 Aspose.Cells 移除 Excel 的自動篩選功能。
 ### [使用 C# 清除 Excel 篩選 UI – 移除 AutoFilter 按鈕](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 透過本教學了解如何在 Excel 中使用 C# 隱藏或移除自動篩選按鈕，提升使用者介面整潔度。
 ### [使用 C# 隱藏 Excel 篩選箭頭 – 完整指南](./hide-filter-arrows-excel-with-c-complete-guide/)

@@ -118,7 +118,8 @@ Excel sayfalarınızdaki tanımlı adlar, verilerinizi yönetmenin kullanışlı
 | [C# ile Programlı Olarak Excel Dosyası Oluşturma – Adım Adım Kılavuz](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Aspose.Cells for .NET kullanarak C# ile sıfırdan Excel dosyası oluşturmayı adım adım öğrenin. |  
 | [Yeni Çalışma Kitabı Oluştur – Markdown'ı C# ile Excel'e Dönüştür](./create-new-workbook-convert-markdown-to-excel-in-c/) | Aspose.Cells for .NET kullanarak C# ile Markdown dosyasını Excel çalışma kitabına dönüştürmeyi adım adım öğrenin. |  
 | [C# ile Çalışma Kitabı Oluşturma – Değer Yazma ve Sayıyı Biçimlendirme](./how-to-create-workbook-in-c-write-value-format-number/) | Aspose.Cells for .NET kullanarak C# ile yeni bir çalışma kitabı oluşturup hücreye değer yazma ve sayı biçimlendirme adımlarını öğrenin. |
-| [Aspose.Cells ile Excel Çalışma Kitabı Oluşturma – Tam Kılavuz](./create-excel-workbook-with-aspose-cells-full-guide/) | Aspose.Cells for .NET kullanarak sıfırdan tam bir Excel çalışma kitabı oluşturmayı adım adım öğrenin. |  
+| [Aspose.Cells ile Excel Çalışma Kitabı Oluşturma – Tam Kılavuz](./create-excel-workbook-with-aspose-cells-full-guide/) | Aspose.Cells for .NET kullanarak sıfırdan tam bir Excel çalışma kitabı oluşturmayı adım adım öğrenin. |
+| [C# ile Excel çalışma kitabı oluştur ve çalışma sayfasına tarih ekle](./create-excel-workbook-and-add-date-to-worksheet-in-c/) | C# ve Aspose.Cells kullanarak yeni bir Excel çalışma kitabı oluşturup hücreye tarih eklemeyi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

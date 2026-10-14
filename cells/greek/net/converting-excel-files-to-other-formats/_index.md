@@ -113,6 +113,8 @@
 Μάθετε πώς να εξάγετε ένα φύλλο Excel σε αρχείο κειμένου με διαχωριστικό Tab χρησιμοποιώντας το Aspose.Cells για .NET.
 ### [Πώς να αποθηκεύσετε DOCX από το Excel – Πλήρης οδηγός εξαγωγής διαγραμμάτων σε Word](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
 Μάθετε πώς να αποθηκεύσετε ένα αρχείο DOCX από το Excel και να εξάγετε διαγράμματα σε έγγραφο Word με το Aspose.Cells για .NET.
+### [Πώς να αποθηκεύσετε το Excel ως TXT χρησιμοποιώντας Aspose.Cells σε C#](./how-to-save-excel-as-txt-using-aspose-cells-in-c/)
+Μάθετε πώς να αποθηκεύσετε ένα βιβλίο εργασίας Excel ως αρχείο TXT χρησιμοποιώντας Aspose.Cells σε C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -122,6 +122,8 @@ Apprenez à convertir un fichier Excel en PowerPoint avec Aspose.Cells pour .NET
 Apprenez à enregistrer un classeur Excel au format texte (TXT) avec C# en suivant ce guide complet pas à pas.
 ### [Enregistrer Excel en txt – Guide complet C# pour exporter les nombres avec chiffres significatifs](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 Apprenez à enregistrer un classeur Excel au format TXT en conservant les chiffres significatifs grâce à Aspose.Cells et C#.
+### [Comment enregistrer Excel au format TXT avec Aspose.Cells en C#](./how-to-save-excel-as-txt-using-aspose-cells-in-c/)
+Apprenez à enregistrer un classeur Excel au format texte (TXT) en utilisant Aspose.Cells avec C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
