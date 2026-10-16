@@ -91,6 +91,8 @@ Leer hoe je met Aspose.Cells voor .NET een array in Excel kunt maken met C# in d
 Leer stap voor stap hoe je de cotangens-functie in Excel kunt berekenen met C# en Aspose.Cells.
 ### [Hoe WRAPCOLS in Excel te gebruiken – Volledig C#-voorbeeld](./how-to-use-wrapcols-in-excel-complete-c-example/)
 Leer hoe je de WRAPCOLS-functie in Excel gebruikt met een volledig C#-voorbeeld in Aspose.Cells voor .NET.
+### [Hoe een Excel-werkmap maken en gegevens splitsen met WRAPCOLS in C#](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
+Leer hoe u met Aspose.Cells een Excel-werkmap maakt en data splitst met de WRAPCOLS-functie in C#.
 ### [Arrayformule in Excel toepassen met C# – Volledige gids](./apply-array-formula-excel-in-c-complete-guide/)
 Leer stap voor stap hoe je een arrayformule in Excel toepast met C# en Aspose.Cells voor .NET.
 

@@ -46,6 +46,8 @@ Dowiedz się, jak osadzić czcionki w dokumentach XPS przy użyciu C#, aby zapew
 Dowiedz się, jak osadzić czcionki w plikach PDF generowanych z Excela przy użyciu Aspose.Cells w języku C#.
 ### [Zapisz skoroszyt jako XPS w C# – przewodnik krok po kroku](./save-workbook-as-xps-in-c-step-by-step-guide/)
 Dowiedz się, jak zapisać skoroszyt Excel jako plik XPS w C# przy użyciu Aspose.Cells, krok po kroku z przykładami kodu.
+### [Konwersja Excela do XPS w C# i wczytanie pliku Excel](./convert-excel-to-xps-in-c-and-load-excel-file/)
+Dowiedz się, jak w C# konwertować plik Excel do formatu XPS oraz wczytywać plik Excel przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

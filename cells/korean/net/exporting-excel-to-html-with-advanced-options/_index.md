@@ -74,9 +74,12 @@ Aspose.Cells for .NET을 사용하여 Excel 문서, 통합 문서 및 워크시�
 이 포괄적인 단계별 튜토리얼을 통해 Aspose.Cells for .NET을 사용하여 별도의 CSS로 Excel 워크시트를 HTML로 효과적으로 내보내는 방법을 알아보세요.
 ### [HTML에 글꼴 포함 – C#으로 Excel을 HTML로 내보내기](./embed-fonts-in-html-export-excel-to-html-with-c/)
 Aspose.Cells for .NET을 사용하여 Excel을 HTML로 내보낼 때 글꼴을 포함시키는 방법을 단계별로 안내합니다.
+### [C#로 Excel을 HTML로 내보낼 때 글꼴 포함하기](./how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
+Aspose.Cells for .NET을 사용하여 C#으로 Excel을 HTML로 내보낼 때 글꼴을 포함하는 방법을 단계별로 안내합니다.
+
 ### [Excel에서 프로그래밍 방식으로 셀에서 HTML5 문자열 가져오기](./getting-html5-string-from-cell/)
 
-### [HTML로 저장하는 동안 Cross Hide Right로 오버레이된 콘텐츠 숨기기](./hiding-overlaid-content-with-cross-hide-right/)
+### [HTML 저장 옵션을 사용하여 Cross Hide Right로 오버레이된 콘텐츠 숨기기](./hiding-overlaid-content-with-cross-hide-right/)
 
 ### [HTML 저장 옵션을 사용하여 테이블 요소 스타일 접두사 지정](./prefixing-table-elements-styles/)
 
@@ -85,6 +88,7 @@ Aspose.Cells for .NET을 사용하여 Excel을 HTML로 내보낼 때 글꼴을 �
 ### [Excel에서 프로그래밍 방식으로 자체 닫힘 태그 인식](./recognizing-self-closing-tags/)
 Aspose.Cells for .NET 활용한 단계별 가이드를 통해 Excel에서 자동으로 닫히는 태그의 잠재력을 활용해보세요.
 ### [Excel에서 프로그래밍 방식으로 확장 가능한 열 너비 설정](./setting-scalable-column-width/)
+
 ### [Excel을 HTML로 저장 – 코드 샘플이 포함된 완전 가이드](./save-excel-as-html-complete-guide-with-code-samples/)
 Aspose.Cells for .NET을 사용하여 Excel 파일을 HTML로 저장하는 전체 과정과 코드 예제를 단계별로 안내합니다.
 
@@ -103,12 +107,14 @@ Aspose.Cells for .NET을 사용해 Excel을 HTML로 내보낼 때 고정 창을 
 ### [Excel 내보내기 시 HTML에 폰트 포함 – 완전 C# 가이드](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
 Aspose.Cells for .NET을 사용해 Excel을 HTML로 내보낼 때 폰트를 포함하는 방법을 단계별로 안내합니다.
 ### [HTML에 글꼴 삽입하기 – C#로 Excel을 HTML로 변환](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
+
 ### [Excel에서 HTML로 글꼴을 삽입하는 방법 – 완전 가이드](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
 Aspose.Cells for .NET을 활용해 Excel 파일에서 HTML로 글꼴을 삽입하는 전체 과정을 단계별로 배워보세요.
 ### [Excel을 HTML로 내보내는 단계별 가이드](./how-to-export-excel-to-html-step-by-step-guide/)
 ### [동결된 창을 사용하여 Excel을 HTML로 저장 – 완전한 C# 가이드](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
 이 완전한 C# 가이드를 통해 Aspose.Cells for .NET을 사용하여 동결된 창을 유지하면서 Excel을 HTML로 저장하는 방법을 알아보세요.
-### [C#으로 Excel을 HTML로 변환 – 완전 가이드](./convert-excel-to-html-in-c-complete-guide/)
+### [동결된 창을 유지하면서 Excel을 HTML로 내보내는 방법](./how-to-export-excel-to-html-while-preserving-frozen-panes/)
+### [C#로 Excel을 HTML로 변환 – 완전 가이드](./convert-excel-to-html-in-c-complete-guide/)
 Aspose.Cells for .NET을 사용하여 C#에서 Excel 파일을 HTML로 변환하는 전체 단계별 가이드를 확인하세요.
 ### [Excel을 HTML로 내보내는 방법 – 완전 프로그래밍 가이드](./how-to-export-excel-to-html-complete-programming-guide/)
 Aspose.Cells for .NET을 활용해 Excel을 HTML로 내보내는 전체 프로그래밍 과정을 단계별로 안내합니다.

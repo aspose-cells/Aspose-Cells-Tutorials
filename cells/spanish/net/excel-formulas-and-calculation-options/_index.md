@@ -94,6 +94,8 @@ Aprenda a calcular la cotangente en Excel con C# usando Aspose.Cells para .NET e
 Aprenda a aplicar la función WRAPCOLS en Excel con Aspose.Cells para .NET mediante un ejemplo completo en C# paso a paso.
 ### [Aplicar fórmula de matriz en Excel con C# – Guía completa](./apply-array-formula-excel-in-c-complete-guide/)
 Aprenda a aplicar una fórmula de matriz en Excel usando C# con Aspose.Cells para .NET en esta guía paso a paso.
+### [Cómo crear un libro de Excel y dividir datos con WRAPCOLS en C#](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
+Aprenda a crear un libro de Excel y dividir datos en matrices usando la función WRAPCOLS con Aspose.Cells para .NET en C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -123,6 +123,8 @@ Naučte se, jak pomocí Aspose.Cells pro .NET uložit soubor Excel jako HTML v k
 
 ### [Jak exportovat Excel do HTML – Zachovat zmražené panely v C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
 Naučte se, jak při exportu Excelu do HTML zachovat zmražené panely pomocí Aspose.Cells pro .NET v C#.
+### [Jak exportovat Excel do HTML – při zachování zmražených panelů](./how-to-export-excel-to-html-while-preserving-frozen-panes/)
+Naučte se, jak při exportu Excelu do HTML zachovat zmražené panely pomocí Aspose.Cells pro .NET.
 ### [Jak exportovat Excel do HTML – krok za krokem](./how-to-export-excel-to-html-step-by-step-guide/)
 Naučte se, jak exportovat Excel do HTML krok za krokem pomocí Aspose.Cells pro .NET.
 ### [Uložení Excelu jako HTML se zmraženými panely – Kompletní průvodce C#](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
@@ -138,8 +140,8 @@ Naučte se, jak kompletně převést soubory Excel do HTML pomocí Aspose.Cells 
 Kompletní návod, jak programově uložit soubor Excel jako HTML s podrobnými ukázkami kódu v Aspose.Cells pro .NET.
 ### [Vytvoření HTML z tabulky v C# – Kompletní průvodce](./create-html-from-table-in-c-complete-guide/)
 Naučte se, jak v C# programově vytvořit HTML kód z tabulky pomocí Aspose.Cells pro .NET v tomto podrobném průvodci.
-### [Jak vložit písma při exportu Excelu do HTML – Kompletní C# průvodce](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
-Naučte se, jak programově vložit písma do HTML při exportu Excelu pomocí Aspose.Cells pro .NET v tomto podrobném C# průvodci.
+### [Jak vložit písma při exportu Excelu do HTML pomocí C#](./how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
+Naučte se, jak programově vložit písma do HTML při exportu Excelu pomocí Aspose.Cells pro .NET v C#.
 ### [Export Excel do HTML s C# – Kompletní programovací průvodce](./export-excel-to-html-with-c-complete-programming-guide/)
 Naučte se, jak pomocí Aspose.Cells pro .NET v C# kompletně exportovat Excel do HTML v tomto podrobném průvodci.
 

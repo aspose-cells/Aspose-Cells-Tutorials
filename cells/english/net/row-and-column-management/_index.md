@@ -64,6 +64,7 @@ Learn how to unhide rows and columns in Excel using Aspose.Cells for .NET with o
 Learn how to delete a column in an Excel file using Aspose.Cells for .NET. Follow our detailed, step-by-step guide to streamline your Excel file modifications.
 ### [Delete a Row in Aspose.Cells .NET](./delete-row-aspose-cells/)
 Learn how to delete a row in Excel with Aspose.Cells for .NET. This step-by-step guide covers prerequisites, code import, and a detailed walkthrough for seamless data manipulation.
+### [How to delete entire row in an Excel file using C#](./how-to-delete-entire-row-in-an-excel-file-using-c/)
 ### [Aspose Cells Delete Rows – Protect Header Row in Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 Learn how to delete rows while preserving the header row in Excel using Aspose.Cells for .NET. Step-by-step guide.
 ### [Delete Multiple Rows in Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)

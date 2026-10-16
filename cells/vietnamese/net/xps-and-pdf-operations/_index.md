@@ -46,6 +46,8 @@ Hướng dẫn chi tiết cách nhúng phông chữ vào tài liệu XPS bằng 
 Hướng dẫn chi tiết cách nhúng phông chữ vào PDF khi chuyển đổi Excel bằng Aspose.Cells trong C#.
 ### [Lưu Workbook dưới dạng XPS trong C# – Hướng dẫn từng bước](./save-workbook-as-xps-in-c-step-by-step-guide/)
 Tìm hiểu cách lưu workbook dưới dạng XPS trong C# bằng Aspose.Cells, kèm ví dụ mã thực tế và hướng dẫn chi tiết.
+### [Chuyển đổi Excel sang XPS trong C# và tải tệp Excel](./convert-excel-to-xps-in-c-and-load-excel-file/)
+Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang XPS trong C# và cách tải tệp Excel trước khi chuyển đổi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

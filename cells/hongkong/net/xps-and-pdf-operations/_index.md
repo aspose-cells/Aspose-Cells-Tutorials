@@ -38,6 +38,8 @@
 學習如何使用 Aspose.Words for .NET 在 C# 中將 docx 檔案轉換為 XPS，提供完整步驟與程式碼範例。
 ### [使用 C# 完整指南：將 Excel 轉換為 XPS](./convert-excel-to-xps-with-c-complete-guide/)
 本指南詳細說明如何使用 Aspose.Cells for .NET 及 C# 將 Excel 檔案轉換為 XPS，包含完整程式碼範例。
+### [在 C# 中將 Excel 轉換為 XPS 並載入 Excel 檔案](./convert-excel-to-xps-in-c-and-load-excel-file/)
+說明如何在 C# 中載入 Excel 檔案並將其轉換為 XPS，附帶完整程式碼示例。
 ### [建立新的 Excel 活頁簿 – Unicode 與 XPS 匯出指南](./create-new-excel-workbook-unicode-xps-export-guide/)
 學習如何在 Aspose.Cells for .NET 中建立 Unicode 支援的 Excel 活頁簿，並將其匯出為 XPS 格式。
 ### [在 C# 中嵌入字型於 XPS – 完整程式設計指南](./embed-fonts-in-xps-with-c-complete-programming-guide/)

@@ -76,6 +76,8 @@ Aprenda como exportar estilos de borda semelhantes no Excel programaticamente us
 Aprenda como exportar planilhas do Excel para HTML de forma eficaz com CSS separado usando o Aspose.Cells para .NET neste tutorial passo a passo abrangente.
 ### [Incorporar fontes em HTML – Exportar Excel para HTML com C#](./embed-fonts-in-html-export-excel-to-html-with-c/)
 Aprenda a incorporar fontes ao exportar planilhas do Excel para HTML usando C# com Aspose.Cells para .NET.
+### [Como incorporar fontes ao exportar Excel para HTML com C#](./how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
+Aprenda a incorporar fontes ao exportar planilhas Excel para HTML usando C# com Aspose.Cells.
 ### [Obtendo string HTML5 de uma célula no Excel programaticamente](./getting-html5-string-from-cell/)
 Aprenda como recuperar strings HTML5 de células do Excel programaticamente usando o Aspose.Cells para .NET neste guia detalhado passo a passo.
 ### [Ocultando conteúdo sobreposto com Cross Hide Right ao salvar em HTML](./hiding-overlaid-content-with-cross-hide-right/)
@@ -106,6 +108,8 @@ Aprenda a incorporar fontes ao exportar planilhas do Excel para HTML usando o As
 Aprenda a exportar arquivos Excel para HTML passo a passo usando Aspose.Cells para .NET neste guia detalhado.
 ### [Salvar Excel como HTML com Painéis Congelados – Guia Completo em C#](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
 Aprenda a salvar planilhas do Excel como HTML preservando painéis congelados usando Aspose.Cells para .NET com este guia completo em C#.
+### [Como exportar Excel para HTML preservando painéis congelados](./how-to-export-excel-to-html-while-preserving-frozen-panes/)
+Aprenda a exportar planilhas Excel para HTML mantendo os painéis congelados usando Aspose.Cells para .NET.
 ### [Converter Excel para HTML em C# – Guia Completo](./convert-excel-to-html-in-c-complete-guide/)
 Aprenda a converter planilhas do Excel para HTML usando C# com Aspose.Cells para .NET neste guia completo passo a passo.
 ### [Como Exportar Excel para HTML – Guia de Programação Completo](./how-to-export-excel-to-html-complete-programming-guide/)

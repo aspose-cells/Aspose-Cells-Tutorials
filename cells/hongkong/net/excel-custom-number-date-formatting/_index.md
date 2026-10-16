@@ -40,7 +40,7 @@
 本教學說明如何在 C# 使用 Aspose.Cells 為數字加入千位分隔符，提升 Excel 報表的可讀性。
 ### [從 Excel 格式化 ISO 日期 – 完整 C# 指南](./format-date-iso-from-excel-complete-c-guide/)
 本教學說明如何在 C# 使用 Aspose.Cells 從 Excel 轉換並格式化為 ISO 日期，提升資料一致性。
-### [在 C# 試算表匯出中套用自訂數字格式 – 步驟說明指南](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+### [在 C# 試算表匯出中套用自訂數字格式 – 步驟說明指南](./apply-custom-number-format-in-c-spreadsheet-export-step-s/)
 本教學逐步說明如何在 C# 使用 Aspose.Cells 匯出試算表時套用自訂數字格式，提升報表呈現效果。
 ### [將日期時間寫入 Excel – C# 開發者完整指南](./write-datetime-to-excel-complete-guide-for-c-developers/)
 本教學說明如何在 C# 中使用 Aspose.Cells 將日期時間寫入 Excel，涵蓋格式設定與最佳實踐。
@@ -52,6 +52,8 @@
 在本教學中了解如何使用 Aspose.Cells for .NET 以 C# 建立帶有自訂格式的 Excel 工作簿。
 ### [使用 C# 解析日本年號日期 – Aspose.Cells 完整指南](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 在本完整指南中學習如何使用 Aspose.Cells for .NET 於 C# 解析日本年號日期。
+### [如何在 C# 中建立 Excel 工作簿並解析日本日期](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
+本教學說明如何使用 Aspose.Cells for .NET 在 C# 中建立 Excel 工作簿並解析日本日期。
 
 
 
@@ -82,6 +84,9 @@
 本教學說明如何使用 Aspose.Cells for .NET 在 Excel 中建立並處理使用日本曆日期的活頁簿。
 ### [建立 Excel 工作簿 C# – 限制有效位數](./create-excel-workbook-c-limit-significant-digits-excel/)
 本教學說明如何使用 Aspose.Cells for .NET 在 C# 中建立 Excel 工作簿，並限制數值的有效位數。
+
+### [如何在 Excel 中套用數字格式（使用 Aspose.Cells）](./how-to-apply-number-format-excel-with-aspose-cells/)
+本教學說明如何使用 Aspose.Cells 為 Excel 應用自訂數字格式。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -112,10 +112,15 @@ Lépésről lépésre bemutatja, hogyan hozhat létre Excel sablont Smart Marker
 ### [Hogyan töltsünk be sablont és hozzunk létre Excel-jelentést SmartMarkerrel](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 
 ### [Excel jelentés generálása C#-ban – Teljes útmutató a SmartMarker használatával](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+
 ### [Változók helyettesítése JSON-ban SmartMarkerrel – Teljes útmutató](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 Ismerje meg, hogyan helyettesítheti a változókat JSON-ban SmartMarkerrel, hogy dinamikus adatkitöltést érjen el.
+
 ### [Excel sablon feltöltése – Adatok kitöltése SmartMarkerrel](./populate-excel-template-fill-excel-data-via-smartmarker/)
 Ismerje meg, hogyan tölthet fel egy Excel sablont adatokal SmartMarker használatával lépésről lépésre útmutatóval.
+
+### [Smart marker adatok létrehozása és Excel sablon kitöltése](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
+Ismerje meg, hogyan hozhat létre Smart Marker adatot, és töltheti fel az Excel sablont adatokkal.
 
 
 
@@ -150,7 +155,7 @@ Ismerje meg, hogyan generálhat munkafüzetet a Smart Markers használatával, a
 ### [Mester‑részlet jelentés létrehozása C#‑ban – Excel sablon feltöltése SmartMarkerrel](./create-master-detail-report-in-c-populate-excel-template-wit/)
 Készíts mester‑részlet jelentést C#‑ban, és töltsd fel az Excel sablont SmartMarkerrel.
 
-### [Sablon írása intelligens jelölőkkel – Lépésről lépésre útmutató](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+### [Sablon írása intelligens jelölőkkel – Lépésről‑lépésre útmutató](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 Lépésről lépésre bemutatja, hogyan készíts sablont intelligens jelölőkkel az Aspose.Cells-ben, a sablonírástól a végső jelentésig.
 
 ### [Dinamikus munkalapok létrehozása intelligens jelölőkkel az Aspose.Cells-ben](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
@@ -161,6 +166,9 @@ Ismerje meg, hogyan hozhat létre feltételes cellaértékeket Smart Marker seg�
 ### [Aspose.Cells Smart Markers: Excel generálása modellből C#-ban](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
 Ismerje meg, hogyan hozhat létre Excel-fájlokat modelladatokból C#-ban az Aspose.Cells Smart Markers segítségével.
 ### [Több munkalap generálása SmartMarkerrel – Teljes C# útmutató](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
+
+### [JSON konvertálása XLSX-be C#-ban SmartMarker használatával](./convert-json-to-xlsx-in-c-using-smartmarker/)
+Ismerje meg, hogyan konvertálhat JSON adatot XLSX fájlba C#-ban SmartMarkerrel, lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -85,50 +85,28 @@ Aspose.Cells Smart Markers также поддерживает анонимны�
 ### [Создание нескольких листов с помощью SmartMarker – Полное руководство на C#](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
 ### [Aspose Cells Smart Markers: Генерация Excel из модели на C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
 ### [Экспорт данных в Excel – Полное руководство по заполнению шаблона Excel с помощью интеллектуальных маркеров](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
-Узнайте, как экспортировать данные в Excel, заполняя шаблон с помощью интеллектуальных маркеров, шаг за шагом.
 ### [Использовать общий список в интеллектуальных маркерах Aspose.Cells](./generic-list-smart-markers/)
-Освойте Aspose.Cells для .NET с универсальными списками и интеллектуальными маркерами для легкого создания динамических отчетов Excel. Простое руководство для разработчиков.
 ### [Использовать свойство HTML в смарт-маркерах Aspose.Cells .NET](./html-property-smart-markers/)
-Откройте для себя возможности Aspose.Cells с помощью этого пошагового руководства по использованию свойства HTML в интеллектуальных маркеров для приложений .NET.
 ### [Обработка вложенных объектов с помощью интеллектуальных маркеров Aspose.Cells](./nested-objects-smart-markers/)
-Раскройте потенциал отчетов Excel с помощью Aspose.Cells, легко обрабатывая вложенные объекты с помощью интеллектуальных маркеров в пошаговом руководстве.
 ### [Включить опцию вложенного диапазона в Aspose.Cells SmartMarker](./enable-nested-range-option-in-aspose-cells-smartmarker/)
-Узнайте, как включить опцию вложенного диапазона в Aspose.Cells SmartMarker для более гибкой обработки вложенных данных в Excel.
-
 ### [Реализация массива переменных с помощью интеллектуальных маркеров Aspose.Cells](./variable-array-smart-markers/)
-Откройте для себя мощь Aspose.Cells. Узнайте, как шаг за шагом реализовать переменные массивы с помощью Smart Markers для бесперебойного создания отчетов Excel.
 ### [Создание шаблона Excel с помощью Smart Markers в C# – Полное руководство](./create-excel-template-with-smart-markers-in-c-complete-guide/)
-Узнайте, как с помощью Aspose.Cells создать шаблон Excel, используя Smart Markers в C#, шаг за шагом, для динамических отчетов.
-
 ### [Экспорт данных в Excel с помощью Smart Marker – Полное руководство на C#](./export-data-to-excel-with-smart-marker-full-c-guide/)
-
 ### [Заполнить шаблон Excel – Заполнение данных Excel с помощью SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
-
 ### [Как создать отчет Excel в C# – Полное руководство с использованием SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 ### [Как написать шаблон с интеллектуальными маркерами – пошаговое руководство](./how-to-write-template-with-smart-markers-step-by-step-guide/)
-Подробное пошаговое руководство по созданию шаблона Excel с использованием интеллектуальных маркеров в Aspose.Cells.
 ### [Как заменять переменные в JSON с помощью SmartMarker – Полное руководство](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
-Узнайте, как использовать SmartMarker для замены переменных в JSON‑файлах при генерации отчетов Excel.
 ### [Как загрузить шаблон и создать отчет Excel с помощью SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
-Узнайте, как загрузить шаблон Excel и сгенерировать отчет, используя SmartMarker в Aspose.Cells for .NET.
 ### [Как использовать маркеры в Aspose.Cells для динамического именования листов в Excel](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
-Узнайте, как применять маркеры в Aspose.Cells для автоматического создания и переименования листов Excel на основе данных.
 ### [Создание динамической таблицы Excel – руководство по смарт-маркерам](./create-dynamic-excel-table-smart-marker-guide/)
-Узнайте, как с помощью интеллектуальных маркеров создавать динамические таблицы Excel, автоматически заполнять данные и управлять структурой.
 ### [Создание условного значения ячейки с помощью Aspose.Cells Smart Marker](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
-Узнайте, как использовать интеллектуальные маркеры Aspose.Cells для установки условных значений ячеек в Excel.
 ### [Конвертация JSON в Excel с C# – пошаговое руководство](./convert-json-to-excel-with-c-step-by-step-guide/)
 Узнайте, как с помощью Aspose.Cells преобразовать JSON‑данные в файл Excel, используя C# в пошаговом руководстве.
+### [Конвертировать JSON в XLSX в C# с помощью SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
+Узнайте, как преобразовать JSON‑данные в файл XLSX с помощью SmartMarker в Aspose.Cells для .NET.
 ### [Как связать листы в Excel с помощью SmartMarker – пошаговое руководство](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
 Узнайте, как связывать листы в Excel с помощью SmartMarker, создавая динамические отчеты, следуя пошаговым инструкциям.
 ### [Создание рабочей книги из XLSX с помощью Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
-
-
-
-
-
-
-
 
 ### [Как создать рабочую книгу с интеллектуальными маркерами – руководство Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
 Узнайте, как быстро генерировать Excel‑файлы, используя интеллектуальные маркеры в Aspose.Cells для .NET, шаг за шагом.
@@ -159,7 +137,7 @@ Aspose.Cells Smart Markers также поддерживает анонимны�
 ### [Применить SmartMarker к листу в C# – Полное руководство](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
 Полное руководство по применению SmartMarker к листу в C#, показывающее шаги создания динамических отчетов в Excel.
 ### [Создайте Excel программно с помощью Aspose.Cells Smart Markers](./create-excel-programmatically-using-aspose-cells-smart-marke/)
-Узнайте, как программно создавать файлы Excel, используя Smart Markers в Aspose.Cells для .NET, с пошаговыми примерами кода.
+### [Как создать данные смарт‑маркера и заполнить шаблон Excel](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

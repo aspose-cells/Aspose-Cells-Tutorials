@@ -64,9 +64,11 @@
 เรียนรู้วิธีการลบคอลัมน์ในไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนโดยละเอียดของเราเพื่อปรับปรุงกระบวนการแก้ไขไฟล์ Excel ของคุณ
 ### [ลบแถวใน Aspose.Cells .NET](./delete-row-aspose-cells/)
 เรียนรู้วิธีการลบแถวใน Excel ด้วย Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนนี้ครอบคลุมถึงข้อกำหนดเบื้องต้น การนำเข้าโค้ด และคำแนะนำโดยละเอียดสำหรับการจัดการข้อมูลอย่างราบรื่น
+### [วิธีลบแถวทั้งหมดในไฟล์ Excel ด้วย C#](./how-to-delete-entire-row-in-an-excel-file-using-c/)
+เรียนรู้วิธีลบแถวทั้งหมดในไฟล์ Excel ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET อย่างละเอียด
 ### [ลบหลายแถวใน Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 เรียนรู้การลบหลายแถวใน Excel โดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนโดยละเอียดนี้ครอบคลุมถึงข้อกำหนดเบื้องต้น ตัวอย่างการเขียนโค้ด และคำถามที่พบบ่อยสำหรับนักพัฒนา
-### [โหลดไฟล์ Excel ด้วย C# – วิธีลบแถวและลบแถวเฉพาะ](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
+### [โหลดไฟล์ Excelด้วย C# – วิธีลบแถวและลบแถวเฉพาะ](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 เรียนรู้วิธีโหลดไฟล์ Excel ด้วย C# และลบแถว รวมถึงการลบแถวเฉพาะโดยใช้ Aspose.Cells
 ### [แทรกคอลัมน์ใน Aspose.Cells .NET](./insert-column-aspose-cells/)
 เรียนรู้วิธีการแทรกคอลัมน์ใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนง่ายๆ ของเราเพื่อเพิ่มคอลัมน์ใหม่ได้อย่างราบรื่น เหมาะสำหรับนักพัฒนา .NET
@@ -81,15 +83,7 @@
 ### [วิธีทำซ้ำรายการใน Excel – การสร้างแถวแบบไดนามิกด้วย C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 เรียนรู้วิธีสร้างแถวใหม่โดยอัตโนมัติใน Excel เพื่อทำซ้ำรายการโดยใช้ C# และ Aspose.Cells
 ### [วิธีแทรกแถวใน GridJs – เพิ่มหลายแถวใน Grid อย่างมีประสิทธิภาพ](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
-เรียนรู้วิธีแทรกหลายแถวใน GridJs อย่างมีประสิทธิภาพด้วยขั้นตอนที่เข้าใจง่าย
-
-
-
-
-
-
-
-
+เรียนรู้วิธีแทรกหลายแถวใน GridJs อย่างมีประสิทธิภาพด้วยขั้นตอนที่เข้าใจง่ายสำหรับนักพัฒนา
 ### [ลบแถวในตาราง Excel ด้วย C# – คู่มือขั้นตอนโดยละเอียด](./delete-rows-excel-table-with-c-step-by-step-guide/)
 เรียนรู้วิธีลบแถวในตาราง Excel ด้วย C# อย่างละเอียดตามขั้นตอน
 ### [แทรกแถวใน Excel ด้วย C# – คู่มือทีละขั้นตอน](./insert-rows-in-excel-with-c-step-by-step-guide/)

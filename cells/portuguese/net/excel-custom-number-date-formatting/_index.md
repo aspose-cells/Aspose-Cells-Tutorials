@@ -52,6 +52,8 @@ Aprenda a analisar datas em planilhas do Excel usando C# com o Aspose.Cells nest
 Aprenda a criar uma pasta de trabalho do Excel com formatação personalizada usando Aspose.Cells para .NET em C#.
 ### [Analisar data da era japonesa em C# com Aspose.Cells – Guia completo](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Aprenda a analisar datas da era japonesa em C# usando Aspose.Cells neste guia completo.
+### [Como aplicar formato numérico no Excel com Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
+Aprenda a aplicar formatos numéricos em planilhas Excel usando Aspose.Cells para .NET neste tutorial passo a passo.
 
 
 
@@ -78,9 +80,11 @@ Aprenda como criar uma pasta de trabalho e converter strings para datas usando A
 ### [Definir formato de data do Excel em C# – Guia completo passo a passo](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 Aprenda a definir o formato de data em planilhas Excel usando C# com este guia completo passo a passo.
 ### [Definir formato de data no Excel com C# – Guia completo de formatação de importação](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
-Aprenda a definir formatos de data ao importar dados para o Excel usando C# com o Aspose.Cells para .NET.
+Aprenda a definir formatos de data ao importar dados para o Excel usando C# com Aspose.Cells para .NET.
 ### [Criar pasta de trabalho do Excel com datas do calendário japonês – Guia completo](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
-Aprenda a criar pastas de trabalho do Excel usando datas do calendário japonês com o Aspose.Cells para .NET neste guia completo.
+Aprenda a criar pastas de trabalho do Excel usando datas do calendário japonês com Aspose.Cells para .NET neste guia completo.
+### [Como criar uma pasta de trabalho Excel e analisar datas japonesas em C#](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
+Aprenda a criar uma pasta de trabalho Excel e analisar datas japonesas usando C# com Aspose.Cells.
 ### [Criar Pasta de Trabalho Excel C# – Limitar Dígitos Significativos no Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
 Aprenda a criar uma pasta de trabalho Excel em C# limitando o número de dígitos significativos usando Aspose.Cells para .NET.
 

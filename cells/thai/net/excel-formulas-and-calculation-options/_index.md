@@ -92,6 +92,8 @@ Excel มาพร้อมกับฟังก์ชันในตัวม�
 เรียนรู้วิธีคำนวณฟังก์ชันโคแทนเจนต์ใน Excel ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET อย่างละเอียดและง่ายต่อการทำตาม
 ### [วิธีใช้ WRAPCOLS ใน Excel – ตัวอย่าง C# ครบถ้วน](./how-to-use-wrapcols-in-excel-complete-c-example/)
 เรียนรู้วิธีใช้ฟังก์ชัน WRAPCOLS ใน Excel ด้วยตัวอย่างโค้ด C# อย่างละเอียดโดยใช้ Aspose.Cells สำหรับ .NET
+### [วิธีสร้างไฟล์ Excel และแยกข้อมูลด้วย WRAPCOLS ใน C#](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
+เรียนรู้วิธีสร้างสมุดงาน Excel และแบ่งข้อมูลเป็นหลายคอลัมน์ด้วยฟังก์ชัน WRAPCOLS ใน C# อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

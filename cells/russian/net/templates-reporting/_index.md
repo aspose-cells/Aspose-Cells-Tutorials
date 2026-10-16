@@ -69,6 +69,12 @@ Aspose.Cells for .NET предоставляет мощные инструмен
 ### [Как создать счет‑фактуру с помощью Aspose.Cells – Полное руководство по программированию](./how-to-generate-invoice-with-aspose-cells-complete-programmi/)
 Узнайте, как программно создавать счета‑фактуры в Excel с помощью Aspose.Cells, используя полное пошаговое руководство.
 
+### [Как обработать шаблон Excel и автоматически назвать листы в C#](./how-to-process-excel-template-and-automatically-name-sheets)
+Узнайте, как программно обрабатывать шаблоны Excel и автоматически задавать имена листов с помощью Aspose.Cells для .NET на C#.
+
+### [Как экспортировать данные в Excel с помощью шаблона C# – пошаговое руководство](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
+Узнайте, как экспортировать данные в Excel, используя шаблон C#, пошагово.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

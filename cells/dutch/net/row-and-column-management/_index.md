@@ -64,6 +64,8 @@ Leer hoe u rijen en kolommen in Excel zichtbaar kunt maken met Aspose.Cells voor
 Leer hoe u een kolom in een Excel-bestand verwijdert met Aspose.Cells voor .NET. Volg onze gedetailleerde, stapsgewijze handleiding om uw Excel-bestandswijzigingen te stroomlijnen.
 ### [Een rij verwijderen in Aspose.Cells .NET](./delete-row-aspose-cells/)
 Leer hoe u een rij in Excel verwijdert met Aspose.Cells voor .NET. Deze stapsgewijze handleiding behandelt de vereisten, code-import en een gedetailleerde handleiding voor naadloze gegevensmanipulatie.
+### [Hoe een volledige rij te verwijderen in een Excel‑bestand met C#](./how-to-delete-entire-row-in-an-excel-file-using-c/)
+Leer hoe u met Aspose.Cells voor .NET een volledige rij uit een Excel‑bestand verwijdert via C#‑code.
 ### [Meerdere rijen verwijderen in Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Leer hoe u meerdere rijen in Excel kunt verwijderen met Aspose.Cells voor .NET. Deze gedetailleerde, stapsgewijze handleiding behandelt de vereisten, codevoorbeelden en veelgestelde vragen voor ontwikkelaars.
 ### [Rijen verwijderen – Koprij beschermen met Aspose.Cells .NET](./aspose-cells-delete-rows-protect-header-row-in-excel/)
@@ -76,7 +78,7 @@ Leer hoe je een rij in Excel invoegt met Aspose.Cells voor .NET met deze stapsge
 ### [Rij invoegen met opmaak in Aspose.Cells .NET](./insert-row-formatting-aspose-cells/)
 Leer hoe je een rij met opmaak in Excel invoegt met Aspose.Cells voor .NET. Volg onze stapsgewijze handleiding voor eenvoudige implementatie.
 ### [Meerdere rijen invoegen in Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
-Leer hoe u meerdere rijen in Excel kunt invoegen met Aspose.Cells voor .NET. Volg onze gedetailleerde tutorial voor naadloze gegevensmanipulatie.
+Leer u meerdere rijen in Excel kunt invoegen met Aspose.Cells voor .NET. Volg onze gedetailleerde tutorial voor naadloze gegevensmanipulatie.
 ### [Excel-bestand laden C# – Hoe rijen te verwijderen en specifieke rijen te verwijderen](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Leer hoe u met Aspose.Cells voor .NET rijen uit een Excel‑bestand kunt verwijderen en specifieke rijen kunt targeten.
 ### [Hoe items in Excel te herhalen – Dynamische rijen genereren met C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)

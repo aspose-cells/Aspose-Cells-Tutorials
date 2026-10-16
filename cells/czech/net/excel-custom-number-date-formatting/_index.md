@@ -52,6 +52,8 @@ Naučte se, jak pomocí Aspose.Cells v C# analyzovat a převádět datumové hod
 Naučte se, jak pomocí Aspose.Cells pro .NET v C# vytvořit Excel sešit s vlastním formátem v tomto podrobném průvodci.
 ### [Rozparsování japonského data era v C# s Aspose.Cells – Kompletní průvodce](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Naučte se, jak v C# pomocí Aspose.Cells převést a zpracovat japonské datum v éře, včetně podrobného postupu a příkladů.
+### [Jak vytvořit Excel sešit a rozparsovat japonská data v C#](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
+Naučte se, jak pomocí Aspose.Cells v C# vytvořit Excel sešit a rozparsovat japonská data.
 
 
 
@@ -82,6 +84,8 @@ Kompletní průvodce nastavením formátu data v Excelu pomocí C# při importu 
 Kompletní návod, jak pomocí Aspose.Cells vytvořit sešit Excel s daty japonského kalendáře v C#.
 ### [Vytvoření Excel sešitu v C# – Omezení významných číslic v Excelu](./create-excel-workbook-c-limit-significant-digits-excel/)
 Naučte se, jak pomocí Aspose.Cells vytvořit Excel sešit v C# a nastavit omezení počtu významných číslic.
+### [Jak aplikovat číselný formát v Excelu pomocí Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
+Naučte se, jak pomocí Aspose.Cells nastavit číselný formát v Excelu v C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

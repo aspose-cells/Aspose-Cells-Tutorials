@@ -99,6 +99,8 @@ Naučte se, jak pomocí Aspose.Cells Smart Markers programově vytvořit soubor 
 ### [Převod JSON do Excelu pomocí C# – krok za krokem](./convert-json-to-excel-with-c-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Cells v C# převést data ve formátu JSON do souboru Excel pomocí podrobného průvodce.
 
+### [Převod JSON do XLSX v C# pomocí SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
+
 ### [Vytvoření sešitu z XLSX pomocí Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
 Naučte se, jak pomocí SmartMarkerProcessor vytvořit nový sešit z existujícího souboru XLSX v Aspose.Cells pro .NET.
 
@@ -164,6 +166,8 @@ Naučte se vytvořit hlavní‑detailní report v C# a naplnit Excel šablonu po
 Naučte se pomocí SmartMarker v Aspose.Cells generovat více listů v Excelu pomocí kompletního C# průvodce.
 ### [Aspose Cells Smart Markers: Generování Excelu z modelu v C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
 ### [Export dat do Excelu – Kompletní průvodce vyplněním šablony Excel pomocí inteligentních značek](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
+
+### [Jak vytvořit data pro inteligentní značky a vyplnit šablonu Excel](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

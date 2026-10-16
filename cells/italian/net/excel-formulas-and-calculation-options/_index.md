@@ -100,6 +100,9 @@ Scopri come espandere un array in C# utilizzando Aspose.Cells con questa guida d
 ### [Come utilizzare WRAPCOLS in Excel – Esempio completo C#](./how-to-use-wrapcols-in-excel-complete-c-example/)
 Scopri come usare la funzione WRAPCOLS in Excel con un esempio completo in C# usando Aspose.Cells per .NET.
 
+### [Come creare una cartella di lavoro Excel e suddividere i dati con WRAPCOLS in C#](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
+Scopri come creare una cartella di lavoro Excel e dividere i dati usando WRAPCOLS con Aspose.Cells per .NET in C#.
+
 ### [Applicare la formula array in Excel con C# – Guida completa](./apply-array-formula-excel-in-c-complete-guide/)
 Scopri come applicare una formula array in Excel usando Aspose.Cells per .NET con C# in questa guida passo passo.
 

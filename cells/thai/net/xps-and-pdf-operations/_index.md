@@ -40,6 +40,8 @@
 
 ### [แปลง Excel เป็น XPS ด้วย C# - คู่มือเต็ม](./convert-excel-to-xps-with-c-complete-guide/)
 เรียนรู้วิธีแปลงไฟล์ Excel เป็น XPS ด้วย C# อย่างละเอียด พร้อมตัวอย่างโค้ดครบถ้วน
+### [แปลง Excel เป็น XPS ด้วย C# และโหลดไฟล์ Excel](./convert-excel-to-xps-in-c-and-load-excel-file/)
+เรียนรู้วิธีแปลงไฟล์ Excel เป็น XPS ด้วย C# พร้อมขั้นตอนการโหลดไฟล์ Excel ก่อนแปลง
 
 ### [แปลง docx เป็น xps ใน C# – คู่มือฉบับสมบูรณ์](./convert-docx-to-xps-in-c-complete-guide/)
 เรียนรู้วิธีแปลงไฟล์ docx เป็น XPS ด้วย C# โดยใช้ Aspose.Words อย่างละเอียด พร้อมตัวอย่างโค้ดที่ใช้งานได้จริง

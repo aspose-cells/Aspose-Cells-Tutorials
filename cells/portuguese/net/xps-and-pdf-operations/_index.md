@@ -46,6 +46,8 @@ Aprenda a incorporar fontes em documentos XPS usando C# e Aspose.Cells, garantin
 Aprenda a incorporar fontes em PDFs gerados com Aspose.Cells usando C#, garantindo que o documento mantenha a formatação correta.
 ### [Salvar Pasta de Trabalho como XPS em C# – Guia Passo a Passo](./save-workbook-as-xps-in-c-step-by-step-guide/)
 Aprenda a salvar uma pasta de trabalho do Excel como XPS usando C# com Aspose.Cells, seguindo um guia detalhado passo a passo.
+### [Converter Excel para XPS em C# e carregar arquivo Excel](./convert-excel-to-xps-in-c-and-load-excel-file/)
+Aprenda a converter arquivos Excel para XPS em C# e a carregar planilhas Excel durante o processo, com exemplos de código completos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

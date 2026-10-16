@@ -52,6 +52,8 @@ Pelajari cara mengurai tanggal di Excel menggunakan C# dengan panduan lengkap in
 Pelajari cara membuat workbook Excel dengan format kustom menggunakan Aspose.Cells untuk .NET dalam panduan C# ini.
 ### [Mengurai Tanggal Era Jepang di C# dengan Aspose.Cells – Panduan Lengkap](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Pelajari cara mengurai tanggal era Jepang di C# menggunakan Aspose.Cells dengan panduan lengkap langkah demi langkah ini.
+### [Cara membuat workbook Excel dan mengurai tanggal Jepang di C#](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
+Pelajari cara membuat workbook Excel dan mengurai tanggal era Jepang menggunakan C# dengan Aspose.Cells.
 
 
 
@@ -82,6 +84,16 @@ Pelajari cara mengatur format tanggal di Excel menggunakan C# dengan panduan len
 Pelajari cara membuat workbook Excel dengan tanggal kalender Jepang menggunakan Aspose.Cells untuk .NET dalam panduan lengkap ini.
 ### [Buat Workbook Excel C# – Batasi Digit Signifikan Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
 Pelajari cara membuat workbook Excel dengan C# dan membatasi jumlah digit signifikan menggunakan Aspose.Cells.
+
+### [Cara menerapkan format angka Excel dengan Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
+Pelajari cara menerapkan format angka di Excel menggunakan Aspose.Cells dalam tutorial langkah demi langkah ini.
+
+
+
+
+
+
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -61,15 +61,23 @@ Aspose.Cells का उपयोग करके कार्यपुस्त�
 
 ### [टेम्पलेट से एक्सेल बनाएं – .NET डेवलपर्स के लिए चरण‑दर‑चरण गाइड](./create-excel-from-template-step-by-step-guide-for-net-develo/)
 टेम्पलेट का उपयोग करके .NET में एक्सेल फ़ाइल बनाने की प्रक्रिया को चरण‑दर‑चरण समझें।
+
 ### [टेम्पलेट से एक्सेल बनाएं – डेटा, छवि जोड़ें, XLSX सहेजें](./create-excel-from-template-add-data-image-save-xlsx/)
 टेम्पलेट का उपयोग करके Excel फ़ाइल बनाएं, डेटा और छवि जोड़ें, फिर XLSX फ़ॉर्मेट में सहेजें।
+
 ### [Excel टेम्पलेट फ़ाइल को कैसे सहेजें – चरण‑दर‑चरण गाइड](./how-to-save-excel-template-file-step-by-step-guide/)
 Excel टेम्पलेट फ़ाइल को सुरक्षित रूप से सहेजने के चरणों को सीखें, Aspose.Cells .NET के साथ आसान गाइड।
+
+### [Excel टेम्पलेट को प्रोसेस करें और शीट्स को स्वचालित रूप से नाम दें C# में](./how-to-process-excel-template-and-automatically-name-sheets/)
+Excel टेम्पलेट को प्रोसेस करके शीट्स के नाम स्वचालित रूप से सेट करने की प्रक्रिया सीखें।
 
 ### [Excel का उपयोग करके मेल मर्ज कैसे करें – पूर्ण C# गाइड](./how-to-use-excel-for-mail-merge-complete-c-guide/)
 C# में Aspose.Cells के साथ Excel का उपयोग करके मेल मर्ज कैसे लागू करें, इस पूर्ण गाइड में सीखें।
 ### [Aspose.Cells के साथ इनवॉइस कैसे जनरेट करें – पूर्ण प्रोग्रामिंग गाइड](./how-to-generate-invoice-with-aspose-cells-complete-programmi/)
 Aspose.Cells का उपयोग करके इनवॉइस उत्पन्न करने की पूरी प्रक्रिया, कोड उदाहरण और चरण-दर-चरण मार्गदर्शन।
+
+### [C# टेम्प्लेट का उपयोग करके डेटा को Excel में निर्यात करने का चरण‑दर‑चरण गाइड](./how-to-export-data-to-excel-using-a-c-template-step-by-step/)
+C# टेम्प्लेट से डेटा को Excel में निर्यात करने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

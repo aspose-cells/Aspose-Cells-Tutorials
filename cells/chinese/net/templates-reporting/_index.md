@@ -58,6 +58,10 @@ Aspose.Cells Net 代码教程
 ### [如何保存 Excel 模板文件 – 步骤指南](./how-to-save-excel-template-file-step-by-step-guide/)
 本教程详细演示了在 Aspose.Cells for .NET 中保存 Excel 模板文件的步骤和最佳实践。
 
+### [如何在 C# 中处理 Excel 模板并自动命名工作表](./how-to-process-excel-template-and-automatically-name-sheets)
+
+### [使用 C# 模板导出数据到 Excel – 步骤指南](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

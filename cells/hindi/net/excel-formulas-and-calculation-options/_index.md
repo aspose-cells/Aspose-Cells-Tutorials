@@ -62,7 +62,7 @@
 ### [एक्सेल में अंतर्निहित फ़ंक्शन का उपयोग करके डेटा प्रोसेस करना](./processing-data-using-built-in-functions/)
 ### [Excel में R1C1 का उपयोग करके डेटा प्रोसेस करना](./processing-data-using-r1c1/)
 ### [Excel में ऐड-इन से फ़ंक्शन पंजीकृत करना और कॉल करना](./registering-and-calling-function-from-add-in/)
-### [एक्सेल में साझा सूत्र की अधिकतम पंक्तियाँ निर्दिष्ट करना](./specifying-maximum-rows-of-shared-formula/)
+### [Excel में साझा सूत्र की अधिकतम पंक्तियाँ निर्दिष्ट करना](./specifying-maximum-rows-of-shared-formula/)
 ### [Aspose.Cells के साथ C# में एरे को विस्तारित करने की चरण‑दर‑चरण गाइड](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Aspose.Cells का उपयोग करके C# में एरे को कैसे विस्तारित करें, इस विस्तृत मार्गदर्शिका में सीखें।
 
@@ -78,6 +78,7 @@ C# और Aspose.Cells का उपयोग करके Excel में ए�
 ### [C# के साथ Excel में कोटैन्जेंट कैसे गणना करें – पूर्ण गाइड](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 ### [Excel में WRAPCOLS का उपयोग कैसे करें – पूर्ण C# उदाहरण](./how-to-use-wrapcols-in-excel-complete-c-example/)
 ### [C# में एरे फ़ॉर्मूला Excel लागू करना – पूर्ण गाइड](./apply-array-formula-excel-in-c-complete-guide/)
+### [C# में Excel वर्कबुक बनाना और WRAPCOLS के साथ डेटा विभाजित करना](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

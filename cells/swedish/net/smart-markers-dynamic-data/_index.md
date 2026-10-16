@@ -94,6 +94,7 @@ Lär dig att skapa en Excel‑mall med smarta markörer i C# och automatiskt fyl
 Lär dig hur du slår ihop data i Excel med Smart Markers i C# för att skapa dynamiska rapporter.
 
 ### [Hur man genererar Excel-rapport i C# – Fullständig guide med SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+Lär dig hur du genererar en Excel‑rapport i C# med SmartMarker, inklusive mallhantering och datafusion.
 ### [Skapa dynamiska arbetsblad med smarta markörer i Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 Lär dig hur du dynamiskt skapar och fyller arbetsblad med Smart Markers i Aspose.Cells för .NET, för flexibel och automatiserad rapportering.
 ### [Hur man skriver mall med smarta markörer – steg‑för‑steg‑guide](./how-to-write-template-with-smart-markers-step-by-step-guide/)
@@ -101,6 +102,8 @@ Lär dig hur du dynamiskt skapar och fyller arbetsblad med Smart Markers i Aspos
 Lär dig hur du använder SmartMarker för att dynamiskt ersätta variabler i JSON när du skapar Excel-rapporter.
 ### [Hur du laddar en mall och skapar en Excel-rapport med SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 Lär dig hur du laddar en mall och genererar en Excel-rapport med SmartMarker i Aspose.Cells för .NET.
+### [Hur du genererar Excel-rapport genom att slå samman en Excel-mall med Smart Markers](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
+Lär dig hur du kombinerar en Excel-mall med Smart Markers för att generera dynamiska rapporter.
 ### [Skapa dynamisk Excel-tabell – Smart Markör-guide](./create-dynamic-excel-table-smart-marker-guide/)
 Lär dig hur du med Smart Markers skapar dynamiska Excel-tabeller som automatiskt anpassar sig till varierande datamängder.
 ### [Hur man använder markörer i Aspose.Cells för dynamisk bladnamngivning i Excel](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
@@ -111,7 +114,7 @@ Lär dig hur du använder SmartMarker för att fylla i data i en Excel-mall och 
 Lär dig steg för steg hur du exporterar data till Excel med Smart Marker i C#.
 ### [Skapa arbetsbok från XLSX med Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
 ### [Hur du länkar blad i Excel med SmartMarker – Steg‑för‑steg‑guide](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
-### [Konvertera JSON till Excel med C# – Steg‑för‑steg‑guide](./convert-json-to-excel-with-c-step-by-step-guide/)
+### [Konvertera JSON till Excel med C# – Steg‑för‑steg‑guide](./convert-json-to-excel-c-step-by-step-guide/)
 
 
 
@@ -148,11 +151,12 @@ Lär dig att generera en arbetsbok som visar hög- och lågvärden med Smart Mar
 Lär dig hur du bygger en master‑detail‑rapport i C# genom att fylla en Excel‑mall med SmartMarker‑teknik.
 ### [Applicera SmartMarker på arbetsblad i C# – Komplett guide](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
 ### [Skapa Excel programatiskt med Aspose.Cells Smart Markers](./create-excel-programmatically-using-aspose-cells-smart-marke/)
-### [Exportera data till Excel – Komplett guide för att fylla i Excel-mall med smarta markörer](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
-Lär dig steg för steg hur du använder smarta markörer för att automatiskt fylla en Excel‑mall med data från .NET‑applikationer.
+### [Exportera data till Excel – Komplett guide för att fylla i Excel‑mall med smarta markörer](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
 ### [Generera flera blad med SmartMarker – Komplett C#-guide](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
 ### [Aspose Cells Smart Markers: Generera Excel från modell i C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
-Lär dig hur du använder Smart Markers för att skapa Excel-filer direkt från en .NET-modell med C#.
+### [Konvertera JSON till XLSX i C# med SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
+
+### [Hur man skapar smart marker-data och fyller Excel‑mallens data](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -71,6 +71,8 @@ Unlock Excel's potential with Aspose.Cells for .NET. Learn step-by-step how to p
 Unlock the power of Excel with Aspose.Cells for .NET. Learn to process data using array functions in this detailed tutorial.
 ### [How to Use WRAPCOLS in C# – Reshape Arrays to Matrices](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
 Learn to reshape arrays into matrices using WRAPCOLS in C# with Aspose.Cells for .NET in this step-by-step guide.
+### [How to create Excel workbook and split data with WRAPCOLS in C#](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
+Learn how to create an Excel workbook and split its data using the WRAPCOLS function in C# with Aspose.Cells.
 ### [Processing Data Using Built-In Functions in Excel](./processing-data-using-built-in-functions/)
 Discover how to process data using built-in functions in Excel with Aspose.Cells for .NET. Follow a step-by-step tutorial for easy automation.
 ### [Processing Data Using R1C1 in Excel](./processing-data-using-r1c1/)

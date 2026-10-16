@@ -94,6 +94,8 @@ Poznaj, jak przy użyciu GridJs wstawić wiele wierszy jednocześnie, aby przysp
 Dowiedz się, jak efektywnie dodać wiele wierszy do siatki w GridJs, krok po kroku, z przykładami kodu.
 ### [Jak używać wrapcols w C# – Pełny przewodnik z Excel WRAPROWS i przeliczaniem formuł](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Dowiedz się, jak używać metody wrapcols w C#, wraz z funkcją WRAPROWS i przeliczaniem formuł w Excelu.
+### [Jak usunąć cały wiersz w pliku Excel przy użyciu C#](./how-to-delete-entire-row-in-an-excel-file-using-c/)
+Dowiedz się, jak usunąć kompletny wiersz z pliku Excel w C# przy pomocy Aspose.Cells, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

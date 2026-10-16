@@ -58,6 +58,8 @@ Dankzij de flexibiliteit van generieke lijsten kunnen ontwikkelaars gegevens op 
 Ontdek de kracht van Aspose.Cells voor .NET om aangepaste labels en slimme markeringen toe te voegen aan uw Excel-documenten. Volg deze stapsgewijze tutorial en maak dynamische, visueel aantrekkelijke rapporten.
 ### [Hoe een sjabloon laden en een Excel-rapport maken met SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 Leer hoe u een Excel-sjabloon laadt en met SmartMarker een dynamisch rapport genereert.
+### [Hoe een Excel-rapport te genereren door een Excel-sjabloon te combineren met Smart Markers](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
+Leer hoe u met Smart Markers een Excel-sjabloon samenvoegt om dynamische rapporten te maken.
 ### [Gegevens automatisch invoegen in bladen in Aspose.Cells](./auto-populate-data-smart-markers/)
 Ontdek hoe u automatisch gegevens in meerdere werkbladen in Excel kunt invullen met behulp van de Aspose.Cells voor .NET-bibliotheek. Leer het stapsgewijze proces om uw gegevensbeheertaken te stroomlijnen.
 ### [Excel-sjabloon vullen – Gegevens invullen via SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
@@ -111,10 +113,11 @@ Leer hoe u met Aspose.Cells gegevens uit meerdere bronnen samenvoegt in Excel vi
 Leer stap voor stap hoe u een Excel-sjabloon maakt met Smart Markers in C# voor dynamische rapportgeneratie.
 ### [JSON naar Excel converteren met C# – Stapsgewijze handleiding](./convert-json-to-excel-with-c-step-by-step-guide/)
 Leer hoe u JSON-gegevens eenvoudig omzet naar Excel-bestanden met C# en Aspose.Cells in deze stap‑voor‑stap tutorial.
+### [JSON naar XLSX converteren in C# met SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
+Leer hoe u JSON-gegevens omzet naar XLSX-bestanden met SmartMarker in C#.
 ### [Hoe werkbladen koppelen in Excel met SmartMarker – Stapsgewijze handleiding](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
 
 ### [Werkboek maken vanuit XLSX met Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
-Leer hoe u een werkboek kunt maken vanuit een XLSX-bestand met SmartMarkerProcessor in Aspose.Cells voor .NET.
 
 
 
@@ -160,6 +163,8 @@ Leer hoe u met SmartMarker meerdere Excel-werkbladen genereert in C#, inclusief 
 Leer stap voor stap hoe u gegevens exporteert naar een Excel-sjabloon met Smart Markers in Aspose.Cells voor .NET.
 ### [Aspose Cells Smart Markers: Genereer Excel vanuit model in C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
 Leer hoe u met Smart Markers in Aspose.Cells Excel-bestanden genereert rechtstreeks vanuit een .NET‑model in C#.
+### [Hoe smart marker-gegevens te maken en Excel-sjabloongegevens in te vullen](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
+Leer hoe u smart marker-gegevens maakt en een Excel-sjabloon automatisch vult met Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

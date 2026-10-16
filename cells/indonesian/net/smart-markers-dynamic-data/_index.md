@@ -54,6 +54,9 @@ Gyakran dolgozik változó mennyiségű adattal? A Smart Markers változó tömb
 Az általános listák rugalmassága lehetővé teszi a fejlesztők számára, hogy strukturált módon kezeljék az adatokat a teljesítmény feláldozása nélkül. Ebben az oktatóanyagban megtanulod, hogyan használhatod ki az általános listákat intelligens jelölőkkel robusztus, dinamikus Excel-jelentések létrehozásához. Ez a megközelítés biztosítja, hogy könnyedén kezelhesd az adatgyűjteményeket, miközben megőrzöd az erős típusbiztonságot és teljesítményt az alkalmazásaidban. Kövesd a cikket, hogy megtudd, hogyan segíthet ez a jelentéskészítésben. [További információ](./generic-list-smart-markers/)
 
 ## Intelligens jelölők az Aspose.Cells-ben dinamikus adatokhoz - Oktatóanyagok
+### [How to generate Excel report by merging an Excel template with Smart Markers](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
+
+
 ### [Mengaktifkan Opsi Nested Range di Aspose.Cells SmartMarker](./enable-nested-range-option-in-aspose-cells-smartmarker/)
 
 ### [Egyéni címkék hozzáadása intelligens jelölőkkel az Aspose.Cells-ben](./add-custom-labels-smart-markers/)
@@ -169,6 +172,10 @@ Pelajari cara menghasilkan banyak lembar kerja secara otomatis menggunakan Smart
 ### [Ekspor Data ke Excel – Panduan Lengkap Mengisi Template Excel dengan Smart Markers](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
 Pelajari cara mengekspor data ke file Excel secara otomatis dengan mengisi template menggunakan Smart Markers dalam Aspose.Cells for .NET.
 ### [Aspose Cells Smart Markers: Membuat Excel dari Model dengan C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
+
+### [Mengonversi JSON ke XLSX di C# menggunakan SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
+
+### [Cara membuat data smart marker dan mengisi data templat Excel](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -67,6 +67,12 @@ Scopri come eseguire la stampa unione con Excel usando Aspose.Cells per .NET in 
 ### [Come generare una fattura con Aspose.Cells – Guida completa di programmazione](./how-to-generate-invoice-with-aspose-cells-complete-programmi/)
 Scopri come creare fatture Excel automatizzate con Aspose.Cells, includendo dati, formattazione e salvataggio in pochi passaggi.
 
+### [Come elaborare un modello Excel e denominare automaticamente i fogli in C#](./how-to-process-excel-template-and-automatically-name-sheets)
+Scopri come elaborare un modello Excel e rinominare automaticamente i fogli usando C# con Aspose.Cells.
+
+### [Come esportare dati in Excel usando un modello C# – guida passo‑passo](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
+Scopri come esportare dati in Excel da un modello C# con Aspose.Cells, seguendo una procedura dettagliata passo‑passo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

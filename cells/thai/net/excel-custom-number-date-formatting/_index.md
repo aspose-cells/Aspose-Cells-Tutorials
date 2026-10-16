@@ -52,36 +52,12 @@
 เรียนรู้วิธีสร้างไฟล์ Excel พร้อมรูปแบบกำหนดเองโดยใช้ Aspose.Cells สำหรับ .NET ด้วยภาษา C#
 ### [การแยกวันที่ตามยุคญี่ปุ่นใน C# ด้วย Aspose.Cells – คู่มือเต็ม](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 เรียนรู้วิธีแปลงและประมวลผลวันที่ตามระบบยุคญี่ปุ่นใน C# ด้วย Aspose.Cells อย่างละเอียดในคู่มือฉบับเต็ม
-
-
-
-
-
-
-
-
-### [ตั้งค่ารูปแบบเซลล์แบบกำหนดเองใน C# – คู่มือฉบับสมบูรณ์สำหรับการเขียนและอ่านวันที่ใน Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
-เรียนรู้วิธีตั้งค่าและอ่านรูปแบบวันที่ใน Excel ด้วย Aspose.Cells สำหรับ .NET ผ่านตัวอย่าง C# อย่างละเอียด
-
-
-
-
-
-
-
-
-### [แปลงสตริงเป็น DateTime ใน C# – เขียนและอ่านวันที่ใน Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
-เรียนรู้วิธีแปลงสตริงเป็น DateTime และจัดการการเขียน/อ่านวันที่ในไฟล์ Excel ด้วย Aspose.Cells สำหรับ .NET
-### [วิธีสร้างเวิร์กบุ๊กและแปลงสตริงเป็นวันที่ใน C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
-เรียนรู้วิธีสร้างเวิร์กบุ๊กใน Aspose.Cells สำหรับ .NET และแปลงสตริงเป็นวันที่ใน C# อย่างง่าย
-### [ตั้งค่ารูปแบบวันที่ใน Excel ด้วย C# – คู่มือขั้นตอนเต็ม](./set-excel-date-format-in-c-complete-step-by-step-guide/)
-เรียนรู้วิธีตั้งค่ารูปแบบวันที่ในไฟล์ Excel ด้วย C# อย่างละเอียดผ่านขั้นตอนที่เข้าใจง่าย
-### [ตั้งค่ารูปแบบวันที่ใน Excel ด้วย C# – คู่มือการจัดรูปแบบการนำเข้าเต็มรูปแบบ](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
-เรียนรู้วิธีตั้งค่ารูปแบบวันที่ในไฟล์ Excel ด้วย C# พร้อมขั้นตอนการจัดรูปแบบการนำเข้าข้อมูลอย่างละเอียด
-### [สร้างสมุดงาน Excel ด้วยวันที่ปฏิทินญี่ปุ่น – คู่มือเต็ม](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
-เรียนรู้วิธีสร้างไฟล์ Excel ที่ใช้วันที่ตามปฏิทินญี่ปุ่นด้วย Aspose.Cells สำหรับ .NET ผ่านคู่มือเต็มขั้นตอน
+### [สร้างเวิร์กบุ๊ก Excel และแปลงวันที่ญี่ปุ่นใน C#](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
+เรียนรู้วิธีสร้างไฟล์ Excel และแปลงวันที่ตามระบบญี่ปุ่นด้วย Aspose.Cells สำหรับ .NET ใน C#
 ### [สร้าง Excel Workbook ด้วย C# – จำกัดจำนวนหลักสำคัญใน Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
 เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# และตั้งค่าการจำกัดจำนวนหลักสำคัญเพื่อควบคุมความแม่นยำของข้อมูล
+### [วิธีใช้รูปแบบตัวเลขใน Excel ด้วย Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
+เรียนรู้วิธีกำหนดรูปแบบตัวเลขในไฟล์ Excel ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

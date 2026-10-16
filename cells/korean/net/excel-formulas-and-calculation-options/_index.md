@@ -93,6 +93,10 @@ Aspose.Cells for .NET을 사용하여 C#로 Excel에서 코탄젠트를 계산�
 Aspose.Cells for .NET을 사용하여 C#에서 워크북의 모든 수식을 재계산하고 Excel을 새로 고치는 방법을 단계별로 안내합니다.
 ### [C#에서 WRAPCOLS 사용 방법 – 배열을 행렬로 재구성](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
 Aspose.Cells for .NET을 사용해 C#에서 WRAPCOLS 함수를 활용하여 1차원 배열을 행렬 형태로 변환하는 방법을 단계별로 안내합니다.
+
+### [C#에서 Excel 워크북을 만들고 WRAPCOLS로 데이터를 분할하는 방법](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
+Aspose.Cells for .NET을 활용해 C#에서 워크북을 만들고 WRAPCOLS로 데이터를 분할하는 방법을 단계별로 안내합니다.
+
 ### [C#로 Excel에서 코탄젠트 계산하기 – 완전 가이드](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 Aspose.Cells for .NET을 활용해 C#로 Excel에서 코탄젠트 함수를 계산하는 단계별 가이드를 제공합니다.
 ### [Excel에서 WRAPCOLS 사용 방법 – 완전한 C# 예제](./how-to-use-wrapcols-in-excel-complete-c-example/)

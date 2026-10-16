@@ -86,8 +86,10 @@
 تعلم كيفية توسيع المصفوفات في C# باستخدام Aspose.Cells خطوة بخطوة لتسهيل معالجة البيانات في Excel.
 ### [كيفية استخدام WRAPCOLS في C# – تحويل المصفوفات إلى مصفوفات ثنائية الأبعاد](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
 تعلم كيفية استخدام الدالة WRAPCOLS في C# لإعادة تشكيل المصفوفات إلى مصفوفات ثنائية الأبعاد بسهولة باستخدام Aspose.Cells.
+### [كيفية إنشاء مصنف Excel وتقسيم البيانات باستخدام WRAPCOLS في C#](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
+تعلم كيفية إنشاء مصنف Excel وتقسيم البيانات إلى أعمدة متعددة باستخدام دالة WRAPCOLS في C# مع Aspose.Cells.
 ### [كيفية إنشاء مصفوفة في Excel باستخدام C# – دليل خطوة بخطوة](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
-تعلم كيفية إنشاء واستخدام مصفوفات في Excel باستخدام C# خطوة بخطوة مع Aspose.Cells لـ .NET.
+استكشف كيفية إنشاء واستخدام مصفوفات في Excel باستخدام C# خطوة بخطوة مع Aspose.Cells لـ .NET.
 ### [كيفية حساب القاطع المثلثي في Excel باستخدام C# – دليل كامل](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 تعلم خطوة بخطوة كيفية حساب الدالة القاطعة في Excel باستخدام لغة C# مع Aspose.Cells.
 ### [كيفية استخدام WRAPCOLS في Excel – مثال كامل بلغة C#](./how-to-use-wrapcols-in-excel-complete-c-example/)

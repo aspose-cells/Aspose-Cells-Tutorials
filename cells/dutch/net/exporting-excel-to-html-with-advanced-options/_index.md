@@ -51,7 +51,7 @@ Oh, en als je denkt dat het afdrukken van koppen in Excel omslachtig is, denk da
 
 Een vaak over het hoofd gezien aspect van HTML-exporten is het beheer van zelfsluitende tags. Excel-sheets kunnen complex zijn en verschillende elementen bevatten die specifieke opmaak vereisen, zoals afbeeldingen of lege cellen. De tutorial over het herkennen van zelfsluitende tags begeleidt je programmatisch bij het naadloos extraheren van deze elementen, zodat je HTML-uitvoer overzichtelijk en goed gestructureerd is. Stel je voor dat je je code vereenvoudigt en je HTML compatibeler maakt met webstandaarden – klinkt geweldig, toch? [Ontdek hier de details](./recognizing-self-closing-tags/).
 
-## Stijlen voor tabelelementen efficiënt voorafvoegen
+## Stijlen voor tabellelementen efficiënt voorafvoegen
 
 Het stylen van tabelgegevens kan de leesbaarheid en esthetische aantrekkingskracht verbeteren. Met Aspose.Cells leert u hoe u tabellelementstijlen kunt voorzien van HTML-opslagopties. Met deze functie kunt u aangepaste stijlen of configuraties introduceren die de algehele presentatiekwaliteit van uw geëxporteerde HTML verbeteren. Denk er eens over na: u kunt visueel samenhangende rapporten maken die aansluiten bij de persoonlijkheid van uw merk. Geïnteresseerd in stylen als een professional? [Bekijk deze gids](./prefixing-table-elements-styles/).
 
@@ -70,7 +70,7 @@ Leer hoe u Excel-werkbladen effectief naar HTML exporteert met afzonderlijke CSS
 Leer hoe u lettertypen vanuit Excel in HTML kunt insluiten met Aspose.Cells voor .NET in deze stapsgewijze handleiding.
 ### [HTML5-tekenreeks programmatisch uit een cel in Excel halen](./getting-html5-string-from-cell/)
 ### [Overlappende inhoud verbergen met Cross Hide Right tijdens het opslaan naar HTML](./hiding-overlaid-content-with-cross-hide-right/)
-### [Stijlen van tabelelementen voorafvoegen met HTML-opties voor opslaan](./prefixing-table-elements-styles/)
+### [Stijlen van tabellelementen voorafvoegen met HTML-opties voor opslaan](./prefixing-table-elements-styles/)
 ### [Koppen programmatisch afdrukken in Excel](./printing-headings/)
 ### [Zelfsluitende tags programmatisch herkennen in Excel](./recognizing-self-closing-tags/)
 ### [Schaalbare kolombreedte programmatisch instellen in Excel](./setting-scalable-column-width/)
@@ -81,15 +81,10 @@ Leer hoe u Excel opslaat als HTML met een volledige C#-handleiding met Aspose.Ce
 ### [Lettertypen insluiten in HTML bij het exporteren van Excel – Complete C#-gids](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
 Leer hoe u lettertypen insluit in de HTML-uitvoer bij het exporteren van Excel met Aspose.Cells voor .NET in een volledige C#-handleiding.
 ### [Hoe Excel naar HTML exporteren – Bevroren rijen behouden in C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
-Leer hoe u bevroren rijen behoudt bij het exporteren van Excel naar HTML met Aspose.Cells voor .NET in deze stapsgewijze handleiding.
-### [Lettertypen insluiten in HTML – Converteer Excel naar HTML met C#](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
-Leer hoe u lettertypen insluit in de HTML-uitvoer bij het converteren van Excel naar HTML met C# en Aspose.Cells voor .NET.
-### [Hoe Excel naar HTML exporteren – Stapsgewijze handleiding](./how-to-export-excel-to-html-step-by-step-guide/)
-Leer hoe u Excel naar HTML exporteert met een stapsgewijze handleiding voor Aspose.Cells voor .NET.
-### [Excel opslaan als HTML met bevroren rijen – Complete C#-handleiding](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
-Leer hoe u Excel opslaat als HTML met bevroren rijen met Aspose.Cells voor .NET in deze stapsgewijze C#-handleiding.
+### [Hoe Excel naar HTML exporteren met behoud van bevroren rijen](./how-to-export-excel-to-html-while-preserving-frozen-panes/)
 ### [Lettertypen insluiten in HTML – Export Excel naar HTML met C#](./embed-fonts-in-html-export-excel-to-html-with-c/)
 Leer hoe u lettertypen in de HTML-uitvoer kunt insluiten bij het exporteren van Excel met Aspose.Cells voor .NET en C#.
+### [Lettertypen insluiten bij het exporteren van Excel naar HTML met C#](./how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
 ### [Excel converteren naar HTML in C# – Complete gids](./convert-excel-to-html-in-c-complete-guide/)
 Leer hoe u Excel naar HTML converteert in C# met Aspose.Cells voor .NET in deze uitgebreide stapsgewijze handleiding.
 ### [Hoe Excel naar HTML exporteren – Complete programmeergids](./how-to-export-excel-to-html-complete-programming-guide/)

@@ -82,6 +82,8 @@ C# का उपयोग करके Excel में तिथि स्वर
 .NET के लिए Aspose.Cells का उपयोग करके जापानी कैलेंडर तिथियों के साथ Excel वर्कबुक बनाने की पूरी गाइड।
 ### [C# में Excel वर्कबुक बनाएं – महत्वपूर्ण अंकों को सीमित करें](./create-excel-workbook-c-limit-significant-digits-excel/)
 इस ट्यूटोरियल में सीखें कि C# का उपयोग करके Excel वर्कबुक बनाते समय महत्वपूर्ण अंकों को कैसे सीमित किया जाए।
+### [Aspose.Cells के साथ Excel में नंबर फ़ॉर्मेट कैसे लागू करें](./how-to-apply-number-format-excel-with-aspose-cells/)
+### [C# में Excel वर्कबुक बनाएं और जापानी तिथियों को पार्स करें](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -65,6 +65,12 @@ Aprenda a utilizar Excel para combinar correspondencia mediante Aspose.Cells y C
 ### [Cómo generar una factura con Aspose.Cells – Guía completa de programación](./how-to-generate-invoice-with-aspose-cells-complete-programmi/)
 Aprenda a crear facturas automatizadas con Aspose.Cells .NET, cubriendo la configuración, el diseño y la exportación a formatos comunes.
 
+### [Cómo procesar una plantilla de Excel y nombrar automáticamente las hojas en C#](./how-to-process-excel-template-and-automatically-name-sheets/)
+Aprenda a procesar plantillas de Excel y asignar nombres a las hojas automáticamente usando C# y Aspose.Cells.
+
+### [Cómo exportar datos a Excel usando una plantilla C# – guía paso a paso](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
+Aprenda a exportar datos a Excel mediante una plantilla C# con Aspose.Cells, siguiendo una guía paso a paso.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

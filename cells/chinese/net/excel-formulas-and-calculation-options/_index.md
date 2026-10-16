@@ -93,6 +93,8 @@ Excel 内置了大量函数，可用于执行各种计算和数据操作。了�
 使用 Aspose.Cells for .NET，了解在 Excel 中通过 C# 计算余切的完整步骤，实现精准的三角函数运算。
 ### [如何在 Excel 中使用 WRAPCOLS – 完整 C# 示例](./how-to-use-wrapcols-in-excel-complete-c-example/)
 通过本分步指南，学习使用 Aspose.Cells for .NET 在 Excel 中使用 WRAPCOLS，实现完整的 C# 示例。
+### [如何在 C# 中创建 Excel 工作簿并使用 WRAPCOLS 拆分数据](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
+通过 Aspose.Cells for .NET，在 C# 中创建 Excel 工作簿并使用 WRAPCOLS 将数据拆分为矩阵的详细步骤指南。
 ### [在 C# 中应用 Excel 数组公式 – 完整指南](./apply-array-formula-excel-in-c-complete-guide/)
 通过本分步指南，学习如何使用 Aspose.Cells for .NET 在 C# 中应用 Excel 数组公式，实现完整的解决方案。
 
