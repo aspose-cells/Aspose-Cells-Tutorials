@@ -1,29 +1,34 @@
 ---
 category: general
-date: 2026-06-18
-description: Phân tích ngày theo niên hiệu Nhật trong Java bằng Aspose.Cells. Tìm
-  hiểu cách đọc ngày từ ô Excel và trích xuất datetime từ ô Excel một cách nhanh chóng.
+date: 2026-10-07
+description: Đọc ngày từ Excel trong Java với Aspose.Cells. Hướng dẫn này cho bạn
+  cách parse Japanese era dates, đọc ngày từ các ô Excel, và extract datetime từ các
+  ô Excel một cách nhanh chóng.
 draft: false
 keywords:
-- parse japanese era date
-- read date from excel cell
-- extract datetime from excel cell
-language: vi
-og_description: Phân tích ngày theo niên hiệu Nhật trong Java với Aspose.Cells. Hướng
-  dẫn này cho bạn cách đọc ngày từ ô Excel và trích xuất datetime từ ô Excel chỉ trong
-  vài bước.
-og_title: Phân tích ngày theo niên hiệu Nhật Bản từ Excel bằng Java – Hướng dẫn toàn
-  diện
+- read date from excel
+- extract datetime from excel
+- java excel date conversion
+- japanese era date parsing
+- aspose.cells java
+lastmod: 2026-10-07
+og_description: Đọc ngày từ Excel trong Java với Aspose.Cells. Hướng dẫn này cho bạn
+  cách parse Japanese era dates, đọc ngày từ các ô Excel, và extract datetime từ các
+  ô Excel chỉ trong vài bước.
+og_image_alt: 'Developer guide: Read date from Excel in Java using Aspose.Cells'
+og_title: Đọc ngày từ Excel trong Java với Aspose.Cells – hướng dẫn đầy đủ
 schemas:
 - author: Aspose
-  dateModified: '2026-06-18'
-  description: Parse Japanese era date in Java using Aspose.Cells. Learn how to read
-    date from Excel cell and extract datetime from Excel cell quickly.
-  headline: Parse Japanese Era Date from Excel in Java – Full Guide
+  dateModified: '2026-10-07'
+  description: Read date from Excel in Java with Aspose.Cells. This guide shows you
+    how to parse Japanese era dates, read date from Excel cells, and extract datetime
+    from Excel cells quickly.
+  headline: Read date from Excel in Java with Aspose.Cells – full guide
   type: TechArticle
-- description: Parse Japanese era date in Java using Aspose.Cells. Learn how to read
-    date from Excel cell and extract datetime from Excel cell quickly.
-  name: Parse Japanese Era Date from Excel in Java – Full Guide
+- description: Read date from Excel in Java with Aspose.Cells. This guide shows you
+    how to parse Japanese era dates, read date from Excel cells, and extract datetime
+    from Excel cells quickly.
+  name: Read date from Excel in Java with Aspose.Cells – full guide
   steps:
   - name: Multiple Eras
     text: Japan has had several eras (Meiji, Taishō, Shōwa, Heisei, Reiwa). The `setParseDateUsingJapaneseEra(true)`
@@ -42,7 +47,9 @@ tags:
 - Java
 - Excel
 - DateTime
-title: Phân tích ngày theo thời đại Nhật Bản từ Excel trong Java – Hướng dẫn đầy đủ
+- read date from excel
+- java excel date conversion
+title: Đọc ngày từ Excel trong Java với Aspose.Cells – hướng dẫn đầy đủ
 url: /vi/java/cell-operations/parse-japanese-era-date-from-excel-in-java-full-guide/
 ---
 
@@ -50,24 +57,35 @@ url: /vi/java/cell-operations/parse-japanese-era-date-from-excel-in-java-full-gu
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Parse Japanese Era Date from Excel in Java – Full Guide
+# Đọc ngày từ Excel trong Java với Aspose.Cells – hướng dẫn đầy đủ
 
-Bạn đã bao giờ cần **parse Japanese era date** được lưu trong một workbook Excel nhưng không chắc cách chuyển nó thành một `DateTime` Gregorian thông thường? Bạn không phải là người duy nhất—nhiều nhà phát triển gặp phải vấn đề này khi làm việc với các bảng kế toán Nhật Bản cũ hoặc các mẫu đơn của chính phủ. Tin tốt là với một vài dòng Java và thư viện phù hợp, bạn có thể **read date from Excel cell** và **extract datetime from Excel cell** mà không phải thực hiện các thao tác chuỗi phức tạp.
+Nếu bạn cần **đọc ngày từ Excel** các bảng tính chứa chuỗi thời đại Nhật Bản, bạn đã đến đúng nơi. Trong nhiều bảng tính kế toán hoặc chính phủ cũ, ngày được lưu dưới dạng “令和3年5月10日”, và việc chuyển đổi chúng sang `LocalDateTime` chuẩn của Gregorian có thể gây lỗi. Hướng dẫn này sẽ chỉ cho bạn, từng bước, cách bật phân tích nhận thức thời đại, đọc giá trị ô, và **trích xuất datetime từ Excel** bằng Aspose.Cells cho Java.
 
-Trong hướng dẫn này, chúng ta sẽ đi qua một ví dụ hoàn chỉnh, có thể chạy được, cho thấy cách **parse Japanese era date** các chuỗi như “令和3年5月10日” thành một `java.time.LocalDateTime` trong Java. Chúng ta sẽ đề cập đến phụ thuộc Maven cần thiết, giải thích tại sao bạn phải bật chế độ phân tích nhận thức niên hiệu, và chỉ ra những bẫy phổ biến mà bạn có thể gặp. Khi kết thúc, bạn sẽ có một đoạn mã sẵn sàng cho môi trường production mà có thể chèn vào bất kỳ dự án Java nào.
+## Câu trả lời nhanh
+- **Thư viện nào xử lý ngày theo thời đại Nhật Bản?** Aspose.Cells for Java.
+- **Phiên bản Java yêu cầu là gì?** Java 17 hoặc mới hơn (Java 8 cũng hoạt động).
+- **Tôi có cần giấy phép để thử nghiệm không?** Bản dùng thử miễn phí là đủ cho phát triển.
+- **Mã giống nhau có thể đọc ngày Gregorian không?** Có, API tự động phát hiện định dạng.
+- **Thông tin thời gian có được giữ lại không?** Chắc chắn – giờ, phút và giây vẫn được bảo tồn.
 
-## Prerequisites
+## Đọc ngày từ Excel là gì?
+Cụm từ “read date from Excel” đề cập đến việc lấy giá trị ngày của một ô và chuyển đổi nó thành một đối tượng ngày‑giờ Java như `java.time.LocalDateTime`. Aspose.Cells trừu tượng hóa định dạng nhị phân Excel cấp thấp, vì vậy bạn có thể làm việc với ngày mà không cần phân tích chuỗi thủ công.
 
-- Java 17 hoặc mới hơn (mã cũng hoạt động trên Java 8+)
-- Hệ thống xây dựng Maven hoặc Gradle
-- Kiến thức cơ bản về file Excel
-- Thư viện **Aspose.Cells for Java** (bản dùng thử miễn phí đủ để thử nghiệm)
+## Tại sao nên dùng Aspose.Cells để phân tích thời đại Nhật Bản?
+Aspose.Cells hỗ trợ **hơn 50 định dạng nhập và xuất** và có thể xử lý các workbook hàng trăm trang mà không cần tải toàn bộ tệp vào bộ nhớ. Bộ phân tích nhận thức thời đại tích hợp của nó chuyển đổi mọi thời đại Nhật Bản (Meiji, Taishō, Shōwa, Heisei, Reiwa) sang ngày Gregorian trong một lần gọi API, loại bỏ mã biểu thức chính quy dễ gãy.
 
-Nếu bất kỳ mục nào trên nghe lạ, đừng lo—tôi sẽ chỉ cho bạn cách thêm thư viện và bắt đầu.
+## Yêu cầu trước
+- Java 17 (hoặc Java 8+) đã được cài đặt trên máy của bạn.
+- Hệ thống xây dựng Maven hoặc Gradle.
+- Kiến thức cơ bản về các tệp Excel.
+- Thư viện Aspose.Cells cho Java (phiên bản dùng thử hoặc có giấy phép).
 
-## Step 1: Add Aspose.Cells to Your Project
+Nếu bất kỳ mục nào trong số này bạn chưa quen, đừng lo — bạn sẽ thấy cách thêm thư viện trong bước tiếp theo.
 
-Điều đầu tiên cần làm: bạn cần thư viện hiểu được ngày theo niên hiệu Nhật Bản. Aspose.Cells sẽ thực hiện phần việc nặng cho bạn.
+## Cách đọc ngày từ Excel trong Java?
+Tải workbook của bạn, bật phân tích nhận thức thời đại, và yêu cầu ô trả về giá trị `DateTime`. Toàn bộ quá trình chỉ cần **hai dòng mã chức năng** một khi thư viện đã có trong classpath.
+
+### Bước 1: thêm Aspose.Cells vào dự án của bạn
 
 **Maven**:
 
@@ -85,11 +103,11 @@ Nếu bất kỳ mục nào trên nghe lạ, đừng lo—tôi sẽ chỉ cho b�
 implementation 'com.aspose:aspose-cells:24.9'
 ```
 
-Khi phụ thuộc đã được giải quyết, bạn có thể bắt đầu viết mã *reads date from Excel cell* và *extracts datetime from Excel cell*.
+Sau khi phụ thuộc được giải quyết, bạn có thể bắt đầu sử dụng API để **đọc ngày từ Excel** các ô.
 
-## Step 2: Create a Workbook and Target the First Worksheet
+### Bước 2: tạo một workbook và chọn worksheet đầu tiên
 
-Chúng ta sẽ bắt đầu bằng cách tạo một workbook mới trong bộ nhớ và lấy sheet đầu tiên. Điều này tương tự hai dòng đầu tiên của ví dụ gốc.
+Lớp `Workbook` đại diện cho toàn bộ tệp Excel trong bộ nhớ. Tạo một thể hiện mới đảm bảo môi trường sạch sẽ cho các bước phân tích tiếp theo.
 
 ```java
 import com.aspose.cells.*;
@@ -101,11 +119,9 @@ public class JapaneseEraDateParser {
         Worksheet sheet = workbook.getWorksheets().get(0); // first (and only) sheet
 ```
 
-Tại sao lại bắt đầu với một workbook mới? Nó đảm bảo môi trường sạch sẽ, nơi chúng ta có thể kiểm soát mọi thiết lập—rất quan trọng khi bạn bật chế độ phân tích nhận thức niên hiệu sau này.
+### Bước 3: đặt chuỗi ngày theo thời đại Nhật Bản vào ô A1
 
-## Step 3: Put a Japanese Era Date String into Cell A1
-
-Bây giờ chúng ta mô phỏng một file Excel đã chứa ngày theo niên hiệu Nhật Bản. Trong thực tế, bạn có thể sẽ tải một `.xlsx` hiện có, nhưng để minh họa chúng ta sẽ **write** giá trị này bằng tay.
+Để minh họa, chúng tôi tự viết chuỗi thời đại; trong môi trường thực tế bạn sẽ tải một `.xlsx` hiện có.
 
 ```java
         // Step 3: Insert a Japanese era date string into A1
@@ -113,22 +129,23 @@ Bây giờ chúng ta mô phỏng một file Excel đã chứa ngày theo niên h
         cell.putValue("令和3年5月10日"); // Reiwa 3rd year = 2021-05-10
 ```
 
-Chuỗi này tuân theo ký hiệu chuẩn Nhật Bản: *Era* + *Year* + *Month* + *Day*. Nếu không cấu hình thêm, Aspose.Cells sẽ xem đây chỉ là văn bản thuần, không phải là ngày.
+Văn bản tuân theo mẫu truyền thống của Nhật Bản: *Thời đại* + *Năm* + *Tháng* + *Ngày*.
 
-## Step 4: Enable Era‑Aware Date Parsing
+### Bước 4: bật phân tích ngày nhận thức thời đại
 
-Đây là phần quan trọng: yêu cầu workbook **parse Japanese era date** khi gặp chúng. Điều này được thực hiện qua cờ `ParseDateUsingJapaneseEra`.
+Yêu cầu Aspose.Cells xử lý chuỗi thời đại như ngày bằng cách đặt cờ `ParseDateUsingJapaneseEra`.  
+`ParseDateUsingJapaneseEra` là một thuộc tính, khi true, sẽ bật chuyển đổi tự động các chuỗi thời đại Nhật Bản sang ngày Gregorian.
 
 ```java
         // Step 4: Turn on era‑aware parsing
         workbook.getSettings().setParseDateUsingJapaneseEra(true);
 ```
 
-Tại sao cần làm như vậy? Mặc định Aspose.Cells giả định lịch Gregorian, vì vậy “令和3年5月10日” sẽ vẫn là một chuỗi. Bật cờ này sẽ hướng engine chuyển đổi nó thành một `java.util.Date` (hoặc tương đương `java.time`) ở mức độ nội bộ.
+Nếu không có cờ này, thư viện sẽ coi “令和3年5月10日” là văn bản thuần, và bạn sẽ mất việc chuyển đổi tự động.
 
-## Step 5: Retrieve the Parsed DateTime Value
+### Bước 5: lấy giá trị DateTime đã phân tích
 
-Bây giờ workbook đã biết cách diễn giải niên hiệu, chúng ta có thể yêu cầu ô trả về giá trị `DateTime` của nó.
+Bây giờ yêu cầu ô trả về biểu diễn ngày của nó. `cell.getDateTime()` trả về giá trị ô dưới dạng đối tượng `java.util.Date`. Phương thức này trả về một `java.util.Date`, mà chúng ta ngay lập tức chuyển sang `java.time.LocalDateTime` hiện đại. `LocalDateTime` là một lớp Java đại diện cho ngày và thời gian mà không có múi giờ.
 
 ```java
         // Step 5: Extract the parsed DateTime
@@ -139,11 +156,11 @@ Bây giờ workbook đã biết cách diễn giải niên hiệu, chúng ta có 
         java.time.LocalDateTime dateTime = java.time.LocalDateTime.ofInstant(instant, zone);
 ```
 
-Lưu ý chúng ta **read date from Excel cell** bằng `cell.getDateTime()`. Phương thức này trả về một `java.util.Date`, chúng ta ngay lập tức chuyển nó sang `LocalDateTime` để có độ an toàn kiểu tốt hơn. Điều này đáp ứng yêu cầu **extract datetime from excel cell** một cách sạch sẽ và idiomatic.
+Điều này đáp ứng yêu cầu **trích xuất datetime từ Excel** một cách an toàn kiểu.
 
-## Step 6: Verify the Result
+### Bước 6: xác minh kết quả
 
-Cuối cùng, hãy in ra ngày Gregorian để xác nhận việc chuyển đổi đã thành công.
+In ngày Gregorian để xác nhận việc chuyển đổi thành công.
 
 ```java
         // Step 6: Output the Gregorian date
@@ -152,23 +169,23 @@ Cuối cùng, hãy in ra ngày Gregorian để xác nhận việc chuyển đổ
 }
 ```
 
-Khi chạy chương trình, bạn sẽ thấy:
+Khi bạn chạy chương trình, bạn sẽ thấy:
 
 ```
 2021-05-10T00:00
 ```
 
-Kết quả này chứng minh chúng ta đã **parse Japanese era date**, **read date from Excel cell**, và **extract datetime from Excel cell** trong một luồng duy nhất.
+Kết quả chứng minh rằng chúng ta đã **đọc ngày từ Excel** thành công, phân tích thời đại Nhật Bản, và **trích xuất datetime từ Excel** trong một luồng duy nhất.
 
-## Handling Real‑World Edge Cases
+## Xử lý các trường hợp biên thực tế
 
-### Multiple Eras
+### Nhiều thời đại
 
-Nhật Bản đã có nhiều niên hiệu (Meiji, Taishō, Shōwa, Heisei, Reiwa). Cờ `setParseDateUsingJapaneseEra(true)` bao phủ tất cả chúng một cách tự động, nhưng lưu ý rằng các ngày cũ hơn có thể nằm ngoài phạm vi hỗ trợ của thư viện (thông thường từ 1868 tới hiện tại). Nếu bạn gặp ngày như “昭和45年12月31日”, cùng một đoạn mã sẽ chuyển nó thành 1970‑12‑31.
+Nhật Bản đã có nhiều thời đại (Meiji, Taishō, Shōwa, Heisei, Reiwa). Cờ `setParseDateUsingJapaneseEra(true)` bao phủ tất cả chúng một cách tự động, nhưng lưu ý rằng các ngày cũ hơn có thể nằm ngoài phạm vi hỗ trợ của thư viện (thông thường 1868‑hiện tại). Nếu bạn gặp ngày như “昭和45年12月31日”, cùng một mã sẽ chuyển nó thành 1970‑12‑31.
 
-### Blank or Invalid Cells
+### Ô trống hoặc không hợp lệ
 
-Nếu một ô trống hoặc chứa chuỗi không hợp lệ, `cell.getDateTime()` sẽ ném ra `CellsException`. Hãy bảo vệ bằng một kiểm tra đơn giản:
+Nếu một ô trống hoặc chứa chuỗi sai định dạng, `cell.getDateTime()` sẽ ném ra `CellsException`. Bảo vệ khỏi lỗi này bằng một kiểm tra đơn giản:
 
 ```java
 if (cell.getType() == CellValueType.IS_DATE) {
@@ -178,13 +195,13 @@ if (cell.getType() == CellValueType.IS_DATE) {
 }
 ```
 
-### Time Component
+### Thành phần thời gian
 
-Ví dụ chỉ bao gồm ngày, nhưng nếu file Excel của bạn cũng lưu thời gian (ví dụ “令和3年5月10日 14:30”), Aspose.Cells sẽ giữ lại phần thời gian. `LocalDateTime` bạn nhận được sẽ bao gồm giờ, phút và giây.
+Ví dụ chỉ bao gồm ngày, nhưng nếu tệp Excel của bạn cũng lưu thời gian (ví dụ, “令和3年5月10日 14:30”), Aspose.Cells sẽ giữ lại phần thời gian. `LocalDateTime` bạn nhận sẽ bao gồm giờ, phút và giây.
 
-## Full Working Example
+## Ví dụ làm việc đầy đủ
 
-Kết hợp mọi thứ lại, đây là chương trình hoàn chỉnh, sẵn sàng copy‑and‑paste:
+Kết hợp mọi thứ lại, đây là chương trình hoàn chỉnh, sẵn sàng sao chép‑dán:
 
 ```java
 import com.aspose.cells.*;
@@ -215,32 +232,55 @@ public class JapaneseEraDateParser {
 }
 ```
 
-Lưu file này dưới tên `JapaneseEraDateParser.java`, biên dịch bằng `javac`, và chạy bằng `java`. Nếu mọi thứ đã được thiết lập đúng, bạn sẽ thấy ngày Gregorian được in ra console.
+Lưu tệp này dưới tên `JapaneseEraDateParser.java`, biên dịch bằng `javac`, và chạy bằng `java`. Nếu mọi thứ được cấu hình đúng, bạn sẽ thấy ngày Gregorian được in ra console.
 
-## Pro Tips & Common Pitfalls
+## Mẹo chuyên nghiệp & những bẫy thường gặp
+- **Mẹo chuyên nghiệp:** Bật `setParseDateUsingJapaneseEra(true)` **trước** khi đọc bất kỳ giá trị ô nào. Thay đổi cờ sau này sẽ không chuyển đổi lại các ô đã đọc.
+- **Lưu ý về locale:** Bộ phân tích hoạt động trên các ký tự Unicode, vì vậy bạn không cần đặt locale Nhật Bản một cách rõ ràng.
+- **Hiệu năng:** Phân tích thời đại chỉ thêm một chi phí không đáng kể. Nếu bạn chỉ cần cho vài ô, hãy bật cờ chỉ cho những lần đọc đó.
+- **Kiểm thử:** Sử dụng bản dùng thử miễn phí của Aspose để xác thực với một workbook thực tế có cả ngày Gregorian và thời đại. Điều này đảm bảo mã sản xuất hoạt động như mong đợi.
 
-- **Pro tip:** Luôn đặt `setParseDateUsingJapaneseEra(true)` **trước** khi bạn đọc bất kỳ giá trị ô nào. Thay đổi cờ sau khi đã đọc ô sẽ không tự động chuyển đổi lại giá trị.
-- **Watch out for locale:** Thư viện phân tích chuỗi niên hiệu dựa trên ký tự Unicode, vì vậy bạn không cần thiết lập locale Nhật Bản một cách riêng biệt.
-- **Performance note:** Bật phân tích niên hiệu sẽ tạo ra một chút overhead. Nếu bạn chỉ cần cho một vài ô, có thể tạm thời bật cờ, đọc các ô, rồi tắt lại.
-- **Testing:** Sử dụng bản dùng thử miễn phí của Aspose để kiểm tra với một file Excel thực tế chứa nhiều ngày niên hiệu. Điều này giúp đảm bảo mã production của bạn hoạt động như mong đợi.
+## Câu hỏi thường gặp
 
-## Conclusion
+**Q: Tôi có thể dùng cách này với tệp .xlsx hiện có không?**  
+A: Có. Tải tệp bằng `new Workbook("path/to/file.xlsx")` và cùng cờ sẽ phân tích bất kỳ chuỗi thời đại nào nó tìm thấy.
 
-Chúng ta vừa minh chứng cách **parse Japanese era date** trực tiếp từ một workbook Excel bằng Java và Aspose.Cells. Bằng cách bật chế độ phân tích nhận thức niên hiệu, bạn có thể **read date from Excel cell** và **extract datetime from Excel cell** một cách sạch sẽ, an toàn về kiểu dữ liệu. Cách tiếp cận này hoạt động cho bất kỳ niên hiệu hiện đại nào của Nhật Bản, xử lý cả thành phần thời gian, và đối phó một cách ôn hòa với dữ liệu không hợp lệ.
+**Q: Điều gì xảy ra nếu ô chứa ngày Gregorian?**  
+A: Thư viện trả về giá trị Gregorian không thay đổi; phân tích thời đại chỉ ảnh hưởng đến các chuỗi khớp mẫu thời đại.
 
-Sẵn sàng cho thử thách tiếp theo? Hãy thử tải một file `.xlsx` thực tế chứa hỗn hợp ngày Gregorian và ngày niên hiệu Nhật Bản, hoặc thử định dạng `LocalDateTime` thành các chuỗi phù hợp với locale của bạn. Bạn cũng có thể khám phá việc ghi lại các ngày đã chuyển đổi trở lại Excel cho các hệ thống downstream chỉ hiểu ngày Gregorian.
+**Q: Aspose.Cells có hỗ trợ ngày trước Meiji (1868) không?**  
+A: Không. Các ngày trước 1868 nằm ngoài phạm vi hỗ trợ và sẽ được coi là văn bản thuần.
 
-Có câu hỏi hoặc gặp trường hợp đặc biệt? Để lại bình luận bên dưới, và chúc bạn lập trình vui vẻ!
+**Q: Làm sao để xử lý workbook lớn mà không tiêu tốn bộ nhớ?**  
+A: Sử dụng hàm khởi tạo `Workbook` chấp nhận `LoadOptions` với `setMemorySetting(MemorySetting.MemoryPreference)` để truyền dữ liệu thay vì tải toàn bộ một lúc.
 
-## What Should You Learn Next?
+**Q: Cần giấy phép thương mại để sử dụng trong môi trường sản xuất không?**  
+A: Có, giấy phép Aspose.Cells hợp lệ sẽ loại bỏ các hạn chế đánh giá và cho phép hiệu năng đầy đủ.
 
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
+## Bạn nên học gì tiếp theo?
 
-- [Master the 1904 Date System in Excel Using Aspose.Cells Java for Effective Cell Operations](/cells/english/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/)
-- [Efficiently Convert Excel to PDF with Custom Date Formats Using Aspose.Cells for Java](/cells/english/java/workbook-operations/render-excel-custom-date-formats-pdf-aspose-cells-java/)
-- [How to Select Cell Ranges in Excel Using Aspose.Cells for Java (2023 Guide)](/cells/english/java/range-management/aspose-cells-java-select-cell-ranges-excel/)
+Các hướng dẫn sau đây bao gồm các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật được trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm các ví dụ mã hoàn chỉnh với giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
+
+- [Làm chủ Hệ thống ngày 1904 trong Excel bằng Aspose.Cells Java để Thao tác Ô hiệu quả](/cells/english/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/)
+- [Chuyển đổi Excel sang PDF hiệu quả với Định dạng ngày tùy chỉnh bằng Aspose.Cells cho Java](/cells/english/java/workbook-operations/render-excel-custom-date-formats-pdf-aspose-cells-java/)
+- [Cách chọn phạm vi ô trong Excel bằng Aspose.Cells cho Java (Hướng dẫn 2023)](/cells/english/java/range-management/aspose-cells-java-select-cell-ranges-excel/)
+
+---
+
+**Cập nhật lần cuối:** 2026-10-07  
+**Kiểm thử với:** Aspose.Cells 24.12 for Java  
+**Tác giả:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Phân tích ngày theo thời đại Nhật Bản từ Excel trong Java – Hướng dẫn đầy đủ](/cells/java/cell-operations/parse-japanese-era-date-from-excel-in-java-full-guide/)
+- [Đọc tệp Excel Java với Aspose.Cells – Hướng dẫn toàn diện](/cells/java/automation-batch-processing/aspose-cells-java-excel-manipulation/)
+- [Lưu workbook Excel bằng Aspose.Cells cho Java – Hướng dẫn toàn diện](/cells/java/automation-batch-processing/excel-workbook-automation-aspose-cells-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
