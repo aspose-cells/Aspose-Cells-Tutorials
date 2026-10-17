@@ -81,6 +81,8 @@ Aspose.Cells for Java kullanarak Excel dosyalarını SVG'ye dönüştürürken y
 Aspose.Cells for Java kullanarak JSON verilerinden XLSX dosyası oluşturmayı ve çalışma kitabını XLSX formatında kaydetmeyi öğrenin.
 ### [Java'da Sayısal Dışa Aktarım Hassasiyetini Ayarlama: Önemli Basamakları Belirleme](./set-numeric-export-precision-in-java-set-significant-digits/)
 Aspose.Cells for Java kullanarak sayısal dışa aktarımda önemli basamakları nasıl ayarlayacağınızı öğrenin.
+### [Java'da Sayısal Hassasiyetle PDF Olarak Çalışma Kitabını Kaydetme](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+Java'da Aspose.Cells kullanarak sayısal hassasiyetle PDF olarak çalışma kitabını nasıl kaydedeceğinizi öğrenin.
 ### [XLSX'i CSV Olarak Dışa Aktarma – Tam Java Rehberi](./export-xlsx-as-csv-complete-java-guide/)
 Aspose.Cells for Java ile XLSX dosyalarını CSV formatına nasıl aktaracağınızı öğrenin. Kaynak kodlu adım adım tam rehber.
 ### [Excel'i Word'e Dönüştür – Tam Java Rehberi (2026)](./convert-excel-to-word-complete-java-guide-2026/)

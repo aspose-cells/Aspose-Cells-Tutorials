@@ -88,12 +88,20 @@ Scopri come estrarre il testo delle formule dalle celle di Excel utilizzando Asp
 
 ### [Come utilizzare Reduce in Excel con Java – Guida alle formule Lambda](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
 Scopri come applicare la funzione Reduce nelle formule Excel usando Java e le espressioni lambda per calcoli avanzati.
+
 ### [Come utilizzare SEQUENCE in una cartella di lavoro Excel con Java – Guida passo‑passo](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
 Scopri come applicare la funzione SEQUENCE in Aspose.Cells per Java per generare sequenze di dati in modo semplice e veloce.
+
 ### [Come utilizzare WRAPCOLS in Java – Esempio completo di WRAPCOLS in Excel](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 Scopri come applicare la funzione WRAPCOLS con Aspose.Cells per Java per suddividere il contenuto delle celle in più colonne.
+
+### [Come utilizzare WRAPCOLS per convertire un elenco in più colonne in Java](./how-to-use-wrapcols-to-convert-a-list-into-multiple-columns/)
+Scopri come trasformare un elenco in più colonne usando la funzione WRAPCOLS con Aspose.Cells per Java.
+
 ### [Come calcolare la cotangente in Excel – Guida completa](./how-to-calculate-cotangent-in-excel-complete-guide/)
 Scopri come calcolare la cotangente in Excel usando le funzioni integrate e personalizzate con Aspose.Cells per Java.
+
+### [Aspose.Cells imposta formula con la funzione EXPAND – guida completa Java](./aspose-cells-set-formula-with-expand-function-complete-java/)
 
 ## Risorse aggiuntive
 

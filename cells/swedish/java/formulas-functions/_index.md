@@ -89,10 +89,16 @@ Lär dig hur du använder Reduce-funktionen i Excel med Java och lambda-uttryck 
 Lär dig hur du använder SEQUENCE-funktionen i Aspose.Cells för Java för att generera sekvenser i Excel‑arbetsböcker.
 ### [Hur man använder WRAPCOLS i Java – Komplett Excel WRAPCOLS-exempel](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 Lär dig hur du använder WRAPCOLS-funktionen i Aspose.Cells för Java för att automatiskt justera kolumnbredden i Excel.
-### [Hur man beräknar cotangens i Excel – Komplett guide](./how-to-calculate-cotangent-in-excel-complete-guide/)
+
+### [Hur du använder wrapcols för att konvertera en lista till flera kolumner i Java](./how-to-use-wrapcols-to-convert-a-list-into-multiple-columns/)
+Lär dig hur du med wrapcols-funktionen i Aspose.Cells för Java delar upp en lista i flera kolumner för bättre layout.
+
+### [Hur du beräknar cotangens i Excel – Komplett guide](./how-to-calculate-cotangent-in-excel-complete-guide/)
 Lär dig hur du beräknar cotangens i Excel med en komplett steg-för-steg-guide och praktiska Java-kodexempel.
 ### [Sortera unika värden i Excel – Komplett Java-guide för att ställa in matrisformler](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 Lär dig hur du sorterar unika värden i Excel med Aspose.Cells för Java och använder matrisformler för effektiv datahantering.
+
+### [Aspose.Cells ställ in formel med EXPAND-funktionen – komplett Java-guide](./aspose-cells-set-formula-with-expand-function-complete-java/)
 
 ## Ytterligare resurser
 

@@ -88,12 +88,18 @@ Apprenez à extraire le texte d'une formule de cellules Excel avec Aspose.Cells 
 ### [Comment utiliser WRAPCOLS en Java – Exemple complet de WRAPCOLS Excel](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 Apprenez à appliquer la fonction WRAPCOLS avec Aspose.Cells pour Java afin de transformer des données en colonnes multiples dans Excel.
 
+### [Comment utiliser wrapcols pour convertir une liste en plusieurs colonnes en Java](./how-to-use-wrapcols-to-convert-a-list-into-multiple-columns/)
+Apprenez à transformer une liste en plusieurs colonnes dans Excel en utilisant la fonction WRAPCOLS avec Aspose.Cells pour Java.
+
 ### [Comment utiliser SEQUENCE dans un classeur Excel Java – guide étape par étape](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
 Apprenez à appliquer la fonction SEQUENCE d'Excel avec Aspose.Cells pour Java afin de générer des séries de données dynamiques dans vos classeurs.
 ### [Comment calculer la cotangente dans Excel – Guide complet](./how-to-calculate-cotangent-in-excel-complete-guide/)
 Apprenez à calculer la fonction cotangente dans Excel en utilisant les formules appropriées et à gérer les cas particuliers.
 ### [Trier les valeurs uniques dans Excel – Guide complet Java pour définir des formules matricielles](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 Apprenez à trier les valeurs uniques dans Excel en définissant des formules matricielles avec Aspose.Cells pour Java.
+
+### [Aspose.Cells : définir une formule avec la fonction EXPAND – guide complet Java](./aspose-cells-set-formula-with-expand-function-complete-java/)
+Apprenez à utiliser la fonction EXPAND dans Aspose.Cells pour Java afin de définir dynamiquement des formules et gérer des plages de données extensibles.
 
 ## Ressources supplémentaires
 

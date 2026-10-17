@@ -39,11 +39,13 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java CSV-Dateien exportieren, signif
 ### [CSV aus Excel‑Zellen exportieren – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-export-csv-from-excel-cells-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Daten aus Excel‑Zellen in CSV exportieren. Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
 ### [Exportieren von Excel in PDF](./exporting-excel-to-pdf/)
-Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java mühelos in PDF exportieren. Unsere Schritt-für-Schritt-Anleitung vereinfacht den Prozess. Starten Sie noch heute mit der Konvertierung!
+Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java mühelos in PDF exportieren. Unsere Schritt‑für‑Schritt‑Anleitung vereinfacht den Prozess. Starten Sie noch heute mit der Konvertierung!
 ### [Wie man aus einer Arbeitsmappe ein PDF erstellt – Vollständiger Java-Leitfaden](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
-Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Arbeitsmappe in ein PDF konvertieren. Schritt-für-Schritt-Anleitung mit Beispielcode.
+Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Arbeitsmappe in ein PDF konvertieren. Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
 ### [Excel nach PDF konvertieren – Vollständiger Java-Leitfaden mit Aspose.Cells](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java in PDF konvertieren. Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
+### [Wie man eine Arbeitsmappe in Java mit numerischer Präzision als PDF speichert](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Arbeitsmappe als PDF speichern und dabei numerische Präzision festlegen.
 ### [Exportieren von Excel nach XML Java](./export-excel-to-xml-java/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Excel in XML in Java exportieren. Schritt‑für‑Schritt‑Anleitung mit Quellcode für die nahtlose Datenkonvertierung.
 ### [Datenimport aus Excel](./data-import-from-excel/)
@@ -98,7 +100,7 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java Excel-Dateien vollständig nach
 ### [Wie man Schriftarten beim Konvertieren von Excel zu HTML einbettet – Vollständiger Leitfaden](./how-to-embed-fonts-when-converting-excel-to-html-complete-gu/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Schriftarten beim Exportieren von Excel nach HTML einbetten, um ein konsistentes Layout zu gewährleisten.
 ### [Excel nach PPTX konvertieren: Vollständiger Java-Leitfaden](./convert-excel-to-pptx-complete-java-guide/)
-Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java in PowerPoint-Präsentationen (PPTX) umwandeln. Schritt-für-Schritt-Anleitung mit Beispielcode.
+Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java in PowerPoint-Präsentationen (PPTX) umwandeln. Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
 ### [Excel in PDF/A mit Java konvertieren – Vollständiger Schritt‑für‑Schritt‑Leitfaden](./convert-excel-to-pdf-a-with-java-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java in PDF/A konvertieren. Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
 ### [Diagramm als Bild exportieren – Vollständiger Leitfaden zur Konvertierung von Excel nach Word](./export-chart-as-image-complete-guide-to-convert-excel-to-wor/)

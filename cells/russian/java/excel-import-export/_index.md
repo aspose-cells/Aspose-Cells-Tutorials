@@ -131,6 +131,9 @@
 ### [Создание файла FlatOPC из книги Excel – пошаговое руководство](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
 Узнайте, как создать файл FlatOPC из рабочей книги Excel с помощью Aspose.Cells для Java, следуя пошаговым инструкциям.
 
+### [Как сохранить рабочую книгу в PDF с точностью чисел в Java](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+Узнайте, как сохранить рабочую книгу в PDF с заданной точностью чисел, используя Aspose.Cells для Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

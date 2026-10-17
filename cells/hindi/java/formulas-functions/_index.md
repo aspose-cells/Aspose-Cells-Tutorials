@@ -91,10 +91,14 @@ Java के साथ Aspose.Cells का उपयोग करके Excel म
 ### [Java में WRAPCOLS का उपयोग कैसे करें – पूर्ण Excel WRAPCOLS उदाहरण](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 Java में Aspose.Cells के साथ WRAPCOLS फ़ंक्शन लागू करना और विस्तृत उदाहरण देखना सीखें।
 
-### [जावा Excel वर्कबुक में SEQUENCE का उपयोग कैसे करें – चरण‑दर‑चरण गाइड](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+### [Java में सूची को कई कॉलम में बदलने के लिए wrapcols का उपयोग कैसे करें](./how-to-use-wrapcols-to-convert-a-list-into-multiple-columns/)
+Java में Aspose.Cells के साथ WRAPCOLS का उपयोग करके सूची को कई कॉलम में विभाजित करना सीखें।
+
+### [जावा में Excel वर्कबुक में SEQUENCE का उपयोग कैसे करें – चरण‑दर‑चरण गाइड](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
 जावा में Aspose.Cells का उपयोग करके Excel वर्कबुक में SEQUENCE फ़ंक्शन को लागू करने और उपयोग करने के चरणों को सीखें।
 ### [Excel में अद्वितीय मानों को क्रमबद्ध करें – एरे फ़ॉर्मूला सेट करने के लिए पूर्ण जावा गाइड](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
-जावा के साथ Aspose.Cells का उपयोग करके Excel में अद्वितीय मानों को सॉर्ट करने और एरे फ़ॉर्मूला सेट करने की पूरी प्रक्रिया सीखें।
+
+### [Aspose.Cells सेट फ़ॉर्मूला के साथ EXPAND फ़ंक्शन – पूर्ण जावा गाइड](./aspose-cells-set-formula-with-expand-function-complete-java/)
 
 ## अतिरिक्त संसाधन
 

@@ -108,8 +108,11 @@ Tanuld meg, hogyan exportálj diagramot képként, majd konvertáld az Excel fá
 Tanuld meg, hogyan konvertálhatsz Excel fájlokat PPTX prezentációvá Java-ban az Aspose.Cells segítségével, lépésről lépésre útmutatóval.
 ### [Excel PDF/A konvertálása Java-val – Teljes lépésről lépésre útmutató](./convert-excel-to-pdf-a-with-java-complete-step-by-step-guide/)
 
+### [Munkafüzet mentése PDF-be numerikus pontossággal Java-ban](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+Tanuld meg, hogyan állíthatod be a numerikus export pontosságát PDF mentéskor Java-ban az Aspose.Cells segítségével.
+
 ### [Excel exportálása SVG-be – Lépésről lépésre Java útmutató](./how-to-export-excel-to-svg-step-by-step-java-guide/)
-Ismerd meg, hogyan exportálhatsz Excel-fájlokat SVG formátumba Java-val, részletes kódmintákkal és gyakorlati példákkal.
+Ismerd meg, hogyan exportálj Excel-fájlokat SVG formátumba Java-val, részletes kódmintákkal és gyakorlati példákkal.
 ### [Betűtípusok beágyazása Excel HTML konvertálásakor – Teljes útmutató](./how-to-embed-fonts-when-converting-excel-to-html-complete-gu/)
 Ismerd meg, hogyan ágyazhatod be a betűtípusokat Excel fájlok HTML-re konvertálása során az Aspose.Cells for Java használatával.
 ### [FlatOPC fájl létrehozása Excel munkafüzetből – Lépésről lépésre útmutató](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)

@@ -84,14 +84,23 @@ A code tutorial for Aspose.Words Java
 Learn how to automate Excel tasks using Aspose.Cells for Java. This guide covers loading workbooks and applying shared formulas efficiently.
 
 ### [How to Implement FormulaText in Aspose.Cells for Java&#58; A Step-by-Step Guide](./implementing-formula-text-aspose-cells-java-guide/)
+
 ### [How to Use Reduce in Excel with Java – Lambda Formula Guide](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
 Learn how to implement the Reduce lambda function in Excel formulas using Aspose.Cells for Java, with step-by-step code examples.
+
 ### [How to Use SEQUENCE in Java Excel Workbook – Step‑by‑Step Guide](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
 Learn how to use the SEQUENCE function in Excel workbooks with Aspose.Cells for Java, including syntax, parameters, and practical examples.
+
 ### [How to Use WRAPCOLS in Java – Complete Excel WRAPCOLS Example](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 Learn how to apply the WRAPCOLS function in Excel using Aspose.Cells for Java, with a complete example and code walkthrough.
+
+### [How to use wrapcols to convert a list into multiple columns in Java](./how-to-use-wrapcols-to-convert-a-list-into-multiple-columns/)
+Learn how to use the WRAPCOLS function in Aspose.Cells for Java to split a list into multiple columns efficiently.
+
 ### [How to Calculate Cotangent in Excel – Complete Guide](./how-to-calculate-cotangent-in-excel-complete-guide/)
 Learn how to calculate cotangent in Excel with Aspose.Cells for Java, covering formula setup, implementation details, and practical code examples.
+
+### [Aspose.Cells set formula with EXPAND function – complete Java guide](./aspose-cells-set-formula-with-expand-function-complete-java/)
 
 ## Additional Resources
 

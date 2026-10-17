@@ -85,14 +85,24 @@ Aprenda a extraer el texto de fórmulas de celdas de Excel usando Aspose.Cells c
 
 ### [Cómo usar Reduce en Excel con Java – Guía de fórmulas Lambda](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
 Aprenda a utilizar la función Reduce en Excel con Java, creando fórmulas Lambda para cálculos avanzados y eficientes.
+
 ### [Cómo usar SEQUENCE en libros de Excel Java – Guía paso a paso](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
 Aprenda a usar la función SEQUENCE en Aspose.Cells para Java y generar matrices dinámicas en libros de Excel.
+
 ### [Cómo usar WRAPCOLS en Java – Ejemplo completo de WRAPCOLS en Excel](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 Aprenda a utilizar la función WRAPCOLS en Aspose.Cells para Java para dividir texto en columnas en Excel.
+
+### [Cómo usar WRAPCOLS para convertir una lista en varias columnas en Java](./how-to-use-wrapcols-to-convert-a-list-into-multiple-columns/)
+Aprenda a dividir una lista en varias columnas en Excel usando la función WRAPCOLS con Aspose.Cells para Java.
+
 ### [Cómo calcular la cotangente en Excel – Guía completa](./how-to-calculate-cotangent-in-excel-complete-guide/)
 Aprenda a calcular la cotangente en Excel usando Aspose.Cells para Java, con ejemplos de código y explicaciones paso a paso.
+
 ### [Ordenar valores únicos en Excel – Guía completa de Java para establecer fórmulas de matriz](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 Aprenda a ordenar valores únicos en Excel usando Aspose.Cells para Java mediante fórmulas de matriz, con ejemplos de código paso a paso.
+
+### [Aspose.Cells: establecer fórmula con la función EXPAND – guía completa de Java](./aspose-cells-set-formula-with-expand-function-complete-java/)
+Aprenda a usar la función EXPAND en Aspose.Cells para Java para crear fórmulas dinámicas que expanden rangos automáticamente.
 
 ## Recursos adicionales
 

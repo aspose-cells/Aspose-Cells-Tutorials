@@ -43,6 +43,8 @@ Lär dig hur du enkelt exporterar Excel-filer till PDF med Aspose.Cells för Jav
 Lär dig hur du skapar PDF-filer från en Excel-arbetsbok med Aspose.Cells för Java i denna kompletta steg-för-steg-guide.
 ### [Konvertera Excel till PDF – Komplett Java‑guide med Aspose.Cells](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
 Lär dig hur du konverterar Excel-filer till PDF med Aspose.Cells i en detaljerad steg‑för‑steg‑Java‑guide.
+### [Hur man sparar arbetsbok som PDF med numerisk precision i Java](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+Lär dig hur du sparar en Excel-arbetsbok som PDF med exakt numerisk precision med Aspose.Cells för Java.
 ### [Exportera Excel till XML Java](./export-excel-to-xml-java/)
 Lär dig hur du exporterar Excel till XML i Java med Aspose.Cells för Java. Steg-för-steg-guide med källkod för sömlös datakonvertering.
 ### [Dataimport från Excel](./data-import-from-excel/)
@@ -50,7 +52,7 @@ Lär dig hur du importerar data från Excel med Aspose.Cells för Java. En omfat
 ### [Exportera Excel till JSON](./export-excel-to-json/)
 Lär dig hur du exporterar Excel-data till JSON med Aspose.Cells för Java. Följ den här steg-för-steg-guiden med källkod för sömlös konvertering.
 ### [Validering av importdata i Excel](./excel-import-data-validation/)
-Lär dig hur du implementerar validering av importdata i Excel med Aspose.Cells för Java med den här omfattande steg-för-steg-guiden. Säkerställ datanoggrannhet och förbättra användarupplevelsen. 
+Lär dig hur du implementerar validering av importdata i Excel med Aspose.Cells för Java med den här omfattande steg-för‑steg‑guiden. Säkerställ datanoggrannhet och förbättra användarupplevelsen. 
 ### [Exportera Excel till HTML och Java](./export-excel-to-html-java/)
 ### [Hur man exporterar CSV med Java – Ställ in signifikanta siffror och exportintervall till CSV](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
 Lär dig hur du exporterar data till CSV med specifika signifikanta siffror och anpassat exportintervall i Java med Aspose.Cells.
@@ -99,9 +101,9 @@ Lär dig hur du bäddar in teckensnitt när du konverterar Excel till HTML och s
 ### [Exportera Excel till SVG – Steg‑för‑steg Java‑guide](./how-to-export-excel-to-svg-step-by-step-java-guide/)
 Lär dig hur du exporterar Excel-filer till SVG-format med Aspose.Cells för Java i en detaljerad steg‑för‑steg‑guide.
 ### [Konvertera Excel till PPTX: Komplett Java-guide](./convert-excel-to-pptx-complete-java-guide/)
-Lär dig hur du konverterar Excel-filer till PowerPoint PPTX med Aspose.Cells för Java i en komplett steg-för-steg-guide.
+Lär dig hur du konverterar Excel-filer till PowerPoint PPTX med Aspose.Cells för Java i en komplett steg‑för‑steg-guide.
 ### [Konvertera Excel till PDF/A med Java – Komplett steg‑för‑steg‑guide](./convert-excel-to-pdf-a-with-java-complete-step-by-step-guide/)
-Lär dig hur du konverterar Excel-filer till PDF/A-format med Aspose.Cells för Java i en detaljerad steg‑för‑steg-guide.
+Lär dig hur du konverterar Excel-filer till PDF/A-format med Aspose.Cells för Java i en detaljerad steg‑för‑steg‑guide.
 ### [Exportera diagram som bild – Komplett guide för att konvertera Excel till Word](./export-chart-as-image-complete-guide-to-convert-excel-to-wor/)
 Lär dig hur du exporterar diagram från Excel som bild och konverterar dem till Word med Aspose.Cells för Java i en steg‑för‑steg‑guide.
 ### [Hur du bäddar in teckensnitt vid konvertering av Excel till HTML – Komplett guide](./how-to-embed-fonts-when-converting-excel-to-html-complete-gu/)
