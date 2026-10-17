@@ -1,0 +1,7 @@
+Title: Convert Excel to XPS in C# – Complete Step‑by‑Step Guide
+Slug: convert-excel-to-xps-in-c-complete-step-by-step-guide
+Category: xps-and-pdf-operations
+ProcessedDate: 2026-07-14T07:43:51.062597
+SourceRepo: AI Search API
+Keywords: convert excel to xps, load excel workbook in c#
+PRNumber: 118

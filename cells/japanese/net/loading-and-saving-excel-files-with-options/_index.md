@@ -32,6 +32,8 @@
 Aspose.Cells for .NET を使用して、HTML を Excel に読み込む際に列と行を自動調整する方法を学びます。ステップバイステップのガイドも含まれています。
 ### [HTML に保存する際に下位レベルの公開コメントを無効にする](./disabling-downlevel-revealed-comments/)
 この詳細なステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して Excel ブックを HTML に保存するときに、ダウンレベルの公開コメントを無効にする方法を学習します。
+### [C# で新しいワークブックを作成 – 日本のカレンダーで Excel を読み込む](./create-new-workbook-in-c-load-excel-with-japanese-calendar/)
+Aspose.Cells for .NET を使用して、C# で新しいワークブックを作成し、日本のカレンダーを適用して Excel を読み込む方法を学びます。
 ### [Excel ファイルを読む C# – Excel ワークブックを効率的にロードする方法](./read-excel-file-c-how-to-load-excel-workbook-c-efficiently/)
 Aspose.Cells for .NET を使用して、Excel ワークブックを効率的に読み込む方法を学びます。
 

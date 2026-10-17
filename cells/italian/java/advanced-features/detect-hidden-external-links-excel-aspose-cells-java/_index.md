@@ -1,13 +1,14 @@
 ---
-date: '2025-12-29'
-description: Impara a rilevare i collegamenti nascosti di Excel e a gestire le origini
-  dati di Excel con Aspose.Cells per Java. Guida passo‑passo per l’audit e per garantire
-  l’integrità della cartella di lavoro.
+date: '2026-05-03'
+description: Scopri come trovare collegamenti esterni nascosti e gestire le origini
+  dati di Excel con Aspose.Cells per Java. Guida passo‑passo per verificare l'integrità
+  della cartella di lavoro.
 keywords:
-- detect hidden external links Excel
-- Aspose.Cells Java setup
-- audit data sources with Aspose.Cells
-title: Come rilevare collegamenti Excel nascosti nei cartelle di lavoro utilizzando
+- find hidden external links
+- manage excel data sources
+- identify hidden excel references
+- detect hidden excel links
+title: Come trovare collegamenti esterni nascosti nei cartelle di lavoro Excel usando
   Aspose.Cells per Java
 url: /it/java/advanced-features/detect-hidden-external-links-excel-aspose-cells-java/
 weight: 1
@@ -19,38 +20,43 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Come rilevare i collegamenti Excel nascosti nelle cartelle di lavoro usando Aspose.Cells per Java
+# Come trovare collegamenti esterni nascosti in cartelle di lavoro Excel usando Aspose.Cells per Java
 
 ## Introduzione
 
-Rilevare i collegamenti Excel nascosti è essenziale quando devi **rilevare i collegamenti Excel nascosti** e mantenere le tue cartelle di lavoro trasparenti e affidabili. Che tu stia auditando modelli finanziari, garantendo la conformità o semplicemente pulendo file legacy, conoscere ogni riferimento esterno – anche quelli nascosti – protegge l'integrità dei dati. In questo tutorial ti guideremo attraverso la configurazione di Aspose.Cells per Java, il caricamento di una cartella di lavoro e l'identificazione programmatica di eventuali collegamenti esterni nascosti.
+Trovare collegamenti esterni nascosti in una cartella di lavoro Excel è essenziale quando è necessario **trovare collegamenti esterni nascosti** e mantenere i file trasparenti, affidabili e pronti per l'audit. Che tu stia revisionando modelli finanziari, garantendo la conformità normativa o pulendo fogli di calcolo legacy, scoprire ogni riferimento nascosto protegge l'integrità dei dati e previene errori di calcolo inaspettati. In questo tutorial vedremo come configurare Aspose.Cells per Java, caricare una cartella di lavoro e identificare programmaticamente eventuali collegamenti esterni nascosti.
 
 ### Risposte rapide
-- **Cosa significa “rilevare i collegamenti Excel nascosti”?** Indica la scansione di una cartella di lavoro alla ricerca di riferimenti esterni che non sono visibili nell'interfaccia utente.  
-- **Perché usare Aspose.Cells?** Fornisce un'API pure‑Java che funziona senza la necessità di avere Microsoft Office installato.  
-- **È necessaria una licenza?** Una versione di prova gratuita è sufficiente per la valutazione; è richiesta una licenza permanente per la produzione.  
-- **Posso elaborare molti file contemporaneamente?** Sì – è possibile iterare sui file e riutilizzare la stessa logica di rilevamento.  
-- **Quali versioni di Java sono supportate?** È richiesto Java 8 o superiore.
+- **What does “find hidden external links” mean?** Che cosa significa “find hidden external links”?  
+  Significa scansionare una cartella di lavoro alla ricerca di riferimenti esterni che non sono visibili nell'interfaccia di Excel.  
+- **Why use Aspose.Cells?** Perché usare Aspose.Cells?  
+  Fornisce un'API pure‑Java che funziona senza la necessità di avere Microsoft Office installato.  
+- **Do I need a license?** È necessaria una licenza?  
+  Una versione di prova gratuita funziona per la valutazione; è richiesta una licenza permanente per la produzione.  
+- **Can I process many files at once?** Posso elaborare molti file contemporaneamente?  
+  Sì – è possibile iterare sui file e riutilizzare la stessa logica di rilevazione.  
+- **Which Java versions are supported?** Quali versioni di Java sono supportate?  
+  È richiesto Java 8 o superiore.  
 
-## Cos'è il rilevamento dei collegamenti Excel nascosti?
+## Che cosa è find hidden external links?
 
-Quando una cartella di lavoro Excel contiene formule che estraggono dati da altri file, tali riferimenti sono memorizzati come *collegamenti esterni*. Alcuni di questi collegamenti possono essere nascosti (segnati come non visibili) ma influenzare comunque i calcoli. Rilevarli ti aiuta a **gestire le fonti dati di Excel** in modo efficace e previene modifiche inattese dei dati.
+Quando una cartella di lavoro Excel contiene formule che estraggono dati da altri file, tali riferimenti sono memorizzati come *collegamenti esterni*. Alcuni di questi collegamenti possono essere nascosti (contrassegnati come non visibili) ma influenzano comunque i calcoli. Rilevarli ti aiuta a **gestire le fonti di dati di Excel**, **identificare riferimenti Excel nascosti**, e previene sorprese quando i file di origine cambiano.
 
 ## Perché usare Aspose.Cells per questo compito?
 
-Aspose.Cells per Java offre:
+Aspose.Cells for Java offre:
 
-- **Controllo completo** sugli oggetti della cartella di lavoro senza necessità di Excel installato.  
-- **API robusta** per enumerare i collegamenti esterni e interrogare la loro visibilità.  
-- **Alte prestazioni** per cartelle di lavoro di grandi dimensioni, rendendo possibili audit batch.  
+- **Full control** sugli oggetti della cartella di lavoro senza la necessità di avere Excel installato.  
+- **Robust API** per enumerare i collegamenti esterni e interrogare la loro visibilità.  
+- **High performance** per cartelle di lavoro di grandi dimensioni, rendendo possibili audit batch.  
 
 ## Prerequisiti
 
-- Aspose.Cells per Java 25.3 o successivo.  
-- Java 8 o superiore (IntelliJ IDEA, Eclipse o qualsiasi IDE preferito).  
+- Aspose.Cells for Java 25.3 o successivo.  
+- Java 8 o superiore (IntelliJ IDEA, Eclipse o qualsiasi IDE preferisci).  
 - Maven o Gradle per la gestione delle dipendenze.  
 
-## Configurazione di Aspose.Cells per Java
+## Configurare Aspose.Cells per Java
 
 ### Utilizzo di Maven
 Aggiungi quanto segue al tuo file `pom.xml`:
@@ -63,14 +69,14 @@ Aggiungi quanto segue al tuo file `pom.xml`:
 ```
 
 ### Utilizzo di Gradle
-Inserisci quanto segue nel tuo file `build.gradle`:
+Includi quanto segue nel tuo file `build.gradle`:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 #### Acquisizione della licenza
 
-Puoi ottenere una licenza di prova gratuita per testare le funzionalità di Aspose.Cells o acquistare una licenza completa per l'uso in produzione. È disponibile anche una licenza temporanea, che ti permette di esplorare le capacità della libreria senza limitazioni. Visita la [Pagina di licenza di Aspose](https://purchase.aspose.com/temporary-license/) per ulteriori dettagli.
+Puoi ottenere una licenza di prova gratuita per testare le funzionalità di Aspose.Cells o acquistare una licenza completa per l'uso in produzione. È disponibile anche una licenza temporanea, che ti consente di esplorare le capacità della libreria senza limitazioni. Visita [Aspose's Licensing Page](https://purchase.aspose.com/temporary-license/) per ulteriori dettagli.
 
 #### Inizializzazione di base
 
@@ -91,13 +97,13 @@ public class WorkbookSetup {
 
 ## Guida all'implementazione
 
-### Rilevare i collegamenti esterni nascosti
+### Rilevare collegamenti esterni nascosti
 
 Caricheremo una cartella di lavoro, recupereremo la sua collezione di collegamenti esterni e ispezioneremo lo stato di visibilità di ciascun collegamento.
 
 #### Caricamento della cartella di lavoro
 
-Per prima cosa, assicurati di avere accesso alla directory in cui si trova la tua cartella di lavoro:
+Prima, assicurati di avere accesso alla directory in cui si trova la tua cartella di lavoro:
 ```java
 import com.aspose.cells.Workbook;
 import AsposeCellsExamples.Utils;
@@ -131,7 +137,7 @@ public class CheckWorkbookContainsHiddenExternalLinks {
 
 #### Verifica della visibilità del collegamento
 
-Itera su ciascun collegamento per determinarne lo stato di visibilità:
+Itera attraverso ogni collegamento per determinare il suo stato di visibilità:
 ```java
 public class CheckWorkbookContainsHiddenExternalLinks {
     public static void main(String[] args) throws Exception {
@@ -149,58 +155,58 @@ public class CheckWorkbookContainsHiddenExternalLinks {
 ```
 
 **Spiegazione:**  
-- `links.get(i).getDataSource()` restituisce l'URL o il percorso file del collegamento esterno.  
+- `links.get(i).getDataSource()` recupera l'URL o il percorso file del collegamento esterno.  
 - `links.get(i).isReferred()` indica se la cartella di lavoro utilizza effettivamente il collegamento in qualche formula.  
-- `links.get(i).isVisible()` segnala se il collegamento è nascosto (`false`) o visibile (`true`).  
+- `links.get(i).isVisible()` indica se il collegamento è nascosto (`false`) o visibile (`true`).  
 
 ### Suggerimenti per la risoluzione dei problemi
 
-Problemi comuni includono percorsi file errati o dipendenze mancanti. Verifica che il tuo progetto includa tutti i JAR di Aspose.Cells necessari e controlla che il percorso della cartella di lavoro sia corretto.
+I problemi comuni includono percorsi file errati o dipendenze mancanti. Assicurati che il tuo progetto includa tutti i JAR di Aspose.Cells necessari e verifica che il percorso della cartella di lavoro sia corretto.
 
 ## Applicazioni pratiche
 
-Rilevare i collegamenti Excel nascosti può essere utile in diversi scenari:
+Rilevare collegamenti esterni nascosti può essere utile in diversi scenari:
 
-1. **Audit dei dati:** Verifica che ogni fonte dati citata nei report finanziari sia contabilizzata.  
-2. **Controlli di conformità:** Assicurati che non esistano fonti dati non autorizzate o nascoste nei documenti regolamentati.  
-3. **Progetti di integrazione:** Convalida l'integrità dei collegamenti esterni prima di sincronizzare i dati Excel con database o API.  
+1. **Data Auditing:** Verifica che ogni fonte di dati citata nei report finanziari sia contabilizzata.  
+2. **Compliance Checks:** Assicurati che non esistano fonti di dati non autorizzate o nascoste nei documenti regolamentati.  
+3. **Integration Projects:** Convalida l'integrità dei collegamenti esterni prima di sincronizzare i dati Excel con database o API.  
 
 ## Considerazioni sulle prestazioni
 
-Quando si elaborano cartelle di lavoro di grandi dimensioni:
+Durante l'elaborazione di cartelle di lavoro di grandi dimensioni:
 
-- Rilascia prontamente gli oggetti `Workbook` per liberare memoria.  
-- Limita l'iterazione ai fogli che contengono effettivamente formule, se possibile.  
+- Rilascia rapidamente gli oggetti `Workbook` per liberare memoria.  
+- Limita l'iterazione ai fogli di lavoro che effettivamente contengono formule, se possibile.  
 
-## Perché rilevare i collegamenti Excel nascosti? (Gestire le fonti dati di Excel)
+## Perché trovare collegamenti esterni nascosti? (Gestire le fonti di dati di Excel)
 
-Comprendere e **gestire le fonti dati di Excel** ti aiuta a mantenere i fogli di calcolo puliti, riduce il rischio di riferimenti interrotti e migliora le prestazioni complessive della cartella di lavoro. Scansionando regolarmente i collegamenti nascosti, mantieni una fonte unica di verità in tutta l'organizzazione.
+Comprendere e **gestire le fonti di dati di Excel** ti aiuta a mantenere i fogli di calcolo puliti, riduce il rischio di riferimenti interrotti e migliora le prestazioni complessive della cartella di lavoro. Scansionando regolarmente i collegamenti nascosti, mantieni una fonte unica di verità in tutta l'organizzazione.
 
 ## Conclusione
 
-In questo tutorial hai imparato a **rilevare i collegamenti Excel nascosti** nelle cartelle di lavoro usando Aspose.Cells per Java. Questa capacità è fondamentale per mantenere la trasparenza e l'integrità dei dati. Per ulteriori approfondimenti, sperimenta con altre funzionalità di Aspose.Cells come il ricalcolo delle formule, la manipolazione dei grafici o la conversione batch di cartelle di lavoro.
+In questo tutorial hai imparato come **trovare collegamenti esterni nascosti** nelle cartelle di lavoro usando Aspose.Cells per Java. Questa capacità è essenziale per mantenere la trasparenza e l'integrità dei dati. Per ulteriori esplorazioni, sperimenta altre funzionalità di Aspose.Cells come il ricalcolo delle formule, la manipolazione dei grafici o la conversione di massa delle cartelle di lavoro.
 
-Pronto a approfondire? Consulta la [Documentazione di Aspose.Cells](https://reference.aspose.com/cells/java/) per tecniche più avanzate.
+Pronto per approfondire? Consulta la [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/) per tecniche più avanzate.
 
 ## Domande frequenti
 
-**D: La versione di prova gratuita impone limiti al rilevamento dei collegamenti nascosti?**  
-R: La versione di prova offre funzionalità complete, incluso il rilevamento dei collegamenti esterni, senza restrizioni.
+**Q:** Il trial gratuito impone dei limiti nella rilevazione dei collegamenti nascosti?  
+**A:** La versione di prova fornisce piena funzionalità, inclusa la rilevazione dei collegamenti esterni, senza restrizioni.
 
-**D: I collegamenti nascosti vengono rimossi automaticamente se elimino il file sorgente?**  
-R: No. Il collegamento rimane nella cartella di lavoro finché non lo rimuovi o aggiorni esplicitamente tramite l'API.
+**Q:** I collegamenti nascosti verranno rimossi automaticamente se elimino il file di origine?  
+**A:** No. Il collegamento rimane nella cartella di lavoro finché non lo rimuovi o aggiorni esplicitamente tramite l'API.
 
-**D: Posso filtrare i risultati per mostrare solo i collegamenti nascosti?**  
-R: Sì—controlla `isVisible()`; se restituisce `false`, il collegamento è nascosto.
+**Q:** Posso filtrare i risultati per mostrare solo i collegamenti nascosti?  
+**A:** Sì—controlla `isVisible()`; se restituisce `false`, il collegamento è nascosto.
 
-**D: Come esportare i risultati del rilevamento in un file CSV?**  
-R: Itera sulla `ExternalLinkCollection`, scrivi ciascuna proprietà in un `FileWriter` e salva il CSV.
+**Q:** Come esportare i risultati della rilevazione in un file CSV?  
+**A:** Itera sulla `ExternalLinkCollection`, scrivi ogni proprietà in un `FileWriter` e salva il CSV.
 
-**D: È supportato il rilevamento dei collegamenti nascosti in cartelle di lavoro protette da password?**  
-R: Carica la cartella di lavoro con la password usando `Workbook(String fileName, LoadOptions options)` e poi esegui la stessa logica di rilevamento.
+**Q:** È supportata la rilevazione di collegamenti nascosti in cartelle di lavoro protette da password?  
+**A:** Carica la cartella di lavoro con la password usando `Workbook(String fileName, LoadOptions options)` e poi esegui la stessa logica di rilevazione.
 
 ## Risorse
-- [Documentazione di Aspose.Cells](https://reference.aspose.com/cells/java/)
+- [Documentazione Aspose.Cells](https://reference.aspose.com/cells/java/)
 - [Scarica Aspose.Cells](https://releases.aspose.com/cells/java/)
 - [Acquista una licenza](https://purchase.aspose.com/buy)
 - [Versione di prova gratuita](https://releases.aspose.com/cells/java/)
@@ -208,11 +214,9 @@ R: Carica la cartella di lavoro con la password usando `Workbook(String fileName
 
 ---
 
-**Last Updated:** 2025-12-29  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose  
-
----
+**Ultimo aggiornamento:** 2026-05-03  
+**Testato con:** Aspose.Cells for Java 25.3  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

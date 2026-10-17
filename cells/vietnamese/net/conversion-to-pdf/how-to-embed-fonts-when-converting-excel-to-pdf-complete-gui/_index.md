@@ -1,55 +1,27 @@
 ---
 category: general
-date: 2026-07-13
-description: Cách nhúng phông chữ khi chuyển đổi Excel sang PDF. Tìm hiểu cách xuất
-  XLSX sang PDF, lưu sổ làm việc dưới dạng PDF và tạo PDF từ Excel với phông chữ được
-  nhúng.
+date: 2026-03-01
+description: Cách nhúng phông chữ khi chuyển đổi Excel sang PDF. Học cách lưu sổ làm
+  việc dưới dạng PDF với phông chữ được nhúng và xuất bảng tính sang PDF một cách
+  dễ dàng.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - how to embed fonts
 - convert excel to pdf
 - save workbook as pdf
-- export xlsx to pdf
+- export spreadsheet to pdf
 - create pdf from excel
 language: vi
-lastmod: 2026-07-13
-og_description: Cách nhúng phông chữ khi chuyển đổi Excel sang PDF. Hãy làm theo hướng
-  dẫn này để xuất XLSX sang PDF, lưu workbook dưới dạng PDF và tạo PDF từ Excel với
-  độ chính xác phông chữ hoàn hảo.
-og_image_alt: Screenshot showing an Excel file being saved as a PDF with embedded
-  fonts
-og_title: Cách nhúng phông chữ khi chuyển Excel sang PDF – Hướng dẫn chi tiết từng
-  bước
-schemas:
-- author: Aspose
-  dateModified: '2026-07-13'
-  description: How to embed fonts while you convert Excel to PDF. Learn to export
-    XLSX to PDF, save workbook as PDF, and create PDF from Excel with embedded fonts.
-  headline: How to embed fonts when converting Excel to PDF – Complete Guide
-  type: TechArticle
-- description: How to embed fonts while you convert Excel to PDF. Learn to export
-    XLSX to PDF, save workbook as PDF, and create PDF from Excel with embedded fonts.
-  name: How to embed fonts when converting Excel to PDF – Complete Guide
-  steps:
-  - name: Why each line matters
-    text: '1. **Loading the workbook** – `Workbook` is the entry point; it parses
-      the XLSX file and builds an in‑memory representation of all sheets, styles,
-      and formulas. 2. **`PdfSaveOptions`** – This object controls every nuance of
-      the PDF conversion. Setting `EmbedStandardFonts = true` guarantees that the '
-  - name: Export XLSX to PDF in a web API
-    text: 'If you’re building a REST endpoint that receives an uploaded Excel file
-      and returns a PDF, you can reuse the same logic:'
-  - name: Save workbook as PDF in a Windows Forms app
-    text: 'For desktop scenarios, you might want to let the user pick a location via
-      a `SaveFileDialog`:'
-  type: HowTo
+og_description: Cách nhúng phông chữ trong quá trình chuyển đổi Excel sang PDF. Hãy
+  làm theo hướng dẫn này để lưu sổ làm việc dưới dạng PDF với việc nhúng đầy đủ phông
+  chữ, tạo ra tài liệu đáng tin cậy.
+og_title: Cách Nhúng Phông Chữ Khi Chuyển Đổi Excel Sang PDF – Từng Bước
 tags:
-- Aspose.Cells
-- .NET
-- PDF generation
-title: Cách nhúng phông chữ khi chuyển đổi Excel sang PDF – Hướng dẫn đầy đủ
+- aspnet
+- csharp
+- pdf
+- excel
+title: Cách Nhúng Phông Chữ Khi Chuyển Đổi Excel Sang PDF – Hướng Dẫn Toàn Diện
 url: /vi/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/
 ---
 
@@ -57,191 +29,202 @@ url: /vi/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-c
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách nhúng phông chữ khi chuyển đổi Excel sang PDF – Hướng dẫn đầy đủ
+# Cách Nhúng Phông Khi Chuyển Đổi Excel sang PDF – Hướng Dẫn Toàn Diện
 
-Bạn đã bao giờ tự hỏi **cách nhúng phông chữ** khi **chuyển đổi Excel sang PDF** chưa? Bạn không phải là người duy nhất. Các phông chữ bị thiếu là một vấn đề phổ biến — PDF của bạn trông ổn trên máy của mình nhưng lại trở thành một mớ hỗn độn trên máy tính của người khác.  
+Bạn đã bao giờ tự hỏi **cách nhúng phông** để quá trình chuyển đổi Excel‑to‑PDF của bạn trông giống hệt trên mọi máy tính chưa? Bạn không phải là người duy nhất. Các phông bị thiếu là những thủ phạm âm thầm khiến một bảng tính được định dạng hoàn hảo trở nên lộn xộn khi được mở trong trình xem PDF.  
 
-Trong hướng dẫn này, chúng tôi sẽ đi qua một giải pháp sạch sẽ, từ đầu đến cuối để **lưu workbook dưới dạng PDF** với các phông chữ đã được nhúng vào file. Khi kết thúc, bạn sẽ có thể **xuất XLSX sang PDF**, **tạo PDF từ Excel**, và không còn lo lắng về việc thiếu glyph nữa.
+Trong hướng dẫn này, chúng ta sẽ đi qua toàn bộ quy trình chuyển đổi một tệp Excel sang PDF **với mọi phông được nhúng**, để kết quả có thể di động, in ấn và trông giống hệt bản gốc. Trong quá trình này, chúng ta cũng sẽ đề cập đến *convert excel to pdf*, *save workbook as pdf*, *export spreadsheet to pdf*, và *create pdf from excel* – tất cả mà không rời khỏi mã C# của bạn.
 
-Chúng tôi sẽ sử dụng thư viện **Aspose.Cells for .NET** phổ biến vì nó cho phép bạn kiểm soát chi tiết đầu ra PDF, bao gồm cờ quan trọng `EmbedStandardFonts`. Không cần bất kỳ thủ thuật bên thứ ba nào khác, và mã hoạt động trên .NET 6+ và .NET Framework 4.7+.  
+## Những Điều Bạn Sẽ Học
 
----
+- Tải một workbook `.xlsx` bằng Aspose.Cells (hoặc bất kỳ thư viện tương thích nào).  
+- Cấu hình `PdfSaveOptions` để buộc nhúng toàn bộ phông.  
+- Lưu workbook dưới dạng PDF có thể mở trên bất kỳ thiết bị nào mà không gặp cảnh báo thiếu phông.  
+- Mẹo xử lý các trường hợp đặc biệt như phông tùy chỉnh không được cài đặt trên máy chủ.  
 
-## Các yêu cầu trước – những gì bạn cần chuẩn bị
-
-- **Visual Studio 2022** (hoặc bất kỳ IDE nào có thể biên dịch dự án .NET)  
-- **.NET 6 SDK** (hoặc .NET Framework 4.7+ nếu bạn thích phiên bản cổ điển)  
-- Gói NuGet **Aspose.Cells for .NET** (`Install-Package Aspose.Cells`)  
-- Một workbook Excel mẫu (`varSelector.xlsx`) đặt trong thư mục bạn có thể tham chiếu  
-
-Nếu bạn đã có những thứ trên, bạn đã sẵn sàng để bắt đầu.
+**Prerequisites** – Bạn cần .NET 6+ (hoặc .NET Framework 4.7.2+), Visual Studio 2022 (hoặc bất kỳ IDE nào bạn thích), và gói NuGet Aspose.Cells cho .NET. Không cần công cụ bên ngoài nào khác.
 
 ---
 
-## Cách nhúng phông chữ khi chuyển đổi Excel sang PDF
+## ## Cách Nhúng Phông trong Xuất PDF
 
-Dưới đây là chương trình đầy đủ, sẵn sàng chạy. Nó minh họa các bước chính xác bạn cần để **tạo PDF từ Excel** đồng thời đảm bảo các phông chữ được nhúng.
+Nhúng phông là bước then chốt đảm bảo PDF của bạn trông giống hệt file Excel nguồn. Dưới đây là một ví dụ ngắn gọn, có thể chạy được, minh họa toàn bộ quy trình.
+
+![Ảnh chụp màn hình xem trước PDF hiển thị phông được nhúng đúng – cách nhúng phông trong chuyển đổi Excel sang PDF](https://example.com/images/pdf-preview.png "cách nhúng phông trong chuyển đổi Excel sang PDF")
+
+### Bước 1 – Cài Đặt Gói NuGet Aspose.Cells
+
+Open your project’s **.csproj** file or use the Package Manager Console:
+
+```powershell
+Install-Package Aspose.Cells
+```
+
+> **Pro tip:** Nếu bạn đang sử dụng .NET CLI, chạy `dotnet add package Aspose.Cells`. Lệnh này sẽ tải về phiên bản ổn định mới nhất (tính đến tháng 3 2026, phiên bản 23.10).
+
+### Bước 2 – Tải Workbook Bạn Muốn Chuyển Đổi
 
 ```csharp
-using System;
-using Aspose.Cells;               // Aspose.Cells namespace
-using Aspose.Cells.Drawing;       // for PDF options (if needed)
+using Aspose.Cells;
 
-class ExcelToPdfWithEmbeddedFonts
+// Path to your source Excel file
+string inputPath = Path.Combine(Environment.CurrentDirectory, "input.xlsx");
+
+// Load the workbook into memory
+Workbook workbook = new Workbook(inputPath);
+```
+
+**Why this matters:** Việc tải workbook cho phép bạn truy cập vào tất cả các worksheet, style và đối tượng nhúng. Đây là nền tảng cho bất kỳ thao tác xuất nào tiếp theo.
+
+### Bước 3 – Tạo PDF Save Options và Bật Nhúng Phông
+
+```csharp
+// Initialise PDF save options
+PdfSaveOptions pdfOptions = new PdfSaveOptions
 {
-    static void Main()
+    // Embed every font used in the workbook
+    FontEmbeddingMode = FontEmbeddingMode.EmbedAll
+};
+```
+
+Thuộc tính `FontEmbeddingMode` điều khiển việc phông được nhúng, nhúng một phần, hay không nhúng. Đặt nó thành `EmbedAll` đảm bảo **cách nhúng phông** được trả lời một cách chắc chắn—mọi glyph được sử dụng trong bảng tính sẽ được đóng gói trong file PDF.
+
+### Bước 4 – Lưu Workbook dưới dạng PDF
+
+```csharp
+// Destination path for the PDF
+string outputPath = Path.Combine(Environment.CurrentDirectory, "output.pdf");
+
+// Perform the conversion
+workbook.Save(outputPath, pdfOptions);
+```
+
+Sau lệnh này, `output.pdf` chứa một bản sao trực quan trung thực của `input.xlsx`, đầy đủ mọi phông đã được nhúng. Mở nó bằng bất kỳ trình đọc PDF nào và bạn sẽ không còn thấy cảnh báo “thay thế phông” nữa.
+
+### Bước 5 – Xác Minh Kết Quả (Tùy Chọn nhưng Được Khuyến Khích)
+
+```csharp
+// Quick verification using Aspose.Pdf (if you have it)
+// This snippet checks that all fonts are indeed embedded.
+using Aspose.Pdf;
+
+// Load the generated PDF
+Document pdfDoc = new Document(outputPath);
+bool allEmbedded = true;
+
+foreach (FontInfo fontInfo in pdfDoc.FontInfo)
+{
+    if (!fontInfo.IsEmbedded)
     {
-        // -------------------------------------------------
-        // Step 1: Load the Excel workbook (your source file)
-        // -------------------------------------------------
-        string inputPath = @"YOUR_DIRECTORY\varSelector.xlsx";
-        Workbook workbook = new Workbook(inputPath);
-
-        // -------------------------------------------------
-        // Step 2: Configure PDF save options to embed fonts
-        // -------------------------------------------------
-        PdfSaveOptions pdfOptions = new PdfSaveOptions
-        {
-            // This flag tells Aspose.Cells to embed all standard fonts
-            EmbedStandardFonts = true,
-
-            // Optional: force embedding of custom fonts as well
-            // EmbedAllFonts = true,   // uncomment if you have custom fonts
-        };
-
-        // -------------------------------------------------
-        // Step 3: Save the workbook as a PDF using the options
-        // -------------------------------------------------
-        string outputPath = @"YOUR_DIRECTORY\out.pdf";
-        workbook.Save(outputPath, pdfOptions);
-
-        Console.WriteLine("PDF generated with embedded fonts at:");
-        Console.WriteLine(outputPath);
+        allEmbedded = false;
+        Console.WriteLine($"Missing embedding for font: {fontInfo.FontName}");
     }
 }
+Console.WriteLine(allEmbedded ? "All fonts are embedded!" : "Some fonts are missing.");
 ```
 
-### Tại sao mỗi dòng lại quan trọng
-
-1. **Tải workbook** – `Workbook` là điểm vào; nó phân tích file XLSX và xây dựng một biểu diễn trong bộ nhớ của tất cả các sheet, style và công thức.  
-2. **`PdfSaveOptions`** – Đối tượng này điều khiển mọi chi tiết của quá trình chuyển đổi PDF. Đặt `EmbedStandardFonts = true` đảm bảo PDF chứa các họ phông Helvetica, Times, Courier, Symbol và ZapfDingbats. Nếu bảng tính của bạn sử dụng phông chữ tùy chỉnh (ví dụ: “Calibri”), bạn có thể bỏ comment `EmbedAllFonts` để buộc nhúng nó.  
-3. **Lưu file** – `workbook.Save` ghi PDF ra đĩa, áp dụng các tùy chọn chúng ta vừa định nghĩa. Kết quả là một PDF tự chứa, hiển thị giống hệt trên bất kỳ trình xem nào.
+Nếu bạn không có Aspose.Pdf, việc kiểm tra thủ công trong Adobe Acrobat (`File → Properties → Fonts`) cũng hoạt động tốt.
 
 ---
 
-## Chuyển đổi Excel sang PDF mà không mất độ chính xác của phông chữ
+## ## Chuyển Đổi Excel sang PDF – Các Biến Thể Thông Thường
 
-Bây giờ bạn đã biết **cách nhúng phông chữ**, hãy khám phá một vài biến thể bạn có thể cần trong các dự án thực tế.
+### Export a Specific Worksheet Only
 
-### Xuất XLSX sang PDF trong một Web API
-
-Nếu bạn đang xây dựng một endpoint REST nhận file Excel tải lên và trả về PDF, bạn có thể tái sử dụng cùng một logic:
+Sometimes you only need a single sheet as a PDF:
 
 ```csharp
-[HttpPost("api/excel-to-pdf")]
-public IActionResult ConvertToPdf(IFormFile excelFile)
+PdfSaveOptions opts = new PdfSaveOptions
 {
-    using var stream = excelFile.OpenReadStream();
-    var workbook = new Workbook(stream);
-
-    var pdfOptions = new PdfSaveOptions { EmbedStandardFonts = true };
-    using var pdfStream = new MemoryStream();
-    workbook.Save(pdfStream, pdfOptions);
-    pdfStream.Position = 0;
-
-    return File(pdfStream, "application/pdf", "result.pdf");
-}
-```
-
-*Mẹo chuyên nghiệp*: Luôn kiểm tra kích thước và loại file đầu vào trước khi xử lý để tránh các cuộc tấn công từ chối dịch vụ.
-
-### Lưu workbook dưới dạng PDF trong ứng dụng Windows Forms
-
-Đối với kịch bản desktop, bạn có thể muốn cho người dùng chọn vị trí lưu qua `SaveFileDialog`:
-
-```csharp
-var dlg = new SaveFileDialog
-{
-    Filter = "PDF files (*.pdf)|*.pdf",
-    FileName = "ExportedWorkbook.pdf"
+    FontEmbeddingMode = FontEmbeddingMode.EmbedAll,
+    // Export only the first sheet (zero‑based index)
+    OnePagePerSheet = false,
+    SheetIndex = 0
 };
-
-if (dlg.ShowDialog() == DialogResult.OK)
-{
-    var pdfOpts = new PdfSaveOptions { EmbedStandardFonts = true };
-    workbook.Save(dlg.FileName, pdfOpts);
-    MessageBox.Show("PDF saved with embedded fonts!", "Success");
-}
+workbook.Save("single-sheet.pdf", opts);
 ```
 
-Cả hai đoạn mã đều minh họa cùng một ý tưởng cốt lõi: **nhúng phông chữ** trước khi **lưu workbook dưới dạng PDF**.
+### Nhúng Phông Con Để Giảm Kích Thước File
+
+If file size is a concern, you can embed **only the characters actually used**:
+
+Bạn có thể nhúng **chỉ các ký tự thực sự được sử dụng** nếu kích thước file là mối quan tâm:
+
+```csharp
+pdfOptions.FontEmbeddingMode = FontEmbeddingMode.Subset;
+```
+
+Điều này vẫn trả lời *cách nhúng phông* nhưng tạo ra PDF gọn nhẹ hơn—lý tưởng cho đính kèm email.
+
+### Xử Lý Phông Tùy Chỉnh Không Được Cài Đặt Trên Máy Chủ
+
+When a workbook references a custom font that isn’t present on the conversion server, Aspose.Cells will fall back to a default font unless you supply the font file:
+
+Khi một workbook tham chiếu tới phông tùy chỉnh không có trên máy chủ chuyển đổi, Aspose.Cells sẽ chuyển sang phông mặc định trừ khi bạn cung cấp tệp phông:
+
+```csharp
+// Register a custom font folder
+FontConfigs fontConfigs = new FontConfigs();
+fontConfigs.SetFontFolder(@"C:\MyCustomFonts", true);
+pdfOptions.FontConfigs = fontConfigs;
+```
+
+Bây giờ quá trình chuyển đổi có thể nhúng phông tùy chỉnh, giữ nguyên độ trung thực về hình ảnh.
 
 ---
 
-## Những lỗi thường gặp và cách tránh chúng
+## ## Lưu Workbook dưới dạng PDF – Thực Hành Tốt Nhất
 
-| Vấn đề | Nguyên nhân | Giải pháp |
-|-------|------------|-----------|
-| PDF hiển thị **Arial** thay vì **Calibri** | `EmbedStandardFonts` chỉ bao gồm năm phông chữ cơ bản. Các phông chữ tùy chỉnh cần `EmbedAllFonts = true` và phông phải được cài đặt trên server. | Thêm `pdfOptions.EmbedAllFonts = true;` và đảm bảo phông chữ có trên máy thực hiện chuyển đổi. |
-| Kích thước PDF tăng mạnh | Nhúng mọi glyph của một phông chữ tùy chỉnh lớn có thể làm phình file. | Sử dụng `PdfSaveOptions.FontEmbeddingMode = FontEmbeddingMode.Subset;` để chỉ nhúng các ký tự đã dùng. |
-| Thiếu ký tự **Unicode** (ví dụ: emoji) | Bộ phông mặc định không chứa các glyph đó. | Chuyển sang phông chữ hỗ trợ Unicode như “Segoe UI Emoji” và bật nhúng đầy đủ. |
-| Chuyển đổi thất bại trên **macOS** | Aspose.Cells dựa vào Windows GDI+ cho một số đường render. | Sử dụng phiên bản Aspose.Cells mới nhất (hỗ trợ .NET Core trên macOS) hoặc chạy chuyển đổi trên container Windows. |
-
----
-
-## Kiểm tra xem phông chữ đã thực sự được nhúng chưa
-
-Sau khi chạy chương trình, mở file `out.pdf` vừa tạo trong Adobe Acrobat Reader:
-
-1. Nhấn **Ctrl + D** (hoặc **File → Properties** → **Fonts** tab).  
-2. Bạn sẽ thấy mỗi phông chữ được liệt kê kèm từ **“Embedded”** bên cạnh.  
-
-Nếu bạn thấy **“Not Embedded”**, hãy kiểm tra lại rằng `EmbedStandardFonts` (hoặc `EmbedAllFonts`) đã được đặt thành `true` và các file phông chữ có thể truy cập được.
+| Thực Hành | Lý Do Hữu Ích |
+|----------|--------------|
+| **Luôn đặt `FontEmbeddingMode = EmbedAll`** | Đảm bảo PDF trông giống nhau ở mọi nơi. |
+| **Xác thực đầu ra** | Bắt sớm các phông bị thiếu, ngăn ngừa khiếu nại sau này. |
+| **Chỉ sử dụng `OnePagePerSheet = true` khi cần** | Ngăn PDF quá dài không cần thiết, khó điều hướng. |
+| **Giữ Aspose.Cells luôn cập nhật** | Các phiên bản mới cải thiện việc xử lý phông và sửa lỗi. |
 
 ---
 
-## Kết quả mong đợi
+## ## Xuất Bảng Tính sang PDF – Kịch Bản Thực Tế
 
-Chạy ứng dụng console với một workbook đơn giản chứa tiêu đề được định dạng **Calibri Bold** sẽ tạo ra một PDF mà:
+Hãy tưởng tượng bạn đang xây dựng một dịch vụ báo cáo gửi bảng điều khiển doanh số hàng tuần tới các giám đốc. Các bảng điều khiển được tạo trong Excel vì các nhà phân tích kinh doanh yêu thích bố cục dạng lưới. Backend của bạn phải tạo PDF mỗi đêm, nhúng tất cả phông công ty, và gửi file qua email.
 
-- Hiển thị tiêu đề chính xác như trong Excel.  
-- Hiển thị “Calibri Bold” trong danh sách **Fonts** với trạng thái **Embedded**.  
-- Render đúng trên bất kỳ nền tảng nào, ngay cả khi người xem không cài đặt Calibri.
+Bằng cách áp dụng các bước trên, bạn có thể tự động hoá toàn bộ quy trình:
 
-Bạn có thể kiểm tra kết quả bằng cách mở PDF trên một máy khác hoặc trong container Linux — không nên xuất hiện ký tự bị thiếu.
+1. Tải workbook do nhà phân tích tạo từ thư mục chia sẻ.  
+2. Áp dụng `PdfSaveOptions` với `EmbedAll`.  
+3. Lưu PDF vào vị trí tạm thời.  
+4. Đính kèm PDF vào email và gửi đi.  
 
----
-
-## Tóm tắt – những gì chúng ta đã đề cập
-
-- **Cách nhúng phông chữ** bằng `PdfSaveOptions.EmbedStandardFonts`.  
-- Quy trình **chuyển đổi Excel sang PDF** đầy đủ với Aspose.Cells.  
-- Các biến thể cho **lưu workbook dưới dạng PDF** trong Web API và ứng dụng desktop.  
-- Xử lý các trường hợp đặc biệt và mẹo để giữ kích thước PDF ở mức hợp lý.  
-
-Tất cả những điều này cho phép bạn **xuất XLSX sang PDF** và **tạo PDF từ Excel** với sự tự tin rằng phông chữ sẽ đi cùng file.
+Tất cả đều chạy trên một dịch vụ Windows không giao diện—không UI, không can thiệp thủ công. Kết quả? Các giám đốc nhận được PDF được render hoàn hảo mỗi sáng, bất kể phông nào được cài trên laptop của họ.
 
 ---
 
-## Các bước tiếp theo & chủ đề liên quan
+## ## Tạo PDF từ Excel – Câu Hỏi Thường Gặp
 
-- **Tùy chỉnh giao diện PDF** – khám phá `PdfSaveOptions.PageLayout`, `PdfSaveOptions.ImageResolution`, và `PdfSaveOptions.Compliance` cho PDF/A hoặc PDF/X.  
-- **Thêm watermark hoặc header/footer** – sử dụng `PdfSaveOptions.AddWatermark` hoặc các lớp `HeaderFooter`.  
-- **Chuyển đổi nhiều worksheet** – lặp qua `workbook.Worksheets` và hợp nhất PDF bằng `PdfFileEditor`.  
+**Q: Việc nhúng phông sẽ làm tăng kích thước PDF đáng kể không?**  
+A: Có thể, đặc biệt với các họ phông lớn. Chuyển sang `Subset` giảm kích thước trong khi vẫn giữ nguyên giao diện.
 
-Nếu bạn muốn biết cách **chuyển đổi hàng loạt** một thư mục các file Excel, hãy xem hướng dẫn “Bulk Excel to PDF conversion with Aspose.Cells”.  
+**Q: Tôi có cần giấy phép cho Aspose.Cells không?**  
+A: Thư viện hoạt động ở chế độ đánh giá, nhưng giấy phép thương mại sẽ loại bỏ watermark đánh giá và mở khóa đầy đủ tính năng.
+
+**Q: Nếu Excel nguồn sử dụng phông không thể nhúng được (ví dụ: một số phông hệ thống)?**  
+A: Aspose.Cells sẽ nhúng những gì có thể và chuyển sang phông tương tự cho phần còn lại. Bạn cũng có thể thay thế phông bằng mã trước khi xuất.
+
+## Kết Luận
+
+Chúng tôi đã trình bày **cách nhúng phông** khi bạn *convert excel to pdf*, cho bạn mã chính xác để **save workbook as pdf** với việc nhúng phông đầy đủ. Giờ bạn đã có một mẫu vững chắc, sẵn sàng cho môi trường production cho các nhiệm vụ *export spreadsheet to pdf* và *create pdf from excel*.
+
+Hãy thử: nhúng một phông công ty tùy chỉnh, thử nghiệm nhúng một phần, hoặc xử lý hàng loạt toàn bộ thư mục workbook. Khi bạn thành thạo việc nhúng phông, PDF của bạn sẽ luôn sắc nét, bất kể nơi nào được mở.
 
 ---
 
-*Bạn đã sẵn sàng nhúng phông chữ và phát hành các PDF hoàn hảo?* Lấy mã nguồn, điều chỉnh các tùy chọn cho phù hợp, và để PDF của bạn trông chính xác như khi bạn thiết kế trong Excel. Chúc lập trình vui!
+### Các Bước Tiếp Theo
 
-## Bạn nên học gì tiếp theo?
+- Khám phá **kết hợp nhiều sheet thành PDF** bằng `PdfFileEditor`.  
+- Kết hợp cách này với **Aspose.Slides** để nhúng biểu đồ dưới dạng hình ảnh.  
+- Tìm hiểu **tuân thủ PDF/A** nếu bạn cần PDF cấp độ lưu trữ.  
 
-Các hướng dẫn sau đây đề cập đến các chủ đề liên quan chặt chẽ, xây dựng trên các kỹ thuật đã trình bày trong hướng dẫn này. Mỗi tài nguyên bao gồm mã mẫu đầy đủ với các giải thích từng bước để giúp bạn làm chủ các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
-
-- [Save Excel Workbook as PDF with Custom Fonts using Aspose.Cells for .NET](/cells/english/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
-- [Save Excel Workbook Pdf Custom Fonts Aspose Cells Net](/cells/german/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
-- [Save Excel Workbook Pdf Custom Fonts Aspose Cells Net](/cells/french/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
+Có thêm câu hỏi hoặc trường hợp khó xử? Để lại bình luận bên dưới, và chúc bạn lập trình vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,52 +1,24 @@
 ---
 category: general
-date: 2026-07-13
-description: كيفية تضمين الخطوط أثناء تحويل Excel إلى PDF. تعلم تصدير XLSX إلى PDF،
-  حفظ المصنف كملف PDF، وإنشاء PDF من Excel مع تضمين الخطوط.
+date: 2026-03-01
+description: كيفية تضمين الخطوط أثناء تحويل Excel إلى PDF. تعلم كيفية حفظ المصنف كملف
+  PDF مع تضمين الخطوط وتصدير جدول البيانات إلى PDF بسهولة.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - how to embed fonts
 - convert excel to pdf
 - save workbook as pdf
-- export xlsx to pdf
+- export spreadsheet to pdf
 - create pdf from excel
 language: ar
-lastmod: 2026-07-13
-og_description: كيفية تضمين الخطوط أثناء تحويل Excel إلى PDF. اتبع هذا الدليل لتصدير
-  XLSX إلى PDF، حفظ المصنف كملف PDF، وإنشاء PDF من Excel مع الحفاظ على دقة الخطوط
-  بشكل كامل.
-og_image_alt: Screenshot showing an Excel file being saved as a PDF with embedded
-  fonts
-og_title: كيفية تضمين الخطوط عند تحويل Excel إلى PDF – خطوة بخطوة بالكامل
-schemas:
-- author: Aspose
-  dateModified: '2026-07-13'
-  description: How to embed fonts while you convert Excel to PDF. Learn to export
-    XLSX to PDF, save workbook as PDF, and create PDF from Excel with embedded fonts.
-  headline: How to embed fonts when converting Excel to PDF – Complete Guide
-  type: TechArticle
-- description: How to embed fonts while you convert Excel to PDF. Learn to export
-    XLSX to PDF, save workbook as PDF, and create PDF from Excel with embedded fonts.
-  name: How to embed fonts when converting Excel to PDF – Complete Guide
-  steps:
-  - name: Why each line matters
-    text: '1. **Loading the workbook** – `Workbook` is the entry point; it parses
-      the XLSX file and builds an in‑memory representation of all sheets, styles,
-      and formulas. 2. **`PdfSaveOptions`** – This object controls every nuance of
-      the PDF conversion. Setting `EmbedStandardFonts = true` guarantees that the '
-  - name: Export XLSX to PDF in a web API
-    text: 'If you’re building a REST endpoint that receives an uploaded Excel file
-      and returns a PDF, you can reuse the same logic:'
-  - name: Save workbook as PDF in a Windows Forms app
-    text: 'For desktop scenarios, you might want to let the user pick a location via
-      a `SaveFileDialog`:'
-  type: HowTo
+og_description: كيفية تضمين الخطوط في تحويل Excel إلى PDF. اتبع هذا الدليل لحفظ المصنف
+  كملف PDF مع تضمين كامل للخطوط للحصول على مستندات موثوقة.
+og_title: كيفية تضمين الخطوط عند تحويل Excel إلى PDF – خطوة بخطوة
 tags:
-- Aspose.Cells
-- .NET
-- PDF generation
+- aspnet
+- csharp
+- pdf
+- excel
 title: كيفية تضمين الخطوط عند تحويل Excel إلى PDF – دليل كامل
 url: /ar/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/
 ---
@@ -57,189 +29,198 @@ url: /ar/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-c
 
 # كيفية تضمين الخطوط عند تحويل Excel إلى PDF – دليل كامل
 
-هل تساءلت يومًا **عن طريقة تضمين الخطوط** عندما **تحول Excel إلى PDF**؟ لست وحدك. فقدان الخطوط مشكلة شائعة—يظهر ملف PDF بشكل جيد على جهازك لكنه يتحول إلى فوضى غير مقروءة على جهاز شخص آخر.  
+هل تساءلت يومًا **كيفية تضمين الخطوط** بحيث يبدو تحويل Excel إلى PDF بنفس الشكل على كل جهاز؟ لست وحدك. الخطوط المفقودة هي الجناة الصامتون الذين يحولون جدول البيانات المصمم بشكل مثالي إلى فوضى مشوشة بمجرد عرضه في عارض PDF.  
 
-في هذا الدرس سنستعرض حلًا نظيفًا من البداية إلى النهاية **يحفظ المصنف كملف PDF** مع تضمين الخطوط داخل الملف. بنهاية الشرح ستتمكن من **تصدير XLSX إلى PDF**، **إنشاء PDF من Excel**، ولن تقلق مرة أخرى بشأن فقدان الحروف.
+في هذا الدرس سنستعرض العملية الكاملة لتحويل ملف Excel إلى PDF **مع تضمين كل الخطوط**، بحيث يكون الناتج قابلًا للنقل، قابلًا للطباعة، ويظهر تمامًا كما هو الأصلي. وعلى طول الطريق سنتطرق أيضًا إلى *convert excel to pdf*، *save workbook as pdf*، *export spreadsheet to pdf*، و*create pdf from excel* – كل ذلك دون مغادرة كود C# الخاص بك.
 
-سنستخدم مكتبة **Aspose.Cells for .NET** الشهيرة لأنها تمنحك تحكمًا دقيقًا في مخرجات PDF، بما في ذلك العلامة الحيوية `EmbedStandardFonts`. لا تحتاج إلى أي حيل طرف ثالث أخرى، والكود يعمل على .NET 6+ و .NET Framework 4.7+.  
+## ما ستتعلمه
 
----
+- تحميل مصنف `.xlsx` باستخدام Aspose.Cells (أو أي مكتبة متوافقة).  
+- تهيئة `PdfSaveOptions` لفرض تضمين الخط الكامل.  
+- حفظ المصنف كملف PDF يمكن فتحه على أي جهاز دون تحذيرات نقص الخط.  
+- نصائح لمعالجة الحالات الخاصة مثل الخطوط المخصصة غير المثبتة على الخادم.  
 
-## المتطلبات المسبقة – ما تحتاجه قبل البدء
-
-- **Visual Studio 2022** (أو أي بيئة تطوير يمكنها تجميع مشاريع .NET)  
-- **.NET 6 SDK** (أو .NET Framework 4.7+ إذا كنت تفضل الكلاسيكي)  
-- حزمة **Aspose.Cells for .NET** عبر NuGet (`Install-Package Aspose.Cells`)  
-- مصنف Excel تجريبي (`varSelector.xlsx`) موجود في مجلد يمكنك الإشارة إليه  
-
-إذا كان لديك كل ما سبق، فأنت جاهز للغوص في الموضوع.
+**المتطلبات المسبقة** – تحتاج إلى .NET 6+ (أو .NET Framework 4.7.2+)، Visual Studio 2022 (أو أي بيئة تطوير تفضلها)، وحزمة Aspose.Cells for .NET عبر NuGet. لا توجد أدوات خارجية أخرى مطلوبة.
 
 ---
 
-## كيفية تضمين الخطوط عند تحويل Excel إلى PDF
+## ## كيفية تضمين الخطوط في تصدير PDF
 
-فيما يلي البرنامج الكامل الجاهز للتنفيذ. يوضح الخطوات الدقيقة التي تحتاجها **لإنشاء PDF من Excel** مع ضمان تضمين الخطوط.
+تضمين الخطوط هو الخطوة الأساسية التي تضمن أن يبدو ملف PDF الخاص بك مطابقًا لملف Excel الأصلي. أدناه مثال مختصر وقابل للتنفيذ يوضح سير العمل بالكامل.
+
+![لقطة شاشة لمعاينة PDF تُظهر الخطوط المضمنة بشكل صحيح – كيفية تضمين الخطوط في تحويل Excel إلى PDF](https://example.com/images/pdf-preview.png "كيفية تضمين الخطوط في تحويل Excel إلى PDF")
+
+### الخطوة 1 – تثبيت حزمة Aspose.Cells عبر NuGet
+
+افتح ملف **.csproj** الخاص بالمشروع أو استخدم وحدة تحكم مدير الحزم:
+
+```powershell
+Install-Package Aspose.Cells
+```
+
+> **نصيحة احترافية:** إذا كنت تستخدم .NET CLI، نفّذ `dotnet add package Aspose.Cells`. سيقوم هذا بجلب أحدث نسخة مستقرة (اعتبارًا من مارس 2026، النسخة 23.10).
+
+### الخطوة 2 – تحميل المصنف الذي تريد تحويله
 
 ```csharp
-using System;
-using Aspose.Cells;               // Aspose.Cells namespace
-using Aspose.Cells.Drawing;       // for PDF options (if needed)
+using Aspose.Cells;
 
-class ExcelToPdfWithEmbeddedFonts
+// Path to your source Excel file
+string inputPath = Path.Combine(Environment.CurrentDirectory, "input.xlsx");
+
+// Load the workbook into memory
+Workbook workbook = new Workbook(inputPath);
+```
+
+**لماذا هذا مهم:** تحميل المصنف يمنحك الوصول إلى جميع الأوراق، الأنماط، والكائنات المضمنة. إنه الأساس لأي عملية تصدير لاحقة.
+
+### الخطوة 3 – إنشاء خيارات حفظ PDF وتفعيل تضمين الخطوط
+
+```csharp
+// Initialise PDF save options
+PdfSaveOptions pdfOptions = new PdfSaveOptions
 {
-    static void Main()
+    // Embed every font used in the workbook
+    FontEmbeddingMode = FontEmbeddingMode.EmbedAll
+};
+```
+
+خاصية `FontEmbeddingMode` تتحكم فيما إذا كانت الخطوط مضمَّنة، مضمَّنة جزئيًا، أو غير مضمَّنة. ضبطها على `EmbedAll` يضمن أن **كيفية تضمين الخطوط** يتم الإجابة عليها بشكل قاطع—كل حرف مستخدم في جدول البيانات يُحزم داخل ملف PDF.
+
+### الخطوة 4 – حفظ المصنف كملف PDF
+
+```csharp
+// Destination path for the PDF
+string outputPath = Path.Combine(Environment.CurrentDirectory, "output.pdf");
+
+// Perform the conversion
+workbook.Save(outputPath, pdfOptions);
+```
+
+بعد هذا الاستدعاء، يحتوي `output.pdf` على نسخة بصرية دقيقة من `input.xlsx`، مع جميع الخطوط مضمَّنة. افتحه في أي قارئ PDF ولن ترى تحذيرات “استبدال الخط” مرة أخرى.
+
+### الخطوة 5 – التحقق من النتيجة (اختياري لكن موصى به)
+
+```csharp
+// Quick verification using Aspose.Pdf (if you have it)
+// This snippet checks that all fonts are indeed embedded.
+using Aspose.Pdf;
+
+// Load the generated PDF
+Document pdfDoc = new Document(outputPath);
+bool allEmbedded = true;
+
+foreach (FontInfo fontInfo in pdfDoc.FontInfo)
+{
+    if (!fontInfo.IsEmbedded)
     {
-        // -------------------------------------------------
-        // Step 1: Load the Excel workbook (your source file)
-        // -------------------------------------------------
-        string inputPath = @"YOUR_DIRECTORY\varSelector.xlsx";
-        Workbook workbook = new Workbook(inputPath);
-
-        // -------------------------------------------------
-        // Step 2: Configure PDF save options to embed fonts
-        // -------------------------------------------------
-        PdfSaveOptions pdfOptions = new PdfSaveOptions
-        {
-            // This flag tells Aspose.Cells to embed all standard fonts
-            EmbedStandardFonts = true,
-
-            // Optional: force embedding of custom fonts as well
-            // EmbedAllFonts = true,   // uncomment if you have custom fonts
-        };
-
-        // -------------------------------------------------
-        // Step 3: Save the workbook as a PDF using the options
-        // -------------------------------------------------
-        string outputPath = @"YOUR_DIRECTORY\out.pdf";
-        workbook.Save(outputPath, pdfOptions);
-
-        Console.WriteLine("PDF generated with embedded fonts at:");
-        Console.WriteLine(outputPath);
+        allEmbedded = false;
+        Console.WriteLine($"Missing embedding for font: {fontInfo.FontName}");
     }
 }
+Console.WriteLine(allEmbedded ? "All fonts are embedded!" : "Some fonts are missing.");
 ```
 
-### لماذا كل سطر مهم
-
-1. **تحميل المصنف** – `Workbook` هو نقطة الدخول؛ فهو يقرأ ملف XLSX ويبني تمثيلًا في الذاكرة لجميع الأوراق، الأنماط، والصيغ.  
-2. **`PdfSaveOptions`** – هذا الكائن يتحكم في كل تفاصيل تحويل PDF. ضبط `EmbedStandardFonts = true` يضمن أن يحتوي PDF على عائلات Helvetica, Times, Courier, Symbol, و ZapfDingbats. إذا كان جدولك يستخدم خطًا مخصصًا (مثل “Calibri”)، يمكنك إلغاء التعليق عن `EmbedAllFonts` لإجبار تضمينه.  
-3. **حفظ الملف** – `workbook.Save` يكتب ملف PDF إلى القرص، مطبقًا الخيارات التي عرفناها للتو. النتيجة هي PDF مستقل يحتوي على الخطوط ويظهر بنفس الشكل على أي عارض.
+إذا لم يكن لديك Aspose.Pdf، فإن الفحص اليدوي في Adobe Acrobat (`File → Properties → Fonts`) يعمل بنفس الفعالية.
 
 ---
 
-## تحويل Excel إلى PDF دون فقدان دقة الخطوط
+## ## تحويل Excel إلى PDF – تنويعات شائعة
 
-الآن بعد أن عرفت **كيفية تضمين الخطوط**، دعنا نستعرض بعض الاختلافات التي قد تحتاجها في المشاريع الفعلية.
+### تصدير ورقة عمل محددة فقط
 
-### تصدير XLSX إلى PDF في واجهة برمجة تطبيقات ويب (Web API)
-
-إذا كنت تبني نقطة نهاية REST تستقبل ملف Excel مرفوع وتعيد PDF، يمكنك إعادة استخدام نفس المنطق:
+أحيانًا تحتاج إلى ورقة واحدة فقط كملف PDF:
 
 ```csharp
-[HttpPost("api/excel-to-pdf")]
-public IActionResult ConvertToPdf(IFormFile excelFile)
+PdfSaveOptions opts = new PdfSaveOptions
 {
-    using var stream = excelFile.OpenReadStream();
-    var workbook = new Workbook(stream);
-
-    var pdfOptions = new PdfSaveOptions { EmbedStandardFonts = true };
-    using var pdfStream = new MemoryStream();
-    workbook.Save(pdfStream, pdfOptions);
-    pdfStream.Position = 0;
-
-    return File(pdfStream, "application/pdf", "result.pdf");
-}
-```
-
-*نصيحة احترافية*: تحقق دائمًا من حجم الملف ونوعه قبل المعالجة لتجنب هجمات حجب الخدمة.
-
-### حفظ المصنف كـ PDF في تطبيق Windows Forms
-
-للحالات المكتبية، قد ترغب في السماح للمستخدم باختيار موقع عبر `SaveFileDialog`:
-
-```csharp
-var dlg = new SaveFileDialog
-{
-    Filter = "PDF files (*.pdf)|*.pdf",
-    FileName = "ExportedWorkbook.pdf"
+    FontEmbeddingMode = FontEmbeddingMode.EmbedAll,
+    // Export only the first sheet (zero‑based index)
+    OnePagePerSheet = false,
+    SheetIndex = 0
 };
-
-if (dlg.ShowDialog() == DialogResult.OK)
-{
-    var pdfOpts = new PdfSaveOptions { EmbedStandardFonts = true };
-    workbook.Save(dlg.FileName, pdfOpts);
-    MessageBox.Show("PDF saved with embedded fonts!", "Success");
-}
+workbook.Save("single-sheet.pdf", opts);
 ```
 
-كلا المقتطفين يوضحان الفكرة الأساسية نفسها: **تضمين الخطوط** قبل **حفظ المصنف كـ PDF**.
+### تضمين الخطوط جزئيًا للحصول على ملفات أصغر
+
+إذا كان حجم الملف مصدر قلق، يمكنك تضمين **فقط الأحرف المستخدمة فعليًا**:
+
+```csharp
+pdfOptions.FontEmbeddingMode = FontEmbeddingMode.Subset;
+```
+
+هذا لا يزال يجيب على *كيفية تضمين الخطوط* لكنه ينتج PDF أخف—مناسب لمرفقات البريد الإلكتروني.
+
+### التعامل مع الخطوط المخصصة غير المثبتة على الخادم
+
+عندما يشير المصنف إلى خط مخصص غير موجود على خادم التحويل، ستعود Aspose.Cells إلى خط افتراضي ما لم تزودها بملف الخط:
+
+```csharp
+// Register a custom font folder
+FontConfigs fontConfigs = new FontConfigs();
+fontConfigs.SetFontFolder(@"C:\MyCustomFonts", true);
+pdfOptions.FontConfigs = fontConfigs;
+```
+
+الآن يمكن للتحويل تضمين الخط المخصص، مع الحفاظ على الدقة البصرية.
 
 ---
 
-## المشكلات الشائعة وكيفية تجنبها
+## ## حفظ المصنف كملف PDF – أفضل الممارسات
 
-| المشكلة | السبب | الحل |
-|-------|----------------|-----|
-| يظهر PDF **Arial** بدلًا من **Calibri** | `EmbedStandardFonts` يغطي فقط الخطوط الأساسية الخمسة. الخطوط المخصصة تحتاج `EmbedAllFonts = true` ويجب أن يكون الخط مثبتًا على الخادم. | أضف `pdfOptions.EmbedAllFonts = true;` وتأكد من وجود الخط على الجهاز الذي يجري التحويل. |
-| حجم PDF يتضخم | تضمين كل رموز خط مخصص كبير قد يرفع حجم الملف. | استخدم `PdfSaveOptions.FontEmbeddingMode = FontEmbeddingMode.Subset;` لتضمين الأحرف المستخدمة فقط. |
-| فقدان الأحرف **Unicode** (مثل الرموز التعبيرية) | مجموعة الخطوط الافتراضية لا تحتوي على تلك الرموز. | استبدل بخط يدعم Unicode مثل “Segoe UI Emoji” وفعل التضمين الكامل. |
-| فشل التحويل على **macOS** | Aspose.Cells يعتمد على Windows GDI+ لبعض مسارات العرض. | استخدم أحدث نسخة من Aspose.Cells (تدعم .NET Core على macOS) أو نفّذ التحويل داخل حاوية Windows. |
-
----
-
-## التحقق من أن الخطوط مُضمَّنة فعليًا
-
-بعد تشغيل البرنامج، افتح ملف `out.pdf` الناتج في Adobe Acrobat Reader:
-
-1. اضغط **Ctrl + D** (أو **ملف → خصائص** → تبويب **الخطوط**).  
-2. يجب أن ترى كل خط مدرجًا مع كلمة **“Embedded”** بجانبه.  
-
-إذا رأيت **“Not Embedded”**، تحقق من أن `EmbedStandardFonts` (أو `EmbedAllFonts`) مضبوط على `true` وأن ملفات الخطوط متاحة.
+| Practice | Why It Helps |
+|----------|--------------|
+| **Always set `FontEmbeddingMode = EmbedAll`** | يضمن أن يبدو PDF نفسه في كل مكان. |
+| **Validate the output** | يكشف عن الخطوط المفقودة مبكرًا، مما يمنع الشكاوى لاحقًا. |
+| **Use `OnePagePerSheet = true` only when needed** | يمنع إنشاء ملفات PDF طويلة غير ضرورية يصعب التنقل فيها. |
+| **Keep Aspose.Cells updated** | الإصدارات الجديدة تضيف تحسينات في معالجة الخطوط وإصلاحات الأخطاء. |
 
 ---
 
-## النتيجة المتوقعة
+## ## تصدير جدول البيانات إلى PDF – سيناريو واقعي
 
-تشغيل تطبيق الكونسول مع مصنف بسيط يحتوي على عنوان منسق بـ **Calibri Bold** سيولد PDF يحقق ما يلي:
+تخيل أنك تبني خدمة تقارير تُرسل لوحات معلومات المبيعات الأسبوعية إلى التنفيذيين. تُبنى اللوحات في Excel لأن المحللين التجاريين يفضلون تخطيط الشبكة. يجب على الخلفية إنشاء PDF كل ليلة، وتضمين جميع الخطوط المؤسسية، وإرسال الملف عبر البريد الإلكتروني.
 
-- يعرض العنوان تمامًا كما يظهر في Excel.  
-- يظهر “Calibri Bold” في قائمة **الخطوط** مع حالة **Embedded**.  
-- يُظهر بشكل صحيح على أي منصة، حتى إذا لم يكن لدى العارض خط Calibri مثبتًا.
+بتطبيق الخطوات أعلاه، يمكنك أتمتة خط الأنابيب بالكامل:
 
-يمكنك اختبار النتيجة بفتح PDF على جهاز مختلف أو داخل حاوية Linux—يجب ألا تظهر أي أحرف مفقودة.
+1. تحميل المصنف الذي أنشأه المحلل من مجلد مشترك.  
+2. تطبيق `PdfSaveOptions` مع `EmbedAll`.  
+3. حفظ PDF في موقع مؤقت.  
+4. إرفاق PDF إلى بريد إلكتروني وإرساله.
 
----
-
-## ملخص – ما تم تغطيته
-
-- **كيفية تضمين الخطوط** باستخدام `PdfSaveOptions.EmbedStandardFonts`.  
-- سير عمل كامل **لتحويل Excel إلى PDF** باستخدام Aspose.Cells.  
-- اختلافات لـ **حفظ المصنف كـ PDF** في واجهات برمجة تطبيقات الويب وتطبيقات سطح المكتب.  
-- معالجة الحالات الخاصة ونصائح للحفاظ على حجم PDF معقول.  
-
-كل هذا يتيح لك **تصدير XLSX إلى PDF** و **إنشاء PDF من Excel** بثقة أن الخطوط ستنتقل مع الملف.
+كل ذلك يُنفّذ على خدمة Windows بدون واجهة—بدون واجهة مستخدم، بدون تدخل يدوي. النتيجة؟ يتلقى التنفيذيون PDF مُصممًا بدقة كل صباح، بغض النظر عن الخطوط المثبتة على حواسيبهم المحمولة.
 
 ---
 
-## الخطوات التالية والمواضيع ذات الصلة
+## ## إنشاء PDF من Excel – الأسئلة المتكررة
 
-- **تخصيص مظهر PDF** – استكشف `PdfSaveOptions.PageLayout`، `PdfSaveOptions.ImageResolution`، و `PdfSaveOptions.Compliance` لإنشاء PDF/A أو PDF/X.  
-- **إضافة علامات مائية أو رؤوس/تذييلات** – استخدم `PdfSaveOptions.AddWatermark` أو فئات `HeaderFooter`.  
-- **تحويل أوراق عمل متعددة** – تكرار عبر `workbook.Worksheets` ودمج ملفات PDF باستخدام `PdfFileEditor`.  
+**س: هل سيؤدي تضمين الخطوط إلى زيادة حجم PDF بشكل كبير؟**  
+**ج:** يمكن ذلك، خاصةً مع عائلات خطوط كبيرة. التحويل إلى `Subset` يقلل الحجم مع الحفاظ على المظهر.
 
-إذا كنت مهتمًا بـ **تحويل دفعة من ملفات Excel إلى PDF**، اطلع على دليلنا “Bulk Excel to PDF conversion with Aspose.Cells”.  
+**س: هل أحتاج إلى ترخيص لـ Aspose.Cells؟**  
+**ج:** المكتبة تعمل في وضع التقييم، لكن الترخيص التجاري يزيل علامة التقييم المائية ويفتح جميع الميزات.
+
+**س: ماذا لو كان ملف Excel الأصلي يستخدم خطًا غير قابل للتضمين (مثل بعض خطوط النظام)؟**  
+**ج:** ستقوم Aspose.Cells بتضمين ما يمكنها وتلجأ إلى خط مشابه للبقية. يمكنك أيضًا استبدال الخط برمجيًا قبل التصدير.
 
 ---
 
-*هل أنت مستعد لتضمين تلك الخطوط وإصدار ملفات PDF خالية من الأخطاء؟* احصل على الكود، عدّل الخيارات لتناسب احتياجاتك، ودع ملفات PDF الخاصة بك تبدو تمامًا كما صممتها في Excel. happy coding!
+## الخلاصة
 
-## ما الذي يجب أن تتعلمه بعد ذلك؟
+لقد غطينا **كيفية تضمين الخطوط** عند *تحويل excel إلى pdf*، موضحين لك الكود الدقيق لـ **حفظ المصنف كملف pdf** مع تضمين كامل للخطوط. لديك الآن نمط قوي وجاهز للإنتاج لمهام *export spreadsheet to pdf* و*create pdf from excel*.
 
-الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات التي تم توضيحها في هذا الدليل. كل مورد يتضمن أمثلة شفرة كاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك.
+جرّبه: حاول تضمين خط مؤسسي مخصص، جرب تضمين جزئي، أو عالج دفعة من جميع المصنفات في مجلد. عندما تتقن تضمين الخطوط، ستظهر ملفات PDF دائمًا واضحة، بغض النظر عن مكان فتحها.
 
-- [Save Excel Workbook as PDF with Custom Fonts using Aspose.Cells for .NET](/cells/english/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
-- [Save Excel Workbook Pdf Custom Fonts Aspose Cells Net](/cells/german/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
-- [Save Excel Workbook Pdf Custom Fonts Aspose Cells Net](/cells/french/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
+---
+
+### الخطوات التالية
+
+- استكشف **دمج PDF متعدد الأوراق** باستخدام `PdfFileEditor`.  
+- اجمع هذا النهج مع **Aspose.Slides** لتضمين المخططات كصور.  
+- تحقق من **امتثال PDF/A** إذا كنت بحاجة إلى ملفات PDF ذات جودة أرشيفية.  
+
+هل لديك المزيد من الأسئلة أو حالة خاصة صعبة؟ اترك تعليقًا أدناه، وتمنياتنا لك بالبرمجة السعيدة!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

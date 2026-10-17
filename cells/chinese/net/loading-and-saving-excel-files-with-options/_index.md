@@ -32,6 +32,8 @@
 学习如何使用 Aspose.Cells for .NET 将 HTML 加载到 Excel 中时自动调整行和列。内含分步指南。
 ### [保存为 HTML 时禁用下层显示的评论](./disabling-downlevel-revealed-comments/)
 通过本详细的分步指南，了解如何在使用 Aspose.Cells for .NET 将 Excel 工作簿保存为 HTML 时禁用下层显示的注释。
+### [在 C# 中创建新工作簿 – 使用日本日历加载 Excel](./create-new-workbook-in-c-load-excel-with-japanese-calendar/)
+了解如何在 C# 中使用 Aspose.Cells 创建工作簿并加载带有日本日历的 Excel 文件。
 ### [读取 Excel 文件 C# – 高效加载 Excel 工作簿 C#](./read-excel-file-c-how-to-load-excel-workbook-c-efficiently/)
 本教程演示如何使用 Aspose.Cells for .NET 在 C# 中高效读取 Excel 文件并加载工作簿。
 

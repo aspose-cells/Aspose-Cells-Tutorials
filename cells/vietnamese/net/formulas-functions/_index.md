@@ -103,6 +103,14 @@ Tìm hiểu cách chỉ định ngôn ngữ cho tệp Excel của bạn bằng A
 
 ### [Tạo sổ làm việc Excel với công thức EXPAND – Hướng dẫn toàn diện](./create-excel-workbook-with-expand-formula-complete-guide/)
 
+### [Cách tính Cotangent trong Excel bằng C# – Tạo Workbook, Sử dụng EXPAND và Lưu](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+
+### [Cách sử dụng Lambda trong C# với công thức Excel – Hướng dẫn toàn diện](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
+### [Cách sử dụng WRAPCOLS trong C# – Tạo Workbook Excel với các hàm Wrap](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+
+### [Tạo Workbook Excel C# – Hướng dẫn Lambda, SEQUENCE & EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+### [Cách sử dụng WRAPCOLS trong C# – Chuyển đổi mảng thành ma trận trong Excel](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
+
 ## Hiểu về các loại công thức Excel
 
 Công thức Excel có nhiều dạng khác nhau, mỗi dạng có những đặc điểm riêng mà Aspose.Cells có thể quản lý:

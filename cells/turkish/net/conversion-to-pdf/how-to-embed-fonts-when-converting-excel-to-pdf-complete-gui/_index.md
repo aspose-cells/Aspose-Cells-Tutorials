@@ -1,54 +1,27 @@
 ---
 category: general
-date: 2026-07-13
-description: Excel'i PDF'ye dönüştürürken yazı tiplerini nasıl gömülür. XLSX'i PDF'ye
-  dışa aktarmayı, çalışma kitabını PDF olarak kaydetmeyi ve Excel'den gömülü yazı
-  tipleriyle PDF oluşturmayı öğrenin.
+date: 2026-03-01
+description: Excel'i PDF'ye dönüştürürken yazı tiplerini nasıl gömülür. Çalışma kitabını
+  gömülü yazı tipleriyle PDF olarak kaydetmeyi ve elektronik tabloyu kolayca PDF'ye
+  dışa aktarmayı öğrenin.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - how to embed fonts
 - convert excel to pdf
 - save workbook as pdf
-- export xlsx to pdf
+- export spreadsheet to pdf
 - create pdf from excel
 language: tr
-lastmod: 2026-07-13
-og_description: Excel'i PDF'ye dönüştürürken yazı tiplerini nasıl gömeceğinizi öğrenin.
-  XLSX'i PDF'ye dışa aktarmak, çalışma kitabını PDF olarak kaydetmek ve Excel'den
-  mükemmel yazı tipi doğruluğu ile PDF oluşturmak için bu rehberi izleyin.
-og_image_alt: Screenshot showing an Excel file being saved as a PDF with embedded
-  fonts
-og_title: Excel'i PDF'ye dönüştürürken yazı tiplerini nasıl gömmek – Tam Adım Adım
-schemas:
-- author: Aspose
-  dateModified: '2026-07-13'
-  description: How to embed fonts while you convert Excel to PDF. Learn to export
-    XLSX to PDF, save workbook as PDF, and create PDF from Excel with embedded fonts.
-  headline: How to embed fonts when converting Excel to PDF – Complete Guide
-  type: TechArticle
-- description: How to embed fonts while you convert Excel to PDF. Learn to export
-    XLSX to PDF, save workbook as PDF, and create PDF from Excel with embedded fonts.
-  name: How to embed fonts when converting Excel to PDF – Complete Guide
-  steps:
-  - name: Why each line matters
-    text: '1. **Loading the workbook** – `Workbook` is the entry point; it parses
-      the XLSX file and builds an in‑memory representation of all sheets, styles,
-      and formulas. 2. **`PdfSaveOptions`** – This object controls every nuance of
-      the PDF conversion. Setting `EmbedStandardFonts = true` guarantees that the '
-  - name: Export XLSX to PDF in a web API
-    text: 'If you’re building a REST endpoint that receives an uploaded Excel file
-      and returns a PDF, you can reuse the same logic:'
-  - name: Save workbook as PDF in a Windows Forms app
-    text: 'For desktop scenarios, you might want to let the user pick a location via
-      a `SaveFileDialog`:'
-  type: HowTo
+og_description: Excel'den PDF'ye dönüşümde yazı tiplerini nasıl gömeceğinizi öğrenin.
+  Güvenilir belgeler için tam yazı tipi gömme ile çalışma kitabını PDF olarak kaydetmek
+  için bu rehberi izleyin.
+og_title: Excel'i PDF'ye Dönüştürürken Yazı Tiplerini Nasıl Gömülür – Adım Adım
 tags:
-- Aspose.Cells
-- .NET
-- PDF generation
-title: Excel'i PDF'ye dönüştürürken yazı tiplerini nasıl gömmek – Tam Kılavuz
+- aspnet
+- csharp
+- pdf
+- excel
+title: Excel'i PDF'ye Dönüştürürken Yazı Tiplerini Nasıl Gömersiniz – Tam Kılavuz
 url: /tr/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/
 ---
 
@@ -56,193 +29,196 @@ url: /tr/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-c
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Excel'i PDF'e Dönüştürürken Yazı Tipi Gömme – Tam Kılavuz
+# Excel'i PDF'ye Dönüştürürken Yazı Tiplerini Gömme – Tam Kılavuz
 
-Excel'i PDF'e **dönüştürürken yazı tiplerini nasıl gömeceğinizi** hiç merak ettiniz mi? Tek başınıza değilsiniz. Eksik yazı tipleri yaygın bir sıkıntıdır—PDF'niz kendi bilgisayarınızda güzel görünürken, başka birinin bilgisayarında karışık bir hâle dönüşür.  
+Her zaman **yazı tiplerinin nasıl gömüleceğini** merak ettiniz mi, böylece Excel‑to‑PDF dönüşümünüz her makinede tam aynı görünsün? Tek başınıza değilsiniz. Eksik yazı tipleri, mükemmel biçimlendirilmiş bir elektronik tabloyu PDF görüntüleyicide karışık bir karmaşaya dönüştüren sessiz suçlulardır.  
 
-Bu öğreticide, **çalışma kitabını PDF olarak kaydetme** sırasında yazı tiplerinin dosyaya gömülmesini sağlayan temiz, uçtan uca bir çözümü adım adım inceleyeceğiz. Sonuna kadar **XLSX'i PDF'e dışa aktar**, **Excel'den PDF oluştur** ve eksik karakterler konusunda bir daha endişelenme.
+Bu öğreticide, bir Excel dosyasını **tüm yazı tipleri gömülü** bir PDF'ye dönüştürme sürecini adım adım inceleyeceğiz, böylece çıktı taşınabilir, yazdırılabilir ve orijinaliyle aynı görünecek. Ayrıca *convert excel to pdf*, *save workbook as pdf*, *export spreadsheet to pdf* ve *create pdf from excel* konularına da değineceğiz – tümü C# kodunuzdan çıkmadan.
 
-Popüler **Aspose.Cells for .NET** kütüphanesini kullanacağız çünkü PDF çıktısı üzerinde, özellikle kritik `EmbedStandardFonts` bayrağı üzerinde ince ayar yapmanıza olanak tanıyor. Başka üçüncü‑taraf hilesine gerek yok ve kod .NET 6+ ve .NET Framework 4.7+ üzerinde çalışıyor.  
+## Öğrenecekleriniz
 
----
+- Aspose.Cells (veya uyumlu herhangi bir kütüphane) kullanarak bir `.xlsx` çalışma kitabı yükleyin.  
+- `PdfSaveOptions`'ı tam yazı tipi gömme zorunluluğu için yapılandırın.  
+- Çalışma kitabını, eksik yazı tipi uyarısı almadan herhangi bir cihazda açılabilecek bir PDF olarak kaydedin.  
+- Sunucuda yüklü olmayan özel yazı tipleri gibi uç durumları ele almak için ipuçları.
 
-## Ön Koşullar – Başlamadan Önce Neye İhtiyacınız Var
-
-- **Visual Studio 2022** (veya .NET projelerini derleyebilen herhangi bir IDE)  
-- **.NET 6 SDK** (veya klasik tercih ediyorsanız .NET Framework 4.7+ )  
-- **Aspose.Cells for .NET** NuGet paketi (`Install-Package Aspose.Cells`)  
-- Referans alabileceğiniz bir klasörde bulunan örnek Excel çalışma kitabı (`varSelector.xlsx`)  
-
-Bu maddelere sahipseniz, derinlemesine incelemeye hazırsınız.
+**Önkoşullar** – .NET 6+ (veya .NET Framework 4.7.2+), Visual Studio 2022 (veya tercih ettiğiniz herhangi bir IDE) ve Aspose.Cells for .NET NuGet paketine ihtiyacınız var. Başka bir dış araç gerekmemektedir.
 
 ---
 
-## Excel'i PDF'e Dönüştürürken Yazı Tipi Gömme
+## ## PDF Dışa Aktarımında Yazı Tiplerini Gömme
 
-Aşağıda, **Excel'den PDF oluştururken** yazı tiplerinin gömülmesini sağlayan tam, çalıştırılabilir program yer alıyor.
+![Doğru gömülmüş yazı tiplerini gösteren PDF önizlemesinin ekran görüntüsü – Excel'ten PDF'ye dönüşümde yazı tiplerini nasıl gömeceğiniz](https://example.com/images/pdf-preview.png "Excel'ten PDF'ye dönüşümde yazı tiplerini nasıl gömeceğiniz")
+
+### Adım 1 – Aspose.Cells NuGet Paketini Yükleyin
+
+Projenizin **.csproj** dosyasını açın veya Paket Yöneticisi Konsolunu kullanın:
+
+```powershell
+Install-Package Aspose.Cells
+```
+
+> **Pro ipucu:** .NET CLI kullanıyorsanız, `dotnet add package Aspose.Cells` komutunu çalıştırın. Bu, en son kararlı sürümü (Mart 2026 itibarıyla, sürüm 23.10) getirir.
+
+### Adım 2 – Dönüştürmek İstediğiniz Çalışma Kitabını Yükleyin
 
 ```csharp
-using System;
-using Aspose.Cells;               // Aspose.Cells namespace
-using Aspose.Cells.Drawing;       // for PDF options (if needed)
+using Aspose.Cells;
 
-class ExcelToPdfWithEmbeddedFonts
+// Path to your source Excel file
+string inputPath = Path.Combine(Environment.CurrentDirectory, "input.xlsx");
+
+// Load the workbook into memory
+Workbook workbook = new Workbook(inputPath);
+```
+
+**Neden önemli:** Çalışma kitabını yüklemek, tüm çalışma sayfalarına, stillere ve gömülü nesnelere erişim sağlar. Bu, sonraki dışa aktarma işlemlerinin temelidir.
+
+### Adım 3 – PDF Kaydetme Seçeneklerini Oluşturun ve Yazı Tipi Gömmeyi Açın
+
+```csharp
+// Initialise PDF save options
+PdfSaveOptions pdfOptions = new PdfSaveOptions
 {
-    static void Main()
+    // Embed every font used in the workbook
+    FontEmbeddingMode = FontEmbeddingMode.EmbedAll
+};
+```
+
+`FontEmbeddingMode` özelliği, yazı tiplerinin gömülüp gömülmeyeceğini, alt‑küme gömülüp gömülmeyeceğini veya atlanıp atlanmayacağını kontrol eder. `EmbedAll` olarak ayarlamak, **yazı tiplerinin nasıl gömüleceği** sorusuna kesin bir yanıt verir—elektronik tablodaki her glif PDF dosyasına paketlenir.
+
+### Adım 4 – Çalışma Kitabını PDF Olarak Kaydedin
+
+```csharp
+// Destination path for the PDF
+string outputPath = Path.Combine(Environment.CurrentDirectory, "output.pdf");
+
+// Perform the conversion
+workbook.Save(outputPath, pdfOptions);
+```
+
+Bu çağrıdan sonra, `output.pdf` `input.xlsx` dosyasının tüm yazı tipleri gömülü, eksiksiz bir görsel kopyasını içerir. Herhangi bir PDF okuyucusunda açın ve bir daha “yazı tipi ikamesi” uyarısı görmezsiniz.
+
+### Adım 5 – Sonucu Doğrulayın (Opsiyonel ama Tavsiye Edilir)
+
+```csharp
+// Quick verification using Aspose.Pdf (if you have it)
+// This snippet checks that all fonts are indeed embedded.
+using Aspose.Pdf;
+
+// Load the generated PDF
+Document pdfDoc = new Document(outputPath);
+bool allEmbedded = true;
+
+foreach (FontInfo fontInfo in pdfDoc.FontInfo)
+{
+    if (!fontInfo.IsEmbedded)
     {
-        // -------------------------------------------------
-        // Step 1: Load the Excel workbook (your source file)
-        // -------------------------------------------------
-        string inputPath = @"YOUR_DIRECTORY\varSelector.xlsx";
-        Workbook workbook = new Workbook(inputPath);
-
-        // -------------------------------------------------
-        // Step 2: Configure PDF save options to embed fonts
-        // -------------------------------------------------
-        PdfSaveOptions pdfOptions = new PdfSaveOptions
-        {
-            // This flag tells Aspose.Cells to embed all standard fonts
-            EmbedStandardFonts = true,
-
-            // Optional: force embedding of custom fonts as well
-            // EmbedAllFonts = true,   // uncomment if you have custom fonts
-        };
-
-        // -------------------------------------------------
-        // Step 3: Save the workbook as a PDF using the options
-        // -------------------------------------------------
-        string outputPath = @"YOUR_DIRECTORY\out.pdf";
-        workbook.Save(outputPath, pdfOptions);
-
-        Console.WriteLine("PDF generated with embedded fonts at:");
-        Console.WriteLine(outputPath);
+        allEmbedded = false;
+        Console.WriteLine($"Missing embedding for font: {fontInfo.FontName}");
     }
 }
+Console.WriteLine(allEmbedded ? "All fonts are embedded!" : "Some fonts are missing.");
 ```
 
-### Her Satır Neden Önemli
-
-1. **Çalışma kitabını yükleme** – `Workbook` giriş noktasıdır; XLSX dosyasını ayrıştırır ve tüm sayfalar, stiller ve formüllerin bellek içi temsilini oluşturur.  
-2. **`PdfSaveOptions`** – Bu nesne PDF dönüşümünün her inceliğini kontrol eder. `EmbedStandardFonts = true` ayarı, PDF'in Helvetica, Times, Courier, Symbol ve ZapfDingbats ailelerini içermesini garanti eder. Çalışma sayfanız özel bir yazı tipi (ör. “Calibri”) kullanıyorsa, eklemeyi zorlamak için `EmbedAllFonts` yorum satırını kaldırabilirsiniz.  
-3. **Dosyayı kaydetme** – `workbook.Save` PDF'i diske yazar, az önce tanımladığımız seçenekleri uygular. Sonuç, herhangi bir görüntüleyicide aynı şekilde render edilen, kendi içinde bütünleşik bir PDF olur.
+Aspose.Pdf'niz yoksa, Adobe Acrobat'ta (`File → Properties → Fonts`) manuel bir kontrol de aynı derecede işe yarar.
 
 ---
 
-## Yazı Tipi Kalitesini Kaybetmeden Excel'i PDF'e Dönüştürme
+## ## Excel'i PDF'ye Dönüştür – Yaygın Varyasyonlar
 
-Artık **yazı tiplerini nasıl gömeceğinizi** bildiğinize göre, gerçek projelerde ihtiyaç duyabileceğiniz birkaç varyasyonu inceleyelim.
-
-### Web API'de XLSX'i PDF'e Dışa Aktarma
-
-Yüklenen bir Excel dosyasını alıp PDF dönen bir REST uç noktası oluşturuyorsanız, aynı mantığı yeniden kullanabilirsiniz:
+### Yalnızca Belirli Bir Çalışma Sayfasını Dışa Aktarın
 
 ```csharp
-[HttpPost("api/excel-to-pdf")]
-public IActionResult ConvertToPdf(IFormFile excelFile)
+PdfSaveOptions opts = new PdfSaveOptions
 {
-    using var stream = excelFile.OpenReadStream();
-    var workbook = new Workbook(stream);
-
-    var pdfOptions = new PdfSaveOptions { EmbedStandardFonts = true };
-    using var pdfStream = new MemoryStream();
-    workbook.Save(pdfStream, pdfOptions);
-    pdfStream.Position = 0;
-
-    return File(pdfStream, "application/pdf", "result.pdf");
-}
-```
-
-*İpucu*: İşleme başlamadan önce gelen dosyanın boyut ve tipini mutlaka doğrulayın; bu, hizmet reddi saldırılarını önler.
-
-### Windows Forms Uygulamasında Çalışma Kitabını PDF Olarak Kaydetme
-
-Masaüstü senaryoları için, kullanıcıya bir `SaveFileDialog` aracılığıyla konum seçtirmek isteyebilirsiniz:
-
-```csharp
-var dlg = new SaveFileDialog
-{
-    Filter = "PDF files (*.pdf)|*.pdf",
-    FileName = "ExportedWorkbook.pdf"
+    FontEmbeddingMode = FontEmbeddingMode.EmbedAll,
+    // Export only the first sheet (zero‑based index)
+    OnePagePerSheet = false,
+    SheetIndex = 0
 };
-
-if (dlg.ShowDialog() == DialogResult.OK)
-{
-    var pdfOpts = new PdfSaveOptions { EmbedStandardFonts = true };
-    workbook.Save(dlg.FileName, pdfOpts);
-    MessageBox.Show("PDF saved with embedded fonts!", "Success");
-}
+workbook.Save("single-sheet.pdf", opts);
 ```
 
-Her iki kod parçacığı da aynı temel fikri gösterir: **PDF oluştururken yazı tiplerini göm** ve **çalışma kitabını PDF olarak kaydet**.
+### Daha Küçük Dosyalar İçin Alt‑Küme Yazı Tipi Gömme
+
+Dosya boyutu bir endişe ise, **yalnızca gerçekten kullanılan karakterleri** gömebilirsiniz:
+
+```csharp
+pdfOptions.FontEmbeddingMode = FontEmbeddingMode.Subset;
+```
+
+Bu hâlâ *yazı tiplerinin nasıl gömüleceği* sorusuna yanıt verir ancak daha hafif bir PDF üretir—e-posta ekleri için harika.
+
+### Sunucuda Yüklü Olmayan Özel Yazı Tiplerini Ele Alma
+
+Bir çalışma kitabı, dönüşüm sunucusunda bulunmayan bir özel yazı tipine referans verdiğinde, Aspose.Cells bir yazı tipi dosyası sağlamadığınız sürece varsayılan bir yazı tipine geri döner:
+
+```csharp
+// Register a custom font folder
+FontConfigs fontConfigs = new FontConfigs();
+fontConfigs.SetFontFolder(@"C:\MyCustomFonts", true);
+pdfOptions.FontConfigs = fontConfigs;
+```
+
+Artık dönüşüm, görsel bütünlüğü koruyarak özel yazı tipini gömebilir.
 
 ---
 
-## Yaygın Tuzaklar ve Kaçınma Yolları
+## ## Çalışma Kitabını PDF Olarak Kaydet – En İyi Uygulamalar
 
-| Sorun | Neden Oluşur | Çözüm |
-|-------|--------------|------|
-| PDF **Arial** gösteriyor, **Calibri** yerine | `EmbedStandardFonts` yalnızca beş temel yazı tipini kapsar. Özel yazı tipleri `EmbedAllFonts = true` gerektirir ve fontun sunucuda yüklü olması gerekir. | `pdfOptions.EmbedAllFonts = true;` ekleyin ve fontun dönüşüm yapılan makinede mevcut olduğundan emin olun. |
-| PDF boyutu şişiyor | Büyük bir özel fontun tüm gliflerini gömmek dosyayı şişirebilir. | `PdfSaveOptions.FontEmbeddingMode = FontEmbeddingMode.Subset;` kullanarak yalnızca kullanılan karakterleri gömün. |
-| **Unicode** karakterler (ör. emoji) eksik | Varsayılan font seti bu glifleri içermez. | “Segoe UI Emoji” gibi Unicode‑destekli bir fonta geçin ve tam gömme özelliğini etkinleştirin. |
-| **macOS**'ta dönüşüm başarısız | Aspose.Cells bazı render yolları için Windows GDI+’ye dayanır. | En yeni Aspose.Cells sürümünü (macOS’ta .NET Core’u destekler) kullanın veya dönüşümü bir Windows konteynerinde çalıştırın. |
-
----
-
-## Yazı Tiplerinin Gerçekten Gömülü Olduğunu Doğrulama
-
-Programı çalıştırdıktan sonra, oluşturulan `out.pdf` dosyasını Adobe Acrobat Reader’da açın:
-
-1. **Ctrl + D** tuşlarına basın (veya **File → Properties** → **Fonts** sekmesi).  
-2. Her bir yazı tipinin yanında **“Embedded”** (Gömülü) kelimesini görmelisiniz.  
-
-Eğer **“Not Embedded”** görürseniz, `EmbedStandardFonts` (veya `EmbedAllFonts`) değerinin `true` olduğundan ve font dosyalarına erişilebildiğinden emin olun.
+| Uygulama | Neden Yardımcı Olur |
+|----------|---------------------|
+| **Her zaman `FontEmbeddingMode = EmbedAll` ayarlayın** | PDF'nin her yerde aynı görünmesini garanti eder. |
+| **Çıktıyı doğrulayın** | Eksik yazı tiplerini erken yakalar, sonraki şikayetleri önler. |
+| **`OnePagePerSheet = true` özelliğini yalnızca gerektiğinde kullanın** | Gereksiz yere uzun, gezinmesi zor PDF'leri önler. |
+| **Aspose.Cells'i güncel tutun** | Yeni sürümler daha iyi yazı tipi yönetimi ve hata düzeltmeleri ekler. |
 
 ---
 
-## Beklenen Çıktı
+## ## Elektronik Tabloyu PDF'ye Dışa Aktarma – Gerçek Dünya Senaryosu
 
-Basit bir çalışma kitabı (başlık **Calibri Bold** ile biçimlendirilmiş) ile konsol uygulamasını çalıştırdığınızda PDF şu özellikleri gösterir:
+Haftalık satış panolarını yöneticilere gönderen bir raporlama servisi oluşturduğunuzu hayal edin. Panolar, iş analistlerinin ızgara düzenini sevmesi nedeniyle Excel'de hazırlanır. Arka ucunuz her gece bir PDF oluşturmalı, tüm kurumsal yazı tiplerini gömmeli ve dosyayı e-posta ile göndermelidir.
 
-- Başlık, Excel’de göründüğü gibi tam olarak görüntülenir.  
-- **Fonts** listesinde “Calibri Bold” **Embedded** (Gömülü) olarak yer alır.  
-- Görüntüleyicide Calibri yüklü olmasa bile, herhangi bir platformda doğru render edilir.
+Yukarıdaki adımları uygulayarak tüm süreci otomatikleştirebilirsiniz:
 
-Sonucu farklı bir makinede veya bir Linux konteynerinde PDF’i açarak test edebilirsiniz—eksik karakterler görünmemelidir.
+1. Analist tarafından oluşturulan çalışma kitabını paylaşılan bir klasörden yükleyin.  
+2. `PdfSaveOptions`'ı `EmbedAll` ile uygulayın.  
+3. PDF'yi geçici bir konuma kaydedin.  
+4. PDF'yi bir e-postaya ekleyin ve gönderin.
 
----
-
-## Özet – Neler Öğrendik
-
-- `PdfSaveOptions.EmbedStandardFonts` kullanarak **yazı tiplerini nasıl gömeceğinizi**.  
-- Aspose.Cells ile tam **Excel'i PDF'e dönüştürme** iş akışı.  
-- Web API’lerde ve masaüstü uygulamalarda **çalışma kitabını PDF olarak kaydetme** varyasyonları.  
-- Kenar durumları ve PDF boyutunu makul tutma ipuçları.  
-
-Tüm bunlar, **XLSX'i PDF'e dışa aktar** ve **Excel'den PDF oluştur** yaparken yazı tiplerinin dosyayla birlikte taşınacağından emin olmanızı sağlar.
+Tüm bunlar, başsız bir Windows servisi üzerinde çalışır—kullanıcı arayüzü yok, manuel müdahale yok. Sonuç? Yöneticiler, dizüstü bilgisayarlarında yüklü olan yazı tiplerinden bağımsız olarak her sabah kusursuz bir şekilde render edilmiş bir PDF alır.
 
 ---
 
-## Sonraki Adımlar & İlgili Konular
+## ## Excel'den PDF Oluştur – Sık Sorulan Sorular
 
-- **PDF görünümünü özelleştirme** – PDF/A veya PDF/X için `PdfSaveOptions.PageLayout`, `PdfSaveOptions.ImageResolution` ve `PdfSaveOptions.Compliance` seçeneklerini keşfedin.  
-- **Filigran veya başlık/altbilgi ekleme** – `PdfSaveOptions.AddWatermark` ya da `HeaderFooter` sınıflarını kullanın.  
-- **Birden fazla çalışma sayfasını dönüştürme** – `workbook.Worksheets` üzerinde döngü kurun ve `PdfFileEditor` ile PDF’leri birleştirin.  
+**S: Yazı tiplerini gömmek PDF boyutunu önemli ölçüde artırır mı?**  
+**C:** Evet, özellikle büyük yazı tipi ailelerinde artırabilir. `Subset`'e geçmek, boyutu azaltırken görünümü korur.
 
-Eğer **klasör içindeki birden çok Excel dosyasını toplu olarak PDF'e dönüştürme** konusunda merakınız varsa, “Bulk Excel to PDF conversion with Aspose.Cells” başlıklı rehberimize göz atın.  
+**S: Aspose.Cells için bir lisansa ihtiyacım var mı?**  
+**C:** Kütüphane değerlendirme modunda çalışır, ancak ticari bir lisans değerlendirme filigranını kaldırır ve tam özellikleri açar.
+
+**S: Kaynak Excel, gömülemeyen bir yazı tipi (ör. bazı sistem yazı tipleri) kullanıyorsa ne olur?**  
+**C:** Aspose.Cells mümkün olanı gömer ve geri kalan için benzer bir yazı tipine geçer. Dışa aktarmadan önce programlı olarak yazı tipini değiştirebilirsiniz.
 
 ---
 
-*Yazı tiplerini gömüp kusursuz PDF’ler göndermeye hazır mısınız?* Kodu alın, ihtiyaçlarınıza göre seçenekleri ayarlayın ve PDF’lerinizin Excel’de tasarladığınız gibi görünmesini sağlayın. İyi kodlamalar!
+## Sonuç
 
+Excel'i PDF'ye *dönüştürürken* **yazı tiplerinin nasıl gömüleceğini** ele aldık ve tam yazı tipi gömme ile **çalışma kitabını PDF olarak kaydetmek** için kesin kodu gösterdik. Artık *elektronik tabloyu PDF'ye dışa aktarma* ve *Excel'den PDF oluşturma* görevleri için sağlam, üretime hazır bir deseniniz var.
 
-## Sonraki Öğrenmeniz Gerekenler
+Deneyin: özel bir kurumsal yazı tipini gömeyi deneyin, alt‑küme gömme ile deney yapın veya bir klasördeki tüm çalışma kitaplarını toplu işleyin. Yazı tipi gömmede uzmanlaştığınızda, PDF'leriniz nerede açılırsa açılsın her zaman net görünecek.
 
+---
 
-Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanan ve yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini ustalaşmanız ve projelerinizde alternatif uygulama yaklaşımlarını keşfetmeniz için adım adım açıklamalı tam çalışan kod örnekleri içerir.
+### Sonraki Adımlar
 
-- [Save Excel Workbook as PDF with Custom Fonts using Aspose.Cells for .NET](/cells/english/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
-- [Save Excel Workbook Pdf Custom Fonts Aspose Cells Net](/cells/german/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
-- [Save Excel Workbook Pdf Custom Fonts Aspose Cells Net](/cells/french/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
+- `PdfFileEditor` kullanarak **çoklu‑sayfa PDF birleştirmeyi** keşfedin.  
+- Bu yaklaşımı **Aspose.Slides** ile birleştirerek grafikleri görüntü olarak gömün.  
+- Arşiv‑düzeyi PDF'lere ihtiyacınız varsa **PDF/A uyumluluğunu** inceleyin.  
+
+Daha fazla sorunuz veya zor bir uç durumunuz mu var? Aşağıya yorum bırakın, kodlamanız keyifli olsun!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

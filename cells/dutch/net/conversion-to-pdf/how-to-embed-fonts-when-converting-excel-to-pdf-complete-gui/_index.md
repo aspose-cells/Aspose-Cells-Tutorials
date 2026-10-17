@@ -1,55 +1,28 @@
 ---
 category: general
-date: 2026-07-13
-description: Hoe je lettertypen insluit bij het converteren van Excel naar PDF. Leer
-  hoe je XLSX naar PDF exporteert, een werkmap opslaat als PDF, en een PDF maakt vanuit
-  Excel met ingesloten lettertypen.
+date: 2026-03-01
+description: Hoe lettertypen inbedden bij het converteren van Excel naar PDF. Leer
+  hoe je een werkmap opslaat als PDF met ingesloten lettertypen en exporteer eenvoudig
+  een spreadsheet naar PDF.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - how to embed fonts
 - convert excel to pdf
 - save workbook as pdf
-- export xlsx to pdf
+- export spreadsheet to pdf
 - create pdf from excel
 language: nl
-lastmod: 2026-07-13
-og_description: Hoe lettertypen inbedden bij het converteren van Excel naar PDF. Volg
-  deze gids om XLSX naar PDF te exporteren, werkmap op te slaan als PDF en een PDF
-  te maken vanuit Excel met perfecte lettertypegetrouwheid.
-og_image_alt: Screenshot showing an Excel file being saved as a PDF with embedded
-  fonts
-og_title: Hoe lettertypen inbedden bij het converteren van Excel naar PDF – Volledige
-  stap‑voor‑stap
-schemas:
-- author: Aspose
-  dateModified: '2026-07-13'
-  description: How to embed fonts while you convert Excel to PDF. Learn to export
-    XLSX to PDF, save workbook as PDF, and create PDF from Excel with embedded fonts.
-  headline: How to embed fonts when converting Excel to PDF – Complete Guide
-  type: TechArticle
-- description: How to embed fonts while you convert Excel to PDF. Learn to export
-    XLSX to PDF, save workbook as PDF, and create PDF from Excel with embedded fonts.
-  name: How to embed fonts when converting Excel to PDF – Complete Guide
-  steps:
-  - name: Why each line matters
-    text: '1. **Loading the workbook** – `Workbook` is the entry point; it parses
-      the XLSX file and builds an in‑memory representation of all sheets, styles,
-      and formulas. 2. **`PdfSaveOptions`** – This object controls every nuance of
-      the PDF conversion. Setting `EmbedStandardFonts = true` guarantees that the '
-  - name: Export XLSX to PDF in a web API
-    text: 'If you’re building a REST endpoint that receives an uploaded Excel file
-      and returns a PDF, you can reuse the same logic:'
-  - name: Save workbook as PDF in a Windows Forms app
-    text: 'For desktop scenarios, you might want to let the user pick a location via
-      a `SaveFileDialog`:'
-  type: HowTo
+og_description: Hoe lettertypen in Excel‑naar‑PDF-conversie in te sluiten. Volg deze
+  gids om de werkmap op te slaan als PDF met volledige lettertype‑insluiting voor
+  betrouwbare documenten.
+og_title: Hoe lettertypen inbedden bij het converteren van Excel naar PDF – Stap voor
+  stap
 tags:
-- Aspose.Cells
-- .NET
-- PDF generation
-title: Hoe lettertypen inbedden bij het converteren van Excel naar PDF – Complete
+- aspnet
+- csharp
+- pdf
+- excel
+title: Hoe lettertypen insluiten bij het converteren van Excel naar PDF – Complete
   gids
 url: /nl/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/
 ---
@@ -60,189 +33,196 @@ url: /nl/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-c
 
 # Hoe lettertypen inbedden bij het converteren van Excel naar PDF – Complete gids
 
-Heb je je ooit afgevraagd **hoe je lettertypen kunt inbedden** wanneer je **Excel naar PDF converteert**? Je bent niet de enige. Ontbrekende lettertypen zijn een veelvoorkomend probleem—je PDF ziet er prima uit op jouw computer, maar wordt een warboel op de computer van iemand anders.  
+Heb je je ooit afgevraagd **hoe je lettertypen kunt inbedden** zodat je Excel‑naar‑PDF-conversie er op elke machine precies hetzelfde uitziet? Je bent niet de enige. Ontbrekende lettertypen zijn de stille schuldigen die een perfect opgemaakte spreadsheet veranderen in een rommelige puinhoop zodra deze in een PDF‑viewer terechtkomt.  
 
-In deze tutorial lopen we een schone, end‑to‑end oplossing door die **werkboek opslaat als PDF** met de lettertypen direct in het bestand ingebed. Aan het einde kun je **XLSX naar PDF exporteren**, **PDF maken vanuit Excel**, en hoef je je nooit meer zorgen te maken over ontbrekende tekens.  
+In deze tutorial lopen we het volledige proces door van het converteren van een Excel‑bestand naar een PDF **met elk lettertype ingesloten**, zodat de output draagbaar, afdrukbaar en precies uitziet als het origineel. Onderweg komen we ook *convert excel to pdf*, *save workbook as pdf*, *export spreadsheet to pdf* en *create pdf from excel* tegen – allemaal zonder je C#‑code te verlaten.
 
-We gebruiken de populaire **Aspose.Cells for .NET** bibliotheek omdat deze je fijne controle geeft over de PDF‑output, inclusief de cruciale `EmbedStandardFonts`‑vlag. Er zijn geen andere third‑party trucjes nodig, en de code werkt op .NET 6+ en .NET Framework 4.7+.  
+## Wat je zult leren
 
----
+- Laad een `.xlsx`-werkmap met Aspose.Cells (of een andere compatibele bibliotheek).  
+- Configureer `PdfSaveOptions` om volledige lettertype‑inbedding af te dwingen.  
+- Sla de werkmap op als een PDF die op elk apparaat kan worden geopend zonder waarschuwingen over ontbrekende lettertypen.  
+- Tips voor het omgaan met randgevallen, zoals aangepaste lettertypen die niet op de server zijn geïnstalleerd.  
 
-## Vereisten – wat je nodig hebt voordat je begint
-
-- **Visual Studio 2022** (of een IDE die .NET‑projecten kan compileren)  
-- **.NET 6 SDK** (of .NET Framework 4.7+ als je de klassieke versie prefereert)  
-- **Aspose.Cells for .NET** NuGet‑pakket (`Install-Package Aspose.Cells`)  
-- Een voorbeeld‑Excel‑werkboek (`varSelector.xlsx`) geplaatst in een map die je kunt refereren  
-
-Als je deze hebt, ben je klaar om te beginnen.
+**Prerequisites** – Je hebt .NET 6+ (of .NET Framework 4.7.2+), Visual Studio 2022 (of een IDE naar keuze) en het Aspose.Cells for .NET NuGet‑pakket nodig. Er zijn geen andere externe tools vereist.
 
 ---
 
-## Hoe lettertypen inbedden bij het converteren van Excel naar PDF
+## ## Hoe lettertypen inbedden in de PDF‑export
 
-Hieronder staat het volledige, kant‑klaar programma. Het toont de exacte stappen die je nodig hebt om **PDF te maken vanuit Excel** terwijl je ervoor zorgt dat de lettertypen worden ingebed.
+Lettertypen inbedden is de cruciale stap die garandeert dat je PDF er identiek uitziet als het bron‑Excel‑bestand. Hieronder vind je een beknopt, uitvoerbaar voorbeeld dat de volledige workflow demonstreert.
+
+![Schermafbeelding van PDF‑preview die correct ingesloten lettertypen toont – hoe lettertypen inbedden in Excel‑naar‑PDF‑conversie](https://example.com/images/pdf-preview.png "hoe lettertypen inbedden in Excel‑naar‑PDF‑conversie")
+
+### Stap 1 – Installeer het Aspose.Cells NuGet‑pakket
+
+Open het **.csproj**‑bestand van je project of gebruik de Package Manager Console:
+
+```powershell
+Install-Package Aspose.Cells
+```
+
+> **Pro tip:** Als je .NET CLI gebruikt, voer dan `dotnet add package Aspose.Cells` uit. Dit haalt de nieuwste stabiele versie op (vanaf maart 2026, versie 23.10).
+
+### Stap 2 – Laad de werkmap die je wilt converteren
 
 ```csharp
-using System;
-using Aspose.Cells;               // Aspose.Cells namespace
-using Aspose.Cells.Drawing;       // for PDF options (if needed)
+using Aspose.Cells;
 
-class ExcelToPdfWithEmbeddedFonts
+// Path to your source Excel file
+string inputPath = Path.Combine(Environment.CurrentDirectory, "input.xlsx");
+
+// Load the workbook into memory
+Workbook workbook = new Workbook(inputPath);
+```
+
+**Waarom dit belangrijk is:** Het laden van de werkmap geeft je toegang tot alle werkbladen, stijlen en ingesloten objecten. Het is de basis voor elke daaropvolgende exportoperatie.
+
+### Stap 3 – Maak PDF‑opslaan‑opties aan en schakel lettertype‑inbedding in
+
+```csharp
+// Initialise PDF save options
+PdfSaveOptions pdfOptions = new PdfSaveOptions
 {
-    static void Main()
+    // Embed every font used in the workbook
+    FontEmbeddingMode = FontEmbeddingMode.EmbedAll
+};
+```
+
+De eigenschap `FontEmbeddingMode` bepaalt of lettertypen worden ingesloten, deel‑ingesloten of weggelaten. Door deze op `EmbedAll` te zetten, wordt **hoe je lettertypen kunt inbedden** definitief beantwoord — elk glyph dat in de spreadsheet wordt gebruikt, wordt in het PDF‑bestand verpakt.
+
+### Stap 4 – Sla de werkmap op als PDF
+
+```csharp
+// Destination path for the PDF
+string outputPath = Path.Combine(Environment.CurrentDirectory, "output.pdf");
+
+// Perform the conversion
+workbook.Save(outputPath, pdfOptions);
+```
+
+Na deze aanroep bevat `output.pdf` een getrouwe visuele replica van `input.xlsx`, compleet met alle ingesloten lettertypen. Open het in een PDF‑lezer en je zult nooit meer “lettertype‑substitutie”‑waarschuwingen zien.
+
+### Stap 5 – Verifieer het resultaat (optioneel maar aanbevolen)
+
+```csharp
+// Quick verification using Aspose.Pdf (if you have it)
+// This snippet checks that all fonts are indeed embedded.
+using Aspose.Pdf;
+
+// Load the generated PDF
+Document pdfDoc = new Document(outputPath);
+bool allEmbedded = true;
+
+foreach (FontInfo fontInfo in pdfDoc.FontInfo)
+{
+    if (!fontInfo.IsEmbedded)
     {
-        // -------------------------------------------------
-        // Step 1: Load the Excel workbook (your source file)
-        // -------------------------------------------------
-        string inputPath = @"YOUR_DIRECTORY\varSelector.xlsx";
-        Workbook workbook = new Workbook(inputPath);
-
-        // -------------------------------------------------
-        // Step 2: Configure PDF save options to embed fonts
-        // -------------------------------------------------
-        PdfSaveOptions pdfOptions = new PdfSaveOptions
-        {
-            // This flag tells Aspose.Cells to embed all standard fonts
-            EmbedStandardFonts = true,
-
-            // Optional: force embedding of custom fonts as well
-            // EmbedAllFonts = true,   // uncomment if you have custom fonts
-        };
-
-        // -------------------------------------------------
-        // Step 3: Save the workbook as a PDF using the options
-        // -------------------------------------------------
-        string outputPath = @"YOUR_DIRECTORY\out.pdf";
-        workbook.Save(outputPath, pdfOptions);
-
-        Console.WriteLine("PDF generated with embedded fonts at:");
-        Console.WriteLine(outputPath);
+        allEmbedded = false;
+        Console.WriteLine($"Missing embedding for font: {fontInfo.FontName}");
     }
 }
+Console.WriteLine(allEmbedded ? "All fonts are embedded!" : "Some fonts are missing.");
 ```
 
-### Waarom elke regel belangrijk is
-
-1. **Het laden van het werkboek** – `Workbook` is het toegangspunt; het parseert het XLSX‑bestand en bouwt een in‑memory representatie van alle bladen, stijlen en formules.  
-2. **`PdfSaveOptions`** – Dit object regelt elk detail van de PDF‑conversie. Het instellen van `EmbedStandardFonts = true` garandeert dat de PDF de Helvetica, Times, Courier, Symbol en ZapfDingbats families bevat. Als je spreadsheet een aangepast lettertype gebruikt (bijv. “Calibri”), kun je `EmbedAllFonts` uitcommentariëren om het op te nemen.  
-3. **Het opslaan van het bestand** – `workbook.Save` schrijft de PDF naar schijf, met de opties die we zojuist hebben gedefinieerd. Het resultaat is een zelfstandige PDF die identiek rendert in elke viewer.
+Als je Aspose.Pdf niet hebt, werkt een handmatige controle in Adobe Acrobat (`File → Properties → Fonts`) even goed.
 
 ---
 
-## Converteer Excel naar PDF zonder verlies van lettertype‑integriteit
+## ## Excel naar PDF converteren – Veelvoorkomende variaties
 
-Nu je weet **hoe je lettertypen kunt inbedden**, laten we een paar variaties bekijken die je in echte projecten nodig kunt hebben.
+### Exporteer alleen een specifiek werkblad
 
-### Export XLSX naar PDF in een web‑API
-
-Als je een REST‑endpoint bouwt dat een geüpload Excel‑bestand ontvangt en een PDF teruggeeft, kun je dezelfde logica hergebruiken:
+Soms heb je slechts één blad nodig als PDF:
 
 ```csharp
-[HttpPost("api/excel-to-pdf")]
-public IActionResult ConvertToPdf(IFormFile excelFile)
+PdfSaveOptions opts = new PdfSaveOptions
 {
-    using var stream = excelFile.OpenReadStream();
-    var workbook = new Workbook(stream);
-
-    var pdfOptions = new PdfSaveOptions { EmbedStandardFonts = true };
-    using var pdfStream = new MemoryStream();
-    workbook.Save(pdfStream, pdfOptions);
-    pdfStream.Position = 0;
-
-    return File(pdfStream, "application/pdf", "result.pdf");
-}
-```
-
-*Pro tip*: Valideer altijd de grootte en het type van het binnenkomende bestand voordat je het verwerkt om denial‑of‑service‑aanvallen te voorkomen.
-
-### Werkboek opslaan als PDF in een Windows Forms‑app
-
-Voor desktopscenario's wil je misschien de gebruiker een locatie laten kiezen via een `SaveFileDialog`:
-
-```csharp
-var dlg = new SaveFileDialog
-{
-    Filter = "PDF files (*.pdf)|*.pdf",
-    FileName = "ExportedWorkbook.pdf"
+    FontEmbeddingMode = FontEmbeddingMode.EmbedAll,
+    // Export only the first sheet (zero‑based index)
+    OnePagePerSheet = false,
+    SheetIndex = 0
 };
-
-if (dlg.ShowDialog() == DialogResult.OK)
-{
-    var pdfOpts = new PdfSaveOptions { EmbedStandardFonts = true };
-    workbook.Save(dlg.FileName, pdfOpts);
-    MessageBox.Show("PDF saved with embedded fonts!", "Success");
-}
+workbook.Save("single-sheet.pdf", opts);
 ```
 
-Beide fragmenten illustreren hetzelfde kernidee: **lettertypen inbedden** voordat je **het werkboek opslaat als PDF**.
+### Subset‑lettertype‑inbedding voor kleinere bestanden
+
+Als de bestandsgrootte een zorg is, kun je **alleen de daadwerkelijk gebruikte tekens** insluiten:
+
+```csharp
+pdfOptions.FontEmbeddingMode = FontEmbeddingMode.Subset;
+```
+
+Dit beantwoordt nog steeds *how to embed fonts*, maar levert een slankere PDF op — ideaal voor e‑mailbijlagen.
+
+### Omgaan met aangepaste lettertypen die niet op de server zijn geïnstalleerd
+
+Wanneer een werkmap een aangepast lettertype verwijst dat niet aanwezig is op de conversieserver, valt Aspose.Cells terug op een standaardlettertype tenzij je het lettertype‑bestand levert:
+
+```csharp
+// Register a custom font folder
+FontConfigs fontConfigs = new FontConfigs();
+fontConfigs.SetFontFolder(@"C:\MyCustomFonts", true);
+pdfOptions.FontConfigs = fontConfigs;
+```
+
+Nu kan de conversie het aangepaste lettertype insluiten, waardoor de visuele getrouwheid behouden blijft.
 
 ---
 
-## Veelvoorkomende valkuilen en hoe ze te vermijden
+## ## Werkmap opslaan als PDF – Best practices
 
-| Issue | Why it happens | Fix |
-|-------|----------------|-----|
-| PDF toont **Arial** in plaats van **Calibri** | `EmbedStandardFonts` dekt alleen de vijf basislettertypen. Aangepaste lettertypen hebben `EmbedAllFonts = true` nodig en het lettertype moet op de server geïnstalleerd zijn. | Voeg `pdfOptions.EmbedAllFonts = true;` toe en zorg dat het lettertype aanwezig is op de machine die de conversie uitvoert. |
-| PDF‑grootte explodeert | Het inbedden van elk glyph van een groot aangepast lettertype kan het bestand doen groeien. | Gebruik `PdfSaveOptions.FontEmbeddingMode = FontEmbeddingMode.Subset;` om alleen gebruikte tekens in te bedden. |
-| Ontbrekende **Unicode**‑tekens (bijv. emoji's) | De standaardlettertype‑set bevat die glyphs niet. | Schakel over naar een Unicode‑capabel lettertype zoals “Segoe UI Emoji” en schakel volledige inbedding in. |
-| Conversie mislukt op **macOS** | Aspose.Cells vertrouwt op Windows GDI+ voor sommige renderpaden. | Gebruik de nieuwste Aspose.Cells‑versie (ondersteunt .NET Core op macOS) of voer de conversie uit in een Windows‑container. |
-
----
-
-## Verifiëren dat lettertypen echt zijn ingebed
-
-Nadat je het programma hebt uitgevoerd, open je de gegenereerde `out.pdf` in Adobe Acrobat Reader:
-
-1. Druk op **Ctrl + D** (of **Bestand → Eigenschappen** → **Lettertypen** tab).  
-2. Je zou elk vermeld lettertype moeten zien met het woord **“Embedded”** ernaast.  
-
-Als je **“Not Embedded”** ziet, controleer dan nogmaals dat `EmbedStandardFonts` (of `EmbedAllFonts`) op `true` staat en dat de lettertype‑bestanden toegankelijk zijn.
+| Praktijk | Waarom het helpt |
+|----------|-------------------|
+| **Stel altijd `FontEmbeddingMode = EmbedAll` in** | Garandeert dat de PDF er overal hetzelfde uitziet. |
+| **Valideer de output** | Vangt ontbrekende lettertypen vroeg op, waardoor klachten later worden voorkomen. |
+| **Gebruik `OnePagePerSheet = true` alleen wanneer nodig** | Voorkomt onnodig lange PDF's die moeilijk te navigeren zijn. |
+| **Houd Aspose.Cells up‑to‑date** | Nieuwe versies bieden betere lettertype‑afhandeling en bug‑fixes. |
 
 ---
 
-## Verwachte output
+## ## Spreadsheet exporteren naar PDF – Praktisch scenario
 
-Het uitvoeren van de console‑app met een eenvoudig werkboek dat een titel bevat met **Calibri Bold** zal een PDF opleveren die:
+Stel je voor dat je een rapportageservice bouwt die wekelijks verkoop‑dashboards naar leidinggevenden stuurt. De dashboards worden in Excel gemaakt omdat business‑analisten dol zijn op de rasterlay-out. Je backend moet elke nacht een PDF genereren, alle bedrijfslettertypen insluiten, en het bestand e‑mailen.
 
-- De titel precies weergeeft zoals deze in Excel verschijnt.  
-- “Calibri Bold” toont in de **Lettertypen**‑lijst met de status **Embedded**.  
-- Correct rendert op elk platform, zelfs als de viewer Calibri niet geïnstalleerd heeft.
+Door de bovenstaande stappen toe te passen, kun je de volledige pijplijn automatiseren:
 
-Je kunt het resultaat testen door de PDF te openen op een andere machine of in een Linux‑container—er zouden geen ontbrekende tekens moeten verschijnen.
+1. Laad de door de analist gegenereerde werkmap vanuit een gedeelde map.  
+2. Pas `PdfSaveOptions` toe met `EmbedAll`.  
+3. Sla de PDF op op een tijdelijke locatie.  
+4. Voeg de PDF toe aan een e‑mail en verzend deze.
 
----
-
-## Samenvatting – wat we hebben behandeld
-
-- **Hoe je lettertypen inbedt** met `PdfSaveOptions.EmbedStandardFonts`.  
-- De volledige **Excel naar PDF converteren** workflow met Aspose.Cells.  
-- Variaties voor **werkboek opslaan als PDF** in web‑API’s en desktop‑apps.  
-- Afhandeling van randgevallen en tips om de PDF‑grootte redelijk te houden.  
-
-Dit alles stelt je in staat om **XLSX naar PDF te exporteren** en **PDF te maken vanuit Excel** met het vertrouwen dat de lettertypen met het bestand meereizen.
+Dit alles draait op een headless Windows‑service — geen UI, geen handmatige tussenkomst. Het resultaat? Leidinggevenden ontvangen elke ochtend een perfect gerenderde PDF, ongeacht welke lettertypen op hun laptops zijn geïnstalleerd.
 
 ---
 
-## Volgende stappen & gerelateerde onderwerpen
+## ## PDF maken vanuit Excel – Veelgestelde vragen
 
-- **PDF‑uiterlijk aanpassen** – verken `PdfSaveOptions.PageLayout`, `PdfSaveOptions.ImageResolution` en `PdfSaveOptions.Compliance` voor PDF/A of PDF/X.  
-- **Watermerken of kop‑/voetteksten toevoegen** – gebruik `PdfSaveOptions.AddWatermark` of de `HeaderFooter`‑klassen.  
-- **Meerdere werkbladen converteren** – itereren over `workbook.Worksheets` en PDF’s samenvoegen met `PdfFileEditor`.  
+**Q: Verhoogt het insluiten van lettertypen de PDF‑grootte drastisch?**  
+A: Dat kan, vooral bij grote lettertype‑families. Overschakelen naar `Subset` verkleint de grootte terwijl de weergave behouden blijft.
 
-Als je nieuwsgierig bent naar **batch‑conversie** van een map met Excel‑bestanden, bekijk dan onze gids over “Bulk Excel naar PDF conversie met Aspose.Cells”.  
+**Q: Heb ik een licentie nodig voor Aspose.Cells?**  
+A: De bibliotheek werkt in evaluatiemodus, maar een commerciële licentie verwijdert het evaluatiewatermerk en ontgrendelt alle functies.
+
+**Q: Wat als de bron‑Excel een lettertype gebruikt dat niet kan worden ingesloten (bijv. sommige systeemlettertypen)?**  
+A: Aspose.Cells zal insluiten wat mogelijk is en voor de rest terugvallen op een vergelijkbaar lettertype. Je kunt het lettertype ook programmatically vervangen vóór export.
 
 ---
 
-*Klaar om die lettertypen in te bedden en foutloze PDF’s te leveren?* Pak de code, pas de opties aan naar jouw behoeften, en laat je PDF’s er precies zo uitzien als je ze in Excel hebt ontworpen. Veel plezier met coderen!
+## Conclusie
 
-## Wat moet je hierna leren?
+We hebben **hoe je lettertypen kunt inbedden** behandeld wanneer je *excel naar pdf converteert*, en je de exacte code laten zien om **werkmap op te slaan als pdf** met volledige lettertype‑inbedding. Je hebt nu een solide, productie‑klaar patroon voor *export spreadsheet to pdf* en *create pdf from excel* taken.  
 
-De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden getoond. Elke bron bevat volledige werkende code‑voorbeelden met stap‑voor‑stap uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
+Probeer het: embed een aangepast bedrijfslettertype, experimenteer met subset‑inbedding, of verwerk een hele map werkmappen in batch. Zodra je de lettertype‑inbedding onder de knie hebt, zullen je PDF's altijd scherp ogen, ongeacht waar ze worden geopend.
 
-- [Save Excel Workbook as PDF with Custom Fonts using Aspose.Cells for .NET](/cells/english/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
-- [Save Excel Workbook Pdf Custom Fonts Aspose Cells Net](/cells/german/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
-- [Save Excel Workbook Pdf Custom Fonts Aspose Cells Net](/cells/french/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
+### Volgende stappen
+
+- Verken **multiple‑sheet PDF merging** met `PdfFileEditor`.  
+- Combineer deze aanpak met **Aspose.Slides** om grafieken als afbeeldingen in te sluiten.  
+- Bekijk **PDF/A‑compliance** als je archief‑kwaliteit PDF's nodig hebt.  
+
+Heb je meer vragen of een lastig randgeval? Laat een reactie achter hieronder, en happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

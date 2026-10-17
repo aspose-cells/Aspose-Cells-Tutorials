@@ -100,8 +100,17 @@ Scopri come padroneggiare le formule array utilizzando Aspose.Cells per .NET. Qu
 Scopri come specificare la lingua dei tuoi file Excel utilizzando Aspose.Cells .NET. Migliora l'accessibilità e la conformità dei documenti con questa guida dettagliata per l'internazionalizzazione delle impostazioni delle formule.
 
 ### [Aggiornare le formule di Excel Power Query con Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
-Scopri come aggiornare a livello di codice le formule di Power Query nelle cartelle di lavoro di Excel utilizzando Aspose.Cells per .NET. Gestione delle origini dati master per il reporting dinamico.
 
+### [Come usare WRAPCOLS in C# – Rimodellare un array in una matrice in Excel](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
+Scopri come utilizzare la funzione WRAPCOLS in C# per convertire un array in una matrice all'interno di un foglio Excel con Aspose.Cells.
+
+### [Come calcolare la cotangente in Excel con C# – Creare una cartella di lavoro, utilizzare EXPAND e salvare](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+Impara a calcolare la cotangente in Excel usando C#, creando una cartella di lavoro, applicando la funzione EXPAND e salvando il file.
+
+### [Creare una cartella di lavoro Excel C# – Guida a Lambda, SEQUENCE e EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+Scopri come creare cartelle di lavoro Excel in C# sfruttando le funzioni Lambda, SEQUENCE ed EXPAND di Aspose.Cells per .NET.
+
+### [Come utilizzare Lambda in C# con le formule di Excel – Guida completa](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
 ### [Crea cartella di lavoro Excel con la formula EXPAND – Guida completa](./create-excel-workbook-with-expand-formula-complete-guide/)
 Scopri come creare una cartella di lavoro Excel e utilizzare la formula EXPAND per generare dati dinamicamente con Aspose.Cells per .NET.
 

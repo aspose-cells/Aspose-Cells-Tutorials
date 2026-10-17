@@ -125,6 +125,9 @@ Tanulja meg, hogyan rejtheti el vagy jelenítheti meg hatékonyan a tabulátorok
 ### [Hogyan valósítsuk meg a biztonságos lapnevezést .NET-ben az Aspose.Cells használatával](./implement-safe-sheet-naming-net-aspose-cells)
 Tanuld meg, hogyan használhatod az Aspose.Cells for .NET-et biztonságos, érvényes Excel-munkalapok elnevezéséhez. Sajátítsd el a csonkolás és karaktercsere technikáit gyakorlati kódpéldákkal, hogy elkerüld az elnevezési hibákat az alkalmazásaidban.
 
+### [Hogyan használjuk a SmartMarkerProcessor-t – Létező munkalap átnevezése Excelben](./how-to-use-smartmarkerprocessor-rename-existing-sheet-in-exc/)
+Ismerje meg, hogyan használhatja a SmartMarkerProcessor-t egy meglévő Excel-lap átnevezéséhez.
+
 ### [Oszlop beszúrása Excelben az Aspose.Cells .NET használatával: Átfogó útmutató](./insert-column-aspose-cells-net)
 Tanuld meg, hogyan szúrhatsz be hatékonyan oszlopokat Excel-fájlokba az Aspose.Cells for .NET segítségével ezzel a lépésről lépésre haladó útmutatóval. Fejleszd táblázatkezelési készségeidet még ma a programozott oszlopbeszúrás elsajátításával.
 

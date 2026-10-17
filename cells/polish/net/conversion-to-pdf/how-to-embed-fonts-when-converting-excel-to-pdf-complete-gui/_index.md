@@ -1,54 +1,26 @@
 ---
 category: general
-date: 2026-07-13
-description: Jak osadzić czcionki podczas konwertowania Excela na PDF. Dowiedz się,
-  jak wyeksportować XLSX do PDF, zapisać skoroszyt jako PDF i utworzyć PDF z Excela
-  z osadzonymi czcionkami.
+date: 2026-03-01
+description: Jak osadzić czcionki podczas konwertowania Excela do PDF. Dowiedz się,
+  jak zapisać skoroszyt jako PDF z osadzonymi czcionkami i łatwo wyeksportować arkusz
+  kalkulacyjny do PDF.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - how to embed fonts
 - convert excel to pdf
 - save workbook as pdf
-- export xlsx to pdf
+- export spreadsheet to pdf
 - create pdf from excel
 language: pl
-lastmod: 2026-07-13
-og_description: Jak osadzić czcionki podczas konwertowania Excela na PDF. Skorzystaj
-  z tego przewodnika, aby wyeksportować plik XLSX do PDF, zapisać skoroszyt jako PDF
-  oraz utworzyć PDF z Excela z doskonałą wiernością czcionek.
-og_image_alt: Screenshot showing an Excel file being saved as a PDF with embedded
-  fonts
-og_title: Jak osadzić czcionki przy konwertowaniu Excela do PDF – pełny przewodnik
-  krok po kroku
-schemas:
-- author: Aspose
-  dateModified: '2026-07-13'
-  description: How to embed fonts while you convert Excel to PDF. Learn to export
-    XLSX to PDF, save workbook as PDF, and create PDF from Excel with embedded fonts.
-  headline: How to embed fonts when converting Excel to PDF – Complete Guide
-  type: TechArticle
-- description: How to embed fonts while you convert Excel to PDF. Learn to export
-    XLSX to PDF, save workbook as PDF, and create PDF from Excel with embedded fonts.
-  name: How to embed fonts when converting Excel to PDF – Complete Guide
-  steps:
-  - name: Why each line matters
-    text: '1. **Loading the workbook** – `Workbook` is the entry point; it parses
-      the XLSX file and builds an in‑memory representation of all sheets, styles,
-      and formulas. 2. **`PdfSaveOptions`** – This object controls every nuance of
-      the PDF conversion. Setting `EmbedStandardFonts = true` guarantees that the '
-  - name: Export XLSX to PDF in a web API
-    text: 'If you’re building a REST endpoint that receives an uploaded Excel file
-      and returns a PDF, you can reuse the same logic:'
-  - name: Save workbook as PDF in a Windows Forms app
-    text: 'For desktop scenarios, you might want to let the user pick a location via
-      a `SaveFileDialog`:'
-  type: HowTo
+og_description: Jak osadzić czcionki przy konwersji z Excela do PDF. Postępuj zgodnie
+  z tym przewodnikiem, aby zapisać skoroszyt jako PDF z pełnym osadzeniem czcionek
+  dla niezawodnych dokumentów.
+og_title: Jak osadzić czcionki przy konwertowaniu Excela do PDF – krok po kroku
 tags:
-- Aspose.Cells
-- .NET
-- PDF generation
+- aspnet
+- csharp
+- pdf
+- excel
 title: Jak osadzić czcionki przy konwertowaniu Excela do PDF – Kompletny przewodnik
 url: /pl/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/
 ---
@@ -57,189 +29,200 @@ url: /pl/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-c
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak osadzić czcionki przy konwertowaniu Excela do PDF – Kompletny przewodnik
+# Jak osadzić czcionki przy konwersji Excel do PDF – Kompletny przewodnik
 
-Zastanawiałeś się kiedyś **jak osadzić czcionki** przy **konwertowaniu Excela do PDF**? Nie jesteś jedyny. Brakujące czcionki to częsty problem — Twój PDF wygląda dobrze na Twoim komputerze, ale zamienia się w nieczytelny bałagan na komputerze innej osoby.  
+Zastanawiałeś się kiedyś **jak osadzić czcionki**, aby konwersja z Excela do PDF wyglądała identycznie na każdym komputerze? Nie jesteś sam. Brakujące czcionki to ciche winowajcy, które zamieniają perfekcyjnie sformatowany arkusz w nieczytelny bałagan po otwarciu w przeglądarce PDF.  
 
-W tym samouczku przeprowadzimy Cię przez czyste, kompleksowe rozwiązanie, które **zapisuje skoroszyt jako PDF** z czcionkami wbudowanymi bezpośrednio w plik. Po zakończeniu będziesz w stanie **eksportować XLSX do PDF**, **tworzyć PDF z Excela** i nie martwić się już o brakujące glify.  
+W tym tutorialu przeprowadzimy Cię przez cały proces konwersji pliku Excel do PDF **z osadzonymi wszystkimi czcionkami**, tak aby wynik był przenośny, drukowalny i wyglądał dokładnie jak oryginał. Po drodze dotkniemy tematów *convert excel to pdf*, *save workbook as pdf*, *export spreadsheet to pdf* i *create pdf from excel* – wszystko bez opuszczania kodu C#.
 
-Użyjemy popularnej biblioteki **Aspose.Cells for .NET**, ponieważ zapewnia ona precyzyjną kontrolę nad wyjściem PDF, w tym kluczową flagę `EmbedStandardFonts`. Nie są potrzebne żadne inne triki zewnętrzne, a kod działa na .NET 6+ oraz .NET Framework 4.7+.  
+## Czego się nauczysz
 
----
+- Załadujesz skoroszyt `.xlsx` przy użyciu Aspose.Cells (lub dowolnej kompatybilnej biblioteki).  
+- Skonfigurujesz `PdfSaveOptions`, aby wymusić pełne osadzanie czcionek.  
+- Zapiszesz skoroszyt jako PDF, który można otworzyć na dowolnym urządzeniu bez ostrzeżeń o brakujących czcionkach.  
+- Porady dotyczące obsługi przypadków brzegowych, takich jak własne czcionki niezainstalowane na serwerze.  
 
-## Wymagania wstępne – co potrzebujesz przed rozpoczęciem
-
-- **Visual Studio 2022** (lub dowolne IDE, które potrafi kompilować projekty .NET)  
-- **.NET 6 SDK** (lub .NET Framework 4.7+, jeśli wolisz klasyczną wersję)  
-- **Aspose.Cells for .NET** pakiet NuGet (`Install-Package Aspose.Cells`)  
-- Przykładowy skoroszyt Excel (`varSelector.xlsx`) umieszczony w folderze, do którego możesz odwołać się  
-
-Jeśli masz te elementy, możesz zanurzyć się w temat.
+**Wymagania wstępne** – Potrzebujesz .NET 6+ (lub .NET Framework 4.7.2+), Visual Studio 2022 (lub dowolnego ulubionego IDE) oraz pakietu NuGet Aspose.Cells for .NET. Nie są potrzebne żadne inne zewnętrzne narzędzia.
 
 ---
 
-## Jak osadzić czcionki przy konwertowaniu Excela do PDF
+## ## Jak osadzić czcionki w eksporcie PDF
 
-Poniżej znajduje się pełny, gotowy do uruchomienia program. Demonstruje on dokładne kroki potrzebne do **tworzenia PDF z Excela**, zapewniając jednocześnie osadzenie czcionek.
+Osadzanie czcionek to kluczowy krok, który zapewnia, że Twój PDF wygląda identycznie jak źródłowy plik Excel. Poniżej znajduje się zwięzły, gotowy do uruchomienia przykład, który demonstruje cały przepływ pracy.
+
+![Zrzut ekranu podglądu PDF pokazujący prawidłowo osadzone czcionki – jak osadzić czcionki w konwersji Excel do PDF](https://example.com/images/pdf-preview.png "jak osadzić czcionki w konwersji Excel do PDF")
+
+### Krok 1 – Zainstaluj pakiet NuGet Aspose.Cells
+
+Otwórz plik **.csproj** swojego projektu lub użyj konsoli Package Manager:
+
+```powershell
+Install-Package Aspose.Cells
+```
+
+> **Pro tip:** Jeśli używasz .NET CLI, uruchom `dotnet add package Aspose.Cells`. Pobierze to najnowszą stabilną wersję (stan na marzec 2026, wersja 23.10).
+
+### Krok 2 – Załaduj skoroszyt, który chcesz przekonwertować
 
 ```csharp
-using System;
-using Aspose.Cells;               // Aspose.Cells namespace
-using Aspose.Cells.Drawing;       // for PDF options (if needed)
+using Aspose.Cells;
 
-class ExcelToPdfWithEmbeddedFonts
+// Path to your source Excel file
+string inputPath = Path.Combine(Environment.CurrentDirectory, "input.xlsx");
+
+// Load the workbook into memory
+Workbook workbook = new Workbook(inputPath);
+```
+
+**Dlaczego to ważne:** Załadowanie skoroszytu daje dostęp do wszystkich arkuszy, stylów i osadzonych obiektów. To podstawa każdej kolejnej operacji eksportu.
+
+### Krok 3 – Utwórz opcje zapisu PDF i włącz osadzanie czcionek
+
+```csharp
+// Initialise PDF save options
+PdfSaveOptions pdfOptions = new PdfSaveOptions
 {
-    static void Main()
+    // Embed every font used in the workbook
+    FontEmbeddingMode = FontEmbeddingMode.EmbedAll
+};
+```
+
+Właściwość `FontEmbeddingMode` kontroluje, czy czcionki są osadzane, osadzane częściowo (subset) czy pomijane. Ustawienie jej na `EmbedAll` zapewnia, że **jak osadzić czcionki** zostaje jednoznacznie rozwiązane — każdy glif użyty w arkuszu zostaje spakowany wewnątrz pliku PDF.
+
+### Krok 4 – Zapisz skoroszyt jako PDF
+
+```csharp
+// Destination path for the PDF
+string outputPath = Path.Combine(Environment.CurrentDirectory, "output.pdf");
+
+// Perform the conversion
+workbook.Save(outputPath, pdfOptions);
+```
+
+Po tym wywołaniu `output.pdf` zawiera wierną wizualną replikę `input.xlsx`, z wszystkimi czcionkami osadzonymi. Otwórz go w dowolnym czytniku PDF i nigdy nie zobaczysz ostrzeżeń o „zastąpieniu czcionki”.
+
+### Krok 5 – Zweryfikuj wynik (opcjonalnie, ale zalecane)
+
+```csharp
+// Quick verification using Aspose.Pdf (if you have it)
+// This snippet checks that all fonts are indeed embedded.
+using Aspose.Pdf;
+
+// Load the generated PDF
+Document pdfDoc = new Document(outputPath);
+bool allEmbedded = true;
+
+foreach (FontInfo fontInfo in pdfDoc.FontInfo)
+{
+    if (!fontInfo.IsEmbedded)
     {
-        // -------------------------------------------------
-        // Step 1: Load the Excel workbook (your source file)
-        // -------------------------------------------------
-        string inputPath = @"YOUR_DIRECTORY\varSelector.xlsx";
-        Workbook workbook = new Workbook(inputPath);
-
-        // -------------------------------------------------
-        // Step 2: Configure PDF save options to embed fonts
-        // -------------------------------------------------
-        PdfSaveOptions pdfOptions = new PdfSaveOptions
-        {
-            // This flag tells Aspose.Cells to embed all standard fonts
-            EmbedStandardFonts = true,
-
-            // Optional: force embedding of custom fonts as well
-            // EmbedAllFonts = true,   // uncomment if you have custom fonts
-        };
-
-        // -------------------------------------------------
-        // Step 3: Save the workbook as a PDF using the options
-        // -------------------------------------------------
-        string outputPath = @"YOUR_DIRECTORY\out.pdf";
-        workbook.Save(outputPath, pdfOptions);
-
-        Console.WriteLine("PDF generated with embedded fonts at:");
-        Console.WriteLine(outputPath);
+        allEmbedded = false;
+        Console.WriteLine($"Missing embedding for font: {fontInfo.FontName}");
     }
 }
+Console.WriteLine(allEmbedded ? "All fonts are embedded!" : "Some fonts are missing.");
 ```
 
-### Dlaczego każdy wiersz ma znaczenie
-
-1. **Ładowanie skoroszytu** – `Workbook` jest punktem wejścia; parsuje plik XLSX i tworzy w‑pamięciową reprezentację wszystkich arkuszy, stylów i formuł.  
-2. **`PdfSaveOptions`** – Ten obiekt kontroluje każdy szczegół konwersji PDF. Ustawienie `EmbedStandardFonts = true` gwarantuje, że PDF zawiera rodziny czcionek Helvetica, Times, Courier, Symbol i ZapfDingbats. Jeśli Twój arkusz używa niestandardowej czcionki (np. „Calibri”), możesz odkomentować `EmbedAllFonts`, aby wymusić jej dołączenie.  
-3. **Zapisywanie pliku** – `workbook.Save` zapisuje PDF na dysku, stosując zdefiniowane opcje. Wynikiem jest samodzielny PDF, który renderuje się identycznie w każdym przeglądarce.
+Jeśli nie masz Aspose.Pdf, ręczna kontrola w Adobe Acrobat (`File → Properties → Fonts`) działa równie dobrze.
 
 ---
 
-## Konwertuj Excel do PDF bez utraty integralności czcionek
+## ## Convert Excel to PDF – Typowe warianty
 
-Teraz, gdy wiesz **jak osadzić czcionki**, przyjrzyjmy się kilku wariantom, które mogą być potrzebne w rzeczywistych projektach.
+### Eksport tylko konkretnego arkusza
 
-### Eksport XLSX do PDF w API webowym
-
-Jeśli tworzysz punkt końcowy REST, który otrzymuje przesłany plik Excel i zwraca PDF, możesz ponownie użyć tej samej logiki:
+Czasami potrzebujesz jedynie jednego arkusza jako PDF:
 
 ```csharp
-[HttpPost("api/excel-to-pdf")]
-public IActionResult ConvertToPdf(IFormFile excelFile)
+PdfSaveOptions opts = new PdfSaveOptions
 {
-    using var stream = excelFile.OpenReadStream();
-    var workbook = new Workbook(stream);
-
-    var pdfOptions = new PdfSaveOptions { EmbedStandardFonts = true };
-    using var pdfStream = new MemoryStream();
-    workbook.Save(pdfStream, pdfOptions);
-    pdfStream.Position = 0;
-
-    return File(pdfStream, "application/pdf", "result.pdf");
-}
-```
-
-*Wskazówka*: Zawsze waliduj rozmiar i typ przychodzącego pliku przed przetwarzaniem, aby uniknąć ataków typu denial‑of‑service.
-
-### Zapisz skoroszyt jako PDF w aplikacji Windows Forms
-
-W scenariuszach desktopowych możesz chcieć pozwolić użytkownikowi wybrać lokalizację za pomocą `SaveFileDialog`:
-
-```csharp
-var dlg = new SaveFileDialog
-{
-    Filter = "PDF files (*.pdf)|*.pdf",
-    FileName = "ExportedWorkbook.pdf"
+    FontEmbeddingMode = FontEmbeddingMode.EmbedAll,
+    // Export only the first sheet (zero‑based index)
+    OnePagePerSheet = false,
+    SheetIndex = 0
 };
-
-if (dlg.ShowDialog() == DialogResult.OK)
-{
-    var pdfOpts = new PdfSaveOptions { EmbedStandardFonts = true };
-    workbook.Save(dlg.FileName, pdfOpts);
-    MessageBox.Show("PDF saved with embedded fonts!", "Success");
-}
+workbook.Save("single-sheet.pdf", opts);
 ```
 
-Oba fragmenty kodu ilustrują tę samą podstawową ideę: **osadź czcionki** przed **zapisaniem skoroszytu jako PDF**.
+### Osadzanie czcionek w trybie subset dla mniejszych plików
+
+Jeśli rozmiar pliku jest istotny, możesz osadzić **tylko faktycznie użyte znaki**:
+
+```csharp
+pdfOptions.FontEmbeddingMode = FontEmbeddingMode.Subset;
+```
+
+To nadal odpowiada na pytanie *jak osadzić czcionki*, ale tworzy lżejszy PDF — idealny do załączników e‑mail.
+
+### Obsługa własnych czcionek niezainstalowanych na serwerze
+
+Gdy skoroszyt odwołuje się do własnej czcionki, której brak na serwerze konwersji, Aspose.Cells przełączy się na czcionkę domyślną, chyba że dostarczysz plik czcionki:
+
+```csharp
+// Register a custom font folder
+FontConfigs fontConfigs = new FontConfigs();
+fontConfigs.SetFontFolder(@"C:\MyCustomFonts", true);
+pdfOptions.FontConfigs = fontConfigs;
+```
+
+Teraz konwersja może osadzić niestandardowy krój, zachowując pełną wierność wizualną.
 
 ---
 
-## Typowe pułapki i jak ich unikać
+## ## Save Workbook as PDF – Najlepsze praktyki
 
-| Problem | Dlaczego się dzieje | Rozwiązanie |
-|-------|----------------|-----|
-| PDF pokazuje **Arial** zamiast **Calibri** | `EmbedStandardFonts` obejmuje tylko pięć podstawowych czcionek. Niestandardowe czcionki wymagają `EmbedAllFonts = true` i muszą być zainstalowane na serwerze. | Dodaj `pdfOptions.EmbedAllFonts = true;` i upewnij się, że czcionka jest dostępna na maszynie wykonującej konwersję. |
-| Rozmiar PDF rośnie | Osadzanie każdego glifu dużej niestandardowej czcionki może zwiększyć rozmiar pliku. | Użyj `PdfSaveOptions.FontEmbeddingMode = FontEmbeddingMode.Subset;`, aby osadzić tylko użyte znaki. |
-| Brak znaków **Unicode** (np. emoji) | Domyślny zestaw czcionek nie zawiera tych glifów. | Przełącz na czcionkę obsługującą Unicode, np. „Segoe UI Emoji”, i włącz pełne osadzanie. |
-| Konwersja nie powodzi się na **macOS** | Aspose.Cells opiera się na Windows GDI+ w niektórych ścieżkach renderowania. | Użyj najnowszej wersji Aspose.Cells (obsługuje .NET Core na macOS) lub uruchom konwersję w kontenerze Windows. |
-
----
-
-## Weryfikacja, że czcionki są naprawdę osadzone
-
-Po uruchomieniu programu otwórz wygenerowany `out.pdf` w Adobe Acrobat Reader:
-
-1. Naciśnij **Ctrl + D** (lub **Plik → Właściwości** → zakładka **Czcionki**).  
-2. Powinieneś zobaczyć każdą wymienioną czcionkę z napisem **„Embedded”** obok.  
-
-Jeśli widzisz **„Not Embedded”**, sprawdź ponownie, czy `EmbedStandardFonts` (lub `EmbedAllFonts`) jest ustawione na `true` oraz czy pliki czcionek są dostępne.
+| Praktyka | Dlaczego to pomaga |
+|----------|--------------------|
+| **Zawsze ustaw `FontEmbeddingMode = EmbedAll`** | Gwarantuje, że PDF wygląda tak samo wszędzie. |
+| **Waliduj wynik** | Wykrywa brakujące czcionki wcześnie, zapobiegając późniejszym skargom. |
+| **Używaj `OnePagePerSheet = true` tylko w razie potrzeby** | Zapobiega niepotrzebnie wysokim PDF‑om, które trudno nawigować. |
+| **Utrzymuj Aspose.Cells w najnowszej wersji** | Nowe wersje wprowadzają lepszą obsługę czcionek i poprawki błędów. |
 
 ---
 
-## Oczekiwany wynik
+## ## Export Spreadsheet to PDF – Scenariusz z życia
 
-Uruchomienie aplikacji konsolowej z prostym skoroszytem, który zawiera tytuł sformatowany **Calibri Bold**, wygeneruje PDF, który:
+Wyobraź sobie, że budujesz usługę raportującą, która co tydzień wysyła dashboardy sprzedażowe do menedżerów. Dashboardy są tworzone w Excelu, ponieważ analitycy biznesowi kochają układ siatki. Twoje zaplecze musi każdej nocy generować PDF, osadzać wszystkie firmowe czcionki i wysyłać plik mailem.
 
-- Wyświetla tytuł dokładnie tak, jak pojawia się w Excelu.  
-- Pokazuje „Calibri Bold” na liście **Czcionki** ze statusem **Embedded**.  
-- Renderuje się poprawnie na każdej platformie, nawet jeśli przeglądarka nie ma zainstalowanej czcionki Calibri.  
+Stosując powyższe kroki, możesz zautomatyzować cały pipeline:
 
-Możesz przetestować wynik, otwierając PDF na innym komputerze lub w kontenerze Linux — nie powinny pojawić się brakujące znaki.
+1. Załaduj skoroszyt wygenerowany przez analityka z udostępnionego folderu.  
+2. Zastosuj `PdfSaveOptions` z `EmbedAll`.  
+3. Zapisz PDF w tymczasowej lokalizacji.  
+4. Dołącz PDF do wiadomości e‑mail i wyślij.
 
----
-
-## Podsumowanie – co omówiliśmy
-
-- **Jak osadzić czcionki** przy użyciu `PdfSaveOptions.EmbedStandardFonts`.  
-- Pełny przepływ **konwersji Excel do PDF** z użyciem Aspose.Cells.  
-- Warianty **zapisania skoroszytu jako PDF** w API webowych i aplikacjach desktopowych.  
-- Obsługa przypadków brzegowych oraz wskazówki, jak utrzymać rozmiar PDF w rozsądnych granicach.  
-
-To wszystko pozwala Ci **eksportować XLSX do PDF** i **tworzyć PDF z Excela** z pewnością, że czcionki podróżują razem z plikiem.
+Całość działa w usługzie Windows bez interfejsu graficznego — bez UI, bez ręcznej interwencji. Efekt? Menedżerowie otrzymują perfekcyjnie wyrenderowany PDF każdego ranka, niezależnie od zainstalowanych czcionek na ich laptopach.
 
 ---
 
-## Kolejne kroki i powiązane tematy
+## ## Create PDF from Excel – Najczęściej zadawane pytania
 
-- **Dostosowanie wyglądu PDF** – zapoznaj się z `PdfSaveOptions.PageLayout`, `PdfSaveOptions.ImageResolution` i `PdfSaveOptions.Compliance` dla PDF/A lub PDF/X.  
-- **Dodawanie znaków wodnych lub nagłówków/stopki** – użyj `PdfSaveOptions.AddWatermark` lub klas `HeaderFooter`.  
-- **Konwersja wielu arkuszy** – iteruj po `workbook.Worksheets` i scalaj PDFy przy użyciu `PdfFileEditor`.  
+**P: Czy osadzanie czcionek znacząco zwiększy rozmiar PDF?**  
+O: Może, zwłaszcza przy dużych rodzinach czcionek. Przejście na tryb `Subset` zmniejsza rozmiar, zachowując wygląd.
 
-Jeśli jesteś ciekawy **masowej konwersji** folderu plików Excel, zapoznaj się z naszym przewodnikiem „Masowa konwersja Excel do PDF z Aspose.Cells”.  
+**P: Czy potrzebuję licencji na Aspose.Cells?**  
+O: Biblioteka działa w trybie ewaluacyjnym, ale licencja komercyjna usuwa znak wodny ewaluacji i odblokowuje pełne funkcje.
 
-*Gotowy, aby osadzić te czcionki i dostarczyć doskonałe PDFy?* Pobierz kod, dostosuj opcje do swoich potrzeb i niech Twoje PDFy wyglądają dokładnie tak, jak zaprojektowałeś je w Excelu. Szczęśliwego kodowania!
+**P: Co zrobić, gdy źródłowy Excel używa czcionki, której nie można osadzić (np. niektóre czcionki systemowe)?**  
+O: Aspose.Cells osadzi to, co może, i przełączy się na podobny krój dla pozostałych. Możesz także zamienić czcionkę programowo przed eksportem.
 
-## Co powinieneś nauczyć się dalej?
+---
 
-Poniższe samouczki obejmują ściśle powiązane tematy, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne działające przykłady kodu z wyjaśnieniami krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
+## Podsumowanie
 
-- [Zapisz skoroszyt Excel jako PDF z niestandardowymi czcionkami przy użyciu Aspose.Cells for .NET](/cells/english/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
-- [Zapisz skoroszyt Excel PDF z niestandardowymi czcionkami Aspose Cells Net](/cells/german/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
-- [Zapisz skoroszyt Excel PDF z niestandardowymi czcionkami Aspose Cells Net](/cells/french/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
+Omówiliśmy **jak osadzić czcionki** przy *convert excel to pdf*, pokazując dokładny kod do **save workbook as pdf** z pełnym osadzaniem czcionek. Masz teraz solidny, gotowy do produkcji wzorzec dla zadań *export spreadsheet to pdf* i *create pdf from excel*.  
+
+Wypróbuj: spróbuj osadzić własną firmową czcionkę, eksperymentuj z osadzaniem subset, albo przetwarzaj wsadowo cały folder skoroszytów. Gdy opanujesz osadzanie czcionek, Twoje PDF‑y zawsze będą ostre, bez względu na to, gdzie zostaną otwarte.
+
+---
+
+### Kolejne kroki
+
+- Zbadaj **łączenie wielu arkuszy w jeden PDF** przy użyciu `PdfFileEditor`.  
+- Połącz to podejście z **Aspose.Slides**, aby osadzać wykresy jako obrazy.  
+- Zainteresuj się **zgodnością z PDF/A**, jeśli potrzebujesz archiwalnych PDF‑ów.  
+
+Masz więcej pytań lub trudny przypadek brzegowy? zostaw komentarz poniżej i powodzenia w kodowaniu!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

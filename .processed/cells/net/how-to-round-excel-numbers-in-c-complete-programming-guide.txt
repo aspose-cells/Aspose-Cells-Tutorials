@@ -1,0 +1,7 @@
+Title: How to round Excel numbers in C# – complete programming guide
+Slug: how-to-round-excel-numbers-in-c-complete-programming-guide
+Category: number-and-display-formats-in-excel
+ProcessedDate: 2026-08-11T11:13:08.516993
+SourceRepo: AI Search API
+Keywords: how to round excel numbers, load excel workbook c#, set significant digits excel, export excel with precision
+PRNumber: 140

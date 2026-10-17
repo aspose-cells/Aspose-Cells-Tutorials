@@ -1,53 +1,26 @@
 ---
 category: general
-date: 2026-07-13
-description: Cómo incrustar fuentes al convertir Excel a PDF. Aprende a exportar XLSX
-  a PDF, guardar el libro de trabajo como PDF y crear PDF desde Excel con fuentes
-  incrustadas.
+date: 2026-03-01
+description: Cómo incrustar fuentes al convertir Excel a PDF. Aprende a guardar el
+  libro de trabajo como PDF con fuentes incrustadas y exportar la hoja de cálculo
+  a PDF fácilmente.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - how to embed fonts
 - convert excel to pdf
 - save workbook as pdf
-- export xlsx to pdf
+- export spreadsheet to pdf
 - create pdf from excel
 language: es
-lastmod: 2026-07-13
-og_description: Cómo incrustar fuentes al convertir Excel a PDF. Sigue esta guía para
-  exportar XLSX a PDF, guardar el libro de trabajo como PDF y crear PDF desde Excel
-  con una fidelidad de fuentes perfecta.
-og_image_alt: Screenshot showing an Excel file being saved as a PDF with embedded
-  fonts
-og_title: Cómo incrustar fuentes al convertir Excel a PDF – Guía paso a paso completa
-schemas:
-- author: Aspose
-  dateModified: '2026-07-13'
-  description: How to embed fonts while you convert Excel to PDF. Learn to export
-    XLSX to PDF, save workbook as PDF, and create PDF from Excel with embedded fonts.
-  headline: How to embed fonts when converting Excel to PDF – Complete Guide
-  type: TechArticle
-- description: How to embed fonts while you convert Excel to PDF. Learn to export
-    XLSX to PDF, save workbook as PDF, and create PDF from Excel with embedded fonts.
-  name: How to embed fonts when converting Excel to PDF – Complete Guide
-  steps:
-  - name: Why each line matters
-    text: '1. **Loading the workbook** – `Workbook` is the entry point; it parses
-      the XLSX file and builds an in‑memory representation of all sheets, styles,
-      and formulas. 2. **`PdfSaveOptions`** – This object controls every nuance of
-      the PDF conversion. Setting `EmbedStandardFonts = true` guarantees that the '
-  - name: Export XLSX to PDF in a web API
-    text: 'If you’re building a REST endpoint that receives an uploaded Excel file
-      and returns a PDF, you can reuse the same logic:'
-  - name: Save workbook as PDF in a Windows Forms app
-    text: 'For desktop scenarios, you might want to let the user pick a location via
-      a `SaveFileDialog`:'
-  type: HowTo
+og_description: Cómo incrustar fuentes en la conversión de Excel a PDF. Sigue esta
+  guía para guardar el libro de trabajo como PDF con la incrustación completa de fuentes
+  para documentos fiables.
+og_title: Cómo incrustar fuentes al convertir Excel a PDF – Paso a paso
 tags:
-- Aspose.Cells
-- .NET
-- PDF generation
+- aspnet
+- csharp
+- pdf
+- excel
 title: Cómo incrustar fuentes al convertir Excel a PDF – Guía completa
 url: /es/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/
 ---
@@ -56,189 +29,200 @@ url: /es/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-c
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cómo incrustar fuentes al convertir Excel a PDF – Guía completa
+# How to Embed Fonts When Converting Excel to PDF – Complete Guide
 
-¿Alguna vez te has preguntado **cómo incrustar fuentes** cuando **conviertes Excel a PDF**? No eres el único. Las fuentes faltantes son un dolor de cabeza frecuente: tu PDF se ve bien en tu máquina, pero se vuelve un desastre ilegible en el equipo de otra persona.  
+¿Alguna vez te has preguntado **cómo incrustar fuentes** para que tu conversión de Excel a PDF se vea exactamente igual en cualquier máquina? No eres el único. Las fuentes faltantes son los culpables silenciosos que convierten una hoja de cálculo perfectamente diseñada en un desastre confuso una vez que se abre en un visor de PDF.  
 
-En este tutorial recorreremos una solución limpia, de extremo a extremo, que **guarda el libro de trabajo como PDF** con las fuentes incorporadas directamente en el archivo. Al final podrás **exportar XLSX a PDF**, **crear PDF desde Excel**, y nunca más preocuparte por glifos faltantes.
+En este tutorial recorreremos todo el proceso de convertir un archivo Excel a PDF **con todas las fuentes incrustadas**, de modo que el resultado sea portátil, imprimible y se vea como el original. En el camino también abordaremos *convert excel to pdf*, *save workbook as pdf*, *export spreadsheet to pdf* y *create pdf from excel* – todo sin salir de tu código C#.
 
-Usaremos la popular biblioteca **Aspose.Cells for .NET** porque te brinda un control granular sobre la salida PDF, incluido el crucial indicador `EmbedStandardFonts`. No se necesitan otros trucos de terceros, y el código funciona en .NET 6+ y .NET Framework 4.7+.  
+## What You’ll Learn
 
----
+- Cargar un libro `.xlsx` usando Aspose.Cells (o cualquier biblioteca compatible).  
+- Configurar `PdfSaveOptions` para forzar la incrustación completa de fuentes.  
+- Guardar el libro como PDF que pueda abrirse en cualquier dispositivo sin advertencias de fuentes faltantes.  
+- Consejos para manejar casos especiales como fuentes personalizadas que no están instaladas en el servidor.  
 
-## Requisitos previos – lo que necesitas antes de comenzar
-
-- **Visual Studio 2022** (o cualquier IDE que pueda compilar proyectos .NET)  
-- **.NET 6 SDK** (o .NET Framework 4.7+ si prefieres clásico)  
-- **Aspose.Cells for .NET** paquete NuGet (`Install-Package Aspose.Cells`)  
-- Un libro de Excel de ejemplo (`varSelector.xlsx`) colocado en una carpeta a la que puedas hacer referencia  
-
-Si tienes todo eso, estás listo para sumergirte.
+**Prerequisites** – Necesitas .NET 6+ (o .NET Framework 4.7.2+), Visual Studio 2022 (o cualquier IDE que prefieras), y el paquete NuGet Aspose.Cells for .NET. No se requieren otras herramientas externas.
 
 ---
 
-## Cómo incrustar fuentes al convertir Excel a PDF
+## ## How to Embed Fonts in the PDF Export
 
-A continuación se muestra el programa completo, listo para ejecutar. Demuestra los pasos exactos que necesitas para **crear PDF desde Excel** asegurando que las fuentes estén incrustadas.
+Incrustar fuentes es el paso clave que garantiza que tu PDF se vea idéntico al archivo Excel de origen. A continuación tienes un ejemplo conciso y ejecutable que muestra todo el flujo de trabajo.
+
+![Vista previa de PDF que muestra fuentes correctamente incrustadas – cómo incrustar fuentes en la conversión de Excel a PDF](https://example.com/images/pdf-preview.png "cómo incrustar fuentes en la conversión de Excel a PDF")
+
+### Step 1 – Install the Aspose.Cells NuGet Package
+
+Abre el archivo **.csproj** de tu proyecto o usa la Consola del Administrador de Paquetes:
+
+```powershell
+Install-Package Aspose.Cells
+```
+
+> **Pro tip:** Si utilizas .NET CLI, ejecuta `dotnet add package Aspose.Cells`. Esto descarga la última versión estable (a partir de marzo 2026, versión 23.10).
+
+### Step 2 – Load the Workbook You Want to Convert
 
 ```csharp
-using System;
-using Aspose.Cells;               // Aspose.Cells namespace
-using Aspose.Cells.Drawing;       // for PDF options (if needed)
+using Aspose.Cells;
 
-class ExcelToPdfWithEmbeddedFonts
+// Path to your source Excel file
+string inputPath = Path.Combine(Environment.CurrentDirectory, "input.xlsx");
+
+// Load the workbook into memory
+Workbook workbook = new Workbook(inputPath);
+```
+
+**Why this matters:** Cargar el libro te da acceso a todas las hojas, estilos y objetos incrustados. Es la base para cualquier operación de exportación posterior.
+
+### Step 3 – Create PDF Save Options and Turn On Font Embedding
+
+```csharp
+// Initialise PDF save options
+PdfSaveOptions pdfOptions = new PdfSaveOptions
 {
-    static void Main()
+    // Embed every font used in the workbook
+    FontEmbeddingMode = FontEmbeddingMode.EmbedAll
+};
+```
+
+La propiedad `FontEmbeddingMode` controla si las fuentes se incrustan, se incrustan parcialmente o se omiten. Establecerla en `EmbedAll` asegura que **how to embed fonts** se responde de forma definitiva: cada glifo usado en la hoja de cálculo se empaqueta dentro del archivo PDF.
+
+### Step 4 – Save the Workbook as a PDF
+
+```csharp
+// Destination path for the PDF
+string outputPath = Path.Combine(Environment.CurrentDirectory, "output.pdf");
+
+// Perform the conversion
+workbook.Save(outputPath, pdfOptions);
+```
+
+Después de esta llamada, `output.pdf` contiene una réplica visual fiel de `input.xlsx`, con todas las fuentes incrustadas. Ábrelo en cualquier lector de PDF y nunca volverás a ver advertencias de “sustitución de fuentes”.
+
+### Step 5 – Verify the Result (Optional but Recommended)
+
+```csharp
+// Quick verification using Aspose.Pdf (if you have it)
+// This snippet checks that all fonts are indeed embedded.
+using Aspose.Pdf;
+
+// Load the generated PDF
+Document pdfDoc = new Document(outputPath);
+bool allEmbedded = true;
+
+foreach (FontInfo fontInfo in pdfDoc.FontInfo)
+{
+    if (!fontInfo.IsEmbedded)
     {
-        // -------------------------------------------------
-        // Step 1: Load the Excel workbook (your source file)
-        // -------------------------------------------------
-        string inputPath = @"YOUR_DIRECTORY\varSelector.xlsx";
-        Workbook workbook = new Workbook(inputPath);
-
-        // -------------------------------------------------
-        // Step 2: Configure PDF save options to embed fonts
-        // -------------------------------------------------
-        PdfSaveOptions pdfOptions = new PdfSaveOptions
-        {
-            // This flag tells Aspose.Cells to embed all standard fonts
-            EmbedStandardFonts = true,
-
-            // Optional: force embedding of custom fonts as well
-            // EmbedAllFonts = true,   // uncomment if you have custom fonts
-        };
-
-        // -------------------------------------------------
-        // Step 3: Save the workbook as a PDF using the options
-        // -------------------------------------------------
-        string outputPath = @"YOUR_DIRECTORY\out.pdf";
-        workbook.Save(outputPath, pdfOptions);
-
-        Console.WriteLine("PDF generated with embedded fonts at:");
-        Console.WriteLine(outputPath);
+        allEmbedded = false;
+        Console.WriteLine($"Missing embedding for font: {fontInfo.FontName}");
     }
 }
+Console.WriteLine(allEmbedded ? "All fonts are embedded!" : "Some fonts are missing.");
 ```
 
-### Por qué cada línea es importante
-
-1. **Cargando el libro de trabajo** – `Workbook` es el punto de entrada; analiza el archivo XLSX y construye una representación en memoria de todas las hojas, estilos y fórmulas.  
-2. **`PdfSaveOptions`** – Este objeto controla cada detalle de la conversión a PDF. Configurar `EmbedStandardFonts = true` garantiza que el PDF contenga las familias Helvetica, Times, Courier, Symbol y ZapfDingbats. Si tu hoja de cálculo usa una fuente personalizada (p. ej., “Calibri”), puedes descomentar `EmbedAllFonts` para forzar su inclusión.  
-3. **Guardando el archivo** – `workbook.Save` escribe el PDF en disco, aplicando las opciones que acabamos de definir. El resultado es un PDF autónomo que se muestra idénticamente en cualquier visor.
+Si no dispones de Aspose.Pdf, una comprobación manual en Adobe Acrobat (`Archivo → Propiedades → Fuentes`) funciona igual de bien.
 
 ---
 
-## Convertir Excel a PDF sin perder la fidelidad de las fuentes
+## ## Convert Excel to PDF – Common Variations
 
-Ahora que sabes **cómo incrustar fuentes**, exploremos un par de variaciones que podrías necesitar en proyectos reales.
+### Export a Specific Worksheet Only
 
-### Exportar XLSX a PDF en una API web
-
-Si estás construyendo un endpoint REST que recibe un archivo Excel subido y devuelve un PDF, puedes reutilizar la misma lógica:
+A veces solo necesitas una hoja como PDF:
 
 ```csharp
-[HttpPost("api/excel-to-pdf")]
-public IActionResult ConvertToPdf(IFormFile excelFile)
+PdfSaveOptions opts = new PdfSaveOptions
 {
-    using var stream = excelFile.OpenReadStream();
-    var workbook = new Workbook(stream);
-
-    var pdfOptions = new PdfSaveOptions { EmbedStandardFonts = true };
-    using var pdfStream = new MemoryStream();
-    workbook.Save(pdfStream, pdfOptions);
-    pdfStream.Position = 0;
-
-    return File(pdfStream, "application/pdf", "result.pdf");
-}
-```
-
-*Consejo profesional*: Siempre valida el tamaño y tipo del archivo entrante antes de procesarlo para evitar ataques de denegación de servicio.
-
-### Guardar el libro de trabajo como PDF en una aplicación Windows Forms
-
-Para escenarios de escritorio, podrías querer permitir que el usuario elija una ubicación mediante un `SaveFileDialog`:
-
-```csharp
-var dlg = new SaveFileDialog
-{
-    Filter = "PDF files (*.pdf)|*.pdf",
-    FileName = "ExportedWorkbook.pdf"
+    FontEmbeddingMode = FontEmbeddingMode.EmbedAll,
+    // Export only the first sheet (zero‑based index)
+    OnePagePerSheet = false,
+    SheetIndex = 0
 };
-
-if (dlg.ShowDialog() == DialogResult.OK)
-{
-    var pdfOpts = new PdfSaveOptions { EmbedStandardFonts = true };
-    workbook.Save(dlg.FileName, pdfOpts);
-    MessageBox.Show("PDF saved with embedded fonts!", "Success");
-}
+workbook.Save("single-sheet.pdf", opts);
 ```
 
-Ambos fragmentos ilustran la misma idea central: **incrustar fuentes** antes de **guardar el libro de trabajo como PDF**.
+### Subset Font Embedding for Smaller Files
+
+Si el tamaño del archivo es una preocupación, puedes incrustar **solo los caracteres realmente usados**:
+
+```csharp
+pdfOptions.FontEmbeddingMode = FontEmbeddingMode.Subset;
+```
+
+Esto sigue respondiendo a *how to embed fonts* pero produce un PDF más ligero, ideal para adjuntos de correo electrónico.
+
+### Handling Custom Fonts Not Installed on the Server
+
+Cuando un libro hace referencia a una fuente personalizada que no está presente en el servidor de conversión, Aspose.Cells recurrirá a una fuente predeterminada a menos que proporciones el archivo de fuente:
+
+```csharp
+// Register a custom font folder
+FontConfigs fontConfigs = new FontConfigs();
+fontConfigs.SetFontFolder(@"C:\MyCustomFonts", true);
+pdfOptions.FontConfigs = fontConfigs;
+```
+
+Ahora la conversión puede incrustar la tipografía personalizada, manteniendo la fidelidad visual intacta.
 
 ---
 
-## Problemas comunes y cómo evitarlos
+## ## Save Workbook as PDF – Best Practices
 
-| Problema | Por qué ocurre | Solución |
-|----------|----------------|----------|
-| El PDF muestra **Arial** en lugar de **Calibri** | `EmbedStandardFonts` solo cubre las cinco fuentes base. Las fuentes personalizadas necesitan `EmbedAllFonts = true` y la fuente debe estar instalada en el servidor. | Agrega `pdfOptions.EmbedAllFonts = true;` y asegura que la fuente esté presente en la máquina que ejecuta la conversión. |
-| El tamaño del PDF se dispara | Incrustar cada glifo de una fuente personalizada grande puede inflar el archivo. | Usa `PdfSaveOptions.FontEmbeddingMode = FontEmbeddingMode.Subset;` para incrustar solo los caracteres utilizados. |
-| Faltan caracteres **Unicode** (p. ej., emojis) | El conjunto de fuentes predeterminado no contiene esos glifos. | Cambia a una fuente compatible con Unicode como “Segoe UI Emoji” y habilita la incrustación completa. |
-| La conversión falla en **macOS** | Aspose.Cells depende de Windows GDI+ para algunas rutas de renderizado. | Usa la última versión de Aspose.Cells (compatible con .NET Core en macOS) o ejecuta la conversión en un contenedor Windows. |
-
----
-
-## Verificando que las fuentes estén realmente incrustadas
-
-Después de ejecutar el programa, abre el `out.pdf` generado en Adobe Acrobat Reader:
-
-1. Presiona **Ctrl + D** (o **Archivo → Propiedades** → pestaña **Fuentes**).  
-2. Deberías ver cada fuente listada con la palabra **“Embedded”** al lado.  
-
-Si ves **“Not Embedded”**, verifica que `EmbedStandardFonts` (o `EmbedAllFonts`) esté configurado en `true` y que los archivos de fuentes sean accesibles.
+| Practice | Why It Helps |
+|----------|--------------|
+| **Always set `FontEmbeddingMode = EmbedAll`** | Guarantees the PDF looks the same everywhere. |
+| **Validate the output** | Catches missing fonts early, preventing downstream complaints. |
+| **Use `OnePagePerSheet = true` only when needed** | Prevents unnecessarily tall PDFs that are hard to navigate. |
+| **Keep Aspose.Cells updated** | New versions add better font handling and bug fixes. |
 
 ---
 
-## Resultado esperado
+## ## Export Spreadsheet to PDF – Real‑World Scenario
 
-Ejecutar la aplicación de consola con un libro de trabajo sencillo que contiene un título con estilo **Calibri Bold** producirá un PDF que:
+Imagina que estás construyendo un servicio de informes que envía tableros de ventas semanales a los ejecutivos. Los tableros se crean en Excel porque los analistas de negocio aman el diseño en cuadrícula. Tu backend debe generar un PDF cada noche, incrustar todas las fuentes corporativas y enviar el archivo por correo electrónico.
 
-- Muestra el título exactamente como aparece en Excel.  
-- Muestra “Calibri Bold” en la lista de **Fuentes** con estado **Embedded**.  
-- Se renderiza correctamente en cualquier plataforma, incluso si el visor no tiene Calibri instalado.
+Aplicando los pasos anteriores, puedes automatizar todo el pipeline:
 
-Puedes probar el resultado abriendo el PDF en una máquina diferente o en un contenedor Linux—no deberían aparecer caracteres faltantes.
+1. Cargar el libro generado por el analista desde una carpeta compartida.  
+2. Aplicar `PdfSaveOptions` con `EmbedAll`.  
+3. Guardar el PDF en una ubicación temporal.  
+4. Adjuntar el PDF a un correo electrónico y enviarlo.
 
----
-
-## Recapitulación – lo que cubrimos
-
-- **Cómo incrustar fuentes** usando `PdfSaveOptions.EmbedStandardFonts`.  
-- El flujo completo de **convertir Excel a PDF** con Aspose.Cells.  
-- Variaciones para **guardar el libro de trabajo como PDF** en APIs web y aplicaciones de escritorio.  
-- Manejo de casos límite y consejos para mantener el tamaño del PDF razonable.  
-
-Todo esto te permite **exportar XLSX a PDF** y **crear PDF desde Excel** con la confianza de que las fuentes viajan con el archivo.
+Todo esto se ejecuta en un servicio de Windows sin cabeza—sin UI, sin intervención manual. ¿El resultado? Los ejecutivos reciben un PDF perfectamente renderizado cada mañana, sin importar las fuentes instaladas en sus portátiles.
 
 ---
 
-## Próximos pasos y temas relacionados
+## ## Create PDF from Excel – Frequently Asked Questions
 
-- **Personalizar la apariencia del PDF** – explora `PdfSaveOptions.PageLayout`, `PdfSaveOptions.ImageResolution` y `PdfSaveOptions.Compliance` para PDF/A o PDF/X.  
-- **Agregar marcas de agua o encabezados/pies de página** – usa `PdfSaveOptions.AddWatermark` o las clases `HeaderFooter`.  
-- **Convertir múltiples hojas de cálculo** – itera sobre `workbook.Worksheets` y combina PDFs con `PdfFileEditor`.  
+**Q: Will embedding fonts increase the PDF size dramatically?**  
+A: It can, especially with large font families. Switching to `Subset` reduces size while still preserving appearance.
 
-Si tienes curiosidad sobre **convertir en lote** una carpeta de archivos Excel, consulta nuestra guía sobre “Conversión masiva de Excel a PDF con Aspose.Cells”.  
+**Q: Do I need a license for Aspose.Cells?**  
+A: The library works in evaluation mode, but a commercial license removes the evaluation watermark and unlocks full features.
 
-*¿Listo para incrustar esas fuentes y entregar PDFs impecables?* Obtén el código, ajusta las opciones a tus necesidades y permite que tus PDFs se vean exactamente como los diseñaste en Excel. ¡Feliz codificación!
+**Q: What if the source Excel uses a font that’s not embeddable (e.g., some system fonts)?**  
+A: Aspose.Cells will embed what it can and fall back to a similar font for the rest. You can also replace the font programmatically before export.
 
-## ¿Qué deberías aprender a continuación?
+---
 
-Los siguientes tutoriales cubren temas estrechamente relacionados que amplían las técnicas demostradas en esta guía. Cada recurso incluye ejemplos de código completos y funcionales con explicaciones paso a paso para ayudarte a dominar funciones adicionales de la API y explorar enfoques de implementación alternativos en tus propios proyectos.
+## Conclusion
 
-- [Guardar libro de Excel como PDF con fuentes personalizadas usando Aspose.Cells for .NET](/cells/english/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
-- [Guardar libro de Excel PDF fuentes personalizadas Aspose Cells Net](/cells/german/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
-- [Guardar libro de Excel PDF fuentes personalizadas Aspose Cells Net](/cells/french/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
+We’ve covered **how to embed fonts** when you *convert excel to pdf*, showing you the exact code to **save workbook as pdf** with complete font embedding. You now have a solid, production‑ready pattern for *export spreadsheet to pdf* and *create pdf from excel* tasks.  
+
+Give it a spin: try embedding a custom corporate font, experiment with subset embedding, or batch‑process an entire folder of workbooks. When you master font embedding, your PDFs will always look sharp, no matter where they’re opened.
+
+---
+
+### Next Steps
+
+- Explore **multiple‑sheet PDF merging** using `PdfFileEditor`.  
+- Combine this approach with **Aspose.Slides** to embed charts as images.  
+- Look into **PDF/A compliance** if you need archival‑grade PDFs.  
+
+Got more questions or a tricky edge case? Drop a comment below, and happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

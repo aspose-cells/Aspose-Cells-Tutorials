@@ -1,57 +1,29 @@
 ---
 category: general
-date: 2026-07-13
+date: 2026-03-01
 description: Πώς να ενσωματώσετε γραμματοσειρές κατά τη μετατροπή του Excel σε PDF.
-  Μάθετε πώς να εξάγετε XLSX σε PDF, να αποθηκεύσετε το βιβλίο εργασίας ως PDF και
-  να δημιουργήσετε PDF από το Excel με ενσωματωμένες γραμματοσειρές.
+  Μάθετε πώς να αποθηκεύετε το βιβλίο εργασίας ως PDF με ενσωματωμένες γραμματοσειρές
+  και να εξάγετε το φύλλο εργασίας σε PDF εύκολα.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - how to embed fonts
 - convert excel to pdf
 - save workbook as pdf
-- export xlsx to pdf
+- export spreadsheet to pdf
 - create pdf from excel
 language: el
-lastmod: 2026-07-13
-og_description: Πώς να ενσωματώσετε γραμματοσειρές κατά τη μετατροπή του Excel σε
-  PDF. Ακολουθήστε αυτόν τον οδηγό για να εξάγετε XLSX σε PDF, να αποθηκεύσετε το
-  βιβλίο εργασίας ως PDF και να δημιουργήσετε PDF από το Excel με τέλεια πιστότητα
-  γραμματοσειρών.
-og_image_alt: Screenshot showing an Excel file being saved as a PDF with embedded
-  fonts
+og_description: Πώς να ενσωματώσετε γραμματοσειρές στη μετατροπή Excel σε PDF. Ακολουθήστε
+  αυτόν τον οδηγό για να αποθηκεύσετε το βιβλίο εργασίας ως PDF με πλήρη ενσωμάτωση
+  γραμματοσειρών για αξιόπιστα έγγραφα.
 og_title: Πώς να ενσωματώσετε γραμματοσειρές κατά τη μετατροπή του Excel σε PDF –
-  Πλήρης οδηγός βήμα‑βήμα
-schemas:
-- author: Aspose
-  dateModified: '2026-07-13'
-  description: How to embed fonts while you convert Excel to PDF. Learn to export
-    XLSX to PDF, save workbook as PDF, and create PDF from Excel with embedded fonts.
-  headline: How to embed fonts when converting Excel to PDF – Complete Guide
-  type: TechArticle
-- description: How to embed fonts while you convert Excel to PDF. Learn to export
-    XLSX to PDF, save workbook as PDF, and create PDF from Excel with embedded fonts.
-  name: How to embed fonts when converting Excel to PDF – Complete Guide
-  steps:
-  - name: Why each line matters
-    text: '1. **Loading the workbook** – `Workbook` is the entry point; it parses
-      the XLSX file and builds an in‑memory representation of all sheets, styles,
-      and formulas. 2. **`PdfSaveOptions`** – This object controls every nuance of
-      the PDF conversion. Setting `EmbedStandardFonts = true` guarantees that the '
-  - name: Export XLSX to PDF in a web API
-    text: 'If you’re building a REST endpoint that receives an uploaded Excel file
-      and returns a PDF, you can reuse the same logic:'
-  - name: Save workbook as PDF in a Windows Forms app
-    text: 'For desktop scenarios, you might want to let the user pick a location via
-      a `SaveFileDialog`:'
-  type: HowTo
+  Βήμα προς βήμα
 tags:
-- Aspose.Cells
-- .NET
-- PDF generation
+- aspnet
+- csharp
+- pdf
+- excel
 title: Πώς να ενσωματώσετε γραμματοσειρές κατά τη μετατροπή του Excel σε PDF – Πλήρης
-  Οδηγός
+  οδηγός
 url: /el/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/
 ---
 
@@ -59,191 +31,198 @@ url: /el/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-c
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Πώς να ενσωματώσετε γραμματοσειρές κατά τη μετατροπή Excel σε PDF – Πλήρης Οδηγός
+# Πώς να Ενσωματώσετε Γραμματοσειρές Κατά τη Μετατροπή Excel σε PDF – Πλήρης Οδηγός
 
-Έχετε αναρωτηθεί ποτέ **πώς να ενσωματώσετε γραμματοσειρές** όταν **μετατρέπετε Excel σε PDF**; Δεν είστε οι μόνοι. Η έλλειψη γραμματοσειρών είναι ένα συχνό πρόβλημα—το PDF φαίνεται σωστό στον υπολογιστή σας, αλλά γίνεται ακατάληπτο σε άλλον υπολογιστή.  
+Έχετε αναρωτηθεί ποτέ **πώς να ενσωματώσετε γραμματοσειρές** ώστε η μετατροπή σας από Excel σε PDF να φαίνεται ακριβώς το ίδιο σε κάθε μηχάνημα; Δεν είστε ο μόνος. Οι ελλιπείς γραμματοσειρές είναι οι σιωπηλοί δράστες που μετατρέπουν ένα τέλεια μορφοποιημένο φύλλο εργασίας σε ακατάστατο χάος μόλις εμφανιστεί σε έναν προβολέα PDF.  
 
-Σε αυτό το tutorial θα περάσουμε βήμα‑βήμα από μια καθαρή, ολοκληρωμένη λύση που **αποθηκεύει το βιβλίο εργασίας ως PDF** με τις γραμματοσειρές ενσωματωμένες στο αρχείο. Στο τέλος θα μπορείτε να **εξάγετε XLSX σε PDF**, **δημιουργήσετε PDF από Excel**, και να μην ανησυχείτε πια για ελλιπείς χαρακτήρες.
+Σε αυτό το tutorial θα περάσουμε από όλη τη διαδικασία μετατροπής ενός αρχείου Excel σε PDF **με όλες τις γραμματοσειρές ενσωματωμένες**, ώστε το αποτέλεσμα να είναι φορητό, εκτυπώσιμο και να μοιάζει ακριβώς με το αρχικό. Καθ' όλη τη διάρκεια θα αναφερθούμε επίσης σε *convert excel to pdf*, *save workbook as pdf*, *export spreadsheet to pdf* και *create pdf from excel* – όλα χωρίς να βγείτε από τον κώδικα C#.
 
-Θα χρησιμοποιήσουμε τη δημοφιλή βιβλιοθήκη **Aspose.Cells for .NET** επειδή παρέχει λεπτομερή έλεγχο της εξόδου PDF, συμπεριλαμβανομένης της κρίσιμης σημαίας `EmbedStandardFonts`. Δεν απαιτούνται άλλα τρίτα εργαλεία, και ο κώδικας λειτουργεί σε .NET 6+ και .NET Framework 4.7+.  
+## Τι Θα Μάθετε
 
----
+- Φορτώστε ένα βιβλίο εργασίας `.xlsx` χρησιμοποιώντας το Aspose.Cells (ή οποιαδήποτε συμβατή βιβλιοθήκη).  
+- Διαμορφώστε το `PdfSaveOptions` για να εξαναγκάσετε την πλήρη ενσωμάτωση γραμματοσειρών.  
+- Αποθηκεύστε το βιβλίο εργασίας ως PDF που μπορεί να ανοιχθεί σε οποιαδήποτε συσκευή χωρίς προειδοποιήσεις για ελλιπείς γραμματοσειρές.  
+- Συμβουλές για τη διαχείριση ειδικών περιπτώσεων όπως προσαρμοσμένες γραμματοσειρές που δεν είναι εγκατεστημένες στον διακομιστή.  
 
-## Προαπαιτούμενα – τι χρειάζεστε πριν ξεκινήσετε
-
-- **Visual Studio 2022** (ή οποιοδήποτε IDE που μπορεί να μεταγλωττίσει έργα .NET)  
-- **.NET 6 SDK** (ή .NET Framework 4.7+ αν προτιμάτε την κλασική έκδοση)  
-- **Aspose.Cells for .NET** πακέτο NuGet (`Install-Package Aspose.Cells`)  
-- Ένα δείγμα βιβλίου εργασίας Excel (`varSelector.xlsx`) τοποθετημένο σε φάκελο που μπορείτε να αναφέρετε  
-
-Αν έχετε όλα αυτά, είστε έτοιμοι να προχωρήσετε.
+**Προαπαιτούμενα** – Χρειάζεστε .NET 6+ (ή .NET Framework 4.7.2+), Visual Studio 2022 (ή οποιοδήποτε IDE προτιμάτε) και το πακέτο NuGet Aspose.Cells για .NET. Δεν απαιτούνται άλλα εξωτερικά εργαλεία.
 
 ---
 
-## Πώς να ενσωματώσετε γραμματοσειρές κατά τη μετατροπή Excel σε PDF
+## ## Πώς να Ενσωματώσετε Γραμματοσειρές στην Εξαγωγή PDF
 
-Παρακάτω είναι το πλήρες, έτοιμο‑για‑εκτέλεση πρόγραμμα. Δείχνει τα ακριβή βήματα που χρειάζεστε για **δημιουργία PDF από Excel** διασφαλίζοντας ότι οι γραμματοσειρές είναι ενσωματωμένες.
+Η ενσωμάτωση γραμματοσειρών είναι το βασικό βήμα που εγγυάται ότι το PDF σας φαίνεται ταυτόσημο με το αρχικό αρχείο Excel. Παρακάτω υπάρχει ένα σύντομο, εκτελέσιμο παράδειγμα που δείχνει ολόκληρη τη ροή εργασίας.
+
+![Στιγμιότυπο οθόνης προεπισκόπησης PDF που δείχνει σωστά ενσωματωμένες γραμματοσειρές – πώς να ενσωματώσετε γραμματοσειρές στη μετατροπή Excel σε PDF](https://example.com/images/pdf-preview.png "πώς να ενσωματώσετε γραμματοσειρές στη μετατροπή Excel σε PDF")
+
+### Βήμα 1 – Εγκατάσταση του Πακέτου NuGet Aspose.Cells
+
+Ανοίξτε το αρχείο **.csproj** του έργου σας ή χρησιμοποιήστε το Package Manager Console:
+
+```powershell
+Install-Package Aspose.Cells
+```
+
+**Pro tip:** Αν χρησιμοποιείτε .NET CLI, τρέξτε `dotnet add package Aspose.Cells`. Αυτό θα κατεβάσει την πιο πρόσφατη σταθερή έκδοση (ως Μάρτιο 2026, έκδοση 23.10).
+
+### Βήμα 2 – Φορτώστε το Βιβλίο Εργασίας που Θέλετε να Μετατρέψετε
 
 ```csharp
-using System;
-using Aspose.Cells;               // Aspose.Cells namespace
-using Aspose.Cells.Drawing;       // for PDF options (if needed)
+using Aspose.Cells;
 
-class ExcelToPdfWithEmbeddedFonts
+// Path to your source Excel file
+string inputPath = Path.Combine(Environment.CurrentDirectory, "input.xlsx");
+
+// Load the workbook into memory
+Workbook workbook = new Workbook(inputPath);
+```
+
+**Γιατί είναι σημαντικό:** Η φόρτωση του βιβλίου εργασίας σας δίνει πρόσβαση σε όλα τα φύλλα εργασίας, τα στυλ και τα ενσωματωμένα αντικείμενα. Είναι η βάση για οποιαδήποτε επόμενη λειτουργία εξαγωγής.
+
+### Βήμα 3 – Δημιουργία PDF Save Options και Ενεργοποίηση Ενσωμάτωσης Γραμματοσειρών
+
+```csharp
+// Initialise PDF save options
+PdfSaveOptions pdfOptions = new PdfSaveOptions
 {
-    static void Main()
+    // Embed every font used in the workbook
+    FontEmbeddingMode = FontEmbeddingMode.EmbedAll
+};
+```
+
+Η ιδιότητα `FontEmbeddingMode` ελέγχει αν οι γραμματοσειρές θα ενσωματωθούν, θα ενσωματωθούν με υποσύνολο ή θα παραλειφθούν. Ορίζοντάς την σε `EmbedAll` εξασφαλίζει ότι η ερώτηση **πώς να ενσωματώσετε γραμματοσειρές** απαντάται οριστικά—κάθε γλύφη που χρησιμοποιείται στο φύλλο εργασίας πακετάρεται μέσα στο αρχείο PDF.
+
+### Βήμα 4 – Αποθήκευση του Βιβλίου Εργασίας ως PDF
+
+```csharp
+// Destination path for the PDF
+string outputPath = Path.Combine(Environment.CurrentDirectory, "output.pdf");
+
+// Perform the conversion
+workbook.Save(outputPath, pdfOptions);
+```
+
+Μετά από αυτήν την κλήση, το `output.pdf` περιέχει μια πιστή οπτική αναπαράσταση του `input.xlsx`, με όλες τις γραμματοσειρές ενσωματωμένες. Ανοίξτε το σε οποιονδήποτε αναγνώστη PDF και δεν θα δείτε ξανά προειδοποιήσεις «αντικατάστασης γραμματοσειράς».
+
+### Βήμα 5 – Επαλήθευση του Αποτελέσματος (Προαιρετικό αλλά Συνιστάται)
+
+```csharp
+// Quick verification using Aspose.Pdf (if you have it)
+// This snippet checks that all fonts are indeed embedded.
+using Aspose.Pdf;
+
+// Load the generated PDF
+Document pdfDoc = new Document(outputPath);
+bool allEmbedded = true;
+
+foreach (FontInfo fontInfo in pdfDoc.FontInfo)
+{
+    if (!fontInfo.IsEmbedded)
     {
-        // -------------------------------------------------
-        // Step 1: Load the Excel workbook (your source file)
-        // -------------------------------------------------
-        string inputPath = @"YOUR_DIRECTORY\varSelector.xlsx";
-        Workbook workbook = new Workbook(inputPath);
-
-        // -------------------------------------------------
-        // Step 2: Configure PDF save options to embed fonts
-        // -------------------------------------------------
-        PdfSaveOptions pdfOptions = new PdfSaveOptions
-        {
-            // This flag tells Aspose.Cells to embed all standard fonts
-            EmbedStandardFonts = true,
-
-            // Optional: force embedding of custom fonts as well
-            // EmbedAllFonts = true,   // uncomment if you have custom fonts
-        };
-
-        // -------------------------------------------------
-        // Step 3: Save the workbook as a PDF using the options
-        // -------------------------------------------------
-        string outputPath = @"YOUR_DIRECTORY\out.pdf";
-        workbook.Save(outputPath, pdfOptions);
-
-        Console.WriteLine("PDF generated with embedded fonts at:");
-        Console.WriteLine(outputPath);
+        allEmbedded = false;
+        Console.WriteLine($"Missing embedding for font: {fontInfo.FontName}");
     }
 }
+Console.WriteLine(allEmbedded ? "All fonts are embedded!" : "Some fonts are missing.");
 ```
 
-### Γιατί κάθε γραμμή είναι σημαντική
-
-1. **Φόρτωση του βιβλίου εργασίας** – Η κλάση `Workbook` είναι το σημείο εισόδου· διαβάζει το αρχείο XLSX και δημιουργεί μια αναπαράσταση στη μνήμη όλων των φύλλων, στυλ και τύπων.  
-2. **`PdfSaveOptions`** – Αυτό το αντικείμενο ελέγχει κάθε λεπτομέρεια της μετατροπής PDF. Ορίζοντας `EmbedStandardFonts = true` εξασφαλίζει ότι το PDF περιέχει τις οικογένειες Helvetica, Times, Courier, Symbol και ZapfDingbats. Αν το φύλλο σας χρησιμοποιεί προσαρμοσμένη γραμματοσειρά (π.χ. “Calibri”), μπορείτε να ξεσχολιάσετε το `EmbedAllFonts` για να την συμπεριλάβετε.  
-3. **Αποθήκευση του αρχείου** – Η μέθοδος `workbook.Save` γράφει το PDF στο δίσκο, εφαρμόζοντας τις επιλογές που ορίσαμε. Το αποτέλεσμα είναι ένα αυτόνομο PDF που αποδίδει ταυτόσια σε οποιονδήποτε προβολέα.
+Αν δεν έχετε το Aspose.Pdf, ένας χειροκίνητος έλεγχος στο Adobe Acrobat (`File → Properties → Fonts`) λειτουργεί εξίσου καλά.
 
 ---
 
-## Μετατροπή Excel σε PDF χωρίς απώλεια πιστότητας γραμματοσειρών
+## ## Μετατροπή Excel σε PDF – Συνηθισμένες Παραλλαγές
 
-Τώρα που ξέρετε **πώς να ενσωματώσετε γραμματοσειρές**, ας εξετάσουμε μερικές παραλλαγές που μπορεί να χρειαστείτε σε πραγματικά έργα.
-
-### Εξαγωγή XLSX σε PDF σε Web API
-
-Αν δημιουργείτε ένα REST endpoint που λαμβάνει ένα ανεβασμένο αρχείο Excel και επιστρέφει PDF, μπορείτε να επαναχρησιμοποιήσετε την ίδια λογική:
+### Εξαγωγή Μόνο ενός Συγκεκριμένου Φύλλου
 
 ```csharp
-[HttpPost("api/excel-to-pdf")]
-public IActionResult ConvertToPdf(IFormFile excelFile)
+PdfSaveOptions opts = new PdfSaveOptions
 {
-    using var stream = excelFile.OpenReadStream();
-    var workbook = new Workbook(stream);
-
-    var pdfOptions = new PdfSaveOptions { EmbedStandardFonts = true };
-    using var pdfStream = new MemoryStream();
-    workbook.Save(pdfStream, pdfOptions);
-    pdfStream.Position = 0;
-
-    return File(pdfStream, "application/pdf", "result.pdf");
-}
-```
-
-*Συμβουλή*: Πάντα να επικυρώνετε το μέγεθος και τον τύπο του εισερχόμενου αρχείου πριν την επεξεργασία, ώστε να αποτρέψετε επιθέσεις τύπου denial‑of‑service.
-
-### Αποθήκευση βιβλίου εργασίας ως PDF σε εφαρμογή Windows Forms
-
-Για σενάρια επιφάνειας εργασίας, ίσως θέλετε να επιτρέψετε στον χρήστη να επιλέξει θέση μέσω ενός `SaveFileDialog`:
-
-```csharp
-var dlg = new SaveFileDialog
-{
-    Filter = "PDF files (*.pdf)|*.pdf",
-    FileName = "ExportedWorkbook.pdf"
+    FontEmbeddingMode = FontEmbeddingMode.EmbedAll,
+    // Export only the first sheet (zero‑based index)
+    OnePagePerSheet = false,
+    SheetIndex = 0
 };
-
-if (dlg.ShowDialog() == DialogResult.OK)
-{
-    var pdfOpts = new PdfSaveOptions { EmbedStandardFonts = true };
-    workbook.Save(dlg.FileName, pdfOpts);
-    MessageBox.Show("PDF saved with embedded fonts!", "Success");
-}
+workbook.Save("single-sheet.pdf", opts);
 ```
 
-Και τα δύο αποσπάσματα δείχνουν την ίδια βασική ιδέα: **ενσωματώστε τις γραμματοσειρές** πριν **αποθηκεύσετε το βιβλίο εργασίας ως PDF**.
+### Ενσωμάτωση Γραμματοσειρών με Υποσύνολο για Μικρότερα Αρχεία
+
+Αν το μέγεθος του αρχείου είναι πρόβλημα, μπορείτε να ενσωματώσετε **μόνο τους χαρακτήρες που χρησιμοποιούνται πραγματικά**:
+
+```csharp
+pdfOptions.FontEmbeddingMode = FontEmbeddingMode.Subset;
+```
+
+Αυτό εξακολουθεί να απαντά στο *πώς να ενσωματώσετε γραμματοσειρές* αλλά παράγει ένα πιο ελαφρύ PDF—ιδανικό για συνημμένα email.
+
+### Διαχείριση Προσαρμοσμένων Γραμματοσειρών που Δεν Είναι Εγκατεστημένες στον Διακομιστή
+
+Όταν ένα βιβλίο εργασίας αναφέρει μια προσαρμοσμένη γραμματοσειρά που δεν υπάρχει στον διακομιστή μετατροπής, το Aspose.Cells θα επιστρέψει σε προεπιλεγμένη γραμματοσειρά εκτός αν παρέχετε το αρχείο γραμματοσειράς:
+
+```csharp
+// Register a custom font folder
+FontConfigs fontConfigs = new FontConfigs();
+fontConfigs.SetFontFolder(@"C:\MyCustomFonts", true);
+pdfOptions.FontConfigs = fontConfigs;
+```
+
+Τώρα η μετατροπή μπορεί να ενσωματώσει την προσαρμοσμένη γραμματοσειρά, διατηρώντας την οπτική πιστότητα.
 
 ---
 
-## Συνηθισμένα προβλήματα και πώς να τα αποφύγετε
+## ## Αποθήκευση Βιβλίου Εργασίας ως PDF – Καλές Πρακτικές
 
-| Πρόβλημα | Γιατί συμβαίνει | Διόρθωση |
-|----------|----------------|----------|
-| Το PDF εμφανίζει **Arial** αντί για **Calibri** | Το `EmbedStandardFonts` καλύπτει μόνο τις πέντε βασικές γραμματοσειρές. Οι προσαρμοσμένες γραμματοσειρές απαιτούν `EmbedAllFonts = true` και η γραμματοσειρά πρέπει να είναι εγκατεστημένη στον server. | Προσθέστε `pdfOptions.EmbedAllFonts = true;` και βεβαιωθείτε ότι η γραμματοσειρά υπάρχει στο μηχάνημα που εκτελεί τη μετατροπή. |
-| Το μέγεθος του PDF αυξάνεται πολύ | Η ενσωμάτωση κάθε γλύφου μιας μεγάλης προσαρμοσμένης γραμματοσειράς μπορεί να φουσκώσει το αρχείο. | Χρησιμοποιήστε `PdfSaveOptions.FontEmbeddingMode = FontEmbeddingMode.Subset;` για να ενσωματώσετε μόνο τους χαρακτήρες που χρησιμοποιούνται. |
-| Λείπουν χαρακτήρες **Unicode** (π.χ. emojis) | Το προεπιλεγμένο σύνολο γραμματοσειρών δεν περιέχει αυτά τα γλύφα. | Μεταβείτε σε μια γραμματοσειρά που υποστηρίζει Unicode, όπως “Segoe UI Emoji”, και ενεργοποιήστε την πλήρη ενσωμάτωση. |
-| Η μετατροπή αποτυγχάνει σε **macOS** | Το Aspose.Cells βασίζεται σε Windows GDI+ για ορισμένες διαδρομές απόδοσης. | Χρησιμοποιήστε την πιο πρόσφατη έκδοση του Aspose.Cells (υποστηρίζει .NET Core σε macOS) ή εκτελέστε τη μετατροπή σε Windows container. |
-
----
-
-## Επαλήθευση ότι οι γραμματοσειρές είναι πραγματικά ενσωματωμένες
-
-Αφού τρέξετε το πρόγραμμα, ανοίξτε το παραγόμενο `out.pdf` με το Adobe Acrobat Reader:
-
-1. Πατήστε **Ctrl + D** (ή **File → Properties** → **Fonts** καρτέλα).  
-2. Θα πρέπει να δείτε κάθε γραμματοσειρά με τη λέξη **“Embedded”** δίπλα της.  
-
-Αν δείτε **“Not Embedded”**, ελέγξτε ξανά ότι το `EmbedStandardFonts` (ή `EmbedAllFonts`) είναι ορισμένο σε `true` και ότι τα αρχεία γραμματοσειρών είναι προσβάσιμα.
+| Πρακτική | Γιατί Βοηθά |
+|----------|--------------|
+| **Πάντα ορίζετε `FontEmbeddingMode = EmbedAll`** | Εγγυάται ότι το PDF φαίνεται το ίδιο παντού. |
+| **Επικυρώστε το αποτέλεσμα** | Ανιχνεύει ελλιπείς γραμματοσειρές νωρίς, αποτρέποντας παραπόνους αργότερα. |
+| **Χρησιμοποιήστε `OnePagePerSheet = true` μόνο όταν χρειάζεται** | Αποτρέπει περιττά ψηλά PDF που είναι δύσκολο να περιηγηθούν. |
+| **Διατηρήστε το Aspose.Cells ενημερωμένο** | Οι νέες εκδόσεις προσθέτουν καλύτερη διαχείριση γραμματοσειρών και διορθώσεις σφαλμάτων. |
 
 ---
 
-## Αναμενόμενο αποτέλεσμα
+## ## Εξαγωγή Φύλλου Εργασίας σε PDF – Σενάριο Πραγματικού Κόσμου
 
-Η εκτέλεση της κονσόλας με ένα απλό βιβλίο εργασίας που περιέχει έναν τίτλο μορφοποιημένο με **Calibri Bold** θα δημιουργήσει ένα PDF που:
+Φανταστείτε ότι δημιουργείτε μια υπηρεσία αναφορών που στέλνει εβδομαδιαία dashboards πωλήσεων σε στελέχη. Τα dashboards δημιουργούνται σε Excel επειδή οι αναλυτές επιχειρήσεων αγαπούν τη διάταξη πλέγματος. Το backend σας πρέπει να παράγει ένα PDF κάθε νύχτα, να ενσωματώνει όλες τις εταιρικές γραμματοσειρές και να αποστέλλει το αρχείο μέσω email.
 
-- Εμφανίζει τον τίτλο ακριβώς όπως εμφανίζεται στο Excel.  
-- Δείχνει “Calibri Bold” στη λίστα **Fonts** με κατάσταση **Embedded**.  
-- Αποδίδει σωστά σε οποιαδήποτε πλατφόρμα, ακόμη και αν ο προβολέας δεν έχει εγκατεστημένο το Calibri.
+Εφαρμόζοντας τα παραπάνω βήματα, μπορείτε να αυτοματοποιήσετε ολόκληρη τη διαδικασία:
 
-Μπορείτε να δοκιμάσετε το αποτέλεσμα ανοίγοντας το PDF σε διαφορετικό υπολογιστή ή σε Linux container—δεν πρέπει να εμφανιστούν ελλιπή χαρακτήρες.
+1. Φορτώστε το βιβλίο εργασίας που δημιούργησε ο αναλυτής από έναν κοινόχρηστο φάκελο.  
+2. Εφαρμόστε `PdfSaveOptions` με `EmbedAll`.  
+3. Αποθηκεύστε το PDF σε προσωρινή τοποθεσία.  
+4. Συνημμένο το PDF σε email και αποστείλετε το.  
 
----
-
-## Συνοπτική επισκόπηση – τι καλύψαμε
-
-- **Πώς να ενσωματώσετε γραμματοσειρές** χρησιμοποιώντας `PdfSaveOptions.EmbedStandardFonts`.  
-- Ο πλήρης **workflow μετατροπής Excel σε PDF** με Aspose.Cells.  
-- Παραλλαγές για **αποθήκευση βιβλίου εργασίας ως PDF** σε web APIs και desktop εφαρμογές.  
-- Διαχείριση ειδικών περιπτώσεων και συμβουλές για διατήρηση λογικού μεγέθους PDF.  
-
-Όλα αυτά σας επιτρέπουν να **εξάγετε XLSX σε PDF** και να **δημιουργήσετε PDF από Excel** με την βεβαιότητα ότι οι γραμματοσειρές μεταφέρονται μαζί με το αρχείο.
+Όλα αυτά εκτελούνται σε μια υπηρεσία Windows χωρίς διεπαφή χρήστη—χωρίς UI, χωρίς χειροκίνητη παρέμβαση. Το αποτέλεσμα; Τα στελέχη λαμβάνουν ένα τέλεια αποδομένο PDF κάθε πρωί, ανεξάρτητα από τις γραμματοσειρές που είναι εγκατεστημένες στους υπολογιστές τους.
 
 ---
 
-## Επόμενα βήματα & συναφή θέματα
+## ## Δημιουργία PDF από Excel – Συχνές Ερωτήσεις
 
-- **Προσαρμογή εμφάνισης PDF** – εξερευνήστε `PdfSaveOptions.PageLayout`, `PdfSaveOptions.ImageResolution` και `PdfSaveOptions.Compliance` για PDF/A ή PDF/X.  
-- **Προσθήκη υδατογραφήματος ή κεφαλίδων/υποσέλιδων** – χρησιμοποιήστε `PdfSaveOptions.AddWatermark` ή τις κλάσεις `HeaderFooter`.  
-- **Μετατροπή πολλαπλών φύλλων** – επαναλάβετε πάνω στο `workbook.Worksheets` και συγχωνεύστε PDFs με `PdfFileEditor`.  
+**Q: Θα αυξήσει η ενσωμάτωση γραμματοσειρών το μέγεθος του PDF δραματικά;**  
+**A:** Μπορεί, ειδικά με μεγάλες οικογένειες γραμματοσειρών. Η μετάβαση σε `Subset` μειώνει το μέγεθος ενώ διατηρεί την εμφάνιση.
 
-Αν σας ενδιαφέρει η **μαζική μετατροπή** φακέλου Excel σε PDF, δείτε τον οδηγό μας “Bulk Excel to PDF conversion with Aspose.Cells”.  
+**Q: Χρειάζομαι άδεια για το Aspose.Cells;**  
+**A:** Η βιβλιοθήκη λειτουργεί σε λειτουργία αξιολόγησης, αλλά μια εμπορική άδεια αφαιρεί το υδατογράφημα αξιολόγησης και ξεκλειδώνει όλες τις δυνατότητες.
+
+**Q: Τι γίνεται αν το πηγαίο Excel χρησιμοποιεί μια γραμματοσειρά που δεν μπορεί να ενσωματωθεί (π.χ., ορισμένες γραμματοσειρές συστήματος);**  
+**A:** Το Aspose.Cells θα ενσωματώσει ό,τι μπορεί και θα επιστρέψει σε παρόμοια γραμματοσειρά για το υπόλοιπο. Μπορείτε επίσης να αντικαταστήσετε τη γραμματοσειρά προγραμματιστικά πριν από την εξαγωγή.
 
 ---
 
-*Έτοιμοι να ενσωματώσετε τις γραμματοσειρές και να παραδώσετε άψογα PDFs;* Κατεβάστε τον κώδικα, προσαρμόστε τις επιλογές στις ανάγκες σας, και αφήστε τα PDFs σας να φαίνονται ακριβώς όπως τα σχεδιάσατε στο Excel. Καλό coding!
+## Συμπέρασμα
 
-## Τι πρέπει να μάθετε στη συνέχεια;
+Καλύψαμε **πώς να ενσωματώσετε γραμματοσειρές** όταν *μετατρέπετε excel σε pdf*, δείχνοντάς σας τον ακριβή κώδικα για **αποθήκευση βιβλίου εργασίας ως pdf** με πλήρη ενσωμάτωση γραμματοσειρών. Τώρα έχετε ένα ισχυρό, έτοιμο για παραγωγή πρότυπο για εργασίες *export spreadsheet to pdf* και *create pdf from excel*.
 
-Τα παρακάτω tutorials καλύπτουν στενά σχετικές θεματικές που επεκτείνουν τις τεχνικές που παρουσιάστηκαν σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη λειτουργικό κώδικα με βήμα‑βήμα εξηγήσεις για να κυριαρχήσετε επιπλέον δυνατότητες του API και να εξερευνήσετε εναλλακτικές προσεγγίσεις στα δικά σας έργα.
+Δοκιμάστε το: προσπαθήστε να ενσωματώσετε μια προσαρμοσμένη εταιρική γραμματοσειρά, πειραματιστείτε με την ενσωμάτωση υποσυνόλου, ή επεξεργαστείτε μαζικά έναν ολόκληρο φάκελο βιβλίων εργασίας. Όταν κυριαρχήσετε στην ενσωμάτωση γραμματοσειρών, τα PDF σας θα φαίνονται πάντα καθαρά, ανεξάρτητα από το πού ανοίγονται.
 
-- [Save Excel Workbook as PDF with Custom Fonts using Aspose.Cells for .NET](/cells/english/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
-- [Save Excel Workbook Pdf Custom Fonts Aspose Cells Net](/cells/german/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
-- [Save Excel Workbook Pdf Custom Fonts Aspose Cells Net](/cells/french/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
+---
+
+### Επόμενα Βήματα
+
+- Εξερευνήστε **συγχώνευση PDF πολλαπλών φύλλων** χρησιμοποιώντας το `PdfFileEditor`.  
+- Συνδυάστε αυτήν την προσέγγιση με το **Aspose.Slides** για να ενσωματώσετε διαγράμματα ως εικόνες.  
+- Διερευνήστε την **συμμόρφωση PDF/A** αν χρειάζεστε αρχειοθετημένα PDF.  
+
+Έχετε περισσότερες ερωτήσεις ή μια δύσκολη περίπτωση; Αφήστε ένα σχόλιο παρακάτω, και καλή προγραμματιστική!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

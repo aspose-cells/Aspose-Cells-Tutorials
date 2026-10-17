@@ -1,53 +1,25 @@
 ---
 category: general
-date: 2026-07-13
-description: Jak vložit písma při převodu Excelu do PDF. Naučte se exportovat XLSX
-  do PDF, uložit sešit jako PDF a vytvořit PDF z Excelu s vloženými písmy.
+date: 2026-03-01
+description: Jak vložit písma při převodu Excelu do PDF. Naučte se uložit sešit jako
+  PDF s vloženými písmy a snadno exportovat tabulku do PDF.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - how to embed fonts
 - convert excel to pdf
 - save workbook as pdf
-- export xlsx to pdf
+- export spreadsheet to pdf
 - create pdf from excel
 language: cs
-lastmod: 2026-07-13
-og_description: Jak vložit písma při převodu Excelu do PDF. Postupujte podle tohoto
-  návodu k exportu XLSX do PDF, uložení sešitu jako PDF a vytvoření PDF z Excelu s
-  dokonalou věrností písem.
-og_image_alt: Screenshot showing an Excel file being saved as a PDF with embedded
-  fonts
-og_title: Jak vložit písma při převodu Excelu do PDF – kompletní návod krok za krokem
-schemas:
-- author: Aspose
-  dateModified: '2026-07-13'
-  description: How to embed fonts while you convert Excel to PDF. Learn to export
-    XLSX to PDF, save workbook as PDF, and create PDF from Excel with embedded fonts.
-  headline: How to embed fonts when converting Excel to PDF – Complete Guide
-  type: TechArticle
-- description: How to embed fonts while you convert Excel to PDF. Learn to export
-    XLSX to PDF, save workbook as PDF, and create PDF from Excel with embedded fonts.
-  name: How to embed fonts when converting Excel to PDF – Complete Guide
-  steps:
-  - name: Why each line matters
-    text: '1. **Loading the workbook** – `Workbook` is the entry point; it parses
-      the XLSX file and builds an in‑memory representation of all sheets, styles,
-      and formulas. 2. **`PdfSaveOptions`** – This object controls every nuance of
-      the PDF conversion. Setting `EmbedStandardFonts = true` guarantees that the '
-  - name: Export XLSX to PDF in a web API
-    text: 'If you’re building a REST endpoint that receives an uploaded Excel file
-      and returns a PDF, you can reuse the same logic:'
-  - name: Save workbook as PDF in a Windows Forms app
-    text: 'For desktop scenarios, you might want to let the user pick a location via
-      a `SaveFileDialog`:'
-  type: HowTo
+og_description: Jak vložit písma při převodu z Excelu do PDF. Postupujte podle tohoto
+  návodu a uložte sešit jako PDF s úplným vložením písem pro spolehlivé dokumenty.
+og_title: Jak vložit písma při převodu Excelu do PDF – krok za krokem
 tags:
-- Aspose.Cells
-- .NET
-- PDF generation
-title: Jak vložit písma při převodu Excelu do PDF – kompletní průvodce
+- aspnet
+- csharp
+- pdf
+- excel
+title: Jak vložit písma při převodu Excelu do PDF – Kompletní průvodce
 url: /cs/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/
 ---
 
@@ -55,189 +27,190 @@ url: /cs/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-c
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak vložit písma při převodu Excelu do PDF – Kompletní průvodce
+# Jak vložit písma při převodu Excelu na PDF – Kompletní průvodce
 
-Už jste se někdy zamýšleli **jak vložit písma**, když **převádíte Excel do PDF**? Nejste v tom sami. Chybějící písma jsou častou bolestí hlavy – váš PDF vypadá v pořádku na vašem počítači, ale na počítači někoho jiného se změní v nečitelný zmatek.  
+Už jste se někdy zamysleli **nad tím, jak vložit písma**, aby váš převod Excel‑to‑PDF vypadal naprosto stejně na každém počítači? Nejste v tom sami. Chybějící písma jsou tichými viníky, které dokážou dokonale naformátovaný tabulkový list proměnit v nečitelný chaos, jakmile se otevře v PDF prohlížeči.  
 
-V tomto tutoriálu vás provedeme čistým, end‑to‑end řešením, které **uloží sešit jako PDF** s písmy zabudovanými přímo do souboru. Na konci budete schopni **exportovat XLSX do PDF**, **vytvořit PDF z Excelu** a už se nebudete muset obávat chybějících znaků.  
+V tomto tutoriálu vás provedeme celým procesem převodu souboru Excel na PDF **s vloženým každým písmem**, takže výstup bude přenosný, tisknutelný a bude vypadat přesně jako originál. Po cestě se také dotkneme *convert excel to pdf*, *save workbook as pdf*, *export spreadsheet to pdf* a *create pdf from excel* – vše bez opuštění vašeho C# kódu.
 
-Použijeme populární knihovnu **Aspose.Cells for .NET**, protože vám poskytuje jemnou kontrolu nad výstupem PDF, včetně klíčového příznaku `EmbedStandardFonts`. Nepotřebujete žádné další triky třetích stran a kód funguje na .NET 6+ a .NET Framework 4.7+.  
+## Co se naučíte
 
----
+- Načtěte sešit `.xlsx` pomocí Aspose.Cells (nebo jakékoli kompatibilní knihovny).  
+- Nakonfigurujte `PdfSaveOptions` tak, aby vynutil úplné vložení písem.  
+- Uložte sešit jako PDF, který lze otevřít na jakémkoli zařízení bez varování o chybějících písmenech.  
+- Tipy pro řešení okrajových případů, jako jsou vlastní písma neinstalovaná na serveru.  
 
-## Požadavky – co potřebujete před začátkem
-
-- **Visual Studio 2022** (nebo jakékoli IDE, které dokáže kompilovat .NET projekty)  
-- **.NET 6 SDK** (nebo .NET Framework 4.7+, pokud dáváte přednost klasickému)  
-- **Aspose.Cells for .NET** NuGet balíček (`Install-Package Aspose.Cells`)  
-- Vzorek Excel sešitu (`varSelector.xlsx`) umístěný ve složce, na kterou můžete odkazovat  
-
-Pokud je máte, jste připraveni ponořit se do toho.
+**Požadavky** – Potřebujete .NET 6+ (nebo .NET Framework 4.7.2+), Visual Studio 2022 (nebo libovolné IDE dle vašeho výběru) a NuGet balíček Aspose.Cells pro .NET. Žádné další externí nástroje nejsou vyžadovány.
 
 ---
 
-## Jak vložit písma při převodu Excelu do PDF
+## ## Jak vložit písma při exportu do PDF
 
-Níže je kompletní, připravený program. Ukazuje přesné kroky, které potřebujete k **vytvoření PDF z Excelu**, přičemž zajišťuje vložení písem.
+Vložení písem je klíčovým krokem, který zajišťuje, že vaše PDF vypadá identicky jako zdrojový soubor Excel. Níže je stručný, spustitelný příklad, který demonstruje celý pracovní postup.
+
+![Screenshot náhledu PDF ukazující správně vložená písma – jak vložit písma při převodu Excelu na PDF conversion](https://example.com/images/pdf-preview.png "jak vložit písma při převodu Excelu na PDF conversion")
+
+### Krok 1 – Instalace NuGet balíčku Aspose.Cells
+
+Otevřete soubor **.csproj** vašeho projektu nebo použijte Package Manager Console:
+
+```powershell
+Install-Package Aspose.Cells
+```
+
+> **Tip:** Pokud používáte .NET CLI, spusťte `dotnet add package Aspose.Cells`. Tím se stáhne nejnovější stabilní verze (k březnu 2026, verze 23.10).
+
+### Krok 2 – Načtěte sešit, který chcete převést
 
 ```csharp
-using System;
-using Aspose.Cells;               // Aspose.Cells namespace
-using Aspose.Cells.Drawing;       // for PDF options (if needed)
+using Aspose.Cells;
 
-class ExcelToPdfWithEmbeddedFonts
+// Path to your source Excel file
+string inputPath = Path.Combine(Environment.CurrentDirectory, "input.xlsx");
+
+// Load the workbook into memory
+Workbook workbook = new Workbook(inputPath);
+```
+
+**Proč je to důležité:** Načtení sešitu vám poskytuje přístup ke všem listům, stylům a vloženým objektům. Je to základ pro jakoukoli následnou operaci exportu.
+
+### Krok 3 – Vytvořte PDF Save Options a zapněte vložení písem
+
+```csharp
+// Initialise PDF save options
+PdfSaveOptions pdfOptions = new PdfSaveOptions
 {
-    static void Main()
+    // Embed every font used in the workbook
+    FontEmbeddingMode = FontEmbeddingMode.EmbedAll
+};
+```
+
+Vlastnost `FontEmbeddingMode` řídí, zda jsou písma vložena, podmnožinově vložena nebo vynechána. Nastavením na `EmbedAll` se zaručuje, že **jak vložit písma** je jednoznačně zodpovězeno – každý glyf použitý v tabulce je zabalen do PDF souboru.
+
+### Krok 4 – Uložte sešit jako PDF
+
+```csharp
+// Destination path for the PDF
+string outputPath = Path.Combine(Environment.CurrentDirectory, "output.pdf");
+
+// Perform the conversion
+workbook.Save(outputPath, pdfOptions);
+```
+
+Po tomto volání `output.pdf` obsahuje věrnou vizuální repliku `input.xlsx`, včetně všech vložených písem. Otevřete jej v libovolném PDF čtečce a už nikdy neuvidíte varování o „nahrazení písma“.
+
+### Krok 5 – Ověřte výsledek (volitelné, ale doporučené)
+
+```csharp
+// Quick verification using Aspose.Pdf (if you have it)
+// This snippet checks that all fonts are indeed embedded.
+using Aspose.Pdf;
+
+// Load the generated PDF
+Document pdfDoc = new Document(outputPath);
+bool allEmbedded = true;
+
+foreach (FontInfo fontInfo in pdfDoc.FontInfo)
+{
+    if (!fontInfo.IsEmbedded)
     {
-        // -------------------------------------------------
-        // Step 1: Load the Excel workbook (your source file)
-        // -------------------------------------------------
-        string inputPath = @"YOUR_DIRECTORY\varSelector.xlsx";
-        Workbook workbook = new Workbook(inputPath);
-
-        // -------------------------------------------------
-        // Step 2: Configure PDF save options to embed fonts
-        // -------------------------------------------------
-        PdfSaveOptions pdfOptions = new PdfSaveOptions
-        {
-            // This flag tells Aspose.Cells to embed all standard fonts
-            EmbedStandardFonts = true,
-
-            // Optional: force embedding of custom fonts as well
-            // EmbedAllFonts = true,   // uncomment if you have custom fonts
-        };
-
-        // -------------------------------------------------
-        // Step 3: Save the workbook as a PDF using the options
-        // -------------------------------------------------
-        string outputPath = @"YOUR_DIRECTORY\out.pdf";
-        workbook.Save(outputPath, pdfOptions);
-
-        Console.WriteLine("PDF generated with embedded fonts at:");
-        Console.WriteLine(outputPath);
+        allEmbedded = false;
+        Console.WriteLine($"Missing embedding for font: {fontInfo.FontName}");
     }
 }
+Console.WriteLine(allEmbedded ? "All fonts are embedded!" : "Some fonts are missing.");
 ```
 
-### Proč je každý řádek důležitý
-
-1. **Načtení sešitu** – `Workbook` je vstupní bod; parsuje soubor XLSX a vytváří v‑paměti reprezentaci všech listů, stylů a vzorců.  
-2. **`PdfSaveOptions`** – Tento objekt řídí každou nuance převodu do PDF. Nastavení `EmbedStandardFonts = true` zaručuje, že PDF obsahuje rodiny Helvetica, Times, Courier, Symbol a ZapfDingbats. Pokud váš sešit používá vlastní písmo (např. „Calibri“), můžete odkomentovat `EmbedAllFonts`, aby se zahrnulo.  
-3. **Uložení souboru** – `workbook.Save` zapíše PDF na disk s použitím právě definovaných možností. Výsledkem je samostatné PDF, které se zobrazí identicky v jakémkoli prohlížeči.
+Pokud nemáte Aspose.Pdf, ruční kontrola v Adobe Acrobat (`File → Properties → Fonts`) funguje stejně dobře.
 
 ---
 
-## Převést Excel do PDF bez ztráty věrnosti písem
+## ## Převod Excelu na PDF – Běžné varianty
 
-Nyní, když víte **jak vložit písma**, podívejme se na několik variant, které můžete v reálných projektech potřebovat.
+### Exportovat pouze konkrétní list
 
-### Export XLSX do PDF ve webovém API
-
-Pokud vytváříte REST endpoint, který přijímá nahraný Excel soubor a vrací PDF, můžete znovu použít stejnou logiku:
+Někdy potřebujete jediný list jako PDF:
 
 ```csharp
-[HttpPost("api/excel-to-pdf")]
-public IActionResult ConvertToPdf(IFormFile excelFile)
+PdfSaveOptions opts = new PdfSaveOptions
 {
-    using var stream = excelFile.OpenReadStream();
-    var workbook = new Workbook(stream);
-
-    var pdfOptions = new PdfSaveOptions { EmbedStandardFonts = true };
-    using var pdfStream = new MemoryStream();
-    workbook.Save(pdfStream, pdfOptions);
-    pdfStream.Position = 0;
-
-    return File(pdfStream, "application/pdf", "result.pdf");
-}
-```
-
-*Tip*: Vždy před zpracováním ověřte velikost a typ příchozího souboru, aby se předešlo útokům typu denial‑of‑service.
-
-### Uložit sešit jako PDF v aplikaci Windows Forms
-
-Pro scénáře na desktopu můžete uživateli umožnit vybrat umístění pomocí `SaveFileDialog`:
-
-```csharp
-var dlg = new SaveFileDialog
-{
-    Filter = "PDF files (*.pdf)|*.pdf",
-    FileName = "ExportedWorkbook.pdf"
+    FontEmbeddingMode = FontEmbeddingMode.EmbedAll,
+    // Export only the first sheet (zero‑based index)
+    OnePagePerSheet = false,
+    SheetIndex = 0
 };
-
-if (dlg.ShowDialog() == DialogResult.OK)
-{
-    var pdfOpts = new PdfSaveOptions { EmbedStandardFonts = true };
-    workbook.Save(dlg.FileName, pdfOpts);
-    MessageBox.Show("PDF saved with embedded fonts!", "Success");
-}
+workbook.Save("single-sheet.pdf", opts);
 ```
 
-Oba úryvky ilustrují stejný základní nápad: **vložit písma** před tím, než **uložíte sešit jako PDF**.
+### Podmnožinové vložení písem pro menší soubory
 
----
+Pokud je velikost souboru problém, můžete vložit **pouze skutečně použité znaky**:
 
-## Časté úskalí a jak se jim vyhnout
+```csharp
+pdfOptions.FontEmbeddingMode = FontEmbeddingMode.Subset;
+```
 
-| Problém | Proč se to děje | Řešení |
-|-------|----------------|-----|
-| PDF zobrazuje **Arial** místo **Calibri** | `EmbedStandardFonts` pokrývá pouze pět základních písem. Vlastní písma vyžadují `EmbedAllFonts = true` a písmo musí být nainstalováno na serveru. | Přidejte `pdfOptions.EmbedAllFonts = true;` a ujistěte se, že písmo je přítomno na počítači, který provádí převod. |
-| Velikost PDF roste | Vložení každého glifu velkého vlastního písma může soubor nafouknout. | Použijte `PdfSaveOptions.FontEmbeddingMode = FontEmbeddingMode.Subset;` pro vložení pouze použitých znaků. |
-| Chybějící **Unicode** znaky (např. emoji) | Výchozí sada písem neobsahuje tyto glyfy. | Přepněte na Unicode‑písmo jako “Segoe UI Emoji” a povolte úplné vložení. |
-| Převod selže na **macOS** | Aspose.Cells se pro některé cesty renderování spoléhá na Windows GDI+. | Použijte nejnovější verzi Aspose.Cells (podporuje .NET Core na macOS) nebo spusťte převod v Windows kontejneru. |
+To stále odpovídá na *jak vložit písma*, ale vytváří úspornější PDF – ideální pro e‑mailové přílohy.
 
----
+### Zpracování vlastních písem, která nejsou nainstalována na serveru
 
-## Ověření, že jsou písma skutečně vložena
+Když sešit odkazuje na vlastní písmo, které není na konverzním serveru přítomno, Aspose.Cells použije výchozí písmo, pokud neposkytnete soubor písma:
 
-Po spuštění programu otevřete vygenerovaný `out.pdf` v Adobe Acrobat Reader:
+```csharp
+// Register a custom font folder
+FontConfigs fontConfigs = new FontConfigs();
+fontConfigs.SetFontFolder(@"C:\MyCustomFonts", true);
+pdfOptions.FontConfigs = fontConfigs;
+```
 
-1. Stiskněte **Ctrl + D** (nebo **Soubor → Vlastnosti** → karta **Písma**).  
-2. Měli byste vidět každé uvedené písmo se slovem **„Embedded“** („Vloženo“) vedle něj.  
+Nyní může převod vložit vlastní typ písma, čímž zachová vizuální věrnost.
 
-Pokud vidíte **„Not Embedded“**, zkontrolujte, že `EmbedStandardFonts` (nebo `EmbedAllFonts`) je nastaven na `true` a že jsou soubory písem přístupné.
+## ## Uložení sešitu jako PDF – Nejlepší postupy
 
----
+| Practice | Why It Helps |
+|----------|--------------|
+| **Always set `FontEmbeddingMode = EmbedAll`** | Zaručuje, že PDF vypadá stejně všude. |
+| **Validate the output** | Včas zachytí chybějící písma, čímž zabrání následným stížnostem. |
+| **Use `OnePagePerSheet = true` only when needed** | Zabrání zbytečně vysokým PDF, které jsou obtížně navigovatelné. |
+| **Keep Aspose.Cells updated** | Nové verze přidávají lepší správu písem a opravy chyb. |
 
-## Očekávaný výstup
+## ## Export tabulky do PDF – Reálný scénář
 
-Spuštění konzolové aplikace s jednoduchým sešitem, který obsahuje nadpis stylizovaný **Calibri Bold**, vytvoří PDF, které:
+Představte si, že vytváříte reportingovou službu, která posílá týdenní prodejní dashboardy manažerům. Dashboardy jsou vytvořeny v Excelu, protože obchodní analytici milují mřížkové rozložení. Váš backend musí každou noc vygenerovat PDF, vložit všechna firemní písma a soubor odeslat e‑mailem.
 
-- Zobrazí nadpis přesně tak, jak se objevuje v Excelu.  
-- Zobrazí „Calibri Bold“ v seznamu **Fonts** s označením **Embedded**.  
-- Vykreslí se správně na jakékoli platformě, i když prohlížeč nemá nainstalováno Calibri.
+Použitím výše uvedených kroků můžete automatizovat celý proces:
 
-Výsledek můžete otestovat otevřením PDF na jiném počítači nebo v Linux kontejneru – žádné chybějící znaky by se neměly objevit.
+1. Načtěte sešit vytvořený analytikem ze sdílené složky.  
+2. Použijte `PdfSaveOptions` s `EmbedAll`.  
+3. Uložte PDF do dočasné lokace.  
+4. Připojte PDF k e‑mailu a odešlete jej.
 
----
+Vše běží na bezhlavé Windows službě – bez UI, bez ručního zásahu. Výsledek? Manažeři dostávají každé ráno perfektně vykreslené PDF, bez ohledu na písma nainstalovaná na jejich laptopech.
 
-## Shrnutí – co jsme pokryli
+## ## Vytvoření PDF z Excelu – Často kladené otázky
 
-- **Jak vložit písma** pomocí `PdfSaveOptions.EmbedStandardFonts`.  
-- Kompletní workflow **convert Excel to PDF** s Aspose.Cells.  
-- Varianty pro **save workbook as PDF** ve webových API a desktopových aplikacích.  
-- Řešení okrajových případů a tipy, jak udržet velikost PDF rozumnou.  
+**Q: Zvětší vložení písem velikost PDF výrazně?**  
+A: Může, zejména u velkých rodin písem. Přepnutí na `Subset` snižuje velikost a přitom zachovává vzhled.
 
-To vše vám umožní **exportovat XLSX do PDF** a **vytvořit PDF z Excelu** s jistotou, že písma jsou součástí souboru.
+**Q: Potřebuji licenci pro Aspose.Cells?**  
+A: Knihovna funguje v evaluačním režimu, ale komerční licence odstraňuje vodoznak hodnocení a odemyká všechny funkce.
 
----
+**Q: Co když zdrojový Excel používá písmo, které nelze vložit (např. některá systémová písma)?**  
+A: Aspose.Cells vloží, co může, a pro zbytek použije podobné písmo. Můžete také písmo nahradit programově před exportem.
 
-## Další kroky a související témata
+## Závěr
 
-- **Přizpůsobení vzhledu PDF** – prozkoumejte `PdfSaveOptions.PageLayout`, `PdfSaveOptions.ImageResolution` a `PdfSaveOptions.Compliance` pro PDF/A nebo PDF/X.  
-- **Přidání vodoznaků nebo záhlaví/patiček** – použijte `PdfSaveOptions.AddWatermark` nebo třídy `HeaderFooter`.  
-- **Převod více listů** – iterujte přes `workbook.Worksheets` a sloučte PDF pomocí `PdfFileEditor`.  
+Probrali jsme **jak vložit písma** při *convert excel to pdf*, ukázali vám přesný kód pro **save workbook as pdf** s kompletním vložením písem. Nyní máte pevný, připravený na produkci vzor pro úkoly *export spreadsheet to pdf* a *create pdf from excel*.
 
-Pokud vás zajímá **hromadný převod** složky Excel souborů, podívejte se na náš průvodce „Bulk Excel to PDF conversion with Aspose.Cells“.
+Vyzkoušejte to: zkuste vložit vlastní firemní písmo, experimentujte s podmnožinovým vložením nebo hromadně zpracujte celou složku sešitů. Když ovládnete vložení písem, vaše PDF budou vždy vypadat ostře, ať už jsou otevřeny kdekoliv.
 
-*Jste připraveni vložit tato písma a doručit dokonalá PDF?* Vezměte kód, upravte možnosti podle svých potřeb a nechte své PDF vypadat přesně tak, jak jste je navrhli v Excelu. Šťastné kódování!
+### Další kroky
 
-## Co byste se měli naučit dál?
+- Prozkoumejte **sloučení PDF z více listů** pomocí `PdfFileEditor`.  
+- Kombinujte tento přístup s **Aspose.Slides** pro vložení grafů jako obrázků.  
+- Podívejte se na **kompatibilitu PDF/A**, pokud potřebujete archivní PDF.  
 
-Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní implementační přístupy ve vašich projektech.
-
-- [Uložit Excel sešit jako PDF s vlastními písmy pomocí Aspose.Cells pro .NET](/cells/english/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
-- [Uložit Excel sešit PDF vlastní písma Aspose Cells Net](/cells/german/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
-- [Uložit Excel sešit PDF vlastní písma Aspose Cells Net](/cells/french/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
+Máte další otázky nebo složitý okrajový případ? Zanechte komentář níže a šťastné kódování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

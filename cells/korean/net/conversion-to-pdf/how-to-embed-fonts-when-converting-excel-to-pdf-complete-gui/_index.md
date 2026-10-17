@@ -1,51 +1,24 @@
 ---
 category: general
-date: 2026-07-13
-description: Excel을 PDF로 변환할 때 글꼴을 포함하는 방법. XLSX를 PDF로 내보내고, 워크북을 PDF로 저장하며, Excel에서
-  글꼴이 포함된 PDF를 만드는 방법을 배워보세요.
+date: 2026-03-01
+description: Excel을 PDF로 변환할 때 글꼴을 포함하는 방법. 글꼴이 포함된 PDF로 워크북을 저장하고 스프레드시트를 쉽게 PDF로
+  내보내는 방법을 배워보세요.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - how to embed fonts
 - convert excel to pdf
 - save workbook as pdf
-- export xlsx to pdf
+- export spreadsheet to pdf
 - create pdf from excel
 language: ko
-lastmod: 2026-07-13
-og_description: Excel을 PDF로 변환할 때 글꼴을 포함하는 방법. 이 가이드를 따라 XLSX를 PDF로 내보내고, 워크북을 PDF로
-  저장하며, Excel에서 완벽한 글꼴 정확도로 PDF를 생성하세요.
-og_image_alt: Screenshot showing an Excel file being saved as a PDF with embedded
-  fonts
-og_title: Excel을 PDF로 변환할 때 글꼴을 삽입하는 방법 – 전체 단계별 가이드
-schemas:
-- author: Aspose
-  dateModified: '2026-07-13'
-  description: How to embed fonts while you convert Excel to PDF. Learn to export
-    XLSX to PDF, save workbook as PDF, and create PDF from Excel with embedded fonts.
-  headline: How to embed fonts when converting Excel to PDF – Complete Guide
-  type: TechArticle
-- description: How to embed fonts while you convert Excel to PDF. Learn to export
-    XLSX to PDF, save workbook as PDF, and create PDF from Excel with embedded fonts.
-  name: How to embed fonts when converting Excel to PDF – Complete Guide
-  steps:
-  - name: Why each line matters
-    text: '1. **Loading the workbook** – `Workbook` is the entry point; it parses
-      the XLSX file and builds an in‑memory representation of all sheets, styles,
-      and formulas. 2. **`PdfSaveOptions`** – This object controls every nuance of
-      the PDF conversion. Setting `EmbedStandardFonts = true` guarantees that the '
-  - name: Export XLSX to PDF in a web API
-    text: 'If you’re building a REST endpoint that receives an uploaded Excel file
-      and returns a PDF, you can reuse the same logic:'
-  - name: Save workbook as PDF in a Windows Forms app
-    text: 'For desktop scenarios, you might want to let the user pick a location via
-      a `SaveFileDialog`:'
-  type: HowTo
+og_description: Excel을 PDF로 변환할 때 글꼴을 포함하는 방법. 이 가이드를 따라 워크북을 PDF로 저장하면 전체 글꼴이 포함된
+  신뢰할 수 있는 문서를 만들 수 있습니다.
+og_title: Excel을 PDF로 변환할 때 글꼴 삽입 방법 – 단계별 가이드
 tags:
-- Aspose.Cells
-- .NET
-- PDF generation
+- aspnet
+- csharp
+- pdf
+- excel
 title: Excel을 PDF로 변환할 때 글꼴을 포함하는 방법 – 완전 가이드
 url: /ko/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/
 ---
@@ -54,191 +27,198 @@ url: /ko/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-c
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Excel을 PDF로 변환할 때 폰트를 포함하는 방법 – 완전 가이드
+# Excel을 PDF로 변환할 때 글꼴을 포함하는 방법 – 완전 가이드
 
-Excel을 PDF로 **변환할 때 폰트를 포함하는 방법**이 궁금하셨나요? 당신만 그런 것이 아닙니다. 폰트가 누락되면 흔히 겪는 골칫거리인데—당신의 컴퓨터에서는 PDF가 정상적으로 보이지만 다른 사람 컴퓨터에서는 깨진 문자들로 보입니다.  
+Ever wondered **how to embed fonts** so that your Excel‑to‑PDF conversion looks exactly the same on every machine? You’re not the only one. Missing fonts are the silent culprits that turn a perfectly styled spreadsheet into a garbled mess once it lands in a PDF viewer.  
 
-이 튜토리얼에서는 **워크북을 PDF로 저장**하면서 폰트를 파일에 그대로 포함시키는 깔끔한 엔드‑투‑엔드 솔루션을 단계별로 살펴보겠습니다. 끝까지 따라오시면 **XLSX를 PDF로 내보내기**, **Excel에서 PDF 만들기**를 손쉽게 구현하고, 폰트 누락 문제를 한 번도 겪지 않게 됩니다.
+In this tutorial we’ll walk through the entire process of converting an Excel file to a PDF **with every font embedded**, so the output is portable, printable, and looks just like the original. Along the way we’ll also touch on *convert excel to pdf*, *save workbook as pdf*, *export spreadsheet to pdf*, and *create pdf from excel* – all without leaving your C# code.
 
-우리는 **Aspose.Cells for .NET** 라이브러리를 사용할 것입니다. 이 라이브러리는 PDF 출력에 대한 세밀한 제어를 제공하며, 핵심인 `EmbedStandardFonts` 플래그를 포함하고 있습니다. 다른 서드‑파티 트릭은 필요 없으며, 코드는 .NET 6+ 및 .NET Framework 4.7+에서도 동작합니다.  
+## 배울 내용
 
----
+- Load an `.xlsx` workbook using Aspose.Cells (or any compatible library).  
+- Configure `PdfSaveOptions` to force full font embedding.  
+- Save the workbook as a PDF that can be opened on any device without missing‑font warnings.  
+- Tips for handling edge cases such as custom fonts not installed on the server.  
 
-## 사전 준비 – 시작하기 전에 필요한 것
-
-- **Visual Studio 2022** (또는 .NET 프로젝트를 컴파일할 수 있는 모든 IDE)  
-- **.NET 6 SDK** (클래식 환경을 선호한다면 .NET Framework 4.7+)  
-- **Aspose.Cells for .NET** NuGet 패키지 (`Install-Package Aspose.Cells`)  
-- 샘플 Excel 워크북 (`varSelector.xlsx`)을 참조 가능한 폴더에 배치  
-
-위 항목들을 모두 갖추셨다면 바로 시작할 준비가 된 것입니다.
+**Prerequisites** – You need .NET 6+ (or .NET Framework 4.7.2+), Visual Studio 2022 (or any IDE you like), and the Aspose.Cells for .NET NuGet package. No other external tools are required.
 
 ---
 
-## Excel을 PDF로 변환할 때 폰트를 포함하는 방법
+## ## PDF 내보내기에서 글꼴 포함하기
 
-아래는 바로 실행할 수 있는 전체 프로그램 예시입니다. **Excel에서 PDF 만들기**를 수행하면서 폰트를 포함시키는 정확한 단계를 보여줍니다.
+Embedding fonts is the key step that guarantees your PDF looks identical to the source Excel file. Below is a concise, runnable example that demonstrates the whole workflow.
+
+![Screenshot of PDF preview showing correctly embedded fonts – how to embed fonts in Excel to PDF conversion](https://example.com/images/pdf-preview.png "Excel을 PDF로 변환할 때 글꼴을 포함하는 방법 – PDF 미리보기 화면에 올바르게 포함된 글꼴이 표시된 스크린샷")
+
+### Step 1 – Aspose.Cells NuGet 패키지 설치
+
+Open your project’s **.csproj** file or use the Package Manager Console:
+
+```powershell
+Install-Package Aspose.Cells
+```
+
+> **Pro tip:** .NET CLI를 사용하는 경우 `dotnet add package Aspose.Cells`를 실행하세요. 이렇게 하면 최신 안정 버전(2026년 3월 현재, 버전 23.10)이 가져와집니다.
+
+### Step 2 – 변환하려는 워크북 로드
 
 ```csharp
-using System;
-using Aspose.Cells;               // Aspose.Cells namespace
-using Aspose.Cells.Drawing;       // for PDF options (if needed)
+using Aspose.Cells;
 
-class ExcelToPdfWithEmbeddedFonts
+// Path to your source Excel file
+string inputPath = Path.Combine(Environment.CurrentDirectory, "input.xlsx");
+
+// Load the workbook into memory
+Workbook workbook = new Workbook(inputPath);
+```
+
+**Why this matters:** 워크북을 로드하면 모든 워크시트, 스타일 및 포함된 개체에 접근할 수 있습니다. 이는 이후 모든 내보내기 작업의 기반이 됩니다.
+
+### Step 3 – PDF 저장 옵션 생성 및 글꼴 포함 활성화
+
+```csharp
+// Initialise PDF save options
+PdfSaveOptions pdfOptions = new PdfSaveOptions
 {
-    static void Main()
+    // Embed every font used in the workbook
+    FontEmbeddingMode = FontEmbeddingMode.EmbedAll
+};
+```
+
+`FontEmbeddingMode` 속성은 글꼴을 포함할지, 서브셋 포함할지, 혹은 제외할지를 제어합니다. 이를 `EmbedAll`로 설정하면 **글꼴을 포함하는 방법**에 대한 답이 명확해집니다—스프레드시트에서 사용된 모든 글리프가 PDF 파일에 포함됩니다.
+
+### Step 4 – 워크북을 PDF로 저장
+
+```csharp
+// Destination path for the PDF
+string outputPath = Path.Combine(Environment.CurrentDirectory, "output.pdf");
+
+// Perform the conversion
+workbook.Save(outputPath, pdfOptions);
+```
+
+이 호출 후 `output.pdf`는 `input.xlsx`와 동일한 시각적 복제본을 포함하며, 모든 글꼴이 포함됩니다. 어떤 PDF 리더에서 열어도 이제 “글꼴 대체” 경고가 나타나지 않습니다.
+
+### Step 5 – 결과 확인 (선택 사항이지만 권장됨)
+
+```csharp
+// Quick verification using Aspose.Pdf (if you have it)
+// This snippet checks that all fonts are indeed embedded.
+using Aspose.Pdf;
+
+// Load the generated PDF
+Document pdfDoc = new Document(outputPath);
+bool allEmbedded = true;
+
+foreach (FontInfo fontInfo in pdfDoc.FontInfo)
+{
+    if (!fontInfo.IsEmbedded)
     {
-        // -------------------------------------------------
-        // Step 1: Load the Excel workbook (your source file)
-        // -------------------------------------------------
-        string inputPath = @"YOUR_DIRECTORY\varSelector.xlsx";
-        Workbook workbook = new Workbook(inputPath);
-
-        // -------------------------------------------------
-        // Step 2: Configure PDF save options to embed fonts
-        // -------------------------------------------------
-        PdfSaveOptions pdfOptions = new PdfSaveOptions
-        {
-            // This flag tells Aspose.Cells to embed all standard fonts
-            EmbedStandardFonts = true,
-
-            // Optional: force embedding of custom fonts as well
-            // EmbedAllFonts = true,   // uncomment if you have custom fonts
-        };
-
-        // -------------------------------------------------
-        // Step 3: Save the workbook as a PDF using the options
-        // -------------------------------------------------
-        string outputPath = @"YOUR_DIRECTORY\out.pdf";
-        workbook.Save(outputPath, pdfOptions);
-
-        Console.WriteLine("PDF generated with embedded fonts at:");
-        Console.WriteLine(outputPath);
+        allEmbedded = false;
+        Console.WriteLine($"Missing embedding for font: {fontInfo.FontName}");
     }
 }
+Console.WriteLine(allEmbedded ? "All fonts are embedded!" : "Some fonts are missing.");
 ```
 
-### 각 라인이 중요한 이유
-
-1. **워크북 로드** – `Workbook`은 진입점이며, XLSX 파일을 파싱하고 모든 시트, 스타일, 수식을 메모리 상에 구성합니다.  
-2. **`PdfSaveOptions`** – 이 객체는 PDF 변환의 모든 세부 사항을 제어합니다. `EmbedStandardFonts = true`로 설정하면 PDF에 Helvetica, Times, Courier, Symbol, ZapfDingbats 패밀리가 포함됩니다. 스프레드시트에 사용자 지정 폰트(예: “Calibri”)가 사용된 경우 `EmbedAllFonts`를 주석 해제하여 강제로 포함시킬 수 있습니다.  
-3. **파일 저장** – `workbook.Save`는 앞서 정의한 옵션을 적용해 PDF를 디스크에 기록합니다. 결과물은 뷰어와 관계없이 동일하게 렌더링되는 자체 포함 PDF입니다.
+Aspose.Pdf가 없을 경우 Adobe Acrobat에서(`File → Properties → Fonts`) 수동으로 확인해도 동일하게 작동합니다.
 
 ---
 
-## 폰트 손실 없이 Excel을 PDF로 변환하기
+## ## Excel을 PDF로 변환 – 일반적인 변형
 
-이제 **폰트를 포함하는 방법**을 알았으니 실제 프로젝트에서 필요할 수 있는 몇 가지 변형을 살펴보겠습니다.
-
-### 웹 API에서 XLSX를 PDF로 내보내기
-
-업로드된 Excel 파일을 받아 PDF로 반환하는 REST 엔드포인트를 구축한다면 동일한 로직을 재사용할 수 있습니다:
+### 특정 워크시트만 내보내기
 
 ```csharp
-[HttpPost("api/excel-to-pdf")]
-public IActionResult ConvertToPdf(IFormFile excelFile)
+PdfSaveOptions opts = new PdfSaveOptions
 {
-    using var stream = excelFile.OpenReadStream();
-    var workbook = new Workbook(stream);
-
-    var pdfOptions = new PdfSaveOptions { EmbedStandardFonts = true };
-    using var pdfStream = new MemoryStream();
-    workbook.Save(pdfStream, pdfOptions);
-    pdfStream.Position = 0;
-
-    return File(pdfStream, "application/pdf", "result.pdf");
-}
-```
-
-*Pro tip*: 서비스 거부 공격을 방지하려면 처리 전에 파일 크기와 유형을 반드시 검증하세요.
-
-### Windows Forms 앱에서 워크북을 PDF로 저장하기
-
-데스크톱 시나리오에서는 `SaveFileDialog`를 통해 사용자가 저장 위치를 선택하도록 할 수 있습니다:
-
-```csharp
-var dlg = new SaveFileDialog
-{
-    Filter = "PDF files (*.pdf)|*.pdf",
-    FileName = "ExportedWorkbook.pdf"
+    FontEmbeddingMode = FontEmbeddingMode.EmbedAll,
+    // Export only the first sheet (zero‑based index)
+    OnePagePerSheet = false,
+    SheetIndex = 0
 };
-
-if (dlg.ShowDialog() == DialogResult.OK)
-{
-    var pdfOpts = new PdfSaveOptions { EmbedStandardFonts = true };
-    workbook.Save(dlg.FileName, pdfOpts);
-    MessageBox.Show("PDF saved with embedded fonts!", "Success");
-}
+workbook.Save("single-sheet.pdf", opts);
 ```
 
-두 코드 스니펫 모두 동일한 핵심 아이디어를 보여줍니다: **PDF로 저장하기 전에 폰트를 포함**합니다.
+### 파일 크기 감소를 위한 서브셋 글꼴 포함
+
+If file size is a concern, you can embed **only the characters actually used**:
+
+```csharp
+pdfOptions.FontEmbeddingMode = FontEmbeddingMode.Subset;
+```
+
+이는 여전히 *글꼴을 포함하는 방법*에 대한 답이지만, 더 가벼운 PDF를 생성합니다—이메일 첨부에 적합합니다.
+
+### 서버에 설치되지 않은 사용자 정의 글꼴 처리
+
+When a workbook references a custom font that isn’t present on the conversion server, Aspose.Cells will fall back to a default font unless you supply the font file:
+
+```csharp
+// Register a custom font folder
+FontConfigs fontConfigs = new FontConfigs();
+fontConfigs.SetFontFolder(@"C:\MyCustomFonts", true);
+pdfOptions.FontConfigs = fontConfigs;
+```
+
+이제 변환 시 사용자 정의 서체를 포함하여 시각적 일관성을 유지할 수 있습니다.
 
 ---
 
-## 흔히 발생하는 문제와 해결 방법
+## ## 워크북을 PDF로 저장 – 모범 사례
 
-| 문제 | 발생 원인 | 해결 방법 |
-|------|-----------|-----------|
-| PDF가 **Calibri** 대신 **Arial**로 표시 | `EmbedStandardFonts`는 기본 5가지 폰트만 포함합니다. 사용자 지정 폰트는 `EmbedAllFonts = true`가 필요하고, 해당 폰트가 서버에 설치돼 있어야 합니다. | `pdfOptions.EmbedAllFonts = true;`를 추가하고 변환이 실행되는 머신에 폰트가 존재하는지 확인합니다. |
-| PDF 파일 크기가 급증 | 큰 사용자 지정 폰트의 모든 글리프를 포함하면 파일 크기가 크게 늘어납니다. | `PdfSaveOptions.FontEmbeddingMode = FontEmbeddingMode.Subset;`을 사용해 실제 사용된 문자만 포함합니다. |
-| **Unicode** 문자(예: 이모지) 누락 | 기본 폰트 세트에 해당 글리프가 없습니다. | “Segoe UI Emoji”와 같은 Unicode 지원 폰트로 전환하고 전체 포함을 활성화합니다. |
-| **macOS**에서 변환 실패 | Aspose.Cells는 일부 렌더링 경로에서 Windows GDI+에 의존합니다. | 최신 Aspose.Cells 버전(.NET Core 지원)으로 업그레이드하거나 Windows 컨테이너에서 변환을 수행합니다. |
-
----
-
-## 폰트가 실제로 포함됐는지 확인하기
-
-프로그램을 실행한 뒤 생성된 `out.pdf`를 Adobe Acrobat Reader에서 엽니다:
-
-1. **Ctrl + D**를 누르거나 **File → Properties** → **Fonts** 탭을 엽니다.  
-2. 각 폰트 옆에 **“Embedded”**라는 단어가 표시되어야 합니다.  
-
-**“Not Embedded”**가 보이면 `EmbedStandardFonts`(또는 `EmbedAllFonts`)가 `true`로 설정돼 있는지, 폰트 파일에 접근 가능한지 다시 확인하세요.
+| Practice | Why It Helps |
+|----------|--------------|
+| **Always set `FontEmbeddingMode = EmbedAll`** | PDF가 모든 환경에서 동일하게 보장됩니다. |
+| **Validate the output** | 누락된 글꼴을 조기에 발견해 이후 문제를 방지합니다. |
+| **Use `OnePagePerSheet = true` only when needed** | 불필요하게 길어진 PDF를 방지해 탐색이 쉬워집니다. |
+| **Keep Aspose.Cells updated** | 최신 버전은 향상된 글꼴 처리와 버그 수정을 제공합니다. |
 
 ---
 
-## 기대 결과
+## ## 스프레드시트를 PDF로 내보내기 – 실제 시나리오
 
-간단한 워크북에 **Calibri Bold** 스타일의 제목이 포함된 상태로 콘솔 앱을 실행하면 다음과 같은 PDF가 생성됩니다:
+Imagine you’re building a reporting service that sends weekly sales dashboards to executives. The dashboards are built in Excel because business analysts love the grid layout. Your backend must generate a PDF each night, embed all corporate fonts, and email the file.
 
-- Excel에서 보이는 그대로 제목이 표시됩니다.  
-- **Fonts** 목록에 “Calibri Bold”가 **Embedded** 상태로 표시됩니다.  
-- 뷰어에 Calibri가 설치돼 있지 않아도 모든 플랫폼에서 올바르게 렌더링됩니다.
+By applying the steps above, you can automate the entire pipeline:
 
-다른 머신이나 Linux 컨테이너에서 PDF를 열어 보면서 문자 누락이 발생하지 않는지 테스트해 보세요.
+1. 공​유 폴더에서 분석가가 만든 워크북을 로드합니다.  
+2. `EmbedAll` 옵션이 포함된 `PdfSaveOptions`를 적용합니다.  
+3. PDF를 임시 위치에 저장합니다.  
+4. PDF를 이메일에 첨부하고 전송합니다.
 
----
-
-## 정리 – 다룬 내용
-
-- `PdfSaveOptions.EmbedStandardFonts`를 이용한 **폰트 포함** 방법  
-- Aspose.Cells를 활용한 전체 **Excel을 PDF로 변환** 워크플로우  
-- 웹 API와 데스크톱 앱에서 **워크북을 PDF로 저장**하는 변형 사례  
-- 엣지 케이스 처리 및 PDF 크기를 적절히 유지하는 팁  
-
-이 모든 내용을 통해 **XLSX를 PDF로 내보내기**와 **Excel에서 PDF 만들기**를 자신 있게 수행하고, 폰트가 파일과 함께 전달되는 것을 보장할 수 있습니다.
+All of this runs on a headless Windows service—no UI, no manual intervention. The result? Executives receive a perfectly rendered PDF every morning, regardless of the fonts installed on their laptops.
 
 ---
 
-## 다음 단계 및 관련 주제
+## ## Excel에서 PDF 만들기 – 자주 묻는 질문
 
-- **PDF 외관 맞춤** – `PdfSaveOptions.PageLayout`, `PdfSaveOptions.ImageResolution`, `PdfSaveOptions.Compliance` 등을 탐색해 PDF/A 또는 PDF/X를 구현합니다.  
-- **워터마크 또는 머리글/바닥글 추가** – `PdfSaveOptions.AddWatermark` 또는 `HeaderFooter` 클래스를 사용합니다.  
-- **여러 워크시트 변환** – `workbook.Worksheets`를 순회하고 `PdfFileEditor`로 PDF를 병합합니다.  
+**Q: 글꼴을 포함하면 PDF 크기가 크게 증가합니까?**  
+A: 특히 대형 글꼴 패밀리의 경우 증가할 수 있습니다. `Subset`으로 전환하면 크기를 줄이면서도 외관을 유지합니다.
 
-폴더에 있는 다수의 Excel 파일을 **일괄 변환**하고 싶다면 “Bulk Excel to PDF conversion with Aspose.Cells” 가이드를 확인해 보세요.  
+**Q: Aspose.Cells에 라이선스가 필요합니까?**  
+A: 라이브러리는 평가 모드에서도 동작하지만, 상용 라이선스를 사용하면 평가 워터마크가 제거되고 전체 기능을 사용할 수 있습니다.
+
+**Q: 원본 Excel이 포함할 수 없는 글꼴(예: 일부 시스템 글꼴)을 사용한다면 어떻게 해야 하나요?**  
+A: Aspose.Cells는 가능한 글꼴을 포함하고 나머지는 유사한 글꼴로 대체합니다. 내보내기 전에 프로그래밍으로 글꼴을 교체할 수도 있습니다.
 
 ---
 
-*이제 폰트를 포함하고 완벽한 PDF를 배포할 준비가 되셨나요?* 코드를 가져가 옵션을 필요에 맞게 조정하면 Excel에서 디자인한 그대로 PDF가 출력됩니다. 즐거운 코딩 되세요!
+## 결론
 
-## 다음에 배워야 할 내용
+We’ve covered **how to embed fonts** when you *convert excel to pdf*, showing you the exact code to **save workbook as pdf** with complete font embedding. You now have a solid, production‑ready pattern for *export spreadsheet to pdf* and *create pdf from excel* tasks.  
 
-다음 튜토리얼들은 이 가이드에서 시연한 기술을 기반으로 하며, 밀접하게 연관된 주제를 다룹니다. 각 리소스는 완전한 코드 예제와 단계별 설명을 제공하여 추가 API 기능을 마스터하고 프로젝트에 다양한 구현 방식을 적용할 수 있도록 돕습니다.
+Give it a spin: try embedding a custom corporate font, experiment with subset embedding, or batch‑process an entire folder of workbooks. When you master font embedding, your PDFs will always look sharp, no matter where they’re opened.
 
-- [Aspose.Cells for .NET을 사용하여 사용자 지정 폰트로 Excel 워크북을 PDF로 저장하기](/cells/english/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
-- [Aspose.Cells Net으로 Excel 워크북 PDF 사용자 지정 폰트 저장](/cells/german/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
-- [Aspose.Cells Net으로 Excel 워크북 PDF 사용자 지정 폰트 저장](/cells/french/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
+---
+
+### 다음 단계
+
+- `PdfFileEditor`를 사용한 **다중 시트 PDF 병합**을 탐색합니다.  
+- 이 접근 방식을 **Aspose.Slides**와 결합해 차트를 이미지로 포함합니다.  
+- 보관용 PDF가 필요하면 **PDF/A 준수**를 검토합니다.  
+
+Got more questions or a tricky edge case? Drop a comment below, and happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

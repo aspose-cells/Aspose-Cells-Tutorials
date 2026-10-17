@@ -31,7 +31,8 @@ A seguir, vamos abordar outro cenário comum: lidar com comentários revelados e
 ### [Ajustar colunas e linhas automaticamente ao carregar HTML na pasta de trabalho](./auto-fitting-columns-and-rows/)
 Aprenda a ajustar colunas e linhas automaticamente ao carregar HTML no Excel usando o Aspose.Cells para .NET. Guia passo a passo incluído.
 ### [Desabilitando comentários revelados de nível inferior ao salvar em HTML](./disabling-downlevel-revealed-comments/)
-Aprenda como desativar comentários revelados de nível inferior ao salvar uma pasta de trabalho do Excel em HTML usando o Aspose.Cells para .NET com este guia passo a passo detalhado.
+### [Criar nova pasta de trabalho em C# – Carregar Excel com calendário japonês](./create-new-workbook-in-c-load-excel-with-japanese-calendar/)
+Aprenda a criar uma nova pasta de trabalho em C# e carregar um arquivo Excel usando o calendário japonês com Aspose.Cells para .NET.
 ### [Ler Arquivo Excel C# – Como Carregar a Pasta de Trabalho Excel C# de Forma Eficiente](./read-excel-file-c-how-to-load-excel-workbook-c-efficiently/)
 Aprenda a carregar rapidamente uma pasta de trabalho Excel em C# usando Aspose.Cells, otimizando desempenho e recursos.
 

@@ -32,6 +32,8 @@ Dále se pojďme zabývat dalším běžným scénářem: řešením komentář�
 Naučte se, jak automaticky přizpůsobit sloupce a řádky při načítání HTML do Excelu pomocí Aspose.Cells pro .NET. Součástí je podrobný návod.
 ### [Zakázání odhalených komentářů nižší úrovně při ukládání do HTML](./disabling-downlevel-revealed-comments/)
 Naučte se, jak zakázat odhalené komentáře nižší úrovně při ukládání sešitu aplikace Excel do HTML pomocí Aspose.Cells pro .NET v tomto podrobném návodu krok za krokem.
+### [Vytvoření nového sešitu v C# – Načtení Excelu s japonským kalendářem](./create-new-workbook-in-c-load-excel-with-japanese-calendar/)
+Naučte se, jak vytvořit nový sešit v C# a načíst Excel s japonským kalendářem pomocí Aspose.Cells pro .NET.
 ### [Čtení souboru Excel C# – Jak efektivně načíst sešit Excel v C#](./read-excel-file-c-how-to-load-excel-workbook-c-efficiently/)
 Naučte se, jak efektivně načíst sešit Excel v C# pomocí Aspose.Cells pro .NET v několika jednoduchých krocích.
 

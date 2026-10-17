@@ -32,10 +32,14 @@ Next up is one of the most visually appealing yet practical operations—merging
 The beauty of this functionality lies in its ease of use. You can merge cells programmatically, which means your formatting can be automated. Imagine creating weekly reports where the header automatically merges every time. With Aspose, this task takes only a few clicks and lines of code. Curious how to do it? Head over to our guide on [Merging Cells in Named Range](./merge-cells-in-named-range/).
 
 ## Advanced Operations with Named Ranges in Excel Tutorials
+### [Create Excel Workbook – Step‑by‑Step Guide to Adding Tables and Naming Rules](./create-excel-workbook-step-by-step-guide-to-adding-tables-an/)
+Learn how to create an Excel workbook, add tables, and apply naming rules using Aspose.Cells for .NET in this step-by-step tutorial.
 ### [Identify Cells in Named Range in Excel](./identify-cells-in-named-range/)
 Effortlessly identify cells in a named range in Excel using Aspose.Cells for .NET with this comprehensive step-by-step tutorial.
 ### [Merge Cells in Named Range in Excel](./merge-cells-in-named-range/)
 Learn how to merge cells in a named range using Aspose.Cells for .NET in this step-by-step tutorial. Discover how to format, style, and automate Excel reports.
+### [Save Excel Workbook and Add Named Range – Full C# Guide](./save-excel-workbook-and-add-named-range-full-c-guide/)
+Save Excel workbook and add a named range using Aspose.Cells for .NET in this comprehensive C# guide.
 ### [Create Excel Workbook in C# – Add Named Range & Set Table Name](./create-excel-workbook-in-c-add-named-range-set-table-name/)
 Create an Excel workbook in C# with Aspose.Cells for .NET, add a named range, and set a table name in this step-by-step tutorial.
 

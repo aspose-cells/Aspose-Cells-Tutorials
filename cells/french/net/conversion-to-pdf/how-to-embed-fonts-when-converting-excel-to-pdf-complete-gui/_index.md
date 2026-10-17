@@ -1,55 +1,29 @@
 ---
 category: general
-date: 2026-07-13
+date: 2026-03-01
 description: Comment intégrer les polices lors de la conversion d’Excel en PDF. Apprenez
-  à exporter XLSX en PDF, à enregistrer le classeur au format PDF et à créer un PDF
-  à partir d’Excel avec les polices intégrées.
+  à enregistrer le classeur au format PDF avec les polices intégrées et à exporter
+  facilement la feuille de calcul en PDF.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - how to embed fonts
 - convert excel to pdf
 - save workbook as pdf
-- export xlsx to pdf
+- export spreadsheet to pdf
 - create pdf from excel
 language: fr
-lastmod: 2026-07-13
 og_description: Comment intégrer les polices lors de la conversion d’Excel en PDF.
-  Suivez ce guide pour exporter un fichier XLSX en PDF, enregistrer le classeur au
-  format PDF et créer un PDF à partir d’Excel avec une fidélité de police parfaite.
-og_image_alt: Screenshot showing an Excel file being saved as a PDF with embedded
-  fonts
-og_title: Comment intégrer les polices lors de la conversion d'Excel en PDF – Guide
-  complet étape par étape
-schemas:
-- author: Aspose
-  dateModified: '2026-07-13'
-  description: How to embed fonts while you convert Excel to PDF. Learn to export
-    XLSX to PDF, save workbook as PDF, and create PDF from Excel with embedded fonts.
-  headline: How to embed fonts when converting Excel to PDF – Complete Guide
-  type: TechArticle
-- description: How to embed fonts while you convert Excel to PDF. Learn to export
-    XLSX to PDF, save workbook as PDF, and create PDF from Excel with embedded fonts.
-  name: How to embed fonts when converting Excel to PDF – Complete Guide
-  steps:
-  - name: Why each line matters
-    text: '1. **Loading the workbook** – `Workbook` is the entry point; it parses
-      the XLSX file and builds an in‑memory representation of all sheets, styles,
-      and formulas. 2. **`PdfSaveOptions`** – This object controls every nuance of
-      the PDF conversion. Setting `EmbedStandardFonts = true` guarantees that the '
-  - name: Export XLSX to PDF in a web API
-    text: 'If you’re building a REST endpoint that receives an uploaded Excel file
-      and returns a PDF, you can reuse the same logic:'
-  - name: Save workbook as PDF in a Windows Forms app
-    text: 'For desktop scenarios, you might want to let the user pick a location via
-      a `SaveFileDialog`:'
-  type: HowTo
+  Suivez ce guide pour enregistrer le classeur au format PDF avec l’intégration complète
+  des polices afin d’obtenir des documents fiables.
+og_title: Comment intégrer des polices lors de la conversion d’Excel en PDF – Étape
+  par étape
 tags:
-- Aspose.Cells
-- .NET
-- PDF generation
-title: Comment intégrer les polices lors de la conversion d’Excel en PDF – Guide complet
+- aspnet
+- csharp
+- pdf
+- excel
+title: Comment incorporer des polices lors de la conversion d'Excel en PDF – Guide
+  complet
 url: /fr/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/
 ---
 
@@ -59,191 +33,198 @@ url: /fr/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-c
 
 # Comment intégrer les polices lors de la conversion d'Excel en PDF – Guide complet
 
-Vous êtes-vous déjà demandé **comment intégrer les polices** lorsque vous **convertissez Excel en PDF** ? Vous n'êtes pas le seul. Les polices manquantes sont un problème fréquent — votre PDF apparaît correctement sur votre machine mais devient un méli‑mélange illisible sur l'ordinateur de quelqu'un d'autre.  
+Vous vous êtes déjà demandé **comment intégrer les polices** afin que votre conversion d'Excel‑vers‑PDF ait exactement le même aspect sur chaque machine ? Vous n'êtes pas le seul. Les polices manquantes sont les coupables silencieux qui transforment une feuille de calcul parfaitement formatée en un désordre illisible une fois affichée dans un visualiseur PDF.  
 
-Dans ce tutoriel, nous allons parcourir une solution propre, de bout en bout, qui **enregistre le classeur en PDF** avec les polices incorporées directement dans le fichier. À la fin, vous pourrez **exporter XLSX en PDF**, **créer un PDF à partir d'Excel**, et ne plus jamais vous soucier des glyphes manquants.
+Dans ce tutoriel, nous parcourrons l’ensemble du processus de conversion d’un fichier Excel en PDF **avec toutes les polices intégrées**, afin que le résultat soit portable, imprimable et ressemble exactement à l’original. En cours de route, nous aborderons également *convert excel to pdf*, *save workbook as pdf*, *export spreadsheet to pdf* et *create pdf from excel* – le tout sans quitter votre code C#.
 
-Nous utiliserons la bibliothèque populaire **Aspose.Cells for .NET** car elle vous offre un contrôle fin sur la sortie PDF, y compris le drapeau crucial `EmbedStandardFonts`. Aucun autre tour de passe‑passe tiers n'est nécessaire, et le code fonctionne sur .NET 6+ et .NET Framework 4.7+.  
+## Ce que vous allez apprendre
 
----
+- Charger un classeur `.xlsx` en utilisant Aspose.Cells (ou toute bibliothèque compatible).  
+- Configurer `PdfSaveOptions` pour forcer l’intégration complète des polices.  
+- Enregistrer le classeur en PDF qui peut être ouvert sur n’importe quel appareil sans avertissements de police manquante.  
+- Conseils pour gérer les cas particuliers tels que les polices personnalisées non installées sur le serveur.  
 
-## Prérequis – ce dont vous avez besoin avant de commencer
-
-- **Visual Studio 2022** (ou tout IDE capable de compiler des projets .NET)  
-- **.NET 6 SDK** (ou .NET Framework 4.7+ si vous préférez le classique)  
-- **Aspose.Cells for .NET** package NuGet (`Install-Package Aspose.Cells`)  
-- Un classeur Excel d'exemple (`varSelector.xlsx`) placé dans un dossier que vous pouvez référencer  
-
-Si vous avez tout cela, vous êtes prêt à plonger.
+**Prérequis** – Vous avez besoin de .NET 6+ (ou .NET Framework 4.7.2+), Visual Studio 2022 (ou tout IDE de votre choix), et du package NuGet Aspose.Cells pour .NET. Aucun autre outil externe n’est requis.
 
 ---
 
-## Comment intégrer les polices lors de la conversion d'Excel en PDF
+## ## Comment intégrer les polices dans l’export PDF
 
-Voici le programme complet, prêt à être exécuté. Il montre les étapes exactes nécessaires pour **créer un PDF à partir d'Excel** tout en garantissant que les polices sont intégrées.
+L’intégration des polices est l’étape clé qui garantit que votre PDF ressemble exactement au fichier Excel source. Vous trouverez ci‑dessous un exemple concis et exécutable qui illustre l’ensemble du flux de travail.
+
+![Capture d’écran de l’aperçu PDF montrant les polices correctement intégrées – comment intégrer les polices dans la conversion d’Excel en PDF](https://example.com/images/pdf-preview.png "comment intégrer les polices dans la conversion d’Excel en PDF")
+
+### Étape 1 – Installer le package NuGet Aspose.Cells
+
+Ouvrez le fichier **.csproj** de votre projet ou utilisez la console du gestionnaire de packages :
+
+```powershell
+Install-Package Aspose.Cells
+```
+
+> **Astuce :** Si vous utilisez .NET CLI, exécutez `dotnet add package Aspose.Cells`. Cela récupère la dernière version stable (en mars 2026, version 23.10).
+
+### Étape 2 – Charger le classeur que vous souhaitez convertir
 
 ```csharp
-using System;
-using Aspose.Cells;               // Aspose.Cells namespace
-using Aspose.Cells.Drawing;       // for PDF options (if needed)
+using Aspose.Cells;
 
-class ExcelToPdfWithEmbeddedFonts
+// Path to your source Excel file
+string inputPath = Path.Combine(Environment.CurrentDirectory, "input.xlsx");
+
+// Load the workbook into memory
+Workbook workbook = new Workbook(inputPath);
+```
+
+**Pourquoi c’est important :** Charger le classeur vous donne accès à toutes les feuilles de calcul, styles et objets incorporés. C’est la base de toute opération d’exportation ultérieure.
+
+### Étape 3 – Créer les options d’enregistrement PDF et activer l’intégration des polices
+
+```csharp
+// Initialise PDF save options
+PdfSaveOptions pdfOptions = new PdfSaveOptions
 {
-    static void Main()
+    // Embed every font used in the workbook
+    FontEmbeddingMode = FontEmbeddingMode.EmbedAll
+};
+```
+
+La propriété `FontEmbeddingMode` contrôle si les polices sont intégrées, partiellement intégrées ou omises. La définir sur `EmbedAll` garantit que **comment intégrer les polices** est résolue de façon définitive — chaque glyphe utilisé dans la feuille de calcul est inclus dans le fichier PDF.
+
+### Étape 4 – Enregistrer le classeur en PDF
+
+```csharp
+// Destination path for the PDF
+string outputPath = Path.Combine(Environment.CurrentDirectory, "output.pdf");
+
+// Perform the conversion
+workbook.Save(outputPath, pdfOptions);
+```
+
+Après cet appel, `output.pdf` contient une réplique visuelle fidèle de `input.xlsx`, avec toutes les polices intégrées. Ouvrez‑le dans n’importe quel lecteur PDF et vous ne verrez plus jamais d’avertissements de « substitution de police ».
+
+### Étape 5 – Vérifier le résultat (Optionnel mais recommandé)
+
+```csharp
+// Quick verification using Aspose.Pdf (if you have it)
+// This snippet checks that all fonts are indeed embedded.
+using Aspose.Pdf;
+
+// Load the generated PDF
+Document pdfDoc = new Document(outputPath);
+bool allEmbedded = true;
+
+foreach (FontInfo fontInfo in pdfDoc.FontInfo)
+{
+    if (!fontInfo.IsEmbedded)
     {
-        // -------------------------------------------------
-        // Step 1: Load the Excel workbook (your source file)
-        // -------------------------------------------------
-        string inputPath = @"YOUR_DIRECTORY\varSelector.xlsx";
-        Workbook workbook = new Workbook(inputPath);
-
-        // -------------------------------------------------
-        // Step 2: Configure PDF save options to embed fonts
-        // -------------------------------------------------
-        PdfSaveOptions pdfOptions = new PdfSaveOptions
-        {
-            // This flag tells Aspose.Cells to embed all standard fonts
-            EmbedStandardFonts = true,
-
-            // Optional: force embedding of custom fonts as well
-            // EmbedAllFonts = true,   // uncomment if you have custom fonts
-        };
-
-        // -------------------------------------------------
-        // Step 3: Save the workbook as a PDF using the options
-        // -------------------------------------------------
-        string outputPath = @"YOUR_DIRECTORY\out.pdf";
-        workbook.Save(outputPath, pdfOptions);
-
-        Console.WriteLine("PDF generated with embedded fonts at:");
-        Console.WriteLine(outputPath);
+        allEmbedded = false;
+        Console.WriteLine($"Missing embedding for font: {fontInfo.FontName}");
     }
 }
+Console.WriteLine(allEmbedded ? "All fonts are embedded!" : "Some fonts are missing.");
 ```
 
-### Pourquoi chaque ligne est importante
-
-1. **Chargement du classeur** – `Workbook` est le point d'entrée ; il analyse le fichier XLSX et construit une représentation en mémoire de toutes les feuilles, styles et formules.  
-2. **`PdfSaveOptions`** – Cet objet contrôle chaque nuance de la conversion PDF. Définir `EmbedStandardFonts = true` garantit que le PDF contient les familles Helvetica, Times, Courier, Symbol et ZapfDingbats. Si votre feuille de calcul utilise une police personnalisée (par ex., “Calibri”), vous pouvez décommenter `EmbedAllFonts` pour forcer son inclusion.  
-3. **Enregistrement du fichier** – `workbook.Save` écrit le PDF sur le disque, en appliquant les options que nous venons de définir. Le résultat est un PDF autonome qui s’affiche de façon identique sur n’importe quel lecteur.
+Si vous n’avez pas Aspose.Pdf, une vérification manuelle dans Adobe Acrobat (`File → Properties → Fonts`) fonctionne tout aussi bien.
 
 ---
 
-## Convertir Excel en PDF sans perdre la fidélité des polices
+## ## Convert Excel to PDF – Variations courantes
 
-Maintenant que vous savez **comment intégrer les polices**, explorons quelques variantes que vous pourriez avoir besoin d’utiliser dans des projets réels.
+### Exporter uniquement une feuille de calcul spécifique
 
-### Exporter XLSX en PDF dans une API Web
-
-Si vous créez un point d’accès REST qui reçoit un fichier Excel téléchargé et renvoie un PDF, vous pouvez réutiliser la même logique :
+Sometimes you only need a single sheet as a PDF:
 
 ```csharp
-[HttpPost("api/excel-to-pdf")]
-public IActionResult ConvertToPdf(IFormFile excelFile)
+PdfSaveOptions opts = new PdfSaveOptions
 {
-    using var stream = excelFile.OpenReadStream();
-    var workbook = new Workbook(stream);
-
-    var pdfOptions = new PdfSaveOptions { EmbedStandardFonts = true };
-    using var pdfStream = new MemoryStream();
-    workbook.Save(pdfStream, pdfOptions);
-    pdfStream.Position = 0;
-
-    return File(pdfStream, "application/pdf", "result.pdf");
-}
-```
-
-*Astuce pro* : validez toujours la taille et le type du fichier entrant avant le traitement afin d’éviter les attaques par déni de service.
-
-### Enregistrer le classeur en PDF dans une application Windows Forms
-
-Pour les scénarios de bureau, vous pouvez laisser l’utilisateur choisir un emplacement via un `SaveFileDialog` :
-
-```csharp
-var dlg = new SaveFileDialog
-{
-    Filter = "PDF files (*.pdf)|*.pdf",
-    FileName = "ExportedWorkbook.pdf"
+    FontEmbeddingMode = FontEmbeddingMode.EmbedAll,
+    // Export only the first sheet (zero‑based index)
+    OnePagePerSheet = false,
+    SheetIndex = 0
 };
-
-if (dlg.ShowDialog() == DialogResult.OK)
-{
-    var pdfOpts = new PdfSaveOptions { EmbedStandardFonts = true };
-    workbook.Save(dlg.FileName, pdfOpts);
-    MessageBox.Show("PDF saved with embedded fonts!", "Success");
-}
+workbook.Save("single-sheet.pdf", opts);
 ```
 
-Les deux extraits illustrent la même idée de base : **intégrer les polices** avant de **sauvegarder le classeur en PDF**.
+### Intégration partielle des polices pour des fichiers plus petits
+
+If file size is a concern, you can embed **only the characters actually used**:
+
+```csharp
+pdfOptions.FontEmbeddingMode = FontEmbeddingMode.Subset;
+```
+
+Cela répond toujours à *how to embed fonts* mais produit un PDF plus léger—idéal pour les pièces jointes d’e‑mail.
+
+### Gestion des polices personnalisées non installées sur le serveur
+
+When a workbook references a custom font that isn’t present on the conversion server, Aspose.Cells will fall back to a default font unless you supply the font file:
+
+```csharp
+// Register a custom font folder
+FontConfigs fontConfigs = new FontConfigs();
+fontConfigs.SetFontFolder(@"C:\MyCustomFonts", true);
+pdfOptions.FontConfigs = fontConfigs;
+```
+
+Désormais, la conversion peut intégrer la police personnalisée, conservant ainsi l’intégrité visuelle.
 
 ---
 
-## Pièges courants et comment les éviter
+## ## Enregistrer le classeur en PDF – Bonnes pratiques
 
-| Problème | Pourquoi cela se produit | Solution |
-|----------|--------------------------|----------|
-| Le PDF affiche **Arial** au lieu de **Calibri** | `EmbedStandardFonts` ne couvre que les cinq polices de base. Les polices personnalisées nécessitent `EmbedAllFonts = true` et la police doit être installée sur le serveur. | Ajoutez `pdfOptions.EmbedAllFonts = true;` et assurez‑vous que la police est présente sur la machine exécutant la conversion. |
-| La taille du PDF explose | L’intégration de chaque glyphe d’une grande police personnalisée peut gonfler le fichier. | Utilisez `PdfSaveOptions.FontEmbeddingMode = FontEmbeddingMode.Subset;` pour n’intégrer que les caractères réellement utilisés. |
-| Caractères **Unicode** manquants (ex. : emojis) | L’ensemble de polices par défaut ne contient pas ces glyphes. | Passez à une police compatible Unicode comme “Segoe UI Emoji” et activez l’intégration complète. |
-| La conversion échoue sur **macOS** | Aspose.Cells s’appuie sur Windows GDI+ pour certains chemins de rendu. | Utilisez la dernière version d’Aspose.Cells (compatible .NET Core sur macOS) ou exécutez la conversion dans un conteneur Windows. |
-
----
-
-## Vérifier que les polices sont réellement intégrées
-
-Après avoir exécuté le programme, ouvrez le `out.pdf` généré avec Adobe Acrobat Reader :
-
-1. Appuyez sur **Ctrl + D** (ou **Fichier → Propriétés** → onglet **Polices**).  
-2. Vous devriez voir chaque police listée avec le mot **« Embedded »** à côté.  
-
-Si vous voyez **« Not Embedded »**, revérifiez que `EmbedStandardFonts` (ou `EmbedAllFonts`) est bien à `true` et que les fichiers de police sont accessibles.
+| Pratique | Pourquoi c’est utile |
+|----------|----------------------|
+| **Toujours définir `FontEmbeddingMode = EmbedAll`** | Garantit que le PDF a le même aspect partout. |
+| **Valider la sortie** | Détecte les polices manquantes tôt, évitant les plaintes en aval. |
+| **Utiliser `OnePagePerSheet = true` uniquement lorsque nécessaire** | Évite les PDF inutilement longs qui sont difficiles à parcourir. |
+| **Maintenir Aspose.Cells à jour** | Les nouvelles versions offrent une meilleure gestion des polices et corrigent des bugs. |
 
 ---
 
-## Résultat attendu
+## ## Exporter une feuille de calcul en PDF – Scénario réel
 
-L’exécution de l’application console avec un classeur simple contenant un titre stylisé en **Calibri Bold** produira un PDF qui :
+Imaginez que vous construisez un service de reporting qui envoie chaque semaine des tableaux de bord de ventes aux dirigeants. Les tableaux de bord sont créés dans Excel parce que les analystes métier adorent la mise en page en grille. Votre backend doit générer un PDF chaque nuit, intégrer toutes les polices d’entreprise, et envoyer le fichier par e‑mail.
 
-- Affiche le titre exactement comme il apparaît dans Excel.  
-- Montre “Calibri Bold” dans la liste **Polices** avec le statut **Embedded**.  
-- S’affiche correctement sur n’importe quelle plateforme, même si le lecteur n’a pas Calibri installé.
+En appliquant les étapes ci‑dessus, vous pouvez automatiser l’ensemble du pipeline :
 
-Vous pouvez tester le résultat en ouvrant le PDF sur une machine différente ou dans un conteneur Linux — aucun caractère manquant ne devrait apparaître.
+1. Charger le classeur généré par l’analyste depuis un dossier partagé.  
+2. Appliquer `PdfSaveOptions` avec `EmbedAll`.  
+3. Enregistrer le PDF dans un emplacement temporaire.  
+4. Joindre le PDF à un e‑mail et l’envoyer.
 
----
-
-## Récapitulatif – ce que nous avons couvert
-
-- **Comment intégrer les polices** avec `PdfSaveOptions.EmbedStandardFonts`.  
-- Le flux complet de **conversion d'Excel en PDF** avec Aspose.Cells.  
-- Variantes pour **sauvegarder le classeur en PDF** dans les API Web et les applications de bureau.  
-- Gestion des cas limites et astuces pour garder la taille du PDF raisonnable.  
-
-Tout cela vous permet d’**exporter XLSX en PDF** et de **créer un PDF à partir d'Excel** en étant certain que les polices voyagent avec le fichier.
+Tout cela s’exécute sur un service Windows sans interface—pas d’UI, pas d’intervention manuelle. Le résultat ? Les dirigeants reçoivent chaque matin un PDF parfaitement rendu, quel que soit les polices installées sur leurs ordinateurs portables.
 
 ---
 
-## Prochaines étapes & sujets associés
+## ## Créer un PDF à partir d’Excel – FAQ
 
-- **Personnaliser l’apparence du PDF** – explorez `PdfSaveOptions.PageLayout`, `PdfSaveOptions.ImageResolution` et `PdfSaveOptions.Compliance` pour PDF/A ou PDF/X.  
-- **Ajouter des filigranes ou des en‑têtes/pieds de page** – utilisez `PdfSaveOptions.AddWatermark` ou les classes `HeaderFooter`.  
-- **Convertir plusieurs feuilles** – parcourez `workbook.Worksheets` et fusionnez les PDF avec `PdfFileEditor`.  
+**Q : L’intégration des polices augmentera‑t‑elle la taille du PDF de façon spectaculaire ?**  
+R : Cela peut arriver, surtout avec de grandes familles de polices. Passer à `Subset` réduit la taille tout en conservant l’apparence.
 
-Si la **conversion en lot** d’un dossier de fichiers Excel vous intéresse, consultez notre guide « Bulk Excel to PDF conversion with Aspose.Cells ».
+**Q : Ai‑je besoin d’une licence pour Aspose.Cells ?**  
+R : La bibliothèque fonctionne en mode d’évaluation, mais une licence commerciale supprime le filigrane d’évaluation et débloque toutes les fonctionnalités.
+
+**Q : Que se passe‑t‑il si le fichier Excel source utilise une police non intégrable (par ex., certaines polices système) ?**  
+R : Aspose.Cells intégrera ce qu’il peut et utilisera une police similaire pour le reste. Vous pouvez également remplacer la police par programme avant l’exportation.
 
 ---
 
-*Prêt à intégrer ces polices et à livrer des PDF impeccables ?* Récupérez le code, ajustez les options selon vos besoins, et laissez vos PDF ressembler exactement à ce que vous avez conçu dans Excel. Bon codage !
+## Conclusion
 
+Nous avons couvert **comment intégrer les polices** lorsque vous *convert excel to pdf*, en vous montrant le code exact pour **save workbook as pdf** avec une intégration complète des polices. Vous disposez maintenant d’un modèle solide, prêt pour la production, pour les tâches *export spreadsheet to pdf* et *create pdf from excel*.
 
-## Que devriez‑vous apprendre ensuite ?
+Essayez‑le : intégrez une police d’entreprise personnalisée, expérimentez l’intégration partielle, ou traitez par lots un dossier complet de classeurs. Lorsque vous maîtrisez l’intégration des polices, vos PDF seront toujours nets, quel que soit l’endroit où ils sont ouverts.
 
+---
 
-Les tutoriels suivants couvrent des sujets étroitement liés qui s’appuient sur les techniques démontrées dans ce guide. Chaque ressource inclut des exemples de code complets et fonctionnels avec des explications pas à pas pour vous aider à maîtriser des fonctionnalités API supplémentaires et à explorer des approches d’implémentation alternatives dans vos propres projets.
+### Prochaines étapes
 
-- [Save Excel Workbook as PDF with Custom Fonts using Aspose.Cells for .NET](/cells/english/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
-- [Save Excel Workbook Pdf Custom Fonts Aspose Cells Net](/cells/german/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
-- [Save Excel Workbook Pdf Custom Fonts Aspose Cells Net](/cells/french/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
+- Explorer la **fusion de PDF multi‑feuilles** avec `PdfFileEditor`.  
+- Combiner cette approche avec **Aspose.Slides** pour intégrer les graphiques sous forme d’images.  
+- Examiner la **conformité PDF/A** si vous avez besoin de PDF de niveau archivage.  
+
+Vous avez d’autres questions ou un cas particulier difficile ? Laissez un commentaire ci‑dessous, et bon codage !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

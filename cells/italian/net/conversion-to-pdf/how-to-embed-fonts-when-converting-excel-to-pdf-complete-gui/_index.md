@@ -1,55 +1,28 @@
 ---
 category: general
-date: 2026-07-13
+date: 2026-03-01
 description: Come incorporare i caratteri durante la conversione di Excel in PDF.
-  Impara a esportare XLSX in PDF, salvare la cartella di lavoro come PDF e creare
-  PDF da Excel con i caratteri incorporati.
+  Impara a salvare la cartella di lavoro come PDF con i caratteri incorporati ed esportare
+  facilmente il foglio di calcolo in PDF.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - how to embed fonts
 - convert excel to pdf
 - save workbook as pdf
-- export xlsx to pdf
+- export spreadsheet to pdf
 - create pdf from excel
 language: it
-lastmod: 2026-07-13
-og_description: Come incorporare i caratteri durante la conversione di Excel in PDF.
-  Segui questa guida per esportare XLSX in PDF, salvare la cartella di lavoro come
-  PDF e creare PDF da Excel con perfetta fedeltà dei caratteri.
-og_image_alt: Screenshot showing an Excel file being saved as a PDF with embedded
-  fonts
-og_title: Come incorporare i font durante la conversione da Excel a PDF – Guida completa
-  passo passo
-schemas:
-- author: Aspose
-  dateModified: '2026-07-13'
-  description: How to embed fonts while you convert Excel to PDF. Learn to export
-    XLSX to PDF, save workbook as PDF, and create PDF from Excel with embedded fonts.
-  headline: How to embed fonts when converting Excel to PDF – Complete Guide
-  type: TechArticle
-- description: How to embed fonts while you convert Excel to PDF. Learn to export
-    XLSX to PDF, save workbook as PDF, and create PDF from Excel with embedded fonts.
-  name: How to embed fonts when converting Excel to PDF – Complete Guide
-  steps:
-  - name: Why each line matters
-    text: '1. **Loading the workbook** – `Workbook` is the entry point; it parses
-      the XLSX file and builds an in‑memory representation of all sheets, styles,
-      and formulas. 2. **`PdfSaveOptions`** – This object controls every nuance of
-      the PDF conversion. Setting `EmbedStandardFonts = true` guarantees that the '
-  - name: Export XLSX to PDF in a web API
-    text: 'If you’re building a REST endpoint that receives an uploaded Excel file
-      and returns a PDF, you can reuse the same logic:'
-  - name: Save workbook as PDF in a Windows Forms app
-    text: 'For desktop scenarios, you might want to let the user pick a location via
-      a `SaveFileDialog`:'
-  type: HowTo
+og_description: Come incorporare i caratteri nella conversione da Excel a PDF. Segui
+  questa guida per salvare la cartella di lavoro come PDF con l'incorporamento completo
+  dei caratteri per documenti affidabili.
+og_title: Come incorporare i font durante la conversione di Excel in PDF – Passo dopo
+  passo
 tags:
-- Aspose.Cells
-- .NET
-- PDF generation
-title: Come incorporare i font durante la conversione da Excel a PDF – Guida completa
+- aspnet
+- csharp
+- pdf
+- excel
+title: Come incorporare i font durante la conversione di Excel in PDF – Guida completa
 url: /it/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/
 ---
 
@@ -57,189 +30,200 @@ url: /it/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-c
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Come incorporare i font durante la conversione da Excel a PDF – Guida completa
+# Come incorporare i caratteri durante la conversione da Excel a PDF – Guida completa
 
-Ti sei mai chiesto **come incorporare i font** quando **converti Excel in PDF**? Non sei l'unico. I font mancanti sono un problema comune: il tuo PDF sembra a posto sul tuo computer, ma diventa un pasticcio incomprensibile sul computer di qualcun altro.  
+Ti sei mai chiesto **come incorporare i caratteri** in modo che la tua conversione da Excel a PDF abbia esattamente lo stesso aspetto su ogni macchina? Non sei l’unico. I caratteri mancanti sono i colpevoli silenziosi che trasformano un foglio di calcolo perfettamente formattato in un caos illeggibile una volta visualizzato in un lettore PDF.  
 
-In questo tutorial percorreremo una soluzione pulita, end‑to‑end, che **salva la cartella di lavoro come PDF** con i font incorporati direttamente nel file. Alla fine sarai in grado di **esportare XLSX in PDF**, **creare PDF da Excel**, e non dovrai più preoccuparti dei glifi mancanti.  
+In questo tutorial percorreremo l’intero processo di conversione di un file Excel in PDF **con tutti i caratteri incorporati**, così il risultato è portabile, stampabile e appare esattamente come l’originale. Lungo il percorso tratteremo anche *convert excel to pdf*, *save workbook as pdf*, *export spreadsheet to pdf* e *create pdf from excel* – il tutto senza uscire dal tuo codice C#.
 
-Utilizzeremo la popolare libreria **Aspose.Cells for .NET** perché ti offre un controllo dettagliato sull'output PDF, incluso il fondamentale flag `EmbedStandardFonts`. Non sono necessari altri trucchi di terze parti, e il codice funziona su .NET 6+ e .NET Framework 4.7+.  
+## Cosa imparerai
 
----
+- Carica una cartella di lavoro `.xlsx` usando Aspose.Cells (o qualsiasi libreria compatibile).  
+- Configura `PdfSaveOptions` per forzare l’incorporamento completo dei caratteri.  
+- Salva la cartella di lavoro come PDF che può essere aperto su qualsiasi dispositivo senza avvisi di caratteri mancanti.  
+- Suggerimenti per gestire casi limite, come caratteri personalizzati non installati sul server.  
 
-## Prerequisiti – cosa ti serve prima di iniziare
-
-- **Visual Studio 2022** (o qualsiasi IDE in grado di compilare progetti .NET)  
-- **.NET 6 SDK** (o .NET Framework 4.7+ se preferisci la versione classica)  
-- **Aspose.Cells for .NET** pacchetto NuGet (`Install-Package Aspose.Cells`)  
-- Un file di esempio Excel (`varSelector.xlsx`) posizionato in una cartella a cui puoi fare riferimento  
-
-Se hai tutto questo, sei pronto per immergerti.
+**Prerequisiti** – Hai bisogno di .NET 6+ (o .NET Framework 4.7.2+), Visual Studio 2022 (o qualsiasi IDE tu preferisca) e del pacchetto NuGet Aspose.Cells per .NET. Non sono richiesti altri strumenti esterni.
 
 ---
 
-## Come incorporare i font durante la conversione da Excel a PDF
+## ## Come incorporare i caratteri nella esportazione PDF
 
-Di seguito trovi il programma completo, pronto per l'esecuzione. Dimostra i passaggi esatti necessari per **creare PDF da Excel** garantendo che i font siano incorporati.
+L’incorporamento dei caratteri è il passaggio chiave che garantisce che il tuo PDF abbia un aspetto identico al file Excel di origine. Di seguito trovi un esempio conciso e eseguibile che dimostra l’intero flusso di lavoro.
+
+![Screenshot dell’anteprima PDF che mostra i caratteri correttamente incorporati – come incorporare i caratteri nella conversione da Excel a PDF](https://example.com/images/pdf-preview.png "come incorporare i caratteri nella conversione da Excel a PDF")
+
+### Passo 1 – Installa il pacchetto NuGet Aspose.Cells
+
+Apri il file **.csproj** del tuo progetto o usa la Console di Gestione Pacchetti:
+
+```powershell
+Install-Package Aspose.Cells
+```
+
+> **Suggerimento professionale:** Se stai usando .NET CLI, esegui `dotnet add package Aspose.Cells`. Questo scarica l’ultima versione stabile (a partire da marzo 2026, versione 23.10).
+
+### Passo 2 – Carica la cartella di lavoro che vuoi convertire
 
 ```csharp
-using System;
-using Aspose.Cells;               // Aspose.Cells namespace
-using Aspose.Cells.Drawing;       // for PDF options (if needed)
+using Aspose.Cells;
 
-class ExcelToPdfWithEmbeddedFonts
+// Path to your source Excel file
+string inputPath = Path.Combine(Environment.CurrentDirectory, "input.xlsx");
+
+// Load the workbook into memory
+Workbook workbook = new Workbook(inputPath);
+```
+
+**Perché è importante:** Caricare la cartella di lavoro ti dà accesso a tutti i fogli, gli stili e gli oggetti incorporati. È la base per qualsiasi operazione di esportazione successiva.
+
+### Passo 3 – Crea le opzioni di salvataggio PDF e attiva l’incorporamento dei caratteri
+
+```csharp
+// Initialise PDF save options
+PdfSaveOptions pdfOptions = new PdfSaveOptions
 {
-    static void Main()
+    // Embed every font used in the workbook
+    FontEmbeddingMode = FontEmbeddingMode.EmbedAll
+};
+```
+
+La proprietà `FontEmbeddingMode` controlla se i caratteri sono incorporati, incorporati parzialmente o omessi. Impostandola su `EmbedAll` garantisce che **come incorporare i caratteri** sia risposto in modo definitivo—ogni glifo usato nel foglio di calcolo è inserito all’interno del file PDF.
+
+### Passo 4 – Salva la cartella di lavoro come PDF
+
+```csharp
+// Destination path for the PDF
+string outputPath = Path.Combine(Environment.CurrentDirectory, "output.pdf");
+
+// Perform the conversion
+workbook.Save(outputPath, pdfOptions);
+```
+
+Dopo questa chiamata, `output.pdf` contiene una fedele replica visiva di `input.xlsx`, completa di tutti i caratteri incorporati. Aprilo in qualsiasi lettore PDF e non vedrai più avvisi di “sostituzione del carattere”.
+
+### Passo 5 – Verifica il risultato (opzionale ma consigliato)
+
+```csharp
+// Quick verification using Aspose.Pdf (if you have it)
+// This snippet checks that all fonts are indeed embedded.
+using Aspose.Pdf;
+
+// Load the generated PDF
+Document pdfDoc = new Document(outputPath);
+bool allEmbedded = true;
+
+foreach (FontInfo fontInfo in pdfDoc.FontInfo)
+{
+    if (!fontInfo.IsEmbedded)
     {
-        // -------------------------------------------------
-        // Step 1: Load the Excel workbook (your source file)
-        // -------------------------------------------------
-        string inputPath = @"YOUR_DIRECTORY\varSelector.xlsx";
-        Workbook workbook = new Workbook(inputPath);
-
-        // -------------------------------------------------
-        // Step 2: Configure PDF save options to embed fonts
-        // -------------------------------------------------
-        PdfSaveOptions pdfOptions = new PdfSaveOptions
-        {
-            // This flag tells Aspose.Cells to embed all standard fonts
-            EmbedStandardFonts = true,
-
-            // Optional: force embedding of custom fonts as well
-            // EmbedAllFonts = true,   // uncomment if you have custom fonts
-        };
-
-        // -------------------------------------------------
-        // Step 3: Save the workbook as a PDF using the options
-        // -------------------------------------------------
-        string outputPath = @"YOUR_DIRECTORY\out.pdf";
-        workbook.Save(outputPath, pdfOptions);
-
-        Console.WriteLine("PDF generated with embedded fonts at:");
-        Console.WriteLine(outputPath);
+        allEmbedded = false;
+        Console.WriteLine($"Missing embedding for font: {fontInfo.FontName}");
     }
 }
+Console.WriteLine(allEmbedded ? "All fonts are embedded!" : "Some fonts are missing.");
 ```
 
-### Perché ogni riga è importante
-
-1. **Caricamento della cartella di lavoro** – `Workbook` è il punto di ingresso; analizza il file XLSX e costruisce una rappresentazione in memoria di tutti i fogli, gli stili e le formule.  
-2. **`PdfSaveOptions`** – Questo oggetto controlla ogni dettaglio della conversione PDF. Impostare `EmbedStandardFonts = true` garantisce che il PDF contenga le famiglie Helvetica, Times, Courier, Symbol e ZapfDingbats. Se il tuo foglio di calcolo utilizza un font personalizzato (ad esempio “Calibri”), puoi decommentare `EmbedAllFonts` per forzarne l'inclusione.  
-3. **Salvataggio del file** – `workbook.Save` scrive il PDF su disco, applicando le opzioni appena definite. Il risultato è un PDF autonomo che viene visualizzato identicamente su qualsiasi visualizzatore.
+Se non hai Aspose.Pdf, un controllo manuale in Adobe Acrobat (`File → Properties → Fonts`) funziona altrettanto bene.
 
 ---
 
-## Converti Excel in PDF senza perdere la fedeltà dei font
+## ## Convert Excel to PDF – Variazioni comuni
 
-Ora che sai **come incorporare i font**, esploriamo un paio di varianti che potresti necessitare nei progetti reali.
+### Esporta solo un foglio specifico
 
-### Esporta XLSX in PDF in una Web API
-
-Se stai costruendo un endpoint REST che riceve un file Excel caricato e restituisce un PDF, puoi riutilizzare la stessa logica:
+A volte ti serve un solo foglio come PDF:
 
 ```csharp
-[HttpPost("api/excel-to-pdf")]
-public IActionResult ConvertToPdf(IFormFile excelFile)
+PdfSaveOptions opts = new PdfSaveOptions
 {
-    using var stream = excelFile.OpenReadStream();
-    var workbook = new Workbook(stream);
-
-    var pdfOptions = new PdfSaveOptions { EmbedStandardFonts = true };
-    using var pdfStream = new MemoryStream();
-    workbook.Save(pdfStream, pdfOptions);
-    pdfStream.Position = 0;
-
-    return File(pdfStream, "application/pdf", "result.pdf");
-}
-```
-
-*Consiglio professionale*: Valida sempre la dimensione e il tipo del file in ingresso prima di elaborarlo per evitare attacchi di denial‑of‑service.
-
-### Salva la cartella di lavoro come PDF in un'app Windows Forms
-
-Per scenari desktop, potresti voler consentire all'utente di scegliere una posizione tramite un `SaveFileDialog`:
-
-```csharp
-var dlg = new SaveFileDialog
-{
-    Filter = "PDF files (*.pdf)|*.pdf",
-    FileName = "ExportedWorkbook.pdf"
+    FontEmbeddingMode = FontEmbeddingMode.EmbedAll,
+    // Export only the first sheet (zero‑based index)
+    OnePagePerSheet = false,
+    SheetIndex = 0
 };
-
-if (dlg.ShowDialog() == DialogResult.OK)
-{
-    var pdfOpts = new PdfSaveOptions { EmbedStandardFonts = true };
-    workbook.Save(dlg.FileName, pdfOpts);
-    MessageBox.Show("PDF saved with embedded fonts!", "Success");
-}
+workbook.Save("single-sheet.pdf", opts);
 ```
 
-Entrambi gli snippet illustrano la stessa idea fondamentale: **incorporare i font** prima di **salvare la cartella di lavoro come PDF**.
+### Incorporamento parziale dei caratteri per file più piccoli
+
+Se le dimensioni del file sono una preoccupazione, puoi incorporare **solo i caratteri effettivamente usati**:
+
+```csharp
+pdfOptions.FontEmbeddingMode = FontEmbeddingMode.Subset;
+```
+
+Questo risponde ancora a *how to embed fonts* ma produce un PDF più leggero—ideale per allegati email.
+
+### Gestione dei caratteri personalizzati non installati sul server
+
+Quando una cartella di lavoro fa riferimento a un carattere personalizzato che non è presente sul server di conversione, Aspose.Cells ricadrà su un carattere predefinito a meno che tu non fornisca il file del carattere:
+
+```csharp
+// Register a custom font folder
+FontConfigs fontConfigs = new FontConfigs();
+fontConfigs.SetFontFolder(@"C:\MyCustomFonts", true);
+pdfOptions.FontConfigs = fontConfigs;
+```
+
+Ora la conversione può incorporare il tipo di carattere personalizzato, mantenendo intatta la fedeltà visiva.
 
 ---
 
-## Problemi comuni e come evitarli
+## ## Salva cartella di lavoro come PDF – Best Practices
 
-| Problema | Perché succede | Soluzione |
-|----------|----------------|-----------|
-| Il PDF mostra **Arial** invece di **Calibri** | `EmbedStandardFonts` copre solo i cinque font di base. I font personalizzati richiedono `EmbedAllFonts = true` e il font deve essere installato sul server. | Aggiungi `pdfOptions.EmbedAllFonts = true;` e assicurati che il font sia presente sulla macchina che esegue la conversione. |
-| La dimensione del PDF aumenta notevolmente | Incorporare ogni glifo di un font personalizzato grande può gonfiare il file. | Usa `PdfSaveOptions.FontEmbeddingMode = FontEmbeddingMode.Subset;` per incorporare solo i caratteri utilizzati. |
-| Caratteri **Unicode** mancanti (ad es., emoji) | Il set di font predefinito non contiene quei glifi. | Passa a un font con supporto Unicode come “Segoe UI Emoji” e abilita l'incorporamento completo. |
-| Conversione fallisce su **macOS** | Aspose.Cells si basa su Windows GDI+ per alcuni percorsi di rendering. | Usa l'ultima versione di Aspose.Cells (supporta .NET Core su macOS) o esegui la conversione in un container Windows. |
-
----
-
-## Verificare che i font siano davvero incorporati
-
-Dopo aver eseguito il programma, apri il `out.pdf` generato in Adobe Acrobat Reader:
-
-1. Premi **Ctrl + D** (o **File → Properties** → scheda **Fonts**).  
-2. Dovresti vedere ogni font elencato con la parola **“Embedded”** accanto.  
-
-Se vedi **“Not Embedded”**, ricontrolla che `EmbedStandardFonts` (o `EmbedAllFonts`) sia impostato su `true` e che i file dei font siano accessibili.
+| Pratica | Perché è utile |
+|----------|----------------|
+| **Imposta sempre `FontEmbeddingMode = EmbedAll`** | Garantisce che il PDF abbia lo stesso aspetto ovunque. |
+| **Convalida l'output** | Rileva i caratteri mancanti in anticipo, evitando reclami successivi. |
+| **Usa `OnePagePerSheet = true` solo quando necessario** | Previene PDF eccessivamente lunghi e difficili da navigare. |
+| **Mantieni Aspose.Cells aggiornato** | Le nuove versioni migliorano la gestione dei caratteri e correggono bug. |
 
 ---
 
-## Output previsto
+## ## Export Spreadsheet to PDF – Scenario reale
 
-Eseguendo l'app console con una cartella di lavoro semplice che contiene un titolo formattato con **Calibri Bold** produrrà un PDF che:
+Immagina di dover creare un servizio di reporting che invia dashboard di vendite settimanali ai dirigenti. I dashboard sono costruiti in Excel perché gli analisti aziendali amano il layout a griglia. Il tuo backend deve generare un PDF ogni notte, incorporare tutti i caratteri aziendali e inviare il file via email.
 
-- Visualizza il titolo esattamente come appare in Excel.  
-- Mostra “Calibri Bold” nella lista **Fonts** con lo stato **Embedded**.  
-- Viene renderizzato correttamente su qualsiasi piattaforma, anche se il visualizzatore non ha Calibri installato.  
+Applicando i passaggi sopra, puoi automatizzare l’intera pipeline:
 
-Puoi testare il risultato aprendo il PDF su un altro computer o in un container Linux—non dovrebbero comparire caratteri mancanti.
+1. Carica la cartella di lavoro generata dagli analisti da una cartella condivisa.  
+2. Applica `PdfSaveOptions` con `EmbedAll`.  
+3. Salva il PDF in una posizione temporanea.  
+4. Allega il PDF a un'email e invialo.  
 
----
-
-## Riepilogo – cosa abbiamo coperto
-
-- **Come incorporare i font** usando `PdfSaveOptions.EmbedStandardFonts`.  
-- Il flusso completo **convert Excel to PDF** con Aspose.Cells.  
-- Varianti per **save workbook as PDF** in API web e app desktop.  
-- Gestione dei casi limite e consigli per mantenere ragionevole la dimensione del PDF.  
-
-Tutto ciò ti consente di **esportare XLSX in PDF** e **creare PDF da Excel** con la certezza che i font viaggino con il file.
+Tutto questo gira su un servizio Windows senza interfaccia—nessuna UI, nessun intervento manuale. Il risultato? I dirigenti ricevono un PDF perfettamente renderizzato ogni mattina, indipendentemente dai caratteri installati sui loro laptop.
 
 ---
 
-## Prossimi passi e argomenti correlati
+## ## Create PDF from Excel – Domande frequenti
 
-- **Personalizza l'aspetto del PDF** – esplora `PdfSaveOptions.PageLayout`, `PdfSaveOptions.ImageResolution` e `PdfSaveOptions.Compliance` per PDF/A o PDF/X.  
-- **Aggiungi filigrane o intestazioni/piè di pagina** – usa `PdfSaveOptions.AddWatermark` o le classi `HeaderFooter`.  
-- **Converti più fogli di lavoro** – itera su `workbook.Worksheets` e unisci PDF con `PdfFileEditor`.  
+**D: L’incorporamento dei caratteri aumenterà notevolmente le dimensioni del PDF?**  
+R: Può, soprattutto con famiglie di caratteri grandi. Passare a `Subset` riduce le dimensioni mantenendo comunque l’aspetto.
 
-Se sei curioso di **convertire in batch** una cartella di file Excel, dai un'occhiata alla nostra guida su “Bulk Excel to PDF conversion with Aspose.Cells”.  
+**D: Ho bisogno di una licenza per Aspose.Cells?**  
+R: La libreria funziona in modalità valutazione, ma una licenza commerciale rimuove il watermark di valutazione e sblocca tutte le funzionalità.
 
-*Pronto a incorporare quei font e distribuire PDF impeccabili?* Prendi il codice, modifica le opzioni secondo le tue esigenze, e lascia che i tuoi PDF appaiano esattamente come li hai progettati in Excel. Buon coding!
+**D: Cosa succede se l’Excel di origine utilizza un carattere non incorporabile (ad esempio alcuni caratteri di sistema)?**  
+R: Aspose.Cells incorporerà ciò che può e ricadrà su un carattere simile per il resto. Puoi anche sostituire il carattere programmaticamente prima dell’esportazione.
 
-## Cosa dovresti imparare dopo?
+---
 
-I tutorial seguenti coprono argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi e funzionanti con spiegazioni passo‑passo per aiutarti a padroneggiare funzionalità API aggiuntive ed esplorare approcci di implementazione alternativi nei tuoi progetti.
+## Conclusione
 
-- [Salva la cartella di lavoro Excel come PDF con font personalizzati usando Aspose.Cells per .NET](/cells/english/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
-- [Salva la cartella di lavoro Excel PDF con font personalizzati Aspose Cells Net](/cells/german/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
-- [Salva la cartella di lavoro Excel PDF con font personalizzati Aspose Cells Net](/cells/french/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
+Abbiamo coperto **come incorporare i caratteri** quando *convert excel to pdf*, mostrandoti il codice esatto per **save workbook as pdf** con incorporamento completo dei caratteri. Ora disponi di un modello solido, pronto per la produzione, per le attività di *export spreadsheet to pdf* e *create pdf from excel*.  
+
+Provalo: prova a incorporare un carattere aziendale personalizzato, sperimenta l’incorporamento parziale o elabora in batch un’intera cartella di cartelle di lavoro. Quando padroneggerai l’incorporamento dei caratteri, i tuoi PDF saranno sempre nitidi, ovunque vengano aperti.
+
+---
+
+### Prossimi passi
+
+- Esplora **l’unione di PDF a più fogli** usando `PdfFileEditor`.  
+- Combina questo approccio con **Aspose.Slides** per incorporare grafici come immagini.  
+- Esamina la **conformità PDF/A** se ti servono PDF di livello archivistico.  
+
+Hai altre domande o un caso limite difficile? Lascia un commento qui sotto, e buona programmazione!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

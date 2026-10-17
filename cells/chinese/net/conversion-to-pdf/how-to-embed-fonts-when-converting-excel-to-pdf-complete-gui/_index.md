@@ -1,51 +1,22 @@
 ---
 category: general
-date: 2026-07-13
-description: 如何在将 Excel 转换为 PDF 时嵌入字体。学习将 XLSX 导出为 PDF、将工作簿另存为 PDF，以及使用嵌入字体从 Excel
-  创建 PDF。
+date: 2026-03-01
+description: 如何在将 Excel 转换为 PDF 时嵌入字体。学习如何将工作簿保存为带嵌入字体的 PDF，并轻松导出电子表格为 PDF。
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - how to embed fonts
 - convert excel to pdf
 - save workbook as pdf
-- export xlsx to pdf
+- export spreadsheet to pdf
 - create pdf from excel
 language: zh
-lastmod: 2026-07-13
-og_description: 如何在将 Excel 转换为 PDF 时嵌入字体。请按照本指南导出 XLSX 为 PDF、将工作簿另存为 PDF，并从 Excel
-  创建 PDF，确保字体完美保真。
-og_image_alt: Screenshot showing an Excel file being saved as a PDF with embedded
-  fonts
-og_title: 将 Excel 转换为 PDF 时如何嵌入字体 – 完整逐步指南
-schemas:
-- author: Aspose
-  dateModified: '2026-07-13'
-  description: How to embed fonts while you convert Excel to PDF. Learn to export
-    XLSX to PDF, save workbook as PDF, and create PDF from Excel with embedded fonts.
-  headline: How to embed fonts when converting Excel to PDF – Complete Guide
-  type: TechArticle
-- description: How to embed fonts while you convert Excel to PDF. Learn to export
-    XLSX to PDF, save workbook as PDF, and create PDF from Excel with embedded fonts.
-  name: How to embed fonts when converting Excel to PDF – Complete Guide
-  steps:
-  - name: Why each line matters
-    text: '1. **Loading the workbook** – `Workbook` is the entry point; it parses
-      the XLSX file and builds an in‑memory representation of all sheets, styles,
-      and formulas. 2. **`PdfSaveOptions`** – This object controls every nuance of
-      the PDF conversion. Setting `EmbedStandardFonts = true` guarantees that the '
-  - name: Export XLSX to PDF in a web API
-    text: 'If you’re building a REST endpoint that receives an uploaded Excel file
-      and returns a PDF, you can reuse the same logic:'
-  - name: Save workbook as PDF in a Windows Forms app
-    text: 'For desktop scenarios, you might want to let the user pick a location via
-      a `SaveFileDialog`:'
-  type: HowTo
+og_description: 如何在 Excel 转 PDF 时嵌入字体。请按照本指南将工作簿保存为 PDF，并完整嵌入字体，以确保文档可靠。
+og_title: 将 Excel 转换为 PDF 时如何嵌入字体 – 步骤指南
 tags:
-- Aspose.Cells
-- .NET
-- PDF generation
+- aspnet
+- csharp
+- pdf
+- excel
 title: 将 Excel 转换为 PDF 时如何嵌入字体 – 完整指南
 url: /zh/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/
 ---
@@ -54,193 +25,200 @@ url: /zh/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-c
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 将 Excel 转换为 PDF 时嵌入字体 – 完整指南
+# 在将 Excel 转换为 PDF 时嵌入字体 – 完整指南
 
-是否曾想过 **如何在将 Excel 转换为 PDF 时嵌入字体**？你并不是唯一有此困惑的人。缺失字体是常见的头疼问题——你的 PDF 在自己的机器上显示正常，但在别人的电脑上却变成乱码。  
+是否曾想过 **如何嵌入字体**，以便你的 Excel‑to‑PDF 转换在每台机器上看起来完全相同？你并非唯一遇到此问题的人。缺失的字体是导致完美样式的电子表格在 PDF 查看器中变成乱码的隐形罪魁祸首。  
 
-在本教程中，我们将一步步演示一个简洁的端到端解决方案，**将工作簿保存为 PDF** 时将字体直接嵌入文件。完成后，你将能够 **export XLSX to PDF**、**create PDF from Excel**，再也不必担心缺失字形。
+在本教程中，我们将完整演示将 Excel 文件转换为 **所有字体均已嵌入** 的 PDF 的全过程，使输出文件可移植、可打印，并且外观与原始文件一致。过程中我们还会涉及 *convert excel to pdf*、*save workbook as pdf*、*export spreadsheet to pdf* 和 *create pdf from excel*——全部在 C# 代码中完成，无需离开编辑器。
 
-我们使用流行的 **Aspose.Cells for .NET** 库，因为它提供对 PDF 输出的细粒度控制，包括关键的 `EmbedStandardFonts` 标志。无需其他第三方技巧，代码兼容 .NET 6+ 和 .NET Framework 4.7+。  
+## What You’ll Learn
 
----
+- 使用 Aspose.Cells（或任何兼容库）加载 `.xlsx` 工作簿。  
+- 配置 `PdfSaveOptions` 以强制完整字体嵌入。  
+- 将工作簿保存为 PDF，确保在任何设备上打开时都不会出现缺少字体的警告。  
+- 处理服务器上未安装的自定义字体等边缘情况的技巧。  
 
-## Prerequisites – what you need before you start
-
-- **Visual Studio 2022**（或任何能够编译 .NET 项目的 IDE）  
-- **.NET 6 SDK**（或如果你偏好经典方式则使用 .NET Framework 4.7+）  
-- **Aspose.Cells for .NET** NuGet 包（`Install-Package Aspose.Cells`）  
-- 一个示例 Excel 工作簿（`varSelector.xlsx`），放在可引用的文件夹中  
-
-如果你已经准备好这些，就可以开始了。
+**Prerequisites** – 需要 .NET 6+（或 .NET Framework 4.7.2+），Visual Studio 2022（或任意 IDE），以及 Aspose.Cells for .NET NuGet 包。无需其他外部工具。
 
 ---
 
-## How to embed fonts when converting Excel to PDF
+## ## How to Embed Fonts in the PDF Export
 
-下面是完整的、可直接运行的程序示例。它演示了 **create PDF from Excel** 时确保字体嵌入的所有步骤。
+嵌入字体是确保 PDF 与源 Excel 文件外观完全一致的关键步骤。下面提供一个简洁、可直接运行的示例，演示完整工作流。
+
+![PDF 预览截图，显示正确嵌入的字体 – 在 Excel 转 PDF 转换中如何嵌入字体](https://example.com/images/pdf-preview.png "在 Excel 转 PDF 转换中如何嵌入字体")
+
+### Step 1 – Install the Aspose.Cells NuGet Package
+
+打开项目的 **.csproj** 文件或使用 Package Manager Console：
+
+```powershell
+Install-Package Aspose.Cells
+```
+
+> **Pro tip:** 如果使用 .NET CLI，运行 `dotnet add package Aspose.Cells`。这将拉取最新的稳定版本（截至 2026 年 3 月，版本 23.10）。
+
+### Step 2 – Load the Workbook You Want to Convert
 
 ```csharp
-using System;
-using Aspose.Cells;               // Aspose.Cells namespace
-using Aspose.Cells.Drawing;       // for PDF options (if needed)
+using Aspose.Cells;
 
-class ExcelToPdfWithEmbeddedFonts
+// Path to your source Excel file
+string inputPath = Path.Combine(Environment.CurrentDirectory, "input.xlsx");
+
+// Load the workbook into memory
+Workbook workbook = new Workbook(inputPath);
+```
+
+**Why this matters:** 加载工作簿后即可访问所有工作表、样式和嵌入对象。这是后续任何导出操作的基础。
+
+### Step 3 – Create PDF Save Options and Turn On Font Embedding
+
+```csharp
+// Initialise PDF save options
+PdfSaveOptions pdfOptions = new PdfSaveOptions
 {
-    static void Main()
+    // Embed every font used in the workbook
+    FontEmbeddingMode = FontEmbeddingMode.EmbedAll
+};
+```
+
+`FontEmbeddingMode` 属性决定是嵌入、子集嵌入还是不嵌入字体。将其设为 `EmbedAll` 可明确回答 **how to embed fonts**——将电子表格中使用的每个字形都打包进 PDF 文件。
+
+### Step 4 – Save the Workbook as a PDF
+
+```csharp
+// Destination path for the PDF
+string outputPath = Path.Combine(Environment.CurrentDirectory, "output.pdf");
+
+// Perform the conversion
+workbook.Save(outputPath, pdfOptions);
+```
+
+执行此调用后，`output.pdf` 将完整复制 `input.xlsx` 的视觉效果，所有字体均已嵌入。使用任意 PDF 阅读器打开，永远不会再看到“字体替换”警告。
+
+### Step 5 – Verify the Result (Optional but Recommended)
+
+```csharp
+// Quick verification using Aspose.Pdf (if you have it)
+// This snippet checks that all fonts are indeed embedded.
+using Aspose.Pdf;
+
+// Load the generated PDF
+Document pdfDoc = new Document(outputPath);
+bool allEmbedded = true;
+
+foreach (FontInfo fontInfo in pdfDoc.FontInfo)
+{
+    if (!fontInfo.IsEmbedded)
     {
-        // -------------------------------------------------
-        // Step 1: Load the Excel workbook (your source file)
-        // -------------------------------------------------
-        string inputPath = @"YOUR_DIRECTORY\varSelector.xlsx";
-        Workbook workbook = new Workbook(inputPath);
-
-        // -------------------------------------------------
-        // Step 2: Configure PDF save options to embed fonts
-        // -------------------------------------------------
-        PdfSaveOptions pdfOptions = new PdfSaveOptions
-        {
-            // This flag tells Aspose.Cells to embed all standard fonts
-            EmbedStandardFonts = true,
-
-            // Optional: force embedding of custom fonts as well
-            // EmbedAllFonts = true,   // uncomment if you have custom fonts
-        };
-
-        // -------------------------------------------------
-        // Step 3: Save the workbook as a PDF using the options
-        // -------------------------------------------------
-        string outputPath = @"YOUR_DIRECTORY\out.pdf";
-        workbook.Save(outputPath, pdfOptions);
-
-        Console.WriteLine("PDF generated with embedded fonts at:");
-        Console.WriteLine(outputPath);
+        allEmbedded = false;
+        Console.WriteLine($"Missing embedding for font: {fontInfo.FontName}");
     }
 }
+Console.WriteLine(allEmbedded ? "All fonts are embedded!" : "Some fonts are missing.");
 ```
 
-### Why each line matters
-
-1. **Loading the workbook** – `Workbook` 是入口点；它解析 XLSX 文件并在内存中构建所有工作表、样式和公式的表示。  
-2. **`PdfSaveOptions`** – 该对象控制 PDF 转换的每一个细节。将 `EmbedStandardFonts = true` 设置为 true 可确保 PDF 包含 Helvetica、Times、Courier、Symbol 和 ZapfDingbats 五种基础字体。如果你的电子表格使用自定义字体（例如 “Calibri”），可以取消注释 `EmbedAllFonts` 以强制嵌入。  
-3. **Saving the file** – `workbook.Save` 将 PDF 写入磁盘，并应用我们刚才定义的选项。结果是一个自包含的 PDF，能够在任何阅读器上呈现相同的效果。
+如果没有 Aspose.Pdf，也可以在 Adobe Acrobat 中手动检查（`文件 → 属性 → 字体`）来确认。
 
 ---
 
-## Convert Excel to PDF without losing font fidelity
+## ## Convert Excel to PDF – Common Variations
 
-既然你已经掌握了 **how to embed fonts**，下面来看几个在实际项目中可能需要的变体。
+### Export a Specific Worksheet Only
 
-### Export XLSX to PDF in a web API
-
-如果你在构建一个接受上传 Excel 文件并返回 PDF 的 REST 接口，可以复用相同的逻辑：
+有时只需要将单个工作表导出为 PDF：
 
 ```csharp
-[HttpPost("api/excel-to-pdf")]
-public IActionResult ConvertToPdf(IFormFile excelFile)
+PdfSaveOptions opts = new PdfSaveOptions
 {
-    using var stream = excelFile.OpenReadStream();
-    var workbook = new Workbook(stream);
-
-    var pdfOptions = new PdfSaveOptions { EmbedStandardFonts = true };
-    using var pdfStream = new MemoryStream();
-    workbook.Save(pdfStream, pdfOptions);
-    pdfStream.Position = 0;
-
-    return File(pdfStream, "application/pdf", "result.pdf");
-}
-```
-
-*Pro tip*: 在处理之前始终验证上传文件的大小和类型，以避免拒绝服务攻击。
-
-### Save workbook as PDF in a Windows Forms app
-
-对于桌面场景，你可能希望让用户通过 `SaveFileDialog` 选择保存位置：
-
-```csharp
-var dlg = new SaveFileDialog
-{
-    Filter = "PDF files (*.pdf)|*.pdf",
-    FileName = "ExportedWorkbook.pdf"
+    FontEmbeddingMode = FontEmbeddingMode.EmbedAll,
+    // Export only the first sheet (zero‑based index)
+    OnePagePerSheet = false,
+    SheetIndex = 0
 };
-
-if (dlg.ShowDialog() == DialogResult.OK)
-{
-    var pdfOpts = new PdfSaveOptions { EmbedStandardFonts = true };
-    workbook.Save(dlg.FileName, pdfOpts);
-    MessageBox.Show("PDF saved with embedded fonts!", "Success");
-}
+workbook.Save("single-sheet.pdf", opts);
 ```
 
-这两个代码片段都阐释了同一个核心思路：在 **save workbook as PDF** 之前 **embed fonts**。
+### Subset Font Embedding for Smaller Files
+
+如果文件大小是考虑因素，可以仅嵌入 **实际使用的字符**：
+
+```csharp
+pdfOptions.FontEmbeddingMode = FontEmbeddingMode.Subset;
+```
+
+这仍然回答了 *how to embed fonts*，但生成的 PDF 更轻量——非常适合邮件附件。
+
+### Handling Custom Fonts Not Installed on the Server
+
+当工作簿引用的自定义字体在转换服务器上不存在时，Aspose.Cells 会回退到默认字体，除非你提供相应的字体文件：
+
+```csharp
+// Register a custom font folder
+FontConfigs fontConfigs = new FontConfigs();
+fontConfigs.SetFontFolder(@"C:\MyCustomFonts", true);
+pdfOptions.FontConfigs = fontConfigs;
+```
+
+这样转换过程就能嵌入自定义字体，保持视觉一致性。
 
 ---
 
-## Common pitfalls and how to avoid them
+## ## Save Workbook as PDF – Best Practices
 
-| Issue | Why it happens | Fix |
-|-------|----------------|-----|
-| PDF shows **Arial** instead of **Calibri** | `EmbedStandardFonts` 只覆盖五种基础字体。自定义字体需要 `EmbedAllFonts = true`，且该字体必须已安装在服务器上。 | 添加 `pdfOptions.EmbedAllFonts = true;` 并确保运行转换的机器上存在该字体。 |
-| PDF size balloons | 嵌入大型自定义字体的所有字形会导致文件体积膨胀。 | 使用 `PdfSaveOptions.FontEmbeddingMode = FontEmbeddingMode.Subset;` 只嵌入实际使用的字符。 |
-| Missing **Unicode** characters (e.g., emojis) | 默认字体集不包含这些字形。 | 切换到支持 Unicode 的字体，如 “Segoe UI Emoji”，并启用完整嵌入。 |
-| Conversion fails on **macOS** | Aspose.Cells 在某些渲染路径上依赖 Windows GDI+。 | 使用最新的 Aspose.Cells 版本（支持 .NET Core 在 macOS 上运行）或在 Windows 容器中执行转换。 |
-
----
-
-## Verifying that fonts are really embedded
-
-运行程序后，在 Adobe Acrobat Reader 中打开生成的 `out.pdf`：
-
-1. 按 **Ctrl + D**（或 **File → Properties** → **Fonts** 选项卡）。  
-2. 你应该看到每种列出的字体旁边都有 **“Embedded”** 字样。  
-
-如果看到 **“Not Embedded”**，请再次确认 `EmbedStandardFonts`（或 `EmbedAllFonts`）已设为 `true`，且字体文件可被访问。
+| Practice | Why It Helps |
+|----------|--------------|
+| **Always set `FontEmbeddingMode = EmbedAll`** | 确保 PDF 在任何地方都保持相同外观。 |
+| **Validate the output** | 及早捕获缺失字体，防止后续投诉。 |
+| **Use `OnePagePerSheet = true` only when needed** | 防止生成不必要的超长 PDF，提升可浏览性。 |
+| **Keep Aspose.Cells updated** | 新版本提供更好的字体处理和错误修复。 |
 
 ---
 
-## Expected output
+## ## Export Spreadsheet to PDF – Real‑World Scenario
 
-使用包含 **Calibri Bold** 标题样式的简单工作簿运行控制台应用后，生成的 PDF 将：
+想象一下，你正在构建一个报告服务，每周向高管发送销售仪表盘。仪表盘使用 Excel 制作，因为业务分析师喜欢网格布局。后端必须每晚生成 PDF，嵌入所有企业字体，并通过邮件发送。
 
-- 标题显示效果与 Excel 中完全一致。  
-- 在 **Fonts** 列表中显示 “Calibri Bold”，状态为 **Embedded**。  
-- 在任何平台上均能正确渲染，即使查看器未安装 Calibri。
+通过上述步骤，你可以自动化整个流水线：
 
-你可以在不同机器或 Linux 容器中打开该 PDF 进行测试——不应出现缺失字符。
+1. 从共享文件夹加载分析师生成的工作簿。  
+2. 使用 `PdfSaveOptions` 并设置 `EmbedAll`。  
+3. 将 PDF 保存到临时位置。  
+4. 将 PDF 附加到邮件并发送。
 
----
-
-## Recap – what we covered
-
-- 使用 `PdfSaveOptions.EmbedStandardFonts` **how to embed fonts**。  
-- 完整的 **convert Excel to PDF** 工作流，基于 Aspose.Cells。  
-- 在 Web API 和桌面应用中 **save workbook as PDF** 的不同实现方式。  
-- 边缘情况处理以及保持 PDF 大小合理的技巧。  
-
-所有这些都让你能够 **export XLSX to PDF** 并 **create PDF from Excel**，并确信字体已随文件一起携带。
+所有操作都在无头 Windows 服务中运行——无需 UI，也无需人工干预。结果如何？高管每天早上都会收到渲染完美的 PDF，无论他们的笔记本电脑上安装了哪些字体。
 
 ---
 
-## Next steps & related topics
+## ## Create PDF from Excel – Frequently Asked Questions
 
-- **Customize PDF appearance** – 探索 `PdfSaveOptions.PageLayout`、`PdfSaveOptions.ImageResolution` 和 `PdfSaveOptions.Compliance`，实现 PDF/A 或 PDF/X。  
-- **Add watermarks or headers/footers** – 使用 `PdfSaveOptions.AddWatermark` 或 `HeaderFooter` 类。  
-- **Convert multiple worksheets** – 遍历 `workbook.Worksheets`，并使用 `PdfFileEditor` 合并 PDF。  
+**Q: 嵌入字体会显著增加 PDF 大小吗？**  
+A: 会，尤其是大型字体族。改用 `Subset` 可在保持外观的同时减小体积。
 
-如果你对 **批量转换** 文件夹中的 Excel 文件感兴趣，请查看我们的指南 “Bulk Excel to PDF conversion with Aspose.Cells”。  
+**Q: 是否需要为 Aspose.Cells 购买许可证？**  
+A: 库在评估模式下可用，但商业许可证会去除评估水印并解锁全部功能。
+
+**Q: 如果源 Excel 使用的字体不可嵌入（例如某些系统字体），该怎么办？**  
+A: Aspose.Cells 会尽可能嵌入，并对其余部分回退到相似字体。你也可以在导出前通过代码替换该字体。
 
 ---
 
-*Ready to embed those fonts and ship flawless PDFs?* Grab the code, tweak the options to suit your needs, and let your PDFs look exactly the way you designed them in Excel. Happy coding!
+## Conclusion
 
+我们已经展示了在 *convert excel to pdf* 时 **如何嵌入字体**，并提供了 **save workbook as pdf** 的完整代码示例，确保全部字体嵌入。现在，你拥有一套可靠的生产级模式，可用于 *export spreadsheet to pdf* 和 *create pdf from excel* 任务。
 
-## What Should You Learn Next?
+动手试一试：嵌入自定义企业字体、尝试子集嵌入，或批量处理整个文件夹的工作簿。当你掌握了字体嵌入技巧，PDF 将始终保持清晰锐利，无论在何处打开。
 
+---
 
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
+### Next Steps
 
-- [Save Excel Workbook as PDF with Custom Fonts using Aspose.Cells for .NET](/cells/english/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
-- [Save Excel Workbook Pdf Custom Fonts Aspose Cells Net](/cells/german/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
-- [Save Excel Workbook Pdf Custom Fonts Aspose Cells Net](/cells/french/net/workbook-operations/save-excel-workbook-pdf-custom-fonts-aspose-cells-net/)
+- 探索使用 `PdfFileEditor` 实现 **多工作表 PDF 合并**。  
+- 将此方法与 **Aspose.Slides** 结合，将图表以图像形式嵌入。  
+- 如需归档级别的 PDF，可研究 **PDF/A 合规性**。  
+
+还有其他问题或棘手的边缘案例？在下方留言吧，祝编码愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

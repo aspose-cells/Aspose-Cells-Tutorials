@@ -81,9 +81,20 @@ Aspose.Words Java के लिए एक कोड ट्यूटोरिय�
 जावा के लिए Aspose.Cells का उपयोग करके Excel कार्यों को स्वचालित करने का तरीका जानें। यह मार्गदर्शिका कार्यपुस्तिकाओं को लोड करना और साझा सूत्रों को कुशलतापूर्वक लागू करना सिखाती है।
 
 ### [Java के लिए Aspose.Cells में FormulaText को कैसे लागू करें: एक चरण-दर-चरण मार्गदर्शिका](./implementing-formula-text-aspose-cells-java-guide/)
-जावा के साथ Aspose.Cells का उपयोग करके Excel सेल से फ़ॉर्मूला टेक्स्ट निकालने का तरीका जानें। यह गाइड सेटअप, कार्यान्वयन और व्यावहारिक अनुप्रयोगों को कवर करती है।
+जावा के साथ Aspose.Cells का उपयोग करके Excel सेल से फ़ॉर्मूला टेक्स्ट निकालने का तरीका जानें। यह गाइड सेटअप, कार्यान्वयन और व्यावहारिक अनुप्रयोगों को कवर करता है।
+### [Excel में कोटैन्जेंट कैसे गणना करें – पूर्ण गाइड](./how-to-calculate-cotangent-in-excel-complete-guide/)
+Excel में कोटैन्जेंट फ़ंक्शन का उपयोग करके कोटैन्जेंट मान कैसे निकालें, चरण-दर-चरण मार्गदर्शिका।
 
+### [Java के साथ Excel में Reduce का उपयोग कैसे करें – लैम्ब्डा फ़ॉर्मूला गाइड](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
+Java के साथ Aspose.Cells का उपयोग करके Excel में Reduce फ़ंक्शन लागू करना और लैम्ब्डा फ़ॉर्मूला से डेटा को संक्षिप्त करना सीखें।
 
+### [Java में WRAPCOLS का उपयोग कैसे करें – पूर्ण Excel WRAPCOLS उदाहरण](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+Java में Aspose.Cells के साथ WRAPCOLS फ़ंक्शन लागू करना और विस्तृत उदाहरण देखना सीखें।
+
+### [जावा Excel वर्कबुक में SEQUENCE का उपयोग कैसे करें – चरण‑दर‑चरण गाइड](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+जावा में Aspose.Cells का उपयोग करके Excel वर्कबुक में SEQUENCE फ़ंक्शन को लागू करने और उपयोग करने के चरणों को सीखें।
+### [Excel में अद्वितीय मानों को क्रमबद्ध करें – एरे फ़ॉर्मूला सेट करने के लिए पूर्ण जावा गाइड](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+जावा के साथ Aspose.Cells का उपयोग करके Excel में अद्वितीय मानों को सॉर्ट करने और एरे फ़ॉर्मूला सेट करने की पूरी प्रक्रिया सीखें।
 
 ## अतिरिक्त संसाधन
 
