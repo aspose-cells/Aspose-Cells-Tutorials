@@ -62,6 +62,8 @@ Scopri come esportare una tabella pivot di Excel in formato PNG usando Aspose.Ce
 Scopri come copiare un intervallo e duplicare una tabella pivot in Java usando Aspose.Cells per una gestione efficiente dei dati.
 ### [Come esportare una tabella pivot come PNG – Guida completa Java](./how-to-export-pivot-table-as-png-complete-java-guide/)
 Scopri come esportare una tabella pivot in formato PNG usando Aspose.Cells per Java, con esempi di codice passo passo.
+### [Come copiare una tabella pivot in Java usando Aspose.Cells](./how-to-copy-pivot-table-in-java-using-aspose-cells/)
+Scopri come copiare una tabella pivot in Java con Aspose.Cells per duplicare rapidamente i report.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

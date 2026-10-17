@@ -45,6 +45,8 @@
 ### [كيفية نسخ نطاق في Java – نسخ جدول محوري باستخدام Aspose.Cells](./how-to-copy-range-in-java-copy-pivot-table-with-aspose-cells/)
 ### [كيفية تصدير جدول محوري كصورة PNG – دليل Java كامل](./how-to-export-pivot-table-as-png-complete-java-guide/)
 تعلم كيفية تصدير جداول محورية إلى PNG باستخدام Aspose.Cells لجافا لإنشاء تقارير بصرية.
+### [كيفية نسخ جدول محوري في Java باستخدام Aspose.Cells](./how-to-copy-pivot-table-in-java-using-aspose-cells/)
+تعرف على طريقة نسخ جداول البيانات المحورية برمجيًا في Java باستخدام Aspose.Cells لتسهيل إدارة التقارير.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

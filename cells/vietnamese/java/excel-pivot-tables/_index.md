@@ -56,6 +56,8 @@ Hướng dẫn chi tiết cách xuất Pivot Table thành hình ảnh PNG bằng
 Tìm hiểu cách sao chép vùng dữ liệu và Bảng Pivot trong Java bằng Aspose.Cells để tái sử dụng và chia sẻ báo cáo.
 ### [Cách xuất Bảng Pivot thành PNG – Hướng dẫn Java chi tiết](./how-to-export-pivot-table-as-png-complete-java-guide/)
 Tìm hiểu cách xuất Bảng Pivot dưới dạng PNG trong Java bằng Aspose.Cells để tạo báo cáo hình ảnh.
+### [Cách sao chép bảng Pivot trong Java bằng Aspose.Cells](./how-to-copy-pivot-table-in-java-using-aspose-cells/)
+Hướng dẫn sao chép Pivot Table trong Java bằng Aspose.Cells để tái sử dụng và chia sẻ báo cáo nhanh chóng.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

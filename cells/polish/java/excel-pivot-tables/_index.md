@@ -56,6 +56,8 @@ Dowiedz się, jak wyeksportować tabelę przestawną z Excela do formatu PNG prz
 Dowiedz się, jak skopiować zakres i tabelę przestawną w Javie przy użyciu Aspose.Cells, aby łatwo przenosić dane między arkuszami.
 ### [Jak wyeksportować tabelę przestawną jako PNG – kompletny przewodnik Java](./how-to-export-pivot-table-as-png-complete-java-guide/)
 Dowiedz się, jak w Aspose.Cells for Java zapisać tabelę przestawną jako plik PNG, aby łatwo udostępniać wizualizacje danych.
+### [Jak skopiować tabelę przestawną w Javie przy użyciu Aspose.Cells](./how-to-copy-pivot-table-in-java-using-aspose-cells/)
+Dowiedz się, jak skopiować tabelę przestawną w Javie przy użyciu Aspose.Cells, aby szybko duplikować raporty i zachować formatowanie.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

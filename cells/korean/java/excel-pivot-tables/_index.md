@@ -56,6 +56,8 @@ Aspose.Cells for Java를 사용해 피벗 테이블을 PNG 이미지로 내보�
 Aspose.Cells를 사용하여 Java에서 피벗 테이블을 복사하고 범위를 복제하는 방법을 알아보세요.
 ### [피벗 테이블을 PNG로 내보내는 방법 – 완전 Java 가이드](./how-to-export-pivot-table-as-png-complete-java-guide/)
 Aspose.Cells for Java를 사용하여 피벗 테이블을 PNG 이미지로 내보내는 전체 과정과 예제를 확인하세요.
+### [Java에서 Aspose.Cells를 사용하여 피벗 테이블 복사하기](./how-to-copy-pivot-table-in-java-using-aspose-cells/)
+Aspose.Cells for Java를 이용해 피벗 테이블을 복사하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

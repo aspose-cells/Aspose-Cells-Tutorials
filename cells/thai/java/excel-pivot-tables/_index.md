@@ -40,6 +40,8 @@ Aspose.Cells สำหรับ Java ช่วยให้คุณสามา�
 เรียนรู้วิธีการสร้างฟิลด์คำนวณใน Pivot Table โดยใช้ Aspose.Cells สำหรับ Java เพิ่มประสิทธิภาพการวิเคราะห์ข้อมูลของคุณด้วยการคำนวณแบบกำหนดเองใน Excel
 ### [การรีเฟรชข้อมูลตารางสรุปข้อมูล](./refreshing-pivot-table-data/)
 เรียนรู้วิธีการรีเฟรชข้อมูล Pivot Table ใน Aspose.Cells สำหรับ Java อัปเดตข้อมูลของคุณได้อย่างง่ายดาย
+### [วิธีคัดลอกตารางสรุปข้อมูลใน Java ด้วย Aspose.Cells](./how-to-copy-pivot-table-in-java-using-aspose-cells/)
+เรียนรู้วิธีคัดลอก Pivot Table ใน Java ด้วย Aspose.Cells เพื่อการทำซ้ำและการจัดการข้อมูลอย่างมีประสิทธิภาพ
 ### [การปรับแต่งสไตล์ตารางสรุปข้อมูล](./customizing-pivot-table-styles/)
 เรียนรู้วิธีปรับแต่งรูปแบบตารางสรุปข้อมูลใน Aspose.Cells สำหรับ Java API สร้างตารางสรุปข้อมูลที่น่าสนใจได้อย่างง่ายดาย
 ### [คัดลอกตารางสรุปข้อมูลใน Java – เก็บไว้, ส่งออกเป็น PPTX](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
