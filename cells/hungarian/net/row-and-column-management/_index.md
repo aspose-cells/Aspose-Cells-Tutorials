@@ -82,6 +82,16 @@ Ismerje meg, hogyan hozhat létre kétoszlopos elrendezést a WRAPCOLS funkcióv
 Ismerje meg, hogyan adhat hozzá több sort egyszerre a GridJs táblázathoz gyors és hatékony módon.
 ### [Hogyan használja a wrapcols-t C#-ban – Teljes útmutató az Excel WRAPROWS és képletek újraszámítása](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Ismerje meg, hogyan alkalmazhatja a wrapcols függvényt C#-ban, az Excel WRAPROWS használatával és a képletek újraszámításával.
+### [Oszlop beszúrása az Aspose.Cells .NET-be](./insert-column-aspose-cells/)
+Tanuld meg, hogyan szúrhatsz be oszlopot Excelben az Aspose.Cells for .NET használatával. Kövesd egyszerű, lépésről lépésre szóló útmutatónkat egy új oszlop zökkenőmentes hozzáadásához. Tökéletes .NET fejlesztők számára.
+### [Sor beszúrása az Aspose.Cells .NET-be](./insert-row-aspose-cells/)
+Tanuld meg, hogyan szúrhatsz be sort Excelben az Aspose.Cells for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Fejleszd adatkezelési készségeidet könnyedén.
+### [Formázott sor beszúrása az Aspose.Cells .NET-ben](./insert-row-formatting-aspose-cells/)
+Tanuld meg, hogyan szúrhatsz be formázott sort Excelben az Aspose.Cells for .NET használatával. Kövesd lépésről lépésre szóló útmutatónkat az egyszerű megvalósításhoz.
+### [Több sor beszúrása az Aspose.Cells .NET-be](./insert-multiple-rows-aspose-cells/)
+Tanuld meg, hogyan szúrhatsz be több sort Excelben az Aspose.Cells for .NET segítségével. Kövesd részletes oktatóanyagunkat a zökkenőmentes adatkezeléshez.
+### [Cellák felfelé mozgatása Excelben C#-val – Teljes útmutató](./shift-cells-up-in-excel-with-c-complete-guide/)
+Ismerje meg, hogyan mozgathatja felfelé a cellákat Excelben C# segítségével lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

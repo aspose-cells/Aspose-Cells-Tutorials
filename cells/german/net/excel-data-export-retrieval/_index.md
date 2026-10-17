@@ -49,6 +49,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Arbeitsmappe in C# erstell
 
 ### [Neue Arbeitsmappe erstellen und Excel präzise in TXT exportieren](./create-new-workbook-and-export-excel-to-txt-with-precision/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine neue Arbeitsmappe erstellen und Daten exakt in eine TXT-Datei exportieren.
+### [Wie man einen Zellbereich als Tabelle exportiert – Vollständige C#-Anleitung](./how-to-export-cell-range-as-table-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET einen Zellbereich als formatierte Tabelle exportieren – Schritt für Schritt in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

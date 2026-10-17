@@ -40,6 +40,8 @@ Lär dig hur du konverterar Excel-kalkylblad till bilder i .NET med hjälp av As
 Lär dig hur du sparar en pivottabell som bild i .NET med Aspose.Cells i en enkel steg‑för‑steg‑guide.
 ### [Exportera Excel-område som bild – Komplett C#-guide](./export-excel-range-as-image-complete-c-guide/)
 Lär dig hur du exporterar ett Excel-område som bild i .NET med Aspose.Cells i en komplett C#-guide.
+### [Hur man sparar Excel-ark som bild – Komplett C#-guide](./how-to-save-excel-sheet-as-image-complete-c-guide/)
+Lär dig steg för steg hur du sparar ett Excel-ark som bild i C# med Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

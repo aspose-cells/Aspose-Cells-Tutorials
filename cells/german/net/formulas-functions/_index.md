@@ -164,6 +164,8 @@ Für eine robuste Formelimplementierung:
 Indem Sie diese Formelfunktionen mit Aspose.Cells für .NET beherrschen, können Sie in Ihren Tabellenkalkulationen anspruchsvolle Berechnungs-Engines erstellen, die genaue, dynamische Ergebnisse liefern, ohne dass eine Excel-Installation erforderlich ist.
 ### [Wie man den Kotangens in Excel mit C# berechnet – Arbeitsmappe erstellen, EXPAND verwenden und speichern](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
 Erfahren Sie, wie Sie mit Aspose.Cells in C# den Kotangens berechnen, eine Arbeitsmappe erstellen, EXPAND nutzen und die Datei speichern.
+### [Erstellen Sie eine Excel-Arbeitsmappe mit der EXPAND-Formel – Komplettanleitung](./create-excel-workbook-with-expand-formula-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe erstellen und die EXPAND-Formel nutzen, um dynamische Datenbereiche zu erzeugen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

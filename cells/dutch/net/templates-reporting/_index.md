@@ -74,6 +74,8 @@ Leer hoe u een Excel-sjabloon verwerkt en werkbladen automatisch een naam geeft 
 
 ### [Hoe gegevens exporteren naar Excel met een C#‑sjabloon – stapsgewijze gids](./how-to-export-data-to-excel-using-a-c-template-step-by-step/)
 Leer hoe u gegevens exporteert naar Excel met een C#‑sjabloon, stap voor stap.
+### [Excel-rapport genereren met C# – Stapsgewijze handleiding](./generate-excel-report-with-c-step-by-step-guide/)
+Leer hoe u met C# een Excel‑rapport maakt, van gegevensbinding tot opmaak, met duidelijke stap‑voor‑stap instructies.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

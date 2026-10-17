@@ -82,6 +82,16 @@ Pelajari cara menggunakan metode WRAPCOLS untuk membuat tata letak dua kolom dal
 Pelajari cara menambahkan beberapa baris sekaligus di GridJs dengan cepat melalui contoh kode praktis.
 ### [Cara Menggunakan wrapcols di C# – Panduan Lengkap dengan Excel WRAPROWS & Menghitung Ulang Rumus](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Pelajari cara menggunakan wrapcols di C#, menggabungkan Excel WRAPROWS, dan menghitung ulang rumus secara otomatis dalam panduan lengkap ini.
+### [Menyisipkan Kolom di Aspose.Cells .NET](./insert-column-aspose-cells/)
+Pelajari cara menyisipkan kolom di Excel menggunakan Aspose.Cells untuk .NET. Ikuti panduan langkah demi langkah kami yang mudah untuk menambahkan kolom baru dengan mudah. Sempurna untuk pengembang .NET.
+### [Menyisipkan Baris di Aspose.Cells .NET](./insert-row-aspose-cells/)
+Pelajari cara menyisipkan baris di Excel menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Tingkatkan keterampilan manipulasi data Anda dengan mudah.
+### [Sisipkan Baris dengan Pemformatan di Aspose.Cells .NET](./insert-row-formatting-aspose-cells/)
+Pelajari cara menyisipkan baris dengan format di Excel menggunakan Aspose.Cells untuk .NET. Ikuti panduan langkah demi langkah kami untuk penerapan yang mudah.
+### [Sisipkan Beberapa Baris di Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
+Pelajari cara menyisipkan beberapa baris di Excel menggunakan Aspose.Cells for .NET. Ikuti tutorial terperinci kami untuk manipulasi data yang lancar.
+### [Geser Sel ke Atas di Excel dengan C# – Panduan Lengkap](./shift-cells-up-in-excel-with-c-complete-guide/)
+Panduan lengkap untuk menggeser sel ke atas di Excel menggunakan C#, langkah demi langkah untuk memanipulasi data dengan mudah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

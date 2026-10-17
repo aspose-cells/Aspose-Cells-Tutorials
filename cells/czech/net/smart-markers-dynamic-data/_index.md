@@ -47,8 +47,11 @@ Věděli jste, že můžete vkládat HTML obsah přímo do excelových listů? D
 ## Vyhodnoťte IsBlank pomocí inteligentních značek
 Správa prázdných hodnot v datových sadách může být zložitá, ale Aspose.Cells to zjednodušuje díky schopnosti vyhodnocovat prázdné hodnoty pomocí inteligentních značek. Tato funkce vám umožňuje snadno kontrolovat prázdné buňky a podle toho upravovat logiku vytváření sestav. Díky této schopnosti mohou vaše sestavy automaticky řešit situace, kdy mohou chybět data, a zajistit tak, aby vaše publikum obdrželo jasné a přesné informace. Zjistěte, jak tuto funkci efektivně implementovat do svých sestav. [Číst dále](./evaluate-isblank-smart-markers/)
 
-## Implementace variabilního pole s inteligentními značkami
-Často pracujete s různým množstvím dat? Funkce variabilních polí v aplikaci Smart Markers vám umožňuje flexibilně spravovat seznamy dat. To znamená, že můžete generovat sestavy, které se přizpůsobí různým velikostem datových sad, aniž byste museli pokaždé přepracovávat šablony. Naučením se implementovat variabilní pole můžete zefektivnit procesy tvorby sestav a vylepšit prezentaci dat. Tento tutoriál rozebírá kroky, které vám pomohou začít s variabilními poli ve vašich sestavách. [Číst dále](./variable-array-smart-markers/)
+### [Jak vyhodnotit vzorec pomocí inteligentních značek – Kompletní průvodce](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
+Kompletní návod, jak pomocí inteligentních značek v Aspose.Cells vyhodnotit vzorce a generovat dynamické reporty v Excelu.
+
+### [Rozsahová inteligentní značka pro zpracování vnořených dat v C# – Kompletní průvodce](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
+Kompletní návod, jak pomocí rozsahových inteligentních značek zpracovat vnořená data v C#.
 
 ## Použití generického seznamu v inteligentních značkách
 Flexibilita generických seznamů umožňuje vývojářům zpracovávat data strukturovaným způsobem bez ztráty výkonu. V tomto tutoriálu se naučíte, jak využít generické seznamy s inteligentními značkami k vytváření robustních a dynamických sestav v Excelu. Tento přístup zajišťuje snadnou manipulaci s kolekcemi dat a zároveň zachování silné typové bezpečnosti a výkonu ve vašich aplikacích. Sledujte dále a uvidíte, jak to může prospět při generování vašich sestav. [Číst dále](./generic-list-smart-markers/)
@@ -168,6 +171,9 @@ Naučte se pomocí SmartMarker v Aspose.Cells generovat více listů v Excelu po
 ### [Export dat do Excelu – Kompletní průvodce vyplněním šablony Excel pomocí inteligentních značek](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
 
 ### [Jak vytvořit data pro inteligentní značky a vyplnit šablonu Excel](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
+
+## Načtení šablony Excel v C# – rychlé generování více listů
+Naučte se načíst Excel šablonu v C# a během okamžiku vytvořit více listů s dynamickými daty.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

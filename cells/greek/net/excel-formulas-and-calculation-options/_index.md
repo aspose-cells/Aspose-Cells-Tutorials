@@ -107,6 +107,8 @@
 
 ### [Πώς να δημιουργήσετε βιβλίο εργασίας Excel και να χωρίσετε δεδομένα με WRAPCOLS σε C#](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
 Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel και να χωρίσετε δεδομένα χρησιμοποιώντας τη λειτουργία WRAPCOLS σε C#.
+### [Πώς να χρησιμοποιήσετε το WRAPCOLS – Πλήρης οδηγός για αυτοματοποίηση Excel με C#](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Μάθετε πώς να χρησιμοποιήσετε τη λειτουργία WRAPCOLS για αποτελεσματική διαχείριση δεδομένων στο Excel με C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

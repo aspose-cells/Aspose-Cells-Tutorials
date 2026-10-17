@@ -87,6 +87,7 @@ Aspose.Cells を使用した数式操作を習得すると、C# コードから�
 ### [Excel ワークブックを作成する C# – Lambda、SEQUENCE、EXPAND ガイド](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 
 ### [C# で WRAPCOLS を使用する方法 – 配列を Excel の行列に変換する](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
+### [EXPAND 関数で Excel ワークブックを作成する – 完全ガイド](./create-excel-workbook-with-expand-formula-complete-guide/)
 
 ## Excelの数式の種類を理解する
 

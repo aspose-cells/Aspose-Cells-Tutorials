@@ -95,6 +95,8 @@ Leer hoe je de WRAPCOLS-functie in Excel gebruikt met een volledig C#-voorbeeld 
 Leer hoe u met Aspose.Cells een Excel-werkmap maakt en data splitst met de WRAPCOLS-functie in C#.
 ### [Arrayformule in Excel toepassen met C# – Volledige gids](./apply-array-formula-excel-in-c-complete-guide/)
 Leer stap voor stap hoe je een arrayformule in Excel toepast met C# en Aspose.Cells voor .NET.
+### [Hoe WRAPCOLS te gebruiken – Complete gids voor C# Excel-automatisering](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Leer hoe u WRAPCOLS gebruikt in C# voor geavanceerde Excel-automatisering met Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -64,6 +64,7 @@ Kopiera enkelt stilar och format från en mallfil till din genererade Excel-fil.
 Lär dig hur du använder dynamiska formler i Smart Markers med Aspose.Cells för .NET, vilket förbättrar din process för generering av Excel-rapporter.
 ### [Utvärdera IsBlank med smarta markörer i Aspose.Cells](./evaluate-isblank-smart-markers/)
 Förbättra dina Excel-filer med smarta markörer för att effektivt utvärdera tomma värden med Aspose.Cells för .NET. Lär dig hur i den här steg-för-steg-guiden.
+### [Utvärdera formel med smarta markörer – Komplett guide](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
 ### [Gruppera data med smarta markörer i Aspose.Cells .NET](./group-data-smart-markers/)
 Gruppera data enkelt med smarta markörer i Aspose.Cells för .NET. Följ vår omfattande guide för steg-för-steg-instruktioner.
 ### [Infoga bilder med bildmarkörer i Aspose.Cells](./insert-images-smart-markers/)
@@ -157,6 +158,10 @@ Lär dig hur du bygger en master‑detail‑rapport i C# genom att fylla en Exce
 ### [Konvertera JSON till XLSX i C# med SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
 
 ### [Hur man skapar smart marker-data och fyller Excel‑mallens data](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
+### [Range smart marker för att bearbeta kapslad data i C# – Fullständig guide](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
+Lär dig hur du använder range‑smart‑markörer för att hantera komplexa, nästlade datastrukturer i C# med Aspose.Cells i en steg‑för‑steg‑guide.
+### [Ladda Excel-mall i C# – Generera flera blad snabbt](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
+Lär dig hur du laddar en Excel-mall i C# och snabbt skapar flera kalkylblad med Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

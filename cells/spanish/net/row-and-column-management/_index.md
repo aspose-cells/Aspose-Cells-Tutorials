@@ -102,6 +102,8 @@ Aprenda a crear un diseño de dos columnas en Excel usando WRAPCOLS con Aspose.C
 Descubra una guía paso a paso para insertar varias filas en GridJs de forma rápida y sencilla.
 ### [Cómo usar wrapcols en C# – Guía completa con Excel WRAPROWS y recalcular fórmulas](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Aprenda a aplicar wrapcols y wraprows en Excel con C#, y a recalcular fórmulas automáticamente paso a paso.
+### [Desplazar celdas hacia arriba en Excel con C# – Guía completa](./shift-cells-up-in-excel-with-c-complete-guide/)
+Aprenda a mover celdas hacia arriba en Excel usando C# con Aspose.Cells, paso a paso y ejemplos claros.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

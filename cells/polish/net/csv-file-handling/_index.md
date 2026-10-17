@@ -59,6 +59,8 @@ Dowiedz się, jak w C# utworzyć nowy skoroszyt i wyeksportować go do CSV przy 
 Pełny przewodnik, jak w C# przekształcić skoroszyt Excel w plik CSV przy użyciu Aspose.Cells.
 ### [Eksportowanie tabeli do CSV w C# – Kompletny przewodnik programistyczny](./export-table-to-csv-in-c-complete-programming-guide/)
 Kompletny przewodnik, jak w C# wyeksportować tabelę do pliku CSV przy użyciu Aspose.Cells.
+### [Jak wyeksportować CSV z Excela w C# – Kompletny przewodnik](./how-to-export-csv-from-excel-with-c-complete-guide/)
+Dowiedz się, jak przy użyciu Aspose.Cells dla .NET wyeksportować dane z Excela do formatu CSV w pełnym przewodniku krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

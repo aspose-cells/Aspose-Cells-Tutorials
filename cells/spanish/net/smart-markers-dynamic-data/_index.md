@@ -101,6 +101,11 @@ Descubra el potencial de los informes de Excel con Aspose.Cells manejando objeto
 
 ### [Implementar una matriz de variables con marcadores inteligentes Aspose.Cells](./variable-array-smart-markers/)
 Descubra el poder de Aspose.Cells. Aprenda a implementar matrices de variables con marcadores inteligentes paso a paso para generar informes de Excel sin problemas.
+### [Cargar plantilla de Excel en C# – Generar varias hojas rápidamente](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
+Aprenda a cargar una plantilla de Excel en C# y generar múltiples hojas rápidamente con Aspose.Cells.
+### [Cómo evaluar fórmulas con Marcadores Inteligentes – Guía completa](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
+### [Marcador de rango para procesar datos anidados en C# – Guía completa](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
+Aprenda a usar marcadores de rango para procesar datos anidados en C# con Aspose.Cells, paso a paso.
 
 ### [Convertir JSON a Excel con C# – Guía paso a paso](./convert-json-to-excel-with-c-step-by-step-guide/)
 

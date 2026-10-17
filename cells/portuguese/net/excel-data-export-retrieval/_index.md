@@ -51,6 +51,9 @@ Aprenda como criar uma pasta de trabalho e exportar um DataTable para Excel com 
 ### [Criar Nova Pasta de Trabalho e Exportar Excel para TXT com Precisão](./create-new-workbook-and-export-excel-to-txt-with-precision/)
 Aprenda como criar uma nova pasta de trabalho e exportar dados do Excel para um arquivo TXT com alta precisão usando Aspose.Cells para .NET.
 
+### [Como Exportar um Intervalo de Células como Tabela – Guia Completo em C#](./how-to-export-cell-range-as-table-complete-c-guide/)
+Aprenda a exportar um intervalo de células como tabela usando Aspose.Cells para .NET neste tutorial passo a passo, ideal para desenvolvedores.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

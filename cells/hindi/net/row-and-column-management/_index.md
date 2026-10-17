@@ -112,6 +112,8 @@ C# में WRAPCOLS फ़ंक्शन का उपयोग करके 
 GridJs में कई पंक्तियों को तेज़ी से जोड़ने के लिए चरण-दर-चरण मार्गदर्शिका।
 ### [C# में wrapcols का उपयोग कैसे करें – Excel WRAPROWS और फ़ॉर्मूले पुनर्गणना के साथ पूर्ण गाइड](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 C# में wrapcols, wraprows और फ़ॉर्मूले पुनर्गणना को लागू करने के चरण‑दर‑चरण निर्देश।
+### [C# के साथ Excel में सेल्स को ऊपर शिफ्ट करें – पूर्ण गाइड](./shift-cells-up-in-excel-with-c-complete-guide/)
+C# के साथ Excel में सेल्स को ऊपर शिफ्ट करने की चरण-दर-चरण मार्गदर्शिका। आसान कोड उदाहरण और विस्तृत व्याख्या।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

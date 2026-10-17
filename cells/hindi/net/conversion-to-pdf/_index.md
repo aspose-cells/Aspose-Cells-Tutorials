@@ -66,6 +66,8 @@ Excel से PDF रूपांतरण में फ़ॉन्ट एम्
 PDF को फ़ॉन्ट एम्बेड करने की पूरी प्रक्रिया सीखें, जिससे आपका Excel से निर्यात किया गया PDF सभी फ़ॉन्ट सही दिखाए।
 ### [Excel से PDF निर्यात करने का तरीका – वर्कबुक को PDF के रूप में सहेजने की पूरी गाइड](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
 Aspose.Cells का उपयोग करके Excel वर्कबुक को PDF में बदलने के चरण-दर-चरण निर्देश।
+### [C# में XLSX को PDF/A‑1b के साथ सहेजें – पूर्ण गाइड](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)
+Aspose.Cells का उपयोग करके C# में XLSX फ़ाइल को PDF/A‑1b फ़ॉर्मेट में बदलने के चरण‑दर‑चरण निर्देश।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

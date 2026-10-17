@@ -48,6 +48,8 @@ Lär dig hur du bäddar in teckensnitt i XPS-filer med C# och Aspose.Cells för 
 Lär dig hur du bäddar in teckensnitt i PDF-filer med Aspose.Cells i C#, steg för steg med kodexempel.
 ### [Spara arbetsbok som XPS i C# – Steg‑för‑steg‑guide](./save-workbook-as-xps-in-c-step-by-step-guide/)
 Lär dig hur du sparar en arbetsbok som XPS i C# med Aspose.Cells. Följ vår steg‑för‑steg‑guide med kodexempel.
+### [Konvertera Excel till XPS i C# – Komplett steg‑för‑steg‑guide](./convert-excel-to-xps-in-c-complete-step-by-step-guide/)
+Lär dig hur du konverterar Excel-filer till XPS med C# och Aspose.Cells genom en komplett steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

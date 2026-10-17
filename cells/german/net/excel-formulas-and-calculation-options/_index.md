@@ -78,7 +78,6 @@ Erfahren Sie, wie Sie Daten mit R1C1-Formeln in Excel mithilfe von Aspose.Cells 
 ### [Registrieren und Aufrufen der Funktion vom Add-In in Excel](./registering-and-calling-function-from-add-in/)
 Entdecken Sie mit unserem einfachen Schritt‑für‑Schritt‑Tutorial, wie Sie mit Aspose.Cells für .NET Funktionen von Add-Ins in Excel registrieren und aufrufen.
 ### [Festlegen der maximalen Zeilenanzahl gemeinsamer Formeln in Excel](./specifying-maximum-rows-of-shared-formula/)
-Entdecken Sie mit diesem einfachen Schritt‑für‑Schritt‑Tutorial, wie Sie mit Aspose.Cells für .NET die maximale Zeilenanzahl für freigegebene Formeln in Excel festlegen.
 ### [Alle Formeln in C# neu berechnen – Excel aktualisieren](./recalculate-all-formulas-in-c-refresh-excel/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET alle Formeln in einer Arbeitsmappe neu berechnen und das Excel-Dokument aktualisieren.
 ### [c# Excel-Datei erstellen – Schritt‑für‑Schritt‑Anleitung mit bedingter Logik](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
@@ -94,6 +93,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET die WRAPCOLS-Funktion in Excel 
 Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.Cells für .NET Array-Formeln in Excel mittels C# anwenden.
 ### [Wie man ein Excel‑Arbeitsbuch erstellt und Daten mit WRAPCOLS in C# aufteilt](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Excel‑Arbeitsbuch erzeugen und Daten mithilfe von WRAPCOLS in C# aufteilen.
+### [Wie man WRAPCOLS verwendet – Vollständiger Leitfaden für C# Excel-Automatisierung](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Entdecken Sie, wie Sie mit Aspose.Cells für .NET die WRAPCOLS‑Funktion in C# einsetzen, um Excel‑Tabellen effizient zu formatieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

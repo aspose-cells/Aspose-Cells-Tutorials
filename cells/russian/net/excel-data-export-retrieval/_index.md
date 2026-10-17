@@ -49,6 +49,8 @@
 
 ### [Создание новой рабочей книги и экспорт Excel в TXT с точностью](./create-new-workbook-and-export-excel-to-txt-with-precision/)
 Узнайте, как создать новую рабочую книгу и экспортировать данные Excel в файл TXT с высокой точностью, используя Aspose.Cells.
+### [Как экспортировать диапазон ячеек как таблицу — Полное руководство C#](./how-to-export-cell-range-as-table-complete-c-guide/)
+Узнайте, как экспортировать диапазон ячеек в виде таблицы с помощью Aspose.Cells для .NET в полном руководстве на C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

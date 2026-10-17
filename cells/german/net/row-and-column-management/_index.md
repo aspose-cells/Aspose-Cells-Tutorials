@@ -102,6 +102,8 @@ Erfahren Sie, wie Sie mit WRAPCOLS in Aspose.Cells für .NET ein zweispaltiges L
 Erfahren Sie, wie Sie mit GridJs mehrere Zeilen schnell in Ihre Tabelle einfügen. Schritt-für-Schritt-Anleitung für .NET-Entwickler.
 ### [Wie man wrapcols in C# verwendet – Vollständige Anleitung mit Excel WRAPROWS & Formeln neu berechnen](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Erfahren Sie, wie Sie wrapcols in C# einsetzen, um Zeilen umzubrechen und Formeln nach Änderungen neu zu berechnen.
+### [Zellen in Excel nach oben verschieben mit C# – Komplettanleitung](./shift-cells-up-in-excel-with-c-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Zellen in Excel nach oben verschieben. Schritt‑für‑Schritt‑Anleitung für C#‑Entwickler.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

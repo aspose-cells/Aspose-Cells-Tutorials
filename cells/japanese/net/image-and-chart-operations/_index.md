@@ -40,6 +40,8 @@ Aspose.Cells を使用して Excel ワークシートを .NET で画像に変換
 Aspose.Cells を使用して、ピボットテーブルを画像に変換し保存する手順をステップバイステップで解説します。
 ### [Excel 範囲を画像としてエクスポート – 完全 C# ガイド](./export-excel-range-as-image-complete-c-guide/)
 Aspose.Cells を使用して、Excel の特定範囲を画像としてエクスポートする方法をステップバイステップで解説します。
+### [Excelシートを画像として保存する方法 – 完全C#ガイド](./how-to-save-excel-sheet-as-image-complete-c-guide/)
+Aspose.Cells を使用して、Excel シートを C# で画像に変換し保存する手順を詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

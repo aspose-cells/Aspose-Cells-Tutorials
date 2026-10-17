@@ -109,6 +109,8 @@ Aspose.Cells for .NET을 사용하여 Excel 통합 문서에서 Power Query 수�
 
 ### [Excel 워크북 만들기 C# – Lambda, SEQUENCE 및 EXPAND 가이드](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 ### [C#를 사용하여 Excel에서 코탄젠트를 계산하는 방법 – 워크북 만들기, EXPAND 사용 및 저장](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+### [EXPAND 수식으로 Excel 통합 문서 만들기 – 완전 가이드](./create-excel-workbook-with-expand-formula-complete-guide/)
+EXPAND 함수를 사용하여 동적 배열을 생성하고, Excel 통합 문서를 프로그래밍 방식으로 구축하는 방법을 단계별로 안내합니다.
 
 ## Excel 수식 유형 이해
 

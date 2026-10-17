@@ -49,6 +49,8 @@
 
 ### [建立新工作簿並精確匯出 Excel 為 TXT](./create-new-workbook-and-export-excel-to-txt-with-precision/)
 本教學示範如何使用 Aspose.Cells for .NET 建立工作簿，並將 Excel 資料精確匯出為 TXT 檔案。
+### [如何將儲存格範圍匯出為表格 – 完整 C# 指南](./how-to-export-cell-range-as-table-complete-c-guide/)
+本教學說明如何使用 Aspose.Cells for .NET 將指定的儲存格範圍匯出為 Excel 表格，提供完整的 C# 程式碼範例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

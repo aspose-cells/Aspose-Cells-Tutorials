@@ -61,6 +61,8 @@ Aspose.Cells Net 代码教程
 ### [如何在 C# 中处理 Excel 模板并自动命名工作表](./how-to-process-excel-template-and-automatically-name-sheets)
 
 ### [使用 C# 模板导出数据到 Excel – 步骤指南](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
+### [使用 C# 生成 Excel 报表 – 步骤指南](./generate-excel-report-with-c-step-by-step-guide/)
+学习如何使用 C# 与 Aspose.Cells 逐步生成 Excel 报表，涵盖模板创建、数据绑定和导出。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

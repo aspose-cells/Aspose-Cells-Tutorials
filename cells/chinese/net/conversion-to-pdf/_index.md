@@ -65,6 +65,8 @@
 通过本完整 C# 指南，学习如何在导出 Excel 为 PDF 时嵌入字体，确保文档在任何设备上保持一致显示。
 ### [如何从 Excel 导出 PDF – 完整指南：将工作簿保存为 PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
 本指南详细演示如何使用 Aspose.Cells 将 Excel 工作簿导出为 PDF，实现高质量保存。
+### [在 C# 中将 XLSX 保存为 PDF – 完整指南（PDF/A‑1b）](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)
+通过本完整指南，学习在 C# 中使用 Aspose.Cells 将 XLSX 文件转换为 PDF，并生成符合 PDF/A‑1b 标准的文档。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

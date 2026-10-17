@@ -40,6 +40,8 @@ Scopri come unire le celle in un intervallo denominato utilizzando Aspose.Cells 
 Impara a creare una cartella di lavoro Excel, aggiungere tabelle e definire regole di denominazione con Aspose.Cells per .NET passo dopo passo.
 ### [Salva cartella di lavoro Excel e aggiungi intervallo denominato – Guida completa C#](./save-excel-workbook-and-add-named-range-full-c-guide/)
 Impara a salvare una cartella di lavoro Excel e creare un intervallo denominato usando Aspose.Cells per .NET con C# passo passo.
+### [Crea cartella di lavoro Excel in C# – Aggiungi intervallo denominato e imposta nome tabella](./create-excel-workbook-in-c-add-named-range-set-table-name/)
+Impara a creare una cartella di lavoro Excel in C#, aggiungere un intervallo denominato e impostare il nome della tabella con Aspose.Cells per .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

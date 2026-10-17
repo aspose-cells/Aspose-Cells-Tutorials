@@ -59,6 +59,8 @@
 Узнайте, как с помощью Aspose.Cells для .NET преобразовать рабочую книгу Excel в CSV, используя полный пример на C#.
 ### [Экспорт таблицы в CSV на C# – Полное руководство по программированию](./export-table-to-csv-in-c-complete-programming-guide/)
 Узнайте, как экспортировать таблицу в CSV с помощью Aspose.Cells для .NET, используя полный пример на C#.
+### [Как экспортировать CSV из Excel с помощью C# – Полное руководство](./how-to-export-csv-from-excel-with-c-complete-guide/)
+Узнайте, как экспортировать данные из Excel в CSV с помощью C# и Aspose.Cells, следуя подробному пошаговому руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -51,6 +51,9 @@ Bu eğitimde, Aspose.Cells for .NET kullanarak C# ile bir çalışma kitabı olu
 ### [Yeni Çalışma Kitabı Oluşturma ve Excel'i Hassas Şekilde TXT'ye Aktarma](./create-new-workbook-and-export-excel-to-txt-with-precision/)
 Aspose.Cells for .NET ile yeni bir çalışma kitabı oluşturup, Excel verilerini yüksek doğrulukla TXT dosyasına dışa aktarın.
 
+### [Hücre Aralığını Tablo Olarak Dışa Aktarma – Tam C# Rehberi](./how-to-export-cell-range-as-table-complete-c-guide/)
+Bu rehberde, Aspose.Cells for .NET kullanarak bir hücre aralığını tablo olarak dışa aktarmayı adım adım öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

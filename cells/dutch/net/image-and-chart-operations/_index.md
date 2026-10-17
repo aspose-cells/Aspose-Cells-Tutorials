@@ -40,6 +40,8 @@ Leer hoe u Excel-werkbladen naar afbeeldingen in .NET converteert met onze staps
 Leer hoe u een draaitabel in Excel kunt omzetten naar een afbeelding met Aspose.Cells in een eenvoudige stap‑voor‑stap handleiding.
 ### [Excel-bereik exporteren als afbeelding – Complete C#-gids](./export-excel-range-as-image-complete-c-guide/)
 Leer hoe u een bereik in Excel exporteert als afbeelding met Aspose.Cells in C#. Volledige stapsgewijze handleiding.
+### [Hoe een Excel-werkblad opslaan als afbeelding – Complete C#-gids](./how-to-save-excel-sheet-as-image-complete-c-guide/)
+Leer stap voor stap hoe u een Excel-werkblad met Aspose.Cells in C# opslaat als afbeelding van hoge kwaliteit.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

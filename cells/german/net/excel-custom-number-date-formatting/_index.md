@@ -90,6 +90,10 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Arbeitsbuch erzeugen und Ze
 Erfahren Sie in diesem umfassenden Tutorial, wie Sie mit Aspose.Cells für .NET das Datumsformat in Excel per C# festlegen.
 ### [Excel-Arbeitsmappe erstellen C# – Signifikante Stellen begrenzen](./create-excel-workbook-c-limit-significant-digits-excel/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe in C# erstellen und die signifikanten Stellen von Zahlen begrenzen.
+### [Datums‑Spalte in Excel formatieren – Vollständiger C#‑Leitfaden zum Exportieren einer DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET das Datumsformat einer Excel‑Spalte festlegen und Daten aus einer DataTable exportieren.
+### [Japanische Kalenderkonvertierung in C# – Vollständiger Leitfaden](./japanese-calendar-conversion-in-c-full-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET japanische Kalenderdaten in C# konvertieren und verarbeiten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

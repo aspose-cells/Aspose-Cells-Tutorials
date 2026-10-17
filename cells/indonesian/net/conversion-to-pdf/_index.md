@@ -65,6 +65,8 @@ Pelajari cara menyematkan font dalam PDF saat mengonversi file Excel menggunakan
 Pelajari cara menyematkan font dalam PDF saat mengekspor file Excel menggunakan C# dengan Aspose.Cells untuk .NET.
 ### [Cara Mengekspor PDF dari Excel – Panduan Lengkap untuk Menyimpan Workbook sebagai PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
 Pelajari cara mengekspor lembar kerja Excel menjadi PDF dengan mudah menggunakan Aspose.Cells untuk .NET dalam panduan lengkap ini.
+### [Simpan XLSX sebagai PDF di C# – Panduan Lengkap dengan PDF/A‑1b](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)
+Pelajari cara menyimpan file XLSX sebagai PDF dengan standar PDF/A‑1b menggunakan Aspose.Cells untuk .NET dalam panduan lengkap ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

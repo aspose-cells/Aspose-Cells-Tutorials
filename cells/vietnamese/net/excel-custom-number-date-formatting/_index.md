@@ -78,6 +78,10 @@ Tìm hiểu cách tạo workbook Excel với ngày theo lịch Nhật Bản bằ
 Tìm hiểu cách tạo workbook Excel trong C# và giới hạn số chữ số có ý nghĩa bằng Aspose.Cells cho .NET.
 ### [Cách áp dụng định dạng số trong Excel với Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
 Hướng dẫn chi tiết cách áp dụng định dạng số trong Excel bằng Aspose.Cells cho .NET.
+### [Định dạng cột ngày trong Excel – Hướng dẫn C# đầy đủ để xuất DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+Hướng dẫn chi tiết cách định dạng cột ngày trong Excel khi xuất DataTable bằng C# với Aspose.Cells.
+### [Chuyển đổi Lịch Nhật trong C# – Hướng dẫn đầy đủ](./japanese-calendar-conversion-in-c-full-guide/)
+Tìm hiểu cách chuyển đổi ngày theo lịch Nhật trong C# bằng Aspose.Cells với hướng dẫn chi tiết từng bước.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

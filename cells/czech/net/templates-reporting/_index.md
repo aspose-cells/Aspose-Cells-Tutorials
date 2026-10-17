@@ -85,6 +85,8 @@ Naučte se, jak pomocí Aspose.Cells pro .NET zpracovat šablonu Excel a automat
 
 ### [Jak exportovat data do Excelu pomocí šablony C# – krok za krokem](./how-to-export-data-to-excel-using-a-c-template-step-by-step/)
 Naučte se, jak pomocí šablony C# exportovat data do Excelu krok za krokem.
+### [Generování Excel reportu v C# – krok za krokem průvodce](./generate-excel-report-with-c-step-by-step-guide/)
+Naučte se, jak pomocí C# vytvořit Excel report od načtení dat po formátování a uložení, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -94,6 +94,8 @@
 تعلم خطوة بخطوة كيفية حساب الدالة القاطعة في Excel باستخدام لغة C# مع Aspose.Cells.
 ### [كيفية استخدام WRAPCOLS في Excel – مثال كامل بلغة C#](./how-to-use-wrapcols-in-excel-complete-c-example/)
 تعلم كيفية استخدام الدالة WRAPCOLS في Excel مع مثال كامل بلغة C# لتطبيقات Aspose.Cells لـ .NET.
+### [كيفية استخدام WRAPCOLS – دليل كامل لأتمتة Excel باستخدام C#](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+اكتشف كيفية استخدام الدالة WRAPCOLS في Aspose.Cells لـ .NET لأتمتة Excel باستخدام C# خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

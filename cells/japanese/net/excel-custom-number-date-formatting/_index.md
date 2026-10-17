@@ -64,6 +64,10 @@ Aspose.Cells for .NET を使用して、C# で Excel ワークブックを作成
 ### [Aspose.Cells で Excel の数値書式を適用する方法](./how-to-apply-number-format-excel-with-aspose-cells/)
 
 Aspose.Cells を使用して、Excel のセルに数値書式を設定する手順を解説します。
+### [Excelで日付列をフォーマット – DataTableエクスポートの完全C#ガイド](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+このチュートリアルでは、C#を使用してDataTableからExcelへデータをエクスポートし、日付列を適切にフォーマットする方法をステップバイステップで解説します。
+### [C#で和暦変換 – 完全ガイド](./japanese-calendar-conversion-in-c-full-guide/)
+C#を使用して和暦と西暦の相互変換方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

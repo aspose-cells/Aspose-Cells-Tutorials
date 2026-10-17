@@ -72,6 +72,8 @@ Scopri come elaborare un modello Excel e rinominare automaticamente i fogli usan
 
 ### [Come esportare dati in Excel usando un modello C# – guida passo‑passo](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
 Scopri come esportare dati in Excel da un modello C# con Aspose.Cells, seguendo una procedura dettagliata passo‑passo.
+### [Genera report Excel con C# – Guida passo‑passo](./generate-excel-report-with-c-step-by-step-guide/)
+Scopri come creare un report Excel in C# passo dopo passo, dalla configurazione dei dati alla generazione del file finale.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

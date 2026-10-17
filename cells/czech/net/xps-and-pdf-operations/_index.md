@@ -48,6 +48,8 @@ Naučte se, jak vložit písma do PDF souborů pomocí Aspose.Cells v C#, aby PD
 Naučte se, jak v C# pomocí Aspose.Cells uložit sešit jako XPS pomocí podrobného krok‑za‑krokem návodu.
 ### [Převod Excelu do XPS v C# a načtení souboru Excel](./convert-excel-to-xps-in-c-and-load-excel-file/)
 Naučte se, jak načíst soubor Excel a převést jej do XPS pomocí Aspose.Cells v C#.
+### [Převod Excelu do XPS v C# – Kompletní průvodce krok za krokem](./convert-excel-to-xps-in-c-complete-step-by-step-guide/)
+Naučte se převádět soubory Excel do XPS v C# pomocí Aspose.Cells s podrobnými ukázkami kódu a praktickými tipy.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -58,6 +58,10 @@
 เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# และตั้งค่าการจำกัดจำนวนหลักสำคัญเพื่อควบคุมความแม่นยำของข้อมูล
 ### [วิธีใช้รูปแบบตัวเลขใน Excel ด้วย Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
 เรียนรู้วิธีกำหนดรูปแบบตัวเลขในไฟล์ Excel ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด
+### [จัดรูปแบบคอลัมน์วันที่ใน Excel – คู่มือ C# ครบถ้วนสำหรับการส่งออก DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+เรียนรู้วิธีจัดรูปแบบคอลัมน์วันที่ใน Excel และส่งออก DataTable ด้วย C# อย่างละเอียดในบทช่วยสอนนี้
+### [การแปลงปฏิทินญี่ปุ่นใน C# – คู่มือเต็ม](./japanese-calendar-conversion-in-c-full-guide/)
+เรียนรู้วิธีแปลงปฏิทินญี่ปุ่นเป็นวันที่ใน C# อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

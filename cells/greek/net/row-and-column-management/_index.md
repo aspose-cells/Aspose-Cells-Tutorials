@@ -110,6 +110,8 @@
 Μάθετε πώς να προσθέσετε πολλές γραμμές στο GridJs γρήγορα με απλό κώδικα, βήμα προς βήμα οδηγίες.
 ### [Πώς να χρησιμοποιήσετε το WrapCols σε C# – Πλήρης οδηγός με Excel WrapRows & Επανάληψη τύπων](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Μάθετε πώς να εφαρμόζετε τη μέθοδο WrapCols σε C#, να χρησιμοποιείτε WrapRows και να επαναϋπολογίζετε τύπους στο Excel με το Aspose.Cells.
+### [Μετακίνηση κελιών προς τα πάνω στο Excel με C# – Πλήρης Οδηγός](./shift-cells-up-in-excel-with-c-complete-guide/)
+Μάθετε πώς να μετακινήσετε κελιά προς τα πάνω στο Excel χρησιμοποιώντας C# και Aspose.Cells, βήμα‑βήμα οδηγίες.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

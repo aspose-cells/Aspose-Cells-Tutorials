@@ -72,6 +72,8 @@ Megosztott képletekkel való munka során fontos megérteni, hogyan lehet haté
 ### [Hogyan bővítsük a tömböt C#-ban az Aspose.Cells segítségével – Lépésről‑lépésre útmutató](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 ### [Tömbképlet alkalmazása Excelben C#-ban – Teljes útmutató](./apply-array-formula-excel-in-c-complete-guide/)
 ### [Hogyan használjuk a WRAPCOLS függvényt Excelben – Teljes C# példa](./how-to-use-wrapcols-in-excel-complete-c-example/)
+### [Hogyan használjuk a WRAPCOLS‑t – Teljes útmutató C# Excel automatizáláshoz](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Ismerje meg a WRAPCOLS függvény használatát C#‑ban az Aspose.Cells for .NET segítségével, lépésről lépésre útmutató.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

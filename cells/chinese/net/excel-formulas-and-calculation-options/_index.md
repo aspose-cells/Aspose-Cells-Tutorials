@@ -97,6 +97,8 @@ Excel 内置了大量函数，可用于执行各种计算和数据操作。了�
 通过 Aspose.Cells for .NET，在 C# 中创建 Excel 工作簿并使用 WRAPCOLS 将数据拆分为矩阵的详细步骤指南。
 ### [在 C# 中应用 Excel 数组公式 – 完整指南](./apply-array-formula-excel-in-c-complete-guide/)
 通过本分步指南，学习如何使用 Aspose.Cells for .NET 在 C# 中应用 Excel 数组公式，实现完整的解决方案。
+### [如何使用 WRAPCOLS – C# Excel 自动化完整指南](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+通过本分步指南，学习在 Aspose.Cells for .NET 中使用 WRAPCOLS 函数实现 Excel 自动化。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

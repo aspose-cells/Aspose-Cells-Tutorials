@@ -78,7 +78,6 @@ Leer hoe je een rij in Excel invoegt met Aspose.Cells voor .NET met deze stapsge
 ### [Rij invoegen met opmaak in Aspose.Cells .NET](./insert-row-formatting-aspose-cells/)
 Leer hoe je een rij met opmaak in Excel invoegt met Aspose.Cells voor .NET. Volg onze stapsgewijze handleiding voor eenvoudige implementatie.
 ### [Meerdere rijen invoegen in Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
-Leer u meerdere rijen in Excel kunt invoegen met Aspose.Cells voor .NET. Volg onze gedetailleerde tutorial voor naadloze gegevensmanipulatie.
 ### [Excel-bestand laden C# – Hoe rijen te verwijderen en specifieke rijen te verwijderen](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Leer hoe u met Aspose.Cells voor .NET rijen uit een Excel‑bestand kunt verwijderen en specifieke rijen kunt targeten.
 ### [Hoe items in Excel te herhalen – Dynamische rijen genereren met C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
@@ -105,6 +104,8 @@ Leer hoe u met GridJs meerdere rijen in één keer kunt toevoegen via een eenvou
 
 ### [Hoe wrapcols te gebruiken in C# – Volledige gids met Excel WRAPROWS & Formules opnieuw berekenen](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Ontdek hoe u wrapcols en wraprows in Excel kunt toepassen en formules automatisch laat herberekenen met Aspose.Cells voor .NET.
+### [Cellen omhoog verschuiven in Excel met C# – Complete gids](./shift-cells-up-in-excel-with-c-complete-guide/)
+Leer hoe u met C# cellen in een Excel-werkblad omhoog verschuift met Aspose.Cells, stap voor stap uitgelegd.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -96,6 +96,8 @@ Apprenez à créer et manipuler des tableaux dans Excel en utilisant C# avec Asp
 Apprenez à calculer la fonction cotangente dans Excel en utilisant C# avec Aspose.Cells pour .NET grâce à ce guide complet étape par étape.
 ### [Comment utiliser WRAPCOLS dans Excel – Exemple complet en C#](./how-to-use-wrapcols-in-excel-complete-c-example/)
 Apprenez à appliquer la fonction WRAPCOLS dans Excel avec un exemple complet en C# utilisant Aspose.Cells pour .NET.
+### [Comment utiliser WRAPCOLS – Guide complet pour l'automatisation Excel en C#](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Apprenez à utiliser la fonction WRAPCOLS avec Aspose.Cells pour .NET afin d'automatiser la mise en forme des données Excel en C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

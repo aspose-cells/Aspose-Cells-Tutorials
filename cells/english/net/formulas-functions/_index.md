@@ -172,6 +172,8 @@ For robust formula implementation:
 4. **Documentation**: Maintain clear documentation of complex formula structures
 
 By mastering these formula capabilities with Aspose.Cells for .NET, you can create sophisticated calculation engines in your spreadsheets that deliver accurate, dynamic results without requiring Excel installation.
+### [Create Excel Workbook with EXPAND Formula – Complete Guide](./create-excel-workbook-with-expand-formula-complete-guide/)
+Learn how to generate Excel workbooks using the new EXPAND function with Aspose.Cells for .NET, covering syntax, usage, and performance tips.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

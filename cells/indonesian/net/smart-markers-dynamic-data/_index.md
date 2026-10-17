@@ -85,6 +85,8 @@ Sajátítsa el az Aspose.Cells for .NET-et általános listákkal és intelligen
 Engedd szabadjára az Aspose.Cells erejét ezzel a lépésről lépésre haladó oktatóanyaggal, amely bemutatja a HTML tulajdonság használatát az intelligens jelölőkben .NET alkalmazásokhoz.
 ### [Beágyazott objektumok kezelése intelligens jelölőkkel Aspose.Cells](./nested-objects-smart-markers/)
 Az Aspose.Cells segítségével lépésről lépésre haladva könnyedén kezelheted a beágyazott objektumokat intelligens jelölők segítségével, így az Excel-jelentéskészítésben rejlő lehetőségeket is kihasználhatod.
+### [Range smart marker untuk memproses data bersarang di C# – Panduan Lengkap](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
+Pelajari cara menggunakan range smart marker untuk memproses data bersarang di C# dengan panduan lengkap.
 ### [Változó tömb implementálása intelligens jelölőkkel Aspose.Cells](./variable-array-smart-markers/)
 Engedd szabadjára az Aspose.Cells erejét. Tanuld meg, hogyan valósíthatsz meg változó tömböket intelligens jelölőkkel lépésről lépésre a zökkenőmentes Excel-jelentéskészítéshez.
 ### [Menerapkan SmartMarker ke Worksheet di C# – Panduan Lengkap](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
@@ -176,6 +178,9 @@ Pelajari cara mengekspor data ke file Excel secara otomatis dengan mengisi templ
 ### [Mengonversi JSON ke XLSX di C# menggunakan SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
 
 ### [Cara membuat data smart marker dan mengisi data templat Excel](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
+### [Cara Mengevaluasi Formula dengan Smart Markers – Panduan Lengkap](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
+Pelajari langkah demi langkah cara mengevaluasi formula menggunakan Smart Markers dalam Aspose.Cells untuk .NET, meningkatkan akurasi laporan Excel Anda.
+### [Muat Template Excel di C# – Hasilkan Beberapa Lembar dengan Cepat](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

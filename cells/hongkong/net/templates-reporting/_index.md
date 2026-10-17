@@ -70,6 +70,8 @@ Aspose.Cells Net 代碼教程
 
 ### [如何使用 C# 範本匯出資料至 Excel – 步驟指南](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
 說明如何使用 C# 範本將資料匯出為 Excel 檔案的完整步驟。
+### [使用 C# 產生 Excel 報告 – 步驟說明指南](./generate-excel-report-with-c-step-by-step-guide/)
+本教學示範如何使用 C# 透過 Aspose.Cells 逐步建立 Excel 報告，涵蓋資料匯入、樣式設定與檔案儲存。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

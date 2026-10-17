@@ -40,6 +40,8 @@
 本教程逐步演示如何使用 Aspose.Cells 将 Excel 数据透视表导出为图像，帮助您轻松共享分析结果。
 ### [导出 Excel 区域为图像 – 完整 C# 指南](./export-excel-range-as-image-complete-c-guide/)
 学习如何使用 Aspose.Cells 在 .NET 中将 Excel 区域导出为图像，提供完整的 C# 示例和步骤指南。
+### [如何将 Excel 工作表保存为图像 – 完整 C# 指南](./how-to-save-excel-sheet-as-image-complete-c-guide/)
+本完整指南教您使用 C# 和 Aspose.Cells 将 Excel 工作表保存为高质量图像。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

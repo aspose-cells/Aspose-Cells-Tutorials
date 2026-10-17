@@ -60,6 +60,8 @@ Learn how to convert JSON data into an Excel workbook and save it using Aspose.C
 
 ### [How to process Excel template and automatically name sheets in C#](./how-to-process-excel-template-and-automatically-name-sheets)
 Learn how to process an Excel template and dynamically name worksheets using Aspose.Cells for .NET in C#.
+### [Generate Excel Report with C# – Step‑by‑Step Guide](./generate-excel-report-with-c-step-by-step-guide/)
+Step-by-step tutorial on generating Excel reports using C# and Aspose.Cells, covering setup, data binding, and saving the workbook.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

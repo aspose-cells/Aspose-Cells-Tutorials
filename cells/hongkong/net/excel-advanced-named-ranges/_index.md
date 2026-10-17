@@ -40,6 +40,8 @@
 本分步指南教您如何在 Excel 工作簿中新增表格並設定命名規則。
 ### [儲存 Excel 活頁簿並新增命名範圍 – 完整 C# 指南](./save-excel-workbook-and-add-named-range-full-c-guide/)
 本完整 C# 教學說明如何儲存 Excel 活頁簿並建立命名範圍，以提升檔案管理與自動化流程。
+### [在 C# 中建立 Excel 工作簿 – 新增命名範圍並設定表格名稱](./create-excel-workbook-in-c-add-named-range-set-table-name/)
+本教學示範如何在 C# 使用 Aspose.Cells 建立 Excel 工作簿、加入命名範圍並設定表格名稱。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

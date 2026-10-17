@@ -49,6 +49,8 @@ Dowiedz się, jak w C# utworzyć skoroszyt i wyeksportować DataTable do Excela,
 
 ### [Utwórz nowy skoroszyt i wyeksportuj Excel do pliku TXT z precyzją](./create-new-workbook-and-export-excel-to-txt-with-precision/)
 Dowiedz się, jak w C# utworzyć nowy skoroszyt i precyzyjnie wyeksportować jego zawartość do pliku TXT przy użyciu Aspose.Cells.
+### [Jak wyeksportować zakres komórek jako tabelę – kompletny przewodnik C#](./how-to-export-cell-range-as-table-complete-c-guide/)
+Dowiedz się, jak przy użyciu Aspose.Cells wyeksportować wybrany zakres komórek jako tabelę w C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

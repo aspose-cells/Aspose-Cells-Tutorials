@@ -88,6 +88,10 @@ Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap maakt en het aantal sign
 
 ### [Hoe een getalopmaak toe te passen in Excel met Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
 Leer hoe u met Aspose.Cells een aangepast getalformaat in Excel toepast via C#.
+### [Datumkolom opmaken in Excel – Complete C#-gids voor het exporteren van DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+Leer hoe u met Aspose.Cells een datumkolom in Excel opmaakt en een DataTable exporteert via C#.
+### [Japanse kalenderconversie in C# – volledige gids](./japanese-calendar-conversion-in-c-full-guide/)
+Leer hoe u met Aspose.Cells de Japanse kalender converteert in C# met een volledige stap‑voor‑stap gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -45,6 +45,9 @@
 ### [تصدير نطاق ورقة العمل في C# – دليل برمجة كامل](./export-worksheet-range-in-c-complete-programming-guide/)
 تعلم كيفية تصدير نطاق محدد من ورقة العمل إلى ملف Excel باستخدام Aspose.Cells لـ .NET في دليل برمجة شامل خطوة بخطوة.
 
+### [كيفية تصدير نطاق الخلايا كجدول – دليل C# كامل](./how-to-export-cell-range-as-table-complete-c-guide/)
+تعرف على كيفية تصدير نطاق من الخلايا إلى جدول في Excel باستخدام Aspose.Cells لـ .NET في هذا الدليل الشامل بلغة C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

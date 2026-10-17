@@ -168,6 +168,8 @@ För robust formelimplementering:
 Genom att bemästra dessa formelfunktioner med Aspose.Cells för .NET kan du skapa sofistikerade beräkningsmotorer i dina kalkylblad som ger exakta, dynamiska resultat utan att behöva installera Excel.
 ### [Skapa Excel-arbetsbok i C# – Lambda, SEQUENCE & EXPAND-guide](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 Lär dig hur du skapar en Excel-arbetsbok i C# och använder de nya Lambda-, SEQUENCE- och EXPAND-funktionerna med Aspose.Cells.
+### [Skapa Excel-arbetsbok med EXPAND-formel – Komplett guide](./create-excel-workbook-with-expand-formula-complete-guide/)
+Lär dig hur du skapar en Excel-arbetsbok och använder EXPAND-formeln för dynamiska matrisutdata i en komplett guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

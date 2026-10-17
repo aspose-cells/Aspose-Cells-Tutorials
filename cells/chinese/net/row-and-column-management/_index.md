@@ -99,6 +99,8 @@
 ### [如何在 GridJs 中插入行 – 快速添加多行](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 本教程提供在 GridJs 表格中一次性插入多行的分步指南，帮助您高效扩展数据。
 ### [在 C# 中使用 wrapcols – 完整指南，包含 Excel WRAPROWS 与重新计算公式](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+### [使用 C# 在 Excel 中向上移动单元格 – 完整指南](./shift-cells-up-in-excel-with-c-complete-guide/)
+了解如何使用 Aspose.Cells for .NET 在 Excel 中向上移动单元格的完整步骤。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

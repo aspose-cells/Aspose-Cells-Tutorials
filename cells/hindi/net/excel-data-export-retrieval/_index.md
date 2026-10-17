@@ -48,6 +48,8 @@
 
 ### [नया वर्कबुक बनाएं और सटीकता के साथ Excel को TXT में निर्यात करें](./create-new-workbook-and-export-excel-to-txt-with-precision/)
 इस ट्यूटोरियल में आप नया वर्कबुक बनाकर Excel डेटा को सटीकता से TXT फ़ाइल में निर्यात करना सीखेंगे।
+### [सेल रेंज को टेबल के रूप में निर्यात करें – पूर्ण C# गाइड](./how-to-export-cell-range-as-table-complete-c-guide/)
+Aspose.Cells का उपयोग करके सेल रेंज को टेबल के रूप में निर्यात करने की पूरी C# गाइड, चरण-दर-चरण निर्देश।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

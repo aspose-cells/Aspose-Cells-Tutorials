@@ -167,6 +167,10 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 ### [Πώς να δημιουργήσετε αναφορά Excel συγχωνεύοντας ένα πρότυπο Excel με Smart Markers](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
 Μάθετε πώς να δημιουργήσετε μια αναφορά Excel συγχωνεύοντας ένα πρότυπο με Smart Markers σε .NET.
 
+### [Φόρτωση προτύπου Excel σε C# – Γρήγορη δημιουργία πολλαπλών φύλλων](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
+### [Πώς να αξιολογήσετε τύπο με Έξυπνους Δείκτες – Πλήρης Οδηγός](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
+### [Range smart marker για επεξεργασία ένθετων δεδομένων σε C# – Πλήρης οδηγός](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -48,6 +48,8 @@ Dowiedz się, jak osadzić czcionki w plikach PDF generowanych z Excela przy uż
 Dowiedz się, jak zapisać skoroszyt Excel jako plik XPS w C# przy użyciu Aspose.Cells, krok po kroku z przykładami kodu.
 ### [Konwersja Excela do XPS w C# i wczytanie pliku Excel](./convert-excel-to-xps-in-c-and-load-excel-file/)
 Dowiedz się, jak w C# konwertować plik Excel do formatu XPS oraz wczytywać plik Excel przy użyciu Aspose.Cells.
+### [Konwersja Excel do XPS w C# – Kompletny przewodnik krok po kroku](./convert-excel-to-xps-in-c-complete-step-by-step-guide/)
+Dowiedz się, jak w C# konwertować pliki Excel do formatu XPS, korzystając z pełnego przewodnika krok po kroku i praktycznych przykładów kodu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

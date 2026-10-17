@@ -89,6 +89,10 @@ Apprenez à appliquer un format de date personnalisé dans Excel en C# grâce à
 Apprenez à créer un classeur Excel utilisant le calendrier japonais pour les dates, grâce à un guide complet pas à pas.
 ### [Créer un classeur Excel C# – Limiter les chiffres significatifs](./create-excel-workbook-c-limit-significant-digits-excel/)
 Apprenez à créer un classeur Excel en C# et à limiter les chiffres significatifs à l'aide d'Aspose.Cells pour .NET.
+### [Formater la colonne de date Excel – Guide complet C# pour exporter DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+Apprenez à formater une colonne de date dans Excel et à exporter un DataTable en C# avec Aspose.Cells.
+### [Conversion du calendrier japonais en C# – Guide complet](./japanese-calendar-conversion-in-c-full-guide/)
+Apprenez à convertir les dates du calendrier japonais en C# avec Aspose.Cells grâce à ce guide complet.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -65,6 +65,8 @@
 تعلم كيفية تضمين الخطوط في ملفات PDF عند تصدير جداول Excel باستخدام Aspose.Cells وC# لضمان عرض النصوص بشكل صحيح.
 ### [كيفية تصدير PDF من Excel – دليل كامل لحفظ المصنف كملف PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
 تعلم خطوة بخطوة كيفية تصدير ملفات Excel إلى PDF وحفظ المصنف بصيغة PDF باستخدام Aspose.Cells.
+### [حفظ XLSX كملف PDF في C# – دليل كامل مع PDF/A‑1b](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)
+تعلم كيفية حفظ ملفات XLSX كـ PDF مع دعم معيار PDF/A‑1b باستخدام Aspose.Cells في C# خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

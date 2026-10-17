@@ -95,6 +95,8 @@ Tìm hiểu cách sử dụng hàm WRAPCOLS trong Excel với ví dụ C# đầy
 Tìm hiểu cách áp dụng công thức mảng trong Excel bằng C# với Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
 ### [Cách tạo workbook Excel và chia dữ liệu bằng WRAPCOLS trong C#](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
 Hướng dẫn tạo workbook Excel và phân tách dữ liệu bằng hàm WRAPCOLS trong C# với Aspose.Cells.
+### [Cách sử dụng WRAPCOLS – Hướng dẫn toàn diện cho tự động hóa Excel bằng C#](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Khám phá cách dùng WRAPCOLS trong Aspose.Cells cho .NET để tự động chia cột dữ liệu trong Excel bằng C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

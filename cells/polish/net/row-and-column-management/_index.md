@@ -96,6 +96,8 @@ Dowiedz się, jak efektywnie dodać wiele wierszy do siatki w GridJs, krok po kr
 Dowiedz się, jak używać metody wrapcols w C#, wraz z funkcją WRAPROWS i przeliczaniem formuł w Excelu.
 ### [Jak usunąć cały wiersz w pliku Excel przy użyciu C#](./how-to-delete-entire-row-in-an-excel-file-using-c/)
 Dowiedz się, jak usunąć kompletny wiersz z pliku Excel w C# przy pomocy Aspose.Cells, krok po kroku.
+### [Przesuwanie komórek w górę w Excelu przy użyciu C# – kompletny przewodnik](./shift-cells-up-in-excel-with-c-complete-guide/)
+Dowiedz się, jak programowo przesunąć komórki w górę w arkuszu Excel przy użyciu Aspose.Cells i języka C# w kilku prostych krokach.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

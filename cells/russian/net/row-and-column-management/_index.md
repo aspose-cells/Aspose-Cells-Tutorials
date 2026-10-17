@@ -102,6 +102,8 @@
 Узнайте, как быстро добавить несколько строк в GridJs с помощью Aspose.Cells для .NET.
 ### [Как использовать WrapCols в C# – Полное руководство с Excel WrapRows и пересчетом формул](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Подробное руководство по использованию свойства WrapCols в Aspose.Cells для .NET, включая WrapRows и пересчет формул.
+### [Сдвиг ячеек вверх в Excel с помощью C# – Полное руководство](./shift-cells-up-in-excel-with-c-complete-guide/)
+Узнайте, как сдвинуть ячейки вверх в Excel с помощью C# и Aspose.Cells, следуя пошаговому руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -87,6 +87,10 @@ Dowiedz się, jak w C# utworzyć skoroszyt Excel i ograniczyć liczbę znaczący
 
 ### [Jak zastosować format liczbowy w Excelu przy użyciu Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
 Dowiedz się, jak zastosować niestandardowy format liczbowy w Excelu przy pomocy Aspose.Cells w .NET, krok po kroku.
+### [Formatowanie kolumny dat w Excel – Kompletny przewodnik C# do eksportu DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+Poznaj, jak w C# przy użyciu Aspose.Cells sformatować kolumnę dat i wyeksportować DataTable do pliku Excel.
+### [Konwersja kalendarza japońskiego w C# – Pełny przewodnik](./japanese-calendar-conversion-in-c-full-guide/)
+Kompletny przewodnik, jak w C# konwertować daty z kalendarza japońskiego przy użyciu Aspose.Cells, z przykładami kodu i praktycznymi wskazówkami.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

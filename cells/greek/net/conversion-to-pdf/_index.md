@@ -65,6 +65,8 @@
 Μάθετε πώς να ενσωματώνετε γραμματοσειρές σε PDF κατά την εξαγωγή αρχείων Excel με το Aspose.Cells σε C#.
 ### [Πώς να εξάγετε PDF από το Excel – Πλήρης οδηγός για αποθήκευση βιβλίου εργασίας ως PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
 Μάθετε πώς να αποθηκεύσετε το βιβλίο εργασίας Excel ως PDF με βήμα-βήμα οδηγίες και παραδείγματα κώδικα.
+### [Αποθήκευση XLSX ως PDF σε C# – Πλήρης Οδηγός με PDF/A‑1b](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)
+Μάθετε πώς να αποθηκεύετε αρχεία XLSX ως PDF με υποστήριξη PDF/A‑1b χρησιμοποιώντας Aspose.Cells σε C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

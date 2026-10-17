@@ -43,6 +43,9 @@ Lär dig att exportera Excel-data med Aspose.Cells för .NET i en detaljerad ste
 ### [Exportera arbetsbladsområde i C# – Komplett programmeringsguide](./export-worksheet-range-in-c-complete-programming-guide/)
 Lär dig hur du exporterar ett specifikt område från ett arbetsblad till olika format med Aspose.Cells för .NET i denna omfattande guide.
 
+### [Hur man exporterar cellområde som tabell – Komplett C#-guide](./how-to-export-cell-range-as-table-complete-c-guide/)
+Lär dig att exportera ett cellområde som en tabell i Excel med Aspose.Cells för .NET i denna kompletta C#-guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

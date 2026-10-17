@@ -59,6 +59,8 @@
 تعلم كيفية تحويل ملفات Excel إلى CSV باستخدام Aspose.Cells لـ .NET مع أمثلة شاملة بلغة C#.
 ### [تصدير جدول إلى CSV في C# – دليل برمجة كامل](./export-table-to-csv-in-c-complete-programming-guide/)
 تعلم كيفية تصدير الجداول إلى ملفات CSV باستخدام Aspose.Cells لـ .NET مع أمثلة شاملة بلغة C#.
+### [كيفية تصدير CSV من Excel باستخدام C# – دليل كامل](./how-to-export-csv-from-excel-with-c-complete-guide/)
+تعلم خطوة بخطوة كيفية تصدير ملفات CSV من Excel باستخدام C# مع Aspose.Cells .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

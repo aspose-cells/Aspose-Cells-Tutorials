@@ -101,6 +101,8 @@ Learn how to use the WRAPCOLS feature in Aspose.Cells for .NET to create a two�
 Learn how to quickly add multiple rows in GridJs with a simple step-by-step guide for efficient data handling.
 ### [how to use wrapcols in C# – Full Guide with Excel WRAPROWS & Recalculate Formulas](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Learn how to use WrapCols in C# with Excel WrapRows and recalculate formulas in this comprehensive guide.
+### [Shift Cells Up in Excel with C# – Complete Guide](./shift-cells-up-in-excel-with-c-complete-guide/)
+Learn how to shift cells upward in an Excel worksheet using Aspose.Cells for .NET with C#. Step-by-step guide for developers.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

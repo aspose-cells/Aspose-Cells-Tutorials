@@ -40,6 +40,8 @@
 Μάθετε πώς να αποθηκεύσετε πίνακες Pivot ως εικόνες σε .NET με το Aspose.Cells, ακολουθώντας έναν απλό οδηγό βήμα‑βήμα.
 ### [Εξαγωγή περιοχής Excel ως εικόνα – Πλήρης οδηγός C#](./export-excel-range-as-image-complete-c-guide/)
 Μάθετε πώς να εξάγετε μια περιοχή Excel ως εικόνα σε C# χρησιμοποιώντας το Aspose.Cells, βήμα-βήμα οδηγός.
+### [Πώς να αποθηκεύσετε φύλλο Excel ως εικόνα – Πλήρης οδηγός C#](./how-to-save-excel-sheet-as-image-complete-c-guide/)
+Μάθετε πώς να αποθηκεύσετε ένα φύλλο Excel ως εικόνα σε .NET χρησιμοποιώντας το Aspose.Cells με πλήρη οδηγό C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

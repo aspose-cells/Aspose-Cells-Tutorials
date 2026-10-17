@@ -40,6 +40,8 @@ Aprenda a combinar celdas en un rango con nombre usando Aspose.Cells para .NET e
 Aprenda a crear un libro de Excel, agregar tablas y definir reglas de nombres con Aspose.Cells para .NET en este tutorial paso a paso.
 ### [Guardar libro de Excel y agregar rango con nombre – Guía completa en C#](./save-excel-workbook-and-add-named-range-full-c-guide/)
 Aprenda a guardar un libro de Excel y crear rangos con nombre usando Aspose.Cells para .NET en C# paso a paso.
+### [Crear libro de Excel en C# – Añadir rango con nombre y establecer nombre de tabla](./create-excel-workbook-in-c-add-named-range-set-table-name/)
+Cree un libro de Excel en C# añadiendo un rango con nombre y estableciendo el nombre de la tabla usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -49,6 +49,8 @@
 
 ### [สร้าง Workbook ใหม่และส่งออก Excel เป็น TXT อย่างแม่นยำ](./create-new-workbook-and-export-excel-to-txt-with-precision/)
 เรียนรู้วิธีสร้าง Workbook ใหม่และส่งออกไฟล์ Excel เป็น TXT อย่างแม่นยำด้วย Aspose.Cells สำหรับ .NET
+### [วิธีส่งออกช่วงเซลล์เป็นตาราง – คู่มือ C# ฉบับสมบูรณ์](./how-to-export-cell-range-as-table-complete-c-guide/)
+เรียนรู้วิธีส่งออกช่วงเซลล์เป็นตารางด้วย Aspose.Cells สำหรับ .NET ในบทช่วยสอนขั้นตอนเต็มที่ เหมาะสำหรับผู้เริ่มต้นและนักพัฒนาที่มีประสบการณ์
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

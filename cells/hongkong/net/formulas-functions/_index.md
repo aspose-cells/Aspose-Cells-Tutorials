@@ -113,6 +113,8 @@
 了解如何在 C# 中使用 Lambda 表達式與 Excel 公式結合，實現動態計算與自訂函數。
 ### [如何在 Excel 中使用 C# 計算餘切 – 建立工作簿、使用 EXPAND 並儲存](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
 了解如何使用 Aspose.Cells for .NET 以 C# 建立工作簿，計算 Excel 中的餘切函數，使用 EXPAND 並儲存檔案。
+### [使用 EXPAND 公式建立 Excel 工作簿 – 完整指南](./create-excel-workbook-with-expand-formula-complete-guide/)
+了解如何使用 Aspose.Cells for .NET 在 Excel 中使用 EXPAND 公式建立工作簿，實作動態陣列計算的完整步驟。
 
 ## 了解 Excel 公式類型
 

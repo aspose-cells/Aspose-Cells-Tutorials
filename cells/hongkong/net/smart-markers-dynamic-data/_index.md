@@ -179,6 +179,12 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 了解如何使用 Aspose.Cells SmartMarker 在 Excel 工作表之間建立連結，實現跨表資料同步的完整步驟指南。
 ### [使用 C# 將 JSON 轉換為 Excel 的逐步指南](./convert-json-to-excel-with-c-step-by-step-guide/)
 ### [使用 Aspose.Cells SmartMarkerProcessor 從 XLSX 建立工作簿](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+### [在 C# 中載入 Excel 範本 – 快速產生多工作表](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中載入 Excel 範本，並快速生成多個工作表以提升報表效率。
+### [在 Aspose.Cells 中使用智慧標記評估公式](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
+
+### [在 C# 中使用範圍智慧標記處理巢狀資料 – 完整指南](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
+了解如何在 C# 中使用範圍智慧標記來處理巢狀資料，完整步驟教學，提升 Excel 報表的彈性與效能。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

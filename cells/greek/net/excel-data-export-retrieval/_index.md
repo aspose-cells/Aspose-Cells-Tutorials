@@ -49,6 +49,8 @@
 
 ### [Δημιουργία νέου βιβλίου εργασίας και εξαγωγή Excel σε TXT με ακρίβεια](./create-new-workbook-and-export-excel-to-txt-with-precision/)
 Μάθετε πώς να δημιουργήσετε ένα νέο βιβλίο εργασίας και να εξάγετε δεδομένα Excel σε αρχείο TXT με ακρίβεια χρησιμοποιώντας το Aspose.Cells για .NET.
+### [Πώς να εξάγετε περιοχή κελιών ως πίνακα – Πλήρης οδηγός C#](./how-to-export-cell-range-as-table-complete-c-guide/)
+Μάθετε πώς να εξάγετε μια περιοχή κελιών ως πίνακα σε αρχείο Excel χρησιμοποιώντας το Aspose.Cells για .NET με C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -95,6 +95,8 @@ Excel поставляется с множеством встроенных фу
 Узнайте, как вычислять котангенс в Excel с помощью C# и Aspose.Cells для .NET в этом полном руководстве.
 ### [Как использовать WRAPCOLS в Excel – Полный пример на C#](./how-to-use-wrapcols-in-excel-complete-c-example/)
 Узнайте, как применять функцию WRAPCOLS в Excel с помощью Aspose.Cells для .NET в полном примере на C#.
+### [Как использовать WRAPCOLS – Полное руководство по автоматизации Excel на C#](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Освойте функцию WRAPCOLS в Aspose.Cells для .NET и автоматизируйте обработку данных в Excel с помощью C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

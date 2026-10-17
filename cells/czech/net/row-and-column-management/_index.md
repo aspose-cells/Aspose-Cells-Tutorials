@@ -102,6 +102,8 @@ Podrobný návod, jak pomocí Aspose.Cells pro .NET s C# smazat řádky v tabulc
 Naučte se rychle přidávat více řádků v GridJs pomocí jednoduchých kroků a ukázek kódu.
 ### [Jak používat WrapCols v C# – Kompletní průvodce s Excel WrapRows a přepočítáním vzorců](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Objevte podrobný návod, jak použít WrapCols a WrapRows v Excelu pomocí Aspose.Cells pro .NET a přepočítat vzorce.
+### [Posunutí buněk nahoru v Excelu pomocí C# – Kompletní průvodce](./shift-cells-up-in-excel-with-c-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET posunout buňky nahoru v Excelu pomocí C#. Podrobný krok‑za‑krokem návod.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

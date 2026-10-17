@@ -95,6 +95,8 @@ Excel 隨附大量內建函數，可執行各種計算和資料操作。了解�
 本完整指南說明如何使用 Aspose.Cells for .NET 及 C# 在 Excel 中計算餘切函數，步驟清晰易懂。
 ### [如何在 Excel 中使用 WRAPCOLS – 完整 C# 範例](./how-to-use-wrapcols-in-excel-complete-c-example/)
 了解如何使用 Aspose.Cells for .NET 以 C# 完整示例在 Excel 中運用 WRAPCOLS 函數，提升資料排版效率。
+### [如何使用 WRAPCOLS – C# Excel 自動化完整指南](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+透過本完整指南了解如何在 C# 中使用 Aspose.Cells 的 WRAPCOLS 功能進行 Excel 自動化。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

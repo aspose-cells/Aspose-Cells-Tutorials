@@ -60,8 +60,6 @@ Aspose.Cells for .NET を使用して、Excel で複数の行と列を簡単に�
 Aspose.Cells for .NET を使用して Excel ファイルの行と列を非表示にする方法を学びます。C# アプリケーションでデータの表示を管理するためのステップバイステップガイドです。
 ### [Aspose.Cells .NET で行と列を表示する](./unhide-rows-columns-aspose-cells/)
 Aspose.Cells for .NET を使用して Excel の行と列を表示する方法を、ステップバイステップガイドで学習します。データ操作に最適です。
-### [Aspose.Cells .NET で列を削除する](./delete-column-aspose-cells/)
-Aspose.Cells for .NET を使用して Excel ファイル内の列を削除する方法を学びましょう。詳細なステップバイステップガイドに従って、Excel ファイルの変更を効率化しましょう。
 ### [Aspose.Cells .NET で行を削除する](./delete-row-aspose-cells/)
 Aspose.Cells for .NET を使って Excel の行を削除する方法を学びましょう。このステップバイステップガイドでは、前提条件、コードのインポート、そしてシームレスなデータ操作のための詳細なチュートリアルを解説します。
 ### [Aspose.Cells for .NET を使用してヘッダー行を保護しながら行を削除する](./aspose-cells-delete-rows-protect-header-row-in-excel/)
@@ -69,6 +67,7 @@ Aspose.Cells for .NET を使って Excel の行を削除する方法を学びま
 ### [Aspose.Cells .NET で複数の行を削除する](./delete-multiple-rows-aspose-cells/)
 Aspose.Cells for .NET を使用して、Excel で�数の行を削除する方法を学びます。この詳細なステップバイステップガイドでは、前提条件、コーディング例、開発者向けの FAQ を網羅しています。
 ### [Aspose.Cells .NET に列を挿入する](./insert-column-aspose-cells/)
+### [Aspose.Cells .NET に列を挿入する](./delete-column-aspose-cells/)
 Aspose.Cells for .NETを使ってExcelに列を挿入する方法を学びましょう。シンプルなステップバイステップガイドに従って、シームレスに新しい列を追加しましょう。.NET開発者に最適です。
 ### [Aspose.Cells .NET で行を挿入する](./insert-row-aspose-cells/)
 このステップバイステップガイドでは、Aspose.Cells for .NET を使用して Excel に行を挿入する方法を学習します。データ操作スキルを手軽に向上させましょう。
@@ -104,6 +103,8 @@ Aspose.Cells for .NET を使用し、C# で Excel に行を挿入する方法を
 WRAPCOLS 機能を利用して、C# で Excel シートに 2 列のレイアウトを簡単に作成する手順を解説します。
 ### [GridJs で行を挿入する – 複数行を素早く追加](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 GridJs を使用して、複数の行を素早く追加する方法をステップバイステップで解説します。
+### [Aspose.Cells for .NET を使用して Excel のセルを上にシフトする – 完全ガイド](./shift-cells-up-in-excel-with-c-complete-guide/)
+Aspose.Cells for .NET を使用して、Excel のセルを上方向にシフトする方法をステップバイステップで解説します。簡単にデータを再配置できます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

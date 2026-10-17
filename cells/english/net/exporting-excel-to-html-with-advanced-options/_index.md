@@ -103,7 +103,6 @@ Learn how to use Aspose.Cells for .NET to set scalable column widths in Excel fi
 ### [Save Excel as HTML with Frozen Panes – Complete C# Guide](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
 Learn how to save Excel as HTML with frozen panes using Aspose.Cells for .NET in this comprehensive C# guide.
 ### [Setting Single Sheet Tab Name in HTML Export](./setting-single-sheet-tab-name/)
-Easily set a single sheet tab name during HTML export using Aspose.Cells for .NET. Step‑by‑step guide with code examples included.
 ### [Create HTML Save Options in C# – Full Guide](./create-html-save-options-in-c-full-guide/)
 Learn how to configure HTML save options in C# using Aspose.Cells for .NET with a comprehensive step‑by‑step guide.
 ### [How to Embed Fonts in HTML – Complete C# Guide](./how-to-embed-fonts-in-html-complete-c-guide/)
@@ -130,6 +129,8 @@ Learn how to convert Excel files to HTML with a comprehensive step‑by‑step g
 Learn how to embed fonts when exporting Excel to HTML using Aspose.Cells for .NET with a complete C# guide.
 ### [Export Excel to HTML with C# – Complete Programming Guide](./export-excel-to-html-with-c-complete-programming-guide/)
 Learn how to export Excel to HTML using C# with Aspose.Cells for .NET in this complete programming guide.
+### [Save Excel as HTML – Complete Guide to Export Excel with Formatting](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
+Learn how to export Excel to HTML while preserving formatting using Aspose.Cells for .NET in this comprehensive step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

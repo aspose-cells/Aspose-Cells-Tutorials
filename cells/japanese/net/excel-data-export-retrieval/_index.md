@@ -49,6 +49,8 @@ C# を使用して DataTable を書式設定付きで Excel にエクスポー�
 
 ### [正確に Excel を TXT にエクスポートする新しいワークブックの作成](./create-new-workbook-and-export-excel-to-txt-with-precision/)
 C# を使用して新しいワークブックを作成し、Excel データを高精度で TXT ファイルにエクスポートする方法を学びます。
+### [セル範囲をテーブルとしてエクスポートする方法 – 完全な C# ガイド](./how-to-export-cell-range-as-table-complete-c-guide/)
+Aspose.Cells for .NET を使用して、セル範囲をテーブル形式でエクスポートする手順をC#で詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

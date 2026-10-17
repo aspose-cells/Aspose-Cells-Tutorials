@@ -59,6 +59,8 @@ Aspose.Cells for .NET을 사용해 C#에서 새 워크북을 생성하고 Excel 
 Aspose.Cells for .NET을 사용하여 Excel 워크북을 CSV 파일로 변환하는 방법을 단계별로 안내합니다.
 ### [C#에서 테이블을 CSV로 내보내기 – 완전한 프로그래밍 가이드](./export-table-to-csv-in-c-complete-programming-guide/)
 Aspose.Cells for .NET을 사용하여 C#에서 테이블을 CSV 파일로 내보내는 방법을 단계별로 안내합니다.
+### [C#를 사용해 Excel에서 CSV 내보내기 – 완전 가이드](./how-to-export-csv-from-excel-with-c-complete-guide/)
+Aspose.Cells for .NET을 활용해 C#로 Excel 데이터를 CSV 파일로 내보내는 전체 과정을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

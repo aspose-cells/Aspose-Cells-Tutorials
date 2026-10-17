@@ -68,6 +68,10 @@ Aspose.Cells for .NET을 사용하여 C#로 Excel 파일에 날짜 형식을 적
 Aspose.Cells for .NET을 사용하여 C#에서 Excel 워크북을 생성하고 유효 숫자 자리수를 제한하는 방법을 배웁니다.
 ### [Aspose.Cells로 Excel 숫자 서식 적용하기](./how-to-apply-number-format-excel-with-aspose-cells/)
 Aspose.Cells for .NET을 사용하여 Excel에서 숫자 서식을 적용하는 방법을 단계별로 안내합니다.
+### [Excel 날짜 열 형식 지정 – DataTable 내보내기 전체 C# 가이드](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+이 튜토리얼에서는 Aspose.Cells for .NET을 사용해 DataTable 데이터를 Excel로 내보내며 날짜 열을 원하는 형식으로 지정하는 방법을 단계별로 안내합니다.
+### [C#에서 일본 달력 변환 – 전체 가이드](./japanese-calendar-conversion-in-c-full-guide/)
+이 가이드에서는 Aspose.Cells for .NET을 사용하여 C#에서 일본 달력으로 변환하는 방법을 단계별로 설명합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

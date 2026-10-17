@@ -74,6 +74,8 @@ Aspose.Cells for .NET предоставляет мощные инструмен
 
 ### [Как экспортировать данные в Excel с помощью шаблона C# – пошаговое руководство](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
 Узнайте, как экспортировать данные в Excel, используя шаблон C#, пошагово.
+### [Создание отчета Excel с C# – пошаговое руководство](./generate-excel-report-with-c-step-by-step-guide/)
+Подробное руководство по генерации отчета Excel с помощью C# и Aspose.Cells, включающее пошаговые примеры кода.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

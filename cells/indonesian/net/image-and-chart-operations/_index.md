@@ -40,6 +40,8 @@ Pelajari cara mengonversi lembar kerja Excel ke gambar dalam .NET menggunakan As
 Pelajari cara menyimpan pivot sebagai gambar dalam .NET menggunakan Aspose.Cells dengan panduan langkah demi langkah kami.
 ### [Ekspor Rentang Excel sebagai Gambar – Panduan Lengkap C#](./export-excel-range-as-image-complete-c-guide/)
 Pelajari cara mengekspor rentang Excel menjadi gambar dalam .NET menggunakan Aspose.Cells dengan panduan lengkap C#.
+### [Cara Menyimpan Lembar Excel sebagai Gambar – Panduan Lengkap C#](./how-to-save-excel-sheet-as-image-complete-c-guide/)
+Pelajari cara menyimpan lembar kerja Excel sebagai gambar menggunakan Aspose.Cells dengan C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -87,6 +87,10 @@ Aprenda a criar pastas de trabalho do Excel usando datas do calendário japonês
 Aprenda a criar uma pasta de trabalho Excel e analisar datas japonesas usando C# com Aspose.Cells.
 ### [Criar Pasta de Trabalho Excel C# – Limitar Dígitos Significativos no Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
 Aprenda a criar uma pasta de trabalho Excel em C# limitando o número de dígitos significativos usando Aspose.Cells para .NET.
+### [Formatar coluna de data no Excel – Guia completo em C# para exportar DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+Aprenda a formatar colunas de data ao exportar um DataTable para Excel usando C# e Aspose.Cells, passo a passo.
+### [Conversão do Calendário Japonês em C# – Guia Completo](./japanese-calendar-conversion-in-c-full-guide/)
+Aprenda a converter datas do calendário japonês usando C# e Aspose.Cells, passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

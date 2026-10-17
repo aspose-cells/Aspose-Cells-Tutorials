@@ -58,6 +58,10 @@
 Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel και να επεξεργαστείτε ιαπωνικές ημερομηνίες χρησιμοποιώντας Aspose.Cells για .NET σε C#.
 ### [Δημιουργία βιβλίου εργασίας Excel C# – Περιορισμός σημαντικών ψηφίων](./create-excel-workbook-c-limit-significant-digits-excel/)
 Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel σε C# και να περιορίσετε τα σημαντικά ψηφία χρησιμοποιώντας το Aspose.Cells.
+### [Μορφοποίηση στήλης ημερομηνίας στο Excel – Πλήρης οδηγός C# για εξαγωγή DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+Μάθετε πώς να μορφοποιήσετε στήλες ημερομηνίας στο Excel και να εξάγετε DataTable χρησιμοποιώντας C# και Aspose.Cells.
+### [Μετατροπή Ιαπωνικού Ημερολογίου σε C# – Πλήρης Οδηγός](./japanese-calendar-conversion-in-c-full-guide/)
+Μάθετε πώς να μετατρέπετε ημερομηνίες Ιαπωνικού ημερολογίου σε C# χρησιμοποιώντας Aspose.Cells για .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -92,6 +92,8 @@ C# kodu kullanarak Excel'de kotanjant fonksiyonunu nasıl hesaplayacağınızı 
 Aspose.Cells for .NET ile Excel'de WRAPCOLS işlevini C# örneğiyle nasıl kullanacağınızı adım adım öğrenin.
 ### [C# ile Excel'de WRAPCOLS ile Veri Bölme ve Çalışma Kitabı Oluşturma](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
 ### [C# ile Excel'de Dizi Formülü Uygulama – Tam Kılavuz](./apply-array-formula-excel-in-c-complete-guide/)
+### [WRAPCOLS Nasıl Kullanılır – C# Excel Otomasyonu için Tam Kılavuz](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Aspose.Cells for .NET ile WRAPCOLS işlevini kullanarak C# Excel otomasyonunda veri sarmalama tekniklerini öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

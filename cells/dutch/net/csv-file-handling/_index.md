@@ -59,6 +59,8 @@ Leer hoe u een nieuw werkboek maakt in C# en gegevens exporteert naar CSV met As
 Leer hoe u een Excel-werkmap naar CSV converteert met C# en Aspose.Cells, stap‑voor‑stap handleiding.
 ### [Tabel exporteren naar CSV in C# – Complete programmeergids](./export-table-to-csv-in-c-complete-programming-guide/)
 Leer hoe u een tabel naar CSV exporteert met C# en Aspose.Cells, stap‑voor‑stap handleiding.
+### [Hoe CSV exporteren vanuit Excel met C# – Complete gids](./how-to-export-csv-from-excel-with-c-complete-guide/)
+Leer stap voor stap hoe u CSV-bestanden exporteert vanuit Excel met C# en Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

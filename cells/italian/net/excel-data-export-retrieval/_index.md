@@ -49,6 +49,8 @@ Impara a creare una cartella di lavoro C# ed esportare un DataTable in Excel app
 
 ### [Crea nuova cartella di lavoro ed esporta Excel in TXT con precisione](./create-new-workbook-and-export-excel-to-txt-with-precision/)
 Impara a creare una nuova cartella di lavoro e a esportare i dati Excel in formato TXT con precisione usando Aspose.Cells.
+### [Come esportare un intervallo di celle come tabella – Guida completa C#](./how-to-export-cell-range-as-table-complete-c-guide/)
+Scopri come esportare un intervallo di celle in una tabella Excel usando Aspose.Cells per .NET con C# passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

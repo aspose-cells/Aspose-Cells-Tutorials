@@ -40,6 +40,8 @@ Aprenda a mesclar células em um intervalo nomeado usando o Aspose.Cells para .N
 Aprenda a criar uma pasta de trabalho Excel, adicionar tabelas e definir regras de nomeação com este tutorial detalhado passo a passo.
 ### [Salvar Pasta de Trabalho do Excel e Adicionar Intervalo Nomeado – Guia Completo em C#](./save-excel-workbook-and-add-named-range-full-c-guide/)
 Aprenda a salvar uma pasta de trabalho do Excel e criar intervalos nomeados usando Aspose.Cells para .NET em C# passo a passo.
+### [Criar Pasta de Trabalho Excel em C# – Adicionar Intervalo Nomeado e Definir Nome da Tabela](./create-excel-workbook-in-c-add-named-range-set-table-name/)
+Aprenda a criar uma pasta de trabalho Excel em C#, adicionar intervalos nomeados e definir nomes de tabelas usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

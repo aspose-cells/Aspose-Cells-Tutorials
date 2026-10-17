@@ -65,6 +65,8 @@ Erfahren Sie, wie Sie Schriftarten in PDFs einbetten, um das Layout Ihrer Excel�
 Erfahren Sie, wie Sie mit Aspose.Cells Schriftarten in PDFs einbetten, um konsistente Darstellung Ihrer Excel-Exporte sicherzustellen.
 ### [Wie man PDF aus Excel exportiert – Komplettanleitung zum Speichern der Arbeitsmappe als PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
 Erfahren Sie, wie Sie mit Aspose.Cells Arbeitsmappen aus Excel vollständig als PDF speichern – Schritt für Schritt erklärt.
+### [XLSX als PDF in C# speichern – Komplettanleitung mit PDF/A‑1b](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)
+Erfahren Sie, wie Sie XLSX-Dateien in C# als PDF/A‑1b speichern – Schritt für Schritt Anleitung für Entwickler.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

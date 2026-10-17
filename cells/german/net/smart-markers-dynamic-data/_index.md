@@ -87,7 +87,6 @@ Meistern Sie Aspose.Cells für .NET mit generischen Listen und Smart Markern, um
 ### [HTML‑Eigenschaft in Smart Markers verwenden Aspose.Cells .NET](./html-property-smart-markers/)
 Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells mit diesem Schritt‑für‑Schritt‑Tutorial zur Verwendung der HTML‑Eigenschaft in Smart Markern für .NET‑Anwendungen.
 ### [Verschachtelte Objekte mit intelligenten Markierungen behandeln Aspose.Cells](./nested-objects-smart-markers/)
-Schöpfen Sie das Potenzial der Excel‑Berichterstellung mit Aspose.Cells aus, indem Sie verschachtelte Objekte mithilfe von Smart Markers in einer Schritt‑für‑Schritt‑Anleitung mühelos handhaben.
 ### [Verschachtelte Bereichsoption in Aspose.Cells SmartMarker aktivieren](./enable-nested-range-option-in-aspose-cells-smartmarker/)
 Erfahren Sie, wie Sie die Option für verschachtelte Bereiche aktivieren, um komplexe Datenhierarchien in Smart Markers zu verarbeiten.
 
@@ -229,6 +228,9 @@ Erfahren Sie, wie Sie Smart Marker-Daten erzeugen und damit Excel‑Vorlagen aut
 
 ### [Aspose Cells Smart Markers: Excel aus Modell in C# generieren](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
 Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers Excel‑Dateien aus Modellen in C# generieren.
+### [Range Smart Marker zur Verarbeitung verschachtelter Daten in C# – Vollständige Anleitung](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
+### [Excel-Vorlage in C# laden – Mehrere Arbeitsblätter schnell generieren](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
+### [Formel mit Smart Markers auswerten – Komplettanleitung](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

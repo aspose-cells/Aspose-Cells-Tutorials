@@ -86,6 +86,10 @@ Lär dig hur du ställer in datumformat i Excel med C# och Aspose.Cells för .NE
 Lär dig hur du skapar en Excel-arbetsbok med japanska kalenderdatum med Aspose.Cells för .NET i den här kompletta guiden.
 ### [Skapa Excel-arbetsbok C# – Begränsa signifikanta siffror i Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
 Lär dig hur du skapar en Excel-arbetsbok i C# och begränsar antalet signifikanta siffror med Aspose.Cells för .NET.
+### [Formatera datumkolumn i Excel – Komplett C#-guide för att exportera DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+Lär dig hur du formaterar datumkolumner i Excel och exporterar en DataTable med en komplett C#-guide.
+### [Japansk kalenderkonvertering i C# – Komplett guide](./japanese-calendar-conversion-in-c-full-guide/)
+Lär dig hur du konverterar datum till den japanska kalendern i C# med en komplett steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

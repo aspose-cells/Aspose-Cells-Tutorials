@@ -59,6 +59,8 @@ Pelajari cara membuat workbook baru dengan C# dan mengekspor data Excel ke forma
 Pelajari cara mengonversi workbook Excel ke format CSV menggunakan Aspose.Cells untuk .NET dengan contoh kode C# lengkap.
 ### [Ekspor tabel ke CSV dalam C# – Panduan Pemrograman Lengkap](./export-table-to-csv-in-c-complete-programming-guide/)
 Pelajari cara mengekspor tabel ke file CSV menggunakan Aspose.Cells untuk .NET dengan contoh kode C# lengkap.
+### [Cara Mengekspor CSV dari Excel dengan C# – Panduan Lengkap](./how-to-export-csv-from-excel-with-c-complete-guide/)
+Pelajari cara mengekspor data Excel ke file CSV menggunakan C# dengan panduan lengkap dan contoh kode praktis.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

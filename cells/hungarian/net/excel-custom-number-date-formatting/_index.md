@@ -87,6 +87,10 @@ Ismerje meg, hogyan hozhat létre Excel munkafüzetet C#-ban, és korlátozhatja
 
 ### [Számformátum alkalmazása Excelben az Aspose.Cells segítségével](./how-to-apply-number-format-excel-with-aspose-cells/)
 Tanuld meg, hogyan alkalmazz számformátumot Excelben az Aspose.Cells használatával.
+### [Dátum oszlop formázása Excelben – Teljes C# útmutató a DataTable exportálásához](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+Ismerd meg, hogyan formázhatod a dátumoszlopokat Excelben C#-ban a DataTable exportálásakor az Aspose.Cells segítségével.
+### [Japán naptár konverzió C#-ban – Teljes útmutató](./japanese-calendar-conversion-in-c-full-guide/)
+Ismerd meg, hogyan konvertálhatod a japán naptárat C#-ban az Aspose.Cells segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

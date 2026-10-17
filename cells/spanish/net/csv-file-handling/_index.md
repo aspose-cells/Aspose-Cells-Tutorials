@@ -59,6 +59,8 @@ Aprenda a crear un libro de trabajo en C# y exportarlo a CSV con Aspose.Cells pa
 Aprenda a convertir libros de Excel a archivos CSV usando Aspose.Cells para .NET con ejemplos completos en C#.
 ### [Exportar tabla a CSV en C# – Guía completa de programación](./export-table-to-csv-in-c-complete-programming-guide/)
 Aprenda a exportar una tabla a CSV usando Aspose.Cells para .NET con ejemplos completos en C#.
+### [Cómo exportar CSV desde Excel con C# – Guía completa](./how-to-export-csv-from-excel-with-c-complete-guide/)
+Aprenda a exportar datos de Excel a archivos CSV usando C# con Aspose.Cells, paso a paso y con ejemplos prácticos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

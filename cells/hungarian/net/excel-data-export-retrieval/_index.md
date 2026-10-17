@@ -49,6 +49,8 @@ Tanuld meg, hogyan hozhatsz létre munkafüzetet C#-ban, és exportálj DataTabl
 
 ### [Új munkafüzet létrehozása és Excel exportálása TXT-be precízen](./create-new-workbook-and-export-excel-to-txt-with-precision/)
 Tanuld meg, hogyan hozhatsz létre új munkafüzetet, és exportáld Excel fájlodat TXT formátumba precíz módon az Aspose.Cells for .NET segítségével.
+### [Cellatartomány exportálása táblaként – Teljes C# útmutató](./how-to-export-cell-range-as-table-complete-c-guide/)
+Ismerd meg, hogyan exportálhatod a cellatartományt táblaként C#-ban az Aspose.Cells for .NET segítségével, lépésről lépésre.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

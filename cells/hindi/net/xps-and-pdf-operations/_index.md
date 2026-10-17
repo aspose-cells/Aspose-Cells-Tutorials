@@ -48,6 +48,8 @@ Aspose.Cells का उपयोग करके PDF में फ़ॉन्�
 Aspose.Cells का उपयोग करके C# में Excel वर्कबुक को XPS फ़ॉर्मेट में सहेजने की प्रक्रिया सीखें।
 ### [C# में Excel को XPS में बदलें और Excel फ़ाइल लोड करें](./convert-excel-to-xps-in-c-and-load-excel-file/)
 Excel फ़ाइल को लोड करके C# में Aspose.Cells के साथ उसे XPS में बदलने की पूरी प्रक्रिया सीखें।
+### [C# में Excel को XPS में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-excel-to-xps-in-c-complete-step-by-step-guide/)
+C# में Aspose.Cells का उपयोग करके Excel को XPS में बदलने के लिए पूर्ण चरण‑दर‑चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

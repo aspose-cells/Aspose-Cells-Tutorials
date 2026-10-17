@@ -68,6 +68,8 @@
 
 ### [Πώς να εξάγετε δεδομένα σε Excel χρησιμοποιώντας πρότυπο C# – οδηγός βήμα‑βήμα](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
 Μάθετε πώς να εξάγετε δεδομένα σε Excel χρησιμοποιώντας πρότυπο C# με βήμα‑βήμα οδηγίες.
+### [Δημιουργία Αναφοράς Excel με C# – Οδηγός Βήμα‑βήμα](./generate-excel-report-with-c-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε αναφορά Excel με C# ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

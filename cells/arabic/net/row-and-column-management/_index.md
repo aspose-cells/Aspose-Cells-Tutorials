@@ -102,6 +102,8 @@
 اكتشف دليلًا خطوة بخطوة لإدراج صفوف متعددة في GridJs بسرعة وسهولة.
 ### [كيفية استخدام wrapcols في C# – دليل كامل مع Excel WRAPROWS وإعادة حساب الصيغ](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 تعلم كيفية تطبيق wrapcols و wraprows في Excel باستخدام C# وإعادة حساب الصيغ بسهولة خطوة بخطوة.
+### [نقل الخلايا للأعلى في Excel باستخدام C# – دليل كامل](./shift-cells-up-in-excel-with-c-complete-guide/)
+تعلم كيفية تحريك الخلايا للأعلى في ملفات Excel باستخدام C# مع Aspose.Cells خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

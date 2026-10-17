@@ -101,6 +101,8 @@
 了解如何使用 GridJs 快速插入多行，提升表格資料處理效率。
 ### [在 C# 中使用 wrapcols – 完整指南，涵蓋 Excel WRAPROWS 與重新計算公式](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 了解如何在 C# 中使用 wrapcols、wraprows 以及重新計算公式，以有效管理 Excel 工作表。
+### [使用 C# 在 Excel 中向上移動儲存格 – 完整指南](./shift-cells-up-in-excel-with-c-complete-guide/)
+了解如何使用 Aspose.Cells for .NET 以 C# 在 Excel 中將儲存格向上移動，提供完整步驟與範例程式碼。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

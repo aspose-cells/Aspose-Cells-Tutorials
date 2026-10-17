@@ -77,6 +77,8 @@ Aspose.Cells 智能标记器还支持匿名类型，无需预定义结构即可�
 探索 Aspose.Cells for .NET 的强大功能，并学习如何在 Excel 智能标记中轻松应用复制样式属性。本教程包含详细的分步说明。
 ### [在智能标记字段 Aspose.Cells 中使用公式参数](./formula-parameter-smart-marker/)
 学习如何使用 Aspose.Cells for .NET 在智能标记中使用公式参数。轻松创建动态电子表格。
+### [使用智能标记评估公式的完整指南](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
+本完整指南详细讲解如何在 Aspose.Cells for .NET 中使用智能标记评估公式，帮助您实现动态计算并提升报表自动化水平。
 ### [在智能标记 Aspose.Cells 中使用通用列表](./generic-list-smart-markers/)
 掌握 Aspose.Cells for .NET 的通用列表和智能标记功能，轻松创建动态 Excel 报表。为开发人员提供简易指南。
 ### [在智能标记中使用 HTML 属性 Aspose.Cells .NET](./html-property-smart-markers/)
@@ -153,6 +155,8 @@ Aspose.Cells 智能标记器还支持匿名类型，无需预定义结构即可�
 ### [Aspose Cells 智能标记：使用模型在 C# 中生成 Excel](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
 ### [如何创建智能标记数据并填充 Excel 模板数据](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
 ### [如何通过合并 Excel 模板与智能标记生成 Excel 报告](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
+### [在 C# 中加载 Excel 模板 – 快速生成多个工作表](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
+### [在 Aspose.Cells 中使用范围智能标记处理嵌套数据 – 完整指南](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

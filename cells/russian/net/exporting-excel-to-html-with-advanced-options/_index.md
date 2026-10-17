@@ -90,7 +90,6 @@
 
 ### [Получение строки HTML5 из ячейки в Excel программным способом](./getting-html5-string-from-cell/)
 Узнайте, как программно извлекать строки HTML5 из ячеек Excel с помощью Aspose.Cells для .NET, в этом подробном руководстве.
-
 ### [Скрытие наложенного содержимого с помощью Cross Hide Right при сохранении в HTML](./hiding-overlaid-content-with-cross-hide-right/)
 Узнайте, как скрыть наложенный контент в Excel при сохранении в HTML с помощью Aspose.Cells для .NET, в этом подробном руководстве.
 
@@ -152,6 +151,8 @@
 
 ### [Как внедрить шрифты при экспорте Excel в HTML – Полное руководство C#](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
 Узнайте, как внедрять шрифты при экспорте Excel в HTML с помощью Aspose.Cells для .NET в полном руководстве на C#.
+### [Сохранить Excel как HTML – Полное руководство по экспорту Excel с форматированием](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
+Узнайте, как сохранить файл Excel в HTML с полным сохранением форматирования, используя Aspose.Cells для .NET, в этом подробном руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

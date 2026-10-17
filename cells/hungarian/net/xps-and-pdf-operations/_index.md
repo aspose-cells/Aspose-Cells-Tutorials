@@ -48,6 +48,8 @@ Ismerd meg, hogyan ágyazhatod be a betűtípusokat PDF-fájlokba C#-ban az Aspo
 Tanuld meg, hogyan mentheted el az Excel munkafüzetet XPS formátumba C#‑ban részletes példákkal.
 ### [Excel konvertálása XPS-be C#-ban és Excel fájl betöltése](./convert-excel-to-xps-in-c-and-load-excel-file/)
 Tanuld meg, hogyan konvertálj Excel fájlt XPS-be C#-ban, miközben betöltöd az Excel fájlt.
+### [Excel konvertálása XPS-be C#-ban – Teljes lépésről‑lépésre útmutató](./convert-excel-to-xps-in-c-complete-step-by-step-guide/)
+Ismerd meg, hogyan konvertálhatod Excel fájljaidat XPS formátumba C#-ban részletes példákkal és magyarázatokkal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

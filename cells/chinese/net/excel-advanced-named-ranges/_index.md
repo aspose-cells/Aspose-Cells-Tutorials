@@ -40,6 +40,8 @@
 通过本教程，使用 Aspose.Cells for .NET 创建工作簿、添加表格并设置命名规则，实现自动化报表。
 ### [保存 Excel 工作簿并添加命名范围 – 完整 C# 指南](./save-excel-workbook-and-add-named-range-full-c-guide/)
 通过本完整 C# 示例，学习如何保存 Excel 工作簿并创建命名范围，实现自动化处理。
+### [在 C# 中创建 Excel 工作簿 – 添加命名范围并设置表名称](./create-excel-workbook-in-c-add-named-range-set-table-name/)
+本教程演示如何使用 Aspose.Cells for .NET 在 C# 中创建工作簿、添加命名范围并设置表名称。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

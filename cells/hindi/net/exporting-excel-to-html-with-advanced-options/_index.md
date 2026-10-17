@@ -71,6 +71,7 @@ C# के साथ Excel को HTML में निर्यात करत�
 ### [दस्तावेज़ कार्यपुस्तिका और कार्यपत्रक गुणों को HTML में निर्यात करना](./exporting-document-workbook-and-worksheet-properties/)
 ### [Excel में प्रिंट क्षेत्र को प्रोग्रामेटिक रूप से HTML में निर्यात करना](./exporting-print-area/)
 ### [Excel में प्रोग्रामेटिक रूप से समान बॉर्डर शैली निर्यात करना](./exporting-similar-border-style/)
+इस आसान चरण-दर-स्टेप मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel में समान बॉर्डर शैलियों को प्रोग्रामेटिक रूप से निर्यात करना सीखें।
 ### [आउटपुट HTML में वर्कशीट CSS को अलग से निर्यात करना](./exporting-worksheet-css-separately/)
 ### [Excel में सेल से प्रोग्रामेटिक रूप से HTML5 स्ट्रिंग प्राप्त करना](./getting-html5-string-from-cell/)
 ### [HTML में सहेजते समय क्रॉस हाइड राइट के साथ ओवरलेड सामग्री को छिपाना](./hiding-overlaid-content-with-cross-hide-right/)
@@ -114,6 +115,8 @@ Aspose.Cells का उपयोग करके Excel को HTML में प
 ### [C# में टेबल से HTML बनाना – पूर्ण गाइड](./create-html-from-table-in-c-complete-guide/)
 ### [Excel को HTML में निर्यात करते समय फ़ॉन्ट एम्बेड करना – पूर्ण C# गाइड](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
 ### [C# के साथ Excel को HTML में निर्यात – पूर्ण प्रोग्रामिंग गाइड](./export-excel-to-html-with-c-complete-programming-guide/)
+### [Excel को HTML के रूप में सहेजें – फ़ॉर्मेटिंग के साथ Excel निर्यात करने की पूर्ण गाइड](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
+इस व्यापक गाइड में .NET के लिए Aspose.Cells का उपयोग करके फ़ॉर्मेटिंग के साथ Excel को HTML में निर्यात करने के सभी चरण सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

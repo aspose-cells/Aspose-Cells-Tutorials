@@ -49,6 +49,8 @@ Pelajari cara membuat workbook di C#, mengekspor DataTable ke Excel, dan menerap
 
 ### [Buat Workbook Baru dan Ekspor Excel ke TXT dengan Presisi](./create-new-workbook-and-export-excel-to-txt-with-precision/)
 Pelajari cara membuat workbook baru dan mengekspor data Excel ke file TXT dengan akurasi tinggi menggunakan Aspose.Cells untuk .NET.
+### [Cara Mengekspor Rentang Sel sebagai Tabel – Panduan Lengkap C#](./how-to-export-cell-range-as-table-complete-c-guide/)
+Pelajari cara mengekspor rentang sel menjadi tabel di Excel menggunakan Aspose.Cells for .NET dengan panduan lengkap C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -47,6 +47,8 @@ Você sabia que pode incorporar conteúdo HTML diretamente em suas planilhas do 
 ## Avalie IsBlank com marcadores inteligentes
 Gerenciar valores em branco em conjuntos de dados pode ser um incômodo, mas o Aspose.Cells simplifica isso com sua capacidade de avaliar valores em branco usando Marcadores Inteligentes. Esse recurso permite que você verifique facilmente se há células vazias e ajuste sua lógica de relatórios de acordo. Com esse recurso, seus relatórios podem lidar automaticamente com situações em que dados podem estar ausentes, garantindo que seu público receba informações claras e precisas. Descubra como implementar esse recurso de forma eficaz em seus relatórios. [Ler mais](./evaluate-isblank-smart-markers/)
 
+### [Como Avaliar Fórmula com Marcadores Inteligentes – Guia Completo](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
+
 ## Implementar matriz de variáveis com marcadores inteligentes
 Você lida frequentemente com quantidades variáveis de dados? O recurso de matriz variável do Smart Markers permite gerenciar listas de dados com flexibilidade. Isso significa que você pode gerar relatórios que se adaptam a diferentes tamanhos de conjuntos de dados sem precisar redesenhar seus modelos toda vez. Ao aprender a implementar matrizes variáveis, você pode otimizar seus processos de geração de relatórios e aprimorar a apresentação dos dados. Este tutorial detalha as etapas para ajudar você a começar a usar matrizes variáveis em seus relatórios. [Ler mais](./variable-array-smart-markers/)
 
@@ -175,6 +177,10 @@ Aprenda a criar várias planilhas dinamicamente usando SmartMarker em C#, com pa
 Aprenda passo a passo como exportar dados para um modelo Excel usando Marcadores Inteligentes no Aspose.Cells para .NET.
 ### [Aspose Cells Marcadores Inteligentes: Gerar Excel a partir de Modelo em C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
 Aprenda a gerar arquivos Excel a partir de um modelo usando Marcadores Inteligentes do Aspose.Cells em C# passo a passo.
+### [Carregar modelo Excel em C# – Gerar várias planilhas rapidamente](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
+Aprenda a carregar um modelo Excel em C# e gerar várias planilhas de forma rápida usando Aspose.Cells.
+### [Marcador de intervalo para processar dados aninhados em C# – Guia completo](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
+Aprenda a usar marcadores de intervalo para processar dados aninhados em C# passo a passo neste guia completo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -72,6 +72,8 @@ Aspose.Cells Smart Markers также поддерживает анонимны�
 Узнайте, как генерировать листы Excel динамически, используя Smart Markers в Aspose.Cells для .NET, шаг за шагом.
 ### [Оценка IsBlank с помощью интеллектуальных маркеров в Aspose.Cells](./evaluate-isblank-smart-markers/)
 Улучшите свои файлы Excel с помощью интеллектуальных маркеров для эффективной оценки пустых значений с помощью Aspose.Cells для .NET. Узнайте, как это сделать, в этом пошаговом руководстве.
+### [Оценка формулы с помощью интеллектуальных маркеров – Полное руководство](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
+Узнайте, как использовать интеллектуальные маркеры для оценки формул в Excel, создавая динамические и точные отчеты с Aspose.Cells.
 ### [Группировка данных с помощью смарт-маркеров в Aspose.Cells .NET](./group-data-smart-markers/)
 Группируйте данные без усилий с помощью интеллектуальных маркеров в Aspose.Cells для .NET. Следуйте нашему подробному руководству для пошаговых инструкций.
 ### [Вставка изображений с помощью маркеров изображений в Aspose.Cells](./insert-images-smart-markers/)
@@ -138,6 +140,10 @@ Aspose.Cells Smart Markers также поддерживает анонимны�
 Полное руководство по применению SmartMarker к листу в C#, показывающее шаги создания динамических отчетов в Excel.
 ### [Создайте Excel программно с помощью Aspose.Cells Smart Markers](./create-excel-programmatically-using-aspose-cells-smart-marke/)
 ### [Как создать данные смарт‑маркера и заполнить шаблон Excel](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
+### [Диапазонный смарт-маркер для обработки вложенных данных в C# – Полное руководство](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
+Узнайте, как использовать диапазонные смарт-маркеры в Aspose.Cells для C# для обработки вложенных данных в Excel.
+### [Загрузка шаблона Excel в C# – Быстрое создание нескольких листов](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
+Узнайте, как загрузить шаблон Excel в C# и быстро генерировать несколько листов с помощью Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

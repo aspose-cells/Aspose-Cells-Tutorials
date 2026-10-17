@@ -87,6 +87,10 @@
 
 ### [كيفية تطبيق تنسيق رقم في Excel باستخدام Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
 تعرف على طريقة تطبيق تنسيق الأرقام في ملفات Excel باستخدام مكتبة Aspose.Cells في .NET.
+### [تنسيق عمود التاريخ في Excel – دليل C# كامل لتصدير DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+تعرف على طريقة تنسيق عمود التاريخ في Excel وتصديره من DataTable باستخدام C# و Aspose.Cells.
+### [تحويل التقويم الياباني في C# – دليل كامل](./japanese-calendar-conversion-in-c-full-guide/)
+تعرف على كيفية تحويل التقويم الياباني باستخدام C# و Aspose.Cells في هذا الدليل الشامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

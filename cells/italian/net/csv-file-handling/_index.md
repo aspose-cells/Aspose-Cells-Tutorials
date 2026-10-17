@@ -59,6 +59,8 @@ Impara a creare un nuovo workbook in C# e a esportare i dati Excel in formato CS
 Scopri come convertire una cartella di lavoro Excel in file CSV usando Aspose.Cells per .NET con esempi C# dettagliati.
 ### [Esporta tabella in CSV in C# – Guida completa di programmazione](./export-table-to-csv-in-c-complete-programming-guide/)
 Scopri come esportare una tabella in CSV con Aspose.Cells per .NET, includendo esempi C# completi e consigli pratici.
+### [Come esportare CSV da Excel con C# – Guida completa](./how-to-export-csv-from-excel-with-c-complete-guide/)
+Scopri come esportare dati da Excel a file CSV usando C# con Aspose.Cells, passo dopo passo per risultati precisi e rapidi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

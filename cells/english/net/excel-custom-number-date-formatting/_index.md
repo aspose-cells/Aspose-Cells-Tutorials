@@ -86,6 +86,10 @@ Learn how to set date format in Excel using C# with Aspose.Cells for .NET in thi
 Learn how to create Excel workbooks with Japanese calendar dates using Aspose.Cells for .NET in this full guide.
 ### [Create Excel Workbook C# – Limit Significant Digits Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
 Learn how to create an Excel workbook in C# and limit significant digits using Aspose.Cells for .NET in this concise tutorial.
+### [Format Date Column Excel – Complete C# Guide to Export DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+Learn how to format date columns and export a DataTable to Excel using Aspose.Cells for .NET in this comprehensive C# guide.
+### [Japanese Calendar Conversion in C# – Full Guide](./japanese-calendar-conversion-in-c-full-guide/)
+Learn how to convert Japanese calendar dates in C# using Aspose.Cells for .NET in this comprehensive full guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
