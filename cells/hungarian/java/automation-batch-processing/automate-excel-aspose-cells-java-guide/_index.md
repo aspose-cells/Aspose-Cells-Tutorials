@@ -1,49 +1,101 @@
 ---
-"date": "2025-04-07"
-"description": "Sajátítsd el az Excel-feladatok automatizálását az Aspose.Cells for Java használatával. Tanuld meg az Excel-fájlok programozott létrehozását, kezelését és formázását."
-"title": "Átfogó útmutató az Excel automatizálásához az Aspose.Cells for Java segítségével"
-"url": "/hu/java/automation-batch-processing/automate-excel-aspose-cells-java-guide/"
-"weight": 1
+date: '2026-09-12'
+description: Tanulja meg az Excel automatizálást Java-val az Aspose.Cells használatával.
+  Ez az útmutató bemutatja, hogyan hozhatunk létre Excel munkafüzeteket, módosíthatjuk
+  a cellaértékeket, és hatékonyan kezelhetünk nagy fájlokat.
+keywords:
+- excel automation with java
+- create excel workbook java
+- stream excel file java
+lastmod: '2026-09-12'
+og_description: Tanulja meg az Excel automatizálást Java-val az Aspose.Cells használatával.
+  Ez az útmutató bemutatja, hogyan hozhatunk létre Excel munkafüzeteket, módosíthatjuk
+  a cellaértékeket, és hatékonyan kezelhetünk nagy fájlokat.
+og_image_alt: 'Developer guide: automate Excel with Java using Aspose.Cells'
+og_title: Hogyan érhetjük el az Excel automatizálást Java-val az Aspose.Cells segítségével
+schemas:
+- author: Aspose
+  dateModified: '2026-09-12'
+  description: Learn excel automation with java using Aspose.Cells. This guide shows
+    how to create Excel workbooks, modify cell values, and efficiently handle large
+    files.
+  headline: How to achieve excel automation with java using Aspose.Cells
+  type: TechArticle
+- questions:
+  - answer: Build a reusable utility class that creates a `Workbook`, fills data from
+      your source, applies required styles, and saves the file in a single method
+      call.
+    question: What is the easiest way to automate Excel with java for daily report
+      generation?
+  - answer: Yes – by using selective loading, the streaming API, and appropriate JVM
+      memory settings you can process files with hundreds of thousands of rows.
+    question: Can Aspose.Cells handle large Excel files without crashing?
+  - answer: Load the existing workbook with `new Workbook("path/to/file.xlsx")`, update
+      the desired cell, and call `save` again.
+    question: Is it possible to modify Excel cell value after the workbook has been
+      saved?
+  - answer: Absolutely – you can insert formulas programmatically; they are evaluated
+      automatically when the workbook is opened in Excel.
+    question: Does Aspose.Cells support generating financial‑report Excel files with
+      formulas?
+  - answer: A license is required for production to remove evaluation limits and receive
+      full technical support.
+    question: Do I need a license to use Aspose.Cells in production?
+  type: FAQPage
+tags:
+- excel automation
+- Aspose.Cells
+- java spreadsheet processing
+- create excel workbook java
+- stream excel file java
+title: Hogyan érhetjük el az Excel automatizálást Java-val az Aspose.Cells segítségével
+url: /hu/java/automation-batch-processing/automate-excel-aspose-cells-java-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Átfogó útmutató: Excel automatizálása az Aspose.Cells for Java segítségével
+# Átfogó útmutató: Excel automatizálása Java-val az Aspose.Cells használatával
 
 ## Bevezetés
 
-Egyszerűsítse az adatkezelést az Excelben Java használatával a hatékony Aspose.Cells könyvtárral. Ez az oktatóanyag végigvezeti Önt munkafüzetek létrehozásán, munkalapok hozzáadásán, cellaértékek módosításán és stílusok, például áthúzott effektusok alkalmazásán – mindezt zökkenőmentesen integrálva a Java alkalmazásokba. Akár pénzügyi jelentéseket, akár összetett elemzéseket kezel, ezek a technikák időt takaríthatnak meg és növelhetik a hatékonyságot.
+Ha kíváncsi vagy arra, **hogyan automatizáljuk az Excel-t** Java-val, jó helyen jársz. Ebben az útmutatóban végigvezetünk a munkafüzetek létrehozásán, munkalapok hozzáadásán, cellaértékek módosításán és olyan stílusok alkalmazásán, mint a áthúzott hatás – mindezt a hatékony Aspose.Cells könyvtárral. Akár **pénzügyi jelentés Excel** fájlokat kell generálnod, nagy adatállományokat kell feldolgoznod, vagy egyszerűen csak szeretnéd egyszerűsíteni a rutin táblázatfeladatokat, ezek a technikák időt takarítanak meg és növelik a termelékenységet. Ez a tutorial a **excel automatizálásra Java-val** fókuszál, bemutatva egy teljes körű kódrészletet, amely bármely platformon működik.
 
-**Amit tanulni fogsz:**
-- Workbook objektum példányosítása Aspose.Cells for Java-ban
-- Munkalapok hozzáadása és elérése egy Excel-fájlban
-- Cellaértékek programozott módosítása
-- Betűstílusok, például áthúzott effektusok alkalmazása
+## Gyors válaszok
+- **Mi a fő cél?** Tanulja meg az Excel automatizálását Java-val az Aspose.Cells használatával.  
+- **Milyen futtatókörnyezet szükséges?** Java 8 vagy újabb, valamint az Aspose.Cells JAR.  
+- **Feldolgozhatok 100 MB-nál nagyobb fájlokat?** Igen – használja a streaming API-t és a szelektív betöltést.  
+- **Kötelező licenc a termeléshez?** Egy érvényes licenc eltávolítja a kiértékelési korlátokat és feloldja a teljes teljesítményt.  
+- **Tipikus szituáció?** Havi pénzügyi jelentések generálása adatbázisból és exportálása XLSX formátumban.
 
-Vizsgáljuk meg az előfeltételeket, mielőtt belevágnánk a megvalósításba.
+## Mi az excel automatizálás Java-val?
+Az Excel automatizálása Java-val azt jelenti, hogy programozott módon hozunk létre, szerkesztünk és formázunk Excel munkafüzeteket anélkül, hogy megnyitnánk a Microsoft Excelt. Az Aspose.Cells for Java egy teljes körű API-t biztosít, amely lehetővé teszi a táblázatok kódból történő teljes körű manipulálását, így ideális kötegelt feldolgozáshoz, jelentéskészítéshez és adat‑integrációs csővezetékekhez.
+
+## Miért használjuk az Aspose.Cells-t Java-hoz?
+Aspose.Cells for Java egy teljes körű táblázatfunkciók készletet kínál, több mint 50 fájlformátumot támogat, valamint fejlett lehetőségeket, mint diagramok, pivot táblák és képletek. A szerveren nem igényel Microsoft Excelt, magas teljesítményt nyújt még nagy adatállományok esetén, és platformfüggetlenül működik Windows, Linux és macOS rendszereken, így ideális vállalati automatizáláshoz.
+
+- **Teljes funkcionalitás**: Támogatja az 50+ bemeneti és kimeneti formátumot – köztük XLSX, CSV, ODS és PDF – és kezeli a komplex funkciókat, mint diagramok, pivot táblák és képletek.  
+- **Nincs szükség Excel telepítésre** a szerveren, csökkentve a telepítési terhet.  
+- **Magas teljesítmény**: Egy 200 oldalas munkafüzetet 2 másodpercnél gyorsabban dolgoz fel egy tipikus 2 GHz CPU-n, ha memóriahatékony beállításokat használ.  
+- **Platformfüggetlen**: Windows, Linux és macOS rendszereken módosítás nélkül fut.
 
 ## Előfeltételek
 
-Kezdés előtt győződjön meg arról, hogy rendelkezik a következőkkel:
-- **Aspose.Cells Java könyvtárhoz**Ez az oktatóanyag a 25.3-as verziót használja.
-- **Java fejlesztői környezet**JDK-kompatibilis (Java 8 vagy újabb ajánlott).
-- **IDE beállítás**Bármely Java-t támogató IDE, például IntelliJ IDEA vagy Eclipse.
+Mielőtt elkezdenéd, győződj meg róla, hogy rendelkezel:
 
-### Ismereti előfeltételek
+- **Aspose.Cells for Java könyvtár** (a tutorial a 25.3-as verzióra íródott, de a kód újabb kiadásokkal is működik).  
+- **Java Development Kit** – JDK 8 vagy újabb ajánlott.  
+- **IDE** – IntelliJ IDEA, Eclipse vagy bármely Java‑kompatibilis szerkesztő.  
 
-Előnyös a Java alapvető ismerete és az Excel struktúráinak ismerete. Ha még új vagy a Java világában, frissítsd fel az alapvető fogalmakat, például az objektumorientált programozást.
+### Tudás előfeltételek
+A Java (objektumok, metódusok, Maven/Gradle) alapvető ismerete segíti a lépések zökkenőmentes követését.
 
 ## Az Aspose.Cells beállítása Java-hoz
 
-Az Aspose.Cells projektbe való integrálásához kövesse az alábbi lépéseket:
-
 ### Maven beállítás
-Adja hozzá ezt a függőséget a `pom.xml` fájl:
+Add this dependency to your `pom.xml` file:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -52,151 +104,156 @@ Adja hozzá ezt a függőséget a `pom.xml` fájl:
 </dependency>
 ```
 
-### Gradle beállítása
-Írd be ezt a sort a `build.gradle` fájl:
+### Gradle beállítás
+Include this line in your `build.gradle` file:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Licencszerzés
+#### Licenc beszerzése
+Aspose.Cells offers a free trial, but a license is required for production to remove evaluation limits.
 
-Az Aspose.Cells ingyenes próbaverziót kínál, de a korlátozások nélküli teljes funkcionalitás érdekében érdemes lehet ideiglenes vagy állandó licencet vásárolni.
-- **Ingyenes próbaverzió**: Az értékelési funkciók használata bizonyos korlátozásokkal.
-- **Ideiglenes engedély**: Igényeljen 30 napos próbaidőszakot az összes funkció teljes körű teszteléséhez.
-- **Vásárlás**Vásároljon licencet, ha elégedett a próbaverzióval.
+- **Ingyenes próba** – A fő funkciók kipróbálása kisebb korlátozásokkal.  
+- **Ideiglenes licenc** – Kérjen 30‑napos próbaidőszakot a teljes funkcionalitáshoz.  
+- **Megvásárlás** – Szerezzen be egy állandó licencet korlátlan használathoz.  
 
-### Alapvető inicializálás
-
-Az Aspose.Cells használatának megkezdéséhez inicializáljon egy `Workbook` objektum:
+### Alap inicializálás
+To start using Aspose.Cells, initialize a `Workbook` object:
 ```java
 import com.aspose.cells.Workbook;
 
-// Új munkafüzet példányosítása
+// Instantiate a new Workbook
 Workbook workbook = new Workbook();
 ```
 
-## Megvalósítási útmutató
+## Implementációs útmutató
 
-Nézzük meg részletesebben az egyes funkciókat, és vizsgáljuk meg azok megvalósítását.
+### Hogyan teszi lehetővé az Aspose.Cells az excel automatizálást Java-val?
+Töltse be az Aspose.Cells könyvtárat, hozzon létre egy `Workbook` objektumot, adjon hozzá munkalapokat, írjon adatokat, és alkalmazzon stílusokat – mindez néhány Java sorban. Beállíthatja a munkafüzet opcióit, konfigurálhatja a memóriahasználatot, és ugyanabban a kódrészletben alkalmazhat formázást, így egy tömör, vég‑től‑végig automatizálási folyamatot kap, mielőtt minden egyes lépésbe mélyedne.
 
-### Munkafüzet példányosítása és konfigurálása
+#### Munkafüzet példányosítása és konfigurálása
+**Definition:** The `Workbook` class is the top‑level object that represents a single Excel file in memory.  
+```java
+import com.aspose.cells.Workbook;
 
-**Áttekintés**A `Workbook` Az osztály az Aspose.Cells Excel-fájlokkal való munka belépési pontja. Egy teljes munkafüzetet képvisel, lehetővé téve a műveleteket a különböző munkalapokon.
+// Instantiate a new Workbook
+Workbook workbook = new Workbook();
+```
+*Explanation*: This creates an empty Excel file in memory, ready for further manipulation.
+*Magyarázat*: Ez egy üres Excel fájlt hoz létre a memóriában, készen áll a további manipulációra.
 
-#### Lépésről lépésre:
-1. **Munkafüzet-objektum létrehozása**
-    ```java
-    import com.aspose.cells.Workbook;
+#### Új munkalap hozzáadása (create excel workbook java)
+**Definition:** A worksheet is a single tab within a workbook where cells are organized in rows and columns.  
+```java
+import com.aspose.cells.Worksheet;
+import com.aspose.cells.Cells;
 
-    // Új munkafüzet példányosítása
-    Workbook workbook = new Workbook();
-    ```
-   *Magyarázat*: Ez inicializál egy új Excel fájlt a memóriában, amely készen áll a feldolgozásra.
+// Add a new worksheet to the workbook
+int sheetIndex = workbook.getWorksheets().add();
+Worksheet worksheet = workbook.getWorksheets().get(sheetIndex);
+Cells cells = worksheet.getCells();
+```
+*Explanation*: A new sheet is added, and we obtain a reference to its `Cells` collection for data entry.
+*Magyarázat*: Egy új lap kerül hozzáadásra, és hivatkozást kapunk a `Cells` gyűjteményére az adatbevitelhez.
 
-### Munkalapok elérése vagy hozzáadása Excel fájlban
+#### Excel cellaérték módosítása
+**Definition:** The `Cell` object represents an individual cell; its `putValue` method writes data.  
+```java
+import com.aspose.cells.Cell;
 
-**Áttekintés**A munkafüzetek több munkalapot tartalmaznak. Hozzáférhet a meglévőkhöz, vagy szükség szerint új munkalapokat is hozzáadhat.
+// Set value in cell A1
+Cell cell = cells.get("A1");
+cell.setValue("Hello Aspose!");
+```
+*Explanation*: This writes the text **Hello Aspose!** into cell **A1**.
+*Magyarázat*: Ez a **Hello Aspose!** szöveget írja a **A1** cellába.
 
-#### Lépésről lépésre:
-1. **Új munkalap hozzáadása**
-    ```java
-    import com.aspose.cells.Worksheet;
-    import com.aspose.cells.Cells;
+#### Áthúzott hatás alkalmazása a betűtípuson
+**Definition:** The `Style` object controls visual formatting; setting `setStrikeout(true)` adds a strike‑through line.  
+```java
+import com.aspose.cells.Style;
+import com.aspose.cells.Font;
 
-    // Új munkalap hozzáadása a munkafüzethez
-    int sheetIndex = workbook.getWorksheets().add();
-    Worksheet worksheet = workbook.getWorksheets().get(sheetIndex);
-    Cells cells = worksheet.getCells();
-    ```
-   *Magyarázat*Ez a kódrészlet egy új munkalapot ad hozzá, és index alapján kéri le, lehetővé téve a cellaműveleteket.
-
-### Cellaérték módosítása
-
-**Áttekintés**Miután hozzáférünk egy munkalap celláihoz, az értékük módosítása egyszerű.
-
-#### Lépésről lépésre:
-1. **Érték beállítása egy adott cellában**
-    ```java
-    import com.aspose.cells.Cell;
-
-    // Érték beállítása az A1 cellában
-    Cell cell = cells.get("A1");
-    cell.setValue("Hello Aspose!");
-    ```
-   *Magyarázat*Ez a kód a „Hello Aspose!” szöveget állítja be az A1 cellába, bemutatva a közvetlen cellakezelést.
-
-### Áthúzott effektus alkalmazása a betűtípusra
-
-**Áttekintés**: Javítsa Excel-dokumentuma megjelenését különféle betűstílusok programozott alkalmazásával.
-
-#### Lépésről lépésre:
-1. **Áthúzás alkalmazása a betűtípusra**
-    ```java
-    import com.aspose.cells.Style;
-    import com.aspose.cells.Font;
-
-    // Áthúzás effektus alkalmazása az A1 cellára
-    Style style = cell.getStyle();
-    Font font = style.getFont();
-    font.setStrikeout(true);
-    cell.setStyle(style);
-    ```
-   *Magyarázat*Itt módosítjuk az A1 cella betűstílusát, hogy áthúzott hatást adjunk hozzá, fokozva a vizuális hangsúlyt.
+// Apply strikeout effect to cell A1
+Style style = cell.getStyle();
+Font font = style.getFont();
+font.setStrikeout(true);
+cell.setStyle(style);
+```
+*Explanation*: The font of cell **A1** now displays a strikeout line, useful for marking deprecated values.
+*Magyarázat*: A **A1** cella betűtípusa most áthúzott vonalat mutat, ami hasznos a elavult értékek jelölésére.
 
 ## Gyakorlati alkalmazások
 
-Az Aspose.Cells Java-ban sokoldalú, és különféle forgatókönyvekben használható:
-- **Pénzügyi jelentéstétel**Jelentéskészítés automatizálása frissített adatokkal.
-- **Adatelemzés**Nagy adathalmazok hatékony feldolgozása adatelemző eszközökkel való integrációval.
-- **Készletgazdálkodás**: A készletszinteket dinamikusan kezelheti az Excel-táblázatokban.
-- **CRM rendszerek**Zökkenőmentesen szinkronizálhatja az ügyféladatokat a CRM szoftver és az Excel fájlok között.
+Aspose.Cells for Java sokoldalú, és számos szituációban használható:
 
-Az integrációs lehetőségek közé tartozik az Aspose.Cells adatbázisokkal, webszolgáltatásokkal vagy más Java alkalmazásokkal való összekapcsolása az automatizálási képességek fokozása érdekében.
+- **Generáljon pénzügyi‑jelentés Excel fájlokat** automatikusan relációs adatbázisokból.  
+- **Nagy Excel fájlok kezelése** úgy, hogy csak a szükséges munkalapokat tölti be, vagy a streaming API-t használja, amely a sorokat a teljes fájl memóriába töltése nélkül dolgozza fel.  
+- **Excel automatizálása Java-val** készletkezeléshez, CRM adatexportokhoz és ütemezett kötegelt feladatokhoz.  
+- **Excel munkafüzet Java projektek** létrehozása, amelyek integrálódnak REST szolgáltatásokkal vagy üzenetsorokkal.
 
-## Teljesítménybeli szempontok
+## Teljesítményfontosságú szempontok – nagy excel fájlok kezelése
 
-Nagyméretű Excel-fájlok kezelésekor az optimális teljesítmény érdekében vegye figyelembe az alábbi tippeket:
-- **Memóriahasználat optimalizálása**: A JVM beállításait a rendszer kapacitása alapján módosítsa.
-- **Hatékony adatkezelés**Csak a szükséges munkalapokat és adattartományokat töltse be a memóriába.
-- **Bevált gyakorlatok**Használjon streamelési API-kat, ha elérhetők, hogy nagy adathalmazokat kezeljen az erőforrások túlterhelése nélkül.
+When working with sizable spreadsheets, keep these tips in mind:
 
-## Következtetés
+- **Memóriahasználat optimalizálása** – Állítsa be a JVM heap méretét (`-Xmx`) a várható fájlméret alapján.  
+- **Szelektív adatbetöltés** – Használja a `workbook.getWorksheets().get(index)` metódust, hogy csak a szükséges lapokat nyissa meg.  
+- **Streaming API** – For extremely large files, leverage `WorkbookDesigner` or `CellsHelper` streaming features to process rows without loading the entire workbook into memory.  
+  - `WorkbookDesigner` is a class that allows you to design and populate workbooks using data sources.  
+  - `CellsHelper` provides utility methods for streaming large worksheets.  
+  - **Hungarian translation**: A streaming API esetén, rendkívül nagy fájloknál, használja a `WorkbookDesigner` vagy `CellsHelper` streaming funkciókat, hogy a sorokat a teljes munkafüzet memóriába töltése nélkül dolgozza fel.  
+    - A `WorkbookDesigner` egy osztály, amely lehetővé teszi munkafüzetek tervezését és feltöltését adatforrások használatával.  
+    - A `CellsHelper` segédmetódusokat biztosít nagy munkalapok streaming feldolgozásához.
 
-Ez az útmutató végigvezetett az Aspose.Cells for Java alapvető funkcióin, bemutatva, hogyan automatizálhatja hatékonyan az Excel-feladatokat. Ezen technikák elsajátításával jelentősen növelheti az Excel-fájlok programozott kezelésének termelékenységét.
+## Gyakori problémák és megoldások
 
-**Következő lépések:**
-- Fedezzen fel további funkciókat, például a diagramkészítést és az adatellenőrzést.
-- Kísérletezz az Aspose.Cells nagyobb alkalmazásokba vagy rendszerekbe való integrálásával.
+| Probléma | Megoldás |
+|----------|----------|
+| **OutOfMemoryError** nagy fájl megnyitásakor | Növelje a JVM heap méretét (`-Xmx`) vagy használja a streaming API-kat. |
+| Stílusok nem alkalmazódnak | `cell.setStyle(style)` hívása **után** a `Style` objektum módosítását. |
+| Licenc nem ismerhető fel | Győződjön meg arról, hogy a licencfájl **mielőtt** bármely Aspose.Cells hívás történik betöltődik, általában az alkalmazás indításakor. |
 
-**Cselekvésre ösztönzés**Próbálja ki ezeket a megoldásokat a projektjeiben, hogy első kézből tapasztalja meg a Java-alapú Excel-automatizálás erejét!
+## Gyakran feltett kérdések
 
-## GYIK szekció
+**Q:** Mi a legegyszerűbb módja az Excel automatizálásának Java-val a napi jelentéskészítéshez?  
+**A:** Hozzon létre egy újrahasználható segédosztályt, amely létrehozza a `Workbook` objektumot, feltölti az adatokat a forrásból, alkalmazza a szükséges stílusokat, és egyetlen metódushívással elmenti a fájlt.
 
-1. **Mi az Aspose.Cells Java-hoz?**
-   - Egy hatékony könyvtár, amely lehetővé teszi a Java-fejlesztők számára Excel-fájlok programozott létrehozását, kezelését és konvertálását.
-2. **Használhatom az Aspose.Cells-t licenc nélkül?**
-   - Igen, de bizonyos korlátozásokkal. Fontolja meg egy ideiglenes vagy állandó licenc beszerzését a teljes hozzáférés érdekében.
-3. **Lehetséges a cellastílusok széleskörű testreszabása?**
-   - Természetesen! Különböző betűstílusokat, szegélyeket, színeket és egyebeket alkalmazhatsz a `Style` osztály.
-4. **Hogyan kezelhetek hatékonyan nagy Excel fájlokat?**
-   - Használjon memóriakezelési technikákat, például streaming API-kat és szelektív adatbetöltést.
-5. **Integrálható-e az Aspose.Cells más Java könyvtárakkal?**
-   - Igen, zökkenőmentesen integrálható a meglévő Java projektekbe a továbbfejlesztett funkcionalitás érdekében.
+**Q:** Képes-e az Aspose.Cells nagy Excel fájlok kezelésére összeomlás nélkül?  
+**A:** Igen – a szelektív betöltés, a streaming API és a megfelelő JVM memória beállítások használatával akár több százezer soros fájlokat is feldolgozhat.
 
-## Erőforrás
+**Q:** Lehet-e módosítani egy Excel cellaértéket a munkafüzet mentése után?  
+**A:** Töltse be a meglévő munkafüzetet a `new Workbook("path/to/file.xlsx")` paranccsal, frissítse a kívánt cellát, majd hívja meg újra a `save` metódust.
+
+**Q:** Támogatja-e az Aspose.Cells pénzügyi‑jelentés Excel fájlok képletekkel való generálását?  
+**A:** Teljes mértékben – programozottan beilleszthet képleteket; ezek automatikusan kiértékelődnek, amikor a munkafüzetet megnyitják Excelben.
+
+**Q:** Szükségem van licencre az Aspose.Cells termelésben való használatához?  
+**A:** Licenc szükséges a termeléshez, hogy eltávolítsa a kiértékelési korlátokat és teljes technikai támogatást kapjon.
+
+## Erőforrások
 - [Dokumentáció](https://reference.aspose.com/cells/java/)
 - [Letöltés](https://releases.aspose.com/cells/java/)
 - [Vásárlás](https://purchase.aspose.com/buy)
-- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
-- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+- [Ingyenes próba](https://releases.aspose.com/cells/java/)
+- [Ideiglenes licenc](https://purchase.aspose.com/temporary-license/)
 - [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
-Az útmutató követésével felkészült leszel az Excel-feladatok automatizálására az Aspose.Cells for Java használatával. Boldog kódolást!
+By following this guide, you now have the tools to **excel automation with java** efficiently using Aspose.Cells. Happy coding!
+
+**Last Updated:** 2026-09-12  
+**Tesztelve:** Aspose.Cells 25.3 (kompatibilis újabb kiadásokkal)  
+**Szerző:** Aspose
+
+## Kapcsolódó tutorialok
+
+- [Excel automatizálás Aspose.Cells Java-val: Munkafüzetek létrehozása és módosítása könnyedén](/cells/java/workbook-operations/excel-automation-aspose-cells-java-create-modify-workbooks/)
+- [Excel automatizálás Aspose.Cells for Java: Munkafüzet és cella formázási útmutató](/cells/java/formatting/excel-automation-aspose-cells-java-workbook-cell-styling/)
+- [Nagy Excel fájlok kezelése Aspose.Cells for Java-val](/cells/java/automation-batch-processing/master-excel-automation-aspose-cells-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

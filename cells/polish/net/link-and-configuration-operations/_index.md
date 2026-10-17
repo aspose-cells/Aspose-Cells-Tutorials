@@ -28,6 +28,8 @@ Gotowy do skoku? Odwiedź naszą [Konfigurowanie właściwości dokumentu Link t
 ## Samouczki dotyczące operacji łączenia i konfiguracji
 ### [Konfigurowanie właściwości dokumentu Link to Content w .NET](./configuring-link-to-content-document-property/)
 Dowiedz się, jak łączyć właściwości dokumentu z zawartością w programie Excel przy użyciu Aspose.Cells dla .NET. Samouczek krok po kroku dla programistów.
+### [Utworzenie instancji GridJsOptions – Konfiguracja opcji siatki w JavaScript](./create-gridjsoptions-instance-configure-grid-options-javascr/)
+Dowiedz się, jak utworzyć instancję GridJsOptions i skonfigurować opcje siatki w JavaScript przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

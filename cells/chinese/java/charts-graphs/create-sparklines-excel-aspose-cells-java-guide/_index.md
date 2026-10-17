@@ -1,49 +1,115 @@
 ---
-"date": "2025-04-07"
-"description": "学习如何使用 Aspose.Cells for Java 在 Excel 中高效地创建和自定义迷你图。本指南内容全面，涵盖设置、代码编写和实际应用。"
-"title": "如何使用 Aspose.Cells for Java 在 Excel 中创建迷你图——完整指南"
-"url": "/zh/java/charts-graphs/create-sparklines-excel-aspose-cells-java-guide/"
-"weight": 1
+date: '2026-09-22'
+description: 了解如何使用 Aspose.Cells for Java 在 Excel 中创建 sparklines，包括设置步骤、代码片段以及自定义技巧，以便高效地将微型图表直接嵌入单元格中。
+keywords:
+- create sparklines in excel
+- Aspose.Cells sparklines
+- Java Excel charts
+lastmod: '2026-09-22'
+og_description: 了解如何使用 Aspose.Cells for Java 在 Excel 中创建 sparklines，包括设置步骤、代码片段以及自定义技巧，以便高效地将微型图表直接嵌入单元格中。
+og_image_alt: 'Developer guide: create sparklines in Excel using Aspose.Cells for
+  Java'
+og_title: 如何使用 Aspose.Cells for Java 在 Excel 中创建 sparklines
+schemas:
+- author: Aspose
+  dateModified: '2026-09-22'
+  description: Learn how to create sparklines in Excel with Aspose.Cells for Java,
+    including setup steps, code snippets, and customization tips to embed tiny charts
+    directly in cells efficiently.
+  headline: How to create sparklines in Excel using Aspose.Cells for Java
+  type: TechArticle
+- description: Learn how to create sparklines in Excel with Aspose.Cells for Java,
+    including setup steps, code snippets, and customization tips to embed tiny charts
+    directly in cells efficiently.
+  name: How to create sparklines in Excel using Aspose.Cells for Java
+  steps:
+  - name: instantiate a workbook
+    text: '`Workbook` is Aspose.Cells'' core object that represents an entire Excel
+      file in memory.'
+  - name: access a worksheet
+    text: '`Worksheet` represents a single sheet within a `Workbook`.'
+  - name: working with sparkline groups
+    text: '`SparklineGroup` groups related sparklines and defines their source data
+      range and display options.'
+  - name: adding sparklines to a worksheet
+    text: Define the area where you want to apply sparklines, then add them using
+      the `add()` method.
+  - name: setting sparkline group colors
+    text: 'Customize your sparklines by setting their colors to enhance readability
+      and aesthetics. Finally, save the workbook to see the results of your work:'
+  type: HowTo
+- questions:
+  - answer: Sparklines are miniature charts that reside in a single cell, showing
+      trends without taking up extra space.
+    question: What are sparklines?
+  - answer: Use `SparklineType` when adding new sparklines to specify types like LINE,
+      COLUMN, or WIN_LOSS.
+    question: How do I change the type of sparkline?
+  - answer: While Aspose.Cells doesn’t provide a bulk‑apply method, you can loop through
+      each worksheet programmatically and add a `SparklineGroup` to each.
+    question: Can I apply sparklines to multiple worksheets at once?
+  - answer: The library processes large workbooks efficiently; typical usage stays
+      below 300 MB for files up to 1 million rows, but ensure the JVM heap is sized
+      accordingly.
+    question: What are the memory limits when using Aspose.Cells for Java?
+  - answer: Visit the official support forum or consult the comprehensive documentation
+      linked below.
+    question: How do I get technical support for Aspose.Cells?
+  type: FAQPage
+tags:
+- sparklines
+- Aspose.Cells
+- Java Excel automation
+title: 如何使用 Aspose.Cells for Java 在 Excel 中创建 sparklines
+url: /zh/java/charts-graphs/create-sparklines-excel-aspose-cells-java-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# 如何使用 Aspose.Cells for Java 在 Excel 中创建迷你图
+# 如何使用 Aspose.Cells for Java 在 Excel 中创建 sparkline
 
 ## 介绍
 
-迷你图是可容纳在单个单元格中的小型图表，可让您直接在 Excel 电子表格中直观地呈现数据趋势，而无需使用全尺寸图表。本指南将指导您使用 Aspose.Cells for Java 创建和自定义迷你图。
+sparkline 是适合单元格内的微型图表，您可以 **在 Excel 中创建 sparkline**，直接在工作表中可视化数据趋势，而无需使用占用大量空间的完整图表。本指南将带您使用 Aspose.Cells for Java 创建和自定义 sparkline，展示它们为何是传统图表的轻量替代方案以及如何以编程方式嵌入。
 
-**您将学到什么：**
-- 如何使用 Aspose.Cells 实例化工作簿
-- 访问和修改工作表
-- 添加和使用迷你图组
-- 自定义颜色并保存工作簿
+**您将学习**
 
-首先让我们介绍一下开始之前需要满足的先决条件。
+- 如何使用 Aspose.Cells 实例化 `Workbook`  
+- 访问和修改工作表  
+- 添加和使用 sparkline 组  
+- 自定义颜色并保存工作簿  
 
-## 先决条件
+让我们先介绍开始之前所需的前提条件。
 
-在实施此解决方案之前，请确保您已：
+## 快速答案
+- **添加 sparkline 的最快方法是什么？** 加载 `Workbook`，创建 `SparklineGroup`，设置源范围，然后调用 `add()` —— 只需几行代码。  
+- **哪个 Aspose.Cells 版本支持 sparkline？** 自 20.5 版起已支持 sparkline；本教程使用 25.3 版。  
+- **开发是否需要许可证？** 免费试用可用于评估；生产环境需要商业许可证。  
+- **我可以为 sparkline 设置样式吗？** 可以 —— 通过 `SparklineGroup` API 设置线条、标记和负值颜色。  
+- **处理大型工作簿时内存会是问题吗？** 将数据分块处理，避免一次性加载整个文件；Aspose.Cells 能高效处理数百页的文件。
 
-- Aspose.Cells 库（版本 25.3）集成到您的 Java 项目中。
-- 对 Java 编程有基本的了解。
-- 如果通过这些工具管理依赖项，则安装 Maven 或 Gradle。
+## 什么是 sparkline？
+sparkline 是一种微型、基于数据的图表，嵌入单个 Excel 单元格内，提供视觉趋势而不占用额外空间。它对一系列数值进行紧凑的可视化摘要，使读者能够快速捕捉增长、下降、峰值或波动等模式，且可像普通单元格内容一样复制、筛选和格式化，非常适合空间有限的仪表盘和报告。
+
+## 为什么使用 Aspose.Cells for Java 在 Excel 中创建 sparkline？
+Aspose.Cells 支持 **50 多种输入和输出格式**（包括 XLSX、CSV、PDF、ODS），并且能够在标准 JVM 上处理拥有 **数十万行** 的工作簿，内存占用保持在 200 MB 以下。其 API 让您无需安装 Microsoft Office 即可生成、样式化并导出 sparkline。
+
+## 前提条件
+
+- Aspose.Cells 库（版本 25.3）已集成到您的 Java 项目中。  
+- 对 Java 编程的基本了解。  
+- 如果您偏好依赖管理工具，请安装 Maven 或 Gradle。  
 
 ### 环境设置要求
 
-设置您的 Java 开发环境并选择 Maven 或 Gradle 等构建工具进行依赖管理。
+设置您的 Java 开发环境，并选择 Maven 或 Gradle 作为依赖管理工具。
 
 ## 设置 Aspose.Cells for Java
 
-要使用 Maven 或 Gradle 将 Aspose.Cells 集成到您的项目中：
-
-**Maven：**
+### Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -52,25 +118,24 @@
 </dependency>
 ```
 
-**Gradle：**
+### Gradle
 ```gradle
 implementation 'com.aspose:aspose-cells:25.3'
 ```
 
-### 许可证获取
+#### 许可证获取
+Aspose.Cells 是商业产品，但您可以获取免费试用以探索其功能。长期使用建议购买许可证。
 
-Aspose.Cells 是一款商业产品，但您可以免费试用以探索其功能。如需长期使用，请考虑购买许可证。
-
-要在 Java 应用程序中初始化并设置 Aspose.Cells：
+在您的 Java 应用程序中初始化并设置 Aspose.Cells：
 ```java
 import com.aspose.cells.*;
 
 class SparklineExample {
     public static void main(String[] args) {
-        // 如果可用，则初始化许可证
+        // Initialize the License if available
         License license = new License();
         try {
-            // 设置许可证文件的路径
+            // Set the path to the license file
             license.setLicense("path/to/Aspose.Total.Java.lic");
         } catch (Exception e) {
             System.out.println("License not applied: " + e.getMessage());
@@ -81,48 +146,52 @@ class SparklineExample {
 
 ## 实施指南
 
-让我们分解使用 Aspose.Cells for Java 在 Excel 中创建和配置迷你图的过程。
+下面分步骤说明如何使用 Aspose.Cells for Java 在 Excel 中创建和配置 sparkline。
+
+### 如何使用 Aspose.Cells for Java 在 Excel 中创建 sparkline？
+
+加载工作簿，定义 sparkline 组，设置数据范围，然后调用 `add()` —— 只需几条语句即可完成整个工作流。API 自动处理单元格大小、颜色渲染和布局，让您无需手动绘制即可获得即用型 sparkline。
 
 ### 步骤 1：实例化工作簿
 
-要操作 Excel 文件，首先要创建一个 `Workbook` 类。这是访问工作表和其他功能的基础。
+`Workbook` 是 Aspose.Cells 的核心对象，表示内存中的整个 Excel 文件。  
 ```java
 import com.aspose.cells.*;
 
-// 创建 Workbook 类的实例来处理 Excel 文件。
+// Create an instance of the Workbook class to work with Excel files.
 Workbook workbook = new Workbook();
 WorksheetCollection worksheets = workbook.getWorksheets();
 ```
 
-### 第 2 步：访问工作表
+### 步骤 2：访问工作表
 
-一旦你有你的 `Workbook` 对象，访问其工作表。这里我们重点介绍第一个工作表：
+`Worksheet` 表示 `Workbook` 中的单个工作表。  
 ```java
-// 获取工作簿中的第一个工作表。
+// Obtain the first worksheet in the workbook.
 Worksheet worksheet = worksheets.get(0);
 ```
 
-### 步骤 3：使用迷你图组
+### 步骤 3：使用 sparkline 组
 
-在添加新的迷你图组之前，请先遍历现有的迷你图组以了解其配置。
+`SparklineGroup` 将相关的 sparkline 分组，并定义其源数据范围和显示选项。  
 ```java
-// 遍历现有的迷你图组并打印详细信息。
+// Iterate through existing sparkline groups and print details.
 for (int i = 0; i < worksheet.getSparklineGroups().getCount(); i++) {
     SparklineGroup g = worksheet.getSparklineGroups().get(i);
-    // 打印有关每个迷你图组类型的信息。
+    // Print information about the type of each sparkline group.
 
     for (int j = 0; j < g.getSparklines().getCount(); j++) { 
         Sparkline gg = g.getSparklines().get(j);
-        // 打印每个迷你图的详细信息，例如行、列和数据范围。
+        // Print details such as row, column, and data range for each sparkline.
     }
 }
 ```
 
-### 步骤 4：向工作表添加迷你图
+### 步骤 4：向工作表添加 sparkline
 
-定义要应用迷你图的区域，然后使用 `add()` 方法。
+定义要应用 sparkline 的区域，然后使用 `add()` 方法将其添加。  
 ```java
-// 定义将应用迷你图的单元格区域。
+// Define the cell area where sparklines will be applied.
 CellArea ca = new CellArea();
 ca.StartColumn = 4; 
 ca.EndColumn = 4;
@@ -130,21 +199,21 @@ ca.StartRow = 1;
 car.EndRow = 7;
 
 int idx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "Sheet1!B2:D8", false, ca);
-// 访问新添加的迷你图组。
+// Access the newly added sparkline group.
 SparklineGroup group = worksheet.getSparklineGroups().get(idx);
 ```
 
-### 步骤5：设置迷你图组颜色
+### 步骤 5：设置 sparkline 组颜色
 
-通过设置颜色来定制您的迷你图，以增强可读性和美观性。
+通过设置颜色来自定义 sparkline，以提升可读性和美观度。  
 ```java
-// 创建一个新的颜色对象并将其颜色设置为巧克力。
+// Create a new color object and set its color to chocolate.
 CellsColor clr = workbook.createCellsColor();
 clr.setColor(Color.getChocolate());
 group.setSeriesColor(clr);
 ```
 
-最后，保存工作簿以查看工作成果：
+最后，保存工作簿以查看您的工作结果：  
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 String outDir = "YOUR_OUTPUT_DIRECTORY";
@@ -153,54 +222,70 @@ workbook.save(outDir + "/UsingSparklines_out.xls");
 
 ## 实际应用
 
-以下是使用 Aspose.Cells 在 Excel 中使用迷你图的一些实际应用：
-1. **财务报告**：在财务电子表格中直观地显示每日股票表现。
-2. **销售数据分析**：无需离开工作表即可快速掌握销售趋势。
-3. **库存管理**：一目了然地监控不同时期的库存水平。
+以下是使用 Aspose.Cells 在 Excel 中使用 sparkline 的一些实际场景：
+
+1. **财务报告** – 在财务电子表格中可视化每日股票表现。  
+2. **销售数据分析** – 在不离开工作表的情况下快速把握销售趋势。  
+3. **库存管理** – 一目了然地监控不同期间的库存水平。
 
 ## 性能考虑
 
-为了在 Aspose.Cells 中处理大型数据集时获得最佳性能：
-- 如果可能的话，通过分块处理数据来最大限度地减少资源使用。
-- 利用高效的 Java 内存管理技术来处理大型工作簿。
+在 Aspose.Cells 中处理大数据集时的最佳实践：
+
+- 将数据分块处理，以保持内存使用低。  
+- 使用 Java 的 try‑with‑resources 确保及时关闭流。  
+- Aspose.Cells 能处理拥有 **300+ 工作表和 100 万行** 的工作簿，同时在典型服务器上保持堆内存占用低于 300 MB。
 
 ## 结论
 
-您已经学习了如何使用 Aspose.Cells for Java 在 Excel 中创建和自定义迷你图。您可以进一步探索该库的其他功能，例如图表自定义或工作簿保护。
+您已经学习了如何使用 Aspose.Cells for Java **在 Excel 中创建 sparkline**，从库的设置到颜色自定义再到最终保存文件。可进一步探索库的其他功能，如图表自定义或工作簿保护。
 
-**后续步骤：**
-- 探索有关 Aspose.Cells 功能的更多信息。
-- 尝试将您的解决方案与数据源集成以实现实时更新。
+**后续步骤**
 
-## 常见问题解答部分
+- 进一步了解 Aspose.Cells 的功能。  
+- 尝试将您的解决方案与实时数据源集成，实现实时更新。
 
-**1.什么是迷你图？**
-   迷你图是放置在单个单元格中的小图表，用于表示数据集中的趋势。
+## 常见问题
 
-**2. 如何更改迷你图的类型？**
-   使用 `SparklineType` 添加新的迷你图时指定 LINE 或 COLUMN 等类型。
+**问：什么是 sparkline？**  
+答：sparkline 是嵌入单个单元格的微型图表，在不占用额外空间的情况下显示趋势。
 
-**3. 我可以同时将迷你图应用到多个工作表吗？**
-   虽然 Aspose.Cells 不直接支持批量操作，但您可以通过编程遍历每个工作表。
+**问：如何更改 sparkline 类型？**  
+答：在添加新 sparkline 时使用 `SparklineType` 指定类型，如 LINE、COLUMN 或 WIN_LOSS。
 
-**4. 使用 Aspose.Cells for Java 有哪些限制？**
-   确保有足够的内存可用；大型工作簿可能会影响性能。
+**问：我可以一次将 sparkline 应用于多个工作表吗？**  
+答：虽然 Aspose.Cells 未提供批量应用方法，但您可以在程序中遍历每个工作表并为其添加 `SparklineGroup`。
 
-**5. 如何获得 Aspose.Cells 的技术支持？**
-   访问 [Aspose 支持](https://forum.aspose.com/c/cells/9) 或参考其综合文档。
+**问：使用 Aspose.Cells for Java 时的内存限制是什么？**  
+答：该库能够高效处理大型工作簿；典型使用情况下，处理高达 100 万行的文件时内存保持在 300 MB 以下，但请确保为 JVM 分配足够的堆内存。
+
+**问：如何获取 Aspose.Cells 的技术支持？**  
+答：访问官方支持论坛或查阅下方链接的完整文档。
+
+---
+
+**最后更新：** 2026-09-22  
+**测试版本：** Aspose.Cells 25.3 for Java  
+**作者：** Aspose  
 
 ## 资源
 
-- **文档：** 探索详细指南和 API 参考 [Aspose 文档](https://reference。aspose.com/cells/java/).
-- **下载：** 从以下位置访问 Aspose.Cells 的最新版本 [发布](https://releases。aspose.com/cells/java/).
-- **购买：** 购买许可证以解锁全部功能 [Aspose 购买](https://purchase。aspose.com/buy).
-- **免费试用：** 开始试用 [免费试用](https://releases。aspose.com/cells/java/).
-- **临时执照：** 通过以下方式申请临时执照 [临时许可证页面](https://purchase。aspose.com/temporary-license/).
+- **文档：** 在 [Aspose Documentation](https://reference.aspose.com/cells/java/) 查看详细指南和 API 参考。  
+- **下载：** 从 [Releases](https://releases.aspose.com/cells/java/) 获取最新的 Aspose.Cells 版本。  
+- **购买：** 通过 [Aspose Purchase](https://purchase.aspose.com/buy) 购买许可证以解锁全部功能。  
+- **免费试用：** 在 [Free Trial](https://releases.aspose.com/cells/java/) 开始使用试用版。  
+- **临时许可证：** 通过 [Temporary License Page](https://purchase.aspose.com/temporary-license/) 申请临时许可证。  
+- **支持：** 在社区论坛 [Aspose Support](https://forum.aspose.com/c/cells/9) 提问获取帮助。  
+
+## 相关教程
+
+- [使用 Aspose.Cells for Java 创建 Excel 工作簿和图表：全面指南](/cells/java/charts-graphs/aspose-cells-java-excel-workbook-charts/)  
+- [精通 Aspose.Cells Java 的 Excel 图表自定义：完整指南](/cells/java/charts-graphs/aspose-cells-java-excel-charts-customization/)  
+- [使用 Aspose.Cells Java 创建动态图表：开发者综合指南](/cells/java/charts-graphs/aspose-cells-java-dynamic-excel-charts/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

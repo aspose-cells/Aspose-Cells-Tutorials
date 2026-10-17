@@ -1,0 +1,7 @@
+Title: Set Custom Cell Separator – Export Excel Table to TXT
+Slug: set-custom-cell-separator-export-excel-table-to-txt
+Category: excel-import-export
+ProcessedDate: 2026-07-17T08:03:45.295803
+SourceRepo: AI Search API
+Keywords: set custom cell separator, export excel table to txt, export excel formulas to text, save worksheet as txt file, export excel data as plain text
+PRNumber: 122

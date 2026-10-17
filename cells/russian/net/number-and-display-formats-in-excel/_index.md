@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Числовые и отображаемые форматы в Excel
@@ -32,11 +30,26 @@
 Автоматизируйте форматирование чисел в Excel с помощью Aspose.Cells для .NET. Узнайте, как применять форматы даты, процентов и валюты программно.
 ### [Настройка форматов отображения с помощью пользовательских чисел](./customizing-display-formats-with-user-defined-numbers/)
 Узнайте, как настроить форматы отображения с помощью Aspose.Cells для .NET. Форматируйте даты, проценты и валюту, используя это пошаговое руководство.
+### [Как экспортировать Excel с форматированием – Сохранить числовой формат](./how-to-export-excel-with-formatting-preserve-number-format/)
+Экспортируйте лист Excel, сохраняя все числовые форматы, используя Aspose.Cells для .NET.
+### [Форматирование даты и времени в ISO в C# – Полное руководство](./format-datetime-to-iso-in-c-complete-guide/)
+Преобразуйте даты и время в формат ISO в C# с помощью Aspose.Cells для .NET.
+
+
+
+
+
+
+
+
+### [Как отформатировать валюту в столбце сетки – пошаговое руководство](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
+Узнайте, как программно отформатировать валюту в столбце сетки с помощью Aspose.Cells для .NET.
+### [Применение числового формата в Excel – Пошаговое руководство по форматированию столбцов](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+Узнайте, как с помощью Aspose.Cells для .NET применять числовые форматы к столбцам Excel шаг за шагом.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

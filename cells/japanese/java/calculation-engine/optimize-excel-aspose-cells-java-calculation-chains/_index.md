@@ -10,18 +10,6 @@ url: /ja/java/calculation-engine/optimize-excel-aspose-cells-java-calculation-ch
 weight: 1
 ---
 
- bullet points and formatting.
-
-Let's construct.
-
-We'll translate each section.
-
-I'll write Japanese translation.
-
-Let's start.
-
---- Output only translated content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

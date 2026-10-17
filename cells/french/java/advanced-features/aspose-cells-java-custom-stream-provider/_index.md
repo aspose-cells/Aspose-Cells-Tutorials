@@ -13,27 +13,7 @@ url: /fr/java/advanced-features/aspose-cells-java-custom-stream-provider/
 weight: 1
 ---
 
- fournisseur de flux personnalisé". Keep the heading #.
-
-Proceed section by section.
-
-Also note "step-by-step in order - do not skip sections". We'll translate everything.
-
-Tables: translate column headers and content but keep technical terms.
-
-Let's start.
-
-First shortcodes unchanged.
-
-Then heading.
-
-Then paragraph.
-
-Translate.
-
-Make sure to keep markdown formatting.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
