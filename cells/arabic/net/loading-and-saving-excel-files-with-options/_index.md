@@ -32,6 +32,8 @@
 تعرّف على كيفية ضبط الأعمدة والصفوف تلقائيًا أثناء تحميل HTML إلى Excel باستخدام Aspose.Cells لـ .NET. يتضمن دليلًا خطوة بخطوة.
 ### [تعطيل التعليقات المكشوفة للمستوى الأدنى أثناء الحفظ بتنسيق HTML](./disabling-downlevel-revealed-comments/)
 تعرف على كيفية تعطيل التعليقات المكشوفة من المستوى الأدنى عند حفظ مصنف Excel إلى HTML باستخدام Aspose.Cells لـ .NET باستخدام هذا الدليل التفصيلي خطوة بخطوة.
+### [إنشاء مصنف جديد في C# – تحميل Excel مع التقويم الياباني](./create-new-workbook-in-c-load-excel-with-japanese-calendar/)
+تعلم كيفية إنشاء مصنف جديد في C# وتحميل ملف Excel باستخدام التقويم الياباني باستخدام Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

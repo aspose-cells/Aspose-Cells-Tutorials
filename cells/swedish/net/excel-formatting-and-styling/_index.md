@@ -52,6 +52,8 @@ Upptäck hur du använder fördefinierade stilar och formatering i Excel med Asp
 Lär dig hur du formaterar Excel-celler med Aspose.Cells för .NET i den här enkla guiden. Bemästra stilar och ramar för exakt datapresentation.
 ### [Arbeta med stilar och formatera objekt](./working-with-styles-and-formatting-objects/)
 Lär dig hur du formaterar Excel-ark med Aspose.Cells för .NET genom en steg-för-steg-guide och bemästra stilar som ett proffs.
+### [Tillämpa cellstilar med Aspose.Cells – Importera DataTable med formatering](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+Lär dig hur du importerar en DataTable till Excel med Aspose.Cells och behåller cellstilar och formatering.
 ### [Lägga till ramar till celler i Excel](./adding-borders-to-cells/)
 Lär dig hur du lägger till snygga ramar runt celler i Excel med Aspose.Cells för .NET. Följ den här steg-för-steg-guiden för tydliga och engagerande kalkylblad.
 ### [Tillämpa kantlinjer på cellområde i Excel](./applying-borders-to-range-of-cells/)
@@ -72,6 +74,9 @@ Lär dig hur du justerar text vertikalt i Excel-celler med hjälp av Aspose.Cell
 Omvandla textriktning i Excel med Aspose.Cells för .NET. Följ vår steg-för-steg-guide för att enkelt rotera och justera text.
 ### [Radbryta lång text i celler i Excel](./wrapping-long-text-within-cells/)
 Lär dig hur du radbryter lång text i Excel-celler med Aspose.Cells för .NET i den här lättförståeliga guiden. Förvandla dina kalkylblad utan ansträngning.
+### [Styling av kolumner i Excel med C# – Importera DataTable](./how-to-style-columns-in-excel-with-c-import-datatable/)
+### [Skapa cellstil i C# – Hur man tillämpar stil på en cell och centrerar text](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
+Lär dig hur du skapar en cellstil i C# med Aspose.Cells för .NET och centrerar text i cellen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

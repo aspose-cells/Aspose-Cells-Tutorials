@@ -38,6 +38,14 @@ Objevte, jak vykreslovat grafy v .NET pomocí Aspose.Cells. Postupujte podle na�
 Naučte se převádět grafy z Excelu do PDF pomocí Aspose.Cells pro .NET s tímto jednoduchým podrobným návodem. Prozkoumejte základní tipy a příklady kódování.
 ### [Vytvořte PDF grafu s požadovanou velikostí stránky](./create-chart-pdf-with-desired-page-size/)
 Vytvořte PDF s vaším excelovým grafem pomocí Aspose.Cells pro .NET. Naučte se jak v tomto podrobném návodu.
+### [Export grafu do PowerPointu pomocí C# – Kompletní průvodce krok za krokem](./export-chart-to-powerpoint-with-c-complete-step-by-step-guid/)
+Naučte se exportovat grafy z Excelu do PowerPointu pomocí Aspose.Cells pro .NET a C# v podrobném průvodci.
+### [Jak exportovat grafy z Wordu – Kompletní průvodce C#](./how-to-export-charts-from-word-complete-c-guide/)
+Naučte se exportovat grafy z dokumentu Word do Excelu pomocí Aspose.Words a Aspose.Cells v C#.
+### [Jak exportovat grafy – Kompletní průvodce PowerPointem v C#](./how-to-export-charts-complete-powerpoint-c-guide/)
+Naučte se exportovat grafy z Excelu do PowerPointu pomocí Aspose.Cells v C# s podrobnými ukázkami kódu.
+### [Export grafu jako PNG – Kompletní průvodce konverzí Excelu do HTML s Aspose.Cells](./export-chart-as-png-complete-guide-to-convert-excel-to-html/)
+Naučte se exportovat grafy z Excelu jako PNG a převádět je do HTML pomocí Aspose.Cells v .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

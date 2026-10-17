@@ -38,6 +38,9 @@ Aspose.Words Javaのコードチュートリアル
 ### [Aspose.Cells Java ライセンスの設定と検証: 完全ガイド](./aspose-cells-java-license-setup-guide/)
 包括的なガイドで、Aspose.Cells Javaライセンスの設定と検証をマスターしましょう。高度な機能へのフルアクセスを簡単に確保できます。
 
+### [ライセンス付きワークブックの作成 – 完全 Aspose.Cells Java ガイド](./create-licensed-workbook-full-aspose-cells-java-guide/)
+Aspose.Cells for Java でライセンスを適用したワークブックを作成し、完全な機能を活用する方法を解説します。
+
 ### [Aspose.Cells for Java: Excel ワークブックを効率的に作成し、書式設定する方法](./aspose-cells-java-workbook-creation-guide/)
 Aspose.Cellsを使ってJavaでExcelワークブックの作成と書式設定を自動化する方法を学びましょう。このガイドでは、セットアップ、ワークブックの操作、セルの書式設定のテクニックについて説明します。
 
@@ -48,7 +51,7 @@ Aspose.Cells for Javaを使ってExcelブックを作成およびカスタマイ
 Aspose.Cells for Java を使用して、Excel ブックを作成し、カスタムデータを入力する方法を学びます。ワークフローを効率的に合理化します。
 
 ### [Aspose.Cells for Java で Excel ブックを作成する: 包括的なガイド](./create-excel-workbooks-aspose-cells-java/)
-Aspose.Cells for Java を使用して Excel ブックを作成し、スタイルを設定する方法を学びます。Excel タスクを自動化し、スタイルを適用し、レポートを効率的に保存します。
+Aspose.Cells for Java を使用して Excel ブックを作成し、スタイルを設定する方法を学びます。Excel タスクを自動化し、スタイルを適用、レポートを効率的に保存します。
 
 ### [Aspose.Cells Java を使用して XLSX ファイルを作成する: 開発者向け完全ガイド](./create-xlsx-files-aspose-cells-java-guide/)
 Aspose.Cellsを使ってJavaでXLSXファイルを作成および管理する方法を学びましょう。この包括的なガイドでは、セットアップ、実装、トラブルシューティングについて解説しています。

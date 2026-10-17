@@ -58,7 +58,7 @@ Excel görevlerinizi Aspose.Cells for .NET ile otomatikleştirin. Bu kapsamlı e
 ### [Excel'de Formülleri Programlı Olarak Bir Kez Hesaplama](./calculating-formulas-once/)
 Bu adım adım eğitimde Aspose.Cells for .NET kullanarak Excel formüllerini programatik olarak nasıl hesaplayacağınızı öğrenin. Excel otomasyon becerilerinizi geliştirin.
 ### [Excel'de Programatik Olarak Dairesel Referans Algılama](./detecting-circular-reference/)
-Aspose.Cells for .NET kullanarak Excel'deki dairesel referansları kolayca tespit edin. E-tablolarınızda doğru hesaplamalar sağlamak için adım adım kılavuzumuzu izleyin.
+Aspose.Cells for .NET kullanarak Excel'deki dairesel referansları kolayca tespit edin. E-tablolarınızda doğru hesaplamalar sağlamak için adım adım rehberimizi izleyin.
 ### [Excel'de Programatik Olarak Doğrudan Hesaplama Formülü](./direct-calculation-formula/)
 Excel hesaplamalarını programatik olarak yürütmek için Aspose.Cells for .NET'i nasıl kullanacağınızı keşfedin. Zahmetsiz Excel işlemleri için adım adım kılavuz.
 ### [Çalışma Kitabının Kesinti veya İptal Formülü Hesaplaması](./interrupt-or-cancel-formula-calculation-of-workbook/)
@@ -75,6 +75,23 @@ Aspose.Cells for .NET kullanarak Excel'de R1C1 formülleriyle verilerin nasıl i
 Aspose.Cells for .NET kullanarak Excel'de eklentilerden fonksiyonları nasıl kaydedeceğinizi ve çağıracağınızı kolay adım adım eğitimimiz ile öğrenin.
 ### [Excel'de Paylaşılan Formülün Maksimum Satır Sayısını Belirleme](./specifying-maximum-rows-of-shared-formula/)
 Bu kolay, adım adım eğitimle Aspose.Cells for .NET kullanarak Excel'de paylaşılan formüller için maksimum satır sayısını nasıl belirleyeceğinizi keşfedin.
+### [C# ile Excel'de Dizi Oluşturma – Adım Adım Kılavuz](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+
+### [C# ile Tüm Formülleri Yeniden Hesapla – Excel'i Yenile](./recalculate-all-formulas-in-c-refresh-excel/)
+Aspose.Cells for .NET kullanarak C# ile Excel çalışma kitabındaki tüm formülleri yeniden hesaplayın ve sonuçları güncel tutun.
+### [c# ile Excel dosyası oluşturma – Koşullu Mantıkla Adım‑Adım Kılavuz](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Aspose.Cells for .NET kullanarak koşullu mantık içeren bir Excel dosyasını adım adım nasıl oluşturacağınızı öğrenin.
+### [C# ile Excel'de Kotanjant Hesaplama – Adım Adım Kılavuz](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+### [C#'ta Aspose.Cells ile Dizi Nasıl Genişletilir – Adım Adım Kılavuz](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Aspose.Cells kullanarak C# dilinde dizileri dinamik olarak genişletmeyi adım adım öğrenin.
+### [C#'ta WRAPCOLS Kullanımı – Dizileri Matrislere Dönüştürme](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Bu adım adım kılavuzda Aspose.Cells for .NET kullanarak C#'ta WRAPCOLS fonksiyonuyla dizileri matrislere nasıl dönüştüreceğinizi öğrenin.
+### [C# ile Excel'de Kotanjant Hesaplama – Tam Kılavuz](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+C# kodu kullanarak Excel'de kotanjant fonksiyonunu nasıl hesaplayacağınızı adım adım öğrenin.
+### [Excel'de WRAPCOLS Kullanımı – Tam C# Örneği](./how-to-use-wrapcols-in-excel-complete-c-example/)
+Aspose.Cells for .NET ile Excel'de WRAPCOLS işlevini C# örneğiyle nasıl kullanacağınızı adım adım öğrenin.
+### [C# ile Excel'de WRAPCOLS ile Veri Bölme ve Çalışma Kitabı Oluşturma](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
+### [C# ile Excel'de Dizi Formülü Uygulama – Tam Kılavuz](./apply-array-formula-excel-in-c-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

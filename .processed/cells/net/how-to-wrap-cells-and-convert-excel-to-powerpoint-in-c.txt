@@ -1,0 +1,7 @@
+Title: How to wrap cells and convert Excel to PowerPoint in C#
+Slug: how-to-wrap-cells-and-convert-excel-to-powerpoint-in-c
+Category: converting-excel-files-to-other-formats
+ProcessedDate: 2026-09-18T14:30:57.179241
+SourceRepo: AI Search API
+Keywords: how to wrap cells, convert excel to powerpoint, save excel as powerpoint, how to use wrapcols, create workbook worksheet
+PRNumber: 163

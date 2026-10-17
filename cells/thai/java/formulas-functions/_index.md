@@ -29,6 +29,9 @@
 ### [เรียนรู้สูตรอาร์เรย์ Excel อย่างเชี่ยวชาญด้วย Aspose.Cells Java: เพิ่มประสิทธิภาพการคำนวณและการจัดรูปแบบ](./aspose-cells-java-array-formulas-custom-calculations/)
 เรียนรู้การตั้งค่าสูตรอาร์เรย์ การใช้สไตล์ตัวเลข ปรับแต่งการคำนวณ และบันทึกเวิร์กบุ๊กอย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java
 
+### [จัดเรียงค่าที่ไม่ซ้ำใน Excel – คู่มือ Java ครบขั้นตอนสำหรับตั้งค่าสูตรอาร์เรย์](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+เรียนรู้วิธีจัดเรียงและกรองค่าที่ไม่ซ้ำใน Excel ด้วยการตั้งค่าสูตรอาร์เรย์โดยใช้ Aspose.Cells สำหรับ Java
+
 ### [วิธีการสร้างฟังก์ชันค่าคงที่แบบกำหนดเองใน Aspose.Cells Java](./aspose-cells-java-custom-static-value-function/)
 เรียนรู้วิธีการขยาย AbstractCalculationEngine สำหรับการคำนวณแบบกำหนดเองโดยใช้ Aspose.Cells Java ทำให้งาน Excel เป็นแบบอัตโนมัติด้วยค่าที่กำหนดไว้ล่วงหน้า
 
@@ -83,6 +86,14 @@
 ### [วิธีการใช้ FormulaText ใน Aspose.Cells สำหรับ Java: คำแนะนำทีละขั้นตอน](./implementing-formula-text-aspose-cells-java-guide/)
 เรียนรู้วิธีแยกข้อความสูตรจากเซลล์ Excel โดยใช้ Aspose.Cells กับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า การนำไปใช้งาน และแอปพลิเคชันจริง
 
+### [วิธีใช้ Reduce ใน Excel ด้วย Java – คู่มือสูตร Lambda](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
+เรียนรู้การใช้ฟังก์ชัน Reduce ใน Excel ผ่าน Java ด้วยสูตร Lambda เพื่อทำการคำนวณขั้นสูงอย่างมีประสิทธิภาพ
+### [วิธีใช้ SEQUENCE ในสมุดงาน Excel ด้วย Java – คู่มือทีละขั้นตอน](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+เรียนรู้วิธีใช้ฟังก์ชัน SEQUENCE ใน Aspose.Cells สำหรับ Java เพื่อสร้างลำดับค่าอัตโนมัติในเวิร์กบุ๊ก Excel
+### [วิธีใช้ WRAPCOLS ใน Java – ตัวอย่างเต็มของ Excel WRAPCOLS](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+เรียนรู้วิธีใช้ฟังก์ชัน WRAPCOLS ใน Aspose.Cells สำหรับ Java เพื่อจัดรูปแบบข้อมูลในเซลล์ Excel อย่างครบถ้วน
+### [วิธีคำนวณโคแทนเจนต์ใน Excel – คู่มือฉบับสมบูรณ์](./how-to-calculate-cotangent-in-excel-complete-guide/)
+เรียนรู้วิธีคำนวณฟังก์ชันโคแทนเจนต์ใน Excel อย่างละเอียด พร้อมตัวอย่างโค้ด Java และการใช้ Aspose.Cells
 
 
 ## แหล่งข้อมูลเพิ่มเติม
