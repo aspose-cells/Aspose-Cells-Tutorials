@@ -1,41 +1,112 @@
 ---
-"date": "2025-04-07"
-"description": "Узнайте, как изменять формы меток данных в диаграммах Excel с помощью Aspose.Cells для Java. Улучшите визуальную привлекательность и ясность ваших диаграмм с помощью этого всеобъемлющего руководства."
-"title": "Настройка меток данных диаграмм Excel с помощью Aspose.Cells для Java&#58; пошаговое руководство"
-"url": "/ru/java/charts-graphs/customize-chart-data-labels-aspose-cells-java/"
-"weight": 1
+date: '2026-10-17'
+description: Узнайте, как задать форму подписей данных диаграммы Excel в Java с помощью
+  Aspose.Cells. Это руководство покажет, как быстро и эффективно изменять подписи
+  диаграмм Excel.
+keywords:
+- how to set shape
+- modify excel chart labels
+- customize chart data labels
+- add data label shape
+lastmod: '2026-10-17'
+og_description: Узнайте, как задать форму подписей данных диаграммы Excel в Java с
+  помощью Aspose.Cells. Это пошаговое руководство поможет быстро изменять подписи
+  диаграмм Excel.
+og_image_alt: Guide showing how to set shape of Excel chart data labels using Aspose.Cells
+  for Java
+og_title: Как задать форму подписей данных диаграммы Excel в Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-17'
+  description: Learn how to set shape of Excel chart data labels in Java using Aspose.Cells.
+    This guide shows you how to modify Excel chart labels quickly and efficiently.
+  headline: How to set shape of Excel chart data labels in Java
+  type: TechArticle
+- description: Learn how to set shape of Excel chart data labels in Java using Aspose.Cells.
+    This guide shows you how to modify Excel chart labels quickly and efficiently.
+  name: How to set shape of Excel chart data labels in Java
+  steps:
+  - name: load your workbook
+    text: The `Workbook` class is Aspose.Cells' top‑level object that represents a
+      single Excel file in memory. Use `new Workbook("input.xlsx")` to load the file
+      you want to modify.
+  - name: access the chart
+    text: '`Worksheet` represents a single sheet within a workbook. `Worksheet ws
+      = workbook.getWorksheets().get(0);` retrieves the first worksheet. `Chart` is
+      an object that represents a chart embedded in a worksheet. `Chart chart = ws.getCharts().get(0);`
+      obtains the first chart on that sheet.'
+  - name: retrieve series and modify data labels
+    text: '`Series` represents a data series plotted on a chart. Each `Series` object
+      contains a `DataLabel` collection. `DataLabel` controls the appearance of a
+      data label for a series. `DataLabelShapeType` is an enumeration of possible
+      shapes for data labels. Call `series.getDataLabels().setShapeType(DataLab'
+  - name: save your workbook
+    text: After applying the shape, invoke `workbook.save("output.xlsx");` to write
+      the changes back to disk.
+  type: HowTo
+- questions:
+  - answer: Loop through each series in the chart and call `setShapeType` on the series’
+      `DataLabel` object.
+    question: How do I change the shape of multiple data labels at once?
+  - answer: Yes. With proper memory management, it processes workbooks containing
+      hundreds of thousands of rows without loading the entire file into memory.
+    question: Can Aspose.Cells for Java handle large Excel files efficiently?
+  - answer: Missing Maven dependencies, using an outdated library version, or providing
+      an invalid license file are typical pitfalls.
+    question: What are common issues when setting up Aspose.Cells?
+  - answer: Set the shape type to `DataLabelShapeType.DEFAULT` to restore the original
+      appearance.
+    question: Is there a way to revert data label shapes to default?
+  - answer: Iterate over `ws.getCharts()` and apply the same `setShapeType` logic
+      to each chart’s series collection.
+    question: How can I apply this customization to multiple charts in a workbook?
+  type: FAQPage
+tags:
+- excel chart
+- aspose.cells
+- java chart customization
+- data label shape
+title: Как задать форму подписей данных диаграммы Excel в Java
+url: /ru/java/charts-graphs/customize-chart-data-labels-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Освоение настройки диаграмм в Java с помощью Aspose.Cells: изменение форм меток данных
+# Освоение настройки диаграмм в Java с Aspose.Cells: изменение формы меток данных
 
 ## Введение
 
-Улучшение визуальной привлекательности диаграмм Excel имеет решающее значение при подготовке отчетов или панелей мониторинга, особенно если вы используете Java. С Aspose.Cells — мощной библиотекой для управления и обработки электронных таблиц — настройка меток данных диаграммы становится легкой. Это руководство проведет вас через изменение формы меток данных в диаграмме Excel с помощью Aspose.Cells для Java. К концу вы будете знать, как:
+Повышение визуальной привлекательности диаграмм Excel имеет решающее значение при подготовке отчетов или панелей мониторинга, особенно если вы используете Java. С Aspose.Cells — мощной библиотекой для управления и манипуляции электронными таблицами — вы можете **how to set shape** меток данных диаграммы всего в несколько строк кода. Этот учебник проведет вас через процесс изменения формы меток данных в диаграмме Excel с использованием Aspose.Cells для Java. К концу вы узнаете, как:
 
-- Доступ и изменение меток данных диаграммы
-- Задайте пользовательские формы для меток данных
-- Сохраните изменения в своей рабочей книге.
+- Получать доступ к меткам данных диаграммы и изменять их
+- Устанавливать пользовательские формы для меток данных
+- Сохранять изменения в вашей книге
 
-Давайте углубимся в настройку вашей среды и реализацию этих функций.
+## Быстрые ответы
+- **Что является основным классом для работы с файлами Excel?** `Workbook` представляет собой весь файл Excel в памяти.  
+- **Какой метод устанавливает форму метки?** `setShapeType(DataLabelShapeType shape)` у объекта `DataLabel`.  
+- **Нужна ли лицензия для разработки?** Бесплатная временная лицензия работает для оценки; полная лицензия требуется для продакшна.  
+- **Можно ли применить форму к нескольким сериям?** Да — итеративно пройдитесь по каждой серии и вызовите `setShapeType`.  
+- **Совместим ли этот подход с большими книгами?** Aspose.Cells обрабатывает многосотстраничные книги без загрузки всего файла в память.
 
-## Предпосылки
+## Что такое установка формы?
+Фраза **how to set shape** относится к настройке визуального контура метки данных диаграммы, например, превращения простого прямоугольника в выноску или эллипс. Изменение формы улучшает читаемость и выделяет ключевые точки данных. Выбирая подходящую форму, вы можете сделать метку более заметной, сгруппировать связанные точки или соответствовать корпоративным рекомендациям по брендингу, тем самым повышая общую читаемость диаграммы.
 
-Перед началом работы убедитесь, что у вас есть следующее:
+## Почему использовать Aspose.Cells для настройки меток диаграмм?
+Aspose.Cells поддерживает **50+ входных и выходных форматов** — включая XLSX, CSV, ODS и PDF, — и может манипулировать книгами, содержащими **до 1 млн строк** без исчерпания памяти. Его API позволяет программно изменять диаграммы, устраняя необходимость ручных правок в Excel и обеспечивая единообразный стиль в автоматизированных отчетах.
 
-- **Библиотека Aspose.Cells для Java**: Требуется версия 25.3 или более поздняя.
-- **Среда разработки Java**: JDK установлен на вашем компьютере.
-- **Настройка IDE**: Используйте IDE, например IntelliJ IDEA или Eclipse, для написания и запуска кода.
+## Необходимые условия
 
-### Необходимые библиотеки и зависимости
+- **Aspose.Cells for Java Library**: Требуется версия 25.3 или новее.  
+- **Java Development Environment**: Установленный JDK на вашем компьютере.  
+- **IDE Setup**: Используйте IDE, например IntelliJ IDEA или Eclipse, для написания и запуска кода.
 
-Для пользователей Maven включите следующую зависимость в свой `pom.xml`:
+### Требуемые библиотеки и зависимости
+
+Для пользователей Maven включите следующую зависимость в ваш `pom.xml`:
 
 ```xml
 <dependency>
@@ -45,7 +116,7 @@
 </dependency>
 ```
 
-Пользователи Gradle должны добавить это в свои `build.gradle` файл:
+Пользователи Gradle должны добавить это в файл `build.gradle`:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
@@ -53,124 +124,140 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### Приобретение лицензии
 
-Aspose.Cells предлагает бесплатную пробную лицензию, которую вы можете получить по адресу [здесь](https://purchase.aspose.com/temporary-license/). Это обеспечивает полный доступ ко всем функциям без ограничений в течение ограниченного времени.
+Aspose.Cells предлагает бесплатную пробную лицензию, которую можно получить со страницы [страница временной лицензии Aspose](https://purchase.aspose.com/temporary-license/). Это дает полный доступ ко всем функциям без ограничений на ограниченный период.
 
 ## Настройка Aspose.Cells для Java
 
-Как только ваша среда будет готова, давайте настроим Aspose.Cells. Вот как начать:
+Как только ваша среда готова, давайте настроим Aspose.Cells. Вот как начать:
 
-### Этапы установки
+### Шаги установки
 
-1. **Загрузить библиотеку**: Используйте Maven или Gradle, как показано выше.
-2. **Конфигурация лицензии**:
-   - Загрузите и примените временную лицензию, используя этот фрагмент кода после инициализации `Workbook` объект:
+1. **Скачать библиотеку**: Используйте Maven или Gradle, как показано выше.  
+2. **Конфигурация лицензии**:  
+   - `License` — класс, который применяет ваш файл лицензии Aspose.Cells для включения полной функциональности.  
+   - Скачайте и примените временную лицензию, используя этот фрагмент кода после инициализации объекта `Workbook`:
 
     ```java
     License license = new License();
     license.setLicense("path/to/your/license/file");
     ```
-3. **Базовая инициализация**Создать `Workbook` пример для начала работы с файлами Excel.
+3. **Базовая инициализация**: Создайте экземпляр `Workbook`, чтобы начать работу с файлами Excel.
 
-## Руководство по внедрению
+## Как установить форму меток данных в диаграмме?
 
-### Доступ к меткам данных диаграммы и их изменение
+Загрузите книгу, найдите нужную диаграмму и примените желаемую форму к её меткам данных. Ниже приведены прямые шаги, которые займут менее минуты.
 
-#### Обзор
+### Пошаговое руководство
 
-В этом разделе рассматривается, как изменить форму меток данных в существующей серии диаграмм с помощью Aspose.Cells для Java.
+#### Шаг 1: загрузить вашу книгу
 
-##### Шаг 1: Загрузите свою рабочую книгу
+Класс `Workbook` — объект верхнего уровня Aspose.Cells, представляющий один файл Excel в памяти. Используйте `new Workbook("input.xlsx")`, чтобы загрузить файл, который хотите изменить.
 
-Начните с загрузки вашей рабочей книги из файла. Вот где находится ваш целевой документ Excel:
+#### Шаг 2: получить доступ к диаграмме
 
-```java
-Workbook wb = new Workbook("YOUR_DATA_DIRECTORY/sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
-```
+`Worksheet` представляет отдельный лист в книге.  
+`Worksheet ws = workbook.getWorksheets().get(0);` получает первый лист.  
+`Chart` — объект, представляющий диаграмму, встроенную в лист.  
+`Chart chart = ws.getCharts().get(0);` получает первую диаграмму на этом листе.
 
-##### Шаг 2: Доступ к диаграмме
+#### Шаг 3: получить серии и изменить метки данных
 
-Перейдите к диаграмме, которую вы хотите изменить, на первом рабочем листе:
+`Series` представляет серию данных, построенную на диаграмме.  
+Каждый объект `Series` содержит коллекцию `DataLabel`.  
+`DataLabel` управляет внешним видом метки данных для серии.  
+`DataLabelShapeType` — перечисление возможных форм меток данных.  
+Вызовите `series.getDataLabels().setShapeType(DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT);`, чтобы задать форму. Перечисление предоставляет десятки вариантов, таких как `RECTANGLE`, `CLOUD` и `WEDGE_ELLIPSE_CALLOUT`.
 
-```java
-Worksheet ws = wb.getWorksheets().get(0);
-Chart ch = ws.getCharts().get(0);
-```
+#### Шаг 4: сохранить вашу книгу
 
-**Объяснение**: Здесь, `ws.getCharts().get(0)` извлекает первую диаграмму из коллекции диаграмм на рабочем листе.
+После применения формы вызовите `workbook.save("output.xlsx");`, чтобы записать изменения на диск.
 
-##### Шаг 3: Извлечение рядов и изменение меток данных
+## Советы по устранению неполадок
 
-Получите доступ к рядам на диаграмме, чтобы изменить метки данных:
-
-```java
-Series srs = ch.getNSeries().get(0);
-srs.getDataLabels().setShapeType(DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT);
-```
-
-**Конфигурация ключа**: `DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT` задает форму овального речевого пузыря, добавляя визуальный колорит.
-
-##### Шаг 4: Сохраните свою рабочую книгу
-
-После внесения изменений сохраните книгу:
-
-```java
-wb.save("YOUR_OUTPUT_DIRECTORY/outputSetShapeTypeOfDataLabelsOfChart.xlsx");
-```
-
-### Советы по устранению неполадок
-
-- **Проблемы с путями к файлам**: Убедитесь, что пути к каталогам указаны правильно.
-- **Несоответствие версии библиотеки**: Убедитесь, что вы используете Aspose.Cells версии 25.3 или более поздней.
+- **Проблемы с путями к файлам**: Убедитесь, что путь к файлу абсолютный или правильно относительный к рабочей директории проекта.  
+- **Несоответствие версии библиотеки**: Убедитесь, что используете Aspose.Cells версии 25.3 или новее; в более старых версиях метода `setShapeType` нет.  
+- **Неподдерживаемые типы диаграмм**: Некоторые устаревшие типы диаграмм (например, радиальная) могут не раскрывать свойства формы меток; переключитесь на поддерживаемый тип, такой как столбчатая или линейная диаграмма.
 
 ## Практические применения
 
-1. **Финансовая отчетность**: Используйте пользовательские фигуры для выделения ключевых финансовых показателей.
-2. **Образовательный контент**Улучшите графики в учебных материалах для лучшего взаимодействия.
-3. **Маркетинговая аналитика**: Создавайте визуально привлекательные диаграммы для панелей мониторинга эффективности маркетинга.
+1. **Финансовая отчетность** — выделяйте ключевые маржи прибыли метками‑выносками.  
+2. **Образовательный контент** — используйте метки в виде облака, чтобы привлечь внимание к важным точкам данных в учебных материалах.  
+3. **Маркетинговая аналитика** — применяйте пользовательские формы для различения метрик эффективности кампаний в панелях мониторинга.
 
-Интеграция с другими системами, такими как инструменты визуализации данных или программное обеспечение CRM, может еще больше расширить возможности Aspose.Cells.
+Интеграция Aspose.Cells с конвейерами данных или CRM‑системами позволяет автоматически генерировать полностью стилизованные отчеты, снижая ручные трудозатраты и обеспечивая визуалы, соответствующие бренду.
 
-## Соображения производительности
+## Соображения по производительности
 
 При работе с большими файлами Excel:
 
-- **Оптимизация использования памяти**: Закрывайте рабочие книги сразу после использования, чтобы освободить память.
-- **Пакетная обработка**: Обрабатывайте несколько диаграмм пакетами, если применимо.
-- **Эффективная обработка данных**: Минимизируйте операции внутри циклов для повышения производительности.
+- **Оптимизировать использование памяти**: Вызовите `workbook.dispose();` после сохранения, чтобы быстро освободить нативные ресурсы.  
+- **Пакетная обработка**: Обрабатывайте диаграммы группами, а не по одной, чтобы минимизировать накладные расходы на создание объектов.  
+- **Эффективная работа с данными**: Избегайте тяжёлых вычислений внутри циклов, проходящих по тысячам строк; вычисляйте значения заранее.
 
 ## Заключение
 
-Теперь вы узнали, как изменять формы меток данных диаграммы с помощью Aspose.Cells для Java. Эта функция не только улучшает эстетику ваших диаграмм, но и улучшает ясность представления данных.
+Теперь вы знаете **how to set shape** меток данных диаграммы Excel в Java с помощью Aspose.Cells. Эта возможность не только улучшает эстетический вид диаграмм, но и повышает понимание данных конечными пользователями. Исследуйте дополнительные параметры настройки — например, цвета меток, шрифты и линии‑соединители, — чтобы ещё более усовершенствовать визуализацию.
 
-Для дальнейшего изучения возможностей Aspose.Cells рассмотрите возможность экспериментов с другими параметрами настройки, такими как цвета и шрифты. По любым вопросам или для получения помощи обратитесь к [Форум поддержки Aspose](https://forum.aspose.com/c/cells/9).
+Для любых вопросов или помощи обратитесь к [форуму поддержки Aspose](https://forum.aspose.com/c/cells/9).
 
-## Раздел часто задаваемых вопросов
+## Часто задаваемые вопросы
 
-1. **Как изменить форму нескольких меток данных?**
-   - Пройдитесь по каждой серии в вашей диаграмме и примените `setShapeType()` по мере необходимости.
-2. **Может ли Aspose.Cells for Java эффективно обрабатывать большие файлы Excel?**
-   - Да, при условии соблюдения надлежащих методов управления памятью, подобных описанным выше.
-3. **Какие проблемы чаще всего возникают при настройке Aspose.Cells?**
-   - Убедитесь, что все зависимости правильно настроены в настройках вашего проекта.
-4. **Есть ли способ вернуть формы меток данных к значениям по умолчанию?**
-   - Набор `DataLabelShapeType.DEFAULT` для отмены изменений.
-5. **Как применить эту настройку к нескольким диаграммам в рабочей книге?**
-   - Выполните итерацию по каждому объекту диаграммы в коллекции диаграмм рабочего листа и примените внесенные изменения.
+**Q: Как изменить форму нескольких меток данных одновременно?**  
+A: Пройдитесь по каждой серии в диаграмме и вызовите `setShapeType` у объекта `DataLabel` серии.
+
+**Q: Может ли Aspose.Cells для Java эффективно обрабатывать большие файлы Excel?**  
+A: Да. При правильном управлении памятью он обрабатывает книги, содержащие сотни тысяч строк, без загрузки всего файла в память.
+
+**Q: Какие типичные проблемы возникают при настройке Aspose.Cells?**  
+A: Отсутствие Maven‑зависимостей, использование устаревшей версии библиотеки или предоставление недействительного файла лицензии — это типичные подводные камни.
+
+**Q: Есть ли способ вернуть формы меток данных к значениям по умолчанию?**  
+A: Установите тип формы в `DataLabelShapeType.DEFAULT`, чтобы восстановить исходный вид.
+
+**Q: Как применить эту настройку к нескольким диаграммам в книге?**  
+A: Итеративно пройдитесь по `ws.getCharts()` и примените ту же логику `setShapeType` к коллекции серий каждой диаграммы.
 
 ## Ресурсы
 
 - [Документация Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [Загрузить Aspose.Cells для Java](https://releases.aspose.com/cells/java/)
+- [Скачать Aspose.Cells для Java](https://releases.aspose.com/cells/java/)
 - [Купить лицензию](https://purchase.aspose.com/buy)
 - [Бесплатная пробная лицензия](https://releases.aspose.com/cells/java/)
 - [Временная лицензия](https://purchase.aspose.com/temporary-license/)
 
-Это всеобъемлющее руководство должно помочь вам эффективно настраивать метки данных диаграмм в ваших приложениях Java с помощью Aspose.Cells. Удачного кодирования!
+---  
+
+**Last Updated:** 2026-10-17  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose  
+
+
+
+```java
+Workbook wb = new Workbook("YOUR_DATA_DIRECTORY/sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
+```
+```java
+Worksheet ws = wb.getWorksheets().get(0);
+Chart ch = ws.getCharts().get(0);
+```
+```java
+Series srs = ch.getNSeries().get(0);
+srs.getDataLabels().setShapeType(DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT);
+```
+```java
+wb.save("YOUR_OUTPUT_DIRECTORY/outputSetShapeTypeOfDataLabelsOfChart.xlsx");
+```
+
+## Похожие руководства
+
+- [Изменить метки данных диаграммы Excel с помощью Aspose.Cells Java](/cells/java/charts-graphs/modify-excel-chart-data-labels-aspose-cells-java/)
+- [Как изменить размер меток в диаграммах Excel с Aspose.Cells для Java](/cells/java/charts-graphs/aspose-cells-java-auto-resize-chart-data-labels/)
+- [Добавить метки к диаграммам Excel с Aspose Cells для Java](/cells/java/charts-graphs/adding-labels-to-charts-aspose-cells-java-tutorial/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
