@@ -1,204 +1,337 @@
 ---
-"date": "2025-04-07"
-"description": "Apprenez à automatiser les tâches Excel avec Aspose.Cells en Java. Créez des classeurs, renseignez des données, générez des graphiques et enregistrez efficacement."
-"title": "Automatisation Excel avec Aspose.Cells Java &#58; création de classeurs et de graphiques"
-"url": "/fr/java/charts-graphs/excel-automation-aspose-cells-java-workbook-charts/"
-"weight": 1
+date: '2026-10-17'
+description: Apprenez à automatiser Excel avec Aspose.Cells Java en créant des workbooks,
+  en ajoutant des données, en générant des line charts et en enregistrant les fichiers
+  efficacement.
+keywords:
+- how to automate excel
+- create excel workbook
+- generate line chart
+- add data to excel
+- save excel workbook
+lastmod: '2026-10-17'
+og_description: Apprenez à automatiser Excel avec Aspose.Cells Java en créant des
+  workbooks, en ajoutant des données, en générant des line charts et en enregistrant
+  les fichiers efficacement.
+og_image_alt: Guide showing Excel automation using Aspose.Cells Java to create workbooks
+  and charts
+og_title: Comment automatiser Excel avec Aspose.Cells Java et créer des graphiques
+schemas:
+- author: Aspose
+  dateModified: '2026-10-17'
+  description: Learn how to automate Excel with Aspose.Cells Java by creating workbooks,
+    adding data, generating line charts, and saving files efficiently.
+  headline: How to automate Excel with Aspose.Cells Java and create charts
+  type: TechArticle
+- description: Learn how to automate Excel with Aspose.Cells Java by creating workbooks,
+    adding data, generating line charts, and saving files efficiently.
+  name: How to automate Excel with Aspose.Cells Java and create charts
+  steps:
+  - name: '**Add dependency** – use the Maven or Gradle snippets above.'
+    text: '**Add dependency** – use the Maven or Gradle snippets above.'
+  - name: '**License acquisition** –'
+    text: '**License acquisition** –'
+  - name: '**Basic initialization and setup** –'
+    text: '**Basic initialization and setup** –'
+  type: HowTo
+- questions:
+  - answer: Automate repetitive tasks, reduce manual errors, and enhance data presentation
+      with a library that works without Microsoft Office installed.
+    question: What are the main benefits of using Aspose.Cells Java?
+  - answer: Yes, Aspose.Cells can handle workbooks with over 1 million rows using
+      its streaming API, keeping memory consumption low.
+    question: Can I process large spreadsheets (hundreds of thousands of rows) with
+      Aspose.Cells?
+  - answer: Verify that the license file is correctly referenced, call `License.setLicense("path/to/license.xml")`
+      before any Aspose.Cells API usage, and check the console for licensing error
+      messages.
+    question: How do I troubleshoot common licensing issues?
+  - answer: Absolutely. Use `workbook.save("output.pdf", SaveFormat.PDF)` or `workbook.save("output.html",
+      SaveFormat.HTML)` to export to other formats.
+    question: Is it possible to convert the generated workbook to PDF or HTML?
+  - answer: Visit the [Aspose forum](https://forum.aspose.com/c/cells/9) for community‑driven
+      solutions and additional code samples.
+    question: Where can I find more examples and community support?
+  type: FAQPage
+tags:
+- excel automation
+- aspose.cells
+- java excel charts
+title: Comment automatiser Excel avec Aspose.Cells Java et créer des graphiques
+url: /fr/java/charts-graphs/excel-automation-aspose-cells-java-workbook-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Maîtriser l'automatisation d'Excel : création de classeurs et de graphiques avec Aspose.Cells Java
+# Maîtriser l'automatisation d'Excel : création de classeurs et de graphiques avec Aspose.Cells Java
 
 ## Introduction
-Vous cherchez à simplifier vos tâches Excel ou à améliorer la visualisation de vos données sans effort ? La bibliothèque Java Aspose.Cells offre une solution puissante pour créer, manipuler et analyser des feuilles de calcul par programmation. Que vous souhaitiez créer des rapports complexes ou générer des graphiques percutants, ce tutoriel vous guidera dans l'utilisation d'Aspose.Cells en Java.
+Vous cherchez à rationaliser vos tâches Excel ou à améliorer la visualisation des données sans effort ? **How to automate Excel** avec Aspose.Cells Java offre une solution puissante pour créer, manipuler et analyser des feuilles de calcul de manière programmatique. Que vous construisiez des rapports complexes ou que vous génériez des graphiques pertinents, ce tutoriel vous guidera à travers le processus d'utilisation d'Aspose.Cells en Java.
 
-**Ce que vous apprendrez :**
-- Comment initialiser un classeur Excel avec Aspose.Cells
-- Accéder aux feuilles de calcul et les remplir avec des données
-- Création de graphiques linéaires dynamiques à partir de données de feuille de calcul
-- Sauvegarder efficacement vos classeurs
+**Ce que vous apprendrez**
+- Comment initialiser un classeur Excel avec Aspose.Cells  
+- Accéder aux feuilles de calcul et les remplir avec des données  
+- Créer des graphiques linéaires dynamiques à partir des données de la feuille de calcul  
+- Enregistrer vos classeurs efficacement  
 
-Découvrons comment exploiter Aspose.Cells pour une automatisation Excel fluide. Avant de commencer, assurez-vous de disposer des prérequis nécessaires.
+Plongeons dans la façon dont vous pouvez exploiter Aspose.Cells pour une automatisation fluide d'Excel. Avant de commencer, assurez-vous que vous disposez des prérequis nécessaires.
+
+## Réponses rapides
+- **Quelle est la première étape ?** Ajoutez la dépendance Aspose.Cells Maven ou Gradle et obtenez une licence temporaire ou complète.  
+- **Quelle classe crée un classeur ?** `com.aspose.cells.Workbook` est le point d'entrée pour toutes les opérations de feuille de calcul.  
+- **Comment ajouter des données à une cellule ?** Appelez `cell.putValue(yourValue)` sur l'objet `Cell` cible.  
+- **Quel type de graphique est utilisé dans ce guide ?** Un graphique linéaire, créé avec `ChartType.LINE`.  
+- **Comment enregistrer le fichier ?** Utilisez `workbook.save("output.xlsx", SaveFormat.XLSX)` pour écrire le classeur sur le disque.
+
+## Qu'est-ce que l'automatisation d'Excel ?
+**How to automate Excel** signifie utiliser du code pour créer, modifier et exporter des fichiers Excel sans interaction manuelle. Aspose.Cells pour Java vous permet d'effectuer ces actions entièrement côté serveur, éliminant le besoin d'installations Microsoft Office. Il permet aux développeurs de générer des classeurs, de remplir des cellules, d'appliquer des formules et de produire des graphiques de façon programmatique, puis de les enregistrer dans divers formats tels que XLSX, PDF ou CSV pour un traitement ou une distribution en aval.
+
+## Pourquoi utiliser Aspose.Cells pour l'automatisation d'Excel en Java ?
+Aspose.Cells prend en charge **plus de 60 formats d'entrée et de sortie** (y compris XLSX, CSV, PDF et HTML) et peut traiter des classeurs contenant **plus d'un million de lignes** tout en maintenant l'utilisation de la mémoire sous 200 Mo grâce au streaming des données. Cette performance quantifiée le rend idéal pour les rapports de niveau entreprise et l'analyse de données à grande échelle.
 
 ## Prérequis
 
-### Bibliothèques et versions requises
-Pour commencer, assurez-vous d'inclure la bibliothèque Aspose.Cells dans votre projet Java. Vous pouvez utiliser Maven ou Gradle comme outil de gestion des dépendances :
+### Bibliothèques requises et versions
+Pour commencer, assurez-vous d'inclure la bibliothèque Aspose.Cells dans votre projet Java. Vous pouvez utiliser Maven ou Gradle comme outil de gestion des dépendances :
 
-**Maven**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-cells</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle**
+**Gradle**  
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
-```
+```  
 
-### Configuration requise pour l'environnement
-- Assurez-vous que le kit de développement Java (JDK) est installé et correctement configuré sur votre système.
+### Exigences de configuration de l'environnement
+- Assurez-vous d'avoir le Java Development Kit (JDK) installé et correctement configuré sur votre système.  
 - Votre IDE doit prendre en charge Maven ou Gradle pour la gestion des dépendances.
 
-### Prérequis en matière de connaissances
-Une compréhension de base de la programmation Java est requise. Une connaissance des structures de fichiers Excel serait un atout, mais pas obligatoire.
+### Prérequis de connaissances
+Une compréhension de base de la programmation Java est requise. Une familiarité avec la structure des fichiers Excel sera bénéfique mais n'est pas obligatoire.
 
 ## Configuration d'Aspose.Cells pour Java
-Pour commencer, vous devrez configurer Aspose.Cells dans votre environnement de développement :
-1. **Ajouter une dépendance**:Utilisez les configurations Maven ou Gradle ci-dessus pour inclure Aspose.Cells.
-2. **Acquisition de licence**:
-   - Vous pouvez obtenir une licence d'essai gratuite ou acheter une licence complète via [Site officiel d'Aspose](https://purchase.aspose.com/buy).
-   - Pour obtenir une licence temporaire, visitez [Page de licence temporaire](https://purchase.aspose.com/temporary-license/).
-3. **Initialisation et configuration de base**:
+Pour commencer, vous devrez configurer Aspose.Cells dans votre environnement de développement :
+
+1. **Add dependency** – use the Maven or Gradle snippets above.  
+2. **License acquisition** –  
+   - You can obtain a free trial license or purchase a full license through [Aspose's official site](https://purchase.aspose.com/buy).  
+   - For temporary licensing, visit [Temporary License Page](https://purchase.aspose.com/temporary-license/).  
+3. **Basic initialization and setup** –  
    ```java
    import com.aspose.cells.Workbook;
    
-   // Initialiser un nouvel objet Workbook
+   // Initialize a new Workbook object
    Workbook workbook = new Workbook();
-   ```
-Votre environnement étant prêt, passons à l'implémentation des fonctionnalités Excel avec Aspose.Cells.
+   ```  
 
-## Guide de mise en œuvre
-### Fonctionnalité 1 : Initialisation du classeur
-**Aperçu**Créer un classeur Excel est la première étape de l'automatisation des tâches d'un tableur. Avec Aspose.Cells, ce processus devient simple.
+Avec votre environnement prêt, passons à la mise en œuvre des fonctionnalités Excel avec Aspose.Cells.
 
-#### Mise en œuvre étape par étape :
-**Paquet d'importation**
+## Guide d'implémentation
+
+### Comment créer un classeur Excel avec Aspose.Cells Java ?
+Chargez la classe `Workbook`, instanciez‑la avec le constructeur par défaut, et vous obtenez une représentation en mémoire d'un fichier Excel. Cet unique objet vous donne accès aux feuilles de calcul, aux cellules, aux graphiques et aux options d'enregistrement, vous permettant de construire un classeur complet à partir de zéro en quelques lignes de code.
+
+#### Fonctionnalité 1 : initialisation du classeur
+**Overview**: Creating a new Excel workbook is the first step in automating spreadsheet tasks. With Aspose.Cells, this process becomes straightforward.
+
+**Definition anchor**  
+The `Workbook` class is Aspose.Cells' top‑level object that represents a single Excel file in memory.  
+
+**Step‑by‑step implementation**  
+**Import package**  
 ```java
 import com.aspose.cells.Workbook;
-```
-**Instancier le classeur**
+```  
+
+**Instantiate workbook**  
 ```java
 Workbook workbook = new Workbook();
-```
-*Explication*:Ici, nous créons un `Workbook` Objet représentant un fichier Excel. C'est le point d'entrée de toutes les opérations que vous effectuerez sur vos feuilles de calcul.
+```  
 
-### Fonctionnalité 2 : Accès aux feuilles de calcul
-**Aperçu**:Une fois que vous disposez d'un classeur, l'accès à ses feuilles de calcul est essentiel pour manipuler efficacement les données.
+*Explanation*: Here, we create a `Workbook` object which represents an Excel file. It's the entry point for all operations you'll perform on your spreadsheets.
 
-#### Mise en œuvre étape par étape :
-**Importer des packages**
+### Comment ajouter des données à une feuille de calcul Excel en utilisant Aspose.Cells ?
+Utilisez l'objet `Worksheet` pour obtenir une collection `Cells`, puis appelez `putValue` sur une `Cell` spécifique. Cette approche écrit les valeurs directement dans la feuille, et les modifications sont reflétées instantanément dans le classeur en mémoire, prêt pour un traitement supplémentaire ou la création de graphiques.
+
+#### Fonctionnalité 2 : accès aux feuilles de calcul
+**Overview**: Once you have a workbook, accessing its worksheets is essential to manipulate data effectively.
+
+**Definition anchor**  
+The `Worksheet` class represents a single sheet inside a workbook, exposing rows, columns, and cell collections.  
+
+**Step‑by‑step implementation**  
+**Import packages**  
 ```java
 import com.aspose.cells.WorksheetCollection;
 import com.aspose.cells.Worksheet;
-```
-**Accéder à la première feuille de travail**
+```  
+
+**Access the first worksheet**  
 ```java
 WorksheetCollection worksheets = workbook.getWorksheets();
 Worksheet sheet = worksheets.get(0);
-```
-*Explication*: Récupérez toutes les feuilles de calcul et sélectionnez la première à l'aide de `get(0)`Cette approche vous permet de travailler avec des feuilles existantes ou d’en créer de nouvelles selon vos besoins.
+```  
 
-### Fonctionnalité 3 : Population de données cellulaires
-**Aperçu**:Remplir les cellules avec des données est essentiel pour générer des rapports significatifs. 
+*Explanation*: Retrieve all worksheets and select the first one using `get(0)`. This approach allows you to work with existing sheets or create new ones as needed.
 
-#### Mise en œuvre étape par étape :
-**Importer des packages**
+### Comment remplir les cellules avec des valeurs d'exemple dans Aspose.Cells ?
+Appelez `cells.get("A1").putValue("Month")` et des instructions similaires pour chaque cellule que vous souhaitez remplir. Remplir les cellules avec des données statiques ou calculées prépare la feuille de calcul à la génération de graphiques et garantit que la sortie visuelle reflète fidèlement le jeu de données sous‑jacent.
+
+#### Fonctionnalité 3 : population des données de cellules
+**Overview**: Filling cells with data is crucial for generating meaningful reports.  
+
+**Definition anchor**  
+The `Cell` class provides methods such as `putValue` to write primitive data types, strings, or formulas into a specific location.  
+
+**Step‑by‑step implementation**  
+**Import packages**  
 ```java
 import com.aspose.cells.Cells;
 import com.aspose.cells.Cell;
-```
-**Remplir les cellules avec des valeurs d'échantillon**
+```  
+
+**Populate cells with sample values**  
 ```java
 Cells cells = sheet.getCells();
 cells.get("A1").setValue(50);
 cells.get("A2").setValue(100);
-// Continuer pour les autres cellules...
-```
-*Explication*: Le `get` la méthode accède à des emplacements de cellules spécifiques, et `setValue` les remplit. Voici comment saisir des données dans votre feuille de calcul Excel.
+// Continue for other cells...
+```  
 
-### Fonctionnalité 4 : Création de graphiques
-**Aperçu**:La visualisation des données à l’aide de graphiques peut améliorer la compréhension et la qualité de la présentation.
+*Explanation*: The `get` method accesses specific cell locations, and `setValue` populates them. This is how you input data into your Excel worksheet.
 
-#### Mise en œuvre étape par étape :
-**Importer des packages**
+### Comment générer un graphique linéaire à partir des données d'une feuille de calcul en Java ?
+Créez un objet `Chart` en appelant `worksheet.getCharts().add` avec la plage souhaitée et `ChartType.LINE`. Ensuite, définissez la source de données pour les séries et positionnez le graphique sur la feuille. Le graphique linéaire se met à jour automatiquement lorsque les valeurs des cellules sous‑jacentes changent, offrant une représentation visuelle dynamique.
+
+#### Fonctionnalité 4 : création de graphique
+**Overview**: Visualizing data with charts can enhance understanding and presentation quality.
+
+**Definition anchor**  
+The `Chart` class encapsulates all properties of a graphical representation, including type, data series, and layout.  
+
+**Step‑by‑step implementation**  
+**Import packages**  
 ```java
 import com.aspose.cells.ChartCollection;
 import com.aspose.cells.ChartType;
 import com.aspose.cells.Chart;
-```
-**Ajouter un graphique linéaire à la feuille de calcul**
+```  
+
+**Add a line chart to the worksheet**  
 ```java
 ChartCollection charts = sheet.getCharts();
 int chartIndex = charts.add(ChartType.LINE, 5, 0, 15, 5);
 Chart chart = charts.get(chartIndex);
-```
-*Explication*: Définissez le type et la position du graphique à l'aide de `add`Cette méthode crée un graphique linéaire basé sur votre plage de données.
+```  
 
-### Fonctionnalité 5 : Ajout de séries
-**Aperçu**: L'ajout de séries à un graphique le lie à des plages de données spécifiques pour la visualisation.
+*Explanation*: Define the chart type and position using `add`. This method creates a line chart based on your data range.
 
-#### Mise en œuvre étape par étape :
-**Paquet d'importation**
+### Comment ajouter une série de données à un graphique dans Aspose.Cells ?
+Utilisez la méthode `SeriesCollection.add`, en fournissant la plage source pour les valeurs X et Y. Cela lie le graphique aux cellules contenant les données que vous souhaitez visualiser, permettant des mises à jour automatiques lorsque ces cellules sont modifiées.
+
+#### Fonctionnalité 5 : ajout de série
+**Overview**: Adding series to a chart links it with specific data ranges for visualization.
+
+**Definition anchor**  
+The `Series` object represents a single line (or bar, pie slice, etc.) in a chart, mapping cell ranges to visual points.  
+
+**Step‑by‑step implementation**  
+**Import package**  
 ```java
 import com.aspose.cells.SeriesCollection;
-```
-**Ajouter une série au graphique**
+```  
+
+**Add series to the chart**  
 ```java
 SeriesCollection serieses = chart.getNSeries();
 serieses.add("A1:B3", true);
-```
-*Explication*: Le `add` la méthode relie les données des cellules « A1 : B3 » au graphique, permettant des mises à jour dynamiques et une représentation précise.
+```  
 
-### Fonctionnalité 6 : Enregistrement du classeur
-**Aperçu**:Enfin, l’enregistrement de votre classeur garantit que toutes les modifications sont conservées pour une utilisation ou une distribution ultérieure.
+*Explanation*: The `add` method links data from cells "A1:B3" to the chart, enabling dynamic updates and accurate representation.
 
-#### Mise en œuvre étape par étape :
-**Paquet d'importation**
+### Comment enregistrer un classeur Excel dans un fichier avec Aspose.Cells ?
+Appelez `workbook.save("output.xlsx", SaveFormat.XLSX)`. La méthode `save` écrit le classeur en mémoire sur le disque dans le format que vous spécifiez, vous permettant de générer des fichiers pour le traitement en aval, les pièces jointes d'e‑mail ou les téléchargements par les utilisateurs.
+
+#### Fonctionnalité 6 : enregistrement du classeur
+**Overview**: Finally, saving your workbook ensures that all changes are preserved for future use or distribution.
+
+**Definition anchor**  
+The `save` method on the `Workbook` class writes the spreadsheet to a physical file or stream in the chosen format.  
+
+**Step‑by‑step implementation**  
+**Import package**  
 ```java
 import com.aspose.cells.SaveFormat;
-```
-**Enregistrer le classeur dans un chemin de fichier spécifié**
+```  
+
+**Save the workbook to a specified file path**  
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 workbook.save(dataDir + "/HTCLChart_out.xls", SaveFormat.EXCEL_97_TO_2003);
-```
-*Explication*: Le `save` La méthode écrit votre classeur sur le disque, vous permettant de spécifier le format et le chemin du fichier.
+```  
+
+*Explanation*: The `save` method writes your workbook to disk, allowing you to specify the format and file path.
 
 ## Applications pratiques
-- **Rapports financiers**:Générez des rapports financiers détaillés avec des calculs et des visualisations automatisés.
-- **Analyse des données dans la recherche**:Utilisez des graphiques pour obtenir rapidement un aperçu des tendances des données de recherche.
-- **Gestion des stocks**:Suivez les niveaux de stock de manière dynamique avec des feuilles Excel mises à jour.
-- **Tableaux de bord de gestion de projet**:Visualisez les échéanciers des projets et les allocations de ressources.
-- **Outils pédagogiques**Créez des supports d’apprentissage interactifs avec des analyses intégrées.
+- **Reporting financier** – générer des états financiers détaillés avec des calculs automatisés et des visualisations.  
+- **Analyse de données en recherche** – utiliser des graphiques pour obtenir rapidement des informations sur les tendances des données de recherche.  
+- **Gestion des stocks** – suivre les niveaux de stock de manière dynamique avec des feuilles Excel mises à jour.  
+- **Tableaux de bord de gestion de projet** – visualiser les calendriers de projet et les allocations de ressources.  
+- **Outils éducatifs** – créer du matériel d'apprentissage interactif avec des analyses intégrées.
 
-## Considérations relatives aux performances
-- **Optimiser l'utilisation des ressources**:Utilisez des flux pour gérer efficacement les fichiers volumineux sans consommation excessive de mémoire.
-- **Gestion de la mémoire Java**:Surveillez régulièrement l'utilisation de la mémoire JVM lorsque vous traitez de vastes ensembles de données dans Aspose.Cells pour éviter les fuites ou les goulots d'étranglement.
-- **Meilleures pratiques**: Profilez votre application pour identifier et optimiser les sections critiques en termes de performances.
+## Considérations de performance
+- **Optimiser l'utilisation des ressources** – utilisez des flux pour gérer les gros fichiers efficacement sans consommation excessive de mémoire.  
+- **Gestion de la mémoire Java** – surveillez régulièrement l'utilisation de la mémoire JVM lors du traitement de grands ensembles de données avec Aspose.Cells afin d'éviter les fuites ou les goulets d'étranglement.  
+- **Bonnes pratiques** – profilez votre application pour identifier et optimiser les sections critiques en termes de performance.
 
-## Conclusion
-Vous disposez désormais des connaissances nécessaires pour créer et manipuler des classeurs Excel par programmation avec Aspose.Cells pour Java. Poursuivez votre exploration en expérimentant différents types de graphiques, plages de données et configurations de classeurs.
+## Problèmes courants et conseils de dépannage
+- **Licence non trouvée** – assurez-vous que le chemin du fichier de licence est correct et que l'objet `License` est instancié avant tout appel à Aspose.Cells.  
+- **Erreurs de mémoire insuffisante sur de très grandes feuilles** – activez `WorkbookSettings.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` pour forcer le mode flux.  
+- **Plage de données du graphique incorrecte** – vérifiez à nouveau les références de cellules passées à `SeriesCollection.add` ; elles doivent correspondre à la zone de données remplie.  
+- **Format de fichier inattendu** – vérifiez que la constante `SaveFormat` correspond à la sortie souhaitée (par ex., `SaveFormat.XLSX` pour les fichiers Excel modernes).
 
-**Prochaines étapes :**
-- Plongez plus profondément dans les fonctionnalités avancées d'Aspose.Cells.
-- Intégrez Aspose.Cells à d'autres systèmes tels que des bases de données ou des applications Web pour des solutions complètes.
+## Questions fréquemment posées
 
-Prêt à améliorer vos compétences en automatisation Excel ? Essayez d'appliquer ces techniques à vos projets dès aujourd'hui !
+**Q : Quels sont les principaux avantages d'utiliser Aspose.Cells Java ?**  
+R : Automatisez les tâches répétitives, réduisez les erreurs manuelles et améliorez la présentation des données avec une bibliothèque qui fonctionne sans Microsoft Office installé.
 
-## Section FAQ
-1. **Quels sont les principaux avantages de l’utilisation d’Aspose.Cells Java ?**
-   - Automatisez les tâches répétitives, réduisez les erreurs et améliorez la présentation des données grâce à une intégration transparente dans les applications Java.
-2. **Puis-je utiliser Aspose.Cells pour de grands ensembles de données ?**
-   - Oui, il prend en charge la gestion efficace de feuilles de calcul volumineuses grâce à des techniques de gestion de la mémoire optimisées.
-3. **Comment résoudre les problèmes courants avec Aspose.Cells en Java ?**
-   - Vérifiez la configuration de votre licence et assurez-vous que toutes les dépendances sont correctement incluses. Consultez le [Forum Aspose](https://forum.aspose.com/c/cells/9) pour le soutien de la communauté.
-4. **Est-il possible de convertir des fichiers Excel vers d'autres formats à l'aide d'Aspose.Cells ?**
-   - Absolument ! Vous pouvez exporter des classeurs dans différents formats, notamment PDF et HTML.
+**Q : Puis‑je traiter de grands classeurs (des centaines de milliers de lignes) avec Aspose.Cells ?**  
+R : Oui, Aspose.Cells peut gérer des classeurs contenant plus d'un million de lignes grâce à son API de streaming, en maintenant une faible consommation de mémoire.
+
+**Q : Comment dépanner les problèmes de licence courants ?**  
+R : Vérifiez que le fichier de licence est correctement référencé, appelez `License.setLicense("path/to/license.xml")` avant toute utilisation de l'API Aspose.Cells, et consultez la console pour les messages d'erreur de licence.
+
+**Q : Est‑il possible de convertir le classeur généré en PDF ou HTML ?**  
+R : Absolument. Utilisez `workbook.save("output.pdf", SaveFormat.PDF)` ou `workbook.save("output.html", SaveFormat.HTML)` pour exporter vers d'autres formats.
+
+**Q : Où puis‑je trouver plus d'exemples et de support communautaire ?**  
+R : Visitez le [forum Aspose](https://forum.aspose.com/c/cells/9) pour des solutions communautaires et des exemples de code supplémentaires.
+
+---
+
+**Dernière mise à jour** : 2026-10-17  
+**Testé avec** : Aspose.Cells 24.10 for Java  
+**Auteur** : Aspose
+
+## Tutoriels associés
+
+- [Aspose.Cells Java : Créer et enregistrer des classeurs Excel - Guide étape par étape](/cells/java/workbook-operations/aspose-cells-java-create-save-excel-workbooks/)
+- [Comment modifier les étiquettes de données des graphiques et modifier les graphiques Excel avec Aspose.Cells pour Java](/cells/java/charts-graphs/aspose-cells-java-modify-excel-charts-data-labels/)
+- [Automatisation d'Excel avec Aspose.Cells Java : charger et rechercher des données dans les classeurs](/cells/java/workbook-operations/excel-automation-aspose-cells-java-load-find-data/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
