@@ -58,6 +58,8 @@
 Μάθετε πώς να εξάγετε Συγκεντρωτικούς Πίνακες σε μορφή PNG χρησιμοποιώντας το Aspose.Cells για Java.
 ### [Πώς να αντιγράψετε Συγκεντρωτικό Πίνακα σε Java με Aspose.Cells](./how-to-copy-pivot-table-in-java-using-aspose-cells/)
 Μάθετε πώς να αντιγράψετε έναν Συγκεντρωτικό Πίνακα σε Excel χρησιμοποιώντας το Aspose.Cells για Java.
+### [Αντιγραφή Συγκεντρωτικού Πίνακα μεταξύ βιβλιοθηκών – Οδηγός Java βήμα προς βήμα](./copy-pivot-table-between-workbooks-step-by-step-java-guide/)
+Μάθετε πώς να αντιγράψετε Συγκεντρωτικούς Πίνακες από ένα βιβλίο εργασίας σε άλλο χρησιμοποιώντας Aspose.Cells για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
