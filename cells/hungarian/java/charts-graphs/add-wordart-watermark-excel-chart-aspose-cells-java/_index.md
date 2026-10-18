@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-08"
-"description": "Ismerd meg, hogyan adhatsz hozzá márkás WordArt vízjelet Excel-diagramjaidhoz az Aspose.Cells könyvtár segítségével Java nyelven, amivel fokozhatod a biztonságot és az esztétikát is."
-"title": "Hogyan adhatunk hozzá WordArt vízjelet egy Excel-diagramhoz az Aspose.Cells for Java használatával"
-"url": "/hu/java/charts-graphs/add-wordart-watermark-excel-chart-aspose-cells-java/"
-"weight": 1
+date: '2026-03-28'
+description: Tanulja meg, hogyan adhat hozzá bizalmas vízjelet az Excel-diagramokhoz
+  az Aspose.Cells for Java használatával, beleértve az Aspose Cells Maven függőséget
+  és a WordArt stílusát.
+keywords:
+- Aspose.Cells Java
+- Excel chart watermark
+- WordArt in Excel
+title: Hogyan adjon hozzá bizalmas vízjelet az Excel-diagramhoz az Aspose.Cells for
+  Java segítségével
+url: /hu/java/charts-graphs/add-wordart-watermark-excel-chart-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,36 +19,49 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Hogyan adhatunk hozzá WordArt vízjelet egy Excel-diagramhoz az Aspose.Cells for Java használatával
+# Hogyan adjunk hozzá bizalmas vízjelet Excel diagramhoz az Aspose.Cells for Java használatával
 
 ## Bevezetés
 
-Javítsa Excel-diagramjait egy márkás WordArt-vízjel hozzáadásával. Ez a megközelítés nemcsak eleganciát kölcsönöz, hanem olyan érzékeny információkat is véd, mint a „BIZALMAS”. Kövesse ezt az oktatóanyagot, hogy megtudja, hogyan valósíthatja meg ezeket a funkciókat az Aspose.Cells könyvtár segítségével Java nyelven.
+Ebben az oktatóanyagban megtanulja, **hogyan adjon hozzá bizalmas vízjelet Excel** diagramokhoz az Aspose.Cells for Java használatával. A WordArt vízjel nem csak erősíti a márkát, hanem a bizalmasságot is jelzi – tökéletes a „CONFIDENTIAL” megjelölésű jelentésekhez. Végigvezetjük a teljes folyamaton, a Maven függőség beállításától a végső munkafüzet mentéséig.
 
-**Amit tanulni fogsz:**
-- Hogyan adhatunk hozzá WordArt vízjelet Excel-diagramokhoz az Aspose.Cells for Java használatával.
-- Technikák a diagram vízjeleinek átlátszóságának és vonalformátumainak beállítására.
-- Ajánlott eljárások a módosított munkafüzet mentéséhez.
+**Amit megtanul**
+- Hogyan adjon hozzá WordArt vízjelet Excel diagramokhoz az Aspose.Cells for Java használatával.  
+- Technika a diagram vízjelek átlátszóságának és vonalformátumának beállításához.  
+- Legjobb gyakorlatok a módosított munkafüzet mentéséhez.
+
+## Gyors válaszok
+- **Mi a fő kulcsszó jelentése?** A bizalmas vízjel hozzáadása egy Excel diagramhoz megvédi az érzékeny adatokat.  
+- **Melyik könyvtár szükséges?** Aspose.Cells for Java (lásd a Maven függőséget).  
+- **Testreszabhatom a szövegeffektet?** Igen, a `MsoPresetTextEffect` beállítások használatával.  
+- **Szükséges licenc?** A próba verzió teszteléshez működik; a termeléshez állandó licenc szükséges.  
+- **Ez befolyásolja a teljesítményt?** Minimális hatás; csak néhány extra objektum jön létre.
+
+## Mi az a bizalmas vízjel az Excelben?
+A bizalmas vízjel egy félig átlátszó szöveg vagy grafika, amely a diagram adatai mögé kerül, jelezve, hogy a tartalom érzékeny. Nyomtatásban és képernyőn is látható marad, anélkül, hogy eltakarná a mögöttes adatokat.
+
+## Miért használja az Aspose.Cells-et vízjel hozzáadásához?
+Az Aspose.Cells gazdag API-t biztosít az Excel fájlok manipulálásához Microsoft Office nélkül. Támogatja a WordArt alakzatokat, a finom átlátszóság‑szabályozást, és minden Java platformon működik.
 
 ## Előfeltételek
-Kezdés előtt győződjön meg arról, hogy rendelkezik a következőkkel:
+- Java Development Kit (JDK) telepítve és konfigurálva.  
+- IntelliJ IDEA vagy Eclipse típusú IDE.  
+- Alapvető Java ismeretek és Maven/Gradle ismerete.
 
-### Kötelező könyvtárak
-Illeszd be az Aspose.Cells könyvtárat a projektedbe Maven vagy Gradle használatával, az alábbiak szerint.
+### Szükséges könyvtárak
+Az Aspose.Cells könyvtárat a projektbe kell felvenni Maven vagy Gradle segítségével, ahogyan alább látható.
 
-### Környezeti beállítási követelmények
-- A Java fejlesztőkészlet (JDK) telepítve és konfigurálva van.
-- Egy IDE, mint például az IntelliJ IDEA vagy az Eclipse fejlesztéshez.
+### Környezet beállítási követelmények
+- Java Development Kit (JDK) telepítve és konfigurálva.  
+- IntelliJ IDEA vagy Eclipse típusú IDE a fejlesztéshez.
 
-### Ismereti előfeltételek
-Ajánlott a Java programozás alapvető ismerete, az Excel fájlok Aspose.Cells segítségével történő kezelése, valamint a Maven/Gradle build eszközök ismerete.
+### Tudás előfeltételek
+Alapvető Java programozási ismeretek, az Aspose.Cells‑sel történő Excel fájlkezelés, valamint a Maven/Gradle építőeszközök ismerete ajánlott.
 
-## Az Aspose.Cells beállítása Java-hoz
-Az Aspose.Cells használatának megkezdéséhez add hozzá a projektedhez.
+## Aspose Cells Maven függőség
+Az Aspose.Cells használatának megkezdéséhez adja hozzá a projektjéhez.
 
-**Szakértő:**
-Adja hozzá a következő függőséget a `pom.xml`:
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -49,99 +69,126 @@ Adja hozzá a következő függőséget a `pom.xml`:
     <version>25.3</version>
 </dependency>
 ```
-**Fokozat:**
-Írd be ezt a sort a `build.gradle` fájl:
+
+**Gradle:**  
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Licencszerzés
-Szerezzen be licencet az Aspose vásárlási lehetőségein keresztül, vagy kezdje egy ingyenes próbaverzióval az ideiglenes licenc letöltésével a weboldalukról. Inicializálja a beállításokat az alábbiak szerint:
+## Licenc beszerzése
+Szerezzen licencet az Aspose vásárlási lehetőségein keresztül, vagy kezdje egy ingyenes próbával, a weboldalukról letölthető ideiglenes licenc letöltésével. Inicializálja a beállítást a következő módon:
 ```java
-// Töltsön be egy meglévő munkafüzetet, és alkalmazzon rá licencet, ha van ilyen.
+// Load an existing workbook and apply a license if available.
 Workbook workbook = new Workbook("path_to_license_file");
 ```
 
-## Megvalósítási útmutató
-Bontsuk le a megvalósítást világos részekre.
+## Implementációs útmutató
+Vessük szét a megvalósítást világos szakaszokra.
 
 ### WordArt vízjel hozzáadása diagramhoz
-1. **Meglévő Excel-fájl megnyitása**
-   Töltsd be az Excel fájlt oda, ahová a vízjelet szeretnéd hozzáadni:
-   ```java
-   String dataDir = Utils.getSharedDataDir(AddWordArtWatermarkToChart.class) + "TechnicalArticles/";
-   Workbook workbook = new Workbook(dataDir + "sample.xlsx");
-   ```
-2. **Hozzáférés a diagramhoz**
-   Szerezd meg a módosítani kívánt első munkalapról származó diagramot:
-   ```java
-   Chart chart = workbook.getWorksheets().get(0).getCharts().get(0);
-   ```
-3. **WordArt alakzat hozzáadása**
-   Szúrjon be egy új WordArt alakzatot a diagram nyomtatási területére:
-   ```java
-   Shape wordart = chart.getShapes().addTextEffectInChart(
-       MsoPresetTextEffect.TEXT_EFFECT_1,
-       "CONFIDENTIAL",
-       "Arial Black", 66, false, false, 
-       1200, 500, 2000, 3000);
-   ```
-4. **Kitöltés és vonalformátum konfigurálása**
-   Állítsd be az átlátszóságot, hogy a vízjel finoman látszódjon:
-   ```java
-   // Átlátszóság konfigurálása.
-   FillFormat wordArtFormat = wordart.getFill();
-   wordArtFormat.setTransparency(0.9);
+1. **Open an Existing Excel File**  
+   Töltse be azt az Excel fájlt, amelyhez a vízjelet szeretné hozzáadni:  
+```java
+String dataDir = Utils.getSharedDataDir(AddWordArtWatermarkToChart.class) + "TechnicalArticles/";
+Workbook workbook = new Workbook(dataDir + "sample.xlsx");
+```
 
-   // A vonalformátum láthatatlanná tétele.
-   LineFormat lineFormat = wordart.getLine();
-   lineFormat.setWeight(0.0);
-   ```
-5. **A munkafüzet mentése**
-   Mentse el a módosításokat egy új fájlba:
-   ```java
-   workbook.save(dataDir + "AWArtWToC_out.xlsx");
-   ```
+2. **Access the Chart**  
+   Szerezze meg a diagramot az első munkalapról, amelyet módosítani kíván:  
+```java
+Chart chart = workbook.getWorksheets().get(0).getCharts().get(0);
+```
+
+3. **Add a WordArt Shape**  
+   Helyezzen be egy új WordArt alakzatot a diagram ábrázoló területére:  
+```java
+Shape wordart = chart.getShapes().addTextEffectInChart(
+    MsoPresetTextEffect.TEXT_EFFECT_1,
+    "CONFIDENTIAL",
+    "Arial Black", 66, false, false, 
+    1200, 500, 2000, 3000);
+```
+
+4. **Configure Fill and Line Format**  
+   Állítsa be az átlátszóságot, hogy a vízjel finom legyen:  
+```java
+// Configure transparency.
+FillFormat wordArtFormat = wordart.getFill();
+wordArtFormat.setTransparency(0.9);
+
+// Make line format invisible.
+LineFormat lineFormat = wordart.getLine();
+lineFormat.setWeight(0.0);
+```
+
+5. **Save the Workbook**  
+   Mentse a módosításokat egy új fájlba:  
+```java
+workbook.save(dataDir + "AWArtWToC_out.xlsx");
+```
 
 ### Hibaelhárítási tippek
-- Győződjön meg arról, hogy az összes elérési út helyesen van megadva a fájlok betöltéséhez és mentéséhez.
-- Ellenőrizze, hogy rendelkezik-e olvasási/írási engedéllyel a könyvtárban.
-- Ellenőrizd az Aspose.Cells verziójának kompatibilitását a Java környezeteddel.
+- Győződjön meg róla, hogy az összes útvonal helyesen van megadva a fájlok betöltéséhez és mentéséhez.  
+- Ellenőrizze, hogy van‑e írás‑olvasási jogosultsága a könyvtárban.  
+- Ellenőrizze az Aspose.Cells verzió kompatibilitását a Java környezetével.
 
 ## Gyakorlati alkalmazások
-WordArt vízjel hozzáadása a következő esetekben lehet előnyös:
-1. **Márkaépítés**Használjon céges logókat vagy szlogeneket minden diagramon az egységes márkaépítés érdekében.
-2. **Titoktartás**: Jelölje meg a bizalmas jelentéseket a jogosulatlan megosztás megakadályozása érdekében.
-3. **Verziókövetés**: A verziószámok szerepeltetése a dokumentum jóváhagyási szakaszaiban.
+A WordArt vízjel hozzáadása hasznos lehet a következő helyzetekben:
+1. **Márkázás** – Használjon vállalati logókat vagy szlogeneket minden diagramon a következetes márkázás érdekében.  
+2. **Bizalmasság** – Jelölje meg a bizalmas jelentéseket a jogosulatlan megosztás megelőzése érdekében.  
+3. **Verziókezelés** – Tartalmazzon verziószámokat a dokumentum jóváhagyási szakaszokban.
 
-## Teljesítménybeli szempontok
+## Teljesítményfontosságú szempontok
 Az Aspose.Cells használatakor vegye figyelembe:
-- Hatékony memóriakezelés az objektumok eltávolításával, amikor már nincs rájuk szükség.
-- A teljesítmény optimalizálása a fájl I/O műveletek lehetőség szerinti minimalizálásával.
-- Többszálú feldolgozás használata nagy munkafüzetek vagy összetett műveletek kezeléséhez.
+- Hatékony memória‑kezelés az objektumok felszabadításával, ha már nincs rájuk szükség.  
+- Teljesítmény optimalizálása a fájl‑I/O műveletek minimalizálásával, ahol csak lehetséges.  
+- Többszálú feldolgozás nagy munkafüzetek vagy összetett manipulációk esetén.
 
 ## Következtetés
-Most már funkcionálisan is megértetted, hogyan adhatsz hozzá WordArt vízjelet egy Excel-diagramhoz az Aspose.Cells for Java segítségével. Ez a funkció fokozza a vizuális vonzerőt és biztonságot nyújt a dokumentumoknak. További felfedezéshez kísérletezz különböző szövegeffektusokkal, vagy integráld ezt a funkciót nagyobb alkalmazásokba.
+Most már funkcionálisan érti, **hogyan adjon hozzá bizalmas vízjelet Excel** diagramhoz az Aspose.Cells for Java használatával. Ez a funkció növeli a vizuális vonzerőt és egy biztonsági réteget ad a dokumentumokhoz. További felfedezéshez kísérletezzen különböző szövegeffektusokkal, vagy integrálja ezt a funkciót nagyobb alkalmazásokba.
 
-## GYIK szekció
-1. **Mi az Aspose.Cells?**
-   - Egy hatékony könyvtár Excel fájlok kezeléséhez Java nyelven.
-2. **Hogyan kezdjem el az Aspose.Cells használatát?**
-   - Telepítsd Maven/Gradle-n keresztül, és állíts be licencet, ha szükséges.
-3. **Hozzáadhatok különböző szövegeffektusokat a vízjelhez?**
-   - Igen, fedezd fel `MsoPresetTextEffect` lehetőségek különböző stílusokhoz.
-4. **Milyen gyakori problémák merülnek fel az átlátszóság beállításakor?**
-   - Győződjön meg arról, hogy az átlátszósági szint 0 (átlátszatlan) és 1 (teljesen átlátszó) között van.
-5. **Hol találok további forrásokat az Aspose.Cells-szel kapcsolatban?**
-   - Látogassa meg a [dokumentáció](https://reference.aspose.com/cells/java/) átfogó útmutatókért.
+## GyIK szakasz
+1. **Mi az az Aspose.Cells?**  
+   - Egy erőteljes könyvtár Excel fájlok Java‑ban történő kezelésére.  
+2. **Hogyan kezdjek hozzá az Aspose.Cells használatához?**  
+   - Telepítse Maven/Gradle‑on keresztül, és állítson be licencet, ha szükséges.  
+3. **Hozzáadhatok különböző szövegeffektusokat a vízjelhez?**  
+   - Igen, a `MsoPresetTextEffect` opciókat használva különböző stílusok érhetők el.  
+4. **Mik a gyakori problémák az átlátszóság beállításakor?**  
+   - Győződjön meg róla, hogy az átlátszósági szint 0 (átlátszatlan) és 1 (teljesen átlátszó) között van.  
+5. **Hol találok további forrásokat az Aspose.Cells‑ről?**  
+   - Látogassa meg a [dokumentációt](https://reference.aspose.com/cells/java/) a részletes útmutatókért.
 
-## Erőforrás
+## Források
 - [Dokumentáció](https://reference.aspose.com/cells/java/)
 - [Legújabb verzió letöltése](https://releases.aspose.com/cells/java/)
 - [Licenc vásárlása](https://purchase.aspose.com/buy)
-- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
-- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+- [Ingyenes próba](https://releases.aspose.com/cells/java/)
+- [Ideiglenes licenc](https://purchase.aspose.com/temporary-license/)
 - [Támogatási fórum](https://forum.aspose.com/c/cells/9)
+
+## Gyakran Ismételt Kérdések
+
+**Q: Megjelenik-e a vízjel nyomtatott Excel lapokon?**  
+A: Igen, a WordArt alakzat a diagram része, és a diagram adatai mellett nyomtatódik.
+
+**Q: Alkalmazhatom-e automatikusan ugyanazt a vízjelet több diagramra?**  
+A: Iteráljon a `workbook.getWorksheets().get(i).getCharts()` elemen, és alkalmazza ugyanazokat a lépéseket minden diagramra.
+
+**Q: Lehet‑e változtatni a vízjel színét?**  
+A: Természetesen—használja a `wordArtFormat.getSolidFill().setColor(Color.getRGB(255,0,0))` kódot egy egyedi szín beállításához.
+
+**Q: Jelentősen megnő-e a fájlméret a vízjel hozzáadásával?**  
+A: A növekedés minimális, mivel csak egyetlen alakzat objektum kerül hozzáadásra.
+
+**Q: Hogyan távolíthatom el később a vízjelet?**  
+A: Keresse meg az alakzatot a neve vagy indexe alapján a `chart.getShapes()`‑ben, majd hívja a `shape.delete()` metódust.
+
+---
+
+**Utoljára frissítve:** 2026-03-28  
+**Tesztelve ezzel:** Aspose.Cells 25.3 for Java  
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

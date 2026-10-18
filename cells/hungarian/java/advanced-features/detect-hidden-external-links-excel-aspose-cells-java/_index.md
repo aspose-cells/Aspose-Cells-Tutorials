@@ -1,14 +1,15 @@
 ---
-date: '2025-12-29'
-description: Tanulja meg, hogyan észlelhet rejtett Excel hivatkozásokat, és kezelheti
-  az Excel adatforrásokat az Aspose.Cells for Java segítségével. Lépésről‑lépésre
-  útmutató az ellenőrzéshez és a munkafüzet integritásának biztosításához.
+date: '2026-05-03'
+description: Tanulja meg, hogyan találhat rejtett külső hivatkozásokat, és kezelheti
+  az Excel adatforrásokat az Aspose.Cells for Java segítségével. Lépésről lépésre
+  útmutató a munkafüzet integritásának ellenőrzéséhez.
 keywords:
-- detect hidden external links Excel
-- Aspose.Cells Java setup
-- audit data sources with Aspose.Cells
-title: Hogyan lehet észlelni a rejtett Excel hivatkozásokat a munkafüzetekben az Aspose.Cells
-  for Java használatával
+- find hidden external links
+- manage excel data sources
+- identify hidden excel references
+- detect hidden excel links
+title: Hogyan találjuk meg a rejtett külső hivatkozásokat Excel-munkafüzetekben az
+  Aspose.Cells for Java használatával
 url: /hu/java/advanced-features/detect-hidden-external-links-excel-aspose-cells-java/
 weight: 1
 ---
@@ -19,38 +20,38 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan észlelhetünk rejtett Excel hivatkozásokat a munkafüzetekben az Aspose.Cells for Java használatával
+# Hogyan találjunk rejtett külső hivatkozásokat Excel munkafüzetekben az Aspose.Cells for Java használatával
 
 ## Bevezetés
 
-A rejtett Excel hivatkozások észlelése elengedhetetlen, amikor **rejtett Excel hivatkozásokat** kell felderíteni, és a munkafüzeteket átláthatóvá és megbízhatóvá szeretnénk tenni. Akár pénzügyi modelleket auditál, megfelelőséget biztosít, vagy egyszerűen csak régi fájlokat takarít meg, minden külső hivatkozás – még a rejtettek is – ismerete védi az adatintegritást. Ebben az útmutatóban végigvezetünk az Aspose.Cells for Java beállításán, a munkafüzet betöltésén, és programozottan az összes rejtett külső hivatkozás azonosításán.
+A rejtett külső hivatkozások megtalálása egy Excel munkafüzetben elengedhetetlen, amikor **find hidden external links** kell, és átlátható, megbízható, auditálásra kész fájlokat szeretnél fenntartani. Akár pénzügyi modelleket vizsgálsz, akár szabályozási megfelelőséget biztosítasz, vagy örökölt táblázatokat tisztítasz, minden rejtett hivatkozás felfedezése védi az adatintegritást és megakadályozza a váratlan számítási hibákat. Ebben az útmutatóban végigvezetünk az Aspose.Cells for Java beállításán, a munkafüzet betöltésén, és a rejtett külső hivatkozások programozott azonosításán.
 
 ### Gyors válaszok
-- **Mit jelent a “detect hidden Excel links”?** Ez azt jelenti, hogy a munkafüzetet olyan külső hivatkozások után pásztázzuk, amelyek nem láthatók a felhasználói felületen.  
-- **Miért használjuk az Aspose.Cells-et?** Egy tisztán Java API-t biztosít, amely Microsoft Office telepítése nélkül működik.  
-- **Szükségem van licencre?** Egy ingyenes próba verzió elegendő az értékeléshez; a termeléshez állandó licenc szükséges.  
-- **Feldolgozhatok sok fájlt egyszerre?** Igen – fájlok felett ciklusba lépve újra felhasználhatja ugyanazt az észlelési logikát.  
-- **Mely Java verziók támogatottak?** Java 8 vagy újabb szükséges.
+- **Mit jelent a “find hidden external links”?** Ez azt jelenti, hogy a munkafüzetet átvizsgálja a külső hivatkozások után, amelyek nem láthatók az Excel felhasználói felületén.  
+- **Miért használjuk az Aspose.Cells‑t?** Ez egy tisztán Java API‑t biztosít, amely Microsoft Office telepítése nélkül működik.  
+- **Szükségem van licencre?** Az ingyenes próba verzió értékelésre használható; a termeléshez állandó licenc szükséges.  
+- **Feldolgozhatok sok fájlt egyszerre?** Igen – fájlokat ciklusban feldolgozhat, és újra felhasználhatja ugyanazt a detektálási logikát.  
+- **Mely Java verziók támogatottak?** Java 8 vagy újabb szükséges.  
 
-## Mi a rejtett Excel hivatkozások észlelése?
+## Mi a find hidden external links?
 
-Amikor egy Excel munkafüzet olyan képleteket tartalmaz, amelyek más fájlokból húznak adatot, ezek a hivatkozások *external links*‑ként tárolódnak. Egyes hivatkozások rejtettek lehetnek (nem láthatóként jelölve), de továbbra is befolyásolják a számításokat. Az észlelés segít a **Excel adatforrások kezelése** hatékonyan, és megakadályozza a váratlan adatváltozásokat.
+Amikor egy Excel munkafüzet olyan képleteket tartalmaz, amelyek más fájlokból húznak adatokat, ezek a hivatkozások *külső hivatkozásként* tárolódnak. Néhány ilyen hivatkozás rejtett lehet (láthatatlanként jelölve), de továbbra is befolyásolja a számításokat. Ezek felderítése segít **manage Excel data sources**, **identify hidden Excel references**, és megakadályozza a meglepetéseket, amikor a forrásfájlok változnak.
 
-## Miért használjuk az Aspose.Cells-et ehhez a feladathoz?
+## Miért használjuk az Aspose.Cells‑t ehhez a feladathoz?
 
-Az Aspose.Cells for Java a következőket kínálja:
+Aspose.Cells for Java kínál:
 
-- **Teljes kontroll** a munkafüzet objektumok felett, Excel telepítése nélkül.  
-- **Robusztus API** a külső hivatkozások felsorolásához és láthatóságuk lekérdezéséhez.  
-- **Magas teljesítmény** nagy munkafüzetek esetén, ami kötegelt auditok megvalósítását teszi lehetővé.  
+- **Full control** a munkafüzet objektumok felett, anélkül, hogy az Excel telepítve lenne.  
+- **Robust API** a külső hivatkozások felsorolásához és láthatóságuk lekérdezéséhez.  
+- **High performance** nagy munkafüzetekhez, lehetővé téve a kötegelt auditok elvégzését.  
 
-## Előfeltételek
+## Előkövetelmények
 
 - Aspose.Cells for Java 25.3 vagy újabb.  
-- Java 8 vagy újabb (IntelliJ IDEA, Eclipse, vagy bármely kedvenc IDE).  
+- Java 8 vagy újabb (IntelliJ IDEA, Eclipse, vagy bármelyik kedvenc IDE).  
 - Maven vagy Gradle a függőségkezeléshez.  
 
-## Aspose.Cells for Java beállítása
+## Az Aspose.Cells for Java beállítása
 
 ### Maven használata
 Adja hozzá a következőt a `pom.xml` fájlhoz:
@@ -69,12 +70,10 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 #### Licenc beszerzése
-
-Ingyenes próba licencet szerezhet az Aspose.Cells funkcióinak teszteléséhez, vagy teljes licencet vásárolhat a termeléshez. Ideiglenes licenc is elérhető, amely korlátozás nélkül felfedezheti a könyvtár képességeit. További részletekért látogasson el a [Aspose's Licensing Page](https://purchase.aspose.com/temporary-license/) oldalra.
+Ingyenes próba licencet szerezhet az Aspose.Cells funkciók teszteléséhez, vagy teljes licencet vásárolhat a termeléshez. Ideiglenes licenc is elérhető, amely lehetővé teszi a könyvtár képességeinek korlátok nélküli felfedezését. További részletekért látogassa meg a [Az Aspose licencoldala](https://purchase.aspose.com/temporary-license/) oldalt.
 
 #### Alap inicializálás
-
-Miután beállította a projektet az Aspose.Cells használatára, inicializálja a következő módon:
+Az Aspose.Cells-szal beállított projekt után inicializálja a következőképpen:
 ```java
 import com.aspose.cells.Workbook;
 
@@ -89,14 +88,13 @@ public class WorkbookSetup {
 }
 ```
 
-## Megvalósítási útmutató
+## Implementációs útmutató
 
 ### Rejtett külső hivatkozások észlelése
 
-Betöltünk egy munkafüzetet, lekérjük annak külső hivatkozás-gyűjteményét, és minden hivatkozás láthatósági állapotát ellenőrizzük.
+Betöltünk egy munkafüzetet, lekérjük a külső hivatkozások gyűjteményét, és megvizsgáljuk minden hivatkozás láthatósági állapotát.
 
 #### A munkafüzet betöltése
-
 Először győződjön meg arról, hogy hozzáfér a könyvtárhoz, ahol a munkafüzet található:
 ```java
 import com.aspose.cells.Workbook;
@@ -114,7 +112,6 @@ public class CheckWorkbookContainsHiddenExternalLinks {
 ```
 
 #### Külső hivatkozások elérése
-
 Miután a munkafüzet betöltődött, érje el a külső hivatkozások gyűjteményét:
 ```java
 import com.aspose.cells.ExternalLinkCollection;
@@ -129,9 +126,8 @@ public class CheckWorkbookContainsHiddenExternalLinks {
 }
 ```
 
-#### A hivatkozás láthatóságának ellenőrzése
-
-Iteráljon végig minden hivatkozáson, hogy meghatározza annak láthatósági állapotát:
+#### Hivatkozás láthatóságának ellenőrzése
+Iteráljon minden hivatkozáson, hogy meghatározza a láthatósági állapotát:
 ```java
 public class CheckWorkbookContainsHiddenExternalLinks {
     public static void main(String[] args) throws Exception {
@@ -149,70 +145,67 @@ public class CheckWorkbookContainsHiddenExternalLinks {
 ```
 
 **Magyarázat:**  
-- `links.get(i).getDataSource()` visszaadja a külső hivatkozás URL‑jét vagy fájlútvonalát.  
-- `links.get(i).isReferred()` megmutatja, hogy a munkafüzet ténylegesen használja‑e a hivatkozást bármely képletben.  
+- `links.get(i).getDataSource()` lekéri a külső hivatkozás URL‑jét vagy fájl útvonalát.  
+- `links.get(i).isReferred()` megmutatja, hogy a munkafüzet ténylegesen használja-e a hivatkozást bármely képletben.  
 - `links.get(i).isVisible()` jelzi, hogy a hivatkozás rejtett (`false`) vagy látható (`true`).  
 
 ### Hibaelhárítási tippek
-
-Gyakori problémák közé tartozik a helytelen fájlútvonal vagy hiányzó függőségek. Győződjön meg róla, hogy a projekt tartalmazza az összes szükséges Aspose.Cells JAR‑t, és ellenőrizze, hogy a munkafüzet útvonala pontos.
+Gyakori problémák közé tartozik a helytelen fájl útvonal vagy a hiányzó függőségek. Győződjön meg arról, hogy a projekt tartalmazza az összes szükséges Aspose.Cells JAR‑t, és ellenőrizze, hogy a munkafüzet útvonala pontos.
 
 ## Gyakorlati alkalmazások
 
-A rejtett Excel hivatkozások észlelése több szituációban is hasznos lehet:
+A rejtett külső hivatkozások észlelése több helyzetben is értékes lehet:
 
-1. **Adat auditálás:** Ellenőrizze, hogy a pénzügyi jelentésekben minden adatforrás fel van-e tüntetve.  
-2. **Megfelelőségi ellenőrzések:** Biztosítsa, hogy szabályozott dokumentumokban ne legyenek jogosulatlan vagy rejtett adatforrások.  
-3. **Integrációs projektek:** Validálja a külső hivatkozások integritását, mielőtt az Excel adatokat adatbázisokkal vagy API‑kkal szinkronizálná.  
+1. **Data Auditing:** Ellenőrizze, hogy a pénzügyi jelentésekben hivatkozott minden adatforrás nyilvántartásba került-e.  
+2. **Compliance Checks:** Győződjön meg arról, hogy szabályozott dokumentumokban nincs illetéktelen vagy rejtett adatforrás.  
+3. **Integration Projects:** Ellenőrizze a külső hivatkozások integritását, mielőtt az Excel adatokat adatbázisokkal vagy API‑kkal szinkronizálná.  
 
-## Teljesítménybeli megfontolások
+## Teljesítmény szempontok
 
 Nagy munkafüzetek feldolgozásakor:
 
-- A `Workbook` objektumokat a lehető leghamarabb szabadítsa fel a memória felszabadításához.  
-- Ha lehetséges, korlátozza az iterációt csak azokra a munkalapokra, amelyek ténylegesen tartalmaznak képleteket.  
+- A `Workbook` objektumokat azonnal szabadítsa fel a memória felszabadításához.  
+- Ha lehetséges, korlátozza az iterációt csak azokra a munkalapokra, amelyek ténylegesen képleteket tartalmaznak.  
 
-## Miért észleljük a rejtett Excel hivatkozásokat? (Excel adatforrások kezelése)
+## Miért találjunk rejtett külső hivatkozásokat? (Manage Excel data sources)
 
-Az **Excel adatforrások kezelése** segít tisztán tartani a táblázatokat, csökkenti a törött hivatkozások kockázatát, és javítja a munkafüzet általános teljesítményét. A rejtett hivatkozások rendszeres szkennelésével egyetlen igazságforrást tartunk fenn a szervezetben.
+Az **manage Excel data sources** megértése segít a táblázatok tisztán tartásában, csökkenti a törött hivatkozások kockázatát, és javítja a munkafüzet általános teljesítményét. A rejtett hivatkozások rendszeres átvizsgálásával egyetlen igazságforrást tart fenn a szervezetben.
 
 ## Következtetés
 
-Ebben az útmutatóban megtanulta, hogyan **detect hidden Excel links** (rejtett Excel hivatkozásokat) észlelhet a munkafüzetekben az Aspose.Cells for Java segítségével. Ez a képesség elengedhetetlen az adatátláthatóság és integritás fenntartásához. További felfedezéshez próbálja ki az Aspose.Cells egyéb funkcióit, például képlet újraszámolást, diagramkezelést vagy kötegelt munkafüzet konvertálást.
+Ebben az útmutatóban megtanulta, hogyan **find hidden external links** munkafüzetekben az Aspose.Cells for Java használatával. Ez a képesség elengedhetetlen az adatok átláthatóságának és integritásának fenntartásához. További felfedezéshez próbálja ki az Aspose.Cells más funkcióit, például képlet újraszámolást, diagramkezelést vagy tömeges munkafüzet konverziót.
 
-Készen áll a mélyebb merülésre? Tekintse meg a [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/) oldalt a fejlettebb technikákért.
+Készen áll a mélyebb merülésre? Tekintse meg az [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/) oldalt a fejlettebb technikákért.
 
 ## Gyakran Ismételt Kérdések
 
-**Q: A ingyenes próba korlátozza a rejtett hivatkozások észlelését?**  
-A: A próba verzió teljes funkcionalitást biztosít, beleértve a külső hivatkozások detektálását, korlátozás nélkül.
+**Q: Az ingyenes próba verzió korlátozást tartalmaz a rejtett hivatkozások észlelésében?**  
+A: A próba verzió teljes funkcionalitást biztosít, beleértve a külső hivatkozások észlelését, korlátozás nélkül.
 
 **Q: A rejtett hivatkozások automatikusan eltávolításra kerülnek, ha törlöm a forrásfájlt?**  
-A: Nem. A hivatkozás a munkafüzetben marad, amíg azt kifejezetten nem távolítja el vagy frissíti az API‑val.
+A: Nem. A hivatkozás a munkafüzetben marad, amíg nem távolítja el vagy nem frissíti kifejezetten az API‑val.
 
-**Q: Szűrhetem a találatokat, hogy csak a rejtett hivatkozásokat mutassák?**  
-A: Igen – ellenőrizze az `isVisible()` értékét; ha `false`, a hivatkozás rejtett.
+**Q: Szűrhetem az eredményeket, hogy csak a rejtett hivatkozásokat mutassák?**  
+A: Igen – ellenőrizze az `isVisible()` metódust; ha `false` értéket ad vissza, a hivatkozás rejtett.
 
 **Q: Hogyan exportálhatom a detektálási eredményeket CSV fájlba?**  
-A: Iteráljon a `ExternalLinkCollection` elemein, írja ki a tulajdonságokat egy `FileWriter`‑be, és mentse el a CSV‑t.
+A: Iteráljon a `ExternalLinkCollection` elemein, írja minden tulajdonságot egy `FileWriter`‑be, és mentse el a CSV‑t.
 
-**Q: Támogatott a rejtett hivatkozások detektálása jelszóval védett munkafüzetekben?**  
-A: Töltse be a munkafüzetet a jelszóval a `Workbook(String fileName, LoadOptions options)` konstruktorral, majd futtassa ugyanazt a detektálási logikát.
+**Q: Van támogatás a rejtett hivatkozások észlelésére jelszóval védett munkafüzetekben?**  
+A: Töltse be a munkafüzetet a jelszóval a `Workbook(String fileName, LoadOptions options)` használatával, majd futtassa ugyanazt a detektálási logikát.
 
-## Erőforrások
-- [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)
-- [Download Aspose.Cells](https://releases.aspose.com/cells/java/)
-- [Purchase a License](https://purchase.aspose.com/buy)
-- [Free Trial](https://releases.aspose.com/cells/java/)
-- [Temporary License](https://purchase.aspose.com/temporary-license/)
-
----
-
-**Last Updated:** 2025-12-29  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose  
+## Források
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells letöltése](https://releases.aspose.com/cells/java/)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próba](https://releases.aspose.com/cells/java/)
+- [Ideiglenes licenc](https://purchase.aspose.com/temporary-license/)
 
 ---
+
+**Utolsó frissítés:** 2026-05-03  
+**Tesztelve:** Aspose.Cells for Java 25.3  
+**Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

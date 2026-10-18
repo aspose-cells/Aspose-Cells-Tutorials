@@ -1,97 +1,144 @@
 ---
-date: '2026-01-16'
-description: Изучите этот учебник Aspose Cells по автоматизации Excel с помощью Java,
-  охватывающий создание рабочих книг, интеграцию VBA, копирование проектов VBA и перенос
-  модулей VBA.
+date: '2026-09-12'
+description: Узнайте, как пакетно обрабатывать файлы Excel с использованием Aspose.Cells
+  для Java, автоматизировать макросы VBA и интегрировать библиотеку с Maven или Gradle.
 keywords:
-- Aspose.Cells for Java
-- Excel Automation with Java
-- VBA Integration in Java
-title: 'Учебник Aspose Cells: автоматизация Excel с Java и интеграцией VBA'
+- batch process excel files
+- automate excel with java
+- load excel vba macros
+- migrate vba macros java
+- aspose cells maven setup
+lastmod: '2026-09-12'
+og_description: Узнайте, как пакетно обрабатывать файлы Excel с использованием Aspose.Cells
+  для Java, автоматизировать макросы VBA и интегрировать с Maven или Gradle в серверной
+  среде.
+og_image_alt: Guide to batch processing Excel files with Aspose.Cells for Java
+og_title: Как пакетно обрабатывать файлы Excel с помощью Aspose.Cells и Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-12'
+  description: Learn how to batch process Excel files using Aspose.Cells for Java,
+    automate VBA macros, and integrate the library with Maven or Gradle.
+  headline: How to batch process Excel files with Aspose.Cells and Java
+  type: TechArticle
+- description: Learn how to batch process Excel files using Aspose.Cells for Java,
+    automate VBA macros, and integrate the library with Maven or Gradle.
+  name: How to batch process Excel files with Aspose.Cells and Java
+  steps:
+  - name: Initialize the library and apply a license
+    text: '`Workbook` is the main Aspose.Cells class representing an Excel file. Load
+      the temporary license file from the classpath, then create a `Workbook` instance
+      to verify the library is ready.'
+  - name: Iterate over the input directory
+    text: '`Files.newDirectoryStream` is a Java NIO method that returns a stream of
+      directory entries. Use it to enumerate all Excel files in a folder, then open
+      each with `new Workbook(filePath)`.'
+  - name: Copy worksheets to the target workbook
+    text: '`addCopy` creates a duplicate of the specified worksheet in the target
+      workbook. For each worksheet in the source workbook, call `targetWorkbook.getWorksheets().addCopy(sourceWorksheet.getIndex())`.
+      This preserves sheet order, formulas, and formatting.'
+  - name: Copy VBA modules from source to target
+    text: '`getVbaProject` returns the VBA project container of the workbook. Iterate
+      over `sourceWorkbook.getVbaProject().getModules()` and add each module to `targetWorkbook.getVbaProject()`
+      using `addModule`. `addModule` adds a VBA module to the project, ensuring that
+      all macro code, class modules, and user'
+  - name: Save the workbook with modifications
+    text: '`save` writes the workbook to disk in the specified format, such as `SaveFormat.XLSM`
+      for macro‑enabled files. Call `targetWorkbook.save(outputPath, SaveFormat.XLSM)`
+      to write the updated file while keeping the macro container intact.'
+  type: HowTo
+- questions:
+  - answer: Yes. Because Aspose.Cells runs without Office, you can deploy the code
+      to any cloud VM, container, or serverless function that supports Java 8+.
+    question: Can I use this tutorial to migrate legacy Excel files with VBA to a
+      cloud‑based Java service?
+  - answer: Absolutely. The API can open, edit, and save `.xlsb` files while preserving
+      VBA macros.
+    question: Does the library support 64‑bit Excel files (.xlsb)?
+  - answer: Export the VBA project from the target workbook (`targetWorkbook.getVbaProject().export("temp.vba")`)
+      and open the file in the VBA editor of Excel for step‑by‑step debugging.
+    question: How do I debug VBA code after it’s been copied?
+  - answer: No hard limit, but extremely large workbooks (over 1,000 sheets) may require
+      additional JVM heap memory; monitor memory usage during batch runs.
+    question: Is there a limit on the number of worksheets or modules I can copy?
+  - answer: A single license covers all environments where the library is used, as
+      long as you comply with Aspose’s licensing terms.
+    question: Do I need a separate license for each deployment environment?
+  type: FAQPage
+tags:
+- batch processing
+- Aspose.Cells
+- Java Excel automation
+title: Как пакетно обрабатывать файлы Excel с помощью Aspose.Cells и Java
 url: /ru/java/automation-batch-processing/master-aspose-cells-java-excel-automation/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Руководство Aspose Cells: Автоматизация Excel и интеграция VBA с Java
+# Как пакетно обрабатывать файлы Excel с помощью Aspose.Cells и Java
 
-**Автоматизируйте задачи Excel с легкостью, используя Aspose.Cells для Java**  
-
-В современном мире, управляемом данными, **aspose cells tutorial** — это самый быстрый способ программно управлять рабочими книгами Excel из Java. Независимо от того, нужно ли вам генерировать отчёты, мигрировать устаревшие макросы VBA или пакетно обрабатывать тысячи таблиц, это руководство покажет, как это сделать. Вы узнаете, как вывести версию библиотеки, создать рабочие книги с нуля, загрузить файлы, содержащие макросы VBA и пользовательские формы, копировать листы, **копировать элементы VBA‑проекта**, **переносить VBA‑модули**, а затем сохранить обновлённые файлы.
+В современных конвейерах данных **пакетная обработка файлов Excel** является распространённым требованием — независимо от того, нужно ли вам генерировать ежемесячные отчёты, мигрировать устаревшие книги или применять одну и ту же VBA‑макрос к тысячам таблиц. Aspose.Cells for Java позволяет автоматизировать каждый шаг без установки Microsoft Office, предоставляя полный контроль от простого консольного приложения до облачно‑нативного микросервиса. В этом руководстве вы увидите, как вывести версию библиотеки, создать книги с нуля, загрузить файлы, содержащие VBA‑макросы и пользовательские формы, копировать листы, копировать элементы VBA‑проекта, переносить VBA‑модули и, наконец, сохранить обновлённые файлы. Всё это работает на любой ОС, поддерживающей Java 8+.
 
 ## Быстрые ответы
-- **Какова основная цель Aspose.Cells для Java?** Автоматизация создания, манипуляций и работы с VBA в Excel без необходимости установки Microsoft Office.  
-- **Можно ли работать с макросами VBA, используя эту библиотеку?** Да — можно загружать, копировать и изменять проекты VBA и пользовательские формы.  
-- **Нужна ли лицензия для разработки?** Бесплатная временная лицензия снимает ограничения оценки; полная лицензия требуется для продакшна.  
-- **Какие версии Java поддерживаются?** Java 8 и выше (рекомендуется Java 11+).  
-- **Совместима ли библиотека с Maven и Gradle?** Абсолютно — поддерживаются оба инструмента сборки.
+- **Какова основная цель Aspose.Cells for Java?** Автоматизация создания, манипулирования Excel и обработки VBA без необходимости установки Microsoft Office.  
+- **Могу ли я работать с VBA‑макросами, используя эту библиотеку?** Да – вы можете загружать, копировать и изменять VBA‑проекты и пользовательские формы.  
+- **Нужна ли лицензия для разработки?** Бесплатная временная лицензия снимает ограничения оценки; её можно получить на сайте [Aspose](https://purchase.aspose.com/temporary-license/). Для продакшна требуется полная лицензия.  
+- **Какие версии Java поддерживаются?** Java 8 или новее (рекомендовано Java 11+).  
+- **Совместима ли библиотека с Maven и Gradle?** Абсолютно — оба инструмента сборки поддерживаются.
 
-## Что такое руководство Aspose Cells?
-**aspose cells tutorial** проводит вас через реальные примеры кода, демонстрирующие, как использовать API Aspose.Cells. Оно сочетает объяснения с готовыми к запуску фрагментами, чтобы вы могли скопировать код в свой проект и увидеть мгновенный результат.
+## Что такое Aspose.Cells for Java?
+Aspose.Cells for Java — это чисто Java API, позволяющий создавать, конвертировать и манипулировать электронными таблицами Excel без установленного Microsoft Excel. Он поддерживает более 70 форматов файлов, обрабатывает книги со сотнями страниц в режиме экономии памяти и сохраняет VBA‑макросы, диаграммы и сводные таблицы.
 
-## Почему автоматизировать Excel с помощью Java?
-- **Скорость и масштабируемость** — Обрабатывайте тысячи файлов за секунды, гораздо быстрее, чем вручную в Excel.  
-- **Выполнение на сервере** — Не требуется Windows‑десктоп или установленный Office.  
-- **Полная поддержка VBA** — Сохраняйте существующие макросы, мигрируйте их или внедряйте новую логику программно.  
-- **Кроссплатформенность** — Работает на любой ОС, поддерживающей Java.
+## Почему пакетно обрабатывать файлы Excel с помощью Aspose.Cells?
+Обработка большого количества таблиц на сервере дает три измеримых преимущества. Пакетная обработка снижает ручные трудозатраты, повышает согласованность файлов и позволяет выполнять параллельные операции для высокой пропускной способности. Используя Aspose.Cells, вы получаете скорость, масштабируемость и полную точность VBA, что делает его идеальным для корпоративных конвейеров данных.
 
-## Предварительные требования 
-Прежде чем погрузиться в возможности Aspose.Cells для Java, убедитесь, что у вас есть:
+## Предварительные требования (H2)
 
 ### Требуемые библиотеки, версии и зависимости
 1. **Aspose.Cells for Java**: версия 25.3 или новее.  
-   - **Maven**:
+   - **Maven**:  
      ```xml
      <dependency>
          <groupId>com.aspose</groupId>
          <artifactId>aspose-cells</artifactId>
          <version>25.3</version>
      </dependency>
-     ```
-   - **Gradle**:
+     ```  
+   - **Gradle**:  
      ```gradle
      compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
-     ```
+     ```  
 
-### Требования к настройке среды
-- Java Development Kit (JDK) 8 или новее.  
-- IDE, например IntelliJ IDEA или Eclipse.
+### Требования к настройке окружения
+* Java Development Kit (JDK) 8 или новее.  
+* IDE, например IntelliJ IDEA или Eclipse (необязательно, но рекомендуется).  
 
 ### Требования к знаниям
-- Базовое программирование на Java.  
-- Знание концепций Excel; знание VBA полезно, но не обязательно.
+* Базовое программирование на Java.  
+* Знание концепций Excel; знание VBA полезно, но не обязательно.
 
-## Настройка Aspose.Cells для Java 
-Чтобы начать, добавьте библиотеку в проект и примените лицензию (опционально для пробной версии).
+## Как пакетно обрабатывать файлы Excel с помощью Aspose.Cells for Java?
+Загружайте каждую исходную книгу, копируйте необходимый VBA‑проект и записывайте результат в целевую папку — всё за один проход. Рабочий процесс проходит по каталогу, создаёт новую книгу, переносит листы и VBA‑модули и, наконец, сохраняет файл с включёнными макросами. Такой подход обеспечивает согласованную обработку и минимальное потребление памяти при работе с большими партиями.
 
-1. **Установка** — Используйте фрагменты Maven или Gradle выше.  
-2. **Получение лицензии** — Получите бесплатную пробную лицензию от [Aspose](https://purchase.aspose.com/temporary-license/) для снятия ограничений оценки.  
-3. **Базовая инициализация**:
-   ```java
-   // Load the Aspose.Cells for Java library
-   import com.aspose.cells.*;
+### Шаг 1: Инициализировать библиотеку и применить лицензию
+`Workbook` — основной класс Aspose.Cells, представляющий файл Excel. Загрузите временный файл лицензии из classpath, затем создайте экземпляр `Workbook`, чтобы убедиться, что библиотека готова.
 
-   public class Setup {
-       public static void main(String[] args) {
-           // Set up license if available
-           License license = new License();
-           try {
-               license.setLicense("Aspose.Cells.lic");
-           } catch (Exception e) {
-               System.out.println("License not found. Proceeding with evaluation mode.");
-           }
-       }
-   }
-   ```
+### Шаг 2: Перебрать входной каталог
+`Files.newDirectoryStream` — метод Java NIO, возвращающий поток записей каталога. Используйте его для перечисления всех файлов Excel в папке, затем откройте каждый с помощью `new Workbook(filePath)`.
 
-## Отображение информации о версии – Шаг руководства Aspose Cells
-**Обзор**: Быстро проверьте, какую версию Aspose.Cells использует ваше приложение.
+### Шаг 3: Копировать листы в целевую книгу
+`addCopy` создаёт дубликат указанного листа в целевой книге. Для каждого листа в исходной книге вызывайте `targetWorkbook.getWorksheets().addCopy(sourceWorksheet.getIndex())`. Это сохраняет порядок листов, формулы и форматирование.
 
+### Шаг 4: Копировать VBA‑модули из источника в цель
+`getVbaProject` возвращает контейнер VBA‑проекта книги. Переберите `sourceWorkbook.getVbaProject().getModules()` и добавьте каждый модуль в `targetWorkbook.getVbaProject()` с помощью `addModule`. `addModule` добавляет VBA‑модуль в проект, гарантируя, что весь код макросов, классовые модули и дизайнеры пользовательских форм передаются без изменений.
+
+### Шаг 5: Сохранить книгу с изменениями
+`save` записывает книгу на диск в указанном формате, например `SaveFormat.XLSM` для файлов с макросами. Вызовите `targetWorkbook.save(outputPath, SaveFormat.XLSM)`, чтобы записать обновлённый файл, сохранив контейнер макросов.
+
+## Отображение информации о версии — шаг руководства Aspose.Cells
 ```java
 import com.aspose.cells.*;
 
@@ -106,9 +153,7 @@ public class VersionDisplay {
 }
 ```
 
-## Создание пустой рабочей книги – Основная часть руководства
-**Обзор**: Создайте пустую рабочую книгу, которую позже можно заполнить данными или кодом VBA.
-
+## Создание пустой книги — ядро руководства
 ```java
 import com.aspose.cells.*;
 
@@ -124,9 +169,7 @@ public class CreateEmptyWorkbook {
 }
 ```
 
-## Загрузка Excel‑файла с макросами VBA – Автоматизация Excel на Java
-**Обзор**: Откройте существующую рабочую книгу, уже содержащую макросы VBA и пользовательские формы.
-
+## Загрузка файла Excel с VBA‑макросами — автоматизация Excel Java
 ```java
 import com.aspose.cells.*;
 
@@ -141,9 +184,7 @@ public class LoadExcelWithVBA {
 }
 ```
 
-## Копирование листов в целевую рабочую книгу – Часть процесса копирования VBA‑проекта
-**Обзор**: Перенесите каждый лист из шаблонной книги в новую, сохраняя имена листов.
-
+## Копирование листов в целевую книгу — часть процесса копирования VBA‑проекта
 ```java
 import com.aspose.cells.*;
 
@@ -173,9 +214,7 @@ public class CopyWorksheets {
 }
 ```
 
-## Копирование VBA‑модулей из шаблона в целевую рабочую книгу – Перенос VBA‑модулей
-**Обзор**: Этот шаг **копирует VBA‑проект** (модули, классовые модули и хранилище дизайнеров) из исходной книги в целевую, обеспечивая сохранность всей логики макросов.
-
+## Копирование VBA‑модулей из шаблона в целевую книгу — перенос VBA‑модулей
 ```java
 import com.aspose.cells.*;
 
@@ -217,9 +256,7 @@ public class CopyVBAModules {
 }
 ```
 
-## Сохранение рабочей книги с изменениями 
-**Обзор**: Сохраните внесённые изменения — как данные листов, так и код VBA — в новый файл.
-
+## Сохранение книги с изменениями
 ```java
 import com.aspose.cells.*;
 
@@ -235,39 +272,69 @@ public class SaveWorkbook {
 }
 ```
 
-## Распространённые проблемы и их устранение 
-- **Лицензия не найдена** — Убедитесь, что путь к файлу `.lic` указан правильно и файл включён в classpath.  
-- **Отсутствуют VBA‑модули после копирования** — Проверьте, что в исходной книге действительно есть VBA‑модули (`templateFile.getVbaProject().getModules().getCount() > 0`).  
-- **Неподдерживаемые типы макросов** — Некоторые старые конструкции VBA могут не полностью сохраняться; протестируйте полученную книгу в Excel.  
-- **Пути к файлам** — Используйте абсолютные пути или настройте рабочий каталог IDE, чтобы избежать `FileNotFoundException`.
+## Распространённые проблемы и их устранение
+* **License not found** – Убедитесь, что файл `.lic` помещён в папку resources и путь, передаваемый в `License.setLicense()`, указан правильно.  
+* **VBA modules missing after copy** – Проверьте, что исходная книга действительно содержит VBA‑код (`sourceWorkbook.getVbaProject().getModules().getCount() > 0`).  
+* **Unsupported macro types** – Некоторые устаревшие конструкции VBA (например, события `OnTime`) могут не сохраниться после конвертации; протестируйте полученную книгу в Excel, чтобы убедиться в корректности.  
+* **File‑path problems** – Используйте абсолютные пути или настройте рабочий каталог IDE, чтобы избежать `FileNotFoundException`.  
+* **Memory pressure on huge workbooks** – Включите `LoadOptions.setLoadDataOnly(false)` и увеличьте размер кучи JVM (`-Xmx4g`) при обработке файлов более 500 MB.
 
-## Часто задаваемые вопросы 
+## Часто задаваемые вопросы
 
-**В: Можно ли использовать это руководство для миграции устаревших Excel‑файлов с VBA в облачный сервис на Java?**  
-О: Да. Поскольку Aspose.Cells работает без Office, код можно выполнять на любом сервере, включая облачные платформы такие как AWS или Azure.
+**Q: Могу ли я использовать это руководство для миграции устаревших файлов Excel с VBA в облачный сервис на Java?**  
+A: Да. Поскольку Aspose.Cells работает без Office, вы можете развернуть код на любой облачной ВМ, контейнере или безсерверной функции, поддерживающей Java 8+.
 
-**В: Поддерживает ли библиотека 64‑разрядные файлы Excel (.xlsb)?**  
-О: Абсолютно. API может открывать, редактировать и сохранять файлы `.xlsb`, сохраняя макросы VBA.
+**Q: Поддерживает ли библиотека 64‑битные файлы Excel (.xlsb)?**  
+A: Абсолютно. API может открывать, редактировать и сохранять файлы `.xlsb`, сохраняя VBA‑макросы.
 
-**В: Как отлаживать VBA‑код после копирования?**  
-О: Экспортируйте VBA‑проект из целевой книги (`target.getVbaProject().export(...)`) и откройте его в редакторе VBA Excel для пошаговой отладки.
+**Q: Как отладить VBA‑код после его копирования?**  
+A: Экспортируйте VBA‑проект из целевой книги (`targetWorkbook.getVbaProject().export("temp.vba")`) и откройте файл в редакторе VBA Excel для пошаговой отладки.
 
-**В: Есть ли ограничение на количество листов или модулей, которые можно копировать?**  
-О: Жёсткого ограничения нет, но очень большие книги могут требовать больше памяти heap; следите за использованием памяти JVM при работе с массивными файлами.
+**Q: Есть ли ограничение на количество листов или модулей, которые можно копировать?**  
+A: Жёсткого ограничения нет, но чрезвычайно большие книги (более 1 000 листов) могут потребовать дополнительную память кучи JVM; следите за использованием памяти во время пакетных запусков.
 
-**В: Нужна ли отдельная лицензия для каждой среды развертывания?**  
-О: Одна лицензия покрывает все среды, где используется библиотека, при условии соблюдения условий лицензирования Aspose.
+**Q: Нужно ли отдельное лицензирование для каждой среды развертывания?**  
+A: Одна лицензия покрывает все среды, где используется библиотека, при условии соблюдения условий лицензирования Aspose.
 
 ---
 
-**Последнее обновление:** 2026-01-16  
+**Последнее обновление:** 2026-09-12  
 **Тестировано с:** Aspose.Cells 25.3 for Java  
 **Автор:** Aspose  
+
+
+
+
+
+
+
+```java
+   // Load the Aspose.Cells for Java library
+   import com.aspose.cells.*;
+
+   public class Setup {
+       public static void main(String[] args) {
+           // Set up license if available
+           License license = new License();
+           try {
+               license.setLicense("Aspose.Cells.lic");
+           } catch (Exception e) {
+               System.out.println("License not found. Proceeding with evaluation mode.");
+           }
+       }
+   }
+   ```
+
+## Связанные руководства
+
+- [Обработать несколько файлов Excel — редактировать гиперссылки с Aspose.Cells Java](/cells/java/advanced-features/edit-excel-hyperlinks-aspose-cells-java/)
+- [Мастер автоматизации Excel с Aspose.Cells for Java: Полное руководство](/cells/java/automation-batch-processing/excel-automation-aspose-cells-java-tutorial/)
+- [Мастер оптимизации книг Excel с Aspose.Cells Java: Производительность и улучшения VBA](/cells/java/performance-optimization/excel-workbook-optimization-aspose-cells-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

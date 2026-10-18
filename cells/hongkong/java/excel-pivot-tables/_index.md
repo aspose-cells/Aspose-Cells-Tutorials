@@ -42,6 +42,22 @@ Aspose.Cells for Java 可讓您自動化資料透視表操作並將其無縫整�
 了解如何在 Aspose.Cells for Java 中重新整理資料透視表資料。輕鬆保持您的數據為最新。
 ### [自訂資料透視表樣式](./customizing-pivot-table-styles/)
 了解如何在 Aspose.Cells for Java API 中自訂資料透視表樣式。輕鬆建立具有視覺吸引力的資料透視表。
+### [如何在 Java 中複製資料透視表 – 完整 Aspose.Cells 指南](./how-to-copy-pivot-table-in-java-complete-aspose-cells-guide/)
+了解如何使用 Aspose.Cells for Java 複製現有的資料透視表，快速生成相同結構的報表，提升開發效率。
+### [在 Java 中從資料透視表建立 PNG – 完整步驟指南](./create-png-from-pivot-in-java-full-step-by-step-guide/)
+了解如何使用 Aspose.Cells for Java 將資料透視表匯出為 PNG 圖像，提供完整的步驟說明。
+### [複製 Excel 資料透視表 – 使用 Java 的逐步指南](./copy-pivot-table-excel-step-by-step-guide-using-java/)
+了解如何使用 Aspose.Cells for Java 複製 Excel 資料透視表，提供逐步說明以簡化操作。
+### [將資料透視表匯出為 PNG（Java）– 完整程式設計指南](./export-pivot-table-to-png-in-java-complete-programming-guide/)
+了解如何使用 Aspose.Cells for Java 將 Excel 資料透視表匯出為 PNG 圖像，生成高品質報表。
+### [如何在 Java 中複製範圍 – 使用 Aspose.Cells 複製資料透視表](./how-to-copy-range-in-java-copy-pivot-table-with-aspose-cells/)
+了解如何使用 Aspose.Cells for Java 複製資料範圍並複製資料透視表，以便在工作表間快速傳遞資料。
+### [如何將資料透視表匯出為 PNG – 完整 Java 指南](./how-to-export-pivot-table-as-png-complete-java-guide/)
+了解如何使用 Aspose.Cells for Java 將資料透視表匯出為 PNG 圖像，方便在報告或網頁中展示。
+### [在 Java 中使用 Aspose.Cells 複製資料透視表](./how-to-copy-pivot-table-in-java-using-aspose-cells/)
+了解如何使用 Aspose.Cells for Java 複製 Excel 資料透視表，以便在程式中重用和自動化。
+### [在工作簿之間複製資料透視表 – 步驟說明 Java 指南](./copy-pivot-table-between-workbooks-step-by-step-java-guide/)
+了解如何使用 Aspose.Cells for Java 在不同工作簿之間複製資料透視表，實現跨檔案資料重用。
 ### [在 Java 中建立新工作簿 – 完整指南：複製資料透視表](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
 了解如何在 Aspose.Cells for Java 中建立新工作簿並複製資料透視表，以便在不同檔案間共享分析。
 

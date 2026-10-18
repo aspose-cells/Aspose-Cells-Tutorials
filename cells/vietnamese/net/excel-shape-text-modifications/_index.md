@@ -50,6 +50,8 @@ Cuối cùng, chúng ta hãy nói về cách trình bày. Không chỉ là về 
 Tìm hiểu cách trích xuất văn bản từ SmartArt dạng bánh răng trong Excel bằng Aspose.Cells cho .NET. Có kèm hướng dẫn từng bước và ví dụ mã.
 ### [Thay thế Tag bằng Text trong TextBox trong Excel](./replace-tag-text-textbox-excel/)
 Dễ dàng thay thế văn bản trong hộp văn bản trong bảng tính Excel của bạn bằng Aspose.Cells cho .NET. Hướng dẫn từng bước để tự động hóa Excel.
+### [Thay đổi kích thước phông chữ hộp văn bản trong Excel bằng C# – Hướng dẫn đầy đủ](./change-textbox-font-size-in-excel-with-c-complete-guide/)
+Dễ dàng thay đổi kích thước phông chữ của hộp văn bản trong Excel bằng Aspose.Cells cho .NET với hướng dẫn chi tiết từng bước.
 ### [Xoay Văn bản có Hình dạng trong Excel](./rotate-text-shape-excel/)
 Tìm hiểu cách xoay văn bản có hình dạng trong Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước này để có bản trình bày Excel hoàn hảo.
 ### [Ghép hình ảnh thành họa tiết trong hình dạng trong Excel](./tile-picture-texture-shape-excel/)
@@ -68,6 +70,8 @@ Tìm hiểu cách thiết lập lề cho chú thích và hình dạng trong Exce
 Học cách truy cập các hình dạng không nguyên thủy trong Excel bằng Aspose.Cells cho .NET. Khám phá các phương pháp từng bước trong hướng dẫn toàn diện này.
 ### [Làm mới đối tượng OLE trong Excel](./refresh-ole-object-excel/)
 Tìm hiểu cách làm mới các đối tượng OLE trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước, nâng cao kỹ năng tự động hóa Excel của bạn một cách liền mạch.
+### [Làm cho văn bản TextBox in đậm trong Excel bằng C# – Hướng dẫn từng bước](./make-textbox-text-bold-in-excel-with-c-step-by-step-guide/)
+Tìm hiểu cách làm chữ trong TextBox Excel in đậm bằng Aspose.Cells cho .NET và C#. Hướng dẫn chi tiết từng bước.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

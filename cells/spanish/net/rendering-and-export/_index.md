@@ -33,7 +33,7 @@ Una de las características destacadas de Aspose.Cells es la posibilidad de agre
 
 ## Navegación por los marcadores de la hoja de gráficos
 
-Si está trabajando con conjuntos de datos extensos y hojas de gráficos, encontrará el tutorial en [Crear un marcador PDF para una hoja de gráficos en Aspose.Cells](./create-pdf-bookmark-entry-for-chart-sheet/) Particularmente útil. Esta guía te enseña a crear marcadores no solo para hojas de cálculo estándar, sino también para hojas de gráficos. Es como ofrecer a tus espectadores un recorrido interactivo por tu visualización de datos: pueden acceder directamente a la información que les interesa. Piensa en los marcadores como indicadores: guían a tu audiencia exactamente adonde necesitan ir, ahorrándoles tiempo y mejorando la interacción con tus documentos.
+Si está trabajando con conjuntos de datos extensos y hojas de gráficos, encontrará el tutorial en [Crear un marcador PDF para una hoja de gráficos en Aspose.Cells](./create-pdf-bookmark-entry-for-chart-sheet/) Particularmente útil. Esta guía te enseña a crear marcadores no solo para hojas de cálculo estándar, sino también para hojas de gráficos. Es como ofrecer a tus espectadores un recorrido interactivo por tu visualización de datos: pueden acceder directamente a la información que les interesa. Piensa en los marcadores como indicadores: guían a tu audiencia exactamente adonde necesitan ir, ahorrándoles tiempo y mejorando la interacción con sus documentos.
 
 ## Manejo de estados vacíos
 
@@ -50,6 +50,8 @@ Aprenda a crear PDF interactivos con marcadores usando Aspose.Cells para .NET. E
 Aprenda cómo evitar páginas en blanco en las salidas PDF usando Aspose.Cells para .NET con esta guía paso a paso para optimizar su proceso de generación de documentos.
 ### [Controlar recursos externos en Excel a PDF en Aspose.Cells](./control-loading-of-external-resources/)
 Descubra cómo controlar recursos externos en la conversión de Excel a PDF usando Aspose.Cells para .NET con nuestra guía fácil de seguir.
+### [Crear imagen PNG de tabla dinámica en C# – Guía completa paso a paso](./create-png-pivot-image-in-c-full-step-by-step-guide/)
+Aprenda a generar imágenes PNG de tablas dinámicas en C# con Aspose.Cells paso a paso.
 ### [Crear un marcador PDF para una hoja de gráficos en Aspose.Cells](./create-pdf-bookmark-entry-for-chart-sheet/)
 Aprenda a crear marcadores PDF para hojas de gráficos en Aspose.Cells para .NET con esta completa guía paso a paso.
 ### [Exportar rango de celdas a imagen con Aspose.Cells](./export-range-of-cells-to-image/)
@@ -62,6 +64,10 @@ Aprenda a ignorar errores al convertir archivos de Excel a PDF con Aspose.Cells 
 Aprenda a imprimir una página en blanco usando Aspose.Cells para .NET, garantizando que sus informes siempre aparezcan profesionales, incluso cuando estén vacíos.
 ### [Renderizar páginas secuenciales en Aspose.Cells](./render-limited-number-of-sequential-pages/)
 Aprenda a renderizar páginas secuenciales en Excel con Aspose.Cells para .NET. Este tutorial paso a paso ofrece una guía detallada para convertir páginas seleccionadas en imágenes.
+### [Crear rango de referencia de tabla dinámica – Exportar imagen de tabla dinámica como PNG](./create-pivot-reference-range-export-pivot-table-image-as-png/)
+Aprenda a crear un rango de referencia para una tabla dinámica y exportar su imagen como PNG usando Aspose.Cells para .NET.
+### [Cómo exportar una tabla dinámica a PNG en C# – Guía paso a paso](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
+Aprenda a exportar una tabla dinámica de Excel a PNG usando Aspose.Cells para .NET con esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-07"
-"description": "Aspose.Cells for Java를 사용하여 Excel에서 동적 거품형 차트를 만드는 방법을 알아보세요. 이 단계별 가이드에서는 환경 설정부터 차트 구성 및 저장까지 모든 것을 다룹니다."
-"title": "Aspose.Cells for Java를 사용하여 Excel에서 버블 차트 만들기 - 단계별 가이드"
-"url": "/ko/java/charts-graphs/aspose-cells-java-create-bubble-charts/"
-"weight": 1
+date: '2026-04-02'
+description: Aspose.Cells for Java를 사용하여 차트를 만들고 Excel 버블 차트를 생성하는 방법을 배웁니다. 이 가이드는
+  설정, 데이터 및 차트 저장 과정을 안내합니다.
+keywords:
+- how to create chart
+- generate excel bubble chart
+- set bubble chart data
+title: '차트 만들기: Aspose.Cells Java를 사용한 Excel 버블 차트'
+url: /ko/java/charts-graphs/aspose-cells-java-create-bubble-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,40 +17,45 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# 차트 만들기: Aspose.Cells Java를 사용한 Excel 버블 차트
 
-# Java용 Aspose.Cells를 사용하여 Excel에서 거품형 차트 만들기: 단계별 가이드
+Aspose.Cells for Java를 사용하여 동적 버블 차트로 Excel 보고서를 향상시키세요. 이 튜토리얼에서는 데이터를 버블 차트로 시각화하는 **차트 만들기** 객체를 배우게 되며, 프레젠테이션을 보다 통찰력 있고 인터랙티브하게 만들 수 있습니다. 개발 환경 설정부터 차트 데이터 구성, 최종적으로 워크북 저장까지 모든 단계를 안내합니다.
 
-## 소개
+## 빠른 답변
+- **Java에서 Excel 차트에 가장 적합한 라이브러리는 무엇인가요?** Aspose.Cells for Java.
+- **프로그램으로 Excel 버블 차트를 생성할 수 있나요?** 예, 아래에 표시된 차트 API를 사용하면 됩니다.
+- **코드를 실행하려면 라이선스가 필요합니까?** 무료 체험판으로도 동작하지만, 전체 라이선스를 사용하면 모든 기능을 사용할 수 있습니다.
+- **지원되는 Java 빌드 도구는 무엇인가요?** Maven과 Gradle 모두 지원됩니다.
+- **버블 차트 데이터를 설정하는 주요 메서드는 무엇인가요?** 시리즈에서 `setBubbleSizes`, `setXValues`, `setValues`를 사용합니다.
 
-Aspose.Cells for Java를 사용하여 동적 거품형 차트로 Excel 보고서를 더욱 풍성하게 만들어 보세요. 이 포괄적인 튜토리얼은 Excel 통합 문서에서 거품형 차트를 만들고, 사용자 지정하고, 저장하는 과정을 안내하여 데이터 프레젠테이션을 더욱 통찰력 있게 만들어 줍니다.
+## 버블 차트란?
+버블 차트는 각 데이터 포인트가 버블로 표시되는 산점도의 변형입니다. X축과 Y축이 위치를 결정하고, 버블 크기는 세 번째 차원의 정보를 전달합니다—재무, 판매, 과학 데이터 시각화에 적합합니다.
 
-**배울 내용:**
-- 새로운 초기화 `Workbook` 물체
-- 워크시트 셀 액세스 및 조작
-- 사용자 정의 데이터 세트를 사용하여 버블 차트 만들기 및 구성
-- 통합 문서를 효율적으로 저장하기
+## 왜 Aspose.Cells for Java를 사용해야 할까요?
+- **Zero‑install Excel 엔진** – 서버에 Microsoft Office가 필요 없습니다.
+- **풍부한 차트 API** – 버블 차트를 포함한 모든 최신 차트 유형을 지원합니다.
+- **크로스‑플랫폼** – Windows, Linux, macOS에서 작동합니다.
+- **고성능** – 대용량 데이터셋 및 대량 보고서 생성에 최적화되었습니다.
 
-Aspose.Cells for Java를 사용하여 데이터 시각화 프로세스를 어떻게 간소화할 수 있는지 살펴보겠습니다. 시작하기 전에 모든 설정이 완료되었는지 확인하세요.
+## 전제 조건
+Aspose.Cells for Java를 사용하여 버블 차트를 만들려면 다음 전제 조건을 충족해야 합니다:
 
-## 필수 조건
-Java용 Aspose.Cells를 사용하여 버블 차트를 만들려면 다음 필수 조건을 충족하는지 확인하세요.
-
-### 필수 라이브러리 및 종속성
-- **자바용 Aspose.Cells**: 최신 버전(예: 25.3)을 설치하세요.
+### 필요한 라이브러리 및 종속성
+- **Aspose.Cells for Java**: 최신 버전(예: 25.3)을 설치하십시오.
 
 ### 환경 설정 요구 사항
-- 호환되는 Java 개발 키트(JDK)가 설치되었습니다.
-- Maven이나 Gradle을 사용하도록 프로젝트를 구성합니다.
+- 호환되는 Java Development Kit (JDK)가 설치되어 있어야 합니다.
+- 프로젝트를 Maven 또는 Gradle을 사용하도록 구성하십시오.
 
 ### 지식 전제 조건
-- Java 프로그래밍에 대한 기본적인 이해.
-- Excel 파일 구조와 차트 유형에 대한 지식이 필요합니다.
+- Java 프로그래밍에 대한 기본 이해.
+- Excel 파일 구조와 차트 유형에 대한 친숙함.
 
-## Java용 Aspose.Cells 설정
-환경 설정은 매우 중요합니다. 시작하는 방법은 다음과 같습니다.
+## Aspose.Cells for Java 설정
+환경 설정은 중요합니다. 다음과 같이 시작할 수 있습니다:
 
-### Maven을 통해 설치
-다음 종속성을 추가하세요. `pom.xml`:
+### Maven을 통한 설치
+`pom.xml`에 다음 종속성을 추가하십시오:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,51 +64,51 @@ Java용 Aspose.Cells를 사용하여 버블 차트를 만들려면 다음 필수
 </dependency>
 ```
 
-### Gradle을 통해 설치
-Gradle을 사용하는 경우 다음을 추가하세요. `build.gradle`:
+### Gradle을 통한 설치
+`build.gradle`에 다음을 추가하십시오:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### 라이센스 취득
-Aspose.Cells는 제한된 기능의 무료 체험판을 제공합니다. 전체 기능을 이용하려면 다음을 수행하세요.
-- **구입**: 방문하세요 [구매 페이지](https://purchase.aspose.com/buy) 라이센스 옵션에 대해서는.
-- **임시 면허**: 임시 면허를 취득하다 [여기](https://purchase.aspose.com/temporary-license/) 완벽하게 테스트해보세요.
+### 라이선스 획득
+Aspose.Cells는 제한된 기능을 가진 무료 체험판을 제공합니다. 전체 기능을 사용하려면:
+- **구매**: 라이선스 옵션은 [purchase page](https://purchase.aspose.com/buy)에서 확인하십시오.
+- **임시 라이선스**: 완전 테스트를 위해 [here](https://purchase.aspose.com/temporary-license/)에서 임시 라이선스를 얻으십시오.
 
 ### 기본 초기화
-Aspose.Cells를 사용하기 전에 Java 프로젝트에서 초기화하세요.
+Aspose.Cells를 사용하기 전에 Java 프로젝트에서 초기화하십시오:
 ```java
 import com.aspose.cells.Workbook;
 
-// 새 Workbook 개체 초기화
+// Initialize a new Workbook object
 Workbook workbook = new Workbook();
 ```
 
 ## 구현 가이드
-Aspose.Cells를 사용하여 버블 차트를 만들고 구성하는 과정을 살펴보겠습니다.
+Aspose.Cells를 사용하여 버블 차트를 만들고 구성하는 과정을 단계별로 살펴보겠습니다:
 
-### 통합 문서 개체 초기화
-에이 `Workbook` 시트, 셀 등을 조작할 수 있는 전체 Excel 파일을 나타냅니다. 다음과 같이 초기화합니다.
+### 차트 만들기: Workbook 객체 초기화
+`Workbook`은 전체 Excel 파일을 나타내며, 시트, 셀 등을 조작할 수 있습니다. 다음과 같이 초기화하십시오:
 ```java
 import com.aspose.cells.Workbook;
 
-// 새 통합 문서 인스턴스 만들기
+// Create a new Workbook instance
 Workbook workbook = new Workbook();
 ```
 
-### 워크시트 접근 및 조작
-차트 작성을 위한 데이터를 준비하기 위해 워크시트에 액세스하세요.
+### 버블 차트 데이터 설정: 워크시트 접근 및 조작
+버블 차트에 사용할 데이터를 준비하십시오:
 ```java
 import com.aspose.cells.WorksheetCollection;
 import com.aspose.cells.Cells;
 import com.aspose.cells.Cell;
 
-// 워크시트 모음을 받으세요
+// Get the collection of worksheets
 WorksheetCollection worksheets = workbook.getWorksheets();
 Worksheet sheet = worksheets.get(0);
 Cells cells = sheet.getCells();
 
-// 차트를 위한 데이터를 준비하기 위해 특정 셀에 값을 설정합니다.
+// Set values in specific cells to prepare data for charting
 cells.get("A1").setValue(50);
 cells.get("A2").setValue(100);
 cells.get("A3").setValue(150);
@@ -113,72 +123,85 @@ cells.get("D2").setValue(120);
 cells.get("D3").setValue(250);
 ```
 
-### 버블 차트 만들기 및 구성
-워크시트에 거품형 차트를 추가하고 데이터 소스를 설정하여 거품형 차트를 만듭니다.
+### Excel 버블 차트 생성: 차트 만들기 및 구성
+워크시트에 차트를 추가하고 데이터 소스를 설정하여 버블 차트를 생성하십시오:
 ```java
 import com.aspose.cells.ChartCollection;
 import com.aspose.cells.Chart;
 import com.aspose.cells.SeriesCollection;
 import com.aspose.cells.ChartType;
 
-// 시트에서 차트 컬렉션에 액세스
+// Access the collection of charts in the sheet
 ChartCollection charts = sheet.getCharts();
 int chartIndex = charts.add(ChartType.BUBBLE, 5, 0, 15, 5);
 Chart chart = charts.get(chartIndex);
 
-// 차트에 시리즈를 추가하고 데이터 소스를 설정합니다.
+// Add series to the chart and set data sources
 SeriesCollection serieses = chart.getNSeries();
 serieses.add("A1:B3", true);
 
-// 차트의 버블 크기, X 값, Y 값을 설정합니다.
+// Set bubble sizes, X values, and Y values for the chart
 chart.getNSeries().get(0).setBubbleSizes("B2:D2");
 chart.getNSeries().get(0).setXValues("B3:D3");
 chart.getNSeries().get(0).setValues("B1:D1");
 ```
 
-### 통합 문서 저장
-모든 변경 사항을 보존하려면 통합 문서를 저장하세요.
+### 차트 저장: 워크북 저장
+워크북(및 포함된 차트)을 디스크에 저장하십시오:
 ```java
 import com.aspose.cells.SaveFormat;
 
-// 파일을 저장할 디렉토리를 정의하세요
+// Define the directory to save the file
 String dataDir = "YOUR_DATA_DIRECTORY";
 workbook.save(dataDir + "/HToCrBChart_out.xls", SaveFormat.EXCEL_97_TO_2003);
 ```
 
-## 실제 응용 프로그램
-- **재무 보고**: 버블 차트로 재무 지표를 시각화합니다.
-- **판매 데이터 분석**: 다양한 버블 크기를 사용하여 지역별 판매 추세를 강조합니다.
-- **과학 연구**거품 크기가 데이터의 유의성을 나타내는 실험 결과를 표시합니다.
+## 실용적인 적용 사례
+- **재무 보고** – 매출, 이익, 시장 점유율을 한 화면에 시각화합니다.
+- **판매 데이터 분석** – 버블 크기로 규모를 표시하여 지역별 판매 실적을 강조합니다.
+- **과학 연구** – 세 변수를 동시에 표시하여 실험 결과를 보여줍니다.
 
 ## 성능 고려 사항
-- 사용하지 않는 개체를 즉시 삭제하여 통합 문서 메모리 사용량을 최소화합니다.
-- 렌더링 중 처리 시간을 줄이기 위해 차트 데이터 소스를 최적화합니다.
-- Aspose.Cells를 사용하여 대용량 데이터 세트를 처리할 때 효율적인 Java 메모리 관리 방식을 사용하세요.
+- 사용하지 않는 객체를 즉시 해제하여 메모리를 확보하십시오.
+- 데이터 범위를 가능한 한 좁게 유지하십시오; 불필요하게 큰 범위는 렌더링을 늦출 수 있습니다.
+- 대용량 데이터셋을 처리할 때 Java 메모리 관리 모범 사례를 따르십시오.
 
-## 결론
-이제 Aspose.Cells for Java를 사용하여 버블 차트를 만들고 구성하는 방법을 알아보았습니다. 이 강력한 도구는 Excel 보고 기능을 크게 향상시킬 수 있습니다. 다른 차트 유형을 살펴보거나 이 솔루션을 대규모 데이터 처리 파이프라인에 통합하는 것을 고려해 보세요.
+## 일반적인 문제 및 해결책
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| **빈 차트** | 데이터 범위가 시리즈와 일치하지 않음 | `setBubbleSizes`, `setXValues`, `setValues`가 올바른 셀을 참조하는지 확인하십시오. |
+| **잘못된 버블 크기** | 범위 길이가 일치하지 않음 | 세 범위 모두 동일한 포인트 수를 포함하도록 하십시오. |
+| **라이선스 예외** | 유효한 라이선스 없이 실행 | 워크북을 만들기 전에 임시 또는 구매한 라이선스를 적용하십시오. |
 
-**행동 촉구**: 오늘부터 이 가이드를 여러분의 프로젝트에 구현해 보세요!
+## 자주 묻는 질문
 
-## FAQ 섹션
-1. **Aspose.Cells의 최소 버전은 무엇입니까?**
-   - 이 튜토리얼에서는 시연된 모든 기능과의 호환성을 보장하기 위해 버전 25.3을 권장합니다.
-2. **버블 차트 색상을 사용자 지정하려면 어떻게 해야 하나요?**
-   - 를 사용하여 사용자 정의 `chart.getNSeries().get(0).setPlotOnSecondAxis(true)` 그리고 Aspose.Cells가 제공하는 다른 스타일링 방법도 있습니다.
-3. **Aspose.Cells를 Windows와 Linux 환경 모두에서 사용할 수 있나요?**
-   - 네, Aspose.Cells는 Java 애플리케이션과 완벽한 크로스 플랫폼 호환이 가능합니다.
-4. **거품 크기를 설정할 때 흔히 발생하는 문제는 무엇입니까?**
-   - 오류를 방지하려면 버블 크기에 대한 데이터 범위가 데이터 세트 크기와 일치하는지 확인하세요.
-5. **Aspose.Cells에 대한 임시 라이선스를 어떻게 얻을 수 있나요?**
-   - 방문하다 [Aspose의 임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/) 모든 기능을 완벽하게 적용하고 테스트합니다.
+**Q: Aspose.Cells 최소 요구 버전은 무엇인가요?**  
+A: 이 튜토리얼에서는 모든 시연 기능과 호환성을 보장하기 위해 버전 25.3을 권장합니다.
 
-## 자원
-- **선적 서류 비치**: 자세한 내용은 다음을 참조하세요. [공식 문서](https://reference.aspose.com/cells/java/).
-- **다운로드**: 최신 버전을 받으세요 [출시 페이지](https://releases.aspose.com/cells/java/).
-- **구입**: 라이선스 옵션 살펴보기 [이 페이지](https://purchase.aspose.com/buy).
-- **무료 체험**: 무료 체험판을 통해 기능을 테스트해 보세요. [Aspose의 릴리스 섹션](https://releases.aspose.com/cells/java/).
-- **지원 포럼**: 문의사항이 있으시면 [지원 포럼](https://forum.aspose.com/c/cells/9) 이용 가능합니다.
+**Q: 버블 차트 색상을 어떻게 사용자 정의할 수 있나요?**  
+A: 시리즈의 서식 메서드를 사용하십시오, 예: `chart.getNSeries().get(0).getArea().getFillFormat().setForeColor(Color.getRed())`.
+
+**Q: 이 코드를 Linux 서버에서 실행할 수 있나요?**  
+A: 예, Aspose.Cells for Java는 완전한 크로스‑플랫폼이며 호환되는 JDK가 있는 모든 OS에서 작동합니다.
+
+**Q: “Data source size mismatch” 오류가 발생하면 어떻게 해야 하나요?**  
+A: 버블 크기, X값, Y값 범위가 동일한 셀 수를 포함하는지 다시 확인하십시오.
+
+**Q: 테스트용 임시 라이선스는 어디서 얻을 수 있나요?**  
+A: [Aspose의 임시 라이선스 페이지](https://purchase.aspose.com/temporary-license/)를 방문하여 체험 라이선스를 요청하십시오.
+
+## 리소스
+- **문서**: 자세한 내용은 [official documentation](https://reference.aspose.com/cells/java/)를 참조하십시오.
+- **다운로드**: 최신 버전은 [the release page](https://releases.aspose.com/cells/java/)에서 받으십시오.
+- **구매**: [this page](https://purchase.aspose.com/buy)에서 라이선스 옵션을 확인하십시오.
+- **무료 체험**: [Aspose's releases section](https://releases.aspose.com/cells/java/)에서 무료 체험으로 기능을 테스트하십시오.
+- **지원 포럼**: 문의 사항은 [support forum](https://forum.aspose.com/c/cells/9)에서 확인할 수 있습니다.
+
+---
+
+**마지막 업데이트:** 2026-04-02  
+**테스트 환경:** Aspose.Cells 25.3 for Java  
+**작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,7 @@
+Title: How to export Excel to PowerPoint – step‑by‑step guide
+Slug: how-to-export-excel-to-powerpoint-step-by-step-guide
+Category: excel-import-export
+ProcessedDate: 2026-08-05T03:13:06.016212
+SourceRepo: AI Search API
+Keywords: how to export excel, convert excel to pptx, set print area excel, create powerpoint from excel, convert spreadsheet to ppt
+PRNumber: 134

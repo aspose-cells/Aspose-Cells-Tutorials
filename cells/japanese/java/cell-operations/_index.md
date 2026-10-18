@@ -40,10 +40,16 @@ weight: 4
 ### [Aspose.Cells Java を使用して Excel の 1904 日付システムをマスターし、効果的なセル操作を実現する](./aspose-cells-java-configure-1904-date-system-excel/)
 
 ### [Aspose.Cells&#58; をマスターする：Java で CopyOptions と PasteOptions を実装し、Excel データ管理を行う](./aspose-cells-java-copy-paste-options/)
+### [Java で Excel の和暦日付を解析する – 完全ガイド](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Aspose.Cells for Java を使用して、Excel に保存された和暦日付を Java で正しく解析し、標準の日付形式に変換する方法を学びます。
+
 
 ### [Aspose.Cells Java を使用して Excel セルからデータを取得する方法&#58; 包括的ガイド](./aspose-cells-java-data-retrieval-excel/)
 
 ### [Aspose.Cells for Java を使用して Excel でアクティブセルを設定する方法&#58; 完全ガイド](./aspose-cells-java-set-active-cell-excel/)
+### [Java で Excel のセルから日時を取得する – 完全ガイド](./get-datetime-from-cell-in-java-excel-complete-guide/)
+Aspose.Cells for Java を使用して、セル内の日時データを取得し、適切に処理する方法をステップバイステップで解説します。
+
 
 ### [Aspose.Cells Java で名前を列に分割する](./aspose-cells-java-split-names-columns/)
 Aspose.Words Java 用のコードチュートリアル
@@ -71,6 +77,10 @@ Aspose.Words Java 用のコードチュートリアル
 ### [Aspose.Cells と Smart Markers を使用して Excel にデータを入力する](./populate-excel-aspose-cells-smart-markers/)
 
 ### [Aspose.Cells Java を使用して Excel の列幅を設定する](./set-column-width-excel-aspose-cells-java/)
+Aspose.Words Javaのコードチュートリアル
+
+### [Javaでセルを文字列に変換する – 完全エクスポートガイド](./convert-cell-to-string-in-java-complete-export-guide/)
+Aspose.Cells for Java を使用して、セルの内容を文字列に変換し、エクスポートする方法をステップバイステップで解説します。
 
 ## 追加リソース
 

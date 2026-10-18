@@ -29,6 +29,9 @@ Padroneggia le capacità di calcolo di Excel con i nostri tutorial completi sull
 ### [Padroneggia le formule di matrice di Excel con Aspose.Cells Java: semplifica calcoli e formattazione](./aspose-cells-java-array-formulas-custom-calculations/)
 Impara a impostare formule di matrice, applicare stili numerici, personalizzare calcoli e salvare cartelle di lavoro in modo efficiente utilizzando Aspose.Cells per Java.
 
+### [Ordina valori unici in Excel – Guida completa Java per impostare formule di matrice](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+Scopri come ordinare valori unici in Excel usando formule di matrice con Aspose.Cells per Java, con esempi di codice completi.
+
 ### [Come creare una funzione di valore statico personalizzata in Aspose.Cells Java](./aspose-cells-java-custom-static-value-function/)
 Scopri come estendere AbstractCalculationEngine per calcoli personalizzati utilizzando Aspose.Cells Java. Automatizza le attività di Excel con valori predefiniti.
 
@@ -83,7 +86,14 @@ Scopri come automatizzare le attività di Excel utilizzando Aspose.Cells per Jav
 ### [Come implementare FormulaText in Aspose.Cells per Java: una guida passo passo](./implementing-formula-text-aspose-cells-java-guide/)
 Scopri come estrarre il testo delle formule dalle celle di Excel utilizzando Aspose.Cells con Java. Questa guida illustra la configurazione, l'implementazione e le applicazioni pratiche.
 
-
+### [Come utilizzare Reduce in Excel con Java – Guida alle formule Lambda](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
+Scopri come applicare la funzione Reduce nelle formule Excel usando Java e le espressioni lambda per calcoli avanzati.
+### [Come utilizzare SEQUENCE in una cartella di lavoro Excel con Java – Guida passo‑passo](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+Scopri come applicare la funzione SEQUENCE in Aspose.Cells per Java per generare sequenze di dati in modo semplice e veloce.
+### [Come utilizzare WRAPCOLS in Java – Esempio completo di WRAPCOLS in Excel](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+Scopri come applicare la funzione WRAPCOLS con Aspose.Cells per Java per suddividere il contenuto delle celle in più colonne.
+### [Come calcolare la cotangente in Excel – Guida completa](./how-to-calculate-cotangent-in-excel-complete-guide/)
+Scopri come calcolare la cotangente in Excel usando le funzioni integrate e personalizzate con Aspose.Cells per Java.
 
 ## Risorse aggiuntive
 

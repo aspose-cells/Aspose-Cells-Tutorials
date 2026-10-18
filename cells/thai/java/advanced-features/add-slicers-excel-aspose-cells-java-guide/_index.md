@@ -10,11 +10,7 @@ url: /th/java/advanced-features/add-slicers-excel-aspose-cells-java-guide/
 weight: 1
 ---
 
- is no other text.
-
-Make sure to keep markdown formatting, code block placeholders unchanged.
-
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
