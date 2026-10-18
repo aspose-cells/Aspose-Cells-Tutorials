@@ -1,0 +1,7 @@
+Title: How to delete rows from Excel table using C#
+Slug: how-to-delete-rows-from-excel-table-using-c
+Category: row-and-column-management
+ProcessedDate: 2026-09-28T02:39:40.563404
+SourceRepo: AI Search API
+Keywords: delete rows from excel table, load excel workbook c#
+PRNumber: 171

@@ -57,9 +57,13 @@ Aspose.Cells Java ile IWarningCallback arayüzünü nasıl uygulayarak çalışm
 
 ### [Aspose.Cells Java&#58; Çalışma Kitaplarında Formül Hesaplamasını Nasıl Kesintiye Uğratırsınız](./master-aspose-cells-java-interrupt-formula-calculation-workbook/)
 Aspose.Cells for Java kullanarak çalışma kitaplarında formül hesaplamalarını verimli bir şekilde nasıl kesintiye uğratacağınızı öğrenin. Büyük veri setlerini optimize etmek ve sonsuz döngüleri önlemek için idealdir.
+### [Java'da Dinamik Dizi Formülleri: Excel Çalışma Kitabı Oluşturun ve Tüm Formülleri Hesaplayın](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
+Java ve Aspose.Cells kullanarak dinamik dizi formüllerini içeren bir Excel dosyası oluşturun ve tüm formülleri tek seferde hesaplayın.
 
 ### [Aspose.Cells Java&#58; Verimli Çalışma Kitabı İşleme İçin Hesaplama Zincirlerini Ustalıkla Kullanma](./optimize-excel-aspose-cells-java-calculation-chains/)
 Aspose.Cells for Java ile hesaplama zincirlerini uygulayarak Excel performansını nasıl artıracağınızı, formülleri verimli bir şekilde hesaplayıp hücre değerlerini güncelleyeceğinizi öğrenin.
+### [Java'da XLSX Dosyası Açma – Çalışma Kitabını Yükleme ve Formülleri Yeniden Hesaplama İçin Tam Kılavuz](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
+Java ile XLSX dosyasını açmayı, çalışma kitabını yüklemeyi ve formülleri yeniden hesaplamayı adım adım gösteren kapsamlı bir rehber.
 
 ## Ek Kaynaklar
 - [Aspose.Cells for Java Documentation](https://docs.aspose.com/cells/java/)
