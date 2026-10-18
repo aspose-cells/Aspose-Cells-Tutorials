@@ -1,0 +1,7 @@
+Title: How to refresh Excel workbooks in Java using Aspose.Cells
+Slug: how-to-refresh-excel-workbooks-in-java-using-aspose-cells
+Category: calculation-engine
+ProcessedDate: 2026-08-17T22:55:33.193945
+SourceRepo: AI Search API
+Keywords: how to refresh excel, load excel workbook java, java recalculate excel, calculate formulas aspose.cells, aspose.cells recalculate formulas
+PRNumber: 146

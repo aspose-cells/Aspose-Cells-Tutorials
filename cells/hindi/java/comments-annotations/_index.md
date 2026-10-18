@@ -53,7 +53,10 @@ Java के लिए Aspose.Cells के साथ Excel टिप्पणि�
 ### [Java के लिए Aspose.Cells के साथ Excel टिप्पणियाँ HTML में निर्यात करें](./export-excel-comments-html-aspose-cells-java/)
 Aspose.Words Java के लिए एक कोड ट्यूटोरियल
 
-
+### [How to Add Comment in Excel with Java – Complete Guide](./how-to-add-comment-in-excel-with-java-complete-guide/)
+Java के साथ Aspose.Cells का उपयोग करके Excel में टिप्पणी जोड़ने की पूरी प्रक्रिया सीखें।
+### [जावा का उपयोग करके एक्सेल में टिप्पणी जोड़ें – पूर्ण चरण‑दर‑चरण गाइड](./add-comment-to-excel-using-java-complete-step-by-step-guide/)
+जावा के साथ Aspose.Cells का उपयोग करके Excel फ़ाइल में टिप्पणी जोड़ने की पूरी प्रक्रिया सीखें।
 
 ## अतिरिक्त संसाधन
 

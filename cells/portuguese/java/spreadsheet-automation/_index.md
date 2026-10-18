@@ -50,6 +50,19 @@ Descubra como automatizar a criação e a personalização de gráficos no Excel
 Aprenda a automatizar tarefas do Excel em Java com exemplos de código-fonte usando Aspose.Cells, uma poderosa biblioteca para manipulação do Excel.
 ### [Integração de dados no Excel](./data-integration-in-excel/)
 Aprenda a integrar dados de forma eficiente no Excel para obter melhores insights e tomadas de decisão. Guia passo a passo com código-fonte usando Aspose.Cells para Java.
+### [Desativar Autofiltro no Excel com Java – Guia passo a passo](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
+Aprenda a desativar o autofiltro em planilhas Excel usando Aspose.Cells para Java com exemplos de código passo a passo.
+### [Criar Excel programaticamente em Java – Guia passo a passo](./create-excel-programmatically-in-java-step-by-step-guide/)
+Aprenda a criar arquivos Excel programaticamente em Java usando Aspose.Cells, com exemplos de código passo a passo.
+### [Como Desativar o Auto Filtro no Excel com Java – Guia Completo](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+Aprenda a desativar o Auto Filtro em planilhas Excel usando Aspose.Cells para Java com exemplos de código passo a passo.
+### [Como Desativar o AutoFiltro no Excel com Java – Guia Completo](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+Aprenda a desativar o AutoFiltro em planilhas Excel usando Aspose.Cells para Java com exemplos de código passo a passo.
+### [Criar matriz vertical no Excel com Java – Guia completo passo a passo](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+### [Como usar Expand no Java – Guia completo do Excel](./how-to-use-expand-in-java-complete-excel-guide/)
+Aprenda a usar o método Expand no Aspose.Cells para Java e crie planilhas dinâmicas com exemplos de código passo a passo.
+### [Como limpar o AutoFiltro no Excel usando Java – Guia completo](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Aprenda a remover filtros automáticos de planilhas Excel programaticamente com Aspose.Cells para Java, com exemplos de código passo a passo.
 ### [Criar nova pasta de trabalho Aspose – adicionar propriedade personalizada ao Excel e salvar como XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
 Aprenda a criar uma nova pasta de trabalho, adicionar propriedades personalizadas e salvar como XLSB usando Aspose.Cells para Java.
 

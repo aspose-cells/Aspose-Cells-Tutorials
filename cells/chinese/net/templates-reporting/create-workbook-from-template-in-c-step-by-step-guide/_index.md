@@ -22,7 +22,7 @@ title: 使用 C# 从模板创建工作簿 – 步骤指南
 url: /zh/net/templates-reporting/create-workbook-from-template-in-c-step-by-step-guide/
 ---
 
-final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

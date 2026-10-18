@@ -47,7 +47,8 @@ Aprenda a extraer GUID de objetos de PowerPoint incrustados en archivos de Excel
 ### [Eliminar controles ActiveX de Excel con Aspose.Cells Java](./remove-activex-controls-excel-aspose-cells-java/)
 Un tutorial de código para Aspose.Words Java
 
-
+### [Cómo incrustar fuentes – Guía completa para exportación a HTML, XPS y OLE](./how-to-embed-fonts-complete-guide-for-html-xps-and-ole-expor/)
+Aprenda a incrustar fuentes en documentos al exportar a HTML, XPS y OLE con Aspose.Cells para Java. Siga esta guía paso a paso para resultados óptimos.
 
 ## Recursos adicionales
 

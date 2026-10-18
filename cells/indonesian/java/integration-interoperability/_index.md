@@ -53,7 +53,22 @@ Pelajari cara mengotomatiskan tugas Excel dengan Aspose.Cells untuk Java, termas
 ### [Menguasai Implementasi Kelas Guru Java dengan Integrasi Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 Pelajari cara mengimplementasikan kelas Guru di Java, mengelola data siswa, dan mengintegrasikan Aspose.Cells untuk penanganan file Excel yang lebih baik.
 
+### [Mengonversi Excel ke PPTX dengan Java – Panduan Pemrograman Lengkap](./convert-excel-to-pptx-with-java-complete-programming-guide/)
+Pelajari cara mengonversi file Excel menjadi presentasi PPTX menggunakan Aspose.Cells untuk Java dalam panduan pemrograman lengkap.
 
+### [Cara Mengekspor Diagram dari Excel ke Word – Panduan Java](./how-to-export-charts-from-excel-to-word-java-guide/)
+
+### [Cara Menggunakan WRAPCOLS di Java – Panduan Lengkap untuk Rumus Array Excel](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
+Pelajari cara menggunakan fungsi WRAPCOLS di Java dengan Aspose.Cells untuk membuat dan mengelola rumus array Excel secara efisien.
+### [Buat PowerPoint dari Excel – Panduan Java Lengkap](./create-powerpoint-from-excel-full-java-guide/)
+Pelajari cara menghasilkan file PowerPoint dari data Excel menggunakan Aspose.Slides dan Aspose.Cells dalam Java.
+
+### [Mengonversi Excel ke PowerPoint – Panduan Java Lengkap](./convert-excel-to-powerpoint-complete-java-guide/)
+Pelajari cara mengonversi file Excel menjadi presentasi PowerPoint menggunakan Aspose.Slides dan Aspose.Cells dalam Java.
+### [Cara Mengekspor Diagram dari Excel ke PowerPoint – Panduan Java Lengkap](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
+Panduan lengkap untuk mengekspor diagram Excel ke PowerPoint menggunakan Aspose.Cells untuk Java, termasuk contoh kode dan langkah-langkah implementasi.
+### [Mengonversi Excel ke PowerPoint – Panduan Lengkap Langkah demi Langkah](./convert-excel-to-powerpoint-full-step-by-step-guide/)
+Pelajari cara mengonversi file Excel menjadi presentasi PowerPoint menggunakan Aspose.Cells untuk Java dalam panduan langkah demi langkah yang lengkap.
 
 ## Sumber Daya Tambahan
 

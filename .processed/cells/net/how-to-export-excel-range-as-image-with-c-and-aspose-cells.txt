@@ -1,0 +1,7 @@
+Title: How to export excel range as image with C# and Aspose.Cells
+Slug: how-to-export-excel-range-as-image-with-c-and-aspose-cells
+Category: image-and-chart-operations
+ProcessedDate: 2026-09-24T22:35:30.863087
+SourceRepo: AI Search API
+Keywords: export excel range as image
+PRNumber: 169

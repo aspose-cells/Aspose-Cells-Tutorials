@@ -8,23 +8,7 @@ url: /de/java/advanced-features/
 weight: 18
 ---
 
-" => "Aspose.Cells für Java Dokumentation"
-
-- "Aspose.Cells for Java API Reference" => "Aspose.Cells für Java API‑Referenz"
-
-- "Download Aspose.Cells for Java" => "Aspose.Cells für Java herunterladen"
-
-- "Free Support" => "Kostenloser Support"
-
-- "Temporary License" => "Temporäre Lizenz"
-
-FAQ: translate Q and A.
-
-Now produce final markdown.
-
-Make sure to keep shortcodes unchanged.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
