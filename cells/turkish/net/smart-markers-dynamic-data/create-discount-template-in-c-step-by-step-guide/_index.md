@@ -22,16 +22,6 @@ title: C#'ta İndirim Şablonu Oluşturma – Adım Adım Rehber
 url: /tr/net/smart-markers-dynamic-data/create-discount-template-in-c-step-by-step-guide/
 ---
 
-ablonu oluştur**, ardından **tablodaki hücrelerde indirimi uygula**, **verileri şablona enjekte et** ve hatta akıllı işaretçileriniz için **değişken önekini tanımla** nasıl yapacağınızı temiz C# kodu ile göstereceğiz."
-
-Continue.
-
-We must keep bold formatting.
-
-Proceed.
-
-Will produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

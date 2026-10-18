@@ -44,6 +44,23 @@ Leer hoe u Aspose.Cells voor Java kunt gebruiken om dynamische Excel-rapporten t
 ### [Dynamische Excel-rapporten maken met Aspose.Cells Java en slimme markeringen](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 Leer hoe u dynamische Excel-rapportgeneratie kunt automatiseren met Aspose.Cells voor Java met behulp van slimme markeringen. Stroomlijn uw rapportageproces efficiënt.
 
+### [Maak master-detail werkmap met Aspose.Cells (Java)](./create-master-detail-workbook-with-aspose-cells-java/)
+Leer hoe u een master‑detail werkmap maakt met Aspose.Cells voor Java, inclusief gegevensbinding en dynamische rapportage.
+
+### [Hoe werkbladen te genereren met Smart Markers – volledige Java-gids](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
+Leer hoe u met Smart Markers dynamisch werkbladen genereert in Java met Aspose.Cells.
+
+### [Aspose Cells Smart Markers: Laad Excel-sjabloon & genereer Excel vanuit sjabloon](./aspose-cells-smart-markers-load-excel-template-generate-exce/)
+Leer hoe u met Smart Markers een Excel-sjabloon laadt en dynamisch een nieuw Excel-bestand genereert.
+### [Werkmap SmartMarker maken – Excel-werkmap vullen](./create-workbook-smartmarker-populate-excel-workbook/)
+Leer hoe u met SmartMarkers een Excel-werkmap kunt maken en automatisch gegevens kunt invoegen.
+### [Excel-sjabloon vullen met gegevens – Maak Excel-rapport vanuit sjabloon](./populate-excel-template-with-data-create-excel-report-from-t/)
+Leer hoe u een Excel-sjabloon kunt vullen met gegevens en een rapport kunt genereren met Aspose.Cells voor Java.
+
+### [Aspose Cells Smart Markers – Excel-sjabloon vullen](./aspose-cells-smart-markers-populate-excel-template/)
+Leer hoe u met Smart Markers een Excel-sjabloon kunt vullen met gegevens via Aspose.Cells voor Java.
+### [Detailbladen maken in Java met Aspose.Cells slimme markeringen](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
+Leer hoe u detailbladen genereert met slimme markeringen in Aspose.Cells voor Java.
 ### [Hoe werkbladen met slimme markeringen maken met Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
 Leer hoe u met Aspose.Cells slimme markeringen kunt gebruiken om werkbladen automatisch te vullen en rapporten te genereren.
 

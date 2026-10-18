@@ -94,6 +94,9 @@
 تعرّف على كيفية إضافة علامات الاقتباس العليا في Excel باستخدام Aspose.Cells لـ .NET. دليل تعليمي بسيط يتضمن أمثلة برمجية ونصائح وأسئلة شائعة.
 ### [إنشاء مصنف مشترك باستخدام Aspose.Cells](./create-shared-workbook/)
 قم بإطلاق العنان للتعاون السلس من خلال إنشاء مصنفات مشتركة باستخدام Aspose.Cells لـ .NET باستخدام هذا الدليل السهل خطوة بخطوة.
+### [إنشاء مصنف جديد في C# – دليل برمجة شامل](./create-new-workbook-in-c-complete-programming-guide/)
+دليل شامل لإنشاء مصنف جديد في C# باستخدام Aspose.Cells، يغطي جميع الخطوات البرمجية.
+
 ### [اكتشاف أنواع الارتباطات في المصنف](./detect-link-types/)
 قم بتفعيل قوة Aspose.Cells لـ .NET من خلال تعلم كيفية اكتشاف أنواع الارتباطات التشعبية بشكل فعال في جداول بيانات Excel باستخدام هذا الدليل الشامل.
 ### [استخراج ملف Mol المضمن من المصنف](./extract-embedded-mol-file/)
@@ -125,6 +128,9 @@
 
 ### [Aspose.Cells .NET: إنشاء مصنفات Excel وإدارتها](./aspose-cells-dotnet-create-manage-excel-workbooks)
 برنامج تعليمي لبرمجة Aspose.Cells Net
+
+### [إنشاء مصنف جديد في C# – دليل خطوة بخطوة](./create-new-workbook-in-c-step-by-step-guide/)
+تعلم كيفية إنشاء مصنف Excel جديد باستخدام C# خطوة بخطوة مع Aspose.Cells.
 
 ### [إتقان تحويل صفحات PDF المخصصة في .NET باستخدام Aspose.Cells](./aspose-cells-dotnet-custom-pdf-page-conversion)
 تعرّف على كيفية تنفيذ تحويل صفحات PDF مخصصة باستخدام Aspose.Cells لـ .NET. تحكّم في تحويلات Excel إلى PDF من خلال تحديد الصفحات بدقة.
@@ -479,6 +485,9 @@
 
 ### [تحميل مصنف مع CultureInfo في Aspose.Cells .NET](./load-workbook-cultureinfo-aspose-cells-net)
 برنامج تعليمي لبرمجة Aspose.Cells Net
+
+### [كيفية تحميل مصنف Excel وتعيين أحجام الطابعة باستخدام Aspose.Cells .NET](./load-workbook-set-printer-sizes-aspose-cells-net)
+تعرف على كيفية تحميل مصنفات Excel ومعالجتها في .NET باستخدام Aspose.Cells، وتعيين أحجام الطابعة المخصصة مثل A3 أو A5، وتصديرها بتنسيق PDF.
 
 ### [كيفية تحميل مصنف Excel وتعيين أحجام الطابعة باستخدام Aspose.Cells لـ .NET](./load-workbook-set-printer-sizes-aspose-cells-dotnet)
 تعرف على كيفية تحميل مصنفات Excel ومعالجتها في .NET باستخدام Aspose.Cells، وتعيين أحجام الطابعة المخصصة مثل A3 أو A5، وتصديرها بتنسيق PDF.

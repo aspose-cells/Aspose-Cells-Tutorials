@@ -23,10 +23,6 @@ title: كيفية تصدير Pivot إلى PNG في C# – دليل خطوة بخ
 url: /ar/net/rendering-and-export/how-to-export-pivot-to-png-in-c-step-by-step-guide/
 ---
 
-and title.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

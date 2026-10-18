@@ -59,6 +59,9 @@ Aprenda a personalizar fontes em documentos do Excel usando o Aspose.Cells para 
 ### [Dominando formatos numéricos personalizados em pastas de trabalho do Excel Java com Aspose.Cells](./aspose-cells-java-custom-number-formats-handling/)
 Aprenda a lidar com formatos numéricos personalizados em pastas de trabalho Java usando Aspose.Cells. Este guia aborda a configuração de pastas de trabalho, o tratamento de exceções e aplicações práticas.
 
+### [Definir formato de número personalizado no Excel usando Aspose.Cells para Java – Guia completo](./set-custom-number-format-in-excel-with-java-complete-guide/)
+Aprenda a definir formatos de número personalizados em planilhas Excel usando Aspose.Cells para Java, com exemplos de código passo a passo.
+
 ### [Dominando a apresentação de dados no Excel: formatação de números e datas personalizadas com Aspose.Cells para Java](./aspose-cells-java-data-formatting-excel/)
 Aprenda a aplicar formatos numéricos e estilos de data personalizados usando o Aspose.Cells para Java, aprimorando a apresentação de dados em planilhas do Excel.
 
@@ -235,7 +238,17 @@ Aprenda a classificar dados do Excel com eficiência por cor de coluna usando o 
 ### [Como estilizar células do Excel e adicionar hiperlinks usando Aspose.Cells para Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Domine a estilização de células do Excel e a adição de hiperlinks em seus aplicativos Java com o Aspose.Cells. Siga este guia completo para integração e formatação perfeitas.
 
+### [Criar Pasta de Trabalho Excel com Formatação Dinâmica em Java – Guia Completo](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+Aprenda a criar uma pasta de trabalho Excel com formatação dinâmica usando Aspose.Cells para Java, com exemplos de código completos.
+### [Definir Formato de Número no Excel em Java – Guia Completo](./set-number-format-excel-in-java-complete-guide/)
+Aprenda a definir formatos numéricos personalizados em planilhas do Excel usando Aspose.Cells para Java, com exemplos de código passo a passo.
+### [Como aplicar estilos ao converter DataTable para Excel – Guia completo em Java](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
+Aprenda a aplicar estilos ao converter um DataTable para Excel usando Aspose.Cells para Java, com exemplos de código passo a passo.
 
+### [Aspose Cells Formato de Data: Como Definir Formato de Data Personalizado em Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+Aprenda a definir formatos de data personalizados em planilhas Excel usando Aspose.Cells para Java, com exemplos de código passo a passo.
+### [Definir fonte em negrito na exportação de Excel em Java – Guia completo](./set-font-bold-in-java-excel-export-complete-guide/)
+Aprenda a aplicar negrito a fontes ao exportar planilhas Excel usando Aspose.Cells para Java, com exemplos de código passo a passo.
 
 ## Recursos adicionais
 

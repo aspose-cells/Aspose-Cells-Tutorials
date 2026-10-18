@@ -10,19 +10,7 @@ url: /id/java/advanced-excel-charts/waterfall-charts/
 weight: 18
 ---
 
-  
-**Tested With:** Aspose.Cells for Java (latest)  
-**Author:** Aspose  
-
-Translate labels but keep dates.
-
-Then closing shortcodes.
-
-Now produce final content with all translations.
-
-Be careful to keep markdown formatting exactly.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

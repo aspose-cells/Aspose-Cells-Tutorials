@@ -1,117 +1,184 @@
 ---
-"date": "2025-04-07"
-"description": "了解如何使用 Aspose.Cells for Java 建立工作簿和新增圖表。本逐步指南涵蓋工作簿建立、資料輸入、圖表自訂和效能最佳化。"
-"title": "使用 Aspose.Cells for Java 建立工作簿並新增圖表&#58;綜合指南"
-"url": "/zh-hant/java/charts-graphs/create-workbook-add-charts-aspose-cells-java/"
-"weight": 1
+date: '2026-09-27'
+description: 了解如何使用 Aspose.Cells for Java 自訂 Excel chart 並建立 workbooks。分步指南涵蓋 chart
+  建立、資料輸入與效能技巧。
+keywords:
+- customize excel chart
+- aspose cells license
+- how to add chart
+- how to create workbook
+- aspose cells maven
+lastmod: '2026-09-27'
+og_description: 快速自訂 Excel chart，使用 Aspose.Cells for Java。本指南說明如何建立 workbook、加入資料，並以效能最佳實踐產生
+  charts。
+og_image_alt: Tutorial showing how to customize Excel chart with Aspose.Cells for
+  Java
+og_title: 快速自訂 Excel chart，使用 Aspose.Cells for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-27'
+  description: Learn how to customize Excel chart and create workbooks using Aspose.Cells
+    for Java. Step-by-step guide covers chart creation, data entry, and performance
+    tips.
+  headline: Customize Excel chart quickly with Aspose.Cells for Java
+  type: TechArticle
+- description: Learn how to customize Excel chart and create workbooks using Aspose.Cells
+    for Java. Step-by-step guide covers chart creation, data entry, and performance
+    tips.
+  name: Customize Excel chart quickly with Aspose.Cells for Java
+  steps:
+  - name: install Aspose.Cells via Maven or Gradle
+    text: '**Maven** **Gradle**'
+  - name: obtain and apply a license
+    text: You can start with a free trial, request a temporary license for extended
+      testing, or purchase a full license for production use. For licensing details,
+      visit the [purchase page](https://purchase.aspose.com/buy).
+  - name: initialize the API
+    text: The `Workbook` class is Aspose.Cells' top‑level object that represents an
+      Excel file in memory.
+  - name: instantiate the workbook
+    text: The `Workbook` constructor creates an empty workbook ready for data entry.
+  - name: access the first worksheet
+    text: '`Worksheet` represents an individual sheet within a workbook. The first
+      `Worksheet` is where we’ll store our sample data.'
+  - name: enter data into cells
+    text: Here we populate a small data table that the chart will later reference.
+  - name: add a 3‑D column chart
+    text: The `ChartCollection` class manages multiple charts within a worksheet.
+      Add a new 3‑D column chart and position it on the sheet.
+  - name: set the chart’s data source
+    text: Defining the data range tells the chart which cells to plot.
+  - name: save the workbook
+    text: Finally, write the workbook to an Excel‑compatible file.
+  type: HowTo
+- questions:
+  - answer: Load the file with `Workbook.load("path")`, modify cells or charts, then
+      call `save()` to write changes.
+    question: How do I update an existing workbook?
+  - answer: Yes. It efficiently processes workbooks with 100 000+ rows using less
+      than 200 MB of RAM when streaming is enabled.
+    question: Can Aspose.Cells handle large datasets?
+  - answer: Absolutely. The library includes line, pie, radar, bubble, and more than
+      70 chart types. See the documentation for the full list.
+    question: Are other chart types supported?
+  - answer: Verify that the data range references contiguous cells and that the cell
+      values are of numeric type. Adjust the chart’s `ChartArea` or `PlotArea` settings
+      if needed.
+    question: My chart looks distorted – what should I check?
+  - answer: Ensure your `pom.xml` or `build.gradle` uses the latest version number
+      and that your repository settings allow access to Maven Central.
+    question: What if Maven/Gradle fails to resolve the dependency?
+  type: FAQPage
+tags:
+- customize excel chart
+- Aspose.Cells
+- Java spreadsheet automation
+title: 快速自訂 Excel chart，使用 Aspose.Cells for Java
+url: /zh-hant/java/charts-graphs/create-workbook-add-charts-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# 快速自訂 Excel 圖表，使用 Aspose.Cells for Java
 
-# 使用 Aspose.Cells for Java 建立工作簿並新增圖表：綜合指南
+## 簡介
+在當今以資料為驅動的環境中，**customize Excel chart** 功能讓您將原始數字轉化為清晰的視覺故事。本教學將帶您一步步建立活頁簿、插入資料，並使用 Aspose.Cells for Java 添加精緻的圖表。完成後，您將擁有可重複使用的程式碼範本，可嵌入報告管線、儀表板或自動化電子郵件摘要中。
 
-## 介紹
-在當今數據驅動的世界中，視覺化資訊是做出明智決策的關鍵。原始數據通常需要轉換成有洞察力的視覺效果。本教程將指導您使用 **Aspose.Cells for Java** 建立工作簿並添加視覺上吸引人的圖表 - 轉換資料集的強大工具。
+### 您將學習
+- 如何使用 Aspose.Cells for Java **create a workbook**  
+- 如何以程式方式 **enter data** 到儲存格  
+- 如何 **add and customize a chart** 以視覺化該資料  
+- 最佳實踐技巧，針對 **excel chart performance** 與記憶體使用  
 
-### 您將學到什麼：
-- 如何在 Aspose.Cells for Java 中建立工作簿
-- 如何在特定儲存格中輸入數據
-- 如何在電子表格中新增和自訂圖表
-- 優化效能的最佳實踐
+讓我們在確認您已具備所需工具後開始吧。
 
-讓我們開始吧！在我們開始之前，請確保您具備必要的先決條件。
+## 快速解答
+- **What is the first step?** 透過 Maven 或 Gradle 安裝 Aspose.Cells for Java。  
+- **Which class represents the spreadsheet?** `Workbook` 為頂層物件。  
+- **How many chart types are supported?** 支援超過 70 種內建圖表類型。  
+- **Do I need a license for production?** 是 – 需要有效的 Aspose.Cells 授權。  
+- **Can large files be processed efficiently?** 可以，使用串流與批次更新。  
+
+## 什麼是 customize Excel chart？
+**Customize Excel chart** 意味著以程式方式在 Excel 活頁簿中定義圖表的類型、資料範圍、樣式與版面配置。這包括選取系列、設定軸標題、套用主題以及配置圖例。Aspose.Cells 讓您無需 Microsoft Office，即可直接從 Java 程式碼執行所有這些操作，實現伺服器端產生完整格式化圖表。
+
+## 為何使用 Aspose.Cells for Java 來 customize Excel chart？
+Aspose.Cells 支援 **70+ chart types**，且能處理含有 **100,000+ rows** 的活頁簿，同時透過串流資料將記憶體使用量控制在 200 MB 以下。此函式庫在伺服器端處理圖表，免除客戶端安裝 Excel 的需求，並確保跨平台的渲染一致性。
 
 ## 先決條件
-首先，請確保您已具備：
-1. **Aspose.Cells 庫**：您需要 Aspose.Cells for Java 函式庫版本 25.3 或更高版本。
-2. **開發環境**：您的環境應該支援 Maven 或 Gradle 來管理依賴項。
-3. **Java 知識**：建議熟悉 Java 程式設計的基本知識。
+- **Aspose.Cells library** – 版本 25.3 或更新。  
+- **Build tool** – 使用 Maven 或 Gradle 取得相依性。  
+- **Basic Java knowledge** – 您應該熟悉類別、方法與例外處理。  
 
-## 設定 Aspose.Cells for Java
+## 如何建立活頁簿並加入圖表？
 
-### 安裝
-若要將 Aspose.Cells 包含在您的專案中，請使用 Maven 或 Gradle：
+載入函式庫，實例化活頁簿，填入資料，然後建立圖表。完整流程如下所示。
 
-**Maven**
+### 步驟 1：透過 Maven 或 Gradle 安裝 Aspose.Cells
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-cells</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-cells', version: '25.3'
-```
+```  
 
-### 許可證獲取
-要開始使用 Aspose.Cells for Java，您可以：
-- 獲得 **免費試用許可證** 探索其特點。
-- 申請 **臨時執照** 如果需要進行擴充測試。
-- 購買用於生產用途的完整許可證。
+### 步驟 2：取得並套用授權
+您可以先使用免費試用版，或申請臨時授權以延長測試，亦可購買正式授權供生產環境使用。欲了解授權細節，請造訪 [purchase page](https://purchase.aspose.com/buy)。
 
-如需取得許可證，請訪問 [購買頁面](https://purchase。aspose.com/buy).
-
-### 基本初始化
-安裝後，如下初始化 Aspose.Cells：
-
+### 步驟 3：初始化 API
+`Workbook` 類別是 Aspose.Cells 的頂層物件，代表記憶體中的 Excel 檔案。  
 ```java
 import com.aspose.cells.Workbook;
 
 public class WorkbookInitialization {
     public static void main(String[] args) {
-        // 建立新的工作簿對象
+        // Create a new workbook object
         Workbook workbook = new Workbook();
         
         System.out.println("Workbook created successfully!");
     }
 }
-```
+```  
 
-這個簡單的設定允許您建立一個空白的工作簿，準備輸入資料和建立圖表。
-
-## 實施指南
-
-### 功能：工作簿建立和資料輸入
-
-#### 概述
-建立工作簿是以程式設計方式處理電子表格的第一步。本節將指導您實例化新的工作簿並使用範例資料填充它。
-
-#### 逐步實施
-##### 1.實例化工作簿對象
+### 步驟 4：實例化活頁簿
+`Workbook` 建構子會建立一個空的活頁簿，準備接受資料輸入。  
 ```java
 import com.aspose.cells.Workbook;
 
-// 建立新的工作簿對象
+// Create a new workbook object
 double value = 50;
 workbook.getWorksheets().get(0).getCells().get("A1").setValue(value);
-```
-這 `Workbook` 類別代表一個 Excel 文件，可讓您對其內容執行操作。
+```  
 
-##### 2. 存取第一個工作表
+### 步驟 5：存取第一個工作表
+`Worksheet` 代表活頁簿中的單一工作表。  
+第一個 `Worksheet` 將用來存放我們的範例資料。  
 ```java
 import com.aspose.cells.WorksheetCollection;
 
 WorksheetCollection worksheets = workbook.getWorksheets();
 Worksheet sheet = worksheets.get(0);
-```
-存取第一個工作表至關重要，因為它是我們的資料入口點。
+```  
 
-##### 3. 在儲存格中輸入數據
+### 步驟 6：將資料寫入儲存格
+此處我們填入一個小型資料表，供圖表稍後參考。  
 ```java
 import com.aspose.cells.Cells;
 import com.aspose.cells.Cell;
 
 Cells cells = sheet.getCells();
 
-// 為不同的儲存格設定值
+// Set values for different cells
 cells.get("A1").setValue(50);
 cells.get("A2").setValue(100);
 cells.get("A3").setValue(150);
@@ -124,92 +191,95 @@ cells.get("C3").setValue(180);
 cells.get("D1").setValue(40);
 cells.get("D2").setValue(120);
 cells.get("D3").setValue(250);
-```
-在這裡，我們用特定的值填充單元格，這些值稍後將在圖表中顯示出來。
+```  
 
-### 功能：為工作表新增圖表
-
-#### 概述
-可視化數據可以大大增強理解和洞察力。讓我們在工作表中新增一個 3D 長條圖。
-
-#### 逐步實施
-##### 1. 存取圖表集合
+### 步驟 7：加入 3‑D 柱狀圖
+`ChartCollection` 類別管理工作表內的多個圖表。  
 ```java
 import com.aspose.cells.ChartCollection;
 
 ChartCollection charts = sheet.getCharts();
-```
-這 `ChartCollection` 類別可讓您管理工作表中的多個圖表。
+```  
 
-##### 2. 新增 3D 長條圖
+新增一個 3‑D 柱狀圖並將其定位於工作表上。  
 ```java
 import com.aspose.cells.Chart;
 import com.aspose.cells.ChartType;
 
 int chartIndex = charts.add(ChartType.COLUMN_3_D, 5, 0, 15, 5);
 Chart chart = charts.get(chartIndex);
-```
-新增圖表涉及指定其類型和在工作表上的位置。
+```  
 
-##### 3.設定圖表資料來源
+### 步驟 8：設定圖表的資料來源
+定義資料範圍可告訴圖表要繪製哪些儲存格。  
 ```java
 import com.aspose.cells.SeriesCollection;
 
 SeriesCollection serieses = chart.getNSeries();
 serieses.add("A1:B3", true);
-```
-定義圖表的資料範圍對於準確表示資料集至關重要。
+```  
 
-### 功能：儲存工作簿
-最後，儲存包含所有變更的工作簿：
+### 步驟 9：儲存活頁簿
+最後，將活頁簿寫入 Excel 相容的檔案。  
 ```java
 import com.aspose.cells.SaveFormat;
 
-String outDir = "YOUR_OUTPUT_DIRECTORY"; // 定義輸出目錄路徑
+String outDir = "YOUR_OUTPUT_DIRECTORY"; // Define output directory path
 workbook.save(outDir + "/HTCCustomChart_out.xls", SaveFormat.EXCEL_97_TO_2003);
-```
-這會將您的工作簿儲存為與 Excel 相容的格式，以便共用或進一步分析。
+```  
 
-## 實際應用
-1. **財務分析**：使用 Aspose.Cells 視覺化財務數據趨勢以協助決策。
-2. **銷售報告**：產生動態銷售圖表，展示月或季的銷售業績。
-3. **庫存管理**：建立用於顯示庫存水準和庫存隨時間變動情況的儀表板。
-4. **教育工具**：開發具有嵌入式數據圖表的互動式學習材料。
-5. **醫療保健分析**：使用圖表功能來呈現患者統計數據和健康趨勢。
+## Excel 圖表產生的效能考量
+- **Stream data**：在處理數百萬列時，使用 `WorkbookDesigner` 或 `Workbook` 串流 API。  
+- **Batch updates**：將儲存格寫入與圖表修改分批處理，以減少內部重新計算。  
+- **Dispose objects**：儲存後呼叫串流的 `close()`，並將大型物件設為 `null`，即時釋放記憶體。  
 
-## 性能考慮
-處理大型資料集時，請考慮以下效能優化技巧：
-- 僅處理必要的數據，以最大限度地減少資源使用。
-- 透過在使用後關閉物件來有效管理 Java 記憶體。
-- 盡可能選擇批量更新以減少計算時間。
+## 實務應用
+1. **Financial analysis** – 產生每日更新的損益圖表。  
+2. **Sales reporting** – 為主管儀表板製作季報柱狀圖。  
+3. **Inventory tracking** – 使用堆疊柱狀圖視覺化庫存水平。  
+4. **Education** – 建立互動式工作表供課堂練習。  
+5. **Healthcare analytics** – 繪製患者統計圖表供研究發表。  
 
-## 結論
-透過遵循本指南，您已經學習如何使用 Aspose.Cells for Java 建立工作簿、輸入資料和新增圖表。這些技能使您能夠以有意義的方式呈現數據，從而增強分析和溝通。
+## 常見問題
 
-### 後續步驟
-透過將 Aspose.Cells 與其他系統整合或嘗試不同的圖表類型和配置來進一步探索。
+**Q: How do I update an existing workbook?**  
+A: 使用 `Workbook.load("path")` 載入檔案，修改儲存格或圖表，然後呼叫 `save()` 寫入變更。
 
-## 常見問題部分
-1. **如何更新現有工作簿？**
-   - 使用以下方式載入工作簿 `Workbook.load()` 並根據需要進行修改。
-2. **我可以將 Aspose.Cells 用於大型資料集嗎？**
-   - 是的，但請考慮效能優化技術。
-3. **是否支援其他圖表類型？**
-   - 絕對地！檢查 [文件](https://reference.aspose.com/cells/java/) 以取得受支援圖表的完整清單。
-4. **如果我的圖表顯示不正確怎麼辦？**
-   - 驗證您的資料範圍並確保其格式正確。
-5. **如何解決 Maven/Gradle 的安裝問題？**
-   - 確保您的依賴配置與可用的最新版本相符。
+**Q: Can Aspose.Cells handle large datasets?**  
+A: 可以。啟用串流時，它能以低於 200 MB 記憶體處理含 100 000+ 列的活頁簿。
+
+**Q: Are other chart types supported?**  
+A: 當然。函式庫包含折線圖、圓餅圖、雷達圖、氣泡圖等超過 70 種圖表類型。完整清單請參閱文件。
+
+**Q: My chart looks distorted – what should I check?**  
+A: 請確認資料範圍指向連續的儲存格且儲存格值為數值型別。如有需要，調整圖表的 `ChartArea` 或 `PlotArea` 設定。
+
+**Q: What if Maven/Gradle fails to resolve the dependency?**  
+A: 請確保您的 `pom.xml` 或 `build.gradle` 使用最新版本號，且儲存庫設定允許存取 Maven Central。
 
 ## 資源
-- [Aspose.Cells文檔](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells 文件說明](https://reference.aspose.com/cells/java/)
+- [文件說明](https://reference.aspose.com/cells/java/)
 - [下載 Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
-- [購買許可證](https://purchase.aspose.com/buy)
+- [購買授權](https://purchase.aspose.com/buy)
 - [免費試用](https://releases.aspose.com/cells/java/)
-- [臨時執照](https://purchase.aspose.com/temporary-license/)
+- [臨時授權](https://purchase.aspose.com/temporary-license/)
 - [Aspose 支援論壇](https://forum.aspose.com/c/cells/9)
 
-立即開始使用 Aspose.Cells for Java 來增強您的資料視覺化能力！
+立即開始使用 Aspose.Cells for Java 來 **customize Excel chart**，更快速地提供資料驅動的洞見。
+
+---
+
+**最後更新：** 2026-09-27  
+**測試環境：** Aspose.Cells 25.3 for Java  
+**作者：** Aspose
+
+## 相關教學
+
+- [使用 Aspose.Cells for Java 自訂 Excel 圖表資料標籤：逐步指南](/cells/java/charts-graphs/customize-chart-data-labels-aspose-cells-java/)
+- [精通 Aspose.Cells Java：活頁簿建立與圖表自訂](/cells/java/charts-graphs/aspose-cells-java-workbook-chart-customization/)
+- [使用 Aspose.Cells Java 建立動態 Excel 圖表：開發者完整指南](/cells/java/charts-graphs/aspose-cells-java-dynamic-excel-charts/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

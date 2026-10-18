@@ -24,19 +24,7 @@ title: Sembunyikan panah filter di Excel dengan C# – Panduan Lengkap
 url: /id/net/excel-autofilter-validation/hide-filter-arrows-excel-with-c-complete-guide/
 ---
 
-phrase. Could translate but maybe keep as is. Safer to translate whole heading but keep "hide filter arrows excel" unchanged? I'd translate: "# hide filter arrows excel – Panduan Lengkap". Keep the phrase.
-
-Proceed.
-
-Paragraph: "Ever wondered how to **hide filter arrows excel** without manually clicking each column? ..." translate.
-
-We'll keep **hide filter arrows excel** bold unchanged.
-
-Proceed through all.
-
-Make sure to keep code block placeholders unchanged.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
