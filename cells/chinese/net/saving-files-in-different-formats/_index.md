@@ -46,6 +46,8 @@
 了解如何使用 Aspose.Cells for .NET 将 Excel 文件保存为 97-2003 格式。获取实用技巧和分步指导。
 ### [以 2007 xlsb 格式保存 Excel 文件](./save-excel-file-in-2007-xlsb-format/)
 学习如何使用 Aspose.Cells for .NET 将 Excel 文件保存为 xlsb 格式！我们将提供包含实际示例的分步指南。
+### [在 C# 中保存 XLSB – 步骤指南](./how-to-save-xlsb-in-c-step-by-step-guide/)
+学习如何使用 Aspose.Cells for .NET 在 C# 中将工作簿保存为 XLSB 格式，提供分步示例和实用技巧。
 ### [以 2007 xlsx 格式保存 Excel 文件](./save-excel-file-in-2007-xlsx-format/)
 按照本分步指南，使用 Aspose.Cells for .NET 轻松将 Excel 文件保存为 XLSX 格式。掌握 Excel 操作。
 ### [以 HTML 格式保存文件](./save-file-in-html-format/)

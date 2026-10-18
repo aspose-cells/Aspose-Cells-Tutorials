@@ -1,0 +1,7 @@
+Title: Convert Excel to PDF in C# – complete programming guide
+Slug: convert-excel-to-pdf-in-c-complete-programming-guide
+Category: conversion-to-pdf
+ProcessedDate: 2026-08-11T11:13:22.422688
+SourceRepo: AI Search API
+Keywords: convert excel to pdf, export workbook as pdf, how to export excel to pdf/a
+PRNumber: 140

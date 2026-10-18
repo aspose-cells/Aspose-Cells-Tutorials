@@ -1,0 +1,7 @@
+Title: Create excel file programmatically in C# – tutorial
+Slug: create-excel-file-programmatically-in-c-tutorial
+Category: excel-file-handling
+ProcessedDate: 2026-08-11T11:13:17.774719
+SourceRepo: AI Search API
+Keywords: create excel file programmatically, datetime.parseexact custom format, write date to excel cell, how to save excel file c#
+PRNumber: 140

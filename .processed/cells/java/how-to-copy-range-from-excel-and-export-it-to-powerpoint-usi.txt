@@ -1,0 +1,7 @@
+Title: How to copy range from Excel and export it to PowerPoint using Java
+Slug: how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi
+Category: integration-interoperability
+ProcessedDate: 2026-09-05T22:14:30.367907
+SourceRepo: AI Search API
+Keywords: how to copy range, export excel to powerpoint, convert excel to pptx, copy pivot table sheet, how to export excel
+PRNumber: 152

@@ -34,10 +34,15 @@ Renderstrategieën kunnen de uitvoerkwaliteit van je document sterk beïnvloeden
 ## Tutorials over het werken met lettertypen in spreadsheets
 ### [Lijst met gebruikte lettertypen in spreadsheet ophalen](./get-list-of-fonts-used-in-spreadsheet/)
 Leer hoe u lettertypen uit Excel-spreadsheets kunt ophalen en weergeven met Aspose.Cells voor .NET met deze eenvoudig te volgen tutorial.
+
 ### [Standaardlettertype instellen voor PDF-opslagopties](./set-default-font-for-pdf-save-options/)
 Leer hoe u standaardlettertypen voor PDF-opslagopties instelt met Aspose.Cells voor .NET, zodat uw documenten er altijd perfect uitzien.
+
 ### [Lettertypen opgeven voor werkmapweergave](./specify-fonts-for-workbook-rendering/)
 Leer hoe u aangepaste lettertypen kunt specificeren voor werkmapweergave met Aspose.Cells voor .NET. Een stapsgewijze handleiding voor een perfecte PDF-uitvoer.
+
+### [Lettertype van tekstvak in een raster wijzigen – Complete stapsgewijze handleiding](./change-textbox-font-in-a-grid-complete-step-by-step-guide/)
+Leer hoe u het lettertype van een tekstvak in een raster kunt wijzigen met Aspose.Cells voor .NET, stap voor stap uitgelegd.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

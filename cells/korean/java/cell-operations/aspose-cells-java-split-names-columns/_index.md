@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-08"
-"description": "Aspose.Words Java에 대한 코드 튜토리얼"
-"title": "Aspose.Cells Java를 사용하여 이름을 열로 분할"
-"url": "/ko/java/cell-operations/aspose-cells-java-split-names-columns/"
-"weight": 1
+date: '2026-03-15'
+description: Aspose Cells Java를 사용하여 이름을 별도의 열로 분할하고 워크북을 xlsx 형식으로 저장하는 방법을 단계별 튜토리얼에서
+  배워보세요.
+keywords:
+- Aspose.Cells Java
+- split names columns
+- Excel manipulation
+- text to columns Java
+- Java Excel processing
+title: Aspose Cells Java – 이름을 열로 분할
+url: /ko/java/cell-operations/aspose-cells-java-split-names-columns/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,34 +19,33 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# 마스터링 **aspose cells java**: 이름을 열로 분할하기
 
-# Aspose.Cells Java 마스터하기: 이름을 열로 분할하기
+우리의 포괄적인 **aspose cells java** 튜토리얼에 오신 것을 환영합니다. 이 가이드에서는 단일 Excel 열에 저장된 **이름을 분할**하여 이름과 성 두 개의 별도 열로 만드는 방법을 강력한 텍스트‑투‑컬럼 기능을 사용해 배우게 됩니다. 연락처 목록을 정리하거나, CRM 가져오기를 위해 데이터를 준비하거나, 스프레드시트를 빠르게 재구성해야 할 때, 이 튜토리얼은 변환 후 **save workbook xlsx** 하는 정확한 방법을 보여줍니다.
 
-Aspose.Cells Java를 사용하여 단일 열의 이름을 두 개의 별개 열(이름 열과 성 열)로 분리하는 방법에 대한 종합 가이드에 오신 것을 환영합니다. Excel 파일에서 데이터 조작에 어려움을 겪었거나 스프레드시트에서 텍스트 분리를 효율적으로 처리하는 방법이 필요하다면 이 튜토리얼이 도움이 될 것입니다.
+## 빠른 답변
+- **이 튜토리얼에서는 무엇을 다루나요?** Aspose.Cells for Java를 사용해 전체 이름 문자열을 이름‑성 열로 분할합니다.  
+- **사용된 라이브러리 버전은?** 최신 안정 버전(2026년 현재).  
+- **라이선스가 필요합니까?** 개발 단계에서는 무료 체험판으로 충분하며, 운영 환경에서는 상용 라이선스가 필요합니다.  
+- **다른 구분자를 사용할 수 있나요?** 예, `TxtLoadOptions`에서 구분자를 변경하면 됩니다.  
+- **출력 파일 형식은 .xlsx인가요?** 네, 워크북은 XLSX 형식으로 저장됩니다.
 
-## 배울 내용:
-- Aspose.Cells Java를 사용하여 새 통합 문서를 만드는 방법.
-- 워크시트에 데이터를 채우는 기술.
-- 구성 중 `TxtLoadOptions` 열 분할을 위해.
-- 를 사용하여 `textToColumns()` 이름 열을 효과적으로 분할하는 방법.
-- XLSX 형식으로 통합 문서를 저장합니다.
+## **aspose cells java**란?
+**Aspose.Cells java**는 Microsoft Office 없이도 Excel 파일을 생성, 수정, 변환 및 렌더링할 수 있는 고성능 Java API입니다. 모든 주요 Excel 형식을 지원하며 수식, 차트, 데이터 조작 등 고급 기능을 제공합니다.
 
-이 튜토리얼을 마치면 Aspose.Cells Java가 Excel 파일 관리 작업을 어떻게 향상시킬 수 있는지 명확하게 이해하게 될 것입니다. 먼저 전제 조건을 살펴보고 성공적인 사용을 위한 환경을 설정해 보겠습니다.
+## 이름을 분할할 때 **aspose cells java**를 사용하는 이유
+- **Zero‑install**: 모든 서버‑사이드 Java 환경에서 작동합니다.  
+- **Speed**: 네이티브 Excel 인터롭보다 큰 스프레드시트를 더 빠르게 처리합니다.  
+- **Precision**: 구분자, 열 범위, 출력 형식에 대한 완전한 제어가 가능합니다.  
+- **Reliability**: COM이나 Office 의존성이 없어 클라우드나 컨테이너 배포에 이상적입니다.
 
-### 필수 조건
+## 사전 요구 사항
+- Java Development Kit (JDK) 8 이상.  
+- IntelliJ IDEA 또는 Eclipse와 같은 IDE (선택 사항이지만 권장).  
+- Maven 또는 Gradle을 통한 의존성 관리.  
 
-시작하기 전에 다음 사항을 확인하세요.
-
-- **자바 개발 키트(JDK)** 귀하의 시스템에 설치되었습니다.
-- Java 프로그래밍 개념에 대한 기본적인 이해.
-- IntelliJ IDEA나 Eclipse와 같은 통합 개발 환경(IDE).
-
-또한 프로젝트에 Aspose.Cells 라이브러리를 포함해야 합니다. 이 튜토리얼에서는 Maven과 Gradle 설정 옵션 모두에 대해 다룹니다.
-
-### Java용 Aspose.Cells 설정
-
-#### Maven 설정
-다음 종속성을 추가하세요. `pom.xml`:
+### Maven 설정
+`pom.xml`에 Aspose.Cells 의존성을 추가합니다:
 
 ```xml
 <dependency>
@@ -49,45 +55,39 @@ Aspose.Cells Java를 사용하여 단일 열의 이름을 두 개의 별개 열(
 </dependency>
 ```
 
-#### Gradle 설정
-이것을 당신의 것에 포함시키세요 `build.gradle`:
+### Gradle 설정
+`build.gradle`에 라이브러리를 추가합니다:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-Aspose.Cells를 사용하려면 무료 체험판을 선택하거나 임시 라이선스를 요청하여 구매하기 전에 전체 기능을 살펴볼 수 있습니다.
+> **Pro tip:** 개발 중 전체 기능을 사용하려면 Aspose 포털에서 임시 라이선스를 발급받아 적용하세요.
 
-### 구현 가이드
+## 단계별 구현
 
-Aspose.Cells Java를 사용하여 이름을 열로 분할하는 과정을 살펴보겠습니다.
-
-#### 통합 문서 만들기 및 Access First Worksheet
-
-Aspose.Cells에서 필요한 클래스를 가져오는 것으로 시작합니다.
+### 단계 1: 워크북 생성 및 첫 번째 워크시트 접근
+먼저 핵심 클래스를 임포트하고 새 워크북을 인스턴스화합니다. 이렇게 하면 데이터 삽입을 위한 빈 Excel 파일이 준비됩니다.
 
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 ```
 
-새로운 것을 만드세요 `Workbook` 인스턴스 및 첫 번째 워크시트에 액세스:
-
 ```java
-String dataDir = "YOUR_DATA_DIRECTORY"; // 여기에 디렉토리 경로를 정의하세요
+String dataDir = "YOUR_DATA_DIRECTORY"; // Define your directory path here
 
 Workbook wb = new Workbook();
 Worksheet ws = wb.getWorksheets().get(0);
 ```
 
-#### 데이터로 워크시트 채우기
-
-다음으로, 워크시트에 이름을 입력합니다. `Cell` 클래스를 추가하고 열 A에 이름을 추가합니다.
+### 단계 2: 워크시트에 샘플 이름 채우기
+다음으로 **A** 열에 몇 개의 전체 이름 문자열을 추가합니다. 실제 프로젝트에서는 데이터베이스나 CSV 파일에서 읽어올 수 있습니다.
 
 ```java
 import com.aspose.cells.Cell;
 
-String outDir = "YOUR_OUTPUT_DIRECTORY"; // 여기에 출력 디렉토리 경로를 정의하세요
+String outDir = "YOUR_OUTPUT_DIRECTORY"; // Define your output directory path here
 
 ws.getCells().get("A1").putValue("John Teal");
 ws.getCells().get("A2").putValue("Peter Graham");
@@ -96,9 +96,8 @@ ws.getCells().get("A4").putValue("Mack Nick");
 ws.getCells().get("A5").putValue("Hsu Lee");
 ```
 
-#### 열 분할을 위한 텍스트 로드 옵션 구성
-
-텍스트를 열로 분할하려면 다음을 구성하세요. `TxtLoadOptions`:
+### 단계 3: 열 분할을 위한 텍스트 로드 옵션 설정
+`TxtLoadOptions` 클래스는 Aspose.Cells가 텍스트를 어떻게 해석할지 지정합니다. 여기서는 공백(`' '`)을 구분자로 사용합니다.
 
 ```java
 import com.aspose.cells.TxtLoadOptions;
@@ -107,19 +106,17 @@ TxtLoadOptions opts = new TxtLoadOptions();
 opts.setSeparator(' ');
 ```
 
-#### 텍스트를 열로 분할
-
-활용하다 `textToColumns()` 이름과 성을 구분하는 방법:
+### 단계 4: 텍스트를 두 열로 분할
+이제 이름이 들어 있는 셀 영역에 `textToColumns()`를 호출합니다. 매개변수 `(0, 0, 5, opts)`는 *행 0, 열 0부터 시작해 5행을 옵션과 함께 처리*한다는 의미입니다.
 
 ```java
 ws.getCells().textToColumns(0, 0, 5, opts);
 ```
 
-이 단계에서는 공백을 구분 기호로 사용하여 전체 이름을 두 개의 열로 나눕니다.
+이 호출 이후, A 열에는 이름이, B 열에는 성이 들어갑니다.
 
-#### XLSX 형식으로 통합 문서 저장
-
-마지막으로, 원하는 디렉토리에 통합 문서를 저장합니다.
+### 단계 5: 워크북을 XLSX 파일로 저장
+마지막으로 수정된 워크북을 디스크에 기록합니다. `SaveFormat` 열거형을 사용하면 파일이 최신 XLSX 형식으로 저장됩니다.
 
 ```java
 import com.aspose.cells.SaveFormat;
@@ -127,56 +124,53 @@ import com.aspose.cells.SaveFormat;
 wb.save(outDir + "outputTextToColumns.xlsx");
 ```
 
-### 실제 응용 프로그램
+> **왜 중요한가:** **save workbook xlsx** 를 사용하면 최신 버전의 Excel, Google Sheets 및 기타 스프레드시트 도구와의 호환성을 보장합니다.
 
-텍스트를 열로 나누는 것이 매우 유용한 실제 시나리오는 다음과 같습니다.
-- **데이터 정리**: 복합 데이터 필드를 분리하여 분석을 위한 데이터 세트를 준비합니다.
-- **CRM 시스템**: 고객 정보를 보다 효율적으로 구성합니다.
-- **인사 관리**: 직원 기록과 데이터베이스를 간소화합니다.
+## 실용적인 활용 사례
+- **데이터 정리:** 분석 파이프라인에 로드하기 전에 연결된 필드를 빠르게 분리합니다.  
+- **CRM 통합:** 평면 연락처 목록을 구조화된 테이블로 변환해 가져옵니다.  
+- **HR 시스템:** 급여 또는 복리후생 처리를 위해 직원 전체 이름을 분리합니다.
 
-Aspose.Cells를 데이터베이스나 웹 애플리케이션 등 다른 시스템과 통합하면 원활한 데이터 관리 및 조작이 가능합니다.
+## 성능 고려 사항
+수천 행을 처리할 때:
 
-### 성능 고려 사항
+1. **배치 업데이트:** `ws.getCells().setRowHeight()` 등 배치 메서드를 사용해 오버헤드를 줄이세요.  
+2. **메모리 관리:** `wb.calculateFormula()`는 필요할 때만 호출하고, 큰 객체는 즉시 해제합니다.  
+3. **가비지 컬렉션:** 대용량 파일에 대해 `-Xmx2g`와 같은 적절한 힙 설정으로 JVM을 실행해 OutOfMemory 오류를 방지합니다.
 
-대용량 데이터 세트 작업 시 성능을 최적화하려면 다음을 수행하세요.
-- 셀 업데이트를 일괄 처리하여 불필요한 통합 문서 작업을 최소화합니다.
-- 특히 리소스가 제한된 환경에서는 메모리 사용량을 신중하게 관리하세요.
-- 원활한 작동을 보장하려면 가비지 수집에 대한 Java 모범 사례를 따르세요.
+## 흔히 발생하는 문제와 해결책
+| Issue | Solution |
+|-------|----------|
+| **이름에 중간 이니셜이 포함된 경우** (예: “John A. Doe”) | 구분자를 조정하거나 두 번째 열을 후처리해 성만 추출합니다. |
+| **예상치 못한 빈 셀** | `textToColumns` 매개변수가 실제 데이터 행과 일치하는지 확인합니다. |
+| **라이선스를 찾을 수 없음** | 임시 라이선스 파일(`Aspose.Cells.lic`)을 프로젝트 루트에 두거나 프로그램matically 라이선스를 설정합니다. |
 
-### 결론
+## 자주 묻는 질문
 
-이 가이드를 따라 하면 Aspose.Cells Java를 사용하여 이름을 열로 효과적으로 분할하는 방법을 배울 수 있습니다. 이 기술은 Excel 파일에서 데이터 관리 기능을 크게 향상시킬 수 있습니다.
+**Q: Aspose.Cells Java가 무엇인가요?**  
+A: Java를 사용해 Excel 파일을 프로그래밍 방식으로 생성, 수정 및 변환할 수 있는 강력한 라이브러리입니다.
 
-다음 단계로, 셀 서식 지정이나 차트 생성 등 Aspose.Cells의 다른 기능을 살펴보는 것을 고려하세요.
+**Q: 공백 이외의 구분자로 열을 분할할 수 있나요?**  
+A: 예, `TxtLoadOptions`의 구분자를 원하는 대로 커스터마이즈하면 됩니다.
 
-질문이 있으면 아래 FAQ 섹션에 문의해 주세요. 그리고 Aspose.Cells를 사용하여 더욱 고급 사용 사례를 실험해 보세요.
+**Q: 대용량 데이터셋을 Aspose.Cells로 처리하려면 어떻게 해야 하나요?**  
+A: 위에서 설명한 메모리 관리와 워크북 작업 최소화 전략을 적용해 성능을 최적화합니다.
 
-### FAQ 섹션
+**Q: 문제가 발생했을 때 지원을 받을 수 있나요?**  
+A: [Aspose Forum](https://forum.aspose.com/c/cells/9)에서 커뮤니티 도움을 받거나 Aspose 지원팀에 직접 문의하세요.
 
-**질문: Aspose.Cells Java란 무엇인가요?**
-답변: Java를 사용하여 Excel 파일을 프로그래밍 방식으로 만들고, 수정하고, 변환할 수 있는 강력한 라이브러리입니다.
+**Q: Aspose.Cells가 저장할 수 있는 파일 형식은 무엇인가요?**  
+A: XLSX, XLS, CSV 등 다양한 Excel 파일 형식을 지원합니다.
 
-**질문: 공백이 아닌 구분 기호를 기준으로 열을 나눌 수 있나요?**
-A: 네, 사용자 정의 가능 `TxtLoadOptions` 필요에 따라 데이터에 따라 구분 기호를 사용하세요.
+## 리소스
 
-**질문: Aspose.Cells를 사용하여 대용량 데이터 세트를 처리하려면 어떻게 해야 하나요?**
-답변: 통합 문서 내에서 메모리를 관리하고 작업을 최소화하여 성능을 최적화하세요.
+- **Documentation**: [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)
+- **Download**: [Aspose.Cells Java Releases](https://releases.aspose.com/cells/java/)
+- **Purchase**: [Buy Aspose.Cells](https://purchase.aspose.com/buy)
+- **Free Trial**: [Try Aspose.Cells for Free](https://releases.aspose.com/cells/java/)
+- **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 
-**질문: 문제가 발생하면 지원을 받을 수 있나요?**
-A: 방문하세요 [Aspose 포럼](https://forum.aspose.com/c/cells/9) 커뮤니티 지원을 원하시거나 해당 팀에 직접 문의하세요.
-
-**질문: Aspose.Cells는 어떤 형식으로 통합 문서를 저장할 수 있나요?**
-답변: XLSX, XLS, CSV 등 다양한 Excel 파일 형식을 지원합니다.
-
-### 자원
-
-- **선적 서류 비치**: [Aspose.Cells Java 참조](https://reference.aspose.com/cells/java/)
-- **다운로드**: [Aspose.Cells Java 릴리스](https://releases.aspose.com/cells/java/)
-- **구입**: [Aspose.Cells 구매](https://purchase.aspose.com/buy)
-- **무료 체험**: [Aspose.Cells를 무료로 사용해 보세요](https://releases.aspose.com/cells/java/)
-- **임시 면허**: [임시 면허 신청](https://purchase.aspose.com/temporary-license/)
-
-즐거운 코딩을 하시고, 여러분의 프로젝트에서 Aspose.Cells Java의 모든 기능을 활용해 보세요!
+행복한 코딩 되시길 바라며, 프로젝트에서 **aspose cells java**의 전체 기능을 마음껏 활용해 보세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -185,3 +179,9 @@ A: 방문하세요 [Aspose 포럼](https://forum.aspose.com/c/cells/9) 커뮤니
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-03-15  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose

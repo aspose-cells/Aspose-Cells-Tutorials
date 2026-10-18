@@ -96,11 +96,19 @@ Aprenda a implementar fórmulas compartidas en Excel con Aspose.Cells para .NET.
 ### [Dominando las fórmulas matriciales en .NET con Aspose.Cells: una guía completa](./mastering-aspose-cells-net-array-formulas)
 Aprenda a dominar las fórmulas matriciales con Aspose.Cells para .NET. Esta guía abarca la configuración, la implementación y las aplicaciones prácticas de potentes cálculos multicelda.
 
+### [Crear libro de Excel con la fórmula EXPAND – Guía completa](./create-excel-workbook-with-expand-formula-complete-guide/)
+Aprenda a crear un libro de Excel que utilice la fórmula EXPAND mediante Aspose.Cells para .NET, con ejemplos paso a paso.
+
 ### [Cómo configurar el idioma en archivos de Excel con Aspose.Cells .NET para compatibilidad multilingüe](./specify-language-excel-aspose-cells-net)
 Aprenda a especificar el idioma de sus archivos de Excel con Aspose.Cells .NET. Mejore la accesibilidad y el cumplimiento normativo de los documentos con esta guía paso a paso para internacionalizar la configuración de fórmulas.
 
 ### [Actualizar fórmulas de Excel Power Query con Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Aprenda a actualizar mediante programación fórmulas de Power Query en libros de Excel con Aspose.Cells para .NET. Gestión de fuentes de datos maestros para informes dinámicos.
+
+### [Cómo usar Lambda en C# con fórmulas de Excel – Guía completa](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
+Aprenda a aplicar expresiones Lambda en C# para crear y calcular fórmulas de Excel mediante Aspose.Cells, mejorando la flexibilidad y el rendimiento.
+### [Cómo calcular la cotangente en Excel con C# – Crear libro de trabajo, usar EXPAND y guardar](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+Aprenda a calcular la cotangente en Excel usando C#, crear un libro, aplicar la función EXPAND y guardar el archivo.
 
 ## Comprensión de los tipos de fórmulas de Excel
 

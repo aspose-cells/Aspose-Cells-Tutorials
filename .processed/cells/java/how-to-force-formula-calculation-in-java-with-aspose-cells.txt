@@ -1,0 +1,7 @@
+Title: How to force formula calculation in Java with Aspose.Cells
+Slug: how-to-force-formula-calculation-in-java-with-aspose-cells
+Category: calculation-engine
+ProcessedDate: 2026-09-21T18:42:34.479575
+SourceRepo: AI Search API
+Keywords: force formula calculation, set cell formula, write excel file java, use expand formula, use expand function
+PRNumber: 166

@@ -65,6 +65,9 @@ Tìm hiểu cách tự động nhóm và phác thảo trong Excel bằng Aspose.
 ### [Làm chủ phạm vi được đặt tên trong Excel với Aspose.Cells cho Java](./excel-named-ranges-aspose-cells-java/)
 Hướng dẫn mã cho Aspose.Words Java
 
+### [Gán tên cho ô trong Excel bằng Java – Hướng dẫn toàn diện](./assign-name-to-cell-in-excel-using-java-complete-guide/)
+Hướng dẫn chi tiết cách gán tên cho ô trong tệp Excel bằng Aspose.Cells cho Java, bao gồm ví dụ mã và các lưu ý thực tiễn.
+
 ### [Tự động hóa vùng in Excel bằng Aspose.Cells cho Java: Hướng dẫn từng bước](./excel-print-areas-automation-aspose-cells-java-guide/)
 Tìm hiểu cách tự động hóa các vùng in Excel bằng Aspose.Cells for Java. Làm chủ thao tác sổ làm việc và sắp xếp hợp lý các tác vụ báo cáo của bạn một cách hiệu quả.
 
@@ -83,7 +86,8 @@ Tìm hiểu cách quản lý và thao tác hiệu quả các phạm vi dữ li�
 ### [Gỡ bỏ các ô Excel trong Java bằng Aspose.Cells: Hướng dẫn từng bước](./unmerge-excel-cells-aspose-cells-java-guide/)
 Tìm hiểu cách tách ô hiệu quả trong các tệp Excel bằng Aspose.Cells for Java. Hướng dẫn này bao gồm thiết lập, phát hiện và tách ô đã tách bằng các ví dụ mã.
 
-
+### [Sao chép phạm vi trang tính bằng lập trình – Hướng dẫn Java toàn diện](./programmatically-copy-worksheet-range-complete-java-guide/)
+Tìm hiểu cách sao chép phạm vi worksheet trong Excel bằng Aspose.Cells cho Java một cách tự động và chi tiết.
 
 ## Tài nguyên bổ sung
 
