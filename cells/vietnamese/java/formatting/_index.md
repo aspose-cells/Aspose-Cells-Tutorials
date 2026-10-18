@@ -248,6 +248,8 @@ Làm chủ kiểu dáng ô Excel và thêm siêu liên kết vào ứng dụng J
 Hướng dẫn chi tiết cách tạo sổ làm việc Excel và áp dụng định dạng động bằng Aspose.Cells cho Java.
 ### [Cách áp dụng kiểu khi chuyển DataTable sang Excel – Hướng dẫn đầy đủ Java](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 Tìm hiểu cách áp dụng các kiểu định dạng khi chuyển đổi DataTable sang tệp Excel bằng Aspose.Cells cho Java.
+### [Cách tạo workbook Excel với định dạng tiền tệ và phông chữ đậm trong Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+Hướng dẫn tạo sổ làm việc Excel, áp dụng định dạng tiền tệ và phông chữ đậm bằng Aspose.Cells cho Java.
 
 ## Tài nguyên bổ sung
 

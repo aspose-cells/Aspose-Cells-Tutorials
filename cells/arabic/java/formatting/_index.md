@@ -30,7 +30,7 @@
 تعرّف على كيفية تحسين جداول بيانات Excel بنصوص HTML باستخدام Aspose.Cells لجافا. يقدم هذا الدليل تعليمات خطوة بخطوة، وتطبيقات عملية، ونصائح لتحسين الأداء.
 
 ### [كيفية تطبيق الأنماط على خلايا Excel باستخدام Aspose.Cells لـ Java - دليل كامل](./apply-styles-excel-aspose-cells-java/)
-تعرّف على كيفية تطبيق الأنماط برمجيًا على خلايا Excel باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل الإعداد، وإنشاء المصنفات، وتقنيات التنسيق.
+تعرّف على كيفية تطبيق الأنماط برمجياً على خلايا Excel باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل الإعداد، وإنشاء المصنفات، وتقنيات التنسيق.
 
 ### [تطبيق المؤشرات السفلية في Excel باستخدام Aspose.Cells لـ Java: دليل كامل](./apply-subscripts-aspose-cells-java/)
 تعرّف على كيفية تطبيق الأحرف العلوية والسفلية في Excel باستخدام Aspose.Cells لجافا. يغطي هذا الدليل خطوة بخطوة الإعداد والتنفيذ والتطبيقات العملية.
@@ -243,6 +243,7 @@
 ### [تعيين الخط العريض في تصدير Excel باستخدام Java – دليل كامل](./set-font-bold-in-java-excel-export-complete-guide/)
 
 ### [تعيين تنسيق رقم مخصص في Excel باستخدام Java – دليل كامل](./set-custom-number-format-in-excel-with-java-complete-guide/)
+### [كيفية إنشاء مصنف Excel بتنسيق عملة وخط عريض في Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 
 ## موارد إضافية
 

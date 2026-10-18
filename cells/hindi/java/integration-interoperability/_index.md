@@ -67,6 +67,8 @@ Excel फ़ाइल को PowerPoint प्रस्तुति में �
 Java के साथ Aspose.Cells का उपयोग करके Excel चार्ट को PowerPoint स्लाइड में निर्यात करने की चरण-दर-चरण प्रक्रिया सीखें।
 ### [Excel को PowerPoint में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-excel-to-powerpoint-full-step-by-step-guide/)
 Excel फ़ाइलों को PowerPoint प्रस्तुतियों में बदलने की पूरी प्रक्रिया, कोड उदाहरणों सहित।
+### [Aspose.Cells for Java का उपयोग करके Excel से चार्ट को DOCX में निर्यात करने का तरीका](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+Excel फ़ाइल से चार्ट को DOCX दस्तावेज़ में निर्यात करने के लिए Aspose.Cells for Java का उपयोग कैसे करें।
 
 ## अतिरिक्त संसाधन
 

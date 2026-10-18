@@ -123,6 +123,12 @@ Learn how to import custom Java objects into Excel worksheets using Aspose.Cells
 Follow this comprehensive guide to export Excel files to HTML using Aspose.Cells for Java, with detailed steps and source code.
 ### [Embed fonts in SVG while exporting Excel to SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
 Learn how to embed fonts in SVG files when exporting Excel to SVG using Aspose.Cells for Java.
+### [How to export Excel to TXT with Aspose.Cells and control decimal precision](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+Learn how to export Excel files to TXT format using Aspose.Cells while controlling decimal precision.
+### [How to set print area excel and export to PowerPoint](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+Learn how to set a print area in Excel and export the worksheet to PowerPoint using Aspose.Cells for Java.
+### [How to use aspose smart markers to convert JSON to Excel in Java](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+Learn how to convert JSON data to Excel using Aspose Smart Markers in Java with clear, step-by-step code examples.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

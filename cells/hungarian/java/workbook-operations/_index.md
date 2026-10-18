@@ -79,7 +79,7 @@ Kód oktatóanyag az Aspose.Words Java-hoz
 Ismerje meg, hogyan exportálhat Excel-fájlokat egységes szegélystílusokkal HTML-be az Aspose.Cells for Java használatával. Kövesse ezt az útmutatót a speciális mentési beállítások konfigurálásához és megvalósításához.
 
 ### [Excel exportálása XPS-be az Aspose.Cells for Java segítségével: lépésről lépésre útmutató](./aspose-cells-java-export-excel-xps/)
-Ismerje meg, hogyan exportálhat hatékonyan Excel-fájlokat XPS formátumba az Aspose.Cells for Java segítségével. Ez az átfogó útmutató a munkafüzetek betöltését, beállítási lehetőségeit és megjelenítését ismerteti.
+Ismerje meg, hogyan exportálhat hatékonyan Excel-fájlokat XPS formátumba az Aspose.Cells for Java segítségével. Ez az átfogó útmutató a munkafüzetek betöltését, beállítási lehetőségeit és a megjelenítését ismerteti.
 
 ### [Betűtípus-helyettesítési figyelmeztetések kezelése az Aspose.Cells-ben Java-ban: Teljes útmutató](./aspose-cells-java-font-substitution-warnings-guide/)
 Ismerje meg, hogyan kezelheti a betűtípus-helyettesítési figyelmeztetéseket Excel-fájlok Aspose.Cells for Java segítségével történő konvertálásakor, biztosítva a dokumentum integritását és az elrendezés konzisztenciáját.
@@ -499,6 +499,8 @@ Ismerje meg, hogyan állíthat be és kezelhet dokumentumok tulajdonságait, pé
 Ismerje meg, hogyan menthet munkafüzetet fájlba, és másolhat Excel-tartományokat az Aspose.Cells for Java használatával.
 ### [Munkafüzet létrehozása japán naptárral – Teljes Java oktatóanyag](./create-workbook-japanese-calendar-complete-java-tutorial/)
 Ismerje meg, hogyan hozhat létre japán naptárat tartalmazó Excel munkafüzetet az Aspose.Cells for Java segítségével.
+### [Hogyan menthetünk xlsb fájlokat egyéni tulajdonságokkal az Aspose.Cells for Java használatával](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Ismerje meg, hogyan menthet xlsb fájlokat egyéni tulajdonságokkal az Aspose.Cells for Java segítségével.
 
 ## További források
 

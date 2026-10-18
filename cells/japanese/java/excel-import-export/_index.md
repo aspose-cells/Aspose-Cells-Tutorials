@@ -134,6 +134,12 @@ Aspose.Cells for Javaを使用して、ExcelをHTMLにエクスポートする�
 Aspose.Cellsを使用して区切り文字を指定し、CSV形式でファイルを保存する手順を解説します。
 ### [ExcelをSVGにエクスポートする際のフォント埋め込み](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
 Aspose.Cells for Java を使用して、Excel を SVG にエクスポートする際にフォントを埋め込む方法をステップバイステップで解説します。
+### [Excelの印刷範囲を設定してPowerPointにエクスポートする方法](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+Aspose.Cells for Java を使用して、Excel の印刷範囲を指定し、PowerPoint スライドへエクスポートする手順を学びます。
+### [JavaでAspose Smart Markersを使用してJSONをExcelに変換する方法](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+Aspose.Smart Markers を使用して JSON データを Excel に変換する手順を学びます。
+### [Excel を TXT にエクスポートし、小数点精度を制御する方法](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+Aspose.Cellsを使用して、ExcelをTXT形式にエクスポートし、小数点の精度を自在に設定する方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -247,6 +247,8 @@
 ### [Как применять стили при конвертации DataTable в Excel – Полное руководство Java](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 Узнайте, как автоматически применять стили к ячейкам при преобразовании DataTable в файл Excel с помощью Aspose.Cells для Java.
 ### [Установить полужирный шрифт в экспорте Excel на Java – полное руководство](./set-font-bold-in-java-excel-export-complete-guide/)
+### [Как создать книгу Excel с валютным форматом и полужирным шрифтом в Java: полное руководство](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+Узнайте, как программно создать книгу Excel в Java, применить валютный формат к ячейкам и задать полужирный шрифт.
 
 ## Дополнительные ресурсы
 

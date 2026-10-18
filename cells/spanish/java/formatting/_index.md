@@ -247,6 +247,8 @@ Aprenda a aplicar estilos a los datos de un DataTable al exportarlos a Excel usa
 Aprenda a establecer formatos de fecha personalizados en Excel usando Aspose.Cells para Java. Esta guía paso a paso muestra cómo definir y aplicar patrones de fecha.
 ### [Cómo establecer la fuente en negrita en la exportación de Excel con Java: guía completa](./set-font-bold-in-java-excel-export-complete-guide/)
 Aprenda a aplicar negrita a fuentes al exportar archivos Excel con Aspose.Cells para Java, mejorando la legibilidad y el estilo de sus documentos.
+### [Cómo crear un libro de Excel con formato de moneda y fuente en negrita en Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+Aprenda a crear libros de Excel con formato de moneda y texto en negrita usando Aspose.Cells para Java.
 
 ## Recursos adicionales
 

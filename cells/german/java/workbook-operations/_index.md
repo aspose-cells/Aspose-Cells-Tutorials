@@ -496,6 +496,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java Arbeitsmappen in Dateien speich
 
 ### [Wie man benutzerdefinierte Eigenschaften in Excel (Java) hinzufügt – Wert abrufen & als XLSB speichern](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
 Erfahren Sie, wie Sie benutzerdefinierte Eigenschaften zu einer Excel-Arbeitsmappe hinzufügen, den Wert auslesen und die Datei als XLSB speichern.
+### [So speichern Sie XLSB-Dateien mit benutzerdefinierten Eigenschaften – Aspose.Cells für Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Erfahren Sie, wie Sie XLSB-Dateien mit benutzerdefinierten Dokumenteigenschaften speichern, indem Sie Aspose.Cells für Java nutzen.
 
 ## Weitere Ressourcen
 

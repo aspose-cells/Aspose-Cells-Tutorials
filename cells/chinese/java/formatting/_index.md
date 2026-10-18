@@ -248,6 +248,8 @@ Aspose.Words Java 代码教程
 了解如何使用 Aspose.Cells for Java 在 Java 中创建具备动态格式的 Excel 工作簿，提供完整步骤、代码示例和最佳实践。
 ### [在将 DataTable 转换为 Excel 时应用样式 – 完整 Java 指南](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 学习如何使用 Aspose.Cells for Java 将 DataTable 导出为 Excel 并在转换过程中应用自定义单元格样式，提升报表外观。
+### [如何在 Java 中创建带有货币格式和粗体字体的 Excel 工作簿](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+学习使用 Aspose.Cells for Java 在 Excel 工作簿中应用货币格式并设置粗体字体的步骤和代码示例。
 
 ## 其他资源
 

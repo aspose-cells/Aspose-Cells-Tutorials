@@ -56,7 +56,7 @@ Aspose.Words Java 代码教程
 学习如何使用 Aspose.Cells for Java 将 Excel 文件转换为 XPS 格式。本指南涵盖设置、实现和性能技巧。
 
 ### [使用 Aspose.Cells Java 掌握 Excel 工作簿操作：开发人员综合指南](./aspose-cells-java-excel-workbook-creation/)
-学习如何使用 Aspose.Cells 在 Java 中高效地管理和自动化 Excel 工作簿操作。本指南涵盖了工作簿的创建、配置和无缝保存。
+学习如何使用 Aspose.Cells 在 Java 中高效地管理和自动化 Excel 工作簿操作。本指南涵盖工作簿的创建、配置和无缝保存。
 
 ### [掌握 Aspose.Cells Java：Excel 工作簿管理](./aspose-cells-java-excel-workbook-management/)
 Aspose.Words Java 代码教程
@@ -502,6 +502,8 @@ Aspose.Words Java 代码教程
 学习如何使用 Aspose.Cells for Java 在 Excel 工作簿中添加自定义属性、检索其值并将工作簿保存为 XLSB 格式。
 ### [在 Java 中保存新工作簿 – 在工作簿之间复制范围教程](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
 学习如何在 Java 中创建新工作簿并在工作簿之间复制单元格范围。
+### [使用 Aspose.Cells for Java 保存带自定义属性的 xlsb 文件](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+学习如何使用 Aspose.Cells for Java 将自定义属性保存到 xlsb 文件中。
 
 ## 其他资源
 

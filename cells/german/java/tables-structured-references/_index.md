@@ -56,7 +56,11 @@ Erfahren Sie, wie Sie Textfelder in Excel mit Aspose.Cells für Java verwalten. 
 ### [Aspose.Cells Java beherrschen: Zellen in einem benannten Bereich für die Excel-Datenmanipulation identifizieren](./master-aspose-cells-java-identify-named-range-cells/)
 Erfahren Sie, wie Sie Aspose.Cells mit Java verwenden, um Zellen innerhalb benannter Bereiche in Excel-Tabellen effizient zu identifizieren und zu bearbeiten.
 
+### [Wie Sie Excel-Tabellenzeilen sicher mit Aspose.Cells löschen](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Excel-Tabellenzeilen sicher entfernen, um Datenintegrität zu gewährleisten.
 
+### [Wie Sie einen benannten Bereich mit Aspose erstellen und Tabellen in einer Java-Arbeitsmappe verwalten](./how-to-create-named-range-aspose-and-manage-tables-in-a-java/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java benannte Bereiche erstellen und Excel-Tabellen effizient verwalten.
 
 ## Weitere Ressourcen
 

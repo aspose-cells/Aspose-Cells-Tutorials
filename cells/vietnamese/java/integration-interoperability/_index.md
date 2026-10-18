@@ -70,6 +70,8 @@ Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang bản trình ch
 Hướng dẫn chi tiết cách xuất biểu đồ Excel sang PowerPoint bằng Aspose.Cells for Java, bao gồm mã mẫu và các bước triển khai.
 ### [Chuyển đổi Excel sang PowerPoint – Hướng dẫn đầy đủ từng bước](./convert-excel-to-powerpoint-full-step-by-step-guide/)
 Tìm hiểu cách chuyển đổi tệp Excel sang PowerPoint bằng Aspose.Cells cho Java trong hướng dẫn chi tiết từng bước.
+### [Cách xuất biểu đồ sang docx từ Excel bằng Aspose.Cells cho Java](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+Hướng dẫn chi tiết cách xuất biểu đồ Excel sang tài liệu Word (docx) bằng Aspose.Cells cho Java.
 
 ## Tài nguyên bổ sung
 

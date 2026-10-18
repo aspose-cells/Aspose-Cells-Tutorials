@@ -247,6 +247,7 @@ Aspose.Words Java 程式碼教程
 
 ### [在 Excel 中使用 Java 設定自訂數字格式 – 完整指南](./set-custom-number-format-in-excel-with-java-complete-guide/)
 了解如何使用 Aspose.Cells for Java 在 Excel 中設定自訂數字格式，提供逐步說明與程式碼範例。
+### [如何在 Java 中建立 Excel 工作簿，並套用貨幣格式與粗體字體](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 
 ## 其他資源
 

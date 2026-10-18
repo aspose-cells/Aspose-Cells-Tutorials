@@ -67,6 +67,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java Excel-Daten in PowerPoint-Präs
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Excel-Daten in PowerPoint-Präsentationen umwandeln und automatisieren.
 ### [Excel in PowerPoint konvertieren – Vollständige Schritt‑für‑Schritt‑Anleitung](./convert-excel-to-powerpoint-full-step-by-step-guide/)
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java in PowerPoint-Präsentationen konvertieren, inklusive Codebeispielen und Tipps.
+### [Diagramm aus Excel in DOCX exportieren mit Aspose.Cells für Java](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+Erfahren Sie, wie Sie Diagramme aus Excel-Arbeitsblättern in DOCX-Dokumente exportieren, indem Sie Aspose.Cells für Java nutzen.
 
 ## Weitere Ressourcen
 

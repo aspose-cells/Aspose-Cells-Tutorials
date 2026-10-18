@@ -62,6 +62,8 @@ Excel टेम्पलेट में डेटा भरकर टेम्�
 
 ### [Aspose Cells स्मार्ट मार्कर्स – Excel टेम्पलेट भरें](./aspose-cells-smart-markers-populate-excel-template/)
 स्मार्ट मार्कर्स का उपयोग करके Excel टेम्पलेट में डेटा भरें और रिपोर्ट जनरेट करें।
+### [Aspose.Cells के साथ वर्कशीट्स स्मार्ट मार्कर्स कैसे बनाएं](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
+Aspose.Cells का उपयोग करके वर्कशीट्स में स्मार्ट मार्कर्स बनाने की चरण-दर-चरण प्रक्रिया सीखें।
 
 ## अतिरिक्त संसाधन
 

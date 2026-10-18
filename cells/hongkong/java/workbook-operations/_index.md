@@ -214,6 +214,8 @@ Aspose.Words Java 程式碼教程
 
 ### [以程式方式建立 XLSB 工作簿 – 完整 Java 指南](./create-xlsb-workbook-programmatically-full-java-guide/)
 了解如何使用 Aspose.Cells for Java 程式化建立 XLSB 工作簿，並設定與儲存相關屬性。
+### [如何使用 Aspose.Cells for Java 儲存具有自訂屬性的 xlsb 檔案](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+了解如何使用 Aspose.Cells for Java 儲存帶有自訂屬性的 xlsb 檔案。
 
 ### [使用 Aspose.Cells for Java 建立和存取 Excel 工作表、新增 PDF 書籤](./create-access-excel-sheets-add-pdf-bookmarks-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 建立和存取 Excel 表格、在 PDF 中新增書籤以及簡化文件導覽。

@@ -61,6 +61,8 @@
 說明如何使用 Aspose.Cells 的智慧標記功能將資料填入 Excel 範本，快速生成報告。
 ### [使用 Aspose.Cells 智慧標記在 Java 中建立詳細工作表](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
 說明如何使用 Aspose.Cells 的智慧標記在 Java 中建立詳細工作表，以產生多層次報表。
+### [如何使用 Aspose.Cells 建立工作表智慧標記](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
+了解如何在 Aspose.Cells 中使用智慧標記建立和管理工作表，以自動化資料填充。
 
 ## 其他資源
 

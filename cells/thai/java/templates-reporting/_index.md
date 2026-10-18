@@ -48,6 +48,8 @@
 เรียนรู้วิธีสร้างเวิร์กบุ๊กมาสเตอร์‑ดีเทลใน Excel ด้วย Aspose.Cells สำหรับ Java เพื่อจัดการข้อมูลหลายระดับและสร้างรายงานอัตโนมัติ
 ### [สร้างแผ่นรายละเอียดใน Java ด้วย Smart Markers ของ Aspose.Cells](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
 เรียนรู้วิธีใช้ Smart Markers เพื่อสร้างแผ่นรายละเอียดหลายแผ่นในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java
+### [วิธีสร้าง Smart Markers สำหรับเวิร์กชีตด้วย Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
+เรียนรู้วิธีใช้ Smart Markers เพื่อสร้างและจัดการเวิร์กชีตใน Aspose.Cells สำหรับ Java อย่างมีประสิทธิภาพ
 
 ### [วิธีสร้างเวิร์กชีตด้วย Smart Markers – คู่มือเต็ม Java](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
 เรียนรู้วิธีใช้ Smart Markers ในการสร้างเวิร์กชีตหลายแผ่นอย่างอัตโนมัติด้วย Java อย่างละเอียด

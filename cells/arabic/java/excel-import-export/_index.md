@@ -123,6 +123,12 @@
 ### [تضمين الخطوط في SVG أثناء تصدير Excel إلى SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
 تعلم كيفية تضمين الخطوط داخل ملفات SVG عند تصدير مصنفات Excel باستخدام Aspose.Cells لجافا.
 ### [تصدير إكسل إلى HTML في جافا – دليل خطوة بخطوة كامل](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+### [كيفية تعيين منطقة الطباعة في إكسل وتصديرها إلى PowerPoint](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+تعرف على كيفية تحديد منطقة الطباعة في ملف إكسل وتصديرها إلى عرض تقديمي PowerPoint باستخدام Aspose.Cells لجافا.
+### [كيفية استخدام العلامات الذكية من Aspose لتحويل JSON إلى Excel في Java](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+تعرف على كيفية تحويل ملفات JSON إلى Excel باستخدام العلامات الذكية من Aspose في Java.
+### [كيفية تصدير إكسل إلى TXT باستخدام Aspose.Cells والتحكم في دقة الأرقام العشرية](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+تعرّف على تصدير ملفات Excel إلى TXT مع التحكم في عدد الأرقام العشرية باستخدام Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

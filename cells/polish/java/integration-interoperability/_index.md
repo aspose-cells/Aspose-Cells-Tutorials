@@ -70,6 +70,8 @@ Dowiedz się, jak wygenerować prezentację PowerPoint z danych Excela przy uży
 Naucz się konwertować pliki Excel na prezentacje PowerPoint przy użyciu Aspose.Slides i Aspose.Cells w Javie.
 ### [Jak wyeksportować wykresy z Excela do PowerPoint – Pełny przewodnik Java](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
 Dowiedz się, jak wyeksportować wykresy z Excela do PowerPoint przy użyciu Aspose.Cells for Java, krok po kroku.
+### [Jak wyeksportować wykres do docx z Excela przy użyciu Aspose.Cells dla Javy](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+Dowiedz się, jak wyeksportować wykres z arkusza Excel do dokumentu Word (docx) przy użyciu Aspose.Cells for Java.
 
 ## Dodatkowe zasoby
 

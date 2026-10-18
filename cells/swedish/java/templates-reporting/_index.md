@@ -60,6 +60,8 @@ Lär dig hur du fyller i en Excel-mall med data och genererar en rapport med Asp
 
 ### [Aspose Cells Smart Markers – Fyll i Excel-mall](./aspose-cells-smart-markers-populate-excel-template/)
 Lär dig hur du använder Smart Markers för att fylla i en Excel-mall med data med Aspose.Cells för Java.
+### [Hur du skapar smarta markörer i kalkylblad med Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
+Lär dig hur du använder smarta markörer för att skapa kalkylblad automatiskt med Aspose.Cells för Java.
 
 ## Ytterligare resurser
 

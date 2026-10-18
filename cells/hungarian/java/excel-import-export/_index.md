@@ -127,6 +127,12 @@ Tanuld meg, hogyan exportálhatsz Excel-fájlokat HTML-be Java használatával r
 Ismerd meg, hogyan ágyazhatod be a betűtípusokat SVG fájlokba Excel exportálásakor az Aspose.Cells for Java segítségével.
 ### [Hogyan állíts be határolót és ments CSV-be az Aspose.Cells használatával](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
 Tanuld meg, hogyan állíthatsz be határolót és menthetsz CSV fájlt az Aspose.Cells használatával.
+### [Nyomtatási terület beállítása Excelben és exportálás PowerPointba](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+Ismerd meg, hogyan állíts be nyomtatási területet Excelben, majd exportáld a munkafüzetet PowerPoint prezentációba az Aspose.Cells for Java segítségével.
+### [Hogyan használjuk az Aspose Smart Markers-t a JSON Excel-be konvertálásához Java-ban](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+Ismerd meg, hogyan konvertálhatsz JSON adatokat Excel fájlokká az Aspose Smart Markers segítségével Java-ban.
+### [Excel exportálása TXT-be és a tizedes pontosság szabályozása](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+Ismerd meg, hogyan exportálhatsz Excel-fájlokat TXT formátumba az Aspose.Cells használatával, miközben pontosan beállíthatod a tizedesjegyek számát.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

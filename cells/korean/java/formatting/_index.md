@@ -248,6 +248,7 @@ Aspose.Cells for Java를 사용해 Java에서 동적 서식이 적용된 Excel �
 
 Aspose.Cells for Java를 사용
 ### [Java Excel 내보내기에서 글꼴을 굵게 설정하는 방법 – 완전한 가이드](./set-font-bold-in-java-excel-export-complete-guide/)
+### [Java에서 통화 형식 및 굵은 글꼴로 Excel 통합 문서 만들기](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 
 ## 추가 자료
 

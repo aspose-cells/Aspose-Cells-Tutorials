@@ -50,13 +50,17 @@ Aspose.Cells for Java를 사용하여 Excel 쿼리 테이블을 효과적으로 
 ### [Aspose.Cells Java에서 통합 문서 범위를 사용하여 명명된 범위를 구현하여 Excel 데이터 관리를 강화하는 방법](./implement-named-range-workbook-scope-aspose-cells-java/)
 Aspose.Cells Java를 사용하여 통합 문서 범위에 명명된 범위를 만들고 사용하는 방법을 알아보세요. 데이터 관리를 개선하고, 코드 가독성을 높이고, 워크플로를 간소화하세요.
 
+### [Aspose를 사용하여 Java 워크북에서 명명된 범위 만들기 및 테이블 관리](./how-to-create-named-range-aspose-and-manage-tables-in-a-java/)
+Aspose.Cells for Java를 활용해 워크북 내 명명된 범위를 생성하고 테이블을 효율적으로 관리하는 방법을 단계별로 안내합니다.
+
 ### [Java용 Aspose.Cells를 사용하여 Excel에서 텍스트 상자 관리 및 이름 지정](./manage-textbox-names-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel에서 텍스트 상자를 관리하는 방법을 알아보세요. 이 가이드에서는 프로그래밍 방식으로 텍스트 상자를 만들고, 이름을 지정하고, 접근하는 방법을 다룹니다.
 
 ### [Aspose.Cells Java 마스터링: Excel 데이터 조작을 위한 명명된 범위의 셀 식별](./master-aspose-cells-java-identify-named-range-cells/)
 Aspose.Cells와 Java를 함께 사용하여 Excel 스프레드시트에서 지정된 범위 내의 셀을 효율적으로 식별하고 조작하는 방법을 알아보세요.
 
-
+### [Aspose.Cells Java를 사용하여 Excel 테이블 행을 안전하게 삭제하는 방법](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
+Aspose.Cells for Java를 활용해 Excel 테이블에서 특정 행을 안전하게 삭제하고 데이터 무결성을 유지하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

@@ -143,6 +143,12 @@
 Узнайте, как задать разделитель и сохранить файл в формате CSV с помощью Aspose.Cells для Java.
 ### [Встраивание шрифтов в SVG при экспорте Excel в SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
 Узнайте, как встраивать шрифты в SVG при экспорте файлов Excel с помощью Aspose.Cells для Java.
+### [Как установить область печати в Excel и экспортировать в PowerPoint](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+Узнайте, как задать область печати в Excel и экспортировать лист в презентацию PowerPoint.
+### [Как использовать Aspose Smart Markers для преобразования JSON в Excel на Java](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+Узнайте, как с помощью Aspose Smart Markers преобразовать JSON в файл Excel в Java.
+### [Как экспортировать Excel в TXT с помощью Aspose.Cells и контролировать точность десятичных знаков](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+Узнайте, как экспортировать данные Excel в формат TXT, управляя точностью десятичных знаков с помощью Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

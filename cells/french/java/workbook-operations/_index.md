@@ -501,6 +501,8 @@ Apprenez à définir et gérer les propriétés des documents, comme le contrôl
 Apprenez à enregistrer un classeur dans un fichier et à copier des plages Excel en Java avec Aspose.Cells.
 ### [Créer un nouveau classeur en Java – Guide étape par étape](./create-new-workbook-in-java-step-by-step-guide/)
 Apprenez à créer un classeur Excel vierge en Java avec Aspose.Cells, étape par étape, incluant la configuration et l'enregistrement.
+### [Comment enregistrer des fichiers xlsb avec des propriétés personnalisées à l'aide d'Aspose.Cells pour Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Apprenez à enregistrer des fichiers XLSB en définissant des propriétés personnalisées avec Aspose.Cells pour Java.
 
 ## Ressources supplémentaires
 

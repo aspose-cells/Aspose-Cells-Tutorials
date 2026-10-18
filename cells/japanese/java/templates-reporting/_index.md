@@ -61,6 +61,8 @@ Excel テンプレートにデータを埋め込み、テンプレートから�
 SmartMarker を使用して Excel テンプレートにデータを埋め込み、動的なレポートを自動生成する方法を学びます。
 ### [Java で Aspose.Cells スマートマーカーを使用して詳細シートを作成する](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
 Aspose.Cells のスマートマーカーを利用して、詳細シートを自動生成する方法を学びます。
+### [Aspose.Cells を使用したワークシート スマートマーカーの作成方法](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
+Aspose.Cells のスマートマーカーを活用して、ワークシートを効率的に作成する手順を学びます。
 
 ## 追加リソース
 

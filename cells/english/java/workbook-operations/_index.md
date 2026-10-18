@@ -498,6 +498,7 @@ Learn how to set and manage document properties like versioning in Excel files u
 ### [Save Workbook as XLSX in Java – Complete Programming Guide](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
 Learn how to save an Excel workbook as XLSX using Aspose.Cells for Java with detailed code examples and best practices.
 
+### [How to save xlsb files with custom properties using Aspose.Cells for Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
 
 ### [Save New Workbook in Java – Copy Range Between Workbooks Tutorial](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
 Learn how to create a new workbook in Java and copy a range of cells from an existing workbook using Aspose.Cells.

@@ -70,6 +70,8 @@ Learn how to generate PowerPoint presentations from Excel data using Aspose.Cell
 Learn how to convert Excel workbooks to PowerPoint presentations using Aspose.Cells and Aspose.Slides for Java in a step-by-step guide.
 ### [Convert Excel to PowerPoint – Full Step‑by‑Step Guide](./convert-excel-to-powerpoint-full-step-by-step-guide/)
 Learn how to convert Excel workbooks to PowerPoint presentations using Aspose.Cells for Java in a detailed step‑by‑step guide.
+### [How to export chart to docx from Excel using Aspose.Cells for Java](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+Learn how to export Excel charts to DOCX documents using Aspose.Cells for Java.
 
 ## Additional Resources
 

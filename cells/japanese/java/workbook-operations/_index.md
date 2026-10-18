@@ -373,7 +373,7 @@ Aspose.Cells for Java を使用して、Excel ファイルを HTML としてシ�
 Aspose.CellsのIStreamProviderインターフェースを使用して、JavaでExcelファイルをHTMLに効率的にエクスポートする方法を学びましょう。このガイドでは、セットアップ、構成、そして実践的な応用例を解説します。
 
 ### [Aspose.Cells for Java を使用して Excel シートを画像にエクスポートする - 包括的なガイド](./export-excel-sheets-images-aspose-cells-java/)
-Aspose.Cells for Javaを使ってExcelシートを高画質画像に変換する方法を学びましょう。スプレッドシートをエクスポートし、JPEGまたはPNGとしてレンダリングする方法については、このステップバイステップガイドをご覧ください。
+Aspose.Cells for Javaを使ってExcelシートを高画質画像に変換する方法を学びましょう。JPEGまたはPNGとしてレンダリングする方法については、このステップバイステップガイドをご覧ください。
 
 ### [Aspose.Cells for Java を使用して Excel を HTML にエクスポートする: 完全ガイド](./export-excel-to-html-aspose-cells-java/)
 カスタム オプションと強力なドキュメント変換機能を活用して、Aspose.Cells for Java で Excel ファイルを HTML としてエクスポートする方法を学習します。
@@ -503,6 +503,18 @@ Aspose.Cells for Javaを使って、Excelファイルを複数の形式でシー
 
 ### [Aspose.Cells for Java を使用して Excel ドキュメントのバージョンを設定する方法](./set-excel-version-aspose-cells-java/)
 Aspose.Cells for Java を使用して、Excel ファイルのバージョン管理などのドキュメントプロパティを設定および管理する方法を学びます。このステップバイステップガイドに従って、ワークブックを効率的に操作しましょう。
+
+### [Aspose.Cells for Java を使用してカスタム プロパティ付き xlsb ファイルを保存する方法](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Aspose.Cells for Java でカスタム プロパティを設定した xlsb ファイルを保存する手順を解説します。
+
+## 追加リソース
+
+- [Aspose.Cells for Java ドキュメント](https://docs.aspose.com/cells/java/)
+- [Aspose.Cells for Java API リファレンス](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells for Javaをダウンロード](https://releases.aspose.com/cells/java/)
+- [無料サポート](https://forum.aspose.com/)
+- [一時ライセンス](https://purchase.aspose.com/temporary-license/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

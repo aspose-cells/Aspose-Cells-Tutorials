@@ -462,7 +462,7 @@ Aspose.Cells for Java를 사용하여 XLSX 파일을 열고 파일 이름을 검
 Java에서 Aspose.Cells를 구성하여 내보내기 중에 숨겨진 워크시트를 건너뛰고 깔끔하고 간결한 데이터 출력을 보장하는 방법을 알아보세요.
 
 ### [Aspose.Cells Java를 사용하여 CSV 파일을 효율적으로 읽고 변환하기](./read-and-convert-csv-aspose-cells-java/)
-Aspose.Cells for Java를 사용하여 단계별 안내를 통해 다중 인코딩된 CSV 파일을 원활하게 읽고 이를 Excel 형식으로 변환하는 방법을 알아보세요.
+Aspose.Cells for Java를 사용하여 단계별 안내를 통해 다중 인코딩된 CSV 파일을 원활하게 읽하고 이를 Excel 형식으로 변환하는 방법을 알아보세요.
 
 ### [Aspose.Cells를 사용하여 Java에서 Excel을 PNG, TIFF 및 PDF로 변환](./render-excel-as-png-tiff-pdf-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 파일을 이미지(PNG, TIFF) 또는 PDF로 변환하는 방법을 알아보세요. 이 단계별 가이드를 따라 보고서 공유를 더욱 효율적으로 만들어 보세요.
@@ -509,6 +509,8 @@ Aspose.Cells for Java를 사용하여 프로그램 방식으로 XLSB 워크북�
 - [무료 지원](https://forum.aspose.com/)
 - [임시 면허](https://purchase.aspose.com/temporary-license/)
 
+### [Aspose.Cells for Java를 사용하여 xlsb 파일에 사용자 지정 속성을 저장하는 방법](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Aspose.Cells for Java를 사용해 xlsb 파일에 사용자 지정 속성을 저장하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

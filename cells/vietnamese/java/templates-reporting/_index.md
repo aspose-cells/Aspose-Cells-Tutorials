@@ -62,6 +62,8 @@ Hướng dẫn cách sử dụng Aspose.Cells cho Java để điền dữ liệu
 Hướng dẫn cách sử dụng Smart Markers của Aspose.Cells để tự động điền dữ liệu vào mẫu Excel.
 ### [Tạo các sheet chi tiết trong Java với Aspose.Cells smart markers](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
 Hướng dẫn cách sử dụng smart markers để tạo các sheet chi tiết trong Excel bằng Aspose.Cells cho Java.
+### [Cách tạo smart markers cho worksheets bằng Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
+Hướng dẫn tạo smart markers cho các worksheet bằng Aspose.Cells.
 
 ## Tài nguyên bổ sung
 

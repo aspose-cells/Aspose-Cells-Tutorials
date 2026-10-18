@@ -137,6 +137,12 @@ Aspose.Cells API का उपयोग करके डिलिमिटर �
 
 ### [Excel को SVG में निर्यात करते समय फ़ॉन्ट एम्बेड करें](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
 Excel को SVG में निर्यात करते समय फ़ॉन्ट एम्बेड करने की चरण‑दर‑स्टेप गाइड।
+### [Excel में प्रिंट एरिया सेट करें और PowerPoint में निर्यात करें](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+Excel में प्रिंट एरिया निर्धारित करके उसे PowerPoint स्लाइड में निर्यात करने की प्रक्रिया सीखें।
+### [जावा में JSON को Excel में बदलने के लिए Aspose स्मार्ट मार्कर्स का उपयोग कैसे करें](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+Aspose स्मार्ट मार्कर्स का उपयोग करके जावा में JSON डेटा को Excel फ़ाइल में परिवर्तित करने की प्रक्रिया सीखें।
+### [Aspose.Cells के साथ Excel को TXT में निर्यात करना और दशमलव सटीकता को नियंत्रित करना](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+Aspose.Cells का उपयोग करके Excel फ़ाइल को TXT में निर्यात करें और दशमलव स्थानों को नियंत्रित करें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

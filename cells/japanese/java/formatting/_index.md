@@ -242,6 +242,7 @@ Java と Aspose.Cells を活用し、動的な書式設定を持つ Excel ワー
 Aspose.Cells for Java を使用して、Excel のセルにカスタム数値書式を設定し、データ表示を最適化する方法を学びます。
 ### [Aspose.Cells for Java を使用して Java Excel エクスポートでフォントを太字に設定する方法 – 完全ガイド](./set-font-bold-in-java-excel-export-complete-guide/)
 Aspose.Cells for Java を使い、Excel エクスポート時にフォントを太字に設定する手順とコード例を詳しく解説します。
+### [Javaで通貨形式と太字フォントを使用したExcelブックを作成する方法](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 
 ## 追加リソース
 

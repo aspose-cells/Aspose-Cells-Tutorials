@@ -248,6 +248,7 @@ Scopri come convertire una DataTable in Excel applicando stili personalizzati co
 Scopri come impostare formati data personalizzati nei fogli Excel con Aspose.Cells per Java, con esempi di codice chiari e pratici.
 ### [Impostare il carattere in grassetto nell'esportazione Excel Java – Guida completa](./set-font-bold-in-java-excel-export-complete-guide/)
 Scopri come impostare il grassetto del carattere nei file Excel esportati con Java usando Aspose.Cells, con esempi di codice passo passo.
+### [Come creare una cartella di lavoro Excel con formato valuta e carattere grassetto in Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 
 ## Risorse aggiuntive
 

@@ -247,6 +247,8 @@ Apprenez à appliquer des styles lors de la conversion d'un DataTable en fichier
 Apprenez à définir un format de date personnalisé dans Excel avec Aspose.Cells pour Java.
 ### [Définir le texte en gras dans l'export Excel Java – Guide complet](./set-font-bold-in-java-excel-export-complete-guide/)
 Apprenez à appliquer le style gras aux polices lors de l'exportation de fichiers Excel avec Aspose.Cells pour Java.
+### [Comment créer un classeur Excel avec format monétaire et police en gras en Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+Apprenez à créer un classeur Excel avec des cellules au format monétaire et du texte en gras en utilisant Aspose.Cells pour Java.
 
 ## Ressources supplémentaires
 

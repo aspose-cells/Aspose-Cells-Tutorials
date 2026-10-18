@@ -56,7 +56,11 @@ Tìm hiểu cách quản lý hộp văn bản trong Excel bằng Aspose.Cells fo
 ### [Làm chủ Aspose.Cells Java: Xác định các ô trong một phạm vi được đặt tên để xử lý dữ liệu Excel](./master-aspose-cells-java-identify-named-range-cells/)
 Tìm hiểu cách sử dụng Aspose.Cells với Java để xác định và thao tác các ô trong phạm vi được đặt tên trong bảng tính Excel một cách hiệu quả.
 
+### [Cách xóa hàng bảng Excel một cách an toàn bằng Aspose.Cells](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
+Hướng dẫn cách xóa một hàng trong bảng Excel một cách an toàn và hiệu quả bằng Aspose.Cells cho Java.
 
+### [Cách tạo phạm vi được đặt tên và quản lý bảng trong sổ làm việc Java bằng Aspose](./how-to-create-named-range-aspose-and-manage-tables-in-a-java/)
+Hướng dẫn tạo phạm vi đặt tên và thao tác các bảng trong workbook Java bằng Aspose.Cells.
 
 ## Tài nguyên bổ sung
 

@@ -247,6 +247,8 @@ Ismerje meg, hogyan alkalmazhat stílusokat a DataTable Excel-be konvertálásak
 Tanuld meg, hogyan állíthatsz be egyedi dátumformátumot Excel-fájlokban az Aspose.Cells for Java használatával.
 ### [Betűtípus félkövér beállítása Java Excel exportálásban – Teljes útmutató](./set-font-bold-in-java-excel-export-complete-guide/)
 Ismerd meg, hogyan állíthatod be a betűtípust félkövérre Excel-exportáláskor Java-ban, részletes kódpéldákkal és tippekkel.
+### [Excel munkafüzet létrehozása pénznemformátummal és félkövér betűtípussal Java-ban](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet pénznemformátummal és félkövér betűtípussal Java-ban az Aspose.Cells segítségével.
 
 ## További források
 

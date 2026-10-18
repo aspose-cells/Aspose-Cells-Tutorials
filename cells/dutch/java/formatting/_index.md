@@ -63,6 +63,8 @@ Leer hoe u aangepaste getalnotaties in Java-werkmappen kunt verwerken met Aspose
 Leer hoe u getalnotaties in Excel-werkbladen instelt met Aspose.Cells voor Java, inclusief codevoorbeelden en best practices.
 ### [Aangepast getalformaat instellen in Excel met Java – Complete handleiding](./set-custom-number-format-in-excel-with-java-complete-guide/)
 Leer hoe u aangepaste getalnotaties in Excel kunt instellen met Aspose.Cells voor Java. Deze stap‑voor‑stap gids toont codevoorbeelden en best practices.
+### [Hoe u een Excel-werkmap maakt met valuta-opmaak en vet lettertype in Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+Leer hoe u in Java een Excel-werkmap maakt met valuta-opmaak en vetgedrukte tekst, inclusief voorbeeldcode.
 
 ### [Gegevenspresentatie in Excel onder de knie krijgen: getal- en aangepaste datumnotatie met Aspose.Cells voor Java](./aspose-cells-java-data-formatting-excel/)
 Leer hoe u getalnotaties en aangepaste datumstijlen kunt toepassen met Aspose.Cells voor Java, waarmee u de presentatie van gegevens in Excel-spreadsheets kunt verbeteren.

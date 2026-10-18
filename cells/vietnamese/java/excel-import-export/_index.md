@@ -134,6 +134,12 @@ Hướng dẫn cách thiết lập dấu phân cách và xuất dữ liệu sang
 ### [Nhúng phông chữ vào SVG khi xuất Excel sang SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
 Hướng dẫn cách nhúng phông chữ vào tệp SVG khi xuất workbook Excel sang SVG bằng Aspose.Cells for Java.
 ### [Xuất Excel sang HTML trong Java – hướng dẫn chi tiết từng bước](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+### [Cách thiết lập vùng in trong Excel và xuất sang PowerPoint](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+Hướng dẫn cách đặt vùng in trong tệp Excel và xuất nó thành bản trình chiếu PowerPoint bằng Aspose.Cells for Java.
+### [Cách sử dụng Aspose Smart Markers để chuyển đổi JSON sang Excel trong Java](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+Hướng dẫn chi tiết cách dùng Aspose Smart Markers để biến dữ liệu JSON thành tệp Excel trong Java.
+### [Cách xuất Excel sang TXT với Aspose.Cells và kiểm soát độ chính xác thập phân](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+Hướng dẫn chi tiết cách xuất dữ liệu Excel sang file TXT và điều chỉnh độ chính xác thập phân bằng Aspose.Cells cho Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -49,6 +49,8 @@ Dowiedz się, jak eksportować Excel do XML w Javie za pomocą Aspose.Cells for 
 Dowiedz się, jak importować dane z programu Excel za pomocą Aspose.Cells for Java. Kompleksowy przewodnik z kodem źródłowym do bezproblemowego pobierania danych.
 ### [Naprzemienne kolory kolumn w Excel – importowanie DataTable z formatowaniem](./alternating-column-colors-in-excel-import-datatable-with-for/)
 Dowiedz się, jak zaimportować DataTable do Excela z naprzemiennym kolorowaniem kolumn i zachowaniem formatowania.
+### [Jak ustawić obszar wydruku w Excelu i wyeksportować do PowerPoint](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+Dowiedz się, jak ustawić obszar wydruku w pliku Excel i wyeksportować go do prezentacji PowerPoint przy użyciu Aspose.Cells for Java.
 ### [Eksportuj Excela do JSON](./export-excel-to-json/)
 Dowiedz się, jak eksportować dane Excela do JSON za pomocą Aspose.Cells dla Java. Postępuj zgodnie z tym przewodnikiem krok po kroku z kodem źródłowym, aby zapewnić bezproblemową konwersję.
 ### [Konwertuj JSON do XLSX za pomocą Aspose.Cells Java – Pełny przewodnik](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
@@ -124,6 +126,10 @@ Dowiedz się, jak eksportować pliki Excel do HTML w Javie przy użyciu Aspose.C
 ### [Osadzanie czcionek w SVG podczas eksportu Excela do SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
 Dowiedz się, jak osadzić czcionki w plikach SVG przy eksporcie Excela przy użyciu Aspose.Cells for Java.
 ### [Jak ustawić separator i zapisać jako CSV przy użyciu Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+### [Jak używać znaczników inteligentnych Aspose do konwersji JSON na Excel w Javie](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+Dowiedz się, jak przy użyciu znaczników inteligentnych Aspose przekształcić dane JSON w plik Excel w Javie.
+### [Jak wyeksportować Excel do TXT za pomocą Aspose.Cells i kontrolować precyzję dziesiętną](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+Dowiedz się, jak wyeksportować plik Excel do formatu TXT, kontrolując precyzję liczb dziesiętnych przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

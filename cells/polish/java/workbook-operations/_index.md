@@ -246,7 +246,7 @@ Samouczek dotyczący kodu dla Aspose.Words Java
 Dowiedz się, jak wyłączyć sprawdzanie zgodności programu Excel z Aspose.Cells dla Java. Zapewnij bezproblemową integrację w różnych wersjach pakietu Office.
 
 ### [Jak wyłączyć skrypty ramek i właściwości dokumentu w eksporcie HTML za pomocą Aspose.Cells dla Java](./disable-frame-scripts-html-export-aspose-cells-java/)
-Dowiedz się, jak wyłączyć skrypty ramek i właściwości dokumentu podczas eksportu HTML za pomocą Aspose.Cells dla Java. Ten przewodnik zawiera instrukcje krok po kroku, aby zwiększyć bezpieczeństwo Twojej witryny.
+Dowiedz się, jak wyłączyć skrypty ramek i właściwości dokumentu podczas eksportu HTML za pomocą Aspose.Cells for Java. Ten przewodnik zawiera instrukcje krok po kroku, aby zwiększyć bezpieczeństwo Twojej witryny.
 
 ### [Jak ładować pliki Excela bez wykresów za pomocą Aspose.Cells dla Java: kompleksowy przewodnik](./efficient-excel-loading-aspose-cells-java/)
 Dowiedz się, jak efektywnie ładować i przetwarzać pliki Excela, wykluczając wykresy za pomocą Aspose.Cells for Java. Zoptymalizuj wydajność i skutecznie zarządzaj pamięcią.
@@ -347,7 +347,7 @@ Dowiedz się, jak eksportować niestandardowe właściwości z skoroszytu progra
 ### [Eksportowanie Excela do HTML przy użyciu Aspose.Cells Java: Przewodnik krok po kroku](./export-excel-html-aspose-cells-java/)
 Dowiedz się, jak bezproblemowo eksportować pliki Excela jako HTML za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje ładowanie skoroszytów, niestandardowych dostawców strumieni i łatwe zapisywanie skoroszytów.
 
-### [Eksportowanie Excela do HTML za pomocą IStreamProvider i Aspose.Cells dla Java: kompleksowy przewodnik](./export-excel-html-streamprovider-aspose-cells-java/)
+### [Eksportowanie Excela do HTML przy użyciu IStreamProvider i Aspose.Cells dla Java: kompleksowy przewodnik](./export-excel-html-streamprovider-aspose-cells-java/)
 Dowiedz się, jak wydajnie eksportować pliki Excel do HTML w Javie, używając interfejsu IStreamProvider z Aspose.Cells. Ten przewodnik obejmuje konfigurację, ustawienia i praktyczne zastosowania.
 
 ### [Eksportuj obszar wydruku Excela do HTML za pomocą Aspose.Cells Java](./export-excel-print-area-html-aspose-cells-java/)
@@ -500,6 +500,8 @@ Dowiedz się, jak programowo tworzyć skoroszyty XLSB w Javie przy użyciu Aspos
 Dowiedz się, jak programowo tworzyć skoroszyty Excela w Javie, korzystając z Aspose.Cells, z pełnym przykładem kodu i wskazówkami konfiguracyjnymi.
 ### [Zapisz nowy skoroszyt w Javie – Samouczek kopiowania zakresu między skoroszytami](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
 Dowiedz się, jak utworzyć nowy skoroszyt i skopiować zakres danych między skoroszytami przy użyciu Aspose.Cells for Java.
+### [Jak zapisywać pliki xlsb z własnymi właściwościami przy użyciu Aspose.Cells dla Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Dowiedz się, jak zapisywać pliki xlsb z własnymi właściwościami przy użyciu Aspose.Cells dla Java.
 
 ## Dodatkowe zasoby
 

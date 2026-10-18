@@ -123,6 +123,12 @@ Naučte se, jak převést soubory XLSX do prezentací PowerPoint pomocí Aspose.
 Kompletní průvodce exportem souborů Excel do HTML v Javě pomocí Aspose.Cells, včetně ukázek kódu.
 ### [Vložení písem do SVG při exportu Excelu do SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
 Naučte se, jak při exportu Excelu do SVG vložit písma přímo do SVG souboru pomocí Aspose.Cells pro Javu.
+### [Jak nastavit oblast tisku v Excelu a exportovat do PowerPointu](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+Naučte se nastavit oblast tisku v Excelu a exportovat ji do PowerPointu pomocí Aspose.Cells pro Javu.
+### [Jak použít Aspose Smart Markers pro převod JSON do Excelu v Javě](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+Naučte se, jak pomocí Aspose Smart Markers v Javě převést data z JSON do souboru Excel s praktickým ukázkovým kódem.
+### [Jak exportovat Excel do TXT s Aspose.Cells a řídit desetinnou přesnost](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+Naučte se exportovat data z Excelu do formátu TXT a nastavit požadovanou přesnost desetinných čísel pomocí Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

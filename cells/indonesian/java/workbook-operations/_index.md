@@ -467,7 +467,7 @@ Pelajari cara mengonversi file Excel menjadi gambar (PNG, TIFF) atau PDF dengan 
 ### [Konversi Excel ke PDF secara Efisien dengan Format Tanggal Kustom Menggunakan Aspose.Cells untuk Java](./render-excel-custom-date-formats-pdf-aspose-cells-java/)
 Kuasai cara mengonversi file Excel ke PDF sambil mempertahankan format tanggal khusus menggunakan Aspose.Cells untuk Java. Pelajari kiat penyiapan, penerapan, dan performa.
 
-### [Render Excel ke PDF dengan Penanganan Kesalahan Menggunakan Aspose.Cells untuk Java: Panduan Lengkap](./render-excel-pdf-aspose-cells-java-error-handling/)
+### [Render Excel ke PDF dengan Penanganan Kesalahan Menggunakan Aspose.Cells untuk Java: Panduan Lengkap](./render-excel-ppdf-aspose-cells-java-error-handling/)
 Pelajari cara mengonversi file Excel ke PDF menggunakan Aspose.Cells untuk Java, dengan strategi penanganan kesalahan yang tangguh. Ideal untuk pemrosesan batch dan pelaporan data.
 
 ### [Cara Membuat Lembar Excel sebagai Gambar Menggunakan Aspose.Cells untuk Java (Operasi Buku Kerja)](./render-excel-sheets-images-aspose-cells-java/)
@@ -498,6 +498,7 @@ Panduan langkah demi langkah untuk membuat buku kerja Excel baru menggunakan Asp
 Pelajari cara menambahkan properti kustom ke file Excel menggunakan Aspose.Cells untuk Java, mengambil nilainya, dan menyimpan sebagai file XLSB.
 ### [Simpan Buku Kerja Baru di Java – Tutorial Menyalin Rentang Antara Buku Kerja](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
 Pelajari cara menyimpan buku kerja baru di Java serta menyalin rentang data antar buku kerja menggunakan Aspose.Cells.
+### [Cara menyimpan file xlsb dengan properti khusus menggunakan Aspose.Cells untuk Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
 
 ## Sumber Daya Tambahan
 

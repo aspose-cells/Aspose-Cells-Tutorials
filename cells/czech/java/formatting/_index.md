@@ -247,6 +247,7 @@ Naučte se, jak nastavit tučné písmo při exportu souborů Excel v Javě pomo
 
 ### [Nastavení vlastního formátu čísel v Excelu pomocí Javy – Kompletní průvodce](./set-custom-number-format-in-excel-with-java-complete-guide/)
 Naučte se, jak nastavit vlastní číselné formáty v Excelu pomocí Aspose.Cells pro Javu.
+### [Jak vytvořit excelový sešit s formátem měny a tučným písmem v Javě](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 
 ## Další zdroje
 

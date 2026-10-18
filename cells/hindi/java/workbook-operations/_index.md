@@ -495,6 +495,8 @@ XLSX फ़ाइलें खोलकर और फ़ाइल नाम प�
 जावा के लिए Aspose.Cells का उपयोग करके Excel में कस्टम प्रॉपर्टी जोड़ना, मान प्राप्त करना और XLSB फ़ाइल के रूप में सहेजना सीखें।
 ### [जावा के लिए वर्कबुक जापानी कैलेंडर बनाएं – पूर्ण ट्यूटोरियल](./create-workbook-japanese-calendar-complete-java-tutorial/)
 जावा में Aspose.Cells का उपयोग करके जापानी कैलेंडर के साथ वर्कबुक बनाना सीखें।
+### [Aspose.Cells for Java का उपयोग करके xlsb फ़ाइलें कस्टम प्रॉपर्टीज़ के साथ कैसे सहेजें](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Aspose.Cells for Java के साथ xlsb फ़ाइलों में कस्टम प्रॉपर्टीज़ जोड़कर सहेजने का तरीका सीखें।
 
 ## अतिरिक्त संसाधन
 

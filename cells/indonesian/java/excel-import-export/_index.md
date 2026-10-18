@@ -57,6 +57,8 @@ Pelajari cara menyimpan workbook sebagai file XLSX dengan menghasilkan file XLSX
 Pelajari cara mengekspor data JSON ke file Excel menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan contoh kode sumber.
 ### [Buat Excel dari JSON dan konversi JSON ke sel Excel dengan Aspose.Cells](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
 Pelajari cara membuat file Excel dari data JSON dan mengonversi nilai JSON ke sel Excel menggunakan Aspose.Cells untuk Java.
+### [Cara menggunakan Aspose Smart Markers untuk mengonversi JSON ke Excel di Java](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+Pelajari cara menggunakan Aspose Smart Markers untuk mengonversi data JSON menjadi file Excel dengan Java.
 ### [Validasi Data Impor Excel](./excel-import-data-validation/)
 Pelajari cara menerapkan validasi data impor Excel menggunakan Aspose.Cells untuk Java dengan panduan langkah demi langkah yang komprehensif ini. Pastikan keakuratan data dan tingkatkan pengalaman pengguna. 
 ### [Ekspor Excel ke HTML Java](./export-excel-to-html-java/)
@@ -124,6 +126,9 @@ Pelajari cara mengatur delimiter khusus dan menyimpan data sebagai file CSV meng
 Pelajari cara menyematkan font dalam file SVG saat mengekspor workbook Excel menggunakan Aspose.Cells untuk Java.
 ### [Ekspor Excel ke HTML dalam Java – panduan lengkap langkah demi langkah](./export-excel-to-html-in-java-complete-step-by-step-guide/)
 Pelajari cara mengekspor file Excel ke HTML menggunakan Aspose.Cells untuk Java dengan panduan langkah demi langkah yang lengkap.
+### [Cara mengatur area cetak Excel dan mengekspor ke PowerPoint](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+Pelajari cara menentukan area cetak pada file Excel dan mengekspornya ke PowerPoint menggunakan Aspose.Cells untuk Java.
+### [Cara mengekspor Excel ke TXT dengan Aspose.Cells dan mengontrol presisi desimal](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

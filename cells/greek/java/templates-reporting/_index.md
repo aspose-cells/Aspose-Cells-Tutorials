@@ -49,6 +49,8 @@
 ### [Δημιουργία φύλλων λεπτομερειών σε Java με Smart Markers του Aspose.Cells](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
 Μάθετε πώς να δημιουργείτε φύλλα λεπτομερειών χρησιμοποιώντας Smart Markers στο Aspose.Cells για Java, βελτιώνοντας την αυτοματοποίηση των αναφορών.
 
+### [Πώς να δημιουργήσετε smart markers σε φύλλα εργασίας με το Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
+Μάθετε πώς να χρησιμοποιήσετε smart markers για τη δημιουργία και τον αυτοματισμό φύλλων εργασίας στο Aspose.Cells για Java.
 
 ### [Πώς να δημιουργήσετε φύλλα εργασίας με Smart Markers – Πλήρης οδηγός Java](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
 Μάθετε πώς να δημιουργείτε φύλλα εργασίας χρησιμοποιώντας Smart Markers σε πλήρη οδηγό Java, με παραδείγματα κώδικα.

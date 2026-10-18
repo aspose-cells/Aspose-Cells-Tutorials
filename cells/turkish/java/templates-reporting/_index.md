@@ -59,6 +59,8 @@ Aspose.Cells for Java ile SmartMarkers kullanarak Excel şablonunu veriyle doldu
 Aspose.Cells Smart Markers kullanarak bir Excel şablonunu yükleyip, şablondan dinamik Excel dosyaları oluşturmayı öğrenin.
 ### [Çalışma Kitabı SmartMarker Oluşturma – Excel Çalışma Kitabını Doldurma](./create-workbook-smartmarker-populate-excel-workbook/)
 Aspose.Cells for Java kullanarak SmartMarker ile bir çalışma kitabı oluşturmayı ve verileri doldurmayı öğrenin.
+### [Aspose.Cells ile Çalışma Sayfalarında Akıllı İşaretleyiciler Oluşturma](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
+Aspose.Cells for Java kullanarak çalışma sayfalarında akıllı işaretleyicileri nasıl oluşturacağınızı öğrenin.
 
 ## Ek Kaynaklar
 

@@ -140,6 +140,12 @@
 ### [วิธีตั้งค่าตัวคั่นและบันทึกเป็น CSV ด้วย Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
 ### [ฝังฟอนต์ใน SVG ขณะส่งออก Excel เป็น SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
 เรียนรู้วิธีฝังฟอนต์ในไฟล์ SVG เมื่อส่งออก Excel เป็น SVG ด้วย Aspose.Cells สำหรับ Java
+### [วิธีตั้งพื้นที่พิมพ์ใน Excel และส่งออกเป็น PowerPoint](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+เรียนรู้วิธีกำหนดพื้นที่พิมพ์ในไฟล์ Excel แล้วส่งออกเป็นสไลด์ PowerPoint ด้วย Aspose.Cells สำหรับ Java
+### [วิธีใช้ Aspose Smart Markers เพื่อแปลง JSON เป็น Excel ใน Java](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+เรียนรู้วิธีใช้ Smart Markers ของ Aspose เพื่อแปลงไฟล์ JSON เป็น Excel ด้วย Java อย่างง่ายดาย
+### [วิธีส่งออก Excel เป็น TXT ด้วย Aspose.Cells และควบคุมความแม่นยำของทศนิยม](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+เรียนรู้วิธีส่งออกไฟล์ Excel เป็น TXT พร้อมควบคุมจำนวนตำแหน่งทศนิยมโดยใช้ Aspose.Cells สำหรับ Java
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
