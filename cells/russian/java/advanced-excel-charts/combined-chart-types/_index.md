@@ -11,7 +11,7 @@ url: /ru/java/advanced-excel-charts/combined-chart-types/
 weight: 12
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

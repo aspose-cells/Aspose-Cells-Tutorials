@@ -24,18 +24,6 @@ title: Как создать рабочую книгу — светло‑гол
 url: /ru/net/excel-data-import-export/how-to-create-workbook-light-blue-background-data-import/
 ---
 
-Date" maybe keep as is because it's a column name. But we can translate "ID", "Name", "HireDate", "Salary" maybe keep English as they are column names. The instruction says keep technical terms in English, but these are not technical terms, they are data labels. Could translate to Russian equivalents: "ID", "Имя", "Дата найма", "Зарплата". However the example shows "Name (light‑blue)" etc. Might be okay to translate. But to be safe, translate visible text, keep code terms unchanged. So translate table headers.
-
-Also bullet points after table.
-
-- Edge Cases headings.
-
-- All other text.
-
-Make sure we keep markdown formatting.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

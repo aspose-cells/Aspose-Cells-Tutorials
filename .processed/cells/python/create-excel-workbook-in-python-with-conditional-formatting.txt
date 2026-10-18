@@ -1,0 +1,7 @@
+Title: Create Excel workbook in Python with conditional formatting
+Slug: create-excel-workbook-in-python-with-conditional-formatting
+Category: formatting
+ProcessedDate: 2026-09-05T22:21:39.345955
+SourceRepo: AI Search API
+Keywords: create excel workbook python, add conditional formatting excel, highlight cells based on date, add conditional formatting range, how to highlight yesterday cells
+PRNumber: 153

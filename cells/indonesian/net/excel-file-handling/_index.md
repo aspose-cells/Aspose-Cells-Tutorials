@@ -38,6 +38,8 @@ Pelajari cara mengekspor properti kustom dari Excel ke PDF menggunakan Aspose.Ce
 Pelajari cara menggunakan pemisah untuk baris kosong di Excel menggunakan Aspose.Cells for .NET. Panduan langkah demi langkah dengan contoh kode disertakan.
 ### [Muat Lembar Terlihat Hanya dari File Excel](./load-visible-sheets-only/)
 Pelajari cara memuat hanya lembar yang terlihat dari file Excel menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah ini.
+### [Buat file Excel secara programatis di C# – tutorial](./create-excel-file-programmatically-in-c-tutorial/)
+Pelajari cara membuat file Excel secara programatis menggunakan C# dengan Aspose.Cells untuk .NET dalam panduan langkah demi langkah ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

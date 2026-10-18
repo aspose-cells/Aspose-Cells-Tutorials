@@ -22,19 +22,12 @@ Aspose.Cells สำหรับ .NET มอบเครื่องมืออ�
 ## การออกแบบและการประมวลผลเทมเพลต
 
 ### มาร์กเกอร์อัจฉริยะสำหรับการผูกข้อมูล
-- [สร้างรายงาน Excel แบบไดนามิกโดยใช้ Smart Markers](./generate-excel-reports-aspose-cells-net-smart-markers) - สร้างรายงานที่ขับเคลื่อนด้วยข้อมูลด้วยเครื่องหมายอัจฉริยะ
-- [เรียนรู้ SmartMarkers สำหรับการสร้างรายงานอัตโนมัติของ Excel](./dynamic-excel-reports-aspose-cells-net) - เรียนรู้เทคนิคมาร์กเกอร์อัจฉริยะขั้นสูง
-- [การบูรณาการข้อมูลหลักด้วยมาร์กเกอร์อัจฉริยะ](./mastering-data-integration-aspose-cells-smart-markers) - การเชื่อมโยงข้อมูลอย่างมีประสิทธิภาพด้วยมาร์กเกอร์อัจฉริยะ
 
 ### การสร้างรายงานระดับมืออาชีพ
-- [เชี่ยวชาญรายงาน Excel แบบไดนามิก](./aspose-cells-net-dynamic-excel-reports-guide) - สร้างรายงาน Excel ที่ครอบคลุม
-- [การออกแบบสมุดงานด้วย SmartMarkers](./master-workbook-design-aspose-cells-smartmarkers) - ออกแบบเทมเพลตการรายงานที่มีประสิทธิภาพ
-- [สร้างรายงาน Excel อย่างเชี่ยวชาญด้วยแผนภูมิ](./dynamic-excel-reports-aspose-cells-net) - เพิ่มการแสดงภาพลงในรายงาน
 
 ## การจัดการข้อมูลเมตาและคุณสมบัติของเอกสาร
 
 ### ข้อมูลเอกสาร
-- [เมตาดาต้าของสมุดงานหลัก](./mastering-workbook-metadata-aspose-cells-net) - จัดการคุณสมบัติของเอกสารและข้อมูลเมตา
 
 ## รายการบทช่วยสอน
 
@@ -58,6 +51,26 @@ Aspose.Cells สำหรับ .NET มอบเครื่องมืออ�
 
 ### [สร้างสมุดงานจากเทมเพลตใน C# – คู่มือขั้นตอนโดยขั้นตอน](./create-workbook-from-template-in-c-step-by-step-guide/)
 เรียนรู้วิธีสร้างสมุดงาน Excel จากเทมเพลตโดยใช้ Aspose.Cells สำหรับ .NET ด้วย C# อย่างละเอียดในขั้นตอนต่อขั้นตอน
+### [บันทึกสมุดงาน Excel จาก JSON – คู่มือฉบับสมบูรณ์](./save-excel-workbook-from-json-complete-guide/)
+เรียนรู้วิธีบันทึกสมุดงาน Excel จากข้อมูล JSON อย่างครบถ้วน พร้อมตัวอย่างโค้ดและเทคนิคการจัดการไฟล์
+### [สร้าง Excel จากเทมเพลต – คู่มือขั้นตอนต่อขั้นสำหรับนักพัฒนา .NET](./create-excel-from-template-step-by-step-guide-for-net-develo/)
+เรียนรู้วิธีสร้างไฟล์ Excel จากเทมเพลตโดยใช้ Aspose.Cells สำหรับ .NET อย่างละเอียดในขั้นตอนต่อขั้น
+### [สร้างไฟล์ Excel จากเทมเพลต – เพิ่มข้อมูล, รูปภาพ, บันทึกเป็น XLSX](./create-excel-from-template-add-data-image-save-xlsx/)
+เรียนรู้วิธีสร้างไฟล์ Excel จากเทมเพลตโดยเพิ่มข้อมูลและรูปภาพ แล้วบันทึกเป็นไฟล์ XLSX ด้วย Aspose.Cells .NET
+### [บันทึกสมุดงานที่เติมข้อมูลแล้วโดยอัตโนมัติด้วย Aspose.Cells](./save-populated-workbook-programmatically-with-aspose-cells/)
+เรียนรู้วิธีบันทึกสมุดงาน Excel ที่มีข้อมูลแล้วโดยใช้โค้ด Aspose.Cells อย่างอัตโนมัติและมีประสิทธิภาพ
+### [สร้างเทมเพลตเวิร์กบุ๊กด้วย Aspose.Cells – คู่มือฉบับสมบูรณ์](./create-workbook-template-with-aspose-cells-complete-guide/)
+เรียนรู้วิธีสร้างเทมเพลตเวิร์กบุ๊กด้วย Aspose.Cells อย่างครบถ้วน ตั้งแต่การกำหนดโครงสร้าง การผูกข้อมูล ไปจนถึงการปรับแต่งรูปแบบ
+### [วิธีสร้างใบแจ้งหนี้ด้วย Aspose.Cells – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./how-to-generate-invoice-with-aspose-cells-complete-programmi/)
+เรียนรู้ขั้นตอนการสร้างใบแจ้งหนี้อัตโนมัติด้วย Aspose.Cells สำหรับ .NET ตั้งแต่การออกแบบเทมเพลตจนถึงการผูกข้อมูลและบันทึกไฟล์
+
+### [วิธีประมวลผลเทมเพลต Excel และตั้งชื่อแผ่นงานโดยอัตโนมัติใน C#](./how-to-process-excel-template-and-automatically-name-sheets)
+เรียนรู้วิธีใช้ Aspose.Cells สำหรับ .NET เพื่อประมวลผลเทมเพลต Excel และตั้งชื่อแผ่นงานโดยอัตโนมัติด้วย C#
+
+### [วิธีส่งออกข้อมูลไปยัง Excel ด้วยเทมเพลต C# – คู่มือขั้นตอนโดยขั้นตอน](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
+เรียนรู้วิธีส่งออกข้อมูลเป็นไฟล์ Excel ด้วยเทมเพลต C# อย่างละเอียด
+### [สร้างรายงาน Excel ด้วย C# – คู่มือขั้นตอนต่อขั้นตอน](./generate-excel-report-with-c-step-by-step-guide/)
+เรียนรู้วิธีสร้างรายงาน Excel ด้วย C# อย่างละเอียด ตั้งแต่การกำหนดข้อมูลจนถึงการจัดรูปแบบขั้นสุดท้าย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -59,7 +59,6 @@
 
 أخيرًا، لنتحدث عن التفاصيل الصغيرة التي تُحدث فرقًا كبيرًا. إن إمكانية تعيين اسم علامة تبويب ورقة واحدة أثناء تصدير HTML تُضفي وضوحًا على تفاعل المستخدمين مع تقارير HTML. تُتيح هذه الميزة البسيطة تصفحًا أفضل، خاصةً عند التعامل مع تقارير مُعقدة تحتوي على أوراق متعددة. فمن منا لا يُقدّر القليل من التنظيم؟ [تعرف على كيفية تبسيط علامات التبويب الخاصة بك هنا](./setting-single-sheet-tab-name/).
 
-
 ## تصدير Excel إلى HTML باستخدام دروس الخيارات المتقدمة
 ### [استبعاد الأنماط غير المستخدمة أثناء تصدير Excel إلى HTML](./excluding-unused-styles/)
 تعرف على كيفية استبعاد الأنماط غير المستخدمة أثناء تصدير Excel إلى HTML باستخدام Aspose.Cells لـ .NET في هذا الدليل المفصل خطوة بخطوة.
@@ -83,10 +82,28 @@
 قم بإطلاق العنان لإمكانيات علامات الإغلاق الذاتي في Excel باستخدام دليلنا خطوة بخطوة الذي يضم Aspose.Cells لـ .NET.
 ### [تعيين عرض العمود القابل للتطوير برمجيًا في Excel](./setting-scalable-column-width/)
 تعرّف على كيفية استخدام Aspose.Cells لـ .NET لتعيين عرض أعمدة قابل للتطوير في ملفات Excel برمجيًا. مثالي لعرض البيانات بكفاءة.
+### [حفظ Excel كـ HTML مع الألواح المثبتة – دليل C# كامل](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
+تعرف على طريقة حفظ ملفات Excel كـ HTML مع تثبيت الألواح برمجيًا باستخدام Aspose.Cells لـ .NET في دليل C# شامل خطوة بخطوة.
+### [كيفية تصدير Excel إلى HTML مع الحفاظ على الألواح المثبتة](./how-to-export-excel-to-html-while-preserving-frozen-panes/)
+تعلم كيفية تصدير ملف Excel إلى HTML مع الحفاظ على الألواح المثبتة لضمان عرض البيانات كما هو في المصنف.
+### [حفظ Excel كـ HTML – دليل كامل لتصدير وتحويل ملفات Excel](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
+اكتشف كيفية حفظ ملفات Excel كـ HTML وتصديرها وتحويلها باستخدام Aspose.Cells لـ .NET في دليل شامل خطوة بخطوة.
+### [تضمين الخطوط في HTML – تصدير مصنف Excel إلى HTML باستخدام Aspose.Cells](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
+تعرف على كيفية تضمين الخطوط في ملفات HTML عند تصدير مصنف Excel باستخدام Aspose.Cells لـ .NET.
+### [تحويل Excel إلى HTML – دليل كامل باستخدام Aspose.Cells](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+تعرف على كيفية تحويل ملفات Excel إلى HTML خطوة بخطوة باستخدام Aspose.Cells لـ .NET في هذا الدليل الشامل.
+### [حفظ Excel كـ HTML – دليل كامل مع أمثلة شفرة](./save-excel-as-html-complete-guide-with-code-samples/)
+تعرف على كيفية حفظ ملفات Excel كـ HTML باستخدام Aspose.Cells لـ .NET مع أمثلة شفرة شاملة خطوة بخطوة.
+### [إنشاء HTML من جدول في C# – دليل كامل](./create-html-from-table-in-c-complete-guide/)
+تعرف على كيفية إنشاء HTML من جدول في C# باستخدام Aspose.Cells لـ .NET في هذا الدليل الشامل خطوة بخطوة.
+### [تصدير Excel إلى HTML باستخدام C# – دليل برمجة كامل](./export-excel-to-html-with-c-complete-programming-guide/)
+تعرف على كيفية إنشاء HTML من ملفات Excel باستخدام C# خطوة بخطوة مع Aspose.Cells لـ .NET في هذا الدليل الشامل.
+### [كيفية تضمين الخطوط عند تصدير Excel إلى HTML – دليل كامل بلغة C#](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
+تعرف على طريقة تضمين الخطوط في ملفات HTML عند تصدير Excel باستخدام Aspose.Cells لـ .NET مع أمثلة شاملة بلغة C#.
 ### [تعيين اسم علامة تبويب ورقة واحدة في تصدير HTML](./setting-single-sheet-tab-name/)
 يمكنك بسهولة تعيين اسم علامة تبويب ورقة واحدة أثناء تصدير HTML باستخدام Aspose.Cells لـ .NET. دليل خطوة بخطوة مع أمثلة برمجية.
-### [كيفية تضمين الخطوط في HTML – دليل C# كامل](./how-to-embed-fonts-in-html-complete-c-guide/)
-تعرف على طريقة تضمين الخطوط في HTML باستخدام Aspose.Cells لـ .NET مع دليل C# شامل خطوة بخطوة.
+### [حفظ Excel كـ HTML – دليل كامل لتصدير Excel مع التنسيق](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
+تعرف على كيفية حفظ ملفات Excel كصفحات HTML مع الحفاظ على جميع التنسيقات باستخدام Aspose.Cells لـ .NET في دليل شامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
