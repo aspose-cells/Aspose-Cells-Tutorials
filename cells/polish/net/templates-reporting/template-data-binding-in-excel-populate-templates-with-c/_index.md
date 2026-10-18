@@ -24,7 +24,7 @@ title: 'Powiązanie danych szablonu w Excelu: Wypełnianie szablonów przy użyc
 url: /pl/net/templates-reporting/template-data-binding-in-excel-populate-templates-with-c/
 ---
 
-content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

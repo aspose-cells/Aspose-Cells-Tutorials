@@ -24,15 +24,7 @@ title: Créer un classeur C# – Exporter DataTable vers Excel avec mise en form
 url: /fr/net/excel-data-export-retrieval/create-workbook-c-export-datatable-to-excel-with-formatting/
 ---
 
-with all translated content.
-
-Check for any leftover English text: "Copy‑Paste Ready" we translated. "Optional polish" is comment inside code; keep unchanged.
-
-Also "Create Workbook C#" appears in alt text and title we translated.
-
-Also "Create workbook C# example showing styled rows in Excel" alt text we translated.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

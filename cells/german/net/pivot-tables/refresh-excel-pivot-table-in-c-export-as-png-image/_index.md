@@ -24,7 +24,7 @@ title: Excel-Pivot-Tabelle in C# aktualisieren – Als PNG-Bild exportieren
 url: /de/net/pivot-tables/refresh-excel-pivot-table-in-c-export-as-png-image/
 ---
 
-answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

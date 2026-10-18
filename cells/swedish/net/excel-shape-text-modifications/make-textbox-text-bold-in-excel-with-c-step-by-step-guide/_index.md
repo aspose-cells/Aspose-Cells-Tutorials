@@ -22,18 +22,6 @@ title: Gör TextBox-text fet i Excel med C# – Steg‑för‑steg‑guide
 url: /sv/net/excel-shape-text-modifications/make-textbox-text-bold-in-excel-with-c-step-by-step-guide/
 ---
 
-Swedish while preserving URL unchanged. So alt text becomes Swedish.
-
-Also the table content includes code snippets and text; we need to translate the textual parts (Option, Code Snippet, When to Use) and the descriptions. Keep code snippet unchanged.
-
-Also bullet points etc.
-
-Let's produce final content.
-
-We need to keep the shortcodes at top and bottom.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

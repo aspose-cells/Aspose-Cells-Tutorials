@@ -25,8 +25,6 @@ title: حفظ إكسل كـ HTML – دليل C# الكامل
 url: /ar/net/exporting-excel-to-html-with-advanced-options/save-excel-as-html-complete-c-guide/
 ---
 
-produce final answer with all content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -13,7 +13,7 @@ url: /sv/java/cell-operations/aspose-cells-java-copy-paste-options/
 weight: 1
 ---
 
- all translations. Ensure no extra spaces.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

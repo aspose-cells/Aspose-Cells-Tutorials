@@ -24,16 +24,6 @@ title: Jak stylować kolumny w Excelu przy użyciu C# – Importowanie DataTable
 url: /pl/net/excel-formatting-and-styling/how-to-style-columns-in-excel-with-c-import-datatable/
 ---
 
-**, **Score**) to Polish equivalents: ID stays ID? Could keep ID as ID (common). Name -> Imię, Score -> Wynik. But also the parentheses (red) etc. Should translate. However maybe keep the bold formatting. So we can translate to **ID** (czerwony) etc. Keep bold markers.
-
-Also blockquote > **Prerequisite:** etc. Translate.
-
-Also the "Pro tip:" etc.
-
-Make sure to keep the markdown formatting.
-
-Let's produce the final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

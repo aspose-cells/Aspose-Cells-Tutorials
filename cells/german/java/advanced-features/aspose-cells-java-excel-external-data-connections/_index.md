@@ -14,17 +14,7 @@ url: /de/java/advanced-features/aspose-cells-java-excel-external-data-connection
 weight: 1
 ---
 
-Autor: Aspose"
-
-Now closing shortcodes.
-
-Now backtop button shortcode.
-
-Now produce final content.
-
-Make sure to keep all shortcodes exactly.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

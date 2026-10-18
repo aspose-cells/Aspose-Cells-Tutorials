@@ -22,11 +22,7 @@ title: Crea oggetto Master Data – Guida passo passo per generare il foglio di 
 url: /it/net/smart-markers-dynamic-data/create-master-data-object-step-by-step-guide-to-generate-det/
 ---
 
-Check for any stray formatting: ensure code block placeholders remain on separate lines as originally.
-
-Also ensure we didn't translate any URLs or file paths. We kept them.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

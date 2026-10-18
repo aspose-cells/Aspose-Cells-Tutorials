@@ -24,9 +24,7 @@ title: Új munkafüzet létrehozása C#-ban – Markdown importálása Excelbe
 url: /hu/net/conversion-and-rendering/create-new-workbook-in-c-import-markdown-to-excel/
 ---
 
-unchanged.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

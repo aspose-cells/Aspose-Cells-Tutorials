@@ -23,9 +23,7 @@ title: Jak vložit písma do exportů Excel v C# – Kompletní průvodce
 url: /cs/net/working-with-fonts-in-excel/how-to-embed-fonts-in-c-excel-exports-complete-guide/
 ---
 
-to keep all shortcodes exactly.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

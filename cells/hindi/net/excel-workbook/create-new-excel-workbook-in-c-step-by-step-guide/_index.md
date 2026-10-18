@@ -23,10 +23,6 @@ title: C# में नया Excel वर्कबुक बनाएं – �
 url: /hi/net/excel-workbook/create-new-excel-workbook-in-c-step-by-step-guide/
 ---
 
-.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

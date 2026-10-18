@@ -15,22 +15,6 @@ url: /tr/java/advanced-features/aspose-cells-java-excel-external-data-connection
 weight: 1
 ---
 
- bold.
-
-"**Author:** Aspose" translate "Yazar".
-
-Then closing shortcodes.
-
-Now produce final content.
-
-Make sure not to miss any placeholders.
-
-Let's craft translation.
-
-Be careful with Turkish characters.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

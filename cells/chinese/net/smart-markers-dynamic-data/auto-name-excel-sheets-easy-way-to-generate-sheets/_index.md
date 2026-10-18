@@ -20,17 +20,7 @@ title: 自动命名Excel工作表——轻松生成工作表
 url: /zh/net/smart-markers-dynamic-data/auto-name-excel-sheets-easy-way-to-generate-sheets/
 ---
 
-Now produce final content with translations.
-
-Check for any markdown links: none.
-
-Check for any images: none.
-
-Check for any code blocks: placeholders only.
-
-Make sure we keep the bold markers **...** unchanged.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

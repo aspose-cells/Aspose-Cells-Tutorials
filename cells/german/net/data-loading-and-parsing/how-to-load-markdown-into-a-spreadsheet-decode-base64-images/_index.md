@@ -22,16 +22,6 @@ title: Wie man Markdown in eine Tabellenkalkulation lädt – Base64‑Bilder de
 url: /de/net/data-loading-and-parsing/how-to-load-markdown-into-a-spreadsheet-decode-base64-images/
 ---
 
-to drop a comment if you hit any snags!"
-
-German: "Viel Spaß beim Coden und hinterlassen Sie gern einen Kommentar, falls Sie auf Probleme stoßen!"
-
-Then closing shortcodes.
-
-Also include the backtop button shortcode unchanged.
-
-Now produce final content with all shortcodes and placeholders.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -29,6 +29,9 @@ Készen állsz belevágni? Látogass el a [Tartalomdokumentum-tulajdonságra mut
 ### [Tartalomdokumentum-tulajdonságra mutató hivatkozás konfigurálása .NET-ben](./configuring-link-to-content-document-property/)
 Ismerje meg, hogyan csatolhat dokumentumtulajdonságokat tartalomhoz az Excelben az Aspose.Cells for .NET használatával. Lépésről lépésre útmutató fejlesztőknek.
 
+### [GridJsOptions példány létrehozása – Grid opciók konfigurálása JavaScriptben](./create-gridjsoptions-instance-configure-grid-options-javascr/)
+Ismerje meg, hogyan hozhat létre GridJsOptions példányt és konfigurálhatja a Grid opciókat JavaScriptben az Aspose.Cells használatával.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -72,6 +72,8 @@ Ismerje meg, hogyan szabhatja testre a felső indexű szöveget Excelben az Aspo
 Pelajari cara menyematkan font ke dalam file Excel yang diekspor menggunakan C# dengan Aspose.Cells secara lengkap.
 ### [Cara menyalin font dari sel Excel ke TextBox – Panduan Langkah demi Langkah](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
 Pelajari cara menyalin properti font dari sel Excel ke kontrol TextBox menggunakan Aspose.Cells for .NET dalam panduan langkah demi langkah ini.
+### [Menerapkan Font Tebal pada Kotak Teks – Panduan Langkah-demi-Langkah C#](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
+Pelajari cara menerapkan font tebal pada kotak teks di Excel menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -11,8 +11,6 @@ url: /ar/
 weight: 10
 ---
 
- content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

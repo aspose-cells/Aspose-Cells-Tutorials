@@ -19,14 +19,6 @@ title: Analizza JSON annidato C# – Crea payload JSON C#
 url: /it/net/smart-markers-dynamic-data/parse-nested-json-c-create-json-payload-c/
 ---
 
-points.
-
-Let's produce final content.
-
-Be careful to keep markdown formatting exactly.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

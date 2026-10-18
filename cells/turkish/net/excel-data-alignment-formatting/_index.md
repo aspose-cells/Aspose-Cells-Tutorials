@@ -38,6 +38,9 @@ Nasıl yapılacağı hakkında daha fazla bilgi edinin [Biçimlendirmeyi Kaybetm
 ### [Biçimlendirmeyi Kaybetmeden Excel Hücrelerinin Hizalamasını Değiştirin](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
 Aspose.Cells for .NET kullanarak biçimlendirmeyi kaybetmeden Excel hücrelerinin hizalamasını nasıl değiştireceğinizi öğrenin. Kusursuz kontrol için kapsamlı adım adım kılavuzumuzu izleyin.
 
+### [Excel'de Metni Kaydırma: Hücrede Metni Kaydır, Otomatik Sığdır ve Kaydet](./how-to-wrap-text-in-excel-wrap-text-in-cell-auto-fit-save/)
+Aspose.Cells for .NET kullanarak Excel'de metni hücre içinde kaydırmayı, otomatik sığdırmayı ve kaydetmeyi öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

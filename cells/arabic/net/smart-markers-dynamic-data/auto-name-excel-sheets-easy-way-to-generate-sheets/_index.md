@@ -22,11 +22,7 @@ title: تسمية أوراق إكسل تلقائيًا – طريقة سهلة �
 url: /ar/net/smart-markers-dynamic-data/auto-name-excel-sheets-easy-way-to-generate-sheets/
 ---
 
-placeholders or URLs. No URLs present.
-
-Make sure to keep bold markers ** etc.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

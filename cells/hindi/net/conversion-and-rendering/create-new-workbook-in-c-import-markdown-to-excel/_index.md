@@ -23,11 +23,7 @@ title: C# में नया वर्कबुक बनाएं – मा�
 url: /hi/net/conversion-and-rendering/create-new-workbook-in-c-import-markdown-to-excel/
 ---
 
-links: none.
-
-Check code block placeholders: keep as is.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

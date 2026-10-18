@@ -22,13 +22,7 @@ title: حفظ إكسل كملف txt – دليل C# الشامل لتصدير ا
 url: /ar/net/converting-excel-files-to-other-formats/save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/
 ---
 
-Image alt text: "*Alt text: “Numbers.txt file displaying 12350, 0.0001235, and -98800 after saving Excel as txt with 4 significant digits.”*" translate alt text but keep quotes and numbers.
-
-Also the image line "*Image: A screenshot of the generated `Numbers.txt` file showing rounded values.*" translate.
-
-Make sure to keep markdown formatting.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

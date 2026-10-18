@@ -14,8 +14,6 @@ url: /th/java/advanced-features/aspose-cells-java-excel-external-data-connection
 weight: 1
 ---
 
- with all translated content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

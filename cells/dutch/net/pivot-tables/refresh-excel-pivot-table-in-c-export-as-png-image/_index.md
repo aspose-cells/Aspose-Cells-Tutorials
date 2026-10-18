@@ -23,15 +23,7 @@ title: Vernieuw Excel-draaitabel in C# – Exporteren als PNG-afbeelding
 url: /nl/net/pivot-tables/refresh-excel-pivot-table-in-c-export-as-png-image/
 ---
 
-are no fenced code blocks besides placeholders. So we keep placeholders.
-
-We need to translate "Refresh Excel Pivot Table in C# – Export as PNG Image" etc.
-
-Also translate "Ever needed to **refresh an Excel pivot table** ..." etc.
-
-Make sure to keep markdown formatting.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

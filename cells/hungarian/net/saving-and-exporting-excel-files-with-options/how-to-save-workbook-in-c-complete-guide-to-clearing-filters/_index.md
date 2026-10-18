@@ -26,8 +26,6 @@ title: Hogyan mentse el a munkafüzetet C#-ban – Teljes útmutató a szűrők 
 url: /hu/net/saving-and-exporting-excel-files-with-options/how-to-save-workbook-in-c-complete-guide-to-clearing-filters/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

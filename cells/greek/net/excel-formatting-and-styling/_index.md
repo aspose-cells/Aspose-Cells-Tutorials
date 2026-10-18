@@ -46,6 +46,9 @@
 ## Εκπαιδευτικά σεμινάρια μορφοποίησης και στυλ στο Excel
 ### [Εφαρμογή εφέ γεμίσματος με διαβάθμιση στο Excel](./applying-gradient-fill-effects/)
 Αναβαθμίστε τα έγγραφά σας στο Excel χρησιμοποιώντας το Aspose.Cells για .NET. Μάθετε να εφαρμόζετε εκπληκτικά εφέ γεμίσματος με διαβάθμιση με αυτό το βήμα προς βήμα σεμινάριο.
+### [Εφαρμογή στυλ κελιών με Aspose.Cells – Εισαγωγή DataTable με μορφοποίηση](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+Μάθετε πώς να εφαρμόζετε στυλ σε κελιά κατά την εισαγωγή DataTable στο Excel με Aspose.Cells για .NET.
+
 ### [Χρήση προκαθορισμένων στυλ και μορφοποίησης του Excel](./using-excel-predefined-styles-and-formatting/)
 Ανακαλύψτε πώς να χρησιμοποιείτε προκαθορισμένα στυλ και μορφοποίηση στο Excel με το Aspose.Cells για .NET. Δημιουργήστε εκπληκτικά υπολογιστικά φύλλα με ευκολία.
 ### [Μορφοποίηση με Get Style ή Set Style στο Excel](./formatting-with-get-style-or-set-style/)

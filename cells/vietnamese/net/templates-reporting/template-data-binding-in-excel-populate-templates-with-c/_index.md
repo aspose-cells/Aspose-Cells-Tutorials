@@ -23,14 +23,6 @@ title: 'Ràng buộc dữ liệu mẫu trong Excel: Điền mẫu bằng C#'
 url: /vi/net/templates-reporting/template-data-binding-in-excel-populate-templates-with-c/
 ---
 
-alt text is "template data binding example in Excel". Should translate alt text but keep URL same. The title attribute also. So alt text and title can be translated.
-
-Also there are blockquotes > etc.
-
-Let's translate.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

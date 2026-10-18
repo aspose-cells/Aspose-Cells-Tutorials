@@ -24,15 +24,7 @@ title: Come creare una cartella di lavoro e convertire una stringa in data in C#
 url: /it/net/excel-custom-number-date-formatting/how-to-create-workbook-and-convert-string-to-date-in-c/
 ---
 
-Buon coding! 🚀" maybe "Buona programmazione! 🚀"
-
-Now close shortcodes.
-
-All other shortcodes remain.
-
-Now produce final content with same markdown.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

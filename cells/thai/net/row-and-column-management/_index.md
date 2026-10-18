@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การจัดการแถวและคอลัมน์
@@ -48,13 +46,14 @@
 ค้นพบคำแนะนำทีละขั้นตอนในการคัดลอกคอลัมน์ใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ลดความยุ่งยากของงานข้อมูลของคุณด้วยคำแนะนำที่ชัดเจน
 ### [คัดลอกแถวโดยใช้ Aspose.Cells สำหรับ .NET](./copying-rows/)
 เรียนรู้วิธีการคัดลอกแถวในไฟล์ Excel อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนนี้จะทำให้การคัดลอกแถวเป็นเรื่องง่ายเพื่อตอบสนองความต้องการในการจัดการข้อมูลของคุณ
+### [คัดลอกแถวจากแผ่นงานหนึ่งไปยังอีกแผ่นงาน – คู่มือ C# ฉบับสมบูรณ์](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
 ### [การจัดกลุ่มแถวและคอลัมน์ใน Excel ด้วย Aspose.Cells](./grouping-rows-and-columns/)
 เรียนรู้วิธีการจัดกลุ่มแถวและคอลัมน์ใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้
 ### [สร้างแถวสรุปด้านล่างด้วย Aspose.Cells สำหรับ .NET](./summary-row-below/)
 เรียนรู้วิธีการสร้างแถวสรุปใต้แถวที่จัดกลุ่มใน Excel โดยใช้ Aspose.Cells สำหรับ .NET มีคู่มือทีละขั้นตอนรวมอยู่ด้วย
 ### [สร้างแถวสรุปทางขวาด้วย Aspose.Cells สำหรับ .NET](./summary-row-right/)
 เรียนรู้วิธีสร้างแถวสรุปทางด้านขวาใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อรับคำแนะนำที่ชัดเจน
-### [ยกเลิกการจัดกลุ่มแถวและคอลัมน์ใน Excel ด้วย Aspose.Cells](./ungrouping-rows-and-columns/)
+### [ยกเลิกการจัดกลุ่มแถวและคอลัมน์ใน Excelด้วย Aspose.Cells](./ungrouping-rows-and-columns/)
 เรียนรู้วิธีแยกกลุ่มแถวและคอลัมน์ใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือฉบับสมบูรณ์นี้ ทำให้การจัดการข้อมูลใน Excel ของคุณง่ายขึ้น
 ### [ซ่อนหลายแถวและหลายคอลัมน์ใน Aspose.Cells .NET](./hide-multiple-rows-columns-aspose-cells/)
 เรียนรู้วิธีซ่อนหลายแถวและหลายคอลัมน์ใน Excel ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อการจัดการ Excel ได้อย่างราบรื่น
@@ -66,25 +65,44 @@
 เรียนรู้วิธีการลบคอลัมน์ในไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนโดยละเอียดของเราเพื่อปรับปรุงกระบวนการแก้ไขไฟล์ Excel ของคุณ
 ### [ลบแถวใน Aspose.Cells .NET](./delete-row-aspose-cells/)
 เรียนรู้วิธีการลบแถวใน Excel ด้วย Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนนี้ครอบคลุมถึงข้อกำหนดเบื้องต้น การนำเข้าโค้ด และคำแนะนำโดยละเอียดสำหรับการจัดการข้อมูลอย่างราบรื่น
+### [วิธีลบแถวทั้งหมดในไฟล์ Excel ด้วย C#](./how-to-delete-entire-row-in-an-excel-file-using-c/)
+เรียนรู้วิธีลบแถวทั้งหมดในไฟล์ Excel ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET อย่างละเอียด
+### [วิธีลบแถวใน Excel ด้วย C# – ปกป้องหัวตาราง](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
+เรียนรู้วิธีลบแถวใน Excel ด้วย C# พร้อมปกป้องหัวตารางไม่ให้ถูกลบ
 ### [ลบหลายแถวใน Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 เรียนรู้การลบหลายแถวใน Excel โดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนโดยละเอียดนี้ครอบคลุมถึงข้อกำหนดเบื้องต้น ตัวอย่างการเขียนโค้ด และคำถามที่พบบ่อยสำหรับนักพัฒนา
+### [โหลดไฟล์ Excelด้วย C# – วิธีลบแถวและลบแถวเฉพาะ](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
+เรียนรู้วิธีโหลดไฟล์ Excel ด้วย C# และลบแถว รวมถึงการลบแถวเฉพาะโดยใช้ Aspose.Cells
 ### [แทรกคอลัมน์ใน Aspose.Cells .NET](./insert-column-aspose-cells/)
 เรียนรู้วิธีการแทรกคอลัมน์ใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนง่ายๆ ของเราเพื่อเพิ่มคอลัมน์ใหม่ได้อย่างราบรื่น เหมาะสำหรับนักพัฒนา .NET
 ### [แทรกแถวใน Aspose.Cells .NET](./insert-row-aspose-cells/)
 เรียนรู้วิธีการแทรกแถวใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ พัฒนาทักษะการจัดการข้อมูลของคุณได้อย่างง่ายดาย
-### [แทรกแถวใน Excel ด้วย C# – คู่มือทีละขั้นตอน](./insert-rows-in-excel-with-c-step-by-step-guide/)
-เรียนรู้วิธีแทรกแถวในไฟล์ Excel ด้วย C# ผ่านคำแนะนำทีละขั้นตอนจาก Aspose.Cells สำหรับ .NET
 ### [แทรกแถวด้วยการจัดรูปแบบใน Aspose.Cells .NET](./insert-row-formatting-aspose-cells/)
 เรียนรู้การแทรกแถวด้วยการจัดรูปแบบใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการใช้งานที่ง่ายดาย
 ### [แทรกหลายแถวใน Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 เรียนรู้การแทรกหลายแถวใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ทำตามบทช่วยสอนโดยละเอียดของเราเพื่อการจัดการข้อมูลอย่างราบรื่น
+### [Aspose Cells ลบแถว – ปกป้องแถวหัวเรื่องใน Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
+เรียนรู้วิธีลบแถวใน Excel โดยคงแถวหัวเรื่องไว้ด้วย Aspose.Cells สำหรับ .NET
+### [วิธีทำซ้ำรายการใน Excel – การสร้างแถวแบบไดนามิกด้วย C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
+เรียนรู้วิธีสร้างแถวใหม่โดยอัตโนมัติใน Excel เพื่อทำซ้ำรายการโดยใช้ C# และ Aspose.Cells
+### [วิธีแทรกแถวใน GridJs – เพิ่มหลายแถวใน Grid อย่างมีประสิทธิภาพ](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+เรียนรู้วิธีแทรกหลายแถวใน GridJs อย่างมีประสิทธิภาพด้วยขั้นตอนที่เข้าใจง่ายสำหรับนักพัฒนา
+### [ลบแถวในตาราง Excel ด้วย C# – คู่มือขั้นตอนโดยละเอียด](./delete-rows-excel-table-with-c-step-by-step-guide/)
+เรียนรู้วิธีลบแถวในตาราง Excel ด้วย C# อย่างละเอียดตามขั้นตอน
+### [แทรกแถวใน Excel ด้วย C# – คู่มือทีละขั้นตอน](./insert-rows-in-excel-with-c-step-by-step-guide/)
+เรียนรู้วิธีแทรกแถวในไฟล์ Excel ด้วย C# ผ่านคำแนะนำทีละขั้นตอนจาก Aspose.Cells สำหรับ .NET
 ### [วิธีใช้ WRAPCOLS: สร้างเค้าโครงสองคอลัมน์ใน C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 เรียนรู้วิธีใช้ WRAPCOLS เพื่อสร้างเค้าโครงสองคอลัมน์ใน C# ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด
+### [วิธีแทรกแถวใน GridJs – เพิ่มหลายแถวอย่างรวดเร็ว](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+เรียนรู้วิธีเพิ่มหลายแถวใน GridJs อย่างรวดเร็วด้วยขั้นตอนง่าย ๆ สำหรับนักพัฒนา
+### [วิธีใช้ wrapcols ใน C# – คู่มือเต็มกับ Excel WRAPROWS & การคำนวณสูตรใหม่](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+เรียนรู้วิธีใช้ wrapcols ใน C# พร้อม WRAPROWS และการคำนวณสูตรใหม่ใน Excel อย่างละเอียด
+### [เลื่อนเซลล์ขึ้นใน Excel ด้วย C# – คู่มือฉบับสมบูรณ์](./shift-cells-up-in-excel-with-c-complete-guide/)
+เรียนรู้วิธีเลื่อนเซลล์ขึ้นในไฟล์ Excel ด้วย C# อย่างละเอียด ด้วยขั้นตอนและโค้ดตัวอย่างที่เข้าใจง่าย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

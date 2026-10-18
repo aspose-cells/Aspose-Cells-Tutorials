@@ -23,7 +23,7 @@ title: Buat Word dari Excel – Panduan C# Cepat
 url: /id/net/converting-excel-files-to-other-formats/create-word-from-excel-quick-c-guide/
 ---
 
-produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

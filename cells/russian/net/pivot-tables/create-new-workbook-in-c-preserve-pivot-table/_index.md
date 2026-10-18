@@ -22,13 +22,7 @@ title: Создать новую книгу в C# — Сохранить сво
 url: /ru/net/pivot-tables/create-new-workbook-in-c-preserve-pivot-table/
 ---
 
-top-button >}}
-
-Make sure to keep shortcodes at end.
-
-Now produce final content with translation. Ensure all markdown formatting preserved.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

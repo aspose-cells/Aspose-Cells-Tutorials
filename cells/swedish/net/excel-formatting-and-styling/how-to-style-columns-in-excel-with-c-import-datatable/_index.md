@@ -24,13 +24,7 @@ title: Hur man formaterar kolumner i Excel med C# – Importera DataTable
 url: /sv/net/excel-formatting-and-styling/how-to-style-columns-in-excel-with-c-import-datatable/
 ---
 
-are {{CODE_BLOCK_X}} not actual code fences; we keep them.
-
-Check for any other formatting: blockquote > lines.
-
-Make sure to keep bold formatting.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

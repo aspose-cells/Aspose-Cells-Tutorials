@@ -2,7 +2,7 @@
 "description": "Ontgrendel uw Excel-gegevens moeiteloos met Aspose.Cells voor .NET-tutorials. Leer hoe u versleutelde, data-only, FODS- en SXC-bestanden opent."
 "linktitle": "Bestanden laden en parsen"
 "second_title": "Aspose.Cells .NET Excel-verwerkings-API"
-"title": "Bestanden laden en parseren"
+"title": "Bestanden laden en parsen"
 "url": "/nl/net/data-loading-and-parsing/"
 "weight": 27
 ---
@@ -13,7 +13,7 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bestanden laden en parseren
+# Bestanden laden en parsen
 
 ## Invoering
 
@@ -50,6 +50,9 @@ Leer hoe je Excel-bestanden opent met Aspose.Cells in .NET. Deze beginnersvriend
 Leer hoe je FODS-bestanden opent met Aspose.Cells voor .NET met deze stapsgewijze handleiding. Perfect voor ontwikkelaars die spreadsheetgegevens naadloos willen bewerken.
 ### [SXC-bestanden openen](./opening-sxc-files/)
 Leer hoe je SXC-bestanden in .NET efficiënt opent en bewerkt met Aspose.Cells. Een stapsgewijze tutorial met codevoorbeelden.
+### [Datum uit Excel extraheren en datum yyyy‑mm‑dd weergeven – Complete C#-gids](./extract-date-from-excel-and-output-date-yyyy-mm-dd-complete/)
+Leer hoe u met Aspose.Cells datumwaarden uit een Excel-werkblad haalt en formatteert als yyyy‑mm‑dd in C#.
+
 ### [Hoe een werkmap maken en JSON in Excel invoegen](./how-to-create-workbook-and-insert-json-into-excel/)
 Leer hoe u een werkmap maakt en JSON-gegevens in Excel invoegt met Aspose.Cells voor .NET.
 ### [Datum uit Excel extraheren in C# – Complete stapsgewijze handleiding](./extract-date-from-excel-in-c-complete-step-by-step-guide/)
@@ -60,6 +63,18 @@ Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap maakt vanuit JSON in dez
 Leer hoe u Japanse jaartijd-datums in Excel verwerkt met Aspose.Cells voor .NET in deze stapsgewijze handleiding.
 ### [Hoe Markdown in een spreadsheet laden – Base64-afbeeldingen decoderen](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
 Leer hoe u Markdown-inhoud, inclusief Base64-afbeeldingen, in een Excel-werkblad laadt met Aspose.Cells voor .NET.
+### [Hoe Japanse datums te parseren in C# – Complete gids](./how-to-parse-japanese-dates-in-c-complete-guide/)
+Leer hoe u Japanse datums correct parseert in C# met Aspose.Cells, inclusief voorbeelden en best practices.
+### [Hoe JSON in Excel-sjabloon invoegen – Stap‑voor‑stap](./how-to-insert-json-into-excel-template-step-by-step/)
+Leer hoe u JSON-gegevens in een Excel-sjabloon invoegt met Aspose.Cells voor .NET in een stapsgewijze handleiding.
+### [Hoe Markdown in Excel laden – Markdown‑bestand importeren met Aspose.Cells](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
+Leer hoe u een Markdown‑bestand in Excel importeert met Aspose.Cells voor .NET via een eenvoudige stap‑voor‑stap handleiding.
+### [Excel genereren vanuit JSON met C# – Complete stapsgewijze handleiding](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
+Leer hoe u Excel-bestanden genereert vanuit JSON met C# met deze volledige stapsgewijze handleiding.
+### [Excel-werkmap maken C# – Volledige gids om datums uit cellen te lezen](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+Leer hoe u een Excel-werkmap maakt en datums uit cellen leest met Aspose.Cells voor .NET in C#.
+### [Japanse era-datum parseren in C# – Complete gids](./parse-japanese-era-date-in-c-complete-guide/)
+Leer hoe u Japanse era-datums parseert in C# met Aspose.Cells voor .NET in deze volledige gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

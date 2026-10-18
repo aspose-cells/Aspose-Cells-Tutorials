@@ -23,11 +23,7 @@ title: Excel में डेटा दोहराएँ – SmartMarker के
 url: /hi/net/smart-markers-dynamic-data/repeat-data-in-excel-populate-template-with-smartmarker/
 ---
 
-< blocks/products/products-backtop-button >}}
-
-Now ensure we didn't translate any code placeholders or shortcodes.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

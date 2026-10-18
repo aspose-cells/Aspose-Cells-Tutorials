@@ -24,7 +24,7 @@ title: Autofilter in Excel mit C# entfernen – Vollständige Schritt‑für‑S
 url: /de/net/excel-autofilter-validation/remove-autofilter-excel-in-c-complete-step-by-step-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

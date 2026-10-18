@@ -21,10 +21,6 @@ title: 导出数据到 Excel：在 C# 中从数组填充模板
 url: /zh/net/smart-markers-dynamic-data/export-data-to-excel-populate-a-template-from-an-array-in-c/
 ---
 
-block placeholders unchanged.
-
-Let's write translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

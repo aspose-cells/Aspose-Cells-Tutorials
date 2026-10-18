@@ -24,7 +24,7 @@ title: C#'ta Yeni Çalışma Kitabı Oluştur – Formül Ekle ve Excel Dosyası
 url: /tr/net/excel-workbook/create-new-workbook-in-c-add-formula-and-save-excel-file/
 ---
 
-produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

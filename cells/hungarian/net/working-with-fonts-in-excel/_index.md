@@ -53,6 +53,8 @@ Supercripts kifinomult megjelenést kölcsönözhet a dokumentumnak, különöse
 
 ### [A Super Script effektus testreszabása szövegre Excelben](./customizing-super-script-effect/)
 Ismerje meg, hogyan szabhatja testre a felső indexű szöveget Excelben az Aspose.Cells for .NET használatával. Javítsa táblázatait egyszerű lépésekkel.
+### [Félkövér betűtípus alkalmazása szövegdobozra – Lépésről‑lépésre C# útmutató](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
+Fedezze fel, hogyan alkalmazhat félkövér betűtípust egy szövegdobozra az Aspose.Cells for .NET használatával ebben az egyszerű, lépésről‑lépésre útmutatóban.
 
 ### [Betű másolása Excel cellából szövegdobozba – Lépésről‑lépésre útmutató](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
 Ismerje meg, hogyan másolhatja át a betűformázást egy Excel celláról egy szövegdobozba az Aspose.Cells for .NET segítségével, lépésről‑lépésre.

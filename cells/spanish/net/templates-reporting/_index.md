@@ -53,6 +53,23 @@ Aprenda a dominar la integración de datos con los marcadores inteligentes de As
 Aprenda a enlazar datos a plantillas de Excel y generar archivos automáticamente usando C# y Aspose.Cells.
 ### [Crear libro de trabajo desde plantilla en C# – Guía paso a paso](./create-workbook-from-template-in-c-step-by-step-guide/)
 Aprenda a generar un libro de Excel a partir de una plantilla usando Aspose.Cells para .NET con código C# paso a paso.
+### [Crear Excel a partir de una plantilla – Guía paso a paso para desarrolladores .NET](./create-excel-from-template-step-by-step-guide-for-net-develo/)
+Aprenda a generar archivos Excel a partir de plantillas usando Aspose.Cells para .NET, con instrucciones paso a paso para desarrolladores.
+### [Crear plantilla de libro de trabajo con Aspose.Cells – Guía completa](./create-workbook-template-with-aspose-cells-complete-guide/)
+Aprenda a crear plantillas de libros de Excel con Aspose.Cells, configurando marcadores y estilos para generar informes automatizados.
+### [Cómo guardar un archivo de plantilla de Excel – Guía paso a paso](./how-to-save-excel-template-file-step-by-step-guide/)
+Guía paso a paso para guardar archivos de plantilla de Excel usando Aspose.Cells .NET.
+
+### [Cómo usar Excel para combinación de correspondencia – Guía completa en C#](./how-to-use-excel-for-mail-merge-complete-c-guide/)
+Aprenda a utilizar Excel para combinar correspondencia mediante Aspose.Cells y C#, creando documentos personalizados de forma automatizada.
+### [Cómo generar una factura con Aspose.Cells – Guía completa de programación](./how-to-generate-invoice-with-aspose-cells-complete-programmi/)
+Aprenda a crear facturas automatizadas con Aspose.Cells .NET, cubriendo la configuración, el diseño y la exportación a formatos comunes.
+
+### [Cómo procesar una plantilla de Excel y nombrar automáticamente las hojas en C#](./how-to-process-excel-template-and-automatically-name-sheets/)
+Aprenda a procesar plantillas de Excel y asignar nombres a las hojas automáticamente usando C# y Aspose.Cells.
+
+### [Cómo exportar datos a Excel usando una plantilla C# – guía paso a paso](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
+Aprenda a exportar datos a Excel mediante una plantilla C# con Aspose.Cells, siguiendo una guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

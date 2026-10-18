@@ -23,14 +23,6 @@ title: Excel वर्कबुक बनाएं C# – कस्टम प्
 url: /hi/net/document-properties/create-excel-workbook-c-add-custom-property-save-xlsb/
 ---
 
-structure.
-
-Let's do translation.
-
-Start with shortcodes unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
