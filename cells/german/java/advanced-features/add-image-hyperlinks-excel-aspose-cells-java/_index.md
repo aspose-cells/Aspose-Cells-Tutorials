@@ -12,9 +12,7 @@ url: /de/java/advanced-features/add-image-hyperlinks-excel-aspose-cells-java/
 weight: 1
 ---
 
- unchanged.
-
-Let's craft final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

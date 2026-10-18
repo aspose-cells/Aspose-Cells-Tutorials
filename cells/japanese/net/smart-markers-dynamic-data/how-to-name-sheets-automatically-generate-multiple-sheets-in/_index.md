@@ -20,15 +20,7 @@ title: シート名を自動で付ける方法 – C#で複数シートを生成
 url: /ja/net/smart-markers-dynamic-data/how-to-name-sheets-automatically-generate-multiple-sheets-in/
 ---
 
-tricks. Happy coding!"
-
-Translate.
-
-Then closing shortcodes.
-
-Now ensure we preserve all shortcodes exactly as original.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

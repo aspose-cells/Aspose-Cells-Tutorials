@@ -38,7 +38,10 @@ Met deze tutorials leert u het volgende:
 - Master Union-reeksen voor complexe selecties
 - Verberg en onthul werkboekinhoud via bereikbewerkingen
 
-## Tutorials voor bereikbeheer
+## Tutorials
+### [Define cell area in Aspose.Cells and copy Excel range in C#](./define-cell-area-in-aspose-cells-and-copy-excel-range-in-c/)
+
+ voor bereikbeheer
 
 ### [Toegang tot alle benoemde bereiken in Excel met Aspose.Cells voor .NET | Stapsgewijze handleiding](./access-named-ranges-excel-aspose-cells-net)
 Leer hoe u efficiënt toegang krijgt tot alle benoemde bereiken in Excel met Aspose.Cells voor .NET. Deze handleiding biedt stapsgewijze instructies en tips voor het oplossen van problemen bij het programmatisch werken met benoemde bereiken in uw werkmappen.

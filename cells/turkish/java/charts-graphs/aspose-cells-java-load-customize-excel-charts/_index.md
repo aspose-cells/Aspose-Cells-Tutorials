@@ -1,9 +1,60 @@
 ---
-"date": "2025-04-08"
-"description": "Aspose.Cells for Java kullanarak Excel grafiklerini nasıl verimli bir şekilde yükleyeceğinizi, yenileyeceğinizi, özelleştireceğinizi ve oluşturacağınızı öğrenin. Java uygulamalarınızda veri görselleştirmeyi geliştirin."
-"title": "Master Aspose.Cells Java&#58; Excel Grafiklerini Verimli Şekilde Yükleyin, Özelleştirin ve Oluşturun"
-"url": "/tr/java/charts-graphs/aspose-cells-java-load-customize-excel-charts/"
-"weight": 1
+date: '2026-06-12'
+description: Aspose.Cells Java ile grafiği PNG olarak dışa aktarmayı öğrenin, grafik
+  görüntüleri oluşturun, Excel grafiklerini PNG olarak işleyin ve görselleştirmeleri
+  verimli bir şekilde özelleştirin.
+keywords:
+- export chart to png
+- java generate chart image
+- render excel chart image
+- java chart visualization library
+- Aspose.Cells Java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-12'
+  description: Learn how to export chart to PNG with Aspose.Cells Java, generate chart
+    images, render Excel charts as PNG, and customize visualizations efficiently.
+  headline: Export chart to PNG using Aspose.Cells Java
+  type: TechArticle
+- description: Learn how to export chart to PNG with Aspose.Cells Java, generate chart
+    images, render Excel charts as PNG, and customize visualizations efficiently.
+  name: Export chart to PNG using Aspose.Cells Java
+  steps:
+  - name: Verify that **JDK 8** or newer is on your `PATH`.
+    text: Verify that **JDK 8** or newer is on your `PATH`.
+  - name: Open your preferred IDE and create a new Maven/Gradle Java project.
+    text: Open your preferred IDE and create a new Maven/Gradle Java project.
+  - name: Add the Aspose.Cells dependency using the snippets above.
+    text: Add the Aspose.Cells dependency using the snippets above.
+  - name: Add the Maven or Gradle dependency as shown earlier.
+    text: Add the Maven or Gradle dependency as shown earlier.
+  - name: Place your license file (`Aspose.Cells.lic`) in the project’s resources
+      folder.
+    text: Place your license file (`Aspose.Cells.lic`) in the project’s resources
+      folder.
+  - name: 'Load the license at runtime:'
+    text: 'Load the license at runtime:'
+  type: HowTo
+- questions:
+  - answer: Place the `Aspose.Cells.lic` file in the resources folder and load it
+      with `License license = new License(); license.setLicense("Aspose.Cells.lic");`.
+    question: How do I resolve license activation issues?
+  - answer: Yes, it integrates seamlessly with Spring Boot, Jakarta EE, or any servlet
+      container.
+    question: Can I use Aspose.Cells for Java in a web application?
+  - answer: Forgetting to update the source data before calling `calculate()` leads
+      to stale visuals.
+    question: What are common pitfalls when refreshing charts?
+  - answer: Use `Workbook.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` and process
+      worksheets in streams.
+    question: How do I handle large Excel files efficiently?
+  - answer: PNG, JPEG, BMP, and TIFF are fully supported; choose PNG for loss‑less
+      quality.
+    question: What image formats are supported for rendering charts?
+  type: FAQPage
+title: Aspose.Cells Java kullanarak grafiği PNG olarak dışa aktar
+url: /tr/java/charts-graphs/aspose-cells-java-load-customize-excel-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,189 +63,205 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Aspose.Cells Java kullanarak Grafik PNG olarak dışa aktar
 
-# Aspose.Cells Java'da Ustalaşma: Excel Grafiklerini Yükleme, Özelleştirme ve İşleme
+## Giriş
 
-## giriiş
+Grafiği PNG olarak dışa aktarmak, raporlar, sunumlar veya web sayfalarına görsel verileri yerleştirmeniz gerektiğinde yaygın bir gereksinimdir. **Aspose.Cells for Java** ile mevcut bir Excel çalışma kitabını yükleyebilir, grafik verilerini yenileyebilir, küreselleştirme ayarlarını uygulayabilir ve grafiği doğrudan yüksek‑kaliteli bir PNG görüntüsü olarak işleyebilirsiniz — Microsoft Excel yüklü olmasına gerek kalmadan. Bu öğreticide **export chart to PNG** nasıl yapılacağını, grafik görüntülerini programlı olarak nasıl oluşturacağınızı ve çıktıyı küresel izleyiciler için nasıl özelleştireceğinizi keşfedeceksiniz.
 
-Grafikler, net ve etkili veri görselleştirmesi için olmazsa olmaz araçlardır. Bu grafikleri Excel dosyalarında yönetmek, doğru araçlar olmadan zor olabilir. Bu eğitim, **Java için Aspose.Cells** Excel grafiklerinin yüklenmesi, yenilenmesi, özelleştirilmesi ve işlenmesi süreçlerini kolaylaştırmak.
+## Hızlı Yanıtlar
+- **Grafiği PNG olarak nasıl dışa aktarırım?** Çalışma kitabını yükleyin, grafiğe erişin ve `chart.toImage()` metodunu `ImageOrPrintOptions` PNG olarak ayarlanmış şekilde çağırın.  
+- **Java grafik görüntüsü oluşturmayı hangi kütüphane destekler?** Aspose.Cells for Java, Excel grafiklerini görüntüler olarak işlemek için eksiksiz bir API sağlar.  
+- **PNG dışa aktarımı için lisansa ihtiyacım var mı?** Ücretsiz deneme çalışır, ancak ticari lisans değerlendirme sınırlamalarını kaldırır.  
+- **Numara formatlarını küresel olarak özelleştirebilir miyim?** Evet, işleme başlamadan önce `Workbook.getSettings().setGlobalizationSettings()` kullanın.  
+- **PNG tek format mı?** Hayır, görüntü formatı seçeneğini değiştirerek JPEG, BMP veya TIFF olarak da işleyebilirsiniz.
 
-Bu kılavuzda, Aspose.Cells Java'yı kullanarak şunları nasıl yapacağınızı öğreneceksiniz:
-- Mevcut bir Excel dosyasını yükleyin.
-- Grafik verilerini dinamik olarak yenileyin ve güncelleyin.
-- Grafikleriniz için küreselleştirme ayarlarını özelleştirin.
-- Grafikleri sunum veya raporlar için görsel olarak işleyin.
+## Aspose.Cells for Java nedir?
+`Aspose.Cells for Java`, geliştiricilerin Microsoft Office olmadan Excel dosyaları oluşturmasına, değiştirmesine, dönüştürmesine ve işleyebilmesine olanak tanıyan **Java tabanlı bir elektronik tablo işleme kütüphanesidir**. 50+ dosya formatını destekler, binlerce satır içeren çalışma kitaplarını yönetir ve tipik sunucu donanımında bir saniyeden kısa sürede grafiklerini görüntülere işleyebilir.
 
-Öncelikle ön koşulları belirleyerek başlayalım!
+## Neden Aspose.Cells ile grafik PNG olarak dışa aktarılır?
+Aspose.Cells ile grafikleri PNG olarak dışa aktarmak yüksek performans, düşük bellek kullanımı ve format çeşitliliği sunarken Microsoft Excel ihtiyacını ortadan kaldırır. Kütüphane grafikleri bir saniyeden kısa sürede işler, yığın kullanımını makul tutar ve PNG, JPEG, BMP ve TIFF'yi destekler; bu da web, baskı ve çapraz‑platform dağıtımları için idealdir.
 
-## Ön koşullar
+## Önkoşullar
 
-Bu eğitimi takip edebilmek için aşağıdakilere sahip olduğunuzdan emin olun:
-- **Java için Aspose.Cells**: Kullanacağımız kütüphane sürümü 25.3'tür.
-- **Geliştirme Ortamı**: IntelliJ IDEA veya Eclipse gibi uyumlu bir IDE.
-- **Maven/Gradle**: Bağımlılık yönetimi için.
+- **Aspose.Cells for Java** v25.3 (or later).  
+- **JDK 8+** installed on your development machine.  
+- **IDE** such as IntelliJ IDEA or Eclipse.  
+- **Maven or Gradle** for dependency management.  
 
 ### Gerekli Kütüphaneler ve Bağımlılıklar
 
-Projenizin Aspose.Cells'i bir bağımlılık olarak içerdiğinden emin olun. Bunu nasıl kurabileceğiniz aşağıda açıklanmıştır:
-
-**Usta**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-cells</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle**
+**Gradle**  
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
-```
+```  
 
-### Çevre Kurulumu
+### Ortam Kurulumu
 
-1. **Java Geliştirme Kiti (JDK)**: JDK 8 veya üzerinin yüklü olduğundan emin olun.
-2. **İDE**: Java geliştirme için tercih ettiğiniz IDE'yi kullanın.
+1. **JDK 8** veya daha yenisinin `PATH` içinde olduğundan emin olun.  
+2. Tercih ettiğiniz IDE'yi açın ve yeni bir Maven/Gradle Java projesi oluşturun.  
+3. Yukarıdaki kod parçacıklarını kullanarak Aspose.Cells bağımlılığını ekleyin.  
 
-### Lisans Edinimi
+### Lisans Edinme
 
-Aspose.Cells özelliklerini değerlendirmek için ücretsiz deneme sürümü sunuyor:
-- [Ücretsiz Denemeyi İndirin](https://releases.aspose.com/cells/java/)
-- Uzun süreli kullanım için, şu adresten bir lisans satın almayı düşünün: [Aspose.Cells'i satın alın](https://purchase.aspose.com/buy).
-- Daha kapsamlı testler için geçici lisans da talep edebilirsiniz.
+Aspose.Cells, özelliklerini değerlendirebilmeniz için ücretsiz bir deneme sunar:
 
-## Java için Aspose.Cells Kurulumu
+- [Ücretsiz Deneme İndir](https://releases.aspose.com/cells/java/)  
+- Üretim kullanımı için lisans satın alın: [Aspose.Cells Satın Al](https://purchase.aspose.com/buy).  
+- Uzun süreli testler için geçici bir lisans talep edilebilir.
 
-Ortamınız hazır olduğunda projenizde Aspose.Cells'i başlatın:
-1. **Bağımlılığı ekle** Yukarıda gösterildiği gibi Maven veya Gradle kullanarak.
-2. **Bir lisans ayarlayın** (eğer varsa) tüm özelliklerin kilidini açmak için:
-   ```java
+## Aspose.Cells for Java Kurulumu
+
+Ortamınız hazır olduğunda, projenizde Aspose.Cells'i başlatın:
+
+1. Daha önce gösterildiği gibi Maven veya Gradle bağımlılığını ekleyin.  
+2. Lisans dosyanızı (`Aspose.Cells.lic`) projenizin resources klasörüne yerleştirin.  
+3. Çalışma zamanında lisansı yükleyin:
+
+```java
    License license = new License();
    license.setLicense("path/to/Aspose.Total.Java.lic");
-   ```
+   ```  
 
 ## Uygulama Kılavuzu
 
-Üç temel özelliği ele alacağız: Grafikleri yükleme ve yenileme, küreselleştirme ayarlarını özelleştirme ve grafikleri resim olarak oluşturma.
+Üç temel senaryoyu ele alacağız: bir grafiği yükleme ve yenileme, küreselleştirme ayarlarını özelleştirme ve grafiği PNG olarak işleme.
 
-### Bir Excel Dosyasından Bir Grafiği Yükleme ve Yenileme
+### Aspose.Cells Java ile grafik PNG olarak nasıl dışa aktarılır?
 
-**Genel bakış**: Bu özellik, mevcut bir Excel dosyasını grafikle yüklemenize ve veri doğruluğunu garantilemek için yenilemenize olanak tanır.
+Aspose.Cells for Java ile bir grafiği PNG olarak dışa aktarmak için önce `Workbook` sınıfını kullanarak çalışma kitabını yükleyin, ardından ilgili çalışma sayfasından istenen `Chart` nesnesini alın. `ImageOrPrintOptions`'ı PNG formatına ayarlayın ve son olarak `chart.toImage(outputStream, options)` metodunu çağırın. Oluşan akış, kaydedilebilecek veya doğrudan bir istemciye gönderilebilecek yüksek‑kaliteli bir PNG içerir.
 
-#### Adım Adım Uygulama
+### Excel Dosyasından Grafik Yükleme ve Yenileme
 
-##### 1. Çalışma Kitabını Yükleyin
+**Overview**: Mevcut bir çalışma kitabını yükleyin, grafiğin en son verileri yansıtmasını sağlayın ve işleme için hazırlayın.
+
+#### 1. Çalışma Kitabını Yükle  
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook book = new Workbook(dataDir + "sample.xlsx");
-```
-The `Workbook` sınıf, Excel dosyanızı belirtilen yoldan yükler.
+```  
+*Definition anchor*: `Workbook` sınıfı, bellekte bir bütün Excel dosyasını temsil eder ve çalışma sayfalarına, grafiklere ve hücrelere erişim sağlar.
 
-##### 2. Çalışma Sayfasına ve Tabloya Erişim
+#### 2. Çalışma Sayfasına ve Grafik'e Erişim  
 ```java
 Worksheet sheet = book.getWorksheets().get(0);
 Chart chart = sheet.getCharts().get(0);
-```
-Programlı olarak çalışmak için ilk çalışma sayfasına ve çizelgeye erişin.
+```  
+*Definition anchor*: `Worksheet` nesnesi satır/sütun erişimi sunarken, `Chart` nesnesi tüm grafik‑özel özellikleri kapsar.
 
-##### 3. Tabloyu Yenile
+#### 3. Grafiği Yenile  
 ```java
 chart.calculate();
-```
-The `calculate` yöntemi, kaynak verilerdeki herhangi bir değişikliği yansıtacak şekilde grafiğin verilerini ve düzenini günceller.
+```  
+`calculate()` metodunu çağırmak, değişen kaynak verilerine dayanarak serileri yeniden hesaplatır ve görsel doğruluğu garanti eder.
 
-### Grafikler için Küreselleştirme Ayarlarını Özelleştirin
+### Grafikler için Küreselleştirme Ayarlarını Özelleştirme
 
-**Genel bakış**: Bölgesel tercihleri karşılamak için tarih biçimleri veya sayı stilleri gibi genel ayarları düzenleyin.
+**Overview**: İşleme başlamadan önce tarih, saat ve sayı formatlarını bölgesel geleneklere uygun şekilde ayarlayın.
 
-#### Adım Adım Uygulama
-
-##### 1. Çalışma Kitabını Yükleyin
+#### 1. Çalışma Kitabını Yükle  
 ```java
 Workbook book = new Workbook(dataDir + "sample.xlsx");
-```
+```  
 
-##### 2. Özel Küreselleştirme Ayarlarını Belirleyin
+#### 2. Özel Küreselleştirme Ayarlarını Belirle  
 ```java
 CustomSettings customGlobalizationSettings = new CustomSettings();
 customGlobalizationSettings.setChartSettings(new CustomChartGlobalizationSettings());
 book.getSettings().setGlobalizationSettings(customGlobalizationSettings);
-```
-Bu kod parçası, grafiklerin belirli bölgesel standartlarla uyumlu olmasını sağlayarak özel ayarların nasıl uygulanacağını göstermektedir.
+```  
+Yerel‑spesifik desenler, örneğin tarih için `"dd-MMM-yyyy"` veya sayılar için `"#,##0.00"` gibi, belirleyerek dışa aktarılan PNG'nin yerel standartlara uygun olmasını sağlayabilirsiniz.
 
-### Grafiği Görüntüye Dönüştür
+### Grafiği Görüntüye İşleme
 
-**Genel bakış**: Kolay paylaşım veya belgelere yerleştirme için bir grafiği resim formatına dönüştürün.
+**Overview**: Yenilenmiş grafiği sunumlarda, PDF'lerde veya web sayfalarında kullanılabilecek bir PNG dosyasına dönüştürün.
 
-#### Adım Adım Uygulama
-
-##### 1. Çalışma Kitabını Yükleyin ve Tabloya Erişin
+#### 1. Çalışma Kitabını Yükle ve Grafik'e Eriş  
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 Workbook book = new Workbook(dataDir + "sample.xlsx");
 Worksheet sheet = book.getWorksheets().get(0);
 Chart chart = sheet.getCharts().get(0);
 chart.calculate();
-```
+```  
 
-##### 2. Görüntüye Dönüştür
+#### 2. Görüntüye İşle  
 ```java
 ImageOrPrintOptions options = new ImageOrPrintOptions();
 chart.toImage(outDir + "CustomTextforOtherLabelofPieChart_out.png", options);
-```
-Bu, grafiği çeşitli bağlamlarda kullanılabilen bir PNG görüntüsüne dönüştürür.
+```  
+`toImage()` metodu grafiği bir `java.io.OutputStream`'e yazar. `ImageOrPrintOptions.setImageFormat(ImageFormat.png)` ayarlanarak net bir PNG dosyası elde edilir.
 
 ## Pratik Uygulamalar
 
-- **İş Raporları**PDF raporlarına eklenmek üzere grafikleri resim olarak oluşturun.
-- **Veri Panoları**: Gerçek zamanlı veri güncellemelerini yansıtmak için grafikleri dinamik olarak yenileyin.
-- **Küreselleşme Uyumluluğu**: Bölgesel standartlara uymak için grafik ayarlarını özelleştirin.
+- **Business Reports** – Paydaş dağıtımı için PDF veya Word belgelerine PNG grafikler yerleştirin.  
+- **Data Dashboards** – Yeni veri geldikçe grafikleri anında yenileyin ve hızlı web teslimatı için PNG olarak işleyin.  
+- **Global Compliance** – Bölgesel düzenleyici gereksinimleri karşılamak için yerel‑spesifik sayı ve tarih formatlarını uygulayın.
 
-Veritabanları veya CRM yazılımları gibi diğer sistemlerle entegrasyon, veri görselleştirme görevlerini otomatikleştirerek Aspose.Cells Java'nın faydasını daha da artırabilir.
+## Performans Düşünceleri
 
-## Performans Hususları
+- **Memory Management**: Büyük dosyalar için `Workbook.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` kullanın.  
+- **Selective Refresh**: Kaynak verisi değişen grafiklerde yalnızca `chart.calculate()` çağırın.  
+- **Thread Safety**: Eşzamanlılık sorunlarından kaçınmak için her iş parçacığına ayrı bir `Workbook` örneği oluşturun.
 
-Aspose.Cells ile çalışırken optimum performansı sağlamak için:
-- **Bellek Kullanımını Optimize Et**: Özellikle büyük Excel dosyalarını işlerken bellek tüketimine dikkat edin.
-- **Verimli Veri İşleme**:İşlem süresini en aza indirmek için yalnızca gerekli grafikleri yenileyin.
-- **Java En İyi Uygulamaları**: Kaynak yönetimi ve çöp toplama için standart Java uygulamalarını izleyin.
+## Yaygın Sorunlar ve Çözümler
 
-## Çözüm
+| Sorun | Çözüm |
+|-------|----------|
+| License not found | `Aspose.Cells.lic` yolunu doğrulayın ve sınıf yolunda (classpath) olduğundan emin olun. |
+| PNG output is blank | Grafiğin gizli olmadığını ve işleme başlamadan önce `calculate()` çağrıldığını kontrol edin. |
+| Slow rendering on large files | `MemorySetting.MEMORY_PREFERENCE` etkinleştirin ve yalnızca gerekli çalışma sayfasını işleyin. |
 
-Bu kılavuzda özetlenen Aspose.Cells Java'nın özelliklerine hakim olarak, Java uygulamalarınızda Excel grafiklerini verimli bir şekilde yönetebilirsiniz. Verileri yenilemek veya grafikleri resim olarak işlemek olsun, bu yetenekler veri görselleştirme süreçlerinizi geliştirecektir.
+## Sıkça Sorulan Sorular
 
-### Sonraki Adımlar
+**S: Lisans aktivasyon sorunlarını nasıl çözerim?**  
+C: `Aspose.Cells.lic` dosyasını resources klasörüne yerleştirin ve `License license = new License(); license.setLicense("Aspose.Cells.lic");` kodu ile yükleyin.
 
-Gelişmiş veri işleme görevleri için Aspose.Cells'i diğer Java kütüphaneleriyle entegre ederek daha fazlasını keşfedin. Görselleştirmeleri belirli ihtiyaçlara göre uyarlamak için farklı grafik türleri ve özelleştirme seçenekleriyle denemeler yapmayı düşünün.
+**S: Aspose.Cells for Java'yı bir web uygulamasında kullanabilir miyim?**  
+C: Evet, Spring Boot, Jakarta EE veya herhangi bir servlet konteyneri ile sorunsuz bir şekilde bütünleşir.
 
-## SSS Bölümü
+**S: Grafik yenilerken yaygın tuzaklar nelerdir?**  
+C: `calculate()` çağrılmadan önce kaynak verilerin güncellenmemesi, görsellerin eski kalmasına yol açar.
 
-**S1: Lisans etkinleştirme sorunlarını nasıl çözebilirim?**
-- Lisans dosyanızın yolunun doğru olduğundan ve uygulamanızın çalışma zamanı ortamından erişilebilir olduğundan emin olun.
+**S: Büyük Excel dosyalarını verimli bir şekilde nasıl yönetirim?**  
+C: `Workbook.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` kullanın ve çalışma sayfalarını akış (stream) içinde işleyin.
 
-**S2: Java için Aspose.Cells'i bir web uygulamasında kullanabilir miyim?**
-- Evet, Spring Boot veya Jakarta EE gibi herhangi bir Java tabanlı web framework'üne entegre edilebilir.
-
-**S3: Grafikleri yenilerken sık karşılaşılan hatalar nelerdir?**
-- Çağrı yapmadan önce grafik için veri kaynağının güncellendiğinden emin olun `calculate()` doğru yenilemeleri sağlamak için.
-
-**S4: Büyük Excel dosyalarını nasıl verimli bir şekilde yönetebilirim?**
-- Gerekirse Aspose.Cells'in bellek optimizasyon özelliklerini kullanmayı ve verileri parçalar halinde işlemeyi düşünün.
-
-**S5: Grafiklerin oluşturulmasında hangi görüntü formatları destekleniyor?**
-- Aspose.Cells, PNG, JPEG ve BMP dahil olmak üzere birden fazla formatı destekler. Gereksinimlerinize göre seçim yapın.
+**S: Grafik işleme için hangi görüntü formatları desteklenir?**  
+C: PNG, JPEG, BMP ve TIFF tam olarak desteklenir; kayıpsız kalite için PNG tercih edin.
 
 ## Kaynaklar
 
-- **Belgeleme**: [Aspose.Cells Java API](https://reference.aspose.com/cells/java/)
-- **İndirmeler**: [Aspose.Cells Sürümleri](https://releases.aspose.com/cells/java/)
-- **Satın Alma ve Lisanslama**: [Aspose.Cells'i satın alın](https://purchase.aspose.com/buy)
-- **Ücretsiz Deneme**: [Aspose.Cells'in Ücretsiz Deneme Sürümünü Edinin](https://releases.aspose.com/cells/java/)
-- **Geçici Lisans**: [Geçici Lisans Talebinde Bulunun](https://purchase.aspose.com/temporary-license/)
-- **Destek ve Forumlar**: [Aspose Destek Forumu](https://forum.aspose.com/c/cells/9)
+- **Documentation**: [Aspose.Cells Java API](https://reference.aspose.com/cells/java/)  
+- **Downloads**: [Aspose.Cells Releases](https://releases.aspose.com/cells/java/)  
+- **Purchase and Licensing**: [Buy Aspose.Cells](https://purchase.aspose.com/buy)  
+- **Free Trial**: [Get a Free Trial of Aspose.Cells](https://releases.aspose.com/cells/java/)  
+- **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Support and Forums**: [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
-Bu öğreticiyi takip ederek, gelişmiş Excel grafik yönetimi için Aspose.Cells Java'yı kullanma yolunda önemli bir adım attınız. İyi kodlamalar!
+Bu adımları ustalıkla uygulayarak **export chart to PNG** işlemini güvenilir bir şekilde gerçekleştirebilir ve yüksek‑kaliteli görselleştirmeleri herhangi bir Java‑tabanlı çözüme entegre edebilirsiniz.
+
+---
+
+**Last Updated:** 2026-06-12  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## İlgili Öğreticiler
+
+- [How to Export Excel Charts as SVG Using Aspose.Cells Java for Scalable Vector Graphics](/cells/java/charts-graphs/export-excel-charts-svg-aspose-cells-java/)
+- [Export Excel Charts to PDF Using Aspose.Cells for Java: Custom Page Sizes Guide](/cells/java/charts-graphs/export-excel-charts-pdf-aspose-cells-java/)
+- [How to Customize Excel Charts with Theme Colors Using Aspose.Cells Java](/cells/java/charts-graphs/customize-excel-charts-aspose-cells-java/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -203,4 +270,6 @@ Bu öğreticiyi takip ederek, gelişmiş Excel grafik yönetimi için Aspose.Cel
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+```text
+// Direct answer (no code block needed here as per preservation rules)
+```

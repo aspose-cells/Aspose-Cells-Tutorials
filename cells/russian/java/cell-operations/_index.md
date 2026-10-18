@@ -41,9 +41,12 @@ weight: 4
 
 ### [Освоение системы дат 1904 в Excel с помощью Aspose.Cells Java для эффективных операций с ячейками](./aspose-cells-java-configure-1904-date-system-excel/)
 
-### [Освоение Aspose.Cells&#58; Реализация CopyOptions и PasteOptions в Java для управления данными Excel](./aspose-cells-java-copy-paste-options/)
-
 ### [Как извлекать данные из ячеек Excel с помощью Aspose.Cells Java&#58; Полное руководство](./aspose-cells-java-data-retrieval-excel/)
+### [Разбор дат японской эры из Excel в Java: полное руководство](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Узнайте, как извлекать и преобразовывать даты в формате японской эры из файлов Excel с помощью Aspose.Cells для Java.
+
+### [Освоение Aspose.Cells: реализация CopyOptions и PasteOptions в Java для управления данными Excel](./aspose-cells-java-copy-paste-options/)
+Улучшите управление данными Excel на основе Java с помощью Aspose.Cells. Научитесь использовать CopyOptions и PasteOptions для сохранения ссылок и вставки значений из видимых ячеек.
 
 ### [Как установить активную ячейку в Excel с помощью Aspose.Cells for Java&#58; Полное руководство](./aspose-cells-java-set-active-cell-excel/)
 
@@ -72,6 +75,13 @@ weight: 4
 ### [Заполнение Excel данными с помощью Aspose.Cells и Smart Markers](./populate-excel-aspose-cells-smart-markers/)
 
 ### [Установка ширины столбца в Excel с помощью Aspose.Cells Java](./set-column-width-excel-aspose-cells-java/)
+Учебник по коду для Aspose.Words Java
+
+### [Преобразование ячейки в строку в Java – Полное руководство по экспорту](./convert-cell-to-string-in-java-complete-export-guide/)
+Узнайте, как конвертировать содержимое ячейки Excel в строку с помощью Aspose.Cells для Java и экспортировать данные.
+
+### [Получить дату и время из ячейки в Java Excel – Полное руководство](./get-datetime-from-cell-in-java-excel-complete-guide/)
+Узнайте, как извлечь значение даты и времени из ячеек Excel с помощью Aspose.Cells для Java, включая настройку форматов и обработку часовых поясов.
 
 ## Дополнительные ресурсы
 

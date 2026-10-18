@@ -22,30 +22,6 @@ title: C#でテンプレートからワークブックを作成する – ステ
 url: /ja/net/templates-reporting/create-workbook-from-template-in-c-step-by-step-guide/
 ---
 
-license for Aspose.Cells?* | A free trial works for development, but a license removes evaluation watermarks and unlocks full functionality. |
-| *How do I handle culture‑specific number formats?* | Set `Workbook.Settings.CultureInfo` before saving to ensure correct decimal separators and date formats. |
-| *Is there a way to protect the output workbook?* | Yes—use `Worksheet.Protect` or `Workbook.Protect` methods to add passwords or read‑only flags. |
-
-Translate question and answer texts, keep code formatting.
-
-## Wrapping Up heading translate.
-
-Paragraph translate.
-
-List of next steps translate bullet points.
-
-Final sentence translate.
-
-Close shortcodes.
-
-Also keep final backtop button shortcode unchanged.
-
-Now produce final content with translations.
-
-Be careful to preserve markdown formatting exactly.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

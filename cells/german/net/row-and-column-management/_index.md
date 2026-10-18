@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zeilen- und Spaltenverwaltung
@@ -48,6 +46,8 @@ Seien wir ehrlich: Nicht alle Daten bleiben im Laufe der Zeit relevant. Wenn Sie
 Entdecken Sie eine Schritt-für-Schritt-Anleitung zum Kopieren von Spalten in Excel mit Aspose.Cells für .NET. Vereinfachen Sie Ihre Datenaufgaben mit klaren Anweisungen.
 ### [Zeilen mit Aspose.Cells für .NET kopieren](./copying-rows/)
 Erfahren Sie, wie Sie Zeilen in Excel-Dateien mit Aspose.Cells für .NET effizient kopieren. Diese Schritt-für-Schritt-Anleitung vereinfacht das Kopieren von Zeilen für Ihre Datenverwaltungsanforderungen.
+### [Zeilen von einem Arbeitsblatt in ein anderes kopieren – Vollständige C#-Anleitung](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+Entdecken Sie eine Schritt-für-Schritt-Anleitung, um Zeilen von einem Arbeitsblatt in ein anderes zu kopieren, mit Aspose.Cells für .NET und C#.
 ### [Gruppieren Sie Zeilen und Spalten in Excel mit Aspose.Cells](./grouping-rows-and-columns/)
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET Zeilen und Spalten in Excel gruppieren.
 ### [Erstellen Sie unten eine Zusammenfassungszeile mit Aspose.Cells für .NET](./summary-row-below/)
@@ -66,8 +66,14 @@ Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Spalte in einer Excel-Datei löschen. Folgen Sie unserer detaillierten Schritt-für-Schritt-Anleitung, um Ihre Excel-Dateiänderungen zu optimieren.
 ### [Löschen einer Zeile in Aspose.Cells .NET](./delete-row-aspose-cells/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Zeile in Excel löschen. Diese Schritt-für-Schritt-Anleitung behandelt die Voraussetzungen, den Codeimport und eine detaillierte Anleitung zur nahtlosen Datenmanipulation.
+### [Aspose.Cells Zeilen löschen – Kopfzeile in Excel schützen](./aspose-cells-delete-rows-protect-header-row-in-excel/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Zeilen löschen, während Sie die Kopfzeile Ihrer Excel‑Tabelle schützen.
+### [Zeilen in Excel mit C# löschen – Tabellenkopf schützen](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
+Erfahren Sie, wie Sie mit C# Zeilen in Excel löschen und dabei den Tabellenkopf schützen.
 ### [Löschen mehrerer Zeilen in Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET mehrere Zeilen in Excel löschen. Diese detaillierte Schritt-für-Schritt-Anleitung enthält Voraussetzungen, Programmierbeispiele und FAQs für Entwickler.
+### [Wie man eine gesamte Zeile in einer Excel-Datei mit C# löscht](./how-to-delete-entire-row-in-an-excel-file-using-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine komplette Zeile in einer Excel-Datei per C# entfernen.
 ### [Einfügen einer Spalte in Aspose.Cells .NET](./insert-column-aspose-cells/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Spalte in Excel einfügen. Folgen Sie unserer einfachen Schritt-für-Schritt-Anleitung, um nahtlos eine neue Spalte hinzuzufügen. Perfekt für .NET-Entwickler.
 ### [Einfügen einer Zeile in Aspose.Cells .NET](./insert-row-aspose-cells/)
@@ -76,11 +82,36 @@ Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells 
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine formatierte Zeile in Excel einfügen. Folgen Sie unserer Schritt-für-Schritt-Anleitung für eine einfache Implementierung.
 ### [Einfügen mehrerer Zeilen in Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET mehrere Zeilen in Excel einfügen. Folgen Sie unserem ausführlichen Tutorial zur nahtlosen Datenmanipulation.
+### [Wie man Elemente in Excel wiederholt – Dynamische Zeilenerzeugung mit C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET wiederholende Elemente in Excel dynamisch erzeugen und Zeilen programmgesteuert hinzufügen.
+### [Wie man Zeilen in GridJs einfügt – Mehrere Zeilen effizient zum Grid hinzufügen](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+Erfahren Sie, wie Sie mit GridJs mehrere Zeilen effizient in ein Grid einfügen. Schritt-für-Schritt-Anleitung für .NET-Entwickler.
+
+
+
+
+
+
+
+
+### [Excel-Datei laden C# – Zeilen löschen und bestimmte Zeilen entfernen](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien in C# laden und gezielt Zeilen löschen oder bestimmte Zeilen entfernen.
+### [Zeilen aus Excel‑Tabelle mit C# löschen – Schritt‑für‑Schritt‑Anleitung](./delete-rows-excel-table-with-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Zeilen aus einer Excel‑Tabelle in C# löschen. Schritt‑für‑Schritt‑Anleitung.
+### [Zeilen in Excel mit C# einfügen – Schritt‑für‑Schritt‑Anleitung](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Zeilen in Excel per C# einfügen – eine klare Schritt‑für‑Schritt‑Anleitung.
+### [Wie man WRAPCOLS verwendet: Erstellen eines Zwei‑Spalten‑Layouts in C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+Erfahren Sie, wie Sie mit WRAPCOLS in Aspose.Cells für .NET ein zweispaltiges Layout in C# erstellen.
+### [Zeilen in GridJs einfügen – Mehrere Zeilen schnell hinzufügen](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+Erfahren Sie, wie Sie mit GridJs mehrere Zeilen schnell in Ihre Tabelle einfügen. Schritt-für-Schritt-Anleitung für .NET-Entwickler.
+### [Wie man wrapcols in C# verwendet – Vollständige Anleitung mit Excel WRAPROWS & Formeln neu berechnen](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Erfahren Sie, wie Sie wrapcols in C# einsetzen, um Zeilen umzubrechen und Formeln nach Änderungen neu zu berechnen.
+### [Zellen in Excel nach oben verschieben mit C# – Komplettanleitung](./shift-cells-up-in-excel-with-c-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Zellen in Excel nach oben verschieben. Schritt‑für‑Schritt‑Anleitung für C#‑Entwickler.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
