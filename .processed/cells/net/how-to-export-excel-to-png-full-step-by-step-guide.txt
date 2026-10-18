@@ -1,0 +1,7 @@
+Title: How to export Excel to PNG – full step‑by‑step guide
+Slug: how-to-export-excel-to-png-full-step-by-step-guide
+Category: image-and-chart-operations
+ProcessedDate: 2026-08-11T11:13:27.036950
+SourceRepo: AI Search API
+Keywords: how to export excel to png, save excel range as image, save excel sheet picture, export pivot table image
+PRNumber: 140

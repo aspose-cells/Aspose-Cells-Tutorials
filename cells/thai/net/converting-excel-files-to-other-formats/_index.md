@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การแปลงไฟล์ Excel เป็นรูปแบบอื่น
@@ -37,6 +35,9 @@
 
 - [การแปลงไฟล์ Excel เป็น PPTX โดยโปรแกรมใน .NET](./converting-excel-file-to-pptx/):เปลี่ยนแผ่นงาน Excel ให้เป็นสไลด์การนำเสนอ บทช่วยสอนนี้นำเสนอตัวอย่างโค้ดที่ใช้งานง่ายสำหรับการแปลงข้อมูล Excel เป็น PPTX
 
+- [ส่งออก Excel ไปยัง PowerPoint – คู่มือ C# ฉบับสมบูรณ์](./export-excel-to-powerpoint-complete-c-guide/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ไปเป็น PowerPoint ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET อย่างละเอียด
+
 - [ติดตามความคืบหน้าการแปลงเอกสารสำหรับโปรแกรม TIFF ใน .NET](./tracking-document-conversion-progress-for-tiff/):ติดตามและจัดการการแปลงไฟล์ TIFF ซึ่งเป็นเครื่องมือที่มีค่าสำหรับการสร้างไฟล์เก็บถาวรที่เป็นรูปภาพ
 
 Aspose.Cells สำหรับ .NET ทำให้การแปลงเอกสารเป็นเรื่องง่าย ช่วยให้นักพัฒนาสามารถดำเนินกระบวนการอัตโนมัติ และประหยัดเวลาในการแปลงเอกสารในรูปแบบต่างๆ
@@ -56,10 +57,16 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 เรียนรู้วิธีการแปลง JSON เป็น CSV ด้วยโปรแกรมใน .NET โดยใช้ Aspose.Cells ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อให้แน่ใจว่าการแปลงข้อมูลจะราบรื่น
 ### [การแปลงไฟล์ Excel เป็น PPTX โดยโปรแกรมใน .NET](./converting-excel-file-to-pptx/)
 เรียนรู้วิธีการแปลงไฟล์ Excel เป็นงานนำเสนอ PowerPoint (PPTX) ด้วยโปรแกรม Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้
-### [สร้าง PowerPoint จาก Excel – คู่มือแบบทีละขั้นตอน](./create-powerpoint-from-excel-step-by-step-guide/)
-เรียนรู้วิธีสร้างไฟล์ PowerPoint จากข้อมูล Excel ด้วย Aspose.Cells สำหรับ .NET ในคู่มือขั้นตอนต่อขั้นตอนนี้
+### [แปลง Excel เป็น PowerPoint ด้วย C# – คู่มือครบถ้วน](./convert-excel-to-powerpoint-with-c-complete-guide/)
+เรียนรู้วิธีแปลงไฟล์ Excel เป็นงานนำเสนอ PowerPoint ด้วย C# อย่างละเอียดและครบถ้วนในขั้นตอนเดียว
+### [ตั้งพื้นที่พิมพ์ใน Excel และส่งออกเป็น PowerPoint – คู่มือขั้นตอนโดยละเอียด](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
+เรียนรู้วิธีตั้งพื้นที่พิมพ์ใน Excel แล้วส่งออกเป็นไฟล์ PowerPoint ด้วย Aspose.Cells สำหรับ .NET อย่างง่าย
+### [แปลง Excel เป็น PowerPoint และตั้งพื้นที่พิมพ์](./convert-excel-to-powerpoint-and-set-print-area/)
+เรียนรู้วิธีแปลงไฟล์ Excel เป็น PowerPoint และกำหนดพื้นที่พิมพ์โดยใช้ Aspose.Cells สำหรับ .NET
+### [วิธีส่งออก Excel ไปยัง PowerPoint – คู่มือ C# ฉบับสมบูรณ์](./how-to-export-excel-to-powerpoint-complete-c-guide/)
+เรียนรู้วิธีส่งออกไฟล์ Excel เป็น PowerPoint ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือขั้นตอนเต็มรูปแบบ
 ### [การระบุ HTML CrossType ในโปรแกรมเอาท์พุต HTML ใน .NET](./specifying-html-crosstype-in-output-html/)
-เรียนรู้วิธีระบุ HTML CrossType ใน Aspose.Cells สำหรับ .NET ปฏิบัติตามบทช่วยสอนทีละขั้นตอนของเราเพื่อแปลงไฟล์ Excel เป็น HTML อย่างแม่นยำ
+เรียนรู้วิธีระบุ HTML CrossType ใน Aspose.Cells สำหรับ .NET ปฏิบัตตามบทช่วยสอนทีละขั้นตอนของเราเพื่อแปลงไฟล์ Excel เป็น HTML อย่างแม่นยำ
 ### [การอ่านสเปรดชีตตัวเลขโดยโปรแกรมใน .NET](./reading-numbers-spreadsheet/)
 เรียนรู้วิธีการอ่านสเปรดชีต Numbers และแปลงเป็น PDF โดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนโดยละเอียดนี้
 ### [การบันทึกสมุดงานเป็นรูปแบบสเปรดชีต Open XML ที่เข้มงวดใน .NET](./saving-workbook-to-strict-open-xml-spreadsheet-format/)
@@ -68,11 +75,19 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 คำอธิบาย: เรียนรู้วิธีติดตามความคืบหน้าการแปลงเอกสารด้วยโปรแกรมโดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนโดยละเอียดนี้
 ### [ติดตามความคืบหน้าการแปลงเอกสารสำหรับโปรแกรม TIFF ใน .NET](./tracking-document-conversion-progress-for-tiff/)
 เรียนรู้การติดตามความคืบหน้าการแปลง TIFF ด้วยโปรแกรมโดยใช้ Aspose.Cells สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนของเรา พัฒนาทักษะการจัดการเอกสารของคุณ
+### [สร้าง PowerPoint จาก Excel – คู่มือขั้นตอนโดยใช้ C#](./create-powerpoint-from-excel-step-by-step-c-guide/)
+เรียนรู้วิธีแปลงไฟล์ Excel เป็นสไลด์ PowerPoint ด้วย C# อย่างละเอียดและง่ายดาย
+### [แปลง XLSX เป็น CSV ด้วย C# – คู่มือขั้นตอนเต็ม](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ XLSX เป็น CSV ด้วย C# อย่างละเอียดโดยใช้ Aspose.Cells สำหรับ .NET
+### [แปลง Excel เป็น Word – คู่มือเต็มด้วย C#](./convert-excel-to-word-complete-guide-with-c/)
+เรียนรู้วิธีแปลงไฟล์ Excel เป็น Word ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือเต็มขั้นตอน
+
+### [การแปลง Excel เป็น PNG ด้วย C# – คู่มือขั้นตอนโดยละเอียด](./how-to-convert-excel-to-png-with-c-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ Excel เป็น PNG ด้วย C# อย่างละเอียดตามขั้นตอนในบทช่วยสอนนี้
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

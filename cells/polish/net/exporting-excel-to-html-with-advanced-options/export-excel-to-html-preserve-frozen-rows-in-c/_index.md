@@ -25,13 +25,7 @@ title: Eksportuj Excel do HTML – zachowaj zamrożone wiersze w C#
 url: /pl/net/exporting-excel-to-html-with-advanced-options/export-excel-to-html-preserve-frozen-rows-in-c/
 ---
 
-comment or check out our related tutorials on **convert xlsx to html** with custom styling and **export excel with freeze** for multi‑sheet workbooks. Happy coding, and enjoy the smooth transition from Excel to web!" Translate.
-
-Then closing shortcodes: {{< /blocks/products/pf/tutorial-page-section >}} etc unchanged.
-
-Also final backtop button shortcode unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

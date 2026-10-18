@@ -31,7 +31,15 @@ Potřebujete převést graf do formátu PDF pro sdílení nebo tisk? Kurz Převo
 
 Někdy potřebujete při ukládání grafu do PDF ovládat jeho velikost. Tato příručka se zabývá tím, jak vytvořit graf v PDF s přesnými požadovanými rozměry stránky. V tutoriálu Vytvoření grafu v PDF s požadovanou velikostí stránky se naučíte, jak si přizpůsobit výstup PDF tak, aby odpovídal vašim specifickým potřebám – ideální pro zprávy a prezentace, kde je klíčová přesnost.
 
-## [Export grafu Excel do PowerPointu pomocí C# – kompletní průvodce Aspose.Cells](./export-excel-chart-to-powerpoint-with-c-complete-aspose-cell/)
+## Výukové programy pro vykreslování a převod grafů
+### [Export grafu do PowerPointu pomocí C# – Kompletní průvodce krok za krokem](./export-chart-to-powerpoint-with-c-complete-step-by-step-guid/)
+Naučte se exportovat grafy z Excelu do PowerPointu pomocí Aspose.Cells pro .NET a C# v podrobném průvodci.
+### [Jak exportovat grafy z Wordu – Kompletní průvodce C#](./how-to-export-charts-from-word-complete-c-guide/)
+Naučte se exportovat grafy z dokumentu Word do Excelu pomocí Aspose.Words a Aspose.Cells v C#.
+### [Jak exportovat grafy – Kompletní průvodce PowerPointem v C#](./how-to-export-charts-complete-powerpoint-c-guide/)
+Naučte se exportovat grafy z Excelu do PowerPointu pomocí Aspose.Cells v C# s podrobnými ukázkami kódu.
+### [Export grafu jako PNG – Kompletní průvodce konverzí Excelu do HTML s Aspose.Cells](./export-chart-as-png-complete-guide-to-convert-excel-to-html/)
+Naučte se exportovat grafy z Excelu jako PNG a převádět je do HTML pomocí Aspose.Cells v .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

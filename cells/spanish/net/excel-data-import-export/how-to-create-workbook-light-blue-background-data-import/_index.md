@@ -24,8 +24,6 @@ title: Cómo crear un libro de trabajo – Fondo azul claro, importación de dat
 url: /es/net/excel-data-import-export/how-to-create-workbook-light-blue-background-data-import/
 ---
 
-content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

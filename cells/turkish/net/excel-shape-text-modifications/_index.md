@@ -50,6 +50,8 @@ Son olarak, sunumdan bahsedelim. Bu sadece verilerle ilgili değil; onu nasıl s
 Aspose.Cells for .NET kullanarak Excel'de dişli tipi SmartArt'tan metnin nasıl çıkarılacağını öğrenin. Adım adım kılavuz ve kod örneği dahildir.
 ### [Excel'deki TextBox'taki Etiketi Metinle Değiştirin](./replace-tag-text-textbox-excel/)
 Aspose.Cells for .NET kullanarak Excel sayfalarınızdaki metin kutularındaki metni zahmetsizce değiştirin. Excel otomasyonu için adım adım bir kılavuz.
+### [C# ile Excel'de Metin Kutusunun Metnini Kalın Yapma – Adım Adım Kılavuz](./make-textbox-text-bold-in-excel-with-c-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak Excel'de Metin Kutusundaki metni kalın yapmayı öğrenin. Adım adım kılavuz ve kod örnekleri.
 ### [Excel'de Şekille Metni Döndürme](./rotate-text-shape-excel/)
 Aspose.Cells for .NET kullanarak Excel'de şekillerle metni nasıl döndüreceğinizi öğrenin. Mükemmel Excel sunumu için bu adım adım kılavuzu izleyin.
 ### [Excel'de Şekilde Doku Olarak Resim Döşeme](./tile-picture-texture-shape-excel/)
@@ -68,6 +70,9 @@ Aspose.Cells for .NET kullanarak Excel'de yorumlar ve şekiller için kenar boş
 Aspose.Cells for .NET kullanarak Excel'de ilkel olmayan şekillere erişmeyi öğrenin. Bu kapsamlı kılavuzda adım adım metodolojileri keşfedin.
 ### [Excel'de OLE Nesnesini Yenile](./refresh-ole-object-excel/)
 Aspose.Cells for .NET'i kullanarak Excel'de OLE nesnelerini adım adım nasıl yenileyeceğinizi öğrenin ve Excel otomasyon becerilerinizi sorunsuz bir şekilde geliştirin.
+
+### [Excel'de Metin Kutusu Yazı Tipi Boyutunu Değiştirme – Tam Kılavuz](./change-textbox-font-size-in-excel-with-c-complete-guide/)
+Aspose.Cells for .NET kullanarak Excel'de metin kutularının yazı tipi boyutunu nasıl değiştireceğinizi öğrenin. Adım adım kılavuz ve kod örnekleri.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

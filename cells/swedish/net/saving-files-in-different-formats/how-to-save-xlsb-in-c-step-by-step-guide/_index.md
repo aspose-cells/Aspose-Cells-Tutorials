@@ -22,17 +22,7 @@ title: Hur man sparar XLSB i C# – Steg‑för‑steg‑guide
 url: /sv/net/saving-files-in-different-formats/how-to-save-xlsb-in-c-step-by-step-guide/
 ---
 
-remain.
-
-All markdown links none except image.
-
-All list items present.
-
-All table present.
-
-All headings preserved.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

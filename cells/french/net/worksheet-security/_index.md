@@ -74,6 +74,9 @@ Apprenez à verrouiller des cellules dans Excel avec Aspose.Cells pour .NET grâ
 ### [Spécifier l'auteur lors de la protection en écriture du classeur à l'aide d'Aspose.Cells](./specify-author-write-protect-workbook/)
 Découvrez comment spécifier un auteur tout en protégeant en écriture un classeur Excel à l'aide d'Aspose.Cells pour .NET dans ce didacticiel étape par étape.
 
+### [Ajouter un mot de passe à Excel – Guide complet de protection de la feuille](./add-password-to-excel-complete-sheet-protection-guide/)
+Apprenez à protéger entièrement une feuille Excel avec un mot de passe en utilisant Aspose.Cells pour .NET, étape par étape.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
