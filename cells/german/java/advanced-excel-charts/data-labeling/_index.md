@@ -65,9 +65,9 @@ url: /de/java/advanced-excel-charts/data-labeling/
 weight: 14
 ---
 
-{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -252,10 +252,10 @@ Sie haben nun einen vollständigen End‑zu‑Ende‑Leitfaden zum **Erstellen v
 - [Save Excel File Java with Aspose.Cells – Mastering Workbook Automation](/cells/java/automation-batch-processing/aspose-cells-java-excel-workbook-automation/)
 
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
