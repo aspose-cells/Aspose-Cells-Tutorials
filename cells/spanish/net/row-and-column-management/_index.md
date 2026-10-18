@@ -46,6 +46,8 @@ Seamos realistas, no todos los datos conservan su relevancia con el tiempo. Al l
 Descubra una guía paso a paso para copiar columnas en Excel con Aspose.Cells para .NET. Simplifique sus tareas de datos con instrucciones claras.
 ### [Copiar filas usando Aspose.Cells para .NET](./copying-rows/)
 Aprenda a copiar filas de forma eficiente en archivos de Excel con Aspose.Cells para .NET. Esta guía paso a paso simplifica la copia de filas para la gestión de datos.
+### [Copiar filas de una hoja a otra usando Aspose.Cells para .NET – Guía completa en C#](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+Aprenda a copiar filas entre hojas de cálculo en Excel con Aspose.Cells para .NET mediante un ejemplo completo en C#.
 ### [Agrupar filas y columnas en Excel con Aspose.Cells](./grouping-rows-and-columns/)
 Aprenda a agrupar filas y columnas en Excel usando Aspose.Cells para .NET con esta guía paso a paso.
 ### [Crear una fila de resumen a continuación con Aspose.Cells para .NET](./summary-row-below/)

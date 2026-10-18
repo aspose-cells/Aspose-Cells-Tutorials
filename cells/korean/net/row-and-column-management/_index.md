@@ -103,6 +103,8 @@ GridJs를 사용하여 그리드에 여러 행을 빠르게 삽입하는 단계�
 C#에서 wrapcols와 wraprows를 활용하고 수식을 재계산하는 방법을 단계별로 안내합니다.
 ### [C#를 사용하여 Excel에서 셀을 위로 이동하기 – 완전 가이드](./shift-cells-up-in-excel-with-c-complete-guide/)
 Aspose.Cells for .NET을 사용하여 Excel에서 셀을 위로 이동하는 방법을 단계별로 안내합니다.
+### [한 워크시트에서 다른 워크시트로 행 복사 – 완전 C# 가이드](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+Aspose.Cells for .NET을 사용하여 한 워크시트에서 다른 워크시트로 행을 복사하는 단계별 C# 가이드를 확인하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

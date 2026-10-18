@@ -46,6 +46,8 @@ Excelシートに新しいデータを挿入する必要に迫られることは
 Aspose.Cells for .NET を使用して Excel の列をコピーする方法をステップバイステップで解説します。わかりやすい手順でデータ操作を簡素化できます。
 ### [Aspose.Cells for .NET を使用して行をコピーする](./copying-rows/)
 Aspose.Cells for .NET を使用して、Excel ファイル内の行を効率的にコピーする方法を学びましょう。このステップバイステップガイドは、データ管理のニーズに合わせて行のコピーを簡素化します。
+### [Aspose.Cells for .NET を使用して、別のワークシートへ行をコピーする – 完全な C# ガイド](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+Aspose.Cells for .NET と C# を使い、ワークシート間で行をコピーする手順をステップバイステップで解説します。
 ### [Aspose.Cells を使用して Excel の行と列をグループ化する](./grouping-rows-and-columns/)
 このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して Excel の行と列をグループ化する方法を学習します。
 ### [Aspose.Cells for .NET で集計行を下に作成する](./summary-row-below/)

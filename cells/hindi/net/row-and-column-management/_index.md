@@ -114,6 +114,8 @@ GridJs में कई पंक्तियों को तेज़ी स�
 C# में wrapcols, wraprows और फ़ॉर्मूले पुनर्गणना को लागू करने के चरण‑दर‑चरण निर्देश।
 ### [C# के साथ Excel में सेल्स को ऊपर शिफ्ट करें – पूर्ण गाइड](./shift-cells-up-in-excel-with-c-complete-guide/)
 C# के साथ Excel में सेल्स को ऊपर शिफ्ट करने की चरण-दर-चरण मार्गदर्शिका। आसान कोड उदाहरण और विस्तृत व्याख्या।
+### [एक वर्कशीट से दूसरी वर्कशीट में पंक्तियों को कॉपी करें – पूर्ण C# गाइड](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+एक वर्कशीट से दूसरी में पंक्तियों को कॉपी करने के लिए Aspose.Cells के साथ चरण-दर-चरण C# गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

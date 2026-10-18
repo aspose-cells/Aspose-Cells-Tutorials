@@ -104,6 +104,8 @@ Naučte se rychle přidávat více řádků v GridJs pomocí jednoduchých krok�
 Objevte podrobný návod, jak použít WrapCols a WrapRows v Excelu pomocí Aspose.Cells pro .NET a přepočítat vzorce.
 ### [Posunutí buněk nahoru v Excelu pomocí C# – Kompletní průvodce](./shift-cells-up-in-excel-with-c-complete-guide/)
 Naučte se, jak pomocí Aspose.Cells pro .NET posunout buňky nahoru v Excelu pomocí C#. Podrobný krok‑za‑krokem návod.
+### [Kopírování řádků z jednoho listu do druhého – kompletní průvodce C#](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+Objevte podrobný průvodce, jak pomocí Aspose.Cells pro .NET v C# kopírovat řádky z jednoho listu do druhého.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

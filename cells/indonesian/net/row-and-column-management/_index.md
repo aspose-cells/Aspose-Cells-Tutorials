@@ -46,6 +46,8 @@ Mari kita hadapi kenyataan, tidak semua bagian data tetap relevan dari waktu ke 
 Temukan panduan langkah demi langkah untuk menyalin kolom di Excel menggunakan Aspose.Cells untuk .NET. Sederhanakan tugas data Anda dengan instruksi yang jelas.
 ### [Salin Baris menggunakan Aspose.Cells untuk .NET](./copying-rows/)
 Pelajari cara menyalin baris dalam file Excel secara efisien menggunakan Aspose.Cells for .NET. Panduan langkah demi langkah ini menyederhanakan penyalinan baris untuk kebutuhan manajemen data Anda.
+### [Menyalin Baris dari Satu Lembar Kerja ke Lembar Kerja Lain – Panduan Lengkap C#](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+Panduan lengkap langkah demi langkah untuk menyalin baris antar lembar kerja di Excel menggunakan Aspose.Cells untuk .NET dengan C#.
 ### [Kelompokkan Baris dan Kolom di Excel dengan Aspose.Cells](./grouping-rows-and-columns/)
 Pelajari cara mengelompokkan baris dan kolom di Excel menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah ini.
 ### [Buat Baris Ringkasan di Bawah dengan Aspose.Cells untuk .NET](./summary-row-below/)
