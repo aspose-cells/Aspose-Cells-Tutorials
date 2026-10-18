@@ -498,6 +498,8 @@ Leer hoe u documenteigenschappen zoals versiebeheer in Excel-bestanden kunt inst
 
 ### [Werkmap maken met Japanse kalender – volledige Java-tutorial](./create-workbook-japanese-calendar-complete-java-tutorial/)
 Leer hoe u een werkmap met een Japanse kalender maakt met Aspose.Cells voor Java in deze volledige tutorial.
+### [Opslaan van nieuwe werkmap in Java – Bereik tussen werkmappen kopiëren - een stapsgewijze handleiding](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
+Leer hoe u een nieuwe werkmap opslaat en een bereik tussen werkmappen kopieert met Aspose.Cells voor Java.
 
 ## Aanvullende bronnen
 

@@ -70,6 +70,9 @@ Naučte se snadno spravovat sešity aplikace Excel pomocí Aspose.Cells pro Javu
 ### [Zvládněte Aspose.Cells pro Javu: Automatizujte operace se sešitem Excelu ve vašich aplikacích Java](./aspose-cells-java-excel-workbooks/)
 Naučte se, jak automatizovat vytváření, správu a formátování sešitů aplikace Excel pomocí nástroje Aspose.Cells pro Javu. Tato příručka zahrnuje vše od nastavení prostředí až po efektivní ukládání sešitů.
 
+### [Uložení nového sešitu v Javě – Kopírování rozsahu mezi sešity](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
+Naučte se, jak vytvořit nový sešit a zkopírovat rozsah buněk mezi sešity pomocí Aspose.Cells pro Javu.
+
 ### [Export excelových listů do HTML pomocí Aspose.Cells](./aspose-cells-java-export-excel-html/)
 Výukový program pro Aspose.Words v Javě
 

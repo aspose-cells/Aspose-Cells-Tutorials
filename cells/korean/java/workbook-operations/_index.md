@@ -35,6 +35,8 @@ Aspose.Cells for Java를 사용하여 새 Excel 통합 문서를 생성하고 �
 Aspose.Cells for Java를 사용하여 일본 달력 기능이 포함된 워크북을 만드는 방법을 단계별로 안내합니다.
 ### [Java에서 Excel 통합 문서 만들기 – 완전 단계별 가이드](./create-excel-workbook-in-java-complete-step-by-step-guide/)
 Aspose.Cells for Java를 사용해 Excel 통합 문서를 처음부터 만들고 저장하는 방법을 단계별로 안내합니다.
+### [Java에서 새 통합 문서 저장 – 통합 문서 간 범위 복사 튜토리얼](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
+Java에서 Aspose.Cells를 사용하여 새 통합 문서를 저장하고, 다른 통합 문서로 범위를 복사하는 방법을 알아보세요.
 
 ### [Aspose.Cells Java: 버전 표시 및 공유 통합 문서 만들기](./aspose-cells-java-display-version-create-shared-workbook/)
 Aspose.Words Java에 대한 코드 튜토리얼

@@ -36,6 +36,8 @@ Ismerje meg, hogyan hozhat létre Excel munkafüzetet Java-ban az Aspose.Cells s
 Ismerje meg, hogyan menthet egy munkafüzetet XLSX formátumban Java használatával az Aspose.Cells segítségével.
 ### [Excel munkafüzet létrehozása Java-ban – Teljes lépésről‑lépésre útmutató](./create-excel-workbook-in-java-complete-step-by-step-guide/)
 Ismerje meg, hogyan hozhat létre Excel munkafüzetet Java nyelven részletes, lépésről‑lépésre útmutatóval.
+### [Új munkafüzet mentése Java-ban – Tartomány másolása munkafüzetek között](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
+Ismerje meg, hogyan hozhat létre új munkafüzetet, és másolhat tartományt egy másik munkafüzetbe Java és Aspose.Cells segítségével.
 
 ### [Aspose.Cells Java: Verzió megjelenítése és megosztott munkafüzet létrehozása](./aspose-cells-java-display-version-create-shared-workbook/)
 Kód oktatóanyag az Aspose.Words Java-hoz

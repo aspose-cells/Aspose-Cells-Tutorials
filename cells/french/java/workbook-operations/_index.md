@@ -227,6 +227,9 @@ Apprenez à créer un classeur Excel en Java avec Aspose.Cells, étape par étap
 ### [Guide de création et d'enregistrement de classeurs Excel avec Aspose.Cells en Java](./create-save-excel-workbook-aspose-cells-java/)
 Apprenez à créer, manipuler et enregistrer des classeurs Excel grâce à la puissante bibliothèque Aspose.Cells pour Java. Ce guide étape par étape couvre toutes les étapes, de la configuration à la mise en implémentation.
 
+### [Enregistrer un nouveau classeur en Java – Copier une plage entre classeurs – Tutoriel](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
+Apprenez à créer un nouveau classeur, copier une plage de cellules depuis un autre classeur et l’enregistrer avec Aspose.Cells pour Java.
+
 ### [Créer et enregistrer des fichiers ODS avec Aspose.Cells pour Java : Guide du développeur](./create-save-ods-files-aspose-cells-java/)
 Apprenez à créer et enregistrer facilement des fichiers ODS avec Aspose.Cells pour Java. Ce guide couvre toutes les étapes, de la configuration à l'enregistrement avec les options de schéma.
 

@@ -496,6 +496,8 @@ Panduan langkah demi langkah untuk membuat buku kerja Excel baru menggunakan Asp
 
 ### [Cara Menambahkan Properti Kustom di Excel (Java) – Mengambil Nilai & Menyimpan sebagai XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
 Pelajari cara menambahkan properti kustom ke file Excel menggunakan Aspose.Cells untuk Java, mengambil nilainya, dan menyimpan sebagai file XLSB.
+### [Simpan Buku Kerja Baru di Java – Tutorial Menyalin Rentang Antara Buku Kerja](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
+Pelajari cara menyimpan buku kerja baru di Java serta menyalin rentang data antar buku kerja menggunakan Aspose.Cells.
 
 ## Sumber Daya Tambahan
 

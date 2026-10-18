@@ -496,6 +496,8 @@
 ### [Сохранить рабочую книгу в файл – Полное руководство по Java для копирования диапазонов Excel](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
 ### [Создание рабочей книги с японским календарем – полное руководство Java](./create-workbook-japanese-calendar-complete-java-tutorial/)
 Узнайте, как создать рабочую книгу Excel с японским календарем, используя Aspose.Cells для Java, с полными примерами кода.
+### [Сохранить новую рабочую книгу в Java — учебник по копированию диапазона между рабочими книгами](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
+Узнайте, как создать новую рабочую книгу и скопировать диапазон из другой книги с помощью Aspose.Cells для Java.
 
 ## Дополнительные ресурсы
 

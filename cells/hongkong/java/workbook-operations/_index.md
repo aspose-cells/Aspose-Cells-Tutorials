@@ -499,6 +499,7 @@ Aspose.Words Java 程式碼教程
 
 ### [將工作簿儲存至檔案 – 完整的 Java 教學：複製 Excel 範圍](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
 了解如何使用 Aspose.Cells for Java 複製 Excel 範圍並將工作簿儲存為檔案的完整步驟指南。
+### [在 Java 中儲存新工作簿 – 複製範圍於工作簿之間教學](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
 
 ## 其他資源
 

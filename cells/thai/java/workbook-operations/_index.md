@@ -496,6 +496,8 @@
 
 ### [วิธีเพิ่มคุณสมบัติที่กำหนดเองใน Excel (Java) – ดึงค่าและบันทึกเป็น XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
 เรียนรู้วิธีเพิ่มคุณสมบัติที่กำหนดเองในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java ดึงค่าและบันทึกเป็นไฟล์ XLSB
+### [บันทึกสมุดงานใหม่ใน Java – คำแนะนำการคัดลอกช่วงระหว่างสมุดงาน](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
+เรียนรู้วิธีบันทึกสมุดงานใหม่ใน Java และคัดลอกช่วงข้อมูลระหว่างสมุดงานด้วย Aspose.Cells
 
 ## แหล่งข้อมูลเพิ่มเติม
 

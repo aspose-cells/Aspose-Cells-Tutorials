@@ -493,6 +493,8 @@ Aspose.Cells for Java kullanarak çalışma kitabını dosyaya kaydetmeyi ve Exc
 Excel dosyasına özel özellik eklemeyi, değerini almayı ve dosyayı XLSB formatında kaydetmeyi öğrenin.
 ### [Çalışma Kitabı Japon Takvimi Oluşturma – Tam Java Eğitimi](./create-workbook-japanese-calendar-complete-java-tutorial/)
 Aspose.Cells for Java kullanarak Japon takvimine sahip bir çalışma kitabı oluşturmayı ve kaydetmeyi öğrenin.
+### [Java'da Yeni Çalışma Kitabı Kaydet – Çalışma Kitapları Arasında Aralık Kopyalama Eğitimi](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
+Aspose.Cells for Java kullanarak yeni bir çalışma kitabı oluşturup, bir çalışma kitabından diğerine aralık kopyalamayı öğrenin.
 
 ## Ek Kaynaklar
 
