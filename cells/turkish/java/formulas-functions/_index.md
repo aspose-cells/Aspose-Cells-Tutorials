@@ -92,6 +92,7 @@ Java Excel çalışma kitabında SEQUENCE işlevini nasıl kullanacağınızı a
 Excel'de kotanjant fonksiyonunu kullanarak trigonometrik hesaplamalar yapmayı öğrenin.
 ### [Excel'de Tekil Değerleri Sıralama – Dizi Formüllerini Ayarlamak için Tam Java Rehberi](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 Java ve Aspose.Cells ile Excel'de benzersiz değerleri sıralamayı ve dizi formüllerini ayarlamayı adım adım öğrenin.
+### [Aspose'i Java'da Kullanma – Yeni Fonksiyonlarla Excel Çalışma Kitabı Oluşturma](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
 
 ## Ek Kaynaklar
 

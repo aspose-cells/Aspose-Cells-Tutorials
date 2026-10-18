@@ -93,6 +93,7 @@ Aprenda a utilizar la función WRAPCOLS en Aspose.Cells para Java para dividir t
 Aprenda a calcular la cotangente en Excel usando Aspose.Cells para Java, con ejemplos de código y explicaciones paso a paso.
 ### [Ordenar valores únicos en Excel – Guía completa de Java para establecer fórmulas de matriz](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 Aprenda a ordenar valores únicos en Excel usando Aspose.Cells para Java mediante fórmulas de matriz, con ejemplos de código paso a paso.
+### [Cómo usar Aspose en Java – crear libro de Excel con nuevas funciones](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
 
 ## Recursos adicionales
 

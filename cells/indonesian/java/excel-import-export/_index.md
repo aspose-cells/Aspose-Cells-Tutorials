@@ -55,6 +55,8 @@ Pelajari cara mengekspor data Excel ke JSON menggunakan Aspose.Cells untuk Java.
 Pelajari cara menyimpan workbook sebagai file XLSX dengan menghasilkan file XLSX langsung dari data JSON menggunakan Aspose.Cells untuk Java.
 ### [Ekspor JSON ke Excel dengan Java – Panduan Langkah demi Langkah Lengkap](./export-json-to-excel-with-java-complete-step-by-step-guide/)
 Pelajari cara mengekspor data JSON ke file Excel menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan contoh kode sumber.
+### [Buat Excel dari JSON dan konversi JSON ke sel Excel dengan Aspose.Cells](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+Pelajari cara membuat file Excel dari data JSON dan mengonversi nilai JSON ke sel Excel menggunakan Aspose.Cells untuk Java.
 ### [Validasi Data Impor Excel](./excel-import-data-validation/)
 Pelajari cara menerapkan validasi data impor Excel menggunakan Aspose.Cells untuk Java dengan panduan langkah demi langkah yang komprehensif ini. Pastikan keakuratan data dan tingkatkan pengalaman pengguna. 
 ### [Ekspor Excel ke HTML Java](./export-excel-to-html-java/)
@@ -111,6 +113,11 @@ Pelajari cara mengekspor file Excel menjadi gambar SVG menggunakan Aspose.Cells 
 Pelajari cara menyematkan font saat mengonversi file Excel ke HTML menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan contoh kode.
 ### [Buat File FlatOPC dari Buku Kerja Excel – Panduan Langkah-demi-Langkah](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
 Pelajari cara membuat file FlatOPC dari workbook Excel menggunakan Aspose.Cells untuk Java dengan panduan langkah demi langkah.
+### [Konversi XLSX ke PowerPoint dengan Java – Panduan Lengkap](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
+Pelajari cara mengonversi file XLSX menjadi presentasi PowerPoint menggunakan Aspose.Slides untuk Java dalam panduan lengkap ini.
+
+### [Impor objek khusus ke Excel dengan Aspose.Cells – Panduan Java](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+Pelajari cara mengimpor objek khusus ke dalam file Excel menggunakan Aspose.Cells untuk Java dengan contoh kode langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

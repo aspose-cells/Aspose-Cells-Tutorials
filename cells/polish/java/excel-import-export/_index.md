@@ -113,6 +113,12 @@ Dowiedz się, jak wyeksportować wykres z Excela jako obraz i wkleić go do doku
 Dowiedz się, jak osadzić czcionki podczas konwersji plików Excel do HTML przy użyciu Aspose.Cells for Java. Przewodnik krok po kroku.
 ### [Utwórz plik FlatOPC z skoroszytu Excel – przewodnik krok po kroku](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
 Dowiedz się, jak przy użyciu Aspose.Cells for Java utworzyć plik FlatOPC z skoroszytu Excel w kilku prostych krokach.
+### [Konwersja pliku XLSX do PowerPoint w Javie – kompletny przewodnik](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
+Dowiedz się, jak w prosty sposób przekonwertować plik XLSX na prezentację PowerPoint przy użyciu Aspose.Slides for Java.
+### [Utwórz Excel z JSON i konwertuj JSON na komórkę Excel przy użyciu Aspose.Cells](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+Dowiedz się, jak generować pliki Excel z danych JSON i mapować wartości JSON do komórek Excel przy pomocy Aspose.Cells.
+### [Importowanie własnych obiektów do Excela przy użyciu Aspose.Cells – przewodnik Java](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+Dowiedz się, jak importować własne obiekty do plików Excel przy użyciu Aspose.Cells dla Java. Przewodnik krok po kroku z kodem źródłowym.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

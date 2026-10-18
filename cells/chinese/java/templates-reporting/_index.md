@@ -58,6 +58,8 @@
 
 ### [Aspose Cells 智能标记 – 填充 Excel 模板](./aspose-cells-smart-markers-populate-excel-template/)
 学习如何使用 Aspose.Cells 的智能标记将数据填充到 Excel 模板，实现自动化报表生成。
+### [使用 Aspose.Cells 智能标记在 Java 中创建详细工作表](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
+学习如何使用 Aspose.Cells 的智能标记在 Java 中生成包含详细工作表的报表，实现数据分层展示。
 
 ## 其他资源
 

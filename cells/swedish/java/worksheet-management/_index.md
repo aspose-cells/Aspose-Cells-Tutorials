@@ -105,6 +105,8 @@ Lär dig hur du enkelt kan visa rader och kolumner i Excel-filer med Aspose.Cell
 Lär dig hur du med SmartMarkerProcessor kan namnge kalkylblad dynamiskt baserat på data i dina Excel-filer.
 ### [Skapa flera kalkylblad i Excel med Java – Komplett mallbaserad guide](./create-multiple-sheets-in-excel-with-java-complete-template/)
 Lär dig hur du programatiskt skapar flera kalkylblad i en Excel-fil med Aspose.Cells för Java med hjälp av en färdig mall.
+### [Hur du rensar autofilter i Excel med Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+Lär dig hur du tar bort autofilter i en Excel-fil med Aspose.Cells för Java i några enkla steg.
 
 ## Ytterligare resurser
 

@@ -116,6 +116,11 @@ Ismerd meg, hogyan exportálhatsz Excel-fájlokat SVG formátumba Java-val, rés
 Ismerd meg, hogyan ágyazhatod be a betűtípusokat Excel fájlok HTML-re konvertálása során az Aspose.Cells for Java használatával.
 ### [FlatOPC fájl létrehozása Excel munkafüzetből – Lépésről lépésre útmutató](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
 Ismerd meg, hogyan hozhatsz létre FlatOPC fájlt Excel munkafüzetből az Aspose.Cells for Java segítségével, részletes lépésről‑lépésre útmutatóval.
+### [xlsx konvertálása PowerPointba Java-val – teljes útmutató](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
+Tanuld meg, hogyan konvertálj XLSX fájlokat PowerPoint prezentációkká Java és Aspose.Cells segítségével.
+### [Excel létrehozása JSON-ból és JSON konvertálása Excel cellává az Aspose.Cells segítségével](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+Ismerd meg, hogyan hozhatsz létre Excel fájlt JSON adatokból, és konvertálj JSON-t Excel cellává az Aspose.Cells használatával.
+### [Egyedi objektumok importálása Excelbe az Aspose.Cells használatával – Java útmutató](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

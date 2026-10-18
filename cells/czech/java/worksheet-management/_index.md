@@ -82,6 +82,8 @@ Naučte se, jak efektivně mazat řádky ze souboru Excelu pomocí Aspose.Cells 
 
 ### [Odstranění řádků v listu pomocí Javy – Kompletní průvodce](./delete-rows-in-worksheet-with-java-complete-guide/)
 Naučte se, jak pomocí Aspose.Cells pro Javu efektivně mazat řádky v listu Excelu. Kompletní průvodce s ukázkami kódu.
+### [Jak vymazat automatický filtr v Excelu pomocí Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+Naučte se, jak programově vymazat nastavený automatický filtr v souborech Excel pomocí Aspose.Cells pro Javu.
 
 ### [Správa viditelnosti záložek v Excelu pomocí Aspose.Cells v Javě](./display-excel-tabs-aspose-cells-java/)
 Naučte se, jak zobrazit nebo skrýt karty Excelu pomocí Aspose.Cells pro Javu. Tato příručka se zabývá nastavením, implementací kódu a osvědčenými postupy pro efektivní správu listů.

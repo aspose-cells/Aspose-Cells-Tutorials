@@ -94,6 +94,8 @@ Aspose.Words Java 代码教程
 学习在 Aspose.Cells for Java 中使用 WRAPCOLS 函数，实现列自动换行并提供完整示例。
 ### [如何在 Excel 中计算余切 – 完整指南](./how-to-calculate-cotangent-in-excel-complete-guide/)
 学习如何在 Excel 中使用公式计算余切值，提供实现步骤和代码示例。
+### [如何在 Java 中使用 Aspose – 创建带有新函数的 Excel 工作簿](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+学习如何在 Java 中使用 Aspose 创建包含自定义函数的 Excel 工作簿，实现高级计算功能。
 
 ## 其他资源
 

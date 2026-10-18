@@ -94,6 +94,7 @@ Aprenda a aplicar a função SEQUENCE em planilhas Excel usando Aspose.Cells par
 Aprenda a aplicar a função WRAPCOLS com Aspose.Cells para Java, incluindo exemplos completos de código para manipular planilhas do Excel.
 ### [Como Calcular a Cotangente no Excel – Guia Completo](./how-to-calculate-cotangent-in-excel-complete-guide/)
 Aprenda a usar funções trigonométricas no Excel para calcular a cotangente, com exemplos de código e dicas de precisão.
+### [Como usar Aspose em Java – criar pasta de trabalho Excel com novas funções](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
 
 ## Recursos adicionais
 

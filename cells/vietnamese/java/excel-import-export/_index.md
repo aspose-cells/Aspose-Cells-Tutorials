@@ -123,6 +123,12 @@ Tìm hiểu cách nhúng phông chữ vào tệp HTML khi chuyển đổi Excel 
 Tìm hiểu cách tạo tệp FlatOPC từ workbook Excel bằng Aspose.Cells for Java qua hướng dẫn chi tiết và mã nguồn mẫu.
 ### [Xuất JSON sang Excel bằng Java – Hướng dẫn chi tiết từng bước](./export-json-to-excel-with-java-complete-step-by-step-guide/)
 Tìm hiểu cách chuyển đổi dữ liệu JSON sang tệp Excel bằng Aspose.Cells for Java. Hướng dẫn chi tiết với mã nguồn để thực hiện dễ dàng.
+### [Chuyển đổi xlsx sang PowerPoint với Java – hướng dẫn đầy đủ](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp xlsx sang PowerPoint bằng Aspose.Cells for Java, kèm ví dụ mã nguồn thực tế.
+### [Tạo Excel từ JSON và chuyển đổi JSON thành ô Excel với Aspose.Cells](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+Hướng dẫn tạo tệp Excel từ dữ liệu JSON và chuyển JSON thành ô Excel bằng Aspose.Cells cho Java.
+### [Nhập các đối tượng tùy chỉnh vào Excel với Aspose.Cells – Hướng dẫn Java](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+Hướng dẫn chi tiết cách nhập các đối tượng tùy chỉnh vào tệp Excel bằng Aspose.Cells cho Java, kèm ví dụ mã nguồn thực tế.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

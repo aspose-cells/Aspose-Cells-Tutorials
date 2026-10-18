@@ -105,6 +105,8 @@ Dowiedz się, jak bez wysiłku odkrywać wiersze i kolumny w plikach Excela za p
 Dowiedz się, jak dynamicznie nadawać nazwy arkuszom w Excelu przy użyciu SmartMarkerProcessor w Aspose.Cells for Java.
 ### [Tworzenie wielu arkuszy w Excelu w Javie – Kompletny przewodnik oparty na szablonie](./create-multiple-sheets-in-excel-with-java-complete-template/)
 Dowiedz się, jak programowo tworzyć wiele arkuszy w pliku Excel przy użyciu szablonów w Aspose.Cells for Java.
+### [Jak wyczyścić filtr automatyczny w programie Excel przy użyciu Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+Dowiedz się, jak usunąć filtr automatyczny z arkusza Excel przy użyciu Aspose.Cells for Java.
 
 ## Dodatkowe zasoby
 

@@ -74,6 +74,8 @@ Apprenez à utiliser la fonction Expand avec Aspose.Cells pour Java afin de gér
 
 ### [Comment effacer le filtre automatique dans Excel avec Java – Guide complet](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
 Apprenez à désactiver le filtre automatique dans Excel en Java avec Aspose.Cells, incluant du code source et des exemples pratiques.
+### [Créer un nouveau classeur Aspose – ajouter une propriété personnalisée Excel et enregistrer au format XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+Apprenez à créer un classeur Excel, ajouter une propriété personnalisée et l’enregistrer au format XLSB avec Aspose.Cells pour Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

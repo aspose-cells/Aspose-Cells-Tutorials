@@ -93,6 +93,8 @@ Poznaj, jak zastosować funkcję WRAPCOLS w Aspose.Cells for Java, aby automatyc
 Dowiedz się, jak obliczyć cotangens w Excelu, korzystając z funkcji i formuł, krok po kroku, z przykładami kodu Java.
 ### [Sortowanie unikalnych wartości w Excelu – Kompletny przewodnik Java do ustawiania formuł tablicowych](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 Dowiedz się, jak sortować unikalne wartości i ustawiać formuły tablicowe w Excelu przy użyciu Aspose.Cells dla Java.
+### [Jak używać Aspose w Javie – tworzenie skoroszytu Excel z nowymi funkcjami](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+Dowiedz się, jak używać Aspose w Javie do tworzenia skoroszytu Excel z nowymi funkcjami.
 
 ## Dodatkowe zasoby
 

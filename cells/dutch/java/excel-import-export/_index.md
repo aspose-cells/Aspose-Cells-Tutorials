@@ -118,6 +118,12 @@ Leer hoe u een FlatOPC‑bestand maakt vanuit een Excel‑werkmap met Aspose.Cel
 Leer hoe u Excel-bestanden naar PDF converteert met Aspose.Cells voor Java in deze volledige stap‑voor‑stap gids.
 ### [JSON exporteren naar Excel met Java – Complete stapsgewijze handleiding](./export-json-to-excel-with-java-complete-step-by-step-guide/)
 Leer hoe u JSON-gegevens naar Excel exporteert met Aspose.Cells voor Java in een volledige stap‑voor‑stap handleiding.
+### [xlsx naar PowerPoint converteren met Java – volledige gids](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
+Leer hoe u een XLSX-bestand omzet naar PowerPoint met Aspose.Cells voor Java in deze volledige gids.
+### [Excel maken vanuit JSON en JSON naar Excel-cel converteren met Aspose.Cells](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+Leer hoe u Excel-bestanden maakt vanuit JSON en JSON-gegevens naar Excel-cellen converteert met Aspose.Cells voor Java.
+### [Aangepaste objecten importeren in Excel met Aspose.Cells – Java-gids](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+Leer hoe u aangepaste objecten importeert in Excel met Aspose.Cells voor Java. Volg de stapsgewijze handleiding met voorbeeldcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

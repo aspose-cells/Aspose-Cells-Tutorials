@@ -106,6 +106,8 @@ Aspose.Cells for Javaを使って、Excelファイルの行と列を簡単に再
 
 ### [Java で Excel に複数シートを作成する – 完全テンプレートベースガイド](./create-multiple-sheets-in-excel-with-java-complete-template/)
 Java と Aspose.Cells を使用して、テンプレートベースで複数シートを作成し、データを自動的に配置する方法を学びます。
+### [Aspose.Cells (Java) で Excel のオートフィルタをクリアする方法](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+Aspose.Cells for Java を使って Excel のオートフィルタ設定を解除し、データの表示をリセットする手順を解説します。
 
 ## 追加リソース
 

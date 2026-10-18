@@ -65,6 +65,8 @@ Java ve Aspose.Cells kullanarak Excel'de Otomatik Filtre özelliğini nasıl dev
 Aspose.Cells for Java kullanarak Expand işlevini nasıl uygulayacağınızı adım adım öğrenin.
 ### [Java ile Excel'de Otomatik Filtreyi Temizleme – Tam Kılavuz](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
 Aspose.Cells for Java kullanarak Excel'de otomatik filtreyi nasıl temizleyeceğinizi adım adım öğrenin.
+### [Yeni Çalışma Kitabı Oluşturma – Aspose ile Excel'e Özel Özellik Ekleyip XLSB Olarak Kaydetme](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+Aspose.Cells for Java kullanarak yeni bir Excel çalışma kitabı oluşturun, özel bir özellik ekleyin ve dosyayı XLSB formatında kaydedin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

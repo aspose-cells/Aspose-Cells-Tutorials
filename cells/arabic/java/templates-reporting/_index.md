@@ -49,6 +49,8 @@
 ### [ملء نموذج Excel بالبيانات – إنشاء تقرير Excel من النموذج](./populate-excel-template-with-data-create-excel-report-from-t/)
 
 ### [Aspose Cells Smart Markers – ملء قالب Excel](./aspose-cells-smart-markers-populate-excel-template/)
+### [إنشاء أوراق تفاصيل في Java باستخدام Smart Markers من Aspose.Cells](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
+تعرّف على كيفية إنشاء أوراق تفاصيل ديناميكية باستخدام Smart Markers في Aspose.Cells لجافا.
 
 ## موارد إضافية
 

@@ -106,6 +106,8 @@ Java के लिए Aspose.Cells का उपयोग करके Excel फ
 
 ### [जावा के साथ Excel में कई शीट बनाएं – पूर्ण टेम्पलेट‑आधारित गाइड](./create-multiple-sheets-in-excel-with-java-complete-template/)
 जावा और Aspose.Cells का उपयोग करके टेम्पलेट के आधार पर कई वर्कशीट बनाना और प्रबंधित करना सीखें।
+### [जावा के लिए Aspose.Cells का उपयोग करके Excel में ऑटोफ़िल्टर कैसे साफ़ करें](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+Excel में ऑटोफ़िल्टर हटाने की प्रक्रिया को Aspose.Cells (Java) के साथ सीखें।
 
 ## अतिरिक्त संसाधन
 

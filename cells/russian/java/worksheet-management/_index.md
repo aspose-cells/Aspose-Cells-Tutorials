@@ -106,6 +106,8 @@
 
 ### [Создание нескольких листов в Excel с помощью Java — Полное руководство на основе шаблона](./create-multiple-sheets-in-excel-with-java-complete-template/)
 Узнайте, как создавать несколько листов в файле Excel с помощью Java, используя шаблоны Aspose.Cells. Полный пример кода и рекомендации.
+### [Как очистить автофильтр в Excel с помощью Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+Узнайте, как программно снять автофильтр в файлах Excel, используя библиотеку Aspose.Cells для Java.
 
 ## Дополнительные ресурсы
 

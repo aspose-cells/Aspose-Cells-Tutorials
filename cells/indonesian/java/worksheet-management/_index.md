@@ -106,6 +106,8 @@ Pelajari cara mudah untuk menampilkan kembali baris dan kolom dalam file Excel m
 
 ### [Cara Menggunakan SmartMarkerProcessor untuk Penamaan Lembar Dinamis](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
 Pelajari cara memanfaatkan SmartMarkerProcessor untuk memberi nama lembar kerja secara dinamis dalam file Excel menggunakan Aspose.Cells untuk Java.
+### [Cara Menghapus Autofilter di Excel dengan Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+Pelajari cara menghapus filter otomatis (autofilter) pada lembar kerja Excel menggunakan Aspose.Cells untuk Java.
 
 ## Sumber Daya Tambahan
 

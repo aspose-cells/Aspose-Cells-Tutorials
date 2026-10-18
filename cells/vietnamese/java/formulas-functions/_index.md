@@ -93,6 +93,7 @@ Hướng dẫn chi tiết cách áp dụng hàm WRAPCOLS trong Aspose.Cells Java
 Hướng dẫn chi tiết cách tính giá trị cotang trong Excel bằng công thức, bao gồm ví dụ mã Java sử dụng Aspose.Cells.
 ### [Sắp xếp các giá trị duy nhất trong Excel – Hướng dẫn Java toàn diện để thiết lập công thức mảng](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 Hướng dẫn chi tiết cách sắp xếp và lọc các giá trị duy nhất trong Excel bằng công thức mảng sử dụng Aspose.Cells cho Java.
+### [Cách sử dụng Aspose trong Java – tạo sổ làm việc Excel với các hàm mới](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
 
 ## Tài nguyên bổ sung
 

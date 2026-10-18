@@ -131,6 +131,12 @@
 
 ### [Создание файла FlatOPC из книги Excel – пошаговое руководство](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
 Узнайте, как создать файл FlatOPC из рабочей книги Excel с помощью Aspose.Cells для Java, следуя пошаговым инструкциям.
+### [Конвертация XLSX в PowerPoint с Java – полное руководство](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
+Узнайте, как преобразовать файлы XLSX в презентации PowerPoint с помощью Java и Aspose.Cells. Полное пошаговое руководство.
+### [Создание Excel из JSON и преобразование JSON в ячейку Excel с Aspose.Cells](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+Узнайте, как создать файл Excel из JSON и преобразовать данные JSON в отдельные ячейки Excel с помощью Aspose.Cells.
+### [Импорт пользовательских объектов в Excel с Aspose.Cells – руководство Java](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+Узнайте, как импортировать пользовательские объекты в файлы Excel с помощью Aspose.Cells для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

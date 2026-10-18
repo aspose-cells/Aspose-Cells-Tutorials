@@ -50,6 +50,8 @@
 ### [Заполнение шаблона Excel данными – создание отчета Excel из шаблона](./populate-excel-template-with-data-create-excel-report-from-t/)
 
 ### [Aspose Cells Smart Markers – Заполнение шаблона Excel](./aspose-cells-smart-markers-populate-excel-template/)
+### [Создание листов деталей в Java с помощью интеллектуальных маркеров Aspose.Cells](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
+Узнайте, как создавать листы деталей в Excel, используя интеллектуальные маркеры Aspose.Cells в Java.
 
 ## Дополнительные ресурсы
 

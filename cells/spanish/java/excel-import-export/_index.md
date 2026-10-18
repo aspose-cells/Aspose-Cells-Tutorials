@@ -129,6 +129,12 @@ Aprenda a exportar archivos de Excel a SVG usando Aspose.Cells para Java. Guía 
 Aprenda a crear un archivo FlatOPC a partir de un libro de Excel usando Aspose.Cells para Java. Guía paso a paso con ejemplos de código.
 ### [Exportar JSON a Excel con Java – Guía completa paso a paso](./export-json-to-excel-with-java-complete-step-by-step-guide/)
 Aprenda a convertir datos JSON a Excel con Aspose.Cells para Java. Guía paso a paso con código fuente para una conversión fluida.
+### [Convertir xlsx a PowerPoint con Java – guía completa](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
+Aprenda a convertir archivos XLSX a presentaciones PowerPoint usando Aspose.Slides para Java en esta guía paso a paso.
+### [Crear Excel a partir de JSON y convertir JSON a celda de Excel con Aspose.Cells](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+Aprenda a generar archivos Excel desde JSON y a convertir datos JSON en celdas de Excel usando Aspose.Cells.
+### [Importar objetos personalizados en Excel con Aspose.Cells – Guía Java](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+Aprenda a importar objetos personalizados a archivos Excel usando Aspose.Cells para Java. Guía paso a paso con ejemplos de código.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

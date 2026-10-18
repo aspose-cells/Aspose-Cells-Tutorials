@@ -104,6 +104,8 @@
 ### [كيفية استخدام SmartMarkerProcessor لتسمية الأوراق ديناميكياً](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
 ### [إنشاء أوراق متعددة في Excel باستخدام Java – دليل شامل يعتمد على القوالب](./create-multiple-sheets-in-excel-with-java-complete-template/)
 تعرّف على كيفية إنشاء أوراق عمل متعددة في Excel باستخدام Java مع القوالب الجاهزة. يغطي الدليل الخطوات الكاملة والنصائح العملية.
+### [كيفية مسح الفلتر التلقائي في Excel باستخدام Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+تعرف على طريقة مسح الفلتر التلقائي في ملفات Excel باستخدام مكتبة Aspose.Cells لجافا.
 
 ## موارد إضافية
 

@@ -45,10 +45,14 @@ Naučte se, jak převést soubory Excel do PDF pomocí Aspose.Cells pro Javu v t
 Naučte se, jak exportovat Excel do XML v Javě pomocí Aspose.Cells pro Javu. Podrobný návod se zdrojovým kódem pro bezproblémovou konverzi dat.
 ### [Import dat z Excelu](./data-import-from-excel/)
 Naučte se, jak importovat data z Excelu pomocí Aspose.Cells pro Javu. Komplexní průvodce se zdrojovým kódem pro bezproblémové načítání dat.
+### [Import vlastních objektů do Excelu pomocí Aspose.Cells – průvodce pro Javu](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+Naučte se, jak importovat vlastní objekty do souborů Excel pomocí Aspose.Cells v Javě s praktickými ukázkami kódu.
 ### [Export Excelu do JSONu](./export-excel-to-json/)
 Naučte se, jak exportovat data z Excelu do formátu JSON pomocí Aspose.Cells pro Javu. Pro bezproblémovou konverzi postupujte podle tohoto podrobného návodu se zdrojovým kódem.
 ### [Export JSON do Excelu v Javě – Kompletní průvodce krok za krokem](./export-json-to-excel-with-java-complete-step-by-step-guide/)
 Naučte se, jak převést data JSON do souboru Excel pomocí Aspose.Cells pro Javu pomocí podrobného krok‑za‑krokem návodu.
+### [Vytvoření Excelu z JSON a převod JSON do buňky Excelu pomocí Aspose.Cells](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+Naučte se, jak vytvořit soubor Excel z JSON a převést JSON data do konkrétní buňky Excelu pomocí Aspose.Cells.
 ### [Ověření dat importu z Excelu](./excel-import-data-validation/)
 Naučte se, jak implementovat validaci dat importu z Excelu pomocí Aspose.Cells pro Javu s tímto komplexním podrobným návodem. Zajistěte přesnost dat a vylepšete uživatelský komfort. 
 ### [Export Excelu do HTML v Javě](./export-excel-to-html-java/)
@@ -111,6 +115,8 @@ Naučte se, jak exportovat soubory Excel do formátu SVG pomocí Aspose.Cells pr
 Naučte se, jak vložit písma do HTML při konverzi souborů Excel pomocí Aspose.Cells pro Javu. Praktický návod s ukázkovým kódem.
 ### [Vytvoření souboru FlatOPC z Excel sešitu – krok za krokem](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Cells pro Javu vytvořit soubor FlatOPC z Excel sešitu krok za krokem.
+### [Převod XLSX do PowerPointu pomocí Javy – kompletní průvodce](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
+Naučte se, jak převést soubory XLSX do prezentací PowerPoint pomocí Aspose.Cells a Aspose.Slides v Javě.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

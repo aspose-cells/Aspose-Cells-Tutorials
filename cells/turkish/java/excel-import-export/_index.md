@@ -54,6 +54,8 @@ Aspose.Cells for Java kullanarak JSON dosyasını Excel'e nasıl dönüştürece
 Java ve Aspose.Cells kullanarak JSON verilerini Excel dosyasına nasıl aktaracağınızı öğrenin. Bu adım adım kılavuzla dönüşümü kolaylaştırın.
 ### [Excel İçe Aktarma Veri Doğrulaması](./excel-import-data-validation/)
 Bu kapsamlı adım adım kılavuzla Java için Aspose.Cells'i kullanarak Excel içe aktarma veri doğrulamasını nasıl uygulayacağınızı öğrenin. Veri doğruluğunu sağlayın ve kullanıcı deneyimini geliştirin. 
+### [Aspose.Cells ile Özel Nesneleri Excel'e Aktarma – Java Kılavuzu](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+Aspose.Cells for Java kullanarak özel nesneleri Excel dosyalarına nasıl aktaracağınızı adım adım öğrenin.
 ### [Excel'i HTML Java'ya Aktar](./export-excel-to-html-java/)
 Aspose.Cells for Java kullanarak Excel'i Java'da HTML'ye nasıl aktaracağınızı öğrenin. Excel dosyalarınızı zahmetsizce HTML'ye dönüştürmek için kaynak kodlu bu adım adım kılavuzu izleyin.
 ### [Java ile CSV'ye Aktarma – Önemli Basamakları Ayarlama ve Aralığı CSV'ye Aktarma](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
@@ -112,6 +114,10 @@ Aspose.Cells for Java kullanarak Excel dosyalarını SVG formatına nasıl dış
 Aspose.Cells for Java kullanarak Excel dosyalarını HTML'ye dönüştürürken yazı tiplerini nasıl gömeceğinizi adım adım öğrenin.
 ### [Excel Çalışma Kitabından FlatOPC Dosyası Oluşturma – Adım Adım Rehber](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
 Aspose.Cells for Java kullanarak Excel çalışma kitabından FlatOPC dosyası oluşturmayı adım adım öğrenin.
+### [Java ile XLSX'i PowerPoint'e Dönüştürme – Tam Kılavuz](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
+Aspose.Slides for Java kullanarak XLSX dosyalarını PowerPoint sunumlarına dönüştürmeyi adım adım öğrenin.
+### [Aspose.Cells ile JSON'dan Excel Oluşturma ve JSON'u Excel Hücresine Dönüştürme](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+Aspose.Cells for Java kullanarak JSON verilerini Excel dosyasına dönüştürün ve hücreye yerleştirin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

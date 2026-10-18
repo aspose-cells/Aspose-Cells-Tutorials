@@ -105,6 +105,8 @@ Apprenez à afficher facilement les lignes et les colonnes masquées dans vos fi
 Apprenez à utiliser SmartMarkerProcessor afin de nommer automatiquement les feuilles de calcul en fonction de données dynamiques avec Aspose.Cells pour Java.
 ### [Créer plusieurs feuilles dans Excel avec Java – Guide complet basé sur les modèles](./create-multiple-sheets-in-excel-with-java-complete-template/)
 Apprenez à générer plusieurs feuilles Excel à partir d'un modèle en Java avec Aspose.Cells, incluant configuration, remplissage de données et sauvegarde.
+### [Comment effacer le filtre automatique dans Excel avec Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+Apprenez à supprimer le filtre automatique d'une feuille Excel à l'aide d'Aspose.Cells pour Java.
 
 ## Ressources supplémentaires
 

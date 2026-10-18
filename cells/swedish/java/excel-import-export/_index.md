@@ -110,6 +110,12 @@ Lär dig hur du exporterar diagram från Excel som bild och konverterar dem till
 Lär dig steg‑för‑steg hur du bäddar in teckensnitt när du konverterar Excel‑filer till HTML med Aspose.Cells för Java.
 ### [Skapa FlatOPC-fil från Excel-arbetsbok – steg‑för‑steg‑guide](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
 Lär dig hur du skapar en FlatOPC-fil från en Excel-arbetsbok med Aspose.Cells för Java i en tydlig steg‑för‑steg‑guide.
+### [Konvertera xlsx till PowerPoint med Java – komplett guide](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
+Lär dig hur du konverterar XLSX-filer till PowerPoint-presentationer med Java och Aspose.Cells, steg-för-steg med kodexempel.
+### [Skapa Excel från JSON och konvertera JSON till Excel-cell med Aspose.Cells](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+Lär dig hur du skapar en Excel-fil från JSON och konverterar JSON-data till en Excel-cell med Aspose.Cells.
+### [Importera anpassade objekt till Excel med Aspose.Cells – Java-guide](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+Lär dig hur du importerar anpassade objekt till Excel med Aspose.Cells för Java i en steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

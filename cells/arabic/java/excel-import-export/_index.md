@@ -113,6 +113,11 @@
 تعرف على كيفية إنشاء ملف FlatOPC من مصنف Excel باستخدام Aspose.Cells لجافا عبر دليل خطوة بخطوة مع أمثلة الكود.
 ### [تصدير JSON إلى Excel باستخدام Java – دليل خطوة بخطوة كامل](./export-json-to-excel-with-java-complete-step-by-step-guide/)
 تعلم كيفية تحويل ملفات JSON إلى Excel باستخدام Aspose.Cells لجافا عبر دليل شامل مع أمثلة الكود خطوة بخطوة.
+### [إنشاء ملف Excel من JSON وتحويل JSON إلى خلية Excel باستخدام Aspose.Cells](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+تعلم كيفية إنشاء ملفات Excel من بيانات JSON وتحويلها إلى خلايا Excel باستخدام Aspose.Cells.
+### [تحويل ملف XLSX إلى PowerPoint باستخدام Java – دليل كامل](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
+### [استيراد الكائنات المخصصة إلى Excel باستخدام Aspose.Cells – دليل Java](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+تعرّف على كيفية استيراد كائنات مخصصة إلى ملفات Excel باستخدام Aspose.Cells لجافا. دليل خطوة بخطوة مع أمثلة عملية.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

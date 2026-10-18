@@ -105,6 +105,8 @@
 Μάθετε πώς να διαγράφετε γραμμές σε ένα φύλλο εργασίας Excel χρησιμοποιώντας το Aspose.Cells για Java. Αυτός ο οδηγός καλύπτει βήμα-βήμα υλοποίηση και βέλτιστες πρακτικές.
 ### [Δημιουργία πολλαπλών φύλλων Excel με Java – Πλήρης οδηγός βασισμένος σε πρότυπο](./create-multiple-sheets-in-excel-with-java-complete-template/)
 Μάθετε πώς να δημιουργείτε πολλά φύλλα εργασίας σε ένα αρχείο Excel χρησιμοποιώντας πρότυπα με Aspose.Cells για Java.
+### [Πώς να καθαρίσετε το Autofilter στο Excel με το Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+Μάθετε πώς να αφαιρέσετε το Autofilter από ένα φύλλο Excel χρησιμοποιώντας το Aspose.Cells για Java.
 
 ## Πρόσθετοι Πόροι
 

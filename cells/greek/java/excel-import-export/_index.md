@@ -108,6 +108,12 @@
 Μάθετε πώς να δημιουργήσετε αρχείο FlatOPC από βιβλίο εργασίας Excel χρησιμοποιώντας το Aspose.Cells για Java σε βήμα‑βήμα οδηγό.
 ### [Εξαγωγή JSON σε Excel με Java – Πλήρης Οδηγός Βήμα‑Βήμα](./export-json-to-excel-with-java-complete-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε JSON σε Excel με το Aspose.Cells για Java, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα.
+### [Εισαγωγή προσαρμοσμένων αντικειμένων στο Excel με το Aspose.Cells – Οδηγός Java](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+Μάθετε πώς να εισάγετε προσαρμοσμένα αντικείμενα σε αρχεία Excel χρησιμοποιώντας το Aspose.Cells για Java.
+### [Μετατροπή xlsx σε PowerPoint με Java – πλήρης οδηγός](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
+
+### [Δημιουργία Excel από JSON και μετατροπή JSON σε κελί Excel με το Aspose.Cells](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+Μάθετε πώς να δημιουργήσετε αρχεία Excel από JSON και να μετατρέψετε δεδομένα JSON σε κελιά Excel χρησιμοποιώντας το Aspose.Cells για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

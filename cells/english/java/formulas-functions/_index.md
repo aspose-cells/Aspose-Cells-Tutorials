@@ -92,6 +92,8 @@ Learn how to use the SEQUENCE function in Excel workbooks with Aspose.Cells for 
 Learn how to apply the WRAPCOLS function in Excel using Aspose.Cells for Java, with a complete example and code walkthrough.
 ### [How to Calculate Cotangent in Excel – Complete Guide](./how-to-calculate-cotangent-in-excel-complete-guide/)
 Learn how to calculate cotangent in Excel with Aspose.Cells for Java, covering formula setup, implementation details, and practical code examples.
+### [How to use Aspose in Java – create Excel workbook with new functions](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+Learn how to create an Excel workbook with new functions using Aspose.Cells for Java.
 
 ## Additional Resources
 

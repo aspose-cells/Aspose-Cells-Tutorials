@@ -112,6 +112,11 @@ Learn how to export Excel worksheets to SVG format using Aspose.Cells for Java w
 Learn how to embed fonts when converting Excel to HTML using Aspose.Cells for Java. Step‑by‑step guide with code examples.
 ### [Create FlatOPC File from Excel Workbook – Step‑by‑Step Guide](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
 Learn how to generate a FlatOPC file from an Excel workbook using Aspose.Cells for Java with detailed code examples.
+### [convert xlsx to powerpoint with Java – complete guide](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
+Learn how to convert XLSX files to PowerPoint presentations using Aspose.Cells for Java in this comprehensive step-by-step guide.
+### [Create Excel from JSON and convert JSON to Excel cell with Aspose.Cells](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+### [Import custom objects into Excel with Aspose.Cells – Java guide](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+Learn how to import custom Java objects into Excel worksheets using Aspose.Cells for Java in this step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

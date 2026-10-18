@@ -123,6 +123,11 @@ Aspose.Cells for Java を使用して、Excel を HTML に変換する際にフ�
 Aspose.Cells for Java を使用して、Excel ワークブックから FlatOPC ファイルを生成する方法をステップバイステップで解説します。
 ### [JSON を Excel にエクスポート（Java） – 完全ステップバイステップガイド](./export-json-to-excel-with-java-complete-step-by-step-guide/)
 Aspose.Cells for Java を使用して、JSON データを Excel に変換する方法を学びます。実用的なコード例とステップバイステップの手順で、簡単に変換できます。
+### [JavaでXLSXをPowerPointに変換する完全ガイド](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
+Aspose.Cells for Java を使用して、XLSX ファイルを PowerPoint プレゼンテーションに変換する方法を学びましょう。実用的なコード例でステップバイステップ解説します。
+### [Aspose.CellsでJSONからExcelを作成し、JSONをExcelセルに変換する](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+### [Aspose.CellsでカスタムオブジェクトをExcelにインポートする – Javaガイド](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+Aspose.Cells for Java を使用して、カスタムオブジェクトを Excel にインポートする方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

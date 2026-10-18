@@ -63,6 +63,8 @@ Aprenda a desativar o AutoFiltro em planilhas Excel usando Aspose.Cells para Jav
 Aprenda a usar o método Expand no Aspose.Cells para Java e crie planilhas dinâmicas com exemplos de código passo a passo.
 ### [Como limpar o AutoFiltro no Excel usando Java – Guia completo](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
 Aprenda a remover filtros automáticos de planilhas Excel programaticamente com Aspose.Cells para Java, com exemplos de código passo a passo.
+### [Criar nova pasta de trabalho Aspose – adicionar propriedade personalizada ao Excel e salvar como XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+Aprenda a criar uma nova pasta de trabalho, adicionar propriedades personalizadas e salvar como XLSB usando Aspose.Cells para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -59,6 +59,8 @@ Pelajari cara mengisi templat Excel dengan data aplikasi Anda dan menghasilkan l
 
 ### [Aspose Cells Smart Markers – Mengisi Templat Excel](./aspose-cells-smart-markers-populate-excel-template/)
 Pelajari cara menggunakan Smart Markers di Aspose.Cells untuk mengisi templat Excel dengan data aplikasi secara otomatis.
+### [Membuat lembar detail di Java dengan SmartMarkers Aspose.Cells](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
+Pelajari cara membuat lembar detail dinamis menggunakan SmartMarkers di Aspose.Cells untuk Java.
 
 ## Sumber Daya Tambahan
 

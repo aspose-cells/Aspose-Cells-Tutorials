@@ -59,6 +59,8 @@ Aspose.Cells for Java를 활용해 마스터-디테일 관계를 갖는 Excel �
 
 ### [Aspose Cells 스마트 마커: Excel 템플릿 로드 및 템플릿에서 Excel 생성](./aspose-cells-smart-markers-load-excel-template-generate-exce/)
 Aspose.Cells 스마트 마커를 사용해 Excel 템플릿을 로드하고, 템플릿 기반으로 새로운 Excel 파일을 생성하는 방법을 배웁니다.
+### [Java에서 Aspose.Cells 스마트 마커로 상세 시트 만들기](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
+Aspose.Cells 스마트 마커를 활용해 Java에서 상세 시트를 자동으로 생성하는 방법을 배웁니다.
 
 ## 추가 자료
 

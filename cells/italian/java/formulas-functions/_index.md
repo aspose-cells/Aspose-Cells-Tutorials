@@ -94,6 +94,8 @@ Scopri come applicare la funzione SEQUENCE in Aspose.Cells per Java per generare
 Scopri come applicare la funzione WRAPCOLS con Aspose.Cells per Java per suddividere il contenuto delle celle in più colonne.
 ### [Come calcolare la cotangente in Excel – Guida completa](./how-to-calculate-cotangent-in-excel-complete-guide/)
 Scopri come calcolare la cotangente in Excel usando le funzioni integrate e personalizzate con Aspose.Cells per Java.
+### [Come utilizzare Aspose in Java – creare cartella di lavoro Excel con nuove funzioni](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+Scopri come creare una cartella di lavoro Excel con nuove funzioni utilizzando Aspose in Java.
 
 ## Risorse aggiuntive
 

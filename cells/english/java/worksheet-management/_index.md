@@ -79,6 +79,8 @@ Learn how to efficiently delete rows from an Excel file using Aspose.Cells for J
 
 ### [Delete rows in worksheet with Java – Complete Guide](./delete-rows-in-worksheet-with-java-complete-guide/)
 Learn how to delete rows in an Excel worksheet using Aspose.Cells for Java with clear steps and code samples.
+### [How to clear autofilter in Excel with Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+Learn how to remove autofilters from Excel worksheets using Aspose.Cells for Java, simplifying data handling and report generation.
 
 ### [Manage Excel Tabs Visibility with Aspose.Cells in Java](./display-excel-tabs-aspose-cells-java/)
 Learn how to display or hide Excel tabs using Aspose.Cells for Java. This guide covers setup, code implementation, and best practices for effective worksheet management.
