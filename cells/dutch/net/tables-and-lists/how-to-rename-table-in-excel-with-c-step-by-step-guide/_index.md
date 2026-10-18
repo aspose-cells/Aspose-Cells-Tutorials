@@ -1,63 +1,28 @@
 ---
 category: general
-date: 2026-08-11
-description: Hoe een tabel in Excel te hernoemen met C# en Aspose.Cells. Leer een
-  Excel-werkmap te maken, een benoemd bereik toe te voegen en hernoemconflicten te
-  vermijden.
+date: 2026-03-18
+description: Leer hoe je een tabel in Excel kunt hernoemen met C#. Deze tutorial laat
+  zien hoe je de naam van een Excel‑tabel wijzigt, een naam aan een tabel toewijst,
+  de naam van een Excel‑tabel instelt en de tabelnaam in C# instelt, allemaal in een
+  paar minuten.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - how to rename table
-- create excel workbook
-- add named range
-- how to add range
-- rename excel table
+- change excel table name
+- assign name to table
+- set excel table name
+- set table name c#
 language: nl
-lastmod: 2026-08-11
-og_description: Hoe een tabel in Excel te hernoemen met C# en Aspose.Cells. Deze gids
-  laat zien hoe je een Excel-werkmap maakt, een benoemd bereik toevoegt en veilig
-  een Excel-tabel hernoemt.
-og_image_alt: Screenshot of C# code that renames an Excel table
-og_title: Hoe een tabel in Excel te hernoemen met C# – volledige programmeertutorial
-schemas:
-- author: Aspose
-  dateModified: '2026-08-11'
-  description: How to rename table in Excel with C# using Aspose.Cells. Learn to create
-    Excel workbook, add named range, and avoid rename conflicts.
-  headline: How to rename table in Excel with C# – step‑by‑step guide
-  type: TechArticle
-- description: How to rename table in Excel with C# using Aspose.Cells. Learn to create
-    Excel workbook, add named range, and avoid rename conflicts.
-  name: How to rename table in Excel with C# – step‑by‑step guide
-  steps:
-  - name: '**Create Excel workbook** – instantiate a `Workbook` and add some sample
-      data.'
-    text: '**Create Excel workbook** – instantiate a `Workbook` and add some sample
-      data.'
-  - name: '**Add a named range** – use `Worksheets.Names.Add` to create a range called
-      `MyRange`.'
-    text: '**Add a named range** – use `Worksheets.Names.Add` to create a range called
-      `MyRange`.'
-  - name: '**Create an Excel table (ListObject)** – convert the data into a table
-      so we have something to rename.'
-    text: '**Create an Excel table (ListObject)** – convert the data into a table
-      so we have something to rename.'
-  - name: '**Rename the table** – attempt to set the table’s `Name` property to the
-      same identifier as the named range.'
-    text: '**Rename the table** – attempt to set the table’s `Name` property to the
-      same identifier as the named range.'
-  - name: '**Handle name conflicts** – catch the exception, explain why it occurs,
-      and show a safe rename strategy.'
-    text: '**Handle name conflicts** – catch the exception, explain why it occurs,
-      and show a safe rename strategy.'
-  type: HowTo
+og_description: Hoe een tabel in Excel te hernoemen met C#. Volg deze beknopte gids
+  om de naam van een Excel‑tabel te wijzigen, een naam aan een tabel toe te wijzen
+  en de tabelnaam veilig in C# in te stellen.
+og_title: Hoe een tabel in Excel hernoemen met C# – Snelle gids
 tags:
-- Excel
 - C#
+- Excel
 - Aspose.Cells
 - Automation
-title: Hoe een tabel in Excel te hernoemen met C# – stapsgewijze handleiding
+title: Hoe een tabel in Excel te hernoemen met C# – Stapsgewijze handleiding
 url: /nl/net/tables-and-lists/how-to-rename-table-in-excel-with-c-step-by-step-guide/
 ---
 
@@ -65,253 +30,219 @@ url: /nl/net/tables-and-lists/how-to-rename-table-in-excel-with-c-step-by-step-g
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe een tabel in Excel te hernoemen met C# – stapsgewijze gids
+# Hoe een tabel in Excel te hernoemen met C# – Stapsgewijze gids
 
-Als je **how to rename table** in een Excel‑bestand programmatisch moet uitvoeren, laat deze tutorial je de exacte aanpak zien met Aspose.Cells voor .NET. Je ziet hoe je een **create Excel workbook** maakt, een **named range** definieert en een bestaande Excel‑tabel hernoemt zonder een naamconflict te veroorzaken.
+Heb je je ooit afgevraagd **how to rename table** in een Excel-werkmap programmatically? Misschien automatiseer je een maandelijks rapport en voldoet de standaard “Table1” niet. Het goede nieuws? Een tabel hernoemen is een fluitje van een cent wanneer je C# en de Aspose.Cells-bibliotheek gebruikt.  
 
-De oplossing werkt voor elk .NET‑project dat .NET 6 of hoger target en vereist alleen het Aspose.Cells NuGet‑pakket. Aan het einde van de gids kun je een Excel‑tabel veilig hernoemen en begrijp je waarom een conflict kan ontstaan wanneer een tabelnaam overeenkomt met een gedefinieerde range.
+In deze tutorial lopen we alles door wat je nodig hebt: van het laden van de werkmap, het vinden van het juiste ListObject, tot **change Excel table name** veilig. Aan het einde kun je **assign name to table**, **set Excel table name**, en zelfs **set table name C#** in één enkele, nette methode.
 
-## Voorvereisten
+## Prerequisites
 
-- .NET 6 SDK of nieuwer geïnstalleerd  
-- Visual Studio 2022 (of een andere C#‑IDE)  
-- Aspose.Cells for .NET‑pakket (`dotnet add package Aspose.Cells`)  
+- .NET 6.0 of later (de code werkt ook op .NET Framework 4.7+)  
+- Aspose.Cells for .NET (gratis proefversie of gelicentieerde versie) – `Install-Package Aspose.Cells`  
+- Een basiskennis van C#-syntaxis en Visual Studio (of een andere IDE naar keuze)  
 
-Er zijn geen extra Excel‑interop‑assemblies nodig omdat Aspose.Cells volledig in het geheugen werkt.
+Als je die hebt, laten we erin duiken.
 
 ## Overzicht van de oplossing
 
-1. **Create Excel workbook** – instantiate een `Workbook` en voeg wat voorbeeldgegevens toe.  
-2. **Add a named range** – gebruik `Worksheets.Names.Add` om een range genaamd `MyRange` te maken.  
-3. **Create an Excel table (ListObject)** – zet de gegevens om in een tabel zodat we iets hebben om te hernoemen.  
-4. **Rename the table** – probeer de `Name`‑eigenschap van de tabel in te stellen op dezelfde identifier als de named range.  
-5. **Handle name conflicts** – vang de uitzondering op, leg uit waarom deze optreedt en toon een veilige hernoemstrategie.
+Het kernidee is simpel:
 
-Elke stap wordt hieronder in detail uitgelegd.
+1. Laad de Excel-werkmap.  
+2. Pak het werkblad dat de tabel bevat.  
+3. Haal het `ListObject` op (het Excel‑tabelobject).  
+4. **Set table name** door toe te wijzen aan `ListObject.Name`.  
+5. Sla de werkmap op en controleer de wijziging.
 
-## Stap 1: Hoe een Excel‑workbook te maken en gegevens te vullen
+Hieronder zie je de volledige, uitvoerbare code, plus een paar “what‑if” scenario’s die ontwikkelaars vaak laten struikelen.
 
-Een workbook maken is de basis voor elke Excel‑automatiseringstaak. De `Workbook`‑klasse vertegenwoordigt het volledige bestand in het geheugen.
+---
+
+## Hoe een tabel in Excel te hernoemen met C# (Primaire zoekwoord in H2)
+
+### Step 1 – Open the Workbook
+
+First, create a `Workbook` instance. You can load an existing file or start from scratch.
 
 ```csharp
-using System;
 using Aspose.Cells;
+using System;
 
-class Program
+class ExcelTableRenamer
 {
     static void Main()
     {
-        // 1️⃣ Create a new workbook
-        Workbook workbook = new Workbook();
-
-        // Access the first worksheet (index 0)
-        Worksheet sheet = workbook.Worksheets[0];
-
-        // Fill some sample data in cells A1:C4
-        sheet.Cells["A1"].PutValue("ID");
-        sheet.Cells["B1"].PutValue("Name");
-        sheet.Cells["C1"].PutValue("Score");
-
-        sheet.Cells["A2"].PutValue(1);
-        sheet.Cells["B2"].PutValue("Alice");
-        sheet.Cells["C2"].PutValue(85);
-
-        sheet.Cells["A3"].PutValue(2);
-        sheet.Cells["B3"].PutValue("Bob");
-        sheet.Cells["C3"].PutValue(92);
-
-        sheet.Cells["A4"].PutValue(3);
-        sheet.Cells["B4"].PutValue("Carol");
-        sheet.Cells["C4"].PutValue(78);
+        // Load an existing workbook (replace with your path)
+        string inputPath = @"C:\Data\SalesReport.xlsx";
+        Workbook workbook = new Workbook(inputPath);
 ```
 
-**Waarom dit belangrijk is:** Het workbook moet gegevens bevatten voordat je een tabel kunt maken. Aspose.Cells slaat gegevens op in een nul‑gebaseerde collectie, dus `Worksheets[0]` verwijst altijd naar het eerste blad.
+> **Why this matters:** Loading the workbook gives you access to the internal collections (`Worksheets`, `ListObjects`, etc.) that you’ll manipulate later.
 
-## Stap 2: Hoe een named range toe te voegen aan het werkblad
+### Step 2 – Get the Target Worksheet
 
-Een **named range** stelt je in staat om naar een specifieke cel of range te verwijzen met een vriendelijke identifier. Een range toevoegen is eenvoudig:
+If you know the sheet name, use it; otherwise, grab the first sheet.
 
 ```csharp
-        // 2️⃣ Define a named range called "MyRange" that points to cell A1
-        // The range string follows Excel notation: SheetName!$A$1
-        workbook.Worksheets.Names.Add("MyRange", "Sheet1!$A$1");
+        // Option A: by name
+        // Worksheet ws = workbook.Worksheets["Sheet1"];
+
+        // Option B: first worksheet (most common in automated reports)
+        Worksheet ws = workbook.Worksheets[0];
 ```
 
-**Waarom dit belangrijk is:** Named ranges worden opgeslagen in de globale naamcollectie van het workbook. Als later een tabel dezelfde naam krijgt, gooit Aspose.Cells een `CellException` omdat Excel geen dubbele namen toestaat.
+> **Pro tip:** When dealing with multiple sheets, always validate `ws` is not `null` to avoid a `NullReferenceException`.
 
-## Stap 3: Hoe een Excel‑tabel (ListObject) toe te voegen
+### Step 3 – Locate the Table (ListObject)
 
-Een tabel biedt gestructureerde gegevensverwerking, filteren en opmaken. In Aspose.Cells heet dit een **ListObject**.
+Excel tables are represented by `ListObject`. Most workbooks have at least one table; we’ll fetch the first one.
 
 ```csharp
-        // 3️⃣ Convert the data range A1:C4 into an Excel table
-        // The range string includes the header row.
-        int firstRow = 0;   // zero‑based index for row 1
-        int firstCol = 0;   // column A
-        int totalRows = 4;  // rows 1‑4
-        int totalCols = 3;  // columns A‑C
+        // Ensure the worksheet actually contains tables
+        if (ws.ListObjects.Count == 0)
+        {
+            Console.WriteLine("No tables found on the worksheet.");
+            return;
+        }
 
-        // Create the ListObject (table) and give it an initial name
-        ListObject table = sheet.ListObjects[sheet.ListObjects.Add(firstRow, firstCol, totalRows, totalCols, true)];
-        table.Name = "InitialTable";
+        // Retrieve the first table
+        ListObject table = ws.ListObjects[0];
 ```
 
-**Waarom dit belangrijk is:** De tabel bestaat nu met de naam `InitialTable`. Het hernoemen ervan demonstreert het **how to rename table**‑proces.
+> **Edge case:** If you need to rename a specific table, iterate through `ws.ListObjects` and match `table.Name` or the range address.
 
-## Stap 4: Hoe een Excel‑tabel te hernoemen en conflicten af te handelen
+### Step 4 – **Assign Name to Table** (Change Excel Table Name)
 
-Proberen de tabel te hernoemen naar `MyRange` botst met de eerder gemaakte named range. De onderstaande code toont het juiste patroon om het conflict te detecteren en op te lossen.
+Now comes the **set excel table name** part. Pick a meaningful identifier—something that reflects the data, like `"SalesData"`.
 
 ```csharp
-        // 4️⃣ Try to rename the table to "MyRange"
-        try
+        // New name you want to give the table
+        string newTableName = "SalesData";
+
+        // Check for naming conflicts (Excel tables must have unique names)
+        bool nameExists = false;
+        foreach (ListObject lo in ws.ListObjects)
         {
-            table.Name = "MyRange";   // This will raise an exception
-            Console.WriteLine("Table renamed successfully.");
-        }
-        catch (Exception ex)
-        {
-            // 5️⃣ Handle the name conflict gracefully
-            Console.WriteLine("Name conflict detected: " + ex.Message);
-
-            // Resolve by choosing a unique name
-            string safeName = GetUniqueTableName(workbook, "MyRange");
-            table.Name = safeName;
-            Console.WriteLine($"Table renamed to safe identifier: {safeName}");
-        }
-
-        // Save the workbook to verify the result
-        workbook.Save("RenamedTable.xlsx");
-    }
-
-    /// <summary>
-    /// Generates a unique table name that does not exist as a named range or another table.
-    /// </summary>
-    static string GetUniqueTableName(Workbook wb, string baseName)
-    {
-        int counter = 1;
-        string candidate = baseName + "_" + counter;
-
-        // Check against workbook names and existing table names
-        while (NameExists(wb, candidate))
-        {
-            counter++;
-            candidate = baseName + "_" + counter;
-        }
-        return candidate;
-    }
-
-    /// <summary>
-    /// Returns true if the identifier is already used as a named range or table name.
-    /// </summary>
-    static bool NameExists(Workbook wb, string name)
-    {
-        // Check named ranges
-        foreach (Name n in wb.Worksheets.Names)
-        {
-            if (string.Equals(n.TextToRefer, name, StringComparison.OrdinalIgnoreCase))
-                return true;
-        }
-
-        // Check existing tables
-        foreach (Worksheet ws in wb.Worksheets)
-        {
-            foreach (ListObject lo in ws.ListObjects)
+            if (lo.Name.Equals(newTableName, StringComparison.OrdinalIgnoreCase))
             {
-                if (string.Equals(lo.Name, name, StringComparison.OrdinalIgnoreCase))
-                    return true;
+                nameExists = true;
+                break;
             }
         }
-        return false;
+
+        if (nameExists)
+        {
+            Console.WriteLine($"A table named '{newTableName}' already exists. Choose a different name.");
+        }
+        else
+        {
+            table.Name = newTableName; // **set table name C#** in one line
+            Console.WriteLine($"Table renamed to: {table.Name}");
+        }
+```
+
+> **Why we check first:** Excel throws an exception if you try to assign a duplicate name. The safety check makes the code robust for production pipelines.
+
+### Step 5 – Save and Verify
+
+Finally, write the workbook back to disk and optionally open it to confirm the rename.
+
+```csharp
+        // Save the modified workbook
+        string outputPath = @"C:\Data\SalesReport_Renamed.xlsx";
+        workbook.Save(outputPath);
+
+        Console.WriteLine($"Workbook saved as '{outputPath}'.");
     }
 }
 ```
 
-### Wat de code doet
-
-| Stap | Actie | Reden |
-|------|-------|-------|
-| **Probeer hernoemen** | `table.Name = "MyRange"` | Demonstreert het conflictscenario. |
-| **Vang uitzondering** | Print het conflictbericht. | Geeft je directe feedback over het probleem. |
-| **Genereer veilige naam** | `GetUniqueTableName` voegt een numeriek achtervoegsel toe totdat de naam vrij is. | Garandeert dat de nieuwe tabelnaam **niet** botst met een bestaande named range of tabel. |
-| **Sla workbook op** | `workbook.Save("RenamedTable.xlsx")` | Slaat de wijzigingen op zodat je het bestand in Excel kunt openen en het resultaat kunt verifiëren. |
-
-**Verwachte output** wanneer je het programma uitvoert:
+**Expected console output (happy path):**
 
 ```
-Name conflict detected: A name with the same text already exists.
-Table renamed to safe identifier: MyRange_1
+Table renamed to: SalesData
+Workbook saved as 'C:\Data\SalesReport_Renamed.xlsx'.
 ```
 
-Het openen van `RenamedTable.xlsx` toont een tabel met de naam `MyRange_1` en een aparte named range `MyRange` die naar cel A1 wijst.
+If a conflict occurs, you’ll see the warning message instead.
 
-## Waarom het conflict ontstaat en beste praktijken voor het hernoemen van een Excel‑tabel
+## Change Excel Table Name – Common Variations
 
-- Excel slaat **named ranges** en **tabelnamen** op in dezelfde namespace.  
-- Wanneer je een tabelnaam probeert toe te wijzen die al bestaat als range, gooit Aspose.Cells een `CellException`.  
-- De aanbevolen aanpak is om **eerst te controleren op bestaande namen** (zoals getoond in `NameExists`) of een naamgevingsconventie te gebruiken die uniekheid garandeert (bijv. tabellen laten beginnen met `tbl_`).  
+### Renaming Multiple Tables in One Sheet
 
-Door dit patroon toe te passen voorkom je runtime‑fouten en maak je je automatisering robuust.
-
-## Extra tips voor het werken met Aspose.Cells
-
-- **Pro tip:** Gebruik `Workbook.Worksheets.Names.Remove("MyRange")` als je de range bewust wilt vervangen door een tabelnaam.  
-- **Let op hoofdlettergevoeligheid:** Excel behandelt namen hoofdletter‑onafhankelijk; de hulpfuncties gebruiken `OrdinalIgnoreCase` om het gedrag van Excel te emuleren.  
-- **Prestaties:** Als je veel werkbladen verwerkt, cache dan de naamcollectie in plaats van herhaaldelijk te itereren.
-
-## Volledig voorbeeld in één blok
-
-Hieronder staat het volledige programma dat je kunt copy‑pasten in een console‑project. Het bevat alle stappen van het maken van het workbook tot het veilig hernoemen van de tabel.
+If your worksheet contains several tables, you might want to rename them all based on a naming convention.
 
 ```csharp
-using System;
-using Aspose.Cells;
-
-class RenameTableDemo
+int counter = 1;
+foreach (ListObject lo in ws.ListObjects)
 {
-    static void Main()
+    string candidateName = $"Table_{counter}";
+    if (!ws.ListObjects.Any(t => t.Name.Equals(candidateName, StringComparison.OrdinalIgnoreCase)))
     {
-        // Create workbook and populate data
-        Workbook workbook = new Workbook();
-        Worksheet sheet = workbook.Worksheets[0];
+        lo.Name = candidateName;
+        Console.WriteLine($"Renamed to {candidateName}");
+    }
+    counter++;
+}
+```
 
-        sheet.Cells["A1"].PutValue("ID");
-        sheet.Cells["B1"].PutValue("Name");
-        sheet.Cells["C1"].PutValue("Score");
+### Handling Non‑Aspose Scenarios
 
-        sheet.Cells["A2"].PutValue(1);
-        sheet.Cells["B2"].PutValue("Alice");
-        sheet.Cells["C2"].PutValue(85);
+If you’re using **Microsoft.Office.Interop.Excel** instead of Aspose, the approach is similar but the API differs:
 
-        sheet.Cells["A3"].PutValue(2);
-        sheet.Cells["B3"].PutValue("Bob");
-        sheet.Cells["C3"].PutValue(92);
+```csharp
+Excel.ListObject lo = ws.ListObjects["Table1"];
+lo.Name = "SalesData";
+```
 
-        sheet.Cells["A4"].PutValue(3);
-        sheet.Cells["B4"].PutValue("Carol");
-        sheet.Cells["C4"].PutValue(78);
+The concept of **assign name to table** stays the same: you modify the `Name` property of the table object.
 
-        // Add named range "MyRange" pointing to A1
-        workbook.Worksheets.Names.Add("MyRange", "Sheet1!$A$1");
+### Setting Table Name When Creating a New Table
 
-        // Convert the data range into a table named "InitialTable"
-        ListObject table = sheet.ListObjects[sheet.ListObjects.Add(0, 0, 4, 3, true)];
-        table.Name = "InitialTable";
+When you create a table from scratch, you can set its name immediately:
 
-        // Attempt to rename the table to "MyRange" – this will conflict
-        try
-        {
-            table.Name = "MyRange";
-            Console
+```csharp
+// Define the range for the new table
+CellArea area = new CellArea(0, 0, 4, 3); // A1:D5
+int index = ws.ListObjects.Add(area, true);
+ws.ListObjects[index].Name = "NewSalesTable";
+```
 
+## Image Illustration
 
-## Wat moet je hierna leren?
+![Rename Excel table using C# code example – how to rename table](/images/rename-excel-table-csharp.png)
 
-De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden gedemonstreerd. Elke bron bevat volledige werkende code‑voorbeelden met stap‑voor‑stap uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.
+*Alt text:* **how to rename table** in een Excel-werkmap met C# en Aspose.Cells.
 
-- [How to Create Workbook Scoped Named Ranges in Excel Using Aspose.Cells .NET](/cells/english/net/range-management/excel-workbook-scoped-named-ranges-aspose-cells-net/)
-- [How to Implement Named Range Formulas in .NET using Aspose.Cells for Excel Automation](/cells/english/net/formulas-functions/implement-named-range-formulas-net-aspose-cells/)
-- [How to Add Slicers to Excel Tables Using Aspose.Cells for .NET: A Comprehensive Guide](/cells/english/net/advanced-features/add-slicers-excel-aspose-cells-net/)
+## Frequently Asked Questions (FAQ)
+
+**Q: Werkt dit met .xls‑bestanden?**  
+A: Ja. Aspose.Cells ondersteunt zowel `.xlsx` als legacy `.xls`. Verander gewoon de bestandsextensie in het pad.
+
+**Q: Wat als de werkmap met een wachtwoord is beveiligd?**  
+A: Laad hem met `new Workbook(inputPath, new LoadOptions(LoadFormat.Xlsx) { Password = "myPwd" })`.
+
+**Q: Kan ik een tabel hernoemen die zich op een verborgen werkblad bevindt?**  
+A: Absoluut. Verborgen bladen maken nog steeds deel uit van de `Worksheets`‑collectie; je hoeft ze alleen maar te refereren op index of naam.
+
+**Q: Is er een limiet aan het aantal tekens dat een tabelnaam mag hebben?**  
+A: Excel beperkt tabelnamen tot 255 tekens en ze moeten beginnen met een letter of underscore.
+
+## Best Practices & Pro Tips
+
+- **Gebruik betekenisvolle namen**: `SalesData_Q1_2024` is veel duidelijker dan `Table1`.  
+- **Vermijd spaties**: Excel‑tabelnamen kunnen geen spaties bevatten; gebruik underscores of camelCase.  
+- **Valideer vóór het opslaan**: Voer een snelle sanity‑check uit (`if (table.Name == newTableName)`) om te bevestigen dat de hernoeming geslaagd is.  
+- **Versiebeheer**: Wanneer je rapporten automatiseert, bewaar een kopie van de originele werkmap; accidentele hernoemingen zijn moeilijk ongedaan te maken zonder een backup.  
+- **Performance tip**: Als je tientallen werkmappen verwerkt, hergebruik dan een enkele `Workbook`‑instantie waar mogelijk om geheugenbelasting te verminderen.
+
+## Conclusion
+
+We hebben **how to rename table** in Excel met C# van begin tot eind behandeld. Door de werkmap te laden, het juiste `Worksheet` te pakken, het `ListObject` te vinden, en vervolgens **set table name C#** met één eigenschaps‑toewijzing, kun je moeiteloos **change Excel table name** en **assign name to table** in elke geautomatiseerde workflow.  
+
+Probeer het op je eigen rapporten – misschien hernoem je een “RawData”‑tabel naar iets meer business‑vriendelijks, of genereer je namen on‑the‑fly op basis van de huidige maand. Het patroon schaalt, of je nu één blad of een volledige collectie werkmappen verwerkt.
+
+Als je deze gids nuttig vond, overweeg dan gerelateerde onderwerpen zoals **how to add a new table**, **how to delete a table**, of **how to format table styles programmatically**. Blijf experimenteren, en happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

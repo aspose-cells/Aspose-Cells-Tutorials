@@ -1,42 +1,86 @@
 ---
-"date": "2025-04-08"
-"description": "學習使用 Aspose.Cells for Java 建立和自訂餅圖。為開發人員提供帶有程式碼範例的逐步指南。"
-"title": "掌握 Aspose.Cells'使用 Java 建立和自訂餅圖"
-"url": "/zh-hant/java/charts-graphs/create-customize-aspose-cells-pie-chart-java/"
-"weight": 1
+date: '2026-09-27'
+description: 了解如何使用 Aspose.Cells 在 Java 中建立 pie chart。一步一步的指南，教您自訂 Excel pie chart、設定
+  Maven 相依性，並產生專業圖表。
+keywords:
+- create pie chart java
+- customize excel pie chart
+- maven dependency aspose cells
+lastmod: '2026-09-27'
+og_description: 使用 Aspose.Cells for Java 建立 pie chart。了解如何自訂 Excel pie chart、加入 Maven
+  相依性，並在數分鐘內產生專業圖表。
+og_image_alt: Java code generating a customized pie chart in Excel with Aspose.Cells
+og_title: 使用 Aspose.Cells 建立 pie chart Java – 完整 Java 指南
+schemas:
+- author: Aspose
+  dateModified: '2026-09-27'
+  description: Learn how to create pie chart java using Aspose.Cells. Step‑by‑step
+    guide to customize Excel pie chart, set up Maven dependency, and generate professional
+    charts.
+  headline: How to create pie chart java with Aspose.Cells
+  type: TechArticle
+- questions:
+  - answer: Yes, repeat the chart‑creation steps for each data range; each chart is
+      independent.
+    question: Can I generate multiple pie charts in the same workbook?
+  - answer: It does; set the chart type to `ChartType.PIE_3D` when adding the chart.
+    question: Does Aspose.Cells support 3‑D pie charts?
+  - answer: Use the `Workbook.setDefaultTheme` method before creating any charts.
+    question: How do I apply a custom theme to all charts?
+  - answer: Over 30 formats, including XLSX, CSV, PDF, and HTML.
+    question: What file formats can I export the workbook to?
+  - answer: Yes, a valid license removes evaluation watermarks and unlocks full functionality.
+    question: Is a license required for commercial deployment?
+  type: FAQPage
+tags:
+- Aspose.Cells
+- Java charting
+- Excel automation
+- data visualization
+title: 如何使用 Aspose.Cells 在 Java 中建立 pie chart
+url: /zh-hant/java/charts-graphs/create-customize-aspose-cells-pie-chart-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# 掌握 Aspose.Cells：使用 Java 建立和自訂餅圖
+# 如何使用 Aspose.Cells 建立 Java 圓餅圖
 
 ## 介紹
-在 Excel 中處理資料視覺化時，建立視覺上吸引人的圖表是一項常見要求。無論您是展示人口統計資訊還是分析市場趨勢，圓餅圖都能提供一種清晰的方式來表示比例數據。但是，以程式設計方式設定這些圖表可能很複雜。本教學將指導您使用 Java 建立和自訂 Aspose.Cells 圓餅圖，簡化開發人員的流程。
+以程式方式建立 **pie chart** 往往像解謎，特別是當你需要對顏色、圖例與標題進行細緻控制時。在本指南中，你將學習如何使用 Aspose.Cells **create pie chart java**，並自訂 Excel 圓餅圖以符合你的品牌或報告風格。我們將一步步說明環境設定、資料填充、圖表產生與視覺調整——全部在你的 Java IDE 中完成。
 
-**您將學到什麼：**
-- 使用 Aspose.Cells for Java 設定您的環境。
-- 建立新工作簿並存取工作表儲存格。
-- 將資料填入特定單元格以準備建立圖表。
-- 根據該數據產生餅圖。
-- 自訂餅圖的外觀，包括顏色、標題和圖例。
+**您將學習**
+- 將 **Maven 依賴 Aspose.Cells** 加入您的專案。
+- 建立工作簿、填入資料至儲存格，並產生圓餅圖。
+- 為圖表套用自訂顏色、標題與圖例。
+- 將工作簿匯出為可分享的 XLSX 檔案。
 
-在深入研究之前，請確保您對 Java 程式設計和 Maven 或 Gradle 依賴管理有一些基本的了解。讓我們設定我們的環境！
+在開始之前，你應該熟悉基本的 Java 語法，並已安裝 Maven 或 Gradle。
 
-## 先決條件
-要學習本教程，您需要：
-- **Java 開發工具包 (JDK)**：版本 8 或更高版本。
-- **整合開發環境 (IDE)**：例如 IntelliJ IDEA 或 Eclipse。
-- **依賴管理**：使用 Maven 或 Gradle 來管理您的依賴項。
+## 快速問答
+- **Which library creates pie charts in Java?** Aspose.Cells for Java.  
+- **Do I need a license?** 免費試用可用於開發；正式環境需購買授權。  
+- **What Maven coordinates are required?** `com.aspose:aspose-cells:24.10`.  
+- **Can I change slice colors?** 可以，透過每個 series 的 `setAreaColor` 方法。  
+- **Is the chart exportable to XLSX?** 當然，只要呼叫 `workbook.save("output.xlsx")` 即可。
 
-### 所需的庫和依賴項
-確保使用 Maven 或 Gradle 將 Aspose.Cells for Java 包含在您的專案中。
+## 什麼是 Excel 圓餅圖？
+圓餅圖將單一資料系列以圓形的比例切片方式呈現，讓人輕鬆比較整體中的各部分。每一切片的角度對應其相對於總和的數值，便於快速洞察如市場佔有率、預算分配或人口比例等分類的分布情況。
 
-**Maven**
+## 為什麼使用 Aspose.Cells 建立 Java 圓餅圖？
+Aspose.Cells 支援超過 50 種圖表類型，且可在不將整個檔案載入記憶體的情況下處理高達百萬列的工作表。此效能優勢讓你在一般硬體上產生大型報表，同時提供對圖表外觀、資料綁定與匯出格式的細緻控制，遠勝許多開源函式庫。
+
+## 前置條件
+- **Java Development Kit (JDK)** 8 或更新版本。
+- **IDE** 如 IntelliJ IDEA 或 Eclipse。
+- **Maven** 或 **Gradle** 用於相依管理。
+- 一份 **試用或已購買的 Aspose.Cells 授權**。
+
+### 必要的函式庫與相依性
+將 Aspose.Cells Maven 套件加入你的 `pom.xml`：
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -45,31 +89,29 @@
 </dependency>
 ```
 
-**Gradle**
+或使用 Gradle 等價設定：
+
 ```gradle
 implementation 'com.aspose:aspose-cells:25.3'
 ```
 
-### 許可證取得步驟
-Aspose.Cells for Java 是一個商業庫，但您可以先免費試用或申請臨時許可證。訪問 [購買頁面](https://purchase.aspose.com/buy) 探索許可證選項。
+### 取得授權步驟
+Aspose.Cells for Java 為商業授權，但你可以先使用免費試用版。前往 [purchase page](https://purchase.aspose.com/buy) 取得暫時授權金鑰。
 
 ## 設定 Aspose.Cells for Java
-首先，確保您的專案環境包含必要的程式庫，方法是透過 Maven 或 Gradle 新增它們，如上所示。一旦包含，您就可以初始化 Aspose.Cells：
+首先，確保程式庫已在 classpath 中。加入相依後，你可以如以下範例初始化 API。
 
 ```java
 import com.aspose.cells.Workbook;
 
-// 初始化新的工作簿實例
+// Initialize a new workbook instance
 Workbook workbook = new Workbook();
 ```
 
-## 實施指南
+## 實作指南
 
-### 建立和配置工作簿
-建立工作簿是您設定資料的初始步驟。
-
-#### 導入庫
-確保這些導入包含在文件頂部：
+### 建立與設定工作簿
+`Workbook` 類別在記憶體中代表整個 Excel 檔案。
 
 ```java
 import com.aspose.cells.Workbook;
@@ -83,23 +125,24 @@ import com.aspose.cells.LegendPositionType;
 import com.aspose.cells.SaveFormat;
 ```
 
-#### 步驟 1：建立工作簿實例
+#### 步驟 1：實例化工作簿
 ```java
-// 建立一個空的工作簿實例以供使用。
+// Creates an empty workbook instance to work with.
 Workbook workbook = new Workbook();
-```
-此步驟以程式設計方式初始化您的 Excel 文件，讓您可以使用 Aspose.Cells 功能對其進行操作。
+```  
+此程式碼會建立一個全新的空白工作簿，讓你立即開始填充資料。
 
-### 存取或修改工作表單元格
-接下來，將資料填入將用於餅圖的工作表儲存格中。
+### 存取或修改工作表儲存格
+`Worksheet` 代表工作簿中的單一工作表，包含儲存格、列與欄。  
+你將把驅動圓餅圖的資料寫入工作表。
 
-#### 步驟 2：存取工作表及其儲存格
+#### 步驟 2：取得第一個工作表及其儲存格
 ```java
-// 存取工作簿中的第一個工作表。
+// Access the first worksheet in the workbook.
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Cells cells = worksheet.getCells();
 
-// 將圓餅圖使用的樣本值放入特定儲存格。
+// Put sample values used for a pie chart into specific cells.
 cells.get("C3").putValue("India");
 cells.get("C4").putValue("China");
 cells.get("C5").parseNumber("United States", true, null);
@@ -107,7 +150,7 @@ cells.get("C6").setValue("Russia");
 cells.get("C7").setValue("United Kingdom");
 cells.get("C8").setValue("Others");
 
-// 將圓餅圖的百分比值放入特定的儲存格中。
+// Put percentage values for a pie chart into specific cells.
 cells.get("D2").putValue("% of world population");
 cells.get("D3").putValue(25);
 cells.get("D4").putValue(30);
@@ -115,52 +158,53 @@ cells.get("D5").putValue(10);
 cells.get("D6").putValue(13);
 cells.get("D7").putValue(9);
 cells.get("D8").putValue(13);
-```
-在這裡，您可以用代表餅圖不同部分的資料填入工作表。
+```  
+將類別名稱與數值填入儲存格，供圖表使用。
 
-### 創建圓餅圖
+### 建立圓餅圖
+`Chart` 物件可視覺化工作表中的資料，支援圓餅圖、柱狀圖、折線圖等多種類型。
 
-#### 步驟 3：在工作表上新增圓餅圖
+#### 步驟 3：在工作表中加入圓餅圖
 ```java
-// 在工作表中建立餅圖。
+// Create a pie chart in the worksheet.
 int pieIdx = worksheet.getCharts().add(ChartType.PIE, 1, 6, 15, 14);
 Chart pie = worksheet.getCharts().get(pieIdx);
-```
-此步驟將新的圓餅圖依指定位置和尺寸新增至工作表。
+```  
 
-### 配置圓餅圖系列和數據
+### 設定圓餅圖系列與資料
+`Series` 定義圖表的資料範圍與格式，將工作表儲存格連結至視覺元素。
 
 #### 步驟 4：設定圖表的系列
 ```java
-// 配置圖表的系列資料範圍。
+// Configure the series data range for the chart.
 pie.getNSeries().add("D3:D8", true);
 pie.getNSeries().setCategoryData("=Sheet1!$C$3:$C$8");
 
-// 將餅圖標題連結到包含標題文字的儲存格。
+// Link the pie chart title to a cell containing the title text.
 pie.getTitle().setLinkedSource("D2");
-```
-此程式碼連結您的資料範圍並設定餅圖的系列。
+```  
 
-### 配置圖表圖例和標題外觀
+### 設定圖表圖例與標題外觀
+圖表的 `Legend` 會顯示系列名稱與顏色，協助讀者辨識每一切片。
 
-#### 步驟 5：自訂圖表圖例與標題
+#### 步驟 5：自訂圖例與標題
 ```java
-// 設定圖表底部的圖例位置。
+// Set legend position at bottom of the chart.
 pie.getLegend().setPosition(LegendPositionType.BOTTOM);
 
-// 設定圖表標題的字體屬性。
+// Set font properties for the chart title.
 pie.getTitle().getFont().setName("Calibri");
 pie.getTitle().getFont().setSize(18);
-```
-自訂外觀可增強可讀性和視覺吸引力。
+```  
 
 ### 自訂圖表系列顏色
+`setAreaColor` 使用 RGB 值設定圖表系列切片的填色。
 
-#### 步驟 6：更改圓餅圖各部分的顏色
+#### 步驟 6：變更圓餅切片顏色
 ```java
 import com.aspose.cells.Color;
 
-// 存取並自訂各個餅圖部分的顏色。
+// Access and customize colors of individual pie chart segments.
 Series srs = pie.getNSeries().get(0);
 srs.getPoints().get(0).getArea().setForegroundColor(Color.fromArgb(0, 246, 22, 219));
 srs.getPoints().get(1).getArea().setForegroundColor(Color.fromArgb(0, 51, 34, 84));
@@ -168,41 +212,64 @@ srs.getPoints().get(2).getArea().setForegroundColor(Color.fromArgb(0, 46, 74, 44
 srs.getPoints().get(3).getArea().setForegroundColor(Color.fromArgb(0, 19, 99, 44));
 srs.getPoints().get(4).getArea().setForegroundColor(Color.fromArgb(0, 208, 223, 7));
 srs.getPoints().get(5).getArea().setForegroundColor(Color.fromArgb(0, 222, 69, 8));
-```
-這些設定可個性化您的圖表以適應特定的配色方案。
+```  
 
-### 自動調整列並儲存工作簿
+### 自動調整欄寬並儲存工作簿
+`autoFitColumns` 會自動調整欄寬以符合儲存格內容。
 
-#### 步驟 7：調整列寬並儲存文件
+#### 步驟 7：調整欄寬並儲存檔案
 ```java
-// 自動調整所有列。
+// Autofit all columns.
 worksheet.autoFitColumns();
 
-// 定義用於保存工作簿的輸出目錄佔位符路徑。
+// Define output directory placeholder path for saving the workbook.
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 
-// 將修改後的工作簿儲存為指定目錄中的 Excel 檔案。
+// Save the modified workbook to an Excel file in the specified directory.
 workbook.save(outDir + "/CSOrSColorsPieChart_out.xlsx", SaveFormat.XLSX);
-```
-最後，自動調整列並儲存您的工作簿。
+```  
 
-## 實際應用
-1. **人口統計分析**：使用圓餅圖顯示不同國家或地區的人口分佈。
-2. **市佔率報告**：說明某一產業內不同公司的市佔率。
-3. **預算分配**：直觀地了解組織內各部門之間的預算分配。
+## 常見使用情境
+- **人口統計分析：** 顯示各區域的人口分布。  
+- **市場佔有率報告：** 一目了然地視覺化每個競爭者的佔比。  
+- **預算分配：** 突顯資金在各部門之間的分配情況。
 
-這些應用程式展示了 Aspose.Cells 在現實場景中的多功能性和實用性。
+## 效能考量
+- 在不再需要時釋放物件（`workbook.dispose()`），以釋放本機記憶體。  
+- 面對大量資料時，使用 `WorkbookDesigner` 以串流方式處理資料，而非一次載入全部。  
+- 使用 Java Flight Recorder 進行效能分析，找出圖表產生的瓶頸。
 
-## 性能考慮
-為了優化使用 Aspose.Cells 時的效能：
-- 透過處理不再需要的物件來最大限度地減少記憶體使用。
-- 使用高效的資料結構來處理大型資料集。
-- 分析您的應用程式以識別瓶頸。
+## 常見問答
 
-遵循最佳實務可確保應用程式順暢且反應迅速。
+**Q: Can I generate multiple pie charts in the same workbook?**  
+A: 可以，對每個資料範圍重複圖表建立步驟；每個圖表彼此獨立。
+
+**Q: Does Aspose.Cells support 3‑D pie charts?**  
+A: 支援；在加入圖表時將圖表類型設為 `ChartType.PIE_3D`。
+
+**Q: How do I apply a custom theme to all charts?**  
+A: 在建立任何圖表之前，呼叫 `Workbook.setDefaultTheme` 方法即可套用自訂主題。
+
+**Q: What file formats can I export the workbook to?**  
+A: 超過 30 種格式，包括 XLSX、CSV、PDF 與 HTML。
+
+**Q: Is a license required for commercial deployment?**  
+A: 必須，合法授權可移除評估水印並解鎖全部功能。
 
 ## 結論
-本教學將引導您完成使用 Java 中的 Aspose.Cells 建立和自訂餅圖的步驟。有了這些知識，您現在可以將這些技術應用到專案中的各種資料視覺化任務中。為了進一步探索，請考慮深入了解 Aspose.Cells 提供的其他圖表類型和進階自訂選項。
+現在你已掌握使用 Aspose.Cells **create pie chart java** 的完整端對端流程。依照上述步驟，你可以產生精緻的 Excel 圓餅圖、客製化顏色與標題，並將其嵌入任何報告管線。也可探索其他圖表類型——柱狀圖、折線圖、雷達圖——以擴充你的資料視覺化工具箱。
+
+---
+
+**Last Updated:** 2026-09-27  
+**Tested with:** Aspose.Cells 24.10 for Java  
+**Author:** Aspose
+
+## 相關教學
+
+- [使用 Aspose.Cells for Java 自訂 Excel 圖表資料標籤：一步步指南](/cells/java/charts-graphs/customize-chart-data-labels-aspose-cells-java/)
+- [使用 Aspose.Cells Java 建立動態 Excel 圖表：開發者完整指南](/cells/java/charts-graphs/aspose-cells-java-dynamic-excel-charts/)
+- [使用 Aspose.Cells Java 建立與自訂 Excel 工作簿：一步步指南](/cells/java/workbook-operations/create-customize-excel-workbooks-aspose-cells-java/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

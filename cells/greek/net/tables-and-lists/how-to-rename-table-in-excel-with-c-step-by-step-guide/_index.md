@@ -1,64 +1,28 @@
 ---
 category: general
-date: 2026-08-11
-description: Πώς να μετονομάσετε έναν πίνακα στο Excel με C# χρησιμοποιώντας το Aspose.Cells.
-  Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel, να προσθέσετε μια ονομαστική
-  περιοχή και να αποφύγετε συγκρούσεις ονομασίας.
+date: 2026-03-18
+description: Μάθετε πώς να μετονομάσετε έναν πίνακα στο Excel χρησιμοποιώντας C#.
+  Αυτό το σεμινάριο δείχνει πώς να αλλάξετε το όνομα του πίνακα Excel, να αντιστοιχίσετε
+  όνομα σε πίνακα, να ορίσετε το όνομα του πίνακα Excel και να ορίσετε το όνομα του
+  πίνακα με C# σε λίγα λεπτά.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - how to rename table
-- create excel workbook
-- add named range
-- how to add range
-- rename excel table
+- change excel table name
+- assign name to table
+- set excel table name
+- set table name c#
 language: el
-lastmod: 2026-08-11
-og_description: Πώς να μετονομάσετε έναν πίνακα στο Excel με C# χρησιμοποιώντας το
-  Aspose.Cells. Αυτός ο οδηγός σας δείχνει πώς να δημιουργήσετε ένα βιβλίο εργασίας
-  Excel, να προσθέσετε ονομαστική περιοχή και να μετονομάσετε με ασφάλεια έναν πίνακα
-  Excel.
-og_image_alt: Screenshot of C# code that renames an Excel table
-og_title: Πώς να μετονομάσετε πίνακα στο Excel με C# – πλήρης οδηγός προγραμματισμού
-schemas:
-- author: Aspose
-  dateModified: '2026-08-11'
-  description: How to rename table in Excel with C# using Aspose.Cells. Learn to create
-    Excel workbook, add named range, and avoid rename conflicts.
-  headline: How to rename table in Excel with C# – step‑by‑step guide
-  type: TechArticle
-- description: How to rename table in Excel with C# using Aspose.Cells. Learn to create
-    Excel workbook, add named range, and avoid rename conflicts.
-  name: How to rename table in Excel with C# – step‑by‑step guide
-  steps:
-  - name: '**Create Excel workbook** – instantiate a `Workbook` and add some sample
-      data.'
-    text: '**Create Excel workbook** – instantiate a `Workbook` and add some sample
-      data.'
-  - name: '**Add a named range** – use `Worksheets.Names.Add` to create a range called
-      `MyRange`.'
-    text: '**Add a named range** – use `Worksheets.Names.Add` to create a range called
-      `MyRange`.'
-  - name: '**Create an Excel table (ListObject)** – convert the data into a table
-      so we have something to rename.'
-    text: '**Create an Excel table (ListObject)** – convert the data into a table
-      so we have something to rename.'
-  - name: '**Rename the table** – attempt to set the table’s `Name` property to the
-      same identifier as the named range.'
-    text: '**Rename the table** – attempt to set the table’s `Name` property to the
-      same identifier as the named range.'
-  - name: '**Handle name conflicts** – catch the exception, explain why it occurs,
-      and show a safe rename strategy.'
-    text: '**Handle name conflicts** – catch the exception, explain why it occurs,
-      and show a safe rename strategy.'
-  type: HowTo
+og_description: Πώς να μετονομάσετε πίνακα στο Excel χρησιμοποιώντας C#. Ακολουθήστε
+  αυτόν τον σύντομο οδηγό για να αλλάξετε το όνομα του πίνακα Excel, να αναθέσετε
+  όνομα σε πίνακα και να ορίσετε το όνομα του πίνακα με C# με ασφάλεια.
+og_title: Πώς να μετονομάσετε πίνακα στο Excel με C# – Σύντομος οδηγός
 tags:
-- Excel
 - C#
+- Excel
 - Aspose.Cells
 - Automation
-title: Πώς να μετονομάσετε πίνακα στο Excel με C# – οδηγός βήμα‑προς‑βήμα
+title: Πώς να μετονομάσετε Πίνακα στο Excel με C# – Οδηγός βήμα‑προς‑βήμα
 url: /el/net/tables-and-lists/how-to-rename-table-in-excel-with-c-step-by-step-guide/
 ---
 
@@ -66,213 +30,219 @@ url: /el/net/tables-and-lists/how-to-rename-table-in-excel-with-c-step-by-step-g
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Πώς να μετονομάσετε πίνακα στο Excel με C# – οδηγός βήμα‑βήμα
+# Πώς να Μετονομάσετε Πίνακα στο Excel με C# – Οδηγός Βήμα‑βήμα
 
-Αν χρειάζεστε **how to rename table** σε ένα αρχείο Excel προγραμματιστικά, αυτό το tutorial σας δείχνει την ακριβή προσέγγιση χρησιμοποιώντας το Aspose.Cells for .NET. Θα δείτε πώς να **create Excel workbook**, να ορίσετε ένα **named range**, και να μετονομάσετε έναν υπάρχοντα πίνακα Excel χωρίς να προκαλέσετε σύγκρουση ονομάτων.
+Έχετε αναρωτηθεί ποτέ **πώς να μετονομάσετε πίνακα** σε ένα βιβλίο εργασίας του Excel προγραμματιστικά; Ίσως αυτοματοποιείτε μια μηνιαία αναφορά και το προεπιλεγμένο “Table1” δεν είναι αρκετό. Τα καλά νέα; Η μετονομασία ενός πίνακα είναι παιγνίδι όταν χρησιμοποιείτε C# και τη βιβλιοθήκη Aspose.Cells.  
 
-Η λύση λειτουργεί για οποιοδήποτε έργο .NET που στοχεύει στο .NET 6 ή νεότερο και απαιτεί μόνο το πακέτο NuGet του Aspose.Cells. Στο τέλος του οδηγού μπορείτε να μετονομάσετε έναν πίνακα Excel με ασφάλεια και να καταλάβετε γιατί μπορεί να προκύψει σύγκρουση όταν το όνομα ενός πίνακα ταιριάζει με ένα ορισμένο εύρος.
+Σε αυτό το tutorial θα καλύψουμε όλα όσα χρειάζεστε: από τη φόρτωση του workbook, τον εντοπισμό του σωστού ListObject, μέχρι το **change Excel table name** με ασφάλεια. Στο τέλος θα μπορείτε να **assign name to table**, **set Excel table name**, και ακόμη **set table name C#** σε μια ενιαία, καθαρή μέθοδο.
 
 ## Προαπαιτούμενα
 
-- .NET 6 SDK ή νεότερο εγκατεστημένο  
-- Visual Studio 2022 (ή οποιοδήποτε IDE C#)  
-- Πακέτο Aspose.Cells for .NET (`dotnet add package Aspose.Cells`)  
+- .NET 6.0 ή νεότερο (ο κώδικας λειτουργεί επίσης σε .NET Framework 4.7+)  
+- Aspose.Cells για .NET (δωρεάν δοκιμή ή έκδοση με άδεια) – `Install-Package Aspose.Cells`  
+- Βασική εξοικείωση με τη σύνταξη C# και το Visual Studio (ή οποιοδήποτε IDE προτιμάτε)  
 
-Δεν απαιτούνται πρόσθετες συναρτήσεις interop του Excel επειδή το Aspose.Cells λειτουργεί πλήρως στη μνήμη.
+Αν έχετε όλα αυτά, ας βουτήξουμε.
 
-## Επισκόπηση της λύσης
+## Επισκόπηση της Λύσης
 
-1. **Create Excel workbook** – δημιουργήστε ένα `Workbook` και προσθέστε κάποια δείγμα δεδομένων.  
-2. **Add a named range** – χρησιμοποιήστε `Worksheets.Names.Add` για να δημιουργήσετε ένα εύρος με όνομα `MyRange`.  
-3. **Create an Excel table (ListObject)** – μετατρέψτε τα δεδομένα σε πίνακα ώστε να έχουμε κάτι για μετονομασία.  
-4. **Rename the table** – προσπαθήστε να ορίσετε την ιδιότητα `Name` του πίνακα στο ίδιο αναγνωριστικό με το named range.  
-5. **Handle name conflicts** – πιάστε (catch) την εξαίρεση, εξηγήστε γιατί συμβαίνει, και δείξτε μια ασφαλή στρατηγική μετονομασίας.  
+Η κεντρική ιδέα είναι απλή:
 
-Κάθε βήμα εξηγείται λεπτομερώς παρακάτω.
+1. Φορτώστε το Excel workbook.  
+2. Πάρτε το φύλλο εργασίας που περιέχει τον πίνακα.  
+3. Ανακτήστε το `ListObject` (το αντικείμενο πίνακα του Excel).  
+4. **Set table name** με ανάθεση στο `ListObject.Name`.  
+5. Αποθηκεύστε το workbook και επαληθεύστε την αλλαγή.
 
-## Βήμα 1: Πώς να δημιουργήσετε Excel workbook και να συμπληρώσετε δεδομένα
+Παρακάτω θα δείτε τον πλήρη, εκτελέσιμο κώδικα, καθώς και μερικά σενάρια “what‑if” που συχνά προκαλούν προβλήματα στους προγραμματιστές.
 
-Η δημιουργία ενός workbook είναι η βάση για οποιαδήποτε εργασία αυτοματοποίησης Excel. Η κλάση `Workbook` αντιπροσωπεύει ολόκληρο το αρχείο στη μνήμη.
+---
+
+## Πώς να Μετονομάσετε Πίνακα στο Excel Χρησιμοποιώντας C# (Primary Keyword in H2)
+
+### Βήμα 1 – Άνοιγμα του Workbook
+
+Πρώτα, δημιουργήστε μια παρουσία `Workbook`. Μπορείτε να φορτώσετε ένα υπάρχον αρχείο ή να ξεκινήσετε από το μηδέν.
 
 ```csharp
-using System;
 using Aspose.Cells;
+using System;
 
-class Program
+class ExcelTableRenamer
 {
     static void Main()
     {
-        // 1️⃣ Create a new workbook
-        Workbook workbook = new Workbook();
-
-        // Access the first worksheet (index 0)
-        Worksheet sheet = workbook.Worksheets[0];
-
-        // Fill some sample data in cells A1:C4
-        sheet.Cells["A1"].PutValue("ID");
-        sheet.Cells["B1"].PutValue("Name");
-        sheet.Cells["C1"].PutValue("Score");
-
-        sheet.Cells["A2"].PutValue(1);
-        sheet.Cells["B2"].PutValue("Alice");
-        sheet.Cells["C2"].PutValue(85);
-
-        sheet.Cells["A3"].PutValue(2);
-        sheet.Cells["B3"].PutValue("Bob");
-        sheet.Cells["C3"].PutValue(92);
-
-        sheet.Cells["A4"].PutValue(3);
-        sheet.Cells["B4"].PutValue("Carol");
-        sheet.Cells["C4"].PutValue(78);
+        // Load an existing workbook (replace with your path)
+        string inputPath = @"C:\Data\SalesReport.xlsx";
+        Workbook workbook = new Workbook(inputPath);
 ```
 
-**Why this matters:** Το workbook πρέπει να περιέχει δεδομένα πριν μπορέσετε να δημιουργήσετε έναν πίνακα. Το Aspose.Cells αποθηκεύει δεδομένα σε μια συλλογή μηδενικής βάσης, έτσι `Worksheets[0]` πάντα αναφέρεται στο πρώτο φύλλο.
+> **Why this matters:** Η φόρτωση του workbook σας δίνει πρόσβαση στις εσωτερικές συλλογές (`Worksheets`, `ListObjects`, κ.λπ.) που θα χειριστείτε αργότερα.
 
-## Βήμα 2: Πώς να προσθέσετε named range στο φύλλο εργασίας
+### Βήμα 2 – Λήψη του Στόχου Worksheet
 
-Ένα **named range** σας επιτρέπει να αναφέρεστε σε ένα συγκεκριμένο κελί ή εύρος με ένα φιλικό αναγνωριστικό. Η προσθήκη ενός εύρους είναι απλή:
+Αν γνωρίζετε το όνομα του φύλλου, χρησιμοποιήστε το· διαφορετικά, πάρτε το πρώτο φύλλο.
 
 ```csharp
-        // 2️⃣ Define a named range called "MyRange" that points to cell A1
-        // The range string follows Excel notation: SheetName!$A$1
-        workbook.Worksheets.Names.Add("MyRange", "Sheet1!$A$1");
+        // Option A: by name
+        // Worksheet ws = workbook.Worksheets["Sheet1"];
+
+        // Option B: first worksheet (most common in automated reports)
+        Worksheet ws = workbook.Worksheets[0];
 ```
 
-**Why this matters:** Τα named ranges αποθηκεύονται στη συλλογή παγκόσμιων ονομάτων του workbook. Εάν ένας πίνακας αργότερα λάβει το ίδιο όνομα, το Aspose.Cells ρίχνει ένα `CellException` επειδή το Excel δεν επιτρέπει διπλότυπα ονόματα.
+> **Pro tip:** Όταν δουλεύετε με πολλά φύλλα, πάντα ελέγχετε ότι το `ws` δεν είναι `null` για να αποφύγετε `NullReferenceException`.
 
-## Βήμα 3: Πώς να προσθέσετε Excel table (ListObject)
+### Βήμα 3 – Εντοπισμός του Πίνακα (ListObject)
 
-Ένας πίνακας παρέχει δομημένη διαχείριση δεδομένων, φιλτράρισμα και στυλ. Στο Aspose.Cells ονομάζεται **ListObject**.
+Οι πίνακες του Excel αντιπροσωπεύονται από `ListObject`. Τα περισσότερα workbooks έχουν τουλάχιστον έναν πίνακα· θα πάρουμε τον πρώτο.
 
 ```csharp
-        // 3️⃣ Convert the data range A1:C4 into an Excel table
-        // The range string includes the header row.
-        int firstRow = 0;   // zero‑based index for row 1
-        int firstCol = 0;   // column A
-        int totalRows = 4;  // rows 1‑4
-        int totalCols = 3;  // columns A‑C
+        // Ensure the worksheet actually contains tables
+        if (ws.ListObjects.Count == 0)
+        {
+            Console.WriteLine("No tables found on the worksheet.");
+            return;
+        }
 
-        // Create the ListObject (table) and give it an initial name
-        ListObject table = sheet.ListObjects[sheet.ListObjects.Add(firstRow, firstCol, totalRows, totalCols, true)];
-        table.Name = "InitialTable";
+        // Retrieve the first table
+        ListObject table = ws.ListObjects[0];
 ```
 
-**Why this matters:** Ο πίνακας υπάρχει τώρα με το όνομα `InitialTable`. Η μετονομασία του δείχνει τη διαδικασία **how to rename table**.
+> **Edge case:** Αν χρειάζεται να μετονομάσετε έναν συγκεκριμένο πίνακα, κάντε επανάληψη στο `ws.ListObjects` και ταιριάξτε το `table.Name` ή τη διεύθυνση περιοχής.
 
-## Βήμα 4: Πώς να μετονομάσετε Excel table και να διαχειριστείτε συγκρούσεις
+### Βήμα 4 – **Assign Name to Table** (Change Excel Table Name)
 
-Η προσπάθεια να μετονομάσετε τον πίνακα σε `MyRange` θα συγκρουστεί με το named range που δημιουργήσαμε νωρίτερα. Ο παρακάτω κώδικας δείχνει το σωστό μοτίβο για την ανίχνευση και επίλυση της σύγκρουσης.
+Τώρα έρχεται το **set excel table name**. Επιλέξτε ένα περιγραφικό αναγνωριστικό—κάτι που να αντανακλά τα δεδομένα, π.χ. `"SalesData"`.
 
 ```csharp
-        // 4️⃣ Try to rename the table to "MyRange"
-        try
+        // New name you want to give the table
+        string newTableName = "SalesData";
+
+        // Check for naming conflicts (Excel tables must have unique names)
+        bool nameExists = false;
+        foreach (ListObject lo in ws.ListObjects)
         {
-            table.Name = "MyRange";   // This will raise an exception
-            Console.WriteLine("Table renamed successfully.");
-        }
-        catch (Exception ex)
-        {
-            // 5️⃣ Handle the name conflict gracefully
-            Console.WriteLine("Name conflict detected: " + ex.Message);
-
-            // Resolve by choosing a unique name
-            string safeName = GetUniqueTableName(workbook, "MyRange");
-            table.Name = safeName;
-            Console.WriteLine($"Table renamed to safe identifier: {safeName}");
-        }
-
-        // Save the workbook to verify the result
-        workbook.Save("RenamedTable.xlsx");
-    }
-
-    /// <summary>
-    /// Generates a unique table name that does not exist as a named range or another table.
-    /// </summary>
-    static string GetUniqueTableName(Workbook wb, string baseName)
-    {
-        int counter = 1;
-        string candidate = baseName + "_" + counter;
-
-        // Check against workbook names and existing table names
-        while (NameExists(wb, candidate))
-        {
-            counter++;
-            candidate = baseName + "_" + counter;
-        }
-        return candidate;
-    }
-
-    /// <summary>
-    /// Returns true if the identifier is already used as a named range or table name.
-    /// </summary>
-    static bool NameExists(Workbook wb, string name)
-    {
-        // Check named ranges
-        foreach (Name n in wb.Worksheets.Names)
-        {
-            if (string.Equals(n.TextToRefer, name, StringComparison.OrdinalIgnoreCase))
-                return true;
-        }
-
-        // Check existing tables
-        foreach (Worksheet ws in wb.Worksheets)
-        {
-            foreach (ListObject lo in ws.ListObjects)
+            if (lo.Name.Equals(newTableName, StringComparison.OrdinalIgnoreCase))
             {
-                if (string.Equals(lo.Name, name, StringComparison.OrdinalIgnoreCase))
-                    return true;
+                nameExists = true;
+                break;
             }
         }
-        return false;
+
+        if (nameExists)
+        {
+            Console.WriteLine($"A table named '{newTableName}' already exists. Choose a different name.");
+        }
+        else
+        {
+            table.Name = newTableName; // **set table name C#** in one line
+            Console.WriteLine($"Table renamed to: {table.Name}");
+        }
+```
+
+> **Why we check first:** Το Excel ρίχνει εξαίρεση αν προσπαθήσετε να ορίσετε διπλό όνομα. Ο έλεγχος ασφαλείας κάνει τον κώδικα αξιόπιστο για παραγωγικές διαδικασίες.
+
+### Βήμα 5 – Αποθήκευση και Επαλήθευση
+
+Τέλος, γράψτε το workbook ξανά στο δίσκο και, προαιρετικά, ανοίξτε το για να επιβεβαιώσετε τη μετονομασία.
+
+```csharp
+        // Save the modified workbook
+        string outputPath = @"C:\Data\SalesReport_Renamed.xlsx";
+        workbook.Save(outputPath);
+
+        Console.WriteLine($"Workbook saved as '{outputPath}'.");
     }
 }
 ```
 
-### Τι κάνει ο κώδικας
-
-| Βήμα | Δράση | Αιτία |
-|------|--------|--------|
-| **Δοκιμή μετονομασίας** | `table.Name = "MyRange"` | Δείχνει το σενάριο σύγκρουσης. |
-| **Πιάνετε εξαίρεση** | Εκτυπώνει το μήνυμα σύγκρουσης. | Σας παρέχει άμεση ανατροφοδότηση για το πρόβλημα. |
-| **Δημιουργία ασφαλούς ονόματος** | `GetUniqueTableName` προσθέτει αριθμητικό επίθημα μέχρι το όνομα να είναι ελεύθερο. | Εγγυάται ότι το νέο όνομα πίνακα **δεν** συγκρούεται με κανένα υπάρχον named range ή πίνακα. |
-| **Αποθήκευση workbook** | `workbook.Save("RenamedTable.xlsx")` | Διατηρεί τις αλλαγές ώστε να μπορείτε να ανοίξετε το αρχείο στο Excel και να επαληθεύσετε το αποτέλεσμα. |
-
-**Expected output** όταν εκτελείτε το πρόγραμμα:
+**Αναμενόμενη έξοδος στην κονσόλα (happy path):**
 
 ```
-Name conflict detected: A name with the same text already exists.
-Table renamed to safe identifier: MyRange_1
+Table renamed to: SalesData
+Workbook saved as 'C:\Data\SalesReport_Renamed.xlsx'.
 ```
 
-Ανοίγοντας το `RenamedTable.xlsx` εμφανίζεται ένας πίνακας με όνομα `MyRange_1` και ένα ξεχωριστό named range `MyRange` που δείχνει στο κελί A1.
+Αν προκύψει σύγκρουση, θα δείτε το μήνυμα προειδοποίησης αντί αυτού.
 
-## Γιατί συμβαίνει η σύγκρουση και βέλτιστες πρακτικές για rename excel table
+## Change Excel Table Name – Συνηθισμένες Παραλλαγές
 
-- Το Excel αποθηκεύει **named ranges** και **table names** στον ίδιο χώρο ονομάτων.  
-- Όταν προσπαθείτε να αναθέσετε ένα όνομα πίνακα που υπάρχει ήδη ως range, το Aspose.Cells ρίχνει ένα `CellException`.  
-- Η συνιστώμενη προσέγγιση είναι να **ελέγξετε πρώτα για υπάρχοντα ονόματα** (όπως φαίνεται στο `NameExists`) ή να χρησιμοποιήσετε μια σύμβαση ονομασίας που εγγυάται μοναδικότητα (π.χ., προσθέτοντας πρόθεμα `tbl_` στους πίνακες).  
+### Μετονομασία Πολλαπλών Πινάκων σε Ένα Φύλλο
 
-Η εφαρμογή αυτού του μοτίβου αποτρέπει σφάλματα χρόνου εκτέλεσης και κάνει την αυτοματοποίηση σας ανθεκτική.
+Αν το φύλλο σας περιέχει αρκετούς πίνακες, ίσως θέλετε να τους μετονομάσετε όλους βάσει μιας σύμβασης ονομασίας.
 
-## Πρόσθετες συμβουλές για εργασία με Aspose.Cells
+```csharp
+int counter = 1;
+foreach (ListObject lo in ws.ListObjects)
+{
+    string candidateName = $"Table_{counter}";
+    if (!ws.ListObjects.Any(t => t.Name.Equals(candidateName, StringComparison.OrdinalIgnoreCase)))
+    {
+        lo.Name = candidateName;
+        Console.WriteLine($"Renamed to {candidateName}");
+    }
+    counter++;
+}
+```
 
-- **Pro tip:** Χρησιμοποιήστε `Workbook.Worksheets.Names.Remove("MyRange")` εάν θέλετε σκόπιμα να αντικαταστήσετε το range με ένα όνομα πίνακα.  
-- **Watch out for case sensitivity:** Το Excel αντιμετωπίζει τα ονόματα χωρίς διάκριση πεζών‑κεφαλαίων· οι βοηθητικές μέθοδοι χρησιμοποιούν `OrdinalIgnoreCase` για να προσομοιώσουν τη συμπεριφορά του Excel.  
-- **Performance:** Εάν επεξεργάζεστε πολλά φύλλα εργασίας, αποθηκεύστε στην cache τη συλλογή ονομάτων αντί να επαναλαμβάνετε την επανάληψη.
+### Διαχείριση Σεναρίων Χωρίς Aspose
 
-## Πλήρες παράδειγμα σε ένα μπλοκ
+Αν χρησιμοποιείτε **Microsoft.Office.Interop.Excel** αντί για Aspose, η προσέγγιση είναι παρόμοια αλλά το API διαφέρει:
 
-Παρακάτω είναι το πλήρες πρόγραμμα που μπορείτε να αντιγράψετε‑επικολλήσετε σε ένα έργο κονσόλας. Περιλαμβάνει όλα τα βήματα από τη δημιουργία του workbook μέχρι την ασφαλή μετονομασία του πίνακα.
+```csharp
+Excel.ListObject lo = ws.ListObjects["Table1"];
+lo.Name = "SalesData";
+```
 
+Η έννοια του **assign name to table** παραμένει η ίδια: τροποποιείτε την ιδιότητα `Name` του αντικειμένου πίνακα.
 
+### Ορισμός Ονόματος Πίνακα Κατά τη Δημιουργία Νέου Πίνακα
 
-## Τι πρέπει να μάθετε στη συνέχεια;
+Όταν δημιουργείτε έναν πίνακα από το μηδέν, μπορείτε να ορίσετε αμέσως το όνομά του:
 
-Τα παρακάτω tutorials καλύπτουν στενά σχετικές θεματικές που βασίζονται στις τεχνικές που παρουσιάζονται σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη παραδείγματα κώδικα με βήμα‑βήμα εξηγήσεις για να σας βοηθήσει να κατακτήσετε πρόσθετες δυνατότητες API και να εξερευνήσετε εναλλακτικές προσεγγίσεις υλοποίησης στα δικά σας έργα.
+```csharp
+// Define the range for the new table
+CellArea area = new CellArea(0, 0, 4, 3); // A1:D5
+int index = ws.ListObjects.Add(area, true);
+ws.ListObjects[index].Name = "NewSalesTable";
+```
 
-- [Πώς να δημιουργήσετε Named Ranges περιορισμένα στο Workbook στο Excel χρησιμοποιώντας Aspose.Cells .NET](/cells/english/net/range-management/excel-workbook-scoped-named-ranges-aspose-cells-net/)
-- [Πώς να υλοποιήσετε τύπους Named Range σε .NET χρησιμοποιώντας Aspose.Cells για αυτοματοποίηση Excel](/cells/english/net/formulas-functions/implement-named-range-formulas-net-aspose-cells/)
-- [Πώς να προσθέσετε Slicers σε Excel Tables χρησιμοποιώντας Aspose.Cells για .NET: Ένας ολοκληρωμένος οδηγός](/cells/english/net/advanced-features/add-slicers-excel-aspose-cells-net/)
+## Εικονογραφική Παράσταση
+
+![Μετονομασία πίνακα Excel χρησιμοποιώντας κώδικα C# – how to rename table](/images/rename-excel-table-csharp.png)
+
+*Alt text:* **how to rename table** σε ένα βιβλίο εργασίας του Excel χρησιμοποιώντας C# και Aspose.Cells.
+
+## Συχνές Ερωτήσεις (FAQ)
+
+**Ε: Λειτουργεί αυτό με αρχεία .xls;**  
+Α: Ναι. Το Aspose.Cells υποστηρίζει τόσο `.xlsx` όσο και τα παλαιότερα `.xls`. Απλώς αλλάξτε την επέκταση του αρχείου στη διαδρομή.
+
+**Ε: Τι γίνεται αν το workbook είναι προστατευμένο με κωδικό;**  
+Α: Φορτώστε το με `new Workbook(inputPath, new LoadOptions(LoadFormat.Xlsx) { Password = "myPwd" })`.
+
+**Ε: Μπορώ να μετονομάσω έναν πίνακα που βρίσκεται σε κρυφό φύλλο;**  
+Α: Απόλυτα. Τα κρυφά φύλλα είναι ακόμα μέρος της συλλογής `Worksheets`; χρειάζεται μόνο να τα αναφέρετε με δείκτη ή όνομα.
+
+**Ε: Υπάρχει όριο στον αριθμό χαρακτήρων ενός ονόματος πίνακα;**  
+Α: Το Excel περιορίζει τα ονόματα πινάκων στα 255 χαρακτήρες και πρέπει να αρχίζουν με γράμμα ή κάτω παύλα.
+
+## Καλές Πρακτικές & Pro Tips
+
+- **Χρησιμοποιήστε περιγραφικά ονόματα**: `SalesData_Q1_2024` είναι πολύ πιο σαφές από `Table1`.  
+- **Αποφύγετε τα κενά**: Τα ονόματα πινάκων του Excel δεν επιτρέπουν κενά· χρησιμοποιήστε κάτω παύλες ή camelCase.  
+- **Επικυρώστε πριν την αποθήκευση**: Εκτελέστε έναν γρήγορο έλεγχο (`if (table.Name == newTableName)`) για να βεβαιωθείτε ότι η μετονομασία πέτυχε.  
+- **Έλεγχος έκδοσης**: Όταν αυτοματοποιείτε αναφορές, κρατήστε αντίγραφο του αρχικού workbook· οι τυχαίες μετονομασίες είναι δύσκολο να αναιρεθούν χωρίς εφεδρικό αντίγραφο.  
+- **Συμβουλή απόδοσης**: Αν επεξεργάζεστε δεκάδες workbooks, επαναχρησιμοποιήστε μια ενιαία παρουσία `Workbook` όπου είναι δυνατόν για να μειώσετε την κατανάλωση μνήμης.
+
+## Συμπέρασμα
+
+Καλύψαμε **πώς να μετονομάσετε πίνακα** στο Excel χρησιμοποιώντας C# από την αρχή μέχρι το τέλος. Φορτώνοντας το workbook, παίρνοντας το σωστό `Worksheet`, εντοπίζοντας το `ListObject` και στη συνέχεια **set table name C#** με μια απλή ανάθεση ιδιότητας, μπορείτε εύκολα να **change Excel table name** και **assign name to table** σε οποιαδήποτε αυτοματοποιημένη ροή εργασίας.  
+
+Δοκιμάστε το στις δικές σας αναφορές—ίσως μετονομάσετε έναν πίνακα “RawData” σε κάτι πιο φιλικό προς την επιχείρηση, ή δημιουργήστε ονόματα δυναμικά βάσει του τρέχοντος μήνα. Το μοτίβο κλιμακώνεται, είτε διαχειρίζεστε ένα μόνο φύλλο είτε μια ολόκληρη συλλογή workbooks.
+
+Αν βρήκατε αυτόν τον οδηγό χρήσιμο, εξερευνήστε σχετικά θέματα όπως **πώς να προσθέσετε νέο πίνακα**, **πώς να διαγράψετε πίνακα**, ή **πώς να μορφοποιήσετε στυλ πινάκων προγραμματιστικά**. Συνεχίστε να πειραματίζεστε, και καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

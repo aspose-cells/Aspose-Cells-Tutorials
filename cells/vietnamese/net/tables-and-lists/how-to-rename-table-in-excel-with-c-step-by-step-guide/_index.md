@@ -1,62 +1,27 @@
 ---
 category: general
-date: 2026-08-11
-description: Cách đổi tên bảng trong Excel bằng C# sử dụng Aspose.Cells. Học cách
-  tạo workbook Excel, thêm phạm vi có tên và tránh xung đột khi đổi tên.
+date: 2026-03-18
+description: Tìm hiểu cách đổi tên bảng trong Excel bằng C#. Hướng dẫn này chỉ cách
+  thay đổi tên bảng Excel, gán tên cho bảng, thiết lập tên bảng Excel và đặt tên bảng
+  bằng C# trong vài phút.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - how to rename table
-- create excel workbook
-- add named range
-- how to add range
-- rename excel table
+- change excel table name
+- assign name to table
+- set excel table name
+- set table name c#
 language: vi
-lastmod: 2026-08-11
-og_description: Cách đổi tên bảng trong Excel bằng C# sử dụng Aspose.Cells. Hướng
-  dẫn này chỉ cho bạn cách tạo workbook Excel, thêm phạm vi có tên và đổi tên bảng
-  Excel một cách an toàn.
-og_image_alt: Screenshot of C# code that renames an Excel table
-og_title: Cách đổi tên bảng trong Excel bằng C# – hướng dẫn lập trình đầy đủ
-schemas:
-- author: Aspose
-  dateModified: '2026-08-11'
-  description: How to rename table in Excel with C# using Aspose.Cells. Learn to create
-    Excel workbook, add named range, and avoid rename conflicts.
-  headline: How to rename table in Excel with C# – step‑by‑step guide
-  type: TechArticle
-- description: How to rename table in Excel with C# using Aspose.Cells. Learn to create
-    Excel workbook, add named range, and avoid rename conflicts.
-  name: How to rename table in Excel with C# – step‑by‑step guide
-  steps:
-  - name: '**Create Excel workbook** – instantiate a `Workbook` and add some sample
-      data.'
-    text: '**Create Excel workbook** – instantiate a `Workbook` and add some sample
-      data.'
-  - name: '**Add a named range** – use `Worksheets.Names.Add` to create a range called
-      `MyRange`.'
-    text: '**Add a named range** – use `Worksheets.Names.Add` to create a range called
-      `MyRange`.'
-  - name: '**Create an Excel table (ListObject)** – convert the data into a table
-      so we have something to rename.'
-    text: '**Create an Excel table (ListObject)** – convert the data into a table
-      so we have something to rename.'
-  - name: '**Rename the table** – attempt to set the table’s `Name` property to the
-      same identifier as the named range.'
-    text: '**Rename the table** – attempt to set the table’s `Name` property to the
-      same identifier as the named range.'
-  - name: '**Handle name conflicts** – catch the exception, explain why it occurs,
-      and show a safe rename strategy.'
-    text: '**Handle name conflicts** – catch the exception, explain why it occurs,
-      and show a safe rename strategy.'
-  type: HowTo
+og_description: Cách đổi tên bảng trong Excel bằng C#. Theo hướng dẫn ngắn gọn này
+  để thay đổi tên bảng Excel, gán tên cho bảng và thiết lập tên bảng trong C# một
+  cách an toàn.
+og_title: Cách Đổi Tên Bảng trong Excel bằng C# – Hướng Dẫn Nhanh
 tags:
-- Excel
 - C#
+- Excel
 - Aspose.Cells
 - Automation
-title: Cách đổi tên bảng trong Excel bằng C# – hướng dẫn từng bước
+title: Cách Đổi Tên Bảng trong Excel bằng C# – Hướng Dẫn Từng Bước
 url: /vi/net/tables-and-lists/how-to-rename-table-in-excel-with-c-step-by-step-guide/
 ---
 
@@ -64,213 +29,229 @@ url: /vi/net/tables-and-lists/how-to-rename-table-in-excel-with-c-step-by-step-g
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách đổi tên bảng trong Excel bằng C# – hướng dẫn chi tiết
+# Cách Đổi Tên Bảng trong Excel bằng C# – Hướng Dẫn Từng Bước
 
-Nếu bạn cần **đổi tên bảng** trong một tệp Excel một cách lập trình, hướng dẫn này sẽ chỉ cho bạn cách thực hiện chính xác bằng Aspose.Cells cho .NET. Bạn sẽ thấy cách **tạo workbook Excel**, định nghĩa một **named range**, và đổi tên một bảng Excel hiện có mà không gây xung đột tên.
+Bạn đã bao giờ tự hỏi **cách đổi tên bảng** trong một workbook Excel một cách lập trình chưa? Có thể bạn đang tự động hoá báo cáo hàng tháng và tên mặc định “Table1” không còn phù hợp. Tin tốt là gì? Đổi tên bảng trở nên vô cùng dễ dàng khi sử dụng C# và thư viện Aspose.Cells.  
 
-Giải pháp này hoạt động với bất kỳ dự án .NET nào nhắm tới .NET 6 trở lên và chỉ yêu cầu gói NuGet Aspose.Cells. Khi hoàn thành, bạn có thể đổi tên bảng Excel một cách an toàn và hiểu vì sao xung đột có thể xảy ra khi tên bảng trùng với một named range đã định nghĩa.
+Trong tutorial này chúng ta sẽ đi qua mọi thứ bạn cần: từ việc tải workbook, xác định ListObject đúng, đến **thay đổi tên bảng Excel** một cách an toàn. Khi kết thúc, bạn sẽ có thể **gán tên cho bảng**, **đặt tên bảng Excel**, và thậm chí **đặt tên bảng C#** trong một phương thức sạch sẽ.
 
 ## Yêu cầu trước
 
-- .NET 6 SDK hoặc mới hơn đã được cài đặt  
-- Visual Studio 2022 (hoặc bất kỳ IDE C# nào)  
-- Gói Aspose.Cells cho .NET (`dotnet add package Aspose.Cells`)  
+- .NET 6.0 hoặc mới hơn (mã cũng chạy trên .NET Framework 4.7+)  
+- Aspose.Cells for .NET (bản dùng thử miễn phí hoặc bản có giấy phép) – `Install-Package Aspose.Cells`  
+- Kiến thức cơ bản về cú pháp C# và Visual Studio (hoặc bất kỳ IDE nào bạn thích)  
 
-Không cần bất kỳ assembly interop Excel nào khác vì Aspose.Cells hoạt động hoàn toàn trong bộ nhớ.
+Nếu đã có những thứ trên, hãy bắt đầu.
 
-## Tổng quan về giải pháp
+## Tổng quan về Giải pháp
 
-1. **Tạo workbook Excel** – khởi tạo một `Workbook` và thêm một số dữ liệu mẫu.  
-2. **Thêm named range** – sử dụng `Worksheets.Names.Add` để tạo một range có tên `MyRange`.  
-3. **Tạo bảng Excel (ListObject)** – chuyển dữ liệu thành một bảng để chúng ta có gì để đổi tên.  
-4. **Đổi tên bảng** – cố gắng đặt thuộc tính `Name` của bảng thành cùng một định danh với named range.  
-5. **Xử lý xung đột tên** – bắt ngoại lệ, giải thích nguyên nhân và đưa ra chiến lược đổi tên an toàn.
+Ý tưởng cốt lõi rất đơn giản:
 
-Mỗi bước sẽ được giải thích chi tiết bên dưới.
+1. Tải workbook Excel.  
+2. Lấy worksheet chứa bảng.  
+3. Lấy `ListObject` (đối tượng bảng Excel).  
+4. **Đặt tên bảng** bằng cách gán cho `ListObject.Name`.  
+5. Lưu workbook và xác nhận thay đổi.
 
-## Bước 1: Cách tạo workbook Excel và điền dữ liệu
+Dưới đây là mã đầy đủ, có thể chạy ngay, cùng một vài kịch bản “nếu‑thì” thường gây rắc rối cho các nhà phát triển.
 
-Tạo workbook là nền tảng cho bất kỳ nhiệm vụ tự động hóa Excel nào. Lớp `Workbook` đại diện cho toàn bộ tệp trong bộ nhớ.
+---
+
+## Cách Đổi Tên Bảng trong Excel Sử Dụng C# (Từ khóa chính trong H2)
+
+### Bước 1 – Mở Workbook
+
+Đầu tiên, tạo một thể hiện `Workbook`. Bạn có thể tải một file hiện có hoặc bắt đầu từ đầu.
 
 ```csharp
-using System;
 using Aspose.Cells;
+using System;
 
-class Program
+class ExcelTableRenamer
 {
     static void Main()
     {
-        // 1️⃣ Create a new workbook
-        Workbook workbook = new Workbook();
-
-        // Access the first worksheet (index 0)
-        Worksheet sheet = workbook.Worksheets[0];
-
-        // Fill some sample data in cells A1:C4
-        sheet.Cells["A1"].PutValue("ID");
-        sheet.Cells["B1"].PutValue("Name");
-        sheet.Cells["C1"].PutValue("Score");
-
-        sheet.Cells["A2"].PutValue(1);
-        sheet.Cells["B2"].PutValue("Alice");
-        sheet.Cells["C2"].PutValue(85);
-
-        sheet.Cells["A3"].PutValue(2);
-        sheet.Cells["B3"].PutValue("Bob");
-        sheet.Cells["C3"].PutValue(92);
-
-        sheet.Cells["A4"].PutValue(3);
-        sheet.Cells["B4"].PutValue("Carol");
-        sheet.Cells["C4"].PutValue(78);
+        // Load an existing workbook (replace with your path)
+        string inputPath = @"C:\Data\SalesReport.xlsx";
+        Workbook workbook = new Workbook(inputPath);
 ```
 
-**Tại sao điều này quan trọng:** Workbook phải chứa dữ liệu trước khi bạn có thể tạo bảng. Aspose.Cells lưu trữ dữ liệu trong một collection có chỉ số bắt đầu từ 0, vì vậy `Worksheets[0]` luôn chỉ tới sheet đầu tiên.
+> **Tại sao điều này quan trọng:** Việc tải workbook cho phép bạn truy cập vào các collection nội bộ (`Worksheets`, `ListObjects`, …) mà bạn sẽ thao tác sau này.
 
-## Bước 2: Cách thêm named range vào worksheet
+### Bước 2 – Lấy Worksheet Mục Tiêu
 
-Một **named range** cho phép bạn tham chiếu tới một ô hoặc một vùng ô bằng một định danh thân thiện. Thêm range rất đơn giản:
+Nếu bạn biết tên sheet, hãy dùng nó; nếu không, lấy sheet đầu tiên.
 
 ```csharp
-        // 2️⃣ Define a named range called "MyRange" that points to cell A1
-        // The range string follows Excel notation: SheetName!$A$1
-        workbook.Worksheets.Names.Add("MyRange", "Sheet1!$A$1");
+        // Option A: by name
+        // Worksheet ws = workbook.Worksheets["Sheet1"];
+
+        // Option B: first worksheet (most common in automated reports)
+        Worksheet ws = workbook.Worksheets[0];
 ```
 
-**Tại sao điều này quan trọng:** Named range được lưu trong collection tên toàn cục của workbook. Nếu sau này một bảng nhận cùng một tên, Aspose.Cells sẽ ném ra `CellException` vì Excel không cho phép tên trùng lặp.
+> **Mẹo chuyên nghiệp:** Khi làm việc với nhiều sheet, luôn kiểm tra `ws` không phải là `null` để tránh `NullReferenceException`.
 
-## Bước 3: Cách thêm bảng Excel (ListObject)
+### Bước 3 – Xác Định Bảng (ListObject)
 
-Bảng cung cấp khả năng xử lý dữ liệu có cấu trúc, lọc và định dạng. Trong Aspose.Cells, nó được gọi là **ListObject**.
+Các bảng Excel được biểu diễn bằng `ListObject`. Hầu hết các workbook đều có ít nhất một bảng; chúng ta sẽ lấy bảng đầu tiên.
 
 ```csharp
-        // 3️⃣ Convert the data range A1:C4 into an Excel table
-        // The range string includes the header row.
-        int firstRow = 0;   // zero‑based index for row 1
-        int firstCol = 0;   // column A
-        int totalRows = 4;  // rows 1‑4
-        int totalCols = 3;  // columns A‑C
+        // Ensure the worksheet actually contains tables
+        if (ws.ListObjects.Count == 0)
+        {
+            Console.WriteLine("No tables found on the worksheet.");
+            return;
+        }
 
-        // Create the ListObject (table) and give it an initial name
-        ListObject table = sheet.ListObjects[sheet.ListObjects.Add(firstRow, firstCol, totalRows, totalCols, true)];
-        table.Name = "InitialTable";
+        // Retrieve the first table
+        ListObject table = ws.ListObjects[0];
 ```
 
-**Tại sao điều này quan trọng:** Bây giờ bảng tồn tại với tên `InitialTable`. Đổi tên nó sẽ minh họa quy trình **đổi tên bảng**.
+> **Trường hợp đặc biệt:** Nếu bạn cần đổi tên một bảng cụ thể, hãy lặp qua `ws.ListObjects` và so sánh `table.Name` hoặc địa chỉ vùng.
 
-## Bước 4: Cách đổi tên bảng Excel và xử lý xung đột
+### Bước 4 – **Gán Tên Cho Bảng** (Thay Đổi Tên Bảng Excel)
 
-Cố gắng đổi tên bảng thành `MyRange` sẽ xung đột với named range chúng ta đã tạo ở bước trước. Đoạn code dưới đây cho thấy mẫu đúng để phát hiện và giải quyết xung đột.
+Bây giờ là phần **đặt tên bảng Excel**. Chọn một định danh có ý nghĩa—ví dụ `"SalesData"` để phản ánh dữ liệu.
 
 ```csharp
-        // 4️⃣ Try to rename the table to "MyRange"
-        try
+        // New name you want to give the table
+        string newTableName = "SalesData";
+
+        // Check for naming conflicts (Excel tables must have unique names)
+        bool nameExists = false;
+        foreach (ListObject lo in ws.ListObjects)
         {
-            table.Name = "MyRange";   // This will raise an exception
-            Console.WriteLine("Table renamed successfully.");
-        }
-        catch (Exception ex)
-        {
-            // 5️⃣ Handle the name conflict gracefully
-            Console.WriteLine("Name conflict detected: " + ex.Message);
-
-            // Resolve by choosing a unique name
-            string safeName = GetUniqueTableName(workbook, "MyRange");
-            table.Name = safeName;
-            Console.WriteLine($"Table renamed to safe identifier: {safeName}");
-        }
-
-        // Save the workbook to verify the result
-        workbook.Save("RenamedTable.xlsx");
-    }
-
-    /// <summary>
-    /// Generates a unique table name that does not exist as a named range or another table.
-    /// </summary>
-    static string GetUniqueTableName(Workbook wb, string baseName)
-    {
-        int counter = 1;
-        string candidate = baseName + "_" + counter;
-
-        // Check against workbook names and existing table names
-        while (NameExists(wb, candidate))
-        {
-            counter++;
-            candidate = baseName + "_" + counter;
-        }
-        return candidate;
-    }
-
-    /// <summary>
-    /// Returns true if the identifier is already used as a named range or table name.
-    /// </summary>
-    static bool NameExists(Workbook wb, string name)
-    {
-        // Check named ranges
-        foreach (Name n in wb.Worksheets.Names)
-        {
-            if (string.Equals(n.TextToRefer, name, StringComparison.OrdinalIgnoreCase))
-                return true;
-        }
-
-        // Check existing tables
-        foreach (Worksheet ws in wb.Worksheets)
-        {
-            foreach (ListObject lo in ws.ListObjects)
+            if (lo.Name.Equals(newTableName, StringComparison.OrdinalIgnoreCase))
             {
-                if (string.Equals(lo.Name, name, StringComparison.OrdinalIgnoreCase))
-                    return true;
+                nameExists = true;
+                break;
             }
         }
-        return false;
+
+        if (nameExists)
+        {
+            Console.WriteLine($"A table named '{newTableName}' already exists. Choose a different name.");
+        }
+        else
+        {
+            table.Name = newTableName; // **set table name C#** in one line
+            Console.WriteLine($"Table renamed to: {table.Name}");
+        }
+```
+
+> **Tại sao phải kiểm tra trước:** Excel sẽ ném ngoại lệ nếu bạn gán một tên đã tồn tại. Kiểm tra an toàn giúp mã ổn định trong môi trường production.
+
+### Bước 5 – Lưu và Xác Nhận
+
+Cuối cùng, ghi workbook lại vào đĩa và tùy chọn mở nó để xác nhận việc đổi tên.
+
+```csharp
+        // Save the modified workbook
+        string outputPath = @"C:\Data\SalesReport_Renamed.xlsx";
+        workbook.Save(outputPath);
+
+        Console.WriteLine($"Workbook saved as '{outputPath}'.");
     }
 }
 ```
 
-### Những gì code thực hiện
-
-| Bước | Hành động | Lý do |
-|------|-----------|-------|
-| **Thử đổi tên** | `table.Name = "MyRange"` | Minh họa kịch bản xung đột. |
-| **Bắt ngoại lệ** | In ra thông báo xung đột. | Cung cấp phản hồi ngay lập tức về vấn đề. |
-| **Tạo tên an toàn** | `GetUniqueTableName` thêm hậu tố số cho đến khi tên còn trống. | Đảm bảo tên bảng mới **không** trùng với bất kỳ named range hoặc bảng nào hiện có. |
-| **Lưu workbook** | `workbook.Save("RenamedTable.xlsx")` | Ghi lại các thay đổi để bạn có thể mở tệp trong Excel và kiểm tra kết quả. |
-
-**Kết quả mong đợi** khi chạy chương trình:
+**Kết quả console mong đợi (đường đi suôn sẻ):**
 
 ```
-Name conflict detected: A name with the same text already exists.
-Table renamed to safe identifier: MyRange_1
+Table renamed to: SalesData
+Workbook saved as 'C:\Data\SalesReport_Renamed.xlsx'.
 ```
 
-Mở `RenamedTable.xlsx` sẽ hiển thị một bảng có tên `MyRange_1` và một named range riêng biệt `MyRange` trỏ tới ô A1.
+Nếu xảy ra xung đột, bạn sẽ thấy thông báo cảnh báo thay vì.
 
-## Tại sao xung đột xảy ra và các thực hành tốt nhất khi đổi tên bảng Excel
+---
 
-- Excel lưu **named range** và **tên bảng** trong cùng một không gian tên.  
-- Khi bạn cố gắng gán tên bảng đã tồn tại dưới dạng range, Aspose.Cells sẽ ném ra `CellException`.  
-- Cách tiếp cận được khuyến nghị là **kiểm tra tên đã tồn tại trước** (như trong `NameExists`) hoặc sử dụng quy ước đặt tên đảm bảo tính duy nhất (ví dụ: đặt tiền tố `tbl_` cho các bảng).  
+## Đổi Tên Bảng Excel – Các Biến Thể Thông Thường
 
-Áp dụng mẫu này sẽ ngăn lỗi thời gian chạy và làm cho tự động hóa của bạn trở nên vững chắc hơn.
+### Đổi Tên Nhiều Bảng Trong Một Sheet
 
-## Mẹo bổ sung khi làm việc với Aspose.Cells
+Nếu worksheet của bạn chứa nhiều bảng, bạn có thể muốn đổi tên tất cả chúng theo một quy ước đặt tên.
 
-- **Pro tip:** Dùng `Workbook.Worksheets.Names.Remove("MyRange")` nếu bạn muốn thay thế range bằng tên bảng.  
-- **Cẩn thận với độ nhạy chữ hoa/thường:** Excel xử lý tên không phân biệt chữ hoa/thường; các phương thức trợ giúp sử dụng `OrdinalIgnoreCase` để mô phỏng hành vi của Excel.  
-- **Hiệu năng:** Nếu bạn xử lý nhiều worksheet, hãy cache collection tên thay vì lặp lại việc duyệt liên tục.
+```csharp
+int counter = 1;
+foreach (ListObject lo in ws.ListObjects)
+{
+    string candidateName = $"Table_{counter}";
+    if (!ws.ListObjects.Any(t => t.Name.Equals(candidateName, StringComparison.OrdinalIgnoreCase)))
+    {
+        lo.Name = candidateName;
+        Console.WriteLine($"Renamed to {candidateName}");
+    }
+    counter++;
+}
+```
 
-## Ví dụ hoàn chỉnh trong một khối
+### Xử Lý Các Trường Hợp Không Dùng Aspose
 
-Dưới đây là chương trình đầy đủ mà bạn có thể sao chép‑dán vào một dự án console. Nó bao gồm tất cả các bước từ tạo workbook đến đổi tên bảng một cách an toàn.
+Nếu bạn đang dùng **Microsoft.Office.Interop.Excel** thay vì Aspose, cách tiếp cận tương tự nhưng API sẽ khác:
 
+```csharp
+Excel.ListObject lo = ws.ListObjects["Table1"];
+lo.Name = "SalesData";
+```
 
+Khái niệm **gán tên cho bảng** vẫn giữ nguyên: bạn sửa thuộc tính `Name` của đối tượng bảng.
 
-## Bạn nên học gì tiếp theo?
+### Đặt Tên Bảng Khi Tạo Bảng Mới
 
-Các hướng dẫn sau đây liên quan chặt chẽ và mở rộng các kỹ thuật được trình bày trong bài viết này. Mỗi tài nguyên đều bao gồm mã nguồn đầy đủ và giải thích từng bước để giúp bạn nắm vững các tính năng API bổ sung và khám phá các cách triển khai thay thế trong dự án của mình.
+Khi tạo một bảng từ đầu, bạn có thể đặt tên ngay lập tức:
 
-- [How to Create Workbook Scoped Named Ranges in Excel Using Aspose.Cells .NET](/cells/english/net/range-management/excel-workbook-scoped-named-ranges-aspose-cells-net/)
-- [How to Implement Named Range Formulas in .NET using Aspose.Cells for Excel Automation](/cells/english/net/formulas-functions/implement-named-range-formulas-net-aspose-cells/)
-- [How to Add Slicers to Excel Tables Using Aspose.Cells for .NET: A Comprehensive Guide](/cells/english/net/advanced-features/add-slicers-excel-aspose-cells-net/)
+```csharp
+// Define the range for the new table
+CellArea area = new CellArea(0, 0, 4, 3); // A1:D5
+int index = ws.ListObjects.Add(area, true);
+ws.ListObjects[index].Name = "NewSalesTable";
+```
+
+---
+
+## Hình Minh Họa
+
+![Rename Excel table using C# code example – how to rename table](/images/rename-excel-table-csharp.png)
+
+*Alt text:* **cách đổi tên bảng** trong một workbook Excel bằng C# và Aspose.Cells.
+
+---
+
+## Câu Hỏi Thường Gặp (FAQ)
+
+**H: Điều này có hoạt động với file .xls không?**  
+Đ: Có. Aspose.Cells hỗ trợ cả `.xlsx` và `.xls` cổ điển. Chỉ cần thay đổi phần mở rộng file trong đường dẫn.
+
+**H: Nếu workbook được bảo vệ bằng mật khẩu thì sao?**  
+Đ: Tải nó bằng `new Workbook(inputPath, new LoadOptions(LoadFormat.Xlsx) { Password = "myPwd" })`.
+
+**H: Tôi có thể đổi tên bảng nằm trong worksheet ẩn không?**  
+Đ: Chắc chắn. Các sheet ẩn vẫn là một phần của collection `Worksheets`; bạn chỉ cần tham chiếu chúng bằng chỉ mục hoặc tên.
+
+**H: Có giới hạn độ dài tên bảng không?**  
+Đ: Excel giới hạn tên bảng tối đa 255 ký tự và phải bắt đầu bằng chữ cái hoặc dấu gạch dưới.
+
+---
+
+## Các Thực Hành Tốt Nhất & Mẹo Chuyên Gia
+
+- **Sử dụng tên có ý nghĩa**: `SalesData_Q1_2024` rõ ràng hơn rất nhiều so với `Table1`.  
+- **Tránh khoảng trắng**: Tên bảng Excel không được chứa khoảng trắng; dùng dấu gạch dưới hoặc camelCase.  
+- **Kiểm tra trước khi lưu**: Thực hiện kiểm tra nhanh (`if (table.Name == newTableName)`) để chắc chắn việc đổi tên đã thành công.  
+- **Kiểm soát phiên bản**: Khi tự động hoá báo cáo, hãy giữ một bản sao của workbook gốc; việc đổi tên nhầm có thể khó khôi phục nếu không có backup.  
+- **Mẹo hiệu năng**: Nếu bạn xử lý hàng chục workbook, hãy tái sử dụng một thể hiện `Workbook` duy nhất khi có thể để giảm tải bộ nhớ.
+
+---
+
+## Kết Luận
+
+Chúng ta đã đi qua **cách đổi tên bảng** trong Excel bằng C# từ đầu đến cuối. Bằng cách tải workbook, lấy `Worksheet` đúng, xác định `ListObject`, và sau đó **đặt tên bảng C#** bằng một lần gán thuộc tính, bạn có thể dễ dàng **thay đổi tên bảng Excel** và **gán tên cho bảng** trong bất kỳ quy trình tự động nào.  
+
+Hãy thử áp dụng vào các báo cáo của bạn—có thể đổi tên bảng “RawData” thành một tên thân thiện hơn với doanh nghiệp, hoặc tạo tên động dựa trên tháng hiện tại. Mẫu này có thể mở rộng, dù bạn chỉ xử lý một sheet hay toàn bộ bộ sưu tập workbook.
+
+Nếu hướng dẫn này hữu ích, hãy khám phá các chủ đề liên quan như **cách thêm bảng mới**, **cách xóa bảng**, hoặc **cách định dạng kiểu bảng bằng lập trình**. Tiếp tục thử nghiệm, và chúc bạn lập trình vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

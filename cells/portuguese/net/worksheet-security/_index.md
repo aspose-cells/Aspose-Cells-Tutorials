@@ -45,6 +45,9 @@ Aprenda a criar intervalos editáveis em planilhas do Excel usando o Aspose.Cell
 Aprenda a proteger células e intervalos em uma planilha do Excel usando o Aspose.Cells para .NET. Siga este guia passo a passo para proteger suas planilhas.
 ### [Proteja a planilha inteira com senha usando Aspose.Cells](./protect-worksheet-password/)
 Aprenda a proteger suas planilhas do Excel com segurança por senha usando o Aspose.Cells para .NET neste tutorial passo a passo abrangente.
+### [Adicionar senha ao Excel – Guia completo de proteção de planilha](./add-password-to-excel-complete-sheet-protection-guide/)
+Aprenda a proteger toda a planilha do Excel com senha usando Aspose.Cells para .NET neste guia passo a passo completo.
+
 ### [Proteger colunas na planilha usando Aspose.Cells](./protect-columns/)
 Aprenda a proteger colunas no Excel usando o Aspose.Cells para .NET. Siga este tutorial detalhado para bloquear colunas em planilhas do Excel de forma eficaz.
 ### [Proteja células específicas na planilha usando Aspose.Cells](./protect-specific-cells/)

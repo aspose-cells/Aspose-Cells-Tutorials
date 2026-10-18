@@ -1,0 +1,7 @@
+Title: How to export Excel sheet to PowerPoint with Aspose.Cells in Java
+Slug: how-to-export-excel-sheet-to-powerpoint-with-aspose-cells-in
+Category: excel-import-export
+ProcessedDate: 2026-09-28T03:33:48.344641
+SourceRepo: AI Search API
+Keywords: how to export excel sheet to powerpoint, convert excel workbook to powerpoint presentation
+PRNumber: 172

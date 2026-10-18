@@ -23,14 +23,6 @@ title: Excel을 HTML로 내보내기 – C#에서 고정된 행 유지
 url: /ko/net/exporting-excel-to-html-with-advanced-options/export-excel-to-html-preserve-frozen-rows-in-c/
 ---
 
-them unchanged.
-
-Now produce final content with all translations.
-
-Check for any missed text: At top there are three opening shortcodes, then content, then closing shortcodes. Ensure they are placed correctly.
-
-Let's assemble.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

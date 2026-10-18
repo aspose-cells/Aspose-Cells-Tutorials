@@ -21,7 +21,7 @@
 
 {{< tutorial-card link="./pivot-table-save-in-ods/" title="บันทึกตารางสรุปข้อมูลเป็น ODS ใน Aspose.Cells" imgSrc="./pivot-table-save-in-ods/images/thumb.png" >}}
 
-{{< tutorial-card link="./copy-pivot-table-in-c-with-aspose-cells-complete-guide/" title="คัดลอกตารางสรุปข้อมูลใน C# ด้วย Aspose.Cells – คู่มือเต็ม" imgSrc="./copy-pivot-table-in-c-with-aspose-cells-complete-guide/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-copy-pivot-table-in-c-complete-programming-guide/" title="วิธีคัดลอก Pivot Table ใน C# – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์" imgSrc="./how-to-copy-pivot-table-in-c-complete-programming-guide/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

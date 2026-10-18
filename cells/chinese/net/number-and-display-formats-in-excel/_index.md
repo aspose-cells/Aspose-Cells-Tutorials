@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel 中的数字和显示格式
@@ -32,13 +30,28 @@
 使用 Aspose.Cells for .NET 自动设置 Excel 中的数字格式。了解如何以编程方式应用日期、百分比和货币格式。
 ### [使用用户定义数字自定义显示格式](./customizing-display-formats-with-user-defined-numbers/)
 学习如何使用 Aspose.Cells for .NET 自定义显示格式。使用本分步指南格式化日期、百分比和货币。
+### [如何导出带格式的 Excel – 保留数字格式](./how-to-export-excel-with-formatting-preserve-number-format/)
+使用 Aspose.Cells for .NET 导出 Excel 时保持原有数字格式，确保导出文件与源文件一致。
+### [在 C# 中将日期时间格式化为 ISO – 完整指南](./format-datetime-to-iso-in-c-complete-guide/)
+使用 Aspose.Cells for .NET 在 C# 中将日期时间转换为 ISO 8601 格式的完整指南。
+
+
+
+
+
+
+
+
+### [在网格列中格式化货币 – 步骤指南](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
+使用 Aspose.Cells for .NET，逐步学习在网格列中设置货币格式的技巧。
+### [在 Excel 中应用数字格式 – 列格式化的逐步指南](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
+使用 Aspose.Cells for .NET，逐步学习如何在 Excel 中为列应用数字格式，实现精准的数据展示。
 ### [在 C# 中四舍五入 Excel 数字 – 完整编程指南](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
 使用 Aspose.Cells for .NET 在 C# 中实现 Excel 数值的四舍五入，提供完整的编程示例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,62 +1,28 @@
 ---
 category: general
-date: 2026-08-11
-description: Cómo renombrar una tabla en Excel con C# usando Aspose.Cells. Aprende
-  a crear un libro de Excel, agregar un rango con nombre y evitar conflictos al renombrar.
+date: 2026-03-18
+description: Aprende cómo renombrar una tabla en Excel usando C#. Este tutorial muestra
+  cómo cambiar el nombre de una tabla de Excel, asignar un nombre a la tabla, establecer
+  el nombre de la tabla en Excel y establecer el nombre de la tabla con C# en pocos
+  minutos.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - how to rename table
-- create excel workbook
-- add named range
-- how to add range
-- rename excel table
+- change excel table name
+- assign name to table
+- set excel table name
+- set table name c#
 language: es
-lastmod: 2026-08-11
-og_description: Cómo renombrar una tabla en Excel con C# usando Aspose.Cells. Esta
-  guía muestra cómo crear un libro de Excel, agregar un rango con nombre y renombrar
-  de forma segura una tabla de Excel.
-og_image_alt: Screenshot of C# code that renames an Excel table
-og_title: Cómo renombrar una tabla en Excel con C# – tutorial completo de programación
-schemas:
-- author: Aspose
-  dateModified: '2026-08-11'
-  description: How to rename table in Excel with C# using Aspose.Cells. Learn to create
-    Excel workbook, add named range, and avoid rename conflicts.
-  headline: How to rename table in Excel with C# – step‑by‑step guide
-  type: TechArticle
-- description: How to rename table in Excel with C# using Aspose.Cells. Learn to create
-    Excel workbook, add named range, and avoid rename conflicts.
-  name: How to rename table in Excel with C# – step‑by‑step guide
-  steps:
-  - name: '**Create Excel workbook** – instantiate a `Workbook` and add some sample
-      data.'
-    text: '**Create Excel workbook** – instantiate a `Workbook` and add some sample
-      data.'
-  - name: '**Add a named range** – use `Worksheets.Names.Add` to create a range called
-      `MyRange`.'
-    text: '**Add a named range** – use `Worksheets.Names.Add` to create a range called
-      `MyRange`.'
-  - name: '**Create an Excel table (ListObject)** – convert the data into a table
-      so we have something to rename.'
-    text: '**Create an Excel table (ListObject)** – convert the data into a table
-      so we have something to rename.'
-  - name: '**Rename the table** – attempt to set the table’s `Name` property to the
-      same identifier as the named range.'
-    text: '**Rename the table** – attempt to set the table’s `Name` property to the
-      same identifier as the named range.'
-  - name: '**Handle name conflicts** – catch the exception, explain why it occurs,
-      and show a safe rename strategy.'
-    text: '**Handle name conflicts** – catch the exception, explain why it occurs,
-      and show a safe rename strategy.'
-  type: HowTo
+og_description: Cómo renombrar una tabla en Excel usando C#. Sigue esta guía concisa
+  para cambiar el nombre de la tabla de Excel, asignar un nombre a la tabla y establecer
+  el nombre de la tabla en C# de forma segura.
+og_title: Cómo renombrar una tabla en Excel con C# – Guía rápida
 tags:
-- Excel
 - C#
+- Excel
 - Aspose.Cells
 - Automation
-title: Cómo renombrar una tabla en Excel con C# – guía paso a paso
+title: Cómo renombrar una tabla en Excel con C# – Guía paso a paso
 url: /es/net/tables-and-lists/how-to-rename-table-in-excel-with-c-step-by-step-guide/
 ---
 
@@ -64,213 +30,219 @@ url: /es/net/tables-and-lists/how-to-rename-table-in-excel-with-c-step-by-step-g
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cómo renombrar una tabla en Excel con C# – guía paso a paso
+# Cómo renombrar una tabla en Excel con C# – Guía paso a paso
 
-Si necesitas **renombrar una tabla** en un archivo Excel de forma programática, este tutorial te muestra el enfoque exacto usando Aspose.Cells para .NET. Verás cómo **crear un libro de Excel**, definir un **rango con nombre**, y renombrar una tabla de Excel existente sin provocar un conflicto de nombres.
+¿Alguna vez te has preguntado **cómo renombrar una tabla** en un libro de Excel de forma programática? Tal vez estés automatizando un informe mensual y el “Table1” predeterminado simplemente no sirve. ¿La buena noticia? Renombrar una tabla es pan comido cuando usas C# y la biblioteca Aspose.Cells.  
 
-La solución funciona para cualquier proyecto .NET que apunte a .NET 6 o posterior y solo requiere el paquete NuGet Aspose.Cells. Al final de la guía podrás renombrar una tabla de Excel de forma segura y entender por qué puede surgir un conflicto cuando el nombre de una tabla coincide con un rango con nombre.
+En este tutorial recorreremos todo lo que necesitas: desde cargar el libro, localizar el ListObject correcto, hasta **cambiar el nombre de la tabla de Excel** de forma segura. Al final podrás **asignar nombre a la tabla**, **establecer el nombre de la tabla de Excel**, e incluso **establecer el nombre de la tabla C#** en un único método limpio.
 
 ## Requisitos previos
 
-- SDK de .NET 6 o superior instalado  
-- Visual Studio 2022 (o cualquier IDE de C#)  
-- Paquete Aspose.Cells para .NET (`dotnet add package Aspose.Cells`)  
+- .NET 6.0 o posterior (el código también funciona en .NET Framework 4.7+)
+- Aspose.Cells para .NET (versión de prueba gratuita o licenciada) – `Install-Package Aspose.Cells`
+- Un conocimiento básico de la sintaxis de C# y Visual Studio (o cualquier IDE que prefieras)  
 
-No se requieren ensamblados adicionales de interop de Excel porque Aspose.Cells funciona completamente en memoria.
+Si los tienes, vamos a sumergirnos.
 
 ## Visión general de la solución
 
-1. **Crear libro de Excel** – instanciar un `Workbook` y añadir algunos datos de ejemplo.  
-2. **Añadir un rango con nombre** – usar `Worksheets.Names.Add` para crear un rango llamado `MyRange`.  
-3. **Crear una tabla de Excel (ListObject)** – convertir los datos en una tabla para que haya algo que renombrar.  
-4. **Renombrar la tabla** – intentar establecer la propiedad `Name` de la tabla con el mismo identificador que el rango con nombre.  
-5. **Gestionar conflictos de nombres** – capturar la excepción, explicar por qué ocurre y mostrar una estrategia de renombrado segura.
+La idea principal es simple:
 
-Cada paso se explica en detalle a continuación.
+1. Cargar el libro de Excel.  
+2. Obtener la hoja que contiene la tabla.  
+3. Recuperar el `ListObject` (el objeto tabla de Excel).  
+4. **Establecer el nombre de la tabla** asignando a `ListObject.Name`.  
+5. Guardar el libro y verificar el cambio.
 
-## Paso 1: Cómo crear un libro de Excel y rellenar datos
+A continuación verás el código completo y ejecutable, más algunos escenarios “qué‑pasaría‑si” que a menudo confunden a los desarrolladores.
 
-Crear un libro es la base de cualquier tarea de automatización de Excel. La clase `Workbook` representa todo el archivo en memoria.
+---
+
+## Cómo renombrar una tabla en Excel usando C# (Palabra clave principal en H2)
+
+### Paso 1 – Abrir el libro
+
+Primero, crea una instancia de `Workbook`. Puedes cargar un archivo existente o comenzar desde cero.
 
 ```csharp
-using System;
 using Aspose.Cells;
+using System;
 
-class Program
+class ExcelTableRenamer
 {
     static void Main()
     {
-        // 1️⃣ Create a new workbook
-        Workbook workbook = new Workbook();
-
-        // Access the first worksheet (index 0)
-        Worksheet sheet = workbook.Worksheets[0];
-
-        // Fill some sample data in cells A1:C4
-        sheet.Cells["A1"].PutValue("ID");
-        sheet.Cells["B1"].PutValue("Name");
-        sheet.Cells["C1"].PutValue("Score");
-
-        sheet.Cells["A2"].PutValue(1);
-        sheet.Cells["B2"].PutValue("Alice");
-        sheet.Cells["C2"].PutValue(85);
-
-        sheet.Cells["A3"].PutValue(2);
-        sheet.Cells["B3"].PutValue("Bob");
-        sheet.Cells["C3"].PutValue(92);
-
-        sheet.Cells["A4"].PutValue(3);
-        sheet.Cells["B4"].PutValue("Carol");
-        sheet.Cells["C4"].PutValue(78);
+        // Load an existing workbook (replace with your path)
+        string inputPath = @"C:\Data\SalesReport.xlsx";
+        Workbook workbook = new Workbook(inputPath);
 ```
 
-**Por qué es importante:** El libro debe contener datos antes de que puedas crear una tabla. Aspose.Cells almacena los datos en una colección basada en cero, por lo que `Worksheets[0]` siempre se refiere a la primera hoja.
+> **Por qué es importante:** Cargar el libro te da acceso a las colecciones internas (`Worksheets`, `ListObjects`, etc.) que manipularás más adelante.
 
-## Paso 2: Cómo añadir un rango con nombre a la hoja
+### Paso 2 – Obtener la hoja objetivo
 
-Un **rango con nombre** te permite referirte a una celda o rango específico mediante un identificador amigable. Añadir un rango es sencillo:
+Si conoces el nombre de la hoja, úsalo; de lo contrario, toma la primera hoja.
 
 ```csharp
-        // 2️⃣ Define a named range called "MyRange" that points to cell A1
-        // The range string follows Excel notation: SheetName!$A$1
-        workbook.Worksheets.Names.Add("MyRange", "Sheet1!$A$1");
+        // Option A: by name
+        // Worksheet ws = workbook.Worksheets["Sheet1"];
+
+        // Option B: first worksheet (most common in automated reports)
+        Worksheet ws = workbook.Worksheets[0];
 ```
 
-**Por qué es importante:** Los rangos con nombre se almacenan en la colección global de nombres del libro. Si una tabla recibe más tarde el mismo nombre, Aspose.Cells lanza una `CellException` porque Excel no permite nombres duplicados.
+> **Consejo profesional:** Al trabajar con varias hojas, siempre valida que `ws` no sea `null` para evitar una `NullReferenceException`.
 
-## Paso 3: Cómo añadir una tabla de Excel (ListObject)
+### Paso 3 – Localizar la tabla (ListObject)
 
-Una tabla proporciona manejo estructurado de datos, filtrado y estilo. En Aspose.Cells se llama **ListObject**.
+Las tablas de Excel se representan mediante `ListObject`. La mayoría de los libros tienen al menos una tabla; obtendremos la primera.
 
 ```csharp
-        // 3️⃣ Convert the data range A1:C4 into an Excel table
-        // The range string includes the header row.
-        int firstRow = 0;   // zero‑based index for row 1
-        int firstCol = 0;   // column A
-        int totalRows = 4;  // rows 1‑4
-        int totalCols = 3;  // columns A‑C
+        // Ensure the worksheet actually contains tables
+        if (ws.ListObjects.Count == 0)
+        {
+            Console.WriteLine("No tables found on the worksheet.");
+            return;
+        }
 
-        // Create the ListObject (table) and give it an initial name
-        ListObject table = sheet.ListObjects[sheet.ListObjects.Add(firstRow, firstCol, totalRows, totalCols, true)];
-        table.Name = "InitialTable";
+        // Retrieve the first table
+        ListObject table = ws.ListObjects[0];
 ```
 
-**Por qué es importante:** La tabla ahora existe con el nombre `InitialTable`. Renombrarla demuestra el proceso de **cómo renombrar una tabla**.
+> **Caso límite:** Si necesitas renombrar una tabla específica, itera a través de `ws.ListObjects` y compara `table.Name` o la dirección del rango.
 
-## Paso 4: Cómo renombrar una tabla de Excel y gestionar conflictos
+### Paso 4 – **Asignar nombre a la tabla** (Cambiar el nombre de la tabla de Excel)
 
-Intentar renombrar la tabla a `MyRange` entrará en conflicto con el rango con nombre que creamos antes. El siguiente código muestra el patrón correcto para detectar y resolver el conflicto.
+Ahora llega la parte de **establecer el nombre de la tabla de Excel**. Elige un identificador significativo—algo que refleje los datos, como `"SalesData"`.
 
 ```csharp
-        // 4️⃣ Try to rename the table to "MyRange"
-        try
+        // New name you want to give the table
+        string newTableName = "SalesData";
+
+        // Check for naming conflicts (Excel tables must have unique names)
+        bool nameExists = false;
+        foreach (ListObject lo in ws.ListObjects)
         {
-            table.Name = "MyRange";   // This will raise an exception
-            Console.WriteLine("Table renamed successfully.");
-        }
-        catch (Exception ex)
-        {
-            // 5️⃣ Handle the name conflict gracefully
-            Console.WriteLine("Name conflict detected: " + ex.Message);
-
-            // Resolve by choosing a unique name
-            string safeName = GetUniqueTableName(workbook, "MyRange");
-            table.Name = safeName;
-            Console.WriteLine($"Table renamed to safe identifier: {safeName}");
-        }
-
-        // Save the workbook to verify the result
-        workbook.Save("RenamedTable.xlsx");
-    }
-
-    /// <summary>
-    /// Generates a unique table name that does not exist as a named range or another table.
-    /// </summary>
-    static string GetUniqueTableName(Workbook wb, string baseName)
-    {
-        int counter = 1;
-        string candidate = baseName + "_" + counter;
-
-        // Check against workbook names and existing table names
-        while (NameExists(wb, candidate))
-        {
-            counter++;
-            candidate = baseName + "_" + counter;
-        }
-        return candidate;
-    }
-
-    /// <summary>
-    /// Returns true if the identifier is already used as a named range or table name.
-    /// </summary>
-    static bool NameExists(Workbook wb, string name)
-    {
-        // Check named ranges
-        foreach (Name n in wb.Worksheets.Names)
-        {
-            if (string.Equals(n.TextToRefer, name, StringComparison.OrdinalIgnoreCase))
-                return true;
-        }
-
-        // Check existing tables
-        foreach (Worksheet ws in wb.Worksheets)
-        {
-            foreach (ListObject lo in ws.ListObjects)
+            if (lo.Name.Equals(newTableName, StringComparison.OrdinalIgnoreCase))
             {
-                if (string.Equals(lo.Name, name, StringComparison.OrdinalIgnoreCase))
-                    return true;
+                nameExists = true;
+                break;
             }
         }
-        return false;
+
+        if (nameExists)
+        {
+            Console.WriteLine($"A table named '{newTableName}' already exists. Choose a different name.");
+        }
+        else
+        {
+            table.Name = newTableName; // **set table name C#** in one line
+            Console.WriteLine($"Table renamed to: {table.Name}");
+        }
+```
+
+> **Por qué verificamos primero:** Excel lanza una excepción si intentas asignar un nombre duplicado. La verificación de seguridad hace que el código sea robusto para pipelines de producción.
+
+### Paso 5 – Guardar y verificar
+
+Finalmente, escribe el libro de nuevo en disco y opcionalmente ábrelo para confirmar el cambio de nombre.
+
+```csharp
+        // Save the modified workbook
+        string outputPath = @"C:\Data\SalesReport_Renamed.xlsx";
+        workbook.Save(outputPath);
+
+        Console.WriteLine($"Workbook saved as '{outputPath}'.");
     }
 }
 ```
 
-### Qué hace el código
-
-| Paso | Acción | Razón |
-|------|--------|--------|
-| **Intentar renombrar** | `table.Name = "MyRange"` | Demuestra el escenario de conflicto. |
-| **Capturar excepción** | Imprime el mensaje de conflicto. | Te brinda retroalimentación inmediata sobre el problema. |
-| **Generar nombre seguro** | `GetUniqueTableName` añade un sufijo numérico hasta que el nombre esté libre. | Garantiza que el nuevo nombre de tabla **no** colisione con ningún rango con nombre o tabla existente. |
-| **Guardar libro** | `workbook.Save("RenamedTable.xlsx")` | Persiste los cambios para que puedas abrir el archivo en Excel y verificar el resultado. |
-
-**Salida esperada** al ejecutar el programa:
+**Salida esperada en consola (camino feliz):**
 
 ```
-Name conflict detected: A name with the same text already exists.
-Table renamed to safe identifier: MyRange_1
+Table renamed to: SalesData
+Workbook saved as 'C:\Data\SalesReport_Renamed.xlsx'.
 ```
 
-Al abrir `RenamedTable.xlsx` se muestra una tabla llamada `MyRange_1` y un rango con nombre separado `MyRange` que apunta a la celda A1.
+Si ocurre un conflicto, verás el mensaje de advertencia en su lugar.
 
-## Por qué ocurre el conflicto y mejores prácticas para renombrar tablas de Excel
+## Cambiar el nombre de la tabla de Excel – Variaciones comunes
 
-- Excel almacena **rangos con nombre** y **nombres de tablas** en el mismo espacio de nombres.  
-- Cuando intentas asignar a una tabla un nombre que ya existe como rango, Aspose.Cells lanza una `CellException`.  
-- El enfoque recomendado es **comprobar primero los nombres existentes** (como se muestra en `NameExists`) o usar una convención de nombres que garantice unicidad (por ejemplo, prefijar las tablas con `tbl_`).  
+### Renombrar múltiples tablas en una hoja
 
-Aplicar este patrón evita errores en tiempo de ejecución y hace que tu automatización sea robusta.
+Si tu hoja contiene varias tablas, puede que quieras renombrarlas todas basándote en una convención de nombres.
 
-## Consejos adicionales para trabajar con Aspose.Cells
+```csharp
+int counter = 1;
+foreach (ListObject lo in ws.ListObjects)
+{
+    string candidateName = $"Table_{counter}";
+    if (!ws.ListObjects.Any(t => t.Name.Equals(candidateName, StringComparison.OrdinalIgnoreCase)))
+    {
+        lo.Name = candidateName;
+        Console.WriteLine($"Renamed to {candidateName}");
+    }
+    counter++;
+}
+```
 
-- **Pro tip:** Usa `Workbook.Worksheets.Names.Remove("MyRange")` si deseas reemplazar intencionalmente el rango por un nombre de tabla.  
-- **Cuidado con la sensibilidad a mayúsculas/minúsculas:** Excel trata los nombres sin distinción de mayúsculas; los métodos auxiliares usan `OrdinalIgnoreCase` para emular el comportamiento de Excel.  
-- **Rendimiento:** Si procesas muchas hojas, almacena en caché la colección de nombres en lugar de iterar repetidamente.
+### Manejo de escenarios no Aspose
 
-## Ejemplo completo en un solo bloque
+Si estás usando **Microsoft.Office.Interop.Excel** en lugar de Aspose, el enfoque es similar pero la API difiere:
 
-A continuación tienes el programa completo que puedes copiar y pegar en un proyecto de consola. Incluye todos los pasos, desde crear el libro hasta renombrar la tabla de forma segura.
+```csharp
+Excel.ListObject lo = ws.ListObjects["Table1"];
+lo.Name = "SalesData";
+```
 
+El concepto de **asignar nombre a la tabla** sigue siendo el mismo: modificas la propiedad `Name` del objeto tabla.
 
+### Establecer el nombre de la tabla al crear una tabla nueva
 
-## ¿Qué deberías aprender a continuación?
+Cuando creas una tabla desde cero, puedes establecer su nombre inmediatamente:
 
-Los siguientes tutoriales cubren temas estrechamente relacionados que amplían las técnicas demostradas en esta guía. Cada recurso incluye ejemplos de código completos y explicaciones paso a paso para ayudarte a dominar funciones adicionales de la API y explorar enfoques de implementación alternativos en tus propios proyectos.
+```csharp
+// Define the range for the new table
+CellArea area = new CellArea(0, 0, 4, 3); // A1:D5
+int index = ws.ListObjects.Add(area, true);
+ws.ListObjects[index].Name = "NewSalesTable";
+```
 
-- [How to Create Workbook Scoped Named Ranges in Excel Using Aspose.Cells .NET](/cells/english/net/range-management/excel-workbook-scoped-named-ranges-aspose-cells-net/)
-- [How to Implement Named Range Formulas in .NET using Aspose.Cells for Excel Automation](/cells/english/net/formulas-functions/implement-named-range-formulas-net-aspose-cells/)
-- [How to Add Slicers to Excel Tables Using Aspose.Cells for .NET: A Comprehensive Guide](/cells/english/net/advanced-features/add-slicers-excel-aspose-cells-net/)
+## Ilustración de imagen
+
+![Rename Excel table using C# code example – how to rename table](/images/rename-excel-table-csharp.png)
+
+*Texto alternativo:* **cómo renombrar tabla** en un libro de Excel usando C# y Aspose.Cells.
+
+## Preguntas frecuentes (FAQ)
+
+**P: ¿Esto funciona con archivos .xls?**  
+**R:** Sí. Aspose.Cells soporta tanto `.xlsx` como los legados `.xls`. Simplemente cambia la extensión del archivo en la ruta.
+
+**P: ¿Qué pasa si el libro está protegido con contraseña?**  
+**R:** Cárgalo con `new Workbook(inputPath, new LoadOptions(LoadFormat.Xlsx) { Password = "myPwd" })`.
+
+**P: ¿Puedo renombrar una tabla que está en una hoja oculta?**  
+**R:** Por supuesto. Las hojas ocultas siguen formando parte de la colección `Worksheets`; solo necesitas referenciarlas por índice o nombre.
+
+**P: ¿Existe un límite de cuántos caracteres puede tener un nombre de tabla?**  
+**R:** Excel limita los nombres de tabla a 255 caracteres y deben comenzar con una letra o guión bajo.
+
+## Mejores prácticas y consejos profesionales
+
+- **Utiliza nombres significativos**: `SalesData_Q1_2024` es mucho más claro que `Table1`.  
+- **Evita espacios**: Los nombres de tabla de Excel no pueden contener espacios; usa guiones bajos o camelCase.  
+- **Validar antes de guardar**: Ejecuta una rápida comprobación de consistencia (`if (table.Name == newTableName)`) para asegurar que el cambio de nombre se realizó.  
+- **Control de versiones**: Al automatizar informes, conserva una copia del libro original; los cambios de nombre accidentales son difíciles de revertir sin una copia de seguridad.  
+- **Consejo de rendimiento**: Si procesas decenas de libros, reutiliza una única instancia de `Workbook` cuando sea posible para reducir el consumo de memoria.
+
+## Conclusión
+
+Hemos cubierto **cómo renombrar una tabla** en Excel usando C# de principio a fin. Al cargar el libro, obtener la `Worksheet` correcta, localizar el `ListObject` y luego **establecer el nombre de la tabla C#** con una única asignación de propiedad, puedes cambiar fácilmente **el nombre de la tabla de Excel** y **asignar nombre a la tabla** en cualquier flujo de trabajo automatizado.  
+
+Pruébalo en tus propios informes—quizás renombrar una tabla “RawData” a algo más amigable para el negocio, o generar nombres al vuelo basados en el mes actual. El patrón escala, ya sea que manejes una sola hoja o una colección completa de libros.  
+
+Si encontraste útil esta guía, considera explorar temas relacionados como **cómo agregar una tabla nueva**, **cómo eliminar una tabla**, o **cómo dar formato a estilos de tabla programáticamente**. ¡Sigue experimentando y feliz codificación!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

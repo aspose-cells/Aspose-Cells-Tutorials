@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # एक्सेल डेटा निर्यात और पुनर्प्राप्ति
@@ -32,10 +30,33 @@
 ### [C# में DataTable से Excel शीट बनाएं – चरण-दर-चरण गाइड](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
 .NET के लिए Aspose.Cells का उपयोग करके C# में DataTable से Excel शीट बनाने की प्रक्रिया सीखें।
 
+### [C# में एक्सेल डेटा टेबल निर्यात – पूर्ण गाइड](./export-excel-data-table-in-c-complete-guide/)
+इस व्यापक गाइड में .NET के लिए Aspose.Cells का उपयोग करके C# में Excel डेटा टेबल निर्यात करना सीखें।
+
+### [C# में एक्सेल डेटा निर्यात – चरण‑दर‑चरण गाइड](./how-to-export-excel-data-in-c-step-by-step-guide/)
+इस चरण‑दर‑चरण गाइड में .NET के लिए Aspose.Cells का उपयोग करके C# में Excel डेटा निर्यात करना सीखें।
+### [Excel डेटा निर्यात कैसे करें – चरण-दर-चरण C# गाइड](./how-to-export-excel-data-step-by-step-c-guide/)
+इस गाइड में .NET के लिए Aspose.Cells का उपयोग करके Excel डेटा को C# में निर्यात करने के चरण दिखाए गए हैं।
+### [C# में वर्कशीट रेंज निर्यात – पूर्ण प्रोग्रामिंग गाइड](./export-worksheet-range-in-c-complete-programming-guide/)
+इस गाइड में .NET के लिए Aspose.Cells का उपयोग करके C# में वर्कशीट रेंज को निर्यात करना सीखें।
+
+
+
+
+
+
+
+
+### [वर्कबुक बनाएँ C# – फ़ॉर्मेटिंग के साथ DataTable को Excel में निर्यात करें](./create-workbook-c-export-datatable-to-excel-with-formatting/)
+
+### [नया वर्कबुक बनाएं और सटीकता के साथ Excel को TXT में निर्यात करें](./create-new-workbook-and-export-excel-to-txt-with-precision/)
+इस ट्यूटोरियल में आप नया वर्कबुक बनाकर Excel डेटा को सटीकता से TXT फ़ाइल में निर्यात करना सीखेंगे।
+### [सेल रेंज को टेबल के रूप में निर्यात करें – पूर्ण C# गाइड](./how-to-export-cell-range-as-table-complete-c-guide/)
+Aspose.Cells का उपयोग करके सेल रेंज को टेबल के रूप में निर्यात करने की पूरी C# गाइड, चरण-दर-चरण निर्देश।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

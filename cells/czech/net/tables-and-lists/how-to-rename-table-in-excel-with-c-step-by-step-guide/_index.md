@@ -1,59 +1,24 @@
 ---
 category: general
-date: 2026-08-11
-description: Jak přejmenovat tabulku v Excelu pomocí C# a Aspose.Cells. Naučte se
-  vytvořit sešit Excel, přidat pojmenovaný rozsah a vyhnout se konfliktům při přejmenování.
+date: 2026-03-18
+description: Naučte se, jak přejmenovat tabulku v Excelu pomocí C#. Tento tutoriál
+  ukazuje, jak změnit název tabulky v Excelu, přiřadit název tabulce, nastavit název
+  tabulky v Excelu a nastavit název tabulky v C# během několika minut.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - how to rename table
-- create excel workbook
-- add named range
-- how to add range
-- rename excel table
+- change excel table name
+- assign name to table
+- set excel table name
+- set table name c#
 language: cs
-lastmod: 2026-08-11
-og_description: Jak přejmenovat tabulku v Excelu pomocí C# a Aspose.Cells. Tento průvodce
-  vám ukáže, jak vytvořit sešit Excel, přidat pojmenovaný rozsah a bezpečně přejmenovat
-  tabulku v Excelu.
-og_image_alt: Screenshot of C# code that renames an Excel table
-og_title: Jak přejmenovat tabulku v Excelu pomocí C# – kompletní programovací tutoriál
-schemas:
-- author: Aspose
-  dateModified: '2026-08-11'
-  description: How to rename table in Excel with C# using Aspose.Cells. Learn to create
-    Excel workbook, add named range, and avoid rename conflicts.
-  headline: How to rename table in Excel with C# – step‑by‑step guide
-  type: TechArticle
-- description: How to rename table in Excel with C# using Aspose.Cells. Learn to create
-    Excel workbook, add named range, and avoid rename conflicts.
-  name: How to rename table in Excel with C# – step‑by‑step guide
-  steps:
-  - name: '**Create Excel workbook** – instantiate a `Workbook` and add some sample
-      data.'
-    text: '**Create Excel workbook** – instantiate a `Workbook` and add some sample
-      data.'
-  - name: '**Add a named range** – use `Worksheets.Names.Add` to create a range called
-      `MyRange`.'
-    text: '**Add a named range** – use `Worksheets.Names.Add` to create a range called
-      `MyRange`.'
-  - name: '**Create an Excel table (ListObject)** – convert the data into a table
-      so we have something to rename.'
-    text: '**Create an Excel table (ListObject)** – convert the data into a table
-      so we have something to rename.'
-  - name: '**Rename the table** – attempt to set the table’s `Name` property to the
-      same identifier as the named range.'
-    text: '**Rename the table** – attempt to set the table’s `Name` property to the
-      same identifier as the named range.'
-  - name: '**Handle name conflicts** – catch the exception, explain why it occurs,
-      and show a safe rename strategy.'
-    text: '**Handle name conflicts** – catch the exception, explain why it occurs,
-      and show a safe rename strategy.'
-  type: HowTo
+og_description: Jak přejmenovat tabulku v Excelu pomocí C#. Následujte tento stručný
+  návod k změně názvu tabulky v Excelu, přiřazení názvu tabulce a bezpečnému nastavení
+  názvu tabulky v C#.
+og_title: Jak přejmenovat tabulku v Excelu pomocí C# – rychlý průvodce
 tags:
-- Excel
 - C#
+- Excel
 - Aspose.Cells
 - Automation
 title: Jak přejmenovat tabulku v Excelu pomocí C# – krok za krokem
@@ -64,213 +29,219 @@ url: /cs/net/tables-and-lists/how-to-rename-table-in-excel-with-c-step-by-step-g
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak přejmenovat tabulku v Excelu pomocí C# – krok‑za‑krokem průvodce
+# Jak přejmenovat tabulku v Excelu pomocí C# – krok za krokem průvodce
 
-Pokud potřebujete **jak přejmenovat tabulku** v souboru Excel programově, tento tutoriál vám ukáže přesný postup pomocí Aspose.Cells pro .NET. Uvidíte, jak **vytvořit Excel sešit**, definovat **pojmenovaný rozsah** a přejmenovat existující Excel tabulku, aniž by došlo ke konfliktu názvů.
+Už jste se někdy zamysleli nad **jak přejmenovat tabulku** v sešitu Excelu programově? Možná automatizujete měsíční report a výchozí „Table1“ vám už nevyhovuje. Dobrá zpráva? Přejmenování tabulky je hračka, když použijete C# a knihovnu Aspose.Cells.  
 
-Řešení funguje pro jakýkoli .NET projekt, který cílí na .NET 6 nebo novější, a vyžaduje pouze balíček Aspose.Cells NuGet. Na konci průvodce budete umět bezpečně přejmenovat Excel tabulku a pochopíte, proč může vzniknout konflikt, když se název tabulky shoduje s definovaným rozsahem.
+V tomto tutoriálu vás provedeme vším, co potřebujete: od načtení sešitu, nalezení správného ListObject, až po **změnu názvu tabulky v Excelu** bezpečně. Na konci budete schopni **přiřadit název tabulce**, **nastavit název tabulky v Excelu** a dokonce **nastavit název tabulky C#** v jedné čisté metodě.
 
 ## Požadavky
 
-- .NET 6 SDK nebo novější nainstalovaný  
-- Visual Studio 2022 (nebo jakékoli C# IDE)  
-- Aspose.Cells pro .NET balíček (`dotnet add package Aspose.Cells`)  
+- .NET 6.0 nebo novější (kód funguje také na .NET Framework 4.7+)  
+- Aspose.Cells pro .NET (bezplatná zkušební verze nebo licencovaná verze) – `Install-Package Aspose.Cells`  
+- Základní znalost syntaxe C# a Visual Studia (nebo libovolného IDE, které preferujete)  
 
-Nejsou potřeba žádné další Excel interop sestavy, protože Aspose.Cells pracuje zcela v paměti.
+Pokud je máte, pojďme na to.
 
 ## Přehled řešení
 
-1. **Create Excel workbook** – vytvořit instanci `Workbook` a přidat ukázková data.  
-2. **Add a named range** – použít `Worksheets.Names.Add` k vytvoření rozsahu s názvem `MyRange`.  
-3. **Create an Excel table (ListObject)** – převést data na tabulku, abychom měli co přejmenovat.  
-4. **Rename the table** – pokusit se nastavit vlastnost `Name` tabulky na stejný identifikátor jako pojmenovaný rozsah.  
-5. **Handle name conflicts** – zachytit výjimku, vysvětlit, proč nastává, a ukázat bezpečnou strategii přejmenování.
+The core idea is simple:
 
-Každý krok je podrobně vysvětlen níže.
+1. Načtěte sešit Excel.  
+2. Získejte list, který obsahuje tabulku.  
+3. Získejte `ListObject` (objekt tabulky v Excelu).  
+4. **Nastavte název tabulky** přiřazením k `ListObject.Name`.  
+5. Uložte sešit a ověřte změnu.
 
-## Krok 1: Jak vytvořit Excel sešit a naplnit data
+Below you’ll see the full, runnable code, plus a few “what‑if” scenarios that often trip developers up.
 
-Vytvoření sešitu je základem pro jakýkoli úkol automatizace v Excelu. Třída `Workbook` představuje celý soubor v paměti.
+---
+
+## Jak přejmenovat tabulku v Excelu pomocí C# (Primární klíčové slovo v H2)
+
+### Krok 1 – Otevřít sešit
+
+Nejprve vytvořte instanci `Workbook`. Můžete načíst existující soubor nebo začít od nuly.
 
 ```csharp
-using System;
 using Aspose.Cells;
+using System;
 
-class Program
+class ExcelTableRenamer
 {
     static void Main()
     {
-        // 1️⃣ Create a new workbook
-        Workbook workbook = new Workbook();
-
-        // Access the first worksheet (index 0)
-        Worksheet sheet = workbook.Worksheets[0];
-
-        // Fill some sample data in cells A1:C4
-        sheet.Cells["A1"].PutValue("ID");
-        sheet.Cells["B1"].PutValue("Name");
-        sheet.Cells["C1"].PutValue("Score");
-
-        sheet.Cells["A2"].PutValue(1);
-        sheet.Cells["B2"].PutValue("Alice");
-        sheet.Cells["C2"].PutValue(85);
-
-        sheet.Cells["A3"].PutValue(2);
-        sheet.Cells["B3"].PutValue("Bob");
-        sheet.Cells["C3"].PutValue(92);
-
-        sheet.Cells["A4"].PutValue(3);
-        sheet.Cells["B4"].PutValue("Carol");
-        sheet.Cells["C4"].PutValue(78);
+        // Load an existing workbook (replace with your path)
+        string inputPath = @"C:\Data\SalesReport.xlsx";
+        Workbook workbook = new Workbook(inputPath);
 ```
 
-**Proč je to důležité:** Sešit musí obsahovat data, než můžete vytvořit tabulku. Aspose.Cells ukládá data v nulově indexované kolekci, takže `Worksheets[0]` vždy odkazuje na první list.
+> **Proč je to důležité:** Načtení sešitu vám poskytne přístup k interním kolekcím (`Worksheets`, `ListObjects` atd.), se kterými budete později manipulovat.
 
-## Krok 2: Jak přidat pojmenovaný rozsah do listu
+### Krok 2 – Získat cílový list
 
-**Named range** vám umožní odkazovat na konkrétní buňku nebo oblast pomocí přátelského identifikátoru. Přidání rozsahu je jednoduché:
+Pokud znáte název listu, použijte jej; jinak vezměte první list.
 
 ```csharp
-        // 2️⃣ Define a named range called "MyRange" that points to cell A1
-        // The range string follows Excel notation: SheetName!$A$1
-        workbook.Worksheets.Names.Add("MyRange", "Sheet1!$A$1");
+        // Option A: by name
+        // Worksheet ws = workbook.Worksheets["Sheet1"];
+
+        // Option B: first worksheet (most common in automated reports)
+        Worksheet ws = workbook.Worksheets[0];
 ```
 
-**Proč je to důležité:** Pojmenované rozsahy jsou uloženy v globální kolekci názvů sešitu. Pokud tabulka později získá stejný název, Aspose.Cells vyhodí `CellException`, protože Excel neumožňuje duplicitní názvy.
+> **Tip:** Při práci s více listy vždy ověřte, že `ws` není `null`, abyste se vyhnuli `NullReferenceException`.
 
-## Krok 3: Jak přidat Excel tabulku (ListObject)
+### Krok 3 – Najít tabulku (ListObject)
 
-Tabulka poskytuje strukturované zpracování dat, filtrování a stylování. V Aspose.Cells se nazývá **ListObject**.
+Tabulky v Excelu jsou reprezentovány pomocí `ListObject`. Většina sešitů má alespoň jednu tabulku; načteme první.
 
 ```csharp
-        // 3️⃣ Convert the data range A1:C4 into an Excel table
-        // The range string includes the header row.
-        int firstRow = 0;   // zero‑based index for row 1
-        int firstCol = 0;   // column A
-        int totalRows = 4;  // rows 1‑4
-        int totalCols = 3;  // columns A‑C
+        // Ensure the worksheet actually contains tables
+        if (ws.ListObjects.Count == 0)
+        {
+            Console.WriteLine("No tables found on the worksheet.");
+            return;
+        }
 
-        // Create the ListObject (table) and give it an initial name
-        ListObject table = sheet.ListObjects[sheet.ListObjects.Add(firstRow, firstCol, totalRows, totalCols, true)];
-        table.Name = "InitialTable";
+        // Retrieve the first table
+        ListObject table = ws.ListObjects[0];
 ```
 
-**Proč je to důležité:** Tabulka nyní existuje s názvem `InitialTable`. Její přejmenování demonstruje proces **jak přejmenovat tabulku**.
+> **Hraniční případ:** Pokud potřebujete přejmenovat konkrétní tabulku, projděte `ws.ListObjects` a porovnejte `table.Name` nebo adresu rozsahu.
 
-## Krok 4: Jak přejmenovat Excel tabulku a řešit konflikty
+### Krok 4 – **Přiřadit název tabulce** (Změna názvu tabulky v Excelu)
 
-Pokus o přejmenování tabulky na `MyRange` bude kolidovat s pojmenovaným rozsahem, který jsme vytvořili dříve. Následující kód ukazuje správný vzor pro detekci a řešení konfliktu.
+Nyní přichází část **nastavit název tabulky v Excelu**. Vyberte smysluplný identifikátor — něco, co odráží data, například `"SalesData"`.
 
 ```csharp
-        // 4️⃣ Try to rename the table to "MyRange"
-        try
+        // New name you want to give the table
+        string newTableName = "SalesData";
+
+        // Check for naming conflicts (Excel tables must have unique names)
+        bool nameExists = false;
+        foreach (ListObject lo in ws.ListObjects)
         {
-            table.Name = "MyRange";   // This will raise an exception
-            Console.WriteLine("Table renamed successfully.");
-        }
-        catch (Exception ex)
-        {
-            // 5️⃣ Handle the name conflict gracefully
-            Console.WriteLine("Name conflict detected: " + ex.Message);
-
-            // Resolve by choosing a unique name
-            string safeName = GetUniqueTableName(workbook, "MyRange");
-            table.Name = safeName;
-            Console.WriteLine($"Table renamed to safe identifier: {safeName}");
-        }
-
-        // Save the workbook to verify the result
-        workbook.Save("RenamedTable.xlsx");
-    }
-
-    /// <summary>
-    /// Generates a unique table name that does not exist as a named range or another table.
-    /// </summary>
-    static string GetUniqueTableName(Workbook wb, string baseName)
-    {
-        int counter = 1;
-        string candidate = baseName + "_" + counter;
-
-        // Check against workbook names and existing table names
-        while (NameExists(wb, candidate))
-        {
-            counter++;
-            candidate = baseName + "_" + counter;
-        }
-        return candidate;
-    }
-
-    /// <summary>
-    /// Returns true if the identifier is already used as a named range or table name.
-    /// </summary>
-    static bool NameExists(Workbook wb, string name)
-    {
-        // Check named ranges
-        foreach (Name n in wb.Worksheets.Names)
-        {
-            if (string.Equals(n.TextToRefer, name, StringComparison.OrdinalIgnoreCase))
-                return true;
-        }
-
-        // Check existing tables
-        foreach (Worksheet ws in wb.Worksheets)
-        {
-            foreach (ListObject lo in ws.ListObjects)
+            if (lo.Name.Equals(newTableName, StringComparison.OrdinalIgnoreCase))
             {
-                if (string.Equals(lo.Name, name, StringComparison.OrdinalIgnoreCase))
-                    return true;
+                nameExists = true;
+                break;
             }
         }
-        return false;
+
+        if (nameExists)
+        {
+            Console.WriteLine($"A table named '{newTableName}' already exists. Choose a different name.");
+        }
+        else
+        {
+            table.Name = newTableName; // **set table name C#** in one line
+            Console.WriteLine($"Table renamed to: {table.Name}");
+        }
+```
+
+> **Proč nejprve kontrolujeme:** Excel vyhodí výjimku, pokud se pokusíte přiřadit duplicitní název. Tento bezpečnostní kontrolní krok činí kód odolným pro produkční pipeline.
+
+### Krok 5 – Uložit a ověřit
+
+Nakonec zapište sešit zpět na disk a případně jej otevřete, abyste potvrdili přejmenování.
+
+```csharp
+        // Save the modified workbook
+        string outputPath = @"C:\Data\SalesReport_Renamed.xlsx";
+        workbook.Save(outputPath);
+
+        Console.WriteLine($"Workbook saved as '{outputPath}'.");
     }
 }
 ```
 
-### Co kód dělá
-
-| Krok | Akce | Důvod |
-|------|------|-------|
-| **Zkusit přejmenovat** | `table.Name = "MyRange"` | Ukazuje scénář konfliktu. |
-| **Zachytit výjimku** | Vytiskne zprávu o konfliktu. | Poskytuje okamžitou zpětnou vazbu o problému. |
-| **Vygenerovat bezpečný název** | `GetUniqueTableName` přidává číselnou příponu, dokud není název volný. | Zaručuje, že nový název tabulky **se** nekříží s žádným existujícím pojmenovaným rozsahem nebo tabulkou. |
-| **Uložit sešit** | `workbook.Save("RenamedTable.xlsx")` | Ukládá změny, abyste mohli soubor otevřít v Excelu a ověřit výsledek. |
-
-**Očekávaný výstup** při spuštění programu:
+**Očekávaný výstup v konzoli (optimální cesta):**
 
 ```
-Name conflict detected: A name with the same text already exists.
-Table renamed to safe identifier: MyRange_1
+Table renamed to: SalesData
+Workbook saved as 'C:\Data\SalesReport_Renamed.xlsx'.
 ```
 
-Otevření `RenamedTable.xlsx` ukazuje tabulku pojmenovanou `MyRange_1` a samostatný pojmenovaný rozsah `MyRange` ukazující na buňku A1.
+Pokud nastane konflikt, místo toho uvidíte varovnou zprávu.
 
-## Proč dochází ke konfliktu a osvědčené postupy pro přejmenování Excel tabulky
+## Změna názvu tabulky v Excelu – běžné varianty
 
-- Excel ukládá **named ranges** a **table names** ve stejném jmenném prostoru.  
-- Když se pokusíte přiřadit název tabulky, který již existuje jako rozsah, Aspose.Cells vyhodí `CellException`.  
-- Doporučený přístup je **nejprve zkontrolovat existující názvy** (jak je ukázáno v `NameExists`) nebo použít pojmenovací konvenci, která zaručuje jedinečnost (např. předpona tabulek `tbl_`).  
+### Přejmenování více tabulek v jednom listu
 
-Použití tohoto vzoru zabraňuje chybám za běhu a činí vaši automatizaci robustní.
+Pokud váš list obsahuje několik tabulek, možná je budete chtít přejmenovat všechny podle pojmenovací konvence.
 
-## Další tipy pro práci s Aspose.Cells
+```csharp
+int counter = 1;
+foreach (ListObject lo in ws.ListObjects)
+{
+    string candidateName = $"Table_{counter}";
+    if (!ws.ListObjects.Any(t => t.Name.Equals(candidateName, StringComparison.OrdinalIgnoreCase)))
+    {
+        lo.Name = candidateName;
+        Console.WriteLine($"Renamed to {candidateName}");
+    }
+    counter++;
+}
+```
 
-- **Pro tip:** Použijte `Workbook.Worksheets.Names.Remove("MyRange")`, pokud úmyslně chcete nahradit rozsah názvem tabulky.  
-- **Dejte pozor na citlivost na velikost písmen:** Excel zachází s názvy bez rozlišení velkých a malých písmen; pomocné metody používají `OrdinalIgnoreCase` k napodobení chování Excelu.  
-- **Výkon:** Pokud zpracováváte mnoho listů, cacheujte kolekci názvů místo opakovaného iterování.
+### Zpracování scénářů mimo Aspose
 
-## Kompletní příklad v jednom bloku
+Pokud místo Aspose používáte **Microsoft.Office.Interop.Excel**, přístup je podobný, ale API se liší:
 
-Níže je celý program, který můžete zkopírovat a vložit do konzolového projektu. Obsahuje všechny kroky od vytvoření sešitu až po bezpečné přejmenování tabulky.
+```csharp
+Excel.ListObject lo = ws.ListObjects["Table1"];
+lo.Name = "SalesData";
+```
 
+Koncept **přiřadit název tabulce** zůstává stejný: upravíte vlastnost `Name` objektu tabulky.
 
+### Nastavení názvu tabulky při vytváření nové tabulky
 
-## Co se naučit dál?
+Když vytváříte tabulku od nuly, můžete jí okamžitě nastavit název:
 
-Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s krok‑za‑krokem vysvětleními, které vám pomohou zvládnout další funkce API a prozkoumat alternativní implementační přístupy ve vašich vlastních projektech.
+```csharp
+// Define the range for the new table
+CellArea area = new CellArea(0, 0, 4, 3); // A1:D5
+int index = ws.ListObjects.Add(area, true);
+ws.ListObjects[index].Name = "NewSalesTable";
+```
 
-- [Jak vytvořit pojmenované rozsahy v sešitu v Excelu pomocí Aspose.Cells .NET](/cells/english/net/range-management/excel-workbook-scoped-named-ranges-aspose-cells-net/)
-- [Jak implementovat vzorce s pojmenovanými rozsahy v .NET pomocí Aspose.Cells pro automatizaci Excelu](/cells/english/net/formulas-functions/implement-named-range-formulas-net-aspose-cells/)
-- [Jak přidat řezače do Excel tabulek pomocí Aspose.Cells pro .NET: Komplexní průvodce](/cells/english/net/advanced-features/add-slicers-excel-aspose-cells-net/)
+## Ilustrace obrázku
+
+![Přejmenování tabulky Excel pomocí C# – jak přejmenovat tabulku](/images/rename-excel-table-csharp.png)
+
+*Alt text:* **jak přejmenovat tabulku** v sešitu Excel pomocí C# a Aspose.Cells.
+
+## Často kladené otázky (FAQ)
+
+**Q: Funguje to i s .xls soubory?**  
+A: Ano. Aspose.Cells podporuje jak `.xlsx`, tak i starší `.xls`. Stačí změnit příponu souboru v cestě.
+
+**Q: Co když je sešit chráněn heslem?**  
+A: Načtěte jej pomocí `new Workbook(inputPath, new LoadOptions(LoadFormat.Xlsx) { Password = "myPwd" })`.
+
+**Q: Můžu přejmenovat tabulku, která je v skrytém listu?**  
+A: Ano. Skryté listy jsou stále součástí kolekce `Worksheets`; stačí na ně odkazovat podle indexu nebo názvu.
+
+**Q: Existuje omezení počtu znaků v názvu tabulky?**  
+A: Excel omezuje názvy tabulek na 255 znaků a musí začínat písmenem nebo podtržítkem.
+
+## Nejlepší postupy a tipy
+
+- **Používejte smysluplné názvy**: `SalesData_Q1_2024` je mnohem přehlednější než `Table1`.  
+- **Vyhýbejte se mezerám**: Názvy tabulek v Excelu nemohou obsahovat mezery; používejte podtržítka nebo camelCase.  
+- **Ověřte před uložením**: Proveďte rychlou kontrolu (`if (table.Name == newTableName)`) pro zajištění úspěšného přejmenování.  
+- **Správa verzí**: Při automatizaci reportů si uchovejte kopii původního sešitu; nechtěná přejmenování je těžké vrátit bez zálohy.  
+- **Tip pro výkon**: Pokud zpracováváte desítky sešitů, kde je to možné, opakovaně používejte jedinou instanci `Workbook`, abyste snížili zatížení paměti.
+
+## Závěr
+
+Probrali jsme **jak přejmenovat tabulku** v Excelu pomocí C# od začátku až do konce. Načtením sešitu, získáním správného `Worksheet`, nalezením `ListObject` a následným **nastavením názvu tabulky C#** jedním přiřazením vlastnosti můžete snadno **změnit název tabulky v Excelu** a **přiřadit název tabulce** v jakémkoli automatizovaném workflow.  
+
+Vyzkoušejte to na svých vlastních reportech — třeba přejmenujte tabulku „RawData“ na něco obchodně přívětivějšího, nebo generujte názvy za běhu na základě aktuálního měsíce. Tento vzor se škáluje, ať už pracujete s jedním listem nebo s celou kolekcí sešitů.  
+
+Pokud se vám tento průvodce líbil, zvažte prozkoumání souvisejících témat, jako je **jak přidat novou tabulku**, **jak smazat tabulku** nebo **jak programově nastavit styly tabulky**. Pokračujte v experimentování a šťastné kódování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

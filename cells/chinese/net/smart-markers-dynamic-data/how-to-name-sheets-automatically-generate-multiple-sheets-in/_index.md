@@ -20,8 +20,6 @@ title: 如何自动命名工作表 – 在 C# 中生成多个工作表
 url: /zh/net/smart-markers-dynamic-data/how-to-name-sheets-automatically-generate-multiple-sheets-in/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

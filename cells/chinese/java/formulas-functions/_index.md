@@ -29,6 +29,9 @@
 ### [使用 Aspose.Cells Java 掌握 Excel 数组公式：简化计算和格式化](./aspose-cells-java-array-formulas-custom-calculations/)
 学习使用 Aspose.Cells for Java 设置数组公式、应用数字样式、自定义计算以及高效保存工作簿。
 
+### [排序唯一值 Excel – 完整的 Java 指南设置数组公式](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+学习如何使用 Aspose.Cells for Java 设置数组公式，以对 Excel 中的唯一值进行排序。
+
 ### [如何在 Aspose.Cells Java 中创建自定义静态值函数](./aspose-cells-java-custom-static-value-function/)
 了解如何使用 Aspose.Cells Java 扩展 AbstractCalculationEngine 以进行自定义计算。使用预定义值自动执行 Excel 任务。
 
@@ -83,7 +86,14 @@ Aspose.Words Java 代码教程
 ### [如何在 Aspose.Cells for Java 中实现 FormulaText：分步指南](./implementing-formula-text-aspose-cells-java-guide/)
 学习如何使用 Aspose.Cells 和 Java 从 Excel 单元格中提取公式文本。本指南涵盖设置、实现和实际应用。
 
-
+### [如何在 Excel 中使用 Reduce（Java）— Lambda 公式指南](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
+了解如何在 Java 中使用 Aspose.Cells 实现 Excel 的 Reduce 函数，通过 Lambda 表达式进行高级聚合计算。
+### [在 Java Excel 工作簿中使用 SEQUENCE 的分步指南](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+学习如何在 Aspose.Cells for Java 中使用 SEQUENCE 函数创建动态序列并自动填充单元格。
+### [如何在 Java 中使用 WRAPCOLS – 完整的 Excel WRAPCOLS 示例](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+学习在 Aspose.Cells for Java 中使用 WRAPCOLS 函数，实现列自动换行并提供完整示例。
+### [如何在 Excel 中计算余切 – 完整指南](./how-to-calculate-cotangent-in-excel-complete-guide/)
+学习如何在 Excel 中使用公式计算余切值，提供实现步骤和代码示例。
 
 ## 其他资源
 

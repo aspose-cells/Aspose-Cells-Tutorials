@@ -26,6 +26,9 @@ Hướng dẫn về chú thích và bình luận của chúng tôi sẽ chỉ ch
 
 ## Hướng dẫn có sẵn
 
+### [Thêm bình luận vào Excel bằng Java – Hướng dẫn đầy đủ từng bước](./add-comment-to-excel-using-java-complete-step-by-step-guide/)
+Tìm hiểu cách thêm bình luận vào tệp Excel bằng Aspose.Cells for Java. Hướng dẫn chi tiết từng bước giúp bạn nhanh chóng tích hợp nhận xét vào bảng tính.
+
 ### [Thêm hình ảnh vào bình luận Excel bằng Aspose.Cells cho Java: Hướng dẫn đầy đủ](./add-image-excel-comment-aspose-cells-java/)
 Tìm hiểu cách thêm hình ảnh vào chú thích Excel bằng Aspose.Cells for Java. Hướng dẫn này bao gồm mọi thứ từ thiết lập đến triển khai, giúp cải thiện bảng tính của bạn một cách hiệu quả.
 
@@ -53,7 +56,8 @@ Tìm hiểu cách thay đổi hướng văn bản trong chú thích Excel bằng
 ### [Xuất các bình luận Excel sang HTML bằng Aspose.Cells cho Java](./export-excel-comments-html-aspose-cells-java/)
 Hướng dẫn mã cho Aspose.Words Java
 
-
+### [Cách Thêm Bình Luận vào Excel bằng Java – Hướng Dẫn Đầy Đủ](./how-to-add-comment-in-excel-with-java-complete-guide/)
+Hướng dẫn chi tiết cách thêm bình luận vào tệp Excel bằng Aspose.Cells cho Java, bao gồm các bước cài đặt và ví dụ mã thực tế.
 
 ## Tài nguyên bổ sung
 
