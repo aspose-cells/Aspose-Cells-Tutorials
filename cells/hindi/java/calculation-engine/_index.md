@@ -59,6 +59,10 @@ Aspose.Cells for Java का उपयोग करके वर्कबुक 
 
 ### [Aspose.Cells Java का उपयोग करके Excel गणनाओं को अनुकूलित करें: प्रभावी वर्कबुक प्रोसेसिंग के लिए कैल्कुलेशन चेन में महारत](./optimize-excel-aspose-cells-java-calculation-chains/)
 कैल्कुलेशन चेन को लागू करके, फ़ॉर्मूले को कुशलता से गणना करके, और सेल मानों को अपडेट करके Aspose.Cells for Java के साथ Excel प्रदर्शन को बढ़ाना सीखें।
+### [जावा में XLSX फ़ाइल खोलें – वर्कबुक लोड करने और फ़ॉर्मूला पुनर्गणना के लिए पूर्ण गाइड](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
+जावा में XLSX फ़ाइल खोलने, वर्कबुक लोड करने और फ़ॉर्मूला पुनर्गणना करने की पूरी प्रक्रिया को समझें।
+### [जावा में डायनेमिक एरे फ़ॉर्मूले: Excel कार्यपुस्तिका बनाएं और सभी फ़ॉर्मूले गणना करें](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
+जावा में Aspose.Cells का उपयोग करके डायनेमिक एरे फ़ॉर्मूले लागू करना, Excel वर्कबुक बनाना और सभी फ़ॉर्मूले की गणना करना सीखें।
 
 ## अतिरिक्त संसाधन
 - [Aspose.Cells for Java डॉक्यूमेंटेशन](https://docs.aspose.com/cells/java/)

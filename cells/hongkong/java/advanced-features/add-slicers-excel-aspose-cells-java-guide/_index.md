@@ -10,10 +10,6 @@ url: /zh-hant/java/advanced-features/add-slicers-excel-aspose-cells-java-guide/
 weight: 1
 ---
 
- block placeholders.
-
-Let's construct final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

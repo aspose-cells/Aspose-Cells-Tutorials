@@ -1,0 +1,7 @@
+Title: How to load JSON into Excel with Aspose.Cells for Java
+Slug: how-to-load-json-into-excel-with-aspose-cells-for-java
+Category: excel-import-export
+ProcessedDate: 2026-10-07T19:04:45.750675
+SourceRepo: AI Search API
+Keywords: load json into excel, generate xlsx from json, populate excel from json, save workbook as xlsx, create workbook from json
+PRNumber: 184

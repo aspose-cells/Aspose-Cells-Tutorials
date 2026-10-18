@@ -65,6 +65,9 @@
 ### [إتقان النطاقات المسماة في Excel باستخدام Aspose.Cells لـ Java](./excel-named-ranges-aspose-cells-java/)
 برنامج تعليمي لبرمجة Aspose.Words في Java
 
+### [تعيين اسم للخلية في Excel باستخدام Java – دليل شامل](./assign-name-to-cell-in-excel-using-java-complete-guide/)
+تعلم كيفية تعيين اسم لخلية معينة في Excel باستخدام Aspose.Cells لـ Java خطوة بخطوة.
+
 ### [أتمتة مساحات الطباعة في Excel باستخدام Aspose.Cells لـ Java: دليل خطوة بخطوة](./excel-print-areas-automation-aspose-cells-java-guide/)
 تعلّم كيفية أتمتة مساحات الطباعة في Excel باستخدام Aspose.Cells لـ Java. أتقن التعامل مع المصنفات، وحسّن أداء تقاريرك بكفاءة.
 
@@ -83,7 +86,7 @@
 ### [إلغاء دمج خلايا Excel في Java باستخدام Aspose.Cells: دليل خطوة بخطوة](./unmerge-excel-cells-aspose-cells-java-guide/)
 تعرّف على كيفية إلغاء دمج الخلايا في ملفات Excel بكفاءة باستخدام Aspose.Cells لجافا. يغطي هذا الدليل إعداد الخلايا المدمجة واكتشافها وإلغاء دمجها مع أمثلة برمجية.
 
-
+### [نسخ نطاق ورقة العمل برمجيًا – دليل Java كامل](./programmatically-copy-worksheet-range-complete-java-guide/)
 
 ## موارد إضافية
 

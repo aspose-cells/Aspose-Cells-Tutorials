@@ -46,6 +46,10 @@ Aspose.Cells for .NET을 사용하여 Excel 파일 관리에 대한 접근 방�
 Aspose.Cells for .NET을 사용하여 Excel 파일을 97-2003 형식으로 저장하는 방법을 알아보세요. 실용적인 정보와 단계별 안내를 제공합니다.
 ### [Excel 파일을 2007 xlsb 형식으로 저장](./save-excel-file-in-2007-xlsb-format/)
 Aspose.Cells for .NET을 사용하여 Excel 파일을 xlsb 형식으로 저장하는 방법을 알아보세요! 실용적인 예제를 포함한 단계별 가이드가 여러분을 기다립니다.
+
+### [C#에서 XLSB 파일 저장 방법 – 단계별 가이드](./how-to-save-xlsb-in-c-step-by-step-guide/)
+Aspose.Cells for .NET을 사용하여 C#에서 XLSB 파일을 저장하는 방법을 단계별로 안내합니다.
+
 ### [Excel 파일을 2007 xlsx 형식으로 저장](./save-excel-file-in-2007-xlsx-format/)
 Aspose.Cells for .NET을 사용하여 단계별 가이드를 통해 Excel 파일을 XLSX 형식으로 쉽게 저장하고 Excel 조작을 마스터하세요.
 ### [HTML 형식으로 파일 저장](./save-file-in-html-format/)

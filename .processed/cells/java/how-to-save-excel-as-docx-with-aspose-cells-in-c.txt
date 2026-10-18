@@ -1,0 +1,7 @@
+Title: How to save Excel as DOCX with Aspose.Cells in C#
+Slug: how-to-save-excel-as-docx-with-aspose-cells-in-c
+Category: integration-interoperability
+ProcessedDate: 2026-08-17T22:55:28.543585
+SourceRepo: AI Search API
+Keywords: save excel as docx, convert excel to word, convert spreadsheet to word document, export chart from excel to word, save excel file as word document
+PRNumber: 146
