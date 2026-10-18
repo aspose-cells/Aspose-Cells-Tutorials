@@ -160,6 +160,8 @@ Hướng dẫn cách sử dụng Smart Markers để tạo tệp Excel trực ti
 Khám phá cách sử dụng Smart Marker dạng phạm vi để xử lý dữ liệu lồng nhau trong C# với hướng dẫn chi tiết từng bước.
 ### [Tải mẫu Excel trong C# – Tạo nhanh nhiều trang tính](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
 Hướng dẫn cách tải mẫu Excel trong C# và nhanh chóng tạo nhiều trang tính bằng Aspose.Cells.
+### [Nhập JSON vào Excel trong C# – hướng dẫn từng bước](./import-json-to-excel-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách nhập dữ liệu JSON vào tệp Excel bằng Aspose.Cells cho .NET trong C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

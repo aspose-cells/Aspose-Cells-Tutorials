@@ -42,6 +42,8 @@ Tanuld meg, hogyan mentheted el a Pivot táblákat képként az Aspose.Cells seg
 Ismerd meg, hogyan exportálhatsz egy Excel-tartományt képként C#-ban az Aspose.Cells segítségével, lépésről lépésre útmutatóval.
 ### [Excel munkalap mentése képként – Teljes C# útmutató](./how-to-save-excel-sheet-as-image-complete-c-guide/)
 Tanuld meg, hogyan mentheted el az Excel munkalapokat képként C#-ban az Aspose.Cells használatával, lépésről lépésre útmutatóval.
+### [Hogyan exportálj Excel-t PNG-be – teljes lépésről‑lépésre útmutató](./how-to-export-excel-to-png-full-step-by-step-guide/)
+Ismerd meg, hogyan mentheted el az Excel munkafüzeteket PNG képként az Aspose.Cells segítségével, részletes lépésekkel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

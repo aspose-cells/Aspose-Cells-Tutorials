@@ -51,6 +51,8 @@ Apprenez à créer un classeur C#, exporter un DataTable vers Excel et appliquer
 Apprenez à créer un nouveau classeur et à exporter les données Excel en fichier TXT avec précision grâce à Aspose.Cells pour .NET.
 ### [Comment exporter une plage de cellules en tant que tableau – Guide complet C#](./how-to-export-cell-range-as-table-complete-c-guide/)
 Apprenez à exporter une plage de cellules sous forme de tableau dans Excel à l'aide d'Aspose.Cells pour .NET dans ce guide complet C#.
+### [Créer une feuille Excel à partir d'un DataTable en C# – guide étape par étape](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+Apprenez à générer une feuille Excel à partir d'un DataTable en C# avec Aspose.Cells, étape par étape, pour tous les niveaux.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

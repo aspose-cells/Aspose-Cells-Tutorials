@@ -181,6 +181,8 @@ Aprenda a gerar arquivos Excel a partir de um modelo usando Marcadores Inteligen
 Aprenda a carregar um modelo Excel em C# e gerar várias planilhas de forma rápida usando Aspose.Cells.
 ### [Marcador de intervalo para processar dados aninhados em C# – Guia completo](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
 Aprenda a usar marcadores de intervalo para processar dados aninhados em C# passo a passo neste guia completo.
+### [Importar JSON para Excel em C# – guia passo a passo](./import-json-to-excel-in-c-step-by-step-guide/)
+Aprenda a importar arquivos JSON para planilhas Excel usando C# com Aspose.Cells, passo a passo, de forma simples e eficiente.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

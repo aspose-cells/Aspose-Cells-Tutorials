@@ -231,6 +231,7 @@ Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers Excel‑Dateien aus Modelle
 ### [Range Smart Marker zur Verarbeitung verschachtelter Daten in C# – Vollständige Anleitung](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
 ### [Excel-Vorlage in C# laden – Mehrere Arbeitsblätter schnell generieren](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
 ### [Formel mit Smart Markers auswerten – Komplettanleitung](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
+### [JSON nach Excel in C# importieren – Schritt‑für‑Schritt‑Anleitung](./import-json-to-excel-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

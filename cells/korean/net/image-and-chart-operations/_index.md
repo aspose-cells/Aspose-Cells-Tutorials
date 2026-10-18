@@ -42,6 +42,8 @@ Aspose.Cells를 사용하여 피벗 테이블을 이미지 파일로 저장하�
 Aspose.Cells를 사용하여 Excel 범위를 이미지로 내보내는 전체 C# 가이드를 단계별로 안내합니다.
 ### [Excel 시트를 이미지로 저장하는 방법 – 완전한 C# 가이드](./how-to-save-excel-sheet-as-image-complete-c-guide/)
 Aspose.Cells를 사용하여 .NET에서 Excel 시트를 이미지 파일로 저장하는 전체 단계별 가이드를 확인하세요.
+### [Excel을 PNG로 내보내는 방법 – 전체 단계별 가이드](./how-to-export-excel-to-png-full-step-by-step-guide/)
+Aspose.Cells를 사용하여 Excel 파일을 PNG 이미지로 변환하는 전체 단계별 가이드를 확인하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -42,6 +42,8 @@
 Узнайте, как экспортировать диапазон ячеек Excel в изображение с помощью Aspose.Cells в C#. Полное пошаговое руководство.
 ### [Как сохранить лист Excel в виде изображения – Полное руководство на C#](./how-to-save-excel-sheet-as-image-complete-c-guide/)
 Узнайте, как сохранить лист Excel в виде изображения с помощью Aspose.Cells в полном руководстве на C#.
+### [Как экспортировать Excel в PNG – полное пошаговое руководство](./how-to-export-excel-to-png-full-step-by-step-guide/)
+Подробное руководство по экспорту файлов Excel в формат PNG с помощью Aspose.Cells в .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

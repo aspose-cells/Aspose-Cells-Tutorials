@@ -81,7 +81,6 @@ Aspose.Cells स्मार्ट मार्कर अनाम प्रक�
 ### [स्मार्ट मार्करों में जेनेरिक सूची का उपयोग करें Aspose.Cells](./generic-list-smart-markers/)
 जेनेरिक सूचियों और स्मार्ट मार्करों के साथ .NET के लिए Aspose.Cells को मास्टर करें ताकि आसानी से गतिशील एक्सेल रिपोर्ट बनाई जा सके। डेवलपर्स के लिए आसान गाइड।
 ### [स्मार्ट मार्कर Aspose.Cells .NET में HTML प्रॉपर्टी का उपयोग करें](./html-property-smart-markers/)
-.NET अनुप्रयोगों के लिए स्मार्ट मार्करों में HTML प्रॉपर्टी का उपयोग करने पर इस चरण-दर-शरण ट्यूटोरियल के साथ Aspose.Cells की शक्ति को अनलॉक करें।
 ### [स्मार्ट मार्करों के साथ नेस्टेड ऑब्जेक्ट्स को संभालें Aspose.Cells](./nested-objects-smart-markers/)
 ### [Aspose.Cells में नेस्टेड रेंज विकल्प सक्षम करें](./enable-nested-range-option-in-aspose-cells-smartmarker/)
 Aspose.Cells में Nested Range विकल्प को सक्षम करके जटिल डेटा संरचनाओं को आसानी से संभालें।
@@ -143,6 +142,7 @@ C# में एरे डेटा का उपयोग करके टे�
 ### [C# में स्मार्ट मार्कर संग्रह बनाएं – पूर्ण गाइड](./create-smart-marker-collection-in-c-complete-guide/)
 
 ### [शीट्स को स्वचालित रूप से नाम दें – C# में कई शीट्स उत्पन्न करें](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+### [C# में JSON को Excel में आयात – चरण‑दर‑चरण गाइड](./import-json-to-excel-in-c-step-by-step-guide/)
 
 ### [मास्टर डेटा ऑब्जेक्ट बनाएं – डिटेल शीट जेनरेट करने के लिए चरण-दर-चरण गाइड](./create-master-data-object-step-by-step-guide-to-generate-det/)
 Aspose.Cells में मास्टर डेटा ऑब्जेक्ट बनाकर डिटेल शीट जेनरेट करने की प्रक्रिया को चरण-दर-चरण सीखें।

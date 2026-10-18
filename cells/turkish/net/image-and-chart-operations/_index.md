@@ -42,6 +42,8 @@ Aspose.Cells kullanarak bir pivot tabloyu görüntüye nasıl kaydedeceğinizi a
 Aspose.Cells ile Excel aralığını yüksek kaliteli bir görüntüye dönüştürmeyi adım adım keşfedin.
 ### [Excel Sayfasını Görüntü Olarak Kaydetme – Tam C# Rehberi](./how-to-save-excel-sheet-as-image-complete-c-guide/)
 Aspose.Cells kullanarak bir Excel çalışma sayfasını C# ile yüksek kaliteli bir görüntü olarak kaydetmeyi adım adım öğrenin.
+### [Excel'i PNG Olarak Dışa Aktarma – Tam Adım Adım Kılavuz](./how-to-export-excel-to-png-full-step-by-step-guide/)
+Aspose.Cells kullanarak Excel dosyalarınızı yüksek kaliteli PNG görüntülerine nasıl dönüştüreceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

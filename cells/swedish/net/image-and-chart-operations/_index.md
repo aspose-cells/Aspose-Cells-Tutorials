@@ -42,6 +42,8 @@ Lär dig hur du sparar en pivottabell som bild i .NET med Aspose.Cells i en enke
 Lär dig hur du exporterar ett Excel-område som bild i .NET med Aspose.Cells i en komplett C#-guide.
 ### [Hur man sparar Excel-ark som bild – Komplett C#-guide](./how-to-save-excel-sheet-as-image-complete-c-guide/)
 Lär dig steg för steg hur du sparar ett Excel-ark som bild i C# med Aspose.Cells.
+### [Hur du exporterar Excel till PNG – fullständig steg‑för‑steg‑guide](./how-to-export-excel-to-png-full-step-by-step-guide/)
+Lär dig hur du exporterar Excel-filer till PNG-bilder i .NET med Aspose.Cells i en komplett steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

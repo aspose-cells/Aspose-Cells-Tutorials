@@ -74,6 +74,8 @@ Hướng dẫn chi tiết cách tải tệp Excel bằng C# và xóa các hàng 
 
 ### [Xóa nhiều hàng trong Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Học cách xóa nhiều hàng trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn chi tiết từng bước này bao gồm các điều kiện tiên quyết, ví dụ mã hóa và câu hỏi thường gặp dành cho nhà phát triển.
+### [Cách xóa hàng trong Excel bằng C# – bảo vệ tiêu đề bảng](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
+Hướng dẫn chi tiết cách xóa các hàng trong Excel bằng C# mà không ảnh hưởng đến tiêu đề bảng.
 ### [Chèn một cột vào Aspose.Cells .NET](./insert-column-aspose-cells/)
 Tìm hiểu cách chèn cột vào Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước đơn giản của chúng tôi để thêm cột mới một cách liền mạch. Hoàn hảo cho các nhà phát triển .NET.
 ### [Chèn một hàng vào Aspose.Cells .NET](./insert-row-aspose-cells/)

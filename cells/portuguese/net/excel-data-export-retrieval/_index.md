@@ -54,6 +54,9 @@ Aprenda como criar uma nova pasta de trabalho e exportar dados do Excel para um 
 ### [Como Exportar um Intervalo de Células como Tabela – Guia Completo em C#](./how-to-export-cell-range-as-table-complete-c-guide/)
 Aprenda a exportar um intervalo de células como tabela usando Aspose.Cells para .NET neste tutorial passo a passo, ideal para desenvolvedores.
 
+### [Criar planilha Excel a partir de um DataTable em C# – guia passo a passo](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+Aprenda a criar uma planilha Excel a partir de um DataTable em C# usando Aspose.Cells para .NET, passo a passo, ideal para todos os níveis.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

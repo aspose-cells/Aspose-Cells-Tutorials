@@ -74,7 +74,6 @@ Erfahren Sie, wie Sie mit Aspose.Cells Excel-Diagramme programmgesteuert in ein 
 ### [PowerPoint aus Excel erstellen – Komplettes C#‑Tutorial](./create-powerpoint-from-excel-complete-c-tutorial/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel‑Daten programmgesteuert in PowerPoint‑Präsentationen konvertieren – Schritt‑für‑Schritt‑Anleitung.
 ### [PowerPoint aus Excel erstellen – Schritt‑für‑Schritt‑Anleitung](./create-powerpoint-from-excel-step-by-step-guide/)
-Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel‑Daten programmgesteuert in eine PowerPoint‑Präsentation konvertieren.
 ### [Excel mit C# nach PowerPoint exportieren – Komplettanleitung](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
 Erfahren Sie, wie Sie Excel-Daten mit Aspose.Cells für .NET programmgesteuert in PowerPoint‑Präsentationen exportieren – Schritt‑für‑Schritt‑Anleitung.
 ### [Excel in PowerPoint konvertieren – Schritt‑für‑Schritt C#‑Leitfaden](./convert-excel-to-powerpoint-step-by-step-c-guide/)
@@ -89,6 +88,18 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel‑Arbeitsblätter program
 Erfahren Sie, wie Sie mit Aspose.Cells Excel‑Arbeitsblätter programmgesteuert als Textdateien exportieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
 ### [Exportieren von Excel – Leitfaden für Tab‑getrennten Text](./how-to-export-excel-tab-delimited-text-guide/)
 Erfahren Sie, wie Sie Excel-Arbeitsblätter programmgesteuert in tab‑getrennte Textdateien exportieren.
+### [Programmgesteuertes Angeben von HTML CrossType in der HTML-Ausgabe in .NET](./specifying-html-crosstype-in-output-html/)
+Erfahren Sie, wie Sie HTML CrossType in Aspose.Cells für .NET angeben. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um Excel-Dateien präzise in HTML zu konvertieren.
+### [Numbers-Tabellenkalkulation programmgesteuert in .NET lesen](./reading-numbers-spreadsheet/)
+Erfahren Sie in diesem ausführlichen Tutorial, wie Sie Numbers-Tabellen lesen und mit Aspose.Cells für .NET in PDF konvertieren.
+### [Speichern der Arbeitsmappe im strikten Open XML-Tabellenkalkulationsformat in .NET](./saving-workbook-to-strict-open-xml-spreadsheet-format/)
+Erfahren Sie in diesem ausführlichen Tutorial, wie Sie mit Aspose.Cells für .NET eine Arbeitsmappe im Strict Open XML Spreadsheet-Format speichern.
+### [Programmgesteuertes Verfolgen des Dokumentkonvertierungsfortschritts in .NET](./tracking-document-conversion-progress/)
+Beschreibung: Erfahren Sie in diesem ausführlichen Tutorial, wie Sie den Fortschritt der Dokumentkonvertierung programmgesteuert mit Aspose.Cells für .NET verfolgen.
+### [Programmgesteuertes Verfolgen des Dokumentkonvertierungsfortschritts für TIFF in .NET](./tracking-document-conversion-progress-for-tiff/)
+Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie den Fortschritt der TIFF-Konvertierung mit Aspose.Cells für .NET programmgesteuert verfolgen. Verbessern Sie Ihre Dokumentenverwaltung.
+### [Exportieren von Excel nach TXT in C# – vollständige Programmieranleitung](./export-excel-to-txt-in-c-complete-programming-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel‑Arbeitsmappen programmgesteuert in Textdateien (TXT) exportieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

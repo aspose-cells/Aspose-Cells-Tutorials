@@ -47,6 +47,9 @@ Khám phá cách xuất một phạm vi worksheet trong C# bằng Aspose.Cells c
 ### [Cách xuất phạm vi ô thành bảng – Hướng dẫn C# đầy đủ](./how-to-export-cell-range-as-table-complete-c-guide/)
 Hướng dẫn chi tiết cách xuất một phạm vi ô thành bảng trong Excel bằng Aspose.Cells cho .NET sử dụng C#.
 
+### [Tạo bảng tính Excel từ DataTable trong C# – hướng dẫn từng bước](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo tệp Excel từ DataTable trong C# bằng Aspose.Cells, phù hợp cho mọi cấp độ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

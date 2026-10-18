@@ -170,6 +170,8 @@ Ismerje meg, hogyan konvertálhat JSON adatot XLSX fájlba C#-ban SmartMarkerrel
 ### [Excel sablon betöltése C#-ban – Gyorsan több lap létrehozása](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
 ### [Tartományos intelligens jelölő a beágyazott adatok feldolgozásához C#-ban – Teljes útmutató](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
 Ismerd meg, hogyan használhatod a tartományos Smart Markert beágyazott adatok C#-ban történő feldolgozásához, lépésről lépésre útmutatóval.
+### [JSON importálása Excel-be C#‑ban – lépésről‑lépésre útmutató](./import-json-to-excel-in-c-step-by-step-guide/)
+Ismerje meg, hogyan importálhat JSON adatokat Excel-fájlba C#‑ban lépésről‑lépésre.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

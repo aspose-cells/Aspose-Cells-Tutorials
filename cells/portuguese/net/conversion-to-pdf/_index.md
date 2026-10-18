@@ -69,6 +69,8 @@ Aprenda a incorporar fontes ao gerar PDFs a partir de arquivos Excel usando C# e
 Aprenda a exportar planilhas do Excel como PDF usando Aspose.Cells, passo a passo, para salvar sua pasta de trabalho como PDF.
 ### [Salvar XLSX como PDF em C# – Guia Completo com PDF/A‑1b](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)
 Aprenda a salvar arquivos XLSX como PDF/A‑1b em C# usando Aspose.Cells, garantindo conformidade e qualidade.
+### [Converter Excel para PDF em C# – guia completo de programação](./convert-excel-to-pdf-in-c-complete-programming-guide/)
+Aprenda passo a passo como converter arquivos Excel para PDF usando C# com o Aspose.Cells. Guia completo para desenvolvedores.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

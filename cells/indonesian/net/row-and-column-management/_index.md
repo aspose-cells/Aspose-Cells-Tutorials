@@ -68,6 +68,8 @@ Pelajari cara menghapus kolom dalam file Excel menggunakan Aspose.Cells for .NET
 Pelajari cara menghapus baris di Excel dengan Aspose.Cells for .NET. Panduan langkah demi langkah ini mencakup prasyarat, impor kode, dan panduan terperinci untuk manipulasi data yang lancar.
 ### [Aspose Cells Hapus Baris – Lindungi Baris Header di Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 Pelajari cara menghapus baris di Excel sambil melindungi baris header menggunakan Aspose.Cells untuk .NET.
+### [Cara menghapus baris di Excel dengan C# – melindungi header tabel](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
+Pelajari cara menghapus baris di Excel menggunakan C# sambil melindungi header tabel agar tidak terhapus.
 ### [Hapus Beberapa Baris di Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Pelajari cara menghapus beberapa baris di Excel menggunakan Aspose.Cells untuk .NET. Panduan terperinci dan langkah demi langkah ini mencakup prasyarat, contoh pengodean, dan Tanya Jawab Umum untuk pengembang.
 ### [Muat File Excel C# – Cara Menghapus Baris dan Menghapus Baris Tertentu](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)

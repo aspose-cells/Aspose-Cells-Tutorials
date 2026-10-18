@@ -171,6 +171,8 @@ Dowiedz się, jak tworzyć dane dla inteligentnych znaczników i wypełniać sza
 Dowiedz się, jak wczytać szablon Excela w C# i szybko wygenerować wiele arkuszy w raporcie.
 ### [Zakresowy znacznik inteligentny do przetwarzania danych zagnieżdżonych w C# – Kompletny przewodnik](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
 Dowiedz się, jak używać zakresowych znaczników inteligentnych w Aspose.Cells, aby obsługiwać zagnieżdżone dane w C#.
+### [Import JSON do Excela w C# – przewodnik krok po kroku](./import-json-to-excel-in-c-step-by-step-guide/)
+Dowiedz się, jak w prosty sposób zaimportować dane JSON do pliku Excel przy użyciu Aspose.Cells w C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

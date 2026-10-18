@@ -161,6 +161,8 @@ Aprenda a exportar datos a Excel rellenando una plantilla a partir de una matriz
 Aprenda paso a paso a exportar archivos Excel en C# usando Aspose.Cells, cubriendo opciones avanzadas y mejores prácticas.
 ### [Repetir datos en Excel – Rellenar plantilla con SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
 Aprenda a repetir datos en una plantilla de Excel usando SmartMarker para generar informes dinámicos.
+### [Importar JSON a Excel en C# – guía paso a paso](./import-json-to-excel-in-c-step-by-step-guide/)
+Aprenda a importar datos JSON a un archivo Excel usando C# y Aspose.Cells paso a paso.
 ### [Cómo nombrar hojas automáticamente – Generar múltiples hojas en C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Aprenda a crear y nombrar varias hojas de cálculo de forma automática en C# usando Aspose.Cells.
 ### [Automatizar la generación de facturas – Nomenclatura dinámica de hojas de cálculo y repetición en C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)

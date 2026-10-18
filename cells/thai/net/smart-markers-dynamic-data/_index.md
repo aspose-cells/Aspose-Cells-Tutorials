@@ -174,6 +174,8 @@
 เรียนรู้วิธีโหลดเทมเพลต Excel ด้วย C# และสร้างหลายชีตอย่างรวดเร็วด้วย Aspose.Cells
 ### [Range Smart Marker เพื่อประมวลผลข้อมูลซ้อนกันใน C# – คู่มือฉบับสมบูรณ์](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
 เรียนรู้วิธีใช้ Range Smart Marker ใน Aspose.Cells เพื่อจัดการข้อมูลที่ซ้อนกันใน C# อย่างละเอียดและครบถ้วน
+### [นำเข้า JSON ไปยัง Excel ด้วย C# – คู่มือขั้นตอนโดยละเอียด](./import-json-to-excel-in-c-step-by-step-guide/)
+เรียนรู้วิธีนำเข้าไฟล์ JSON ไปยังสเปรดชีต Excel ด้วย C# อย่างละเอียดและง่ายดาย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

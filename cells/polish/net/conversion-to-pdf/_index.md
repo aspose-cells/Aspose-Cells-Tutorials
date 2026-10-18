@@ -67,6 +67,8 @@ Dowiedz się, jak osadzić czcionki w plikach PDF przy eksporcie z Excela w C#, 
 Dowiedz się, jak zapisać skoroszyt Excela jako plik PDF przy użyciu Aspose.Cells w kilku prostych krokach.
 ### [Zapisz plik XLSX jako PDF w C# – Kompletny przewodnik z PDF/A‑1b](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)
 Dowiedz się, jak zapisać plik XLSX jako PDF w C# z zachowaniem standardu PDF/A‑1b, korzystając z Aspose.Cells.
+### [Konwertuj Excel do PDF w C# – kompletny przewodnik programistyczny](./convert-excel-to-pdf-in-c-complete-programming-guide/)
+Pełny przewodnik po konwersji plików Excel do PDF w C# przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

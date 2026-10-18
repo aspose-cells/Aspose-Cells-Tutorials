@@ -125,6 +125,9 @@ Apprenez à créer un rapport Excel dynamique en combinant un modèle avec des S
 Apprenez à utiliser le marqueur intelligent de plage pour gérer des données imbriquées en C# avec Aspose.Cells, guide complet pas à pas.
 ### [Charger un modèle Excel en C# – Générer plusieurs feuilles rapidement](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
 Apprenez à charger un modèle Excel en C# et à générer rapidement plusieurs feuilles avec Aspose.Cells.
+### [Importer JSON vers Excel en C# – guide étape par étape](./import-json-to-excel-in-c-step-by-step-guide/)
+Importez des données JSON dans un classeur Excel en C# avec Aspose.Cells, suivez le guide pas à pas.
+### [Comment nommer automatiquement les feuilles – Générer plusieurs feuilles en C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

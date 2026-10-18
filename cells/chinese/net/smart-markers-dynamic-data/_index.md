@@ -157,6 +157,7 @@ Aspose.Cells 智能标记器还支持匿名类型，无需预定义结构即可�
 ### [如何通过合并 Excel 模板与智能标记生成 Excel 报告](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
 ### [在 C# 中加载 Excel 模板 – 快速生成多个工作表](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
 ### [在 Aspose.Cells 中使用范围智能标记处理嵌套数据 – 完整指南](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
+### [在 C# 中将 JSON 导入 Excel – 步骤指南](./import-json-to-excel-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

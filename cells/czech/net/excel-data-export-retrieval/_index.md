@@ -51,6 +51,8 @@ Naučte se, jak pomocí Aspose.Cells vytvořit sešit v C#, exportovat DataTable
 Naučte se, jak pomocí Aspose.Cells vytvořit nový sešit a exportovat data do souboru TXT s vysokou přesností.
 ### [Jak exportovat oblast buněk jako tabulku – Kompletní průvodce C#](./how-to-export-cell-range-as-table-complete-c-guide/)
 Naučte se, jak pomocí Aspose.Cells pro .NET exportovat vybranou oblast buněk jako strukturovanou tabulku v jazyce C#.
+### [Vytvoření listu Excel z DataTable v C# – průvodce krok za krokem](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET vytvořit Excel soubor z objektu DataTable v C# krok za krokem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

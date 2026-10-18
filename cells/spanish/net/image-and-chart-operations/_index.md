@@ -43,6 +43,8 @@ Aprenda a exportar un rango de celdas de Excel como imagen en .NET usando Aspose
 Aprenda a guardar una tabla dinámica como imagen en .NET con Aspose.Cells con esta guía paso a paso.
 ### [Cómo guardar una hoja de Excel como imagen – Guía completa en C#](./how-to-save-excel-sheet-as-image-complete-c-guide/)
 Aprenda a guardar una hoja de Excel como imagen con Aspose.Cells en C#, paso a paso y con ejemplos claros.
+### [Cómo exportar Excel a PNG – guía completa paso a paso](./how-to-export-excel-to-png-full-step-by-step-guide/)
+Aprenda a exportar archivos de Excel a imágenes PNG con Aspose.Cells siguiendo esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

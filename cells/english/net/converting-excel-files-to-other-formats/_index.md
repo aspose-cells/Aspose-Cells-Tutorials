@@ -79,7 +79,6 @@ Learn how to generate PowerPoint presentations from Excel data using Aspose.Cell
 ### [How to Export Excel to PowerPoint – Step‑by‑Step Guide](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
 Learn how to export Excel to PowerPoint programmatically using Aspose.Cells for .NET in this step‑by‑step guide.
 ### [Create PowerPoint from Excel – Step‑by‑Step Guide](./create-powerpoint-from-excel-step-by-step-guide/)
-Learn how to create a PowerPoint presentation from an Excel file using Aspose.Cells for .NET in a step‑by‑step guide.
 ### [How to Export Excel to PowerPoint with C# – Complete Guide](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
 Learn how to export Excel worksheets to PowerPoint presentations using C# and Aspose.Cells for .NET in this comprehensive step‑by‑step guide.
 ### [Convert Excel to PowerPoint – Step‑by‑Step C# Guide](./convert-excel-to-powerpoint-step-by-step-c-guide/)
@@ -92,6 +91,18 @@ Learn how to export Excel worksheets to plain text (TXT) using Aspose.Cells for 
 Learn how to save Excel as text using Aspose.Cells in a clear step‑by‑step guide.
 ### [How to convert Excel to PNG with C# – step‑by‑step guide](./how-to-convert-excel-to-png-with-c-step-by-step-guide/)
 Learn how to convert Excel worksheets to PNG images using C# and Aspose.Cells in a clear step‑by‑step guide.
+### [Export excel to txt in C# – complete programming guide](./export-excel-to-txt-in-c-complete-programming-guide/)
+Learn how to export Excel worksheets to TXT files using C# and Aspose.Cells in this step-by-step guide.
+### [Specifying HTML CrossType in Output HTML Programmatically in .NET](./specifying-html-crosstype-in-output-html/)
+Learn how to specify HTML CrossType in Aspose.Cells for .NET. Follow our step-by-step tutorial to convert Excel files to HTML with precision.
+### [Reading Numbers Spreadsheet Programmatically in .NET](./reading-numbers-spreadsheet/)
+Learn how to read Numbers spreadsheets and convert them to PDF using Aspose.Cells for .NET in this detailed tutorial.
+### [Saving Workbook to Strict Open XML Spreadsheet Format in .NET](./saving-workbook-to-strict-open-xml-spreadsheet-format/)
+Learn how to save a workbook in the Strict Open XML Spreadsheet format using Aspose.Cells for .NET in this detailed tutorial.
+### [Tracking Document Conversion Progress Programmatically in .NET](./tracking-document-conversion-progress/)
+description: Learn how to track document conversion progress programmatically using Aspose.Cells for .NET in this detailed tutorial.
+### [Tracking Document Conversion Progress for TIFF Programmatically in .NET](./tracking-document-conversion-progress-for-tiff/)
+Learn to track TIFF conversion progress programmatically using Aspose.Cells for .NET with our step-by-step guide. Enhance your document management skills.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

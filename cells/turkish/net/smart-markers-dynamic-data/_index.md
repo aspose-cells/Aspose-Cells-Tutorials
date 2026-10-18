@@ -173,6 +173,8 @@ C# ile iç içe veri yapılarını işlemek için aralık akıllı işaretleyici
 C# kullanarak bir Excel şablonunu yükleyin ve dinamik olarak birden çok sayfa oluşturun.
 ### [Akıllı İşaretleyicilerle Formülü Değerlendirme – Tam Kılavuz](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
 Aspose.Cells for .NET ile Akıllı İşaretleyicilerde formülleri nasıl değerlendireceğinizi adım adım öğrenin ve raporlarınızda doğru sonuçlar elde edin.
+### [C#'ta JSON'u Excel'e Aktarma – Adım Adım Kılavuz](./import-json-to-excel-in-c-step-by-step-guide/)
+C# kullanarak JSON verilerini Excel dosyalarına nasıl aktaracağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

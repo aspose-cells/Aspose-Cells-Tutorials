@@ -144,6 +144,7 @@ Learn how to automatically name Excel worksheets during generation using Aspose.
 ### [Export Data to Excel: Populate a Template from an Array in C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
 Learn how to populate an Excel template from an array using Aspose.Cells in C#, enabling fast and dynamic report generation.
 ### [How to Export Excel – Complete Guide for C# Developers](./how-to-export-excel-complete-guide-for-c-developers/)
+### [Import json to excel in C# – step‑by‑step guide](./import-json-to-excel-in-c-step-by-step-guide/)
 ### [How to Name Sheets Automatically – Generate Multiple Sheets in C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 ### [Automate Invoice Generation – Dynamic Worksheet Naming & Repeating in C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
 Learn how to automatically generate invoices with dynamic worksheet names and repeat sections using Aspose.Cells for .NET in C#.

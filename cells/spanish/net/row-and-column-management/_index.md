@@ -106,6 +106,8 @@ Descubra una guía paso a paso para insertar varias filas en GridJs de forma rá
 Aprenda a aplicar wrapcols y wraprows en Excel con C#, y a recalcular fórmulas automáticamente paso a paso.
 ### [Desplazar celdas hacia arriba en Excel con C# – Guía completa](./shift-cells-up-in-excel-with-c-complete-guide/)
 Aprenda a mover celdas hacia arriba en Excel usando C# con Aspose.Cells, paso a paso y ejemplos claros.
+### [Cómo eliminar filas en Excel con C# – proteger encabezado de tabla](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
+Aprenda a eliminar filas manteniendo protegido el encabezado de la tabla en Excel usando C# y Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -67,6 +67,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells Schriftarten in PDFs einbetten, um konsis
 Erfahren Sie, wie Sie mit Aspose.Cells Arbeitsmappen aus Excel vollständig als PDF speichern – Schritt für Schritt erklärt.
 ### [XLSX als PDF in C# speichern – Komplettanleitung mit PDF/A‑1b](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)
 Erfahren Sie, wie Sie XLSX-Dateien in C# als PDF/A‑1b speichern – Schritt für Schritt Anleitung für Entwickler.
+### [Excel in PDF konvertieren in C# – vollständiger Programmierleitfaden](./convert-excel-to-pdf-in-c-complete-programming-guide/)
+Erfahren Sie, wie Sie Excel-Dateien mit C# und Aspose.Cells vollständig in PDF konvertieren – Schritt für Schritt Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

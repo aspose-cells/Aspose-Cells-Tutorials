@@ -82,6 +82,18 @@ Aspose.Cells для .NET упрощает преобразование доку�
 Узнайте, как программно сохранить книгу Excel в текстовый файл, используя Aspose.Cells, следуя пошаговому руководству.
 ### [Как экспортировать Excel в PowerPoint с C# – Полное руководство](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
 Узнайте, как программно экспортировать файлы Excel в презентацию PowerPoint с помощью Aspose.Cells для .NET, следуя пошаговому руководству.
+### [Указание HTML CrossType в выходном HTML программным способом в .NET](./specifying-html-crosstype-in-output-html/)
+Узнайте, как указать HTML CrossType в Aspose.Cells для .NET. Следуйте нашему пошаговому руководству, чтобы преобразовать файлы Excel в HTML с точностью.
+### [Чтение числовых таблиц программным способом в .NET](./reading-numbers-spreadsheet/)
+Узнайте, как читать электронные таблицы Numbers и конвертировать их в PDF с помощью Aspose.Cells для .NET в этом подробном руководстве.
+### [Сохранение рабочей книги в строгом формате электронной таблицы Open XML в .NET](./saving-workbook-to-strict-open-xml-spreadsheet-format/)
+В этом подробном руководстве вы узнаете, как сохранить книгу в формате Strict Open XML Spreadsheet с помощью Aspose.Cells для .NET.
+### [Отслеживание процесса преобразования документа программным способом в .NET](./tracking-document-conversion-progress/)
+описание: Узнайте, как программно отслеживать ход преобразования документа с помощью Aspose.Cells для .NET в этом подробном руководстве.
+### [Отслеживание процесса преобразования документа в формат TIFF программным способом в .NET](./tracking-document-conversion-progress-for-tiff/)
+Научитесь отслеживать ход преобразования TIFF программно с помощью Aspose.Cells для .NET с помощью нашего пошагового руководства. Улучшите свои навыки управления документами.
+### [Экспорт Excel в TXT в C# – полное руководство](./export-excel-to-txt-in-c-complete-programming-guide/)
+Узнайте, как программно экспортировать данные из Excel в текстовый файл TXT с помощью C# и Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

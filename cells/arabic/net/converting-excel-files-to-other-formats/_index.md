@@ -118,6 +118,8 @@
 
 ### [كيفية تحويل Excel إلى PNG باستخدام C# – دليل خطوة بخطوة](./how-to-convert-excel-to-png-with-c-step-by-step-guide/)
 تعلم كيفية تحويل ملفات Excel إلى صور PNG باستخدام C# و Aspose.Cells خطوة بخطوة.
+### [تصدير Excel إلى TXT في C# – دليل برمجي كامل](./export-excel-to-txt-in-c-complete-programming-guide/)
+دليل شامل يوضح كيفية تصدير ملفات Excel إلى صيغة TXT باستخدام Aspose.Cells في C# خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

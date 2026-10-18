@@ -42,6 +42,8 @@
 本完整指南說明如何使用 Aspose.Cells 在 C# 中將 Excel 工作表的特定範圍匯出為高品質圖像。
 ### [如何將 Excel 工作表儲存為圖像 – 完整 C# 指南](./how-to-save-excel-sheet-as-image-complete-c-guide/)
 透過本完整 C# 教學，了解如何使用 Aspose.Cells 將 Excel 工作表儲存為高品質圖像。
+### [如何將 Excel 匯出為 PNG – 完整步驟指南](./how-to-export-excel-to-png-full-step-by-step-guide/)
+透過本完整步驟指南了解如何使用 Aspose.Cells 將 Excel 工作表匯出為 PNG 圖像。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

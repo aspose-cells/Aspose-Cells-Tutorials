@@ -153,6 +153,8 @@ Impara a impostare valori di cella basati su condizioni usando gli Smart Marker 
 ### [Carica modello Excel in C# – Genera più fogli rapidamente](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
 Scopri come cariarе un modello Excel in C# e generare rapidamente più fogli di lavoro con Aspose.Cells.
 ### [Smart marker di intervallo per elaborare dati annidati in C# – Guida completa](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
+### [Importa JSON in Excel con C# – guida passo‑passo](./import-json-to-excel-in-c-step-by-step-guide/)
+Importa dati JSON in un foglio Excel usando C# con Aspose.Cells, seguendo una guida dettagliata passo‑passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -185,6 +185,8 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 
 ### [在 C# 中使用範圍智慧標記處理巢狀資料 – 完整指南](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
 了解如何在 C# 中使用範圍智慧標記來處理巢狀資料，完整步驟教學，提升 Excel 報表的彈性與效能。
+### [在 C# 中將 JSON 匯入 Excel – 步驟說明指南](./import-json-to-excel-in-c-step-by-step-guide/)
+簡要說明如何使用 Aspose.Cells for .NET 在 C# 中將 JSON 資料匯入 Excel，提供完整步驟指引。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

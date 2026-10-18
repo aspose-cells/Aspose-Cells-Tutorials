@@ -75,7 +75,6 @@ Lär dig hur du sparar en arbetsbok i Strict Open XML Spreadsheet-formatet med h
 ### [Programmatiskt spåra dokumentkonverteringsförlopp i .NET](./tracking-document-conversion-progress/)
 beskrivning: Lär dig hur du spårar dokumentkonverteringsförloppet programmatiskt med hjälp av Aspose.Cells för .NET i den här detaljerade handledningen.
 ### [Programmatiskt spåra dokumentkonverteringsförlopp för TIFF i .NET](./tracking-document-conversion-progress-for-tiff/)
-Lär dig att spåra TIFF-konverteringsförloppet programmatiskt med Aspose.Cells för .NET med vår steg‑för‑steg‑guide. Förbättra dina dokumenthanteringsfärdigheter.
 ### [Konvertera XLSX till CSV i C# – Komplett steg‑för‑steg‑guide](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
 Lär dig hur du konverterar XLSX-filer till CSV i C# med en komplett steg‑för‑steg‑guide.
 ### [Konvertera Excel till Word – Komplett guide med C#](./convert-excel-to-word-complete-guide-with-c/)
@@ -102,6 +101,8 @@ Lär dig hur du konverterar Excel-filer till Word med Aspose.Cells för .NET i e
 ### [Hur du exporterar Excel – guide för tab‑avgränsad text](./how-to-export-excel-tab-delimited-text-guide/)Lär dig hur du exporterar Excel-data till tab‑avgränsad text med Aspose.Cells för .NET i denna steg‑för‑steg‑guide.
 ### [Hur du sparar Excel som text med Aspose.Cells – steg‑för‑steg‑guide](./how-to-save-excel-as-text-with-aspose-cells-step-by-step-gui/)Lär dig hur du sparar en Excel‑arbetsbok som textfil med Aspose.Cells i en detaljerad steg‑för‑steg‑guide.
 ### [Hur du konverterar Excel till PNG med C# – steg‑för‑steg‑guide](./how-to-convert-excel-to-png-with-c-step-by-step-guide/)Lär dig hur du konverterar Excel-filer till PNG-bilder med C# och Aspose.Cells i en detaljerad steg‑för‑steg‑guide.
+### [Exportera Excel till txt i C# – komplett programmeringsguide](./export-excel-to-txt-in-c-complete-programming-guide/)
+Lär dig hur du exporterar Excel-data till txt-filer i C# med en komplett steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

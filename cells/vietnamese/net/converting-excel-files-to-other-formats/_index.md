@@ -83,6 +83,8 @@ mô tả: Tìm hiểu cách theo dõi tiến trình chuyển đổi tài liệu 
 
 ### [Theo dõi tiến trình chuyển đổi tài liệu cho TIFF theo chương trình trong .NET](./tracking-document-conversion-progress-for-tiff/)
 Học cách theo dõi tiến trình chuyển đổi TIFF theo chương trình bằng Aspose.Cells cho .NET với hướng dẫn từng bước của chúng tôi. Nâng cao kỹ năng quản lý tài liệu của bạn.
+### [Xuất Excel sang TXT trong C# – hướng dẫn lập trình đầy đủ](./export-excel-to-txt-in-c-complete-programming-guide/)
+Tìm hiểu cách xuất tệp Excel sang định dạng TXT bằng C# và Aspose.Cells trong hướng dẫn chi tiết.
 
 ### [Đặt khu vực in trong Excel và xuất sang PowerPoint – Hướng dẫn từng bước](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
 

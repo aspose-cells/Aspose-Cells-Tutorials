@@ -42,6 +42,8 @@ Aspose.Cells का उपयोग करके .NET में पिवट क
 Aspose.Cells के साथ C# में Excel रेंज को इमेज में बदलने की पूरी प्रक्रिया सीखें। आसान चरणों में उच्च-गुणवत्ता वाली छवियां बनाएं।
 ### [Excel शीट को इमेज के रूप में सहेजना – पूर्ण C# गाइड](./how-to-save-excel-sheet-as-image-complete-c-guide/)
 Aspose.Cells का उपयोग करके C# में Excel शीट को इमेज फ़ाइल के रूप में सहेजने की पूरी प्रक्रिया सीखें।
+### [Excel को PNG में निर्यात करने का पूर्ण चरण-दर-चरण मार्गदर्शक](./how-to-export-excel-to-png-full-step-by-step-guide/)
+Excel फ़ाइल को PNG इमेज में बदलने की पूरी प्रक्रिया सीखें, कोड उदाहरण और सर्वोत्तम प्रथाओं के साथ।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

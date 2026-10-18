@@ -92,6 +92,8 @@ Aspose.Cells का उपयोग करके .NET में Excel फ़ा�
 
 ### [C# के साथ Excel को PNG में बदलें – चरण‑दर‑चरण गाइड](./how-to-convert-excel-to-png-with-c-step-by-step-guide/)
 
+### [C# में एक्सेल को TXT में निर्यात – पूर्ण प्रोग्रामिंग गाइड](./export-excel-to-txt-in-c-complete-programming-guide/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

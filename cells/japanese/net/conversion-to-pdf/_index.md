@@ -67,6 +67,8 @@ Aspose.Words を使用して、Word ファイルを高品質な PDF に変換す
 この完全ガイドでは、Excel ワークブックを PDF としてエクスポートする手順を詳しく解説します。
 ### [C# で XLSX を PDF に保存 – PDF/A‑1b 完全ガイド](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)
 Aspose.Cells を使用して、C# で XLSX ファイルを PDF/A‑1b 形式で保存する手順を詳しく解説します。
+### [C#でExcelをPDFに変換する – 完全プログラミングガイド](./convert-excel-to-pdf-in-c-complete-programming-guide/)
+この包括的なガイドでは、C# を使用して Excel ファイルを PDF に変換する手順を詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

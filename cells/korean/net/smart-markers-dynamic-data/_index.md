@@ -127,6 +127,9 @@ Aspose.Cells를 사용하여 C#에서 중첩 데이터를 처리하는 범위 �
 ### [C#에서 Excel 템플릿 로드 – 여러 시트를 빠르게 생성](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
 C#을 사용해 Excel 템플릿을 로드하고, 여러 시트를 자동으로 빠르게 생성하는 방법을 단계별로 안내합니다.
 
+### [C#에서 JSON을 Excel로 가져오기 – 단계별 가이드](./import-json-to-excel-in-c-step-by-step-guide/)
+C#을 사용하여 JSON 데이터를 Excel 파일로 변환하는 방법을 단계별로 설명합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

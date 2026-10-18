@@ -68,6 +68,8 @@ Apprenez à supprimer une colonne dans un fichier Excel avec Aspose.Cells pour .
 Apprenez à supprimer une ligne dans Excel avec Aspose.Cells pour .NET. Ce guide étape par étape couvre les prérequis, l'importation de code et une procédure détaillée pour une manipulation fluide des données.
 ### [Comment supprimer une ligne entière dans un fichier Excel avec C#](./how-to-delete-entire-row-in-an-excel-file-using-c/)
 Apprenez à supprimer une ligne complète d'un fichier Excel en C# avec Aspose.Cells pour .NET. Guide étape par étape.
+### [Comment supprimer des lignes dans Excel avec C# – protéger l’en‑tête du tableau](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
+Apprenez à supprimer des lignes tout en protégeant l’en‑tête du tableau dans Excel avec Aspose.Cells pour .NET.
 ### [Supprimer plusieurs lignes dans Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Apprenez à supprimer plusieurs lignes dans Excel avec Aspose.Cells pour .NET. Ce guide détaillé, étape par étape, couvre les prérequis, des exemples de codage et une FAQ pour les développeurs.
 ### [Aspose Cells – Supprimer des lignes tout en protégeant la ligne d’en-tête dans Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)

@@ -68,6 +68,8 @@ Aspose.Cells ile Excel dosyalarınızı PDF'ye dönüştürürken yazı tiplerin
 Excel çalışma kitabınızı PDF olarak kaydetmek için adım adım rehber. Aspose.Cells ile sorunsuz ve yüksek kalite sonuçlar elde edin.
 ### [C#'ta XLSX Dosyasını PDF/A‑1b Olarak Kaydet – Tam Kılavuz](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)
 XLSX dosyalarını C# ile PDF/A‑1b formatında kaydedin! Adım adım kılavuzumuzla yüksek kalite ve uyumluluk elde edin.
+### [C# ile Excel'i PDF'ye Dönüştür – tam programlama rehberi](./convert-excel-to-pdf-in-c-complete-programming-guide/)
+C# ile Excel dosyalarını PDF'ye dönüştürmek için adım adım tam rehber. Başlangıçtan ileri seviyeye kadar her şey burada.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

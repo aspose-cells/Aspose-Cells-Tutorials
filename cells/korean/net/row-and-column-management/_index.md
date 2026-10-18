@@ -105,6 +105,8 @@ C#에서 wrapcols와 wraprows를 활용하고 수식을 재계산하는 방법�
 Aspose.Cells for .NET을 사용하여 Excel에서 셀을 위로 이동하는 방법을 단계별로 안내합니다.
 ### [한 워크시트에서 다른 워크시트로 행 복사 – 완전 C# 가이드](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
 Aspose.Cells for .NET을 사용하여 한 워크시트에서 다른 워크시트로 행을 복사하는 단계별 C# 가이드를 확인하세요.
+### [C#로 Excel에서 행 삭제 – 테이블 헤더 보호](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
+C#를 사용해 Excel에서 테이블 헤더를 보호하면서 행을 삭제하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

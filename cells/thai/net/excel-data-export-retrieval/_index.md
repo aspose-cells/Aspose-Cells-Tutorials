@@ -51,6 +51,8 @@
 เรียนรู้วิธีสร้าง Workbook ใหม่และส่งออกไฟล์ Excel เป็น TXT อย่างแม่นยำด้วย Aspose.Cells สำหรับ .NET
 ### [วิธีส่งออกช่วงเซลล์เป็นตาราง – คู่มือ C# ฉบับสมบูรณ์](./how-to-export-cell-range-as-table-complete-c-guide/)
 เรียนรู้วิธีส่งออกช่วงเซลล์เป็นตารางด้วย Aspose.Cells สำหรับ .NET ในบทช่วยสอนขั้นตอนเต็มที่ เหมาะสำหรับผู้เริ่มต้นและนักพัฒนาที่มีประสบการณ์
+### [สร้างแผ่น Excel จาก DataTable ใน C# – คู่มือทีละขั้นตอน](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+เรียนรู้วิธีสร้างไฟล์ Excel จาก DataTable ด้วย C# อย่างละเอียดในบทช่วยสอนขั้นตอนต่อขั้นตอน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

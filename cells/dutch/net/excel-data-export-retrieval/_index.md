@@ -51,6 +51,8 @@ Leer hoe u met Aspose.Cells een Excel-werkmap maakt en een DataTable exporteert 
 Leer hoe u met Aspose.Cells een nieuwe werkmap maakt en gegevens nauwkeurig naar een TXT-bestand exporteert.
 ### [Hoe een celbereik exporteren als tabel – Complete C#-gids](./how-to-export-cell-range-as-table-complete-c-guide/)
 Leer hoe u met Aspose.Cells voor .NET een geselecteerd celbereik kunt exporteren naar een tabel in C#.
+### [Excel-werkblad maken vanuit een DataTable in C# – stapsgewijze gids](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+Leer hoe u met Aspose.Cells voor .NET een Excel-werkblad maakt vanuit een DataTable in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -46,6 +46,8 @@ C# में Aspose.Cells का उपयोग करके datetime को IS
 Aspose.Cells .NET के साथ ग्रिड कॉलम में मुद्रा फ़ॉर्मेट लागू करने के चरण‑दर‑चरण निर्देश।
 ### [एक्सेल में संख्या फ़ॉर्मेट लागू करना – कॉलम फ़ॉर्मेट करने के लिए चरण‑दर‑चरण गाइड](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
 Aspose.Cells के साथ Excel में कॉलम्स पर संख्या फ़ॉर्मेट लागू करने की पूरी प्रक्रिया सीखें।
+### [C# में Excel संख्याओं को राउंड करने का तरीका – पूर्ण प्रोग्रामिंग गाइड](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+.NET के लिए Aspose.Cells का उपयोग करके C# में Excel संख्याओं को राउंड करने की पूरी गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

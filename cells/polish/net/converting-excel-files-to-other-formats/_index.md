@@ -83,6 +83,20 @@ Dowiedz się, jak szybko wygenerować plik Word z danych Excela w C# przy użyci
 Dowiedz się, jak programowo zapisać plik Excel jako DOCX i wyeksportować wykresy do dokumentu Word przy użyciu Aspose.Cells.
 ### [Jak przekonwertować Excel na PNG w C# – przewodnik krok po kroku](./how-to-convert-excel-to-png-with-c-step-by-step-guide/)
 Dowiedz się, jak programowo konwertować pliki Excel na obrazy PNG w C# przy użyciu Aspose.Cells, krok po kroku.
+### [Utwórz prezentację PowerPoint z Excela – przewodnik krok po kroku](./create-powerpoint-from-excel-step-by-step-guide/)
+Dowiedz się, jak programowo przekształcić arkusz Excel w prezentację PowerPoint przy użyciu Aspose.Cells dla .NET.
+### [Określanie HTML CrossType w wyjściowym HTML programowo w .NET](./specifying-html-crosstype-in-output-html/)
+Dowiedz się, jak określić HTML CrossType w Aspose.Cells dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby precyzyjnie przekonwertować pliki Excel na HTML.
+### [Odczyt arkusza kalkulacyjnego liczb programowo w .NET](./reading-numbers-spreadsheet/)
+tym szczegółowym samouczku dowiesz się, jak odczytywać arkusze kalkulacyjne Numbers i konwertować je do formatu PDF za pomocą Aspose.Cells dla .NET.
+### [Zapisywanie skoroszytu w ścisłym formacie arkusza kalkulacyjnego Open XML w środowisku .NET](./saving-workbook-to-strict-open-xml-spreadsheet-format/)
+W tym szczegółowym samouczku dowiesz się, jak zapisać skoroszyt w formacie Strict Open XML Spreadsheet przy użyciu Aspose.Cells dla platformy .NET.
+### [Śledzenie postępu konwersji dokumentów programowo w środowisku .NET](./tracking-document-conversion-progress/)
+Opis: W tym szczegółowym samouczku dowiesz się, jak programowo śledzić postęp konwersji dokumentów za pomocą Aspose.Cells dla .NET.
+### [Śledzenie postępu konwersji dokumentów dla formatu TIFF programowo w środowisku .NET](./tracking-document-conversion-progress-for-tiff/)
+Naucz się śledzić postęp konwersji TIFF programowo, używając Aspose.Cells dla .NET z naszym przewodnikiem krok po kroku. Udoskonal swoje umiejętności zarządzania dokumentami.
+### [Eksportowanie Excela do txt w C# – kompletny przewodnik programistyczny](./export-excel-to-txt-in-c-complete-programming-guide/)
+Dowiedz się, jak programowo wyeksportować dane z pliku Excel do formatu txt w C# przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

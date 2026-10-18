@@ -106,6 +106,8 @@ Objevte podrobný návod, jak použít WrapCols a WrapRows v Excelu pomocí Aspo
 Naučte se, jak pomocí Aspose.Cells pro .NET posunout buňky nahoru v Excelu pomocí C#. Podrobný krok‑za‑krokem návod.
 ### [Kopírování řádků z jednoho listu do druhého – kompletní průvodce C#](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
 Objevte podrobný průvodce, jak pomocí Aspose.Cells pro .NET v C# kopírovat řádky z jednoho listu do druhého.
+### [Jak odstranit řádky v Excelu pomocí C# – chránit záhlaví tabulky](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
+Naučte se, jak pomocí Aspose.Cells pro .NET smazat řádky a zároveň zachovat záhlaví tabulky.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

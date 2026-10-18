@@ -108,6 +108,8 @@ Scopri come inserire rapidamente più righe in una tabella GridJs con pochi pass
 Scopri come usare wrapcols in C# con Excel WRAPROWS e ricalcolare le formule in modo semplice e dettagliato.
 ### [Spostare le celle verso l'alto in Excel con C# – Guida completa](./shift-cells-up-in-excel-with-c-complete-guide/)
 Scopri come spostare le celle verso l'alto in Excel usando C# e Aspose.Cells con questa guida passo passo.
+### [Come eliminare righe in Excel con C# – proteggere l'intestazione della tabella](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
+Scopri come eliminare righe in Excel con C# mantenendo intatta l'intestazione della tabella.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

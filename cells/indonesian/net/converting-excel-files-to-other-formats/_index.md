@@ -89,6 +89,20 @@ Pelajari cara mengekspor file Excel menjadi teks berformat tab-delimited menggun
 Pelajari cara mengekspor data Excel ke presentasi PowerPoint menggunakan Aspose.Cells for .NET dengan contoh kode C# lengkap.
 ### [Mengonversi Excel ke PNG secara Terprogram di .NET](./how-to-convert-excel-to-png-with-c-step-by-step-guide/)
 Pelajari cara mengonversi file Excel menjadi gambar PNG menggunakan C# dan Aspose.Cells dalam panduan langkah demi langkah.
+### [Membuat PowerPoint dari Excel – Panduan Langkah demi Langkah di .NET](./create-powerpoint-from-excel-step-by-step-guide/)
+Pelajari cara membuat presentasi PowerPoint dari file Excel secara terprogram menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah ini.
+### [Menentukan HTML CrossType dalam Output HTML Secara Terprogram di .NET](./specifying-html-crosstype-in-output-html/)
+Pelajari cara menentukan HTML CrossType di Aspose.Cells untuk .NET. Ikuti tutorial langkah demi langkah kami untuk mengonversi file Excel ke HTML dengan tepat.
+### [Membaca Lembar Kerja Angka Secara Terprogram di .NET](./reading-numbers-spreadsheet/)
+Pelajari cara membaca lembar kerja Numbers dan mengonversinya ke PDF menggunakan Aspose.Cells untuk .NET dalam tutorial terperinci ini.
+### [Menyimpan Buku Kerja ke Format Spreadsheet XML Terbuka yang Ketat di .NET](./saving-workbook-to-strict-open-xml-spreadsheet-format/)
+Pelajari cara menyimpan buku kerja dalam format Strict Open XML Spreadsheet menggunakan Aspose.Cells untuk .NET dalam tutorial terperinci ini.
+### [Pelacakan Kemajuan Konversi Dokumen Secara Terprogram di .NET](./tracking-document-conversion-progress/)
+deskripsi: Pelajari cara melacak kemajuan konversi dokumen secara terprogram menggunakan Aspose.Cells untuk .NET dalam tutorial terperinci ini.
+### [Melacak Kemajuan Konversi Dokumen untuk TIFF Secara Terprogram di .NET](./tracking-document-conversion-progress-for-tiff/)
+Pelajari cara melacak kemajuan konversi TIFF secara terprogram menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah kami. Tingkatkan keterampilan manajemen dokumen Anda.
+### [Ekspor Excel ke TXT di C# – panduan pemrograman lengkap](./export-excel-to-txt-in-c-complete-programming-guide/)
+Pelajari cara mengekspor file Excel ke format TXT menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah yang lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

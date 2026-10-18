@@ -67,6 +67,8 @@ Lär dig hur du bäddar in teckensnitt i PDF när du exporterar Excel med Aspose
 Lär dig steg-för-steg hur du sparar en Excel-arbetsbok som PDF med Aspose.Cells för .NET.
 ### [Spara XLSX som PDF i C# – Komplett guide med PDF/A‑1b](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)
 Lär dig hur du sparar XLSX-filer som PDF/A‑1b i C# med en komplett steg‑för‑steg‑guide.
+### [Konvertera Excel till PDF i C# – komplett programmeringsguide](./convert-excel-to-pdf-in-c-complete-programming-guide/)
+Lär dig hur du konverterar Excel-filer till PDF i C# med en komplett programmeringsguide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

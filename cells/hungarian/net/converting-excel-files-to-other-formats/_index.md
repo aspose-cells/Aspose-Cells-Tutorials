@@ -113,6 +113,10 @@ Ismerje meg, hogyan exportálhat Excel-fájlokat PowerPoint bemutatóvá C#-ban 
 Ismerje meg, hogyan állíthat be nyomtatási területet Excelben, majd exportálhatja a munkalapot PowerPoint diára az Aspose.Cells for .NET segítségével.
 ### [Excel konvertálása PowerPointba és nyomtatási terület beállítása](./convert-excel-to-powerpoint-and-set-print-area/)
 Ismerje meg, hogyan konvertálhat Excel-fájlokat PowerPoint prezentációvá, és állíthat be nyomtatási területet a folyamat során.
+### [PowerPoint létrehozása Excelből – Lépésről lépésre útmutató](./create-powerpoint-from-excel-step-by-step-guide/)
+Tanulja meg, hogyan hozhat létre PowerPoint prezentációt Excel adatból az Aspose.Cells for .NET segítségével, részletes lépésről lépésre útmutatóval.
+### [Excel exportálása txt-be C#-ban – teljes programozási útmutató](./export-excel-to-txt-in-c-complete-programming-guide/)
+Ismerje meg, hogyan exportálhat Excel-fájlokat TXT formátumba C#-ban az Aspose.Cells segítségével lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

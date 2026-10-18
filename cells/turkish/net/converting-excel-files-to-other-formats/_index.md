@@ -115,6 +115,8 @@ Aspose.Cells for .NET kullanarak C# ile Excel dosyasını Docx formatına nasıl
 
 ### [Excel'i C# ile PNG'ye Dönüştürme – Adım Adım Kılavuz](./how-to-convert-excel-to-png-with-c-step-by-step-guide/)
 Aspose.Cells kullanarak .NET'te Excel dosyalarını PNG formatına nasıl dönüştüreceğinizi adım adım öğrenin.
+### [C#'ta Excel'i TXT'ye Dışa Aktarma – Tam Programlama Kılavuzu](./export-excel-to-txt-in-c-complete-programming-guide/)
+Aspose.Cells for .NET kullanarak Excel dosyalarını TXT formatına nasıl dışa aktaracağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

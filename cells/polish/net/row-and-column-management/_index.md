@@ -112,6 +112,8 @@ Dowiedz się, jak używać metody wrapcols w C#, wraz z funkcją WRAPROWS i prze
 Dowiedz się, jak usunąć kompletny wiersz z pliku Excel w C# przy pomocy Aspose.Cells, krok po kroku.
 ### [Przesuwanie komórek w górę w Excelu przy użyciu C# – kompletny przewodnik](./shift-cells-up-in-excel-with-c-complete-guide/)
 Dowiedz się, jak programowo przesunąć komórki w górę w arkuszu Excel przy użyciu Aspose.Cells i języka C# w kilku prostych krokach.
+### [Jak usuwać wiersze w Excelu przy użyciu C# – zachowanie nagłówka tabeli](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
+Dowiedz się, jak usuwać wiersze w Excelu w C# zachowując nagłówek tabeli.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

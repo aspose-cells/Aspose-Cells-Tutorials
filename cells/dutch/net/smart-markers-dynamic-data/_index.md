@@ -171,6 +171,7 @@ Leer hoe u smart marker-gegevens maakt en een Excel-sjabloon automatisch vult me
 ### [Excel-sjabloon laden in C# – Genereer snel meerdere bladen](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
 Leer hoe u een Excel-sjabloon laadt en met Aspose.Cells in C# snel meerdere werkbladen genereert voor dynamische rapporten.
 ### [Range smart marker om geneste gegevens te verwerken in C# – Volledige gids](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
+### [Import json naar Excel in C# – stapsgewijze handleiding](./import-json-to-excel-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

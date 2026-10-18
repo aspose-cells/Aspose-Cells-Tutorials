@@ -106,6 +106,8 @@ Aprenda a inserir múltiplas linhas rapidamente no GridJs com este guia passo a 
 Aprenda passo a passo como aplicar WrapCols e WrapRows no Aspose.Cells para .NET, ajustando colunas e recalculando fórmulas automaticamente.
 ### [Deslocar células para cima no Excel com C# – Guia completo](./shift-cells-up-in-excel-with-c-complete-guide/)
 Aprenda a deslocar células para cima no Excel usando C# com o Aspose.Cells, passo a passo, para simplificar suas planilhas.
+### [Como excluir linhas no Excel com C# – proteger cabeçalho da tabela](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
+Aprenda a excluir linhas mantendo o cabeçalho da tabela protegido usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

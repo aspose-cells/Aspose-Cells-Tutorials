@@ -170,6 +170,7 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 ### [Φόρτωση προτύπου Excel σε C# – Γρήγορη δημιουργία πολλαπλών φύλλων](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
 ### [Πώς να αξιολογήσετε τύπο με Έξυπνους Δείκτες – Πλήρης Οδηγός](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
 ### [Range smart marker για επεξεργασία ένθετων δεδομένων σε C# – Πλήρης οδηγός](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
+### [Εισαγωγή JSON σε Excel με C# – οδηγός βήμα‑βήμα](./import-json-to-excel-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

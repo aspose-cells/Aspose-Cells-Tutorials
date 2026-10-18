@@ -47,6 +47,8 @@
 
 ### [كيفية تصدير نطاق الخلايا كجدول – دليل C# كامل](./how-to-export-cell-range-as-table-complete-c-guide/)
 تعرف على كيفية تصدير نطاق من الخلايا إلى جدول في Excel باستخدام Aspose.Cells لـ .NET في هذا الدليل الشامل بلغة C#.
+### [إنشاء ورقة Excel من DataTable في C# – دليل خطوة بخطوة](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+تعلم كيفية إنشاء ورقة Excel من DataTable باستخدام C# و Aspose.Cells خطوة بخطوة، مناسب للمبتدئين والمحترفين.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

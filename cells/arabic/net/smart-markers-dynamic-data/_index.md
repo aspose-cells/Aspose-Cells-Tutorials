@@ -177,6 +177,7 @@
 تعلم كيفية تحويل ملفات JSON إلى ملفات XLSX باستخدام SmartMarker في Aspose.Cells مع C# خطوة بخطوة.
 ### [تحميل قالب Excel في C# – إنشاء أوراق متعددة بسرعة](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
 تعلم كيفية تحميل قالب Excel في C# وإنشاء أوراق عمل متعددة بسرعة باستخدام Aspose.Cells.
+### [استيراد JSON إلى Excel في C# – دليل خطوة بخطوة](./import-json-to-excel-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

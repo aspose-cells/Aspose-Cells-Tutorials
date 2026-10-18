@@ -47,6 +47,8 @@ Aprenda a exportar un rango de celdas de una hoja de cálculo con Aspose.Cells p
 
 ### [Cómo exportar un rango de celdas como tabla – Guía completa en C#](./how-to-export-cell-range-as-table-complete-c-guide/)
 Aprenda a exportar un rango de celdas como tabla usando Aspose.Cells para .NET en este tutorial paso a paso, ideal para principiantes y expertos.
+### [Crear hoja de Excel a partir de un DataTable en C# – guía paso a paso](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+Aprende a generar una hoja de Excel desde un DataTable en C# usando Aspose.Cells paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

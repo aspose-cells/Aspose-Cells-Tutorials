@@ -51,6 +51,8 @@ Aspose.Cells for .NET을 사용해 C#에서 DataTable을 서식 적용하여 Exc
 Aspose.Cells for .NET을 사용해 새 워크북을 만들고 데이터를 정확하게 TXT 파일로 내보내는 방법을 단계별로 안내합니다.
 ### [셀 범위를 테이블로 내보내는 방법 – 완전 C# 가이드](./how-to-export-cell-range-as-table-complete-c-guide/)
 Aspose.Cells for .NET을 사용해 셀 범위를 테이블로 내보내는 전체 C# 가이드를 제공합니다.
+### [C#에서 DataTable을 사용하여 Excel 시트 만들기 – 단계별 가이드](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+이 단계별 가이드에서는 C# DataTable을 활용해 Excel 시트를 생성하는 방법을 배웁니다. 초보자에게 적합합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

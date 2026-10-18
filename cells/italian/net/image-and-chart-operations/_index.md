@@ -42,6 +42,8 @@ Scopri come esportare un intervallo di celle Excel come immagine in C# usando As
 Scopri come convertire un pivot in un'immagine in .NET con Aspose.Cells, passo dopo passo.
 ### [Come salvare un foglio Excel come immagine – Guida completa C#](./how-to-save-excel-sheet-as-image-complete-c-guide/)
 Impara a salvare un foglio Excel come immagine in C# con Aspose.Cells, passo passo, per report e presentazioni.
+### [Come esportare Excel in PNG – guida completa passo‑passo](./how-to-export-excel-to-png-full-step-by-step-guide/)
+Scopri come esportare i fogli di calcolo Excel in immagini PNG con Aspose.Cells, seguendo una guida dettagliata passo dopo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -174,6 +174,8 @@ Naučte se pomocí SmartMarker v Aspose.Cells generovat více listů v Excelu po
 
 ## Načtení šablony Excel v C# – rychlé generování více listů
 Naučte se načíst Excel šablonu v C# a během okamžiku vytvořit více listů s dynamickými daty.
+### [Import JSON do Excelu v C# – krok za krokem](./import-json-to-excel-in-c-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells importovat JSON data do souboru Excel v C# krok za krokem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
