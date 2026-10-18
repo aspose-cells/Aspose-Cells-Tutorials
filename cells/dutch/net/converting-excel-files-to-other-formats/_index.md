@@ -187,6 +187,18 @@ Leer stap voor stap hoe u Excel-werkbladen naar PowerPoint-presentaties exportee
 Leer hoe u Excel-bestanden naar PowerPoint converteert met Aspose.Cells voor .NET in deze stapsgewijze C#‑handleiding.
 
 ### [Excel naar PNG converteren met C# – stapsgewijze gids](./how-to-convert-excel-to-png-with-c-step-by-step-guide/)
+### [Excel opslaan als PowerPoint met C# en Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+Leer hoe u een Excel-werkmap programmatically opslaat als PowerPoint-presentatie met C# en Aspose.Cells.
+### [HTML CrossType specificeren in uitvoer-HTML programmatisch in .NET](./specifying-html-crosstype-in-output-html/)
+Leer hoe u HTML CrossType specificeert in Aspose.Cells voor .NET. Volg onze stapsgewijze tutorial om Excel-bestanden nauwkeurig naar HTML te converteren.
+### [Getallenspreadsheets programmatisch lezen in .NET](./reading-numbers-spreadsheet/)
+Leer in deze gedetailleerde tutorial hoe u Numbers-spreadsheets kunt lezen en ze naar PDF kunt converteren met Aspose.Cells voor .NET.
+### [Werkmap opslaan in Strict Open XML Spreadsheet-indeling in .NET](./saving-workbook-to-strict-open-xml-spreadsheet-format/)
+Leer in deze gedetailleerde tutorial hoe u een werkmap opslaat in de Strict Open XML Spreadsheet-indeling met behulp van Aspose.Cells voor .NET.
+### [De voortgang van documentconversie programmatisch volgen in .NET](./tracking-document-conversion-progress/)
+Beschrijving: Leer in deze gedetailleerde tutorial hoe u de voortgang van documentconversie programmatisch kunt volgen met Aspose.Cells voor .NET.
+### [Documentconversievoortgang voor TIFF programmatisch volgen in .NET](./tracking-document-conversion-progress-for-tiff/)
+Leer hoe u de voortgang van TIFF-conversie programmatisch kunt volgen met Aspose.Cells voor .NET met onze stapsgewijze handleiding. Verbeter uw vaardigheden in documentbeheer.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

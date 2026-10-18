@@ -83,6 +83,8 @@ Aspose.Cells for .NET を使用して、Excel をタブ区切りテキスト形�
 Aspose.Cells for .NET を使用して、Excel のチャートを Word の DOCX ファイルにエクスポートする手順を詳しく解説します。
 ### [.NET でプログラム的に Excel ファイルを TXT にエクスポートする](./export-excel-to-txt-in-c-complete-programming-guide/)
 Aspose.Cellsを使用して、.NETでExcelファイルをTXT形式にエクスポートする完全なプログラミングガイドです。
+### [C# と Aspose.Cells を使用して Excel を PowerPoint として保存する方法](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+Aspose.Cells for .NET を使い、C# で Excel ワークブックを PowerPoint プレゼンテーションに変換する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

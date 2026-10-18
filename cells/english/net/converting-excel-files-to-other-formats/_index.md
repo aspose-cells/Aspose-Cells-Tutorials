@@ -93,6 +93,8 @@ Learn how to save Excel as text using Aspose.Cells in a clear step‑by‑step g
 Learn how to convert Excel worksheets to PNG images using C# and Aspose.Cells in a clear step‑by‑step guide.
 ### [Export excel to txt in C# – complete programming guide](./export-excel-to-txt-in-c-complete-programming-guide/)
 Learn how to export Excel worksheets to TXT files using C# and Aspose.Cells in this step-by-step guide.
+### [How to save Excel as PowerPoint using C# and Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+Learn how to programmatically save an Excel workbook as a PowerPoint presentation using C# and Aspose.Cells for .NET.
 ### [Specifying HTML CrossType in Output HTML Programmatically in .NET](./specifying-html-crosstype-in-output-html/)
 Learn how to specify HTML CrossType in Aspose.Cells for .NET. Follow our step-by-step tutorial to convert Excel files to HTML with precision.
 ### [Reading Numbers Spreadsheet Programmatically in .NET](./reading-numbers-spreadsheet/)

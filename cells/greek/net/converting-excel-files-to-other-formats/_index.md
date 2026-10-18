@@ -116,6 +116,8 @@
 Μάθετε πώς να μετατρέψετε αρχεία Excel σε εικόνες PNG χρησιμοποιώντας C# και Aspose.Cells σε αυτόν τον αναλυτικό οδηγό βήμα‑βήμα.
 ### [Εξαγωγή Excel σε txt σε C# – πλήρης οδηγός προγραμματισμού](./export-excel-to-txt-in-c-complete-programming-guide/)
 Μάθετε πώς να εξάγετε αρχεία Excel σε μορφή txt χρησιμοποιώντας C# με αναλυτικό οδηγό βήμα προς βήμα.
+### [Πώς να αποθηκεύσετε το Excel ως PowerPoint χρησιμοποιώντας C# και Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+Μάθετε πώς να μετατρέψετε ένα βιβλίο εργασίας Excel σε παρουσίαση PowerPoint με C# και Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

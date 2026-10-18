@@ -67,6 +67,8 @@ Scopri come creare una presentazione PowerPoint da un file Excel utilizzando Asp
 Scopri come convertire file Excel in presentazioni PowerPoint usando C# e Aspose.Cells, con esempi di codice dettagliati.
 ### [Come esportare Excel in PowerPoint – Guida completa C#](./how-to-export-excel-to-powerpoint-complete-c-guide/)
 Scopri come esportare programmaticamente i fogli Excel in presentazioni PowerPoint usando Aspose.Cells per .NET con esempi di codice C#.
+### [Come salvare Excel come PowerPoint usando C# e Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+Scopri come convertire un file Excel in una presentazione PowerPoint con C# e Aspose.Cells in pochi passaggi.
 ### [Specificare HTML CrossType nell'output HTML a livello di programmazione in .NET](./specifying-html-crosstype-in-output-html/)
 Scopri come specificare HTML CrossType in Aspose.Cells per .NET. Segui il nostro tutorial passo passo per convertire i file Excel in HTML con precisione.
 ### [Lettura di fogli di calcolo numerici in modo programmatico in .NET](./reading-numbers-spreadsheet/)
@@ -114,8 +116,6 @@ Scopri come esportare un foglio Excel in file di testo TXT usando Aspose.Cells p
 Scopri come salvare un file Excel in formato testo passo‑passo usando Aspose.Cells per .NET con esempi di codice chiari.
 ### [Come esportare Excel in PowerPoint – Guida passo‑passo](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
 Scopri come esportare un file Excel in una presentazione PowerPoint con Aspose.Cells per .NET, passo dopo passo.
-### [Creare PowerPoint da Excel – Guida passo‑passo](./create-powerpoint-from-excel-step-by-step-guide/)
-Scopri come generare una presentazione PowerPoint da un file Excel usando Aspose.Cells per .NET con esempi di codice dettagliati.
 ### [Salva Excel come txt – Guida completa C# per esportare Excel in TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
 Scopri come esportare un foglio Excel in file di testo TXT usando Aspose.Cells per .NET con esempi di codice C#.
 ### [Come esportare Excel in PowerPoint con C# – Guida completa](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)

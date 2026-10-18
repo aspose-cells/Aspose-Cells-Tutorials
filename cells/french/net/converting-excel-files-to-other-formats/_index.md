@@ -67,6 +67,8 @@ Apprenez à générer une présentation PowerPoint à partir d'un classeur Excel
 Apprenez à transformer des classeurs Excel en présentations PowerPoint avec C# en suivant ce guide complet et des exemples de code.
 ### [Comment exporter Excel vers PowerPoint – Guide complet C#](./how-to-export-excel-to-powerpoint-complete-c-guide/)
 Apprenez à exporter des feuilles Excel vers des présentations PowerPoint en C# avec Aspose.Cells grâce à un guide complet pas à pas.
+### [Comment enregistrer un fichier Excel en PowerPoint avec C# et Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+Apprenez à convertir un classeur Excel en présentation PowerPoint à l'aide de C# et Aspose.Cells, étape par étape.
 ### [Spécification du CrossType HTML dans la sortie HTML par programmation dans .NET](./specifying-html-crosstype-in-output-html/)
 Apprenez à spécifier le CrossType HTML dans Aspose.Cells pour .NET. Suivez notre tutoriel étape par étape pour convertir des fichiers Excel en HTML avec précision.
 
