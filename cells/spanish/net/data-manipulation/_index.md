@@ -60,7 +60,7 @@ Aprenda a acceder y manipular propiedades personalizadas de documentos en archiv
 Domine la gestión de datos de Excel con Aspose.Cells para .NET. Aprenda a cargar, acceder y validar archivos ODS eficientemente en sus aplicaciones .NET.
 
 ### [Manipulación de archivos de Excel con Aspose.Cells .NET: Cargar, guardar y modificar formas](./excel-manipulation-aspose-cells-net)
-Domina la manipulación de archivos de Excel con Aspose.Cells para .NET. Aprende a cargar, guardar y modificar formas en archivos de Excel sin esfuerzo.
+Domina la manipulación de archivos de Excel con Aspose.Cells .NET. Aprende a cargar, guardar y modificar formas en archivos de Excel sin esfuerzo.
 
 ### [Manipulación de Excel con Aspose.Cells: Inserción de secuencias y filas para desarrolladores .NET](./excel-manipulation-aspose-cells-net-stream-row-insertion)
 Aprenda a utilizar Aspose.Cells en .NET para la manipulación de archivos de Excel, incluida la creación de secuencias y la inserción de filas formateadas de manera eficiente.

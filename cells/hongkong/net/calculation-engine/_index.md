@@ -49,6 +49,8 @@ Aspose.Cells for .NET 提供了一個強大的計算引擎，讓開發人員可�
 
 ### [在 C# 中強制公式計算 – 完整的 Excel 自動化指南](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
 了解如何在 C# 中使用 Aspose.Cells 強制執行公式計算，提升 Excel 自動化的效率與控制力。
+### [建立 Excel 工作簿 – 使用 WRAPCOLS 將陣列轉換為矩陣](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
+了解如何在 Aspose.Cells .NET 中建立工作簿，並使用 WRAPCOLS 函數將一維陣列轉換為矩陣格式。
 
 ## 好處
 

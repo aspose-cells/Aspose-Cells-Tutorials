@@ -17,24 +17,17 @@
 
 يوفر Aspose.Cells for .NET أدوات فعّالة للعمل مع قوالب Excel وإنشاء تقارير احترافية. سواءً كنت بحاجة إلى إنشاء قوائم مالية آلية، أو لوحات معلومات قائمة على البيانات، أو تقارير عملاء مخصصة، ستساعدك هذه الدروس التعليمية على إتقان إنشاء التقارير باستخدام القوالب.
 
-توفر القوالب وقت التطوير بفصل التصميم عن منطق معالجة البيانات. باستخدام تقنية العلامات الذكية في Aspose.Cells، يمكنك بسهولة ربط البيانات بقوالب Excel مُعدّة مسبقًا، وإنشاء عمليات دمج بريد، وإنتاج مستندات عالية الدقة برمجيًا.
+توفر القوالب وقت التطوير بفصل التصميم عن منطق معالجة البيانات. باستخدام تقنية العلامات الذكية في Aspose.Cells، يمكنك بسهولة ربط البيانات بقوالب Excel مُعدّة مسبقًا، وإنشاء عمليات دمج بريد، وإنتاج مستندات عالية الدقة برمجياً.
 
 ## تصميم القوالب ومعالجتها
 
 ### علامات ذكية لربط البيانات
-- [إنشاء تقارير Excel الديناميكية باستخدام العلامات الذكية](./generate-excel-reports-aspose-cells-net-smart-markers) - إنشاء تقارير تعتمد على البيانات باستخدام علامات ذكية
-- [إتقان SmartMarkers لأتمتة تقارير Excel](./dynamic-excel-reports-aspose-cells-net) - تعلم تقنيات العلامات الذكية المتقدمة
-- [تكامل البيانات الرئيسية مع العلامات الذكية](./mastering-data-integration-aspose-cells-smart-markers) - ربط البيانات بكفاءة باستخدام العلامات الذكية
 
 ### إنشاء التقارير المهنية
-- [إتقان تقارير Excel الديناميكية](./aspose-cells-net-dynamic-excel-reports-guide) - إنشاء تقارير Excel شاملة
-- [تصميم المصنف باستخدام SmartMarkers](./master-workbook-design-aspose-cells-smartmarkers) - تصميم قوالب تقارير فعالة
-- [إتقان تقارير Excel مع الرسوم البيانية](./dynamic-excel-reports-aspose-cells-net) - إضافة تصورات إلى التقارير
 
 ## إدارة البيانات الوصفية وخصائص المستندات
 
 ### معلومات الوثيقة
-- [بيانات تعريفية لكتاب العمل الرئيسي](./mastering-workbook-metadata-aspose-cells-net) - إدارة خصائص المستند والبيانات الوصفية
 
 ## قائمة الدروس التعليمية
 
@@ -56,8 +49,25 @@
 ### [إتقان علامات Aspose.Cells .NET الذكية لتكامل البيانات في Excel](./mastering-data-integration-aspose-cells-smart-markers)
 تعلّم إتقان تكامل البيانات باستخدام علامات Aspose.Cells .NET الذكية مع هذا الدليل الشامل. أتم سير عمل Excel وأنشئ التقارير بكفاءة.
 
+### [ربط البيانات بالقوالب في Excel: ملء القوالب باستخدام C#](./template-data-binding-in-excel-populate-templates-with-c/)
+تعلم كيفية ربط البيانات بالقوالب في Excel وتعبئتها باستخدام لغة C#.
 ### [إنشاء مصنف من قالب في C# – دليل خطوة بخطوة](./create-workbook-from-template-in-c-step-by-step-guide/)
 دليل شامل لإنشاء مصنف Excel من قالب باستخدام C# مع Aspose.Cells، خطوة بخطوة لتسريع عملية التقارير.
+### [حفظ مصنف Excel من JSON – دليل كامل](./save-excel-workbook-from-json-complete-guide/)
+تعلم كيفية حفظ مصنف Excel من بيانات JSON باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
+### [إنشاء تقرير Excel بلغة C# – دليل خطوة بخطوة](./create-excel-report-in-c-step-by-step-guide/)
+دليل شامل لإنشاء تقرير Excel باستخدام C# و Aspose.Cells خطوة بخطوة.
+### [إنشاء ملف Excel من قالب – دليل خطوة بخطوة لمطوري .NET](./create-excel-from-template-step-by-step-guide-for-net-develo/)
+تعلم كيفية إنشاء ملفات Excel من القوالب باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
+### [حفظ المصنف المملوء برمجياً باستخدام Aspose.Cells](./save-populated-workbook-programmatically-with-aspose-cells/)
+تعلم كيفية حفظ ملف Excel بعد ملئه بالبيانات برمجياً باستخدام Aspose.Cells في .NET.
+
+### [كيفية معالجة قالب Excel وتسمية الأوراق تلقائيًا في C#](./how-to-process-excel-template-and-automatically-name-sheets)
+تعلم كيفية معالجة قالب Excel وتسمية الأوراق تلقائيًا باستخدام C#.
+
+### [كيفية تصدير البيانات إلى Excel باستخدام قالب C# – دليل خطوة بخطوة](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
+### [إنشاء تقرير Excel باستخدام C# – دليل خطوة بخطوة](./generate-excel-report-with-c-step-by-step-guide/)
+تعلم كيفية إنشاء تقرير Excel باستخدام C# خطوة بخطوة باستخدام Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
