@@ -117,6 +117,12 @@ Scopri come creare un file FlatOPC da una cartella di lavoro Excel utilizzando A
 Scopri come convertire file xlsx in presentazioni PowerPoint usando Aspose.Slides per Java. Guida passo passo con esempi di codice.
 ### [Importazione di oggetti personalizzati in Excel con Aspose.Cells – Guida Java](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
 Scopri come importare oggetti personalizzati in file Excel usando Aspose.Cells per Java. Guida passo passo con esempi di codice.
+### [Esportazione Excel in HTML in Java – guida completa passo‑a‑passo](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+Scopri come esportare file Excel in HTML usando Aspose.Cells per Java con una guida dettagliata passo‑a‑passo.
+### [Come impostare il delimitatore e salvare come CSV con Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+Impara a impostare il delimitatore personalizzato e salvare i dati in CSV usando Aspose.Cells per Java.
+### [Incorporare i font in SVG durante l'esportazione di Excel in SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Scopri come incorporare i font nei file SVG durante l'esportazione di Excel con Aspose.Cells per Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

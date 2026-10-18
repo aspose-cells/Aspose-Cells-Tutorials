@@ -119,6 +119,11 @@ Dowiedz się, jak w prosty sposób przekonwertować plik XLSX na prezentację Po
 Dowiedz się, jak generować pliki Excel z danych JSON i mapować wartości JSON do komórek Excel przy pomocy Aspose.Cells.
 ### [Importowanie własnych obiektów do Excela przy użyciu Aspose.Cells – przewodnik Java](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
 Dowiedz się, jak importować własne obiekty do plików Excel przy użyciu Aspose.Cells dla Java. Przewodnik krok po kroku z kodem źródłowym.
+### [Eksportuj Excel do HTML w Javie – kompletny przewodnik krok po kroku](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+Dowiedz się, jak eksportować pliki Excel do HTML w Javie przy użyciu Aspose.Cells for Java. Kompletny przewodnik krok po kroku z kodem źródłowym.
+### [Osadzanie czcionek w SVG podczas eksportu Excela do SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Dowiedz się, jak osadzić czcionki w plikach SVG przy eksporcie Excela przy użyciu Aspose.Cells for Java.
+### [Jak ustawić separator i zapisać jako CSV przy użyciu Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

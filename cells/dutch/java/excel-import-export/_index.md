@@ -43,6 +43,10 @@ Leer hoe u Excel-gegevens exporteert naar CSV met Aspose.Cells voor Java in deze
 Leer hoe je moeiteloos Excel-bestanden naar PDF exporteert met Aspose.Cells voor Java. Onze stapsgewijze handleiding maakt het proces eenvoudiger. Begin vandaag nog met converteren!
 ### [Hoe een PDF te maken vanuit een werkmap – Complete Java-gids](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
 Leer stap voor stap hoe u met Aspose.Cells voor Java een PDF maakt vanuit een werkmap, inclusief voorbeeldcode.
+### [Hoe scheidingsteken instellen en opslaan als CSV met Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+Leer hoe u het scheidingsteken instelt en een bestand opslaat als CSV met Aspose.Cells.
+### [Lettertypen insluiten in SVG bij het exporteren van Excel naar SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Leer hoe u lettertypen insluit in SVG-bestanden bij het exporteren van Excel-werkbladen met Aspose.Cells voor Java.
 ### [Excel exporteren naar XML Java](./export-excel-to-xml-java/)
 Leer hoe u Excel naar XML exporteert in Java met Aspose.Cells voor Java. Stapsgewijze handleiding met broncode voor naadloze gegevensconversie.
 ### [Gegevens importeren vanuit Excel](./data-import-from-excel/)
@@ -124,6 +128,8 @@ Leer hoe u een XLSX-bestand omzet naar PowerPoint met Aspose.Cells voor Java in 
 Leer hoe u Excel-bestanden maakt vanuit JSON en JSON-gegevens naar Excel-cellen converteert met Aspose.Cells voor Java.
 ### [Aangepaste objecten importeren in Excel met Aspose.Cells – Java-gids](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
 Leer hoe u aangepaste objecten importeert in Excel met Aspose.Cells voor Java. Volg de stapsgewijze handleiding met voorbeeldcode.
+### [Excel exporteren naar HTML in Java – volledige stapsgewijze handleiding](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+Leer hoe u Excel naar HTML exporteert in Java met een volledige stap‑voor‑stap handleiding en voorbeeldcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

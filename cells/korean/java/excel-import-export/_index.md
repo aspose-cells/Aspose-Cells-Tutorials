@@ -113,6 +113,12 @@ Aspose.Cells for Java를 활용해 JSON 데이터를 Excel 파일로 변환하�
 ### [Java를 사용하여 xlsx를 PowerPoint로 변환 – 전체 가이드](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
 ### [Aspose.Cells로 JSON에서 Excel 생성 및 JSON을 Excel 셀로 변환](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
 ### [Aspose.Cells로 사용자 정의 객체를 Excel에 가져오기 – Java 가이드](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+### [Aspose.Cells를 사용하여 구분자를 설정하고 CSV로 저장하는 방법](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+Aspose.Cells를 이용해 구분자를 지정하고 CSV 파일로 저장하는 방법을 단계별로 안내합니다.
+### [Excel을 SVG로 내보낼 때 SVG에 글꼴 포함하기](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Excel을 SVG로 내보낼 때 글꼴을 포함하여 품질을 유지하는 방법을 단계별로 안내합니다.
+### [Java에서 Excel을 HTML로 내보내기 – 완전 단계별 가이드](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+Aspose.Cells for Java를 사용하여 Excel 파일을 HTML 형식으로 변환하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

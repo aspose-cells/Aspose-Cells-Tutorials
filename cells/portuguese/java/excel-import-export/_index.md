@@ -41,6 +41,8 @@ Aprenda a exportar dados para CSV em Java, configurando dígitos significativos 
 Aprenda a exportar arquivos Excel para CSV usando Aspose.Cells para Java. Guia passo a passo com código-fonte para conversão simplificada.
 ### [Exportar XLSX como CSV – Guia Java Completo](./export-xlsx-as-csv-complete-java-guide/)
 Aprenda a converter arquivos XLSX para CSV usando Aspose.Cells para Java. Guia completo com exemplos de código passo a passo.
+### [Como definir delimitador e salvar como CSV com Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+Aprenda a definir o delimitador e salvar arquivos como CSV usando Aspose.Cells no Java.
 ### [Exportando Excel para PDF](./exporting-excel-to-pdf/)
 Aprenda a exportar arquivos do Excel para PDF sem esforço usando o Aspose.Cells para Java. Nosso guia passo a passo simplifica o processo. Comece a converter hoje mesmo!
 ### [Converter Excel para PDF – Guia Java Completo com Aspose.Cells](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
@@ -117,6 +119,10 @@ Aprenda a converter arquivos XLSX em apresentações PowerPoint usando o Aspose.
 Aprenda a criar arquivos Excel a partir de JSON e converter dados JSON para células Excel usando Aspose.Cells.
 ### [Importar objetos personalizados para o Excel com Aspose.Cells – Guia Java](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
 Aprenda a importar objetos personalizados para planilhas Excel usando Aspose.Cells para Java. Guia passo a passo com exemplos de código.
+### [Exportar Excel para HTML em Java – guia completo passo a passo](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+Aprenda a exportar arquivos Excel para HTML em Java com um guia completo passo a passo usando Aspose.Cells.
+### [Incorporar fontes em SVG ao exportar Excel para SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Aprenda a incorporar fontes ao exportar planilhas Excel para SVG usando Aspose.Cells para Java, garantindo que o texto seja renderizado corretamente.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

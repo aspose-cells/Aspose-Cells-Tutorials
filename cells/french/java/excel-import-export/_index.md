@@ -41,6 +41,8 @@ Découvrez comment exporter des données au format CSV avec Aspose.Cells pour Ja
 Apprenez à exporter des données CSV en définissant les chiffres significatifs et la plage d'exportation avec Aspose.Cells pour Java.
 ### [Comment exporter CSV depuis les cellules Excel – Guide complet](./how-to-export-csv-from-excel-cells-complete-guide/)
 Découvrez comment exporter des données au format CSV depuis les cellules Excel avec Aspose.Cells pour Java. Guide complet étape par étape.
+### [Comment définir le délimiteur et enregistrer en CSV avec Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+Apprenez à définir le délimiteur et à enregistrer vos données au format CSV avec Aspose.Cells.
 ### [Exportation d'Excel au format PDF](./exporting-excel-to-pdf/)
 Apprenez à exporter facilement des fichiers Excel au format PDF avec Aspose.Cells pour Java. Notre guide étape par étape simplifie le processus. Commencez la conversion dès aujourd'hui !
 ### [Comment créer un PDF à partir d'un classeur – Guide complet Java](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
@@ -127,6 +129,10 @@ Apprenez à transformer des fichiers Excel (.xlsx) en présentations PowerPoint 
 Apprenez à créer un classeur Excel à partir de données JSON et à convertir des valeurs JSON en cellules Excel avec Aspose.Cells.
 ### [Importer des objets personnalisés dans Excel avec Aspose.Cells – Guide Java](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
 Apprenez à importer des objets personnalisés dans Excel en Java avec Aspose.Cells grâce à ce guide détaillé étape par étape.
+### [Intégrer des polices dans SVG lors de l'exportation d'Excel vers SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Apprenez à intégrer des polices dans les fichiers SVG lors de l'exportation d'Excel avec Aspose.Cells pour Java.
+### [Exporter Excel en HTML avec Java – guide complet étape par étape](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+Apprenez à exporter des fichiers Excel au format HTML en Java avec Aspose.Cells pour Java. Guide complet étape par étape avec code source.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

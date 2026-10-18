@@ -47,6 +47,8 @@ Aprenda a desmembrar células no Excel de forma eficiente usando o Aspose.Cells 
 ### [Ajuste automático de linhas e colunas no Excel com Aspose.Cells para Java](./auto-fit-excel-aspose-cells-java/)
 Aprenda a usar o Aspose.Cells para Java para converter tabelas HTML em arquivos Excel bem estruturados, incluindo linhas e colunas de ajuste automático.
 
+### [Copiar intervalo entre pastas de trabalho em Java – guia passo a passo](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+
 ### [Copie colunas do Excel com eficiência usando Aspose.Cells para Java: um guia completo](./copy-excel-columns-aspose-cells-java/)
 Aprenda a automatizar a cópia de colunas no Excel com o Aspose.Cells para Java. Simplifique seu fluxo de trabalho e aumente a produtividade com este guia fácil de seguir.
 

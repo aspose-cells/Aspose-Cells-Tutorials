@@ -88,6 +88,8 @@ Aspose.Words Java 程式碼教程
 
 ### [程式化複製工作表範圍 – 完整 Java 指南](./programmatically-copy-worksheet-range-complete-java-guide/)
 了解如何使用 Aspose.Cells for Java 程式化地複製工作表中的特定範圍，提供完整的範例與最佳實踐。
+### [在 Java 中跨工作簿複製範圍 – 步驟指南](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+了解如何使用 Aspose.Cells for Java 在不同工作簿之間複製儲存格範圍，提供完整程式碼範例與操作步驟。
 
 ## 其他資源
 

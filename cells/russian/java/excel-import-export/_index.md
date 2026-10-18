@@ -137,6 +137,12 @@
 Узнайте, как создать файл Excel из JSON и преобразовать данные JSON в отдельные ячейки Excel с помощью Aspose.Cells.
 ### [Импорт пользовательских объектов в Excel с Aspose.Cells – руководство Java](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
 Узнайте, как импортировать пользовательские объекты в файлы Excel с помощью Aspose.Cells для Java.
+### [Экспорт Excel в HTML на Java – полное пошаговое руководство](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+Узнайте, как экспортировать файлы Excel в HTML с помощью Aspose.Cells для Java, следуя полному пошаговому руководству.
+### [Как установить разделитель и сохранить как CSV с Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+Узнайте, как задать разделитель и сохранить файл в формате CSV с помощью Aspose.Cells для Java.
+### [Встраивание шрифтов в SVG при экспорте Excel в SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Узнайте, как встраивать шрифты в SVG при экспорте файлов Excel с помощью Aspose.Cells для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -118,6 +118,12 @@ Pelajari cara mengonversi file XLSX menjadi presentasi PowerPoint menggunakan As
 
 ### [Impor objek khusus ke Excel dengan Aspose.Cells – Panduan Java](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
 Pelajari cara mengimpor objek khusus ke dalam file Excel menggunakan Aspose.Cells untuk Java dengan contoh kode langkah demi langkah.
+### [Cara mengatur delimiter dan menyimpan sebagai CSV dengan Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+Pelajari cara mengatur delimiter khusus dan menyimpan data sebagai file CSV menggunakan Aspose.Cells untuk Java.
+### [Menyematkan font dalam SVG saat mengekspor Excel ke SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Pelajari cara menyematkan font dalam file SVG saat mengekspor workbook Excel menggunakan Aspose.Cells untuk Java.
+### [Ekspor Excel ke HTML dalam Java – panduan lengkap langkah demi langkah](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+Pelajari cara mengekspor file Excel ke HTML menggunakan Aspose.Cells untuk Java dengan panduan langkah demi langkah yang lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

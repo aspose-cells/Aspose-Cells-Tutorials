@@ -129,6 +129,11 @@ Hướng dẫn chi tiết cách chuyển đổi tệp xlsx sang PowerPoint bằn
 Hướng dẫn tạo tệp Excel từ dữ liệu JSON và chuyển JSON thành ô Excel bằng Aspose.Cells cho Java.
 ### [Nhập các đối tượng tùy chỉnh vào Excel với Aspose.Cells – Hướng dẫn Java](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
 Hướng dẫn chi tiết cách nhập các đối tượng tùy chỉnh vào tệp Excel bằng Aspose.Cells cho Java, kèm ví dụ mã nguồn thực tế.
+### [Cách đặt dấu phân cách và lưu dưới dạng CSV với Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+Hướng dẫn cách thiết lập dấu phân cách và xuất dữ liệu sang tệp CSV bằng Aspose.Cells cho Java.
+### [Nhúng phông chữ vào SVG khi xuất Excel sang SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Hướng dẫn cách nhúng phông chữ vào tệp SVG khi xuất workbook Excel sang SVG bằng Aspose.Cells for Java.
+### [Xuất Excel sang HTML trong Java – hướng dẫn chi tiết từng bước](./export-excel-to-html-in-java-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

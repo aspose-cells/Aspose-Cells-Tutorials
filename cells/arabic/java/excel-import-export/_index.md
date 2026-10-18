@@ -118,6 +118,11 @@
 ### [تحويل ملف XLSX إلى PowerPoint باستخدام Java – دليل كامل](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
 ### [استيراد الكائنات المخصصة إلى Excel باستخدام Aspose.Cells – دليل Java](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
 تعرّف على كيفية استيراد كائنات مخصصة إلى ملفات Excel باستخدام Aspose.Cells لجافا. دليل خطوة بخطوة مع أمثلة عملية.
+### [كيفية تعيين الفاصل وحفظ كملف CSV باستخدام Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+تعلم كيفية تعيين الفاصل المخصص وحفظ ملفات Excel كـ CSV باستخدام Aspose.Cells لجافا بسهولة.
+### [تضمين الخطوط في SVG أثناء تصدير Excel إلى SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+تعلم كيفية تضمين الخطوط داخل ملفات SVG عند تصدير مصنفات Excel باستخدام Aspose.Cells لجافا.
+### [تصدير إكسل إلى HTML في جافا – دليل خطوة بخطوة كامل](./export-excel-to-html-in-java-complete-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -121,6 +121,12 @@ Tanuld meg, hogyan konvertálj XLSX fájlokat PowerPoint prezentációkká Java 
 ### [Excel létrehozása JSON-ból és JSON konvertálása Excel cellává az Aspose.Cells segítségével](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
 Ismerd meg, hogyan hozhatsz létre Excel fájlt JSON adatokból, és konvertálj JSON-t Excel cellává az Aspose.Cells használatával.
 ### [Egyedi objektumok importálása Excelbe az Aspose.Cells használatával – Java útmutató](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+### [Excel exportálása HTML-be Java-ban – teljes lépésről‑lépésre útmutató](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+Tanuld meg, hogyan exportálhatsz Excel-fájlokat HTML-be Java használatával részletes, lépésről‑lépésre útmutatóval.
+### [Betűtípusok beágyazása SVG-be Excel SVG exportálásakor](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Ismerd meg, hogyan ágyazhatod be a betűtípusokat SVG fájlokba Excel exportálásakor az Aspose.Cells for Java segítségével.
+### [Hogyan állíts be határolót és ments CSV-be az Aspose.Cells használatával](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+Tanuld meg, hogyan állíthatsz be határolót és menthetsz CSV fájlt az Aspose.Cells használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

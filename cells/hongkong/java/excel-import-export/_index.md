@@ -31,8 +31,10 @@
 ## Excel 匯入匯出教學課程
 ### [批次資料匯入Excel](./bulk-data-import-excel/)
 了解如何使用 Aspose.Cells for Java API 從 Excel 執行批次資料匯入。透過本逐步指南簡化您的資料處理。
+
 ### [Excel資料匯出方法](./excel-data-export-methods/)
 使用 Aspose.Cells for Java 釋放 Excel 資料導出方法的潛力。透過本綜合指南中的實際原始碼範例進行學習。立即優化您的資料管理技能。
+
 ### [CSV 匯出 Java 程式碼](./csv-export-java-code/)
 了解如何使用 Aspose.Cells for Java 將資料匯出為 CSV 格式。具有原始程式碼的逐步指南，可實現無縫 CSV 匯出。
 ### [如何匯出 Excel：CSV 轉換逐步指南](./how-to-export-excel-step-by-step-guide-to-csv-conversion/)
@@ -47,8 +49,10 @@
 了解如何使用 Aspose.Cells for Java 將 Excel 轉換為 PDF/A，提供完整的步驟與原始碼示例，助您輕鬆實作。
 ### [將 Excel 匯出為 XML Java](./export-excel-to-xml-java/)
 了解如何使用 Aspose.Cells for Java 將 Excel 匯出為 Java 中的 XML。具有原始程式碼的逐步指南，可實現無縫資料轉換。
+
 ### [從 Excel 匯入數據](./data-import-from-excel/)
 了解如何使用 Aspose.Cells for Java 從 Excel 匯入資料。具有無縫資料檢索原始程式碼的綜合指南。
+
 ### [將 Excel 匯出為 JSON](./export-excel-to-json/)
 了解如何使用 Aspose.Cells for Java 將 Excel 資料匯出為 JSON。請按照本逐步指南和原始程式碼進行無縫轉換。
 ### [載入 JSON 檔案（Java） – 完整指南將 JSON 轉換為 Excel](./load-json-file-java-full-guide-to-convert-json-to-excel/)
@@ -59,6 +63,7 @@
 了解如何使用 Aspose.Cells 從 JSON 建立 Excel，並將 JSON 內容寫入 Excel 儲存格的完整步驟與範例。
 ### [Excel 導入資料驗證](./excel-import-data-validation/)
 透過本全面的逐步指南了解如何使用 Aspose.Cells for Java 實作 Excel 匯入資料驗證。確保數據準確性並提升用戶體驗。 
+
 ### [將 Excel 匯出為 HTML Java](./export-excel-to-html-java/)
 了解如何使用 Aspose.Cells for Java 將 Excel 匯出為 Java 中的 HTML。按照帶有原始程式碼的逐步指南，您可以毫不費力地將 Excel 文件無縫轉換為 HTML。
 ### [如何使用 Java 匯出 CSV – 設定有效位數與匯出範圍至 CSV](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
@@ -119,6 +124,15 @@
 了解如何使用 Aspose.Slides for Java 將 Excel (XLSX) 檔案轉換為 PowerPoint 簡報，提供完整範例與步驟說明。
 ### [使用 Aspose.Cells 將自訂物件匯入 Excel – Java 指南](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
 說明如何使用 Aspose.Cells for Java 將自訂物件匯入 Excel，提供完整範例與步驟說明。
+
+### [將 Excel 匯出為 HTML（Java）完整步驟指南](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+提供完整的逐步說明，教您在 Java 中使用 Aspose.Cells 將 Excel 匯出為 HTML。
+
+### [如何設定分隔符並以 Aspose.Cells 儲存為 CSV](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+了解如何使用 Aspose.Cells 設定自訂分隔符，將資料匯出為 CSV 檔案。
+
+### [在匯出 Excel 為 SVG 時嵌入字型](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+了解如何在匯出 Excel 為 SVG 時嵌入字型，以確保正確顯示。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

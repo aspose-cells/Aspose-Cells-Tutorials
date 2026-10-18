@@ -37,6 +37,8 @@ Aspose.Cells for Java kullanarak Excel veri dışa aktarma yöntemlerinin potans
 Java için Aspose.Cells kullanarak verileri CSV formatına nasıl aktaracağınızı öğrenin. Sorunsuz CSV aktarımı için kaynak kodlu adım adım kılavuz.
 ### [Excel Hücrelerinden CSV'ye Dışa Aktarma – Tam Kılavuz](./how-to-export-csv-from-excel-cells-complete-guide/)
 Aspose.Cells for Java kullanarak Excel hücrelerinden CSV dosyasına nasıl dışa aktaracağınızı öğrenin. Adım adım kaynak kodlu kılavuz.
+### [Aspose.Cells ile ayırıcıyı ayarlama ve CSV olarak kaydetme](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+Ayırıcıyı belirleyerek verileri CSV dosyası olarak kaydetmeyi öğrenin ve veri dışa aktarma süreçlerinizi özelleştirin.
 ### [Excel'i PDF'e Aktarma](./exporting-excel-to-pdf/)
 Aspose.Cells for Java kullanarak Excel dosyalarını zahmetsizce PDF'ye nasıl aktaracağınızı öğrenin. Adım adım kılavuzumuz süreci basitleştirir. Bugün dönüştürmeye başlayın!
 ### [Çalışma Kitabından PDF Oluşturma – Tam Java Rehberi](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
@@ -118,6 +120,10 @@ Aspose.Cells for Java kullanarak Excel çalışma kitabından FlatOPC dosyası o
 Aspose.Slides for Java kullanarak XLSX dosyalarını PowerPoint sunumlarına dönüştürmeyi adım adım öğrenin.
 ### [Aspose.Cells ile JSON'dan Excel Oluşturma ve JSON'u Excel Hücresine Dönüştürme](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
 Aspose.Cells for Java kullanarak JSON verilerini Excel dosyasına dönüştürün ve hücreye yerleştirin.
+### [Java'da Excel'i HTML'ye Aktarma – tam adım adım kılavuz](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+Aspose.Cells for Java kullanarak Excel dosyalarını HTML formatına nasıl dönüştüreceğinizi adım adım öğrenin.
+### [Excel'i SVG'ye Aktarırken Yazı Tiplerini Gömme](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Aspose.Cells for Java kullanarak Excel dosyalarını SVG'ye dışa aktarırken yazı tiplerini gömerek görüntü kalitesini koruyun.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

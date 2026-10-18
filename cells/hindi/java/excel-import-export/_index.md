@@ -129,6 +129,14 @@ Aspose.Cells for Java का उपयोग करके Excel वर्कब�
 Aspose.Cells का उपयोग करके JSON डेटा से Excel फ़ाइल बनाना और JSON को Excel सेल में बदलना सीखें।
 ### [Aspose.Cells के साथ कस्टम ऑब्जेक्ट्स को Excel में आयात करें – जावा गाइड](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
 Aspose.Cells for Java का उपयोग करके कस्टम ऑब्जेक्ट्स को Excel में आयात करने की प्रक्रिया सीखें।
+### [जावा में एक्सेल को HTML में निर्यात – पूर्ण चरण‑दर‑स्टेप गाइड](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+Aspose.Cells for Java का उपयोग करके Excel को HTML में निर्यात करने की पूरी प्रक्रिया सीखें। विस्तृत कोड उदाहरणों के साथ चरण‑दर‑स्टेप मार्गदर्शिका।
+
+### [Aspose.Cells के साथ डिलिमिटर सेट करके CSV के रूप में सहेजें](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+Aspose.Cells API का उपयोग करके डिलिमिटर सेट करके डेटा को CSV फ़ाइल में सहेजना सीखें।
+
+### [Excel को SVG में निर्यात करते समय फ़ॉन्ट एम्बेड करें](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Excel को SVG में निर्यात करते समय फ़ॉन्ट एम्बेड करने की चरण‑दर‑स्टेप गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -37,6 +37,8 @@ Frigör potentialen hos Excel-dataexportmetoder med Aspose.Cells för Java. Lär
 Lär dig hur du exporterar data till CSV-format med Aspose.Cells för Java. Steg-för-steg-guide med källkod för sömlös CSV-export.
 ### [Hur man exporterar CSV från Excel-celler – Komplett guide](./how-to-export-csv-from-excel-cells-complete-guide/)
 Lär dig hur du exporterar CSV från Excel-celler med Aspose.Cells för Java i en komplett steg‑för‑steg‑guide.
+### [Hur man ställer in avgränsare och sparar som CSV med Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+Lär dig hur du anger avgränsare och sparar Excel-filer som CSV med Aspose.Cells för Java.
 ### [Exportera Excel till PDF](./exporting-excel-to-pdf/)
 Lär dig hur du enkelt exporterar Excel-filer till PDF med Aspose.Cells för Java. Vår steg-för-steg-guide förenklar processen. Börja konvertera idag!
 ### [Hur du skapar PDF från en arbetsbok – Komplett Java-guide](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
@@ -116,6 +118,9 @@ Lär dig hur du konverterar XLSX-filer till PowerPoint-presentationer med Java o
 Lär dig hur du skapar en Excel-fil från JSON och konverterar JSON-data till en Excel-cell med Aspose.Cells.
 ### [Importera anpassade objekt till Excel med Aspose.Cells – Java-guide](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
 Lär dig hur du importerar anpassade objekt till Excel med Aspose.Cells för Java i en steg-för-steg-guide.
+### [Exportera Excel till HTML i Java – komplett steg‑för‑steg‑guide](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+### [Bädda in teckensnitt i SVG vid export av Excel till SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Lär dig hur du bäddar in teckensnitt när du exporterar Excel-filer till SVG med Aspose.Cells för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

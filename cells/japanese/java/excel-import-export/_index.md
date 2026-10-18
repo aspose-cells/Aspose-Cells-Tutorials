@@ -128,6 +128,12 @@ Aspose.Cells for Java を使用して、XLSX ファイルを PowerPoint プレ�
 ### [Aspose.CellsでJSONからExcelを作成し、JSONをExcelセルに変換する](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
 ### [Aspose.CellsでカスタムオブジェクトをExcelにインポートする – Javaガイド](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
 Aspose.Cells for Java を使用して、カスタムオブジェクトを Excel にインポートする方法をステップバイステップで解説します。
+### [JavaでExcelをHTMLにエクスポートする完全ステップバイステップガイド](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+Aspose.Cells for Javaを使用して、ExcelをHTMLにエクスポートする完全な手順を学びましょう。実用的なコード例と詳しい説明で変換をマスターできます。
+### [Aspose.Cellsで区切り文字を設定しCSVとして保存する方法](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+Aspose.Cellsを使用して区切り文字を指定し、CSV形式でファイルを保存する手順を解説します。
+### [ExcelをSVGにエクスポートする際のフォント埋め込み](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Aspose.Cells for Java を使用して、Excel を SVG にエクスポートする際にフォントを埋め込む方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

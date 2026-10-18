@@ -135,6 +135,11 @@
 เรียนรู้วิธีสร้างไฟล์ Excel จากข้อมูล JSON และแปลงค่า JSON เป็นเซลล์ Excel ด้วย Aspose.Cells
 ### [นำอ็อบเจกต์แบบกำหนดเองเข้าสู่ Excel ด้วย Aspose.Cells – คู่มือ Java](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
 เรียนรู้วิธีนำอ็อบเจกต์แบบกำหนดเองเข้าสู่ไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java ผ่านตัวอย่างโค้ดที่เข้าใจง่าย
+### [ส่งออก Excel เป็น HTML ใน Java – คู่มือขั้นตอนเต็ม](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+เรียนรู้วิธีส่งออกไฟล์ Excel เป็น HTML ใน Java อย่างละเอียดด้วยขั้นตอนและโค้ดตัวอย่างจาก Aspose.Cells
+### [วิธีตั้งค่าตัวคั่นและบันทึกเป็น CSV ด้วย Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+### [ฝังฟอนต์ใน SVG ขณะส่งออก Excel เป็น SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+เรียนรู้วิธีฝังฟอนต์ในไฟล์ SVG เมื่อส่งออก Excel เป็น SVG ด้วย Aspose.Cells สำหรับ Java
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
