@@ -111,6 +111,8 @@
 了解如何在將 Excel 轉換為 HTML 時嵌入字型，提供完整步驟與範例程式碼，確保字型正確顯示。
 ### [從 Excel 工作簿建立 FlatOPC 檔案 – 逐步指南](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
 了解如何使用 Aspose.Cells for Java 從 Excel 工作簿建立 FlatOPC 檔案，提供逐步說明與原始碼範例。
+### [將 JSON 匯出為 Excel（Java） – 完整逐步指南](./export-json-to-excel-with-java-complete-step-by-step-guide/)
+了解如何使用 Aspose.Cells for Java 將 JSON 資料匯出為 Excel。提供逐步指南與原始程式碼示例，輕鬆完成轉換。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

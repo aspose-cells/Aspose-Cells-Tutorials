@@ -60,6 +60,8 @@ Aspose.Cells for Java kullanarak bir Pivot Tablosunu PNG formatında dışa akta
 Aspose.Cells API'siyle Java uygulamanızda bir pivot tabloyu kolayca kopyalamayı öğrenin.
 ### [Çalışma Kitapları Arasında Pivot Tablo Kopyalama – Adım Adım Java Rehberi](./copy-pivot-table-between-workbooks-step-by-step-java-guide/)
 Aspose.Cells for Java kullanarak bir çalışma kitabından diğerine pivot tabloyu nasıl kopyalayacağınızı adım adım öğrenin.
+### [Java'da Yeni Çalışma Kitabı Oluşturma – Pivot Tablo Kopyalama Tam Kılavuzu](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
+Java için Aspose.Cells kullanarak yeni bir çalışma kitabı oluşturup pivot tabloyu nasıl kopyalayacağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

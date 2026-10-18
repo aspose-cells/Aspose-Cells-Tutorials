@@ -58,6 +58,8 @@ Naučte se, jak pomocí Aspose.Cells pro Javu exportovat kontingenční tabulku 
 Naučte se, jak pomocí Aspose.Cells v Javě zkopírovat kontingenční tabulku a snadno spravovat data.
 ### [Kopírování kontingenční tabulky mezi sešity – krok za krokem průvodce v Javě](./copy-pivot-table-between-workbooks-step-by-step-java-guide/)
 Naučte se, jak pomocí Aspose.Cells pro Javu zkopírovat kontingenční tabulku z jednoho sešitu do druhého.
+### [Vytvoření nového sešitu v Javě – Kompletní průvodce kopírováním kontingenční tabulky](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
+Naučte se, jak v Javě vytvořit nový sešit a zkopírovat do něj kontingenční tabulku pomocí Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

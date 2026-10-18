@@ -60,6 +60,8 @@ Aspose.Cells for Java 使您能够自动化数据透视表操作并将其无缝�
 了解如何使用 Aspose.Cells for Java 复制现有数据透视表，以便在工作簿中快速复用和修改。
 ### [在工作簿之间复制数据透视表 – 步骤详解 Java 指南](./copy-pivot-table-between-workbooks-step-by-step-java-guide/)
 学习如何使用 Aspose.Cells for Java 在不同工作簿之间复制数据透视表，实现跨文件的数据分析。
+### [在 Java 中创建新工作簿 – 完整指南：复制数据透视表](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
+了解如何使用 Aspose.Cells for Java 在新工作簿中复制数据透视表，实现跨文件数据迁移。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -127,6 +127,8 @@
 เรียนรู้วิธีสร้างไฟล์ FlatOPC จากเวิร์กบุ๊ก Excel ด้วย Aspose.Cells สำหรับ Java ผ่านขั้นตอนที่ชัดเจนและโค้ดตัวอย่าง
 ### [แปลง Excel เป็น PDF – คู่มือ Java ฉบับสมบูรณ์กับ Aspose.Cells](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
 เรียนรู้วิธีการแปลงไฟล์ Excel เป็น PDF อย่างละเอียดด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดและขั้นตอนครบถ้วน
+### [ส่งออก JSON ไปยัง Excel ด้วย Java – คู่มือขั้นตอนเต็ม](./export-json-to-excel-with-java-complete-step-by-step-guide/)
+เรียนรู้วิธีส่งออกข้อมูล JSON ไปยังไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java ด้วยคำแนะนำทีละขั้นตอนและโค้ดต้นฉบับที่ชัดเจน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

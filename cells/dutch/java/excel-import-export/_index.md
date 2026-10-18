@@ -116,6 +116,8 @@ Leer hoe u een FlatOPC‑bestand maakt vanuit een Excel‑werkmap met Aspose.Cel
 
 ### [Excel converteren naar PDF – Complete Java‑gids met Aspose.Cells](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
 Leer hoe u Excel-bestanden naar PDF converteert met Aspose.Cells voor Java in deze volledige stap‑voor‑stap gids.
+### [JSON exporteren naar Excel met Java – Complete stapsgewijze handleiding](./export-json-to-excel-with-java-complete-step-by-step-guide/)
+Leer hoe u JSON-gegevens naar Excel exporteert met Aspose.Cells voor Java in een volledige stap‑voor‑stap handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -49,6 +49,7 @@
 تعرف على طريقة نسخ جداول البيانات المحورية برمجيًا في Java باستخدام Aspose.Cells لتسهيل إدارة التقارير.
 ### [نسخ جدول محوري بين دفاتر العمل – دليل جافا خطوة بخطوة](./copy-pivot-table-between-workbooks-step-by-step-java-guide/)
 تعلم كيفية نسخ جداول محورية بين ملفات Excel باستخدام Aspose.Cells لجافا بسهولة وفعالية.
+### [إنشاء مصنف جديد في جافا – دليل كامل لنسخ جدول محوري](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

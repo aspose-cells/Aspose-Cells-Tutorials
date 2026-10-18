@@ -60,6 +60,8 @@ Learn how to export Excel Pivot Tables as PNG images using Aspose.Cells for Java
 Learn how to duplicate a Pivot Table programmatically using Aspose.Cells for Java.
 ### [Copy Pivot Table Between Workbooks – Step‑by‑Step Java Guide](./copy-pivot-table-between-workbooks-step-by-step-java-guide/)
 Learn how to copy a Pivot Table from one workbook to another using Aspose.Cells for Java, preserving data and formatting effortlessly.
+### [Create New Workbook in Java – Full Guide to Copy Pivot Table](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
+Learn how to create a new workbook and copy Pivot Tables in Java using Aspose.Cells, with step-by-step code examples.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

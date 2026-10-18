@@ -107,6 +107,8 @@ Erfahren Sie, wie Sie Diagramme aus Excel mit Aspose.Cells für Java als Bild ex
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java in das SVG-Format exportieren. Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
 ### [FlatOPC-Datei aus Excel-Arbeitsmappe erstellen – Schritt‑für‑Schritt‑Leitfaden](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java eine FlatOPC‑Datei aus einer Excel‑Arbeitsmappe erstellen.
+### [JSON nach Excel exportieren mit Java – Komplett‑Anleitung Schritt für Schritt](./export-json-to-excel-with-java-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie JSON‑Daten mit Aspose.Cells für Java in Excel exportieren. Schritt‑für‑Schritt‑Anleitung mit Quellcode für nahtlose Konvertierung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

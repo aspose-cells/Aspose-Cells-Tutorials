@@ -53,6 +53,8 @@ Pelajari cara mengimpor data dari Excel menggunakan Aspose.Cells untuk Java. Pan
 Pelajari cara mengekspor data Excel ke JSON menggunakan Aspose.Cells untuk Java. Ikuti panduan langkah demi langkah ini dengan kode sumber untuk konversi yang lancar.
 ### [Simpan Workbook sebagai XLSX – Hasilkan XLSX dari JSON](./save-workbook-as-xlsx-generate-xlsx-from-json/)
 Pelajari cara menyimpan workbook sebagai file XLSX dengan menghasilkan file XLSX langsung dari data JSON menggunakan Aspose.Cells untuk Java.
+### [Ekspor JSON ke Excel dengan Java – Panduan Langkah demi Langkah Lengkap](./export-json-to-excel-with-java-complete-step-by-step-guide/)
+Pelajari cara mengekspor data JSON ke file Excel menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan contoh kode sumber.
 ### [Validasi Data Impor Excel](./excel-import-data-validation/)
 Pelajari cara menerapkan validasi data impor Excel menggunakan Aspose.Cells untuk Java dengan panduan langkah demi langkah yang komprehensif ini. Pastikan keakuratan data dan tingkatkan pengalaman pengguna. 
 ### [Ekspor Excel ke HTML Java](./export-excel-to-html-java/)

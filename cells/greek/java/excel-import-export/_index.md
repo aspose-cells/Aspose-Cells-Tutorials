@@ -106,6 +106,8 @@
 Μάθετε πώς να εξάγετε αρχεία Excel σε μορφή SVG χρησιμοποιώντας το Aspose.Cells για Java. Οδηγός βήμα‑βήμα με κώδικα.
 ### [Δημιουργία αρχείου FlatOPC από βιβλίο εργασίας Excel – Οδηγός βήμα‑βήμα](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε αρχείο FlatOPC από βιβλίο εργασίας Excel χρησιμοποιώντας το Aspose.Cells για Java σε βήμα‑βήμα οδηγό.
+### [Εξαγωγή JSON σε Excel με Java – Πλήρης Οδηγός Βήμα‑Βήμα](./export-json-to-excel-with-java-complete-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε JSON σε Excel με το Aspose.Cells για Java, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

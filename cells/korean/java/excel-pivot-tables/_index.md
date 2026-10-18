@@ -60,6 +60,8 @@ Aspose.Cells for Java를 사용하여 피벗 테이블을 PNG 이미지로 내�
 Aspose.Cells for Java를 이용해 피벗 테이블을 복사하는 방법을 단계별로 안내합니다.
 ### [워크북 간 피벗 테이블 복사 – 단계별 Java 가이드](./copy-pivot-table-between-workbooks-step-by-step-java-guide/)
 Aspose.Cells for Java를 사용하여 한 워크북에서 다른 워크북으로 피벗 테이블을 복사하는 방법을 단계별로 안내합니다.
+### [Java에서 새 워크북 만들기 – 피벗 테이블 복사 전체 가이드](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
+Aspose.Cells for Java를 사용해 새 워크북을 생성하고 기존 피벗 테이블을 복사하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

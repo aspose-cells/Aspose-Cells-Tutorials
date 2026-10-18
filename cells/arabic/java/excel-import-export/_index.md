@@ -111,6 +111,8 @@
 اكتشف طريقة تضمين الخطوط في ملفات HTML عند تحويل Excel باستخدام Aspose.Cells لجافا، مع دليل شامل خطوة بخطوة.
 ### [إنشاء ملف FlatOPC من مصنف Excel – دليل خطوة بخطوة](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
 تعرف على كيفية إنشاء ملف FlatOPC من مصنف Excel باستخدام Aspose.Cells لجافا عبر دليل خطوة بخطوة مع أمثلة الكود.
+### [تصدير JSON إلى Excel باستخدام Java – دليل خطوة بخطوة كامل](./export-json-to-excel-with-java-complete-step-by-step-guide/)
+تعلم كيفية تحويل ملفات JSON إلى Excel باستخدام Aspose.Cells لجافا عبر دليل شامل مع أمثلة الكود خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

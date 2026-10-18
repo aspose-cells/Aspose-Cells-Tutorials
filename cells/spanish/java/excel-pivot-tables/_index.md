@@ -60,6 +60,8 @@ Aprenda a exportar tablas dinámicas a imágenes PNG con Aspose.Cells para Java,
 Aprenda a copiar tablas dinámicas en Java con Aspose.Cells para reutilizar y modificar datos fácilmente.
 ### [Copiar tabla dinámica entre libros de trabajo – Guía paso a paso en Java](./copy-pivot-table-between-workbooks-step-by-step-java-guide/)
 Aprenda a copiar una tabla dinámica entre libros de trabajo con Aspose.Cells para Java.
+### [Crear nuevo libro de trabajo en Java – Guía completa para copiar tabla dinámica](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
+Aprenda a crear un nuevo libro de trabajo y copiar tablas dinámicas en Java usando Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -109,6 +109,8 @@ Aprenda a exportar arquivos do Excel para SVG usando o Aspose.Cells para Java. G
 Aprenda a incorporar fontes ao converter arquivos Excel para HTML usando Aspose.Cells para Java. Guia passo a passo com exemplos de código.
 ### [Criar arquivo FlatOPC a partir de pasta de trabalho Excel – Guia passo a passo](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
 Aprenda a criar um arquivo FlatOPC a partir de uma pasta de trabalho Excel usando Aspose.Cells para Java. Guia passo a passo com código-fonte.
+### [Exportar JSON para Excel com Java – Guia Completo Passo a Passo](./export-json-to-excel-with-java-complete-step-by-step-guide/)
+Aprenda a exportar dados de JSON para arquivos Excel usando o Aspose.Cells para Java. Guia passo a passo com código-fonte para conversão fácil.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
