@@ -61,6 +61,8 @@
 Μάθετε πώς να εξάγετε έναν πίνακα σε αρχείο CSV με το Aspose.Cells για .NET χρησιμοποιώντας C#.
 ### [Πώς να εξάγετε CSV από το Excel με C# – Πλήρης Οδηγός](./how-to-export-csv-from-excel-with-c-complete-guide/)
 Μάθετε πώς να εξάγετε δεδομένα CSV από το Excel με C# σε πλήρη, βήμα‑βήμα οδηγό.
+### [Αποθήκευση βιβλίου εργασίας ως CSV – Πλήρης οδηγός εξαγωγής Excel σε CSV με ελεγχόμενα ψηφία](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-w/)
+Μάθετε πώς να αποθηκεύετε ένα βιβλίο εργασίας ως CSV, ελέγχοντας τον αριθμό των ψηφίων και διασφαλίζοντας ακριβή εξαγωγή δεδομένων.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -62,6 +62,8 @@ Aspose.Cells for .NET kullanarak Excel çalışma kitabını CSV'ye dönüştür
 Aspose.Cells for .NET ile C# kullanarak bir tabloyu CSV dosyasına nasıl aktaracağınızı adım adım öğrenin.
 ### [C# ile Excel'den CSV Dışa Aktarma – Tam Kılavuz](./how-to-export-csv-from-excel-with-c-complete-guide/)
 C# ve Aspose.Cells kullanarak Excel dosyalarından CSV formatına nasıl dışa aktarım yapacağınızı adım adım öğrenin.
+### [Çalışma Kitabını CSV Olarak Kaydet – Kontrol Edilen Rakamlarla Excel'den CSV'ye Tam Rehber](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-w/)
+Aspose.Cells for .NET kullanarak bir çalışma kitabını CSV olarak kaydetmeyi ve ondalık basamakları kontrol etmeyi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

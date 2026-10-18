@@ -61,6 +61,8 @@ Aprenda a converter planilhas do Excel para arquivos CSV usando Aspose.Cells par
 Aprenda a exportar tabelas para arquivos CSV usando Aspose.Cells para .NET com exemplos completos em C#.
 ### [Como Exportar CSV do Excel com C# – Guia Completo](./how-to-export-csv-from-excel-with-c-complete-guide/)
 Aprenda a exportar planilhas do Excel para arquivos CSV usando C# com o Aspose.Cells, passo a passo e exemplos práticos.
+### [Salvar Pasta de Trabalho como CSV – Guia Completo para Exportar Excel para CSV com Dígitos Controlados](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-w/)
+Aprenda a salvar planilhas como CSV usando Aspose.Cells, controlando o número de casas decimais e garantindo precisão na exportação.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
