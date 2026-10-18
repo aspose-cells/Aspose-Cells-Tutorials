@@ -57,7 +57,6 @@ Erfahren Sie, wie Sie XLSX-Dateien mit Aspose.Cells für .NET programmgesteuert 
 
 ### [Programmgesteuertes Konvertieren einer Excel-Datei in PPTX in .NET](./converting-excel-file-to-pptx/)
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET eine Excel-Datei programmgesteuert in eine PowerPoint-Präsentation (PPTX) konvertieren.
-
 ### [Wie man Excel mit C# in PNG konvertiert – Schritt‑für‑Schritt‑Leitfaden](./how-to-convert-excel-to-png-with-c-step-by-step-guide/)
 Erfahren Sie, wie Sie Excel‑Dateien mit Aspose.Cells für .NET programmgesteuert in PNG‑Bilder umwandeln.
 
@@ -73,6 +72,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Daten programmgesteuert i
 Erfahren Sie, wie Sie mit Aspose.Cells Excel-Diagramme programmgesteuert in ein DOCX-Dokument exportieren und speichern.
 ### [PowerPoint aus Excel erstellen – Komplettes C#‑Tutorial](./create-powerpoint-from-excel-complete-c-tutorial/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel‑Daten programmgesteuert in PowerPoint‑Präsentationen konvertieren – Schritt‑für‑Schritt‑Anleitung.
+### [Exportieren von Excel nach PowerPoint mit Aspose.Cells – vollständige Programmieranleitung](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
+Erfahren Sie, wie Sie Excel-Tabellen mit Aspose.Cells programmgesteuert in PowerPoint-Präsentationen exportieren – Schritt‑für‑Schritt‑Anleitung.
 ### [PowerPoint aus Excel erstellen – Schritt‑für‑Schritt‑Anleitung](./create-powerpoint-from-excel-step-by-step-guide/)
 ### [Excel mit C# nach PowerPoint exportieren – Komplettanleitung](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
 Erfahren Sie, wie Sie Excel-Daten mit Aspose.Cells für .NET programmgesteuert in PowerPoint‑Präsentationen exportieren – Schritt‑für‑Schritt‑Anleitung.

@@ -127,6 +127,8 @@ Aprenda a exportar planilhas do Excel como arquivos de texto delimitados por tab
 Aprenda a salvar planilhas Excel como arquivos de texto usando Aspose.Cells, passo a passo em C#.
 
 ### [Como converter Excel para PNG com C# – guia passo a passo](./how-to-convert-excel-to-png-with-c-step-by-step-guide/)
+### [Exportar Excel para PowerPoint com Aspose.Cells – guia de programação completo](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
+Aprenda a exportar planilhas do Excel para apresentações PowerPoint programaticamente usando Aspose.Cells para .NET neste guia passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

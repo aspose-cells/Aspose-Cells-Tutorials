@@ -103,6 +103,8 @@ deskripsi: Pelajari cara melacak kemajuan konversi dokumen secara terprogram men
 Pelajari cara melacak kemajuan konversi TIFF secara terprogram menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah kami. Tingkatkan keterampilan manajemen dokumen Anda.
 ### [Ekspor Excel ke TXT di C# – panduan pemrograman lengkap](./export-excel-to-txt-in-c-complete-programming-guide/)
 Pelajari cara mengekspor file Excel ke format TXT menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah yang lengkap.
+### [Ekspor Excel ke PowerPoint dengan Aspose.Cells – panduan pemrograman lengkap](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
+Pelajari cara mengekspor file Excel ke presentasi PowerPoint secara terprogram menggunakan Aspose.Cells dalam panduan lengkap ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

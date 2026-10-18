@@ -94,6 +94,8 @@ Aspose.Cells для .NET упрощает преобразование доку�
 Научитесь отслеживать ход преобразования TIFF программно с помощью Aspose.Cells для .NET с помощью нашего пошагового руководства. Улучшите свои навыки управления документами.
 ### [Экспорт Excel в TXT в C# – полное руководство](./export-excel-to-txt-in-c-complete-programming-guide/)
 Узнайте, как программно экспортировать данные из Excel в текстовый файл TXT с помощью C# и Aspose.Cells.
+### [Экспорт Excel в PowerPoint с Aspose.Cells – полное руководство по программированию](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
+Узнайте, как экспортировать файлы Excel в презентацию PowerPoint с помощью Aspose.Cells для .NET в полном пошаговом руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

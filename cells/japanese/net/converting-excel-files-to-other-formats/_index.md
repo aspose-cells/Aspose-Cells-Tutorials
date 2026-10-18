@@ -62,6 +62,18 @@ Aspose.Cellsを使用して、.NETでプログラム的にJSONをCSVに変換す
 Aspose.Cells for .NET を使用して、Excel データを PowerPoint スライドに変換する手順を詳しく解説します。
 ### [.NET でプログラム的に Excel の印刷範囲を設定し PowerPoint にエクスポートする – ステップバイステップ ガイド](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
 ### [.NET でプログラム的に Excel を PowerPoint に変換し、印刷範囲を設定する](./convert-excel-to-powerpoint-and-set-print-area/)
+### [Aspose.Cells を使用した Excel から PowerPoint へのエクスポート – 完全プログラミングガイド](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
+Aspose.Cells を利用して .NET で Excel を PowerPoint (PPTX) に変換する完全な手順とコード例を紹介します。
+### [.NET でプログラム的に出力 HTML に HTML CrossType を指定する](./specifying-html-crosstype-in-output-html/)
+Aspose.Cells for .NETでHTML CrossTypeを指定する方法を学びましょう。ステップバイステップのチュートリアルに従って、ExcelファイルをHTMLに正確に変換しましょう。
+### [.NET でプログラム的に数値スプレッドシートを読み取る](./reading-numbers-spreadsheet/)
+この詳細なチュートリアルでは、Aspose.Cells for .NET を使用して Numbers スプレッドシートを読み取り、PDF に変換する方法を学習します。
+### [.NET でワークブックを厳密な Open XML スプレッドシート形式で保存する](./saving-workbook-to-strict-open-xml-spreadsheet-format/)
+この詳細なチュートリアルでは、Aspose.Cells for .NET を使用して、Strict Open XML スプレッドシート形式でブックを保存する方法を学習します。
+### [.NET でプログラム的にドキュメント変換の進行状況を追跡する](./tracking-document-conversion-progress/)
+説明: この詳細なチュートリアルでは、Aspose.Cells for .NET を使用してドキュメント変換の進行状況をプログラムで追跡する方法を学習します。
+### [.NET でプログラム的に TIFF ドキュメントの変換進行状況を追跡する](./tracking-document-conversion-progress-for-tiff/)
+Aspose.Cells for .NET を使用して、TIFF 変換の進行状況をプログラムで追跡する方法をステップバイステップガイドで学びましょう。ドキュメント管理スキルを向上させましょう。
 ### [.NET でプログラム的に Excel から PowerPoint を作成する](./create-powerpoint-from-excel-step-by-step-guide/)
 ### [Excel を PowerPoint に変換する – ステップバイステップ C# ガイド](./convert-excel-to-powerpoint-step-by-step-c-guide/)
 ### [.NET でプログラム的に Excel から PowerPoint を作成する](./create-powerpoint-from-excel-step-by-step-guide/)

@@ -72,6 +72,8 @@ Aprenda a definir el área de impresión en Excel y exportarla a PowerPoint usan
 Aprenda a exportar Excel a PowerPoint con Aspose.Cells para .NET mediante una guía completa en C#.
 ### [Convertir Excel a PowerPoint con C# – Guía completa](./convert-excel-to-powerpoint-with-c-complete-guide/)
 Aprenda a convertir archivos de Excel a presentaciones PowerPoint usando C# y Aspose.Cells con esta guía paso a paso.
+### [Exportar Excel a PowerPoint con Aspose.Cells – guía completa de programación](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
+Aprenda a exportar datos de Excel a una presentación PowerPoint usando Aspose.Cells con una guía completa paso a paso.
 ### [Especificación de HTML CrossType en la salida HTML mediante programación en .NET](./specifying-html-crosstype-in-output-html/)
 Aprenda a especificar HTML CrossType en Aspose.Cells para .NET. Siga nuestro tutorial paso a paso para convertir archivos de Excel a HTML con precisión.
 

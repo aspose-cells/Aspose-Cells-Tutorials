@@ -122,6 +122,8 @@ Naučte se, jak pomocí Aspose.Cells převést Excel do DOCX a exportovat grafy 
 Naučte se, jak v C# pomocí Aspose.Cells převést soubory Excel do formátu PNG s podrobným návodem.
 ### [Programový export Excel do TXT v C# – kompletní programovací průvodce](./export-excel-to-txt-in-c-complete-programming-guide/)
 Naučte se, jak exportovat data z Excelu do textových souborů TXT v C# pomocí Aspose.Cells pro .NET v podrobném průvodci.
+### [Programový export Excel do PowerPointu s Aspose.Cells – kompletní programovací průvodce v .NET](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
+Kompletní návod, jak exportovat data z Excelu do PowerPointu pomocí Aspose.Cells v .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
