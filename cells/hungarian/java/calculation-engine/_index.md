@@ -60,6 +60,10 @@ Tanuld meg, hogyan szakítsd meg hatékonyan a képletszámításokat munkafüze
 
 ### [Excel számítások optimalizálása az Aspose.Cells Java&#58; segítségével: Számítási láncok elsajátítása a hatékony munkafüzet-feldolgozáshoz](./optimize-excel-aspose-cells-java-calculation-chains/)
 Tanuld meg, hogyan növeld az Excel teljesítményét az Aspose.Cells for Java használatával számítási láncok implementálásával, a képletek hatékony számításával és a cellaértékek frissítésével.
+### [XLSX fájl megnyitása Java-ban – Teljes útmutató a munkafüzet betöltéséhez és a képletek újraszámításához](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
+Tanulja meg, hogyan nyisson meg XLSX fájlt Java-ban, töltse be a munkafüzetet, és számítsa újra a képleteket az Aspose.Cells segítségével.
+### [Dinamikus tömb képletek Java-ban: Excel munkafüzet létrehozása és minden képlet kiszámítása](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
+Ismerje meg, hogyan hozhat létre Excel munkafüzetet Java-val, és számíthatja ki a dinamikus tömb képleteket egy lépésben.
 
 ### [Hogyan frissítsük az Excel munkafüzeteket Java-ban az Aspose.Cells használatával](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
 Tanuld meg, hogyan frissítheted a munkafüzeteket az Aspose.Cells for Java segítségével a legújabb adatok betöltéséhez.

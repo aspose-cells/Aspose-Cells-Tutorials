@@ -24,13 +24,7 @@ title: Wie man XLSB in C# speichert – Schritt‑für‑Schritt‑Anleitung
 url: /de/net/saving-files-in-different-formats/how-to-save-xlsb-in-c-step-by-step-guide/
 ---
 
--backtop-button >}}
-
-Make sure to keep them.
-
-Now produce final output with all translations. Ensure code block placeholders unchanged. Ensure markdown formatting preserved.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

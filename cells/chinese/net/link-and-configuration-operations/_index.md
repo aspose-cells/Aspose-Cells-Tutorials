@@ -29,6 +29,9 @@ Aspose.Cells for .NET 提供了丰富的功能，可以彻底改变您处理 Exc
 ### [在 .NET 中配置链接到内容文档属性](./configuring-link-to-content-document-property/)
 了解如何使用 Aspose.Cells for .NET 将文档属性链接到 Excel 中的内容。面向开发人员的分步教程。
 
+### [创建 GridJsOptions 实例 – 配置 Grid Options JavaScript](./create-gridjsoptions-instance-configure-grid-options-javascr/)
+学习如何在 JavaScript 中创建 GridJsOptions 实例并配置网格选项，以实现自定义表格功能。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

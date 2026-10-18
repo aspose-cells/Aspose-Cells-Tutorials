@@ -11,18 +11,6 @@ url: /pt/java/calculation-engine/optimize-excel-aspose-cells-java-calculation-ch
 weight: 1
 ---
 
- No other code blocks appear? The only code blocks are placeholders; they are not fenced code blocks but placeholders. Actually they are within markdown but not fenced. The instruction says preserve fenced code blocks. There are none. So fine.
-
-We need to translate all visible text, including bullet points, paragraphs, etc.
-
-Also need to keep URLs unchanged.
-
-Let's produce the translated content.
-
-We must keep the same structure.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

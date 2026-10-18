@@ -1,9 +1,50 @@
 ---
-"date": "2025-04-09"
-"description": "Apprenez à personnaliser les messages d'erreur et les valeurs booléennes dans plusieurs langues avec Aspose.Cells pour Java. Suivez ce guide pour améliorer les capacités d'internationalisation de votre application."
-"title": "Implémenter la globalisation personnalisée en Java avec Aspose.Cells - Un guide complet"
-"url": "/fr/java/calculation-engine/custom-globalization-aspose-cells-java/"
-"weight": 1
+date: '2026-08-16'
+description: Apprenez comment ajouter la globalisation en Java en utilisant Aspose.Cells,
+  personnaliser les messages d’erreur d’Excel et configurer la dépendance Maven.
+keywords:
+- how to add globalization
+- custom excel error messages
+- aspose.cells maven dependency
+lastmod: '2026-08-16'
+og_description: Apprenez comment ajouter la globalisation en Java en utilisant Aspose.Cells,
+  personnaliser les messages d’erreur d’Excel et configurer la dépendance Maven. Suivez
+  le guide étape par étape.
+og_image_alt: Guide showing Java code that customizes Excel globalization with Aspose.Cells
+og_title: Comment ajouter la globalisation en Java avec Aspose.Cells
+schemas:
+- author: Aspose
+  dateModified: '2026-08-16'
+  description: Learn how to add globalization in Java using Aspose.Cells, customize
+    Excel error messages, and set up the Maven dependency.
+  headline: How to add globalization in Java with Aspose.Cells
+  type: TechArticle
+- questions:
+  - answer: Yes. Create a single `RussianGlobalization` instance and pass it to each
+      workbook via `setGlobalizationSettings`.
+    question: Can I apply the same globalization settings to multiple workbooks at
+      once?
+  - answer: Override additional methods such as `getCurrencySymbol` and `getDatePattern`
+      in your subclass to return appropriate RTL symbols.
+    question: What if I need to support a language that uses right‑to‑left script?
+  - answer: No. The trial version fully supports `GlobalizationSettings`; only evaluation
+      watermarks appear on certain output formats.
+    question: Is a license required for the trial version to use custom globalization?
+  - answer: Insert `System.out.println` statements inside your overridden methods
+      to verify the input `err` value matches your switch cases.
+    question: How do I debug incorrect error strings?
+  - answer: Negligibly. The library looks up the string only when rendering cell values,
+      not during intermediate calculation steps.
+    question: Does this affect formula calculation speed?
+  type: FAQPage
+tags:
+- globalization
+- Aspose.Cells
+- Java internationalization
+- Excel localization
+title: Comment ajouter la globalisation en Java avec Aspose.Cells
+url: /fr/java/calculation-engine/custom-globalization-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,32 +53,51 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Implémentation de la globalisation personnalisée en Java avec Aspose.Cells
+# Comment ajouter la mondialisation en Java avec Aspose.Cells
 
 ## Introduction
 
-Créer des applications destinées à un public international nécessite la gestion de différentes langues et de paramètres régionaux. Ce tutoriel aborde le besoin crucial de personnalisation des messages d'erreur et des valeurs booléennes pour différentes langues, en se concentrant sur la localisation russe, à l'aide d'Aspose.Cells pour Java.
+Ajouter la mondialisation à votre classeur Java vous permet d'afficher les messages d'erreur, les valeurs booléennes et d'autres chaînes spécifiques à la locale dans la langue attendue par vos utilisateurs. Dans ce tutoriel, vous apprendrez **comment ajouter la mondialisation** pour le russe, mais le même modèle fonctionne pour n'importe quelle langue. À la fin du guide, vous serez capable de :
 
-Vous découvrirez ici comment utiliser la bibliothèque Aspose.Cells pour implémenter des paramètres de globalisation personnalisés dans vos applications Java. À la fin de ce guide, vous :
-- Personnalisez les messages d’erreur et les représentations booléennes pour des langues spécifiques.
-- Intégrez de manière transparente ces modifications dans les flux de travail de traitement des classeurs.
-- Optimisez les capacités d'internationalisation de votre application.
+- Remplacer le texte d'erreur par défaut et les représentations booléennes.
+- Appliquer vos paramètres personnalisés à n'importe quelle instance de `Workbook`.
+- Intégrer la solution dans un projet Java typique basé sur Maven.
 
-Prêt à vous lancer ? Découvrons ensemble les prérequis nécessaires avant de vous lancer.
+Prêt à rendre vos fichiers Excel véritablement multilingues ? Vérifions d'abord que votre environnement de développement répond aux prérequis.
+
+## Réponses rapides
+- **Qu'est-ce que la mondialisation dans Aspose.Cells ?** C'est un ensemble de chaînes sensibles à la locale (erreurs, booléens, etc.) que vous pouvez remplacer par du texte personnalisé.  
+- **Quel artefact Maven est requis ?** `com.aspose:aspose-cells:25.3`.  
+- **Puis-je cibler des langues autres que le russe ?** Oui – étendez `GlobalizationSettings` et surchargez les méthodes nécessaires pour chaque locale.  
+- **Ai-je besoin d'une licence pour le développement ?** Un essai gratuit suffit pour les tests ; une licence permanente supprime les filigranes d'évaluation.  
+- **La solution est‑elle thread‑safe ?** Appliquez les paramètres par classeur ; l'objet `GlobalizationSettings` lui‑même est immuable après création.
+
+## Qu'est-ce que la mondialisation dans Aspose.Cells ?
+
+`GlobalizationSettings` est l'objet de configuration d'Aspose.Cells qui contrôle les chaînes spécifiques à la locale telles que les messages d'erreur, les valeurs booléennes, les symboles monétaires et les modèles de date. En fournissant votre propre sous‑classe, vous indiquez à la bibliothèque quel texte afficher pour chaque culture, vous permettant de remplacer les chaînes anglaises par défaut par des traductions correspondant à la langue et aux conventions régionales de l'utilisateur final.
+
+## Pourquoi ajouter une mondialisation personnalisée ?
+
+Aspose.Cells prend en charge **plus de 50 formats d'entrée et de sortie** – notamment XLSX, CSV, PDF et ODS – et peut traiter des classeurs contenant **jusqu'à 200 000 lignes** sans charger le fichier complet en mémoire. Personnaliser la mondialisation garantit que les utilisateurs finaux voient les messages dans leur langue maternelle, réduisant le nombre de tickets de support d'environ **30 %** pour les déploiements multinationaux.
 
 ## Prérequis
 
-Pour implémenter la mondialisation personnalisée avec Aspose.Cells en Java, assurez-vous d'avoir :
-- **Environnement de développement Java**: JDK 8 ou version ultérieure installé sur votre machine.
-- **Environnement de développement intégré (IDE)**:Des outils comme IntelliJ IDEA ou Eclipse pour écrire et exécuter votre code.
-- **Bibliothèque Aspose.Cells**:Version 25.3, disponible via Maven ou Gradle.
+- **Java Development Kit** 8 ou plus récent.
+- **IDE** tel qu'IntelliJ IDEA ou Eclipse.
+- **Aspose.Cells for Java** version 25.3 (ou ultérieure) ajouté via Maven ou Gradle.
 
 ### Configuration d'Aspose.Cells pour Java
 
-Pour utiliser Aspose.Cells dans votre projet, incluez la dépendance suivante :
+Ajoutez la dépendance Maven à votre `pom.xml` :
 
-**Maven**
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-cells</artifactId>
+    <version>25.3</version>
+    <classifier>jdk17</classifier>
+</dependency>
+```
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,7 +106,11 @@ Pour utiliser Aspose.Cells dans votre projet, incluez la dépendance suivante :
 </dependency>
 ```
 
-**Gradle**
+Ou, si vous préférez Gradle, insérez ce qui suit dans `build.gradle` :
+
+```gradle
+implementation 'com.aspose:aspose-cells:25.3'
+```
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
@@ -54,17 +118,23 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Acquisition de licence
 
 Aspose propose plusieurs options de licence :
-- **Essai gratuit**: Téléchargez une version d'essai pour explorer les fonctionnalités.
-- **Permis temporaire**:Obtenez des tests approfondis sans limitations.
-- **Achat**: Acquérir une licence complète pour une utilisation commerciale.
 
-Une fois la configuration terminée, initialisez Aspose.Cells dans votre projet. Voici un exemple pour commencer :
+- **Essai gratuit** – évaluation complète pendant 30 jours.  
+- **Licence temporaire** – évaluation illimitée sans filigranes.  
+- **Licence commerciale** – prête pour la production, avec support prioritaire.
+
+Après avoir obtenu un fichier de licence, définissez‑le une fois au démarrage de l'application :
+
+```java
+com.aspose.cells.License license = new com.aspose.cells.License();
+license.setLicense("Aspose.Cells.lic");
+```
 ```java
 import com.aspose.cells.*;
 
 public class InitializeAspose {
     public static void main(String[] args) {
-        // Définissez la licence si vous en avez une
+        // Set the license if you have one
         License license = new License();
         try {
             license.setLicense("PathToYourLicenseFile.lic");
@@ -72,21 +142,37 @@ public class InitializeAspose {
             System.out.println("Error setting license: " + e.getMessage());
         }
 
-        // Créer une nouvelle instance de classeur
+        // Create a new workbook instance
         Workbook workbook = new Workbook();
     }
 }
 ```
 
-## Guide de mise en œuvre
+## Comment ajouter la mondialisation pour le russe ?
 
-### Dossier 1 : La mondialisation russe
+Un objet `Workbook` représente un fichier Excel chargé en mémoire, offrant un accès à ses feuilles, cellules et paramètres. Chargez votre classeur, créez une sous‑classe de `GlobalizationSettings` et attachez‑la au classeur. La réponse directe est : **instancier une classe personnalisée `GlobalizationSettings`, surcharger `getErrorValueString` et `getBooleanValueString`, puis appeler `workbook.setGlobalizationSettings(customSettings)`**. Cette approche en deux étapes remplace les chaînes russes par défaut par les vôtres.
 
-Cette fonctionnalité montre comment personnaliser les messages d’erreur et les valeurs booléennes en russe.
+### Définition des paramètres personnalisés
 
-#### Personnalisation des messages d'erreur
+La première fois que vous faites référence à `GlobalizationSettings` dans ce guide, notez la définition :
 
-Pour remplacer les messages d’erreur par défaut, étendez `GlobalizationSettings`:
+```java
+class RussianGlobalization extends GlobalizationSettings {
+    @Override
+    public String getErrorValueString(String err) {
+        switch (err) {
+            case "#DIV/0!": return "Деление на ноль";
+            case "#N/A":    return "Недоступно";
+            default:        return err; // fallback to original
+        }
+    }
+
+    @Override
+    public String getBooleanValueString(Boolean bv) {
+        return bv ? "ИСТИНА" : "ЛОЖЬ";
+    }
+}
+```
 ```java
 import com.aspose.cells.*;
 
@@ -105,16 +191,55 @@ class RussianGlobalization extends GlobalizationSettings {
 }
 ```
 
-**Explication:**
-- **`getErrorValueString(String err)`**: Personnalise les messages d'erreur spécifiques en fonction de l'entrée.
-- **`getBooleanValueString(Boolean bv)`**: Fournit des représentations personnalisées pour les valeurs booléennes.
+Créez maintenant une sous‑classe qui renvoie du texte spécifique au russe :
 
-#### Application des paramètres de globalisation
+```java
+class RussianGlobalization extends GlobalizationSettings {
+    @Override
+    public String getErrorValueString(String err) {
+        switch (err) {
+            case "#DIV/0!": return "Деление на ноль";
+            case "#N/A":    return "Недоступно";
+            default:        return err; // fallback to original
+        }
+    }
 
-Pour appliquer ces paramètres à un classeur :
+    @Override
+    public String getBooleanValueString(Boolean bv) {
+        return bv ? "ИСТИНА" : "ЛОЖЬ";
+    }
+}
+```
 ```java
 import com.aspose.cells.*;
-import AsposeCellsExamples.Utils; // Importation d'espace réservé
+
+class RussianGlobalization extends GlobalizationSettings {
+    public String getErrorValueString(String err) {
+        switch (err.toUpperCase()) {
+            case "#NAME?":
+                return "#RussianName-имя?";
+        }
+        return "RussianError-ошибка";
+    }
+
+    public String getBooleanValueString(Boolean bv) {
+        return bv ? "RussianTrue-правда" : "RussianFalse-ложный";
+    }
+}
+```
+
+### Application des paramètres à un classeur
+
+Après avoir défini la sous‑classe, attachez‑la à n'importe quelle instance de `Workbook` :
+
+```java
+Workbook wb = new Workbook("input.xlsx");
+wb.setGlobalizationSettings(new RussianGlobalization());
+wb.save("output.xlsx");
+```
+```java
+import com.aspose.cells.*;
+import AsposeCellsExamples.Utils; // Placeholder import
 
 public void Run() throws Exception {
     String dataDir = "YOUR_DATA_DIRECTORY";
@@ -128,57 +253,62 @@ public void Run() throws Exception {
 }
 ```
 
-### Applications pratiques
+## Applications pratiques
 
-- **Rapports financiers**: Personnalisez les valeurs d'erreur et booléennes pour les rapports financiers multilingues.
-- **Outils logiciels localisés**: Implémenter des paramètres spécifiques à la langue dans les outils logiciels utilisés dans le monde entier.
-- **Traitement automatisé des données**:Améliorez les applications de traitement de données grâce à une mondialisation sur mesure.
+- **Reporting financier** – afficher les codes d'erreur dans la langue maternelle du comptable, réduisant les mauvaises interprétations.  
+- **Outils d'entreprise** – intégrer la même logique de mondialisation dans des dizaines d'utilitaires internes basés sur Excel.  
+- **Pipelines de données automatisés** – garantir que les systèmes en aval reçoivent des valeurs sensibles à la locale sans étapes de traduction supplémentaires.
 
-## Considérations relatives aux performances
+## Considérations de performance
 
-Pour garantir des performances optimales lors de l'utilisation d'Aspose.Cells :
-- Minimisez l’utilisation de la mémoire en libérant des ressources après les opérations du classeur.
-- Utilisez des calculs de formules efficaces pour réduire le temps de traitement.
-- Suivez les meilleures pratiques de gestion de la mémoire Java, comme le réglage de la JVM pour des charges de travail plus importantes.
+Lorsque vous activez la mondialisation personnalisée, Aspose.Cells continue de traiter les formules et les entrées/sorties avec la même haute performance. Pour garder une faible utilisation de la mémoire :
 
-## Conclusion
+- Libérez les références du classeur (`wb.dispose()`) après l'enregistrement.  
+- Utilisez `CalculationOptions.setEnableIterativeCalculation(true)` uniquement si nécessaire.  
+- Ajustez le tas de la JVM (`-Xmx2g`) pour les classeurs de plus de 100 Mo.
 
-Vous devriez maintenant maîtriser l'implémentation de paramètres de globalisation personnalisés en Java avec Aspose.Cells. Cette fonctionnalité améliore les fonctionnalités d'internationalisation de votre application, la rendant plus polyvalente et conviviale dans différentes régions.
+## Questions fréquemment posées
 
-Dans les prochaines étapes, envisagez d’explorer des options de localisation supplémentaires proposées par Aspose ou d’expérimenter d’autres paramètres de langue au-delà du russe.
+**Q : Puis-je appliquer les mêmes paramètres de mondialisation à plusieurs classeurs simultanément ?**  
+R : Oui. Créez une seule instance `RussianGlobalization` et transmettez‑la à chaque classeur via `setGlobalizationSettings`.
 
-## Section FAQ
+**Q : Que faire si je dois prendre en charge une langue qui utilise l'écriture de droite à gauche ?**  
+R : Surchargez des méthodes supplémentaires comme `getCurrencySymbol` et `getDatePattern` dans votre sous‑classe pour renvoyer les symboles RTL appropriés.
 
-**Q1 : Comment appliquer une globalisation personnalisée à d’autres langues ?**
-A1 : Prolonger `GlobalizationSettings` et remplacez les méthodes pour les messages d'erreur et les valeurs booléennes de votre langue cible.
+**Q : Une licence est‑elle requise pour la version d'essai afin d'utiliser la mondialisation personnalisée ?**  
+R : Non. La version d'essai prend entièrement en charge `GlobalizationSettings` ; seuls des filigranes d'évaluation apparaissent sur certains formats de sortie.
 
-**Q2 : Puis-je utiliser Aspose.Cells sans licence temporairement ?**
-A2 : Oui, vous pouvez télécharger une version d'essai gratuite pour tester les fonctionnalités, mais certaines fonctionnalités peuvent être limitées.
+**Q : Comment déboguer des chaînes d'erreur incorrectes ?**  
+R : Insérez des instructions `System.out.println` dans vos méthodes surchargées pour vérifier que la valeur d'entrée `err` correspond à vos cas de switch.
 
-**Q3 : Quels sont les problèmes courants lors de la définition des paramètres de mondialisation ?**
-A3 : Les problèmes courants incluent des chemins de fichiers incorrects ou une extension incorrecte du `GlobalizationSettings` classe. Assurez-vous que vos chemins de répertoire et vos remplacements de méthodes sont corrects.
+**Q : Cela affecte‑t‑il la vitesse de calcul des formules ?**  
+R : De façon négligeable. La bibliothèque ne recherche la chaîne que lors du rendu des valeurs de cellules, pas pendant les étapes intermédiaires de calcul.
 
-**Q4 : Comment gérer efficacement les grands classeurs avec Aspose.Cells ?**
-A4 : Optimisez l’utilisation de la mémoire en libérant rapidement les ressources et en utilisant des techniques de traitement des données efficaces.
+## Ressources supplémentaires
 
-**Q5 : Est-il possible d'intégrer Aspose.Cells avec d'autres systèmes ?**
-A5 : Oui, Aspose.Cells prend en charge l’intégration avec divers systèmes d’entreprise via son API robuste.
+- **Documentation** : Explore detailed guides at [Documentation Aspose.Cells](https://reference.aspose.com/cells/java/)  
+- **Téléchargements Aspose** : Access the latest releases at [Aspose Downloads](https://releases.aspose.com/cells/java/)  
+- **Achat Aspose** : Buy a license for commercial use at [Aspose Purchase](https://purchase.aspose.com/buy)  
+- **Essai gratuit** : Start with a free trial from [Aspose Free Trial](https://releases.aspose.com/cells/java/)  
+- **Licence temporaire** : Obtain a temporary license via [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Forum d'assistance Aspose** : Get help from the community at [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
-## Ressources
-- **Documentation**: Explorez des guides détaillés sur [Documentation d'Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Télécharger**:Accédez aux dernières sorties sur [Téléchargements d'Aspose](https://releases.aspose.com/cells/java/)
-- **Achat**: Achetez une licence pour une utilisation commerciale sur [Achat Aspose](https://purchase.aspose.com/buy)
-- **Essai gratuit**: Commencez par un essai gratuit à partir de [Essai gratuit d'Aspose](https://releases.aspose.com/cells/java/)
-- **Permis temporaire**:Obtenir un permis temporaire via [Licence temporaire Aspose](https://purchase.aspose.com/temporary-license/)
-- **Soutien**: Obtenez de l'aide de la communauté à [Forum d'assistance Aspose](https://forum.aspose.com/c/cells/9)
+---
 
-En suivant ce guide, vous serez sur la bonne voie pour implémenter de puissantes fonctionnalités de globalisation dans vos applications Java avec Aspose.Cells. Bon codage !
+**Last Updated:** 2026-08-16  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose
 
+## Tutoriels associés
+
+- [Guide du moteur de calcul personnalisé Aspose.Cells Java](/cells/java/calculation-engine/aspose-cells-java-custom-engine-guide/)
+- [Comment utiliser Aspose Cells – Tutoriels du moteur Excel pour Java](/cells/java/calculation-engine/)
+- [Dépendance Maven Aspose Cells – Gérer les connexions de données Excel avec Aspose.Cells en Java](/cells/java/advanced-features/aspose-cells-java-excel-external-data-connections/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -8,18 +8,7 @@ url: /ja/java/advanced-excel-charts/chart-annotations/
 weight: 16
 ---
 
- Aspose.Cells for Java 24.12 (latest)  
-**Author:** Aspose  
-
-Translate labels? Keep "Last Updated", "Tested With", "Author" maybe keep English? Probably translate to Japanese: "**最終更新日:** 2026-02-14", "**テスト環境:** Aspose.Cells for Java 24.12 (latest)", "**作者:** Aspose". Keep bold formatting.
-
-Then closing shortcodes.
-
-Now produce final content with all translations.
-
-Be careful to keep markdown formatting exactly same.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

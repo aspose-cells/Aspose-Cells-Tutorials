@@ -56,9 +56,14 @@ Leer hoe u de IWarningCallback‑interface kunt implementeren met Aspose.Cells J
 
 ### [Mastering Aspose.Cells Java&#58; How to Interrupt Formula Calculation in Excel Workbooks](./master-aspose-cells-java-interrupt-formula-calculation-workbook/)
 Leer hoe u formuleberekeningen in werkboeken efficiënt kunt onderbreken met Aspose.Cells voor Java. Ideaal voor het optimaliseren van grote datasets en het voorkomen van oneindige lussen.
+### [Dynamische arrayformules in Java: Excel-werkmap maken en alle formules berekenen](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
+Leer hoe u dynamische arrayformules gebruikt om een Excel-werkmap te maken en alle formules automatisch te berekenen met Aspose.Cells voor Java.
+
 
 ### [Optimize Excel Calculations Using Aspose.Cells Java&#58; Mastering Calculation Chains for Efficient Workbook Processing](./optimize-excel-aspose-cells-java-calculation-chains/)
 Leer hoe u de Excel‑prestaties kunt verbeteren met Aspose.Cells voor Java door berekeningsketens te implementeren, formules efficiënt te berekenen en celwaarden bij te werken.
+### [Open XLSX-bestand in Java – Complete gids voor het laden van een werkmap en het opnieuw berekenen van formules](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
+Leer hoe u een XLSX-bestand laadt, de werkmap opent en formules opnieuw berekent met Aspose.Cells voor Java.
 
 ### [Hoe Excel-werkboeken te vernieuwen in Java met Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
 Leer hoe u Excel-werkboeken kunt vernieuwen met Aspose.Cells in Java.

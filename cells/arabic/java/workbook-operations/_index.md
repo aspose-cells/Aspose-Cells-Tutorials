@@ -227,6 +227,9 @@
 ### [إنشاء ملفات ODS وحفظها باستخدام Aspose.Cells لـ Java: دليل المطور](./create-save-ods-files-aspose-cells-java/)
 تعرّف على كيفية إنشاء ملفات ODS وحفظها بسهولة باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل كل شيء، من الإعداد إلى الحفظ باستخدام خيارات المخطط.
 
+### [إنشاء Excel Workbook Java – دليل خطوة بخطوة كامل](./create-excel-workbook-java-complete-step-by-step-guide/)
+تعرّف على كيفية إنشاء مصنف Excel من الصفر باستخدام Aspose.Cells لـ Java مع شرح كامل خطوة بخطوة.
+
 ### [كيفية إنشاء مصنف Excel وحفظه بصيغة SVG باستخدام Aspose.Cells لـ Java](./create-save-workbook-svg-aspose-cells-java/)
 تعرّف على كيفية أتمتة إنشاء مصنفات Excel وتصديرها كملفات SVG باستخدام Aspose.Cells لجافا. اتبع هذا الدليل خطوة بخطوة لتكامل سلس.
 
@@ -266,7 +269,7 @@
 ### [أتمتة Excel باستخدام Aspose.Cells Java: إنشاء مصنف رئيسي ورؤية الأعمدة/الصفوف](./excel-automation-aspose-cells-java-workbook-visibility/)
 تعرّف على كيفية أتمتة مهام Excel باستخدام Aspose.Cells لجافا. أنشئ المصنفات وعدّلها، وتحكّم في رؤية الأعمدة والصفوف بكفاءة.
 
-### [أتمتة Excel: تحميل، حفظ، استبدال النص](./excel-automation-aspose-cells-load-save-text/)
+### [أتمتة Excel، تحميل، حفظ، استبدال النص](./excel-automation-aspose-cells-load-save-text/)
 برنامج تعليمي لبرمجة Aspose.Words في Java
 
 ### [أتمتة Excel باستخدام Aspose.Cells Java: إدارة خصائص المصنف وحفظ الملفات بكفاءة](./excel-automation-aspose-cells-manage-properties-save-files/)
@@ -474,8 +477,19 @@
 تعرّف على كيفية حفظ ملفات Excel بسلاسة بتنسيقات متعددة باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل تنسيقات XLSX وPDF وHTML وغيرها.
 
 ### [كيفية تعيين إصدار مستند Excel باستخدام Aspose.Cells لـ Java](./set-excel-version-aspose-cells-java/)
-تعرّف على كيفية تعيين وإدارة خصائص المستندات، مثل إدارة الإصدارات، في ملفات Excel باستخدام Aspose.Cells لجافا. اتبع هذا الدليل خطوة بخطوة لإدارة المصنفات بكفاءة.
+### [حفظ المصنف كملف XLSX في Java – دليل برمجة كامل](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
+تعرف على كيفية حفظ المصنف بتنسيق XLSX باستخدام Aspose.Cells لـ Java مع دليل برمجة شامل.
 
+### [حفظ المصنف إلى ملف – دليل Java الكامل لنسخ نطاقات Excel](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
+
+### [كيفية إضافة خاصية مخصصة في Excel (Java) – استرجاع القيمة وحفظها كـ XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
+### [إنشاء مصنف جديد في Java – دليل خطوة بخطوة](./create-new-workbook-in-java-step-by-step-guide/)
+### [إنشاء مصنف تقويم ياباني – دليل Java كامل](./create-workbook-japanese-calendar-complete-java-tutorial/)
+تعرّف على كيفية إنشاء مصنف تقويم ياباني باستخدام Aspose.Cells لـ Java خطوة بخطوة.
+### [إنشاء مصنف XLSB برمجيًا – دليل Java كامل](./create-xlsb-workbook-programmatically-full-java-guide/)
+
+### [إنشاء مصنف Excel في Java – دليل خطوة بخطوة كامل](./create-excel-workbook-in-java-complete-step-by-step-guide/)
+تعرف على كيفية إنشاء مصنف Excel من الصفر في Java باستخدام Aspose.Cells مع شرح مفصل لكل خطوة.
 ### [إنشاء ملف Excel باستخدام Java، إضافة خاصية مخصصة وحفظه كملف XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
 
 ## موارد إضافية

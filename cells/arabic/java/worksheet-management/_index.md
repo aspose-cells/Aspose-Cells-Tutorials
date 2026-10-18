@@ -77,6 +77,9 @@
 ### [كيفية حذف الصفوف في Excel باستخدام Aspose.Cells لجافا | دليل ودروس تعليمية](./delete-row-excel-aspose-cells-java/)
 تعرّف على كيفية حذف الصفوف بكفاءة من ملف Excel باستخدام Aspose.Cells لجافا. يغطي هذا الدليل الإعداد، وأمثلة التعليمات البرمجية، والتطبيقات العملية.
 
+### [حذف الصفوف في ورقة العمل باستخدام Java – دليل شامل](./delete-rows-in-worksheet-with-java-complete-guide/)
+تعرف على كيفية حذف الصفوف في ملفات Excel برمجيًا باستخدام Aspose.Cells لجافا مع أمثلة خطوة بخطوة وتحسين الأداء.
+
 ### [إدارة ظهور علامات تبويب Excel باستخدام Aspose.Cells في Java](./display-excel-tabs-aspose-cells-java/)
 تعرّف على كيفية عرض أو إخفاء علامات تبويب Excel باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل الإعداد، وتنفيذ التعليمات البرمجية، وأفضل الممارسات لإدارة أوراق العمل بفعالية.
 
@@ -101,7 +104,11 @@
 ### [إظهار الصفوف والأعمدة في Excel باستخدام Aspose.Cells Java: دليل خطوة بخطوة](./unhide-rows-columns-excel-aspose-cells-java/)
 تعلّم كيفية إظهار الصفوف والأعمدة في ملفات Excel بسهولة باستخدام Aspose.Cells لجافا. أتمت إدارة البيانات مع هذا الدليل الشامل.
 
-
+### [كيفية استخدام SmartMarkerProcessor لتسمية الأوراق ديناميكياً](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
+### [إنشاء أوراق متعددة في Excel باستخدام Java – دليل شامل يعتمد على القوالب](./create-multiple-sheets-in-excel-with-java-complete-template/)
+تعرّف على كيفية إنشاء أوراق عمل متعددة في Excel باستخدام Java مع القوالب الجاهزة. يغطي الدليل الخطوات الكاملة والنصائح العملية.
+### [كيفية مسح الفلتر التلقائي في Excel باستخدام Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+تعرف على طريقة مسح الفلتر التلقائي في ملفات Excel باستخدام مكتبة Aspose.Cells لجافا.
 
 ## موارد إضافية
 
