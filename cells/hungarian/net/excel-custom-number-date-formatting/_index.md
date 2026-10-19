@@ -91,6 +91,8 @@ Tanuld meg, hogyan alkalmazz számformátumot Excelben az Aspose.Cells használa
 Ismerd meg, hogyan formázhatod a dátumoszlopokat Excelben C#-ban a DataTable exportálásakor az Aspose.Cells segítségével.
 ### [Japán naptár konverzió C#-ban – Teljes útmutató](./japanese-calendar-conversion-in-c-full-guide/)
 Ismerd meg, hogyan konvertálhatod a japán naptárat C#-ban az Aspose.Cells segítségével.
+### [Dátum és idő elemzése japán császári uralkodás alapján az Aspose.Cells használatával](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Tanulja meg, hogyan értelmezhet japán császári uralkodás szerinti dátumokat az Aspose.Cells .NET könyvtárral.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

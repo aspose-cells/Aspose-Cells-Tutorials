@@ -46,6 +46,8 @@
 
 
 
+### [Вставить комментарий в Excel с C# – пошаговое руководство](./insert-comment-into-excel-with-c-step-by-step-guide/)
+Узнайте, как добавить комментарий в Excel с помощью C# и Aspose.Cells, следуя пошаговому руководству.
 
 
 

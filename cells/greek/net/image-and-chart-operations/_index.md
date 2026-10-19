@@ -43,6 +43,8 @@
 Μάθετε πώς να αποθηκεύσετε ένα φύλλο Excel ως εικόνα σε .NET χρησιμοποιώντας το Aspose.Cells με πλήρη οδηγό C#.
 ### [Πώς να εξάγετε το Excel σε PNG – πλήρης οδηγός βήμα‑βήμα](./how-to-export-excel-to-png-full-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε αρχεία Excel σε εικόνες PNG με το Aspose.Cells, ακολουθώντας έναν πλήρη βήμα‑βήμα οδηγό.
+### [Πώς να εξάγετε μια περιοχή Excel ως εικόνα με C# και Aspose.Cells](./how-to-export-excel-range-as-image-with-c-and-aspose-cells/)
+Μάθετε πώς να εξάγετε μια περιοχή Excel ως εικόνα χρησιμοποιώντας C# και Aspose.Cells, ακολουθώντας έναν απλό οδηγό βήμα‑βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

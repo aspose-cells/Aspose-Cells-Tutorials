@@ -48,6 +48,8 @@ Aspose.Cells for .NET を使い、C# で Excel にコメントを追加する方
 
 
 
+### [C# で Excel にコメントを挿入する – ステップバイステップ ガイド](./insert-comment-into-excel-with-c-step-by-step-guide/)
+Aspose.Cells for .NET を使用して、C# で Excel にコメントを追加する方法をステップバイステップで学びます。
 
 
 

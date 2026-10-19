@@ -46,6 +46,8 @@ Leer hoe u met C# een opmerking aan Excel toevoegt met Aspose.Cells voor .NET. V
 
 
 
+### [Opmerking invoegen in Excel met C# – stapsgewijze handleiding](./insert-comment-into-excel-with-c-step-by-step-guide/)
+Leer hoe u met Aspose.Cells voor .NET een opmerking in een Excel-werkblad toevoegt via C#.
 
 
 

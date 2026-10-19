@@ -127,6 +127,8 @@ Leer hoe u JSON-gegevens omzet naar XLSX-bestanden met SmartMarker in C#.
 
 
 
+### [Excel-werkmap programmeren met Smart Markers](./create-excel-workbook-programmatically-using-smart-markers/)
+Ontdek hoe u met Aspose.Cells en Smart Markers een Excel-werkmap programmatically kunt maken. Volg de stapsgewijze .NET‑handleiding.
 
 
 

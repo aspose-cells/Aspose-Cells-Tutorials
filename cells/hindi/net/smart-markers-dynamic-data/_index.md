@@ -114,15 +114,19 @@ Aspose.Cells स्मार्ट मार्कर का उपयोग क
 
 ### [SmartMarker के साथ JSON में वेरिएबल्स को बदलना – पूर्ण गाइड](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 SmartMarker का उपयोग करके JSON में वेरिएबल्स को कैसे प्रतिस्थापित करें, इस विस्तृत गाइड में चरण-दर-चरण सीखें।
-
 ### [Aspose.Cells में स्मार्ट मार्कर के साथ गतिशील वर्कशीट बनाएं](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
-Aspose.Cells के स्मार्ट मार्कर का उपयोग करके कई वर्कशीट को गतिशील रूप से जनरेट और डेटा से भरना सीखें।
-
+### [स्मार्ट मार्कर्स का उपयोग करके प्रोग्रामेटिक रूप से Excel वर्कबुक बनाएं](./create-excel-workbook-programmatically-using-smart-markers/)
 ### [स्मार्ट मार्कर्स के साथ टेम्प्लेट लिखने का चरण‑दर‑चरण गाइड](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 
 ### [C# में एक्सेल रिपोर्ट कैसे जनरेट करें – स्मार्टमार्कर का पूर्ण गाइड](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 
 ### [टेम्पलेट लोड करें और स्मार्टमार्कर के साथ एक्सेल रिपोर्ट बनाएं](./how-to-load-template-and-create-excel-report-with-smartmarke/)
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 ### [डेटा को एक्सेल में निर्यात करें: एरे से टेम्पलेट भरें C# में](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
 C# में एरे डेटा का उपयोग करके टेम्पलेट को भरें और एक्सेल फ़ाइल निर्यात करने का चरण-दर-चरण मार्गदर्शन।
@@ -157,7 +161,6 @@ Aspose.Cells for .NET का उपयोग करके C# में डिस
 C# में नेस्टेड JSON को पार्स करके JSON पेलोड बनाने की प्रक्रिया सीखें।
 
 ### [स्मार्ट मार्कर के साथ वर्कबुक बनाना – आउटपुट हाई लो](./how-to-create-workbook-with-smart-markers-output-high-low/)
-
 ### [Aspose.Cells स्मार्ट मार्कर के साथ एक्सेल रिपोर्ट सूची कैसे बनाएं](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
 Aspose.Cells स्मार्ट मार्कर का उपयोग करके एक्सेल रिपोर्ट सूची बनाने की चरण‑दर‑चरण प्रक्रिया सीखें।
 

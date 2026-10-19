@@ -124,6 +124,7 @@ Dowiedz się, jak przy użyciu SmartMarker łączyć arkusze w Excelu, tworząc 
 
 
 
+### [Utwórz skoroszyt Excel programowo przy użyciu inteligentnych znaczników](./create-excel-workbook-programmatically-using-smart-markers/)
 
 
 

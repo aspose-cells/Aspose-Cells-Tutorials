@@ -98,7 +98,7 @@ Lär dig hur du slår ihop data i Excel med Smart Markers i C# för att skapa dy
 Lär dig hur du genererar en Excel‑rapport i C# med SmartMarker, inklusive mallhantering och datafusion.
 ### [Skapa dynamiska arbetsblad med smarta markörer i Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 Lär dig hur du dynamiskt skapar och fyller arbetsblad med Smart Markers i Aspose.Cells för .NET, för flexibel och automatiserad rapportering.
-### [Hur man skriver mall med smarta markörer – steg‑för‑steg‑guide](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+### [Hur man skriva mall med smarta markörer – steg‑för‑steg‑guide](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 ### [Hur du ersätter variabler i JSON med SmartMarker – Komplett guide](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 Lär dig hur du använder SmartMarker för att dynamiskt ersätta variabler i JSON när du skapar Excel-rapporter.
 ### [Hur du laddar en mall och skapar en Excel-rapport med SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
@@ -120,6 +120,8 @@ Lär dig steg för steg hur du exporterar data till Excel med Smart Marker i C#.
 
 
 
+### [Skapa Excel-arbetsbok programatiskt med Smart Markers i Aspose.Cells](./create-excel-workbook-programmatically-using-smart-markers/)
+Lär dig hur du programatiskt skapar en Excel-arbetsbok med Smart Markers i Aspose.Cells för .NET.
 
 
 

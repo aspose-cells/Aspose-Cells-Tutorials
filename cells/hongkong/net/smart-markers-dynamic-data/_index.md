@@ -117,6 +117,10 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 ### [使用 C# 將 JSON 轉換為 Excel 的逐步指南](./convert-json-to-excel-with-c-step-by-step-guide/)
 ### [使用 Aspose.Cells SmartMarkerProcessor 從 XLSX 建立工作簿](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
 
+### [使用智慧標記程式化建立 Excel 工作簿](./create-excel-workbook-programmatically-using-smart-markers/)
+了解如何使用 Aspose.Cells Smart Markers 以程式方式建立 Excel 工作簿，實現動態報表生成。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 
 
