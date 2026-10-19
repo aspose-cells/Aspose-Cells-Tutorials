@@ -35,6 +35,8 @@ Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie das Spaltenformat
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET programmgesteuert Formatierungen auf Excel-Zeilen anwenden. Diese detaillierte Schritt-für-Schritt-Anleitung deckt alles von der Ausrichtung bis zu den Rändern ab.
 ### [Excel-Arbeitsmappe erstellen – Spalten umbrechen und als XLSX speichern](./create-excel-workbook-wrap-columns-and-save-as-xlsx/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe erstellen, Spalten umbrechen und die Datei als XLSX speichern.
+### [Wie man Excel-Spalten in C# formatiert – Komplettanleitung](./how-to-format-excel-columns-in-c-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Spalten in C# vollständig formatieren – von Zahlenformaten bis zu Stiloptionen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -61,6 +61,16 @@
 تعلم كيفية حفظ مستندات Word بصيغة PDF باستخدام Aspose.Words وC# خطوة بخطوة.
 ### [كيفية تضمين الخطوط عند تحويل Excel إلى PDF – دليل خطوة بخطوة](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
 تعرّف على طريقة تضمين الخطوط في ملفات PDF عند تحويل Excel باستخدام Aspose.Cells خطوة بخطوة.
+### [تضمين الخطوط في PDF – دليل C# كامل لتصدير Excel إلى PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
+تعلم كيفية تضمين الخطوط في ملفات PDF عند تصدير جداول Excel باستخدام Aspose.Cells وC# لضمان عرض النصوص بشكل صحيح.
+### [كيفية تصدير PDF من Excel – دليل كامل لحفظ المصنف كملف PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
+تعلم خطوة بخطوة كيفية تصدير ملفات Excel إلى PDF وحفظ المصنف بصيغة PDF باستخدام Aspose.Cells.
+### [حفظ XLSX كملف PDF في C# – دليل كامل مع PDF/A‑1b](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)
+تعلم كيفية حفظ ملفات XLSX كـ PDF مع دعم معيار PDF/A‑1b باستخدام Aspose.Cells في C# خطوة بخطوة.
+### [تحويل Excel إلى PDF في C# – دليل برمجة كامل](./convert-excel-to-pdf-in-c-complete-programming-guide/)
+دليل شامل لتحويل ملفات Excel إلى PDF باستخدام C# مع Aspose.Cells، خطوة بخطوة مع أمثلة عملية.
+### [كيفية حفظ PDF باستخدام محددات تنوع الخط – دليل كامل](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
+تعلم كيفية حفظ ملفات PDF مع دعم محددات تنوع الخط خطوة بخطوة باستخدام Aspose.PDF.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

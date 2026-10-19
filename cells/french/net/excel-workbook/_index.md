@@ -73,6 +73,7 @@ Alors pourquoi ne pas saisir cette occasion d'améliorer vos compétences Excel�
 | [Ajuster le niveau de compression](./adjust-compression-level/) Apprenez à ajuster les niveaux de compression des fichiers Excel avec Aspose.Cells pour .NET. Optimisez efficacement la taille de vos fichiers grâce à ce guide étape par étape. |  
 | [Autoriser l'apostrophe initiale](./allow-leading-apostrophe/) | Gérez facilement les apostrophes de début dans Excel avec Aspose.Cells pour .NET. Ce tutoriel complet vous guide pas à pas tout au long du processus. |  
 | [Créer un classeur partagé](./create-shared-workbook/) | Apprenez à créer un classeur partagé avec Aspose.Cells pour .NET grâce à ce guide simple et détaillé. Idéal pour améliorer la collaboration en équipe. |  
+| [Créer un classeur Excel avec Aspose.Cells – Guide complet](./create-excel-workbook-with-aspose-cells-full-guide/) | Apprenez à créer un classeur Excel à partir de zéro avec Aspose.Cells pour .NET grâce à ce guide complet étape par étape. |
 | [Détecter les types de liens](./detect-link-types/) | Apprenez à détecter les types d'hyperliens dans Excel avec Aspose.Cells pour .NET. Étapes simples et exemples de code inclus. |  
 | [Extraire le fichier Mol intégré](./extract-embedded-mol-file/) | Apprenez à extraire facilement des fichiers MOL intégrés à partir d'un classeur Excel à l'aide d'Aspose.Cells pour .NET. |  
 | [Filtrer les noms définis lors du chargement du classeur](./filter-defined-names-while-loading-workbook/) Apprenez à filtrer les noms définis lors du chargement d'un classeur avec Aspose.Cells pour .NET dans ce guide complet. |  
@@ -118,6 +119,7 @@ Alors pourquoi ne pas saisir cette occasion d'améliorer vos compétences Excel�
 | [Créer un fichier Excel par programme avec C# – Guide étape par étape](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Apprenez à créer un fichier Excel à l'aide de C# avec Aspose.Cells pour .NET grâce à ce guide détaillé étape par étape. |
 | [Créer un nouveau classeur – Convertir Markdown en Excel en C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Apprenez à créer un classeur Excel à partir d'un fichier Markdown en C# avec Aspose.Cells pour .NET. |
 | [Comment créer un classeur en C# – écrire une valeur et formater un nombre](./how-to-create-workbook-in-c-write-value-format-number/) | Apprenez à créer un classeur Excel en C#, écrire des valeurs et formater les nombres avec Aspose.Cells pour .NET. |
+| [Créer un classeur Excel et écrire des données en C# – Guide complet étape par étape](./create-excel-workbook-and-write-data-in-c-full-step-by-step/) | Apprenez à créer un classeur Excel et à y écrire des données en C# grâce à un guide complet et détaillé étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

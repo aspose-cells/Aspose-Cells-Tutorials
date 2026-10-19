@@ -243,6 +243,11 @@ Dowiedz się, jak w Aspose.Cells for Java ustawić własny format daty w arkusza
 
 ### [Ustaw format liczbowy w Excelu w Javie – kompletny przewodnik](./set-number-format-excel-in-java-complete-guide/)
 Dowiedz się, jak programowo ustawiać formaty liczb w plikach Excel przy użyciu Aspose.Cells for Java, z przykładami kodu.
+### [Jak ustawić pogrubioną czcionkę w eksporcie Excela w Javie – kompletny przewodnik](./set-font-bold-in-java-excel-export-complete-guide/)
+Dowiedz się, jak programowo ustawić pogrubioną czcionkę w eksportowanych plikach Excel przy użyciu Aspose.Cells for Java.
+
+### [Ustaw niestandardowy format liczbowy w Excelu przy użyciu Javy – kompletny przewodnik](./set-custom-number-format-in-excel-with-java-complete-guide/)
+Dowiedz się, jak ustawić własny format liczbowy w plikach Excel przy użyciu Aspose.Cells for Java. Przewodnik krok po kroku z przykładami kodu.
 
 ## Dodatkowe zasoby
 

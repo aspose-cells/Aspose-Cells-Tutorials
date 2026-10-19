@@ -29,6 +29,9 @@
 ### [เรียนรู้สูตรอาร์เรย์ Excel อย่างเชี่ยวชาญด้วย Aspose.Cells Java: เพิ่มประสิทธิภาพการคำนวณและการจัดรูปแบบ](./aspose-cells-java-array-formulas-custom-calculations/)
 เรียนรู้การตั้งค่าสูตรอาร์เรย์ การใช้สไตล์ตัวเลข ปรับแต่งการคำนวณ และบันทึกเวิร์กบุ๊กอย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java
 
+### [จัดเรียงค่าที่ไม่ซ้ำใน Excel – คู่มือ Java ครบขั้นตอนสำหรับตั้งค่าสูตรอาร์เรย์](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+เรียนรู้วิธีจัดเรียงและกรองค่าที่ไม่ซ้ำใน Excel ด้วยการตั้งค่าสูตรอาร์เรย์โดยใช้ Aspose.Cells สำหรับ Java
+
 ### [วิธีการสร้างฟังก์ชันค่าคงที่แบบกำหนดเองใน Aspose.Cells Java](./aspose-cells-java-custom-static-value-function/)
 เรียนรู้วิธีการขยาย AbstractCalculationEngine สำหรับการคำนวณแบบกำหนดเองโดยใช้ Aspose.Cells Java ทำให้งาน Excel เป็นแบบอัตโนมัติด้วยค่าที่กำหนดไว้ล่วงหน้า
 
@@ -40,6 +43,9 @@
 
 ### [เรียนรู้การใช้ Aspose.Cells ใน Java: เพิ่มรูปภาพและสูตรในสมุดงาน Excel](./aspose-cells-java-images-formulas-excel/)
 เรียนรู้วิธีใช้ Aspose.Cells สำหรับ Java เพื่อเพิ่มรูปภาพและสูตรลงในเวิร์กบุ๊ก Excel เพื่อเสริมทักษะการปรับแต่งสเปรดชีตของคุณ
+
+### [วิธีใช้ Aspose ใน Java – สร้างสมุดงาน Excel ด้วยฟังก์ชันใหม่](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+สร้างสมุดงาน Excel พร้อมฟังก์ชันใหม่โดยใช้ Aspose.Cells สำหรับ Java เพื่อเพิ่มประสิทธิภาพการคำนวณและการทำงานอัตโนมัติ
 
 ### [รักษาความแม่นยำสำหรับตัวเลขขนาดใหญ่โดยใช้ Aspose.Cells ใน Java: คู่มือที่ครอบคลุม](./aspose-cells-java-large-numbers-precision/)
 เรียนรู้วิธีใช้ Aspose.Cells สำหรับ Java เพื่อรักษาความแม่นยำด้วยตัวเลขขนาดใหญ่ในไฟล์ Excel คู่มือนี้ครอบคลุมถึงการตั้งค่า การกำหนดค่า และการใช้งานจริง
@@ -89,6 +95,9 @@
 เรียนรู้วิธีใช้ฟังก์ชัน SEQUENCE ใน Aspose.Cells สำหรับ Java เพื่อสร้างลำดับค่าอัตโนมัติในเวิร์กบุ๊ก Excel
 ### [วิธีใช้ WRAPCOLS ใน Java – ตัวอย่างเต็มของ Excel WRAPCOLS](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 เรียนรู้วิธีใช้ฟังก์ชัน WRAPCOLS ใน Aspose.Cells สำหรับ Java เพื่อจัดรูปแบบข้อมูลในเซลล์ Excel อย่างครบถ้วน
+### [วิธีคำนวณโคแทนเจนต์ใน Excel – คู่มือฉบับสมบูรณ์](./how-to-calculate-cotangent-in-excel-complete-guide/)
+เรียนรู้วิธีคำนวณฟังก์ชันโคแทนเจนต์ใน Excel อย่างละเอียด พร้อมตัวอย่างโค้ด Java และการใช้ Aspose.Cells
+
 
 ## แหล่งข้อมูลเพิ่มเติม
 

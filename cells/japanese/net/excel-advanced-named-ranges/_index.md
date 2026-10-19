@@ -38,6 +38,10 @@ Excelの高度な機能を使う際に、名前付き範囲が特に役立ちま
 このステップバイステップのチュートリアルでは、Aspose.Cells for .NET を使用して名前付き範囲内のセルを結合する方法を学びます。Excel レポートの書式設定、スタイル設定、自動化の方法も学びます。
 ### [Excel ワークブックの作成 – テーブル追加と名前付けルールのステップバイステップガイド](./create-excel-workbook-step-by-step-guide-to-adding-tables-an/)
 このチュートリアルでは、Aspose.Cells for .NET を使用して、Excel ワークブックを作成し、テーブルを追加し、名前付けルールを設定する方法をステップバイステップで解説します。
+### [Excel ワークブックを保存し、名前付き範囲を追加する – 完全 C# ガイド](./save-excel-workbook-and-add-named-range-full-c-guide/)
+Aspose.Cells for .NET を使用して、Excel ワークブックを保存し、名前付き範囲を追加する方法をステップバイステップで解説します。
+### [C# で Excel ワークブックを作成 – 名前付き範囲の追加とテーブル名の設定](./create-excel-workbook-in-c-add-named-range-set-table-name/)
+Aspose.Cells for .NET を使用して、C# でワークブックを作成し、名前付き範囲とテーブル名を設定する手順を解説します。
 ### [Excel テーブルに名前を付けて命名競合を回避する](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
 このチュートリアルでは、Aspose.Cells for .NET を使用して、Excel テーブルに名前を付け、命名競合を防ぐ方法をステップバイステップで解説します。
 

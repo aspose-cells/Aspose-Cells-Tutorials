@@ -55,6 +55,8 @@ Aspose.Words Java için bir kod eğitimi
 
 ### [Java ile Excel'de Yorum Ekleme – Tam Kılavuz](./how-to-add-comment-in-excel-with-java-complete-guide/)
 Java ve Aspose.Cells kullanarak Excel dosyalarına yorum eklemeyi adım adım öğrenin.
+### [Java ile Excel'e Yorum Ekleme – Tam Adım Adım Kılavuz](./add-comment-to-excel-using-java-complete-step-by-step-guide/)
+Java ve Aspose.Cells kullanarak Excel dosyalarına yorum eklemeyi adım adım öğrenin ve otomatikleştirin.
 
 ## Ek Kaynaklar
 

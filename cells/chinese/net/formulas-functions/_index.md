@@ -109,6 +109,8 @@
 ### [创建 Excel 工作簿 C# – Lambda、SEQUENCE 与 EXPAND 指南](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 ### [如何在 Excel 中使用 C# 计算余切 – 创建工作簿、使用 EXPAND 并保存](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
 学习如何使用 Aspose.Cells for .NET 在 Excel 中计算余切函数，创建工作簿、使用 EXPAND 并保存文件。
+### [使用 EXPAND 公式创建 Excel 工作簿 – 完整指南](./create-excel-workbook-with-expand-formula-complete-guide/)
+学习如何使用 Aspose.Cells for .NET 在工作簿中创建并使用 EXPAND 公式，实现动态数组自动扩展。
 
 ## 了解 Excel 公式类型
 

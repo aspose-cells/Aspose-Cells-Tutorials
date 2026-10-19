@@ -61,6 +61,11 @@ Leer hoe u AutoFilter in Excel-programma's kunt uitschakelen met Aspose.Cells vo
 ### [Maak verticale array Excel met Java – Volledige stapsgewijze gids](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
 ### [Hoe Expand te gebruiken in Java – Complete Excel-gids](./how-to-use-expand-in-java-complete-excel-guide/)
 Leer hoe u de Expand-functie in Excel kunt toepassen met Aspose.Cells voor Java, inclusief voorbeeldcode en stapsgewijze uitleg.
+### [AutoFilter wissen in Excel met Java – Complete gids](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Leer hoe u AutoFilter in Excel kunt verwijderen met Aspose.Cells voor Java, inclusief voorbeeldcode.
+
+### [Nieuwe werkmap maken met Aspose – aangepaste eigenschap toevoegen aan Excel en opslaan als XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+Leer hoe u een nieuwe Excel-werkmap maakt, een aangepaste eigenschap toevoegt en opslaat als XLSB met Aspose.Cells voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

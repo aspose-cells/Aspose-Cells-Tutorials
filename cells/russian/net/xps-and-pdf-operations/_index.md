@@ -42,6 +42,16 @@
 Узнайте, как создать новую книгу Excel с поддержкой Unicode и экспортировать её в XPS, используя Aspose.Cells для .NET.
 ### [Встраивание шрифтов в XPS с C# – Полное руководство по программированию](./embed-fonts-in-xps-with-c-complete-programming-guide/)
 Узнайте, как встраивать шрифты в XPS‑документы с помощью C# и Aspose.Cells, следуя подробному пошаговому руководству.
+### [Встраивание шрифтов в PDF с Aspose.Cells – Полное руководство C#](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
+Узнайте, как встраивать шрифты в PDF при помощи Aspose.Cells на C#, чтобы обеспечить корректное отображение текста в любых устройствах.
+### [Сохранение книги в XPS на C# – пошаговое руководство](./save-workbook-as-xps-in-c-step-by-step-guide/)
+Узнайте, как сохранить рабочую книгу Excel в формат XPS с помощью Aspose.Cells для .NET, следуя подробным шагам и примерам кода.
+### [Конвертация Excel в XPS на C# и загрузка файла Excel](./convert-excel-to-xps-in-c-and-load-excel-file/)
+Узнайте, как загрузить файл Excel и сохранить его в формате XPS с помощью Aspose.Cells для .NET на C#.
+### [Конвертация Excel в XPS на C# – Полное пошаговое руководство](./convert-excel-to-xps-in-c-complete-step-by-step-guide/)
+Подробное руководство по конвертации файлов Excel в XPS с помощью C# и Aspose.Cells, включающее примеры кода и пошаговые инструкции.
+### [Как включить шрифты при конвертации Excel в XPS – Полное руководство](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
+Узнайте, как включить шрифты при конвертации файлов Excel в XPS с помощью Aspose.Cells для .NET, следуя пошаговым инструкциям.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

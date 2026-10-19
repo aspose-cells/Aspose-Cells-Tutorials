@@ -65,7 +65,8 @@ Lär dig hur du skapar en Excel-arbetsbok i C#, lägger till en anpassad egenska
 ### [Hur du lägger till en anpassad egenskap i Excel med C# – Steg‑för‑steg‑guide](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
 Lär dig hur du lägger till en anpassad egenskap i ett Excel‑ark med C# och Aspose.Cells i en tydlig steg‑för‑steg‑guide.
 ### [Skapa anpassad egenskap Aspose – Komplett Excel-guide](./create-custom-property-aspose-complete-excel-guide/)
-Lär dig hur du skapar anpassade egenskaper i Excel med Aspose.Cells för .NET i vår kompletta steg‑för‑steg‑guide.
+### [Spara XLSB och lägg till anpassade dokumentegenskaper i C#](./how-to-save-xlsb-and-add-custom-document-properties-in-c/)
+Lär dig hur du sparar en arbetsbok som XLSB och lägger till egna dokumentegenskaper med Aspose.Cells för .NET i C#.
 ### [Hur du hanterar anpassade Excel-egenskaper i C# – en steg-för-steg‑guide](./how-to-manage-excel-custom-properties-in-c-a-step-by-step-tu/)
 Lär dig hur du hanterar anpassade egenskaper i Excel med C# i en tydlig steg‑för‑steg‑guide.
 

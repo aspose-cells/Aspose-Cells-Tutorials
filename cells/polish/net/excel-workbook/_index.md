@@ -118,6 +118,8 @@ Więc dlaczego nie skorzystać z tej szansy na rozwinięcie swoich umiejętnośc
 | [Jak utworzyć skoroszyt w C# – przewodnik krok po kroku](./how-to-create-workbook-in-c-step-by-step-guide/) | Dowiedz się, jak programowo utworzyć nowy skoroszyt Excel w C# przy użyciu Aspose.Cells dla .NET, krok po kroku. |  
 | [Utwórz plik Excel programowo w C# – przewodnik krok po kroku](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Dowiedz się, jak programowo utworzyć plik Excel w C# przy użyciu Aspose.Cells, krok po kroku. |  
 | [Jak utworzyć skoroszyt w C# – zapisać wartość i sformatować liczbę](./how-to-create-workbook-in-c-write-value-format-number/) | Dowiedz się, jak w C# utworzyć skoroszyt, wpisać wartość i sformatować liczbę przy użyciu Aspose.Cells dla .NET. |
+| [Utwórz skoroszyt programu Excel przy użyciu Aspose.Cells – pełny przewodnik](./create-excel-workbook-with-aspose-cells-full-guide/) | Kompletny przewodnik krok po kroku, jak utworzyć skoroszyt Excel przy użyciu biblioteki Aspose.Cells w .NET. |
+| [Utwórz skoroszyt programu Excel i zapisz dane w C# – Pełny przewodnik krok po kroku](./create-excel-workbook-and-write-data-in-c-full-step-by-step/) | Dowiedz się, jak w C# utworzyć nowy skoroszyt Excel i zapisać w nim dane, korzystając z Aspose.Cells dla .NET w pełnym przewodniku krok po kroku. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

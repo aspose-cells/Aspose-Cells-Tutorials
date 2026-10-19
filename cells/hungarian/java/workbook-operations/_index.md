@@ -34,6 +34,10 @@ Ismerje meg, hogyan hozhat létre Excel munkafüzetet Java-ban az Aspose.Cells s
 
 ### [Munkafüzet mentése XLSX formátumban Java-ban – Teljes programozási útmutató](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
 Ismerje meg, hogyan menthet egy munkafüzetet XLSX formátumban Java használatával az Aspose.Cells segítségével.
+### [Excel munkafüzet létrehozása Java-ban – Teljes lépésről‑lépésre útmutató](./create-excel-workbook-in-java-complete-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre Excel munkafüzetet Java nyelven részletes, lépésről‑lépésre útmutatóval.
+### [Új munkafüzet mentése Java-ban – Tartomány másolása munkafüzetek között](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
+Ismerje meg, hogyan hozhat létre új munkafüzetet, és másolhat tartományt egy másik munkafüzetbe Java és Aspose.Cells segítségével.
 
 ### [Aspose.Cells Java: Verzió megjelenítése és megosztott munkafüzet létrehozása](./aspose-cells-java-display-version-create-shared-workbook/)
 Kód oktatóanyag az Aspose.Words Java-hoz
@@ -66,7 +70,7 @@ Kód oktatóanyag az Aspose.Words Java-hoz
 Tanulja meg az Excel-munkafüzetek egyszerű kezelését az Aspose.Cells for Java segítségével. Excel-fájlok hatékony létrehozása, módosítása és mentése.
 
 ### [Aspose.Cells mesterképzés Java-hoz: Excel-munkafüzet-műveletek automatizálása Java-alkalmazásokban](./aspose-cells-java-excel-workbooks/)
-Ismerje meg, hogyan automatizálhatja az Excel-munkafüzetek létrehozását, kezelését és formázását az Aspose.Cells for Java segítségével. Ez az útmutató mindent lefed a környezet beállításától a munkafüzetek hatékony mentéséig.
+Ismerje meg, hogyan automatizálhatja az Excel-munkafüzetek létrehozását, kezelését és formázását az Aspose.Cells for Java segítségével. Ez az útmutató mindent lefed a környezet beállításától a munkafüzetek hatékony mentésig.
 
 ### [Excel munkalapok exportálása HTML-be az Aspose.Cells segítségével](./aspose-cells-java-export-excel-html/)
 Kód oktatóanyag az Aspose.Words Java-hoz
@@ -237,7 +241,7 @@ Ismerd meg, hogyan hozhatsz létre, kezelhetsz és menthetsz Excel-munkafüzetek
 Tanuld meg, hogyan hozhatsz létre és menthetsz el ODS fájlokat könnyedén az Aspose.Cells for Java segítségével. Ez az útmutató mindent lefed a beállítástól a sémabeállításokkal történő mentésig.
 
 ### [Hogyan hozhat létre és menthet el egy Excel-munkafüzetet SVG formátumban az Aspose.Cells for Java használatával?](./create-save-workbook-svg-aspose-cells-java/)
-Ismerje meg, hogyan automatizálhatja az Excel-munkafüzetek létrehozását és exportálhatja azokat SVG-fájlként az Aspose.Cells for Java segítségével. Kövesse ezt a lépésenkénti útmutatót a zökkenőmentes integráció érdekében.
+Ismerje meg, hogyan automatizálhatja az Excel-munkafüzetek létrehozását és exportálhatja azokat SVG-fájlként az Aspose.Cells for Java segítségével. Kövesse ezt a lépésről lépésre útmutatót a zökkenőmentes integráció érdekében.
 
 ### [Titkosított fájlok formátumának észlelése az Aspose.Cells Java segítségével](./detect-encrypted-file-format-aspose-cells-java/)
 Kód oktatóanyag az Aspose.Words Java-hoz
@@ -260,7 +264,7 @@ Ismerje meg, hogyan kezelheti és alakíthatja át hatékonyan az Excel-fájloka
 ### [Excel automatizálás Aspose.Cells Java segítségével: Munkafüzetek létrehozása és módosítása könnyedén](./excel-automation-aspose-cells-java-create-modify-workbooks/)
 Ismerje meg, hogyan automatizálhatja az Excel-feladatokat az Aspose.Cells for Java használatával. Ez az oktatóanyag a munkafüzetek egyszerű létrehozását, módosítását és mentését ismerteti.
 
-### [Excel automatizálás Aspose.Cells segítségével: Azonnali munkafüzet-létrehozás és -kezelés Java nyelven](./excel-automation-aspose-cells-java-instant-workbook-creation/)
+### [Excel automatizálás Aspose.Cells Java segítségével: Azonnali munkafüzet-létrehozás és -kezelés Java nyelven](./excel-automation-aspose-cells-java-instant-workbook-creation/)
 Ismerje meg, hogyan automatizálhatja az Excel-feladatokat az Aspose.Cells for Java használatával. Hatékonyan hozhat létre, módosíthat és menthet munkafüzeteket, miközben javítja munkafolyamatait.
 
 ### [Excel automatizálás Aspose.Cells Java segítségével: Adatok betöltése és keresése munkafüzetekben](./excel-automation-aspose-cells-java-load-find-data/)
@@ -320,7 +324,7 @@ Tanuld meg, hogyan konvertálhatsz Excel fájlokat HTML-be az Aspose.Cells for J
 ### [Excel konvertálása HTML-be eszköztippekkel az Aspose.Cells Java használatával: Átfogó útmutató](./excel-to-html-conversion-with-tooltips-aspose-cells-java/)
 Tanuld meg, hogyan konvertálhatsz Excel-táblázatokat interaktív HTML-oldalakká eszköztippekkel az Aspose.Cells for Java használatával. Javítsd az adatok hozzáférhetőségét és webes megjelenítését.
 
-### [Excel PDF-be konvertálásának automatizálása az Aspose.Cells használatával Java-ban](./excel-to-pdf-automation-aspose-cells-java/)
+### [Excel automatizálás PDF-be konvertálása az Aspose.Cells használatával Java-ban](./excel-to-pdf-automation-aspose-cells-java/)
 Ismerje meg, hogyan automatizálhatja az Excel-fájlok PDF-be konvertálását az Aspose.Cells for Java használatával, beleértve a beállítási és megvalósítási lépéseket is.
 
 ### [Átfogó útmutató: Excelből PDF-be konvertálás Aspose.Cells használatával Java nyelven](./excel-to-pdf-conversion-aspose-cells-java/)
@@ -340,6 +344,9 @@ Tanuld meg, hogyan használhatod az Aspose.Cells for Java-t Excel munkafüzetek 
 
 ### [Excel XLSB fájlkezelés elsajátítása Java nyelven az Aspose.Cells segítségével: Adatbázis-kapcsolatok betöltése és módosítása](./excel-xlsb-management-aspose-cells-java/)
 Ismerje meg, hogyan kezelheti az Excel XLSB fájlokat az Aspose.Cells for Java használatával. Ez az oktatóanyag a betöltést, az adatbázis-kapcsolatok módosítását és a változtatások hatékony mentését ismerteti.
+
+### [XLSB munkafüzet létrehozása programozottan – Teljes Java útmutató](./create-xlsb-workbook-programmatically-full-java-guide/)
+Ismerje meg, hogyan hozhat létre XLSB munkafüzetet programozottan Java nyelven, részletes kódpéldákkal.
 
 ### [Egyéni Excel-tulajdonságok exportálása PDF-be az Aspose.Cells for Java használatával](./export-excel-custom-properties-pdf-aspose-cells-java/)
 Ismerje meg, hogyan exportálhat egyéni tulajdonságokat egy Excel-munkafüzetből PDF-be az Aspose.Cells for Java használatával. Egyszerűsítse adatkezelését ezzel a lépésről lépésre bemutató útmutatóval.
@@ -405,7 +412,7 @@ Tanuld meg, hogyan hozhatsz létre, módosíthatsz és menthetsz hatékonyan Exc
 Sajátítsd el a CSV-fájlok JSON formátumba konvertálásának művészetét az Aspose.Cells for Java segítségével, amivel javíthatod az adatkezelési és integrációs képességeidet.
 
 ### [Excel fájlok kezelésének mesteri elsajátítása Aspose.Cells használatával Java-ban | Munkafüzet-műveletek útmutatója](./master-excel-manipulation-aspose-cells-java/)
-Ismerje meg, hogyan kezelheti hatékonyan az Excel-fájlokat az Aspose.Cells for Java használatával. Ez az útmutató a beállítást, a munkafüzet-műveleteket és a bevált gyakorlatokat ismerteti.
+Ismerje meg, hogyan kezelheti hatékonyan az Excel-fájlokat az Aspose.Cells for Java segítségével. Ez az útmutató a beállítást, a munkafüzet-műveleteket és a bevált gyakorlatokat ismerteti.
 
 ### [Excel-manipuláció mestere Java-ban: Alakzatok és ActiveX-vezérlők kezelése az Aspose.Cells segítségével](./master-excel-manipulation-java-aspose-cells/)
 Tanulja meg az Excel alakzatok és ActiveX vezérlők kezelését az Aspose.Cells for Java segítségével. Automatizálja a jelentéseket, javítsa a táblázatokat és hatékonyan kezelje az összetett fájlokat.
@@ -490,6 +497,10 @@ Ismerje meg, hogyan állíthat be és kezelhet dokumentumok tulajdonságait, pé
 
 ### [Munkafüzet mentése fájlba – Teljes Java útmutató az Excel tartományok másolásához](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
 Ismerje meg, hogyan menthet munkafüzetet fájlba, és másolhat Excel-tartományokat az Aspose.Cells for Java használatával.
+### [Munkafüzet létrehozása japán naptárral – Teljes Java oktatóanyag](./create-workbook-japanese-calendar-complete-java-tutorial/)
+Ismerje meg, hogyan hozhat létre japán naptárat tartalmazó Excel munkafüzetet az Aspose.Cells for Java segítségével.
+### [Java create excel file, add custom property and save as XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+Ismerd meg, hogyan hozhatsz létre Excel-fájlt Java-ban, adhatod hozzá egyéni tulajdonságát, és mentheted XLSB formátumban.
 
 ## További források
 

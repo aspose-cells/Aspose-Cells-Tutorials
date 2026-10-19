@@ -46,6 +46,8 @@
 了解使用 Aspose.Cells for .NET 在 Excel 中複製列的逐步指南。透過清晰的指令簡化您的資料任務。
 ### [使用 Aspose.Cells for .NET 複製行](./copying-rows/)
 了解如何使用 Aspose.Cells for .NET 有效率地複製 Excel 檔案中的行。本逐步指南簡化了行複製以滿足您的資料管理需求。
+### [從一個工作表複製行到另一個工作表 – 完整 C# 指南](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中將行從一個工作表複製到另一個工作表的完整步驟指南。
 ### [使用 Aspose.Cells 在 Excel 中對行和列進行分組](./grouping-rows-and-columns/)
 透過本逐步指南了解如何使用 Aspose.Cells for .NET 對 Excel 中的行和列進行分組。
 ### [使用 Aspose.Cells for .NET 建立下面的摘要行](./summary-row-below/)
@@ -66,8 +68,12 @@
 了解如何使用 Aspose.Cells for .NET 刪除 Excel 中的一行。本逐步指南涵蓋了先決條件、程式碼匯入以及無縫資料操作的詳細演練。
 ### [在 Aspose.Cells .NET 中刪除多行](./delete-multiple-rows-aspose-cells/)
 學習使用 Aspose.Cells for .NET 在 Excel 中刪除多行。這個詳細的逐步指南涵蓋了先決條件、編碼範例和開發人員常見問題。
+### [使用 Aspose.Cells for .NET 刪除 Excel 檔案中的整行](./how-to-delete-entire-row-in-an-excel-file-using-c/)
+了解如何使用 Aspose.Cells for .NET 透過 C# 刪除 Excel 檔案中的整行。
 ### [使用 Aspose.Cells for .NET 刪除行 – 在 Excel 中保護標題列](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 了解如何使用 Aspose.Cells for .NET 刪除 Excel 中的資料列，同時保留標題列不被刪除的步驟。
+### [使用 C# 刪除 Excel 行 – 保護表格標題](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
+了解如何在保留表格標題的情況下，使用 Aspose.Cells for .NET 刪除 Excel 工作表中的多行。
 ### [如何使用 Aspose.Cells 刪除 Excel 表格中的行，同時保留標題列](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
 了解如何在保留標題列的情況下，使用 Aspose.Cells for .NET 刪除 Excel 表格中的資料行。
 ### [在 Aspose.Cells .NET 中插入列](./insert-column-aspose-cells/)
@@ -99,6 +105,10 @@
 了解如何在 C# 中使用 Aspose.Cells 的 WRAPCOLS 功能，快速建立雙欄佈局的步驟說明。
 ### [如何在 GridJs 中插入行 – 快速新增多行](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 了解如何使用 GridJs 快速插入多行，提升表格資料處理效率。
+### [在 C# 中使用 wrapcols – 完整指南，涵蓋 Excel WRAPROWS 與重新計算公式](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+了解如何在 C# 中使用 wrapcols、wraprows 以及重新計算公式，以有效管理 Excel 工作表。
+### [使用 C# 在 Excel 中向上移動儲存格 – 完整指南](./shift-cells-up-in-excel-with-c-complete-guide/)
+了解如何使用 Aspose.Cells for .NET 以 C# 在 Excel 中將儲存格向上移動，提供完整步驟與範例程式碼。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

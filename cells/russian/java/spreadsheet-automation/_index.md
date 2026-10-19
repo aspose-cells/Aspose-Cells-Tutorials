@@ -62,6 +62,9 @@
 Узнайте, как создать вертикальный массив в Excel с помощью Aspose.Cells для Java, шаг за шагом с примерами кода.
 ### [Как использовать Expand в Java – Полное руководство по Excel](./how-to-use-expand-in-java-complete-excel-guide/)
 Узнайте, как использовать метод Expand в Java с Aspose.Cells для создания динамических диапазонов в Excel. Полное пошаговое руководство.
+### [Как очистить AutoFilter в Excel с помощью Java — Полное руководство](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Узнайте, как программно снять фильтр AutoFilter в Excel с помощью Aspose.Cells для Java, с примерами кода и пошаговыми инструкциями.
+### [Создание новой книги Excel Aspose – добавление пользовательского свойства и сохранение в формате XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

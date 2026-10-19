@@ -73,6 +73,8 @@ Leer hoe u een Markdown‑bestand in Excel importeert met Aspose.Cells voor .NET
 Leer hoe u Excel-bestanden genereert vanuit JSON met C# met deze volledige stapsgewijze handleiding.
 ### [Excel-werkmap maken C# – Volledige gids om datums uit cellen te lezen](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
 Leer hoe u een Excel-werkmap maakt en datums uit cellen leest met Aspose.Cells voor .NET in C#.
+### [Japanse era-datum parseren in C# – Complete gids](./parse-japanese-era-date-in-c-complete-guide/)
+Leer hoe u Japanse era-datums parseert in C# met Aspose.Cells voor .NET in deze volledige gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

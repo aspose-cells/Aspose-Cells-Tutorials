@@ -33,6 +33,8 @@
 
 ### [Создание рабочей книги Excel C# – пошаговое руководство с условным форматированием](./create-excel-workbook-c-step-by-step-guide-with-conditional/)
 Узнайте, как создать рабочую книгу Excel на C# с условным форматированием, следуя пошаговому руководству.
+### [Создание условного форматирования в Excel с Aspose.Cells – пошаговое руководство](./create-conditional-formatting-in-excel-with-aspose-cells-ste/)
+Подробное пошаговое руководство по созданию условного форматирования в Excel с помощью Aspose.Cells для .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

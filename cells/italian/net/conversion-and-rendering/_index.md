@@ -36,6 +36,8 @@ Impara a convertire Excel in PDF in modo semplice e avanzato con Aspose.Cells in
 Scopri come convertire un foglio di lavoro Excel in SVG utilizzando Aspose.Cells per .NET con questa guida passo passo. Perfetto per gli sviluppatori .NET che desiderano convertire Excel in SVG.
 ### [Conversione di Excel in MHTML in .NET](./converting-excel-to-mhtml/)
 Scopri come convertire in modo efficiente i file Excel nel formato MHTML in .NET con Aspose.Cells, potenziando le tue capacità di reporting e condivisione dei dati.
+### [Come convertire JSON in Excel in C# con una singola cella separata da virgole](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Scopri come trasformare dati JSON in un file Excel in C#, inserendo tutti gli elementi in una singola cella separata da virgole.
 ### [Salva docx come txt – Converti Word in txt facilmente con Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
 Scopri come convertire documenti Word (.docx) in file di testo (.txt) rapidamente con Aspose.Words per .NET.
 
@@ -75,6 +77,12 @@ Impara a esportare i fogli di calcolo Excel in immagini PNG con Aspose.Cells per
 Impara a trasformare file XLSX in immagini PNG usando Aspose.Cells e C#, passo passo.
 ### [Come inserire caratteri speciali in Excel – Guida passo‑passo](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
 Scopri come inserire caratteri speciali in Excel con Aspose.Cells, passo dopo passo, per migliorare i tuoi fogli di calcolo.
+### [Salva immagine PNG da tabella pivot Excel in C# – Guida completa](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Impara a estrarre e salvare immagini PNG da una tabella pivot di Excel usando Aspose.Cells in C# con questa guida completa.
+### [Incorporare i font in HTML – Guida completa alla conversione di DOCX in HTML con supporto completo dei font](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Scopri come incorporare tutti i font durante la conversione di DOCX in HTML con Aspose.Words per .NET.
+### [Come incorporare i font in HTML da un DOCX – Guida completa](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Scopri come incorporare i font nei file HTML generati da documenti DOCX usando Aspose.Words per .NET, passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

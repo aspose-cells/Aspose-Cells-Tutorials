@@ -55,6 +55,8 @@ Un tutorial sul codice per Aspose.Words Java
 
 ### [Come aggiungere un commento in Excel con Java – Guida completa](./how-to-add-comment-in-excel-with-java-complete-guide/)
 Scopri come aggiungere commenti a un file Excel utilizzando Aspose.Cells per Java, con esempi di codice passo passo.
+### [Aggiungere un commento a Excel usando Java – Guida completa passo‑passo](./add-comment-to-excel-using-java-complete-step-by-step-guide/)
+Scopri come aggiungere commenti a un file Excel con Aspose.Cells per Java, passo dopo passo, per migliorare la collaborazione.
 
 ## Risorse aggiuntive
 

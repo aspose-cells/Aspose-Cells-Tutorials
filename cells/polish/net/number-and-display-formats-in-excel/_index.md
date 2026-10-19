@@ -46,6 +46,8 @@ Dowiedz się, jak w C# konwertować daty i czasy do formatu ISO przy użyciu Asp
 Poznaj krok po kroku, jak sformatować walutę w kolumnie siatki przy użyciu Aspose.Cells dla .NET.
 ### [Zastosowanie formatu liczbowego w Excelu – Przewodnik krok po kroku formatowania kolumn](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
 Dowiedz się, jak programowo zastosować format liczbowy w Excelu i sformatować wybrane kolumny przy użyciu Aspose.Cells dla .NET.
+### [Jak zaokrąglić liczby w Excelu w C# – kompletny przewodnik programistyczny](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+Dowiedz się, jak zaokrąglać liczby w Excelu przy użyciu C# i Aspose.Cells, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

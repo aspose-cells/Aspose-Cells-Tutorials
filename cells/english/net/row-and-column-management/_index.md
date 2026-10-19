@@ -46,6 +46,8 @@ Let’s face it, not every piece of data remains relevant over time. When cleani
 Discover a step-by-step guide to copying columns in Excel using Aspose.Cells for .NET. Simplify your data tasks with clear instructions.
 ### [Copy Rows using Aspose.Cells for .NET](./copying-rows/)
 Learn how to efficiently copy rows in Excel files using Aspose.Cells for .NET. This step-by-step guide simplifies row copying for your data management needs.
+### [Copy rows from one worksheet to another – Complete C# Guide](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+Learn how to copy rows between worksheets in Excel using Aspose.Cells for .NET with a complete C# example.
 ### [Group Rows and Columns in Excel with Aspose.Cells](./grouping-rows-and-columns/)
 Learn how to group rows and columns in Excel using Aspose.Cells for .NET with this step-by-step guide.
 ### [Create Summary Row Below with Aspose.Cells for .NET](./summary-row-below/)
@@ -64,8 +66,11 @@ Learn how to unhide rows and columns in Excel using Aspose.Cells for .NET with o
 Learn how to delete a column in an Excel file using Aspose.Cells for .NET. Follow our detailed, step-by-step guide to streamline your Excel file modifications.
 ### [Delete a Row in Aspose.Cells .NET](./delete-row-aspose-cells/)
 Learn how to delete a row in Excel with Aspose.Cells for .NET. This step-by-step guide covers prerequisites, code import, and a detailed walkthrough for seamless data manipulation.
+### [How to delete entire row in an Excel file using C#](./how-to-delete-entire-row-in-an-excel-file-using-c/)
 ### [Aspose Cells Delete Rows – Protect Header Row in Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 Learn how to delete rows while preserving the header row in Excel using Aspose.Cells for .NET. Step-by-step guide.
+### [how to delete rows in Excel with C# – protect table header](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
+Learn how to delete rows while preserving the table header in Excel using C# and Aspose.Cells.
 ### [How to use Aspose.Cells to delete rows in an Excel table while keeping the header](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
 Learn how to delete rows from an Excel table while preserving the header using Aspose.Cells for .NET.
 ### [Delete Multiple Rows in Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
@@ -100,6 +105,10 @@ Learn how to insert rows in Excel using C# and Aspose.Cells for .NET with this d
 Learn how to use the WRAPCOLS feature in Aspose.Cells for .NET to create a two‑column layout in C# with step‑by‑step instructions.
 ### [How to Insert Rows in GridJs – Add Multiple Rows Quickly](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Learn how to quickly add multiple rows in GridJs with a simple step-by-step guide for efficient data handling.
+### [how to use wrapcols in C# – Full Guide with Excel WRAPROWS & Recalculate Formulas](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Learn how to use WrapCols in C# with Excel WrapRows and recalculate formulas in this comprehensive guide.
+### [Shift Cells Up in Excel with C# – Complete Guide](./shift-cells-up-in-excel-with-c-complete-guide/)
+Learn how to shift cells upward in an Excel worksheet using Aspose.Cells for .NET with C#. Step-by-step guide for developers.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

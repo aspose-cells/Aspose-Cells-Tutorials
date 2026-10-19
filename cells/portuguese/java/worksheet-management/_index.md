@@ -41,6 +41,9 @@ Aprenda a inserir linhas com formatação em arquivos do Excel usando a bibliote
 ### [Como inserir linhas em pastas de trabalho do Excel usando Aspose.Cells para Java](./aspose-cells-java-insert-rows-excel-workbooks/)
 Um tutorial de código para Aspose.Words Java
 
+### [Como limpar o autofiltro no Excel com Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+Aprenda a remover filtros automáticos de planilhas Excel usando Aspose.Cells para Java.
+
 ### [Carregue planilhas específicas com eficiência em pastas de trabalho do Excel usando Aspose.Cells para Java](./aspose-cells-java-load-specific-sheets/)
 Aprenda a carregar planilhas específicas de arquivos grandes do Excel usando o Aspose.Cells para Java, otimizando o desempenho e o uso de recursos.
 
@@ -106,6 +109,8 @@ Aprenda a exibir linhas e colunas em arquivos do Excel sem esforço usando o Asp
 
 ### [Criar várias planilhas no Excel com Java – Guia completo baseado em modelo](./create-multiple-sheets-in-excel-with-java-complete-template/)
 Aprenda a criar múltiplas planilhas em um arquivo Excel usando modelos com Aspose.Cells para Java, passo a passo.
+### [Como criar planilhas de detalhes duplicadas no Aspose.Cells para Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+Aprenda a criar planilhas de detalhes duplicadas no Excel usando Aspose.Cells para Java, facilitando a replicação de dados e a automação de relatórios.
 
 ## Recursos adicionais
 

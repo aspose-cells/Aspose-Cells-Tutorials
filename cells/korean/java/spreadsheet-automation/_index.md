@@ -39,6 +39,8 @@ Aspose.Cells for Java로 스프레드시트 작업을 간소화하세요. 지금
 ### [동적 Excel 보고서](./dynamic-excel-reports/)
 ### [자동 데이터 추출](./automated-data-extraction/)
 ### [Excel 통합 문서 자동화](./excel-workbook-automation/)
+Aspose.Cells를 사용하여 Java로 Excel 통합 문서 자동화를 배워보세요. 프로그래밍 방식으로 Excel 파일을 만들고, 읽고, 업데이트하세요. 지금 바로 시작하세요!
+### [새 워크북 만들기 (Aspose) – 사용자 정의 속성 추가 및 XLSB로 저장](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
 ### [Excel 차트 자동화](./automating-excel-charts/)
 ### [Java를 사용한 Excel 자동화](./excel-automation-with-java/)
 ### [Java로 Excel 자동 필터 비활성화 – 단계별 가이드](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
@@ -52,6 +54,8 @@ Java와 Aspose.Cells를 활용해 Excel에서 자동 필터를 해제하는 방�
 ### [Java를 사용하여 Excel에서 자동 필터 끄는 방법 – 완전 가이드](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
 ### [Java로 수직 배열 Excel 만들기 – 전체 단계별 가이드](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
 ### [Java에서 Expand 사용 방법 – 전체 Excel 가이드](./how-to-use-expand-in-java-complete-excel-guide/)
+### [Java를 사용한 Excel 자동 필터 해제 방법 – 완전 가이드](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Aspose.Cells for Java를 사용하여 Excel 자동 필터를 해제하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

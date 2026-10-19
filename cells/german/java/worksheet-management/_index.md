@@ -86,6 +86,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java Zeilen aus einem Arbeitsblatt e
 ### [Verwalten Sie die Sichtbarkeit von Excel-Registerkarten mit Aspose.Cells in Java](./display-excel-tabs-aspose-cells-java/)
 Erfahren Sie, wie Sie Excel-Registerkarten mit Aspose.Cells für Java ein- und ausblenden. Diese Anleitung behandelt die Einrichtung, die Codeimplementierung und bewährte Methoden für eine effektive Arbeitsblattverwaltung.
 
+### [Wie Sie den Autofilter in Excel mit Aspose.Cells (Java) löschen](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+
 ### [Zeilen und Spalten in Excel mit Aspose.Cells für Java ausblenden: Eine umfassende Anleitung](./hide-rows-columns-aspose-cells-java/)
 Erfahren Sie, wie Sie Zeilen und Spalten in Excel-Tabellen mit Aspose.Cells und Java effizient ausblenden. Verbessern Sie noch heute Ihre Datenverwaltungsfähigkeiten!
 
@@ -107,7 +109,8 @@ Ein Code-Tutorial für Aspose.Words Java
 ### [Zeilen und Spalten in Excel mit Aspose.Cells Java einblenden: Eine Schritt-für-Schritt-Anleitung](./unhide-rows-columns-excel-aspose-cells-java/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Zeilen und Spalten in Excel-Dateien mühelos sichtbar machen. Automatisieren Sie die Datenverwaltung mit diesem umfassenden Leitfaden.
 
-
+### [Wie man doppelte Detailblätter in Aspose.Cells für Java erstellt](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java doppelte Detailblätter in Excel erstellen.
 
 ## Weitere Ressourcen
 

@@ -106,6 +106,10 @@ Aspose.Words Java 代码教程
 
 ### [使用 Java 在 Excel 中创建多个工作表 – 完整基于模板的指南](./create-multiple-sheets-in-excel-with-java-complete-template/)
 学习如何使用 Aspose.Cells for Java 基于模板一次性创建多个工作表，并掌握实现步骤和最佳实践。
+### [使用 Aspose.Cells for Java 清除 Excel 自动筛选](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+学习如何使用 Aspose.Cells for Java 在 Excel 工作表中清除已应用的自动筛选。
+### [如何在 Aspose.Cells for Java 中创建重复的明细工作表](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+学习如何在 Aspose.Cells for Java 中创建重复的明细工作表，以便在报告中重复使用数据。
 
 ## 其他资源
 

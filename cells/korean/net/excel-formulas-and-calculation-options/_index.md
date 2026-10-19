@@ -70,6 +70,8 @@ Aspose.Cells for .NET을 사용하여 Excel의 강력한 기능을 활용하세�
 ### [C#로 Excel에서 배열 만들기 – 단계별 가이드](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 Aspose.Cells for .NET을 사용하여 C#로 Excel에서 배열을 만드는 방법을 단계별로 안내합니다.
 
+### [C#에서 Excel 배열 수식 적용 – 완전 가이드](./apply-array-formula-excel-in-c-complete-guide/)
+Aspose.Cells for .NET을 사용하여 C#에서 Excel 배열 수식을 적용하는 방법을 단계별로 안내합니다.
 ### [Excel의 내장 함수를 사용하여 데이터 처리](./processing-data-using-built-in-functions/)
 Aspose.Cells for .NET을 사용하여 Excel의 내장 함수를 사용하여 데이터를 처리하는 방법을 알아보세요. 단계별 튜토리얼을 따라 쉽게 자동화할 수 있습니다.
 ### [Excel에서 R1C1을 사용하여 데이터 처리](./processing-data-using-r1c1/)
@@ -78,7 +80,7 @@ Aspose.Cells for .NET을 사용하여 Excel에서 R1C1 수식으로 데이터를
 Aspose.Cells for .NET을 사용하여 Excel의 추가 기능에서 함수를 등록하고 호출하는 방법을 간단한 단계별 자습서를 통해 알아보세요.
 ### [Excel에서 공유 수식의 최대 행 지정](./specifying-maximum-rows-of-shared-formula/)
 이 간단한 단계별 튜토리얼을 통해 Aspose.Cells for .NET을 사용하여 Excel에서 공유 수식에 대한 최대 행 수를 지정하는 방법을 알아보세요.
-### [C#에서 Aspose.Cells를 사용해 배열 확장하기 – 단계별 가이드](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+### [C#를 사용하여 Aspose.Cells를 사용해 배열 확장하기 – 단계별 가이드](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Aspose.Cells를 활용해 C#에서 배열을 확장하는 방법을 단계별로 안내합니다.
 
 ### [C#를 사용하여 Excel에서 코탄젠트를 계산하는 방법 – 단계별 가이드](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
@@ -91,8 +93,22 @@ Aspose.Cells for .NET을 사용하여 C#로 Excel에서 코탄젠트를 계산�
 Aspose.Cells for .NET을 사용하여 C#에서 워크북의 모든 수식을 재계산하고 Excel을 새로 고치는 방법을 단계별로 안내합니다.
 ### [C#에서 WRAPCOLS 사용 방법 – 배열을 행렬로 재구성](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
 Aspose.Cells for .NET을 사용해 C#에서 WRAPCOLS 함수를 활용하여 1차원 배열을 행렬 형태로 변환하는 방법을 단계별로 안내합니다.
+
+### [C#에서 Excel 워크북을 만들고 WRAPCOLS로 데이터를 분할하는 방법](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
+Aspose.Cells for .NET을 활용해 C#에서 워크북을 만들고 WRAPCOLS로 데이터를 분할하는 방법을 단계별로 안내합니다.
+
 ### [C#로 Excel에서 코탄젠트 계산하기 – 완전 가이드](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 Aspose.Cells for .NET을 활용해 C#로 Excel에서 코탄젠트 함수를 계산하는 단계별 가이드를 제공합니다.
+### [Excel에서 WRAPCOLS 사용 방법 – 완전한 C# 예제](./how-to-use-wrapcols-in-excel-complete-c-example/)
+Aspose.Cells for .NET을 사용하여 Excel에서 WRAPCOLS 함수를 활용하는 방법을 단계별로 안내합니다.
+### [WRAPCOLS 사용법 – C# Excel 자동화를 위한 완전 가이드](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Aspose.Cells for .NET을 사용하여 WRAPCOLS 기능을 활용하는 방법을 단계별로 안내합니다.
+### [C#를 사용하여 Excel에서 수식 강제 계산 및 람다 사용 방법](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Aspose.Cells for .NET을 사용하여 C#로 Excel 수식을 강제로 계산하고 람다 함수를 활용하는 방법을 단계별로 안내합니다.
+### [수식이 포함된 Excel 워크북 만들기 – 전체 단계별 가이드](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+Aspose.Cells for .NET을 사용하여 수식이 포함된 Excel 워크북을 처음부터 완전하게 만드는 방법을 단계별로 안내합니다.
+### [C#에서 EXPAND 함수를 사용하여 Excel 워크북 만들기](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+Aspose.Cells for .NET을 사용하여 C#에서 EXPAND 함수를 활용해 Excel 워크북을 만드는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -73,6 +73,8 @@ Aspose.Cells for .NET을 사용하여 Markdown 파일을 Excel로 가져와 데�
 Aspose.Cells for .NET을 사용하여 JSON 데이터를 Excel 파일로 변환하는 방법을 단계별로 안내합니다.
 ### [C#으로 Excel 워크북 만들기 – 셀에서 날짜 읽기 전체 가이드](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
 Aspose.Cells for .NET을 사용하여 C#에서 Excel 워크북을 생성하고 셀의 날짜 값을 읽는 방법을 단계별로 안내합니다.
+### [C#에서 일본 연호 날짜 파싱 – 완전 가이드](./parse-japanese-era-date-in-c-complete-guide/)
+Aspose.Cells for .NET을 사용하여 C#에서 일본 연호 날짜를 파싱하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

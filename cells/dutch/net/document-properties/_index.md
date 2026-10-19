@@ -65,6 +65,8 @@ Leer hoe u een aangepaste eigenschap toevoegt aan een Excel‑bestand met C# met
 Leer hoe u Excel-metadata toevoegt met Aspose.Cells voor .NET in een volledige C#-werkboekgids.
 ### [Aangepaste eigenschap maken met Aspose – Complete Excel-gids](./create-custom-property-aspose-complete-excel-guide/)
 Leer hoe u aangepaste documenteigenschappen toevoegt in Excel met Aspose.Cells voor .NET via een volledige stapsgewijze handleiding.
+### [Hoe XLSB op te slaan en aangepaste documenteigenschappen toe te voegen in C#](./how-to-save-xlsb-and-add-custom-document-properties-in-c/)
+Leer hoe u een XLSB-bestand opslaat en aangepaste documenteigenschappen toevoegt met Aspose.Cells voor .NET in C#.
 ### [Hoe Excel‑eigenschappen beheren in C# – een stapsgewijze handleiding](./how-to-manage-excel-custom-properties-in-c-a-step-by-step-tu/)
 Leer stap voor stap hoe u aangepaste eigenschappen in een Excel‑bestand kunt beheren met C# en Aspose.Cells.
 

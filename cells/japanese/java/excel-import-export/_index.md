@@ -47,6 +47,8 @@ Aspose.Cells for Java を使用して、XLSX ファイルを CSV 形式に変換
 Aspose.Cells for Javaを使って、ExcelファイルをPDFに簡単にエクスポートする方法を学びましょう。ステップバイステップガイドで手順を分かりやすく解説します。今すぐ変換を始めましょう！
 ### [ワークブックからPDFを作成する方法 – 完全Javaガイド](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
 Aspose.Cells for Java を使用して、ワークブックをPDFに変換する手順をステップバイステップで解説します。実用的なコード例付き。
+### [Excel を PDF に変換 – Aspose.Cells 完全 Java ガイド](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
+Aspose.Cells for Java を使用して、Excel ファイルを PDF に変換する手順をステップバイステップで解説します。実用的なコード例とベストプラクティスを提供。
 ### [ExcelからXML Javaへのエクスポート](./export-excel-to-xml-java/)
 Aspose.Cells for Javaを使って、JavaでExcelをXMLにエクスポートする方法を学びましょう。ソースコード付きのステップバイステップガイドで、シームレスなデータ変換を実現します。
 
@@ -93,6 +95,52 @@ Aspose.Cells for Java を使用して、Excel ファイルを Word 文書に変�
 Aspose.Cells for Java を使用して、Excel を SVG に変換する際にフォントを埋め込む手順をステップバイステップで解説します。
 ### [Excel を HTML に変換 – フォント埋め込み完全ガイド](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
 Aspose.Cells for Java を使用して、Excel ファイルを HTML に変換し、フォントを埋め込む手順をステップバイステップで解説します。
+### [Excel を HTML にエクスポート – フリーズペイン付き 完全ガイド](./export-excel-to-html-complete-guide-with-frozen-panes/)
+Aspose.Cells for Java を使用して、フリーズペインを保持したまま Excel を HTML にエクスポートする方法をステップバイステップで解説します。
+### [HTML にフォントを埋め込む – Excel を HTML に変換してブックを保存](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
+Aspose.Cells for Java を使用して、Excel を HTML に変換し、フォントを埋め込んだ状態でワークブックを保存する方法をステップバイステップで解説します。
+### [JSON から Excel を作成 – 完全ステップバイステップガイド](./create-excel-from-json-full-step-by-step-guide/)
+Aspose.Cells for Java を使って、JSON データから Excel ファイルを作成する方法を学びましょう。実用的なコード例でステップバイステップ解説します。
+### [Excelで交互列の色付け – フォーマット付きDataTableのインポート](./alternating-column-colors-in-excel-import-datatable-with-for/)
+Aspose.Cells for Javaを使用し、DataTableをインポートしながら列の色を交互に設定する方法をステップバイステップで解説します。
+### [ExcelセルからCSVをエクスポートする方法 – 完全ガイド](./how-to-export-csv-from-excel-cells-complete-guide/)
+Aspose.Cells for Javaを使用して、ExcelセルのデータをCSV形式にエクスポートする手順をステップバイステップで解説します。
+### [Excel を TSV として保存 – ワークシートをテキストにエクスポートする完全ガイド](./save-excel-as-tsv-complete-guide-to-exporting-worksheets-to/)
+Aspose.Cells for Java を使用して、Excel ワークシートを TSV 形式のテキストファイルにエクスポートする方法をステップバイステップで解説します。
+### [Excel から SVG へのフォント埋め込み方法 – 完全 Java ガイド](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
+Aspose.Cells for Java を使用して、Excel から生成した SVG にフォントを埋め込む手順をステップバイステップで解説します。
+### [Excel を PPTX に変換: 完全 Java ガイド](./convert-excel-to-pptx-complete-java-guide/)
+Aspose.Cells for Java を使用して、Excel を PPTX に変換する方法を学びましょう。ステップバイステップのコード例で実装できます。
+### [JavaでExcelをPDF/Aに変換 – 完全ステップバイステップガイド](./convert-excel-to-pdf-a-with-java-complete-step-by-step-guide/)
+Aspose.Cells for Java を使用して、Excel ファイルを PDF/A 形式に変換する方法を学びます。実用的なコード例でステップバイステップ解説。
+### [チャートを画像としてエクスポート – Excel を Word に変換する完全ガイド](./export-chart-as-image-complete-guide-to-convert-excel-to-wor/)
+Aspose.Cells for Javaを使い、Excelのチャートを画像としてエクスポートし、Wordに変換する方法をステップバイステップで解説します。
+### [Excel を SVG にエクスポートする方法 – ステップバイステップ Java ガイド](./how-to-export-excel-to-svg-step-by-step-java-guide/)
+Aspose.Cells for Java を使用して、Excel を SVG 形式にエクスポートする手順を詳しく解説します。コード例付きで簡単に変換できます。
+### [Excel を HTML に変換する際のフォント埋め込み方法 – 完全ガイド](./how-to-embed-fonts-when-converting-excel-to-html-complete-gu/)
+Aspose.Cells for Java を使用して、Excel を HTML に変換する際にフォントを埋め込む手順をステップバイステップで解説します。
+### [Excel ワークブックから FlatOPC ファイルを作成する – ステップバイステップガイド](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
+Aspose.Cells for Java を使用して、Excel ワークブックから FlatOPC ファイルを生成する方法をステップバイステップで解説します。
+### [JSON を Excel にエクスポート（Java） – 完全ステップバイステップガイド](./export-json-to-excel-with-java-complete-step-by-step-guide/)
+Aspose.Cells for Java を使用して、JSON データを Excel に変換する方法を学びます。実用的なコード例とステップバイステップの手順で、簡単に変換できます。
+### [JavaでXLSXをPowerPointに変換する完全ガイド](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
+Aspose.Cells for Java を使用して、XLSX ファイルを PowerPoint プレゼンテーションに変換する方法を学びましょう。実用的なコード例でステップバイステップ解説します。
+### [Aspose.CellsでJSONからExcelを作成し、JSONをExcelセルに変換する](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+### [Aspose.CellsでカスタムオブジェクトをExcelにインポートする – Javaガイド](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+Aspose.Cells for Java を使用して、カスタムオブジェクトを Excel にインポートする方法をステップバイステップで解説します。
+### [JavaでExcelをHTMLにエクスポートする完全ステップバイステップガイド](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+Aspose.Cells for Javaを使用して、ExcelをHTMLにエクスポートする完全な手順を学びましょう。実用的なコード例と詳しい説明で変換をマスターできます。
+### [Aspose.Cellsで区切り文字を設定しCSVとして保存する方法](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+Aspose.Cellsを使用して区切り文字を指定し、CSV形式でファイルを保存する手順を解説します。
+### [ExcelをSVGにエクスポートする際のフォント埋め込み](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Aspose.Cells for Java を使用して、Excel を SVG にエクスポートする際にフォントを埋め込む方法をステップバイステップで解説します。
+### [JavaでリストをExcelにインポートし、列をスタイル設定する方法](./how-to-import-list-to-excel-and-style-columns-in-java/)
+JavaでリストをExcelにインポートし、列のスタイルを設定する方法を学びます。
+### [Javaで有効桁数を制限してExcelをTXTにエクスポートする方法](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+### [Aspose.Cells を使用して Excel を PowerPoint にエクスポートする方法 – ステップバイステップガイド](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Aspose.Cells を使って Excel を PowerPoint に変換する手順を詳しく解説します。
+### [Aspose.Cells を使用して JSON を Excel にエクスポート（Java）](./export-json-to-excel-with-aspose-cells-in-java/)
+Aspose.Cells for Java を使って JSON データを Excel ファイルにエクスポートする方法を学びましょう。実用的なコード例で手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

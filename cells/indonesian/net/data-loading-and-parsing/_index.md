@@ -71,6 +71,8 @@ Pelajari cara menyisipkan data JSON ke dalam template Excel menggunakan Aspose.C
 Pelajari cara mengonversi data JSON menjadi file Excel menggunakan C# dengan Aspose.Cells, langkah demi langkah lengkap.
 ### [Buat Workbook Excel C# – Panduan Lengkap Membaca Tanggal dari Sel](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
 Pelajari cara membuat workbook Excel dengan C# dan membaca nilai tanggal dari sel menggunakan Aspose.Cells untuk .NET.
+### [Mengurai Tanggal Era Jepang di C# – Panduan Lengkap](./parse-japanese-era-date-in-c-complete-guide/)
+Pelajari cara mengonversi tanggal era Jepang menjadi format standar di C# dengan Aspose.Cells, lengkap dengan contoh kode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
