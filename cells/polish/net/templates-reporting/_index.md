@@ -56,15 +56,29 @@ Dowiedz się, jak programowo zapisać wypełniony skoroszyt Excel przy użyciu b
 Dowiedz się, jak przy użyciu Aspose.Cells dla .NET zapisać skoroszyt Excel bezpośrednio z danych JSON, krok po kroku.
 ### [Tworzenie Excela z szablonu – przewodnik krok po kroku dla programistów .NET](./create-excel-from-template-step-by-step-guide-for-net-develo/)
 Dowiedz się, jak tworzyć pliki Excel z szablonów przy użyciu Aspose.Cells dla .NET, krok po kroku.
+
 ### [Utwórz plik Excel z szablonu – Dodaj dane, obraz, zapisz jako XLSX](./create-excel-from-template-add-data-image-save-xlsx/)
 Dowiedz się, jak tworzyć plik Excel z szablonu, wstawiać dane i obrazy oraz zapisywać w formacie XLSX.
+
 ### [Utwórz szablon skoroszytu z Aspose.Cells – Kompletny przewodnik](./create-workbook-template-with-aspose-cells-complete-guide/)
 Dowiedz się, jak krok po kroku stworzyć szablon skoroszytu w Aspose.Cells, aby automatyzować generowanie raportów Excel.
+
 ### [Jak zapisać plik szablonu Excela – przewodnik krok po kroku](./how-to-save-excel-template-file-step-by-step-guide/)
 Dowiedz się, jak w kilku prostych krokach zapisać szablon Excela przy użyciu Aspose.Cells dla .NET.
 
 ### [Jak używać Excela do korespondencji seryjnej – kompletny przewodnik C#](./how-to-use-excel-for-mail-merge-complete-c-guide/)
 Dowiedz się, jak wykorzystać Excela do korespondencji seryjnej w C#, tworząc szablony i generując dokumenty przy użyciu Aspose.Cells.
+### [Jak wygenerować fakturę przy użyciu Aspose.Cells – Kompletny przewodnik programistyczny](./how-to-generate-invoice-with-aspose-cells-complete-programmi/)
+Dowiedz się, jak programowo tworzyć faktury w Excelu przy użyciu Aspose.Cells, od przygotowania danych po formatowanie i zapis.
+
+### [Jak przetworzyć szablon Excela i automatycznie nazwać arkusze w C#](./how-to-process-excel-template-and-automatically-name-sheets/)
+Dowiedz się, jak programowo przetworzyć szablon Excela i dynamicznie nadawać nazwę arkuszom przy użyciu C# i Aspose.Cells.
+
+### [Jak wyeksportować dane do Excela przy użyciu szablonu C# – przewodnik krok po kroku](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
+Dowiedz się, jak programowo wyeksportować dane do pliku Excel przy użyciu szablonu C# i biblioteki Aspose.Cells.
+
+### [Jak rozszerzyć tablicę w Excelu i wypełnić szablon](./how-to-expand-array-in-excel-and-populate-a-template)
+Dowiedz się, jak przy użyciu Aspose.Cells rozszerzyć tablicę w Excelu i automatycznie wypełnić szablon danymi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

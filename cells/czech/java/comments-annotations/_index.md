@@ -55,6 +55,8 @@ Výukový program pro Aspose.Words v Javě
 
 ### [Jak přidat komentář v Excelu pomocí Javy – Kompletní průvodce](./how-to-add-comment-in-excel-with-java-complete-guide/)
 Naučte se, jak pomocí Aspose.Cells pro Javu přidávat komentáře do Excelu. Kompletní průvodce krok za krokem.
+### [Přidání komentáře do Excelu pomocí Javy – kompletní průvodce krok za krokem](./add-comment-to-excel-using-java-complete-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells pro Javu přidat komentář do souboru Excel, krok za krokem s ukázkovým kódem.
 
 ## Další zdroje
 

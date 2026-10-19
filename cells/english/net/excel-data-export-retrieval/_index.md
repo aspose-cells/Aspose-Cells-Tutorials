@@ -51,6 +51,15 @@ Learn how to create a workbook in C# and export a DataTable to Excel with format
 ### [Create New Workbook and Export Excel to TXT with Precision](./create-new-workbook-and-export-excel-to-txt-with-precision/)
 Learn how to create a new workbook and export Excel data to a TXT file with precise formatting using Aspose.Cells for .NET.
 
+### [How to Export Cell Range as Table – Complete C# Guide](./how-to-export-cell-range-as-table-complete-c-guide/)
+Learn how to export a range of cells as a formatted table in Excel using Aspose.Cells for .NET with C# in this comprehensive guide.
+
+### [Create excel sheet from a DataTable in C# – step‑by‑step guide](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+Learn how to generate an Excel worksheet from a DataTable in C# using Aspose.Cells for .NET, with step‑by‑step instructions.
+
+### [How to Export Excel Table – Complete Step‑by‑Step Guide](./how-to-export-excel-table-complete-step-by-step-guide/)
+Learn how to export an Excel table using Aspose.Cells for .NET with a detailed step‑by‑step guide for all skill levels.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

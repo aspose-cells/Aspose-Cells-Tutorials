@@ -94,6 +94,16 @@ Lär dig hur du skapar en array i Excel med C# med vår steg‑för‑steg‑gui
 Lär dig hur du beräknar cotangens i Excel med C# med Aspose.Cells för .NET i denna omfattande guide.
 ### [Hur du använder WRAPCOLS i Excel – Komplett C#-exempel](./how-to-use-wrapcols-in-excel-complete-c-example/)
 Lär dig hur du använder WRAPCOLS-funktionen i Excel med ett komplett C#-exempel i Aspose.Cells för .NET.
+### [Hur du skapar en Excel-arbetsbok och delar upp data med WRAPCOLS i C#](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
+Lär dig skapa en Excel-arbetsbok och använda WRAPCOLS för att dela upp data i C# med Aspose.Cells för .NET.
+### [Hur man använder WRAPCOLS – Komplett guide för C# Excel-automation](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Lär dig hur du använder WRAPCOLS-funktionen för att formatera data i Excel med C# och Aspose.Cells.
+### [Hur du tvingar formelberäkning och använder lambda i Excel med C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Lär dig hur du tvingar formelberäkning och använder lambda-funktioner i Excel med C# via Aspose.Cells.
+### [Skapa Excel-arbetsbok med formler – Fullständig steg‑för‑steg‑guide](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+Lär dig hur du skapar en Excel-arbetsbok med formler med Aspose.Cells för .NET i en fullständig steg‑för‑steg‑guide.
+### [Hur man skapar Excel-arbetsbok i C# med EXPAND-funktionen](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+Lär dig hur du skapar en Excel-arbetsbok i C# med EXPAND‑funktionen med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -62,6 +62,9 @@
 ### [ตั้งค่ารูปแบบตัวเลขใน Excel ด้วย Java – คู่มือฉบับสมบูรณ์](./set-number-format-excel-in-java-complete-guide/)
 เรียนรู้วิธีตั้งค่ารูปแบบตัวเลขในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดและขั้นตอนการทำงานที่ชัดเจน
 
+### [ตั้งค่ารูปแบบตัวเลขกำหนดเองใน Excel ด้วย Java – คู่มือฉบับสมบูรณ์](./set-custom-number-format-in-excel-with-java-complete-guide/)
+เรียนรู้วิธีตั้งค่ารูปแบบตัวเลขกำหนดเองในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java ด้วยคำแนะนำทีละขั้นตอนและตัวอย่างโค้ดที่ใช้งานได้จริง
+
 ### [การเรียนรู้การนำเสนอข้อมูลใน Excel: การจัดรูปแบบตัวเลขและวันที่แบบกำหนดเองด้วย Aspose.Cells สำหรับ Java](./aspose-cells-java-data-formatting-excel/)
 เรียนรู้วิธีการใช้รูปแบบตัวเลขและสไตล์วันที่ที่กำหนดเองโดยใช้ Aspose.Cells สำหรับ Java เพื่อปรับปรุงการนำเสนอข้อมูลในสเปรดชีต Excel
 
@@ -244,6 +247,8 @@
 
 ### [Aspose Cells รูปแบบวันที่: วิธีตั้งค่ารูปแบบวันที่แบบกำหนดเองใน Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
 เรียนรู้วิธีตั้งค่ารูปแบบวันที่แบบกำหนดเองใน Excel ด้วย Aspose.Cells สำหรับ Java อย่างละเอียด
+### [ตั้งค่าฟอนต์หนาในการส่งออก Excel ด้วย Java – คู่มือฉบับสมบูรณ์](./set-font-bold-in-java-excel-export-complete-guide/)
+เรียนรู้วิธีตั้งค่าฟอนต์ให้เป็นตัวหนาในไฟล์ Excel ที่ส่งออกด้วย Java โดยใช้ Aspose.Cells คู่มือนี้แสดงขั้นตอนและโค้ดตัวอย่าง
 
 ### [วิธีจำกัดจำนวนหลักสำคัญใน Excel ด้วย Java](./how-to-limit-significant-digits-excel-using-java/)
 เรียนรู้วิธีจำกัดจำนวนหลักสำคัญของตัวเลขในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java ผ่านตัวอย่างโค้ดที่ใช้งานได้จริง

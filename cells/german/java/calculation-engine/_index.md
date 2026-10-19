@@ -61,6 +61,10 @@ Erfahren Sie, wie Sie Formelberechnungen in Arbeitsmappen mit Aspose.Cells für 
 ### [Optimize Excel Calculations Using Aspose.Cells Java&#58; Mastering Calculation Chains for Efficient Workbook Processing](./optimize-excel-aspose-cells-java-calculation-chains/)
 Erfahren Sie, wie Sie die Excel‑Leistung mit Aspose.Cells für Java verbessern, indem Sie Berechnungsketten implementieren, Formeln effizient berechnen und Zellwerte aktualisieren.
 
+### [Wie man Excel‑Arbeitsmappen in Java mit Aspose.Cells aktualisiert](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
+Ein Code‑Tutorial, das zeigt, wie Arbeitsmappen in Java mit Aspose.Cells aktualisiert werden.
+### [Wie man die Formelberechnung in Java mit Aspose.Cells erzwingt](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+Erfahren Sie, wie Sie die Berechnung von Formeln in Aspose.Cells für Java manuell auslösen.
 ### [Alle Formeln in Excel mit Java Aspose.Cells neu berechnen](./recalculate-all-formulas-excel-with-java-aspose-cells/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java alle Formeln in einer Excel‑Arbeitsmappe neu berechnen.
 

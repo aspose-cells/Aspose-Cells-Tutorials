@@ -87,6 +87,9 @@
 تعرّف على كيفية إلغاء دمج الخلايا في ملفات Excel بكفاءة باستخدام Aspose.Cells لجافا. يغطي هذا الدليل إعداد الخلايا المدمجة واكتشافها وإلغاء دمجها مع أمثلة برمجية.
 
 ### [نسخ نطاق ورقة العمل برمجيًا – دليل Java كامل](./programmatically-copy-worksheet-range-complete-java-guide/)
+### [نسخ نطاق بين دفاتر العمل في Java – دليل خطوة بخطوة](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+### [إنشاء ورقة عمل جديدة ونسخ نطاق Excel باستخدام Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+تعلم كيفية إنشاء ورقة عمل جديدة ونسخ نطاق من خلايا Excel باستخدام مكتبة Aspose.Cells في Java.
 
 ### [كيفية استخدام وظيفة التوسيع في معالجة Excel باستخدام Java](./how-to-use-expand-function-in-java-excel-processing/)
 

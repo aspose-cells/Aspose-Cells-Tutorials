@@ -240,6 +240,9 @@
 ### [تنسيق تاريخ Aspose Cells: كيفية تعيين تنسيق تاريخ مخصص في Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
 
 ### [تعيين تنسيق الأرقام في Excel باستخدام Java – دليل كامل](./set-number-format-excel-in-java-complete-guide/)
+### [تعيين الخط العريض في تصدير Excel باستخدام Java – دليل كامل](./set-font-bold-in-java-excel-export-complete-guide/)
+
+### [تعيين تنسيق رقم مخصص في Excel باستخدام Java – دليل كامل](./set-custom-number-format-in-excel-with-java-complete-guide/)
 
 ### [كيفية تحديد عدد الأرقام المهمة في Excel باستخدام Java](./how-to-limit-significant-digits-excel-using-java/)
 

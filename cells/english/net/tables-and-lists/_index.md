@@ -41,6 +41,8 @@ Create a list object in Excel using Aspose.Cells for .NET with this detailed gui
 Create a table from a range in Excel using Aspose.Cells for .NET with this step‑by‑step C# tutorial.
 ### [Format List Object in Excel with Aspose.Cells](./formatting-list-object/)
 Learn how to format a list object in Excel using Aspose.Cells for .NET. Create and style tables with ease.
+### [How to rename table in Excel with C# – step‑by‑step guide](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+Learn how to rename an Excel table using C# and Aspose.Cells for .NET with a clear step‑by‑step guide.
 ### [Convert Table to ODS using Aspose.Cells](./converting-table-to-ods/)
 Learn to convert Excel tables to ODS using Aspose.Cells for .NET with our easy step-by-step tutorial.
 ### [Convert Table to Range in Excel](./converting-table-to-range/)
@@ -67,8 +69,6 @@ Learn how to delete rows from a Word table using Aspose.Words for .NET with a co
 
 ### [Remove Table Header in Aspose.Cells – Complete Guide](./remove-table-header-in-aspose-cells-complete-guide/)
 Learn how to remove table headers in Excel using Aspose.Cells for .NET with this step-by-step guide.
-### [How to Rename Table in Excel with C# – Step‑by‑Step Guide](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
-Learn how to rename a table in Excel using C# and Aspose.Cells for .NET with this step‑by‑step guide.
 ### [Delete Multiple Rows Word – Complete Guide to Removing Table Rows](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
 Learn how to delete multiple rows in a Word table using Aspose.Words for .NET in this comprehensive step-by-step guide.
 

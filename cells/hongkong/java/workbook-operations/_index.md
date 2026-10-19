@@ -29,6 +29,9 @@
 ### [Aspose.Cells Java：建立和儲存 Excel 工作簿 - 逐步指南](./aspose-cells-java-create-save-excel-workbooks/)
 了解如何使用 Aspose.Cells for Java 自動建立和管理 Excel 工作簿。本指南涵蓋實例化、儲存和設定頁面設定屬性。
 
+### [在 Java 中建立 Excel 工作簿 – 完整逐步指南](./create-excel-workbook-in-java-complete-step-by-step-guide/)
+了解如何使用 Aspose.Cells for Java 從頭建立 Excel 工作簿，涵蓋實例化、設定與儲存的完整步驟。
+
 ### [Aspose.Cells Java：顯示版本並建立共享工作簿](./aspose-cells-java-display-version-create-shared-workbook/)
 Aspose.Words Java 程式碼教程
 
@@ -209,6 +212,9 @@ Aspose.Words Java 程式碼教程
 ### [使用 Aspose.Cells for Java 將 XLSB 轉換為 XLSM：逐步指南](./convert-xlsb-to-xlsm-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 將 XLSB 檔案轉換為啟用巨集的 XLSM 工作簿。遵循本綜合指南，其中包含程式碼範例和最佳實踐。
 
+### [以程式方式建立 XLSB 工作簿 – 完整 Java 指南](./create-xlsb-workbook-programmatically-full-java-guide/)
+了解如何使用 Aspose.Cells for Java 程式化建立 XLSB 工作簿，並設定與儲存相關屬性。
+
 ### [使用 Aspose.Cells for Java 建立和存取 Excel 工作表、新增 PDF 書籤](./create-access-excel-sheets-add-pdf-bookmarks-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 建立和存取 Excel 表格、在 PDF 中新增書籤以及簡化文件導覽。
 
@@ -238,6 +244,9 @@ Aspose.Words Java 程式碼教程
 
 ### [如何使用 Aspose.Cells for Java 建立 Excel 工作簿並將其儲存為 SVG](./create-save-workbook-svg-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 自動建立 Excel 工作簿並將其匯出為 SVG 檔案。請按照本逐步指南實現無縫整合。
+
+### [建立工作簿日本曆 – 完整 Java 教學](./create-workbook-japanese-calendar-complete-java-tutorial/)
+了解如何使用 Aspose.Cells for Java 建立包含日本曆的工作簿，從設定到匯出完整示範。
 
 ### [使用 Aspose.Cells Java 偵測加密檔案的檔案格式](./detect-encrypted-file-format-aspose-cells-java/)
 Aspose.Words Java 程式碼教程
@@ -490,6 +499,9 @@ Aspose.Words Java 程式碼教程
 
 ### [將工作簿儲存至檔案 – 完整的 Java 教學：複製 Excel 範圍](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
 了解如何使用 Aspose.Cells for Java 複製 Excel 範圍並將工作簿儲存為檔案的完整步驟指南。
+### [在 Java 中儲存新工作簿 – 複製範圍於工作簿之間教學](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
+### [Java 建立 Excel 檔案，新增自訂屬性並儲存為 XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+了解如何使用 Aspose.Cells for Java 建立 Excel 檔案、加入自訂屬性，並儲存為 XLSB 格式。
 
 ## 其他資源
 

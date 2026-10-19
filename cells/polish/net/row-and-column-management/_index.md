@@ -49,24 +49,36 @@ Bądźmy szczerzy, nie wszystkie dane pozostają aktualne z czasem. Podczas czys
 ## Samouczki dotyczące zarządzania wierszami i kolumnami
 ### [Kopiowanie kolumn za pomocą Aspose.Cells dla .NET](./copying-columns/)
 Odkryj przewodnik krok po kroku dotyczący kopiowania kolumn w programie Excel przy użyciu Aspose.Cells dla .NET. Uprość zadania związane z danymi dzięki jasnym instrukcjom.
+
 ### [Kopiuj wiersze za pomocą Aspose.Cells dla .NET](./copying-rows/)
 Dowiedz się, jak skutecznie kopiować wiersze w plikach Excela za pomocą Aspose.Cells dla .NET. Ten przewodnik krok po kroku upraszcza kopiowanie wierszy na potrzeby zarządzania danymi.
+
+### [Kopiowanie wierszy z jednego arkusza do drugiego – kompletny przewodnik C#](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+Kompletny przewodnik krok po kroku, jak kopiować wiersze między arkuszami w Excelu przy użyciu Aspose.Cells dla .NET w C#.
+
 ### [Grupowanie wierszy i kolumn w programie Excel za pomocą Aspose.Cells](./grouping-rows-and-columns/)
 Dowiedz się, jak grupować wiersze i kolumny w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego przewodnika krok po kroku.
+
 ### [Utwórz wiersz podsumowania poniżej za pomocą Aspose.Cells dla .NET](./summary-row-below/)
 Dowiedz się, jak utworzyć wiersz podsumowania poniżej zgrupowanych wierszy w programie Excel przy użyciu Aspose.Cells dla .NET. Zawiera przewodnik krok po kroku.
+
 ### [Utwórz wiersz podsumowania po prawej stronie za pomocą Aspose.Cells dla .NET](./summary-row-right/)
 Naucz się tworzyć wiersz podsumowania po prawej stronie w programie Excel przy użyciu Aspose.Cells dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać jasne instrukcje.
+
 ### [Rozgrupuj wiersze i kolumny w programie Excel za pomocą Aspose.Cells](./ungrouping-rows-and-columns/)
 Dowiedz się, jak rozgrupować wiersze i kolumny w programie Excel za pomocą Aspose.Cells dla .NET dzięki temu kompleksowemu przewodnikowi. Uprość manipulację danymi w programie Excel.
+
 ### [Ukryj wiele wierszy i kolumn w Aspose.Cells .NET](./hide-multiple-rows-columns-aspose-cells/)
 Dowiedz się, jak łatwo ukryć wiele wierszy i kolumn w programie Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby płynnie manipulować programem Excel.
+
 ### [Ukryj wiersze i kolumny w Aspose.Cells .NET](./hide-rows-columns-aspose-cells/)
 Dowiedz się, jak ukryć wiersze i kolumny w plikach Excela za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku, jak zarządzać widocznością danych w aplikacjach C#.
+
 ### [Pokaż wiersze i kolumny w Aspose.Cells .NET](./unhide-rows-columns-aspose-cells/)
 Dowiedz się, jak odkryć wiersze i kolumny w programie Excel za pomocą Aspose.Cells .NET dzięki naszemu przewodnikowi krok po kroku. Idealne do manipulacji danymi.
 ### [Usuwanie kolumny w Aspose.Cells .NET](./delete-column-aspose-cells/)
 Dowiedz się, jak usunąć kolumnę w pliku Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem krok po kroku, aby usprawnić modyfikacje pliku Excel.
+
 ### [Usuwanie wiersza w Aspose.Cells .NET](./delete-row-aspose-cells/)
 Dowiedz się, jak usunąć wiersz w programie Excel za pomocą Aspose.Cells dla .NET. Ten przewodnik krok po kroku obejmuje wymagania wstępne, import kodu i szczegółowy opis płynnej manipulacji danymi.
 ### [Aspose Cells usuwanie wierszy – Ochrona wiersza nagłówka w Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
@@ -77,12 +89,14 @@ Naucz się usuwać wiele wierszy w programie Excel za pomocą Aspose.Cells dla .
 Dowiedz się, jak w C# załadować plik Excel oraz usuwać wybrane wiersze przy użyciu Aspose.Cells.
 ### [Wstawianie kolumny w Aspose.Cells .NET](./insert-column-aspose-cells/)
 Dowiedz się, jak wstawić kolumnę w programie Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym prostym przewodnikiem krok po kroku, aby bezproblemowo dodać nową kolumnę. Idealne dla programistów .NET.
+
 ### [Wstawianie wiersza w Aspose.Cells .NET](./insert-row-aspose-cells/)
 Dowiedz się, jak wstawić wiersz w programie Excel za pomocą Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Bez wysiłku popraw swoje umiejętności manipulowania danymi.
 ### [Wstawianie wierszy w Excelu przy użyciu C# – Przewodnik krok po kroku](./insert-rows-in-excel-with-c-step-by-step-guide/)
 Dowiedz się, jak wstawiać wiersze w plikach Excel przy użyciu C#, korzystając z prostych przykładów i szczegółowych instrukcji.
 ### [Wstaw wiersz z formatowaniem w Aspose.Cells .NET](./insert-row-formatting-aspose-cells/)
 Naucz się wstawiać wiersz z formatowaniem w programie Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby ułatwić implementację.
+
 ### [Wstawianie wielu wierszy w Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Naucz się wstawiać wiele wierszy w programie Excel za pomocą Aspose.Cells dla .NET. Skorzystaj z naszego szczegółowego samouczka, aby płynnie manipulować danymi.
 ### [Jak używać WRAPCOLS: Utwórz układ dwukolumnowy w C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
@@ -94,6 +108,12 @@ Poznaj, jak przy użyciu GridJs wstawić wiele wierszy jednocześnie, aby przysp
 Dowiedz się, jak efektywnie dodać wiele wierszy do siatki w GridJs, krok po kroku, z przykładami kodu.
 ### [Jak używać wrapcols w C# – Pełny przewodnik z Excel WRAPROWS i przeliczaniem formuł](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Dowiedz się, jak używać metody wrapcols w C#, wraz z funkcją WRAPROWS i przeliczaniem formuł w Excelu.
+### [Jak usunąć cały wiersz w pliku Excel przy użyciu C#](./how-to-delete-entire-row-in-an-excel-file-using-c/)
+Dowiedz się, jak usunąć kompletny wiersz z pliku Excel w C# przy pomocy Aspose.Cells, krok po kroku.
+### [Przesuwanie komórek w górę w Excelu przy użyciu C# – kompletny przewodnik](./shift-cells-up-in-excel-with-c-complete-guide/)
+Dowiedz się, jak programowo przesunąć komórki w górę w arkuszu Excel przy użyciu Aspose.Cells i języka C# w kilku prostych krokach.
+### [Jak usuwać wiersze w Excelu przy użyciu C# – zachowanie nagłówka tabeli](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
+Dowiedz się, jak usuwać wiersze w Excelu w C# zachowując nagłówek tabeli.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

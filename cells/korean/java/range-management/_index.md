@@ -51,7 +51,10 @@ Aspose.Cells for Java를 사용하여 HTML 표를 행과 열 자동 맞춤을 �
 Aspose.Cells for Java를 사용하여 Excel에서 열 복사를 자동화하는 방법을 알아보세요. 따라 하기 쉬운 가이드로 워크플로를 간소화하고 생산성을 높여 보세요.
 
 ### [Aspose.Cells Java를 사용하여 Excel에서 여러 열을 복사하는 방법: 완전한 가이드](./copy-multiple-columns-excel-aspose-cells-java/)
-Aspose.Cells for Java를 사용하여 Excel 워크시트 내 여러 열을 자동으로 복사하는 방법을 알아보세요. 이 가이드에서는 설정, 구현 및 문제 해결에 대해 다룹니다.
+Aspose.Cells for Java를 사용하여 Excel 워크시트 내 여러 열을 자동으로 복사하는 방법을 알아보세요. 이 가이드는 설정, 구현 및 문제 해결에 대해 다룹니다.
+
+### [Aspose.Cells를 사용하여 새 워크시트를 만들고 Excel 범위를 복사하는 방법](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+Aspose.Cells를 활용해 새 워크시트를 생성하고 기존 Excel 범위를 복사하는 단계별 가이드를 제공합니다.
 
 ### [프로그래밍 방식으로 워크시트 범위 복사 – 완전 Java 가이드](./programmatically-copy-worksheet-range-complete-java-guide/)
 Aspose.Cells for Java를 사용하여 워크시트 범위를 프로그래밍 방식으로 복사하는 방법을 단계별로 안내합니다.
@@ -88,6 +91,8 @@ Aspose.Cells for Java를 사용하여 Excel 파일에서 셀 병합을 효율적
 
 ### [Java를 사용하여 Excel 셀에 이름 지정 – 완전 가이드](./assign-name-to-cell-in-excel-using-java-complete-guide/)
 Java와 Aspose.Cells를 활용해 Excel 셀에 이름을 지정하고 관리하는 방법을 단계별로 안내합니다.
+### [Java에서 워크북 간 범위 복사 – 단계별 가이드](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+Java용 Aspose.Cells를 활용해 서로 다른 워크북 간에 셀 범위를 복사하는 방법을 단계별로 안내합니다.
 
 ### [Java Excel 처리에서 expand 함수 사용 방법](./how-to-use-expand-function-in-java-excel-processing/)
 Aspose.Cells for Java를 사용하여 Excel에서 expand 함수를 활용하는 방법을 단계별로 안내합니다.

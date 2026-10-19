@@ -70,6 +70,12 @@ Aspose.Cells สำหรับ .NET เป็นโปรแกรมที่�
 เรียนรู้วิธีฝังฟอนต์ในไฟล์ PDF จาก Excel ด้วย C# อย่างละเอียดเพื่อให้เอกสารแสดงผลตรงตามที่ต้องการ
 ### [วิธีส่งออก PDF จาก Excel – คู่มือครบถ้วนเพื่อบันทึกเวิร์กบุ๊กเป็น PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
 เรียนรู้ขั้นตอนการส่งออกไฟล์ Excel เป็น PDF อย่างละเอียดด้วย Aspose.Cells เพื่อบันทึกเวิร์กบุ๊กของคุณเป็น PDF
+### [บันทึก XLSX เป็น PDF ใน C# – คู่มือฉบับสมบูรณ์พร้อม PDF/A‑1b](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)
+เรียนรู้วิธีบันทึกไฟล์ XLSX เป็น PDF/A‑1b ด้วย C# อย่างละเอียดโดยใช้ Aspose.Cells
+### [แปลง Excel เป็น PDF ใน C# – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./convert-excel-to-pdf-in-c-complete-programming-guide/)
+เรียนรู้ขั้นตอนการแปลงไฟล์ Excel เป็น PDF ด้วย C# อย่างละเอียดด้วย Aspose.Cells
+### [วิธีบันทึก PDF ด้วยตัวเลือกการเปลี่ยนแปลงฟอนต์ – คู่มือฉบับสมบูรณ์](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
+เรียนรู้วิธีบันทึกไฟล์ PDF พร้อมการเลือกตัวแปรฟอนต์อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

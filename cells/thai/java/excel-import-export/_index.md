@@ -99,6 +99,55 @@
 
 ### [วิธีฝังฟอนต์ในการแปลง Excel เป็น SVG](./how-to-embed-fonts-in-excel-to-svg-conversion/)
 เรียนรู้วิธีฝังฟอนต์เมื่อแปลงไฟล์ Excel เป็น SVG ด้วย Aspose.Cells สำหรับ Java เพื่อให้ผลลัพธ์แสดงฟอนต์อย่างถูกต้อง
+### [ฝังฟอนต์ใน HTML – แปลง Excel เป็น HTML และบันทึกเวิร์กบุ๊ก](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
+เรียนรู้วิธีฝังฟอนต์ในไฟล์ HTML จาก Excel ด้วย Aspose.Cells สำหรับ Java พร้อมขั้นตอนการแปลงและบันทึกเวิร์กบุ๊ก
+### [สร้าง Excel จาก JSON – คู่มือเต็มขั้นตอน](./create-excel-from-json-full-step-by-step-guide/)
+เรียนรู้วิธีสร้างไฟล์ Excel จาก JSON ด้วย Aspose.Cells สำหรับ Java ผ่านคู่มือเต็มขั้นตอนที่เข้าใจง่าย
+### [สลับสีคอลัมน์ใน Excel – นำเข้า DataTable พร้อมการจัดรูปแบบ](./alternating-column-colors-in-excel-import-datatable-with-for/)
+เรียนรู้วิธีสลับสีคอลัมน์ใน Excel ขณะนำเข้า DataTable พร้อมการจัดรูปแบบด้วย Aspose.Cells สำหรับ Java
+### [วิธีส่งออก CSV จาก Excel Cells – คู่มือเต็มขั้นตอน](./how-to-export-csv-from-excel-cells-complete-guide/)
+เรียนรู้วิธีส่งออกข้อมูลเป็น CSV จากไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java ผ่านคู่มือเต็มขั้นตอนพร้อมโค้ดตัวอย่าง
+### [บันทึก Excel เป็น TSV – คู่มือเต็มขั้นตอนการส่งออกเวิร์กชีตเป็นข้อความ](./save-excel-as-tsv-complete-guide-to-exporting-worksheets-to/)
+เรียนรู้วิธีบันทึกไฟล์ Excel เป็น TSV ด้วย Aspose.Cells สำหรับ Java ผ่านคู่มือเต็มขั้นตอนพร้อมโค้ดตัวอย่าง
+### [วิธีฝังฟอนต์ใน SVG จาก Excel – คู่มือ Java ฉบับเต็ม](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
+เรียนรู้วิธีฝังฟอนต์ลงในไฟล์ SVG จาก Excel ด้วย Aspose.Cells สำหรับ Java ผ่านขั้นตอนเต็มรูปแบบ
+### [ส่งออก Excel เป็น HTML – คู่มือเต็มขั้นตอนพร้อมแช่แข็งแผ่น](./export-excel-to-html-complete-guide-with-frozen-panes/)
+เรียนรู้วิธีส่งออกไฟล์ Excel เป็น HTML พร้อมการตรึงแผ่นงานด้วย Aspose.Cells สำหรับ Java
+### [วิธีฝังฟอนต์เมื่อแปลง Excel เป็น HTML – คู่มือฉบับสมบูรณ์](./how-to-embed-fonts-when-converting-excel-to-html-complete-gu/)
+เรียนรู้วิธีฝังฟอนต์ในไฟล์ HTML ที่แปลงจาก Excel ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดและขั้นตอนครบถ้วน
+### [แปลง Excel เป็น PPTX: คู่มือ Java ฉบับสมบูรณ์](./convert-excel-to-pptx-complete-java-guide/)
+เรียนรู้วิธีแปลงไฟล์ Excel เป็นสไลด์ PPTX ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดและขั้นตอนละเอียด
+### [แปลง Excel เป็น PDF/A ด้วย Java – คู่มือขั้นตอนครบถ้วน](./convert-excel-to-pdf-a-with-java-complete-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ Excel เป็น PDF/A ด้วย Java อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนครบถ้วน
+### [ส่งออกแผนภูมิเป็นภาพ – คู่มือครบถ้วนในการแปลง Excel เป็น Word](./export-chart-as-image-complete-guide-to-convert-excel-to-wor/)
+เรียนรู้วิธีส่งออกแผนภูมิจาก Excel เป็นรูปภาพและแปลงเป็นไฟล์ Word ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดขั้นตอนครบถ้วน
+### [วิธีส่งออก Excel เป็น SVG – คู่มือ Java ทีละขั้นตอน](./how-to-export-excel-to-svg-step-by-step-java-guide/)
+เรียนรู้วิธีส่งออกไฟล์ Excel เป็น SVG ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน
+### [สร้างไฟล์ FlatOPC จากเวิร์กบุ๊ก Excel – คู่มือทีละขั้นตอน](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
+เรียนรู้วิธีสร้างไฟล์ FlatOPC จากเวิร์กบุ๊ก Excel ด้วย Aspose.Cells สำหรับ Java ผ่านขั้นตอนที่ชัดเจนและโค้ดตัวอย่าง
+### [แปลง Excel เป็น PDF – คู่มือ Java ฉบับสมบูรณ์กับ Aspose.Cells](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
+เรียนรู้วิธีการแปลงไฟล์ Excel เป็น PDF อย่างละเอียดด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดและขั้นตอนครบถ้วน
+### [ส่งออก JSON ไปยัง Excel ด้วย Java – คู่มือขั้นตอนเต็ม](./export-json-to-excel-with-java-complete-step-by-step-guide/)
+เรียนรู้วิธีส่งออกข้อมูล JSON ไปยังไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java ด้วยคำแนะนำทีละขั้นตอนและโค้ดต้นฉบับที่ชัดเจน
+### [แปลงไฟล์ xlsx เป็น PowerPoint ด้วย Java – คู่มือฉบับสมบูรณ์](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
+เรียนรู้วิธีแปลงไฟล์ Excel (xlsx) ไปเป็น PowerPoint ด้วย Aspose.Slides สำหรับ Java พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน
+### [สร้างไฟล์ Excel จาก JSON และแปลง JSON เป็นเซลล์ Excel ด้วย Aspose.Cells](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+เรียนรู้วิธีสร้างไฟล์ Excel จากข้อมูล JSON และแปลงค่า JSON เป็นเซลล์ Excel ด้วย Aspose.Cells
+### [นำอ็อบเจกต์แบบกำหนดเองเข้าสู่ Excel ด้วย Aspose.Cells – คู่มือ Java](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+เรียนรู้วิธีนำอ็อบเจกต์แบบกำหนดเองเข้าสู่ไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java ผ่านตัวอย่างโค้ดที่เข้าใจง่าย
+### [ส่งออก Excel เป็น HTML ใน Java – คู่มือขั้นตอนเต็ม](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+เรียนรู้วิธีส่งออกไฟล์ Excel เป็น HTML ใน Java อย่างละเอียดด้วยขั้นตอนและโค้ดตัวอย่างจาก Aspose.Cells
+### [วิธีตั้งค่าตัวคั่นและบันทึกเป็น CSV ด้วย Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+### [ฝังฟอนต์ใน SVG ขณะส่งออก Excel เป็น SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+เรียนรู้วิธีฝังฟอนต์ในไฟล์ SVG เมื่อส่งออก Excel เป็น SVG ด้วย Aspose.Cells สำหรับ Java
+### [วิธีนำรายการไปยัง Excel และจัดรูปแบบคอลัมน์ใน Java](./how-to-import-list-to-excel-and-style-columns-in-java/)
+เรียนรู้วิธีนำรายการข้อมูลไปยังไฟล์ Excel และกำหนดรูปแบบคอลัมน์ด้วย Aspose.Cells สำหรับ Java
+### [วิธีส่งออก Excel เป็น TXT ด้วยจำนวนหลักสำคัญที่จำกัดโดยใช้ Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+เรียนรู้วิธีส่งออกไฟล์ Excel เป็น TXT โดยจำกัดจำนวนหลักสำคัญด้วย Aspose.Cells สำหรับ Java
+### [วิธีส่งออก Excel ไปยัง PowerPoint ด้วย Aspose.Cells – คู่มือแบบทีละขั้นตอน](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ไปยัง PowerPoint อย่างง่ายดายด้วย Aspose.Cells ผ่านขั้นตอนที่ชัดเจน
+### [ส่งออก JSON ไปยัง Excel ด้วย Aspose.Cells ใน Java](./export-json-to-excel-with-aspose-cells-in-java/)
+เรียนรู้วิธีแปลงไฟล์ JSON เป็น Excel ด้วย Aspose.Cells สำหรับ Java ด้วยขั้นตอนและโค้ดตัวอย่างที่ชัดเจน
 
 ### [แปลง Markdown เป็นสเปรดชีตใน Java – คู่มือขั้นตอนโดยขั้นตอน](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
 เรียนรู้วิธีแปลงไฟล์ Markdown เป็นสเปรดชีตโดยใช้ Aspose.Cells สำหรับ Java ด้วยคำแนะนำทีละขั้นตอนและโค้ดตัวอย่าง

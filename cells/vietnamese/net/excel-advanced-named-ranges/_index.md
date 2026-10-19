@@ -40,6 +40,8 @@ Tìm hiểu cách hợp nhất các ô trong một phạm vi được đặt tê
 Hướng dẫn chi tiết cách tạo workbook Excel, thêm bảng và áp dụng quy tắc đặt tên bằng Aspose.Cells cho .NET.
 ### [Lưu Workbook Excel và Thêm Phạm vi Được Đặt Tên – Hướng Dẫn C# Đầy Đủ](./save-excel-workbook-and-add-named-range-full-c-guide/)
 Hướng dẫn chi tiết cách lưu workbook Excel và thêm phạm vi được đặt tên bằng C# với Aspose.Cells cho .NET.
+### [Tạo workbook Excel trong C# – Thêm phạm vi được đặt tên & Đặt tên bảng](./create-excel-workbook-in-c-add-named-range-set-table-name/)
+Hướng dẫn tạo workbook Excel bằng C#, thêm phạm vi được đặt tên và đặt tên cho bảng trong Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -242,6 +242,11 @@ Naučte se, jak aplikovat styly při převodu DataTable do Excelu pomocí Aspose
 
 ### [Aspose Cells formát data: Jak nastavit vlastní formát data v Javě](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
 Naučte se, jak nastavit vlastní formát data v Excelu pomocí Aspose.Cells pro Javu.
+### [Nastavení tučného písma v exportu Excelu v Javě – Kompletní průvodce](./set-font-bold-in-java-excel-export-complete-guide/)
+Naučte se, jak nastavit tučné písmo při exportu souborů Excel v Javě pomocí Aspose.Cells.
+
+### [Nastavení vlastního formátu čísel v Excelu pomocí Javy – Kompletní průvodce](./set-custom-number-format-in-excel-with-java-complete-guide/)
+Naučte se, jak nastavit vlastní číselné formáty v Excelu pomocí Aspose.Cells pro Javu.
 
 ### [Jak omezit významné číslice v Excelu pomocí Javy](./how-to-limit-significant-digits-excel-using-java/)
 

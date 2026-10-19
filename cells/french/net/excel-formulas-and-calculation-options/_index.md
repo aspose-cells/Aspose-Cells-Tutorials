@@ -88,12 +88,21 @@ Apprenez à créer un fichier Excel en C# avec une logique conditionnelle grâce
 Apprenez à calculer la fonction cotangente dans Excel en utilisant C# avec Aspose.Cells, grâce à ce guide détaillé étape par étape.
 ### [Comment utiliser WRAPCOLS en C# – Remodeler les tableaux en matrices](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
 Apprenez à utiliser la fonction WRAPCOLS en C# pour convertir des tableaux en matrices avec Aspose.Cells pour .NET.
+### [Comment créer un classeur Excel et diviser les données avec WRAPCOLS en C#](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
+Apprenez à créer un classeur Excel et à répartir les données en utilisant WRAPCOLS avec Aspose.Cells pour .NET.
 ### [Comment créer un tableau dans Excel avec C# – Guide étape par étape](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 Apprenez à créer et manipuler des tableaux dans Excel en utilisant C# avec Aspose.Cells, grâce à ce guide détaillé étape par étape.
 ### [Comment calculer la cotangente dans Excel avec C# – Guide complet](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 Apprenez à calculer la fonction cotangente dans Excel en utilisant C# avec Aspose.Cells pour .NET grâce à ce guide complet étape par étape.
 ### [Comment utiliser WRAPCOLS dans Excel – Exemple complet en C#](./how-to-use-wrapcols-in-excel-complete-c-example/)
 Apprenez à appliquer la fonction WRAPCOLS dans Excel avec un exemple complet en C# utilisant Aspose.Cells pour .NET.
+### [Comment utiliser WRAPCOLS – Guide complet pour l'automatisation Excel en C#](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Apprenez à utiliser la fonction WRAPCOLS avec Aspose.Cells pour .NET afin d'automatiser la mise en forme des données Excel en C#.
+### [Comment forcer le calcul des formules et utiliser lambda dans Excel avec C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+### [Créer un classeur Excel avec des formules – Guide complet étape par étape](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+Découvrez comment créer un classeur Excel contenant des formules à l'aide d'Aspose.Cells pour .NET, avec un guide complet étape par étape.
+### [Comment créer un classeur Excel en C# avec la fonction EXPAND](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+Apprenez à créer un classeur Excel en C# en utilisant la fonction EXPAND avec Aspose.Cells, guide étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

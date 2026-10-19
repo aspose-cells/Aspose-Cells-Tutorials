@@ -46,6 +46,8 @@ Sejamos realistas, nem todos os dados permanecem relevantes ao longo do tempo. A
 Descubra um guia passo a passo para copiar colunas no Excel usando o Aspose.Cells para .NET. Simplifique suas tarefas com dados com instruções claras.
 ### [Copiar linhas usando Aspose.Cells para .NET](./copying-rows/)
 Aprenda a copiar linhas com eficiência em arquivos do Excel usando o Aspose.Cells para .NET. Este guia passo a passo simplifica a cópia de linhas para suas necessidades de gerenciamento de dados.
+### [Copiar linhas de uma planilha para outra – Guia completo em C#](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+Aprenda a copiar linhas entre planilhas no Excel usando Aspose.Cells para .NET com um guia passo a passo em C#.
 ### [Agrupar linhas e colunas no Excel com Aspose.Cells](./grouping-rows-and-columns/)
 Aprenda como agrupar linhas e colunas no Excel usando o Aspose.Cells para .NET com este guia passo a passo.
 ### [Crie uma linha de resumo abaixo com Aspose.Cells para .NET](./summary-row-below/)
@@ -64,6 +66,8 @@ Aprenda a exibir linhas e colunas no Excel usando o Aspose.Cells para .NET com n
 Aprenda a excluir uma coluna em um arquivo do Excel usando o Aspose.Cells para .NET. Siga nosso guia passo a passo detalhado para otimizar suas modificações em arquivos do Excel.
 ### [Excluir uma linha no Aspose.Cells .NET](./delete-row-aspose-cells/)
 Aprenda a excluir uma linha no Excel com o Aspose.Cells para .NET. Este guia passo a passo aborda os pré-requisitos, a importação de código e um passo a passo detalhado para uma manipulação de dados simplificada.
+### [Como excluir uma linha inteira em um arquivo Excel usando C#](./how-to-delete-entire-row-in-an-excel-file-using-c/)
+Aprenda a excluir completamente uma linha em um arquivo Excel usando C# com Aspose.Cells, passo a passo.
 ### [Aspose Cells Excluir Linhas – Proteger Linha de Cabeçalho no Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 Aprenda a excluir linhas mantendo a primeira linha intacta como cabeçalho usando Aspose.Cells para .NET.
 ### [Excluir várias linhas em Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
@@ -100,6 +104,10 @@ Aprenda a usar o método WRAPCOLS para gerar um layout de duas colunas em planil
 Aprenda a inserir múltiplas linhas rapidamente no GridJs com este guia passo a passo, facilitando a manipulação de dados em suas tabelas.
 ### [Como usar WrapCols em C# – Guia completo com Excel WrapRows e Recalcular Fórmulas](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Aprenda passo a passo como aplicar WrapCols e WrapRows no Aspose.Cells para .NET, ajustando colunas e recalculando fórmulas automaticamente.
+### [Deslocar células para cima no Excel com C# – Guia completo](./shift-cells-up-in-excel-with-c-complete-guide/)
+Aprenda a deslocar células para cima no Excel usando C# com o Aspose.Cells, passo a passo, para simplificar suas planilhas.
+### [Como excluir linhas no Excel com C# – proteger cabeçalho da tabela](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
+Aprenda a excluir linhas mantendo o cabeçalho da tabela protegido usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -49,6 +49,12 @@
 
 ### [创建新工作簿并将 Excel 导出为 TXT（精确）](./create-new-workbook-and-export-excel-to-txt-with-precision/)
 通过本分步教程学习如何使用 Aspose.Cells for .NET 创建新工作簿并将 Excel 精确导出为 TXT，适合所有开发人员。
+### [如何将单元格范围导出为表格 – 完整 C# 指南](./how-to-export-cell-range-as-table-complete-c-guide/)
+通过本完整 C# 指南学习如何使用 Aspose.Cells for .NET 将单元格范围导出为表格，适合各层次开发者。
+### [在 C# 中从 DataTable 创建 Excel 工作表 – 步骤指南](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+通过本分步教程学习如何使用 Aspose.Cells for .NET 在 C# 中将 DataTable 导出为 Excel 工作表，适合所有开发者。
+### [如何导出 Excel 表格 – 完整分步指南](./how-to-export-excel-table-complete-step-by-step-guide/)
+通过本完整分步指南学习如何使用 Aspose.Cells for .NET 导出 Excel 表格，适用于各类开发者。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

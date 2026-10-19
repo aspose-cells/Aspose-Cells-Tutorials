@@ -60,6 +60,8 @@ Ismerje meg, hogyan szabhatja testre a betűtípusokat Excel-dokumentumokban az 
 Ismerje meg, hogyan kezelheti az egyéni számformátumokat Java munkafüzetekben az Aspose.Cells használatával. Ez az útmutató a munkafüzet konfigurálását, a kivételkezelést és a valós alkalmazásokat ismerteti.
 
 ### [Számformátum beállítása Excelben Java-val – Teljes útmutató](./set-number-format-excel-in-java-complete-guide/)
+### [Egyéni számformátum beállítása Excelben Java-val – Teljes útmutató](./set-custom-number-format-in-excel-with-java-complete-guide/)
+Ismerd meg, hogyan állíthatsz be egyéni számformátumokat Excel-fájlokban Java segítségével, részletes kódpéldákkal és tippekkel.
 
 ### [Adatmegjelenítés elsajátítása Excelben: Szám- és dátumformázás az Aspose.Cells for Java segítségével](./aspose-cells-java-data-formatting-excel/)
 Ismerje meg, hogyan alkalmazhat számformátumokat és egyéni dátumstílusokat az Aspose.Cells for Java használatával, javítva az adatok megjelenítését az Excel-táblázatokban.
@@ -243,6 +245,8 @@ Ismerje meg, hogyan alkalmazhat stílusokat a DataTable Excel-be konvertálásak
 
 ### [Aspose.Cells dátumformátum: Egyéni dátumformátum beállítása Java-ban](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
 Tanuld meg, hogyan állíthatsz be egyedi dátumformátumot Excel-fájlokban az Aspose.Cells for Java használatával.
+### [Betűtípus félkövér beállítása Java Excel exportálásban – Teljes útmutató](./set-font-bold-in-java-excel-export-complete-guide/)
+Ismerd meg, hogyan állíthatod be a betűtípust félkövérre Excel-exportáláskor Java-ban, részletes kódpéldákkal és tippekkel.
 
 ### [Hogyan korlátozzuk a jelentős számjegyeket Excelben Java használatával](./how-to-limit-significant-digits-excel-using-java/)
 Ismerje meg, hogyan korlátozhatja a számjegyek számát Excel-fájlokban Java-val az Aspose.Cells segítségével.

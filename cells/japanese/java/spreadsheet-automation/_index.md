@@ -49,6 +49,9 @@ Aspose.Cells for Java のソースコード例を使って、データ抽出を�
 ### [Excel ワークブックの自動化](./excel-workbook-automation/)
 Aspose.Cellsを使ってJavaでExcelワークブックの自動化を学習：Excelファイルをプログラムで作成、読み取り、更新。今すぐ始めましょう！
 
+### [新しいワークブックの作成 – カスタムプロパティを追加して XLSB で保存](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+Aspose.Cells for Java を使用して新しい Excel ワークブックを作成し、カスタム プロパティを追加して XLSB 形式で保存する方法を学びます。
+
 ### [Excelグラフの自動化](./automating-excel-charts/)
 Aspose.Cells for Java を使って Excel のグラフ作成とカスタマイズを自動化する方法を、ソースコード例とともに解説します。グラフ作成作業を効率化します。 
 
@@ -71,6 +74,9 @@ Aspose.Cells for Java を使用して、Excel の AutoFilter を無効にする�
 Aspose.Cells for Java を使用して、縦方向の配列を持つ Excel シートを作成する方法をステップバイステップで解説します。
 ### [JavaでExpandを使用する方法 – 完全Excelガイド](./how-to-use-expand-in-java-complete-excel-guide/)
 Aspose.Cells for Java を使用して、Expand 機能の使い方と Excel での活用方法をステップバイステップで解説します。
+
+### [JavaでExcelのオートフィルタをクリアする方法 – 完全ガイド](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Aspose.Cells for Java を使用し、Excel のオートフィルタを解除する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

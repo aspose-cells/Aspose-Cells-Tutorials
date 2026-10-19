@@ -40,6 +40,12 @@ Learn how to convert Excel worksheets to images in .NET using Aspose.Cells with 
 Learn how to save a pivot table as an image in .NET using Aspose.Cells with this step-by-step guide.
 ### [Export Excel Range as Image – Complete C# Guide](./export-excel-range-as-image-complete-c-guide/)
 Learn how to export a specific Excel range as an image in C# using Aspose.Cells with a comprehensive step-by-step guide.
+### [How to Save Excel Sheet as Image – Complete C# Guide](./how-to-save-excel-sheet-as-image-complete-c-guide/)
+Learn how to save an Excel sheet as an image in C# using Aspose.Cells with a comprehensive step-by-step guide.
+### [How to export Excel to PNG – full step‑by‑step guide](./how-to-export-excel-to-png-full-step-by-step-guide/)
+Learn how to export Excel worksheets to PNG images in .NET using Aspose.Cells with a detailed step‑by‑step guide.
+### [How to export excel range as image with C# and Aspose.Cells](./how-to-export-excel-range-as-image-with-c-and-aspose-cells/)
+Learn how to export an Excel range as an image in C# using Aspose.Cells with a step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

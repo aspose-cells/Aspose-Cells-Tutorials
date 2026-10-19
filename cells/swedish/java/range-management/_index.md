@@ -88,6 +88,10 @@ Lär dig hur du effektivt avsammanfogar celler i Excel-filer med Aspose.Cells f�
 
 ### [Tilldela namn till cell i Excel med Java – Komplett guide](./assign-name-to-cell-in-excel-using-java-complete-guide/)
 Lär dig hur du tilldelar ett namn till en cell i Excel med Aspose.Cells för Java, med kodexempel och steg-för-steg-instruktioner.
+### [Kopiera område mellan arbetsböcker i Java – steg‑för‑steg‑guide](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+Lär dig hur du kopierar ett cellområde från en arbetsbok till en annan med Aspose.Cells för Java.
+### [Skapa nytt kalkylblad och kopiera Excel-område med Aspose.Cells Java](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+Lär dig hur du skapar ett nytt kalkylblad och kopierar ett cellområde i Excel med Aspose.Cells för Java.
 
 ### [Hur man använder expand‑funktionen i Java Excel‑bearbetning](./how-to-use-expand-function-in-java-excel-processing/)
 Lär dig hur du använder expand‑funktionen för att bearbeta Excel-filer i Java med Aspose.Cells.

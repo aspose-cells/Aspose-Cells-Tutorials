@@ -65,6 +65,12 @@ Dowiedz się, jak osadzić czcionki w plikach PDF generowanych z Excela, aby zac
 Dowiedz się, jak osadzić czcionki w plikach PDF przy eksporcie z Excela w C#, aby zachować wygląd dokumentu.
 ### [Jak wyeksportować PDF z Excela – Kompletny przewodnik zapisu skoroszytu jako PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
 Dowiedz się, jak zapisać skoroszyt Excela jako plik PDF przy użyciu Aspose.Cells w kilku prostych krokach.
+### [Zapisz plik XLSX jako PDF w C# – Kompletny przewodnik z PDF/A‑1b](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)
+Dowiedz się, jak zapisać plik XLSX jako PDF w C# z zachowaniem standardu PDF/A‑1b, korzystając z Aspose.Cells.
+### [Konwertuj Excel do PDF w C# – kompletny przewodnik programistyczny](./convert-excel-to-pdf-in-c-complete-programming-guide/)
+Pełny przewodnik po konwersji plików Excel do PDF w C# przy użyciu Aspose.Cells.
+### [Jak zapisać PDF z selektorami wariantów czcionek – kompletny przewodnik](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
+Dowiedz się, jak prawidłowo zapisywać pliki PDF z użyciem selektorów wariantów czcionek, aby zachować ich wygląd i kompatybilność.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

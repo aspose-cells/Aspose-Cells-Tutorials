@@ -25,7 +25,10 @@
 
 ## एक्सेल डेटा निर्यात और पुनर्प्राप्ति ट्यूटोरियल
 ### [एक्सेल में कक्षों से डेटा पुनर्प्राप्त करें](./retrieve-data-from-cells-in-excel/)
-इस चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.Cells का उपयोग करके Excel कक्षों से डेटा पुनर्प्राप्त करना सीखें, जो शुरुआती और अनुभवी डेवलपर्स दोनों के लिए उपयुक्त है।
+इस चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspense.Cells का उपयोग करके Excel कक्षों से डेटा पुनर्प्राप्त करना सीखें, जो शुरुआती और अनुभवी डेवलपर्स दोनों के लिए उपयुक्त है।
+
+### [C# में DataTable से Excel शीट बनाएं – चरण-दर-चरण गाइड](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+.NET के लिए Aspose.Cells का उपयोग करके C# में DataTable से Excel शीट बनाने की प्रक्रिया सीखें।
 
 ### [C# में एक्सेल डेटा टेबल निर्यात – पूर्ण गाइड](./export-excel-data-table-in-c-complete-guide/)
 इस व्यापक गाइड में .NET के लिए Aspose.Cells का उपयोग करके C# में Excel डेटा टेबल निर्यात करना सीखें।
@@ -48,6 +51,11 @@
 
 ### [नया वर्कबुक बनाएं और सटीकता के साथ Excel को TXT में निर्यात करें](./create-new-workbook-and-export-excel-to-txt-with-precision/)
 इस ट्यूटोरियल में आप नया वर्कबुक बनाकर Excel डेटा को सटीकता से TXT फ़ाइल में निर्यात करना सीखेंगे।
+### [सेल रेंज को टेबल के रूप में निर्यात करें – पूर्ण C# गाइड](./how-to-export-cell-range-as-table-complete-c-guide/)
+Aspose.Cells का उपयोग करके सेल रेंज को टेबल के रूप में निर्यात करने की पूरी C# गाइड, चरण-दर-चरण निर्देश।
+
+### [Excel तालिका निर्यात कैसे करें – पूर्ण चरण‑दर‑चरण गाइड](./how-to-export-excel-table-complete-step-by-step-guide/)
+इस विस्तृत गाइड में Aspose.Cells का उपयोग करके .NET में Excel तालिका को निर्यात करने के सभी चरण सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

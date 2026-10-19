@@ -46,6 +46,8 @@
 使用 Aspose.Cells for .NET，逐步学习在网格列中设置货币格式的技巧。
 ### [在 Excel 中应用数字格式 – 列格式化的逐步指南](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
 使用 Aspose.Cells for .NET，逐步学习如何在 Excel 中为列应用数字格式，实现精准的数据展示。
+### [在 C# 中四舍五入 Excel 数字 – 完整编程指南](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+使用 Aspose.Cells for .NET 在 C# 中实现 Excel 数值的四舍五入，提供完整的编程示例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

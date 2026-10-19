@@ -61,6 +61,8 @@ Pelajari cara menangani format angka kustom dalam buku kerja Java menggunakan As
 
 ### [Mengatur Format Angka Excel di Java – Panduan Lengkap](./set-number-format-excel-in-java-complete-guide/)
 Pelajari cara mengatur format angka di file Excel menggunakan Aspose.Cells untuk Java dengan contoh kode lengkap.
+### [Mengatur Format Angka Kustom di Excel dengan Java – Panduan Lengkap](./set-custom-number-format-in-excel-with-java-complete-guide/)
+Pelajari cara mengatur format angka kustom di Excel menggunakan Aspose.Cells untuk Java dengan contoh kode lengkap.
 
 ### [Menguasai Presentasi Data di Excel: Format Angka dan Tanggal Kustom dengan Aspose.Cells untuk Java](./aspose-cells-java-data-formatting-excel/)
 Pelajari cara menerapkan format angka dan gaya tanggal khusus menggunakan Aspose.Cells untuk Java, menyempurnakan penyajian data dalam lembar kerja Excel.
@@ -160,6 +162,9 @@ Pelajari cara menyederhanakan penataan dan manipulasi data buku kerja Excel Anda
 
 ### [Mengatur Warna Tab Lembar Kerja Excel Menggunakan Aspose.Cells untuk Java: Panduan Lengkap](./excel-worksheet-tab-color-aspose-cells-java/)
 Pelajari cara menyesuaikan warna tab lembar kerja di Excel dengan Aspose.Cells untuk Java. Panduan ini mencakup pengaturan, pengodean, dan aplikasi praktis.
+
+### [Mengatur Font Tebal dalam Ekspor Excel Java – Panduan Lengkap](./set-font-bold-in-java-excel-export-complete-guide/)
+Pelajari cara mengatur teks menjadi tebal saat mengekspor file Excel menggunakan Aspose.Cells untuk Java.
 
 ### [Menguasai Pemformatan Komentar Excel Menggunakan Aspose.Cells untuk Java](./format-excel-comments-aspose-cells-java/)
 Pelajari cara memformat komentar Excel dengan mudah menggunakan Aspose.Cells untuk Java. Sempurnakan lembar kerja Anda dengan menambahkan dan menata komentar secara terprogram.

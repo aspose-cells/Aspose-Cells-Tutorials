@@ -60,6 +60,16 @@ weight: 22
 
 ### [Βελτιστοποίηση Υπολογισμών Excel με Aspose.Cells Java&#58; Κατάκτηση Αλυσίδων Υπολογισμού για Αποτελεσματική Επεξεργασία Βιβλιοθηκών](./optimize-excel-aspose-cells-java-calculation-chains/)
 Μάθετε πώς να ενισχύσετε την απόδοση του Excel με το Aspose.Cells for Java υλοποιώντας αλυσίδες υπολογισμού, υπολογίζοντας αποδοτικά τύπους και ενημερώνοντας τιμές κελιών.
+### [Άνοιγμα αρχείου XLSX σε Java – Πλήρης Οδηγός για Φόρτωση Βιβλίου Εργασίας & Επανάληψη Υπολογισμού Τύπων](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
+Μάθετε πώς να ανοίξετε αρχεία XLSX, να φορτώσετε το Workbook και να επανυπολογίσετε τύπους χρησιμοποιώντας το Aspose.Cells για Java.
+### [Δυναμικοί Πίνακες Τύπων σε Java: Δημιουργία Βιβλίου Εργασίας Excel και Υπολογισμός Όλων των Τύπων](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel σε Java και να υπολογίσετε αυτόματα όλους τους δυναμικούς τύπους πίνακα.
+
+### [Πώς να ανανεώσετε βιβλία εργασίας Excel σε Java χρησιμοποιώντας Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
+Μάθετε πώς να ανανεώνετε τα βιβλία εργασίας Excel προγραμματιστικά με Aspose.Cells for Java
+
+### [Πώς να εξαναγκάσετε τον υπολογισμό τύπων σε Java με Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+Μάθετε πώς να αναγκάσετε τον υπολογισμό τύπων σε βιβλία εργασίας Excel με Aspose.Cells for Java.
 
 ### [Επανυπολογισμός όλων των τύπων Excel με Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
 Μάθετε πώς να επανυπολογίσετε όλους τους τύπους σε ένα βιβλίο εργασίας Excel χρησιμοποιώντας Aspose.Cells for Java.

@@ -52,13 +52,8 @@ Aspose.Cells for .NET を利用し、Markdown ファイルを Excel に変換す
 Aspose.Cells for .NET を使用して、HTML にフォントを埋め込み、正確な表示を保証する方法をステップバイステップで解説します。
 ### [docx を SVG に変換 – Word を SVG として保存する完全ガイド](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
 Aspose.Words for .NET を使用して、Word 文書（docx）を高品質な SVG 形式に変換する方法をステップバイステップで解説します。
-
-
-
-
-
-
-
+### [JSON を Excel に変換 – C# で単一のカンマ区切りセルを使用](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Aspose.Cells を使用して、JSON データを単一のカンマ区切りセルから Excel に変換する方法をステップバイステップで解説します。
 
 ### [Excel シートを PNG に変換 – C# でピボットテーブルを PNG としてエクスポート](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 Aspose.Cells for .NET を使用して、C# でピボットテーブルを PNG 画像としてエクスポートする方法をステップバイステップで解説します。
@@ -77,6 +72,8 @@ Aspose.Cells を使用して、Excel に特殊文字を簡単に挿入する手�
 Aspose.Cells for .NET を使用して、Excel のピボットテーブルから PNG 画像を抽出し保存する方法をステップバイステップで解説します。
 ### [HTML にフォントを埋め込む – フルフォントサポートで DOCX を HTML に変換する完全ガイド](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
 Aspose.Cells for .NET を使用して、DOCX を HTML に変換し、フォントを埋め込む方法をステップバイステップで解説します。
+### [DOCX から HTML へフォントを埋め込む方法 – 完全ガイド](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Aspose.Words を使用して DOCX ファイルから HTML にフォントを埋め込み、正確な表示を実現する完全ガイドです。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

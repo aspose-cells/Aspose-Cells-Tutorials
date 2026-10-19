@@ -40,6 +40,8 @@ Aspose.Cells for .NET を使用して、C# で Excel ワークブックを CSV �
 Aspose.Cells for .NET を使用して、XLSX ファイルを CSV にエクスポートする手順を詳しく解説します。
 ### [新しいワークブックを作成しCSVにエクスポート – ステップバイステップ C# ガイド](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 Aspose.Cells for .NET を使用して新しいワークブックを作成し、CSV 形式でエクスポートする手順を詳しく解説します。
+### [Aspose.Cells を使用して C# で Excel から CSV を作成する方法](./how-to-create-csv-from-excel-using-aspose-cells-in-c/)
+Aspose.Cells for .NET を利用し、C# で Excel ワークブックを CSV にエクスポートする手順を解説します。
 
 
 
@@ -62,6 +64,13 @@ Aspose.Cells for .NET を使用して、Excel ワークブックを CSV 形式�
 
 ### [C# でテーブルを CSV にエクスポート – 完全プログラミングガイド](./export-table-to-csv-in-c-complete-programming-guide/)
 Aspose.Cells for .NET を使用して、テーブルデータを CSV 形式にエクスポートする手順を詳細に解説します。
+### [C# で Excel から CSV をエクスポートする方法 – 完全ガイド](./how-to-export-csv-from-excel-with-c-complete-guide/)
+Aspose.Cells for .NET を使用して、C# で Excel から CSV へデータをエクスポートする手順を詳しく解説します。
+### [ワークブックをCSVとして保存 – 桁数制御付きでExcelをCSVにエクスポートする完全ガイド](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-w/)
+Aspose.Cells for .NET を使用して、ワークブックをCSV形式で保存し、数値の桁数を制御しながらExcelデータを正確にエクスポートする方法を解説します。
+### [Aspose.Cells を使用して正確な書式設定でブックを CSV として保存する方法](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
+### [C# でブックを CSV として保存する – 完全プログラミングガイド](./save-workbook-as-csv-in-c-complete-programming-guide/)
+Aspose.Cells for .NET を使用して、ワークブックを CSV 形式で保存する方法をステップバイステップで学びましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,8 +50,12 @@
 ## تقييم IsBlank باستخدام العلامات الذكية
 قد تكون إدارة القيم الفارغة في مجموعات البيانات أمرًا مُرهقًا، لكن Aspose.Cells يُبسّط هذه العملية بفضل قدرته على تقييم القيم الفارغة باستخدام العلامات الذكية. تُتيح لك هذه الميزة التحقق بسهولة من الخلايا الفارغة وتعديل منطق إعداد التقارير وفقًا لذلك. بفضل هذه الميزة، تستطيع تقاريرك معالجة الحالات التي قد تكون فيها البيانات مفقودة تلقائيًا، مما يضمن حصول جمهورك على معلومات واضحة ودقيقة. اكتشف كيفية تطبيق هذه الميزة بفعالية في تقاريرك. [اقرأ المزيد](./evaluate-isblank-smart-markers/)
 
+### [كيفية تقييم الصيغة باستخدام العلامات الذكية – دليل شامل](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
+تعلم خطوة بخطوة كيفية تقييم الصيغ في Excel باستخدام العلامات الذكية في Aspose.Cells لإنشاء تقارير دقيقة وديناميكية.
+
 ## تنفيذ مصفوفة متغيرة باستخدام العلامات الذكية
 هل تتعامل كثيرًا مع كميات متفاوتة من البيانات؟ تتيح لك ميزة المصفوفات المتغيرة في Smart Markers إدارة قوائم البيانات بمرونة. هذا يعني أنه يمكنك إنشاء تقارير تتكيف مع أحجام مختلفة من مجموعات البيانات دون الحاجة إلى إعادة تصميم قوالبك في كل مرة. بتعلم كيفية استخدام المصفوفات المتغيرة، يمكنك تبسيط عمليات إعداد التقارير وتحسين عرض البيانات. يوضح هذا البرنامج التعليمي الخطوات لمساعدتك على البدء باستخدام المصفوفات المتغيرة في تقاريرك. [اقرأ المزيد](./variable-array-smart-markers/)
+
 
 ## استخدام القائمة العامة في العلامات الذكية
 تتيح مرونة القوائم العامة للمطورين التعامل مع البيانات بطريقة منظمة دون التأثير على الأداء. في هذا البرنامج التعليمي، ستتعلم كيفية الاستفادة من القوائم العامة مع العلامات الذكية لإنشاء تقارير Excel قوية وديناميكية. يضمن هذا النهج سهولة التعامل مع مجموعات البيانات مع الحفاظ على سلامة النوع والأداء القوي في تطبيقاتك. تابع معنا لمعرفة كيف يمكن لهذا أن يُفيد في إنشاء تقاريرك. [اقرأ المزيد](./generic-list-smart-markers/)
@@ -90,10 +94,12 @@
 قم بإلغاء قفل قوة Aspose.Cells باستخدام هذا البرنامج التعليمي خطوة بخطوة حول استخدام خاصية HTML في العلامات الذكية لتطبيقات .NET.
 ### [التعامل مع الكائنات المتداخلة باستخدام العلامات الذكية Aspose.Cells](./nested-objects-smart-markers/)
 قم بإطلاق العنان لإمكانيات إعداد التقارير في Excel باستخدام Aspose.Cells من خلال التعامل مع الكائنات المتداخلة بسهولة باستخدام Smart Markers في دليل خطوة بخطوة.
+### [نطاق العلامة الذكية لمعالجة البيانات المتداخلة في C# – دليل كامل](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
+تعلم كيفية استخدام نطاق العلامة الذكية لمعالجة هياكل البيانات المتداخلة في C# خطوة بخطوة.
 ### [تنفيذ مصفوفة متغيرة باستخدام العلامات الذكية Aspose.Cells](./variable-array-smart-markers/)
 استغل قوة Aspose.Cells. تعلّم كيفية تنفيذ مصفوفات المتغيرات باستخدام Smart Markers خطوة بخطوة لإنشاء تقارير Excel بسلاسة.
 ### [كيفية إنشاء تقرير Excel في C# – دليل كامل باستخدام SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
-تعلم خطوة بخطوة كيفية إنشاء تقارير Excel باستخدام C# وSmartMarker في Aspose.Cells.
+تعلم خطوة بخطوة كيفية إنشاء تقارير Excel باستخدام C# وSmart Marker في Aspose.Cells.
 ### [إنشاء أوراق عمل ديناميكية باستخدام العلامات الذكية في Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 ### [كيفية كتابة القالب باستخدام العلامات الذكية – دليل خطوة بخطوة](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 تعلم كيفية إنشاء قالب Excel باستخدام العلامات الذكية خطوة بخطوة باستخدام Aspose.Cells لـ .NET.
@@ -110,6 +116,9 @@
 تعلم خطوة بخطوة كيفية تصدير البيانات إلى ملفات Excel باستخدام العلامة الذكية في C#.
 ### [ملء قالب Excel – تعبئة بيانات Excel باستخدام SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
 تعلم كيفية ملء قالب Excel بالبيانات عبر SmartMarker لإنشاء تقارير ديناميكية بسهولة.
+### [كيفية إنشاء بيانات العلامة الذكية وتعبئة بيانات قالب Excel](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
+تعلم كيفية إنشاء بيانات العلامة الذكية وتعبئة قالب Excel بالبيانات باستخدام Aspose.Cells.
+
 ### [إنشاء مصنف Excel C# – دليل شامل لإدراج المصفوفات في الخلايا](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
 دليل شامل لإنشاء مصنف Excel باستخدام C# وإدراج المصفوفات في الخلايا بسهولة.
 ### [دمج بيانات Excel في C# – دليل كامل للعلامات الذكية](./excel-data-merging-in-c-complete-smart-marker-guide/)
@@ -164,6 +173,19 @@
 ### [إنشاء ملف Excel من نموذج باستخدام Aspose.Cells Smart Markers في C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
 تعلم خطوة بخطوة كيفية إنشاء ملف Excel من نموذج بيانات باستخدام Aspose.Cells Smart Markers في C#.
 ### [تصدير البيانات إلى Excel – دليل كامل لملء قالب Excel باستخدام العلامات الذكية](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
+
+### [تحويل JSON إلى XLSX في C# باستخدام SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
+تعلم كيفية تحويل ملفات JSON إلى ملفات XLSX باستخدام SmartMarker في Aspose.Cells مع C# خطوة بخطوة.
+### [تحميل قالب Excel في C# – إنشاء أوراق متعددة بسرعة](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
+تعلم كيفية تحميل قالب Excel في C# وإنشاء أوراق عمل متعددة بسرعة باستخدام Aspose.Cells.
+### [استيراد JSON إلى Excel في C# – دليل خطوة بخطوة](./import-json-to-excel-in-c-step-by-step-guide/)
+### [كيفية إنشاء قائمة تقارير Excel باستخدام علامات Aspose.Cells الذكية](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+### [إنشاء دفتر عمل رئيسي وتفصيلي باستخدام علامة Aspose.Cells الذكية](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+### [دليل Excel الرئيسي والتفصيلي – تعبئة القوالب باستخدام العلامات الذكية](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+### [كيفية تكرار أوراق العمل – دليل كامل لأتمتة Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+
+### [إنشاء مصنف Excel برمجيًا باستخدام العلامات الذكية](./create-excel-workbook-programmatically-using-smart-markers/)
+تعلم كيفية إنشاء ملف Excel باستخدام العلامات الذكية برمجيًا في Aspose.Cells للـ .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

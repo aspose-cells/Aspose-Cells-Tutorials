@@ -55,6 +55,8 @@ Samouczek dotyczący kodu dla Aspose.Words Java
 
 ### [Jak dodać komentarz w programie Excel w Javie – kompletny przewodnik](./how-to-add-comment-in-excel-with-java-complete-guide/)
 Dowiedz się, jak programowo dodać komentarz do pliku Excel przy użyciu Aspose.Cells dla Javy.
+### [Dodaj komentarz do Excela przy użyciu Javy – Kompletny przewodnik krok po kroku](./add-comment-to-excel-using-java-complete-step-by-step-guide/)
+Dowiedz się, jak programowo dodać komentarz do pliku Excel przy użyciu Aspose.Cells dla Java. Kompletny przewodnik krok po kroku.
 
 ## Dodatkowe zasoby
 

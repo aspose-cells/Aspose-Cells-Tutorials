@@ -60,6 +60,16 @@ Dowiedz się, jak skutecznie przerwać obliczanie formuł w skoroszytach przy u�
 
 ### [Optymalizacja obliczeń Excel przy użyciu Aspose.Cells Java&#58; Mistrzostwo w łańcuchach obliczeniowych dla efektywnego przetwarzania skoroszytów](./optimize-excel-aspose-cells-java-calculation-chains/)
 Dowiedz się, jak zwiększyć wydajność Excel przy użyciu Aspose.Cells for Java, implementując łańcuchy obliczeniowe, efektywnie przeliczając formuły i aktualizując wartości komórek.
+### [Otwórz plik XLSX w Javie – Kompletny przewodnik po ładowaniu skoroszytu i ponownym obliczaniu formuł](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
+Dowiedz się, jak otworzyć plik XLSX w Javie, załadować skoroszyt przy użyciu Aspose.Cells i ponownie obliczyć wszystkie formuły.
+### [Formuły dynamicznych tablic w Javie: Tworzenie skoroszytu Excel i obliczanie wszystkich formuł](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
+Dowiedz się, jak w Javie tworzyć skoroszyt Excel z formułami dynamicznych tablic i obliczać je przy użyciu Aspose.Cells.
+
+### [Jak odświeżać skoroszyty Excel w Javie przy użyciu Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
+Dowiedz się, jak odświeżać skoroszyty Excel w Javie, aby zastosować zmiany przy użyciu Aspose.Cells.
+
+### [Jak wymusić obliczanie formuł w Javie przy użyciu Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+Samouczek kodu dla Aspose.Cells Java
 
 ### [Ponowne obliczanie wszystkich formuł Excel w Javie Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
 Samouczek kodu pokazujący, jak przeliczyć wszystkie formuły w skoroszycie.

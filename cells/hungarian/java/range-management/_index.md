@@ -72,7 +72,7 @@ Tanuld meg, hogyan automatizálhatod az Excel nyomtatási területeit az Aspose.
 Tanulja meg, hogyan automatizálhatja az egyes oszlopok több oszlopba történő másolásának folyamatát az Aspose.Cells for Java segítségével. Egyszerűsítse adatkezelési feladatait könnyedén.
 
 ### [Egyéni objektumok importálása egyesített Excel-cellákba az Aspose.Cells for Java használatával: Átfogó útmutató](./import-custom-objects-merged-cells-java-aspose-cells/)
-Ismerje meg, hogyan importálhat hatékonyan egyéni objektumokat egyesített cellákba Excelben az Aspose.Cells for Java használatával. Ismerje meg a főbb adatkezelési technikákat ezzel az átfogó útmutatóval.
+Ismerje meg, hogyan importálhat hatékonyan egyéni objektumokat egyesített cellákba Excelben az Aspose.Cells for Java segítségével. Ismerje meg a főbb adatkezelési technikákat ezzel az átfogó útmutatóval.
 
 ### [Többsoros műveletek elsajátítása Excelben az Aspose.Cells segítségével](./master-multi-row-manipulation-excel-aspose-cells-java/)
 Kód oktatóanyag az Aspose.Words Java-hoz
@@ -87,6 +87,10 @@ Ismerje meg, hogyan lehet hatékonyan szétválasztani a cellákat Excel-fájlok
 Tanuld meg, hogyan adhatunk nevet egy cellához Excelben Java-val, lépésről lépésre útmutatóval és kódpéldákkal.
 ### [Programozott módon munkalap-tartomány másolása – Teljes Java útmutató](./programmatically-copy-worksheet-range-complete-java-guide/)
 Ismerd meg, hogyan másolhatod programozottan a munkalap-tartományokat Java-ban az Aspose.Cells segítségével.
+### [Tartomány másolása munkafüzetek között Java-ban – lépésről lépésre útmutató](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+Tanuld meg, hogyan másolhatsz cellatartományokat egy munkafüzetből a másikba Java és Aspose.Cells használatával.
+### [Új munkalap létrehozása és Excel-tartomány másolása Aspose.Cells segítségével](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+Ismerd meg, hogyan hozhatsz létre új munkalapot és másolhatsz tartományt az Aspose.Cells Java könyvtárral.
 
 ### [Hogyan használjuk az expand függvényt Java Excel feldolgozásban](./how-to-use-expand-function-in-java-excel-processing/)
 Ismerd meg, hogyan alkalmazhatod az expand függvényt az Excel-fájlok Java‑ban történő feldolgozásához az Aspose.Cells segítségével.

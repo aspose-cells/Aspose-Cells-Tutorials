@@ -56,9 +56,19 @@ Naučte se, jak implementovat rozhraní IWarningCallback s Aspose.Cells Java pro
 
 ### [Mistrovství v Aspose.Cells Java&#58; Jak přerušit výpočet vzorců v Excel sešitech](./master-aspose-cells-java-interrupt-formula-calculation-workbook/)
 Naučte se efektivně přerušit výpočet vzorců v sešitech pomocí Aspose.Cells pro Javu. Ideální pro optimalizaci velkých datových sad a prevenci nekonečných smyček.
+### [Otevření souboru XLSX v Javě – Kompletní průvodce načtením sešitu a přepočítáním vzorců](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
+Naučte se, jak načíst soubor XLSX v Javě pomocí Aspose.Cells a přepočítat všechny vzorce pro přesné výsledky.
 
 ### [Optimalizace výpočtů v Excelu pomocí Aspose.Cells Java&#58; Mistrovství v řetězcích výpočtů pro efektivní zpracování sešitu](./optimize-excel-aspose-cells-java-calculation-chains/)
 Naučte se zlepšit výkon Excelu s Aspose.Cells pro Javu implementací řetězců výpočtů, efektivním výpočtem vzorců a aktualizací hodnot buněk.
+### [Dynamické pole vzorců v Javě: Vytvořte Excel sešit a vypočítejte všechny vzorce](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
+Naučte se, jak pomocí Aspose.Cells v Javě vytvořit sešit s dynamickými poli a vypočítat všechny vzorce.
+
+### [Jak obnovit sešity Excel v Javě pomocí Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
+Naučte se, jak pomocí Aspose.Cells v Javě obnovit a znovu načíst Excel sešity pro aktuální data.
+
+### [Jak vynutit výpočet vzorce v Javě pomocí Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+Naučte se, jak vynutit okamžitý výpočet vzorců v sešitech pomocí Aspose.Cells pro Javu.
 
 ### [Přepočítat všechny vzorce v Excelu pomocí Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
 Naučte se přepočítat všechny vzorce v Excelu pomocí Aspose.Cells pro Javu.

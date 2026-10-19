@@ -60,6 +60,10 @@ Hướng dẫn chi tiết cách tắt tính năng AutoFilter trong Excel bằng 
 ### [Tạo mảng dọc trong Excel bằng Java – Hướng dẫn chi tiết từng bước](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
 Khám phá cách tạo mảng dọc trong Excel bằng Java, với hướng dẫn chi tiết và ví dụ mã nguồn.
 ### [Cách sử dụng Expand trong Java – Hướng dẫn Excel đầy đủ](./how-to-use-expand-in-java-complete-excel-guide/)
+### [Cách xóa AutoFilter trong Excel bằng Java – Hướng dẫn đầy đủ](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Tìm hiểu cách xóa bộ lọc tự động trong Excel bằng Aspose.Cells for Java, kèm ví dụ mã nguồn chi tiết.
+### [Tạo sổ làm việc mới Aspose – thêm thuộc tính tùy chỉnh Excel và lưu dưới dạng XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+Hướng dẫn tạo sổ làm việc mới, thêm thuộc tính tùy chỉnh và lưu dưới dạng XLSB bằng Aspose.Cells cho Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

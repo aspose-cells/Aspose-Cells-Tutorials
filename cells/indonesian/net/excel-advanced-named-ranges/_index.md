@@ -40,6 +40,8 @@ Pelajari cara menggabungkan sel dalam rentang bernama menggunakan Aspose.Cells f
 Pelajari cara membuat workbook Excel, menambahkan tabel, dan menetapkan aturan penamaan dengan panduan langkah demi langkah.
 ### [Simpan Buku Kerja Excel dan Tambahkan Rentang Bernama – Panduan Lengkap C#](./save-excel-workbook-and-add-named-range-full-c-guide/)
 Pelajari cara menyimpan workbook Excel dan menambahkan rentang bernama menggunakan Aspose.Cells for .NET dengan contoh kode C# lengkap.
+### [Buat Workbook Excel di C# – Tambahkan Rentang Bernama & Atur Nama Tabel](./create-excel-workbook-in-c-add-named-range-set-table-name/)
+Pelajari cara membuat workbook Excel di C# dengan menambahkan rentang bernama dan mengatur nama tabel menggunakan Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

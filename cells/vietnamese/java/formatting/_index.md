@@ -61,6 +61,8 @@ Tìm hiểu cách xử lý định dạng số tùy chỉnh trong sổ làm vi�
 
 ### [Cài đặt định dạng số trong Excel bằng Java – Hướng dẫn đầy đủ](./set-number-format-excel-in-java-complete-guide/)
 Tìm hiểu cách thiết lập và tùy chỉnh định dạng số trong tệp Excel bằng Aspose.Cells cho Java, kèm ví dụ mã và mẹo tối ưu.
+### [Đặt Định dạng Số Tùy chỉnh trong Excel bằng Java – Hướng dẫn đầy đủ](./set-custom-number-format-in-excel-with-java-complete-guide/)
+Tìm hiểu cách thiết lập định dạng số tùy chỉnh cho ô Excel bằng Aspose.Cells cho Java, bao gồm các ví dụ mã và hướng dẫn chi tiết.
 
 ### [Làm chủ trình bày dữ liệu trong Excel: Định dạng số và ngày tùy chỉnh với Aspose.Cells cho Java](./aspose-cells-java-data-formatting-excel/)
 Tìm hiểu cách áp dụng định dạng số và kiểu ngày tùy chỉnh bằng Aspose.Cells cho Java, cải thiện khả năng trình bày dữ liệu trong bảng tính Excel.
@@ -121,6 +123,9 @@ Tìm hiểu cách thay đổi màu chủ đề trong tệp Excel theo chương t
 
 ### [Cách thay đổi màu phông chữ trong Excel bằng Aspose.Cells cho Java: Hướng dẫn đầy đủ](./change-font-color-aspose-cells-java-tutorial/)
 Tìm hiểu cách thay đổi màu phông chữ hiệu quả trong các tệp Excel bằng Aspose.Cells for Java. Hướng dẫn từng bước này bao gồm mọi thứ từ thiết lập đến triển khai.
+
+### [Đặt chữ đậm trong xuất Excel Java – Hướng dẫn đầy đủ](./set-font-bold-in-java-excel-export-complete-guide/)
+Tìm hiểu cách đặt chữ đậm cho các ô Excel khi xuất dữ liệu bằng Aspose.Cells cho Java.
 
 ### [Cách chuyển đổi Excel Gradient Fill sang HTML bằng Aspose.Cells Java](./convert-excel-gradient-fill-html-aspose-cells-java/)
 Tìm hiểu cách chuyển đổi các tệp Excel có hiệu ứng tô màu chuyển màu sang HTML bằng thư viện Aspose.Cells dành cho Java, đảm bảo các bản trình bày web hấp dẫn về mặt hình ảnh.

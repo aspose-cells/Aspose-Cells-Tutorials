@@ -46,6 +46,8 @@ Tìm hiểu cách tự động tạo báo cáo Excel động với Aspose.Cells 
 
 ### [Tạo sổ làm việc master-detail với Aspose.Cells (Java)](./create-master-detail-workbook-with-aspose-cells-java/)
 Tìm hiểu cách tạo sổ làm việc master-detail bằng Aspose.Cells cho Java, giúp tổ chức dữ liệu và tạo báo cáo phức tạp một cách dễ dàng.
+### [Cách điền dữ liệu vào mẫu Excel bằng Aspose.Cells](./how-to-populate-excel-template-with-data-using-aspose-cells/)
+Hướng dẫn chi tiết cách sử dụng Aspose.Cells để đưa dữ liệu vào mẫu Excel một cách tự động.
 
 ### [Cách tạo các bảng tính với Smart Markers – Hướng dẫn Java đầy đủ](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
 Tìm hiểu cách tạo các bảng tính bằng Smart Markers trong Aspose.Cells for Java, bao gồm các bước chi tiết và ví dụ thực tế.
@@ -55,6 +57,13 @@ Tìm hiểu cách sử dụng Smart Markers để tải mẫu Excel và tạo t�
 
 ### [Tạo SmartMarker cho Workbook – Điền dữ liệu vào Workbook Excel](./create-workbook-smartmarker-populate-excel-workbook/)
 Hướng dẫn cách sử dụng SmartMarker để tạo và điền dữ liệu vào một workbook Excel bằng Aspose.Cells cho Java.
+### [Điền dữ liệu vào mẫu Excel – Tạo báo cáo Excel từ mẫu](./populate-excel-template-with-data-create-excel-report-from-t/)
+Hướng dẫn cách sử dụng Aspose.Cells cho Java để điền dữ liệu vào mẫu Excel và tạo báo cáo Excel tự động.
+
+### [Aspose.Cells Smart Markers – Điền dữ liệu vào mẫu Excel](./aspose-cells-smart-markers-populate-excel-template/)
+Hướng dẫn cách sử dụng Smart Markers của Aspose.Cells để tự động điền dữ liệu vào mẫu Excel.
+### [Tạo các sheet chi tiết trong Java với Aspose.Cells smart markers](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
+Hướng dẫn cách sử dụng smart markers để tạo các sheet chi tiết trong Excel bằng Aspose.Cells cho Java.
 
 ## Tài nguyên bổ sung
 

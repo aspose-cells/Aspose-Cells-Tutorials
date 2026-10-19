@@ -52,6 +52,8 @@
 ### [คัดลอกคอลัมน์ Excel อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java: คู่มือฉบับสมบูรณ์](./copy-excel-columns-aspose-cells-java/)
 เรียนรู้วิธีการคัดลอกคอลัมน์ใน Excel แบบอัตโนมัติด้วย Aspose.Cells สำหรับ Java ปรับปรุงเวิร์กโฟลว์ของคุณและเพิ่มผลผลิตด้วยคู่มือที่ทำตามได้ง่ายนี้
 
+### [คัดลอกช่วงระหว่างเวิร์กบุ๊กใน Java – คู่มือทีละขั้นตอน](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+
 ### [วิธีการคัดลอกหลายคอลัมน์ใน Excel โดยใช้ Aspose.Cells Java: คู่มือฉบับสมบูรณ์](./copy-multiple-columns-excel-aspose-cells-java/)
 เรียนรู้วิธีการคัดลอกหลายคอลัมน์ภายในเวิร์กชีต Excel โดยอัตโนมัติโดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า การใช้งาน และการแก้ไขปัญหา
 
@@ -86,6 +88,8 @@
 เรียนรู้วิธีแยกเซลล์ที่ผสานกันในไฟล์ Excel อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า การตรวจจับ และการแยกเซลล์ที่ผสานกันพร้อมตัวอย่างโค้ด
 
 ### [คัดลอกช่วงเวิร์กชีตโดยโปรแกรม – คู่มือ Java ฉบับสมบูรณ์](./programmatically-copy-worksheet-range-complete-java-guide/)
+### [สร้างแผ่นงานใหม่และคัดลอกช่วง Excel ด้วย Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+เรียนรู้วิธีสร้างแผ่นงานใหม่และคัดลอกช่วงข้อมูลใน Excel ด้วย Aspose.Cells สำหรับ Java อย่างง่ายดาย
 
 ### [วิธีใช้ฟังก์ชัน expand ในการประมวลผล Excel ด้วย Java](./how-to-use-expand-function-in-java-excel-processing/)
 

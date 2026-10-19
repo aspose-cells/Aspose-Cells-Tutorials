@@ -46,6 +46,8 @@ Aprenda a converter valores datetime para o padrão ISO usando C# e Aspose.Cells
 Aprenda a aplicar formatação de moeda em colunas de grade usando Aspose.Cells para .NET, passo a passo.
 ### [Aplicar formato numérico no Excel – Guia passo a passo para formatar colunas](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
 Aprenda a aplicar formatos numéricos a colunas no Excel passo a passo com Aspose.Cells para .NET.
+### [Como arredondar números do Excel em C# – guia completo de programação](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+Aprenda a arredondar números no Excel usando C# com Aspose.Cells, incluindo opções de arredondamento e exemplos práticos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

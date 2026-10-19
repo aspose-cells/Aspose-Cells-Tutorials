@@ -65,6 +65,8 @@ Ismerje meg, hogyan adhat hozzá egyéni tulajdonságokat egy Excel-fájlhoz C#�
 Ismerje meg, hogyan adhat hozzá Excel metaadatokat egy C# munkafüzetben lépésről lépésre útmutatónk segítségével.
 ### [Egyéni tulajdonság létrehozása Aspose – Teljes Excel útmutató](./create-custom-property-aspose-complete-excel-guide/)
 Tanulja meg, hogyan hozhat létre egyéni tulajdonságokat az Excelben az Aspose.Cells for .NET segítségével, lépésről lépésre útmutató.
+### [XLSB mentése és egyéni dokumentumtulajdonságok hozzáadása C#-ban](./how-to-save-xlsb-and-add-custom-document-properties-in-c/)
+Tanulja meg, hogyan mentse el az XLSB fájlt és adjon hozzá egyéni dokumentumtulajdonságokat C#-ban az Aspose.Cells for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

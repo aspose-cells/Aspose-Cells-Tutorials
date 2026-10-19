@@ -64,6 +64,8 @@ Pelajari cara menambahkan properti kustom ke file Excel menggunakan C# dengan pa
 Pelajari cara menambahkan metadata ke file Excel menggunakan C# dengan panduan lengkap langkah demi langkah.
 ### [Buat Properti Kustom Aspose – Panduan Lengkap Excel](./create-custom-property-aspose-complete-excel-guide/)
 Pelajari cara membuat properti kustom di Excel menggunakan Aspose.Cells untuk .NET dengan panduan lengkap langkah demi langkah.
+### [Cara Menyimpan XLSB dan Menambahkan Properti Dokumen Kustom di C#](./how-to-save-xlsb-and-add-custom-document-properties-in-c/)
+Pelajari cara menyimpan file XLSB dan menambahkan properti dokumen kustom menggunakan Aspose.Cells untuk .NET dengan contoh kode C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -40,6 +40,8 @@
 เรียนรู้วิธีสร้างสมุดงาน Excel พร้อมเพิ่มตารางและกำหนดกฎการตั้งชื่ออย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
 ### [บันทึกเวิร์กบุ๊ก Excel และเพิ่มช่วงที่ตั้งชื่อ – คู่มือเต็ม C#](./save-excel-workbook-and-add-named-range-full-c-guide/)
 บันทึกไฟล์ Excel และเพิ่มช่วงที่ตั้งชื่อด้วยคำแนะนำเต็มใน C#
+### [สร้าง Excel Workbook ใน C# – เพิ่มช่วงที่มีชื่อและตั้งชื่อตาราง](./create-excel-workbook-in-c-add-named-range-set-table-name/)
+เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# เพิ่มช่วงที่มีชื่อและตั้งชื่อตารางโดยใช้ Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

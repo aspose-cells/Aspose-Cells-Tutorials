@@ -61,6 +61,8 @@ Leer hoe u aangepaste getalnotaties in Java-werkmappen kunt verwerken met Aspose
 
 ### [Getalnotatie instellen in Excel met Java – Complete handleiding](./set-number-format-excel-in-java-complete-guide/)
 Leer hoe u getalnotaties in Excel-werkbladen instelt met Aspose.Cells voor Java, inclusief codevoorbeelden en best practices.
+### [Aangepast getalformaat instellen in Excel met Java – Complete handleiding](./set-custom-number-format-in-excel-with-java-complete-guide/)
+Leer hoe u aangepaste getalnotaties in Excel kunt instellen met Aspose.Cells voor Java. Deze stap‑voor‑stap gids toont codevoorbeelden en best practices.
 
 ### [Gegevenspresentatie in Excel onder de knie krijgen: getal- en aangepaste datumnotatie met Aspose.Cells voor Java](./aspose-cells-java-data-formatting-excel/)
 Leer hoe u getalnotaties en aangepaste datumstijlen kunt toepassen met Aspose.Cells voor Java, waarmee u de presentatie van gegevens in Excel-spreadsheets kunt verbeteren.
@@ -241,6 +243,9 @@ Beheers de styling van Excel-cellen en het toevoegen van hyperlinks in je Java-a
 
 ### [Excel-werkmap maken met dynamische opmaak in Java – volledige handleiding](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 Leer hoe u een Excel-werkmap maakt en dynamische opmaak toepast met Aspose.Cells voor Java. Deze volledige handleiding bevat stap‑voor‑stap codevoorbeelden.
+
+### [Vet lettertype instellen in Java Excel-export – Complete handleiding](./set-font-bold-in-java-excel-export-complete-guide/)
+Leer hoe u tekst vet maakt bij het exporteren van Excel-bestanden met Aspose.Cells voor Java.
 
 ### [Hoe stijlen toe te passen bij het converteren van DataTable naar Excel – volledige Java-gids](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 Leer hoe u met Aspose.Cells voor Java stijlen toepast tijdens het omzetten van een DataTable naar een Excel-bestand.

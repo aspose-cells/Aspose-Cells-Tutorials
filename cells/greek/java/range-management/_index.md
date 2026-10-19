@@ -86,7 +86,9 @@
 ### [Ανάθεση ονόματος σε κελί στο Excel χρησιμοποιώντας Java – Πλήρης Οδηγός](./assign-name-to-cell-in-excel-using-java-complete-guide/)
 
 ### [Προγραμματιστική Αντιγραφή Εύρους Φύλλου Εργασίας – Πλήρης Οδηγός Java](./programmatically-copy-worksheet-range-complete-java-guide/)
-
+### [Αντιγραφή εύρους μεταξύ βιβλίων εργασίας σε Java – οδηγός βήμα προς βήμα](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+### [Δημιουργία νέου φύλλου εργασίας και αντιγραφή εύρους Excel με το Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+Μάθετε πώς να δημιουργείτε νέο φύλλο εργασίας και να αντιγράφετε εύρος Excel χρησιμοποιώντας το Aspose.Cells για Java.
 ### [Πώς να χρησιμοποιήσετε τη λειτουργία expand στην επεξεργασία Excel με Java](./how-to-use-expand-function-in-java-excel-processing/)
 
 ## Πρόσθετοι Πόροι

@@ -46,6 +46,8 @@
 
 
 
+### [Вставить комментарий в Excel с C# – пошаговое руководство](./insert-comment-into-excel-with-c-step-by-step-guide/)
+Узнайте, как добавить комментарий в Excel с помощью C# и Aspose.Cells, следуя пошаговому руководству.
 
 
 
@@ -63,6 +65,8 @@
 Узнайте, как добавить комментарий к ячейке в C# и создать файл Excel из данных с помощью Aspose.Cells.
 ### [Вставка комментария в Excel с C# – Полное руководство по SmartMarker](./insert-excel-comment-with-c-complete-smartmarker-guide/)
 Узнайте, как с помощью SmartMarker вставлять комментарии в Excel с C# в Aspose.Cells для .NET.
+### [Как вставить комментарий в Excel с помощью Aspose.Cells](./how-to-insert-comment-in-excel-using-aspose-cells/)
+Узнайте, как добавить комментарий в Excel с помощью Aspose.Cells для .NET. Пошаговое руководство для улучшения ваших таблиц.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

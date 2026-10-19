@@ -33,6 +33,9 @@ Una de las maneras más sencillas y efectivas de supervisar sus fórmulas de Exc
 ## Cálculo directo de fórmulas  
 ¿Alguna vez has tenido que calcular una fórmula específica sin tener que revisar toda la hoja? La función de cálculo directo de fórmulas de Aspose.Cells para .NET te permite calcular fórmulas específicas directamente, ahorrándote tiempo y energía. Es como un atajo en una ciudad ajetreada; te lleva a tu destino más rápido. Nuestra guía paso a paso sobre... [Fórmula de cálculo directo en Excel mediante programación](./direct-calculation-formula/) Le muestra lo fácil que es implementar esta función en sus proyectos.
 
+### [Cómo forzar el cálculo de fórmulas y usar lambda en Excel con C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Aprenda a forzar el cálculo de fórmulas y utilizar funciones lambda en Excel mediante C# con Aspose.Cells.
+
 ## Interrumpir los cálculos de fórmulas  
 veces, los cálculos pueden tardar más de lo esperado, especialmente con conjuntos de datos masivos. ¿Qué sucede si desea interrumpir estos cálculos para ahorrar tiempo o volver a revisar sus datos? Aspose.Cells para .NET lo tiene cubierto. Aprenda más sobre esta función con nuestra guía fácil de seguir en [Interrumpir o cancelar el cálculo de fórmulas del libro de trabajo](./interrupt-or-cancel-formula-calculation-of-workbook/)Esto le permite tener un mejor control sobre las operaciones de su hoja de cálculo sin sentirse limitado.
 
@@ -71,6 +74,8 @@ Descubra el poder de Excel con Aspose.Cells para .NET. Aprenda a procesar datos 
 Aprenda a expandir una matriz en C# usando Aspose.Cells con esta guía paso a paso. Simplifique la manipulación de datos en sus hojas de cálculo.
 ### [Cómo crear una matriz en Excel con C# – Guía paso a paso](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 Aprenda a crear matrices en Excel usando C# con esta guía paso a paso.
+### [Cómo crear un libro de Excel en C# con la función EXPAND](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+Aprenda a crear un libro de Excel en C# usando la función EXPAND de Aspose.Cells paso a paso.
 ### [Procesamiento de datos mediante funciones integradas en Excel](./processing-data-using-built-in-functions/)
 Descubra cómo procesar datos con funciones integradas en Excel con Aspose.Cells para .NET. Siga un tutorial paso a paso para una automatización sencilla.
 ### [Procesamiento de datos con F1C1 en Excel](./processing-data-using-r1c1/)
@@ -94,6 +99,12 @@ Aprenda a calcular la cotangente en Excel con C# usando Aspose.Cells para .NET e
 Aprenda a aplicar la función WRAPCOLS en Excel con Aspose.Cells para .NET mediante un ejemplo completo en C# paso a paso.
 ### [Aplicar fórmula de matriz en Excel con C# – Guía completa](./apply-array-formula-excel-in-c-complete-guide/)
 Aprenda a aplicar una fórmula de matriz en Excel usando C# con Aspose.Cells para .NET en esta guía paso a paso.
+### [Cómo crear un libro de Excel y dividir datos con WRAPCOLS en C#](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
+Aprenda a crear un libro de Excel y dividir datos en matrices usando la función WRAPCOLS con Aspose.Cells para .NET en C#.
+### [Cómo usar WRAPCOLS – Guía completa para la automatización de Excel con C#](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Aprenda a utilizar la función WRAPCOLS en Aspose.Cells para .NET y automatice la distribución de datos en columnas de Excel con C#.
+### [Crear libro de Excel con fórmulas – Guía completa paso a paso](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+Aprenda a crear un libro de Excel con fórmulas usando Aspose.Cells para .NET en esta guía detallada paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

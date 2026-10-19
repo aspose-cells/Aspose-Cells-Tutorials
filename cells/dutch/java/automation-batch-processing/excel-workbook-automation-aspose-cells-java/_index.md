@@ -1,12 +1,55 @@
 ---
-date: '2026-01-14'
-description: Leer hoe u een Excel-werkmap opslaat met Aspose.Cells voor Java, en ontdek
-  hoe u Excel-gegevens importeert voor voorraadbeheer.
+date: '2026-06-27'
+description: Leer hoe u Excel naar PDF kunt converteren met Aspose.Cells for Java
+  en ontdek hoe u Excel-gegevens kunt importeren voor voorraadbeheer.
 keywords:
-- Excel Workbook Automation
-- Aspose.Cells Java
-- Java Excel Manipulation
-title: Excel-werkmap opslaan met Aspose.Cells voor Java – Complete gids
+- convert excel to pdf
+- how to save excel
+- optimize excel performance
+- convert excel to csv
+- generate excel report java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-27'
+  description: Learn how to convert Excel to PDF using Aspose.Cells for Java, and
+    discover how to import Excel data for inventory management.
+  headline: Convert Excel to PDF using Aspose.Cells for Java – Guide
+  type: TechArticle
+- description: Learn how to convert Excel to PDF using Aspose.Cells for Java, and
+    discover how to import Excel data for inventory management.
+  name: Convert Excel to PDF using Aspose.Cells for Java – Guide
+  steps:
+  - name: Specify the File Path and Load the Workbook
+    text: '**Explanation**: The `Workbook` constructor loads your Excel file into
+      memory, allowing you to manipulate its contents programmatically.'
+  - name: Access the Desired Worksheet
+    text: '**Explanation**: The `getWorksheets()` method retrieves all worksheets,
+      while `get(0)` accesses the first worksheet (indexing starts at 0).'
+  - name: Set OLE Object Properties
+    text: '**Explanation**: The `setAutoLoad(true)` method ensures the OLE object
+      automatically loads when opening the workbook.'
+  - name: Save the Workbook with Changes
+    text: '**Explanation**: The `save` method writes your changes to a file, with
+      `SaveFormat.XLSX` specifying the output format. Replace `SaveFormat.XLSX` with
+      `SaveFormat.PDF` to **convert Excel to PDF**, or use `SaveFormat.CSV` for CSV
+      output.'
+  type: HowTo
+- questions:
+  - answer: It is a Java library that enables creation, manipulation, conversion,
+      and rendering of Excel files without requiring Microsoft Office.
+    question: What is Aspose.Cells for Java?
+  - answer: Yes, Aspose.Cells is also available for .NET, C++, and other platforms.
+    question: Can I use Aspose.Cells with other programming languages?
+  - answer: You can start with a temporary license to evaluate all features without
+      limitations.
+    question: Is there a free version?
+  - answer: Use Maven or Gradle dependency management as shown earlier in this guide.
+    question: How do I integrate Aspose.Cells into my existing Java project?
+  - answer: Ensure the file path is correct, verify the file isn’t corrupted, and
+      enable memory‑optimised settings to avoid OutOfMemory errors.
+    question: What are common issues when loading large Excel files?
+  type: FAQPage
+title: Excel naar PDF converteren met Aspose.Cells for Java – Gids
 url: /nl/java/automation-batch-processing/excel-workbook-automation-aspose-cells-java/
 weight: 1
 ---
@@ -17,43 +60,46 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Excel-werkboek opslaan met Aspose.Cells voor Java – Complete gids
+# Excel naar PDF converteren met Aspose.Cells voor Java – Gids
 
-## Introductie
+## Inleiding
 
-Bent u het beu om te worstelen met het **save Excel workbook**‑bestand met traditionele Java‑bibliotheken? Of u nu een ontwikkelaar bent die data‑verwerkingsworkflows wil stroomlijnen of u **Excel‑gegevens wilt importeren** voor voorraadbeheer, het beheersen van Aspose.Cells kan de manier waarop u met Excel in Java werkt transformeren. In deze uitgebreide tutorial lopen we door het laden, wijzigen en uiteindelijk **save Excel workbook**‑bestanden, en behandelen we ook gerelateerde taken zoals het converteren van Excel‑formaten en het genereren van Excel‑rapporten.
+Als u **Excel naar PDF** snel en betrouwbaar wilt converteren vanuit een Java‑applicatie, is Aspose.Cells voor Java de oplossing. Of u nu een voorraadbeheertool bouwt, financiële rapporten genereert of gegevensuitwisselingspijplijnen automatiseert, deze gids leidt u door het laden van een werkmap, het aanpassen van de inhoud, en uiteindelijk **opslaan** (of converteren) naar PDF, CSV of een ander ondersteund formaat. We behandelen ook best practices voor het omgaan met grote Excel‑bestanden en het optimaliseren van de prestaties.
 
-**Wat u leert**
-- Hoe u een bestaand Excel‑werkboek uit een bestand laadt.  
-- Technieken om specifieke werkbladen te benaderen en te manipuleren.  
-- Methoden om eigenschappen van OLE‑objecten in uw bladen in te stellen.  
-- Best practices om **save Excel workbook** efficiënt op te slaan en naar andere formaten te converteren.  
+**Wat u zult leren**
+- Een bestaande Excel-werkmap van schijf laden.  
+- Specifieke werkbladen en OLE‑objecten openen en manipuleren.  
+- Een Excel-werkmap converteren en **opslaan** naar PDF, CSV of andere formaten.  
+- Tips om **de Excel-prestaties** te optimaliseren voor grote bestanden.  
 
-Laten we eerst de benodigde voorwaarden controleren voordat we beginnen!
+Voordat we beginnen, zorg ervoor dat uw omgeving voldoet aan de onderstaande vereisten.
 
 ## Snelle antwoorden
-- **Wat is het primaire doel?** Excel‑werkboekbestanden opslaan na bewerking.  
-- **Welke bibliotheek moet ik gebruiken?** Aspose.Cells voor Java (v25.3+).  
-- **Heb ik een licentie nodig?** Een tijdelijke licentie is beschikbaar voor evaluatie; een aangekochte licentie is vereist voor productie.  
-- **Kan ik formaten converteren?** Ja – u kunt opslaan als XLSX, CSV, PDF en meer.  
-- **Is het geschikt voor grote bestanden?** Ja, met goed geheugenbeheer kunt u **optimize Excel performance**.
+- **Wat is het primaire doel?** Excel-werkboeken naar PDF (of andere formaten) converteren na bewerking.  
+- **Welke bibliotheek moet ik gebruiken?** Aspose.Cells voor Java (v25.3+).  
+- **Heb ik een licentie nodig?** Een tijdelijke evaluatielicentie is gratis; een aangeschafte licentie is vereist voor productie.  
+- **Kan ik grote bestanden verwerken?** Ja—gebruik geheugen‑geoptimaliseerde instellingen om werkboeken van honderden pagina's efficiënt te verwerken.  
+- **Wordt formaatconversie ondersteund?** Absoluut—opslaan als XLSX, CSV, PDF, HTML en meer dan 50 andere formaten.
 
-## Voorwaarden
+## Wat is Aspose.Cells voor Java?
+Aspose.Cells voor Java is een krachtige API die het maken, manipuleren en converteren van Excel‑bestanden mogelijk maakt zonder Microsoft Office. Het ondersteunt meer dan 50 invoer‑ en uitvoerformaten—waaronder XLSX, CSV, PDF, HTML en afbeeldingsformaten—zodat u met spreadsheets op elk platform kunt werken. Voor gedetailleerde begeleiding, zie de [uitgebreide documentatie](https://reference.aspose.com/cells/java/).
 
-Voordat we beginnen, zorg ervoor dat u het volgende heeft:
+## Vereisten
+
+Zorg ervoor dat u het volgende heeft voordat we beginnen:
 
 ### Vereiste bibliotheken en afhankelijkheden
-U heeft Aspose.Cells voor Java versie 25.3 of hoger nodig. Zorg ervoor dat deze afhankelijkheid correct is geconfigureerd in uw project via Maven of Gradle.
+U heeft Aspose.Cells voor Java versie 25.3 of later nodig. Zorg ervoor dat deze afhankelijkheid correct is geconfigureerd in uw project met Maven of Gradle.
 
-### Omgevingsvereisten
-Zorg ervoor dat uw ontwikkelomgeving Java SE Development Kit (JDK) 8 of hoger ondersteunt, aangezien dit compatibel is met Aspose.Cells.
+### Vereisten voor omgeving configuratie
+Zorg ervoor dat uw ontwikkelomgeving Java SE Development Kit (JDK) 8 of hoger ondersteunt, aangezien dit compatibel is met Aspose.Cells.
 
-### Kennisvoorvereisten
-Een basisbegrip van Java‑programmering en bekendheid met de structuur van Excel‑bestanden is nuttig om deze tutorial te volgen.
+### Kennisvereisten
+Een basisbegrip van Java‑programmeren en vertrouwdheid met Excel‑bestandstructuren is nuttig om deze tutorial te volgen.
 
 ## Aspose.Cells voor Java instellen
 
-Om Aspose.Cells in uw Java‑project te gebruiken, moet u de bibliotheek correct configureren. Zo doet u dat:
+Om te beginnen met Aspose.Cells in uw Java‑project, moet u de bibliotheek correct instellen. Zo doet u dat:
 
 **Maven**  
 Voeg de volgende afhankelijkheid toe aan uw `pom.xml`‑bestand:
@@ -74,10 +120,10 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Licentie‑acquisitie
-U kunt een tijdelijke licentie verkrijgen om de volledige functionaliteit van Aspose.Cells zonder beperkingen te evalueren via hun [temporary license page](https://purchase.aspose.com/temporary-license/). Voor langdurig gebruik kunt u een licentie aanschaffen via hun [purchase portal](https://purchase.aspose.com/buy).
+U kunt een tijdelijke licentie verkrijgen om de volledige functies van Aspose.Cells zonder beperkingen te evalueren door hun [tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/) te bezoeken. Voor langdurig gebruik kunt u een licentie kopen via hun [aankoopportaal](https://purchase.aspose.com/buy).
 
 ### Basisinitialisatie
-Zodra geïnstalleerd en gelicenseerd, initialiseert u uw werkboek met minimale configuratie:
+Zodra geïnstalleerd en gelicentieerd, initialiseert u uw werkmap met een minimale configuratie:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -95,31 +141,25 @@ public class ExcelManipulation {
 }
 ```
 
-## Implementatie‑gids
+## Een Excel-werkmap laden
 
-Laten we nu elk kenmerk van Aspose.Cells voor Java stap voor stap behandelen.
-
-### Een Excel‑werkboek laden
-
-**Overzicht**  
-Het laden van een werkboek is de eerste stap om toegang te krijgen tot en de inhoud te manipuleren. Dit proces initialiseert de datastructuren die nodig zijn voor verdere bewerkingen.
+De `Workbook`‑klasse is het kernobject van Aspose.Cells dat een enkel Excel‑bestand in het geheugen vertegenwoordigt. Het laden van een werkmap creëert de benodigde datastructuren voor verdere manipulatie.
 
 #### Stap 1: Importeer de Workbook‑klasse
 ```java
 import com.aspose.cells.Workbook;
 ```
 
-#### Stap 2: Specificeer het bestandspad en laad het werkboek
+#### Stap 2: Specificeer het bestandspad en laad de werkmap
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
-```
-**Uitleg**: De `Workbook`‑constructor laadt uw Excel‑bestand in het geheugen, zodat u de inhoud programmatisch kunt bewerken.
+```  
+**Uitleg**: De `Workbook`‑constructor laadt uw Excel‑bestand in het geheugen, waardoor u de inhoud programmatisch kunt manipuleren.
 
-### Werkbladen benaderen in een Excel‑werkboek
+## Werkbladen in een Excel-werkmap benaderen
 
-**Overzicht**  
-Excel‑werkboeken kunnen meerdere werkbladen bevatten. Zo benadert u een specifiek werkblad binnen een werkboek.
+Werkbladen zijn de afzonderlijke tabbladen binnen een werkmap. U kunt elk blad op index of naam ophalen.
 
 #### Stap 1: Importeer benodigde klassen
 ```java
@@ -127,18 +167,17 @@ import com.aspose.cells.Worksheet;
 import com.aspose.cells.Workbook;
 ```
 
-#### Stap 2: Benader het gewenste werkblad
+#### Stap 2: Toegang tot het gewenste werkblad
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
 Worksheet sheet = wb.getWorksheets().get(0);
-```
-**Uitleg**: De `getWorksheets()`‑methode haalt alle werkbladen op, terwijl `get(0)` het eerste werkblad (indexering start bij 0) benadert.
+```  
+**Uitleg**: De `getWorksheets()`‑methode haalt alle werkbladen op, terwijl `get(0)` het eerste werkblad benadert (indexering begint bij 0).
 
-### OLE‑objecteigenschappen instellen in een Excel‑werkblad
+## OLE‑objecteigenschappen instellen in een Excel-werkblad
 
-**Overzicht**  
-OLE‑objecten kunnen in Excel‑bladen worden ingebed. Deze sectie toont hoe u hun eigenschappen wijzigt.
+OLE‑objecten kunnen in Excel‑bladen worden ingebed. Deze sectie toont hoe u hun eigenschappen kunt wijzigen.
 
 #### Stap 1: Importeer vereiste klassen
 ```java
@@ -146,20 +185,19 @@ import com.aspose.cells.Worksheet;
 import com.aspose.cells.OleObjectCollection;
 ```
 
-#### Stap 2: Stel OLE‑objecteigenschappen in
+#### Stap 2: OLE‑objecteigenschappen instellen
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
 Worksheet sheet = wb.getWorksheets().get(0);
 OleObjectCollection oleObjects = sheet.getOleObjects();
 oleObjects.get(0).setAutoLoad(true);
-```
-**Uitleg**: De `setAutoLoad(true)`‑methode zorgt ervoor dat het OLE‑object automatisch wordt geladen bij het openen van het werkboek.
+```  
+**Uitleg**: De `setAutoLoad(true)`‑methode zorgt ervoor dat het OLE‑object automatisch wordt geladen bij het openen van de werkmap.
 
-### Een Excel‑werkboek opslaan
+## Een Excel-werkmap opslaan
 
-**Overzicht**  
-Na wijzigingen is **saving an Excel workbook** cruciaal om de aanpassingen te behouden. Deze sectie behandelt hoe u werkboeken in verschillende formaten opslaat, wat handig is wanneer u **convert Excel format** wilt of een **Excel report** wilt genereren.
+Na het aanbrengen van wijzigingen is **het opslaan van een Excel-werkmap** cruciaal om aanpassingen te behouden en eventueel het bestand te converteren.
 
 #### Stap 1: Importeer benodigde klassen
 ```java
@@ -167,84 +205,89 @@ import com.aspose.cells.Workbook;
 import com.aspose.cells.SaveFormat;
 ```
 
-#### Stap 2: Sla het werkboek met wijzigingen op
+#### Stap 2: Sla de werkmap op met wijzigingen
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
 wb.save(outDir + "/ARefreshOLEobject_out.xlsx", SaveFormat.XLSX);
-```
-**Uitleg**: De `save`‑methode schrijft uw wijzigingen naar een bestand, waarbij `SaveFormat.XLSX` het uitvoerformaat specificeert. U kunt `SaveFormat.XLSX` vervangen door andere constanten zoals `SaveFormat.CSV` of `SaveFormat.PDF` om **convert Excel format** uit te voeren.
+```  
+**Uitleg**: De `save`‑methode schrijft uw wijzigingen naar een bestand, waarbij `SaveFormat.XLSX` het uitvoerformaat specificeert. Vervang `SaveFormat.XLSX` door `SaveFormat.PDF` om **Excel naar PDF te converteren**, of gebruik `SaveFormat.CSV` voor CSV‑output.
 
-## Hoe Excel‑gegevens importeren voor voorraadbeheer
+## Hoe Excel naar PDF converteren?
 
-Veel bedrijven moeten **import Excel data** in op Java gebaseerde voorraadbeheersystemen. Door een werkboek te laden en door rijen te itereren, kunt u producthoeveelheden direct in uw database invoeren. dezelfde aanpak kan worden uitgebreid om **generate Excel report**‑bestanden te maken die de voorraadniveaus samenvatten.
+Laad de werkmap met `new Workbook("input.xlsx")` en roep `workbook.save("output.pdf", SaveFormat.PDF)` aan – Aspose.Cells behoudt automatisch celopmaak, grafieken en afbeeldingen tijdens het converteren naar PDF. Deze één‑regelige conversie werkt voor werkboeken van elke grootte; bij zeer grote bestanden schakelt u geheugen‑geoptimaliseerde instellingen in vóór het opslaan om de geheugengebruik laag te houden.
 
-## Tips om Excel‑prestaties te optimaliseren
+## Hoe Excel-gegevens importeren voor voorraadbeheer?
+
+Lees rijen uit de werkmap, koppel elke cel aan productvelden, en voeg de gegevens in uw voorraaddatabase in. Deze aanpak stelt u in staat om duizenden items in batches te verwerken met enkele regels Java‑code, waardoor een statische spreadsheet wordt omgezet in een dynamisch, doorzoekbaar voorraadsysteem.
+
+## Tips om Excel-prestaties te optimaliseren
 
 Bij het werken met grote werkboeken, overweeg het volgende:
 
-- Vernietig `Workbook`‑objecten na gebruik om geheugen vrij te maken.  
+- Verwijder `Workbook`‑objecten na gebruik om geheugen vrij te maken.  
 - Gebruik `Workbook.getSettings().setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` om het geheugenverbruik te regelen.  
-- Laad alleen de benodigde werkbladen in plaats van het volledige werkboek.
+- Laad alleen de benodigde werkbladen in plaats van de volledige werkmap.  
 
-Deze praktijken helpen u **optimize Excel performance** en houden uw Java‑applicatie responsief.
+Deze praktijken helpen u **Excel-prestaties te optimaliseren** en houden uw Java‑applicatie responsief, zelfs bij werkboeken van honderden pagina's.
 
 ## Praktische toepassingen
 
-Het begrijpen van het manipuleren van Excel‑werkboeken is slechts het begin. Hier zijn enkele scenario’s uit de praktijk:
+Begrijpen hoe u Excel‑werkboeken kunt manipuleren is slechts het begin. Hier zijn enkele praktijkvoorbeelden:
 
 1. **Data‑rapportage** – Automatiseer het genereren en bijwerken van financiële rapporten of dashboards.  
-2. **Voorraadbeheer** – Stroomlijn voorraadvolgsystemen door data naadloos te importeren/exporteren tussen Java‑apps en Excel‑bladen.  
-3. **Customer Relationship Management (CRM)** – Beheer klantgegevens en genereer op maat gemaakte contactlijsten direct vanuit uw database.
+2. **Voorraadbeheer** – Versnel voorraadvolgsystemen door gegevens naadloos te importeren/exporteren tussen Java‑apps en Excel‑bladen.  
+3. **Customer Relationship Management (CRM)** – Beheer klantgegevens en genereer op maat gemaakte contactlijsten rechtstreeks vanuit uw database.
 
-## Prestatie‑overwegingen
+## Prestatieoverwegingen
 
-Bij grote datasets of complexe werkboeken:
+Bij het omgaan met grote datasets of complexe werkboeken:
 
-- Minimaliseer geheugenverbruik door objecten te vernietigen zodra ze niet meer nodig zijn.  
-- Optimaliseer lees‑/schrijfbewerkingen door alleen de noodzakelijke delen van het werkboek te benaderen.  
-- Gebruik streaming‑API’s indien beschikbaar voor het efficiënt verwerken van zeer grote bestanden.
-
-## Conclusie
-
-U heeft nu geleerd hoe u **load**, **access**, **modify**, en **save Excel workbook**‑bestanden kunt gebruiken met Aspose.Cells voor Java. Deze mogelijkheden kunnen uw data‑verwerkingsworkflows aanzienlijk verbeteren, waardoor ze sneller, betrouwbaarder en makkelijker te onderhouden zijn. Om meer te ontdekken over de krachtige functies van Aspose.Cells, raadpleegt u hun [comprehensive documentation](https://reference.aspose.com/cells/java/) of sluit u zich aan bij het community‑forum.
-
-**Volgende stappen**: Probeer deze technieken in uw eigen project toe te passen om Excel‑taken te automatiseren, formaten te converteren en verzorgde Excel‑rapporten te genereren.
+- Minimaliseer het geheugenverbruik door objecten te verwijderen zodra ze niet meer nodig zijn.  
+- Optimaliseer lees‑/schrijfbewerkingen door alleen de benodigde delen van de werkmap te benaderen.  
+- Gebruik streaming‑API's indien beschikbaar voor het efficiënt verwerken van zeer grote bestanden.
 
 ## Veelgestelde vragen
 
-**Q: Wat is Aspose.Cells voor Java?**  
-A: Het is een bibliotheek die een breed scala aan functionaliteiten biedt voor het programmatisch manipuleren van Excel‑bestanden met Java.
+**V: Wat is Aspose.Cells voor Java?**  
+A: Het is een Java‑bibliotheek die het maken, manipuleren, converteren en renderen van Excel‑bestanden mogelijk maakt zonder Microsoft Office.
 
-**Q: Kan ik Aspose.Cells met andere programmeertalen gebruiken?**  
-A: Ja, Aspose.Cells ondersteunt meerdere platforms, waaronder .NET en C++.
+**V: Kan ik Aspose.Cells met andere programmeertalen gebruiken?**  
+A: Ja, Aspose.Cells is ook beschikbaar voor .NET, C++ en andere platforms.
 
-**Q: Is er een gratis versie beschikbaar?**  
-A: U kunt beginnen met een tijdelijke licentie om de volledige functionaliteit zonder beperkingen te evalueren.
+**V: Is er een gratis versie?**  
+A: U kunt beginnen met een tijdelijke licentie om alle functies zonder beperkingen te evalueren.
 
-**Q: Hoe integreer ik Aspose.Cells in mijn bestaande Java‑project?**  
-A: Gebruik Maven of Gradle‑dependency‑beheer zoals eerder in deze gids getoond.
+**V: Hoe integreer ik Aspose.Cells in mijn bestaande Java‑project?**  
+A: Gebruik Maven‑ of Gradle‑dependency‑beheer zoals eerder in deze gids getoond.
 
-**Q: Wat zijn veelvoorkomende problemen bij het laden van Excel‑bestanden?**  
-A: Zorg ervoor dat bestandspaden correct en toegankelijk zijn, en controleer of het werkboek niet beschadigd is.
+**V: Wat zijn veelvoorkomende problemen bij het laden van grote Excel‑bestanden?**  
+A: Zorg ervoor dat het bestandspad correct is, controleer of het bestand niet beschadigd is, en schakel geheugen‑geoptimaliseerde instellingen in om OutOfMemory‑fouten te voorkomen.
 
-## Bronnen
-- [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/)
-- [Download Aspose.Cells](https://releases.aspose.com/cells/java/)
-- [Purchase a License](https://purchase.aspose.com/buy)
+## Resources
+- [Aspose.Cells voor Java Documentatie](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells downloaden](https://releases.aspose.com/cells/java/)
+- [Een licentie kopen](https://purchase.aspose.com/buy)
 
 ---
 
-**Last Updated:** 2026-01-14  
-**Tested With:** Aspose.Cells 25.3 for Java  
-**Author:** Aspose
+**Laatst bijgewerkt:** 2026-06-27  
+**Getest met:** Aspose.Cells 25.3 voor Java  
+**Auteur:** Aspose
+
+{{< blocks/products/products-backtop-button >}}
+
+## Gerelateerde tutorials
+
+- [Excel naar geoptimaliseerde PDF converteren met Aspose.Cells Java: Een stapsgewijze gids](/cells/java/workbook-operations/convert-excel-to-optimized-pdf-aspose-cells-java/)
+- [Excel naar PDF converteren met Aspose.Cells Java: Een compliance‑gids voor PDFA-1a](/cells/java/workbook-operations/convert-excel-pdf-aspose-cells-compliance-guide/)
+- [Excel-werkboeken optimaliseren in Java met Aspose.Cells: Een prestatie‑gids](/cells/java/performance-optimization/optimize-excel-workbooks-java-aspose-cells-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

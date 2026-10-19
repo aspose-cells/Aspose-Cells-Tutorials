@@ -40,6 +40,12 @@ Apprenez à convertir des feuilles de calcul Excel en images dans .NET avec Aspo
 Apprenez à enregistrer un tableau croisé dynamique en image dans .NET avec Aspose.Cells grâce à ce guide étape par étape.
 ### [Exporter une plage Excel en image – Guide complet C#](./export-excel-range-as-image-complete-c-guide/)
 Apprenez à exporter une plage de cellules Excel en image avec Aspose.Cells en C#, étape par étape.
+### [Comment enregistrer une feuille Excel en image – Guide complet C#](./how-to-save-excel-sheet-as-image-complete-c-guide/)
+Apprenez à enregistrer une feuille Excel en image avec Aspose.Cells en suivant ce guide complet C# étape par étape.
+### [Comment exporter Excel en PNG – guide complet étape par étape](./how-to-export-excel-to-png-full-step-by-step-guide/)
+Apprenez à exporter vos fichiers Excel au format PNG avec Aspose.Cells grâce à ce guide détaillé étape par étape.
+### [Comment exporter une plage Excel en image avec C# et Aspose.Cells](./how-to-export-excel-range-as-image-with-c-and-aspose-cells/)
+Apprenez à exporter une plage de cellules Excel en image avec C# et Aspose.Cells grâce à ce guide étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -89,6 +89,12 @@ Erfahren Sie, wie Sie die Reduce-Funktion in Excel mithilfe von Java und Lambda-
 Erfahren Sie, wie Sie die SEQUENCE‑Funktion in Aspose.Cells für Java einsetzen, um dynamische Werte in Excel‑Arbeitsmappen zu erzeugen.
 ### [Wie man WRAPCOLS in Java verwendet – Vollständiges Excel WRAPCOLS-Beispiel](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 Erfahren Sie, wie Sie die WRAPCOLS-Funktion in Aspose.Cells für Java einsetzen, um Zelleninhalte automatisch zu umbrechen und Excel-Tabellen zu formatieren.
+### [Wie Sie den Kotangens in Excel berechnen – Komplettanleitung](./how-to-calculate-cotangent-in-excel-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java den Kotangens in Excel berechnen und nutzen.
+### [Sortieren eindeutiger Werte in Excel – Vollständiger Java-Leitfaden zum Festlegen von Array-Formeln](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+Erfahren Sie, wie Sie in Excel eindeutige Werte sortieren und mithilfe von Array-Formeln in Java implementieren.
+### [Wie man Aspose in Java verwendet – Excel-Arbeitsmappe mit neuen Funktionen erstellen](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java eine neue Excel-Arbeitsmappe erstellen und benutzerdefinierte Funktionen hinzufügen.
 
 ## Weitere Ressourcen
 

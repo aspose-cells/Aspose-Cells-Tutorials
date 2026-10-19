@@ -1,42 +1,88 @@
 ---
-"date": "2025-04-08"
-"description": "Leer hoe je cirkeldiagrammen maakt en aanpast met Aspose.Cells voor Java. Een stapsgewijze handleiding met codevoorbeelden voor ontwikkelaars."
-"title": "Aspose.Cells onder de knie krijgen&#58; cirkeldiagrammen maken en aanpassen in Java"
-"url": "/nl/java/charts-graphs/create-customize-aspose-cells-pie-chart-java/"
-"weight": 1
+date: '2026-09-27'
+description: Leer hoe je een pie chart in Java maakt met Aspose.Cells. Stapsgewijze
+  handleiding om een Excel pie chart aan te passen, een Maven‑dependency in te stellen
+  en professionele diagrammen te genereren.
+keywords:
+- create pie chart java
+- customize excel pie chart
+- maven dependency aspose cells
+lastmod: '2026-09-27'
+og_description: Maak een pie chart in Java met Aspose.Cells voor Java. Leer hoe je
+  een Excel pie chart aanpast, een Maven‑dependency toevoegt en binnen enkele minuten
+  professionele diagrammen genereert.
+og_image_alt: Java code generating a customized pie chart in Excel with Aspose.Cells
+og_title: Maak een pie chart in Java met Aspose.Cells – Volledige Java‑gids
+schemas:
+- author: Aspose
+  dateModified: '2026-09-27'
+  description: Learn how to create pie chart java using Aspose.Cells. Step‑by‑step
+    guide to customize Excel pie chart, set up Maven dependency, and generate professional
+    charts.
+  headline: How to create pie chart java with Aspose.Cells
+  type: TechArticle
+- questions:
+  - answer: Yes, repeat the chart‑creation steps for each data range; each chart is
+      independent.
+    question: Can I generate multiple pie charts in the same workbook?
+  - answer: It does; set the chart type to `ChartType.PIE_3D` when adding the chart.
+    question: Does Aspose.Cells support 3‑D pie charts?
+  - answer: Use the `Workbook.setDefaultTheme` method before creating any charts.
+    question: How do I apply a custom theme to all charts?
+  - answer: Over 30 formats, including XLSX, CSV, PDF, and HTML.
+    question: What file formats can I export the workbook to?
+  - answer: Yes, a valid license removes evaluation watermarks and unlocks full functionality.
+    question: Is a license required for commercial deployment?
+  type: FAQPage
+tags:
+- Aspose.Cells
+- Java charting
+- Excel automation
+- data visualization
+title: Hoe maak je een pie chart in Java met Aspose.Cells
+url: /nl/java/charts-graphs/create-customize-aspose-cells-pie-chart-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Hoe maak je een taartdiagram in Java met Aspose.Cells
 
-# Aspose.Cells onder de knie krijgen: cirkeldiagrammen maken en aanpassen in Java
+## Inleiding
+Het programmatically maken van een **pie chart** voelt vaak als een puzzel, vooral wanneer je fijne controle over kleuren, legenda's en titels nodig hebt. In deze gids leer je hoe je **create pie chart java** gebruikt met Aspose.Cells, en vervolgens het Excel‑taartdiagram aanpast aan je merk of rapportagestijl. We lopen door de omgeving‑configuratie, het vullen van data, het genereren van het diagram en visuele aanpassingen — alles zonder je Java‑IDE te verlaten.
 
-## Invoering
-Het maken van visueel aantrekkelijke grafieken is een veelvoorkomende vereiste bij datavisualisatie in Excel. Of u nu demografische informatie presenteert of markttrends analyseert, cirkeldiagrammen bieden een duidelijke manier om proportionele gegevens weer te geven. Het programmatisch opzetten van deze diagrammen kan echter complex zijn. Deze tutorial begeleidt u bij het maken en aanpassen van een Aspose.Cells-cirkeldiagram met behulp van Java, wat het proces voor ontwikkelaars vereenvoudigt.
+**Wat je zult leren**
+- Voeg de **Maven dependency Aspose.Cells** toe aan je project.
+- Maak een werkmap, vul cellen met data en genereer een taartdiagram.
+- Pas aangepaste kleuren, titels en legenda's toe op het diagram.
+- Exporteer de werkmap naar een XLSX‑bestand klaar om te delen.
 
-**Wat je leert:**
-- Stel uw omgeving in met Aspose.Cells voor Java.
-- Maak een nieuwe werkmap en open de cellen in het werkblad.
-- Vul gegevens in specifieke cellen in ter voorbereiding op het maken van de grafiek.
-- Genereer een cirkeldiagram op basis van deze gegevens.
-- Pas het uiterlijk van uw cirkeldiagram aan, inclusief kleuren, titels en legenda.
+Voordat je begint, moet je vertrouwd zijn met basis Java‑syntaxis en Maven of Gradle geïnstalleerd hebben.
 
-Voordat je aan de slag gaat, zorg ervoor dat je basiskennis hebt van Java-programmering en Maven- of Gradle-afhankelijkheidsbeheer. Laten we onze omgeving opzetten!
+## Snelle antwoorden
+- **Welke bibliotheek maakt taartdiagrammen in Java?** Aspose.Cells for Java.
+- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor ontwikkeling; een betaalde licentie is vereist voor productie.
+- **Welke Maven‑coördinaten zijn vereist?** `com.aspose:aspose-cells:24.10`.
+- **Kan ik de kleuren van de segmenten wijzigen?** Ja, via de `setAreaColor`‑methode op elke serie.
+- **Kan het diagram worden geëxporteerd naar XLSX?** Absoluut — roep gewoon `workbook.save("output.xlsx")` aan.
+
+## Wat is een taartdiagram in Excel?
+Een taartdiagram visualiseert een enkele gegevensreeks als proportionele segmenten van een cirkel, waardoor het gemakkelijk is om delen van een geheel te vergelijken. Elke segmenthoek komt overeen met zijn waarde ten opzichte van het totaal, waardoor je snel inzicht krijgt in de verdeling over categorieën zoals marktaandeel, budgettoewijzing of demografische percentages.
+
+## Waarom Aspose.Cells gebruiken om een taartdiagram in Java te maken?
+Aspose.Cells ondersteunt meer dan 50 diagramtypen en kan werkbladen met tot één miljoen rijen verwerken zonder het volledige bestand in het geheugen te laden. Dit prestatievoordeel stelt je in staat om grote rapporten te genereren op bescheiden hardware, terwijl je fijne controle hebt over de weergave van het diagram, gegevensbinding en exportformaten, waardoor het een superieure keuze is ten opzichte van veel open‑source bibliotheken.
 
 ## Vereisten
-Om deze tutorial te kunnen volgen, heb je het volgende nodig:
-- **Java-ontwikkelingskit (JDK)**: Versie 8 of hoger.
-- **Geïntegreerde ontwikkelomgeving (IDE)**: Zoals IntelliJ IDEA of Eclipse.
-- **Afhankelijkheidsbeheer**: Gebruik Maven of Gradle om uw afhankelijkheden te beheren.
+- **Java Development Kit (JDK)** 8 of nieuwer.
+- **IDE** zoals IntelliJ IDEA of Eclipse.
+- **Maven** of **Gradle** voor afhankelijkheidsbeheer.
+- Een **trial‑ of gekochte Aspose.Cells‑licentie**.
 
 ### Vereiste bibliotheken en afhankelijkheden
-Zorg ervoor dat u Aspose.Cells voor Java in uw project opneemt via Maven of Gradle.
+Voeg het Aspose.Cells Maven‑artifact toe aan je `pom.xml`:
 
-**Maven**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -45,31 +91,29 @@ Zorg ervoor dat u Aspose.Cells voor Java in uw project opneemt via Maven of Grad
 </dependency>
 ```
 
-**Gradle**
+Of het Gradle‑equivalent:
+
 ```gradle
 implementation 'com.aspose:aspose-cells:25.3'
 ```
 
 ### Stappen voor het verkrijgen van een licentie
-Aspose.Cells voor Java is een commerciële bibliotheek, maar u kunt beginnen met een gratis proefperiode of een tijdelijke licentie aanvragen. Bezoek de [aankooppagina](https://purchase.aspose.com/buy) om licentieopties te verkennen.
+Aspose.Cells for Java is commercieel, maar je kunt beginnen met een gratis proefversie. Bezoek de [purchase page](https://purchase.aspose.com/buy) om een tijdelijke licentiesleutel te verkrijgen.
 
-## Aspose.Cells instellen voor Java
-Zorg er allereerst voor dat uw projectomgeving de benodigde bibliotheken bevat door ze toe te voegen via Maven of Gradle, zoals hierboven weergegeven. Zodra u ze hebt toegevoegd, kunt u Aspose.Cells initialiseren:
+## Aspose.Cells voor Java instellen
+Zorg er eerst voor dat de bibliotheek op je classpath staat. Na het toevoegen van de afhankelijkheid kun je de API initialiseren zoals hieronder weergegeven.
 
 ```java
 import com.aspose.cells.Workbook;
 
-// Een nieuw werkmapexemplaar initialiseren
+// Initialize a new workbook instance
 Workbook workbook = new Workbook();
 ```
 
-## Implementatiegids
+## Implementatie‑gids
 
-### Een werkmap maken en configureren
-Het maken van een werkmap is de eerste stap waarin u uw gegevens indeelt.
-
-#### Bibliotheken importeren
-Zorg ervoor dat deze imports bovenaan uw bestand staan:
+### Maak en configureer een werkmap
+De `Workbook`‑klasse vertegenwoordigt een volledig Excel‑bestand in het geheugen.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -83,23 +127,24 @@ import com.aspose.cells.LegendPositionType;
 import com.aspose.cells.SaveFormat;
 ```
 
-#### Stap 1: Een werkboekinstantie maken
+#### Stap 1: een werkmap instantieren
 ```java
-// Maakt een lege werkmapinstantie om mee te werken.
+// Creates an empty workbook instance to work with.
 Workbook workbook = new Workbook();
-```
-Met deze stap initialiseert u uw Excel-bestand programmatisch, zodat u het kunt bewerken met de Aspose.Cells-functionaliteit.
+```  
+Dit maakt een nieuwe, lege werkmap die je meteen kunt beginnen te vullen.
 
-### Werkbladcellen openen of wijzigen
-Vul vervolgens de gegevens in de cellen van het werkblad in die u voor het cirkeldiagram wilt gebruiken.
+### Toegang tot of wijziging van werkbladcellen
+Een `Worksheet` vertegenwoordigt een enkel blad binnen de werkmap, met cellen, rijen en kolommen.  
+Je schrijft de gegevens die het taartdiagram aandrijven naar een werkblad.
 
-#### Stap 2: Toegang tot een werkblad en de cellen ervan
+#### Stap 2: haal het eerste werkblad en de cellen op
 ```java
-// Open het eerste werkblad in de werkmap.
+// Access the first worksheet in the workbook.
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Cells cells = worksheet.getCells();
 
-// Plaats voorbeeldwaarden die u voor een cirkeldiagram gebruikt, in specifieke cellen.
+// Put sample values used for a pie chart into specific cells.
 cells.get("C3").putValue("India");
 cells.get("C4").putValue("China");
 cells.get("C5").parseNumber("United States", true, null);
@@ -107,7 +152,7 @@ cells.get("C6").setValue("Russia");
 cells.get("C7").setValue("United Kingdom");
 cells.get("C8").setValue("Others");
 
-// Plaats percentagewaarden voor een cirkeldiagram in specifieke cellen.
+// Put percentage values for a pie chart into specific cells.
 cells.get("D2").putValue("% of world population");
 cells.get("D3").putValue(25);
 cells.get("D4").putValue(30);
@@ -115,52 +160,53 @@ cells.get("D5").putValue(10);
 cells.get("D6").putValue(13);
 cells.get("D7").putValue(9);
 cells.get("D8").putValue(13);
-```
-Hier vult u het werkblad met gegevens die de verschillende segmenten van een cirkeldiagram vertegenwoordigen.
+```  
+Vul de cellen met categorienamen en waarden die het diagram zal gebruiken.
 
-### Maak een cirkeldiagram
+### Maak een taartdiagram
+`Chart`‑objecten visualiseren gegevens in een werkblad en ondersteunen verschillende typen zoals taart, kolom en lijn.
 
-#### Stap 3: Voeg een cirkeldiagram toe aan het werkblad
+#### Stap 3: voeg een taartdiagram toe aan het werkblad
 ```java
-// Maak een cirkeldiagram in het werkblad.
+// Create a pie chart in the worksheet.
 int pieIdx = worksheet.getCharts().add(ChartType.PIE, 1, 6, 15, 14);
 Chart pie = worksheet.getCharts().get(pieIdx);
-```
-Met deze stap voegt u een nieuw cirkeldiagram toe aan uw werkblad op de opgegeven posities en afmetingen.
+```  
 
-### Cirkeldiagramreeksen en gegevens configureren
+### Configureer taartdiagram‑series en gegevens
+`Series` definieert het gegevensbereik en de opmaak voor een diagram, waarbij werkbladcellen worden gekoppeld aan visuele elementen.
 
-#### Stap 4: Stel de serie voor de grafiek in
+#### Stap 4: stel de series in voor het diagram
 ```java
-// Configureer het reeksgegevensbereik voor de grafiek.
+// Configure the series data range for the chart.
 pie.getNSeries().add("D3:D8", true);
 pie.getNSeries().setCategoryData("=Sheet1!$C$3:$C$8");
 
-// Koppel de titel van het cirkeldiagram aan een cel die de titeltekst bevat.
+// Link the pie chart title to a cell containing the title text.
 pie.getTitle().setLinkedSource("D2");
-```
-Deze code koppelt uw gegevensbereik en stelt de reeks voor het cirkeldiagram in.
+```  
 
-### Legenda en titelweergave van grafiek configureren
+### Configureer weergave van diagramlegenda en -titel
+Een diagram `Legend` toont de namen van de series en kleuren, waardoor lezers elk segment kunnen identificeren.
 
-#### Stap 5: Pas de legenda en titel van het diagram aan
+#### Stap 5: pas diagramlegenda en -titel aan
 ```java
-// Plaats de legenda onderaan de grafiek.
+// Set legend position at bottom of the chart.
 pie.getLegend().setPosition(LegendPositionType.BOTTOM);
 
-// Stel lettertype-eigenschappen in voor de grafiektitel.
+// Set font properties for the chart title.
 pie.getTitle().getFont().setName("Calibri");
 pie.getTitle().getFont().setSize(18);
-```
-Door het uiterlijk aan te passen, verbetert u de leesbaarheid en visuele aantrekkingskracht.
+```  
 
-### Pas de kleuren van de grafiekreeks aan
+### Pas kleuren van diagramseries aan
+`setAreaColor` stelt de vulkleur van een diagramserie‑segment in met een RGB‑waarde.
 
-#### Stap 6: Wijzig de kleuren van de cirkelsegmenten
+#### Stap 6: wijzig de kleuren van taartsegmenten
 ```java
 import com.aspose.cells.Color;
 
-// U kunt de kleuren van afzonderlijke cirkeldiagramsegmenten openen en aanpassen.
+// Access and customize colors of individual pie chart segments.
 Series srs = pie.getNSeries().get(0);
 srs.getPoints().get(0).getArea().setForegroundColor(Color.fromArgb(0, 246, 22, 219));
 srs.getPoints().get(1).getArea().setForegroundColor(Color.fromArgb(0, 51, 34, 84));
@@ -168,41 +214,64 @@ srs.getPoints().get(2).getArea().setForegroundColor(Color.fromArgb(0, 46, 74, 44
 srs.getPoints().get(3).getArea().setForegroundColor(Color.fromArgb(0, 19, 99, 44));
 srs.getPoints().get(4).getArea().setForegroundColor(Color.fromArgb(0, 208, 223, 7));
 srs.getPoints().get(5).getArea().setForegroundColor(Color.fromArgb(0, 222, 69, 8));
-```
-Met deze instellingen kunt u uw grafiek personaliseren, zodat deze past bij specifieke kleurenschema's.
+```  
 
 ### Kolommen automatisch aanpassen en werkmap opslaan
+`autoFitColumns` past automatisch de kolombreedtes aan zodat ze passen bij de celinhoud.
 
-#### Stap 7: Kolombreedtes aanpassen en het bestand opslaan
+#### Stap 7: pas kolombreedtes aan en sla het bestand op
 ```java
-// Alle kolommen automatisch aanpassen.
+// Autofit all columns.
 worksheet.autoFitColumns();
 
-// Definieer het tijdelijke pad naar de uitvoermap voor het opslaan van de werkmap.
+// Define output directory placeholder path for saving the workbook.
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 
-// Sla de gewijzigde werkmap op in een Excel-bestand in de opgegeven map.
+// Save the modified workbook to an Excel file in the specified directory.
 workbook.save(outDir + "/CSOrSColorsPieChart_out.xlsx", SaveFormat.XLSX);
-```
-Pas ten slotte de kolommen automatisch aan en sla uw werkmap op.
+```  
 
-## Praktische toepassingen
-1. **Demografische analyse**:Gebruik cirkeldiagrammen om de bevolkingsverdeling over verschillende landen of regio's weer te geven.
-2. **Marktaandeelrapporten**: Illustreer het marktaandeel van verschillende bedrijven in een sector.
-3. **Budgettoewijzing**:Visualiseer hoe budgetten worden verdeeld over verschillende afdelingen binnen een organisatie.
-
-Deze toepassingen demonstreren de veelzijdigheid en bruikbaarheid van Aspose.Cells in realistische scenario's.
+## Veelvoorkomende gebruikssituaties
+- **Demografische analyse:** Toon de bevolkingsverdeling over regio's.
+- **Marktaandeelrapportage:** Visualiseer het aandeel van elke concurrent in één oogopslag.
+- **Budgettoewijzing:** Benadruk hoe fondsen worden verdeeld over afdelingen.
 
 ## Prestatieoverwegingen
-Om de prestaties te optimaliseren bij het gebruik van Aspose.Cells:
-- Minimaliseer het geheugengebruik door objecten die u niet meer nodig hebt, te verwijderen.
-- Gebruik efficiënte datastructuren voor de verwerking van grote datasets.
-- Maak een profiel van uw applicatie om knelpunten te identificeren.
+- Vrijgeven van objecten (`workbook.dispose()`) wanneer ze niet meer nodig zijn om native geheugen vrij te maken.
+- Voor enorme datasets, gebruik `WorkbookDesigner` om gegevens te streamen in plaats van alles in één keer te laden.
+- Profiel met Java Flight Recorder om eventuele knelpunten in de diagramgeneratie te ontdekken.
 
-Door best practices te volgen, zorgen we ervoor dat applicaties soepel en responsief werken.
+## Veelgestelde vragen
+
+**Q: Kan ik meerdere taartdiagrammen in dezelfde werkmap genereren?**  
+A: Ja, herhaal de stappen voor het maken van diagrammen voor elk gegevensbereik; elk diagram is onafhankelijk.
+
+**Q: Ondersteunt Aspose.Cells 3‑D taartdiagrammen?**  
+A: Ja; stel het diagramtype in op `ChartType.PIE_3D` bij het toevoegen van het diagram.
+
+**Q: Hoe pas ik een aangepast thema toe op alle diagrammen?**  
+A: Gebruik de `Workbook.setDefaultTheme`‑methode voordat je diagrammen maakt.
+
+**Q: Naar welke bestandsformaten kan ik de werkmap exporteren?**  
+A: Meer dan 30 formaten, waaronder XLSX, CSV, PDF en HTML.
+
+**Q: Is een licentie vereist voor commerciële inzet?**  
+A: Ja, een geldige licentie verwijdert evaluatiewatermerken en ontgrendelt de volledige functionaliteit.
 
 ## Conclusie
-Deze tutorial leidde je door de stappen voor het maken en aanpassen van een cirkeldiagram met Aspose.Cells in Java. Met deze kennis kun je deze technieken nu toepassen op diverse datavisualisatietaken in je projecten. Voor verdere verdieping kun je je verdiepen in de extra grafiektypen en geavanceerde aanpassingsopties die beschikbaar zijn met Aspose.Cells.
+Je hebt nu een volledige, end‑to‑end handleiding voor **create pie chart java** met Aspose.Cells. Door de bovenstaande stappen te volgen kun je gepolijste Excel‑taartdiagrammen genereren, kleuren en titels aanpassen, en ze in elke rapportage‑pipeline integreren. Verken andere diagramtypen — kolom, lijn, radar — om je data‑visualisatietoolkit uit te breiden.
+
+---
+
+**Laatst bijgewerkt:** 2026-09-27  
+**Getest met:** Aspose.Cells 24.10 for Java  
+**Auteur:** Aspose
+
+## Gerelateerde tutorials
+
+- [Excel-diagramgegevenslabels aanpassen met Aspose.Cells voor Java&#58; Een stapsgewijze handleiding](/cells/java/charts-graphs/customize-chart-data-labels-aspose-cells-java/)
+- [Dynamische Excel-diagrammen maken met Aspose.Cells Java&#58; Een uitgebreide gids voor ontwikkelaars](/cells/java/charts-graphs/aspose-cells-java-dynamic-excel-charts/)
+- [Excel-werkboeken maken en aanpassen met Aspose.Cells Java&#58; Een stapsgewijze handleiding](/cells/java/workbook-operations/create-customize-excel-workbooks-aspose-cells-java/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

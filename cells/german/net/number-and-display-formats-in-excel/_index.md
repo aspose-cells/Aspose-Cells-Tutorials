@@ -46,6 +46,8 @@ Erfahren Sie, wie Sie Datum- und Uhrzeitwerte in C# in das ISO‑Format konverti
 Erfahren Sie, wie Sie Währungswerte in einer Grid‑Spalte mit Aspose.Cells für .NET formatieren und anpassen.
 ### [Zahlenformat in Excel anwenden – Schritt‑für‑Schritt‑Anleitung zum Formatieren von Spalten](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
 Lernen Sie, wie Sie mit Aspose.Cells für .NET Spalten in Excel schnell und präzise formatieren, inklusive Zahlen-, Währungs- und Prozentformate.
+### [Wie man Excel-Zahlen in C# rundet – vollständiger Programmierleitfaden](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+Erfahren Sie, wie Sie Zahlen in Excel mit C# runden und dabei Aspose.Cells für .NET einsetzen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

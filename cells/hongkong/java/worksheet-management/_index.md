@@ -89,6 +89,9 @@ Aspose.Words Java 程式碼教程
 ### [使用 Aspose.Cells for Java 在 Excel 中隱藏行和列：綜合指南](./hide-rows-columns-aspose-cells-java/)
 了解如何使用 Java 的 Aspose.Cells 有效地隱藏 Excel 電子表格中的行和列。立即增強您的資料管理技能！
 
+### [如何使用 Aspose.Cells (Java) 清除 Excel 中的自動篩選](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+了解如何使用 Aspose.Cells for Java 在 Excel 工作表中清除自動篩選，以簡化資料處理流程。
+
 ### [使用 Aspose.Cells Java 輕鬆隱藏和儲存 Excel 選項卡](./hide-save-excel-tabs-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 隱藏標籤和儲存工作簿來簡化 Excel 工作流程。非常適合提高工作表管理的效率。
 
@@ -107,7 +110,8 @@ Aspose.Words Java 程式碼教程
 ### [使用 Aspose.Cells Java 在 Excel 中取消隱藏行和列：逐步指南](./unhide-rows-columns-excel-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 輕鬆取消隱藏 Excel 檔案中的行和列。使用本綜合指南實現資料管理自動化。
 
-
+### [如何在 Aspose.Cells for Java 中建立重複的詳細工作表](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+了解如何使用 Aspose.Cells for Java 複製詳細工作表，以便在工作簿中重複使用資料。
 
 ## 其他資源
 

@@ -39,6 +39,8 @@ Aprenda a guardar un libro de Excel como archivo CSV usando C# con Aspose.Cells 
 Aprenda a guardar archivos Excel como CSV en C# con Aspose.Cells, paso a paso, para exportar datos de forma sencilla y eficiente.
 ### [Crear nuevo libro de trabajo y exportar a CSV – Guía paso a paso en C#](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 Aprenda a crear un nuevo libro de trabajo y exportarlo a CSV con Aspose.Cells para .NET usando C#. Siga la guía paso a paso.
+### [Cómo crear CSV desde Excel usando Aspose.Cells en C#](./how-to-create-csv-from-excel-using-aspose-cells-in-c/)
+Aprenda a generar archivos CSV a partir de un libro de Excel con Aspose.Cells para .NET en C#.
 
 
 
@@ -59,6 +61,14 @@ Aprenda a crear un libro de trabajo en C# y exportarlo a CSV con Aspose.Cells pa
 Aprenda a convertir libros de Excel a archivos CSV usando Aspose.Cells para .NET con ejemplos completos en C#.
 ### [Exportar tabla a CSV en C# – Guía completa de programación](./export-table-to-csv-in-c-complete-programming-guide/)
 Aprenda a exportar una tabla a CSV usando Aspose.Cells para .NET con ejemplos completos en C#.
+### [Cómo exportar CSV desde Excel con C# – Guía completa](./how-to-export-csv-from-excel-with-c-complete-guide/)
+Aprenda a exportar datos de Excel a archivos CSV usando C# con Aspose.Cells, paso a paso y con ejemplos prácticos.
+### [Guardar libro de trabajo como CSV – Guía completa para exportar Excel a CSV con dígitos controlados](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-w/)
+Aprenda a guardar libros de Excel como archivos CSV, controlando la precisión de los dígitos y manteniendo el formato de datos.
+### [Cómo guardar un libro de trabajo como CSV con formato preciso usando Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
+Aprenda a guardar un libro de trabajo como CSV con formato preciso usando Aspose.Cells para .NET.
+### [Guardar libro de trabajo como CSV en C# – Guía completa de programación](./save-workbook-as-csv-in-c-complete-programming-guide/)
+Aprenda a guardar un libro de trabajo como CSV en C# con Aspose.Cells, siguiendo una guía completa paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
