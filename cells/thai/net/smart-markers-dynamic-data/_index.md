@@ -176,6 +176,7 @@
 เรียนรู้วิธีใช้ Range Smart Marker ใน Aspose.Cells เพื่อจัดการข้อมูลที่ซ้อนกันใน C# อย่างละเอียดและครบถ้วน
 ### [นำเข้า JSON ไปยัง Excel ด้วย C# – คู่มือขั้นตอนโดยละเอียด](./import-json-to-excel-in-c-step-by-step-guide/)
 เรียนรู้วิธีนำเข้าไฟล์ JSON ไปยังสเปรดชีต Excel ด้วย C# อย่างละเอียดและง่ายดาย
+### [วิธีสร้างรายการรายงาน Excel ด้วย Aspose.Cells Smart Markers](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

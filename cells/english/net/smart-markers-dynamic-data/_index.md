@@ -163,6 +163,8 @@ Learn how to generate Excel files programmatically with Aspose.Cells Smart Marke
 Learn how to use range smart markers in C# to process nested data structures efficiently in Aspose.Cells.
 ### [Load Excel Template in C# – Generate Multiple Sheets Quickly](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
 Learn how to load an Excel template in C# and quickly generate multiple sheets using Aspose.Cells for .NET.
+### [How to create excel report list with Aspose.Cells smart markers](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+Learn how to generate a list‑style Excel report using Aspose.Cells smart markers in .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -107,6 +107,8 @@ Scopri come creare una cartella di lavoro Excel e dividere i dati usando WRAPCOL
 Scopri come applicare una formula array in Excel usando Aspose.Cells per .NET con C# in questa guida passo passo.
 ### [Come utilizzare WRAPCOLS – Guida completa per l'automazione Excel in C#](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
 Scopri come usare WRAPCOLS per gestire colonne multiple in Excel con Aspose.Cells per .NET in C#.
+### [Come forzare il calcolo delle formule e utilizzare lambda in Excel con C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Scopri come forzare il calcolo delle formule e sfruttare le funzioni lambda in Excel usando C# con Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

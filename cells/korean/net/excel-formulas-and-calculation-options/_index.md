@@ -103,6 +103,8 @@ Aspose.Cells for .NET을 활용해 C#로 Excel에서 코탄젠트 함수를 계�
 Aspose.Cells for .NET을 사용하여 Excel에서 WRAPCOLS 함수를 활용하는 방법을 단계별로 안내합니다.
 ### [WRAPCOLS 사용법 – C# Excel 자동화를 위한 완전 가이드](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
 Aspose.Cells for .NET을 사용하여 WRAPCOLS 기능을 활용하는 방법을 단계별로 안내합니다.
+### [C#를 사용하여 Excel에서 수식 강제 계산 및 람다 사용 방법](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Aspose.Cells for .NET을 사용하여 C#로 Excel 수식을 강제로 계산하고 람다 함수를 활용하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

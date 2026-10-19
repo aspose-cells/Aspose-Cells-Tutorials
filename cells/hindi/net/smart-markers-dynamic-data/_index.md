@@ -158,6 +158,9 @@ C# में नेस्टेड JSON को पार्स करके JSON
 
 ### [स्मार्ट मार्कर के साथ वर्कबुक बनाना – आउटपुट हाई लो](./how-to-create-workbook-with-smart-markers-output-high-low/)
 
+### [Aspose.Cells स्मार्ट मार्कर के साथ एक्सेल रिपोर्ट सूची कैसे बनाएं](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+Aspose.Cells स्मार्ट मार्कर का उपयोग करके एक्सेल रिपोर्ट सूची बनाने की चरण‑दर‑चरण प्रक्रिया सीखें।
+
 ### [C# में मास्टर‑डिटेल रिपोर्ट बनाएं – स्मार्टमार्कर के साथ Excel टेम्पलेट भरें](./create-master-detail-report-in-c-populate-excel-template-wit/)
 C# में स्मार्टमार्कर का उपयोग करके मास्टर‑डिटेल रिपोर्ट बनाएं और Excel टेम्पलेट को डेटा से भरें।
 

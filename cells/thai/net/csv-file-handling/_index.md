@@ -63,6 +63,8 @@
 เรียนรู้วิธีส่งออกไฟล์ CSV จาก Excel ด้วย C# อย่างละเอียดและครบถ้วนในขั้นตอนง่ายๆ
 ### [บันทึกเวิร์กบุ๊กเป็น CSV – คู่มือครบวงจรในการส่งออก Excel เป็น CSV ด้วยการควบคุมจำนวนหลักทศนิยม](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-w/)
 เรียนรู้วิธีบันทึกไฟล์ Excel เป็น CSV อย่างละเอียด พร้อมการควบคุมจำนวนทศนิยมเพื่อผลลัพธ์ที่แม่นยำ
+### [วิธีบันทึกเวิร์กบุ๊กเป็น CSV ด้วยการจัดรูปแบบที่แม่นยำโดยใช้ Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
+เรียนรู้วิธีบันทึกเวิร์กบุ๊กเป็นไฟล์ CSV พร้อมการจัดรูปแบบที่แม่นยำด้วย Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

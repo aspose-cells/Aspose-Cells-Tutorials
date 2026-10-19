@@ -57,6 +57,7 @@
 ### [एक्सेल में प्रोग्रामेटिक रूप से सर्कुलर संदर्भ का पता लगाना](./detecting-circular-reference/)
 ### [एक्सेल प्रोग्रामेटिक रूप से प्रत्यक्ष गणना सूत्र](./direct-calculation-formula/)
 ### [कार्यपुस्तिका की सूत्र गणना को बाधित या रद्द करें](./interrupt-or-cancel-formula-calculation-of-workbook/)
+इस विस्तृत चरण-दर-चरण मार्गदर्शन में .NET के लिए Aspose.Cells का उपयोग करके Excel सूत्र गणना को बाधित करना सीखें।
 ### [एक्सेल में ऐड-इन फ़ंक्शन का उपयोग करके डेटा प्रोसेस करना](./processing-data-using-add-in-function/)
 ### [एक्सेल में ऐरे फ़ंक्शन का उपयोग करके डेटा प्रोसेसिंग](./processing-data-using-array-function/)
 ### [एक्सेल में अंतर्निहित फ़ंक्शन का उपयोग करके डेटा प्रोसेस करना](./processing-data-using-built-in-functions/)
@@ -81,6 +82,8 @@ C# और Aspose.Cells का उपयोग करके Excel में ए�
 ### [C# में Excel वर्कबुक बनाना और WRAPCOLS के साथ डेटा विभाजित करना](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
 ### [WRAPCOLS का उपयोग कैसे करें – C# एक्सेल ऑटोमेशन के लिए पूर्ण गाइड](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
 Aspose.Cells for .NET में WRAPCOLS फ़ंक्शन का उपयोग करके C# के साथ एक्सेल ऑटोमेशन को पूरी तरह समझें।
+### [C# के साथ Excel में फ़ॉर्मूला गणना को बाध्य करना और लैम्ब्डा का उपयोग करना](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+C# का उपयोग करके Excel में फ़ॉर्मूला की गणना को मजबूर करने और लैम्ब्डा फ़ंक्शन लागू करने का तरीका सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

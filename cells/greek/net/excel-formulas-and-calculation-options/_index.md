@@ -109,6 +109,8 @@
 Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel και να χωρίσετε δεδομένα χρησιμοποιώντας τη λειτουργία WRAPCOLS σε C#.
 ### [Πώς να χρησιμοποιήσετε το WRAPCOLS – Πλήρης οδηγός για αυτοματοποίηση Excel με C#](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
 Μάθετε πώς να χρησιμοποιήσετε τη λειτουργία WRAPCOLS για αποτελεσματική διαχείριση δεδομένων στο Excel με C#.
+### [Πώς να εξαναγκάσετε τον υπολογισμό τύπων και να χρησιμοποιήσετε lambda στο Excel με C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Μάθετε πώς να εξαναγκάσετε τον υπολογισμό τύπων και να αξιοποιήσετε τις συναρτήσεις λ-από (lambda) στο Excel χρησιμοποιώντας C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

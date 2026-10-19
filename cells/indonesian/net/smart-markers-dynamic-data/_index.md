@@ -183,6 +183,7 @@ Pelajari langkah demi langkah cara mengevaluasi formula menggunakan Smart Marker
 ### [Muat Template Excel di C# – Hasilkan Beberapa Lembar dengan Cepat](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
 ### [Impor JSON ke Excel di C# – panduan langkah demi langkah](./import-json-to-excel-in-c-step-by-step-guide/)
 Pelajari cara mengimpor data JSON ke file Excel menggunakan C# dengan Aspose.Cells dalam panduan langkah demi langkah.
+### [Cara membuat daftar laporan Excel dengan Smart Markers Aspose.Cells](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

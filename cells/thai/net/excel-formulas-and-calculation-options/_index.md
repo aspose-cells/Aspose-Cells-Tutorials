@@ -95,6 +95,8 @@ Excel มาพร้อมกับฟังก์ชันในตัวม�
 ### [วิธีสร้างไฟล์ Excel และแยกข้อมูลด้วย WRAPCOLS ใน C#](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
 เรียนรู้วิธีสร้างสมุดงาน Excel และแบ่งข้อมูลเป็นหลายคอลัมน์ด้วยฟังก์ชัน WRAPCOLS ใน C# อย่างละเอียด
 ### [วิธีใช้ WRAPCOLS – คู่มือฉบับสมบูรณ์สำหรับการทำอัตโนมัติ Excel ด้วย C#](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+### [วิธีบังคับให้คำนวณสูตรและใช้ lambda ใน Excel ด้วย C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+เรียนรู้วิธีบังคับให้สูตรคำนวณทันทีและใช้ฟังก์ชัน lambda ใน Excel ด้วย C# ผ่าน Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

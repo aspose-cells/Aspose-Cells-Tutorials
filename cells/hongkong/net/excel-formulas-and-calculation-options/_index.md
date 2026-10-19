@@ -97,6 +97,8 @@ Excel 隨附大量內建函數，可執行各種計算和資料操作。了解�
 了解如何使用 Aspose.Cells for .NET 以 C# 完整示例在 Excel 中運用 WRAPCOLS 函數，提升資料排版效率。
 ### [如何使用 WRAPCOLS – C# Excel 自動化完整指南](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
 透過本完整指南了解如何在 C# 中使用 Aspose.Cells 的 WRAPCOLS 功能進行 Excel 自動化。
+### [如何在 Excel 中使用 C# 強制公式計算與 Lambda](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+本教學說明如何使用 Aspose.Cells for .NET 於 C# 中強制公式計算並運用 Lambda 表達式。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

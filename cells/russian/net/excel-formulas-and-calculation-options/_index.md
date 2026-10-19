@@ -98,6 +98,9 @@ Excel поставляется с множеством встроенных фу
 ### [Как использовать WRAPCOLS – Полное руководство по автоматизации Excel на C#](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
 Освойте функцию WRAPCOLS в Aspose.Cells для .NET и автоматизируйте обработку данных в Excel с помощью C#.
 
+### [Как принудительно выполнить расчет формулы и использовать lambda в Excel с C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Узнайте, как принудительно пересчитать формулы и применять функции lambda в Excel с помощью C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

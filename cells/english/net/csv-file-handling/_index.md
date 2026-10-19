@@ -63,6 +63,8 @@ Learn how to export a table to CSV using Aspose.Cells for .NET with a complete C
 Learn how to export CSV from Excel using C# with Aspose.Cells for .NET. Follow a complete step‑by‑step guide for efficient data export.
 ### [Save Workbook as CSV – Complete Guide to Export Excel to CSV with Controlled Digits](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-w/)
 Learn how to export Excel workbooks to CSV using Aspose.Cells for .NET, controlling digit precision and formatting for accurate data output.
+### [How to save workbook as CSV with precise formatting using Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
+Learn how to save an Aspose.Cells workbook as CSV while preserving exact formatting, number styles, and data precision.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

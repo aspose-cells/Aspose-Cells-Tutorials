@@ -88,6 +88,8 @@ Aspose.Cells for .NET を使用して、Excel で R1C1 数式を使ってデー�
 ### [C# で Excel の配列を作成する方法 – ステップバイステップ ガイド](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 ### [C# で Excel の余接関数を計算する方法 – 完全ガイド](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 ### [ExcelでWRAPCOLSを使用する方法 – 完全なC#例](./how-to-use-wrapcols-in-excel-complete-c-example/)
+### [C# で Excel の数式計算を強制し、ラムダを使用する方法](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Aspose.Cells for .NET を使用して、C# で数式計算を強制し、ラムダ関数を活用する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

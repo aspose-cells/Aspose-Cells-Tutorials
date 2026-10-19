@@ -101,6 +101,8 @@ Naučte se, jak pomocí Aspose.Cells pro .NET aplikovat pole vzorce v Excelu v C
 Naučte se pomocí Aspose.Cells pro .NET v C# vytvořit sešit a rozdělit data pomocí funkce WRAPCOLS v několika jednoduchých krocích.
 ### [Jak použít WRAPCOLS – Kompletní průvodce pro C# automatizaci Excelu](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
 Naučte se, jak pomocí funkce WRAPCOLS efektivně rozdělit data v Excelu při automatizaci v C# s Aspose.Cells.
+### [Jak vynutit výpočet vzorce a použít lambda v Excelu s C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Naučte se vynutit výpočet vzorce a využít lambda výrazy v Excelu pomocí C# a Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

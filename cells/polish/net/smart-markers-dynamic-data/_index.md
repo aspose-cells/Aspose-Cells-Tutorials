@@ -152,10 +152,8 @@ Dowiedz się, jak automatycznie generować faktury w Excelu, dynamicznie nazywa�
 Dowiedz się, jak stworzyć obiekt danych głównych i automatycznie generować arkusz szczegółowy przy użyciu Smart Markers w Aspose.Cells.
 ### [Jak utworzyć hierarchię przy użyciu SmartMarker – przewodnik krok po kroku](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
 ### [Parsowanie zagnieżdżonego JSON w C# – Tworzenie ładunku JSON w C#](./parse-nested-json-c-create-json-payload-c/)
-Dowiedz się, jak analizować zagnieżdżone struktury JSON i generować odpowiedni ładunek JSON w języku C# przy użyciu Aspose.Cells.
 ### [Jak utworzyć skoroszyt z inteligentnymi znacznikami – Output High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
 ### [Utwórz raport master‑detail w C# – Wypełnij szablon Excela przy użyciu SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
-Dowiedz się, jak w C# stworzyć raport master‑detail, wypełniając szablon Excela przy użyciu SmartMarker w Aspose.Cells.
 ### [Zastosowanie SmartMarker w arkuszu w C# – Kompletny przewodnik](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
 Dowiedz się, jak zastosować SmartMarker w arkuszu Excel przy użyciu C#, krok po kroku, aby generować dynamiczne raporty.
 ### [Tworzenie pliku Excel programowo przy użyciu Aspose.Cells Smart Markers](./create-excel-programmatically-using-aspose-cells-smart-marke/)
@@ -173,6 +171,8 @@ Dowiedz się, jak wczytać szablon Excela w C# i szybko wygenerować wiele arkus
 Dowiedz się, jak używać zakresowych znaczników inteligentnych w Aspose.Cells, aby obsługiwać zagnieżdżone dane w C#.
 ### [Import JSON do Excela w C# – przewodnik krok po kroku](./import-json-to-excel-in-c-step-by-step-guide/)
 Dowiedz się, jak w prosty sposób zaimportować dane JSON do pliku Excel przy użyciu Aspose.Cells w C#.
+### [Jak utworzyć listę raportów Excel przy użyciu inteligentnych znaczników Aspose.Cells](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+Dowiedz się, jak generować listy raportów Excel przy użyciu inteligentnych znaczników Aspose.Cells w .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -63,6 +63,8 @@
 Узнайте, как экспортировать данные из Excel в CSV с помощью C# и Aspose.Cells, следуя подробному пошаговому руководству.
 ### [Сохранить книгу как CSV — Полное руководство по экспорту Excel в CSV с контролируемыми цифрами](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-w/)
 Узнайте, как сохранять рабочие книги Excel в CSV, управляя количеством знаков после запятой и форматом данных.
+### [Как сохранить книгу как CSV с точным форматированием с помощью Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
+Узнайте, как сохранить рабочую книгу в CSV с точным форматированием, используя возможности Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
