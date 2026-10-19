@@ -52,6 +52,8 @@ Leer hoe je tekst uit tandwiel-type SmartArt in Excel kunt extraheren met Aspose
 Vervang moeiteloos tekst in tekstvakken in uw Excel-sheets met Aspose.Cells voor .NET. Een stapsgewijze handleiding voor Excel-automatisering.
 ### [Tekst met vorm roteren in Excel](./rotate-text-shape-excel/)
 Leer hoe je tekst met vormen in Excel kunt roteren met Aspose.Cells voor .NET. Volg deze stapsgewijze handleiding voor een perfecte Excel-presentatie.
+### [Tekstvaklettergrootte wijzigen in Excel met C# – Complete gids](./change-textbox-font-size-in-excel-with-c-complete-guide/)
+Leer hoe u de lettergrootte van tekstvakken in Excel kunt aanpassen met Aspose.Cells voor .NET en C#. Inclusief stapsgewijze handleiding en codevoorbeeld.
 ### [Tegelafbeelding als textuur in vorm in Excel](./tile-picture-texture-shape-excel/)
 Leer hoe u een afbeelding als textuur kunt tegelen in Excel met behulp van Aspose.Cells voor .NET met deze eenvoudig te volgen, stapsgewijze zelfstudie.
 ### [Gloei-effect van vorm in Excel lezen](./read-glow-effect-shape-excel/)
@@ -68,6 +70,8 @@ Leer hoe u marges voor opmerkingen en vormen in Excel instelt met Aspose.Cells v
 Leer hoe u toegang krijgt tot niet-primitieve vormen in Excel met Aspose.Cells voor .NET. Ontdek stapsgewijze methoden in deze uitgebreide handleiding.
 ### [OLE-object vernieuwen in Excel](./refresh-ole-object-excel/)
 Leer hoe u OLE-objecten in Excel kunt vernieuwen met Aspose.Cells voor .NET met een stapsgewijze handleiding. Zo verbetert u uw Excel-automatiseringsvaardigheden naadloos.
+### [Maak tekst in tekstvak vet in Excel met C# – Stapsgewijze handleiding](./make-textbox-text-bold-in-excel-with-c-step-by-step-guide/)
+Leer hoe u tekst in een tekstvak vet maakt in Excel met Aspose.Cells voor .NET en C#. Inclusief stapsgewijze handleiding en codevoorbeeld.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

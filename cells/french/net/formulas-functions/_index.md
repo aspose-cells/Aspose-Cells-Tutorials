@@ -100,7 +100,16 @@ Apprenez à maîtriser les formules matricielles avec Aspose.Cells pour .NET. Ce
 Apprenez à spécifier la langue de vos fichiers Excel avec Aspose.Cells .NET. Améliorez l'accessibilité et la conformité de vos documents grâce à ce guide étape par étape pour l'internationalisation des paramètres de formule.
 
 ### [Mettre à jour les formules Excel Power Query avec Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
-Apprenez à mettre à jour par programmation les formules Power Query dans les classeurs Excel avec Aspose.Cells pour .NET. Maîtrisez la gestion des sources de données pour des rapports dynamiques.
+
+### [Créer un classeur Excel avec la formule EXPAND – Guide complet](./create-excel-workbook-with-expand-formula-complete-guide/)
+
+### [Comment utiliser WRAPCOLS en C# – Créer un classeur Excel avec les fonctions Wrap](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+Apprenez à utiliser la fonction WRAPCOLS en C# pour créer des classeurs Excel avec des colonnes enveloppées automatiquement.
+
+### [Créer un classeur Excel C# – Guide Lambda, SEQUENCE et EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+Apprenez à créer un classeur Excel en C# en utilisant les fonctions Lambda, SEQUENCE et EXPAND pour des calculs dynamiques.
+### [Comment calculer la cotangente dans Excel avec C# – Créer un classeur, utiliser EXPAND et enregistrer](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+Apprenez à calculer la cotangente dans Excel en C#, créer un classeur, utiliser la fonction EXPAND et enregistrer le fichier.
 
 ### [Comment utiliser SEQUENCE en C# – Créer un classeur Excel](./how-to-use-sequence-in-c-create-excel-workbook/)
 

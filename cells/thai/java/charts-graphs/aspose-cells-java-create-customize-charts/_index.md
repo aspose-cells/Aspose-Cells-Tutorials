@@ -1,9 +1,17 @@
 ---
-"date": "2025-04-08"
-"description": "บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Java"
-"title": "Aspose.Cells Java&#58; สร้างและปรับแต่งแผนภูมิ"
-"url": "/th/java/charts-graphs/aspose-cells-java-create-customize-charts/"
-"weight": 1
+date: '2026-04-08'
+description: เรียนรู้วิธีสร้างแผนภูมิคอลัมน์ใน Java ด้วย Aspose.Cells ครอบคลุมการสร้างแผนภูมิใน
+  Java, การเพิ่มแผ่นแผนภูมิ, และการส่งออกเวิร์กบุ๊กเป็น Excel.
+keywords:
+- generate column chart
+- create chart java
+- add chart sheet
+- populate excel cells
+- set chart title
+- export workbook excel
+title: สร้างแผนภูมิคอลัมน์ด้วยบทแนะนำ Aspose.Cells Java
+url: /th/java/charts-graphs/aspose-cells-java-create-customize-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,34 +20,34 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# สร้างแผนภูมิคอลัมน์ด้วย Aspose.Cells Java
 
-# การเรียนรู้การสร้างและปรับแต่งแผนภูมิด้วย Aspose.Cells Java
+ในแอปพลิเคชันที่ขับเคลื่อนด้วยข้อมูลในปัจจุบัน, **การสร้างแผนภูมิคอลัมน์** อย่างรวดเร็วและโดยโปรแกรมสามารถเปลี่ยนตัวเลขดิบให้เป็นข้อมูลเชิงภาพที่ชัดเจน ไม่ว่าคุณจะสร้างแดชบอร์ดรายงาน, เครื่องมือวิเคราะห์, หรือฟีเจอร์ส่งออกแบบง่าย, Aspose.Cells for Java มอบ API ที่ไหลลื่นเพื่อ **create chart java** โปรเจกต์โดยไม่ต้องจัดการกับ UI ของ Excel ในบทแนะนำนี้คุณจะได้เรียนรู้วิธีตั้งค่าห้องสมุด, **populate Excel cells**, เพิ่ม **chart sheet**, ปรับแต่ง **chart title**, และสุดท้าย **export workbook excel** ไปยังไฟล์
 
-ในโลกปัจจุบันที่ข้อมูลถูกขับเคลื่อน การสร้างภาพชุดข้อมูลที่ซับซ้อนถือเป็นสิ่งสำคัญสำหรับการตัดสินใจอย่างรอบรู้ ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น การสร้างแผนภูมิที่น่าสนใจในแอปพลิเคชันของคุณจะช่วยปรับปรุงประสบการณ์ของผู้ใช้ได้อย่างมาก บทช่วยสอนนี้จะแนะนำคุณตลอดขั้นตอนการใช้ Aspose.Cells สำหรับ Java เพื่อสร้างและปรับแต่งแผนภูมิได้อย่างง่ายดาย
+## คำตอบด่วน
+- **What does “generate column chart” mean?** มันสร้างการแสดงผลแบบแถบแนวตั้งจากข้อมูลตาราง  
+- **Which library is required?** Aspose.Cells for Java (มีการทดลองใช้ฟรี)  
+- **Do I need an Excel installation?** ไม่, ห้องสมุดทำงานโดยอิสระจาก Microsoft Excel.  
+- **Can I export to formats other than XLS?** ได้ – PDF, PNG, SVG, ฯลฯ, ผ่าน `workbook.save()`.  
+- **Is a license mandatory for production?** ใช่, จำเป็นต้องมีใบอนุญาตที่ซื้อหรือใบอนุญาตชั่วคราว
 
-## สิ่งที่คุณจะได้เรียนรู้
+## แผนภูมิคอลัมน์คืออะไร?
+แผนภูมิคอลัมน์แสดงชุดข้อมูลเป็นแถบแนวตั้ง ทำให้เปรียบเทียบค่าต่าง ๆ ระหว่างหมวดหมู่เช่น ภูมิภาค, เดือน, หรือสายผลิตภัณฑ์ได้ง่าย Aspose.Cells ให้คุณสร้างแผนภูมินี้ทั้งหมดด้วยโค้ด ให้คุณควบคุมข้อมูล, การจัดรูปแบบ, และรูปแบบผลลัพธ์ได้อย่างเต็มที่
 
-- วิธีการตั้งค่า Aspose.Cells สำหรับ Java
-- การสร้างและการตั้งชื่อแผ่นงาน
-- การเติมข้อมูลในเซลล์
-- การเพิ่มแผ่นงานแผนภูมิและการสร้างแผนภูมิคอลัมน์
-- การปรับแต่งแผนภูมิของคุณด้วยรูปภาพ ชื่อเรื่อง และการกำหนดค่าชุด
-- การบันทึกสมุดงาน
-
-ด้วยขั้นตอนเหล่านี้ คุณจะสามารถสร้างแผนภูมิที่สวยงามได้ในเวลาอันรวดเร็ว
+## ทำไมต้องใช้ Aspose.Cells เพื่อสร้าง chart java?
+- **No COM interop** – ทำงานบนระบบปฏิบัติการใดก็ได้ที่มี JVM.  
+- **Rich styling options** – ภาพ, การไล่สี, คำอธิบาย, และฟอนต์ที่กำหนดเอง.  
+- **High performance** – เหมาะสำหรับชุดข้อมูลขนาดใหญ่.  
+- **Multiple export formats** – XLS, XLSX, PDF, PNG, และอื่น ๆ.
 
 ## ข้อกำหนดเบื้องต้น
+- **Java Development Kit (JDK) 8+** installed.  
+- ความรู้พื้นฐานของ Java และความคุ้นเคยกับแนวคิดของ Excel
 
-ก่อนที่จะดำดิ่งลงไปใน Aspose.Cells สำหรับ Java ให้แน่ใจว่าคุณมี:
+### ไลบรารีที่จำเป็น
+เพิ่ม Aspose.Cells ไปยังโปรเจกต์ของคุณโดยใช้หนึ่งในโค้ดตัวอย่างด้านล่าง
 
-- **Java Development Kit (JDK) 8 หรือใหม่กว่า** ติดตั้งอยู่บนเครื่องของคุณแล้ว
-- ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และความคุ้นเคยกับการทำงานของ Excel
-  
-### ห้องสมุดที่จำเป็น
-
-ในการเริ่มต้นใช้งาน Aspose.Cells โปรดรวมการอ้างอิงต่อไปนี้ไว้ในเครื่องมือการจัดการโครงการของคุณ
-
-#### เมเวน
+#### Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -48,74 +56,58 @@
 </dependency>
 ```
 
-#### แกรเดิล
+#### Gradle
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-cells', version: '25.3'
 ```
 
-### การขอใบอนุญาต
+### การรับใบอนุญาต
+Aspose มีการทดลองใช้ฟรีและใบอนุญาตชั่วคราวสำหรับการทดสอบอย่างกว้างขวาง
 
-Aspose เสนอบริการทดลองใช้งานฟรี ช่วยให้คุณทดสอบฟีเจอร์ทั้งหมดของไลบรารีได้ก่อนซื้อ นอกจากนี้ คุณยังสามารถขอรับใบอนุญาตชั่วคราวเพื่อการทดสอบแบบครอบคลุมได้อีกด้วย
-
-- **ทดลองใช้งานฟรี**- [ดาวน์โหลดฟรี](https://releases.aspose.com/cells/java/)
-- **ใบอนุญาตชั่วคราว**- [ขอคำร้องได้ที่นี่](https://purchase.aspose.com/temporary-license/)
+- **Free Trial**: [Download Free](https://releases.aspose.com/cells/java/)  
+- **Temporary License**: [Request Here](https://purchase.aspose.com/temporary-license/)
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
-เมื่อคุณเตรียมสภาพแวดล้อมของคุณให้พร้อมแล้ว ให้เริ่มต้นไลบรารีโดยสร้างใหม่ `Workbook` ตัวอย่างนี้จะเป็นพื้นฐานสำหรับการสร้างแผนภูมิของเรา
+ขั้นแรก, สร้างอินสแตนซ์ `Workbook` – ซึ่งจะเป็นผ้าใบสำหรับข้อมูลและแผนภูมิของเรา
 
 ```java
 import com.aspose.cells.Workbook;
 
-// เริ่มต้นสมุดงานใหม่
+// Initialize a new Workbook
 Workbook workbook = new Workbook();
 ```
 
-## คู่มือการใช้งาน
+## คู่มือขั้นตอนโดยละเอียด
 
-### 1. การสร้างและตั้งชื่อเวิร์กชีต
+### 1. สร้างและตั้งชื่อ Worksheet
+เราจะเก็บข้อมูลดิบในชีทที่ชื่อ **Data**.
 
-#### ภาพรวม
-เริ่มต้นด้วยการตั้งค่าแผ่นข้อมูลของคุณซึ่งจะเก็บข้อมูลที่จำเป็นทั้งหมดสำหรับแผนภูมิ
-
-#### ขั้นตอน:
-
-**สร้างสมุดงานใหม่**
 ```java
 import com.aspose.cells.Worksheet;
 
-// สร้างอินสแตนซ์เวิร์กบุ๊กใหม่
+// Create a new Workbook instance
 Workbook workbook = new Workbook();
 ```
 
-**ตั้งชื่อแผ่นงาน**
-
 ```java
-// เข้าถึงเวิร์กชีตแรกและตั้งชื่อเป็น "ข้อมูล"
+// Access the first worksheet and set its name to "Data"
 Worksheet sheet = workbook.getWorksheets().get(0);
 sheet.setName("Data");
 ```
 
-### 2. การเติมข้อมูลลงในเซลล์
-
-#### ภาพรวม
-การกรอกข้อมูลลงในเวิร์กชีตของคุณถือเป็นสิ่งสำคัญสำหรับการสร้างแผนภูมิที่มีความหมาย
-
-#### ขั้นตอน:
-
-**เข้าถึงคอลเลกชันเซลล์**
+### 2. เติมข้อมูลในเซลล์ Excel
+แทรกชื่อภูมิภาคและตัวเลขการขายที่แผนภูมิคอลัมน์จะทำการแสดงผล
 
 ```java
 import com.aspose.cells.Cells;
 
-// รับคอลเลกชันเซลล์จากแผ่นงาน "ข้อมูล"
+// Get the cells collection from the "Data" sheet
 Cells cells = sheet.getCells();
 ```
 
-**การแทรกข้อมูล**
-
 ```java
-// ใส่ชื่อภูมิภาคและตัวเลขยอดขาย
+// Insert region names and sales figures
 cells.get("A1").putValue("Region");
 cells.get("B1").putValue("Sale");
 
@@ -128,52 +120,34 @@ for (int i = 0; i < regions.length; i++) {
 }
 ```
 
-### 3. การเพิ่มแผ่นงานแผนภูมิ
-
-#### ภาพรวม
-เพิ่มแผ่นงานแผนภูมิเฉพาะเพื่อแยกข้อมูลและการแสดงภาพของคุณออกจากกัน
-
-#### ขั้นตอน:
-
-**สร้างแผ่นงานแผนภูมิ**
+### 3. เพิ่ม Chart Sheet
+การแยกแผนภูมิออกจากข้อมูลดิบทำให้สมุดงานเป็นระเบียบ
 
 ```java
 import com.aspose.cells.SheetType;
 
-// เพิ่มแผ่นงานแผนภูมิใหม่
+// Add a new chart sheet
 int sheetIndex = workbook.getWorksheets().add(SheetType.CHART);
 Worksheet chartSheet = workbook.getWorksheets().get(sheetIndex);
 
-// ตั้งชื่อแผ่นงานว่า “แผนภูมิ”
+// Name the worksheet "Chart"
 chartSheet.setName("Chart");
 ```
 
-### 4. การสร้างแผนภูมิ
-
-#### ภาพรวม
-สร้างแผนภูมิคอลัมน์เพื่อแสดงข้อมูลการขายตามภูมิภาค
-
-#### ขั้นตอน:
-
-**สร้างแผนภูมิคอลัมน์**
+### 4. สร้าง Column Chart
+ตอนนี้เราจะสร้างอ็อบเจกต์ **generate column chart** จริง ๆ
 
 ```java
 import com.aspose.cells.Chart;
 import com.aspose.cells.ChartType;
 
-// เพิ่มแผนภูมิคอลัมน์ใหม่ลงในแผ่นงาน "แผนภูมิ"
+// Add a new column chart to the "Chart" sheet
 int chartIndex = chartSheet.getCharts().add(ChartType.COLUMN, 1, 1, 25, 10);
 Chart chart = chartSheet.getCharts().get(chartIndex);
 ```
 
-### 5. ตั้งค่ารูปภาพเป็นพื้นหลัง เติมพื้นที่พล็อตแผนภูมิ
-
-#### ภาพรวม
-เพิ่มความน่าสนใจให้กับแผนภูมิของคุณด้วยการเพิ่มรูปภาพพื้นหลัง
-
-#### ขั้นตอน:
-
-**ตั้งค่าข้อมูลภาพ**
+### 5. ตั้งรูปภาพเป็นพื้นหลังใน Plot Area
+ภาพพื้นหลังสามารถทำให้แผนภูมิดูโดดเด่น
 
 ```java
 import java.io.FileInputStream;
@@ -188,32 +162,27 @@ chart.getPlotArea().getArea().getFillFormat().setImageData(data);
 chart.getPlotArea().getBorder().setVisible(false);
 ```
 
-### 6. การกำหนดค่าชื่อแผนภูมิและชุดข้อมูล
-
-#### ภาพรวม
-ปรับแต่งแผนภูมิของคุณด้วยชื่อ ชุดข้อมูล และตำแหน่งของคำอธิบายแผนภูมิ
-
-#### ขั้นตอน:
-
-**ตั้งค่าชื่อแผนภูมิ**
+### 6. ตั้งชื่อแผนภูมิ
+การปรับแต่ง **set chart title** ช่วยเพิ่มความอ่านง่าย
 
 ```java
-// กำหนดค่าคุณสมบัติชื่อแผนภูมิ
+// Configure the chart's title properties
 chart.getTitle().setText("Sales By Region");
 chart.getTitle().getFont().setColor(Color.getBlue());
 chart.getTitle().getFont().setBold(true);
 chart.getTitle().getFont().setSize(12);
 ```
 
-**กำหนดค่าข้อมูลซีรีส์**
+### 7. กำหนดข้อมูลซีรีส์และ Legend
+เชื่อมช่วงข้อมูลกับแผนภูมิและกำหนดตำแหน่งของ legend
 
 ```java
-// ตั้งค่าชุดข้อมูลและหมวดหมู่สำหรับแผนภูมิ
+// Set series and category data for the chart
 chart.getNSeries().add("Data!B2:B8", true);
 chart.getNSeries().setCategoryData("Data!A2:A8");
 chart.getNSeries().setColorVaried(true);
 
-// วางตำแหน่งตำนานไว้ที่ด้านบนของแผนภูมิ
+// Position the legend at the top of the chart
 import com.aspose.cells.Legend;
 import com.aspose.cells.LegendPositionType;
 
@@ -221,14 +190,8 @@ Legend legend = chart.getLegend();
 legend.setPosition(LegendPositionType.TOP);
 ```
 
-### 7. การบันทึกสมุดงาน
-
-#### ภาพรวม
-รับรองว่าการทำงานหนักทั้งหมดของคุณได้รับการบันทึกโดยการส่งออกสมุดงาน
-
-#### ขั้นตอน:
-
-**บันทึกสมุดงาน**
+### 8. ส่งออก Workbook Excel
+สุดท้าย, **export workbook excel** ไปยังไฟล์ XLS (หรือรูปแบบที่รองรับอื่นใด)
 
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
@@ -236,47 +199,50 @@ workbook.save(outDir + "SPAsBFillInChart_out.xls");
 ```
 
 ## การประยุกต์ใช้งานจริง
+- **Business Reports** – สร้างแผนภูมิการขายอัตโนมัติสำหรับ PDF รายเดือน.  
+- **Data Analysis Tools** – ฝังแผนภูมิกระแสไหลในแดชบอร์ดวิเคราะห์แบบกำหนดเอง.  
+- **Enterprise Dashboards** – รีเฟรชภาพแผนภูมิแบบทันทีสำหรับการเฝ้าติดตามแบบเรียลไทม์.
 
-- **รายงานทางธุรกิจ**:สร้างรายงานการขายและประสิทธิภาพแบบไดนามิก
-- **เครื่องมือวิเคราะห์ข้อมูล**:ปรับปรุงการแสดงภาพข้อมูลในซอฟต์แวร์วิเคราะห์
-- **การบูรณาการแดชบอร์ด**:รวมแผนภูมิเข้ากับแดชบอร์ดเพื่ออัปเดตแบบเรียลไทม์
+## ข้อควรพิจารณาด้านประสิทธิภาพ
+- อัปเดตเซลล์เป็นชุดเมื่อทำงานกับชุดข้อมูลขนาดใหญ่เพื่อลดภาระ.  
+- ปล่อยทรัพยากร (`workbook.dispose()`) หากคุณประมวลผลสมุดงานหลาย ๆ ใบในลูป.  
 
-## การพิจารณาประสิทธิภาพ
+## ปัญหาทั่วไปและวิธีแก้
+- **Image not showing** – ตรวจสอบเส้นทางไฟล์และรูปแบบภาพ (PNG, JPEG) ว่าได้รับการสนับสนุน.  
+- **Chart appears blank** – ตรวจสอบให้แน่ใจว่าการอ้างอิงช่วงข้อมูล (`Data!B2:B8`) ตรงกับเซลล์ที่เติมข้อมูล.  
+- **Out‑of‑memory errors** – ประมวลผลข้อมูลเป็นส่วน ๆ และเรียก `System.gc()` หลังการบันทึกขนาดใหญ่.  
 
-- เพิ่มประสิทธิภาพโดยลดจำนวนการดำเนินการบนชุดข้อมูลขนาดใหญ่ให้เหลือน้อยที่สุด
-- จัดการหน่วยความจำอย่างมีประสิทธิภาพด้วยการกำจัดสิ่งของที่ไม่ได้ใช้ทันที
+## คำถามที่พบบ่อย
 
-## บทสรุป
+**Q: ฉันจะเพิ่มหลายซีรีส์ในแผนภูมิคอลัมน์ได้อย่างไร?**  
+A: เรียก `chart.getNSeries().add()` ซ้ำหลายครั้งโดยใช้ช่วงข้อมูลที่ต่างกัน, เช่น `"Data!C2:C8"` สำหรับซีรีส์ที่สอง.
 
-ตอนนี้คุณได้เชี่ยวชาญการสร้างและปรับแต่งแผนภูมิโดยใช้ Aspose.Cells ใน Java แล้ว หากต้องการดำเนินการต่อ โปรดสำรวจฟีเจอร์อื่นๆ เช่น ช่วงข้อมูลแบบไดนามิกหรือประเภทแผนภูมิอื่นๆ 
+**Q: ฉันสามารถเปลี่ยนป้ายแกนได้หรือไม่?**  
+A: ได้. ใช้ `chart.getCategoryAxis().setTitle("Regions")` และ `chart.getValueAxis().setTitle("Sales")`.
 
-## ส่วนคำถามที่พบบ่อย
+**Q: ฉันสามารถส่งออกเป็นรูปแบบใดบ้างนอกจาก XLS?**  
+A: ใช้ `workbook.save("chart.pdf")`, `workbook.save("chart.png")`, หรือ `workbook.save("chart.xlsx")` สำหรับ PDF, PNG, และ XLSX ตามลำดับ.
 
-1. **ฉันจะเพิ่มซีรีส์หลายชุดลงในแผนภูมิได้อย่างไร**
-   - ใช้ `add` วิธีการบน `NSeries` ที่มีหลายช่วง
+**Q: จำเป็นต้องมีใบอนุญาตสำหรับการสร้างเวอร์ชันพัฒนาไหม?**  
+A: การทดลองใช้ฟรีใช้ได้สำหรับการประเมิน, แต่ต้องมีใบอนุญาตถาวรหรือชั่วคราวสำหรับการใช้งานในสภาพแวดล้อมการผลิต.
 
-2. **ฉันสามารถปรับแต่งป้ายแกนของแผนภูมิได้หรือไม่**
-   - ใช่ เข้าถึงและกำหนดค่าแกนโดยใช้ `chart.getCategหรือyAxis()` or `chart-getValueAxis()`.
+**Q: ฉันจะปรับปรุงความเร็วการเรนเดอร์สำหรับหลายพันแถวได้อย่างไร?**  
+A: เติมเซลล์โดยใช้ `cells.importArray()` และลดการวาดแผนภูมิซ้ำโดยสร้างแผนภูมิหลังจากโหลดข้อมูลทั้งหมดแล้ว.
 
-3. **จะเกิดอะไรขึ้นหากไฟล์รูปภาพของฉันไม่แสดงอย่างถูกต้องในพื้นที่พล็อต?**
-   - ตรวจสอบให้แน่ใจว่าเส้นทางไฟล์ถูกต้องและรูปแบบภาพได้รับการรองรับโดย Aspose.Cells
+---
 
-4. **ฉันจะจัดการชุดข้อมูลขนาดใหญ่ได้อย่างมีประสิทธิภาพได้อย่างไร**
-   - พิจารณาการอ่านข้อมูลเป็นส่วนๆ และอัปเดตเซลล์แบบเพิ่มทีละน้อย
+**อัปเดตล่าสุด:** 2026-04-08  
+**ทดสอบด้วย:** Aspose.Cells 25.3 for Java  
+**ผู้เขียน:** Aspose  
 
-5. **สามารถส่งออกแผนภูมิไปยังรูปแบบอื่นเช่น PDF หรือ PNG ได้หรือไม่**
-   - ใช่ครับ ใช้ `workbook.save()` โดยมีนามสกุลไฟล์ที่เหมาะสมกับรูปแบบต่างๆ
+## แหล่งข้อมูล
 
-## ทรัพยากร
-
-- [เอกสารประกอบ Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [ดาวน์โหลด Aspose.Cells](https://releases.aspose.com/cells/java/)
-- [ซื้อใบอนุญาต](https://purchase.aspose.com/buy)
-- [ทดลองใช้งานฟรี](https://releases.aspose.com/cells/java/)
-- [การขอใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
+- [เอกสาร Aspose.Cells](https://reference.aspose.com/cells/java/)  
+- [ดาวน์โหลด Aspose.Cells](https://releases.aspose.com/cells/java/)  
+- [ซื้อใบอนุญาต](https://purchase.aspose.com/buy)  
+- [ทดลองใช้ฟรี](https://releases.aspose.com/cells/java/)  
+- [ขอใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)  
 - [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/cells/9)
-
-หากทำตามคำแนะนำนี้ คุณจะสามารถสร้างและปรับแต่งแผนภูมิในแอปพลิเคชัน Java โดยใช้ Aspose.Cells ได้อย่างง่ายดาย ขอให้สนุกกับการเขียนโค้ด!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

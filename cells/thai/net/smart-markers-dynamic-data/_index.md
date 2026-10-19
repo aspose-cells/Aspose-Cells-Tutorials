@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # มาร์กเกอร์อัจฉริยะใน Aspose.Cells สำหรับข้อมูลไดนามิก
@@ -52,8 +50,132 @@
 ## การนำตัวแปรอาร์เรย์มาใช้งานด้วย Smart Markers
 คุณมักต้องจัดการกับข้อมูลที่มีปริมาณแตกต่างกันหรือไม่? ฟีเจอร์อาร์เรย์ตัวแปรใน Smart Markers ช่วยให้คุณจัดการรายการข้อมูลได้อย่างยืดหยุ่น ซึ่งหมายความว่าคุณสามารถสร้างรายงานที่ปรับให้เข้ากับชุดข้อมูลที่มีขนาดแตกต่างกันได้โดยไม่ต้องออกแบบเทมเพลตใหม่ทุกครั้ง ด้วยการเรียนรู้วิธีนำอาร์เรย์ตัวแปรมาใช้ คุณสามารถปรับกระบวนการรายงานของคุณให้มีประสิทธิภาพและเพิ่มประสิทธิภาพในการนำเสนอข้อมูลได้ บทช่วยสอนนี้จะอธิบายขั้นตอนต่างๆ เพื่อช่วยให้คุณเริ่มต้นใช้อาร์เรย์ตัวแปรในรายงานได้ [อ่านเพิ่มเติม](./variable-array-smart-markers/)
 
+## ใช้รายการทั่วไปใน Smart Markers
+ความยืดหยุ่นของ Generic Lists ช่วยให้ผู้พัฒนาสามารถจัดการข้อมูลในลักษณะที่มีโครงสร้างโดยไม่สูญเสียประสิทธิภาพ ในบทช่วยสอนนี้ คุณจะได้เรียนรู้วิธีใช้ประโยชน์จาก Generic Lists กับ Smart Markers เพื่อสร้างรายงาน Excel แบบไดนามิกที่มีประสิทธิภาพ แนวทางนี้ช่วยให้คุณสามารถจัดการชุดข้อมูลได้อย่างง่ายดายในขณะที่ยังคงความปลอดภัยของประเภทและประสิทธิภาพการทำงานที่แข็งแกร่งในแอปพลิเคชันของคุณ ทำตามเพื่อดูว่าสิ่งนี้สามารถเป็นประโยชน์ต่อการสร้างรายงานของคุณได้อย่างไร [อ่านเพิ่มเติม](./generic-list-smart-markers/)
+
+## มาร์กเกอร์อัจฉริยะใน Aspose.Cells สำหรับบทช่วยสอนข้อมูลแบบไดนามิก
+### [เพิ่มป้ายกำกับแบบกำหนดเองด้วยเครื่องหมายอัจฉริยะใน Aspose.Cells](./add-custom-labels-smart-markers/)
+ปลดล็อกพลังของ Aspose.Cells สำหรับ .NET เพื่อเพิ่มป้ายกำกับที่กำหนดเองและเครื่องหมายอัจฉริยะลงในเอกสาร Excel ของคุณ ทำตามบทช่วยสอนทีละขั้นตอนนี้เพื่อสร้างรายงานที่น่าดึงดูดและมีชีวิตชีวา
+### [เติมข้อมูลโดยอัตโนมัติทั่วทั้งชีตใน Aspose.Cells](./auto-populate-data-smart-markers/)
+ค้นพบวิธีการป้อนข้อมูลอัตโนมัติในเวิร์กชีตหลายแผ่นใน Excel โดยใช้ไลบรารี Aspose.Cells สำหรับ .NET เรียนรู้ขั้นตอนทีละขั้นตอนเพื่อปรับปรุงงานการจัดการข้อมูลของคุณ
+### [คัดลอกสไตล์ด้วย Smart Marker ใน Aspose.Cells .NET](./copy-style-smart-marker/)
+คัดลอกสไตล์และรูปแบบจากไฟล์เทมเพลตไปยังผลลัพธ์ Excel ที่คุณสร้างขึ้นได้อย่างง่ายดาย บทช่วยสอนที่ครอบคลุมนี้จะแนะนำคุณตลอดกระบวนการทีละขั้นตอน
+### [ใช้สูตรไดนามิกใน Smart Markers Aspose.Cells](./dynamic-formulas-smart-markers/)
+เรียนรู้วิธีการใช้สูตรแบบไดนามิกใน Smart Markers ด้วย Aspose.Cells สำหรับ .NET เพื่อเพิ่มประสิทธิภาพกระบวนการสร้างรายงาน Excel ของคุณ
+### [ประเมิน IsBlank ด้วย Smart Markers ใน Aspose.Cells](./evaluate-isblank-smart-markers/)
+ปรับปรุงไฟล์ Excel ของคุณด้วยมาร์กเกอร์อัจฉริยะเพื่อประเมินค่าว่างอย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ .NET เรียนรู้วิธีการในคู่มือทีละขั้นตอนนี้
+### [การจัดกลุ่มข้อมูลด้วย Smart Markers ใน Aspose.Cells .NET](./group-data-smart-markers/)
+จัดกลุ่มข้อมูลได้อย่างง่ายดายด้วยมาร์กเกอร์อัจฉริยะใน Aspose.Cells สำหรับ .NET ปฏิบัติตามคำแนะนำที่ครอบคลุมของเราสำหรับคำแนะนำทีละขั้นตอน
+### [แทรกภาพด้วย Image Markers ใน Aspose.Cells](./insert-images-smart-markers/)
+ค้นพบวิธีการแทรกภาพโดยใช้ตัวระบุภาพใน Aspose.Cells สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนของเรา! ปรับปรุงรายงาน Excel ของคุณด้วยภาพประกอบอย่างมีประสิทธิภาพ
+### [ใช้ประเภทที่ไม่ระบุชื่อกับ Smart Markers Aspose.Cells](./use-anonymous-types-smart-markers/)
+เรียนรู้วิธีใช้ประเภทที่ไม่ระบุชื่อกับมาร์กเกอร์อัจฉริยะใน Aspose.Cells สำหรับการสร้างรายงาน Excel แบบไดนามิกใน .NET ทำตามคำแนะนำง่ายๆ ของเรา
+### [ใช้คุณลักษณะรูปแบบการคัดลอกในเครื่องหมายอัจฉริยะ Aspose.Cells](./copy-style-attribute-smart-markers/)
+ค้นพบพลังของ Aspose.Cells สำหรับ .NET และเรียนรู้วิธีใช้แอตทริบิวต์สไตล์การคัดลอกใน Excel Smart Markers ได้อย่างง่ายดาย บทช่วยสอนที่ครอบคลุมนี้ครอบคลุมคำแนะนำทีละขั้นตอน
+### [ใช้พารามิเตอร์สูตรในฟิลด์ Smart Marker Aspose.Cells](./formula-parameter-smart-marker/)
+เรียนรู้การใช้พารามิเตอร์สูตรในมาร์กเกอร์อัจฉริยะด้วย Aspose.Cells สำหรับ .NET สร้างสเปรดชีตแบบไดนามิกได้อย่างง่ายดาย
+### [ใช้รายการทั่วไปใน Smart Markers Aspose.Cells](./generic-list-smart-markers/)
+เรียนรู้ Aspose.Cells สำหรับ .NET ด้วย Generic Lists และ Smart Markers เพื่อสร้างรายงาน Excel แบบไดนามิกได้อย่างง่ายดาย คำแนะนำง่ายๆ สำหรับนักพัฒนา
+### [ใช้คุณสมบัติ HTML ใน Smart Markers Aspose.Cells .NET](./html-property-smart-markers/)
+ปลดล็อกพลังของ Aspose.Cells ด้วยบทช่วยสอนทีละขั้นตอนเกี่ยวกับการใช้คุณสมบัติ HTML ในมาร์กเกอร์อัจฉริยะสำหรับแอปพลิเคชัน .NET
+### [จัดการวัตถุที่ซ้อนกันด้วยมาร์กเกอร์อัจฉริยะ Aspose.Cells](./nested-objects-smart-markers/)
+ปลดล็อกศักยภาพของการรายงาน Excel ด้วย Aspose.Cells โดยจัดการวัตถุที่ซ้อนกันได้อย่างง่ายดายในคู่มือทีละขั้นตอน
 ### [การนำตัวแปรอาร์เรย์ไปใช้งานด้วย Smart Markers Aspose.Cells](./variable-array-smart-markers/)
 ปลดล็อกพลังของ Aspose.Cells เรียนรู้วิธีการนำตัวแปรอาร์เรย์มาใช้งานด้วย Smart Markers ทีละขั้นตอนเพื่อสร้างรายงาน Excel ได้อย่างราบรื่น
+### [ใช้ SmartMarker กับ Worksheet ใน C# – คู่มือฉบับสมบูรณ์](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
+เรียนรู้วิธีประยุกต์ SmartMarker กับ Worksheet ใน C# อย่างละเอียดในคู่มือขั้นตอนนี้
+
+### [สร้างไฟล์ Excel อย่างเป็นโปรแกรมโดยใช้ Aspose.Cells Smart Markers](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+เรียนรู้วิธีสร้างไฟล์ Excel แบบอัตโนมัติด้วย Smart Markers ของ Aspose.Cells ใน .NET
+
+### [วิธีใช้เครื่องหมายใน Aspose.Cells เพื่อการตั้งชื่อแผ่นงานแบบไดนามิกใน Excel](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
+เรียนรู้วิธีใช้ Smart Markers เพื่อกำหนดชื่อแผ่นงานใน Excel อย่างอัตโนมัติตามข้อมูลที่เปลี่ยนแปลง
+
+### [สร้างตาราง Excel แบบไดนามิก – คู่มือเครื่องหมายอัจฉริยะ](./create-dynamic-excel-table-smart-marker-guide/)
+เรียนรู้วิธีสร้างตาราง Excel แบบไดนามิกด้วย Smart Markers เพื่อจัดการข้อมูลอย่างมีประสิทธิภาพ
+
+### [สร้างค่าตัวเซลล์ตามเงื่อนไขด้วย Aspose.Cells Smart Marker](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
+
+### [วิธีแทนที่ตัวแปรใน JSON ด้วย SmartMarker – คู่มือฉบับสมบูรณ์](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+
+### [สร้างแผ่นงานไดนามิกด้วย Smart Markers ใน Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
+
+### [วิธีเขียนเทมเพลตด้วย Smart Markers – คู่มือขั้นตอนโดยละเอียด](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+
+### [วิธีสร้างรายงาน Excel ด้วย C# – คู่มือเต็มการใช้ SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+เรียนรู้วิธีสร้างรายงาน Excel อย่างเต็มรูปแบบด้วย C# และ SmartMarker ด้วยคำแนะนำทีละขั้นตอนจาก Aspose.Cells
+### [วิธีโหลดเทมเพลตและสร้างรายงาน Excel ด้วย SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
+เรียนรู้วิธีโหลดเทมเพลต Excel และใช้ SmartMarker เพื่อสร้างรายงานที่ขับเคลื่อนด้วยข้อมูลอย่างง่ายดาย
+### [ส่งออกข้อมูลไปยัง Excel ด้วย Smart Marker – คู่มือเต็ม C#](./export-data-to-excel-with-smart-marker-full-c-guide/)
+เรียนรู้วิธีใช้ Smart Marker เพื่อส่งออกข้อมูลจาก .NET ไปยังไฟล์ Excel อย่างครบถ้วนด้วย C#
+### [เติมข้อมูลเทมเพลต Excel – ป้อนข้อมูล Excel ผ่าน SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
+เรียนรู้วิธีใช้ SmartMarker เพื่อเติมข้อมูลลงในเทมเพลต Excel อย่างอัตโนมัติและสร้างไฟล์ผลลัพธ์ที่กำหนดเอง
+### [สร้างสมุดงาน Excel ด้วย C# – คู่มือเต็มสำหรับการแทรกอาร์เรย์ลงในเซลล์](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# และแทรกอาร์เรย์ลงในเซลล์อย่างครบถ้วนในคู่มือขั้นตอนเดียว
+### [สร้างเทมเพลต Excel ด้วย Smart Markers ใน C# – คู่มือเต็ม](./create-excel-template-with-smart-markers-in-c-complete-guide/)
+เรียนรู้วิธีสร้างเทมเพลต Excel ที่ใช้ Smart Markers ใน C# อย่างละเอียด ตั้งแต่การตั้งค่าไปจนถึงการแทรกข้อมูลอัตโนมัติ
+### [เปิดใช้งานตัวเลือกช่วงซ้อนกันใน Aspose.Cells SmartMarker](./enable-nested-range-option-in-aspose-cells-smartmarker/)
+เรียนรู้วิธีเปิดใช้งานตัวเลือก Nested Range ใน SmartMarker เพื่อจัดการข้อมูลหลายระดับใน Excel
+### [แปลง JSON เป็น Excel ด้วย C# – คู่มือขั้นตอนโดยขั้นตอน](./convert-json-to-excel-with-c-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ JSON เป็นไฟล์ Excel ด้วย C# อย่างละเอียดในขั้นตอนต่อขั้นตอน
+### [แปลง JSON เป็น XLSX ด้วย C# โดยใช้ SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
+เรียนรู้วิธีแปลงไฟล์ JSON เป็นไฟล์ Excel (XLSX) ด้วย SmartMarker ใน C# อย่างละเอียด
+### [วิธีเชื่อมโยงชีตใน Excel ด้วย SmartMarker – คู่มือขั้นตอนโดยขั้นตอน](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
+เรียนรู้วิธีเชื่อมโยงชีตหลายชีตใน Excel โดยใช้ SmartMarker เพื่อสร้างรายงานที่เชื่อมต่อข้อมูลอย่างอัตโนมัติ
+### [สร้างสมุดงานจากไฟล์ XLSX ด้วย Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+เรียนรู้วิธีใช้ SmartMarkerProcessor เพื่อสร้างสมุดงานจากไฟล์ XLSX อย่างง่ายดายใน Aspose.Cells
+
+
+
+
+
+
+
+
+### [วิธีสร้าง Workbook ด้วย Smart Markers – Output High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
+เรียนรู้วิธีใช้ Smart Markers เพื่อสร้าง Workbook ที่แสดงค่าต่ำสุดและสูงสุดอย่างอัตโนมัติ
+
+### [วิธีสร้าง Workbook ด้วย Smart Markers – คู่มือ Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+เรียนรู้วิธีสร้างไฟล์ Workbook ด้วย Smart Markers ใน Aspose.Cells เพื่อสร้างรายงาน Excel อย่างรวดเร็วและอัตโนมัติ
+### [ตั้งชื่อแผ่นงาน Excel อัตโนมัติ – วิธีง่ายในการสร้างแผ่นงาน](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+เรียนรู้วิธีตั้งชื่อแผ่นงาน Excel อัตโนมัติใน Aspose.Cells เพื่อสร้างแผ่นงานหลายแผ่นอย่างรวดเร็วและง่ายดาย
+### [สร้างคอลเลกชัน Smart Marker – คู่มือ C# ฉบับสมบูรณ์](./create-smart-marker-collection-complete-c-guide/)
+เรียนรู้วิธีสร้างคอลเลกชัน Smart Marker อย่างครบถ้วนด้วย C# ใน Aspose.Cells เพื่อสร้างรายงาน Excel อัตโนมัติ
+### [สร้างคอลเลกชัน Smart Marker ใน C# – คู่มือฉบับสมบูรณ์](./create-smart-marker-collection-in-c-complete-guide/)
+เรียนรู้วิธีสร้างคอลเลกชัน Smart Marker อย่างครบถ้วนด้วย C# ใน Aspose.Cells เพื่อสร้างรายงาน Excel อัตโนมัติ
+### [ทำซ้ำข้อมูลใน Excel – เติมเทมเพลตด้วย SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+เรียนรู้วิธีทำซ้ำข้อมูลใน Excel โดยใช้ SmartMarker เพื่อเติมเทมเพลตอย่างอัตโนมัติและสร้างรายงานที่ปรับขนาดได้
+### [วิธีส่งออก Excel – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา C#](./how-to-export-excel-complete-guide-for-c-developers/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ด้วย Aspose.Cells สำหรับ C# อย่างละเอียดและครบถ้วน
+### [ส่งออกข้อมูลไปยัง Excel: เติมเทมเพลตจากอาร์เรย์ใน C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+เรียนรู้วิธีส่งออกข้อมูลจาก .NET ไปยังไฟล์ Excel ด้วย SmartMarker อย่างครบถ้วน
+### [วิธีตั้งชื่อแผ่นงานอัตโนมัติ – สร้างหลายแผ่นงานใน C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
+เรียนรู้วิธีตั้งชื่อแผ่นงาน Excel อย่างอัตโนมัติและสร้างหลายแผ่นงานใน C# ด้วย Aspose.Cells
+### [สร้างอ็อบเจ็กต์ข้อมูลหลัก – คู่มือขั้นตอนการสร้างแผ่นรายละเอียด](./create-master-data-object-step-by-step-guide-to-generate-det/)
+เรียนรู้วิธีสร้างอ็อบเจ็กต์ข้อมูลหลักและสร้างแผ่นรายละเอียดอย่างเป็นขั้นตอนด้วย Aspose.Cells สำหรับ .NET
+### [สร้างเทมเพลตส่วนลดใน C# – คู่มือขั้นตอนโดยละเอียด](./create-discount-template-in-c-step-by-step-guide/)
+เรียนรู้วิธีสร้างเทมเพลตส่วนลดใน C# ด้วย Aspose.Cells .NET อย่างละเอียด
+### [วิธีสร้างลำดับชั้นด้วย SmartMarker – คู่มือขั้นตอนโดยละเอียด](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
+เรียนรู้วิธีสร้างลำดับชั้นข้อมูลใน Excel ด้วย SmartMarker อย่างละเอียด
+### [แยก JSON ซ้อนกัน C# – สร้าง JSON Payload C#](./parse-nested-json-c-create-json-payload-c/)
+เรียนรู้วิธีแยก JSON ซ้อนกันและสร้าง payload JSON ด้วย C# อย่างง่ายดาย
+### [สร้างรายงานมาสเตอร์‑ดีเทลใน C# – เติมข้อมูลเทมเพลต Excel ด้วย SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
+เรียนรู้วิธีสร้างรายงานมาสเตอร์‑ดีเทลโดยใช้ SmartMarker เพื่อเติมข้อมูลลงในเทมเพลต Excel ด้วย C# อย่างง่ายดาย
+### [Aspose Cells Smart Markers: สร้างไฟล์ Excel จาก Model ด้วย C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
+เรียนรู้วิธีใช้ Smart Markers ใน Aspose.Cells เพื่อสร้างไฟล์ Excel จากโมเดล C# อย่างง่ายและรวดเร็ว
+### [สร้างหลายชีตด้วย SmartMarker – คู่มือ C# ฉบับสมบูรณ์](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
+เรียนรู้วิธีสร้างหลายชีตใน Excel ด้วย SmartMarker อย่างครบถ้วนใน C#
+### [ส่งออกข้อมูลไปยัง Excel – คู่มือเต็มสำหรับนักพัฒนา C#](./how-to-export-excel-complete-guide-for-c-developers/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ด้วย Aspose.Cells สำหรับ C# อย่างละเอียดและครบถ้วน
+### [วิธีสร้างข้อมูล Smart Marker และเติมข้อมูลเทมเพลต Excel](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
+เรียนรู้วิธีสร้างข้อมูล Smart Marker และเติมข้อมูลลงในเทมเพลต Excel อย่างง่ายดายด้วย Aspose.Cells
+### [วิธีสร้างรายงาน Excel โดยการรวมเทมเพลต Excel กับ Smart Markers](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
+### [โหลดเทมเพลต Excel ด้วย C# – สร้างหลายชีตอย่างรวดเร็ว](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
+เรียนรู้วิธีโหลดเทมเพลต Excel ด้วย C# และสร้างหลายชีตอย่างรวดเร็วด้วย Aspose.Cells
+### [Range Smart Marker เพื่อประมวลผลข้อมูลซ้อนกันใน C# – คู่มือฉบับสมบูรณ์](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
+เรียนรู้วิธีใช้ Range Smart Marker ใน Aspose.Cells เพื่อจัดการข้อมูลที่ซ้อนกันใน C# อย่างละเอียดและครบถ้วน
+### [นำเข้า JSON ไปยัง Excel ด้วย C# – คู่มือขั้นตอนโดยละเอียด](./import-json-to-excel-in-c-step-by-step-guide/)
+เรียนรู้วิธีนำเข้าไฟล์ JSON ไปยังสเปรดชีต Excel ด้วย C# อย่างละเอียดและง่ายดาย
 
 ### [วิธีทำซ้ำเวิร์กชีต – คู่มือครบถ้วนสำหรับการอัตโนมัติ Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 เรียนรู้วิธีทำซ้ำเวิร์กชีตใน Excel อย่างอัตโนมัติด้วย Aspose.Cells เพื่อสร้างรายงานหลายชีตได้อย่างง่ายดาย
@@ -65,7 +187,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

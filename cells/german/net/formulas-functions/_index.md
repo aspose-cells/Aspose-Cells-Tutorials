@@ -102,6 +102,7 @@ Erfahren Sie, wie Sie die Sprache Ihrer Excel-Dateien mit Aspose.Cells .NET fest
 ### [Aktualisieren Sie Excel Power Query-Formeln mit Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Erfahren Sie, wie Sie Power Query-Formeln in Excel-Arbeitsmappen mit Aspose.Cells für .NET programmgesteuert aktualisieren. Master-Datenquellenverwaltung für dynamisches Reporting.
 
+### [Wie man WRAPCOLS in C# verwendet – Excel-Arbeitsmappe mit Wrap-Funktionen erstellen](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
 ### [Wie man SEQUENCE in C# verwendet – Excel-Arbeitsmappe erstellen](./how-to-use-sequence-in-c-create-excel-workbook/)
 Erfahren Sie, wie Sie die SEQUENCE-Funktion in C# nutzen, um automatisch Excel-Arbeitsmappen mit fortlaufenden Werten zu erstellen.
 
@@ -166,6 +167,10 @@ Für eine robuste Formelimplementierung:
 4. **Dokumentation**: Klare Dokumentation komplexer Formelstrukturen
 
 Indem Sie diese Formelfunktionen mit Aspose.Cells für .NET beherrschen, können Sie in Ihren Tabellenkalkulationen anspruchsvolle Berechnungs-Engines erstellen, die genaue, dynamische Ergebnisse liefern, ohne dass eine Excel-Installation erforderlich ist.
+### [Wie man den Kotangens in Excel mit C# berechnet – Arbeitsmappe erstellen, EXPAND verwenden und speichern](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+Erfahren Sie, wie Sie mit Aspose.Cells in C# den Kotangens berechnen, eine Arbeitsmappe erstellen, EXPAND nutzen und die Datei speichern.
+### [Erstellen Sie eine Excel-Arbeitsmappe mit der EXPAND-Formel – Komplettanleitung](./create-excel-workbook-with-expand-formula-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe erstellen und die EXPAND-Formel nutzen, um dynamische Datenbereiche zu erzeugen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

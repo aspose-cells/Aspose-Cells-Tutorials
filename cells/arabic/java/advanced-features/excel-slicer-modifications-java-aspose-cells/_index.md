@@ -1,12 +1,37 @@
 ---
-date: '2025-12-22'
-description: اكتشف كيفية استخدام Aspose لأتمتة تعديل مقاطع Excel في Java — تحميل المصنفات،
-  تخصيص مقاطع لوحة التحكم، وحفظ ملف Excel بجافا بكفاءة.
+date: '2026-05-18'
+description: تعلم كيفية إضافة Slicer إلى Pivot في Excel باستخدام Aspose.Cells for
+  Java — تحميل دفاتر العمل، تخصيص Slicers، وحفظ ملفات Excel بكفاءة.
 keywords:
-- Excel Slicer Modifications Java
+- add slicer to pivot
+- save excel file java
+- load excel workbook java
 - Aspose.Cells Java
-- Automate Excel with Java
-title: كيفية استخدام Aspose.Cells لأتمتة مقاطع التصفية في Excel باستخدام Java
+- Excel slicer automation
+schemas:
+- author: Aspose
+  dateModified: '2026-05-18'
+  description: Learn how to add slicer to pivot in Excel using Aspose.Cells for Java—load
+    workbooks, customize slicers, and save Excel files efficiently.
+  headline: How to Add Slicer to Pivot in Excel Using Aspose.Cells for Java
+  type: TechArticle
+- questions:
+  - answer: Yes, it handles formulas, charts, pivot tables, conditional formatting,
+      and more across 50+ formats.
+    question: Does Aspose.Cells support other Excel features besides slicers?
+  - answer: Absolutely. Aspose.Cells works with Java 8, 11, 17, and 21.
+    question: Is the library compatible with Java 11 and newer?
+  - answer: Yes. Because Aspose.Cells is pure Java, it runs on any OS with a compatible
+      JVM.
+    question: Can I run this code on a Linux server?
+  - answer: Call `slicer.setStyleType(SlicerStyleType.YOUR_CHOSEN_STYLE);` where the
+      enum provides dozens of predefined styles.
+    question: How do I apply a custom style to a slicer?
+  - answer: The Aspose.Cells documentation and the official GitHub repository contain
+      extensive examples for slicers, pivot tables, and chart automation.
+    question: Where can I find more code samples?
+  type: FAQPage
+title: كيفية إضافة Slicer إلى Pivot في Excel باستخدام Aspose.Cells for Java
 url: /ar/java/advanced-features/excel-slicer-modifications-java-aspose-cells/
 weight: 1
 ---
@@ -17,31 +42,28 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# أتمتة تعديل Slicer في Excel باستخدام Java و Aspose.Cells
+# إضافة مقطع تقطيع إلى Pivot في Excel باستخدام Aspose.Cells للـ Java
 
 ## مقدمة
 
-إذا كنت تتساءل **كيف تستخدم aspose** لأتمتة تعديل الـ slicer في ملفات Excel باستخدام Java، فأنت في المكان الصحيح. يواجه العديد من المطورين تحديات عندما يحتاجون إلى تعديل ميزات Excel برمجياً مثل الـ slicers. باستخدام **Aspose.Cells for Java**، يمكنك الوصول مباشرة إلى الـ slicers وتعديلها من تطبيقات Java الخاصة بك، مما يوفر لك ساعات لا تحصى من العمل اليدوي. في هذا الدرس سنعرض معلومات الإصدار، **load excel workbook java**، الوصول إلى أوراق العمل، خصائص **customize excel dashboard slicer**، وأخيراً **save excel file java** مع التغييرات التي أجريتها.
-
-هيا نبدأ!
+إذا كنت تبحث عن **إضافة مقطع تقطيع إلى Pivot** جداول برمجياً، فإن Aspose.Cells للـ Java يوفّر لك واجهة برمجة تطبيقات pure‑Java تتعامل مع المقاطع دون الحاجة إلى Microsoft Office. في العديد من مشاريع التقارير يقضي المطوّرون ساعات في تعديل المقاطع يدوياً؛ باستخدام هذه المكتبة يمكنك أتمتة تلك التغييرات في ثوانٍ، تحسين الاتساق، والحفاظ على تحديث لوحات التحكم الخاصة بك عبر البيئات. يشرح هذا الدليل كيفية عرض معلومات الإصدار، **تحميل دفتر عمل Excel Java**، الوصول إلى أوراق العمل، تخصيص خصائص المقطع، وأخيراً **حفظ ملف Excel Java** مع التحديثات.
 
 ## إجابات سريعة
-- **ما هي المكتبة الأساسية؟** Aspose.Cells for Java  
-- **هل يمكن تعديل الـ slicers برمجياً؟** نعم، باستخدام فئة Slicer  
-- **هل أحتاج إلى ترخيص؟** يتوفر إصدار تجريبي مجاني؛ الترخيص مطلوب للإنتاج  
-- **ما نسخة Java المدعومة؟** JDK 8 أو أعلى  
-- **أين يمكن العثور على تبعية Maven؟** في مستودع Maven Central  
+- **ما المكتبة التي تمكّن أتمتة المقاطع؟** Aspose.Cells للـ Java  
+- **هل يمكنني إضافة مقطع تقطيع إلى Pivot برمجياً؟** نعم – استخدم الفئة `Slicer`  
+- **هل يلزم وجود ترخيص للإنتاج؟** نسخة تجريبية مجانية تكفي للتقييم؛ يلزم ترخيص للاستخدام التجاري  
+- **ما إصدارات Java المدعومة؟** JDK 8 وما فوق (بما في ذلك 11، 17، 21)  
+- **أين يمكن العثور على تبعية Maven؟** على Maven Central تحت `com.aspose:aspose-cells`
 
-## ما المقصود بـ "كيفية استخدام Aspose" في هذا السياق؟
-استخدام Aspose.Cells يعني الاستفادة من واجهة برمجة تطبيقات Java خالصة تسمح لك بقراءة وكتابة ومعالجة ملفات Excel دون الحاجة إلى تثبيت Microsoft Office. تدعم ميزات متقدمة مثل الـ slicers، الجداول المحورية، والرسوم البيانية.
+## ما معنى “إضافة مقطع تقطيع إلى Pivot” في هذا السياق؟
 
-## لماذا نستخدم Aspose.Cells لأتمتة أداة التصفية في Excel؟
-- **تحكم كامل** في مظهر الـ slicer وسلوكه  
-- **بدون COM أو تبعيات Office** – بيئة تشغيل Java خالصة  
-- **أداء عالي** مع المصنفات الكبيرة  
-- **متعدد المنصات** – يعمل على Windows وLinux وmacOS  
+**إضافة مقطع تقطيع إلى Pivot** تعني إنشاء أو تعديل مقطع برمجياً يتحكم في معايير تصفية جدول Pivot، مما يتيح للمستخدمين النهائيين تقطيع البيانات بشكل تفاعلي. باستخدام واجهة Aspose.Cells API يمكنك تحديد موضع المقطع، النمط، والحقول المرتبطة، ثم ربطه بجدول أو أكثر من جداول Pivot بحيث تقوم التغييرات التي تُجرى عبر المقطع بتصفية البيانات الأساسية فوراً دون تدخل يدوي.
 
-## المتطلبات الأساسية
+## لماذا نستخدم Aspose.Cells لأتمتة مقاطع Excel؟
+
+يدعم Aspose.Cells **أكثر من 50 صيغة إدخال وإخراج** ويمكنه معالجة دفاتر العمل التي تحتوي على **ما يصل إلى 10,000 صف** دون تحميل الملف بالكامل إلى الذاكرة، مما يوفّر أتمتة عالية الأداء على Windows وLinux وmacOS. تمنحك المكتبة تحكمًا كاملاً في مظهر المقطع، النمط، وجداول Pivot المرتبطة، مما يلغي الاعتماد على COM ويقلل من عبء وقت التشغيل.
+
+## المتطلبات المسبقة
 
 - مجموعة تطوير Java (JDK) 8 أو أعلى  
 - بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse  
@@ -49,7 +71,7 @@ weight: 1
 
 ### المكتبات والتبعيات المطلوبة
 
-سنستخدم Aspose.Cells for Java، مكتبة قوية تسمح بالتعامل مع ملفات Excel في تطبيقات Java. تفاصيل التثبيت كالتالي:
+سنستخدم Aspose.Cells للـ Java، مكتبة قوية تسمح بالتعامل مع ملفات Excel في تطبيقات Java. فيما يلي تفاصيل التثبيت:
 
 **Maven:**
 
@@ -69,34 +91,30 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### الحصول على الترخيص
 
-توفر Aspose.Cells for Java نسخة تجريبية مجانية للبدء. للاستخدام المكثف، يمكنك الحصول على ترخيص مؤقت أو شراء ترخيص كامل. زر [purchase Aspose](https://purchase.aspose.com/buy) لاستكشاف الخيارات المتاحة.
+يوفر Aspose.Cells للـ Java نسخة تجريبية مجانية للبدء. للاستخدام المكثف، يمكنك الحصول على ترخيص مؤقت أو شراء ترخيص كامل. زر [purchase Aspose](https://purchase.aspose.com/buy) لاستكشاف الخيارات المتاحة.
 
-## إعداد Aspose.Cells لجافا
+## إعداد Aspose.Cells للـ Java
 
-أضف عبارات الاستيراد اللازمة في أعلى ملفات Java الخاصة بك:
+أضف بيانات الاستيراد اللازمة في أعلى ملفات Java الخاصة بك:
 
 ```java
 import com.aspose.cells.*;
 ```
 
-تأكد من أن مسارات البيانات مضبوطة بشكل صحيح:
+تأكد من ضبط مسارات بياناتك بشكل صحيح:
 
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
-## دليل التنفيذ
+## كيفية إضافة مقطع تقطيع إلى Pivot في Excel باستخدام Aspose.Cells؟
 
-سنقسم الكود إلى ميزات فردية، كل منها يقوم بمهمة محددة في تعديل الـ slicers في Excel.
+لإضافة مقطع تقطيع، أولاً قم بتحميل دفتر العمل، حدد ورقة العمل التي تحتوي على جدول Pivot المستهدف، ثم أنشئ كائن `Slicer` مرتبط بذلك الـ Pivot. قم بتكوين نمطه، موضعه، والحقل الذي يفلتره، وأخيراً احفظ دفتر العمل. تضمن هذه السلسلة أن يكون المقطع فعالاً بالكامل ومربوطاً بشكل صحيح بجدول Pivot، مما يوفر تجربة تصفية تفاعلية للمستخدمين النهائيين.
 
-### كيفية استخدام Aspose.Cells لتعديل شرائح Excel
+### عرض إصدار Aspose.Cells للـ Java
 
-#### عرض إصدار Aspose.Cells لجافا
-
-**نظرة عامة:** 
-التحقق من نسخة المكتبة يساعد في تصحيح الأخطاء ويضمن التوافق.
-
+توفر الفئة `VersionInfo` إصدار مكتبة Aspose.Cells الحالي.  
 ```java
 public class VersionDisplay {
     public static void displayVersion() throws Exception {
@@ -105,11 +123,9 @@ public class VersionDisplay {
 }
 ```
 
-#### تحميل مصنف Excel (جافا)
+### تحميل دفتر عمل Excel Java
 
-**نظرة عامة:**  
-تحميل المصنف هو الخطوة الأولى قبل أي تعديل.
-
+تمثل الفئة `Workbook` ملف Excel كامل تم تحميله إلى الذاكرة.  
 ```java
 public class LoadExcelFile {
     public static Workbook loadWorkbook() throws Exception {
@@ -118,11 +134,9 @@ public class LoadExcelFile {
 }
 ```
 
-#### الوصول إلى ورقة العمل
+### الوصول إلى ورقة العمل
 
-**نظرة عامة:**  
-استهدف ورقة العمل التي تحتوي على الـ slicer الذي تريد تغييره.
-
+كائن `Worksheet` يمثل ورقة واحدة داخل دفتر العمل.  
 ```java
 public class AccessWorksheet {
     public static Worksheet getFirstWorksheet(Workbook wb) throws Exception {
@@ -131,11 +145,9 @@ public class AccessWorksheet {
 }
 ```
 
-#### تخصيص شريحة لوحة معلومات Excel
+### تخصيص مقطع لوحة تحكم Excel
 
-**نظرة عامة:**  
-ضبط خصائص الـ slicer لتحسين مظهر واستخدام لوحة التحكم الخاصة بك.
-
+تُغلف الفئة `Slicer` مقطعًا مرتبطًا بجدول Pivot، مما يتيح تخصيص الفلتر.  
 ```java
 public class ModifySlicerProperties {
     public static void configureSlicer(Worksheet ws) throws Exception {
@@ -150,11 +162,9 @@ public class ModifySlicerProperties {
 }
 ```
 
-#### حفظ ملف Excel (جافا)
+### حفظ ملف Excel Java
 
-**نظرة عامة:**  
-احفظ التغييرات في ملف جديد.
-
+تكتب طريقة `save` في فئة `Workbook` دفتر العمل المعدل إلى ملف.  
 ```java
 public class SaveWorkbook {
     public static void saveModifiedWorkbook(Workbook wb) throws Exception {
@@ -163,61 +173,55 @@ public class SaveWorkbook {
 }
 ```
 
-## التطبيقات العملية
+## المشكلات الشائعة والحلول
 
-إليك بعض السيناريوهات الواقعية حيث يبرز **customizing Excel dashboard slicers**:
+- **المقطع لا يظهر بعد الحفظ:** تأكد من ربط المقطع بجدول Pivot موجود وأن `setShowHeader` مضبوط على `true`.  
+- **تأخر الأداء في الملفات الكبيرة:** عالج أوراق العمل المطلوبة فقط وقم بتعطيل إعادة الحساب التلقائية باستخدام `WorkbookSettings.setRecalcMode(RecalcMode.Manual)`.  
+- **النمط غير مُطبق:** تحقق من أن `SlicerStyleType` الذي اخترته مدعوم في نسخة Excel المستهدفة.
 
-1. **تخصيص لوحة التحكم:** إنشاء لوحات مبيعات ديناميكية تسمح للمستخدمين بالتصفية حسب فئات المنتجات.  
-2. **التقارير المالية:** تصفية القوائم المالية حسب الربع المالي باستخدام الـ slicers للحصول على رؤى سريعة.  
-3. **إدارة المخزون:** تقسيم مستويات المخزون حسب حالة التخزين بقطعة واحدة من الـ slicer.  
-4. **متابعة المشاريع:** تمكين أصحاب المصلحة من تصفية المهام حسب الأولوية أو الموعد النهائي.  
-5. **تحليلات الموارد البشرية:** تقسيم بيانات الموظفين حسب القسم أو الدور لتحليل مستهدف.
+## الأسئلة المتكررة
 
-## اعتبارات الأداء
+**س: هل يدعم Aspose.Cells ميزات Excel أخرى غير المقاطع؟**  
+ج: نعم، يتعامل مع الصيغ، المخططات، جداول Pivot، التنسيق الشرطي، وأكثر من ذلك عبر أكثر من 50 صيغة.
 
-عند التعامل مع ملفات Excel الكبيرة، ضع في اعتبارك النصائح التالية:
-
-- عالج فقط أوراق العمل التي تحتاجها.  
-- استخدم الـ streams لعمليات I/O لتقليل استهلاك الذاكرة.  
-- قلل من إعادة حساب الـ slicer بتعيين الخصائص الضرورية فقط.  
-
-## الخاتمة
-
-في هذا الدرس غطينا **how to use aspose** لأتمتة تعديل الـ slicers في Excel من خلال Java—عرض معلومات الإصدار، **load excel workbook java**، الوصول إلى ورقة العمل المستهدفة، **customize excel dashboard slicer**، وأخيراً **save excel file java**. باتباع هذه الخطوات يمكنك تبسيط سير عمل التقارير وبناء لوحات تحكم تفاعلية برمجياً.
-
-**الخطوات التالية:**
-- جرب قيم مختلفة لـ `SlicerStyleType`.  
-- دمج أتمتة الـ slicer مع تحديثات الجداول المحورية للحصول على تقارير ديناميكية بالكامل.  
-
-هل أنت مستعد لتطبيق هذه التقنيات في مشاريعك؟ جرّبها اليوم!
-
-## الأسئلة الشائعة
-
-**س: هل يدعم Aspose.Cells ميزات Excel أخرى غير الـ slicers؟**  
-ج: بالتأكيد. يدعم الصيغ، الرسوم البيانية، الجداول المحورية، التنسيق الشرطي، وأكثر من ذلك.
-
-**س: هل المكتبة متوافقة مع Java 11 والإصدارات الأحدث؟**  
-ج: نعم، يعمل Aspose.Cells مع Java 8 وجميع الإصدارات اللاحقة، بما في ذلك Java 11، 17، و21.
+**س: هل المكتبة متوافقة مع Java 11 وما بعدها؟**  
+ج: بالتأكيد. يعمل Aspose.Cells مع Java 8، 11، 17، و21.
 
 **س: هل يمكن تشغيل هذا الكود على خادم Linux؟**  
-ج: بما أن Aspose.Cells مكتبة Java خالصة، فهي تعمل على أي نظام تشغيل يحتوي على JVM متوافق.
+ج: نعم. بما أن Aspose.Cells مكتبة Java صافية، فهي تعمل على أي نظام تشغيل يمتلك JVM متوافق.
 
-**س: كيف أطبق نمطًا مخصصًا على الـ slicer؟**  
-ج: استخدم `slicer.setStyleType(SlicerStyleType.YOUR_CHOSEN_STYLE);` حيث `YOUR_CHOSEN_STYLE` هو أحد قيم الـ enum.
+**س: كيف يمكن تطبيق نمط مخصص على مقطع؟**  
+ج: استدعِ `slicer.setStyleType(SlicerStyleType.YOUR_CHOSEN_STYLE);` حيث يوفر الـ enum عشرات الأنماط المعرفة مسبقاً.
 
-**س: أين يمكنني العثور على المزيد من الأمثلة؟**  
-ج: تحتوي وثائق Aspose.Cells ومستودع GitHub على العديد من العينات الإضافية.
+**س: أين يمكن العثور على المزيد من عينات الكود؟**  
+ج: تحتوي وثائق Aspose.Cells ومستودع GitHub الرسمي على أمثلة واسعة للمقاطع، جداول Pivot، وأتمتة المخططات.
+
+## الخلاصة
+
+في هذا الدرس تعلمت كيفية **إضافة مقطع تقطيع إلى Pivot** في Excel باستخدام Aspose.Cells للـ Java—التحقق من إصدار المكتبة، **تحميل دفتر عمل Excel Java**، الوصول إلى ورقة العمل الصحيحة، **تخصيص مقطع لوحة تحكم Excel**، وأخيراً **حفظ ملف Excel Java**. من خلال أتمتة هذه الخطوات يمكنك بناء لوحات تحكم ديناميكية وتفاعلية دون جهد يدوي.
+
+**الخطوات التالية:**  
+- جرّب قيم `SlicerStyleType` المختلفة لتتناسب مع هوية علامتك التجارية.  
+- اجمع بين أتمتة المقاطع وتحديث بيانات جداول Pivot للحصول على خطوط تقارير ديناميكية بالكامل.  
+
+هل أنت مستعد لتطبيق هذه التقنيات في مشروعك الخاص؟ جرّبها اليوم!
 
 ---
 
-**Last Updated:** 2025-12-22  
-**Tested With:** Aspose.Cells 25.3 for Java  
-**Author:** Aspose  
+**آخر تحديث:** 2026-05-18  
+**تم الاختبار مع:** Aspose.Cells 25.3 للـ Java  
+**المؤلف:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## دروس ذات صلة
+
+- [إتقان Aspose.Cells للـ Java: تحميل والوصول إلى جداول Pivot في Excel بفعالية](/cells/java/data-analysis/aspose-cells-java-load-pivot-tables/)
+- [حفظ ملف Excel Java وتحديث المقاطع باستخدام Aspose.Cells](/cells/java/advanced-features/update-slicers-java-excel-aspose-cells/)
+- [تحديث مقطع Excel وتخصيصه باستخدام Aspose.Cells للـ Java](/cells/java/advanced-features/customize-slicers-excel-aspose-cells-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

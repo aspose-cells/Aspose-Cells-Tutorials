@@ -21,6 +21,8 @@ Sử dụng Aspose.Cells cho .NET, bạn có thể tùy chỉnh hoàn toàn các
 
 {{< tutorial-card link="./pivot-table-save-in-ods/" title="Lưu Pivot Table dưới dạng ODS trong Aspose.Cells" imgSrc="./pivot-table-save-in-ods/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-copy-pivot-table-in-c-complete-programming-guide/" title="Cách sao chép Pivot Table trong C# – Hướng dẫn lập trình toàn diện" imgSrc="./how-to-copy-pivot-table-in-c-complete-programming-guide/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

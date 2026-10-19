@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-08"
-"description": "Naučte se, jak automaticky měnit velikost popisků dat grafů v Excelu pomocí Aspose.Cells pro Javu a zajistit tak perfektní přizpůsobení a čitelnost."
-"title": "Jak automaticky změnit velikost popisků dat grafu v Excelu pomocí Aspose.Cells pro Javu"
-"url": "/cs/java/charts-graphs/aspose-cells-java-auto-resize-chart-data-labels/"
-"weight": 1
+date: '2026-03-31'
+description: Naučte se, jak změnit velikost popisků v grafech Excelu pomocí Aspose.Cells
+  pro Javu, automaticky upravovat popisky grafu v Excelu tak, aby perfektně seděly
+  a byly čitelné.
+keywords:
+- auto-resize chart data labels
+- Aspose.Cells for Java
+- Excel charts customization
+title: Jak změnit velikost popisků v grafech Excelu pomocí Aspose.Cells pro Javu
+url: /cs/java/charts-graphs/aspose-cells-java-auto-resize-chart-data-labels/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,35 +18,45 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Jak změnit velikost popisků v grafech Excelu pomocí Aspose.Cells pro Java
 
-# Jak automaticky změnit velikost popisků dat grafu v Excelu pomocí Aspose.Cells pro Javu
+## Úvod
 
-## Zavedení
+Pokud hledáte **jak změnit velikost popisků** v grafech Excelu, jste na správném místě. Tento tutoriál vás provede používáním Aspose.Cells pro Java k automatickému změnění velikosti tvarů popisků dat v grafech, aby popisky perfektně zapadaly do svých kontejnerů. Na konci tohoto průvodce budete schopni rychle upravit popisky grafů v Excelu, zlepšit čitelnost a vytvořit profesionální zprávy bez ručního ladění.
 
-Máte potíže s popisky dat grafů, které se nevejdou do svých tvarů v Excelu? Tato příručka vám ukáže, jak pomocí Aspose.Cells pro Javu automaticky změnit velikost tvarů popisků dat grafů, čímž se zlepší čitelnost a kvalita prezentace.
+**Co se naučíte**
+- Jak nastavit Aspose.Cells pro Java ve vašem projektu.
+- Přesné kroky k **automatickému změnění velikosti popisků grafu v Excelu**.
+- Scénáře z reálného světa, kde automatické změnění velikosti šetří čas.
+- Tipy na výkon pro velké sešity nebo složité grafy.
 
-**Co se naučíte:**
-- Nastavení Aspose.Cells pro Javu ve vašem projektu.
-- Použití funkcí Aspose.Cells pro automatickou změnu velikosti popisků dat grafu.
-- Reálné aplikace této funkce.
-- Aspekty výkonu u velkých datových sad nebo složitých grafů.
+## Rychlé odpovědi
+- **Co znamená „jak změnit velikost popisků“?** Jedná se o automatické přizpůsobení tvaru popisků dat v grafu tak, aby text zapadal bez oříznutí.  
+- **Která knihovna to řeší?** Aspose.Cells pro Java poskytuje vlastnost `setResizeShapeToFitText`.  
+- **Potřebuji licenci?** Zkušební verze funguje pro testování; plná licence je vyžadována pro produkci.  
+- **Bude fungovat na všech typech grafů?** Ano – sloupcové, pruhové, koláčové, čárové a další jsou podporovány.  
+- **Má to dopad na výkon?** Minimální; stačí po změnách zavolat `chart.calculate()`.
 
-Začněme tím, že si projdeme předpoklady, které jsou nutné před implementací těchto řešení.
+## Co je automatické změnění velikosti popisků dat v grafu?
+Automatické změnění velikosti popisků dat v grafu je funkce, která dynamicky rozšiřuje nebo zmenšuje ohraničující rámeček popisku tak, aby odpovídal délce obsaženého textu. Tím se eliminuje běžný problém oříznutých nebo překrývajících se popisků, zejména při práci s různými číselnými formáty nebo dlouhými názvy kategorií.
 
-## Předpoklady
+## Proč upravovat popisky grafů v Excelu?
+- **Čitelnost:** Zabraňuje oříznutí čísel a zajišťuje, že každý datový bod je viditelný.  
+- **Profesionální vzhled:** Dává dashboardům a zprávám vylepšený vzhled bez ručních úprav.  
+- **Úspora času:** Automatizuje opakující se úkol formátování, což je zvláště užitečné u hromadně generovaných zpráv.
 
-Abyste mohli pokračovat, potřebujete:
-- **Vývojová sada pro Javu (JDK)** nainstalovaný na vašem počítači. Pro kompatibilitu doporučujeme JDK 8 nebo vyšší.
-- IDE jako IntelliJ IDEA, Eclipse nebo VS Code, které podporuje projekty v Javě.
-- Základní znalost programování v Javě a zkušenosti s programovou prací s Excelovými soubory.
+## Požadavky
+- Java Development Kit (JDK) 8 nebo vyšší.  
+- IDE jako IntelliJ IDEA, Eclipse nebo VS Code.  
+- Základní znalost Javy a orientace v práci se soubory Excel.  
 
-## Nastavení Aspose.Cells pro Javu
+## Nastavení Aspose.Cells pro Java
 
 ### Informace o instalaci
 
-Chcete-li použít Aspose.Cells ve vašem projektu Java, zahrňte jej jako závislost pomocí Mavenu nebo Gradle:
+Přidejte Aspose.Cells do svého projektu pomocí Maven nebo Gradle.
 
-**Znalec:**
+**Maven**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -49,31 +65,31 @@ Chcete-li použít Aspose.Cells ve vašem projektu Java, zahrňte jej jako závi
 </dependency>
 ```
 
-**Gradle:**
+**Gradle**
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Získání licence
 
-Aspose nabízí bezplatnou zkušební verzi pro otestování možností svých knihoven:
-1. **Bezplatná zkušební verze**Stáhněte si dočasnou licenci z [tento odkaz](https://releases.aspose.com/cells/java/) po dobu 30 dnů.
-2. **Dočasná licence**Požádejte o delší přístup prostřednictvím [stránka nákupu](https://purchase.aspose.com/temporary-license/).
-3. **Nákup**Pro trvalé používání zvažte zakoupení plné licence od [Nákupní stránka Aspose](https://purchase.aspose.com/buy).
+Aspose nabízí zkušební verzi pro vyzkoušení možností svých knihoven:
+1. **Zkušební verze**: Stáhněte dočasnou licenci z [tohoto odkazu](https://releases.aspose.com/cells/java/) na 30 dní.  
+2. **Dočasná licence**: Požádejte o delší přístup prostřednictvím [stránky nákupu](https://purchase.aspose.com/temporary-license/).  
+3. **Nákup**: Pro dlouhodobé používání zvažte zakoupení plné licence na [stránce nákupu Aspose](https://purchase.aspose.com/buy).
 
 ### Základní inicializace a nastavení
 
-Jakmile je Aspose.Cells přidán do vašeho projektu, inicializujte jej ve vaší Java aplikaci:
+Jakmile je Aspose.Cells přidáno do vašeho projektu, inicializujte jej ve vaší Java aplikaci:
 
 ```java
 import com.aspose.cells.Workbook;
 
 public class InitializeAspose {
     public static void main(String[] args) throws Exception {
-        // Vytvoření nové instance sešitu nebo otevření existující instance
+        // Create a new Workbook instance or open an existing one
         Workbook workbook = new Workbook("path/to/your/excel/file.xlsx");
         
-        // Uložte upravený soubor aplikace Excel
+        // Save the modified Excel file
         workbook.save("output/path/output_file.xlsx");
     }
 }
@@ -81,13 +97,11 @@ public class InitializeAspose {
 
 ## Průvodce implementací
 
-### Automatická změna velikosti popisků dat grafu
+### Automatické změnění velikosti popisků dat v grafu
 
-Tato část vysvětluje, jak změnit velikost popisků dat grafu pomocí Aspose.Cells pro Javu. Zaměříme se na nastavení a manipulaci s grafy v existujícím sešitu aplikace Excel.
+Níže je krok za krokem kód, který potřebujete k **automatickému změnění velikosti popisků grafu v Excelu**.
 
-#### Načítání sešitu
-
-Začněte načtením souboru aplikace Excel obsahujícího grafy, které chcete upravit:
+#### 1️⃣ Načtení sešitu
 
 ```java
 import com.aspose.cells.Workbook;
@@ -95,18 +109,16 @@ import AsposeCellsExamples.Utils;
 
 public class ResizeChartDataLabelShapeToFitText {
     public static void main(String[] args) throws Exception {
-        // Definujte adresář dokumentu
+        // Define the directory of your document
         String dataDir = Utils.getSharedDataDir(ResizeChartDataLabelShapeToFitText.class) + "TechnicalArticles/";
         
-        // Načtení existujícího sešitu obsahujícího grafy
+        // Load an existing workbook containing charts
         Workbook book = new Workbook(dataDir + "report.xlsx");
     }
 }
 ```
 
-#### Přístup k grafům a popiskům dat
-
-Dále přejděte ke konkrétnímu grafu, který chcete upravit:
+#### 2️⃣ Přístup k grafům a popiskům dat
 
 ```java
 import com.aspose.cells.Worksheet;
@@ -114,96 +126,104 @@ import com.aspose.cells.ChartCollection;
 
 public class ResizeChartDataLabelShapeToFitText {
     public static void main(String[] args) throws Exception {
-        // (Zde načtěte kód sešitu...)
+        // (Load workbook code here...)
         
-        // Přístup k prvnímu listu v sešitu
+        // Access the first worksheet in the workbook
         Worksheet sheet = book.getWorksheets().get(0);
         
-        // Získejte všechny grafy z pracovního listu
+        // Get all charts from the worksheet
         ChartCollection charts = sheet.getCharts();
 
         for (int chartIndex = 0; chartIndex < charts.getCount(); chartIndex++) {
             com.aspose.cells.Chart chart = charts.get(chartIndex);
             
-            // Zpracujte každou sérii v grafu
+            // Process each series in the chart
             for (int seriesIndex = 0; seriesIndex < chart.getNSeries().getCount(); seriesIndex++) {
                 DataLabels labels = chart.getNSeries().get(seriesIndex).getDataLabels();
                 
-                // Povolit automatickou změnu velikosti tvaru datového popisku tak, aby se přizpůsobil textu
+                // Enable auto‑resizing of data label shape to fit text
                 labels.setResizeShapeToFitText(true);
             }
             
-            // Přepočítat graf po změnách
+            // Recalculate the chart after changes
             chart.calculate();
         }
     }
 }
 ```
 
-#### Ukládání změn
-
-Nakonec uložte sešit s upravenými grafy:
+#### 3️⃣ Uložení upraveného sešitu
 
 ```java
 public class ResizeChartDataLabelShapeToFitText {
     public static void main(String[] args) throws Exception {
-        // (Předchozí kód...)
+        // (Previous code...)
         
-        // Uložit sešit do nového souboru
+        // Save the workbook to a new file
         book.save(dataDir + "RCDLabelShapeToFitText_out.xlsx");
     }
 }
 ```
 
 ### Tipy pro řešení problémů
-
-- **Graf se neaktualizuje**Ujistěte se, že zavoláte `chart.calculate()` po úpravě vlastností popisku.
-- **Problémy s licencí**Pokud narazíte na omezení, ověřte nastavení licence nebo použijte možnost dočasné licence pro přístup k plným funkcím.
+- **Graf se neaktualizuje:** Ověřte, že jste po úpravě vlastností popisků zavolali `chart.calculate()`.  
+- **Omezení licence:** Pokud narazíte na omezení funkcí, zkontrolujte, že je soubor licence správně načten, nebo přepněte na dočasnou licenci pro plný přístup.
 
 ## Praktické aplikace
 
-Zde je několik reálných aplikací automatické změny velikosti popisků dat grafu:
+Zde jsou běžné scénáře, kde je **jak změnit velikost popisků** nezbytné:
 
-1. **Finanční zprávy**: Automaticky upravovat popisky tak, aby odpovídaly různým hodnotám měn a procentům ve finančních grafech.
-2. **Prodejní dashboardy**Zajistěte, aby názvy produktů nebo popisy v prodejních grafech zůstaly čitelné bez ohledu na jejich délku.
-3. **Akademický výzkum**Zachovat přehlednost ve složitých datových sadách, kde se délky popisků výrazně liší.
+1. **Finanční zprávy** – Hodnoty měn a procenta se liší délkou; automatické změnění velikosti udržuje rozvržení čisté.  
+2. **Prodejní dashboardy** – Názvy produktů mohou být dlouhé; funkce zajišťuje, že každý popisek zůstane čitelný.  
+3. **Akademický výzkum** – Složité datové sady často vytvářejí nerovnoměrné délky popisků; automatické přizpůsobení šetří hodiny ručního formátování.
 
 ## Úvahy o výkonu
 
-Optimalizace výkonu při použití Aspose.Cells s velkými soubory aplikace Excel:
-- **Efektivní správa paměti**Po použití předměty řádně zlikvidujte, abyste uvolnili paměť.
-- **Dávkové zpracování**Zpracovávejte grafy dávkově, pokud pracujete s rozsáhlými datovými sadami, čímž snižujete zátěž JVM.
-- **Použít nejnovější verzi**: Pro lepší výkon a funkce se ujistěte, že používáte nejnovější verzi.
+Při práci s velkými sešity:
 
-## Závěr
+- **Správa paměti:** Uvolněte objekty (`workbook.dispose()`), když již nejsou potřeba.  
+- **Dávkové zpracování:** Procházejte grafy v menších skupinách, aby nedošlo k nadměrnému využití haldy.  
+- **Zůstaňte aktualizováni:** Používejte nejnovější verzi Aspose.Cells pro zlepšení výkonu a opravy chyb.
 
-Naučili jste se, jak implementovat Aspose.Cells v Javě pro efektivní automatickou změnu velikosti popisků dat grafů. Tato funkce zajišťuje, že si vaše grafy v Excelu zachovají vizuální integritu bez ohledu na délku textu, díky čemuž jsou čitelnější a profesionálnější.
+## Časté problémy a řešení
 
-Další kroky by mohly zahrnovat prozkoumání dalších možností přizpůsobení grafů v Aspose.Cells nebo integraci této funkce do většího automatizovaného systému pro tvorbu reportů.
+| Problém | Příčina | Řešení |
+|---------|---------|--------|
+| Popisky zůstávají stejných rozměrů | `setResizeShapeToFitText` nebyla zavolána | Ujistěte se, že je vlastnost nastavena na `true` pro každou sérii. |
+| Graf se po uložení zobrazí prázdný | Licence nebyla použita | Načtěte platnou licenci před otevřením sešitu. |
+| Pomalé zpracování velkých souborů | Zpracování všech grafů najednou | Zpracovávejte grafy po dávkách nebo zvyšte velikost haldy JVM. |
 
-## Sekce Často kladených otázek
+## Často kladené otázky
 
-1. **Jaký je primární případ použití pro změnu velikosti popisků dat grafu?**
-   - Pro zlepšení čitelnosti grafů s různě dlouhými popisky.
-2. **Mohu změnit velikost popisků ve všech typech grafů?**
-   - Ano, Aspose.Cells podporuje různé typy grafů, včetně sloupcových, pruhových a koláčových.
-3. **Jak automatická změna velikosti ovlivňuje výkon?**
-   - Správná implementace má minimální dopad; pro optimální výkon vždy dodržujte osvědčené postupy.
-4. **Je pro produkční použití vyžadována licence?**
-   - Ano, pro produkční prostředí po uplynutí zkušební doby je vyžadována plná licence.
-5. **Mohu změnit velikost popisků v grafech vytvořených programově?**
-   - Rozhodně! Tuto funkci můžete použít na jakýkoli graf vygenerovaný pomocí Aspose.Cells.
+**Q: Jaký je hlavní případ použití pro změnu velikosti popisků dat v grafu?**  
+A: Zlepšit čitelnost v grafech, kde se délky popisků liší, a zabránit oříznutí nebo překrývání.
+
+**Q: Můžu to použít na každý typ grafu?**  
+A: Ano, Aspose.Cells podporuje sloupcové, pruhové, koláčové, čárové a mnoho dalších typů grafů.
+
+**Q: Má automatické změnění velikosti výrazný dopad na výkon?**  
+A: Dopad je minimální; hlavní zátěž představuje volání `chart.calculate()`, které je vyžadováno při jakékoli úpravě grafu.
+
+**Q: Je licence povinná pro produkci?**  
+A: Ano, plná licence Aspose.Cells je vyžadována pro produkční nasazení po uplynutí zkušební doby.
+
+**Q: Můžu tuto funkci použít na grafy vytvořené programově?**  
+A: Rozhodně. Po vygenerování grafu použijte stejný volání `setResizeShapeToFitText(true)`.
 
 ## Zdroje
 
-- [Dokumentace k Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [Stáhněte si Aspose.Cells pro Javu](https://releases.aspose.com/cells/java/)
-- [Zakoupit licenci](https://purchase.aspose.com/buy)
-- [Bezplatná zkušební verze](https://releases.aspose.com/cells/java/)
-- [Žádost o dočasnou licenci](https://purchase.aspose.com/temporary-license/)
+- [Dokumentace Aspose.Cells](https://reference.aspose.com/cells/java/)
+- [Stáhnout Aspose.Cells pro Java](https://releases.aspose.com/cells/java/)
+- [Koupit licenci](https://purchase.aspose.com/buy)
+- [Zkušební verze](https://releases.aspose.com/cells/java/)
+- [Požadavek na dočasnou licenci](https://purchase.aspose.com/temporary-license/)
 - [Fórum podpory Aspose](https://forum.aspose.com/c/cells/9)
 
-Prozkoumejte tyto zdroje a prohloubete své znalosti a schopnosti s Aspose.Cells Java.
+---
+
+**Poslední aktualizace:** 2026-03-31  
+**Testováno s:** Aspose.Cells 25.3 pro Java  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

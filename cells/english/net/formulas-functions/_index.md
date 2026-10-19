@@ -66,6 +66,9 @@ Learn how to automate Excel tasks using Aspose.Cells for .NET. Create workbooks,
 ### [Direct Calculation Formulas in Excel using Aspose.Cells for .NET&#58; A Comprehensive Guide](./excel-direct-calculation-aspose-cells-dotnet)
 Learn how to efficiently perform direct calculations in Excel with Aspose.Cells for .NET. Automate your formula processing and improve data management with on-demand calculation capabilities.
 
+### [How to Calculate Cotangent in Excel with C# – Create Workbook, Use EXPAND, and Save](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+Learn how to calculate cotangent using Aspose.Cells for .NET, create a workbook, apply EXPAND, and save the result.
+
 ### [Excel Formula Search with Aspose.Cells for .NET](./excel-formula-search-aspose-cells-net)
 Learn how to search for specific formulas within Excel workbooks using Aspose.Cells for .NET. This tutorial covers pattern matching, formula location, and extraction techniques for finding formulas across worksheets.
 
@@ -83,6 +86,9 @@ Learn how to enhance your Excel-like calculations with custom logic using Aspose
 
 ### [How to Implement Custom Functions in Aspose.Cells for .NET&#58; A Step-by-Step Guide](./implement-custom-functions-aspose-cells-net)
 Learn how to create and implement custom functions in Excel using Aspose.Cells for .NET. Enhance your spreadsheets with tailored calculations that extend beyond Excel's built-in functions.
+
+### [How to Use Lambda in C# with Excel Formulas – Complete Guide](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
+Learn how to leverage C# lambda expressions within Excel formulas using Aspose.Cells for .NET, enabling concise and powerful custom calculations.
 
 ### [How to Implement Named Range Formulas in .NET using Aspose.Cells for Excel Automation](./implement-named-range-formulas-net-aspose-cells)
 Learn how to automate named range formulas in localized Excel solutions with Aspose.Cells for .NET. Streamline your workflows and enhance productivity with formula references using named ranges.
@@ -105,6 +111,72 @@ Learn how to specify the language of your Excel files using Aspose.Cells .NET. E
 ### [Update Excel Power Query Formulas with Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Learn how to programmatically update Power Query formulas in Excel workbooks using Aspose.Cells for .NET. Master data source management for dynamic reporting.
 
+### [How to Use WRAPCOLS in C# – Create Excel Workbook with Wrap Functions](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+Learn how to apply the WRAPCOLS function in C# using Aspose.Cells to create Excel workbooks with wrapped column data.
+
+### [Create Excel Workbook C# – Lambda, SEQUENCE & EXPAND Guide](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+Learn how to create Excel workbooks in C# using Lambda functions, SEQUENCE and EXPAND formulas with Aspose.Cells for .NET.
+
+## Understanding Excel Formula Types
+
+Excel formulas come in various forms, each with unique characteristics that Aspose.Cells can manage:
+
+### Standard Cell Formulas
+
+These are the most common formulas that operate on single cells:
+
+- **Arithmetic Formulas**: Basic calculations like `=A1+B1`
+- **Function-Based Formulas**: Using built-in functions like `=SUM(A1:A10)`
+- **Logical Formulas**: Conditional logic with functions like `=IF(A1>10,"High","Low")`
+- **Text Formulas**: Text manipulation with functions like `=CONCATENATE(A1," ",B1)`
+
+### Range-Based Formulas
+
+These formulas work with cell ranges:
+
+- **Aggregation Formulas**: Functions like `=AVERAGE(A1:A100)` that process multiple cells
+- **Lookup Formulas**: Reference functions like `=VLOOKUP(E1,A1:B20,2,FALSE)` for data retrieval
+- **Database Formulas**: Specialized functions like `=DSUM(A1:F100,"Amount",G1:H2)` for filtering and calculation
+
+### Array Formulas
+
+Array formulas perform calculations on multiple values simultaneously:
+
+- **Single-Cell Array Formula**: Returns one result but processes arrays internally
+- **Multi-Cell Array Formula**: Populates multiple cells with related results
+- **Dynamic Arrays**: Modern Excel formulas that automatically spill results to neighboring cells
+
+### Named Formulas
+
+These formulas use named ranges or defined names:
+
+- **Named Range References**: Using defined names like `=SUM(SalesData)`
+- **Structured References**: Table references like `=SUM(Table1[Amount])`
+- **Dynamic Named Ranges**: Formulas that adjust automatically with data size
+
+## Best Practices for Formula Management
+
+### Performance Optimization
+
+To ensure efficient formula handling:
+
+1. **Batch Formula Setting**: Apply formulas to ranges rather than cell-by-cell
+2. **Calculate Selectively**: Use targeted calculation when possible instead of full recalculation
+3. **Minimize Volatile Functions**: Limit use of functions like NOW() or RAND() that trigger recalculation
+4. **Use Shared Formulas**: Leverage shared formula capabilities for memory efficiency
+
+### Formula Reliability
+
+For robust formula implementation:
+
+1. **Error Handling**: Implement formula error handling with IFERROR or similar functions
+2. **Cell Dependency Analysis**: Understand formula dependencies to avoid circular references
+3. **Formula Auditing**: Verify formula logic before deployment
+4. **Documentation**: Maintain clear documentation of complex formula structures
+
+By mastering these formula capabilities with Aspose.Cells for .NET, you can create sophisticated calculation engines in your spreadsheets that deliver accurate, dynamic results without requiring Excel installation.
+### [Create Excel Workbook with EXPAND Formula – Complete Guide](./create-excel-workbook-with-expand-formula-complete-guide/)
+Learn how to generate Excel workbooks using the new EXPAND function with Aspose.Cells for .NET, covering syntax, usage, and performance tips.
 ### [How to Use SEQUENCE in C# – Create Excel Workbook](./how-to-use-sequence-in-c-create-excel-workbook/)
 Learn how to generate dynamic sequences in Excel using the SEQUENCE function with Aspose.Cells for .NET in C#.
 
