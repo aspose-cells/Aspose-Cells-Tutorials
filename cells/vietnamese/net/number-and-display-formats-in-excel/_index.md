@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Số và Định dạng Hiển thị trong Excel
@@ -37,22 +35,23 @@ Xuất tệp Excel bằng Aspose.Cells cho .NET đồng thời giữ nguyên đ�
 ### [Định dạng ngày giờ sang ISO trong C# – Hướng dẫn toàn diện](./format-datetime-to-iso-in-c-complete-guide/)
 Hướng dẫn chi tiết cách chuyển đổi ngày giờ sang định dạng ISO trong C# bằng Aspose.Cells cho .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Cách định dạng tiền tệ trong cột Grid – Hướng dẫn từng bước](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 Hướng dẫn chi tiết cách định dạng tiền tệ cho cột Grid trong Aspose.Cells cho .NET, bao gồm các bước thực hiện cụ thể.
 ### [Áp dụng định dạng số trong Excel – Hướng dẫn từng bước để định dạng cột](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
 Hướng dẫn chi tiết cách áp dụng định dạng số cho các cột trong Excel bằng Aspose.Cells cho .NET.
+### [Cách làm tròn số Excel trong C# – hướng dẫn lập trình đầy đủ](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+Hướng dẫn chi tiết cách làm tròn số trong Excel bằng Aspose.Cells cho .NET sử dụng C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,0 +1,7 @@
+Title: How to export worksheet to CSV with precision in Java
+Slug: how-to-export-worksheet-to-csv-with-precision-in-java
+Category: excel-import-export
+ProcessedDate: 2026-09-28T03:34:05.778251
+SourceRepo: AI Search API
+Keywords: export worksheet to csv, save workbook as csv, how to set precision, save excel as csv, export excel to csv
+PRNumber: 172

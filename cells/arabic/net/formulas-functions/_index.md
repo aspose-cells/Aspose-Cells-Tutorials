@@ -99,8 +99,20 @@
 ### [كيفية تعيين اللغة في ملفات Excel باستخدام Aspose.Cells .NET لدعم تعدد اللغات](./specify-language-excel-aspose-cells-net)
 تعرّف على كيفية تحديد لغة ملفات Excel باستخدام Aspose.Cells .NET. حسّن إمكانية الوصول إلى المستندات وتوافقها مع هذا الدليل التفصيلي لتدويل إعدادات الصيغ.
 
+### [كيفية حساب القاطع في Excel باستخدام C# – إنشاء مصنف، واستخدام EXPAND، وحفظه](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+
 ### [تحديث صيغ Excel Power Query باستخدام Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 تعرّف على كيفية تحديث صيغ Power Query برمجيًا في مصنفات Excel باستخدام Aspose.Cells لـ .NET. إدارة مصادر البيانات الرئيسية لإعداد تقارير ديناميكية.
+
+### [كيفية استخدام WRAPCOLS في C# – إنشاء مصنف Excel مع وظائف التغليف](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+### [كيفية استخدام WRAPCOLS في C# – تحويل مصفوفة إلى مصفوفة (ماتريكس) في Excel](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
+تعلّم كيفية استخدام WRAPCOLS في C# لإعادة تشكيل مصفوفة إلى مصفوفة (ماتريكس) داخل Excel باستخدام Aspose.Cells.
+### [كيفية استخدام SEQUENCE في C# – إنشاء مصنف Excel](./how-to-use-sequence-in-c-create-excel-workbook/)
+تعلم كيفية استخدام دالة SEQUENCE في C# لإنشاء مصنف Excel وتوليد القيم تلقائيًا.
+
+## فهم أنواع الصيغ في Excel
+
+### [إنشاء مصنف Excel C# – دليل Lambda و SEQUENCE و EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 
 ### [كيفية استخدام Lambda في C# مع صيغ Excel – دليل شامل](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
 تعلم كيفية تطبيق تعبيرات Lambda في C# لتوليد صيغ Excel ديناميكية وتحسين الأداء في تطبيقات .NET.

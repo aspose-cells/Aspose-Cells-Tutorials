@@ -13,17 +13,12 @@ url: /ko/java/advanced-features/aspose-cells-java-excel-db-connections/
 weight: 1
 ---
 
- >}}
 
-All done.
 
-Check for any missed markdown links: we have two links, keep unchanged.
 
-Check code block placeholders: they are {{CODE_BLOCK_X}} not code fences. Should keep as is.
 
-Make sure we didn't translate any URLs.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

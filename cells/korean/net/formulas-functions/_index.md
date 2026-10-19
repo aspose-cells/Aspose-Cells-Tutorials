@@ -40,69 +40,60 @@ Aspose.Cells를 사용하여 수식 조작을 익히면 정확한 결과를 제�
 ## 수식 및 함수 튜토리얼
 
 ### [Aspose.Cells를 사용하여 .NET 통합 문서에서 수식 텍스트 추출](./aspose-cells-formula-text-net)
-.NET에서 Aspose.Cells를 사용하여 Excel 파일에서 수식 텍스트를 프로그래밍 방식으로 추출하는 방법을 알아보세요. 스프레드시트에 포함된 수식 논리를 감사하고 문서화하는 데 적합합니다.
 
 ### [Aspose.Cells .NET을 사용하여 Excel 작업 자동화: 범위에 수식 설정](./aspose-cells-net-set-formulas-ranges)
-Aspose.Cells for .NET을 사용하여 범위 내 수식 설정을 자동화하는 방법을 알아보세요. C#을 사용하여 여러 셀에 동일한 수식을 동시에 적용하여 Excel 워크플로를 효율적으로 간소화하세요.
 
 ### [Aspose.Cells .NET 가이드를 사용하여 수식을 포함한 효율적인 CSV 가져오기](./csv-imports-formulas-aspose-cells-net-guide)
-Aspose.Cells for .NET을 사용하여 복잡한 수식이 포함된 CSV 파일을 기능 손실 없이 Excel로 가져오는 방법을 알아보세요. 데이터를 가져오는 동안 수식 논리를 유지하는 방법을 익혀보세요.
 
 ### [Aspose.Cells .NET에서 셀 수식 사용자 지정: 전역화 설정 가이드](./custom-aspose-cells-net-globalization-settings)
-Aspose.Cells .NET을 사용하여 셀 수식을 사용자 지정하는 방법을 알아보세요. 다국어 애플리케이션의 글로벌화 설정에 중점을 둡니다. 다국어 수식 형식을 사용하는 개발자를 위한 종합 가이드입니다.
 
 ### [Aspose.Cells .NET을 사용하여 Excel에서 수식 표시: 효율적인 통합 문서 관리를 위한 포괄적인 가이드](./display-excel-formulas-aspose-cells-net)
-Aspose.Cells .NET을 사용하여 Excel 통합 문서에 수식을 효율적으로 표시하는 방법을 알아보세요. 이 가이드에서는 수식 감사 및 문서화를 위한 설정, 통합 문서 조작, 그리고 실제 활용 방법을 다룹니다.
 
 ### [Aspose.Cells for .NET을 사용하여 동적 Excel 수식 및 콤보 상자 구현](./dynamic-excel-formulas-combobox-aspose-cells-net)
-Aspose.Cells for .NET을 사용하여 동적 Excel 보고서를 자동화하는 방법을 알아보세요. 명명된 범위를 만들고, ComboBox 컨트롤을 추가하고, 사용자 선택에 따라 업데이트되는 반응형 수식을 생성해 보세요.
 
 ### [Excel 자동화: 수식을 위한 Aspose.Cells .NET](./excel-automation-aspose-cells-net-formulas)
-Aspose.Cells for .NET을 사용하여 Excel 수식 자동화를 마스터하세요. 이 튜토리얼에서는 효율적인 스프레드시트 작업을 위해 프로그래밍 방식으로 수식을 생성, 계산 및 최적화하는 방법을 다룹니다.
 
 ### [Aspose.Cells .NET을 활용한 Excel 자동화: 통합 문서 및 수식 계산 마스터하기](./excel-automation-aspose-cells-net-workbook-formulas)
-Aspose.Cells for .NET을 사용하여 Excel 작업을 자동화하는 방법을 알아보세요. 통합 문서를 만들고, IFNA 및 VLOOKUP과 같은 수식을 적용하고, Excel을 설치하지 않고도 데이터 처리를 효율적으로 간소화할 수 있습니다.
 
 ### [Aspose.Cells for .NET을 사용한 Excel의 직접 계산 공식: 포괄적인 가이드](./excel-direct-calculation-aspose-cells-dotnet)
-Aspose.Cells for .NET을 사용하여 Excel에서 직접 계산을 효율적으로 수행하는 방법을 알아보세요. 주문형 계산 기능을 사용하여 수식 처리를 자동화하고 데이터 관리를 개선하세요.
 
 ### [Aspose.Cells for .NET을 사용한 Excel 수식 검색](./excel-formula-search-aspose-cells-net)
-Aspose.Cells for .NET을 사용하여 Excel 통합 문서에서 특정 수식을 검색하는 방법을 알아보세요. 이 자습서에서는 여러 워크시트에서 수식을 찾기 위한 패턴 일치, 수식 위치 및 추출 기법을 다룹니다.
 
 ### [Aspose.Cells 콜백을 사용한 .NET에서의 Excel 경고 처리: 포괄적인 가이드](./excel-warning-handling-net-aspose-cells-callbacks)
-Aspose.Cells for .NET을 사용하여 Excel 경고를 관리하는 방법을 알아보세요. IWarningCallback을 구현하고 수식 계산 문제 및 기타 경고 시나리오에 대한 애플리케이션의 오류 처리를 개선하세요.
 
 ### [Aspose.Cells를 사용하여 Excel 확장: .NET에서 사용자 정의 함수(UDF) 등록 및 호출](./extend-excel-aspose-cells-register-call-udfs)
-Aspose.Cells for .NET을 사용하여 UDF를 등록하고 호출하여 Excel 통합 문서를 개선하는 방법을 알아보세요. 사용자 지정 함수를 숙달하고 직접 계산 루틴을 사용하여 데이터 처리 효율성을 높여 보세요.
 
 ### [Aspose.Cells for .NET을 사용하여 Excel에서 수식 셀 찾기 및 관리](./find-formula-cells-in-excel-using-aspose-cells-net)
-Aspose.Cells for .NET을 사용하여 Excel 통합 문서에서 수식 셀을 효율적으로 찾는 방법을 알아보세요. 이 가이드에서는 수식이 포함된 셀을 찾고 관리하기 위한 설정, 사용 방법 및 성능 최적화 방법을 다룹니다.
 
 ### [.NET용 Aspose.Cells에서 사용자 지정 계산 구현: 포괄적인 가이드](./guide-implement-custom-calculations-aspose-cells-dotnet)
-Aspose.Cells for .NET을 사용하여 사용자 지정 로직을 통해 Excel과 유사한 계산을 개선하는 방법을 알아보세요. 이 가이드에서는 수식 기능 확장을 위한 설정, 구현 및 실제 적용 사례를 다룹니다.
 
 ### [.NET용 Aspose.Cells에서 사용자 지정 함수를 구현하는 방법: 단계별 가이드](./implement-custom-functions-aspose-cells-net)
-Aspose.Cells for .NET을 사용하여 Excel에서 사용자 지정 함수를 만들고 구현하는 방법을 알아보세요. Excel 기본 제공 함수를 넘어 맞춤형 계산 기능을 사용하여 스프레드시트를 더욱 풍부하게 만들어 보세요.
 
 ### [Aspose.Cells를 사용하여 Excel 자동화를 위한 .NET에서 명명된 범위 수식을 구현하는 방법](./implement-named-range-formulas-net-aspose-cells)
-Aspose.Cells for .NET을 사용하여 현지화된 Excel 솔루션에서 명명된 범위 수식을 자동화하는 방법을 알아보세요. 명명된 범위를 사용한 수식 참조를 통해 워크플로를 간소화하고 생산성을 향상하세요.
 
 ### [Aspose.Cells .NET을 사용하여 정확한 데이터 분석을 위한 Excel 셀 종속성 추적 마스터하기](./master-cell-dependency-tracking-aspose-cells-net)
-Aspose.Cells .NET을 사용하여 Excel에서 셀 종속성을 추적하고 관리하는 방법을 알아보세요. 이 가이드는 수식 관계를 이해하여 데이터 정확도와 효율성을 향상시키는 단계별 방법을 제공합니다.
 
 ### [Aspose.Cells for .NET을 사용하여 Excel에서 공유 수식을 마스터하는 방법: 포괄적인 가이드](./master-shared-formulas-excel-aspose-cells-net)
-Aspose.Cells for .NET을 사용하여 Excel에서 공유 수식을 구현하는 방법을 알아보세요. 이 가이드에서는 단계별 지침을 제공하고 성능에 최적화된 수식 애플리케이션을 사용하여 Excel 작업을 자동화하는 이점을 강조합니다.
 
 ### [Aspose.Cells를 사용하여 .NET에서 배열 수식 마스터하기: 종합 가이드](./mastering-aspose-cells-net-array-formulas)
-Aspose.Cells for .NET을 사용하여 배열 수식을 완벽하게 다루는 방법을 알아보세요. 이 가이드에서는 강력한 다중 셀 계산의 설정, 구현 및 실제 적용 사례를 다룹니다.
 
 ### [다국어 지원을 위해 Aspose.Cells .NET을 사용하여 Excel 파일에 언어를 설정하는 방법](./specify-language-excel-aspose-cells-net)
-Aspose.Cells .NET을 사용하여 Excel 파일의 언어를 지정하는 방법을 알아보세요. 수식 설정의 국제화를 위한 단계별 가이드를 통해 문서 접근성과 규정 준수를 강화하세요.
 
 ### [Aspose.Cells .NET을 사용하여 Excel Power Query 수식 업데이트](./update-power-query-formulas-aspose-cells-net)
-Aspose.Cells for .NET을 사용하여 Excel 통합 문서에서 Power Query 수식을 프로그래밍 방식으로 업데이트하는 방법을 알아보세요. 동적 보고를 위한 마스터 데이터 소스 관리 방법을 알아보세요.
+
+### [C#에서 SEQUENCE 사용 방법 – Excel 통합 문서 만들기](./how-to-use-sequence-in-c-create-excel-workbook/)
+
+### [C#에서 배열 수식 작성 – 전체 프로그래밍 가이드](./write-array-formula-in-c-complete-programming-guide/)
+
+### [C#에서 WRAPCOLS 사용하기 – 배열을 매트릭스로 재구성](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
 
 ### [C#에서 Lambda를 사용하여 Excel 수식 활용 – 완전 가이드](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
+### [C#에서 WRAPCOLS 사용 방법 – 랩 함수로 Excel 통합 문서 만들기](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+
+### [Excel 워크북 만들기 C# – Lambda, SEQUENCE 및 EXPAND 가이드](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+### [C#를 사용하여 Excel에서 코탄젠트를 계산하는 방법 – 워크북 만들기, EXPAND 사용 및 저장](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+### [EXPAND 수식으로 Excel 통합 문서 만들기 – 완전 가이드](./create-excel-workbook-with-expand-formula-complete-guide/)
+EXPAND 함수를 사용하여 동적 배열을 생성하고, Excel 통합 문서를 프로그래밍 방식으로 구축하는 방법을 단계별로 안내합니다.
 
 ## Excel 수식 유형 이해
 

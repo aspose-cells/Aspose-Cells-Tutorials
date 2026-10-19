@@ -152,6 +152,9 @@ Apprenez à définir les couleurs des onglets des feuilles de calcul dans Excel 
 ### [Comment diviser les volets d'une feuille de calcul dans Excel à l'aide d'Aspose.Cells .NET pour une analyse de données améliorée](./split-worksheet-panes-excel-aspose-cells-dotnet)
 Découvrez comment utiliser Aspose.Cells pour .NET pour diviser les volets des feuilles de calcul dans Excel, améliorant ainsi la navigation des données et l’efficacité de l’analyse pour une meilleure visualisation des grands ensembles de données.
 
+### [Comment utiliser SmartMarkerProcessor – Renommer une feuille existante dans Excel](./how-to-use-smartmarkerprocessor-rename-existing-sheet-in-exc/)
+Apprenez à renommer une feuille existante dans Excel à l'aide de SmartMarkerProcessor avec Aspose.Cells pour .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

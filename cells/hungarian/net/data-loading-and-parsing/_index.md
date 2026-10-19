@@ -63,6 +63,18 @@ Tanuld meg, hogyan hozhatsz létre Excel munkafüzetet JSON adatokból az Aspose
 Tanulja meg, hogyan értelmezze és konvertálja a japán korszak dátumokat Excelben C#-ban az Aspose.Cells segítségével, lépésről lépésre.
 ### [Markdown betöltése táblázatba – Base64 képek dekódolása](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
 Tanulja meg, hogyan importáljon Markdown tartalmat Excel munkafüzetbe, és dekódolja a beágyazott Base64 képeket Aspose.Cells .NET segítségével.
+### [Japán dátumok feldolgozása C#-ban – Teljes útmutató](./how-to-parse-japanese-dates-in-c-complete-guide/)
+Tanuld meg, hogyan olvashatsz és konvertálhatsz japán dátumformátumokat C#-ban az Aspose.Cells segítségével, lépésről lépésre.
+### [JSON beillesztése Excel sablonba – lépésről lépésre](./how-to-insert-json-into-excel-template-step-by-step/)
+Tanuld meg, hogyan illeszthetsz be JSON adatokat egy Excel sablonba az Aspose.Cells for .NET segítségével, részletes lépésről lépésre útmutatóval.
+### [Hogyan töltsünk be Markdown fájlt Excelbe – Markdown fájl importálása Aspose.Cells segítségével](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
+Tanuld meg, hogyan importálj Markdown fájlt Excelbe az Aspose.Cells for .NET segítségével, lépésről lépésre útmutatóval.
+### [Excel generálása JSON-ból C#-ban – Teljes lépésről‑lépésre útmutató](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
+Tanuld meg, hogyan hozhatsz létre Excel-fájlokat JSON adatokból C#‑ban az Aspose.Cells segítségével, részletes példákkal.
+### [Excel munkafüzet létrehozása C# – Teljes útmutató a cellák dátumának olvasásához](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet C#-ban, és olvashatsz dátumokat a cellákból lépésről lépésre.
+### [Japán korszak dátumának elemzése C#-ban – Teljes útmutató](./parse-japanese-era-date-in-c-complete-guide/)
+Tanulja meg, hogyan dolgozhat fel japán korszak dátumokat C#-ban az Aspose.Cells for .NET segítségével, lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

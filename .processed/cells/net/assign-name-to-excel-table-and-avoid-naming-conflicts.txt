@@ -1,0 +1,7 @@
+Title: Assign name to Excel table and avoid naming conflicts
+Slug: assign-name-to-excel-table-and-avoid-naming-conflicts
+Category: excel-advanced-named-ranges
+ProcessedDate: 2026-10-07T18:43:54.403547
+SourceRepo: AI Search API
+Keywords: assign name to excel table, how to define named range, add table to worksheet
+PRNumber: 183
