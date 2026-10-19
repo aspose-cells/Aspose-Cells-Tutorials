@@ -23,7 +23,7 @@ title: Daten in Excel wiederholen – Vorlage mit SmartMarker füllen
 url: /de/net/smart-markers-dynamic-data/repeat-data-in-excel-populate-template-with-smartmarker/
 ---
 
-produce final content with translations. Ensure no extra explanation.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

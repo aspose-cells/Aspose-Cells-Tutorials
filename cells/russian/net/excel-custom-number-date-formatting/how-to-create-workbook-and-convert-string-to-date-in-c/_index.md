@@ -23,9 +23,7 @@ title: Как создать рабочую книгу и преобразова
 url: /ru/net/excel-custom-number-date-formatting/how-to-create-workbook-and-convert-string-to-date-in-c/
 ---
 
-etc.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

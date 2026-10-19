@@ -43,6 +43,9 @@ Learn how to efficiently iterate over columns in Excel spreadsheets using Aspose
 ### [Master the 1904 Date System in Excel Using Aspose.Cells Java for Effective Cell Operations](./aspose-cells-java-configure-1904-date-system-excel/)
 Learn how to manage and manipulate dates in Excel files with Aspose.Cells Java. This guide covers initializing workbooks, enabling the 1904 date system, and saving configurations.
 
+### [Parse Japanese Era Date from Excel in Java – Full Guide](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Learn how to parse Japanese era dates from Excel using Aspose.Cells for Java, handling era symbols and converting to Gregorian dates.
+
 ### [Mastering Aspose.Cells&#58; Implementing CopyOptions & PasteOptions in Java for Excel Data Management](./aspose-cells-java-copy-paste-options/)
 Enhance your Java‑based Excel data management with Aspose.Cells. Learn to use CopyOptions and PasteOptions to maintain references and paste values from visible cells.
 
@@ -90,6 +93,12 @@ A code tutorial for Aspose.Words Java
 
 ### [Set Column Width in Excel Using Aspose.Cells Java](./set-column-width-excel-aspose-cells-java/)
 A code tutorial for Aspose.Words Java
+
+### [Convert Cell to String in Java – Complete Export Guide](./convert-cell-to-string-in-java-complete-export-guide/)
+Learn how to convert Excel cells to string values using Aspose.Cells for Java, covering cell types, formatting, and export techniques.
+
+### [Get datetime from cell in Java Excel – Complete Guide](./get-datetime-from-cell-in-java-excel-complete-guide/)
+Learn how to extract date and time values from Excel cells using Aspose.Cells for Java, with clear code examples.
 
 ## Additional Resources
 

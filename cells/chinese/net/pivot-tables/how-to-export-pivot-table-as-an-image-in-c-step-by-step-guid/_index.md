@@ -21,8 +21,6 @@ title: 如何在 C# 中将数据透视表导出为图片 – 步骤指南
 url: /zh/net/pivot-tables/how-to-export-pivot-table-as-an-image-in-c-step-by-step-guid/
 ---
 
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

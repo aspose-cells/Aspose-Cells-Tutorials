@@ -25,16 +25,6 @@ title: Exporter le classeur en PDF – Guide complet C#
 url: /fr/net/conversion-to-pdf/export-workbook-to-pdf-complete-c-guide/
 ---
 
-"Export workbook to PDF is a common requirement..." translate.
-
-Make sure to keep **bold** formatting.
-
-Proceed step by step.
-
-Also note the note about RTL formatting: French is LTR, ignore.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

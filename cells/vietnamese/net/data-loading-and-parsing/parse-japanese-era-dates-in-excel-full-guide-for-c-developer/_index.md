@@ -24,12 +24,6 @@ title: Phân tích ngày theo niên hiệu Nhật trong Excel – Hướng dẫn
 url: /vi/net/data-loading-and-parsing/parse-japanese-era-dates-in-excel-full-guide-for-c-developer/
 ---
 
-Prerequisite – You need the Aspose.Cells for .NET library..." etc.
-
-Make sure to keep markdown formatting.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -27,13 +27,7 @@ title: Comment enregistrer un classeur en C# – Guide complet pour effacer les 
 url: /fr/net/saving-and-exporting-excel-files-with-options/how-to-save-workbook-in-c-complete-guide-to-clearing-filters/
 ---
 
-.
-
-Then closing shortcodes.
-
-Make sure to keep all shortcodes exactly.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

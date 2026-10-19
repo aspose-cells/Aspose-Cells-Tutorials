@@ -24,9 +24,7 @@ title: Neues Arbeitsbuch in C# erstellen – Markdown nach Excel importieren
 url: /de/net/conversion-and-rendering/create-new-workbook-in-c-import-markdown-to-excel/
 ---
 
-miss any markdown links. There were none.
-
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

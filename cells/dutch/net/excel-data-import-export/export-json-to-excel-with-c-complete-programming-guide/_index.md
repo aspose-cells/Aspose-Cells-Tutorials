@@ -25,13 +25,7 @@ title: 'JSON exporteren naar Excel met C#: Complete programmeergids'
 url: /nl/net/excel-data-import-export/export-json-to-excel-with-c-complete-programming-guide/
 ---
 
-.
-
-We need to keep any fenced code blocks? None present.
-
-Make sure we keep all bullet lists, tables.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,9 +23,7 @@ title: Vytvořit nový sešit v C# – Načíst Excel s japonským kalendářem
 url: /cs/net/loading-and-saving-excel-files-with-options/create-new-workbook-in-c-load-excel-with-japanese-calendar/
 ---
 
-.
-
-Thus final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

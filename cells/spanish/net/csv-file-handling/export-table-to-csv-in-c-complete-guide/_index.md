@@ -24,17 +24,7 @@ title: Exportar tabla a CSV en C# – Guía completa
 url: /es/net/csv-file-handling/export-table-to-csv-in-c-complete-guide/
 ---
 
-CSV existente de nuevo a Excel
-
-## Step 6... => ## Paso 6...
-
-Now ensure code block placeholders remain unchanged.
-
-Also ensure we didn't translate any URLs or file paths: image link alt and title changed but URL unchanged. The alt text is inside brackets, we changed it. That's allowed.
-
-Check any markdown links: none besides image.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

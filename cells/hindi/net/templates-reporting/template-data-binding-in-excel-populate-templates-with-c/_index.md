@@ -24,14 +24,6 @@ title: 'एक्सेल में टेम्पलेट डेटा ब�
 url: /hi/net/templates-reporting/template-data-binding-in-excel-populate-templates-with-c/
 ---
 
-.
-
-Also in FAQ headings.
-
-Let's go step by step.
-
-Will produce final markdown.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

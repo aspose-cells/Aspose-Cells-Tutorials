@@ -23,9 +23,7 @@ title: Zapisz Excel jako tekst – Kompletny przewodnik C# po eksporcie Excela d
 url: /pl/net/converting-excel-files-to-other-formats/save-excel-as-text-complete-c-guide-to-export-excel-to-txt/
 ---
 
-of #.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

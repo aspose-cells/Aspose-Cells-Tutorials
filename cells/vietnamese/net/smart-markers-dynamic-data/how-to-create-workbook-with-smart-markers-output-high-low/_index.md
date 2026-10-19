@@ -23,26 +23,6 @@ title: Cách tạo Workbook với Smart Markers – Xuất High Low
 url: /vi/net/smart-markers-dynamic-data/how-to-create-workbook-with-smart-markers-output-high-low/
 ---
 
-ose.Cells") - alt text and title should be translated? The alt text is "how to create workbook example". Should translate alt and title. But keep URL unchanged. So alt becomes Vietnamese, title also.
-
-Also blockquote: > **Pro tip:** ... translate.
-
-Tables: need translate column headers and content? The first table under "Running the program produces an `output.xlsx` that looks like this:" has header "A". Should we translate? Probably keep as is? It's a column name, could stay "A". The content rows are values; we can translate the description. Keep the table structure.
-
-Second table "Common Pitfalls & Edge Cases" has headers Issue, Why it Happens, Fix. Should translate those headings. Also content inside cells: translate text but keep code formatting like `$total`, `Process()`, etc.
-
-Third table maybe not.
-
-Also bullet lists: translate bullet items.
-
-Make sure to preserve markdown formatting.
-
-Let's start constructing translation.
-
-We'll keep shortcodes as is.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

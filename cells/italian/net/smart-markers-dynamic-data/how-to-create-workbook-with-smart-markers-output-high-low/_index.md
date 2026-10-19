@@ -24,13 +24,7 @@ title: Come creare una cartella di lavoro con Smart Markers – Output Alto Bass
 url: /it/net/smart-markers-dynamic-data/how-to-create-workbook-with-smart-markers-output-high-low/
 ---
 
-sure all formatting preserved.
-
-Check for any missed markdown links: none.
-
-Check for any code blocks: placeholders remain.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

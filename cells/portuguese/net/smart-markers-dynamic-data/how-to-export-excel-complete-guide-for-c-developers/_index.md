@@ -24,15 +24,7 @@ title: Como Exportar Excel – Guia Completo para Desenvolvedores C#
 url: /pt/net/smart-markers-dynamic-data/how-to-export-excel-complete-guide-for-c-developers/
 ---
 
-}}
-
-All unchanged.
-
-Now produce final output with all translations.
-
-Check for any other text: At top there is "CRITICAL REQUIREMENTS..." not part of content. So final answer should be just the translated content.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

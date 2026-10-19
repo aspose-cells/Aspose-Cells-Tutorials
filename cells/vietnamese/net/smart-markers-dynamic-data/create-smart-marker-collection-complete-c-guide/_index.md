@@ -22,14 +22,6 @@ title: Tạo bộ sưu tập marker thông minh – Hướng dẫn C# toàn di�
 url: /vi/net/smart-markers-dynamic-data/create-smart-marker-collection-complete-c-guide/
 ---
 
-, SDK, class names). "smart marker collection" is a concept; we could keep it English. So we should not translate that phrase. So keep "smart marker collection". The rest of the sentence translate.
-
-Thus when translating, keep "smart marker collection" unchanged.
-
-Similarly "SmartMarkers", "MarkerCollection", etc remain.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

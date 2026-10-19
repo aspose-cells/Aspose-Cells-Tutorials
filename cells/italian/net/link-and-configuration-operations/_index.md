@@ -29,6 +29,9 @@ Pronti a tuffarvi? Visitate il nostro [Configurazione del collegamento alla prop
 ### [Configurazione del collegamento alla proprietà del documento di contenuto in .NET](./configuring-link-to-content-document-property/)
 Scopri come collegare le proprietà del documento al contenuto in Excel utilizzando Aspose.Cells per .NET. Tutorial passo passo per sviluppatori.
 
+### [Crea istanza GridJsOptions – Configura le opzioni della griglia JavaScript](./create-gridjsoptions-instance-configure-grid-options-javascr/)
+Impara a creare un'istanza GridJsOptions e configurare le opzioni della griglia in JavaScript con Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

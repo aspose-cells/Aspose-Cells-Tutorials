@@ -23,10 +23,6 @@ title: Wstawianie wierszy w Excelu przy użyciu C# – Przewodnik krok po kroku
 url: /pl/net/row-and-column-management/insert-rows-in-excel-with-c-step-by-step-guide/
 ---
 
-line.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

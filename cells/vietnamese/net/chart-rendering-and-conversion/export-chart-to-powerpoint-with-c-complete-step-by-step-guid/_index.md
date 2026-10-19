@@ -24,18 +24,6 @@ title: Xuất biểu đồ sang PowerPoint bằng C# – Hướng dẫn chi ti�
 url: /vi/net/chart-rendering-and-conversion/export-chart-to-powerpoint-with-c-complete-step-by-step-guid/
 ---
 
-**convert Excel to PowerPoint**, **save Excel as PowerPoint**, and even tweak the options for edge‑case scenarios."
-
-Translate.
-
-Proceed similarly for all sections.
-
-Make sure to keep code block placeholders unchanged.
-
-Lists: keep bullet points.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

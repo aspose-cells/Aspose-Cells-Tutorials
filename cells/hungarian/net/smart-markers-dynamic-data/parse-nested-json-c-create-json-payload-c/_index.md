@@ -21,16 +21,6 @@ title: Beágyazott JSON feldolgozása C# – JSON payload létrehozása C#
 url: /hu/net/smart-markers-dynamic-data/parse-nested-json-c-create-json-payload-c/
 ---
 
-"C#" stays. That's okay. Let's translate.
-
-Proceed.
-
-Paragraphs translate.
-
-Make sure to keep markdown formatting.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

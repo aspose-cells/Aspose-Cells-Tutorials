@@ -24,15 +24,6 @@ title: Menyisipkan baris di Excel dengan C# – Panduan langkah demi langkah
 url: /id/net/row-and-column-management/insert-rows-in-excel-with-c-step-by-step-guide/
 ---
 
-Why it helps" translate to "Mengapa ini membantu". Keep header as is? Should translate. So:
-
-| Tip | Why it helps |
--> | Tip | Mengapa ini membantu |
-
-Now final.
-
-Now produce final content with all translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

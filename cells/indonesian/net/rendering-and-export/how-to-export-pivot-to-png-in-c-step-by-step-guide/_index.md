@@ -23,9 +23,7 @@ title: Cara mengekspor pivot ke PNG di C# – Panduan Langkah demi Langkah
 url: /id/net/rendering-and-export/how-to-export-pivot-to-png-in-c-step-by-step-guide/
 ---
 
-with all translated content, preserving markdown.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

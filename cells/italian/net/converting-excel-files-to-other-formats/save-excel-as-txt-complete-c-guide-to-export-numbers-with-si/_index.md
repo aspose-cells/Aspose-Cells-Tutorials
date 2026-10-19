@@ -22,9 +22,7 @@ title: Salva Excel come txt – Guida completa C# per esportare numeri con cifre
 url: /it/net/converting-excel-files-to-other-formats/save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/
 ---
 
-placeholders unchanged.
-
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

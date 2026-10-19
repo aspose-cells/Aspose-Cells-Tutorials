@@ -21,8 +21,6 @@ title: 使用 C# 创建 Excel 工作簿 – 从 JSON 生成 XLSX
 url: /zh/net/excel-workbook/create-excel-workbook-c-generate-xlsx-from-json/
 ---
 
-output the content exactly with same structure.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

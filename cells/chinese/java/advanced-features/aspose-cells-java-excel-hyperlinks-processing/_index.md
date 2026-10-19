@@ -11,11 +11,7 @@ url: /zh/java/advanced-features/aspose-cells-java-excel-hyperlinks-processing/
 weight: 1
 ---
 
-/products-backtop-button >}}
-
-Make sure no extra spaces.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

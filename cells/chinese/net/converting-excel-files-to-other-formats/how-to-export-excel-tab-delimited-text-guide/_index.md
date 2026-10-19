@@ -22,12 +22,6 @@ title: 如何导出 Excel – 制表符分隔文本指南
 url: /zh/net/converting-excel-files-to-other-formats/how-to-export-excel-tab-delimited-text-guide/
 ---
 
-keep markdown for blockquotes, lists, etc.
-
-Also images: keep unchanged.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -21,10 +21,6 @@ title: إنشاء مصنف إكسل C# – إضافة خاصية مخصصة وح
 url: /ar/net/document-properties/create-excel-workbook-c-add-custom-property-save-xlsb/
 ---
 
-markdown formatting.
-
-Let's construct final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

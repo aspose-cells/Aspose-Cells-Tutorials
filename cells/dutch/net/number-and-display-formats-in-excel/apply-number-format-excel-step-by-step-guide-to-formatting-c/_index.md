@@ -26,8 +26,6 @@ title: Nummeropmaak toepassen in Excel – Stapsgewijze gids voor het opmaken va
 url: /nl/net/number-and-display-formats-in-excel/apply-number-format-excel-step-by-step-guide-to-formatting-c/
 ---
 
-are preserved. No extra spaces? It's fine.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

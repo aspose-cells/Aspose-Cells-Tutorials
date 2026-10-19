@@ -74,6 +74,9 @@
 ### [ระบุผู้เขียนขณะเขียนการปกป้องสมุดงานโดยใช้ Aspose.Cells](./specify-author-write-protect-workbook/)
 เรียนรู้วิธีระบุผู้เขียนขณะป้องกันการเขียนในเวิร์กบุ๊ก Excel โดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนนี้
 
+### [เพิ่มรหัสผ่านให้กับ Excel – คู่มือการป้องกันแผ่นงานอย่างสมบูรณ์](./add-password-to-excel-complete-sheet-protection-guide/)
+เรียนรู้วิธีเพิ่มรหัสผ่านเพื่อป้องกันแผ่นงาน Excel อย่างเต็มรูปแบบด้วย Aspose.Cells สำหรับ .NET
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -22,11 +22,7 @@ title: حفظ مصنف إكسل من JSON – دليل شامل
 url: /ar/net/templates-reporting/save-excel-workbook-from-json-complete-guide/
 ---
 
-text: In bullet lists, code placeholders, etc.
-
-Make sure to keep bold markup **...**.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

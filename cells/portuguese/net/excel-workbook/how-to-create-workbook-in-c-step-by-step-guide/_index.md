@@ -24,16 +24,6 @@ title: Como criar uma pasta de trabalho em C# – Guia passo a passo
 url: /pt/net/excel-workbook/how-to-create-workbook-in-c-step-by-step-guide/
 ---
 
-Why this matters:** etc. Translate.
-
-Also bullet lists.
-
-Also the table.
-
-Also the final shortcodes.
-
-Let's produce translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -23,10 +23,6 @@ title: Cách tạo workbook và chuyển đổi chuỗi thành ngày trong C#
 url: /vi/net/excel-custom-number-date-formatting/how-to-create-workbook-and-convert-string-to-date-in-c/
 ---
 
-codes.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

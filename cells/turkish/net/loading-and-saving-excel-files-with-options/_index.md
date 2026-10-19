@@ -34,6 +34,8 @@ Aspose.Cells for .NET kullanarak HTML'yi Excel'e yüklerken sütunları ve satı
 Bu detaylı adım adım kılavuzla, Aspose.Cells for .NET kullanarak bir Excel çalışma kitabını HTML'ye kaydederken alt düzeyde gösterilen yorumların nasıl devre dışı bırakılacağını öğrenin.
 ### [C#'ta Yeni Çalışma Kitabı Oluşturma – Japon Takvimiyle Excel Yükleme](./create-new-workbook-in-c-load-excel-with-japanese-calendar/)
 Aspose.Cells for .NET kullanarak Japon takvimini destekleyen yeni bir çalışma kitabı oluşturun ve Excel dosyasını yükleyin.
+### [Excel Dosyasını Okuma C# – Excel Çalışma Kitabını C# ile Verimli Şekilde Yükleme](./read-excel-file-c-how-to-load-excel-workbook-c-efficiently/)
+Aspose.Cells for .NET kullanarak C# ile Excel dosyalarını hızlı ve etkili bir şekilde nasıl okuyup yükleyeceğinizi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

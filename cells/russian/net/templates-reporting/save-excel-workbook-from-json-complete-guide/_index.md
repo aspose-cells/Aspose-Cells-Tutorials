@@ -22,8 +22,6 @@ title: Сохранение Excel‑книги из JSON — Полное рук
 url: /ru/net/templates-reporting/save-excel-workbook-from-json-complete-guide/
 ---
 
-all translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

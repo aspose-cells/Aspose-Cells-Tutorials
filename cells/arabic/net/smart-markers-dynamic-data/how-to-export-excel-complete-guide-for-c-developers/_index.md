@@ -22,8 +22,6 @@ title: كيفية تصدير Excel – دليل شامل لمطوري C#
 url: /ar/net/smart-markers-dynamic-data/how-to-export-excel-complete-guide-for-c-developers/
 ---
 
-content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

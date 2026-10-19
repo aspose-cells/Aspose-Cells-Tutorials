@@ -24,13 +24,7 @@ title: Insérer des lignes dans Excel avec C# – Guide étape par étape
 url: /fr/net/row-and-column-management/insert-rows-in-excel-with-c-step-by-step-guide/
 ---
 
-.
-
-Check we didn't translate URLs (none). Keep variable names unchanged.
-
-Check we kept markdown formatting.
-
-Now produce final output with translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

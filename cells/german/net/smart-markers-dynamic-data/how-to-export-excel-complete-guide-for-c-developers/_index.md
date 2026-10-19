@@ -24,9 +24,7 @@ title: Wie man Excel exportiert – Vollständiger Leitfaden für C#‑Entwickle
 url: /de/net/smart-markers-dynamic-data/how-to-export-excel-complete-guide-for-c-developers/
 ---
 
-). Good.
-
-Now output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

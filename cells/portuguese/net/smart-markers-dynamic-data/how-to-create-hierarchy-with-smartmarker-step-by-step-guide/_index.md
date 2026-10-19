@@ -22,10 +22,6 @@ title: Como criar hierarquia com SmartMarker – Guia passo a passo
 url: /pt/net/smart-markers-dynamic-data/how-to-create-hierarchy-with-smartmarker-step-by-step-guide/
 ---
 
-codes.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

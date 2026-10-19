@@ -23,9 +23,7 @@ title: Создать новую рабочую книгу в C# — загр�
 url: /ru/net/loading-and-saving-excel-files-with-options/create-new-workbook-in-c-load-excel-with-japanese-calendar/
 ---
 
-code blocks; there are none besides placeholders. So fine.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

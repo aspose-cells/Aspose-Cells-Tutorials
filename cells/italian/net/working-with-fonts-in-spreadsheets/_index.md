@@ -38,6 +38,8 @@ Scopri come recuperare ed elencare i font dai fogli di calcolo Excel utilizzando
 Scopri come impostare i font predefiniti per le opzioni di salvataggio PDF utilizzando Aspose.Cells per .NET, assicurandoti che i tuoi documenti abbiano sempre un aspetto perfetto.
 ### [Specificare i font per il rendering della cartella di lavoro](./specify-fonts-for-workbook-rendering/)
 Scopri come specificare font personalizzati per il rendering delle cartelle di lavoro utilizzando Aspose.Cells per .NET. Una guida passo passo per garantire un output PDF perfetto.
+### [Modifica il carattere della casella di testo in una griglia – Guida completa passo‑passo](./change-textbox-font-in-a-grid-complete-step-by-step-guide/)
+Scopri come cambiare il font delle caselle di testo in una griglia usando Aspose.Cells per .NET, con istruzioni dettagliate passo dopo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

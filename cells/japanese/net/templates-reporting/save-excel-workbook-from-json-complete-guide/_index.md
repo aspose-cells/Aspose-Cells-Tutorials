@@ -20,11 +20,7 @@ title: JSONからExcelワークブックを保存する – 完全ガイド
 url: /ja/net/templates-reporting/save-excel-workbook-from-json-complete-guide/
 ---
 
-.
-
-Make sure all bold phrases are translated.
-
-Now produce final markdown.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

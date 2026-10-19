@@ -24,8 +24,6 @@ title: 'Verileri Excel''e Aktar: C#''ta Bir Diziden Şablonu Doldur'
 url: /tr/net/smart-markers-dynamic-data/export-data-to-excel-populate-a-template-from-an-array-in-c/
 ---
 
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

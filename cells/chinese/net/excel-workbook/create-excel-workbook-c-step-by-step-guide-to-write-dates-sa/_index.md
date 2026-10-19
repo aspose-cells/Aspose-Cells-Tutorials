@@ -22,11 +22,7 @@ title: 使用 C# 创建 Excel 工作簿 – 编写日期并保存为 XLSX 的逐
 url: /zh/net/excel-workbook/create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/
 ---
 
-points, paragraphs.
-
-Make sure to keep markdown syntax.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

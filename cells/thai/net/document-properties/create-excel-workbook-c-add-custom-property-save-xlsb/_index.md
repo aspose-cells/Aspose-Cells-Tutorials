@@ -21,20 +21,6 @@ title: สร้าง Excel Workbook ด้วย C# – เพิ่มคุ�
 url: /th/net/document-properties/create-excel-workbook-c-add-custom-property-save-xlsb/
 ---
 
-blocks/products/pf/tutorial-page-section >}}
-
-# Create Excel Workbook C# – Add Custom Property & Save XLSB
-
-Translate title? Title is heading text. Should translate to Thai but keep "C#" and "XLSB" maybe keep as is. So "สร้าง Excel Workbook ด้วย C# – เพิ่ม Custom Property และบันทึกเป็น XLSB". We'll translate.
-
-Proceed.
-
-Paragraphs translate.
-
-Need to keep markdown formatting.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

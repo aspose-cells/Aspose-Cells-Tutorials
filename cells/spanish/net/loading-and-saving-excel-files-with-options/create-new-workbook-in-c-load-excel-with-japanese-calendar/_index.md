@@ -23,9 +23,7 @@ title: Crear nuevo libro de trabajo en C# â€“ Cargar Excel con calendario japonÃ
 url: /es/net/loading-and-saving-excel-files-with-options/create-new-workbook-in-c-load-excel-with-japanese-calendar/
 ---
 
-: image URL is placeholder image-url.png, keep unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

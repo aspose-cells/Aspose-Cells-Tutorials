@@ -24,9 +24,7 @@ title: 'Vazba dat šablony v Excelu: Naplňte šablony pomocí C#'
 url: /cs/net/templates-reporting/template-data-binding-in-excel-populate-templates-with-c/
 ---
 
-links.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

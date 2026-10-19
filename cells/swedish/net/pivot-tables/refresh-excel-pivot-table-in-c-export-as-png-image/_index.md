@@ -22,11 +22,7 @@ title: Uppdatera Excel-pivottabell i C# – Exportera som PNG-bild
 url: /sv/net/pivot-tables/refresh-excel-pivot-table-in-c-export-as-png-image/
 ---
 
--tabell](image.png)
-
-Now ensure we keep all shortcodes and code block placeholders unchanged.
-
-Proceed to produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

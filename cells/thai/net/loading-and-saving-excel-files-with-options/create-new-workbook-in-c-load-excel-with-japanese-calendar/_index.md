@@ -23,9 +23,7 @@ title: สร้างเวิร์กบุ๊กใหม่ใน C# – �
 url: /th/net/loading-and-saving-excel-files-with-options/create-new-workbook-in-c-load-excel-with-japanese-calendar/
 ---
 
-the pipe separators.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,16 +24,6 @@ title: Nieuw werkboek maken in C# – Formule toevoegen en Excel‑bestand opsla
 url: /nl/net/excel-workbook/create-new-workbook-in-c-add-formula-and-save-excel-file/
 ---
 
-.
-
-Also translate the "Visual Summary" heading etc.
-
-Let's produce the translated content.
-
-We'll keep code block placeholders unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

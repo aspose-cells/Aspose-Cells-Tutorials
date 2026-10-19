@@ -24,8 +24,6 @@ title: Hoe een werkmap te maken in C# – Stapsgewijze handleiding
 url: /nl/net/excel-workbook/how-to-create-workbook-in-c-step-by-step-guide/
 ---
 
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

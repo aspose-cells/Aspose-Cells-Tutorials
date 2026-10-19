@@ -13,17 +13,7 @@ url: /it/java/cell-operations/aspose-cells-java-copy-paste-options/
 weight: 1
 ---
 
-6-02-22  
-**Testato con:** Aspose.Cells 25.3 for Java  
-**Autore:** Aspose
-
-Now produce final content with all translations and unchanged elements.
-
-Check for any other text: "step‑by‑step guide" we translated.
-
-Make sure to keep markdown formatting exactly.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

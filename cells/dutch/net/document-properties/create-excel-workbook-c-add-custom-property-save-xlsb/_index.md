@@ -23,15 +23,7 @@ title: Excel-werkmap maken in C# – Aangepaste eigenschap toevoegen en XLSB ops
 url: /nl/net/document-properties/create-excel-workbook-c-add-custom-property-save-xlsb/
 ---
 
-Then closing shortcodes remain.
-
-Also note the note: "For Dutch, ensure proper RTL formatting if needed" - not needed.
-
-Now produce final content with all sections.
-
-Make sure to keep shortcodes exactly as original.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

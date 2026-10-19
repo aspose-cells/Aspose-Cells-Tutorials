@@ -21,8 +21,6 @@ title: Excelのテンプレートデータバインディング：C#でテンプ
 url: /ja/net/templates-reporting/template-data-binding-in-excel-populate-templates-with-c/
 ---
 
-translated content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -22,9 +22,7 @@ title: C# में स्मार्ट मार्कर कलेक्श�
 url: /hi/net/smart-markers-dynamic-data/create-smart-marker-collection-in-c-complete-guide/
 ---
 
-no actual fenced code blocks in content except maybe they are placeholders. So we keep them.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -27,16 +27,6 @@ title: Menerapkan Format Angka di Excel – Panduan Langkah demi Langkah untuk M
 url: /id/net/number-and-display-formats-in-excel/apply-number-format-excel-step-by-step-guide-to-formatting-c/
 ---
 
-, Cherry) are product names; keep as is.
-
-Also bullet list items after "Expected Output" are sentences; translate.
-
-Also other bullet lists.
-
-Make sure to keep markdown formatting.
-
-Let's produce final translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -13,9 +13,7 @@ url: /sv/java/advanced-features/manage-excel-hyperlinks-aspose-cells-java/
 weight: 1
 ---
 
-Now ensure we keep all markdown formatting.
-
-Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

@@ -38,6 +38,8 @@ Excelスプレッドシートの空白行にイライラしたことはありま
 Aspose.Cells for .NET を使用して、Excel の空白行の区切り線を維持する方法を学びます。コード例を含むステップバイステップのガイドです。
 ### [Excel ファイルから表示されているシートのみを読み込む](./load-visible-sheets-only/)
 このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して Excel ファイルから表示されているシートのみを読み込む方法を学習します。
+### [C#でExcelファイルをプログラム的に作成する – チュートリアル](./create-excel-file-programmatically-in-c-tutorial/)
+Aspose.Cells for .NET を使用して、C# で Excel ファイルをコードから作成する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

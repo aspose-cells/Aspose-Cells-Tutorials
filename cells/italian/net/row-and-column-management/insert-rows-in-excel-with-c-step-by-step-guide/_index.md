@@ -22,14 +22,6 @@ title: Inserire righe in Excel con C# – Guida passo passo
 url: /it/net/row-and-column-management/insert-rows-in-excel-with-c-step-by-step-guide/
 ---
 
-Keep that.
-
-Also there is a table with headers "Tip" and "Why it helps". Translate content but keep table formatting.
-
-We need to translate "Alt text:" line? It's a plain line after image.
-
-Let's produce final.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

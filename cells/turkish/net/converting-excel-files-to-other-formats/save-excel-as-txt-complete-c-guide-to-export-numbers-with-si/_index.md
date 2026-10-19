@@ -25,8 +25,6 @@ title: Excel'i txt olarak kaydet – Önemli Basamaklarıyla Sayıları Dışa A
 url: /tr/net/converting-excel-files-to-other-formats/save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/
 ---
 
-translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

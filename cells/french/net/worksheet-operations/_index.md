@@ -40,6 +40,8 @@ Exploitez la puissance d'Aspose.Cells pour .NET. Apprenez à définir les préf�
 Apprenez à ajouter des commentaires en fil de discussion dans des feuilles de calcul Excel avec Aspose.Cells pour .NET grâce à ce tutoriel étape par étape. Améliorez la collaboration sans effort.
 ### [Compter le nombre de cellules dans la feuille de calcul](./count-cells/)
 Exploitez toute la puissance d'Aspose.Cells pour .NET. Apprenez à compter les cellules d'une feuille de calcul Excel grâce à ce guide étape par étape.
+### [Créer une feuille de calcul par élément – Comment répéter une feuille de calcul en C#](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Apprenez à créer automatiquement une feuille de calcul pour chaque élément et à la dupliquer en C# avec Aspose.Cells.
 ### [Couper et coller des cellules dans une feuille de calcul](./cut-and-paste-cells/)
 Apprenez à couper et coller des cellules dans Excel à l’aide d’Aspose.Cells pour .NET avec ce didacticiel simple étape par étape.
 ### [Détecter la feuille de macro internationale dans le classeur](./detect-international-macro-sheet/)
@@ -72,6 +74,10 @@ Apprenez à définir un arrière-plan graphique dans les fichiers ODS à l'aide 
 Apprenez à mettre à jour l'historique des révisions dans les classeurs partagés avec Aspose.Cells pour .NET. Simplifiez la collaboration et conservez des archives claires.
 ### [Utiliser la propriété Sheet_SheetId d'OpenXml dans une feuille de calcul](./utilize-sheet-sheetid-property/)
 Exploitez toute la puissance d'Excel avec Aspose.Cells pour .NET. Apprenez à manipuler efficacement les identifiants de feuille grâce à notre guide étape par étape.
+### [Comment créer des feuilles de calcul – Guide étape par étape pour la génération dynamique d'Excel](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
+Apprenez à créer dynamiquement des feuilles de calcul Excel avec Aspose.Cells pour .NET grâce à ce guide complet.
+### [Comment renommer une feuille de calcul en C# – Guide complet](./how-to-rename-worksheet-in-c-complete-guide/)
+Apprenez à renommer une feuille de calcul Excel en C# avec Aspose.Cells via ce guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -76,6 +76,8 @@
 
 ### [Создание стиля ячейки в C# – Как применить стиль к ячейке и центрировать текст](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
 Узнайте, как создать стиль ячейки в Aspose.Cells для .NET, применить его к ячейке и выровнять текст по центру.
+### [Применение стилей ячеек с Aspose.Cells – импорт DataTable с форматированием](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+Узнайте, как импортировать DataTable в Excel с сохранением стилей ячеек с помощью Aspose.Cells для .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

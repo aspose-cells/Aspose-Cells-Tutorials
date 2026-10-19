@@ -13,11 +13,7 @@ url: /el/java/advanced-features/manage-excel-hyperlinks-aspose-cells-java/
 weight: 1
 ---
 
- didn't miss any formatting.
-
-Make sure to keep bold formatting (**text**) as is.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

@@ -22,18 +22,6 @@ title: Akıllı İşaretçilerle Çalışma Kitabı Oluşturma – Aspose.Cells 
 url: /tr/net/smart-markers-dynamic-data/how-to-create-workbook-with-smart-markers-aspose-cells-guide/
 ---
 
-ose.Cells" should be translated to Turkish, while URL unchanged.
-
-Also the image title attribute "how to create workbook with Aspose.Cells smart markers" should be translated? Title is after quotes. That's also text. Should translate.
-
-Make sure not to translate code block placeholders.
-
-Let's produce final translation.
-
-We'll keep shortcodes as is.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -22,7 +22,7 @@ title: Tworzenie kolekcji Smart Marker w C# – Kompletny przewodnik
 url: /pl/net/smart-markers-dynamic-data/create-smart-marker-collection-in-c-complete-guide/
 ---
 
-content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

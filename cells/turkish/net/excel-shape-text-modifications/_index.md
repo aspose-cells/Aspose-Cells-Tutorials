@@ -71,6 +71,9 @@ Aspose.Cells for .NET kullanarak Excel'de ilkel olmayan şekillere erişmeyi ö�
 ### [Excel'de OLE Nesnesini Yenile](./refresh-ole-object-excel/)
 Aspose.Cells for .NET'i kullanarak Excel'de OLE nesnelerini adım adım nasıl yenileyeceğinizi öğrenin ve Excel otomasyon becerilerinizi sorunsuz bir şekilde geliştirin.
 
+### [Excel'de Metin Kutusu Yazı Tipi Boyutunu Değiştirme – Tam Kılavuz](./change-textbox-font-size-in-excel-with-c-complete-guide/)
+Aspose.Cells for .NET kullanarak Excel'de metin kutularının yazı tipi boyutunu nasıl değiştireceğinizi öğrenin. Adım adım kılavuz ve kod örnekleri.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

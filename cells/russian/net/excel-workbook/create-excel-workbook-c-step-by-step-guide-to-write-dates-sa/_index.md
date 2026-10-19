@@ -24,15 +24,7 @@ title: Создание Excel‑книги в C# – пошаговое рук�
 url: /ru/net/excel-workbook/create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/
 ---
 
-Запись дат и сохранение в XLSX"
-
-- The rest.
-
-Make sure to keep code block placeholders unchanged.
-
-Also keep markdown tables.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

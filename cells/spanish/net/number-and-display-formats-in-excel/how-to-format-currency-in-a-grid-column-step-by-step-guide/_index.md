@@ -25,30 +25,6 @@ title: Cómo formatear moneda en una columna de cuadrícula – Guía paso a pas
 url: /es/net/number-and-display-formats-in-excel/how-to-format-currency-in-a-grid-column-step-by-step-guide/
 ---
 
-translate to Spanish, maybe keep same style: "# cómo formatear moneda en una columna de Grid – Tutorial de programación completo". Keep "Grid" as is.
-
-Then paragraph.
-
-We'll translate.
-
-Need to keep **bold** formatting.
-
-Proceed.
-
-Also need to translate blockquote > **TL;DR** – By the end you’ll have a ready‑to‑run snippet... etc.
-
-Translate.
-
-Then sections.
-
-List items.
-
-Tables.
-
-Make sure to keep markdown syntax.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

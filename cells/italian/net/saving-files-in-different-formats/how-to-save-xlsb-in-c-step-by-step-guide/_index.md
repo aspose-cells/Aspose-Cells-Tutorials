@@ -23,8 +23,6 @@ title: Come salvare XLSB in C# – Guida passo passo
 url: /it/net/saving-files-in-different-formats/how-to-save-xlsb-in-c-step-by-step-guide/
 ---
 
-produce final content with all translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

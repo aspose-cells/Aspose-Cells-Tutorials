@@ -25,18 +25,6 @@ title: Fatura Oluşturmayı Otomatikleştir – C#'ta Dinamik Çalışma Sayfas�
 url: /tr/net/smart-markers-dynamic-data/automate-invoice-generation-dynamic-worksheet-naming-repeati/
 ---
 
--backtop-button >}}
-
-We must keep them unchanged.
-
-Check for any other markdown links: none.
-
-Check for any other code blocks: placeholders.
-
-Make sure to keep bold formatting.
-
-Now produce final output with all translated content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

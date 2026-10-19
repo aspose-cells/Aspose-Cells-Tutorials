@@ -22,14 +22,6 @@ title: ワークブックをPDFにエクスポート – 完全C#ガイド
 url: /ja/net/conversion-to-pdf/export-workbook-to-pdf-complete-c-guide/
 ---
 
-produce final output.
-
-Be careful with bullet points: keep dash and spacing.
-
-Also blockquote > **Pro tip:** etc. Translate "Pro tip" maybe keep as is? It's a phrase, but we can translate "Pro tip" to "プロのヒント". Keep bold formatting.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

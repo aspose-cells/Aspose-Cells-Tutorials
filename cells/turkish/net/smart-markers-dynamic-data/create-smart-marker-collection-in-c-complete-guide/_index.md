@@ -23,7 +23,7 @@ title: C#'ta Akıllı İşaretçi Koleksiyonu Oluşturma – Tam Kılavuz
 url: /tr/net/smart-markers-dynamic-data/create-smart-marker-collection-in-c-complete-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
