@@ -74,6 +74,7 @@
 
 ### [Δημιουργία νέου βιβλίου εργασίας σε C# – Εισαγωγή Markdown στο Excel](./create-new-workbook-in-c-import-markdown-to-excel/)
 Μάθετε πώς να δημιουργήσετε ένα νέο βιβλίο εργασίας σε C# και να εισάγετε περιεχόμενο Markdown στο Excel με το Aspose.Cells.
+
 ### [Μετατροπή markdown σε Excel – Πλήρης Οδηγός C#](./convert-markdown-to-excel-complete-c-guide/)
 Μάθετε πώς να μετατρέψετε αρχεία markdown σε φύλλα Excel χρησιμοποιώντας C# και Aspose.Cells.
 ### [Πώς να μετατρέψετε XLSX σε PNG – Πλήρης οδηγός C#](./how-to-convert-xlsx-to-png-complete-c-guide/)
@@ -86,6 +87,9 @@
 Μάθετε πώς να ενσωματώσετε γραμματοσειρές κατά τη μετατροπή αρχείων DOCX σε HTML, εξασφαλίζοντας σωστή εμφάνιση του κειμένου.
 ### [Πώς να Ενσωματώσετε Γραμματοσειρές σε HTML από DOCX – Πλήρης Οδηγός](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
 Μάθετε πώς να ενσωματώσετε γραμματοσειρές σε αρχεία HTML από DOCX χρησιμοποιώντας το Aspose.Words για .NET, βήμα-βήμα.
+
+### [Πώς να μετατρέψετε JSON σε Excel σε C# με ένα μόνο κελί διαχωρισμένο με κόμμα](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Μάθετε πώς να μετατρέψετε JSON σε Excel σε C# με ένα μόνο κελί διαχωρισμένο με κόμμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

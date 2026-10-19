@@ -84,6 +84,9 @@
 ### [如何在 HTML 中嵌入来自 DOCX 的字体 – 完整指南](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
 本指南详细说明如何使用 Aspose.Words 将 DOCX 文档中的字体嵌入到生成的 HTML 中，确保跨平台显示一致。
 
+### [如何在 C# 中将 JSON 转换为 Excel（单个逗号分隔单元格）](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+学习如何使用 Aspose.Cells for .NET 将 JSON 数据转换为 Excel，单元格以逗号分隔。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

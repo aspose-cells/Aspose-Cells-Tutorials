@@ -65,6 +65,7 @@ Dowiedz się, jak wyeksportować tabelę przestawną z Excela jako obraz PNG prz
 
 ### [Utwórz nowy skoroszyt w C# – Importuj Markdown do Excela](./create-new-workbook-in-c-import-markdown-to-excel/)
 Dowiedz się, jak w C# utworzyć nowy skoroszyt i zaimportować zawartość Markdown do pliku Excel przy użyciu Aspose.Cells.
+
 ### [Konwertuj markdown do Excela – Kompletny przewodnik C#](./convert-markdown-to-excel-complete-c-guide/)
 Dowiedz się, jak w C# przekształcić pliki markdown w arkusze Excel przy użyciu Aspose.Cells.
 ### [Eksportowanie Excela do PNG przy użyciu Aspose.Cells – Kompletny przewodnik krok po kroku](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
@@ -79,6 +80,9 @@ Dowiedz się, jak wyeksportować obraz PNG z tabeli przestawnej Excel przy użyc
 Dowiedz się, jak osadzić czcionki przy konwersji dokumentów DOCX do HTML, aby uzyskać pełne wsparcie typograficzne.
 ### [Jak osadzić czcionki w HTML z DOCX – Kompletny przewodnik](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
 Dowiedz się, jak w prosty sposób osadzić czcionki z dokumentu DOCX w HTML, aby zachować ich wygląd we wszystkich przeglądarkach.
+
+### [Jak przekonwertować JSON do Excela w C# przy użyciu jednej komórki z przecinkami](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Dowiedz się, jak w C# zamienić dane JSON w arkusz Excel, wykorzystując jedną komórkę z wartościami oddzielonymi przecinkami.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

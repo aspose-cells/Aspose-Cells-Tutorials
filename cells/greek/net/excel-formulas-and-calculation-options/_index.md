@@ -112,6 +112,8 @@
 Μάθετε πώς να χρησιμοποιήσετε τη λειτουργία WRAPCOLS για αποτελεσματική διαχείριση δεδομένων στο Excel με C#.
 ### [Πώς να εξαναγκάσετε τον υπολογισμό τύπων και να χρησιμοποιήσετε lambda στο Excel με C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
 Μάθετε πώς να εξαναγκάσετε τον υπολογισμό τύπων και να αξιοποιήσετε τις συναρτήσεις λ-από (lambda) στο Excel χρησιμοποιώντας C#.
+### [Πώς να δημιουργήσετε βιβλίο εργασίας Excel σε C# με τη λειτουργία EXPAND](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+Μάθετε πώς να δημιουργήσετε βιβλίο εργασίας Excel χρησιμοποιώντας τη λειτουργία EXPAND σε C# με το Aspose.Cells για .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

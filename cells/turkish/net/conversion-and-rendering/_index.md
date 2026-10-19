@@ -79,6 +79,8 @@ Aspose.Cells kullanarak C# ile Excel pivot tablosundan PNG formatında görünt�
 Aspose.Words kullanarak DOCX dosyalarını tam yazı tipi desteğiyle HTML'ye dönüştürmeyi ve gömülü fontları yönetmeyi öğrenin.
 ### [DOCX'ten HTML'ye Yazı Tipi Gömme – Tam Kılavuz](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
 Aspose.Words ile DOCX dosyalarındaki yazı tiplerini HTML çıktısına gömerek doğru görüntülenmesini sağlayın.
+### [C#'ta Tek Virgül Ayrılmış Hücre ile JSON'u Excel'e Dönüştürme](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+C# kullanarak tek virgül ayrılmış hücredeki JSON verisini Excel dosyasına dönüştürmeyi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

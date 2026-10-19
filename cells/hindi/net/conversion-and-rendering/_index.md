@@ -82,6 +82,9 @@ Aspose.Words का उपयोग करके DOCX फ़ाइलों क�
 ### [DOCX से HTML में फ़ॉन्ट एम्बेड करने की पूरी गाइड](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
 Aspose.Words के साथ DOCX फ़ाइल से HTML उत्पन्न करते समय फ़ॉन्ट को एम्बेड करने की प्रक्रिया सीखें।
 
+### [C# में एकल कॉमा‑सेपरेटेड सेल के साथ JSON को Excel में कैसे बदलें](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Aspose.Cells का उपयोग करके C# में JSON डेटा को एकल कॉमा‑सेपरेटेड सेल से Excel फ़ाइल में बदलना सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

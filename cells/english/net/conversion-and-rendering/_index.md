@@ -83,6 +83,8 @@ Learn how to extract and save a pivot table as a PNG image using Aspose.Cells fo
 Learn how to embed fonts when converting DOCX to HTML using Aspose.Words for .NET, ensuring full font support in the output.
 ### [How to Embed Fonts in HTML from a DOCX – Complete Guide](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
 Learn how to embed fonts from a DOCX into HTML using Aspose.Words for .NET, ensuring accurate rendering across browsers.
+### [How to convert JSON to Excel in C# with a single comma‑separated cell](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Learn how to transform JSON data into an Excel file in C#, handling a single comma‑separated cell efficiently.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

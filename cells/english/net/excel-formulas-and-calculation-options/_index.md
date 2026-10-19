@@ -102,6 +102,8 @@ Learn how to calculate cotangent in Excel using C# with Aspose.Cells for .NET in
 Learn how to apply array formulas in Excel using C# with Aspose.Cells for .NET in this comprehensive step-by-step guide.
 ### [How to Use WRAPCOLS – Complete Guide for C# Excel Automation](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
 Master the WRAPCOLS function in C# with Aspose.Cells for .NET. Follow this complete guide for efficient Excel automation.
+### [How to create Excel workbook in C# with the EXPAND function](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+Learn to generate an Excel workbook in C# using the EXPAND function with Aspose.Cells for .NET in this step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

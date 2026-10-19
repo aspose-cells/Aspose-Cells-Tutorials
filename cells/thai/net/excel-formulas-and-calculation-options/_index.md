@@ -87,7 +87,6 @@ Excel มาพร้อมกับฟังก์ชันในตัวม�
 ### [วิธีใช้ WRAPCOLS ใน C# – ปรับรูปแบบอาเรย์เป็นเมทริกซ์](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
 เรียนรู้วิธีใช้ฟังก์ชัน WRAPCOLS ใน C# เพื่อแปลงอาเรย์ให้เป็นเมทริกซ์อย่างง่ายดาย
 ### [วิธีสร้างอาร์เรย์ใน Excel ด้วย C# – คู่มือทีละขั้นตอน](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
-เรียนรู้วิธีสร้างอาร์เรย์ใน Excel ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET ผ่านคู่มือทีละขั้นตอนที่เข้าใจง่าย
 ### [วิธีคำนวณโคแทนเจนต์ใน Excel ด้วย C# – คู่มือเต็ม](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 เรียนรู้วิธีคำนวณฟังก์ชันโคแทนเจนต์ใน Excel ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET อย่างละเอียดและง่ายต่อการทำตาม
 ### [วิธีใช้ WRAPCOLS ใน Excel – ตัวอย่าง C# ครบถ้วน](./how-to-use-wrapcols-in-excel-complete-c-example/)
@@ -99,6 +98,8 @@ Excel มาพร้อมกับฟังก์ชันในตัวม�
 เรียนรู้วิธีบังคับให้สูตรคำนวณทันทีและใช้ฟังก์ชัน lambda ใน Excel ด้วย C# ผ่าน Aspose.Cells สำหรับ .NET
 ### [สร้างสมุดงาน Excel พร้อมสูตร – คู่มือเต็มขั้นตอน](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
 เรียนรู้วิธีสร้างสมุดงาน Excel พร้อมสูตรอย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
+### [วิธีสร้างไฟล์ Excel ใน C# ด้วยฟังก์ชัน EXPAND](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+เรียนรู้วิธีสร้างไฟล์ Excel ด้วยฟังก์ชัน EXPAND ใน C# โดยใช้ Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

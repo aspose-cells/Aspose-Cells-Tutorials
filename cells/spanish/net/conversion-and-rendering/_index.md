@@ -81,6 +81,8 @@ Aprenda a guardar imágenes PNG de tablas dinámicas de Excel usando C# con Aspo
 Aprenda a convertir documentos DOCX a HTML manteniendo todas las fuentes incrustadas, garantizando una visualización fiel en cualquier navegador.
 ### [Cómo incrustar fuentes en HTML desde un DOCX – Guía completa](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
 Aprenda a incrustar fuentes en documentos HTML generados a partir de archivos DOCX usando Aspose.Words para .NET, paso a paso.
+### [Cómo convertir JSON a Excel en C# con una sola celda separada por comas](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Aprenda a transformar datos JSON en una hoja de Excel en C#, usando una única celda con valores separados por comas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

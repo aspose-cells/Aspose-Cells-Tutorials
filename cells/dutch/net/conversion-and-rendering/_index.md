@@ -52,6 +52,8 @@ Leer hoe u met Aspose.Cells en C# Markdown-bestanden naar Excel converteert in e
 Leer hoe u Word-documenten naar SVG converteert met Aspose.Words voor .NET in deze stapsgewijze volledige gids.
 ### [Lettertypen insluiten in HTML – Volledige gids voor .NET-ontwikkelaars](./embed-fonts-in-html-complete-guide-for-net-developers/)
 Leer hoe u lettertypen in HTML insluit met Aspose.Cells voor .NET in deze stapsgewijze volledige gids.
+### [Hoe JSON naar Excel te converteren in C# met één komma‑gescheiden cel](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Leer hoe je JSON-gegevens omzet naar een Excel-bestand in C#, waarbij één cel meerdere waarden bevat, gescheiden door komma's.
 
 
 
