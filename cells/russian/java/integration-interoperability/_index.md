@@ -73,6 +73,8 @@
 ### [Как сохранить Excel в DOCX с помощью Aspose.Cells в C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
 ### [Как скопировать диапазон из Excel и экспортировать его в PowerPoint с помощью Java](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
 Узнайте, как копировать диапазон из Excel и экспортировать его в презентацию PowerPoint с использованием Aspose.Cells для Java.
+### [Конвертировать Excel в PowerPoint с Aspose.Cells для Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+Узнайте, как преобразовать файлы Excel в презентации PowerPoint, используя Aspose.Cells для Java.
 
 ## Дополнительные ресурсы
 

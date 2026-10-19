@@ -68,6 +68,9 @@ weight: 22
 ### [Как обновлять книги Excel в Java с помощью Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
 Кодовый учебник для Aspose.Cells Java
 
+### [Как принудительно выполнить расчёт формул в Java с Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+Узнайте, как принудительно запустить вычисление формул в книгах Excel с помощью Aspose.Cells for Java.
+
 ## Дополнительные ресурсы
 - [Документация Aspose.Cells for Java](https://docs.aspose.com/cells/java/)
 - [Справочник API Aspose.Cells for Java](https://reference.aspose.com/cells/java/)

@@ -73,6 +73,8 @@ Learn how to duplicate a worksheet while preserving its Pivot Tables using Aspos
 
 ### [How to duplicate pivot in Java using Aspose.Cells](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
 Learn how to duplicate a Pivot Table in Java using Aspose.Cells, preserving formatting and data.
+### [How to copy range and preserve a pivot table in Java](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
+Learn how to copy a range while preserving its Pivot Table in Java using Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

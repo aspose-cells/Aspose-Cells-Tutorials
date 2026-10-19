@@ -67,6 +67,9 @@ weight: 22
 ### [كيفية تحديث دفاتر عمل Excel في Java باستخدام Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
 دروس توضح كيفية تحديث دفاتر عمل Excel برمجياً باستخدام Aspose.Cells للـ Java.
 
+### [كيفية إجبار حساب الصيغ في Java باستخدام Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+دروس شفرة لتعلم كيفية إجبار محرك الحساب على حساب الصيغ في Aspose.Cells للـ Java
+
 ## موارد إضافية
 - [توثيق Aspose.Cells للـ Java](https://docs.aspose.com/cells/java/)
 - [مرجع API لـ Aspose.Cells للـ Java](https://reference.aspose.com/cells/java/)

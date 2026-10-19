@@ -46,6 +46,8 @@ Tìm hiểu cách tự động tạo báo cáo Excel động với Aspose.Cells 
 
 ### [Tạo sổ làm việc master-detail với Aspose.Cells (Java)](./create-master-detail-workbook-with-aspose-cells-java/)
 Tìm hiểu cách tạo sổ làm việc master-detail bằng Aspose.Cells cho Java, giúp tổ chức dữ liệu và tạo báo cáo phức tạp một cách dễ dàng.
+### [Cách điền dữ liệu vào mẫu Excel bằng Aspose.Cells](./how-to-populate-excel-template-with-data-using-aspose-cells/)
+Hướng dẫn chi tiết cách sử dụng Aspose.Cells để đưa dữ liệu vào mẫu Excel một cách tự động.
 
 ### [Cách tạo các bảng tính với Smart Markers – Hướng dẫn Java đầy đủ](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
 Tìm hiểu cách tạo các bảng tính bằng Smart Markers trong Aspose.Cells for Java, bao gồm các bước chi tiết và ví dụ thực tế.

@@ -66,6 +66,8 @@
 Μάθετε πώς να αντιγράψετε ένα φύλλο εργασίας διατηρώντας τους Συγκεντρωτικούς Πίνακες με Aspose.Cells για Java.
 ### [Πώς να αντιγράψετε έναν συγκεντρωτικό πίνακα σε Java χρησιμοποιώντας Aspose.Cells](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
 Μάθετε πώς να αντιγράψετε έναν Συγκεντρωτικό Πίνακα σε Java με το Aspose.Cells.
+### [Πώς να αντιγράψετε περιοχή και να διατηρήσετε έναν Συγκεντρωτικό Πίνακα σε Java](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
+Μάθετε πώς να αντιγράψετε μια περιοχή και να διατηρήσετε τον Συγκεντρωτικό Πίνακα στο Aspose.Cells για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

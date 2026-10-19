@@ -73,6 +73,8 @@ Pelajari cara mengonversi file Excel menjadi presentasi PowerPoint menggunakan A
 Pelajari cara mengonversi file Excel menjadi dokumen Word (DOCX) menggunakan Aspose.Cells dalam bahasa C#.
 ### [Cara menyalin rentang dari Excel dan mengekspornya ke PowerPoint menggunakan Java](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
 Pelajari cara menyalin rentang data dari file Excel dan mengekspornya ke presentasi PowerPoint menggunakan Aspose.Cells dan Aspose.Slides untuk Java.
+### [Mengonversi Excel ke PowerPoint dengan Aspose.Cells di Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+Pelajari cara mengonversi file Excel menjadi presentasi PowerPoint menggunakan Aspose.Cells untuk Java.
 
 ## Sumber Daya Tambahan
 

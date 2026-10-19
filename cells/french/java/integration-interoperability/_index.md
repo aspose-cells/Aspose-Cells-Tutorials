@@ -74,6 +74,8 @@ Apprenez à convertir des fichiers Excel en présentations PowerPoint avec Aspos
 Apprenez à convertir un classeur Excel en document Word (DOCX) à l'aide d'Aspose.Cells pour C#.
 ### [Comment copier une plage depuis Excel et l'exporter vers PowerPoint avec Java](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
 Apprenez à copier une plage de cellules Excel et à l'exporter dans une présentation PowerPoint en utilisant Aspose.Cells et Aspose.Slides pour Java.
+### [Convertir Excel en PowerPoint avec Aspose.Cells pour Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+Apprenez à convertir des classeurs Excel en présentations PowerPoint en Java à l'aide d'Aspose.Cells.
 
 ## Ressources supplémentaires
 

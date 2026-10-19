@@ -46,6 +46,8 @@ Tanuld meg, hogyan automatizálhatod a dinamikus Excel-jelentéskészítést az 
 
 ### [Mester‑részlet munkafüzet létrehozása az Aspose.Cells (Java) segítségével](./create-master-detail-workbook-with-aspose-cells-java/)
 Tanuld meg, hogyan hozhatsz létre mester‑részlet struktúrájú Excel-munkafüzetet az Aspose.Cells for Java segítségével.
+### [Excel sablon feltöltése adatokkal az Aspose.Cells segítségével](./how-to-populate-excel-template-with-data-using-aspose-cells/)
+Tanulja meg, hogyan töltheti fel Excel sablonját adatokkal az Aspose.Cells for Java segítségével, egyszerűen és hatékonyan.
 
 ### [Munkalapok generálása Smart Markerekkel – Teljes Java útmutató](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
 Ismerd meg, hogyan hozhatsz létre munkalapokat Smart Markerekkel a teljes Java útmutató segítségével.

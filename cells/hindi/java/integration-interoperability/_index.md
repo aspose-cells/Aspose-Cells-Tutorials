@@ -70,6 +70,8 @@ Java के साथ Aspose.Cells का उपयोग करके Excel च
 Excel फ़ाइलों को PowerPoint प्रस्तुतियों में बदलने की पूरी प्रक्रिया, कोड उदाहरणों सहित।
 ### [C# में Aspose.Cells के साथ Excel को DOCX के रूप में सहेजना कैसे करें](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
 C# में Aspose.Cells का उपयोग करके Excel फ़ाइल को DOCX फ़ॉर्मेट में सहेजने की चरण-दर-स्टेप प्रक्रिया।
+### [Aspose.Cells के साथ जावा में Excel को PowerPoint में परिवर्तित करें](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+Aspose.Cells for Java का उपयोग करके Excel फ़ाइलों को PowerPoint प्रस्तुतियों में बदलने का तरीका सीखें।
 
 ## अतिरिक्त संसाधन
 

@@ -74,6 +74,8 @@ Tìm hiểu cách chuyển đổi tệp Excel sang PowerPoint bằng Aspose.Cell
 Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang định dạng DOCX bằng Aspose.Cells trong C#.
 ### [Cách sao chép vùng dữ liệu từ Excel và xuất ra PowerPoint bằng Java](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
 Hướng dẫn sao chép một vùng trong Excel và xuất nó thành slide PowerPoint bằng Aspose.Cells và Aspose.Slides cho Java.
+### [Chuyển đổi Excel sang PowerPoint với Aspose.Cells trong Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+Hướng dẫn cách chuyển đổi tệp Excel sang bản trình chiếu PowerPoint bằng Aspose.Cells cho Java.
 
 ## Tài nguyên bổ sung
 

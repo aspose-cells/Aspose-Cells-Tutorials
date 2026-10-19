@@ -67,6 +67,9 @@ Lär dig hur du använder dynamiska arrayformler i Java för att skapa en Excel-
 ### [Hur du uppdaterar Excel‑arbetsböcker i Java med Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
 En kodhandledning för Aspose.Cells Java
 
+### [Hur du tvingar formelberäkning i Java med Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+En kodhandledning för Aspose.Cells Java
+
 ## Ytterligare resurser
 - [Aspose.Cells för Java-dokumentation](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells för Java API‑referens](https://reference.aspose.com/cells/java/)

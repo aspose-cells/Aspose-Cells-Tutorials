@@ -50,6 +50,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java ein Master‑Detail‑Arbeitsbu
 Erfahren Sie, wie Sie mit Aspose.Cells für Java einen SmartMarker erstellen und damit eine Excel-Arbeitsmappe programmgesteuert befüllen.
 ### [Excel-Vorlage mit Daten füllen – Excel-Bericht aus Vorlage erstellen](./populate-excel-template-with-data-create-excel-report-from-t/)
 Erfahren Sie, wie Sie eine Excel-Vorlage mit Daten befüllen und daraus programmgesteuert einen Bericht erstellen.
+### [Excel-Vorlage mit Daten füllen mithilfe von Aspose.Cells](./how-to-populate-excel-template-with-data-using-aspose-cells/)
+Erfahren Sie, wie Sie mit Aspose.Cells Daten in eine Excel-Vorlage einfügen und Berichte automatisieren.
 
 ### [Aspose Cells Smart Markers – Excel-Vorlage befüllen](./aspose-cells-smart-markers-populate-excel-template/)
 Erfahren Sie, wie Sie mit Smart Markers von Aspose.Cells eine Excel-Vorlage befüllen und daraus Berichte generieren.

@@ -73,6 +73,8 @@ Aspose.Cells для Java позволяет вам автоматизирова�
 Узнайте, как дублировать лист в Excel, сохраняя все сводные таблицы, используя Aspose.Cells для Java.
 ### [Как дублировать сводную таблицу в Java с помощью Aspose.Cells](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
 Узнайте, как дублировать сводную таблицу в Aspose.Cells для Java, сохраняя её свойства и форматирование.
+### [Копирование диапазона и сохранение сводной таблицы в Java](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
+Узнайте, как скопировать диапазон, сохранив привязку к сводной таблице, используя Aspose.Cells для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -74,6 +74,8 @@ Aprenda a converter planilhas Excel em apresentações PowerPoint usando Aspose.
 Aprenda a converter arquivos Excel para DOCX usando Aspose.Cells em C# com exemplo passo a passo.
 ### [Como copiar intervalo do Excel e exportá-lo para PowerPoint usando Java](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
 Aprenda a copiar um intervalo de planilha Excel e exportá-lo para uma apresentação PowerPoint usando Aspose.Cells e Aspose.Slides para Java.
+### [Converter Excel para PowerPoint com Aspose.Cells em Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+Aprenda a converter arquivos Excel em apresentações PowerPoint usando Aspose.Cells para Java.
 
 ## Recursos adicionais
 

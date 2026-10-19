@@ -62,6 +62,8 @@ Learn how to populate an Excel template with data using Aspose.Cells for Java, c
 Learn how to use Smart Markers to populate an Excel template with data in Aspose.Cells for Java, creating dynamic reports efficiently.
 ### [Create detail sheets in Java with Aspose.Cells smart markers](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
 Learn how to generate detailed sheets using smart markers in Aspose.Cells for Java.
+### [How to populate Excel template with data using Aspose.Cells](./how-to-populate-excel-template-with-data-using-aspose-cells/)
+Learn how to fill an Excel template with data programmatically using Aspose.Cells for Java.
 
 ## Additional Resources
 

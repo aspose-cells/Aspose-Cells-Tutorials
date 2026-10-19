@@ -74,6 +74,8 @@ Leer hoe u Excel-bestanden naar PowerPoint-presentaties converteert met Aspose.C
 Leer hoe u een Excel-werkmap opslaat als DOCX-bestand met Aspose.Cells in C#.
 ### [Hoe bereik uit Excel kopiëren en exporteren naar PowerPoint met Java: een stapsgewijze handleiding](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
 Leer hoe u een bereik uit een Excel-werkmap kopieert en exporteert naar een PowerPoint-presentatie met Aspose.Cells voor Java.
+### [Excel converteren naar PowerPoint met Aspose.Cells in Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+Leer hoe u Excel-bestanden omzet naar PowerPoint-presentaties met Aspose.Cells voor Java.
 
 ## Aanvullende bronnen
 

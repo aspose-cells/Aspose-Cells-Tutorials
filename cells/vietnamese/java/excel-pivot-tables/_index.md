@@ -65,6 +65,8 @@ Hướng dẫn chi tiết cách tạo workbook mới và sao chép Bảng Pivot 
 ### [Cách sao chép worksheet và giữ nguyên bảng Pivot trong Java](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
 Hướng dẫn sao chép worksheet và duy trì các bảng Pivot trong Aspose.Cells for Java.
 ### [Cách sao chép Pivot trong Java bằng Aspose.Cells](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
+### [Cách sao chép vùng và bảo tồn bảng Pivot trong Java](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
+Hướng dẫn sao chép vùng dữ liệu và giữ nguyên bảng Pivot trong Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

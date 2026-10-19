@@ -62,6 +62,8 @@ Aspose.Cells for Java를 사용해 워크북에서 수식 계산을 효율적으
 
 ### [Aspose.Cells Java&#58; Excel 워크북 새로 고침 방법](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
 Aspose.Cells를 사용해 Java에서 Excel 워크북을 새로 고치는 방법을 배웁니다.
+### [Aspose.Cells Java&#58; 수식 강제 계산 방법](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+Aspose.Cells Java에서 수식을 강제로 계산하는 방법을 배웁니다.
 
 ## 추가 리소스
 - [Aspose.Cells for Java 문서](https://docs.aspose.com/cells/java/)

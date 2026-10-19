@@ -48,6 +48,7 @@ Java के लिए Aspose.Cells के साथ Excel कार्यों 
 Aspose.Cells for Java का उपयोग करके मास्टर‑डिटेल वर्कबुक बनाना और डेटा बाइंडिंग को लागू करना सीखें।
 ### [जावा में Aspose.Cells स्मार्ट मार्कर्स के साथ डिटेल शीट बनाना](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
 Aspose.Cells के स्मार्ट मार्कर्स का उपयोग करके जावा में विस्तृत शीट्स जनरेट करने की प्रक्रिया सीखें।
+### [Aspose.Cells का उपयोग करके Excel टेम्पलेट को डेटा से भरना कैसे करें](./how-to-populate-excel-template-with-data-using-aspose-cells/)
 
 ### [Smart Markers के साथ वर्कशीट बनाना – पूर्ण जावा गाइड](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
 Smart Markers के साथ वर्कशीट उत्पन्न करने की पूरी जावा गाइड, चरण‑दर‑चरण उदाहरणों के साथ।

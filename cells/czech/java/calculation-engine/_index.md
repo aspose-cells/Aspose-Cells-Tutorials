@@ -67,6 +67,9 @@ Naučte se, jak pomocí Aspose.Cells v Javě vytvořit sešit s dynamickými pol
 ### [Jak obnovit sešity Excel v Javě pomocí Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
 Naučte se, jak pomocí Aspose.Cells v Javě obnovit a znovu načíst Excel sešity pro aktuální data.
 
+### [Jak vynutit výpočet vzorce v Javě pomocí Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+Naučte se, jak vynutit okamžitý výpočet vzorců v sešitech pomocí Aspose.Cells pro Javu.
+
 ## Další zdroje
 - [Dokumentace Aspose.Cells pro Java](https://docs.aspose.com/cells/java/)
 - [API reference Aspose.Cells pro Java](https://reference.aspose.com/cells/java/)

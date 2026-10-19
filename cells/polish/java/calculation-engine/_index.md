@@ -68,6 +68,9 @@ Dowiedz się, jak w Javie tworzyć skoroszyt Excel z formułami dynamicznych tab
 ### [Jak odświeżać skoroszyty Excel w Javie przy użyciu Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
 Dowiedz się, jak odświeżać skoroszyty Excel w Javie, aby zastosować zmiany przy użyciu Aspose.Cells.
 
+### [Jak wymusić obliczanie formuł w Javie przy użyciu Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+Samouczek kodu dla Aspose.Cells Java
+
 ## Dodatkowe zasoby
 - [Dokumentacja Aspose.Cells for Java](https://docs.aspose.com/cells/java/)
 - [Referencja API Aspose.Cells for Java](https://reference.aspose.com/cells/java/)

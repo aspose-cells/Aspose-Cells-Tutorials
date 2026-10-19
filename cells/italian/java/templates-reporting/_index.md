@@ -61,6 +61,8 @@ Impara a popolare un modello Excel con dati e generare report dinamici usando As
 
 ### [Aspose Cells Smart Markers – Popola modello Excel](./aspose-cells-smart-markers-populate-excel-template/)
 Impara a utilizzare Smart Markers per popolare un modello Excel con dati dinamici usando Aspose.Cells per Java.
+### [Come popolare un modello Excel con dati utilizzando Aspose.Cells](./how-to-populate-excel-template-with-data-using-aspose-cells/)
+Scopri come riempire un modello Excel con dati da Java usando Aspose.Cells, passo passo con esempi di codice.
 
 ## Risorse aggiuntive
 

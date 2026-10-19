@@ -61,6 +61,8 @@ Aprenda a rellenar una plantilla de Excel con datos y generar un informe usando 
 
 ### [Aspose Cells Smart Markers – Rellenar plantilla de Excel](./aspose-cells-smart-markers-populate-excel-template/)
 Aprenda a usar Smart Markers de Aspose.Cells para rellenar plantillas de Excel con datos dinámicos.
+### [Cómo rellenar una plantilla de Excel con datos usando Aspose.Cells](./how-to-populate-excel-template-with-data-using-aspose-cells/)
+Aprenda a rellenar una plantilla de Excel con datos mediante Aspose.Cells para Java.
 
 ## Recursos adicionales
 

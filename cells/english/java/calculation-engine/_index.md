@@ -65,6 +65,8 @@ Learn how to open XLSX files, load workbooks, and recalculate formulas using Asp
 Learn how to generate an Excel workbook in Java and evaluate dynamic array formulas using Aspose.Cells.
 ### [How to refresh Excel workbooks in Java using Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
 Learn how to programmatically refresh Excel workbooks using Aspose.Cells for Java.
+### [How to force formula calculation in Java with Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+Learn how to programmatically trigger formula recalculation in Aspose.Cells for Java.
 
 ## Additional Resources
 - [Aspose.Cells for Java Documentation](https://docs.aspose.com/cells/java/)

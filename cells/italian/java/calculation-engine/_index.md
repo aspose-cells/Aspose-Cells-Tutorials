@@ -68,6 +68,9 @@ Scopri come creare una cartella di lavoro Excel in Java e calcolare tutte le for
 ### [Come aggiornare le cartelle di lavoro Excel in Java usando Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
 Scopri come ricaricare e aggiornare i workbook Excel in Java con il motore di calcolo di Aspose.Cells per garantire dati aggiornati.
 
+### [Come forzare il calcolo delle formule in Java con Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+Scopri come forzare il ricalcolo delle formule in un workbook Excel usando Aspose.Cells per Java.
+
 ## Risorse aggiuntive
 - [Documentazione di Aspose.Cells per Java](https://docs.aspose.com/cells/java/)
 - [Riferimento API di Aspose.Cells per Java](https://reference.aspose.com/cells/java/)

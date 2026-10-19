@@ -68,6 +68,9 @@ Leer hoe u een XLSX-bestand laadt, de werkmap opent en formules opnieuw berekent
 ### [Hoe Excel-werkboeken te vernieuwen in Java met Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
 Leer hoe u Excel-werkboeken kunt vernieuwen met Aspose.Cells in Java.
 
+### [Hoe formuleberekening forceren in Java met Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+Een code‑tutorial die laat zien hoe u de berekening van formules handmatig kunt afdwingen met Aspose.Cells voor Java.
+
 ## Aanvullende bronnen
 - [Aspose.Cells voor Java-documentatie](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells voor Java API‑referentie](https://reference.aspose.com/cells/java/)

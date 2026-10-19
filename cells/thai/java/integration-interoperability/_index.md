@@ -61,6 +61,8 @@
 เรียนรู้วิธีแปลงไฟล์ Excel ไปเป็น PowerPoint อย่างละเอียดด้วยขั้นตอนครบถ้วนโดยใช้ Aspose.Cells สำหรับ Java
 ### [วิธีบันทึก Excel เป็น DOCX ด้วย Aspose.Cells ใน C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
 เรียนรู้วิธีบันทึกไฟล์ Excel เป็น DOCX ด้วย Aspose.Cells ใน C# อย่างง่ายดาย
+### [แปลง Excel เป็น PowerPoint ด้วย Aspose.Cells ใน Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+เรียนรู้วิธีแปลงไฟล์ Excel ไปเป็น PowerPoint ด้วย Aspose.Cells สำหรับ Java อย่างง่ายดาย
 
 ### [แปลง Excel ไปเป็น PowerPoint – คู่มือเต็มสำหรับ Java](./convert-excel-to-powerpoint-complete-java-guide/)
 เรียนรู้วิธีแปลงไฟล์ Excel ไปเป็นงานนำเสนอ PowerPoint อย่างเต็มรูปแบบด้วย Aspose.Cells สำหรับ Java

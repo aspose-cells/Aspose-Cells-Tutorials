@@ -71,6 +71,8 @@ Aspose.Cells for Java kullanarak Excel dosyalarını PowerPoint sunumlarına dö
 Aspose.Cells for C# kullanarak Excel dosyalarını DOCX formatına dönüştürmeyi adım adım öğrenin.
 ### [Java ile Excel'den aralığı kopyalayıp PowerPoint'e dışa aktarma](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
 Java ve Aspose.Cells kullanarak bir Excel aralığını kopyalayıp PowerPoint sunumuna eklemeyi öğrenin.
+### [Aspose.Cells ile Java'da Excel'i PowerPoint'e Dönüştürme](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+Aspose.Cells for Java kullanarak Excel dosyalarını PowerPoint sunumlarına nasıl dönüştüreceğinizi adım adım öğrenin.
 
 ## Ek Kaynaklar
 

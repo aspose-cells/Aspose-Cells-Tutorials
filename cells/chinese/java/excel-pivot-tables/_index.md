@@ -66,6 +66,8 @@ Aspose.Cells for Java 使您能够自动化数据透视表操作并将其无缝�
 学习在 Aspose.Cells for Java 中复制工作表并保留数据透视表。
 ### [在 Java 中使用 Aspose.Cells 复制数据透视表](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
 学习如何在 Java 中使用 Aspose.Cells 复制数据透视表并保持其属性。
+### [在 Java 中复制范围并保留数据透视表](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
+学习如何在 Java 中复制单元格范围，同时保持数据透视表的完整性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

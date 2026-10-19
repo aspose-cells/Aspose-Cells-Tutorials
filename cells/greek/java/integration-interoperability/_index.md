@@ -71,6 +71,8 @@
 ### [Πώς να αποθηκεύσετε το Excel ως DOCX με Aspose.Cells σε C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
 Μάθετε πώς να μετατρέψετε ένα αρχείο Excel σε μορφή DOCX χρησιμοποιώντας το Aspose.Cells σε C#.
 ### [Πώς να αντιγράψετε περιοχή από το Excel και να την εξάγετε στο PowerPoint χρησιμοποιώντας Java](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+### [Μετατροπή Excel σε PowerPoint με Aspose.Cells για Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+Μάθετε πώς να μετατρέπετε αρχεία Excel σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Cells για Java.
 
 ## Πρόσθετοι Πόροι
 
