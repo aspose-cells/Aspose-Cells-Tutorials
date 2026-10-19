@@ -64,8 +64,6 @@ SmartMarker を使用して JSON 内の変数を置換する手順を詳しく�
 ### [Aspose.Cells でマスターディテイル Excel ガイド – スマートマーカーでテンプレートにデータを入力](./master-detail-excel-guide-populate-templates-with-smart-mark/)
 スマートマーカーを活用して、マスターディテイル構造のExcelテンプレートにデータを自動的に埋め込む方法をステップバイステップで解説します。
 
-### [Aspose.Cells でスマートマーカーを使用してマスターディテイル ワークブックを作成する](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
-
 ## Aspose.Cells のスマートマーカーを使用した動的データチュートリアル
 ### [C# で Excel データマージ – 完全スマートマーカーガイド](./excel-data-merging-in-c-complete-smart-marker-guide/)
 Aspose.Cells のスマートマーカーを使用して、C# で Excel データを統合し、動的レポートを作成する方法をステップバイステップで解説します。
