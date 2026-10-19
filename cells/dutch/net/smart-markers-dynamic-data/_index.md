@@ -127,6 +127,10 @@ Leer hoe u JSON-gegevens omzet naar XLSX-bestanden met SmartMarker in C#.
 
 
 
+### [Hoe een werkmap te maken met slimme markeringen – Output Hoog Laag](./how-to-create-workbook-with-smart-markers-output-high-low/)
+Leer hoe u met Aspose.Cells een Excel-werkmap genereert met slimme markeringen die hoge en lage waarden dynamisch weergeven.
+### [SmartMarkerOptions ArrayAsSingle configureren in C# voor JSON-arrays](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
+Leer hoe u de ArrayAsSingle‑optie van SmartMarkerOptions instelt om JSON‑arrays efficiënt te verwerken in C#‑toepassingen.
 
 
 
@@ -154,8 +158,6 @@ Leer hoe u facturen automatisch genereert met dynamische werkbladnamen en herhal
 Leer hoe u met Aspose.Cells een kortingssjabloon in C# maakt, stap voor stap, voor dynamische facturering.
 ### [Geneste JSON parseren C# – JSON-payload maken C#](./parse-nested-json-c-create-json-payload-c/)
 Leer hoe u geneste JSON-structuren kunt parseren en een JSON-payload kunt genereren in C# met Aspose.Cells.
-### [Hoe een werkmap te maken met slimme markeringen – Output Hoog Laag](./how-to-create-workbook-with-smart-markers-output-high-low/)
-Leer hoe u een Excel-werkmap genereert met slimme markeringen die hoge en lage waarden dynamisch weergeven.
 ### [Maak master-detailrapport in C# – Excel-sjabloon vullen met SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
 Leer hoe u met SmartMarker een master‑detailrapport maakt door een Excel‑sjabloon vanuit C# te vullen.
 ### [SmartMarker toepassen op werkblad in C# – Complete gids](./apply-smartmarker-to-worksheet-in-c-complete-guide/)

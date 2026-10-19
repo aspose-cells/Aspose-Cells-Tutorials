@@ -87,6 +87,8 @@ GridJsを使用して、複数の行を効率的にグリッドに追加する�
 
 ### [Excel でアイテムを繰り返す – C# による動的行生成](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 C# で動的に行を生成し、Excel のアイテムを繰り返し入力する方法をステップバイステップで解説します。
+### [Aspose.Cells for .NET を使用して C# で Excel ワークブックを作成し、列を行に転置する](./create-excel-workbook-c-and-transpose-column-to-row/)
+C# を使って Excel ワークブックを作成し、列データを行に転置する手順をステップバイステップで解説します。
 
 
 

@@ -92,6 +92,8 @@
 
 
 
+### [إنشاء مصنف Excel C# وتحويل العمود إلى صف](./create-excel-workbook-c-and-transpose-column-to-row/)
+دليل خطوة بخطوة لإنشاء مصنف Excel باستخدام C# ونقل البيانات من عمود إلى صف.
 
 
 

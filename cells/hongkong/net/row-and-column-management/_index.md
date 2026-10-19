@@ -92,6 +92,10 @@
 
 
 
+### [使用 C# 建立 Excel 工作簿並將欄位轉置為列](./create-excel-workbook-c-and-transpose-column-to-row/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中建立 Excel 工作簿，並將欄位資料轉置為列。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 
 

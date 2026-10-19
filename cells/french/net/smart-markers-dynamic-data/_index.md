@@ -111,6 +111,7 @@ Apprenez à remplacer des variables JSON à l'aide de SmartMarker dans Aspose.Ce
 ### [Créer un classeur à partir d'un fichier XLSX avec Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
 Apprenez à générer un classeur Excel à partir d'un fichier XLSX en utilisant SmartMarkerProcessor d'Aspose.Cells.
 ### [Convertir JSON en Excel avec C# – Guide étape par étape](./convert-json-to-excel-with-c-step-by-step-guide/)
+### [Configurer SmartMarkerOptions ArrayAsSingle en C# pour les tableaux JSON](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
 
 Apprenez à convertir des fichiers JSON en Excel en C# avec un guide détaillé, étape par étape, pour créer des rapports dynamiques.
 

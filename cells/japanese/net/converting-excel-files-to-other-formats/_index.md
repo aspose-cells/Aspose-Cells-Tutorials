@@ -72,6 +72,10 @@ Aspose.Cellsを使用して、ExcelファイルをPowerPointプレゼンテー�
 Aspose.Cells for .NET を使用して、Excel データから PowerPoint プレゼンテーションを作成する方法をステップバイステップで解説します。
 Aspose.Cells for .NET を使用して、Excel ファイルを PowerPoint プレゼンテーション (PPTX) に変換する方法をステップバイステップで学びます。
 ### [.NET でプログラム的に出力 HTML に HTML CrossType を指定する](./specifying-html-crosstype-in-output-html/)
+Aspose.Cells for .NET を使用して、Excel ファイルを PowerPoint プレゼンテーション (PPTX) に変換する方法をステップバイステップで学びます。
+### [C# で編集可能なチャートを含む Excel を PowerPoint にエクスポートする](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Aspose.Cells for .NET を使用して、Excel の編集可能なチャートを PowerPoint にエクスポートする方法をステップバイステップで解説します。
+
 Aspose.Cells for .NETでHTML CrossTypeを指定する方法を学びましょう。ステップバイステップのチュートリアルに従って、ExcelファイルをHTMLに正確に変換しましょう。
 ### [.NET でプログラム的に数値スプレッドシートを読み取る](./reading-numbers-spreadsheet/)
 この詳細なチュートリアルでは、Aspose.Cells for .NET を使用して Numbers スプレッドシートを読み取り、PDF に変換する方法を学習します。
@@ -81,7 +85,6 @@ Aspose.Cells for .NETでHTML CrossTypeを指定する方法を学びましょう
 説明: この詳細なチュートリアルでは、Aspose.Cells for .NET を使用してドキュメント変換の進行状況をプログラムで追跡する方法を学習します。
 ### [.NET でプログラム的に TIFF ドキュメントの変換進行状況を追跡する](./tracking-document-conversion-progress-for-tiff/)
 Aspose.Cells for .NET を使用して、TIFF 変換の進行状況をプログラムで追跡する方法をステップバイステップガイドで学びましょう。ドキュメント管理スキルを向上させましょう。
-### [.NET でプログラム的に Excel から PowerPoint を作成する](./create-powerpoint-from-excel-step-by-step-guide/)
 ### [Excel を PowerPoint に変換する – ステップバイステップ C# ガイド](./convert-excel-to-powerpoint-step-by-step-c-guide/)
 ### [.NET でプログラム的に Excel から PowerPoint を作成する](./create-powerpoint-from-excel-step-by-step-guide/)
 ### [C# で Excel を PowerPoint にエクスポートする完全ガイド](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)

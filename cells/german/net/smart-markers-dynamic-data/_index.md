@@ -134,6 +134,9 @@ Erfahren Sie, wie Sie mit Aspose.Cells Vorlagen mithilfe von Smart Markern Schri
 Erfahren Sie, wie Sie mit Aspose.Cells und SmartMarker in C# komplette Excel‑Berichte automatisch generieren.
 
 ### [Exportieren von Daten nach Excel mit Smart Marker – Vollständige C#‑Anleitung](./export-data-to-excel-with-smart-marker-full-c-guide/)
+### [SmartMarkerOptions ArrayAsSingle in C# für JSON-Arrays konfigurieren](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 
 

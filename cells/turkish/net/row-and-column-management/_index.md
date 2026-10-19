@@ -92,6 +92,8 @@ GridJs kullanarak birden fazla satırı verimli bir şekilde eklemeyi adım adı
 
 
 
+### [C# ile Excel çalışma kitabı oluşturma ve sütunu satıra dönüştürme](./create-excel-workbook-c-and-transpose-column-to-row/)
+Aspose.Cells for .NET kullanarak bir Excel çalışma kitabı oluşturmayı ve bir sütunu satıra dönüştürmeyi adım adım öğrenin.
 
 
 

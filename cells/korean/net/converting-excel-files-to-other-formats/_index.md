@@ -67,6 +67,8 @@ Aspose.Cells for .NET을 사용하여 Excel 데이터를 PowerPoint 프레젠테
 ### [Excel을 PowerPoint로 변환하고 인쇄 영역 설정](./convert-excel-to-powerpoint-and-set-print-area/)
 
 Aspose.Cells for .NET을 사용하여 Excel 파일을 PowerPoint 프레젠테이션으로 변환하고 인쇄 영역을 지정하는 방법을 단계별로 안내합니다.
+### [C#에서 편집 가능한 차트와 함께 Excel을 PowerPoint로 내보내기](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Aspose.Cells for .NET을 사용하여 C# 코드로 Excel 차트를 편집 가능한 PowerPoint 슬라이드로 변환하는 방법을 단계별로 안내합니다.
 ### [Excel에서 인쇄 영역 설정 및 PowerPoint로 내보내기 – 단계별 가이드](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
 
 Aspose.Cells를 사용하여 Excel에서 인쇄 영역을 설정하고 이를 PowerPoint 프레젠테이션으로 내보내는 방법을 단계별로 안내합니다.

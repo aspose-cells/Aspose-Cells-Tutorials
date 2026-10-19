@@ -90,6 +90,8 @@ Erfahren Sie, wie Sie mit GridJs mehrere Zeilen effizient in ein Grid einfügen.
 
 
 
+### [Excel-Arbeitsmappe in C# erstellen und Spalte in Zeile transponieren](./create-excel-workbook-c-and-transpose-column-to-row/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe erstellen und eine Spalte in eine Zeile transponieren.
 
 
 

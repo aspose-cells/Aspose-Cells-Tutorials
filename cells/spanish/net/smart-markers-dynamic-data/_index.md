@@ -90,6 +90,9 @@ Descubra el poder de Aspose.Cells para .NET y aprenda a aplicar fácilmente atri
 ### [Usar el parámetro de fórmula en el campo de marcador inteligente Aspose.Cells](./formula-parameter-smart-marker/)
 Aprenda a usar parámetros de fórmula en marcadores inteligentes con Aspose.Cells para .NET. Cree hojas de cálculo dinámicas fácilmente.
 
+### [Configurar SmartMarkerOptions ArrayAsSingle en C# para matrices JSON](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
+Aprenda a configurar la opción ArrayAsSingle de SmartMarkerOptions en C# para manejar matrices JSON al generar informes de Excel.
+
 ### [Usar lista genérica en marcadores inteligentes Aspose.Cells](./generic-list-smart-markers/)
 Domine Aspose.Cells para .NET con listas genéricas y marcadores inteligentes para crear fácilmente informes dinámicos de Excel. Guía sencilla para desarrolladores.
 

@@ -70,6 +70,8 @@ Leer hoe u met Aspose.Cells voor .NET een PowerPoint-presentatie genereert vanui
 Leer hoe u met Aspose.Cells voor .NET een PowerPoint-presentatie genereert vanuit een Excel-werkmap met volledige C#-automatisering.
 ### [Nieuw werkboek maken – Excel exporteren naar TXT met volledige precisie](./create-new-workbook-export-excel-to-txt-with-full-precision/)
 Leer hoe u een nieuw werkboek maakt en Excel-gegevens exporteert naar een TXT-bestand met volledige precisie via Aspose.Cells voor .NET.
+### [Excel exporteren naar PowerPoint met bewerkbare grafieken in C#](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Leer hoe u Excel-gegevens exporteert naar PowerPoint met bewerkbare grafieken via C# en Aspose.Cells.
 
 ### [Excel opslaan als Docx met C# – Complete stapsgewijze handleiding](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 Leer hoe u Excel-bestanden opslaat als Docx met C# via een volledige stap‑voor‑stap handleiding.

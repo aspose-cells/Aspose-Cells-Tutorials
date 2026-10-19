@@ -90,6 +90,8 @@ Aprenda a inserir múltiplas linhas no GridJs de forma eficiente com este guia p
 
 
 
+### [Criar pasta de trabalho Excel C# e transpor coluna para linha](./create-excel-workbook-c-and-transpose-column-to-row/)
+Aprenda a criar uma pasta de trabalho Excel em C# e transpor dados de coluna para linha usando Aspose.Cells.
 
 
 

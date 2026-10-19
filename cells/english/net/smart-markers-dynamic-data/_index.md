@@ -129,6 +129,10 @@ Learn how to create an Excel template using Smart Markers in C# with stepâ€‘byâ€
 
 
 
+### [Configure SmartMarkerOptions ArrayAsSingle in C# for JSON arrays](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
+Configure SmartMarkerOptions to treat JSON arrays as a single entity in C# with Aspose.Cells.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 
 

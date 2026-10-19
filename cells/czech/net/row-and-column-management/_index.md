@@ -88,6 +88,7 @@ Naučte se efektivně přidávat více řádků do GridJs pomocí podrobného n�
 
 
 
+### [Vytvořte Excel sešit v C# a transponujte sloupec na řádek](./create-excel-workbook-c-and-transpose-column-to-row/)
 
 
 

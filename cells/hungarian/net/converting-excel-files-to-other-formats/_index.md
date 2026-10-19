@@ -75,6 +75,8 @@ Ismerje meg, hogyan másolhat pivot táblákat és exportálhatja az Excel munka
 Tanulja meg, hogyan hozhat létre PowerPoint-prezentációt Excel-adatokból C#-ban az Aspose.Cells segítségével.
 ### [Hogyan exportáljunk Excel-t PowerPointba – Lépésről‑lépésre útmutató](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
 Tanulja meg, hogyan exportálhat Excel-fájlokat PowerPoint-prezentációvá C#-ban az Aspose.Cells for .NET segítségével, részletes lépésekkel.
+### [Excel exportálása PowerPointba szerkeszthető diagramokkal C#-ban](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Ismerje meg, hogyan exportálhat Excel-fájlokat PowerPointba szerkeszthető diagramokkal C#-ban az Aspose.Cells for .NET használatával.
 ### [HTML CrossType megadása a kimeneti HTML-ben programozottan .NET-ben](./specifying-html-crosstype-in-output-html/)
 Tanuld meg, hogyan adhatsz meg HTML CrossType-ot az Aspose.Cells for .NET-ben. Kövesd lépésről lépésre szóló útmutatónkat az Excel-fájlok precíz HTML-be konvertálásához.
 ### [Numbers táblázatok programozott olvasása .NET-ben](./reading-numbers-spreadsheet/)

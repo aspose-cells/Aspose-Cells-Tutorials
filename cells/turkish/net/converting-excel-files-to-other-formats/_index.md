@@ -58,7 +58,6 @@ Aspose.Cells kullanarak .NET'te JSON'u CSV'ye programatik olarak nasıl dönüş
 ### [Excel Dosyasını .NET'te Programatik Olarak PPTX'e Dönüştürme](./converting-excel-file-to-pptx/)
 Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel dosyasını PowerPoint sunumuna (PPTX) nasıl programatik olarak dönüştürebileceğinizi öğrenin.
 ### [Excel'i PowerPoint'e Dışa Aktarma – Tam C# Kılavuzu](./export-excel-to-powerpoint-complete-c-guide/)
-Aspose.Cells for .NET kullanarak Excel dosyalarını PowerPoint sunumlarına nasıl dışa aktaracağınızı adım adım öğrenin.
 ### [Excel'den PowerPoint Oluşturma – Adım Adım C# Kılavuzu](./create-powerpoint-from-excel-step-by-step-c-guide/)
 Aspose.Cells for .NET kullanarak Excel verilerinden PowerPoint sunumu oluşturmayı adım adım öğrenin.
 ### [C# ile Excel'i PowerPoint'e Dönüştürme – Tam Kılavuz](./convert-excel-to-powerpoint-with-c-complete-guide/)
@@ -69,10 +68,12 @@ Aspose.Cells kullanarak pivot tabloyu kopyalayıp Excel dosyasını PPTX sunumun
 Aspose.Cells kullanarak Excel dosyalarını PowerPoint sunumlarına dönüştürmek için adım adım kod örnekleri ve açıklamalar.
 Aspose.Cells for .NET kullanarak Excel verilerini PowerPoint sunumuna dönüştürmeyi adım adım öğrenin.
 ### [.NET'te Çıktı HTML'de HTML CrossType'ı Programatik Olarak Belirleme](./specifying-html-crosstype-in-output-html/)
+### [Excel'i Düzenlenebilir Grafiklerle PowerPoint'e C# ile Dışa Aktarma](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Aspose.Cells for .NET ile Excel dosyalarını düzenlenebilir grafiklerle PowerPoint sunumuna nasıl dışa aktaracağınızı adım adım öğrenin.
 Aspose.Cells for .NET'te HTML CrossType'ı nasıl belirleyeceğinizi öğrenin. Excel dosyalarını hassas bir şekilde HTML'ye dönüştürmek için adım adım öğreticimizi izleyin.
 ### [.NET'te Sayısal Tabloları Programatik Olarak Okuma](./reading-numbers-spreadsheet/)
 Bu detaylı eğitimde Aspose.Cells for .NET kullanarak Numbers elektronik tablolarını nasıl okuyacağınızı ve bunları PDF'ye nasıl dönüştüreceğinizi öğrenin.
-### [.NET'te Çalışma Kitabını Kesin Açık XML Elektronik Tablo Biçimine Kaydetme](./saving-workbook-to-strict-open-xml-spreadsheet-format/)
+### [.NET'te Çalışma Kitabını Strict Open XML Elektronik Tablo Biçimine Kaydetme](./saving-workbook-to-strict-open-xml-spreadsheet-format/)
 Bu ayrıntılı eğitimde Aspose.Cells for .NET kullanarak bir çalışma kitabını Strict Open XML Elektronik Tablosu biçiminde nasıl kaydedeceğinizi öğrenin.
 ### [.NET'te Belge Dönüştürme İlerlemesini Programatik Olarak İzleme](./tracking-document-conversion-progress/)
 açıklama: Bu ayrıntlı eğitimde, Aspose.Cells for .NET kullanarak belge dönüştürme ilerlemesini programatik olarak nasıl takip edeceğinizi öğrenin.

@@ -58,6 +58,8 @@ Pelajari cara mengonversi JSON ke CSV secara terprogram di .NET menggunakan Aspo
 Pelajari cara mengonversi file XLSX menjadi CSV menggunakan Aspose.Cells untuk .NET dengan contoh kode lengkap.
 ### [Mengonversi File Excel ke PPTX Secara Terprogram di .NET](./converting-excel-file-to-pptx/)
 Pelajari cara mengonversi file Excel ke presentasi PowerPoint (PPTX) secara terprogram menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini.
+### [Ekspor Excel ke PowerPoint dengan grafik yang dapat diedit di C#](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Pelajari cara mengekspor file Excel ke PowerPoint dengan grafik yang dapat diedit menggunakan C# dan Aspose.Cells.
 ### [Mengatur Area Cetak di Excel dan Mengekspor ke PowerPoint – Panduan Langkah‑demi‑Langkah](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
 Pelajari cara menentukan area cetak pada lembar Excel dan mengekspornya ke PowerPoint secara terprogram menggunakan Aspose.Cells untuk .NET.
 ### [Mengonversi Excel ke PowerPoint dan Menetapkan Area Cetak](./convert-excel-to-powerpoint-and-set-print-area/)

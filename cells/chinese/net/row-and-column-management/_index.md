@@ -103,6 +103,8 @@
 
 
 
+### [使用 Aspose.Cells for .NET 创建 Excel 工作簿并转置列到行](./create-excel-workbook-c-and-transpose-column-to-row/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中创建 Excel 工作簿并将列转置为行，实现数据重排。
 
 
 

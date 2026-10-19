@@ -81,6 +81,9 @@ Apprenez à insérer une ligne dans Excel avec Aspose.Cells pour .NET grâce à 
 ### [Insérer une ligne avec mise en forme dans Aspose.Cells .NET](./insert-row-formatting-aspose-cells/)
 Apprenez à insérer une ligne avec mise en forme dans Excel avec Aspose.Cells pour .NET. Suivez notre guide étape par étape pour une mise en œuvre facile.
 ### [Insérer plusieurs lignes dans Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
+Apprenez à insérer plusieurs lignes dans Excel avec Aspose.Cells pour .NET. Suivez notre tutoriel détaillé pour une manipulation fluide des données.
+### [Créer un classeur Excel C# et transposer une colonne en ligne](./create-excel-workbook-c-and-transpose-column-to-row/)
+Apprenez à créer un classeur Excel en C# et à transposer une colonne en ligne avec Aspose.Cells.
 ### [Comment répéter des éléments dans Excel – génération dynamique de lignes avec C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Apprenez à dupliquer des éléments et générer dynamiquement des lignes dans Excel avec C# grâce à Aspose.Cells.
 ### [Comment insérer des lignes dans GridJs – Ajouter plusieurs lignes au tableau efficacement](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)

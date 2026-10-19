@@ -89,6 +89,8 @@ Learn how to efficiently add multiple rows to a GridJs grid using simple code ex
 
 
 
+### [Create Excel workbook C# and transpose column to row](./create-excel-workbook-c-and-transpose-column-to-row/)
+Learn how to create an Excel workbook in C# and transpose a column into a row using Aspose.Cells for .NET.
 
 
 

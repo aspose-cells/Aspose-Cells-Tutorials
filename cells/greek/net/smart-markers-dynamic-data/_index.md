@@ -122,6 +122,10 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 
 
 
+### [Διαμόρφωση SmartMarkerOptions ArrayAsSingle σε C# για πίνακες JSON](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
+Μάθετε πώς να ρυθμίσετε την επιλογή ArrayAsSingle για να επεξεργάζεστε JSON πίνακες με SmartMarkerOptions σε C#.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 
 

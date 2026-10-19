@@ -187,6 +187,7 @@ Pelajari cara mengimpor data JSON ke file Excel menggunakan C# dengan Aspose.Cel
 ### [Panduan master detail Excel – mengisi templat dengan Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)
 ### [Cara Mengulang Lembar Kerja – Panduan Lengkap untuk Otomatisasi Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 Pelajari cara mengulang lembar kerja secara otomatis di Excel menggunakan Aspose.Cells untuk meningkatkan efisiensi laporan.
+### [Mengonfigurasi SmartMarkerOptions ArrayAsSingle di C# untuk array JSON](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

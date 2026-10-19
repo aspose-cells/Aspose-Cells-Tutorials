@@ -124,6 +124,7 @@ Dowiedz się, jak przy użyciu SmartMarker łączyć arkusze w Excelu, tworząc 
 
 
 
+### [Konfiguracja opcji SmartMarkerOptions ArrayAsSingle w C# dla tablic JSON](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
 
 
 
