@@ -125,6 +125,8 @@ Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java in HTML exportier
 Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Liste in Excel importieren und Spalten formatieren.
 ### [Excel mit Java in TXT exportieren – begrenzte signifikante Stellen](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
 Erfahren Sie, wie Sie Excel-Daten mit Aspose.Cells für Java in TXT exportieren und die signifikanten Stellen begrenzen.
+### [Excel nach PowerPoint exportieren mit Aspose.Cells – Schritt‑für‑Schritt‑Anleitung](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Erfahren Sie, wie Sie Excel‑Arbeitsmappen mit Aspose.Cells in PowerPoint‑Präsentationen exportieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

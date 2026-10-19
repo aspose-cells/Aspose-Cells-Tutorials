@@ -147,6 +147,10 @@ Aprenda a importar listas a Excel y aplicar estilos a columnas usando Aspose.Cel
 
 ### [Cómo exportar Excel a TXT con dígitos significativos limitados usando Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
 Aprenda a exportar datos de Excel a archivos TXT manteniendo un número limitado de dígitos significativos con Aspose.Cells para Java.
+### [Cómo exportar Excel a PowerPoint con Aspose.Cells – guía paso a paso](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Aprenda a convertir archivos de Excel a presentaciones PowerPoint usando Aspose.Cells para Java con ejemplos de código paso a paso.
+### [Exportar JSON a Excel con Aspose.Cells en Java](./export-json-to-excel-with-aspose-cells-in-java/)
+Aprenda a exportar datos JSON a archivos Excel usando Aspose.Cells para Java. Guía paso a paso con código fuente.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -62,6 +62,8 @@ Tìm hiểu cách nhập dữ liệu từ Excel bằng Aspose.Cells cho Java. H�
 Tìm hiểu cách xuất dữ liệu Excel sang JSON bằng Aspose.Cells for Java. Thực hiện theo hướng dẫn từng bước này với mã nguồn để chuyển đổi liền mạch.
 ### [Chuyển đổi JSON sang XLSX với Aspose.Cells Java – Hướng dẫn toàn diện](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
 Tìm hiểu cách chuyển đổi dữ liệu JSON sang tệp XLSX bằng Aspose.Cells for Java qua hướng dẫn chi tiết và ví dụ mã nguồn thực tế.
+### [Xuất JSON sang Excel bằng Aspose.Cells trong Java](./export-json-to-excel-with-aspose-cells-in-java/)
+Hướng dẫn chi tiết cách xuất dữ liệu JSON sang tệp Excel bằng Aspose.Cells cho Java, kèm mã nguồn mẫu.
 ### [Xác thực dữ liệu nhập Excel](./excel-import-data-validation/)
 Tìm hiểu cách triển khai xác thực dữ liệu nhập Excel bằng Aspose.Cells for Java với hướng dẫn từng bước toàn diện này. Đảm bảo độ chính xác của dữ liệu và nâng cao trải nghiệm người dùng. 
 ### [Xuất Excel sang HTML Java](./export-excel-to-html-java/)
@@ -138,6 +140,7 @@ Hướng dẫn cách nhúng phông chữ vào tệp SVG khi xuất workbook Exce
 Tìm hiểu cách nhập danh sách vào Excel và định dạng các cột bằng Aspose.Cells for Java.
 ### [Cách xuất Excel sang TXT với số chữ số có ý nghĩa giới hạn bằng Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
 Hướng dẫn xuất dữ liệu Excel sang tệp TXT, chỉ giữ lại số chữ số có ý nghĩa nhất định, sử dụng Aspose.Cells for Java.
+### [Cách xuất Excel sang PowerPoint với Aspose.Cells – hướng dẫn từng bước](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

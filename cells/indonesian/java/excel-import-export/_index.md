@@ -128,6 +128,10 @@ Pelajari cara mengekspor file Excel ke HTML menggunakan Aspose.Cells untuk Java 
 Pelajari cara mengimpor daftar ke file Excel dan menata kolom dengan gaya menggunakan Aspose.Cells untuk Java.
 ### [Cara mengekspor Excel ke TXT dengan digit signifikan terbatas menggunakan Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
 Pelajari cara mengekspor file Excel ke format TXT sambil membatasi jumlah digit signifikan menggunakan Aspose.Cells untuk Java.
+### [Cara Mengekspor Excel ke PowerPoint dengan Aspose.Cells – panduan langkah demi langkah](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Pelajari cara mengekspor file Excel ke PowerPoint menggunakan Aspose.Cells untuk Java dalam panduan langkah demi langkah ini.
+### [Ekspor JSON ke Excel dengan Aspose.Cells di Java](./export-json-to-excel-with-aspose-cells-in-java/)
+Pelajari cara mengekspor data JSON ke file Excel menggunakan Aspose.Cells untuk Java dengan contoh kode langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

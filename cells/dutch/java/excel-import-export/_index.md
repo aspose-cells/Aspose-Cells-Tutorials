@@ -134,6 +134,10 @@ Leer hoe u Excel naar HTML exporteert in Java met een volledige stap‑voor‑st
 Leer hoe u een lijst importeert naar Excel en kolommen opmaakt met Aspose.Cells voor Java.
 ### [Hoe Excel te exporteren naar TXT met beperkte significante cijfers in Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
 Leer hoe u Excel-gegevens exporteert naar TXT met een beperkt aantal significante cijfers met Aspose.Cells voor Java.
+### [Hoe Excel exporteren naar PowerPoint met Aspose.Cells – stapsgewijze handleiding](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Leer hoe u Excel-werkbladen naar PowerPoint presenteert met Aspose.Cells in een stapsgewijze handleiding.
+### [JSON exporteren naar Excel met Aspose.Cells in Java](./export-json-to-excel-with-aspose-cells-in-java/)
+Leer hoe u JSON-gegevens naar Excel exporteert met Aspose.Cells voor Java in een stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

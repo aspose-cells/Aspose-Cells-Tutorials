@@ -122,6 +122,10 @@
 Μάθετε πώς να ενσωματώσετε γραμματοσειρές σε αρχεία SVG κατά την εξαγωγή Excel χρησιμοποιώντας το Aspose.Cells για Java.
 ### [Πώς να εισάγετε λίστα στο Excel και να μορφοποιήσετε στήλες σε Java](./how-to-import-list-to-excel-and-style-columns-in-java/)
 ### [Πώς να εξάγετε Excel σε TXT με περιορισμένα σημαντικά ψηφία χρησιμοποιώντας Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+### [Πώς να εξάγετε Excel σε PowerPoint με το Aspose.Cells – οδηγός βήμα‑βήμα](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Μάθετε πώς να μετατρέψετε αρχεία Excel σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Cells για Java, βήμα προς βήμα.
+### [Εξαγωγή JSON σε Excel με Aspose.Cells σε Java](./export-json-to-excel-with-aspose-cells-in-java/)
+Μάθετε πώς να μετατρέψετε δεδομένα JSON σε αρχεία Excel χρησιμοποιώντας το Aspose.Cells για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

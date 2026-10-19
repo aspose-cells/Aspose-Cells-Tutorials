@@ -127,6 +127,10 @@ Scopri come incorporare i font nei file SVG durante l'esportazione di Excel con 
 Scopri come importare un elenco in Excel e applicare stili alle colonne usando Aspose.Cells per Java.
 ### [Come esportare Excel in TXT con cifre significative limitate usando Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
 Scopri come esportare file Excel in formato TXT limitando le cifre significative con Aspose.Cells per Java.
+### [Come esportare Excel in PowerPoint con Aspose.Cells – guida passo‑a‑passo](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Scopri come convertire file Excel in presentazioni PowerPoint utilizzando Aspose.Cells per Java, con esempi di codice passo‑a‑passo.
+### [Esporta JSON in Excel con Aspose.Cells in Java](./export-json-to-excel-with-aspose-cells-in-java/)
+Scopri come convertire file JSON in fogli Excel usando Aspose.Cells per Java. Guida passo passo con esempi di codice.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

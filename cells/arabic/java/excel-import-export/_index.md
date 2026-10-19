@@ -127,6 +127,10 @@
 تعلم كيفية استيراد قائمة إلى ملف Excel وتطبيق تنسيقات على الأعمدة باستخدام Aspose.Cells لجافا.
 ### [كيفية تصدير Excel إلى TXT مع أرقام ذات أرقام معنوية محدودة باستخدام Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
 تعرّف على تصدير Excel إلى TXT مع تحديد الأرقام المعنوية باستخدام Aspose.Cells لجافا. دليل خطوة بخطوة مع الكود المصدري.
+### [كيفية تصدير Excel إلى PowerPoint باستخدام Aspose.Cells – دليل خطوة بخطوة](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+تعلم كيفية تصدير ملفات Excel إلى PowerPoint باستخدام Aspose.Cells خطوة بخطوة.
+### [تصدير JSON إلى Excel باستخدام Aspose.Cells في Java](./export-json-to-excel-with-aspose-cells-in-java/)
+تعرّف على كيفية تصدير بيانات JSON إلى ملفات Excel باستخدام Aspose.Cells في Java خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

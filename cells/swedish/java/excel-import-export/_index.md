@@ -124,6 +124,10 @@ Lär dig hur du bäddar in teckensnitt när du exporterar Excel-filer till SVG m
 ### [Exportera Excel till TXT med begränsade signifikanta siffror i Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
 Lär dig hur du exporterar Excel till TXT-fil med begränsat antal signifikanta siffror i Java med Aspose.Cells.
 ### [Hur man importerar lista till Excel och formaterar kolumner i Java](./how-to-import-list-to-excel-and-style-columns-in-java/)
+### [Exportera Excel till PowerPoint med Aspose.Cells – steg‑för‑steg‑guide](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Lär dig hur du exporterar Excel-filer till PowerPoint med Aspose.Cells för Java i denna steg‑för‑steg‑guide.
+### [Exportera JSON till Excel med Aspose.Cells i Java](./export-json-to-excel-with-aspose-cells-in-java/)
+Lär dig hur du exporterar JSON-data till Excel med Aspose.Cells för Java i en steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

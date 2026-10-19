@@ -47,6 +47,8 @@ Aprenda a definir o delimitador e salvar arquivos como CSV usando Aspose.Cells n
 Aprenda a exportar arquivos do Excel para PDF sem esforço usando o Aspose.Cells para Java. Nosso guia passo a passo simplifica o processo. Comece a converter hoje mesmo!
 ### [Converter Excel para PDF – Guia Java Completo com Aspose.Cells](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
 Aprenda a converter arquivos Excel para PDF usando Aspose.Cells para Java. Guia passo a passo com exemplos de código para conversão perfeita.
+### [Como exportar Excel para PowerPoint com Aspose.Cells – guia passo a passo](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Aprenda a converter planilhas Excel em apresentações PowerPoint usando Aspose.Cells para Java, com exemplos de código passo a passo.
 ### [Exportar Excel para XML Java](./export-excel-to-xml-java/)
 Aprenda a exportar Excel para XML em Java com o Aspose.Cells para Java. Guia passo a passo com código-fonte para conversão de dados perfeita.
 ### [Importação de dados do Excel](./data-import-from-excel/)
@@ -57,6 +59,8 @@ Aprenda a aplicar cores alternadas nas colunas ao importar um DataTable para Exc
 Aprenda a exportar dados do Excel para JSON usando o Aspose.Cells para Java. Siga este guia passo a passo com o código-fonte para uma conversão perfeita.
 ### [Criar Excel a partir de JSON – Guia completo passo a passo](./create-excel-from-json-full-step-by-step-guide/)
 Aprenda a gerar arquivos Excel a partir de JSON usando Aspose.Cells para Java. Guia passo a passo com código-fonte para conversão fácil.
+### [Exportar JSON para Excel com Aspose.Cells em Java](./export-json-to-excel-with-aspose-cells-in-java/)
+Aprenda a exportar dados JSON para arquivos Excel usando Aspose.Cells para Java. Guia passo a passo com código-fonte.
 ### [Validação de dados de importação do Excel](./excel-import-data-validation/)
 Aprenda a implementar a validação de dados de importação do Excel usando o Aspose.Cells para Java com este guia passo a passo completo. Garanta a precisão dos dados e aprimore a experiência do usuário. 
 ### [Exportar Excel para HTML Java](./export-excel-to-html-java/)

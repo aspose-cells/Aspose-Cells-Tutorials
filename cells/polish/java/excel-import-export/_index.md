@@ -129,6 +129,10 @@ Dowiedz się, jak osadzić czcionki w plikach SVG przy eksporcie Excela przy uż
 Dowiedz się, jak przy użyciu Aspose.Cells for Java wyeksportować plik Excel do formatu TXT, ograniczając liczbę cyfr znaczących.
 
 ### [Jak zaimportować listę do Excela i sformatować kolumny w Javie](./how-to-import-list-to-excel-and-style-columns-in-java/)
+### [Jak wyeksportować Excel do PowerPoint przy użyciu Aspose.Cells – przewodnik krok po kroku](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Dowiedz się, jak bezproblemowo wyeksportować arkusz Excel do prezentacji PowerPoint przy użyciu Aspose.Cells w Javie.
+### [Eksport JSON do Excela przy użyciu Aspose.Cells w Javie](./export-json-to-excel-with-aspose-cells-in-java/)
+Dowiedz się, jak eksportować dane JSON do plików Excel przy użyciu Aspose.Cells w Javie. Przewodnik krok po kroku z kodem źródłowym.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

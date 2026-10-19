@@ -64,6 +64,8 @@ Aspose.Cells for Java का उपयोग करके एक वर्कब
 Aspose.Cells for Java का उपयोग करके नया वर्कबुक बनाएं और पिवट टेबल को कॉपी करने की प्रक्रिया सीखें।
 ### [जावा में वर्कशीट को डुप्लिकेट करना और पिवट टेबल्स को संरक्षित रखना](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
 जावा में Aspose.Cells का उपयोग करके वर्कशीट को डुप्लिकेट करें और पिवट टेबल्स को बनाए रखें।
+### [जावा में Aspose.Cells का उपयोग करके पिवट को डुप्लिकेट कैसे करें](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
+Aspose.Cells for Java के साथ पिवट टेबल को डुप्लिकेट करके उसकी फ़ॉर्मेटिंग और डेटा को सुरक्षित रखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

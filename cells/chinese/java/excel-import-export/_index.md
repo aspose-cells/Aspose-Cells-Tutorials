@@ -63,6 +63,8 @@
 学习如何使用 Aspose.Cells for Java 将 Excel 数据导出为 JSON。请按照本指南（包含源代码）进行操作，实现无缝转换。
 ### [使用 Java 将 JSON 导出为 Excel – 完整分步指南](./export-json-to-excel-with-java-complete-step-by-step-guide/)
 学习如何使用 Aspose.Cells for Java 将 JSON 数据导出为 Excel 文件。包含完整示例代码，帮助您实现无缝转换。
+### [使用 Aspose.Cells for Java 将 JSON 导出为 Excel](./export-json-to-excel-with-aspose-cells-in-java/)
+学习如何使用 Aspose.Cells for Java 将 JSON 数据转换并导出为 Excel 文件，提供完整示例代码。
 ### [Excel 导入数据验证](./excel-import-data-validation/)
 通过本指南，学习如何使用 Aspose.Cells for Java 实现 Excel 导入数据验证。确保数据准确性并提升用户体验。 
 
@@ -141,6 +143,7 @@
 学习如何在使用 Aspose.Cells for Java 将 Excel 导出为 SVG 时嵌入字体，确保图形显示完整。
 ### [使用 Java 将 Excel 导出为 TXT 并限制有效数字](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
 学习如何使用 Aspose.Cells for Java 将 Excel 数据导出为 TXT，并限制有效数字的位数。
+### [使用 Aspose.Cells 将 Excel 导出为 PowerPoint – 分步指南](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

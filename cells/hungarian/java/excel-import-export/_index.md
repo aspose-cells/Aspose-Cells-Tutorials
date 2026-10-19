@@ -131,6 +131,10 @@ Tanuld meg, hogyan állíthatsz be határolót és menthetsz CSV fájlt az Aspos
 Tanuld meg, hogyan importálj listát Excelbe és formázd az oszlopokat Java segítségével.
 ### [Excel exportálása TXT-be korlátozott számjegyekkel Java-val](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
 Tanuld meg, hogyan exportálj Excel-fájlokat TXT formátumba, miközben korlátozod a jelentős számjegyek számát Java-val.
+### [Hogyan exportáljunk Excel-t PowerPoint-ba az Aspose.Cells segítségével – lépésről lépésre útmutató](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Ismerd meg, hogyan konvertálhatsz Excel-fájlokat PowerPoint-prezentációkká az Aspose.Cells használatával.
+### [JSON exportálása Excel-be Aspose.Cells használatával Java-ban](./export-json-to-excel-with-aspose-cells-in-java/)
+Tanuld meg, hogyan exportálj JSON adatokat Excel fájlba Aspose.Cells for Java használatával, lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

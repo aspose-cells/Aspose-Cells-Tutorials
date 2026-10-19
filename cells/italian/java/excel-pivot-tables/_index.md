@@ -70,6 +70,8 @@ Scopri come copiare una tabella pivot da una cartella di lavoro all'altra usando
 Impara a creare un nuovo workbook in Java e copiare tabelle pivot con Aspose.Cells, passo dopo passo.
 ### [Come duplicare un foglio di lavoro e preservare le tabelle pivot in Java](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
 Scopri come duplicare un foglio di lavoro mantenendo intatte le tabelle pivot usando Aspose.Cells per Java.
+### [Come duplicare una tabella pivot in Java usando Aspose.Cells](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
+Scopri come duplicare una tabella pivot in Java con Aspose.Cells, mantenendo le impostazioni e l'aspetto originale.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

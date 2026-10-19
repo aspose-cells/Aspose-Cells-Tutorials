@@ -64,6 +64,8 @@ Lär dig hur du kopierar en pivottabell från en arbetsbok till en annan med Asp
 Lär dig hur du skapar en ny arbetsbok i Java och kopierar en pivottabell med Aspose.Cells.
 ### [Hur du duplicerar kalkylblad och bevarar pivottabeller i Java](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
 Lär dig hur du duplicerar ett kalkylblad och behåller pivottabeller med Aspose.Cells för Java.
+### [Duplicera pivottabell i Java med Aspose.Cells](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
+Lär dig hur du duplicerar en pivottabell i Java med Aspose.Cells och bevarar dess format.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

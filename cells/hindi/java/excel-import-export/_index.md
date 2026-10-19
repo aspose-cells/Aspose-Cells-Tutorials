@@ -140,6 +140,10 @@ Excel को SVG में निर्यात करते समय फ़�
 ### [जावा में सूची को Excel में आयात करें और कॉलम को स्टाइल करें](./how-to-import-list-to-excel-and-style-columns-in-java/)
 जावा में Aspose.Cells का उपयोग करके सूची को Excel में आयात करें और कॉलम को स्वरूपित करें।
 ### [जावा का उपयोग करके सीमित महत्वपूर्ण अंकों के साथ Excel को TXT में निर्यात कैसे करें](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+### [Aspose.Cells के साथ Excel को PowerPoint में निर्यात करना – चरण‑दर‑चरण गाइड](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Aspose.Cells के साथ Excel को PowerPoint में निर्यात करने की प्रक्रिया सीखें।
+### [JSON को Excel में निर्यात करें (Aspose.Cells, जावा)](./export-json-to-excel-with-aspose-cells-in-java/)
+Aspose.Cells for Java का उपयोग करके JSON डेटा को Excel फ़ाइल में निर्यात करना सीखें। चरण‑दर‑स्तर मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

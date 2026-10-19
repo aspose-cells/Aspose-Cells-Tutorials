@@ -137,6 +137,10 @@ Apprenez à intégrer des polices dans les fichiers SVG lors de l'exportation d'
 Apprenez à exporter des fichiers Excel au format HTML en Java avec Aspose.Cells pour Java. Guide complet étape par étape avec code source.
 ### [Comment importer une liste dans Excel et styliser les colonnes en Java](./how-to-import-list-to-excel-and-style-columns-in-java/)
 Apprenez à importer une liste dans Excel et à appliquer des styles aux colonnes en Java avec Aspose.Cells.
+### [Comment exporter Excel vers PowerPoint avec Aspose.Cells – guide étape par étape](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Apprenez à convertir un classeur Excel en présentation PowerPoint avec Aspose.Cells, guide complet pas à pas.
+### [Exporter JSON vers Excel avec Aspose.Cells en Java](./export-json-to-excel-with-aspose-cells-in-java/)
+Apprenez à convertir des fichiers JSON en classeurs Excel en Java avec Aspose.Cells. Guide complet avec exemples de code.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

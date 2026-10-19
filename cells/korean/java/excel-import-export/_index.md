@@ -123,6 +123,10 @@ Aspose.Cells for Java를 사용하여 Excel 파일을 HTML 형식으로 변환�
 Java를 사용해 리스트 데이터를 Excel에 가져오고, 열 서식을 지정하는 방법을 단계별로 안내합니다.
 ### [Java를 사용해 제한된 유효숫자로 Excel을 TXT로 내보내는 방법](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
 Aspose.Cells for Java를 사용하여 제한된 유효숫자를 유지하면서 Excel 데이터를 TXT 파일로 내보내는 방법을 단계별로 안내합니다.
+### [Aspose.Cells를 사용하여 Excel을 PowerPoint로 내보내는 방법 – 단계별 가이드](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Aspose.Cells for Java를 활용해 Excel 파일을 PowerPoint 프레젠테이션으로 변환하는 과정을 단계별로 안내합니다.
+### [Aspose.Cells를 사용하여 JSON을 Excel로 내보내기 (Java)](./export-json-to-excel-with-aspose-cells-in-java/)
+Aspose.Cells for Java를 사용해 JSON 데이터를 Excel 파일로 변환하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -137,6 +137,10 @@ Aspose.Cells for Java を使用して、Excel を SVG にエクスポートす�
 ### [JavaでリストをExcelにインポートし、列をスタイル設定する方法](./how-to-import-list-to-excel-and-style-columns-in-java/)
 JavaでリストをExcelにインポートし、列のスタイルを設定する方法を学びます。
 ### [Javaで有効桁数を制限してExcelをTXTにエクスポートする方法](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+### [Aspose.Cells を使用して Excel を PowerPoint にエクスポートする方法 – ステップバイステップガイド](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Aspose.Cells を使って Excel を PowerPoint に変換する手順を詳しく解説します。
+### [Aspose.Cells を使用して JSON を Excel にエクスポート（Java）](./export-json-to-excel-with-aspose-cells-in-java/)
+Aspose.Cells for Java を使って JSON データを Excel ファイルにエクスポートする方法を学びましょう。実用的なコード例で手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

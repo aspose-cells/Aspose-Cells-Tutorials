@@ -65,6 +65,8 @@ Aspose.Cells for Java を使用して、既存のピボットテーブルを別�
 
 ### [Javaでワークシートを複製し、ピボットテーブルを保持する方法](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
 ワークシートをコピーし、既存のピボットテーブルをそのまま維持する手順を解説します。
+### [Javaでピボットテーブルを複製する方法](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
+Aspose.Cells for Java を使用して、ピボットテーブルを複製し、データと書式を保持する方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

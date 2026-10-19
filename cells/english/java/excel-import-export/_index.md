@@ -52,6 +52,8 @@ Learn how to generate PDF files from Excel workbooks using Aspose.Cells for Java
 Learn how to convert Excel to PDF using Aspose.Cells for Java. A complete step‑by‑step guide with source code for flawless PDF conversion.
 ### [Convert Excel to PDF/A with Java – Complete Step‑by‑Step Guide](./convert-excel-to-pdf-a-with-java-complete-step-by-step-guide/)
 Learn how to convert Excel files to PDF/A format using Aspose.Cells for Java. Follow this step‑by‑step guide with source code for compliance‑ready PDFs.
+### [How to export Excel to PowerPoint with Aspose.Cells – step‑by‑step guide](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Learn how to export Excel worksheets to PowerPoint presentations using Aspose.Cells for Java in a step‑by‑step guide.
 ### [Export Excel to XML Java](./export-excel-to-xml-java/)
 Learn how to export Excel to XML in Java with Aspose.Cells for Java. Step-by-step guide with source code for seamless data conversion.
 ### [Data Import from Excel](./data-import-from-excel/)
@@ -60,6 +62,8 @@ Learn how to import data from Excel using Aspose.Cells for Java. A comprehensive
 Learn how to export Excel data to JSON using Aspose.Cells for Java. Follow this step-by-step guide with source code for seamless conversion.
 ### [Export JSON to Excel with Java – Complete Step‑by‑Step Guide](./export-json-to-excel-with-java-complete-step-by-step-guide/)
 Learn how to export JSON data to Excel using Aspose.Cells for Java. Follow this comprehensive step‑by‑step guide with source code.
+### [Export JSON to Excel with Aspose.Cells in Java](./export-json-to-excel-with-aspose-cells-in-java/)
+Learn how to convert JSON data into Excel files using Aspose.Cells for Java. Follow this step-by-step guide with source code.
 ### [Excel Import Data Validation](./excel-import-data-validation/)
 Learn how to implement Excel import data validation using Aspose.Cells for Java with this comprehensive step-by-step guide. Ensure data accuracy and enhance user experience. 
 ### [How to import list to Excel and style columns in Java](./how-to-import-list-to-excel-and-style-columns-in-java/)

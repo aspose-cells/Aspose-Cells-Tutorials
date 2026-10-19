@@ -126,6 +126,9 @@ Kompletní průvodce exportem souborů Excel do HTML v Javě pomocí Aspose.Cell
 ### [Vložení písem do SVG při exportu Excelu do SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
 Naučte se, jak při exportu Excelu do SVG vložit písma přímo do SVG souboru pomocí Aspose.Cells pro Javu.
 ### [Jak exportovat Excel do TXT s omezeným počtem významných číslic v Javě](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+### [Jak exportovat Excel do PowerPointu pomocí Aspose.Cells – krok za krokem](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+### [Export JSON do Excelu pomocí Aspose.Cells v Javě](./export-json-to-excel-with-aspose-cells-in-java/)
+Naučte se, jak exportovat data z JSON do souboru Excel pomocí Aspose.Cells pro Javu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

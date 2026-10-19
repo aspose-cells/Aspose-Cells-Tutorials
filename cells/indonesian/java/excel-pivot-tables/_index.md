@@ -63,6 +63,8 @@ Pelajari cara menyalin Tabel Pivot antar workbook menggunakan Aspose.Cells untuk
 ### [Buat Workbook Baru di Java – Panduan Lengkap Menyalin Tabel Pivot](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
 Pelajari cara membuat workbook baru di Java dan menyalin Tabel Pivot menggunakan Aspose.Cells untuk otomatisasi data.
 ### [Cara menggandakan lembar kerja dan mempertahankan tabel pivot di Java](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
+### [Cara menyalin pivot di Java menggunakan Aspose.Cells](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
+Pelajari cara menyalin Tabel Pivot di Aspose.Cells untuk Java secara mudah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

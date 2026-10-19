@@ -62,6 +62,10 @@
 
 ### [Экспорт Excel в HTML Java](./export-excel-to-html-java/)
 Узнайте, как экспортировать Excel в HTML в Java с помощью Aspose.Cells для Java. Следуйте этому пошаговому руководству с исходным кодом, чтобы легко и без усилий преобразовать файлы Excel в HTML.
+
+### [Как экспортировать Excel в PowerPoint с Aspose.Cells – пошаговое руководство](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Узнайте, как экспортировать файлы Excel в презентацию PowerPoint с помощью Aspose.Cells для Java. Пошаговое руководство с примером кода.
+
 ### [Как экспортировать CSV с Java – установить значимые цифры и диапазон экспорта в CSV](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
 Узнайте, как экспортировать данные в CSV с помощью Aspose.Cells для Java, задав значимые цифры и диапазон экспорта.
 
@@ -147,6 +151,9 @@
 Узнайте, как импортировать список в Excel и стилизовать столбцы с помощью Aspose.Cells для Java.
 ### [Как экспортировать Excel в TXT с ограниченным количеством значимых цифр, используя Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
 Узнайте, как экспортировать данные Excel в TXT с ограничением значимых цифр, используя Aspose.Cells для Java.
+
+### [Экспорт JSON в Excel с Aspose.Cells в Java](./export-json-to-excel-with-aspose-cells-in-java/)
+Узнайте, как экспортировать данные из JSON в файл Excel с помощью Aspose.Cells для Java. Пошаговое руководство с примером кода.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

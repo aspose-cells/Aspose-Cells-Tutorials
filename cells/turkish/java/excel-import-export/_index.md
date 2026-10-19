@@ -128,6 +128,10 @@ Aspose.Cells for Java kullanarak Excel dosyalarını SVG'ye dışa aktarırken y
 Java ve Aspose.Cells kullanarak bir listeyi Excel'e nasıl aktaracağınızı ve sütunları nasıl biçimlendireceğinizi öğrenin.
 ### [Java ile sınırlı anlamlı basamaklarla Excel'i TXT'ye Aktarma](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
 Java ve Aspose.Cells kullanarak Excel dosyalarını sınırlı anlamlı basamaklarla TXT formatına nasıl aktaracağınızı öğrenin.
+### [Aspose.Cells ile Excel'i PowerPoint'e Aktarma – adım adım rehber](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Aspose.Cells for Java kullanarak Excel dosyalarını PowerPoint sunumlarına nasıl aktaracağınızı öğrenin. Adım adım örneklerle süreci yönetin.
+### [Aspose.Cells ile Java'da JSON'u Excel'e Aktarma](./export-json-to-excel-with-aspose-cells-in-java/)
+Aspose.Cells for Java kullanarak JSON verilerini Excel dosyasına nasıl dönüştüreceğinizi öğrenin. Pratik örneklerle süreci yönetin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
