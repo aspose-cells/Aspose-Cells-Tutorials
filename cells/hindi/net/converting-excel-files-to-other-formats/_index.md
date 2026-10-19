@@ -82,7 +82,6 @@ Aspose.Cells का उपयोग करके Pivot तालिका को
 
 ### [Excel को PowerPoint में निर्यात – पूर्ण C# गाइड](./export-excel-to-powerpoint-complete-c-guide/)
 Aspose.Cells for .NET का उपयोग करके Excel फ़ाइल को PowerPoint प्रस्तुति में निर्यात करने की पूरी C# गाइड।
-
 ### [.NET में प्रोग्रामेटिक रूप से Excel को PowerPoint में बदलना – चरण‑दर‑चरण गाइड](./create-powerpoint-from-excel-step-by-step-guide/)
 Excel डेटा को PowerPoint प्रस्तुति में बदलने के लिए चरण‑दर‑चरण मार्गदर्शन, Aspose.Cells for .NET के साथ।
 

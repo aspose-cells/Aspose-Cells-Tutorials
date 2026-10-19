@@ -97,6 +97,13 @@ Hướng dẫn cách chuyển đổi bảng tính Excel sang PowerPoint và thi�
 ### [Xuất Excel sang PowerPoint – Hướng dẫn C# đầy đủ](./export-excel-to-powerpoint-complete-c-guide/)
 Tìm hiểu cách xuất chương trình Excel sang bản trình chiếu PowerPoint bằng Aspose.Cells cho .NET với C#.
 
+### [Cách xuất Excel sang PowerPoint bằng C# – Hướng dẫn đầy đủ](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
+Hướng dẫn chi tiết cách xuất dữ liệu Excel sang PowerPoint bằng Aspose.Cells cho .NET trong các bước dễ thực hiện.
+
+### [Cách bọc ô và chuyển đổi Excel sang PowerPoint bằng C#](./how-to-wrap-cells-and-convert-excel-to-powerpoint-in-c/)
+Hướng dẫn chi tiết cách bọc ô trong bảng tính và xuất chúng sang PowerPoint bằng C# và Aspose.Cells.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 
 
@@ -137,14 +144,13 @@ Hướng dẫn chi tiết cách lưu bảng tính Excel thành tệp văn bản 
 ### [Cách xuất Excel – Hướng dẫn văn bản phân tách bằng Tab](./how-to-export-excel-tab-delimited-text-guide/)
 Tìm hiểu cách xuất tệp Excel thành văn bản phân tách bằng Tab bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết từng bước.
 
-### [Cách xuất Excel sang PowerPoint bằng C# – Hướng dẫn đầy đủ](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
-Hướng dẫn chi tiết cách chuyển đổi bảng tính Excel sang bản trình chiếu PowerPoint bằng C# và Aspose.Cells.
-
 ### [Lưu Excel dưới dạng txt – Hướng dẫn C# đầy đủ để xuất số với chữ số có ý nghĩa](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 Tìm hiểu cách lưu Excel thành tệp txt và xuất các số với chữ số có ý nghĩa bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết.
 
 ### [Cách chuyển đổi Excel sang PNG với C# – hướng dẫn từng bước](./how-to-convert-excel-to-png-with-c-step-by-step-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang định dạng PNG bằng C# và Aspose.Cells cho .NET.
+### [Cách tạo PowerPoint từ Excel bằng Aspose.Cells](./how-to-create-powerpoint-from-excel-using-aspose-cells/)
+Hướng dẫn chi tiết cách tạo tệp PowerPoint từ dữ liệu Excel bằng Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

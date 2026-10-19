@@ -61,14 +61,8 @@ Lär dig hur du ställer in utskriftsområde i Excel och exporterar till PowerPo
 Lär dig hur du konverterar en Excel-fil till en PowerPoint-presentation och ställer in utskriftsområdet med Aspose.Cells för .NET.
 ### [Skapa PowerPoint från Excel – Steg‑för‑steg C#‑guide](./create-powerpoint-from-excel-step-by-step-c-guide/)
 Lär dig hur du skapar en PowerPoint-presentation från en Excel‑arbetsbok steg för steg med Aspose.Cells för .NET.
-### [Konvertera Excel till PowerPoint – Steg‑för‑steg C#‑guide](./convert-excel-to-powerpoint-step-by-step-c-guide/)
-Lär dig hur du konverterar Excel-filer till PowerPoint-presentationer med C# steg för steg med Aspose.Cells för .NET.
-### [Hur du exporterar Excel – guide för tab‑avgränsad text](./how-to-export-excel-tab-delimited-text-guide/)
-Lär dig hur du exporterar Excel-data till tab‑avgränsad text med Aspose.Cells för .NET i denna steg‑för‑steg‑guide.
 ### [Exportera Excel till PowerPoint med Aspose.Cells – komplett programmeringsguide](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
 Lär dig hur du exporterar en Excel-arbetsbok till en PowerPoint-presentation med Aspose.Cells i .NET med steg‑för‑steg‑kodexempel.
-### [Skapa PowerPoint från Excel – Steg‑för‑steg‑guide](./create-powerpoint-from-excel-step-by-step-guide/)
-Lär dig hur du skapar en PowerPoint-presentation från en Excel-arbetsbok steg för steg med Aspose.Cells för .NET.
 ### [Exportera Excel till PowerPoint – Komplett guide](./how-to-export-excel-to-powerpoint-complete-guide/)
 Lär dig steg-för-steg hur du exporterar Excel-data till PowerPoint-presentationer med Aspose.Cells för .NET.
 ### [Ange HTML CrossType i utdata-HTML programmatiskt i .NET](./specifying-html-crosstype-in-output-html/)
@@ -93,16 +87,6 @@ Lär dig hur du konverterar Excel-filer till Word med Aspose.Cells för .NET i e
 
 
 ### [Skapa PPT från Excel – Fullständig C#-automatiseringsguide](./create-ppt-from-excel-full-c-automation-guide/)Lär dig hur du automatiskt skapar PowerPoint-presentationer från Excel med Aspose.Cells i C# med en komplett steg‑för‑steg‑guide.
-### [Skapa ny arbetsbok – Exportera Excel till TXT med full precision](./create-new-workbook-export-excel-to-txt-with-full-precision/)Lär dig hur du skapar en ny arbetsbok och exporterar Excel till TXT med full precision i Aspose.Cells för .NET.
-### [Spara Excel som Docx med C# – Komplett steg‑för‑steg‑guide](./save-excel-as-docx-with-c-complete-step-by-step-guide/)Lär dig hur du sparar en Excel‑arbetsbok som ett DOCX‑dokument med C# med en komplett steg‑för‑steg‑guide.
-### [Spara Excel som txt – Komplett C#-guide för att exportera tal med signifikanta siffror](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)Lär dig hur du sparar en Excel‑arbetsbok som txt‑fil med exakt signifikanta siffror i C# med Aspose.Cells.
-### [Hur man exporterar Excel till PowerPoint med C# – Komplett guide](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)Lär dig hur du exporterar Excel till PowerPoint med C# med Aspose.Cells för .NET i en komplett steg‑för‑steg‑guide.
-### [Konvertera Excel till PowerPoint – Steg‑för‑steg C#‑guide](./convert-excel-to-powerpoint-step-by-step-c-guide/)Lär dig hur du konverterar Excel-filer till PowerPoint-presentationer med C# steg för steg med Aspose.Cells för .NET.
-### [Spara Excel som text – Komplett C#‑guide för att exportera Excel till TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)Lär dig hur du sparar en Excel‑arbetsbok som textfil (TXT) med en komplett C#‑guide och Aspose.Cells för .NET.
-### [Skapa Word från Excel – Snabb C#‑guide](./create-word-from-excel-quick-c-guide/)Lär dig hur du snabbt skapar ett Word‑dokument från en Excel‑fil med C# och Aspose.Cells i en kort guide.
-### [Skapa PowerPoint från Excel – Komplett C#‑handledning](./create-powerpoint-from-excel-complete-c-tutorial/)Lär dig hur du skapar en PowerPoint-presentation från en Excel‑fil med C# och Aspose.Cells i en komplett steg‑för‑steg‑guide.
-### [Exportera Excel till PowerPoint – Steg‑för‑steg‑guide](./how-to-export-excel-to-powerpoint-step-by-step-guide/)Lär dig hur du exporterar en Excel‑arbetsbok till en PowerPoint‑presentation med Aspose.Cells för .NET i en detaljerad steg‑för‑steg‑guide.
-### [Hur du exporterar Excel – guide för tab‑avgränsad text](./how-to-export-excel-tab-delimited-text-guide/)Lär dig hur du exporterar Excel-data till tab‑avgränsad text med Aspose.Cells för .NET i denna steg‑för‑steg‑guide.
 ### [Hur du sparar Excel som text med Aspose.Cells – steg‑för‑steg‑guide](./how-to-save-excel-as-text-with-aspose-cells-step-by-step-gui/)Lär dig hur du sparar en Excel‑arbetsbok som textfil med Aspose.Cells i en detaljerad steg‑för‑steg‑guide.
 ### [Hur du konverterar Excel till PNG med C# – steg‑för‑steg‑guide](./how-to-convert-excel-to-png-with-c-step-by-step-guide/)Lär dig hur du konverterar Excel-filer till PNG-bilder med C# och Aspose.Cells i en detaljerad steg‑för‑steg‑guide.
 ### [Exportera Excel till txt i C# – komplett programmeringsguide](./export-excel-to-txt-in-c-complete-programming-guide/)
@@ -110,10 +94,48 @@ Lär dig hur du exporterar Excel-data till txt-filer i C# med en komplett steg�
 
 ### [Kopiera pivottabell och exportera Excel till PPTX med Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
 Lär dig hur du kopierar en pivottabell och exporterar Excel till en PPTX-presentation med Aspose.Cells för .NET.
+### [Skapa PowerPoint från Excel med Aspose.Cells](./how-to-create-powerpoint-from-excel-using-aspose-cells/)
+Lär dig hur du automatiskt skapar PowerPoint-presentationer från en Excel-fil med Aspose.Cells i C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [Skapa ny arbetsbok – Exportera Excel till TXT med full precision](./create-new-workbook-export-excel-to-txt-with-full-precision/)
+Lär dig hur du skapar en ny arbetsbok och exporterar Excel till TXT med full precision i Aspose.Cells för .NET.
+### [Spara Excel som Docx med C# – Komplett steg‑för‑steg‑guide](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
+Lär dig hur du sparar en Excel-arbetsbok som ett DOCX-dokument med C# med en komplett steg‑för‑steg‑guide.
+
+### [Spara Excel som txt – Komplett C#-guide för att exportera tal med signifikanta siffror](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
+Lär dig hur du sparar en Excel-arbetsbok som txt-fil med exakt signifikanta siffror i C# med Aspose.Cells.
+
+### [Skapa PowerPoint från Excel – Steg‑för‑steg‑guide](./create-powerpoint-from-excel-step-by-step-guide/)
+Lär dig hur du skapar en PowerPoint-presentation från en Excel-arbetsbok steg för steg med Aspose.Cells för .NET.
+### [Hur man exporterar Excel till PowerPoint med C# – Komplett guide](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
+Lär dig hur du exporterar Excel till PowerPoint med C# med Aspose.Cells för .NET i en komplett steg-för-steg-guide.
+### [Konvertera Excel till PowerPoint – Steg‑för‑steg C#‑guide](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+Lär dig hur du konverterar Excel-filer till PowerPoint-presentationer med C# steg för steg med Aspose.Cells för .NET.
+### [Spara Excel som text – Komplett C#-guide för att exportera Excel till TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
+Lär dig hur du sparar en Excel-arbetsbok som textfil (TXT) med en komplett C#-guide och Aspose.Cells för .NET.
+### [Skapa Word från Excel – Snabb C#-guide](./create-word-from-excel-quick-c-guide/)
+Lär dig hur du snabbt skapar ett Word‑dokument från en Excel‑fil med C# och Aspose.Cells i en kort guide.
+
+### [Skapa PowerPoint från Excel – Komplett C#-handledning](./create-powerpoint-from-excel-complete-c-tutorial/)
+Lär dig hur du skapar en PowerPoint-presentation från en Excel-fil med C# och Aspose.Cells i en komplett steg-för-steg-guide.
+
+### [Exportera Excel till PowerPoint – Steg‑för‑steg‑guide](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Lär dig hur du exporterar en Excel-arbetsbok till en PowerPoint-presentation med Aspose.Cells för .NET i en detaljerad steg‑för‑steg‑guide.
+### [Hur du exporterar Excel – guide för tab‑avgränsad text](./how-to-export-excel-tab-delimited-text-guide/)
+Lär dig hur du exporterar Excel-data till tab‑avgränsad text med Aspose.Cells för .NET i denna steg‑för‑steg‑guide.
+### [Hur du omsluter celler och konverterar Excel till PowerPoint i C#](./how-to-wrap-cells-and-convert-excel-to-powerpoint-in-c/)
+Lär dig hur du omsluter celler och konverterar en Excel-arbetsbok till en PowerPoint-presentation med C# och Aspose.Cells.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

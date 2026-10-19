@@ -96,6 +96,12 @@
 تعلم كيفية تحديد منطقة الطباعة في ملف Excel وتصديره إلى عرض PowerPoint باستخدام Aspose.Cells for .NET خطوة بخطوة.
 ### [تصدير Excel إلى PowerPoint – دليل C# كامل](./export-excel-to-powerpoint-complete-c-guide/)
 دليل شامل يوضح كيفية تصدير ملفات Excel إلى عروض PowerPoint باستخدام C# و Aspose.Cells.
+### [تحويل Excel إلى PowerPoint – دليل خطوة بخطوة بلغة C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+تعلم كيفية تحويل ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells لـ .NET خطوة بخطوة مع أمثلة برمجية واضحة.
+### [كيفية تغليف الخلايا وتحويل Excel إلى PowerPoint في C#](./how-to-wrap-cells-and-convert-excel-to-powerpoint-in-c/)
+تعلم كيفية تغليف الخلايا في Excel وتحويل المصنف إلى عرض PowerPoint باستخدام C# و Aspose.Cells.
+### [كيفية إنشاء PowerPoint من Excel باستخدام Aspose.Cells](./how-to-create-powerpoint-from-excel-using-aspose-cells/)
+تعلم خطوة بخطوة كيفية إنشاء عرض PowerPoint من ملف Excel باستخدام Aspose.Cells في C#.
 
 ### [إنشاء PowerPoint من Excel – دليل خطوة بخطوة C#](./create-powerpoint-from-excel-step-by-step-c-guide/)
 تعلم كيفية إنشاء عرض تقديمي PowerPoint من ملف Excel باستخدام Aspose.Cells في C# خطوة بخطوة.
