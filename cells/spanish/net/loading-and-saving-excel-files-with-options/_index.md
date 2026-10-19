@@ -34,6 +34,8 @@ Aprenda a ajustar automáticamente columnas y filas al cargar HTML en Excel con 
 Aprenda cómo deshabilitar los comentarios revelados de nivel inferior al guardar un libro de Excel en HTML usando Aspose.Cells para .NET con esta guía detallada paso a paso.
 ### [Crear nuevo libro de trabajo en C# – Cargar Excel con calendario japonés](./create-new-workbook-in-c-load-excel-with-japanese-calendar/)
 Aprenda a crear un nuevo libro de trabajo en C# y cargar un archivo Excel con calendario japonés usando Aspose.Cells para .NET.
+### [Leer archivo Excel C# – Cómo cargar eficientemente un libro de Excel en C#](./read-excel-file-c-how-to-load-excel-workbook-c-efficiently/)
+Aprenda a leer archivos Excel de forma rápida y eficiente en C# usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

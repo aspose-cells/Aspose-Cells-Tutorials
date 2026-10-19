@@ -74,6 +74,10 @@ Naučte se aktualizovat historii protokolů revizí ve sdílených sešitech pom
 Odemkněte sílu Excelu s Aspose.Cells pro .NET. Naučte se efektivně manipulovat s ID listů s naším podrobným návodem.
 ### [Jak vytvořit pracovní listy – průvodce krok za krokem pro dynamické generování Excelu](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
 Naučte se vytvářet pracovní listy dynamicky v Excelu pomocí Aspose.Cells pro .NET s podrobným krok za krokem návodem.
+### [Jak přejmenovat list v C# – Kompletní průvodce](./how-to-rename-worksheet-in-c-complete-guide/)
+Naučte se, jak přejmenovat list v Excelu pomocí Aspose.Cells pro .NET v tomto kompletním průvodci.
+### [Vytvořit list pro položku – Jak opakovat list v C#](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Naučte se, jak pomocí Aspose.Cells pro .NET dynamicky vytvářet listy pro každou položku a opakovat šablonu listu v C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

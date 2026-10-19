@@ -40,6 +40,13 @@
 أنشئ ملف PDF يحتوي على مخطط Excel باستخدام Aspose.Cells لـ .NET. تعلّم كيفية القيام بذلك من خلال هذا الدليل خطوة بخطوة.
 ### [تصدير المخطط إلى PowerPoint باستخدام C# – دليل شامل خطوة بخطوة](./export-chart-to-powerpoint-with-c-complete-step-by-step-guid/)
 تعلم كيفية تصدير مخطط Excel إلى PowerPoint باستخدام C# و Aspose.Cells خطوة بخطوة.
+### [كيفية تصدير المخططات من Word – دليل C# كامل](./how-to-export-charts-from-word-complete-c-guide/)
+### [كيفية تصدير المخططات – دليل PowerPoint كامل بلغة C#](./how-to-export-charts-complete-powerpoint-c-guide/)
+تعلم كيفية تصدير المخططات إلى PowerPoint باستخدام Aspose.Slides لـ .NET مع دليل شامل بلغة C#.
+### [تصدير المخطط كـ PNG – دليل كامل لتحويل Excel إلى HTML باستخدام Aspose.Cells](./export-chart-as-png-complete-guide-to-convert-excel-to-html/)
+تعلم كيفية تصدير مخططات Excel كصور PNG وتحويل المصنفات إلى HTML باستخدام Aspose.Cells لـ .NET.
+### [تصدير مخطط Excel إلى PowerPoint باستخدام C# – دليل Aspose.Cells الكامل](./export-excel-chart-to-powerpoint-with-c-complete-aspose-cell/)
+تعلم كيفية تصدير مخططات Excel إلى عروض PowerPoint باستخدام C# مع Aspose.Cells خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

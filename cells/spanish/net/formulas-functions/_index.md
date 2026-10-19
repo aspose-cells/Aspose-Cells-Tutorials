@@ -96,6 +96,11 @@ Aprenda a implementar fórmulas compartidas en Excel con Aspose.Cells para .NET.
 ### [Dominando las fórmulas matriciales en .NET con Aspose.Cells: una guía completa](./mastering-aspose-cells-net-array-formulas)
 Aprenda a dominar las fórmulas matriciales con Aspose.Cells para .NET. Esta guía abarca la configuración, la implementación y las aplicaciones prácticas de potentes cálculos multicelda.
 
+### [Crear libro de Excel con la fórmula EXPAND – Guía completa](./create-excel-workbook-with-expand-formula-complete-guide/)
+Aprenda a crear un libro de Excel que utilice la fórmula EXPAND mediante Aspose.Cells para .NET, con ejemplos paso a paso.
+### [Escribir fórmula matricial en C# – Guía completa de programación](./write-array-formula-in-c-complete-programming-guide/)
+Aprenda a crear y aplicar fórmulas matriciales en Excel usando Aspose.Cells para .NET con C# paso a paso.
+
 ### [Cómo configurar el idioma en archivos de Excel con Aspose.Cells .NET para compatibilidad multilingüe](./specify-language-excel-aspose-cells-net)
 Aprenda a especificar el idioma de sus archivos de Excel con Aspose.Cells .NET. Mejore la accesibilidad y el cumplimiento normativo de los documentos con esta guía paso a paso para internacionalizar la configuración de fórmulas.
 
@@ -104,6 +109,10 @@ Aprenda a actualizar mediante programación fórmulas de Power Query en libros d
 
 ### [Cómo usar Lambda en C# con fórmulas de Excel – Guía completa](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
 Aprenda a aplicar expresiones Lambda en C# para crear y calcular fórmulas de Excel mediante Aspose.Cells, mejorando la flexibilidad y el rendimiento.
+### [Cómo calcular la cotangente en Excel con C# – Crear libro de trabajo, usar EXPAND y guardar](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+Aprenda a calcular la cotangente en Excel usando C#, crear un libro, aplicar la función EXPAND y guardar el archivo.
+### [Cómo usar SEQUENCE en C# – Crear libro de Excel](./how-to-use-sequence-in-c-create-excel-workbook/)
+Aprenda a generar secuencias dinámicas en Excel usando la función SEQUENCE con Aspose.Cells para .NET en C#.
 
 ## Comprensión de los tipos de fórmulas de Excel
 

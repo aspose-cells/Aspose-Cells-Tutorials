@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 表格和列表
@@ -53,23 +51,30 @@ Aspose.Cells for .NET 最強大的功能之一是它能夠輕鬆讀取和寫入�
 透過我們簡單的逐步指南了解如何使用 Aspose.Cells for .NET 為 Excel 中的表格設定註解。
 ### [使用 C# 建立 Excel 表格 – 步驟指南](./create-excel-table-in-c-step-by-step-guide/)
 透過本詳細的逐步教學，學習如何使用 C# 與 Aspose.Cells 在 Excel 中建立表格。
+### [使用 Aspose.Cells 在 C# 中從範圍建立表格 – 完整教程](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+透過本完整指南，學習如何使用 Aspose.Cells for .NET 在 C# 中將範圍轉換為表格，提升資料管理效率。
+### [如何在 C# 中重新命名表格 – 完整指南](./how-to-rename-table-in-c-full-guide/)
+透過本完整指南，學習如何使用 Aspose.Cells for .NET 在 C# 中重新命名 Excel 表格，提升資料管理效率。
+### [刪除 Word 表格列 – 完整 C# 指南](./delete-rows-word-table-complete-c-guide/)
+本完整 C# 教程說明如何使用 Aspose.Words 在 Word 表格中刪除指定列，簡單步驟快速上手。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [在 Aspose.Cells 中移除表格標題 – 完整指南](./remove-table-header-in-aspose-cells-complete-guide/)
 完整指南教您如何在 Aspose.Cells 中移除表格標題列，簡化資料處理。
 ### [使用 Aspose.Cells 在 Excel 中重新命名表格 – 步驟指南](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
 本分步指南說明如何使用 Aspose.Cells for .NET 及 C# 在 Excel 中快速重新命名表格。
+### [在 Word 中刪除多列 – 完整的表格列移除指南](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
+本指南說明如何使用 Aspose.Words for .NET 在 Word 文件中一次刪除多個表格列，步驟簡明易懂。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

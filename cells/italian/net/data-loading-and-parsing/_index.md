@@ -60,6 +60,18 @@ Scopri come creare una cartella di lavoro e inserire dati JSON in Excel con Aspo
 ### [Crea cartella di lavoro Excel da JSON – Guida completa Aspose.Cells](./create-excel-workbook-from-json-complete-aspose-cells-guide/)
 ### [Analizza le date dell'era giapponese in Excel – Guida completa per sviluppatori C#](./parse-japanese-era-dates-in-excel-full-guide-for-c-developer/)
 ### [Come caricare Markdown in un foglio di calcolo – Decodificare immagini Base64](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
+### [Come analizzare le date giapponesi in C# – Guida completa](./how-to-parse-japanese-dates-in-c-complete-guide/)
+Scopri come interpretare e convertire le date giapponesi in C# con esempi pratici e consigli dettagliati.
+### [Come caricare Markdown in Excel – Importare file Markdown con Aspose.Cells](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
+Scopri come importare file Markdown in un foglio Excel usando Aspose.Cells per .NET con questa guida passo passo.
+### [Come inserire JSON in un modello Excel – Passo‑per‑passo](./how-to-insert-json-into-excel-template-step-by-step/)
+Scopri come inserire dati JSON in un modello Excel utilizzando Aspose.Cells per .NET con questa guida passo passo.
+### [Genera Excel da JSON con C# – Guida completa passo‑passo](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
+Scopri come generare file Excel da dati JSON usando C# con Aspose.Cells, passo dopo passo.
+### [Creare cartella di lavoro Excel C# – Guida completa per leggere le date dalle celle](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+Scopri come creare una cartella di lavoro Excel in C# e leggere correttamente le date dalle celle con Aspose.Cells per .NET.
+### [Analizza la data dell'era giapponese in C# – Guida completa](./parse-japanese-era-date-in-c-complete-guide/)
+Scopri come analizzare le date dell'era giapponese in C# con Aspose.Cells, includendo esempi pratici e passaggi dettagliati.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -14,7 +14,7 @@ url: /cs/java/automation-batch-processing/aspose-cells-java-two-three-color-scal
 weight: 1
 ---
 
- craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

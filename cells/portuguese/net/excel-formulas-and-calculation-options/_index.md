@@ -20,7 +20,7 @@
 Bem-vindo ao seu guia definitivo sobre tutoriais do Aspose.Cells para .NET! Seja você um desenvolvedor experiente ou iniciante, esta coleção está repleta de insights valiosos que simplificam suas tarefas de automação do Excel. Aqui, abordamos diversos tutoriais desenvolvidos para ajudar você a entender e implementar fórmulas e opções de cálculo do Excel com eficácia. Da adição de células à Janela de Observação de Fórmulas ao tratamento de referências circulares, temos tudo o que você precisa! Vamos dividi-lo em várias seções envolventes.
 
 ## Adicionando células à janela de observação de fórmulas do Microsoft Excel  
-Uma das maneiras mais simples, porém impactantes, de monitorar suas fórmulas do Excel é utilizar a Janela de Observação de Fórmulas. Com o Aspose.Cells para .NET, adicionar células a essa janela pode fazer toda a diferença no acompanhamento de alterações em planilhas complexas. Imagine trabalhar em um projeto enorme onde cada fórmula conta — esse recurso permite monitorar facilmente as células-chave sem perder de vista o seu progresso geral. Em nosso guia detalhado sobre [Adicionando células à janela de observação de fórmulas do Microsoft Excel](./adding-cells-to-microsoft-excel-formula-watch-window/), orientaremos você nas etapas simples necessárias para começar.
+Uma das maneiras mais simples, porém impactantes, de monitorar suas fórmulas do Excel é utilizar a Janela de Observação de Fórmulas. Com o Aspose.Cells para .NET, adicionar células a essa janela pode fazer toda a diferença no acompanhamento de alterações em planilhas complexas. Imagine trabalhar em um projeto enorme onde cada fórmula conta — esse recurso permite monitorar facilmente as células‑chave sem perder de vista o seu progresso geral. Em nosso guia detalhado sobre [Adicionando células à janela de observação de fórmulas do Microsoft Excel](./adding-cells-to-microsoft-excel-formula-watch-window/), orientaremos você nas etapas simples necessárias para começar.
 
 ## Calculando Fórmulas Programaticamente  
 Já pensou como seria legal automatizar seus cálculos do Excel? Bem, com o Aspose.Cells para .NET, esse sonho pode se tornar realidade! Imagine enviar dados para cálculos enquanto toma seu café; essa é a beleza de automatizar tarefas do Excel. Nosso tutorial sobre [Calculando Fórmulas no Excel Programaticamente](./calculating-formulas/) apresenta técnicas simples que podem elevar seu nível de automação. Não se trata apenas de economizar tempo; trata-se de trabalhar de forma mais inteligente, não de trabalhar mais!
@@ -42,7 +42,7 @@ O processamento de dados é uma parte essencial do que torna o Excel uma ferrame
 Com certeza! Vamos nos aprofundar em algumas funcionalidades adicionais e práticas recomendadas que podem ajudar você a aproveitar ao máximo o Aspose.Cells para .NET e aprimorar seus projetos de automação do Excel.
 
 ## Usando funções integradas para processamento de dados  
-O Excel vem com uma infinidade de funções integradas prontas para realizar diversos cálculos e manipulações de dados. Entender como utilizar essas funções integradas de forma eficaz pode aumentar significativamente sua produtividade ao trabalhar com planilhas. Nosso tutorial sobre [Processando dados usando funções integradas no Excel](./processing-data-using-built-in-functions/) explica detalhadamente como você pode explorar essas funções usando o Aspose.Cells. Pense nas funções integradas como sua caixa de ferramentas confiável; quanto mais você souber como usá-las, melhores serão os resultados.
+O Excel vem com uma infinidade de funções integradas prontas para realizar diversos cálculos e manipulações de dados. Entender como utilizar essas funções integradas de forma eficaz pode aumentar significativamente sua produtividade ao trabalhar com planilhas. Nosso tutorial sobre [Processando dados usando funções integradas no Excel](./processing-data-using-built-in-functions/) explica detalhadamente como você pode explorar essas funções usando o Aspose.Cells. Pense nas funções integradas como sua caixa de ferramentas confiável; quanto mais você souber como usá‑las, melhores serão os resultados.
 
 ## Registro e uso de funções complementares  
 Você tem funções ou complementos personalizados que usa com frequência? Bem, com o Aspose.Cells para .NET, você pode registrar e chamar facilmente essas funções em suas planilhas do Excel. Isso abre um mundo de personalização sob medida para suas necessidades específicas. É como ter seu próprio assistente virtual que ajuda você com os requisitos exatos dos seus projetos! Confira nosso guia detalhado sobre [Registrando e chamando função de suplemento no Excel](./registering-and-calling-function-from-add-in/) para aprender como integrar perfeitamente essas funções complementares ao seu fluxo de trabalho de automação do Excel.
@@ -57,10 +57,14 @@ Aprenda a adicionar células à Janela de Observação de Fórmulas do Excel usa
 Automatize suas tarefas do Excel com o Aspose.Cells para .NET. Aprenda a calcular fórmulas programaticamente neste tutorial abrangente.
 ### [Calculando Fórmulas Uma Vez Programaticamente no Excel](./calculating-formulas-once/)
 Aprenda a calcular fórmulas do Excel programaticamente usando o Aspose.Cells para .NET neste tutorial passo a passo. Aprimore suas habilidades de automação do Excel.
+### [Criar Pasta de Trabalho Excel com Fórmulas – Guia Completo Passo a Passo](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+Aprenda a criar uma pasta de trabalho Excel com fórmulas usando o Aspose.Cells para .NET neste guia passo a passo completo.
 ### [Detectando Referência Circular no Excel Programaticamente](./detecting-circular-reference/)
 Detecte facilmente referências circulares no Excel usando o Aspose.Cells para .NET. Siga nosso guia passo a passo para garantir cálculos precisos em suas planilhas.
 ### [Fórmula de cálculo direto no Excel programaticamente](./direct-calculation-formula/)
 Descubra como usar o Aspose.Cells para .NET para executar cálculos do Excel programaticamente. Guia passo a passo para operações simples no Excel.
+### [Como forçar o cálculo de fórmulas e usar lambda no Excel com C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Aprenda a forçar o cálculo de fórmulas e utilizar funções lambda no Excel com C# usando Aspose.Cells para .NET.
 ### [Interromper ou cancelar o cálculo da fórmula da pasta de trabalho](./interrupt-or-cancel-formula-calculation-of-workbook/)
 Aprenda como interromper cálculos de fórmulas do Excel usando o Aspose.Cells para .NET neste guia passo a passo detalhado.
 ### [Processando dados usando a função Add-In no Excel](./processing-data-using-add-in-function/)
@@ -75,8 +79,26 @@ Aprenda a processar dados com fórmulas R1C1 no Excel usando o Aspose.Cells para
 Descubra como registrar e chamar funções de suplementos no Excel usando o Aspose.Cells para .NET com nosso tutorial passo a passo fácil.
 ### [Especificando o Máximo de Linhas da Fórmula Compartilhada no Excel](./specifying-maximum-rows-of-shared-formula/)
 Descubra como especificar o número máximo de linhas para fórmulas compartilhadas no Excel usando o Aspose.Cells para .NET com este tutorial passo a passo fácil.
+### [Como Expandir um Array em C# com Aspose.Cells – Guia Passo a Passo](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Aprenda a expandir arrays em C# usando Aspose.Cells com este tutorial passo a passo, facilitando a manipulação de dados no Excel.
+### [Como Calcular Cotangente no Excel com C# – Guia Passo a Passo](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Aprenda a calcular a cotangente no Excel usando C# e Aspose.Cells para .NET com este guia passo a passo.
 ### [Recalcular todas as fórmulas em C# – Atualizar Excel](./recalculate-all-formulas-in-c-refresh-excel/)
 Aprenda a recalcular todas as fórmulas em uma planilha Excel usando C# com Aspose.Cells para .NET neste tutorial passo a passo.
+### [c# criar arquivo Excel – Guia passo a passo com lógica condicional](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+### [Como usar WRAPCOLS em C# – Redimensionar Arrays para Matrizes](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Aprenda a utilizar a função WRAPCOLS em C# para transformar arrays unidimensionais em matrizes com o Aspose.Cells.
+### [Como criar pasta de trabalho Excel e dividir dados com WRAPCOLS em C#](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
+Aprenda a criar uma pasta de trabalho Excel e dividir dados usando a função WRAPCOLS em C# com Aspose.Cells.
+### [Como criar matriz no Excel com C# – Guia passo a passo](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+### [Como calcular cotangente no Excel com C# – Guia completo](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+Aprenda a calcular a cotangente no Excel usando C# com o Aspose.Cells para .NET neste guia passo a passo completo.
+### [Como usar WRAPCOLS no Excel – Exemplo completo em C#](./how-to-use-wrapcols-in-excel-complete-c-example/)
+Aprenda a usar a função WRAPCOLS no Excel com um exemplo completo em C# usando Aspose.Cells para .NET.
+### [Aplicar Fórmula de Matriz no Excel em C# – Guia Completo](./apply-array-formula-excel-in-c-complete-guide/)
+Aprenda a aplicar fórmulas de matriz no Excel usando C# e Aspose.Cells com este guia passo a passo completo.
+### [Como usar WRAPCOLS – Guia completo para automação Excel em C#](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Aprenda a usar a função WRAPCOLS no Aspose.Cells para .NET em C# e automatizar planilhas Excel de forma eficiente.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

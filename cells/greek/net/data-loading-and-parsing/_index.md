@@ -63,6 +63,16 @@
 Μάθετε πώς να διαβάζετε και να μετατρέπετε ημερομηνίες ιαπωνικής εποχής σε Excel χρησιμοποιώντας το Aspose.Cells για .NET.
 ### [Πώς να φορτώσετε Markdown σε ένα φύλλο εργασίας – Αποκωδικοποίηση εικόνων Base64](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
 Μάθετε πώς να φορτώνετε περιεχόμενο Markdown σε ένα φύλλο Excel και να αποκωδικοποιείτε εικόνες Base64 χρησιμοποιώντας το Aspose.Cells για .NET.
+### [Πώς να Εισαγάτε JSON σε Πρότυπο Excel – Βήμα‑βήμα](./how-to-insert-json-into-excel-template-step-by-step/)
+Μάθετε πώς να ενσωματώσετε δεδομένα JSON σε ένα πρότυπο Excel χρησιμοποιώντας το Aspose.Cells για .NET με αυτόν τον οδηγό βήμα‑βήμα.
+### [Πώς να φορτώσετε Markdown στο Excel – Εισαγωγή αρχείου Markdown με Aspose.Cells](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
+Μάθετε πώς να φορτώνετε αρχεία Markdown σε Excel χρησιμοποιώντας το Aspose.Cells για .NET, βήμα‑βήμα οδηγός.
+### [Δημιουργία Excel από JSON με C# – Πλήρης Οδηγός Βήμα‑βήμα](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
+Μάθετε πώς να δημιουργείτε αρχεία Excel από JSON χρησιμοποιώντας C# και Aspose.Cells για .NET με αυτόν τον ολοκληρωμένο οδηγό βήμα προς βήμα.
+### [Δημιουργία βιβλίου εργασίας Excel C# – Πλήρης οδηγός για ανάγνωση ημερομηνιών από κελιά](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel σε C# και να διαβάσετε ημερομηνίες από κελιά με το Aspose.Cells για .NET.
+### [Ανάλυση ημερομηνίας ιαπωνικής εποχής σε C# – Πλήρης Οδηγός](./parse-japanese-era-date-in-c-complete-guide/)
+Μάθετε πώς να αναλύετε ημερομηνίες ιαπωνικής εποχής σε C# χρησιμοποιώντας το Aspose.Cells για .NET με αυτόν τον πλήρη οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

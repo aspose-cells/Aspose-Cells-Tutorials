@@ -64,6 +64,14 @@ Học cách đổi tên bảng trong Excel bằng Aspose.Cells cho .NET với h�
 
 ### [Tạo bảng Excel trong C# – Hướng dẫn từng bước](./create-excel-table-in-c-step-by-step-guide/)
 Tạo bảng Excel trong C# bằng Aspose.Cells cho .NET với hướng dẫn chi tiết từng bước, giúp bạn quản lý dữ liệu dễ dàng.
+### [Tạo bảng từ phạm vi trong C# bằng Aspose.Cells](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
+Hướng dẫn chi tiết cách tạo bảng từ một phạm vi trong Excel bằng C# và Aspose.Cells cho .NET.
+### [Cách Đổi Tên Bảng trong C# – Hướng Dẫn Đầy Đủ](./how-to-rename-table-in-c-full-guide/)
+Học cách đổi tên bảng trong Excel bằng Aspose.Cells cho .NET với hướng dẫn chi tiết từng bước.
+### [Xóa các hàng trong bảng Word – Hướng dẫn đầy đủ C#](./delete-rows-word-table-complete-c-guide/)
+Học cách xóa các hàng trong bảng Word bằng Aspose.Words cho .NET với hướng dẫn chi tiết từng bước.
+### [Xóa Nhiều Hàng trong Word – Hướng Dẫn Toàn Diện về Việc Xóa Các Hàng Bảng](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
+Xóa nhiều hàng trong bảng Word một cách nhanh chóng với Aspose.Words cho .NET. Hướng dẫn chi tiết từng bước.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
