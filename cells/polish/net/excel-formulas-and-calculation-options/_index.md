@@ -25,6 +25,8 @@ Jednym z najprostszych, a jednocześnie najbardziej wpływowych sposobów na kon
 ## Obliczanie formuł programowo  
 Czy kiedykolwiek myślałeś o tym, jak fajnie byłoby zautomatyzować obliczenia w programie Excel? Cóż, dzięki Aspose.Cells dla .NET to marzenie może stać się rzeczywistością! Wyobraź sobie, że wysyłasz dane do obliczeń, popijając kawę; to piękno automatyzacji zadań w programie Excel. Nasz samouczek na temat [Obliczanie formuł w programie Excel programowo](./calculating-formulas/) przedstawia Ci proste techniki, które mogą podnieść poziom Twojej gry w automatyzację. Nie chodzi tylko o oszczędzanie czasu; chodzi o pracę mądrzej, a nie ciężej!
 
+### [Jak wymusić obliczanie formuły i używać lambda w Excelu w C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+
 ## Wykrywanie odniesień cyklicznych  
 Ach, ta przerażająca, cykliczna referencja! To jak zagadka, która może frustrować nawet najbardziej doświadczonych użytkowników Excela. Ale nie bój się! Z naszym przewodnikiem [Wykrywanie odwołań cyklicznych w programie Excel programowo](./detecting-circular-reference/)nauczysz się, jak skutecznie lokalizować te trudne problemy, używając Aspose.Cells dla .NET. Przeprowadzimy Cię przez proste instrukcje, aby zapewnić dokładność obliczeń i uniknąć wszelkich problemów w przyszłości.
 

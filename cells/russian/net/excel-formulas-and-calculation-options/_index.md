@@ -100,6 +100,9 @@ Excel поставляется с множеством встроенных фу
 ### [Создание рабочей книги Excel с формулами – Полное пошаговое руководство](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
 Подробное пошаговое руководство по созданию рабочей книги Excel с формулами с использованием Aspose.Cells для .NET.
 
+### [Как принудительно выполнить расчет формулы и использовать lambda в Excel с C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Узнайте, как принудительно пересчитать формулы и применять функции lambda в Excel с помощью C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

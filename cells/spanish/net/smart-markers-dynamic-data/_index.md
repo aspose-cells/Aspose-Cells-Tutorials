@@ -190,6 +190,8 @@ Aprenda a exportar datos a Excel usando Marcadores Inteligentes para rellenar pl
 ### [Cómo crear datos de marcador inteligente y rellenar datos de plantilla de Excel](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
 
 ### [Cómo generar un informe de Excel combinando una plantilla de Excel con Marcadores Inteligentes](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
+### [Cómo crear una lista de informes de Excel con marcadores inteligentes de Aspose.Cells](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+Aprenda a generar una lista de informes de Excel usando marcadores inteligentes de Aspose.Cells en .NET.
 ### [Crear libro maestro‑detalle con Marcador Inteligente de Aspose.Cells](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
 Aprenda a generar un libro de Excel maestro‑detalle usando Marcadores Inteligentes de Aspose.Cells para .NET.
 ### [Guía maestro‑detalle de Excel – rellenar plantillas con Marcadores Inteligentes](./master-detail-excel-guide-populate-templates-with-smart-mark/)

@@ -72,6 +72,8 @@
 了解如何使用 Aspose.Cells for Java 將 Excel 檔案轉換為 PowerPoint 簡報，提供完整的步驟說明與範例程式碼。
 ### [使用 Aspose.Cells for C# 將 Excel 另存為 DOCX](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
 了解如何使用 Aspose.Cells for C# 將 Excel 檔案另存為 DOCX 文件。
+### [如何使用 Java 從 Excel 複製範圍並匯出至 PowerPoint](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+說明如何使用 Aspose.Cells for Java 複製 Excel 範圍，並透過 Aspose.Slides for Java 匯出為 PowerPoint 簡報。
 
 ## 其他資源
 

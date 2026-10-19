@@ -63,6 +63,8 @@ Hướng dẫn chi tiết cách xuất dữ liệu bảng sang tệp CSV bằng 
 Tìm hiểu cách xuất dữ liệu CSV từ Excel bằng C# với hướng dẫn chi tiết, giúp bạn tạo file CSV nhanh chóng và chính xác.
 ### [Lưu Workbook dưới dạng CSV – Hướng dẫn đầy đủ xuất Excel sang CSV với kiểm soát chữ số](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-w/)
 Hướng dẫn chi tiết cách lưu workbook thành tệp CSV, kiểm soát số chữ số và định dạng khi xuất dữ liệu từ Excel.
+### [Cách lưu workbook dưới dạng CSV với định dạng chính xác bằng Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
+Hướng dẫn chi tiết cách lưu workbook thành tệp CSV với định dạng số và ngày tháng chính xác bằng Aspose.Cells cho .NET.
 ### [Lưu Workbook dưới dạng CSV trong C# – Hướng dẫn lập trình đầy đủ](./save-workbook-as-csv-in-c-complete-programming-guide/)
 Hướng dẫn chi tiết cách lưu workbook thành tệp CSV bằng Aspose.Cells cho .NET trong C#.
 

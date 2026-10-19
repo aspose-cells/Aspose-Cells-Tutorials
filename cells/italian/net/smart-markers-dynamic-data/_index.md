@@ -138,6 +138,7 @@ Impara a generare gerarchie di dati in Excel usando SmartMarker con questa guida
 ### [Analizza JSON annidato C# – Crea payload JSON C#](./parse-nested-json-c-create-json-payload-c/)
 ### [Come creare una cartella di lavoro con Smart Markers – Output High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
 ### [Crea report master‑detail in C# – Popola modello Excel con SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
+### [Come creare un elenco di report Excel con gli Smart Markers di Aspose.Cells](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
 
 ### [Crea tabella Excel dinamica – Guida ai marcatori intelligenti](./create-dynamic-excel-table-smart-marker-guide/)
 Scopri come creare una tabella Excel dinamica con i marcatori intelligenti in Aspose.Cells per .NET, passo passo.

@@ -57,6 +57,8 @@
 أتمت مهام Excel باستخدام Aspose.Cells لـ .NET. تعلم كيفية حساب الصيغ برمجيًا في هذا البرنامج التعليمي الشامل.
 ### [حساب الصيغ مرة واحدة برمجيًا في Excel](./calculating-formulas-once/)
 تعلّم كيفية حساب صيغ Excel برمجيًا باستخدام Aspose.Cells لـ .NET في هذا البرنامج التعليمي خطوة بخطوة. حسّن مهاراتك في أتمتة Excel.
+### [كيفية إجبار حساب الصيغة واستخدام لامدا في Excel باستخدام C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+تعلم كيفية إجبار حساب الصيغ واستخدام دوال لامدا في Excel عبر Aspose.Cells لـ .NET باستخدام C#.
 ### [اكتشاف المرجع الدائري في Excel برمجيًا](./detecting-circular-reference/)
 اكتشف بسهولة المراجع الدائرية في Excel باستخدام Aspose.Cells لـ .NET. اتبع دليلنا خطوة بخطوة لضمان دقة الحسابات في جداول البيانات.
 ### [صيغة الحساب المباشر في برنامج Excel برمجيًا](./direct-calculation-formula/)

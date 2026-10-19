@@ -103,6 +103,8 @@ Leer hoe u met Aspose.Cells een Excel-werkmap maakt en data splitst met de WRAPC
 Leer stap voor stap hoe je een arrayformule in Excel toepast met C# en Aspose.Cells voor .NET.
 ### [Hoe WRAPCOLS te gebruiken – Complete gids voor C# Excel-automatisering](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
 Leer hoe u WRAPCOLS gebruikt in C# voor geavanceerde Excel-automatisering met Aspose.Cells.
+### [Formules geforceerd berekenen en lambda gebruiken in Excel met C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Leer hoe je met Aspose.Cells voor .NET formules geforceerd berekent en lambda‑functies toepast in Excel via C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

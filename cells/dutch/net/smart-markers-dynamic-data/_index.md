@@ -174,6 +174,7 @@ Leer hoe u smart marker-gegevens maakt en een Excel-sjabloon automatisch vult me
 Leer hoe u een Excel-sjabloon laadt en met Aspose.Cells in C# snel meerdere werkbladen genereert voor dynamische rapporten.
 ### [Range smart marker om geneste gegevens te verwerken in C# – Volledige gids](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
 ### [Import json naar Excel in C# – stapsgewijze handleiding](./import-json-to-excel-in-c-step-by-step-guide/)
+### [Hoe maak je een Excel-rapportlijst met Aspose.Cells slimme markeringen](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
 ### [Maak master-detail werkmap met Aspose.Cells Smart Marker](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
 Leer hoe u een master‑detail werkmap maakt met Smart Markers in Aspose.Cells voor .NET.
 ### [Master‑detail Excel‑gids – sjablonen invullen met Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)

@@ -72,6 +72,8 @@ Naučte se, jak pomocí Aspose.Cells pro Javu exportovat grafy z Excelu do Power
 Naučte se převádět soubory Excel do prezentací PowerPoint pomocí Aspose.Cells pro Javu s podrobnými ukázkami kódu.
 ### [Jak uložit Excel jako DOCX pomocí Aspose.Cells v C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
 Naučte se, jak převést soubor Excel do formátu DOCX pomocí Aspose.Cells v jazyce C#.
+### [Jak zkopírovat oblast z Excelu a exportovat ji do PowerPointu pomocí Javy](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+Naučte se, jak pomocí Aspose.Cells a Aspose.Slides v Javě zkopírovat oblast buněk z Excelu a vložit ji do prezentace PowerPoint.
 
 ## Další zdroje
 

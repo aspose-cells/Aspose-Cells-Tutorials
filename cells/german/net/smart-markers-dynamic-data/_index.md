@@ -231,6 +231,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers Excel‑Dateien aus Modelle
 ### [Excel-Vorlage in C# laden – Mehrere Arbeitsblätter schnell generieren](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
 ### [Formel mit Smart Markers auswerten – Komplettanleitung](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
 ### [JSON nach Excel in C# importieren – Schritt‑für‑Schritt‑Anleitung](./import-json-to-excel-in-c-step-by-step-guide/)
+### [Wie man eine Excel-Berichtsliste mit Aspose.Cells Smart Markers erstellt](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers eine Liste von Excel-Berichten automatisch generieren.
 ### [Master-Detail-Arbeitsmappe mit Aspose.Cells Smart Marker erstellen](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
 Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers eine Master‑Detail‑Arbeitsmappe erstellen, um hierarchische Daten automatisch zu füllen.
 ### [Master‑Detail‑Excel‑Leitfaden – Vorlagen mit Smart Markers füllen](./master-detail-excel-guide-populate-templates-with-smart-mark/)

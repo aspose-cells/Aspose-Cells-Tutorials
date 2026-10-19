@@ -177,6 +177,8 @@ SmartMarker を活用し、C# で Excel に複数のシートを自動生成す�
 C# を使用して Excel テンプレートを読み込み、複数シートを効率的に自動生成する手順を解説します。
 ### [C# でネストされたデータを処理するレンジ スマートマーカー – 完全ガイド](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
 ### [C# で JSON を Excel にインポートする – ステップバイステップ ガイド](./import-json-to-excel-in-c-step-by-step-guide/)
+### [Aspose.Cells スマートマーカーで Excel レポートリストを作成する方法](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+Aspose.Cells のスマートマーカーを使用して、Excel レポートのリストを効率的に生成する手順をステップバイステップで解説します。
 ### [Aspose.Cells でスマートマーカーを使用してマスターディテイル ワークブックを作成する](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
 ### [ワークシートの繰り返し方法 – Excel 自動化の完全ガイド](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 Aspose.Cells を使用して、Excel のワークシートを自動的に繰り返し生成する手順をステップバイステップで解説します。

@@ -95,6 +95,8 @@ Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Excel‑Arbeitsbuch erzeugen und Daten mithilfe von WRAPCOLS in C# aufteilen.
 ### [Wie man WRAPCOLS verwendet – Vollständiger Leitfaden für C# Excel-Automatisierung](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
 Entdecken Sie, wie Sie mit Aspose.Cells für .NET die WRAPCOLS‑Funktion in C# einsetzen, um Excel‑Tabellen effizient zu formatieren.
+### [Formelberechnung erzwingen und Lambda in Excel mit C# verwenden](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET die Berechnung von Formeln erzwingen und Lambda‑Funktionen in C# nutzen.
 ### [Excel-Arbeitsmappe mit Formeln erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe erstellen und Formeln vollständig Schritt für Schritt hinzufügen.
 

@@ -179,6 +179,8 @@ Naučte se pomocí SmartMarker v Aspose.Cells generovat více listů v Excelu po
 Naučte se načíst Excel šablonu v C# a během okamžiku vytvořit více listů s dynamickými daty.
 ### [Import JSON do Excelu v C# – krok za krokem](./import-json-to-excel-in-c-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Cells importovat JSON data do souboru Excel v C# krok za krokem.
+### [Jak vytvořit seznam excelových reportů pomocí inteligentních značek](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+Naučte se pomocí Aspose.Cells a inteligentních značek generovat seznamy reportů v Excelu s dynamickým obsahem.
 
 ### [Průvodce hlavním a podrobným sešitem – vyplňování šablon pomocí inteligentních značek](./master-detail-excel-guide-populate-templates-with-smart-mark/)
 Naučte se, jak pomocí inteligentních značek naplnit šablony Excelu pro hlavní a podrobné reporty.

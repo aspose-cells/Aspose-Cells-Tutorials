@@ -69,6 +69,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java Excel-Daten in PowerPoint-Präs
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java in PowerPoint-Präsentationen konvertieren, inklusive Codebeispielen und Tipps.
 ### [Wie man Excel als DOCX mit Aspose.Cells in C# speichert](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java in das DOCX-Format konvertieren und in C# speichern.
+### [Wie man einen Bereich aus Excel kopiert und nach PowerPoint exportiert mit Java](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java einen Zellbereich aus Excel extrahieren und in eine PowerPoint‑Präsentation exportieren.
 
 ## Weitere Ressourcen
 

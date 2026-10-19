@@ -145,6 +145,7 @@ Aspose.Cells Smart Markers также поддерживает анонимны�
 Узнайте, как загрузить шаблон Excel в C# и быстро генерировать несколько листов с помощью Aspose.Cells.
 ### [Импорт JSON в Excel на C# – пошаговое руководство](./import-json-to-excel-in-c-step-by-step-guide/)
 Узнайте, как импортировать данные из JSON в файлы Excel с помощью Aspose.Cells для .NET, следуя пошаговым инструкциям.
+### [Как создать список отчетов Excel с помощью интеллектуальных маркеров Aspose.Cells](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
 ### [Руководство по Master‑Detail в Excel – заполнение шаблонов с помощью Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)
 Узнайте, как создавать книги Master‑Detail, заполняя шаблоны Excel с помощью Smart Markers в Aspose.Cells for .NET.
 

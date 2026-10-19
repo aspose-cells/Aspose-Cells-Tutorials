@@ -70,6 +70,8 @@
 
 ### [วิธีใช้ WRAPCOLS ใน Java – คู่มือฉบับสมบูรณ์สำหรับสูตรอาร์เรย์ใน Excel](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
 เรียนรู้วิธีใช้ฟังก์ชัน WRAPCOLS ใน Java เพื่อจัดการสูตรอาร์เรย์ใน Excel อย่างเต็มที่ พร้อมตัวอย่างโค้ดและแนวทางปฏิบัติ
+### [วิธีคัดลอกช่วงจาก Excel และส่งออกเป็น PowerPoint ด้วย Java](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+เรียนรู้วิธีคัดลอกช่วงข้อมูลจากไฟล์ Excel แล้วส่งออกเป็นสไลด์ PowerPoint ด้วย Aspose.Cells และ Aspose.Slides สำหรับ Java
 
 ## แหล่งข้อมูลเพิ่มเติม
 
