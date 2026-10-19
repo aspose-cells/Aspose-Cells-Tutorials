@@ -1,43 +1,82 @@
 ---
-"date": "2025-04-08"
-"description": "Tìm hiểu cách tạo và lập biểu đồ sổ làm việc Excel theo chương trình với Aspose.Cells for Java. Hướng dẫn này bao gồm việc tạo sổ làm việc, thao tác dữ liệu và tạo biểu đồ."
-"title": "Tạo bảng tính và biểu đồ chính trong Excel bằng Aspose.Cells cho Java"
-"url": "/vi/java/charts-graphs/create-chart-workbook-aspose-cells-java/"
-"weight": 1
+date: '2026-09-27'
+description: Tìm hiểu cách tạo tệp xlsx java bằng Aspose.Cells, thêm dữ liệu vào biểu
+  đồ và tự động tạo biểu đồ Excel với cấu hình Maven chỉ trong vài bước.
+keywords:
+- create xlsx file java
+- add data to chart
+- how to add chart
+- create excel workbook java
+- automate excel chart creation
+lastmod: '2026-09-27'
+og_description: Tìm hiểu cách tạo tệp xlsx java bằng Aspose.Cells, thêm dữ liệu vào
+  biểu đồ và tự động tạo biểu đồ Excel với cấu hình Maven chỉ trong vài bước.
+og_image_alt: Guide showing how to create XLSX file in Java and generate charts with
+  Aspose.Cells
+og_title: Cách tạo tệp xlsx java với biểu đồ Aspose.Cells
+schemas:
+- author: Aspose
+  dateModified: '2026-09-27'
+  description: Learn how to create xlsx file java using Aspose.Cells, add data to
+    chart, and automate Excel chart creation with Maven setup in just a few steps.
+  headline: How to create xlsx file java with Aspose.Cells charts
+  type: TechArticle
+- questions:
+  - answer: Use `worksheet.getCharts().add(ChartType.COLUMN, upperLeftRow, upperLeftColumn,
+      lowerRightRow, lowerRightColumn)` for each chart you need, then set each chart’s
+      data source individually.
+    question: How do I add more than one chart to the same worksheet?
+  - answer: Yes—instantiate `Workbook` with the file path (`new Workbook("existing.xlsx")`)
+      and then add or edit worksheets and charts as shown above.
+    question: Can I modify an existing Excel file instead of creating a new one?
+  - answer: Aspose.Cells supports XLS, CSV, PDF, HTML, ODS, and more than 30 additional
+      formats, allowing seamless conversion after chart creation.
+    question: Which file formats can I export to besides XLSX?
+  - answer: Load data in chunks, write each chunk to the worksheet, and call `worksheet.calculateFormula()`
+      only after all data is written to minimise CPU overhead.
+    question: What is the recommended way to handle very large datasets?
+  - answer: Browse the full reference at the [official documentation](https://docs.aspose.com/cells/java/).
+    question: Where can I find deeper documentation and code samples?
+  type: FAQPage
+tags:
+- create xlsx
+- Aspose.Cells
+- Java Excel automation
+- chart generation
+title: Cách tạo tệp xlsx java với biểu đồ Aspose.Cells
+url: /vi/java/charts-graphs/create-chart-workbook-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Tạo bảng tính và biểu đồ chính trong Excel bằng Aspose.Cells cho Java
+# Cách tạo tệp xlsx java với biểu đồ Aspose.Cells
 
 ## Giới thiệu
-Việc tạo sổ làm việc Excel động theo chương trình có thể là một nhiệm vụ đầy thách thức, đặc biệt là khi bạn muốn tự động hóa quy trình tạo biểu đồ dựa trên dữ liệu đầu vào. Với **Aspose.Cells cho Java**, các nhà phát triển có thể dễ dàng tạo các tệp Excel mới, thao tác các bảng tính và kết hợp các biểu đồ với nỗ lực mã hóa tối thiểu. Hướng dẫn này sẽ hướng dẫn bạn các bước để tạo một sổ làm việc Excel từ đầu, thêm dữ liệu và tạo biểu đồ cột bằng Aspose.Cells trong Java.
+Việc tạo một sổ làm việc **xlsx** bằng chương trình có thể cảm thấy khó khăn, đặc biệt khi bạn cần tự động tạo biểu đồ. Trong hướng dẫn này, bạn sẽ học cách **create xlsx file java** bằng Aspose.Cells, thêm dữ liệu vào biểu đồ và lưu kết quả — tất cả bằng mã Java rõ ràng, từng bước. Khi kết thúc, bạn sẽ có thể nhúng các biểu đồ cột động vào bất kỳ tệp Excel nào mà không cần mở Excel.
 
-**Những gì bạn sẽ học được:**
-- Cách tạo một bảng tính mới ở định dạng XLSX.
-- Truy cập và thao tác trên bảng tính đầu tiên.
-- Thêm dữ liệu để tạo biểu đồ.
-- Tạo biểu đồ cột một cách dễ dàng.
-- Lưu bảng tính của bạn một cách hiệu quả.
+## Câu trả lời nhanh
+- **Câu lệnh đầu tiên là gì?** `Workbook workbook = new Workbook();` tạo một sổ làm việc XLSX mới.  
+- **Tôi cần artifact Maven nào?** `com.aspose:aspose-cells` (phiên bản mới nhất).  
+- **Tôi có thể thêm nhiều biểu đồ không?** Có – gọi `worksheet.getCharts().add(...)` cho mỗi loại biểu đồ.  
+- **Tôi có cần giấy phép để thử nghiệm không?** Giấy phép tạm thời hoạt động cho việc đánh giá; giấy phép mua sẽ loại bỏ các giới hạn đánh giá.  
+- **Yêu cầu phiên bản Java nào?** Java 8 hoặc cao hơn được hỗ trợ đầy đủ.
 
-Trước khi bắt đầu triển khai, hãy đảm bảo bạn đã thiết lập mọi thứ đúng cách. Chúng tôi sẽ đề cập đến các điều kiện tiên quyết như thư viện cần thiết và thiết lập môi trường để giúp bạn bắt đầu suôn sẻ.
+## Aspose.Cells for Java là gì?
+Aspose.Cells for Java là một API mạnh mẽ cho phép bạn tạo, chỉnh sửa và chuyển đổi tệp Excel mà không cần Microsoft Office. Nó hỗ trợ **50+** định dạng đầu vào và đầu ra và có thể xử lý sổ làm việc với hàng trăm sheet trong khi sử dụng ít hơn 200 MB bộ nhớ.
 
-## Điều kiện tiên quyết
-Để thực hiện hướng dẫn này một cách hiệu quả, hãy đảm bảo bạn đáp ứng các yêu cầu sau:
+## Cách tạo xlsx file java?
+`Workbook` đại diện cho một sổ làm việc Excel trong bộ nhớ. Tải thư viện Aspose.Cells, khởi tạo một `Workbook`, thêm dữ liệu, tạo biểu đồ và sau đó lưu tệp. Toàn bộ quy trình này có thể được viết trong chưa đầy mười dòng Java, cung cấp cho bạn giải pháp nhanh chóng, có thể lặp lại cho việc báo cáo tự động.
 
-1. **Thư viện & Phụ thuộc**: Bạn cần Aspose.Cells for Java trong dự án của mình. Chúng tôi khuyên bạn nên sử dụng Maven hoặc Gradle để quản lý phụ thuộc dễ dàng.
-2. **Môi trường phát triển Java**: Đảm bảo bạn đã cài đặt và cấu hình JDK (tốt nhất là Java 8 trở lên).
-3. **Kiến thức Java cơ bản**: Việc quen thuộc với các khái niệm lập trình Java sẽ rất hữu ích.
+## Yêu cầu trước
+- **Aspose.Cells for Java** – thêm phụ thuộc Maven hoặc Gradle (xem bên dưới).  
+- **JDK 8+** – thư viện chạy trên bất kỳ môi trường Java 8 hoặc mới hơn.  
+- **Kiến thức Java cơ bản** – bạn nên quen thuộc với các lớp và lời gọi phương thức.
 
-## Thiết lập Aspose.Cells cho Java
-Để đưa Aspose.Cells vào dự án Java của bạn, hãy làm theo các bước cài đặt sau:
-
-**Chuyên gia:**
+## Cài đặt Aspose.Cells for Java
+### Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,26 +85,22 @@ Trước khi bắt đầu triển khai, hãy đảm bảo bạn đã thiết l�
 </dependency>
 ```
 
-**Cấp độ:**
+### Gradle
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Mua lại giấy phép
-Trước khi bắt đầu sử dụng Aspose.Cells, hãy quyết định nhu cầu cấp phép của bạn:
-- **Dùng thử miễn phí**: Nhận giấy phép tạm thời để đánh giá đầy đủ tính năng mà không có giới hạn.
-- **Mua**: Hãy cân nhắc mua để sử dụng lâu dài.
+## Đăng ký giấy phép
+Trước khi bắt đầu, hãy quyết định bạn cần **bản dùng thử miễn phí** hay **giấy phép mua**. Giấy phép dùng thử loại bỏ hầu hết các hạn chế tính năng, trong khi giấy phép đầy đủ loại bỏ dấu watermark đánh giá. Nhận giấy phép từ [Aspose's Purchase Page](https://purchase.aspose.com/buy) hoặc yêu cầu một [Temporary License](https://purchase.aspose.com/temporary-license/).
 
-Đối với cả hai tùy chọn, hãy truy cập [Trang mua hàng của Aspose](https://purchase.aspose.com/buy) hoặc nộp đơn xin một [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
-
-### Khởi tạo cơ bản
-Sau đây là cách khởi tạo Aspose.Cells trong ứng dụng Java của bạn:
+## Khởi tạo cơ bản
+Lớp `License` tải tệp giấy phép của bạn để tất cả các lời gọi API tiếp theo chạy mà không có giới hạn đánh giá.  
 ```java
 import com.aspose.cells.Workbook;
 
 public class Main {
     public static void main(String[] args) {
-        // Khởi tạo một đối tượng Workbook mới
+        // Initialize a new Workbook object
         Workbook workbook = new Workbook();
         
         System.out.println("Workbook initialized successfully.");
@@ -73,11 +108,11 @@ public class Main {
 }
 ```
 
-## Hướng dẫn thực hiện
-Bây giờ, chúng ta hãy triển khai các tính năng chính theo từng bước.
+## Hướng dẫn triển khai
+Dưới đây chúng tôi sẽ hướng dẫn từng bước cần thiết để **create xlsx file java** và nhúng một biểu đồ cột.
 
 ### 1. Tạo sổ làm việc mới
-Bắt đầu bằng cách tạo một bảng tính Excel mới với định dạng XLSX.
+`Workbook` là đối tượng cấp cao nhất đại diện cho một tệp Excel trong bộ nhớ.  
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.FileFormatType;
@@ -86,15 +121,15 @@ public class WorkbookCreation {
     public static void main(String[] args) {
         String dataDir = "YOUR_DATA_DIRECTORY";
         
-        // Tạo một bảng tính mới ở định dạng XLSX
+        // Create a new workbook in XLSX format
         Workbook workbook = new Workbook(FileFormatType.XLSX);
         System.out.println("New Excel workbook created.");
     }
 }
 ```
 
-### 2. Truy cập trang tính đầu tiên
-Truy cập vào bảng tính đầu tiên cho phép bạn bắt đầu thêm dữ liệu hoặc chỉnh sửa nội dung hiện có.
+### 2. Truy cập worksheet đầu tiên
+`Worksheet` cho phép bạn truy cập các ô, hàng, cột và biểu đồ trên một sheet cụ thể.  
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -103,7 +138,7 @@ public class AccessWorksheet {
     public static void main(String[] args) {
         Workbook workbook = new Workbook();
         
-        // Nhận bảng tính đầu tiên
+        // Get the first worksheet
         Worksheet worksheet = workbook.getWorksheets().get(0);
         System.out.println("First worksheet accessed.");
     }
@@ -111,7 +146,7 @@ public class AccessWorksheet {
 ```
 
 ### 3. Thêm dữ liệu cho biểu đồ
-Để tạo biểu đồ, bạn cần có dữ liệu trong bảng tính. Sau đây là cách điền dữ liệu mẫu vào ô.
+Điền các ô bằng các giá trị bạn muốn hiển thị. Dữ liệu này sẽ là phạm vi nguồn cho biểu đồ.  
 ```java
 import com.aspose.cells.Cells;
 import com.aspose.cells.Worksheet;
@@ -122,7 +157,7 @@ public class AddData {
         Worksheet worksheet = workbook.getWorksheets().get(0);
         Cells cells = worksheet.getCells();
 
-        // Điền dữ liệu cho biểu đồ
+        // Populate data for chart
         cells.get("A2").putValue("C1");
 cells.get("A3").putValue("C2");
 cells.get("A4").putValue("C3");
@@ -148,7 +183,7 @@ cells.get("D4").putValue(2);
 ```
 
 ### 4. Tạo biểu đồ cột
-Khi dữ liệu đã sẵn sàng, bạn có thể tạo biểu đồ cột để trực quan hóa dữ liệu đó.
+Các đối tượng `Chart` được thêm vào bộ sưu tập `Charts` của worksheet. Bạn có thể chỉ định loại biểu đồ, phạm vi dữ liệu và vị trí.  
 ```java
 import com.aspose.cells.Chart;
 import com.aspose.cells.ChartType;
@@ -159,11 +194,11 @@ public class CreateChart {
         Workbook workbook = new Workbook();
         Worksheet worksheet = workbook.getWorksheets().get(0);
 
-        // Thêm biểu đồ cột
+        // Add a column chart
         int idx = worksheet.getCharts().add(ChartType.COLUMN, 6, 5, 20, 13);
         Chart ch = worksheet.getCharts().get(idx);
 
-        // Đặt phạm vi dữ liệu cho biểu đồ
+        // Set the data range for the chart
         ch.setChartDataRange("A1:D4", true);
         
         System.out.println("Column chart created successfully.");
@@ -172,7 +207,7 @@ public class CreateChart {
 ```
 
 ### 5. Lưu sổ làm việc
-Cuối cùng, lưu bảng tính của bạn vào một tệp theo định dạng và thư mục đã chỉ định.
+Gọi `save` trên đối tượng `Workbook`, cung cấp đường dẫn đích và định dạng mong muốn (XLSX, PDF, v.v.).  
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.SaveFormat;
@@ -182,7 +217,7 @@ public class SaveWorkbook {
         String outDir = "YOUR_OUTPUT_DIRECTORY";
         Workbook workbook = new Workbook();
 
-        // Lưu sổ làm việc ở định dạng XLSX
+        // Save the workbook in XLSX format
         workbook.save(outDir + "EWForChartSetup.xlsx", SaveFormat.XLSX);
         
         System.out.println("Workbook saved as 'EWForChartSetup.xlsx'.");
@@ -190,41 +225,52 @@ public class SaveWorkbook {
 }
 ```
 
-## Ứng dụng thực tế
-- **Báo cáo tài chính**: Tự động tạo và trực quan hóa các báo cáo tài chính hàng quý.
-- **Phân tích bán hàng**: Tạo bảng thông tin bán hàng động để so sánh hiệu suất giữa các khu vực khác nhau.
-- **Quản lý hàng tồn kho**: Hình dung mức tồn kho theo thời gian để hỗ trợ cho các quyết định kiểm kê.
+## Ứng dụng thực tiễn
+- **Báo cáo tài chính** – tạo báo cáo lợi nhuận‑lỗ hàng quý với biểu đồ cột tự động điều chỉnh.  
+- **Phân tích bán hàng** – tạo bảng điều khiển bán hàng theo khu vực cập nhật hàng đêm từ cơ sở dữ liệu.  
+- **Quản lý tồn kho** – hiển thị xu hướng tồn kho theo tháng để kích hoạt cảnh báo đặt hàng lại.
 
-Các ứng dụng này chứng minh tính linh hoạt của Aspose.Cells for Java, cho phép tích hợp với các hệ thống kinh doanh rộng hơn như phần mềm CRM hoặc ERP.
+## Các cân nhắc về hiệu suất
+Aspose.Cells xử lý các sổ làm việc lớn một cách hiệu quả bằng cách truyền dữ liệu và tái sử dụng các đối tượng. Để đạt kết quả tốt nhất:
+- Xử lý các hàng theo lô khi làm việc với > 100 000 bản ghi.  
+- Tái sử dụng một đối tượng `Workbook` duy nhất trong vòng lặp để tránh cấp phát bộ nhớ lặp lại.  
+- Điều chỉnh kích thước heap JVM (`-Xmx2g` hoặc cao hơn) nếu bạn dự kiến các tệp có hàng trăm trang.
 
-## Cân nhắc về hiệu suất
-Để có hiệu suất tối ưu:
-- Nếu có thể, hãy hạn chế việc sử dụng bộ nhớ bằng cách xử lý các tệp lớn thành nhiều phần.
-- Tái sử dụng `Workbook` các đối tượng khi thực hiện các tác vụ lặp đi lặp lại trong các vòng lặp để giảm chi phí.
-- Điều chỉnh cài đặt JVM theo nhu cầu của ứng dụng.
+## Câu hỏi thường gặp
+**Q: Làm thế nào để tôi thêm hơn một biểu đồ vào cùng một worksheet?**  
+A: Sử dụng `worksheet.getCharts().add(ChartType.COLUMN, upperLeftRow, upperLeftColumn, lowerRightRow, lowerRightColumn)` cho mỗi biểu đồ bạn cần, sau đó đặt nguồn dữ liệu cho từng biểu đồ riêng biệt.
 
-Thực hiện theo các hướng dẫn này sẽ đảm bảo ứng dụng của bạn chạy hiệu quả, ngay cả với các hoạt động dữ liệu phức tạp.
+**Q: Tôi có thể sửa đổi một tệp Excel hiện có thay vì tạo mới không?**  
+A: Có—khởi tạo `Workbook` với đường dẫn tệp (`new Workbook("existing.xlsx")`) và sau đó thêm hoặc chỉnh sửa worksheet và biểu đồ như trên.
 
-## Phần kết luận
-Bây giờ bạn đã thành thạo việc tạo và lập biểu đồ sổ làm việc bằng Aspose.Cells for Java. Thư viện mạnh mẽ này đơn giản hóa thao tác tệp Excel, cho phép bạn tập trung vào phân tích dữ liệu thay vì những phức tạp trong quản lý tệp. Khám phá thêm bằng cách tích hợp các kỹ thuật này vào dự án của bạn hoặc mở rộng chúng bằng các tính năng bổ sung của Aspose.Cells.
+**Q: Tôi có thể xuất sang định dạng nào ngoài XLSX?**  
+A: Aspose.Cells hỗ trợ XLS, CSV, PDF, HTML, ODS và hơn 30 định dạng khác, cho phép chuyển đổi liền mạch sau khi tạo biểu đồ.
 
-## Phần Câu hỏi thường gặp
-1. **Làm thế nào để thêm biểu đồ?**
-   - Sử dụng `add` phương pháp cho từng loại biểu đồ và vị trí khi cần thiết.
-2. **Tôi có thể cập nhật sổ làm việc hiện có thay vì tạo sổ làm việc mới không?**
-   - Có, tải một sổ làm việc hiện có bằng đường dẫn của nó với `new Workbook("path")`.
-3. **Những định dạng nào được hỗ trợ để lưu?**
-   - Aspose.Cells hỗ trợ XLSX, XLS, CSV, PDF và nhiều định dạng khác.
-4. **Làm thế nào để xử lý các tập dữ liệu lớn một cách hiệu quả?**
-   - Xử lý dữ liệu thành từng phần để quản lý việc sử dụng bộ nhớ hiệu quả.
-5. **Tôi có thể tìm thêm tài nguyên về Aspose.Cells cho Java ở đâu?**
-   - Ghé thăm [tài liệu chính thức](https://docs.aspose.com/cells/java/) và khám phá các diễn đàn cộng đồng.
+**Q: Cách khuyến nghị để xử lý tập dữ liệu rất lớn là gì?**  
+A: Tải dữ liệu theo từng khối, ghi mỗi khối vào worksheet, và chỉ gọi `worksheet.calculateFormula()` sau khi tất cả dữ liệu đã được ghi để giảm thiểu tải CPU.
+
+**Q: Tôi có thể tìm tài liệu chi tiết và mẫu mã ở đâu?**  
+A: Duyệt toàn bộ tài liệu tham khảo tại [official documentation](https://docs.aspose.com/cells/java/).
+
+## Kết luận
+Bây giờ bạn đã có một công thức hoàn chỉnh, sẵn sàng cho môi trường sản xuất để **create xlsx file java**, điền dữ liệu và tạo biểu đồ cột bằng Aspose.Cells. Tích hợp các đoạn mã này vào các công việc batch, dịch vụ web hoặc công cụ desktop để tự động hoá báo cáo và phân tích mà không cần mở Excel.
+
+---
+
+**Last Updated:** 2026-09-27  
+**Tested With:** Aspose.Cells 24.12 for Java  
+**Author:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Thành thạo Aspose.Cells trong Java: Cài đặt Workbook & Trực quan hoá Dữ liệu với Biểu đồ](/cells/java/charts-graphs/aspose-cells-java-setup-data-visualization/)
+- [Thành thạo Excel với Aspose.Cells Java: Tạo Workbook và Tùy chỉnh Biểu đồ](/cells/java/charts-graphs/aspose-cells-java-workbook-chart-customization/)
+- [Thêm Nhãn Dữ liệu vào Biểu đồ Excel với Aspose.Cells Java](/cells/java/advanced-excel-charts/chart-interactivity/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

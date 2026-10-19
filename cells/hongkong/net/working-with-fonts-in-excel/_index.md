@@ -72,6 +72,8 @@
 透過本分步指南了解如何使用 Aspose.Cells for .NET 將 Excel 儲存格的字體屬性複製到 TextBox 控制項。
 ### [如何在 C# Excel 匯出中嵌入字體 – 完整指南](./how-to-embed-fonts-in-c-excel-exports-complete-guide/)
 透過本完整指南學習如何在 C# 使用 Aspose.Cells for .NET 將字體嵌入 Excel 匯出檔案。
+### [在文字方塊中套用粗體字 – 步驟式 C# 教學](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
+透過本簡單的逐步指南了解如何使用 Aspose.Cells for .NET 在 Excel 中的文字方塊套用粗體字。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

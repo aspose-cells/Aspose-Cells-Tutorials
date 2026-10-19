@@ -34,6 +34,8 @@ Pelajari cara menyesuaikan kolom dan baris secara otomatis saat memuat HTML ke E
 Pelajari cara menonaktifkan komentar yang diungkapkan downlevel saat menyimpan buku kerja Excel ke HTML menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah terperinci ini.
 ### [Buat Workbook Baru di C# – Muat Excel dengan Kalender Jepang](./create-new-workbook-in-c-load-excel-with-japanese-calendar/)
 Pelajari cara membuat workbook baru di C# dan memuat file Excel dengan kalender Jepang menggunakan Aspose.Cells untuk .NET.
+### [Baca File Excel C# – Cara Memuat Workbook Excel C# Secara Efisien](./read-excel-file-c-how-to-load-excel-workbook-c-efficiently/)
+Pelajari cara membaca file Excel secara efisien di C# menggunakan Aspose.Cells, termasuk teknik memuat workbook dengan performa optimal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

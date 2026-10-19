@@ -72,6 +72,9 @@ Pelajari cara menyelaraskan teks secara vertikal di sel Excel menggunakan Aspose
 Ubah arah teks di Excel dengan Aspose.Cells for .NET. Ikuti panduan langkah demi langkah kami untuk memutar dan menyesuaikan teks dengan mudah.
 ### [Membungkus Teks Panjang dalam Sel di Excel](./wrapping-long-text-within-cells/)
 Pelajari cara membungkus teks panjang di sel Excel dengan Aspose.Cells for .NET dalam panduan yang mudah diikuti ini. Ubah lembar kerja Anda dengan mudah.
+### [Terapkan Gaya Sel dengan Aspose.Cells – Impor DataTable dengan Pemformatan](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+Pelajari cara menerapkan gaya sel saat mengimpor DataTable ke Excel menggunakan Aspose.Cells untuk .NET dengan langkah-langkah mudah.
+
 ### [Buat gaya sel di C# – Cara menerapkan gaya pada sel dan memusatkan teks](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
 Pelajari cara membuat gaya sel di C# dengan Aspose.Cells, menerapkan gaya pada sel, dan memusatkan teks secara mudah.
 ### [Cara Menata Kolom di Excel dengan C# – Impor DataTable](./how-to-style-columns-in-excel-with-c-import-datatable/)

@@ -72,6 +72,8 @@ Erfahren Sie, wie Sie hochgestellten Text in Excel mit Aspose.Cells für .NET an
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Schriftarten in Excel-Exporten einbetten, um konsistente Darstellung sicherzustellen.
 ### [Wie man die Schriftart aus einer Excel‑Zelle in ein Textfeld kopiert – Schritt‑für‑Schritt‑Anleitung](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET die Schriftart einer Excel‑Zelle in ein TextBox‑Steuerelement übertragen.
+### [Fettgedruckte Schrift auf ein Textfeld anwenden – Schritt‑für‑Schritt C#‑Leitfaden](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
+Erfahren Sie in dieser einfachen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells für .NET fetten Text in einem Textfeld anwenden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

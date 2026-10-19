@@ -86,7 +86,9 @@ Aspose.Cells for Java kullanarak Excel'de veri aralıklarını nasıl verimli bi
 ### [Aspose.Cells Kullanarak Java'da Excel Hücrelerini Ayırma: Adım Adım Kılavuz](./unmerge-excel-cells-aspose-cells-java-guide/)
 Aspose.Cells for Java kullanarak Excel dosyalarındaki hücreleri etkin bir şekilde ayırmayı öğrenin. Bu kılavuz, kod örnekleriyle birleştirilmiş hücrelerin kurulumunu, algılanmasını ve ayrılmasını kapsar.
 
-
+### [Java Kullanarak Excel'de Hücreye İsim Atama – Tam Kılavuz](./assign-name-to-cell-in-excel-using-java-complete-guide/)
+### [Programlı Olarak Çalışma Sayfası Aralığını Kopyalama – Tam Java Kılavuzu](./programmatically-copy-worksheet-range-complete-java-guide/)
+### [Java’da Çalışma Kitapları Arasında Aralık Kopyalama – Adım Adım Kılavuz](./copy-range-between-workbooks-in-java-step-by-step-guide/)
 
 ## Ek Kaynaklar
 

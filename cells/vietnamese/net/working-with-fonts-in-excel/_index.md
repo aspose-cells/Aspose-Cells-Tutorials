@@ -72,6 +72,8 @@ Tìm hiểu cách tùy chỉnh văn bản chỉ số trên trong Excel bằng As
 Tìm hiểu cách nhúng phông chữ trong các tệp Excel xuất bằng C# bằng Aspose.Cells cho .NET qua hướng dẫn chi tiết từng bước.
 ### [Cách sao chép phông chữ từ ô Excel sang TextBox – Hướng dẫn từng bước](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
 Hướng dẫn chi tiết cách sao chép định dạng phông chữ từ ô Excel sang TextBox bằng Aspose.Cells cho .NET.
+### [Áp dụng phông chữ đậm cho hộp văn bản – Hướng dẫn từng bước C#](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
+Tìm hiểu cách áp dụng phông chữ đậm cho hộp văn bản trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

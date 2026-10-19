@@ -52,6 +52,8 @@ Leer hoe je tekst uit tandwiel-type SmartArt in Excel kunt extraheren met Aspose
 Vervang moeiteloos tekst in tekstvakken in uw Excel-sheets met Aspose.Cells voor .NET. Een stapsgewijze handleiding voor Excel-automatisering.
 ### [Tekst met vorm roteren in Excel](./rotate-text-shape-excel/)
 Leer hoe je tekst met vormen in Excel kunt roteren met Aspose.Cells voor .NET. Volg deze stapsgewijze handleiding voor een perfecte Excel-presentatie.
+### [Tekstvaklettergrootte wijzigen in Excel met C# – Complete gids](./change-textbox-font-size-in-excel-with-c-complete-guide/)
+Leer hoe u de lettergrootte van tekstvakken in Excel kunt aanpassen met Aspose.Cells voor .NET en C#. Inclusief stapsgewijze handleiding en codevoorbeeld.
 ### [Tegelafbeelding als textuur in vorm in Excel](./tile-picture-texture-shape-excel/)
 Leer hoe u een afbeelding als textuur kunt tegelen in Excel met behulp van Aspose.Cells voor .NET met deze eenvoudig te volgen, stapsgewijze zelfstudie.
 ### [Gloei-effect van vorm in Excel lezen](./read-glow-effect-shape-excel/)
