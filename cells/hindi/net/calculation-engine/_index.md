@@ -51,6 +51,8 @@ Aspose.Cells का उपयोग करके अपने .NET अनुप�
 C# में फोर्स फ़ॉर्मूला की गणना करने और Excel ऑटोमेशन को पूरी तरह से लागू करने के चरण-दर-चरण निर्देश और कोड उदाहरण।
 ### [Excel वर्कबुक बनाएं – WRAPCOLS के साथ एरे को मैट्रिक्स में बदलें](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
 Aspose.Cells .NET का उपयोग करके WRAPCOLS फ़ंक्शन के माध्यम से एरे को मैट्रिक्स में बदलते हुए Excel वर्कबुक बनाने की प्रक्रिया सीखें।
+### [C# में फ़ॉर्मूला कैसे मूल्यांकन करें – Aspose.Cells का पूर्ण गाइड](./how-to-evaluate-formulas-in-c-complete-aspose-cells-guide/)
+Aspose.Cells का उपयोग करके C# में Excel फ़ॉर्मूला को मूल्यांकन करने के चरण-दर-चरण निर्देश और कोड उदाहरण।
 
 ## फ़ायदे
 

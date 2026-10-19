@@ -66,6 +66,8 @@ Leer hoe u een lege pagina kunt afdrukken met Aspose.Cells voor .NET. Zo zien uw
 Leer hoe u opeenvolgende pagina's in Excel kunt renderen met Aspose.Cells voor .NET. Deze stapsgewijze tutorial biedt een gedetailleerde handleiding voor het converteren van geselecteerde pagina's naar afbeeldingen.
 ### [Pivot-referentiegebied maken – Exporteren van draaitabelafbeelding als PNG](./create-pivot-reference-range-export-pivot-table-image-as-png/)
 Leer hoe u een referentiegebied voor een draaitabel maakt en deze als PNG-afbeelding exporteert met Aspose.Cells voor .NET.
+### [PNG-pivotafbeelding maken in C# – volledige stap‑voor‑stap handleiding](./create-png-pivot-image-in-c-full-step-by-step-guide/)
+Leer hoe u met Aspose.Cells een PNG‑afbeelding van een draaitabel genereert in C# met een gedetailleerde stap‑voor‑stap handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

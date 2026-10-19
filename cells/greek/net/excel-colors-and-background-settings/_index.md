@@ -36,6 +36,12 @@
 Μάθετε πώς να εφαρμόζετε εναλλασσόμενα χρώματα σε γραμμές Excel με Aspose.Cells για .NET χρησιμοποιώντας C#.
 ### [Προσθήκη χρώματος φόντου στο Excel – Εναλλασσόμενα στυλ γραμμών σε C#](./add-background-color-excel-alternating-row-styles-in-c/)
 Μάθετε πώς να εφαρμόζετε εναλλασσόμενα χρώματα φόντου σε γραμμές Excel χρησιμοποιώντας Aspose.Cells για .NET σε C#.
+### [Ορισμός φόντου στήλης στο Excel με C# – Πλήρης οδηγός](./set-column-background-in-excel-with-c-complete-guide/)
+Μάθετε πώς να ορίσετε το φόντο μιας στήλης στο Excel χρησιμοποιώντας C# και Aspose.Cells για .NET, βήμα‑βήμα.
+### [Εναλλασσόμενα Χρώματα Γραμμών σε Φύλλα Εργασίας C# – Πλήρης Οδηγός](./alternating-row-colors-in-c-worksheets-complete-guide/)
+Μάθετε πώς να εφαρμόζετε εναλλασσόμενα χρώματα στις γραμμές των φύλλων εργασίας C# με το Aspose.Cells για .NET, βελτιώνοντας την αναγνωσιμότητα.
+### [Εφαρμογή εναλλασσόμενων χρωμάτων γραμμών στο Excel με C# – Πλήρης Οδηγός](./apply-alternating-row-colors-in-excel-with-c-complete-guide/)
+Μάθετε πώς να εφαρμόζετε εναλλασσόμενα χρώματα σε γραμμές Excel χρησιμοποιώντας C# και Aspose.Cells για .NET, βελτιώνοντας την αναγνωσιμότητα των δεδομένων.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

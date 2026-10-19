@@ -38,6 +38,12 @@ Excelのグラフを魅力的な画像に変換したいと思ったことはあ
 Aspose.Cells を使用して Excel ワークシートを .NET で画像に変換する方法を、ステップバイステップガイドで学習しましょう。データの視覚化を効率化できます。
 ### [ピボットテーブルを画像として保存する方法 – ステップバイステップガイド](./how-to-save-pivot-as-an-image-step-by-step-guide/)
 Aspose.Cells を使用して、ピボットテーブルを画像に変換し保存する手順をステップバイステップで解説します。
+### [Excel 範囲を画像としてエクスポート – 完全 C# ガイド](./export-excel-range-as-image-complete-c-guide/)
+Aspose.Cells を使用して、Excel の特定範囲を画像としてエクスポートする方法をステップバイステップで解説します。
+### [Excelシートを画像として保存する方法 – 完全C#ガイド](./how-to-save-excel-sheet-as-image-complete-c-guide/)
+Aspose.Cells を使用して、Excel シートを C# で画像に変換し保存する手順を詳しく解説します。
+### [Excel を PNG にエクスポートする方法 – 完全ステップバイステップガイド](./how-to-export-excel-to-png-full-step-by-step-guide/)
+Aspose.Cells を使用して、Excel ファイルを高品質な PNG 画像に変換する手順を詳細に解説します。
 ### [Excel の範囲を画像としてエクスポートする方法 – C# と Aspose.Cells](./how-to-export-excel-range-as-image-with-c-and-aspose-cells/)
 Aspose.Cells を使用して、C# で Excel のセル範囲を画像としてエクスポートする手順を解説します。
 

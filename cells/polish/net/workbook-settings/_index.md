@@ -52,6 +52,8 @@ Dowiedz się, jak zaimplementować formułę komórki, która jest podobna do lo
 Dowiedz się, jak obsługiwać formuły nazwanych zakresów w ustawieniach regionalnych języka niemieckiego za pomocą Aspose.Cells dla .NET. Naucz się programowo tworzyć, manipulować i zapisywać pliki programu Excel.
 ### [Utwórz japoński skoroszyt w C# – Kompletny przewodnik krok po kroku](./create-japanese-workbook-in-c-complete-step-by-step-guide/)
 Dowiedz się, jak stworzyć skoroszyt w języku japońskim w C# przy użyciu Aspose.Cells, krok po kroku.
+### [Włączanie parsowania japońskich er w C# przy użyciu Aspose.Cells](./enable-japanese-era-parsing-in-c-with-aspose-cells/)
+Dowiedz się, jak włączyć obsługę japońskich er w C# przy użyciu Aspose.Cells, aby prawidłowo parsować daty w formacie era.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

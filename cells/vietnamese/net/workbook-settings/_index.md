@@ -52,6 +52,8 @@ Khám phá cách triển khai công thức ô tương tự như chức năng c�
 Khám phá cách xử lý các công thức phạm vi được đặt tên bằng ngôn ngữ tiếng Đức bằng Aspose.Cells cho .NET. Tìm hiểu cách tạo, thao tác và lưu các tệp Excel theo chương trình.
 ### [Tạo sổ làm việc tiếng Nhật trong C# – Hướng dẫn chi tiết từng bước](./create-japanese-workbook-in-c-complete-step-by-step-guide/)
 Khám phá cách tạo sổ làm việc tiếng Nhật trong C# bằng Aspose.Cells cho .NET với hướng dẫn chi tiết từng bước.
+### [Bật phân tích thời đại Nhật Bản trong C# với Aspose.Cells](./enable-japanese-era-parsing-in-c-with-aspose-cells/)
+Khám phá cách bật tính năng phân tích thời đại Nhật Bản trong Aspose.Cells cho .NET bằng C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

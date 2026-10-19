@@ -594,6 +594,9 @@ Aspose.Cells for .NET을 사용하여 Excel 파일을 프로그래밍 방식으�
 ### [C#에서 Aspose.Cells를 사용하여 Excel 문서 버전 설정](./set-excel-document-version-aspose-csharp)
 Aspose.Cells Net에 대한 코드 튜토리얼
 
+### [C#에서 새 통합 문서 만들기 – 단계별 가이드](./create-new-workbook-in-c-step-by-step-guide/)
+Aspose.Cells for .NET을 사용하여 C#에서 새 통합 문서를 만드는 방법을 단계별로 안내합니다.
+
 ### [C#에서 Aspose.Cells를 사용하여 새 통합 문서 만들기 – 완전 프로그래밍 가이드](./create-new-workbook-in-c-complete-programming-guide/)
 C#을 사용해 Aspose.Cells로 새 Excel 통합 문서를 만드는 전체 단계별 가이드입니다.
 

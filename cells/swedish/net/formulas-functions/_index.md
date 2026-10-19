@@ -102,7 +102,11 @@ Lär dig hur du anger språket för dina Excel-filer med Aspose.Cells .NET. För
 ### [Uppdatera Excel Power Query-formler med Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Lär dig hur du programmatiskt uppdaterar Power Query-formler i Excel-arbetsböcker med Aspose.Cells för .NET. Hantering av huvuddatakällor för dynamisk rapportering.
 
+### [Hur man beräknar cotangens i Excel med C# – Skapa arbetsbok, använd EXPAND och spara](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+Lär dig hur du beräknar cotangens i Excel med Aspose.Cells för .NET, skapar en arbetsbok, använder EXPAND-funktionen och sparar filen.
+
 ### [Hur man använder Lambda i C# med Excel-formler – Komplett guide](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
+### [Hur man använder WRAPCOLS i C# – Omforma en array till en matris i Excel](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
 
 ## Förstå Excel-formeltyper
 
@@ -164,6 +168,10 @@ För robust formelimplementering:
 Genom att bemästra dessa formelfunktioner med Aspose.Cells för .NET kan du skapa sofistikerade beräkningsmotorer i dina kalkylblad som ger exakta, dynamiska resultat utan att behöva installera Excel.
 ### [Skapa Excel-arbetsbok i C# – Lambda, SEQUENCE & EXPAND-guide](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 Lär dig hur du skapar en Excel-arbetsbok i C# och använder de nya Lambda-, SEQUENCE- och EXPAND-funktionerna med Aspose.Cells.
+### [Skapa Excel-arbetsbok med EXPAND-formel – Komplett guide](./create-excel-workbook-with-expand-formula-complete-guide/)
+Lär dig hur du skapar en Excel-arbetsbok och använder EXPAND-formeln för dynamiska matrisutdata i en komplett guide.
+### [Hur man använder SEQUENCE i C# – Skapa en Excel-arbetsbok](./how-to-use-sequence-in-c-create-excel-workbook/)
+Lär dig hur du använder SEQUENCE-funktionen i C# för att skapa en Excel-arbetsbok med Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

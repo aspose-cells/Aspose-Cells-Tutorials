@@ -56,6 +56,9 @@ Aspose.Cells for .NET kullanarak ODS dosyalarında hücre doğrulamasının nas�
 Bu kapsamlı adım adım eğitimde, Aspose.Cells for .NET kullanarak Excel çalışma sayfalarında harici bağlantılarla aralıkları nasıl etkili bir şekilde elde edeceğinizi öğrenin.
 ### [Çalışma Sayfasının Benzersiz Kimliğini Alın](./get-worksheet-id/)
 Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak bir çalışma sayfasının benzersiz kimliğini nasıl alacağınızı öğrenin. Elektronik tablolarınızı daha verimli yönetin.
+### [C# ile Çalışma Sayfasını Yeniden Adlandırma – Tam Kılavuz](./how-to-rename-worksheet-in-c-complete-guide/)
+Aspose.Cells for .NET kullanarak C# ile bir çalışma sayfasının adını nasıl değiştireceğinizi adım adım öğrenin.
+
 ### [Ek Ayarlarla Sayfayı Yazdır](./print-sheet-with-settings/)
 Bu detaylı adım adım kılavuzda Aspose.Cells for .NET ile Excel sayfalarını zahmetsizce nasıl yazdıracağınızı öğrenin.
 ### [ODS Arka Plan Görselini Oku](./read-ods-background/)
@@ -74,6 +77,9 @@ Bu kapsamlı, adım adım kılavuzla Aspose.Cells for .NET kullanarak ODS dosyal
 Aspose.Cells for .NET kullanarak paylaşılan çalışma kitaplarındaki revizyon günlüğü geçmişini güncellemeyi öğrenin. İşbirliğini basitleştirin ve net belge kayıtları tutun.
 ### [Çalışma Sayfasında OpenXml'in Sheet_SheetId Özelliğini Kullanın](./utilize-sheet-sheetid-property/)
 Aspose.Cells for .NET ile Excel'in gücünü açığa çıkarın. Adım adım kılavuzumuzla Sayfa Kimliklerini etkili bir şekilde yönetmeyi öğrenin.
+
+### [Öğe Başına Çalışma Sayfası Oluştur – C#'ta Çalışma Sayfasını Tekrarlama](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Aspose.Cells for .NET kullanarak her öğe için yeni bir çalışma sayfası oluşturun ve C#'ta çalışma sayfasını nasıl tekrarlayacağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

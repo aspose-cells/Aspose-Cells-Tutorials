@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Szám- és megjelenítési formátumok az Excelben
@@ -37,22 +35,23 @@ Tanulja meg, hogyan exportálhatja az Excel-fájlt a formázás megtartásával,
 ### [Dátum és idő formázása ISO formátumba C#-ban – Teljes útmutató](./format-datetime-to-iso-in-c-complete-guide/)
 Ismerje meg, hogyan formázhatja a dátum- és időértékeket ISO 8601 formátumba C#-ban az Aspose.Cells for .NET segítségével.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Hogyan formázzuk a pénznemet egy rács oszlopában – Lépésről lépésre útmutató](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 Ismerje meg, hogyan formázhat pénznem cellákat egy rács oszlopában az Aspose.Cells for .NET segítségével.
 ### [Számformátum alkalmazása Excelben – Lépésről lépésre útmutató az oszlopok formázásához](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
 Ismerje meg, hogyan alkalmazzon számformátumot Excel oszlopokra lépésről lépésre az Aspose.Cells for .NET segítségével.
+### [Hogyan kerekítsük az Excel számokat C#-ban – teljes programozási útmutató](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+Ismerje meg, hogyan kerekítheti az Excel számokat C#-ban a teljes programozási útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

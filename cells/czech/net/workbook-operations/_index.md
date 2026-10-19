@@ -597,6 +597,9 @@ Naučte se, jak programově ukládat soubory Excelu pomocí Aspose.Cells pro .NE
 ### [Nastavení verze dokumentu Excel pomocí Aspose.Cells v C#](./set-excel-document-version-aspose-csharp)
 Výukový program pro Aspose.Cells.Net
 
+### [Vytvořit nový sešit v C# – krok za krokem](./create-new-workbook-in-c-step-by-step-guide/)
+Kompletní průvodce vytvořením nového sešitu v C# pomocí Aspose.Cells.
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

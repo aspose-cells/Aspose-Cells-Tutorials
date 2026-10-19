@@ -85,6 +85,24 @@ Excel 内置了大量函数，可用于执行各种计算和数据操作。了�
 
 ### [在 C# 中重新计算所有公式 – 刷新 Excel](./recalculate-all-formulas-in-c-refresh-excel/)
 使用 Aspose.Cells for .NET 在 C# 中重新计算工作簿的所有公式，快速刷新 Excel 数据。
+### [在 C# 中使用 WRAPCOLS – 将数组重塑为矩阵](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+学习如何使用 Aspose.Cells for .NET 在 C# 中通过 WRAPCOLS 将一维数组转换为矩阵，实现高效数据处理。
+### [使用 C# 在 Excel 中创建数组 – 步骤指南](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+通过本分步教程，学习如何使用 Aspose.Cells for .NET 在 Excel 中使用 C# 创建数组，实现高效数据处理。
+### [如何在 Excel 中使用 C# 计算余切 – 完整指南](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+使用 Aspose.Cells for .NET，了解在 Excel 中通过 C# 计算余切的完整步骤，实现精准的三角函数运算。
+### [如何在 Excel 中使用 WRAPCOLS – 完整 C# 示例](./how-to-use-wrapcols-in-excel-complete-c-example/)
+通过本分步指南，学习使用 Aspose.Cells for .NET 在 Excel 中使用 WRAPCOLS，实现完整的 C# 示例。
+### [如何在 C# 中创建 Excel 工作簿并使用 WRAPCOLS 拆分数据](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
+通过 Aspose.Cells for .NET，在 C# 中创建 Excel 工作簿并使用 WRAPCOLS 将数据拆分为矩阵的详细步骤指南。
+### [在 C# 中应用 Excel 数组公式 – 完整指南](./apply-array-formula-excel-in-c-complete-guide/)
+通过本分步指南，学习如何使用 Aspose.Cells for .NET 在 C# 中应用 Excel 数组公式，实现完整的解决方案。
+### [如何使用 WRAPCOLS – C# Excel 自动化完整指南](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+通过本分步指南，学习在 Aspose.Cells for .NET 中使用 WRAPCOLS 函数实现 Excel 自动化。
+### [在 C# 中强制公式计算并使用 Lambda 表达式](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+使用 Aspose.Cells for .NET 在 C# 中强制公式计算并使用 Lambda，实现高级 Excel 计算。
+### [创建带公式的 Excel 工作簿 – 完整分步指南](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+通过本详细分步教程，学习如何使用 Aspose.Cells for .NET 创建包含公式的 Excel 工作簿。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

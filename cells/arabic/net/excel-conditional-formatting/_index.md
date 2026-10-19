@@ -33,6 +33,8 @@
 
 ### [إنشاء دفتر عمل Excel C# – دليل خطوة بخطوة مع التنسيق الشرطي](./create-excel-workbook-c-step-by-step-guide-with-conditional/)
 تعلم كيفية إنشاء دفتر عمل Excel باستخدام C# وإضافة التنسيق الشرطي خطوة بخطوة باستخدام Aspose.Cells .NET.
+### [إنشاء تنسيق شرطي في Excel باستخدام Aspose.Cells – دليل خطوة بخطوة](./create-conditional-formatting-in-excel-with-aspose-cells-ste/)
+تعرف على كيفية إنشاء تنسيق شرطي في Excel باستخدام Aspose.Cells خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

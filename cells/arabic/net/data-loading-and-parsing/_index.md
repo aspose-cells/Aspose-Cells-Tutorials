@@ -69,6 +69,12 @@
 تعلم كيفية استيراد ملفات Markdown إلى Excel باستخدام Aspose.Cells خطوة بخطوة.
 ### [كيفية إدراج JSON في قالب Excel – خطوة بخطوة](./how-to-insert-json-into-excel-template-step-by-step/)
 تعلم كيفية دمج بيانات JSON في قالب Excel باستخدام Aspose.Cells للـ .NET خطوة بخطوة.
+### [إنشاء Excel من JSON باستخدام C# – دليل خطوة بخطوة كامل](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
+تعلم كيفية إنشاء ملفات Excel من بيانات JSON باستخدام C# خطوة بخطوة مع Aspose.Cells لـ .NET.
+### [إنشاء مصنف Excel بلغة C# – دليل كامل لقراءة التواريخ من الخلايا](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+دليل شامل لإنشاء مصنف Excel باستخدام C# وقراءة التواريخ من الخلايا عبر Aspose.Cells لـ .NET.
+### [تحليل تاريخ العصر الياباني في C# – دليل كامل](./parse-japanese-era-date-in-c-complete-guide/)
+تعلم كيفية تحويل تواريخ العصر الياباني إلى صيغ C# باستخدام Aspose.Cells خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

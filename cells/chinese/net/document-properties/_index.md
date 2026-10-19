@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 文档属性
@@ -40,35 +38,39 @@ Excel 中的文档属性就像文件的元数据一样。想象一下：每个 E
 ### [如何在 C# 中保存带自定义属性的 XLSB – 步骤指南](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
 通过本分步指南，学习如何使用 Aspose.Cells for .NET 在 C# 中将自定义属性保存到 XLSB 文件。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [如何保存 XLSB – 在 C# 中添加自定义属性](./how-to-save-xlsb-add-custom-property-in-c/)
 通过本教程了解如何在 C# 中使用 Aspose.Cells 保存 XLSB 文件并添加自定义属性。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [如何使用自定义属性保存 XLSB – 步骤详解 C# 指南](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
 通过本分步指南，学习如何在 C# 中使用 Aspose.Cells for .NET 将自定义属性保存到 XLSB 文件。
 ### [在 C# 中创建 Excel 工作簿 – 添加自定义属性并保存为 XLSB](./create-excel-workbook-c-add-custom-property-save-xlsb/)
 学习如何使用 Aspose.Cells for .NET 在 C# 中创建工作簿，添加自定义属性并将文件保存为 XLSB 格式。
 ### [在 C# 中向 Excel 添加自定义属性 – 步骤指南](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
 通过本详细教程，学习如何使用 C# 在 Excel 中添加自定义属性，轻松实现个性化文档管理。
+### [如何添加 Excel 元数据 – 完整的 C# 工作簿指南](./how-to-add-excel-metadata-complete-c-workbook-guide/)
+通过本完整指南，学习在 C# 中使用 Aspose.Cells 为 Excel 工作簿添加元数据。
+### [创建自定义属性 Aspose – 完整 Excel 指南](./create-custom-property-aspose-complete-excel-guide/)
+通过本完整指南，学习如何使用 Aspose.Cells for .NET 在 Excel 中创建自定义属性，提升文件的元数据管理。
+### [在 C# 中保存 XLSB 并添加自定义文档属性](./how-to-save-xlsb-and-add-custom-document-properties-in-c/)
+学习如何使用 Aspose.Cells for .NET 将工作簿保存为 XLSB 格式并添加自定义文档属性的完整步骤。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

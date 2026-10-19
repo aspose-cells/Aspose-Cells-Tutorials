@@ -42,6 +42,16 @@ Aprenda a crear un nuevo libro de trabajo y exportar datos de Excel a un archivo
 ### [Cómo exportar datos de Excel – Guía paso a paso en C#](./how-to-export-excel-data-step-by-step-c-guide/)
 Aprenda a exportar datos a Excel con Aspose.Cells para .NET usando C# en esta guía detallada paso a paso.
 
+### [Exportar rango de hoja de cálculo en C# – Guía completa de programación](./export-worksheet-range-in-c-complete-programming-guide/)
+Aprenda a exportar un rango de celdas de una hoja de cálculo con Aspose.Cells para .NET en C#, paso a paso, ideal para todos los niveles.
+
+### [Cómo exportar un rango de celdas como tabla – Guía completa en C#](./how-to-export-cell-range-as-table-complete-c-guide/)
+Aprenda a exportar un rango de celdas como tabla usando Aspose.Cells para .NET en este tutorial paso a paso, ideal para principiantes y expertos.
+### [Crear hoja de Excel a partir de un DataTable en C# – guía paso a paso](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+Aprende a generar una hoja de Excel desde un DataTable en C# usando Aspose.Cells paso a paso.
+### [Cómo exportar una tabla de Excel – Guía completa paso a paso](./how-to-export-excel-table-complete-step-by-step-guide/)
+Aprenda a exportar tablas de Excel usando Aspose.Cells para .NET en esta guía completa paso a paso, ideal para principiantes y usuarios avanzados.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -35,6 +35,8 @@ Scopri come personalizzare il formato di una colonna in Excel utilizzando Aspose
 Scopri come applicare la formattazione a una riga di Excel a livello di codice utilizzando Aspose.Cells per .NET. Questa guida dettagliata e passo passo copre tutto, dall'allineamento ai bordi.
 ### [Crea cartella di lavoro Excel – avvolgi le colonne e salva come XLSX](./create-excel-workbook-wrap-columns-and-save-as-xlsx/)
 Scopri come creare una cartella di lavoro Excel, avvolgere le colonne e salvarla in formato XLSX usando Aspose.Cells per .NET.
+### [Come formattare le colonne di Excel in C# – Guida completa](./how-to-format-excel-columns-in-c-complete-guide/)
+Scopri come formattare le colonne di Excel in C# utilizzando Aspose.Cells per .NET con questa guida completa passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

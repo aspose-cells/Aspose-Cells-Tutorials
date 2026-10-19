@@ -55,6 +55,14 @@ Learn how to bind data in C# and create an Excel workbook using Aspose.Cells for
 Learn how to create an Excel workbook in C#, insert JSON data, and save it as an XLSX file using Aspose.Cells for .NET.
 ### [Create Excel Workbook C# – Apply Currency Format and Import DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
 Learn how to create an Excel workbook in C#, apply currency formatting, and import a DataTable using Aspose.Cells for .NET.
+### [Create new workbook in C# – Convert Markdown to Excel Fast](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
+Learn how to quickly create a new workbook in C# and convert Markdown files to Excel using Aspose.Cells for .NET.
+### [json data to excel – Full Guide to Convert JSON Array Excel](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
+Learn how to convert JSON arrays to Excel files using Aspose.Cells for .NET in this comprehensive guide.
+### [Convert Worksheet to DataTable in C# – Complete Programming Guide](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
+Learn how to convert an Excel worksheet to a DataTable using Aspose.Cells for .NET in this comprehensive guide.
+### [Import JSON to Excel with Aspose.Cells – Complete Programming Guide](./import-json-to-excel-with-aspose-cells-complete-programming/)
+Learn how to import JSON data into Excel using Aspose.Cells for .NET in a comprehensive programming guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

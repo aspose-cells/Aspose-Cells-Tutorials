@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sešit aplikace Excel
@@ -75,6 +73,7 @@ Tak proč nevyužít této příležitosti a nezlepšit si své dovednosti v Exc
 | [Úprava úrovně komprese](./adjust-compression-level/) Naučte se, jak upravit úrovně komprese souborů aplikace Excel pomocí nástroje Aspose.Cells pro .NET. Optimalizujte velikosti souborů efektivně pomocí tohoto podrobného návodu. |  
 | [Povolit úvodní apostrof](./allow-leading-apostrophe/) | Snadno spravujte úvodní apostrofy v Excelu s Aspose.Cells pro .NET. Tento komplexní tutoriál vás krok za krokem provede celým procesem. |  
 | [Vytvořit sdílený sešit](./create-shared-workbook/) | Naučte se, jak vytvořit sdílený sešit pomocí Aspose.Cells pro .NET s tímto jednoduchým podrobným návodem. Ideální pro zlepšení týmové spolupráce. |  
+| [Vytvořit sešit Excel a zapisovat data v C# – Kompletní průvodce krok za krokem](./create-excel-workbook-and-write-data-in-c-full-step-by-step/) | Naučte se, jak pomocí Aspose.Cells pro .NET vytvořit sešit Excel a zapisovat data v C# krok za krokem. |  
 | [Detekce typů odkazů](./detect-link-types/) | Naučte se, jak detekovat typy hypertextových odkazů v Excelu pomocí Aspose.Cells pro .NET. Součástí jsou jednoduché kroky a příklady kódu. |  
 | [Extrahovat vložený soubor Mol](./extract-embedded-mol-file/) | Naučte se, jak snadno extrahovat vložené soubory MOL ze sešitu aplikace Excel pomocí nástroje Aspose.Cells pro .NET. |  
 | [Filtrování definovaných názvů při načítání sešitu](./filter-defined-names-while-loading-workbook/) V tomto komplexním průvodci se naučíte, jak filtrovat definované názvy při načítání sešitu pomocí Aspose.Cells pro .NET. |  
@@ -88,23 +87,27 @@ Tak proč nevyužít této příležitosti a nezlepšit si své dovednosti v Exc
 | [Podpora podpisů Xades](./xades-signature-support/) | Naučte se, jak přidat podpisy Xades do souborů Excelu pomocí Aspose.Cells pro .NET s tímto podrobným návodem. Zabezpečte své dokumenty. |  
 | [Vytvořit nový sešit C# – krok za krokem s rozlitými vzorci](./create-new-workbook-c-step-by-step-guide-with-spilled-formul/) | Naučte se vytvořit nový sešit v C# a použít rozlitá vzorce pomocí Aspose.Cells pro .NET. |
 | [Vytvořit hlavní list v C# – kompletní průvodce Aspose.Cells](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Naučte se, jak vytvořit hlavní list v Excelu pomocí C# a Aspose.Cells s podrobným krok za krokem návodem. |  
+| [Vytvořit sešit Excel v C# – Kompletní průvodce používáním EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Naučte se, jak pomocí Aspose.Cells pro .NET v C# vytvořit sešit Excel a využít funkci EXPAND pro dynamické rozšíření dat. |  
+| [Vytvořit Excel sešit v C# – Kompletní průvodce s Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | Naučte se, jak pomocí Aspose.Cells v C# vytvořit kompletní Excel sešit od začátku až po finální úpravy. |  
+| [Vytvořit Excel sešit v C# – Kompletní programovací průvodce](./create-excel-workbook-in-c-complete-programming-guide/) | Naučte se, jak vytvořit Excel sešit v C# pomocí Aspose.Cells pro .NET v tomto podrobném průvodci. |  
+| [Vytvořit Excel sešit v C# – Kompletní průvodce s funkcí Expand](./create-excel-workbook-c-full-guide-with-expand-function/) | Kompletní návod, jak vytvořit sešit Excel v C# s využitím funkce Expand. |  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 | [Vytvořit sešit Excel s formátovanou tabulkou – krok‑za‑krokem](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Cells pro .NET vytvořit sešit Excel s formátovanou tabulkou, včetně nastavení stylů a formátování, krok za krokem. |  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 | [Vytvořit nový sešit v C# – přidat vzorec a uložit soubor Excel](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Naučte se, jak vytvořit nový sešit, přidat vzorec a uložit soubor Excel pomocí Aspose.Cells pro .NET v C#. |  
 | [Vytvořit Excel sešit C# – Generovat XLSX z JSON](./create-excel-workbook-c-generate-xlsx-from-json/) | Naučte se, jak pomocí Aspose.Cells v C# vytvořit soubor XLSX přímo z JSON dat. |  
 | [Vytvořit Excel sešit C# – krok za krokem průvodce zápisem dat a uložením jako XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Naučte se, jak v C# pomocí Aspose.Cells vytvořit sešit, zapisovat data a uložit jej jako soubor XLSX. |  
@@ -115,13 +118,12 @@ Tak proč nevyužít této příležitosti a nezlepšit si své dovednosti v Exc
 | [Jak vytvořit sešit v C# – krok za krokem](./how-to-create-workbook-in-c-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Cells pro .NET v C# vytvořit nový sešit Excel od základů s podrobnými ukázkami kódu. |  
 | [Vytvořit soubor Excel programově v C# – krok za krokem](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Cells pro .NET v C# programově vytvořit soubor Excel od začátku. |  
 | [Vytvořit nový sešit – převést Markdown do Excelu v C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Naučte se, jak vytvořit nový sešit a převést soubor Markdown do formátu Excel pomocí Aspose.Cells pro .NET v C#. |  
-| [Jak vytvořit sešit v C# – Zapsat hodnotu a formátovat číslo](./how-to-create-workbook-in-c-write-value-format-number/) | Naučte se vytvořit nový sešit v C#, zapsat hodnotu a nastavit formát čísla pomocí Aspose.Cells pro .NET. |  
+| [Jak vytvořit sešit v C# – Zapsat hodnotu a formátovat číslo](./how-to-create-workbook-in-c-write-value-format-number/) | Naučte se vytvořit nový sešit v C#, zapsat hodnotu a nastavit formát čísla pomocí Aspose.Cells pro .NET. |
+| [Vytvořit sešit aplikace Excel pomocí Aspose.Cells – Kompletní průvodce](./create-excel-workbook-with-aspose-cells-full-guide/) | Kompletní návod, jak pomocí Aspose.Cells pro .NET vytvořit nový sešit aplikace Excel s podrobnými ukázkami kódu. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

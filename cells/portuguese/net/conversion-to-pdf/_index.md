@@ -31,9 +31,15 @@ Mas espere, tem mais! E se você quiser converter gráficos de suas planilhas do
 
 ## Tutoriais de conversão para PDF
 ### [Conversão de Excel para PDF em .NET](./excel-to-pdf-conversion/)
-Converta planilhas do Excel para PDF facilmente com o Aspose.Cells para .NET! Siga nosso guia passo a passo para uma experiência perfeita.
+Converte planilhas do Excel para PDF facilmente com o Aspose.Cells para .NET! Siga nosso guia passo a passo para uma experiência perfeita.
 ### [Converter gráfico em PDF no .NET](./convert-chart-to-pdf/)
 Aprenda a converter gráficos do Excel para PDF no .NET usando o Aspose.Cells com este guia passo a passo! Perfeito para programadores de todos os níveis.
+### [Como arredondar números ao converter Excel para PDF – Guia completo em C#](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
+Aprenda a arredondar números ao gerar PDFs a partir de planilhas Excel usando Aspose.Cells em C# com este tutorial completo.
+
+### [Salvar documento Word como PDF – Guia completo em C#](./save-word-document-as-pdf-complete-c-guide/)
+Aprenda a salvar documentos Word como PDF usando Aspose.Words em C# com este guia completo.
+
 ### [Como definir opções de PDF em C# – Exportar Excel para PDF com controle total](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
 Aprenda a configurar opções avançadas de PDF ao exportar planilhas Excel usando Aspose.Cells em C#.
 
@@ -49,6 +55,24 @@ Aprenda a converter documentos DOCX para PDF usando C# com o Aspose.Words, passo
 Aprenda a salvar uma pasta de trabalho do Excel como PDF/A‑3b usando C# com Aspose.Cells.
 ### [Salvar pasta de trabalho como PDF com Aspose.Cells – Guia completo passo a passo](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
 Aprenda a salvar sua pasta de trabalho Excel como PDF usando Aspose.Cells com instruções detalhadas passo a passo.
+### [Como incorporar fontes em PDF – Salvar a pasta de trabalho como PDF em C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
+Aprenda a incorporar fontes ao gerar PDFs com Aspose.Cells, garantindo que o texto seja exibido corretamente em qualquer dispositivo.
+### [Como incorporar fontes em PDF com C# – Guia completo](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
+Aprenda a incorporar fontes em PDFs usando C# com Aspose.Cells, garantindo que o texto seja exibido corretamente em qualquer dispositivo.
+### [Como inserir Unicode no Excel e salvar como PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
+Aprenda a inserir caracteres Unicode em planilhas Excel e exportá‑las como PDF usando Aspose.Cells para .NET.
+### [Como incorporar fontes ao converter Excel para PDF – Guia passo a passo](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
+Aprenda a incorporar fontes ao converter arquivos Excel em PDF usando Aspose.Cells, garantindo que o texto seja exibido corretamente em todos os dispositivos.
+### [Incorporar fontes em PDF – Guia completo em C# para exportar Excel para PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
+Aprenda a incorporar fontes ao gerar PDFs a partir de arquivos Excel usando C# e Aspose.Cells, garantindo que o texto seja exibido corretamente.
+### [Como Exportar PDF do Excel – Guia Completo para Salvar a Pasta de Trabalho como PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
+Aprenda a exportar planilhas do Excel como PDF usando Aspose.Cells, passo a passo, para salvar sua pasta de trabalho como PDF.
+### [Salvar XLSX como PDF em C# – Guia Completo com PDF/A‑1b](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)
+Aprenda a salvar arquivos XLSX como PDF/A‑1b em C# usando Aspose.Cells, garantindo conformidade e qualidade.
+### [Converter Excel para PDF em C# – guia completo de programação](./convert-excel-to-pdf-in-c-complete-programming-guide/)
+Aprenda passo a passo como converter arquivos Excel para PDF usando C# com o Aspose.Cells. Guia completo para desenvolvedores.
+### [Como salvar PDF com seletores de variação de fonte – guia completo](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
+Aprenda a salvar PDFs preservando seletores de variação de fonte usando Aspose.PDF para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # تنسيق الأرقام والتاريخ المخصص في Excel
@@ -46,36 +44,58 @@
 تعرف على كيفية تطبيق تنسيق رقم مخصص أثناء تصدير جداول البيانات باستخدام C# مع Aspose.Cells لـ .NET خطوة بخطوة.
 ### [كتابة التاريخ والوقت إلى Excel – دليل شامل لمطوري C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
 تعرف على كيفية كتابة التاريخ والوقت إلى ملفات Excel باستخدام Aspose.Cells لـ .NET في دليل شامل لمطوري C#.
+### [إنشاء مصنف Excel في C# – تطبيق تنسيق رقم مخصص](./create-excel-workbook-in-c-apply-custom-number-format/)
+تعلم كيفية إنشاء ملف Excel باستخدام C# وتطبيق تنسيق رقم مخصص باستخدام Aspose.Cells لـ .NET.
+### [كيفية تحليل التاريخ في Excel باستخدام C# – دليل كامل](./how-to-parse-date-in-excel-with-c-complete-guide/)
+تعلم كيفية استخراج وتحليل تواريخ Excel باستخدام C# خطوة بخطوة مع Aspose.Cells لـ .NET.
+### [إنشاء مصنف Excel بتنسيق مخصص – دليل C#](./create-excel-workbook-with-custom-format-c-guide/)
+تعرف على كيفية إنشاء مصنف Excel بتنسيق مخصص باستخدام Aspose.Cells لـ .NET في هذا الدليل التفصيلي.
+### [تحليل تاريخ العصر الياباني في C# باستخدام Aspose.Cells – دليل كامل](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+تعرف على كيفية تحليل تواريخ العصور اليابانية في C# باستخدام Aspose.Cells من خلال دليل شامل خطوة بخطوة.
+
+
+
+
 ### [تحليل DateTime باستخدام عهد الإمبراطور الياباني مع Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 ### [تعيين تنسيق مخصص للخلية في C# – دليل كامل لكتابة وقراءة التواريخ في Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 تعلم كيفية تعيين تنسيق مخصص للخلية وكتابة وقراءة التواريخ في Excel باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [تحويل السلسلة إلى DateTime في C# – كتابة وقراءة التواريخ في Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 تعلم كيفية تحويل النص إلى كائن DateTime في C# وكتابة وقراءة التواريخ في ملفات Excel باستخدام Aspose.Cells لـ .NET.
 ### [كيفية إنشاء مصنف وتحويل سلسلة إلى تاريخ في C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
 تعلم كيفية إنشاء مصنف Excel وتحويل نص إلى تاريخ باستخدام Aspose.Cells لـ .NET في C#.
 ### [ضبط تنسيق تاريخ Excel في C# – دليل شامل خطوة بخطوة](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 تعلم كيفية تعيين تنسيق التاريخ في ملفات Excel باستخدام C# خطوة بخطوة مع Aspose.Cells.
+### [تعيين تنسيق التاريخ في Excel باستخدام C# – دليل تنسيق الاستيراد الكامل](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+تعلم كيفية تعيين تنسيق التاريخ في ملفات Excel باستخدام C# مع دليل شامل لتنسيق الاستيراد الكامل.
+### [إنشاء دفتر عمل Excel بتواريخ التقويم الياباني – دليل كامل](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+تعلم كيفية إنشاء ملف Excel يستخدم تواريخ التقويم الياباني باستخدام Aspose.Cells لـ .NET في دليل شامل خطوة بخطوة.
+### [كيفية إنشاء مصنف Excel وتحليل التواريخ اليابانية في C#](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
+تعرف على طريقة إنشاء مصنف Excel ومعالجة تواريخ يابانية باستخدام C# و Aspose.Cells خطوة بخطوة.
+### [إنشاء مصنف Excel C# – تحديد عدد الأرقام المهمة في Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
+تعرف على كيفية إنشاء مصنف Excel باستخدام C# وتحديد عدد الأرقام المهمة باستخدام Aspose.Cells لـ .NET.
+
+### [كيفية تطبيق تنسيق رقم في Excel باستخدام Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
+تعرف على طريقة تطبيق تنسيق الأرقام في ملفات Excel باستخدام مكتبة Aspose.Cells في .NET.
+### [تنسيق عمود التاريخ في Excel – دليل C# كامل لتصدير DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+تعرف على طريقة تنسيق عمود التاريخ في Excel وتصديره من DataTable باستخدام C# و Aspose.Cells.
+### [تحويل التقويم الياباني في C# – دليل كامل](./japanese-calendar-conversion-in-c-full-guide/)
+تعرف على كيفية تحويل التقويم الياباني باستخدام C# و Aspose.Cells في هذا الدليل الشامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

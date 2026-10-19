@@ -26,6 +26,9 @@
 
 ## 可用教程
 
+### [使用 Java 向 Excel 添加注释 – 完整分步指南](./add-comment-to-excel-using-java-complete-step-by-step-guide/)
+学习如何使用 Aspose.Cells for Java 在 Excel 中添加注释的完整步骤指南。
+
 ### [使用 Aspose.Cells for Java 将图像添加到 Excel 注释：完整指南](./add-image-excel-comment-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 将图片添加到 Excel 注释中。本指南涵盖从设置到实施的所有内容，有效增强您的电子表格功能。
 
@@ -53,7 +56,8 @@
 ### [使用 Aspose.Cells for Java 将 Excel 注释导出为 HTML](./export-excel-comments-html-aspose-cells-java/)
 Aspose.Words Java 代码教程
 
-
+### [如何使用 Java 在 Excel 中添加批注 – 完整指南](./how-to-add-comment-in-excel-with-java-complete-guide/)
+学习如何使用 Aspose.Cells for Java 在 Excel 工作表中编程添加批注，涵盖设置、格式化和保存的完整步骤。
 
 ## 其他资源
 

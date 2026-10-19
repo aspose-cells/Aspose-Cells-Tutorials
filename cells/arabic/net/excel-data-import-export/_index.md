@@ -53,6 +53,14 @@
 تعلم كيفية إنشاء مصنف Excel باستخدام C# وإدراج بيانات JSON ثم حفظه بصيغة XLSX باستخدام Aspose.Cells.
 ### [إنشاء مصنف Excel C# – تطبيق تنسيق العملة واستيراد DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
 تعلم كيفية إنشاء مصنف Excel باستخدام C# وتطبيق تنسيق العملة على الخلايا واستيراد بيانات DataTable باستخدام Aspose.Cells.
+### [إنشاء مصنف جديد في C# – تحويل Markdown إلى Excel بسرعة](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
+تعلم كيفية إنشاء مصنف Excel جديد في C# وتحويل ملفات Markdown إلى Excel بسرعة باستخدام Aspose.Cells for .NET.
+### [بيانات JSON إلى Excel – دليل كامل لتحويل مصفوفة JSON إلى Excel](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
+تعرف على كيفية تحويل بيانات JSON إلى ملفات Excel بسهولة باستخدام Aspose.Cells لـ .NET في هذا الدليل الشامل.
+### [تحويل ورقة العمل إلى DataTable في C# – دليل برمجة كامل](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
+تعلم كيفية تحويل ورقة عمل Excel إلى كائن DataTable باستخدام Aspose.Cells لـ .NET في دليل برمجة شامل.
+### [استيراد JSON إلى Excel باستخدام Aspose.Cells – دليل برمجة كامل](./import-json-to-excel-with-aspose-cells-complete-programming/)
+تعرف على كيفية استيراد بيانات JSON إلى Excel باستخدام Aspose.Cells لـ .NET في هذا الدليل البرمجي الشامل.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

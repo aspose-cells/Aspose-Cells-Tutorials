@@ -54,6 +54,8 @@ Aprenda a calcular libros de Excel en C#, incluyendo técnicas de ordenación y 
 Aprenda a forzar el cálculo de fórmulas en C# para automatizar procesos de Excel, con ejemplos claros y técnicas avanzadas.
 ### [Crear libro de Excel – Convertir matriz a partir de un array con WRAPCOLS](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
 Aprenda a crear un libro de Excel y convertir un array en una matriz usando la función WRAPCOLS de Aspose.Cells.
+### [Cómo evaluar fórmulas en C# – Guía completa de Aspose.Cells](./how-to-evaluate-formulas-in-c-complete-aspose-cells-guide/)
+Aprenda a evaluar fórmulas de Excel en C# usando Aspose.Cells, con ejemplos paso a paso y mejores prácticas para un rendimiento óptimo.
 
 ## Beneficios
 

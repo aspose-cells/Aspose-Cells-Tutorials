@@ -60,28 +60,45 @@ Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie Excel-Formeln prog
 ### [Wie man den Kotangens in Excel mit C# berechnet – Schritt‑für‑Schritt‑Anleitung](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
 Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie den Kotangens in Excel mit C# berechnen.
 ### [Zirkelbezüge in Excel programmgesteuert erkennen](./detecting-circular-reference/)
-Mit Aspose.Cells für .NET erkennen Sie Zirkelbezüge in Excel ganz einfach. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um genaue Berechnungen in Ihren Tabellen zu gewährleisten.
+Mit Aspose.Cells für .NET erkennen Sie Zirkelbezüge in Excel ganz einfach. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung, um genaue Berechnungen in Ihren Tabellen zu gewährleisten.
 ### [Direkte Berechnungsformel in Excel programmgesteuert](./direct-calculation-formula/)
-Entdecken Sie, wie Sie mit Aspose.Cells für .NET Excel-Berechnungen programmgesteuert ausführen. Schritt-für-Schritt-Anleitung für mühelose Excel-Operationen.
+Entdecken Sie, wie Sie mit Aspose.Cells für .NET Excel-Berechnungen programmgesteuert ausführen. Schritt‑für‑Schritt‑Anleitung für mühelose Excel-Operationen.
 ### [Formelberechnung der Arbeitsmappe unterbrechen oder abbrechen](./interrupt-or-cancel-formula-calculation-of-workbook/)
-Erfahren Sie in dieser ausführlichen Schritt-für-Schritt-Anleitung, wie Sie Excel-Formelberechnungen mit Aspose.Cells für .NET unterbrechen.
+Erfahren Sie in dieser ausführlichen Schritt‑für‑Schritt‑Anleitung, wie Sie Excel-Formelberechnungen mit Aspose.Cells für .NET unterbrechen.
 ### [Verarbeiten von Daten mithilfe der Add-In-Funktion in Excel](./processing-data-using-add-in-function/)
 Nutzen Sie das Potenzial von Excel mit Aspose.Cells für .NET. Erfahren Sie Schritt für Schritt, wie Sie Daten mit leistungsstarken Add-In-Funktionen verarbeiten.
 ### [Verarbeiten von Daten mit der Array-Funktion in Excel](./processing-data-using-array-function/)
 Entfesseln Sie die Leistungsfähigkeit von Excel mit Aspose.Cells für .NET. Lernen Sie in diesem ausführlichen Tutorial, Daten mit Array-Funktionen zu verarbeiten.
+### [Erstellen eines Arrays in Excel mit C# – Schritt‑für‑Schritt‑Anleitung](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit C# ein Array in Excel erstellen – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
 ### [Verarbeiten von Daten mithilfe integrierter Funktionen in Excel](./processing-data-using-built-in-functions/)
-Entdecken Sie, wie Sie mit Aspose.Cells für .NET Daten mithilfe integrierter Excel-Funktionen verarbeiten. Folgen Sie einer Schritt-für-Schritt-Anleitung für eine einfache Automatisierung.
+Entdecken Sie, wie Sie mit Aspose.Cells für .NET Daten mithilfe integrierter Excel-Funktionen verarbeiten. Folgen Sie einer Schritt‑für‑Schritt‑Anleitung für eine einfache Automatisierung.
 ### [Verarbeiten von Daten mit R1C1 in Excel](./processing-data-using-r1c1/)
-Erfahren Sie, wie Sie Daten mit R1C1-Formeln in Excel mithilfe von Aspose.Cells für .NET verarbeiten. Schritt-für-Schritt-Anleitung und Beispiele inklusive.
+Erfahren Sie, wie Sie Daten mit R1C1-Formeln in Excel mithilfe von Aspose.Cells für .NET verarbeiten. Schritt‑für‑Schritt‑Anleitung und Beispiele inklusive.
 ### [Registrieren und Aufrufen der Funktion vom Add-In in Excel](./registering-and-calling-function-from-add-in/)
-Entdecken Sie mit unserem einfachen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET Funktionen von Add-Ins in Excel registrieren und aufrufen.
+Entdecken Sie mit unserem einfachen Schritt‑für‑Schritt‑Tutorial, wie Sie mit Aspose.Cells für .NET Funktionen von Add-Ins in Excel registrieren und aufrufen.
 ### [Festlegen der maximalen Zeilenanzahl gemeinsamer Formeln in Excel](./specifying-maximum-rows-of-shared-formula/)
-Entdecken Sie mit diesem einfachen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET die maximale Zeilenanzahl für freigegebene Formeln in Excel festlegen.
 ### [Alle Formeln in C# neu berechnen – Excel aktualisieren](./recalculate-all-formulas-in-c-refresh-excel/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET alle Formeln in einer Arbeitsmappe neu berechnen und das Excel-Dokument aktualisieren.
 ### [c# Excel-Datei erstellen – Schritt‑für‑Schritt‑Anleitung mit bedingter Logik](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.Cells für .NET Excel-Dateien in C# erstellen und bedingte Logik anwenden.
 ### [Wie man ein Array in C# mit Aspose.Cells erweitert – Schritt‑für‑Schritt‑Anleitung](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+### [Wie man WRAPCOLS in C# verwendet – Arrays in Matrizen umformen](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET die WRAPCOLS-Funktion in C# nutzen, um Arrays einfach in Matrizen zu transformieren.
+### [Wie man den Kotangens in Excel mit C# berechnet – Komplettanleitung](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+Entdecken Sie, wie Sie den Kotangens in Excel mithilfe von C# und Aspose.Cells berechnen. Schritt‑für‑Schritt‑Anleitung.
+### [Wie man WRAPCOLS in Excel verwendet – Komplettes C#-Beispiel](./how-to-use-wrapcols-in-excel-complete-c-example/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET die WRAPCOLS-Funktion in Excel nutzen, anhand eines vollständigen C#-Beispiels.
+### [Array-Formel in Excel mit C# anwenden – Komplettanleitung](./apply-array-formula-excel-in-c-complete-guide/)
+Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.Cells für .NET Array-Formeln in Excel mittels C# anwenden.
+### [Wie man ein Excel‑Arbeitsbuch erstellt und Daten mit WRAPCOLS in C# aufteilt](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Excel‑Arbeitsbuch erzeugen und Daten mithilfe von WRAPCOLS in C# aufteilen.
+### [Wie man WRAPCOLS verwendet – Vollständiger Leitfaden für C# Excel-Automatisierung](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Entdecken Sie, wie Sie mit Aspose.Cells für .NET die WRAPCOLS‑Funktion in C# einsetzen, um Excel‑Tabellen effizient zu formatieren.
+### [Formelberechnung erzwingen und Lambda in Excel mit C# verwenden](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET die Berechnung von Formeln erzwingen und Lambda‑Funktionen in C# nutzen.
+### [Excel-Arbeitsmappe mit Formeln erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe erstellen und Formeln vollständig Schritt für Schritt hinzufügen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

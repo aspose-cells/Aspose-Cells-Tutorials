@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Προσαρμοσμένη μορφοποίηση αριθμών και ημερομηνιών στο Excel
@@ -46,11 +44,28 @@
 Μάθετε πώς να εφαρμόζετε προσαρμοσμένες μορφές αριθμού κατά την εξαγωγή δεδομένων σε Excel με C# χρησιμοποιώντας το Aspose.Cells.
 ### [Εγγραφή ημερομηνίας/ώρας στο Excel – Πλήρης οδηγός για προγραμματιστές C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
 Μάθετε πώς να γράφετε τιμές ημερομηνίας και ώρας σε αρχεία Excel με Aspose.Cells για .NET σε αυτόν τον ολοκληρωμένο οδηγό για C# προγραμματιστές.
+### [Δημιουργία βιβλίου εργασίας Excel σε C# – Εφαρμογή προσαρμοσμένης μορφής αριθμού](./create-excel-workbook-in-c-apply-custom-number-format/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel σε C# και να εφαρμόσετε προσαρμοσμένη μορφή αριθμού χρησιμοποιώντας το Aspose.Cells.
+### [Πώς να Αναλύσετε Ημερομηνίες στο Excel με C# – Πλήρης Οδηγός](./how-to-parse-date-in-excel-with-c-complete-guide/)
+Μάθετε πώς να αναλύσετε ημερομηνίες σε αρχεία Excel χρησιμοποιώντας C# με αυτόν τον πλήρη οδηγό.
+### [Δημιουργία βιβλίου εργασίας Excel με προσαρμοσμένη μορφή – Οδηγός C#](./create-excel-workbook-with-custom-format-c-guide/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel με προσαρμοσμένες μορφές χρησιμοποιώντας Aspose.Cells για .NET σε C#.
+### [Ανάλυση ημερομηνίας ιαπωνικής εποχής σε C# με Aspose.Cells – Πλήρης Οδηγός](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+Μάθετε πώς να αναλύετε ημερομηνίες ιαπωνικής εποχής σε C# χρησιμοποιώντας το Aspose.Cells με πλήρη οδηγίες βήμα-βήμα.
+### [Δημιουργία βιβλίου εργασίας Excel με ημερομηνίες ιαπωνικού ημερολογίου – Πλήρης οδηγός](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel με ημερομηνίες ιαπωνικού ημερολογίου χρησιμοποιώντας το Aspose.Cells για .NET.
+### [Πώς να δημιουργήσετε βιβλίο εργασίας Excel και να αναλύσετε ιαπωνικές ημερομηνίες σε C#](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel και να επεξεργαστείτε ιαπωνικές ημερομηνίες χρησιμοποιώντας Aspose.Cells για .NET σε C#.
+### [Δημιουργία βιβλίου εργασίας Excel C# – Περιορισμός σημαντικών ψηφίων](./create-excel-workbook-c-limit-significant-digits-excel/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel σε C# και να περιορίσετε τα σημαντικά ψηφία χρησιμοποιώντας το Aspose.Cells.
+### [Μορφοποίηση στήλης ημερομηνίας στο Excel – Πλήρης οδηγός C# για εξαγωγή DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+Μάθετε πώς να μορφοποιήσετε στήλες ημερομηνίας στο Excel και να εξάγετε DataTable χρησιμοποιώντας C# και Aspose.Cells.
+### [Μετατροπή Ιαπωνικού Ημερολογίου σε C# – Πλήρης Οδηγός](./japanese-calendar-conversion-in-c-full-guide/)
+Μάθετε πώς να μετατρέπετε ημερομηνίες Ιαπωνικού ημερολογίου σε C# χρησιμοποιώντας Aspose.Cells για .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

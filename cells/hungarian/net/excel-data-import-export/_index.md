@@ -53,6 +53,14 @@ Ismerje meg, hogyan kötheti az adatokat C#-ban, és hozhat létre Excel munkaf�
 Ismerje meg, hogyan hozhat létre Excel munkafüzetet C#-ban, szúrhat be JSON adatot, és mentheti XLSX fájlként az Aspose.Cells for .NET segítségével.
 ### [Excel munkafüzet létrehozása C# – Pénznem formátum alkalmazása és DataTable importálása](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
 Ismerje meg, hogyan alkalmazhat pénznemformátumot egy Excel munkafüzetben C#-ban, és hogyan importálhat DataTable adatokat az Aspose.Cells for .NET segítségével.
+### [Új munkafüzet létrehozása C#-ban – Markdown gyors konvertálása Excelbe](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
+Ismerje meg, hogyan hozhat létre új munkafüzetet C#-ban, és konvertálhatja a Markdown fájlokat gyorsan Excel formátumba az Aspose.Cells for .NET segítségével.
+### [JSON adatok Excelbe – Teljes útmutató a JSON tömb Excelbe konvertálásához](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
+Ismerje meg, hogyan konvertálhatja a JSON tömböket Excel táblázatokká az Aspose.Cells for .NET segítségével.
+### [Munkalap átalakítása DataTable-re C#-ban – Teljes programozási útmutató](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
+Ismerje meg, hogyan konvertálhatja a munkalapot DataTable objektummá C#-ban az Aspose.Cells for .NET segítségével, részletes lépésekkel.
+### [JSON importálása Excelbe az Aspose.Cells segítségével – Teljes programozási útmutató](./import-json-to-excel-with-aspose-cells-complete-programming/)
+Ismerje meg, hogyan importálhat JSON adatokat Excel munkalapba az Aspose.Cells for .NET teljes körű útmutatójával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

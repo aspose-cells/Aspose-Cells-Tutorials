@@ -67,6 +67,12 @@ Aspose.Cells kullanarak Markdown içeriğini bir Excel dosyasına yükleyin ve B
 Aspose.Cells for .NET kullanarak JSON verilerini bir Excel şablonuna nasıl ekleyeceğinizi adım adım öğrenin.
 ### [Markdown'ı Excel'e Yükleme – Aspose.Cells ile Markdown Dosyasını İçe Aktarma](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
 Aspose.Cells for .NET kullanarak Markdown dosyasını Excel'e nasıl yükleyeceğinizi adım adım öğrenin.
+### [C# ile JSON'dan Excel Oluşturma – Tam Adım Adım Kılavuz](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
+C# ve Aspose.Cells kullanarak JSON verilerinden Excel dosyası oluşturmayı adım adım öğrenin.
+### [Excel Çalışma Kitabı Oluşturma C# – Hücrelerden Tarih Okuma Tam Kılavuzu](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+Aspose.Cells for .NET ile C# kullanarak Excel çalışma kitabı oluşturun ve hücrelerdeki tarihleri nasıl okuyacağınızı öğrenin.
+### [C#'ta Japon era tarihini ayrıştırma – Tam Kılavuz](./parse-japanese-era-date-in-c-complete-guide/)
+Aspose.Cells for .NET ile C# içinde Japon era tarihlerini nasıl ayrıştıracağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

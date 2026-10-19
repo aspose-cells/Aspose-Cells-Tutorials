@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # तालिकाएँ और सूचियाँ
@@ -56,29 +54,34 @@
 .NET के लिए Aspose.Cells की शक्ति अनलॉक करें। इस विस्तृत चरण-दर-चरण मार्गदर्शिका में क्वेरी डेटा स्रोतों के साथ तालिकाओं को पढ़ना और लिखना सीखें।
 
 ### [एक्सेल में तालिका या सूची की टिप्पणी सेट करें](./setting-comment-of-table-or-list/)
-हमारे आसान चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel में तालिकाओं के लिए टिप्पणियाँ सेट करना सीखें।
+### [C# में तालिका का नाम बदलना – पूर्ण गाइड](./how-to-rename-table-in-c-full-guide/)
+.NET के लिए Aspose.Cells का उपयोग करके C# में तालिका का नाम बदलना सीखें। चरण-दर-चरण निर्देशों के साथ आसानी से तालिका को पुनः नामित करें।
+
 ### [C# में Excel तालिका बनाएं – चरण‑दर‑चरण गाइड](./create-excel-table-in-c-step-by-step-guide/)
 इस गाइड में .NET के लिए Aspose.Cells का उपयोग करके C# में Excel तालिका बनाने की पूरी प्रक्रिया समझाई गई है।
 
 ### [C# में रेंज से टेबल बनाएं – पूर्ण Aspose.Cells ट्यूटोरियल](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
 इस व्यापक गाइड में .NET के लिए Aspose.Cells का उपयोग करके रेंज से टेबल बनाने की पूरी प्रक्रिया सीखें।
+### [Word तालिका में पंक्तियों को हटाएँ – पूर्ण C# गाइड](./delete-rows-word-table-complete-c-guide/)
+C# में Word तालिका से पंक्तियों को हटाने के लिए विस्तृत चरण-दर-चरण मार्गदर्शिका।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Aspose.Cells में तालिका हेडर हटाएँ – पूर्ण गाइड](./remove-table-header-in-aspose-cells-complete-guide/)
 Aspose.Cells का उपयोग करके Excel तालिका के हेडर को हटाने की पूरी प्रक्रिया सीखें। सरल चरणों में डेटा को साफ़ करें।
 ### [C# के साथ Excel में तालिका का नाम बदलें – चरण‑दर‑चरण गाइड](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
 C# कोड का उपयोग करके Excel तालिका का नाम बदलने की प्रक्रिया सीखें, सरल चरणों में पूरी गाइड।
+### [एकाधिक पंक्तियों को हटाएँ Word – तालिका पंक्तियों को हटाने की पूर्ण गाइड](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
+इस विस्तृत गाइड में .NET के लिए Aspose.Words का उपयोग करके Word तालिका से कई पंक्तियों को हटाने की प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

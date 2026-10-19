@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Διαχείριση γραμμών και στηλών
@@ -48,6 +46,8 @@
 Ανακαλύψτε έναν αναλυτικό οδηγό για την αντιγραφή στηλών στο Excel χρησιμοποιώντας το Aspose.Cells για .NET. Απλοποιήστε τις εργασίες δεδομένων σας με σαφείς οδηγίες.
 ### [Αντιγραφή γραμμών χρησιμοποιώντας Aspose.Cells για .NET](./copying-rows/)
 Μάθετε πώς να αντιγράφετε αποτελεσματικά γραμμές σε αρχεία Excel χρησιμοποιώντας το Aspose.Cells για .NET. Αυτός ο οδηγός βήμα προς βήμα απλοποιεί την αντιγραφή γραμμών για τις ανάγκες διαχείρισης δεδομένων σας.
+### [Αντιγραφή γραμμών από ένα φύλλο εργασίας σε άλλο – Πλήρης οδηγός C#](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+Μάθετε πώς να αντιγράψετε γραμμές μεταξύ φύλλων εργασίας στο Excel χρησιμοποιώντας Aspose.Cells για .NET με πλήρη οδηγό C#.
 ### [Ομαδοποίηση γραμμών και στηλών στο Excel με το Aspose.Cells](./grouping-rows-and-columns/)
 Μάθετε πώς να ομαδοποιείτε γραμμές και στήλες στο Excel χρησιμοποιώντας το Aspose.Cells για .NET με αυτόν τον οδηγό βήμα προς βήμα.
 ### [Δημιουργήστε μια γραμμή σύνοψης παρακάτω με το Aspose.Cells για .NET](./summary-row-below/)
@@ -66,6 +66,11 @@
 Μάθετε πώς να διαγράψετε μια στήλη σε ένα αρχείο Excel χρησιμοποιώντας το Aspose.Cells για .NET. Ακολουθήστε τον λεπτομερή, βήμα προς βήμα οδηγό μας για να βελτιστοποιήσετε τις τροποποιήσεις του αρχείου Excel.
 ### [Διαγραφή γραμμής στο Aspose.Cells .NET](./delete-row-aspose-cells/)
 Μάθετε πώς να διαγράψετε μια γραμμή στο Excel με το Aspose.Cells για .NET. Αυτός ο οδηγός βήμα προς βήμα καλύπτει τις προϋποθέσεις, την εισαγωγή κώδικα και μια λεπτομερή επεξήγηση για απρόσκοπτο χειρισμό δεδομένων.
+### [Πώς να διαγράψετε ολόκληρη γραμμή σε αρχείο Excel χρησιμοποιώντας C#](./how-to-delete-entire-row-in-an-excel-file-using-c/)
+Μάθετε πώς να διαγράψετε πλήρως μια γραμμή σε αρχείο Excel με C# χρησιμοποιώντας Aspose.Cells.
+### [πώς να διαγράψετε γραμμές στο Excel με C# – προστασία κεφαλίδας πίνακα](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
+Μάθετε πώς να διαγράψετε γραμμές στο Excel με C# ενώ διατηρείτε την κεφαλίδα του πίνακα προστατευμένη.
+
 ### [Διαγραφή πολλαπλών γραμμών στο Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Μάθετε να διαγράφετε πολλές γραμμές στο Excel χρησιμοποιώντας το Aspose.Cells για .NET. Αυτός ο λεπτομερής οδηγός βήμα προς βήμα καλύπτει τις προϋποθέσεις, παραδείγματα κωδικοποίησης και συχνές ερωτήσεις για προγραμματιστές.
 ### [Εισαγωγή στήλης στο Aspose.Cells .NET](./insert-column-aspose-cells/)
@@ -83,23 +88,23 @@
 ### [Πώς να εισαγάγετε γραμμές στο GridJs – Προσθήκη πολλαπλών γραμμών στο πλέγμα αποδοτικά](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 Μάθετε πώς να προσθέσετε πολλές γραμμές στο GridJs με αποδοτικό τρόπο, βήμα προς βήμα οδηγίες.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Φόρτωση αρχείου Excel C# – Πώς να διαγράψετε γραμμές και να αφαιρέσετε συγκεκριμένες γραμμές](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Μάθετε πώς να φορτώσετε ένα αρχείο Excel σε C# και να διαγράψετε ή να αφαιρέσετε συγκεκριμένες γραμμές με Aspose.Cells.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Διαγραφή γραμμών πίνακα Excel με C# – Οδηγός βήμα προς βήμα](./delete-rows-excel-table-with-c-step-by-step-guide/)
 Μάθετε πώς να διαγράψετε γραμμές από πίνακα Excel χρησιμοποιώντας C# με αναλυτικές οδηγίες βήμα προς βήμα.
 ### [Εισαγωγή γραμμών στο Excel με C# – Οδηγός βήμα‑βήμα](./insert-rows-in-excel-with-c-step-by-step-guide/)
@@ -108,12 +113,14 @@
 Μάθετε πώς να εφαρμόσετε το WRAPCOLS για να δημιουργήσετε διάταξη δύο στηλών σε αρχεία Excel χρησιμοποιώντας C#.
 ### [Πώς να εισάγετε γραμμές στο GridJs – Προσθήκη πολλαπλών γραμμών γρήγορα](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Μάθετε πώς να προσθέσετε πολλές γραμμές στο GridJs γρήγορα με απλό κώδικα, βήμα προς βήμα οδηγίες.
+### [Πώς να χρησιμοποιήσετε το WrapCols σε C# – Πλήρης οδηγός με Excel WrapRows & Επανάληψη τύπων](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Μάθετε πώς να εφαρμόζετε τη μέθοδο WrapCols σε C#, να χρησιμοποιείτε WrapRows και να επαναϋπολογίζετε τύπους στο Excel με το Aspose.Cells.
+### [Μετακίνηση κελιών προς τα πάνω στο Excel με C# – Πλήρης Οδηγός](./shift-cells-up-in-excel-with-c-complete-guide/)
+Μάθετε πώς να μετακινήσετε κελιά προς τα πάνω στο Excel χρησιμοποιώντας C# και Aspose.Cells, βήμα‑βήμα οδηγίες.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

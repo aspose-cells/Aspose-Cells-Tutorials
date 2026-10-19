@@ -44,6 +44,7 @@ Aspose.Cells för .NET erbjuder kraftfulla funktioner för att manipulera Excel-
 | [Flytta i Excel-arbetsblad](./excel-move-worksheet/) | Lär dig flytta kalkylblad i Excel med hjälp av Aspose.Cells för .NET i vår steg-för-steg-guide. Bemästra konsten att programmera i Excel. |  
 | [Skapa ny arbetsbok – Så kopierar du ett kalkylblad med en pivottabell](./create-new-workbook-how-to-copy-a-worksheet-with-a-pivot-tab/) | Lär dig skapa en ny arbetsbok och kopiera ett kalkylblad med en pivottabell med Aspose.Cells för .NET. |  
 | [Hur man kopierar kalkylblad i C# med Aspose.Cells – Komplett guide](./how-to-copy-worksheet-in-c-with-aspose-cells-complete-guide/) | Lär dig hur du kopierar ett kalkylblad i C# med Aspose.Cells i denna kompletta steg-för-steg-guide. |  
+| [Kopiera arbetsbok i C# – Exportera tabell till ett annat kalkylblad](./copy-workbook-in-c-export-table-to-another-worksheet/) | Lär dig hur du kopierar en arbetsbok i C# och exporterar en tabell till ett annat kalkylblad med Aspose.Cells för .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

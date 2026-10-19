@@ -69,6 +69,12 @@ Aspose.Cells for .NET を活用し、C#で日本独自の和暦や日付形式�
 Aspose.Cells for .NET を使用して、JSON データを Excel テンプレートに埋め込む手順をステップバイステップで解説します。
 ### [Markdown を Excel に読み込む方法 – Aspose.Cells で Markdown ファイルをインポート](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
 Aspose.Cells を使用して Markdown ファイルを Excel に取り込み、データを表形式に変換する手順をステップバイステップで解説します。
+### [C# で JSON から Excel を生成する – 完全ステップバイステップガイド](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
+Aspose.Cells for .NET を使用して、JSON データから Excel ファイルを作成する方法をステップバイステップで解説します。
+### [C#でExcelブックを作成 – セルから日付を読み取る完全ガイド](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+このステップバイステップガイドでは、Aspose.Cells for .NET を使用して、セル内の日付を読み取る方法を学びます。
+### [C#で和暦日付を解析する – 完全ガイド](./parse-japanese-era-date-in-c-complete-guide/)
+C#で和暦（元号）の日付文字列をDateTimeに変換する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

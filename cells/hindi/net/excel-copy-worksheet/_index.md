@@ -44,6 +44,7 @@ Aspose.Cells for .NET एक्सेल फाइलों में हेर�
 | [एक्सेल मूव वर्कशीट](./excel-move-worksheet/) | हमारे चरण-दर-चरण गाइड में .NET के लिए Aspose.Cells का उपयोग करके Excel में वर्कशीट को स्थानांतरित करना सीखें। Excel प्रोग्रामिंग की कला में निपुणता प्राप्त करें। |  
 | [नया वर्कबुक बनाएं – पिवट टेबल के साथ वर्कशीट कॉपी करें](./create-new-workbook-how-to-copy-a-worksheet-with-a-pivot-tab/) | इस गाइड में .NET के लिए Aspose.Cells का उपयोग करके पिवट टेबल वाली वर्कशीट को नए वर्कबुक में कॉपी करना सीखें। |  
 | [C# में Aspose.Cells के साथ वर्कशीट कॉपी करने का पूर्ण गाइड](./how-to-copy-worksheet-in-c-with-aspose-cells-complete-guide/) | इस विस्तृत गाइड में .NET के लिए Aspose.Cells का उपयोग करके C# में वर्कशीट कॉपी करने के चरण‑दर‑चरण कोड उदाहरण देखें। |  
+| [C# में वर्कबुक कॉपी करें – तालिका को दूसरे कार्यपत्रक में निर्यात करें](./copy-workbook-in-c-export-table-to-another-worksheet/) | C# में Aspose.Cells का उपयोग करके एक वर्कबुक से तालिका को दूसरे कार्यपत्रक में निर्यात करने का चरण-दर-चरण मार्गदर्शिका। |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -35,6 +35,8 @@ Tìm hiểu cách tùy chỉnh định dạng cột trong Excel bằng Aspose.Ce
 Tìm hiểu cách áp dụng định dạng cho một hàng Excel theo chương trình bằng Aspose.Cells cho .NET. Hướng dẫn chi tiết, từng bước này bao gồm mọi thứ từ căn chỉnh đến đường viền.
 ### [Tạo workbook Excel – Gói các cột và lưu dưới dạng XLSX](./create-excel-workbook-wrap-columns-and-save-as-xlsx/)
 Hướng dẫn tạo workbook Excel, gói các cột để hiển thị nội dung đầy đủ và lưu file dưới định dạng XLSX bằng Aspose.Cells cho .NET.
+### [Cách Định Dạng Cột Excel trong C# – Hướng Dẫn Toàn Diện](./how-to-format-excel-columns-in-c-complete-guide/)
+Tìm hiểu cách định dạng các cột trong Excel bằng C# với Aspose.Cells cho .NET. Hướng dẫn chi tiết, từng bước, giúp bạn nhanh chóng áp dụng.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -44,6 +44,7 @@ Aspose.Cells สำหรับ .NET นำเสนอฟังก์ชัน�
 | [แผ่นงานย้าย Excel](./excel-move-worksheet/) | เรียนรู้การย้ายเวิร์กชีตใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือทีละขั้นตอนของเรา เชี่ยวชาญศิลปะการเขียนโปรแกรม Excel |  
 - [สร้างสมุดงานใหม่ – วิธีคัดลอกแผ่นงานที่มี Pivot Table](./create-new-workbook-how-to-copy-a-worksheet-with-a-pivot-tab/) | เรียนรู้วิธีสร้างสมุดงานใหม่และคัดลอกแผ่นงานที่มี Pivot Table ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด  
 - [วิธีคัดลอกแผ่นงานใน C# ด้วย Aspose.Cells – คู่มือฉบับสมบูรณ์](./how-to-copy-worksheet-in-c-with-aspose-cells-complete-guide/) | เรียนรู้ขั้นตอนการคัดลอกแผ่นงานใน C# ด้วย Aspose.Cells อย่างละเอียด พร้อมตัวอย่างโค้ดที่ทำตามได้ง่าย
+- [คัดลอกสมุดงานใน C# – ส่งออกตารางไปยังแผ่นงานอื่น](./copy-workbook-in-c-export-table-to-another-worksheet/) | เรียนรู้วิธีคัดลอกสมุดงานและส่งออกตารางไปยังแผ่นงานอื่นใน Excel ด้วย Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dokumentum tulajdonságai
@@ -40,35 +38,39 @@ Ismerje meg, hogyan hozhat létre Excel munkafüzetet, adhat hozzá egyéni tula
 ### [Hogyan mentse el az XLSB fájlt egyéni tulajdonságokkal C#‑ban – Lépésről lépésre útmutató](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
 Tanulja meg, hogyan menthet XLSB fájlt egyedi dokumentumtulajdonságokkal C#‑ban, részletes, lépésről‑lépésre útmutatóval.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Hogyan mentse el az XLSB fájlt – Egyéni tulajdonság hozzáadása C#-ban](./how-to-save-xlsb-add-custom-property-in-c/)
 Ismerje meg, hogyan menthet XLSB fájlt, és adhat hozzá egyéni tulajdonságot C#-ban az Aspose.Cells for .NET segítségével.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Hogyan mentse el az XLSB fájlt egy egyéni tulajdonsággal – Lépésről lépésre C# útmutató](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
 Ismerje meg, hogyan menthet XLSB fájlt egyedi tulajdonsággal az Aspose.Cells for .NET segítségével C#-ban.
 ### [Excel munkafüzet létrehozása C# – Egyéni tulajdonság hozzáadása és XLSB mentése](./create-excel-workbook-c-add-custom-property-save-xlsb/)
 Ismerje meg, hogyan hozhat létre Excel munkafüzetet C#-ban, adhat hozzá egyéni tulajdonságot, és mentheti XLSB formátumban.
 ### [Egyéni tulajdonság hozzáadása Excelben C#‑val – Lépés‑ről‑lépésre útmutató](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
 Ismerje meg, hogyan adhat hozzá egyéni tulajdonságokat egy Excel-fájlhoz C#‑ban az Aspose.Cells for .NET segítségével.
+### [Excel metaadatok hozzáadása – Teljes C# munkafüzet útmutató](./how-to-add-excel-metadata-complete-c-workbook-guide/)
+Ismerje meg, hogyan adhat hozzá Excel metaadatokat egy C# munkafüzetben lépésről lépésre útmutatónk segítségével.
+### [Egyéni tulajdonság létrehozása Aspose – Teljes Excel útmutató](./create-custom-property-aspose-complete-excel-guide/)
+Tanulja meg, hogyan hozhat létre egyéni tulajdonságokat az Excelben az Aspose.Cells for .NET segítségével, lépésről lépésre útmutató.
+### [XLSB mentése és egyéni dokumentumtulajdonságok hozzáadása C#-ban](./how-to-save-xlsb-and-add-custom-document-properties-in-c/)
+Tanulja meg, hogyan mentse el az XLSB fájlt és adjon hozzá egyéni dokumentumtulajdonságokat C#-ban az Aspose.Cells for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

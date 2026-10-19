@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabellen en lijsten
@@ -55,23 +53,28 @@ Ontdek de kracht van Aspose.Cells voor .NET. Leer tabellen lezen en schrijven me
 Leer hoe u opmerkingen voor tabellen in Excel instelt met Aspose.Cells voor .NET met onze eenvoudige stapsgewijze handleiding.
 ### [Excel-tabel maken in C# – Stapsgewijze handleiding](./create-excel-table-in-c-step-by-step-guide/)
 Leer hoe u met Aspose.Cells voor .NET een Excel‑tabel maakt in C# met duidelijke stap‑voor‑stap instructies.
+### [Hoe een tabel hernoemen in C# – volledige gids](./how-to-rename-table-in-c-full-guide/)
+Leer stap voor stap hoe u een tabel in Excel hernoemt met Aspose.Cells voor .NET in C#.
+### [Rijen verwijderen uit Word-tabel – Complete C#-gids](./delete-rows-word-table-complete-c-guide/)
+Leer hoe u rijen uit een Word-tabel verwijdert met Aspose.Words voor .NET in C# met deze stapsgewijze handleiding.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Hoe een tabel hernoemen in Excel met C# – Stapsgewijze handleiding](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
 Leer hoe u een tabel in Excel hernoemt met C# in een eenvoudige stap‑voor‑stap gids.
 ### [Verwijder tabelkop in Aspose.Cells – Complete gids](./remove-table-header-in-aspose-cells-complete-guide/)
 Leer hoe u met Aspose.Cells de tabelkop uit een Excel-werkblad verwijdert in een volledige stap‑voor‑stap gids.
+### [Meerdere rijen verwijderen in Word – Complete gids voor het verwijderen van tabelrijen](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
+Leer hoe u meerdere rijen uit een Word-tabel verwijdert met Aspose.Words voor .NET in een eenvoudige stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

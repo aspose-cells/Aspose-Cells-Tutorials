@@ -597,6 +597,9 @@ Aprenda a salvar arquivos do Excel programaticamente usando o Aspose.Cells para 
 ### [Definir a versão do documento Excel com Aspose.Cells em C#](./set-excel-document-version-aspose-csharp)
 Um tutorial de código para Aspose.Cells Net
 
+### [Criar nova pasta de trabalho em C# – Guia passo a passo](./create-new-workbook-in-c-step-by-step-guide/)
+Aprenda a criar uma nova pasta de trabalho do Excel em C# usando Aspose.Cells, passo a passo.
+
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

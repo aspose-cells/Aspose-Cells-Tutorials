@@ -53,6 +53,14 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Daten in C# binden und eine Exc
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe in C# erstellen, JSON-Daten einfügen und die Datei als XLSX speichern.
 ### [Excel-Arbeitsmappe in C# erstellen – Währungsformat anwenden und DataTable importieren](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe in C# erstellen, ein Währungsformat anwenden und Daten aus einer DataTable importieren.
+### [Neues Arbeitsbuch in C# erstellen – Markdown schnell in Excel konvertieren](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein neues Excel-Arbeitsbuch in C# erstellen und Markdown effizient in Excel konvertieren.
+### [JSON-Daten zu Excel – Vollständige Anleitung zum Konvertieren von JSON-Arrays in Excel](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET JSON-Arrays in Excel-Tabellen konvertieren und Daten effizient exportieren.
+### [Worksheet in DataTable konvertieren in C# – Vollständiger Programmierleitfaden](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Arbeitsblatt in ein DataTable-Objekt in C# konvertieren – Schritt für Schritt Anleitung.
+### [JSON nach Excel importieren mit Aspose.Cells – Vollständiger Programmierleitfaden](./import-json-to-excel-with-aspose-cells-complete-programming/)
+Erfahren Sie, wie Sie mit Aspose.Cells JSON-Daten in Excel importieren und dabei alle Schritte der Programmierung vollständig abdecken.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,7 @@
+Title: How to generate dynamic sheet names in Excel with Java
+Slug: how-to-generate-dynamic-sheet-names-in-excel-with-java
+Category: worksheet-management
+ProcessedDate: 2026-09-28T03:33:58.090272
+SourceRepo: AI Search API
+Keywords: dynamic sheet names, generate multiple sheets, create sheets from data, populate excel template java
+PRNumber: 172

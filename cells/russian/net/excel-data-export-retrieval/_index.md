@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Экспорт и извлечение данных Excel
@@ -36,24 +34,31 @@
 Узнайте, как экспортировать данные Excel в C# с помощью Aspose.Cells для .NET в пошаговом руководстве, подходящем как новичкам, так и опытным разработчикам.
 ### [Как экспортировать данные Excel – пошаговое руководство C#](./how-to-export-excel-data-step-by-step-c-guide/)
 Подробное пошаговое руководство по экспорту данных из Excel с использованием Aspose.Cells для .NET на C#.
+### [Экспорт диапазона листа в C# – Полное руководство по программированию](./export-worksheet-range-in-c-complete-programming-guide/)
+Узнайте, как экспортировать диапазон листа Excel в C# с помощью Aspose.Cells, следуя полному пошаговому руководству.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Создание рабочей книги C# – Экспорт DataTable в Excel с форматированием](./create-workbook-c-export-datatable-to-excel-with-formatting/)
 Узнайте, как создать рабочую книгу в C#, экспортировать DataTable в Excel и применить форматирование с помощью Aspose.Cells.
 
 ### [Создание новой рабочей книги и экспорт Excel в TXT с точностью](./create-new-workbook-and-export-excel-to-txt-with-precision/)
 Узнайте, как создать новую рабочую книгу и экспортировать данные Excel в файл TXT с высокой точностью, используя Aspose.Cells.
+### [Как экспортировать диапазон ячеек как таблицу — Полное руководство C#](./how-to-export-cell-range-as-table-complete-c-guide/)
+Узнайте, как экспортировать диапазон ячеек в виде таблицы с помощью Aspose.Cells для .NET в полном руководстве на C#.
+### [Создание листа Excel из DataTable в C# – пошаговое руководство](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+Узнайте, как с помощью Aspose.Cells для .NET создать лист Excel из DataTable в C# в этом пошаговом руководстве.
+### [Как экспортировать таблицу Excel – Полное пошаговое руководство](./how-to-export-excel-table-complete-step-by-step-guide/)
+Узнайте, как экспортировать таблицу Excel с помощью Aspose.Cells для .NET в этом полном пошаговом руководстве, подходящем для всех уровней.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

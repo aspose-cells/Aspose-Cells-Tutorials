@@ -30,6 +30,8 @@ seguir, outro desafio comum: inserir linhas de uma DataTable no Excel sem bagun�
 ## Tutoriais de importação e exportação de dados do Excel
 ### [Importar dados para o Excel com formatação de padrão numérico de banco de dados personalizado](./import-data-to-worksheet-in-excel-with-specified-db-num-custom-pattern-formatting/)
 Aprenda a importar dados para o Excel com formatação DB Num personalizada usando o Aspose.Cells para .NET neste tutorial fácil de seguir.
+### [Importar JSON para Excel com Aspose.Cells – Guia de Programação Completo](./import-json-to-excel-with-aspose-cells-complete-programming/)
+Aprenda a importar arquivos JSON para planilhas Excel usando Aspose.Cells em um guia completo de programação.
 ### [Deslocar a primeira linha para baixo ao inserir linhas de uma tabela de dados no Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Aprenda a inserir linhas de DataTable no Excel sem deslocar a primeira linha para baixo usando o Aspose.Cells para .NET. Guia passo a passo para automação sem esforço.
 ### [Gerar Excel a partir de JSON em C# – Guia passo a passo](./generate-excel-from-json-in-c-step-by-step-guide/)
@@ -53,6 +55,12 @@ Aprenda a vincular dados em C# e gerar uma pasta de trabalho Excel usando Aspose
 Aprenda a criar uma pasta de trabalho Excel em C#, inserir dados JSON e salvar como arquivo XLSX usando Aspose.Cells para .NET.
 ### [Criar Pasta de Trabalho Excel C# – Aplicar Formato de Moeda e Importar DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
 Aprenda a criar uma pasta de trabalho Excel em C#, aplicar formato de moeda e importar dados de um DataTable usando Aspose.Cells para .NET.
+### [Criar nova pasta de trabalho em C# – Converter Markdown para Excel rapidamente](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
+Aprenda a gerar rapidamente uma nova planilha Excel a partir de Markdown usando C# e Aspose.Cells.
+### [json para excel – Guia completo para converter array JSON em Excel](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
+Aprenda a converter dados JSON em planilhas Excel usando Aspose.Cells para .NET com este guia completo.
+### [Converter planilha para DataTable em C# – Guia completo de programação](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
+Aprenda a converter uma planilha do Excel em um DataTable usando Aspose.Cells para .NET em C# com este guia completo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

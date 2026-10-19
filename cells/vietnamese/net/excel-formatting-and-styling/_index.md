@@ -52,6 +52,8 @@ Khám phá cách sử dụng các kiểu và định dạng được xác địn
 Tìm hiểu cách định dạng ô Excel bằng Aspose.Cells cho .NET trong hướng dẫn dễ dàng này. Làm chủ các kiểu và đường viền để trình bày dữ liệu chính xác.
 ### [Làm việc với các kiểu và định dạng đối tượng](./working-with-styles-and-formatting-objects/)
 Tìm hiểu cách định dạng bảng tính Excel bằng Aspose.Cells cho .NET thông qua hướng dẫn từng bước và thành thạo các kiểu như một chuyên gia.
+### [Áp dụng kiểu ô với Aspose.Cells – Nhập DataTable có Định dạng](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+Áp dụng các kiểu ô khi nhập DataTable vào Excel bằng Aspose.Cells, giữ nguyên định dạng dữ liệu.
 ### [Thêm Đường viền vào Ô trong Excel](./adding-borders-to-cells/)
 Tìm hiểu cách thêm đường viền thời trang vào ô trong Excel bằng Aspose.Cells cho .NET. Thực hiện theo hướng dẫn từng bước này để có bảng tính rõ ràng và hấp dẫn.
 ### [Áp dụng đường viền cho phạm vi ô trong Excel](./applying-borders-to-range-of-cells/)

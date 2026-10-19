@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel 資料匯出與檢索
@@ -36,24 +34,31 @@
 本指南逐步說明如何使用 Aspose.Cells for .NET 在 C# 中匯出 Excel 資料，適合所有開發者。
 ### [如何匯出 Excel 資料 – 步驟式 C# 指南](./how-to-export-excel-data-step-by-step-c-guide/)
 本教學逐步說明如何使用 Aspose.Cells for .NET 以 C# 匯出 Excel 資料，適合所有開發者。
+### [在 C# 中匯出工作表範圍 – 完整程式設計指南](./export-worksheet-range-in-c-complete-programming-guide/)
+本完整指南說明如何使用 Aspose.Cells for .NET 在 C# 中匯出指定的工作表範圍。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [建立工作簿 C# – 匯出 DataTable 至 Excel 並套用格式](./create-workbook-c-export-datatable-to-excel-with-formatting/)
 本教學示範如何使用 Aspose.Cells for .NET 於 C# 中建立工作簿，將 DataTable 匯出至 Excel，並套用格式設定。
 
 ### [建立新工作簿並精確匯出 Excel 為 TXT](./create-new-workbook-and-export-excel-to-txt-with-precision/)
 本教學示範如何使用 Aspose.Cells for .NET 建立工作簿，並將 Excel 資料精確匯出為 TXT 檔案。
+### [如何將儲存格範圍匯出為表格 – 完整 C# 指南](./how-to-export-cell-range-as-table-complete-c-guide/)
+本教學說明如何使用 Aspose.Cells for .NET 將指定的儲存格範圍匯出為 Excel 表格，提供完整的 C# 程式碼範例。
+### [在 C# 中從 DataTable 建立 Excel 工作表 – 步驟指南](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+透過本逐步教學學習如何使用 Aspose.Cells for .NET 從 DataTable 產生 Excel 工作表，適合所有開發人員。
+### [如何匯出 Excel 表格 – 完整逐步指南](./how-to-export-excel-table-complete-step-by-step-guide/)
+本完整指南將逐步說明如何使用 Aspose.Cells for .NET 匯出 Excel 表格，適合所有開發人員。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

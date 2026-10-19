@@ -19,15 +19,15 @@
 ## आप क्या सीखेंगे
 
 - एकीकरण और अंतर-संचालन संचालन करने के लिए Java के लिए Aspose.Cells का उपयोग कैसे करें
-- संपूर्ण कोड उदाहरणों के साथ चरण-दर-चरण कार्यान्वयन
+- संपूर्ण कोड उदाहरणों के साथ चरण-दर-स्टेप कार्यान्वयन
 - सर्वोत्तम अभ्यास और अनुकूलन तकनीकें
 - एकीकरण एवं अंतरसंचालनीयता में आम चुनौतियों का समाधान
 
 
 ## उपलब्ध ट्यूटोरियल
 
-### [Excel में Aspose.Cells for Java के साथ VBA को एकीकृत करना: एक चरण-दर-चरण मार्गदर्शिका](./aspose-cells-java-integration-vba-excel/)
-जावा के लिए Aspose.Cells का उपयोग करके Excel में VBA को एकीकृत करना सीखें। यह चरण-दर-चरण मार्गदर्शिका सेटअप, कोड कार्यान्वयन और समस्या निवारण को कवर करती है।
+### [Excel में Aspose.Cells for Java के साथ VBA को एकीकृत करना: एक चरण-दर-स्टेप मार्गदर्शिका](./aspose-cells-java-integration-vba-excel/)
+जावा के लिए Aspose.Cells का उपयोग करके Excel में VBA को एकीकृत करना सीखें। यह चरण-दर-स्टेप मार्गदर्शिका सेटअप, कोड कार्यान्वयन और समस्या निवारण को कवर करती है।
 
 ### [Aspose.Cells के साथ Excel को बेहतर बनाएँ: Java का उपयोग करके वेब एक्सटेंशन और टास्क पैन को एकीकृत करें](./enhance-excel-aspose-cells-web-extensions-task-panes/)
 जानें कि Aspose.Cells for Java के साथ वेब एक्सटेंशन और टास्क पैन जोड़कर अपनी Excel कार्यपुस्तिकाओं को कैसे उन्नत करें, उत्पादकता और डेटा इंटरैक्शन में सुधार करें।
@@ -50,10 +50,26 @@ Excel वेब एक्सटेंशन को आसानी से प्
 ### [Aspose.Cells का उपयोग करके जावा में Excel स्वचालन में महारत हासिल करें: एक संपूर्ण गाइड](./master-excel-operations-aspose-cells-java/)
 Java के लिए Aspose.Cells के साथ Excel कार्यों को स्वचालित करना सीखें, जिसमें कार्यपुस्तिकाओं को लोड करना, वैश्वीकरण विकल्प सेट करना, उप-योग जोड़ना, सूत्रों की गणना करना और स्तंभों को स्वचालित रूप से फिट करना शामिल है।
 
+### [Excel से Word में चार्ट निर्यात कैसे करें – Java गाइड](./how-to-export-charts-from-excel-to-word-java-guide/)
+Java के लिए Aspose.Cells का उपयोग करके Excel के चार्ट को Word दस्तावेज़ में निर्यात करने की चरण-दर-चरण प्रक्रिया सीखें।
+
 ### [Aspose.Cells एकीकरण के साथ जावा शिक्षक वर्ग कार्यान्वयन में महारत हासिल करना](./master-teacher-class-java-aspose-cells/)
-जावा में शिक्षक वर्ग को लागू करना, छात्र डेटा का प्रबंधन करना और उन्नत एक्सेल फ़ाइल हैंडलिंग के लिए Aspose.Cells को एकीकृत करना सीखें।
+### [जावा के साथ Excel को PPTX में बदलें – पूर्ण प्रोग्रामिंग गाइड](./convert-excel-to-pptx-with-java-complete-programming-guide/)
 
+### [जावा में WRAPCOLS का उपयोग कैसे करें – Excel एरे फ़ॉर्मूले की संपूर्ण गाइड](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
+जावा में Aspose.Cells का उपयोग करके WRAPCOLS फ़ंक्शन के साथ एरे फ़ॉर्मूले लागू करने की पूरी प्रक्रिया सीखें।
+### [Excel से PowerPoint बनाएं – पूर्ण Java गाइड](./create-powerpoint-from-excel-full-java-guide/)
+Excel डेटा को PowerPoint प्रस्तुति में बदलना, Aspose.Slides और Java के साथ विस्तृत चरण-दर-स्टेप गाइड।
+### [जावा का उपयोग करके Excel से रेंज कॉपी करें और PowerPoint में निर्यात करें](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
 
+### [Excel को PowerPoint में बदलें – पूर्ण Java गाइड](./convert-excel-to-powerpoint-complete-java-guide/)
+Excel फ़ाइल को PowerPoint प्रस्तुति में बदलने के लिए Aspose.Slides और Java के साथ विस्तृत चरण-दर-चरण मार्गदर्शिका।
+### [Excel से चार्ट को PowerPoint में निर्यात करना – पूर्ण Java गाइड](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
+Java के साथ Aspose.Cells का उपयोग करके Excel चार्ट को PowerPoint स्लाइड में निर्यात करने की चरण-दर-चरण प्रक्रिया सीखें।
+### [Excel को PowerPoint में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-excel-to-powerpoint-full-step-by-step-guide/)
+Excel फ़ाइलों को PowerPoint प्रस्तुतियों में बदलने की पूरी प्रक्रिया, कोड उदाहरणों सहित।
+### [C# में Aspose.Cells के साथ Excel को DOCX के रूप में सहेजना कैसे करें](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+C# में Aspose.Cells का उपयोग करके Excel फ़ाइल को DOCX फ़ॉर्मेट में सहेजने की चरण-दर-स्टेप प्रक्रिया।
 
 ## अतिरिक्त संसाधन
 

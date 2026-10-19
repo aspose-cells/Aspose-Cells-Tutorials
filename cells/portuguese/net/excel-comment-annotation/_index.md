@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Comentários e Anotações do Excel
@@ -40,15 +38,19 @@ Aprenda a adicionar comentários a células no Excel usando o Aspose.Cells para 
 Descubra como formatar comentários do Excel sem esforço usando o Aspose.Cells para .NET. Personalize a fonte, o tamanho e o alinhamento para aprimorar suas planilhas.
 ### [Criar Pasta de Trabalho Excel C# – Adicionar e Preencher Comentários com Marcadores Inteligentes](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
 Aprenda a criar uma pasta de trabalho Excel em C# e inserir comentários usando marcadores inteligentes com Aspose.Cells para .NET.
+### [Adicionar comentário a célula do Excel usando Aspose.Cells C#](./add-comment-to-excel-cell-using-aspose-cells-c/)
+Aprenda a inserir comentários em células do Excel com Aspose.Cells para .NET usando C#. Melhore a clareza das suas planilhas.
+### [Adicionar comentário ao Excel com C# – Guia completo passo a passo](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
+Aprenda a inserir comentários em planilhas Excel usando C# com o Aspose.Cells para .NET. Guia detalhado passo a passo.
+
+
+
+
 ### [Inserir comentário no Excel com C# – guia passo a passo](./insert-comment-into-excel-with-c-step-by-step-guide/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 ### [Criar Pasta de Trabalho Excel C# – Adicionar Comentário e Salvar como XLSX](./create-excel-workbook-c-add-comment-save-as-xlsx/)
 Aprenda a criar uma pasta de trabalho Excel em C# adicionando um comentário e salvando como XLSX usando Aspose.Cells para .NET.
 
@@ -56,11 +58,18 @@ Aprenda a criar uma pasta de trabalho Excel em C# adicionando um comentário e s
 Aprenda a inserir comentários em um modelo do Excel usando Marcadores Inteligentes em C# com Aspose.Cells para .NET.
 ### [Criar arquivo Excel programaticamente – Adicionar comentários e salvar como XLSX](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
 Aprenda a criar um arquivo Excel programaticamente, adicionar comentários e salvá-lo como XLSX usando Aspose.Cells para .NET.
+### [Adicionar comentário de célula no Excel com Aspose.Cells Smart Marker](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
+Aprenda a inserir comentários em células do Excel usando o recurso Smart Marker do Aspose.Cells para .NET.
+### [Adicionar comentário a célula em C# – Gerar Excel a partir de dados](./add-comment-to-cell-in-c-generate-excel-from-data/)
+Aprenda a adicionar um comentário a uma célula usando C# e gerar um arquivo Excel a partir de dados com Aspose.Cells para .NET.
+### [Inserir Comentário no Excel com C# – Guia Completo de SmartMarker](./insert-excel-comment-with-c-complete-smartmarker-guide/)
+Aprenda a inserir comentários no Excel usando C# e SmartMarker com Aspose.Cells para .NET.
+### [Como inserir comentário no Excel usando Aspose.Cells](./how-to-insert-comment-in-excel-using-aspose-cells/)
+Aprenda a inserir comentários no Excel com Aspose.Cells para .NET, melhorando a clareza e colaboração nas suas planilhas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

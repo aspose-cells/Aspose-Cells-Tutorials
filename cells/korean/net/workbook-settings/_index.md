@@ -52,6 +52,8 @@ Aspose.Cells for .NET의 범위 수식 로컬 기능과 유사한 셀 수식을 
 Aspose.Cells for .NET을 사용하여 독일어 로캘에서 명명된 범위 수식을 처리하는 방법을 알아보세요. Excel 파일을 프로그래밍 방식으로 생성, 조작 및 저장하는 방법도 알아봅니다.
 ### [C#에서 일본어 통합 문서 만들기 – 완전 단계별 가이드](./create-japanese-workbook-in-c-complete-step-by-step-guide/)
 Aspose.Cells for .NET을 사용하여 C#에서 일본어 워크북을 만드는 방법을 단계별로 안내합니다.
+### [C#에서 Aspose.Cells를 사용해 일본 연호 파싱 활성화](./enable-japanese-era-parsing-in-c-with-aspose-cells/)
+Aspose.Cells for .NET을 사용해 C#에서 일본 연호를 파싱하도록 설정하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

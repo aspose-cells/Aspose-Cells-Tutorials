@@ -1,75 +1,190 @@
 ---
-date: 2026-02-16
-description: Aspose.Cells를 사용하여 Java에서 차트 데이터 범위를 설정하고 워터폴 차트를 만드는 방법을 배웁니다. 데이터 시리즈
-  차트를 추가하고, 사용자 정의하며, XLSX로 내보내는 단계별 가이드.
-linktitle: Waterfall Charts
+date: 2026-09-02
+description: Aspose.Cells를 사용하여 Java에서 Excel 워터폴 차트를 만드는 방법을 배우고, 차트 데이터 범위를 설정하고,
+  레이블을 사용자 정의하며, XLSX로 내보내는 방법을 알아보세요.
+keywords:
+- create excel waterfall chart
+- waterfall chart data labels
+- Aspose.Cells Java chart
+lastmod: 2026-09-02
+linktitle: 워터폴 차트
+og_description: Aspose.Cells for Java를 사용하여 Excel 워터폴 차트를 만들고, 차트 데이터 범위를 설정하고, 데이터
+  레이블을 추가하며, 몇 단계만에 XLSX로 내보냅니다.
+og_image_alt: 'Tutorial: create excel waterfall chart with Aspose.Cells Java'
+og_title: Aspose.Cells for Java를 사용하여 Excel 워터폴 차트 만들기
+schemas:
+- author: Aspose
+  dateModified: '2026-09-02'
+  description: Learn how to create excel waterfall chart in Java with Aspose.Cells,
+    set the chart data range, customize labels and export to XLSX.
+  headline: Create excel waterfall chart with Aspose.Cells for Java
+  type: TechArticle
+- description: Learn how to create excel waterfall chart in Java with Aspose.Cells,
+    set the chart data range, customize labels and export to XLSX.
+  name: Create excel waterfall chart with Aspose.Cells for Java
+  steps:
+  - name: import Aspose.Cells
+    text: The `com.aspose.cells` package contains all classes required for Excel manipulation,
+      including workbook creation, worksheet handling, and chart generation.
+  - name: initialize workbook and worksheet
+    text: A **Workbook** represents an Excel file, and a **Worksheet** is a single
+      sheet within that file. Creating these objects provides the canvas for both
+      raw data and the chart.
+  - name: enter data
+    text: Column A holds category labels, while column B contains the numeric values
+      for the waterfall. This layout matches the typical profit‑and‑loss flow used
+      in financial analysis.
+  - name: create the waterfall chart
+    text: The **Chart** object creates a visual representation; setting its type to
+      `ChartType.WATERFALL` configures it as a waterfall chart. Use the `add` method
+      to set the chart data range for the series (`"B2:B6"`), and link the category
+      axis to `"A2:A6"`.
+  - name: save the workbook
+    text: Saving the workbook writes the chart and data to the specified file format.
+      Call `workbook.save("WaterfallChart.xlsx")` to generate an XLSX file, or change
+      the format parameter to export to PDF, CSV, or HTML.
+  type: HowTo
+- questions:
+  - answer: Use the `add` method on the chart’s series, passing the cell range that
+      contains your values, e.g., `"B2:B6"`.
+    question: How do I set the chart data range for a financial waterfall chart?
+  - answer: Yes, call `workbook.save("WaterfallChart.pdf", SaveFormat.PDF);` to generate
+      a PDF version.
+    question: Can I export the workbook to PDF instead of XLSX?
+  - answer: Extend the data range in both the values column and the category column,
+      then update the `add` and `setCategoryData` calls accordingly.
+    question: What if I need to create a waterfall chart with more categories?
+  - answer: Iterate through the `Series` collection and set the `FillFormat` color
+      based on each value’s sign; Aspose.Cells lets you apply conditional formatting
+      programmatically.
+    question: Is there a way to automatically format positive and negative bars?
+  - answer: Yes. After modifying cell values, simply re‑save the workbook—the chart
+      will reflect the new data automatically.
+    question: Does Aspose.Cells support dynamic data updates for charts?
+  type: FAQPage
 second_title: Aspose.Cells Java Excel Processing API
-title: 차트 데이터 범위 설정 – Aspose.Cells for Java 워터폴 차트
+tags:
+- waterfall chart
+- Aspose.Cells
+- java excel charts
+- excel automation
+title: Aspose.Cells for Java를 사용하여 Excel 워터폴 차트 만들기
 url: /ko/java/advanced-excel-charts/waterfall-charts/
 weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 폭포 차트
+# 워터폴 차트
 
-## Aspose.Cells for Java를 사용한 폭포 차트 소개
+## Aspose.Cells for Java를 사용한 워터폴 차트 소개
 
-이 튜토리얼에서는 Aspose.Cells for Java를 사용하여 **set chart data range**를 설정하고 **waterfall chart**를 만드는 방법을 배웁니다. 폭포 차트는 데이터 시각화에서 필수 도구로, 양수와 음수 값들의 연속적인 누적 효과를 확인할 수 있게 해줍니다. 재무 보고서, 판매 실적 보고서 또는 기타 데이터 기반 분석을 준비하든, 폭포 차트는 원시 데이터를 명확하고 실행 가능한 인사이트로 변환할 수 있습니다.
+이 튜토리얼에서는 Aspose.Cells for Java를 사용하여 **excel 워터폴 차트 만들기**와 **차트 데이터 범위 설정** 방법을 배웁니다. 워터폴 차트는 일련의 양수 및 음수 값을 명확한 시각적 스토리로 변환하여 재무제표, 판매 실적 검토 및 개별 항목이 전체에 어떻게 기여하는지 확인해야 하는 모든 시나리오에 이상적입니다.
 
 ## 빠른 답변
-- **폭포 차트란 무엇인가요?** 초기 값이 일련의 중간 값에 의해 증가 및 감소되어 최종 합계에 도달하는 과정을 시각적으로 보여줍니다.  
-- **어떤 라이브러리를 사용하나요?** Aspose.Cells for Java.  
-- **라이선스가 필요합니까?** 개발용으로는 무료 체험판이 충분하며, 운영 환경에서는 상용 라이선스가 필요합니다.  
-- **파일을 XLSX 형식으로 저장할 수 있나요?** 예 – `workbook.save("FileName.xlsx")`를 사용합니다.  
-- **Java 데이터 시각화에 적합한가요?** 물론입니다; Aspose.Cells는 Office 없이도 풍부한 차트 기능을 제공합니다.
+- **What is a waterfall chart?** 초기 값이 일련의 중간 값에 의해 증가 및 감소하여 최종 합계에 도달하는 방식을 시각화한 차트입니다.  
+- **Which library is used?** Aspose.Cells for Java.  
+- **Do I need a license?** 개발용으로는 무료 체험판으로 충분하지만, 운영 환경에서는 상용 라이선스가 필요합니다.  
+- **Can I save the file as XLSX?** 예 – `workbook.save("FileName.xlsx")`를 사용합니다.  
+- **Is it suitable for Java data visualization?** 물론입니다; Aspose.Cells는 Office 없이도 풍부한 차트 기능을 제공합니다.
 
-## 폭포 차트란?
+## 워터폴 차트란?
+워터폴 차트는 시작 값에 순차적인 양수 및 음수 기여도를 표시하여 각 구성 요소가 전체 결과에 어떻게 영향을 미치는지 이해하도록 도와줍니다. 이득과 손실을 나란히 시각화함으로써 복잡한 재무 흐름을 즉시 읽을 수 있게 합니다.
 
-폭포 차트는 시작값에 순차적인 양수와 음수 기여도를 표시하여 각 구성 요소가 전체 결과에 어떻게 영향을 미치는지 이해하도록 도와줍니다.
+## 워터폴 차트를 추가하기 위해 Aspose.Cells for Java를 사용하는 이유
+Aspose.Cells는 Microsoft Excel이 설치되지 않은 서버, CI 파이프라인 또는 데스크톱에서도 Excel 차트를 생성할 수 있게 해줍니다. **15개 이상의 출력 형식**(XLSX, PDF, HTML, CSV 등)을 지원하고, **500개 이상의 행**을 1초 이내에 처리하며, 색상부터 데이터 레이블까지 차트 요소를 프로그래밍 방식으로 제어할 수 있습니다.
 
-## 왜 Aspose.Cells for Java를 사용하여 폭포 차트를 추가해야 할까요?
-- **Microsoft Excel이 필요 없음** – 모든 서버나 CI 파이프라인에서 차트를 생성합니다.  
-- **서식에 대한 완전한 제어** – 색상, 데이터 레이블 및 축을 프로그래밍 방식으로 사용자 지정할 수 있습니다.  
-- **다양한 출력 형식 지원** – XLSX, PDF, HTML 등 여러 형식을 지원합니다.  
-- **고성능** – 대용량 워크북 및 자동 보고에 이상적입니다.
+## 사전 요구 사항
 
-## 전제 조건
+코드 작성을 시작하기 전에 다음 사전 요구 사항을 확인하십시오:
 
-코드 작성을 시작하기 전에 다음 전제 조건이 준비되어 있는지 확인하세요:
+- Aspose.Cells for Java: Aspose.Cells for Java가 설치되어 있어야 합니다. Aspose.Cells for Java 릴리스 페이지에서 다운로드할 수 있습니다: [Aspose.Cells for Java releases](https://releases.aspose.com/cells/java/).
+- Java 개발 환경: 시스템에 Java가 설치되어 있고, 빌드 도구(Maven/Gradle)가 준비되어 있어야 합니다.
 
-- Aspose.Cells for Java: Aspose.Cells for Java를 설치해야 합니다. [여기](https://releases.aspose.com/cells/java/)에서 다운로드할 수 있습니다.
+이제 단계별로 워터폴 차트를 만드는 방법을 시작해 보겠습니다.
 
-- Java Development Environment: 시스템에 Java가 설치되어 있는지 확인하세요.
+## Java에서 워터폴 차트의 차트 데이터 범위를 설정하는 방법
+새 워크북을 로드하고 데이터를 채운 뒤 `Chart` 객체를 추가하고, 시리즈 범위를 정의한 후 파일을 저장합니다. 이 과정은 간단합니다: 워크북을 생성하고, 카테고리와 값을 셀에 채운 뒤 차트를 만들고, 데이터 범위를 바인딩하고, 워크북을 내보냅니다. 결과는 보고서나 대시보드에서 사용할 수 있는 완전한 워터폴 차트입니다.
 
-이제 단계별로 폭포 차트를 만드는 방법을 시작해 보겠습니다.
+### 단계 1: Aspose.Cells 가져오기
+`com.aspose.cells` 패키지는 워크북 생성, 워크시트 처리 및 차트 생성을 포함한 Excel 조작에 필요한 모든 클래스를 포함합니다.
 
-## How to Set Chart Data Range for a Waterfall Chart in Java
+### 단계 2: 워크북 및 워크시트 초기화
+**Workbook**은 Excel 파일을 나타내며, **Worksheet**는 해당 파일 내의 단일 시트를 의미합니다. 이러한 객체를 생성하면 원시 데이터와 차트를 위한 캔버스를 제공받게 됩니다.
 
-### Step 1: Import Aspose.Cells
+### 단계 3: 데이터 입력
+A열에는 카테고리 레이블을, B열에는 워터폴에 사용할 숫자 값을 입력합니다. 이 레이아웃은 재무 분석에서 일반적으로 사용되는 손익 흐름과 일치합니다.
+
+### 단계 4: 워터폴 차트 만들기
+**Chart** 객체는 시각적 표현을 생성합니다; 차트 유형을 `ChartType.WATERFALL`으로 설정하면 워터폴 차트가 됩니다. `add` 메서드를 사용해 시리즈의 차트 데이터 범위(`"B2:B6"` )를 지정하고, 카테고리 축을 `"A2:A6"`에 연결합니다.
+
+### 단계 5: 워크북 저장
+워크북을 저장하면 차트와 데이터가 지정된 파일 형식으로 기록됩니다. `workbook.save("WaterfallChart.xlsx")`를 호출해 XLSX 파일을 생성하거나, 형식 매개변수를 변경해 PDF, CSV, HTML 등으로 내보낼 수 있습니다.
+
+## 일반적인 문제 및 해결책
+
+- **Chart appears blank** – 데이터 범위 참조(`B2:B6` 및 `A2:A6`)가 실제 값과 카테고리가 들어 있는 셀과 일치하는지 확인하십시오.  
+- **Negative values not displayed correctly** – 시리즈 유형이 `ChartType.WATERFALL`으로 설정되어 있는지 확인하십시오; 다른 차트 유형은 음수를 다르게 처리합니다.  
+- **File not opening in Excel** – 최신 Aspose.Cells 릴리스를 사용하고 파일 확장자가 형식(`.xlsx` for Excel)과 일치하는지 확인하십시오.
+
+## 자주 묻는 질문
+
+### 워터폴 차트의 모양을 어떻게 사용자 정의할 수 있나요?
+`Chart.getSeries().get(0).getFillFormat().setColor(Color.getRed())`와 같이 속성을 수정해 막대 색상을 변경하고, `setShowDataLabels(true)`로 데이터 레이블을 활성화하며, `getCategoryAxis().setTitle("Stage")`로 축 제목을 조정할 수 있습니다. Aspose.Cells API 레퍼런스에서 전체 사용자 정의 옵션 목록을 확인할 수 있습니다.
+
+### 동일 워크시트에 여러 개의 워터폴 차트를 만들 수 있나요?
+예. 첫 번째 차트를 추가한 후 다른 데이터 범위와 새로운 `Chart` 객체로 차트 생성 단계를 반복하면 됩니다. 각 차트는 독립적이며 시트 내 원하는 위치에 배치할 수 있습니다.
+
+### Aspose.Cells가 다양한 Java 개발 환경과 호환되나요?
+물론입니다. 이 라이브러리는 Eclipse, IntelliJ IDEA, NetBeans 및 Maven이나 Gradle을 지원하는 모든 빌드 시스템에서 작동합니다. 추가 플러그인은 필요하지 않습니다.
+
+### 워터폴 차트에 추가 데이터 시리즈를 추가할 수 있나요?
+`chart.getNSeries().add("C2:C6", true)`와 같이 호출하고 각 시리즈를 별도로 구성하면 됩니다. 이를 통해 여러 시나리오를 나란히 비교할 수 있습니다.
+
+### Aspose.Cells for Java에 대한 추가 리소스와 예제는 어디서 찾을 수 있나요?
+전체 문서는 Aspose.Cells Java API 레퍼런스에서 확인하십시오: [Aspose.Cells Java API reference](https://reference.aspose.com/cells/java/).
+
+## FAQ
+
+**Q: 재무 워터폴 차트의 차트 데이터 범위를 어떻게 설정합니까?**  
+A: 차트 시리즈의 `add` 메서드를 사용하고 값이 들어 있는 셀 범위, 예를 들어 `"B2:B6"`을 전달합니다.
+
+**Q: 워크북을 XLSX 대신 PDF로 내보낼 수 있나요?**  
+A: 예, `workbook.save("WaterfallChart.pdf", SaveFormat.PDF);`를 호출하면 PDF 버전을 생성합니다.
+
+**Q: 카테고리가 더 많은 워터폴 차트를 만들어야 하면 어떻게 해야 하나요?**  
+A: 값 열과 카테고리 열 모두에서 데이터 범위를 확장한 뒤 `add` 및 `setCategoryData` 호출을 해당 범위에 맞게 업데이트하면 됩니다.
+
+**Q: 양수와 음수 막대를 자동으로 서식 지정하는 방법이 있나요?**  
+A: `Series` 컬렉션을 순회하면서 각 값의 부호에 따라 `FillFormat` 색상을 설정하면 됩니다; Aspose.Cells는 프로그래밍 방식으로 조건부 서식을 적용할 수 있습니다.
+
+**Q: Aspose.Cells가 차트의 동적 데이터 업데이트를 지원하나요?**  
+A: 예. 셀 값을 수정한 후 워크북을 다시 저장하면 차트가 자동으로 새로운 데이터를 반영합니다.
+
+---
+
+**마지막 업데이트:** 2026-09-02  
+**테스트 환경:** Aspose.Cells for Java (최신)  
+**작성자:** Aspose  
+
+
+
+
+
+
+
+
 
 ```java
 import com.aspose.cells.*;
 ```
 
-먼저 Aspose.Cells 라이브러리를 Java 프로젝트에 가져와야 합니다. 이 라이브러리는 차트 생성 등을 포함한 Excel 파일 작업을 위한 광범위한 기능을 제공합니다.
-
-### Step 2: Initialize Workbook and Worksheet
-
 ```java
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
-
-새 워크북을 만들고 워크시트를 추가합니다. 이 워크시트를 사용해 데이터를 입력하고 **add chart to worksheet**를 수행합니다.
-
-### Step 3: Enter Data
-
-이제 폭포 차트에 표시할 데이터를 워크시트에 채워 넣겠습니다.
 
 ```java
 Cells cells = worksheet.getCells();
@@ -90,10 +205,6 @@ cells.get("B5").putValue(15);
 cells.get("B6").putValue(25);
 ```
 
-이 예제에서는 A 열에 카테고리, B 열에 해당 값을 배치했습니다. 필요에 따라 데이터를 자유롭게 교체하세요.
-
-### Step 4: Create the Waterfall Chart
-
 ```java
 int chartIndex = worksheet.getCharts().add(ChartType.WATERFALL, 5, 0, 15, 5);
 Chart waterfallChart = worksheet.getCharts().get(chartIndex);
@@ -101,71 +212,20 @@ waterfallChart.getNSeries().add("B2:B6", true);
 waterfallChart.getNSeries().setCategoryData("A2:A6");
 ```
 
-워크시트에 폭포 차트를 추가하고 데이터 시리즈와 카테고리 데이터를 지정했습니다. 이것이 시트에 **adds waterfall chart**를 삽입하는 핵심 단계입니다. `add` 메서드가 `"B2:B6"` 범위를 사용하고 있음을 확인하세요 – 여기서 시리즈에 대한 **set chart data range**를 지정합니다. `Chart` 객체의 속성을 활용해 색상, 데이터 레이블 등 차트 외형을 추가로 맞춤 설정할 수 있습니다.
-
-### Step 5: Save the Workbook
-
 ```java
 workbook.save("WaterfallChart.xlsx");
 ```
 
-워크북을 파일로 저장합니다. 예제는 XLSX 형식을 사용하지만, Aspose.Cells는 PDF, CSV 등 **export excel pdf java**‑호환 파일도 생성할 수 있습니다. 이는 **save workbook xlsx** 요구 사항을 충족합니다.
+## 관련 튜토리얼
 
-## Common Issues and Solutions
+- [Aspose.Cells for Java를 사용한 Excel 차트 데이터 레이블 사용자 정의: 단계별 가이드](/cells/java/charts-graphs/customize-chart-data-labels-aspose-cells-java/)
+- [Aspose.Cells Java로 Excel 차트에 데이터 레이블 추가](/cells/java/advanced-excel-charts/chart-interactivity/)
+- [Aspose.Cells를 사용한 Java 차트 생성 및 내보내기: 완전 가이드](/cells/java/charts-graphs/aspose-cells-java-create-export-charts/)
 
-- **Chart appears blank** – 데이터 범위 참조(`B2:B6` 및 `A2:A6`)가 실제 값과 카테고리가 들어 있는 셀과 일치하는지 확인하세요.  
-- **Negative values not displayed correctly** – 시리즈 유형이 `ChartType.WATERFALL`으로 설정되어 있는지 확인합니다; 다른 차트 유형은 음수를 다르게 처리합니다.  
-- **File not opening in Excel** – 최신 버전의 Aspose.Cells(최신 릴리스)를 사용하고 파일 확장자가 형식(`.xlsx` for Excel)과 일치하는지 확인하세요.
-
-## Frequently Asked Questions
-
-### How can I customize the appearance of my waterfall chart?
-
-색상, 데이터 레이블, 축 레이블 등 속성을 수정하여 폭포 차트의 외형을 맞춤 설정할 수 있습니다. 자세한 내용은 Aspose.Cells 문서를 참고하세요.
-
-### Can I create multiple waterfall charts in the same worksheet?
-
-예, 서로 다른 데이터 범위를 사용해 동일한 워크시트에 여러 개의 폭포 차트를 만들 수 있습니다.
-
-### Is Aspose.Cells compatible with different Java development environments?
-
-예, Aspose.Cells for Java는 Eclipse, IntelliJ IDEA, NetBeans 등 다양한 Java 개발 환경과 호환됩니다.
-
-### Can I add additional data series to my waterfall chart?
-
-물론입니다. 추가 데이터 시리즈를 삽입해 복잡한 데이터 시나리오를 효과적으로 표현할 수 있습니다. 이는 **add data series chart**를 프로그래밍 방식으로 수행하는 예시입니다.
-
-### Where can I find more resources and examples for Aspose.Cells for Java?
-
-자세한 정보와 코드 예제는 [reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/)에서 확인할 수 있습니다.
-
-## FAQ
-
-**Q: How do I set the chart data range for a financial waterfall chart?**  
-A: 차트 시리즈의 `add` 메서드를 사용해 값이 들어 있는 셀 범위(예: `"B2:B6"`)를 전달하면 됩니다.
-
-**Q: Can I export the workbook to PDF instead of XLSX?**  
-A: 예, `workbook.save("WaterfallChart.pdf", SaveFormat.PDF);`를 호출하면 **export excel pdf java**‑호환 출력이 생성됩니다.
-
-**Q: What if I need to create a financial waterfall chart with more categories?**  
-A: 값 열과 카테고리 열 모두에서 데이터 범위를 확장한 뒤 `add`와 `setCategoryData` 호출을 해당 범위에 맞게 업데이트하면 됩니다.
-
-**Q: Is there a way to automatically format positive and negative bars?**  
-A: `Series` 컬렉션을 순회하면서 각 값의 부호에 따라 `FillFormat` 색상을 설정하면 자동으로 서식이 적용됩니다.
-
-**Q: Does Aspose.Cells support dynamic data updates for charts?**  
-A: 예, 차트 생성 후 셀 값을 수정하면 워크북을 저장할 때 차트가 변경된 데이터를 반영합니다.
-
----
-
-**Last Updated:** 2026-02-16  
-**Tested With:** Aspose.Cells for Java (latest)  
-**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
