@@ -70,6 +70,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET den Druckbereich festlegen und 
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Daten programmgesteuert in ein Word-Dokument konvertieren – schneller C#-Leitfaden.
 ### [Wie man DOCX aus Excel speichert – Vollständige Anleitung zum Exportieren von Diagrammen nach Word](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
 Erfahren Sie, wie Sie mit Aspose.Cells Excel-Diagramme programmgesteuert in ein DOCX-Dokument exportieren und speichern.
+### [Pivot-Tabelle kopieren und Excel nach PPTX exportieren mit Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
+Erfahren Sie, wie Sie mit Aspose.Cells Pivot-Tabellen kopieren und Excel-Arbeitsmappen programmgesteuert in PPTX-Präsentationen exportieren.
 ### [PowerPoint aus Excel erstellen – Komplettes C#‑Tutorial](./create-powerpoint-from-excel-complete-c-tutorial/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel‑Daten programmgesteuert in PowerPoint‑Präsentationen konvertieren – Schritt‑für‑Schritt‑Anleitung.
 ### [Exportieren von Excel nach PowerPoint mit Aspose.Cells – vollständige Programmieranleitung](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)

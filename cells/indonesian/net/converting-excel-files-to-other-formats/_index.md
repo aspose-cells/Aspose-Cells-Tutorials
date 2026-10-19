@@ -81,10 +81,6 @@ Pelajari cara mengekspor file Excel ke PowerPoint secara terprogram menggunakan 
 Pelajari cara mengekspor data Excel ke presentasi PowerPoint menggunakan C# dengan Aspose.Cells dalam panduan lengkap ini.
 ### [Mengonversi Excel ke PowerPoint – Panduan Langkah‑demi‑Langkah C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
 Pelajari cara mengonversi file Excel ke PowerPoint secara terprogram menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah dalam C#.
-### [Simpan Excel sebagai Teks – Panduan Lengkap C# untuk Mengekspor Excel ke TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
-Pelajari cara mengekspor file Excel ke format TXT menggunakan Aspose.Cells untuk .NET dengan contoh kode C# yang mudah diikuti.
-### [Cara Mengekspor Excel – Panduan Teks Tab-Delimited](./how-to-export-excel-tab-delimited-text-guide/)
-Pelajari cara mengekspor file Excel menjadi teks berformat tab-delimited menggunakan Aspose.Cells untuk .NET.
 ### [Cara Mengekspor Excel ke PowerPoint – Panduan Lengkap C#](./how-to-export-excel-to-powerpoint-complete-c-guide/)
 Pelajari cara mengekspor data Excel ke presentasi PowerPoint menggunakan Aspose.Cells for .NET dengan contoh kode C# lengkap.
 ### [Mengonversi Excel ke PNG secara Terprogram di .NET](./how-to-convert-excel-to-png-with-c-step-by-step-guide/)
@@ -107,6 +103,12 @@ Pelajari cara mengekspor file Excel ke format TXT menggunakan Aspose.Cells untuk
 Pelajari cara mengekspor file Excel ke presentasi PowerPoint secara terprogram menggunakan Aspose.Cells dalam panduan lengkap ini.
 ### [Cara Mengekspor Excel ke PowerPoint – Panduan Lengkap](./how-to-export-excel-to-powerpoint-complete-guide/)
 Pelajari cara mengekspor file Excel ke presentasi PowerPoint secara terprogram menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah ini.
+### [Simpan Excel sebagai Teks – Panduan Lengkap C# untuk Mengekspor Excel ke TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
+Pelajari cara mengekspor file Excel ke format TXT menggunakan Aspose.Cells untuk .NET dengan contoh kode C# yang mudah diikuti.
+### [Cara Mengekspor Excel – Panduan Teks Tab-Delimited](./how-to-export-excel-tab-delimited-text-guide/)
+Pelajari cara mengekspor file Excel menjadi teks berformat tab-delimited menggunakan Aspose.Cells untuk .NET.
+### [Salin tabel pivot dan ekspor Excel ke PPTX dengan Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
+Pelajari cara menyalin tabel pivot dan mengekspor file Excel ke format PPTX menggunakan Aspose.Cells untuk .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

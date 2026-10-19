@@ -69,14 +69,8 @@ Aprenda a converter planilhas do Excel em apresentações PowerPoint usando C# e
 Aprenda a exportar planilhas do Excel para apresentações PowerPoint usando C# e Aspose.Cells neste guia completo.
 ### [Como exportar Excel para PowerPoint – Guia completo](./how-to-export-excel-to-powerpoint-complete-guide/)
 Aprenda a exportar planilhas do Excel para apresentações PowerPoint programaticamente usando Aspose.Cells para .NET neste guia completo.
-### [Especificando HTML CrossType na saída HTML programaticamente no .NET](./specifying-html-crosstype-in-output-html/)
-Aprenda a especificar HTML CrossType no Aspose.Cells para .NET. Siga nosso tutorial passo a passo para converter arquivos do Excel para HTML com precisão.
 ### [Exportar Excel para TXT em C# – guia completo de programação](./export-excel-to-txt-in-c-complete-programming-guide/)
 Aprenda a exportar planilhas do Excel para arquivos TXT usando C# com Aspose.Cells, passo a passo.
-### [Leitura de números em planilhas programadas em .NET](./reading-numbers-spreadsheet/)
-Aprenda a ler planilhas do Numbers e convertê-las em PDF usando o Aspose.Cells para .NET neste tutorial detalhado.
-### [Salvando a pasta de trabalho no formato de planilha Open XML estrito no .NET](./saving-workbook-to-strict-open-xml-spreadsheet-format/)
-Aprenda como salvar uma pasta de trabalho no formato Strict Open XML Spreadsheet usando o Aspose.Cells para .NET neste tutorial detalhado.
 ### [Acompanhamento do progresso da conversão de documentos programaticamente no .NET](./tracking-document-conversion-progress/)
 Descrição: Aprenda a rastrear o progresso da conversão de documentos programaticamente usando o Aspose.Cells para .NET neste tutorial detalhado.
 ### [Acompanhamento do progresso da conversão de documentos para TIFF programaticamente no .NET](./tracking-document-conversion-progress-for-tiff/)
@@ -115,6 +109,15 @@ Aprenda a gerar apresentações PowerPoint a partir de arquivos Excel usando Asp
 Aprenda a gerar apresentações PowerPoint a partir de arquivos Excel usando Aspose.Cells para .NET neste guia passo a passo.
 ### [Converter Excel para PowerPoint – Guia passo a passo em C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
 Aprenda a converter arquivos do Excel em apresentações PowerPoint usando Aspose.Cells para .NET com este guia detalhado em C#.
+### [Especificando HTML CrossType na saída HTML programaticamente no .NET](./specifying-html-crosstype-in-output-html/)
+Aprenda a especificar HTML CrossType no Aspose.Cells para .NET. Siga nosso tutorial passo a passo para converter arquivos do Excel para HTML com precisão.
+
+### [Leitura de números em planilhas programadas em .NET](./reading-numbers-spreadsheet/)
+Aprenda a ler planilhas do Numbers e convertê‑las em PDF usando o Aspose.Cells para .NET neste tutorial detalhado.
+
+### [Salvando a pasta de trabalho no formato de planilha Open XML estrito no .NET](./saving-workbook-to-strict-open-xml-spreadsheet-format/)
+Aprenda como salvar uma pasta de trabalho no formato Strict Open XML Spreadsheet usando o Aspose.Cells para .NET neste tutorial detalhado.
+
 ### [Salvar Excel como Texto – Guia Completo em C# para Exportar Excel para TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
 Aprenda a salvar planilhas do Excel como arquivos de texto TXT usando Aspose.Cells para .NET com C# passo a passo.
 
@@ -131,6 +134,8 @@ Aprenda a salvar planilhas Excel como arquivos de texto usando Aspose.Cells, pas
 ### [Como converter Excel para PNG com C# – guia passo a passo](./how-to-convert-excel-to-png-with-c-step-by-step-guide/)
 ### [Exportar Excel para PowerPoint com Aspose.Cells – guia de programação completo](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
 Aprenda a exportar planilhas do Excel para apresentações PowerPoint programaticamente usando Aspose.Cells para .NET neste guia passo a passo.
+### [Copiando tabela dinâmica e exportando Excel para PPTX com Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
+Aprenda a copiar uma tabela dinâmica de uma planilha Excel e exportá‑la como apresentação PPTX usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

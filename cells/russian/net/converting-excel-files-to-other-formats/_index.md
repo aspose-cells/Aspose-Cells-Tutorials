@@ -69,6 +69,12 @@ Aspose.Cells для .NET упрощает преобразование доку�
 ### [Экспорт Excel в PowerPoint – Полное руководство C#](./export-excel-to-powerpoint-complete-c-guide/)
 Узнайте, как экспортировать файлы Excel в PowerPoint с помощью Aspose.Cells для .NET, следуя полному руководству на C#.
 ### [Создание PowerPoint из Excel – пошаговое руководство C#](./create-powerpoint-from-excel-step-by-step-guide/)
+### [Копировать сводную таблицу и экспортировать Excel в PPTX с Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
+Узнайте, как копировать сводную таблицу и экспортировать файл Excel в презентацию PowerPoint (PPTX) с помощью Aspose.Cells для .NET.
+### [Создание PowerPoint из Excel – Полное руководство на C#](./create-powerpoint-from-excel-complete-c-tutorial/)
+Полное пошаговое руководство по созданию презентаций PowerPoint из файлов Excel с помощью Aspose.Cells для .NET на C#.
+### [Экспорт Excel в PowerPoint – пошаговое руководство](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Узнайте, как программно экспортировать данные Excel в презентацию PowerPoint с помощью Aspose.Cells для .NET, следуя пошаговым инструкциям.
 Узнайте, как программно создать презентацию PowerPoint из файла Excel с помощью Aspose.Cells для .NET в этом пошаговом руководстве.
 ### [Конвертация Excel в PowerPoint – пошаговое руководство C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
 Узнайте, как программно преобразовать файлы Excel в презентацию PowerPoint с помощью Aspose.Cells для .NET, следуя пошаговым инструкциям на C#.

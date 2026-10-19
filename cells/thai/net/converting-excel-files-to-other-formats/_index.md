@@ -67,6 +67,12 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 เรียนรู้วิธีส่งออกไฟล์ Excel เป็น PowerPoint ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือขั้นตอนเต็มรูปแบบ
 ### [ส่งออก Excel ไปยัง PowerPoint ด้วย Aspose.Cells – คู่มือการเขียนโปรแกรมแบบครบถ้วน](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
 เรียนรู้วิธีส่งออกไฟล์ Excel เป็น PowerPoint อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET ในคู่มือขั้นตอนเต็ม
+### [คัดลอก Pivot Table และส่งออก Excel ไปเป็น PPTX ด้วย Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
+เรียนรู้วิธีคัดลอก Pivot Table จาก Excel และส่งออกเป็นไฟล์ PowerPoint (PPTX) ด้วย Aspose.Cells สำหรับ .NET
+### [สร้าง PowerPoint จาก Excel – คำแนะนำ C# ฉบับสมบูรณ์](./create-powerpoint-from-excel-complete-c-tutorial/)
+เรียนรู้วิธีสร้างไฟล์ PowerPoint จากข้อมูล Excel ด้วย Aspose.Cells สำหรับ .NET ด้วยคำแนะนำ C# ขั้นตอนเต็มรูปแบบ
+### [วิธีส่งออก Excel ไปยัง PowerPoint – คำแนะนำขั้นตอนต่อขั้นตอน](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+เรียนรู้วิธีส่งออกไฟล์ Excel เป็น PowerPoint ด้วย Aspose.Cells สำหรับ .NET ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
 ### [สร้าง PowerPoint จาก Excel – คู่มือแบบทีละขั้นตอน](./create-powerpoint-from-excel-step-by-step-guide/)
 เรียนรู้วิธีสร้างไฟล์ PowerPoint จากข้อมูล Excel ด้วย Aspose.Cells สำหรับ .NET ในคู่มือขั้นตอนต่อขั้นตอนนี้
 ### [การส่งออก Excel ไปยัง PowerPoint – คู่มือครบถ้วน](./how-to-export-excel-to-powerpoint-complete-guide/)

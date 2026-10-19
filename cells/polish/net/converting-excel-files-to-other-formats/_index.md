@@ -69,6 +69,12 @@ Dowiedz się, jak ustawić obszar drukowania w Excelu i wyeksportować arkusz do
 Dowiedz się, jak programowo konwertować pliki Excel do PowerPoint oraz ustawiać obszar drukowania przy użyciu Aspose.Cells dla .NET.
 ### [Tworzenie prezentacji PowerPoint z Excela – przewodnik krok po kroku w C#](./create-powerpoint-from-excel-step-by-step-c-guide/)
 Dowiedz się, jak programowo przekształcić arkusz Excel w prezentację PowerPoint przy użyciu Aspose.Cells w C#.
+### [Kopiowanie tabeli przestawnej i eksportowanie Excela do PPTX przy użyciu Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
+Dowiedz się, jak skopiować tabelę przestawną i wyeksportować plik Excel do prezentacji PPTX przy użyciu Aspose.Cells dla .NET.
+### [Eksportowanie pliku Excel do PowerPoint – przewodnik krok po kroku](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Dowiedz się, jak programowo wyeksportować dane z Excela do prezentacji PowerPoint przy użyciu Aspose.Cells dla .NET w kilku prostych krokach.
+### [Utworzenie prezentacji PowerPoint z Excela – Kompletny samouczek C#](./create-powerpoint-from-excel-complete-c-tutorial/)
+Dowiedz się, jak programowo przekształcić dane Excela w prezentację PowerPoint przy użyciu Aspose.Cells w pełnym przewodniku C#.
 ### [Konwersja Excela do PowerPoint – Przewodnik krok po kroku w C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
 Dowiedz się, jak krok po kroku konwertować plik Excel na prezentację PowerPoint przy użyciu Aspose.Cells dla .NET w języku C#.
 ### [Zapisz Excel jako txt – Kompletny przewodnik C# do eksportu liczb ze znaczącymi cyframi](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)

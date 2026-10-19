@@ -67,8 +67,6 @@ Aspose.Cells का उपयोग करके .NET में प्रोग�
 C# में Aspose.Cells का उपयोग करके XLSX फ़ाइल को CSV में बदलने की पूरी चरण‑दर‑चरण गाइड।
 
 ### [.NET में प्रोग्रामेटिक रूप से Excel फ़ाइल को PPTX में परिवर्तित करना](./converting-excel-file-to-pptx/)
-इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके प्रोग्रामेटिक रूप से Excel फ़ाइल को PowerPoint प्रस्तुति (PPTX) में परिवर्तित करना सीखें।
-
 ### [.NET में प्रिंट एरिया सेट करें और PowerPoint में निर्यात करें – चरण‑दर‑चरण गाइड](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
 Aspose.Cells for .NET का उपयोग करके Excel में प्रिंट एरिया सेट करें और उसे PowerPoint स्लाइड में निर्यात करने का चरण‑दर‑चरण मार्गदर्शन।
 
@@ -76,6 +74,8 @@ Aspose.Cells for .NET का उपयोग करके Excel में प्
 Aspose.Cells का उपयोग करके Excel को PowerPoint में बदलें और प्रिंट एरिया सेट करने की पूरी प्रक्रिया सीखें।
 ### [Aspose.Cells के साथ Excel को PowerPoint में निर्यात – पूर्ण प्रोग्रामिंग गाइड](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
 Aspose.Cells का उपयोग करके .NET में Excel को PowerPoint में निर्यात करने की पूरी प्रक्रिया सीखें।
+### [Pivot तालिका कॉपी करें और Aspose.Cells के साथ Excel को PPTX में निर्यात करें](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
+Aspose.Cells का उपयोग करके Pivot तालिका को कॉपी करके Excel फ़ाइल को PowerPoint (PPTX) में बदलने की प्रक्रिया सीखें।
 
 ### [.NET में आउटपुट HTML में HTML क्रॉसटाइप को प्रोग्रामेटिक रूप से निर्दिष्ट करना](./specifying-html-crosstype-in-output-html/)
 .NET के लिए Aspose.Cells में HTML CrossType निर्दिष्ट करना सीखें। Excel फ़ाइलों को सटीकता के साथ HTML में बदलने के लिए हमारे चरण-दर-स्टेप ट्यूटोरियल का पालन करें।

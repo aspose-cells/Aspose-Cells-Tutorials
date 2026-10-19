@@ -108,6 +108,9 @@ Lär dig hur du konverterar Excel-filer till Word med Aspose.Cells för .NET i e
 ### [Exportera Excel till txt i C# – komplett programmeringsguide](./export-excel-to-txt-in-c-complete-programming-guide/)
 Lär dig hur du exporterar Excel-data till txt-filer i C# med en komplett steg‑för‑steg‑guide.
 
+### [Kopiera pivottabell och exportera Excel till PPTX med Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
+Lär dig hur du kopierar en pivottabell och exporterar Excel till en PPTX-presentation med Aspose.Cells för .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

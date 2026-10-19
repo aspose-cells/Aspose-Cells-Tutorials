@@ -77,6 +77,12 @@ Aspose.Cells for .NET을 사용하여 Excel 데이터를 PPTX 프레젠테이션
 Aspose.Cells for .NET을 이용해 C# 코드로 Excel 데이터를 PowerPoint 슬라이드로 변환하는 전체 과정을 단계별로 안내합니다.
 ### [Excel을 PowerPoint로 내보내는 방법 – 단계별 가이드](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
 Aspose.Cells를 사용하여 Excel 데이터를 PowerPoint 프레젠테이션으로 변환하는 단계별 방법을 안내합니다.
+### [피벗 테이블 복사 및 Aspose.Cells로 Excel을 PPTX로 내보내기](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
+Aspose.Cells를 활용해 피벗 테이블을 복사하고 Excel 데이터를 PPTX 프레젠테이션으로 변환하는 방법을 단계별로 안내합니다.
+### [Excel에서 PowerPoint 만들기 – 완전 C# 튜토리얼](./create-powerpoint-from-excel-complete-c-tutorial/)
+Aspose.Cells를 사용하여 Excel 데이터를 PowerPoint 프레젠테이션으로 변환하는 전체 과정을 단계별로 안내합니다.
+### [Excel에서 PowerPoint 만들기 – 단계별 가이드](./create-powerpoint-from-excel-step-by-step-guide/)
+Aspose.Cells for .NET을 사용하여 Excel 데이터를 PowerPoint 프레젠테이션으로 변환하는 방법을 단계별로 안내합니다.
 ### [.NET에서 프로그래밍 방식으로 출력 HTML에 HTML CrossType 지정](./specifying-html-crosstype-in-output-html/)
 Aspose.Cells for .NET에서 HTML CrossType을 지정하는 방법을 알아보세요. 단계별 튜토리얼을 따라 Excel 파일을 정확하게 HTML로 변환하세요.
 ### [.NET에서 숫자 스프레드시트를 프로그래밍 방식으로 읽기](./reading-numbers-spreadsheet/)
@@ -114,8 +120,6 @@ Aspose.Cells를 사용하여 Excel 파일을 텍스트 형식으로 저장하는
 
 ### [Excel에서 PowerPoint 만들기 – 전체 C# 자동화 가이드](./create-powerpoint-from-excel-full-c-automation-guide/)
 Aspose.Cells를 사용하여 Excel 데이터를 PPTX 프레젠테이션으로 변환하는 전체 C# 자동화 가이드를 확인합니다.
-### [Excel에서 PowerPoint 만들기 – 단계별 가이드](./create-powerpoint-from-excel-step-by-step-guide/)
-Aspose.Cells for .NET을 사용하여 Excel 데이터를 PPTX 프레젠테이션으로 변환하는 방법을 단계별로 안내합니다.
 ### [Excel을 PowerPoint로 내보내는 방법 – 단계별 가이드](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
 Aspose.Cells를 사용하여 Excel 데이터를 PowerPoint 프레젠테이션으로 변환하는 단계별 방법을 안내합니다.
 ### [C#으로 Excel을 PowerPoint로 내보내는 방법 – 완전 가이드](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)

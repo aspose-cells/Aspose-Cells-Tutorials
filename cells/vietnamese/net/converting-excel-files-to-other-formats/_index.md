@@ -116,6 +116,8 @@ Hướng dẫn tạo sổ làm việc mới và xuất dữ liệu Excel sang t�
 Tìm hiểu cách tạo tài liệu Word từ bảng tính Excel bằng C# và Aspose.Cells trong hướng dẫn nhanh này.
 ### [Cách lưu DOCX từ Excel – Hướng dẫn đầy đủ xuất biểu đồ sang Word](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
 Hướng dẫn chi tiết cách xuất biểu đồ Excel sang tài liệu Word dưới dạng DOCX bằng Aspose.Cells cho .NET.
+### [Sao chép bảng tổng hợp và xuất Excel sang PPTX với Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
+Hướng dẫn sao chép bảng tổng hợp và xuất file Excel thành bản trình chiếu PPTX bằng Aspose.Cells cho .NET.
 ### [Tạo PowerPoint từ Excel – Hướng dẫn C# đầy đủ](./create-powerpoint-from-excel-complete-c-tutorial/)
 Hướng dẫn chi tiết cách tạo tệp PowerPoint từ dữ liệu Excel bằng C# và Aspose.Cells cho .NET.
 

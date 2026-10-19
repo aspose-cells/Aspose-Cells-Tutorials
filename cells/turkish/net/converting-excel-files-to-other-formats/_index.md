@@ -62,7 +62,8 @@ Aspose.Cells for .NET kullanarak Excel dosyalarını PowerPoint sunumlarına nas
 ### [Excel'den PowerPoint Oluşturma – Adım Adım C# Kılavuzu](./create-powerpoint-from-excel-step-by-step-c-guide/)
 Aspose.Cells for .NET kullanarak Excel verilerinden PowerPoint sunumu oluşturmayı adım adım öğrenin.
 ### [C# ile Excel'i PowerPoint'e Dönüştürme – Tam Kılavuz](./convert-excel-to-powerpoint-with-c-complete-guide/)
-Aspose.Cells for .NET kullanarak C# ile Excel dosyalarını PowerPoint sunumlarına nasıl dönüştüreceğinizi adım adım öğrenin.
+### [Pivot tabloyu kopyala ve Excel'i PPTX'e Aspose.Cells ile dışa aktar](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
+Aspose.Cells kullanarak pivot tabloyu kopyalayıp Excel dosyasını PPTX sunumuna nasıl dışa aktaracağınızı adım adım öğrenin.
 ### [Excel'i PowerPoint'e Dışa Aktarma – Tam C# Kılavuzu](./how-to-export-excel-to-powerpoint-complete-c-guide/)
 ### [Aspose.Cells ile Excel'i PowerPoint'e Dışa Aktarma – tam programlama rehberi](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
 Aspose.Cells kullanarak Excel dosyalarını PowerPoint sunumlarına dönüştürmek için adım adım kod örnekleri ve açıklamalar.

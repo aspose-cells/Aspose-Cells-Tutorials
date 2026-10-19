@@ -64,6 +64,11 @@
 Μάθετε πώς να μετατρέψετε ένα φύλλο Excel σε παρουσίαση PowerPoint χρησιμοποιώντας C# και Aspose.Cells σε βήμα-βήμα οδηγό.
 ### [Πώς να εξάγετε το Excel σε PowerPoint – Πλήρης οδηγός](./how-to-export-excel-to-powerpoint-complete-guide/)
 Μάθετε πώς να μετατρέψετε ένα αρχείο Excel σε παρουσίαση PowerPoint χρησιμοποιώντας το Aspose.Cells για .NET, βήμα‑βήμα με παραδείγματα κώδικα.
+### [Αντιγραφή πίνακα Pivot και εξαγωγή Excel σε PPTX με Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
+Μάθετε πώς να αντιγράψετε έναν πίνακα Pivot και να εξάγετε το αρχείο Excel σε παρουσίαση PowerPoint (PPTX) χρησιμοποιώντας το Aspose.Cells για .NET.
+### [Δημιουργία PowerPoint από Excel – Πλήρης C# Εκπαιδευτικό Σεμινάριο](./create-powerpoint-from-excel-complete-c-tutorial/)
+Μάθετε πώς να δημιουργήσετε παρουσίαση PowerPoint από φύλλο Excel χρησιμοποιώντας C# και Aspose.Cells σε αυτό το πλήρες βήμα-βήμα σεμινάριο.
+Μάθετε πώς να δημιουργήσετε παρουσίαση PowerPoint από αρχείο Excel χρησιμοποιώντας το Aspose.Cells για .NET σε αυτόν τον οδηγό βήμα‑βήμα.
 ### [Καθορισμός HTML CrossType σε HTML εξόδου μέσω προγραμματισμού στο .NET](./specifying-html-crosstype-in-output-html/)
 Μάθετε πώς να καθορίζετε HTML CrossType στο Aspose.Cells για .NET. Ακολουθήστε τον αναλυτικό οδηγό μας για να μετατρέψετε αρχεία Excel σε HTML με ακρίβεια.
 ### [Ανάγνωση υπολογιστικού φύλλου αριθμών μέσω προγραμματισμού σε .NET](./reading-numbers-spreadsheet/)
@@ -99,8 +104,6 @@
 
 ### [Πώς να εξάγετε το Excel σε PowerPoint – Οδηγός βήμα‑βήμα](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε ένα βιβλίο εργασίας Excel σε παρουσίαση PowerPoint χρησιμοποιώντας το Aspose.Cells για .NET, βήμα‑βήμα.
-### [Δημιουργία PowerPoint από Excel – Πλήρης C# Εκπαιδευτικό Σεμινάριο](./create-powerpoint-from-excel-complete-c-tutorial/)
-Μάθετε πώς να δημιουργήσετε παρουσίαση PowerPoint από φύλλο Excel χρησιμοποιώντας C# και Aspose.Cells σε αυτό το πλήρες βήμα‑βήμα σεμινάριο.
 ### [Δημιουργία PowerPoint από Excel – Οδηγός βήμα προς βήμα](./create-powerpoint-from-excel-step-by-step-guide/)
 ### [Μετατροπή Excel σε PowerPoint – Οδηγός βήμα‑βήμα C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
 Μάθετε πώς να μετατρέπετε αρχεία Excel σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Cells για .NET με βήμα‑βήμα παραδείγματα κώδικα C#.

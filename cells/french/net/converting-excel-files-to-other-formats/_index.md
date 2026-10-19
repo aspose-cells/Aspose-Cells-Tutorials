@@ -50,20 +50,10 @@ Apprenez à convertir un fichier CSV en JSON dans .NET avec Aspose.Cells. Guide 
 ### [Conversion d'un fichier Excel en DOCX par programmation dans .NET](./converting-excel-file-to-docx/)
 Découvrez comment convertir par programmation des fichiers Excel en DOCX avec Aspose.Cells pour .NET grâce à ce guide étape par étape. Idéal pour la création de rapports et le partage de données.
 
-### [Conversion d'un fichier Excel en HTML avec info-bulle dans .NET](./converting-excel-file-to-html-with-tooltip/)
-Convertissez Excel en HTML avec des info-bulles grâce à Aspose.Cells pour .NET en quelques étapes simples. Améliorez vos applications web avec des données Excel interactives en toute simplicité.
 
-### [Conversion d'un fichier Excel en Markdown par programmation dans .NET](./converting-excel-file-to-markdown/)
-Découvrez comment convertir des fichiers Excel au format Markdown avec Aspose.Cells pour .NET grâce à ce guide détaillé et étape par étape. Optimisez votre productivité grâce à une conversion de fichiers simplifiée.
 
-### [Conversion d'un fichier Excel en PDF (A-1a) par programmation dans .NET](./converting-excel-file-to-pdf-a-1a/)
-Apprenez à convertir des fichiers Excel au format PDF/A-1a pour l'archivage avec Aspose.Cells pour .NET. Guide étape par étape avec exemples de code inclus.
 
-### [Conversion programmatique de JSON en CSV dans .NET](./converting-json-to-csv/)
-Apprenez à convertir du JSON en CSV par programmation dans .NET avec Aspose.Cells. Suivez notre guide étape par étape pour une transformation fluide des données.
 
-### [Conversion d'un fichier Excel en PPTX par programmation dans .NET](./converting-excel-file-to-pptx/)
-Apprenez à convertir un fichier Excel en présentation PowerPoint (PPTX) par programmation à l'aide d'Aspose.Cells pour .NET avec ce guide étape par étape.
 ### [Créer une présentation PowerPoint à partir d'Excel – Guide étape par étape en C#](./create-powerpoint-from-excel-step-by-step-c-guide/)
 Apprenez à générer une présentation PowerPoint à partir d'un classeur Excel en C# avec Aspose.Cells, étape par étape.
 
@@ -120,6 +110,18 @@ Apprenez à créer un classeur et à exporter les données Excel au format TXT a
 Apprenez à générer rapidement un fichier Word à partir d'un classeur Excel en C# avec Aspose.Cells.
 ### [Enregistrement d'un classeur Excel au format DOCX et exportation des graphiques vers Word](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
 Apprenez à enregistrer un classeur Excel au format DOCX et à exporter les graphiques vers Word avec Aspose.Cells pour .NET.
+### [Conversion d'un fichier Excel en HTML avec info-bulle dans .NET](./converting-excel-file-to-html-with-tooltip/)
+Convertissez Excel en HTML avec des info-bulles grâce à Aspose.Cells pour .NET en quelques étapes simples. Améliorez vos applications web avec des données Excel interactives en toute simplicité.
+### [Conversion d'un fichier Excel en Markdown par programmation dans .NET](./converting-excel-file-to-markdown/)
+Découvrez comment convertir des fichiers Excel au format Markdown avec Aspose.Cells pour .NET grâce à ce guide détaillé et étape par étape. Optimisez votre productivité grâce à une conversion de fichiers simplifiée.
+### [Conversion d'un fichier Excel en PDF (A-1a) par programmation dans .NET](./converting-excel-file-to-pdf-a-1a/)
+Apprenez à convertir des fichiers Excel au format PDF/A-1a pour l'archivage avec Aspose.Cells pour .NET. Guide étape par étape avec exemples de code inclus.
+### [Conversion programmatique de JSON en CSV dans .NET](./converting-json-to-csv/)
+Apprenez à convertir du JSON en CSV par programmation dans .NET avec Aspose.Cells. Suivez notre guide étape par étape pour une transformation fluide des données.
+### [Conversion d'un fichier Excel en PPTX par programmation dans .NET](./converting-excel-file-to-pptx/)
+Apprenez à convertir un fichier Excel en présentation PowerPoint (PPTX) par programmation à l'aide d'Aspose.Cells pour .NET avec ce guide étape par étape.
+### [Copier un tableau croisé dynamique et exporter Excel vers PPTX avec Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
+Apprenez à copier un tableau croisé dynamique et à l'exporter vers une présentation PowerPoint (PPTX) à l'aide d'Aspose.Cells pour .NET.
 ### [Créer un PowerPoint à partir d'Excel – Tutoriel complet C#](./create-powerpoint-from-excel-complete-c-tutorial/)
 Apprenez à générer une présentation PowerPoint à partir d'un classeur Excel en C# avec Aspose.Cells, étape par étape.
 ### [Comment exporter Excel vers PowerPoint – Guide étape par étape](./how-to-export-excel-to-powerpoint-step-by-step-guide/)

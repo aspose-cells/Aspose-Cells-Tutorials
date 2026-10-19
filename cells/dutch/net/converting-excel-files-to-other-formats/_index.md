@@ -83,6 +83,8 @@ Leer hoe u een nieuw werkboek maakt en Excel-gegevens exporteert naar een TXT-be
 Leer stap voor stap hoe u diagrammen uit Excel kunt exporteren naar een DOCX-document met Aspose.Cells voor .NET.
 ### [Hoe Excel exporteren – Tab‑gescheiden tekstgids](./how-to-export-excel-tab-delimited-text-guide/)
 Leer hoe u Excel-werkbladen exporteert naar tab‑gescheiden tekstbestanden met Aspose.Cells voor .NET.
+### [Kopieer draaitabel en exporteer Excel naar PPTX met Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
+Leer hoe u een draaitabel kopieert en een Excel-werkblad exporteert naar PPTX met Aspose.Cells voor .NET.
 ### [PowerPoint maken vanuit Excel – Complete C#-tutorial](./create-powerpoint-from-excel-complete-c-tutorial/)
 Leer hoe u met Aspose.Cells voor .NET een PowerPoint-presentatie maakt vanuit een Excel-werkmap met een volledige C#-stapsgewijze handleiding.
 ### [Hoe Excel naar PowerPoint exporteren – Stapsgewijze handleiding](./how-to-export-excel-to-powerpoint-step-by-step-guide/)

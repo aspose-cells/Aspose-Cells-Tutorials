@@ -74,6 +74,8 @@ Learn how to quickly generate a Word document from Excel data using C# and Aspos
 Learn how to export Excel charts to a DOCX file using Aspose.Cells for .NET in this step-by-step guide.
 ### [how to export excel – Tab‑Delimited Text Guide](./how-to-export-excel-tab-delimited-text-guide/)
 Learn how to export Excel data as Tab‑Delimited Text using Aspose.Cells for .NET in this concise step-by-step guide.
+### [Copy pivot table and export Excel to PPTX with Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
+Learn how to copy a pivot table and export Excel to a PPTX presentation using Aspose.Cells for .NET.
 ### [Create PowerPoint from Excel – Complete C# Tutorial](./create-powerpoint-from-excel-complete-c-tutorial/)
 Learn how to generate PowerPoint presentations from Excel data using Aspose.Cells for .NET in a comprehensive C# guide.
 ### [How to Export Excel to PowerPoint – Step‑by‑Step Guide](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
