@@ -53,9 +53,9 @@ url: /zh/java/charts-graphs/automate-chart-axis-units-aspose-cells-java/
 weight: 1
 ---
 
-{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -219,7 +219,7 @@ A: 调用 `chart.getCategoryAxis().setMajorUnit(10.0)`（或 `setMinorUnit`）�
 - [使用 Aspose.Cells Java 提取 Excel 图表坐标轴标签：综合指南](/cells/java/charts-graphs/aspose-cells-java-excel-chart-axis-labels/)
 
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/pf/main-container >}}
-{{< blocks/products/pf/main-wrap-class >}}
