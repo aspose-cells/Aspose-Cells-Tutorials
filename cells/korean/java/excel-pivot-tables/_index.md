@@ -48,6 +48,24 @@ Aspose.Cells for Java를 사용해 피벗 테이블을 복사하고, 원본을 �
 Aspose.Cells for Java를 사용하여 피벗 테이블을 복사하는 방법을 단계별로 안내합니다. 효율적인 데이터 복제와 관리 기술을 배워보세요.
 ### [Java에서 피벗을 사용해 PNG 만들기 – 전체 단계별 가이드](./create-png-from-pivot-in-java-full-step-by-step-guide/)
 Aspose.Cells for Java를 활용해 피벗 테이블을 이미지(PNG)로 변환하는 방법을 단계별로 안내합니다.
+### [Java를 사용한 Excel 피벗 테이블 복사 – 단계별 가이드](./copy-pivot-table-excel-step-by-step-guide-using-java/)
+Aspose.Cells for Java를 활용해 Excel 피벗 테이블을 복사하고, 데이터 무결성을 유지하는 방법을 단계별로 안내합니다.
+### [Java에서 피벗 테이블을 PNG로 내보내기 – 완전 프로그래밍 가이드](./export-pivot-table-to-png-in-java-complete-programming-guide/)
+Aspose.Cells for Java를 사용해 피벗 테이블을 PNG 이미지로 내보내는 방법을 단계별로 안내합니다.
+### [Java에서 범위 복사 – Aspose.Cells로 피벗 테이블 복사](./how-to-copy-range-in-java-copy-pivot-table-with-aspose-cells/)
+Aspose.Cells를 사용하여 Java에서 피벗 테이블을 복사하고 범위를 복제하는 방법을 알아보세요.
+### [피벗 테이블을 PNG로 내보내는 방법 – 완전 Java 가이드](./how-to-export-pivot-table-as-png-complete-java-guide/)
+Aspose.Cells for Java를 사용하여 피벗 테이블을 PNG 이미지로 내보내는 전체 과정과 예제를 확인하세요.
+### [Java에서 Aspose.Cells를 사용하여 피벗 테이블 복사하기](./how-to-copy-pivot-table-in-java-using-aspose-cells/)
+Aspose.Cells for Java를 이용해 피벗 테이블을 복사하는 방법을 단계별로 안내합니다.
+### [워크북 간 피벗 테이블 복사 – 단계별 Java 가이드](./copy-pivot-table-between-workbooks-step-by-step-java-guide/)
+Aspose.Cells for Java를 사용하여 한 워크북에서 다른 워크북으로 피벗 테이블을 복사하는 방법을 단계별로 안내합니다.
+### [Java에서 새 워크북 만들기 – 피벗 테이블 복사 전체 가이드](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
+Aspose.Cells for Java를 사용해 새 워크북을 생성하고 기존 피벗 테이블을 복사하는 방법을 단계별로 안내합니다.
+### [워크시트를 복제하고 피벗 테이블을 보존하는 방법 (Java)](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
+### [Java에서 Aspose.Cells를 사용해 피벗 복제하기](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
+Aspose.Cells for Java를 활용해 기존 피벗 테이블을 복제하고, 데이터를 손쉽게 재사용하는 방법을 배워보세요.
+### [Java에서 범위를 복사하고 피벗 테이블을 보존하는 방법](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
 ### [Java로 Excel 피벗 테이블 복제하기 – 단계별 가이드](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

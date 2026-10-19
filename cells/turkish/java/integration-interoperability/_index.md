@@ -63,6 +63,16 @@ Excel dosyalarından veri alarak PowerPoint sunumları oluşturmayı adım adım
 
 ### [Excel'i PowerPoint'e Dönüştür – Tam Java Kılavuzu](./convert-excel-to-powerpoint-complete-java-guide/)
 Excel dosyalarından veri alarak PowerPoint sunumları oluşturmayı adım adım gösteren kapsamlı bir Java rehberi.
+### [Excel'den PowerPoint'e Grafik Aktarma – Tam Java Kılavuzu](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
+Java kullanarak Excel dosyalarındaki grafikleri PowerPoint sunumlarına nasıl aktaracağınızı adım adım gösterir.
+### [Excel'i PowerPoint'e Dönüştürme – Tam Adım‑Adım Kılavuz](./convert-excel-to-powerpoint-full-step-by-step-guide/)
+Aspose.Cells for Java kullanarak Excel dosyalarını PowerPoint sunumlarına dönüştürmeyi adım adım öğrenin.
+### [C#'ta Aspose.Cells ile Excel'i DOCX olarak kaydetme](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+Aspose.Cells for C# kullanarak Excel dosyalarını DOCX formatına dönüştürmeyi adım adım öğrenin.
+### [Java ile Excel'den aralığı kopyalayıp PowerPoint'e dışa aktarma](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+Java ve Aspose.Cells kullanarak bir Excel aralığını kopyalayıp PowerPoint sunumuna eklemeyi öğrenin.
+### [Aspose.Cells ile Java'da Excel'i PowerPoint'e Dönüştürme](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+Aspose.Cells for Java kullanarak Excel dosyalarını PowerPoint sunumlarına nasıl dönüştüreceğinizi adım adım öğrenin.
 
 ## Ek Kaynaklar
 

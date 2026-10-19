@@ -40,6 +40,8 @@ Pelajari cara menambahkan warna latar belakang pada baris bergantian di Excel me
 Pelajari cara mengatur latar belakang kolom di Excel secara programatik menggunakan Aspose.Cells untuk .NET dengan contoh kode C# lengkap.
 ### [Warna Baris Bergantian pada Worksheet C# – Panduan Lengkap](./alternating-row-colors-in-c-worksheets-complete-guide/)
 Pelajari cara menerapkan warna bergantian pada baris worksheet C# menggunakan Aspose.Cells untuk .NET, meningkatkan keterbacaan dan tampilan data Anda.
+### [Terapkan Warna Baris Bergantian di Excel dengan C# – Panduan Lengkap](./apply-alternating-row-colors-in-excel-with-c-complete-guide/)
+Pelajari cara menerapkan warna bergantian pada baris Excel secara otomatis menggunakan Aspose.Cells untuk .NET dengan contoh kode C# lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -35,13 +35,23 @@ Aspose.Cells का उपयोग करके .NET में PDF निर्
 ### [C# के साथ Excel में यूनिकोड लिखना – पूर्ण चरण-दर-चरण गाइड](./how-to-write-unicode-in-excel-with-c-complete-step-by-step-g/)
 C# का उपयोग करके Excel में यूनिकोड टेक्स्ट लिखने के लिए पूर्ण चरण-दर-चरण मार्गदर्शिका।
 ### [C# में DOCX को XPS में बदलना – पूर्ण गाइड](./convert-docx-to-xps-in-c-complete-guide/)
-C# में Aspose.Words का उपयोग करके DOCX फ़ाइल को XPS में बदलने के चरण-दर-चरण मार्गदर्शन।
+C# में Aspose.Words का उपयोग करके DOCX फ़ाइल को XPS में बदलने की चरण-दर-चरण मार्गदर्शन।
 ### [C# के साथ Excel को XPS में बदलें - पूर्ण गाइड](./convert-excel-to-xps-with-c-complete-guide/)
 C# में Aspose.Cells का उपयोग करके Excel को XPS में बदलने की पूरी गाइड। चरण-दर-चरण कोड उदाहरण।
 ### [नया Excel वर्कबुक बनाएं – Unicode और XPS निर्यात गाइड](./create-new-excel-workbook-unicode-xps-export-guide/)
 Aspose.Cells का उपयोग करके Unicode समर्थन के साथ नया Excel वर्कबुक बनाएं और उसे XPS फ़ॉर्मेट में निर्यात करना सीखें।
 ### [C# के साथ XPS में फ़ॉन्ट एम्बेड करना – पूर्ण प्रोग्रामिंग गाइड](./embed-fonts-in-xps-with-c-complete-programming-guide/)
 Aspose.Cells के साथ C# में XPS फ़ाइलों में फ़ॉन्ट एम्बेड करने की पूरी प्रक्रिया सीखें।
+### [Aspose.Cells के साथ PDF में फ़ॉन्ट एम्बेड करना – पूर्ण C# गाइड](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
+Aspose.Cells का उपयोग करके PDF में फ़ॉन्ट एम्बेड करने की पूरी प्रक्रिया सीखें, C# कोड उदाहरणों के साथ।
+### [C# में वर्कबुक को XPS के रूप में सहेजें – चरण‑बाय‑स्टेप गाइड](./save-workbook-as-xps-in-c-step-by-step-guide/)
+Aspose.Cells का उपयोग करके C# में Excel वर्कबुक को XPS फ़ॉर्मेट में सहेजने की प्रक्रिया सीखें।
+### [C# में Excel को XPS में बदलें और Excel फ़ाइल लोड करें](./convert-excel-to-xps-in-c-and-load-excel-file/)
+Excel फ़ाइल को लोड करके C# में Aspose.Cells के साथ उसे XPS में बदलने की पूरी प्रक्रिया सीखें।
+### [C# में Excel को XPS में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-excel-to-xps-in-c-complete-step-by-step-guide/)
+C# में Aspose.Cells का उपयोग करके Excel को XPS में बदलने के लिए पूर्ण चरण‑दर‑चरण मार्गदर्शिका।
+### [Excel को XPS में बदलते समय फ़ॉन्ट सक्षम करने का तरीका – पूर्ण गाइड](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
+Aspose.Cells के साथ फ़ॉन्ट एम्बेड करने के चरणों को सीखें और XPS आउटपुट की गुणवत्ता सुनिश्चित करें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

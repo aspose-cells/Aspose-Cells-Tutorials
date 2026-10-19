@@ -56,6 +56,9 @@ Dowiedz się, jak zautomatyzować kopiowanie wielu kolumn w arkuszu kalkulacyjny
 ### [Tworzenie zakresu unii w programie Excel przy użyciu Aspose.Cells Java: kompleksowy przewodnik](./create-union-range-excel-aspose-cells-java/)
 Dowiedz się, jak używać Aspose.Cells for Java do tworzenia zakresów unii w programie Excel, co poprawia prezentację danych i ich czytelność.
 
+### [Utwórz nowy arkusz i skopiuj zakres w Excelu przy użyciu Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+Dowiedz się, jak programowo tworzyć nowy arkusz i kopiować określony zakres komórek w Excelu przy pomocy Aspose.Cells dla Java.
+
 ### [Opanuj zakresy wyświetlania w programie Excel w Javie za pomocą Aspose.Cells: kompleksowy przewodnik](./excel-display-ranges-aspose-cells-java/)
 Dowiedz się, jak zarządzać zakresami wyświetlania w programie Excel i je optymalizować za pomocą Aspose.Cells for Java. Ulepsz możliwości wizualizacji danych w swojej aplikacji.
 
@@ -88,6 +91,8 @@ Dowiedz się, jak skutecznie rozdzielić komórki w plikach Excela za pomocą As
 
 ### [Przypisz nazwę komórce w Excelu przy użyciu Javy – kompletny przewodnik](./assign-name-to-cell-in-excel-using-java-complete-guide/)
 Dowiedz się, jak przypisać nazwę do pojedynczej komórki w Excelu przy użyciu Aspose.Cells for Java, krok po kroku.
+### [Kopiowanie zakresu między skoroszytami w Javie – przewodnik krok po kroku](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+Dowiedz się, jak kopiować zakresy komórek pomiędzy różnymi skoroszytami Excel w Javie przy użyciu Aspose.Cells.
 
 ## Dodatkowe zasoby
 

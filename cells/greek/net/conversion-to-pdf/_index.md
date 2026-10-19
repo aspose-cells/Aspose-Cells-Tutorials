@@ -61,6 +61,16 @@
 Μάθετε πώς να αποθηκεύσετε έγγραφα Word σε PDF χρησιμοποιώντας το Aspose.Words για .NET με αυτόν τον πλήρη οδηγό C#.
 ### [Πώς να ενσωματώσετε γραμματοσειρές κατά τη μετατροπή Excel σε PDF – Οδηγός βήμα‑βήμα](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
 Μάθετε πώς να ενσωματώσετε γραμματοσειρές στα PDF που προέρχονται από αρχεία Excel, εξασφαλίζοντας σωστή εμφάνιση κειμένου.
+### [Ενσωμάτωση γραμματοσειρών σε PDF – Πλήρης οδηγός C# για εξαγωγή Excel σε PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
+Μάθετε πώς να ενσωματώνετε γραμματοσειρές σε PDF κατά την εξαγωγή αρχείων Excel με το Aspose.Cells σε C#.
+### [Πώς να εξάγετε PDF από το Excel – Πλήρης οδηγός για αποθήκευση βιβλίου εργασίας ως PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
+Μάθετε πώς να αποθηκεύσετε το βιβλίο εργασίας Excel ως PDF με βήμα-βήμα οδηγίες και παραδείγματα κώδικα.
+### [Αποθήκευση XLSX ως PDF σε C# – Πλήρης Οδηγός με PDF/A‑1b](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)
+Μάθετε πώς να αποθηκεύετε αρχεία XLSX ως PDF με υποστήριξη PDF/A‑1b χρησιμοποιώντας Aspose.Cells σε C#.
+### [Μετατροπή Excel σε PDF σε C# – πλήρης προγραμματιστικός οδηγός](./convert-excel-to-pdf-in-c-complete-programming-guide/)
+Αναλυτικός οδηγός για τη μετατροπή αρχείων Excel σε PDF χρησιμοποιώντας C# και Aspose.Cells.
+### [πώς να αποθηκεύσετε PDF με επιλογείς παραλλαγής γραμματοσειράς – πλήρης οδηγός](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
+Μάθετε πώς να αποθηκεύσετε PDF διατηρώντας επιλογείς παραλλαγής γραμματοσειράς με αυτόν τον πλήρη οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

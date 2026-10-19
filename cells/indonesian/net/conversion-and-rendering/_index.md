@@ -73,6 +73,14 @@ Pelajari cara mengekspor file Excel ke format PNG dengan Aspose.Cells dalam .NET
 Pelajari cara mengonversi file XLSX menjadi gambar PNG menggunakan Aspose.Cells dengan C# dalam panduan lengkap ini.
 ### [Cara Menyisipkan Karakter Khusus di Excel – Panduan Langkah‑per‑Langkah](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
 Pelajari cara menyisipkan karakter khusus di Excel dengan panduan langkah demi langkah menggunakan Aspose.Cells.
+### [Simpan Gambar PNG dari Tabel Pivot Excel di C# – Panduan Lengkap](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Pelajari cara mengekspor gambar PNG dari tabel pivot Excel menggunakan Aspose.Cells di C# dengan panduan lengkap langkah demi langkah.
+### [Menyematkan Font dalam HTML – Panduan Lengkap Mengonversi DOCX ke HTML dengan Dukungan Font Penuh](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Pelajari cara menyematkan semua font saat mengonversi dokumen DOCX ke HTML menggunakan Aspose.Words untuk .NET.
+### [Cara Menyematkan Font dalam HTML dari DOCX – Panduan Lengkap](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Pelajari cara mengekstrak dan menyematkan font dari file DOCX ke dalam HTML menggunakan Aspose.Words untuk .NET.
+### [Cara mengonversi JSON ke Excel di C# dengan satu sel berisi koma](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Pelajari cara mengubah data JSON menjadi file Excel di C# dengan menempatkan semua nilai dalam satu sel yang dipisahkan koma.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

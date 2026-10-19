@@ -110,6 +110,8 @@
 | [Δημιουργία αρχείου Excel προγραμματιστικά με C# – Οδηγός βήμα‑βήμα](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε ένα αρχείο Excel προγραμματιστικά με C# χρησιμοποιώντας το Aspose.Cells για .NET, βήμα‑βήμα. |  
 | [Δημιουργία νέου βιβλίου εργασίας – Μετατροπή Markdown σε Excel με C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Μάθετε πώς να δημιουργήσετε ένα νέο βιβλίο εργασίας και να μετατρέψετε αρχείο Markdown σε Excel με C# και Aspose.Cells. |
 | [Πώς να δημιουργήσετε βιβλίο εργασίας σε C# – Εγγραφή τιμής και μορφοποίηση αριθμού](./how-to-create-workbook-in-c-write-value-format-number/) | Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας, να γράψετε τιμές και να μορφοποιήσετε αριθμούς με Aspose.Cells για .NET σε C#. |
+| [Δημιουργία βιβλίου εργασίας Excel με Aspose.Cells – Πλήρης οδηγός](./create-excel-workbook-with-aspose-cells-full-guide/) | Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel από το μηδέν χρησιμοποιώντας το Aspose.Cells με αυτόν τον πλήρη οδηγό. |
+| [Δημιουργία βιβλίου εργασίας Excel και εγγραφή δεδομένων σε C# – Πλήρης οδηγός βήμα‑βήμα](./create-excel-workbook-and-write-data-in-c-full-step-by-step/) | Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel και να γράψετε δεδομένα χρησιμοποιώντας C# με αναλυτικό βήμα‑βήμα οδηγό. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

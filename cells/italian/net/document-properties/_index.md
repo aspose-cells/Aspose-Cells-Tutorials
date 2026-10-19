@@ -65,6 +65,8 @@ Scopri come aggiungere una proprietà personalizzata a un file Excel usando C# c
 Impara a inserire metadati personalizzati in un file Excel usando Aspose.Cells per .NET con esempi pratici in C#.
 ### [Creare proprietà personalizzata Aspose – Guida completa Excel](./create-custom-property-aspose-complete-excel-guide/)
 Scopri come creare proprietà personalizzate in Excel con Aspose.Cells per .NET grazie a questa guida completa passo passo.
+### [Come salvare XLSB e aggiungere proprietà personalizzate del documento in C#](./how-to-save-xlsb-and-add-custom-document-properties-in-c/)
+Scopri come salvare un file XLSB e aggiungere proprietà personalizzate del documento usando Aspose.Cells per .NET in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -96,6 +96,9 @@
 ### [使用 Aspose.Cells 掌握 .NET 中的陣列公式：綜合指南](./mastering-aspose-cells-net-array-formulas)
 了解如何使用 Aspose.Cells for .NET 來掌握陣列公式。本指南涵蓋強大的多單元計算的設定、實施和實際應用。
 
+### [在 C# 中撰寫陣列公式 – 完整程式設計指南](./write-array-formula-in-c-complete-programming-guide/)
+了解如何在 C# 中使用 Aspose.Cells 撰寫陣列公式，實作動態計算與高效能處理。
+
 ### [如何使用 Aspose.Cells .NET 設定 Excel 檔案中的語言以實現多語言支持](./specify-language-excel-aspose-cells-net)
 了解如何使用 Aspose.Cells .NET 指定 Excel 檔案的語言。透過此國際化公式設定的逐步指南，增強文件的可存取性和合規性。
 
@@ -113,6 +116,9 @@
 了解如何在 C# 中使用 Lambda 表達式與 Excel 公式結合，實現動態計算與自訂函數。
 ### [如何在 Excel 中使用 C# 計算餘切 – 建立工作簿、使用 EXPAND 並儲存](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
 了解如何使用 Aspose.Cells for .NET 以 C# 建立工作簿，計算 Excel 中的餘切函數，使用 EXPAND 並儲存檔案。
+### [使用 EXPAND 公式建立 Excel 工作簿 – 完整指南](./create-excel-workbook-with-expand-formula-complete-guide/)
+了解如何使用 Aspose.Cells for .NET 在 Excel 中使用 EXPAND 公式建立工作簿，實作動態陣列計算的完整步驟。
+### [使用 SEQUENCE 在 C# 中建立 Excel 工作簿](./how-to-use-sequence-in-c-create-excel-workbook/)
 
 ## 了解 Excel 公式類型
 

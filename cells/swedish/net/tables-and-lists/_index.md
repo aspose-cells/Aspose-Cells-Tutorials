@@ -69,6 +69,8 @@ Lär dig hur du tar bort rader i en Word-tabell med Aspose.Words för .NET i en 
 Lär dig hur du tar bort rubriker från tabeller i Excel med Aspose.Cells för .NET i denna steg‑för‑steg‑guide.
 ### [Byt namn på tabell i Excel med C# – Steg‑för‑steg‑guide](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
 Lär dig hur du byter namn på en tabell i Excel med C# i denna detaljerade steg‑för‑steg‑guide.
+### [Radera flera rader i Word – Komplett guide för att ta bort tabellrader](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
+Lär dig hur du enkelt tar bort flera rader i en Word‑tabell med Aspose.Words för .NET i denna steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -41,18 +41,33 @@ Learn how to export CSV with Aspose.Cells for Java, setting significant digits a
 Learn how to export Excel worksheets to CSV format using Aspose.Cells for Java with a clear step‑by‑step guide and sample code.
 ### [Export XLSX as CSV – Complete Java Guide](./export-xlsx-as-csv-complete-java-guide/)
 Learn how to export XLSX files to CSV using Aspose.Cells for Java with a complete step-by-step guide.
+### [How to Export CSV from Excel Cells – Complete Guide](./how-to-export-csv-from-excel-cells-complete-guide/)
+Learn how to export CSV from Excel cells using Aspose.Cells for Java. Follow this step‑by‑step guide with source code for seamless CSV export.
+### [How to set delimiter and save as CSV with Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+Learn how to set a custom delimiter and save files as CSV using Aspose.Cells for Java. Follow the step-by-step guide with source code.
 ### [Exporting Excel to PDF](./exporting-excel-to-pdf/)
-Learn how to export Excel files to PDF effortlessly using Aspose.Cells for Java. Our step-by-step guide simplifies the process. Start converting today!
 ### [How to Create PDF from a Workbook – Complete Java Guide](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
 Learn how to generate PDF files from Excel workbooks using Aspose.Cells for Java with a complete step-by-step guide.
+### [Convert Excel to PDF – Complete Java Guide with Aspose.Cells](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
+Learn how to convert Excel to PDF using Aspose.Cells for Java. A complete step‑by‑step guide with source code for flawless PDF conversion.
+### [Convert Excel to PDF/A with Java – Complete Step‑by‑Step Guide](./convert-excel-to-pdf-a-with-java-complete-step-by-step-guide/)
+Learn how to convert Excel files to PDF/A format using Aspose.Cells for Java. Follow this step‑by‑step guide with source code for compliance‑ready PDFs.
+### [How to export Excel to PowerPoint with Aspose.Cells – step‑by‑step guide](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Learn how to export Excel worksheets to PowerPoint presentations using Aspose.Cells for Java in a step‑by‑step guide.
 ### [Export Excel to XML Java](./export-excel-to-xml-java/)
 Learn how to export Excel to XML in Java with Aspose.Cells for Java. Step-by-step guide with source code for seamless data conversion.
 ### [Data Import from Excel](./data-import-from-excel/)
 Learn how to import data from Excel using Aspose.Cells for Java. A comprehensive guide with source code for seamless data retrieval.
 ### [Export Excel to JSON](./export-excel-to-json/)
 Learn how to export Excel data to JSON using Aspose.Cells for Java. Follow this step-by-step guide with source code for seamless conversion.
+### [Export JSON to Excel with Java – Complete Step‑by‑Step Guide](./export-json-to-excel-with-java-complete-step-by-step-guide/)
+Learn how to export JSON data to Excel using Aspose.Cells for Java. Follow this comprehensive step‑by‑step guide with source code.
+### [Export JSON to Excel with Aspose.Cells in Java](./export-json-to-excel-with-aspose-cells-in-java/)
+Learn how to convert JSON data into Excel files using Aspose.Cells for Java. Follow this step-by-step guide with source code.
 ### [Excel Import Data Validation](./excel-import-data-validation/)
 Learn how to implement Excel import data validation using Aspose.Cells for Java with this comprehensive step-by-step guide. Ensure data accuracy and enhance user experience. 
+### [How to import list to Excel and style columns in Java](./how-to-import-list-to-excel-and-style-columns-in-java/)
+Learn how to import a list into Excel and apply column styling using Aspose.Cells for Java in this step-by-step guide.
 ### [Export Excel to HTML Java](./export-excel-to-html-java/)
 Learn how to export Excel to HTML in Java using Aspose.Cells for Java. Follow this step-by-step guide with source code to seamlessly convert your Excel files to HTML effortlessly.
 ### [Convert XLSX to PPTX – Complete Guide to Export Editable Shapes](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
@@ -85,6 +100,39 @@ Learn how to set numeric export precision and specify significant digits in Exce
 Learn how to embed fonts when converting Excel files to SVG using Aspose.Cells for Java. Step-by-step guide with source code.
 ### [Convert Excel File to HTML – Complete Guide with Font Embedding](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
 Learn how to convert Excel files to HTML with embedded fonts using Aspose.Cells for Java. Step-by-step guide with source code.
+### [Create Excel from JSON – Full Step‑by‑Step Guide](./create-excel-from-json-full-step-by-step-guide/)
+Learn how to create an Excel file from JSON using Aspose.Cells for Java. Follow this step-by-step guide with source code for seamless conversion.
+### [Alternating Column Colors in Excel – Import DataTable with Formatting](./alternating-column-colors-in-excel-import-datatable-with-for/)
+Learn how to import a DataTable into Excel with alternating column colors and formatting using Aspose.Cells for Java. Follow the step‑by‑step guide.
+### [Save Excel as TSV – Complete Guide to Exporting Worksheets to Text](./save-excel-as-tsv-complete-guide-to-exporting-worksheets-to/)
+Learn how to save Excel worksheets as TSV files using Aspose.Cells for Java. Step‑by‑step guide with source code for seamless text export.
+### [How to Embed Fonts in SVG from Excel – Complete Java Guide](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
+Learn how to embed fonts in SVG files generated from Excel using Aspose.Cells for Java. Step‑by‑step guide with source code.
+### [Embed Fonts in HTML – Convert Excel to HTML & Save Workbook](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
+Learn how to embed fonts when converting Excel to HTML and saving the workbook using Aspose.Cells for Java. Step‑by‑step guide with source code.
+### [Export Excel to HTML – Complete Guide with Frozen Panes](./export-excel-to-html-complete-guide-with-frozen-panes/)
+Learn how to export Excel to HTML with frozen panes using Aspose.Cells for Java. Step‑by‑step guide with source code for seamless conversion.
+### [Convert Excel to PPTX: Complete Java Guide](./convert-excel-to-pptx-complete-java-guide/)
+Learn how to convert Excel files to PowerPoint PPTX using Aspose.Cells for Java. Follow this step-by-step guide with source code for seamless conversion.
+### [Export Chart as Image – Complete Guide to Convert Excel to Word](./export-chart-as-image-complete-guide-to-convert-excel-to-wor/)
+Learn how to export Excel charts as images and embed them into Word documents using Aspose.Cells for Java. Step-by-step guide with code examples.
+### [How to Export Excel to SVG – Step‑by‑Step Java Guide](./how-to-export-excel-to-svg-step-by-step-java-guide/)
+Learn how to export Excel worksheets to SVG format using Aspose.Cells for Java with step‑by‑step code examples.
+### [How to embed fonts when converting Excel to HTML – Complete Guide](./how-to-embed-fonts-when-converting-excel-to-html-complete-gu/)
+Learn how to embed fonts when converting Excel to HTML using Aspose.Cells for Java. Step‑by‑step guide with code examples.
+### [Create FlatOPC File from Excel Workbook – Step‑by‑Step Guide](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
+Learn how to generate a FlatOPC file from an Excel workbook using Aspose.Cells for Java with detailed code examples.
+### [convert xlsx to powerpoint with Java – complete guide](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
+Learn how to convert XLSX files to PowerPoint presentations using Aspose.Cells for Java in this comprehensive step-by-step guide.
+### [Create Excel from JSON and convert JSON to Excel cell with Aspose.Cells](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+### [Import custom objects into Excel with Aspose.Cells – Java guide](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+Learn how to import custom Java objects into Excel worksheets using Aspose.Cells for Java in this step-by-step guide.
+### [Export Excel to HTML in Java – complete step‑by‑step guide](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+Follow this comprehensive guide to export Excel files to HTML using Aspose.Cells for Java, with detailed steps and source code.
+### [Embed fonts in SVG while exporting Excel to SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Learn how to embed fonts in SVG files when exporting Excel to SVG using Aspose.Cells for Java.
+### [How to export Excel to TXT with limited significant digits using Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+Learn how to export Excel data to TXT while limiting significant digits using Aspose.Cells for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

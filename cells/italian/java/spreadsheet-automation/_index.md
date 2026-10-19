@@ -61,6 +61,10 @@ Scopri come disattivare la funzionalità AutoFilter in Excel usando Aspose.Cells
 ### [Creare un array verticale in Excel con Java – Guida completa passo‑passo](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
 Scopri come creare un array verticale in Excel usando Aspose.Cells per Java, con esempi di codice passo‑passo.
 ### [Come utilizzare Expand in Java – Guida completa Excel](./how-to-use-expand-in-java-complete-excel-guide/)
+### [Come cancellare l'AutoFiltro in Excel con Java – Guida completa](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Impara a rimuovere l'AutoFiltro da fogli Excel con Aspose.Cells per Java, passo passo con esempi di codice.
+### [Crea nuovo workbook Aspose – aggiungi proprietà personalizzata Excel e salva come XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+Impara a creare un nuovo workbook con Aspose.Cells, aggiungere una proprietà personalizzata e salvarlo in formato XLSB.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

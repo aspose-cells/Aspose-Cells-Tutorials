@@ -46,6 +46,8 @@ Soyons réalistes, toutes les données ne restent pas pertinentes au fil du temp
 Découvrez un guide étape par étape pour copier des colonnes dans Excel avec Aspose.Cells pour .NET. Simplifiez vos tâches de gestion des données grâce à des instructions claires.
 ### [Copier des lignes avec Aspose.Cells pour .NET](./copying-rows/)
 Apprenez à copier efficacement des lignes dans des fichiers Excel avec Aspose.Cells pour .NET. Ce guide étape par étape simplifie la copie de lignes pour vos besoins de gestion de données.
+### [Copier des lignes d'une feuille de calcul à une autre – Guide complet C#](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+Découvrez un guide complet étape par étape pour copier des lignes d'une feuille de calcul à une autre avec Aspose.Cells pour .NET en C#.
 ### [Regrouper des lignes et des colonnes dans Excel avec Aspose.Cells](./grouping-rows-and-columns/)
 Apprenez à regrouper des lignes et des colonnes dans Excel à l’aide d’Aspose.Cells pour .NET avec ce guide étape par étape.
 ### [Créer une ligne récapitulative ci-dessous avec Aspose.Cells pour .NET](./summary-row-below/)
@@ -64,6 +66,10 @@ Découvrez comment afficher des lignes et des colonnes masquées dans Excel avec
 Apprenez à supprimer une colonne dans un fichier Excel avec Aspose.Cells pour .NET. Suivez notre guide détaillé, étape par étape, pour simplifier vos modifications de fichiers Excel.
 ### [Supprimer une ligne dans Aspose.Cells .NET](./delete-row-aspose-cells/)
 Apprenez à supprimer une ligne dans Excel avec Aspose.Cells pour .NET. Ce guide étape par étape couvre les prérequis, l'importation de code et une procédure détaillée pour une manipulation fluide des données.
+### [Comment supprimer une ligne entière dans un fichier Excel avec C#](./how-to-delete-entire-row-in-an-excel-file-using-c/)
+Apprenez à supprimer une ligne complète d'un fichier Excel en C# avec Aspose.Cells pour .NET. Guide étape par étape.
+### [Comment supprimer des lignes dans Excel avec C# – protéger l’en‑tête du tableau](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
+Apprenez à supprimer des lignes tout en protégeant l’en‑tête du tableau dans Excel avec Aspose.Cells pour .NET.
 ### [Supprimer plusieurs lignes dans Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Apprenez à supprimer plusieurs lignes dans Excel avec Aspose.Cells pour .NET. Ce guide détaillé, étape par étape, couvre les prérequis, des exemples de codage et une FAQ pour les développeurs.
 ### [Aspose Cells – Supprimer des lignes tout en protégeant la ligne d’en-tête dans Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
@@ -75,7 +81,6 @@ Apprenez à insérer une ligne dans Excel avec Aspose.Cells pour .NET grâce à 
 ### [Insérer une ligne avec mise en forme dans Aspose.Cells .NET](./insert-row-formatting-aspose-cells/)
 Apprenez à insérer une ligne avec mise en forme dans Excel avec Aspose.Cells pour .NET. Suivez notre guide étape par étape pour une mise en œuvre facile.
 ### [Insérer plusieurs lignes dans Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
-Apprenez à insérer plusieurs lignes dans Excel avec Aspose.Cells pour .NET. Suivez notre tutoriel détaillé pour une manipulation fluide des données.
 ### [Comment répéter des éléments dans Excel – génération dynamique de lignes avec C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Apprenez à dupliquer des éléments et générer dynamiquement des lignes dans Excel avec C# grâce à Aspose.Cells.
 ### [Comment insérer des lignes dans GridJs – Ajouter plusieurs lignes au tableau efficacement](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
@@ -99,6 +104,10 @@ Apprenez à utiliser la fonction WRAPCOLS pour générer automatiquement une dis
 
 ### [Comment insérer des lignes dans GridJs – Ajouter plusieurs lignes rapidement](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Apprenez à insérer rapidement plusieurs lignes dans GridJs avec ce guide étape par étape.
+### [Comment utiliser wrapcols en C# – Guide complet avec Excel WRAPROWS et recalcul des formules](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Découvrez comment appliquer wrapcols et wraprows dans Excel avec Aspose.Cells, et recalculer les formules efficacement.
+### [Déplacer les cellules vers le haut dans Excel avec C# – Guide complet](./shift-cells-up-in-excel-with-c-complete-guide/)
+Découvrez comment déplacer les cellules vers le haut dans Excel avec C# grâce à notre guide complet, étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

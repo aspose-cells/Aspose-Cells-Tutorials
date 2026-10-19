@@ -61,6 +61,10 @@ Aspose.Cells के साथ जावा में Excel वर्कबुक
 ### [जावा के साथ वर्टिकल एरे एक्सेल बनाना – पूर्ण चरण‑दर‑चरण गाइड](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
 ### [जावा में Expand का उपयोग कैसे करें – पूर्ण Excel गाइड](./how-to-use-expand-in-java-complete-excel-guide/)
 जावा में Expand फ़ंक्शन का उपयोग करके Excel फ़ाइलों को प्रभावी ढंग से प्रबंधित करने का पूर्ण गाइड।
+### [जावा का उपयोग करके एक्सेल में ऑटोफ़िल्टर साफ़ करने की पूरी गाइड](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+जावा में Aspose.Cells का उपयोग करके Excel की ऑटोफ़िल्टर सेटिंग को हटाने की चरण-दर-चरण प्रक्रिया सीखें।
+### [नया वर्कबुक बनाएं Aspose – कस्टम प्रॉपर्टी जोड़ें और XLSB के रूप में सहेजें](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+Aspose.Cells का उपयोग करके नया वर्कबुक बनाएं, कस्टम प्रॉपर्टी जोड़ें और इसे XLSB फ़ॉर्मेट में सहेजें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

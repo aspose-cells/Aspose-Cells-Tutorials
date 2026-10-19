@@ -71,6 +71,8 @@ Aspose.Cells for .NET 最强大的功能之一就是能够轻松读取和写入�
 通过本完整指南，学习如何使用 Aspose.Cells for .NET 在 C# 中将现有范围转换为表格，实现高效数据管理。
 ### [如何在 C# 中重命名表格 – 完整指南](./how-to-rename-table-in-c-full-guide/)
 通过本完整指南，学习使用 Aspose.Cells for .NET 在 C# 中重命名 Excel 表格，轻松管理表格名称。
+### [删除 Word 表格中的多行 – 完整指南](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
+本指南详细演示如何使用 Aspose.Words for .NET 在 Word 表格中批量删除多行，步骤清晰易懂。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

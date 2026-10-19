@@ -65,6 +65,8 @@ Dowiedz się, jak dodać własną właściwość do pliku Excel przy użyciu C# 
 Dowiedz się, jak dodać metadane do plików Excel przy użyciu Aspose.Cells w C#, krok po kroku.
 ### [Tworzenie własnej właściwości Aspose – Kompletny przewodnik Excel](./create-custom-property-aspose-complete-excel-guide/)
 Dowiedz się, jak tworzyć własne właściwości w Excelu przy użyciu Aspose.Cells dla .NET w kompletnym przewodniku krok po kroku.
+### [Jak zapisać XLSB i dodać niestandardowe właściwości dokumentu w C#](./how-to-save-xlsb-and-add-custom-document-properties-in-c/)
+Dowiedz się, jak zapisać plik XLSB i dodać własne właściwości dokumentu w C# przy użyciu Aspose.Cells dla .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

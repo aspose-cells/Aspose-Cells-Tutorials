@@ -56,6 +56,27 @@ Aspose.Cells for Java を使用して、ピボットテーブルをコピーす�
 
 ### [JavaでピボットからPNGを作成 – 完全ステップバイステップガイド](./create-png-from-pivot-in-java-full-step-by-step-guide/)
 Aspose.Cells for Java を使用して、ピボットテーブルから PNG 画像を生成する手順を詳細に解説します。
+### [Excel ピボットテーブルのコピー – Java を使用したステップバイステップガイド](./copy-pivot-table-excel-step-by-step-guide-using-java/)
+Aspose.Cells for Java を使って、Excel のピボットテーブルを別のシートやブックにコピーする方法をステップごとに解説します。
+### [Java でピボットテーブルを PNG にエクスポート – 完全プログラミングガイド](./export-pivot-table-to-png-in-java-complete-programming-guide/)
+Aspose.Cells for Java を使用して、ピボットテーブルを PNG 画像としてエクスポートする方法を学びます。
+### [Javaで範囲をコピーする方法 – Aspose.Cellsでピボットテーブルをコピー](./how-to-copy-range-in-java-copy-pivot-table-with-aspose-cells/)
+Aspose.Cells を使用して Java で範囲をコピーし、ピボットテーブルを複製する手順を学びます。
+### [ピボットテーブルをPNGとしてエクスポートする方法 – 完全なJavaガイド](./how-to-export-pivot-table-as-png-complete-java-guide/)
+Aspose.Cells を使用して Java でピボットテーブルを PNG 画像としてエクスポートする手順を学びます。
+### [JavaでAspose.Cellsを使用してピボットテーブルをコピーする方法](./how-to-copy-pivot-table-in-java-using-aspose-cells/)
+Aspose.Cells for Java を使ってピボットテーブルをコピーし、既存のレポートを効率的に再利用する手順を学びます。
+### [ワークブック間のピボットテーブルコピー – ステップバイステップ Java ガイド](./copy-pivot-table-between-workbooks-step-by-step-java-guide/)
+Aspose.Cells for Java を使用して、別のワークブックへピボットテーブルをコピーする方法を段階的に学びます。
+### [Javaで新しいワークブックを作成 – ピボットテーブルのコピー完全ガイド](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
+Aspose.Cells for Java を使用して、既存のピボットテーブルを別のワークブックにコピーする方法をステップバイステップで解説します。
+
+### [Javaでワークシートを複製し、ピボットテーブルを保持する方法](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
+ワークシートをコピーし、既存のピボットテーブルをそのまま維持する手順を解説します。
+### [Javaでピボットテーブルを複製する方法](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
+Aspose.Cells for Java を使用して、ピボットテーブルを複製し、データと書式を保持する方法を学びます。
+### [範囲をコピーしてピボットテーブルを保持する方法（Java）](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
+Aspose.Cells for Java を使用して、範囲をコピーしながらピボットテーブルを保持する方法を学びます。
 
 ### [JavaでExcelのピボットテーブルを複製する方法 – ステップバイステップガイド](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
 Aspose.Cells for Java を使用して、Excel のピボットテーブルを複製し、書式やデータを保持したままエクスポートする手順を学びます。

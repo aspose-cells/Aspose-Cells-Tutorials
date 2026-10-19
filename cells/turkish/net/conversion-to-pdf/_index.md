@@ -62,6 +62,16 @@ Excel dosyalarınıza Unicode karakterleri ekleyin ve Aspose.Cells ile PDF'ye d�
 Excel dosyalarındaki sayıları PDF'ye dönüştürürken C# ile nasıl yuvarlayacağınızı adım adım öğrenin.
 ### [Word Belgesini PDF Olarak Kaydet – Tam C# Kılavuzu](./save-word-document-as-pdf-complete-c-guide/)
 Word belgelerinizi Aspose.Words for .NET ile kolayca PDF'ye dönüştürün! Adım adım rehberimizle eksiksiz bir deneyim yaşayın.
+### [PDF'ye Yazı Tipi Gömme – Excel'i PDF'ye Dışa Aktarmak için Tam C# Rehberi](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
+Aspose.Cells ile Excel dosyalarınızı PDF'ye dönüştürürken yazı tiplerini gömerek doğru görüntüleme sağlayın. Adım adım C# rehberi.
+### [Excel'den PDF'ye Dışa Aktarma – Çalışma Kitabını PDF Olarak Kaydetme Tam Kılavuzu](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
+Excel çalışma kitabınızı PDF olarak kaydetmek için adım adım rehber. Aspose.Cells ile sorunsuz ve yüksek kalite sonuçlar elde edin.
+### [C#'ta XLSX Dosyasını PDF/A‑1b Olarak Kaydet – Tam Kılavuz](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)
+XLSX dosyalarını C# ile PDF/A‑1b formatında kaydedin! Adım adım kılavuzumuzla yüksek kalite ve uyumluluk elde edin.
+### [C# ile Excel'i PDF'ye Dönüştür – tam programlama rehberi](./convert-excel-to-pdf-in-c-complete-programming-guide/)
+C# ile Excel dosyalarını PDF'ye dönüştürmek için adım adım tam rehber. Başlangıçtan ileri seviyeye kadar her şey burada.
+### [Yazı Tipi Varyasyon Seçicileriyle PDF Kaydetme – Tam Kılavuz](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
+Aspose.PDF ile yazı tipi varyasyon seçicilerini kullanarak PDF dosyalarını nasıl kaydedeceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

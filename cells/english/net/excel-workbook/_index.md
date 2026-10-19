@@ -76,6 +76,7 @@ So why not embrace this chance to enhance your Excel skills? Each tutorial not o
 | [Create Excel Workbook in C# – Complete Programming Guide](./create-excel-workbook-in-c-complete-programming-guide/) | Learn how to create an Excel workbook from scratch using C# and Aspose.Cells for .NET in this comprehensive step-by-step guide. |  
 | [Create Shared Workbook](./create-shared-workbook/) | Learn how to create a shared workbook using Aspose.Cells for .NET with this simple step-by-step guide. Perfect for enhancing team collaboration. |  
 | [Create master sheet in C# – Complete Aspose.Cells Guide](./create-master-sheet-in-c-complete-aspose-cells-guide/) | Learn how to create a master sheet in C# using Aspose.Cells for .NET with this comprehensive step-by-step guide. |
+| [Create Excel Workbook with Aspose.Cells – Full Guide](./create-excel-workbook-with-aspose-cells-full-guide/) | Learn how to create an Excel workbook using Aspose.Cells for .NET with this comprehensive step-by-step guide. |  
 | [Detect Link Types](./detect-link-types/) | Learn how to detect hyperlink types in Excel using Aspose.Cells for .NET. Easy steps and code examples included. |  
 | [Extract Embedded Mol File](./extract-embedded-mol-file/) | Learn how to easily extract embedded MOL files from an Excel workbook using Aspose.Cells for .NET. |  
 | [Filter Defined Names While Loading Workbook](./filter-defined-names-while-loading-workbook/) | Learn how to filter defined names while loading a workbook with Aspose.Cells for .NET in this comprehensive guide. |  
@@ -110,6 +111,7 @@ So why not embrace this chance to enhance your Excel skills? Each tutorial not o
 | [Create New Workbook in C# – Step‑by‑Step Guide](./create-new-workbook-in-c-step-by-step-guide/) | Learn how to create a new Excel workbook in C# using Aspose.Cells for .NET with this detailed step-by-step guide. |
 | [Create new Excel workbook in C# – Step‑by‑Step Guide](./create-new-excel-workbook-in-c-step-by-step-guide/) | Learn how to create a new Excel workbook in C# using Aspose.Cells for .NET with this comprehensive step‑by‑step tutorial. |
 | [Create New Workbook – Convert Markdown to Excel in C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Learn how to create a new workbook and convert Markdown to Excel using Aspose.Cells for .NET with C# in this step-by-step guide. |
+| [Create Excel Workbook and Write Data in C# – Full Step‑by‑Step Guide](./create-excel-workbook-and-write-data-in-c-full-step-by-step/) | Learn how to create an Excel workbook and write data using Aspose.Cells for .NET in C# with a complete step-by-step tutorial. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

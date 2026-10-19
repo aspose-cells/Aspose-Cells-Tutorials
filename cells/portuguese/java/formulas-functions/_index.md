@@ -29,6 +29,9 @@ Domine os recursos de cálculo do Excel com nossos tutoriais abrangentes de fór
 ### [Domine as fórmulas de matriz do Excel com Aspose.Cells Java: simplifique cálculos e formatação](./aspose-cells-java-array-formulas-custom-calculations/)
 Aprenda a definir fórmulas de matriz, aplicar estilos numéricos, personalizar cálculos e salvar pastas de trabalho com eficiência usando o Aspose.Cells para Java.
 
+### [Classificar Valores Únicos no Excel – Guia Completo em Java para Definir Fórmulas de Matriz](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+Aprenda a ordenar valores únicos no Excel usando Aspose.Cells para Java, configurando fórmulas de matriz de forma completa e eficiente.
+
 ### [Como criar uma função de valor estático personalizada em Aspose.Cells Java](./aspose-cells-java-custom-static-value-function/)
 Aprenda a estender o AbstractCalculationEngine para cálculos personalizados usando Aspose.Cells Java. Automatize tarefas do Excel com valores predefinidos.
 
@@ -89,6 +92,9 @@ Aprenda a usar a função Reduce no Excel com Java, implementando fórmulas lamb
 Aprenda a aplicar a função SEQUENCE em planilhas Excel usando Aspose.Cells para Java, automatizando a geração de sequências numéricas.
 ### [Como usar WRAPCOLS em Java – Exemplo completo de WRAPCOLS no Excel](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 Aprenda a aplicar a função WRAPCOLS com Aspose.Cells para Java, incluindo exemplos completos de código para manipular planilhas do Excel.
+### [Como Calcular a Cotangente no Excel – Guia Completo](./how-to-calculate-cotangent-in-excel-complete-guide/)
+Aprenda a usar funções trigonométricas no Excel para calcular a cotangente, com exemplos de código e dicas de precisão.
+### [Como usar Aspose em Java – criar pasta de trabalho Excel com novas funções](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
 
 ## Recursos adicionais
 

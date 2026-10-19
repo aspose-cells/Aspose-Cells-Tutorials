@@ -46,6 +46,8 @@
 使用 Aspose.Cells for .NET 逐步說明如何在 Grid 欄位中設定貨幣格式。
 ### [在 Excel 中套用數字格式 – 列格式化逐步指南](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
 使用 Aspose.Cells for .NET 逐步說明如何在 Excel 中套用數字格式於欄位，提升資料呈現效果。
+### [如何在 C# 中四捨五入 Excel 數字 – 完整程式指南](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+使用 Aspose.Cells for .NET 在 C# 中實作 Excel 數字四捨五入的完整步驟與範例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

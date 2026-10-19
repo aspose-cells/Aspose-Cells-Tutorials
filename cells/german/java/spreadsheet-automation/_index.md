@@ -44,6 +44,8 @@ Erstellen Sie dynamische Excel-Berichte ganz einfach mit Aspose.Cells für Java.
 Erfahren Sie anhand von Quellcodebeispielen mit Aspose.Cells für Java, wie Sie die Datenextraktion effizient automatisieren. Extrahieren Sie mühelos Daten aus Excel-Dateien.
 ### [Automatisierung von Excel-Arbeitsmappen](./excel-workbook-automation/)
 Lernen Sie die Automatisierung von Excel-Arbeitsmappen in Java mit Aspose.Cells: Erstellen, Lesen und Aktualisieren von Excel-Dateien programmgesteuert. Jetzt starten!
+### [Neues Arbeitsbuch mit Aspose erstellen – benutzerdefinierte Eigenschaft zu Excel hinzufügen und als XLSB speichern](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+Erfahren Sie, wie Sie mit Aspose.Cells ein neues Excel‑Arbeitsbuch erstellen, eine benutzerdefinierte Eigenschaft hinzufügen und es als XLSB speichern.
 ### [Automatisieren von Excel-Diagrammen](./automating-excel-charts/)
 Erfahren Sie anhand von Quellcodebeispielen, wie Sie die Erstellung und Anpassung von Excel-Diagrammen mit Aspose.Cells für Java automatisieren. Optimieren Sie Ihre Diagrammerstellung. 
 ### [Excel-Automatisierung mit Java](./excel-automation-with-java/)
@@ -62,6 +64,9 @@ Erfahren Sie, wie Sie den AutoFilter in Excel mithilfe von Aspose.Cells für Jav
 Erfahren Sie, wie Sie mit Aspose.Cells für Java vertikale Arrays in Excel erstellen, inklusive Codebeispielen und detaillierten Anweisungen.
 ### [Wie man Expand in Java verwendet – Komplett‑Excel‑Leitfaden](./how-to-use-expand-in-java-complete-excel-guide/)
 Erfahren Sie anhand von Quellcodebeispielen, wie Sie die Expand‑Funktion in Excel mit Aspose.Cells für Java nutzen.
+
+### [Wie man AutoFilter in Excel mit Java löscht – Komplettanleitung](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java AutoFilter in Excel-Tabellen programmgesteuert entfernen und Daten sauber filtern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

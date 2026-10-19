@@ -65,6 +65,8 @@ Naučte se, jak pomocí C# přidat vlastní vlastnost do souboru Excel s podrobn
 Naučte se, jak pomocí Aspose.Cells pro .NET přidat metadata do Excel souboru v kompletním C# průvodci.
 ### [Vytvoření vlastní vlastnosti Aspose – Kompletní průvodce Excel](./create-custom-property-aspose-complete-excel-guide/)
 Naučte se, jak vytvořit vlastní vlastnost v Excelu pomocí Aspose.Cells pro .NET v tomto kompletním průvodci.
+### [Jak uložit XLSB a přidat vlastní vlastnosti dokumentu v C#](./how-to-save-xlsb-and-add-custom-document-properties-in-c/)
+Naučte se, jak uložit soubor XLSB a přidat vlastní vlastnosti dokumentu pomocí Aspose.Cells pro .NET v jazyce C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

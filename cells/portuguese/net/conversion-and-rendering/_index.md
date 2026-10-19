@@ -53,10 +53,8 @@ Aprenda a converter documentos Word (.docx) em SVG usando Aspose.Words para .NET
 ### [Incorporar fontes em HTML – Guia completo para desenvolvedores .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
 Aprenda a incorporar fontes em documentos HTML usando Aspose.Cells para .NET, garantindo renderização correta em todos os navegadores.
 
-
-
-
-
+### [Como converter JSON para Excel em C# com uma única célula separada por vírgulas](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Aprenda a transformar JSON em planilha Excel em C# usando uma única célula separada por vírgulas com Aspose.Cells.
 
 
 
@@ -73,6 +71,12 @@ Aprenda a exportar planilhas do Excel para imagens PNG usando Aspose.Cells no .N
 Aprenda a transformar arquivos XLSX em imagens PNG usando Aspose.Cells e C#, passo a passo, para visualização rápida.
 ### [Como Inserir Caracteres Especiais no Excel – Guia Passo a Passo](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
 Aprenda a inserir caracteres especiais no Excel usando Aspose.Cells passo a passo, facilitando a personalização de planilhas.
+### [Salvar imagem PNG de tabela dinâmica do Excel em C# – Guia completo](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Aprenda a extrair e salvar imagens PNG de tabelas dinâmicas do Excel usando Aspose.Cells em C# com este guia passo a passo.
+### [Incorporar fontes em HTML – Guia completo para converter DOCX em HTML com suporte total a fontes](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Aprenda a converter documentos DOCX para HTML preservando todas as fontes, garantindo que o layout fique fiel ao original.
+### [Como incorporar fontes em HTML a partir de um DOCX – Guia completo](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Aprenda a incorporar fontes de documentos DOCX em páginas HTML usando Aspose.Words, garantindo renderização correta em navegadores.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -61,6 +61,16 @@ Learn how to round numbers during Excel to PDF conversion using Aspose.Cells for
 Learn how to save Word documents as PDF using Aspose.Words for .NET with a complete C# guide.
 ### [How to embed fonts when converting Excel to PDF – Step‑by‑Step Guide](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
 Learn how to embed fonts during Excel to PDF conversion with Aspose.Cells for .NET to ensure text displays correctly.
+### [Embed Fonts in PDF – Complete C# Guide to Export Excel to PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
+Learn how to embed fonts when exporting Excel to PDF using Aspose.Cells in C#. Ensure text appears correctly across devices.
+### [How to Export PDF from Excel – Complete Guide to Save Workbook as PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
+Learn how to export an Excel workbook to PDF using Aspose.Cells for .NET with this comprehensive step-by-step guide.
+### [Save XLSX as PDF in C# – Complete Guide with PDF/A‑1b](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)
+Learn how to save XLSX files as PDF/A‑1b compliant PDFs in C# with Aspose.Cells. Detailed step-by-step guide for developers.
+### [Convert Excel to PDF in C# – complete programming guide](./convert-excel-to-pdf-in-c-complete-programming-guide/)
+A comprehensive step-by-step guide to convert Excel files to PDF using C# and Aspose.Cells.
+### [how to save pdf with font variation selectors – complete guide](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
+Learn how to save PDFs with font variation selectors using Aspose.Cells for .NET in this comprehensive guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

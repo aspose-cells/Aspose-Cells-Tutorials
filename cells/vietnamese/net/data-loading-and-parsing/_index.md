@@ -73,6 +73,8 @@ Tìm hiểu cách nhập tệp Markdown vào Excel bằng Aspose.Cells cho .NET 
 Hướng dẫn chi tiết cách chuyển đổi dữ liệu JSON thành tệp Excel bằng C# và Aspose.Cells.
 ### [Tạo Workbook Excel C# – Hướng dẫn đầy đủ để đọc ngày từ ô](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
 Hướng dẫn chi tiết cách tạo workbook Excel bằng C# và đọc giá trị ngày từ các ô, kèm ví dụ mã nguồn.
+### [Phân tích ngày theo thời đại Nhật Bản trong C# – Hướng dẫn đầy đủ](./parse-japanese-era-date-in-c-complete-guide/)
+Tìm hiểu cách phân tích ngày theo thời đại Nhật Bản trong C# bằng Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -39,6 +39,7 @@ Přístup ke konkrétním pracovním listům podle názvu nebo indexu se někdy 
 | [Smazat list Excelu podle názvu - tutoriál C#](./delete-excel-worksheet-by-name-csharp-tutorial/) | Naučte se, jak mazat listy aplikace Excel podle názvu pomocí jazyka C#. Tento tutoriál pro začátečníky vás krok za krokem provede Aspose.Cells pro .NET. |  
 | [Získat excelový list podle názvu v C# tutoriálu](./get-excel-worksheet-by-name-csharp-tutorial/) | Přístup k pracovním listům Excelu podle názvu v jazyce C# s podrobnými pokyny a využitím Aspose.Cells pro .NET pro lepší efektivitu kódu. |  
 | [Vytvořit nový list v C# – Kompletní průvodce dynamickými polemi](./create-new-worksheet-in-c-complete-guide-to-dynamic-array-fo/) | Naučte se, jak pomocí Aspose.Cells v C# vytvořit nový list a využít dynamické pole formule pro pokročilé výpočty. |  
+| [Vytvořit listy ze seznamu – C# průvodce šablonou Excel](./create-worksheets-from-list-c-excel-template-guide/) | Naučte se, jak pomocí Aspose.Cells vytvořit více listů v Excelu z datového seznamu v C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

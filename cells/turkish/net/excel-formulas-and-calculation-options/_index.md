@@ -58,7 +58,7 @@ Excel görevlerinizi Aspose.Cells for .NET ile otomatikleştirin. Bu kapsamlı e
 ### [Excel'de Formülleri Programlı Olarak Bir Kez Hesaplama](./calculating-formulas-once/)
 Bu adım adım eğitimde Aspose.Cells for .NET kullanarak Excel formüllerini programatik olarak nasıl hesaplayacağınızı öğrenin. Excel otomasyon becerilerinizi geliştirin.
 ### [Excel'de Programatik Olarak Dairesel Referans Algılama](./detecting-circular-reference/)
-Aspose.Cells for .NET kullanarak Excel'deki dairesel referansları kolayca tespit edin. E-tablolarınızda doğru hesaplamalar sağlamak için adım adım kılavuzumuzu izleyin.
+Aspose.Cells for .NET kullanarak Excel'deki dairesel referansları kolayca tespit edin. E-tablolarınızda doğru hesaplamalar sağlamak için adım adım rehberimizi izleyin.
 ### [Excel'de Programatik Olarak Doğrudan Hesaplama Formülü](./direct-calculation-formula/)
 Excel hesaplamalarını programatik olarak yürütmek için Aspose.Cells for .NET'i nasıl kullanacağınızı keşfedin. Zahmetsiz Excel işlemleri için adım adım kılavuz.
 ### [Çalışma Kitabının Kesinti veya İptal Formülü Hesaplaması](./interrupt-or-cancel-formula-calculation-of-workbook/)
@@ -88,6 +88,18 @@ Aspose.Cells kullanarak C# dilinde dizileri dinamik olarak genişletmeyi adım a
 Bu adım adım kılavuzda Aspose.Cells for .NET kullanarak C#'ta WRAPCOLS fonksiyonuyla dizileri matrislere nasıl dönüştüreceğinizi öğrenin.
 ### [C# ile Excel'de Kotanjant Hesaplama – Tam Kılavuz](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 C# kodu kullanarak Excel'de kotanjant fonksiyonunu nasıl hesaplayacağınızı adım adım öğrenin.
+### [Excel'de WRAPCOLS Kullanımı – Tam C# Örneği](./how-to-use-wrapcols-in-excel-complete-c-example/)
+Aspose.Cells for .NET ile Excel'de WRAPCOLS işlevini C# örneğiyle nasıl kullanacağınızı adım adım öğrenin.
+### [C# ile Excel'de WRAPCOLS ile Veri Bölme ve Çalışma Kitabı Oluşturma](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
+### [C# ile Excel'de Dizi Formülü Uygulama – Tam Kılavuz](./apply-array-formula-excel-in-c-complete-guide/)
+### [WRAPCOLS Nasıl Kullanılır – C# Excel Otomasyonu için Tam Kılavuz](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Aspose.Cells for .NET ile WRAPCOLS işlevini kullanarak C# Excel otomasyonunda veri sarmalama tekniklerini öğrenin.
+### [C# ile Excel'de Formül Hesaplamasını Zorlamak ve Lambda Kullanmak](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+C# ile Aspose.Cells kullanarak formül hesaplamasını zorlamak ve lambda ifadelerini uygulamayı öğrenin.
+### [Formüllerle Excel Çalışma Kitabı Oluşturma – Tam Adım‑Adım Kılavuz](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak formüller içeren bir Excel çalışma kitabını baştan sona nasıl oluşturacağınızı adım adım öğrenin.
+### [C# ile EXPAND Fonksiyonunu Kullanarak Excel Çalışma Kitabı Oluşturma](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+Bu adım adım kılavuzda Aspose.Cells for .NET kullanarak C# ile EXPAND fonksiyonunu nasıl kullanıp bir Excel çalışma kitabı oluşturacağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

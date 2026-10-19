@@ -38,10 +38,20 @@ Learn how to write Unicode characters in Excel using C# with Aspose.Cells. Follo
 Learn how to convert DOCX files to XPS using Aspose.Words for .NET with clear code examples and step‑by‑step instructions.
 ### [convert excel to xps with C# - Complete Guide](./convert-excel-to-xps-with-c-complete-guide/)
 Learn how to convert Excel files to XPS using C# with Aspose.Cells for .NET in a complete step-by-step guide.
+### [Convert Excel to XPS in C# and load Excel file](./convert-excel-to-xps-in-c-and-load-excel-file/)
+Learn how to convert an Excel workbook to XPS in C# while loading the Excel file using Aspose.Cells for .NET.
 ### [Create New Excel Workbook – Unicode & XPS Export Guide](./create-new-excel-workbook-unicode-xps-export-guide/)
 Learn how to create a new Excel workbook with Unicode support and export it to XPS using Aspose.Cells for .NET.
 ### [Embed Fonts in XPS with C# – Complete Programming Guide](./embed-fonts-in-xps-with-c-complete-programming-guide/)
 Learn how to embed fonts in XPS documents using C# and Aspose.Cells for .NET, ensuring proper rendering across devices.
+### [Embed fonts PDF with Aspose.Cells – Complete C# Guide](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
+Learn how to embed fonts in PDF files using Aspose.Cells for .NET with a complete C# guide and practical code examples.
+### [Save Workbook as XPS in C# – Step‑by‑Step Guide](./save-workbook-as-xps-in-c-step-by-step-guide/)
+Learn how to save an Excel workbook as XPS in C# using Aspose.Cells for .NET with clear, step‑by‑step instructions.
+### [Convert Excel to XPS in C# – Complete Step‑by‑Step Guide](./convert-excel-to-xps-in-c-complete-step-by-step-guide/)
+Learn how to convert Excel files to XPS in C# with a comprehensive step‑by‑step guide using Aspose.Cells.
+### [How to Enable Fonts When Converting Excel to XPS – Complete Guide](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
+Learn how to enable fonts during Excel to XPS conversion using Aspose.Cells for .NET, ensuring proper font rendering in the output.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

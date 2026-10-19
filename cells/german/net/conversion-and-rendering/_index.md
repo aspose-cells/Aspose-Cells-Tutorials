@@ -73,6 +73,15 @@ Erfahren Sie, wie Sie Excel‑Tabellen mit Aspose.Cells nach PNG exportieren und
 Erfahren Sie, wie Sie Excel‑XLSX‑Dateien mit Aspose.Cells in PNG‑Bilder umwandeln – Schritt‑für‑Schritt in C#.
 ### [Wie man Sonderzeichen in Excel einfügt – Schritt‑für‑Schritt‑Anleitung](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells Sonderzeichen in Excel einfügen und Ihre Tabellen professionell gestalten.
+### [PNG-Bild aus Excel-Pivot‑Tabelle in C# speichern – Komplettanleitung](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells ein PNG‑Bild aus einer Excel‑Pivot‑Tabelle in C# extrahieren und speichern.
+### [Schriftarten in HTML einbetten – Komplettanleitung zum Konvertieren von DOCX nach HTML mit voller Schriftunterstützung](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Erfahren Sie, wie Sie mit Aspose.Words DOCX-Dateien nach HTML konvertieren und dabei alle Schriftarten einbetten, um ein exakt gleiches Layout zu erhalten.
+### [Wie man Schriftarten in HTML aus einer DOCX einbetten – Komplettanleitung](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words Schriftarten aus einer DOCX in HTML einbetten, um konsistente Darstellung sicherzustellen.
+
+### [Wie man JSON in Excel in C# mit einer einzigen kommagetrennten Zelle konvertiert](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Erfahren Sie, wie Sie JSON-Daten mit Aspose.Cells in Excel umwandeln, wobei jede Zeile in einer einzigen kommagetrennten Zelle gespeichert wird.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

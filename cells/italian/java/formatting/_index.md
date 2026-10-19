@@ -61,6 +61,8 @@ Scopri come gestire formati numerici personalizzati nelle cartelle di lavoro Jav
 
 ### [Imposta il formato numerico in Excel con Java – Guida completa](./set-number-format-excel-in-java-complete-guide/)
 Scopri come impostare formati numerici personalizzati in Excel utilizzando Aspose.Cells per Java, con esempi di codice passo passo.
+### [Imposta formato numerico personalizzato in Excel con Java – Guida completa](./set-custom-number-format-in-excel-with-java-complete-guide/)
+Scopri come definire formati numerici personalizzati nei fogli Excel usando Aspose.Cells per Java, con esempi di codice passo passo.
 
 ### [Padroneggiare la presentazione dei dati in Excel: formattazione personalizzata di numeri e date con Aspose.Cells per Java](./aspose-cells-java-data-formatting-excel/)
 Scopri come applicare formati numerici e stili di data personalizzati utilizzando Aspose.Cells per Java, migliorando la presentazione dei dati nei fogli di calcolo Excel.
@@ -244,6 +246,8 @@ Scopri come convertire una DataTable in Excel applicando stili personalizzati co
 
 ### [Formato data Aspose Cells: Come impostare un formato data personalizzato in Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
 Scopri come impostare formati data personalizzati nei fogli Excel con Aspose.Cells per Java, con esempi di codice chiari e pratici.
+### [Impostare il carattere in grassetto nell'esportazione Excel Java – Guida completa](./set-font-bold-in-java-excel-export-complete-guide/)
+Scopri come impostare il grassetto del carattere nei file Excel esportati con Java usando Aspose.Cells, con esempi di codice passo passo.
 
 ## Risorse aggiuntive
 
