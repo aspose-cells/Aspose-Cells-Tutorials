@@ -56,6 +56,10 @@ Kompletní návod, jak pomocí rozsahových inteligentních značek zpracovat vn
 ## Použití generického seznamu v inteligentních značkách
 Flexibilita generických seznamů umožňuje vývojářům zpracovávat data strukturovaným způsobem bez ztráty výkonu. V tomto tutoriálu se naučíte, jak využít generické seznamy s inteligentními značkami k vytváření robustních a dynamických sestav v Excelu. Tento přístup zajišťuje snadnou manipulaci s kolekcemi dat a zároveň zachování silné typové bezpečnosti a výkonu ve vašich aplikacích. Sledujte dále a uvidíte, jak to může prospět při generování vašich sestav. [Číst dále](./generic-list-smart-markers/)
 
+## Opakování listů – Kompletní průvodce pro automatizaci Excelu
+Naučte se, jak pomocí Aspose.Cells opakovat listy v Excelu a automatizovat tvorbu opakujících se sešitů. [Číst dále](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+
+## Inteligentní značky v Aspose.Cells pro dynamická data – tutoriály
 ### [Přidání vlastních popisků pomocí inteligentních značek v Aspose.Cells](./add-custom-labels-smart-markers/)
 Využijte sílu Aspose.Cells pro .NET a přidejte do svých dokumentů v Excelu vlastní popisky a inteligentní značky. Postupujte podle tohoto podrobného návodu a vytvářejte dynamické a vizuálně přitažlivé sestavy.
 ### [Jak vytvořit šablonu s inteligentními značkami – krok za krokem](./how-to-write-template-with-smart-markers-step-by-step-guide/)
@@ -175,6 +179,7 @@ Naučte se pomocí SmartMarker v Aspose.Cells generovat více listů v Excelu po
 Naučte se načíst Excel šablonu v C# a během okamžiku vytvořit více listů s dynamickými daty.
 ### [Import JSON do Excelu v C# – krok za krokem](./import-json-to-excel-in-c-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Cells importovat JSON data do souboru Excel v C# krok za krokem.
+
 ### [Průvodce hlavním a podrobným sešitem – vyplňování šablon pomocí inteligentních značek](./master-detail-excel-guide-populate-templates-with-smart-mark/)
 Naučte se, jak pomocí inteligentních značek naplnit šablony Excelu pro hlavní a podrobné reporty.
 
@@ -187,3 +192,4 @@ Naučte se vytvořit hlavní a podrobný sešit v Excelu pomocí Aspose.Cells Sm
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

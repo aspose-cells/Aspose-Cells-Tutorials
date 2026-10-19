@@ -69,8 +69,6 @@ Scopri come convertire file Excel in presentazioni PowerPoint usando C# e Aspose
 Scopri come esportare programmaticamente i fogli Excel in presentazioni PowerPoint usando Aspose.Cells per .NET con esempi di codice C#.
 ### [Esporta Excel in PowerPoint con Aspose.Cells – guida completa di programmazione](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
 Scopri come esportare un file Excel in una presentazione PowerPoint usando Aspose.Cells per .NET, con esempi di codice dettagliati.
-### [Come esportare Excel in PowerPoint – Guida completa](./how-to-export-excel-to-powerpoint-complete-guide/)
-Scopri come esportare i fogli Excel in presentazioni PowerPoint con Aspose.Cells per .NET, passo passo e con esempi di codice.
 ### [Specificare HTML CrossType nell'output HTML a livello di programmazione in .NET](./specifying-html-crosstype-in-output-html/)
 Scopri come specificare HTML CrossType in Aspose.Cells per .NET. Segui il nostro tutorial passo passo per convertire i file Excel in HTML con precisione.
 ### [Lettura di fogli di calcolo numerici in modo programmatico in .NET](./reading-numbers-spreadsheet/)
@@ -136,4 +134,8 @@ Scopri come generare un documento Word da un file Excel in pochi passaggi con C#
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/products-backtop-button >}}### [Conversione di file Excel in Markdown tramite programmazione in .NET](./converting-excel-file-to-markdown/)
+Scopri come convertire i file Excel in formato Markdown utilizzando Aspose.Cells per .NET in questa guida dettagliata e passo dopo passo. Aumenta la produttività con una facile conversione dei file.
+### [Come esportare Excel in PowerPoint – Guida completa](./how-to-export-excel-to-powerpoint-complete-guide/)
+Scopri come esportare i fogli Excel in presentazioni PowerPoint con Aspose.Cells per .NET, passo passo e con esempi di codice.
+

@@ -111,6 +111,9 @@ Pelajari cara menghitung nilai kotangen di Excel menggunakan C#, membuat workboo
 ### [Cara Menggunakan WRAPCOLS di C# – Mengubah Array Menjadi Matriks di Excel](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
 Pelajari cara menggunakan fungsi WRAPCOLS di C# untuk mengubah data array menjadi matriks dalam lembar kerja Excel dengan Aspose.Cells.
 
+### [Memperbarui Rumus Excel Power Query dengan Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
+Pelajari cara memperbarui rumus Power Query secara terprogram di buku kerja Excel menggunakan Aspose.Cells untuk .NET. Kelola sumber data utama untuk pelaporan dinamis.
+
 ### [Cara Menggunakan SEQUENCE di C# – Membuat Workbook Excel](./how-to-use-sequence-in-c-create-excel-workbook/)
 
 ### [Menulis Rumus Array di C# – Panduan Pemrograman Lengkap](./write-array-formula-in-c-complete-programming-guide/)
