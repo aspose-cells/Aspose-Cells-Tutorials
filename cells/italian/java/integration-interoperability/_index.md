@@ -72,6 +72,7 @@ Scopri come convertire file Excel in presentazioni PowerPoint con Aspose.Slides 
 Scopri come esportare i grafici da Excel a PowerPoint usando Aspose.Cells per Java, con esempi di codice passo passo.
 ### [Come salvare Excel come DOCX con Aspose.Cells in C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
 Scopri come convertire i file Excel in DOCX utilizzando Aspose.Cells per C#.
+### [Come copiare un intervallo da Excel ed esportarlo in PowerPoint usando Java](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
 
 ## Risorse aggiuntive
 

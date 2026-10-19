@@ -55,6 +55,8 @@ Java で Teacher クラスを実装し、生徒データを管理し、Aspose.Ce
 
 ### [Java で Excel を PPTX に変換 – 完全プログラミングガイド](./convert-excel-to-pptx-with-java-complete-programming-guide/)
 Java と Aspose.Cells を使用して、Excel ファイルを PowerPoint プレゼンテーション (PPTX) に変換する方法をステップバイステップで解説します。
+### [Java を使用して Excel の範囲をコピーし、PowerPoint にエクスポートする方法](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+Java と Aspose.Cells を使って Excel のセル範囲を取得し、PowerPoint スライドにエクスポートする手順を解説します。
 
 ### [Excel から Word へチャートをエクスポートする方法 – Java ガイド](./how-to-export-charts-from-excel-to-word-java-guide/)
 Java と Aspose.Cells を使用して、Excel のチャートを Word 文書にエクスポートする手順を学びます。
