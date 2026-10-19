@@ -25,10 +25,6 @@ title: Créer un classeur Excel C# – Générer un XLSX à partir de JSON
 url: /fr/net/excel-workbook/create-excel-workbook-c-generate-xlsx-from-json/
 ---
 
-codes unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

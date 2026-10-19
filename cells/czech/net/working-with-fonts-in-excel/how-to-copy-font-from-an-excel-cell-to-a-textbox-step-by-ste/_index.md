@@ -25,17 +25,7 @@ title: Jak zkopírovat písmo z buňky v Excelu do TextBoxu – krok za krokem
 url: /cs/net/working-with-fonts-in-excel/how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/
 ---
 
-kopírovat písmo z buňky Excel do TextBoxu". Keep URL unchanged.
-
-Then closing shortcodes.
-
-Now produce final content with same structure.
-
-Check we didn't miss any text.
-
-Also note the shortcodes at bottom: {{< /blocks/products/pf/tutorial-page-section >}} etc. Keep.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

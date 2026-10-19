@@ -19,14 +19,6 @@ title: Excelで和暦日付を解析する – C#開発者向け完全ガイド
 url: /ja/net/data-loading-and-parsing/parse-japanese-era-dates-in-excel-full-guide-for-c-developer/
 ---
 
-# チュートリアル". Keep the dash? We'll translate.
-
-Then paragraph.
-
-Proceed.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

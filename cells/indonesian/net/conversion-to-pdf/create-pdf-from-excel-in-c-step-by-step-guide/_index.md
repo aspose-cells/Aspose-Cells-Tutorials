@@ -25,9 +25,7 @@ title: Buat PDF dari Excel di C# – Panduan Langkah demi Langkah
 url: /id/net/conversion-to-pdf/create-pdf-from-excel-in-c-step-by-step-guide/
 ---
 
-unchanged.
-
-Now produce final content with all translations and unchanged shortcodes.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -53,6 +53,23 @@
 ### [Εξοικείωση με την υλοποίηση της τάξης Java Teacher με την ενσωμάτωση Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 Μάθετε πώς να υλοποιείτε μια τάξη Δασκάλου σε Java, να διαχειρίζεστε δεδομένα μαθητών και να ενσωματώνετε το Aspose.Cells για βελτιωμένο χειρισμό αρχείων Excel.
 
+### [Μετατροπή Excel σε PPTX με Java – Πλήρης Οδηγός Προγραμματισμού](./convert-excel-to-pptx-with-java-complete-programming-guide/)
+
+### [Πώς να εξάγετε διαγράμματα από το Excel σε Word – Οδηγός Java](./how-to-export-charts-from-excel-to-word-java-guide/)
+
+### [Πώς να χρησιμοποιήσετε τη WRAPCOLS σε Java – Πλήρης Οδηγός για τους Πίνακες Συναρτήσεων του Excel](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
+Μάθετε πώς να εφαρμόσετε τη λειτουργία WRAPCOLS σε Java για δημιουργία και διαχείριση πινάκων τύπων Excel.
+### [Δημιουργία PowerPoint από Excel – Πλήρης Οδηγός Java](./create-powerpoint-from-excel-full-java-guide/)
+Μάθετε πώς να δημιουργήσετε παρουσιάσεις PowerPoint από αρχεία Excel χρησιμοποιώντας το Aspose.Cells για Java, βήμα προς βήμα.
+
+### [Μετατροπή Excel σε PowerPoint – Πλήρης Οδηγός Java](./convert-excel-to-powerpoint-complete-java-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία Excel σε παρουσιάσεις PowerPoint με Aspose.Cells για Java, βήμα προς βήμα.
+### [Πώς να Εξάγετε Διαγράμματα από το Excel στο PowerPoint – Πλήρης Οδηγός Java](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
+Μάθετε πώς να εξάγετε διαγράμματα Excel σε παρουσιάσεις PowerPoint χρησιμοποιώντας Aspose.Cells για Java, βήμα-βήμα με παραδείγματα κώδικα.
+### [Μετατροπή Excel σε PowerPoint – Πλήρης Οδηγός Βήμα‑βήμα](./convert-excel-to-powerpoint-full-step-by-step-guide/)
+Μάθετε πώς να μετατρέπετε αρχεία Excel σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Cells για Java, με πλήρη παραδείγματα κώδικα.
+### [Πώς να αποθηκεύσετε το Excel ως DOCX με Aspose.Cells σε C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+Μάθετε πώς να μετατρέψετε ένα αρχείο Excel σε μορφή DOCX χρησιμοποιώντας το Aspose.Cells σε C#.
 ### [Πώς να αντιγράψετε περιοχή από το Excel και να την εξάγετε στο PowerPoint χρησιμοποιώντας Java](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
 
 ## Πρόσθετοι Πόροι

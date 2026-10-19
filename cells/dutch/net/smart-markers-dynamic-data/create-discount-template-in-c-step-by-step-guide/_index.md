@@ -23,9 +23,7 @@ title: Maak kortingssjabloon in C# – Stapsgewijze handleiding
 url: /nl/net/smart-markers-dynamic-data/create-discount-template-in-c-step-by-step-guide/
 ---
 
-Make sure we didn't translate any code block placeholders or shortcodes.
-
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

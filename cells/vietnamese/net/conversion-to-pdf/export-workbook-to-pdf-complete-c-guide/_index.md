@@ -25,7 +25,7 @@ title: Xuất Workbook sang PDF – Hướng dẫn C# đầy đủ
 url: /vi/net/conversion-to-pdf/export-workbook-to-pdf-complete-c-guide/
 ---
 
-content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

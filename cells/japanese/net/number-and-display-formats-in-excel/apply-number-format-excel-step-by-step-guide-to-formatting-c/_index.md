@@ -22,17 +22,7 @@ title: Excelで数値書式を適用 – 列の書式設定ステップバイス
 url: /ja/net/number-and-display-formats-in-excel/apply-number-format-excel-step-by-step-guide-to-formatting-c/
 ---
 
-< blocks/products/products-backtop-button >}}
-
-We must keep them.
-
-Now produce final content.
-
-Let's craft translation.
-
-Be careful with markdown formatting.
-
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

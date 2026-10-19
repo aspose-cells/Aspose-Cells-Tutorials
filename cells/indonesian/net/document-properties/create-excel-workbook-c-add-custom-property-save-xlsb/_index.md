@@ -23,28 +23,6 @@ title: Buat Workbook Excel C# – Tambahkan Properti Kustom & Simpan XLSB
 url: /id/net/document-properties/create-excel-workbook-c-add-custom-property-save-xlsb/
 ---
 
-code placeholders and shortcodes.
-
-Let's translate.
-
-Title: "Create Excel Workbook C# – Add Custom Property & Save XLSB" -> "Buat Workbook Excel C# – Tambahkan Properti Kustom & Simpan XLSB"
-
-But we need to keep "Excel Workbook C#" maybe keep as is but translate rest.
-
-We'll translate naturally.
-
-Proceed.
-
-Be careful with markdown formatting.
-
-Also note the table row "Large numeric IDs" originally had **string** in bold; keep bold.
-
-Also note the FAQ answer about trial: "just remember the watermark on the output file." We'll translate.
-
-Also note the "ready for any downstream process" is bold; keep bold.
-
-Let's produce final translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -25,13 +25,7 @@ title: C#'de Excel Otomatik Filtreyi Kaldırma – Tam Adım Adım Kılavuz
 url: /tr/net/excel-autofilter-validation/remove-autofilter-excel-in-c-complete-step-by-step-guide/
 ---
 
-and code block placeholders unchanged.
-
-Also keep markdown links: there are none except maybe in code blocks placeholders. There's an image link we translated alt and title.
-
-Check for any other markdown links: none.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

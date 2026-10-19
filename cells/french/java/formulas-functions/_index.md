@@ -32,6 +32,8 @@ Apprenez à définir des formules matricielles, à appliquer des styles numériq
 ### [Comment créer une fonction de valeur statique personnalisée dans Aspose.Cells Java](./aspose-cells-java-custom-static-value-function/)
 Découvrez comment étendre AbstractCalculationEngine pour des calculs personnalisés avec Aspose.Cells Java. Automatisez les tâches Excel avec des valeurs prédéfinies.
 
+### [Comment utiliser Aspose en Java – créer un classeur Excel avec de nouvelles fonctions](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+
 ### [Maîtriser les formules de liens externes dans Excel avec Aspose.Cells pour Java](./aspose-cells-java-external-link-formulas-excel/)
 Apprenez à utiliser Aspose.Cells pour Java pour gérer les formules de liens externes dans Excel, améliorant ainsi l'intégration des données en toute simplicité.
 
@@ -83,7 +85,17 @@ Apprenez à automatiser les tâches Excel avec Aspose.Cells pour Java. Ce guide 
 ### [Comment implémenter FormulaText dans Aspose.Cells pour Java : guide étape par étape](./implementing-formula-text-aspose-cells-java-guide/)
 Apprenez à extraire le texte d'une formule de cellules Excel avec Aspose.Cells et Java. Ce guide couvre la configuration, la mise en œuvre et les applications pratiques.
 
+### [Comment utiliser Reduce dans Excel avec Java – Guide de formule Lambda](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
 
+### [Comment utiliser WRAPCOLS en Java – Exemple complet de WRAPCOLS Excel](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+Apprenez à appliquer la fonction WRAPCOLS avec Aspose.Cells pour Java afin de transformer des données en colonnes multiples dans Excel.
+
+### [Comment utiliser SEQUENCE dans un classeur Excel Java – guide étape par étape](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+Apprenez à appliquer la fonction SEQUENCE d'Excel avec Aspose.Cells pour Java afin de générer des séries de données dynamiques dans vos classeurs.
+### [Comment calculer la cotangente dans Excel – Guide complet](./how-to-calculate-cotangent-in-excel-complete-guide/)
+Apprenez à calculer la fonction cotangente dans Excel en utilisant les formules appropriées et à gérer les cas particuliers.
+### [Trier les valeurs uniques dans Excel – Guide complet Java pour définir des formules matricielles](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+Apprenez à trier les valeurs uniques dans Excel en définissant des formules matricielles avec Aspose.Cells pour Java.
 
 ## Ressources supplémentaires
 

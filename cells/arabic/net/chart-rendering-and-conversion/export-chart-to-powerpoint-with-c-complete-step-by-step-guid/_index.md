@@ -23,10 +23,6 @@ title: تصدير المخطط إلى PowerPoint باستخدام C# – دلي�
 url: /ar/net/chart-rendering-and-conversion/export-chart-to-powerpoint-with-c-complete-step-by-step-guid/
 ---
 
-code block placeholders remain.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,15 +24,7 @@ title: Xóa bộ lọc tự động trong Excel bằng C# – Hướng dẫn chi
 url: /vi/net/excel-autofilter-validation/remove-autofilter-excel-in-c-complete-step-by-step-guide/
 ---
 
-filter khi bạn cần!"
-
-Then closing shortcodes remain.
-
-Also need to keep the block at end: {{< /blocks/products/pf/tutorial-page-section >}} etc.
-
-Make sure to keep all code block placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

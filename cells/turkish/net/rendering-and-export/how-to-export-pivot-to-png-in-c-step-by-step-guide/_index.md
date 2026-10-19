@@ -25,7 +25,7 @@ title: C#'ta Pivot'ı PNG Olarak Nasıl Dışa Aktarılır – Adım Adım Rehbe
 url: /tr/net/rendering-and-export/how-to-export-pivot-to-png-in-c-step-by-step-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

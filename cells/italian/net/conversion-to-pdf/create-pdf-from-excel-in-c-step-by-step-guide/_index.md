@@ -25,7 +25,7 @@ title: Crea PDF da Excel in C# – Guida passo‑a‑passo
 url: /it/net/conversion-to-pdf/create-pdf-from-excel-in-c-step-by-step-guide/
 ---
 
-final content with all translations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

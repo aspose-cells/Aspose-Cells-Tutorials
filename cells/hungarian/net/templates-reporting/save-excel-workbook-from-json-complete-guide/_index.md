@@ -24,8 +24,6 @@ title: Excel munkafüzet mentése JSON‑ból – Teljes útmutató
 url: /hu/net/templates-reporting/save-excel-workbook-from-json-complete-guide/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

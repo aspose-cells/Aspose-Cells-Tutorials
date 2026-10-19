@@ -24,9 +24,7 @@ title: Hoe Excel naar PowerPoint te exporteren – Stapsgewijze gids
 url: /nl/net/converting-excel-files-to-other-formats/how-to-export-excel-to-powerpoint-step-by-step-guide/
 ---
 
-code block placeholders. Good.
-
-Now produce final output with same structure.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

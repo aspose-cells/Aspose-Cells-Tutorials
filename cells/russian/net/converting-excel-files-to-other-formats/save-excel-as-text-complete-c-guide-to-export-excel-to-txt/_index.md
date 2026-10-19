@@ -23,14 +23,6 @@ title: Сохранить Excel как текст — Полное руково�
 url: /ru/net/converting-excel-files-to-other-formats/save-excel-as-text-complete-c-guide-to-export-excel-to-txt/
 ---
 
-alt text is inside attribute after {}. Should translate alt text but keep same syntax. So alt becomes "пример сохранения excel как текст". Keep attribute.
-
-Also need to translate "Image Illustration" heading.
-
-Proceed.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

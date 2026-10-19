@@ -25,9 +25,7 @@ title: Hogyan formázzuk az oszlopokat Excelben C#‑val – DataTable importál
 url: /hu/net/excel-formatting-and-styling/how-to-style-columns-in-excel-with-c-import-datatable/
 ---
 
-markdown formatting preserved.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,12 +22,6 @@ title: C#에서 문자열을 DateTime으로 변환 – Excel에서 날짜 쓰기
 url: /ko/net/excel-custom-number-date-formatting/convert-string-to-datetime-in-c-write-read-dates-in-excel/
 ---
 
-Let's produce final Korean translation.
-
-We'll translate headings and text.
-
-Let's start constructing.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

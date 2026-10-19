@@ -23,18 +23,6 @@ title: Criar nova pasta de trabalho em C# – Carregar Excel com calendário jap
 url: /pt/net/loading-and-saving-excel-files-with-options/create-new-workbook-in-c-load-excel-with-japanese-calendar/
 ---
 
-workbook instance with Japanese calendar settings" should be translated.
-
-But need to keep the URL unchanged.
-
-Also the table content: translate.
-
-Let's produce.
-
-Be careful with bullet points.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

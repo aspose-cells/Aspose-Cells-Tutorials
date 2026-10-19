@@ -51,11 +51,13 @@ Pelajari cara menghindari halaman kosong dalam keluaran PDF menggunakan Aspose.C
 ### [Mengontrol Sumber Daya Eksternal di Excel ke PDF di Aspose.Cells](./control-loading-of-external-resources/)
 Temukan cara mengontrol sumber daya eksternal dalam konversi Excel ke PDF menggunakan Aspose.Cells untuk .NET dengan panduan kami yang mudah diikuti.
 ### [Buat Bookmark PDF untuk Lembar Bagan di Aspose.Cells](./create-pdf-bookmark-entry-for-chart-sheet/)
-Pelajari cara membuat penanda PDF untuk lembar bagan di Aspose.Cells untuk .NET dengan panduan langkah demi langkah yang komprehensif ini.
+Pelajari cara membuat penanda PDF untuk lembar bagan di Aspose.Cells untuk .NET dengan panduan langkah demi langkah yang komprehensif.
 ### [Ekspor Rentang Sel ke Gambar dengan Aspose.Cells](./export-range-of-cells-to-image/)
 Ekspor rentang sel Excel ke gambar dengan mudah menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Tingkatkan pelaporan dan presentasi Anda.
 ### [Dapatkan Batas Objek Gambar dengan Aspose.Cells](./get-draw-object-and-bound/)
 Temukan cara mengekstrak batas objek gambar di Excel menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah kami yang komprehensif.
+### [Buat Gambar PNG Pivot di C# – Panduan Langkah-demi-Langkah Lengkap](./create-png-pivot-image-in-c-full-step-by-step-guide/)
+Pelajari cara membuat gambar PNG pivot dari data Excel menggunakan Aspose.Cells for .NET dengan panduan lengkap langkah demi langkah.
 ### [Abaikan Kesalahan dalam Rendering Excel ke PDF dengan Aspose.Cells](./ignore-errors-while-rendering/)
 Pelajari cara mengabaikan kesalahan saat mengonversi file Excel ke PDF dengan Aspose.Cells for .NET. Panduan langkah demi langkah disertakan.
 ### [Menampilkan Halaman Kosong jika Tidak Ada yang Dicetak di Aspose.Cells](./output-blank-page-when-nothing-to-print/)

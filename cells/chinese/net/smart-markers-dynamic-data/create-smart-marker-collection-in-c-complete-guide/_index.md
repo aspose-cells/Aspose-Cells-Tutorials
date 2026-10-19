@@ -20,7 +20,7 @@ title: 在 C# 中创建智能标记集合 – 完整指南
 url: /zh/net/smart-markers-dynamic-data/create-smart-marker-collection-in-c-complete-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

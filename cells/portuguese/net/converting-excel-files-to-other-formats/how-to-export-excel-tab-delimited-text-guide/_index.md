@@ -24,31 +24,7 @@ title: Como exportar Excel – Guia de Texto Delimitado por Tabulação
 url: /pt/net/converting-excel-files-to-other-formats/how-to-export-excel-tab-delimited-text-guide/
 ---
 
-etc. Keep them.
-
-Translate paragraphs, bullet points, etc.
-
-Let's produce final output.
-
-Check for any URLs: none besides maybe none.
-
-We need to translate "how to export excel – Complete C# Tutorial" title. Keep "excel" lower case? Keep as is.
-
-Translate "Ever wondered **how to export excel** data into a plain‑text file without losing formatting?" etc.
-
-Make sure to keep bold formatting.
-
-Also keep the note about "Pro tip". Keep "Pro tip" maybe translate "Dica profissional"? But keep formatting. Could translate "Pro tip" to "Dica profissional". Keep bold.
-
-All code block placeholders remain.
-
-Let's craft translation.
-
-Be careful with "ASP.NET"? Not present.
-
-Make sure to keep "ExportTable" etc.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

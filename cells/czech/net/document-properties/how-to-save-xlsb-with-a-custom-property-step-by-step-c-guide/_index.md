@@ -23,8 +23,6 @@ title: Jak uložit soubor XLSB s vlastní vlastností – krok za krokem v C#
 url: /cs/net/document-properties/how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

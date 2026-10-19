@@ -91,6 +91,7 @@
 تعرّف على كيفية فرز جداول البيانات المحورية برمجيًا في .NET باستخدام Aspose.Cells. دليل خطوة بخطوة يشمل الإعداد والتكوين والفرز وحفظ النتائج كملفات Excel وPDF.
 ### [تنسيق عرض بيانات جدول المحور والترتيب في .NET](./pivot-table-data-display-format-ranking/)
 تعرف على كيفية إنشاء تنسيق عرض بيانات Pivot Table وإدارته في .NET باستخدام Aspose.Cells من خلال هذا الدليل خطوة بخطوة.
+### [كيفية إنشاء Pivot في C# – دليل كامل مع Aspose.Cells](./how-to-create-pivot-in-c-full-guide-with-aspose-cells/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -11,7 +11,7 @@ url: /ru/
 weight: 10
 ---
 
- final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

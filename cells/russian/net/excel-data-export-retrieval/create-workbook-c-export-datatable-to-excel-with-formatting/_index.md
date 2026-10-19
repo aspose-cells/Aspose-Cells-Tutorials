@@ -22,17 +22,7 @@ title: Создать рабочую книгу C# – экспорт DataTable 
 url: /ru/net/excel-data-export-retrieval/create-workbook-c-export-datatable-to-excel-with-formatting/
 ---
 
-with all translations.
-
-Check for any markdown links: none.
-
-Check for any other text: The "Pro tip:" line we kept as is.
-
-Check for any other bold text: "Why?" etc. We translated.
-
-Make sure to keep the same number of headings, list items, etc.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

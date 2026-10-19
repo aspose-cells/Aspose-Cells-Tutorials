@@ -22,7 +22,7 @@ title: Excel을 PowerPoint로 내보내는 방법 – 단계별 가이드
 url: /ko/net/converting-excel-files-to-other-formats/how-to-export-excel-to-powerpoint-step-by-step-guide/
 ---
 
-. Ensure we keep markdown formatting exactly.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

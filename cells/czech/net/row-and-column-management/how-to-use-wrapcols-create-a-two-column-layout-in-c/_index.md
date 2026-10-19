@@ -22,12 +22,6 @@ title: 'Jak použít WRAPCOLS: Vytvořte dvousloupcové rozložení v C#'
 url: /cs/net/row-and-column-management/how-to-use-wrapcols-create-a-two-column-layout-in-c/
 ---
 
-content.
-
-Be careful to preserve markdown formatting, code block placeholders unchanged.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

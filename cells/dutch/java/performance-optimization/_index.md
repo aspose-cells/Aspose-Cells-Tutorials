@@ -68,7 +68,8 @@ Leer hoe u Excel-werkmappen in Java optimaliseert met Aspose.Cells voor betere p
 ### [Excel-werkmapcellen optimaliseren in Java met Aspose.Cells: een complete handleiding](./optimize-workbook-cells-java-aspose-cells-guide/)
 Leer hoe u cellen in Excel-werkmappen efficiënt kunt optimaliseren en beheren met Aspose.Cells voor Java. Verbeter uw Java-applicaties met deze uitgebreide handleiding.
 
-
+### [set useflatopc true – Hoe Excel-werkmappen met Flat OPC op te slaan in Java](./set-useflatopc-true-how-to-save-excel-workbooks-with-flat-op/)
+Leer hoe u de useFlatOPC‑instelling inschakelt om Excel‑werkmappen in Flat OPC‑formaat op te slaan, waardoor de bestandsgrootte en prestaties verbeteren.
 
 ## Aanvullende bronnen
 

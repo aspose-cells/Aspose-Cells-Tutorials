@@ -25,7 +25,7 @@ title: Salva Excel come HTML – Guida completa C#
 url: /it/net/exporting-excel-to-html-with-advanced-options/save-excel-as-html-complete-c-guide/
 ---
 
-produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

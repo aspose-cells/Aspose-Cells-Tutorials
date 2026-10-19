@@ -12,9 +12,7 @@ url: /id/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel
 weight: 1
 ---
 
- formatting.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

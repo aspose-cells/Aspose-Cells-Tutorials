@@ -11,11 +11,7 @@ url: /de/
 weight: 10
 ---
 
- produce final content with all translations.
-
-Need to ensure we keep all shortcodes exactly.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

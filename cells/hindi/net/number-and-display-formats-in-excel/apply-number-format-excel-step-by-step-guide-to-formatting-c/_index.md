@@ -26,26 +26,6 @@ title: एक्सेल में नंबर फ़ॉर्मेट ला
 url: /hi/net/number-and-display-formats-in-excel/apply-number-format-excel-step-by-step-guide-to-formatting-c/
 ---
 
-which are not code fences but placeholders. Actually they are not fenced code blocks; they are placeholders. The requirement says preserve code blocks fenced with ```. There are none in the content except placeholders. So we keep placeholders as is.
-
-We must translate step-by-step.
-
-Let's produce Hindi translation.
-
-Be careful with markdown formatting: headings (#, ##, ###). Keep them.
-
-Translate bullet lists.
-
-Translate blockquote >.
-
-Translate table content: keep **Product** etc but translate maybe the description? The table header includes **Product** (blue font) etc. Should we translate "Product" to Hindi? It is a column name; maybe keep as is? The instruction: translate all text content naturally to Hindi, but keep technical terms in English. "Product" is a business term, could be translated as "उत्पाद". However it's column header; maybe keep as is? The original had **Product** (blue font). I'd translate "Product" to "उत्पाद". Similarly "Price" to "कीमत". The description in parentheses can be translated.
-
-Let's translate.
-
-Also list items under "What You’ll Learn" etc.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

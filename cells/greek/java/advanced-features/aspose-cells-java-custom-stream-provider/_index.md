@@ -13,9 +13,7 @@ url: /el/java/advanced-features/aspose-cells-java-custom-stream-provider/
 weight: 1
 ---
 
-Make sure to keep code block placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

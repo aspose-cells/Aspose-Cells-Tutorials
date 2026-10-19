@@ -22,34 +22,6 @@ title: วิธีจัดรูปแบบสกุลเงินในค�
 url: /th/net/number-and-display-formats-in-excel/how-to-format-currency-in-a-grid-column-step-by-step-guide/
 ---
 
-dash.
-
-Also need to translate the TL;DR blockquote content.
-
-Also translate "What You’ll Need", "Step‑by‑Step Implementation", etc.
-
-Also translate "Full Working Example", "Expected console output", "Frequently Asked Questions & Edge Cases", table headings and rows.
-
-Also translate "Wrap‑Up" and final paragraph.
-
-Also translate bullet points.
-
-Make sure to keep code block placeholders unchanged.
-
-Also keep the blockquote formatting: > **TL;DR** – By the end you’ll have a ready‑to‑run snippet...
-
-Translate that.
-
-Now produce final content.
-
-Let's translate.
-
-I'll produce Thai translation.
-
-Be careful with punctuation.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

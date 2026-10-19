@@ -22,26 +22,6 @@ title: 엑셀 시트 자동 명명 – 시트를 쉽게 만드는 방법
 url: /ko/net/smart-markers-dynamic-data/auto-name-excel-sheets-easy-way-to-generate-sheets/
 ---
 
-line at end: "Try swapping the data source for a `Data". The original cut off. Keep as is.
-
-Let's produce translation.
-
-We need to translate:
-
-- Title: "Auto Name Excel Sheets – Complete C# Tutorial" -> Korean: "Excel 시트 자동 이름 지정 – 완전 C# 튜토리얼"
-
-- Paragraphs.
-
-Make sure to keep markdown formatting.
-
-Let's craft translation.
-
-Be careful with bold **text** keep bold.
-
-Also preserve links? There are none except maybe in code block placeholders.
-
-Let's produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

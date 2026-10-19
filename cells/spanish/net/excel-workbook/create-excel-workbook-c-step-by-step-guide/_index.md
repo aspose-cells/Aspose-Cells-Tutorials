@@ -24,7 +24,7 @@ title: Crear libro de Excel C# – Guía paso a paso
 url: /es/net/excel-workbook/create-excel-workbook-c-step-by-step-guide/
 ---
 
-final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

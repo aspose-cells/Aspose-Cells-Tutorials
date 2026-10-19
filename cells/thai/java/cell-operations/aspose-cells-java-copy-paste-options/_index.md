@@ -12,19 +12,7 @@ url: /th/java/cell-operations/aspose-cells-java-copy-paste-options/
 weight: 1
 ---
 
- "**ทดสอบด้วย:**"
-
-**Author:** => "**ผู้เขียน:**"
-
-Now produce final content with all translations.
-
-Check that we didn't translate code block placeholders. Keep them.
-
-Check that we didn't translate URLs.
-
-Check that we kept markdown formatting.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

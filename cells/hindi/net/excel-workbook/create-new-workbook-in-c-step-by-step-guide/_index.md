@@ -23,9 +23,7 @@ title: C# में नया वर्कबुक बनाएं – चर�
 url: /hi/net/excel-workbook/create-new-workbook-in-c-step-by-step-guide/
 ---
 
-to preserve markdown formatting, code placeholders, shortcodes.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

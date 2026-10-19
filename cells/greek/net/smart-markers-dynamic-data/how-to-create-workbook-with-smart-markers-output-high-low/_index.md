@@ -24,8 +24,6 @@ title: Πώς να δημιουργήσετε βιβλίο εργασίας με
 url: /el/net/smart-markers-dynamic-data/how-to-create-workbook-with-smart-markers-output-high-low/
 ---
 
-no extra explanation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

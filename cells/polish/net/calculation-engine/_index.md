@@ -49,6 +49,8 @@ Dowiedz się, jak optymalizować czasy obliczeń w programie Excel, używając o
 
 ### [Wymuszenie obliczania formuły w C# – Kompletny przewodnik po automatyzacji Excela](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
 Dowiedz się, jak wymusić ponowne obliczanie formuł w Excelu przy użyciu C#, aby zapewnić aktualne wyniki w automatyzacji.
+### [Utwórz skoroszyt Excel – konwertuj tablicę na macierz przy użyciu WRAPCOLS](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
+Dowiedz się, jak utworzyć skoroszyt Excel i przekształcić jednowymiarową tablicę w macierz przy pomocy funkcji WRAPCOLS w Aspose.Cells .NET.
 
 ## Korzyści
 

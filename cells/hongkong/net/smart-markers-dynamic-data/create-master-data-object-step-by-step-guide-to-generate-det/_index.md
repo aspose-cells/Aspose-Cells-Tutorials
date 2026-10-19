@@ -20,17 +20,7 @@ title: 建立主資料物件 – 逐步指南產生明細表
 url: /zh-hant/net/smart-markers-dynamic-data/create-master-data-object-step-by-step-guide-to-generate-det/
 ---
 
-.SaveAsPdf(...)`" => "使用 `workbook.SaveAsPdf(...)` 將產生的活頁簿匯出為 PDF"
-
-Final sentence: "Feel free to experiment, break things, and then bring them back together. That’s the fastest way to master worksheet automation. Happy coding!" => "盡情試驗、打破再重組吧。這是掌握工作表自動化的最快方式。祝開發愉快！"
-
-Now ensure we keep shortcodes at start and end.
-
-Also preserve the backticks and code placeholders.
-
-Make sure to keep the markdown list formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

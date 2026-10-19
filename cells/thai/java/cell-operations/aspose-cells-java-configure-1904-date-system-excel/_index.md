@@ -11,28 +11,6 @@ url: /th/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel
 weight: 1
 ---
 
- "Managing historical data in Excel can be challenging because Excel supports two different date systems. **In this tutorial you'll learn how to change Excel date system to the 1904 format using Aspose.Cells for Java**, which makes handling legacy dates painless. We'll walk through initializing a workbook, enabling the 1904 date system, and persisting the change."
-
-Translate.
-
-Then "## Quick Answers" etc.
-
-Translate bullet points.
-
-Need to keep bold formatting.
-
-Also code snippet placeholders remain.
-
-Proceed.
-
-Also note "## Set Excel date programmatically (secondary keyword)" etc.
-
-Translate.
-
-Make sure to keep markdown formatting.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

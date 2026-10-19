@@ -23,9 +23,7 @@ title: मास्टर डेटा ऑब्जेक्ट बनाएं 
 url: /hi/net/smart-markers-dynamic-data/create-master-data-object-step-by-step-guide-to-generate-det/
 ---
 
-sure to preserve all markdown formatting, headings, lists, code block placeholders.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

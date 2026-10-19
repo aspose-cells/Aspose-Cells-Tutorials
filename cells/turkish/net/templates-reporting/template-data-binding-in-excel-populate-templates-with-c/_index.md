@@ -24,23 +24,7 @@ title: 'Excel''de Şablon Veri Bağlama: Şablonları C# ile Doldurma'
 url: /tr/net/templates-reporting/template-data-binding-in-excel-populate-templates-with-c/
 ---
 
-ek için ASP.NET Core ile entegre edin."
-
-Next: "Experiment, break things, and then fix them—because that’s how you truly master **how to populate spreadsheet** programmatically."
-
-Translate: "Deneyin, hatalar yapın ve ardından düzeltin—çünkü **how to populate spreadsheet** programmatically'ı gerçekten bu şekilde ustalaşırsınız."
-
-Next: "Got questions or a tricky scenario? Drop a comment below, and happy coding!" translate.
-
-"Sorularınız veya zor bir senaryonuz mu var? Aşağıya bir yorum bırakın, iyi kodlamalar!"
-
-Image line stays unchanged.
-
-Finally closing shortcodes.
-
-Now ensure we keep all placeholders unchanged.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

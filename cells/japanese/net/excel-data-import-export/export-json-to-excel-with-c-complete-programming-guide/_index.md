@@ -23,10 +23,6 @@ title: C#でJSONをExcelにエクスポートする：完全プログラミン�
 url: /ja/net/excel-data-import-export/export-json-to-excel-with-c-complete-programming-guide/
 ---
 
-Be careful with markdown formatting.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

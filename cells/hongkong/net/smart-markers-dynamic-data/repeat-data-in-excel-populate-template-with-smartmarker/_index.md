@@ -21,14 +21,6 @@ title: 在 Excel 中重複資料 – 使用 SmartMarker 填充範本
 url: /zh-hant/net/smart-markers-dynamic-data/repeat-data-in-excel-populate-template-with-smartmarker/
 ---
 
-codes.
-
-Make sure to keep all shortcodes unchanged.
-
-Now produce final content.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

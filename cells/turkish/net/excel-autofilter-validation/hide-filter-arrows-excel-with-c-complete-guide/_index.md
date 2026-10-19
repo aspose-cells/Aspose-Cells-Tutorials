@@ -24,15 +24,7 @@ title: C# ile Excel'de filtre oklarını gizleme – Tam Kılavuz
 url: /tr/net/excel-autofilter-validation/hide-filter-arrows-excel-with-c-complete-guide/
 ---
 
-elektronik tablolarınız düzenli kalsın!"
-
-Image line: keep unchanged.
-
-Then closing shortcodes.
-
-Make sure to keep all shortcodes exactly.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

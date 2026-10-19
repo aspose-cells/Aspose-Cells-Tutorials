@@ -22,11 +22,7 @@ title: C# 워크북 만들기 – DataTable을 서식과 함께 Excel로 내보�
 url: /ko/net/excel-data-export-retrieval/create-workbook-c-export-datatable-to-excel-with-formatting/
 ---
 
-comments inside code block remain English (should not translate). That's fine.
-
-Also the "Pro tip:" is bold; keep.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,8 +22,6 @@ title: Создание коллекции Smart Marker в C# — Полное
 url: /ru/net/smart-markers-dynamic-data/create-smart-marker-collection-in-c-complete-guide/
 ---
 
-output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

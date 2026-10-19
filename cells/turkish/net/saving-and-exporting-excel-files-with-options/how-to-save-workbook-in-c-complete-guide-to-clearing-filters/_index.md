@@ -27,20 +27,6 @@ title: C#'de Çalışma Kitabını Nasıl Kaydedilir – Filtreleri Temizleme ve
 url: /tr/net/saving-and-exporting-excel-files-with-options/how-to-save-workbook-in-c-complete-guide-to-clearing-filters/
 ---
 
-" translate.
-
-Turkish: "C#'ta Çalışma Kitabını Kaydetme – Filtreleri Temizleme ve Excel'i Dışa Aktarma Tam Kılavuzu"
-
-Proceed.
-
-Paragraphs etc.
-
-Need to translate bold parts as well.
-
-Let's go step by step.
-
-I'll produce final markdown.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

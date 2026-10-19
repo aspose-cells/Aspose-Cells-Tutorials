@@ -24,9 +24,7 @@ title: Comment créer un classeur en C# – Guide étape par étape
 url: /fr/net/excel-workbook/how-to-create-workbook-in-c-step-by-step-guide/
 ---
 
-content, preserving all code placeholders and shortcodes.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

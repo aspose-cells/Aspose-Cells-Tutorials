@@ -23,12 +23,6 @@ title: Automatyczne nadawanie nazw arkuszom Excel – łatwy sposób na generowa
 url: /pl/net/smart-markers-dynamic-data/auto-name-excel-sheets-easy-way-to-generate-sheets/
 ---
 
-". It seems cut off. Keep as is.
-
-Now produce final content.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

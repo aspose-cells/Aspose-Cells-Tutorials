@@ -22,8 +22,6 @@ title: Segarkan Tabel Pivot Excel di C# – Ekspor sebagai Gambar PNG
 url: /id/net/pivot-tables/refresh-excel-pivot-table-in-c-export-as-png-image/
 ---
 
-output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

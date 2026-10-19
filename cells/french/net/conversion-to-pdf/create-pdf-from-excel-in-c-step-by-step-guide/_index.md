@@ -25,22 +25,6 @@ title: Créer un PDF à partir d'Excel en C# – Guide étape par étape
 url: /fr/net/conversion-to-pdf/create-pdf-from-excel-in-c-step-by-step-guide/
 ---
 
-Runnable Example" we translated.
-
-Check "Convert Excel to PDF – Advanced Options" we translated.
-
-Check "Save Workbook as PDF – Common Pitfalls" we translated.
-
-Check "Export Excel to PDF – Verifying the Output Programmatically" we translated.
-
-Check "Save Excel as PDF – Image Illustration" we translated.
-
-Check "Recap & Next Steps" we translated.
-
-All good.
-
-Now produce final content with translations, preserving code block placeholders.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

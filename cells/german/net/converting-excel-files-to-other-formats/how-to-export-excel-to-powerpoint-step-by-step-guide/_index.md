@@ -24,12 +24,6 @@ title: Wie man Excel nach PowerPoint exportiert – Schritt‑für‑Schritt‑A
 url: /de/net/converting-excel-files-to-other-formats/how-to-export-excel-to-powerpoint-step-by-step-guide/
 ---
 
-.
-
-Let's translate.
-
-Will produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
