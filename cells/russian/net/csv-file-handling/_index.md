@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Обработка CSV-файлов
@@ -35,15 +33,44 @@
 Узнайте, как открывать файлы CSV с помощью Aspose.Cells для .NET с помощью нашего всеобъемлющего пошагового руководства. Освойте манипуляцию данными.
 ### [Открытие CSV-файлов с помощью предпочтительного парсера](./csv-file-opening-csv-files-with-preferred-parser/)
 Узнайте, как открывать и анализировать CSV-файлы с помощью пользовательских парсеров в Aspose.Cells для .NET. Легко обрабатывайте текст и даты. Идеально подходит для разработчиков.
+### [Сохранение книги в CSV на C# – Экспорт Excel в CSV](./save-workbook-as-csv-in-c-export-excel-to-csv/)
+Узнайте, как сохранять рабочую книгу в формате CSV с помощью Aspose.Cells для .NET, используя C#. Быстро экспортируйте данные из Excel.
+### [Сохранение Excel в CSV на C# – Полное руководство по экспорту Xlsx в CSV](./save-excel-as-csv-in-c-complete-guide-to-export-xlsx-to-csv/)
+Узнайте, как с помощью Aspose.Cells для .NET экспортировать файлы XLSX в CSV в C#, включая настройки формата и оптимизацию.
+### [Создание новой книги и экспорт в CSV – пошаговое руководство C#](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
+Узнайте, как создать новую книгу Excel и экспортировать её в CSV с помощью Aspose.Cells для .NET, следуя пошаговому руководству на C#.
+
+
+
+
+
+
+
+
 ### [Экспорт таблицы в CSV – Полное руководство C# с пользовательскими форматами чисел](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
 Узнайте, как экспортировать таблицу в CSV с помощью C#, включая настройку пользовательских форматов чисел для точного отображения данных.
 ### [Экспорт таблицы в CSV на C# – Полное руководство](./export-table-to-csv-in-c-complete-guide/)
 Узнайте, как экспортировать таблицы в CSV с помощью C# и Aspose.Cells, следуя полному пошаговому руководству.
+### [Сохранение рабочей книги в CSV – Полное руководство по экспорту Excel в CSV на C#](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-i/)
+Узнайте, как сохранить рабочую книгу Excel в CSV с помощью Aspose.Cells для .NET, используя C# и оптимальные настройки экспорта.
+### [Создание новой книги в C# – Полное руководство по экспорту Excel в CSV](./create-new-workbook-in-c-full-guide-to-export-excel-to-csv/)
+Узнайте, как создать новую книгу Excel в C# и экспортировать её в CSV с помощью Aspose.Cells для .NET.
+### [Конвертирование книги Excel в CSV – Полное руководство C#](./convert-excel-workbook-to-csv-complete-c-guide/)
+Узнайте, как с помощью Aspose.Cells для .NET преобразовать рабочую книгу Excel в CSV, используя полный пример на C#.
+### [Экспорт таблицы в CSV на C# – Полное руководство по программированию](./export-table-to-csv-in-c-complete-programming-guide/)
+Узнайте, как экспортировать таблицу в CSV с помощью Aspose.Cells для .NET, используя полный пример на C#.
+### [Как экспортировать CSV из Excel с помощью C# – Полное руководство](./how-to-export-csv-from-excel-with-c-complete-guide/)
+Узнайте, как экспортировать данные из Excel в CSV с помощью C# и Aspose.Cells, следуя подробному пошаговому руководству.
+### [Сохранить книгу как CSV — Полное руководство по экспорту Excel в CSV с контролируемыми цифрами](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-w/)
+Узнайте, как сохранять рабочие книги Excel в CSV, управляя количеством знаков после запятой и форматом данных.
+### [Как сохранить книгу как CSV с точным форматированием с помощью Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
+Узнайте, как сохранить рабочую книгу в CSV с точным форматированием, используя возможности Aspose.Cells.
+### [Сохранение рабочей книги в CSV на C# – Полное руководство по программированию](./save-workbook-as-csv-in-c-complete-programming-guide/)
+Узнайте, как сохранить книгу Excel в CSV с помощью Aspose.Cells для .NET, используя C# и полное пошаговое руководство.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

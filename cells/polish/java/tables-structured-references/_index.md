@@ -44,6 +44,9 @@ Dowiedz się, jak zautomatyzować konwersję tabel Excela na zakresy za pomocą 
 ### [Tworzenie i stylizowanie zakresów nazwanych w programie Excel przy użyciu Aspose.Cells dla języka Java: kompletny przewodnik](./create-style-named-range-excel-aspose-cells-java/)
 Dowiedz się, jak tworzyć i stylizować nazwane zakresy w programie Excel przy użyciu Aspose.Cells dla Java. Ulepsz zarządzanie danymi dzięki temu przewodnikowi krok po kroku.
 
+### [Jak bezpiecznie zmienić nazwę tabeli Excel przy użyciu Aspose.Cells Java](./how-to-safely-rename-excel-table-with-aspose-cells-java/)
+Dowiedz się, jak bezpiecznie zmienić nazwę tabeli w Excelu przy użyciu Aspose.Cells dla Java, zachowując integralność danych.
+
 ### [Opanuj zarządzanie tabelami zapytań programu Excel za pomocą Aspose.Cells w języku Java: kompleksowy przewodnik](./excel-query-table-management-aspose-cells-java/)
 Dowiedz się, jak skutecznie zarządzać tabelami zapytań programu Excel za pomocą Aspose.Cells for Java, w tym odczytywać, modyfikować i zapisywać dane. Usprawnij przepływy pracy z danymi.
 

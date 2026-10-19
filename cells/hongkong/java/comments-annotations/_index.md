@@ -53,7 +53,10 @@
 ### [使用 Aspose.Cells for Java 將 Excel 註解匯出為 HTML](./export-excel-comments-html-aspose-cells-java/)
 Aspose.Words Java 程式碼教程
 
-
+### [如何使用 Java 在 Excel 中新增註解 – 完整指南](./how-to-add-comment-in-excel-with-java-complete-guide/)
+了解如何使用 Aspose.Cells for Java 在 Excel 工作表中程式化地新增註解，提升協作與文件說明。
+### [使用 Java 為 Excel 新增註解 – 完整步驟指南](./add-comment-to-excel-using-java-complete-step-by-step-guide/)
+了解如何使用 Aspose.Cells for Java 在 Excel 工作表中程式化新增註解，提供完整的步驟說明與範例程式碼。
 
 ## 其他資源
 

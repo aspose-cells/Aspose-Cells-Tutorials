@@ -70,6 +70,8 @@ Aprenda a acessar formas não primitivas no Excel usando o Aspose.Cells para .NE
 Aprenda como atualizar objetos OLE no Excel usando o Aspose.Cells para .NET com um guia passo a passo, aprimorando suas habilidades de automação do Excel sem problemas.
 ### [Tornar o Texto de TextBox em Negrito no Excel com C# – Guia Passo a Passo](./make-textbox-text-bold-in-excel-with-c-step-by-step-guide/)
 Aprenda a deixar o texto de uma caixa de texto em negrito no Excel usando Aspose.Cells para .NET com C#. Guia passo a passo incluído.
+### [Alterar o Tamanho da Fonte da Caixa de Texto no Excel com C# – Guia Completo](./change-textbox-font-size-in-excel-with-c-complete-guide/)
+Aprenda a mudar o tamanho da fonte em caixas de texto no Excel usando Aspose.Cells para .NET com C# em um guia passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

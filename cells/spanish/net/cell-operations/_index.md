@@ -104,6 +104,8 @@ Domine el proceso de actualización de registros del historial de revisiones en 
 
 ### [Leer y escribir Excel C# – Guía completa para leer y escribir celdas de Excel](./read-write-excel-c-complete-guide-to-reading-and-writing-exc/)
 Aprenda paso a paso a leer y escribir datos en celdas de Excel usando Aspose.Cells para .NET con ejemplos en C#.
+### [Cómo escribir fechas en Excel con C# – Guía completa de programación](./how-to-write-date-excel-in-c-complete-programming-guide/)
+Aprenda a escribir y formatear fechas en hojas de Excel con C# usando Aspose.Cells, con ejemplos de código y mejores prácticas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

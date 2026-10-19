@@ -53,6 +53,23 @@
 Μάθετε πώς να συνδέετε δεδομένα με πρότυπα Excel και να τα γεμίζετε προγραμματιστικά με C# χρησιμοποιώντας Aspose.Cells.
 ### [Αποθήκευση βιβλίου εργασίας Excel από JSON – Πλήρης οδηγός](./save-excel-workbook-from-json-complete-guide/)
 Μάθετε πώς να αποθηκεύετε ένα βιβλίο εργασίας Excel από δεδομένα JSON χρησιμοποιώντας το Aspose.Cells για .NET.
+### [Δημιουργία Excel από Πρότυπο – Προσθήκη Δεδομένων, Εικόνας, Αποθήκευση XLSX](./create-excel-from-template-add-data-image-save-xlsx/)
+Μάθετε πώς να δημιουργήσετε αρχείο Excel από πρότυπο, να προσθέσετε δεδομένα και εικόνες και να το αποθηκεύσετε ως XLSX.
+### [Δημιουργία προτύπου βιβλίου εργασίας με Aspose.Cells – Πλήρης Οδηγός](./create-workbook-template-with-aspose-cells-complete-guide/)
+Μάθετε πώς να δημιουργήσετε πρότυπο βιβλίου εργασίας στο Excel με το Aspose.Cells, ακολουθώντας έναν πλήρη βήμα‑προς‑βήμα οδηγό.
+### [Πώς να αποθηκεύσετε αρχείο προτύπου Excel – Οδηγός βήμα προς βήμα](./how-to-save-excel-template-file-step-by-step-guide/)
+Μάθετε πώς να αποθηκεύσετε ένα πρότυπο Excel χρησιμοποιώντας το Aspose.Cells για .NET, ακολουθώντας απλά βήματα.
+
+### [Πώς να Χρησιμοποιήσετε το Excel για Συγχώνευση Αλληλογραφίας – Πλήρης Οδηγός C#](./how-to-use-excel-for-mail-merge-complete-c-guide/)
+Μάθετε πώς να δημιουργήσετε συγχώνευση αλληλογραφίας στο Excel χρησιμοποιώντας C# και Aspose.Cells.
+
+### [Πώς να επεξεργαστείτε πρότυπο Excel και να ονομάσετε αυτόματα τα φύλλα σε C#](./how-to-process-excel-template-and-automatically-name-sheets/)
+Μάθετε πώς να επεξεργαστείτε ένα πρότυπο Excel και να ονομάσετε αυτόματα τα φύλλα χρησιμοποιώντας C# και Aspose.Cells.
+
+### [Πώς να εξάγετε δεδομένα σε Excel χρησιμοποιώντας πρότυπο C# – οδηγός βήμα‑βήμα](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
+Μάθετε πώς να εξάγετε δεδομένα σε Excel χρησιμοποιώντας πρότυπο C# με βήμα‑βήμα οδηγίες.
+### [Δημιουργία Αναφοράς Excel με C# – Οδηγός Βήμα‑βήμα](./generate-excel-report-with-c-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε αναφορά Excel με C# ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

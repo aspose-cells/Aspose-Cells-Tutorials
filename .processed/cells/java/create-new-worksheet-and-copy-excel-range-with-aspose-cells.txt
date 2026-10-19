@@ -1,0 +1,7 @@
+Title: Create new worksheet and copy Excel range with Aspose.Cells
+Slug: create-new-worksheet-and-copy-excel-range-with-aspose-cells
+Category: range-management
+ProcessedDate: 2026-09-12T06:24:36.515244
+SourceRepo: AI Search API
+Keywords: create new worksheet, copy excel range, copy range between sheets, copy range aspose.cells
+PRNumber: 158

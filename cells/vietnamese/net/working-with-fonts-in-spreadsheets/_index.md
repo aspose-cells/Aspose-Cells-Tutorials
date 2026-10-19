@@ -38,6 +38,8 @@ Tìm hiểu cách lấy và liệt kê phông chữ từ bảng tính Excel bằ
 Tìm hiểu cách thiết lập phông chữ mặc định cho tùy chọn lưu PDF bằng Aspose.Cells cho .NET, đảm bảo tài liệu của bạn luôn trông hoàn hảo.
 ### [Chỉ định Phông chữ để Hiển thị Sổ làm việc](./specify-fonts-for-workbook-rendering/)
 Tìm hiểu cách chỉ định phông chữ tùy chỉnh để hiển thị sổ làm việc bằng Aspose.Cells cho .NET. Hướng dẫn từng bước để đảm bảo đầu ra PDF hoàn hảo.
+### [Thay đổi phông chữ hộp văn bản trong lưới – Hướng dẫn chi tiết từng bước](./change-textbox-font-in-a-grid-complete-step-by-step-guide/)
+Hướng dẫn chi tiết cách thay đổi phông chữ của hộp văn bản trong lưới bằng Aspose.Cells cho .NET, bao gồm các bước thực hiện cụ thể.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

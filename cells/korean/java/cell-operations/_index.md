@@ -41,6 +41,9 @@ weight: 4
 ### [효과적인 셀 작업을 위한 Aspose.Cells Java를 사용한 Excel 1904 날짜 시스템 마스터하기](./aspose-cells-java-configure-1904-date-system-excel/)
 
 ### [Aspose.Cells 마스터하기: Java에서 Excel 데이터 관리를 위한 CopyOptions 및 PasteOptions 구현](./aspose-cells-java-copy-paste-options/)
+### [Java에서 Excel의 일본 연호 날짜 파싱 – 전체 가이드](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Aspose.Cells for Java를 사용하여 Excel 파일에서 일본 연호 날짜를 파싱하고 처리하는 방법을 알아보세요.
+
 
 ### [Aspose.Cells Java를 사용하여 Excel 셀에서 데이터 검색하기: 포괄적인 가이드](./aspose-cells-java-data-retrieval-excel/)
 
@@ -75,6 +78,12 @@ Aspose.Words Java용 코드 튜토리얼
 Aspose.Words Java용 코드 튜토리얼
 
 ### [Aspose.Cells Java를 사용하여 Excel에서 열 너비 설정하기](./set-column-width-excel-aspose-cells-java/)
+
+### [Java에서 셀을 문자열로 변환 – 완전한 내보내기 가이드](./convert-cell-to-string-in-java-complete-export-guide/)
+Aspose.Cells for Java를 사용하여 셀 값을 문자열로 변환하고 내보내는 방법을 단계별로 안내합니다.
+
+### [Java Excel에서 셀의 날짜 및 시간 가져오기 – 완전 가이드](./get-datetime-from-cell-in-java-excel-complete-guide/)
+Aspose.Cells for Java를 사용하여 Excel 셀에서 날짜와 시간을 추출하는 방법을 단계별로 안내합니다.
 
 Aspose.Words Java용 코드 튜토리얼
 
