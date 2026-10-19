@@ -42,6 +42,12 @@
 เรียนรู้วิธีส่งออกแผนภูมิ Excel ไปยัง PowerPoint ด้วย C# อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
 ### [วิธีส่งออกแผนภูมิจาก Word – คู่มือ C# ฉบับสมบูรณ์](./how-to-export-charts-from-word-complete-c-guide/)
 เรียนรู้วิธีส่งออกแผนภูมิจากเอกสาร Word เป็นรูปภาพหรือ PDF ด้วย C# โดยใช้ Aspose.Words อย่างละเอียด
+### [วิธีการส่งออกแผนภูมิ – คู่มือ PowerPoint C# แบบครบถ้วน](./how-to-export-charts-complete-powerpoint-c-guide/)
+เรียนรู้วิธีส่งออกแผนภูมิจาก Excel ไปยัง PowerPoint ด้วย C# อย่างละเอียดและครบถ้วนในขั้นตอนเดียว
+### [ส่งออกแผนภูมิเป็น PNG – คู่มือเต็มในการแปลง Excel เป็น HTML ด้วย Aspose.Cells](./export-chart-as-png-complete-guide-to-convert-excel-to-html/)
+เรียนรู้วิธีส่งออกแผนภูมิจากไฟล์ Excel เป็นรูป PNG และแปลงเป็น HTML อย่างละเอียดด้วย Aspose.Cells
+### [ส่งออกแผนภูมิ Excel ไปยัง PowerPoint ด้วย C# – คู่มือ Aspose.Cells ฉบับสมบูรณ์](./export-excel-chart-to-powerpoint-with-c-complete-aspose-cell/)
+เรียนรู้วิธีส่งออกแผนภูมิ Excel ไปยัง PowerPoint ด้วย C# โดยใช้ Aspose.Cells อย่างละเอียดในคู่มือขั้นตอนเดียว
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -82,6 +82,9 @@ Büyük Excel dosyalarını işliyorsanız, bazen zaman kısıtlamaları veya be
 ## Daha Fazla Aspose.Cells Çalışma Kitabı İşlemleri Eğitimi
 ### [Aspose.Cells kullanarak Excel Web Uzantısı Bilgilerine Erişim](./access-web-extension-information/)
 Aspose.Cells for .NET ile Excel web uzantısı verilerinizi zahmetsizce açın. Otomasyon çözümleri arayan geliştiriciler için adım adım kılavuz.
+### [C#'ta yeni çalışma kitabı oluşturma – Adım adım kılavuz](./create-new-workbook-in-c-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak C# ile yeni bir Excel çalışma kitabı oluşturmayı adım adım öğrenin.
+
 ### [Çalışma Kitabına Kimlikli Özel XML Parçaları Ekle](./add-custom-xml-parts-with-id/)
 Bu kapsamlı adım adım eğitimde, Aspose.Cells for .NET kullanarak Excel çalışma kitabına kimlikli özel XML parçalarının nasıl ekleneceğini öğrenin.
 ### [İmzalanmış Excel Dosyasına Dijital İmza Ekle](./add-digital-signature-to-signed-file/)

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # रूपांतरण और प्रतिपादन
@@ -42,14 +40,26 @@
 Aspose.Cells का उपयोग करके Excel पिवट टेबल को PNG इमेज में बदलना सीखें।
 ### [मार्कडाउन लोड करके एक्सेल में बदलें – चरण‑दर‑चरण गाइड](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
 Aspose.Cells का उपयोग करके मार्कडाउन फ़ाइल को पढ़ें और उसे Excel शीट में परिवर्तित करने की पूरी प्रक्रिया सीखें।
+### [docx को txt के रूप में सहेजें – Aspose.Words के साथ Word को txt में आसानी से परिवर्तित करें](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+Aspose.Words का उपयोग करके Word फ़ाइल को सरलता से txt फ़ॉर्मेट में बदलें और सहेजें।
+### [कैसे मार्कडाउन को Excel में लोड करें – पूर्ण C# गाइड](./how-to-load-markdown-into-excel-complete-c-guide/)
+Aspose.Cells का उपयोग करके C# में मार्कडाउन फ़ाइल को Excel शीट में लोड करने की पूरी प्रक्रिया सीखें।
+### [Excel वर्कशीट को PNG में बदलना – C# के साथ Excel को इमेज के रूप में सहेजने की पूर्ण गाइड](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+Aspose.Cells का उपयोग करके .NET में Excel वर्कशीट को PNG इमेज के रूप में सहेजना सीखें। चरण-दर-चरण मार्गदर्शिका।
+### [C# के साथ मार्कडाउन को Excel में बदलें – चरण‑दर‑चरण गाइड](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+Aspose.Cells का उपयोग करके C# में मार्कडाउन को Excel फ़ाइल में परिवर्तित करना सीखें। चरण‑दर‑चरण मार्गदर्शिका।
+### [Docx को SVG में परिवर्तित करें – Word को SVG के रूप में सहेजने का पूर्ण गाइड](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
+Aspose.Words के साथ .NET में Word फ़ाइलों को SVG फ़ॉर्मेट में आसानी से बदलना सीखें। चरण-दर-चरण मार्गदर्शिका।
+### [HTML में फ़ॉन्ट एम्बेड करना – .NET डेवलपर्स के लिए पूर्ण गाइड](./embed-fonts-in-html-complete-guide-for-net-developers/)
+Aspose.Cells के साथ .NET में HTML फ़ाइलों में फ़ॉन्ट एम्बेड करने की पूरी प्रक्रिया सीखें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Excel शीट को PNG में – C# में पिवट टेबल को PNG के रूप में निर्यात करें](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 Aspose.Cells का उपयोग करके C# में पिवट टेबल को PNG इमेज के रूप में निर्यात करना सीखें।
 
@@ -57,12 +67,24 @@ Aspose.Cells का उपयोग करके C# में पिवट ट�
 C# कोड का उपयोग करके नया Excel वर्कबुक बनाएं और मार्कडाउन सामग्री को शीट में आयात करने का चरण-दर-चरण मार्गदर्शन।
 ### [मार्कडाउन को Excel में परिवर्तित करना – पूर्ण C# गाइड](./convert-markdown-to-excel-complete-c-guide/)
 C# में Aspose.Cells का उपयोग करके मार्कडाउन फ़ाइल को Excel स्प्रेडशीट में बदलने की पूरी प्रक्रिया सीखें।
+### [Aspose.Cells के साथ Excel को PNG में निर्यात – पूर्ण चरण‑दर‑चरण मार्गदर्शिका](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Aspose.Cells का उपयोग करके Excel फ़ाइलों को PNG इमेज में बदलना सीखें, विस्तृत चरणों के साथ।
+
+### [XLSX को PNG में परिवर्तित करना – पूर्ण C# गाइड](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Aspose.Cells के साथ C# में XLSX फ़ाइल को PNG इमेज में आसानी से बदलना सीखें। चरण-दर-चरण मार्गदर्शिका।
+
+### [Excel में विशेष अक्षर कैसे डालें – चरण‑दर‑चरण गाइड](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Aspose.Cells का उपयोग करके Excel में विशेष अक्षर सम्मिलित करने की पूरी प्रक्रिया सीखें। आसान चरण‑दर‑चरण गाइड।
+### [C# में Excel पिवट टेबल से PNG इमेज सहेजें – पूर्ण गाइड](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Aspose.Cells का उपयोग करके C# में Excel पिवट टेबल से PNG इमेज निकालने और सहेजने की पूरी प्रक्रिया सीखें।
+### [HTML में फ़ॉन्ट एम्बेड करें – DOCX को HTML में पूर्ण फ़ॉन्ट समर्थन के साथ परिवर्तित करने की पूर्ण गाइड](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Aspose.Words का उपयोग करके DOCX फ़ाइलों को HTML में फ़ॉन्ट एम्बेड के साथ परिवर्तित करने की पूरी प्रक्रिया सीखें।
+### [DOCX से HTML में फ़ॉन्ट एम्बेड करने की पूरी गाइड](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Aspose.Words के साथ DOCX फ़ाइल से HTML उत्पन्न करते समय फ़ॉन्ट को एम्बेड करने की प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

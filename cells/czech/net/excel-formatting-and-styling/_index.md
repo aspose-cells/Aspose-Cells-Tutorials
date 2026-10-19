@@ -76,6 +76,8 @@ Transformujte směr textu v Excelu pomocí Aspose.Cells pro .NET. Postupujte pod
 Naučte se v tomto snadno srozumitelném návodu, jak zalamovat dlouhý text v buňkách aplikace Excel pomocí Aspose.Cells pro .NET. Transformujte své tabulky bez námahy.
 ### [Jak stylovat sloupce v Excelu pomocí C# – importovat DataTable](./how-to-style-columns-in-excel-with-c-import-datatable/)
 Naučte se stylovat sloupce v Excelu pomocí Aspose.Cells pro .NET a importovat DataTable.
+### [Použití stylů buněk s Aspose.Cells – Import DataTable s formátováním](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+Naučte se, jak importovat DataTable do Excelu a aplikovat styly buněk pomocí Aspose.Cells pro .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

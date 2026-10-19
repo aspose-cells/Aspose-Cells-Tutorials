@@ -38,6 +38,12 @@ Bu adım adım kılavuzla Aspose.Cells kullanarak .NET'te grafikleri resimlere n
 Aspose.Cells'i kullanarak Excel çalışma sayfalarını .NET'te resimlere nasıl dönüştüreceğinizi adım adım kılavuzumuzla öğrenin. Veri görselleştirmenizi kolaylaştırın.
 ### [Pivot'i Görüntü Olarak Kaydetme – Adım Adım Kılavuz](./how-to-save-pivot-as-an-image-step-by-step-guide/)
 Aspose.Cells kullanarak bir pivot tabloyu görüntüye nasıl kaydedeceğinizi adım adım öğrenin.
+### [Excel Aralığını Görüntü Olarak Dışa Aktarma – Tam C# Kılavuzu](./export-excel-range-as-image-complete-c-guide/)
+Aspose.Cells ile Excel aralığını yüksek kaliteli bir görüntüye dönüştürmeyi adım adım keşfedin.
+### [Excel Sayfasını Görüntü Olarak Kaydetme – Tam C# Rehberi](./how-to-save-excel-sheet-as-image-complete-c-guide/)
+Aspose.Cells kullanarak bir Excel çalışma sayfasını C# ile yüksek kaliteli bir görüntü olarak kaydetmeyi adım adım öğrenin.
+### [Excel'i PNG Olarak Dışa Aktarma – Tam Adım Adım Kılavuz](./how-to-export-excel-to-png-full-step-by-step-guide/)
+Aspose.Cells kullanarak Excel dosyalarınızı yüksek kaliteli PNG görüntülerine nasıl dönüştüreceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

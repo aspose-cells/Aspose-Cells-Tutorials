@@ -594,6 +594,9 @@ Aspose.Cells Net के लिए एक कोड ट्यूटोरिय�
 ### [C# में Aspose.Cells के साथ Excel दस्तावेज़ संस्करण सेट करें](./set-excel-document-version-aspose-csharp)
 Aspose.Cells Net के लिए एक कोड ट्यूटोरियल
 
+### [C# में नया कार्यपुस्तिका बनाएं – चरण‑दर‑चरण गाइड](./create-new-workbook-in-c-step-by-step-guide/)
+C# का उपयोग करके Aspose.Cells के साथ नई Excel कार्यपुस्तिका बनाने की विस्तृत चरण‑दर‑चरण मार्गदर्शिका।
+
 ### [C# में नई कार्यपुस्तिका बनाएं – पूर्ण प्रोग्रामिंग गाइड](./create-new-workbook-in-c-complete-programming-guide/)
 C# का उपयोग करके Aspose.Cells के साथ नई Excel कार्यपुस्तिका बनाने की पूरी प्रक्रिया सीखें। चरण-दर-चरण मार्गदर्शिका।
 

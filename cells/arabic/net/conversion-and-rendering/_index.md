@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # التحويل والتقديم
@@ -42,14 +40,26 @@
 تعلم كيفية إنشاء صورة PNG من جدول Pivot في Excel باستخدام Aspose.Cells وC# خطوة بخطوة.
 ### [كيفية تحميل ملف Markdown وتحويله إلى Excel – دليل خطوة بخطوة](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
 تعلم كيفية قراءة ملفات Markdown وتحويل محتواها إلى جدول Excel باستخدام Aspose.Cells خطوة بخطوة.
+### [حفظ ملف docx كـ txt – تحويل Word إلى txt بسهولة باستخدام Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
+تعلم كيفية تحويل مستندات Word إلى ملفات نصية بصيغة txt بسهولة باستخدام Aspose.Words في .NET.
+### [كيفية تحميل Markdown إلى Excel – دليل C# كامل](./how-to-load-markdown-into-excel-complete-c-guide/)
+تعلم كيفية استيراد ملفات Markdown إلى Excel باستخدام Aspose.Cells في C# خطوة بخطوة.
+### [ورقة عمل Excel إلى PNG – دليل C# كامل لحفظ Excel كصورة](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
+تعلم كيفية تحويل ورقة عمل Excel إلى صورة PNG باستخدام Aspose.Cells وC# خطوة بخطوة.
+### [تحويل Markdown إلى Excel باستخدام C# – دليل خطوة بخطوة](./convert-markdown-to-excel-with-c-step-by-step-guide/)
+تعلم كيفية تحويل ملفات Markdown إلى جداول Excel باستخدام Aspose.Cells وC# من خلال دليل شامل خطوة بخطوة.
+### [تحويل docx إلى svg – دليل كامل لحفظ Word كـ SVG](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
+تعلم كيفية تحويل مستندات Word (docx) إلى تنسيق SVG باستخدام Aspose.Words لـ .NET خطوة بخطوة.
+### [تضمين الخطوط في HTML – دليل كامل لمطوري .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
+تعلم كيفية تضمين الخطوط في ملفات HTML باستخدام Aspose.HTML لـ .NET لضمان عرض النصوص بشكل صحيح عبر المتصفحات.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [ورقة Excel إلى PNG – تصدير جدول محوري كصورة PNG في C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 تعلم كيفية تصدير جدول محوري من Excel كملف PNG باستخدام Aspose.Cells في C# بسهولة.
 
@@ -57,12 +67,22 @@
 تعلم كيفية إنشاء مصنف Excel جديد في C# واستيراد محتوى Markdown إلى ورقة العمل باستخدام Aspose.Cells.
 ### [تحويل markdown إلى Excel – دليل C# كامل](./convert-markdown-to-excel-complete-c-guide/)
 تعلم كيفية تحويل ملفات markdown إلى جداول Excel باستخدام Aspose.Cells في C# خطوة بخطوة.
+### [تصدير Excel إلى PNG باستخدام Aspose.Cells – دليل شامل خطوة بخطوة](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+تعلم كيفية تصدير ملفات Excel إلى صور PNG بسهولة باستخدام Aspose.Cells في .NET من خلال دليل خطوة بخطوة.
+### [كيفية تحويل XLSX إلى PNG – دليل C# كامل](./how-to-convert-xlsx-to-png-complete-c-guide/)
+تعلم خطوة بخطوة كيفية تحويل ملفات XLSX إلى صور PNG باستخدام Aspose.Cells وC# في دليل شامل.
+### [كيفية إدراج الأحرف الخاصة في Excel – دليل خطوة بخطوة](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+تعلم كيفية إدراج الأحرف الخاصة في ملفات Excel باستخدام Aspose.Cells خطوة بخطوة.
+### [حفظ صورة PNG من جدول محوري في Excel باستخدام C# – دليل كامل](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+تعلم كيفية حفظ صورة PNG من جدول محوري في Excel باستخدام C# مع Aspose.Cells. دليل شامل خطوة بخطوة.
+### [تضمين الخطوط في HTML – دليل كامل لتحويل DOCX إلى HTML مع دعم كامل للخطوط](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+تعلم كيفية تضمين الخطوط عند تحويل مستندات DOCX إلى HTML باستخدام Aspose.Words لضمان عرض النصوص بشكل صحيح على جميع المتصفحات.
+### [كيفية تضمين الخطوط في HTML من ملف DOCX – دليل كامل](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+تعلم كيفية استخراج الخطوط من مستند DOCX وتضمينها في ملفات HTML باستخدام Aspose.Words لضمان عرض النصوص بشكل صحيح.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

@@ -28,6 +28,8 @@ Redo att hoppa in? Besök vår [Konfigurera egenskapen Länk till innehållsdoku
 ## Handledningar för länk- och konfigurationsåtgärder
 ### [Konfigurera egenskapen Länk till innehållsdokument i .NET](./configuring-link-to-content-document-property/)
 Lär dig hur du länkar dokumentegenskaper till innehåll i Excel med hjälp av Aspose.Cells för .NET. Steg-för-steg-handledning för utvecklare.
+### [Skapa GridJsOptions-instans – Konfigurera Grid Options JavaScript](./create-gridjsoptions-instance-configure-grid-options-javascr/)
+Lär dig hur du skapar en GridJsOptions-instans och konfigurerar rutnätsalternativ med JavaScript.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

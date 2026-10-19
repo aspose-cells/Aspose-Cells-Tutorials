@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel 中的數字與顯示格式
@@ -37,22 +35,23 @@
 ### [在 C# 中將日期時間格式化為 ISO – 完整指南](./format-datetime-to-iso-in-c-complete-guide/)
 了解如何在 C# 中使用 Aspose.Cells 將日期時間轉換為 ISO 8601 格式，確保跨平台一致性。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [如何在 Grid 欄位中格式化貨幣 – 步驟指南](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 使用 Aspose.Cells for .NET 逐步說明如何在 Grid 欄位中設定貨幣格式。
 ### [在 Excel 中套用數字格式 – 列格式化逐步指南](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
 使用 Aspose.Cells for .NET 逐步說明如何在 Excel 中套用數字格式於欄位，提升資料呈現效果。
+### [如何在 C# 中四捨五入 Excel 數字 – 完整程式指南](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+使用 Aspose.Cells for .NET 在 C# 中實作 Excel 數字四捨五入的完整步驟與範例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

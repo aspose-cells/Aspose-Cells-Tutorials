@@ -55,6 +55,8 @@
 
 ### [SXC फ़ाइलें खोलना](./opening-sxc-files/)
 Aspose.Cells का उपयोग करके .NET में SXC फ़ाइलों को कुशलतापूर्वक खोलना और उनमें हेरफेर करना सीखें। कोड उदाहरणों के साथ चरण-दर-चरण ट्यूटोरियल।
+### [C# में जापानी तिथियों को पार्स करने का तरीका – पूर्ण गाइड](./how-to-parse-japanese-dates-in-c-complete-guide/)
+इस व्यापक गाइड में .NET के लिए C# का उपयोग करके जापानी तिथियों को सही ढंग से पार्स करने के चरण और कोड उदाहरण देखें।
 
 ### [Excel से तिथि निकालें और yyyy‑mm‑dd फ़ॉर्मेट में आउटपुट करें – पूर्ण C# गाइड](./extract-date-from-excel-and-output-date-yyyy-mm-dd-complete/)
 इस गाइड में .NET के लिए Aspose.Cells का उपयोग करके Excel से तिथि निकालने और उसे yyyy‑mm‑dd फ़ॉर्मेट में आउटपुट करने की पूरी प्रक्रिया बताई गई है।
@@ -69,6 +71,16 @@ Excel फ़ाइल से तिथि निकालने की प्र
 Excel में जापानी युग तिथियों को कैसे पढ़ें और बदलें, इस पूर्ण गाइड में C# कोड उदाहरणों के साथ सीखें।
 ### [मार्कडाउन को स्प्रेडशीट में लोड करना – Base64 छवियों को डिकोड करना](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
 इस गाइड में मार्कडाउन को स्प्रेडशीट में लोड करने और Base64 एन्कोडेड छवियों को डिकोड करने के चरण बताए गए हैं।
+### [JSON को Excel टेम्पलेट में डालना – चरण‑दर‑चरण](./how-to-insert-json-into-excel-template-step-by-step/)
+Aspose.Cells का उपयोग करके .NET में JSON डेटा को Excel टेम्पलेट में सम्मिलित करने की चरण‑दर‑चरण गाइड।
+### [मार्कडाउन को Excel में लोड करना – Aspose.Cells के साथ मार्कडाउन फ़ाइल आयात करें](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
+Aspose.Cells का उपयोग करके मार्कडाउन फ़ाइल को Excel में आयात करने और डेटा को शीट में लोड करने की चरण‑दर‑चरण गाइड।
+### [JSON से Excel उत्पन्न करना (C#) – पूर्ण चरण‑दर‑चरण गाइड](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
+.NET के लिए Aspose.Cells का उपयोग करके JSON डेटा से Excel फ़ाइल बनाना सीखें। पूर्ण चरण‑दर‑चरण मार्गदर्शिका।
+### [Excel वर्कबुक बनाना C# – सेल्स से तिथियों को पढ़ने के लिए पूर्ण गाइड](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+.NET के लिए Aspose.Cells का उपयोग करके C# में Excel वर्कबुक बनाएं और सेल्स से तिथियों को पढ़ें।
+### [C# में जापानी युग तिथि को पार्स करना – पूर्ण गाइड](./parse-japanese-era-date-in-c-complete-guide/)
+C# में Aspose.Cells का उपयोग करके जापानी युग तिथि को कैसे पार्स करें, इस पूर्ण गाइड में चरण-दर-चरण सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel adatexportálás és -lekérés
@@ -34,24 +32,33 @@ Ismerd meg, hogyan exportálj Excel adat táblázatot C#-ban az Aspose.Cells for
 
 ### [Excel adat exportálása C#-ban – Lépésről lépésre útmutató](./how-to-export-excel-data-in-c-step-by-step-guide/)
 Tanuld meg, hogyan exportálj Excel adatokat C#-ban az Aspose.Cells for .NET segítségével, részletes lépésről lépésre útmutató.
+### [Excel adatok exportálása – Lépésről lépésre C# útmutató](./how-to-export-excel-data-step-by-step-c-guide/)
+Ismerd meg, hogyan exportálhatsz adatokat Excelből C#-ban az Aspose.Cells for .NET segítségével ebben a részletes útmutatóban.
+### [Munkalap tartomány exportálása C#-ban – Teljes programozási útmutató](./export-worksheet-range-in-c-complete-programming-guide/)
+Tanuld meg, hogyan exportálj munkalap tartományt C#-ban az Aspose.Cells for .NET segítségével ebben a részletes útmutatóban.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Munkafüzet létrehozása C# – DataTable exportálása Excelbe formázással](./create-workbook-c-export-datatable-to-excel-with-formatting/)
 Tanuld meg, hogyan hozhatsz létre munkafüzetet C#-ban, és exportálj DataTable-t Excelbe formázással az Aspose.Cells for .NET segítségével.
 
 ### [Új munkafüzet létrehozása és Excel exportálása TXT-be precízen](./create-new-workbook-and-export-excel-to-txt-with-precision/)
 Tanuld meg, hogyan hozhatsz létre új munkafüzetet, és exportáld Excel fájlodat TXT formátumba precíz módon az Aspose.Cells for .NET segítségével.
+### [Cellatartomány exportálása táblaként – Teljes C# útmutató](./how-to-export-cell-range-as-table-complete-c-guide/)
+Ismerd meg, hogyan exportálhatod a cellatartományt táblaként C#-ban az Aspose.Cells for .NET segítségével, lépésről lépésre.
+### [Excel munkalap létrehozása DataTable-ból C#‑ban – lépésről‑lépésre útmutató](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+Tanuld meg, hogyan hozhatsz létre Excel munkalapot DataTable-ból C#‑ban az Aspose.Cells for .NET segítségével, részletes lépésről‑lépésre útmutatóban.
+### [Excel tábla exportálása – Teljes lépésről lépésre útmutató](./how-to-export-excel-table-complete-step-by-step-guide/)
+Ismerd meg, hogyan exportálhatsz Excel táblákat az Aspose.Cells for .NET segítségével egy részletes, lépésről lépésre útmutatóban.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

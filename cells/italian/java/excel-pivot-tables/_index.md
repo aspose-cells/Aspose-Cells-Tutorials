@@ -32,18 +32,46 @@ Aspose.Cells per Java ti consente di automatizzare e integrare perfettamente le 
 ## Tutorial sulle tabelle pivot di Excel
 ### [Creazione di tabelle pivot](./creating-pivot-tables/)
 Scopri come creare potenti tabelle pivot in Java con Aspose.Cells per una migliore analisi e visualizzazione dei dati.
+
 ### [Tabelle pivot dinamiche](./dynamic-pivot-tables/)
 Crea tabelle pivot dinamiche senza sforzo utilizzando Aspose.Cells per Java. Analizza e riepiloga i dati con facilità. Potenzia le tue capacità di analisi dei dati.
+
 ### [Raggruppamento dei dati nelle tabelle pivot](./grouping-data-in-pivot-tables/)
 Scopri come creare tabelle pivot in Excel utilizzando Aspose.Cells per Java. Automatizza il raggruppamento e l'analisi dei dati con esempi di codice sorgente.
+
 ### [Campi calcolati nelle tabelle pivot](./calculated-fields-in-pivot-tables/)
 Scopri come creare campi calcolati nelle tabelle pivot utilizzando Aspose.Cells per Java. Migliora l'analisi dei dati con calcoli personalizzati in Excel.
+
 ### [Aggiornamento dei dati della tabella pivot](./refreshing-pivot-table-data/)
 Scopri come aggiornare i dati delle tabelle pivot in Aspose.Cells per Java. Mantieni i tuoi dati aggiornati senza sforzo.
+
 ### [Personalizzazione degli stili della tabella pivot](./customizing-pivot-table-styles/)
 Scopri come personalizzare gli stili delle tabelle pivot in Aspose.Cells per Java API. Crea tabelle pivot visivamente accattivanti con facilità.
 ### [Copia della tabella pivot in Java – preservala, esporta in PPTX](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
 Scopri come copiare una tabella pivot in Java, preservarne le impostazioni e esportarla in un file PPTX con Aspose.Cells.
+### [Come copiare una tabella pivot in Java – Guida completa Aspose.Cells](./how-to-copy-pivot-table-in-java-complete-aspose-cells-guide/)
+Scopri come copiare una tabella pivot in Java usando Aspose.Cells, con esempi pratici e consigli per una gestione efficace dei dati.
+
+### [Creare PNG da Pivot in Java – Guida completa passo‑passo](./create-png-from-pivot-in-java-full-step-by-step-guide/)
+Scopri come generare un'immagine PNG da una tabella pivot in Java usando Aspose.Cells, con esempi dettagliati passo‑passo.
+### [Copia della tabella pivot Excel – Guida passo‑passo usando Java](./copy-pivot-table-excel-step-by-step-guide-using-java/)
+Scopri come copiare una tabella pivot in Excel con Aspose.Cells per Java, passo dopo passo.
+### [Esporta tabella pivot in PNG con Java – Guida completa di programmazione](./export-pivot-table-to-png-in-java-complete-programming-guide/)
+Scopri come esportare una tabella pivot di Excel in formato PNG usando Aspose.Cells per Java, con esempi di codice dettagliati.
+### [Come copiare un intervallo in Java – Copia tabella pivot con Aspose.Cells](./how-to-copy-range-in-java-copy-pivot-table-with-aspose-cells/)
+Scopri come copiare un intervallo e duplicare una tabella pivot in Java usando Aspose.Cells per una gestione efficiente dei dati.
+### [Come esportare una tabella pivot come PNG – Guida completa Java](./how-to-export-pivot-table-as-png-complete-java-guide/)
+Scopri come esportare una tabella pivot in formato PNG usando Aspose.Cells per Java, con esempi di codice passo passo.
+### [Come copiare una tabella pivot in Java usando Aspose.Cells](./how-to-copy-pivot-table-in-java-using-aspose-cells/)
+Scopri come copiare una tabella pivot in Java con Aspose.Cells per duplicare rapidamente i report.
+### [Copia di una tabella pivot tra cartelle di lavoro – Guida passo‑passo Java](./copy-pivot-table-between-workbooks-step-by-step-java-guide/)
+Scopri come copiare una tabella pivot da una cartella di lavoro all'altra usando Aspose.Cells per Java, con esempi pratici passo‑passo.
+### [Crea nuovo workbook in Java – Guida completa per copiare la tabella pivot](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
+Impara a creare un nuovo workbook in Java e copiare tabelle pivot con Aspose.Cells, passo dopo passo.
+### [Come duplicare un foglio di lavoro e preservare le tabelle pivot in Java](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
+Scopri come duplicare un foglio di lavoro mantenendo intatte le tabelle pivot usando Aspose.Cells per Java.
+### [Come duplicare una tabella pivot in Java usando Aspose.Cells](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
+Scopri come duplicare una tabella pivot in Java con Aspose.Cells, mantenendo le impostazioni e l'aspetto originale.
 ### [Come copiare un intervallo e preservare una tabella pivot in Java](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
 Scopri come copiare un intervallo mantenendo intatta la tabella pivot in Java con Aspose.Cells.
 

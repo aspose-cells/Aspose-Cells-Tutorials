@@ -72,6 +72,8 @@ Aspose.Cells for .NET kullanarak Excel'de üst simge metnini nasıl özelleştir
 Aspose.Cells for .NET kullanarak bir Excel hücresindeki yazı tipini TextBox kontrolüne nasıl kopyalayacağınızı adım adım öğrenin.
 ### [C# Excel Dışa Aktarımlarında Yazı Tiplerini Gömme – Tam Kılavuz](./how-to-embed-fonts-in-c-excel-exports-complete-guide/)
 Aspose.Cells for .NET kullanarak C# ile Excel dışa aktarımlarına yazı tiplerini nasıl gömeceğinizi adım adım öğrenin.
+### [Kalın Yazı Tipini Metin Kutusuna Uygulama – Adım Adım C# Rehberi](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
+Aspose.Cells for .NET ile C# kullanarak bir metin kutusuna kalın yazı tipi uygulamayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

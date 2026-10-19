@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwersja plików Excel do innych formatów
@@ -29,7 +27,9 @@ Dla programistów pracujących z plikami Excel w .NET wydajna transformacja plik
 
 4. [Konwersja pliku Excel do PDF (A-1a) programowo w .NET](./converting-excel-file-to-pdf-a-1a/):Konwersja plików do formatu PDF/A-1a zapewnia długoterminowe zachowanie danych. Ten samouczek przeprowadzi Cię przez proces konwersji, szczegółowo opisując przykłady kodu do tworzenia plików PDF/A-1a w celu bezpiecznej archiwizacji.
 
-5. [Śledzenie postępu konwersji dokumentów programowo w środowisku .NET](./tracking-document-conversion-progress/): Monitoruj postęp konwersji w czasie rzeczywistym! Aspose.Cells for .NET zawiera funkcje, które pozwalają śledzić i zarządzać konwersją dokumentów, utrzymując procesy przejrzystymi i wydajnymi.
+5. [Śledzenie postępu konwersji dokumentów programowo w środowisku .NET](./tracking-document-conversion-progress/): Monitoruj postęp konwersji w czasie rzeczywistym! Aspose.Cells for .NET zawiera funkcje, które pozwalają śledzić i zarządzać konwersją dokumentów, utrzymując procesy przejrzyste i wydajne.
+
+6. [Eksportowanie Excela do PowerPoint przy użyciu Aspose.Cells – kompletny przewodnik programistyczny](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/): Kompletny przewodnik krok po kroku, jak eksportować pliki Excel do prezentacji PowerPoint przy użyciu Aspose.Cells dla .NET.
 
 ## Konwersja plików Excel do formatów TIFF, PPTX i innych
 
@@ -46,6 +46,8 @@ Aspose.Cells for .NET upraszcza przekształcanie dokumentów, umożliwiając pro
 Dowiedz się, jak przekonwertować CSV na JSON w .NET za pomocą Aspose.Cells. Przewodnik krok po kroku dotyczący transformacji danych z łatwymi do naśladowania przykładami kodu.
 ### [Konwersja pliku Excel do DOCX programowo w .NET](./converting-excel-file-to-docx/)
 Dowiedz się, jak programowo konwertować pliki Excel do DOCX za pomocą Aspose.Cells dla .NET w tym przewodniku krok po kroku. Idealne do generowania raportów i udostępniania danych.
+### [Konwersja pliku Excel do Word – Kompletny przewodnik w C#](./convert-excel-to-word-complete-guide-with-c/)
+Poznaj kompletny przewodnik, jak programowo konwertować pliki Excel do dokumentów Word przy użyciu Aspose.Cells i języka C#.
 ### [Konwersja pliku Excel do HTML z etykietą podręczną w .NET](./converting-excel-file-to-html-with-tooltip/)
 Konwertuj Excela do HTML z podpowiedziami za pomocą Aspose.Cells dla .NET w kilku prostych krokach. Ulepszaj swoje aplikacje internetowe za pomocą interaktywnych danych Excela bez wysiłku.
 ### [Konwersja pliku Excel do formatu Markdown programowo w środowisku .NET](./converting-excel-file-to-markdown/)
@@ -54,14 +56,31 @@ Dowiedz się, jak konwertować pliki Excel do formatu Markdown za pomocą Aspose
 Dowiedz się, jak konwertować pliki Excel do PDF/A-1a w celach archiwalnych, używając Aspose.Cells dla .NET. Przewodnik krok po kroku z dołączonymi przykładami kodu.
 ### [Konwersja JSON do CSV programowo w .NET](./converting-json-to-csv/)
 Dowiedz się, jak programowo przekonwertować JSON na CSV w .NET przy użyciu Aspose.Cells. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową transformację danych.
+### [Konwersja XLSX do CSV w C# – Kompletny przewodnik krok po kroku](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
+Dowiedz się, jak programowo konwertować pliki XLSX na CSV w C# przy użyciu Aspose.Cells, krok po kroku.
 ### [Konwersja pliku Excel do formatu PPTX programowo w środowisku .NET](./converting-excel-file-to-pptx/)
 Dowiedz się, jak programowo przekonwertować plik Excela na prezentację PowerPoint (PPTX) przy użyciu Aspose.Cells dla .NET, korzystając z tego przewodnika krok po kroku.
-
+### [Jak owinąć komórki i przekonwertować Excel na PowerPoint w C#](./how-to-wrap-cells-and-convert-excel-to-powerpoint-in-c/)
+Dowiedz się, jak owinąć komórki w Excelu i przekonwertować je do prezentacji PowerPoint przy użyciu Aspose.Cells w C#.
 ### [Eksportuj Excel do PowerPoint – Kompletny przewodnik C#](./export-excel-to-powerpoint-complete-c-guide/)
 Pełny przewodnik C# pokazujący, jak programowo eksportować arkusz Excel do prezentacji PowerPoint przy użyciu Aspose.Cells.
 
 ### [Ustaw obszar drukowania w Excelu i wyeksportuj do PowerPoint – przewodnik krok po kroku](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
 Dowiedz się, jak ustawić obszar drukowania w Excelu i wyeksportować arkusz do prezentacji PowerPoint przy użyciu Aspose.Cells dla .NET.
+### [Konwertuj Excel do PowerPoint i ustaw obszar drukowania](./convert-excel-to-powerpoint-and-set-print-area/)
+Dowiedz się, jak programowo konwertować pliki Excel do PowerPoint oraz ustawiać obszar drukowania przy użyciu Aspose.Cells dla .NET.
+### [Tworzenie prezentacji PowerPoint z Excela – przewodnik krok po kroku w C#](./create-powerpoint-from-excel-step-by-step-c-guide/)
+Dowiedz się, jak programowo przekształcić arkusz Excel w prezentację PowerPoint przy użyciu Aspose.Cells w C#.
+### [Kopiowanie tabeli przestawnej i eksportowanie Excela do PPTX przy użyciu Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
+Dowiedz się, jak skopiować tabelę przestawną i wyeksportować plik Excel do prezentacji PPTX przy użyciu Aspose.Cells dla .NET.
+### [Jak zapisać Excel jako tekst – przewodnik krok po kroku](./how-to-save-excel-as-text-with-aspose-cells-step-by-step-gui/)
+Dowiedz się, jak programowo zapisać arkusz Excel jako plik tekstowy przy użyciu Aspose.Cells, krok po kroku.
+### [Jak przekonwertować Excel na PNG w C# – przewodnik krok po kroku](./how-to-convert-excel-to-png-with-c-step-by-step-guide/)
+Dowiedz się, jak programowo konwertować pliki Excel na obrazy PNG w C# przy użyciu Aspose.Cells, krok po kroku.
+### [Eksportowanie Excela do PowerPoint przy użyciu Aspose.Cells – kompletny przewodnik programistyczny](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
+Dowiedz się, jak programowo eksportować pliki Excel do prezentacji PowerPoint przy użyciu Aspose.Cells dla .NET w tym szczegółowym przewodniku krok po kroku.
+### [Jak wyeksportować Excel do PowerPoint – Kompletny przewodnik](./how-to-export-excel-to-powerpoint-complete-guide/)
+Dowiedz się, jak programowo wyeksportować arkusz Excel do prezentacji PowerPoint przy użyciu Aspose.Cells dla .NET w pełnym przewodniku krok po kroku.
 ### [Określanie HTML CrossType w wyjściowym HTML programowo w .NET](./specifying-html-crosstype-in-output-html/)
 Dowiedz się, jak określić HTML CrossType w Aspose.Cells dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby precyzyjnie przekonwertować pliki Excel na HTML.
 ### [Odczyt arkusza kalkulacyjnego liczb programowo w .NET](./reading-numbers-spreadsheet/)
@@ -72,11 +91,14 @@ W tym szczegółowym samouczku dowiesz się, jak zapisać skoroszyt w formacie S
 Opis: W tym szczegółowym samouczku dowiesz się, jak programowo śledzić postęp konwersji dokumentów za pomocą Aspose.Cells dla .NET.
 ### [Śledzenie postępu konwersji dokumentów dla formatu TIFF programowo w środowisku .NET](./tracking-document-conversion-progress-for-tiff/)
 Naucz się śledzić postęp konwersji TIFF programowo, używając Aspose.Cells dla .NET z naszym przewodnikiem krok po kroku. Udoskonal swoje umiejętności zarządzania dokumentami.
+### [Eksportowanie Excela do txt w C# – kompletny przewodnik programistyczny](./export-excel-to-txt-in-c-complete-programming-guide/)
+Dowiedz się, jak programowo wyeksportować dane z pliku Excel do formatu txt w C# przy użyciu Aspose.Cells.
+### [Jak utworzyć prezentację PowerPoint z Excela przy użyciu Aspose.Cells](./how-to-create-powerpoint-from-excel-using-aspose-cells/)
+Dowiedz się, jak programowo przekształcić arkusz Excel w prezentację PowerPoint przy użyciu Aspose.Cells w C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
@@ -112,4 +134,3 @@ Dowiedz się, jak programowo zapisać plik Excel jako DOCX i wyeksportować wykr
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

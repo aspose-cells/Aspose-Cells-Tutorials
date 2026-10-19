@@ -56,10 +56,16 @@ weight: 22
 
 ### [เชี่ยวชาญ Aspose.Cells Java&#58; วิธีหยุดการคำนวณสูตรในเวิร์กบุ๊ก Excel](./master-aspose-cells-java-interrupt-formula-calculation-workbook/)
 เรียนรู้วิธีหยุดการคำนวณสูตรในเวิร์กบุ๊กอย่างมีประสิทธิภาพด้วย Aspose.Cells for Java. เหมาะสำหรับการปรับประสิทธิภาพชุดข้อมูลขนาดใหญ่และป้องกันลูปไม่มีที่สิ้นสุด
+### [เปิดไฟล์ XLSX ใน Java – คู่มือฉบับสมบูรณ์เพื่อโหลดเวิร์กบุ๊กและคำนวณสูตรใหม่](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
+คู่มือฉบับสมบูรณ์สำหรับการเปิดไฟล์ XLSX ใน Java โหลดเวิร์กบุ๊กและคำนวณสูตรใหม่
+### [สูตรอาร์เรย์แบบไดนามิกใน Java: สร้างสมุดงาน Excel และคำนวณสูตรทั้งหมด](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
+สาธิตการสร้างไฟล์ Excel ด้วยสูตรอาร์เรย์แบบไดนามิกใน Java และคำนวณสูตรทั้งหมดอย่างมีประสิทธิภาพ
 
 ### [เพิ่มประสิทธิภาพการคำนวณ Excel ด้วย Aspose.Cells Java&#58; เชี่ยวชาญการจัดการห่วงโซ่การคำนวณเพื่อการประมวลผลเวิร์กบุ๊กอย่างมีประสิทธิภาพ](./optimize-excel-aspose-cells-java-calculation-chains/)
 เรียนรู้วิธีเพิ่มประสิทธิภาพ Excel ด้วย Aspose.Cells for Java โดยการนำห่วงโซ่การคำนวณมาใช้, คำนวณสูตรอย่างมีประสิทธิภาพ, และอัปเดตค่าของเซลล์
 
+### [วิธีรีเฟรชเวิร์กบุ๊ก Excel ใน Java ด้วย Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
+เรียนรู้วิธีรีเฟรชเวิร์กบุ๊ก Excel ใน Java ด้วย Aspose.Cells เพื่ออัปเดตข้อมูลและสูตร
 ### [วิธีบังคับการคำนวณสูตรใน Java ด้วย Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
 บทเรียนโค้ดสำหรับการบังคับให้สูตรคำนวณใหม่ใน Aspose.Cells Java
 
