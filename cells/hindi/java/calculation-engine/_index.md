@@ -64,6 +64,9 @@ Aspose.Cells for Java का उपयोग करके वर्कबुक 
 ### [जावा में डायनेमिक एरे फ़ॉर्मूले: Excel कार्यपुस्तिका बनाएं और सभी फ़ॉर्मूले गणना करें](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
 जावा में Aspose.Cells का उपयोग करके डायनेमिक एरे फ़ॉर्मूले लागू करना, Excel वर्कबुक बनाना और सभी फ़ॉर्मूले की गणना करना सीखें।
 
+### [Aspose.Cells का उपयोग करके जावा में Excel वर्कबुक को रीफ़्रेश कैसे करें](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
+Aspose.Cells के साथ जावा में Excel वर्कबुक को रीफ़्रेश करने की प्रक्रिया सीखें।
+
 ## अतिरिक्त संसाधन
 - [Aspose.Cells for Java डॉक्यूमेंटेशन](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells for Java API रेफ़रेंस](https://reference.aspose.com/cells/java/)

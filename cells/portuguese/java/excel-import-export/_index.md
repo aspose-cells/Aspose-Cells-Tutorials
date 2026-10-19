@@ -123,6 +123,10 @@ Aprenda a importar objetos personalizados para planilhas Excel usando Aspose.Cel
 Aprenda a exportar arquivos Excel para HTML em Java com um guia completo passo a passo usando Aspose.Cells.
 ### [Incorporar fontes em SVG ao exportar Excel para SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
 Aprenda a incorporar fontes ao exportar planilhas Excel para SVG usando Aspose.Cells para Java, garantindo que o texto seja renderizado corretamente.
+### [Como exportar Excel para TXT com dígitos significativos limitados usando Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+Aprenda a exportar planilhas Excel para TXT limitando os dígitos significativos usando Aspose.Cells para Java.
+### [Como importar lista para Excel e estilizar colunas em Java](./how-to-import-list-to-excel-and-style-columns-in-java/)
+Aprenda a importar listas para Excel e aplicar estilos às colunas usando Aspose.Cells para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

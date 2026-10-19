@@ -120,6 +120,8 @@
 Μάθετε πώς να εξάγετε Excel σε HTML με Java, ακολουθώντας έναν πλήρη βήμα‑βήμα οδηγό.
 ### [Ενσωμάτωση γραμματοσειρών σε SVG κατά την εξαγωγή Excel σε SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
 Μάθετε πώς να ενσωματώσετε γραμματοσειρές σε αρχεία SVG κατά την εξαγωγή Excel χρησιμοποιώντας το Aspose.Cells για Java.
+### [Πώς να εισάγετε λίστα στο Excel και να μορφοποιήσετε στήλες σε Java](./how-to-import-list-to-excel-and-style-columns-in-java/)
+### [Πώς να εξάγετε Excel σε TXT με περιορισμένα σημαντικά ψηφία χρησιμοποιώντας Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

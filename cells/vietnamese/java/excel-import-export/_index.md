@@ -134,6 +134,10 @@ Hướng dẫn cách thiết lập dấu phân cách và xuất dữ liệu sang
 ### [Nhúng phông chữ vào SVG khi xuất Excel sang SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
 Hướng dẫn cách nhúng phông chữ vào tệp SVG khi xuất workbook Excel sang SVG bằng Aspose.Cells for Java.
 ### [Xuất Excel sang HTML trong Java – hướng dẫn chi tiết từng bước](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+### [Cách nhập danh sách vào Excel và định dạng cột trong Java](./how-to-import-list-to-excel-and-style-columns-in-java/)
+Tìm hiểu cách nhập danh sách vào Excel và định dạng các cột bằng Aspose.Cells for Java.
+### [Cách xuất Excel sang TXT với số chữ số có ý nghĩa giới hạn bằng Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+Hướng dẫn xuất dữ liệu Excel sang tệp TXT, chỉ giữ lại số chữ số có ý nghĩa nhất định, sử dụng Aspose.Cells for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

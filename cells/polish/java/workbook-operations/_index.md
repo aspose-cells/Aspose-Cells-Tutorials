@@ -183,7 +183,7 @@ Dowiedz się, jak konwertować skoroszyty programu Excel na zgodne pliki PDF za 
 Dowiedz się, jak płynnie konwertować pliki Excela do HTML za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje opcje ładowania, zapisywania i najlepsze praktyki.
 
 ### [Konwersja Excela do zoptymalizowanego pliku PDF przy użyciu Aspose.Cells Java: przewodnik krok po kroku](./convert-excel-to-optimized-pdf-aspose-cells-java/)
-Dowiedz się, jak konwertować pliki Excela na zoptymalizowane pliki PDF za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje ładowanie skoroszytów, ustawianie opcji optymalizacji i zapisywanie jako PDF.
+Dowiedz się, jak konwertować pliki Excela na zoptymalizowane pliki PDF przy użyciu Aspose.Cells for Java. Ten przewodnik obejmuje ładowanie skoroszytów, ustawianie opcji optymalizacji i zapisywanie jako PDF.
 
 ### [Jak przekonwertować Excela do PDF w Javie za pomocą Aspose.Cells: Przewodnik krok po kroku](./convert-excel-to-pdf-aspose-cells-java/)
 Dowiedz się, jak bezproblemowo konwertować pliki Excela do wysokiej jakości plików PDF za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje konfigurację, ustawienia i najlepsze praktyki.
@@ -500,6 +500,8 @@ Dowiedz się, jak programowo tworzyć skoroszyty XLSB w Javie przy użyciu Aspos
 Dowiedz się, jak programowo tworzyć skoroszyty Excela w Javie, korzystając z Aspose.Cells, z pełnym przykładem kodu i wskazówkami konfiguracyjnymi.
 ### [Zapisz nowy skoroszyt w Javie – Samouczek kopiowania zakresu między skoroszytami](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
 Dowiedz się, jak utworzyć nowy skoroszyt i skopiować zakres danych między skoroszytami przy użyciu Aspose.Cells for Java.
+### [Java create excel file, add custom property and save as XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+Dowiedz się, jak utworzyć plik Excel, dodać własną właściwość i zapisać go w formacie XLSB przy użyciu Aspose.Cells dla Java.
 
 ## Dodatkowe zasoby
 

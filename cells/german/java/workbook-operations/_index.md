@@ -36,6 +36,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Excel-Arbeitsmappe von Gru
 Erfahren Sie, wie Sie mit Aspose.Cells für Java eine neue Excel-Arbeitsmappe von Grund auf erstellen und speichern.
 ### [Neues Arbeitsbuch in Java erstellen – Schritt‑für‑Schritt‑Anleitung](./create-new-workbook-in-java-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java ein neues Arbeitsbuch erstellen und speichern.
+### [Java Excel-Datei erstellen, benutzerdefinierte Eigenschaft hinzufügen und als XLSB speichern](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Excel-Datei erstellen, eine benutzerdefinierte Eigenschaft hinzufügen und sie im XLSB-Format speichern.
 
 ### [Aspose.Cells Java: Version anzeigen und gemeinsame Arbeitsmappe erstellen](./aspose-cells-java-display-version-create-shared-workbook/)
 Ein Code-Tutorial für Aspose.Words Java

@@ -62,6 +62,7 @@ Aspose.Cells for Java를 이용해 피벗 테이블을 복사하는 방법을 �
 Aspose.Cells for Java를 사용하여 한 워크북에서 다른 워크북으로 피벗 테이블을 복사하는 방법을 단계별로 안내합니다.
 ### [Java에서 새 워크북 만들기 – 피벗 테이블 복사 전체 가이드](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
 Aspose.Cells for Java를 사용해 새 워크북을 생성하고 기존 피벗 테이블을 복사하는 방법을 단계별로 안내합니다.
+### [워크시트를 복제하고 피벗 테이블을 보존하는 방법 (Java)](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -63,6 +63,9 @@ Hướng dẫn chi tiết cách mở tệp XLSX, tải sổ làm việc và th�
 ### [Công thức Mảng Động trong Java: Tạo Sổ làm việc Excel và Tính Toán Tất cả Công thức](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
 Hướng dẫn tạo workbook Excel trong Java và tính toán toàn bộ công thức mảng động một cách hiệu quả.
 
+### [Cách làm mới workbook Excel trong Java bằng Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
+Hướng dẫn cách làm mới dữ liệu workbook Excel trong Java với Aspose.Cells
+
 ## Tài nguyên bổ sung
 - [Tài liệu Aspose.Cells cho Java](https://docs.aspose.com/cells/java/)
 - [Tham chiếu API Aspose.Cells cho Java](https://reference.aspose.com/cells/java/)

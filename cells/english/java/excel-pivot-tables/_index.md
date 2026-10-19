@@ -62,6 +62,8 @@ Learn how to duplicate a Pivot Table programmatically using Aspose.Cells for Jav
 Learn how to copy a Pivot Table from one workbook to another using Aspose.Cells for Java, preserving data and formatting effortlessly.
 ### [Create New Workbook in Java – Full Guide to Copy Pivot Table](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
 Learn how to create a new workbook and copy Pivot Tables in Java using Aspose.Cells, with step-by-step code examples.
+### [How to duplicate worksheet and preserve pivot tables in Java](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
+Learn how to duplicate a worksheet while preserving its Pivot Tables using Aspose.Cells for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

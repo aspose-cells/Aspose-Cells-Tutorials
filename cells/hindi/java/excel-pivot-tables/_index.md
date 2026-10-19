@@ -62,6 +62,8 @@ Aspose.Cells for Java के साथ पिवट टेबल को कॉ�
 Aspose.Cells for Java का उपयोग करके एक वर्कबुक से दूसरे में पिवट टेबल कॉपी करने की प्रक्रिया सीखें।
 ### [जावा में नया वर्कबुक बनाना – पिवट टेबल कॉपी करने की पूर्ण गाइड](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
 Aspose.Cells for Java का उपयोग करके नया वर्कबुक बनाएं और पिवट टेबल को कॉपी करने की प्रक्रिया सीखें।
+### [जावा में वर्कशीट को डुप्लिकेट करना और पिवट टेबल्स को संरक्षित रखना](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
+जावा में Aspose.Cells का उपयोग करके वर्कशीट को डुप्लिकेट करें और पिवट टेबल्स को बनाए रखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

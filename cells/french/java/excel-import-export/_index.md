@@ -53,6 +53,8 @@ Apprenez à convertir un classeur Excel en fichier CSV avec Aspose.Cells pour Ja
 Apprenez à créer un fichier Excel en Java, appliquer des styles de lignes et exporter au format XLSX grâce à ce guide complet.
 ### [Convertir Excel en PDF – Guide complet Java avec Aspose.Cells](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
 Apprenez à convertir des classeurs Excel en PDF avec Aspose.Cells pour Java grâce à un guide complet étape par étape.
+### [Comment exporter Excel en TXT avec des chiffres significatifs limités en Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+Apprenez à exporter un classeur Excel au format TXT en limitant le nombre de chiffres significatifs avec Aspose.Cells pour Java.
 ### [Exporter Excel vers XML Java](./export-excel-to-xml-java/)
 Apprenez à exporter des données Excel vers XML en Java avec Aspose.Cells pour Java. Guide étape par étape avec code source pour une conversion de données fluide.
 
@@ -133,6 +135,8 @@ Apprenez à importer des objets personnalisés dans Excel en Java avec Aspose.Ce
 Apprenez à intégrer des polices dans les fichiers SVG lors de l'exportation d'Excel avec Aspose.Cells pour Java.
 ### [Exporter Excel en HTML avec Java – guide complet étape par étape](./export-excel-to-html-in-java-complete-step-by-step-guide/)
 Apprenez à exporter des fichiers Excel au format HTML en Java avec Aspose.Cells pour Java. Guide complet étape par étape avec code source.
+### [Comment importer une liste dans Excel et styliser les colonnes en Java](./how-to-import-list-to-excel-and-style-columns-in-java/)
+Apprenez à importer une liste dans Excel et à appliquer des styles aux colonnes en Java avec Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

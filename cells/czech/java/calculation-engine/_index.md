@@ -64,6 +64,9 @@ Naučte se zlepšit výkon Excelu s Aspose.Cells pro Javu implementací řetězc
 ### [Dynamické pole vzorců v Javě: Vytvořte Excel sešit a vypočítejte všechny vzorce](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
 Naučte se, jak pomocí Aspose.Cells v Javě vytvořit sešit s dynamickými poli a vypočítat všechny vzorce.
 
+### [Jak obnovit sešity Excel v Javě pomocí Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
+Naučte se, jak pomocí Aspose.Cells v Javě obnovit a znovu načíst Excel sešity pro aktuální data.
+
 ## Další zdroje
 - [Dokumentace Aspose.Cells pro Java](https://docs.aspose.com/cells/java/)
 - [API reference Aspose.Cells pro Java](https://reference.aspose.com/cells/java/)

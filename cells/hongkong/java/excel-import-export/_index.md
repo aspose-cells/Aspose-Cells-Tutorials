@@ -133,6 +133,10 @@
 
 ### [在匯出 Excel 為 SVG 時嵌入字型](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
 了解如何在匯出 Excel 為 SVG 時嵌入字型，以確保正確顯示。
+### [如何在 Java 中匯入清單至 Excel 並設定欄位樣式](./how-to-import-list-to-excel-and-style-columns-in-java/)
+了解如何使用 Aspose.Cells for Java 將清單匯入 Excel 並自訂欄位樣式，以提升報表可讀性。
+### [如何使用 Java 匯出 Excel 為 TXT 並限制有效位數](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+了解如何使用 Aspose.Cells for Java 將 Excel 匯出為 TXT，並限制數值的有效位數，以確保資料精度。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

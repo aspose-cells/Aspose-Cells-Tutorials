@@ -70,6 +70,8 @@ Aspose.Cells for Java를 사용해 Excel 데이터를 PowerPoint 프레젠테이
 Aspose.Cells for Java와 Aspose.Slides for Java를 사용하여 Excel 차트를 PowerPoint 슬라이드로 내보내는 방법을 단계별로 안내합니다.
 ### [Excel을 PowerPoint로 변환 – 전체 단계별 가이드](./convert-excel-to-powerpoint-full-step-by-step-guide/)
 Aspose.Cells for Java를 사용하여 Excel 파일을 PowerPoint 프레젠테이션으로 변환하는 전체 단계별 가이드를 확인하세요.
+### [C#에서 Aspose.Cells를 사용하여 Excel을 DOCX로 저장하는 방법](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+Aspose.Cells를 이용해 Excel 파일을 DOCX 형식으로 변환하고 저장하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

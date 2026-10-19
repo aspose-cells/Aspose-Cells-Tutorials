@@ -223,6 +223,8 @@ Aspose.Words Java 代码教程
 ### [使用 Aspose.Cells Java 创建和自定义 Excel 工作簿：分步指南](./create-customize-excel-workbooks-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 自动创建和自定义 Excel 工作簿。掌握工作簿操作，提高工作效率。
 
+### [Java 创建 Excel 文件，添加自定义属性并保存为 XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+
 ### [如何使用 Aspose.Cells for Java 创建和合并 Excel 工作簿 | 完整指南](./create-merge-excel-workbooks-aspose-cells-java/)
 通过本指南，学习如何使用 Aspose.Cells for Java 高效地创建和合并 Excel 工作簿。立即简化您的工作簿操作。
 

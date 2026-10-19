@@ -63,6 +63,9 @@ Aspose.Words Java 的代码教程
 ### [Java 中的动态数组公式：创建 Excel 工作簿并计算所有公式](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
 学习如何在 Java 中使用 Aspose.Cells 创建工作簿并利用动态数组公式一次性计算所有公式，实现高效数据处理。
 
+### [在 Java 中使用 Aspose.Cells 刷新 Excel 工作簿](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
+了解如何在 Java 应用程序中使用 Aspose.Cells 刷新工作簿以获取最新计算结果。
+
 ## 其他资源
 - [Aspose.Cells for Java 文档](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells for Java API 参考](https://reference.aspose.com/cells/java/)

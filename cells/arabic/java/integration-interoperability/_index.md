@@ -70,6 +70,8 @@
 تعلم كيفية تصدير المخططات من ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells لـ Java مع مثال كامل خطوة بخطوة.
 ### [تحويل Excel إلى PowerPoint – دليل شامل خطوة بخطوة](./convert-excel-to-powerpoint-full-step-by-step-guide/)
 تعلم كيفية تحويل ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells لـ Java خطوة بخطوة مع أمثلة عملية.
+### [كيفية حفظ Excel كملف DOCX باستخدام Aspose.Cells في C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+تعلم كيفية حفظ ملفات Excel كـ DOCX باستخدام Aspose.Cells في بيئة C#.
 
 ## موارد إضافية
 

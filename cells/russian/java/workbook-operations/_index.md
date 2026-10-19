@@ -498,12 +498,14 @@
 Узнайте, как создать рабочую книгу Excel с японским календарем, используя Aspose.Cells для Java, с полными примерами кода.
 ### [Сохранить новую рабочую книгу в Java — учебник по копированию диапазона между рабочими книгами](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
 Узнайте, как создать новую рабочую книгу и скопировать диапазон из другой книги с помощью Aspose.Cells для Java.
+### [Java: создание файла Excel, добавление пользовательского свойства и сохранение в формате XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+Узнайте, как создать файл Excel в Java, добавить пользовательское свойство и сохранить его в формате XLSB с помощью Aspose.Cells.
 
 ## Дополнительные ресурсы
 
 - [Документация по Aspose.Cells для Java](https://docs.aspose.com/cells/java/)
 - [Справочник API Aspose.Cells для Java](https://reference.aspose.com/cells/java/)
-- [Загрузить Aspose.Cells для Java](https://releases.aspose.com/cells/java/)
+- [Загрузить Aspose.Cells для Java](httpshttps://releases.aspose.com/cells/java/)
 - [Бесплатная поддержка](https://forum.aspose.com/)
 - [Временная лицензия](https://purchase.aspose.com/temporary-license/)
 

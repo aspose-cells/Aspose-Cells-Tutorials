@@ -65,6 +65,9 @@ Leer hoe u de Excel‑prestaties kunt verbeteren met Aspose.Cells voor Java door
 ### [Open XLSX-bestand in Java – Complete gids voor het laden van een werkmap en het opnieuw berekenen van formules](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
 Leer hoe u een XLSX-bestand laadt, de werkmap opent en formules opnieuw berekent met Aspose.Cells voor Java.
 
+### [Hoe Excel-werkboeken te vernieuwen in Java met Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
+Leer hoe u Excel-werkboeken kunt vernieuwen met Aspose.Cells in Java.
+
 ## Aanvullende bronnen
 - [Aspose.Cells voor Java-documentatie](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells voor Java API‑referentie](https://reference.aspose.com/cells/java/)

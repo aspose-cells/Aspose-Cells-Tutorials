@@ -125,6 +125,11 @@ Dowiedz się, jak eksportować pliki Excel do HTML w Javie przy użyciu Aspose.C
 Dowiedz się, jak osadzić czcionki w plikach SVG przy eksporcie Excela przy użyciu Aspose.Cells for Java.
 ### [Jak ustawić separator i zapisać jako CSV przy użyciu Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
 
+### [Jak wyeksportować Excel do TXT z ograniczoną liczbą cyfr znaczących w Javie](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+Dowiedz się, jak przy użyciu Aspose.Cells for Java wyeksportować plik Excel do formatu TXT, ograniczając liczbę cyfr znaczących.
+
+### [Jak zaimportować listę do Excela i sformatować kolumny w Javie](./how-to-import-list-to-excel-and-style-columns-in-java/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

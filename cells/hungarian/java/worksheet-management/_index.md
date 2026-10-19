@@ -106,6 +106,8 @@ Tanuld meg, hogyan nevezheted át dinamikusan a munkalapokat a SmartMarkerProces
 ### [Több munkalap létrehozása Excelben Java-val – Teljes sablonalapú útmutató](./create-multiple-sheets-in-excel-with-java-complete-template/)
 Ismerd meg, hogyan hozhatsz létre több munkalapot egy Excel-fájlban Java és sablonok segítségével, részletes példákkal.
 ### [Hogyan törölje az autofiltert Excelben az Aspose.Cells (Java) használatával](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+### [Hogyan hozhat létre duplikált részletes munkalapokat az Aspose.Cells for Java használatával](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+Tanuld meg, hogyan hozhatsz létre duplikált részletes munkalapokat az Aspose.Cells for Java segítségével.
 
 ## További források
 

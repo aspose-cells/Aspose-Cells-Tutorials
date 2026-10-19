@@ -63,6 +63,8 @@ Learn how to enhance Excel performance with Aspose.Cells for Java by implementin
 Learn how to open XLSX files, load workbooks, and recalculate formulas using Aspose.Cells for Java in this comprehensive guide.
 ### [Dynamic Array Formulas in Java: Create Excel Workbook and Calculate All Formulas](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
 Learn how to generate an Excel workbook in Java and evaluate dynamic array formulas using Aspose.Cells.
+### [How to refresh Excel workbooks in Java using Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
+Learn how to programmatically refresh Excel workbooks using Aspose.Cells for Java.
 
 ## Additional Resources
 - [Aspose.Cells for Java Documentation](https://docs.aspose.com/cells/java/)

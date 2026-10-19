@@ -143,6 +143,10 @@
 Узнайте, как задать разделитель и сохранить файл в формате CSV с помощью Aspose.Cells для Java.
 ### [Встраивание шрифтов в SVG при экспорте Excel в SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
 Узнайте, как встраивать шрифты в SVG при экспорте файлов Excel с помощью Aspose.Cells для Java.
+### [Как импортировать список в Excel и стилизовать столбцы в Java](./how-to-import-list-to-excel-and-style-columns-in-java/)
+Узнайте, как импортировать список в Excel и стилизовать столбцы с помощью Aspose.Cells для Java.
+### [Как экспортировать Excel в TXT с ограниченным количеством значимых цифр, используя Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+Узнайте, как экспортировать данные Excel в TXT с ограничением значимых цифр, используя Aspose.Cells для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

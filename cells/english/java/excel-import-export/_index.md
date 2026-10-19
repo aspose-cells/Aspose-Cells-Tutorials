@@ -62,6 +62,8 @@ Learn how to export Excel data to JSON using Aspose.Cells for Java. Follow this 
 Learn how to export JSON data to Excel using Aspose.Cells for Java. Follow this comprehensive step‑by‑step guide with source code.
 ### [Excel Import Data Validation](./excel-import-data-validation/)
 Learn how to implement Excel import data validation using Aspose.Cells for Java with this comprehensive step-by-step guide. Ensure data accuracy and enhance user experience. 
+### [How to import list to Excel and style columns in Java](./how-to-import-list-to-excel-and-style-columns-in-java/)
+Learn how to import a list into Excel and apply column styling using Aspose.Cells for Java in this step-by-step guide.
 ### [Export Excel to HTML Java](./export-excel-to-html-java/)
 Learn how to export Excel to HTML in Java using Aspose.Cells for Java. Follow this step-by-step guide with source code to seamlessly convert your Excel files to HTML effortlessly.
 ### [Convert XLSX to PPTX – Complete Guide to Export Editable Shapes](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
@@ -123,6 +125,8 @@ Learn how to import custom Java objects into Excel worksheets using Aspose.Cells
 Follow this comprehensive guide to export Excel files to HTML using Aspose.Cells for Java, with detailed steps and source code.
 ### [Embed fonts in SVG while exporting Excel to SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
 Learn how to embed fonts in SVG files when exporting Excel to SVG using Aspose.Cells for Java.
+### [How to export Excel to TXT with limited significant digits using Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+Learn how to export Excel data to TXT while limiting significant digits using Aspose.Cells for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

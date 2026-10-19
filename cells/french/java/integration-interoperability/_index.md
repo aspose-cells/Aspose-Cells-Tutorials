@@ -70,6 +70,8 @@ Apprenez à transformer des classeurs Excel en présentations PowerPoint avec As
 Apprenez à extraire des graphiques Excel et les insérer dans des présentations PowerPoint à l'aide d'Aspose.Cells pour Java.
 ### [Convertir Excel en PowerPoint – Guide complet étape par étape](./convert-excel-to-powerpoint-full-step-by-step-guide/)
 Apprenez à convertir des fichiers Excel en présentations PowerPoint avec Aspose.Cells pour Java, étape par étape.
+### [Comment enregistrer Excel au format DOCX avec Aspose.Cells en C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+Apprenez à convertir un classeur Excel en document Word (DOCX) à l'aide d'Aspose.Cells pour C#.
 
 ## Ressources supplémentaires
 

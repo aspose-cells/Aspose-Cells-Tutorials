@@ -109,6 +109,8 @@ Aprenda a mostrar filas y columnas en archivos de Excel fácilmente con Aspose.C
 Aprenda a utilizar SmartMarkerProcessor para asignar nombres dinámicos a hojas de cálculo en Excel con Aspose.Cells para Java.
 
 
+### [Cómo crear hojas de detalle duplicadas en Aspose.Cells para Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+Aprenda a generar copias de hojas de detalle en archivos de Excel usando Aspose.Cells para Java.
 
 ## Recursos adicionales
 

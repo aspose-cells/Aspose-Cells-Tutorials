@@ -64,6 +64,9 @@ Lär dig hur du öppnar en XLSX-fil, laddar arbetsboken och omberäknar formler 
 ### [Dynamiska arrayformler i Java: Skapa Excel-arbetsbok och beräkna alla formler](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
 Lär dig hur du använder dynamiska arrayformler i Java för att skapa en Excel-arbetsbok och beräkna alla formler automatiskt.
 
+### [Hur du uppdaterar Excel‑arbetsböcker i Java med Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
+En kodhandledning för Aspose.Cells Java
+
 ## Ytterligare resurser
 - [Aspose.Cells för Java-dokumentation](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells för Java API‑referens](https://reference.aspose.com/cells/java/)

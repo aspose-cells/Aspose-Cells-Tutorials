@@ -496,6 +496,8 @@ Aprenda a configurar y administrar propiedades de documentos, como el control de
 Aprenda a guardar libros de Excel como archivos XLSX en Java usando Aspose.Cells, con ejemplos de código paso a paso.
 ### [Cómo agregar una propiedad personalizada en Excel (Java) – Recuperar valor y guardar como XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
 Aprenda a agregar una propiedad personalizada a un libro de Excel, obtener su valor y guardarlo en formato XLSB usando Aspose.Cells para Java.
+### [Java: crear archivo Excel, agregar propiedad personalizada y guardarlo como XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+Aprenda a crear un archivo Excel, añadir una propiedad personalizada y guardarlo en formato XLSB usando Aspose.Cells para Java.
 
 ## Recursos adicionales
 

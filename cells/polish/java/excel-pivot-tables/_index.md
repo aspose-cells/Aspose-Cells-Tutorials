@@ -67,6 +67,8 @@ Dowiedz się, jak skopiować tabelę przestawną w Javie przy użyciu Aspose.Cel
 
 ### [Kopiowanie tabeli przestawnej między skoroszytami – Przewodnik krok po kroku w Javie](./copy-pivot-table-between-workbooks-step-by-step-java-guide/)
 Dowiedz się, jak skopiować tabelę przestawną z jednego skoroszytu do drugiego przy użyciu Aspose.Cells dla Java.
+### [Jak skopiować arkusz i zachować tabele przestawne w Javie](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
+Dowiedz się, jak skopiować arkusz w Excelu przy użyciu Aspose.Cells for Java, zachowując istniejące tabele przestawne.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

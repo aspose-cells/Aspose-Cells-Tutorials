@@ -46,10 +46,10 @@ Aspose.Cells for Java का उपयोग करके Excel फ़ाइल�
 जावा के लिए Aspose.Cells का उपयोग करके Excel से डेटा आयात करना सीखें। निर्बाध डेटा पुनर्प्राप्ति के लिए स्रोत कोड के साथ एक व्यापक गाइड।
 
 ### [एक्सेल को JSON में निर्यात करें](./export-excel-to-json/)
+जावा के लिए Aspose.Cells का उपयोग करके Excel डेटा को JSON में निर्यात सीखें। सहज रूपांतरण के लिए स्रोत कोड के साथ इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
 ### [एक्सेल आयात डेटा सत्यापन](./excel-import-data-validation/)
 इस विस्तृत चरण-दर-स्तर मार्गदर्शिका के साथ Java के लिए Aspose.Cells का उपयोग करके Excel आयात डेटा सत्यापन को लागू करना सीखें। डेटा सटीकता सुनिश्चित करें और उपयोगकर्ता अनुभव को बेहतर बनाएँ। 
 ### [एक्सेल को HTML जावा में निर्यात करें](./export-excel-to-html-java/)
-जावा के लिए Aspose.Cells का उपयोग करके जावा में Excel को HTML में निर्यात करना सीखें। अपनी Excel फ़ाइलों को आसानी से HTML में बदलने के लिए स्रोत कोड के साथ इस चरण-दर-स्तर मार्गदर्शिका का पालन करें।
 ### [जावा के साथ CSV निर्यात कैसे करें – महत्वपूर्ण अंकों को सेट करें और निर्यात रेंज को CSV में निर्यात करें](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
 जावा के लिए Aspose.Cells का उपयोग करके CSV निर्यात करते समय महत्वपूर्ण अंकों को सेट करना और निर्यात रेंज निर्दिष्ट करना सीखें।
 ### [वर्कबुक से PDF बनाना – पूर्ण जावा गाइड](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
@@ -137,6 +137,9 @@ Aspose.Cells API का उपयोग करके डिलिमिटर �
 
 ### [Excel को SVG में निर्यात करते समय फ़ॉन्ट एम्बेड करें](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
 Excel को SVG में निर्यात करते समय फ़ॉन्ट एम्बेड करने की चरण‑दर‑स्टेप गाइड।
+### [जावा में सूची को Excel में आयात करें और कॉलम को स्टाइल करें](./how-to-import-list-to-excel-and-style-columns-in-java/)
+जावा में Aspose.Cells का उपयोग करके सूची को Excel में आयात करें और कॉलम को स्वरूपित करें।
+### [जावा का उपयोग करके सीमित महत्वपूर्ण अंकों के साथ Excel को TXT में निर्यात कैसे करें](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -142,6 +142,12 @@ Aprenda a incrustar fuentes al exportar archivos de Excel a SVG usando Aspose.Ce
 ### [Exportar Excel a HTML en Java – guía completa paso a paso](./export-excel-to-html-in-java-complete-step-by-step-guide/)
 Aprenda a exportar archivos de Excel a HTML en Java con Aspose.Cells mediante una guía paso a paso completa.
 
+### [Cómo importar una lista a Excel y dar estilo a columnas en Java](./how-to-import-list-to-excel-and-style-columns-in-java/)
+Aprenda a importar listas a Excel y aplicar estilos a columnas usando Aspose.Cells para Java.
+
+### [Cómo exportar Excel a TXT con dígitos significativos limitados usando Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+Aprenda a exportar datos de Excel a archivos TXT manteniendo un número limitado de dígitos significativos con Aspose.Cells para Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

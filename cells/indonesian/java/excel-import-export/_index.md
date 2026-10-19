@@ -124,6 +124,10 @@ Pelajari cara mengatur delimiter khusus dan menyimpan data sebagai file CSV meng
 Pelajari cara menyematkan font dalam file SVG saat mengekspor workbook Excel menggunakan Aspose.Cells untuk Java.
 ### [Ekspor Excel ke HTML dalam Java – panduan lengkap langkah demi langkah](./export-excel-to-html-in-java-complete-step-by-step-guide/)
 Pelajari cara mengekspor file Excel ke HTML menggunakan Aspose.Cells untuk Java dengan panduan langkah demi langkah yang lengkap.
+### [Cara Mengimpor Daftar ke Excel dan Mengatur Gaya Kolom di Java](./how-to-import-list-to-excel-and-style-columns-in-java/)
+Pelajari cara mengimpor daftar ke file Excel dan menata kolom dengan gaya menggunakan Aspose.Cells untuk Java.
+### [Cara mengekspor Excel ke TXT dengan digit signifikan terbatas menggunakan Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+Pelajari cara mengekspor file Excel ke format TXT sambil membatasi jumlah digit signifikan menggunakan Aspose.Cells untuk Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

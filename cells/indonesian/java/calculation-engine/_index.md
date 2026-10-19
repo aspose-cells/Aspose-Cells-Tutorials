@@ -67,6 +67,9 @@ Pelajari cara membuat buku kerja Excel dengan formula array dinamis menggunakan 
 
 ## Sumber Daya Tambahan
 
+### [Cara menyegarkan workbook Excel di Java menggunakan Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
+Panduan langkah demi langkah untuk menyegarkan workbook Excel secara programatik menggunakan Aspose.Cells di Java.
+
 ## Additional Resources
 - [Dokumentasi Aspose.Cells untuk Java](https://docs.aspose.com/cells/java/)
 - [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)

@@ -65,6 +65,9 @@
 ### [نسخ صف واحد في Excel باستخدام Aspose.Cells لـ Java: دليل كامل](./copy-single-row-excel-aspose-cells-java/)
 تعرّف على كيفية نسخ صف واحد بكفاءة في Excel باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل نصائح الإعداد والتنفيذ والتحسين.
 
+### [كيفية إنشاء أوراق تفاصيل مكررة في Aspose.Cells لـ Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+تعلم كيفية إنشاء أوراق تفاصيل مكررة في ملفات Excel باستخدام Aspose.Cells للـ Java.
+
 ### [كيفية حذف الأعمدة الفارغة في Excel باستخدام Aspose.Cells Java: دليل شامل](./delete-blank-columns-aspose-cells-java/)
 تعرف على كيفية حذف الأعمدة الفارغة بكفاءة من ملفات Excel باستخدام Aspose.Cells for Java، مما يعزز إدارة البيانات وأتمتة سير العمل.
 

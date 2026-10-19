@@ -229,6 +229,9 @@ Leer hoe u een Excel-werkmap maakt in Java met een volledige stap‑voor‑stap 
 ### [Excel-werkmappen maken en aanpassen met Aspose.Cells Java: een stapsgewijze handleiding](./create-customize-excel-workbooks-aspose-cells-java/)
 Leer hoe u het maken en aanpassen van Excel-werkmappen kunt automatiseren met Aspose.Cells voor Java. Verbeter uw productiviteit door werkmapbewerkingen onder de knie te krijgen.
 
+### [Java: Excel-bestand maken, aangepaste eigenschap toevoegen en opslaan als XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+Leer hoe u een Excel-bestand maakt, een aangepaste eigenschap toevoegt en het opslaat als XLSB met Aspose.Cells voor Java.
+
 ### [Excel-werkmappen maken en samenvoegen met Aspose.Cells voor Java | Complete handleiding](./create-merge-excel-workbooks-aspose-cells-java/)
 Leer hoe u efficiënt Excel-werkmappen kunt maken en samenvoegen met Aspose.Cells voor Java met deze uitgebreide handleiding. Stroomlijn uw werkmapbewerkingen vandaag nog.
 

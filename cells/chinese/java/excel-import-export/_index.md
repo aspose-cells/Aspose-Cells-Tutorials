@@ -57,7 +57,8 @@
 
 ### [从 Excel 导入数据](./data-import-from-excel/)
 学习如何使用 Aspose.Cells for Java 从 Excel 导入数据。本指南包含无缝数据检索的源代码。
-
+### [如何在 Java 中将列表导入 Excel 并设置列样式](./how-to-import-list-to-excel-and-style-columns-in-java/)
+学习使用 Aspose.Cells for Java 将列表数据导入 Excel 并自定义列样式的完整步骤。
 ### [将 Excel 导出为 JSON](./export-excel-to-json/)
 学习如何使用 Aspose.Cells for Java 将 Excel 数据导出为 JSON。请按照本指南（包含源代码）进行操作，实现无缝转换。
 ### [使用 Java 将 JSON 导出为 Excel – 完整分步指南](./export-json-to-excel-with-java-complete-step-by-step-guide/)
@@ -138,6 +139,8 @@
 学习如何使用 Aspose.Cells for Java 将 Excel 导出为 HTML，提供完整的分步代码示例，帮助您实现高质量的网页展示。
 ### [在导出 Excel 为 SVG 时嵌入字体](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
 学习如何在使用 Aspose.Cells for Java 将 Excel 导出为 SVG 时嵌入字体，确保图形显示完整。
+### [使用 Java 将 Excel 导出为 TXT 并限制有效数字](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+学习如何使用 Aspose.Cells for Java 将 Excel 数据导出为 TXT，并限制有效数字的位数。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

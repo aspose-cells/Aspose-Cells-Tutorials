@@ -56,7 +56,8 @@
 ### [Освоение Aspose.Cells Java: определение ячеек в именованном диапазоне для обработки данных Excel](./master-aspose-cells-java-identify-named-range-cells/)
 Узнайте, как использовать Aspose.Cells с Java для эффективного определения и управления ячейками в именованных диапазонах в электронных таблицах Excel.
 
-
+### [Как безопасно переименовать таблицу Excel с помощью Aspose.Cells Java](./how-to-safely-rename-excel-table-with-aspose-cells-java/)
+Узнайте, как безопасно переименовать таблицу Excel с помощью Aspose.Cells для Java, сохраняя ссылки и данные.
 
 ## Дополнительные ресурсы
 

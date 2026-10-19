@@ -140,6 +140,10 @@
 ### [วิธีตั้งค่าตัวคั่นและบันทึกเป็น CSV ด้วย Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
 ### [ฝังฟอนต์ใน SVG ขณะส่งออก Excel เป็น SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
 เรียนรู้วิธีฝังฟอนต์ในไฟล์ SVG เมื่อส่งออก Excel เป็น SVG ด้วย Aspose.Cells สำหรับ Java
+### [วิธีนำรายการไปยัง Excel และจัดรูปแบบคอลัมน์ใน Java](./how-to-import-list-to-excel-and-style-columns-in-java/)
+เรียนรู้วิธีนำรายการข้อมูลไปยังไฟล์ Excel และกำหนดรูปแบบคอลัมน์ด้วย Aspose.Cells สำหรับ Java
+### [วิธีส่งออก Excel เป็น TXT ด้วยจำนวนหลักสำคัญที่จำกัดโดยใช้ Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+เรียนรู้วิธีส่งออกไฟล์ Excel เป็น TXT โดยจำกัดจำนวนหลักสำคัญด้วย Aspose.Cells สำหรับ Java
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

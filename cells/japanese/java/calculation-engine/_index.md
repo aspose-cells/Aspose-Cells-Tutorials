@@ -63,6 +63,9 @@ Java で Aspose.Cells を使用して XLSX ファイルを読み込み、ワー�
 ### [Java で動的配列数式: Excel ブックを作成しすべての数式を計算する](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
 Aspose.Cells for Java を使用して、動的配列数式を含むブックを作成し、すべての数式を自動的に評価する方法を解説します。
 
+### [Aspose.Cells を使用して Java で Excel ワークブックをリフレッシュする方法](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
+Aspose.Cells の API を使い、Java アプリで Excel ワークブックのデータを最新に更新する手順を解説します。
+
 ## 追加リソース
 - [Aspose.Cells for Java ドキュメント](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells for Java API リファレンス](https://reference.aspose.com/cells/java/)

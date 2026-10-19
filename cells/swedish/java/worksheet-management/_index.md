@@ -107,6 +107,8 @@ Lär dig hur du med SmartMarkerProcessor kan namnge kalkylblad dynamiskt baserat
 Lär dig hur du programatiskt skapar flera kalkylblad i en Excel-fil med Aspose.Cells för Java med hjälp av en färdig mall.
 ### [Hur du rensar autofilter i Excel med Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
 Lär dig hur du tar bort autofilter i en Excel-fil med Aspose.Cells för Java i några enkla steg.
+### [Hur man skapar duplicerade detaljark i Aspose.Cells för Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+Lär dig hur du duplicerar detaljark i Excel-filer med Aspose.Cells för Java för effektiv datahantering.
 
 ## Ytterligare resurser
 

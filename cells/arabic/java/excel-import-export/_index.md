@@ -123,6 +123,10 @@
 ### [تضمين الخطوط في SVG أثناء تصدير Excel إلى SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
 تعلم كيفية تضمين الخطوط داخل ملفات SVG عند تصدير مصنفات Excel باستخدام Aspose.Cells لجافا.
 ### [تصدير إكسل إلى HTML في جافا – دليل خطوة بخطوة كامل](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+### [كيفية استيراد قائمة إلى Excel وتنسيق الأعمدة في Java](./how-to-import-list-to-excel-and-style-columns-in-java/)
+تعلم كيفية استيراد قائمة إلى ملف Excel وتطبيق تنسيقات على الأعمدة باستخدام Aspose.Cells لجافا.
+### [كيفية تصدير Excel إلى TXT مع أرقام ذات أرقام معنوية محدودة باستخدام Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+تعرّف على تصدير Excel إلى TXT مع تحديد الأرقام المعنوية باستخدام Aspose.Cells لجافا. دليل خطوة بخطوة مع الكود المصدري.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -324,7 +324,7 @@ Tanuld meg, hogyan konvertálhatsz Excel fájlokat HTML-be az Aspose.Cells for J
 ### [Excel konvertálása HTML-be eszköztippekkel az Aspose.Cells Java használatával: Átfogó útmutató](./excel-to-html-conversion-with-tooltips-aspose-cells-java/)
 Tanuld meg, hogyan konvertálhatsz Excel-táblázatokat interaktív HTML-oldalakká eszköztippekkel az Aspose.Cells for Java használatával. Javítsd az adatok hozzáférhetőségét és webes megjelenítését.
 
-### [Excel PDF-be konvertálásának automatizálása az Aspose.Cells használatával Java-ban](./excel-to-pdf-automation-aspose-cells-java/)
+### [Excel automatizálás PDF-be konvertálása az Aspose.Cells használatával Java-ban](./excel-to-pdf-automation-aspose-cells-java/)
 Ismerje meg, hogyan automatizálhatja az Excel-fájlok PDF-be konvertálását az Aspose.Cells for Java használatával, beleértve a beállítási és megvalósítási lépéseket is.
 
 ### [Átfogó útmutató: Excelből PDF-be konvertálás Aspose.Cells használatával Java nyelven](./excel-to-pdf-conversion-aspose-cells-java/)
@@ -499,6 +499,8 @@ Ismerje meg, hogyan állíthat be és kezelhet dokumentumok tulajdonságait, pé
 Ismerje meg, hogyan menthet munkafüzetet fájlba, és másolhat Excel-tartományokat az Aspose.Cells for Java használatával.
 ### [Munkafüzet létrehozása japán naptárral – Teljes Java oktatóanyag](./create-workbook-japanese-calendar-complete-java-tutorial/)
 Ismerje meg, hogyan hozhat létre japán naptárat tartalmazó Excel munkafüzetet az Aspose.Cells for Java segítségével.
+### [Java create excel file, add custom property and save as XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+Ismerd meg, hogyan hozhatsz létre Excel-fájlt Java-ban, adhatod hozzá egyéni tulajdonságát, és mentheted XLSB formátumban.
 
 ## További források
 

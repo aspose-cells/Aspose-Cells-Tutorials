@@ -63,7 +63,10 @@ Dowiedz się, jak zautomatyzować generowanie plików Excel za pomocą Aspose.Ce
 Dowiedz się, jak zarządzać skoroszytami programu Excel za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje instancje skoroszytów, dostęp do arkuszy, konfiguracje stron, tytuły wydruków i wiele więcej.
 
 ### [Kopiowanie pojedynczego wiersza w programie Excel przy użyciu Aspose.Cells dla języka Java: kompletny przewodnik](./copy-single-row-excel-aspose-cells-java/)
-Dowiedz się, jak skutecznie kopiować pojedynczy wiersz w programie Excel za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje wskazówki dotyczące konfiguracji, implementacji i optymalizacji.
+Dowiedz się, jak skutecznie kopiować pojedynczy wiersz w programie Excel przy użyciu Aspose.Cells for Java. Ten przewodnik obejmuje wskazówki dotyczące konfiguracji, implementacji i optymalizacji.
+
+### [Jak utworzyć duplikaty arkuszy szczegółowych w Aspose.Cells dla języka Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+Dowiedz się, jak programowo tworzyć duplikaty arkuszy szczegółowych w plikach Excel przy użyciu Aspose.Cells for Java.
 
 ### [Jak usunąć puste kolumny w programie Excel za pomocą Aspose.Cells Java: kompleksowy przewodnik](./delete-blank-columns-aspose-cells-java/)
 Dowiedz się, jak skutecznie usuwać puste kolumny z plików Excela za pomocą Aspose.Cells for Java, usprawniając zarządzanie danymi i automatyzując przepływ pracy.

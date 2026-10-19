@@ -119,6 +119,10 @@ Aspose.Cells를 이용해 구분자를 지정하고 CSV 파일로 저장하는 �
 Excel을 SVG로 내보낼 때 글꼴을 포함하여 품질을 유지하는 방법을 단계별로 안내합니다.
 ### [Java에서 Excel을 HTML로 내보내기 – 완전 단계별 가이드](./export-excel-to-html-in-java-complete-step-by-step-guide/)
 Aspose.Cells for Java를 사용하여 Excel 파일을 HTML 형식으로 변환하는 방법을 단계별로 안내합니다.
+### [Java에서 리스트를 Excel로 가져오고 열 스타일 적용하기](./how-to-import-list-to-excel-and-style-columns-in-java/)
+Java를 사용해 리스트 데이터를 Excel에 가져오고, 열 서식을 지정하는 방법을 단계별로 안내합니다.
+### [Java를 사용해 제한된 유효숫자로 Excel을 TXT로 내보내는 방법](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+Aspose.Cells for Java를 사용하여 제한된 유효숫자를 유지하면서 Excel 데이터를 TXT 파일로 내보내는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

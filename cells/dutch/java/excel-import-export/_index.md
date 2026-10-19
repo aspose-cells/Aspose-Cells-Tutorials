@@ -130,6 +130,10 @@ Leer hoe u Excel-bestanden maakt vanuit JSON en JSON-gegevens naar Excel-cellen 
 Leer hoe u aangepaste objecten importeert in Excel met Aspose.Cells voor Java. Volg de stapsgewijze handleiding met voorbeeldcode.
 ### [Excel exporteren naar HTML in Java – volledige stapsgewijze handleiding](./export-excel-to-html-in-java-complete-step-by-step-guide/)
 Leer hoe u Excel naar HTML exporteert in Java met een volledige stap‑voor‑stap handleiding en voorbeeldcode.
+### [Hoe een lijst te importeren naar Excel en kolommen te stylen in Java](./how-to-import-list-to-excel-and-style-columns-in-java/)
+Leer hoe u een lijst importeert naar Excel en kolommen opmaakt met Aspose.Cells voor Java.
+### [Hoe Excel te exporteren naar TXT met beperkte significante cijfers in Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+Leer hoe u Excel-gegevens exporteert naar TXT met een beperkt aantal significante cijfers met Aspose.Cells voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

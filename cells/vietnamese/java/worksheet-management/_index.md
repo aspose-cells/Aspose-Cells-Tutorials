@@ -109,6 +109,8 @@ Tìm hiểu cách bỏ ẩn hàng và cột trong tệp Excel một cách dễ d
 
 ### [Cách xóa bộ lọc tự động trong Excel bằng Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
 Hướng dẫn cách xóa bộ lọc tự động trong tệp Excel bằng Aspose.Cells for Java.
+### [Cách tạo các trang chi tiết trùng lặp trong Aspose.Cells cho Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+Hướng dẫn tạo các trang chi tiết sao chép trong tệp Excel bằng Aspose.Cells cho Java.
 
 ## Tài nguyên bổ sung
 

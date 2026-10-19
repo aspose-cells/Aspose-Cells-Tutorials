@@ -493,6 +493,8 @@ Tìm hiểu cách tạo sổ làm việc với lịch Nhật Bản trong Java b�
 Hướng dẫn chi tiết cách tạo sổ làm việc XLSB trong Java bằng Aspose.Cells, bao gồm các bước lập trình và lưu trữ.
 ### [Lưu Sổ làm việc Mới trong Java – Hướng dẫn Sao chép Vùng dữ liệu Giữa Các Sổ làm việc](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
 Hướng dẫn cách lưu sổ làm việc mới và sao chép một vùng dữ liệu giữa các sổ làm việc trong Java bằng Aspose.Cells.
+### [Java tạo tệp Excel, thêm thuộc tính tùy chỉnh và lưu dưới dạng XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+Hướng dẫn tạo tệp Excel, thêm thuộc tính tùy chỉnh và lưu dưới dạng XLSB bằng Aspose.Cells cho Java.
 
 ## Tài nguyên bổ sung
 

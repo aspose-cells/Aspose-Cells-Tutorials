@@ -108,6 +108,8 @@ Scopri come visualizzare facilmente righe e colonne nascoste nei file Excel util
 Impara a generare più fogli di lavoro in un file Excel usando Aspose.Cells per Java con un modello predefinito, passo passo.
 ### [Come cancellare l'autofiltro in Excel con Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
 Scopri come rimuovere l'autofiltro da un foglio Excel usando Aspose.Cells per Java.
+### [Come creare fogli di dettaglio duplicati in Aspose.Cells per Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+Scopri come creare fogli di dettaglio duplicati in Excel utilizzando Aspose.Cells per Java.
 
 ## Risorse aggiuntive
 

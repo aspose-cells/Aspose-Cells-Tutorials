@@ -127,6 +127,10 @@ Tanuld meg, hogyan exportálhatsz Excel-fájlokat HTML-be Java használatával r
 Ismerd meg, hogyan ágyazhatod be a betűtípusokat SVG fájlokba Excel exportálásakor az Aspose.Cells for Java segítségével.
 ### [Hogyan állíts be határolót és ments CSV-be az Aspose.Cells használatával](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
 Tanuld meg, hogyan állíthatsz be határolót és menthetsz CSV fájlt az Aspose.Cells használatával.
+### [Lista importálása Excelbe és oszlopok formázása Java-ban](./how-to-import-list-to-excel-and-style-columns-in-java/)
+Tanuld meg, hogyan importálj listát Excelbe és formázd az oszlopokat Java segítségével.
+### [Excel exportálása TXT-be korlátozott számjegyekkel Java-val](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+Tanuld meg, hogyan exportálj Excel-fájlokat TXT formátumba, miközben korlátozod a jelentős számjegyek számát Java-val.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
