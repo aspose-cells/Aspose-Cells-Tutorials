@@ -13,13 +13,10 @@ url: /ja/java/advanced-features/aspose-cells-java-excel-db-connections/
 weight: 1
 ---
 
- markdown formatting.
 
-Let's craft Japanese translation.
 
-Will use natural Japanese.
 
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

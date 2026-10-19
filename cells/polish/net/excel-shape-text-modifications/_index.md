@@ -50,6 +50,9 @@ Na koniec porozmawiajmy o prezentacji. Nie chodzi tylko o dane; chodzi o to, jak
 Dowiedz się, jak wyodrębnić tekst z SmartArt typu koła zębatego w programie Excel przy użyciu Aspose.Cells dla .NET. Zawiera przewodnik krok po kroku i przykład kodu.
 ### [Zamień tag na tekst w polu tekstowym w programie Excel](./replace-tag-text-textbox-excel/)
 Bezproblemowo zastępuj tekst w polach tekstowych w arkuszach Excela za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku po automatyzacji programu Excel.
+### [Zmień rozmiar czcionki w polu tekstowym w programie Excel przy użyciu C# – kompletny przewodnik](./change-textbox-font-size-in-excel-with-c-complete-guide/)
+Dowiedz się, jak zmienić rozmiar czcionki w polu tekstowym w Excelu przy pomocy Aspose.Cells dla .NET i C#, krok po kroku.
+
 ### [Obróć tekst z kształtem w programie Excel](./rotate-text-shape-excel/)
 Dowiedz się, jak obracać tekst z kształtami w programie Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby uzyskać idealną prezentację w programie Excel.
 ### [Kafelkowanie obrazu jako tekstury w kształcie w programie Excel](./tile-picture-texture-shape-excel/)

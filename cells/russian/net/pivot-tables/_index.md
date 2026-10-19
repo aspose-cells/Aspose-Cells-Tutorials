@@ -21,7 +21,7 @@
 
 {{< tutorial-card link="./pivot-table-save-in-ods/" title="Сохранить сводную таблицу как ODS в Aspose.Cells" imgSrc="./pivot-table-save-in-ods/images/thumb.png" >}}
 
-{{< tutorial-card link="./how-to-copy-pivot-table-while-preserving-worksheets/" title="Как скопировать сводную таблицу, сохранив листы" imgSrc="./how-to-copy-pivot-table-while-preserving-worksheets/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-copy-pivot-table-in-c-complete-programming-guide/" title="Как скопировать сводную таблицу в C# – Полное руководство по программированию" imgSrc="./how-to-copy-pivot-table-in-c-complete-programming-guide/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

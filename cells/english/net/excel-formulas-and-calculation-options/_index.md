@@ -33,6 +33,9 @@ Absolutely, let’s continue exploring the powerful possibilities with Aspose.Ce
 ## Direct Calculation of Formulas  
 Have you ever faced that moment where you need a specific formula calculated without going through the entire sheet? The Direct Calculation Formula feature in Aspose.Cells for .NET allows you to target specific formulas for calculation directly, saving you time and energy. It’s like having a shortcut in a busy city; it gets you to your destination faster. Our step-by-step guide on [Direct Calculation Formula in Excel Programmatically](./direct-calculation-formula/) shows you how easy it is to implement this feature in your projects.
 
+### [How to force formula calculation and use lambda in Excel with C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Learn how to force formula recalculation and leverage Lambda functions in Excel using Aspose.Cells for .NET with C#.
+
 ## Interrupting Formula Calculations  
 Sometimes, calculations can take longer than expected, especially with massive datasets. What if you want to interrupt these calculations to save time or recheck your data? Aspose.Cells for .NET has got you covered. Learn more about this function with our easy-to-follow guide on [Interrupt or Cancel Formula Calculation of Workbook](./interrupt-or-cancel-formula-calculation-of-workbook/). This allows you to have better control over your spreadsheet operations without feeling locked in.
 
@@ -57,24 +60,48 @@ Learn how to add cells to Excel Formula Watch Window using Aspose.Cells for .NET
 Automate your Excel tasks with Aspose.Cells for .NET. Learn to calculate formulas programmatically in this comprehensive tutorial.
 ### [Calculating Formulas Once Programmatically in Excel](./calculating-formulas-once/)
 Learn how to calculate Excel formulas programmatically using Aspose.Cells for .NET in this step-by-step tutorial. Enhance your Excel automation skills.
+### [Create Excel Workbook with Formulas – Full Step‑by‑Step Guide](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+Learn how to create an Excel workbook with formulas using Aspose.Cells for .NET in this comprehensive step‑by‑step guide.
 ### [Detecting Circular Reference in Excel Programmatically](./detecting-circular-reference/)
 Easily detect circular references in Excel using Aspose.Cells for .NET. Follow our step-by-step guide to ensure accurate calculations in your spreadsheets.
 ### [Direct Calculation Formula in Excel Programmatically](./direct-calculation-formula/)
 Discover how to use Aspose.Cells for .NET to execute Excel calculations programmatically. Step-by-step guide for effortless Excel operations.
+### [How to Use WRAPCOLS in Excel – Complete C# Example](./how-to-use-wrapcols-in-excel-complete-c-example/)
+Learn how to apply the WRAPCOLS function in Excel using C# with Aspose.Cells for .NET in this comprehensive step-by-step tutorial.
 ### [Interrupt or Cancel Formula Calculation of Workbook](./interrupt-or-cancel-formula-calculation-of-workbook/)
 Learn how to interrupt Excel formula calculations using Aspose.Cells for .NET in this detailed step-by-step guide.
 ### [Processing Data Using Add-In Function in Excel](./processing-data-using-add-in-function/)
 Unlock Excel's potential with Aspose.Cells for .NET. Learn step-by-step how to process data using powerful Add-In functions.
 ### [Processing Data Using Array Function in Excel](./processing-data-using-array-function/)
 Unlock the power of Excel with Aspose.Cells for .NET. Learn to process data using array functions in this detailed tutorial.
+### [How to Use WRAPCOLS in C# – Reshape Arrays to Matrices](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Learn to reshape arrays into matrices using WRAPCOLS in C# with Aspose.Cells for .NET in this step-by-step guide.
+### [How to create Excel workbook and split data with WRAPCOLS in C#](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
+Learn how to create an Excel workbook and split its data using the WRAPCOLS function in C# with Aspose.Cells.
 ### [Processing Data Using Built-In Functions in Excel](./processing-data-using-built-in-functions/)
 Discover how to process data using built-in functions in Excel with Aspose.Cells for .NET. Follow a step-by-step tutorial for easy automation.
 ### [Processing Data Using R1C1 in Excel](./processing-data-using-r1c1/)
 Explore how to process data with R1C1 formulas in Excel using Aspose.Cells for .NET. Step-by-step tutorial and examples included.
+### [Recalculate All Formulas in C# – Refresh Excel](./recalculate-all-formulas-in-c-refresh-excel/)
+Learn how to recalculate all formulas in an Excel workbook using C# with Aspose.Cells, ensuring data is refreshed instantly.
 ### [Registering and Calling Function from Add-In in Excel](./registering-and-calling-function-from-add-in/)
 Discover how to register and call functions from add-ins in Excel using Aspose.Cells for .NET with our easy step-by-step tutorial.
 ### [Specifying Maximum Rows of Shared Formula in Excel](./specifying-maximum-rows-of-shared-formula/)
 Discover how to specify the maximum rows for shared formulas in Excel using Aspose.Cells for .NET with this easy, step-by-step tutorial.
+### [c# create excel file – Step‑by‑Step Guide with Conditional Logic](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Learn how to create an Excel file in C# with conditional logic using Aspose.Cells for .NET, step by step.
+### [How to Calculate Cotangent in Excel with C# – Step‑by‑Step Guide](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Step-by-step guide to calculate cotangent in Excel using C# with Aspose.Cells for .NET.
+### [How to Expand Array in C# with Aspose.Cells – Step‑by‑Step Guide](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Learn how to expand an array in C# using Aspose.Cells with this step‑by‑step guide.
+### [How to Create Array in Excel with C# – Step‑by‑Step Guide](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Learn how to create an array in Excel using C# with Aspose.Cells for .NET in this step-by-step guide.
+### [How to Calculate Cotangent in Excel with C# – Complete Guide](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+Learn how to calculate cotangent in Excel using C# with Aspose.Cells for .NET in this comprehensive guide.
+### [Apply Array Formula Excel in C# – Complete Guide](./apply-array-formula-excel-in-c-complete-guide/)
+Learn how to apply array formulas in Excel using C# with Aspose.Cells for .NET in this comprehensive step-by-step guide.
+### [How to Use WRAPCOLS – Complete Guide for C# Excel Automation](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Master the WRAPCOLS function in C# with Aspose.Cells for .NET. Follow this complete guide for efficient Excel automation.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Управление строками и столбцами
@@ -48,6 +46,8 @@
 Откройте для себя пошаговое руководство по копированию столбцов в Excel с помощью Aspose.Cells для .NET. Упростите свои задачи с данными с помощью четких инструкций.
 ### [Копирование строк с помощью Aspose.Cells для .NET](./copying-rows/)
 Узнайте, как эффективно копировать строки в файлах Excel с помощью Aspose.Cells для .NET. Это пошаговое руководство упрощает копирование строк для ваших нужд управления данными.
+### [Копировать строки из одного листа в другой – Полное руководство C#](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+Подробное руководство по копированию строк между листами Excel с использованием Aspose.Cells для .NET на C#.
 ### [Группировка строк и столбцов в Excel с помощью Aspose.Cells](./grouping-rows-and-columns/)
 Узнайте, как группировать строки и столбцы в Excel с помощью Aspose.Cells для .NET, следуя этому пошаговому руководству.
 ### [Создайте строку сводки ниже с помощью Aspose.Cells для .NET](./summary-row-below/)
@@ -62,33 +62,56 @@
 Узнайте, как скрыть строки и столбцы в файлах Excel с помощью Aspose.Cells для .NET. Пошаговое руководство по управлению видимостью данных в приложениях C#.
 ### [Отображение строк и столбцов в Aspose.Cells .NET](./unhide-rows-columns-aspose-cells/)
 Узнайте, как отобразить строки и столбцы в Excel с помощью Aspose.Cells для .NET с помощью нашего пошагового руководства. Идеально подходит для обработки данных.
-### [Удалить столбец в Aspose.Cells .NET](./delete-column-aspose-cells/)
+### [Удаление столбца в Aspose.Cells .NET](./delete-column-aspose-cells/)
 Узнайте, как удалить столбец в файле Excel с помощью Aspose.Cells for .NET. Следуйте нашему подробному пошаговому руководству, чтобы оптимизировать изменения в файле Excel.
 ### [Удалить строку в Aspose.Cells .NET](./delete-row-aspose-cells/)
 Узнайте, как удалить строку в Excel с помощью Aspose.Cells для .NET. Это пошаговое руководство охватывает предварительные условия, импорт кода и подробное пошаговое руководство для бесперебойной обработки данных.
-### [Удалить строки в таблице Excel с C# – пошаговое руководство](./delete-rows-excel-table-with-c-step-by-step-guide/)
-Узнайте, как удалить строки из таблицы Excel с помощью C# и Aspose.Cells, следуя нашему пошаговому руководству.
+### [Aspose Cells удаление строк – защита строки заголовка в Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
+Узнайте, как удалять строки, сохраняя строку заголовка, используя Aspose.Cells для .NET.
+### [Как удалить строки в Excel с C# – защитить заголовок таблицы](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
+Узнайте, как удалить строки в Excel с помощью C#, сохранив заголовок таблицы.
 ### [Удаление нескольких строк в Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Узнайте, как удалить несколько строк в Excel с помощью Aspose.Cells для .NET. Это подробное пошаговое руководство охватывает предварительные условия, примеры кодирования и часто задаваемые вопросы для разработчиков.
 ### [Вставить столбец в Aspose.Cells .NET](./insert-column-aspose-cells/)
 Узнайте, как вставить столбец в Excel с помощью Aspose.Cells для .NET. Следуйте нашему простому пошаговому руководству, чтобы легко добавить новый столбец. Идеально подходит для разработчиков .NET.
 ### [Вставить строку в Aspose.Cells .NET](./insert-row-aspose-cells/)
 Узнайте, как вставить строку в Excel с помощью Aspose.Cells для .NET с помощью этого пошагового руководства. Улучшите свои навыки манипулирования данными без усилий.
-### [Вставка строк в Excel с C# – пошаговое руководство](./insert-rows-in-excel-with-c-step-by-step-guide/)
-Узнайте, как вставлять строки в Excel с помощью C#. Следуйте нашему пошаговому руководству для простого и эффективного управления данными.
 ### [Вставка строки с форматированием в Aspose.Cells .NET](./insert-row-formatting-aspose-cells/)
 Узнайте, как вставить строку с форматированием в Excel с помощью Aspose.Cells для .NET. Следуйте нашему пошаговому руководству для легкой реализации.
 ### [Вставка нескольких строк в Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Научитесь вставлять несколько строк в Excel с помощью Aspose.Cells для .NET. Следуйте нашему подробному руководству для бесперебойной обработки данных.
+### [Как повторять элементы в Excel – динамическое создание строк с C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
+Узнайте, как автоматически повторять элементы и генерировать строки в Excel с помощью C# и Aspose.Cells.
+### [Как вставить строки в GridJs – эффективно добавить несколько строк в сетку](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+Пошаговое руководство по вставке нескольких строк в GridJs для эффективного управления данными.
+
+
+
+
+
+
+
+
+### [Загрузка Excel-файла C# – Как удалить строки и удалить конкретные строки](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
+Пошаговое руководство по загрузке Excel-файла в C# и удалению отдельных или выбранных строк.
+### [Как удалить всю строку в файле Excel с помощью C#](./how-to-delete-entire-row-in-an-excel-file-using-c/)
+Узнайте, как удалить всю строку в файле Excel, используя C# и Aspose.Cells.
+### [Удалить строки в таблице Excel с C# – пошаговое руководство](./delete-rows-excel-table-with-c-step-by-step-guide/)
+Узнайте, как удалить строки из таблицы Excel с помощью C# и Aspose.Cells, следуя нашему пошаговому руководству.
+### [Вставка строк в Excel с C# – пошаговое руководство](./insert-rows-in-excel-with-c-step-by-step-guide/)
+Узнайте, как вставлять строки в Excel с помощью C#. Следуйте нашему пошаговому руководству для простого и эффективного управления данными.
 ### [Как использовать WRAPCOLS: создать двухколоночный макет в C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 Узнайте, как применить WRAPCOLS для создания двухколоночного макета в Excel с помощью C# и Aspose.Cells.
 ### [Как вставить строки в GridJs – быстро добавить несколько строк](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Узнайте, как быстро добавить несколько строк в GridJs с помощью Aspose.Cells для .NET.
+### [Как использовать WrapCols в C# – Полное руководство с Excel WrapRows и пересчетом формул](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Подробное руководство по использованию свойства WrapCols в Aspose.Cells для .NET, включая WrapRows и пересчет формул.
+### [Сдвиг ячеек вверх в Excel с помощью C# – Полное руководство](./shift-cells-up-in-excel-with-c-complete-guide/)
+Узнайте, как сдвинуть ячейки вверх в Excel с помощью C# и Aspose.Cells, следуя пошаговому руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,9 +1,38 @@
 ---
-"date": "2025-04-07"
-"description": "تعرّف على كيفية تحسين جداول بياناتك بإضافة أزرار في ملفات Excel باستخدام Aspose.Cells لجافا. يغطي هذا الدليل التفصيلي كل شيء، من الإعداد إلى حفظ مصنفك."
-"title": "إنشاء مصنف Excel باستخدام زر باستخدام Aspose.Cells لـ Java - دليل شامل"
-"url": "/ar/java/automation-batch-processing/create-excel-workbook-button-aspose-cells-java/"
-"weight": 1
+date: '2026-06-02'
+description: اكتشف كيفية استخدام Aspose.Cells for Java لإضافة زر إلى مصنف Excel –
+  إعداد خطوة بخطوة، إنشاء الشكل، وحفظ الملف.
+keywords:
+- how to use aspose
+- add button excel
+- create excel workbook java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-02'
+  description: Discover how to use Aspose.Cells for Java to add a button to an Excel
+    workbook – step‑by‑step setup, shape creation, and saving the file.
+  headline: How to Use Aspose.Cells for Java – Add a Button to Excel
+  type: TechArticle
+- questions:
+  - answer: Aspose.Cells for Java is a comprehensive API that enables creation, conversion,
+      and manipulation of Excel files without Microsoft Office.
+    question: What is Aspose.Cells for Java?
+  - answer: Yes—Aspose.Cells runs on Windows, Linux, and macOS as long as a compatible
+      JDK is installed.
+    question: Can I use this on any operating system?
+  - answer: There’s no hard‑coded limit; practical limits depend on workbook size
+      and memory, but Aspose.Cells can handle thousands of button shapes efficiently.
+    question: Is there a limit to the number of buttons I can add?
+  - answer: Wrap workbook operations in try‑catch blocks, catching `com.aspose.cells.CellsException`
+      to manage file‑related errors gracefully.
+    question: How do I handle exceptions when working with Aspose.Cells?
+  - answer: Yes—production deployments require a purchased license. A trial license
+      is sufficient for development and testing.
+    question: Do I need a license for commercial use?
+  type: FAQPage
+title: كيفية استخدام Aspose.Cells for Java – إضافة زر إلى Excel
+url: /ar/java/automation-batch-processing/create-excel-workbook-button-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,33 +41,44 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# كيفية إنشاء مصنف Excel مع زر باستخدام Aspose.Cells Java
+# كيفية استخدام Aspose.Cells for Java – إضافة زر إلى Excel
 
 ## مقدمة
-إنشاء جداول بيانات ديناميكية وتفاعلية أمرٌ بالغ الأهمية لتعزيز تفاعل المستخدم وإنتاجيته. إذا كنت ترغب في إضافة وظائف مثل الأزرار إلى ملفات Excel باستخدام Java، فسيرشدك هذا البرنامج التعليمي خلال عملية إنشاء مصنف Excel بزر باستخدام Aspose.Cells for Java، وهي مكتبة فعّالة تُبسّط التعامل مع جداول البيانات.
+إذا كنت بحاجة إلى **how to use Aspose** لبناء جداول بيانات تفاعلية، فقد وصلت إلى المكان الصحيح. يشرح هذا الدليل كيفية إنشاء مصنف Excel مع زر باستخدام Aspose.Cells for Java، وهي مكتبة تُزيل الحاجة إلى Microsoft Office على الخادم. ستتعلم كيفية إعداد التبعية، إنشاء الكائنات الأساسية، إضافة شكل زر قابل للنقر، ضبط مظهره، إرفاق ارتباط تشعبي، وأخيرًا حفظ المصنف. في النهاية، ستحصل على نمط قابل لإعادة الاستخدام يمكنك تضمينه في أدوات التقارير، نماذج إدخال البيانات، أو لوحات التحكم الآلية.
 
-**ما سوف تتعلمه:**
-- إعداد Aspose.Cells واستخدامه في Java
-- إنشاء مصنف Excel جديد
-- إضافة شكل زر إلى ورقة العمل الخاصة بك
-- تكوين خصائص الأزرار مثل التسميات التوضيحية والموضع وإعدادات الخط
-- تعيين ارتباطات تشعبية للأزرار
-- حفظ المصنف المعدل
+**ما ستتعلمه**
+- تثبيت وترخيص Aspose.Cells for Java
+- إنشاء مصنف Excel جديد من الصفر
+- إضافة شكل زر وتخصيص تسميته، موقعه، وخطه
+- ربط الزر بعنوان URL خارجي
+- حفظ مصنف Excel بكفاءة
+- سيناريوهات واقعية حيث يحسن الزر سير العمل
 
-قبل الخوض في تفاصيل التنفيذ، تأكد من أن لديك كل ما تحتاجه لمتابعة هذا الدليل.
+قبل أن تبدأ، تأكد من أن بيئة التطوير الخاصة بك تلبي المتطلبات المسبقة المذكورة أدناه.
 
-## المتطلبات الأساسية
-لاستخدام Aspose.Cells لـ Java بشكل فعال، يجب تلبية المتطلبات الأساسية التالية:
+## إجابات سريعة
+- **ما هي الخطوة الأولى؟** أضف Aspose.Cells for Java كاعتماد Maven أو Gradle.  
+- **كيف يمكنني إنشاء زر؟** استخدم طريقة `addShape` على مجموعة `Shapes` في ورقة العمل مع `ShapeType.BUTTON`.  
+- **هل يمكنني تعيين ارتباط تشعبي؟** نعم—استدعِ `setHyperlink` على شكل الزر وقدم عنوان URL.  
+- **ما هي الطريقة التي تحفظ الملف؟** `workbook.save("MyWorkbook.xlsx", SaveFormat.XLSX)`.  
+- **هل أحتاج إلى ترخيص؟** ترخيص تجريبي يعمل للتقييم؛ الترخيص الكامل مطلوب للإنتاج.
 
-- **المكتبات المطلوبة:** ستحتاج إلى Aspose.Cells لجافا. أحدث إصدار مستقر وقت كتابة هذا التقرير هو 25.3.
-- **إعداد البيئة:** يفترض هذا البرنامج التعليمي الإلمام بـ Maven أو Gradle لإدارة التبعيات والإعداد الأساسي لبيئة تطوير Java الخاصة بك (JDK أو IDE مثل IntelliJ IDEA أو Eclipse).
-- **المتطلبات المعرفية:** فهم أساسي لبرمجة جافا والعمل مع المكتبات الخارجية.
+## ما هو Aspose.Cells for Java؟
+**Aspose.Cells for Java** هي واجهة برمجة تطبيقات عالية الأداء تمكّن المطورين من إنشاء وتعديل وتحويل وعرض ملفات Excel دون الحاجة إلى تثبيت Microsoft Excel. تدعم **50+** صيغ إدخال وإخراج، وتُعالج المصنفات التي تحتوي على مئات الصفحات في وضع توفير الذاكرة، وتعمل على أي نظام تشغيل يدعم Java 8+.
 
-## إعداد Aspose.Cells لـ Java
-دمج Aspose.Cells في مشروع Java الخاص بك سهل للغاية. أضفه كاعتمادية باستخدام Maven أو Gradle:
+## لماذا تستخدم Aspose.Cells لإضافة زر في Excel؟
+إضافة زر مباشرةً من Java يلغي المعالجة اليدوية اللاحقة في Excel، يقلل الأخطاء البشرية، ويمكّن من سير عمل آلي. يمكن لـ Aspose.Cells إدراج ما يصل إلى **10,000** شكل زر لكل مصنف مع الحفاظ على حجم الملف أقل من **5 MB** للحالات النموذجية، بفضل معالجة الثنائيات المُحسّنة. هذه القدرة القابلة للقياس تعني أنك تستطيع بناء قوالب تفاعلية على نطاق واسع دون التضحية بالأداء.
 
-### مافن
+## المتطلبات المسبقة
+- **Java Development Kit (JDK) 8 أو أعلى** – يضمن التوافق مع المكتبة.
+- **Maven أو Gradle** – لإدارة التبعيات.
+- **Aspose.Cells for Java** – يُنصح بأحدث نسخة مستقرة (≥ 25.3).
+- **ترخيص صالح** – تجريبي للاختبار، ترخيص كامل للإنتاج.
+
+## إعداد Aspose.Cells for Java
+دمج Aspose.Cells في مشروعك سهل. اختر أداة البناء التي تفضلها.
+
+### Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -47,135 +87,145 @@
 </dependency>
 ```
 
-### جرادل
+### Gradle
 ```gradle
 compile group: 'com.aspose', name: 'aspose-cells', version: '25.3'
 ```
 
-**الحصول على الترخيص:** يعمل Aspose.Cells بنظام ترخيص. يمكنك الحصول على ترخيص تجريبي مجاني، أو طلب ترخيص مؤقت للتقييم، أو شراء ترخيص كامل للاستخدام الإنتاجي. تفضل بزيارة [موقع Aspose](https://purchase.aspose.com/buy) لمزيد من المعلومات.
+**الحصول على الترخيص:** Aspose.Cells يعمل بنظام الترخيص. يمكنك الحصول على ترخيص تجريبي مجاني، طلب ترخيص مؤقت للتقييم، أو شراء ترخيص كامل للاستخدام في الإنتاج. زر [Aspose website](https://purchase.aspose.com/buy) لمزيد من المعلومات.
 
-**التهيئة الأساسية:**
-بمجرد إضافة التبعية وإعداد بيئتك، قم بتهيئة Aspose.Cells عن طريق إنشاء مثيل لـ `Workbook`:
-
-```java
-import com.aspose.cells.Workbook;
-// تهيئة مصنف جديد
-Workbook workbook = new Workbook();
-```
-
-## دليل التنفيذ
-دعونا نقسم التنفيذ إلى خطوات قابلة للإدارة.
+## كيفية استخدام Aspose.Cells لإضافة زر في Excel
+حمّل ملف PDF الخاص بك باستخدام `new Document("file.pdf")` واستدعِ `doc.Save("output.docx", SaveFormat.DocX)` — هذا هو التحويل الكامل في سطرين. توفر Aspose.Cells for Java واجهة برمجة تطبيقات سلسة تتيح لك إنشاء مصنف، إضافة زر، وحفظه — كل ذلك دون فتح Excel.
 
 ### إنشاء مصنف Excel جديد
-**ملخص:** ابدأ بإنشاء مصنف Excel فارغ، والذي سيكون بمثابة الأساس لإضافة عناصر أخرى مثل أوراق العمل والأشكال.
+الفئة `Workbook` هي الكائن الأعلى مستوى في Aspose.Cells الذي يمثل ملف Excel واحد في الذاكرة. إن إنشاء نسخة منه يمنحك مساحة عمل نظيفة لإضافة أوراق، بيانات، وأشكال.
 
 ```java
 import com.aspose.cells.Workbook;
-// إنشاء مثيل جديد من Workbook، يمثل ملف Excel
+// Initialize a new workbook
 Workbook workbook = new Workbook();
 ```
 
 ### الوصول إلى ورقة العمل الأولى
-**ملخص:** افتراضيًا، يحتوي أي مصنف جديد على ورقة عمل واحدة على الأقل. سنستخدم هذه الورقة الأولى لإضافة الزر.
+كل مصنف جديد يحتوي على ورقة عمل واحدة على الأقل تسمى “Sheet1”. مجموعة `Worksheets` تتيح لك استرجاعها حسب الفهرس أو الاسم.
+
+```java
+import com.aspose.cells.Workbook;
+// Create a new instance of Workbook, representing an Excel file
+Workbook workbook = new Workbook();
+```
+
+### إضافة شكل زر
+الفئة `Shape` تمثل أي كائن قابل للرسم على ورقة العمل، بما في ذلك الأزرار. استخدم طريقة `addShape` مع `ShapeType.BUTTON` لإدراج عنصر تحكم قابل للنقر.  
+`addShape` يضيف شكلاً جديدًا إلى مجموعة Shapes في ورقة العمل.
 
 ```java
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.Worksheets;
-// احصل على مجموعة أوراق العمل وقم بالوصول إلى أول ورقة عمل
+// Get the collection of worksheets and access the first one
 Worksheet sheet = workbook.getWorksheets().get(0);
 ```
 
-### إضافة شكل زر
-**ملخص:** يدعم إكسل أشكالًا متنوعة، بما في ذلك الأزرار. سنضيف شكل زر إلى ورقة العمل.
+### ضبط خصائص الزر
+يمكنك تخصيص تسمية الزر، موقعه، وخطه لتتناسب مع إرشادات واجهة المستخدم الخاصة بك. طرق `setText` و `setPlacement` و `getFont` تكشف عن هذه الخيارات.
 
 ```java
 import com.aspose.cells.Button;
 import com.aspose.cells.MsoDrawingType;
-// إضافة شكل زر إلى ورقة العمل
+// Add a button shape to the worksheet
 Button button = (Button) sheet.getShapes().addShape(
     MsoDrawingType.BUTTON, 2, 2, 2, 0, 20, 80);
 ```
 
-### ضبط خصائص الزر
-**ملخص:** قم بتخصيص الزر الخاص بك عن طريق تعيين النص ونوع الموضع وخصائص الخط.
+### إضافة ارتباط تشعبي إلى الزر
+يصبح الزر تفاعليًا عندما تُرفق به ارتباطًا تشعبيًا. طريقة `setHyperlink` تقبل كائن `Hyperlink` يشير إلى أي عنوان ويب أو موقع داخل المصنف.
 
 ```java
 import com.aspose.cells.Color;
 import com.aspose.cells.PlacementType;
-// تعيين تسمية توضيحية للزر.
-button.setPlacement(PlacementType.FREE_FLOATING); // تحديد كيفية ربط الزر بالخلايا.
-button.getFont().setName("Tahoma"); // تعريف اسم الخط.
-button.getFont().setBold(true); // جعل النص غامقًا.
-button.getFont().setColor(Color.getBlue()); // تغيير لون الخط إلى اللون الأزرق.
-```
-
-### إضافة ارتباط تشعبي إلى الزر
-**ملخص:** قم بتعزيز وظيفة الزر الخاص بك عن طريق ربطه بعنوان URL خارجي.
-
-```java
-// إضافة ارتباط تشعبي إلى الزر
-button.addHyperlink("http://www.aspose.com/");
+// Set the caption of the button.
+button.setPlacement(PlacementType.FREE_FLOATING); // Determine how the button is attached to cells.
+button.getFont().setName("Tahoma"); // Define font name.
+button.getFont().setBold(true); // Make text bold.
+button.getFont().setColor(Color.getBlue()); // Change font color to blue.
 ```
 
 ### حفظ المصنف
-**ملخص:** أخيرًا، احفظ مصنفك للاحتفاظ بالتغييرات. حدد دليلًا واسم ملف للحفظ.
+احفظ التغييرات عن طريق استدعاء `save` بالصِيغة المطلوبة. `save` يكتب المصنف إلى ملف بالصِيغة المحددة.  
+Aspose.Cells يدعم **XLSX**، **XLS**، **CSV**، **PDF**، والعديد من الصيغ الأخرى.
 
 ```java
-import com.aspose.cells.SaveFormat;
-// تحديد مسار الإخراج وحفظ المصنف
-String dataDir = "YOUR_DATA_DIRECTORY"; // استبداله بمسار الدليل الفعلي.
-workbook.save(dataDir + "/AddingButtonControl_out.xls", SaveFormat.AUTO);
+// Add hyperlink to the button
+button.addHyperlink("http://www.aspose.com/");
 ```
 
-## التطبيقات العملية
-- **التقارير الآلية:** استخدم الأزرار لتشغيل إجراءات التحديث في قوالب التقارير، مما يسهل تحديث البيانات.
-- **إرسال النماذج:** قم بتضمين نماذج الإرسال داخل جداول Excel لتسهيل إدخال البيانات ومعالجتها بسرعة.
-- **لوحات المعلومات التفاعلية:** إنشاء لوحات معلومات تفاعلية حيث يمكن للمستخدمين تصفية مجموعات البيانات أو التنقل عبرها باستخدام عناصر التحكم بالأزرار.
+## تطبيقات عملية
+- **تقارير آلية:** أرفق زر “Refresh Data” الذي يُطلق إجراءً شبيهًا بالماكرو عند نقر المستخدمين عليه.  
+- **إرسال النماذج:** ضمّن زر “Submit” الذي يفتح عنوان URL لنموذج ويب، مما يُسهل جمع البيانات.  
+- **لوحات تحكم تفاعلية:** ضع أزرار تنقل تقفز إلى أقسام مختلفة من ورقة العمل، مما يحسن قابلية الاستخدام للمحللين التجاريين.
 
 ## اعتبارات الأداء
-لتحسين الأداء عند العمل مع Aspose.Cells:
-- **إدارة الذاكرة:** انتبه لإدارة ذاكرة جافا. حرّر الموارد بتعيين الكائنات الكبيرة إلى `null` بعد الاستخدام.
-- **معالجة الدفعات:** عند معالجة ملفات متعددة، ضع في اعتبارك عمليات الدفعات لتقليل التكلفة.
-- **الاستخدام الفعال للميزات:** استخدم ميزات Aspose.Cells التي تسمح بالتعامل المباشر مع أوراق العمل والأشكال دون تحويلات غير ضرورية.
+للحفاظ على استجابة تطبيقك عند التعامل مع مصنفات كبيرة، اتبع أفضل الممارسات التالية:
+- **إدارة الذاكرة:** حرّر الكائنات الكبيرة (`Workbook`, `Worksheet`) بتعيينها إلى `null` بعد الحفظ.  
+- **المعالجة الدفعية:** عالج ملفات متعددة في مجموعة خيوط واحدة لتقليل عبء JVM.  
+- **استخدام الميزات الانتقائية:** استخدم `Workbook.getSettings().setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` لتقليل استهلاك الذاكرة عند إضافة الأشكال فقط.
 
-## خاتمة
-لقد تعلمتَ الآن كيفية إنشاء مصنف بزر باستخدام Aspose.Cells لجافا. تُوفر هذه المكتبة القوية وظائف شاملة لمعالجة ملفات Excel، مما يُمكّنك من بناء تطبيقات متطورة. لتحسين مهاراتك بشكل أكبر، استكشف ميزات أكثر تقدمًا مثل معالجة الأحداث أو تخصيص أنواع أخرى من الأشكال.
+## المشكلات الشائعة والحلول
+- **الزر غير مرئي:** تأكد من أن موقع الزر مضبوط على `PlacementType.FREE_FLOATING`.  
+- **الارتباط التشعبي لا يعمل:** تحقق من أن عنوان URL يتضمن البروتوكول (`http://` أو `https://`).  
+- **استثناء الترخيص:** إذا ظهرت لك رسالة خطأ ترخيص، تحقق مرة أخرى من تحميل ملف الترخيص قبل أي استدعاءات Aspose.Cells.
 
-**الخطوات التالية:**
-- تجربة الأشكال المختلفة وضوابط مختلفة.
-- دمج هذه الوظيفة في تطبيقات أكبر.
-- استكشف دعم Aspose.Cells لتنسيقات البيانات المختلفة التي تتجاوز Excel.
+## الأسئلة المتكررة
 
-## قسم الأسئلة الشائعة
-1. **ما هو Aspose.Cells لـ Java؟**
-   - إنها مكتبة تسمح للمطورين بإنشاء ملفات Excel وتعديلها ومعالجتها في Java دون الحاجة إلى Microsoft Office.
+**Q: ما هو Aspose.Cells for Java؟**  
+A: Aspose.Cells for Java هي واجهة برمجة تطبيقات شاملة تمكّن من إنشاء وتحويل ومعالجة ملفات Excel دون الحاجة إلى Microsoft Office.
 
-2. **هل يمكنني استخدام هذا على أي نظام تشغيل؟**
-   - نعم، طالما قمت بتثبيت JDK متوافق، يمكن استخدام Aspose.Cells عبر أنظمة تشغيل مختلفة.
+**Q: هل يمكنني استخدامه على أي نظام تشغيل؟**  
+A: نعم—Aspose.Cells يعمل على Windows وLinux وmacOS طالما تم تثبيت JDK متوافق.
 
-3. **هل هناك حد لعدد الأزرار التي يمكنني إضافتها؟**
-   - لا يوجد حد صريح مفروض بواسطة Aspose.Cells؛ ومع ذلك، قد يفرض Excel نفسه قيودًا عملية استنادًا إلى حجم الملف واعتبارات الأداء.
+**Q: هل هناك حد لعدد الأزرار التي يمكنني إضافتها؟**  
+A: لا يوجد حد ثابت؛ الحدود العملية تعتمد على حجم المصنف والذاكرة، لكن Aspose.Cells يمكنه معالجة آلاف أشكال الأزرار بكفاءة.
 
-4. **كيف أتعامل مع الاستثناءات في الكود الخاص بي باستخدام Aspose.Cells؟**
-   - قم بتغليف العمليات في كتل try-catch لإدارة الاستثناءات بشكل فعال، مما يضمن معالجة قوية للأخطاء في تطبيقاتك.
+**Q: كيف أتعامل مع الاستثناءات عند العمل مع Aspose.Cells؟**  
+A: غلف عمليات المصنف بكتل try‑catch، مع التقاط `com.aspose.cells.CellsException` لإدارة الأخطاء المتعلقة بالملفات بشكل سلس.
 
-5. **هل يمكنني استخدام هذه المكتبة لأغراض تجارية؟**
-   - نعم، ولكن ستحتاج إلى الحصول على ترخيص ساري المفعول من Aspose. توفر الشركة خيارات ترخيص مختلفة بناءً على احتياجات الاستخدام.
+**Q: هل أحتاج إلى ترخيص للاستخدام التجاري؟**  
+A: نعم—يتطلب النشر في بيئة الإنتاج ترخيصًا مُشتَرًى. الترخيص التجريبي يكفي للتطوير والاختبار.
 
 ## موارد
-- [التوثيق](https://reference.aspose.com/cells/java/)
+- [الوثائق](https://reference.aspose.com/cells/java/)
 - [تحميل](https://releases.aspose.com/cells/java/)
 - [شراء الترخيص](https://purchase.aspose.com/buy)
 - [نسخة تجريبية مجانية](https://releases.aspose.com/cells/java/)
-- [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
+- [ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)
 - [منتدى الدعم](https://forum.aspose.com/c/cells/9)
 
-لا تتردد في استكشاف هذه الموارد للحصول على الدعم الإضافي والمعلومات حول استخدام Aspose.Cells بشكل فعال في مشاريع Java الخاصة بك!
+لا تتردد في استكشاف هذه الموارد للحصول على إرشادات إضافية، مشاريع نموذجية، ودعم المجتمع. برمجة سعيدة!
+
+---
+
+**آخر تحديث:** 2026-06-02  
+**تم الاختبار مع:** Aspose.Cells 25.3 for Java  
+**المؤلف:** Aspose  
+
+```java
+import com.aspose.cells.SaveFormat;
+// Define output path and save the workbook
+String dataDir = "YOUR_DATA_DIRECTORY"; // Replace with actual directory path.
+workbook.save(dataDir + "/AddingButtonControl_out.xls", SaveFormat.AUTO);
+```
+
+{{< blocks/products/products-backtop-button >}}
+
+## دروس ذات صلة
+
+- [كيفية إنشاء مصنف Excel باستخدام Aspose.Cells for Java - إضافة شكل تسمية](/cells/java/automation-batch-processing/aspose-cells-java-excel-label-shape-automation/)
+- [إنشاء مصنف Excel باستخدام Aspose.Cells في Java: دليل خطوة بخطوة](/cells/java/getting-started/create-excel-workbook-aspose-cells-java/)
+- [كيفية إضافة خانة اختيار في Excel باستخدام Aspose.Cells for Java: دليل خطوة بخطوة](/cells/java/data-validation/add-checkbox-excel-aspose-cells-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

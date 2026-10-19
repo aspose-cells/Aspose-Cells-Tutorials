@@ -21,7 +21,7 @@ Używając Aspose.Cells dla .NET, możesz w pełni dostosować tabele przestawne
 
 {{< tutorial-card link="./pivot-table-save-in-ods/" title="Zapisz tabelę przestawną jako ODS w Aspose.Cells" imgSrc="./pivot-table-save-in-ods/images/thumb.png" >}}
 
-{{< tutorial-card link="./how-to-copy-pivot-table-while-preserving-worksheets/" title="Jak skopiować tabelę przestawną zachowując arkusze" imgSrc="./how-to-copy-pivot-table-while-preserving-worksheets/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-copy-pivot-table-in-c-complete-programming-guide/" title="Jak skopiować tabelę przestawną w C# – kompletny przewodnik programistyczny" imgSrc="./how-to-copy-pivot-table-in-c-complete-programming-guide/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

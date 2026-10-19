@@ -29,6 +29,9 @@ Siap untuk memulai? Kunjungi [Mengonfigurasi Tautan ke Properti Dokumen Konten d
 ### [Mengonfigurasi Tautan ke Properti Dokumen Konten di .NET](./configuring-link-to-content-document-property/)
 Pelajari cara menautkan properti dokumen ke konten di Excel menggunakan Aspose.Cells untuk .NET. Tutorial langkah demi langkah untuk pengembang.
 
+### [Buat Instance GridJsOptions – Konfigurasikan Opsi Grid JavaScript](./create-gridjsoptions-instance-configure-grid-options-javascr/)
+Pelajari cara membuat instance GridJsOptions dan mengatur opsi grid menggunakan JavaScript dengan Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

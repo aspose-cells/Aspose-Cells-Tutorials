@@ -34,12 +34,43 @@ Aber warten Sie, es gibt noch mehr! Was ist, wenn Sie Diagramme aus Ihren Excel-
 Konvertieren Sie Excel-Tabellen ganz einfach in PDF mit Aspose.Cells für .NET! Folgen Sie unserer Schritt-für-Schritt-Anleitung für ein nahtloses Erlebnis.
 ### [Konvertieren Sie Diagramme in .NET in PDF](./convert-chart-to-pdf/)
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Excel-Diagramme mit Aspose.Cells in .NET in PDF konvertieren! Perfekt für Programmierer aller Erfahrungsstufen.
+### [Wie man PDF-Optionen in C# festlegt – Excel nach PDF exportieren mit voller Kontrolle](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
+Erfahren Sie, wie Sie mit Aspose.Cells PDF-Optionen in C# konfigurieren, um den Excel-Export nach PDF vollständig zu steuern.
+
 ### [PDF aus Excel in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-pdf-from-excel-in-c-step-by-step-guide/)
 Erstellen Sie PDF-Dateien aus Excel mit C# mithilfe von Aspose.Cells – folgen Sie unserer detaillierten Schritt‑für‑Schritt‑Anleitung.
 ### [Arbeitsmappe nach PDF exportieren – Vollständige C#‑Anleitung](./export-workbook-to-pdf-complete-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells Arbeitsmappen in C# vollständig in PDF exportieren – Schritt für Schritt erklärt.
 ### [Schriftarten einbetten bei der Konvertierung von Excel zu PDF – Komplettanleitung](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
 Erfahren Sie, wie Sie mit Aspose.Cells Schriftarten in PDFs einbetten, um konsistente Darstellung sicherzustellen.
+### [DOCX in PDF konvertieren in C# – Komplettanleitung](./convert-docx-to-pdf-in-c-complete-guide/)
+Erfahren Sie, wie Sie DOCX-Dokumente mit Aspose.Words in C# problemlos in PDF umwandeln – Schritt für Schritt erklärt.
+### [Arbeitsmappe als PDF in C# speichern – Excel nach PDF/A‑3b exportieren](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
+Erfahren Sie, wie Sie mit Aspose.Cells eine Excel-Arbeitsmappe in ein PDF/A‑3b-Dokument in C# exportieren.
+### [Arbeitsmappe als PDF speichern mit Aspose.Cells – Vollständige Schritt‑für‑Schritt‑Anleitung](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
+Erfahren Sie, wie Sie mit Aspose.Cells eine Excel-Arbeitsmappe vollständig und unkompliziert als PDF speichern.
+### [Wie man Schriftarten in PDF einbettet – Arbeitsmappe als PDF in C# speichern](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells Schriftarten in PDFs einbetten und Arbeitsmappen in C# als PDF speichern.
+### [Schriftarten in PDF mit C# einbetten – Komplettanleitung](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells Schriftarten in PDFs einbetten, um konsistente Darstellung auf allen Geräten zu gewährleisten.
+### [Wie man Unicode in Excel einfügt und als PDF speichert](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
+Erfahren Sie, wie Sie Unicode-Zeichen in Excel einfügen und das Dokument anschließend mit Aspose.Cells als PDF speichern.
+### [Wie man Zahlen beim Konvertieren von Excel zu PDF rundet – Vollständige C#-Anleitung](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
+Erfahren Sie, wie Sie Zahlen beim Export von Excel nach PDF mit Aspose.Cells in C# korrekt runden.
+### [Word-Dokument als PDF speichern – Vollständige C#-Anleitung](./save-word-document-as-pdf-complete-c-guide/)
+Erfahren Sie, wie Sie Word-Dokumente mit Aspose.Words in C# problemlos in PDF konvertieren.
+### [Schriftarten einbetten beim Konvertieren von Excel zu PDF – Schritt‑für‑Schritt‑Anleitung](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
+Erfahren Sie, wie Sie Schriftarten in PDFs einbetten, um das Layout Ihrer Excel‑Dateien beizubehalten.
+### [Schriftarten in PDF einbetten – Vollständiger C#-Leitfaden zum Exportieren von Excel nach PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
+Erfahren Sie, wie Sie mit Aspose.Cells Schriftarten in PDFs einbetten, um konsistente Darstellung Ihrer Excel-Exporte sicherzustellen.
+### [Wie man PDF aus Excel exportiert – Komplettanleitung zum Speichern der Arbeitsmappe als PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
+Erfahren Sie, wie Sie mit Aspose.Cells Arbeitsmappen aus Excel vollständig als PDF speichern – Schritt für Schritt erklärt.
+### [XLSX als PDF in C# speichern – Komplettanleitung mit PDF/A‑1b](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)
+Erfahren Sie, wie Sie XLSX-Dateien in C# als PDF/A‑1b speichern – Schritt für Schritt Anleitung für Entwickler.
+### [Excel in PDF konvertieren in C# – vollständiger Programmierleitfaden](./convert-excel-to-pdf-in-c-complete-programming-guide/)
+Erfahren Sie, wie Sie Excel-Dateien mit C# und Aspose.Cells vollständig in PDF konvertieren – Schritt für Schritt Anleitung.
+### [Wie man PDF mit Schriftvariations-Selektoren speichert – vollständige Anleitung](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
+Erfahren Sie, wie Sie PDFs mit Schriftvariations-Selektoren korrekt speichern und die Darstellung von Glyphen optimieren.
 ### [Excel-Arbeitsmappe erstellen und als PDF mit dynamischen Arrays speichern](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
 Erstellen Sie eine Excel‑Arbeitsmappe mit dynamischen Arrays und speichern Sie sie als PDF – Schritt‑für‑Schritt‑Anleitung.
 

@@ -29,6 +29,9 @@ Klaar om te springen? Bezoek onze [Koppeling naar inhoudsdocumenteigenschap conf
 ### [Koppeling naar inhoudsdocumenteigenschap configureren in .NET](./configuring-link-to-content-document-property/)
 Leer hoe u documenteigenschappen koppelt aan inhoud in Excel met Aspose.Cells voor .NET. Stapsgewijze handleiding voor ontwikkelaars.
 
+### [GridJsOptions-instantie maken – Gridopties configureren in JavaScript](./create-gridjsoptions-instance-configure-grid-options-javascr/)
+Leer hoe u een GridJsOptions-object maakt en de gridopties in JavaScript configureert met Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

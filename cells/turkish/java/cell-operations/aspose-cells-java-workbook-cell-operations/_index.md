@@ -13,7 +13,7 @@ url: /tr/java/cell-operations/aspose-cells-java-workbook-cell-operations/
 weight: 1
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
