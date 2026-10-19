@@ -54,6 +54,7 @@
 ### [Microsoft Excel फ़ॉर्मूला वॉच विंडो में सेल जोड़ना](./adding-cells-to-microsoft-excel-formula-watch-window/)
 ### [एक्सेल में प्रोग्रामेटिक रूप से सूत्रों की गणना करना](./calculating-formulas/)
 ### [एक्सेल में प्रोग्रामेटिक रूप से एक बार फ़ार्मुलों की गणना करना](./calculating-formulas-once/)
+इस चरण-दर-स्टेप ट्यूटोरियल में .NET के लिए Aspose.Cells का उपयोग करके प्रोग्रामेटिक रूप से Excel फ़ॉर्मूला की गणना करना सीखें। अपने Excel स्वचालन कौशल को बढ़ाएँ।
 ### [एक्सेल में प्रोग्रामेटिक रूप से सर्कुलर संदर्भ का पता लगाना](./detecting-circular-reference/)
 ### [एक्सेल प्रोग्रामेटिक रूप से प्रत्यक्ष गणना सूत्र](./direct-calculation-formula/)
 ### [कार्यपुस्तिका की सूत्र गणना को बाधित या रद्द करें](./interrupt-or-cancel-formula-calculation-of-workbook/)
@@ -84,6 +85,8 @@ C# और Aspose.Cells का उपयोग करके Excel में ए�
 Aspose.Cells for .NET में WRAPCOLS फ़ंक्शन का उपयोग करके C# के साथ एक्सेल ऑटोमेशन को पूरी तरह समझें।
 ### [C# के साथ Excel में फ़ॉर्मूला गणना को बाध्य करना और लैम्ब्डा का उपयोग करना](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
 C# का उपयोग करके Excel में फ़ॉर्मूला की गणना को मजबूर करने और लैम्ब्डा फ़ंक्शन लागू करने का तरीका सीखें।
+### [फ़ॉर्मूले के साथ Excel वर्कबुक बनाना – पूर्ण चरण‑दर‑चरण गाइड](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+इस विस्तृत गाइड में .NET के लिए Aspose.Cells का उपयोग करके फ़ॉर्मूले सहित Excel वर्कबुक बनाने के सभी चरण सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

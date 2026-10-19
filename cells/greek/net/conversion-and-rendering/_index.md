@@ -84,6 +84,8 @@
 Μάθετε πώς να εξάγετε και να αποθηκεύετε εικόνες PNG από Pivot Table του Excel χρησιμοποιώντας C# και Aspose.Cells.
 ### [Ενσωμάτωση γραμματοσειρών σε HTML – Πλήρης Οδηγός για τη Μετατροπή DOCX σε HTML με Πλήρη Υποστήριξη Γραμματοσειρών](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
 Μάθετε πώς να ενσωματώσετε γραμματοσειρές κατά τη μετατροπή αρχείων DOCX σε HTML, εξασφαλίζοντας σωστή εμφάνιση του κειμένου.
+### [Πώς να Ενσωματώσετε Γραμματοσειρές σε HTML από DOCX – Πλήρης Οδηγός](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Μάθετε πώς να ενσωματώσετε γραμματοσειρές σε αρχεία HTML από DOCX χρησιμοποιώντας το Aspose.Words για .NET, βήμα-βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

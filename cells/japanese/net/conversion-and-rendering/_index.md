@@ -77,6 +77,8 @@ Aspose.Cells を使用して、Excel に特殊文字を簡単に挿入する手�
 Aspose.Cells for .NET を使用して、Excel のピボットテーブルから PNG 画像を抽出し保存する方法をステップバイステップで解説します。
 ### [HTML にフォントを埋め込む – フルフォントサポートで DOCX を HTML に変換する完全ガイド](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
 Aspose.Cells for .NET を使用して、DOCX を HTML に変換し、フォントを埋め込む方法をステップバイステップで解説します。
+### [DOCX から HTML へフォントを埋め込む方法 – 完全ガイド](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Aspose.Words を使用して DOCX ファイルから HTML にフォントを埋め込み、正確な表示を実現する完全ガイドです。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

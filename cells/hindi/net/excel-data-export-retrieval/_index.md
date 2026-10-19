@@ -54,6 +54,9 @@
 ### [सेल रेंज को टेबल के रूप में निर्यात करें – पूर्ण C# गाइड](./how-to-export-cell-range-as-table-complete-c-guide/)
 Aspose.Cells का उपयोग करके सेल रेंज को टेबल के रूप में निर्यात करने की पूरी C# गाइड, चरण-दर-चरण निर्देश।
 
+### [Excel तालिका निर्यात कैसे करें – पूर्ण चरण‑दर‑चरण गाइड](./how-to-export-excel-table-complete-step-by-step-guide/)
+इस विस्तृत गाइड में Aspose.Cells का उपयोग करके .NET में Excel तालिका को निर्यात करने के सभी चरण सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

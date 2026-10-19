@@ -91,7 +91,6 @@ Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells mit diesem Schritt‑fü
 Erfahren Sie, wie Sie die Option für verschachtelte Bereiche aktivieren, um komplexe Datenhierarchien in Smart Markers zu verarbeiten.
 
 ### [Implementieren Sie ein Variablenarray mit intelligenten Markierungen Aspose.Cells](./variable-array-smart-markers/)
-Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells. Erfahren Sie Schritt für Schritt, wie Sie variable Arrays mit Smart Markers für die nahtlose Erstellung von Excel‑Berichten implementieren.
 ### [Excel programmgesteuert mit Aspose.Cells Smart Markers erstellen](./create-excel-programmatically-using-aspose-cells-smart-marke/)
 Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers Excel‑Dateien programmgesteuert erstellen und Daten dynamisch einfügen.
 
@@ -234,6 +233,12 @@ Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers Excel‑Dateien aus Modelle
 ### [JSON nach Excel in C# importieren – Schritt‑für‑Schritt‑Anleitung](./import-json-to-excel-in-c-step-by-step-guide/)
 ### [Wie man eine Excel-Berichtsliste mit Aspose.Cells Smart Markers erstellt](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
 Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers eine Liste von Excel-Berichten automatisch generieren.
+### [Master-Detail-Arbeitsmappe mit Aspose.Cells Smart Marker erstellen](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers eine Master‑Detail‑Arbeitsmappe erstellen, um hierarchische Daten automatisch zu füllen.
+### [Master‑Detail‑Excel‑Leitfaden – Vorlagen mit Smart Markers füllen](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+Erfahren Sie, wie Sie mit Smart Markers Vorlagen automatisch befüllen und Master‑Detail‑Berichte in Excel erstellen.
+### [Wie man Arbeitsblätter wiederholt – Komplettanleitung für Excel-Automatisierung](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+Erfahren Sie, wie Sie Arbeitsblätter in Excel automatisch duplizieren und wiederholen, um Berichte effizient zu automatisieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -95,6 +95,8 @@ Learn how to convert Excel worksheets to PNG images using C# and Aspose.Cells in
 Learn how to export Excel worksheets to TXT files using C# and Aspose.Cells in this step-by-step guide.
 ### [Export Excel to PowerPoint with Aspose.Cells – complete programming guide](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
 Learn how to export Excel data to PowerPoint presentations using Aspose.Cells in a comprehensive step-by-step guide.
+### [How to Export Excel to PowerPoint – Complete Guide](./how-to-export-excel-to-powerpoint-complete-guide/)
+Learn how to export Excel data to PowerPoint presentations using Aspose.Cells for .NET in this comprehensive step-by-step guide.
 ### [Specifying HTML CrossType in Output HTML Programmatically in .NET](./specifying-html-crosstype-in-output-html/)
 Learn how to specify HTML CrossType in Aspose.Cells for .NET. Follow our step-by-step tutorial to convert Excel files to HTML with precision.
 ### [Reading Numbers Spreadsheet Programmatically in .NET](./reading-numbers-spreadsheet/)

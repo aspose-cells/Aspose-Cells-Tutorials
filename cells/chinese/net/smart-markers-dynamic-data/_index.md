@@ -159,6 +159,12 @@ Aspose.Cells 智能标记器还支持匿名类型，无需预定义结构即可�
 ### [在 C# 中加载 Excel 模板 – 快速生成多个工作表](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
 ### [在 Aspose.Cells 中使用范围智能标记处理嵌套数据 – 完整指南](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
 ### [在 C# 中将 JSON 导入 Excel – 步骤指南](./import-json-to-excel-in-c-step-by-step-guide/)
+### [使用 Aspose.Cells 智能标记创建主从工作簿](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+学习使用智能标记在 Excel 中生成主从工作簿，实现主表与明细表的自动关联和数据填充。
+### [使用智能标记的主从 Excel 指南 – 填充模板](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+本教程演示如何使用 Aspose.Cells 智能标记在 Excel 中创建主从结构，并将数据填充到模板，实现自动化报表生成。
+### [如何重复工作表 – Excel 自动化完整指南](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+学习使用 Aspose.Cells for .NET 在 Excel 中重复工作表，实现批量报表生成和自动化处理。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

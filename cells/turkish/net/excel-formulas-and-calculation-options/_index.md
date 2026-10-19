@@ -96,6 +96,8 @@ Aspose.Cells for .NET ile Excel'de WRAPCOLS işlevini C# örneğiyle nasıl kull
 Aspose.Cells for .NET ile WRAPCOLS işlevini kullanarak C# Excel otomasyonunda veri sarmalama tekniklerini öğrenin.
 ### [C# ile Excel'de Formül Hesaplamasını Zorlamak ve Lambda Kullanmak](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
 C# ile Aspose.Cells kullanarak formül hesaplamasını zorlamak ve lambda ifadelerini uygulamayı öğrenin.
+### [Formüllerle Excel Çalışma Kitabı Oluşturma – Tam Adım‑Adım Kılavuz](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak formüller içeren bir Excel çalışma kitabını baştan sona nasıl oluşturacağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

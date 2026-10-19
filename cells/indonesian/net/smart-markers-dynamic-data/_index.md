@@ -84,7 +84,6 @@ Sajátítsa el az Aspose.Cells for .NET-et általános listákkal és intelligen
 ### [HTML tulajdonságok használata intelligens jelölőkben Aspose.Cells .NET](./html-property-smart-markers/)
 Engedd szabadjára az Aspose.Cells erejét ezzel a lépésről lépésre haladó oktatóanyaggal, amely bemutatja a HTML tulajdonság használatát az intelligens jelölőkben .NET alkalmazásokhoz.
 ### [Beágyazott objektumok kezelése intelligens jelölőkkel Aspose.Cells](./nested-objects-smart-markers/)
-Az Aspose.Cells segítségével lépésről lépésre haladva könnyedén kezelheted a beágyazott objektumokat intelligens jelölők segítségével, így az Excel-jelentéskészítésben rejlő lehetőségeket is kihasználhatod.
 ### [Range smart marker untuk memproses data bersarang di C# – Panduan Lengkap](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
 Pelajari cara menggunakan range smart marker untuk memproses data bersarang di C# dengan panduan lengkap.
 ### [Változó tömb implementálása intelligens jelölőkkel Aspose.Cells](./variable-array-smart-markers/)
@@ -184,6 +183,10 @@ Pelajari langkah demi langkah cara mengevaluasi formula menggunakan Smart Marker
 ### [Impor JSON ke Excel di C# – panduan langkah demi langkah](./import-json-to-excel-in-c-step-by-step-guide/)
 Pelajari cara mengimpor data JSON ke file Excel menggunakan C# dengan Aspose.Cells dalam panduan langkah demi langkah.
 ### [Cara membuat daftar laporan Excel dengan Smart Markers Aspose.Cells](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+### [Buat Workbook Master Detail dengan Aspose.Cells Smart Marker](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+### [Panduan master detail Excel – mengisi templat dengan Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+### [Cara Mengulang Lembar Kerja – Panduan Lengkap untuk Otomatisasi Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+Pelajari cara mengulang lembar kerja secara otomatis di Excel menggunakan Aspose.Cells untuk meningkatkan efisiensi laporan.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

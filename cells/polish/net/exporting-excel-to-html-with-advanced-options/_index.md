@@ -101,6 +101,8 @@ Dowiedz się, jak używać Aspose.Cells dla .NET do programowego ustawiania skal
 Łatwe ustawianie nazwy pojedynczej karty arkusza podczas eksportu HTML przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku z dołączonymi przykładami kodu.
 ### [Zapisz Excel jako HTML – Kompletny przewodnik po eksporcie Excela z formatowaniem](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
 Dowiedz się, jak zapisać plik Excel jako HTML, zachowując pełne formatowanie, przy użyciu Aspose.Cells dla .NET w tym szczegółowym przewodniku.
+### [Eksportowanie Excela do HTML – Kompletny przewodnik po zachowywaniu zamrożonych obszarów](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
+Dowiedz się, jak zachować zamrożone wiersze i kolumny przy eksporcie Excela do HTML przy użyciu Aspose.Cells dla .NET w tym kompletnym przewodniku krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

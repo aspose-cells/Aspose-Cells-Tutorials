@@ -173,6 +173,11 @@ Dowiedz się, jak używać zakresowych znaczników inteligentnych w Aspose.Cells
 Dowiedz się, jak w prosty sposób zaimportować dane JSON do pliku Excel przy użyciu Aspose.Cells w C#.
 ### [Jak utworzyć listę raportów Excel przy użyciu inteligentnych znaczników Aspose.Cells](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
 Dowiedz się, jak generować listy raportów Excel przy użyciu inteligentnych znaczników Aspose.Cells w .NET.
+### [Utwórz skoroszyt Master Detail z użyciem Aspose.Cells Smart Marker](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+Dowiedz się, jak przy pomocy Smart Markers w Aspose.Cells stworzyć skoroszyt Master‑Detail, łączący dane nadrzędne i szczegółowe w Excelu.
+### [Przewodnik Master‑Detail w Excelu – wypełnianie szablonów za pomocą Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+Dowiedz się, jak używać Smart Markers do wypełniania szablonów Excel danymi w scenariuszu Master‑Detail.
+### [Jak powielać arkusze – Kompletny przewodnik po automatyzacji Excela](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

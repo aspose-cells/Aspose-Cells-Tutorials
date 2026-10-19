@@ -77,6 +77,8 @@ Poznaj, jak wstawić różne znaki specjalne w Excelu przy użyciu Aspose.Cells 
 Dowiedz się, jak wyeksportować obraz PNG z tabeli przestawnej Excel przy użyciu Aspose.Cells w C#.
 ### [Osadzanie czcionek w HTML – Kompletny przewodnik konwersji DOCX do HTML z pełnym wsparciem czcionek](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
 Dowiedz się, jak osadzić czcionki przy konwersji dokumentów DOCX do HTML, aby uzyskać pełne wsparcie typograficzne.
+### [Jak osadzić czcionki w HTML z DOCX – Kompletny przewodnik](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Dowiedz się, jak w prosty sposób osadzić czcionki z dokumentu DOCX w HTML, aby zachować ich wygląd we wszystkich przeglądarkach.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

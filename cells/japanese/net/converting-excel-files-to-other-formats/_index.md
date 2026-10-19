@@ -64,6 +64,8 @@ Aspose.Cells for .NET を使用して、Excel データを PowerPoint スライ�
 ### [.NET でプログラム的に Excel を PowerPoint に変換し、印刷範囲を設定する](./convert-excel-to-powerpoint-and-set-print-area/)
 ### [Aspose.Cells を使用した Excel から PowerPoint へのエクスポート – 完全プログラミングガイド](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
 Aspose.Cells を利用して .NET で Excel を PowerPoint (PPTX) に変換する完全な手順とコード例を紹介します。
+### [Excel を PowerPoint にエクスポートする完全ガイド](./how-to-export-excel-to-powerpoint-complete-guide/)
+Aspose.Cellsを使用して、ExcelファイルをPowerPointプレゼンテーションに変換する方法を学びます。ステップバイステップのコード例付きガイドです。
 ### [.NET でプログラム的に出力 HTML に HTML CrossType を指定する](./specifying-html-crosstype-in-output-html/)
 Aspose.Cells for .NETでHTML CrossTypeを指定する方法を学びましょう。ステップバイステップのチュートリアルに従って、ExcelファイルをHTMLに正確に変換しましょう。
 ### [.NET でプログラム的に数値スプレッドシートを読み取る](./reading-numbers-spreadsheet/)

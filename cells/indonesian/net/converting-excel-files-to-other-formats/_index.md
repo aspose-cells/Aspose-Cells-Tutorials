@@ -105,6 +105,8 @@ Pelajari cara melacak kemajuan konversi TIFF secara terprogram menggunakan Aspos
 Pelajari cara mengekspor file Excel ke format TXT menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah yang lengkap.
 ### [Ekspor Excel ke PowerPoint dengan Aspose.Cells – panduan pemrograman lengkap](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
 Pelajari cara mengekspor file Excel ke presentasi PowerPoint secara terprogram menggunakan Aspose.Cells dalam panduan lengkap ini.
+### [Cara Mengekspor Excel ke PowerPoint – Panduan Lengkap](./how-to-export-excel-to-powerpoint-complete-guide/)
+Pelajari cara mengekspor file Excel ke presentasi PowerPoint secara terprogram menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

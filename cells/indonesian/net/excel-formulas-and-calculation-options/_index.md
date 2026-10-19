@@ -99,6 +99,8 @@ Pelajari cara membuat workbook Excel dan membagi data menggunakan fungsi WRAPCOL
 Pelajari cara menerapkan rumus array di Excel menggunakan C# dengan Aspose.Cells dalam panduan lengkap ini.
 ### [Cara Menggunakan WRAPCOLS – Panduan Lengkap untuk Otomasi Excel C#](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
 Pelajari cara menggunakan fungsi WRAPCOLS dalam Aspose.Cells untuk .NET dengan contoh lengkap otomatisasi Excel menggunakan C#.
+### [Buat Workbook Excel dengan Rumus – Panduan Lengkap Langkah-demi-Langkah](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+Panduan lengkap untuk membuat workbook Excel dengan rumus menggunakan Aspose.Cells for .NET, langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -69,6 +69,8 @@
 Μάθετε πώς να αποθηκεύετε αρχεία XLSX ως PDF με υποστήριξη PDF/A‑1b χρησιμοποιώντας Aspose.Cells σε C#.
 ### [Μετατροπή Excel σε PDF σε C# – πλήρης προγραμματιστικός οδηγός](./convert-excel-to-pdf-in-c-complete-programming-guide/)
 Αναλυτικός οδηγός για τη μετατροπή αρχείων Excel σε PDF χρησιμοποιώντας C# και Aspose.Cells.
+### [πώς να αποθηκεύσετε PDF με επιλογείς παραλλαγής γραμματοσειράς – πλήρης οδηγός](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
+Μάθετε πώς να αποθηκεύσετε PDF διατηρώντας επιλογείς παραλλαγής γραμματοσειράς με αυτόν τον πλήρη οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

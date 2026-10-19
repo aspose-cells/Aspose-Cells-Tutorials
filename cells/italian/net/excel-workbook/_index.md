@@ -119,6 +119,7 @@ Perché non cogliere l'occasione per migliorare le tue competenze in Excel? Ogni
 | [Crea nuova cartella di lavoro – Converti Markdown in Excel con C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Scopri come creare una cartella di lavoro Excel a partire da un file Markdown usando Aspose.Cells per .NET con C#. |
 | [Come creare una cartella di lavoro in C# – Scrivere valore e formattare numero](./how-to-create-workbook-in-c-write-value-format-number/) | Scopri come creare una cartella di lavoro, inserire valori e formattare numeri in C# con Aspose.Cells per .NET. |
 | [Crea cartella di lavoro Excel con Aspose.Cells – Guida completa](./create-excel-workbook-with-aspose-cells-full-guide/) | Scopri come creare una cartella di lavoro Excel passo passo con Aspose.Cells per .NET in questa guida completa. |
+| [Crea cartella di lavoro Excel e scrivi dati in C# – Guida completa passo‑a‑passo](./create-excel-workbook-and-write-data-in-c-full-step-by-step/) | Scopri come creare una cartella di lavoro Excel e scrivere dati in C# con questa guida completa passo dopo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

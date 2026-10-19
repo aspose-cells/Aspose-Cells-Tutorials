@@ -77,6 +77,8 @@ Tìm hiểu cách chèn các ký tự đặc biệt vào bảng tính Excel bằ
 Hướng dẫn chi tiết cách lưu hình ảnh PNG từ Pivot Table trong Excel bằng C# sử dụng Aspose.Cells.
 ### [Nhúng phông chữ trong HTML – Hướng dẫn đầy đủ chuyển đổi DOCX sang HTML với hỗ trợ phông chữ đầy đủ](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
 Hướng dẫn chi tiết cách nhúng phông chữ khi chuyển đổi tài liệu DOCX sang HTML, đảm bảo hiển thị đúng định dạng trên mọi trình duyệt.
+### [Cách Nhúng Phông Chữ vào HTML từ DOCX – Hướng Dẫn Đầy Đủ](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Hướng dẫn chi tiết cách nhúng phông chữ từ tài liệu DOCX vào trang HTML để bảo đảm hiển thị đúng trên mọi trình duyệt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

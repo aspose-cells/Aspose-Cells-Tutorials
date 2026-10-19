@@ -105,6 +105,8 @@ Aspose.Cells for .NET을 사용하여 Excel에서 WRAPCOLS 함수를 활용하�
 Aspose.Cells for .NET을 사용하여 WRAPCOLS 기능을 활용하는 방법을 단계별로 안내합니다.
 ### [C#를 사용하여 Excel에서 수식 강제 계산 및 람다 사용 방법](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
 Aspose.Cells for .NET을 사용하여 C#로 Excel 수식을 강제로 계산하고 람다 함수를 활용하는 방법을 단계별로 안내합니다.
+### [수식이 포함된 Excel 워크북 만들기 – 전체 단계별 가이드](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+Aspose.Cells for .NET을 사용하여 수식이 포함된 Excel 워크북을 처음부터 완전하게 만드는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

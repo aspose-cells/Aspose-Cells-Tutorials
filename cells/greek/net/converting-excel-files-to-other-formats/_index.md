@@ -47,7 +47,7 @@
 ### [Μετατροπή αρχείου Excel σε HTML με Tooltip σε .NET](./converting-excel-file-to-html-with-tooltip/)
 Μετατρέψτε το Excel σε HTML με tooltips χρησιμοποιώντας το Aspose.Cells για .NET σε λίγα απλά βήματα. Βελτιώστε τις εφαρμογές ιστού σας με διαδραστικά δεδομένα Excel χωρίς κόπο.
 ### [Μετατροπή αρχείου Excel σε Markdown μέσω προγραμματισμού σε .NET](./converting-excel-file-to-markdown/)
-Μάθετε πώς να μετατρέπετε αρχεία Excel σε μορφή Markdown χρησιμοποιώντας το Aspose.Cells για .NET σε αυτόν τον λεπτομερή οδηγό βήμα προς βήμα. Αυξήστε την παραγωγικότητα με εύκολη μετατροπή αρχείων.
+Μάθετε πώς να μετατρέψετε αρχεία Excel σε μορφή Markdown χρησιμοποιώντας το Aspose.Cells για .NET σε αυτόν τον λεπτομερή οδηγό βήμα προς βήμα. Αυξήστε την παραγωγικότητα με εύκολη μετατροπή αρχείων.
 ### [Μετατροπή αρχείου Excel σε PDF (A-1a) μέσω προγραμματισμού σε .NET](./converting-excel-file-to-pdf-a-1a/)
 Μάθετε πώς να μετατρέπετε αρχεία Excel σε PDF/A-1a για αρχειοθετικούς σκοπούς χρησιμοποιώντας το Aspose.Cells για .NET. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα που περιλαμβάνονται.
 ### [Μετατροπή JSON σε CSV μέσω προγραμματισμού σε .NET](./converting-json-to-csv/)
@@ -62,6 +62,8 @@
 Μάθετε πώς να μετατρέψετε αρχεία Excel σε παρουσιάσεις PowerPoint (PPTX) με C# και Aspose.Cells σε έναν πλήρη οδηγό βήμα προς βήμα.
 ### [Πώς να Εξάγετε το Excel σε PowerPoint – Πλήρης Οδηγός C#](./how-to-export-excel-to-powerpoint-complete-c-guide/)
 Μάθετε πώς να μετατρέψετε ένα φύλλο Excel σε παρουσίαση PowerPoint χρησιμοποιώντας C# και Aspose.Cells σε βήμα-βήμα οδηγό.
+### [Πώς να εξάγετε το Excel σε PowerPoint – Πλήρης οδηγός](./how-to-export-excel-to-powerpoint-complete-guide/)
+Μάθετε πώς να μετατρέψετε ένα αρχείο Excel σε παρουσίαση PowerPoint χρησιμοποιώντας το Aspose.Cells για .NET, βήμα‑βήμα με παραδείγματα κώδικα.
 ### [Καθορισμός HTML CrossType σε HTML εξόδου μέσω προγραμματισμού στο .NET](./specifying-html-crosstype-in-output-html/)
 Μάθετε πώς να καθορίζετε HTML CrossType στο Aspose.Cells για .NET. Ακολουθήστε τον αναλυτικό οδηγό μας για να μετατρέψετε αρχεία Excel σε HTML με ακρίβεια.
 ### [Ανάγνωση υπολογιστικού φύλλου αριθμών μέσω προγραμματισμού σε .NET](./reading-numbers-spreadsheet/)

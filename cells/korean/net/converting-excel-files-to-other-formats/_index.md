@@ -128,6 +128,8 @@ Aspose.Cells for .NET을 사용하여 Excel을 탭 구분 텍스트 파일로 �
 ### [.NET에서 Excel 파일을 PowerPoint로 변환 – 단계별 C# 가이드](./convert-excel-to-powerpoint-step-by-step-c-guide/)
 ### [.NET에서 Excel 파일을 PowerPoint로 내보내기 – 전체 프로그래밍 가이드](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
 Aspose.Cells for .NET을 사용해 Excel 데이터를 PowerPoint 프레젠테이션으로 변환하는 전체 단계별 가이드를 제공합니다.
+### [Excel을 PowerPoint로 내보내는 방법 – 완전 가이드](./how-to-export-excel-to-powerpoint-complete-guide/)
+Aspose.Cells for .NET을 사용하여 Excel 데이터를 PowerPoint 프레젠테이션으로 변환하는 전체 단계별 가이드입니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

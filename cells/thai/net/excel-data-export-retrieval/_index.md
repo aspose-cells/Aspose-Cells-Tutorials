@@ -53,6 +53,8 @@
 เรียนรู้วิธีส่งออกช่วงเซลล์เป็นตารางด้วย Aspose.Cells สำหรับ .NET ในบทช่วยสอนขั้นตอนเต็มที่ เหมาะสำหรับผู้เริ่มต้นและนักพัฒนาที่มีประสบการณ์
 ### [สร้างแผ่น Excel จาก DataTable ใน C# – คู่มือทีละขั้นตอน](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
 เรียนรู้วิธีสร้างไฟล์ Excel จาก DataTable ด้วย C# อย่างละเอียดในบทช่วยสอนขั้นตอนต่อขั้นตอน
+### [วิธีส่งออกตาราง Excel – คู่มือขั้นตอนเต็มรูปแบบ](./how-to-export-excel-table-complete-step-by-step-guide/)
+เรียนรู้วิธีส่งออกตาราง Excel อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET ผ่านขั้นตอนที่ชัดเจนและครบถ้วน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

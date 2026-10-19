@@ -178,6 +178,10 @@ C# मॉडल से डेटा का उपयोग करके Aspose.C
 C# में Excel टेम्पलेट लोड करके कई शीट्स को तेज़ी से जेनरेट करने की प्रक्रिया सीखें।
 ### [C# में नेस्टेड डेटा प्रोसेस करने के लिए रेंज स्मार्ट मार्कर – पूर्ण गाइड](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
 रेंज स्मार्ट मार्कर का उपयोग करके C# में नेस्टेड डेटा को प्रभावी ढंग से प्रोसेस करने की पूरी प्रक्रिया सीखें।
+### [Aspose.Cells स्मार्ट मार्कर के साथ मास्टर‑डिटेल वर्कबुक बनाएं](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+Aspose.Cells स्मार्ट मार्कर का उपयोग करके मास्टर‑डिटेल वर्कबुक बनाना सीखें, जिससे जटिल डेटा संबंध आसानी से प्रबंधित हों।
+### [मास्टर‑डिटेल एक्सेल गाइड – स्मार्ट मार्कर्स के साथ टेम्प्लेट्स भरें](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+### [वर्कशीट्स को दोहराने का तरीका – एक्सेल ऑटोमेशन के लिए पूर्ण गाइड](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

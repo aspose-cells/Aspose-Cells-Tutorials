@@ -134,4 +134,8 @@ Scopri come generare un documento Word da un file Excel in pochi passaggi con C#
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/products-backtop-button >}}### [Conversione di file Excel in Markdown tramite programmazione in .NET](./converting-excel-file-to-markdown/)
+Scopri come convertire i file Excel in formato Markdown utilizzando Aspose.Cells per .NET in questa guida dettagliata e passo dopo passo. Aumenta la produttività con una facile conversione dei file.
+### [Come esportare Excel in PowerPoint – Guida completa](./how-to-export-excel-to-powerpoint-complete-guide/)
+Scopri come esportare i fogli Excel in presentazioni PowerPoint con Aspose.Cells per .NET, passo passo e con esempi di codice.
+

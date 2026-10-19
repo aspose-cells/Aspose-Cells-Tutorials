@@ -79,6 +79,8 @@
 เรียนรู้วิธีบันทึกรูปภาพ PNG จาก Pivot Table ของ Excel ด้วย C# อย่างละเอียดและง่ายต่อการทำตาม
 ### [ฝังฟอนต์ใน HTML – คู่มือครบถ้วนในการแปลง DOCX เป็น HTML พร้อมการสนับสนุนฟอนต์เต็ม](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
 เรียนรู้วิธีฝังฟอนต์ทั้งหมดเมื่อแปลงไฟล์ DOCX เป็น HTML ด้วย Aspose.Words เพื่อให้ผลลัพธ์แสดงฟอนต์อย่างถูกต้อง
+### [วิธีฝังฟอนต์ใน HTML จาก DOCX – คู่มือฉบับสมบูรณ์](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+เรียนรู้วิธีฝังฟอนต์จากไฟล์ DOCX ลงใน HTML อย่างละเอียดด้วย Aspose.Words สำหรับ .NET เพื่อให้การแสดงผลตรงตามต้นฉบับ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

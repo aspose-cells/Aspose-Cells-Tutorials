@@ -69,6 +69,8 @@
 通过本完整指南，学习在 C# 中使用 Aspose.Cells 将 XLSX 文件转换为 PDF，并生成符合 PDF/A‑1b 标准的文档。
 ### [在 C# 中将 Excel 转换为 PDF – 完整编程指南](./convert-excel-to-pdf-in-c-complete-programming-guide/)
 使用 Aspose.Cells for .NET 的完整指南，帮助您在 C# 中将 Excel 文件高效转换为 PDF。
+### [使用字体变体选择器保存 PDF – 完整指南](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
+了解如何在保存 PDF 时正确处理字体变体选择器，确保文档显示完整且兼容各种设备。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

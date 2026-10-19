@@ -82,6 +82,8 @@ Aspose.Cells для .NET упрощает преобразование доку�
 Узнайте, как программно сохранить книгу Excel в текстовый файл, используя Aspose.Cells, следуя пошаговому руководству.
 ### [Как экспортировать Excel в PowerPoint с C# – Полное руководство](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
 Узнайте, как программно экспортировать файлы Excel в презентацию PowerPoint с помощью Aspose.Cells для .NET, следуя пошаговому руководству.
+### [Как экспортировать Excel в PowerPoint – Полное руководство](./how-to-export-excel-to-powerpoint-complete-guide/)
+Полное руководство по экспорту файлов Excel в презентации PowerPoint с помощью Aspose.Cells для .NET.
 ### [Указание HTML CrossType в выходном HTML программным способом в .NET](./specifying-html-crosstype-in-output-html/)
 Узнайте, как указать HTML CrossType в Aspose.Cells для .NET. Следуйте нашему пошаговому руководству, чтобы преобразовать файлы Excel в HTML с точностью.
 ### [Чтение числовых таблиц программным способом в .NET](./reading-numbers-spreadsheet/)

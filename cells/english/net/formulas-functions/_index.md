@@ -102,6 +102,9 @@ Learn how to implement shared formulas in Excel using Aspose.Cells for .NET. Thi
 ### [Mastering Array Formulas in .NET with Aspose.Cells&#58; A Comprehensive Guide](./mastering-aspose-cells-net-array-formulas)
 Learn how to master array formulas using Aspose.Cells for .NET. This guide covers setup, implementation, and real-world applications of powerful multi-cell calculations.
 
+### [Write array formula in C# – Complete Programming Guide](./write-array-formula-in-c-complete-programming-guide/)
+Learn how to write and apply array formulas in Excel using Aspose.Cells for .NET with a complete C# programming guide.
+
 ### [How to Set Language in Excel Files Using Aspose.Cells .NET for Multilingual Support](./specify-language-excel-aspose-cells-net)
 Learn how to specify the language of your Excel files using Aspose.Cells .NET. Enhance document accessibility and compliance with this step-by-step guide for internationalizing formula settings.
 
@@ -174,6 +177,8 @@ For robust formula implementation:
 By mastering these formula capabilities with Aspose.Cells for .NET, you can create sophisticated calculation engines in your spreadsheets that deliver accurate, dynamic results without requiring Excel installation.
 ### [Create Excel Workbook with EXPAND Formula – Complete Guide](./create-excel-workbook-with-expand-formula-complete-guide/)
 Learn how to generate Excel workbooks using the new EXPAND function with Aspose.Cells for .NET, covering syntax, usage, and performance tips.
+### [How to Use SEQUENCE in C# – Create Excel Workbook](./how-to-use-sequence-in-c-create-excel-workbook/)
+Learn how to generate dynamic sequences in Excel using the SEQUENCE function with Aspose.Cells for .NET in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

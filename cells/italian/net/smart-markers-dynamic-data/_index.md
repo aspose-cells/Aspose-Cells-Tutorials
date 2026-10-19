@@ -156,6 +156,9 @@ Scopri come cariarе un modello Excel in C# e generare rapidamente più fogli di
 ### [Smart marker di intervallo per elaborare dati annidati in C# – Guida completa](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
 ### [Importa JSON in Excel con C# – guida passo‑passo](./import-json-to-excel-in-c-step-by-step-guide/)
 Importa dati JSON in un foglio Excel usando C# con Aspose.Cells, seguendo una guida dettagliata passo‑passo.
+### [Crea cartella di lavoro master-detail con Aspose.Cells Smart Marker](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+### [Guida master-detail Excel – popola i modelli con Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+### [Come ripetere i fogli di lavoro – Guida completa per l'automazione di Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

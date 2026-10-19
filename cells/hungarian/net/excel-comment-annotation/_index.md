@@ -64,6 +64,8 @@ Ismerje meg, hogyan adhat hozzá megjegyzést cellához az Aspose.Cells Smart Ma
 Tanuld meg, hogyan adhatsz megjegyzést egy cellához C#-ban, és generálj Excel-fájlt adatokból az Aspose.Cells for .NET segítségével.
 ### [Excel megjegyzés beszúrása C#-ban – Teljes SmartMarker útmutató](./insert-excel-comment-with-c-complete-smartmarker-guide/)
 Fedezze fel, hogyan szúrhat be Excel megjegyzéseket C#-ban a SmartMarker segítségével az Aspose.Cells for .NET használatával.
+### [Megjegyzés beszúrása Excelben az Aspose.Cells használatával](./how-to-insert-comment-in-excel-using-aspose-cells/)
+Tanuld meg, hogyan szúrj be megjegyzést Excelben az Aspose.Cells for .NET segítségével, lépésről lépésre útmutató.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

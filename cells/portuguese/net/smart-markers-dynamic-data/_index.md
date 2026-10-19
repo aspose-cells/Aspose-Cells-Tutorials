@@ -185,6 +185,12 @@ Aprenda a carregar um modelo Excel em C# e gerar várias planilhas de forma ráp
 Aprenda a usar marcadores de intervalo para processar dados aninhados em C# passo a passo neste guia completo.
 ### [Importar JSON para Excel em C# – guia passo a passo](./import-json-to-excel-in-c-step-by-step-guide/)
 Aprenda a importar arquivos JSON para planilhas Excel usando C# com Aspose.Cells, passo a passo, de forma simples e eficiente.
+### [Criar Pasta de Trabalho Mestre‑Detalhe com Marcador Inteligente Aspose.Cells](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+Aprenda a gerar uma pasta de trabalho mestre‑detalhe usando Marcadores Inteligentes no Aspose.Cells para .NET.
+### [Guia mestre‑detalhe Excel – preencher modelos com Marcadores Inteligentes](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+Aprenda a gerar relatórios mestre‑detalhe preenchendo modelos de Excel usando Marcadores Inteligentes no Aspose.Cells para .NET.
+### [Como Repetir Planilhas – Guia Completo para Automação do Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+Aprenda a duplicar planilhas automaticamente usando Aspose.Cells, otimizando a criação de relatórios e economizando tempo no Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

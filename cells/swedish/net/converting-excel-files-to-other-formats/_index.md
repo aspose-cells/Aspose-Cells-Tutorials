@@ -69,6 +69,8 @@ Lär dig hur du exporterar Excel-data till tab‑avgränsad text med Aspose.Cell
 Lär dig hur du exporterar en Excel-arbetsbok till en PowerPoint-presentation med Aspose.Cells i .NET med steg‑för‑steg‑kodexempel.
 ### [Skapa PowerPoint från Excel – Steg‑för‑steg‑guide](./create-powerpoint-from-excel-step-by-step-guide/)
 Lär dig hur du skapar en PowerPoint-presentation från en Excel-arbetsbok steg för steg med Aspose.Cells för .NET.
+### [Exportera Excel till PowerPoint – Komplett guide](./how-to-export-excel-to-powerpoint-complete-guide/)
+Lär dig steg-för-steg hur du exporterar Excel-data till PowerPoint-presentationer med Aspose.Cells för .NET.
 ### [Ange HTML CrossType i utdata-HTML programmatiskt i .NET](./specifying-html-crosstype-in-output-html/)
 Lär dig hur du anger HTML CrossType i Aspose.Cells för .NET. Följ vår steg‑för‑steg‑handledning för att konvertera Excel-filer till HTML med precision.
 ### [Läsa siffror programmatiskt i .NET](./reading-numbers-spreadsheet/)

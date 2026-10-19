@@ -81,6 +81,8 @@ Learn how to insert special characters in Excel using Aspose.Cells for .NET with
 Learn how to extract and save a pivot table as a PNG image using Aspose.Cells for .NET in C# with this comprehensive guide.
 ### [Embed Fonts in HTML – Complete Guide to Converting DOCX to HTML with Full Font Support](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
 Learn how to embed fonts when converting DOCX to HTML using Aspose.Words for .NET, ensuring full font support in the output.
+### [How to Embed Fonts in HTML from a DOCX – Complete Guide](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Learn how to embed fonts from a DOCX into HTML using Aspose.Words for .NET, ensuring accurate rendering across browsers.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -81,6 +81,8 @@
 学习如何使用 Aspose.Cells for .NET 在 C# 中将 Excel 数据透视表导出为 PNG 图像，提供完整的分步指南。
 ### [在 HTML 中嵌入字体 – 完整的 DOCX 转 HTML 转换指南，支持完整字体](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
 学习如何使用 Aspose.Words 将 DOCX 转换为 HTML 并嵌入完整字体，提供详细的分步指南。
+### [如何在 HTML 中嵌入来自 DOCX 的字体 – 完整指南](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+本指南详细说明如何使用 Aspose.Words 将 DOCX 文档中的字体嵌入到生成的 HTML 中，确保跨平台显示一致。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -69,6 +69,8 @@ Ismerje meg, hogyan menthet Excel munkafüzetet PDF-be az Aspose.Cells segítsé
 Ismerd meg, hogyan mentheted el az XLSX fájlokat PDF/A‑1b formátumban C#-ban az Aspose.Cells segítségével.
 ### [Excel konvertálása PDF-be C#-ban – teljes programozási útmutató](./convert-excel-to-pdf-in-c-complete-programming-guide/)
 Részletes útmutató az Excel fájlok C#-ban PDF-be konvertálásához az Aspose.Cells segítségével.
+### [PDF mentése betűvariációs szelektorokkal – teljes útmutató](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
+Ismerd meg, hogyan menthetsz PDF-et betűvariációs szelektorokkal az Aspose.PDF segítségével, lépésről lépésre útmutató.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -77,6 +77,8 @@ Aprenda a inserir caracteres especiais no Excel usando Aspose.Cells passo a pass
 Aprenda a extrair e salvar imagens PNG de tabelas dinâmicas do Excel usando Aspose.Cells em C# com este guia passo a passo.
 ### [Incorporar fontes em HTML – Guia completo para converter DOCX em HTML com suporte total a fontes](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
 Aprenda a converter documentos DOCX para HTML preservando todas as fontes, garantindo que o layout fique fiel ao original.
+### [Como incorporar fontes em HTML a partir de um DOCX – Guia completo](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Aprenda a incorporar fontes de documentos DOCX em páginas HTML usando Aspose.Words, garantindo renderização correta em navegadores.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

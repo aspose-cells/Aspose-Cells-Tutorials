@@ -178,6 +178,13 @@
 เรียนรู้วิธีนำเข้าไฟล์ JSON ไปยังสเปรดชีต Excel ด้วย C# อย่างละเอียดและง่ายดาย
 ### [วิธีสร้างรายการรายงาน Excel ด้วย Aspose.Cells Smart Markers](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
 
+### [วิธีทำซ้ำเวิร์กชีต – คู่มือครบถ้วนสำหรับการอัตโนมัติ Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+เรียนรู้วิธีทำซ้ำเวิร์กชีตใน Excel อย่างอัตโนมัติด้วย Aspose.Cells เพื่อสร้างรายงานหลายชีตได้อย่างง่ายดาย
+
+### [สร้างสมุดงาน Master Detail ด้วย Aspose.Cells Smart Marker](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+
+### [คู่มือ Master Detail Excel – เติมเทมเพลตด้วย Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

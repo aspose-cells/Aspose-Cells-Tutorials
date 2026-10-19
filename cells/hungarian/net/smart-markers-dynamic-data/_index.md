@@ -186,6 +186,10 @@ Ismerd meg, hogyan használhatod a tartományos Smart Markert beágyazott adatok
 Ismerje meg, hogyan importálhat JSON adatokat Excel-fájlba C#‑ban lépésről‑lépésre.
 ### [Excel jelentéslista létrehozása Aspose.Cells intelligens jelölőkkel](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
 Ismerje meg, hogyan hozhat létre Excel jelentéslistát Aspose.Cells intelligens jelölőkkel, lépésről‑lépésre útmutatóval.
+### [Mester‑Detail munkafüzet létrehozása Aspose.Cells Smart Markerrel](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+### [Mester‑Detail Excel útmutató – sablonok feltöltése Smart Markerekkel](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+### [Munkalapok ismétlése – Teljes útmutató az Excel automatizáláshoz](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+Ismerje meg, hogyan ismételhet munkalapokat automatikusan az Aspose.Cells segítségével, hogy hatékonyan generáljon több hasonló Excel-állományt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

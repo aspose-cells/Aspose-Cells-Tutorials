@@ -50,6 +50,8 @@
 Узнайте, как загрузить файл Excel и сохранить его в формате XPS с помощью Aspose.Cells для .NET на C#.
 ### [Конвертация Excel в XPS на C# – Полное пошаговое руководство](./convert-excel-to-xps-in-c-complete-step-by-step-guide/)
 Подробное руководство по конвертации файлов Excel в XPS с помощью C# и Aspose.Cells, включающее примеры кода и пошаговые инструкции.
+### [Как включить шрифты при конвертации Excel в XPS – Полное руководство](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
+Узнайте, как включить шрифты при конвертации файлов Excel в XPS с помощью Aspose.Cells для .NET, следуя пошаговым инструкциям.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

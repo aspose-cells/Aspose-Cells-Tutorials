@@ -84,6 +84,8 @@ Apprenez à insérer facilement des caractères spéciaux dans vos feuilles Exce
 Apprenez à extraire et enregistrer une image PNG d'un tableau croisé dynamique Excel en C# avec Aspose.Cells, étape par étape.
 ### [Intégrer des polices dans HTML – Guide complet pour convertir DOCX en HTML avec prise en charge complète des polices](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
 Apprenez à intégrer des polices lors de la conversion de documents DOCX en HTML avec Aspose.Words, garantissant un rendu fidèle.
+### [Comment intégrer des polices dans HTML à partir d’un DOCX – Guide complet](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Apprenez à intégrer des polices dans vos pages HTML à partir de documents DOCX avec Aspose.Words, étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

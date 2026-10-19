@@ -78,6 +78,8 @@
 學習如何使用 Aspose.Cells for .NET 從 Excel 樞紐分析表導出 PNG 圖像，完整步驟指導。
 ### [在 HTML 中嵌入字型 – 完整指南：將 DOCX 轉換為 HTML 並完整支援字型](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
 學習使用 Aspose.Words for .NET 將 DOCX 轉換為 HTML，並嵌入所有字型以保持文件外觀一致。
+### [如何在 HTML 中嵌入字型（來自 DOCX）— 完整指南](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+學習使用 Aspose.Words 將 DOCX 的字型嵌入 HTML，確保在瀏覽器中正確顯示。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

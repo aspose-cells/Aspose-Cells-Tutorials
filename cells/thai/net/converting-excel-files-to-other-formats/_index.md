@@ -69,6 +69,8 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 เรียนรู้วิธีส่งออกไฟล์ Excel เป็น PowerPoint อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET ในคู่มือขั้นตอนเต็ม
 ### [สร้าง PowerPoint จาก Excel – คู่มือแบบทีละขั้นตอน](./create-powerpoint-from-excel-step-by-step-guide/)
 เรียนรู้วิธีสร้างไฟล์ PowerPoint จากข้อมูล Excel ด้วย Aspose.Cells สำหรับ .NET ในคู่มือขั้นตอนต่อขั้นตอนนี้
+### [การส่งออก Excel ไปยัง PowerPoint – คู่มือครบถ้วน](./how-to-export-excel-to-powerpoint-complete-guide/)
+เรียนรู้วิธีส่งออกไฟล์ Excel เป็นงานนำเสนอ PowerPoint ด้วย Aspose.Cells สำหรับ .NET ผ่านขั้นตอนที่ละเอียดและตัวอย่างโค้ดที่เข้าใจง่าย
 ### [การระบุ HTML CrossType ในโปรแกรมเอาท์พุต HTML ใน .NET](./specifying-html-crosstype-in-output-html/)
 เรียนรู้วิธีระบุ HTML CrossType ใน Aspose.Cells สำหรับ .NET ปฏิบัตตามบทช่วยสอนทีละขั้นตอนของเราเพื่อแปลงไฟล์ Excel เป็น HTML อย่างแม่นยำ
 ### [การอ่านสเปรดชีตตัวเลขโดยโปรแกรมใน .NET](./reading-numbers-spreadsheet/)

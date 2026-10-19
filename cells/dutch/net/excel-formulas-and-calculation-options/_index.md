@@ -25,6 +25,12 @@ Een van de eenvoudigste, maar toch effectieve manieren om je Excel-formules in d
 ## Formules programmatisch berekenen  
 Heb je er ooit over nagedacht hoe gaaf het zou zijn om je Excel-berekeningen te automatiseren? Nou, met Aspose.Cells voor .NET kan deze droom werkelijkheid worden! Stel je voor dat je gegevens voor berekeningen verstuurt terwijl je van je koffie nipt; dat is het mooie van het automatiseren van Excel-taken. Onze tutorial over [Formules in Excel programmatisch berekenen](./calculating-formulas/) Maakt je wegwijs in de eenvoudige technieken die je automatisering naar een hoger niveau kunnen tillen. Het gaat niet alleen om tijd besparen; het gaat om slimmer werken, niet harder!
 
+### [Excel-werkmap maken met formules – volledige stapsgewijze handleiding](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+Leer hoe u een Excel-werkmap met formules maakt met Aspose.Cells voor .NET in deze uitgebreide stapsgewijze tutorial.
+
+## Formules eenmalig programmatisch berekenen in Excel
+Leer hoe u Excel-formules programmatisch kunt berekenen met Aspose.Cells voor .NET in deze stapsgewijze tutorial. Verbeter uw Excel-automatiseringsvaardigheden.
+
 ## Circulaire verwijzingen detecteren  
 Ah, die gevreesde cirkelverwijzing! Het is een raadsel dat zelfs de meest ervaren Excel-gebruikers kan frustreren. Maar wees niet bang! Met onze gids over [Circulaire verwijzingen in Excel programmatisch detecteren](./detecting-circular-reference/)Leer hoe je deze lastige problemen effectief kunt identificeren met Aspose.Cells voor .NET. We nemen je mee door eenvoudig te volgen instructies, zodat je berekeningen nauwkeurig zijn en je later geen problemen meer hebt.
 
@@ -54,7 +60,7 @@ Bij het werken met gedeelde formules is het belangrijk om te begrijpen hoe u rij
 ### [Cellen toevoegen aan het formule-controlevenster van Microsoft Excel](./adding-cells-to-microsoft-excel-formula-watch-window/)
 Leer hoe je cellen toevoegt aan het Excel-formulevenster met Aspose.Cells voor .NET met deze stapsgewijze handleiding. Het is eenvoudig en efficiënt.
 ### [Formules in Excel programmatisch berekenen](./calculating-formulas/)
-Automatiseer je Excel-taken met Aspose.Cells voor .NET. Leer formules programmatisch berekenen in deze uitgebreide tutorial.
+Automatiseer je Excel-taken met Aspose.Cells voor .NET. Leer formules programmatisch te berekenen in deze uitgebreide tutorial.
 ### [Formules eenmalig programmatisch berekenen in Excel](./calculating-formulas-once/)
 Leer hoe u Excel-formules programmatisch kunt berekenen met Aspose.Cells voor .NET in deze stapsgewijze tutorial. Verbeter uw Excel-automatiseringsvaardigheden.
 ### [Circulaire verwijzingen in Excel programmatisch detecteren](./detecting-circular-reference/)

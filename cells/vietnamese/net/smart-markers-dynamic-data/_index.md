@@ -164,6 +164,12 @@ Khám phá cách sử dụng Smart Marker dạng phạm vi để xử lý dữ l
 Hướng dẫn cách tải mẫu Excel trong C# và nhanh chóng tạo nhiều trang tính bằng Aspose.Cells.
 ### [Nhập JSON vào Excel trong C# – hướng dẫn từng bước](./import-json-to-excel-in-c-step-by-step-guide/)
 Hướng dẫn chi tiết cách nhập dữ liệu JSON vào tệp Excel bằng Aspose.Cells cho .NET trong C#.
+### [Tạo Workbook Master Detail với Aspose.Cells Smart Marker](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+Hướng dẫn tạo workbook master‑detail bằng Smart Marker trong Aspose.Cells, giúp xây dựng báo cáo Excel đa cấp một cách dễ dàng.
+### [Hướng dẫn master‑detail Excel – điền mẫu với Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+Hướng dẫn chi tiết cách tạo báo cáo master‑detail trong Excel bằng Smart Markers, tự động điền dữ liệu vào mẫu.
+### [Cách Lặp Lại Các Trang Tính – Hướng Dẫn Toàn Diện cho Tự Động Hóa Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+Hướng dẫn chi tiết cách lặp lại các trang tính trong Excel bằng Aspose.Cells, giúp tự động hoá quy trình tạo báo cáo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

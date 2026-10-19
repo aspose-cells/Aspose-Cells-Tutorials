@@ -57,6 +57,9 @@ Bu rehberde, Aspose.Cells for .NET kullanarak bir hücre aralığını tablo ola
 ### [C#'ta DataTable'dan Excel Sayfası Oluşturma – adım adım rehber](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
 Aspose.Cells for .NET ile C#'ta bir DataTable'dan Excel sayfası oluşturmayı öğrenin. Yeni başlayanlar ve deneyimli geliştiriciler için uygundur.
 
+### [Excel Tablosunu Dışa Aktarma – Tam Adım Adım Kılavuz](./how-to-export-excel-table-complete-step-by-step-guide/)
+Bu kapsamlı adım adım kılavuz, Aspose.Cells for .NET kullanarak bir Excel tablosunu dışa aktarmayı gösterir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

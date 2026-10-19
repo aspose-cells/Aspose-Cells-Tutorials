@@ -76,6 +76,8 @@ Megosztott képletekkel való munka során fontos megérteni, hogyan lehet haté
 Ismerje meg a WRAPCOLS függvény használatát C#‑ban az Aspose.Cells for .NET segítségével, lépésről lépésre útmutató.
 ### [Hogyan kényszerítsük a képletszámítást és használjuk a lambda kifejezést Excelben C#-val](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
 Ismerje meg, hogyan kényszerítheti a képletszámítást és használhatja a lambda függvényeket Excelben C#-ban.
+### [Excel munkafüzet létrehozása képletekkel – Teljes lépésről‑lépésre útmutató](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre teljesen funkcionális Excel munkafüzetet képletekkel lépésről‑lépésre az Aspose.Cells for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

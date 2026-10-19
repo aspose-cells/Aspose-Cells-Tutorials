@@ -172,6 +172,10 @@
 
 Освоив возможности формул с помощью Aspose.Cells для .NET, вы сможете создавать сложные вычислительные механизмы в своих электронных таблицах, которые будут выдавать точные и динамичные результаты без необходимости установки Excel.
 ### [Создание рабочей книги Excel с формулой EXPAND – Полное руководство](./create-excel-workbook-with-expand-formula-complete-guide/)
+### [Как использовать SEQUENCE в C# – создание рабочей книги Excel](./how-to-use-sequence-in-c-create-excel-workbook/)
+
+### [Как записать формулу массива в C# – полное руководство по программированию](./write-array-formula-in-c-complete-programming-guide/)
+Узнайте, как создавать и применять формулы массива в Excel с помощью Aspose.Cells для .NET на C#, включая синтаксис и практические примеры.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

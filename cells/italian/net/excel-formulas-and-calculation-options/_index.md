@@ -109,6 +109,7 @@ Scopri come applicare una formula array in Excel usando Aspose.Cells per .NET co
 Scopri come usare WRAPCOLS per gestire colonne multiple in Excel con Aspose.Cells per .NET in C#.
 ### [Come forzare il calcolo delle formule e utilizzare lambda in Excel con C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
 Scopri come forzare il calcolo delle formule e sfruttare le funzioni lambda in Excel usando C# con Aspose.Cells.
+### [Crea cartella di lavoro Excel con formule – Guida completa passo‑passo](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

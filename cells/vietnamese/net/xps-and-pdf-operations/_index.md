@@ -50,6 +50,8 @@ Tìm hiểu cách lưu workbook dưới dạng XPS trong C# bằng Aspose.Cells,
 Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang XPS trong C# và cách tải tệp Excel trước khi chuyển đổi.
 ### [Chuyển đổi Excel sang XPS trong C# – Hướng dẫn chi tiết từng bước](./convert-excel-to-xps-in-c-complete-step-by-step-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang XPS bằng C# với Aspose.Cells, kèm ví dụ mã thực tế.
+### [Cách bật phông chữ khi chuyển đổi Excel sang XPS – Hướng dẫn đầy đủ](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
+Hướng dẫn chi tiết cách bật phông chữ trong quá trình chuyển đổi tệp Excel sang XPS bằng Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

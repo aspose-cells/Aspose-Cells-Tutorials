@@ -119,6 +119,7 @@ Excel sayfalarınızdaki tanımlı adlar, verilerinizi yönetmenin kullanışlı
 | [Yeni Çalışma Kitabı Oluştur – Markdown'ı C# ile Excel'e Dönüştür](./create-new-workbook-convert-markdown-to-excel-in-c/) | Aspose.Cells for .NET kullanarak C# ile Markdown dosyasını Excel çalışma kitabına dönüştürmeyi adım adım öğrenin. |  
 | [C# ile Çalışma Kitabı Oluşturma – Değer Yazma ve Sayıyı Biçimlendirme](./how-to-create-workbook-in-c-write-value-format-number/) | Aspose.Cells for .NET kullanarak C# ile yeni bir çalışma kitabı oluşturup hücreye değer yazma ve sayı biçimlendirme adımlarını öğrenin. |
 | [Aspose.Cells ile Excel Çalışma Kitabı Oluşturma – Tam Kılavuz](./create-excel-workbook-with-aspose-cells-full-guide/) | Aspose.Cells for .NET kullanarak sıfırdan tam bir Excel çalışma kitabı oluşturmayı adım adım öğrenin. |  
+| [C# ile Excel Çalışma Kitabı Oluşturma ve Veri Yazma – Tam Adım Adım Kılavuz](./create-excel-workbook-and-write-data-in-c-full-step-by-step/) | Aspose.Cells for .NET kullanarak C# ile bir Excel çalışma kitabı oluşturup veri yazmayı adım adım öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

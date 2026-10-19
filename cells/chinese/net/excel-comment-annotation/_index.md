@@ -63,6 +63,8 @@
 了解如何使用 Aspose.Cells for .NET 在 C# 中从数据生成 Excel 并向单元格添加注释。
 ### [使用 C# 在 Excel 中插入注释 – 完整 SmartMarker 指南](./insert-excel-comment-with-c-complete-smartmarker-guide/)
 了解如何使用 Aspose.Cells for .NET 通过 SmartMarker 在 Excel 中插入注释，提升工作表交互性。
+### [在 Excel 中使用 Aspose.Cells 插入注释](./how-to-insert-comment-in-excel-using-aspose-cells/)
+了解如何使用 Aspose.Cells for .NET 在 Excel 中插入注释，提升工作表的可读性和交互性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

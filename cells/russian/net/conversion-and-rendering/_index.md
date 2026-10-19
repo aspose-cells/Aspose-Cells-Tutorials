@@ -77,6 +77,8 @@
 Узнайте, как экспортировать диаграммы сводных таблиц Excel в PNG‑изображения с помощью Aspose.Cells в C#.
 ### [Встраивание шрифтов в HTML – Полное руководство по конвертации DOCX в HTML с полной поддержкой шрифтов](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
 Узнайте, как встраивать шрифты при конвертации DOCX в HTML с помощью Aspose.Words, обеспечивая полную поддержку шрифтов в веб‑контенте.
+### [Как внедрить шрифты в HTML из DOCX – Полное руководство](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Узнайте, как внедрить шрифты из DOCX в HTML с помощью Aspose.Words, следуя нашему полному руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

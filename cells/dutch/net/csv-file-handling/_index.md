@@ -65,6 +65,8 @@ Leer stap voor stap hoe u CSV-bestanden exporteert vanuit Excel met C# en Aspose
 Leer hoe u een werkmap opslaat als CSV, met controle over het aantal decimalen en nauwkeurige gegevensexport.
 ### [Hoe een werkmap opslaan als CSV met precieze opmaak met Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
 Leer hoe u een werkmap opslaat als CSV met exacte opmaak in Aspose.Cells.
+### [Werkmap opslaan als CSV in C# – Complete programmeergids](./save-workbook-as-csv-in-c-complete-programming-guide/)
+Leer hoe u een werkmap opslaat als CSV-bestand met C# en Aspose.Cells voor .NET, stap‑voor‑stap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

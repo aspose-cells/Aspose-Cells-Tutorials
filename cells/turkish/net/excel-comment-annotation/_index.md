@@ -63,6 +63,8 @@ Aspose.Cells for .NET kullanarak Excel'de akıllı işaretçi ile yorum hücresi
 Aspose.Cells for .NET ile C# kullanarak veri kaynağından Excel oluşturup hücreye yorum eklemeyi öğrenin.
 ### [C# ile Excel Yorum Ekle – Tam SmartMarker Kılavuzu](./insert-excel-comment-with-c-complete-smartmarker-guide/)
 Aspose.Cells for .NET kullanarak SmartMarker ile C# üzerinden Excel yorumları eklemeyi öğrenin.
+### [Aspose.Cells ile Excel'e Yorum Ekleme](./how-to-insert-comment-in-excel-using-aspose-cells/)
+Aspose.Cells for .NET kullanarak Excel'e yorum eklemeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

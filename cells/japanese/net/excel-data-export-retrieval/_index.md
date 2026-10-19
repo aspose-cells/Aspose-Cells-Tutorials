@@ -53,6 +53,8 @@ C# を使用して新しいワークブックを作成し、Excel データを�
 Aspose.Cells for .NET を使用して、セル範囲をテーブル形式でエクスポートする手順をC#で詳しく解説します。
 ### [C# の DataTable から Excel シートを作成する – ステップバイステップ ガイド](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
 Aspose.Cells for .NET を使用して、C# の DataTable から Excel シートを簡単に生成する方法をステップバイステップで解説します。
+### [Excelテーブルのエクスポート方法 – 完全ステップバイステップガイド](./how-to-export-excel-table-complete-step-by-step-guide/)
+この完全ステップバイステップガイドでは、Aspose.Cells for .NET を使用して Excel テーブルをエクスポートする方法を詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

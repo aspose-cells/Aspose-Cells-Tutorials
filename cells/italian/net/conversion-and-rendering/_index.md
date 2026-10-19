@@ -79,6 +79,8 @@ Scopri come inserire caratteri speciali in Excel con Aspose.Cells, passo dopo pa
 Impara a estrarre e salvare immagini PNG da una tabella pivot di Excel usando Aspose.Cells in C# con questa guida completa.
 ### [Incorporare i font in HTML – Guida completa alla conversione di DOCX in HTML con supporto completo dei font](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
 Scopri come incorporare tutti i font durante la conversione di DOCX in HTML con Aspose.Words per .NET.
+### [Come incorporare i font in HTML da un DOCX – Guida completa](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Scopri come incorporare i font nei file HTML generati da documenti DOCX usando Aspose.Words per .NET, passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -65,6 +65,8 @@
 Узнайте, как сохранять рабочие книги Excel в CSV, управляя количеством знаков после запятой и форматом данных.
 ### [Как сохранить книгу как CSV с точным форматированием с помощью Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
 Узнайте, как сохранить рабочую книгу в CSV с точным форматированием, используя возможности Aspose.Cells.
+### [Сохранение рабочей книги в CSV на C# – Полное руководство по программированию](./save-workbook-as-csv-in-c-complete-programming-guide/)
+Узнайте, как сохранить книгу Excel в CSV с помощью Aspose.Cells для .NET, используя C# и полное пошаговое руководство.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

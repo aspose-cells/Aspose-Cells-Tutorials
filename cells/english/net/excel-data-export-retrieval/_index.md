@@ -57,6 +57,9 @@ Learn how to export a range of cells as a formatted table in Excel using Aspose.
 ### [Create excel sheet from a DataTable in C# – step‑by‑step guide](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
 Learn how to generate an Excel worksheet from a DataTable in C# using Aspose.Cells for .NET, with step‑by‑step instructions.
 
+### [How to Export Excel Table – Complete Step‑by‑Step Guide](./how-to-export-excel-table-complete-step-by-step-guide/)
+Learn how to export an Excel table using Aspose.Cells for .NET with a detailed step‑by‑step guide for all skill levels.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

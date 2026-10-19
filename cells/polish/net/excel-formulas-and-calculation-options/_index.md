@@ -98,6 +98,8 @@ Dowiedz się, jak obliczyć cotangens w Excelu przy użyciu Aspose.Cells i C#. K
 Dowiedz się, jak zastosować formułę tablicową w Excelu przy użyciu Aspose.Cells w C#, krok po kroku, w pełnym przewodniku.
 ### [Jak używać WRAPCOLS – Kompletny przewodnik po automatyzacji Excela w C#](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
 Dowiedz się, jak wykorzystać funkcję WRAPCOLS w Aspose.Cells dla .NET, aby automatyzować Excel w C# w prosty i efektywny sposób.
+### [Utwórz skoroszyt programu Excel z formułami – Pełny przewodnik krok po kroku](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+Dowiedz się, jak programowo utworzyć skoroszyt Excel z formułami, korzystając z Aspose.Cells dla .NET – kompletny przewodnik krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

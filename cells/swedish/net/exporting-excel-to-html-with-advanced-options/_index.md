@@ -143,6 +143,8 @@ Lär dig steg för steg hur du genererar HTML från en Excel‑tabell med C# och
 Lär dig hur du exporterar Excel till HTML med C# i en komplett guide med Aspose.Cells för .NET.
 ### [Spara Excel som HTML – Komplett guide för att exportera Excel med formatering](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
 Lär dig hur du sparar Excel som HTML med full formatering med Aspose.Cells för .NET i denna detaljerade steg-för-steg-guide.
+### [Exportera Excel till HTML – Komplett guide för att bevara frysta rutor](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
+Lär dig hur du bevarar frysta rutor när du exporterar Excel till HTML med Aspose.Cells för .NET i en steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

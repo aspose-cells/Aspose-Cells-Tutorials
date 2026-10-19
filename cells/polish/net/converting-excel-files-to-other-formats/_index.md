@@ -89,6 +89,8 @@ Dowiedz się, jak programowo konwertować pliki Excel na obrazy PNG w C# przy u�
 Dowiedz się, jak programowo eksportować pliki Excel do prezentacji PowerPoint przy użyciu Aspose.Cells dla .NET w tym szczegółowym przewodniku krok po kroku.
 ### [Utwórz prezentację PowerPoint z Excela – przewodnik krok po kroku](./create-powerpoint-from-excel-step-by-step-guide/)
 Dowiedz się, jak programowo przekształcić arkusz Excel w prezentację PowerPoint przy użyciu Aspose.Cells dla .NET.
+### [Jak wyeksportować Excel do PowerPoint – Kompletny przewodnik](./how-to-export-excel-to-powerpoint-complete-guide/)
+Dowiedz się, jak programowo wyeksportować arkusz Excel do prezentacji PowerPoint przy użyciu Aspose.Cells dla .NET w pełnym przewodniku krok po kroku.
 ### [Określanie HTML CrossType w wyjściowym HTML programowo w .NET](./specifying-html-crosstype-in-output-html/)
 Dowiedz się, jak określić HTML CrossType w Aspose.Cells dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby precyzyjnie przekonwertować pliki Excel na HTML.
 ### [Odczyt arkusza kalkulacyjnego liczb programowo w .NET](./reading-numbers-spreadsheet/)

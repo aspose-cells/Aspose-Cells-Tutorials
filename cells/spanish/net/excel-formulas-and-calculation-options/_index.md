@@ -101,6 +101,8 @@ Aprenda a aplicar una fórmula de matriz en Excel usando C# con Aspose.Cells par
 Aprenda a crear un libro de Excel y dividir datos en matrices usando la función WRAPCOLS con Aspose.Cells para .NET en C#.
 ### [Cómo usar WRAPCOLS – Guía completa para la automatización de Excel con C#](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
 Aprenda a utilizar la función WRAPCOLS en Aspose.Cells para .NET y automatice la distribución de datos en columnas de Excel con C#.
+### [Crear libro de Excel con fórmulas – Guía completa paso a paso](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+Aprenda a crear un libro de Excel con fórmulas usando Aspose.Cells para .NET en esta guía detallada paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

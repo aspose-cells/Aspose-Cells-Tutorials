@@ -77,6 +77,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells Sonderzeichen in Excel einfügen und Ihre
 Erfahren Sie, wie Sie mit Aspose.Cells ein PNG‑Bild aus einer Excel‑Pivot‑Tabelle in C# extrahieren und speichern.
 ### [Schriftarten in HTML einbetten – Komplettanleitung zum Konvertieren von DOCX nach HTML mit voller Schriftunterstützung](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
 Erfahren Sie, wie Sie mit Aspose.Words DOCX-Dateien nach HTML konvertieren und dabei alle Schriftarten einbetten, um ein exakt gleiches Layout zu erhalten.
+### [Wie man Schriftarten in HTML aus einer DOCX einbetten – Komplettanleitung](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Words Schriftarten aus einer DOCX in HTML einbetten, um konsistente Darstellung sicherzustellen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

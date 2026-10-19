@@ -103,6 +103,8 @@ Naučte se pomocí Aspose.Cells pro .NET v C# vytvořit sešit a rozdělit data 
 Naučte se, jak pomocí funkce WRAPCOLS efektivně rozdělit data v Excelu při automatizaci v C# s Aspose.Cells.
 ### [Jak vynutit výpočet vzorce a použít lambda v Excelu s C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
 Naučte se vynutit výpočet vzorce a využít lambda výrazy v Excelu pomocí C# a Aspose.Cells.
+### [Vytvoření sešitu Excel s vzorci – kompletní průvodce krok za krokem](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET vytvořit sešit Excel s kompletními vzorci v podrobném krok za krokem návodu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

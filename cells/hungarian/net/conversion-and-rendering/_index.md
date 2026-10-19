@@ -77,6 +77,8 @@ Tanulja meg, hogyan illeszthet speciális karaktereket Excelbe lépésről‑lé
 Tanuld meg, hogyan menthetsz PNG képet egy Excel pivot táblából C#-ban az Aspose.Cells használatával.
 ### [Betűtípusok beágyazása HTML-ben – Teljes útmutató a DOCX HTML-re konvertálásához teljes betűtípus-támogatással](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
 Tanuld meg, hogyan ágyazhatod be a betűtípusokat HTML-be a DOCX konvertálás során, hogy a megjelenés minden eszközön megmaradjon.
+### [Betűtípusok beágyazása HTML-be DOCX-ből – Teljes útmutató](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Tanuld meg, hogyan ágyazhatod be a DOCX dokumentumban használt betűtípusokat HTML-be az Aspose.Words segítségével .NET-ben.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

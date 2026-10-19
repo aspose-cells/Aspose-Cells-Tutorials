@@ -77,6 +77,8 @@ Leer hoe u speciale tekens in Excel kunt invoegen met Aspose.Cells in .NET – e
 Leer hoe u een PNG-afbeelding van een Excel-pivot‑tabel kunt exporteren met Aspose.Cells in C#.
 ### [Lettertypen insluiten in HTML – Complete gids voor het converteren van DOCX naar HTML met volledige lettertypeondersteuning](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
 Leer hoe u lettertypen insluit bij het converteren van DOCX naar HTML met volledige ondersteuning, met Aspose.Words in .NET.
+### [Hoe lettertypen in HTML insluiten vanuit een DOCX – Complete gids](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Leer hoe u lettertypen uit een DOCX-document in HTML kunt insluiten met Aspose.Words voor .NET. Volg de stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

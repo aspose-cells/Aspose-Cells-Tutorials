@@ -74,6 +74,9 @@ Aprenda a exportar Excel a PowerPoint con Aspose.Cells para .NET mediante una gu
 Aprenda a convertir archivos de Excel a presentaciones PowerPoint usando C# y Aspose.Cells con esta guía paso a paso.
 ### [Exportar Excel a PowerPoint con Aspose.Cells – guía completa de programación](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
 Aprenda a exportar datos de Excel a una presentación PowerPoint usando Aspose.Cells con una guía completa paso a paso.
+### [Cómo exportar Excel a PowerPoint – Guía completa](./how-to-export-excel-to-powerpoint-complete-guide/)
+Aprenda a exportar datos de Excel a presentaciones PowerPoint usando Aspose.Cells para .NET con esta guía paso a paso.
+
 ### [Especificación de HTML CrossType en la salida HTML mediante programación en .NET](./specifying-html-crosstype-in-output-html/)
 Aprenda a especificar HTML CrossType en Aspose.Cells para .NET. Siga nuestro tutorial paso a paso para convertir archivos de Excel a HTML con precisión.
 

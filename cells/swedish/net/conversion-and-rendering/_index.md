@@ -77,6 +77,8 @@ Lär dig hur du enkelt infogar specialtecken i Excel med en tydlig steg‑för�
 Lär dig hur du extraherar och sparar en pivot-tabell som PNG-bild i C# med Aspose.Cells.
 ### [Bädda in teckensnitt i HTML – Komplett guide för konvertering av DOCX till HTML med full teckensnittsstöd](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
 Lär dig hur du konverterar DOCX till HTML och bäddar in alla teckensnitt för korrekt visning i webbläsare.
+### [Hur du bäddar in teckensnitt i HTML från ett DOCX – Komplett guide](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Lär dig hur du bäddar in teckensnitt från ett DOCX-dokument i HTML med Aspose.Words för .NET i en steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

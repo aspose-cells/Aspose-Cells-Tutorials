@@ -141,6 +141,9 @@ Apprenez à analyser un JSON imbriqué et à créer une charge utile JSON en C# 
 Apprenez à générer un rapport maître‑détail en remplissant un modèle Excel à l’aide des SmartMarkers avec Aspose.Cells pour .NET.
 ### [Comment créer une liste de rapports Excel avec les marqueurs intelligents Aspose.Cells](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
 Apprenez à générer une liste de rapports Excel en utilisant les Smart Markers d'Aspose.Cells.
+### [Créer un classeur maître-détail avec des marqueurs intelligents Aspose.Cells](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+### [Guide maître-détail Excel – remplir les modèles avec les marqueurs intelligents](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+### [Comment répéter les feuilles de calcul – Guide complet pour l'automatisation Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

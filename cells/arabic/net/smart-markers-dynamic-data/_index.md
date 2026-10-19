@@ -180,6 +180,9 @@
 تعلم كيفية تحميل قالب Excel في C# وإنشاء أوراق عمل متعددة بسرعة باستخدام Aspose.Cells.
 ### [استيراد JSON إلى Excel في C# – دليل خطوة بخطوة](./import-json-to-excel-in-c-step-by-step-guide/)
 ### [كيفية إنشاء قائمة تقارير Excel باستخدام علامات Aspose.Cells الذكية](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+### [إنشاء دفتر عمل رئيسي وتفصيلي باستخدام علامة Aspose.Cells الذكية](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+### [دليل Excel الرئيسي والتفصيلي – تعبئة القوالب باستخدام العلامات الذكية](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+### [كيفية تكرار أوراق العمل – دليل كامل لأتمتة Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

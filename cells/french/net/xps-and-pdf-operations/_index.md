@@ -50,6 +50,8 @@ Apprenez à incorporer des polices dans les PDF générés avec Aspose.Cells en 
 Apprenez à enregistrer un classeur Excel au format XPS en C# grâce à un guide complet et des exemples de code.
 ### [Convertir Excel en XPS en C# et charger le fichier Excel](./convert-excel-to-xps-in-c-and-load-excel-file/)
 Apprenez à convertir un classeur Excel en XPS en C# tout en le chargeant, avec des exemples de code détaillés.
+### [Comment activer les polices lors de la conversion d'Excel en XPS – Guide complet](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
+Découvrez comment activer les polices lors de la conversion d'Excel en XPS avec Aspose.Cells, étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

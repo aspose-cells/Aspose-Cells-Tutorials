@@ -70,6 +70,8 @@ Hướng dẫn từng bước để chuyển đổi tệp XLSX sang CSV bằng C
 Hướng dẫn chi tiết cách xuất dữ liệu Excel sang bản trình chiếu PowerPoint bằng C# và Aspose.Cells.
 ### [Xuất Excel sang PowerPoint với Aspose.Cells – hướng dẫn lập trình đầy đủ](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
 Hướng dẫn chi tiết cách xuất dữ liệu Excel sang bản trình chiếu PowerPoint bằng Aspose.Cells cho .NET.
+### [Cách xuất Excel sang PowerPoint – Hướng dẫn đầy đủ](./how-to-export-excel-to-powerpoint-complete-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang bản trình chiếu PowerPoint bằng Aspose.Cells cho .NET.
 ### [Chỉ định HTML CrossType trong chương trình HTML đầu ra trong .NET](./specifying-html-crosstype-in-output-html/)
 Tìm hiểu cách chỉ định HTML CrossType trong Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi tệp Excel sang HTML một cách chính xác.
 

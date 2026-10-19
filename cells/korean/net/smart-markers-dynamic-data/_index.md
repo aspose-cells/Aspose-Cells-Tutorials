@@ -129,6 +129,10 @@ C#을 사용해 Excel 템플릿을 로드하고, 여러 시트를 자동으로 �
 
 ### [C#에서 JSON을 Excel로 가져오기 – 단계별 가이드](./import-json-to-excel-in-c-step-by-step-guide/)
 C#을 사용하여 JSON 데이터를 Excel 파일로 변환하는 방법을 단계별로 설명합니다.
+### [워크시트를 복제하는 방법 – Excel 자동화를 위한 완전 가이드](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+Aspose.Cells를 사용하여 워크시트를 반복 복제하고 자동화된 Excel 보고서를 효율적으로 생성하는 방법을 단계별로 안내합니다.
+### [Aspose.Cells 스마트 마커로 마스터-디테일 워크북 만들기](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+### [마스터 디테일 Excel 가이드 – 스마트 마커로 템플릿 채우기](./master-detail-excel-guide-populate-templates-with-smart-mark/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

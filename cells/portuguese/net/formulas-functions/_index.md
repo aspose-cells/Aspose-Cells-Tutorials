@@ -111,6 +111,8 @@ Aprenda a criar pastas de trabalho Excel em C# usando as funções Lambda, SEQUE
 Aprenda a criar uma pasta de trabalho, usar a função EXPAND e salvar o Excel ao calcular a cotangente com Aspose.Cells e C#.
 ### [Criar Pasta de Trabalho Excel com a Fórmula EXPAND – Guia Completo](./create-excel-workbook-with-expand-formula-complete-guide/)
 Aprenda a criar uma pasta de trabalho do Excel usando a fórmula EXPAND com Aspose.Cells para .NET, automatizando a expansão de dados dinâmicos.
+### [Como usar SEQUENCE em C# – Criar pasta de trabalho Excel](./how-to-use-sequence-in-c-create-excel-workbook/)
+Aprenda a usar a função SEQUENCE em C# para gerar planilhas Excel dinamicamente com Aspose.Cells.
 
 ## Compreendendo os tipos de fórmulas do Excel
 

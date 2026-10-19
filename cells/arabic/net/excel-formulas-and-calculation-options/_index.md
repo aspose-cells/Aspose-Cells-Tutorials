@@ -98,6 +98,8 @@
 تعلم كيفية استخدام الدالة WRAPCOLS في Excel مع مثال كامل بلغة C# لتطبيقات Aspose.Cells لـ .NET.
 ### [كيفية استخدام WRAPCOLS – دليل كامل لأتمتة Excel باستخدام C#](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
 اكتشف كيفية استخدام الدالة WRAPCOLS في Aspose.Cells لـ .NET لأتمتة Excel باستخدام C# خطوة بخطوة.
+### [إنشاء مصنف Excel مع الصيغ – دليل كامل خطوة بخطوة](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+تعلم إنشاء مصنف Excel مع صيغ باستخدام Aspose.Cells لـ .NET عبر دليل خطوة بخطوة شامل.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

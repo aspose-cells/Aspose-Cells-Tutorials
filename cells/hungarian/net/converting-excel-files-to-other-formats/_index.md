@@ -67,6 +67,8 @@ Ismerje meg, hogyan exportálhat Excel-fájlokat PowerPoint prezentációvá tel
 Tanuld meg, hogyan konvertálhatsz Excel-fájlokat PowerPoint prezentációvá C#-ban az Aspose.Cells for .NET segítségével, részletes lépésekkel és kódmintákkal.
 ### [Excel exportálása PowerPointba az Aspose.Cells segítségével – teljes programozási útmutató](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
 Fedezze fel a teljes útmutatót az Excel-fájlok PowerPointba exportálásához az Aspose.Cells segítségével, részletes kódmintákkal.
+### [Excel exportálása PowerPointba – Teljes útmutató](./how-to-export-excel-to-powerpoint-complete-guide/)
+Tanuld meg, hogyan exportálhatsz Excel-fájlokat PowerPoint prezentációvá az Aspose.Cells for .NET segítségével lépésről lépésre útmutatóval.
 ### [HTML CrossType megadása a kimeneti HTML-ben programozottan .NET-ben](./specifying-html-crosstype-in-output-html/)
 Tanuld meg, hogyan adhatsz meg HTML CrossType-ot az Aspose.Cells for .NET-ben. Kövesd lépésről lépésre szóló útmutatónkat az Excel-fájlok precíz HTML-be konvertálásához.
 ### [Numbers táblázatok programozott olvasása .NET-ben](./reading-numbers-spreadsheet/)

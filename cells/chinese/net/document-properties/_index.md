@@ -65,6 +65,8 @@ Excel 中的文档属性就像文件的元数据一样。想象一下：每个 E
 通过本完整指南，学习在 C# 中使用 Aspose.Cells 为 Excel 工作簿添加元数据。
 ### [创建自定义属性 Aspose – 完整 Excel 指南](./create-custom-property-aspose-complete-excel-guide/)
 通过本完整指南，学习如何使用 Aspose.Cells for .NET 在 Excel 中创建自定义属性，提升文件的元数据管理。
+### [在 C# 中保存 XLSB 并添加自定义文档属性](./how-to-save-xlsb-and-add-custom-document-properties-in-c/)
+学习如何使用 Aspose.Cells for .NET 将工作簿保存为 XLSB 格式并添加自定义文档属性的完整步骤。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

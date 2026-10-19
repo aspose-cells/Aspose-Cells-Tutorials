@@ -191,6 +191,12 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 示範如何利用智慧標記產生工作簿，根據資料自動輸出最高與最低值。
 ### [在 C# 中建立主從報表 – 使用 SmartMarker 填充 Excel 範本](./create-master-detail-report-in-c-populate-excel-template-wit/)
 ### [如何使用 Aspose.Cells 智慧標記建立 Excel 報表清單](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+### [使用 Aspose.Cells 智慧標記建立主從工作簿](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+學習如何使用 Aspose.Cells 智慧標記建立主從工作簿，實現層次化資料的動態 Excel 報表生成。
+### [使用智慧標記的主從 Excel 指南 – 填充範本](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+學習如何使用智慧標記在 Excel 中建立主從關係，將資料填入範本，生成動態報表。
+### [如何重複工作表 – Excel 自動化完整指南](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+學習使用 Aspose.Cells 在 Excel 中重複工作表，以自動化報表生成並提升效率。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

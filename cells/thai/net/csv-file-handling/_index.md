@@ -65,6 +65,8 @@
 เรียนรู้วิธีบันทึกไฟล์ Excel เป็น CSV อย่างละเอียด พร้อมการควบคุมจำนวนทศนิยมเพื่อผลลัพธ์ที่แม่นยำ
 ### [วิธีบันทึกเวิร์กบุ๊กเป็น CSV ด้วยการจัดรูปแบบที่แม่นยำโดยใช้ Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
 เรียนรู้วิธีบันทึกเวิร์กบุ๊กเป็นไฟล์ CSV พร้อมการจัดรูปแบบที่แม่นยำด้วย Aspose.Cells สำหรับ .NET
+### [บันทึกเวิร์กบุ๊กเป็น CSV ใน C# – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./save-workbook-as-csv-in-c-complete-programming-guide/)
+เรียนรู้วิธีบันทึกไฟล์เวิร์กบุ๊กเป็น CSV ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET อย่างละเอียดและครบถ้วน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

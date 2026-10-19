@@ -54,6 +54,8 @@
 เรียนรู้วิธีบันทึกไฟล์ Excel เป็น XPS ด้วย C# โดยใช้ Aspose.Cells ขั้นตอนง่ายๆ พร้อมตัวอย่างโค้ด
 ### [แปลง Excel เป็น XPS ด้วย C# – คู่มือขั้นตอนเต็ม](./convert-excel-to-xps-in-c-complete-step-by-step-guide/)
 เรียนรู้วิธีแปลงไฟล์ Excel เป็น XPS ด้วย C# อย่างละเอียดตามขั้นตอนครบถ้วน พร้อมตัวอย่างโค้ดที่ใช้งานได้จริง
+### [วิธีเปิดใช้งานฟอนต์เมื่อแปลง Excel เป็น XPS – คู่มือฉบับสมบูรณ์](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
+เรียนรู้วิธีเปิดใช้งานฟอนต์เพื่อให้การแปลงไฟล์ Excel เป็น XPS มีความสมบูรณ์และแสดงผลถูกต้อง
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
