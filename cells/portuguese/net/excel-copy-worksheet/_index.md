@@ -44,6 +44,7 @@ Aspose.Cells para .NET oferece funcionalidades poderosas para manipular arquivos
 | [Planilha de movimentação do Excel](./excel-move-worksheet/) | Aprenda a mover planilhas no Excel usando o Aspose.Cells para .NET em nosso guia passo a passo. Domine a arte da programação em Excel. |  
 | [Criar Nova Pasta de Trabalho – Como Copiar uma Planilha com uma Tabela Dinâmica](./create-new-workbook-how-to-copy-a-worksheet-with-a-pivot-tab/) | Aprenda a criar uma nova pasta de trabalho e copiar uma planilha que contém uma Tabela Dinâmica usando Aspose.Cells para .NET. |  
 | [Como Copiar Planilha em C# com Aspose.Cells – Guia Completo](./how-to-copy-worksheet-in-c-with-aspose-cells-complete-guide/) | Aprenda passo a passo a copiar planilhas em C# usando Aspose.Cells, cobrindo opções avançadas e melhores práticas. |  
+| [Copiar Pasta de Trabalho em C# – Exportar Tabela para Outra Planilha](./copy-workbook-in-c-export-table-to-another-worksheet/) | Aprenda a copiar uma pasta de trabalho e exportar uma tabela para outra planilha usando Aspose.Cells para .NET em C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -57,6 +57,10 @@ Pelajari cara membuat workbook Excel dengan C#, menerapkan format mata uang, dan
 Pelajari cara membuat workbook baru di C# dan mengonversi file Markdown menjadi Excel secara cepat menggunakan Aspose.Cells.
 ### [Data JSON ke Excel – Panduan Lengkap Mengonversi Array JSON ke Excel](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
 Pelajari cara mengonversi data JSON menjadi file Excel secara lengkap dengan Aspose.Cells untuk .NET dalam panduan langkah demi langkah ini.
+### [Mengonversi Worksheet ke DataTable di C# – Panduan Pemrograman Lengkap](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
+Pelajari cara mengonversi worksheet Excel menjadi DataTable menggunakan Aspose.Cells untuk .NET dalam panduan pemrograman lengkap.
+### [Impor JSON ke Excel dengan Aspose.Cells – Panduan Pemrograman Lengkap](./import-json-to-excel-with-aspose-cells-complete-programming/)
+Pelajari cara mengimpor data JSON ke file Excel menggunakan Aspose.Cells dengan contoh kode lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

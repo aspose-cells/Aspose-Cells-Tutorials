@@ -119,6 +119,8 @@
 | [नया कार्यपुस्तिका बनाएं – C# में मार्कडाउन को Excel में बदलें](./create-new-workbook-convert-markdown-to-excel-in-c/) | C# और Aspose.Cells का उपयोग करके मार्कडाउन को Excel फ़ाइल में बदलने के चरण‑दर‑चरण मार्गदर्शन। |  
 
 | [C# में वर्कबुक बनाना – मान लिखें और संख्या का फ़ॉर्मेट सेट करें](./how-to-create-workbook-in-c-write-value-format-number/) | C# का उपयोग करके वर्कबुक बनाना, मान लिखना और संख्याओं को फ़ॉर्मेट करने का चरण-दर-चरण मार्गदर्शन। |
+| [Aspose.Cells के साथ Excel कार्यपुस्तिका बनाएं – पूर्ण गाइड](./create-excel-workbook-with-aspose-cells-full-guide/) | .NET के लिए Aspose.Cells का उपयोग करके Excel कार्यपुस्तिका बनाने की पूरी मार्गदर्शिका। |  
+| [C# में Excel कार्यपुस्तिका बनाएं और डेटा लिखें – पूर्ण चरण‑दर‑चरण गाइड](./create-excel-workbook-and-write-data-in-c-full-step-by-step/) | .NET के लिए Aspose.Cells का उपयोग करके C# में Excel कार्यपुस्तिका बनाना और डेटा लिखना सीखें। |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

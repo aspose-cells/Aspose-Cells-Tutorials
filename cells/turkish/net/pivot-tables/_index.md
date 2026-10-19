@@ -21,7 +21,7 @@ Aspose.Cells for .NET kullanarak, hesaplanmış alanlar ekleyerek, veri toplama 
 
 {{< tutorial-card link="./pivot-table-save-in-ods/" title="Pivot Tabloyu Aspose.Cells'de ODS olarak kaydedin" imgSrc="./pivot-table-save-in-ods/images/thumb.png" >}}
 
-{{< tutorial-card link="./how-to-copy-pivot-table-in-excel-with-c-and-aspose-cells/" title="C# ve Aspose.Cells ile Excel'de Pivot Tablo Kopyalama" imgSrc="./how-to-copy-pivot-table-in-excel-with-c-and-aspose-cells/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-copy-pivot-table-in-c-complete-programming-guide/" title="C#'ta Pivot Tablosunu Kopyalama – Tam Programlama Rehberi" imgSrc="./how-to-copy-pivot-table-in-c-complete-programming-guide/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

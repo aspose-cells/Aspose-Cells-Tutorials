@@ -85,6 +85,18 @@ Aspose.Cells와 Java를 사용하여 Excel 셀에서 수식 텍스트를 추출�
 
 ### [Aspose.Cells Java를 사용하여 Excel에서 Reduce 사용하기 – 람다 수식 가이드](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
 Java용 Aspose.Cells를 사용하여 Excel에서 Reduce 함수를 람다 수식으로 구현하고 활용하는 방법을 알아보세요.
+### [Java Excel 워크북에서 SEQUENCE 사용 방법 – 단계별 가이드](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+Aspose.Cells for Java를 사용하여 Excel 워크북에서 SEQUENCE 함수를 적용하고 활용하는 방법을 단계별로 안내합니다.
+### [Java에서 WRAPCOLS 사용 방법 – 완전한 Excel WRAPCOLS 예제](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+Java용 Aspose.Cells를 사용하여 WRAPCOLS 함수를 적용하고, 셀 데이터를 자동으로 래핑하는 전체 예제를 확인하세요.
+### [Excel에서 코탄젠트를 계산하는 방법 – 완전 가이드](./how-to-calculate-cotangent-in-excel-complete-guide/)
+Aspose.Cells for Java를 사용하여 Excel에서 코탄젠트 함수를 구현하고 계산하는 방법을 단계별로 안내합니다.
+### [Excel에서 고유값 정렬 – 배열 수식 설정을 위한 완전한 Java 가이드](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+Aspose.Cells for Java를 사용하여 고유값을 정렬하고 배열 수식을 설정하는 방법을 단계별로 안내합니다.
+### [Java에서 Aspose 사용 방법 – 새로운 함수로 Excel 워크북 만들기](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+새로운 함수를 사용하여 Excel 워크북을 생성하고 Aspose 기능을 활용하는 방법을 단계별로 안내합니다.
+
+
 
 ## 추가 자료
 

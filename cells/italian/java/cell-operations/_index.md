@@ -41,7 +41,6 @@ I nostri tutorial sulle operazioni delle celle ti offrono indicazioni pratiche e
 
 ### [Padroneggia il Sistema di Data 1904 in Excel usando Aspose.Cells Java per Operazioni Efficaci sulle Celle](./aspose-cells-java-configure-1904-date-system-excel/)
 
-### [Padroneggiare Aspose.Cells&#58; Implementare CopyOptions e PasteOptions in Java per la Gestione dei Dati Excel](./aspose-cells-java-copy-paste-options/)
 ### [Recupera data e ora da una cella in Java Excel – Guida completa](./get-datetime-from-cell-in-java-excel-complete-guide/)
 Scopri come estrarre data e ora da una cella Excel usando Aspose.Cells per Java, con esempi di codice completi.
 
@@ -57,6 +56,11 @@ Scopri come estrarre data e ora da una cella Excel usando Aspose.Cells per Java,
 ### [Padroneggiare Aspose.Cells per Java&#58; Guida alle Operazioni su Workbook e Celle](./aspose-cells-java-workbook-cell-operations/)
 
 ### [Come Convertire i Nomi delle Celle Excel in Indici usando Aspose.Cells per Java&#58; Guida Passo‑a‑Passo](./convert-excel-cell-names-to-indices-aspose-cells-java/)
+### [Analizza la data dell'era giapponese da Excel in Java – Guida completa](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Scopri come analizzare e convertire le date dell'era giapponese nei file Excel usando Aspose.Cells per Java, con esempi di codice completi.
+
+### [Padroneggiare Aspose.Cells: implementazione di CopyOptions e PasteOptions in Java per la gestione dei dati Excel](./aspose-cells-java-copy-paste-options/)
+Migliora la gestione dei dati Excel basata su Java con Aspose.Cells. Impara a usare CopyOptions e PasteOptions per gestire i riferimenti e incollare valori dalle celle visibili.
 
 ### [Come Convertire Testo in Numeri in Excel usando Aspose.Cells per Java](./convert-text-to-numbers-excel-aspose-cells-java/)
 

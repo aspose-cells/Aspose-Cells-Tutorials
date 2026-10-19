@@ -40,6 +40,18 @@ Dowiedz się, jak konwertować pliki DOCX do formatu XPS w C# przy użyciu Aspos
 Pełny przewodnik, jak w C# konwertować pliki Excel do formatu XPS przy użyciu Aspose.Cells, z praktycznymi przykładami kodu.
 ### [Utworzenie nowego skoroszytu Excel – przewodnik Unicode i eksportu XPS](./create-new-excel-workbook-unicode-xps-export-guide/)
 Dowiedz się, jak utworzyć nowy skoroszyt Excel obsługujący Unicode i wyeksportować go do formatu XPS przy użyciu Aspose.Cells.
+### [Osadzanie czcionek w XPS przy użyciu C# – Kompletny przewodnik programistyczny](./embed-fonts-in-xps-with-c-complete-programming-guide/)
+Dowiedz się, jak osadzić czcionki w dokumentach XPS przy użyciu C#, aby zapewnić prawidłowe wyświetlanie i drukowanie.
+### [Osadzanie czcionek w PDF przy użyciu Aspose.Cells – Kompletny przewodnik C#](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
+Dowiedz się, jak osadzić czcionki w plikach PDF generowanych z Excela przy użyciu Aspose.Cells w języku C#.
+### [Zapisz skoroszyt jako XPS w C# – przewodnik krok po kroku](./save-workbook-as-xps-in-c-step-by-step-guide/)
+Dowiedz się, jak zapisać skoroszyt Excel jako plik XPS w C# przy użyciu Aspose.Cells, krok po kroku z przykładami kodu.
+### [Konwersja Excela do XPS w C# i wczytanie pliku Excel](./convert-excel-to-xps-in-c-and-load-excel-file/)
+Dowiedz się, jak w C# konwertować plik Excel do formatu XPS oraz wczytywać plik Excel przy użyciu Aspose.Cells.
+### [Konwersja Excel do XPS w C# – Kompletny przewodnik krok po kroku](./convert-excel-to-xps-in-c-complete-step-by-step-guide/)
+Dowiedz się, jak w C# konwertować pliki Excel do formatu XPS, korzystając z pełnego przewodnika krok po kroku i praktycznych przykładów kodu.
+### [Jak włączyć czcionki przy konwertowaniu Excela do XPS – Kompletny przewodnik](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
+Dowiedz się, jak włączyć czcionki przy konwersji plików Excel do XPS, aby zachować ich wygląd, korzystając z praktycznych przykładów kodu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

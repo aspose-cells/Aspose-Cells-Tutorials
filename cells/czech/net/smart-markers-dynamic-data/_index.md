@@ -47,11 +47,17 @@ Věděli jste, že můžete vkládat HTML obsah přímo do excelových listů? D
 ## Vyhodnoťte IsBlank pomocí inteligentních značek
 Správa prázdných hodnot v datových sadách může být zložitá, ale Aspose.Cells to zjednodušuje díky schopnosti vyhodnocovat prázdné hodnoty pomocí inteligentních značek. Tato funkce vám umožňuje snadno kontrolovat prázdné buňky a podle toho upravovat logiku vytváření sestav. Díky této schopnosti mohou vaše sestavy automaticky řešit situace, kdy mohou chybět data, a zajistit tak, aby vaše publikum obdrželo jasné a přesné informace. Zjistěte, jak tuto funkci efektivně implementovat do svých sestav. [Číst dále](./evaluate-isblank-smart-markers/)
 
-## Implementace variabilního pole s inteligentními značkami
-Často pracujete s různým množstvím dat? Funkce variabilních polí v aplikaci Smart Markers vám umožňuje flexibilně spravovat seznamy dat. To znamená, že můžete generovat sestavy, které se přizpůsobí různým velikostem datových sad, aniž byste museli pokaždé přepracovávat šablony. Naučením se implementovat variabilní pole můžete zefektivnit procesy tvorby sestav a vylepšit prezentaci dat. Tento tutoriál rozebírá kroky, které vám pomohou začít s variabilními poli ve vašich sestavách. [Číst dále](./variable-array-smart-markers/)
+### [Jak vyhodnotit vzorec pomocí inteligentních značek – Kompletní průvodce](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
+Kompletní návod, jak pomocí inteligentních značek v Aspose.Cells vyhodnotit vzorce a generovat dynamické reporty v Excelu.
+
+### [Rozsahová inteligentní značka pro zpracování vnořených dat v C# – Kompletní průvodce](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
+Kompletní návod, jak pomocí rozsahových inteligentních značek zpracovat vnořená data v C#.
 
 ## Použití generického seznamu v inteligentních značkách
 Flexibilita generických seznamů umožňuje vývojářům zpracovávat data strukturovaným způsobem bez ztráty výkonu. V tomto tutoriálu se naučíte, jak využít generické seznamy s inteligentními značkami k vytváření robustních a dynamických sestav v Excelu. Tento přístup zajišťuje snadnou manipulaci s kolekcemi dat a zároveň zachování silné typové bezpečnosti a výkonu ve vašich aplikacích. Sledujte dále a uvidíte, jak to může prospět při generování vašich sestav. [Číst dále](./generic-list-smart-markers/)
+
+## Opakování listů – Kompletní průvodce pro automatizaci Excelu
+Naučte se, jak pomocí Aspose.Cells opakovat listy v Excelu a automatizovat tvorbu opakujících se sešitů. [Číst dále](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 
 ## Inteligentní značky v Aspose.Cells pro dynamická data – tutoriály
 ### [Přidání vlastních popisků pomocí inteligentních značek v Aspose.Cells](./add-custom-labels-smart-markers/)
@@ -83,15 +89,23 @@ Naučte se používat parametry vzorců v inteligentních značkovačích s Aspo
 ### [Použití generického seznamu v inteligentních markerech Aspose.Cells](./generic-list-smart-markers/)
 Zvládněte Aspose.Cells pro .NET s generickými seznamy a inteligentními značkami pro snadné vytváření dynamických sestav v Excelu. Snadný průvodce pro vývojáře.
 ### [Použití HTML vlastnosti v inteligentních markerech Aspose.Cells .NET](./html-property-smart-markers/)
-Odemkněte sílu Aspose.Cells s tímto podrobným návodem o použití vlastnosti HTML v inteligentních značkovačích pro aplikace .NET.
+Odemkněte sílu Aspose.Cells s tímto podrobným návodem o použití vlastnosti HTML v inteligentních značkovacích pro aplikace .NET.
 ### [Zvládání vnořených objektů pomocí inteligentních značek Aspose.Cells](./nested-objects-smart-markers/)
 Odemkněte potenciál reportingu v Excelu s Aspose.Cells a snadno zvládněte vnořené objekty pomocí inteligentních značek v podrobném návodu.
 ### [Povolení možnosti vnořeného rozsahu v Aspose.Cells SmartMarker](./enable-nested-range-option-in-aspose-cells-smartmarker/)
 Naučte se, jak povolit možnost vnořeného rozsahu v Aspose.Cells SmartMarker a generovat komplexní tabulky s vnořenými daty.
 ### [Implementace variabilního pole s inteligentními značkami Aspose.Cells](./variable-array-smart-markers/)
 Odemkněte sílu Aspose.Cells. Naučte se krok za krokem implementovat proměnná pole pomocí inteligentních markerů pro bezproblémové generování sestav v Excelu.
+### [Použití SmartMarkeru na list v C# – Kompletní průvodce](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
+Naučte se, jak aplikovat SmartMarker na konkrétní list v Excelu pomocí C# a vytvořit tak dynamické reporty.
+
+### [Vytvoření Excelu programově pomocí Aspose.Cells Smart Markers](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+Naučte se, jak pomocí Aspose.Cells Smart Markers programově vytvořit soubor Excel a naplnit jej daty.
+
 ### [Převod JSON do Excelu pomocí C# – krok za krokem](./convert-json-to-excel-with-c-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Cells v C# převést data ve formátu JSON do souboru Excel pomocí podrobného průvodce.
+
+### [Převod JSON do XLSX v C# pomocí SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
 
 ### [Vytvoření sešitu z XLSX pomocí Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
 Naučte se, jak pomocí SmartMarkerProcessor vytvořit nový sešit z existujícího souboru XLSX v Aspose.Cells pro .NET.
@@ -132,6 +146,10 @@ Kompletní návod, jak pomocí Aspose.Cells SmartMarker v C# vytvořit dynamick�
 Kompletní návod v C#, jak vytvořit kolekci inteligentních značek pro generování dynamických Excelových sestav pomocí Aspose.Cells.
 
 ### [Jak vytvořit sešit pomocí inteligentních značek – Průvodce Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+Naučte se krok po kroku, jak pomocí Aspose.Cells vytvořit sešit s inteligentními značkami a generovat dynamické reporty v Excelu.
+
+### [Vytvořte Excel sešit programově pomocí inteligentních značek](./create-excel-workbook-programmatically-using-smart-markers/)
+Naučte se pomocí Aspose.Cells a Smart Markers programově vytvořit Excel sešit s dynamickým obsahem.
 
 ### [Automatické pojmenování listů Excel – Snadný způsob, jak generovat listy](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
 Naučte se automaticky pojmenovávat listy v Excelu pomocí Aspose.Cells a zjednodušte generování sešitů.
@@ -152,8 +170,27 @@ Naučte se automatizovat tvorbu faktur s dynamickým pojmenováním listů a opa
 Naučte se, jak parsovat vnořené JSON struktury v C# a vytvořit JSON payload pro vaše aplikace.
 ### [Jak vytvořit sešit s inteligentními značkami – výstup High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
 Naučte se pomocí inteligentních značek vytvořit sešit, který generuje výstup High a Low hodnoty.
-### [Vytvoření hlavního a podrobného reportu v C# – Naplnění šablony Excel pomocí SmartMarkeru](./create-master-detail-report-in-c-populate-excel-template-wit/)
+### [Vytvoření hlavního a podrobného reportu v C# – Naplnění šablony Excel pomocí SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
 Naučte se vytvořit hlavní‑detailní report v C# a naplnit Excel šablonu pomocí SmartMarkeru v Aspose.Cells.
+### [Generování více listů pomocí SmartMarker – Kompletní průvodce v C#](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
+Naučte se pomocí SmartMarker v Aspose.Cells generovat více listů v Excelu pomocí kompletního C# průvodce.
+### [Aspose Cells Smart Markers: Generování Excelu z modelu v C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
+### [Export dat do Excelu – Kompletní průvodce vyplněním šablony Excel pomocí inteligentních značek](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
+
+### [Jak vytvořit data pro inteligentní značky a vyplnit šablonu Excel](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
+
+## Načtení šablony Excel v C# – rychlé generování více listů
+Naučte se načíst Excel šablonu v C# a během okamžiku vytvořit více listů s dynamickými daty.
+### [Import JSON do Excelu v C# – krok za krokem](./import-json-to-excel-in-c-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells importovat JSON data do souboru Excel v C# krok za krokem.
+### [Jak vytvořit seznam excelových reportů pomocí inteligentních značek](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+Naučte se pomocí Aspose.Cells a inteligentních značek generovat seznamy reportů v Excelu s dynamickým obsahem.
+
+### [Průvodce hlavním a podrobným sešitem – vyplňování šablon pomocí inteligentních značek](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+Naučte se, jak pomocí inteligentních značek naplnit šablony Excelu pro hlavní a podrobné reporty.
+
+### [Vytvoření hlavního a podrobného sešitu pomocí Aspose.Cells Smart Marker](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+Naučte se vytvořit hlavní a podrobný sešit v Excelu pomocí Aspose.Cells Smart Marker a generovat hierarchické reporty.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -161,3 +198,4 @@ Naučte se vytvořit hlavní‑detailní report v C# a naplnit Excel šablonu po
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

@@ -55,6 +55,8 @@
 วิธีซ่อนหรือเอาปุ่ม AutoFilter ออกจากแถบเครื่องมือใน Excel ด้วย Aspose.Cells สำหรับ .NET เพื่อ UI ที่สะอาดตา
 ### [ซ่อนลูกศรตัวกรองใน Excel ด้วย C# – คู่มือฉบับสมบูรณ์](./hide-filter-arrows-excel-with-c-complete-guide/)
 เรียนรู้วิธีซ่อนลูกศรตัวกรองใน Excel ด้วย C# อย่างครบถ้วนโดยใช้ Aspose.Cells
+### [เพิ่มตารางใน Excel ด้วย C# – ล้าง Autofilter และบันทึกไฟล์](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
+เรียนรู้วิธีเพิ่มตารางใน Excel ด้วย C# พร้อมล้าง Autofilter และบันทึกไฟล์อย่างง่ายดาย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

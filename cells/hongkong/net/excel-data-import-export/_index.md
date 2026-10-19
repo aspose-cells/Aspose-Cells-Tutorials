@@ -57,6 +57,10 @@
 學習如何使用 Aspose.Cells for .NET 在 C# 中建立新工作簿，並快速將 Markdown 轉換為 Excel。
 ### [JSON 資料轉 Excel – 完整指南：將 JSON 陣列轉換為 Excel](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
 本教學說明如何使用 Aspose.Cells for .NET 將 JSON 陣列資料轉換為 Excel 工作表，步驟完整且易於實作。
+### [在 C# 中將工作表轉換為 DataTable – 完整程式設計指南](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
+學習如何使用 Aspose.Cells for .NET 在 C# 中將 Excel 工作表轉換為 DataTable，完整的程式設計指南。
+### [使用 Aspose.Cells 將 JSON 匯入 Excel – 完整程式設計指南](./import-json-to-excel-with-aspose-cells-complete-programming/)
+本教學說明如何使用 Aspose.Cells for .NET 將 JSON 資料匯入 Excel，涵蓋完整程式碼示例與步驟說明。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

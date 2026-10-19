@@ -69,6 +69,18 @@ Leer hoe u met Aspose.Cells een draaitabel uit een Excel-werkblad exporteert als
 Leer hoe je met Aspose.Cells een nieuw Excel-werkboek maakt in C# en Markdown-inhoud importeert.
 ### [Markdown naar Excel converteren – Complete C#-gids](./convert-markdown-to-excel-complete-c-guide/)
 Leer hoe je markdown-bestanden omzet naar Excel met een volledige C#-handleiding, stap voor stap met Aspose.Cells.
+### [Export Excel naar PNG met Aspose.Cells – Complete stapsgewijze handleiding](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Leer hoe u Excel-bestanden kunt exporteren naar PNG met Aspose.Cells in .NET via een volledige stapsgewijze handleiding.
+### [Hoe XLSX naar PNG converteren – Complete C# gids](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Leer hoe je XLSX-bestanden naar PNG-afbeeldingen converteert met Aspose.Cells in C# – een volledige stapsgewijze gids.
+### [Hoe speciale tekens in Excel invoegen – Stapsgewijze gids](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Leer hoe u speciale tekens in Excel kunt invoegen met Aspose.Cells in .NET – een volledige stap‑voor‑stap handleiding.
+### [PNG-afbeelding opslaan vanuit Excel-pivot-tabel in C# – Complete gids](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Leer hoe u een PNG-afbeelding van een Excel-pivot‑tabel kunt exporteren met Aspose.Cells in C#.
+### [Lettertypen insluiten in HTML – Complete gids voor het converteren van DOCX naar HTML met volledige lettertypeondersteuning](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Leer hoe u lettertypen insluit bij het converteren van DOCX naar HTML met volledige ondersteuning, met Aspose.Words in .NET.
+### [Hoe lettertypen in HTML insluiten vanuit een DOCX – Complete gids](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Leer hoe u lettertypen uit een DOCX-document in HTML kunt insluiten met Aspose.Words voor .NET. Volg de stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

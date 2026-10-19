@@ -54,6 +54,8 @@ Dowiedz się, jak usunąć autofiltr w Excelu przy użyciu Aspose.Cells w .NET, 
 Dowiedz się, jak ukryć przycisk AutoFilter w Excelu przy użyciu Aspose.Cells i C#, aby uzyskać czystszy interfejs użytkownika.
 ### [Ukryj strzałki filtrów w Excelu w C# – Kompletny przewodnik](./hide-filter-arrows-excel-with-c-complete-guide/)
 Dowiedz się, jak ukrywać strzałki filtrów w arkuszach Excel przy użyciu Aspose.Cells w C#, aby uzyskać czystszy wygląd i lepszą kontrolę nad danymi.
+### [Dodaj tabelę do Excela w C# – wyczyść autofilter i zapisz plik](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
+Dowiedz się, jak dodać tabelę do pliku Excel w C#, wyczyścić autofilter i zapisać zmiany przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

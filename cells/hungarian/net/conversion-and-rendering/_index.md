@@ -68,6 +68,18 @@ Tanuld meg, hogyan hozhatsz létre új Excel munkafüzetet C#-ban, és importál
 
 ### [Markdown konvertálása Excelbe – Teljes C# útmutató](./convert-markdown-to-excel-complete-c-guide/)
 Tanuld meg, hogyan alakíthatod át a Markdown fájlokat Excel táblázatokká C# segítségével az Aspose.Cells használatával.
+### [Excel exportálása PNG-be az Aspose.Cells segítségével – Teljes lépésről‑lépésre útmutató](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Tanuld meg, hogyan exportálhatsz Excel-fájlokat PNG képekké az Aspose.Cells használatával .NET környezetben, részletes lépésekkel.
+### [Hogyan konvertáljunk XLSX-et PNG-re – Teljes C# útmutató](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Tanulja meg, hogyan konvertálhatja az XLSX fájlokat PNG képekké C#-ban az Aspose.Cells segítségével, lépésről lépésre útmutatóval.
+### [Hogyan illesszünk speciális karaktereket az Excelbe – Lépésről‑lépésre útmutató](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Tanulja meg, hogyan illeszthet speciális karaktereket Excelbe lépésről‑lépésre az Aspose.Cells segítségével.
+### [PNG kép mentése Excel pivot táblából C#-ban – Teljes útmutató](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Tanuld meg, hogyan menthetsz PNG képet egy Excel pivot táblából C#-ban az Aspose.Cells használatával.
+### [Betűtípusok beágyazása HTML-ben – Teljes útmutató a DOCX HTML-re konvertálásához teljes betűtípus-támogatással](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Tanuld meg, hogyan ágyazhatod be a betűtípusokat HTML-be a DOCX konvertálás során, hogy a megjelenés minden eszközön megmaradjon.
+### [Betűtípusok beágyazása HTML-be DOCX-ből – Teljes útmutató](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Tanuld meg, hogyan ágyazhatod be a DOCX dokumentumban használt betűtípusokat HTML-be az Aspose.Words segítségével .NET-ben.
 
 ### [JSON konvertálása Excelbe C#-ban egyetlen vesszővel elválasztott cellával](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
 Tanuld meg, hogyan konvertálhatsz JSON adatot Excel munkafüzetbe C#-ban egyetlen vesszővel elválasztott cella használatával.

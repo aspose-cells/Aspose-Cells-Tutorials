@@ -55,6 +55,17 @@ Aspose.Cells Net 代码教程
 本指南详细演示如何在 C# 中使用 Aspose.Cells 从 Excel 模板创建工作簿并填充数据。
 ### [使用 Aspose.Cells 创建工作簿模板 – 完整指南](./create-workbook-template-with-aspose-cells-complete-guide/)
 学习如何使用 Aspose.Cells 创建工作簿模板并进行完整的报表生成，涵盖模板设计、数据绑定和导出。
+### [如何保存 Excel 模板文件 – 步骤指南](./how-to-save-excel-template-file-step-by-step-guide/)
+本教程详细演示了在 Aspose.Cells for .NET 中保存 Excel 模板文件的步骤和最佳实践。
+
+### [如何在 C# 中处理 Excel 模板并自动命名工作表](./how-to-process-excel-template-and-automatically-name-sheets)
+
+### [使用 C# 模板导出数据到 Excel – 步骤指南](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
+### [使用 C# 生成 Excel 报表 – 步骤指南](./generate-excel-report-with-c-step-by-step-guide/)
+学习如何使用 C# 与 Aspose.Cells 逐步生成 Excel 报表，涵盖模板创建、数据绑定和导出。
+
+### [如何在 Excel 中展开数组并填充模板](./how-to-expand-array-in-excel-and-populate-a-template)
+学习如何在 Excel 中展开数组并将数据填充到模板，实现动态报表生成。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

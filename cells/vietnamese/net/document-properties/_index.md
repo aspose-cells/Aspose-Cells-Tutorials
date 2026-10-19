@@ -61,6 +61,12 @@ Hướng dẫn chi tiết cách lưu tệp XLSB và thêm thuộc tính tùy ch�
 Tìm hiểu cách tạo workbook Excel bằng C#, thêm thuộc tính tùy chỉnh và lưu dưới dạng XLSB.
 ### [Cách Thêm Thuộc Tính Tùy Chỉnh trong Excel bằng C# – Hướng Dẫn Từng Bước](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
 Tìm hiểu cách thêm thuộc tính tùy chỉnh vào Excel bằng C# với Aspose.Cells cho .NET qua hướng dẫn chi tiết từng bước.
+### [Cách Thêm Siêu Dữ Liệu Excel – Hướng Dẫn Toàn Diện Workbook C#](./how-to-add-excel-metadata-complete-c-workbook-guide/)
+Tìm hiểu cách thêm siêu dữ liệu vào tệp Excel bằng Aspose.Cells cho .NET với hướng dẫn chi tiết từng bước.
+### [Tạo Thuộc Tính Tùy Chỉnh Aspose – Hướng Dẫn Excel Toàn Diện](./create-custom-property-aspose-complete-excel-guide/)
+Tìm hiểu cách tạo thuộc tính tùy chỉnh trong Excel bằng Aspose.Cells cho .NET qua hướng dẫn chi tiết và đầy đủ.
+### [Cách Lưu XLSB và Thêm Thuộc Tính Tài Liệu Tùy Chỉnh trong C#](./how-to-save-xlsb-and-add-custom-document-properties-in-c/)
+Hướng dẫn lưu tệp XLSB và chèn các thuộc tính tài liệu tùy chỉnh bằng Aspose.Cells cho .NET trong C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

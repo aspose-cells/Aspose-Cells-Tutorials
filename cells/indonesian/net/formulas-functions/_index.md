@@ -99,8 +99,8 @@ Pelajari cara menguasai rumus array menggunakan Aspose.Cells untuk .NET. Panduan
 ### [Cara Mengatur Bahasa dalam File Excel Menggunakan Aspose.Cells .NET untuk Dukungan Multibahasa](./specify-language-excel-aspose-cells-net)
 Pelajari cara menentukan bahasa file Excel Anda menggunakan Aspose.Cells .NET. Tingkatkan aksesibilitas dan kepatuhan dokumen dengan panduan langkah demi langkah ini untuk menginternasionalkan pengaturan rumus.
 
-### [Memperbarui Rumus Excel Power Query dengan Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
-Pelajari cara memperbarui rumus Power Query secara terprogram di buku kerja Excel menggunakan Aspose.Cells untuk .NET. Kelola sumber data utama untuk pelaporan dinamis.
+### [Buat Buku Kerja Excel dengan Rumus EXPAND – Panduan Lengkap](./create-excel-workbook-with-expand-formula-complete-guide/)
+Pelajari cara membuat buku kerja Excel dan menerapkan rumus EXPAND secara terprogram menggunakan Aspose.Cells untuk .NET.
 
 ### [Cara Menggunakan Lambda di C# dengan Rumus Excel – Panduan Lengkap](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
 Pelajari cara memanfaatkan ekspresi lambda di C# untuk membuat dan menghitung rumus Excel secara dinamis dengan Aspose.Cells.
@@ -108,6 +108,16 @@ Pelajari cara memanfaatkan ekspresi lambda di C# untuk membuat dan menghitung ru
 Pelajari cara menggunakan fungsi WRAPCOLS di C# untuk membuat workbook Excel dengan kemampuan pembungkusan data secara otomatis.
 ### [Cara Menghitung Kotangen di Excel dengan C# – Buat Workbook, Gunakan EXPAND, dan Simpan](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
 Pelajari cara menghitung nilai kotangen di Excel menggunakan C#, membuat workbook, menerapkan fungsi EXPAND, dan menyimpan file.
+### [Cara Menggunakan WRAPCOLS di C# – Mengubah Array Menjadi Matriks di Excel](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
+Pelajari cara menggunakan fungsi WRAPCOLS di C# untuk mengubah data array menjadi matriks dalam lembar kerja Excel dengan Aspose.Cells.
+
+### [Memperbarui Rumus Excel Power Query dengan Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
+Pelajari cara memperbarui rumus Power Query secara terprogram di buku kerja Excel menggunakan Aspose.Cells untuk .NET. Kelola sumber data utama untuk pelaporan dinamis.
+
+### [Cara Menggunakan SEQUENCE di C# – Membuat Workbook Excel](./how-to-use-sequence-in-c-create-excel-workbook/)
+
+### [Menulis Rumus Array di C# – Panduan Pemrograman Lengkap](./write-array-formula-in-c-complete-programming-guide/)
+Pelajari cara menulis rumus array di Excel menggunakan C# dengan Aspose.Cells, termasuk contoh lengkap dan langkah‑langkah implementasinya.
 
 ## Memahami Jenis Rumus Excel
 

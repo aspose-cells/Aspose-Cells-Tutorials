@@ -33,6 +33,9 @@ Lär dig hur du får åtkomst till dokumentegenskaper i Excel med Aspose.Cells f
 Lär dig hur du får åtkomst till dokumentegenskaper i Excel med Aspose.Cells för .NET med vår steg-för-steg-guide. Hantera dina kalkylblad effektivt.
 ### [Lägga till dokumentegenskaper i .NET](./adding-document-properties/)
 Lär dig hur du lägger till dokumentegenskaper i Excel med hjälp av Aspose.Cells för .NET med den här detaljerade steg-för-steg-guiden.
+### [Hur man lägger till Excel-metadata – Komplett C#-arbetsboksguide](./how-to-add-excel-metadata-complete-c-workbook-guide/)
+Lär dig hur du lägger till metadata i Excel med en komplett C#-arbetsboksguide för effektiv filhantering.
+
 ### [Skapa Excel-arbetsbok – Lägg till anpassade egenskaper och spara som XLSB](./create-excel-workbook-add-custom-properties-and-save-as-xlsb/)
 Lär dig hur du skapar en Excel-arbetsbok, lägger till anpassade dokumentegenskaper och sparar den som en XLSB-fil med Aspose.Cells för .NET.
 ### [Hur du sparar XLSB med anpassade egenskaper i C# – Steg‑för‑steg‑guide](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
@@ -61,6 +64,10 @@ Lär dig hur du sparar en XLSB-fil med en anpassad egenskap i C# med Aspose.Cell
 Lär dig hur du skapar en Excel-arbetsbok i C#, lägger till en anpassad egenskap och sparar den som XLSB med Aspose.Cells för .NET.
 ### [Hur du lägger till en anpassad egenskap i Excel med C# – Steg‑för‑steg‑guide](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
 Lär dig hur du lägger till en anpassad egenskap i ett Excel‑ark med C# och Aspose.Cells i en tydlig steg‑för‑steg‑guide.
+### [Skapa anpassad egenskap Aspose – Komplett Excel-guide](./create-custom-property-aspose-complete-excel-guide/)
+Lär dig hur du skapar anpassade egenskaper i Excel med Aspose.Cells för .NET i vår kompletta steg-för-steg-guide.
+### [Spara XLSB och lägg till anpassade dokumentegenskaper i C#](./how-to-save-xlsb-and-add-custom-document-properties-in-c/)
+Lär dig hur du sparar en arbetsbok som XLSB och lägger till egna dokumentegenskaper med Aspose.Cells för .NET i C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

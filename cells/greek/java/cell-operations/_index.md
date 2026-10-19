@@ -80,6 +80,8 @@ weight: 4
 Ένα tutorial κώδικα για Aspose.Words Java
 ### [Μετατροπή κελιού σε συμβολοσειρά σε Java – Πλήρης οδηγός εξαγωγής](./convert-cell-to-string-in-java-complete-export-guide/)
 Μάθετε πώς να μετατρέψετε ένα κελί σε συμβολοσειρά και να το εξάγετε με το Aspose.Cells για Java.
+### [Ανάλυση ημερομηνίας ιαπωνικής εποχής από το Excel σε Java – Πλήρης οδηγός](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Μάθετε πώς να εξάγετε και να μετατρέπετε ημερομηνίες ιαπωνικής εποχής από αρχεία Excel χρησιμοποιώντας το Aspose.Cells για Java.
 
 ## Πρόσθετοι Πόροι
 

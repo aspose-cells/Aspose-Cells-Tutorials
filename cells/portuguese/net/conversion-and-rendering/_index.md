@@ -65,6 +65,18 @@ Aprenda a exportar uma Tabela Dinâmica do Excel como imagem PNG usando Aspose.C
 Aprenda a criar uma nova pasta de trabalho e importar conteúdo Markdown para Excel usando Aspose.Cells em C#.
 ### [Converter markdown para Excel – Guia completo em C#](./convert-markdown-to-excel-complete-c-guide/)
 Aprenda a transformar arquivos markdown em planilhas Excel usando C# e Aspose.Cells, com passo a passo detalhado.
+### [Exportando Excel para PNG com Aspose.Cells – Guia Completo Passo a Passo](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Aprenda a exportar planilhas do Excel para imagens PNG usando Aspose.Cells no .NET com este guia passo a passo.
+### [Como converter XLSX para PNG – Guia completo em C#](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Aprenda a transformar arquivos XLSX em imagens PNG usando Aspose.Cells e C#, passo a passo, para visualização rápida.
+### [Como Inserir Caracteres Especiais no Excel – Guia Passo a Passo](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Aprenda a inserir caracteres especiais no Excel usando Aspose.Cells passo a passo, facilitando a personalização de planilhas.
+### [Salvar imagem PNG de tabela dinâmica do Excel em C# – Guia completo](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Aprenda a extrair e salvar imagens PNG de tabelas dinâmicas do Excel usando Aspose.Cells em C# com este guia passo a passo.
+### [Incorporar fontes em HTML – Guia completo para converter DOCX em HTML com suporte total a fontes](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Aprenda a converter documentos DOCX para HTML preservando todas as fontes, garantindo que o layout fique fiel ao original.
+### [Como incorporar fontes em HTML a partir de um DOCX – Guia completo](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Aprenda a incorporar fontes de documentos DOCX em páginas HTML usando Aspose.Words, garantindo renderização correta em navegadores.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

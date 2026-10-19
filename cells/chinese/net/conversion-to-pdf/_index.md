@@ -61,6 +61,16 @@
 通过本完整 C# 指南，学习使用 Aspose.Words 将 Word 文档转换并保存为 PDF，适用于各类开发者。
 ### [在将 Excel 转换为 PDF 时嵌入字体 – 步骤指南](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
 使用 Aspose.Cells for .NET 学习如何在转换为 PDF 时嵌入字体，确保文档在任何设备上保持一致的外观。
+### [在 PDF 中嵌入字体 – 完整的 C# 指南将 Excel 导出为 PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
+通过本完整 C# 指南，学习如何在导出 Excel 为 PDF 时嵌入字体，确保文档在任何设备上保持一致显示。
+### [如何从 Excel 导出 PDF – 完整指南：将工作簿保存为 PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
+本指南详细演示如何使用 Aspose.Cells 将 Excel 工作簿导出为 PDF，实现高质量保存。
+### [在 C# 中将 XLSX 保存为 PDF – 完整指南（PDF/A‑1b）](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)
+通过本完整指南，学习在 C# 中使用 Aspose.Cells 将 XLSX 文件转换为 PDF，并生成符合 PDF/A‑1b 标准的文档。
+### [在 C# 中将 Excel 转换为 PDF – 完整编程指南](./convert-excel-to-pdf-in-c-complete-programming-guide/)
+使用 Aspose.Cells for .NET 的完整指南，帮助您在 C# 中将 Excel 文件高效转换为 PDF。
+### [使用字体变体选择器保存 PDF – 完整指南](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
+了解如何在保存 PDF 时正确处理字体变体选择器，确保文档显示完整且兼容各种设备。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

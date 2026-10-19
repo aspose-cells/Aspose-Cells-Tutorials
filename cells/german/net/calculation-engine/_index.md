@@ -51,6 +51,8 @@ Erfahren Sie, wie Sie Excel-Berechnungszeiten mithilfe rekursiver Optionen in As
 Erfahren Sie, wie Sie in C# die Berechnung von Excel-Formeln zwangsweise ausführen, um stets aktuelle Ergebnisse zu erhalten.
 ### [Excel-Arbeitsmappe erstellen – Array in Matrix mit WRAPCOLS konvertieren](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
 Erfahren Sie, wie Sie mit Aspose.Cells ein Excel-Arbeitsbuch erstellen und ein eindimensionales Array mithilfe von WRAPCOLS in eine Matrix umwandeln.
+### [Formeln in C# auswerten – Vollständiger Aspose.Cells Leitfaden](./how-to-evaluate-formulas-in-c-complete-aspose-cells-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells in C# Excel-Formeln vollständig auswerten, inklusive Codebeispielen und Best Practices.
 
 ## Vorteile
 

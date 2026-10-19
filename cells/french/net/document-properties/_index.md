@@ -61,6 +61,12 @@ Apprenez à enregistrer un classeur XLSB en ajoutant une propriété personnalis
 Découvrez comment créer un classeur Excel en C#, ajouter une propriété personnalisée et le sauvegarder au format XLSB avec Aspose.Cells.
 ### [Comment ajouter une propriété personnalisée dans Excel avec C# – Guide étape par étape](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
 Apprenez à créer et ajouter une propriété personnalisée à un classeur Excel en C# avec Aspose.Cells, grâce à ce guide détaillé.
+### [Comment ajouter des métadonnées Excel – Guide complet du classeur C#](./how-to-add-excel-metadata-complete-c-workbook-guide/)
+Apprenez à ajouter des métadonnées à vos fichiers Excel avec Aspose.Cells pour .NET grâce à ce guide complet étape par étape.
+### [Créer une propriété personnalisée Aspose – Guide complet Excel](./create-custom-property-aspose-complete-excel-guide/)
+Apprenez à créer une propriété personnalisée dans Excel avec Aspose.Cells pour .NET grâce à notre guide complet étape par étape.
+### [Comment enregistrer XLSB et ajouter des propriétés de document personnalisées en C#](./how-to-save-xlsb-and-add-custom-document-properties-in-c/)
+Apprenez à enregistrer un fichier XLSB et à ajouter des propriétés de document personnalisées avec Aspose.Cells pour .NET en C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

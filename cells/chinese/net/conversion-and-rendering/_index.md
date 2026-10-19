@@ -23,11 +23,11 @@
 
 ## 在 .NET 中将工作表转换为 SVG
 
-接下来是有关在 .NET 中将工作表转换为 SVG 格式的教程。如果您一直希望让 Excel 数据更具视觉吸引力且易于网页浏览，那么 SVG 就是您的最佳选择！这种矢量格式可确保您的图表和图形无论屏幕尺寸如何都能保持其质量。使用 Aspose.Cells，一切变得非常简单。本指南将指导您完成整个过程，即使不熟悉 SVG 技术细节的人也能轻松上手。想学习如何增强您的网页演示文稿吗？查看完整教程 [这里](./converting-worksheet-to-svg/).
+接下来是有关在 .NET 中将工作表转换为 SVG 格式的教程。如果您一直希望让 Excel 数据更具视觉吸引力且易于网页浏览，那么 SVG 就是您的最佳选择！这种矢量格式可确保您的图表和图形无论屏幕尺寸如何都能保持其质量。使用 Aspose.Cells，一切变得非常简单。本指南将指导您完成整个过程，即使不熟悉 SVG 技术细节的人也能轻松上手。想学习如何增强您的网页演示文稿吗？查看完整教程 [这里](./converting-worksheet-to-svg/)。
 
 ## 在 .NET 中将 Excel 转换为 MHTML
 
-最后，我们一定不能忘记在 .NET 中将 Excel 转换为 MHTML 的指南。MHTML 非常适合捕捉电子表格的精髓及其格式，让您能够共享完整的报告。本教程将帮助您提升报告功能，实现无缝高效的协作。对于任何认真对待数据共享的人来说，这都是必读之作！深入了解这本实用指南吧！ [这里](./converting-excel-to-mhtml/).
+最后，我们一定不能忘记在 .NET 中将 Excel 转换为 MHTML 的指南。MHTML 非常适合捕捉电子表格的精髓及其格式，让您能够共享完整的报告。本教程将帮助您提升报告功能，实现无缝高效的协作。对于任何认真对待数据共享的人来说，这都是必读之作！深入了解这本实用指南吧！ [这里](./converting-excel-to-mhtml/)。
 
 ## 转换和渲染教程
 ### [.NET 中的高级 PDF 转换](./advanced-conversion-to-pdf/)
@@ -71,6 +71,18 @@
 了解如何使用 Aspose.Cells for .NET 在 C# 中创建工作簿并将 Markdown 内容导入 Excel，实现快速文档转换。
 ### [将 Markdown 转换为 Excel – 完整 C# 指南](./convert-markdown-to-excel-complete-c-guide/)
 学习如何使用 C# 将 Markdown 内容转换为 Excel 文件的完整步骤和示例。
+### [使用 Aspose.Cells 将 Excel 导出为 PNG – 完整分步指南](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+本指南详细演示如何使用 Aspose.Cells 将 Excel 工作表导出为高质量 PNG 图像，步骤清晰易懂。
+### [如何将 XLSX 转换为 PNG – 完整 C# 指南](./how-to-convert-xlsx-to-png-complete-c-guide/)
+本指南详细演示如何使用 Aspose.Cells for .NET 将 XLSX 文件转换为 PNG 图像，适用于 C# 开发者。
+### [如何在 Excel 中插入特殊字符 – 步骤式指南](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+本指南详细演示如何使用 Aspose.Cells for .NET 在 Excel 中插入特殊字符，帮助您实现更丰富的文档内容。
+### [在 C# 中从 Excel 数据透视表保存 PNG 图像 – 完整指南](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+学习如何使用 Aspose.Cells for .NET 在 C# 中将 Excel 数据透视表导出为 PNG 图像，提供完整的分步指南。
+### [在 HTML 中嵌入字体 – 完整的 DOCX 转 HTML 转换指南，支持完整字体](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+学习如何使用 Aspose.Words 将 DOCX 转换为 HTML 并嵌入完整字体，提供详细的分步指南。
+### [如何在 HTML 中嵌入来自 DOCX 的字体 – 完整指南](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+本指南详细说明如何使用 Aspose.Words 将 DOCX 文档中的字体嵌入到生成的 HTML 中，确保跨平台显示一致。
 
 ### [如何在 C# 中将 JSON 转换为 Excel（单个逗号分隔单元格）](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
 学习如何使用 Aspose.Cells for .NET 将 JSON 数据转换为 Excel，单元格以逗号分隔。

@@ -61,6 +61,16 @@ Aspose.Cells for .NET を使って、C# で PDF にフォントを埋め込む�
 Aspose.Words を使用して、Word ファイルを高品質な PDF に変換する手順をステップバイステップで解説します。
 ### [.NET で Excel を PDF に変換する際のフォント埋め込み方法 – ステップバイステップガイド](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
 このガイドでは、Excel を PDF に変換する際にフォントを埋め込む手順を詳しく解説します。
+### [PDFにフォントを埋め込む – 完全なC#ガイドでExcelをPDFにエクスポート](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
+この包括的なC#ガイドでは、ExcelをPDFにエクスポートする際のフォント埋め込み方法を詳しく解説します。
+### [Excel から PDF をエクスポートする方法 – ワークブックを PDF として保存する完全ガイド](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
+この完全ガイドでは、Excel ワークブックを PDF としてエクスポートする手順を詳しく解説します。
+### [C# で XLSX を PDF に保存 – PDF/A‑1b 完全ガイド](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)
+Aspose.Cells を使用して、C# で XLSX ファイルを PDF/A‑1b 形式で保存する手順を詳しく解説します。
+### [C#でExcelをPDFに変換する – 完全プログラミングガイド](./convert-excel-to-pdf-in-c-complete-programming-guide/)
+この包括的なガイドでは、C# を使用して Excel ファイルを PDF に変換する手順を詳しく解説します。
+### [フォントバリエーションセレクタで PDF を保存する完全ガイド](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
+フォントバリエーションセレクタを使用して PDF を保存する方法を完全に解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

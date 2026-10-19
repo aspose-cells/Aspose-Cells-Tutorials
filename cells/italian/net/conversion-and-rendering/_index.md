@@ -71,6 +71,18 @@ Impara a esportare una tabella pivot da Excel in formato PNG usando Aspose.Cells
 Scopri come creare un nuovo workbook in C# e importare contenuti Markdown in Excel con Aspose.Cells.
 ### [Converti markdown in Excel – Guida completa C#](./convert-markdown-to-excel-complete-c-guide/)
 Scopri come trasformare file markdown in fogli Excel usando C# e Aspose.Cells, con esempi passo passo.
+### [Esporta Excel in PNG con Aspose.Cells – Guida completa passo‑passo](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Impara a esportare i fogli di calcolo Excel in immagini PNG con Aspose.Cells per .NET, seguendo una guida dettagliata passo dopo passo.
+### [Come convertire XLSX in PNG – Guida completa C#](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Impara a trasformare file XLSX in immagini PNG usando Aspose.Cells e C#, passo passo.
+### [Come inserire caratteri speciali in Excel – Guida passo‑passo](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Scopri come inserire caratteri speciali in Excel con Aspose.Cells, passo dopo passo, per migliorare i tuoi fogli di calcolo.
+### [Salva immagine PNG da tabella pivot Excel in C# – Guida completa](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Impara a estrarre e salvare immagini PNG da una tabella pivot di Excel usando Aspose.Cells in C# con questa guida completa.
+### [Incorporare i font in HTML – Guida completa alla conversione di DOCX in HTML con supporto completo dei font](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Scopri come incorporare tutti i font durante la conversione di DOCX in HTML con Aspose.Words per .NET.
+### [Come incorporare i font in HTML da un DOCX – Guida completa](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Scopri come incorporare i font nei file HTML generati da documenti DOCX usando Aspose.Words per .NET, passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

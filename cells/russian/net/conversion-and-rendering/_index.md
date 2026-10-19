@@ -63,6 +63,18 @@
 Узнайте, как создать новую книгу Excel в C# и импортировать содержимое Markdown, используя Aspose.Cells.
 ### [Конвертация markdown в Excel – Полное руководство на C#](./convert-markdown-to-excel-complete-c-guide/)
 Узнайте, как преобразовать файлы markdown в Excel с помощью Aspose.Cells и C#, следуя пошаговому руководству.
+### [Экспорт Excel в PNG с Aspose.Cells – Полное пошаговое руководство](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Узнайте, как экспортировать файлы Excel в формат PNG с помощью Aspose.Cells, следуя полному пошаговому руководству.
+### [Как конвертировать XLSX в PNG – Полное руководство C#](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Узнайте, как преобразовать файлы XLSX в PNG с помощью Aspose.Cells в C#, следуя пошаговому руководству.
+### [Как вставить специальные символы в Excel – пошаговое руководство](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Узнайте, как вставлять специальные символы в Excel с помощью Aspose.Cells в .NET, следуя пошаговому руководству.
+### [Сохранение PNG‑изображения из сводной таблицы Excel в C# – Полное руководство](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Узнайте, как экспортировать диаграммы сводных таблиц Excel в PNG‑изображения с помощью Aspose.Cells в C#.
+### [Встраивание шрифтов в HTML – Полное руководство по конвертации DOCX в HTML с полной поддержкой шрифтов](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Узнайте, как встраивать шрифты при конвертации DOCX в HTML с помощью Aspose.Words, обеспечивая полную поддержку шрифтов в веб‑контенте.
+### [Как внедрить шрифты в HTML из DOCX – Полное руководство](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Узнайте, как внедрить шрифты из DOCX в HTML с помощью Aspose.Words, следуя нашему полному руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

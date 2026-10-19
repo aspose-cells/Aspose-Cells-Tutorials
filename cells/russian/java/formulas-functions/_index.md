@@ -85,6 +85,15 @@
 
 ### [Как использовать Reduce в Excel с Java – руководство по лямбда-формулам](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
 Узнайте, как применять функцию Reduce в формулах Excel с помощью Java и лямбда-выражений, улучшая обработку данных.
+### [Как использовать SEQUENCE в рабочей книге Excel на Java – пошаговое руководство](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+Узнайте, как применять функцию SEQUENCE в Excel с помощью Aspose.Cells для Java, включая примеры кода.
+### [Как использовать WRAPCOLS в Java – Полный пример Excel WRAPCOLS](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+Узнайте, как применять функцию WRAPCOLS в Aspose.Cells для Java, чтобы разбивать текст по столбцам в Excel с полным примером кода.
+### [Как вычислить котангенс в Excel – Полное руководство](./how-to-calculate-cotangent-in-excel-complete-guide/)
+Узнайте, как использовать функции Excel для расчета котангенса, включая примеры кода и рекомендации по точности.
+### [Сортировка уникальных значений в Excel – Полное руководство Java по установке формул массива](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+Узнайте, как сортировать уникальные значения и применять формулы массива в Excel с помощью Aspose.Cells для Java.
+### [Как использовать Aspose в Java – создать книгу Excel с новыми функциями](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
 
 ## Дополнительные ресурсы
 

@@ -50,46 +50,34 @@ Vannak gyakran használt egyéni függvényeid vagy bővítményeid? Nos, az Asp
 ## Sorkorlátok megadása megosztott képletekhez  
 Megosztott képletekkel való munka során fontos megérteni, hogyan lehet hatékonyan kezelni a sorkorlátokat. Ez segíthet megőrizni az átláthatóságot, miközben biztosítja, hogy a teljesítmény ne romoljon. Oktatóanyagunkban [A megosztott képlet maximális sorainak megadása Excelben](./specifying-maximum-rows-of-shared-formula/)betekintést nyújt abba, hogyan adhatja meg ezeket a korlátokat, ezáltal megelőzve a lehetséges lassulásokat vagy hibákat nagy adathalmazokban. Ugye nem szeretné, ha az Excel dugóként élne, ugye? A dolgok rendszerezése biztosítja az adatok zökkenőmentes áramlását.
 
-## Excel képletek és számítási lehetőségek oktatóanyagok
-### [Hogyan számítsuk ki a kotangenset Excelben C#‑val – Lépésről lépésre útmutató](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
-Ismerd meg, hogyan számítható ki a kotangens függvény Excelben C#‑ban, részletes, lépésről‑lépésre útmutatóval.
-
+### [Hogyan számítsuk ki a kotangenset Excelben C#‑val – Lépésről lépésre útmutató](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guide/)
 ### [Cellák hozzáadása a Microsoft Excel képletfigyelő ablakához](./adding-cells-to-microsoft-excel-formula-watch-window/)
-Tanuld meg, hogyan adhatsz hozzá cellákat az Excel Képletfigyelő ablakához az Aspose.Cells for .NET használatával ebből a lépésről lépésre szóló útmutatóból. Egyszerű és hatékony.
 ### [Képletek kiszámítása Excelben programozottan](./calculating-formulas/)
-Automatizáld Excel-feladataidat az Aspose.Cells for .NET segítségével. Tanuld meg, hogyan számíts ki képleteket programozottan ebben az átfogó oktatóanyagban.
 ### [Képletek programozott kiszámítása Excelben](./calculating-formulas-once/)
-Tanuld meg, hogyan számíthatsz ki Excel-képleteket programozottan az Aspose.Cells for .NET használatával ebben a lépésről lépésre szóló oktatóanyagban. Fejleszd Excel-automatizálási készségeidet.
 ### [Körhivatkozások észlelése Excelben programozottan](./detecting-circular-reference/)
-Könnyedén felismerheti a körkörös hivatkozásokat az Excelben az Aspose.Cells for .NET segítségével. Kövesse lépésről lépésre szóló útmutatónkat a táblázataiban szereplő pontos számítások biztosítása érdekében.
 ### [Közvetlen számítási képlet Excelben programozottan](./direct-calculation-formula/)
-Fedezze fel, hogyan használható az Aspose.Cells for .NET az Excel-számítások programozott végrehajtásához. Lépésről lépésre útmutató a könnyed Excel-műveletekhez.
+### [Hogyan számítsuk ki a kotangenset Excelben C#-val – Teljes útmutató](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 ### [Munkafüzet képletszámításának megszakítása vagy visszavonása](./interrupt-or-cancel-formula-calculation-of-workbook/)
-Ebben a részletes, lépésről lépésre szóló útmutatóban megtudhatja, hogyan szakíthatja meg az Excel képletek számításait az Aspose.Cells for .NET használatával.
 ### [Adatfeldolgozás bővítményfüggvények használatával Excelben](./processing-data-using-add-in-function/)
-Engedd szabadjára az Excelben rejlő lehetőségeket az Aspose.Cells for .NET segítségével. Tanuld meg lépésről lépésre, hogyan dolgozhatsz fel adatokat hatékony bővítményfüggvényekkel.
 ### [Adatfeldolgozás tömbfüggvény használatával Excelben](./processing-data-using-array-function/)
-Engedd szabadjára az Excel erejét az Aspose.Cells for .NET segítségével. Tanuld meg, hogyan dolgozz fel adatokat tömbfüggvényekkel ebben a részletes oktatóanyagban.
 ### [Hogyan hozzunk létre tömböt Excelben C#‑val – Lépés‑ről‑lépésre útmutató](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
-Fedezze fel, hogyan hozhat létre tömböt Excelben C#‑ban részletes, lépésről‑lépésre útmutatóval.
-
 ### [Hogyan használjuk a WRAPCOLS-t C#-ban – Tömbök átalakítása mátrixokká](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
-Ismerje meg, hogyan alakíthatja át a tömböket mátrixokká a WRAPCOLS függvény segítségével C#-ban az Aspose.Cells for .NET használatával.
-
+### [Hogyan hozzunk létre Excel munkafüzetet és osszuk fel az adatokat WRAPCOLS-szal C#‑ban](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
 ### [Adatfeldolgozás beépített függvényekkel az Excelben](./processing-data-using-built-in-functions/)
-Fedezze fel, hogyan dolgozhat fel adatokat beépített függvényekkel az Excelben az Aspose.Cells for .NET segítségével. Kövesse a lépésről lépésre szóló útmutatót az egyszerű automatizáláshoz.
 ### [Adatfeldolgozás az R1C1 használatával Excelben](./processing-data-using-r1c1/)
-Fedezd fel, hogyan dolgozhatsz fel adatokat R1C1 képletekkel Excelben az Aspose.Cells for .NET használatával. Lépésről lépésre bemutató és példákat is tartalmaz.
 ### [Függvények regisztrálása és hívása bővítményből az Excelben](./registering-and-calling-function-from-add-in/)
-Ismerje meg, hogyan regisztrálhat és hívhat függvényeket bővítményekből az Excelben az Aspose.Cells for .NET használatával egyszerű, lépésről‑lépésre bemutató oktatóanyagunkkal.
 ### [A megosztott képlet maximális sorainak megadása Excelben](./specifying-maximum-rows-of-shared-formula/)
-Fedezze fel, hogyan adhatja meg a megosztott képletek maximális sorszámát Excelben az Aspose.Cells for .NET használatával ezzel az egyszerű, lépésről‑lépésre haladó útmutatóval.
 ### [Az összes képlet újraszámítása C#-ban – Excel frissítése](./recalculate-all-formulas-in-c-refresh-excel/)
-Ismerje meg, hogyan számíthatja újra az összes képletet C#-ban az Aspose.Cells for .NET segítségével, és frissítheti a munkafüzetet.
 ### [c# Excel fájl létrehozása – Lépésről‑lépésre útmutató feltételes logikával](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
-Ismerje meg, hogyan hozhat létre Excel fájlt C#‑ban feltételes logikával az Aspose.Cells for .NET segítségével, lépésről‑lépésre.
 ### [Hogyan bővítsük a tömböt C#-ban az Aspose.Cells segítségével – Lépésről‑lépésre útmutató](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
-Fedezze fel, hogyan lehet bővíteni a tömböt C#-ban az Aspose.Cells használatával ebben a részletes, lépésről‑lépésre útmutatóban.
+### [Tömbképlet alkalmazása Excelben C#-ban – Teljes útmutató](./apply-array-formula-excel-in-c-complete-guide/)
+### [Hogyan használjuk a WRAPCOLS függvényt Excelben – Teljes C# példa](./how-to-use-wrapcols-in-excel-complete-c-example/)
+### [Hogyan használjuk a WRAPCOLS‑t – Teljes útmutató C# Excel automatizáláshoz](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Ismerje meg a WRAPCOLS függvény használatát C#‑ban az Aspose.Cells for .NET segítségével, lépésről lépésre útmutató.
+### [Hogyan kényszerítsük a képletszámítást és használjuk a lambda kifejezést Excelben C#-val](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Ismerje meg, hogyan kényszerítheti a képletszámítást és használhatja a lambda függvényeket Excelben C#-ban.
+### [Excel munkafüzet létrehozása képletekkel – Teljes lépésről‑lépésre útmutató](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre teljesen funkcionális Excel munkafüzetet képletekkel lépésről‑lépésre az Aspose.Cells for .NET segítségével.
 
 ### [Hogyan hozzunk létre Excel munkafüzetet C#‑ban az EXPAND függvénnyel – Lépésről lépésre útmutató](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
 Ismerje meg, hogyan használhatja az EXPAND függvényt Excel munkafüzet létrehozásához C#‑ban az Aspose.Cells for .NET segítségével.

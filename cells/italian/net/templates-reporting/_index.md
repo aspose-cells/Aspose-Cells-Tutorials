@@ -59,6 +59,24 @@ Scopri come generare file Excel da un modello predefinito usando Aspose.Cells pe
 Scopri come salvare programmaticamente una cartella di lavoro Excel popolata usando Aspose.Cells per .NET.
 ### [Crea modello di cartella di lavoro con Aspose.Cells – Guida completa](./create-workbook-template-with-aspose-cells-complete-guide/)
 Scopri come creare un modello di cartella di lavoro Excel con Aspose.Cells, includendo data binding, formattazione e generazione automatica di report.
+### [Come salvare un file modello Excel – Guida passo‑passo](./how-to-save-excel-template-file-step-by-step-guide/)
+Scopri come salvare un file modello Excel con Aspose.Cells per .NET, passo dopo passo, includendo impostazioni di formato e opzioni di output.
+
+### [Come utilizzare Excel per la stampa unione – Guida completa C#](./how-to-use-excel-for-mail-merge-complete-c-guide/)
+Scopri come eseguire la stampa unione con Excel usando Aspose.Cells per .NET in C# passo dopo passo.
+### [Come generare una fattura con Aspose.Cells – Guida completa di programmazione](./how-to-generate-invoice-with-aspose-cells-complete-programmi/)
+Scopri come creare fatture Excel automatizzate con Aspose.Cells, includendo dati, formattazione e salvataggio in pochi passaggi.
+
+### [Come elaborare un modello Excel e denominare automaticamente i fogli in C#](./how-to-process-excel-template-and-automatically-name-sheets)
+Scopri come elaborare un modello Excel e rinominare automaticamente i fogli usando C# con Aspose.Cells.
+
+### [Come esportare dati in Excel usando un modello C# – guida passo‑passo](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
+Scopri come esportare dati in Excel da un modello C# con Aspose.Cells, seguendo una procedura dettagliata passo‑passo.
+### [Genera report Excel con C# – Guida passo‑passo](./generate-excel-report-with-c-step-by-step-guide/)
+Scopri come creare un report Excel in C# passo dopo passo, dalla configurazione dei dati alla generazione del file finale.
+
+### [Come espandere un array in Excel e popolare un modello](./how-to-expand-array-in-excel-and-populate-a-template)
+Scopri come espandere un array in Excel e popolare un modello usando Aspose.Cells per .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

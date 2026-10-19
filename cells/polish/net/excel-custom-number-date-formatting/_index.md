@@ -40,7 +40,7 @@ Poznaj pełny przewodnik po tworzeniu i stosowaniu niestandardowych formatów li
 Dowiedz się, jak formatować liczby z separatorem w C# przy użyciu Aspose.Cells, krok po kroku.
 ### [Formatowanie daty ISO z Excela – Kompletny przewodnik C#](./format-date-iso-from-excel-complete-c-guide/)
 Dowiedz się, jak konwertować daty w formacie ISO w Excelu przy użyciu Aspose.Cells i C#, krok po kroku.
-### [Zastosuj niestandardowy format liczbowy w eksporcie arkusza C# – przewodnik krok po kroku](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+### [Zastosuj niestandardowy format liczbowy w eksporcie arkusza C# – przewodnik krok po kroku](./apply-custom-number-format-in-c-spreadsheet-export-step-s/)
 Dowiedz się, jak zastosować niestandardowy format liczbowy podczas eksportu arkusza w C# przy użyciu Aspose.Cells for .NET.
 ### [Zapis daty i czasu do Excela – Kompletny przewodnik dla programistów C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
 Dowiedz się, jak zapisywać wartości daty i czasu w plikach Excel przy użyciu Aspose.Cells w C#, krok po kroku.
@@ -56,6 +56,8 @@ Dowiedz się, jak w C# parsować daty w japońskim formacie ery przy użyciu Asp
 
 
 
+### [Parsowanie DateTime z panowaniem japońskiego cesarza przy użyciu Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Dowiedz się, jak parsować wartości daty i czasu w Excelu uwzględniając japońskie ery cesarskie przy pomocy Aspose.Cells.
 
 
 
@@ -74,8 +76,23 @@ Dowiedz się, jak ustawić niestandardowy format dat w komórkach Excel przy uż
 Dowiedz się, jak konwertować ciągi znaków na DateTime w C# i zapisywać oraz odczytywać daty w plikach Excel przy użyciu Aspose.Cells dla .NET.
 ### [Jak utworzyć skoroszyt i przekonwertować ciąg znaków na datę w C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
 Dowiedz się, jak w Aspose.Cells dla .NET utworzyć nowy skoroszyt i przekształcić tekstowy ciąg znaków w wartość daty w języku C#.
+### [Jak utworzyć skoroszyt Excel i parsować japońskie daty w C#](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
+Dowiedz się, jak w Aspose.Cells dla .NET utworzyć skoroszyt Excel i parsować japońskie daty w C# krok po kroku.
 ### [Ustaw format daty w Excelu w C# – Kompletny przewodnik krok po kroku](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 Dowiedz się, jak ustawić format daty w arkuszach Excel przy użyciu Aspose.Cells dla .NET w języku C#, krok po kroku.
+### [Ustaw format daty w Excelu przy użyciu C# – Kompletny przewodnik formatowania importu](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+Dowiedz się, jak ustawić format daty w Excelu przy użyciu C# i Aspose.Cells dla .NET, obejmując pełne formatowanie importu.
+### [Utwórz skoroszyt Excel z datami kalendarza japońskiego – pełny przewodnik](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+Dowiedz się, jak przy użyciu Aspose.Cells tworzyć skoroszyty Excel z datami w kalendarzu japońskim, krok po kroku w pełnym przewodniku.
+### [Utwórz skoroszyt Excel w C# – Ogranicz znaczące cyfry w Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
+Dowiedz się, jak w C# utworzyć skoroszyt Excel i ograniczyć liczbę znaczących cyfr przy formatowaniu danych przy użyciu Aspose.Cells.
+
+### [Jak zastosować format liczbowy w Excelu przy użyciu Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
+Dowiedz się, jak zastosować niestandardowy format liczbowy w Excelu przy pomocy Aspose.Cells w .NET, krok po kroku.
+### [Formatowanie kolumny dat w Excel – Kompletny przewodnik C# do eksportu DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+Poznaj, jak w C# przy użyciu Aspose.Cells sformatować kolumnę dat i wyeksportować DataTable do pliku Excel.
+### [Konwersja kalendarza japońskiego w C# – Pełny przewodnik](./japanese-calendar-conversion-in-c-full-guide/)
+Kompletny przewodnik, jak w C# konwertować daty z kalendarza japońskiego przy użyciu Aspose.Cells, z przykładami kodu i praktycznymi wskazówkami.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

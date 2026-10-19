@@ -44,6 +44,7 @@ Aspose.Cells for .NET, elektronik tabloları kopyalamak da dahil olmak üzere Ex
 | [Excel Taşıma Çalışma Sayfası](./excel-move-worksheet/) | Aspose.Cells for .NET'i kullanarak Excel'de çalışma sayfalarını adım adım kılavuzumuzda taşımayı öğrenin. Excel programlama sanatında ustalaşın. |  
 | [Yeni Çalışma Kitabı Oluştur – Pivot Tablosu İçeren Çalışma Sayfasını Kopyalama](./create-new-workbook-how-to-copy-a-worksheet-with-a-pivot-tab/) | Aspose.Cells for .NET kullanarak yeni bir çalışma kitabı oluşturup, pivot tablo içeren bir çalışma sayfasını nasıl kopyalayacağınızı öğrenin. |  
 | [C# ile Aspose.Cells ile Çalışma Sayfasını Kopyalama – Tam Kılavuz](./how-to-copy-worksheet-in-c-with-aspose-cells-complete-guide/) | Aspose.Cells for .NET kullanarak C# ile çalışma sayfasını nasıl kopyalayacağınızı adım adım öğrenin. |  
+| [C#'ta Çalışma Kitabını Kopyala – Tabloyu Başka Bir Çalışma Sayfasına Aktar](./copy-workbook-in-c-export-table-to-another-worksheet/) | C# kullanarak bir çalışma kitabını kopyalayıp tabloyu başka bir çalışma sayfasına nasıl aktaracağınızı öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

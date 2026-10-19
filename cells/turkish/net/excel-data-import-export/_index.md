@@ -57,6 +57,10 @@ Aspose.Cells for .NET kullanarak C# ile bir Excel çalışma kitabı oluşturun,
 Aspose.Cells for .NET kullanarak C# ile yeni bir çalışma kitabı oluşturun ve Markdown dosyasını hızlıca Excel'e dönüştürün.
 ### [JSON verisini Excel'e – JSON Dizisini Excel'e Dönüştürme Tam Kılavuzu](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
 Aspose.Cells for .NET kullanarak JSON verisini Excel dosyasına nasıl dönüştüreceğinizi adım adım öğrenin.
+### [C#'ta Çalışma Sayfasını DataTable'a Dönüştürme – Tam Programlama Rehberi](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
+Aspose.Cells for .NET kullanarak bir çalışma sayfasını C# ile DataTable nesnesine nasıl dönüştüreceğinizi adım adım öğrenin.
+### [Aspose.Cells ile JSON'u Excel'e Aktarın – Tam Programlama Rehberi](./import-json-to-excel-with-aspose-cells-complete-programming/)
+Aspose.Cells for .NET kullanarak JSON verilerini Excel dosyalarına nasıl aktaracağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

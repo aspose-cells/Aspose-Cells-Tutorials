@@ -67,6 +67,18 @@ Naučte se exportovat kontingenční tabulku z Excelu do formátu PNG pomocí As
 Naučte se vytvořit nový sešit v C# a importovat obsah Markdown do Excelu pomocí Aspose.Cells.
 ### [Převod markdownu do Excelu – Kompletní průvodce v C#](./convert-markdown-to-excel-complete-c-guide/)
 Naučte se převádět soubory markdown do formátu Excel pomocí Aspose.Cells v C# s podrobným krok‑za‑krokem návodem.
+### [Export Excel do PNG pomocí Aspose.Cells – Kompletní průvodce krok za krokem](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Naučte se, jak exportovat soubory Excel do formátu PNG pomocí Aspose.Cells v .NET v tomto podrobném průvodci.
+### [Jak vložit speciální znaky v Excelu – krok‑za‑krokem průvodce](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Naučte se, jak v Excelu vkládat speciální znaky pomocí Aspose.Cells v .NET v podrobném průvodci.
+### [Jak převést XLSX na PNG – Kompletní průvodce v C#](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Naučte se převádět soubory XLSX na PNG pomocí Aspose.Cells v C# s podrobným krok‑za‑krokem návodem.
+### [Uložení obrázku PNG z kontingenční tabulky Excel v C# – kompletní průvodce](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells v C# uložit obrázek PNG z kontingenční tabulky Excel v několika krocích.
+### [Vložení fontů do HTML – Kompletní průvodce převodem DOCX do HTML s plnou podporou fontů](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Naučte se, jak pomocí Aspose.Words převést DOCX do HTML a zachovat všechny vložené fonty.
+### [Jak vložit písma do HTML z DOCX – Kompletní průvodce](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Naučte se, jak vložit písma z dokumentu DOCX do HTML pomocí Aspose.Words v .NET v tomto podrobném průvodci.
 ### [Jak převést JSON do Excel v C# s jednou buňkou oddělenou čárkou](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
 Naučte se převést JSON do Excel v C# pomocí jedné buňky s čárkou oddělených hodnot.
 

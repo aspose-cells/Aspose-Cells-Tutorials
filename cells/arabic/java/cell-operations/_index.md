@@ -79,6 +79,8 @@ weight: 4
 
 ### [الحصول على التاريخ والوقت من الخلية في Excel باستخدام Java – دليل شامل](./get-datetime-from-cell-in-java-excel-complete-guide/)
 تعلم كيفية استخراج قيمة التاريخ والوقت من خلية Excel باستخدام Aspose.Cells لجافا ومعالجتها بسهولة.
+### [تحليل تاريخ العصر الياباني من Excel باستخدام Java – دليل كامل](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+تعلم كيفية استخراج وتحويل تواريخ العصور اليابانية من ملفات Excel باستخدام Aspose.Cells لجافا.
 
 ## موارد إضافية
 

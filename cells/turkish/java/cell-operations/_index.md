@@ -76,6 +76,8 @@ Aspose.Cells for Java kullanarak bir hücreyi metin (String) formatına dönüş
 
 ### [Java Excel'de Hücreden Tarih ve Saat Almak – Tam Kılavuz](./get-datetime-from-cell-in-java-excel-complete-guide/)
 Aspose.Cells for Java kullanarak bir Excel hücresinden tarih ve saat değerlerini nasıl okuyacağınızı adım adım öğrenin.
+### [Java ile Excel'den Japon Dönemi Tarihini Ayrıştırma – Tam Kılavuz](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Java ve Aspose.Cells kullanarak Excel dosyalarındaki Japon dönemi tarihlerini nasıl ayrıştıracağınızı adım adım öğrenin.
 
 ## Ek Kaynaklar
 

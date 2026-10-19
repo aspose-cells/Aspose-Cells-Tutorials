@@ -44,6 +44,9 @@ Tutorial operasi‑sel kami memberikan panduan praktis dan langsung untuk bekerj
 ### [Menguasai Aspose.Cells&#58; Mengimplementasikan CopyOptions & PasteOptions di Java untuk Manajemen Data Excel](./aspose-cells-java-copy-paste-options/)
 ### [Dapatkan datetime dari sel Excel di Java – Panduan Lengkap](./get-datetime-from-cell-in-java-excel-complete-guide/)
 Pelajari cara mengambil nilai datetime dari sel Excel menggunakan Aspose.Cells untuk Java, termasuk contoh kode lengkap dan tips optimalisasi.
+### [Mengurai Tanggal Era Jepang dari Excel di Java – Panduan Lengkap](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Pelajari cara mengurai tanggal era Jepang dalam file Excel menggunakan Aspose.Cells untuk Java, termasuk penyiapan, parsing, dan penyimpanan hasil.
+
 
 
 ### [Cara Mengambil Data dari Sel Excel Menggunakan Aspose.Cells Java&#58; Panduan Komprehensif](./aspose-cells-java-data-retrieval-excel/)

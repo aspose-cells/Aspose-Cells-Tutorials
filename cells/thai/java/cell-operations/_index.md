@@ -80,6 +80,8 @@ weight: 4
 
 ### [แปลงเซลล์เป็นสตริงใน Java – คู่มือการส่งออกแบบสมบูรณ์](./convert-cell-to-string-in-java-complete-export-guide/)
 เรียนรู้วิธีแปลงค่าเซลล์เป็นสตริงและส่งออกข้อมูล Excel ด้วย Aspose.Cells สำหรับ Java อย่างละเอียด
+### [แปลงวันที่ตามยุคญี่ปุ่นจาก Excel ใน Java – คู่มือฉบับสมบูรณ์](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+เรียนรู้วิธีการแปลงและจัดการวันที่ตามระบบยุคญี่ปุ่นในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java อย่างละเอียด
 
 ## แหล่งข้อมูลเพิ่มเติม
 

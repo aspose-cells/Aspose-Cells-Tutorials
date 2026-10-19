@@ -54,6 +54,18 @@ Aprenda a integrar datos eficientemente en Excel para obtener mejores perspectiv
 Aprenda a desactivar el autofiltro en archivos Excel usando Aspose.Cells para Java con ejemplos de código paso a paso.
 ### [Crear Excel programáticamente en Java – Guía paso a paso](./create-excel-programmatically-in-java-step-by-step-guide/)
 Aprenda a crear archivos Excel mediante código Java con Aspose.Cells, siguiendo una guía paso a paso con ejemplos claros.
+### [Cómo desactivar el filtro automático en Excel con Java – Guía completa](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+Aprenda a desactivar el filtro automático en archivos de Excel usando Aspose.Cells para Java con ejemplos de código paso a paso.
+### [Cómo desactivar AutoFilter en Excel con Java – Guía completa](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+Aprenda a desactivar AutoFilter en Excel usando Aspose.Cells para Java con ejemplos de código paso a paso.
+### [Crear matriz vertical en Excel con Java – Guía completa paso a paso](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+Aprenda a crear matrices verticales en Excel usando Aspose.Cells para Java con ejemplos de código paso a paso.
+### [Cómo usar Expand en Excel con Java – Guía completa](./how-to-use-expand-in-java-complete-excel-guide/)
+Aprenda a usar Expand en Java con Aspose.Cells para Excel, con ejemplos de código paso a paso.
+### [Cómo borrar AutoFiltro en Excel usando Java – Guía completa](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Aprenda a eliminar AutoFiltro en Excel con Aspose.Cells para Java mediante ejemplos de código fuente.
+### [Crear nuevo libro de trabajo Aspose – agregar propiedad personalizada a Excel y guardar como XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+Aprenda a crear un nuevo libro de Excel, añadir una propiedad personalizada y guardarlo en formato XLSB usando Aspose.Cells para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

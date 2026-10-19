@@ -19,7 +19,7 @@ Al trabajar con archivos de Excel en .NET, saber cómo convertirlos a otros form
 
 ## Conversión avanzada a PDF en .NET
 
-Una de las funciones destacadas que encontrarás es el tutorial de Conversión Avanzada a PDF en .NET. ¿Para qué perder horas formateando tus datos de Excel cuando puedes obtener PDF de calidad profesional con solo unos clics? Esta guía paso a paso te guía por todo el proceso. No solo te explica cómo hacerlo, sino que también te asegura que comprendas los matices. Piensa en ello como si tuvieras un tutor personal que te guiara en el mundo de las conversiones de archivos. ¿La libertad de compartir tus datos manteniendo su integridad intacta? De eso se trata. ¿Quieres profundizar en esto? Consulta nuestra [Conversión avanzada a PDF en .NET](./advanced-conversion-to-pdf/) tutorial.
+Una de las funciones destacadas que encontrarás es el tutorial de Conversión Avanzada a PDF en .NET. ¿Para qué perder horas formateando tus datos de Excel cuando puedes obtener PDF de calidad profesional con solo unos clics? Esta guía paso a paso te guía por todo el proceso. No solo te explica cómo hacerlo, sino que también te asegura que comprendas los matices. Piensa en ello como si tuvieras un tutor personal que te guiara en el mundo de las conversiones de archivos. ¿La libertad de compartir tus datos manteniendo su integridad intacta? De eso se trata. ¿Quieres profundizar en esto? Consulte nuestra [Conversión avanzada a PDF en .NET](./advanced-conversion-to-pdf/) tutorial.
 
 ## Convertir una hoja de cálculo a SVG en .NET
 
@@ -69,6 +69,18 @@ Aprenda a exportar una tabla dinámica de Excel a una imagen PNG usando Aspose.C
 Aprenda a crear un nuevo libro de trabajo en C# e importar contenido Markdown a Excel usando Aspose.Cells.
 ### [Convertir markdown a Excel – Guía completa en C#](./convert-markdown-to-excel-complete-c-guide/)
 Aprenda a convertir archivos markdown a Excel usando Aspose.Cells con C# paso a paso.
+### [Exportar Excel a PNG con Aspose.Cells – Guía completa paso a paso](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Aprenda a exportar hojas de cálculo de Excel a imágenes PNG con Aspose.Cells en .NET mediante una guía detallada paso a paso.
+### [Cómo convertir XLSX a PNG – Guía completa en C#](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Aprenda a convertir archivos XLSX a imágenes PNG usando Aspose.Cells en C#, paso a paso y con ejemplos claros.
+### [Cómo insertar caracteres especiales en Excel – Guía paso a paso](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Aprenda a insertar caracteres especiales en Excel con Aspose.Cells paso a paso, mejorando la presentación de sus datos.
+### [Guardar imagen PNG desde tabla dinámica de Excel en C# – Guía completa](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Aprenda a guardar imágenes PNG de tablas dinámicas de Excel usando C# con Aspose.Cells, siguiendo esta guía paso a paso.
+### [Incrustar fuentes en HTML – Guía completa para convertir DOCX a HTML con soporte total de fuentes](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Aprenda a convertir documentos DOCX a HTML manteniendo todas las fuentes incrustadas, garantizando una visualización fiel en cualquier navegador.
+### [Cómo incrustar fuentes en HTML desde un DOCX – Guía completa](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Aprenda a incrustar fuentes en documentos HTML generados a partir de archivos DOCX usando Aspose.Words para .NET, paso a paso.
 ### [Cómo convertir JSON a Excel en C# con una sola celda separada por comas](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
 Aprenda a transformar datos JSON en una hoja de Excel en C#, usando una única celda con valores separados por comas.
 

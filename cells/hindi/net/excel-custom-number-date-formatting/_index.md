@@ -56,6 +56,7 @@ C# का उपयोग करके Excel में तिथियों क
 
 
 
+### [Aspose.Cells का उपयोग करके जापानी सम्राट के राजकाल के साथ DateTime पार्स करें](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
 
 
 
@@ -76,6 +77,18 @@ C# का उपयोग करके Excel में तिथियों क
 C# में Aspose.Cells का उपयोग करके वर्कबुक बनाना और स्ट्रिंग को तिथि फ़ॉर्मेट में परिवर्तित करना सीखें।
 ### [C# में Excel तिथि स्वरूप सेट करें – पूर्ण चरण-दर-चरण गाइड](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 C# का उपयोग करके Excel में तिथि स्वरूप कैसे सेट करें, इस विस्तृत चरण-दर-चरण गाइड में सीखें।
+### [C# के साथ Excel में तिथि स्वरूप सेट करें – पूर्ण आयात फ़ॉर्मेटिंग गाइड](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+.NET के लिए Aspose.Cells का उपयोग करके C# में Excel की तिथि फ़ॉर्मेट को कैसे सेट करें, इस पूर्ण आयात फ़ॉर्मेटिंग गाइड में सीखें।
+### [जापानी कैलेंडर तिथियों के साथ Excel वर्कबुक बनाएं – पूर्ण गाइड](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+.NET के लिए Aspose.Cells का उपयोग करके जापानी कैलेंडर तिथियों के साथ Excel वर्कबुक बनाने की पूरी गाइड।
+### [C# में Excel वर्कबुक बनाएं – महत्वपूर्ण अंकों को सीमित करें](./create-excel-workbook-c-limit-significant-digits-excel/)
+इस ट्यूटोरियल में सीखें कि C# का उपयोग करके Excel वर्कबुक बनाते समय महत्वपूर्ण अंकों को कैसे सीमित किया जाए।
+### [Aspose.Cells के साथ Excel में नंबर फ़ॉर्मेट कैसे लागू करें](./how-to-apply-number-format-excel-with-aspose-cells/)
+### [C# में Excel वर्कबुक बनाएं और जापानी तिथियों को पार्स करें](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
+### [डेटा टेबल निर्यात के लिए Excel में तिथि कॉलम फ़ॉर्मेट – पूर्ण C# गाइड](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+इस ट्यूटोरियल में .NET के लिए Aspose.Cells का उपयोग करके DataTable को Excel में निर्यात करते समय तिथि कॉलम को फ़ॉर्मेट करने की पूरी प्रक्रिया सीखें।
+### [C# में जापानी कैलेंडर रूपांतरण – पूर्ण गाइड](./japanese-calendar-conversion-in-c-full-guide/)
+इस गाइड में .NET के लिए Aspose.Cells का उपयोग करके C# में जापानी कैलेंडर रूपांतरण की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

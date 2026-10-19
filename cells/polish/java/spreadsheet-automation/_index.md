@@ -54,6 +54,19 @@ Dowiedz się, jak skutecznie integrować dane w programie Excel, aby uzyskać le
 Dowiedz się, jak wyłączyć autofilter w plikach Excel przy użyciu Aspose.Cells for Java, z przykładami kodu źródłowego.
 ### [Tworzenie pliku Excel programowo w Javie – przewodnik krok po kroku](./create-excel-programmatically-in-java-step-by-step-guide/)
 Dowiedz się, jak programowo tworzyć pliki Excel w Javie przy użyciu Aspose.Cells, krok po kroku, z przykładami kodu źródłowego.
+### [Jak wyłączyć filtr automatyczny w Excelu przy użyciu Javy – pełny przewodnik](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+Dowiedz się, jak wyłączyć filtr automatyczny w Excelu przy użyciu Aspose.Cells for Java, z przykładami kodu i praktycznymi wskazówkami.
+### [Jak wyłączyć AutoFilter w Excelu przy użyciu Javy – Kompletny przewodnik](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+Dowiedz się, jak wyłączyć AutoFilter w Excelu przy użyciu Aspose.Cells for Java, z przykładami kodu i praktycznymi wskazówkami.
+### [Tworzenie pionowej tablicy w Excelu w Javie – Kompletny przewodnik krok po kroku](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+Dowiedz się, jak w Javie utworzyć pionową tablicę w Excelu, korzystając z Aspose.Cells, z pełnym przykładem kodu krok po kroku.
+### [Jak używać Expand w Excelu przy użyciu Javy – Kompletny przewodnik](./how-to-use-expand-in-java-complete-excel-guide/)
+Dowiedz się, jak używać funkcji Expand w Excelu przy pomocy Aspose.Cells for Java, z przykładami kodu i praktycznymi wskazówkami.
+
+### [Jak wyczyścić AutoFilter w Excelu przy użyciu Javy – Kompletny przewodnik](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Dowiedz się, jak w kilku krokach usunąć filtr AutoFilter w Excelu przy pomocy Aspose.Cells for Java.
+### [Utwórz nowy skoroszyt Aspose – dodaj własną właściwość Excela i zapisz jako XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+Dowiedz się, jak utworzyć nowy skoroszyt, dodać własną właściwość i zapisać go w formacie XLSB przy użyciu Aspose.Cells for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

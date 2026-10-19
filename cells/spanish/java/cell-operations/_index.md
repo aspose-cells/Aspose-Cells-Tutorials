@@ -83,6 +83,10 @@ Un tutorial de código para Aspose.Words Java
 Aprenda a extraer valores de fecha y hora de celdas de Excel usando Aspose.Cells para Java, con ejemplos de código completos.
 
 ## Recursos Adicionales
+### [Analizar fecha de era japonesa de Excel en Java – Guía completa](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Aprenda a interpretar y convertir fechas del calendario japonés en archivos Excel usando Aspose.Cells para Java.
+
+## Recursos adicionales
 
 - [Documentación de Aspose.Cells para Java](https://docs.aspose.com/cells/java/)
 - [Referencia de API de Aspose.Cells para Java](https://reference.aspose.com/cells/java/)

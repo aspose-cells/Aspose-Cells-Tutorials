@@ -32,8 +32,10 @@ Excelのセルにテキストだけでなく画像も注釈として追加でき
 ## Excelのコメントと注釈のチュートリアル
 ### [Excelで画像付きのコメントを追加する](./add-comment-with-image-excel/)
 Aspose.Cells for .NET を使用して、Excel に画像付きのコメントを追加する方法を学びましょう。パーソナライズされた注釈でスプレッドシートの魅力を高めましょう。
+
 ### [Excelのセルや図形にコメントを追加する](./add-comments-to-cells-or-shapes-excel/)
 Aspose.Cells for .NET を使用して Excel のセルにコメントを追加する方法を学びます。Excel の機能を強化するための初心者向けステップバイステップガイドです。
+
 ### [コメントの書式設定 - フォント、色、配置](./format-comments-font-color-alignment/)
 Aspose.Cells for .NET を使って、Excel のコメントを簡単にフォーマットする方法を学びましょう。フォント、サイズ、配置をカスタマイズして、スプレッドシートをより魅力的に演出しましょう。
 ### [Excelワークブックの作成（C#） – スマートマーカーでコメントを追加・入力](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
@@ -46,6 +48,8 @@ Aspose.Cells for .NET を使い、C# で Excel にコメントを追加する方
 
 
 
+### [C# で Excel にコメントを挿入する – ステップバイステップ ガイド](./insert-comment-into-excel-with-c-step-by-step-guide/)
+Aspose.Cells for .NET を使用して、C# で Excel にコメントを追加する方法をステップバイステップで学びます。
 
 
 
@@ -57,6 +61,15 @@ Aspose.Cells for .NET を使用し、C# で Excel ワークブックを作成し
 Aspose.Cells for .NET を使用して、C# でスマートマーカーを活用し、Excel テンプレートにコメントを自動的に挿入する方法を学びます。
 ### [プログラムでExcelファイルを作成 – コメントを追加してXLSXとして保存](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
 Aspose.Cells for .NET を使用して、プログラムからExcelファイルを作成し、コメントを追加してXLSX形式で保存する方法を学びます。
+### [Aspose.Cells スマートマーカーで Excel にコメントセルを追加する](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
+Aspose.Cells のスマートマーカー機能を使い、Excel シートにコメントセルを自動的に挿入する方法を学びます。
+### [C# でセルにコメントを追加 – データから Excel を生成](./add-comment-to-cell-in-c-generate-excel-from-data/)
+Aspose.Cells for .NET を使い、データから生成した Excel のセルにコメントを追加する手順を学びます。
+### [C#でExcelコメントを挿入する – 完全SmartMarkerガイド](./insert-excel-comment-with-c-complete-smartmarker-guide/)
+Aspose.Cells for .NET と SmartMarker を使い、C# で Excel コメントを簡単に挿入する方法を学びます。
+
+### [Aspose.Cells を使用して Excel にコメントを挿入する方法](./how-to-insert-comment-in-excel-using-aspose-cells/)
+Aspose.Cells for .NET を使用して、Excel にコメントを追加する手順を学びましょう。シンプルな操作でスプレッドシートの可読性を向上させます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

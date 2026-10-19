@@ -73,6 +73,8 @@
 透過本完整步驟指南了解如何使用 C# 從 JSON 檔案產生 Excel 工作表。
 ### [建立 Excel 工作簿 C# – 完整指南：從儲存格讀取日期](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
 本完整指南說明如何使用 C# 建立 Excel 工作簿並從儲存格中正確讀取日期。
+### [在 C# 中解析日本年號日期 – 完整指南](./parse-japanese-era-date-in-c-complete-guide/)
+本完整指南說明如何在 C# 使用 Aspose.Cells 解析日本年號日期，涵蓋格式轉換與實作範例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -73,6 +73,8 @@
 Узнайте, как с помощью Aspose.Cells для .NET генерировать файлы Excel из JSON в C# шаг за шагом.
 ### [Создание рабочей книги Excel C# – Полное руководство по чтению дат из ячеек](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
 Узнайте, как создать рабочую книгу Excel на C# и читать даты из ячеек с помощью Aspose.Cells для .NET.
+### [Разбор дат японской эры в C# – Полное руководство](./parse-japanese-era-date-in-c-complete-guide/)
+Узнайте, как правильно парсить даты японской эры в C# с помощью Aspose.Cells, включая примеры кода и пошаговые инструкции.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

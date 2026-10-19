@@ -96,6 +96,8 @@ Aspose.Words Java 的程式碼教學
 
 ### [在 Java Excel 中從儲存格取得日期時間 – 完整指南](./get-datetime-from-cell-in-java-excel-complete-guide/)
 了解如何使用 Aspose.Cells for Java 從 Excel 儲存格中提取日期時間值，並正確處理時區與格式。
+### [在 Java 中從 Excel 解析日本年號日期 – 完整指南](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+了解如何使用 Aspose.Cells for Java 從 Excel 解析日本年號日期，並將其轉換為標準日期格式的完整步驟指南。
 
 ## 其他資源
 

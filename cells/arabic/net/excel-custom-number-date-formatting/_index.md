@@ -56,6 +56,7 @@
 
 
 
+### [تحليل DateTime باستخدام عهد الإمبراطور الياباني مع Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
 
 
 
@@ -76,6 +77,21 @@
 تعلم كيفية إنشاء مصنف Excel وتحويل نص إلى تاريخ باستخدام Aspose.Cells لـ .NET في C#.
 ### [ضبط تنسيق تاريخ Excel في C# – دليل شامل خطوة بخطوة](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 تعلم كيفية تعيين تنسيق التاريخ في ملفات Excel باستخدام C# خطوة بخطوة مع Aspose.Cells.
+### [تعيين تنسيق التاريخ في Excel باستخدام C# – دليل تنسيق الاستيراد الكامل](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+تعلم كيفية تعيين تنسيق التاريخ في ملفات Excel باستخدام C# مع دليل شامل لتنسيق الاستيراد الكامل.
+### [إنشاء دفتر عمل Excel بتواريخ التقويم الياباني – دليل كامل](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+تعلم كيفية إنشاء ملف Excel يستخدم تواريخ التقويم الياباني باستخدام Aspose.Cells لـ .NET في دليل شامل خطوة بخطوة.
+### [كيفية إنشاء مصنف Excel وتحليل التواريخ اليابانية في C#](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
+تعرف على طريقة إنشاء مصنف Excel ومعالجة تواريخ يابانية باستخدام C# و Aspose.Cells خطوة بخطوة.
+### [إنشاء مصنف Excel C# – تحديد عدد الأرقام المهمة في Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
+تعرف على كيفية إنشاء مصنف Excel باستخدام C# وتحديد عدد الأرقام المهمة باستخدام Aspose.Cells لـ .NET.
+
+### [كيفية تطبيق تنسيق رقم في Excel باستخدام Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
+تعرف على طريقة تطبيق تنسيق الأرقام في ملفات Excel باستخدام مكتبة Aspose.Cells في .NET.
+### [تنسيق عمود التاريخ في Excel – دليل C# كامل لتصدير DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+تعرف على طريقة تنسيق عمود التاريخ في Excel وتصديره من DataTable باستخدام C# و Aspose.Cells.
+### [تحويل التقويم الياباني في C# – دليل كامل](./japanese-calendar-conversion-in-c-full-guide/)
+تعرف على كيفية تحويل التقويم الياباني باستخدام C# و Aspose.Cells في هذا الدليل الشامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

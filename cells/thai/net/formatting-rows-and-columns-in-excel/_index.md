@@ -35,6 +35,8 @@
 เรียนรู้วิธีการใช้การจัดรูปแบบกับแถว Excel ด้วยโปรแกรมโดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนโดยละเอียดนี้ครอบคลุมทุกอย่างตั้งแต่การจัดตำแหน่งไปจนถึงเส้นขอบ
 ### [สร้างเวิร์กบุ๊ก Excel – พับคอลัมน์และบันทึกเป็น XLSX](./create-excel-workbook-wrap-columns-and-save-as-xlsx/)
 เรียนรู้วิธีสร้างไฟล์ Excel, ตั้งค่าการพับคอลัมน์และบันทึกเป็นไฟล์ XLSX ด้วย Aspose.Cells สำหรับ .NET
+### [วิธีจัดรูปแบบคอลัมน์ Excel ใน C# – คู่มือฉบับสมบูรณ์](./how-to-format-excel-columns-in-c-complete-guide/)
+เรียนรู้วิธีจัดรูปแบบคอลัมน์ Excel ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET ผ่านคู่มือฉบับสมบูรณ์
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

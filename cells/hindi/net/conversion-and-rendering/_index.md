@@ -67,6 +67,20 @@ Aspose.Cells का उपयोग करके C# में पिवट ट�
 C# कोड का उपयोग करके नया Excel वर्कबुक बनाएं और मार्कडाउन सामग्री को शीट में आयात करने का चरण-दर-चरण मार्गदर्शन।
 ### [मार्कडाउन को Excel में परिवर्तित करना – पूर्ण C# गाइड](./convert-markdown-to-excel-complete-c-guide/)
 C# में Aspose.Cells का उपयोग करके मार्कडाउन फ़ाइल को Excel स्प्रेडशीट में बदलने की पूरी प्रक्रिया सीखें।
+### [Aspose.Cells के साथ Excel को PNG में निर्यात – पूर्ण चरण‑दर‑चरण मार्गदर्शिका](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Aspose.Cells का उपयोग करके Excel फ़ाइलों को PNG इमेज में बदलना सीखें, विस्तृत चरणों के साथ।
+
+### [XLSX को PNG में परिवर्तित करना – पूर्ण C# गाइड](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Aspose.Cells के साथ C# में XLSX फ़ाइल को PNG इमेज में आसानी से बदलना सीखें। चरण-दर-चरण मार्गदर्शिका।
+
+### [Excel में विशेष अक्षर कैसे डालें – चरण‑दर‑चरण गाइड](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Aspose.Cells का उपयोग करके Excel में विशेष अक्षर सम्मिलित करने की पूरी प्रक्रिया सीखें। आसान चरण‑दर‑चरण गाइड।
+### [C# में Excel पिवट टेबल से PNG इमेज सहेजें – पूर्ण गाइड](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Aspose.Cells का उपयोग करके C# में Excel पिवट टेबल से PNG इमेज निकालने और सहेजने की पूरी प्रक्रिया सीखें।
+### [HTML में फ़ॉन्ट एम्बेड करें – DOCX को HTML में पूर्ण फ़ॉन्ट समर्थन के साथ परिवर्तित करने की पूर्ण गाइड](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Aspose.Words का उपयोग करके DOCX फ़ाइलों को HTML में फ़ॉन्ट एम्बेड के साथ परिवर्तित करने की पूरी प्रक्रिया सीखें।
+### [DOCX से HTML में फ़ॉन्ट एम्बेड करने की पूरी गाइड](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Aspose.Words के साथ DOCX फ़ाइल से HTML उत्पन्न करते समय फ़ॉन्ट को एम्बेड करने की प्रक्रिया सीखें।
 
 ### [C# में एकल कॉमा‑सेपरेटेड सेल के साथ JSON को Excel में कैसे बदलें](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
 Aspose.Cells का उपयोग करके C# में JSON डेटा को एकल कॉमा‑सेपरेटेड सेल से Excel फ़ाइल में बदलना सीखें।

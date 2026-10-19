@@ -39,6 +39,8 @@ Lär dig hur du sparar en Excel-arbetsbok som CSV med C# och Aspose.Cells för .
 Lär dig hur du sparar Excel-filer som CSV i C# med en steg-för-steg-guide för att exportera Xlsx till CSV.
 ### [Skapa ny arbetsbok och exportera till CSV – Steg‑för‑steg C#‑guide](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 Lär dig hur du skapar en ny arbetsbok och exporterar den till CSV med C# i Aspose.Cells för .NET.
+### [Skapa CSV från Excel med Aspose.Cells i C#](./how-to-create-csv-from-excel-using-aspose-cells-in-c/)
+Lär dig hur du skapar en CSV-fil från en Excel-arbetsbok med Aspose.Cells i C#.
 
 
 
@@ -51,6 +53,22 @@ Lär dig hur du skapar en ny arbetsbok och exporterar den till CSV med C# i Aspo
 Lär dig hur du exporterar en tabell till CSV i C# med anpassade talformat för exakt datarepresentation.
 ### [Exportera tabell till CSV i C# – Komplett guide](./export-table-to-csv-in-c-complete-guide/)
 Lär dig hur du exporterar en tabell till CSV med C# och Aspose.Cells för .NET i en komplett steg-för-steg-guide.
+### [Spara arbetsbok som CSV – Komplett guide för att exportera Excel till CSV i C#](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-i/)
+Lär dig hur du sparar en arbetsbok som CSV i C# med Aspose.Cells, steg‑för‑steg‑guide för export av Excel till CSV.
+### [Skapa ny arbetsbok i C# – Fullständig guide för att exportera Excel till CSV](./create-new-workbook-in-c-full-guide-to-export-excel-to-csv/)
+Lär dig hur du skapar en ny arbetsbok i C# och exporterar den till CSV med Aspose.Cells för .NET.
+### [Konvertera Excel-arbetsbok till CSV – Komplett C#-guide](./convert-excel-workbook-to-csv-complete-c-guide/)
+Lär dig hur du konverterar en Excel-arbetsbok till CSV med C# i en komplett steg-för-steg-guide.
+### [Exportera tabell till CSV i C# – Komplett programmeringsguide](./export-table-to-csv-in-c-complete-programming-guide/)
+Lär dig hur du exporterar en tabell till CSV med C# i en fullständig steg-för-steg-programmeringsguide.
+### [Hur du exporterar CSV från Excel med C# – Komplett guide](./how-to-export-csv-from-excel-with-c-complete-guide/)
+Lär dig steg för steg hur du exporterar Excel-data till CSV med C# och Aspose.Cells för .NET.
+### [Spara arbetsbok som CSV – Komplett guide för att exportera Excel till CSV med kontrollerade siffror](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-w/)
+Lär dig hur du sparar en Excel-arbetsbok som CSV med exakt kontroll över antal decimaler och format.
+### [Hur du sparar arbetsbok som CSV med exakt formatering med Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
+Lär dig hur du sparar en arbetsbok som CSV med exakt formatering med Aspose.Cells för .NET.
+### [Spara arbetsbok som CSV i C# – Komplett programmeringsguide](./save-workbook-as-csv-in-c-complete-programming-guide/)
+Lär dig hur du sparar en arbetsbok som CSV i C# med Aspose.Cells för .NET. En komplett guide för utvecklare.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

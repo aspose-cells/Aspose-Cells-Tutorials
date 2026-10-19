@@ -74,6 +74,18 @@ Apprenez à exporter un tableau croisé dynamique d'Excel au format PNG en C# av
 Apprenez à créer un classeur Excel en C# et à importer du contenu Markdown, étape par étape avec Aspose.Cells.
 ### [Convertir le markdown en Excel – Guide complet C#](./convert-markdown-to-excel-complete-c-guide/)
 Apprenez à transformer du texte markdown en fichiers Excel avec Aspose.Cells en C#, étape par étape.
+### [Exporter Excel en PNG avec Aspose.Cells – Guide complet étape par étape](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Apprenez à exporter vos feuilles Excel au format PNG avec Aspose.Cells en suivant un guide complet étape par étape.
+### [Comment convertir XLSX en PNG – Guide complet C#](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Apprenez à transformer des fichiers XLSX en images PNG avec Aspose.Cells en C#, étape par étape.
+### [Comment insérer des caractères spéciaux dans Excel – Guide étape par étape](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Apprenez à insérer facilement des caractères spéciaux dans vos feuilles Excel avec Aspose.Cells, grâce à un guide détaillé étape par étape.
+### [Enregistrer une image PNG à partir d'un tableau croisé dynamique Excel en C# – Guide complet](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Apprenez à extraire et enregistrer une image PNG d'un tableau croisé dynamique Excel en C# avec Aspose.Cells, étape par étape.
+### [Intégrer des polices dans HTML – Guide complet pour convertir DOCX en HTML avec prise en charge complète des polices](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Apprenez à intégrer des polices lors de la conversion de documents DOCX en HTML avec Aspose.Words, garantissant un rendu fidèle.
+### [Comment intégrer des polices dans HTML à partir d’un DOCX – Guide complet](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Apprenez à intégrer des polices dans vos pages HTML à partir de documents DOCX avec Aspose.Words, étape par étape.
 ### [Comment convertir JSON en Excel en C# avec une seule cellule séparée par des virgules](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
 Apprenez à transformer des données JSON en classeur Excel en C# en utilisant une seule cellule contenant des valeurs séparées par des virgules.
 

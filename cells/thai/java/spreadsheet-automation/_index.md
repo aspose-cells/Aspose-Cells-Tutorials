@@ -54,6 +54,18 @@
 เรียนรู้วิธีปิดการทำงาน Autofilter ในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดขั้นตอนโดยละเอียด
 ### [สร้างไฟล์ Excel ด้วยโปรแกรมใน Java – คู่มือขั้นตอนโดยละเอียด](./create-excel-programmatically-in-java-step-by-step-guide/)
 เรียนรู้วิธีสร้างไฟล์ Excel อย่างเป็นโปรแกรมใน Java ด้วย Aspose.Cells พร้อมตัวอย่างโค้ดขั้นตอนโดยละเอียด
+### [วิธีปิด Auto Filter ใน Excel ด้วย Java – คู่มือเต็ม](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+เรียนรู้วิธีปิดการกรองอัตโนมัติในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดเต็มขั้นตอน
+### [วิธีปิด AutoFilter ใน Excel ด้วย Java – คู่มือเต็ม](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+เรียนรู้วิธีปิด AutoFilter ในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน
+### [สร้างอาร์เรย์แนวตั้งใน Excel ด้วย Java – คู่มือเต็มขั้นตอน](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+เรียนรู้วิธีสร้างอาร์เรย์แนวตั้งในไฟล์ Excelด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดเต็มขั้นตอน
+### [วิธีใช้ Expand ใน Java – คู่มือ Excel ฉบับเต็ม](./how-to-use-expand-in-java-complete-excel-guide/)
+เรียนรู้วิธีใช้ฟังก์ชัน Expand ใน Java ด้วย Aspose.Cells สำหรับ Excel พร้อมตัวอย่างโค้ดเต็มขั้นตอน
+### [วิธีล้าง AutoFilter ใน Excel ด้วย Java – คู่มือครบถ้วน](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+เรียนรู้วิธีล้าง AutoFilter ในไฟล์ Excel ด้วยโค้ด Java อย่างละเอียด พร้อมตัวอย่างโค้ดที่ใช้งานได้จริง
+### [สร้างเวิร์กบุ๊กใหม่ด้วย Aspose – เพิ่มคุณสมบัติแบบกำหนดเองใน Excel และบันทึกเป็น XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+เรียนรู้วิธีสร้างไฟล์ Excel ใหม่ เพิ่มคุณสมบัติแบบกำหนดเอง และบันทึกเป็นรูปแบบ XLSB ด้วย Aspose.Cells สำหรับ Java
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

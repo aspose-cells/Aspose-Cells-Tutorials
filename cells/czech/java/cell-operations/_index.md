@@ -55,7 +55,6 @@ Naučte se nastavit aktivní buňku v Excelu pomocí Aspose.Cells pro Java. Prů
 ### [Získání data a času z buňky v Excelu pomocí Javy – Kompletní průvodce](./get-datetime-from-cell-in-java-excel-complete-guide/)
 Naučte se, jak načíst datum a čas z buňky v Excelu pomocí Aspose.Cells pro Javu a správně je zpracovat.
 
-
 ### [Rozdělení jmen do sloupců s Aspose.Cells Java](./aspose-cells-java-split-names-columns/)
 Kódový tutoriál pro Aspose.Words Java
 
@@ -96,6 +95,8 @@ Kódový tutoriál pro Aspose.Words Java
 Kódový tutoriál pro Aspose.Words Java
 ### [Převod buňky na řetězec v Javě – Kompletní průvodce exportem](./convert-cell-to-string-in-java-complete-export-guide/)
 Naučte se, jak převést buňku na řetězec v Javě pomocí Aspose.Cells a kompletně exportovat data z Excelu.
+### [Rozbor japonského data éry z Excelu v Javě – Kompletní průvodce](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Naučte se, jak pomocí Aspose.Cells v Javě načíst a převést japonská data v systému era z Excelu.
 
 ## Další zdroje
 

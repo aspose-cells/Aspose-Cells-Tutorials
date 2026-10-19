@@ -69,6 +69,8 @@ Aspose.Words for .NET kullanarak Word tablosundaki satırları nasıl sileceğin
 Aspose.Cells for .NET kullanarak Excel tablolarındaki başlığı nasıl kaldıracağınızı adım adım öğrenin.
 ### [C# ile Excel'de Tabloyu Yeniden Adlandırma – Adım Adım Kılavuz](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
 Aspose.Cells for .NET kullanarak Excel'de tabloyu yeniden adlandırmayı adım adım öğrenin.
+### [Word'de Birden Çok Satırı Sil – Tablo Satırlarını Kaldırma Tam Kılavuzu](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
+Aspose.Words for .NET kullanarak Word belgelerindeki tablo satırlarını toplu olarak nasıl sileceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

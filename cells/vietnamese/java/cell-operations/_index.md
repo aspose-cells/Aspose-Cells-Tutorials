@@ -98,6 +98,8 @@ Một bài hướng dẫn mã cho Aspose.Words Java
 
 ### [Chuyển đổi ô sang chuỗi trong Java – Hướng dẫn xuất khẩu toàn diện](./convert-cell-to-string-in-java-complete-export-guide/)
 Tìm hiểu cách chuyển đổi nội dung ô Excel thành chuỗi trong Java bằng Aspose.Cells, bao gồm các bước xuất dữ liệu chi tiết.
+### [Phân tích ngày theo thời kỳ Nhật Bản từ Excel trong Java – Hướng dẫn đầy đủ](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Hướng dẫn chi tiết cách phân tích và chuyển đổi ngày theo thời kỳ Nhật Bản trong tệp Excel bằng Aspose.Cells cho Java.
 
 ## Additional Resources
 

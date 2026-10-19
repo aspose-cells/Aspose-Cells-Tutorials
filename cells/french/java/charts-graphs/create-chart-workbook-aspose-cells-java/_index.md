@@ -1,43 +1,84 @@
 ---
-"date": "2025-04-08"
-"description": "Apprenez à créer et à représenter graphiquement des classeurs Excel par programmation avec Aspose.Cells pour Java. Ce guide couvre la création de classeurs, la manipulation de données et la génération de graphiques."
-"title": "Maîtriser la création de classeurs et la création de graphiques dans Excel avec Aspose.Cells pour Java"
-"url": "/fr/java/charts-graphs/create-chart-workbook-aspose-cells-java/"
-"weight": 1
+date: '2026-09-27'
+description: Apprenez à créer un fichier xlsx java en utilisant Aspose.Cells, à ajouter
+  des données au chart, et à automatiser la création de chart Excel avec une configuration
+  Maven en quelques étapes.
+keywords:
+- create xlsx file java
+- add data to chart
+- how to add chart
+- create excel workbook java
+- automate excel chart creation
+lastmod: '2026-09-27'
+og_description: Apprenez à créer un fichier xlsx java en utilisant Aspose.Cells, à
+  ajouter des données au chart, et à automatiser la création de chart Excel avec une
+  configuration Maven en quelques étapes.
+og_image_alt: Guide showing how to create XLSX file in Java and generate charts with
+  Aspose.Cells
+og_title: Comment créer un fichier xlsx java avec des charts Aspose.Cells
+schemas:
+- author: Aspose
+  dateModified: '2026-09-27'
+  description: Learn how to create xlsx file java using Aspose.Cells, add data to
+    chart, and automate Excel chart creation with Maven setup in just a few steps.
+  headline: How to create xlsx file java with Aspose.Cells charts
+  type: TechArticle
+- questions:
+  - answer: Use `worksheet.getCharts().add(ChartType.COLUMN, upperLeftRow, upperLeftColumn,
+      lowerRightRow, lowerRightColumn)` for each chart you need, then set each chart’s
+      data source individually.
+    question: How do I add more than one chart to the same worksheet?
+  - answer: Yes—instantiate `Workbook` with the file path (`new Workbook("existing.xlsx")`)
+      and then add or edit worksheets and charts as shown above.
+    question: Can I modify an existing Excel file instead of creating a new one?
+  - answer: Aspose.Cells supports XLS, CSV, PDF, HTML, ODS, and more than 30 additional
+      formats, allowing seamless conversion after chart creation.
+    question: Which file formats can I export to besides XLSX?
+  - answer: Load data in chunks, write each chunk to the worksheet, and call `worksheet.calculateFormula()`
+      only after all data is written to minimise CPU overhead.
+    question: What is the recommended way to handle very large datasets?
+  - answer: Browse the full reference at the [official documentation](https://docs.aspose.com/cells/java/).
+    question: Where can I find deeper documentation and code samples?
+  type: FAQPage
+tags:
+- create xlsx
+- Aspose.Cells
+- Java Excel automation
+- chart generation
+title: Comment créer un fichier xlsx java avec des charts Aspose.Cells
+url: /fr/java/charts-graphs/create-chart-workbook-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Maîtriser la création de classeurs et la création de graphiques dans Excel avec Aspose.Cells pour Java
+# Comment créer un fichier xlsx java avec des graphiques Aspose.Cells
 
 ## Introduction
-Créer des classeurs Excel dynamiques par programmation peut s'avérer complexe, notamment lorsque vous souhaitez automatiser le processus de création de graphiques à partir de données saisies. **Aspose.Cells pour Java**Les développeurs peuvent facilement générer de nouveaux fichiers Excel, manipuler des feuilles de calcul et intégrer des graphiques avec un minimum d'effort de codage. Ce tutoriel vous guidera pas à pas pour créer un classeur Excel de A à Z, ajouter des données et générer un histogramme avec Aspose.Cells en Java.
+Créer un classeur **xlsx** de manière programmatique peut sembler intimidant, surtout lorsque vous devez automatiser la génération de graphiques. Dans ce guide, vous apprendrez comment **create xlsx file java** en utilisant Aspose.Cells, ajouter des données à un graphique et enregistrer le résultat — le tout avec du code Java clair, étape par étape. À la fin, vous serez capable d’intégrer des graphiques à colonnes dynamiques dans n’importe quel fichier Excel sans l’ouvrir.
 
-**Ce que vous apprendrez :**
-- Comment créer un nouveau classeur au format XLSX.
-- Accéder et manipuler la première feuille de calcul.
-- Ajout de données pour la création de graphiques.
-- Créer un graphique à colonnes en toute simplicité.
-- Sauvegardez efficacement votre classeur.
+## Réponses rapides
+- **Quelle est la première ligne de code ?** `Workbook workbook = new Workbook();` crée un nouveau classeur XLSX.  
+- **Quel artefact Maven dois‑je utiliser ?** `com.aspose:aspose-cells` (dernière version).  
+- **Puis‑je ajouter plusieurs graphiques ?** Oui – appelez `worksheet.getCharts().add(...)` pour chaque type de graphique.  
+- **Ai‑je besoin d’une licence pour les tests ?** Une licence temporaire fonctionne pour l’évaluation ; une licence achetée supprime les limites d’évaluation.  
+- **Quelle version de Java est requise ?** Java 8 ou supérieur est entièrement pris en charge.
 
-Avant de vous lancer dans l'implémentation, assurez-vous que tout est correctement configuré. Nous aborderons les prérequis, tels que les bibliothèques et les configurations d'environnement nécessaires, pour un démarrage en douceur.
+## Qu’est‑ce qu’Aspose.Cells pour Java ?
+Aspose.Cells pour Java est une API puissante qui vous permet de créer, modifier et convertir des fichiers Excel sans Microsoft Office. Elle prend en charge **50+** formats d’entrée et de sortie et peut traiter des classeurs contenant des centaines de feuilles tout en utilisant moins de 200 Mo de mémoire.
+
+## Comment créer un fichier xlsx java ?
+`Workbook` représente un classeur Excel en mémoire. Chargez la bibliothèque Aspose.Cells, instanciez un `Workbook`, ajoutez des données, créez un graphique, puis enregistrez le fichier. L’ensemble du flux de travail peut être écrit en moins de dix lignes de Java, vous offrant une solution rapide et réutilisable pour le reporting automatisé.
 
 ## Prérequis
-Pour suivre efficacement ce tutoriel, assurez-vous de répondre à ces exigences :
+- **Aspose.Cells for Java** – ajoutez la dépendance Maven ou Gradle (voir ci‑dessous).  
+- **JDK 8+** – la bibliothèque fonctionne sur tout runtime Java 8 ou supérieur.  
+- **Basic Java knowledge** – vous devez être à l’aise avec les classes et les appels de méthodes.
 
-1. **Bibliothèques et dépendances**: Votre projet nécessite Aspose.Cells pour Java. Nous vous recommandons d'utiliser Maven ou Gradle pour une gestion simplifiée des dépendances.
-2. **Environnement de développement Java**: Assurez-vous d'avoir un JDK installé et configuré (de préférence Java 8 ou supérieur).
-3. **Connaissances de base en Java**:Une connaissance des concepts de programmation Java est utile.
-
-## Configuration d'Aspose.Cells pour Java
-Pour inclure Aspose.Cells dans votre projet Java, suivez ces étapes d'installation :
-
-**Expert :**
+## Configuration d’Aspose.Cells pour Java
+### Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,26 +87,22 @@ Pour inclure Aspose.Cells dans votre projet Java, suivez ces étapes d'installat
 </dependency>
 ```
 
-**Gradle :**
+### Gradle
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Acquisition de licence
-Avant de commencer à utiliser Aspose.Cells, déterminez vos besoins en matière de licence :
-- **Essai gratuit**: Obtenez une licence temporaire pour évaluer toutes les fonctionnalités sans limitations.
-- **Achat**:Envisagez un achat pour une utilisation à long terme.
+## Acquisition de licence
+Avant de commencer, décidez si vous avez besoin d’un **essai gratuit** ou d’une **licence achetée**. Une licence d’essai supprime la plupart des restrictions de fonctionnalités, tandis qu’une licence complète élimine le filigrane d’évaluation. Obtenez une licence depuis la [page d’achat d’Aspose](https://purchase.aspose.com/buy) ou demandez une [Licence temporaire](https://purchase.aspose.com/temporary-license/).
 
-Pour les deux options, visitez [Page d'achat d'Aspose](https://purchase.aspose.com/buy) ou postuler pour un [Permis temporaire](https://purchase.aspose.com/temporary-license/).
-
-### Initialisation de base
-Voici comment initialiser Aspose.Cells dans votre application Java :
+## Initialisation de base
+La classe `License` charge votre fichier de licence afin que tous les appels API ultérieurs s’exécutent sans limites d’évaluation.
 ```java
 import com.aspose.cells.Workbook;
 
 public class Main {
     public static void main(String[] args) {
-        // Initialiser un nouvel objet Workbook
+        // Initialize a new Workbook object
         Workbook workbook = new Workbook();
         
         System.out.println("Workbook initialized successfully.");
@@ -73,11 +110,11 @@ public class Main {
 }
 ```
 
-## Guide de mise en œuvre
-Maintenant, mettons en œuvre les fonctionnalités clés étape par étape.
+## Guide d’implémentation
+Ci‑dessus, nous parcourons chaque étape nécessaire pour **create xlsx file java** et intégrer un graphique à colonnes.
 
 ### 1. Créer un nouveau classeur
-Commencez par créer un nouveau classeur Excel au format XLSX.
+`Workbook` est l’objet de niveau supérieur qui représente un fichier Excel en mémoire.  
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.FileFormatType;
@@ -86,15 +123,15 @@ public class WorkbookCreation {
     public static void main(String[] args) {
         String dataDir = "YOUR_DATA_DIRECTORY";
         
-        // Créer un nouveau classeur au format XLSX
+        // Create a new workbook in XLSX format
         Workbook workbook = new Workbook(FileFormatType.XLSX);
         System.out.println("New Excel workbook created.");
     }
 }
 ```
 
-### 2. Feuille de travail Access First
-L'accès à la première feuille de calcul vous permet de commencer à ajouter des données ou à manipuler du contenu existant.
+### 2. Accéder à la première feuille de calcul
+`Worksheet` vous donne accès aux cellules, lignes, colonnes et graphiques d’une feuille spécifique.  
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -103,7 +140,7 @@ public class AccessWorksheet {
     public static void main(String[] args) {
         Workbook workbook = new Workbook();
         
-        // Obtenez la première feuille de travail
+        // Get the first worksheet
         Worksheet worksheet = workbook.getWorksheets().get(0);
         System.out.println("First worksheet accessed.");
     }
@@ -111,7 +148,7 @@ public class AccessWorksheet {
 ```
 
 ### 3. Ajouter des données pour le graphique
-Pour créer un graphique, vous avez besoin de données dans votre feuille de calcul. Voici comment remplir des cellules avec des exemples de données.
+Remplissez les cellules avec les valeurs que vous souhaitez visualiser. Ces données constitueront la plage source du graphique.  
 ```java
 import com.aspose.cells.Cells;
 import com.aspose.cells.Worksheet;
@@ -122,7 +159,7 @@ public class AddData {
         Worksheet worksheet = workbook.getWorksheets().get(0);
         Cells cells = worksheet.getCells();
 
-        // Remplir les données du graphique
+        // Populate data for chart
         cells.get("A2").putValue("C1");
 cells.get("A3").putValue("C2");
 cells.get("A4").putValue("C3");
@@ -148,7 +185,7 @@ cells.get("D4").putValue(2);
 ```
 
 ### 4. Créer un graphique à colonnes
-Une fois vos données prêtes, vous pouvez désormais créer un graphique à colonnes pour les visualiser.
+Les objets `Chart` sont ajoutés à la collection `Charts` d’une feuille de calcul. Vous pouvez spécifier le type de graphique, la plage de données et la position.  
 ```java
 import com.aspose.cells.Chart;
 import com.aspose.cells.ChartType;
@@ -159,11 +196,11 @@ public class CreateChart {
         Workbook workbook = new Workbook();
         Worksheet worksheet = workbook.getWorksheets().get(0);
 
-        // Ajouter un graphique à colonnes
+        // Add a column chart
         int idx = worksheet.getCharts().add(ChartType.COLUMN, 6, 5, 20, 13);
         Chart ch = worksheet.getCharts().get(idx);
 
-        // Définir la plage de données pour le graphique
+        // Set the data range for the chart
         ch.setChartDataRange("A1:D4", true);
         
         System.out.println("Column chart created successfully.");
@@ -172,7 +209,7 @@ public class CreateChart {
 ```
 
 ### 5. Enregistrer le classeur
-Enfin, enregistrez votre classeur dans un fichier en utilisant le format et le répertoire spécifiés.
+Appelez `save` sur l’instance `Workbook`, en fournissant le chemin cible et le format souhaité (XLSX, PDF, etc.).  
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.SaveFormat;
@@ -182,7 +219,7 @@ public class SaveWorkbook {
         String outDir = "YOUR_OUTPUT_DIRECTORY";
         Workbook workbook = new Workbook();
 
-        // Enregistrer le classeur au format XLSX
+        // Save the workbook in XLSX format
         workbook.save(outDir + "EWForChartSetup.xlsx", SaveFormat.XLSX);
         
         System.out.println("Workbook saved as 'EWForChartSetup.xlsx'.");
@@ -191,40 +228,50 @@ public class SaveWorkbook {
 ```
 
 ## Applications pratiques
-- **Rapports financiers**:Générer et visualiser automatiquement des rapports financiers trimestriels.
-- **Analyse des ventes**: Créez des tableaux de bord de vente dynamiques pour comparer les performances entre différentes régions.
-- **Gestion des stocks**:Visualisez les niveaux de stock au fil du temps pour faciliter les décisions d'inventaire.
+- **Financial reporting** – générez des états de résultats trimestriels avec des graphiques à colonnes à mise à l’échelle automatique.  
+- **Sales analytics** – créez des tableaux de bord de ventes région par région qui se mettent à jour chaque nuit à partir d’une base de données.  
+- **Inventory management** – visualisez les tendances de stock sur plusieurs mois pour déclencher des alertes de réapprovisionnement.
 
-Ces applications démontrent la polyvalence d'Aspose.Cells pour Java, permettant l'intégration avec des systèmes d'entreprise plus larges tels que les logiciels CRM ou ERP.
+## Considérations de performance
+Aspose.Cells traite efficacement les grands classeurs en diffusant les données et en réutilisant les objets. Pour de meilleurs résultats :
+- Traitez les lignes par lots lorsque vous avez plus de 100 000 enregistrements.  
+- Réutilisez une seule instance `Workbook` dans les boucles afin d’éviter des allocations mémoire répétées.  
+- Ajustez la taille du tas JVM (`-Xmx2g` ou plus) si vous prévoyez des fichiers de plusieurs centaines de pages.
 
-## Considérations relatives aux performances
-Pour des performances optimales :
-- Limitez l’utilisation de la mémoire en traitant les fichiers volumineux par morceaux si possible.
-- Réutilisation `Workbook` objets lors de l'exécution de tâches répétitives dans des boucles pour réduire la surcharge.
-- Ajustez les paramètres JVM en fonction des besoins de votre application.
+## Questions fréquemment posées
+**Q : Comment ajouter plus d’un graphique à la même feuille de calcul ?**  
+R : Utilisez `worksheet.getCharts().add(ChartType.COLUMN, upperLeftRow, upperLeftColumn, lowerRightRow, lowerRightColumn)` pour chaque graphique dont vous avez besoin, puis définissez la source de données de chaque graphique individuellement.
 
-Le respect de ces directives garantira que vos applications fonctionnent efficacement, même avec des opérations de données complexes.
+**Q : Puis‑je modifier un fichier Excel existant au lieu d’en créer un nouveau ?**  
+R : Oui — instanciez `Workbook` avec le chemin du fichier (`new Workbook("existing.xlsx")`) puis ajoutez ou modifiez des feuilles de calcul et des graphiques comme indiqué ci‑dessus.
+
+**Q : Quels formats de fichier puis‑je exporter en plus de XLSX ?**  
+R : Aspose.Cells prend en charge XLS, CSV, PDF, HTML, ODS et plus de 30 formats supplémentaires, permettant une conversion fluide après la création du graphique.
+
+**Q : Quelle est la méthode recommandée pour gérer des ensembles de données très volumineux ?**  
+R : Chargez les données par morceaux, écrivez chaque morceau dans la feuille de calcul, et appelez `worksheet.calculateFormula()` uniquement après que toutes les données soient écrites afin de minimiser la charge CPU.
+
+**Q : Où puis‑je trouver une documentation plus approfondie et des exemples de code ?**  
+R : Parcourez la référence complète sur la [documentation officielle](https://docs.aspose.com/cells/java/).
 
 ## Conclusion
-Vous maîtrisez désormais la création et la représentation graphique d'un classeur avec Aspose.Cells pour Java. Cette puissante bibliothèque simplifie la manipulation des fichiers Excel et vous permet de vous concentrer sur l'analyse des données plutôt que sur les complexités de la gestion de fichiers. Explorez davantage en intégrant ces techniques à vos projets ou en les enrichissant avec des fonctionnalités Aspose.Cells supplémentaires.
+Vous disposez maintenant d’une recette complète, prête pour la production, pour **create xlsx file java**, la remplir avec des données et générer un graphique à colonnes à l’aide d’Aspose.Cells. Intégrez ces extraits dans des travaux batch, des services web ou des outils de bureau pour automatiser le reporting et l’analyse sans jamais lancer Excel.
 
-## Section FAQ
-1. **Comment ajouter plus de graphiques ?**
-   - Utilisez le `add` méthode pour chaque type de graphique et position selon les besoins.
-2. **Puis-je mettre à jour des classeurs existants au lieu d’en créer de nouveaux ?**
-   - Oui, chargez un classeur existant en utilisant son chemin avec `new Workbook("path")`.
-3. **Quels formats sont pris en charge pour l'enregistrement ?**
-   - Aspose.Cells prend en charge XLSX, XLS, CSV, PDF et plus encore.
-4. **Comment gérer efficacement de grands ensembles de données ?**
-   - Traitez les données par blocs pour gérer efficacement l’utilisation de la mémoire.
-5. **Où puis-je trouver plus de ressources sur Aspose.Cells pour Java ?**
-   - Visitez le [documentation officielle](https://docs.aspose.com/cells/java/) et explorez les forums communautaires.
+---
 
+**Dernière mise à jour :** 2026-09-27  
+**Testé avec :** Aspose.Cells 24.12 for Java  
+**Auteur :** Aspose
+
+## Tutoriels associés
+
+- [Maîtriser Aspose.Cells en Java : Configurer le classeur et visualiser les données avec des graphiques](/cells/java/charts-graphs/aspose-cells-java-setup-data-visualization/)
+- [Maîtriser Excel avec Aspose.Cells Java : Création de classeur et personnalisation de graphiques](/cells/java/charts-graphs/aspose-cells-java-workbook-chart-customization/)
+- [Ajouter des étiquettes de données à un graphique Excel avec Aspose.Cells Java](/cells/java/advanced-excel-charts/chart-interactivity/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

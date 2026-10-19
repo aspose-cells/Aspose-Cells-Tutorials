@@ -61,6 +61,12 @@
 Узнайте, как создать рабочую книгу Excel в C#, добавить пользовательское свойство и сохранить её в формате XLSB.
 ### [Как добавить пользовательское свойство в Excel с C# – пошаговое руководство](./how-to-add-custom-property-in-excel-with-c-step-by-step-guid/)
 Узнайте, как добавить пользовательское свойство в файл Excel с помощью C# и Aspose.Cells, следуя подробному пошаговому руководству.
+### [Как добавить метаданные Excel – Полное руководство по рабочей книге C#](./how-to-add-excel-metadata-complete-c-workbook-guide/)
+Подробное руководство по добавлению метаданных в файлы Excel с помощью C# и Aspose.Cells.
+### [Создание пользовательского свойства Aspose – Полное руководство по Excel](./create-custom-property-aspose-complete-excel-guide/)
+Узнайте, как создать пользовательское свойство в Excel с помощью Aspose.Cells для .NET в полном пошаговом руководстве.
+### [Как сохранить XLSB и добавить пользовательские свойства документа в C#](./how-to-save-xlsb-and-add-custom-document-properties-in-c/)
+Узнайте, как сохранять файлы XLSB и добавлять пользовательские свойства документа в C# с помощью Aspose.Cells для .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -46,12 +46,23 @@ Tanuld meg, hogyan automatizálhatod a dinamikus Excel-jelentéskészítést az 
 
 ### [Mester‑részlet munkafüzet létrehozása az Aspose.Cells (Java) segítségével](./create-master-detail-workbook-with-aspose-cells-java/)
 Tanuld meg, hogyan hozhatsz létre mester‑részlet struktúrájú Excel-munkafüzetet az Aspose.Cells for Java segítségével.
+### [Excel sablon feltöltése adatokkal az Aspose.Cells segítségével](./how-to-populate-excel-template-with-data-using-aspose-cells/)
+Tanulja meg, hogyan töltheti fel Excel sablonját adatokkal az Aspose.Cells for Java segítségével, egyszerűen és hatékonyan.
 
 ### [Munkalapok generálása Smart Markerekkel – Teljes Java útmutató](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
 Ismerd meg, hogyan hozhatsz létre munkalapokat Smart Markerekkel a teljes Java útmutató segítségével.
 
 ### [Aspose Cells Smart Markerek: Excel-sablon betöltése és Excel generálása sablonból](./aspose-cells-smart-markers-load-excel-template-generate-exce/)
 Tanulja meg, hogyan töltsön be Excel-sablont és generáljon új Excel-fájlt Smart Markerek segítségével Aspose Cells Java-ban.
+### [Munkafüzet SmartMarker létrehozása – Excel munkafüzet feltöltése](./create-workbook-smartmarker-populate-excel-workbook/)
+Tanuld meg, hogyan hozhatsz létre SmartMarker-t egy munkafüzetben és töltsd fel adatával az Excel fájlt az Aspose.Cells for Java segítségével.
+### [Excel-sablon feltöltése adatokkal – Jelentés létrehozása sablonból](./populate-excel-template-with-data-create-excel-report-from-t/)
+Tanulja meg, hogyan töltheti fel az Excel-sablont adatokkal, és hozhat létre jelentést a sablon alapján Aspose.Cells for Java segítségével.
+
+### [Aspose Cells Smart Markerek – Excel-sablon feltöltése](./aspose-cells-smart-markers-populate-excel-template/)
+Tanulja meg, hogyan használhatja a Smart Markereket az Excel-sablon adatfeltöltéséhez az Aspose.Cells for Java segítségével.
+### [Részletes munkalapok létrehozása Java-val az Aspose.Cells intelligens jelölőkkel](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
+Tanuld meg, hogyan hozhat létre részletes munkalapokat intelligens jelölőkkel Java-ban.
 
 ## További források
 

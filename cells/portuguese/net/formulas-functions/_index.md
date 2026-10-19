@@ -109,6 +109,10 @@ Aprenda a aplicar a função WRAPCOLS em C# para criar planilhas Excel que divid
 Aprenda a criar pastas de trabalho Excel em C# usando as funções Lambda, SEQUENCE e EXPAND para gerar dados dinâmicos de forma eficiente.
 ### [Como Calcular a Cotangente no Excel com C# – Criar Pasta de Trabalho, Usar EXPAND e Salvar](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
 Aprenda a criar uma pasta de trabalho, usar a função EXPAND e salvar o Excel ao calcular a cotangente com Aspose.Cells e C#.
+### [Criar Pasta de Trabalho Excel com a Fórmula EXPAND – Guia Completo](./create-excel-workbook-with-expand-formula-complete-guide/)
+Aprenda a criar uma pasta de trabalho do Excel usando a fórmula EXPAND com Aspose.Cells para .NET, automatizando a expansão de dados dinâmicos.
+### [Como usar SEQUENCE em C# – Criar pasta de trabalho Excel](./how-to-use-sequence-in-c-create-excel-workbook/)
+Aprenda a usar a função SEQUENCE em C# para gerar planilhas Excel dinamicamente com Aspose.Cells.
 
 ## Compreendendo os tipos de fórmulas do Excel
 
@@ -168,6 +172,8 @@ Para implementação robusta da fórmula:
 4. **Documentação**: Manter documentação clara de estruturas de fórmulas complexas
 
 Ao dominar esses recursos de fórmula com o Aspose.Cells para .NET, você pode criar mecanismos de cálculo sofisticados em suas planilhas que fornecem resultados precisos e dinâmicos sem exigir instalação do Excel.
+### [Como usar WRAPCOLS em C# – Redimensionar um array para uma matriz no Excel](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
+Aprenda a usar a função WRAPCOLS em C# com Aspose.Cells para transformar um array unidimensional em uma matriz no Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

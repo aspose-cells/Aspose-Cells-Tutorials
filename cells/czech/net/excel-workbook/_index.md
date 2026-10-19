@@ -73,6 +73,7 @@ Tak proč nevyužít této příležitosti a nezlepšit si své dovednosti v Exc
 | [Úprava úrovně komprese](./adjust-compression-level/) Naučte se, jak upravit úrovně komprese souborů aplikace Excel pomocí nástroje Aspose.Cells pro .NET. Optimalizujte velikosti souborů efektivně pomocí tohoto podrobného návodu. |  
 | [Povolit úvodní apostrof](./allow-leading-apostrophe/) | Snadno spravujte úvodní apostrofy v Excelu s Aspose.Cells pro .NET. Tento komplexní tutoriál vás krok za krokem provede celým procesem. |  
 | [Vytvořit sdílený sešit](./create-shared-workbook/) | Naučte se, jak vytvořit sdílený sešit pomocí Aspose.Cells pro .NET s tímto jednoduchým podrobným návodem. Ideální pro zlepšení týmové spolupráce. |  
+| [Vytvořit sešit Excel a zapisovat data v C# – Kompletní průvodce krok za krokem](./create-excel-workbook-and-write-data-in-c-full-step-by-step/) | Naučte se, jak pomocí Aspose.Cells pro .NET vytvořit sešit Excel a zapisovat data v C# krok za krokem. |  
 | [Detekce typů odkazů](./detect-link-types/) | Naučte se, jak detekovat typy hypertextových odkazů v Excelu pomocí Aspose.Cells pro .NET. Součástí jsou jednoduché kroky a příklady kódu. |  
 | [Extrahovat vložený soubor Mol](./extract-embedded-mol-file/) | Naučte se, jak snadno extrahovat vložené soubory MOL ze sešitu aplikace Excel pomocí nástroje Aspose.Cells pro .NET. |  
 | [Filtrování definovaných názvů při načítání sešitu](./filter-defined-names-while-loading-workbook/) V tomto komplexním průvodci se naučíte, jak filtrovat definované názvy při načítání sešitu pomocí Aspose.Cells pro .NET. |  
@@ -118,6 +119,7 @@ Tak proč nevyužít této příležitosti a nezlepšit si své dovednosti v Exc
 | [Vytvořit soubor Excel programově v C# – krok za krokem](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Cells pro .NET v C# programově vytvořit soubor Excel od začátku. |  
 | [Vytvořit nový sešit – převést Markdown do Excelu v C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Naučte se, jak vytvořit nový sešit a převést soubor Markdown do formátu Excel pomocí Aspose.Cells pro .NET v C#. |  
 | [Jak vytvořit sešit v C# – Zapsat hodnotu a formátovat číslo](./how-to-create-workbook-in-c-write-value-format-number/) | Naučte se vytvořit nový sešit v C#, zapsat hodnotu a nastavit formát čísla pomocí Aspose.Cells pro .NET. |
+| [Vytvořit sešit aplikace Excel pomocí Aspose.Cells – Kompletní průvodce](./create-excel-workbook-with-aspose-cells-full-guide/) | Kompletní návod, jak pomocí Aspose.Cells pro .NET vytvořit nový sešit aplikace Excel s podrobnými ukázkami kódu. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

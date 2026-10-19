@@ -54,6 +54,8 @@ Aspose.Cells for .NET を使用して、C# で Excel のオートフィルター
 C# を使用して Excel のオートフィルターボタンを非表示にし、フィルター UI をクリアする方法を解説します。
 ### [C#でExcelのフィルター矢印を非表示にする – 完全ガイド](./hide-filter-arrows-excel-with-c-complete-guide/)
 Aspose.Cells for .NET を使用し、C# で Excel のフィルター矢印を非表示にする方法をステップバイステップで解説します。
+### [C# で Excel にテーブルを追加 – オートフィルターをクリアしてファイルを保存](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
+Aspose.Cells を使用して、C# でテーブルを作成し、オートフィルターをクリアして Excel ファイルを保存する方法を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
