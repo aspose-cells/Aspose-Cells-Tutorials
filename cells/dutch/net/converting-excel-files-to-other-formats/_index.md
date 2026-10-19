@@ -83,6 +83,9 @@ Leer hoe u een nieuw werkboek maakt en Excel-gegevens exporteert naar een TXT-be
 Leer stap voor stap hoe u diagrammen uit Excel kunt exporteren naar een DOCX-document met Aspose.Cells voor .NET.
 ### [Hoe Excel exporteren – Tab‑gescheiden tekstgids](./how-to-export-excel-tab-delimited-text-guide/)
 Leer hoe u Excel-werkbladen exporteert naar tab‑gescheiden tekstbestanden met Aspose.Cells voor .NET.
+### [Lettertypen insluiten in SVG bij het converteren van Excel-bestanden naar SVG en PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Leer hoe u lettertypen insluit in SVG-bestanden bij het converteren van Excel naar SVG of PowerPoint met Aspose.Cells voor .NET.
+
 ### [PowerPoint maken vanuit Excel – Complete C#-tutorial](./create-powerpoint-from-excel-complete-c-tutorial/)
 Leer hoe u met Aspose.Cells voor .NET een PowerPoint-presentatie maakt vanuit een Excel-werkmap met een volledige C#-stapsgewijze handleiding.
 ### [Hoe Excel naar PowerPoint exporteren – Stapsgewijze handleiding](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
@@ -96,6 +99,7 @@ Leer hoe u Excel-bestanden naar PowerPoint converteert met Aspose.Cells voor .NE
 
 ### [Excel opslaan als txt – Complete C#-handleiding voor het exporteren van getallen met significante cijfers](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 Leer hoe u Excel-werkbladen opslaat als txt-bestanden en getallen met significante cijfers exporteert met Aspose.Cells voor .NET.
+
 ### [Excel opslaan als tekst – Complete C#-handleiding om Excel naar TXT te exporteren](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
 Leer hoe u met Aspose.Cells voor .NET Excel-werkbladen naar tekstbestanden (TXT) exporteert met een volledige C#-stapsgewijze gids.
 ### [Excel opslaan als tekst met Aspose.Cells – stapsgewijze handleiding](./how-to-save-excel-as-text-with-aspose-cells-step-by-step-gui/)
@@ -201,6 +205,11 @@ Beschrijving: Leer in deze gedetailleerde tutorial hoe u de voortgang van docume
 Leer hoe u de voortgang van TIFF-conversie programmatisch kunt volgen met Aspose.Cells voor .NET met onze stapsgewijze handleiding. Verbeter uw vaardigheden in documentbeheer.
 ### [Hoe Excel naar PowerPoint exporteren – Complete gids](./how-to-export-excel-to-powerpoint-complete-guide/)
 Leer stap voor stap hoe u Excel-werkbladen naar PowerPoint-presentaties exporteert met Aspose.Cells voor .NET.
+### [Hoe een werkmap op te slaan als CSV en Excel naar TXT te exporteren met aangepaste opmaak in C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+Leer hoe u een werkmap als CSV opslaat en Excel-gegevens exporteert naar TXT met aangepaste opmaak in C#.
+
+### [Word maken vanuit Excel – Snelle C#-gids](./create-word-from-excel-quick-c-guide/)
+Leer hoe u met Aspose.Cells een Word-document vanuit een Excel-werkblad genereert met een korte C#-codevoorbeeld.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

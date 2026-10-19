@@ -106,6 +106,9 @@ Aspose.Cells for .NET का उपयोग करके Excel को PowerPoin
 ### [.NET में प्रोग्रामेटिक रूप से TIFF के लिए दस्तावेज़ रूपांतरण प्रगति को ट्रैक करना](./tracking-document-conversion-progress-for-tiff/)
 हमारे चरण-दर-स्टेप गाइड के साथ .NET के लिए Aspose.Cells का उपयोग करके TIFF रूपांतरण प्रगति को प्रोग्रामेटिक रूप से ट्रैक करना सीखें। अपने दस्तावेज़ प्रबंधन कौशल को बढ़ाएँ।
 
+### [.NET में प्रोग्रामेटिक रूप से Excel फ़ाइलों को SVG और PowerPoint में परिवर्तित करते समय SVG में फ़ॉन्ट एम्बेड करना](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Aspose.Cells for .NET का उपयोग करके Excel को SVG या PowerPoint में बदलते समय फ़ॉन्ट एम्बेड करने की प्रक्रिया सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

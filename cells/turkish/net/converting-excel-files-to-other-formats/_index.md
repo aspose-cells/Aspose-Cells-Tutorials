@@ -103,15 +103,18 @@ Aspose.Cells for .NET kullanarak Excel verilerini PowerPoint sunumlarına nasıl
 ### [Excel'i txt olarak kaydet – Sayıları Önemli Basamaklarla Dışa Aktarmak için Tam C# Kılavuzu](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 Aspose.Cells for .NET kullanarak Excel dosyalarını txt formatına kaydedip, sayıları belirli basamak hassasiyetiyle dışa aktarmayı öğrenin.
 ### [Excel'i Metin Olarak Kaydet – Excel'i TXT'ye Aktarmak İçin Tam C# Kılavuzu](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
-Aspose.Cells for .NET kullanarak Excel dosyalarını TXT formatına nasıl kaydedeceğinizi adım adım öğrenin.
 ### [Excel'i Metin Olarak Kaydet – Aspose.Cells ile Adım Adım Kılavuz](./how-to-save-excel-as-text-with-aspose-cells-step-by-step-gui/)
 Aspose.Cells kullanarak Excel dosyalarını metin (TXT) formatına nasıl kaydedeceğinizi adım adım öğrenin.
+### [Çalışma Kitabını CSV Olarak Kaydetme ve Excel'i Özel Biçimlendirme ile TXT'ye Dışa Aktarma (C#)](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+Aspose.Cells for .NET kullanarak çalışma kitabını CSV olarak kaydetmeyi ve Excel verilerini özel biçimlendirme ile TXT'ye dışa aktarmayı adım adım öğrenin.
 ### [Excel'den Word Oluşturma – Hızlı C# Kılavuzu](./create-word-from-excel-quick-c-guide/)
 Aspose.Cells for .NET kullanarak Excel dosyasından hızlı bir şekilde Word belgesi oluşturmayı adım adım öğrenin.
 ### [Excel'i Sekmeli Metin Olarak Dışa Aktarma Rehberi](./how-to-export-excel-tab-delimited-text-guide/)
 Aspose.Cells for .NET kullanarak Excel dosyalarını sekmeli metin (tab‑delimited) formatına nasıl dışa aktaracağınızı öğrenin.
 ### [Excel Dosyasını .NET'te Programatik Olarak PowerPoint'e Dönüştürme – Adım Adım C# Kılavuzu](./convert-excel-to-powerpoint-step-by-step-c-guide/)
 Aspose.Cells for .NET kullanarak Excel dosyalarını PowerPoint sunumlarına (PPTX) dönüştürmek için adım adım C# kod örnekleri.
+### [Excel Dosyasını .NET'te Programatik Olarak SVG'ye Dönüştürürken Yazı Tiplerini Gömme ve PowerPoint'e Dönüştürme](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Aspose.Cells kullanarak Excel dosyalarını SVG'ye dönüştürürken yazı tiplerini gömmenin ve PowerPoint'e aktarımın adımlarını öğrenin.
 
 ### [C# ile Excel Dosyasını Docx Olarak Kaydet – Tam Adım Adım Kılavuz](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 Aspose.Cells for .NET kullanarak C# ile Excel dosyasını Docx formatına nasıl kaydedeceğinizi adım adım öğrenin.

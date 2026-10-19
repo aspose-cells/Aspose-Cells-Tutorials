@@ -71,6 +71,8 @@
 دليل شامل لتحويل ملفات Excel إلى PDF باستخدام C# مع Aspose.Cells، خطوة بخطوة مع أمثلة عملية.
 ### [كيفية حفظ PDF باستخدام محددات تنوع الخط – دليل كامل](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
 تعلم كيفية حفظ ملفات PDF مع دعم محددات تنوع الخط خطوة بخطوة باستخدام Aspose.PDF.
+### [إنشاء دفتر عمل Excel وحفظه كملف PDF باستخدام المصفوفات الديناميكية](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
+تعلم كيفية إنشاء دفتر عمل Excel وحفظه كملف PDF مع دعم المصفوفات الديناميكية باستخدام Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

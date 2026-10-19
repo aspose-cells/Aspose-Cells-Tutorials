@@ -71,6 +71,8 @@ Dowiedz się, jak zapisać plik XLSX jako PDF w C# z zachowaniem standardu PDF/A
 Pełny przewodnik po konwersji plików Excel do PDF w C# przy użyciu Aspose.Cells.
 ### [Jak zapisać PDF z selektorami wariantów czcionek – kompletny przewodnik](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
 Dowiedz się, jak prawidłowo zapisywać pliki PDF z użyciem selektorów wariantów czcionek, aby zachować ich wygląd i kompatybilność.
+### [Utwórz skoroszyt Excel i zapisz jako PDF z dynamicznymi tablicami](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
+Dowiedz się, jak tworzyć skoroszyt Excel i zapisywać go jako PDF, wykorzystując dynamiczne tablice w Aspose.Cells dla .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

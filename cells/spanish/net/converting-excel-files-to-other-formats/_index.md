@@ -77,6 +77,8 @@ Aprenda a exportar datos de Excel a una presentación PowerPoint usando Aspose.C
 ### [Cómo exportar Excel a PowerPoint – Guía completa](./how-to-export-excel-to-powerpoint-complete-guide/)
 Aprenda a exportar datos de Excel a presentaciones PowerPoint usando Aspose.Cells para .NET con esta guía paso a paso.
 
+### [Cómo incrustar fuentes en SVG al convertir archivos de Excel a SVG y PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Aprenda a incrustar fuentes en archivos SVG al convertir Excel a SVG y PowerPoint con Aspose.Cells para .NET.
 ### [Especificación de HTML CrossType en la salida HTML mediante programación en .NET](./specifying-html-crosstype-in-output-html/)
 Aprenda a especificar HTML CrossType en Aspose.Cells para .NET. Siga nuestro tutorial paso a paso para convertir archivos de Excel a HTML con precisión.
 
@@ -85,6 +87,9 @@ Aprenda a leer hojas de cálculo de Numbers y convertirlas a PDF usando Aspose.C
 
 ### [Guardar un libro de trabajo en formato de hoja de cálculo XML abierto estricto en .NET](./saving-workbook-to-strict-open-xml-spreadsheet-format/)
 Aprenda a guardar un libro en el formato de hoja de cálculo XML abierta estricta utilizando Aspose.Cells para .NET en este tutorial detallado.
+
+### [Cómo guardar un libro de trabajo como CSV y exportar Excel a TXT con formato personalizado en C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+Aprenda a guardar un libro de Excel como CSV y exportarlo a TXT con formato personalizado usando Aspose.Cells para .NET en C#.
 
 ### [Seguimiento del progreso de conversión de documentos mediante programación en .NET](./tracking-document-conversion-progress/)
 Descripción: Aprenda a realizar el seguimiento del progreso de conversión de documentos mediante programación utilizando Aspose.Cells para .NET en este tutorial detallado.

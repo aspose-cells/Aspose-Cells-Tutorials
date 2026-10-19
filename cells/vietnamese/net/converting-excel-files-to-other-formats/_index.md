@@ -143,6 +143,11 @@ Tìm hiểu cách lưu Excel thành tệp txt và xuất các số với chữ s
 
 ### [Cách chuyển đổi Excel sang PNG với C# – hướng dẫn từng bước](./how-to-convert-excel-to-png-with-c-step-by-step-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang định dạng PNG bằng C# và Aspose.Cells cho .NET.
+### [Cách lưu sổ làm việc dưới dạng CSV và xuất Excel sang TXT với định dạng tùy chỉnh trong C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+Tìm hiểu cách lưu sổ làm việc Excel dưới dạng CSV và xuất sang TXT với định dạng tùy chỉnh bằng Aspose.Cells cho .NET.
+
+### [Cách nhúng phông chữ vào SVG khi chuyển đổi tệp Excel sang SVG và PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Hướng dẫn nhúng phông chữ vào tệp SVG khi chuyển đổi Excel sang SVG hoặc PowerPoint bằng Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

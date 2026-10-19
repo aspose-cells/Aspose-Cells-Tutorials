@@ -42,7 +42,7 @@
 
 Aspose.Cells สำหรับ .NET ทำให้การแปลงเอกสารเป็นเรื่องง่าย ช่วยให้นักพัฒนาสามารถดำเนินกระบวนการอัตโนมัติ และประหยัดเวลาในการแปลงเอกสารในรูปแบบต่างๆ
 
-## บทช่วยสอนการแปลงไฟล์ Excel เป็นรูปแบบอื่น
+## บทช่วยสอนการแปลงไฟล์ Excelเป็นรูปแบบอื่น
 ### [การแปลง CSV เป็น JSON ด้วยโปรแกรมใน .NET](./converting-csv-to-json/)
 เรียนรู้วิธีการแปลง CSV เป็น JSON ใน .NET โดยใช้ Aspose.Cells คำแนะนำทีละขั้นตอนสำหรับการแปลงข้อมูลพร้อมตัวอย่างโค้ดที่ทำตามได้ง่าย
 ### [การแปลงไฟล์ Excel เป็น DOCX ด้วยโปรแกรมใน .NET](./converting-excel-file-to-docx/)
@@ -92,6 +92,16 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 เรียนรู้วิธีแปลงไฟล์ Excel เป็น PNG ด้วย C# อย่างละเอียดตามขั้นตอนในบทช่วยสอนนี้
 ### [ส่งออก Excel เป็นไฟล์ txt ใน C# – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./export-excel-to-txt-in-c-complete-programming-guide/)
 เรียนรู้วิธีส่งออกไฟล์ Excel เป็นรูปแบบ txt ด้วย C# อย่างละเอียดพร้อมตัวอย่างโค้ด
+### [วิธีส่งออก Excel – คู่มือข้อความแบบ Tab‑Delimited](./how-to-export-excel-tab-delimited-text-guide/)
+เรียนรู้วิธีส่งออกไฟล์ Excel เป็นข้อความที่คั่นด้วยแท็บโดยใช้ Aspose.Cells สำหรับ .NET พร้อมขั้นตอนและตัวอย่างโค้ด
+### [วิธีบันทึก DOCX จาก Excel – คู่มือเต็มเพื่อส่งออกแผนภูมิไปยัง Word](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
+เรียนรู้วิธีบันทึกไฟล์ Excel เป็น DOCX พร้อมส่งออกแผนภูมิไปยัง Word อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
+### [แปลง Excel เป็น PowerPoint – คู่มือขั้นตอนโดยขั้นตอน C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
+เรียนรู้วิธีแปลงไฟล์ Excel เป็น PowerPoint (PPTX) ด้วย C# อย่างละเอียด
+### [วิธีบันทึกเวิร์กบุ๊กเป็น CSV และส่งออก Excel เป็น TXT พร้อมการจัดรูปแบบแบบกำหนดเองใน C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+เรียนรู้วิธีบันทึกไฟล์ Excel เป็น CSV และส่งออกเป็น TXT พร้อมการจัดรูปแบบที่กำหนดเองโดยใช้ C# และ Aspose.Cells
+### [วิธีฝังฟอนต์ใน SVG เมื่อแปลงไฟล์ Excel เป็น SVG และ PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+เรียนรู้วิธีฝังฟอนต์ในไฟล์ SVG ระหว่างการแปลง Excel เป็น SVG หรือ PowerPoint ด้วย Aspose.Cells
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

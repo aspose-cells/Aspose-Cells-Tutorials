@@ -71,6 +71,8 @@ Learn how to save XLSX files as PDF/A‑1b compliant PDFs in C# with Aspose.Cell
 A comprehensive step-by-step guide to convert Excel files to PDF using C# and Aspose.Cells.
 ### [how to save pdf with font variation selectors – complete guide](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
 Learn how to save PDFs with font variation selectors using Aspose.Cells for .NET in this comprehensive guide.
+### [Create Excel workbook and save as PDF with dynamic arrays](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
+Create an Excel workbook with dynamic arrays and save it as PDF using Aspose.Cells for .NET. Follow the step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

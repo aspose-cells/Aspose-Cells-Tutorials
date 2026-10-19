@@ -76,6 +76,8 @@ Aspose.Cells สำหรับ .NET เป็นโปรแกรมที่�
 เรียนรู้ขั้นตอนการแปลงไฟล์ Excel เป็น PDF ด้วย C# อย่างละเอียดด้วย Aspose.Cells
 ### [วิธีบันทึก PDF ด้วยตัวเลือกการเปลี่ยนแปลงฟอนต์ – คู่มือฉบับสมบูรณ์](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
 เรียนรู้วิธีบันทึกไฟล์ PDF พร้อมการเลือกตัวแปรฟอนต์อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET
+### [สร้างเวิร์กบุ๊ก Excel และบันทึกเป็น PDF ด้วยอาร์เรย์ไดนามิก](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
+เรียนรู้วิธีสร้างเวิร์กบุ๊ก Excel และบันทึกเป็น PDF โดยใช้ฟีเจอร์อาร์เรย์ไดนามิกของ Aspose.Cells
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

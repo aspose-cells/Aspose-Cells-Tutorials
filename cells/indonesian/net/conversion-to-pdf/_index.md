@@ -71,6 +71,8 @@ Pelajari cara menyimpan file XLSX sebagai PDF dengan standar PDF/A‑1b mengguna
 Panduan lengkap mengonversi file Excel ke PDF menggunakan C# dengan Aspose.Cells.
 ### [Cara menyimpan PDF dengan font variation selectors – panduan lengkap](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
 Pelajari cara menyimpan PDF dengan selector variasi font secara tepat menggunakan Aspose.PDF dalam .NET. Ikuti panduan lengkap kami!
+### [Buat Workbook Excel dan Simpan sebagai PDF dengan Array Dinamis](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
+Pelajari cara membuat workbook Excel dan menyimpannya sebagai PDF menggunakan array dinamis dengan Aspose.Cells untuk .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

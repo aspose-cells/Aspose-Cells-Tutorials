@@ -72,6 +72,8 @@ XLSX dosyalarını C# ile PDF/A‑1b formatında kaydedin! Adım adım kılavuzu
 C# ile Excel dosyalarını PDF'ye dönüştürmek için adım adım tam rehber. Başlangıçtan ileri seviyeye kadar her şey burada.
 ### [Yazı Tipi Varyasyon Seçicileriyle PDF Kaydetme – Tam Kılavuz](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
 Aspose.PDF ile yazı tipi varyasyon seçicilerini kullanarak PDF dosyalarını nasıl kaydedeceğinizi adım adım öğrenin.
+### [Dinamik Dizilerle Excel Çalışma Kitabı Oluşturma ve PDF Olarak Kaydetme](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
+Aspose.Cells for .NET ile dinamik dizileri kullanarak bir Excel çalışma kitabı oluşturun ve PDF olarak kaydedin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

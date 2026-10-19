@@ -108,6 +108,12 @@ Lär dig hur du konverterar Excel-filer till Word med Aspose.Cells för .NET i e
 ### [Exportera Excel till txt i C# – komplett programmeringsguide](./export-excel-to-txt-in-c-complete-programming-guide/)
 Lär dig hur du exporterar Excel-data till txt-filer i C# med en komplett steg‑för‑steg‑guide.
 
+### [Hur du sparar arbetsbok som CSV och exporterar Excel till TXT med anpassad formatering i C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+Lär dig spara en arbetsbok som CSV och exportera Excel till TXT med anpassad formatering i C# med Aspose.Cells.
+
+### [Hur man bäddar in typsnitt i SVG när man konverterar Excel-filer till SVG och PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Lär dig hur du bäddar in typsnitt i SVG vid konvertering av Excel-filer till SVG och PowerPoint med Aspose.Cells för .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
