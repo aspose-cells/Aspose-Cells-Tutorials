@@ -89,6 +89,8 @@ Tanuld meg, hogyan adhatunk nevet egy cellához Excelben Java-val, lépésről l
 Ismerd meg, hogyan másolhatod programozottan a munkalap-tartományokat Java-ban az Aspose.Cells segítségével.
 ### [Tartomány másolása munkafüzetek között Java-ban – lépésről lépésre útmutató](./copy-range-between-workbooks-in-java-step-by-step-guide/)
 Tanuld meg, hogyan másolhatsz cellatartományokat egy munkafüzetből a másikba Java és Aspose.Cells használatával.
+### [Új munkalap létrehozása és Excel-tartomány másolása Aspose.Cells segítségével](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+Ismerd meg, hogyan hozhatsz létre új munkalapot és másolhatsz tartományt az Aspose.Cells Java könyvtárral.
 
 ## További források
 

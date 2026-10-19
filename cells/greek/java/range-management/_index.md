@@ -88,6 +88,8 @@
 ### [Προγραμματιστική Αντιγραφή Εύρους Φύλλου Εργασίας – Πλήρης Οδηγός Java](./programmatically-copy-worksheet-range-complete-java-guide/)
 Μάθετε πώς να αντιγράψετε προγραμματιστικά εύρη φύλλων εργασίας στο Excel χρησιμοποιώντας το Aspose.Cells για Java.
 ### [Αντιγραφή εύρους μεταξύ βιβλίων εργασίας σε Java – οδηγός βήμα προς βήμα](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+### [Δημιουργία νέου φύλλου εργασίας και αντιγραφή εύρους Excel με το Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+Μάθετε πώς να δημιουργείτε νέο φύλλο εργασίας και να αντιγράφετε εύρος Excel χρησιμοποιώντας το Aspose.Cells για Java.
 
 ## Πρόσθετοι Πόροι
 
