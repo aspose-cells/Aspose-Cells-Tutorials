@@ -72,6 +72,8 @@
 اكتشف كيفية تضمين الخطوط في ملفات Excel عند التصدير باستخدام C# و Aspose.Cells لضمان عرض صحيح للخطوط.
 ### [كيفية نسخ الخط من خلية Excel إلى TextBox – دليل خطوة بخطوة](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
 اكتشف كيفية نسخ تنسيق الخط من خلية Excel إلى عنصر TextBox باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
+### [تطبيق الخط العريض على مربع النص – دليل خطوة بخطوة C#](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
+اكتشف كيفية تطبيق الخط العريض على مربع النص في Excel باستخدام Aspose.Cells لـ .NET عبر دليل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

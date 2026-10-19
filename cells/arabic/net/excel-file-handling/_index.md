@@ -38,6 +38,8 @@
 تعرّف على كيفية حفظ فواصل للصفوف الفارغة في Excel باستخدام Aspose.Cells لـ .NET. دليل خطوة بخطوة مع أمثلة برمجية.
 ### [تحميل الأوراق المرئية فقط من ملف Excel](./load-visible-sheets-only/)
 تعرف على كيفية تحميل الأوراق المرئية فقط من ملفات Excel باستخدام Aspose.Cells لـ .NET في هذا الدليل خطوة بخطوة.
+### [إنشاء ملف Excel برمجيًا في C# – درس تعليمي](./create-excel-file-programmatically-in-c-tutorial/)
+تعلم كيفية إنشاء ملف Excel برمجيًا باستخدام C# و Aspose.Cells لـ .NET خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

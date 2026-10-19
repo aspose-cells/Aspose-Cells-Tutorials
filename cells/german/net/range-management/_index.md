@@ -38,7 +38,10 @@ Mit diesen Tutorials lernen Sie Folgendes:
 - Master-Union-Bereiche für komplexe Auswahlen
 - Ausblenden und Anzeigen von Arbeitsmappeninhalten durch Bereichsoperationen
 
-## Tutorials zur Bereichsverwaltung
+## Tutorials
+### [Define cell area in Aspose.Cells and copy Excel range in C#](./define-cell-area-in-aspose-cells-and-copy-excel-range-in-c/)
+
+ zur Bereichsverwaltung
 
 ### [Zugriff auf alle benannten Bereiche in Excel mit Aspose.Cells für .NET | Schritt-für-Schritt-Anleitung](./access-named-ranges-excel-aspose-cells-net)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET effizient auf alle benannten Bereiche in Excel zugreifen. Diese Anleitung enthält Schritt-für-Schritt-Anleitungen und Tipps zur Fehlerbehebung für die programmgesteuerte Arbeit mit benannten Bereichen in Ihren Arbeitsmappen.

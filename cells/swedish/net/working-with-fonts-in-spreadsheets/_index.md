@@ -38,6 +38,8 @@ Lär dig hur du hämtar och listar teckensnitt från Excel-kalkylblad med Aspose
 Lär dig hur du ställer in standardteckensnitt för PDF-sparalternativ med Aspose.Cells för .NET, så att dina dokument ser perfekta ut varje gång.
 ### [Ange teckensnitt för arbetsboksrendering](./specify-fonts-for-workbook-rendering/)
 Lär dig hur du anger anpassade teckensnitt för rendering av arbetsböcker med Aspose.Cells för .NET. En steg-för-steg-guide för att säkerställa perfekt PDF-utdata.
+### [Ändra textrutans teckensnitt i ett rutnät – Komplett steg‑för‑steg‑guide](./change-textbox-font-in-a-grid-complete-step-by-step-guide/)
+Lär dig hur du ändrar teckensnittet i en textruta inom ett rutnät med Aspose.Cells för .NET genom en detaljerad steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

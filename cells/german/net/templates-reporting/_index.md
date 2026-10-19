@@ -53,6 +53,14 @@ Lernen Sie mit diesem umfassenden Leitfaden, die Datenintegration mit Aspose.Cel
 Erfahren Sie, wie Sie Excel-Vorlagen mithilfe von C# programmatisch befüllen und Daten effizient binden.
 ### [Excel-Arbeitsmappe aus JSON speichern – Vollständige Anleitung](./save-excel-workbook-from-json-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Arbeitsmappen aus JSON-Daten speichern und exportieren.
+### [Excel aus Vorlage erstellen – Schritt‑für‑Schritt‑Anleitung für .NET‑Entwickler](./create-excel-from-template-step-by-step-guide-for-net-develo/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien aus Vorlagen erstellen, Daten binden und Berichte automatisieren.
+
+### [Excel-Vorlage verarbeiten und Arbeitsblätter automatisch benennen in C#](./how-to-process-excel-template-and-automatically-name-sheets)
+Erfahren Sie, wie Sie Excel-Vorlagen verarbeiten und Arbeitsblätter automatisch benennen, um Berichte effizient zu erstellen.
+
+### [Wie man Daten mit einer C#‑Vorlage nach Excel exportiert – Schritt‑für‑Schritt‑Anleitung](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
+Erfahren Sie, wie Sie mit einer C#‑Vorlage Daten nach Excel exportieren und den Vorgang Schritt für Schritt automatisieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

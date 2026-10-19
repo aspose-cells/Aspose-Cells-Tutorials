@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # إدارة الصفوف والأعمدة
@@ -37,7 +35,7 @@
 
 ## إنشاء صفوف الملخص
 
-إن معرفة كيفية تلخيص البيانات بسرعة أمرٌ بالغ الأهمية، خاصةً في عالم جداول البيانات. يتيح لك Aspose.Cells إضافة صفوف تلخيص بسهولة، سواءً أسفل البيانات المجمعة أو بجانب أعمدة البيانات. يشبه الأمر الحصول على لقطة سريعة لمعلوماتك دون الحاجة إلى غربلة صفوف وصفوف من الأرقام. أدلتنا [إنشاء صفوف الملخص أدناه](./summary-row-below/) و [إنشاء صفوف الملخص على اليمين](./summary-row-right/) توفير جميع المعلومات التي تحتاجها لتنفيذ هذه الميزة بسلاسة، مما يساعدك على استخلاص النتائج بشكل أسرع من أي وقت مضى.
+إن معرفة كيفية تلخيص البيانات بسرعة أمرٌ بالغ الأهمية، خاصةً في عالم جداول البيانات. يتيح لك Aspose.Cells إضافة صفوف تلخيص بسهولة، سواءً أسفل البيانات المجمعة أو بجانب أعمدة البيانات. يشبه الأمر الحصول على لقطة سريعة لمعلوماتك دون الحاجة إلى غربلة صفوف وصفوف من الأرقام. أدلة استخدامنا [إنشاء صفوف الملخص أدناه](./summary-row-below/) و [إنشاء صفوف الملخص على اليمين](./summary-row-right/) توفير جميع المعلومات التي تحتاجها لتنفيذ هذه الميزة بسلاسة، مما يساعدك على استخلاص النتائج بشكل أسرع من أي وقت مضى.
 
 ## حذف البيانات غير المرغوب فيها
 
@@ -48,6 +46,8 @@
 اكتشف دليلاً خطوة بخطوة لنسخ الأعمدة في Excel باستخدام Aspose.Cells لـ .NET. بسّط مهامك المتعلقة بالبيانات بتعليمات واضحة.
 ### [نسخ الصفوف باستخدام Aspose.Cells لـ .NET](./copying-rows/)
 تعرّف على كيفية نسخ الصفوف بكفاءة في ملفات Excel باستخدام Aspose.Cells لـ .NET. يُبسّط هذا الدليل المُفصّل عملية نسخ الصفوف لتلبية احتياجات إدارة بياناتك.
+### [نسخ الصفوف من ورقة عمل إلى أخرى – دليل C# كامل](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+دليل شامل خطوة بخطوة لنسخ الصفوف بين أوراق العمل في Excel باستخدام Aspose.Cells لـ .NET ولغة C#.
 ### [تجميع الصفوف والأعمدة في Excel باستخدام Aspose.Cells](./grouping-rows-and-columns/)
 تعرف على كيفية تجميع الصفوف والأعمدة في Excel باستخدام Aspose.Cells for .NET باستخدام هذا الدليل خطوة بخطوة.
 ### [إنشاء صف ملخص أدناه باستخدام Aspose.Cells لـ .NET](./summary-row-below/)
@@ -66,10 +66,14 @@
 تعرّف على كيفية حذف عمود في ملف Excel باستخدام Aspose.Cells لـ .NET. اتبع دليلنا المفصل خطوة بخطوة لتبسيط تعديلات ملفات Excel.
 ### [حذف صف في Aspose.Cells .NET](./delete-row-aspose-cells/)
 تعرّف على كيفية حذف صف في Excel باستخدام Aspose.Cells لـ .NET. يغطي هذا الدليل التفصيلي المتطلبات الأساسية، واستيراد الكود، وشرحًا تفصيليًا لمعالجة البيانات بسلاسة.
-### [حذف الصفوف في جدول Excel باستخدام C# – دليل خطوة بخطوة](./delete-rows-excel-table-with-c-step-by-step-guide/)
-تعلم كيفية حذف الصفوف من جدول Excel باستخدام C# خطوة بخطوة مع Aspose.Cells.
+### [كيفية حذف صف كامل في ملف Excel باستخدام C#](./how-to-delete-entire-row-in-an-excel-file-using-c/)
+دليل خطوة بخطوة لحذف صف كامل من ملف Excel باستخدام C#.
+### [حذف الصفوف باستخدام Aspose.Cells لـ .NET – حماية صف العنوان في Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
+تعلم كيفية حذف الصفوف مع الحفاظ على صف العنوان غير متأثر في ملفات Excel باستخدام Aspose.Cells لـ .NET.
 ### [حذف صفوف متعددة في Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 تعلم كيفية حذف صفوف متعددة في Excel باستخدام Aspose.Cells لـ .NET. يغطي هذا الدليل المفصل، خطوة بخطوة، المتطلبات الأساسية، وأمثلة البرمجة، والأسئلة الشائعة للمطورين.
+### [كيفية حذف الصفوف في Excel باستخدام C# – حماية رأس الجدول](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
+تعلم كيفية حذف صفوف Excel مع الحفاظ على رأس الجدول باستخدام Aspose.Cells لـ .NET و C#.
 ### [إدراج عمود في Aspose.Cells .NET](./insert-column-aspose-cells/)
 تعرّف على كيفية إدراج عمود في Excel باستخدام Aspose.Cells لـ .NET. اتبع دليلنا البسيط خطوة بخطوة لإضافة عمود جديد بسلاسة. مثالي لمطوري .NET.
 ### [إدراج صف في Aspose.Cells .NET](./insert-row-aspose-cells/)
@@ -78,15 +82,36 @@
 تعلّم كيفية إدراج صف بتنسيق في Excel باستخدام Aspose.Cells لـ .NET. اتبع دليلنا خطوة بخطوة لسهولة التنفيذ.
 ### [إدراج صفوف متعددة في Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 تعلم كيفية إدراج صفوف متعددة في Excel باستخدام Aspose.Cells لـ .NET. اتبع برنامجنا التعليمي المفصل لمعالجة البيانات بسلاسة.
+### [تحميل ملف Excel C# – كيفية حذف الصفوف وإزالة صفوف محددة](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
+تعلم كيفية حذف الصفوف وإزالة صفوف معينة من ملف Excel باستخدام Aspose.Cells في C#.
+### [كيفية تكرار العناصر في Excel – إنشاء صفوف ديناميكي باستخدام C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
+دليل خطوة بخطوة لتكرار العناصر وإنشاء صفوف ديناميكية في Excel باستخدام C# و Aspose.Cells.
+### [كيفية إدراج الصفوف في GridJs – إضافة عدة صفوف إلى الشبكة بكفاءة](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+دليل خطوة بخطوة لإدراج صفوف متعددة في GridJs بفعالية وسهولة.
+
+
+
+
+
+
+
+
+### [حذف الصفوف في جدول Excel باستخدام C# – دليل خطوة بخطوة](./delete-rows-excel-table-with-c-step-by-step-guide/)
+تعلم كيفية حذف الصفوف من جدول Excel باستخدام C# خطوة بخطوة مع Aspose.Cells.
 ### [إدراج صفوف في Excel باستخدام C# – دليل خطوة بخطوة](./insert-rows-in-excel-with-c-step-by-step-guide/)
 اكتشف دليلًا خطوة بخطوة لإدراج صفوف في Excel باستخدام C# مع Aspose.Cells لتسهيل معالجة البيانات.
 ### [كيفية استخدام WRAPCOLS: إنشاء تخطيط بعمودين في C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 تعلم كيفية استخدام الدالة WRAPCOLS لإنشاء تخطيط بعمودين في ملفات Excel باستخدام Aspose.Cells لـ .NET وC#.
+### [كيفية إدراج صفوف في GridJs – إضافة صفوف متعددة بسرعة](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+اكتشف دليلًا خطوة بخطوة لإدراج صفوف متعددة في GridJs بسرعة وسهولة.
+### [كيفية استخدام wrapcols في C# – دليل كامل مع Excel WRAPROWS وإعادة حساب الصيغ](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+تعلم كيفية تطبيق wrapcols و wraprows في Excel باستخدام C# وإعادة حساب الصيغ بسهولة خطوة بخطوة.
+### [نقل الخلايا للأعلى في Excel باستخدام C# – دليل كامل](./shift-cells-up-in-excel-with-c-complete-guide/)
+تعلم كيفية تحريك الخلايا للأعلى في ملفات Excel باستخدام C# مع Aspose.Cells خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

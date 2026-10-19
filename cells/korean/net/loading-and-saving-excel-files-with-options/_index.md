@@ -34,6 +34,8 @@ Aspose.Cells for .NET을 사용하여 HTML을 Excel에 로드할 때 열과 행�
 이 자세한 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 Excel 통합 문서를 HTML로 저장할 때 하위 수준의 공개 주석을 비활성화하는 방법을 알아보세요.
 ### [C#에서 새 워크북 만들기 – 일본 달력으로 Excel 로드](./create-new-workbook-in-c-load-excel-with-japanese-calendar/)
 C#을 사용해 새 워크북을 만들고 일본 달력 형식으로 Excel 파일을 로드하는 방법을 단계별로 안내합니다.
+### [Excel 파일 읽기 C# – Excel 워크북을 효율적으로 로드하는 방법](./read-excel-file-c-how-to-load-excel-workbook-c-efficiently/)
+Aspose.Cells for .NET을 사용하여 C#에서 Excel 워크북을 빠르고 효율적으로 로드하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

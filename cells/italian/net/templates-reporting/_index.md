@@ -53,6 +53,27 @@ Impara a padroneggiare l'integrazione dei dati utilizzando gli Smart Marker di A
 Scopri come associare dati a modelli Excel usando C#, popolando automaticamente i fogli di calcolo con Aspose.Cells.
 ### [Crea report Excel in C# – Guida passo‑passo](./create-excel-report-in-c-step-by-step-guide/)
 Impara a generare report Excel in C# con Aspose.Cells, seguendo una procedura dettagliata passo‑passo.
+### [Crea Excel da modello – Guida passo‑passo per sviluppatori .NET](./create-excel-from-template-step-by-step-guide-for-net-develo/)
+Scopri come generare file Excel da un modello predefinito usando Aspose.Cells per .NET, passo dopo passo.
+### [Salva una cartella di lavoro popolata programmaticamente con Aspose.Cells](./save-populated-workbook-programmatically-with-aspose-cells/)
+Scopri come salvare programmaticamente una cartella di lavoro Excel popolata usando Aspose.Cells per .NET.
+### [Crea modello di cartella di lavoro con Aspose.Cells – Guida completa](./create-workbook-template-with-aspose-cells-complete-guide/)
+Scopri come creare un modello di cartella di lavoro Excel con Aspose.Cells, includendo data binding, formattazione e generazione automatica di report.
+### [Come salvare un file modello Excel – Guida passo‑passo](./how-to-save-excel-template-file-step-by-step-guide/)
+Scopri come salvare un file modello Excel con Aspose.Cells per .NET, passo dopo passo, includendo impostazioni di formato e opzioni di output.
+
+### [Come utilizzare Excel per la stampa unione – Guida completa C#](./how-to-use-excel-for-mail-merge-complete-c-guide/)
+Scopri come eseguire la stampa unione con Excel usando Aspose.Cells per .NET in C# passo dopo passo.
+### [Come generare una fattura con Aspose.Cells – Guida completa di programmazione](./how-to-generate-invoice-with-aspose-cells-complete-programmi/)
+Scopri come creare fatture Excel automatizzate con Aspose.Cells, includendo dati, formattazione e salvataggio in pochi passaggi.
+
+### [Come elaborare un modello Excel e denominare automaticamente i fogli in C#](./how-to-process-excel-template-and-automatically-name-sheets)
+Scopri come elaborare un modello Excel e rinominare automaticamente i fogli usando C# con Aspose.Cells.
+
+### [Come esportare dati in Excel usando un modello C# – guida passo‑passo](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
+Scopri come esportare dati in Excel da un modello C# con Aspose.Cells, seguendo una procedura dettagliata passo‑passo.
+### [Genera report Excel con C# – Guida passo‑passo](./generate-excel-report-with-c-step-by-step-guide/)
+Scopri come creare un report Excel in C# passo dopo passo, dalla configurazione dei dati alla generazione del file finale.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
