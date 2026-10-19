@@ -249,6 +249,8 @@
 Μάθετε πώς να ορίσετε προσαρμοσμένη μορφή ημερομηνίας σε αρχεία Excel χρησιμοποιώντας το Aspose.Cells για Java.
 ### [Ορισμός έντονου γραμματοσειράς σε εξαγωγή Excel με Java – Πλήρης οδηγός](./set-font-bold-in-java-excel-export-complete-guide/)
 
+### [Πώς να περιορίσετε τα σημαντικά ψηφία στο Excel χρησιμοποιώντας Java](./how-to-limit-significant-digits-excel-using-java/)
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.Cells για τεκμηρίωση Java](https://docs.aspose.com/cells/java/)

@@ -69,6 +69,9 @@ Tanuld meg, hogyan exportálj Excel-fájlokat HTML-be úgy, hogy a betűtípusok
 ### [Markdown konvertálása Excelbe – Teljes útmutató az Aspose.Cells használatával](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
 Tanuld meg, hogyan alakíthatod át a Markdown fájlokat Excel táblázatokká az Aspose.Cells segítségével lépésről lépésre útmutatóval.
 
+### [Markdown konvertálása táblázatba Java-ban – lépésről lépésre útmutató](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+Tanuld meg, hogyan alakíthatod át a Markdown fájlokat táblázatokká Java-ban, lépésről lépésre útmutatóval.
+
 ### [Hogyan exportáljunk CSV-t Java-val – Jelentős számjegyek beállítása és export tartomány CSV-be](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
 Tanuld meg, hogyan exportálj CSV-t Java-val, beállítva a jelentős számjegyeket és az exportálási tartományt.
 ### [JSON fájl betöltése Java – Teljes útmutató a JSON Excelbe konvertálásához](./load-json-file-java-full-guide-to-convert-json-to-excel/)

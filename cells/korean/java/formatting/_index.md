@@ -249,6 +249,9 @@ Aspose.Cells for Java를 사용해 Java에서 동적 서식이 적용된 Excel �
 Aspose.Cells for Java를 사용
 ### [Java Excel 내보내기에서 글꼴을 굵게 설정하는 방법 – 완전한 가이드](./set-font-bold-in-java-excel-export-complete-guide/)
 
+### [Java를 사용하여 Excel에서 유효 숫자 자리수 제한하는 방법](./how-to-limit-significant-digits-excel-using-java/)
+Java와 Aspose.Cells를 사용해 Excel 셀의 유효숫자 자리수를 제한하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 - [Java용 Aspose.Cells 문서](https://docs.aspose.com/cells/java/)

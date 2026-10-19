@@ -73,6 +73,9 @@ Aprenda a criar uma pasta de trabalho Excel em Java e calcular todas as fórmula
 ### [Como atualizar pastas de trabalho Excel em Java usando Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
 Um tutorial que demonstra como atualizar programaticamente pastas de trabalho do Excel usando Aspose.Cells.
 
+### [Recalcular todas as fórmulas do Excel com Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
+Um tutorial que mostra como forçar o recálculo de todas as fórmulas em uma pasta de trabalho usando Aspose.Cells para Java.
+
 ## Recursos Adicionais
 - [Documentação do Aspose.Cells para Java](https://docs.aspose.com/cells/java/)
 - [Referência da API do Aspose.Cells para Java](https://reference.aspose.com/cells/java/)

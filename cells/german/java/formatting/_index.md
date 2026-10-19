@@ -74,7 +74,7 @@ Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java einfach automatis
 Erfahren Sie, wie Sie redundante Leerzeichen aus HTML entfernen und Spalten in Excel mit Aspose.Cells für Java automatisch anpassen. Verbessern Sie die Datenpräsentation mit optimierter Formatierung.
 
 ### [So fügen Sie Tabellenstilen in HTML mithilfe von Aspose.Cells für Java ein Präfix hinzu](./aspose-cells-java-prefix-table-styles-html/)
-Erfahren Sie, wie Sie die Excel-Datenpräsentation verbessern, indem Sie Tabellenstilen mithilfe von Aspose.Cells für Java benutzerdefinierte CSS-IDs voranstellen.
+Erfahren Sie, wie Sie die Excel-Datenpräsentation verbessern, indem Sie Tabellenstile mithilfe von Aspose.Cells für Java benutzerdefinierte CSS-IDs voranstellen.
 
 ### [So lesen Sie die Leuchteffektfarbe in Excel mit Aspose.Cells für Java](./aspose-cells-java-read-glow-effect-color-excel/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Leuchteffektfarben aus Formen in Excel-Dateien programmgesteuert extrahieren und analysieren. Optimieren Sie Ihre Datenvisualisierung und Berichterstellung.
@@ -249,6 +249,9 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java beim Konvertieren einer DataTab
 
 ### [Zahlenformat in Excel mit Java festlegen – Vollständige Anleitung](./set-number-format-excel-in-java-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Zahlenformate in Excel festlegen und anpassen, um Daten optimal darzustellen.
+
+### [So begrenzen Sie signifikante Stellen in Excel mit Java – Vollständige Anleitung](./how-to-limit-significant-digits-excel-using-java/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java die Anzahl signifikanter Stellen in Excel-Zellen begrenzen und die Datenpräsentation optimieren.
 
 ## Weitere Ressourcen
 

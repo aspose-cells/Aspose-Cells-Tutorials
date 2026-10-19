@@ -71,6 +71,9 @@ Aspose.Cells ile Java’da Excel çalışma kitaplarını nasıl yenileyeceğini
 ### [Java’da Aspose.Cells ile Formül Hesaplamasını Zorlamak](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
 Aspose.Cells kullanarak formül hesaplamasını manuel olarak tetiklemeyi öğrenin.
 
+### [Java Aspose.Cells ile Tüm Formülleri Yeniden Hesaplama](./recalculate-all-formulas-excel-with-java-aspose-cells/)
+Java Aspose.Cells kullanarak Excel dosyalarındaki tüm formülleri nasıl yeniden hesaplayacağınızı öğrenin.
+
 ## Ek Kaynaklar
 - [Aspose.Cells for Java Documentation](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells for Java API Reference](https://reference.aspose.com/cells/java/)

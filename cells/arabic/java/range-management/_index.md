@@ -91,6 +91,8 @@
 ### [إنشاء ورقة عمل جديدة ونسخ نطاق Excel باستخدام Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
 تعلم كيفية إنشاء ورقة عمل جديدة ونسخ نطاق من خلايا Excel باستخدام مكتبة Aspose.Cells في Java.
 
+### [كيفية استخدام وظيفة التوسيع في معالجة Excel باستخدام Java](./how-to-use-expand-function-in-java-excel-processing/)
+
 ## موارد إضافية
 
 - [توثيق Aspose.Cells لـ Java](https://docs.aspose.com/cells/java/)

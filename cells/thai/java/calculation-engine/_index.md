@@ -68,6 +68,8 @@ weight: 22
 เรียนรู้วิธีรีเฟรชเวิร์กบุ๊ก Excel ใน Java ด้วย Aspose.Cells เพื่ออัปเดตข้อมูลและสูตร
 ### [วิธีบังคับการคำนวณสูตรใน Java ด้วย Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
 บทเรียนโค้ดสำหรับการบังคับให้สูตรคำนวณใหม่ใน Aspose.Cells Java
+### [คำนวณสูตรทั้งหมดใน Excel ด้วย Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
+เรียนรู้วิธีรีคัลคูลเลตสูตรทั้งหมดในไฟล์ Excel ด้วย Aspose.Cells for Java
 
 ## แหล่งข้อมูลเพิ่มเติม
 - [Aspose.Cells for Java Documentation](https://docs.aspose.com/cells/java/)

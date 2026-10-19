@@ -138,6 +138,8 @@ Leer hoe u Excel-gegevens exporteert naar TXT met een beperkt aantal significant
 Leer hoe u Excel-werkbladen naar PowerPoint presenteert met Aspose.Cells in een stapsgewijze handleiding.
 ### [JSON exporteren naar Excel met Aspose.Cells in Java](./export-json-to-excel-with-aspose-cells-in-java/)
 Leer hoe u JSON-gegevens naar Excel exporteert met Aspose.Cells voor Java in een stapsgewijze handleiding.
+### [Markdown naar spreadsheet converteren in Java – stapsgewijze gids](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+Leer hoe u Markdown-bestanden omzet naar een spreadsheet in Java met Aspose.Cells voor Java in deze stapsgewijze gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

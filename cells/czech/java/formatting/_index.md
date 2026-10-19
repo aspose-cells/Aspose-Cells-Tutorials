@@ -248,6 +248,8 @@ Naučte se, jak nastavit tučné písmo při exportu souborů Excel v Javě pomo
 ### [Nastavení vlastního formátu čísel v Excelu pomocí Javy – Kompletní průvodce](./set-custom-number-format-in-excel-with-java-complete-guide/)
 Naučte se, jak nastavit vlastní číselné formáty v Excelu pomocí Aspose.Cells pro Javu.
 
+### [Jak omezit významné číslice v Excelu pomocí Javy](./how-to-limit-significant-digits-excel-using-java/)
+
 ## Další zdroje
 
 - [Dokumentace k Aspose.Cells pro Javu](https://docs.aspose.com/cells/java/)

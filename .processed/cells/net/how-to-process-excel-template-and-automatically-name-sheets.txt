@@ -1,0 +1,7 @@
+Title: How to process Excel template and automatically name sheets in C#
+Slug: how-to-process-excel-template-and-automatically-name-sheets
+Category: templates-reporting
+ProcessedDate: 2026-10-10T23:57:21.624802
+SourceRepo: AI Search API
+Keywords: process excel template, automatically name sheets
+PRNumber: 188

@@ -248,6 +248,9 @@ Aprenda a establecer formatos de fecha personalizados en Excel usando Aspose.Cel
 ### [Cómo establecer la fuente en negrita en la exportación de Excel con Java: guía completa](./set-font-bold-in-java-excel-export-complete-guide/)
 Aprenda a aplicar negrita a fuentes al exportar archivos Excel con Aspose.Cells para Java, mejorando la legibilidad y el estilo de sus documentos.
 
+### [Cómo limitar los dígitos significativos en Excel usando Java](./how-to-limit-significant-digits-excel-using-java/)
+Aprenda a limitar la cantidad de dígitos significativos en celdas de Excel mediante Aspose.Cells para Java.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.Cells para Java](https://docs.aspose.com/cells/java/)

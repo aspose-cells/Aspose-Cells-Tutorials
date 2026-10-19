@@ -94,6 +94,9 @@ Java와 Aspose.Cells를 활용해 Excel 셀에 이름을 지정하고 관리하�
 ### [Java에서 워크북 간 범위 복사 – 단계별 가이드](./copy-range-between-workbooks-in-java-step-by-step-guide/)
 Java용 Aspose.Cells를 활용해 서로 다른 워크북 간에 셀 범위를 복사하는 방법을 단계별로 안내합니다.
 
+### [Java Excel 처리에서 expand 함수 사용 방법](./how-to-use-expand-function-in-java-excel-processing/)
+Aspose.Cells for Java를 사용하여 Excel에서 expand 함수를 활용하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 - [Java용 Aspose.Cells 문서](https://docs.aspose.com/cells/java/)

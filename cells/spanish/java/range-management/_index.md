@@ -94,6 +94,8 @@ Aprenda a separar celdas de Excel de forma eficiente con Aspose.Cells para Java.
 
 ### [Crear una nueva hoja de cálculo y copiar un rango de Excel con Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
 Aprenda a crear una hoja de cálculo nueva y copiar rangos de Excel usando Aspose.Cells para Java.
+### [Cómo usar la función expand en el procesamiento de Excel con Java](./how-to-use-expand-function-in-java-excel-processing/)
+Aprenda a usar la función expand en Aspose.Cells para Java y procesar rangos de Excel dinámicamente.
 
 ## Recursos adicionales
 

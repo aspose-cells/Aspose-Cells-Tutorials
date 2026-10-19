@@ -68,8 +68,10 @@ Aspose.Cells for Java kullanarak Excel dosyalarını tam yazı tipi gömme ile H
 Aspose.Cells for Java kullanarak XLSX dosyalarını PPTX'e dönüştürüp düzenlenebilir şekilleri dışa aktarmayı öğrenin.
 ### [Aspose.Cells Java ile JSON'dan XLSX'e Dönüştürme – Tam Kılavuz](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
 Aspose.Cells for Java kullanarak JSON verilerini XLSX dosyasına nasıl dönüştüreceğinizi öğrenin. Adım adım örnek kodlarla rehber.
-### [Markdown'ı Excel'e Dönüştür – Aspose.Cells Kullanarak Tam Kılavuz](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
+### [Markdown'ı Excel'e Dönüştür – Aspose.Cells Kullanarak Tam Kılavuz](./convert-markdown-to-excel/)
 Aspose.Cells kullanarak Markdown dosyalarını Excel'e nasıl dönüştüreceğinizi öğrenin. Adım adım örnek kodlarla veri dönüşümünü kolaylaştırın.
+### [Markdown'ı Elektronik Tabloya Dönüştür – Java'da Adım‑Adım Kılavuz](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+Aspose.Cells for Java kullanarak Markdown dosyalarını elektronik tabloya dönüştürmeyi adım adım öğrenin. Kaynak kodlu örneklerle veri dönüşümünü kolaylaştırın.
 ### [Excel Dosyası Oluşturma Java – Satır Stil ve XLSX Dışa Aktarım ile Tam Kılavuz](./create-excel-file-java-full-guide-with-row-styling-and-xlsx/)
 Java ve Aspose.Cells ile satır stilini uygulayarak Excel dosyası oluşturmayı ve XLSX olarak dışa aktarmayı öğrenin.
 ### [Excel'i Dışa Aktarma: CSV Dönüştürme Adım‑Adım Kılavuzu](./how-to-export-excel-step-by-step-guide-to-csv-conversion/)

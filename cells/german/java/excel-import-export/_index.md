@@ -127,6 +127,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Liste in Excel importieren
 Erfahren Sie, wie Sie Excel-Daten mit Aspose.Cells für Java in TXT exportieren und die signifikanten Stellen begrenzen.
 ### [Excel nach PowerPoint exportieren mit Aspose.Cells – Schritt‑für‑Schritt‑Anleitung](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
 Erfahren Sie, wie Sie Excel‑Arbeitsmappen mit Aspose.Cells in PowerPoint‑Präsentationen exportieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Markdown in Tabellenkalkulation konvertieren – Schritt‑für‑Schritt‑Leitfaden in Java](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Markdown-Dateien in Excel-Tabellen konvertieren – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

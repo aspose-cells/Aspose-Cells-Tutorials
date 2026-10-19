@@ -94,6 +94,9 @@ Aspose.Words Java 程式碼教程
 ### [在 Java 中跨工作簿複製範圍 – 步驟指南](./copy-range-between-workbooks-in-java-step-by-step-guide/)
 了解如何使用 Aspose.Cells for Java 在不同工作簿之間複製儲存格範圍，提供完整程式碼範例與操作步驟。
 
+### [如何在 Java Excel 處理中使用展開功能](./how-to-use-expand-function-in-java-excel-processing/)
+了解如何在 Java 中使用 Aspose.Cells 的展開功能處理 Excel 工作表。
+
 ## 其他資源
 
 - [Aspose.Cells for Java文檔](https://docs.aspose.com/cells/java/)

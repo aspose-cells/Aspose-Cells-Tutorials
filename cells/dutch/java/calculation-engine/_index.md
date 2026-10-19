@@ -71,6 +71,9 @@ Leer hoe u Excel-werkboeken kunt vernieuwen met Aspose.Cells in Java.
 ### [Hoe formuleberekening forceren in Java met Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
 Een code‑tutorial die laat zien hoe u de berekening van formules handmatig kunt afdwingen met Aspose.Cells voor Java.
 
+### [Alle formules opnieuw berekenen in Excel met Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
+Leer hoe u alle formules in een Excel‑werkboek opnieuw kunt berekenen met Aspose.Cells voor Java.
+
 ## Aanvullende bronnen
 - [Aspose.Cells voor Java-documentatie](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells voor Java API‑referentie](https://reference.aspose.com/cells/java/)

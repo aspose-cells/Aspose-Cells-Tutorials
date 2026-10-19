@@ -91,6 +91,8 @@
 ### [สร้างแผ่นงานใหม่และคัดลอกช่วง Excel ด้วย Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
 เรียนรู้วิธีสร้างแผ่นงานใหม่และคัดลอกช่วงข้อมูลใน Excel ด้วย Aspose.Cells สำหรับ Java อย่างง่ายดาย
 
+### [วิธีใช้ฟังก์ชัน expand ในการประมวลผล Excel ด้วย Java](./how-to-use-expand-function-in-java-excel-processing/)
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสารประกอบ Aspose.Cells สำหรับ Java](https://docs.aspose.com/cells/java/)

@@ -94,6 +94,9 @@ Dowiedz się, jak przypisać nazwę do pojedynczej komórki w Excelu przy użyci
 ### [Kopiowanie zakresu między skoroszytami w Javie – przewodnik krok po kroku](./copy-range-between-workbooks-in-java-step-by-step-guide/)
 Dowiedz się, jak kopiować zakresy komórek pomiędzy różnymi skoroszytami Excel w Javie przy użyciu Aspose.Cells.
 
+### [Jak używać funkcji expand w przetwarzaniu Excela w Javie](./how-to-use-expand-function-in-java-excel-processing/)
+Dowiedz się, jak wykorzystać funkcję expand w Aspose.Cells for Java do dynamicznego rozszerzania zakresów w arkuszach Excel.
+
 ## Dodatkowe zasoby
 
 - [Dokumentacja Aspose.Cells dla Java](https://docs.aspose.com/cells/java/)

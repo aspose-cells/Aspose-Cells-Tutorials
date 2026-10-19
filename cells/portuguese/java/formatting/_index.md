@@ -248,6 +248,9 @@ Aprenda a definir formatos de data personalizados em planilhas Excel usando Aspo
 ### [Definir fonte em negrito na exportação de Excel em Java – Guia completo](./set-font-bold-in-java-excel-export-complete-guide/)
 Aprenda a aplicar negrito a fontes ao exportar planilhas Excel usando Aspose.Cells para Java, com exemplos de código passo a passo.
 
+### [Como limitar dígitos significativos no Excel usando Java](./how-to-limit-significant-digits-excel-using-java/)
+Aprenda a limitar o número de dígitos significativos em valores do Excel usando Aspose.Cells para Java, com exemplos de código claros.
+
 ## Recursos adicionais
 
 - [Documentação do Aspose.Cells para Java](https://docs.aspose.com/cells/java/)

@@ -133,6 +133,8 @@ Dowiedz się, jak przy użyciu Aspose.Cells for Java wyeksportować plik Excel d
 Dowiedz się, jak bezproblemowo wyeksportować arkusz Excel do prezentacji PowerPoint przy użyciu Aspose.Cells w Javie.
 ### [Eksport JSON do Excela przy użyciu Aspose.Cells w Javie](./export-json-to-excel-with-aspose-cells-in-java/)
 Dowiedz się, jak eksportować dane JSON do plików Excel przy użyciu Aspose.Cells w Javie. Przewodnik krok po kroku z kodem źródłowym.
+### [Konwertuj markdown do arkusza kalkulacyjnego w Javie – przewodnik krok po kroku](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+Dowiedz się, jak przekształcić pliki Markdown w arkusze kalkulacyjne w Javie przy użyciu Aspose.Cells – kompletny przewodnik krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -70,7 +70,9 @@ Pelajari cara mengonversi file XLSX menjadi PPTX dan mengekspor bentuk yang dapa
 ### [Sematkan Font HTML – Excel ke HTML dengan Penyematan Font Penuh](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
 Pelajari cara mengekspor workbook Excel ke HTML dengan menyematkan semua font menggunakan Aspose.Cells untuk Java.
 ### [Mengonversi Markdown ke Excel – Panduan Lengkap Menggunakan Aspose.Cells](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
-Pelajari cara mengonversi file Markdown menjadi workbook Excel dengan Aspose.Cells dalam panduan langkah demi langkah lengkap.
+Pelajari cara mengkonversi file Markdown menjadi workbook Excel dengan Aspose.Cells dalam panduan langkah demi langkah lengkap.
+### [Mengonversi Markdown ke Spreadsheet di Java – Panduan Langkah demi Langkah](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+Pelajari cara mengonversi file Markdown menjadi spreadsheet menggunakan Aspose.Cells untuk Java dalam panduan langkah demi langkah.
 ### [Memuat File JSON Java – Panduan Lengkap Mengonversi JSON ke Excel](./load-json-file-java-full-guide-to-convert-json-to-excel/)
 Pelajari cara memuat file JSON dan mengonversinya menjadi Excel menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan contoh kode.
 ### [Buat File Excel Java – Panduan Lengkap dengan Styling Baris dan Ekspor XLSX](./create-excel-file-java-full-guide-with-row-styling-and-xlsx/)

@@ -131,6 +131,8 @@ Scopri come esportare file Excel in formato TXT limitando le cifre significative
 Scopri come convertire file Excel in presentazioni PowerPoint utilizzando Aspose.Cells per Java, con esempi di codice passo‑a‑passo.
 ### [Esporta JSON in Excel con Aspose.Cells in Java](./export-json-to-excel-with-aspose-cells-in-java/)
 Scopri come convertire file JSON in fogli Excel usando Aspose.Cells per Java. Guida passo passo con esempi di codice.
+### [Convertire markdown in foglio di calcolo in Java – guida passo‑passo](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+Scopri come trasformare file Markdown in fogli di calcolo con Aspose.Cells per Java, passo passo con esempi di codice.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

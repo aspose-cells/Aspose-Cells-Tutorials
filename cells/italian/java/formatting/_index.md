@@ -249,6 +249,8 @@ Scopri come impostare formati data personalizzati nei fogli Excel con Aspose.Cel
 ### [Impostare il carattere in grassetto nell'esportazione Excel Java – Guida completa](./set-font-bold-in-java-excel-export-complete-guide/)
 Scopri come impostare il grassetto del carattere nei file Excel esportati con Java usando Aspose.Cells, con esempi di codice passo passo.
 
+### [Come limitare le cifre significative in Excel usando Java](./how-to-limit-significant-digits-excel-using-java/)
+
 ## Risorse aggiuntive
 
 - [Documentazione di Aspose.Cells per Java](https://docs.aspose.com/cells/java/)

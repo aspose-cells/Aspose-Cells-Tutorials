@@ -59,6 +59,9 @@ Naučte se, jak vylepšit své prezentace v Excelu pomocí efektů odrazu pomoc�
 ### [Jak vykreslit excelovské listy jako obrázky pomocí Aspose.Cells pro Javu: Komplexní průvodce](./aspose-cells-java-render-excel-sheets-images/)
 Naučte se, jak transformovat data z Excelu do vysoce kvalitních obrázků pomocí Aspose.Cells pro Javu. Tato příručka pokrývá všechny kroky od nastavení až po vykreslování a zajišťuje bezproblémovou vizualizaci dat.
 
+### [Jak exportovat oblast Excelu jako obrázek v Javě pomocí Aspose.Cells](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
+Naučte se, jak pomocí Aspose.Cells v Javě exportovat vybranou oblast listu Excelu jako obrázek.
+
 ### [Nastavení grafického pozadí v souborech ODS pomocí Aspose.Cells v Javě: Podrobný návod](./aspose-cells-java-set-ods-graphic-background/)
 Naučte se, jak nastavit grafické pozadí v souborech ODS pomocí Aspose.Cells pro Javu. Vylepšete své tabulky profesionálními vizuály a zvyšte jejich atraktivitu.
 

@@ -94,6 +94,8 @@ Pelajari cara memisahkan sel dalam file Excel secara efisien menggunakan Aspose.
 
 ### [Menyalin rentang antar buku kerja di Java – panduan langkah demi langkah](./copy-range-between-workbooks-in-java-step-by-step-guide/)
 Pelajari cara menyalin rentang sel antara buku kerja Excel menggunakan Aspose.Cells untuk Java dengan panduan langkah demi langkah.
+### [Cara Menggunakan Fungsi Expand dalam Pemrosesan Excel Java](./how-to-use-expand-function-in-java-excel-processing/)
+Pelajari cara menggunakan fungsi expand di Aspose.Cells untuk Java dalam memproses file Excel secara efisien.
 
 ## Sumber Daya Tambahan
 

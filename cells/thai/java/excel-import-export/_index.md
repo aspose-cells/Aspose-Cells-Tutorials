@@ -149,6 +149,9 @@
 ### [ส่งออก JSON ไปยัง Excel ด้วย Aspose.Cells ใน Java](./export-json-to-excel-with-aspose-cells-in-java/)
 เรียนรู้วิธีแปลงไฟล์ JSON เป็น Excel ด้วย Aspose.Cells สำหรับ Java ด้วยขั้นตอนและโค้ดตัวอย่างที่ชัดเจน
 
+### [แปลง Markdown เป็นสเปรดชีตใน Java – คู่มือขั้นตอนโดยขั้นตอน](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ Markdown เป็นสเปรดชีตโดยใช้ Aspose.Cells สำหรับ Java ด้วยคำแนะนำทีละขั้นตอนและโค้ดตัวอย่าง
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

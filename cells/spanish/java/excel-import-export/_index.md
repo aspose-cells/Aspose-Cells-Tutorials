@@ -82,6 +82,8 @@ Aprenda a convertir archivos JSON a XLSX usando Aspose.Cells para Java con esta 
 Aprenda a convertir Excel a HTML con todas las fuentes incrustadas usando Aspose.Cells para Java. Guía paso a paso con ejemplos de código.
 ### [Convertir Markdown a Excel – Guía completa usando Aspose.Cells](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
 Aprenda a convertir archivos Markdown a Excel con Aspose.Cells para Java. Guía paso a paso con ejemplos de código.
+### [Convertir markdown a hoja de cálculo en Java – guía paso a paso](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+Aprenda a convertir archivos Markdown a una hoja de cálculo usando Aspose.Cells para Java. Guía paso a paso con ejemplos de código.
 ### [Cargar archivo JSON en Java – Guía completa para convertir JSON a Excel](./load-json-file-java-full-guide-to-convert-json-to-excel/)
 Aprenda a cargar archivos JSON en Java y convertirlos a Excel con Aspose.Cells. Guía paso a paso con código fuente.
 ### [Crear archivo Excel en Java – Guía completa con estilo de filas y exportación a XLSX](./create-excel-file-java-full-guide-with-row-styling-and-xlsx/)

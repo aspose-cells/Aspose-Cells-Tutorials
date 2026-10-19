@@ -70,6 +70,9 @@ weight: 22
 ### [كيفية إجبار حساب الصيغ في Java باستخدام Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
 دروس شفرة لتعلم كيفية إجبار محرك الحساب على حساب الصيغ في Aspose.Cells للـ Java
 
+### [إعادة حساب جميع صيغ Excel باستخدام Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
+دروس شفرة لإعادة حساب جميع الصيغ في ملفات Excel باستخدام Aspose.Cells للـ Java
+
 ## موارد إضافية
 - [توثيق Aspose.Cells للـ Java](https://docs.aspose.com/cells/java/)
 - [مرجع API لـ Aspose.Cells للـ Java](https://reference.aspose.com/cells/java/)

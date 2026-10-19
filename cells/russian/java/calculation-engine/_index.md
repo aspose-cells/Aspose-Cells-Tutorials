@@ -71,6 +71,9 @@ weight: 22
 ### [Как принудительно выполнить расчёт формул в Java с Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
 Узнайте, как принудительно запустить вычисление формул в книгах Excel с помощью Aspose.Cells for Java.
 
+### [Пересчитать все формулы Excel с помощью Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
+Кодовый учебник
+
 ## Дополнительные ресурсы
 - [Документация Aspose.Cells for Java](https://docs.aspose.com/cells/java/)
 - [Справочник API Aspose.Cells for Java](https://reference.aspose.com/cells/java/)

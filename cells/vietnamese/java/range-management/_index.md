@@ -93,6 +93,9 @@ Hướng dẫn chi tiết cách sao chép phạm vi ô từ một workbook sang 
 ### [Tạo trang tính mới và sao chép phạm vi Excel bằng Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
 Hướng dẫn cách tạo một trang tính mới và sao chép phạm vi dữ liệu trong Excel bằng Aspose.Cells cho Java.
 
+### [Cách sử dụng hàm expand trong xử lý Excel bằng Java](./how-to-use-expand-function-in-java-excel-processing/)
+Khám phá cách áp dụng hàm expand để mở rộng dữ liệu trong tệp Excel bằng Aspose.Cells cho Java.
+
 ## Tài nguyên bổ sung
 
 - [Tài liệu Aspose.Cells cho Java](https://docs.aspose.com/cells/java/)

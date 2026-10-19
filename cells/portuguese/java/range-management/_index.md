@@ -93,6 +93,8 @@ Aprenda a copiar intervalos de planilhas no Excel programaticamente usando Aspos
 ### [Criar nova planilha e copiar intervalo do Excel com Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
 Aprenda a criar uma planilha nova e copiar intervalos de dados no Excel usando Aspose.Cells para Java.
 
+### [Como usar a função expand no processamento de Excel em Java](./how-to-use-expand-function-in-java-excel-processing/)
+
 ## Recursos adicionais
 
 - [Documentação do Aspose.Cells para Java](https://docs.aspose.com/cells/java/)

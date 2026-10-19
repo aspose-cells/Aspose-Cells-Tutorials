@@ -79,6 +79,8 @@
 Узнайте, как экспортировать Excel в HTML с полным встраиванием шрифтов для точного отображения.
 ### [Конвертация Markdown в Excel – Полное руководство с использованием Aspose.Cells](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
 Узнайте, как преобразовать файлы Markdown в Excel с помощью Aspose.Cells, следуя пошаговому полному руководству.
+### [Конвертировать markdown в таблицу в Java – пошаговое руководство](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+Узнайте, как преобразовать файлы markdown в электронные таблицы с помощью Aspose.Cells для Java.
 ### [Как экспортировать Excel в SVG – Полное руководство Java](./how-to-export-excel-to-svg-complete-java-guide/)
 Узнайте, как экспортировать файлы Excel в формат SVG с помощью Aspose.Cells для Java. Пошаговое руководство с примером кода.
 ### [Загрузка JSON-файла в Java – Полное руководство по конвертации JSON в Excel](./load-json-file-java-full-guide-to-convert-json-to-excel/)

@@ -93,6 +93,7 @@ Java के लिए Aspose.Cells का उपयोग करके Excel म
 जावा में Aspose.Cells का उपयोग करके विभिन्न वर्कबुक्स के बीच सेल रेंज को कॉपी करने की प्रक्रिया सीखें।
 ### [Aspose.Cells के साथ नया कार्यपत्रक बनाएं और Excel रेंज कॉपी करें](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
 Aspose.Cells का उपयोग करके नया वर्कशीट बनाना और एक रेंज को कॉपी करके अन्य वर्कशीट में ले जाना सीखें।
+### [जावा एक्सेल प्रोसेसिंग में एक्सपैंड फ़ंक्शन का उपयोग कैसे करें](./how-to-use-expand-function-in-java-excel-processing/)
 
 ## अतिरिक्त संसाधन
 

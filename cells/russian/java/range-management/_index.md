@@ -93,6 +93,9 @@
 ### [Назначение имени ячейке в Excel с помощью Java – Полное руководство](./assign-name-to-cell-in-excel-using-java-complete-guide/)
 Узнайте, как присвоить имя отдельной ячейке в Excel с помощью Aspose.Cells для Java, используя пошаговые примеры кода.
 
+### [Как использовать функцию expand в обработке Excel на Java](./how-to-use-expand-function-in-java-excel-processing/)
+Узнайте, как применять функцию expand в Aspose.Cells для Java при работе с Excel, включая примеры кода и практические советы.
+
 ## Дополнительные ресурсы
 
 - [Документация по Aspose.Cells для Java](https://docs.aspose.com/cells/java/)

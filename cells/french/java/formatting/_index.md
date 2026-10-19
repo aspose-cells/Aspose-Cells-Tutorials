@@ -152,7 +152,7 @@ Apprenez à automatiser le style dans Excel avec Aspose.Cells pour Java. Découv
 Apprenez à extraire et gérer les thèmes de classeurs Excel avec Aspose.Cells pour Java. Ce guide couvre la configuration, des exemples de code et les bonnes pratiques.
 
 ### [Initialisation et style de cellule d'un classeur Excel avec Aspose.Cells Java : guide complet](./excel-workbook-initialization-cell-styling-aspose-cells-java/)
-Maîtrisez l'initialisation et le style des classeurs Excel avec Aspose.Cells pour Java. Ce guide couvre la configuration des classeurs, la modification des cellules et les techniques de style.
+Maîtrisez l'initialisation et le style des classeurs Excel avec Aspose.Cells Java. Ce guide couvre la configuration des classeurs, la modification des cellules et les techniques de style.
 
 ### [Maîtriser le style des classeurs dans Excel avec Aspose.Cells Java : un guide complet pour les développeurs](./excel-workbook-styling-aspose-cells-java/)
 Apprenez à optimiser le style et la manipulation des données de votre classeur Excel avec Aspose.Cells Java. Ce guide couvre l'initialisation, les techniques de style et la gestion efficace des données.
@@ -242,6 +242,8 @@ Maîtrisez le style des cellules Excel et l'ajout d'hyperliens dans vos applicat
 Apprenez à créer un classeur Excel avec une mise en forme dynamique en Java en suivant ce guide complet.
 ### [Comment appliquer des styles lors de la conversion d'un DataTable en Excel – Guide complet Java](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 Apprenez à appliquer des styles lors de la conversion d'un DataTable en fichier Excel avec Aspose.Cells pour Java. Guide complet pas à pas.
+
+### [Comment limiter les chiffres significatifs dans Excel avec Java : guide complet](./how-to-limit-significant-digits-excel-using-java/)
 
 ### [Format de date Aspose Cells : comment définir un format de date personnalisé en Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
 Apprenez à définir un format de date personnalisé dans Excel avec Aspose.Cells pour Java.

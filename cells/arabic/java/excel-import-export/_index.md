@@ -131,6 +131,8 @@
 تعلم كيفية تصدير ملفات Excel إلى PowerPoint باستخدام Aspose.Cells خطوة بخطوة.
 ### [تصدير JSON إلى Excel باستخدام Aspose.Cells في Java](./export-json-to-excel-with-aspose-cells-in-java/)
 تعرّف على كيفية تصدير بيانات JSON إلى ملفات Excel باستخدام Aspose.Cells في Java خطوة بخطوة.
+### [تحويل Markdown إلى جدول بيانات في Java – دليل خطوة بخطوة](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+تعرف على كيفية تحويل ملفات Markdown إلى جداول بيانات Excel باستخدام Aspose.Cells لجافا خطوة بخطوة مع أمثلة الكود.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

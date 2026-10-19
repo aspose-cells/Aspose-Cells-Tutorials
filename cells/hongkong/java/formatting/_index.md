@@ -241,12 +241,12 @@ Aspose.Words Java 程式碼教程
 ### [將 DataTable 轉換為 Excel 時套用樣式 – 完整 Java 教學](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 
 ### [Aspose Cells 日期格式：如何在 Java 中設定自訂日期格式](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
-了解如何使用 Aspose.Cells for Java 在 Excel 中設定自訂日期格式，以符合特定顯示需求。
 ### [在 Java Excel 匯出中設定字體粗體：完整指南](./set-font-bold-in-java-excel-export-complete-guide/)
 了解如何使用 Aspose.Cells for Java 在 Java Excel 匯出時將字體設定為粗體。本指南提供逐步說明、程式碼範例與最佳實踐。
 
 ### [在 Excel 中使用 Java 設定自訂數字格式 – 完整指南](./set-custom-number-format-in-excel-with-java-complete-guide/)
 了解如何使用 Aspose.Cells for Java 在 Excel 中設定自訂數字格式，提供逐步說明與程式碼範例。
+### [如何在 Excel 中使用 Java 限制有效位數](./how-to-limit-significant-digits-excel-using-java/)
 
 ## 其他資源
 

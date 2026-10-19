@@ -1,0 +1,7 @@
+Title: How to save Excel as text with Aspose.Cells – step‑by‑step guide
+Slug: how-to-save-excel-as-text-with-aspose-cells-step-by-step-gui
+Category: converting-excel-files-to-other-formats
+ProcessedDate: 2026-10-10T23:57:27.687553
+SourceRepo: AI Search API
+Keywords: save excel as text, convert excel to txt, export xlsx to txt, create txt from excel
+PRNumber: 188

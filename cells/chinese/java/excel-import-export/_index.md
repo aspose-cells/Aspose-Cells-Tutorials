@@ -145,6 +145,9 @@
 学习如何使用 Aspose.Cells for Java 将 Excel 数据导出为 TXT，并限制有效数字的位数。
 ### [使用 Aspose.Cells 将 Excel 导出为 PowerPoint – 分步指南](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
 
+### [将 Markdown 转换为电子表格 – Java 分步指南](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+学习如何使用 Aspose.Cells for Java 将 Markdown 文件转换为 Excel 电子表格，完整代码示例助您快速上手。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

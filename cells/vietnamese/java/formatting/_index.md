@@ -200,7 +200,7 @@ Tìm hiểu cách hợp nhất và định dạng ô trong Excel bằng Aspose.C
 Làm chủ việc ngắt dòng văn bản trong các ô Excel với Aspose.Cells for Java. Tìm hiểu cách thiết lập, triển khai các kiểu ngắt dòng văn bản và tối ưu hóa cách trình bày ô.
 
 ### [Làm chủ hướng văn bản trong ô Excel với Aspose.Cells cho Java: Hướng dẫn toàn diện](./mastering-aspose-cells-java-text-direction/)
-Tìm hiểu cách thiết lập hướng văn bản trong ô Excel bằng Aspose.Cells for Java. Hướng dẫn này bao gồm cách tạo sổ làm việc, thiết lập giá trị ô và lưu tệp.
+Tìm hiểu cách thiết lập hướng văn bản trong ô Excel bằng Aspose.Cells cho Java. Hướng dẫn này bao gồm cách tạo sổ làm việc, thiết lập giá trị ô và lưu tệp.
 
 ### [Tạo và định dạng sổ làm việc chính trong Java bằng Aspose.Cells](./mastering-aspose-cells-java-workbook-creation-styling/)
 Tìm hiểu cách tạo và định dạng sổ làm việc Excel theo chương trình với Aspose.Cells for Java. Tự động hóa trình bày dữ liệu của bạn một cách dễ dàng.
@@ -248,6 +248,9 @@ Làm chủ kiểu dáng ô Excel và thêm siêu liên kết vào ứng dụng J
 Hướng dẫn chi tiết cách tạo sổ làm việc Excel và áp dụng định dạng động bằng Aspose.Cells cho Java.
 ### [Cách áp dụng kiểu khi chuyển DataTable sang Excel – Hướng dẫn đầy đủ Java](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 Tìm hiểu cách áp dụng các kiểu định dạng khi chuyển đổi DataTable sang tệp Excel bằng Aspose.Cells cho Java.
+
+### [Cách giới hạn chữ số có nghĩa trong Excel bằng Java](./how-to-limit-significant-digits-excel-using-java/)
+Hướng dẫn cách thiết lập giới hạn chữ số có nghĩa trong ô Excel bằng Aspose.Cells cho Java.
 
 ## Tài nguyên bổ sung
 

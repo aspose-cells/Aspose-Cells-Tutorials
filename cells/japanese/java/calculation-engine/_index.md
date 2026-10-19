@@ -69,6 +69,9 @@ Aspose.Cells の API を使い、Java アプリで Excel ワークブックの�
 ### [Aspose.Cells を使用した Java で数式計算を強制する方法](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
 Aspose.Cells の計算エンジンで数式計算を強制的に実行する方法
 
+### [Java Aspose.Cells で Excel のすべての数式を再計算](./recalculate-all-formulas-excel-with-java-aspose-cells/)
+Aspose.Cells for Java を使用して、ワークブック内のすべての数式を一括で再計算する方法を解説します。
+
 ## 追加リソース
 - [Aspose.Cells for Java ドキュメント](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells for Java API リファレンス](https://reference.aspose.com/cells/java/)

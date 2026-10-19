@@ -79,6 +79,8 @@ Leer hoe u met Aspose.Cells voor Java een bereik van een werkblad programmatic k
 Leer hoe u een nieuw werkblad maakt en een bereik van een Excel-bestand kopieert met Aspose.Cells voor Java.
 
 
+### [Hoe de expand-functie te gebruiken in Java Excel-verwerking](./how-to-use-expand-function-in-java-excel-processing/)
+
 ## Aanvullende bronnen
 
 - [Aspose.Cells voor Java-documentatie](https://docs.aspose.com/cells/java/)

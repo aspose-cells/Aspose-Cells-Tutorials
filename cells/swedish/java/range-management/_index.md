@@ -93,6 +93,9 @@ Lär dig hur du kopierar ett cellområde från en arbetsbok till en annan med As
 ### [Skapa nytt kalkylblad och kopiera Excel-område med Aspose.Cells Java](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
 Lär dig hur du skapar ett nytt kalkylblad och kopierar ett cellområde i Excel med Aspose.Cells för Java.
 
+### [Hur man använder expand‑funktionen i Java Excel‑bearbetning](./how-to-use-expand-function-in-java-excel-processing/)
+Lär dig hur du använder expand‑funktionen för att bearbeta Excel-filer i Java med Aspose.Cells.
+
 ## Ytterligare resurser
 
 - [Aspose.Cells för Java-dokumentation](https://docs.aspose.com/cells/java/)

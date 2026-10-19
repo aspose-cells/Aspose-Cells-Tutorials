@@ -244,6 +244,8 @@
 
 ### [تعيين تنسيق رقم مخصص في Excel باستخدام Java – دليل كامل](./set-custom-number-format-in-excel-with-java-complete-guide/)
 
+### [كيفية تحديد عدد الأرقام المهمة في Excel باستخدام Java](./how-to-limit-significant-digits-excel-using-java/)
+
 ## موارد إضافية
 
 - [توثيق Aspose.Cells لـ Java](https://docs.aspose.com/cells/java/)

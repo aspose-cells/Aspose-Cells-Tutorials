@@ -124,7 +124,7 @@ Tanuld meg, hogyan módosíthatod hatékonyan a betűszínt Excel fájlokban az 
 Tanuld meg, hogyan konvertálhatsz színátmenetes kitöltésű Excel-fájlokat HTML-be az Aspose.Cells Java könyvtár segítségével, biztosítva a vizuálisan vonzó webes prezentációkat.
 
 ### [Excel/ODS fájlok létrehozása és formázása az Aspose.Cells segítségével Java-ban: Átfogó útmutató](./create-style-excel-ods-aspose-cells-java/)
-Tanuld meg, hogyan hozhatsz létre, formázhatsz és kezelhetsz Excel és ODS fájlokat programozottan az Aspose.Cells for Java segítségével. Takaríts meg időt és csökkentsd a hibákat a táblázatkezelési feladataidban.
+Tanuld meg, hogyan hozhatsz létre, formázhass és kezelhetsz Excel és ODS fájlokat programozottan az Aspose.Cells for Java segítségével. Takaríts meg időt és csökkentsd a hibákat a táblázatkezelési feladataidban.
 
 ### [Egyéni betűtípusok implementálása az Aspose.Cells-ben Java-ban: Átfogó útmutató a munkafüzetek konzisztens megjelenítéséhez](./custom-fonts-aspose-cells-java-guide/)
 Ismerje meg, hogyan biztosíthatja az Excel-munkafüzetek egységes megjelenítését egyéni betűtípusokkal az Aspose.Cells for Java használatával. Ez az útmutató a beállítást, a konfigurációt és a gyakorlati alkalmazásokat ismerteti.
@@ -156,7 +156,7 @@ Sajátítsa el az Excel-munkafüzetek inicializálását és formázását az As
 ### [Mester munkafüzet-stílusok Excelben az Aspose.Cells Java segítségével: Átfogó útmutató fejlesztőknek](./excel-workbook-styling-aspose-cells-java/)
 Ismerje meg, hogyan egyszerűsítheti Excel-munkafüzetének formázását és adatkezelését az Aspose.Cells Java használatával. Ez az útmutató az inicializálást, a formázási technikákat és a hatékony adatkezelést ismerteti.
 
-### [Excel munkalap fül színének beállítása az Aspose.Cells használatával Java-ban: Teljes útmutató](./excel-worksheet-tab-color-aspose-cells-java/)
+### [Excel munkafüzet fül színének beállítása az Aspose.Cells használatával Java-ban: Teljes útmutató](./excel-worksheet-tab-color-aspose-cells-java/)
 Ismerd meg, hogyan szabhatod testre a munkalapfülek színeit Excelben az Aspose.Cells for Java segítségével. Ez az útmutató a beállítást, a kódolást és a gyakorlati alkalmazásokat ismerteti.
 
 ### [Excel megjegyzésformázás elsajátítása Aspose.Cells használatával Java-ban](./format-excel-comments-aspose-cells-java/)
@@ -247,6 +247,9 @@ Ismerje meg, hogyan alkalmazhat stílusokat a DataTable Excel-be konvertálásak
 Tanuld meg, hogyan állíthatsz be egyedi dátumformátumot Excel-fájlokban az Aspose.Cells for Java használatával.
 ### [Betűtípus félkövér beállítása Java Excel exportálásban – Teljes útmutató](./set-font-bold-in-java-excel-export-complete-guide/)
 Ismerd meg, hogyan állíthatod be a betűtípust félkövérre Excel-exportáláskor Java-ban, részletes kódpéldákkal és tippekkel.
+
+### [Hogyan korlátozzuk a jelentős számjegyeket Excelben Java használatával](./how-to-limit-significant-digits-excel-using-java/)
+Ismerje meg, hogyan korlátozhatja a számjegyek számát Excel-fájlokban Java-val az Aspose.Cells segítségével.
 
 ## További források
 
