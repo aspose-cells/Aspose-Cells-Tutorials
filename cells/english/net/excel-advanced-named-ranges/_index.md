@@ -38,6 +38,10 @@ Learn how to create an Excel workbook, add tables, and apply naming rules using 
 Effortlessly identify cells in a named range in Excel using Aspose.Cells for .NET with this comprehensive step-by-step tutorial.
 ### [Merge Cells in Named Range in Excel](./merge-cells-in-named-range/)
 Learn how to merge cells in a named range using Aspose.Cells for .NET in this step-by-step tutorial. Discover how to format, style, and automate Excel reports.
+### [Save Excel Workbook and Add Named Range – Full C# Guide](./save-excel-workbook-and-add-named-range-full-c-guide/)
+Save Excel workbook and add a named range using Aspose.Cells for .NET in this comprehensive C# guide.
+### [Create Excel Workbook in C# – Add Named Range & Set Table Name](./create-excel-workbook-in-c-add-named-range-set-table-name/)
+Create an Excel workbook in C# with Aspose.Cells for .NET, add a named range, and set a table name in this step-by-step tutorial.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

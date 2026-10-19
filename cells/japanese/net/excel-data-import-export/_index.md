@@ -47,6 +47,20 @@ Aspose.Cells for .NET を使い、C# で書式設定されたデータを Excel 
 Aspose.Cells for .NET を使用して、JSON データから Excel ワークブックを作成する方法をステップバイステップで解説します。
 ### [C# で Excel を DataTable にエクスポート – ステップバイステップ ガイド](./export-excel-to-datatable-in-c-step-by-step-guide/)
 Aspose.Cells for .NET を使用して、Excel データを C# の DataTable にエクスポートする方法をステップバイステップで解説します。
+### [C# でデータをバインドする – Excel ワークブックの作成](./how-to-bind-data-in-c-create-excel-workbook/)
+Aspose.Cells for .NET を使用して、C# でデータをバインドし、Excel ワークブックを作成する方法を学びます。
+### [C# で Excel ワークブックを作成 – JSON を挿入して XLSX として保存](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+Aspose.Cells for .NET を使用して、C# で JSON データを Excel ワークブックに挿入し、XLSX ファイルとして保存する方法を解説します。
+### [C# で Excel ワークブックを作成 – 通貨書式を適用して DataTable をインポート](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+Aspose.Cells for .NET を使用して、C# で通貨書式を設定し、DataTable のデータを Excel ワークブックにインポートする方法を解説します。
+### [C#で新しいワークブックを作成 – Markdown を高速に Excel に変換](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
+Aspose.Cells for .NET を使用して、C# で新しいワークブックを作成し、Markdown を迅速に Excel に変換する方法を解説します。
+### [JSON データを Excel に変換 – JSON 配列を Excel に変換する完全ガイド](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
+Aspose.Cells for .NET を使用し、JSON 配列を Excel に変換する手順を詳しく解説します。
+### [C#でワークシートをDataTableに変換する – 完全プログラミングガイド](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
+Aspose.Cells for .NET を使用して、ワークシートのデータを DataTable に変換する方法をステップバイステップで解説します。
+### [Aspose.Cells で JSON を Excel にインポートする – 完全プログラミングガイド](./import-json-to-excel-with-aspose-cells-complete-programming/)
+Aspose.Cells for .NET を使って JSON データを Excel にインポートする方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -45,6 +45,8 @@ Learn to create editable ranges in Excel worksheets using Aspose.Cells for .NET,
 Learn how to protect cells and ranges in an Excel worksheet using Aspose.Cells for .NET. Follow this step-by-step guide to secure your spreadsheets.
 ### [Protect Entire Worksheet with Password using Aspose.Cells](./protect-worksheet-password/)
 Learn how to protect your Excel worksheets with password security using Aspose.Cells for .NET in this comprehensive step-by-step tutorial.
+### [Add password to Excel – Complete Sheet Protection Guide](./add-password-to-excel-complete-sheet-protection-guide/)
+Learn how to add a password to protect the entire Excel sheet using Aspose.Cells for .NET in this comprehensive guide.
 ### [Protect Columns in Worksheet using Aspose.Cells](./protect-columns/)
 Learn how to protect columns in Excel using Aspose.Cells for .NET. Follow this detailed tutorial for locking columns in Excel sheets effectively.
 ### [Protect Specific Cells in Worksheet using Aspose.Cells](./protect-specific-cells/)

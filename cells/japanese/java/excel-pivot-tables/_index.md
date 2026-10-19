@@ -44,6 +44,27 @@ Aspose.Cells for Javaでピボットテーブルデータを更新する方法�
 Aspose.Cells for Java API でピボットテーブルのスタイルをカスタマイズする方法を学びましょう。視覚的に魅力的なピボットテーブルを簡単に作成できます。
 ### [Javaでピボットテーブルをコピー – 保持してPPTXにエクスポート](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
 Aspose.Cells for Java を使用して、ピボットテーブルをコピーし、書式やデータを保持したまま PowerPoint PPTX ファイルへエクスポートする方法を学びます。
+### [Javaでピボットテーブルをコピーする方法 – 完全 Aspose.Cells ガイド](./how-to-copy-pivot-table-in-java-complete-aspose-cells-guide/)
+Aspose.Cells for Java を使用して、ピボットテーブルをコピーする手順とベストプラクティスを学びます。
+### [JavaでピボットからPNGを作成 – 完全ステップバイステップガイド](./create-png-from-pivot-in-java-full-step-by-step-guide/)
+Aspose.Cells for Java を使用して、ピボットテーブルから PNG 画像を生成する手順を詳細に解説します。
+### [Excel ピボットテーブルのコピー – Java を使用したステップバイステップガイド](./copy-pivot-table-excel-step-by-step-guide-using-java/)
+Aspose.Cells for Java を使って、Excel のピボットテーブルを別のシートやブックにコピーする方法をステップごとに解説します。
+### [Java でピボットテーブルを PNG にエクスポート – 完全プログラミングガイド](./export-pivot-table-to-png-in-java-complete-programming-guide/)
+Aspose.Cells for Java を使用して、ピボットテーブルを PNG 画像としてエクスポートする方法を学びます。
+### [Javaで範囲をコピーする方法 – Aspose.Cellsでピボットテーブルをコピー](./how-to-copy-range-in-java-copy-pivot-table-with-aspose-cells/)
+Aspose.Cells を使用して Java で範囲をコピーし、ピボットテーブルを複製する手順を学びます。
+### [ピボットテーブルをPNGとしてエクスポートする方法 – 完全なJavaガイド](./how-to-export-pivot-table-as-png-complete-java-guide/)
+Aspose.Cells を使用して Java でピボットテーブルを PNG 画像としてエクスポートする手順を学びます。
+### [JavaでAspose.Cellsを使用してピボットテーブルをコピーする方法](./how-to-copy-pivot-table-in-java-using-aspose-cells/)
+Aspose.Cells for Java を使ってピボットテーブルをコピーし、既存のレポートを効率的に再利用する手順を学びます。
+### [ワークブック間のピボットテーブルコピー – ステップバイステップ Java ガイド](./copy-pivot-table-between-workbooks-step-by-step-java-guide/)
+Aspose.Cells for Java を使用して、別のワークブックへピボットテーブルをコピーする方法を段階的に学びます。
+### [Javaで新しいワークブックを作成 – ピボットテーブルのコピー完全ガイド](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
+Aspose.Cells for Java を使用して、既存のピボットテーブルを別のワークブックにコピーする方法をステップバイステップで解説します。
+
+### [Javaでワークシートを複製し、ピボットテーブルを保持する方法](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
+ワークシートをコピーし、既存のピボットテーブルをそのまま維持する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -47,6 +47,20 @@ Leer hoe u gegevens met opmaak in Excel importeert met C# via Aspose.Cells voor 
 Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap maakt vanuit JSON-gegevens in een eenvoudige stap‑voor‑stap gids.
 ### [Export Excel naar DataTable in C# – Stapsgewijze gids](./export-excel-to-datatable-in-c-step-by-step-guide/)
 Leer hoe u een Excel-werkblad exporteert naar een DataTable met C# en Aspose.Cells voor .NET.
+### [Hoe gegevens binden in C# – Maak Excel-werkmap](./how-to-bind-data-in-c-create-excel-workbook/)
+Leer hoe u met Aspose.Cells voor .NET data bindt in C# en een Excel-werkmap maakt.
+### [Excel-werkmap maken in C# – JSON invoegen en opslaan als XLSX](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+Leer hoe u met Aspose.Cells een Excel-werkmap in C# maakt, JSON-gegevens invoegt en het bestand opslaat als XLSX.
+### [Excel-werkmap maken in C# – Valuta-opmaak toepassen en DataTable importeren](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+Leer hoe u met Aspose.Cells een Excel-werkmap in C# maakt, valuta-opmaak toepast en een DataTable importeert.
+### [Maak een nieuw werkboek in C# – Converteer Markdown snel naar Excel](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
+Leer hoe u met Aspose.Cells een nieuw werkboek maakt en Markdown-inhoud snel naar Excel converteert in C#.
+### [json-gegevens naar Excel – volledige gids voor het converteren van JSON-array naar Excel](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
+Leer hoe u JSON-arraygegevens eenvoudig naar Excel converteert met Aspose.Cells voor .NET in deze volledige gids.
+### [Werkblad converteren naar DataTable in C# – Complete programmeergids](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
+Leer hoe u een werkblad in C# omzet naar een DataTable met Aspose.Cells voor .NET, stap voor stap uitgelegd.
+### [JSON importeren naar Excel met Aspose.Cells – Complete programmeergids](./import-json-to-excel-with-aspose-cells-complete-programming/)
+Leer stap voor stap hoe u JSON-gegevens naar Excel importeert met Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

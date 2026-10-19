@@ -8,16 +8,14 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Esportazione e recupero dati Excel
 
 ## Introduzione
 
-Stai cercando di migliorare le tue competenze nella gestione dei file Excel con Aspose.Cells per .NET? Che tu sia un principiante o uno sviluppatore esperto, avere solide basi per la gestione dei dati Excel è essenziale. E indovina un po'? Ci penso io! In questo articolo, ti guiderò attraverso tutorial che ti aiuteranno a padroneggiare l'esportazione e il recupero dei dati nei file Excel utilizzando Aspose.Cells per .NET.
+Stai cercando di migliorare le tue competenze nella gestione dei file Excel con Aspose.Cells per .NET? Che tu sia un principiante o un sviluppatore esperto, avere solide basi per la gestione dei dati Excel è essenziale. E indovina un po'? Ci penso io! In questo articolo, ti guiderò attraverso tutorial che ti aiuteranno a padroneggiare l'esportazione e il recupero dei dati nei file Excel utilizzando Aspose.Cells per .NET.
 
 ### Recuperare dati dalle celle in Excel
 
@@ -28,30 +26,39 @@ Vuoi sapere come fare? Dai un'occhiata a questa pratica guida su [Recuperare dat
 ## Tutorial sull'esportazione e il recupero dei dati in Excel
 ### [Recuperare dati dalle celle in Excel](./retrieve-data-from-cells-in-excel/)
 Scopri come recuperare dati dalle celle di Excel utilizzando Aspose.Cells per .NET in questo tutorial passo passo, perfetto sia per i principianti che per gli sviluppatori esperti.
+### [Come esportare una tabella Excel – Guida completa passo‑passo](./how-to-export-excel-table-complete-step-by-step-guide/)
+Scopri come esportare una tabella Excel utilizzando Aspose.Cells per .NET in questo tutorial passo passo, adatto sia ai principianti che agli esperti.
 
 ### [Esporta tabella dati Excel in C# – Guida completa](./export-excel-data-table-in-c-complete-guide/)
 Scopri come esportare una tabella di dati Excel in C# con Aspose.Cells per .NET, passo passo, ideale per sviluppatori di ogni livello.
 
 ### [Come esportare dati Excel in C# – Guida passo‑passo](./how-to-export-excel-data-in-c-step-by-step-guide/)
 Scopri come esportare dati Excel in C# con Aspose.Cells per .NET, passo passo, ideale per sviluppatori di ogni livello.
+### [Come esportare dati Excel – Guida passo passo C#](./how-to-export-excel-data-step-by-step-c-guide/)
+Impara a esportare dati da Excel con Aspose.Cells per .NET usando C# in questa guida dettagliata passo passo.
+### [Esporta intervallo di foglio di lavoro in C# – Guida completa di programmazione](./export-worksheet-range-in-c-complete-programming-guide/)
+Scopri come esportare un intervallo di foglio di lavoro in C# usando Aspose.Cells per .NET in questa guida completa.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Crea cartella di lavoro C# – Esporta DataTable in Excel con formattazione](./create-workbook-c-export-datatable-to-excel-with-formatting/)
 Impara a creare una cartella di lavoro C# ed esportare un DataTable in Excel applicando formattazioni avanzate con Aspose.Cells.
 
 ### [Crea nuova cartella di lavoro ed esporta Excel in TXT con precisione](./create-new-workbook-and-export-excel-to-txt-with-precision/)
 Impara a creare una nuova cartella di lavoro e a esportare i dati Excel in formato TXT con precisione usando Aspose.Cells.
+### [Come esportare un intervallo di celle come tabella – Guida completa C#](./how-to-export-cell-range-as-table-complete-c-guide/)
+Scopri come esportare un intervallo di celle in una tabella Excel usando Aspose.Cells per .NET con C# passo passo.
+### [Creare un foglio Excel da una DataTable in C# – guida passo‑passo](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+Impara a generare un foglio Excel da una DataTable in C# usando Aspose.Cells, con istruzioni dettagliate passo‑passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

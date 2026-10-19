@@ -47,6 +47,20 @@ Dowiedz się, jak importować dane z zachowaniem formatowania do Excela przy uż
 Dowiedz się, jak przy użyciu Aspose.Cells dla .NET stworzyć skoroszyt Excel bezpośrednio z danych JSON w kilku prostych krokach.
 ### [Eksportuj Excel do DataTable w C# – przewodnik krok po kroku](./export-excel-to-datatable-in-c-step-by-step-guide/)
 Dowiedz się, jak przy użyciu Aspose.Cells dla .NET wyeksportować dane z pliku Excel do obiektu DataTable w C# w kilku prostych krokach.
+### [Jak powiązać dane w C# – Utwórz skoroszyt Excel](./how-to-bind-data-in-c-create-excel-workbook/)
+Dowiedz się, jak w C# powiązać dane i utworzyć skoroszyt Excel przy użyciu Aspose.Cells dla .NET.
+### [Utwórz skoroszyt Excel w C# – wstaw JSON i zapisz jako XLSX](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+Dowiedz się, jak w C# utworzyć skoroszyt Excel, wstawić dane JSON i zapisać go jako plik XLSX przy użyciu Aspose.Cells.
+### [Utwórz skoroszyt Excel w C# – zastosuj format waluty i zaimportuj DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+Dowiedz się, jak w C# utworzyć skoroszyt Excel, zastosować format waluty i zaimportować dane z DataTable przy użyciu Aspose.Cells.
+### [Utwórz nowy skoroszyt w C# – szybka konwersja Markdown do Excela](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
+Dowiedz się, jak w kilku krokach utworzyć nowy skoroszyt w C# i przekształcić plik Markdown w arkusz Excel przy użyciu Aspose.Cells.
+### [Dane JSON do Excela – Pełny przewodnik konwersji tablicy JSON do Excela](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
+Dowiedz się, jak przekształcić tablicę JSON w plik Excel przy użyciu Aspose.Cells dla .NET w kilku prostych krokach.
+### [Konwertuj arkusz kalkulacyjny na DataTable w C# – Kompletny przewodnik programistyczny](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
+Dowiedz się, jak przekształcić arkusz Excel w obiekt DataTable w C# przy użyciu Aspose.Cells dla .NET.
+### [Import JSON do Excela przy użyciu Aspose.Cells – Kompletny przewodnik programistyczny](./import-json-to-excel-with-aspose-cells-complete-programming/)
+Dowiedz się, jak zaimportować pliki JSON do Excela przy użyciu Aspose.Cells w pełnym przewodniku programistycznym.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

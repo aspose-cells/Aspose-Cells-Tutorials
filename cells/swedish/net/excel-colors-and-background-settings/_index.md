@@ -34,6 +34,14 @@ Lär dig att programmatiskt ändra cellfärger i Excel med Aspose.Cells för .NE
 Lär dig hur du skapar anpassade färgpaletter och tillämpar dem i dina Excel-kalkylblad med Aspose.Cells för .NET. Förbättra dina datas visuella attraktionskraft med livfulla färger och formateringsalternativ.
 ### [Applicera alternerande radfärger i C# – steg‑för‑steg‑guide](./apply-alternating-row-colors-in-c-step-by-step-guide/)
 Lär dig hur du applicerar alternerande radfärger i Excel med Aspose.Cells för .NET i C#. Förbättra läsbarheten i dina kalkylblad.
+### [Lägg till bakgrundsfärg i Excel – alternerande radstilar i C#](./add-background-color-excel-alternating-row-styles-in-c/)
+Lär dig att lägga till alternerande radbakgrundsfärger i Excel med Aspose.Cells för .NET i C#.
+### [Ställ in kolumnbakgrund i Excel med C# – Komplett guide](./set-column-background-in-excel-with-c-complete-guide/)
+Lär dig hur du programatiskt sätter bakgrundsfärg för en hel kolumn i Excel med C# och Aspose.Cells för .NET.
+### [Växlande radfärger i C#-arbetsblad – Komplett guide](./alternating-row-colors-in-c-worksheets-complete-guide/)
+Lär dig hur du automatiskt tilldelar växlande färger till rader i Excel-ark med Aspose.Cells för .NET för bättre läsbarhet.
+### [Applicera alternerande radfärger i Excel med C# – Komplett guide](./apply-alternating-row-colors-in-excel-with-c-complete-guide/)
+Lär dig hur du automatiskt tillämpar alternerande radfärger i Excel med Aspose.Cells för .NET och förbättra läsbarheten av dina kalkylblad.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

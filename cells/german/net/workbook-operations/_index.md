@@ -594,6 +594,9 @@ Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für .NET programmgesteuert
 ### [Festlegen der Excel-Dokumentversion mit Aspose.Cells in C#](./set-excel-document-version-aspose-csharp)
 Ein Code-Tutorial für Aspose.Cells Net
 
+### [Neues Arbeitsbuch in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-new-workbook-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein neues Excel‑Arbeitsbuch in C# programmgesteuert erstellen.
+
 ### [Neues Arbeitsbuch in C# erstellen – Vollständiger Programmierleitfaden](./create-new-workbook-in-c-complete-programming-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein neues Excel-Arbeitsbuch in C# erstellen und vollständig konfigurieren.
 

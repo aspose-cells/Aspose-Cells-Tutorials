@@ -66,6 +66,8 @@ Lär dig hur du skriver ut en tom sida med Aspose.Cells för .NET, så att dina 
 Lär dig rendera sekventiella sidor i Excel med Aspose.Cells för .NET. Den här steg-för-steg-handledningen ger en detaljerad guide för att konvertera valda sidor till bilder.
 ### [Exportera pivottabell till PNG i C# – Steg‑för‑steg‑guide](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
 Lär dig hur du exporterar en pivottabell till PNG med Aspose.Cells för .NET i C# med vår steg‑för‑steg‑guide.
+### [Skapa PNG-pivotbild i C# – Fullständig steg‑för‑steg‑guide](./create-png-pivot-image-in-c-full-step-by-step-guide/)
+Lär dig hur du skapar en PNG-bild av en pivottabell i C# med Aspose.Cells för .NET i en detaljerad steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

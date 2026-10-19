@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Veri Dışa Aktarımı ve Alma
@@ -28,6 +26,8 @@ Bunu nasıl yapacağınızı bilmek ister misiniz? Bu kullanışlı kılavuza g�
 ## Excel Veri Dışa Aktarma ve Alma Eğitimleri
 ### [Excel'deki Hücrelerden Veri Alma](./retrieve-data-from-cells-in-excel/)
 Bu adım adım eğitimde, Aspose.Cells for .NET kullanarak Excel hücrelerinden veri almayı öğrenin. Bu eğitim, hem yeni başlayanlar hem de deneyimli geliştiriciler için mükemmeldir.
+### [Excel Verilerini Dışa Aktarma – Adım Adım C# Kılavuzu](./how-to-export-excel-data-step-by-step-c-guide/)
+Bu adım adım rehberde, Aspose.Cells for .NET kullanarak C# ile Excel verilerini dışa aktarmayı öğrenin.
 
 ### [C# ile Excel Veri Tablosu Dışa Aktarma – Tam Rehber](./export-excel-data-table-in-c-complete-guide/)
 Bu kapsamlı rehberde, C# kullanarak Aspose.Cells ile Excel veri tablolarını nasıl dışa aktaracağınızı adım adım öğrenin.
@@ -35,23 +35,34 @@ Bu kapsamlı rehberde, C# kullanarak Aspose.Cells ile Excel veri tablolarını n
 ### [C# ile Excel Verilerini Dışa Aktarma – Adım Adım Rehber](./how-to-export-excel-data-in-c-step-by-step-guide/)
 Bu adım adım rehberde, C# ve Aspose.Cells kullanarak Excel verilerini nasıl dışa aktaracağınızı öğrenin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+### [C#'ta Çalışma Sayfası Aralığını Dışa Aktarma – Tam Programlama Kılavuzu](./export-worksheet-range-in-c-complete-programming-guide/)
+Bu kapsamlı rehberde, Aspose.Cells for .NET kullanarak C# ile çalışma sayfası aralığını dışa aktarmayı öğrenin.
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
+
 ### [Workbook Oluşturma C# – DataTable'ı Biçimlendirme ile Excel'e Aktarma](./create-workbook-c-export-datatable-to-excel-with-formatting/)
 Bu eğitimde, Aspose.Cells for .NET kullanarak C# ile bir çalışma kitabı oluşturup, DataTable'ı biçimlendirilmiş şekilde Excel'e aktarmayı öğrenin.
 
 ### [Yeni Çalışma Kitabı Oluşturma ve Excel'i Hassas Şekilde TXT'ye Aktarma](./create-new-workbook-and-export-excel-to-txt-with-precision/)
 Aspose.Cells for .NET ile yeni bir çalışma kitabı oluşturup, Excel verilerini yüksek doğrulukla TXT dosyasına dışa aktarın.
 
+### [Hücre Aralığını Tablo Olarak Dışa Aktarma – Tam C# Rehberi](./how-to-export-cell-range-as-table-complete-c-guide/)
+Bu rehberde, Aspose.Cells for .NET kullanarak bir hücre aralığını tablo olarak dışa aktarmayı adım adım öğrenin.
+
+### [C#'ta DataTable'dan Excel Sayfası Oluşturma – adım adım rehber](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+Aspose.Cells for .NET ile C#'ta bir DataTable'dan Excel sayfası oluşturmayı öğrenin. Yeni başlayanlar ve deneyimli geliştiriciler için uygundur.
+
+### [Excel Tablosunu Dışa Aktarma – Tam Adım Adım Kılavuz](./how-to-export-excel-table-complete-step-by-step-guide/)
+Bu kapsamlı adım adım kılavuz, Aspose.Cells for .NET kullanarak bir Excel tablosunu dışa aktarmayı gösterir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

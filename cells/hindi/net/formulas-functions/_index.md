@@ -100,8 +100,19 @@ Aspose.Cells .NET के साथ Excel में सेल निर्भर�
 Aspose.Cells .NET का उपयोग करके अपनी Excel फ़ाइलों की भाषा निर्दिष्ट करना सीखें। अंतर्राष्ट्रीयकरण सूत्र सेटिंग के लिए इस चरण-दर-स्टेप मार्गदर्शिका के साथ दस्तावेज़ पहुँच और अनुपालन को बढ़ाएँ।
 
 ### [Aspose.Cells .NET के साथ Excel पावर क्वेरी फ़ॉर्मूला अपडेट करें](./update-power-query-formulas-aspose-cells-net)
+### [C# में WRAPCOLS का उपयोग कैसे करें – रैप फ़ंक्शन के साथ Excel वर्कबुक बनाएं](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+
+### [Excel वर्कबुक बनाना C# – लैम्ब्डा, SEQUENCE और EXPAND गाइड](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 
 ### [C# में लैम्ब्डा का उपयोग Excel फ़ॉर्मूला के साथ – पूर्ण गाइड](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
+### [C# के साथ Excel में कोटैन्जेंट कैसे गणना करें – वर्कबुक बनाएं, EXPAND उपयोग करें, और सहेजें](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+C# में Aspose.Cells का उपयोग करके Excel में कोटैन्जेंट फ़ॉर्मूला बनाएं, EXPAND फ़ंक्शन लागू करें और वर्कबुक सहेजें।
+
+### [EXPAND फ़ॉर्मूला के साथ Excel वर्कबुक बनाएं – पूर्ण गाइड](./create-excel-workbook-with-expand-formula-complete-guide/)
+
+### [C# में SEQUENCE का उपयोग कैसे करें – Excel वर्कबुक बनाएं](./how-to-use-sequence-in-c-create-excel-workbook/)
+
+### [C# में एरे फ़ॉर्मूला लिखें – पूर्ण प्रोग्रामिंग गाइड](./write-array-formula-in-c-complete-programming-guide/)
 
 ## एक्सेल फॉर्मूला प्रकारों को समझना
 
@@ -161,6 +172,7 @@ Aspose.Cells .NET का उपयोग करके अपनी Excel फ़�
 4. **प्रलेखन**: जटिल सूत्र संरचनाओं का स्पष्ट दस्तावेज़ीकरण बनाए रखें
 
 .NET के लिए Aspose.Cells के साथ इन सूत्र क्षमताओं में महारत हासिल करके, आप अपनी स्प्रेडशीट में परिष्कृत गणना इंजन बना सकते हैं जो Excel स्थापना की आवश्यकता के बिना सटीक, गतिशील परिणाम प्रदान करते हैं।
+### [C# में WRAPCOLS का उपयोग कैसे करें – Excel में एक एरे को मैट्रिक्स में पुनः आकार दें](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -76,6 +76,8 @@
 透過本簡單易懂的指南，了解如何使用 Aspose.Cells for .NET 在 Excel 儲存格中換行顯示長文字。輕鬆轉換您的電子表格。
 ### [在 C# 中建立儲存格樣式 – 如何套用樣式至儲存格並置中文字](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
 使用 Aspose.Cells for .NET 在 C# 中建立儲存格樣式，並將文字置中，輕鬆美化您的 Excel 表格。
+### [使用 Aspose.Cells 套用儲存格樣式 – 匯入 DataTable 並保留格式](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+透過 Aspose.Cells for .NET 匯入 DataTable 時，同時套用儲存格樣式與格式設定，保持資料外觀一致。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -63,6 +63,18 @@
 Узнайте, как правильно парсить даты японской эры в Excel с помощью Aspose.Cells для .NET, следуя полному пошаговому руководству для C# разработчиков.
 ### [Загрузка Markdown в электронную таблицу – декодировать изображения Base64](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
 Узнайте, как загрузить Markdown в Excel и декодировать встроенные изображения Base64 с помощью Aspose.Cells для .NET.
+### [Как разбирать японские даты в C# – Полное руководство](./how-to-parse-japanese-dates-in-c-complete-guide/)
+Узнайте, как правильно разбирать японские даты в C# с помощью Aspose.Cells, следуя пошаговым инструкциям.
+### [Как вставить JSON в шаблон Excel – пошагово](./how-to-insert-json-into-excel-template-step-by-step/)
+Узнайте, как вставить данные JSON в шаблон Excel с помощью Aspose.Cells для .NET, используя пошаговые инструкции.
+### [Как загрузить Markdown в Excel – импортировать файл Markdown с помощью Aspose.Cells](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
+Узнайте, как импортировать файл Markdown в Excel с помощью Aspose.Cells для .NET, следуя пошаговым инструкциям.
+### [Генерация Excel из JSON с C# – Полное пошаговое руководство](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
+Узнайте, как с помощью Aspose.Cells для .NET генерировать файлы Excel из JSON в C# шаг за шагом.
+### [Создание рабочей книги Excel C# – Полное руководство по чтению дат из ячеек](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+Узнайте, как создать рабочую книгу Excel на C# и читать даты из ячеек с помощью Aspose.Cells для .NET.
+### [Разбор дат японской эры в C# – Полное руководство](./parse-japanese-era-date-in-c-complete-guide/)
+Узнайте, как правильно парсить даты японской эры в C# с помощью Aspose.Cells, включая примеры кода и пошаговые инструкции.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

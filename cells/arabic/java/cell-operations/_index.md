@@ -74,6 +74,13 @@ weight: 4
 
 ### [ضبط عرض العمود في Excel باستخدام Aspose.Cells Java](./set-column-width-excel-aspose-cells-java/)
 دروس برمجية لـ Aspose.Words Java
+### [تحويل الخلية إلى نص في Java – دليل تصدير كامل](./convert-cell-to-string-in-java-complete-export-guide/)
+تعلم كيفية تحويل محتوى الخلية إلى نص في Java باستخدام Aspose.Cells وتصديره بسهولة.
+
+### [الحصول على التاريخ والوقت من الخلية في Excel باستخدام Java – دليل شامل](./get-datetime-from-cell-in-java-excel-complete-guide/)
+تعلم كيفية استخراج قيمة التاريخ والوقت من خلية Excel باستخدام Aspose.Cells لجافا ومعالجتها بسهولة.
+### [تحليل تاريخ العصر الياباني من Excel باستخدام Java – دليل كامل](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+تعلم كيفية استخراج وتحويل تواريخ العصور اليابانية من ملفات Excel باستخدام Aspose.Cells لجافا.
 
 ## موارد إضافية
 

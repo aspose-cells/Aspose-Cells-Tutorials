@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gestione di righe e colonne
@@ -48,6 +46,8 @@ Ammettiamolo, non tutti i dati rimangono rilevanti nel tempo. Quando si ripulisc
 Scopri una guida passo passo per copiare colonne in Excel utilizzando Aspose.Cells per .NET. Semplifica le tue attività sui dati con istruzioni chiare.
 ### [Copia righe utilizzando Aspose.Cells per .NET](./copying-rows/)
 Scopri come copiare in modo efficiente le righe nei file Excel utilizzando Aspose.Cells per .NET. Questa guida passo passo semplifica la copia delle righe per le tue esigenze di gestione dei dati.
+### [Copia righe da un foglio di lavoro a un altro – Guida completa C#](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+Scopri come copiare righe da un foglio all'altro in Excel usando Aspose.Cells per .NET con una guida completa in C#.
 ### [Raggruppa righe e colonne in Excel con Aspose.Cells](./grouping-rows-and-columns/)
 Scopri come raggruppare righe e colonne in Excel utilizzando Aspose.Cells per .NET con questa guida dettagliata.
 ### [Crea una riga di riepilogo qui sotto con Aspose.Cells per .NET](./summary-row-below/)
@@ -66,6 +66,8 @@ Scopri come visualizzare righe e colonne in Excel utilizzando Aspose.Cells per .
 Scopri come eliminare una colonna in un file Excel utilizzando Aspose.Cells per .NET. Segui la nostra guida dettagliata e passo passo per semplificare le modifiche ai file Excel.
 ### [Elimina una riga in Aspose.Cells .NET](./delete-row-aspose-cells/)
 Scopri come eliminare una riga in Excel con Aspose.Cells per .NET. Questa guida dettagliata illustra i prerequisiti, l'importazione del codice e una procedura dettagliata per una manipolazione dei dati senza problemi.
+### [Come eliminare un'intera riga in un file Excel usando C#](./how-to-delete-entire-row-in-an-excel-file-using-c/)
+Scopri come rimuovere completamente una riga da un file Excel con C# e Aspose.Cells, passo passo.
 ### [Carica file Excel C# – Come eliminare righe e rimuovere righe specifiche](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Scopri come caricare un file Excel in C# e rimuovere righe specifiche usando Aspose.Cells per .NET.
 ### [Elimina più righe in Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
@@ -84,14 +86,16 @@ Impara a inserire più righe in Excel utilizzando Aspose.Cells per .NET. Segui i
 Scopri come creare una cartella di lavoro Excel in C# e trasporre una colonna in una riga usando Aspose.Cells per .NET.
 ### [Come ripetere gli elementi in Excel – Generazione dinamica di righe con C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Scopri come generare dinamicamente righe in Excel per ripetere elementi usando C# e Aspose.Cells.
+### [Come inserire righe in GridJs – Aggiungere più righe alla griglia in modo efficiente](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+Scopri come inserire più righe in GridJs in modo efficiente con una guida passo passo.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Inserire righe in Excel con C# – Guida passo‑passo](./insert-rows-in-excel-with-c-step-by-step-guide/)
 Scopri come inserire righe in Excel usando C# con Aspose.Cells per .NET. Guida dettagliata passo passo.
 ### [Elimina righe da una tabella Excel con C# – Guida passo‑passo](./delete-rows-excel-table-with-c-step-by-step-guide/)
@@ -101,11 +105,16 @@ Scopri come eliminare righe da una tabella Excel con C# usando Aspose.Cells, gui
 Scopri come utilizzare WRAPCOLS per creare un layout a due colonne in C# con Aspose.Cells. Guida passo passo e chiara.
 ### [Come inserire righe in GridJs – Aggiungi più righe rapidamente](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Scopri come inserire rapidamente più righe in una tabella GridJs con pochi passaggi di codice.
+### [Come utilizzare wrapcols in C# – Guida completa con Excel WRAPROWS e ricalcolo delle formule](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+Scopri come usare wrapcols in C# con Excel WRAPROWS e ricalcolare le formule in modo semplice e dettagliato.
+### [Spostare le celle verso l'alto in Excel con C# – Guida completa](./shift-cells-up-in-excel-with-c-complete-guide/)
+Scopri come spostare le celle verso l'alto in Excel usando C# e Aspose.Cells con questa guida passo passo.
+### [Come eliminare righe in Excel con C# – proteggere l'intestazione della tabella](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
+Scopri come eliminare righe in Excel con C# mantenendo intatta l'intestazione della tabella.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,0 +1,7 @@
+Title: How to save Excel as PPT with editable text boxes in C#
+Slug: how-to-save-excel-as-ppt-with-editable-text-boxes-in-c
+Category: converting-excel-files-to-other-formats
+ProcessedDate: 2026-10-07T18:43:25.982279
+SourceRepo: AI Search API
+Keywords: save excel as ppt, convert excel to powerpoint, how to export excel, how to keep textboxes, convert spreadsheet to presentation
+PRNumber: 183

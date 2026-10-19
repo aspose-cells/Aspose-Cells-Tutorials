@@ -47,6 +47,20 @@
 เรียนรู้วิธีสร้างไฟล์ Excel จากข้อมูล JSON อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
 ### [ส่งออก Excel ไปยัง DataTable ด้วย C# – คู่มือแบบขั้นตอนต่อขั้นตอน](./export-excel-to-datatable-in-c-step-by-step-guide/)
 เรียนรู้วิธีส่งออกข้อมูลจากไฟล์ Excel ไปยัง DataTable ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือขั้นตอนต่อขั้นตอนนี้
+### [วิธีผูกข้อมูลใน C# – สร้าง Excel Workbook](./how-to-bind-data-in-c-create-excel-workbook/)
+เรียนรู้วิธีผูกข้อมูลใน C# เพื่อสร้างและบันทึกไฟล์ Excel ด้วย Aspose.Cells สำหรับ .NET อย่างง่ายดาย
+### [สร้าง Excel Workbook ด้วย C# – แทรก JSON แล้วบันทึกเป็น XLSX](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
+เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# แทรกข้อมูล JSON และบันทึกเป็นไฟล์ XLSX โดยใช้ Aspose.Cells สำหรับ .NET
+### [สร้าง Excel Workbook ด้วย C# – ปรับรูปแบบสกุลเงินและนำเข้า DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
+เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# ปรับรูปแบบสกุลเงินและนำเข้า DataTable โดยใช้ Aspose.Cells สำหรับ .NET
+### [สร้างเวิร์กบุ๊กใหม่ใน C# – แปลง Markdown เป็น Excel อย่างรวดเร็ว](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
+เรียนรู้วิธีสร้างเวิร์กบุ๊กใหม่ใน C# และแปลงไฟล์ Markdown เป็น Excel อย่างรวดเร็วด้วย Aspose.Cells
+### [json data to excel – คู่มือเต็มสำหรับการแปลง JSON Array เป็น Excel](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
+เรียนรู้วิธีแปลงข้อมูล JSON เป็นไฟล์ Excel อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
+### [แปลง Worksheet เป็น DataTable ใน C# – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
+เรียนรู้วิธีแปลง Worksheet เป็น DataTable ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET อย่างละเอียด
+### [นำเข้า JSON ไปยัง Excel ด้วย Aspose.Cells – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./import-json-to-excel-with-aspose-cells-complete-programming/)
+เรียนรู้วิธีนำเข้า JSON ไปยัง Excel ด้วย Aspose.Cells สำหรับ .NET ในคู่มือการเขียนโปรแกรมฉบับเต็มนี้
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

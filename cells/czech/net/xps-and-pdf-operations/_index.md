@@ -36,6 +36,22 @@ Naučte se, jak nastavit čas vytvoření PDF v .NET pomocí Aspose.Cells. Postu
 Naučte se, jak zapisovat Unicode v Excelu pomocí C# s podrobnými příklady a tipy.
 ### [Převod docx na xps v C# – Kompletní průvodce](./convert-docx-to-xps-in-c-complete-guide/)
 Naučte se, jak převést soubory DOCX do formátu XPS pomocí Aspose.Cells pro .NET v několika snadných krocích s praktickými příklady kódu.
+### [Převod Excelu do XPS pomocí C# – kompletní průvodce](./convert-excel-to-xps-with-c-complete-guide/)
+Naučte se, jak převést soubory Excelu do formátu XPS pomocí C# s podrobným návodem a praktickými ukázkami kódu.
+### [Vytvoření nového sešitu Excel – Průvodce Unicode a exportem do XPS](./create-new-excel-workbook-unicode-xps-export-guide/)
+Naučte se, jak vytvořit nový sešit Excel s podporou Unicode a exportovat jej do XPS pomocí Aspose.Cells pro .NET.
+### [Vložení fontů do XPS pomocí C# – Kompletní programovací průvodce](./embed-fonts-in-xps-with-c-complete-programming-guide/)
+Naučte se, jak vložit fonty do XPS souborů v C# pomocí Aspose.Cells, včetně praktických ukázek kódu a podrobných kroků.
+### [Vložení fontů do PDF pomocí Aspose.Cells – Kompletní průvodce C#](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
+Naučte se, jak vložit písma do PDF souborů pomocí Aspose.Cells v C#, aby PDF mělo správné typografické vlastnosti.
+### [Uložení sešitu jako XPS v C# – krok za krokem průvodce](./save-workbook-as-xps-in-c-step-by-step-guide/)
+Naučte se, jak v C# pomocí Aspose.Cells uložit sešit jako XPS pomocí podrobného krok‑za‑krokem návodu.
+### [Převod Excelu do XPS v C# a načtení souboru Excel](./convert-excel-to-xps-in-c-and-load-excel-file/)
+Naučte se, jak načíst soubor Excel a převést jej do XPS pomocí Aspose.Cells v C#.
+### [Převod Excelu do XPS v C# – Kompletní průvodce krok za krokem](./convert-excel-to-xps-in-c-complete-step-by-step-guide/)
+Naučte se převádět soubory Excel do XPS v C# pomocí Aspose.Cells s podrobnými ukázkami kódu a praktickými tipy.
+### [Jak povolit písma při převodu Excelu do XPS – Kompletní průvodce](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
+Naučte se, jak povolit písma při převodu souborů Excel do XPS pomocí Aspose.Cells pro .NET a zajistit správné zobrazení textu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

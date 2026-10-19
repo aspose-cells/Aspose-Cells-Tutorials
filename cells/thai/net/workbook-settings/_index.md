@@ -52,6 +52,8 @@
 ค้นพบวิธีการจัดการสูตรช่วงที่มีชื่อในภาษาเยอรมันโดยใช้ Aspose.Cells สำหรับ .NET เรียนรู้การสร้าง จัดการ และบันทึกไฟล์ Excel ด้วยโปรแกรม
 ### [สร้างสมุดงานภาษาญี่ปุ่นใน C# – คู่มือเต็มขั้นตอน](./create-japanese-workbook-in-c-complete-step-by-step-guide/)
 สร้างสมุดงานภาษาญี่ปุ่นใน C# ด้วย Aspose.Cells สำหรับ .NET ตามขั้นตอนเต็มรูปแบบ
+### [เปิดใช้งานการแยกวิเคราะห์ยุคญี่ปุ่นใน C# ด้วย Aspose.Cells](./enable-japanese-era-parsing-in-c-with-aspose-cells/)
+เรียนรู้วิธีเปิดใช้งานการแยกวิเคราะห์ยุคญี่ปุ่นใน C# ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

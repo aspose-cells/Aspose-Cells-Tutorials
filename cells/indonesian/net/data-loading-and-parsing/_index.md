@@ -63,6 +63,16 @@ Pelajari cara membuat workbook Excel dari data JSON menggunakan Aspose.Cells unt
 Pelajari cara mengurai tanggal era Jepang dalam file Excel menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah lengkap.
 ### [Cara Memuat Markdown ke Spreadsheet – Mendekode Gambar Base64](./how-to-load-markdown-into-a-spreadsheet-decode-base64-images/)
 Pelajari cara memuat konten Markdown ke dalam spreadsheet dan mendekode gambar Base64 menggunakan Aspose.Cells untuk .NET.
+### [Cara Memuat Markdown ke dalam Excel – Mengimpor File Markdown dengan Aspose.Cells](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
+Pelajari cara mengimpor file Markdown ke dalam Excel menggunakan Aspose.Cells dengan panduan langkah demi langkah.
+### [Cara Menyisipkan JSON ke dalam Template Excel – Langkah demi Langkah](./how-to-insert-json-into-excel-template-step-by-step/)
+Pelajari cara menyisipkan data JSON ke dalam template Excel menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah.
+### [Menghasilkan Excel dari JSON dengan C# – Panduan Lengkap Langkah demi Langkah](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
+Pelajari cara mengonversi data JSON menjadi file Excel menggunakan C# dengan Aspose.Cells, langkah demi langkah lengkap.
+### [Buat Workbook Excel C# – Panduan Lengkap Membaca Tanggal dari Sel](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+Pelajari cara membuat workbook Excel dengan C# dan membaca nilai tanggal dari sel menggunakan Aspose.Cells untuk .NET.
+### [Mengurai Tanggal Era Jepang di C# – Panduan Lengkap](./parse-japanese-era-date-in-c-complete-guide/)
+Pelajari cara mengonversi tanggal era Jepang menjadi format standar di C# dengan Aspose.Cells, lengkap dengan contoh kode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
