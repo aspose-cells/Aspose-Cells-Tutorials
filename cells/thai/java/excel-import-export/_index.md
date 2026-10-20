@@ -91,6 +91,9 @@
 ### [ตั้งค่าความแม่นยำการส่งออกตัวเลขใน Java: กำหนดจำนวนหลักสำคัญ](./set-numeric-export-precision-in-java-set-significant-digits/)
 เรียนรู้วิธีตั้งค่าความแม่นยำของการส่งออกตัวเลขใน Java โดยกำหนดจำนวนหลักสำคัญด้วย Aspose.Cells สำหรับ Java
 
+### [วิธีบันทึกเวิร์กบุ๊กเป็น PDF ด้วยความแม่นยำตัวเลขใน Java](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+เรียนรู้วิธีบันทึกไฟล์ PDF จากเวิร์กบุ๊กโดยกำหนดความแม่นยำของตัวเลขใน Java ด้วย Aspose.Cells
+
 ### [ส่งออก XLSX เป็น CSV – คู่มือ Java ฉบับสมบูรณ์](./export-xlsx-as-csv-complete-java-guide/)
 เรียนรู้วิธีส่งออกไฟล์ XLSX เป็น CSV ด้วย Java อย่างละเอียด พร้อมโค้ดตัวอย่างและขั้นตอนที่ชัดเจน
 

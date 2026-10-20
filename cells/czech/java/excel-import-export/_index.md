@@ -65,6 +65,8 @@ Naučte se, jak exportovat Excel do HTML v Javě pomocí Aspose.Cells pro Javu. 
 Naučte se, jak exportovat data do CSV v Javě s nastavením významných číslic a určením rozsahu exportu.
 ### [Jak vytvořit PDF ze sešitu – Kompletní průvodce pro Javu](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
 Naučte se, jak pomocí Aspose.Cells pro Javu převést sešit do PDF s podrobným kódem a nastavením výstupu.
+### [Jak uložit sešit jako PDF s číselnou přesností v Javě](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+Naučte se, jak uložit Excel sešit jako PDF s nastavením číselné přesnosti pomocí Aspose.Cells pro Javu.
 ### [Převod XLSX na PPTX – Kompletní průvodce exportem editovatelných tvarů](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
 Naučte se, jak převést soubor XLSX na PPTX a exportovat editovatelné tvary pomocí Aspose.Cells pro Javu.
 ### [Převod JSON na XLSX pomocí Aspose.Cells Java – Kompletní průvodce](./convert-json-to-xlsx-with-aspose-cells-full-guide/)

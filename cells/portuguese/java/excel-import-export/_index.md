@@ -45,6 +45,8 @@ Aprenda a converter arquivos XLSX para CSV usando Aspose.Cells para Java. Guia c
 Aprenda a definir o delimitador e salvar arquivos como CSV usando Aspose.Cells no Java.
 ### [Exportando Excel para PDF](./exporting-excel-to-pdf/)
 Aprenda a exportar arquivos do Excel para PDF sem esforço usando o Aspose.Cells para Java. Nosso guia passo a passo simplifica o processo. Comece a converter hoje mesmo!
+### [Como salvar pasta de trabalho como PDF com precisão numérica em Java](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+Aprenda a salvar uma pasta de trabalho como PDF definindo a precisão numérica usando Aspose.Cells para Java. Guia passo a passo com código.
 ### [Converter Excel para PDF – Guia Java Completo com Aspose.Cells](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
 Aprenda a converter arquivos Excel para PDF usando Aspose.Cells para Java. Guia passo a passo com exemplos de código para conversão perfeita.
 ### [Como exportar Excel para PowerPoint com Aspose.Cells – guia passo a passo](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)

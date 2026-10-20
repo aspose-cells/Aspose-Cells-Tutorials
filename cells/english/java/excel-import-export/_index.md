@@ -96,6 +96,10 @@ Learn how to convert Excel files to Word documents using Aspose.Cells for Java i
 Learn how to generate an XLSX workbook from JSON data using Aspose.Cells for Java. Step-by-step guide with source code.
 ### [Set numeric export precision in Java: set significant digits](./set-numeric-export-precision-in-java-set-significant-digits/)
 Learn how to set numeric export precision and specify significant digits in Excel exports using Aspose.Cells for Java.
+
+### [How to save workbook as PDF with numeric precision in Java](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+Learn how to save a workbook as PDF while preserving numeric precision using Aspose.Cells for Java.
+
 ### [How to embed fonts in Excel to SVG conversion](./how-to-embed-fonts-in-excel-to-svg-conversion/)
 Learn how to embed fonts when converting Excel files to SVG using Aspose.Cells for Java. Step-by-step guide with source code.
 ### [Convert Excel File to HTML – Complete Guide with Font Embedding](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)

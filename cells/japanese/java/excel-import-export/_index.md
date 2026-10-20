@@ -93,6 +93,10 @@ Aspose.Cells を利用して、Markdown ファイルを Excel に変換する手
 Aspose.Cells for Java を使用して、JSON データから XLSX ワークブックを生成し、保存する方法を学びます。
 ### [Javaで数値エクスポートの精度を設定：有効数字の設定](./set-numeric-export-precision-in-java-set-significant-digits/)
 Aspose.Cells for Java を使用して、数値エクスポート時の有効数字を設定し、精度をコントロールする方法を学びます。
+
+### [Javaで数値精度を設定してワークブックをPDFとして保存する方法](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+Aspose.Cells for Java を使用し、数値の有効数字を設定した状態でワークブックを PDF に保存する手順を解説します。
+
 ### [Excel を Word に変換 – 完全 Java ガイド (2026)](./convert-excel-to-word-complete-java-guide-2026/)
 Aspose.Cells for Java を使用して、Excel ファイルを Word 文書に変換する方法を学びましょう。実用的なコード例でステップバイステップ解説します。
 ### [Excel を SVG に変換する際のフォント埋め込み方法](./how-to-embed-fonts-in-excel-to-svg-conversion/)

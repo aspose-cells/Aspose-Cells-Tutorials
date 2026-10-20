@@ -29,6 +29,9 @@
 ### [使用 Aspose.Cells Java 掌握 Excel 数组公式：简化计算和格式化](./aspose-cells-java-array-formulas-custom-calculations/)
 学习使用 Aspose.Cells for Java 设置数组公式、应用数字样式、自定义计算以及高效保存工作簿。
 
+### [Aspose.Cells 使用 EXPAND 函数设置公式 – 完整 Java 指南](./aspose-cells-set-formula-with-expand-function-complete-java/)
+学习如何在 Aspose.Cells for Java 中使用 EXPAND 函数设置公式，实现动态数组扩展和自动填充。
+
 ### [排序唯一值 Excel – 完整的 Java 指南设置数组公式](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 学习如何使用 Aspose.Cells for Java 设置数组公式，以对 Excel 中的唯一值进行排序。
 
@@ -92,6 +95,8 @@ Aspose.Words Java 代码教程
 学习如何在 Aspose.Cells for Java 中使用 SEQUENCE 函数创建动态序列并自动填充单元格。
 ### [如何在 Java 中使用 WRAPCOLS – 完整的 Excel WRAPCOLS 示例](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 学习在 Aspose.Cells for Java 中使用 WRAPCOLS 函数，实现列自动换行并提供完整示例。
+### [如何在 Java 中使用 WRAPCOLS 将列表转换为多列](./how-to-use-wrapcols-to-convert-a-list-into-multiple-columns/)
+学习在 Aspose.Cells for Java 中使用 WRAPCOLS 将列表拆分为多列，实现灵活的数据布局。
 ### [如何在 Excel 中计算余切 – 完整指南](./how-to-calculate-cotangent-in-excel-complete-guide/)
 学习如何在 Excel 中使用公式计算余切值，提供实现步骤和代码示例。
 ### [如何在 Java 中使用 Aspose – 创建带有新函数的 Excel 工作簿](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)

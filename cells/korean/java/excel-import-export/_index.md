@@ -129,6 +129,8 @@ Aspose.Cells for Java를 사용하여 제한된 유효숫자를 유지하면서 
 Aspose.Cells for Java를 활용해 Excel 파일을 PowerPoint 프레젠테이션으로 변환하는 과정을 단계별로 안내합니다.
 ### [Aspose.Cells를 사용하여 JSON을 Excel로 내보내기 (Java)](./export-json-to-excel-with-aspose-cells-in-java/)
 Aspose.Cells for Java를 사용해 JSON 데이터를 Excel 파일로 변환하는 방법을 단계별로 안내합니다.
+### [Java에서 숫자 정밀도로 워크북을 PDF로 저장하는 방법](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+Aspose.Cells for Java를 사용하여 숫자 정밀도를 유지하면서 워크북을 PDF로 저장하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

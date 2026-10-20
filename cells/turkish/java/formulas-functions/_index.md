@@ -88,11 +88,14 @@ Java ile Aspose.Cells kullanarak Excel hücrelerinden formül metninin nasıl ç
 Java Excel çalışma kitabında SEQUENCE işlevini nasıl kullanacağınızı adım adım öğrenin.
 
 ### [Java'da WRAPCOLS Nasıl Kullanılır – Tam Excel WRAPCOLS Örneği](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+
+### [Java'da wrapcols kullanarak bir listeyi birden çok sütuna dönüştürme](./how-to-use-wrapcols-to-convert-a-list-into-multiple-columns/)
+
 ### [Excel'de Kotanjantı Hesaplama – Tam Kılavuz](./how-to-calculate-cotangent-in-excel-complete-guide/)
-Excel'de kotanjant fonksiyonunu kullanarak trigonometrik hesaplamalar yapmayı öğrenin.
+
 ### [Excel'de Tekil Değerleri Sıralama – Dizi Formüllerini Ayarlamak için Tam Java Rehberi](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
-Java ve Aspose.Cells ile Excel'de benzersiz değerleri sıralamayı ve dizi formüllerini ayarlamayı adım adım öğrenin.
 ### [Aspose'i Java'da Kullanma – Yeni Fonksiyonlarla Excel Çalışma Kitabı Oluşturma](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+### [Aspose.Cells ile EXPAND işlevi kullanarak formül ayarlama – tam Java rehberi](./aspose-cells-set-formula-with-expand-function-complete-java/)
 
 ## Ek Kaynaklar
 

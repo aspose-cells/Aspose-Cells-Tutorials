@@ -105,21 +105,6 @@ Leer hoe u lettertypen uit Excel in SVG-bestanden insluit met Aspose.Cells voor 
 ### [Excel converteren naar PPTX: Complete Java-gids](./convert-excel-to-pptx-complete-java-guide/)
 Leer hoe u Excel-bestanden naar PowerPoint PPTX converteert met Aspose.Cells voor Java in deze volledige stap‑voor‑stap gids.
 
-### [Excel converteren naar PDF/A met Java – Complete stap‑voor‑stap gids](./convert-excel-to-pdf-a-with-java-complete-step-by-step-guide/)
-Leer hoe u Excel-bestanden naar PDF/A converteert met Aspose.Cells voor Java in deze volledige stap‑voor‑stap gids.
-
-### [Grafiek exporteren als afbeelding – Complete gids om Excel naar Word te converteren](./export-chart-as-image-complete-guide-to-convert-excel-to-wor/)
-Leer hoe u grafieken uit Excel exporteert als afbeeldingen en deze invoegt in Word met Aspose.Cells voor Java in deze volledige stap‑voor‑stap gids.
-
-### [Hoe Excel naar SVG exporteren – Stap‑voor‑stap Java-gids](./how-to-export-excel-to-svg-step-by-step-java-guide/)
-Leer hoe u Excel-werkbladen naar SVG-afbeeldingen exporteert met Aspose.Cells voor Java in deze stapsgewijze handleiding.
-
-### [Hoe lettertypen insluiten bij het converteren van Excel naar HTML – Complete gids](./how-to-embed-fonts-when-converting-excel-to-html-complete-gu/)
-Leer hoe u lettertypen insluit bij het converteren van Excel naar HTML met Aspose.Cells voor Java in deze volledige stap‑voor‑stap gids.
-
-### [FlatOPC‑bestand maken vanuit Excel‑werkmap – Stapsgewijze handleiding](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
-Leer hoe u een FlatOPC‑bestand maakt vanuit een Excel‑werkmap met Aspose.Cells voor Java in deze stapsgewijze handleiding.
-
 ### [Excel converteren naar PDF – Complete Java‑gids met Aspose.Cells](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
 Leer hoe u Excel-bestanden naar PDF converteert met Aspose.Cells voor Java in deze volledige stap‑voor‑stap gids.
 ### [JSON exporteren naar Excel met Java – Complete stapsgewijze handleiding](./export-json-to-excel-with-java-complete-step-by-step-guide/)
@@ -140,6 +125,8 @@ Leer hoe u Excel-gegevens exporteert naar TXT met een beperkt aantal significant
 Leer hoe u Excel-werkbladen naar PowerPoint presenteert met Aspose.Cells in een stapsgewijze handleiding.
 ### [JSON exporteren naar Excel met Aspose.Cells in Java](./export-json-to-excel-with-aspose-cells-in-java/)
 Leer hoe u JSON-gegevens naar Excel exporteert met Aspose.Cells voor Java in een stapsgewijze handleiding.
+### [Hoe een werkmap opslaan als PDF met numerieke precisie in Java](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+Leer hoe u een werkmap opslaat als PDF met nauwkeurige numerieke precisie met Aspose.Cells voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

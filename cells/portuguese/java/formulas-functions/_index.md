@@ -88,13 +88,20 @@ Aprenda a extrair texto de fórmula de células do Excel usando Aspose.Cells com
 
 ### [Como usar Reduce no Excel com Java – Guia de Fórmula Lambda](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
 Aprenda a usar a função Reduce no Excel com Java, implementando fórmulas lambda para cálculos avançados e otimização de planilhas.
+
 ### [Como usar SEQUENCE em uma pasta de trabalho Excel Java – Guia passo a passo](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
 Aprenda a aplicar a função SEQUENCE em planilhas Excel usando Aspose.Cells para Java, automatizando a geração de sequências numéricas.
+
 ### [Como usar WRAPCOLS em Java – Exemplo completo de WRAPCOLS no Excel](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 Aprenda a aplicar a função WRAPCOLS com Aspose.Cells para Java, incluindo exemplos completos de código para manipular planilhas do Excel.
+
+### [Como usar wrapcols para converter uma lista em várias colunas em Java](./how-to-use-wrapcols-to-convert-a-list-into-multiple-columns/)
+Aprenda a converter uma lista em múltiplas colunas usando wrapcols no Aspose.Cells para Java.
+
 ### [Como Calcular a Cotangente no Excel – Guia Completo](./how-to-calculate-cotangent-in-excel-complete-guide/)
-Aprenda a usar funções trigonométricas no Excel para calcular a cotangente, com exemplos de código e dicas de precisão.
 ### [Como usar Aspose em Java – criar pasta de trabalho Excel com novas funções](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+### [Aspose.Cells define fórmula com a função EXPAND – guia completo em Java](./aspose-cells-set-formula-with-expand-function-complete-java/)
+Aprenda a usar a função EXPAND no Aspose.Cells para Java, definindo fórmulas dinâmicas e expandindo intervalos automaticamente.
 
 ## Recursos adicionais
 

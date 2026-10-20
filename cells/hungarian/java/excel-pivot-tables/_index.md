@@ -78,6 +78,9 @@ Tanuld meg, hogyan másolhatsz egy tartományt úgy, hogy a pivot tábla formáz
 ### [Hogyan másoljuk a pivot táblákat Excelben Java‑val – lépésről‑lépésre útmutató](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
 Ismerd meg, hogyan másolhatod a pivot táblákat Excelben Java segítségével egy részletes, lépésről‑lépésre útmutatóval.
 
+### [Hogyan másoljon pivot táblát munkalapok között Java-ban](./how-to-copy-a-pivot-table-between-worksheets-in-java/)
+Tanuld meg, hogyan másolhatod át a pivot táblákat egyik munkalapról a másikra Java és Aspose.Cells segítségével.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

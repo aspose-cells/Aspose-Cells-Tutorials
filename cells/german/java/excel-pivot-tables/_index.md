@@ -70,6 +70,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java ein neues Arbeitsbuch erstellen
 Erfahren Sie, wie Sie mit Aspose.Cells ein Arbeitsblatt duplizieren und dabei Pivot-Tabellen unverändert erhalten.
 ### [Wie man einen Bereich kopiert und eine Pivot‑Tabelle in Java beibehält](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
 Erfahren Sie, wie Sie mit Aspose.Cells einen Zellbereich kopieren und dabei die Pivot‑Tabelle in Java erhalten.
+### [Wie man eine Pivot-Tabelle zwischen Arbeitsblättern in Java kopiert](./how-to-copy-a-pivot-table-between-worksheets-in-java/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Pivot-Tabellen zwischen Arbeitsblättern kopieren und nahtlos einbinden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -87,6 +87,8 @@ Dowiedz się, jak konwertować pliki Excel do HTML z osadzaniem czcionek przy u�
 Dowiedz się, jak zapisać skoroszyt jako plik XLSX, generując go bezpośrednio z danych JSON przy użyciu Aspose.Cells for Java.
 ### [Ustaw precyzję eksportu liczb w Javie: ustaw znaczące cyfry](./set-numeric-export-precision-in-java-set-significant-digits/)
 Dowiedz się, jak ustawić precyzję eksportu liczb i określić liczbę znaczących cyfr przy użyciu Aspose.Cells for Java.
+### [Jak zapisać skoroszyt jako PDF z precyzją numeryczną w Javie](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+Dowiedz się, jak zapisać skoroszyt Excel jako PDF z określoną precyzją liczb w Javie.
 ### [Eksport XLSX jako CSV – Kompletny przewodnik Java](./export-xlsx-as-csv-complete-java-guide/)
 Dowiedz się, jak w pełni konwertować pliki XLSX do formatu CSV w Javie przy użyciu Aspose.Cells, krok po kroku z przykładowym kodem.
 ### [Konwertowanie Excela do Worda – Kompletny przewodnik Java (2026)](./convert-excel-to-word-complete-java-guide-2026/)

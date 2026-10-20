@@ -98,6 +98,9 @@
 ### [在 Java 中设置数值导出精度：设置有效数字](./set-numeric-export-precision-in-java-set-significant-digits/)
 学习如何使用 Aspose.Cells for Java 设置数值导出时的有效数字，以控制导出精度。
 
+### [在 Java 中将工作簿保存为 PDF 并设置数值精度](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+学习如何使用 Aspose.Cells for Java 将工作簿导出为 PDF，同时设置数值的有效数字，实现精确的文档输出。
+
 ### [将 XLSX 导出为 CSV – 完整 Java 指南](./export-xlsx-as-csv-complete-java-guide/)
 学习如何使用 Aspose.Cells for Java 将 XLSX 文件导出为 CSV，提供完整的代码示例和分步指南。
 

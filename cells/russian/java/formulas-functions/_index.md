@@ -89,11 +89,16 @@
 Узнайте, как применять функцию SEQUENCE в Excel с помощью Aspose.Cells для Java, включая примеры кода.
 ### [Как использовать WRAPCOLS в Java – Полный пример Excel WRAPCOLS](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 Узнайте, как применять функцию WRAPCOLS в Aspose.Cells для Java, чтобы разбивать текст по столбцам в Excel с полным примером кода.
+### [Как использовать wrapcols для преобразования списка в несколько столбцов в Java](./how-to-use-wrapcols-to-convert-a-list-into-multiple-columns/)
+Узнайте, как с помощью функции WRAPCOLS в Aspose.Cells для Java преобразовать список в несколько столбцов в Excel.
 ### [Как вычислить котангенс в Excel – Полное руководство](./how-to-calculate-cotangent-in-excel-complete-guide/)
 Узнайте, как использовать функции Excel для расчета котангенса, включая примеры кода и рекомендации по точности.
 ### [Сортировка уникальных значений в Excel – Полное руководство Java по установке формул массива](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 Узнайте, как сортировать уникальные значения и применять формулы массива в Excel с помощью Aspose.Cells для Java.
 ### [Как использовать Aspose в Java – создать книгу Excel с новыми функциями](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+
+### [Aspose.Cells: установка формулы с функцией EXPAND – полное руководство Java](./aspose-cells-set-formula-with-expand-function-complete-java/)
+Узнайте, как использовать функцию EXPAND в формулах Aspose.Cells для Java, чтобы динамически расширять диапазоны данных.
 
 ## Дополнительные ресурсы
 

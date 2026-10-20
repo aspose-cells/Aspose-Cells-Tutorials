@@ -70,6 +70,8 @@ Aprenda a duplicar una tabla dinámica en Java con Aspose.Cells, conservando su 
 Aprenda a copiar rangos manteniendo la tabla dinámica intacta con Aspose.Cells para Java.
 ### [Cómo duplicar tablas dinámicas en Excel con Java – guía paso a paso](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
 Aprenda a duplicar tablas dinámicas en Excel usando Java, con instrucciones detalladas y ejemplos de código.
+### [Cómo copiar una tabla dinámica entre hojas de cálculo en Java](./how-to-copy-a-pivot-table-between-worksheets-in-java/)
+Aprenda a copiar una tabla dinámica entre hojas de cálculo en Java usando Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

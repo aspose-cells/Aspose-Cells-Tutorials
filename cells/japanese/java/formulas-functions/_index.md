@@ -56,6 +56,9 @@ Aspose.Cells for Java でスマート マーカーと数式を実装し、強力
 ### [Aspose.Cells for Java で数式を伝播して Excel の数式を自動化する](./automate-excel-formulas-aspose-cells-java/)
 Aspose.Cells for Java を使用して Excel の数式を自動化および伝播し、データ管理の効率を高める方法を学習します。
 
+### [Aspose.Cells Java で EXPAND 関数を使用して数式を設定する – 完全ガイド](./aspose-cells-set-formula-with-expand-function-complete-java/)
+Aspose.Cells for Java を使用して、EXPAND 関数で数式を設定し、動的にデータを展開する方法を学びます。
+
 ### [Aspose.Cells Java のカスタム計算: SUM 機能の強化](./custom-calculation-engine-aspose-cells-java-enhanced-sum/)
 Aspose.Words Javaのコードチュートリアル
 
@@ -85,12 +88,18 @@ Aspose.CellsとJavaを使ってExcelのセルから数式テキストを抽出�
 
 ### [JavaでExcelのReduceを使用する方法 – ラムダ式ガイド](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
 JavaとAspose.CellsでReduce関数をラムダ式として実装し、データ集計を効率化する手順を学びます。
+
 ### [Java Excel ワークブックで SEQUENCE を使用する方法 – ステップバイステップ ガイド](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
 Aspose.Cells for Java を使用して、Excel ワークブックで SEQUENCE 関数を適用し、連続データを自動生成する方法を学びます。
+
 ### [JavaでWRAPCOLSを使用する方法 – 完全なExcel WRAPCOLS例](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 Aspose.Cells for Java を使用して WRAPCOLS 関数を適用し、Excel シートの列幅を自動調整する手順を詳しく解説します。
+
+### [JavaでWRAPCOLSを使用してリストを複数列に変換する方法](./how-to-use-wrapcols-to-convert-a-list-into-multiple-columns/)
+
 ### [Excelで余接関数を計算する方法 – 完全ガイド](./how-to-calculate-cotangent-in-excel-complete-guide/)
 Excelでcotangent関数を使用し、余接の計算方法と実装例をステップバイステップで解説します。
+
 ### [Excelでユニーク値を並べ替える：配列数式設定の完全Javaガイド](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 Aspose.Cells for Java を使用して、配列数式でユニークな値をソートし、Excel シートに適用する方法を学びます。
 ### [Java で Aspose を使用する方法 – 新しい関数で Excel ワークブックを作成](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)

@@ -51,7 +51,7 @@ Dowiedz się, jak efektywnie zarządzać współdzielonymi formułami w skoroszy
 Dowiedz się, jak wdrażać inteligentne znaczniki i formuły w Aspose.Cells for Java, rozszerzając automatyzację programu Excel o zaawansowane funkcje arkusza kalkulacyjnego.
 
 ### [Sumowanie wartości z nazwanymi zakresami w Aspose.Cells Java: kompletny przewodnik](./aspose-cells-java-sum-named-ranges-functions/)
-Dowiedz się, jak zautomatyzować obliczenia sum w wielu arkuszach Excela, używając nazwanych zakresów i Aspose.Cells dla Java. Opanuj wydajne przepływy pracy przetwarzania danych.
+Dowiedz się, jak zautomatyzować obliczenia sum w wielu arkuszach Excela, używając nazwonych zakresów i Aspose.Cells dla Java. Opanuj wydajne przepływy pracy przetwarzania danych.
 
 ### [Automatyzacja formuł programu Excel za pomocą propagacji formuł w Aspose.Cells dla języka Java](./automate-excel-formulas-aspose-cells-java/)
 Dowiedz się, jak automatyzować i propagować formuły w programie Excel przy użyciu Aspose.Cells for Java, zwiększając efektywność zarządzania danymi.
@@ -89,12 +89,19 @@ Dowiedz się, jak zastosować funkcję Reduce w Excelu przy użyciu Aspose.Cells
 Poznaj, jak w Aspose.Cells dla Java zastosować funkcję SEQUENCE do dynamicznego generowania danych w arkuszu Excel, krok po kroku.
 ### [Jak używać WRAPCOLS w Javie – Kompletny przykład WRAPCOLS w Excelu](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 Poznaj, jak zastosować funkcję WRAPCOLS w Aspose.Cells for Java, aby automatycznie dzielić tekst w komórkach i generować dynamiczne arkusze Excela.
+
+### [Jak używać WRAPCOLS w Javie – konwertowanie listy na wiele kolumn](./how-to-use-wrapcols-to-convert-a-list-into-multiple-columns/)
+Poznaj, jak przy pomocy WRAPCOLS w Aspose.Cells for Java przekształcić listę w wiele kolumn w arkuszu Excel.
+
 ### [Jak obliczyć cotangens w Excelu – kompletny przewodnik](./how-to-calculate-cotangent-in-excel-complete-guide/)
 Dowiedz się, jak obliczyć cotangens w Excelu, korzystając z funkcji i formuł, krok po kroku, z przykładami kodu Java.
 ### [Sortowanie unikalnych wartości w Excelu – Kompletny przewodnik Java do ustawiania formuł tablicowych](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 Dowiedz się, jak sortować unikalne wartości i ustawiać formuły tablicowe w Excelu przy użyciu Aspose.Cells dla Java.
 ### [Jak używać Aspose w Javie – tworzenie skoroszytu Excel z nowymi funkcjami](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
 Dowiedz się, jak używać Aspose w Javie do tworzenia skoroszytu Excel z nowymi funkcjami.
+
+### [Aspose.Cells ustaw formułę z funkcją EXPAND – kompletny przewodnik Java](./aspose-cells-set-formula-with-expand-function-complete-java/)
+Dowiedz się, jak używać funkcji EXPAND w Aspose.Cells dla Java, aby dynamicznie rozszerzać zakresy w formułach.
 
 ## Dodatkowe zasoby
 
