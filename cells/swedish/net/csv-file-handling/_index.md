@@ -69,6 +69,8 @@ Lär dig hur du sparar en Excel-arbetsbok som CSV med exakt kontroll över antal
 Lär dig hur du sparar en arbetsbok som CSV med exakt formatering med Aspose.Cells för .NET.
 ### [Spara arbetsbok som CSV i C# – Komplett programmeringsguide](./save-workbook-as-csv-in-c-complete-programming-guide/)
 Lär dig hur du sparar en arbetsbok som CSV i C# med Aspose.Cells för .NET. En komplett guide för utvecklare.
+### [Spara arbetsbok som CSV med anpassad formatering i C#](./how-to-save-workbook-as-csv-with-custom-formatting-in-c/)
+Lär dig hur du sparar en arbetsbok som CSV med anpassad formatering i C# med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

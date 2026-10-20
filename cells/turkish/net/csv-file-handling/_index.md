@@ -70,6 +70,8 @@ Aspose.Cells for .NET kullanarak bir çalışma kitabını CSV olarak kaydetmeyi
 Aspose.Cells kullanarak çalışma kitabını istenilen biçimlendirme ayarlarıyla CSV dosyasına kaydetmeyi öğrenin.
 ### [C# ile Çalışma Kitabını CSV Olarak Kaydet – Tam Programlama Rehberi](./save-workbook-as-csv-in-c-complete-programming-guide/)
 Aspose.Cells for .NET kullanarak C# ile bir çalışma kitabını CSV formatına nasıl kaydedeceğinizi adım adım öğrenin.
+### [C#'ta Çalışma Kitabını Özel Biçimlendirme ile CSV Olarak Kaydetme](./how-to-save-workbook-as-csv-with-custom-formatting-in-c/)
+Aspose.Cells for .NET ile C#’ta çalışma kitabını özel biçimlendirme ayarlarıyla CSV olarak kaydetmeyi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

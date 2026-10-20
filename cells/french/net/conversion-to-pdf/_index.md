@@ -52,7 +52,7 @@ Apprenez à enregistrer un classeur Excel en PDF avec Aspose.Cells grâce à ce 
 ### [Comment intégrer des polices dans le PDF – Enregistrer le classeur en PDF en C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 Apprenez à incorporer les polices dans un PDF lors de l’enregistrement d’un classeur en C# avec Aspose.Cells.
 ### [Comment intégrer des polices dans un PDF avec C# – Guide complet](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
-Apprenez à intégrer des polices dans vos PDF avec C# pour garantir un rendu correct sur tous les appareils.
+Apprenez à intégrer les polices dans vos PDF avec C# pour garantir un rendu correct sur tous les appareils.
 ### [Comment insérer Unicode dans Excel et enregistrer en PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
 Apprenez à insérer des caractères Unicode dans vos feuilles Excel et à les convertir en PDF avec Aspose.Cells pour .NET.
 ### [Comment arrondir les nombres lors de la conversion d'Excel en PDF – Guide complet C#](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
@@ -69,6 +69,8 @@ Apprenez à enregistrer votre classeur Excel en PDF avec Aspose.Cells, étape pa
 Apprenez à enregistrer des fichiers XLSX en PDF conforme PDF/A‑1b en C# avec Aspose.Cells, étape par étape.
 ### [Convertir Excel en PDF en C# – guide complet de programmation](./convert-excel-to-pdf-in-c-complete-programming-guide/)
 Suivez ce guide complet pour convertir des fichiers Excel en PDF avec C# et Aspose.Cells, étape par étape.
+### [Comment enregistrer un PDF à partir d'un classeur Excel avec Aspose.Cells](./how-to-save-pdf-from-an-excel-workbook-with-aspose-cells/)
+Apprenez à enregistrer un classeur Excel au format PDF avec Aspose.Cells grâce à ce guide complet étape par étape.
 ### [Comment enregistrer un PDF avec des sélecteurs de variation de police – guide complet](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
 Apprenez à enregistrer des PDF en conservant les sélecteurs de variation de police grâce à ce guide complet avec Aspose.PDF.
 

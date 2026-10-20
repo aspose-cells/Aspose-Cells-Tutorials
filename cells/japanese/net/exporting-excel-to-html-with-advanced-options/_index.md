@@ -126,6 +126,9 @@ Aspose.Cells for .NET を使用して、Excel を書式を保持したまま HTM
 ### [Excel を HTML にエクスポートする – フリーズペインを保持する完全ガイド](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
 Aspose.Cells for .NET を使用して、Excel のフリーズペインを保持しながら HTML にエクスポートする方法を詳しく解説したステップバイステップ ガイドです。
 
+### [wrapcols とフォントを埋め込んで Excel を HTML に保存する方法](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+Aspose.Cells for .NET で wrapcols を使用し、フォントを埋め込んで Excel を HTML にエクスポートする手順を解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

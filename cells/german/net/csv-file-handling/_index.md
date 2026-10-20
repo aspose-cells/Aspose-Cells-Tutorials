@@ -65,6 +65,8 @@ Erfahren Sie, wie Sie CSV-Dateien aus Excel mithilfe von C# und Aspose.Cells exp
 Erfahren Sie, wie Sie Arbeitsmappen mit Aspose.Cells präzise als CSV exportieren und die Anzahl der Nachkommastellen steuern.
 ### [Arbeitsmappe als CSV mit präzisem Format speichern mit Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
 Erfahren Sie, wie Sie eine Arbeitsmappe mit Aspose.Cells als CSV speichern und dabei das genaue Zahlen- und Datumsformat beibehalten.
+### [Arbeitsmappe als CSV mit benutzerdefiniertem Format in C# speichern](./how-to-save-workbook-as-csv-with-custom-formatting-in-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Arbeitsmappen als CSV speichern und dabei benutzerdefinierte Formatierungen anwenden.
 ### [Arbeitsmappe als CSV in C# speichern – Vollständiger Programmierleitfaden](./save-workbook-as-csv-in-c-complete-programming-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Arbeitsmappen vollständig als CSV-Dateien speichern – Schritt für Schritt Anleitung.
 

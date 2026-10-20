@@ -23,6 +23,8 @@ Aspose.Cells for .NET을 사용하면 계산된 필드 추가, 데이터 집계 
 
 {{< tutorial-card link="./how-to-copy-pivot-table-in-c-complete-programming-guide/" title="C#에서 피벗 테이블 복사하는 방법 – 완전 프로그래밍 가이드" imgSrc="./how-to-copy-pivot-table-in-c-complete-programming-guide/images/thumb.png" >}}
 
+{{< tutorial-card link="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/" title="피벗 테이블을 새 워크북으로 복사하고, 도형을 PowerPoint로 내보내기" imgSrc="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

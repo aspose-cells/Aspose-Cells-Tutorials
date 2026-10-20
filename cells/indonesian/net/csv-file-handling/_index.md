@@ -67,6 +67,8 @@ Pelajari cara mengekspor data Excel ke file CSV menggunakan C# dengan panduan le
 Pelajari cara menyimpan workbook Excel sebagai file CSV dengan kontrol digit, memastikan data numerik tetap akurat saat diekspor.
 ### [Cara menyimpan workbook sebagai CSV dengan format presisi menggunakan Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
 Pelajari cara menyimpan workbook ke format CSV dengan pemformatan yang tepat menggunakan Aspose.Cells untuk .NET.
+### [Cara menyimpan workbook sebagai CSV dengan format khusus di C#](./how-to-save-workbook-as-csv-with-custom-formatting-in-c/)
+Pelajari cara menyimpan workbook sebagai file CSV dengan format khusus menggunakan Aspose.Cells untuk .NET di C#.
 ### [Simpan Workbook sebagai CSV di C# – Panduan Pemrograman Lengkap](./save-workbook-as-csv-in-c-complete-programming-guide/)
 Panduan lengkap untuk menyimpan workbook sebagai file CSV menggunakan C# dengan Aspose.Cells, mencakup contoh kode dan tip praktis.
 

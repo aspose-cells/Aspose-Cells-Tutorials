@@ -67,6 +67,8 @@ Dowiedz się, jak przy użyciu Aspose.Cells dla .NET wyeksportować dane z Excel
 Dowiedz się, jak zapisać skoroszyt jako plik CSV, kontrolując liczbę cyfr po przecinku i zachowując formatowanie danych.
 ### [Jak zapisać skoroszyt jako CSV z precyzyjnym formatowaniem przy użyciu Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
 Dowiedz się, jak zapisać skoroszyt jako plik CSV zachowując dokładne formatowanie danych przy użyciu Aspose.Cells.
+### [Jak zapisać skoroszyt jako CSV z własnym formatowaniem w C#](./how-to-save-workbook-as-csv-with-custom-formatting-in-c/)
+Dowiedz się, jak w C# zapisać skoroszyt jako CSV, zachowując własne formatowanie danych, krok po kroku.
 ### [Zapisz skoroszyt jako CSV w C# – Kompletny przewodnik programistyczny](./save-workbook-as-csv-in-c-complete-programming-guide/)
 Dowiedz się, jak zapisać skoroszyt jako plik CSV w C# przy użyciu Aspose.Cells dla .NET – kompletny przewodnik programistyczny.
 

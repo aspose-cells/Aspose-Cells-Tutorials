@@ -128,6 +128,9 @@ Aspose.Cells for .NET을 활용해 C#로 Excel을 HTML로 변환하는 전체 �
 ### [Excel을 HTML로 저장 – 서식 포함 전체 가이드](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
 ### [Excel을 HTML로 내보내기 – 고정 창 보존을 위한 완전 가이드](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
 
+### [Excel을 HTML로 저장할 때 wrapcols 사용 및 글꼴 포함 방법](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+Aspose.Cells for .NET을 사용하여 wrapcols를 적용하고 글꼴을 포함하여 Excel을 HTML로 저장하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

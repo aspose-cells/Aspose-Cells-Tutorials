@@ -144,6 +144,9 @@ Aprenda a guardar Excel como HTML con formato completo usando Aspose.Cells para 
 ### [Exportar Excel a HTML – Guía completa para preservar paneles congelados](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
 Aprenda a exportar Excel a HTML conservando paneles congelados usando Aspose.Cells para .NET en esta guía paso a paso.
 
+### [Cómo usar wrapcols e incrustar fuentes al guardar Excel a HTML](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+Aprenda a usar la opción wrapcols e incrustar fuentes al exportar Excel a HTML con Aspose.Cells para .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
