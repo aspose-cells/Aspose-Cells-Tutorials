@@ -45,6 +45,7 @@ Aspose.Cells for .NET oferuje potężną funkcjonalność do manipulowania plika
 | [Utwórz nowy skoroszyt – Jak skopiować arkusz z tabelą przestawną](./create-new-workbook-how-to-copy-a-worksheet-with-a-pivot-tab/) | Dowiedz się, jak utworzyć nowy skoroszyt i skopiować arkusz zawierający tabelę przestawną przy użyciu Aspose.Cells dla .NET. |
 | [Jak skopiować arkusz kalkulacyjny w C# przy użyciu Aspose.Cells – Kompletny przewodnik](./how-to-copy-worksheet-in-c-with-aspose-cells-complete-guide/) | Kompletny przewodnik pokazujący, jak skopiować arkusz w C# przy użyciu Aspose.Cells, z przykładami kodu i wskazówkami. |  
 | [Kopiowanie skoroszytu w C# – Eksport tabeli do innego arkusza](./copy-workbook-in-c-export-table-to-another-worksheet/) | Dowiedz się, jak skopiować cały skoroszyt i wyeksportować tabelę do innego arkusza przy użyciu Aspose.Cells w C#. |  
+| [Utwórz zduplikowane arkusze szczegółowe w Excelu przy użyciu C#](./create-duplicated-detail-sheets-in-excel-using-c/) | Dowiedz się, jak w C# utworzyć zduplikowane arkusze szczegółowe w Excelu przy użyciu Aspose.Cells. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -74,6 +74,8 @@
 了解如何使用 Aspose.Cells for .NET 刪除 Excel 中的資料列，同時保留標題列不被刪除的步驟。
 ### [使用 C# 刪除 Excel 行 – 保護表格標題](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
 了解如何在保留表格標題的情況下，使用 Aspose.Cells for .NET 刪除 Excel 工作表中的多行。
+### [如何使用 Aspose.Cells 刪除 Excel 表格中的行，同時保留標題列](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
+了解如何在保留標題列的情況下，使用 Aspose.Cells for .NET 刪除 Excel 表格中的資料行。
 ### [在 Aspose.Cells .NET 中插入列](./insert-column-aspose-cells/)
 了解如何使用 Aspose.Cells for .NET 在 Excel 中插入列。按照我們簡單的分步指南無縫添加新列。非常適合 .NET 開發人員。
 ### [在 Aspose.Cells .NET 中插入一行](./insert-row-aspose-cells/)

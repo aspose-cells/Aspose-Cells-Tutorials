@@ -42,6 +42,8 @@ Lär dig hur du skapar en Excel-arbetsbok, lägger till tabeller och definierar 
 Lär dig hur du sparar en Excel-arbetsbok och skapar ett namngivet område med Aspose.Cells för .NET i en komplett C#‑guide.
 ### [Skapa Excel-arbetsbok i C# – Lägg till namngivet område och ange tabellnamn](./create-excel-workbook-in-c-add-named-range-set-table-name/)
 Lär dig hur du skapar en Excel-arbetsbok i C#, lägger till ett namngivet område och sätter ett tabellnamn med Aspose.Cells för .NET.
+### [Tilldela namn till Excel-tabell och undvik namnkonflikter](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
+Lär dig hur du tilldelar namn till en Excel-tabell och hanterar namnkonflikter med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

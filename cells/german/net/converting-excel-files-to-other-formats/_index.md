@@ -61,6 +61,9 @@ Erfahren Sie, wie Sie Excel‑Dateien mit Aspose.Cells für .NET programmgesteue
 
 ### [Programmgesteuertes Umwickeln von Zellen und Konvertieren von Excel nach PowerPoint in C#](./how-to-wrap-cells-and-convert-excel-to-powerpoint-in-c/)
 Erfahren Sie, wie Sie Zellen umwickeln und Excel-Arbeitsblätter programmgesteuert in PowerPoint-Präsentationen konvertieren.
+### [Wie man Excel als PPT mit editierbaren Textfeldern in C# speichert](./how-to-save-excel-as-ppt-with-editable-text-boxes-in-c/)
+Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für .NET als PPT speichern und editierbare Textfelder hinzufügen.
+
 ### [Excel nach PowerPoint exportieren – Vollständiger C#‑Leitfaden](./export-excel-to-powerpoint-complete-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells Excel-Arbeitsmappen programmgesteuert in PowerPoint-Präsentationen konvertieren – Schritt für Schritt in C#.
 ### [Druckbereich in Excel festlegen und nach PowerPoint exportieren – Schritt‑für‑Schritt‑Anleitung](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
@@ -105,6 +108,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel‑Daten programmgesteuert
 ### [PowerPoint aus Excel erstellen – Schnellleitfaden für C#](./create-powerpoint-from-excel-quick-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel‑Daten programmgesteuert in PowerPoint‑Präsentationen konvertieren – schneller C#‑Leitfaden.
 ### [PowerPoint aus Excel erstellen – Komplettes C#‑Tutorial](./create-powerpoint-from-excel-complete-c-tutorial/)
+### [PowerPoint aus Excel erstellen – Schritt‑für‑Schritt C#‑Leitfaden](./create-powerpoint-from-excel-step-by-step-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Daten programmgesteuert in PowerPoint-Präsentationen konvertieren – Schritt‑für‑Schritt‑Anleitung.
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel‑Daten programmgesteuert in PowerPoint‑Präsentationen konvertieren – Schritt‑für‑Schritt‑Anleitung.
 ### [PowerPoint aus Excel erstellen – Schritt‑für‑Schritt‑Anleitung](./create-powerpoint-from-excel-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel‑Daten programmgesteuert in eine PowerPoint‑Präsentation konvertieren.

@@ -79,6 +79,8 @@
 เรียนรู้วิธีใช้ Aspose.Cells สำหรับ .NET จัดรูปแบบคอลัมน์ใน Excel จาก DataTable ด้วย C# อย่างง่าย
 ### [สร้างสไตล์เซลล์ใน C# – วิธีใช้สไตล์กับเซลล์และจัดข้อความให้อยู่กึ่งกลาง](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
 เรียนรู้วิธีสร้างสไตล์เซลล์ใน Aspose.Cells สำหรับ .NET ด้วย C# และจัดข้อความให้อยู่กึ่งกลางในบทช่วยสอนทีละขั้นตอนนี้
+### [วิธีสร้าง Excel workbook ด้วย C# พร้อมการจัดรูปแบบแบบกำหนดเองและบันทึกเป็น XLSX](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
+เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# พร้อมการจัดรูปแบบแบบกำหนดเองและบันทึกเป็น XLSX ด้วย Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

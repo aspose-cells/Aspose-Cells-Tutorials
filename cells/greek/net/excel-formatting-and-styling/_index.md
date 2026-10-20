@@ -79,6 +79,9 @@
 Μάθετε πώς να δημιουργήσετε στυλ κελιού με Aspose.Cells για .NET, να το εφαρμόσετε σε ένα κελί και να κεντράρετε το κείμενο.
 ### [Μορφοποίηση στηλών στο Excel με C# – Εισαγωγή DataTable](./how-to-style-columns-in-excel-with-c-import-datatable/)
 
+### [Πώς να δημιουργήσετε βιβλίο εργασίας Excel C# με προσαρμοσμένη μορφοποίηση και αποθήκευση ως XLSX](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel με C# χρησιμοποιώντας προσαρμοσμένη μορφοποίηση και να το αποθηκεύσετε ως αρχείο XLSX.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

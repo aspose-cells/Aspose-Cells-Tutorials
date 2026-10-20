@@ -67,6 +67,8 @@ Erfahren Sie, wie Sie mit C# Excel-Metadaten hinzufügen und verwalten – ein u
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET benutzerdefinierte Eigenschaften in Excel erstellen und verwalten – Schritt für Schritt.
 ### [Speichern von XLSB und Hinzufügen benutzerdefinierter Dokumenteigenschaften in C#](./how-to-save-xlsb-and-add-custom-document-properties-in-c/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET XLSB-Dateien speichern und benutzerdefinierte Dokumenteigenschaften hinzufügen.
+### [Wie man Excel‑Benutzerdefinierte Eigenschaften in C# verwaltet – eine Schritt‑für‑Schritt‑Anleitung](./how-to-manage-excel-custom-properties-in-c-a-step-by-step-tu/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET benutzerdefinierte Eigenschaften in Excel in C# verwalten – Schritt für Schritt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -78,6 +78,8 @@
 使用 Aspose.Cells for .NET 在 C# 中建立儲存格樣式，並將文字置中，輕鬆美化您的 Excel 表格。
 ### [使用 Aspose.Cells 套用儲存格樣式 – 匯入 DataTable 並保留格式](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
 透過 Aspose.Cells for .NET 匯入 DataTable 時，同時套用儲存格樣式與格式設定，保持資料外觀一致。
+### [如何使用 C# 建立 Excel 工作簿並套用自訂格式，儲存為 XLSX](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
+使用 Aspose.Cells for .NET 在 C# 中建立 Excel 工作簿，套用自訂格式並儲存為 XLSX。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

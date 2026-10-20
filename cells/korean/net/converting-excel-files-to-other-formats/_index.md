@@ -139,6 +139,11 @@ Aspose.Cells for .NET을 사용해 Excel 데이터를 PowerPoint 프레젠테이
 ### [Excel을 PowerPoint로 내보내는 방법 – 완전 가이드](./how-to-export-excel-to-powerpoint-complete-guide/)
 Aspose.Cells for .NET을 사용하여 Excel 데이터를 PowerPoint 프레젠테이션으로 변환하는 전체 단계별 가이드입니다.
 
+Aspose.Cells for .NET을 사용하여 Excel 파일을 PowerPoint 프레젠테이션으로 변환하는 방법을 단계별로 안내합니다.
+
+### [C#에서 편집 가능한 텍스트 상자를 포함한 PPT로 Excel 저장하는 방법](./how-to-save-excel-as-ppt-with-editable-text-boxes-in-c/)
+Aspose.Cells for .NET을 사용하여 Excel 파일을 편집 가능한 텍스트 상자가 포함된 PPT 파일로 저장하는 단계별 가이드입니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

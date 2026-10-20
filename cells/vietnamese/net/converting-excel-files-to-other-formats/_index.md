@@ -131,11 +131,7 @@ Hướng dẫn chi tiết cách tạo tệp PowerPoint từ dữ liệu Excel b�
 ### [Cách xuất Excel sang PowerPoint – Hướng dẫn từng bước](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
 Hướng dẫn chi tiết cách xuất dữ liệu Excel sang PowerPoint bằng Aspose.Cells cho .NET trong các bước dễ thực hiện.
 
-### [Tạo PowerPoint từ Excel – Hướng dẫn từng bước](./create-powerpoint-from-excel-step-by-step-guide/)
-Tìm hiểu cách tạo PowerPoint từ Excel bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết từng bước.
-### [Chuyển đổi Excel sang PowerPoint – Hướng dẫn từng bước C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
-Tìm hiểu cách chuyển đổi tệp Excel sang PowerPoint bằng C# với Aspose.Cells cho .NET trong hướng dẫn chi tiết từng bước.
-### [Lưu Excel dưới dạng Văn bản – Hướng dẫn C# đầy đủ để xuất Excel sang TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
+### [Cách lưu Excel dưới dạng Văn bản – Hướng dẫn C# đầy đủ để xuất Excel sang TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
 Tìm hiểu cách lưu tệp Excel dưới dạng văn bản (TXT) bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết từng bước.
 
 ### [Lưu Excel dưới dạng văn bản – Hướng dẫn từng bước với Aspose.Cells](./how-to-save-excel-as-text-with-aspose-cells-step-by-step-gui/)
@@ -151,6 +147,8 @@ Tìm hiểu cách lưu Excel thành tệp txt và xuất các số với chữ s
 Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang định dạng PNG bằng C# và Aspose.Cells cho .NET.
 ### [Cách tạo PowerPoint từ Excel bằng Aspose.Cells](./how-to-create-powerpoint-from-excel-using-aspose-cells/)
 Hướng dẫn chi tiết cách tạo tệp PowerPoint từ dữ liệu Excel bằng Aspose.Cells cho .NET.
+### [Cách lưu Excel thành PPT với các hộp văn bản có thể chỉnh sửa trong C#](./how-to-save-excel-as-ppt-with-editable-text-boxes-in-c/)
+Hướng dẫn chi tiết cách lưu tệp Excel thành bản trình chiếu PowerPoint với các hộp văn bản có thể chỉnh sửa bằng C# và Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

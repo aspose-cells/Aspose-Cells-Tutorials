@@ -45,6 +45,7 @@ Az Aspose.Cells for .NET hatékony funkciókat kínál az Excel-fájlok kezelés
 | [Új munkafüzet létrehozása – Munkalap másolása pivot táblával](./create-new-workbook-how-to-copy-a-worksheet-with-a-pivot-tab/) | Ismerje meg, hogyan hozhat létre új munkafüzetet, és másolhat munkalapot pivot táblával az Aspose.Cells for .NET használatával. |  
 | [Hogyan másoljon munkalapot C#-ban az Aspose.Cells segítségével – Teljes útmutató](./how-to-copy-worksheet-in-c-with-aspose-cells-complete-guide/) | Tanulja meg, hogyan másolhat munkalapot C#-ban az Aspose.Cells használatával ebben a részletes útmutatóban. |  
 | [Munkafüzet másolása C#-ban – Táblázat exportálása egy másik munkalapra](./copy-workbook-in-c-export-table-to-another-worksheet/) | Tanulja meg, hogyan másolhat egy munkafüzetet C#-ban, és exportálhat táblázatot egy másik munkalapra az Aspose.Cells for .NET segítségével. |  
+| [Részletes munkalapok duplikálása Excelben C#-val](./create-duplicated-detail-sheets-in-excel-using-c/) | Tanulja meg, hogyan hozhat létre duplikált részletes munkalapokat Excelben C#-ban az Aspose.Cells segítségével. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -78,6 +78,8 @@ Transforma la dirección del texto en Excel con Aspose.Cells para .NET. Sigue nu
 Aprenda a ajustar texto largo en celdas de Excel con Aspose.Cells para .NET con esta guía fácil de seguir. Transforme sus hojas de cálculo sin esfuerzo.
 ### [Aplicar estilos de celda con Aspose.Cells – Importar DataTable con formato](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
 Aprenda a aplicar estilos a celdas al importar un DataTable con formato usando Aspose.Cells para .NET.
+### [Cómo crear un libro de Excel en C# con formato personalizado y guardarlo como XLSX](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
+Aprenda a crear un libro de Excel en C# con formato personalizado y guardarlo en formato XLSX usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

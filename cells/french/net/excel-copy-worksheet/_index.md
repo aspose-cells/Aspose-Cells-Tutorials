@@ -45,6 +45,7 @@ Aspose.Cells pour .NET offre de puissantes fonctionnalités pour manipuler des f
 | [Créer un nouveau classeur – Comment copier une feuille avec un tableau croisé dynamique](./create-new-workbook-how-to-copy-a-worksheet-with-a-pivot-tab/) | Apprenez à copier une feuille contenant un tableau croisé dynamique dans un nouveau classeur avec Aspose.Cells pour .NET. |  
 | [Comment copier une feuille de calcul en C# avec Aspose.Cells – Guide complet](./how-to-copy-worksheet-in-c-with-aspose-cells-complete-guide/) | Apprenez à copier une feuille de calcul en C# avec Aspose.Cells grâce à ce guide complet étape par étape. |  
 | [Copier un classeur en C# – Exporter un tableau vers une autre feuille de calcul](./copy-workbook-in-c-export-table-to-another-worksheet/) | Apprenez à copier un classeur et à exporter une table vers une autre feuille avec Aspose.Cells pour .NET en C#. |
+| [Créer des feuilles de détail dupliquées dans Excel avec C#](./create-duplicated-detail-sheets-in-excel-using-c/) | Apprenez à créer des feuilles de détail dupliquées dans Excel en C# avec Aspose.Cells pour .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

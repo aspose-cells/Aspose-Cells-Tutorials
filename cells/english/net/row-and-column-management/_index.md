@@ -71,6 +71,8 @@ Learn how to delete a row in Excel with Aspose.Cells for .NET. This step-by-step
 Learn how to delete rows while preserving the header row in Excel using Aspose.Cells for .NET. Step-by-step guide.
 ### [how to delete rows in Excel with C# – protect table header](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
 Learn how to delete rows while preserving the table header in Excel using C# and Aspose.Cells.
+### [How to use Aspose.Cells to delete rows in an Excel table while keeping the header](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
+Learn how to delete rows from an Excel table while preserving the header using Aspose.Cells for .NET.
 ### [Delete Multiple Rows in Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Learn to delete multiple rows in Excel using Aspose.Cells for .NET. This detailed, step-by-step guide covers prerequisites, coding examples, and FAQs for developers.
 ### [Insert a Column in Aspose.Cells .NET](./insert-column-aspose-cells/)

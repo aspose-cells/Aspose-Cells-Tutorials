@@ -64,7 +64,8 @@ Dowiedz się, jak programowo przekonwertować plik Excela na prezentację PowerP
 Dowiedz się, jak owinąć komórki w Excelu i przekonwertować je do prezentacji PowerPoint przy użyciu Aspose.Cells w C#.
 ### [Eksportuj Excel do PowerPoint – Kompletny przewodnik C#](./export-excel-to-powerpoint-complete-c-guide/)
 Pełny przewodnik C# pokazujący, jak programowo eksportować arkusz Excel do prezentacji PowerPoint przy użyciu Aspose.Cells.
-
+### [Jak zapisać Excel jako PPT z edytowalnymi polami tekstowymi w C#](./how-to-save-excel-as-ppt-with-editable-text-boxes-in-c/)
+Dowiedz się, jak zapisać plik Excel jako prezentację PPT z edytowalnymi polami tekstowymi w C# przy użyciu Aspose.Cells.
 ### [Ustaw obszar drukowania w Excelu i wyeksportuj do PowerPoint – przewodnik krok po kroku](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
 Dowiedz się, jak ustawić obszar drukowania w Excelu i wyeksportować arkusz do prezentacji PowerPoint przy użyciu Aspose.Cells dla .NET.
 ### [Konwertuj Excel do PowerPoint i ustaw obszar drukowania](./convert-excel-to-powerpoint-and-set-print-area/)

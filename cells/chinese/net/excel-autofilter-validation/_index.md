@@ -36,10 +36,13 @@
 通过我们简单易懂的指南，了解如何使用 Aspose.Cells for .NET 在 Excel 中实现十进制数据验证。轻松增强数据完整性。
 ### [从 Excel 中移除自动筛选 – 完整 C# 指南](./remove-autofilter-from-excel-complete-c-guide/)
 通过本指南，学习如何使用 Aspose.Cells for .NET 在 C# 中删除 Excel 工作表的自动筛选功能，确保数据处理更灵活。
+### [如何使用 C# 从 Excel 表格中移除自动筛选](./how-to-remove-autofilter-from-excel-tables-using-c/)
+本教程演示如何使用 C# 在 Excel 表格中移除自动筛选，实现更灵活的数据处理。
+
 ### [在 C# 中从 Excel 工作簿获取首个表格（完整指南）](./get-first-table-from-excel-workbook-in-c-complete-guide/)
 本指南详细演示如何使用 Aspose.Cells for .NET 在 C# 中读取 Excel 工作簿的第一个表格，实现快速数据提取。
 ### [在 C# Excel 自动化中使用自动筛选 – 完整分步指南](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
-本指南详细演示如何在 C# 中使用 Aspose.Cells 实现 Excel 自动筛选，帮助您轻松自动化数据过滤。
+本指南详细演示如何在 C# 中使用 Aspose.Cells 实现 Excel 自动筛选，帮助您轻松自动化数据过滤.
 
 
 

@@ -105,6 +105,9 @@ Aspose.Cells for .NET का उपयोग करके Excel को PowerPoin
 ### [.NET में प्रोग्रामेटिक रूप से TIFF के लिए दस्तावेज़ रूपांतरण प्रगति को ट्रैक करना](./tracking-document-conversion-progress-for-tiff/)
 हमारे चरण-दर-स्टेप गाइड के साथ .NET के लिए Aspose.Cells का उपयोग करके TIFF रूपांतरण प्रगति को प्रोग्रामेटिक रूप से ट्रैक करना सीखें। अपने दस्तावेज़ प्रबंधन कौशल को बढ़ाएँ।
 
+### [C# में संपादन योग्य टेक्स्ट बॉक्स के साथ Excel को PPT के रूप में सहेजें](./how-to-save-excel-as-ppt-with-editable-text-boxes-in-c/)
+Aspose.Cells for .NET का उपयोग करके Excel शीट को PPT में बदलें और टेक्स्ट बॉक्स को संपादन योग्य बनाएं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

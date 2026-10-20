@@ -78,6 +78,7 @@
 تعلم كيفية إنشاء نمط خلية وتطبيقه على خلية وتوسيط النص باستخدام Aspose.Cells لـ .NET في هذا الدليل خطوة بخطوة.
 ### [تطبيق أنماط الخلايا باستخدام Aspose.Cells – استيراد DataTable مع التنسيق](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
 تعلم كيفية تطبيق أنماط الخلايا عند استيراد DataTable مع الحفاظ على التنسيق باستخدام Aspose.Cells لـ .NET.
+### [كيفية إنشاء مصنف Excel باستخدام C# وتنسيق مخصص وحفظه كملف XLSX](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -75,6 +75,8 @@ Ismerje meg, hogyan másolhat pivot táblákat és exportálhatja az Excel munka
 Tanulja meg, hogyan hozhat létre PowerPoint-prezentációt Excel-adatokból C#-ban az Aspose.Cells segítségével.
 ### [Hogyan exportáljunk Excel-t PowerPointba – Lépésről‑lépésre útmutató](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
 Tanulja meg, hogyan exportálhat Excel-fájlokat PowerPoint-prezentációvá C#-ban az Aspose.Cells for .NET segítségével, részletes lépésekkel.
+### [Excel mentése PPT-be szerkeszthető szövegdobozokkal C#-ban](./how-to-save-excel-as-ppt-with-editable-text-boxes-in-c/)
+Tanuld meg, hogyan mentheted az Excel-fájlt PPT-be szerkeszthető szövegdobozokkal C#-ban az Aspose.Cells segítségével.
 ### [HTML CrossType megadása a kimeneti HTML-ben programozottan .NET-ben](./specifying-html-crosstype-in-output-html/)
 Tanuld meg, hogyan adhatsz meg HTML CrossType-ot az Aspose.Cells for .NET-ben. Kövesd lépésről lépésre útmutatónkat az Excel-fájlok precíz HTML-be konvertálásához.
 ### [Numbers táblázatok programozott olvasása .NET-ben](./reading-numbers-spreadsheet/)
@@ -84,6 +86,7 @@ Ebben a részletes oktatóanyagban megtudhatja, hogyan menthet munkafüzetet Str
 ### [Dokumentumkonverziós folyamat követése programozottan .NET-ben](./tracking-document-conversion-progress/)
 leírás: Ebben a részletes oktatóanyagban megtudhatja, hogyan követheti nyomon a dokumentumkonverzió előrehaladását programozottan az Aspose.Cells for .NET használatával.
 ### [Dokumentumkonverziós folyamatkövetés TIFF formátumban programozottan .NET-ben](./tracking-document-conversion-progress-for-tiff/)
+Tanuld meg, hogyan követheted nyomon a TIFF konverzió előrehaladását programozottan az Aspose.Cells for .NET használatával lépésről‑l​épésre bemutató útmutatónkkal. Fejleszd dokumentumkezelési készségeidet.
 ### [XLSX konvertálása CSV‑be C#‑ban – Teljes lépésről‑lépésre útmutató](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
 Ismerje meg, hogyan konvertálhat XLSX fájlokat CSV formátumba C#‑ban az Aspose.Cells segítségével, részletes kódpéldákkal.
 

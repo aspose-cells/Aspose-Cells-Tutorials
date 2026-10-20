@@ -86,15 +86,8 @@ Aspose.Cells for .NET kullanarak Excel'de birden fazla satır eklemeyi öğrenin
 Aspose.Cells for .NET kullanarak C# ile Excel dosyasında satırları silmeyi ve belirli satırları kaldırmayı öğrenin.
 ### [Excel'de Öğeleri Tekrarlama – C# ile Dinamik Satır Oluşturma](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Aspose.Cells for .NET kullanarak C# ile Excel'de öğeleri tekrarlayarak dinamik satırlar oluşturmayı adım adım öğrenin.
-### [GridJs'de Satır Ekleme – Çoklu Satırları Verimli Bir Şekilde Ekleyin](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+### [GridJs'de Satır Ekleme – Çoklu Satırları Verimli Şekilde Ekleyin](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 GridJs kullanarak birden fazla satırı verimli bir şekilde eklemeyi adım adım öğrenin.
-
-
-
-
-
-
-
 
 ### [C# ile Excel Tablosundan Satır Silme – Adım Adım Kılavuz](./delete-rows-excel-table-with-c-step-by-step-guide/)
 Aspose.Cells for .NET kullanarak C# ile Excel tablosundan satırları nasıl sileceğinizi adım adım öğrenin.
@@ -108,6 +101,9 @@ GridJs kullanarak Excel benzeri tablolarınıza birden fazla satırı hızlı ve
 C# ile wrapcols özelliğini kullanarak satırları kaydırma, wraprows ve formül yeniden hesaplamayı adım adım öğrenin.
 ### [C# ile Excel'de Hücreleri Yukarı Kaydırma – Tam Kılavuz](./shift-cells-up-in-excel-with-c-complete-guide/)
 Aspose.Cells for .NET kullanarak Excel'de hücreleri yukarı kaydırmayı adım adım öğrenin. Veri düzenleme işlemlerinizi kolaylaştırın.
+
+### [Aspose.Cells kullanarak Excel tablosunda başlığı koruyarak satırları silme](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
+Aspose.Cells for .NET ile Excel tablosundaki satırları silerken başlık satırını korumanın adım adım rehberi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

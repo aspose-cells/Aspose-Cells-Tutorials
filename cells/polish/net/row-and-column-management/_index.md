@@ -114,6 +114,7 @@ Dowiedz się, jak usunąć kompletny wiersz z pliku Excel w C# przy pomocy Aspos
 Dowiedz się, jak programowo przesunąć komórki w górę w arkuszu Excel przy użyciu Aspose.Cells i języka C# w kilku prostych krokach.
 ### [Jak usuwać wiersze w Excelu przy użyciu C# – zachowanie nagłówka tabeli](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
 Dowiedz się, jak usuwać wiersze w Excelu w C# zachowując nagłówek tabeli.
+### [Jak używać Aspose.Cells do usuwania wierszy w tabeli Excel przy zachowaniu nagłówka](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
