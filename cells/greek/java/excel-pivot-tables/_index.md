@@ -71,6 +71,8 @@
 Μάθετε πώς να δημιουργήσετε αντίγραφα Συγκεντρωτικών Πινάκων στο Excel με Aspose.Cells για Java, ακολουθώντας βήμα‑βήμα οδηγίες.
 ### [Εξαγωγή εικόνας Συγκεντρωτικού Πίνακα Excel σε PNG με Java](./excel-pivot-table-image-export-to-png-with-java/)
 Μάθετε πώς να εξάγετε εικόνα ενός Συγκεντρωτικού Πίνακα Excel σε μορφή PNG χρησιμοποιώντας το Aspose.Cells για Java.
+### [Πώς να αντιγράψετε έναν Συγκεντρωτικό Πίνακα σε Java με Aspose.Cells – οδηγός βήμα‑βήμα](./how-to-copy-pivot-table-in-java-with-aspose-cells-step-by-st/)
+Μάθετε πώς να αντιγράψετε έναν Συγκεντρωτικό Πίνακα σε Java χρησιμοποιώντας Aspose.Cells, ακολουθώντας αναλυτικές οδηγίες βήμα‑βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

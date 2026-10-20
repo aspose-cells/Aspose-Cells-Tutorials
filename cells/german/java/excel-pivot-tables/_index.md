@@ -55,13 +55,15 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java Pivot-Tabellen in PNG-Bilder ko
 ### [Pivot-Tabelle in Excel kopieren – Schritt-für-Schritt-Anleitung mit Java](./copy-pivot-table-excel-step-by-step-guide-using-java/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Pivot-Tabellen in Excel kopieren und in Ihre Anwendungen integrieren.
 ### [Exportieren einer Pivot-Tabelle nach PNG in Java – Vollständiger Programmierleitfaden](./export-pivot-table-to-png-in-java-complete-programming-guide/)
-Erfahren Sie, wie Sie Pivot-Tabellen mit Aspose.Cells für Java in PNG-Bilder exportieren und in Ihre Anwendungen einbinden.
+Erfahren Sie, wie Sie Pivot-Tabellen mit Aspose.Cells für Java in PNG-Bilder exportieren und in Ihren Anwendungen einbinden.
 ### [Wie man einen Bereich in Java kopiert – Pivot‑Tabelle kopieren mit Aspose.Cells](./how-to-copy-range-in-java-copy-pivot-table-with-aspose-cells/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java einen Bereich kopieren und eine Pivot‑Tabelle duplizieren.
 ### [Wie man Pivot‑Tabellen als PNG exportiert – Vollständige Java‑Anleitung](./how-to-export-pivot-table-as-png-complete-java-guide/)
 Erfahren Sie, wie Sie Pivot‑Tabellen mit Aspose.Cells für Java als PNG‑Bild exportieren und in Berichten einbinden.
 ### [Pivot-Tabellen in Java mit Aspose.Cells kopieren](./how-to-copy-pivot-table-in-java-using-aspose-cells/)
 Erfahren Sie, wie Sie Pivot-Tabellen in Aspose.Cells für Java kopieren und in Ihren Anwendungen wiederverwenden.
+### [Pivot‑Tabelle in Java kopieren – Schritt‑für‑Schritt‑Leitfaden mit Aspose.Cells](./how-to-copy-pivot-table-in-java-with-aspose-cells-step-by-st/)
+Erfahren Sie, wie Sie Pivot‑Tabellen in Java mit Aspose.Cells Schritt für Schritt kopieren und in Ihre Anwendungen integrieren.
 ### [Pivot-Tabelle zwischen Arbeitsmappen kopieren – Schritt‑für‑Schritt Java‑Leitfaden](./copy-pivot-table-between-workbooks-step-by-step-java-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Pivot-Tabellen zwischen Excel-Arbeitsmappen kopieren und Daten nahtlos übertragen.
 ### [Neues Arbeitsbuch in Java erstellen – Vollständige Anleitung zum Kopieren von Pivot-Tabellen](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
