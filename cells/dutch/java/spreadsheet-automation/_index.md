@@ -64,6 +64,9 @@ Leer hoe u de Expand-functie in Excel kunt toepassen met Aspose.Cells voor Java,
 ### [AutoFilter wissen in Excel met Java – Complete gids](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
 Leer hoe u AutoFilter in Excel kunt verwijderen met Aspose.Cells voor Java, inclusief voorbeeldcode.
 
+### [Nieuwe werkmap maken met Aspose – aangepaste eigenschap toevoegen aan Excel en opslaan als XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+Leer hoe u een nieuwe Excel-werkmap maakt, een aangepaste eigenschap toevoegt en opslaat als XLSB met Aspose.Cells voor Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

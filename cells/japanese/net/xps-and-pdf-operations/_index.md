@@ -48,6 +48,10 @@ Aspose.Cells for .NET を使用し、C# で XPS ドキュメントにフォン�
 Aspose.Cells を使用して PDF にフォントを埋め込み、正確な表示を保証する方法をステップバイステップで解説します。
 ### [C# でワークブックを XPS として保存する – ステップバイステップ ガイド](./save-workbook-as-xps-in-c-step-by-step-guide/)
 C# を使用して Excel ワークブックを XPS 形式で保存する方法を詳細に説明します。
+### [C# で Excel を XPS に変換する – 完全ステップバイステップガイド](./convert-excel-to-xps-in-c-complete-step-by-step-guide/)
+Aspose.Cells for .NET を使用し、C# で Excel を XPS に変換する手順を詳細に解説します。
+### [Excel を XPS に変換する際のフォント有効化 – 完全ガイド](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
+Aspose.Cells for .NET を使用し、Excel から XPS へ変換する際にフォントを正しく埋め込む手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

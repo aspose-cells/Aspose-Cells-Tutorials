@@ -58,6 +58,17 @@ Aspose.Cells를 사용하여 Java에서 피벗 테이블을 복사하고 범위�
 Aspose.Cells for Java를 사용하여 워크시트 간 피벗 테이블을 복사하는 방법을 단계별로 안내합니다.
 ### [피벗 테이블을 PNG로 내보내는 방법 – 완전 Java 가이드](./how-to-export-pivot-table-as-png-complete-java-guide/)
 Aspose.Cells for Java를 사용하여 피벗 테이블을 PNG 이미지로 내보내는 전체 과정과 예제를 확인하세요.
+### [Java에서 Aspose.Cells를 사용하여 피벗 테이블 복사하기](./how-to-copy-pivot-table-in-java-using-aspose-cells/)
+Aspose.Cells for Java를 이용해 피벗 테이블을 복사하는 방법을 단계별로 안내합니다.
+### [워크북 간 피벗 테이블 복사 – 단계별 Java 가이드](./copy-pivot-table-between-workbooks-step-by-step-java-guide/)
+Aspose.Cells for Java를 사용하여 한 워크북에서 다른 워크북으로 피벗 테이블을 복사하는 방법을 단계별로 안내합니다.
+### [Java에서 새 워크북 만들기 – 피벗 테이블 복사 전체 가이드](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
+Aspose.Cells for Java를 사용해 새 워크북을 생성하고 기존 피벗 테이블을 복사하는 방법을 단계별로 안내합니다.
+### [워크시트를 복제하고 피벗 테이블을 보존하는 방법 (Java)](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
+### [Java에서 Aspose.Cells를 사용해 피벗 복제하기](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
+Aspose.Cells for Java를 활용해 기존 피벗 테이블을 복제하고, 데이터를 손쉽게 재사용하는 방법을 배워보세요.
+### [Java에서 범위를 복사하고 피벗 테이블을 보존하는 방법](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
+### [Java로 Excel 피벗 테이블 복제하기 – 단계별 가이드](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

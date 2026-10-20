@@ -85,13 +85,6 @@ Naučte se, jak pomocí C# a Aspose.Cells dynamicky generovat řádky a opakovat
 ### [Jak vložit řádky v GridJs – Přidat více řádků do mřížky efektivně](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 Naučte se efektivně přidávat více řádků do GridJs pomocí podrobného návodu.
 
-
-
-
-
-
-
-
 ### [Vložení řádků v Excelu pomocí C# – krok‑za‑krokem průvodce](./insert-rows-in-excel-with-c-step-by-step-guide/)
 Podrobný návod, jak pomocí C# a Aspose.Cells vložit řádky do Excelu krok za krokem.
 ### [Jak použít WRAPCOLS: Vytvořte dvousloupcové rozvržení v C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
@@ -102,6 +95,15 @@ Podrobný návod, jak pomocí Aspose.Cells pro .NET s C# smazat řádky v tabulc
 Naučte se rychle přidávat více řádků v GridJs pomocí jednoduchých kroků a ukázek kódu.
 ### [Jak používat WrapCols v C# – Kompletní průvodce s Excel WrapRows a přepočítáním vzorců](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Objevte podrobný návod, jak použít WrapCols a WrapRows v Excelu pomocí Aspose.Cells pro .NET a přepočítat vzorce.
+### [Posunutí buněk nahoru v Excelu pomocí C# – Kompletní průvodce](./shift-cells-up-in-excel-with-c-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET posunout buňky nahoru v Excelu pomocí C#. Podrobný krok‑za‑krokem návod.
+### [Kopírování řádků z jednoho listu do druhého – kompletní průvodce C#](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+Objevte podrobný průvodce, jak pomocí Aspose.Cells pro .NET v C# kopírovat řádky z jednoho listu do druhého.
+### [Jak odstranit řádky v Excelu pomocí C# – chránit záhlaví tabulky](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
+Naučte se, jak pomocí Aspose.Cells pro .NET smazat řádky a zároveň zachovat záhlaví tabulky.
+
+### [Jak pomocí Aspose.Cells smazat řádky v tabulce Excel a zachovat hlavičku](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
+Naučte se, jak pomocí Aspose.Cells smazat řádky v tabulce Excel a zachovat hlavičku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

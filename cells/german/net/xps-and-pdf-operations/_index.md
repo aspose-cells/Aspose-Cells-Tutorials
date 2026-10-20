@@ -48,6 +48,10 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Schriftarten in PDFs einbetten,
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Arbeitsmappe in C# unkompliziert als XPS speichern – detaillierte Schritt‑für‑Schritt‑Anleitung.
 ### [Excel in XPS konvertieren in C# und Excel-Datei laden](./convert-excel-to-xps-in-c-and-load-excel-file/)
 Erfahren Sie, wie Sie eine Excel-Datei in C# laden und mit Aspose.Cells in das XPS-Format konvertieren.
+### [Excel in XPS konvertieren in C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./convert-excel-to-xps-in-c-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie Excel-Dateien mit C# und Aspose.Cells in das XPS-Format konvertieren – eine umfassende Schritt‑für‑Schritt‑Anleitung.
+### [So aktivieren Sie Schriftarten beim Konvertieren von Excel zu XPS – Komplettanleitung](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
+Erfahren Sie, wie Sie Schriftarten aktivieren, wenn Sie Excel-Dateien mit Aspose.Cells in XPS konvertieren, Schritt für Schritt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

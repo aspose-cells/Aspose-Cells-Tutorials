@@ -58,6 +58,8 @@ Pelajari cara membuat workbook Excel dan mengurai tanggal era Jepang menggunakan
 
 
 
+### [Parse DateTime dengan Reign Kaisar Jepang menggunakan Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Pelajari cara mengurai nilai DateTime yang menggunakan era kaisar Jepang di Excel dengan Aspose.Cells untuk .NET.
 
 
 
@@ -94,6 +96,10 @@ Pelajari cara menerapkan format angka di Excel menggunakan Aspose.Cells dalam tu
 
 
 
+### [Format Kolom Tanggal Excel – Panduan Lengkap C# untuk Mengekspor DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+Pelajari cara memformat kolom tanggal di Excel dan mengekspor DataTable menggunakan C# dengan panduan langkah demi langkah ini.
+### [Konversi Kalender Jepang di C# – Panduan Lengkap](./japanese-calendar-conversion-in-c-full-guide/)
+Pelajari cara mengonversi kalender Jepang di C# dengan panduan lengkap ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

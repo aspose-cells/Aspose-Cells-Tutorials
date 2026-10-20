@@ -56,6 +56,7 @@ Tanulja meg, hogyan távolíthatja el az AutoFilter gombot és tisztíthatja meg
 Tanulja meg, hogyan rejtheti el a szűrő nyilakat Excelben C# használatával, hogy tisztább legyen a munkalap.
 ### [Táblázat hozzáadása Excelhez C#-ban – Autofilter törlése és fájl mentése](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
 Ismerje meg, hogyan adhat hozzá táblázatot Excel fájlhoz C#-ban, törölheti az autofiltert, és mentheti a módosított fájlt.
+### [Hogyan távolítsuk el az autofiltert Excel táblázatokból C#-ban](./how-to-remove-autofilter-from-excel-tables-using-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

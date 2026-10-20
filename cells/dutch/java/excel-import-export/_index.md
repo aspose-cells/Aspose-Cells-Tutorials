@@ -43,6 +43,10 @@ Leer hoe u Excel-gegevens exporteert naar CSV met Aspose.Cells voor Java in deze
 Leer hoe je moeiteloos Excel-bestanden naar PDF exporteert met Aspose.Cells voor Java. Onze stapsgewijze handleiding maakt het proces eenvoudiger. Begin vandaag nog met converteren!
 ### [Hoe een PDF te maken vanuit een werkmap – Complete Java-gids](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
 Leer stap voor stap hoe u met Aspose.Cells voor Java een PDF maakt vanuit een werkmap, inclusief voorbeeldcode.
+### [Hoe scheidingsteken instellen en opslaan als CSV met Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+Leer hoe u het scheidingsteken instelt en een bestand opslaat als CSV met Aspose.Cells.
+### [Lettertypen insluiten in SVG bij het exporteren van Excel naar SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Leer hoe u lettertypen insluit in SVG-bestanden bij het exporteren van Excel-werkbladen met Aspose.Cells voor Java.
 ### [Excel exporteren naar XML Java](./export-excel-to-xml-java/)
 Leer hoe u Excel naar XML exporteert in Java met Aspose.Cells voor Java. Stapsgewijze handleiding met broncode voor naadloze gegevensconversie.
 ### [Gegevens importeren vanuit Excel](./data-import-from-excel/)
@@ -64,6 +68,8 @@ Leer hoe u lettertypen insluit bij het converteren van Excel naar HTML met Aspos
 Leer hoe u Markdown-bestanden omzet naar Excel met Aspose.Cells in deze stapsgewijze volledige gids.
 ### [JSON-bestand laden Java – Volledige gids om JSON naar Excel te converteren](./load-json-file-java-full-guide-to-convert-json-to-excel/)
 Leer hoe u JSON-bestanden laadt en converteert naar Excel met Aspose.Cells voor Java in deze stapsgewijze handleiding.
+### [Hoe JSON in Excel laden met Aspose.Cells voor Java](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+Leer hoe u JSON-gegevens laadt en converteert naar een Excel-werkmap met Aspose.Cells voor Java.
 ### [Excel-bestand maken in Java – Volledige gids met rijstyling en XLSX-export](./create-excel-file-java-full-guide-with-row-styling-and-xlsx/)
 Leer hoe u een Excel-bestand maakt in Java, rijen stijlt en exporteert naar XLSX met Aspose.Cells.
 ### [Hoe Excel exporteren naar SVG – Complete Java-gids](./how-to-export-excel-to-svg-complete-java-guide/)
@@ -101,6 +107,24 @@ Leer hoe u Excel-bestanden naar PowerPoint PPTX converteert met Aspose.Cells voo
 
 ### [Excel converteren naar PDF – Complete Java‑gids met Aspose.Cells](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
 Leer hoe u Excel-bestanden naar PDF converteert met Aspose.Cells voor Java in deze volledige stap‑voor‑stap gids.
+### [JSON exporteren naar Excel met Java – Complete stapsgewijze handleiding](./export-json-to-excel-with-java-complete-step-by-step-guide/)
+Leer hoe u JSON-gegevens naar Excel exporteert met Aspose.Cells voor Java in een volledige stap‑voor‑stap handleiding.
+### [xlsx naar PowerPoint converteren met Java – volledige gids](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
+Leer hoe u een XLSX-bestand omzet naar PowerPoint met Aspose.Cells voor Java in deze volledige gids.
+### [Excel maken vanuit JSON en JSON naar Excel-cel converteren met Aspose.Cells](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+Leer hoe u Excel-bestanden maakt vanuit JSON en JSON-gegevens naar Excel-cellen converteert met Aspose.Cells voor Java.
+### [Aangepaste objecten importeren in Excel met Aspose.Cells – Java-gids](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+Leer hoe u aangepaste objecten importeert in Excel met Aspose.Cells voor Java. Volg de stapsgewijze handleiding met voorbeeldcode.
+### [Excel exporteren naar HTML in Java – volledige stapsgewijze handleiding](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+Leer hoe u Excel naar HTML exporteert in Java met een volledige stap‑voor‑stap handleiding en voorbeeldcode.
+### [Hoe een lijst te importeren naar Excel en kolommen te stylen in Java](./how-to-import-list-to-excel-and-style-columns-in-java/)
+Leer hoe u een lijst importeert naar Excel en kolommen opmaakt met Aspose.Cells voor Java.
+### [Hoe Excel te exporteren naar TXT met beperkte significante cijfers in Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+Leer hoe u Excel-gegevens exporteert naar TXT met een beperkt aantal significante cijfers met Aspose.Cells voor Java.
+### [Hoe Excel exporteren naar PowerPoint met Aspose.Cells – stapsgewijze handleiding](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Leer hoe u Excel-werkbladen naar PowerPoint presenteert met Aspose.Cells in een stapsgewijze handleiding.
+### [JSON exporteren naar Excel met Aspose.Cells in Java](./export-json-to-excel-with-aspose-cells-in-java/)
+Leer hoe u JSON-gegevens naar Excel exporteert met Aspose.Cells voor Java in een stapsgewijze handleiding.
 ### [Hoe een werkmap opslaan als PDF met numerieke precisie in Java](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
 Leer hoe u een werkmap opslaat als PDF met nauwkeurige numerieke precisie met Aspose.Cells voor Java.
 

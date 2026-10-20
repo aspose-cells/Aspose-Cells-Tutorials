@@ -72,7 +72,7 @@ Excel поставляется с множеством встроенных фу
 ### [Применение массивной формулы Excel в C# – Полное руководство](./apply-array-formula-excel-in-c-complete-guide/)
 Узнайте, как применять массивные формулы в Excel с помощью Aspose.Cells для .NET в полном руководстве на C#.
 ### [Обработка данных с использованием встроенных функций Excel](./processing-data-using-built-in-functions/)
-Узнайте, как обрабатывать данные с помощью встроенных функций Excel с Aspose.Cells для .NET. Следуйте пошаговому руководству для легкой автоматизации.
+Узнайте, как обрабатывать данные с помощью встроенных функций Excel с помощью Aspose.Cells для .NET. Следуйте пошаговому руководству для легкой автоматизации.
 ### [Обработка данных с использованием R1C1 в Excel](./processing-data-using-r1c1/)
 Изучите, как обрабатывать данные с помощью формул R1C1 в Excel с помощью Aspose.Cells для .NET. Пошаговое руководство и примеры включены.
 ### [Регистрация и вызов функции из надстройки в Excel](./registering-and-calling-function-from-add-in/)
@@ -83,6 +83,8 @@ Excel поставляется с множеством встроенных фу
 Узнайте, как с помощью C# создать файл Excel и применить условную логику для динамического форматирования и вычислений.
 ### [Как вычислить котангенс в Excel с помощью C# – пошаговое руководство](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
 Узнайте, как вычислять котангенс в Excel с помощью Aspose.Cells для .NET и C# в этом пошаговом руководстве.
+### [Как создать книгу Excel в C# с функцией EXPAND](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+Узнайте, как создать рабочую книгу Excel в C# и использовать функцию EXPAND с помощью Aspose.Cells.
 ### [Как расширить массив в C# с помощью Aspose.Cells – пошаговое руководство](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Узнайте, как расширить массив в C# с помощью Aspose.Cells, следуя пошаговым инструкциям в этом руководстве.
 ### [Как использовать WRAPCOLS в C# – преобразование массивов в матрицы](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
@@ -95,6 +97,13 @@ Excel поставляется с множеством встроенных фу
 Узнайте, как вычислять котангенс в Excel с помощью C# и Aspose.Cells для .NET в этом полном руководстве.
 ### [Как использовать WRAPCOLS в Excel – Полный пример на C#](./how-to-use-wrapcols-in-excel-complete-c-example/)
 Узнайте, как применять функцию WRAPCOLS в Excel с помощью Aspose.Cells для .NET в полном примере на C#.
+### [Как использовать WRAPCOLS – Полное руководство по автоматизации Excel на C#](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Освойте функцию WRAPCOLS в Aspose.Cells для .NET и автоматизируйте обработку данных в Excel с помощью C#.
+### [Создание рабочей книги Excel с формулами – Полное пошаговое руководство](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+Подробное пошаговое руководство по созданию рабочей книги Excel с формулами с использованием Aspose.Cells для .NET.
+
+### [Как принудительно выполнить расчет формулы и использовать lambda в Excel с C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Узнайте, как принудительно пересчитать формулы и применять функции lambda в Excel с помощью C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

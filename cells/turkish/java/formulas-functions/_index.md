@@ -94,7 +94,7 @@ Java Excel çalışma kitabında SEQUENCE işlevini nasıl kullanacağınızı a
 ### [Excel'de Kotanjantı Hesaplama – Tam Kılavuz](./how-to-calculate-cotangent-in-excel-complete-guide/)
 
 ### [Excel'de Tekil Değerleri Sıralama – Dizi Formüllerini Ayarlamak için Tam Java Rehberi](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
-
+### [Aspose'i Java'da Kullanma – Yeni Fonksiyonlarla Excel Çalışma Kitabı Oluşturma](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
 ### [Aspose.Cells ile EXPAND işlevi kullanarak formül ayarlama – tam Java rehberi](./aspose-cells-set-formula-with-expand-function-complete-java/)
 
 ## Ek Kaynaklar

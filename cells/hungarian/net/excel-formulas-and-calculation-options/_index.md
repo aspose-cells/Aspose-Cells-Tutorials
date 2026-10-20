@@ -23,7 +23,7 @@
 Az Excel-képletek nyomon követésének egyik legegyszerűbb, mégis hatékony módja a Képletfigyelő ablak használata. Az Aspose.Cells for .NET segítségével a cellák hozzáadása ehhez az ablakhoz óriási különbséget jelenthet az összetett táblázatok változásainak nyomon követésekor. Képzelje el, hogy egy hatalmas projekten dolgozik, ahol minden képlet számít – ez a funkció lehetővé teszi a kulcsfontosságú cellák egyszerű nyomon követését anélkül, hogy szem elől tévesztené az általános haladást. Részletes útmutatónkban a következőről olvashat: [Cellák hozzáadása a Microsoft Excel képletfigyelő ablakához](./adding-cells-to-microsoft-excel-formula-watch-window/), végigvezetjük Önt a zökkenőmentes kezdéshez szükséges lépéseken.
 
 ## Képletek programozott kiszámítása  
-Gondoltál már arra, milyen klassz lenne automatizálni az Excel-számításaidat? Nos, az Aspose.Cells for .NET segítségével ez az álom valósággá válhat! Képzeld el, hogy adatokat küldesz számításra, miközben kortyolgatod a kávédat; ez az Excel-feladatok automatizálásának szépsége. Oktatóanyagunk a következőről: [Képletek kiszámítása Excelben programozottan](./calculating-formulas/) Bemutatja azokat az egyszerű technikákat, amelyekkel magasabb szintre emelheted az automatizálási teljesítményedet. Nem csak az időmegtakarításról van szó, hanem arról is, hogy okosabban, ne pedig keményebben dolgozz!
+Gondoltál már arra, milyen klassz lenne automatizálni az Excel-számításaidat? Nos, az Aspose.Cells for .NET segítségével ez az álom valósággá válhat! Képzeld el, hogy adatokat küldsz számításra, miközben kortyolgatod a kávédat; ez az Excel-feladatok automatizálásának szépsége. Oktatóanyagunk a következőről: [Képletek kiszámítása Excelben programozottan](./calculating-formulas/) Bemutatja azokat az egyszerű technikákat, amelyekkel magasabb szintre emelheted az automatizálási teljesítményedet. Nem csak az időmegtakarításról van szó, hanem arról is, hogy okosabban, ne pedig keményebben dolgozz!
 
 ## Kör alakú referenciák észlelése  
 Ó, a rettegett körkörös utalás! Olyan, mint egy rejtvény, ami még a legtapasztaltabb Excel-felhasználókat is megzavarhatja. De ne félj! Útmutatónkkal... [Körhivatkozások észlelése Excelben programozottan](./detecting-circular-reference/)megtanulod, hogyan tudod hatékonyan meghatározni ezeket a bonyolult problémákat az Aspose.Cells for .NET használatával. Könnyen követhető utasításokat mutatunk be, biztosítva a számítások pontosságát és elkerülve a későbbi fejfájást.
@@ -72,6 +72,15 @@ Megosztott képletekkel való munka során fontos megérteni, hogyan lehet haté
 ### [Hogyan bővítsük a tömböt C#-ban az Aspose.Cells segítségével – Lépésről‑lépésre útmutató](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 ### [Tömbképlet alkalmazása Excelben C#-ban – Teljes útmutató](./apply-array-formula-excel-in-c-complete-guide/)
 ### [Hogyan használjuk a WRAPCOLS függvényt Excelben – Teljes C# példa](./how-to-use-wrapcols-in-excel-complete-c-example/)
+### [Hogyan használjuk a WRAPCOLS‑t – Teljes útmutató C# Excel automatizáláshoz](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Ismerje meg a WRAPCOLS függvény használatát C#‑ban az Aspose.Cells for .NET segítségével, lépésről lépésre útmutató.
+### [Hogyan kényszerítsük a képletszámítást és használjuk a lambda kifejezést Excelben C#-val](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Ismerje meg, hogyan kényszerítheti a képletszámítást és használhatja a lambda függvényeket Excelben C#-ban.
+### [Excel munkafüzet létrehozása képletekkel – Teljes lépésről‑lépésre útmutató](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre teljesen funkcionális Excel munkafüzetet képletekkel lépésről‑lépésre az Aspose.Cells for .NET segítségével.
+
+### [Hogyan hozzunk létre Excel munkafüzetet C#‑ban az EXPAND függvénnyel – Lépésről lépésre útmutató](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+Ismerje meg, hogyan használhatja az EXPAND függvényt Excel munkafüzet létrehozásához C#‑ban az Aspose.Cells for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

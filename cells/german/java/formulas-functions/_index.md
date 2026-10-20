@@ -95,6 +95,8 @@ Erfahren Sie, wie Sie mit wrapcols in Aspose.Cells für Java eine Liste in mehre
 Erfahren Sie, wie Sie mit Aspose.Cells für Java den Kotangens in Excel berechnen und nutzen.
 ### [Sortieren eindeutiger Werte in Excel – Vollständiger Java-Leitfaden zum Festlegen von Array-Formeln](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 Erfahren Sie, wie Sie in Excel eindeutige Werte sortieren und mithilfe von Array-Formeln in Java implementieren.
+### [Wie man Aspose in Java verwendet – Excel-Arbeitsmappe mit neuen Funktionen erstellen](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java eine neue Excel-Arbeitsmappe erstellen und benutzerdefinierte Funktionen hinzufügen.
 
 ### [Aspose.Cells Formel mit EXPAND-Funktion festlegen – vollständiger Java-Leitfaden](./aspose-cells-set-formula-with-expand-function-complete-java/)
 Erfahren Sie, wie Sie in Aspose.Cells für Java die EXPAND-Funktion verwenden, um Formeln dynamisch zu erweitern und Daten effizient zu verarbeiten.

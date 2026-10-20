@@ -77,6 +77,10 @@ Naučte se převádět soubory XLSX na PNG pomocí Aspose.Cells v C# s podrobný
 Naučte se, jak pomocí Aspose.Cells v C# uložit obrázek PNG z kontingenční tabulky Excel v několika krocích.
 ### [Vložení fontů do HTML – Kompletní průvodce převodem DOCX do HTML s plnou podporou fontů](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
 Naučte se, jak pomocí Aspose.Words převést DOCX do HTML a zachovat všechny vložené fonty.
+### [Jak vložit písma do HTML z DOCX – Kompletní průvodce](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Naučte se, jak vložit písma z dokumentu DOCX do HTML pomocí Aspose.Words v .NET v tomto podrobném průvodci.
+### [Jak převést JSON do Excel v C# s jednou buňkou oddělenou čárkou](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Naučte se převést JSON do Excel v C# pomocí jedné buňky s čárkou oddělených hodnot.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

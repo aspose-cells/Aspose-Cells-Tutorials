@@ -56,6 +56,7 @@ C# का उपयोग करके Excel में तिथियों क
 
 
 
+### [Aspose.Cells का उपयोग करके जापानी सम्राट के राजकाल के साथ DateTime पार्स करें](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
 
 
 
@@ -84,6 +85,10 @@ C# का उपयोग करके Excel में तिथि स्वर
 इस ट्यूटोरियल में सीखें कि C# का उपयोग करके Excel वर्कबुक बनाते समय महत्वपूर्ण अंकों को कैसे सीमित किया जाए।
 ### [Aspose.Cells के साथ Excel में नंबर फ़ॉर्मेट कैसे लागू करें](./how-to-apply-number-format-excel-with-aspose-cells/)
 ### [C# में Excel वर्कबुक बनाएं और जापानी तिथियों को पार्स करें](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
+### [डेटा टेबल निर्यात के लिए Excel में तिथि कॉलम फ़ॉर्मेट – पूर्ण C# गाइड](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+इस ट्यूटोरियल में .NET के लिए Aspose.Cells का उपयोग करके DataTable को Excel में निर्यात करते समय तिथि कॉलम को फ़ॉर्मेट करने की पूरी प्रक्रिया सीखें।
+### [C# में जापानी कैलेंडर रूपांतरण – पूर्ण गाइड](./japanese-calendar-conversion-in-c-full-guide/)
+इस गाइड में .NET के लिए Aspose.Cells का उपयोग करके C# में जापानी कैलेंडर रूपांतरण की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -47,6 +47,9 @@ Wist je dat je HTML-inhoud rechtstreeks in je Excel-sheets kunt opnemen? Met Asp
 ## IsBlank evalueren met slimme markers
 Het beheren van lege waarden in datasets kan lastig zijn, maar Aspose.Cells maakt dit eenvoudiger met de mogelijkheid om lege waarden te evalueren met behulp van slimme markers. Met deze functie kunt u eenvoudig controleren op lege cellen en uw rapportagelogica hierop aanpassen. Dankzij deze mogelijkheid kunnen uw rapporten automatisch situaties afhandelen waarin gegevens mogelijk ontbreken, zodat uw publiek duidelijke en nauwkeurige informatie ontvangt. Ontdek hoe u deze functie effectief in uw rapporten kunt implementeren. [Lees verder](./evaluate-isblank-smart-markers/)
 
+### [Hoe formule te evalueren met slimme markeringen – Complete gids](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
+Leer stap voor stap hoe u formules kunt evalueren met Smart Markers in Aspose.Cells voor .NET, zodat uw rapporten dynamisch en nauwkeurig blijven.
+
 ## Implementeer variabelenarrays met slimme markers
 Werkt u vaak met wisselende hoeveelheden data? Met de variabele array-functie in Smart Markers kunt u flexibel gegevenslijsten beheren. Dit betekent dat u rapporten kunt genereren die zich aanpassen aan verschillende datasetgroottes, zonder dat u uw sjablonen telkens opnieuw hoeft te ontwerpen. Door te leren hoe u variabele arrays implementeert, kunt u uw rapportageprocessen stroomlijnen en uw datapresentatie verbeteren. Deze tutorial legt de stappen uit om u te helpen aan de slag te gaan met variabele arrays in uw rapporten. [Lees verder](./variable-array-smart-markers/)
 
@@ -75,6 +78,8 @@ Verbeter uw Excel-bestanden met slimme markeringen om lege waarden efficiënt te
 Groepeer moeiteloos gegevens met slimme markeringen in Aspose.Cells voor .NET. Volg onze uitgebreide handleiding voor stapsgewijze instructies.
 ### [Afbeeldingen met afbeeldingsmarkeringen invoegen in Aspose.Cells](./insert-images-smart-markers/)
 Ontdek hoe je afbeeldingen invoegt met behulp van afbeeldingsmarkeringen in Aspose.Cells voor .NET met onze stapsgewijze handleiding! Verbeter je Excel-rapporten effectief met visuele elementen.
+### [Hoe werkbladen te herhalen – Complete gids voor Excel-automatisering](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+Leer stap voor stap hoe u werkbladen kunt dupliceren met Aspose.Cells voor .NET om Excel-automatisering te vereenvoudigen.
 ### [Gebruik anonieme typen met slimme markers Aspose.Cells](./use-anonymous-types-smart-markers/)
 Leer hoe u anonieme typen met slimme markeringen in Aspose.Cells kunt gebruiken voor het dynamisch genereren van Excel-rapporten in .NET. Volg onze eenvoudige handleiding.
 ### [Stijlkenmerk kopiëren toepassen in slimme markeringen van Aspose.Cells](./copy-style-attribute-smart-markers/)
@@ -122,6 +127,8 @@ Leer hoe u JSON-gegevens omzet naar XLSX-bestanden met SmartMarker in C#.
 
 
 
+### [Excel-werkmap programmeren met Smart Markers](./create-excel-workbook-programmatically-using-smart-markers/)
+Ontdek hoe u met Aspose.Cells en Smart Markers een Excel-werkmap programmatically kunt maken. Volg de stapsgewijze .NET‑handleiding.
 
 
 
@@ -165,6 +172,15 @@ Leer stap voor stap hoe u gegevens exporteert naar een Excel-sjabloon met Smart 
 Leer hoe u met Smart Markers in Aspose.Cells Excel-bestanden genereert rechtstreeks vanuit een .NET‑model in C#.
 ### [Hoe smart marker-gegevens te maken en Excel-sjabloongegevens in te vullen](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
 Leer hoe u smart marker-gegevens maakt en een Excel-sjabloon automatisch vult met Aspose.Cells voor .NET.
+### [Excel-sjabloon laden in C# – Genereer snel meerdere bladen](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
+Leer hoe u een Excel-sjabloon laadt en met Aspose.Cells in C# snel meerdere werkbladen genereert voor dynamische rapporten.
+### [Range smart marker om geneste gegevens te verwerken in C# – Volledige gids](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
+### [Import json naar Excel in C# – stapsgewijze handleiding](./import-json-to-excel-in-c-step-by-step-guide/)
+### [Hoe maak je een Excel-rapportlijst met Aspose.Cells slimme markeringen](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+### [Maak master-detail werkmap met Aspose.Cells Smart Marker](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+Leer hoe u een master‑detail werkmap maakt met Smart Markers in Aspose.Cells voor .NET.
+### [Master‑detail Excel‑gids – sjablonen invullen met Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+Leer hoe u master‑detail Excel‑sjablonen kunt vullen met Smart Markers voor dynamische rapporten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

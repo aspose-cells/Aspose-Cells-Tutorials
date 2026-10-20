@@ -71,6 +71,8 @@ Excel 隨附大量內建函數，可執行各種計算和資料操作。了解�
 透過本逐步指南了解如何在 C# 中使用 Aspose.Cells 展開陣列，以提升資料處理效率。
 ### [在 C# 中套用 Excel 陣列公式 – 完整指南](./apply-array-formula-excel-in-c-complete-guide/)
 透過本完整指南學習如何在 C# 使用 Aspose.Cells for .NET 在 Excel 中套用陣列公式，提升資料處理效率。
+### [如何在 C# 中使用 EXPAND 函數建立 Excel 工作簿](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+本逐步指南說明如何在 C# 中使用 Aspose.Cells 的 EXPAND 函數建立 Excel 工作簿。
 ### [使用 Excel 內建函數處理數據](./processing-data-using-built-in-functions/)
 了解如何使用 Aspose.Cells for .NET 中的 Excel 內建函數處理資料。按照逐步教程輕鬆自動化。
 ### [使用 Excel 中的 R1C1 處理數據](./processing-data-using-r1c1/)
@@ -95,6 +97,12 @@ Excel 隨附大量內建函數，可執行各種計算和資料操作。了解�
 本完整指南說明如何使用 Aspose.Cells for .NET 及 C# 在 Excel 中計算餘切函數，步驟清晰易懂。
 ### [如何在 Excel 中使用 WRAPCOLS – 完整 C# 範例](./how-to-use-wrapcols-in-excel-complete-c-example/)
 了解如何使用 Aspose.Cells for .NET 以 C# 完整示例在 Excel 中運用 WRAPCOLS 函數，提升資料排版效率。
+### [如何使用 WRAPCOLS – C# Excel 自動化完整指南](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+透過本完整指南了解如何在 C# 中使用 Aspose.Cells 的 WRAPCOLS 功能進行 Excel 自動化。
+### [如何在 Excel 中使用 C# 強制公式計算與 Lambda](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+本教學說明如何使用 Aspose.Cells for .NET 於 C# 中強制公式計算並運用 Lambda 表達式。
+### [建立含公式的 Excel 活頁簿 – 完整步驟指南](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+透過本完整的逐步指南，了解如何使用 Aspose.Cells for .NET 建立含公式的 Excel 活頁簿。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

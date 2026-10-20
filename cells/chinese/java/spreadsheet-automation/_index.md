@@ -61,6 +61,8 @@
 ### [如何在 Java 中使用 Expand – 完整 Excel 指南](./how-to-use-expand-in-java-complete-excel-guide/)
 ### [使用 Java 清除 Excel 自动筛选 - 完整指南](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
 学习如何使用 Aspose.Cells for Java 在 Excel 中清除自动筛选，并通过示例代码实现完整的操作流程。
+### [创建新工作簿 Aspose – 添加自定义属性 Excel 并保存为 XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+演示如何使用 Aspose.Cells for Java 创建工作簿、添加自定义属性并保存为 XLSB 格式。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -66,6 +66,11 @@
 تعلم كيفية معالجة قالب Excel وتسمية الأوراق تلقائيًا باستخدام C#.
 
 ### [كيفية تصدير البيانات إلى Excel باستخدام قالب C# – دليل خطوة بخطوة](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
+### [إنشاء تقرير Excel باستخدام C# – دليل خطوة بخطوة](./generate-excel-report-with-c-step-by-step-guide/)
+تعلم كيفية إنشاء تقرير Excel باستخدام C# خطوة بخطوة باستخدام Aspose.Cells.
+
+### [كيفية توسيع المصفوفة في Excel وتعبئة قالب](./how-to-expand-array-in-excel-and-populate-a-template/)
+تعلم كيفية توسيع المصفوفة في Excel وتعبئة القالب باستخدام Aspose.Cells للـ .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

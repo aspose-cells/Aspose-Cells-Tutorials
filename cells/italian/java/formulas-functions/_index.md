@@ -100,6 +100,8 @@ Scopri come trasformare un elenco in più colonne usando la funzione WRAPCOLS co
 
 ### [Come calcolare la cotangente in Excel – Guida completa](./how-to-calculate-cotangent-in-excel-complete-guide/)
 Scopri come calcolare la cotangente in Excel usando le funzioni integrate e personalizzate con Aspose.Cells per Java.
+### [Come utilizzare Aspose in Java – creare cartella di lavoro Excel con nuove funzioni](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+Scopri come creare una cartella di lavoro Excel con nuove funzioni utilizzando Aspose in Java.
 
 ### [Aspose.Cells imposta formula con la funzione EXPAND – guida completa Java](./aspose-cells-set-formula-with-expand-function-complete-java/)
 

@@ -87,12 +87,10 @@ Meistern Sie Aspose.Cells für .NET mit generischen Listen und Smart Markern, um
 ### [HTML‑Eigenschaft in Smart Markers verwenden Aspose.Cells .NET](./html-property-smart-markers/)
 Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells mit diesem Schritt‑für‑Schritt‑Tutorial zur Verwendung der HTML‑Eigenschaft in Smart Markern für .NET‑Anwendungen.
 ### [Verschachtelte Objekte mit intelligenten Markierungen behandeln Aspose.Cells](./nested-objects-smart-markers/)
-Schöpfen Sie das Potenzial der Excel‑Berichterstellung mit Aspose.Cells aus, indem Sie verschachtelte Objekte mithilfe von Smart Markers in einer Schritt‑für‑Schritt‑Anleitung mühelos handhaben.
 ### [Verschachtelte Bereichsoption in Aspose.Cells SmartMarker aktivieren](./enable-nested-range-option-in-aspose-cells-smartmarker/)
 Erfahren Sie, wie Sie die Option für verschachtelte Bereiche aktivieren, um komplexe Datenhierarchien in Smart Markers zu verarbeiten.
 
 ### [Implementieren Sie ein Variablenarray mit intelligenten Markierungen Aspose.Cells](./variable-array-smart-markers/)
-Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells. Erfahren Sie Schritt für Schritt, wie Sie variable Arrays mit Smart Markers für die nahtlose Erstellung von Excel‑Berichten implementieren.
 ### [Excel programmgesteuert mit Aspose.Cells Smart Markers erstellen](./create-excel-programmatically-using-aspose-cells-smart-marke/)
 Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers Excel‑Dateien programmgesteuert erstellen und Daten dynamisch einfügen.
 
@@ -136,6 +134,16 @@ Erfahren Sie, wie Sie mit Aspose.Cells Vorlagen mithilfe von Smart Markern Schri
 Erfahren Sie, wie Sie mit Aspose.Cells und SmartMarker in C# komplette Excel‑Berichte automatisch generieren.
 
 ### [Exportieren von Daten nach Excel mit Smart Marker – Vollständige C#‑Anleitung](./export-data-to-excel-with-smart-marker-full-c-guide/)
+### [Excel-Arbeitsmappe programmgesteuert mit Smart Markern erstellen](./create-excel-workbook-programmatically-using-smart-markers/)
+Erstellen Sie eine Excel-Arbeitsmappe programmgesteuert mit Smart Markern in Aspose.Cells für .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 
 
@@ -229,6 +237,18 @@ Erfahren Sie, wie Sie Smart Marker-Daten erzeugen und damit Excel‑Vorlagen aut
 
 ### [Aspose Cells Smart Markers: Excel aus Modell in C# generieren](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
 Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers Excel‑Dateien aus Modellen in C# generieren.
+### [Range Smart Marker zur Verarbeitung verschachtelter Daten in C# – Vollständige Anleitung](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
+### [Excel-Vorlage in C# laden – Mehrere Arbeitsblätter schnell generieren](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
+### [Formel mit Smart Markers auswerten – Komplettanleitung](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
+### [JSON nach Excel in C# importieren – Schritt‑für‑Schritt‑Anleitung](./import-json-to-excel-in-c-step-by-step-guide/)
+### [Wie man eine Excel-Berichtsliste mit Aspose.Cells Smart Markers erstellt](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers eine Liste von Excel-Berichten automatisch generieren.
+### [Master-Detail-Arbeitsmappe mit Aspose.Cells Smart Marker erstellen](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers eine Master‑Detail‑Arbeitsmappe erstellen, um hierarchische Daten automatisch zu füllen.
+### [Master‑Detail‑Excel‑Leitfaden – Vorlagen mit Smart Markers füllen](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+Erfahren Sie, wie Sie mit Smart Markers Vorlagen automatisch befüllen und Master‑Detail‑Berichte in Excel erstellen.
+### [Wie man Arbeitsblätter wiederholt – Komplettanleitung für Excel-Automatisierung](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+Erfahren Sie, wie Sie Arbeitsblätter in Excel automatisch duplizieren und wiederholen, um Berichte effizient zu automatisieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

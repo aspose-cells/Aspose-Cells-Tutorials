@@ -69,6 +69,8 @@ Bu kapsamlı rehberde Aspose.Cells for .NET kullanarak C# ile Excel'de özel say
 Bu kapsamlı rehberde, C# kullanarak sayıları ayırıcılarla biçimlendirmeyi ve Aspose.Cells'in tüm özelliklerini öğrenin.
 ### [Excel'den ISO Tarih Biçimlendirme – Tam C# Kılavuzu](./format-date-iso-from-excel-complete-c-guide/)
 Bu kapsamlı rehberde, C# kullanarak Excel'den ISO tarih formatına dönüştürmeyi öğrenin.
+### [Aspose.Cells ile Japon İmparatorluk Dönemi Kullanarak DateTime Ayrıştırma](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Aspose.Cells kullanarak Japon imparatorluk dönemi takvimine göre DateTime değerlerini nasıl ayrıştıracağınızı öğrenin.
 
 
 
@@ -95,6 +97,10 @@ Aspose.Cells for .NET kullanarak C# dilinde bir çalışma kitabı oluşturmayı
 Bu kapsamlı rehberde, Aspose.Cells for .NET kullanarak C# ile Excel tarih formatını nasıl ayarlayacağınızı adım adım öğrenin.
 ### [Excel Çalışma Kitabı Oluştur C# – Önemli Basamakları Sınırlama](./create-excel-workbook-c-limit-significant-digits-excel/)
 Aspose.Cells for .NET kullanarak C# ile Excel çalışma kitabı oluşturup, sayısal değerlerin önemli basamaklarını nasıl sınırlayacağınızı öğrenin.
+### [Excel'de Tarih Sütununu Biçimlendirme – DataTable'ı Dışa Aktarmak için Tam C# Kılavuzu](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+Bu kapsamlı eğitimde, Aspose.Cells for .NET kullanarak DataTable'ı Excel'e dışa aktarırken tarih sütunlarını nasıl biçimlendireceğinizi öğrenin.
+### [C#'ta Japon Takvim Dönüşümü – Tam Kılavuz](./japanese-calendar-conversion-in-c-full-guide/)
+Aspose.Cells for .NET kullanarak C# ile Japon takvimine dönüştürme ve tarih işlemlerini nasıl yapacağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

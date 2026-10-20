@@ -68,6 +68,8 @@ Apprenez à automatiser le traitement d'un modèle Excel et à renommer les feui
 
 ### [Comment exporter des données vers Excel à l'aide d'un modèle C# – guide étape par étape](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
 Apprenez à exporter des données vers un fichier Excel en utilisant un modèle C# avec Aspose.Cells, étape par étape.
+### [Comment étendre un tableau dans Excel et le remplir à partir d'un modèle](./how-to-expand-array-in-excel-and-populate-a-template)
+Apprenez à étendre un tableau dans Excel et à le remplir à partir d'un modèle à l'aide d'Aspose.Cells pour .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

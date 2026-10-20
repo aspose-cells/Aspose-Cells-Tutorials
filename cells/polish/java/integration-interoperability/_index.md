@@ -57,6 +57,8 @@ Dowiedz się, jak wdrożyć klasę Teacher w języku Java, zarządzać danymi uc
 Dowiedz się, jak konwertować pliki Excel do formatu PPTX przy użyciu Aspose.Cells for Java, krok po kroku, z przykładami kodu.
 ### [Konwertuj Excel do PowerPoint – Kompletny przewodnik krok po kroku](./convert-excel-to-powerpoint-full-step-by-step-guide/)
 Dowiedz się, jak przekształcić arkusze Excel w prezentacje PowerPoint przy użyciu Aspose.Cells for Java, krok po kroku.
+### [Jak skopiować zakres z Excela i wyeksportować go do PowerPoint przy użyciu Javy](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+Dowiedz się, jak skopiować wybrany zakres danych z arkusza Excel i przenieść go do prezentacji PowerPoint przy użyciu Aspose.Cells i Aspose.Slides w Javie.
 
 ### [Jak wyeksportować wykresy z Excela do Worda – przewodnik Java](./how-to-export-charts-from-excel-to-word-java-guide/)
 Dowiedz się, jak wyeksportować wykresy z Excela do dokumentu Word przy użyciu Aspose.Cells for Java, krok po kroku z przykładami kodu.
@@ -70,6 +72,10 @@ Dowiedz się, jak wygenerować prezentację PowerPoint z danych Excela przy uży
 Naucz się konwertować pliki Excel na prezentacje PowerPoint przy użyciu Aspose.Slides i Aspose.Cells w Javie.
 ### [Jak wyeksportować wykresy z Excela do PowerPoint – Pełny przewodnik Java](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
 Dowiedz się, jak wyeksportować wykresy z Excela do PowerPoint przy użyciu Aspose.Cells for Java, krok po kroku.
+### [Jak zapisać Excel jako DOCX przy użyciu Aspose.Cells w C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+Dowiedz się, jak przy użyciu Aspose.Cells for .NET zapisać plik Excel jako dokument DOCX w języku C#.
+### [Konwertuj Excel na PowerPoint przy użyciu Aspose.Cells w Javie](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+Dowiedz się, jak przekształcić pliki Excel w prezentacje PowerPoint przy pomocy Aspose.Cells w Javie.
 
 ## Dodatkowe zasoby
 

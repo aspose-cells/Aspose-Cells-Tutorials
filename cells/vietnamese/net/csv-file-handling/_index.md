@@ -39,6 +39,8 @@ Hướng dẫn lưu workbook dưới dạng CSV trong C# bằng Aspose.Cells, ch
 Hướng dẫn chi tiết cách lưu tệp Excel dưới dạng CSV bằng C# sử dụng Aspose.Cells, bao gồm các tùy chọn và ví dụ thực tế.
 ### [Tạo Workbook mới và xuất ra CSV – Hướng dẫn từng bước C#](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 Hướng dẫn chi tiết cách tạo workbook mới và xuất dữ liệu sang CSV bằng C# trong Aspose.Cells.
+### [Cách tạo CSV từ Excel bằng Aspose.Cells trong C#](./how-to-create-csv-from-excel-using-aspose-cells-in-c/)
+Hướng dẫn chi tiết cách chuyển đổi file Excel sang CSV bằng Aspose.Cells trong C#.
 
 
 
@@ -59,6 +61,14 @@ Hướng dẫn chi tiết cách tạo workbook mới bằng C# và xuất dữ l
 Hướng dẫn chi tiết cách chuyển đổi một workbook Excel sang định dạng CSV bằng C# sử dụng Aspose.Cells.
 ### [Xuất bảng sang CSV trong C# – Hướng dẫn lập trình đầy đủ](./export-table-to-csv-in-c-complete-programming-guide/)
 Hướng dẫn chi tiết cách xuất dữ liệu bảng sang tệp CSV bằng C# sử dụng Aspose.Cells.
+### [Cách xuất CSV từ Excel bằng C# – Hướng dẫn đầy đủ](./how-to-export-csv-from-excel-with-c-complete-guide/)
+Tìm hiểu cách xuất dữ liệu CSV từ Excel bằng C# với hướng dẫn chi tiết, giúp bạn tạo file CSV nhanh chóng và chính xác.
+### [Lưu Workbook dưới dạng CSV – Hướng dẫn đầy đủ xuất Excel sang CSV với kiểm soát chữ số](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-w/)
+Hướng dẫn chi tiết cách lưu workbook thành tệp CSV, kiểm soát số chữ số và định dạng khi xuất dữ liệu từ Excel.
+### [Cách lưu workbook dưới dạng CSV với định dạng chính xác bằng Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
+Hướng dẫn chi tiết cách lưu workbook thành tệp CSV với định dạng số và ngày tháng chính xác bằng Aspose.Cells cho .NET.
+### [Lưu Workbook dưới dạng CSV trong C# – Hướng dẫn lập trình đầy đủ](./save-workbook-as-csv-in-c-complete-programming-guide/)
+Hướng dẫn chi tiết cách lưu workbook thành tệp CSV bằng Aspose.Cells cho .NET trong C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

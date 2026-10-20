@@ -65,6 +65,12 @@ Naučte se, jak během konverze Excelu do PDF vložit písma, aby PDF vypadalo s
 Naučte se, jak vložit písma do PDF při exportu Excelu pomocí Aspose.Cells v C#. Kompletní krok za krokem návod.
 ### [Jak exportovat PDF z Excelu – Kompletní průvodce uložením sešitu jako PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
 Naučte se, jak snadno exportovat Excel do PDF a uložit celý sešit pomocí Aspose.Cells pro .NET.
+### [Uložení XLSX jako PDF v C# – Kompletní průvodce s PDF/A‑1b](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)
+Naučte se, jak uložit soubor XLSX jako PDF v C# s podporou PDF/A‑1b pomocí Aspose.Cells.
+### [Převod Excelu do PDF v C# – kompletní programovací průvodce](./convert-excel-to-pdf-in-c-complete-programming-guide/)
+Kompletní návod, jak v C# pomocí Aspose.Cells převést Excel do PDF, včetně nastavení a optimalizace.
+### [Jak uložit PDF s výběrovými selektory písma – kompletní průvodce](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
+Naučte se, jak pomocí Aspose.PDF uložit PDF s výběrovými selektory písma a zachovat správné zobrazení znaků.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

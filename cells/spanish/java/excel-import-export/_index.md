@@ -41,6 +41,8 @@ Aprenda a exportar datos a formato CSV con Aspose.Cells para Java. Guía paso a 
 Aprenda a exportar datos a CSV con Java, configurando dígitos significativos y rango de exportación, con ejemplos de código paso a paso.
 ### [Cómo exportar Excel: Guía paso a paso para la conversión a CSV](./how-to-export-excel-step-by-step-guide-to-csv-conversion/)
 Descubra cómo convertir archivos Excel a CSV usando Aspose.Cells para Java. Tutorial detallado con ejemplos de código.
+### [Cómo establecer delimitador y guardar como CSV con Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+Aprenda a definir el delimitador y guardar archivos como CSV usando Aspose.Cells para Java.
 ### [Exportar Excel a PDF](./exporting-excel-to-pdf/)
 Aprende a exportar archivos de Excel a PDF fácilmente con Aspose.Cells para Java. Nuestra guía paso a paso simplifica el proceso. ¡Empieza a convertir hoy mismo!
 ### [Crear PDF a partir de un libro de trabajo – Guía completa de Java](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
@@ -129,6 +131,30 @@ Aprenda a exportar gráficos de Excel como imágenes e insertarlos en documentos
 Aprenda a exportar archivos de Excel a SVG usando Aspose.Cells para Java. Guía paso a paso con ejemplos de código.
 ### [Crear archivo FlatOPC desde un libro de Excel – Guía paso a paso](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
 Aprenda a crear un archivo FlatOPC a partir de un libro de Excel usando Aspose.Cells para Java. Guía paso a paso con ejemplos de código.
+### [Exportar JSON a Excel con Java – Guía completa paso a paso](./export-json-to-excel-with-java-complete-step-by-step-guide/)
+Aprenda a convertir datos JSON a Excel con Aspose.Cells para Java. Guía paso a paso con código fuente para una conversión fluida.
+### [Convertir xlsx a PowerPoint con Java – guía completa](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
+Aprenda a convertir archivos XLSX a presentaciones PowerPoint usando Aspose.Slides para Java en esta guía paso a paso.
+### [Crear Excel a partir de JSON y convertir JSON a celda de Excel con Aspose.Cells](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+Aprenda a generar archivos Excel desde JSON y a convertir datos JSON en celdas de Excel usando Aspose.Cells.
+### [Importar objetos personalizados en Excel con Aspose.Cells – Guía Java](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+Aprenda a importar objetos personalizados a archivos Excel usando Aspose.Cells para Java. Guía paso a paso con ejemplos de código.
+### [Incrustar fuentes en SVG al exportar Excel a SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Aprenda a incrustar fuentes al exportar archivos de Excel a SVG usando Aspose.Cells para Java.
+### [Exportar Excel a HTML en Java – guía completa paso a paso](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+Aprenda a exportar archivos de Excel a HTML en Java con Aspose.Cells mediante una guía paso a paso completa.
+
+### [Cómo importar una lista a Excel y dar estilo a columnas en Java](./how-to-import-list-to-excel-and-style-columns-in-java/)
+Aprenda a importar listas a Excel y aplicar estilos a columnas usando Aspose.Cells para Java.
+
+### [Cómo exportar Excel a TXT con dígitos significativos limitados usando Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+Aprenda a exportar datos de Excel a archivos TXT manteniendo un número limitado de dígitos significativos con Aspose.Cells para Java.
+### [Cómo exportar Excel a PowerPoint con Aspose.Cells – guía paso a paso](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Aprenda a convertir archivos de Excel a presentaciones PowerPoint usando Aspose.Cells para Java con ejemplos de código paso a paso.
+### [Exportar JSON a Excel con Aspose.Cells en Java](./export-json-to-excel-with-aspose-cells-in-java/)
+Aprenda a exportar datos JSON a archivos Excel usando Aspose.Cells para Java. Guía paso a paso con código fuente.
+### [Cómo cargar JSON en Excel con Aspose.Cells para Java](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+Aprenda a cargar datos JSON en Excel usando Aspose.Cells para Java. Guía paso a paso con ejemplos de código.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

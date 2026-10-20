@@ -46,6 +46,8 @@
 Μάθετε πώς να μορφοποιήσετε νομίσματα σε στήλες πλέγματος χρησιμοποιώντας Aspose.Cells για .NET, βήμα προς βήμα.
 ### [Εφαρμογή μορφής αριθμού στο Excel – Οδηγός βήμα‑βήμα για μορφοποίηση στηλών](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
 Μάθετε πώς να εφαρμόζετε μορφές αριθμού σε στήλες του Excel χρησιμοποιώντας το Aspose.Cells για .NET, βήμα‑βήμα.
+### [Πώς να στρογγυλοποιήσετε αριθμούς Excel σε C# – πλήρης προγραμματιστικός οδηγός](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+Μάθετε πώς να στρογγυλοποιείτε αριθμούς στο Excel χρησιμοποιώντας C# και Aspose.Cells, βήμα-βήμα οδηγίες.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

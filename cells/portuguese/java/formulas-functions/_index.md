@@ -99,7 +99,7 @@ Aprenda a aplicar a função WRAPCOLS com Aspose.Cells para Java, incluindo exem
 Aprenda a converter uma lista em múltiplas colunas usando wrapcols no Aspose.Cells para Java.
 
 ### [Como Calcular a Cotangente no Excel – Guia Completo](./how-to-calculate-cotangent-in-excel-complete-guide/)
-
+### [Como usar Aspose em Java – criar pasta de trabalho Excel com novas funções](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
 ### [Aspose.Cells define fórmula com a função EXPAND – guia completo em Java](./aspose-cells-set-formula-with-expand-function-complete-java/)
 Aprenda a usar a função EXPAND no Aspose.Cells para Java, definindo fórmulas dinâmicas e expandindo intervalos automaticamente.
 

@@ -487,7 +487,6 @@ XLSX फ़ाइलें खोलकर और फ़ाइल नाम प�
 जानें कि Aspose.Cells for Java के साथ Excel फ़ाइलों को कई फ़ॉर्मेट में सहजता से कैसे सेव करें। यह गाइड XLSX, PDF, HTML, और बहुत कुछ को कवर करती है।
 
 ### [जावा के लिए Aspose.Cells का उपयोग करके Excel दस्तावेज़ संस्करण कैसे सेट करें](./set-excel-version-aspose-cells-java/)
-जावा के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों में संस्करण जैसे दस्तावेज़ गुण सेट और प्रबंधित करना सीखें। कुशल कार्यपुस्तिका संचालन के लिए इस चरण-दर-स्टेप मार्गदर्शिका का पालन करें।
 ### [वर्कबुक को फ़ाइल में सहेजें – Excel रेंज कॉपी करने के लिए पूर्ण जावा गाइड](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
 जावा में Aspose.Cells का उपयोग करके Excel रेंज कॉपी करके वर्कबुक को फ़ाइल में सहेजने का विस्तृत मार्गदर्शन।
 
@@ -495,6 +494,8 @@ XLSX फ़ाइलें खोलकर और फ़ाइल नाम प�
 जावा के लिए Aspose.Cells का उपयोग करके Excel में कस्टम प्रॉपर्टी जोड़ना, मान प्राप्त करना और XLSB फ़ाइल के रूप में सहेजना सीखें।
 ### [जावा के लिए वर्कबुक जापानी कैलेंडर बनाएं – पूर्ण ट्यूटोरियल](./create-workbook-japanese-calendar-complete-java-tutorial/)
 जावा में Aspose.Cells का उपयोग करके जापानी कैलेंडर के साथ वर्कबुक बनाना सीखें।
+### [Java create excel file, add custom property and save as XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+Java में Aspose.Cells का उपयोग करके Excel फ़ाइल बनाएं, कस्टम प्रॉपर्टी जोड़ें और इसे XLSB फ़ॉर्मेट में सहेजें।
 
 ## अतिरिक्त संसाधन
 

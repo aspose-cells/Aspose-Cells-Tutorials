@@ -58,6 +58,9 @@
 ### [เพิ่มตารางใน Excel ด้วย C# – ล้าง Autofilter และบันทึกไฟล์](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
 เรียนรู้วิธีเพิ่มตารางใน Excel ด้วย C# พร้อมล้าง Autofilter และบันทึกไฟล์อย่างง่ายดาย
 
+### [วิธีลบ Autofilter จากตาราง Excel ด้วย C#](./how-to-remove-autofilter-from-excel-tables-using-c/)
+เรียนรู้วิธีลบ Autofilter จากตาราง Excel อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET ด้วยคู่มือ C# ที่ครบถ้วน
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

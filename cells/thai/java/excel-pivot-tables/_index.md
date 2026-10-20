@@ -40,6 +40,8 @@ Aspose.Cells สำหรับ Java ช่วยให้คุณสามา�
 เรียนรู้วิธีการสร้างฟิลด์คำนวณใน Pivot Table โดยใช้ Aspose.Cells สำหรับ Java เพิ่มประสิทธิภาพการวิเคราะห์ข้อมูลของคุณด้วยการคำนวณแบบกำหนดเองใน Excel
 ### [การรีเฟรชข้อมูลตารางสรุปข้อมูล](./refreshing-pivot-table-data/)
 เรียนรู้วิธีการรีเฟรชข้อมูล Pivot Table ใน Aspose.Cells สำหรับ Java อัปเดตข้อมูลของคุณได้อย่างง่ายดาย
+### [วิธีคัดลอกตารางสรุปข้อมูลใน Java ด้วย Aspose.Cells](./how-to-copy-pivot-table-in-java-using-aspose-cells/)
+เรียนรู้วิธีคัดลอก Pivot Table ใน Java ด้วย Aspose.Cells เพื่อการทำซ้ำและการจัดการข้อมูลอย่างมีประสิทธิภาพ
 ### [การปรับแต่งสไตล์ตารางสรุปข้อมูล](./customizing-pivot-table-styles/)
 เรียนรู้วิธีปรับแต่งรูปแบบตารางสรุปข้อมูลใน Aspose.Cells สำหรับ Java API สร้างตารางสรุปข้อมูลที่น่าสนใจได้อย่างง่ายดาย
 ### [คัดลอกตารางสรุปข้อมูลใน Java – เก็บไว้, ส่งออกเป็น PPTX](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
@@ -55,6 +57,17 @@ Aspose.Cells สำหรับ Java ช่วยให้คุณสามา�
 เรียนรู้วิธีคัดลอกช่วงข้อมูลและตารางสรุปข้อมูลใน Excel ด้วย Aspose.Cells สำหรับ Java อย่างง่ายดาย
 ### [วิธีส่งออกตารางสรุปข้อมูลเป็น PNG – คู่มือ Java ฉบับสมบูรณ์](./how-to-export-pivot-table-as-png-complete-java-guide/)
 เรียนรู้วิธีส่งออก Pivot Table เป็นไฟล์ PNG ด้วย Aspose.Cells สำหรับ Java อย่างละเอียดและง่ายดาย
+### [คัดลอกตารางสรุปข้อมูลระหว่างเวิร์กบุ๊ก – คู่มือ Java ขั้นตอนโดยขั้นตอน](./copy-pivot-table-between-workbooks-step-by-step-java-guide/)
+เรียนรู้วิธีคัดลอก Pivot Table จากเวิร์กบุ๊กหนึ่งไปยังอีกเวิร์กบุ๊กหนึ่งโดยใช้ Aspose.Cells สำหรับ Java อย่างละเอียด
+### [สร้างเวิร์กบุ๊กใหม่ใน Java – คู่มือเต็มการคัดลอกตารางสรุปข้อมูล](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
+เรียนรู้วิธีสร้างเวิร์กบุ๊กใหม่และคัดลอกตารางสรุปข้อมูลใน Java ด้วย Aspose.Cells อย่างละเอียด
+### [วิธีทำสำเนาแผ่นงานและคงตารางสรุปข้อมูลใน Java](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
+เรียนรู้วิธีทำสำเนาแผ่นงานพร้อมคงตารางสรุปข้อมูลใน Aspose.Cells สำหรับ Java
+### [วิธีทำสำเนาตารางสรุปใน Java ด้วย Aspose.Cells](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
+เรียนรู้วิธีทำสำเนาตารางสรุปใน Java ด้วย Aspose.Cells อย่างง่ายดาย
+### [วิธีคัดลอกช่วงและคงตารางสรุปข้อมูลใน Java](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
+เรียนรู้วิธีคัดลอกช่วงข้อมูลและคงตารางสรุปข้อมูลใน Java ด้วย Aspose.Cells
+### [วิธีทำสำเนาตารางสรุปข้อมูลใน Excel ด้วย Java – คู่มือขั้นตอนโดยละเอียด](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -71,6 +71,8 @@ Leer hoe u lettertypen vanuit Excel in HTML kunt insluiten met Aspose.Cells voor
 ### [HTML5-tekenreeks programmatisch uit een cel in Excel halen](./getting-html5-string-from-cell/)
 ### [Overlappende inhoud verbergen met Cross Hide Right tijdens het opslaan naar HTML](./hiding-overlaid-content-with-cross-hide-right/)
 ### [Stijlen van tabellelementen voorafvoegen met HTML-opties voor opslaan](./prefixing-table-elements-styles/)
+### [Excel exporteren naar HTML – Complete gids voor het behouden van bevroren rijen](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
+Leer hoe u bevroren rijen in Excel behoudt bij het exporteren naar HTML met Aspose.Cells voor .NET in deze stap‑voor‑stap handleiding.
 ### [Koppen programmatisch afdrukken in Excel](./printing-headings/)
 ### [Zelfsluitende tags programmatisch herkennen in Excel](./recognizing-self-closing-tags/)
 ### [Schaalbare kolombreedte programmatisch instellen in Excel](./setting-scalable-column-width/)
@@ -105,6 +107,8 @@ Leer hoe u met Aspose.Cells voor .NET HTML genereert vanuit een Excel-tabel in C
 Leer hoe u Excel naar HTML exporteert met C# en Aspose.Cells voor .NET in een volledige programmeergids.
 ### [Hoe lettertypen insluiten bij het exporteren van Excel naar HTML – Complete C#-gids](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
 Leer hoe u lettertypen kunt insluiten bij het exporteren van Excel naar HTML met Aspose.Cells voor .NET in deze stapsgewijze handleiding.
+### [Excel opslaan als HTML – Complete gids voor het exporteren van Excel met opmaak](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
+Leer hoe u Excel-bestanden volledig met opmaak opslaat als HTML met Aspose.Cells voor .NET in deze stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

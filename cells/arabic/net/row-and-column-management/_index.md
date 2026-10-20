@@ -46,6 +46,8 @@
 اكتشف دليلاً خطوة بخطوة لنسخ الأعمدة في Excel باستخدام Aspose.Cells لـ .NET. بسّط مهامك المتعلقة بالبيانات بتعليمات واضحة.
 ### [نسخ الصفوف باستخدام Aspose.Cells لـ .NET](./copying-rows/)
 تعرّف على كيفية نسخ الصفوف بكفاءة في ملفات Excel باستخدام Aspose.Cells لـ .NET. يُبسّط هذا الدليل المُفصّل عملية نسخ الصفوف لتلبية احتياجات إدارة بياناتك.
+### [نسخ الصفوف من ورقة عمل إلى أخرى – دليل C# كامل](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+دليل شامل خطوة بخطوة لنسخ الصفوف بين أوراق العمل في Excel باستخدام Aspose.Cells لـ .NET ولغة C#.
 ### [تجميع الصفوف والأعمدة في Excel باستخدام Aspose.Cells](./grouping-rows-and-columns/)
 تعرف على كيفية تجميع الصفوف والأعمدة في Excel باستخدام Aspose.Cells for .NET باستخدام هذا الدليل خطوة بخطوة.
 ### [إنشاء صف ملخص أدناه باستخدام Aspose.Cells لـ .NET](./summary-row-below/)
@@ -68,8 +70,12 @@
 دليل خطوة بخطوة لحذف صف كامل من ملف Excel باستخدام C#.
 ### [حذف الصفوف باستخدام Aspose.Cells لـ .NET – حماية صف العنوان في Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 تعلم كيفية حذف الصفوف مع الحفاظ على صف العنوان غير متأثر في ملفات Excel باستخدام Aspose.Cells لـ .NET.
+### [كيفية استخدام Aspose.Cells لحذف الصفوف في جدول Excel مع الحفاظ على رأس الجدول](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
+تعلم كيفية حذف الصفوف من جدول Excel باستخدام Aspose.Cells مع الحفاظ على صف العنوان.
 ### [حذف صفوف متعددة في Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 تعلم كيفية حذف صفوف متعددة في Excel باستخدام Aspose.Cells لـ .NET. يغطي هذا الدليل المفصل، خطوة بخطوة، المتطلبات الأساسية، وأمثلة البرمجة، والأسئلة الشائعة للمطورين.
+### [كيفية حذف الصفوف في Excel باستخدام C# – حماية رأس الجدول](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
+تعلم كيفية حذف صفوف Excel مع الحفاظ على رأس الجدول باستخدام Aspose.Cells لـ .NET و C#.
 ### [إدراج عمود في Aspose.Cells .NET](./insert-column-aspose-cells/)
 تعرّف على كيفية إدراج عمود في Excel باستخدام Aspose.Cells لـ .NET. اتبع دليلنا البسيط خطوة بخطوة لإضافة عمود جديد بسلاسة. مثالي لمطوري .NET.
 ### [إدراج صف في Aspose.Cells .NET](./insert-row-aspose-cells/)
@@ -102,6 +108,8 @@
 اكتشف دليلًا خطوة بخطوة لإدراج صفوف متعددة في GridJs بسرعة وسهولة.
 ### [كيفية استخدام wrapcols في C# – دليل كامل مع Excel WRAPROWS وإعادة حساب الصيغ](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 تعلم كيفية تطبيق wrapcols و wraprows في Excel باستخدام C# وإعادة حساب الصيغ بسهولة خطوة بخطوة.
+### [نقل الخلايا للأعلى في Excel باستخدام C# – دليل كامل](./shift-cells-up-in-excel-with-c-complete-guide/)
+تعلم كيفية تحريك الخلايا للأعلى في ملفات Excel باستخدام C# مع Aspose.Cells خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

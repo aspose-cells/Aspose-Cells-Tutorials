@@ -40,13 +40,8 @@
 學習如何使用 Aspose.Cells for .NET 在 C# 中提取 Excel 工作簿的第一個表格，快速掌握資料讀取技巧。
 ### [如何在 C# Excel 自動化中使用自動篩選 – 完整逐步指南](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
 透過本完整的逐步教學，學習在 C# 中使用 Aspose.Cells 進行 Excel 自動篩選，提升資料處理效率。
-
-
-
-
-
-
-
+### [如何使用 C# 從 Excel 表格中移除自動篩選](./how-to-remove-autofilter-from-excel-tables-using-c/)
+說明如何在 C# 中從 Excel 表格移除自動篩選功能。
 
 ### [在 C# 中移除 Excel 自動篩選 – 完整步驟指南](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 透過本完整的逐步指南，了解如何在 C# 中使用 Aspose.Cells 移除 Excel 的自動篩選功能。

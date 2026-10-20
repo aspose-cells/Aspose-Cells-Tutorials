@@ -94,6 +94,7 @@ Pelajari cara mengekstrak teks rumus dari sel Excel menggunakan Aspose.Cells den
 ### [Cara Menghitung Kotangen di Excel – Panduan Lengkap](./how-to-calculate-cotangent-in-excel-complete-guide/)
 
 ### [Mengurutkan Nilai Unik di Excel – Panduan Lengkap Java untuk Menetapkan Rumus Array](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+### [Cara menggunakan Aspose di Java – membuat buku kerja Excel dengan fungsi baru](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
 
 ### [Aspose.Cells menetapkan rumus dengan fungsi EXPAND – panduan lengkap Java](./aspose-cells-set-formula-with-expand-function-complete-java/)
 Pelajari cara menggunakan fungsi EXPAND dalam Aspose.Cells untuk Java untuk memperluas rentang data secara dinamis.

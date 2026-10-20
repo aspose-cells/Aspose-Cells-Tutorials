@@ -37,6 +37,8 @@ Aspose.Cells for Java kullanarak Excel veri dışa aktarma yöntemlerinin potans
 Java için Aspose.Cells kullanarak verileri CSV formatına nasıl aktaracağınızı öğrenin. Sorunsuz CSV aktarımı için kaynak kodlu adım adım kılavuz.
 ### [Excel Hücrelerinden CSV'ye Dışa Aktarma – Tam Kılavuz](./how-to-export-csv-from-excel-cells-complete-guide/)
 Aspose.Cells for Java kullanarak Excel hücrelerinden CSV dosyasına nasıl dışa aktaracağınızı öğrenin. Adım adım kaynak kodlu kılavuz.
+### [Aspose.Cells ile ayırıcıyı ayarlama ve CSV olarak kaydetme](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+Ayırıcıyı belirleyerek verileri CSV dosyası olarak kaydetmeyi öğrenin ve veri dışa aktarma süreçlerinizi özelleştirin.
 ### [Excel'i PDF'e Aktarma](./exporting-excel-to-pdf/)
 Aspose.Cells for Java kullanarak Excel dosyalarını zahmetsizce PDF'ye nasıl aktaracağınızı öğrenin. Adım adım kılavuzumuz süreci basitleştirir. Bugün dönüştürmeye başlayın!
 ### [Çalışma Kitabından PDF Oluşturma – Tam Java Rehberi](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
@@ -48,11 +50,14 @@ Java'da Aspose.Cells for Java ile Excel'i XML'e nasıl aktaracağınızı öğre
 ### [Excel'den Veri Aktarımı](./data-import-from-excel/)
 Aspose.Cells for Java kullanarak Excel'den veri içe aktarmayı öğrenin. Sorunsuz veri alma için kaynak kodlu kapsamlı bir kılavuz.
 ### [Excel'i JSON'a aktar](./export-excel-to-json/)
-Aspose.Cells for Java kullanarak Excel verilerini JSON'a nasıl aktaracağınızı öğrenin. Sorunsuz dönüşüm için kaynak kodlu bu adım adım kılavuzu izleyin.
 ### [JSON Dosyasını Yükleme Java – JSON'u Excel'e Dönüştürme Tam Kılavuzu](./load-json-file-java-full-guide-to-convert-json-to-excel/)
 Aspose.Cells for Java kullanarak JSON dosyasını Excel'e nasıl dönüştüreceğinizi öğrenin. Adım adım kaynak kodlu rehber.
+### [JSON'u Java ile Excel'e Aktarma – Tam Adım Adım Kılavuz](./export-json-to-excel-with-java-complete-step-by-step-guide/)
+Java ve Aspose.Cells kullanarak JSON verilerini Excel dosyasına nasıl aktaracağınızı öğrenin. Bu adım adım kılavuzla dönüşümü kolaylaştırın.
 ### [Excel İçe Aktarma Veri Doğrulaması](./excel-import-data-validation/)
 Bu kapsamlı adım adım kılavuzla Java için Aspose.Cells'i kullanarak Excel içe aktarma veri doğrulamasını nasıl uygulayacağınızı öğrenin. Veri doğruluğunu sağlayın ve kullanıcı deneyimini geliştirin. 
+### [Aspose.Cells ile Özel Nesneleri Excel'e Aktarma – Java Kılavuzu](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+Aspose.Cells for Java kullanarak özel nesneleri Excel dosyalarına nasıl aktaracağınızı adım adım öğrenin.
 ### [Excel'i HTML Java'ya Aktar](./export-excel-to-html-java/)
 Aspose.Cells for Java kullanarak Excel'i Java'da HTML'ye nasıl aktaracağınızı öğrenin. Excel dosyalarınızı zahmetsizce HTML'ye dönüştürmek için kaynak kodlu bu adım adım kılavuzu izleyin.
 ### [Java ile CSV'ye Aktarma – Önemli Basamakları Ayarlama ve Aralığı CSV'ye Aktarma](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
@@ -88,7 +93,6 @@ Aspose.Cells for Java ile XLSX dosyalarını CSV formatına nasıl aktaracağın
 ### [Excel'i Word'e Dönüştür – Tam Java Rehberi (2026)](./convert-excel-to-word-complete-java-guide-2026/)
 Aspose.Cells for Java kullanarak Excel dosyalarını Word belgelerine nasıl dönüştüreceğinizi öğrenin. Adım adım kaynak kodlu kılavuz.
 ### [Excel Dosyasını HTML'ye Dönüştür – Yazı Tipi Gömme ile Tam Rehber](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
-Aspose.Cells for Java kullanarak Excel dosyalarını HTML'ye dönüştürürken yazı tiplerini nasıl gömeceğinizi öğrenin. Adım adım kaynak kodlu kılavuz.
 ### [Excel'i HTML'ye Aktar – Dondurulmuş Panellerle Tam Kılavuz](./export-excel-to-html-complete-guide-with-frozen-panes/)
 Aspose.Cells for Java kullanarak Excel dosyalarını dondurulmuş panellerle HTML'ye nasıl dönüştüreceğinizi adım adım öğrenin.
 ### [JSON'dan Excel Oluşturma – Tam Adım Adım Kılavuz](./create-excel-from-json-full-step-by-step-guide/)
@@ -113,6 +117,24 @@ Aspose.Cells for Java kullanarak Excel dosyalarını SVG formatına nasıl dış
 Aspose.Cells for Java kullanarak Excel dosyalarını HTML'ye dönüştürürken yazı tiplerini nasıl gömeceğinizi adım adım öğrenin.
 ### [Excel Çalışma Kitabından FlatOPC Dosyası Oluşturma – Adım Adım Rehber](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
 Aspose.Cells for Java kullanarak Excel çalışma kitabından FlatOPC dosyası oluşturmayı adım adım öğrenin.
+### [Java ile XLSX'i PowerPoint'e Dönüştürme – Tam Kılavuz](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
+Aspose.Slides for Java kullanarak XLSX dosyalarını PowerPoint sunumlarına dönüştürmeyi adım adım öğrenin.
+### [Aspose.Cells ile JSON'dan Excel Oluşturma ve JSON'u Excel Hücresine Dönüştürme](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+Aspose.Cells for Java kullanarak JSON verilerini Excel dosyasına dönüştürün ve hücreye yerleştirin.
+### [Java'da Excel'i HTML'ye Aktarma – tam adım adım kılavuz](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+Aspose.Cells for Java kullanarak Excel dosyalarını HTML formatına nasıl dönüştüreceğinizi adım adım öğrenin.
+### [Excel'i SVG'ye Aktarırken Yazı Tiplerini Gömme](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Aspose.Cells for Java kullanarak Excel dosyalarını SVG'ye dışa aktarırken yazı tiplerini gömerek görüntü kalitesini koruyun.
+### [Java ile Listeyi Excel'e Aktarma ve Sütunları Stilize Etme](./how-to-import-list-to-excel-and-style-columns-in-java/)
+Java ve Aspose.Cells kullanarak bir listeyi Excel'e nasıl aktaracağınızı ve sütunları nasıl biçimlendireceğinizi öğrenin.
+### [Java ile sınırlı anlamlı basamaklarla Excel'i TXT'ye Aktarma](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+Java ve Aspose.Cells kullanarak Excel dosyalarını sınırlı anlamlı basamaklarla TXT formatına nasıl aktaracağınızı öğrenin.
+### [Aspose.Cells ile Excel'i PowerPoint'e Aktarma – adım adım rehber](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Aspose.Cells for Java kullanarak Excel dosyalarını PowerPoint sunumlarına nasıl aktaracağınızı öğrenin. Adım adım örneklerle süreci yönetin.
+### [Aspose.Cells ile Java'da JSON'u Excel'e Aktarma](./export-json-to-excel-with-aspose-cells-in-java/)
+Aspose.Cells for Java kullanarak JSON verilerini Excel dosyasına nasıl dönüştüreceğinizi öğrenin. Pratik örneklerle süreci yönetin.
+### [JSON'u Excel'e Yükleme – Aspose.Cells for Java ile](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+Aspose.Cells for Java kullanarak JSON verilerini Excel'e nasıl yükleyeceğinizi öğrenin. Kaynak kodlu adım adım kılavuz.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

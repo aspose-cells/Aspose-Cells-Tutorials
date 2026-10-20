@@ -49,6 +49,8 @@ Naučte se, jak automatizovat generování dynamických reportů v Excelu pomoc�
 
 ### [Vytvoření hlavního a podrobného sešitu pomocí Aspose.Cells (Java)](./create-master-detail-workbook-with-aspose-cells-java/)
 Naučte se, jak pomocí Aspose.Cells pro Javu vytvořit sešit s hlavní a podrobnou úrovní pro komplexní reporty.
+### [Vytvoření detailních listů v Javě s Aspose.Cells smart markery](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
+Naučte se generovat detailní listy v Excelu pomocí smart markerů v Aspose.Cells pro Javu.
 
 ### [Aspose Cells Smart Markery: Načtení šablony Excel a generování Excelu ze šablony](./aspose-cells-smart-markers-load-excel-template-generate-exce/)
 Naučte se načíst Excel šablonu a pomocí Smart Markerů vygenerovat nový Excel soubor přímo ze šablony.
@@ -59,6 +61,8 @@ Naučte se, jak naplnit šablonu Excel daty a vytvořit report pomocí Aspose.Ce
 
 ### [Aspose.Cells Smart Markery – Naplnění šablony Excel](./aspose-cells-smart-markers-populate-excel-template/)
 Naučte se, jak pomocí Smart Markerů naplnit Excel šablonu daty a vytvořit report v Aspose.Cells pro Javu.
+### [Jak naplnit Excel šablonu daty pomocí Aspose.Cells](./how-to-populate-excel-template-with-data-using-aspose-cells/)
+Naučte se, jak pomocí Aspose.Cells naplnit Excel šablonu daty z vaší aplikace.
 
 ## Další zdroje
 

@@ -39,6 +39,8 @@
 学习如何使用 Aspose.Cells for .NET 在 C# 中将 XLSX 文件导出为 CSV，实现高效数据转换。
 ### [创建新工作簿并导出为 CSV – 步骤详解 C# 指南](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 学习如何使用 Aspose.Cells for .NET 在 C# 中创建工作簿并将其导出为 CSV 文件，步骤清晰易懂。
+### [使用 Aspose.Cells 在 C# 中将 Excel 创建为 CSV](./how-to-create-csv-from-excel-using-aspose-cells-in-c/)
+学习如何使用 Aspose.Cells for .NET 在 C# 环境下将 Excel 工作簿转换为 CSV 文件，实现高效数据导出。
 
 
 
@@ -59,6 +61,14 @@
 学习如何使用 Aspose.Cells for .NET 将 Excel 工作簿完整转换为 CSV 文件，提供 C# 代码示例和最佳实践。
 ### [将表格导出为 CSV – 完整 C# 指南](./export-table-to-csv-in-c-complete-programming-guide/)
 学习如何使用 Aspose.Cells for .NET 在 C# 中将表格导出为 CSV 文件，提供完整代码示例和最佳实践。
+### [如何使用 C# 从 Excel 导出 CSV – 完整指南](./how-to-export-csv-from-excel-with-c-complete-guide/)
+本指南详细演示如何使用 Aspose.Cells for .NET 和 C# 将 Excel 工作簿导出为 CSV 文件，涵盖关键设置与最佳实践。
+### [将工作簿保存为 CSV – 完整指南：导出 Excel 为 CSV 并控制小数位数](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-w/)
+了解如何使用 Aspose.Cells for .NET 将 Excel 工作簿导出为 CSV，并精确控制数字的小数位数。
+### [使用 Aspose.Cells 将工作簿保存为 CSV 并保持精确格式](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
+学习如何使用 Aspose.Cells 将工作簿导出为 CSV，同时保留数字、日期等精确格式。
+### [使用 C# 将工作簿保存为 CSV – 完整编程指南](./save-workbook-as-csv-in-c-complete-programming-guide/)
+学习如何使用 Aspose.Cells for .NET 将 Excel 工作簿导出为 CSV 文件的完整步骤和最佳实践。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

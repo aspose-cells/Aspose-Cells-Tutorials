@@ -34,6 +34,8 @@
 Узнайте, как отключить отображение комментариев нижнего уровня при сохранении книги Excel в формате HTML с помощью Aspose.Cells для .NET, из этого подробного пошагового руководства.
 ### [Создание новой книги в C# – загрузка Excel с японским календарем](./create-new-workbook-in-c-load-excel-with-japanese-calendar/)
 Узнайте, как создать новую книгу и загрузить Excel, используя японский календарь, с помощью Aspose.Cells для .NET.
+### [Чтение файла Excel C# – Как эффективно загрузить книгу Excel в C#](./read-excel-file-c-how-to-load-excel-workbook-c-efficiently/)
+Узнайте, как быстро и эффективно загрузить книгу Excel в приложении C# с помощью Aspose.Cells для .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

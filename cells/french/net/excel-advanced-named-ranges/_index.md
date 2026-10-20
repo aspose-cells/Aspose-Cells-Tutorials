@@ -17,19 +17,19 @@
 
 ## Introduction
 
-Lorsque vous explorez les fonctionnalités avancées d'Excel, les plages nommées se démarquent. Elles fonctionnent comme des signets dans vos feuilles de calcul, vous permettant de consulter des données sans avoir à parcourir les lignes et les colonnes. Quel est donc leur avantage ? Imaginez un vaste ensemble de données auquel vous devez appliquer des opérations spécifiques. Au lieu de faire défiler et de rechercher constamment, vous pouvez simplement utiliser la plage nommée que vous avez créée ! 
+Lorsque vous explorez les fonctionnalités avancées d'Excel, les plages nommées se démarquent. Elles fonctionnent comme des signets dans vos feuilles de calcul, vous permettant de consulter des données sans avoir à parcourir les lignes et les colonnes. Quel est donc leur avantage ? Imaginez un vaste ensemble de données auquel vous devez appliquer des opérations spécifiques. Au lieu de faire défiler et de rechercher constamment, vous pouvez simplement utiliser la plage nommée que vous avez créée ! 
 
 ## Identifier les cellules dans une plage nommée dans Excel
 
-Commençons par identifier facilement les cellules d'une plage nommée avec Aspose.Cells pour .NET. Le processus est simple ! Vous devez d'abord définir une plage nommée dans votre fichier Excel. Aspose rend cette opération incroyablement intuitive. Quelques lignes de code suffisent pour accéder à vos données et les manipuler. Identifier des cellules spécifiques dans une plage nommée simplifie considérablement votre flux de travail. 
+Commençons par identifier facilement les cellules d'une plage nommée avec Aspose.Cells pour .NET. Le processus est simple ! Vous devez d'abord définir une plage nommée dans votre fichier Excel. Aspose rend cette opération incroyablement intuitive. Quelques lignes de code suffisent pour accéder à vos données et les manipuler. Identifier des cellules spécifiques dans une plage nommée simplifie considérablement votre flux de travail. 
 
-Imaginez : vous disposez d'un rapport de ventes avec différentes régions identifiées par des plages nommées. Au lieu de filtrer chaque fois que vous souhaitez extraire des informations, vous pouvez y accéder directement par leur nom. Cela permet non seulement de gagner du temps, mais aussi de minimiser les erreurs. Pour en savoir plus, consultez notre tutoriel. [Identification des cellules dans une plage nommée](./identify-cells-in-named-range/). 
+Imaginez : vous disposez d'un rapport de ventes avec différentes régions identifiées par des plages nommées. Au lieu de filtrer chaque fois que vous souhaitez extraire des informations, vous pouvez y accéder directement par leur nom. Cela permet non seulement de gagner du temps, mais aussi de minimiser les erreurs. Pour en savoir plus, consultez notre tutoriel. [Identification des cellules dans une plage nommée](./identify-cells-in-named-range/). 
 
 ## Fusionner les cellules d'une plage nommée dans Excel
 
-L'étape suivante est l'une des opérations les plus esthétiques et pratiques : la fusion de cellules d'une plage nommée. Vous souhaitez mieux organiser vos feuilles de calcul ? La fusion de cellules vous permet de créer des en-têtes couvrant plusieurs colonnes ou lignes, donnant ainsi à votre rapport un aspect clair et professionnel. Avec Aspose.Cells pour .NET, la fusion de cellules est un jeu d'enfant. 
+L'étape suivante est l'une des opérations les plus esthétiques et pratiques : la fusion de cellules d'une plage nommée. Vous souhaitez mieux organiser vos feuilles de calcul ? La fusion de cellules vous permet de créer des en-têtes couvrant plusieurs colonnes ou lignes, donnant ainsi à votre rapport un aspect clair et professionnel. Avec Aspose.Cells pour .NET, la fusion de cellules est un jeu d'enfant. 
 
-L'avantage de cette fonctionnalité réside dans sa simplicité d'utilisation. Vous pouvez fusionner des cellules par programmation, ce qui permet d'automatiser votre mise en forme. Imaginez créer des rapports hebdomadaires dont l'en-tête fusionne automatiquement à chaque fois. Avec Aspose, cette tâche ne prend que quelques clics et lignes de code. Vous vous demandez comment procéder ? Consultez notre guide. [Fusion de cellules dans une plage nommée](./merge-cells-in-named-range/).
+L'avantage de cette fonctionnalité réside dans sa simplicité d'utilisation. Vous pouvez fusionner des cellules par programmation, ce qui permet d'automatiser votre mise en forme. Imaginez créer des rapports hebdomadaires dont l'en-tête fusionne automatiquement à chaque fois. Avec Aspose, cette tâche ne prend que quelques clics et lignes de code. Vous vous demandez comment procéder ? Consultez notre guide. [Fusion de cellules dans une plage nommée](./merge-cells-in-named-range/).
 
 ## Tutoriels sur les opérations avancées avec les plages nommées dans Excel
 ### [Identifier les cellules dans une plage nommée dans Excel](./identify-cells-in-named-range/)
@@ -40,6 +40,10 @@ Apprenez à fusionner des cellules d'une plage nommée avec Aspose.Cells pour .N
 Apprenez à créer un classeur Excel, ajouter des tableaux et définir des règles de nommage avec Aspose.Cells pour .NET, étape par étape.
 ### [Enregistrer le classeur Excel et ajouter une plage nommée – Guide complet C#](./save-excel-workbook-and-add-named-range-full-c-guide/)
 Apprenez à enregistrer un classeur Excel et à créer une plage nommée avec Aspose.Cells pour .NET en C#.
+### [Créer un classeur Excel en C# – Ajouter une plage nommée et définir le nom du tableau](./create-excel-workbook-in-c-add-named-range-set-table-name/)
+Apprenez à créer un classeur Excel en C#, ajouter une plage nommée et définir le nom d’un tableau avec Aspose.Cells.
+### [Attribuer un nom à un tableau Excel et éviter les conflits de nommage](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
+Apprenez à nommer un tableau Excel et à prévenir les conflits de nommage avec Aspose.Cells pour .NET, étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

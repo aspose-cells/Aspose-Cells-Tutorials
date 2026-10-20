@@ -56,12 +56,18 @@ Aspose.Words Java 的代码教程
 ### [精通 Aspose.Cells Java&#58; 如何中断 Excel 工作簿中的公式计算](./master-aspose-cells-java-interrupt-formula-calculation-workbook/)
 学习如何使用 Aspose.Cells for Java 高效中断工作簿中的公式计算。适用于优化大数据集并防止无限循环。
 
+### [如何在 Java 中使用 Aspose.Cells 强制公式计算](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+演示如何使用 Aspose.Cells 在 Java 环境下强制重新计算工作簿中的公式。
+
 ### [使用 Aspose.Cells Java&#58; 优化 Excel 计算——掌握计算链以实现高效工作簿处理](./optimize-excel-aspose-cells-java-calculation-chains/)
 了解如何通过实现计算链、有效计算公式并更新单元格值，使用 Aspose.Cells for Java 提升 Excel 性能。
 ### [在 Java 中打开 XLSX 文件 – 完整指南：加载工作簿并重新计算公式](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)
 学习如何使用 Aspose.Cells for Java 打开 XLSX 文件、加载工作簿并重新计算公式，以确保数据准确性。
 ### [Java 中的动态数组公式：创建 Excel 工作簿并计算所有公式](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
 学习如何在 Java 中使用 Aspose.Cells 创建工作簿并利用动态数组公式一次性计算所有公式，实现高效数据处理。
+
+### [在 Java 中使用 Aspose.Cells 刷新 Excel 工作簿](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
+了解如何在 Java 应用程序中使用 Aspose.Cells 刷新工作簿以获取最新计算结果。
 
 ## 其他资源
 - [Aspose.Cells for Java 文档](https://docs.aspose.com/cells/java/)

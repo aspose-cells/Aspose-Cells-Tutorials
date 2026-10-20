@@ -36,6 +36,8 @@
 Ανακαλύψτε πώς να εφαρμόσετε την επικύρωση δεκαδικών δεδομένων στο Excel χρησιμοποιώντας το Aspose.Cells για .NET με τον εύχρηστο οδηγό μας. Βελτιώστε την ακεραιότητα των δεδομένων χωρίς κόπο.
 ### [Αφαίρεση Αυτόματου Φίλτρου από το Excel – Πλήρης Οδηγός C#](./remove-autofilter-from-excel-complete-c-guide/)
 Μάθετε πώς να αφαιρέσετε το αυτόματο φίλτρο από αρχεία Excel χρησιμοποιώντας το Aspose.Cells σε .NET με C#.
+### [Αφαίρεση αυτόματου φίλτρου από πίνακες Excel με C#](./how-to-remove-autofilter-from-excel-tables-using-c/)
+Μάθετε πώς να αφαιρέσετε το AutoFilter από πίνακες Excel χρησιμοποιώντας Aspose.Cells σε C#.
 ### [Λήψη του Πρώτου Πίνακα από το Βιβλίο Εργασίας Excel σε C# – Πλήρης Οδηγός](./get-first-table-from-excel-workbook-in-c-complete-guide/)
 Μάθετε πώς να εξάγετε τον πρώτο πίνακα από ένα αρχείο Excel χρησιμοποιώντας Aspose.Cells σε C#.
 ### [Πώς να χρησιμοποιήσετε το AutoFilter σε αυτοματοποίηση Excel με C# – Πλήρης οδηγός βήμα‑βήμα](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)

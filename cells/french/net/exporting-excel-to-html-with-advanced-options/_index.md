@@ -65,6 +65,8 @@ Enfin, parlons des petits détails qui font toute la différence. La possibilit�
 
 
 ## Tutoriels sur l'exportation d'Excel vers HTML avec les options avancées
+### [Enregistrer Excel en HTML – Guide complet pour exporter Excel avec mise en forme](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
+Découvrez comment enregistrer un classeur Excel en HTML tout en conservant la mise en forme avec Aspose.Cells pour .NET dans ce guide complet.
 ### [Exclusion des styles inutilisés lors de l'exportation d'Excel vers HTML](./excluding-unused-styles/)
 Découvrez comment exclure les styles inutilisés lors de l’exportation d’Excel vers HTML à l’aide d’Aspose.Cells pour .NET dans ce guide détaillé étape par étape.
 ### [Enregistrer Excel en HTML – Guide complet avec exemples de code](./save-excel-as-html-complete-guide-with-code-samples/)
@@ -147,6 +149,8 @@ Apprenez à intégrer des polices lors de l'exportation d'Excel vers HTML avec C
 
 ### [Exporter Excel vers HTML avec C# – Guide complet de programmation](./export-excel-to-html-with-c-complete-programming-guide/)
 Apprenez à exporter Excel vers HTML en C# avec Aspose.Cells, guide complet étape par étape.
+### [Exporter Excel vers HTML – Guide complet pour conserver les volets figés](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
+Découvrez comment conserver les volets figés lors de l’exportation d’Excel vers HTML avec Aspose.Cells pour .NET dans ce guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

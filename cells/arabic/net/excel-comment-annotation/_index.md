@@ -46,6 +46,8 @@
 
 
 
+### [إدراج تعليق في Excel باستخدام C# – دليل خطوة بخطوة](./insert-comment-into-excel-with-c-step-by-step-guide/)
+تعلم كيفية إدراج تعليق في ملف Excel باستخدام C# خطوة بخطوة مع Aspose.Cells.
 
 
 
@@ -63,6 +65,8 @@
 تعرّف على كيفية إضافة تعليق إلى خلية في Excel باستخدام Aspose.Cells لـ .NET أثناء إنشاء ملف من البيانات.
 ### [إدراج تعليق Excel باستخدام C# – دليل SmartMarker الكامل](./insert-excel-comment-with-c-complete-smartmarker-guide/)
 تعلم كيفية إضافة تعليقات إلى ملفات Excel باستخدام C# وSmartMarker في Aspose.Cells .NET خطوة بخطوة.
+### [كيفية إدراج تعليق في Excel باستخدام Aspose.Cells](./how-to-insert-comment-in-excel-using-aspose-cells/)
+تعرّف على كيفية إدراج تعليق في Excel باستخدام Aspose.Cells لـ .NET. اضف تعليقات بسهولة لتحسين جداول البيانات.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

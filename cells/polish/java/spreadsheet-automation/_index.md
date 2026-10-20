@@ -65,6 +65,8 @@ Dowiedz się, jak używać funkcji Expand w Excelu przy pomocy Aspose.Cells for 
 
 ### [Jak wyczyścić AutoFilter w Excelu przy użyciu Javy – Kompletny przewodnik](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
 Dowiedz się, jak w kilku krokach usunąć filtr AutoFilter w Excelu przy pomocy Aspose.Cells for Java.
+### [Utwórz nowy skoroszyt Aspose – dodaj własną właściwość Excela i zapisz jako XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+Dowiedz się, jak utworzyć nowy skoroszyt, dodać własną właściwość i zapisać go w formacie XLSB przy użyciu Aspose.Cells for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

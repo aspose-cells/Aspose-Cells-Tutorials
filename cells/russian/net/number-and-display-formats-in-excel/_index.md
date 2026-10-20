@@ -46,6 +46,8 @@
 Узнайте, как программно отформатировать валюту в столбце сетки с помощью Aspose.Cells для .NET.
 ### [Применение числового формата в Excel – Пошаговое руководство по форматированию столбцов](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
 Узнайте, как с помощью Aspose.Cells для .NET применять числовые форматы к столбцам Excel шаг за шагом.
+### [Как округлять числа в Excel в C# – полное руководство по программированию](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+Узнайте, как округлять числа в Excel с помощью Aspose.Cells для .NET на C# в полном пошаговом руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

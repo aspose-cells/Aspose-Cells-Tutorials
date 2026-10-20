@@ -46,6 +46,8 @@ Scopri come aggiungere commenti a Excel usando C# con Aspose.Cells, passo dopo p
 
 
 
+### [Inserire commento in Excel con C# – guida passo‑a‑passo](./insert-comment-into-excel-with-c-step-by-step-guide/)
+Scopri come inserire commenti in un file Excel usando C# con Aspose.Cells, passo dopo passo.
 
 
 
@@ -63,6 +65,8 @@ Scopri come inserire commenti in una cella Excel utilizzando i marker intelligen
 Scopri come aggiungere un commento a una cella generando un file Excel da dati con Aspose.Cells per .NET.
 ### [Inserire un commento Excel con C# – Guida completa a SmartMarker](./insert-excel-comment-with-c-complete-smartmarker-guide/)
 Scopri come inserire commenti in Excel usando C# e SmartMarker con Aspose.Cells per .NET.
+### [Come inserire un commento in Excel usando Aspose.Cells](./how-to-insert-comment-in-excel-using-aspose-cells/)
+Scopri come inserire commenti in Excel con Aspose.Cells per .NET in pochi passaggi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

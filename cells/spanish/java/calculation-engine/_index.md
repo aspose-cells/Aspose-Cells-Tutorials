@@ -65,6 +65,12 @@ Aprenda a abrir archivos XLSX, cargar libros de trabajo y recalcular todas las f
 ### [Fórmulas de matriz dinámica en Java: crear libro de Excel y calcular todas las fórmulas](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
 Aprenda a crear libros de Excel en Java y a calcular automáticamente todas las fórmulas de matrices dinámicas para mejorar la eficiencia de sus hojas de cálculo.
 
+### [Cómo actualizar libros de Excel en Java usando Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
+Aprende a recargar y actualizar libros de Excel en tiempo de ejecución con Aspose.Cells para Java.
+
+### [Cómo forzar el cálculo de fórmulas en Java con Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+Aprende a forzar la recalculación de fórmulas en libros de trabajo usando Aspose.Cells para Java.
+
 ## Recursos adicionales
 - [Documentación de Aspose.Cells para Java](https://docs.aspose.com/cells/java/)
 - [Referencia de API de Aspose.Cells para Java](https://reference.aspose.com/cells/java/)

@@ -104,6 +104,10 @@ Naučte se, jak programově aktualizovat vzorce Power Query v sešitech Excelu p
 
 ### [Jak používat lambda v C# s Excelovými vzorci – Kompletní průvodce](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
 ### [Jak použít WRAPCOLS v C# – Vytvořit Excel sešit s funkcemi Wrap](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+### [Vytvořte sešit Excel s funkcí EXPAND – Kompletní průvodce](./create-excel-workbook-with-expand-formula-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells vytvořit sešit Excel a použít funkci EXPAND pro dynamické rozšíření dat.
+
+## Pochopení typů vzorců v Excelu
 
 ### [Vytvoření Excel sešitu v C# – průvodce Lambda, SEQUENCE a EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 Naučte se, jak pomocí Aspose.Cells v C# vytvořit sešit Excel s funkcemi Lambda, SEQUENCE a EXPAND pro dynamické výpočty.
@@ -169,6 +173,11 @@ Pro robustní implementaci vzorce:
 Zvládnutím těchto schopností tvorby vzorců s Aspose.Cells pro .NET můžete ve svých tabulkách vytvářet sofistikované výpočetní nástroje, které poskytují přesné a dynamické výsledky bez nutnosti instalace Excelu.
 ### [Jak vypočítat kotangens v Excelu pomocí C# – Vytvořit sešit, použít EXPAND a uložit](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
 Naučte se, jak pomocí Aspose.Cells v C# vypočítat kotangens v Excelu, vytvořit sešit, použít funkci EXPAND a uložit výsledek.
+### [Jak použít SEQUENCE v C# – Vytvořit Excel sešit](./how-to-use-sequence-in-c-create-excel-workbook/)
+Naučte se, jak pomocí funkce SEQUENCE v C# vytvořit sešit Excel s dynamickými daty pomocí Aspose.Cells.
+
+### [Zapsání maticového vzorce v C# – Kompletní programovací průvodce](./write-array-formula-in-c-complete-programming-guide/)
+Naučte se, jak v C# pomocí Aspose.Cells vytvořit a aplikovat maticové vzorce v Excelu pro pokročilé výpočty.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

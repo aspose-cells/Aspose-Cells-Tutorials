@@ -78,6 +78,7 @@ Chuyển đổi hướng văn bản trong Excel bằng Aspose.Cells cho .NET. L�
 Tìm hiểu cách ngắt dòng văn bản dài trong ô Excel bằng Aspose.Cells cho .NET trong hướng dẫn dễ làm theo này. Biến đổi bảng tính của bạn một cách dễ dàng.
 ### [Tạo kiểu ô trong C# – Cách áp dụng kiểu cho ô và căn giữa văn bản](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
 Hướng dẫn tạo kiểu ô trong Aspose.Cells cho .NET bằng C#, áp dụng kiểu và căn giữa nội dung ô một cách dễ dàng.
+### [Cách tạo workbook Excel bằng C# với định dạng tùy chỉnh và lưu dưới dạng XLSX](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

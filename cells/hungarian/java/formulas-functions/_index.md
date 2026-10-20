@@ -100,6 +100,8 @@ Ismerje meg, hogyan számíthatja ki a kotangens értékét Excelben, lépésrő
 
 ### [Rendezze a egyedi értékeket Excelben – Teljes Java útmutató tömbképletek beállításához](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 Tanulja meg, hogyan rendezheti és szűrheti az egyedi értékeket Excelben tömbképletekkel Java segítségével.
+### [Hogyan használjuk az Aspose-t Java-ban – új függvényekkel Excel munkafüzet létrehozása](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+Ismerje meg, hogyan hozhat létre új függvényeket tartalmazó Excel munkafüzetet az Aspose.Cells for Java segítségével.
 
 ### [Aspose.Cells képlet beállítása EXPAND függvénnyel – teljes Java útmutató](./aspose-cells-set-formula-with-expand-function-complete-java/)
 Ismerje meg, hogyan állíthat be képleteket az EXPAND függvénnyel az Aspose.Cells for Java használatával.

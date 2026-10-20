@@ -59,6 +59,10 @@
 เรียนรู้ขั้นตอนการส่งออกแผนภูมิจากไฟล์ Excel ไปยัง PowerPoint ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดครบถ้วน
 ### [แปลง Excel เป็น PowerPoint – คู่มือเต็มขั้นตอน](./convert-excel-to-powerpoint-full-step-by-step-guide/)
 เรียนรู้วิธีแปลงไฟล์ Excel ไปเป็น PowerPoint อย่างละเอียดด้วยขั้นตอนครบถ้วนโดยใช้ Aspose.Cells สำหรับ Java
+### [วิธีบันทึก Excel เป็น DOCX ด้วย Aspose.Cells ใน C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+เรียนรู้วิธีบันทึกไฟล์ Excel เป็น DOCX ด้วย Aspose.Cells ใน C# อย่างง่ายดาย
+### [แปลง Excel เป็น PowerPoint ด้วย Aspose.Cells ใน Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+เรียนรู้วิธีแปลงไฟล์ Excel ไปเป็น PowerPoint ด้วย Aspose.Cells สำหรับ Java อย่างง่ายดาย
 
 ### [แปลง Excel ไปเป็น PowerPoint – คู่มือเต็มสำหรับ Java](./convert-excel-to-powerpoint-complete-java-guide/)
 เรียนรู้วิธีแปลงไฟล์ Excel ไปเป็นงานนำเสนอ PowerPoint อย่างเต็มรูปแบบด้วย Aspose.Cells สำหรับ Java
@@ -68,6 +72,8 @@
 
 ### [วิธีใช้ WRAPCOLS ใน Java – คู่มือฉบับสมบูรณ์สำหรับสูตรอาร์เรย์ใน Excel](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
 เรียนรู้วิธีใช้ฟังก์ชัน WRAPCOLS ใน Java เพื่อจัดการสูตรอาร์เรย์ใน Excel อย่างเต็มที่ พร้อมตัวอย่างโค้ดและแนวทางปฏิบัติ
+### [วิธีคัดลอกช่วงจาก Excel และส่งออกเป็น PowerPoint ด้วย Java](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+เรียนรู้วิธีคัดลอกช่วงข้อมูลจากไฟล์ Excel แล้วส่งออกเป็นสไลด์ PowerPoint ด้วย Aspose.Cells และ Aspose.Slides สำหรับ Java
 
 ## แหล่งข้อมูลเพิ่มเติม
 

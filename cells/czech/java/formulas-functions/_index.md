@@ -92,7 +92,8 @@ Naučte se, jak pomocí Aspose.Cells pro Javu implementovat funkci WRAPCOLS v Ex
 ### [Jak vypočítat kotangens v Excelu – Kompletní průvodce](./how-to-calculate-cotangent-in-excel-complete-guide/)
 Naučte se, jak pomocí Excelu vypočítat kotangens a využít tuto funkci v různých výpočtech.
 ### [Řazení unikátních hodnot v Excelu – Kompletní průvodce v Javě pro nastavení maticových vzorců](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
-
+### [Jak používat Aspose v Javě – vytvořit sešit Excel s novými funkcemi](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+Naučte se, jak pomocí Aspose.Cells v Javě vytvořit nový sešit Excel a přidat vlastní funkce.
 ### [Jak použít wrapcols k převodu seznamu do více sloupců v Javě](./how-to-use-wrapcols-to-convert-a-list-into-multiple-columns/)
 
 ### [Aspose.Cells – nastavení vzorce s funkcí EXPAND – kompletní průvodce v Javě](./aspose-cells-set-formula-with-expand-function-complete-java/)

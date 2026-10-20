@@ -106,6 +106,10 @@
 
 ### [สร้างหลายแผ่นงานใน Excel ด้วย Java – คู่มือเต็มรูปแบบแบบใช้เทมเพลต](./create-multiple-sheets-in-excel-with-java-complete-template/)
 เรียนรู้วิธีสร้างหลายแผ่นงานในไฟล์ Excel ด้วย Java โดยใช้เทมเพลตที่กำหนดเองเพื่ออัตโนมัติและเพิ่มประสิทธิภาพการทำงาน
+### [วิธีล้าง Autofilter ใน Excel ด้วย Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+เรียนรู้วิธีล้างตัวกรองอัตโนมัติในไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ Java
+### [วิธีสร้างแผ่นงานรายละเอียดซ้ำใน Aspose.Cells สำหรับ Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+เรียนรู้วิธีสร้างแผ่นงานรายละเอียดที่ซ้ำกันในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java
 
 ## แหล่งข้อมูลเพิ่มเติม
 

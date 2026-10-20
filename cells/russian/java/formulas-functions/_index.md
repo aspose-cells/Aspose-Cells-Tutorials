@@ -95,6 +95,7 @@
 Узнайте, как использовать функции Excel для расчета котангенса, включая примеры кода и рекомендации по точности.
 ### [Сортировка уникальных значений в Excel – Полное руководство Java по установке формул массива](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 Узнайте, как сортировать уникальные значения и применять формулы массива в Excel с помощью Aspose.Cells для Java.
+### [Как использовать Aspose в Java – создать книгу Excel с новыми функциями](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
 
 ### [Aspose.Cells: установка формулы с функцией EXPAND – полное руководство Java](./aspose-cells-set-formula-with-expand-function-complete-java/)
 Узнайте, как использовать функцию EXPAND в формулах Aspose.Cells для Java, чтобы динамически расширять диапазоны данных.

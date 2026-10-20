@@ -130,6 +130,30 @@
 เรียนรู้วิธีสร้างไฟล์ FlatOPC จากเวิร์กบุ๊ก Excel ด้วย Aspose.Cells สำหรับ Java ผ่านขั้นตอนที่ชัดเจนและโค้ดตัวอย่าง
 ### [แปลง Excel เป็น PDF – คู่มือ Java ฉบับสมบูรณ์กับ Aspose.Cells](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
 เรียนรู้วิธีการแปลงไฟล์ Excel เป็น PDF อย่างละเอียดด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดและขั้นตอนครบถ้วน
+### [ส่งออก JSON ไปยัง Excel ด้วย Java – คู่มือขั้นตอนเต็ม](./export-json-to-excel-with-java-complete-step-by-step-guide/)
+เรียนรู้วิธีส่งออกข้อมูล JSON ไปยังไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java ด้วยคำแนะนำทีละขั้นตอนและโค้ดต้นฉบับที่ชัดเจน
+### [แปลงไฟล์ xlsx เป็น PowerPoint ด้วย Java – คู่มือฉบับสมบูรณ์](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
+เรียนรู้วิธีแปลงไฟล์ Excel (xlsx) ไปเป็น PowerPoint ด้วย Aspose.Slides สำหรับ Java พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน
+### [สร้างไฟล์ Excel จาก JSON และแปลง JSON เป็นเซลล์ Excel ด้วย Aspose.Cells](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+เรียนรู้วิธีสร้างไฟล์ Excel จากข้อมูล JSON และแปลงค่า JSON เป็นเซลล์ Excel ด้วย Aspose.Cells
+### [นำอ็อบเจกต์แบบกำหนดเองเข้าสู่ Excel ด้วย Aspose.Cells – คู่มือ Java](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+เรียนรู้วิธีนำอ็อบเจกต์แบบกำหนดเองเข้าสู่ไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java ผ่านตัวอย่างโค้ดที่เข้าใจง่าย
+### [ส่งออก Excel เป็น HTML ใน Java – คู่มือขั้นตอนเต็ม](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+เรียนรู้วิธีส่งออกไฟล์ Excel เป็น HTML ใน Java อย่างละเอียดด้วยขั้นตอนและโค้ดตัวอย่างจาก Aspose.Cells
+### [วิธีตั้งค่าตัวคั่นและบันทึกเป็น CSV ด้วย Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+### [ฝังฟอนต์ใน SVG ขณะส่งออก Excel เป็น SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+เรียนรู้วิธีฝังฟอนต์ในไฟล์ SVG เมื่อส่งออก Excel เป็น SVG ด้วย Aspose.Cells สำหรับ Java
+### [วิธีนำรายการไปยัง Excel และจัดรูปแบบคอลัมน์ใน Java](./how-to-import-list-to-excel-and-style-columns-in-java/)
+เรียนรู้วิธีนำรายการข้อมูลไปยังไฟล์ Excel และกำหนดรูปแบบคอลัมน์ด้วย Aspose.Cells สำหรับ Java
+### [วิธีส่งออก Excel เป็น TXT ด้วยจำนวนหลักสำคัญที่จำกัดโดยใช้ Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+เรียนรู้วิธีส่งออกไฟล์ Excel เป็น TXT โดยจำกัดจำนวนหลักสำคัญด้วย Aspose.Cells สำหรับ Java
+### [วิธีส่งออก Excel ไปยัง PowerPoint ด้วย Aspose.Cells – คู่มือแบบทีละขั้นตอน](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ไปยัง PowerPoint อย่างง่ายดายด้วย Aspose.Cells ผ่านขั้นตอนที่ชัดเจน
+### [ส่งออก JSON ไปยัง Excel ด้วย Aspose.Cells ใน Java](./export-json-to-excel-with-aspose-cells-in-java/)
+เรียนรู้วิธีแปลงไฟล์ JSON เป็น Excel ด้วย Aspose.Cells สำหรับ Java ด้วยขั้นตอนและโค้ดตัวอย่างที่ชัดเจน
+
+### [วิธีโหลดไฟล์ JSON ไปยัง Excel ด้วย Aspose.Cells สำหรับ Java](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+เรียนรู้วิธีโหลดข้อมูล JSON เข้าไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

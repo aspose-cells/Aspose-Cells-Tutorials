@@ -95,6 +95,10 @@ Java용 Aspose.Cells에서 wrapcols 함수를 활용해 리스트를 여러 열�
 Aspose.Cells for Java를 사용하여 Excel에서 코탄젠트 함수를 구현하고 계산하는 방법을 단계별로 안내합니다.
 ### [Excel에서 고유값 정렬 – 배열 수식 설정을 위한 완전한 Java 가이드](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 Aspose.Cells for Java를 사용하여 고유값을 정렬하고 배열 수식을 설정하는 방법을 단계별로 안내합니다.
+### [Java에서 Aspose 사용 방법 – 새로운 함수로 Excel 워크북 만들기](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+새로운 함수를 사용하여 Excel 워크북을 생성하고 Aspose 기능을 활용하는 방법을 단계별로 안내합니다.
+
+
 
 ### [Aspose.Cells에서 EXPAND 함수로 수식 설정 – 완전 Java 가이드](./aspose-cells-set-formula-with-expand-function-complete-java/)
 Aspose.Cells for Java를 사용하여 EXPAND 함수를 활용해 동적 범위 수식을 설정하고 적용하는 방법을 단계별로 안내합니다.

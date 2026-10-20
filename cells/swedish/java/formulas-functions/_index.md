@@ -97,6 +97,8 @@ Lär dig hur du med wrapcols-funktionen i Aspose.Cells för Java delar upp en li
 Lär dig hur du beräknar cotangens i Excel med en komplett steg-för-steg-guide och praktiska Java-kodexempel.
 ### [Sortera unika värden i Excel – Komplett Java-guide för att ställa in matrisformler](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 Lär dig hur du sorterar unika värden i Excel med Aspose.Cells för Java och använder matrisformler för effektiv datahantering.
+### [Hur man använder Aspose i Java – skapa Excel-arbetsbok med nya funktioner](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+Lär dig hur du skapar en Excel-arbetsbok med nya funktioner i Java med Aspose.
 
 ### [Aspose.Cells ställ in formel med EXPAND-funktionen – komplett Java-guide](./aspose-cells-set-formula-with-expand-function-complete-java/)
 

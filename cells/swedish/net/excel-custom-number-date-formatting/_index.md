@@ -40,6 +40,8 @@ Lär dig hur du skapar och använder anpassade talformat i Excel med C# och Aspo
 Lär dig hur du formaterar tal med avgränsare i C# med Aspose.Cells i den här kompletta guiden.
 ### [Formatera datum ISO från Excel – Komplett C#-guide](./format-date-iso-from-excel-complete-c-guide/)
 Lär dig hur du formaterar datum i ISO-format från Excel med Aspose.Cells för .NET i den här kompletta guiden.
+### [Parsa datum/tid med japansk kejsarperiod i Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Lär dig hur du tolkar datum och tid med japansk kejsarperiod i Excel med Aspose.Cells.
 ### [Applicera anpassat talformat i C#-export av kalkylblad – Steg‑för‑steg‑guide](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
 Lär dig hur du använder Aspose.Cells för .NET för att applicera anpassade talformat vid export av kalkylblad i C# med tydliga exempel.
 ### [Hur du tillämpar talformat i Excel med Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
@@ -86,6 +88,10 @@ Lär dig hur du ställer in datumformat i Excel med C# och Aspose.Cells för .NE
 Lär dig hur du skapar en Excel-arbetsbok med japanska kalenderdatum med Aspose.Cells för .NET i den här kompletta guiden.
 ### [Skapa Excel-arbetsbok C# – Begränsa signifikanta siffror i Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
 Lär dig hur du skapar en Excel-arbetsbok i C# och begränsar antalet signifikanta siffror med Aspose.Cells för .NET.
+### [Formatera datumkolumn i Excel – Komplett C#-guide för att exportera DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+Lär dig hur du formaterar datumkolumner i Excel och exporterar en DataTable med en komplett C#-guide.
+### [Japansk kalenderkonvertering i C# – Komplett guide](./japanese-calendar-conversion-in-c-full-guide/)
+Lär dig hur du konverterar datum till den japanska kalendern i C# med en komplett steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

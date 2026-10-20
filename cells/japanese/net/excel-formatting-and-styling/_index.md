@@ -78,6 +78,8 @@ Aspose.Cells for .NET を使えば、Excel のテキストの方向を変換で�
 Aspose.Cells for .NET を使用し、C# で DataTable をインポートしながら Excel の列に書式やスタイルを適用する方法を学びます。
 ### [C# でセルスタイルを作成 – セルにスタイルを適用し、テキストを中央揃えにする](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
 Aspose.Cells for .NET を使用して、C# でセルにスタイルを適用し、テキストを中央揃えにする方法を学びます。
+### [C# でカスタム書式設定を使用して Excel ワークブックを作成し、XLSX として保存する方法](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
+Aspose.Cells for .NET を使用して、C# でカスタム書式設定付きの Excel ワークブックを作成し、XLSX 形式で保存する方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

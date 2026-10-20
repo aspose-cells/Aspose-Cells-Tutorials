@@ -57,6 +57,10 @@ Aprenda a implementar una clase Teacher en Java, administrar datos de estudiante
 Aprenda a convertir archivos Excel a presentaciones PPTX usando Aspose.Cells para Java con ejemplos de código completos.
 ### [Convertir Excel a PowerPoint – Guía completa paso a paso](./convert-excel-to-powerpoint-full-step-by-step-guide/)
 Aprenda a convertir archivos Excel a presentaciones PowerPoint usando Aspose.Cells y Aspose.Slides para Java, con ejemplos paso a paso.
+### [Cómo guardar Excel como DOCX con Aspose.Cells en C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+Aprenda a convertir archivos Excel a formato DOCX usando Aspose.Cells en C# con ejemplos paso a paso.
+### [Convertir Excel a PowerPoint con Aspose.Cells en Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+Aprenda a convertir archivos Excel a presentaciones PowerPoint usando Aspose.Cells para Java, con ejemplos de código paso a paso.
 
 ### [Cómo exportar gráficos de Excel a Word – Guía Java](./how-to-export-charts-from-excel-to-word-java-guide/)
 Aprenda a exportar gráficos de Excel a documentos Word usando Aspose.Cells para Java, con ejemplos de código completos.
@@ -70,6 +74,8 @@ Aprenda a generar presentaciones PowerPoint a partir de datos de Excel usando As
 Aprenda a convertir archivos Excel en presentaciones PowerPoint usando Aspose.Slides y Aspose.Cells en Java.
 ### [Cómo exportar gráficos de Excel a PowerPoint – Guía completa en Java](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
 Aprenda a exportar gráficos de Excel a PowerPoint usando Aspose.Cells para Java, con ejemplos paso a paso y mejores prácticas.
+### [Cómo copiar un rango de Excel y exportarlo a PowerPoint usando Java](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+Aprenda a copiar un rango de Excel y exportarlo a PowerPoint mediante Java.
 
 ## Recursos adicionales
 

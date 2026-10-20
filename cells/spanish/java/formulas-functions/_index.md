@@ -100,6 +100,7 @@ Aprenda a calcular la cotangente en Excel usando Aspose.Cells para Java, con eje
 
 ### [Ordenar valores únicos en Excel – Guía completa de Java para establecer fórmulas de matriz](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 Aprenda a ordenar valores únicos en Excel usando Aspose.Cells para Java mediante fórmulas de matriz, con ejemplos de código paso a paso.
+### [Cómo usar Aspose en Java – crear libro de Excel con nuevas funciones](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
 
 ### [Aspose.Cells: establecer fórmula con la función EXPAND – guía completa de Java](./aspose-cells-set-formula-with-expand-function-complete-java/)
 Aprenda a usar la función EXPAND en Aspose.Cells para Java para crear fórmulas dinámicas que expanden rangos automáticamente.

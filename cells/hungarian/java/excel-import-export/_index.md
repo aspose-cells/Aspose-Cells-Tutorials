@@ -51,6 +51,8 @@ Tanuld meg, hogyan exportálhatsz Excelből XML-be Java-ban az Aspose.Cells for 
 Tanuld meg, hogyan importálhatsz adatokat Excelből az Aspose.Cells for Java használatával. Átfogó útmutató forráskóddal a zökkenőmentes adatlekéréshez.
 ### [Excel exportálása JSON-ba](./export-excel-to-json/)
 Ismerd meg, hogyan exportálhatsz Excel-adatokat JSON-ba az Aspose.Cells for Java használatával. Kövesd ezt a lépésről lépésre szóló útmutatót a forráskóddal a zökkenőmentes konverzió érdekében.
+### [JSON exportálása Excel-be Java-val – Teljes lépésről lépésre útmutató](./export-json-to-excel-with-java-complete-step-by-step-guide/)
+Tanuld meg, hogyan exportálhatsz JSON adatokat Excel-be Java használatával, részletes lépésről lépésre útmutatóval és forráskóddal.
 ### [Excel import adatérvényesítés](./excel-import-data-validation/)
 Tanuld meg, hogyan valósíthatsz meg Excel import adatellenőrzést az Aspose.Cells for Java használatával ezzel az átfogó, lépésről lépésre haladó útmutatóval. Biztosítsd az adatok pontosságát és fokozd a felhasználói élményt. 
 ### [Excel exportálása HTML Java-ba](./export-excel-to-html-java/)
@@ -117,6 +119,26 @@ Ismerd meg, hogyan exportálj Excel-fájlokat SVG formátumba Java-val, részlet
 Ismerd meg, hogyan ágyazhatod be a betűtípusokat Excel fájlok HTML-re konvertálása során az Aspose.Cells for Java használatával.
 ### [FlatOPC fájl létrehozása Excel munkafüzetből – Lépésről lépésre útmutató](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
 Ismerd meg, hogyan hozhatsz létre FlatOPC fájlt Excel munkafüzetből az Aspose.Cells for Java segítségével, részletes lépésről‑lépésre útmutatóval.
+### [xlsx konvertálása PowerPointba Java-val – teljes útmutató](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
+Tanuld meg, hogyan konvertálj XLSX fájlokat PowerPoint prezentációkká Java és Aspose.Cells segítségével.
+### [Excel létrehozása JSON-ból és JSON konvertálása Excel cellává az Aspose.Cells segítségével](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+Ismerd meg, hogyan hozhatsz létre Excel fájlt JSON adatokból, és konvertálj JSON-t Excel cellává az Aspose.Cells használatával.
+### [Egyedi objektumok importálása Excelbe az Aspose.Cells használatával – Java útmutató](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+### [Excel exportálása HTML-be Java-ban – teljes lépésről‑lépésre útmutató](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+Tanuld meg, hogyan exportálhatsz Excel-fájlokat HTML-be Java használatával részletes, lépésről‑lépésre útmutatóval.
+### [Betűtípusok beágyazása SVG-be Excel SVG exportálásakor](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Ismerd meg, hogyan ágyazhatod be a betűtípusokat SVG fájlokba Excel exportálásakor az Aspose.Cells for Java segítségével.
+### [Hogyan állíts be határolót és ments CSV-be az Aspose.Cells használatával](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+Tanuld meg, hogyan állíthatsz be határolót és menthetsz CSV fájlt az Aspose.Cells használatával.
+### [Lista importálása Excelbe és oszlopok formázása Java-ban](./how-to-import-list-to-excel-and-style-columns-in-java/)
+Tanuld meg, hogyan importálj listát Excelbe és formázd az oszlopokat Java segítségével.
+### [Excel exportálása TXT-be korlátozott számjegyekkel Java-val](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+Tanuld meg, hogyan exportálj Excel-fájlokat TXT formátumba, miközben korlátozod a jelentős számjegyek számát Java-val.
+### [Hogyan exportáljunk Excel-t PowerPoint-ba az Aspose.Cells segítségével – lépésről lépésre útmutató](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Ismerd meg, hogyan konvertálhatsz Excel-fájlokat PowerPoint-prezentációkká az Aspose.Cells használatával.
+### [JSON exportálása Excel-be Aspose.Cells használatával Java-ban](./export-json-to-excel-with-aspose-cells-in-java/)
+Tanuld meg, hogyan exportálj JSON adatokat Excel fájlba Aspose.Cells for Java használatával, lépésről lépésre útmutatóval.
+### [Hogyan tölts be JSON-t Excelbe az Aspose.Cells for Java segítségével](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

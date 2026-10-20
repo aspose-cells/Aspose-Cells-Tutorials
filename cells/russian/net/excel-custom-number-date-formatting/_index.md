@@ -58,6 +58,8 @@
 
 
 
+### [Разбор DateTime с японской императорской эпохой с помощью Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Узнайте, как распарсить даты и время, учитывая японские императорские эпохи, используя Aspose.Cells для .NET.
 
 
 
@@ -86,6 +88,10 @@
 Узнайте, как создать рабочую книгу Excel в C# и ограничить количество значимых цифр в ячейках с помощью Aspose.Cells для .NET.
 ### [Как применить числовой формат в Excel с Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
 Узнайте, как применить числовой формат в Excel с помощью Aspose.Cells.
+### [Форматирование столбца даты в Excel – Полное руководство C# по экспорту DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+Узнайте, как экспортировать DataTable в Excel с правильным форматом столбца даты с помощью Aspose.Cells для .NET в этом полном руководстве.
+### [Конвертация японского календаря в C# – Полное руководство](./japanese-calendar-conversion-in-c-full-guide/)
+Узнайте, как выполнять конвертацию японского календаря в C# с помощью Aspose.Cells для .NET в этом полном руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

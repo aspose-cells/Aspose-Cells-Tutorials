@@ -58,6 +58,19 @@ Hướng dẫn chi tiết cách xuất Pivot Table thành hình ảnh PNG bằng
 Tìm hiểu cách sao chép vùng dữ liệu và Bảng Pivot trong Java bằng Aspose.Cells để tái sử dụng và chia sẻ báo cáo.
 ### [Cách xuất Bảng Pivot thành PNG – Hướng dẫn Java chi tiết](./how-to-export-pivot-table-as-png-complete-java-guide/)
 Tìm hiểu cách xuất Bảng Pivot dưới dạng PNG trong Java bằng Aspose.Cells để tạo báo cáo hình ảnh.
+### [Cách sao chép bảng Pivot trong Java bằng Aspose.Cells](./how-to-copy-pivot-table-in-java-using-aspose-cells/)
+Hướng dẫn sao chép Pivot Table trong Java bằng Aspose.Cells để tái sử dụng và chia sẻ báo cáo nhanh chóng.
+### [Sao chép Bảng Pivot giữa các Workbook – Hướng dẫn Java từng bước](./copy-pivot-table-between-workbooks-step-by-step-java-guide/)
+Hướng dẫn chi tiết cách sao chép Bảng Pivot từ một workbook sang workbook khác bằng Aspose.Cells for Java.
+### [Tạo Workbook mới trong Java – Hướng dẫn đầy đủ sao chép Bảng Pivot](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
+Hướng dẫn chi tiết cách tạo workbook mới và sao chép Bảng Pivot trong Aspose.Cells for Java.
+### [Cách sao chép worksheet và giữ nguyên bảng Pivot trong Java](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
+Hướng dẫn sao chép worksheet và duy trì các bảng Pivot trong Aspose.Cells for Java.
+### [Cách sao chép Pivot trong Java bằng Aspose.Cells](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
+### [Cách sao chép vùng và bảo tồn bảng Pivot trong Java](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
+Hướng dẫn sao chép vùng dữ liệu và giữ nguyên bảng Pivot trong Java.
+### [Cách sao chép bảng Pivot trong Excel bằng Java – hướng dẫn từng bước](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
+Hướng dẫn chi tiết cách sao chép bảng Pivot trong Excel bằng Java, giúp bạn nhân bản và tái sử dụng báo cáo một cách dễ dàng.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

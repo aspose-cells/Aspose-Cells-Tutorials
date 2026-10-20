@@ -59,6 +59,9 @@ Apprenez à remplir un modèle Excel avec des données et à générer automatiq
 
 ### [Aspose.Cells Smart Markers – Remplir un modèle Excel](./aspose-cells-smart-markers-populate-excel-template/)
 Apprenez à utiliser les SmartMarkers d'Aspose.Cells pour remplir automatiquement un modèle Excel avec des données.
+### [Créer des feuilles de détail en Java avec les SmartMarkers d'Aspose.Cells](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
+Apprenez à générer automatiquement des feuilles de détail détaillées à l'aide des SmartMarkers d'Aspose.Cells en Java.
+### [Comment remplir un modèle Excel avec des données à l'aide d'Aspose.Cells](./how-to-populate-excel-template-with-data-using-aspose-cells/)
 
 ## Ressources supplémentaires
 

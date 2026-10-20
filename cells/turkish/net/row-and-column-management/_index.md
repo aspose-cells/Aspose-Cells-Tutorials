@@ -46,6 +46,8 @@ Kabul edelim, her veri parçası zamanla alakalı kalmaz. Excel dosyalarınızı
 Aspose.Cells for .NET kullanarak Excel'de sütunları kopyalamaya yönelik adım adım kılavuzu keşfedin. Net talimatlarla veri görevlerinizi basitleştirin.
 ### [.NET için Aspose.Cells kullanarak Satırları Kopyala](./copying-rows/)
 Aspose.Cells for .NET kullanarak Excel dosyalarındaki satırları nasıl verimli bir şekilde kopyalayacağınızı öğrenin. Bu adım adım kılavuz, veri yönetimi ihtiyaçlarınız için satır kopyalamayı basitleştirir.
+### [Aspose.Cells .NET'te Bir Çalışma Sayfasından Diğerine Satır Kopyalama – Tam C# Rehberi](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+Aspose.Cells for .NET kullanarak bir çalışma sayfasından başka birine satırları nasıl kopyalayacağınızı adım adım öğrenin.
 ### [Aspose.Cells ile Excel'de Satır ve Sütunları Gruplama](./grouping-rows-and-columns/)
 Bu adım adım kılavuzla Aspose.Cells for .NET'i kullanarak Excel'de satır ve sütunları nasıl gruplayacağınızı öğrenin.
 ### [.NET için Aspose.Cells ile Aşağıda Özet Satırı Oluşturun](./summary-row-below/)
@@ -66,6 +68,8 @@ Aspose.Cells for .NET kullanarak bir Excel dosyasındaki bir sütunu nasıl sile
 Aspose.Cells for .NET ile Excel'de bir satırı nasıl sileceğinizi öğrenin. Bu adım adım kılavuz, ön koşulları, kod içe aktarımını ve sorunsuz veri işleme için ayrıntılı bir incelemeyi kapsar.
 ### [C# kullanarak bir Excel dosyasında tüm satırı silme](./how-to-delete-entire-row-in-an-excel-file-using-c/)
 Aspose.Cells for .NET ile C# kullanarak bir Excel dosyasındaki tüm satırı nasıl sileceğinizi adım adım öğrenin.
+### [C# ile Excel'de Satır Silme – Tablo Başlığını Korumak](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
+C# kullanarak Excel'de satırları silerken tablo başlığını korumayı adım adım öğrenin.
 ### [Aspose.Cells .NET'te Birden Fazla Satırı Sil](./delete-multiple-rows-aspose-cells/)
 Aspose.Cells for .NET kullanarak Excel'de birden fazla satırı silmeyi öğrenin. Bu ayrıntılı, adım adım kılavuz, geliştiriciler için ön koşulları, kodlama örneklerini ve SSS'leri kapsar.
 ### [Aspose.Cells ile Satırları Sil – Excel'de Başlık Satırını Korumak](./aspose-cells-delete-rows-protect-header-row-in-excel/)
@@ -82,15 +86,8 @@ Aspose.Cells for .NET kullanarak Excel'de birden fazla satır eklemeyi öğrenin
 Aspose.Cells for .NET kullanarak C# ile Excel dosyasında satırları silmeyi ve belirli satırları kaldırmayı öğrenin.
 ### [Excel'de Öğeleri Tekrarlama – C# ile Dinamik Satır Oluşturma](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Aspose.Cells for .NET kullanarak C# ile Excel'de öğeleri tekrarlayarak dinamik satırlar oluşturmayı adım adım öğrenin.
-### [GridJs'de Satır Ekleme – Çoklu Satırları Verimli Bir Şekilde Ekleyin](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+### [GridJs'de Satır Ekleme – Çoklu Satırları Verimli Şekilde Ekleyin](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 GridJs kullanarak birden fazla satırı verimli bir şekilde eklemeyi adım adım öğrenin.
-
-
-
-
-
-
-
 
 ### [C# ile Excel Tablosundan Satır Silme – Adım Adım Kılavuz](./delete-rows-excel-table-with-c-step-by-step-guide/)
 Aspose.Cells for .NET kullanarak C# ile Excel tablosundan satırları nasıl sileceğinizi adım adım öğrenin.
@@ -102,6 +99,11 @@ C# ve Aspose.Cells for .NET kullanarak Excel dosyalarına satır eklemeyi adım 
 GridJs kullanarak Excel benzeri tablolarınıza birden fazla satırı hızlı ve kolay bir şekilde eklemeyi öğrenin.
 ### [C#'ta wrapcols Kullanımı – Excel WRAPROWS ve Formülleri Yeniden Hesaplama ile Tam Kılavuz](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 C# ile wrapcols özelliğini kullanarak satırları kaydırma, wraprows ve formül yeniden hesaplamayı adım adım öğrenin.
+### [C# ile Excel'de Hücreleri Yukarı Kaydırma – Tam Kılavuz](./shift-cells-up-in-excel-with-c-complete-guide/)
+Aspose.Cells for .NET kullanarak Excel'de hücreleri yukarı kaydırmayı adım adım öğrenin. Veri düzenleme işlemlerinizi kolaylaştırın.
+
+### [Aspose.Cells kullanarak Excel tablosunda başlığı koruyarak satırları silme](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
+Aspose.Cells for .NET ile Excel tablosundaki satırları silerken başlık satırını korumanın adım adım rehberi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -44,6 +44,8 @@ Erstellen Sie dynamische Excel-Berichte ganz einfach mit Aspose.Cells für Java.
 Erfahren Sie anhand von Quellcodebeispielen mit Aspose.Cells für Java, wie Sie die Datenextraktion effizient automatisieren. Extrahieren Sie mühelos Daten aus Excel-Dateien.
 ### [Automatisierung von Excel-Arbeitsmappen](./excel-workbook-automation/)
 Lernen Sie die Automatisierung von Excel-Arbeitsmappen in Java mit Aspose.Cells: Erstellen, Lesen und Aktualisieren von Excel-Dateien programmgesteuert. Jetzt starten!
+### [Neues Arbeitsbuch mit Aspose erstellen – benutzerdefinierte Eigenschaft zu Excel hinzufügen und als XLSB speichern](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+Erfahren Sie, wie Sie mit Aspose.Cells ein neues Excel‑Arbeitsbuch erstellen, eine benutzerdefinierte Eigenschaft hinzufügen und es als XLSB speichern.
 ### [Automatisieren von Excel-Diagrammen](./automating-excel-charts/)
 Erfahren Sie anhand von Quellcodebeispielen, wie Sie die Erstellung und Anpassung von Excel-Diagrammen mit Aspose.Cells für Java automatisieren. Optimieren Sie Ihre Diagrammerstellung. 
 ### [Excel-Automatisierung mit Java](./excel-automation-with-java/)

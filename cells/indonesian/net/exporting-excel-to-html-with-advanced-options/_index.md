@@ -35,6 +35,9 @@ Terakhir, mari kita bahas tentang pengaturan lebar kolom yang dapat diskalakan d
 
 Pernahkah Anda ingin mengekspor hanya bagian tertentu dari lembar Excel Anda? Ikuti tutorial tentang mengekspor area cetak ke HTML secara terprogram. Fitur praktis ini memungkinkan Anda untuk fokus hanya pada data yang paling relevan, sehingga laporan Anda lebih bersih dan lebih terarah. Bayangkan menyiapkan ringkasan proyek yang hanya menampilkan angka-angka penting – seberapa efektifkah itu? [Lihat panduan untuk menerapkan fitur ini](./exporting-print-area/).
 
+### [Mengekspor Excel ke HTML – Panduan Lengkap untuk Mempertahankan Panel Beku](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
+Pelajari cara mengekspor Excel ke HTML sambil mempertahankan panel beku menggunakan Aspose.Cells untuk .NET dalam panduan lengkap ini.
+
 ## Kelola Gaya Perbatasan dengan Mudah
 
 Kiat bermanfaat lainnya adalah mengekspor gaya border yang serupa di Excel secara terprogram. Bila Anda memiliki beberapa tabel di dokumen Excel, keseragaman dalam gaya sangat penting untuk tampilan yang profesional. Dengan tutorial ini, pelajari cara mempertahankan border yang konsisten, yang membuat output HTML Anda menonjol dan memperkuat identitas merek Anda. Tertarik untuk mendapatkan tampilan yang memukau? [Pelajari triknya di sini](./exporting-similar-border-style/).
@@ -131,6 +134,8 @@ Pelajari cara menyematkan font dalam file HTML yang dihasilkan dari Excel menggu
 Pelajari cara menyematkan font dalam output HTML saat mengekspor file Excel menggunakan Aspose.Cells untuk .NET dengan C#.
 ### [Mengekspor Excel ke HTML dengan C# – Panduan Pemrograman Lengkap](./export-excel-to-html-with-c-complete-programming-guide/)
 Pelajari cara mengekspor Excel ke HTML menggunakan C# dengan Aspose.Cells untuk .NET dalam panduan pemrograman lengkap ini.
+### [Simpan Excel sebagai HTML – Panduan Lengkap untuk Mengekspor Excel dengan Pemformatan](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
+Pelajari cara menyimpan file Excel sebagai HTML dengan format lengkap menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

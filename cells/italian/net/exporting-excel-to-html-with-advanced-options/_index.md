@@ -126,6 +126,10 @@ Scopri come salvare Excel in HTML con esempi di codice passo passo usando Aspose
 Scopri come incorporare i font nei file HTML esportati da Excel con Aspose.Cells per .NET usando C# in questa guida passo passo.
 ### [Come incorporare i font quando si esporta Excel in HTML con C#](./how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
 Scopri come incorporare i font nei file HTML esportati da Excel usando Aspose.Cells per .NET con C# in questa guida dettagliata.
+### [Salva Excel come HTML – Guida completa per esportare Excel con formattazione](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
+Scopri come salvare un file Excel in HTML mantenendo tutta la formattazione con Aspose.Cells per .NET in questa guida passo passo.
+### [Esportazione di Excel in HTML – Guida completa per preservare i riquadri congelati](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
+Scopri come mantenere i riquadri congelati durante l'esportazione di Excel in HTML con Aspose.Cells per .NET in questa guida passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -77,6 +77,9 @@ Tanulja meg, hogyan formázhatja az Excel oszlopokat C#‑ban DataTable importá
 ### [Cellastílus létrehozása C#‑ban – Stílus alkalmazása cellára és szöveg középre igazítása](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
 ### [Cellastílusok alkalmazása Aspose.Cells használatával – DataTable importálása formázással](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
 
+### [Excel munkafüzet létrehozása C#‑ban egyedi formázással és mentése XLSX‑ként](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
+Ismerje meg, hogyan hozhat létre Excel munkafüzetet C#‑ban egyedi formázással, majd mentheti XLSX formátumban az Aspose.Cells segítségével.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

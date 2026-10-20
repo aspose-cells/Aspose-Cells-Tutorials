@@ -55,6 +55,7 @@ Aprenda a copiar tabelas dinâmicas no Aspose.Cells para Java, mantendo formata�
 Aprenda a copiar uma tabela dinâmica entre planilhas usando Aspose.Cells para Java.
 ### [Criar PNG a partir de Tabela Dinâmica em Java – Guia Completo Passo a Passo](./create-png-from-pivot-in-java-full-step-by-step-guide/)
 Aprenda a gerar imagens PNG de tabelas dinâmicas usando Aspose.Cells para Java com um guia passo a passo.
+### [Como duplicar tabelas dinâmicas no Excel com Java – guia passo a passo](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
 
 ### [Copiar Tabela Dinâmica do Excel – Guia Passo a Passo Usando Java](./copy-pivot-table-excel-step-by-step-guide-using-java/)
 Aprenda a copiar tabelas dinâmicas no Excel usando Aspose.Cells para Java, com instruções detalhadas passo a passo.
@@ -67,6 +68,19 @@ Aprenda a copiar intervalos e duplicar tabelas dinâmicas usando Aspose.Cells pa
 
 ### [Como Exportar Tabela Dinâmica como PNG – Guia Completo em Java](./how-to-export-pivot-table-as-png-complete-java-guide/)
 Aprenda a exportar uma Tabela Dinâmica como imagem PNG usando Aspose.Cells para Java.
+### [Como copiar tabela dinâmica em Java usando Aspose.Cells](./how-to-copy-pivot-table-in-java-using-aspose-cells/)
+Aprenda a copiar tabelas dinâmicas em Java com Aspose.Cells para reutilizar relatórios rapidamente.
+
+### [Copiar Tabela Dinâmica entre Pastas de Trabalho – Guia passo a passo Java](./copy-pivot-table-between-workbooks-step-by-step-java-guide/)
+Aprenda a copiar uma tabela dinâmica de uma pasta de trabalho para outra usando Aspose.Cells para Java.
+### [Criar Nova Pasta de Trabalho em Java – Guia Completo para Copiar Tabela Dinâmica](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
+Aprenda a criar uma nova pasta de trabalho em Java e copiar tabelas dinâmicas usando Aspose.Cells, facilitando a reutilização de relatórios.
+### [Como duplicar planilha e preservar tabelas dinâmicas em Java](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
+Aprenda a duplicar uma planilha mantendo todas as tabelas dinâmicas intactas usando Aspose.Cells para Java.
+### [Como duplicar Tabela Dinâmica em Java usando Aspose.Cells](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
+Aprenda a duplicar uma Tabela Dinâmica no Aspose.Cells para Java, preservando formatação e facilitando a reutilização.
+### [Como copiar intervalo e preservar uma tabela dinâmica em Java](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
+Aprenda a copiar um intervalo mantendo a integridade da tabela dinâmica usando Aspose.Cells para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

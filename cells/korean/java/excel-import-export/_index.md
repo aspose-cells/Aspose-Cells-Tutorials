@@ -68,6 +68,8 @@ Aspose.Cells를 활용해 Markdown 파일을 Excel 형식으로 변환하는 방
 Aspose.Cells for Java를 사용해 Excel 파일을 SVG로 변환하는 방법을 단계별로 안내합니다.
 ### [JSON 파일 로드 Java – JSON을 Excel로 변환하는 전체 가이드](./load-json-file-java-full-guide-to-convert-json-to-excel/)
 Aspose.Cells for Java를 사용하여 JSON 파일을 로드하고 Excel로 변환하는 방법을 단계별로 안내합니다.
+### [Aspose.Cells for Java로 JSON을 Excel에 로드하는 방법](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+
 ### [Java로 Excel 파일 만들기 – 행 스타일링 및 XLSX 내보내기 전체 가이드](./create-excel-file-java-full-guide-with-row-styling-and-xlsx/)
 Aspose.Cells for Java를 사용해 행 스타일을 적용하고 XLSX 형식으로 내보내는 Excel 파일 생성 방법을 단계별로 안내합니다.
 ### [Excel 내보내기 방법: CSV 변환 단계별 가이드](./how-to-export-excel-step-by-step-guide-to-csv-conversion/)
@@ -108,6 +110,25 @@ Aspose.Cells for Java를 사용하여 Excel 파일을 SVG 형식으로 변환하
 Aspose.Cells for Java를 사용하여 Excel을 HTML로 변환할 때 글꼴을 포함하는 방법을 단계별로 안내합니다.
 ### [Excel 통합 문서에서 FlatOPC 파일 만들기 – 단계별 가이드](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
 Aspose.Cells for Java를 사용하여 Excel 통합 문서에서 FlatOPC 파일을 생성하는 방법을 단계별로 안내합니다.
+### [Java를 사용한 JSON을 Excel로 내보내기 – 완전 단계별 가이드](./export-json-to-excel-with-java-complete-step-by-step-guide/)
+Aspose.Cells for Java를 활용해 JSON 데이터를 Excel 파일로 변환하는 방법을 단계별로 안내합니다.
+### [Java를 사용하여 xlsx를 PowerPoint로 변환 – 전체 가이드](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
+### [Aspose.Cells로 JSON에서 Excel 생성 및 JSON을 Excel 셀로 변환](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+### [Aspose.Cells로 사용자 정의 객체를 Excel에 가져오기 – Java 가이드](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+### [Aspose.Cells를 사용하여 구분자를 설정하고 CSV로 저장하는 방법](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+Aspose.Cells를 이용해 구분자를 지정하고 CSV 파일로 저장하는 방법을 단계별로 안내합니다.
+### [Excel을 SVG로 내보낼 때 SVG에 글꼴 포함하기](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+Excel을 SVG로 내보낼 때 글꼴을 포함하여 품질을 유지하는 방법을 단계별로 안내합니다.
+### [Java에서 Excel을 HTML로 내보내기 – 완전 단계별 가이드](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+Aspose.Cells for Java를 사용하여 Excel 파일을 HTML 형식으로 변환하는 방법을 단계별로 안내합니다.
+### [Java에서 리스트를 Excel로 가져오고 열 스타일 적용하기](./how-to-import-list-to-excel-and-style-columns-in-java/)
+Java를 사용해 리스트 데이터를 Excel에 가져오고, 열 서식을 지정하는 방법을 단계별로 안내합니다.
+### [Java를 사용해 제한된 유효숫자로 Excel을 TXT로 내보내는 방법](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+Aspose.Cells for Java를 사용하여 제한된 유효숫자를 유지하면서 Excel 데이터를 TXT 파일로 내보내는 방법을 단계별로 안내합니다.
+### [Aspose.Cells를 사용하여 Excel을 PowerPoint로 내보내는 방법 – 단계별 가이드](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Aspose.Cells for Java를 활용해 Excel 파일을 PowerPoint 프레젠테이션으로 변환하는 과정을 단계별로 안내합니다.
+### [Aspose.Cells를 사용하여 JSON을 Excel로 내보내기 (Java)](./export-json-to-excel-with-aspose-cells-in-java/)
+Aspose.Cells for Java를 사용해 JSON 데이터를 Excel 파일로 변환하는 방법을 단계별로 안내합니다.
 ### [Java에서 숫자 정밀도로 워크북을 PDF로 저장하는 방법](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
 Aspose.Cells for Java를 사용하여 숫자 정밀도를 유지하면서 워크북을 PDF로 저장하는 방법을 단계별로 안내합니다.
 

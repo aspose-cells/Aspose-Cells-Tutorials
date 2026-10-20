@@ -78,6 +78,8 @@ Leer hoe u tekst verticaal uitlijnt in Excel-cellen met Aspose.Cells voor .NET m
 Transformeer de tekstrichting in Excel met Aspose.Cells voor .NET. Volg onze stapsgewijze handleiding om tekst eenvoudig te roteren en aan te passen.
 ### [Lange tekst in cellen in Excel omwikkelen](./wrapping-long-text-within-cells/)
 Leer hoe je lange tekst in Excel-cellen kunt omzetten met Aspose.Cells voor .NET in deze gebruiksvriendelijke handleiding. Transformeer je spreadsheets moeiteloos.
+### [Hoe een Excel-werkmap maken in C# met aangepaste opmaak en opslaan als XLSX](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
+Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap in C# maakt, aangepaste opmaak toepast en opslaat als XLSX-bestand.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -117,6 +117,10 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 ### [使用 C# 將 JSON 轉換為 Excel 的逐步指南](./convert-json-to-excel-with-c-step-by-step-guide/)
 ### [使用 Aspose.Cells SmartMarkerProcessor 從 XLSX 建立工作簿](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
 
+### [使用智慧標記程式化建立 Excel 工作簿](./create-excel-workbook-programmatically-using-smart-markers/)
+了解如何使用 Aspose.Cells Smart Markers 以程式方式建立 Excel 工作簿，實現動態報表生成。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 
 
@@ -179,6 +183,24 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 了解如何使用 Aspose.Cells SmartMarker 在 Excel 工作表之間建立連結，實現跨表資料同步的完整步驟指南。
 ### [使用 C# 將 JSON 轉換為 Excel 的逐步指南](./convert-json-to-excel-with-c-step-by-step-guide/)
 ### [使用 Aspose.Cells SmartMarkerProcessor 從 XLSX 建立工作簿](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
+### [在 C# 中載入 Excel 範本 – 快速產生多工作表](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中載入 Excel 範本，並快速生成多個工作表以提升報表效率。
+### [在 Aspose.Cells 中使用智慧標記評估公式](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
+
+### [在 C# 中使用範圍智慧標記處理巢狀資料 – 完整指南](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
+了解如何在 C# 中使用範圍智慧標記來處理巢狀資料，完整步驟教學，提升 Excel 報表的彈性與效能。
+### [在 C# 中將 JSON 匯入 Excel – 步驟說明指南](./import-json-to-excel-in-c-step-by-step-guide/)
+簡要說明如何使用 Aspose.Cells for .NET 在 C# 中將 JSON 資料匯入 Excel，提供完整步驟指引。
+### [如何使用智慧標記建立工作簿 – 輸出高低](./how-to-create-workbook-with-smart-markers-output-high-low/)
+示範如何利用智慧標記產生工作簿，根據資料自動輸出最高與最低值。
+### [在 C# 中建立主從報表 – 使用 SmartMarker 填充 Excel 範本](./create-master-detail-report-in-c-populate-excel-template-wit/)
+### [如何使用 Aspose.Cells 智慧標記建立 Excel 報表清單](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+### [使用 Aspose.Cells 智慧標記建立主從工作簿](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+學習如何使用 Aspose.Cells 智慧標記建立主從工作簿，實現層次化資料的動態 Excel 報表生成。
+### [使用智慧標記的主從 Excel 指南 – 填充範本](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+學習如何使用智慧標記在 Excel 中建立主從關係，將資料填入範本，生成動態報表。
+### [如何重複工作表 – Excel 自動化完整指南](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+學習使用 Aspose.Cells 在 Excel 中重複工作表，以自動化報表生成並提升效率。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

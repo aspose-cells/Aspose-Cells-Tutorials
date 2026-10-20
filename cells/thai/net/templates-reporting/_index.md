@@ -69,6 +69,11 @@ Aspose.Cells สำหรับ .NET มอบเครื่องมืออ�
 
 ### [วิธีส่งออกข้อมูลไปยัง Excel ด้วยเทมเพลต C# – คู่มือขั้นตอนโดยขั้นตอน](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
 เรียนรู้วิธีส่งออกข้อมูลเป็นไฟล์ Excel ด้วยเทมเพลต C# อย่างละเอียด
+### [สร้างรายงาน Excel ด้วย C# – คู่มือขั้นตอนต่อขั้นตอน](./generate-excel-report-with-c-step-by-step-guide/)
+เรียนรู้วิธีสร้างรายงาน Excel ด้วย C# อย่างละเอียด ตั้งแต่การกำหนดข้อมูลจนถึงการจัดรูปแบบขั้นสุดท้าย
+
+### [วิธีขยายอาร์เรย์ใน Excel และเติมข้อมูลในเทมเพลต](./how-to-expand-array-in-excel-and-populate-a-template)
+เรียนรู้วิธีขยายอาร์เรย์ใน Excel แล้วผูกข้อมูลกับเทมเพลตโดยใช้ Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

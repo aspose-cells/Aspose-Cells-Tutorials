@@ -26,6 +26,8 @@ Ingin tahu cara melakukannya? Lihat panduan praktis ini di [Mengambil Data dari 
 ## Tutorial Ekspor dan Pengambilan Data Excel
 ### [Mengambil Data dari Sel di Excel](./retrieve-data-from-cells-in-excel/)
 Pelajari cara mengambil data dari sel Excel menggunakan Aspose.Cells untuk .NET dalam tutorial langkah demi langkah ini, cocok untuk pemula dan pengembang berpengalaman.
+### [Cara Mengekspor Tabel Excel – Panduan Lengkap Langkah demi Langkah](./how-to-export-excel-table-complete-step-by-step-guide/)
+Pelajari cara mengekspor tabel Excel secara lengkap dengan panduan langkah demi langkah menggunakan Aspose.Cells untuk .NET, cocok untuk semua level.
 
 ### [Ekspor Tabel Data Excel di C# – Panduan Lengkap](./export-excel-data-table-in-c-complete-guide/)
 Pelajari cara mengekspor tabel data Excel menggunakan C# dengan Aspose.Cells dalam panduan lengkap ini, cocok untuk semua tingkat pengembang.
@@ -49,6 +51,10 @@ Pelajari cara membuat workbook di C#, mengekspor DataTable ke Excel, dan menerap
 
 ### [Buat Workbook Baru dan Ekspor Excel ke TXT dengan Presisi](./create-new-workbook-and-export-excel-to-txt-with-precision/)
 Pelajari cara membuat workbook baru dan mengekspor data Excel ke file TXT dengan akurasi tinggi menggunakan Aspose.Cells untuk .NET.
+### [Cara Mengekspor Rentang Sel sebagai Tabel – Panduan Lengkap C#](./how-to-export-cell-range-as-table-complete-c-guide/)
+Pelajari cara mengekspor rentang sel menjadi tabel di Excel menggunakan Aspose.Cells for .NET dengan panduan lengkap C#.
+### [Buat lembar excel dari DataTable di C# – panduan langkah demi langkah](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+Pelajari cara membuat lembar Excel dari DataTable menggunakan C# dengan Aspose.Cells dalam panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

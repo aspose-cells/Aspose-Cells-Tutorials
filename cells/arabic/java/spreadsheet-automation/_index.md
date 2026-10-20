@@ -63,6 +63,8 @@
 تعلم كيفية استخدام Expand في ملفات Excel باستخدام Aspose.Cells لجافا خطوة بخطوة مع أمثلة الكود المصدرية.
 ### [كيفية مسح الفلتر التلقائي في Excel باستخدام Java – دليل شامل](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
 تعلّم كيفية إزالة الفلتر التلقائي من ملفات Excel باستخدام Aspose.Cells لجافا مع أمثلة شيفرة المصدر.
+### [إنشاء مصنف جديد باستخدام Aspose – إضافة خاصية مخصصة إلى Excel وحفظه كملف XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+تعلم كيفية إنشاء مصنف Excel جديد وإضافة خاصية مخصصة ثم حفظه بصيغة XLSB باستخدام Aspose.Cells لجافا.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

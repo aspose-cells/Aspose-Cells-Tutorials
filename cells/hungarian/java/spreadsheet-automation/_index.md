@@ -64,6 +64,8 @@ Ismerje meg, hogyan hozhat létre vertikális tömböket Excelben Java kóddal, 
 Ismerje meg, hogyan alkalmazhatja az Expand függvényt Java-ban Excel-fájlokban, részletes példákkal és lépésről‑lépésre útmutatóval.
 ### [Hogyan töröljük az AutoFiltert Excelben Java-val – Teljes útmutató](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
 Lépésről lépésre bemutatjuk, hogyan távolítható el az AutoFilter az Excel-fájlokból Java kóddal az Aspose.Cells segítségével.
+### [Új munkafüzet létrehozása Aspose‑val – egyedi tulajdonság hozzáadása Excelhez és mentés XLSB formátumban](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+Lépésről lépésre útmutató új Excel munkafüzet létrehozásához, egyedi tulajdonságok hozzáadásához és XLSB formátumban mentéshez Aspose.Cells for Java-val.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

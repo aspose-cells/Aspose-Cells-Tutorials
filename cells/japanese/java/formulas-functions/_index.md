@@ -102,6 +102,8 @@ Excelでcotangent関数を使用し、余接の計算方法と実装例をステ
 
 ### [Excelでユニーク値を並べ替える：配列数式設定の完全Javaガイド](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 Aspose.Cells for Java を使用して、配列数式でユニークな値をソートし、Excel シートに適用する方法を学びます。
+### [Java で Aspose を使用する方法 – 新しい関数で Excel ワークブックを作成](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+Aspose.Cells for Java を使って、新しい関数を追加し、Excel ワークブックを作成する手順を解説します。
 
 ## 追加リソース
 

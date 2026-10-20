@@ -70,6 +70,8 @@ Aprenda como excluir estilos não utilizados ao exportar do Excel para HTML usan
 Aprenda a exportar propriedades de documentos, pastas de trabalho e planilhas do Excel para HTML usando o Aspose.Cells para .NET. Guia passo a passo fácil incluído.
 ### [Exportando a área de impressão para HTML no Excel programaticamente](./exporting-print-area/)
 Aprenda a exportar uma área de impressão específica do Excel para HTML usando o Aspose.Cells para .NET neste guia detalhado. Otimize sua apresentação de dados.
+### [Exportando Excel para HTML – Guia Completo para Preservar Painéis Congelados](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
+Aprenda a exportar planilhas do Excel para HTML preservando painéis congelados, garantindo que áreas fixas permaneçam visíveis no navegador.
 ### [Exportando Estilo de Borda Semelhante Programaticamente no Excel](./exporting-similar-border-style/)
 Aprenda como exportar estilos de borda semelhantes no Excel programaticamente usando o Aspose.Cells para .NET com este guia passo a passo fácil.
 ### [Exportando CSS da planilha separadamente em HTML de saída](./exporting-worksheet-css-separately/)
@@ -129,6 +131,8 @@ Aprenda a criar HTML a partir de uma tabela em C# usando Aspose.Cells para .NET 
 ### [Como incorporar fontes ao exportar Excel para HTML – Guia completo em C#](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
 ### [Exportar Excel para HTML com C# – Guia de Programação Completo](./export-excel-to-html-with-c-complete-programming-guide/)
 Aprenda a exportar planilhas Excel para HTML usando C# com este guia completo passo a passo.
+### [Salvar Excel como HTML – Guia Completo para Exportar Excel com Formatação](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
+Aprenda a salvar arquivos do Excel como HTML preservando toda a formatação usando Aspose.Cells para .NET neste guia completo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

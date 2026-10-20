@@ -48,6 +48,10 @@ Learn how to embed fonts in XPS documents using C# and Aspose.Cells for .NET, en
 Learn how to embed fonts in PDF files using Aspose.Cells for .NET with a complete C# guide and practical code examples.
 ### [Save Workbook as XPS in C# – Step‑by‑Step Guide](./save-workbook-as-xps-in-c-step-by-step-guide/)
 Learn how to save an Excel workbook as XPS in C# using Aspose.Cells for .NET with clear, step‑by‑step instructions.
+### [Convert Excel to XPS in C# – Complete Step‑by‑Step Guide](./convert-excel-to-xps-in-c-complete-step-by-step-guide/)
+Learn how to convert Excel files to XPS in C# with a comprehensive step‑by‑step guide using Aspose.Cells.
+### [How to Enable Fonts When Converting Excel to XPS – Complete Guide](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
+Learn how to enable fonts during Excel to XPS conversion using Aspose.Cells for .NET, ensuring proper font rendering in the output.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -65,6 +65,12 @@ weight: 22
 ### [Δυναμικοί Πίνακες Τύπων σε Java: Δημιουργία Βιβλίου Εργασίας Excel και Υπολογισμός Όλων των Τύπων](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
 Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel σε Java και να υπολογίσετε αυτόματα όλους τους δυναμικούς τύπους πίνακα.
 
+### [Πώς να ανανεώσετε βιβλία εργασίας Excel σε Java χρησιμοποιώντας Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
+Μάθετε πώς να ανανεώνετε τα βιβλία εργασίας Excel προγραμματιστικά με Aspose.Cells for Java
+
+### [Πώς να εξαναγκάσετε τον υπολογισμό τύπων σε Java με Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+Μάθετε πώς να αναγκάσετε τον υπολογισμό τύπων σε βιβλία εργασίας Excel με Aspose.Cells for Java.
+
 ## Πρόσθετοι Πόροι
 - [Τεκμηρίωση Aspose.Cells για Java](https://docs.aspose.com/cells/java/)
 - [Αναφορά API Aspose.Cells για Java](https://reference.aspose.com/cells/java/)
