@@ -35,6 +35,9 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java Enumerationswerte in Zeichenfol
 ### [Aspose.Cells Java: Erstellen und Verwalten benannter Bereiche in Excel-Dateien](./aspose-cells-java-manage-named-ranges/)
 Erfahren Sie, wie Sie benannte Bereiche mit Aspose.Cells für Java erstellen, verwalten und bearbeiten. Dieses Tutorial führt Sie durch die Einrichtung Ihrer Umgebung und zeigt Ihnen anhand von Codebeispielen die wichtigsten Funktionen.
 
+### [Namen einer Zelle in Excel mit Java zuweisen – Vollständige Anleitung](./assign-name-to-cell-in-excel-using-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java einer einzelnen Zelle einen Namen zuweisen und diesen später im Code referenzieren.
+
 ### [Zugriff auf den maximalen Anzeigebereich in Excel-Arbeitsmappen mit Aspose.Cells Java](./aspose-cells-java-max-display-range/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java auf den maximalen Anzeigebereich eines Arbeitsblatts in Excel zugreifen. Meistern Sie diese Funktion mit unserer Schritt-für-Schritt-Anleitung.
 
@@ -52,6 +55,9 @@ Erfahren Sie, wie Sie das Kopieren von Spalten in Excel mit Aspose.Cells für Ja
 
 ### [So kopieren Sie mehrere Spalten in Excel mit Aspose.Cells Java: Eine vollständige Anleitung](./copy-multiple-columns-excel-aspose-cells-java/)
 Erfahren Sie, wie Sie das Kopieren mehrerer Spalten in einem Excel-Arbeitsblatt mit Aspose.Cells für Java automatisieren. Diese Anleitung behandelt Einrichtung, Implementierung und Fehlerbehebung.
+
+### [Bereich zwischen Arbeitsmappen in Java kopieren – Schritt-für-Schritt-Anleitung](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Bereiche zwischen verschiedenen Excel-Arbeitsmappen kopieren und dabei Codebeispiele nutzen.
 
 ### [Erstellen Sie einen Union-Bereich in Excel mit Aspose.Cells Java: Ein umfassender Leitfaden](./create-union-range-excel-aspose-cells-java/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Vereinigungsbereiche in Excel erstellen und so die Datendarstellung und Lesbarkeit verbessern.
@@ -74,6 +80,9 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java das Kopieren einzelner Spalten 
 ### [Importieren Sie benutzerdefinierte Objekte in zusammengeführte Excel-Zellen mit Aspose.Cells für Java: Ein umfassender Leitfaden](./import-custom-objects-merged-cells-java-aspose-cells/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java benutzerdefinierte Objekte effizient in zusammengeführte Zellen in Excel importieren. Meistern Sie die Datenverarbeitung mit diesem umfassenden Leitfaden.
 
+### [Programmatisches Kopieren von Arbeitsblattbereichen – Vollständiger Java-Leitfaden](./programmatically-copy-worksheet-range-complete-java-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Arbeitsblattbereiche programmgesteuert kopieren und dabei Datenintegrität und Leistung sicherstellen.
+
 ### [Meistern Sie die Mehrzeilenmanipulation in Excel mit Aspose.Cells](./master-multi-row-manipulation-excel-aspose-cells-java/)
 Ein Code-Tutorial für Aspose.Words Java
 
@@ -83,7 +92,7 @@ Erfahren Sie, wie Sie Datenbereiche in Excel mit Aspose.Cells für Java effizien
 ### [Excel-Zellen in Java mit Aspose.Cells trennen: Eine Schritt-für-Schritt-Anleitung](./unmerge-excel-cells-aspose-cells-java-guide/)
 Erfahren Sie, wie Sie Zellen in Excel-Dateien mit Aspose.Cells für Java effizient trennen. Diese Anleitung behandelt die Einrichtung, Erkennung und Trennung verbundener Zellen mit Codebeispielen.
 
-
+### [Neues Arbeitsblatt erstellen und Excel-Bereich mit Aspose.Cells kopieren](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
 
 ## Weitere Ressourcen
 

@@ -1,0 +1,7 @@
+Title: How to copy a pivot table in Java using Aspose.Cells
+Slug: how-to-copy-a-pivot-table-in-java-using-aspose-cells
+Category: excel-pivot-tables
+ProcessedDate: 2026-09-28T03:33:45.341968
+SourceRepo: AI Search API
+Keywords: copy pivot table, how to copy pivot table, copy range aspose cells
+PRNumber: 172

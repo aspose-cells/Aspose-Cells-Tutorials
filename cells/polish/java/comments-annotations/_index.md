@@ -53,6 +53,10 @@ Dowiedz się, jak zmienić kierunek tekstu w komentarzach programu Excel za pomo
 ### [Eksportuj komentarze z programu Excel do formatu HTML za pomocą Aspose.Cells dla języka Java](./export-excel-comments-html-aspose-cells-java/)
 Samouczek dotyczący kodu dla Aspose.Words Java
 
+### [Jak dodać komentarz w programie Excel w Javie – kompletny przewodnik](./how-to-add-comment-in-excel-with-java-complete-guide/)
+Dowiedz się, jak programowo dodać komentarz do pliku Excel przy użyciu Aspose.Cells dla Javy.
+### [Dodaj komentarz do Excela przy użyciu Javy – Kompletny przewodnik krok po kroku](./add-comment-to-excel-using-java-complete-step-by-step-guide/)
+Dowiedz się, jak programowo dodać komentarz do pliku Excel przy użyciu Aspose.Cells dla Java. Kompletny przewodnik krok po kroku.
 ### [Dodaj komentarz do programu Excel za pomocą Aspose.Cells w Javie – Kompletny przewodnik krok po kroku](./add-comment-to-excel-with-java-complete-step-by-step-guide/)
 Dowiedz się, jak programowo dodać komentarz do pliku Excel przy użyciu Aspose.Cells for Java, krok po kroku z przykładami kodu.
 

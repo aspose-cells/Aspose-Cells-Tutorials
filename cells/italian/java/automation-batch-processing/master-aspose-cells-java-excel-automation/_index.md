@@ -1,159 +1,205 @@
 ---
-"date": "2025-04-09"
-"description": "Scopri come automatizzare le attività di Excel utilizzando Aspose.Cells per Java. Questa guida illustra la creazione di cartelle di lavoro, la gestione delle macro VBA e la gestione dei fogli di lavoro."
-"title": "Guida all'integrazione di Master Aspose.Cells per Java, Excel e VBA"
-"url": "/it/java/automation-batch-processing/master-aspose-cells-java-excel-automation/"
-"weight": 1
+date: '2026-09-12'
+description: Scopri come elaborare in batch file Excel usando Aspose.Cells per Java,
+  automatizzare le macro VBA e integrare la libreria con Maven o Gradle.
+keywords:
+- batch process excel files
+- automate excel with java
+- load excel vba macros
+- migrate vba macros java
+- aspose cells maven setup
+lastmod: '2026-09-12'
+og_description: Scopri come elaborare in batch file Excel usando Aspose.Cells per
+  Java, automatizzare le macro VBA e integrare con Maven o Gradle in un ambiente server‑side.
+og_image_alt: Guide to batch processing Excel files with Aspose.Cells for Java
+og_title: Come elaborare in batch file Excel con Aspose.Cells e Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-12'
+  description: Learn how to batch process Excel files using Aspose.Cells for Java,
+    automate VBA macros, and integrate the library with Maven or Gradle.
+  headline: How to batch process Excel files with Aspose.Cells and Java
+  type: TechArticle
+- description: Learn how to batch process Excel files using Aspose.Cells for Java,
+    automate VBA macros, and integrate the library with Maven or Gradle.
+  name: How to batch process Excel files with Aspose.Cells and Java
+  steps:
+  - name: Initialize the library and apply a license
+    text: '`Workbook` is the main Aspose.Cells class representing an Excel file. Load
+      the temporary license file from the classpath, then create a `Workbook` instance
+      to verify the library is ready.'
+  - name: Iterate over the input directory
+    text: '`Files.newDirectoryStream` is a Java NIO method that returns a stream of
+      directory entries. Use it to enumerate all Excel files in a folder, then open
+      each with `new Workbook(filePath)`.'
+  - name: Copy worksheets to the target workbook
+    text: '`addCopy` creates a duplicate of the specified worksheet in the target
+      workbook. For each worksheet in the source workbook, call `targetWorkbook.getWorksheets().addCopy(sourceWorksheet.getIndex())`.
+      This preserves sheet order, formulas, and formatting.'
+  - name: Copy VBA modules from source to target
+    text: '`getVbaProject` returns the VBA project container of the workbook. Iterate
+      over `sourceWorkbook.getVbaProject().getModules()` and add each module to `targetWorkbook.getVbaProject()`
+      using `addModule`. `addModule` adds a VBA module to the project, ensuring that
+      all macro code, class modules, and user'
+  - name: Save the workbook with modifications
+    text: '`save` writes the workbook to disk in the specified format, such as `SaveFormat.XLSM`
+      for macro‑enabled files. Call `targetWorkbook.save(outputPath, SaveFormat.XLSM)`
+      to write the updated file while keeping the macro container intact.'
+  type: HowTo
+- questions:
+  - answer: Yes. Because Aspose.Cells runs without Office, you can deploy the code
+      to any cloud VM, container, or serverless function that supports Java 8+.
+    question: Can I use this tutorial to migrate legacy Excel files with VBA to a
+      cloud‑based Java service?
+  - answer: Absolutely. The API can open, edit, and save `.xlsb` files while preserving
+      VBA macros.
+    question: Does the library support 64‑bit Excel files (.xlsb)?
+  - answer: Export the VBA project from the target workbook (`targetWorkbook.getVbaProject().export("temp.vba")`)
+      and open the file in the VBA editor of Excel for step‑by‑step debugging.
+    question: How do I debug VBA code after it’s been copied?
+  - answer: No hard limit, but extremely large workbooks (over 1,000 sheets) may require
+      additional JVM heap memory; monitor memory usage during batch runs.
+    question: Is there a limit on the number of worksheets or modules I can copy?
+  - answer: A single license covers all environments where the library is used, as
+      long as you comply with Aspose’s licensing terms.
+    question: Do I need a separate license for each deployment environment?
+  type: FAQPage
+tags:
+- batch processing
+- Aspose.Cells
+- Java Excel automation
+title: Come elaborare in batch file Excel con Aspose.Cells e Java
+url: /it/java/automation-batch-processing/master-aspose-cells-java-excel-automation/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Come elaborare in batch file Excel con Aspose.Cells e Java
 
-# Master Aspose.Cells per Java: Guida all'automazione di Excel e all'integrazione di VBA
+Nelle moderne pipeline di dati, **elaborazione batch di file Excel** è una necessità comune—che tu debba generare report mensili, migrare cartelle di lavoro legacy o applicare la stessa macro VBA a migliaia di fogli di calcolo. Aspose.Cells per Java ti consente di automatizzare ogni passaggio senza installare Microsoft Office, offrendoti il pieno controllo da una semplice applicazione console a un microservizio cloud‑native. In questo tutorial vedrai come visualizzare la versione della libreria, creare workbook da zero, caricare file contenenti macro VBA e user form, copiare fogli di lavoro, copiare elementi del progetto VBA, trasferire moduli VBA e infine salvare i file aggiornati. Il tutto funziona su qualsiasi OS che supporti Java 8+.
 
-**Automatizza le attività di Excel con facilità utilizzando Aspose.Cells per Java**
+## Risposte rapide
+- **Qual è lo scopo principale di Aspose.Cells per Java?** Automazione della creazione, manipolazione di Excel e gestione VBA senza necessità di Microsoft Office.  
+- **Posso lavorare con macro VBA usando questa libreria?** Sì – è possibile caricare, copiare e modificare progetti VBA e user form.  
+- **Ho bisogno di una licenza per lo sviluppo?** Una licenza temporanea gratuita rimuove i limiti di valutazione; è possibile ottenerla da [Aspose](https://purchase.aspose.com/temporary-license/). Una licenza completa è necessaria per la produzione.  
+- **Quali versioni di Java sono supportate?** Java 8 o successive (consigliato Java 11+).  
+- **La libreria è compatibile con Maven e Gradle?** Assolutamente – entrambi gli strumenti di build sono supportati.
 
-Nell'attuale ambiente incentrato sui dati, l'automazione delle attività di Microsoft Excel tramite Java può migliorare significativamente la produttività e far risparmiare tempo. Che siate sviluppatori che mirano a semplificare le operazioni o professionisti che desiderano ottimizzare i flussi di lavoro, padroneggiare Aspose.Cells per Java è essenziale per una gestione efficace dei file Excel. Questo tutorial vi guiderà attraverso le funzionalità chiave di Aspose.Cells con Java, concentrandosi sulla visualizzazione delle versioni, la creazione di cartelle di lavoro, il caricamento di file con macro VBA e moduli utente, la copia di fogli di lavoro e moduli VBA e il salvataggio efficiente delle modifiche.
+## Cos'è Aspose.Cells per Java?
+Aspose.Cells per Java è un'API pure‑Java che consente la creazione, la conversione e la manipolazione di fogli di calcolo Excel senza che Microsoft Excel sia installato. Supporta oltre 70 formati di file, elabora cartelle di lavoro con centinaia di pagine in modalità a basso consumo di memoria e preserva macro VBA, grafici e tabelle pivot.
 
-## Cosa imparerai
-- Visualizza la versione corrente di Aspose.Cells per Java
-- Crea una cartella di lavoro Excel vuota
-- Caricare file Excel esistenti contenenti macro VBA e moduli utente
-- Copia i fogli di lavoro e il loro contenuto in una cartella di lavoro di destinazione
-- Trasferisci i moduli VBA da una cartella di lavoro all'altra
-- Salvare le cartelle di lavoro con le modifiche in modo efficiente
+## Perché elaborare in batch file Excel con Aspose.Cells?
+Elaborare grandi volumi di fogli di calcolo su un server ti offre tre vantaggi misurabili. L'elaborazione batch riduce lo sforzo manuale, migliora la coerenza tra i file e consente l'esecuzione parallela per un'elevata capacità di throughput. Utilizzando Aspose.Cells ottieni velocità, scalabilità e piena fedeltà VBA, rendendolo ideale per pipeline di dati a livello enterprise.
 
 ## Prerequisiti (H2)
-Prima di approfondire le funzionalità di Aspose.Cells per Java, assicurati di avere:
 
-### Librerie, versioni e dipendenze richieste
-1. **Aspose.Cells per Java**: Avrai bisogno della versione 25.3 o successiva.
-   - **Esperto**:
+### Librerie richieste, versioni e dipendenze
+1. **Aspose.Cells for Java**: versione 25.3 o successiva.  
+   - **Maven**:  
      ```xml
      <dependency>
          <groupId>com.aspose</groupId>
          <artifactId>aspose-cells</artifactId>
          <version>25.3</version>
      </dependency>
-     ```
-   - **Gradle**:
+     ```  
+   - **Gradle**:  
      ```gradle
      compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
-     ```
+     ```  
 
 ### Requisiti di configurazione dell'ambiente
-- Java Development Kit (JDK) 8 o versione successiva installato sul computer.
-- Un ambiente di sviluppo integrato (IDE) adatto come IntelliJ IDEA o Eclipse.
+* Java Development Kit (JDK) 8 o successivo.  
+* Un IDE come IntelliJ IDEA o Eclipse (opzionale ma consigliato).  
 
 ### Prerequisiti di conoscenza
-- Conoscenza di base della programmazione Java
-- La familiarità con Excel e le macro VBA è utile ma non necessaria
+* Programmazione Java di base.  
+* Familiarità con i concetti di Excel; la conoscenza di VBA è utile ma non obbligatoria.
 
-## Impostazione di Aspose.Cells per Java (H2)
-Per iniziare, assicurati di aver aggiunto la libreria Aspose.Cells al tuo progetto. Ecco come fare:
+## Come elaborare in batch file Excel con Aspose.Cells per Java?
+Carica ogni workbook di origine, copia il progetto VBA necessario e scrivi il risultato in una cartella di destinazione—tutto in un unico passaggio. Il flusso itera attraverso una directory, crea un nuovo workbook, trasferisce fogli di lavoro e moduli VBA e infine salva il file abilitato alle macro. Questo approccio garantisce un'elaborazione coerente e un consumo minimo di memoria per grandi batch.
 
-1. **Installazione**: Se si utilizza Maven o Gradle, aggiungere le dipendenze come mostrato sopra.
-2. **Acquisizione della licenza**: Ottieni una licenza di prova gratuita da [Posare](https://purchase.aspose.com/temporary-license/) per rimuovere le limitazioni di valutazione.
-3. **Inizializzazione di base**:
-   ```java
-   // Carica la libreria Aspose.Cells per Java
-   import com.aspose.cells.*;
+### Passo 1: Inizializzare la libreria e applicare una licenza
+`Workbook` è la classe principale di Aspose.Cells che rappresenta un file Excel. Carica il file di licenza temporanea dal classpath, quindi crea un'istanza `Workbook` per verificare che la libreria sia pronta.
 
-   public class Setup {
-       public static void main(String[] args) {
-           // Imposta la licenza se disponibile
-           License license = new License();
-           try {
-               license.setLicense("Aspose.Cells.lic");
-           } catch (Exception e) {
-               System.out.println("License not found. Proceeding with evaluation mode.");
-           }
-       }
-   }
-   ```
+### Passo 2: Iterare sulla directory di input
+`Files.newDirectoryStream` è un metodo Java NIO che restituisce uno stream di voci della directory. Usalo per enumerare tutti i file Excel in una cartella, quindi apri ciascuno con `new Workbook(filePath)`.
 
-## Guida all'implementazione
-Ora approfondiamo le caratteristiche e le funzionalità di Aspose.Cells per Java.
+### Passo 3: Copiare i fogli di lavoro nel workbook di destinazione
+`addCopy` crea un duplicato del foglio di lavoro specificato nel workbook di destinazione. Per ogni foglio di lavoro nel workbook di origine, chiama `targetWorkbook.getWorksheets().addCopy(sourceWorksheet.getIndex())`. Questo preserva l'ordine dei fogli, le formule e la formattazione.
 
-### Visualizza informazioni sulla versione (H2)
-**Panoramica**: Questa funzionalità consente di visualizzare la versione corrente di Aspose.Cells per Java utilizzata nella tua applicazione.
+### Passo 4: Copiare i moduli VBA dalla sorgente alla destinazione
+`getVbaProject` restituisce il contenitore del progetto VBA del workbook. Itera su `sourceWorkbook.getVbaProject().getModules()` e aggiungi ogni modulo a `targetWorkbook.getVbaProject()` usando `addModule`. `addModule` aggiunge un modulo VBA al progetto, garantendo che tutto il codice macro, i moduli di classe e i designer dei user‑form vengano trasferiti inalterati.
 
-#### Passaggio 1: recuperare i dati della versione
+### Passo 5: Salvare il workbook con le modifiche
+`save` scrive il workbook su disco nel formato specificato, ad esempio `SaveFormat.XLSM` per file abilitati alle macro. Chiama `targetWorkbook.save(outputPath, SaveFormat.XLSM)` per scrivere il file aggiornato mantenendo intatto il contenitore delle macro.
+
+## Visualizzare le informazioni di versione – un passaggio del tutorial Aspose.Cells
 ```java
 import com.aspose.cells.*;
 
 public class VersionDisplay {
     public static void main(String[] args) throws Exception {
-        // Ottieni la versione Aspose.Cells per Java e memorizzala in una variabile
+        // Get the Aspose.Cells for Java version and store it in a variable
         String version = CellsHelper.getVersion();
         
-        // Stampa le informazioni sulla versione sulla console
+        // Print the version information to console
         System.out.println("Aspose.Cells for Java Version: " + version);
     }
 }
 ```
 
-### Crea una cartella di lavoro vuota (H2)
-**Panoramica**: Crea facilmente una cartella di lavoro Excel vuota utilizzando Aspose.Cells.
-
-#### Passaggio 1: inizializzare un nuovo oggetto cartella di lavoro
+## Creare un workbook vuoto – nucleo del tutorial
 ```java
 import com.aspose.cells.*;
 
 public class CreateEmptyWorkbook {
     public static void main(String[] args) throws Exception {
-        // Inizializza un nuovo oggetto Workbook che rappresenta un file Excel
+        // Initialize a new Workbook object which represents an Excel file
         Workbook target = new Workbook();
         
-        // Salva la cartella di lavoro vuota in una directory specificata
+        // Save the empty workbook to a specified directory
         String outDir = "YOUR_OUTPUT_DIRECTORY";
         target.save(outDir + "emptyWorkbook.xlsm", SaveFormat.XLSM);
     }
 }
 ```
 
-### Caricare un file Excel con macro VBA (H2)
-**Panoramica**:Accedi e carica un file Excel esistente contenente macro VBA e moduli utente.
-
-#### Passaggio 1: definire la directory e caricare la cartella di lavoro
+## Caricare un file Excel con macro VBA – automatizzare Excel con Java
 ```java
 import com.aspose.cells.*;
 
 public class LoadExcelWithVBA {
     public static void main(String[] args) throws Exception {
-        // Definisci la directory contenente i tuoi file di dati
+        // Define the directory containing your data files
         String dataDir = "YOUR_DATA_DIRECTORY";
         
-        // Carica un file Excel esistente che contiene macro VBA e moduli utente
+        // Load an existing Excel file that contains VBA macros and user forms
         Workbook templateFile = new Workbook(dataDir + "sampleDesignerForm.xlsm");
     }
 }
 ```
 
-### Copia i fogli di lavoro nella cartella di lavoro di destinazione (H2)
-**Panoramica**: Questa funzione copia tutti i fogli di lavoro da una cartella di lavoro di origine a una cartella di lavoro di destinazione.
-
-#### Passaggio 1: caricare il modello e creare le cartelle di lavoro di destinazione
+## Copiare i fogli di lavoro nel workbook di destinazione – parte del flusso di copia del progetto VBA
 ```java
 import com.aspose.cells.*;
 
 public class CopyWorksheets {
     public static void main(String[] args) throws Exception {
-        // Caricare la cartella di lavoro modello contenente fogli di lavoro e macro VBA
+        // Load the template workbook containing worksheets and VBA macros
         String dataDir = "YOUR_DATA_DIRECTORY";
         Workbook templateFile = new Workbook(dataDir + "sampleDesignerForm.xlsm");
         
-        // Crea una nuova cartella di lavoro di destinazione in cui copiare il contenuto
+        // Create a new target workbook to copy contents into
         Workbook target = new Workbook();
         
-        // Ottieni il conteggio dei fogli di lavoro nel file modello
+        // Get the count of worksheets in the template file
         int sheetCount = templateFile.getWorksheets().getCount();
         
-        // Scorrere ogni foglio di lavoro e copiarlo nella cartella di lavoro di destinazione
+        // Iterate through each worksheet and copy it to the target workbook
         for(int idx=0; idx<sheetCount; idx++) {
             Worksheet ws = templateFile.getWorksheets().get(idx);
             
@@ -167,20 +213,17 @@ public class CopyWorksheets {
 }
 ```
 
-### Copia i moduli VBA dal modello alla cartella di lavoro di destinazione (H2)
-**Panoramica**: Trasferisci i moduli VBA tra le cartelle di lavoro, mantenendone la funzionalità.
-
-#### Passaggio 1: caricare le cartelle di lavoro e scorrere i moduli
+## Copiare i moduli VBA dal modello al workbook di destinazione – trasferire i moduli VBA
 ```java
 import com.aspose.cells.*;
 
 public class CopyVBAModules {
     public static void main(String[] args) throws Exception {
-        // Carica la cartella di lavoro modello contenente i moduli VBA e i moduli utente
+        // Load the template workbook containing VBA modules and user forms
         String dataDir = "YOUR_DATA_DIRECTORY";
         Workbook templateFile = new Workbook(dataDir + "sampleDesignerForm.xlsm");
         
-        // Crea una nuova cartella di lavoro di destinazione in cui copiare il contenuto VBA
+        // Create a new target workbook to copy VBA contents into
         Workbook target = new Workbook();
         
         int modCount = templateFile.getVbaProject().getModules().getCount();
@@ -212,33 +255,77 @@ public class CopyVBAModules {
 }
 ```
 
-### Salva cartella di lavoro con modifiche (H2)
-**Panoramica**Finalizza e salva il tuo lavoro salvando la cartella di lavoro modificata.
-
-#### Passaggio 1: salvare le cartelle di lavoro modificate
+## Salvare il workbook con le modifiche
 ```java
 import com.aspose.cells.*;
 
 public class SaveWorkbook {
     public static void main(String[] args) throws Exception {
-        // Definisci la directory in cui desideri salvare il file di output
+        // Define the directory where you want to save the output file
         String outDir = "YOUR_OUTPUT_DIRECTORY";
         
-        // Salva la cartella di lavoro di destinazione con le modifiche
+        // Save the target workbook with modifications
         Workbook target = new Workbook();
         target.save(outDir + "modifiedWorkbook.xlsm", SaveFormat.XLSM);
     }
 }
 ```
 
-## Conclusione
-Questo tutorial ha fornito una guida completa all'utilizzo di Aspose.Cells per Java per automatizzare le attività di Excel, tra cui la gestione delle versioni, la creazione di cartelle di lavoro, la gestione delle macro VBA e la manipolazione dei fogli di lavoro. Seguendo questi passaggi, è possibile integrare in modo efficiente l'automazione di Excel nelle applicazioni Java.
+## Problemi comuni e risoluzione
+* **Licenza non trovata** – Assicurati che il file `.lic` sia posizionato nella cartella resources e che il percorso passato a `License.setLicense()` sia corretto.  
+* **Moduli VBA mancanti dopo la copia** – Verifica che il workbook di origine contenga effettivamente codice VBA (`sourceWorkbook.getVbaProject().getModules().getCount() > 0`).  
+* **Tipi di macro non supportati** – Alcune costruzioni VBA legacy (ad esempio eventi `OnTime`) potrebbero non sopravvivere alla conversione; testa il workbook di output in Excel per confermare il comportamento.  
+* **Problemi di percorso file** – Usa percorsi assoluti o configura la directory di lavoro del tuo IDE per evitare `FileNotFoundException`.  
+* **Pressione di memoria su workbook enormi** – Abilita `LoadOptions.setLoadDataOnly(false)` e aumenta l'heap JVM (`-Xmx4g`) quando elabori file più grandi di 500 MB.
+
+## Domande frequenti
+
+**Q: Posso usare questo tutorial per migrare file Excel legacy con VBA a un servizio Java basato sul cloud?**  
+A: Sì. Poiché Aspose.Cells funziona senza Office, puoi distribuire il codice su qualsiasi VM cloud, container o funzione serverless che supporti Java 8+.
+
+**Q: La libreria supporta file Excel a 64 bit (.xlsb)?**  
+A: Assolutamente. L'API può aprire, modificare e salvare file `.xlsb` preservando le macro VBA.
+
+**Q: Come faccio a fare debug del codice VBA dopo che è stato copiato?**  
+A: Esporta il progetto VBA dal workbook di destinazione (`targetWorkbook.getVbaProject().export("temp.vba")`) e apri il file nell'editor VBA di Excel per il debug passo‑per‑passo.
+
+**Q: Esiste un limite al numero di fogli di lavoro o moduli che posso copiare?**  
+A: Nessun limite rigido, ma workbook estremamente grandi (oltre 1.000 fogli) potrebbero richiedere più memoria heap JVM; monitora l'uso della memoria durante le esecuzioni batch.
+
+**Q: Ho bisogno di una licenza separata per ogni ambiente di distribuzione?**  
+A: Una singola licenza copre tutti gli ambienti in cui la libreria è utilizzata, purché tu rispetti i termini di licenza di Aspose.
+
+**Last Updated:** 2026-09-12  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose  
+
+```java
+   // Load the Aspose.Cells for Java library
+   import com.aspose.cells.*;
+
+   public class Setup {
+       public static void main(String[] args) {
+           // Set up license if available
+           License license = new License();
+           try {
+               license.setLicense("Aspose.Cells.lic");
+           } catch (Exception e) {
+               System.out.println("License not found. Proceeding with evaluation mode.");
+           }
+       }
+   }
+   ```
+
+## Tutorial correlati
+
+- [Elaborare più file Excel – Modificare i collegamenti ipertestuali con Aspose.Cells Java](/cells/java/advanced-features/edit-excel-hyperlinks-aspose-cells-java/)
+- [Dominare l'automazione Excel con Aspose.Cells per Java: Guida completa](/cells/java/automation-batch-processing/excel-automation-aspose-cells-java-tutorial/)
+- [Ottimizzare i workbook Excel con Aspose.Cells Java: Prestazioni e miglioramenti VBA](/cells/java/performance-optimization/excel-workbook-optimization-aspose-cells-java-guide/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

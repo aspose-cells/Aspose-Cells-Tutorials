@@ -1,10 +1,69 @@
 ---
-"description": "了解如何使用 Aspose.Cells for Java 創建迷人的圖表動畫。包含動態資料視覺化的逐步指南和原始程式碼。"
-"linktitle": "圖表動畫"
-"second_title": "Aspose.Cells Java Excel 處理 API"
-"title": "圖表動畫"
-"url": "/zh-hant/java/advanced-excel-charts/chart-animation/"
-"weight": 17
+date: 2026-07-16
+description: 了解如何在 Java 中為 chart 添加動畫，並使用 Aspose.Cells for Java 為 Excel chart 加入動畫。一步一步的指南，提供完整原始碼，以實現動態資料視覺化。
+keywords:
+- how to animate chart
+- add animation excel chart
+- chart animation with java
+lastmod: 2026-07-16
+linktitle: Java chart 動畫教學
+og_description: 探索如何使用 Aspose.Cells 在 Java 中為 chart 添加動畫。本教學示範如何為 Excel chart 加入動畫、設定持續時間，並循環
+  chart 以實現動態視覺化。
+og_image_alt: 'Guide: Animate Excel chart in Java using Aspose.Cells'
+og_title: 如何在 Java 中為 chart 添加動畫 – Aspose.Cells 指南
+schemas:
+- author: Aspose
+  dateModified: '2026-07-16'
+  description: Learn how to animate chart in Java and add animation Excel chart using
+    Aspose.Cells for Java. Step‑by‑step guide with full source code for dynamic data
+    visualisation.
+  headline: How to Animate Chart in Java with Aspose.Cells
+  type: TechArticle
+- description: Learn how to animate chart in Java and add animation Excel chart using
+    Aspose.Cells for Java. Step‑by‑step guide with full source code for dynamic data
+    visualisation.
+  name: How to Animate Chart in Java with Aspose.Cells
+  steps:
+  - name: Import the Aspose.Cells library
+    text: The `com.aspose.cells` package contains all classes required for Excel manipulation.
+  - name: Load an existing workbook **or** create a new one
+    text: '`Workbook` is the main class used to open, create, and manipulate Excel
+      files.'
+  - name: Access the chart you want to animate
+    text: '`Chart` represents a graphical representation of data within a worksheet.'
+  - name: Configure the chart animation settings
+    text: '`AnimationType` enum defines the available animation effects such as FADE,
+      GROW_SHRINK, and SLIDE. > **Pro tip:** Experiment with `AnimationType.FADE`
+      or `AnimationType.GROW_SHRINK` to match your presentation style.'
+  - name: Save the workbook
+    text: '`save` writes the workbook to a file in the specified format. When you
+      open *output.xlsx* and select the chart, the slide‑in animation you configured
+      will play.'
+  type: HowTo
+- questions:
+  - answer: Yes. Loop through `worksheet.getCharts()` and set animation properties
+      for each chart (see *How to loop through charts java?*).
+    question: Can I animate multiple charts in the same workbook?
+  - answer: You need to modify the chart object again in code and re‑save the workbook.
+    question: Is it possible to change the animation after the workbook is saved?
+  - answer: Chart animation is an Excel‑specific feature and is not supported by LibreOffice.
+    question: Does the animation work when the file is opened in LibreOffice?
+  - answer: Set different `AnimationDelay` values for each chart to stage the animations.
+    question: How do I control the animation order for several charts?
+  - answer: A free temporary license works for development and testing; a paid license
+      is required for production deployment.
+    question: Do I need a paid license for development?
+  type: FAQPage
+second_title: Aspose.Cells Java Excel Processing API
+tags:
+- chart animation
+- Aspose.Cells
+- Java Excel
+- animated charts
+- Excel visualization
+title: 如何在 Java 中使用 Aspose.Cells 為 chart 添加動畫
+url: /zh-hant/java/advanced-excel-charts/chart-animation/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,97 +72,128 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 圖表動畫
+# 如何在 Java 中為圖表添加動畫
 
+創建引人注目的視覺化效果可以將靜態試算表轉變為引人入勝的故事。在本教學中，您將學習如何使用 Aspose.Cells for Java API **為圖表添加動畫**，並確切了解如何 **為 Excel 圖表添加動畫** 元素，使您的資料栩栩如生。我們將逐步說明，從設定專案到儲存動畫活頁簿，讓您能自信地將動畫圖表整合至報告、儀表板或簡報中。
 
-## 圖表動畫創作簡介
+## 快速解答
+- **需要哪個函式庫？** Aspose.Cells for Java（從官方 Aspose 網站下載）。  
+- **我可以為任何圖表類型添加動畫嗎？** 大多數圖表類型皆受支援；API 允許您在標準圖表上設定動畫屬性。  
+- **動畫持續多久？** 您可以以毫秒定義持續時間（例如 1000 ms = 1 秒）。  
+- **需要授權嗎？** 免費試用版可用於開發；商業授權則需於正式環境使用。  
+- **需要哪個 Java 版本？** Java 8 或以上。  
 
-在本教學中，我們將探討如何使用 Aspose.Cells for Java API 建立動態圖表動畫。圖表動畫可以有效地視覺化數據趨勢和隨時間的變化，使您的報告和簡報更具吸引力和資訊量。我們將為您提供逐步指南，並包含完整的原始程式碼範例，以方便您使用。
+## 什麼是 Java 中的圖表動畫？
+圖表動畫是一種套用於 Excel 圖表的視覺效果，當活頁簿開啟或在 PowerPoint 中顯示投影片時會播放。**它有助於突顯趨勢、強調關鍵資料點，並保持觀眾的注意力。**您可以設定自動、點擊或延遲後開始，讓您掌控視覺呈現的節奏。
 
-## 先決條件
+## 為什麼要為 Excel 圖表添加動畫？
+為 Excel 圖表添加動畫可提升敘事效果、增加記憶度，並為報告增添專業感。Aspose.Cells 支援 **20 多種圖表類型**（包括柱狀圖、折線圖、圓餅圖與散佈圖），且可直接在 Java 中為每種圖表添加動畫，無需外部工具，讓您直接從程式產生動態簡報。
 
-在深入建立圖表動畫之前，請確保您已滿足以下先決條件：
+## 前置條件
+1. **Aspose.Cells for Java** – 從 [here](https://releases.aspose.com/cells/java/) 下載最新的 JAR。  
+2. **Java 開發環境** – JDK 8 或更新版本，您選擇的 IDE（IntelliJ、Eclipse、VS Code 等）。  
+3. **範例活頁簿**（可選） – 您可以從頭開始，或使用已包含圖表的現有檔案。  
 
-1. Aspose.Cells for Java：確保您已安裝 Aspose.Cells for Java 函式庫。您可以從下載 [這裡](https://releases。aspose.com/cells/java/).
+## 步驟說明
 
-2. Java 開發環境：您應該在系統上設定一個 Java 開發環境。
-
-現在，讓我們開始逐步建立圖表動畫。
-
-## 步驟1：導入Aspose.Cells函式庫
-
-首先，您需要將 Aspose.Cells 庫匯入到您的 Java 專案中。您可以透過將以下程式碼新增至 Java 檔案來實現此目的：
+### 步驟 1：匯入 Aspose.Cells 函式庫
+`com.aspose.cells` 套件包含所有操作 Excel 所需的類別。  
 
 ```java
 import com.aspose.cells.*;
 ```
 
-## 步驟 2：載入或建立 Excel 工作簿
+### 步驟 2：載入現有活頁簿 **或** 建立新活頁簿
+`Workbook` 是用於開啟、建立與操作 Excel 檔案的主要類別。
 
-您可以載入包含資料和圖表的現有 Excel 工作簿，也可以從頭開始建立一個新的工作簿。載入現有工作簿的方法如下：
-
+#### 載入現有活頁簿
 ```java
-// 載入現有工作簿
+// Load an existing workbook
 Workbook workbook = new Workbook("path_to_your_excel_file.xlsx");
 ```
 
-建立新工作簿的方法如下：
-
+#### 從頭建立新活頁簿
 ```java
-// 建立新工作簿
+// Create a new workbook
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## 步驟 3：存取圖表
-
-要建立圖表動畫，您需要存取要製作動畫的圖表。您可以透過指定工作表和圖表索引來執行此操作：
+### 步驟 3：取得要動畫的圖表
+`Chart` 代表工作表中資料的圖形呈現。  
 
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
-Chart chart = worksheet.getCharts().get(0); // 如果需要，請更改索引
+Chart chart = worksheet.getCharts().get(0); // Change the index if needed
 ```
 
-## 步驟4：配置圖表動畫
-
-現在，是時候配置圖表動畫設定了。您可以設定各種屬性，例如動畫類型、持續時間和延遲。以下是一個例子：
+### 步驟 4：設定圖表動畫屬性
+`AnimationType` 列舉定義了可用的動畫效果，如 FADE、GROW_SHRINK 與 SLIDE。  
 
 ```java
 chart.getChartObject().setAnimationType(AnimationType.SLIDE);
-chart.getChartObject().setAnimationDuration(1000); // 動畫持續時間（以毫秒為單位）
-chart.getChartObject().setAnimationDelay(500);    // 動畫開始前的延遲（毫秒）
+chart.getChartObject().setAnimationDuration(1000); // Animation duration in milliseconds
+chart.getChartObject().setAnimationDelay(500);    // Delay before animation starts (milliseconds)
 ```
 
-## 步驟 5：儲存 Excel 工作簿
+> **Pro tip:** 嘗試使用 `AnimationType.FADE` 或 `AnimationType.GROW_SHRINK` 以符合您的簡報風格。
 
-不要忘記儲存修改後的工作簿和圖表動畫設定：
+### 步驟 5：儲存活頁簿
+`save` 將活頁簿寫入指定格式的檔案。  
 
 ```java
 workbook.save("output.xlsx");
 ```
 
+當您開啟 *output.xlsx* 並選取圖表時，先前設定的滑入動畫將會播放。
+
+## 如何在 Java 中遍歷圖表？
+您可以透過遍歷圖表集合，將相同的動畫套用至活頁簿中的每一個圖表。首先使用 `worksheet.getCharts().getCount()` 取得圖表數量，然後從 `0` 迭代到 `count‑1`，取出每個圖表，並依照步驟 4 設定 `AnimationType`、`AnimationDuration` 與 `AnimationDelay`。此方式可確保所有視覺化效果一致，且免除重複撰寫程式碼。
+
+## 常見問題與解決方案
+| 問題 | 原因 | 解決方案 |
+|-------|--------|-----|
+| **動畫未顯示** | Excel 版本低於 2013 不支援圖表動畫。 | 使用 Excel 2013 或更新版本。 |
+| **`AnimationType` 未被識別** | 使用過時的 Aspose.Cells JAR。 | 升級至最新的 Aspose.Cells for Java 版本。 |
+| **圖表索引超出範圍** | 活頁簿沒有圖表或索引錯誤。 | 在存取前先確認 `worksheet.getCharts().getCount()`。 |
+
+## 常見問答
+
+**Q: 我可以在同一本活頁簿中為多個圖表添加動畫嗎？**  
+A: 可以。遍歷 `worksheet.getCharts()`，為每個圖表設定動畫屬性（請參考 *如何在 Java 中遍歷圖表？*）。
+
+**Q: 可以在活頁簿儲存後變更動畫嗎？**  
+A: 必須再次在程式碼中修改圖表物件，然後重新儲存活頁簿。
+
+**Q: 在 LibreOffice 開啟檔案時動畫會運作嗎？**  
+A: 圖表動畫是 Excel 專屬功能，LibreOffice 不支援。
+
+**Q: 如何控制多個圖表的動畫順序？**  
+A: 為每個圖表設定不同的 `AnimationDelay` 值，以分階段呈現動畫。
+
+**Q: 開發時需要付費授權嗎？**  
+A: 免費臨時授權可用於開發與測試；正式部署則需付費授權。
+
 ## 結論
+依照上述步驟，您現在已掌握如何使用 Aspose.Cells **為圖表添加動畫** 以及 **為 Excel 圖表添加動畫** 效果。將動畫圖表納入您的資料簡報，可大幅提升呈現衝擊力，將靜態數字轉化為引人入勝的視覺故事。您亦可探索其他圖表相關 API，例如資料標籤、系列格式設定與條件樣式，以進一步強化 Excel 報告。
 
-在本教程中，我們學習如何使用 Aspose.Cells for Java API 建立圖表動畫。我們介紹了基本步驟，包括匯入庫、載入或建立 Excel 工作簿、存取圖表、配置動畫設定和儲存工作簿。透過將圖表動畫融入您的報告和簡報中，您可以使您的數據變得生動並有效地傳達您的訊息。
+---
 
-## 常見問題解答
+**Last Updated:** 2026-07-16  
+**Tested With:** Aspose.Cells for Java 24.12  
+**Author:** Aspose  
 
-### 我該如何更改動畫類型？
+{{< blocks/products/products-backtop-button >}}
 
-若要變更動畫類型，請使用 `setAnimationType` 圖表物件上的方法。您可以從各種類型中進行選擇，例如 `SLIDE`， `FADE`， 和 `GROW_SHRINK`。
+## 相關教學
 
-### 我可以自訂動畫持續時間嗎？
+- [在 Aspose.Cells Java 中為 Excel 圖表添加資料標籤](/cells/java/advanced-excel-charts/chart-interactivity/)
+- [使用智慧標記在 Aspose.Cells for Java 中建立動態圖表 | 步驟說明](/cells/java/charts-graphs/dynamic-charts-smart-markers-aspose-cells-java/)
+- [使用 Aspose.Cells Java 建立動態 Excel 圖表：開發者完整指南](/cells/java/charts-graphs/aspose-cells-java-dynamic-excel-charts/)
 
-是的，您可以使用 `setAnimationDuration` 方法。指定持續時間（以毫秒為單位）。
-
-### 動畫延遲的目的是什麼？
-
-動畫延遲決定了圖表動畫開始之前的時間間隔。使用 `setAnimationDelay` 方法設定延遲（以毫秒為單位）。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

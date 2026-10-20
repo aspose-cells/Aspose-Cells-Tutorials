@@ -36,6 +36,8 @@ In this guide, you’ll learn how to enhance the visual appeal of your Excel dat
 Easily extract and manage hyperlinks from Excel files with Aspose.Cells for .NET. Step-by-step guide and code examples included.
 ### [Setting Image Preferences for HTML in .NET](./setting-image-preferences-for-html/)
 Unlock the power of Aspose.Cells for .NET. Learn how to set image preferences for HTML conversion to present your Excel data beautifully on the web.
+### [How to Create Worksheets – Step‑by‑Step Guide for Dynamic Excel Generation](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
+Learn how to dynamically generate Excel worksheets using Aspose.Cells for .NET with this step-by-step guide.
 ### [Add Threaded Comments in Worksheet](./add-threaded-comments/)
 Learn how to add threaded comments in Excel worksheets using Aspose.Cells for .NET with this step-by-step tutorial. Enhance collaboration effortlessly.
 ### [Count Number of Cells in Worksheet](./count-cells/)
@@ -72,6 +74,10 @@ Learn to set a graphic background in ODS files using Aspose.Cells for .NET with 
 Learn to update revision log history in shared workbooks using Aspose.Cells for .NET. Simplify collaboration and maintain clear document records.
 ### [Utilize Sheet_SheetId Property of OpenXml in Worksheet](./utilize-sheet-sheetid-property/)
 Unlock the power of Excel with Aspose.Cells for .NET. Learn to manipulate Sheet IDs effectively with our step-by-step guide.
+### [How to Rename Worksheet in C# – Complete Guide](./how-to-rename-worksheet-in-c-complete-guide/)
+Learn how to rename an Excel worksheet using Aspose.Cells for .NET with C# in this comprehensive step-by-step guide.
+### [Create Worksheet Per Item – How to Repeat Worksheet in C#](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Learn how to create a separate worksheet for each item in a collection using Aspose.Cells for .NET, automating repetitive worksheet generation.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

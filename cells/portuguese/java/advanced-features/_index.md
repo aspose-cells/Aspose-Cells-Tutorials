@@ -7,9 +7,7 @@ url: /pt/java/advanced-features/
 weight: 18
 ---
 
-.
-
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

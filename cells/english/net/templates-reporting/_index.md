@@ -22,19 +22,12 @@ Templates save development time by separating design from data processing logic.
 ## Template Design & Processing
 
 ### Smart Markers for Data Binding
-- [Generate Dynamic Excel Reports Using Smart Markers](./generate-excel-reports-aspose-cells-net-smart-markers) - Create data-driven reports with smart markers
-- [Master SmartMarkers for Excel Report Automation](./dynamic-excel-reports-aspose-cells-net) - Learn advanced smart marker techniques
-- [Master Data Integration with Smart Markers](./mastering-data-integration-aspose-cells-smart-markers) - Efficient data binding with smart markers
 
 ### Professional Report Generation
-- [Master Dynamic Excel Reports](./aspose-cells-net-dynamic-excel-reports-guide) - Create comprehensive Excel reports
-- [Workbook Design with SmartMarkers](./master-workbook-design-aspose-cells-smartmarkers) - Design efficient reporting templates
-- [Master Excel Reports with Charts](./dynamic-excel-reports-aspose-cells-net) - Add visualizations to reports
 
 ## Metadata Management & Document Properties
 
 ### Document Information
-- [Master Workbook Metadata](./mastering-workbook-metadata-aspose-cells-net) - Manage document properties and metadata
 
 ## Tutorials List
 
@@ -55,6 +48,22 @@ A code tutorial for Aspose.Cells Net
 
 ### [Master Aspose.Cells .NET Smart Markers for Data Integration in Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Learn to master data integration using Aspose.Cells .NET Smart Markers with this comprehensive guide. Automate your Excel workflows and generate reports efficiently.
+
+### [Create workbook from template in C# – Step‑by‑Step Guide](./create-workbook-from-template-in-c-step-by-step-guide/)
+Learn how to generate an Excel workbook from a template using Aspose.Cells for .NET with step‑by‑step C# code examples.
+
+### [How to export data to Excel using a C# template – step‑by‑step guide](./how-to-export-data-to-excel-using-a-c-template-step-by-step/)
+Learn how to export data to Excel using a C# template with Aspose.Cells, featuring step‑by‑step code examples.
+
+### [Save Excel Workbook from JSON – Complete Guide](./save-excel-workbook-from-json-complete-guide/)
+Learn how to convert JSON data into an Excel workbook and save it using Aspose.Cells for .NET, covering parsing, data binding, and file output.
+
+### [How to process Excel template and automatically name sheets in C#](./how-to-process-excel-template-and-automatically-name-sheets)
+Learn how to process an Excel template and dynamically name worksheets using Aspose.Cells for .NET in C#.
+### [Generate Excel Report with C# – Step‑by‑Step Guide](./generate-excel-report-with-c-step-by-step-guide/)
+Step-by-step tutorial on generating Excel reports using C# and Aspose.Cells, covering setup, data binding, and saving the workbook.
+### [How to expand array in Excel and populate a template](./how-to-expand-array-in-excel-and-populate-a-template/)
+Learn how to expand arrays in Excel and populate templates using Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

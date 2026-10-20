@@ -56,6 +56,8 @@ Naučte se, jak spravovat textová pole v Excelu pomocí Aspose.Cells pro Javu. 
 ### [Zvládnutí Aspose.Cells v Javě: Identifikace buněk v pojmenované oblasti pro manipulaci s daty v Excelu](./master-aspose-cells-java-identify-named-range-cells/)
 Naučte se, jak používat Aspose.Cells s Javou k efektivní identifikaci a manipulaci s buňkami v pojmenovaných oblastech v tabulkách Excelu.
 
+### [Jak bezpečně přejmenovat tabulku Excel pomocí Aspose.Cells pro Javu](./how-to-safely-rename-excel-table-with-aspose-cells-java/)
+Naučte se, jak bezpečně přejmenovat tabulku Excel pomocí Aspose.Cells pro Javu.
 ### [Nastavení názvu tabulky v Excelu pomocí Javy – Kompletní průvodce](./set-table-name-in-excel-with-java-complete-guide/)
 Naučte se, jak nastavit název tabulky v Excelu pomocí Aspose.Cells pro Javu, což usnadňuje správu a odkazování na data.
 

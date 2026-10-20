@@ -60,6 +60,21 @@
 
 ### [Интеграция данных в Excel](./data-integration-in-excel/)
 Узнайте, как эффективно интегрировать данные в Excel для лучшего понимания и принятия решений. Пошаговое руководство с исходным кодом с использованием Aspose.Cells для Java.
+### [Отключение автофильтра в Excel с помощью Java – пошаговое руководство](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
+Узнайте, как отключить автофильтр в файлах Excel с помощью Aspose.Cells для Java, следуя пошаговым примерам кода.
+### [Создание Excel программно в Java – пошаговое руководство](./create-excel-programmatically-in-java-step-by-step-guide/)
+Узнайте, как программно создавать файлы Excel на Java с помощью Aspose.Cells, следуя пошаговым примерам кода.
+### [Как отключить автофильтр в Excel с помощью Java – Полное руководство](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+Узнайте, как отключить автофильтр в Excel с помощью Aspose.Cells для Java, используя примеры кода.
+### [Как отключить AutoFilter в Excel с помощью Java – Полное руководство](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+Узнайте, как отключить AutoFilter в Excel с помощью Aspose.Cells для Java, используя примеры кода и пошаговые инструкции.
+### [Создание вертикального массива Excel с Java – Полное пошаговое руководство](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+Узнайте, как создать вертикальный массив в Excel с помощью Aspose.Cells для Java, шаг за шагом с примерами кода.
+### [Как использовать Expand в Java – Полное руководство по Excel](./how-to-use-expand-in-java-complete-excel-guide/)
+Узнайте, как использовать метод Expand в Java с Aspose.Cells для создания динамических диапазонов в Excel. Полное пошаговое руководство.
+### [Как очистить AutoFilter в Excel с помощью Java — Полное руководство](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Узнайте, как программно снять фильтр AutoFilter в Excel с помощью Aspose.Cells для Java, с примерами кода и пошаговыми инструкциями.
+### [Создание новой книги Excel Aspose – добавление пользовательского свойства и сохранение в формате XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
 
 ### [Как удалить заголовок таблицы в Excel с Java – Полное руководство](./how-to-delete-table-header-in-excel-with-java-full-guide/)
 Узнайте, как программно удалить заголовок таблицы в Excel с помощью Aspose.Cells для Java, с подробными примерами кода.

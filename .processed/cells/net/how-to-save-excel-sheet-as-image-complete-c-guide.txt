@@ -1,0 +1,7 @@
+Title: How to Save Excel Sheet as Image – Complete C# Guide
+Slug: how-to-save-excel-sheet-as-image-complete-c-guide
+Category: image-and-chart-operations
+ProcessedDate: 2026-07-14T07:43:42.441409
+SourceRepo: AI Search API
+Keywords: how to save excel sheet as image, export pivot table as image, save workbook as png, convert excel range to image
+PRNumber: 118

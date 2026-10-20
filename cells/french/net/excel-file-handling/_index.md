@@ -38,6 +38,8 @@ Apprenez à exporter des propriétés personnalisées d'Excel vers PDF avec Aspo
 Apprenez à conserver les séparateurs pour les lignes vides dans Excel avec Aspose.Cells pour .NET. Guide étape par étape avec exemples de code inclus.
 ### [Charger uniquement les feuilles visibles à partir d'un fichier Excel](./load-visible-sheets-only/)
 Découvrez comment charger uniquement les feuilles visibles à partir de fichiers Excel à l’aide d’Aspose.Cells pour .NET dans ce guide étape par étape.
+### [Créer un fichier Excel de façon programmatique en C# – tutoriel](./create-excel-file-programmatically-in-c-tutorial/)
+Apprenez à créer un fichier Excel programmé en C# avec Aspose.Cells pour .NET, étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

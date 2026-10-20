@@ -1,0 +1,7 @@
+Title: How to convert JSON to Excel in C# with a single comma‑separated cell
+Slug: how-to-convert-json-to-excel-in-c-with-a-single-comma-separa
+Category: conversion-and-rendering
+ProcessedDate: 2026-10-04T14:23:28.536781
+SourceRepo: AI Search API
+Keywords: convert json to excel, load json file c#, deserialize json string array, save json as excel, comma separated excel cell
+PRNumber: 180

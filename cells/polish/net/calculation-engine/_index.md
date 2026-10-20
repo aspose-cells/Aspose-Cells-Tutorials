@@ -47,6 +47,10 @@ Dowiedz się, jak tworzyć i integrować niestandardowe silniki obliczeniowe w a
 ### [Optymalizacja czasu obliczeń w programie Excel za pomocą opcji rekurencyjnych w Aspose.Cells dla platformy .NET](./optimize-calculation-time-recursive-aspose-cells-net)
 Dowiedz się, jak optymalizować czasy obliczeń w programie Excel, używając opcji rekurencyjnych w Aspose.Cells dla .NET. Ten przewodnik obejmuje konfigurację, wskazówki dotyczące wydajności i praktyczne zastosowania.
 
+### [Wymuszenie obliczania formuły w C# – Kompletny przewodnik po automatyzacji Excela](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
+Dowiedz się, jak wymusić ponowne obliczanie formuł w Excelu przy użyciu C#, aby zapewnić aktualne wyniki w automatyzacji.
+### [Utwórz skoroszyt Excel – konwertuj tablicę na macierz przy użyciu WRAPCOLS](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
+Dowiedz się, jak utworzyć skoroszyt Excel i przekształcić jednowymiarową tablicę w macierz przy pomocy funkcji WRAPCOLS w Aspose.Cells .NET.
 
 ## Korzyści
 

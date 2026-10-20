@@ -1,0 +1,7 @@
+Title: Export selected cells to CSV in Java – complete guide
+Slug: export-selected-cells-to-csv-in-java-complete-guide
+Category: excel-import-export
+ProcessedDate: 2026-08-05T03:13:12.556172
+SourceRepo: AI Search API
+Keywords: export selected cells to csv, export excel range to csv
+PRNumber: 134

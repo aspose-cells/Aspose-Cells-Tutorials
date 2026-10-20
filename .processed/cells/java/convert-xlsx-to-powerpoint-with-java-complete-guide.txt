@@ -1,0 +1,7 @@
+Title: convert xlsx to powerpoint with Java – complete guide
+Slug: convert-xlsx-to-powerpoint-with-java-complete-guide
+Category: excel-import-export
+ProcessedDate: 2026-08-11T11:57:12.352669
+SourceRepo: AI Search API
+Keywords: convert xlsx to powerpoint, excel workbook to powerpoint, export excel using java, excel to powerpoint format, export excel to pptx
+PRNumber: 141

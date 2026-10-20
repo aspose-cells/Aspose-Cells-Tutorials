@@ -50,9 +50,33 @@
 ### [使用 Aspose.Cells 掌握 Java 中的 Excel 自動化：完整指南](./master-excel-operations-aspose-cells-java/)
 學習使用 Aspose.Cells for Java 自動執行 Excel 任務，包括載入工作簿、設定全球化選項、新增小計、計算公式和自動調整列。
 
+### [使用 Aspose.Cells for Java 將 Excel 轉換為 PowerPoint](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+了解如何使用 Aspose.Cells for Java 將 Excel 工作表轉換為 PowerPoint 簡報，包含程式碼範例與步驟說明。
+
 ### [透過 Aspose.Cells 整合掌握 Java 教師課程的實施](./master-teacher-class-java-aspose-cells/)
 了解如何在 Java 中實作教師類別、管理學生資料以及整合 Aspose.Cells 以增強 Excel 檔案處理。
 
+### [使用 Java 將 Excel 轉換為 PPTX – 完整程式設計指南](./convert-excel-to-pptx-with-java-complete-programming-guide/)
+本指南說明如何使用 Aspose.Cells for Java 將 Excel 工作表轉換為 PowerPoint PPTX，涵蓋程式碼示例與最佳實踐。
+
+### [如何將圖表從 Excel 匯出至 Word – Java 指南](./how-to-export-charts-from-excel-to-word-java-guide/)
+了解如何使用 Aspose.Cells for Java 將 Excel 圖表匯出至 Word 文件。本指南涵蓋程式碼示例與最佳實踐。
+
+### [如何在 Java 中使用 WRAPCOLS – Excel 陣列公式完整指南](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
+了解如何在 Java 中使用 WRAPCOLS 公式來處理 Excel 陣列公式。本指南提供設定、程式碼示例與最佳實踐。
+### [從 Excel 建立 PowerPoint – 完整 Java 指南](./create-powerpoint-from-excel-full-java-guide/)
+了解如何使用 Aspose.Cells for Java 從 Excel 資料生成 PowerPoint 簡報的完整步驟指南。
+
+### [將 Excel 轉換為 PowerPoint – 完整 Java 指南](./convert-excel-to-powerpoint-complete-java-guide/)
+了解如何使用 Aspose.Cells for Java 將 Excel 檔案轉換為 PowerPoint 簡報的完整步驟指南。
+### [如何將圖表從 Excel 匯出至 PowerPoint – 完整 Java 指南](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
+了解如何使用 Aspose.Cells for Java 將 Excel 圖表匯出至 PowerPoint。本指南涵蓋設定、程式碼實作與範例。
+### [將 Excel 轉換為 PowerPoint – 完整逐步指南](./convert-excel-to-powerpoint-full-step-by-step-guide/)
+了解如何使用 Aspose.Cells for Java 將 Excel 檔案轉換為 PowerPoint 簡報，提供完整的步驟說明與範例程式碼。
+### [使用 Aspose.Cells for C# 將 Excel 另存為 DOCX](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+了解如何使用 Aspose.Cells for C# 將 Excel 檔案另存為 DOCX 文件。
+### [如何使用 Java 從 Excel 複製範圍並匯出至 PowerPoint](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+說明如何使用 Aspose.Cells for Java 複製 Excel 範圍，並透過 Aspose.Slides for Java 匯出為 PowerPoint 簡報。
 ### [如何從 Excel 儲存 PPTX – 完整導出 Excel 工作表至 PowerPoint 指南](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
 了解如何使用 Aspose.Cells for Java 將 Excel 工作表匯出為 PPTX 檔案，提供完整步驟與程式碼示例。
 
