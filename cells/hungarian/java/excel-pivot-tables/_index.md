@@ -49,6 +49,8 @@ Tanuld meg, hogyan frissítheted a pivot tábla adatait az Aspose.Cells for Java
 Tanuld meg, hogyan szabhatod testre a pivot tábla stílusait az Aspose.Cells for Java API-ban. Hozz létre vizuálisan vonzó pivot táblákat könnyedén.
 ### [Pivot tábla másolása Java-ban – megőrizze, exportálja PPTX-be](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
 Tanuld meg, hogyan másolhatod a pivot táblát Java-ban, megőrizve formázását, és exportálhatod PPTX formátumba.
+### [Hogyan másolj pivot táblát Java-ban az Aspose.Cells segítségével – lépésről‑lépésre útmutató](./how-to-copy-pivot-table-in-java-with-aspose-cells-step-by-st/)
+Tanuld meg, hogyan másolhatod a pivot táblát Java-ban az Aspose.Cells használatával lépésről‑lépésre.
 ### [Hogyan másoljuk a kimutatástáblát Java-ban – Teljes Aspose.Cells útmutató](./how-to-copy-pivot-table-in-java-complete-aspose-cells-guide/)
 Ismerd meg, hogyan másolhatod a pivot táblákat Java-ban az Aspose.Cells segítségével, a teljes folyamat lépéseit bemutatva.
 ### [PNG létrehozása pivot táblából Java‑ban – Teljes lépésről‑lépésre útmutató](./create-png-from-pivot-in-java-full-step-by-step-guide/)

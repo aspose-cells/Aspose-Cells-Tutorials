@@ -57,9 +57,11 @@ Lär dig hur du exporterar en pivottabell till PNG med Aspose.Cells för Java.
 ### [Hur du kopierar ett område i Java – Kopiera pivottabell med Aspose.Cells](./how-to-copy-range-in-java-copy-pivot-table-with-aspose-cells/)
 Lär dig hur du kopierar ett område och duplicerar en pivottabell i Excel med Aspose.Cells för Java.
 ### [Hur man exporterar pivottabell som PNG – komplett Java-guide](./how-to-export-pivot-table-as-png-complete-java-guide/)
-Lär dig hur du exporterar en pivottabell till PNG-bild med Aspose.Cells för Java.
+Lär dig hur du exporterar en pivottabell till PNG‑bild med Aspose.Cells för Java.
 ### [Kopiera pivottabell i Java med Aspose.Cells](./how-to-copy-pivot-table-in-java-using-aspose-cells/)
 Lär dig hur du kopierar en pivottabell i Excel med Aspose.Cells för Java.
+### [Hur du kopierar pivottabell i Java med Aspose.Cells – steg‑för‑steg‑guide](./how-to-copy-pivot-table-in-java-with-aspose-cells-step-by-st/)
+Lär dig hur du steg för steg kopierar en pivottabell i Java med Aspose.Cells.
 ### [Kopiera pivottabell mellan arbetsböcker – Steg‑för‑steg Java‑guide](./copy-pivot-table-between-workbooks-step-by-step-java-guide/)
 Lär dig hur du kopierar en pivottabell från en arbetsbok till en annan med Aspose.Cells för Java i en detaljerad steg‑för‑steg‑guide.
 ### [Skapa ny arbetsbok i Java – Fullständig guide för att kopiera pivottabell](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
@@ -71,7 +73,7 @@ Lär dig hur du duplicerar en pivottabell i Java med Aspose.Cells och bevarar de
 ### [Kopiera område och bevara pivottabell i Java](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
 Lär dig hur du kopierar ett cellområde och behåller pivottabellens funktioner i Java med Aspose.Cells.
 ### [Exportera pivottabell som bild till PNG med Java](./excel-pivot-table-image-export-to-png-with-java/)
-Lär dig hur du exporterar en Excel-pivottabell som PNG-bild med Aspose.Cells för Java.
+Lär dig hur du exporterar en Excel-pivottabell som PNG‑bild med Aspose.Cells för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
