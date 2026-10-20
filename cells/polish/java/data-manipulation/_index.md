@@ -62,7 +62,8 @@ Dowiedz się, jak skutecznie wypełniać arkusze Excela zagnieżdżonymi danymi 
 ### [Jak wykonać zamianę wyrażeń regularnych w programie Excel przy użyciu Aspose.Cells dla języka Java: kompleksowy przewodnik](./regex-replacement-excel-aspose-cells-java-guide/)
 Dowiedz się, jak automatyzować zamiany tekstu w plikach Excela za pomocą wyrażeń regularnych z Aspose.Cells for Java. Ten przewodnik krok po kroku obejmuje inicjalizację, konfigurację i praktyczne zastosowania.
 
-
+### [Jak podzielić kolumny w Javie przy użyciu Aspose.Cells – przewodnik krok po kroku](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
+Dowiedz się, jak podzielić kolumny w arkuszach Excela przy użyciu Aspose.Cells for Java, krok po kroku.
 
 ## Dodatkowe zasoby
 

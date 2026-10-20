@@ -149,6 +149,9 @@
 ### [ส่งออก JSON ไปยัง Excel ด้วย Aspose.Cells ใน Java](./export-json-to-excel-with-aspose-cells-in-java/)
 เรียนรู้วิธีแปลงไฟล์ JSON เป็น Excel ด้วย Aspose.Cells สำหรับ Java ด้วยขั้นตอนและโค้ดตัวอย่างที่ชัดเจน
 
+### [วิธีโหลดไฟล์ JSON ไปยัง Excel ด้วย Aspose.Cells สำหรับ Java](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+เรียนรู้วิธีโหลดข้อมูล JSON เข้าไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java อย่างละเอียด
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

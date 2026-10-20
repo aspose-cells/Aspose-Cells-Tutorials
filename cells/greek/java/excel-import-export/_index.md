@@ -126,6 +126,8 @@
 Μάθετε πώς να μετατρέψετε αρχεία Excel σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Cells για Java, βήμα προς βήμα.
 ### [Εξαγωγή JSON σε Excel με Aspose.Cells σε Java](./export-json-to-excel-with-aspose-cells-in-java/)
 Μάθετε πώς να μετατρέψετε δεδομένα JSON σε αρχεία Excel χρησιμοποιώντας το Aspose.Cells για Java.
+### [Πώς να φορτώσετε JSON σε Excel με Aspose.Cells για Java](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+Μάθετε πώς να φορτώνετε αρχεία JSON σε Excel χρησιμοποιώντας το Aspose.Cells για Java, με βήμα‑βήμα οδηγίες και παραδείγματα κώδικα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -141,6 +141,8 @@ Tìm hiểu cách nhập danh sách vào Excel và định dạng các cột b�
 ### [Cách xuất Excel sang TXT với số chữ số có ý nghĩa giới hạn bằng Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
 Hướng dẫn xuất dữ liệu Excel sang tệp TXT, chỉ giữ lại số chữ số có ý nghĩa nhất định, sử dụng Aspose.Cells for Java.
 ### [Cách xuất Excel sang PowerPoint với Aspose.Cells – hướng dẫn từng bước](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+### [Cách tải JSON vào Excel bằng Aspose.Cells cho Java](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+Hướng dẫn chi tiết cách tải dữ liệu JSON vào tệp Excel bằng Aspose.Cells cho Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

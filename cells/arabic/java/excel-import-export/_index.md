@@ -131,6 +131,8 @@
 تعلم كيفية تصدير ملفات Excel إلى PowerPoint باستخدام Aspose.Cells خطوة بخطوة.
 ### [تصدير JSON إلى Excel باستخدام Aspose.Cells في Java](./export-json-to-excel-with-aspose-cells-in-java/)
 تعرّف على كيفية تصدير بيانات JSON إلى ملفات Excel باستخدام Aspose.Cells في Java خطوة بخطوة.
+### [كيفية تحميل JSON إلى Excel باستخدام Aspose.Cells لجافا](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+تعرف على طريقة تحميل ملفات JSON وتحويلها إلى جداول Excel باستخدام Aspose.Cells لجافا خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

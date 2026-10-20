@@ -151,6 +151,8 @@ Aprenda a exportar datos de Excel a archivos TXT manteniendo un número limitado
 Aprenda a convertir archivos de Excel a presentaciones PowerPoint usando Aspose.Cells para Java con ejemplos de código paso a paso.
 ### [Exportar JSON a Excel con Aspose.Cells en Java](./export-json-to-excel-with-aspose-cells-in-java/)
 Aprenda a exportar datos JSON a archivos Excel usando Aspose.Cells para Java. Guía paso a paso con código fuente.
+### [Cómo cargar JSON en Excel con Aspose.Cells para Java](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+Aprenda a cargar datos JSON en Excel usando Aspose.Cells para Java. Guía paso a paso con ejemplos de código.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

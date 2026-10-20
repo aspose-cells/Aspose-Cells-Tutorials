@@ -66,6 +66,7 @@ Aspose.Cells for Java를 사용해 새 워크북을 생성하고 기존 피벗 �
 ### [Java에서 Aspose.Cells를 사용해 피벗 복제하기](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
 Aspose.Cells for Java를 활용해 기존 피벗 테이블을 복제하고, 데이터를 손쉽게 재사용하는 방법을 배워보세요.
 ### [Java에서 범위를 복사하고 피벗 테이블을 보존하는 방법](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
+### [Java로 Excel 피벗 테이블 복제하기 – 단계별 가이드](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

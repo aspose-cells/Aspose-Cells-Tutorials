@@ -54,6 +54,7 @@
 ### [كيفية تكرار جدول محوري في Java باستخدام Aspose.Cells](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
 تعلم كيفية تكرار جدول محوري في Java باستخدام Aspose.Cells بسهولة.
 ### [كيفية نسخ النطاق والحفاظ على جدول محوري في Java](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
+### [كيفية تكرار جداول البيانات المحورية في Excel باستخدام Java – دليل خطوة بخطوة](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

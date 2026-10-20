@@ -135,6 +135,7 @@ Tanuld meg, hogyan exportálj Excel-fájlokat TXT formátumba, miközben korlát
 Ismerd meg, hogyan konvertálhatsz Excel-fájlokat PowerPoint-prezentációkká az Aspose.Cells használatával.
 ### [JSON exportálása Excel-be Aspose.Cells használatával Java-ban](./export-json-to-excel-with-aspose-cells-in-java/)
 Tanuld meg, hogyan exportálj JSON adatokat Excel fájlba Aspose.Cells for Java használatával, lépésről lépésre útmutatóval.
+### [Hogyan tölts be JSON-t Excelbe az Aspose.Cells for Java segítségével](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
