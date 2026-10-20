@@ -75,6 +75,14 @@
 学习如何使用 Aspose.Cells for Java 将 Excel 中的指定范围复制并在 PowerPoint 幻灯片中展示，实现跨应用数据共享。
 ### [使用 Aspose.Cells for Java 将 Excel 转换为 PowerPoint](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
 学习如何使用 Aspose.Cells for Java 将 Excel 工作簿转换为 PowerPoint 演示文稿，包括代码示例和关键步骤。
+### [如何从 Excel 保存 PPTX – 导出 Excel 工作表至 PowerPoint 完整指南](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+学习如何使用 Aspose.Cells for Java 将 Excel 工作表导出为 PowerPoint 演示文稿，提供完整步骤与代码示例。
+
+### [如何在 Java 中使用 WRAPCOLS – 矩阵转换完整指南](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
+学习如何使用 Aspose.Cells for Java 的 WRAPCOLS 方法在矩阵转换中实现高效的数据处理。
+
+### [使用 Aspose.Cells for Java 将 Excel 转换为 PDF 时嵌入字体的完整指南](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
+学习如何在使用 Aspose.Cells for Java 将 Excel 转换为 PDF 时嵌入所需字体，确保文档在不同设备上保持一致显示。
 
 ## 其他资源
 

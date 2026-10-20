@@ -58,6 +58,8 @@
 
 ### [Как безопасно переименовать таблицу Excel с помощью Aspose.Cells Java](./how-to-safely-rename-excel-table-with-aspose-cells-java/)
 Узнайте, как безопасно переименовать таблицу Excel с помощью Aspose.Cells для Java, сохраняя ссылки и данные.
+### [Установить имя таблицы в Excel с помощью Java – Полное руководство](./set-table-name-in-excel-with-java-complete-guide/)
+Узнайте, как установить имя таблицы в Excel с помощью Aspose.Cells для Java, улучшая читаемость и управление данными.
 
 ## Дополнительные ресурсы
 

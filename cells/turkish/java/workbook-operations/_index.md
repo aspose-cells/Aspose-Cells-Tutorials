@@ -220,7 +220,7 @@ Aspose.Cells Java kullanarak HTML dizelerini yapılandırılmış Excel çalış
 XLSB dosalarını Aspose.Cells for Java kullanarak makro etkin XLSM çalışma kitaplarına nasıl dönüştüreceğinizi öğrenin. Kod örnekleri ve en iyi uygulamalar içeren bu kapsamlı kılavuzu izleyin.
 
 ### [Java için Aspose.Cells'i Kullanarak Excel Sayfaları Oluşturun ve Erişim Sağlayın, PDF Yer İşaretleri Ekleyin](./create-access-excel-sheets-add-pdf-bookmarks-aspose-cells-java/)
-Excel sayfaları oluşturmak ve bunlara erişmek, PDF'lere yer imleri eklemek ve belge gezintinizi kolaylaştırmak için Aspose.Cells for Java'yı nasıl kullanacağınızı öğrenin.
+Excel sayfaları oluşturmak ve bunlara erişmek, PDF'lere yer imleri eklemek ve belge gezintinizi kolaylaştırmak için Aspose.Cells for Java'yı nasıl kullanacağacağınızı öğrenin.
 
 ### [Aspose.Cells Java ile Çalışma Kitapları Oluşturun](./create-configure-workbooks-aspose-cells-java/)
 Aspose.Words Java için bir kod eğitimi
@@ -291,7 +291,7 @@ Aspose.Cells ile Java'da Excel dosyalarını zahmetsizce yönetmeyi ve analiz et
 ### [Aspose.Cells Java'yı Kullanarak Excel'den HTML'e Dönüştürme: CrossHideRight Tekniğine Hakim Olun](./excel-html-conversion-aspose-cells-java-crosshide-right/)
 Aspose.Cells for Java ile Excel dosyalarını HTML'e nasıl dönüştüreceğinizi öğrenin ve üst üste binen içeriği etkili bir şekilde işlemek için CrossHideRight yöntemini kullanın.
 
-### [Aspose.Cells Java'yı Kullanarak Excel'i HTML'ye Dönüştürün ve Yorumları Gizleyin](./excel-html-conversion-hide-comments-aspose-cells-java/)
+### [Aspose.Cells Java'yı Kullanarak Excel'i HTML'ye Dönüştürme ve Yorumları Gizleyin](./excel-html-conversion-hide-comments-aspose-cells-java/)
 Aspose.Cells for Java'yı kullanarak Excel çalışma kitaplarını sorunsuz bir şekilde HTML'ye nasıl dönüştüreceğinizi ve daha temiz çıktılar için yorumları gizleme seçeneklerini öğrenin.
 
 ### [Java'da Excel'den Görüntüye Dönüştürme: Aspose.Cells Kullanarak Adım Adım Kılavuz](./excel-image-conversion-aspose-cells-java/)
@@ -497,6 +497,8 @@ Aspose.Cells for Java kullanarak Japon takvimine sahip bir çalışma kitabı ol
 Aspose.Cells for Java kullanarak yeni bir çalışma kitabı oluşturup, bir çalışma kitabından diğerine aralık kopyalamayı öğrenin.
 ### [Java ile Excel dosyası oluşturun, özel özellik ekleyin ve XLSB olarak kaydedin](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
 Aspose.Cells for Java kullanarak bir Excel dosyası oluşturmayı, özel bir özellik eklemeyi ve XLSB formatında kaydetmeyi öğrenin.
+### [Java ile Excel'e Özel Özellik Ekleme – Tam Kılavuz](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+Aspose.Cells for Java kullanarak Excel dosyalarına özel özellik eklemeyi adım adım öğrenin.
 
 ## Ek Kaynaklar
 

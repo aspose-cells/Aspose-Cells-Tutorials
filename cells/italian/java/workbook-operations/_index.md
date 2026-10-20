@@ -41,6 +41,8 @@ Un tutorial sul codice per Aspose.Words Java
 
 ### [Guida Java di Aspose.Cells: padroneggiare la manipolazione delle cartelle di lavoro di Excel](./aspose-cells-java-excel-manipulation-guide/)
 Scopri come manipolare le cartelle di lavoro di Excel in Java utilizzando Aspose.Cells. Questa guida illustra l'inizializzazione delle cartelle di lavoro, l'aggiunta di fogli di lavoro e immagini, l'impostazione della posizione delle immagini e il salvataggio efficiente dei file.
+### [Come caricare e salvare Excel come Markdown utilizzando Aspose.Cells per Java](./aspose-cells-java-excel-to-markdown/)
+Scopri come convertire in modo efficiente i file Excel in formato Markdown utilizzando Aspose.Cells per Java. Questa guida illustra la configurazione, il caricamento, il salvataggio e le applicazioni pratiche.
 
 ### [Come creare ed esportare Excel in HTML utilizzando Aspose.Cells Java | Guida alle operazioni della cartella di lavoro](./aspose-cells-java-excel-html-export/)
 Scopri come utilizzare Aspose.Cells per Java per creare una cartella di lavoro Excel da zero, popolarla con dati ed esportarla come file HTML. Questa guida passo passo copre tutto ciò di cui hai bisogno.
@@ -350,6 +352,8 @@ Scopri come esportare proprietà personalizzate da una cartella di lavoro Excel 
 
 ### [Come aggiungere una proprietà personalizzata in Excel (Java) – Recupera valore e salva come XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
 Scopri come aggiungere una proprietà personalizzata a una cartella di lavoro Excel, recuperarne il valore e salvarla come file XLSB con Aspose.Cells per Java.
+### [Come aggiungere una proprietà personalizzata in Excel utilizzando Java – Guida completa](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+Scopri come aggiungere proprietà personalizzate a una cartella di lavoro Excel usando Aspose.Cells per Java in modo semplice e completo.
 
 ### [Esportare Excel in HTML utilizzando Aspose.Cells Java: una guida passo passo](./export-excel-html-aspose-cells-java/)
 Scopri come esportare senza problemi file Excel in HTML utilizzando Aspose.Cells per Java. Questa guida illustra come caricare cartelle di lavoro, creare provider di flussi personalizzati e salvare cartelle di lavoro con facilità.

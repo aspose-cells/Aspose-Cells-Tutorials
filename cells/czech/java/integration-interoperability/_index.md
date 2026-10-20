@@ -76,6 +76,14 @@ Naučte se, jak převést soubor Excel do formátu DOCX pomocí Aspose.Cells v j
 Naučte se, jak pomocí Aspose.Cells a Aspose.Slides v Javě zkopírovat oblast buněk z Excelu a vložit ji do prezentace PowerPoint.
 ### [Převod Excelu do PowerPointu pomocí Aspose.Cells v Javě](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
 Naučte se převádět soubory Excel do PowerPointu pomocí Aspose.Cells v Javě.
+### [Jak uložit PPTX z Excelu – Kompletní průvodce exportem listu Excel do PowerPointu](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+Naučte se, jak exportovat list Excelu do PowerPointu ve formátu PPTX pomocí Aspose.Cells pro Javu.
+
+### [Jak používat WRAPCOLS v Javě – Kompletní průvodce konverzí matic](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
+Naučte se, jak pomocí funkce WRAPCOLS v Aspose.Cells pro Javu převádět jednorozměrná data na dvourozměrné matice a manipulovat s nimi.
+
+### [Jak vložit písma při konverzi Excelu do PDF v Javě](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
+Naučte se, jak vložit písma při převodu Excelu do PDF pomocí Aspose.Cells pro Javu.
 
 ## Další zdroje
 

@@ -66,6 +66,10 @@
 เรียนรู้วิธีล้าง AutoFilter ในไฟล์ Excel ด้วยโค้ด Java อย่างละเอียด พร้อมตัวอย่างโค้ดที่ใช้งานได้จริง
 ### [สร้างเวิร์กบุ๊กใหม่ด้วย Aspose – เพิ่มคุณสมบัติแบบกำหนดเองใน Excel และบันทึกเป็น XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
 เรียนรู้วิธีสร้างไฟล์ Excel ใหม่ เพิ่มคุณสมบัติแบบกำหนดเอง และบันทึกเป็นรูปแบบ XLSB ด้วย Aspose.Cells สำหรับ Java
+### [ขยายอาร์เรย์ใน Excel ด้วย Java – คู่มือแบบขั้นตอนต่อขั้นตอน](./expand-array-in-excel-with-java-step-by-step-guide/)
+เรียนรู้วิธีขยายอาร์เรย์ในไฟล์ Excel ด้วย Java อย่างละเอียด พร้อมตัวอย่างโค้ดต้นฉบับ
+### [วิธีลบส่วนหัวของตารางใน Excel ด้วย Java – คู่มือเต็ม](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+เรียนรู้วิธีลบส่วนหัวของตารางในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดต้นฉบับ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

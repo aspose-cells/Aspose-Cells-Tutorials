@@ -72,6 +72,14 @@ Excel फ़ाइलों को PowerPoint प्रस्तुतियो�
 C# में Aspose.Cells का उपयोग करके Excel फ़ाइल को DOCX फ़ॉर्मेट में सहेजने की चरण-दर-स्टेप प्रक्रिया।
 ### [Aspose.Cells के साथ जावा में Excel को PowerPoint में परिवर्तित करें](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
 Aspose.Cells for Java का उपयोग करके Excel फ़ाइलों को PowerPoint प्रस्तुतियों में बदलने का तरीका सीखें।
+### [Excel से PPTX कैसे सहेजें – Excel शीट को PowerPoint में निर्यात करने की पूर्ण गाइड](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+Excel शीट को PowerPoint प्रस्तुति के रूप में निर्यात करने के चरण-दर-श...  
+
+### [जावा में WRAPCOLS का उपयोग कैसे करें – मैट्रिक्स रूपांतरण के लिए पूर्ण गाइड](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
+जावा में WRAPCOLS फ़ंक्शन का उपयोग करके मैट्रिक्स को कॉलम‑वाइज बदलने के चरण‑दर‑श...  
+
+### [जावा के साथ Excel को PDF में परिवर्तित करते समय फ़ॉन्ट एम्बेड करने का तरीका](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
+जावा में Aspose.Cells का उपयोग करके Excel फ़ाइल को PDF में बदलते समय फ़ॉन्ट एम्बेड करने की चरण-दर-शरण प्रक्रिया।
 
 ## अतिरिक्त संसाधन
 

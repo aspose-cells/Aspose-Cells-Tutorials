@@ -76,6 +76,14 @@ Leer hoe u een Excel-werkmap opslaat als DOCX-bestand met Aspose.Cells in C#.
 Leer hoe u een bereik uit een Excel-werkmap kopieert en exporteert naar een PowerPoint-presentatie met Aspose.Cells voor Java.
 ### [Excel converteren naar PowerPoint met Aspose.Cells in Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
 Leer hoe u Excel-bestanden omzet naar PowerPoint-presentaties met Aspose.Cells voor Java.
+### [Hoe PPTX opslaan vanuit Excel – Complete gids voor het exporteren van een Excel-werkblad naar PowerPoint](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+Leer hoe u een Excel-werkblad exporteert naar een PowerPoint‑presentatie en opslaat als PPTX met Aspose.Cells voor Java.
+
+### [Hoe WRAPCOLS te gebruiken in Java – Complete gids voor matrixconversie](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
+Leer hoe u de WRAPCOLS‑functie in Java gebruikt om matrices om te zetten met Aspose.Cells. Volg de stap‑voor‑stap gids.
+
+### [Hoe lettertypen inbedden bij het converteren van Excel naar PDF met Java](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
+Leer hoe u lettertypen insluit bij het converteren van Excel naar PDF met Aspose.Cells voor Java.
 
 ## Aanvullende bronnen
 

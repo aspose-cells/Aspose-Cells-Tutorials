@@ -66,6 +66,11 @@
 
 ### [Aspose Cells Smart Markers – Συμπλήρωση προτύπου Excel](./aspose-cells-smart-markers-populate-excel-template/)
 Μάθετε πώς να γεμίσετε ένα πρότυπο Excel με δεδομένα χρησιμοποιώντας Smart Markers του Aspose.Cells για Java.
+### [Πώς να δημιουργήσετε αναφορά με Excel Smart Markers – Πλήρης οδηγός Java](./how-to-generate-report-with-excel-smart-markers-full-java-gu/)
+Μάθετε βήμα προς βήμα πώς να δημιουργήσετε πλήρη αναφορά Excel χρησιμοποιώντας Smart Markers με Java.
+
+### [Δημιουργία βιβλίου εργασίας Excel με Smart Markers – Οδηγός Java](./create-excel-workbook-with-smart-markers-java-guide/)
+Μάθετε πώς να δημιουργήσετε βιβλίο εργασίας Excel με Smart Markers χρησιμοποιώντας Java.
 
 ## Πρόσθετοι Πόροι
 

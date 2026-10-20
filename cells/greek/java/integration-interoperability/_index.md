@@ -73,6 +73,11 @@
 ### [Πώς να αντιγράψετε περιοχή από το Excel και να την εξάγετε στο PowerPoint χρησιμοποιώντας Java](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
 ### [Μετατροπή Excel σε PowerPoint με Aspose.Cells για Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
 Μάθετε πώς να μετατρέπετε αρχεία Excel σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Cells για Java.
+### [Πώς να αποθηκεύσετε PPTX από το Excel – Πλήρης οδηγός εξαγωγής φύλλου Excel σε PowerPoint](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+
+### [Πώς να χρησιμοποιήσετε το WRAPCOLS στη Java – Πλήρης οδηγός για μετατροπή πινάκων](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
+
+### [Πώς να ενσωματώσετε γραμματοσειρές κατά τη μετατροπή Excel σε PDF με Java](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
 
 ## Πρόσθετοι Πόροι
 

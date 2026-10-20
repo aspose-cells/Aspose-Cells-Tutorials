@@ -495,6 +495,8 @@ Lär dig hur du lägger till en anpassad egenskap i en Excel-arbetsbok med Aspos
 ### [Skapa arbetsbok med japansk kalender – Komplett Java-handledning](./create-workbook-japanese-calendar-complete-java-tutorial/)
 Lär dig hur du skapar en arbetsbok med japansk kalender i Java med Aspose.Cells, inklusive datumformat och lokalanpassning.
 ### [Skapa XLSB-arbetsbok programatiskt – Fullständig Java-guide](./create-xlsb-workbook-programmatically-full-java-guide/)
+### [Hur man lägger till anpassad egenskap i Excel med Java – Komplett guide](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+Lär dig hur du lägger till anpassade egenskaper i Excel-filer med Aspose.Cells för Java i en komplett steg-för-steg-guide.
 
 ## Ytterligare resurser
 

@@ -66,6 +66,10 @@
 了解如何使用 Aspose.Cells for Java 透過程式碼清除 Excel 工作表的自動篩選，提升資料處理效率。
 ### [建立新工作簿 Aspose – 新增自訂屬性至 Excel 並儲存為 XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
 了解如何使用 Aspose.Cells for Java 建立工作簿、加入自訂屬性，並以 XLSB 格式儲存。
+### [使用 Java 在 Excel 中展開陣列 – 步驟指南](./expand-array-in-excel-with-java-step-by-step-guide/)
+了解如何使用 Aspose.Cells for Java 在 Excel 中展開陣列，透過範例一步步完成設定與操作。
+### [如何使用 Java 刪除 Excel 表格標題 – 完整指南](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+了解如何使用 Aspose.Cells for Java 刪除 Excel 表格的標題行，保持資料完整性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

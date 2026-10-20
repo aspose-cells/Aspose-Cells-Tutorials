@@ -76,6 +76,14 @@ Aprenda a converter arquivos Excel para DOCX usando Aspose.Cells em C# com exemp
 Aprenda a copiar um intervalo de planilha Excel e exportá-lo para uma apresentação PowerPoint usando Aspose.Cells e Aspose.Slides para Java.
 ### [Converter Excel para PowerPoint com Aspose.Cells em Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
 Aprenda a converter arquivos Excel em apresentações PowerPoint usando Aspose.Cells para Java.
+### [Como salvar PPTX a partir do Excel – Guia completo para exportar planilha do Excel para PowerPoint](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+Aprenda a exportar planilhas do Excel para arquivos PPTX usando Aspose.Cells para Java, passo a passo.
+
+### [Como usar WRAPCOLS em Java – Guia completo para conversão de matrizes](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
+Aprenda a usar o método WRAPCOLS em Java com Aspose.Cells para converter matrizes de dados em planilhas de forma eficiente.
+
+### [Como incorporar fontes ao converter Excel para PDF com Java](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
+Aprenda a incorporar fontes nas conversões de arquivos Excel para PDF usando Aspose.Cells para Java, garantindo que o PDF mantenha a formatação correta.
 
 ## Recursos adicionais
 

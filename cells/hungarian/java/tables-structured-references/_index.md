@@ -59,6 +59,8 @@ Tanuld meg, hogyan használható az Aspose.Cells Java-ban az Excel-táblázatokb
 ### [Hogyan nevezzen át biztonságosan egy Excel-táblát az Aspose.Cells Java használatával](./how-to-safely-rename-excel-table-with-aspose-cells-java/)
 Tanuld meg, hogyan lehet biztonságosan átnevezni egy Excel-táblát az Aspose.Cells Java segítségével, elkerülve a hivatkozási hibákat.
 
+### [Táblanév beállítása Excelben Java-val – Teljes útmutató](./set-table-name-in-excel-with-java-complete-guide/)
+Tanuld meg, hogyan állíthatod be a táblanevet Excelben Java használatával, lépésről lépésre útmutató.
 
 ## További források
 

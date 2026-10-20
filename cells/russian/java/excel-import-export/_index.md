@@ -37,10 +37,11 @@
 
 ### [Экспорт CSV-кода Java](./csv-export-java-code/)
 Узнайте, как экспортировать данные в формат CSV с помощью Aspose.Cells для Java. Пошаговое руководство с исходным кодом для бесшовного экспорта CSV.
-
 ### [Экспорт XLSX в CSV – Полное руководство Java](./export-xlsx-as-csv-complete-java-guide/)
 Узнайте, как экспортировать файлы XLSX в CSV с помощью Aspose.Cells для Java. Пошаговое руководство с полным примером кода.
 
+### [Сохранить книгу как CSV – Полное руководство Java по экспорту Excel в CSV](./save-workbook-as-csv-complete-java-guide-to-export-excel-to/)
+Узнайте, как сохранить рабочую книгу в формате CSV с помощью Aspose.Cells для Java. Подробное руководство с примером кода.
 ### [Экспорт Excel в PDF](./exporting-excel-to-pdf/)
 Узнайте, как легко экспортировать файлы Excel в PDF с помощью Aspose.Cells для Java. Наше пошаговое руководство упрощает процесс. Начните конвертацию сегодня!
 
@@ -62,6 +63,18 @@
 
 ### [Экспорт Excel в HTML Java](./export-excel-to-html-java/)
 Узнайте, как экспортировать Excel в HTML в Java с помощью Aspose.Cells для Java. Следуйте этому пошаговому руководству с исходным кодом, чтобы легко и без усилий преобразовать файлы Excel в HTML.
+### [Создание Excel из JSON – Полное руководство Java с Aspose.Cells](./create-excel-from-json-full-java-guide-with-aspose-cells/)
+Узнайте, как создать файл Excel из JSON с помощью Aspose.Cells для Java. Пошаговое руководство с примером кода.
+### [Сохранить книгу как XLSX с Smart Marker – экспорт заказов в Excel](./save-workbook-as-xlsx-with-smart-marker-export-orders-to-exc/)
+Узнайте, как с помощью Smart Marker сохранять рабочие книги в формате XLSX и экспортировать заказы в Excel с пошаговыми примерами кода.
+### [Как стилизовать Excel – импорт DataTable с пользовательским форматированием в Java](./how-to-style-excel-import-datatable-with-custom-formatting-i/)
+Узнайте, как импортировать DataTable в Excel с пользовательским форматированием, используя Aspose.Cells для Java.
+### [Включить экспорт формул в Java – Преобразовать ячейки Excel в текст](./include-formulas-export-in-java-convert-excel-cells-to-text/)
+Узнайте, как экспортировать формулы и преобразовать ячейки Excel в текст с помощью Aspose.Cells для Java.
+### [Создание Word из Excel – Полное руководство по экспорту XLSX](./create-word-from-excel-complete-guide-to-exporting-xlsx/)
+Узнайте, как создать документ Word из Excel и экспортировать его в XLSX с помощью Aspose.Cells для Java.
+### [Как внедрить шрифты в HTML из Excel – Полное руководство](./how-to-embed-fonts-in-html-from-excel-full-guide/)
+Узнайте, как внедрить шрифты в HTML из файлов Excel с помощью Aspose.Cells для Java в этом полном руководстве.
 
 ### [Как экспортировать Excel в PowerPoint с Aspose.Cells – пошаговое руководство](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
 Узнайте, как экспортировать файлы Excel в презентацию PowerPoint с помощью Aspose.Cells для Java. Пошаговое руководство с примером кода.

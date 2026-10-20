@@ -149,6 +149,9 @@ Dowiedz się, jak tworzyć, zapisywać i ładować skoroszyty programu Excel za 
 ### [Zarządzanie metadanymi skoroszytu w Javie z Aspose.Cells](./aspose-cells-java-workbook-metadata-management/)
 Dowiedz się, jak skutecznie zarządzać metadanymi skoroszytu programu Excel za pomocą Aspose.Cells for Java. Ten samouczek obejmuje bezproblemowe ładowanie, modyfikowanie i zapisywanie niestandardowych właściwości dokumentu.
 
+### [Jak dodać własną właściwość w Excelu przy użyciu Javy – kompletny przewodnik](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+Dowiedz się, jak dodać własną właściwość do pliku Excel w Javie, korzystając z Aspose.Cells, z pełnym przykładem kodu.
+
 ### [Stylizacja skoroszytu głównego i eksport HTML w Javie z Aspose.Cells](./aspose-cells-java-workbook-styling-html-export/)
 Dowiedz się, jak stylizować skoroszyty programu Excel i eksportować je jako HTML za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje pobieranie wersji, techniki stylizowania i eksportowanie za pomocą CSS.
 
@@ -354,7 +357,7 @@ Dowiedz się, jak wydajnie eksportować pliki Excel do HTML w Javie, używając 
 Samouczek dotyczący kodu dla Aspose.Words Java
 
 ### [Eksportuj arkusze Excela do obrazów za pomocą Aspose.Cells dla Java — kompleksowy przewodnik](./export-excel-sheets-images-aspose-cells-java/)
-Dowiedz się, jak konwertować arkusze Excela na wysokiej jakości obrazy za pomocą Aspose.Cells for Java. Postępuj zgodnie z tym przewodnikiem krok po kroku dotyczącym eksportowania arkuszy kalkulacyjnych i renderowania ich jako plików JPEG lub PNG.
+Dowiedz się, jak konwertować arkusze Excela na wysokiej jakości obrazy za pomocą Aspose.Cells for Java. Postępuj zgodnie z tym samouczkiem krok po kroku dotyczącym eksportowania arkuszy kalkulacyjnych i renderowania ich jako plików JPEG lub PNG.
 
 ### [Eksportowanie Excela do HTML za pomocą Aspose.Cells dla Java: Kompletny przewodnik](./export-excel-to-html-aspose-cells-java/)
 Dowiedz się, jak eksportować pliki Excela w formacie HTML za pomocą Aspose.Cells for Java, wykorzystując opcje niestandardowe i zaawansowane funkcje konwersji dokumentów.

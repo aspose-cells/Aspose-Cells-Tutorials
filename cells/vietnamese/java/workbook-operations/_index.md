@@ -495,6 +495,8 @@ Hướng dẫn chi tiết cách tạo sổ làm việc XLSB trong Java bằng As
 Hướng dẫn cách lưu sổ làm việc mới và sao chép một vùng dữ liệu giữa các sổ làm việc trong Java bằng Aspose.Cells.
 ### [Java tạo tệp Excel, thêm thuộc tính tùy chỉnh và lưu dưới dạng XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
 Hướng dẫn tạo tệp Excel, thêm thuộc tính tùy chỉnh và lưu dưới dạng XLSB bằng Aspose.Cells cho Java.
+### [Cách Thêm Thuộc Tính Tùy Chỉnh trong Excel bằng Java – Hướng Dẫn Toàn Diện](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+Tìm hiểu cách thêm thuộc tính tùy chỉnh vào tệp Excel bằng Aspose.Cells for Java. Hướng dẫn này bao gồm thiết lập, lưu và sử dụng thuộc tính.
 
 ## Tài nguyên bổ sung
 

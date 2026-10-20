@@ -274,7 +274,7 @@ Erfahren Sie, wie Sie Excel-Aufgaben mit Aspose.Cells für Java automatisieren. 
 Meistern Sie die Excel-Automatisierung mit Aspose.Cells für Java, indem Sie Arbeitsmappen laden und Abfragetabellenergebnisse abrufen. Steigern Sie die Produktivität bei Datenverarbeitung, Berichterstellung und Integration.
 
 ### [Excel-Automatisierung: Konfigurieren Sie Arbeitsmappen- und Arbeitsblattseiten mit Aspose.Cells Java](./excel-automation-aspose-cells-java-workbook-setup/)
-Erfahren Sie, wie Sie Excel-Aufgaben automatisieren, indem Sie Arbeitsmappen- und Arbeitsblattseiten mit Aspose.Cells für Java konfigurieren. Optimieren Sie Ihre Datenverarbeitungs-Workflows effizient.
+Erfahren Sie, wie Sie Excel-Aufgaben automatisieren, indem Sie Arbeitsmappen- und Arbeitsblattseiten mit Aspose.Cells Java konfigurieren. Optimieren Sie Ihre Datenverarbeitungs-Workflows effizient.
 
 ### [Excel-Automatisierung mit Aspose.Cells Java: Erstellen einer Master-Arbeitsmappe und Spalten-/Zeilensichtbarkeit](./excel-automation-aspose-cells-java-workbook-visibility/)
 Erfahren Sie, wie Sie Excel-Aufgaben mit Aspose.Cells für Java automatisieren. Erstellen und bearbeiten Sie Arbeitsmappen und steuern Sie die Spalten-/Zeilensichtbarkeit effizient.
@@ -498,6 +498,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java Arbeitsmappen in Dateien speich
 
 ### [Wie man benutzerdefinierte Eigenschaften in Excel (Java) hinzufügt – Wert abrufen & als XLSB speichern](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
 Erfahren Sie, wie Sie benutzerdefinierte Eigenschaften zu einer Excel-Arbeitsmappe hinzufügen, den Wert auslesen und die Datei als XLSB speichern.
+### [Wie man benutzerdefinierte Eigenschaften in Excel mit Java hinzufügt – Komplettanleitung](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+Erfahren Sie, wie Sie benutzerdefinierte Eigenschaften zu Excel-Dateien mit Aspose.Cells für Java hinzufügen und verwalten.
 
 ## Weitere Ressourcen
 

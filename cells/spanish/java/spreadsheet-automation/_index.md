@@ -66,6 +66,10 @@ Aprenda a usar Expand en Java con Aspose.Cells para Excel, con ejemplos de códi
 Aprenda a eliminar AutoFiltro en Excel con Aspose.Cells para Java mediante ejemplos de código fuente.
 ### [Crear nuevo libro de trabajo Aspose – agregar propiedad personalizada a Excel y guardar como XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
 Aprenda a crear un nuevo libro de Excel, añadir una propiedad personalizada y guardarlo en formato XLSB usando Aspose.Cells para Java.
+### [Cómo eliminar el encabezado de tabla en Excel con Java – Guía completa](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+Aprenda a eliminar programáticamente el encabezado de una tabla en Excel usando Aspose.Cells para Java, con ejemplos paso a paso.
+### [Expandir matriz en Excel con Java – Guía paso a paso](./expand-array-in-excel-with-java-step-by-step-guide/)
+Aprenda a expandir matrices en Excel usando Aspose.Cells para Java con ejemplos de código paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

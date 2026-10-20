@@ -40,6 +40,8 @@ Pelajari cara mengotomatiskan tugas Excel dengan Aspose.Cells untuk Java. Sederh
 
 ### [Menguasai Laporan Excel Dinamis Menggunakan Aspose.Cells Java: Rentang Bernama & Rumus Kompleks](./dynamic-excel-reports-aspose-cells-java/)
 Pelajari cara memanfaatkan Aspose.Cells untuk Java untuk membuat laporan Excel yang dinamis dengan rentan bernama dan rumus yang kompleks. Tingkatkan tugas pengelolaan data Anda secara efisien.
+### [Membuat Laporan Excel Dinamis Menggunakan Aspose.Cells Java dan Smart Markers](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
+Pelajari cara mengotomatiskan pembuatan laporan Excel yang dinamis dengan Aspose.Cells untuk Java menggunakan penanda pintar. Sederhanakan proses pelaporan Anda secara efisien.
 
 ### [Membuat Laporan Excel Dinamis Menggunakan Aspose.Cells Java dan Smart Markers](./dynamic-excel-reports-aspose-cells-smart-markers/)
 Pelajari cara mengotomatiskan pembuatan laporan Excel yang dinamis dengan Aspose.Cells untuk Java menggunakan penanda pintar. Sederhanakan proses pelaporan Anda secara efisien.
@@ -63,6 +65,11 @@ Pelajari cara menggunakan Smart Markers di Aspose.Cells untuk mengisi templat Ex
 Pelajari cara membuat lembar detail dinamis menggunakan SmartMarkers di Aspose.Cells untuk Java.
 ### [Cara Mengisi Templat Excel dengan Data Menggunakan Aspose.Cells](./how-to-populate-excel-template-with-data-using-aspose-cells/)
 Pelajari cara mengisi templat Excel dengan data menggunakan Aspose.Cells secara programatis.
+### [Cara Membuat Laporan dengan Smart Markers Excel – Panduan Java Lengkap](./how-to-generate-report-with-excel-smart-markers-full-java-gu/)
+Pelajari cara menghasilkan laporan Excel menggunakan Smart Markers dengan contoh kode Java lengkap dalam panduan langkah demi langkah ini.
+
+### [Membuat Workbook Excel dengan Smart Markers – Panduan Java](./create-excel-workbook-with-smart-markers-java-guide/)
+Pelajari cara membuat workbook Excel menggunakan Smart Markers dengan contoh kode Java lengkap dalam panduan langkah demi langkah ini.
 
 ## Sumber Daya Tambahan
 

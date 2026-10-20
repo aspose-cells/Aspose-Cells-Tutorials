@@ -62,6 +62,11 @@ Aprenda a preencher um modelo Excel com dados e gerar relatórios dinamicamente 
 
 ### [Aspose Cells Marcadores Inteligentes – Preencher Modelo do Excel](./aspose-cells-smart-markers-populate-excel-template/)
 Aprenda a usar Marcadores Inteligentes do Aspose.Cells para Java para preencher modelos do Excel com dados dinamicamente.
+### [Como gerar relatório com Marcadores Inteligentes do Excel – Guia completo em Java](./how-to-generate-report-with-excel-smart-markers-full-java-gu/)
+Aprenda passo a passo a gerar relatórios usando Marcadores Inteligentes no Excel com Aspose.Cells para Java, com exemplos completos.
+
+### [Criar Pasta de Trabalho Excel com Marcadores Inteligentes – Guia Java](./create-excel-workbook-with-smart-markers-java-guide/)
+Aprenda a gerar uma pasta de trabalho Excel usando Marcadores Inteligentes com Aspose.Cells para Java, com exemplos passo a passo.
 
 ## Recursos adicionais
 

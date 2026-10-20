@@ -58,6 +58,8 @@ Scopri come utilizzare Aspose.Cells con Java per identificare e manipolare in mo
 
 ### [Come rinominare in modo sicuro una tabella Excel con Aspose.Cells per Java](./how-to-safely-rename-excel-table-with-aspose-cells-java/)
 Scopri come rinominare in modo sicuro le tabelle Excel usando Aspose.Cells per Java, garantendo integrità dei dati e riferimenti corretti.
+### [Imposta il nome della tabella in Excel con Java – Guida completa](./set-table-name-in-excel-with-java-complete-guide/)
+Scopri come assegnare e gestire il nome di una tabella Excel usando Aspose.Cells per Java, migliorando l'organizzazione e l'accesso ai dati.
 
 ## Risorse aggiuntive
 

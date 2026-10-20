@@ -58,6 +58,9 @@ Excel elektronik tablolarında adlandırılmış aralıklardaki hücreleri etkil
 
 ### [Aspose.Cells Java ile Excel Tablosunu Güvenli Bir Şekilde Yeniden Adlandırma](./how-to-safely-rename-excel-table-with-aspose-cells-java/)
 Aspose.Cells for Java kullanarak Excel tablolarını güvenli bir şekilde yeniden adlandırmayı adım adım öğrenin.
+### [Java ile Excel'de Tablo Adı Ayarlama – Tam Kılavuz](./set-table-name-in-excel-with-java-complete-guide/)
+Aspose.Cells for Java kullanarak Excel tablolarına programatik olarak nasıl tablo adı atanacağını adım adım öğrenin.
+
 
 ## Ek Kaynaklar
 

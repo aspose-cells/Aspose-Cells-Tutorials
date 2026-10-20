@@ -349,6 +349,9 @@ Java के लिए Aspose.Cells का उपयोग करके कस्
 जावा के लिए Aspose.Cells का उपयोग करके Excel वर्कबुक से कस्टम प्रॉपर्टीज़ को PDF में एक्सपोर्ट करना सीखें। इस चरण-दर-स्टेप गाइड के साथ अपने डेटा प्रबंधन को सुव्यवस्थित करें।
 
 ### [Aspose.Cells Java का उपयोग करके Excel को HTML में निर्यात करें: एक चरण-दर-स्टेप मार्गदर्शिका](./export-excel-html-aspose-cells-java/)
+### [जावा का उपयोग करके Excel में कस्टम प्रॉपर्टी कैसे जोड़ें – पूर्ण गाइड](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+जावा के लिए Aspose.Cells का उपयोग करके Excel फ़ाइल में कस्टम प्रॉपर्टी जोड़ने का तरीका सीखें।
+
 जानें कि Java के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों को HTML के रूप में कैसे सहजता से निर्यात किया जाए। यह मार्गदर्शिका कार्यपुस्तिका लोडिंग, कस्टम स्ट्रीम प्रदाता और कार्यपुस्तिकाओं को आसानी से सहेजने को कवर करती है।
 
 ### [IStreamProvider और Aspose.Cells for Java का उपयोग करके Excel को HTML में निर्यात करें: एक व्यापक मार्गदर्शिका](./export-excel-html-streamprovider-aspose-cells-java/)

@@ -76,6 +76,14 @@ Aspose.Cells for Java を使用して Excel ファイルを PowerPoint プレゼ
 Aspose.Cells for C# を使用して、Excel ファイルを DOCX 形式に変換して保存する方法を学びます。
 ### [Aspose.Cells を使用して Java で Excel を PowerPoint に変換する](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
 Aspose.Cells for Java を利用し、Excel ファイルを PowerPoint プレゼンテーションに変換する手順とコード例を解説します。
+### [Excel から PPTX を保存する方法 – Excel シートを PowerPoint にエクスポートする完全ガイド](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+Aspose.Cells for Java を使用して、Excel のシートを PowerPoint の PPTX ファイルとしてエクスポートし、保存する手順を解説します。
+
+### [Java で WRAPCOLS を使用する方法 – 行列変換の完全ガイド](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
+WRAPCOLS 関数を使って行列変換を実装する手順とコード例を詳しく解説します。
+
+### [Java で Excel を PDF に変換する際のフォント埋め込み方法](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
+Aspose.Cells for Java を使用して、Excel ファイルを PDF に変換する際にフォントを埋め込む手順とコード例を解説します。
 
 ## 追加リソース
 

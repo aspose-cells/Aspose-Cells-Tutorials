@@ -47,6 +47,8 @@ Learn how to refresh Pivot Table data in Aspose.Cells for Java. Keep your data u
 
 ### [Customizing Pivot Table Styles](./customizing-pivot-table-styles/)
 Learn how to customize pivot table styles in Aspose.Cells for Java API. Create visually appealing pivot tables with ease.
+### [excel pivot table image: Export to PNG with Java](./excel-pivot-table-image-export-to-png-with-java/)
+Learn how to export Excel Pivot Table images to PNG format using Aspose.Cells for Java, enabling high‑quality visual reports.
 
 ### [Copy Pivot Table in Java – Preserve It, Export to PPTX](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
 Learn how to copy a Pivot Table in Java, preserve its formatting, and export it to PPTX using Aspose.Cells.

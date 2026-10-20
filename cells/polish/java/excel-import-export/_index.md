@@ -135,6 +135,20 @@ Dowiedz się, jak przy użyciu Aspose.Cells for Java wyeksportować plik Excel d
 Dowiedz się, jak bezproblemowo wyeksportować arkusz Excel do prezentacji PowerPoint przy użyciu Aspose.Cells w Javie.
 ### [Eksport JSON do Excela przy użyciu Aspose.Cells w Javie](./export-json-to-excel-with-aspose-cells-in-java/)
 Dowiedz się, jak eksportować dane JSON do plików Excel przy użyciu Aspose.Cells w Javie. Przewodnik krok po kroku z kodem źródłowym.
+### [Tworzenie Excela z JSON – Pełny przewodnik Java z Aspose.Cells](./create-excel-from-json-full-java-guide-with-aspose-cells/)
+Dowiedz się, jak w pełni automatycznie generować pliki Excel z danych JSON w Javie przy użyciu Aspose.Cells.
+### [Zapisz skoroszyt jako XLSX z użyciem Smart Marker – Eksport zamówień do Excela](./save-workbook-as-xlsx-with-smart-marker-export-orders-to-exc/)
+Dowiedz się, jak zapisać skoroszyt jako plik XLSX przy użyciu Smart Marker, aby wyeksportować zamówienia do Excela.
+### [Zapisz skoroszyt jako CSV – Kompletny przewodnik Java do eksportu Excela do CSV](./save-workbook-as-csv-complete-java-guide-to-export-excel-to/)
+Dowiedz się, jak zapisać skoroszyt jako CSV przy użyciu Aspose.Cells for Java. Kompletny przewodnik krok po kroku z kodem źródłowym.
+### [Jak stylizować Excel – importowanie DataTable z własnym formatowaniem w Javie](./how-to-style-excel-import-datatable-with-custom-formatting-i/)
+Dowiedz się, jak importować DataTable do Excela w Javie z własnym formatowaniem, aby stylizować arkusz według potrzeb.
+### [Eksportowanie formuł w Javie – konwersja komórek Excela na tekst](./include-formulas-export-in-java-convert-excel-cells-to-text/)
+Dowiedz się, jak eksportować formuły w Javie, konwertując komórki Excela na tekst przy użyciu Aspose.Cells.
+### [Utwórz dokument Word z Excela – Kompletny przewodnik eksportu XLSX](./create-word-from-excel-complete-guide-to-exporting-xlsx/)
+Dowiedz się, jak wygenerować dokument Word z danych Excel, eksportując plik XLSX przy użyciu Aspose.Cells for Java.
+### [Jak osadzić czcionki w HTML z Excela – Pełny przewodnik](./how-to-embed-fonts-in-html-from-excel-full-guide/)
+Dowiedz się, jak osadzić czcionki w plikach HTML generowanych z Excela przy użyciu Aspose.Cells for Java. Przewodnik krok po kroku z kodem źródłowym.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

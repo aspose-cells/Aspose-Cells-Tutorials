@@ -65,6 +65,10 @@ Scopri come creare un array verticale in Excel usando Aspose.Cells per Java, con
 Impara a rimuovere l'AutoFiltro da fogli Excel con Aspose.Cells per Java, passo passo con esempi di codice.
 ### [Crea nuovo workbook Aspose – aggiungi proprietà personalizzata Excel e salva come XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
 Impara a creare un nuovo workbook con Aspose.Cells, aggiungere una proprietà personalizzata e salvarlo in formato XLSB.
+### [Come eliminare l'intestazione della tabella in Excel con Java – Guida completa](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+Impara a rimuovere l'intestazione di una tabella Excel usando Aspose.Cells per Java, con esempi di codice passo passo.
+### [Espandere un array in Excel con Java – Guida passo‑passo](./expand-array-in-excel-with-java-step-by-step-guide/)
+Scopri come espandere un array in Excel usando Aspose.Cells per Java, con esempi di codice passo‑passo per gestire dati dinamici.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

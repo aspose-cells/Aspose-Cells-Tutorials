@@ -145,6 +145,19 @@ JavaでリストをExcelにインポートし、列のスタイルを設定す�
 Aspose.Cells を使って Excel を PowerPoint に変換する手順を詳しく解説します。
 ### [Aspose.Cells を使用して JSON を Excel にエクスポート（Java）](./export-json-to-excel-with-aspose-cells-in-java/)
 Aspose.Cells for Java を使って JSON データを Excel ファイルにエクスポートする方法を学びましょう。実用的なコード例で手順を解説します。
+### [JSON から Excel を作成 – Aspose.Cells を使用した完全な Java ガイド](./create-excel-from-json-full-java-guide-with-aspose-cells/)
+### [Smart Marker を使用してワークブックを XLSX として保存 – 注文を Excel にエクスポート](./save-workbook-as-xlsx-with-smart-marker-export-orders-to-exc/)
+Aspose.Cells for Java を使って、Smart Marker を利用し、注文データを Excel の XLSX ファイルにエクスポートする方法を学びます。
+### [Excel のスタイル設定 – カスタム書式で DataTable をインポートする方法（Java）](./how-to-style-excel-import-datatable-with-custom-formatting-i/)
+Aspose.Cells for Java を使用して、DataTable をカスタム書式で Excel にインポートし、見栄えを整える方法をステップバイステップで解説します。
+### [ワークブックを CSV として保存 – 完全な Java ガイド：Excel を CSV にエクスポート](./save-workbook-as-csv-complete-java-guide-to-export-excel-to/)
+Aspose.Cells for Java を使用して、Excel ブックを CSV 形式でエクスポートする手順とサンプルコードを学び、データ変換を効率化しましょう。
+### [Javaで数式を含むエクスポート – Excelセルをテキストに変換](./include-formulas-export-in-java-convert-excel-cells-to-text/)
+Aspose.Cells for Javaを使用して、数式を保持したままExcelセルをテキストにエクスポートする手順を学びましょう。
+### [Excel から Word を作成 – XLSX エクスポート完全ガイド](./create-word-from-excel-complete-guide-to-exporting-xlsx/)
+Aspose.Cells for Java を使用して、Excel データから Word 文書を作成し、XLSX をエクスポートする手順をステップバイステップで解説します。
+### [Excel から HTML にフォントを埋め込む方法 – 完全ガイド](./how-to-embed-fonts-in-html-from-excel-full-guide/)
+Aspose.Cells for Java を使用して、Excel から HTML にフォントを埋め込み、正確な表示を実現する方法を学びましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

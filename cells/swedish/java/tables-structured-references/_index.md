@@ -58,6 +58,8 @@ Lär dig hur du använder Aspose.Cells med Java för att effektivt identifiera o
 
 ### [Hur man säkert byter namn på en Excel-tabell med Aspose.Cells för Java](./how-to-safely-rename-excel-table-with-aspose-cells-java/)
 Lär dig hur du på ett säkert sätt byter namn på ett Excel-tabell med Aspose.Cells för Java.
+### [Ställ in tabellnamn i Excel med Java – Komplett guide](./set-table-name-in-excel-with-java-complete-guide/)
+Lär dig hur du sätter tabellnamn i Excel med Aspose.Cells för Java för bättre kodläsbarhet och enklare datahantering.
 
 
 ## Ytterligare resurser

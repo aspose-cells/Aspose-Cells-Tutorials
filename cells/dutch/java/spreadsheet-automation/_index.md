@@ -66,6 +66,10 @@ Leer hoe u AutoFilter in Excel kunt verwijderen met Aspose.Cells voor Java, incl
 
 ### [Nieuwe werkmap maken met Aspose – aangepaste eigenschap toevoegen aan Excel en opslaan als XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
 Leer hoe u een nieuwe Excel-werkmap maakt, een aangepaste eigenschap toevoegt en opslaat als XLSB met Aspose.Cells voor Java.
+### [Hoe tabelkop in Excel te verwijderen met Java – volledige gids](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+Leer hoe u met Aspose.Cells voor Java tabelkoppen uit Excel-werkbladen kunt verwijderen met voorbeeldcode.
+### [Array uitbreiden in Excel met Java – Stapsgewijze gids](./expand-array-in-excel-with-java-step-by-step-guide/)
+Leer hoe u arrays in Excel kunt uitbreiden met Java, met voorbeeldcode en stapsgewijze uitleg.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -491,6 +491,7 @@
 ### [إنشاء مصنف Excel في Java – دليل خطوة بخطوة كامل](./create-excel-workbook-in-java-complete-step-by-step-guide/)
 تعرف على كيفية إنشاء مصنف Excel من الصفر في Java باستخدام Aspose.Cells مع شرح مفصل لكل خطوة.
 ### [إنشاء ملف Excel باستخدام Java، إضافة خاصية مخصصة وحفظه كملف XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+### [كيفية إضافة خاصية مخصصة في Excel باستخدام Java – دليل شامل](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
 
 ## موارد إضافية
 

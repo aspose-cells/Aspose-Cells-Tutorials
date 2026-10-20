@@ -58,6 +58,8 @@
 
 ### [إضافة تعليق إلى Excel باستخدام Java – دليل كامل خطوة بخطوة](./add-comment-to-excel-using-java-complete-step-by-step-guide/)
 تعرّف على كيفية إضافة تعليق إلى ملفات Excel باستخدام Aspose.Cells لـ Java من خلال دليل خطوة بخطوة شامل.
+### [إضافة تعليق إلى Excel باستخدام Java – دليل خطوة بخطوة كامل](./add-comment-to-excel-with-java-complete-step-by-step-guide/)
+تعرّف على كيفية إضافة تعليقات إلى ملفات Excel باستخدام Java خطوة بخطوة مع Aspose.Cells.
 
 ## موارد إضافية
 

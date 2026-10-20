@@ -72,6 +72,10 @@ Naučte se, jak pomocí Aspose.Cells pro Javu použít funkci Expand v Excelu a 
 ### [Jak vymazat AutoFilter v Excelu pomocí Javy – Kompletní průvodce](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
 Naučte se, jak pomocí Aspose.Cells v Javě odstranit AutoFilter v Excelu a zjednodušit práci s daty.
 ### [Vytvoření nového sešitu Aspose – přidání vlastní vlastnosti do Excelu a uložení jako XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+### [Jak odstranit hlavičku tabulky v Excelu pomocí Javy – Kompletní průvodce](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+Naučte se, jak pomocí Aspose.Cells pro Javu odstranit hlavičku tabulky v Excelu a upravit soubory programově.
+### [Rozšíření pole v Excelu v Javě – krok za krokem průvodce](./expand-array-in-excel-with-java-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells v Javě rozšířit pole v Excelu a dynamicky přidávat data.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

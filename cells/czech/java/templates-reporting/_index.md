@@ -63,6 +63,11 @@ Naučte se, jak naplnit šablonu Excel daty a vytvořit report pomocí Aspose.Ce
 Naučte se, jak pomocí Smart Markerů naplnit Excel šablonu daty a vytvořit report v Aspose.Cells pro Javu.
 ### [Jak naplnit Excel šablonu daty pomocí Aspose.Cells](./how-to-populate-excel-template-with-data-using-aspose-cells/)
 Naučte se, jak pomocí Aspose.Cells naplnit Excel šablonu daty z vaší aplikace.
+### [Jak generovat report pomocí Excel Smart Markers – Kompletní průvodce v Javě](./how-to-generate-report-with-excel-smart-markers-full-java-gu/)
+Naučte se, jak v Javě pomocí Excel Smart Markers vytvořit kompletní report s podrobnými ukázkami kódu.
+
+### [Vytvoření sešitu Excel s inteligentními značkami – průvodce pro Javu](./create-excel-workbook-with-smart-markers-java-guide/)
+Naučte se, jak pomocí Smart Markers v Javě vytvořit Excel sešit s dynamickým obsahem a ukázkami kódu.
 
 ## Další zdroje
 

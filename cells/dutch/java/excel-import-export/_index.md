@@ -39,6 +39,8 @@ Leer hoe u gegevens exporteert naar CSV-formaat met Aspose.Cells voor Java. Stap
 Leer hoe u met Aspose.Cells voor Java CSV-bestanden exporteert, significante cijfers instelt en een specifiek bereik exporteert.
 ### [Hoe Excel exporteren: Stapsgewijze gids voor CSV-conversie](./how-to-export-excel-step-by-step-guide-to-csv-conversion/)
 Leer hoe u Excel-gegevens exporteert naar CSV met Aspose.Cells voor Java in deze stapsgewijze handleiding.
+### [Werkmap opslaan als CSV – Complete Java-gids voor het exporteren van Excel naar CSV](./save-workbook-as-csv-complete-java-guide-to-export-excel-to/)
+Leer hoe u een werkmap opslaat als CSV en Excel-gegevens exporteert met Aspose.Cells voor Java. Volg deze stap‑voor‑stap gids.
 ### [Excel naar PDF exporteren](./exporting-excel-to-pdf/)
 Leer hoe je moeiteloos Excel-bestanden naar PDF exporteert met Aspose.Cells voor Java. Onze stapsgewijze handleiding maakt het proces eenvoudiger. Begin vandaag nog met converteren!
 ### [Hoe een PDF te maken vanuit een werkmap – Complete Java-gids](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
@@ -140,6 +142,18 @@ Leer hoe u Excel-gegevens exporteert naar TXT met een beperkt aantal significant
 Leer hoe u Excel-werkbladen naar PowerPoint presenteert met Aspose.Cells in een stapsgewijze handleiding.
 ### [JSON exporteren naar Excel met Aspose.Cells in Java](./export-json-to-excel-with-aspose-cells-in-java/)
 Leer hoe u JSON-gegevens naar Excel exporteert met Aspose.Cells voor Java in een stapsgewijze handleiding.
+### [Lettertypen insluiten in HTML vanuit Excel – Volledige gids](./how-to-embed-fonts-in-html-from-excel-full-guide/)
+Leer hoe u lettertypen uit Excel insluit in HTML met Aspose.Cells voor Java in deze volledige stap‑voor‑stap gids.
+### [Excel maken vanuit JSON – Volledige Java-gids met Aspose.Cells](./create-excel-from-json-full-java-guide-with-aspose-cells/)
+Leer hoe u met Aspose.Cells voor Java Excel-bestanden genereert vanuit JSON-gegevens in deze volledige stap‑voor‑stap gids.
+### [Werkmap opslaan als XLSX met Smart Marker – Bestellingen exporteren naar Excel](./save-workbook-as-xlsx-with-smart-marker-export-orders-to-exc/)
+Leer hoe u met Smart Marker een werkmap opslaat als XLSX en bestellingen exporteert naar Excel met Aspose.Cells voor Java.
+### [Hoe Excel opmaken – DataTable importeren met aangepaste opmaak in Java](./how-to-style-excel-import-datatable-with-custom-formatting-i/)
+Leer hoe u een DataTable importeert en aangepaste opmaak toepast op Excel met Aspose.Cells voor Java.
+### [Formules opnemen bij export in Java – Excel-cellen naar tekst converteren](./include-formulas-export-in-java-convert-excel-cells-to-text/)
+Leer hoe u formules behoudt bij het exporteren en Excel-cellen als tekst converteert met Aspose.Cells voor Java.
+### [Word maken vanuit Excel – Volledige gids voor het exporteren van XLSX](./create-word-from-excel-complete-guide-to-exporting-xlsx/)
+Leer hoe u een Word-document genereert vanuit een Excel‑bestand met Aspose.Cells voor Java. Volg deze stap‑voor‑stap gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

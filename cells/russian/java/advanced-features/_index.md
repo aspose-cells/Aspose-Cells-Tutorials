@@ -108,6 +108,9 @@ weight: 18
 ### [Обновление срезов в файлах Excel Java с Aspose.Cells for Java](./update-slicers-java-excel-aspose-cells/)
 Узнайте, как автоматизировать обновление срезов в файлах Excel с помощью Aspose.Cells for Java. Следуйте этому руководству, чтобы улучшить фильтрацию и анализ данных.
 
+### [Разбор даты с локалью в Java – Полное пошаговое руководство](./parse-date-with-locale-in-java-complete-step-by-step-guide/)
+Узнайте, как парсить даты с учётом локали в Java, используя Aspose.Cells, с полными примерами кода.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.Cells for Java](https://docs.aspose.com/cells/java/)

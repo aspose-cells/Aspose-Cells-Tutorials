@@ -66,6 +66,10 @@ Lär dig hur du använder Expand-funktionen i Java med Aspose.Cells för att man
 Lär dig att ta bort AutoFilter i Excel-program med Aspose.Cells för Java genom tydliga kodexempel och steg-för-steg-instruktioner.
 ### [Skapa ny arbetsbok med Aspose – lägg till anpassad egenskap i Excel och spara som XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
 Skapa en ny arbetsbok, lägg till en anpassad egenskap och spara som XLSB med Aspose.Cells för Java.
+### [Hur du tar bort tabellrubrik i Excel med Java – Fullständig guide](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+Lär dig hur du tar bort tabellrubriker i Excel med Java, med kodexempel och steg-för-steg-instruktioner.
+### [Expandera array i Excel med Java – Steg‑för‑steg‑guide](./expand-array-in-excel-with-java-step-by-step-guide/)
+Lär dig hur du expanderar en array i Excel med Java, med kodexempel och tydliga steg-för-steg-instruktioner.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

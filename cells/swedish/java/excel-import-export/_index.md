@@ -130,6 +130,20 @@ Lär dig hur du exporterar Excel till TXT-fil med begränsat antal signifikanta 
 Lär dig hur du exporterar Excel-filer till PowerPoint med Aspose.Cells för Java i denna steg‑för‑steg‑guide.
 ### [Exportera JSON till Excel med Aspose.Cells i Java](./export-json-to-excel-with-aspose-cells-in-java/)
 Lär dig hur du exporterar JSON-data till Excel med Aspose.Cells för Java i en steg‑för‑steg‑guide.
+### [Skapa Excel från JSON – Fullständig Java-guide med Aspose.Cells](./create-excel-from-json-full-java-guide-with-aspose-cells/)
+Lär dig hur du skapar Excel-filer från JSON med Aspose.Cells för Java i en komplett steg-för-steg-guide.
+### [Spara arbetsbok som XLSX med Smart Marker – Exportera beställningar till Excel](./save-workbook-as-xlsx-with-smart-marker-export-orders-to-exc/)
+Lär dig hur du använder Smart Marker för att spara en arbetsbok som XLSX och exportera orderdata till Excel med Aspose.Cells för Java.
+### [Hur du formaterar Excel – Importera DataTable med anpassad formatering i Java](./how-to-style-excel-import-datatable-with-custom-formatting-i/)
+Lär dig att importera en DataTable till Excel med anpassad formatering i Java med Aspose.Cells.
+### [Spara arbetsbok som CSV – Komplett Java-guide för att exportera Excel till CSV](./save-workbook-as-csv-complete-java-guide-to-export-excel-to/)
+Lär dig hur du sparar en arbetsbok som CSV med Aspose.Cells för Java i en komplett steg-för-steg-guide.
+### [Inkludera formler vid export i Java – Konvertera Excel-celler till text](./include-formulas-export-in-java-convert-excel-cells-to-text/)
+Lär dig hur du exporterar Excel-celler som text inklusive formler med Aspose.Cells för Java.
+### [Skapa Word från Excel – Fullständig guide för att exportera XLSX](./create-word-from-excel-complete-guide-to-exporting-xlsx/)
+Lär dig hur du skapar Word-dokument från Excel och exporterar XLSX med Aspose.Cells för Java i en komplett guide.
+### [Bädda in teckensnitt i HTML från Excel – Fullständig guide](./how-to-embed-fonts-in-html-from-excel-full-guide/)
+Lär dig hur du bäddar in teckensnitt i HTML-genererade filer från Excel med Aspose.Cells för Java i en komplett steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

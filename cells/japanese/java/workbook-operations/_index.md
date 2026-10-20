@@ -74,6 +74,9 @@ Aspose.Cells for Javaを使用して、ExcelファイルをXPS形式に効率的
 ### [Aspose.Cells for Java におけるフォント置換警告の管理: 完全ガイド](./aspose-cells-java-font-substitution-warnings-guide/)
 Aspose.Cells for Java を使用して Excel ファイルを変換するときにフォント置換警告を管理し、ドキュメントの整合性とレイアウトの一貫性を確保する方法を学習します。
 
+### [Java を使用して Excel にカスタム プロパティを追加する方法 – 完全ガイド](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+Aspose.Cells for Java を使用して、Excel ファイルにカスタム プロパティを追加し、管理する方法を学びます。
+
 ### [Aspose.Cells for Java を使用して HTML を Excel に正確に変換する](./aspose-cells-java-html-to-excel-precision/)
 Aspose.Cells for Javaを使って、複雑なHTMLファイルをExcelファイルへ正確に変換する方法を習得しましょう。設定、読み込み方法、保存方法を学びましょう。
 
@@ -373,7 +376,7 @@ Aspose.Cells for Java を使用して、Excel ファイルを HTML としてシ�
 Aspose.CellsのIStreamProviderインターフェースを使用して、JavaでExcelファイルをHTMLに効率的にエクスポートする方法を学びましょう。このガイドでは、セットアップ、構成、そして実践的な応用例を解説します。
 
 ### [Aspose.Cells for Java を使用して Excel シートを画像にエクスポートする - 包括的なガイド](./export-excel-sheets-images-aspose-cells-java/)
-Aspose.Cells for Javaを使ってExcelシートを高画質画像に変換する方法を学びましょう。スプレッドシートをエクスポートし、JPEGまたはPNGとしてレンダリングする方法については、このステップバイステップガイドをご覧ください。
+Aspose.Cells for Javaを使ってExcelシートを高画質画像に変換する方法を学びましょう。JPEGまたはPNGとしてレンダリングする方法については、このステップバイステップガイドをご覧ください。
 
 ### [Aspose.Cells for Java を使用して Excel を HTML にエクスポートする: 完全ガイド](./export-excel-to-html-aspose-cells-java/)
 カスタム オプションと強力なドキュメント変換機能を活用して、Aspose.Cells for Java で Excel ファイルを HTML としてエクスポートする方法を学習します。

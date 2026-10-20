@@ -57,6 +57,8 @@ Pelajari cara mengelola kotak teks di Excel dengan Aspose.Cells untuk Java. Pand
 Pelajari cara menggunakan Aspose.Cells dengan Java untuk mengidentifikasi dan memanipulasi sel dalam rentang bernama di lembar kerja Excel secara efisien.
 
 ### [Cara aman mengganti nama tabel Excel dengan Aspose.Cells Java](./how-to-safely-rename-excel-table-with-aspose-cells-java/)
+### [Menetapkan Nama Tabel di Excel dengan Java – Panduan Lengkap](./set-table-name-in-excel-with-java-complete-guide/)
+Pelajari cara menetapkan nama tabel di Excel menggunakan Aspose.Cells untuk Java, meningkatkan keterbacaan dan pengelolaan data dalam spreadsheet Anda.
 
 ## Sumber Daya Tambahan
 

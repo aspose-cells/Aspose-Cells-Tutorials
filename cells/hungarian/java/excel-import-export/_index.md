@@ -136,6 +136,19 @@ Ismerd meg, hogyan konvertálhatsz Excel-fájlokat PowerPoint-prezentációkká 
 ### [JSON exportálása Excel-be Aspose.Cells használatával Java-ban](./export-json-to-excel-with-aspose-cells-in-java/)
 Tanuld meg, hogyan exportálj JSON adatokat Excel fájlba Aspose.Cells for Java használatával, lépésről lépésre útmutatóval.
 ### [Hogyan tölts be JSON-t Excelbe az Aspose.Cells for Java segítségével](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+### [Excel létrehozása JSON-ból – Teljes Java útmutató az Aspose.Cells segítségével](./create-excel-from-json-full-java-guide-with-aspose-cells/)
+Tanuld meg, hogyan hozhatsz létre Excel-fájlokat JSON-ból az Aspose.Cells for Java segítségével, lépésről lépésre kódrészletekkel.
+### [Munkafüzet mentése XLSX formátumban Smart Markerrel – Rendelések exportálása Excelbe](./save-workbook-as-xlsx-with-smart-marker-export-orders-to-exc/)
+Ismerd meg, hogyan exportálhatsz rendeléseket Excelbe Smart Markerrel, és mentheted a munkafüzetet XLSX formátumban.
+### [Munkafüzet mentése CSV-be – Teljes Java útmutató az Excel CSV-be exportálásához](./save-workbook-as-csv-complete-java-guide-to-export-excel-to/)
+Tanuld meg, hogyan menthetsz munkafüzetet CSV formátumba az Aspose.Cells for Java segítségével, részletes lépésről-lépésre útmutatóval.
+### [Excel formázása – DataTable importálása egyedi formázással Java-ban](./how-to-style-excel-import-datatable-with-custom-formatting-i/)
+### [Formulák exportálása Java-ban – Excel cellák szöveggé konvertálása](./include-formulas-export-in-java-convert-excel-cells-to-text/)
+Tanuld meg, hogyan exportálhatsz képleteket szövegként Java-ban az Aspose.Cells segítségével, és alakítsd át az Excel cellákat szöveggé.
+### [Word létrehozása Excelből – Teljes útmutató az XLSX exportálásához](./create-word-from-excel-complete-guide-to-exporting-xlsx/)
+Tanuld meg, hogyan hozhatsz létre Word-dokumentumot Excel adatokból, és exportáld őket XLSX formátumba Aspose.Cells for Java segítségével.
+### [Betűtípusok beágyazása HTML-be Excelből – Teljes útmutató](./how-to-embed-fonts-in-html-from-excel-full-guide/)
+Tanuld meg, hogyan ágyazhatsz be betűtípusokat HTML-be Excel fájlokból az Aspose.Cells for Java segítségével, lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

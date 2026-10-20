@@ -70,6 +70,8 @@ Lär dig hur du duplicerar ett kalkylblad och behåller pivottabeller med Aspose
 Lär dig hur du duplicerar en pivottabell i Java med Aspose.Cells och bevarar dess format.
 ### [Kopiera område och bevara pivottabell i Java](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
 Lär dig hur du kopierar ett cellområde och behåller pivottabellens funktioner i Java med Aspose.Cells.
+### [Exportera pivottabell som bild till PNG med Java](./excel-pivot-table-image-export-to-png-with-java/)
+Lär dig hur du exporterar en Excel-pivottabell som PNG-bild med Aspose.Cells för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

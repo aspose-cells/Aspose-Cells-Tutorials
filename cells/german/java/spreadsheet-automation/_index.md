@@ -67,6 +67,10 @@ Erfahren Sie anhand von Quellcodebeispielen, wie Sie die Expand‑Funktion in Ex
 
 ### [Wie man AutoFilter in Excel mit Java löscht – Komplettanleitung](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java AutoFilter in Excel-Tabellen programmgesteuert entfernen und Daten sauber filtern.
+### [Wie man Tabellenkopf in Excel mit Java löscht – Vollständige Anleitung](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Tabellenköpfe aus Excel-Dateien entfernen und Ihre Arbeitsmappen bereinigen.
+### [Array in Excel mit Java erweitern – Schritt‑für‑Schritt‑Anleitung](./expand-array-in-excel-with-java-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java ein Array in Excel erweitern, inklusive Beispielcode und detaillierter Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

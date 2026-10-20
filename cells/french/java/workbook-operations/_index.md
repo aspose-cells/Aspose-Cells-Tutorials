@@ -358,6 +358,8 @@ Apprenez à exporter des propriétés personnalisées d'un classeur Excel vers u
 
 ### [Comment ajouter une propriété personnalisée dans Excel (Java) – Récupérer la valeur et enregistrer en XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
 Apprenez à ajouter une propriété personnalisée à un classeur Excel, récupérer sa valeur et enregistrer le fichier au format XLSB avec Aspose.Cells pour Java.
+### [Comment ajouter une propriété personnalisée dans Excel avec Java – Guide complet](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+Apprenez à ajouter et gérer des propriétés personnalisées dans un classeur Excel à l'aide d'Aspose.Cells pour Java.
 
 ### [Exporter Excel au format HTML avec Aspose.Cells Java : guide étape par étape](./export-excel-html-aspose-cells-java/)
 Découvrez comment exporter facilement des fichiers Excel au format HTML avec Aspose.Cells Java. Ce guide explique comment charger des classeurs, personnaliser les fournisseurs de flux et enregistrer facilement des classeurs.

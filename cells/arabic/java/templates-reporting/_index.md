@@ -53,6 +53,11 @@
 ### [Aspose Cells Smart Markers – ملء قالب Excel](./aspose-cells-smart-markers-populate-excel-template/)
 ### [إنشاء أوراق تفاصيل في Java باستخدام Smart Markers من Aspose.Cells](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
 تعرّف على كيفية إنشاء أوراق تفاصيل ديناميكية باستخدام Smart Markers في Aspose.Cells لجافا.
+### [كيفية إنشاء تقرير باستخدام علامات Excel الذكية – دليل Java كامل](./how-to-generate-report-with-excel-smart-markers-full-java-gu/)
+دليل شامل لإنشاء تقارير Excel باستخدام Smart Markers في Java، مع أمثلة خطوة بخطوة.
+
+### [إنشاء مصنف Excel باستخدام العلامات الذكية – دليل Java](./create-excel-workbook-with-smart-markers-java-guide/)
+دليل شامل لإنشاء مصنف Excel باستخدام العلامات الذكية في Java، مع أمثلة خطوة بخطوة لتوليد تقارير ديناميكية.
 
 ## موارد إضافية
 

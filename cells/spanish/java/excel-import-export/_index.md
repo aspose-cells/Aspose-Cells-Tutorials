@@ -153,6 +153,20 @@ Aprenda a convertir archivos de Excel a presentaciones PowerPoint usando Aspose.
 Aprenda a exportar datos JSON a archivos Excel usando Aspose.Cells para Java. Guía paso a paso con código fuente.
 ### [Cómo cargar JSON en Excel con Aspose.Cells para Java](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
 Aprenda a cargar datos JSON en Excel usando Aspose.Cells para Java. Guía paso a paso con ejemplos de código.
+### [Crear Excel a partir de JSON – Guía completa en Java con Aspose.Cells](./create-excel-from-json-full-java-guide-with-aspose-cells/)
+Aprenda a crear archivos Excel a partir de datos JSON usando Aspose.Cells para Java. Guía paso a paso con código fuente.
+### [Guardar libro como XLSX con Smart Marker – Exportar pedidos a Excel](./save-workbook-as-xlsx-with-smart-marker-export-orders-to-exc/)
+Aprenda a guardar un libro de Excel como XLSX usando Smart Marker para exportar pedidos de forma automática con Aspose.Cells para Java.
+### [Cómo dar estilo a Excel – Importar DataTable con formato personalizado en Java](./how-to-style-excel-import-datatable-with-custom-formatting-i/)
+Aprenda a aplicar estilos personalizados al importar DataTable a Excel con Aspose.Cells para Java. Guía paso a paso.
+### [Guardar libro como CSV – Guía completa en Java para exportar Excel a CSV](./save-workbook-as-csv-complete-java-guide-to-export-excel-to/)
+Aprenda a guardar un libro de Excel como CSV usando Aspose.Cells para Java. Guía paso a paso con código fuente para una exportación sencilla.
+### [Incluir exportación de fórmulas en Java – Convertir celdas de Excel a texto](./include-formulas-export-in-java-convert-excel-cells-to-text/)
+Aprenda a exportar fórmulas de Excel como texto usando Aspose.Cells para Java. Guía paso a paso con código fuente.
+### [Crear Word desde Excel – Guía completa para exportar XLSX](./create-word-from-excel-complete-guide-to-exporting-xlsx/)
+Aprenda a generar documentos Word a partir de archivos Excel XLSX usando Aspose.Cells para Java. Guía paso a paso con código fuente.
+### [Cómo incrustar fuentes en HTML desde Excel – Guía completa](./how-to-embed-fonts-in-html-from-excel-full-guide/)
+Aprenda a incrustar fuentes en archivos HTML a partir de Excel usando Aspose.Cells para Java. Guía paso a paso con código fuente.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

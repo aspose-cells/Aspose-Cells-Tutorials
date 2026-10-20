@@ -500,6 +500,8 @@ Naučte se, jak vytvořit sešit s japonským kalendářem pomocí Aspose.Cells 
 Naučte se, jak programově vytvořit sešit XLSB v Javě pomocí Aspose.Cells s podrobnými ukázkami kódu.
 ### [Java vytvořit soubor Excel, přidat vlastní vlastnost a uložit jako XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
 Naučte se, jak vytvořit soubor Excel v Javě, přidat vlastní vlastnost a uložit jej ve formátu XLSB pomocí Aspose.Cells.
+### [Jak přidat vlastní vlastnost v Excelu pomocí Javy – Kompletní průvodce](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+Naučte se, jak pomocí Aspose.Cells pro Javu přidat vlastní vlastnost do souboru Excel a spravovat ji programově.
 
 ## Další zdroje
 

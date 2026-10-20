@@ -502,6 +502,8 @@ Aspose.Words Java 程式碼教程
 ### [在 Java 中儲存新工作簿 – 複製範圍於工作簿之間教學](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
 ### [Java 建立 Excel 檔案，新增自訂屬性並儲存為 XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
 了解如何使用 Aspose.Cells for Java 建立 Excel 檔案、加入自訂屬性，並儲存為 XLSB 格式。
+### [如何使用 Aspose.Cells for Java 在 Excel 中新增自訂屬性 – 完整指南](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+了解如何使用 Aspose.Cells for Java 在 Excel 工作簿中新增自訂屬性並儲存。
 
 ## 其他資源
 

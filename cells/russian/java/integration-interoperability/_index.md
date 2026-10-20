@@ -75,6 +75,14 @@
 Узнайте, как копировать диапазон из Excel и экспортировать его в презентацию PowerPoint с использованием Aspose.Cells для Java.
 ### [Конвертировать Excel в PowerPoint с Aspose.Cells для Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
 Узнайте, как преобразовать файлы Excel в презентации PowerPoint, используя Aspose.Cells для Java.
+### [Как сохранить PPTX из Excel – Полное руководство по экспорту листа Excel в PowerPoint](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+Узнайте, как экспортировать лист Excel в файл PowerPoint (PPTX) с помощью Aspose.Cells для Java, включая настройку и сохранение.
+
+### [Как использовать WRAPCOLS в Java – Полное руководство по преобразованию матрицы](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
+Узнайте, как применять метод WRAPCOLS в Aspose.Cells для Java для преобразования данных в матрицу, с примерами кода и пошаговыми инструкциями.
+
+### [Как внедрить шрифты при конвертации Excel в PDF с помощью Java](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
+Узнайте, как внедрить шрифты при конвертации файлов Excel в PDF с помощью Aspose.Cells для Java, включая настройку и примеры кода.
 
 ## Дополнительные ресурсы
 

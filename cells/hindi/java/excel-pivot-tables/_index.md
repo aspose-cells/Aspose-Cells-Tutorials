@@ -69,6 +69,8 @@ Aspose.Cells for Java के साथ पिवट टेबल को डु�
 ### [जावा में रेंज कॉपी करके पिवट टेबल को संरक्षित रखें](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
 ### [Java के साथ Excel में पिवट टेबल्स को डुप्लिकेट करने का चरण‑दर‑चरण गाइड](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
 Java में Aspose.Cells के साथ पिवट टेबल्स को डुप्लिकेट करने की पूरी प्रक्रिया सीखें।
+### [एक्सेल पिवट टेबल छवि: जावा के साथ PNG निर्यात](./excel-pivot-table-image-export-to-png-with-java/)
+Aspose.Cells for Java से पिवट टेबल को PNG छवि के रूप में निर्यात करने का तरीका जानें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
