@@ -71,6 +71,8 @@ Aspose.Cells для .NET — это жемчужина, если вы работ
 Полное пошаговое руководство по конвертации файлов Excel в PDF с использованием C# и Aspose.Cells.
 ### [Как сохранить PDF с селекторами вариаций шрифтов — полное руководство](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
 Узнайте, как правильно сохранять PDF с использованием селекторов вариаций шрифтов в Aspose.PDF для .NET.
+### [Как сохранить PDF из рабочей книги Excel с помощью Aspose.Cells](./how-to-save-pdf-from-an-excel-workbook-with-aspose-cells/)
+Узнайте, как сохранить рабочую книгу Excel в PDF с помощью Aspose.Cells, используя C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

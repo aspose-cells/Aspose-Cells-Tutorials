@@ -106,6 +106,8 @@
 تعرف على كيفية حفظ ملفات Excel كصفحات HTML مع الحفاظ على جميع التنسيقات باستخدام Aspose.Cells لـ .NET في دليل شامل خطوة بخطوة.
 ### [تصدير Excel إلى HTML – دليل كامل للحفاظ على الأجزاء المثبتة](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
 تعرف على كيفية تصدير Excel إلى HTML مع الحفاظ على الأجزاء المثبتة باستخدام Aspose.Cells لـ .NET في هذا الدليل المفصل خطوة بخطوة.
+### [كيفية استخدام wrapcols وتضمين الخطوط عند حفظ Excel إلى HTML](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+تعرف على كيفية استخدام wrapcols وتضمين الخطوط عند حفظ ملفات Excel كـ HTML باستخدام Aspose.Cells لـ .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -36,7 +36,6 @@
 Μάθετε πώς να μετατρέπετε γραφήματα Excel σε PDF σε .NET χρησιμοποιώντας το Aspose.Cells με αυτόν τον οδηγό βήμα προς βήμα! Ιδανικό για προγραμματιστές όλων των επιπέδων.
 ### [Πώς να Ορίσετε Επιλογές PDF σε C# – Εξαγωγή Excel σε PDF με Πλήρη Έλεγχο](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
 Μάθετε πώς να ρυθμίσετε πλήρως τις επιλογές PDF κατά την εξαγωγή Excel σε PDF χρησιμοποιώντας C#.
-
 ### [Δημιουργία PDF από Excel σε C# – Οδηγός βήμα προς βήμα](./create-pdf-from-excel-in-c-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε PDF από αρχεία Excel χρησιμοποιώντας C# με το Aspose.Cells, ακολουθώντας έναν πλήρη βήμα‑βήμα οδηγό.
 ### [Εξαγωγή βιβλίου εργασίας σε PDF – Πλήρης οδηγός C#](./export-workbook-to-pdf-complete-c-guide/)
@@ -71,6 +70,8 @@
 Αναλυτικός οδηγός για τη μετατροπή αρχείων Excel σε PDF χρησιμοποιώντας C# και Aspose.Cells.
 ### [πώς να αποθηκεύσετε PDF με επιλογείς παραλλαγής γραμματοσειράς – πλήρης οδηγός](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
 Μάθετε πώς να αποθηκεύσετε PDF διατηρώντας επιλογείς παραλλαγής γραμματοσειράς με αυτόν τον πλήρη οδηγό.
+### [Πώς να αποθηκεύσετε PDF από βιβλίο εργασίας Excel με Aspose.Cells](./how-to-save-pdf-from-an-excel-workbook-with-aspose-cells/)
+Μάθετε πώς να αποθηκεύσετε ένα βιβλίο εργασίας Excel ως PDF χρησιμοποιώντας Aspose.Cells σε C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

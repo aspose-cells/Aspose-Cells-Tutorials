@@ -30,7 +30,7 @@
 
 ## CSV फ़ाइल हैंडलिंग ट्यूटोरियल
 ### [CSV फ़ाइलें खोलना](./csv-file-opening-csv-files/)
-हमारे विस्तृत, चरण-दर-चरण गाइड के साथ .NET के लिए Aspose.Cells का उपयोग करके CSV फ़ाइलों को खोलना सीखें। मास्टर डेटा हेरफेर।
+हमारे विस्तृत, चरण-दर-स्टेप गाइड के साथ .NET के लिए Aspose.Cells का उपयोग करके CSV फ़ाइलों को खोलना सीखें। मास्टर डेटा हेरफेर।
 ### [पसंदीदा पार्सर के साथ CSV फ़ाइलें खोलना](./csv-file-opening-csv-files-with-preferred-parser/)
 Aspose.Cells for .NET में कस्टम पार्सर के साथ CSV फ़ाइलों को खोलना और पार्स करना सीखें। टेक्स्ट और तारीखों को आसानी से हैंडल करें। डेवलपर्स के लिए बिल्कुल सही।
 ### [C# में वर्कबुक को CSV के रूप में सहेजें – Excel को CSV में निर्यात करें](./save-workbook-as-csv-in-c-export-excel-to-csv/)
@@ -69,6 +69,8 @@ Aspose.Cells for .NET का उपयोग करके Excel वर्कब�
 Aspose.Cells के साथ वर्कबुक को सटीक फ़ॉर्मेटिंग के साथ CSV फ़ाइल में सहेजने की पूरी प्रक्रिया सीखें।
 ### [C# में वर्कबुक को CSV के रूप में सहेजें – पूर्ण प्रोग्रामिंग गाइड](./save-workbook-as-csv-in-c-complete-programming-guide/)
 Aspose.Cells for .NET का उपयोग करके C# में वर्कबुक को CSV फ़ाइल के रूप में सहेजना सीखें। विस्तृत चरण-दर-चरण मार्गदर्शिका।
+### [C# में कस्टम फ़ॉर्मेटिंग के साथ वर्कबुक को CSV के रूप में सहेजें](./how-to-save-workbook-as-csv-with-custom-formatting-in-c/)
+C# में Aspose.Cells का उपयोग करके कस्टम फ़ॉर्मेटिंग के साथ वर्कबुक को CSV फ़ाइल में सहेजने का तरीका सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

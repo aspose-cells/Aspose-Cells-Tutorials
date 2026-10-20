@@ -59,8 +59,8 @@ tomto komplexním průvodci se naučíte, jak skrýt překrývající se obsah v
 ## Předpona stylů prvků tabulky s možnostmi uložení HTML
 
 Zjistěte, jak pomocí Aspose.Cells pro .NET přidat předpony ke stylům tabulek v HTML a vylepšit tak exporty do Excelu pomocí podrobných příkladů.
-### [Jak vložit písma do HTML z Excelu – kompletní průvodce](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
-Naučte se, jak programově vložit písma do HTML při exportu z Excelu pomocí Aspose.Cells pro .NET.
+### [Jak vložit písma do HTML – Kompletní průvodce C#](./how-to-embed-fonts-in-html-complete-c-guide/)
+Naučte se, jak pomocí Aspose.Cells pro .NET v C# vložit písma do HTML v tomto podrobném průvodci.
 ### [Vložení fontů do HTML – Export Excelu do HTML s C#](./embed-fonts-in-html-export-excel-to-html-with-c/)
 Naučte se, jak programově vložit písma do HTML při exportu Excelu pomocí Aspose.Cells pro .NET a C#.
 
@@ -95,6 +95,8 @@ Naučte se, jak exportovat vlastnosti dokumentů, sešitů a listů aplikace Exc
 V tomto podrobném návodu se naučte exportovat konkrétní oblast tisku do HTML z Excelu pomocí Aspose.Cells pro .NET. Optimalizujte prezentaci dat.
 ### [Export podobného stylu ohraničení programově v Excelu](./exporting-similar-border-style/)
 Naučte se, jak programově exportovat podobné styly ohraničení v Excelu pomocí Aspose.Cells pro .NET s tímto jednoduchým podrobným návodem.
+### [Jak použít wrapcols a vložit písma při ukládání Excelu do HTML](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+Naučte se, jak použít wrapcols a vložit písma při ukládání souboru Excel do HTML pomocí Aspose.Cells pro .NET.
 ### [Samostatný export CSS pracovního listu ve výstupním HTML](./exporting-worksheet-css-separately/)
 V tomto komplexním návodu se naučte, jak efektivně exportovat excelové listy do HTML se samostatným CSS pomocí Aspose.Cells pro .NET.
 ### [Získání HTML5 řetězce z buňky v Excelu programově](./getting-html5-string-from-cell/)

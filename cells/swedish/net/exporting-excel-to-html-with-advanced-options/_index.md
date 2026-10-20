@@ -85,7 +85,7 @@ Lär dig hur du exporterar Excel-kalkylblad till HTML effektivt med separat CSS 
 Lär dig hur du bäddar in teckensnitt i HTML med Aspose.Cells för .NET i en komplett C#-guide.
 ### [Bädda in teckensnitt i HTML – Exportera Excel-arbetsbok till HTML med Aspose.Cells](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
 Lär dig hur du bäddar in teckensnitt i HTML när du exporterar en Excel-arbetsbok med Aspose.Cells för .NET.
-### [Hur man bäddar in teckensnitt vid export av Excel till HTML – Komplett C#-guide](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
+### [Hur att bädda in teckensnitt vid export av Excel till HTML – Komplett C#-guide](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
 Lär dig hur du bäddar in teckensnitt när du exporterar Excel till HTML med Aspose.Cells för .NET i en komplett C#-guide.
 ### [Hur man bäddar in teckensnitt när man exporterar Excel till HTML med C#](./how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
 Lär dig hur du bäddar in teckensnitt när du exporterar Excel till HTML med C# med Aspose.Cells för .NET.
@@ -145,6 +145,9 @@ Lär dig hur du exporterar Excel till HTML med C# i en komplett guide med Aspose
 Lär dig hur du sparar Excel som HTML med full formatering med Aspose.Cells för .NET i denna detaljerade steg-för-steg-guide.
 ### [Exportera Excel till HTML – Komplett guide för att bevara frysta rutor](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
 Lär dig hur du bevarar frysta rutor när du exporterar Excel till HTML med Aspose.Cells för .NET i en steg-för-steg-guide.
+
+### [Hur man använder wrapcols och bäddar in teckensnitt när man sparar Excel till HTML](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+Lär dig hur du använder wrapcols‑alternativet och bäddar in teckensnitt vid sparande av Excel till HTML med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

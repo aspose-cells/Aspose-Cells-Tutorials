@@ -23,6 +23,8 @@ Com o Aspose.Cells para .NET, você pode personalizar totalmente tabelas dinâmi
 
 {{< tutorial-card link="./how-to-copy-pivot-table-in-c-complete-programming-guide/" title="Como Copiar Tabela Dinâmica em C# – Guia Completo de Programação" imgSrc="./how-to-copy-pivot-table-in-c-complete-programming-guide/images/thumb.png" >}}
 
+{{< tutorial-card link="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/" title="Copiar tabela dinâmica para nova pasta de trabalho, exportar forma para PowerPoint" imgSrc="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

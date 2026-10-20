@@ -81,7 +81,7 @@ Learn to export a specific print area to HTML from Excel using Aspose.Cells for 
 ### [Export Excel to HTML – Preserve Frozen Rows in C#](./export-excel-to-html-preserve-frozen-rows-in-c/)
 Learn how to preserve frozen rows when exporting Excel to HTML using Aspose.Cells for .NET in C# with a clear step‑by‑step guide.
 ### [Export Excel to HTML – Complete Guide for Preserving Frozen Panes](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
-Learn how to preserve frozen panes when exporting Excel to HTML using Aspose.Cells for .NET in this comprehensive step-by-step guide.
+Learn how to preserve frozen panes when exporting Excel to HTML using Aspose.Cells for .NET in this comprehensive step‑by‑step guide.
 ### [Exporting Similar Border Style Programmatically in Excel](./exporting-similar-border-style/)
 Learn how to export similar border styles in Excel programmatically using Aspose.Cells for .NET with this easy step‑by‑step guide.
 ### [Exporting Worksheet CSS Separately in Output HTML](./exporting-worksheet-css-separately/)
@@ -132,7 +132,9 @@ Learn how to embed fonts when exporting Excel to HTML using Aspose.Cells for .NE
 ### [Export Excel to HTML with C# – Complete Programming Guide](./export-excel-to-html-with-c-complete-programming-guide/)
 Learn how to export Excel to HTML using C# with Aspose.Cells for .NET in this complete programming guide.
 ### [Save Excel as HTML – Complete Guide to Export Excel with Formatting](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
-Learn how to export Excel to HTML while preserving formatting using Aspose.Cells for .NET in this comprehensive step-by-step guide.
+Learn how to export Excel to HTML while preserving formatting using Aspose.Cells for .NET in this comprehensive step‑by‑step guide.
+### [How to use wrapcols and embed fonts saving Excel to HTML](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+Learn how to use the wrapcols option and embed fonts when saving Excel files to HTML with Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

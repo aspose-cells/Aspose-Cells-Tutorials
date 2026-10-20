@@ -130,6 +130,8 @@
 เรียนรู้วิธีบันทึกไฟล์ Excel เป็น HTML พร้อมการจัดรูปแบบอย่างสมบูรณ์ด้วย Aspose.Cells สำหรับ .NET ในคู่มือขั้นตอนโดยละเอียด
 ### [ส่งออก Excel ไปยัง HTML – คู่มือฉบับสมบูรณ์สำหรับการคงแถบที่ตรึงไว้](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
 เรียนรู้วิธีส่งออกไฟล์ Excel เป็น HTML พร้อมคงแถบที่ตรึงไว้เพื่อให้ผู้ใช้เห็นส่วนหัวตารางอย่างคงที่
+### [วิธีใช้ wrapcols และฝังฟอนต์เมื่อบันทึก Excel เป็น HTML](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+เรียนรู้วิธีใช้ wrapcols และฝังฟอนต์ขณะบันทึกไฟล์ Excel เป็น HTML ด้วย Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

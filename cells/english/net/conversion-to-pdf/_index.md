@@ -36,7 +36,6 @@ Convert Excel spreadsheets to PDF easily with Aspose.Cells for .NET! Follow our 
 Learn how to convert Excel charts to PDF in .NET using Aspose.Cells with this step-by-step guide! Perfect for programmers of all levels.
 ### [How to Set PDF Options in C# – Export Excel to PDF with Full Control](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
 Learn how to configure PDF options in C# for precise Excel to PDF export using Aspose.Cells.
-
 ### [Create PDF from Excel in C# – Step‑by‑Step Guide](./create-pdf-from-excel-in-c-step-by-step-guide/)
 Create PDF from Excel in C# using Aspose.Cells with a clear step‑by‑step guide. Perfect for developers seeking a quick solution.
 ### [Export Workbook to PDF – Complete C# Guide](./export-workbook-to-pdf-complete-c-guide/)
@@ -49,6 +48,8 @@ Convert DOCX documents to PDF in C# using Aspose.Words with a comprehensive step
 Save your workbook as PDF/A‑3b in C# using Aspose.Cells. Follow our guide for step-by-step instructions to export Excel to PDF/A‑3b.
 ### [Save workbook as pdf with Aspose.Cells – Complete Step‑by‑Step Guide](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
 Learn how to save an Excel workbook as PDF using Aspose.Cells with a comprehensive step‑by‑step guide.
+### [How to save PDF from an Excel workbook with Aspose.Cells](./how-to-save-pdf-from-an-excel-workbook-with-aspose-cells/)
+Learn how to export an Excel workbook to PDF using Aspose.Cells in C# with detailed step‑by‑step instructions.
 ### [How to Embed Fonts in PDF – Save Workbook as PDF in C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 Learn how to embed fonts when saving a workbook as PDF in C# using Aspose.Cells for .NET. Follow our step-by-step guide!
 ### [How to Embed Fonts in PDF with C# – Complete Guide](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)

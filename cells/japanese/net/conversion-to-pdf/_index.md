@@ -70,7 +70,9 @@ Aspose.Cells を使用して、C# で XLSX ファイルを PDF/A‑1b 形式で�
 ### [C#でExcelをPDFに変換する – 完全プログラミングガイド](./convert-excel-to-pdf-in-c-complete-programming-guide/)
 この包括的なガイドでは、C# を使用して Excel ファイルを PDF に変換する手順を詳しく解説します。
 ### [フォントバリエーションセレクタで PDF を保存する完全ガイド](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
-フォントバリエーションセレクタを使用して PDF を保存する方法を完全に解説します。
+
+### [Aspose.Cells を使用して Excel ワークブックから PDF を保存する方法](./how-to-save-pdf-from-an-excel-workbook-with-aspose-cells/)
+Aspose.Cells を使い、Excel ワークブックを PDF として保存する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -123,6 +123,8 @@ Tìm hiểu cách nhúng phông chữ vào HTML khi xuất Excel sang HTML bằn
 Tìm hiểu cách lưu tệp Excel thành HTML với đầy đủ định dạng bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
 ### [Xuất Excel sang HTML – Hướng dẫn toàn diện về việc giữ lại các ô cố định](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
 Tìm hiểu cách xuất Excel sang HTML trong khi duy trì các ô cố định, bảo đảm bố cục và trải nghiệm người dùng không bị gián đoạn.
+### [Cách sử dụng wrapcols và nhúng phông chữ khi lưu Excel sang HTML](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+Tìm hiểu cách sử dụng tùy chọn wrapcols và nhúng phông chữ khi chuyển đổi tệp Excel sang HTML bằng Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -103,6 +103,8 @@ Dowiedz się, jak używać Aspose.Cells dla .NET do programowego ustawiania skal
 Dowiedz się, jak zapisać plik Excel jako HTML, zachowując pełne formatowanie, przy użyciu Aspose.Cells dla .NET w tym szczegółowym przewodniku.
 ### [Eksportowanie Excela do HTML – Kompletny przewodnik po zachowywaniu zamrożonych obszarów](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
 Dowiedz się, jak zachować zamrożone wiersze i kolumny przy eksporcie Excela do HTML przy użyciu Aspose.Cells dla .NET w tym kompletnym przewodniku krok po kroku.
+### [Jak używać wrapcols i osadzać czcionki przy zapisywaniu Excela do HTML](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+Dowiedz się, jak używać opcji wrapcols i osadzać czcionki przy zapisywaniu plików Excel jako HTML przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

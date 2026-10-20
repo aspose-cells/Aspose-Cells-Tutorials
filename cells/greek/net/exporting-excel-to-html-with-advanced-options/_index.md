@@ -93,6 +93,8 @@
 Ορίστε εύκολα ένα όνομα καρτέλας σε ένα φύλλο κατά την εξαγωγή HTML χρησιμοποιώντας το Aspose.Cells για .NET. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα που περιλαμβάνονται.
 ### [Δημιουργία επιλογών αποθήκευσης HTML σε C# – Πλήρης οδηγός](./create-html-save-options-in-c-full-guide/)
 Μάθετε πώς να ρυθμίσετε τις επιλογές αποθήκευσης HTML στο Aspose.Cells για .NET χρησιμοποιώντας C# σε αυτόν τον πλήρη οδηγό.
+### [Πώς να χρησιμοποιήσετε wrapcols και να ενσωματώσετε γραμματοσειρές κατά την αποθήκευση του Excel σε HTML](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+Μάθετε πώς να χρησιμοποιήσετε την επιλογή wrapcols και να ενσωματώσετε γραμματοσειρές κατά την εξαγωγή Excel σε HTML με Aspose.Cells για .NET.
 ### [Αποθήκευση Excel ως HTML – Πλήρης Οδηγός για Εξαγωγή και Μετατροπή Αρχείων Excel](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
 Μάθετε πώς να αποθηκεύετε αρχεία Excel ως HTML χρησιμοποιώντας το Aspose.Cells για .NET σε αυτόν τον πλήρη οδηγό βήμα προς βήμα.
 ### [Ενσωμάτωση γραμματοσειρών σε HTML – Εξαγωγή Excel σε HTML με C#](./embed-fonts-in-html-export-excel-to-html-with-c/)

@@ -67,8 +67,9 @@
 تعلم كيفية حفظ المصنف كملف CSV مع التحكم في عدد الأرقام بعد الفاصلة لضمان دقة البيانات.
 ### [كيفية حفظ المصنف كملف CSV مع تنسيقات دقيقة باستخدام Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
 تعلم كيفية حفظ المصنف كملف CSV مع تنسيقات دقيقة باستخدام Aspose.Cells لـ .NET.
+### [كيفية حفظ المصنف كملف CSV مع تنسيقات مخصصة في C#](./how-to-save-workbook-as-csv-with-custom-formatting-in-c/)
+تعلم كيفية حفظ المصنف كملف CSV مع تنسيقات مخصصة باستخدام Aspose.Cells في C# بسهولة ودقة.
 ### [حفظ المصنف كملف CSV في C# – دليل برمجة كامل](./save-workbook-as-csv-in-c-complete-programming-guide/)
-تعلم كيفية حفظ المصنف كملف CSV باستخدام Aspose.Cells لـ .NET في C# خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
