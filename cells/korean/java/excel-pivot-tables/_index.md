@@ -69,6 +69,8 @@ Aspose.Cells for Java를 활용해 기존 피벗 테이블을 복제하고, 데�
 ### [Java로 Excel 피벗 테이블 복제하기 – 단계별 가이드](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
 ### [Excel 피벗 테이블 이미지: Java로 PNG 내보내기](./excel-pivot-table-image-export-to-png-with-java/)
 Aspose.Cells for Java를 사용하여 피벗 테이블을 이미지로 내보내고 PNG 형식으로 저장하는 방법을 알아보세요.
+### [Java에서 Excel 시트를 복제하고 피벗 테이블을 그대로 유지하는 방법](./how-to-duplicate-an-excel-sheet-and-keep-pivot-tables-intact/)
+Aspose.Cells for Java를 사용하여 Excel 시트를 복제하고 피벗 테이블을 그대로 유지하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
