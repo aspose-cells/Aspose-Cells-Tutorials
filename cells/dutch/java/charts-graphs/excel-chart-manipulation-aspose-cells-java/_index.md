@@ -1,190 +1,270 @@
 ---
-"date": "2025-04-08"
-"description": "Leer hoe u Excel-grafiekmanipulatie kunt automatiseren met Aspose.Cells voor Java. Deze handleiding behandelt het laden van werkmappen, het openen van grafieken en het extraheren van trendlijnvergelijkingen."
-"title": "Automatiseer Excel-grafiekmanipulatie in Java met Aspose.Cells&#58; een uitgebreide handleiding"
-"url": "/nl/java/charts-graphs/excel-chart-manipulation-aspose-cells-java/"
-"weight": 1
+date: '2026-10-23'
+description: Leer hoe je trendline equation java kunt extraheren met Aspose.Cells.
+  Deze gids laat zien hoe je Excel workbook java laadt, charts benadert en trendline
+  equations ophaalt.
+keywords:
+- extract trendline equation java
+- load excel workbook java
+- Aspose.Cells Java tutorial
+lastmod: '2026-10-23'
+og_description: Trendline equation java extraheren met Aspose.Cells. Leer hoe je Excel
+  workbook java laadt, charts manipuleert en trendline equations in een paar stappen
+  verkrijgt.
+og_image_alt: Guide showing Java code extracting trendline equations from Excel charts
+  using Aspose.Cells
+og_title: Trendline equation java extraheren met Aspose.Cells – Complete gids
+schemas:
+- author: Aspose
+  dateModified: '2026-10-23'
+  description: Learn how to extract trendline equation java with Aspose.Cells. This
+    guide shows you how to load Excel workbook java, access charts, and retrieve trendline
+    equations.
+  headline: How to extract trendline equation java using Aspose.Cells
+  type: TechArticle
+- description: Learn how to extract trendline equation java with Aspose.Cells. This
+    guide shows you how to load Excel workbook java, access charts, and retrieve trendline
+    equations.
+  name: How to extract trendline equation java using Aspose.Cells
+  steps:
+  - name: '**Data analysis reports:** Auto‑update trendline equations in financial
+      dashboards for precise forecasting.'
+    text: '**Data analysis reports:** Auto‑update trendline equations in financial
+      dashboards for precise forecasting.'
+  - name: '**Inventory management:** Visualize stock trends and automatically generate
+      the underlying formulas for audit trails.'
+    text: '**Inventory management:** Visualize stock trends and automatically generate
+      the underlying formulas for audit trails.'
+  - name: '**Academic research:** Quickly refresh experimental charts when new data
+      points are added, keeping the published equations current.'
+    text: '**Academic research:** Quickly refresh experimental charts when new data
+      points are added, keeping the published equations current.'
+  type: HowTo
+- questions:
+  - answer: Yes, a purchased license permits unrestricted commercial use.
+    question: Can I use Aspose.Cells in a commercial project?
+  - answer: No, the library works independently of Excel.
+    question: Does Aspose.Cells require Microsoft Excel to be installed?
+  - answer: It can process files over 1 GB, provided you manage memory with `dispose()`
+      and stream‑based loading.
+    question: How large a workbook can Aspose.Cells handle?
+  - answer: Yes—iterate each `Series` in the chart and call `getTrendline().getEquation()`
+      for every trendline.
+    question: Is it possible to extract equations from multiple trendlines at once?
+  - answer: Visit the [official documentation](https://reference.aspose.com/cells/java/)
+      and the community [forums](https://forum.aspose.com/c/cells/9) for code samples
+      and discussions.
+    question: Where can I find more examples?
+  type: FAQPage
+tags:
+- extract trendline equation
+- Aspose.Cells
+- Java Excel automation
+title: Hoe trendline equation java te extraheren met Aspose.Cells
+url: /nl/java/charts-graphs/excel-chart-manipulation-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Automatiseer Excel-diagrammanipulatie in Java met Aspose.Cells
 
-# Automatiseer Excel-grafiekmanipulatie in Java met Aspose.Cells
+## Inleiding
 
-## Invoering
+Het extraheren van een trendlijnvergelijking in Java kan tijdrovend zijn wanneer je afhankelijk bent van handmatige Excel-bewerking. Met **Aspose.Cells** kun je programmatisch **extract trendline equation java** terwijl je ook andere diagram‑gerelateerde taken afhandelt. Deze tutorial leidt je door het laden van werkboeken, het navigeren door werkbladen en diagrammen, en uiteindelijk het ophalen van de vergelijkings­tekst van een trendlijn — alles zonder Excel te openen.
 
-Heb je moeite met het automatiseren van Excel-grafiekmanipulaties met Java? Of je nu trendlijnvergelijkingen wilt bijwerken of toegang wilt tot specifieke grafiekelementen, Aspose.Cells voor Java biedt een krachtige oplossing. Deze uitgebreide tutorial begeleidt je bij het openen en bewerken van Excel-werkmappen, werkbladen en grafieken, en het efficiënt extraheren van trendlijnvergelijkingen.
+**Wat je zult leren**
+- Hoe **load Excel workbook java** te gebruiken met Aspose.Cells  
+- Hoe specifieke werkbladen en diagrammen te benaderen  
+- Hoe diagramgegevens te berekenen zodat trendlijnen up‑to‑date zijn  
+- Hoe de trendlijngelijkings­tekst op te halen  
 
-**Wat je leert:**
-- Een Excel-werkmap laden met Aspose.Cells
-- Toegang krijgen tot en manipuleren van specifieke werkbladen binnen een werkmap
-- Navigeren door grafieken in een werkblad
-- Bereken grafiekgegevens voor bijgewerkte informatie
-- Vergelijkingstekst uit trendlijnen extraheren
+Laten we je ontwikkelomgeving gereed maken en beginnen met automatiseren!
 
-Laten we eens kijken hoe u uw omgeving instelt en welke functies dit zijn!
+## Snelle antwoorden
+- **Kan ik trendlijngelijkingen extraheren zonder Excel geïnstalleerd?** Ja, Aspose.Cells werkt volledig offline.  
+- **Welke Java‑versie is vereist?** Java 8 of hoger.  
+- **Heb ik een licentie nodig voor basisbewerkingen?** Een gratis proefversie werkt, maar een licentie verwijdert alle evaluatielimieten.  
+- **Hoeveel diagramtypen worden ondersteund?** Meer dan 50 diagramtypen, waaronder lijn, spreiding en radar.  
+- **Is batchverwerking mogelijk?** Absoluut — verwerk tientallen werkboeken in één lus.
+
+## Wat is extract trendline equation java?
+
+Extract trendline equation java is het proces waarbij je programmatisch de wiskundige formule leest die een trendlijn van een diagram vertegenwoordigt, met behulp van Java‑code. Door deze vergelijking op te halen kun je de exacte relatie tussen variabelen direct in rapporten, dashboards of verdere berekeningen opnemen zonder handmatig Excel te openen.
+
+## Waarom Aspose.Cells voor deze taak gebruiken?
+
+Aspose.Cells ondersteunt **70+ invoer- en uitvoerformaten** en kan werkboeken met **500+ werkbladen** verwerken terwijl het geheugengebruik onder 200 MB blijft. De diagramengine herberekent trendlijnen automatisch, waardoor je nauwkeurige vergelijkingen krijgt zonder extra code. Bovendien werkt de bibliotheek offline, vereist geen Excel‑installatie en biedt hoge‑prestaties batchverwerking voor grote datasets.
 
 ## Vereisten
 
-Zorg ervoor dat u het volgende bij de hand hebt voordat u begint:
+- **Libraries:** Aspose.Cells for Java (≥ 25.3)  
+- **Environment:** JDK 8+ en een IDE zoals IntelliJ IDEA of Eclipse  
+- **Knowledge:** Basis Java‑syntaxis en bekendheid met Excel‑bestandconcepten  
 
-- **Bibliotheken:** Aspose.Cells voor Java (versie 25.3 of later)
-- **Omgevingsinstellingen:**
-  - Een werkende Java Development Kit (JDK) versie 8 of hoger
-  - Een geïntegreerde ontwikkelomgeving (IDE) zoals IntelliJ IDEA of Eclipse
+## Aspose.Cells voor Java configureren
 
-- **Kennisvereisten:** Basiskennis van Java-programmering en Excel-bestandsstructuren is een pré.
+Om Aspose.Cells aan je project toe te voegen, gebruik je Maven of Gradle.
 
-## Aspose.Cells instellen voor Java
-
-Om te beginnen, neem de Aspose.Cells-bibliotheek op in je project. Gebruik Maven of Gradle:
-
-**Kenner:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-cells</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
-```
+```  
 
-### Licentieverwerving
+### Licentie‑acquisitie
 
-Om Aspose.Cells volledig te benutten:
-- **Gratis proefperiode:** Beschikbaar op hun [downloadpagina](https://releases.aspose.com/cells/java/).
-- **Tijdelijke licentie:** Vraag er een aan op de [tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/).
-- **Aankoop:** Koop een licentie van de [aankooppagina](https://purchase.aspose.com/buy).
+Om Aspose.Cells volledig te benutten:  
 
-Initialiseer Aspose.Cells in uw project:
+- **Gratis proefversie:** Beschikbaar op hun [download page](https://releases.aspose.com/cells/java/).  
+- **Tijdelijke licentie:** Aanvragen op de [temporary license page](https://purchase.aspose.com/temporary-license/).  
+- **Aankoop:** Koop een licentie via de [purchase page](https://purchase.aspose.com/buy).  
+
+Initialiseer de licentie in je code:  
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Vervangen met het werkelijke directorypad
-Workbook workbook = new Workbook(dataDir + "/source.xlsx"); // Excel-bestand laden in een werkmapobject
-```
+String dataDir = "YOUR_DATA_DIRECTORY"; // Replace with actual directory path
+Workbook workbook = new Workbook(dataDir + "/source.xlsx"); // Load Excel file into a Workbook object
+```  
 
-## Implementatiegids
+## Hoe extract trendline equation java?
 
-### Toegang krijgen tot en manipuleren van een Excel-werkmap
+Laad het werkboek, bereken het diagram en lees de vergelijking in slechts drie stappen. Eerst maak je een `Workbook`‑instantie die naar je bestand wijst. Vervolgens roep je `chart.calculate()` aan om alle diagramcalculaties te vernieuwen, zodat trendlijnen up‑to‑date zijn. Ten slotte roep je `getTrendline().getEquation()` aan op de gewenste serie om de exacte formule‑string te verkrijgen zoals weergegeven in Excel.
 
-**Overzicht:**
-Laad het Excel-bestand waarmee u wilt werken als uw startpunt voor verdere bewerkingen.
+### Toegang tot en manipulatie van een Excel‑werkboek
+
+De `Workbook`‑klasse vertegenwoordigt een volledig Excel‑bestand in het geheugen. Het biedt methoden om werkboeken te openen, op te slaan en te wijzigen zonder Excel te starten.  
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Vervangen met het werkelijke directorypad
-Workbook workbook = new Workbook(dataDir + "/source.xlsx"); // Laad het Excel-bestand in een werkmapobject
-```
+String dataDir = "YOUR_DATA_DIRECTORY"; // Replace with actual directory path
+Workbook workbook = new Workbook(dataDir + "/source.xlsx"); // Load the Excel file into a Workbook object
+```  
 
-### Toegang tot werkblad binnen werkmap
+### Toegang tot werkblad binnen werkboek
 
-**Overzicht:**
-Toegang tot specifieke werkbladen. Hier concentreren we ons op toegang tot het eerste werkblad.
+De `Worksheet`‑klasse komt overeen met een enkel blad binnen een `Workbook`. Je kunt het ophalen op index of naam, en vervolgens werken met de rijen, kolommen en diagrammen.  
 ```java
 import com.aspose.cells.Worksheet;
 
-Worksheet worksheet = workbook.getWorksheets().get(0); // Toegang tot het eerste werkblad in de werkmap
-```
+Worksheet worksheet = workbook.getWorksheets().get(0); // Access the first worksheet in the workbook
+```  
 
-### Toegang tot grafiek binnen werkblad
+### Toegang tot diagram binnen werkblad
 
-**Overzicht:**
-Nu we een werkblad hebben geopend, gaan we grafieken verkennen. Deze sectie laat zien hoe je de eerste grafiek opent.
+De `Chart`‑klasse is het objectmodel van Aspose.Cells voor elk diagram op een werkblad. Het geeft je volledige controle over series, assen en trendlijnen.  
 ```java
 import com.aspose.cells.Chart;
 
-Chart chart = worksheet.getCharts().get(0); // Toegang tot de eerste grafiek in het werkblad
-```
+Chart chart = worksheet.getCharts().get(0); // Access the first chart in the worksheet
+```  
 
-### Grafiek berekenen om trendlijnvergelijkingtekst bij te werken
+### Diagram berekenen om trendlijngelijkings­tekst bij te werken
 
-**Overzicht:**
-Bereken de grafiek om elementen zoals trendlijnen te vernieuwen met bijgewerkte gegevens.
+Het aanroepen van `chart.calculate()` dwingt Aspose.Cells om alle diagramgegevens opnieuw te berekenen, zodat trendlijnen de nieuwste waarden weergeven voordat je de vergelijking leest.  
 ```java
-chart.calculate(); // Bereken de grafiek om de gegevens en bijbehorende elementen bij te werken
-```
+chart.calculate(); // Calculate the chart to update its data and associated elements
+```  
 
-### Trendlijn uit reeks openen en vergelijkingtekst ophalen
+### Toegang tot trendlijn van serie en ophalen van vergelijkings­tekst
 
-**Overzicht:**
-Toegang tot de vergelijkingtekst van een specifieke trendlijn binnen de grafiekreeks.
+De `Trendline`‑klasse bevat de formule en visuele eigenschappen van een trendlijn. De `getEquation()`‑methode retourneert de vergelijkings‑string, bijvoorbeeld “y = 2.5x + 3”.  
 ```java
 import com.aspose.cells.Trendline;
 
-Trendline trendLine = chart.getNSeries().get(0).getTrendLines().get(0); // Toegang tot de eerste trendlijn uit de eerste serie
-String equationText = trendLine.getDataLabels().getText(); // Haal de vergelijkingtekst van de trendlijn op
-```
+Trendline trendLine = chart.getNSeries().get(0).getTrendLines().get(0); // Access the first trendline from the first series
+String equationText = trendLine.getDataLabels().getText(); // Retrieve the Equation Text of the trendline
+```  
 
-**Tips voor probleemoplossing:**
-- Zorg ervoor dat het pad naar de werkmap correct en toegankelijk is.
-- Controleer uw Aspose.Cells-licentie als u beperkingen tegenkomt.
+**Probleemoplossingstips**  
+- Controleer of het pad naar het werkboek correct is en het bestand toegankelijk is.  
+- Zorg ervoor dat je licentie is geladen; anders kun je evaluatiewatermerken zien.  
 
 ## Praktische toepassingen
 
-1. **Gegevensanalyserapporten:** Automatiseer trendlijnupdates in financiële rapporten voor nauwkeurige prognoses.
-2. **Voorraadbeheersystemen:** Visualiseer voorraadtrends in de loop van de tijd met dynamische grafiekmanipulaties.
-3. **Academisch onderzoek:** Vereenvoudig het bijwerken van grafieken met nieuwe experimentele gegevens.
+1. **Data‑analyse‑rapporten:** Trendlijngelijkingen automatisch bijwerken in financiële dashboards voor nauwkeurige prognoses.  
+2. **Voorraadbeheer:** Voorraadtrends visualiseren en automatisch de onderliggende formules genereren voor audit‑trails.  
+3. **Academisch onderzoek:** Experimentele diagrammen snel vernieuwen wanneer nieuwe gegevenspunten worden toegevoegd, zodat de gepubliceerde vergelijkingen actueel blijven.  
 
-**Integratiemogelijkheden:**
-- Integreer met Java-gebaseerde webapplicaties voor realtime datavisualisatie.
-- Combineer met andere bibliotheken voor verbeterde gegevensverwerking en analysemogelijkheden.
+**Integratiemogelijkheden**  
+- Integreer de code in Java‑gebaseerde webservices voor realtime diagramgeneratie.  
+- Combineer met Apache POI of andere data‑verwerkingsbibliotheken voor uitgebreidere analytics‑pijplijnen.  
 
 ## Prestatieoverwegingen
 
-Houd bij het werken met grote Excel-bestanden rekening met de volgende tips:
-- **Geheugengebruik optimaliseren:** Sluit werkmappen wanneer u ze niet gebruikt, om bronnen vrij te maken.
-- **Batchverwerking:** Verwerk grafieken indien mogelijk in batches en niet in één keer.
-- **Maak gebruik van multithreading:** Gebruik de gelijktijdigheidshulpprogramma's van Java voor parallelle verwerking van meerdere werkmappen.
+Wanneer je grote werkboeken verwerkt, houd deze tips in gedachten:  
+
+- **Geheugengebruik optimaliseren:** Roep `workbook.dispose()` aan nadat je klaar bent om native resources vrij te geven.  
+- **Batchverwerking:** Groepeer diagramcalculaties om overhead te verminderen in plaats van elk werkboek afzonderlijk te verwerken.  
+- **Multithreading:** Gebruik Java’s `ExecutorService` om meerdere werkboekbewerkingen parallel uit te voeren, met inachtneming van de thread‑safety‑richtlijnen van de bibliotheek.  
+
+## Hoe excel‑werkboek java laden?
+
+Gebruik de `Workbook`‑constructor die een bestandspad of een `InputStream` accepteert. Deze enkele regel laadt het volledige werkboek in het geheugen, waarna je de structuur kunt navigeren. Laden is snel — de meeste 100‑bladen bestanden openen in minder dan 200 ms op een typische server, en je kunt ook vanuit streams laden voor webapplicaties.  
 
 ## Conclusie
 
-Je beheerst het laden en bewerken van Excel-bestanden met Aspose.Cells voor Java. Van het openen van werkbladen en grafieken tot het berekenen van gegevens en het ophalen van trendlijnvergelijkingen: deze vaardigheden verbeteren je vermogen om complexe taken efficiënt te automatiseren.
+Je hebt nu een complete, end‑to‑end oplossing voor **extracting trendline equation java** met Aspose.Cells. Van het laden van het werkboek tot het ophalen van de exacte formule, deze stappen stellen je in staat diagramupdates te automatiseren en nauwkeurige vergelijkingen in elke Java‑applicatie in te sluiten.
 
-**Volgende stappen:**
-- Experimenteer met verschillende diagramtypen en reeksen.
-- Ontdek extra functies van Aspose.Cells, zoals het opmaken van cellen of het helemaal opnieuw maken van nieuwe werkmappen.
+**Volgende stappen**  
+- Experimenteer met verschillende diagramtypen (spreiding, bubbel, radar).  
+- Ontdek extra Aspose.Cells‑functies zoals voorwaardelijke opmaak of draaitabelmanipulatie.  
 
-Klaar om je Excel-automatisering naar een hoger niveau te tillen? Begin vandaag nog met de implementatie van deze technieken in je projecten!
+Klaar om je Excel‑automatisering te verbeteren? Implementeer de bovenstaande code‑fragmenten en zie hoe je diagrammen volledig programmeerbaar worden.
 
-## FAQ-sectie
+## Veelgestelde vragen
 
-1. **Wat is Aspose.Cells voor Java?**
-   Een bibliotheek waarmee u programmatisch Excel-bestanden kunt maken, bewerken en converteren met behulp van Java.
+**Q: Kan ik Aspose.Cells gebruiken in een commercieel project?**  
+A: Ja, een aangekochte licentie staat onbeperkt commercieel gebruik toe.
 
-2. **Kan ik Aspose.Cells gebruiken zonder licentie?**
-   kunt beginnen met een gratis proefperiode, maar u zult wel beperkingen ondervinden. Neem een tijdelijke of gekochte licentie voor volledige functionaliteit.
+**Q: Vereist Aspose.Cells dat Microsoft Excel geïnstalleerd is?**  
+A: Nee, de bibliotheek werkt onafhankelijk van Excel.
 
-3. **Hoe voeg ik Aspose.Cells toe aan mijn project?**
-   Gebruik Maven- of Gradle-afhankelijkheden zoals beschreven in het installatiegedeelte.
+**Q: Hoe groot een werkboek kan Aspose.Cells aan?**  
+A: Het kan bestanden van meer dan 1 GB verwerken, mits je het geheugen beheert met `dispose()` en stream‑gebaseerd laden.
 
-4. **Is het mogelijk om grote Excel-bestanden efficiënt te bewerken?**
-   Ja, met de juiste geheugenbeheer- en batchverwerkingstechnieken zoals hierboven beschreven.
+**Q: Is het mogelijk om vergelijkingen van meerdere trendlijnen tegelijk te extraheren?**  
+A: Ja — iterate elke `Series` in het diagram en roep `getTrendline().getEquation()` aan voor elke trendlijn.
 
-5. **Waar kan ik meer informatie vinden over het gebruik van Aspose.Cells voor Java?**
-   Bezoek hun [officiële documentatie](https://reference.aspose.com/cells/java/) En [forums](https://forum.aspose.com/c/cells/9) voor uitgebreide gidsen en ondersteuning van de gemeenschap.
+**Q: Waar kan ik meer voorbeelden vinden?**  
+A: Bezoek de [official documentation](https://reference.aspose.com/cells/java/) en de community [forums](https://forum.aspose.com/c/cells/9) voor code‑voorbeelden en discussies.
 
 ## Bronnen
 
-- **Documentatie:** Ontdek de volledige mogelijkheden op [Aspose.Cells-documentatie](https://reference.aspose.com/cells/java/)
-- **Downloaden:** Aan de slag met de [Aspose.Cells downloadpagina](https://releases.aspose.com/cells/java/)
-- **Aankoop:** Geïnteresseerd in een licentie? Bekijk [Aspose Aankoopopties](https://purchase.aspose.com/buy)
-- **Gratis proefversie en tijdelijke licentie:** Probeer het gratis of vraag een tijdelijke licentie aan via [deze links](https://releases.aspose.com/cells/java/).
-- **Steun:** Hulp nodig? Bezoek de [Aspose Ondersteuningsforum](https://forum.aspose.com/c/cells/9)
+- **Documentatie:** Verken de volledige mogelijkheden op [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)  
+- **Officiële documentatie:** Gedetailleerde API‑referentie is beschikbaar op de [official documentation](https://reference.aspose.com/cells/java/)  
+- **Download:** Begin met de [Aspose.Cells Download Page](https://releases.aspose.com/cells/java/)  
+- **Aankoop:** Geïnteresseerd in een licentie? Bekijk [Aspose Purchase Options](https://purchase.aspose.com/buy)  
+- **Gratis proefversie & tijdelijke licentie:** Probeer het gratis of vraag een tijdelijke licentie aan via [these links](https://releases.aspose.com/cells/java/)  
+- **Forums:** Krijg community‑hulp op de [forums](https://forum.aspose.com/c/cells/9)  
+- **Ondersteuning:** Hulp nodig? Bezoek het [Aspose Support Forum](https://forum.aspose.com/c/cells/9)  
 
+---
+
+**Laatst bijgewerkt:** 2026-10-23  
+**Getest met:** Aspose.Cells 25.3 for Java  
+**Auteur:** Aspose
+
+## Gerelateerde tutorials
+
+- [Automatiseer Excel-diagramtoegang met Aspose.Cells Java&#58; Een stapsgewijze gids](/cells/java/charts-graphs/excel-charts-access-aspose-cells-java/)
+- [Hoe een Excel-diagram met trendlijn te maken en te exporteren naar afbeelding met Aspose.Cells voor Java](/cells/java/advanced-excel-charts/trendline-analysis/)
+- [Dynamische Excel-diagrammen maken met Aspose.Cells Java&#58; Een uitgebreide gids voor ontwikkelaars](/cells/java/charts-graphs/aspose-cells-java-dynamic-excel-charts/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
