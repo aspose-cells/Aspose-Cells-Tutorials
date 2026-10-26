@@ -70,6 +70,9 @@ Aspose.Cells के साथ C# में Excel को HTML में निर
 ### [C# के साथ Excel को HTML में निर्यात करते समय फ़ॉन्ट एम्बेड करना](./how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
 C# के साथ Excel को HTML में निर्यात करते समय फ़ॉन्ट एम्बेड करने की विस्तृत गाइड।
 
+### [XLSX को HTML में परिवर्तित करते समय फ़ॉन्ट एम्बेड करना – Aspose.Cells के साथ](./how-to-embed-fonts-html-when-you-convert-an-xlsx-to-html-wit/)
+Aspose.Cells के साथ XLSX को HTML में परिवर्तित करते समय फ़ॉन्ट एम्बेड करने की विस्तृत गाइड।
+
 ### [Excel को HTML में निर्यात करते समय अप्रयुक्त शैलियों को हटाना](./excluding-unused-styles/)
 ### [दस्तावेज़ कार्यपुस्तिका और कार्यपत्रक गुणों को HTML में निर्यात करना](./exporting-document-workbook-and-worksheet-properties/)
 ### [Excel में प्रिंट क्षेत्र को प्रोग्रामेटिक रूप से HTML में निर्यात करना](./exporting-print-area/)
@@ -87,7 +90,7 @@ C# के साथ Excel को HTML में निर्यात करत�
 
 ### [HTML में फ़ॉन्ट एम्बेड करने का तरीका – पूर्ण C# गाइड](./how-to-embed-fonts-in-html-complete-c-guide/)
 ### [Excel को HTML के रूप में सहेजें – पूर्ण C# गाइड](./save-excel-as-html-complete-c-guide/)
-इस विस्तृत चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.Cells का उपयोग करके Excel को HTML में सहेजने का पूर्ण C# गाइड सीखें।
+इस विस्तृत चरण-दर-स्टेप मार्गदर्शिका में .NET के लिए Aspose.Cells का उपयोग करके Excel को HTML में सहेजने का पूर्ण C# गाइड सीखें।
 ### [Excel को HTML में निर्यात करते समय फ्रोज़न पेन को संरक्षित करना](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
 ### [Excel को HTML में निर्यात करते समय फ़्रोजन पेन को संरक्षित रखते हुए निर्यात करना](./how-to-export-excel-to-html-while-preserving-frozen-panes/)
 Excel को HTML में निर्यात करते समय फ़्रोजन पेन को संरक्षित रखने की विस्तृत गाइड।

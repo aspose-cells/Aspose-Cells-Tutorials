@@ -52,6 +52,8 @@ Naučte se, jak načíst soubor Excel a převést jej do XPS pomocí Aspose.Cell
 Naučte se převádět soubory Excel do XPS v C# pomocí Aspose.Cells s podrobnými ukázkami kódu a praktickými tipy.
 ### [Jak povolit písma při převodu Excelu do XPS – Kompletní průvodce](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
 Naučte se, jak povolit písma při převodu souborů Excel do XPS pomocí Aspose.Cells pro .NET a zajistit správné zobrazení textu.
+### [Jak převést Excel do XPS v C# pomocí Aspose.Cells](./how-to-convert-excel-to-xps-in-c-using-aspose-cells/)
+Naučte se, jak převést soubory Excel do formátu XPS pomocí Aspose.Cells v C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

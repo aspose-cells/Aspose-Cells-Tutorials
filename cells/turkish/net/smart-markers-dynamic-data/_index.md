@@ -111,18 +111,13 @@ C# ve Aspose.Cells SmartMarker kullanarak JSON verilerini XLSX dosyasına dönü
 ### [Şablonu Yükleyip SmartMarker ile Excel Raporu Oluşturma](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 
 ### [SmartMarkers kullanarak Excel çalışma kitabını programlı olarak oluşturma](./create-excel-workbook-programmatically-using-smart-markers/)
+SmartMarker kullanarak bir Excel dosyasında birden çok sayfa oluşturmayı adım adım öğrenin.
+### [Akıllı İşaretleyicilerle Dinamik Excel Raporu İçin Excel Çalışma Kitabı Oluşturma](./how-to-create-excel-workbook-with-smart-markers-for-a-dynami/)
+Akıllı İşaretleyicilerle dinamik raporlar için Excel çalışma kitabı oluşturmayı öğrenin.
 
-### [SmartMarker ile JSON'da Değişkenleri Değiştirme – Tam Kılavuz](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+### [C# ile Excel Çalışma Kitabını Programlı Olarak Oluşturma](./how-to-create-excel-workbook-programmatically-with-c/)
+C# ve Aspose.Cells kullanarak bir Excel çalışma kitabını programlı olarak oluşturmayı adım adım öğrenin.
 
-### [Aspose.Cells'de Akıllı İşaretleyicilerle Dinamik Çalışma Sayfaları Oluşturun](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
-Aspose.Cells for .NET kullanarak akıllı işaretleyicilerle dinamik çalışma sayfaları oluşturmayı adım adım öğrenin.
-
-### [Akıllı İşaretleyicilerle Şablon Yazma – Adım Adım Kılavuz](./how-to-write-template-with-smart-markers-step-by-step-guide/)
-Akıllı İşaretleyicilerle şablon oluşturmayı öğrenin ve adım adım örneklerle Excel raporlarınızı özelleştirin.
-
-### [C# ile Excel Raporu Oluşturma – SmartMarker Kullanarak Tam Kılavuz](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
-SmartMarker ile C# kullanarak dinamik Excel raporları oluşturmayı adım adım öğrenin.
-### [Excel Çalışma Kitabı Oluşturma C# – Hücrelere Dizi Ekleme Tam Kılavuzu](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
 ### [C# ile Excel Veri Birleştirme – Tam Smart Marker Kılavuzu](./excel-data-merging-in-c-complete-smart-marker-guide/)
 C# kullanarak Excel dosyalarında veri birleştirme işlemlerini Smart Marker ile adım adım öğrenin.
 ### [C# ile Smart Markers Kullanarak Excel Şablonu Oluşturma – Tam Kılavuz](./create-excel-template-with-smart-markers-in-c-complete-guide/)
@@ -175,17 +170,18 @@ SmartMarker kullanarak C# ile bir Excel dosyasında birden çok sayfa oluşturma
 ### [C#'ta İç İçe Verileri İşlemek İçin Aralık Akıllı İşaretleyicisi – Tam Kılavuz](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
 C# ile iç içe veri yapılarını işlemek için aralık akıllı işaretleyicisinin nasıl kullanılacağını adım adım öğrenin.
 ### [C# ile Excel Şablonu Yükleme – Çoklu Sayfaları Hızlıca Oluşturma](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
-C# kullanarak bir Excel şablonunu yükleyin ve dinamik olarak birden çok sayfa oluşturun.
+C# kullanarak bir Excel şablonunu yükin ve dinamik olarak birden çok sayfa oluşturun.
 ### [Akıllı İşaretleyicilerle Formülü Değerlendirme – Tam Kılavuz](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
 Aspose.Cells for .NET ile Akıllı İşaretleyicilerde formülleri nasıl değerlendireceğinizi adım adım öğrenin ve raporlarınızda doğru sonuçlar elde edin.
-### [C#'ta JSON'u Excel'e Aktarma – Adım Adım Kılavuz](./import-json-to-excel-in-c-step-by-step-guide/)
+### [C# ile JSON'u Excel'e Aktarma – Adım Adım Kılavuz](./import-json-to-excel-in-c-step-by-step-guide/)
 C# kullanarak JSON verilerini Excel dosyalarına nasıl aktaracağınızı adım adım öğrenin.
 ### [Aspose.Cells Akıllı İşaretleyicileriyle Master-Detail Çalışma Kitabı Oluşturma](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
 Aspose.Cells Akıllı İşaretleyicileri kullanarak master-detail ilişkili bir Excel çalışma kitabı oluşturmayı adım adım öğrenin.
 ### [Master-Detail Excel Kılavuzu – Şablonları Akıllı İşaretleyicilerle Doldurma](./master-detail-excel-guide-populate-templates-with-smart-mark/)
 Smart Markers kullanarak şablonları doldurup master-detail ilişkili Excel raporları oluşturmayı öğrenin.
 ### [Çalışma Sayfalarını Tekrarlama – Excel Otomasyonu için Tam Kılavuz](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
-Excel otomasyonunda çalışma sayfalarını nasıl tekrarlayacağınızı adım adım öğrenin ve raporlarınızı hızlıca çoğaltın.
+
+### [Excel Şablonları için C#'ta Çalışma Sayfası Akıllı İşaretleyicilerini Genişletme](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

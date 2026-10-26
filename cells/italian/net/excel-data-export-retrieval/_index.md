@@ -56,6 +56,9 @@ Scopri come esportare un intervallo di celle in una tabella Excel usando Aspose.
 ### [Creare un foglio Excel da una DataTable in C# – guida passo‑passo](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
 Impara a generare un foglio Excel da una DataTable in C# usando Aspose.Cells, con istruzioni dettagliate passo‑passo.
 
+### [Opzioni ExportTable personalizzate con ExportAsString per Excel](./custom-exporttableoptions-when-exportasstrin-for-excel/)
+Scopri come personalizzare ExportTableOptions durante l'esportazione in stringa di Excel con Aspose.Cells per .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

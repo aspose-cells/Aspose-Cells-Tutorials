@@ -84,6 +84,8 @@
 Узнайте, как установить формат даты в Excel с помощью Aspose.Cells для .NET в этом полном руководстве по импортному форматированию.
 ### [Создание книги Excel с датами японского календаря – Полное руководство](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
 Узнайте, как создать книгу Excel с датами японского календаря, используя Aspose.Cells для .NET, в этом полном руководстве.
+### [Как использовать CultureInfo японского календаря в C# для записи дат в Excel](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
+Узнайте, как использовать CultureInfo японского календаря в C# для записи дат в Excel с помощью Aspose.Cells.
 ### [Создание рабочей книги Excel C# – Ограничение значимых цифр в Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
 Узнайте, как создать рабочую книгу Excel в C# и ограничить количество значимых цифр в ячейках с помощью Aspose.Cells для .NET.
 ### [Как применить числовой формат в Excel с Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
@@ -92,6 +94,8 @@
 Узнайте, как экспортировать DataTable в Excel с правильным форматом столбца даты с помощью Aspose.Cells для .NET в этом полном руководстве.
 ### [Конвертация японского календаря в C# – Полное руководство](./japanese-calendar-conversion-in-c-full-guide/)
 Узнайте, как выполнять конвертацию японского календаря в C# с помощью Aspose.Cells для .NET в этом полном руководстве.
+### [Как применить пользовательский числовой формат в Excel на C#](./how-to-apply-a-custom-number-format-excel-in-c/)
+Узнайте, как применить пользовательский числовой формат в Excel с помощью Aspose.Cells для .NET на C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

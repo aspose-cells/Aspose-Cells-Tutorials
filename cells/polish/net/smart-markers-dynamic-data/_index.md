@@ -77,6 +77,8 @@ Dowiedz się, jak używać anonimowych typów z inteligentnymi znacznikami w Asp
 Odkryj moc Aspose.Cells dla .NET i dowiedz się, jak bez wysiłku stosować atrybuty stylu kopiowania w Excel Smart Markers. Ten kompleksowy samouczek zawiera instrukcje krok po kroku.
 ### [Tworzenie dynamicznych arkuszy przy użyciu inteligentnych znaczników w Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 Dowiedz się, jak generować dynamiczne arkusze kalkulacyjne przy użyciu Smart Markers w Aspose.Cells.
+### [Rozszerz arkusz inteligentnych znaczników w C# dla szablonów Excel](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
+Dowiedz się, jak rozszerzyć arkusz przy użyciu inteligentnych znaczników w C# dla szablonów Excel, aby dynamicznie generować raporty.
 ### [Użyj parametru formuły w polu inteligentnego znacznika Aspose.Cells](./formula-parameter-smart-marker/)
 Naucz się używać parametrów formuły w inteligentnych znacznikach za pomocą Aspose.Cells dla .NET. Twórz dynamiczne arkusze kalkulacyjne z łatwością.
 ### [Utwórz warunkową wartość komórki przy użyciu inteligentnego znacznika Aspose.Cells](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
@@ -125,39 +127,13 @@ Dowiedz się, jak przy użyciu SmartMarker łączyć arkusze w Excelu, tworząc 
 
 
 ### [Utwórz skoroszyt Excel programowo przy użyciu inteligentnych znaczników](./create-excel-workbook-programmatically-using-smart-markers/)
+Dowiedz się, jak w C# tworzyć skoroszyt Excel przy użyciu Smart Markers w Aspose.Cells.
 
+### [Jak programowo utworzyć skoroszyt Excel w C#](./how-to-create-excel-workbook-programmatically-with-c/)
+Dowiedz się, jak w C# programowo tworzyć skoroszyt Excel przy użyciu Aspose.Cells, krok po kroku.
 
-
-
-### [Jak utworzyć skoroszyt przy użyciu inteligentnych znaczników – przewodnik Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
-Dowiedz się, jak krok po kroku utworzyć nowy skoroszyt Excel przy użyciu inteligentnych znaczników w Aspose.Cells dla .NET.
-### [Automatyczne nazewnictwo arkuszy Excel – łatwy sposób generowania arkuszy](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
-Dowiedz się, jak automatycznie nadawać nazwy arkuszom w Excelu, aby usprawnić proces generowania wielu arkuszy.
-### [Utwórz kolekcję inteligentnych znaczników – Kompletny przewodnik C#](./create-smart-marker-collection-complete-c-guide/)
-Dowiedz się, jak stworzyć kolekcję inteligentnych znaczników w C#, korzystając z pełnego przewodnika krok po kroku.
-### [Utwórz kolekcję inteligentnych znaczników w C# – Kompletny przewodnik](./create-smart-marker-collection-in-c-complete-guide/)
-Poznaj szczegółowy przewodnik krok po kroku, jak tworzyć kolekcję inteligentnych znaczników w C# przy użyciu Aspose.Cells.
-### [Jak eksportować Excel – Kompletny przewodnik dla programistów C#](./how-to-export-excel-complete-guide-for-c-developers/)
-Kompletny przewodnik, jak eksportować pliki Excel w C# przy użyciu Aspose.Cells, krok po kroku.
-### [Powtarzanie danych w Excel – Wypełnianie szablonu przy użyciu SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
-Dowiedz się, jak powielać dane w szablonie Excel przy użyciu SmartMarker, aby generować dynamiczne raporty.
-### [Eksport danych do Excela: wypełnianie szablonu z tablicy w C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
-Dowiedz się, jak używać Aspose.Cells w C# do wypełniania szablonu Excela danymi z tablicy, generując dynamiczne raporty.
-### [Jak automatycznie nazwać arkusze – generowanie wielu arkuszy w C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
-Dowiedz się, jak automatycznie nadawać nazwy arkuszom i generować wiele arkuszy w Excelu przy użyciu Aspose.Cells w C#.
-### [Utwórz obiekt danych głównych – przewodnik krok po kroku do generowania arkusza szczegółowego](./create-master-data-object-step-by-step-guide-to-generate-det/)
-Dowiedz się, jak stworzyć obiekt danych głównych i automatycznie generować arkusz szczegółowy przy użyciu Smart Markers w Aspose.Cells.
-### [Automatyzacja generowania faktur – dynamiczne nazewnictwo arkuszy i powtarzanie w C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
-Dowiedz się, jak automatycznie generować faktury w Excelu, dynamicznie nazywać arkusze i powielać je przy użyciu Aspose.Cells w C#.
-### [Utwórz szablon rabatu w C# – przewodnik krok po kroku](./create-discount-template-in-c-step-by-step-guide/)
-Dowiedz się, jak stworzyć obiekt danych głównych i automatycznie generować arkusz szczegółowy przy użyciu Smart Markers w Aspose.Cells.
-### [Jak utworzyć hierarchię przy użyciu SmartMarker – przewodnik krok po kroku](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
-### [Parsowanie zagnieżdżonego JSON w C# – Tworzenie ładunku JSON w C#](./parse-nested-json-c-create-json-payload-c/)
-### [Jak utworzyć skoroszyt z inteligentnymi znacznikami – Output High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
-### [Utwórz raport master‑detail w C# – Wypełnij szablon Excela przy użyciu SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
-### [Zastosowanie SmartMarker w arkuszu w C# – Kompletny przewodnik](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
-Dowiedz się, jak zastosować SmartMarker w arkuszu Excel przy użyciu C#, krok po kroku, aby generować dynamiczne raporty.
-### [Tworzenie pliku Excel programowo przy użyciu Aspose.Cells Smart Markers](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+### [Utwórz skoroszyt Excel w C# – Kompletny przewodnik po wstawianiu tablic do komórek](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+Kompletny przewodnik, jak w C# tworzyć skoroszyt Excel i wstawiać tablice do komórek, wykorzystując Aspose.Cells.
 ### [Generowanie wielu arkuszy przy użyciu SmartMarker – Kompletny przewodnik C#](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
 Dowiedz się, jak generować wiele arkuszy w Excelu przy użyciu SmartMarker w C#, krok po kroku, aby tworzyć dynamiczne raporty.
 ### [Aspose Cells Smart Markers: Generowanie Excela z modelu w C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
@@ -179,6 +155,10 @@ Dowiedz się, jak przy pomocy Smart Markers w Aspose.Cells stworzyć skoroszyt M
 ### [Przewodnik Master‑Detail w Excelu – wypełnianie szablonów za pomocą Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)
 Dowiedz się, jak używać Smart Markers do wypełniania szablonów Excel danymi w scenariuszu Master‑Detail.
 ### [Jak powielać arkusze – Kompletny przewodnik po automatyzacji Excela](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+
+### [Jak utworzyć skoroszyt Excel przy użyciu inteligentnych znaczników dla dynamicznego raportu Excel](./how-to-create-excel-workbook-with-smart-markers-for-a-dynami/)
+
+### [Konwertuj JSON do XLSX w C# przy użyciu SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

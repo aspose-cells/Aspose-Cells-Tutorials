@@ -52,6 +52,9 @@ Lär dig hur du skapar ett Excel-ark från en DataTable i C# med Aspose.Cells f�
 ### [Hur du exporterar en Excel‑tabell – Komplett steg‑för‑steg‑guide](./how-to-export-excel-table-complete-step-by-step-guide/)
 Lär dig hur du exporterar en Excel‑tabell med Aspose.Cells för .NET i en komplett steg‑för‑steg‑guide, lämplig för både nybörjare och erfarna utvecklare.
 
+### [Anpassade ExportTableOptions vid ExportAsString för Excel](./custom-exporttableoptions-when-exportasstrin-for-excel/)
+Lär dig hur du använder anpassade ExportTableOptions när du exporterar Excel-data som sträng med Aspose.Cells för .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

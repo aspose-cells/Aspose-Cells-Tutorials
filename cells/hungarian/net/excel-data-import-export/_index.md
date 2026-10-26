@@ -36,7 +36,6 @@ Tanuld meg, hogyan szúrhatsz be DataTable sorokat Excelben anélkül, hogy az e
 Ismerje meg, hogyan hozhat létre Excel-fájlt JSON-adatokból C#‑ban az Aspose.Cells for .NET segítségével.
 ### [Excel exportálása DataTable-be C#‑ban – Lépésről‑lépésre útmutató](./how-to-export-excel-to-a-datatable-in-c-step-by-step-guide/)
 Ismerje meg, hogyan exportálhat Excel‑adatokat DataTable‑be C#‑ban az Aspose.Cells for .NET segítségével.
-
 ### [Munkafüzet létrehozása – Világoskék háttér, adatimport](./how-to-create-workbook-light-blue-background-data-import/)
 Ebben az oktatóanyagban megtanulhatja, hogyan hozzon létre munkafüzetet világoskék háttérrel és adatimporttal az Aspose.Cells for .NET segítségével.
 ### [JSON exportálása Excelbe C#-al: Teljes programozási útmutató](./export-json-to-excel-with-c-complete-programming-guide/)
@@ -61,6 +60,8 @@ Ismerje meg, hogyan konvertálhatja a JSON tömböket Excel táblázatokká az A
 Ismerje meg, hogyan konvertálhatja a munkalapot DataTable objektummá C#-ban az Aspose.Cells for .NET segítségével, részletes lépésekkel.
 ### [JSON importálása Excelbe az Aspose.Cells segítségével – Teljes programozási útmutató](./import-json-to-excel-with-aspose-cells-complete-programming/)
 Ismerje meg, hogyan importálhat JSON adatokat Excel munkalapba az Aspose.Cells for .NET teljes körű útmutatójával.
+### [DataTable importálása Excel munkalapba C#‑ban](./how-to-import-datatable-into-an-excel-worksheet-using-c/)
+Ismerje meg, hogyan importálhat DataTable adatokat egy Excel munkalapba C# nyelven az Aspose.Cells for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

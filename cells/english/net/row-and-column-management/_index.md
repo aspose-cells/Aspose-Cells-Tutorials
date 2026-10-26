@@ -101,10 +101,11 @@ Learn how to load an Excel file in C# and delete rows, including removing specif
 Learn how to delete rows from an Excel table using C# and Aspose.Cells with a clear, step‑by‑step guide.
 ### [Insert rows in Excel with C# – Step‑by‑step guide](./insert-rows-in-excel-with-c-step-by-step-guide/)
 Learn how to insert rows in Excel using C# and Aspose.Cells for .NET with this detailed step‑by‑step guide.
-### [How to Use WRAPCOLS: Create a Two‑Column Layout in C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+### [How to Use WRAPCOLS: Create a Two‑Column Layout in C#](./how-to-use-wrapcols-in-c/)
 Learn how to use the WRAPCOLS feature in Aspose.Cells for .NET to create a two‑column layout in C# with step‑by‑step instructions.
-### [How to Insert Rows in GridJs – Add Multiple Rows Quickly](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
-Learn how to quickly add multiple rows in GridJs with a simple step-by-step guide for efficient data handling.
+
+### [How to use WRAPCOLS in C# and save workbook as XLSX](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
+
 ### [how to use wrapcols in C# – Full Guide with Excel WRAPROWS & Recalculate Formulas](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Learn how to use WrapCols in C# with Excel WrapRows and recalculate formulas in this comprehensive guide.
 ### [Shift Cells Up in Excel with C# – Complete Guide](./shift-cells-up-in-excel-with-c-complete-guide/)

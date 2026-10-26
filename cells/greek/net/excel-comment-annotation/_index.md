@@ -33,7 +33,7 @@
 ### [Προσθήκη σχολίου με εικόνα στο Excel](./add-comment-with-image-excel/)
 Μάθετε πώς να προσθέτετε σχόλια με εικόνες στο Excel χρησιμοποιώντας το Aspose.Cells για .NET. Βελτιώστε τα υπολογιστικά σας φύλλα με εξατομικευμένες σχολιασμούς.
 ### [Προσθήκη σχολίων σε κελιά ή σχήματα στο Excel](./add-comments-to-cells-or-shapes-excel/)
-Μάθετε πώς να προσθέτετε σχόλια σε κελιά στο Excel χρησιμοποιώντας το Aspose.Cells για .NET. Οδηγός βήμα προς βήμα για αρχάριους για τη βελτίωση της λειτουργικότητας του Excel.
+Μάθετε πώς να προσθέτετε σχολιασμούς σε κελιά στο Excel χρησιμοποιώντας το Aspose.Cells για .NET. Οδηγός βήμα προς βήμα για αρχάριους για τη βελτίωση της λειτουργικότητας του Excel.
 ### [Μορφοποίηση σχολίων - Γραμματοσειρά, Χρώμα, Στοίχιση](./format-comments-font-color-alignment/)
 ### [Προσθήκη σχολίου σε κελί Excel χρησιμοποιώντας Aspose.Cells C#](./add-comment-to-excel-cell-using-aspose-cells-c/)
 Μάθετε πώς να προσθέτετε σχόλιο σε κελί Excel με το Aspose.Cells για C#.
@@ -63,10 +63,12 @@
 Μάθετε πώς να προσθέτετε σχόλιο σε κελί με C# και Aspose.Cells για .NET, δημιουργώντας Excel από δεδομένα.
 ### [Εισαγωγή σχολίου Excel με C# – Πλήρης οδηγός SmartMarker](./insert-excel-comment-with-c-complete-smartmarker-guide/)
 Μάθετε πώς να εισάγετε σχόλια στο Excel χρησιμοποιώντας C# και SmartMarker με το Aspose.Cells για .NET.
-### [Πώς να εισάγετε σχόλιο στο Excel χρησιμοποιώντας το Aspose.Cells](./how-to-insert-comment-in-excel-using-aspose-cells/)
+### [Πώς να εισάγετε σχόλιο στο Excel χρησιμοποιώντας το Aspose.Cells](./how-to-insert-excel-comment-using-aspose-cells/)
 Μάθετε πώς να προσθέσετε σχόλιο σε ένα φύλλο Excel με το Aspose.Cells για .NET, βήμα-βήμα οδηγίες.
 ### [Εισαγωγή σχολίου στο Excel με C# – οδηγός βήμα‑βήμα](./insert-comment-into-excel-with-c-step-by-step-guide/)
 Μάθετε πώς να προσθέσετε σχόλιο σε φύλλο Excel χρησιμοποιώντας C# με αναλυτικές οδηγίες βήμα‑βήμα.
+### [Πώς να εισάγετε σχόλιο στο Excel χρησιμοποιώντας τα smart markers του Aspose.Cells](./how-to-insert-excel-comment-using-aspose-cells-smart-markers/)
+Μάθετε πώς να εισάγετε σχόλια στο Excel με τη χρήση των smart markers του Aspose.Cells για .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

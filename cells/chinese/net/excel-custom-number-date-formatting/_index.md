@@ -82,11 +82,16 @@
 通过本完整指南学习如何使用 Aspose.Cells for .NET 在 C# 中设置 Excel 日期格式并进行导入。
 ### [使用日本日历日期创建 Excel 工作簿 – 完整指南](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
 通过本完整指南学习如何使用 Aspose.Cells for .NET 在 Excel 中创建并处理日本日历日期。
+### [在 C# 中使用日本日历 CultureInfo 将日期写入 Excel](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
+本教程演示如何在 C# 中使用日本日历 CultureInfo 将日期写入 Excel 工作表。
 ### [创建 Excel 工作簿 C# – 限制有效数字 Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
 在本教程中学习如何使用 Aspose.Cells for .NET 在 C# 中创建 Excel 工作簿并限制有效数字。
 
 ### [如何在 Excel 中使用 Aspose.Cells 应用数字格式](./how-to-apply-number-format-excel-with-aspose-cells/)
 通过本教程学习如何使用 Aspose.Cells for .NET 在 Excel 中应用数字格式。
+### [如何在 C# 中为 Excel 应用自定义数字格式](./how-to-apply-a-custom-number-format-excel-in-c/)
+本教程演示如何在 C# 使用 Aspose.Cells 为 Excel 应用自定义数字格式。
+
 ### [格式化 Excel 日期列 – 完整的 C# 指南导出 DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
 通过本完整 C# 示例，学习如何在导出 DataTable 时格式化 Excel 中的日期列。
 ### [C# 中的日本日历转换 – 完整指南](./japanese-calendar-conversion-in-c-full-guide/)

@@ -67,6 +67,8 @@
 Узнайте, как с помощью SmartMarker вставлять комментарии в Excel с C# в Aspose.Cells для .NET.
 ### [Как вставить комментарий в Excel с помощью Aspose.Cells](./how-to-insert-comment-in-excel-using-aspose-cells/)
 Узнайте, как добавить комментарий в Excel с помощью Aspose.Cells для .NET. Пошаговое руководство для улучшения ваших таблиц.
+### [Как вставить комментарий в Excel с помощью умных маркеров Aspose.Cells](./how-to-insert-excel-comment-using-aspose-cells-smart-markers/)
+Узнайте, как с помощью умных маркеров Aspose.Cells добавить комментарий в файл Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

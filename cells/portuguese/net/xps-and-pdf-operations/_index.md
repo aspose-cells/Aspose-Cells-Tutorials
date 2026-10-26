@@ -52,6 +52,8 @@ Aprenda a converter arquivos Excel para XPS em C# e a carregar planilhas Excel d
 Aprenda a converter arquivos Excel para XPS usando C# com um guia detalhado passo a passo e exemplos práticos de código.
 ### [Como habilitar fontes ao converter Excel para XPS – Guia completo](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
 Aprenda a habilitar fontes ao converter planilhas Excel para XPS usando Aspose.Cells, garantindo que o documento mantenha a formatação correta.
+### [Como converter Excel para XPS em C# usando Aspose.Cells](./how-to-convert-excel-to-xps-in-c-using-aspose-cells/)
+Aprenda a converter arquivos Excel para XPS em C# com Aspose.Cells, seguindo um guia passo a passo com exemplos de código.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

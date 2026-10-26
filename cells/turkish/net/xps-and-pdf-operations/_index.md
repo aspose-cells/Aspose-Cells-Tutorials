@@ -52,6 +52,8 @@ C# kullanarak Excel dosyasını yükleyip XPS formatına dönüştürmeyi öğre
 Aspose.Cells for .NET kullanarak C# ile Excel dosyalarını XPS formatına nasıl dönüştüreceğinizi adım adım öğrenin.
 ### [Excel'i XPS'e Dönüştürürken Yazı Tiplerini Etkinleştirme – Tam Kılavuz](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
 Excel dosyalarını XPS'e dönüştürürken fontları etkinleştirmenin adımlarını ve ipuçlarını öğrenin.
+### [C# ile Aspose.Cells kullanarak Excel'i XPS'e dönüştürme](./how-to-convert-excel-to-xps-in-c-using-aspose-cells/)
+Excel dosyalarını C# ve Aspose.Cells ile XPS formatına dönüştürmenin adım adım rehberi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

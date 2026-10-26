@@ -76,7 +76,6 @@ Impara a eliminare più righe in Excel utilizzando Aspose.Cells per .NET. Questa
 Scopri come eliminare righe mantenendo intatta la riga di intestazione in Excel con Aspose.Cells per .NET.
 ### [Come utilizzare Aspose.Cells per eliminare righe in una tabella Excel mantenendo l'intestazione](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
 Scopri come rimuovere righe da una tabella Excel mantenendo la riga di intestazione con Aspose.Cells per .NET.
-
 ### [Inserire una colonna in Aspose.Cells .NET](./insert-column-aspose-cells/)
 Scopri come inserire una colonna in Excel utilizzando Aspose.Cells per .NET. Segui la nostra semplice guida passo passo per aggiungere una nuova colonna senza problemi. Perfetto per gli sviluppatori .NET.
 ### [Inserisci una riga in Aspose.Cells .NET](./insert-row-aspose-cells/)
@@ -108,6 +107,8 @@ Scopri come utilizzare WRAPCOLS per creare un layout a due colonne in C# con Asp
 Scopri come inserire rapidamente più righe in una tabella GridJs con pochi passaggi di codice.
 ### [Come utilizzare wrapcols in C# – Guida completa con Excel WRAPROWS e ricalcolo delle formule](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Scopri come usare wrapcols in C# con Excel WRAPROWS e ricalcolare le formule in modo semplice e dettagliato.
+### [Come utilizzare WRAPCOLS in C# e salvare la cartella di lavoro come XLSX](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
+Scopri come usare WRAPCOLS in C# e salvare il workbook in formato XLSX con Aspose.Cells.
 ### [Spostare le celle verso l'alto in Excel con C# – Guida completa](./shift-cells-up-in-excel-with-c-complete-guide/)
 Scopri come spostare le celle verso l'alto in Excel usando C# e Aspose.Cells con questa guida passo passo.
 ### [Come eliminare righe in Excel con C# – proteggere l'intestazione della tabella](./how-to-delete-rows-in-excel-with-c-protect-table-header/)

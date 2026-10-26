@@ -48,6 +48,8 @@
 本指南展示如何使用 Aspose.Cells 将 Excel 图表导出为 PNG，并将工作簿转换为 HTML，实现高质量的网页展示。
 ### [使用 C# 将 Excel 图表导出到 PowerPoint – 完整 Aspose.Cells 指南](./export-excel-chart-to-powerpoint-with-c-complete-aspose-cell/)
 本指南展示如何使用 Aspose.Cells for .NET 将 Excel 图表导出为 PowerPoint 幻灯片，提供完整代码示例和步骤。
+### [使用 C# 将 Excel 图表导出到 PowerPoint](./how-to-export-excel-charts-to-powerpoint-using-c/)
+通过本指南，学习在 C# 中使用 Aspose.Cells 将 Excel 图表导出为 PowerPoint，包含详细示例代码。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

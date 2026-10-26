@@ -47,6 +47,7 @@ Aspose.Cells for .NET を使用して、Excel のチャートを PowerPoint に�
 ### [チャートを PNG にエクスポート – Aspose.Cells で Excel を HTML に変換する完全ガイド](./export-chart-as-png-complete-guide-to-convert-excel-to-html/)
 Aspose.Cells を使って Excel のチャートを PNG 画像としてエクスポートし、HTML に変換する手順を詳しく解説します。
 ### [C# で Excel チャートを PowerPoint にエクスポート – 完全 Aspose.Cells ガイド](./export-excel-chart-to-powerpoint-with-c-complete-aspose-cell/)
+### [C# を使用して Excel のチャートを PowerPoint にエクスポートする方法](./how-to-export-excel-charts-to-powerpoint-using-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

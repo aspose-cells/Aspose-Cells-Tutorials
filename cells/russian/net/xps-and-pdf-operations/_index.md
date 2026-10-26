@@ -52,6 +52,8 @@
 Подробное руководство по конвертации файлов Excel в XPS с помощью C# и Aspose.Cells, включающее примеры кода и пошаговые инструкции.
 ### [Как включить шрифты при конвертации Excel в XPS – Полное руководство](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
 Узнайте, как включить шрифты при конвертации файлов Excel в XPS с помощью Aspose.Cells для .NET, следуя пошаговым инструкциям.
+### [Как конвертировать Excel в XPS на C# с использованием Aspose.Cells](./how-to-convert-excel-to-xps-in-c-using-aspose-cells/)
+Узнайте, как конвертировать файлы Excel в XPS на C# с помощью Aspose.Cells, следуя пошаговым инструкциям и примерам кода.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,6 +56,9 @@
 ### [如何匯出 Excel 表格 – 完整逐步指南](./how-to-export-excel-table-complete-step-by-step-guide/)
 本完整指南將逐步說明如何使用 Aspose.Cells for .NET 匯出 Excel 表格，適合所有開發人員。
 
+### [在 ExportAsString 時自訂 ExportTableOptions 以匯出 Excel](./custom-exporttableoptions-when-exportasstrin-for-excel/)
+本教學說明如何在使用 ExportAsString 時自訂 ExportTableOptions，以控制 Excel 匯出的細節。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

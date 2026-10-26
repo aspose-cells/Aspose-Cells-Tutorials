@@ -90,6 +90,8 @@
 اكتشف كيفية حفظ ملفات Excel كـ HTML وتصديرها وتحويلها باستخدام Aspose.Cells لـ .NET في دليل شامل خطوة بخطوة.
 ### [تضمين الخطوط في HTML – تصدير مصنف Excel إلى HTML باستخدام Aspose.Cells](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
 تعرف على كيفية تضمين الخطوط في ملفات HTML عند تصدير مصنف Excel باستخدام Aspose.Cells لـ .NET.
+### [كيفية تضمين الخطوط في HTML عند تحويل ملف XLSX إلى HTML باستخدام Aspose.Cells](./how-to-embed-fonts-html-when-you-convert-an-xlsx-to-html-wit/)
+تعرف على طريقة تضمين الخطوط في ملفات HTML عند تحويل ملفات XLSX باستخدام Aspose.Cells لـ .NET.
 ### [تحويل Excel إلى HTML – دليل كامل باستخدام Aspose.Cells](./convert-excel-to-html-complete-guide-using-aspose-cells/)
 تعرف على كيفية تحويل ملفات Excel إلى HTML خطوة بخطوة باستخدام Aspose.Cells لـ .NET في هذا الدليل الشامل.
 ### [حفظ Excel كـ HTML – دليل كامل مع أمثلة شفرة](./save-excel-as-html-complete-guide-with-code-samples/)

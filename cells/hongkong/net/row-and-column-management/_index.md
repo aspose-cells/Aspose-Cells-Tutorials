@@ -103,6 +103,9 @@
 了解如何使用 C# 在 Excel 中插入多行的完整步驟，快速提升資料處理效率。
 ### [如何使用 WRAPCOLS：在 C# 中建立雙欄佈局](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 了解如何在 C# 中使用 Aspose.Cells 的 WRAPCOLS 功能，快速建立雙欄佈局的步驟說明。
+### [如何在 C# 中使用 WRAPCOLS 並將工作簿儲存為 XLSX](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
+了解如何在 C# 使用 WRAPCOLS 功能後，將工作簿儲存為 XLSX 檔案的完整步驟。
+
 ### [如何在 GridJs 中插入行 – 快速新增多行](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 了解如何使用 GridJs 快速插入多行，提升表格資料處理效率。
 ### [在 C# 中使用 wrapcols – 完整指南，涵蓋 Excel WRAPROWS 與重新計算公式](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)

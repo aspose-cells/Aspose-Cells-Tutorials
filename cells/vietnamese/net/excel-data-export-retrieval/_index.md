@@ -53,6 +53,9 @@ Hướng dẫn chi tiết cách tạo tệp Excel từ DataTable trong C# bằng
 ### [Cách xuất bảng Excel – Hướng dẫn chi tiết từng bước](./how-to-export-excel-table-complete-step-by-step-guide/)
 Tìm hiểu cách xuất bảng Excel bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết, phù hợp cho người mới bắt đầu và nhà phát triển có kinh nghiệm.
 
+### [Tùy chỉnh ExportTableOptions khi ExportAsString cho Excel](./custom-exporttableoptions-when-exportasstrin-for-excel/)
+Tùy chỉnh ExportTableOptions khi xuất dữ liệu Excel dưới dạng chuỗi bằng Aspose.Cells cho .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -61,7 +61,7 @@
 ### [Скрыть строки и столбцы в Aspose.Cells .NET](./hide-rows-columns-aspose-cells/)
 Узнайте, как скрыть строки и столбцы в файлах Excel с помощью Aspose.Cells для .NET. Пошаговое руководство по управлению видимостью данных в приложениях C#.
 ### [Отображение строк и столбцов в Aspose.Cells .NET](./unhide-rows-columns-aspose-cells/)
-Узнайте, как отобразить строки и столбцы в Excel с помощью Aspose.Cells для .NET с помощью нашего пошагового руководства. Идеально подходит для обработки данных.
+Узнайте, как отобразить строки и столбцы в Excel с помощью Aspose.Cells .NET с помощью нашего пошагового руководства. Идеально подходит для обработки данных.
 ### [Удаление столбца в Aspose.Cells .NET](./delete-column-aspose-cells/)
 Узнайте, как удалить столбец в файле Excel с помощью Aspose.Cells for .NET. Следуйте нашему подробному пошаговому руководству, чтобы оптимизировать изменения в файле Excel.
 ### [Удалить строку в Aspose.Cells .NET](./delete-row-aspose-cells/)
@@ -102,12 +102,10 @@
 Узнайте, как удалить строки из таблицы Excel с помощью C# и Aspose.Cells, следуя нашему пошаговому руководству.
 ### [Вставка строк в Excel с C# – пошаговое руководство](./insert-rows-in-excel-with-c-step-by-step-guide/)
 Узнайте, как вставлять строки в Excel с помощью C#. Следуйте нашему пошаговому руководству для простого и эффективного управления данными.
-### [Как использовать WRAPCOLS: создать двухколоночный макет в C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
-Узнайте, как применить WRAPCOLS для создания двухколоночного макета в Excel с помощью C# и Aspose.Cells.
-### [Как вставить строки в GridJs – быстро добавить несколько строк](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
-Узнайте, как быстро добавить несколько строк в GridJs с помощью Aspose.Cells для .NET.
-### [Как использовать WrapCols в C# – Полное руководство с Excel WrapRows и пересчетом формул](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+### [Как использовать WRAPCOLS в C# – Полное руководство с Excel WrapRows и пересчетом формул](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Подробное руководство по использованию свойства WrapCols в Aspose.Cells для .NET, включая WrapRows и пересчет формул.
+### [Как использовать WRAPCOLS в C# и сохранить книгу в формате XLSX](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
+Подробное руководство по использованию WRAPCOLS в C# и сохранению книги в формате XLSX.
 ### [Сдвиг ячеек вверх в Excel с помощью C# – Полное руководство](./shift-cells-up-in-excel-with-c-complete-guide/)
 Узнайте, как сдвинуть ячейки вверх в Excel с помощью C# и Aspose.Cells, следуя пошаговому руководству.
 

@@ -56,6 +56,9 @@ Leer hoe u met Aspose.Cells voor .NET een Excel-werkblad maakt vanuit een DataTa
 ### [Hoe een Excel-tabel exporteren – Complete stapsgewijze handleiding](./how-to-export-excel-table-complete-step-by-step-guide/)
 Leer stap voor stap hoe u een Excel-tabel exporteert met Aspose.Cells voor .NET, geschikt voor zowel beginners als gevorderden.
 
+### [Aangepaste ExportTableOptions bij ExportAsStrin voor Excel](./custom-exporttableoptions-when-exportasstrin-for-excel/)
+Leer hoe u aangepaste ExportTableOptions gebruikt bij ExportAsStrin voor Excel met Aspose.Cells voor .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

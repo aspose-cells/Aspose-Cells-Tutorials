@@ -65,6 +65,8 @@
 Μάθετε πώς να μετατρέψετε ένα φύλλο εργασίας σε DataTable χρησιμοποιώντας το Aspose.Cells για .NET σε αυτόν τον πλήρη οδηγό.
 ### [Εισαγωγή JSON στο Excel με Aspose.Cells – Πλήρης Οδηγός Προγραμματισμού](./import-json-to-excel-with-aspose-cells-complete-programming/)
 Μάθετε πώς να μετατρέψετε δεδομένα JSON σε φύλλα Excel χρησιμοποιώντας το Aspose.Cells για .NET σε αυτόν τον πλήρη οδηγό.
+### [Πώς να εισάγετε DataTable σε φύλλο εργασίας Excel με C#](./how-to-import-datatable-into-an-excel-worksheet-using-c/)
+Μάθετε πώς να εισάγετε DataTable σε ένα φύλλο εργασίας Excel χρησιμοποιώντας C# και Aspose.Cells για .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

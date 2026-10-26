@@ -73,6 +73,8 @@ Learn to implement advanced worksheet protection settings in Excel using Aspose.
 Learn how to implement advanced protection settings in Excel using Aspose.Cells for .NET. Control who can edit your files effectively.
 ### [Lock Cells in Worksheet using Aspose.Cells](./lock-cells/)
 Learn how to lock cells in Excel using Aspose.Cells for .NET with this step-by-step guide. Protect your data with detailed code examples and easy instructions.
+### [How to lock Excel header row with Aspose.Cells in C#](./how-to-lock-excel-header-row-with-aspose-cells-in-c/)
+Learn how to lock the header row in an Excel worksheet using Aspose.Cells for .NET with C#.
 ### [Specify Author while Write Protecting Workbook using Aspose.Cells](./specify-author-write-protect-workbook/)
 Learn how to specify an author while write protecting an Excel workbook using Aspose.Cells for .NET in this step-by-step tutorial.
 

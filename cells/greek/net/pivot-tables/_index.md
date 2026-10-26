@@ -23,6 +23,8 @@
 
 {{< tutorial-card link="./how-to-copy-pivot-table-in-c-complete-programming-guide/" title="Πώς να αντιγράψετε έναν Πίνακα Pivot σε C# – Πλήρης Οδηγός Προγραμματισμού" imgSrc="./how-to-copy-pivot-table-in-c-complete-programming-guide/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-move-pivot-table-to-another-sheet-in-c-using-aspose-c/" title="Πώς να μετακινήσετε έναν συγκεντρωτικό πίνακα σε άλλο φύλλο σε C# χρησιμοποιώντας το Aspose.Cells" imgSrc="./how-to-move-pivot-table-to-another-sheet-in-c-using-aspose-c/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

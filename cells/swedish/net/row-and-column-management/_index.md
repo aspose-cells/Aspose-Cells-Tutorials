@@ -99,11 +99,12 @@ Lär dig hur du använder WRAPCOLS för att skapa en tvåkolumnslayout i Excel m
 Lär dig hur du snabbt lägger till flera rader i GridJs med enkla kodexempel.
 ### [Hur man använder wrapcols i C# – Fullständig guide med Excel WRAPROWS & omberäkna formler](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Lär dig hur du använder wrapcols i C# tillsammans med Excel WRAPROWS och omberäknar formler i en komplett guide.
-
 ### [Hur man tar bort en hel rad i en Excel-fil med C#](./how-to-delete-entire-row-in-an-excel-file-using-c/)
 Lär dig hur du tar bort en hel rad i en Excel-fil med C# och Aspose.Cells i några enkla steg.
 ### [Skifta celler upp i Excel med C# – Komplett guide](./shift-cells-up-in-excel-with-c-complete-guide/)
 Lär dig hur du flyttar celler uppåt i ett Excel-ark med C# genom en steg-för-steg-guide.
+### [Hur man använder WRAPCOLS i C# och sparar arbetsboken som XLSX](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
+Lär dig hur du använder WRAPCOLS i C# och sparar arbetsboken i XLSX-format med Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

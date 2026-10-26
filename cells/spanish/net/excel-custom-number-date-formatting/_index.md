@@ -90,10 +90,15 @@ Aprenda a crear un libro de Excel y analizar fechas japonesas usando Aspose.Cell
 Aprenda a crear un libro de trabajo y limitar la cantidad de dígitos significativos usando Aspose.Cells para .NET.
 ### [Cómo aplicar formato de número en Excel con Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
 Aprenda a aplicar formatos numéricos en Excel usando Aspose.Cells para .NET paso a paso.
+### [Cómo aplicar un formato de número personalizado en Excel con C#](./how-to-apply-a-custom-number-format-excel-in-c/)
+Aprenda a aplicar un formato de número personalizado en Excel usando C# y Aspose.Cells paso a paso.
 ### [Formato de columna de fecha en Excel – Guía completa en C# para exportar DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
 Aprenda a formatear columnas de fecha en Excel y exportar DataTable usando C# con Aspose.Cells para .NET.
 ### [Conversión del calendario japonés en C# – Guía completa](./japanese-calendar-conversion-in-c-full-guide/)
 Aprenda a convertir fechas del calendario japonés en C# usando Aspose.Cells para .NET con esta guía completa.
+
+### [Cómo usar CultureInfo del calendario japonés en C# para escribir fechas en Excel](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
+Aprenda a utilizar CultureInfo del calendario japonés en C# para escribir fechas correctamente en archivos Excel con Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

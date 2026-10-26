@@ -124,63 +124,24 @@ Leer hoe u JSON-gegevens omzet naar XLSX-bestanden met SmartMarker in C#.
 
 ### [Werkboek maken vanuit XLSX met Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
 
-
-
+### [Excel-werkmap programmeren met Smart Markers](./create-excel-workbook-programmatically-using-smart-markers/)
+Ontdek hoe u met Aspose.Cells en Smart Markers een Excel-werkmap programmatically kunt maken. Volg de stapsgewijze .NET‑handleiding.
+### [Excel-werkmap maken met C#](./how-to-create-excel-workbook-programmatically-with-c/)
+Leer stap voor stap hoe u met C# een Excel-werkmap programmatically kunt maken.
 
 ### [Excel-werkmap programmeren met Smart Markers](./create-excel-workbook-programmatically-using-smart-markers/)
 Ontdek hoe u met Aspose.Cells en Smart Markers een Excel-werkmap programmatically kunt maken. Volg de stapsgewijze .NET‑handleiding.
+### [Excel-werkmap maken met C#](./how-to-create-excel-workbook-programmatically-with-c/)
+Leer stap voor stap hoe u met C# een Excel-werkmap programmatically kunt maken.
 
+### [Excel-werkmap programmeren met Smart Markers](./create-excel-workbook-programmatically-using-smart-markers/)
+Ontdek hoe u met Aspose.Cells en Smart Markers een Excel-werkmap programmatically kunt maken. Volg de stapsgewijze .NET‑handleiding.
+### [Excel-werkmap maken met C#](./how-to-create-excel-workbook-programmatically-with-c/)
+Leer stap voor stap hoe u met C# een Excel-werkmap programmatically kunt maken.
 
+### [Hoe een Excel-werkmap te maken met slimme markeringen voor een dynamisch Excel-rapport](./how-to-create-excel-workbook-with-smart-markers-for-a-dynami/)
 
-
-### [Automatisch Excel-bladen benoemen – Gemakkelijke manier om bladen te genereren](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
-Leer hoe u met Aspose.Cells automatisch namen aan Excel-werkbladen toekent, waardoor het genereren van meerdere bladen eenvoudig wordt.
-### [Hoe maak je een werkmap met slimme markeringen – Aspose.Cells-gids](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
-Leer stap voor stap hoe u een Excel-werkmap maakt en slimme markeringen toepast met Aspose.Cells voor .NET.
-### [Smart marker-collectie maken – Complete C#-gids](./create-smart-marker-collection-complete-c-guide/)
-### [Smart marker-collectie maken in C# – Complete gids](./create-smart-marker-collection-in-c-complete-guide/)
-### [Hoe een hiërarchie maken met SmartMarker – Stapsgewijze handleiding](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
-### [Gegevens herhalen in Excel – Sjabloon vullen met SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
-Leer hoe u met SmartMarker een Excel-sjabloon kunt vullen en gegevens kunt herhalen voor dynamische rapporten.
-### [Gegevens exporteren naar Excel: Een sjabloon vullen vanuit een array in C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
-Leer hoe u met Aspose.Cells een Excel-sjabloon kunt vullen met gegevens uit een array in C#, stap voor stap.
-### [Hoe Excel te exporteren – Complete gids voor C#‑ontwikkelaars](./how-to-export-excel-complete-guide-for-c-developers/)
-Leer stap voor stap hoe u Excel‑bestanden exporteert met Aspose.Cells in C#, inclusief codevoorbeelden en best practices. 
-### [Hoe werkbladen automatisch een naam geven – Meerdere werkbladen genereren in C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
-Leer hoe u met Aspose.Cells in C# automatisch werkbladen benoemt en meerdere sheets genereert op basis van uw data.
-### [Maak Master Data Object – Stapsgewijze handleiding om detailblad te genereren](./create-master-data-object-step-by-step-guide-to-generate-det/)
-Leer hoe u een master‑data‑object maakt en automatisch een detailblad genereert met Aspose.Cells.
-### [Factuurgeneratie automatiseren – Dynamische werkbladnaamgeving en herhaling in C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
-Leer hoe u facturen automatisch genereert met dynamische werkbladnamen en herhalende secties in C# met Aspose.Cells.
-### [Maak kortingssjabloon in C# – Stapsgewijze handleiding](./create-discount-template-in-c-step-by-step-guide/)
-Leer hoe u met Aspose.Cells een kortingssjabloon in C# maakt, stap voor stap, voor dynamische facturering.
-### [Geneste JSON parseren C# – JSON-payload maken C#](./parse-nested-json-c-create-json-payload-c/)
-Leer hoe u geneste JSON-structuren kunt parseren en een JSON-payload kunt genereren in C# met Aspose.Cells.
-### [Hoe een werkmap te maken met slimme markeringen – Output Hoog Laag](./how-to-create-workbook-with-smart-markers-output-high-low/)
-Leer hoe u een Excel-werkmap genereert met slimme markeringen die hoge en lage waarden dynamisch weergeven.
-### [Maak master-detailrapport in C# – Excel-sjabloon vullen met SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
-Leer hoe u met SmartMarker een master‑detailrapport maakt door een Excel‑sjabloon vanuit C# te vullen.
-### [SmartMarker toepassen op werkblad in C# – Complete gids](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
-Leer hoe u SmartMarker in C# kunt toepassen op een werkblad om dynamische Excel-rapporten te genereren met volledige stapsgewijze instructies.
-### [Excel programmatically maken met Aspose.Cells Smart Markers](./create-excel-programmatically-using-aspose-cells-smart-marke/)
-Leer hoe u met Aspose.Cells Smart Markers een Excel-bestand programmatically kunt genereren.
-### [Meerdere werkbladen genereren met SmartMarker – Complete C#-gids](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
-Leer hoe u met SmartMarker meerdere Excel-werkbladen genereert in C#, inclusief voorbeeldcode en stapsgewijze instructies.
-### [Gegevens exporteren naar Excel – Complete gids voor het vullen van een Excel-sjabloon met Smart Markers](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
-Leer stap voor stap hoe u gegevens exporteert naar een Excel-sjabloon met Smart Markers in Aspose.Cells voor .NET.
-### [Aspose Cells Smart Markers: Genereer Excel vanuit model in C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
-Leer hoe u met Smart Markers in Aspose.Cells Excel-bestanden genereert rechtstreeks vanuit een .NET‑model in C#.
-### [Hoe smart marker-gegevens te maken en Excel-sjabloongegevens in te vullen](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
-Leer hoe u smart marker-gegevens maakt en een Excel-sjabloon automatisch vult met Aspose.Cells voor .NET.
-### [Excel-sjabloon laden in C# – Genereer snel meerdere bladen](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
-Leer hoe u een Excel-sjabloon laadt en met Aspose.Cells in C# snel meerdere werkbladen genereert voor dynamische rapporten.
-### [Range smart marker om geneste gegevens te verwerken in C# – Volledige gids](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
-### [Import json naar Excel in C# – stapsgewijze handleiding](./import-json-to-excel-in-c-step-by-step-guide/)
-### [Hoe maak je een Excel-rapportlijst met Aspose.Cells slimme markeringen](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
-### [Maak master-detail werkmap met Aspose.Cells Smart Marker](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
-Leer hoe u een master‑detail werkmap maakt met Smart Markers in Aspose.Cells voor .NET.
-### [Master‑detail Excel‑gids – sjablonen invullen met Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)
-Leer hoe u master‑detail Excel‑sjablonen kunt vullen met Smart Markers voor dynamische rapporten.
+### [Werkblad uitbreiden met slimme markeringen in C# voor Excel-sjablonen](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

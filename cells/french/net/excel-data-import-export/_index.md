@@ -36,7 +36,6 @@ Apprenez à insérer des lignes de DataTable dans Excel sans décaler la premiè
 Apprenez à créer un classeur Excel à partir de données JSON en C# avec Aspose.Cells, grâce à un guide détaillé pas à pas.
 ### [Exporter Excel vers un DataTable en C# – Guide étape par étape](./how-to-export-excel-to-a-datatable-in-c-step-by-step-guide/)
 Apprenez à exporter un fichier Excel vers un DataTable en C# avec Aspose.Cells, grâce à un guide détaillé pas à pas.
-
 ### [Comment créer un classeur – Fond bleu clair, importation de données](./how-to-create-workbook-light-blue-background-data-import/)
 Apprenez à créer un classeur avec un arrière‑plan bleu clair et à importer des données à l'aide d'Aspose.Cells pour .NET.
 ### [Exporter du JSON vers Excel avec C# : Guide complet de programmation](./export-json-to-excel-with-c-complete-programming-guide/)
@@ -61,6 +60,8 @@ Apprenez à transformer des données JSON en fichiers Excel avec Aspose.Cells po
 Apprenez à convertir une feuille de calcul Excel en DataTable avec C# en utilisant Aspose.Cells pour .NET. Guide complet pas à pas.
 ### [Importer JSON vers Excel avec Aspose.Cells – Guide complet de programmation](./import-json-to-excel-with-aspose-cells-complete-programming/)
 Apprenez à convertir des fichiers JSON en feuilles Excel en utilisant Aspose.Cells pour .NET, étape par étape.
+### [Comment importer un DataTable dans une feuille de calcul Excel en C#](./how-to-import-datatable-into-an-excel-worksheet-using-c/)
+Apprenez à importer un DataTable dans une feuille de calcul Excel en C# avec Aspose.Cells pour .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

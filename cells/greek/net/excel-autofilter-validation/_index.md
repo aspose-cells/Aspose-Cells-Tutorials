@@ -43,15 +43,12 @@
 ### [Πώς να χρησιμοποιήσετε το AutoFilter σε αυτοματοποίηση Excel με C# – Πλήρης οδηγός βήμα‑βήμα](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
 Μάθετε πώς να εφαρμόσετε το AutoFilter σε αρχεία Excel χρησιμοποιώντας C# και Aspose.Cells, βήμα‑βήμα, για αποτελεσματική διαχείριση δεδομένων.
 
-
-
-
-
-
-
-
 ### [Αφαίρεση αυτόματου φίλτρου Excel σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Μάθετε πώς να αφαιρέσετε το αυτόματο φίλτρο από ένα αρχείο Excel χρησιμοποιώντας το Aspose.Cells σε .NET με λεπτομερή οδηγό βήμα‑βήμα.
+
+### [Απενεργοποίηση AutoFilter στο Excel με C# – Πλήρης Οδηγός](./how-to-disable-autofilter-in-excel-with-c-complete-guide/)
+Μάθετε πώς να απενεργοποιήσετε το AutoFilter σε αρχεία Excel χρησιμοποιώντας Aspose.Cells για .NET με C#.
+
 ### [Καθαρό UI φίλτρου στο Excel με C# – Αφαίρεση του κουμπιού AutoFilter](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 Μάθετε πώς να αφαιρέσετε το κουμπί AutoFilter και να βελτιώσετε το UI του φίλτρου στο Excel με C# και Aspose.Cells.
 ### [Απόκρυψη βελών φίλτρου στο Excel με C# – Πλήρης Οδηγός](./hide-filter-arrows-excel-with-c-complete-guide/)

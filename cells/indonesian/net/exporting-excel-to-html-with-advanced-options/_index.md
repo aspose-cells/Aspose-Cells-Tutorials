@@ -136,6 +136,8 @@ Pelajari cara menyematkan font dalam output HTML saat mengekspor file Excel meng
 Pelajari cara mengekspor Excel ke HTML menggunakan C# dengan Aspose.Cells untuk .NET dalam panduan pemrograman lengkap ini.
 ### [Simpan Excel sebagai HTML – Panduan Lengkap untuk Mengekspor Excel dengan Pemformatan](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
 Pelajari cara menyimpan file Excel sebagai HTML dengan format lengkap menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah ini.
+### [Cara menyematkan font HTML saat mengonversi XLSX ke HTML dengan Aspose.Cells](./how-to-embed-fonts-html-when-you-convert-an-xlsx-to-html-wit/)
+Pelajari cara menyematkan font dalam output HTML saat mengonversi file XLSX ke HTML menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

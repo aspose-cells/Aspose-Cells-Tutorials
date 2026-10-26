@@ -75,7 +75,7 @@ Apprenez à supprimer plusieurs lignes dans Excel avec Aspose.Cells pour .NET. C
 ### [Aspose Cells – Supprimer des lignes tout en protégeant la ligne d’en-tête dans Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 Apprenez à supprimer des lignes tout en protégeant la ligne d’en-tête dans Excel avec Aspose.Cells pour .NET. Guide étape par étape.
 ### [Comment utiliser Aspose.Cells pour supprimer des lignes dans un tableau Excel tout en conservant l’en-tête](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
-Apprenez à supprimer des lignes d’un tableau Excel avec Aspose.Cells tout en préservant la ligne d’en‑tête, grâce à ce guide détaillé.
+Apprenez à supprimer des lignes d’un tableau Excel avec Aspose.Cells tout en préservant l’en‑tête, grâce à ce guide détaillé.
 ### [Insérer une colonne dans Aspose.Cells .NET](./insert-column-aspose-cells/)
 Apprenez à insérer une colonne dans Excel avec Aspose.Cells pour .NET. Suivez notre guide simple et étape par étape pour ajouter une nouvelle colonne en toute simplicité. Idéal pour les développeurs .NET.
 ### [Insérer une ligne dans Aspose.Cells .NET](./insert-row-aspose-cells/)
@@ -103,11 +103,10 @@ Apprenez à charger un fichier Excel en C# et à supprimer des lignes, y compris
 Apprenez à insérer des lignes dans Excel avec C# grâce à ce guide détaillé, étape par étape.
 ### [Comment utiliser WRAPCOLS : créer une mise en page à deux colonnes en C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 Apprenez à utiliser la fonction WRAPCOLS pour générer automatiquement une disposition à deux colonnes dans vos feuilles Excel avec Aspose.Cells pour .NET.
-
-### [Comment insérer des lignes dans GridJs – Ajouter plusieurs lignes rapidement](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
-Apprenez à insérer rapidement plusieurs lignes dans GridJs avec ce guide étape par étape.
 ### [Comment utiliser wrapcols en C# – Guide complet avec Excel WRAPROWS et recalcul des formules](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Découvrez comment appliquer wrapcols et wraprows dans Excel avec Aspose.Cells, et recalculer les formules efficacement.
+### [Comment utiliser WRAPCOLS en C# et enregistrer le classeur au format XLSX](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
+Apprenez à appliquer WRAPCOLS en C# et à enregistrer votre classeur Excel au format XLSX avec Aspose.Cells.
 ### [Déplacer les cellules vers le haut dans Excel avec C# – Guide complet](./shift-cells-up-in-excel-with-c-complete-guide/)
 Découvrez comment déplacer les cellules vers le haut dans Excel avec C# grâce à notre guide complet, étape par étape.
 

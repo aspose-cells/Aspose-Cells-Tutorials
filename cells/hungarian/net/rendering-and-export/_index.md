@@ -54,6 +54,8 @@ Fedezze fel, hogyan kezelheti a külső erőforrásokat az Excel PDF-be konvert�
 Tanuld meg, hogyan hozhatsz létre PDF könyvjelzőket diagramlapokhoz az Aspose.Cells for .NET programban ezzel az átfogó, lépésről lépésre szóló útmutatóval.
 ### [Cellatartomány exportálása képpé az Aspose.Cells segítségével](./export-range-of-cells-to-image/)
 Ezzel a lépésről lépésre haladó útmutatóval könnyedén exportálhatsz Excel cellatartományokat képekbe az Aspose.Cells for .NET segítségével. Javítsd a jelentéseidet és prezentációidat.
+### [Nyomtatási terület beállítása és Excel munkalap exportálása PNG formátumba C#-ban](./set-print-area-and-export-excel-sheet-to-png-in-c/)
+Állítsa be a nyomtatási területet, és exportálja az Excel munkalapot PNG képként C#-ban.
 ### [Hogyan exportáljunk pivot táblát PNG formátumba C#‑ban – Lépésről lépésre útmutató](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
 Tanuld meg, hogyan exportálhatod a pivot táblákat PNG képekké C#‑ban az Aspose.Cells for .NET használatával.
 ### [Objektumhatárok rajzolása az Aspose.Cells segítségével](./get-draw-object-and-bound/)

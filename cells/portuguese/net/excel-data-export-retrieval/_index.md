@@ -60,6 +60,9 @@ Aprenda a criar uma planilha Excel a partir de um DataTable em C# usando Aspose.
 ### [Como Exportar Tabela do Excel – Guia Completo Passo a Passo](./how-to-export-excel-table-complete-step-by-step-guide/)
 Aprenda a exportar tabelas do Excel usando Aspose.Cells para .NET com este guia detalhado, ideal para todos os níveis de desenvolvedor.
 
+### [ExportTableOptions Personalizado ao Exportar como String para Excel](./custom-exporttableoptions-when-exportasstrin-for-excel/)
+Aprenda a usar ExportTableOptions personalizado ao exportar dados como string para Excel com Aspose.Cells para .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -60,6 +60,9 @@ Aspose.Cells for .NET ile C#'ta bir DataTable'dan Excel sayfası oluşturmayı �
 ### [Excel Tablosunu Dışa Aktarma – Tam Adım Adım Kılavuz](./how-to-export-excel-table-complete-step-by-step-guide/)
 Bu kapsamlı adım adım kılavuz, Aspose.Cells for .NET kullanarak bir Excel tablosunu dışa aktarmayı gösterir.
 
+### [Excel için ExportAsStrin sırasında Özel ExportTableOptions](./custom-exporttableoptions-when-exportasstrin-for-excel/)
+Aspose.Cells for .NET kullanarak ExportAsStrin metodunda ExportTableOptions ayarlarını özelleştirerek veri dışa aktarmayı öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

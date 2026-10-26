@@ -67,6 +67,8 @@ Hướng dẫn cách thêm bình luận vào ô bằng C# và tạo tệp Excel 
 Tìm hiểu cách chèn bình luận vào Excel bằng C# sử dụng SmartMarker trong Aspose.Cells cho .NET.
 ### [Cách chèn bình luận trong Excel bằng Aspose.Cells](./how-to-insert-comment-in-excel-using-aspose-cells/)
 Tìm hiểu cách chèn bình luận vào Excel bằng Aspose.Cells cho .NET. Hướng dẫn nhanh giúp bạn thêm ghi chú vào ô.
+### [Cách chèn bình luận Excel bằng Smart Markers của Aspose.Cells](./how-to-insert-excel-comment-using-aspose-cells-smart-markers/)
+Hướng dẫn chi tiết cách chèn bình luận vào tệp Excel bằng Smart Markers của Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

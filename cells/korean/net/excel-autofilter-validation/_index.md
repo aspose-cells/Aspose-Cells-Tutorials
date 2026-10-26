@@ -49,6 +49,8 @@ Aspose.Cells for .NET을 사용하여 C#에서 Excel 워크북의 첫 번째 테
 
 ### [C#에서 Excel 자동 필터 제거 – 완전 단계별 가이드](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 
+### [C#에서 Excel 자동 필터 비활성화 – 완전 가이드](./how-to-disable-autofilter-in-excel-with-c-complete-guide/)
+
 ### [C#를 사용하여 Excel 테이블에서 자동 필터 제거 – 완전 가이드](./how-to-remove-autofilter-from-excel-tables-using-c/)
 
 ### [C#으로 Excel 필터 UI 지우기 – 자동 필터 버튼 제거](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)

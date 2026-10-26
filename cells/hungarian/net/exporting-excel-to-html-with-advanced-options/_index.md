@@ -111,6 +111,9 @@ Egyszerűen beállíthat egyetlen lapfül nevét HTML exportálás során az Asp
 ### [Excel exportálása HTML-be – Teljes útmutató a befagyasztott panelek megőrzéséhez](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
 Ismerje meg, hogyan exportálhatja az Excel-fájlokat HTML-be úgy, hogy a befagyasztott panelek megmaradjanak, lépésről lépésre útmutatóval.
 
+### [Hogyan ágyazzunk be betűtípusokat HTML-be, amikor egy XLSX-et konvertálunk HTML-re az Aspose.Cells segítségével](./how-to-embed-fonts-html-when-you-convert-an-xlsx-to-html-wit/)
+Ismerje meg, hogyan ágyazhat be betűtípusokat az Excel XLSX HTML exportálásakor az Aspose.Cells .NET könyvtárral.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

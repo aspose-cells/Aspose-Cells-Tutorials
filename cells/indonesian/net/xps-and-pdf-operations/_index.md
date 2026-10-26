@@ -53,6 +53,8 @@ Pelajari cara menyimpan workbook Excel sebagai file XPS menggunakan C# dengan co
 Pelajari cara mengonversi file Excel ke format XPS menggunakan C# dengan contoh kode praktis dan langkah-langkah detail.
 ### [Cara Mengaktifkan Font Saat Mengonversi Excel ke XPS – Panduan Lengkap](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
 Pelajari cara mengaktifkan font agar tampil dengan benar saat mengonversi file Excel ke XPS menggunakan Aspose.Cells.
+### [Cara mengonversi Excel ke XPS di C# menggunakan Aspose.Cells](./how-to-convert-excel-to-xps-in-c-using-aspose-cells/)
+Pelajari cara mengonversi file Excel ke format XPS menggunakan C# dan Aspose.Cells dengan contoh kode lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -68,6 +68,8 @@ Scopri come creare un intervallo di riferimento per una pivot e esportare l'imma
 Scopri come esportare una tabella pivot di Excel in formato PNG usando Aspose.Cells per .NET con C# passo dopo passo.
 ### [Crea immagine PNG Pivot in C# – Guida completa passo passo](./create-png-pivot-image-in-c-full-step-by-step-guide/)
 Scopri come generare un'immagine PNG da una tabella pivot in C# con Aspose.Cells, passo dopo passo.
+### [Imposta area di stampa ed esporta foglio Excel in PNG con C#](./set-print-area-and-export-excel-sheet-to-png-in-c/)
+Scopri come definire l'area di stampa e salvare un foglio Excel come immagine PNG usando Aspose.Cells per .NET in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

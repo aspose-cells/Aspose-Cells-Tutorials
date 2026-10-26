@@ -73,6 +73,8 @@ Aspose.Cells を使用して .NET で Excel シートを保護および保護解
 Aspose.Cells for .NET を使用して、Excel で高度な保護設定を実装する方法を学びます。ファイルを編集できるユーザーを効果的に制御します。
 ### [Aspose.Cells を使用してワークシートのセルをロックする](./lock-cells/)
 このステップバイステップガイドでは、Aspose.Cells for .NET を使用して Excel のセルをロックする方法を学習します。詳細なコード例と簡単な手順でデータを保護します。
+### [Aspose.Cells を使用して C# で Excel のヘッダー行をロックする](./how-to-lock-excel-header-row-with-aspose-cells-in-c/)
+Aspose.Cells for .NET を使用し、C# で Excel のヘッダー行をロックし、データの改ざんを防止する手順を解説します。
 ### [Aspose.Cells を使用してワークブックの書き込み保護時に作成者を指定する](./specify-author-write-protect-workbook/)
 このステップバイステップのチュートリアルでは、Aspose.Cells for .NET を使用して Excel ブックを書き込み保護しながら作成者を指定する方法を学習します。
 

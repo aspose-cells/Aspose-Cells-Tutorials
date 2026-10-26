@@ -23,6 +23,8 @@ Aspose.Cells for .NET を使用すると、計算フィールドの追加、デ�
 
 {{< tutorial-card link="./how-to-copy-pivot-table-in-c-complete-programming-guide/" title="C#でピボットテーブルをコピーする方法 – 完全プログラミングガイド" imgSrc="./how-to-copy-pivot-table-in-c-complete-programming-guide/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-move-pivot-table-to-another-sheet-in-c-using-aspose-c/" title="C# で Aspose.Cells を使用してピボットテーブルを別シートに移動する方法" imgSrc="./how-to-move-pivot-table-to-another-sheet-in-c-using-aspose-c/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

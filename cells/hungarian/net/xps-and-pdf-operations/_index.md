@@ -52,6 +52,8 @@ Tanuld meg, hogyan konvertálj Excel fájlt XPS-be C#-ban, miközben betöltöd 
 Ismerd meg, hogyan konvertálhatod Excel fájljaidat XPS formátumba C#-ban részletes példákkal és magyarázatokkal.
 ### [Hogyan engedélyezzük a betűtípusokat Excel XPS-re konvertálásakor – Teljes útmutató](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
 Ismerd meg, hogyan aktiválhatod a betűtípusok helyes megjelenítését Excel fájlok XPS konvertálása során az Aspose.Cells segítségével.
+### [Hogyan konvertáljunk Excel-t XPS-be C#-ban az Aspose.Cells használatával](./how-to-convert-excel-to-xps-in-c-using-aspose-cells/)
+Tanuld meg, hogyan konvertálhatod az Excel fájlokat XPS formátumba C#-ban az Aspose.Cells segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

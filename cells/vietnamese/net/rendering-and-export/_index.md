@@ -68,6 +68,8 @@ Hướng dẫn cách tạo phạm vi tham chiếu cho Pivot và xuất hình ả
 Hướng dẫn chi tiết cách xuất PivotTable từ Excel sang hình ảnh PNG bằng Aspose.Cells cho .NET trong C#.
 ### [Tạo Hình Ảnh Pivot PNG trong C# – Hướng Dẫn Chi Tiết Từng Bước](./create-png-pivot-image-in-c-full-step-by-step-guide/)
 Hướng dẫn chi tiết cách tạo hình ảnh Pivot dưới dạng PNG từ Excel bằng C# sử dụng Aspose.Cells.
+### [Đặt vùng in và xuất trang tính Excel sang PNG trong C#](./set-print-area-and-export-excel-sheet-to-png-in-c/)
+Hướng dẫn cách đặt vùng in và xuất trang tính Excel thành hình ảnh PNG bằng C# sử dụng Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

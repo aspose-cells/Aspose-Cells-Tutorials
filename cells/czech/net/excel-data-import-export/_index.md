@@ -61,6 +61,8 @@ Kompletní návod, jak převést pole JSON do souboru Excel pomocí Aspose.Cells
 Naučte se převést list Excelu na DataTable v C# pomocí Aspose.Cells pro .NET. Kompletní průvodce krok za krokem.
 ### [Import JSON do Excelu s Aspose.Cells – Kompletní programovací průvodce](./import-json-to-excel-with-aspose-cells-complete-programming/)
 Kompletní průvodce, jak pomocí Aspose.Cells importovat data z JSON souborů do Excelu v .NET.
+### [Jak importovat DataTable do listu Excel pomocí C#](./how-to-import-datatable-into-an-excel-worksheet-using-c/)
+Naučte se importovat DataTable do listu Excel v C# pomocí Aspose.Cells pro .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

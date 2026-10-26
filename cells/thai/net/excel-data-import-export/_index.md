@@ -36,7 +36,6 @@
 เรียนรู้วิธีแปลงข้อมูล JSON เป็นไฟล์ Excel ด้วย C# อย่างละเอียดโดยใช้ Aspose.Cells สำหรับ .NET
 ### [วิธีส่งออก Excel ไปยัง DataTable ด้วย C# – คู่มือขั้นตอนโดยละเอียด](./how-to-export-excel-to-a-datatable-in-c-step-by-step-guide/)
 เรียนรู้วิธีส่งออกข้อมูลจากไฟล์ Excel ไปยัง DataTable ด้วย C# อย่างละเอียดโดยใช้ Aspose.Cells สำหรับ .NET
-
 ### [วิธีสร้าง Workbook – พื้นหลังสีฟ้าอ่อน, การนำเข้าข้อมูล](./how-to-create-workbook-light-blue-background-data-import/)
 เรียนรู้วิธีสร้าง Workbook ด้วยพื้นหลังสีฟ้าอ่อนและนำเข้าข้อมูลโดยใช้ Aspose.Cells สำหรับ .NET
 ### [ส่งออก JSON ไปยัง Excel ด้วย C#: คู่มือการเขียนโปรแกรมแบบครบถ้วน](./export-json-to-excel-with-c-complete-programming-guide/)
@@ -61,6 +60,8 @@
 เรียนรู้วิธีแปลง Worksheet เป็น DataTable ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET อย่างละเอียด
 ### [นำเข้า JSON ไปยัง Excel ด้วย Aspose.Cells – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./import-json-to-excel-with-aspose-cells-complete-programming/)
 เรียนรู้วิธีนำเข้า JSON ไปยัง Excel ด้วย Aspose.Cells สำหรับ .NET ในคู่มือการเขียนโปรแกรมฉบับเต็มนี้
+### [วิธีนำเข้า DataTable ไปยัง Worksheet ของ Excel ด้วย C#](./how-to-import-datatable-into-an-excel-worksheet-using-c/)
+เรียนรู้วิธีนำเข้า DataTable ไปยัง Worksheet ของ Excel ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
