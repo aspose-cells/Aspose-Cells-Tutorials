@@ -1,0 +1,7 @@
+Title: How to apply a custom number format excel in C#
+Slug: how-to-apply-a-custom-number-format-excel-in-c
+Category: excel-custom-number-date-formatting
+ProcessedDate: 2026-10-26T23:34:33.115599
+SourceRepo: AI Search API
+Keywords: custom number format excel, set significant digits, how to set number format, create excel workbook c#, save workbook xlsx
+PRNumber: 200

@@ -1,0 +1,7 @@
+Title: How to convert Excel to XPS in C# using Aspose.Cells
+Slug: how-to-convert-excel-to-xps-in-c-using-aspose-cells
+Category: xps-and-pdf-operations
+ProcessedDate: 2026-10-26T23:34:49.221718
+SourceRepo: AI Search API
+Keywords: convert excel to xps, save workbook as xps
+PRNumber: 200

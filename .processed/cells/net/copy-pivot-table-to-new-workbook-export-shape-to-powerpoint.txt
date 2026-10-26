@@ -1,0 +1,7 @@
+Title: Copy pivot table to new workbook, export shape to PowerPoint
+Slug: copy-pivot-table-to-new-workbook-export-shape-to-powerpoint
+Category: pivot-tables
+ProcessedDate: 2026-10-20T17:50:41.408167
+SourceRepo: AI Search API
+Keywords: copy pivot table to new workbook
+PRNumber: 196
