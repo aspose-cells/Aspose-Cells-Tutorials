@@ -115,6 +115,8 @@ Dowiedz się, jak programowo przesunąć komórki w górę w arkuszu Excel przy 
 ### [Jak usuwać wiersze w Excelu przy użyciu C# – zachowanie nagłówka tabeli](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
 Dowiedz się, jak usuwać wiersze w Excelu w C# zachowując nagłówek tabeli.
 ### [Jak używać Aspose.Cells do usuwania wierszy w tabeli Excel przy zachowaniu nagłówka](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
+### [Jak używać WRAPCOLS w C# i zapisać skoroszyt jako XLSX](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
+Dowiedz się, jak zastosować metodę WRAPCOLS w C# i zapisać plik jako XLSX przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

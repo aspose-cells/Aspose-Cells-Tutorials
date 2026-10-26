@@ -76,11 +76,11 @@ Fedezd fel, hogyan szúrhatsz be képeket képjelölők segítségével az Aspos
 ### [Névtelen típusok használata intelligens jelölőkkel Aspose.Cells](./use-anonymous-types-smart-markers/)
 Tanuld meg, hogyan használhatsz anonim típusokat intelligens jelölőkkel az Aspose.Cells-ben dinamikus Excel-jelentéskészítéshez .NET-ben. Kövesd az egyszerű útmutatónkat.
 ### [Másolási stílus attribútum alkalmazása az Aspose.Cells intelligens jelölőkben](./copy-style-attribute-smart-markers/)
-Fedezd fel az Aspose.Cells for .NET erejét, és tudd meg, hogyan alkalmazhatsz könnyedén másolási stílus attribútumokat az Excel Smart Markersben. Ez az átfogó oktatóanyag lépésről lépésre bemutatja a teendőket.
+Fedezd fel az Aspose.Cells for .NET erejét, és tudd meg, hogyan alkalmazhatsz könnyedén másolási stílus attribútumokat az Excel Smart Markersben. Ez az átfogó oktatóanyag lépésről‑lépésre bemutatja a teendőket.
 ### [Képletparaméter használata az Aspose.Cells intelligens jelölőmezőben](./formula-parameter-smart-marker/)
 Tanuld meg a képletparaméterek használatát az intelligens jelölőkben az Aspose.Cells for .NET segítségével. Hozz létre dinamikus táblázatokat könnyedén.
 ### [HTML tulajdonságok használata intelligens jelölőkben Aspose.Cells .NET](./html-property-smart-markers/)
-Engedd szabadjára az Aspose.Cells erejét ezzel a lépésről lépésre haladó oktatóanyaggal, amely bemutatja a HTML tulajdonság használatát az intelligens jelölőkben .NET alkalmazásokhoz.
+Engedd szabadjára az Aspose.Cells erejét ezzel a lépésről‑lépésre haladó oktatóanyaggal, amely bemutatja a HTML tulajdonság használatát az intelligens jelölőkben .NET alkalmazásokhoz.
 ### [Beágyazott objektumok kezelése intelligens jelölőkkel Aspose.Cells](./nested-objects-smart-markers/)
 Az Aspose.Cells segítségével lépésről lépésre haladva könnyen kezelheted a beágyazott objektumokat intelligens jelölők segítségével, így az Excel-jelentéskészítésben rejlő lehetőségeket is kihasználhatod.
 ### [SmartMarker alkalmazása munkalapon C#-ban – Teljes útmutató](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
@@ -106,6 +106,7 @@ Lépésről lépésre bemutatja, hogyan hozhat létre Excel sablont Smart Marker
 ### [Hogyan töltsünk be sablont és hozzunk létre Excel-jelentést SmartMarkerrel](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 
 ### [Excel jelentés generálása C#-ban – Teljes útmutató a SmartMarker használatával](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+Ismerje meg, hogyan generálhat Excel-jelentéseket C#-ban a SmartMarker használatával, részletes útmutatóval.
 
 ### [Változók helyettesítése JSON-ban SmartMarkerrel – Teljes útmutató](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 Ismerje meg, hogyan helyettesítheti a változókat JSON-ban SmartMarkerrel, hogy dinamikus adatkitöltést érjen el.
@@ -190,6 +191,13 @@ Ismerje meg, hogyan hozhat létre Excel jelentéslistát Aspose.Cells intelligen
 Ismerje meg, hogyan ismételhet munkalapokat automatikusan az Aspose.Cells segítségével, hogy hatékonyan generáljon több hasonló Excel-állományt.
 
 ### [Excel munkafüzet létrehozása programozott módon Smart Markerekkel](./create-excel-workbook-programmatically-using-smart-markers/)
+
+### [Hogyan hozhatunk létre Excel munkafüzetet programozott módon C#-ban](./how-to-create-excel-workbook-programmatically-with-c/)
+
+### [Hogyan hozzunk létre Excel munkafüzetet intelligens jelölőkkel egy dinamikus Excel jelentéshez](./how-to-create-excel-workbook-with-smart-markers-for-a-dynami/)
+
+### [Munkalap kiterjesztése intelligens jelölőkkel C#-ban Excel sablonokhoz](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

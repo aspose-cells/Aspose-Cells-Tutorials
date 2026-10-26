@@ -88,10 +88,12 @@
 
 ### [如何在 Excel 中套用數字格式（使用 Aspose.Cells）](./how-to-apply-number-format-excel-with-aspose-cells/)
 本教學說明如何使用 Aspose.Cells 為 Excel 應用自訂數字格式。
-### [格式化日期欄位 Excel – 完整 C# 指南：匯出 DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
-本教學說明如何使用 Aspose.Cells for .NET 以 C# 匯出 DataTable，並在 Excel 中格式化日期欄位。
-### [C# 中的日本曆轉換 – 完整指南](./japanese-calendar-conversion-in-c-full-guide/)
-本教學說明如何在 C# 中使用 Aspose.Cells 進行日本曆（和曆）與公曆之間的相互轉換。
+
+### [如何在 C# 中套用 Excel 自訂數字格式](./how-to-apply-a-custom-number-format-excel-in-c/)
+本教學說明如何在 C# 使用 Aspose.Cells 為 Excel 套用自訂數字格式。
+
+### [如何在 C# 中使用日本曆法 CultureInfo 寫入日期至 Excel](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
+本教學說明如何在 C# 使用日本曆法 CultureInfo 將日期寫入 Excel。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -57,6 +57,9 @@ Aspose.Cells का उपयोग करके सेल रेंज को �
 ### [Excel तालिका निर्यात कैसे करें – पूर्ण चरण‑दर‑चरण गाइड](./how-to-export-excel-table-complete-step-by-step-guide/)
 इस विस्तृत गाइड में Aspose.Cells का उपयोग करके .NET में Excel तालिका को निर्यात करने के सभी चरण सीखें।
 
+### [Excel के लिए ExportAsStrin के दौरान कस्टम ExportTableOptions](./custom-exporttableoptions-when-exportasstrin-for-excel/)
+Excel में ExportAsStrin का उपयोग करते समय कस्टम ExportTableOptions को कैसे सेट करें, यह सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

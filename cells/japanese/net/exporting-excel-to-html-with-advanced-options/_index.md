@@ -105,6 +105,10 @@ Aspose.Cells for .NET を使用して、凍結ペインを保持したまま Exc
 Aspose.Cells for .NET を使用して、Excel を HTML にエクスポートする際にフォントを埋め込む方法をステップバイステップで解説します。
 ### [HTML にフォントを埋め込む – C# で Excel を HTML に変換する](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
 Aspose.Cells for .NET を使用し、C# で Excel を HTML に変換する際にフォントを埋め込む手順をステップバイステップで解説します。
+
+### [XLSX を HTML に変換する際にフォントを埋め込む方法 – Aspose.Cells を使用](./how-to-embed-fonts-html-when-you-convert-an-xlsx-to-html-wit/)
+Aspose.Cells for .NET を使用して、XLSX ファイルを HTML に変換する際にフォントを埋め込む手順をステップバイステップで解説します。
+
 ### [Excel から HTML にフォントを埋め込む方法 – 完全ガイド](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
 Aspose.Cells for .NET を使用して、Excel から HTML にフォントを埋め込む手順をステップバイステップで解説します。
 ### [Excel を HTML にエクスポートする方法 – ステップバイステップ ガイド](./how-to-export-excel-to-html-step-by-step-guide/)

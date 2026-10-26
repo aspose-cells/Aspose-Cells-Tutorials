@@ -131,6 +131,9 @@ Scopri come salvare un file Excel in HTML mantenendo tutta la formattazione con 
 ### [Esportazione di Excel in HTML – Guida completa per preservare i riquadri congelati](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
 Scopri come mantenere i riquadri congelati durante l'esportazione di Excel in HTML con Aspose.Cells per .NET in questa guida passo passo.
 
+### [Come incorporare i font HTML quando converti un XLSX in HTML con Aspose.Cells](./how-to-embed-fonts-html-when-you-convert-an-xlsx-to-html-wit/)
+Scopri come incorporare i font nei file HTML generati da un XLSX usando Aspose.Cells per .NET, passo dopo passo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

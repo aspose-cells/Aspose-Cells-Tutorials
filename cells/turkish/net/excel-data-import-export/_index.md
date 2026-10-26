@@ -36,6 +36,8 @@ Aspose.Cells for .NET kullanarak ilk satırı aşağı kaydırmadan Excel'de Dat
 Aspose.Cells for .NET kullanarak C# ile JSON verilerini Excel dosyasına dönüştürmeyi adım adım öğrenin.
 ### [C# ile Excel'i DataTable'a Aktarma – Adım Adım Kılavuz](./how-to-export-excel-to-a-datatable-in-c-step-by-step-guide/)
 Aspose.Cells for .NET kullanarak C# ile Excel dosyasını DataTable'a nasıl aktaracağınızı adım adım öğrenin.
+### [C# ile DataTable'ı Excel çalışma sayfasına içe aktarma](./how-to-import-datatable-into-an-excel-worksheet-using-c/)
+Aspose.Cells for .NET kullanarak C# ile DataTable verilerini bir Excel çalışma sayfasına nasıl içe aktaracağınızı adım adım öğrenin.
 
 ### [Çalışma Kitabı Oluşturma – Açık Mavi Arka Plan, Veri İçe Aktarma](./how-to-create-workbook-light-blue-background-data-import/)
 Aspose.Cells for .NET kullanarak açık mavi arka planlı bir çalışma kitabı oluşturun ve veri içe aktarın.

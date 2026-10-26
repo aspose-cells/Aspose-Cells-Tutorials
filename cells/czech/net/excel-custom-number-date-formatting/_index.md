@@ -92,6 +92,10 @@ Naučte se, jak pomocí Aspose.Cells nastavit číselný formát v Excelu v C#.
 Naučte se, jak pomocí Aspose.Cells v C# formátovat datumové sloupce a exportovat DataTable do Excelu.
 ### [Konverze japonského kalendáře v C# – Kompletní průvodce](./japanese-calendar-conversion-in-c-full-guide/)
 Kompletní průvodce konverzí japonského kalendáře v C# pomocí Aspose.Cells.
+### [Jak aplikovat vlastní číselný formát v Excelu v C#](./how-to-apply-a-custom-number-format-excel-in-c/)
+Naučte se, jak pomocí Aspose.Cells v C# aplikovat vlastní číselný formát v Excelu.
+### [Jak použít japonský kalendář CultureInfo v C# k zápisu dat do Excelu](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
+Naučte se, jak pomocí Aspose.Cells v C# zapisovat data do Excelu s využitím japonského kalendáře CultureInfo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

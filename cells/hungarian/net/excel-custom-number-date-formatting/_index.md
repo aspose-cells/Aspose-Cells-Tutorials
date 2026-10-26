@@ -94,6 +94,12 @@ Ismerd meg, hogyan konvertálhatod a japán naptárat C#-ban az Aspose.Cells seg
 ### [Dátum és idő elemzése japán császári uralkodás alapján az Aspose.Cells használatával](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
 Tanulja meg, hogyan értelmezhet japán császári uralkodás szerinti dátumokat az Aspose.Cells .NET könyvtárral.
 
+### [Egyéni számformátum alkalmazása Excelben C#-ban](./how-to-apply-a-custom-number-format-excel-in-c/)
+Tanuld meg, hogyan alkalmazz egyéni számformátumot Excel fájlokban C#-ban az Aspose.Cells segítségével.
+
+### [Hogyan használjuk a japán naptár CultureInfo-t C#-ban dátumok írásához Excelben](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
+Tanuld meg, hogyan írj dátumokat Excelbe a japán naptár CultureInfo használatával C#-ban az Aspose.Cells segítségével.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

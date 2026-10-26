@@ -72,6 +72,8 @@
 了解如何使用 Aspose.Cells for .NET 在 Excel 中实现高级保护设置。有效控制谁可以编辑您的文件。
 ### [使用 Aspose.Cells 锁定工作表中的单元格](./lock-cells/)
 通过本分步指南学习如何使用 Aspose.Cells for .NET 锁定 Excel 单元格。通过详细的代码示例和简单的说明保护您的数据。
+### [使用 Aspose.Cells 在 C# 中锁定 Excel 表头行](./how-to-lock-excel-header-row-with-aspose-cells-in-c/)
+学习如何使用 Aspose.Cells for .NET 在 C# 中锁定 Excel 工作表的表头行，防止其被编辑。
 ### [使用 Aspose.Cells 写入保护工作簿时指定作者](./specify-author-write-protect-workbook/)
 在本分步教程中学习如何使用 Aspose.Cells for .NET 在写保护 Excel 工作簿时指定作者。
 

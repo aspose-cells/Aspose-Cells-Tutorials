@@ -111,8 +111,8 @@ Tìm hiểu cách chèn nhiều hàng nhanh chóng trong GridJs với hướng d
 Hướng dẫn chi tiết cách dùng WRAPCOLS để tạo bố cục hai cột trong Excel bằng C#.
 ### [Cách sử dụng wrapcols trong C# – Hướng dẫn đầy đủ với Excel WRAPROWS & Tính lại công thức](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Hướng dẫn chi tiết cách dùng wrapcols trong C#, kết hợp với Excel WRAPROWS và cách tính lại công thức một cách hiệu quả.
+### [Cách sử dụng WRAPCOLS trong C# và lưu workbook dưới dạng XLSX](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
 ### [Di chuyển ô lên trong Excel bằng C# – Hướng dẫn đầy đủ](./shift-cells-up-in-excel-with-c-complete-guide/)
-Hướng dẫn chi tiết cách dịch chuyển ô lên trong Excel bằng C#, bao gồm các bước thực hiện và ví dụ mã nguồn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

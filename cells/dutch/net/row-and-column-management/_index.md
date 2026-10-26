@@ -54,7 +54,7 @@ Leer hoe u rijen en kolommen in Excel kunt groeperen met Aspose.Cells voor .NET 
 Leer hoe u een samenvattingsrij onder gegroepeerde rijen in Excel maakt met Aspose.Cells voor .NET. Inclusief stapsgewijze handleiding.
 ### [Maak een samenvattingsrij rechts met Aspose.Cells voor .NET](./summary-row-right/)
 Leer hoe je een samenvattingsrij rechts in Excel maakt met Aspose.Cells voor .NET. Volg onze stapsgewijze handleiding voor duidelijke instructies.
-### [Rijen en kolommen in Excel degroeperen met Aspose.Cells](./ungrouping-rows-and-columns/)
+### [Rijen en kolommen in Excel degroeperen met Aspose.Cells .NET](./ungrouping-rows-and-columns/)
 Leer hoe u rijen en kolommen in Excel kunt degroeperen met Aspose.Cells voor .NET met deze uitgebreide handleiding. Vereenvoudig uw Excel-gegevensmanipulatie.
 ### [Meerdere rijen en kolommen verbergen in Aspose.Cells .NET](./hide-multiple-rows-columns-aspose-cells/)
 Leer hoe u eenvoudig meerdere rijen en kolommen in Excel kunt verbergen met Aspose.Cells voor .NET. Volg deze stapsgewijze handleiding voor naadloze Excel-bewerking.
@@ -110,6 +110,8 @@ Leer hoe u met GridJs meerdere rijen in één keer kunt toevoegen via een eenvou
 
 ### [Hoe wrapcols te gebruiken in C# – Volledige gids met Excel WRAPROWS & Formules opnieuw berekenen](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Ontdek hoe u wrapcols en wraprows in Excel kunt toepassen en formules automatisch laat herberekenen met Aspose.Cells voor .NET.
+### [Hoe WRAPCOLS te gebruiken in C# en werkmap opslaan als XLSX](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
+Leer hoe u WRAPCOLS in C# toepast en de werkmap opslaat als XLSX met Aspose.Cells voor .NET.
 ### [Cellen omhoog verschuiven in Excel met C# – Complete gids](./shift-cells-up-in-excel-with-c-complete-guide/)
 Leer hoe u met C# cellen in een Excel-werkblad omhoog verschuift met Aspose.Cells, stap voor stap uitgelegd.
 

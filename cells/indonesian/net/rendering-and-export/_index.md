@@ -68,6 +68,8 @@ Pelajari cara merender halaman berurutan di Excel dengan Aspose.Cells for .NET. 
 Pelajari cara membuat rentang referensi pivot dan mengekspor gambar tabel pivot ke format PNG menggunakan Aspose.Cells for .NET.
 ### [Cara Mengekspor Pivot ke PNG di C# – Panduan Langkah‑ demi‑Langkah](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
 Pelajari cara mengekspor tabel pivot ke format PNG menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah yang mudah diikuti.
+### [Atur area cetak dan ekspor lembar Excel ke PNG dalam C#](./set-print-area-and-export-excel-sheet-to-png-in-c/)
+Pelajari cara mengatur area cetak dan mengekspor lembar kerja Excel menjadi gambar PNG menggunakan Aspose.Cells for .NET dalam C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

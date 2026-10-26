@@ -52,6 +52,8 @@
 تعلم كيفية تحويل ملفات Excel إلى XPS باستخدام C# مع شرح مفصل وأمثلة كود عملية.
 ### [كيفية تمكين الخطوط عند تحويل Excel إلى XPS – دليل كامل](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
 تعلم كيفية تمكين الخطوط أثناء تحويل ملفات Excel إلى XPS باستخدام Aspose.Cells لضمان مظهر المستندات الصحيح.
+### [كيفية تحويل Excel إلى XPS باستخدام C# و Aspose.Cells](./how-to-convert-excel-to-xps-in-c-using-aspose-cells/)
+تعلم كيفية تحويل ملفات Excel إلى XPS باستخدام C# و Aspose.Cells خطوة بخطوة مع أمثلة عملية.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

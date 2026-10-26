@@ -23,6 +23,8 @@ Met Aspose.Cells voor .NET kunt u draaitabellen volledig aanpassen door berekend
 
 {{< tutorial-card link="./how-to-copy-pivot-table-in-c-complete-programming-guide/" title="Hoe een draaitabel te kopiëren in C# – Complete programmeergids" imgSrc="./how-to-copy-pivot-table-in-c-complete-programming-guide/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-move-pivot-table-to-another-sheet-in-c-using-aspose-c/" title="Hoe een draaitabel naar een ander blad te verplaatsen in C# met Aspose.Cells" imgSrc="./how-to-move-pivot-table-to-another-sheet-in-c-using-aspose-c/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

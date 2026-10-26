@@ -85,6 +85,9 @@
 ### [Встраивание шрифтов в HTML при экспорте Excel – Полное руководство C#](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
 Узнайте, как встраивать шрифты в HTML при экспорте из Excel с помощью Aspose.Cells для .NET на C# в полном пошаговом руководстве.
 
+### [Как внедрить шрифты в HTML при конвертации XLSX в HTML с Aspose.Cells](./how-to-embed-fonts-html-when-you-convert-an-xlsx-to-html-wit/)
+Узнайте, как внедрить шрифты в HTML при конвертации XLSX в HTML с помощью Aspose.Cells для .NET.
+
 ### [Как внедрить шрифты в HTML – Полное руководство на C#](./how-to-embed-fonts-in-html-complete-c-guide/)
 Узнайте, как программно внедрять шрифты в HTML при экспорте из Excel с помощью Aspose.Cells для .NET на C# в полном пошаговом руководстве.
 

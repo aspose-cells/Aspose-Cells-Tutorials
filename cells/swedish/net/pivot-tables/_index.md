@@ -23,6 +23,8 @@ Med Aspose.Cells för .NET kan du helt anpassa pivottabeller genom att lägga ti
 
 {{< tutorial-card link="./how-to-copy-pivot-table-in-c-complete-programming-guide/" title="Hur man kopierar pivottabell i C# – Komplett programmeringsguide" imgSrc="./how-to-copy-pivot-table-in-c-complete-programming-guide/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-move-pivot-table-to-another-sheet-in-c-using-aspose-c/" title="Hur man flyttar pivottabell till ett annat blad i C# med Aspose.Cells" imgSrc="./how-to-move-pivot-table-to-another-sheet-in-c-using-aspose-c/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

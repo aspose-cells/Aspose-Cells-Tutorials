@@ -63,6 +63,8 @@ Aspose.Cells for .NET を使用して、C# でスマートマーカーを活用�
 Aspose.Cells for .NET を使用して、プログラムからExcelファイルを作成し、コメントを追加してXLSX形式で保存する方法を学びます。
 ### [Aspose.Cells スマートマーカーで Excel にコメントセルを追加する](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
 Aspose.Cells のスマートマーカー機能を使い、Excel シートにコメントセルを自動的に挿入する方法を学びます。
+### [Aspose.Cells スマートマーカーで Excel にコメントを挿入する方法](./how-to-insert-excel-comment-using-aspose-cells-smart-markers/)
+Aspose.Cells for .NET のスマートマーカー機能を活用し、Excel にコメントを自動的に挿入する手順を解説します。
 ### [C# でセルにコメントを追加 – データから Excel を生成](./add-comment-to-cell-in-c-generate-excel-from-data/)
 Aspose.Cells for .NET を使い、データから生成した Excel のセルにコメントを追加する手順を学びます。
 ### [C#でExcelコメントを挿入する – 完全SmartMarkerガイド](./insert-excel-comment-with-c-complete-smartmarker-guide/)

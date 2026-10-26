@@ -34,6 +34,8 @@ Bu eğitim, formül alanlarının bütünlüğünü koruyarak veri kümelerinizi
 Bu adım adım eğitimle Aspose.Cells for .NET'i kullanarak Excel hücre değerlerinin özel sayı biçimlerine göre nasıl kontrol edileceğini öğrenin.
 ### [Aspose.Cells ile Excel'de Sayı Biçimini Uygulama](./how-to-apply-number-format-excel-with-aspose-cells/)
 Aspose.Cells kullanarak Excel'de sayı biçimini nasıl uygulayacağınızı adım adım öğrenin.
+### [C# ile Excel'de Özel Sayı Biçimi Uygulama](./how-to-apply-a-custom-number-format-excel-in-c/)
+C# ile Excel'de özel sayı biçimi uygulamayı öğrenin.
 ### [Excel Sayfasına Veri Aktarırken Formül Alanlarını Belirleyin](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Bu detaylı eğitimde, Aspose.Cells for .NET kullanarak belirtilen formül alanlarına sahip Excel sayfalarına veri aktarmayı öğrenin.
 ### [C# ile Excel'de Tarih Biçimini Ayarlama – Tam İçe Aktarma Biçimlendirme Kılavuzu](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
@@ -101,6 +103,7 @@ Aspose.Cells for .NET kullanarak C# ile Excel çalışma kitabı oluşturup, say
 Bu kapsamlı eğitimde, Aspose.Cells for .NET kullanarak DataTable'ı Excel'e dışa aktarırken tarih sütunlarını nasıl biçimlendireceğinizi öğrenin.
 ### [C#'ta Japon Takvim Dönüşümü – Tam Kılavuz](./japanese-calendar-conversion-in-c-full-guide/)
 Aspose.Cells for .NET kullanarak C# ile Japon takvimine dönüştürme ve tarih işlemlerini nasıl yapacağınızı öğrenin.
+### [C#'ta Japon takvim CultureInfo kullanarak tarihleri Excel'e yazma](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

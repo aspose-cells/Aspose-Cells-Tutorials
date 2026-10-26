@@ -48,6 +48,8 @@ Leer hoe je Excel-grafieken exporteert naar PowerPoint met C#, stap voor stap me
 Leer hoe je Excel-grafieken exporteert als PNG en ze omzet naar HTML met Aspose.Cells in deze uitgebreide handleiding.
 ### [Export Excel-grafiek naar PowerPoint met C# – volledige Aspose.Cells-gids](./export-excel-chart-to-powerpoint-with-c-complete-aspose-cell/)
 Leer hoe je een Excel-grafiek exporteert naar PowerPoint met C# met behulp van Aspose.Cells. Volg de stapsgewijze handleiding.
+### [Hoe Excel-grafieken exporteren naar PowerPoint met C#](./how-to-export-excel-charts-to-powerpoint-using-c/)
+Leer hoe je Excel‑grafieken exporteert naar PowerPoint met C# in een stap‑voor‑stap‑handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

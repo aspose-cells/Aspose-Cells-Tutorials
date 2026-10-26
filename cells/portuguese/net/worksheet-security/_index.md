@@ -71,9 +71,11 @@ Aprenda como desproteger planilhas do Excel sem esforço usando o Aspose.Cells p
 ### [Implementar configurações de proteção avançadas em planilha usando Aspose.Cells](./implement-advanced-protection-settings/)
 Aprenda a implementar configurações avançadas de proteção de planilhas no Excel usando o Aspose.Cells para .NET neste guia abrangente passo a passo.
 ### [Implementar configurações de proteção avançadas com código de exemplo usando Aspose.Cells](./advanced-protection-settings-example-code/)
-Aprenda a implementar configurações de proteção avançadas no Excel usando o Aspose.Cells para .NET. Controle quem pode editar seus arquivos com eficiência.
+Aprenda a implementar configurações avançadas no Excel usando o Aspose.Cells para .NET. Controle quem pode editar seus arquivos com eficiência.
 ### [Bloquear células na planilha usando Aspose.Cells](./lock-cells/)
 Aprenda a bloquear células no Excel usando o Aspose.Cells para .NET com este guia passo a passo. Proteja seus dados com exemplos de código detalhados e instruções fáceis.
+### [Como bloquear a linha de cabeçalho do Excel com Aspose.Cells em C#](./how-to-lock-excel-header-row-with-aspose-cells-in-c/)
+Aprenda a bloquear a linha de cabeçalho de uma planilha Excel usando Aspose.Cells para .NET com C# passo a passo.
 ### [Especifique o autor ao proteger a pasta de trabalho contra gravação usando Aspose.Cells](./specify-author-write-protect-workbook/)
 Aprenda como especificar um autor ao proteger contra gravação uma pasta de trabalho do Excel usando o Aspose.Cells para .NET neste tutorial passo a passo.
 

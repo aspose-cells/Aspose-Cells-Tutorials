@@ -71,6 +71,8 @@ Leer hoe u geavanceerde werkbladbeveiligingsinstellingen in Excel implementeert 
 Leer hoe u geavanceerde beveiligingsinstellingen in Excel implementeert met Aspose.Cells voor .NET. Bepaal wie uw bestanden effectief mag bewerken.
 ### [Cellen in werkblad vergrendelen met Aspose.Cells](./lock-cells/)
 Leer hoe je cellen in Excel vergrendelt met Aspose.Cells voor .NET met deze stapsgewijze handleiding. Bescherm je gegevens met gedetailleerde codevoorbeelden en eenvoudige instructies.
+### [Hoe een Excel‑koprij vergrendelen met Aspose.Cells in C#](./how-to-lock-excel-header-row-with-aspose-cells-in-c/)
+Leer hoe u de headerrij van een Excel-werkblad kunt vergrendelen met Aspose.Cells in C#.
 ### [Geef auteur op tijdens schrijfbeveiliging van werkmap met Aspose.Cells](./specify-author-write-protect-workbook/)
 Leer in deze stapsgewijze zelfstudie hoe u een auteur kunt opgeven en schrijfbeveiliging kunt toepassen op een Excel-werkmap met Aspose.Cells voor .NET.
 ### [Wachtwoord toevoegen aan Excel – Complete gids voor bladbeveiliging](./add-password-to-excel-complete-sheet-protection-guide/)

@@ -68,6 +68,8 @@ Aspose.Cells for .NET — это мощный инструмент, которы
 Узнайте, как экспортировать изображение сводной таблицы в формате PNG, используя диапазон ссылок в Aspose.Cells для .NET.
 ### [Создание PNG‑изображения сводной таблицы в C# – Полное пошаговое руководство](./create-png-pivot-image-in-c-full-step-by-step-guide/)
 Узнайте, как с помощью Aspose.Cells для .NET создать PNG‑изображение сводной таблицы в C# шаг за шагом.
+### [Установить область печати и экспортировать лист Excel в PNG на C#](./set-print-area-and-export-excel-sheet-to-png-in-c/)
+Узнайте, как задать область печати и экспортировать лист Excel в PNG с помощью Aspose.Cells для .NET на C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

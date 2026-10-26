@@ -48,6 +48,8 @@
 Узнайте, как экспортировать диаграмму Excel в PNG и преобразовать её в HTML с помощью Aspose.Cells, следуя пошаговым инструкциям.
 ### [Экспорт диаграммы Excel в PowerPoint с C# – полное руководство Aspose.Cells](./export-excel-chart-to-powerpoint-with-c-complete-aspose-cell/)
 Узнайте, как экспортировать диаграммы Excel в презентацию PowerPoint с помощью C# и Aspose.Cells, следуя пошаговому полному руководству.
+### [Экспорт диаграмм Excel в PowerPoint с C#](./how-to-export-excel-charts-to-powerpoint-using-c/)
+Узнайте, как экспортировать диаграммы Excel в презентацию PowerPoint с помощью C# и Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

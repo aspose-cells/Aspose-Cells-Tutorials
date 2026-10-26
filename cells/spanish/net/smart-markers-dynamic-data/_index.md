@@ -24,7 +24,7 @@ Imagine que desea una etiqueta única para cada celda de un informe. Con los Mar
 Si gestiona grandes cantidades de datos distribuidos en varias hojas, esta función es revolucionaria. Aspose.Cells le permite rellenar automáticamente los datos en varias hojas de cálculo de forma eficiente, lo que agiliza y simplifica la gestión de datos. Puede optimizar los flujos de trabajo transfiriendo automáticamente los datos a las celdas correctas. [Leer más](./auto-populate-data-smart-markers/)
 
 ## Insertar imágenes con marcadores de imagen
-¡Los elementos visuales dan vida a los informes! Con Aspose.Cells, puedes insertar imágenes en tus archivos de Excel usando marcadores de imagen. Aprende a integrar elementos visuales directamente en tus celdas de Excel para crear un informe más informativo y visualmente atractivo que impresione a tu audiencia. [Leer más](./insert-images-smart-markers/)
+¡Los elementos visuales dan vida a los informes! Con Aspose.Cells, puedes insertar imágenes en tus archivos de Excel usando marcadores de imagen. Aprende a integrar elementos visuales directamente en tus celdas de Excel para crear un informe más informativo y visualmente atractivo que impresione a su audiencia. [Leer más](./insert-images-smart-markers/)
 
 ## Usar fórmulas dinámicas en marcadores inteligentes
 Las fórmulas pueden automatizar los cálculos, simplificando la gestión de datos. Con Aspose.Cells, puede usar fórmulas dinámicas en marcadores inteligentes, lo que permite que los cálculos se actualicen automáticamente al añadir nuevos datos. Esta función ayuda a crear informes que se adaptan perfectamente a los cambios de datos, ahorrando tiempo y mejorando la precisión. [Leer más](./dynamic-formulas-smart-markers/)
@@ -57,8 +57,17 @@ La flexibilidad de las Listas Genéricas permite a los desarrolladores gestionar
 ### [Crear hojas de cálculo dinámicas con marcadores inteligentes en Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 Aprenda a generar hojas de cálculo dinámicas con marcadores inteligentes en Aspose.Cells para .NET, facilitando la organización y actualización de datos.
 
-### [Crear libro de Excel programáticamente usando Smart Markers](./create-excel-workbook-programmatically-using-smart-markers/)
+### [Expandir hoja de cálculo con marcadores inteligentes en C# para plantillas de Excel](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
+Aprenda a expandir hojas de cálculo mediante marcadores inteligentes en C# para plantillas de Excel.
+
+### [Crear libro de Excel programáticamente usando Smart Markers](./create-excel-programmatically-using-smart-markers/)
 Aprenda a crear un libro de Excel mediante Smart Markers de forma programática con Aspose.Cells para .NET.
+
+### [Cómo crear un libro de Excel con marcadores inteligentes para un informe dinámico](./how-to-create-excel-workbook-with-smart-markers-for-a-dynami/)
+Aprenda a generar un libro de Excel con marcadores inteligentes para crear informes dinámicos y personalizados.
+
+### [Cómo crear un libro de Excel programáticamente con C#](./how-to-create-excel-workbook-programmatically-with-c/)
+Aprenda a generar un libro de Excel de forma programática utilizando C# y Aspose.Cells.
 
 ### [Agregar etiquetas personalizadas con marcadores inteligentes en Aspose.Cells](./add-custom-labels-smart-markers/)
 Descubra el potencial de Aspose.Cells para .NET y agregue etiquetas personalizadas y marcadores inteligentes a sus documentos de Excel. Siga este tutorial paso a paso y cree informes dinámicos y visualmente atractivos.

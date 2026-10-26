@@ -86,6 +86,8 @@ Ismerje meg, hogyan hozhat létre kétoszlopos elrendezést a WRAPCOLS funkcióv
 Ismerje meg, hogyan adhat hozzá több sort egyszerre a GridJs táblázathoz gyors és hatékony módon.
 ### [Hogyan használja a wrapcols-t C#-ban – Teljes útmutató az Excel WRAPROWS és képletek újraszámítása](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Ismerje meg, hogyan alkalmazhatja a wrapcols függvényt C#-ban, az Excel WRAPROWS használatával és a képletek újraszámításával.
+### [Hogyan használja a WRAPCOLS-t C#-ban és menti a munkafüzetet XLSX formátumban](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
+Ismerje meg, hogyan használhatja a wrapcols funkciót C#-ban, és mentheti a munkafüzetet XLSX formátumban.
 ### [Oszlop beszúrása az Aspose.Cells .NET-be](./insert-column-aspose-cells/)
 Tanuld meg, hogyan szúrhatsz be oszlopot Excelben az Aspose.Cells for .NET használatával. Kövesd egyszerű, lépésről lépésre szóló útmutatónkat egy új oszlop zökkenőmentes hozzáadásához. Tökéletes .NET fejlesztők számára.
 ### [Sor beszúrása az Aspose.Cells .NET-be](./insert-row-aspose-cells/)

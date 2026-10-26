@@ -38,6 +38,9 @@ Learn how to export Excel data in C# using Aspose.Cells for .NET, with a detaile
 ### [Export worksheet range in C# – Complete Programming Guide](./export-worksheet-range-in-c-complete-programming-guide/)
 Learn how to export a specific worksheet range to various formats using Aspose.Cells for .NET in C#.
 
+### [Custom ExportTableOptions when ExportAsStrin for Excel](./custom-exporttableoptions-when-exportasstrin-for-excel/)
+Learn how to customize ExportTableOptions with ExportAsString for Excel using Aspose.Cells for .NET.
+
 
 
 

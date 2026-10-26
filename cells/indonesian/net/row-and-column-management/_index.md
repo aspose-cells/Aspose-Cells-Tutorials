@@ -82,12 +82,10 @@ Panduan langkah demi langkah untuk menghapus seluruh baris dari file Excel mengg
 Pelajari cara menghasilkan baris secara dinamis di Excel dengan mengulang item menggunakan C# dan Aspose.Cells.
 ### [Cara Menyisipkan Baris di GridJs – Menambahkan Beberapa Baris ke Grid dengan Efisien](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 Pelajari cara menambahkan beberapa baris secara efisien ke GridJs dengan contoh kode praktis.
-### [Cara Menggunakan WRAPCOLS: Membuat Tata Letak Dua Kolom di C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
-Pelajari cara menggunakan metode WRAPCOLS untuk membuat tata letak dua kolom dalam file Excel menggunakan C# dengan contoh kode lengkap.
-### [Cara Menyisipkan Baris di GridJs – Tambahkan Beberapa Baris dengan Cepat](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
-Pelajari cara menambahkan beberapa baris sekaligus di GridJs dengan cepat melalui contoh kode praktis.
-### [Cara Menggunakan wrapcols di C# – Panduan Lengkap dengan Excel WRAPROWS & Menghitung Ulang Rumus](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+### [Cara Menggunakan WRAPCOLS: Membuat Tata Letak Dua Kolom di C#](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Pelajari cara menggunakan wrapcols di C#, menggabungkan Excel WRAPROWS, dan menghitung ulang rumus secara otomatis dalam panduan lengkap ini.
+### [Cara Menggunakan WRAPCOLS di C# dan Menyimpan Workbook sebagai XLSX](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
+Panduan langkah demi langkah menggunakan WRAPCOLS di C# untuk mengatur kolom dan menyimpan file sebagai XLSX dengan Aspose.Cells.
 ### [Menyisipkan Kolom di Aspose.Cells .NET](./insert-column-aspose-cells/)
 Pelajari cara menyisipkan kolom di Excel menggunakan Aspose.Cells untuk .NET. Ikuti panduan langkah demi langkah kami yang mudah untuk menambahkan kolom baru dengan mudah. Sempurna untuk pengembang .NET.
 ### [Menyisipkan Baris di Aspose.Cells .NET](./insert-row-aspose-cells/)

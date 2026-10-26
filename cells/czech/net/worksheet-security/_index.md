@@ -73,6 +73,8 @@ Naučte se v tomto komplexním průvodci krok za krokem implementovat pokročil�
 Naučte se, jak implementovat pokročilá nastavení ochrany v Excelu pomocí Aspose.Cells pro .NET. Efektivně kontrolujte, kdo může upravovat vaše soubory.
 ### [Uzamknutí buněk v pracovním listu pomocí Aspose.Cells](./lock-cells/)
 Naučte se, jak uzamknout buňky v Excelu pomocí Aspose.Cells pro .NET v tomto podrobném návodu. Chraňte svá data pomocí podrobných příkladů kódu a snadných pokynů.
+### [Jak zamknout řádek záhlaví v Excelu pomocí Aspose.Cells v C#](./how-to-lock-excel-header-row-with-aspose-cells-in-c/)
+Naučte se, jak zamknout řádek záhlaví v Excelu pomocí Aspose.Cells pro .NET, aby byl chráněn před úpravami.
 ### [Zadejte autora při ochraně sešitu proti zápisu pomocí Aspose.Cells](./specify-author-write-protect-workbook/)
 V tomto podrobném tutoriálu se naučíte, jak zadat autora a zároveň chránit sešit aplikace Excel proti zápisu pomocí Aspose.Cells pro .NET.
 

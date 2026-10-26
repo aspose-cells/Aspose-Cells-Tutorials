@@ -42,14 +42,8 @@
 ### [C# के साथ Excel में टिप्पणी जोड़ें – पूर्ण चरण‑दर‑चरण गाइड](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
 .NET के लिए Aspose.Cells का उपयोग करके C# के साथ Excel में टिप्पणी जोड़ना सीखें। पूर्ण चरण‑दर‑चरण गाइड।
 
-
-
-
 ### [C# के साथ Excel में टिप्पणी डालें – चरण‑दर‑चरण गाइड](./insert-comment-into-excel-with-c-step-by-step-guide/)
 C# का उपयोग करके Excel में टिप्पणी डालने की पूरी प्रक्रिया सीखें।
-
-
-
 
 ### [Excel वर्कबुक बनाएं C# – टिप्पणी जोड़ें और XLSX के रूप में सहेजें](./create-excel-workbook-c-add-comment-save-as-xlsx/)
 .NET के लिए Aspose.Cells का उपयोग करके Excel वर्कबुक बनाएं, टिप्पणी जोड़ें और XLSX फ़ाइल के रूप में सहेजें।
@@ -64,6 +58,8 @@ C# में स्मार्ट मार्कर्स का उपयो�
 .NET के लिए Aspose.Cells का उपयोग करके डेटा से Excel बनाते समय C# में सेल में टिप्पणी कैसे जोड़ें, सीखें।
 ### [C# के साथ Excel टिप्पणी सम्मिलित करें – पूर्ण SmartMarker गाइड](./insert-excel-comment-with-c-complete-smartmarker-guide/)
 .NET के लिए Aspose.Cells का उपयोग करके C# में SmartMarker के साथ Excel टिप्पणी जोड़ना सीखें।
+### [Aspose.Cells स्मार्ट मार्कर्स के साथ Excel टिप्पणी डालें](./how-to-insert-excel-comment-using-aspose-cells-smart-markers/)
+.NET के लिए Aspose.Cells स्मार्ट मार्कर्स का उपयोग करके Excel में टिप्पणी डालना सीखें। अपनी स्प्रेडशीट को आसानी से एनोटेट करें।
 ### [Aspose.Cells का उपयोग करके Excel में टिप्पणी कैसे डालें](./how-to-insert-comment-in-excel-using-aspose-cells/)
 .NET के लिए Aspose.Cells का उपयोग करके Excel में टिप्पणी जोड़ना सीखें। अपनी स्प्रेडशीट को सरलता से एनोटेट करें।
 

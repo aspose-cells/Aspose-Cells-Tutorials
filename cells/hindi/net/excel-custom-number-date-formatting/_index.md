@@ -89,6 +89,10 @@ C# का उपयोग करके Excel में तिथि स्वर
 इस ट्यूटोरियल में .NET के लिए Aspose.Cells का उपयोग करके DataTable को Excel में निर्यात करते समय तिथि कॉलम को फ़ॉर्मेट करने की पूरी प्रक्रिया सीखें।
 ### [C# में जापानी कैलेंडर रूपांतरण – पूर्ण गाइड](./japanese-calendar-conversion-in-c-full-guide/)
 इस गाइड में .NET के लिए Aspose.Cells का उपयोग करके C# में जापानी कैलेंडर रूपांतरण की पूरी प्रक्रिया सीखें।
+### [C# में Excel में कस्टम नंबर फ़ॉर्मेट कैसे लागू करें](./how-to-apply-a-custom-number-format-excel-in-c/)
+C# के साथ Aspose.Cells का उपयोग करके Excel में कस्टम नंबर फ़ॉर्मेट लागू करने की पूरी गाइड।
+### [C# में जापानी कैलेंडर CultureInfo का उपयोग करके Excel में तिथियां लिखना](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
+C# और Aspose.Cells के साथ जापानी कैलेंडर CultureInfo का उपयोग करके Excel में तिथियां लिखने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

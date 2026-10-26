@@ -93,14 +93,24 @@
 เรียนรู้วิธีลบแถวในตาราง Excel ด้วย C# อย่างละเอียดตามขั้นตอน
 ### [แทรกแถวใน Excel ด้วย C# – คู่มือทีละขั้นตอน](./insert-rows-in-excel-with-c-step-by-step-guide/)
 เรียนรู้วิธีแทรกแถวในไฟล์ Excel ด้วย C# ผ่านคำแนะนำทีละขั้นตอนจาก Aspose.Cells สำหรับ .NET
-### [วิธีใช้ WRAPCOLS: สร้างเค้าโครงสองคอลัมน์ใน C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+### [วิธีใช้ WRAPCOLS: สร้างเค้าโครงสองคอลัมน์ใน C#](./how-to-use-wrapcols-in-c/)
+เรียนรู้วิธีใช้ WRAPCOLS เพื่อสร้างเค้าโครงสองคอลัมน์ใน C# ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด
+### [วิธีแทรกแถวใน GridJs – เพิ่มหลายแถวอย่างมีประสิทธิภาพ](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+เรียนรู้วิธีแทรกหลายแถวใน GridJs อย่างมีประสิทธิภาพด้วยขั้นตอนที่เข้าใจง่ายสำหรับนักพัฒนา
+### [ลบแถวในตาราง Excel ด้วย C# – คู่มือขั้นตอนโดยละเอียด](./delete-rows-excel-table-with-c-step-by-step-guide/)
+เรียนรู้วิธีลบแถวในตาราง Excel ด้วย C# อย่างละเอียดตามขั้นตอน
+### [แทรกแถวใน Excel ด้วย C# – คู่มือทีละขั้นตอน](./insert-rows-in-excel-with-c-step-by-step-guide/)
+เรียนรู้วิธีแทรกแถวในไฟล์ Excel ด้วย C# ผ่านคำแนะนำทีละขั้นตอนจาก Aspose.Cells สำหรับ .NET
+### [วิธีใช้ WRAPCOLS: สร้างเค้าโครงสองคอลัมน์ใน C#](./how-to-use-wrapcols-in-c/)
 เรียนรู้วิธีใช้ WRAPCOLS เพื่อสร้างเค้าโครงสองคอลัมน์ใน C# ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด
 ### [วิธีแทรกแถวใน GridJs – เพิ่มหลายแถวอย่างรวดเร็ว](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 เรียนรู้วิธีเพิ่มหลายแถวใน GridJs อย่างรวดเร็วด้วยขั้นตอนง่าย ๆ สำหรับนักพัฒนา
 ### [วิธีใช้ wrapcols ใน C# – คู่มือเต็มกับ Excel WRAPROWS & การคำนวณสูตรใหม่](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 เรียนรู้วิธีใช้ wrapcols ใน C# พร้อม WRAPROWS และการคำนวณสูตรใหม่ใน Excel อย่างละเอียด
-### [เลื่อนเซลล์ขึ้นใน Excel ด้วย C# – คู่มือฉบับสมบูรณ์](./shift-cells-up-in-excel-with-c-complete-guide/)
-เรียนรู้วิธีเลื่อนเซลล์ขึ้นในไฟล์ Excel ด้วย C# อย่างละเอียด ด้วยขั้นตอนและโค้ดตัวอย่างที่เข้าใจง่าย
+### [วิธีใช้ WRAPCOLS ใน C# และบันทึกเวิร์กบุ๊กเป็น XLSX](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
+เรียนรู้วิธีใช้ WRAPCOLS ใน C# และบันทึกเวิร์กบุ๊กเป็นไฟล์ XLSX ด้วย Aspose.Cells อย่างละเอียด
+### [เลื่อนเซลล์ขึ้นใน Excelด้วย C# – คู่มือฉบับสมบูรณ์](./shift-cells-up-in-excel-with-c-complete-guide/)
+เรียนรู้วิธีเลื่อนเซลล์ขึ้นในไฟล์ Excelด้วย C# อย่างละเอียด ด้วยขั้นตอนและโค้ดตัวอย่างที่เข้าใจง่าย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

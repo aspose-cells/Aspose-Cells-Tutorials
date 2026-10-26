@@ -42,6 +42,8 @@ Learn how to format numbers with separators in C# using Aspose.Cells, with a com
 Learn how to convert Excel dates to ISO format in C# using Aspose.Cells, with a complete step-by-step guide.
 ### [Apply Custom Number Format in C# Spreadsheet Export – Step‑by‑Step Guide](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
 Learn how to apply custom number formats when exporting spreadsheets in C# using Aspose.Cells for .NET in this step‑by‑step guide.
+### [How to apply a custom number format excel in C#](./how-to-apply-a-custom-number-format-excel-in-c/)
+Learn how to apply a custom number format in Excel using C# with Aspose.Cells for .NET in this step‑by‑step guide.
 ### [How to apply number format excel with Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
 Learn how to apply number formats in Excel using Aspose.Cells for .NET with this comprehensive step-by-step guide.
 ### [Write datetime to Excel – Complete Guide for C# Developers](./write-datetime-to-excel-complete-guide-for-c-developers/)
@@ -92,6 +94,8 @@ Learn how to create an Excel workbook in C# and limit significant digits using A
 Learn how to format date columns and export a DataTable to Excel using Aspose.Cells for .NET in this comprehensive C# guide.
 ### [Japanese Calendar Conversion in C# – Full Guide](./japanese-calendar-conversion-in-c-full-guide/)
 Learn how to convert Japanese calendar dates in C# using Aspose.Cells for .NET in this comprehensive full guide.
+### [How to use Japanese calendar CultureInfo in C# to write dates to Excel](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
+Learn how to use Japanese calendar CultureInfo in C# to write dates to Excel with Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

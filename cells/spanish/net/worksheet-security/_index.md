@@ -75,6 +75,8 @@ Aprenda a implementar opciones de protección avanzadas en Excel con Aspose.Cell
 Aprenda a bloquear celdas en Excel con Aspose.Cells para .NET con esta guía paso a paso. Proteja sus datos con ejemplos de código detallados e instrucciones sencillas.
 ### [Especificar autor al proteger contra escritura un libro usando Aspose.Cells](./specify-author-write-protect-workbook/)
 Aprenda a especificar un autor mientras protege contra escritura un libro de Excel usando Aspose.Cells para .NET en este tutorial paso a paso.
+### [Cómo bloquear la fila de encabezado de Excel con Aspose.Cells en C#](./how-to-lock-excel-header-row-with-aspose-cells-in-c/)
+Aprenda a bloquear la fila de encabezado en una hoja de cálculo de Excel usando Aspose.Cells para .NET con C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -52,6 +52,7 @@ Aspose.Cells for .NET을 사용해 C# 코드로 Excel 차트를 PowerPoint 슬�
 Word 문서의 차트를 C#을 사용해 추출하고 내보내는 방법을 단계별로 안내합니다.
 ### [C#를 사용하여 Excel 차트를 PowerPoint로 내보내기 – 완전한 Aspose.Cells 가이드](./export-excel-chart-to-powerpoint-with-c-complete-aspose-cell/)
 Aspose.Cells를 사용해 Excel 차트를 PowerPoint 슬라이드로 변환하는 전체 과정을 안내합니다. C# 예제로 쉽게 구현할 수 있습니다.
+### [C#를 사용하여 Excel 차트를 PowerPoint로 내보내기](./how-to-export-excel-charts-to-powerpoint-using-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

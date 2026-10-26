@@ -55,6 +55,8 @@ Aspose.Cells for .NET을 사용하여 Excel 워크시트의 특정 셀을 보호
 이 단계별 튜토리얼을 통해 Aspose.Cells for .NET을 사용하여 Excel의 특정 열을 보호하는 방법을 알아보세요. 워크시트 데이터를 쉽게 보호하세요.
 ### [Aspose.Cells를 사용하여 워크시트의 특정 행 보호](./protect-specific-rows/)
 Aspose.Cells for .NET을 사용하여 Excel 워크시트의 특정 행을 보호하는 방법을 단계별 가이드를 통해 알아보세요. 데이터를 효과적으로 보호하세요.
+### [Aspose.Cells를 사용하여 Excel 헤더 행 잠그는 방법](./how-to-lock-excel-header-row-with-aspose-cells-in-c/)
+Aspose.Cells for .NET을 활용해 Excel 워크시트의 헤더 행을 잠그는 단계별 가이드를 제공합니다.
 ### [Aspose.Cells를 사용하여 전체 워크시트 보호](./protect-worksheet/)
 Aspose.Cells for .NET을 사용하여 Excel 워크시트를 비밀번호로 보호하는 방법을 알아보세요. 데이터를 쉽게 보호하는 방법을 단계별로 안내합니다.
 ### [Aspose.Cells를 사용하여 워크시트의 행 보호](./protect-rows/)

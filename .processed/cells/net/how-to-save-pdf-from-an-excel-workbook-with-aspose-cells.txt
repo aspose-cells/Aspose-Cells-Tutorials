@@ -1,0 +1,7 @@
+Title: How to save PDF from an Excel workbook with Aspose.Cells
+Slug: how-to-save-pdf-from-an-excel-workbook-with-aspose-cells
+Category: conversion-to-pdf
+ProcessedDate: 2026-10-20T17:50:55.631522
+SourceRepo: AI Search API
+Keywords: how to save pdf, save workbook as pdf, markdown to excel, dynamic range formula, how to import markdown
+PRNumber: 196

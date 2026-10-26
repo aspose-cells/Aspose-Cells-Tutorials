@@ -82,6 +82,14 @@ Aspose.Cells for .NET を使用して、Excel に複数行を挿入する方法�
 ### [C# で wrapcols を使用する方法 – Excel WRAPROWS と数式の再計算を含む完全ガイド](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Aspose.Cells for .NET を使用して、C# で wrapcols を活用し、Excel の WRAPROWS と数式の再計算を行う方法をステップバイステップで解説します。
 
+### [WRAPCOLS の使い方: C# で 2 列レイアウトを作成する](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+WRAPCOLS 機能を利用して、C# で Excel シートに 2 列のレイアウトを簡単に作成する手順を解説します。
+
+### [C# で WRAPCOLS を使用し、ワークブックを XLSX として保存する方法](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
+
+### [Aspose.Cells for .NET を使用して Excel のセルを上にシフトする – 完全ガイド](./shift-cells-up-in-excel-with-c-complete-guide/)
+Aspose.Cells for .NET を使用して、Excel のセルを上方向にシフトする方法をステップバイステップで解説します。簡単にデータを再配置できます。
+
 ### [GridJsで行を挿入する – 複数行を効率的に追加](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 GridJsを使用して、複数の行を効率的にグリッドに追加する手順をステップバイステップで解説します。
 

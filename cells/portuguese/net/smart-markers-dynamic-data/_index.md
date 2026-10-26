@@ -92,6 +92,11 @@ Desbloqueie o poder do Aspose.Cells. Aprenda a implementar matrizes de variávei
 Aprenda a carregar um modelo de Excel e gerar relatórios usando SmartMarkers no Aspose.Cells para .NET.
 ### [Criar pasta de trabalho Excel programaticamente usando Marcadores Inteligentes](./create-excel-workbook-programmatically-using-smart-markers/)
 Aprenda a criar programaticamente uma pasta de trabalho do Excel usando Marcadores Inteligentes no Aspose.Cells para .NET.
+### [Como criar pasta de trabalho Excel com marcadores inteligentes para um relatório dinâmico](./how-to-create-excel-workbook-with-smart-markers-for-a-dynami/)
+Aprenda a gerar uma pasta de trabalho Excel dinâmica usando Marcadores Inteligentes, combinando modelos e dados de forma automatizada.
+### [Criar pasta de trabalho Excel C# – Guia Completo para Inserir Matrizes em Células](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+Aprenda a criar uma pasta de trabalho Excel usando C# e inserir matrizes em células de forma eficiente com Aspose.Cells.
+### [Criar pasta de trabalho Excel programaticamente com C#](./how-to-create-excel-workbook-programmatically-with-c/)
 ### [Como gerar relatório Excel em C# – Guia completo usando SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 Aprenda passo a passo a criar relatórios Excel em C# usando SmartMarker, cobrindo configuração, geração e personalização de dados.
 ### [Criar planilhas dinâmicas com marcadores inteligentes no Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
@@ -125,14 +130,9 @@ Aprenda a converter arquivos JSON em planilhas Excel usando C# com o Aspose.Cell
 ### [Converter JSON para XLSX em C# usando SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
 Aprenda a converter arquivos JSON para XLSX usando SmartMarker em C#, passo a passo.
 ### [Criar Pasta de Trabalho a partir de XLSX com Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
-Aprenda a gerar uma nova pasta de trabalho a partir de um arquivo XLSX usando o SmartMarkerProcessor do Aspose.Cells.
 
-
-
-
-
-
-
+### [Expandir marcadores inteligentes de planilha em C# para modelos Excel](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
+Aprenda a expandir marcadores inteligentes em planilhas usando C# para gerar relatórios a partir de modelos Excel.
 
 ### [Nomear automaticamente planilhas do Excel – Forma fácil de gerar planilhas](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
 Aprenda a nomear automaticamente as planilhas do Excel ao gerar relatórios, simplificando a organização e economizando tempo.
@@ -161,13 +161,6 @@ Aprenda a gerar uma pasta de trabalho que destaca valores altos e baixos usando 
 Aprenda a criar um relatório mestre‑detalhe em C# preenchendo um modelo Excel usando SmartMarkers no Aspose.Cells.
 ### [Como criar lista de relatórios Excel com marcadores inteligentes do Aspose.Cells](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
 Aprenda a gerar uma lista de relatórios Excel usando Marcadores Inteligentes do Aspose.Cells em .NET.
-
-
-
-
-
-
-
 
 ### [Aplicar SmartMarker à Planilha em C# – Guia Completo](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
 Aprenda passo a passo como aplicar SmartMarker a uma planilha usando C#, criando relatórios Excel dinâmicos de forma completa.

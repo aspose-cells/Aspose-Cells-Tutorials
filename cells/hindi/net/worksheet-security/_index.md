@@ -76,6 +76,8 @@ Aspose.Cells का उपयोग करके .NET में Excel शीट 
 इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel में सेल लॉक करना सीखें। विस्तृत कोड उदाहरणों और आसान निर्देशों के साथ अपने डेटा को सुरक्षित रखें।
 ### [Aspose.Cells का उपयोग करके कार्यपुस्तिका को सुरक्षित रखते समय लेखक निर्दिष्ट करें](./specify-author-write-protect-workbook/)
 इस चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.Cells का उपयोग करके Excel कार्यपुस्तिका को सुरक्षित करते समय लेखक को निर्दिष्ट करना सीखें।
+### [Aspose.Cells का उपयोग करके C# में Excel हेडर पंक्ति को लॉक करें](./how-to-lock-excel-header-row-with-aspose-cells-in-c/)
+.NET के लिए Aspose.Cells का उपयोग करके Excel शीट की हेडर पंक्ति को सुरक्षित करने का सरल तरीका सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

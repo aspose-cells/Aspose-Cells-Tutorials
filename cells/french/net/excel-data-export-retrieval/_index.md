@@ -56,6 +56,9 @@ Apprenez à générer une feuille Excel à partir d'un DataTable en C# avec Aspo
 ### [Exporter un tableau Excel – Guide complet étape par étape](./how-to-export-excel-table-complete-step-by-step-guide/)
 Apprenez à exporter un tableau Excel avec Aspose.Cells pour .NET grâce à ce guide complet, idéal pour tous les niveaux.
 
+### [ExportTableOptions personnalisés lors d'ExportAsString pour Excel](./custom-exporttableoptions-when-exportasstrin-for-excel/)
+Apprenez à utiliser ExportTableOptions personnalisés avec ExportAsString pour générer des fichiers Excel via Aspose.Cells pour .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

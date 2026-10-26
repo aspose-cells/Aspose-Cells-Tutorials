@@ -54,6 +54,9 @@ Aspose.Cells for .NET을 사용하여 C#에서 사용자 지정 서식이 적용
 
 ### [C#에서 Excel 워크북을 만들고 일본 날짜를 구문 분석하는 방법](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
 
+### [C#에서 일본 달력 CultureInfo를 사용하여 Excel에 날짜 쓰는 방법](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
+Aspose.Cells for .NET을 활용해 C#에서 일본 달력 CultureInfo를 적용하여 Excel에 날짜를 정확히 기록하는 방법을 단계별로 안내합니다.
+
 ### [C#에서 셀 사용자 지정 서식 설정 – Excel에서 날짜 쓰기 및 읽기 완전 가이드](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 
 ### [C#에서 문자열을 DateTime으로 변환 – Excel에서 날짜 쓰기 및 읽기](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
@@ -69,6 +72,8 @@ Aspose.Cells for .NET을 사용하여 C#로 Excel 파일에 날짜 형식을 적
 Aspose.Cells for .NET을 사용하여 C#에서 Excel 워크북을 생성하고 유효 숫자 자리수를 제한하는 방법을 배웁니다.
 ### [Aspose.Cells로 Excel 숫자 서식 적용하기](./how-to-apply-number-format-excel-with-aspose-cells/)
 Aspose.Cells for .NET을 사용하여 Excel에서 숫자 서식을 적용하는 방법을 단계별로 안내합니다.
+### [C#에서 Excel 사용자 지정 숫자 형식 적용하기](./how-to-apply-a-custom-number-format-excel-in-c/)
+Aspose.Cells for .NET을 사용해 C#에서 Excel에 사용자 지정 숫자 형식을 적용하는 방법을 단계별로 안내합니다.
 ### [Excel 날짜 열 형식 지정 – DataTable 내보내기 전체 C# 가이드](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
 이 튜토리얼에서는 Aspose.Cells for .NET을 사용해 DataTable 데이터를 Excel로 내보내며 날짜 열을 원하는 형식으로 지정하는 방법을 단계별로 안내합니다.
 ### [C#에서 일본 달력 변환 – 전체 가이드](./japanese-calendar-conversion-in-c-full-guide/)

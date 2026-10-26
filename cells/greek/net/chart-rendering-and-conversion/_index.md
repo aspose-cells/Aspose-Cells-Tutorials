@@ -35,6 +35,10 @@
 
 Μάθετε πώς να εξάγετε γραφήματα Excel σε διαφάνειες PowerPoint με C# χρησιμοποιώντας Aspose.Cells, ακολουθώντας βήμα‑βήμα οδηγίες.
 
+## [Εξαγωγή γραφήματος Excel σε PowerPoint με C#](./how-to-export-excel-charts-to-powerpoint-using-c/)
+
+Μάθετε πώς να εξάγετε γραφήματα Excel σε PowerPoint με C# χρησιμοποιώντας Aspose.Cells σε λίγα βήματα.
+
 ## Εκπαιδευτικά βίντεο για την απόδοση και τη μετατροπή γραφημάτων
 ### [Γράφημα απόδοσης](./render-chart/)
 Ανακαλύψτε πώς να αποδίδετε γραφήματα σε .NET χρησιμοποιώντας το Aspose.Cells. Ακολουθήστε το βήμα προς βήμα εκπαιδευτικό μας υλικό για να δημιουργήσετε εκπληκτικά γραφικά χωρίς κόπο.
@@ -43,6 +47,7 @@
 ### [Δημιουργήστε ένα PDF γραφήματος με το επιθυμητό μέγεθος σελίδας](./create-chart-pdf-with-desired-page-size/)
 Δημιουργήστε ένα PDF με το γράφημά σας στο Excel χρησιμοποιώντας το Aspose.Cells για .NET. Μάθετε πώς με αυτόν τον οδηγό βήμα προς βήμα.
 ### [Εξαγωγή γραφήματος σε PowerPoint με C# – Πλήρης οδηγός βήμα προς βήμα](./export-chart-to-powerpoint-with-c-complete-step-by-step-guid/)
+### [Εξαγωγή γραφήματος Excel σε PowerPoint με C#](./how-to-export-excel-charts-to-powerpoint-using-c/)
 ### [Πώς να Εξάγετε Γραφήματα από το Word – Πλήρης Οδηγός C#](./how-to-export-charts-from-word-complete-c-guide/)
 Μάθετε πώς να εξάγετε γραφήματα από έγγραφα Word σε C# χρησιμοποιώντας το Aspose.Words, βήμα-βήμα οδηγίες για ακριβή αποτελέσματα.
 ### [Πώς να Εξάγετε Γραφήματα – Πλήρης Οδηγός PowerPoint C#](./how-to-export-charts-complete-powerpoint-c-guide/)

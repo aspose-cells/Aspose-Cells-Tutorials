@@ -56,6 +56,8 @@ Dowiedz się, jak w C# utworzyć arkusz Excel z obiektu DataTable, korzystając 
 ### [Jak wyeksportować tabelę Excel – Kompletny przewodnik krok po kroku](./how-to-export-excel-table-complete-step-by-step-guide/)
 Dowiedz się, jak wyeksportować tabelę Excel przy użyciu Aspose.Cells dla .NET, krok po kroku, zarówno dla początkujących, jak i zaawansowanych programistów.
 
+### [Niestandardowe ExportTableOptions przy ExportAsString dla Excela](./custom-exporttableoptions-when-exportasstrin-for-excel/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

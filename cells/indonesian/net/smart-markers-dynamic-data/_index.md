@@ -56,6 +56,7 @@ Az általános listák rugalmassága lehetővé teszi a fejlesztők számára, h
 ## Intelligens jelölők az Aspose.Cells-ben dinamikus adatokhoz - Oktatóanyagok
 ### [How to generate Excel report by merging an Excel template with Smart Markers](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
 
+### [Cara membuat workbook Excel dengan smart markers untuk laporan Excel dinamis](./how-to-create-excel-workbook-with-smart-markers-for-dynami/)
 
 ### [Mengaktifkan Opsi Nested Range di Aspose.Cells SmartMarker](./enable-nested-range-option-in-aspose-cells-smartmarker/)
 
@@ -87,7 +88,7 @@ Engedd szabadjára az Aspose.Cells erejét ezzel a lépésről lépésre haladó
 ### [Range smart marker untuk memproses data bersarang di C# – Panduan Lengkap](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
 Pelajari cara menggunakan range smart marker untuk memproses data bersarang di C# dengan panduan lengkap.
 ### [Változó tömb implementálása intelligens jelölőkkel Aspose.Cells](./variable-array-smart-markers/)
-Engedd szabadjára az Aspose.Cells erejét. Tanuld meg, hogyan valósíthatsz meg változó tömböket intelligens jelölőkkel lépésről lépésre a zökkenőmentes Excel-jelentéskészítéshez.
+Engedd szabadjára az Aspose.Cells erejét. Tanulj meg, hogyan valósíthatsz meg változó tömböket intelligens jelölőkkel lépésről lépésre a zökkenőmentes Excel-jelentéskészítéshez.
 ### [Menerapkan SmartMarker ke Worksheet di C# – Panduan Lengkap](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
 Panduan lengkap untuk menggunakan SmartMarker pada lembar kerja dengan C# di Aspose.Cells.
 
@@ -104,7 +105,8 @@ Pelajari cara membuat template Excel menggunakan Smart Markers di C# dengan lang
 Pelajari cara mengganti variabel dalam JSON menggunakan SmartMarker secara lengkap.
 
 ### [Buat workbook Excel secara programatis menggunakan Smart Markers](./create-excel-workbook-programmatically-using-smart-markers/)
-Pelajari cara membuat workbook Excel secara programatis dengan Smart Markers menggunakan Aspose.Cells untuk .NET.
+
+### [Cara membuat workbook Excel secara programatis dengan C#](./how-to-create-excel-workbook-programmatically-with-c/)
 
 ### [Buat Lembar Kerja Dinamis dengan Smart Markers di Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 Pelajari cara membuat lembar kerja dinamis menggunakan Smart Markers di Aspose.Cells untuk .NET, memungkinkan pembuatan laporan Excel yang fleksibel dan otomatis.
@@ -189,7 +191,7 @@ Pelajari cara mengimpor data JSON ke file Excel menggunakan C# dengan Aspose.Cel
 ### [Buat Workbook Master Detail dengan Aspose.Cells Smart Marker](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
 ### [Panduan master detail Excel – mengisi templat dengan Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)
 ### [Cara Mengulang Lembar Kerja – Panduan Lengkap untuk Otomatisasi Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
-Pelajari cara mengulang lembar kerja secara otomatis di Excel menggunakan Aspose.Cells untuk meningkatkan efisiensi laporan.
+### [Perluas smart markers lembar kerja di C# untuk templat Excel](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

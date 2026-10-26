@@ -96,10 +96,10 @@ Aprenda a excluir linhas de uma tabela do Excel usando Aspose.Cells, preservando
 Aprenda a inserir linhas no Excel usando C# e Aspose.Cells para .NET com este guia passo a passo, facilitando a manipulação de dados.
 ### [Como usar WRAPCOLS: criar um layout de duas colunas em C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 Aprenda a usar o método WRAPCOLS para gerar um layout de duas colunas em planilhas Excel com C# usando Aspose.Cells.
-### [Como Inserir Linhas no GridJs – Adicionar Várias Linhas Rapidamente](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
-Aprenda a inserir múltiplas linhas rapidamente no GridJs com este guia passo a passo, facilitando a manipulação de dados em suas tabelas.
 ### [Como usar WrapCols em C# – Guia completo com Excel WrapRows e Recalcular Fórmulas](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Aprenda passo a passo como aplicar WrapCols e WrapRows no Aspose.Cells para .NET, ajustando colunas e recalculando fórmulas automaticamente.
+### [Como usar WRAPCOLS em C# e salvar a pasta de trabalho como XLSX](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
+Aprenda a aplicar o método WRAPCOLS em C# e salvar a planilha como arquivo XLSX usando Aspose.Cells.
 ### [Deslocar células para cima no Excel com C# – Guia completo](./shift-cells-up-in-excel-with-c-complete-guide/)
 Aprenda a deslocar células para cima no Excel usando C# com o Aspose.Cells, passo a passo, para simplificar suas planilhas.
 ### [Como excluir linhas no Excel com C# – proteger cabeçalho da tabela](./how-to-delete-rows-in-excel-with-c-protect-table-header/)

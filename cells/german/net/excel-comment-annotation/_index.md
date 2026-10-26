@@ -65,6 +65,8 @@ Erfahren Sie, wie Sie mithilfe von Aspose.Cells Smart Marker Kommentarzellen in 
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET in C# Kommentare zu Zellen hinzufügen und Excel-Dateien aus Daten generieren.
 ### [Excel-Kommentar mit C# einfügen – Vollständiger SmartMarker-Leitfaden](./insert-excel-comment-with-c-complete-smartmarker-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET und SmartMarker Kommentare in Excel per C# einfügen.
+### [Wie man einen Excel-Kommentar mit Aspose.Cells Smart Markern einfügt](./how-to-insert-excel-comment-using-aspose-cells-smart-markers/)
+Erfahren Sie, wie Sie mit Aspose.Cells Smart Markern Kommentare in Excel einfügen.
 ### [Wie man einen Kommentar in Excel mit Aspose.Cells einfügt](./how-to-insert-comment-in-excel-using-aspose-cells/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Kommentare in Excel einfügen und Ihre Tabellen interaktiv gestalten.
 

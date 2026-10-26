@@ -1,0 +1,7 @@
+Title: How to duplicate an Excel sheet and keep pivot tables intact in Java
+Slug: how-to-duplicate-an-excel-sheet-and-keep-pivot-tables-intact
+Category: excel-pivot-tables
+ProcessedDate: 2026-10-23T18:12:29.663274
+SourceRepo: AI Search API
+Keywords: duplicate excel sheet, how to copy pivot, copy excel range, copy sheet with pivot, copy pivot to workbook
+PRNumber: 199

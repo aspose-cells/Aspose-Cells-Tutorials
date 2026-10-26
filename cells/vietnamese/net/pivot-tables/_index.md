@@ -23,6 +23,8 @@ Sử dụng Aspose.Cells cho .NET, bạn có thể tùy chỉnh hoàn toàn các
 
 {{< tutorial-card link="./how-to-copy-pivot-table-in-c-complete-programming-guide/" title="Cách sao chép Pivot Table trong C# – Hướng dẫn lập trình toàn diện" imgSrc="./how-to-copy-pivot-table-in-c-complete-programming-guide/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-move-pivot-table-to-another-sheet-in-c-using-aspose-c/" title="Cách di chuyển bảng Pivot sang sheet khác trong C# bằng Aspose.Cells" imgSrc="./how-to-move-pivot-table-to-another-sheet-in-c-using-aspose-c/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

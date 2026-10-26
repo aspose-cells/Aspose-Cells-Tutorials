@@ -52,6 +52,8 @@ Excel फ़ाइल को लोड करके C# में Aspose.Cells �
 C# में Aspose.Cells का उपयोग करके Excel को XPS में बदलने के लिए पूर्ण चरण‑दर‑चरण मार्गदर्शिका।
 ### [Excel को XPS में बदलते समय फ़ॉन्ट सक्षम करने का तरीका – पूर्ण गाइड](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
 Aspose.Cells के साथ फ़ॉन्ट एम्बेड करने के चरणों को सीखें और XPS आउटपुट की गुणवत्ता सुनिश्चित करें।
+### [C# में Aspose.Cells का उपयोग करके Excel को XPS में बदलना](./how-to-convert-excel-to-xps-in-c-using-aspose-cells/)
+Aspose.Cells का उपयोग करके C# में Excel को XPS में बदलने की चरण‑दर‑चरण गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
