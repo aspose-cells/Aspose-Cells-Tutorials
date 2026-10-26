@@ -1,0 +1,7 @@
+Title: How to disable autofilter in Excel with C# – complete guide
+Slug: how-to-disable-autofilter-in-excel-with-c-complete-guide
+Category: excel-autofilter-validation
+ProcessedDate: 2026-10-26T23:34:22.746333
+SourceRepo: AI Search API
+Keywords: disable autofilter in excel, remove autofilter from excel table
+PRNumber: 200
