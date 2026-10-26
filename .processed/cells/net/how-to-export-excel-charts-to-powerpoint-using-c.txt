@@ -1,0 +1,7 @@
+Title: How to export Excel charts to PowerPoint using C#
+Slug: how-to-export-excel-charts-to-powerpoint-using-c
+Category: chart-rendering-and-conversion
+ProcessedDate: 2026-10-26T23:34:20.138042
+SourceRepo: AI Search API
+Keywords: export excel charts to powerpoint
+PRNumber: 200
