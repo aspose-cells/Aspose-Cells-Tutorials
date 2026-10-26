@@ -62,6 +62,8 @@ Leer hoe u een bestaande draaitabel kunt dupliceren met Aspose.Cells voor Java, 
 Leer hoe u een draaitabel van het ene werkboek naar het andere kopieert met Aspose.Cells voor Java.
 ### [Nieuw werkboek maken in Java – Volledige gids voor het kopiëren van draaitabel](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
 Leer hoe u in Java een nieuw werkboek maakt en een bestaande draaitabel kopieert met Aspose.Cells.
+### [Hoe een draaitabel naar een nieuw werkboek kopiëren in Java](./how-to-copy-pivot-table-to-a-new-workbook-in-java/)
+Leer hoe u een draaitabel naar een nieuw werkboek kopieert met Aspose.Cells voor Java.
 ### [Hoe een werkblad te dupliceren en draaitabellen te behouden in Java](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
 Leer hoe u een werkblad dupliceert zonder draaitabellen te verliezen met Aspose.Cells voor Java.
 ### [Hoe een draaitabel dupliceren in Java met Aspose.Cells](./how-to-duplicate-pivot-in-java-using-aspose-cells/)

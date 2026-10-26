@@ -72,6 +72,8 @@ Lär dig hur du duplicerar en pivottabell i Java med Aspose.Cells och bevarar de
 Lär dig hur du kopierar ett cellområde och behåller pivottabellens funktioner i Java med Aspose.Cells.
 ### [Exportera pivottabell som bild till PNG med Java](./excel-pivot-table-image-export-to-png-with-java/)
 Lär dig hur du exporterar en Excel-pivottabell som PNG-bild med Aspose.Cells för Java.
+### [Kopiera pivottabell till en ny arbetsbok i Java](./how-to-copy-pivot-table-to-a-new-workbook-in-java/)
+Lär dig hur du kopierar en pivottabell till en ny arbetsbok i Java med Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
