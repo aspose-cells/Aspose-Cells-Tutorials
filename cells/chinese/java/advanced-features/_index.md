@@ -6,12 +6,6 @@ url: /zh/java/advanced-features/
 weight: 18
 ---
 
-Then paragraph.
-
-Proceed.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -111,6 +105,9 @@ A code tutorial for Aspose.Words Java
 
 ### [使用 Aspose.Cells for Java 在 Java Excel 文件中更新切片器](./update-slicers-java-excel-aspose-cells/)
 学习如何使用 Aspose.Cells for Java 自动化 Excel 文件中的切片器更新，提升数据筛选和分析效率。
+
+### [使用 Java 按地区解析日期 – 完整分步指南](./parse-date-with-locale-in-java-complete-step-by-step-guide/)
+使用 Java 的 java.time API 按区域解析日期。学习日本纪元格式处理、区域日期转换以及稳健的 Java 日期解析技术。
 
 ## 其他资源
 

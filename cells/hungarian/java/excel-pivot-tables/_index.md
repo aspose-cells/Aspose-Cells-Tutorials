@@ -32,16 +32,53 @@ Az Aspose.Cells for Java lehetővé teszi a pivot tábla műveletek automatizál
 ## Excel Pivot táblák oktatóanyagok
 ### [Pivot táblák létrehozása](./creating-pivot-tables/)
 Tanuld meg, hogyan hozhatsz létre hatékony pivot táblákat Java nyelven az Aspose.Cells segítségével a továbbfejlesztett adatelemzés és vizualizáció érdekében.
+
 ### [Dinamikus pivot táblázatok](./dynamic-pivot-tables/)
 Dinamikus pivot táblázatok létrehozása könnyedén az Aspose.Cells for Java használatával. Adatok egyszerű elemzése és összefoglalása. Adatelemzési képességeinek bővítése.
+
 ### [Adatok csoportosítása kimutatástáblákban](./grouping-data-in-pivot-tables/)
 Tanulja meg, hogyan hozhat létre pivot táblákat Excelben az Aspose.Cells for Java használatával. Automatizálja az adatcsoportosítást és -elemzést forráskódpéldákkal.
+
 ### [Számított mezők a kimutatástáblákban](./calculated-fields-in-pivot-tables/)
 Tanuld meg, hogyan hozhatsz létre számított mezőket a pivottáblákban az Aspose.Cells for Java használatával. Turbózd fel az adatelemzést egyéni számításokkal Excelben.
+
 ### [Kimutatástábla adatainak frissítése](./refreshing-pivot-table-data/)
 Tanuld meg, hogyan frissítheted a pivot tábla adatait az Aspose.Cells for Java programban. Tartsd naprakészen az adataid könnyedén.
+
 ### [Kimutatási táblázat stílusainak testreszabása](./customizing-pivot-table-styles/)
 Tanuld meg, hogyan szabhatod testre a pivot tábla stílusait az Aspose.Cells for Java API-ban. Hozz létre vizuálisan vonzó pivot táblákat könnyedén.
+### [Pivot tábla másolása Java-ban – megőrizze, exportálja PPTX-be](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
+Tanuld meg, hogyan másolhatod a pivot táblát Java-ban, megőrizve formázását, és exportálhatod PPTX formátumba.
+### [Hogyan másoljuk a kimutatástáblát Java-ban – Teljes Aspose.Cells útmutató](./how-to-copy-pivot-table-in-java-complete-aspose-cells-guide/)
+Ismerd meg, hogyan másolhatod a pivot táblákat Java-ban az Aspose.Cells segítségével, a teljes folyamat lépéseit bemutatva.
+### [PNG létrehozása pivot táblából Java‑ban – Teljes lépésről‑lépésre útmutató](./create-png-from-pivot-in-java-full-step-by-step-guide/)
+Ismerd meg, hogyan exportálhatod a pivot táblákat PNG képként Aspose.Cells for Java segítségével, részletes lépésekkel.
+### [Pivot tábla másolása Excelben – Lépésről‑lépésre útmutató Java használatával](./copy-pivot-table-excel-step-by-step-guide-using-java/)
+Ismerd meg, hogyan másolhatod a pivot táblákat Excelben Java-val, lépésről‑lépésre útmutatóval.
+### [Pivot tábla exportálása PNG formátumba Java‑ban – Teljes programozási útmutató](./export-pivot-table-to-png-in-java-complete-programming-guide/)
+Tanuld meg, hogyan exportálhatod a pivot táblákat PNG képként Java‑ban az Aspose.Cells segítségével.
+
+### [Hogyan másolj tartományt Java-ban – Pivot tábla másolása az Aspose.Cells segítségével](./how-to-copy-range-in-java-copy-pivot-table-with-aspose-cells/)
+Tanuld meg, hogyan másolhatsz tartományt és pivot táblát Java-ban az Aspose.Cells használatával.
+
+### [Hogyan exportálj pivot táblát PNG formátumba – Teljes Java útmutató](./how-to-export-pivot-table-as-png-complete-java-guide/)
+Tanuld meg, hogyan exportálhatod a pivot táblákat PNG képként Java-ban az Aspose.Cells segítségével.
+### [Pivot tábla másolása Java-ban az Aspose.Cells segítségével](./how-to-copy-pivot-table-in-java-using-aspose-cells/)
+Tanuld meg, hogyan másolhatod a pivot táblákat Java-ban az Aspose.Cells segítségével.
+### [Pivot tábla másolása munkafüzetek között – Lépésről lépésre Java útmutató](./copy-pivot-table-between-workbooks-step-by-step-java-guide/)
+Tanuld meg, hogyan másolhatod a pivot táblákat egyik munkafüzetből a másikba az Aspose.Cells for Java segítségével.
+### [Új munkafüzet létrehozása Java-ban – Teljes útmutató a pivot tábla másolásához](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
+Ismerd meg, hogyan hozhatsz létre új munkafüzetet Java-ban, és másold át a pivot táblákat az Aspose.Cells for Java segítségével.
+### [Hogyan duplikáljunk munkalapot és megőrizzük a kimutatástáblákat Java-ban](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
+Tanulja meg, hogyan másolhatja a munkalapot a pivot táblákkal együtt Java-ban az Aspose.Cells segítségével.
+### [Pivot duplikálása Java-ban az Aspose.Cells segítségével](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
+Tanulja meg, hogyan másolhatja a pivot táblát Java-ban, megőrizve formázását, az Aspose.Cells API-val.
+### [Hogyan másolj tartományt és őrizd meg a pivot táblát Java-ban](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
+Tanuld meg, hogyan másolhatsz egy tartományt úgy, hogy a pivot tábla formázása és beállításai megmaradnak Java-ban.
+### [Hogyan másoljuk a pivot táblákat Excelben Java‑val – lépésről‑lépésre útmutató](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
+Ismerd meg, hogyan másolhatod a pivot táblákat Excelben Java segítségével egy részletes, lépésről‑lépésre útmutatóval.
+### [Excel pivot tábla kép: Export PNG formátumba Java-val](./excel-pivot-table-image-export-to-png-with-java/)
+Tanuld meg, hogyan exportálhatod a pivot tábla képét PNG formátumba Java segítségével az Aspose.Cells API-val.
 ### [Új munkafüzet létrehozása és pivot tábla másolása Java-ban – Teljes lépésről‑lépésre útmutató](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
 Tanuld meg, hogyan hozhatsz létre új munkafüzetet, és másolj pivot táblákat Java-ban az Aspose.Cells segítségével.
 

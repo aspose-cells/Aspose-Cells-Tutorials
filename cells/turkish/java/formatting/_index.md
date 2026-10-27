@@ -80,6 +80,9 @@ Aspose.Cells for Java ile sütun genişliğini piksel cinsinden nasıl ayarlayac
 ### [Aspose.Cells Java Kullanarak Excel'de Yazı Tipi Boyutunu Ayarlama - Kapsamlı Kılavuz](./aspose-cells-java-set-font-size-excel/)
 Bu adım adım eğitimle Aspose.Cells for Java kullanarak Excel dosyalarında yazı tipi boyutunu nasıl ayarlayacağınızı öğrenin. Belge biçimlendirme becerilerinizi bugün geliştirin!
 
+### [Java Excel Dışa Aktarımında Kalın Yazı Tipi Ayarlama – Eksiksiz Bir Kılavuz](./set-font-bold-in-java-excel-export-complete-guide/)
+Aspose.Cells for Java kullanarak Excel dışa aktarımında hücre yazı tipini kalın yapmayı ve örnek kodları öğrenin.
+
 ### [Java için Aspose.Cells'e Hakim Olma: Gelişmiş Excel Stili ve Yazı Tipi Yönetimi Kılavuzu](./aspose-cells-java-style-font-management/)
 Aspose.Cells for Java kullanarak Excel dosyalarındaki stilleri ve yazı tiplerini nasıl yöneteceğinizi öğrenin. Bu kılavuz çalışma kitabı kurulumunu, stil oluşturmayı ve yazı tipi özelleştirmesini kapsar.
 
@@ -229,6 +232,18 @@ Aspose.Cells for Java kullanarak Excel verilerini sütun rengine göre verimli b
 
 ### [Java için Aspose.Cells Kullanarak Excel Hücrelerine Nasıl Stil Verilir ve Köprüler Nasıl Eklenir](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Aspose.Cells ile Excel hücrelerini biçimlendirmede ve Java uygulamalarınıza köprüler eklemede ustalaşın. Kusursuz entegrasyon ve biçimlendirme için bu kapsamlı kılavuzu izleyin.
+
+### [Java için Aspose.Cells Kullanarak Excel'de Özel Sayı Biçimi Ayarlama – Tam Kılavuz](./set-custom-number-format-in-excel-with-java-complete-guide/)
+
+### [DataTable'ı Excel'e Dönüştürürken Stilleri Nasıl Uygularsınız – Tam Java Kılavuzu](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
+
+### [Aspose Cells Tarih Biçimi: Java'da Özel Tarih Biçimi Nasıl Ayarlanır](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+Aspose.Cells for Java kullanarak Excel'de tarih biçimlerini özelleştirmeyi ve özel tarih formatı ayarlamayı öğrenin.
+
+### [Java’da Excel’de Sayı Biçimini Ayarlama – Eksiksiz Kılavuz](./set-number-format-excel-in-java-complete-guide/)
+
+### [Java’da Dinamik Biçimlendirme ile Excel Çalışma Kitabı Oluşturma – Tam Kılavuz](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+Aspose.Cells for Java kullanarak dinamik biçimlendirme ile Excel çalışma kitabı oluşturmayı öğrenin.
 
 ### [Java ile Stilize Excel Çalışma Kitabı Oluşturma – Tam Kılavuz](./create-styled-excel-workbook-in-java-complete-guide/)
 Aspose.Cells for Java kullanarak stilize bir Excel çalışma kitabı oluşturmayı adım adım öğrenin.

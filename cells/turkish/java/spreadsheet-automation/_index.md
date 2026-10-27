@@ -42,7 +42,8 @@ Java için Aspose.Cells'i kullanarak kaynak kod örnekleriyle veri girişini nas
 
 ### [Dinamik Excel Raporları](./dynamic-excel-reports/)
 Aspose.Cells for Java ile dinamik Excel raporlarını kolayca oluşturun. Veri güncellemelerini otomatikleştirin, biçimlendirme uygulayın ve zamandan tasarruf edin.
-
+### [Java ile Dikey Dizi Excel Oluşturma – Tam Adım‑Adım Kılavuz](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+Java ve Aspose.Cells kullanarak dikey dizi içeren Excel dosyalarını adım adım oluşturmayı öğrenin.
 ### [Otomatik Veri Çıkarımı](./automated-data-extraction/)
 Java için Aspose.Cells'i kullanarak kaynak kod örnekleriyle veri çıkarmayı nasıl verimli bir şekilde otomatikleştireceğinizi öğrenin. Excel dosyalarından zahmetsizce veri çıkarın.
 
@@ -51,12 +52,30 @@ Aspose.Cells ile Java'da Excel Çalışma Kitabı Otomasyonunu öğrenin: Excel 
 
 ### [Excel Grafiklerinin Otomatikleştirilmesi](./automating-excel-charts/)
 Kaynak kod örnekleriyle Aspose.Cells for Java kullanarak Excel grafik oluşturma ve özelleştirmeyi nasıl otomatikleştireceğinizi keşfedin. Grafik görevlerinizi kolaylaştırın. 
-
+### [Java ile Excel'de Tablo Başlığını Silme – Tam Kılavuz](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+Java ve Aspose.Cells kullanarak Excel dosyalarındaki tablo başlıklarını nasıl sileceğinizi adım adım öğrenin.
 ### [Java ile Excel Otomasyonu](./excel-automation-with-java/)
 Excel'de güçlü bir düzenleme kütüphanesi olan Aspose.Cells'i kullanarak kaynak kod örnekleriyle Java'da Excel görevlerini nasıl otomatikleştireceğinizi öğrenin.
 
 ### [Excel'de Veri Entegrasyonu](./data-integration-in-excel/)
 Daha iyi içgörüler ve karar alma için verileri Excel'e nasıl verimli bir şekilde entegre edeceğinizi öğrenin. Java için Aspose.Cells kullanarak kaynak kodlu adım adım kılavuz.
+### [Java ile Excel'de Otomatik Filtreyi Devre Dışı Bırakma – Adım Adım Kılavuz](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
+Java ve Aspose.Cells kullanarak Excel dosyalarındaki otomatik filtre özelliğini nasıl devre dışı bırakacağınızı adım adım öğrenin.
+
+### [Java'da Programlı Olarak Excel Oluşturma – Adım Adım Kılavuz](./create-excel-programmatically-in-java-step-by-step-guide/)
+Java ve Aspose.Cells kullanarak Excel dosyalarını programatik olarak oluşturmayı adım adım öğrenin.
+### [Java ile Excel'de Otomatik Filtreyi Kapatma – Tam Kılavuz](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+Aspose.Cells for Java ile Excel'de otomatik filtreyi kapatmayı adım adım öğrenin.
+### [Java ile Excel'de Otomatik Filtreyi Kapatma – Tam Kılavuz](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+Java ve Aspose.Cells kullanarak Excel'de Otomatik Filtre özelliğini nasıl devre dışı bırakacağınızı adım adım öğrenin.
+### [Java'da Expand Kullanımı – Tam Excel Kılavuzu](./how-to-use-expand-in-java-complete-excel-guide/)
+Aspose.Cells for Java kullanarak Expand işlevini nasıl uygulayacağınızı adım adım öğrenin.
+### [Java ile Excel'de Otomatik Filtreyi Temizleme – Tam Kılavuz](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Aspose.Cells for Java kullanarak Excel'de otomatik filtreyi nasıl temizleyeceğinizi adım adım öğrenin.
+### [Yeni Çalışma Kitabı Oluşturma – Aspose ile Excel'e Özel Özellik Ekleyip XLSB Olarak Kaydetme](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+Aspose.Cells for Java kullanarak yeni bir Excel çalışma kitabı oluşturun, özel bir özellik ekleyin ve dosyayı XLSB formatında kaydedin.
+### [Java ile Excel'de Dizi Genişletme – Adım Adım Kılavuz](./expand-array-in-excel-with-java-step-by-step-guide/)
+Java ve Aspose.Cells ile Excel'de dizi genişletmeyi adım adım öğrenin.
 
 ### [Java ile Excel'de Otomatik Filtreyi Kaldırma – Tam Kılavuz](./remove-autofilter-from-excel-with-java-complete-guide/)
 Java ve Aspose.Cells kullanarak Excel dosyalarındaki otomatik filtreyi nasıl kaldıracağınızı adım adım öğrenin.

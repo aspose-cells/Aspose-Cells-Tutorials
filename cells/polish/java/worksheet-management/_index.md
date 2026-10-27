@@ -63,7 +63,10 @@ Dowiedz się, jak zautomatyzować generowanie plików Excel za pomocą Aspose.Ce
 Dowiedz się, jak zarządzać skoroszytami programu Excel za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje instancje skoroszytów, dostęp do arkuszy, konfiguracje stron, tytuły wydruków i wiele więcej.
 
 ### [Kopiowanie pojedynczego wiersza w programie Excel przy użyciu Aspose.Cells dla języka Java: kompletny przewodnik](./copy-single-row-excel-aspose-cells-java/)
-Dowiedz się, jak skutecznie kopiować pojedynczy wiersz w programie Excel za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje wskazówki dotyczące konfiguracji, implementacji i optymalizacji.
+Dowiedz się, jak skutecznie kopiować pojedynczy wiersz w programie Excel przy użyciu Aspose.Cells for Java. Ten przewodnik obejmuje wskazówki dotyczące konfiguracji, implementacji i optymalizacji.
+
+### [Jak utworzyć duplikaty arkuszy szczegółowych w Aspose.Cells dla języka Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+Dowiedz się, jak programowo tworzyć duplikaty arkuszy szczegółowych w plikach Excel przy użyciu Aspose.Cells for Java.
 
 ### [Jak usunąć puste kolumny w programie Excel za pomocą Aspose.Cells Java: kompleksowy przewodnik](./delete-blank-columns-aspose-cells-java/)
 Dowiedz się, jak skutecznie usuwać puste kolumny z plików Excela za pomocą Aspose.Cells for Java, usprawniając zarządzanie danymi i automatyzując przepływ pracy.
@@ -73,6 +76,9 @@ Dowiedz się, jak usuwać kolumny z skoroszytu programu Excel za pomocą Aspose.
 
 ### [Jak usunąć wiersze w programie Excel za pomocą Aspose.Cells dla języka Java | Przewodnik i samouczek](./delete-row-excel-aspose-cells-java/)
 Dowiedz się, jak skutecznie usuwać wiersze z pliku Excel za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje konfigurację, przykłady kodu i praktyczne zastosowania.
+
+### [Usuwanie wierszy w arkuszu przy użyciu Javy – kompletny przewodnik](./delete-rows-in-worksheet-with-java-complete-guide/)
+Dowiedz się, jak programowo usuwać wiersze z arkusza kalkulacyjnego w Javie, korzystając z Aspose.Cells, z praktycznymi przykładami i wskazówkami optymalizacji.
 
 ### [Zarządzanie widocznością kart programu Excel za pomocą Aspose.Cells w Javie](./display-excel-tabs-aspose-cells-java/)
 Dowiedz się, jak wyświetlać lub ukrywać karty programu Excel za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje konfigurację, implementację kodu i najlepsze praktyki efektywnego zarządzania arkuszami kalkulacyjnymi.
@@ -98,6 +104,12 @@ Samouczek dotyczący kodu dla Aspose.Words Java
 ### [Odkryj wiersze i kolumny w programie Excel za pomocą Aspose.Cells Java: przewodnik krok po kroku](./unhide-rows-columns-excel-aspose-cells-java/)
 Dowiedz się, jak bez wysiłku odkrywać wiersze i kolumny w plikach Excela za pomocą Aspose.Cells for Java. Zautomatyzuj zarządzanie danymi dzięki temu kompleksowemu przewodnikowi.
 
+### [Jak używać SmartMarkerProcessor do dynamicznego nazewnictwa arkuszy](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
+Dowiedz się, jak dynamicznie nadawać nazwy arkuszom w Excelu przy użyciu SmartMarkerProcessor w Aspose.Cells for Java.
+### [Tworzenie wielu arkuszy w Excelu w Javie – Kompletny przewodnik oparty na szablonie](./create-multiple-sheets-in-excel-with-java-complete-template/)
+Dowiedz się, jak programowo tworzyć wiele arkuszy w pliku Excel przy użyciu szablonów w Aspose.Cells for Java.
+### [Jak wyczyścić filtr automatyczny w programie Excel przy użyciu Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+Dowiedz się, jak usunąć filtr automatyczny z arkusza Excel przy użyciu Aspose.Cells for Java.
 ### [Tworzenie arkuszy kalkulacyjnych z listy przy użyciu Aspose.Cells Java – pełny przewodnik](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
 Dowiedz się, jak programowo tworzyć wiele arkuszy w Excelu z listy danych przy użyciu Aspose.Cells for Java.
 

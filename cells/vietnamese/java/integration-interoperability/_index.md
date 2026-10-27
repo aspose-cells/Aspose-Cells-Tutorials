@@ -53,7 +53,37 @@ Học cách tự động hóa các tác vụ Excel bằng Aspose.Cells for Java,
 ### [Làm chủ việc triển khai lớp học Java Teacher với tích hợp Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 Tìm hiểu cách triển khai lớp Giáo viên trong Java, quản lý dữ liệu học sinh và tích hợp Aspose.Cells để xử lý tệp Excel tốt hơn.
 
+### [Chuyển đổi Excel sang PPTX với Java – Hướng dẫn lập trình đầy đủ](./convert-excel-to-pptx-with-java-complete-programming-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang bản trình chiếu PPTX bằng Aspose.Cells for Java, bao gồm ví dụ mã và các tùy chọn tùy chỉnh.
 
+### [Cách xuất biểu đồ từ Excel sang Word – Hướng dẫn Java](./how-to-export-charts-from-excel-to-word-java-guide/)
+Hướng dẫn chi tiết cách xuất biểu đồ Excel sang tài liệu Word bằng Aspose.Cells for Java, bao gồm ví dụ mã và tùy chọn tùy chỉnh.
+
+### [Cách sử dụng WRAPCOLS trong Java – Hướng dẫn đầy đủ về công thức mảng Excel](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
+Tìm hiểu cách sử dụng hàm WRAPCOLS trong Java để làm việc với công thức mảng Excel, bao gồm ví dụ mã và hướng dẫn chi tiết.
+### [Tạo PowerPoint từ Excel – Hướng dẫn Java đầy đủ](./create-powerpoint-from-excel-full-java-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.Slides cho Java để chuyển đổi dữ liệu Excel thành bản trình chiếu PowerPoint, bao gồm ví dụ mã thực tế.
+
+### [Chuyển đổi Excel sang PowerPoint – Hướng dẫn Java đầy đủ](./convert-excel-to-powerpoint-complete-java-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang bản trình chiếu PowerPoint bằng Aspose.Slides cho Java, kèm ví dụ mã thực tế.
+### [Cách xuất biểu đồ từ Excel sang PowerPoint – Hướng dẫn Java đầy đủ](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
+Hướng dẫn chi tiết cách xuất biểu đồ Excel sang PowerPoint bằng Aspose.Cells for Java, bao gồm mã mẫu và các bước triển khai.
+### [Chuyển đổi Excel sang PowerPoint – Hướng dẫn đầy đủ từng bước](./convert-excel-to-powerpoint-full-step-by-step-guide/)
+Tìm hiểu cách chuyển đổi tệp Excel sang PowerPoint bằng Aspose.Cells cho Java trong hướng dẫn chi tiết từng bước.
+### [Cách lưu Excel dưới dạng DOCX với Aspose.Cells trong C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang định dạng DOCX bằng Aspose.Cells trong C#.
+### [Cách sao chép vùng dữ liệu từ Excel và xuất ra PowerPoint bằng Java](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+Hướng dẫn sao chép một vùng trong Excel và xuất nó thành slide PowerPoint bằng Aspose.Cells và Aspose.Slides cho Java.
+### [Chuyển đổi Excel sang PowerPoint với Aspose.Cells trong Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+Hướng dẫn cách chuyển đổi tệp Excel sang bản trình chiếu PowerPoint bằng Aspose.Cells cho Java.
+### [Cách lưu PPTX từ Excel – Hướng dẫn đầy đủ để xuất bảng tính Excel sang PowerPoint](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+Hướng dẫn chi tiết cách xuất dữ liệu từ bảng tính Excel sang file PowerPoint PPTX bằng Aspose.Cells cho Java.
+
+### [Cách sử dụng WRAPCOLS trong Java – Hướng dẫn đầy đủ cho việc chuyển đổi ma trận](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
+Hướng dẫn chi tiết cách áp dụng hàm WRAPCOLS trong Java để chuyển đổi dữ liệu thành ma trận, kèm ví dụ thực tế và mẹo tối ưu.
+
+### [Cách nhúng phông chữ khi chuyển đổi Excel sang PDF bằng Java](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
+Tìm hiểu cách nhúng phông chữ khi chuyển đổi tệp Excel sang PDF bằng Aspose.Cells cho Java.
 
 ## Tài nguyên bổ sung
 

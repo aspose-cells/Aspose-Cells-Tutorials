@@ -233,6 +233,23 @@ Aspose.Cells for Java का उपयोग करके स्तंभ रं
 ### [जावा के लिए Aspose.Cells का उपयोग करके Excel कक्षों को स्टाइल कैसे करें और हाइपरलिंक कैसे जोड़ें](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Aspose.Cells के साथ अपने जावा अनुप्रयोगों में Excel सेल की स्टाइलिंग और हाइपरलिंक जोड़ना सीखें। सहज एकीकरण और फ़ॉर्मेटिंग के लिए इस व्यापक गाइड का पालन करें।
 
+### [डेटा टेबल को Excel में परिवर्तित करते समय शैलियों को लागू करने का तरीका – पूर्ण जावा गाइड](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
+डेटा टेबल को Excel में बदलते समय Aspose.Cells for Java से शैलियों को लागू करने के चरण सीखें।
+
+### [Aspose Cells तिथि फ़ॉर्मेट: जावा में कस्टम तिथि फ़ॉर्मेट कैसे सेट करें](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+जावा के लिए Aspose.Cells का उपयोग करके Excel में कस्टम तिथि फ़ॉर्मेट सेट करने की पूरी गाइड। चरण-दर-चरण कोड उदाहरण और टिप्स।
+
+### [जावा के लिए Aspose.Cells का उपयोग करके Excel में संख्या फ़ॉर्मेट सेट करें – पूर्ण गाइड](./set-number-format-excel-in-java-complete-guide/)
+जावा में Aspose.Cells का उपयोग करके Excel में कस्टम संख्या फ़ॉर्मेट लागू करने के चरण-दर-चरण निर्देश।
+
+### [जावा में डायनामिक फ़ॉर्मेटिंग के साथ Excel वर्कबुक बनाएं – पूर्ण गाइड](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+जावा के लिए Aspose.Cells का उपयोग करके डायनामिक फ़ॉर्मेटिंग के साथ Excel वर्कबुक बनाने और प्रबंधित करने का चरण-दर-चरण मार्गदर्शन।
+
+### [जावा Excel निर्यात में फ़ॉन्ट को बोल्ड कैसे सेट करें: एक संपूर्ण गाइड](./set-font-bold-in-java-excel-export-complete-guide/)
+जावा के लिए Aspose.Cells का उपयोग करके Excel निर्यात में फ़ॉन्ट को बोल्ड करने का पूर्ण मार्गदर्शन।
+
+### [जावा के साथ Excel में कस्टम नंबर फ़ॉर्मेट सेट करें – पूर्ण गाइड](./set-custom-number-format-in-excel-with-java-complete-guide/)
+जावा के लिए Aspose.Cells का उपयोग करके Excel में कस्टम नंबर फ़ॉर्मेट कैसे लागू करें, चरण-दर-चरण गाइड।
 ### [जावा में स्टाइल्ड एक्सेल वर्कबुक बनाएं – पूर्ण गाइड](./create-styled-excel-workbook-in-java-complete-guide/)
 
 ### [Aspose.Cells में WRAPCOLS का उपयोग कैसे करें – पूर्ण Java उदाहरण](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)

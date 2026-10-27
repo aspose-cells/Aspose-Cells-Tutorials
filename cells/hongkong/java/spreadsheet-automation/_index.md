@@ -54,9 +54,28 @@
 
 ### [使用 Java 實現 Excel 自動化](./excel-automation-with-java/)
 了解如何使用 Aspose.Cells（一個強大的 Excel 操作庫）透過原始程式碼範例在 Java 中自動執行 Excel 任務。
-
+### [在 Java 中以程式方式建立 Excel – 步驟指南](./create-excel-programmatically-in-java-step-by-step-guide/)
+了解如何使用 Aspose.Cells for Java 以程式方式在 Java 中建立 Excel 檔案，提供完整步驟與原始碼示例。
 ### [Excel 中的資料集成](./data-integration-in-excel/)
 了解如何在 Excel 中有效地整合資料以獲得更好的洞察力和決策能力。使用 Aspose.Cells for Java 的源代碼的逐步指南。
+### [使用 Java 停用 Excel 自動篩選 – 步驟指南](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
+了解如何透過 Aspose.Cells for Java 程式碼停用 Excel 工作表的自動篩選功能，提升報表生成效率。
+### [如何使用 Java 關閉 Excel 自動篩選 – 完整指南](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+了解如何使用 Aspose.Cells for Java 在 Excel 中關閉自動篩選功能，並透過範例程式碼完整實作。
+### [如何使用 Java 關閉 Excel 中的 AutoFilter – 完整指南](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+了解如何使用 Aspose.Cells for Java 在 Excel 工作表中關閉 AutoFilter，並透過範例程式碼完成設定。
+### [使用 Java 建立垂直陣列 Excel – 完整步驟指南](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+了解如何使用 Aspose.Cells for Java 透過程式碼建立垂直陣列的 Excel 工作表，完整步驟說明。
+### [如何在 Java 中使用 Expand – 完整 Excel 指南](./how-to-use-expand-in-java-complete-excel-guide/)
+了解如何使用 Aspose.Cells for Java 透過原始程式碼範例在 Excel 中使用 Expand 功能，完成完整的操作指南。
+### [如何在 Excel 中使用 Java 清除自動篩選 – 完整指南](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+了解如何使用 Aspose.Cells for Java 透過程式碼清除 Excel 工作表的自動篩選，提升資料處理效率。
+### [建立新工作簿 Aspose – 新增自訂屬性至 Excel 並儲存為 XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+了解如何使用 Aspose.Cells for Java 建立工作簿、加入自訂屬性，並以 XLSB 格式儲存。
+### [使用 Java 在 Excel 中展開陣列 – 步驟指南](./expand-array-in-excel-with-java-step-by-step-guide/)
+了解如何使用 Aspose.Cells for Java 在 Excel 中展開陣列，透過範例一步步完成設定與操作。
+### [如何使用 Java 刪除 Excel 表格標題 – 完整指南](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+了解如何使用 Aspose.Cells for Java 刪除 Excel 表格的標題行，保持資料完整性。
 
 ### [使用 Java 從 Excel 移除自動篩選 – 完整指南](./remove-autofilter-from-excel-with-java-complete-guide/)
 了解如何使用 Aspose.Cells for Java 移除 Excel 工作表中的自動篩選，並透過範例程式碼完成完整操作。

@@ -62,6 +62,9 @@ Aprenda a gestionar formatos numéricos personalizados en libros de Java con Asp
 ### [Dominando la presentación de datos en Excel: Formato de números y fechas personalizado con Aspose.Cells para Java](./aspose-cells-java-data-formatting-excel/)
 Aprenda a aplicar formatos de números y estilos de fecha personalizados utilizando Aspose.Cells para Java, mejorando la presentación de datos en hojas de cálculo de Excel.
 
+### [Establecer formato de número personalizado en Excel con Aspose.Cells para Java: una guía completa](./set-custom-number-format-in-excel-with-java-complete-guide/)
+Aprenda a aplicar formatos de número personalizados en hojas de cálculo de Excel usando Aspose.Cells para Java, con ejemplos de código paso a paso.
+
 ### [Cómo crear y formatear celdas de Excel con Aspose.Cells para Java: guía paso a paso](./aspose-cells-java-excel-automation-guide/)
 Aprenda a automatizar y formatear archivos de Excel fácilmente con Aspose.Cells para Java. Esta guía explica cómo crear libros, formatear celdas y guardarlas.
 
@@ -233,6 +236,17 @@ Aprenda a ordenar eficientemente datos de Excel por color de columna con Aspose.
 ### [Cómo aplicar estilo a celdas de Excel y agregar hipervínculos con Aspose.Cells para Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Domine la aplicación de estilos a celdas de Excel y la adición de hipervínculos en sus aplicaciones Java con Aspose.Cells. Siga esta guía completa para una integración y un formato perfectos.
 
+### [Crear libro de Excel con formato dinámico en Java – Guía completa](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+Aprenda a crear libros de Excel con formato dinámico usando Aspose.Cells para Java, aplicando estilos y reglas de formato en tiempo de ejecución.
+### [Establecer formato numérico en Excel con Java – Guía completa](./set-number-format-excel-in-java-complete-guide/)
+Aprenda a establecer formatos numéricos personalizados en hojas de cálculo de Excel usando Aspose.Cells para Java.
+### [Cómo aplicar estilos al convertir DataTable a Excel – una guía completa de Java](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
+Aprenda a aplicar estilos a los datos de un DataTable al exportarlos a Excel usando Aspose.Cells para Java, con ejemplos paso a paso.
+
+### [Formato de fecha de Aspose Cells: cómo establecer un formato de fecha personalizado en Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+Aprenda a establecer formatos de fecha personalizados en Excel usando Aspose.Cells para Java. Esta guía paso a paso muestra cómo definir y aplicar patrones de fecha.
+### [Cómo establecer la fuente en negrita en la exportación de Excel con Java: guía completa](./set-font-bold-in-java-excel-export-complete-guide/)
+Aprenda a aplicar negrita a fuentes al exportar archivos Excel con Aspose.Cells para Java, mejorando la legibilidad y el estilo de sus documentos.
 ### [Crear libro de Excel con estilo en Java – Guía completa](./create-styled-excel-workbook-in-java-complete-guide/)
 Aprenda a crear libros de Excel con estilo profesional usando Aspose.Cells para Java. Esta guía paso a paso incluye ejemplos de código completos.
 

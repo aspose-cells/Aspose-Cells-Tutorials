@@ -69,6 +69,7 @@ weight: 18
 ### [كيفية استخدام Aspose.Cells Java لتجميد الألواح في Excel&#58; دليل خطوة بخطوة](./mastering-aspose-cells-java-freeze-panes-excel/)
 ### [تعديل وحدات VBA في Excel باستخدام Aspose.Cells for Java&#58; دليل شامل](./modify-vba-modules-excel-aspose-cells-java/)
 ### [تحديث مقاطع Slicers في ملفات Excel Java باستخدام Aspose.Cells for Java](./update-slicers-java-excel-aspose-cells/)
+### [تحليل التاريخ وفق اللغة المحلية في Java – دليل خطوة بخطوة كامل](./parse-date-with-locale-in-java-complete-step-by-step-guide/)
 
 ## موارد إضافية
 
