@@ -32,6 +32,9 @@ Pelajari cara mengakses lembar kerja tertentu berdasarkan nama menggunakan Aspos
 ### [Cara Menambahkan Lembar Kerja di Excel Menggunakan Aspose.Cells untuk Java: Panduan Lengkap](./add-spreadsheets-excel-aspose-cells-java/)
 Pelajari cara menambahkan lembar kerja ke berkas Excel secara terprogram menggunakan Aspose.Cells untuk Java. Panduan ini mencakup penyiapan, penerapan, dan aplikasi praktis.
 
+### [Buat Beberapa Lembar di Excel dengan Java – Panduan Lengkap Berbasis Template](./create-multiple-sheets-in-excel-with-java-complete-template/)
+Pelajari cara membuat banyak lembar kerja di Excel secara otomatis menggunakan Java dengan template lengkap dari Aspose.Cells.
+
 ### [Cara Memasukkan Kolom di Excel Menggunakan Aspose.Cells untuk Java - Panduan Lengkap](./aspose-cells-java-insert-column-excel/)
 Kuasai cara memasukkan kolom ke dalam lembar kerja Excel Anda dengan Aspose.Cells untuk Java. Ikuti panduan terperinci ini untuk mengotomatiskan pembuatan laporan dan meningkatkan pengelolaan data.
 
@@ -68,6 +71,9 @@ Pelajari cara mengelola buku kerja Excel dengan Aspose.Cells untuk Java. Panduan
 ### [Menyalin Baris Tunggal di Excel menggunakan Aspose.Cells untuk Java: Panduan Lengkap](./copy-single-row-excel-aspose-cells-java/)
 Pelajari cara menyalin satu baris secara efisien di Excel dengan Aspose.Cells untuk Java. Panduan ini mencakup kiat penyiapan, penerapan, dan pengoptimalan.
 
+### [Cara Membuat Lembar Detail Duplikat di Aspose.Cells untuk Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+Pelajari cara membuat lembar detail duplikat secara otomatis di file Excel menggunakan Aspose.Cells untuk Java.
+
 ### [Cara Menghapus Kolom Kosong di Excel Menggunakan Aspose.Cells Java: Panduan Lengkap](./delete-blank-columns-aspose-cells-java/)
 Pelajari cara menghapus kolom kosong dari file Excel secara efisien menggunakan Aspose.Cells Java, meningkatkan manajemen data dan otomatisasi alur kerja.
 
@@ -76,6 +82,9 @@ Pelajari cara menghapus kolom dari buku kerja Excel menggunakan Aspose.Cells unt
 
 ### [Cara Menghapus Baris di Excel Menggunakan Aspose.Cells untuk Java | Panduan & Tutorial](./delete-row-excel-aspose-cells-java/)
 Pelajari cara menghapus baris dari file Excel secara efisien menggunakan Aspose.Cells untuk Java. Panduan ini mencakup pengaturan, contoh kode, dan aplikasi praktis.
+
+### [Menghapus Baris di Lembar Kerja dengan Java – Panduan Lengkap](./delete-rows-in-worksheet-with-java-complete-guide/)
+Pelajari cara menghapus baris secara efisien dalam lembar kerja Excel menggunakan Aspose.Cells untuk Java dengan contoh kode lengkap.
 
 ### [Mengelola Visibilitas Tab Excel dengan Aspose.Cells di Java](./display-excel-tabs-aspose-cells-java/)
 Pelajari cara menampilkan atau menyembunyikan tab Excel menggunakan Aspose.Cells untuk Java. Panduan ini mencakup penyiapan, penerapan kode, dan praktik terbaik untuk manajemen lembar kerja yang efektif.
@@ -101,7 +110,12 @@ Tutorial kode untuk Aspose.Words Java
 ### [Menampilkan Baris & Kolom di Excel Menggunakan Aspose.Cells Java: Panduan Langkah demi Langkah](./unhide-rows-columns-excel-aspose-cells-java/)
 Pelajari cara mudah untuk menampilkan kembali baris dan kolom dalam file Excel menggunakan Aspose.Cells untuk Java. Otomatiskan pengelolaan data dengan panduan lengkap ini.
 
-
+### [Cara Menggunakan SmartMarkerProcessor untuk Penamaan Lembar Dinamis](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
+Pelajari cara memanfaatkan SmartMarkerProcessor untuk memberi nama lembar kerja secara dinamis dalam file Excel menggunakan Aspose.Cells untuk Java.
+### [Cara Menghapus Autofilter di Excel dengan Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+Pelajari cara menghapus filter otomatis (autofilter) pada lembar kerja Excel menggunakan Aspose.Cells untuk Java.
+### [Buat lembar kerja dari daftar dengan Aspose.Cells Java – Panduan Lengkap](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Pelajari cara membuat beberapa lembar kerja secara otomatis dari daftar data menggunakan Aspose.Cells untuk Java dalam panduan lengkap ini.
 
 ## Sumber Daya Tambahan
 

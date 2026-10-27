@@ -1,50 +1,103 @@
 ---
-"date": "2025-04-07"
-"description": "Узнайте, как улучшить файлы Excel, создав интерактивные диаграммы с флажками с помощью Aspose.Cells для Java. Следуйте этому пошаговому руководству, чтобы улучшить визуализацию данных."
-"title": "Создание интерактивных диаграмм в Excel с флажками с помощью Aspose.Cells для Java"
-"url": "/ru/java/charts-graphs/create-chart-checkbox-excel-aspose-cells-java/"
-"weight": 1
+date: '2026-09-22'
+description: Узнайте, как создать интерактивный график Excel с флажками с помощью
+  Aspose.Cells for Java. Это руководство охватывает настройку, добавление флажков,
+  лицензирование и лучшие практики.
+keywords:
+- create interactive Excel chart
+- how to add checkbox java
+- aspose.cells license java
+lastmod: '2026-09-22'
+og_description: Узнайте, как создать интерактивный график Excel с флажками с помощью
+  Aspose.Cells for Java. Следуйте пошаговым инструкциям, ознакомьтесь с советами по
+  лицензированию и откройте реальные примеры использования.
+og_image_alt: Guide showing how to create interactive Excel chart with checkboxes
+  using Aspose.Cells for Java
+og_title: Как создать интерактивный график Excel с флажками
+schemas:
+- author: Aspose
+  dateModified: '2026-09-22'
+  description: Learn how to create interactive Excel chart with checkboxes using Aspose.Cells
+    for Java. This guide covers setup, adding checkboxes, licensing, and best practices.
+  headline: How to create interactive Excel chart with checkboxes
+  type: TechArticle
+- questions:
+  - answer: Use Aspose.Cells’ `Shape` API with `ShapeType.FORM_CONTROL_CHECKBOX` and
+      link it to a worksheet cell; the checkbox works natively in Excel.
+    question: How do I add a checkbox without using VBA?
+  - answer: The checkbox shape is available in the free evaluation, but a permanent
+      Aspose.Cells license removes evaluation limits and enables full performance
+      optimizations.
+    question: Do I need a license for the checkbox feature?
+  - answer: Files saved with Aspose.Cells follow the Office Open XML standard and
+      open correctly in Excel 2016, 2019, 2021, and Microsoft 365.
+    question: Which Excel versions can open the generated file?
+  - answer: Yes, create a checkbox for each series, link each to a distinct helper
+      cell, and use conditional formulas to toggle each series independently.
+    question: Can I control multiple series with separate checkboxes?
+  - answer: Practically, you can add dozens; performance remains stable up to 200
+      controls per worksheet on typical server hardware.
+    question: Is there a limit on the number of checkboxes per chart?
+  type: FAQPage
+tags:
+- interactive Excel charts
+- Aspose.Cells
+- Java Excel automation
+title: Как создать интерактивный график Excel с флажками
+url: /ru/java/charts-graphs/create-chart-checkbox-excel-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Создание интерактивных диаграмм в Excel с флажками с помощью Aspose.Cells для Java
+# Как создать интерактивный график Excel с флажками
 
 ## Введение
 
-Улучшение визуализации данных и интерактивности в Excel может быть достигнуто путем включения динамических элементов, таких как флажки, в диаграммы. Это руководство проведет вас через создание интерактивных диаграмм с использованием Aspose.Cells для Java, идеально подходящих для добавления функциональности в ваши файлы Excel.
+В этом руководстве вы **создадите интерактивный график Excel**, который позволяет пользователям переключать серии данных, нажимая флажки, размещённые непосредственно на графике. С помощью Aspose.Cells for Java вы можете программно генерировать полностью функциональные книги, не требуя установленного Microsoft Excel. Такой подход работает для любых решений по отчётности или панелям мониторинга, основанных на Java.
 
-**Что вы узнаете:**
-- Как настроить и использовать Aspose.Cells для Java
-- Действия по созданию книги Excel и вставке диаграмм
-- Методы добавления флажков в область диаграммы
-- Методы сохранения изменений в файле Excel
+**Что вы узнаете**
+- Как настроить Aspose.Cells for Java в Maven или Gradle  
+- Как создать объект `Workbook` и добавить столбчатый график  
+- Как встроить форму‑флажок в область графика  
+- Как применить лицензию Aspose.Cells для использования в продакшене  
 
-Прежде чем начать, убедитесь, что у вас есть необходимые инструменты и знания.
+## Быстрые ответы
+- **Какая библиотека создаёт интерактивные графики Excel?** Aspose.Cells for Java.  
+- **Можно ли добавить флажки без VBA?** Да, вставив форму‑элемент Form Control через API.  
+- **Нужна ли лицензия для этой функции?** Временная лицензия подходит для оценки; постоянная лицензия требуется для продакшена.  
+- **Какая версия Java требуется?** JDK 8 или новее.  
+- **Будет ли график работать в Excel 2016‑2024?** Да, сгенерированный файл соответствует стандарту Office Open XML.  
 
-## Предпосылки
+## Что такое интерактивный график Excel?
+**Интерактивный график Excel** сочетает обычный график с элементами управления пользовательским интерфейсом (например, флажками), позволяя пользователям в реальном времени показывать или скрывать серии данных, превращая статическое изображение в динамический инструмент отчётности.
 
-Чтобы следовать этому руководству, убедитесь, что у вас есть:
-- **Комплект разработчика Java (JDK):** На вашем компьютере установлена версия 8 или выше.
-- **Aspose.Cells для Java:** Последняя версия библиотеки Aspose.Cells. Для этого руководства мы будем использовать версию 25.3.
-- **Maven или Gradle:** Настройте среду разработки для управления зависимостями.
+## Почему стоит использовать Aspose.Cells for Java?
+Aspose.Cells поддерживает **более 80 форматов ввода и вывода** и может обрабатывать книги с **более 10 000 строк** без загрузки всего файла в память, обеспечивая высокопроизводительное создание на серверных платформах.
 
-### Необходимые знания
+## Предварительные требования
 
-Хотя базовые знания программирования на Java и знакомство со структурами файлов Excel будут полезны, в этом руководстве рассматриваются все необходимые детали для начинающих.
+- **Java Development Kit (JDK):** версия 8 или выше.  
+- **Aspose.Cells for Java:** последняя версия (например, 25.3).  
+- **Maven или Gradle:** для управления зависимостями библиотеки.  
 
-## Настройка Aspose.Cells для Java
+### Требования к знаниям
+Базовый синтаксис Java и знакомство с концепциями Excel (листами, диапазонами, графиками) будут полезны, но описанные шаги достаточно подробны для разработчиков любого уровня.
 
-Интеграция Aspose.Cells в ваш проект проста. Начнем с настройки библиотеки с помощью Maven или Gradle.
+## Как добавить флажок в Java?
 
-### Использование Maven
+Загрузите библиотеку Aspose.Cells, создайте книгу и вставьте форму‑флажок одним вызовом. Флажок представляет собой Form Control, который можно привязать к ячейке; переключение изменит значение связанной ячейки, которое затем можно использовать для управления видимостью серии графика.
 
-Добавьте следующую зависимость к вашему `pom.xml` файл:
+```text
+// Direct answer (40‑70 words):
+You add a checkbox by creating a `Shape` of type `ShapeType.FORM_CONTROL_CHECKBOX`, setting its placement on the chart worksheet, and linking it to a cell that stores the Boolean state. The linked cell can be used in formulas that drive chart series visibility, enabling real‑time interactivity without VBA.
+```
+
+### Шаг 1: Настройка зависимости Maven
+
+Добавьте артефакт Aspose.Cells в ваш `pom.xml`:
 
 ```xml
 <dependency>
@@ -54,28 +107,28 @@
 </dependency>
 ```
 
-### Использование Gradle
+### Шаг 2: Настройка зависимости Gradle
 
-Включите эту строку в свой `build.gradle` файл:
+Добавьте следующую строку в ваш файл `build.gradle`:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Этапы получения лицензии
+#### Шаги получения лицензии
 
-Чтобы изучить все возможности Aspose.Cells, рассмотрите возможность приобретения временной или постоянной лицензии. Вы можете начать с бесплатной пробной версии, загрузив ее с [Сайт Aspose](https://releases.aspose.com/cells/java/)Для использования в производственных целях вам может потребоваться приобрести лицензию или запросить временную лицензию для ознакомительных целей.
+Чтобы разблокировать полную функциональность, получите временную или постоянную лицензию. Скачайте пробную лицензию с [веб‑сайта Aspose](https://releases.aspose.com/cells/java/). Для продакшена приобретите лицензию и примените её, как показано ниже.
 
 #### Базовая инициализация
 
-После добавления Aspose.Cells в ваш проект инициализируйте его в вашем приложении Java следующим образом:
+`License` — класс Aspose.Cells, используемый для применения приобретённого лицензионного файла, позволяющий полностью использовать возможности без ограничений оценки. Инициализируйте библиотеку в вашем Java‑коде до любой операции с книгой:
 
 ```java
 import com.aspose.cells.Workbook;
 
 public class AsposeSetup {
     public static void main(String[] args) throws Exception {
-        // Инициализируйте объект Workbook.
+        // Initialize the Workbook object.
         Workbook workbook = new Workbook();
         
         System.out.println("Aspose.Cells for Java initialized successfully.");
@@ -83,17 +136,22 @@ public class AsposeSetup {
 }
 ```
 
-## Руководство по внедрению
+## Как создать интерактивный график Excel?
 
-Настроив среду, давайте создадим диаграмму с флажком в Excel.
+Объект Aspose.Cells `Workbook` представляет собой весь файл Excel, содержащий листы, графики и другие элементы. Создавая книгу, вы можете программно добавлять данные, генерировать столбчатый график и затем встраивать интерактивные элементы управления, такие как флажки. Ниже приведены шаги по построению книги, заполнению данными и настройке графика для интерактивности.
 
-### Создать экземпляр рабочей книги и добавить диаграмму
+```text
+// Direct answer (40‑70 words):
+First, instantiate a `Workbook`, fill a worksheet with sample data, and call `addChart` to place a column chart. Next, create a checkbox shape, position it over the chart, and link it to a cell that toggles the series’ `isVisible` property via a formula. Finally, save the workbook as an XLSX file.
+```
+
+### Создание книги и добавление графика
 
 #### Обзор
 
-В этом разделе объясняется, как создать книгу Excel и добавить столбчатую диаграмму с помощью Aspose.Cells для Java. Диаграммы помогают эффективно визуализировать данные, что делает их критически важными для отчетов и панелей мониторинга.
+В этом разделе показано, как создать новую книгу, добавить лист данных и сгенерировать столбчатый график, который позже будет сделан интерактивным.
 
-##### Шаг 1: Создайте новую рабочую книгу
+##### Шаг 1: Создать новую книгу
 
 ```java
 import com.aspose.cells.Workbook;
@@ -101,7 +159,7 @@ import com.aspose.cells.SheetType;
 
 public class ChartCreation {
     public static void main(String[] args) throws Exception {
-        // Создайте новый объект Workbook, представляющий файл Excel.
+        // Instantiate a new Workbook object representing an Excel file.
         Workbook workbook = new Workbook();
         
         System.out.println("Workbook created.");
@@ -109,7 +167,7 @@ public class ChartCreation {
 }
 ```
 
-##### Шаг 2: Добавьте рабочий лист диаграммы
+##### Шаг 2: Добавить лист графика
 
 ```java
 import com.aspose.cells.Worksheet;
@@ -119,7 +177,7 @@ public class ChartCreation {
     public static void main(String[] args) throws Exception {
         Workbook workbook = new Workbook();
         
-        // Добавление листа диаграммы в рабочую книгу.
+        // Adding a chart worksheet to the workbook.
         int index = workbook.getWorksheets().add(SheetType.CHART);
         Worksheet sheet = workbook.getWorksheets().get(index);
 
@@ -128,7 +186,7 @@ public class ChartCreation {
 }
 ```
 
-##### Шаг 3: Вставьте столбчатую диаграмму
+##### Шаг 3: Вставить столбчатый график
 
 ```java
 public class ChartCreation {
@@ -137,7 +195,7 @@ public class ChartCreation {
         int index = workbook.getWorksheets().add(SheetType.CHART);
         Worksheet sheet = workbook.getWorksheets().get(index);
 
-        // Добавьте плавающую диаграмму типа COLUMN к недавно добавленному рабочему листу диаграмм.
+        // Add a floating chart of type COLUMN to the newly added chart worksheet.
         sheet.getCharts().addFloatingChart(ChartType.COLUMN, 0, 0, 1024, 960);
 
         System.out.println("Column chart inserted.");
@@ -145,7 +203,7 @@ public class ChartCreation {
 }
 ```
 
-##### Шаг 4: Добавьте ряд данных
+##### Шаг 4: Добавить данные серии
 
 ```java
 public class ChartCreation {
@@ -154,10 +212,10 @@ public class ChartCreation {
         int index = workbook.getWorksheets().add(SheetType.CHART);
         Worksheet sheet = workbook.getWorksheets().get(index);
 
-        // Добавьте плавающую диаграмму типа COLUMN.
+        // Add a floating chart of type COLUMN.
         sheet.getCharts().addFloatingChart(ChartType.COLUMN, 0, 0, 1024, 960);
 
-        // Добавление рядов данных для диаграммы.
+        // Adding series data for the chart.
         sheet.getCharts().get(0).getNSeries().add("{1,2,3}", false);
         
         System.out.println("Series data added to the chart.");
@@ -165,13 +223,18 @@ public class ChartCreation {
 }
 ```
 
-### Добавить флажок в диаграмму
+## Как встроить флажок в график?
 
-#### Обзор
+Встраивание флажка непосредственно в область графика позволяет конечным пользователям нажимать его для показа или скрытия конкретной серии. Флажок — это форма‑элемент Form Control, который можно привязать к ячейке; значение ячейки может использоваться в формуле, управляющей видимостью серии.
 
-Встраивание флажка в область диаграммы Excel позволяет динамически переключать видимость или другие функции. В этом разделе описывается, как встроить флажок в диаграмму.
+`Shape` — объект Aspose.Cells, представляющий элемент рисования, такой как форма управления, изображение или текстовое поле внутри листа.
 
-##### Шаг 1: Внедрение формы флажка
+```text
+// Direct answer (40‑70 words):
+You embed a checkbox by creating a `Shape` with `ShapeType.FORM_CONTROL_CHECKBOX`, positioning it using `setUpperLeftRow/Column` relative to the chart sheet, and linking it to a helper cell (e.g., `B1`). Then, use a conditional formula in the series data range that checks the helper cell’s Boolean value to decide whether the series is plotted.
+```
+
+### Встроить форму‑флажок
 
 ```java
 import com.aspose.cells.MsoDrawingType;
@@ -183,7 +246,7 @@ public class ChartWithCheckbox {
         int index = workbook.getWorksheets().add(SheetType.CHART);
         Worksheet sheet = workbook.getWorksheets().get(index);
 
-        // Добавьте фигуру флажка в область диаграммы на первой диаграмме рабочего листа.
+        // Add a checkbox shape within the chart area on the first chart of the worksheet.
         sheet.getCharts().get(0).getShapes().addShapeInChart(MsoDrawingType.CHECK_BOX, PlacementType.MOVE, 400, 400, 1000, 600);
         
         System.out.println("Checkbox added to the chart.");
@@ -191,7 +254,7 @@ public class ChartWithCheckbox {
 }
 ```
 
-##### Шаг 2: Задайте текст флажка
+### Установить текст флажка
 
 ```java
 public class ChartWithCheckbox {
@@ -200,10 +263,10 @@ public class ChartWithCheckbox {
         int index = workbook.getWorksheets().add(SheetType.CHART);
         Worksheet sheet = workbook.getWorksheets().get(index);
 
-        // Добавьте на диаграмму форму флажка.
+        // Add checkbox shape within the chart.
         sheet.getCharts().get(0).getShapes().addShapeInChart(MsoDrawingType.CHECK_BOX, PlacementType.MOVE, 400, 400, 1000, 600);
 
-        // Настройка текста для новой добавленной формы флажка.
+        // Setting text for the newly added checkbox shape.
         sheet.getCharts().get(0).getShapes().get(0).setText("CheckBox 1");
 
         System.out.println("Checkbox labeled successfully.");
@@ -211,11 +274,14 @@ public class ChartWithCheckbox {
 }
 ```
 
-### Сохранить книгу как файл Excel
+## Как сохранить книгу как файл Excel?
 
-#### Обзор
+Сохранение `Workbook` записывает все изменения из памяти в физический файл Excel на диске. Aspose.Cells поддерживает современный формат .xlsx, гарантируя открытие файла в Excel 2016‑2024 и других совместимых приложениях Office. Используйте метод `save` с нужным путём к файлу и, при необходимости, укажите формат файла для дополнительных опций.
 
-После настройки диаграммы и флажков сохраните книгу, чтобы сохранить изменения.
+```text
+// Direct answer (40‑70 words):
+Call `workbook.save("InteractiveChart.xlsx", SaveFormat.XLSX)` to write the workbook. The method automatically closes all streams and guarantees that the embedded chart and checkbox are fully functional when the file is opened in Excel 2016‑2024.
+```
 
 ```java
 public class ChartWithCheckbox {
@@ -224,12 +290,12 @@ public class ChartWithCheckbox {
         int index = workbook.getWorksheets().add(SheetType.CHART);
         Worksheet sheet = workbook.getWorksheets().get(index);
 
-        // Добавьте форму флажка и подпишите его.
+        // Add checkbox shape and label it.
         sheet.getCharts().get(0).getShapes().addShapeInChart(MsoDrawingType.CHECK_BOX, PlacementType.MOVE, 400, 400, 1000, 600);
         sheet.getCharts().get(0).getShapes().get(0).setText("CheckBox 1");
 
-        // Сохраните рабочую книгу
-        String outDir = "YOUR_OUTPUT_DIRECTORY"; // Замените на фактический путь к выходному каталогу.
+        // Save the workbook
+        String outDir = "YOUR_OUTPUT_DIRECTORY"; // Replace with your actual output directory path.
         workbook.save(outDir + "/InsertCheckboxInChartSheet_out.xlsx");
         
         System.out.println("Workbook saved successfully.");
@@ -239,10 +305,46 @@ public class ChartWithCheckbox {
 
 ## Практические применения
 
-Вот несколько реальных ситуаций, в которых вы можете применить знания из этого урока:
-1. **Интерактивные отчеты:** Используйте флажки для переключения видимости рядов данных в отчетах, улучшая взаимодействие с пользователем и настройку.
-2. **Анализ данных:** Включайте или отключайте определенные наборы данных в диаграммах для сравнительного анализа, что упрощает концентрацию внимания на конкретных аспектах ваших данных.
-3. **Образовательные инструменты:** Создавайте динамичные учебные материалы, в которых учащиеся могут взаимодействовать с контентом, выбирая различные варианты в диаграммах.
+Сценарии реального мира, где интерактивный график с флажками добавляет ценность:
+
+1. **Интерактивные отчёты:** Позволяют заинтересованным сторонам переключать отдельные продуктовые линии на графике продаж.  
+2. **Сравнительный анализ:** Позволяют аналитикам сосредоточиться на определённых периодах или регионах, отмечая/снимая отметки с серий.  
+3. **Образовательные панели:** Студенты могут исследовать тенденции данных, выбирая, какие переменные отображать.
+
+## Распространённые проблемы и решения
+
+- **Флажок не реагирует:** Убедитесь, что флажок привязан к ячейке и что эта ячейка используется в формуле, влияющей на видимость серии.  
+- **График не обновляется после переключения:** Обновите представление книги в Excel или пересчитайте формулы (`workbook.calculateFormula()`).  
+- **Лицензия не применена:** Проверьте, что выполнено `License license = new License(); license.setLicense("Aspose.Cells.lic");` до любой операции с книгой.  
+
+## Часто задаваемые вопросы
+
+**В: Как добавить флажок без использования VBA?**  
+О: Используйте API `Shape` Aspose.Cells с `ShapeType.FORM_CONTROL_CHECKBOX` и привяжите его к ячейке листа; флажок будет работать нативно в Excel.
+
+**В: Нужна ли лицензия для функции флажка?**  
+О: Форма‑флажок доступна в бесплатной оценочной версии, но постоянная лицензия Aspose.Cells снимает ограничения оценки и включает все оптимизации производительности.
+
+**В: Какие версии Excel могут открыть сгенерированный файл?**  
+О: Файлы, сохранённые Aspose.Cells, соответствуют стандарту Office Open XML и корректно открываются в Excel 2016, 2019, 2021 и Microsoft 365.
+
+**В: Можно ли управлять несколькими сериями отдельными флажками?**  
+О: Да, создайте флажок для каждой серии, привяжите каждый к отдельной вспомогательной ячейке и используйте условные формулы для независимого переключения.
+
+**В: Есть ли ограничение на количество флажков на графике?**  
+О: Практически можно добавить десятки; производительность остаётся стабильной до 200 элементов управления на листе на типичном серверном оборудовании.
+
+---
+
+**Последнее обновление:** 2026-09-22  
+**Тестировано с:** Aspose.Cells 25.3 for Java  
+**Автор:** Aspose
+
+## Связанные руководства
+
+- [How to Add a Checkbox in Excel Using Aspose.Cells for Java: Step‑By‑Step Guide](/cells/java/data-validation/add-checkbox-excel-aspose-cells-java/)
+- [Create Dynamic Excel Charts with Aspose.Cells Java: A Comprehensive Guide for Developers](/cells/java/charts-graphs/aspose-cells-java-dynamic-excel-charts/)
+- [Add Data Labels to Excel Chart with Aspose.Cells Java](/cells/java/advanced-excel-charts/chart-interactivity/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

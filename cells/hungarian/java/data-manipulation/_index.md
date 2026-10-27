@@ -62,7 +62,8 @@ Ismerje meg, hogyan töltheti fel hatékonyan az Excel-táblázatokat beágyazot
 ### [Regex csere végrehajtása Excelben az Aspose.Cells for Java használatával: Átfogó útmutató](./regex-replacement-excel-aspose-cells-java-guide/)
 Ismerje meg, hogyan automatizálhatja a szövegcseréket Excel fájlokban reguláris kifejezések használatával az Aspose.Cells for Java segítségével. Ez a lépésről lépésre szóló útmutató az inicializálást, a konfigurációt és a gyakorlati alkalmazásokat ismerteti.
 
-
+### [Hogyan oszthatók szét oszlopok Java-ban az Aspose.Cells segítségével – lépés‑ről‑lépésre útmutató](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
+Tanuld meg, hogyan oszthatod szét az oszlopokat Java-ban az Aspose.Cells használatával, részletes lépésekkel.
 
 ## További források
 

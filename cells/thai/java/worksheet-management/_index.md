@@ -32,6 +32,9 @@
 ### [วิธีเพิ่มเวิร์กชีตใน Excel โดยใช้ Aspose.Cells สำหรับ Java: คู่มือฉบับสมบูรณ์](./add-spreadsheets-excel-aspose-cells-java/)
 เรียนรู้วิธีการเพิ่มเวิร์กชีตลงในไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า การใช้งาน และแอปพลิเคชันจริง
 
+### [สร้างแผ่นงานจากรายการด้วย Aspose.Cells Java – คู่มือฉบับสมบูรณ์](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+เรียนรู้วิธีสร้างแผ่นงานหลายแผ่นจากรายการโดยใช้ Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดทีละขั้นตอน
+
 ### [วิธีแทรกคอลัมน์ใน Excel โดยใช้ Aspose.Cells สำหรับ Java - คู่มือฉบับสมบูรณ์](./aspose-cells-java-insert-column-excel/)
 เรียนรู้การแทรกคอลัมน์ลงในเวิร์กชีต Excel ด้วย Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำโดยละเอียดนี้เพื่อสร้างรายงานอัตโนมัติและปรับปรุงการจัดการข้อมูล
 
@@ -62,6 +65,9 @@
 ### [การเรียนรู้ Aspose.Cells ใน Java: ใช้ Smart Markers สำหรับข้อมูลไดนามิกในเวิร์กชีต](./aspose-cells-java-smart-markers-worksheets/)
 เรียนรู้วิธีการสร้างไฟล์ Excel โดยอัตโนมัติโดยใช้ Aspose.Cells สำหรับ Java พร้อมมาร์กเกอร์อัจฉริยะ ปรับปรุงการจัดการข้อมูลและเพิ่มประสิทธิภาพเวิร์กโฟลว์ของคุณวันนี้
 
+### [วิธีใช้ SmartMarkerProcessor สำหรับการตั้งชื่อแผ่นงานแบบไดนามิก](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
+เรียนรู้วิธีใช้ SmartMarkerProcessor เพื่อกำหนดชื่อแผ่นงานใน Excel อย่างอัตโนมัติและไดนามิกด้วย Aspose.Cells for Java
+
 ### [Master Aspose.Cells Java: คู่มือครอบคลุมสำหรับการจัดการเวิร์กบุ๊กและเวิร์กชีต](./aspose-cells-java-workbook-worksheet-guide/)
 เรียนรู้วิธีจัดการเวิร์กบุ๊ก Excel ด้วย Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการสร้างอินสแตนซ์เวิร์กบุ๊ก การเข้าถึงเวิร์กชีต การตั้งค่าหน้า การพิมพ์ชื่อเรื่อง และอื่นๆ อีกมากมาย
 
@@ -76,6 +82,9 @@
 
 ### [วิธีการลบแถวใน Excel โดยใช้ Aspose.Cells สำหรับ Java | คำแนะนำและบทช่วยสอน](./delete-row-excel-aspose-cells-java/)
 เรียนรู้วิธีการลบแถวออกจากไฟล์ Excel อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า ตัวอย่างโค้ด และการใช้งานจริง
+
+### [ลบแถวในแผ่นงานด้วย Java – คู่มือฉบับสมบูรณ์](./delete-rows-in-worksheet-with-java-complete-guide/)
+เรียนรู้วิธีลบแถวในแผ่นงาน Excel อย่างมีประสิทธิภาพด้วย Aspose.Cells สำหรับ Java ด้วยคู่มือฉบับสมบูรณ์นี้
 
 ### [จัดการการมองเห็นแท็บ Excel ด้วย Aspose.Cells ใน Java](./display-excel-tabs-aspose-cells-java/)
 เรียนรู้วิธีแสดงหรือซ่อนแท็บ Excel โดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า การนำโค้ดไปใช้ และแนวทางปฏิบัติที่ดีที่สุดสำหรับการจัดการเวิร์กชีตอย่างมีประสิทธิภาพ
@@ -101,7 +110,12 @@
 ### [ยกเลิกการซ่อนแถวและคอลัมน์ใน Excel โดยใช้ Aspose.Cells Java: คำแนะนำทีละขั้นตอน](./unhide-rows-columns-excel-aspose-cells-java/)
 เรียนรู้วิธีการแสดงแถวและคอลัมน์ในไฟล์ Excel ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ Java จัดการข้อมูลโดยอัตโนมัติด้วยคู่มือฉบับสมบูรณ์นี้
 
-
+### [สร้างหลายแผ่นงานใน Excel ด้วย Java – คู่มือเต็มรูปแบบแบบใช้เทมเพลต](./create-multiple-sheets-in-excel-with-java-complete-template/)
+เรียนรู้วิธีสร้างหลายแผ่นงานในไฟล์ Excel ด้วย Java โดยใช้เทมเพลตที่กำหนดเองเพื่ออัตโนมัติและเพิ่มประสิทธิภาพการทำงาน
+### [วิธีล้าง Autofilter ใน Excel ด้วย Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+เรียนรู้วิธีล้างตัวกรองอัตโนมัติในไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ Java
+### [วิธีสร้างแผ่นงานรายละเอียดซ้ำใน Aspose.Cells สำหรับ Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+เรียนรู้วิธีสร้างแผ่นงานรายละเอียดที่ซ้ำกันในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java
 
 ## แหล่งข้อมูลเพิ่มเติม
 

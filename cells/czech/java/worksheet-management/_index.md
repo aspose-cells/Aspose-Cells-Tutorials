@@ -32,6 +32,9 @@ Naučte se, jak přistupovat ke konkrétním pracovním listům podle názvu pom
 ### [Jak přidat pracovní listy v Excelu pomocí Aspose.Cells pro Javu: Kompletní průvodce](./add-spreadsheets-excel-aspose-cells-java/)
 Naučte se, jak programově přidávat pracovní listy do souboru aplikace Excel pomocí Aspose.Cells pro Javu. Tato příručka se zabývá nastavením, implementací a praktickými aplikacemi.
 
+### [Vytvoření více listů v Excelu pomocí Javy – Kompletní průvodce založený na šabloně](./create-multiple-sheets-in-excel-with-java-complete-template/)
+Naučte se, jak pomocí Aspose.Cells pro Javu vytvořit více listů v Excelu pomocí šablon, s podrobnými ukázkami kódu a tipy pro automatizaci.
+
 ### [Jak vložit sloupec do Excelu pomocí Aspose.Cells pro Javu - Komplexní průvodce](./aspose-cells-java-insert-column-excel/)
 Zvládněte vkládání sloupců do excelových listů s Aspose.Cells pro Javu. Postupujte podle tohoto podrobného návodu k automatizaci generování sestav a vylepšení správy dat.
 
@@ -59,6 +62,9 @@ Výukový program pro Aspose.Words v Javě
 ### [Zvládnutí Aspose.Cells v Javě: Využití inteligentních značek pro dynamická data v pracovních listech](./aspose-cells-java-smart-markers-worksheets/)
 Naučte se, jak automatizovat generování souborů Excelu pomocí Aspose.Cells pro Javu s inteligentními značkami. Zjednodušte správu dat a optimalizujte svůj pracovní postup ještě dnes.
 
+### [Jak použít SmartMarkerProcessor pro dynamické pojmenování listů](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
+Naučte se, jak pomocí SmartMarkerProcessor automaticky pojmenovávat listy v Excelu během generování souboru.
+
 ### [Zvládněte Aspose.Cells v Javě: Komplexní průvodce správou sešitů a listů](./aspose-cells-java-workbook-worksheet-guide/)
 Naučte se, jak spravovat sešity aplikace Excel pomocí nástroje Aspose.Cells pro Javu. Tato příručka se zabývá vytvářením instancí sešitů, přístupem k pracovním listům, nastavením stránek, titulky pro tisk a dalšími informacemi.
 
@@ -73,6 +79,11 @@ Naučte se, jak odstranit sloupce z excelového sešitu pomocí Aspose.Cells pro
 
 ### [Jak odstranit řádky v Excelu pomocí Aspose.Cells pro Javu | Průvodce a tutoriál](./delete-row-excel-aspose-cells-java/)
 Naučte se, jak efektivně mazat řádky ze souboru Excelu pomocí Aspose.Cells pro Javu. Tato příručka se zabývá nastavením, příklady kódu a praktickými aplikacemi.
+
+### [Odstranění řádků v listu pomocí Javy – Kompletní průvodce](./delete-rows-in-worksheet-with-java-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells pro Javu efektivně mazat řádky v listu Excelu. Kompletní průvodce s ukázkami kódu.
+### [Jak vymazat automatický filtr v Excelu pomocí Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+Naučte se, jak programově vymazat nastavený automatický filtr v souborech Excel pomocí Aspose.Cells pro Javu.
 
 ### [Správa viditelnosti záložek v Excelu pomocí Aspose.Cells v Javě](./display-excel-tabs-aspose-cells-java/)
 Naučte se, jak zobrazit nebo skrýt karty Excelu pomocí Aspose.Cells pro Javu. Tato příručka se zabývá nastavením, implementací kódu a osvědčenými postupy pro efektivní správu listů.
@@ -98,6 +109,10 @@ Výukový program pro Aspose.Words v Javě
 ### [Zobrazit skryté řádky a sloupce v Excelu pomocí Aspose.Cells v Javě: Podrobný návod](./unhide-rows-columns-excel-aspose-cells-java/)
 Naučte se, jak snadno zobrazit skryté řádky a sloupce v souborech Excelu pomocí Aspose.Cells pro Javu. Automatizujte správu dat s tímto komplexním průvodcem.
 
+### [Jak vytvořit duplicitní detailní listy v Aspose.Cells pro Javu](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+Naučte se, jak programově vytvořit duplicitní detailní listy v Excelu pomocí Aspose.Cells pro Javu.
+### [Vytvoření pracovních listů ze seznamu pomocí Aspose.Cells pro Javu – Kompletní průvodce](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Naučte se, jak pomocí Aspose.Cells pro Javu vytvořit více pracovních listů ze seznamu dat.
 ### [Zmrazení prvních dvou řádků v Excelu pomocí Javy – Kompletní průvodce](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
 Naučte se, jak zmrazit první dva řádky v sešitu Excel pomocí Aspose.Cells pro Javu a zlepšit čitelnost tabulek.
 

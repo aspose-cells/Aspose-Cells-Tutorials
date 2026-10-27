@@ -98,7 +98,7 @@ Dowiedz się, jak stosować formatowanie indeksu górnego do komórek programu E
 ### [Efekty tekstowe Master Cienie w programie Excel przy użyciu Aspose.Cells Java: kompleksowy przewodnik](./aspose-cells-java-text-effects-shadows-excel/)
 Dowiedz się, jak dodawać cienie efektów tekstowych do kształtów i pól tekstowych w programie Excel przy użyciu Aspose.Cells dla języka Java. Ulepsz swoje arkusze kalkulacyjne za pomocą dynamicznych elementów wizualnych.
 
-### [Aspose.Cells Java: Aktualizacja ustawień tekstu sformatowanego i czcionek w komórkach programu Excel](./aspose-cells-java-update-rich-text-fonts/)
+### [Aspose Cells Java: Aktualizacja ustawień tekstu sformatowanego i czcionek w komórkach programu Excel](./aspose-cells-java-update-rich-text-fonts/)
 Dowiedz się, jak skutecznie aktualizować komórki z tekstem sformatowanym i ustawienia czcionek za pomocą Aspose.Cells dla Java. Ulepsz zarządzanie plikami Excela dzięki precyzyjnym technikom formatowania.
 
 ### [Opanuj zarządzanie skoroszytami i stylami za pomocą Aspose.Cells dla Java](./aspose-cells-java-workbook-style-management/)
@@ -228,7 +228,7 @@ Naucz się optymalizować arkusze Excela, łącząc komórki za pomocą Aspose.C
 Dowiedz się, jak obracać tekst w komórkach programu Excel za pomocą Aspose.Cells dla języka Java. Ulepsz swoje arkusze kalkulacyjne dzięki lepszej czytelności i projektowi.
 
 ### [Jak ustawić współczynnik powiększenia arkusza kalkulacyjnego programu Excel za pomocą Aspose.Cells dla języka Java](./set-zoom-factor-excel-aspose-cells-java/)
-Dowiedz się, jak ustawić współczynnik powiększenia w arkuszach kalkulacyjnych programu Excel za pomocą Aspose.Cells dla języka Java. Ulepsz swoje możliwości prezentacji i przeglądania danych programowo.
+Dowiedz się, jak ustawić współczynnik powiększenia w arkuszach kalkulacyjnych programu Excel za pomocą Aspose.Cells for Java. Ulepsz swoje możliwości prezentacji i przeglądania danych programowo.
 
 ### [Jak sortować dane w programie Excel według koloru kolumny za pomocą Aspose.Cells Java: kompletny przewodnik](./sort-excel-data-by-column-color-aspose-cells-java/)
 Dowiedz się, jak skutecznie sortować dane w programie Excel według koloru kolumny za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje wymagania wstępne, kroki implementacji i praktyczne zastosowania.
@@ -236,7 +236,26 @@ Dowiedz się, jak skutecznie sortować dane w programie Excel według koloru kol
 ### [Jak stylizować komórki programu Excel i dodawać hiperłącza za pomocą Aspose.Cells dla języka Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Opanuj stylizowanie komórek Excela i dodawanie hiperłączy w aplikacjach Java za pomocą Aspose.Cells. Postępuj zgodnie z tym kompleksowym przewodnikiem, aby uzyskać bezproblemową integrację i formatowanie.
 
+### [Utwórz skoroszyt Excel z dynamicznym formatowaniem w Javie – kompletny przewodnik](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+Dowiedz się, jak programowo tworzyć skoroszyty Excel i stosować dynamiczne formatowanie przy użyciu Aspose.Cells dla Java.
+### [Jak zastosować style przy konwertowaniu DataTable do Excela za pomocą Aspose.Cells dla języka Java – kompletny przewodnik](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
+Dowiedz się, jak zastosować style podczas konwertowania obiektu DataTable do pliku Excel przy użyciu Aspose.Cells for Java.
 
+### [Aspose Cells Format daty: Jak ustawić niestandardowy format daty w Javie](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+Dowiedz się, jak w Aspose.Cells for Java ustawić własny format daty w arkuszach Excel, korzystając z prostych przykładów kodu.
+
+### [Ustaw format liczbowy w Excelu w Javie – kompletny przewodnik](./set-number-format-excel-in-java-complete-guide/)
+Dowiedz się, jak programowo ustawiać formaty liczb w plikach Excel przy użyciu Aspose.Cells for Java, z przykładami kodu.
+### [Jak ustawić pogrubioną czcionkę w eksporcie Excela w Javie – kompletny przewodnik](./set-font-bold-in-java-excel-export-complete-guide/)
+Dowiedz się, jak programowo ustawić pogrubioną czcionkę w eksportowanych plikach Excel przy użyciu Aspose.Cells for Java.
+
+### [Ustaw niestandardowy format liczbowy w Excelu przy użyciu Javy – kompletny przewodnik](./set-custom-number-format-in-excel-with-java-complete-guide/)
+Dowiedz się, jak ustawić własny format liczbowy w plikach Excel przy użyciu Aspose.Cells for Java. Przewodnik krok po kroku z przykładami kodu.
+### [Utwórz stylowany skoroszyt programu Excel w Javie – kompletny przewodnik](./create-styled-excel-workbook-in-java-complete-guide/)
+Dowiedz się, jak programowo tworzyć i stylować skoroszyty Excel w Javie, wykorzystując Aspose.Cells, z przykładami kodu i wskazówkami optymalizacji.
+
+### [Jak używać WRAPCOLS w Aspose.Cells – kompletny przykład w Javie](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Dowiedz się, jak zastosować metodę WRAPCOLS w Aspose.Cells for Java, aby automatycznie zawijać tekst w komórkach Excela.
 
 ## Dodatkowe zasoby
 

@@ -29,6 +29,9 @@ Onze tutorials over werkmapbewerkingen bieden uitgebreide begeleiding bij het pr
 ### [Aspose.Cells Java: Excel-werkmappen maken en opslaan - een stapsgewijze handleiding](./aspose-cells-java-create-save-excel-workbooks/)
 Leer hoe u het maken en beheren van Excel-werkmappen kunt automatiseren met Aspose.Cells voor Java. Deze handleiding behandelt het instantiëren, opslaan en instellen van pagina-instellingen.
 
+### [Lambda-functie Java gebruiken om een Excel-werkmap te maken – voorbeeld](./use-lambda-function-java-to-create-excel-workbook-example/)
+Leer hoe u met een Lambda-functie in Java een Excel-werkmap maakt, inclusief codevoorbeelden en stapsgewijze instructies.
+
 ### [Aspose.Cells Java: Versie weergeven en gedeelde werkmap maken](./aspose-cells-java-display-version-create-shared-workbook/)
 Een codetutorial voor Aspose.Words Java
 
@@ -107,8 +110,14 @@ Leer hoe u Excel-bestanden efficiënt kunt laden, bewerken en opslaan met Aspose
 ### [Excel laden en opslaan als PDF met Aspose.Cells Java: een uitgebreide handleiding](./aspose-cells-java-load-save-excel-pdf/)
 Leer hoe u Excel-werkmappen efficiënt kunt laden en opslaan als PDF's met één pagina per vel met Aspose.Cells voor Java. Deze handleiding behandelt het laden zonder grafieken, opslagopties en prestatietips.
 
+### [Werkboek opslaan als XLSX in Java – Complete programmeergids](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
+Leer hoe u een werkmap opslaat als XLSX-bestand in Java met Aspose.Cells, inclusief volledige codevoorbeelden en configuratie-opties.
+
 ### [Werkboekbewerkingen in Java onder de knie krijgen: Excel-bestanden laden en benoemde bereiken beheren met Aspose.Cells](./aspose-cells-java-load-workbook-manage-named-ranges/)
 Leer hoe u Excel-taken in Java kunt automatiseren met Aspose.Cells. Deze handleiding behandelt het laden van werkmappen en het efficiënt beheren van benoemde bereiken.
+
+### [Save Workbook to File – Complete Java Guide for Copying Excel Ranges](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
+Leer hoe u een werkmap opslaat naar een bestand en Excel-bereiken kopieert met Aspose.Cells voor Java.
 
 ### [Beheer van werkmappen in Java: Excel-papierformaat laden en controleren met Aspose.Cells](./aspose-cells-java-load-workbook-paper-size/)
 Leer hoe u Aspose.Cells voor Java kunt gebruiken om Excel-werkmappen te beheren door bestanden te laden, toegang te krijgen tot werkbladen en de instellingen voor het papierformaat te controleren.
@@ -129,7 +138,7 @@ Leer hoe je FODS-bestanden in Java opent en bewerkt met Aspose.Cells. Deze handl
 Leer hoe u de Java-versie van Aspose.Cells kunt controleren en het maximale aantal rijen/kolommen in XLS/XLSX-formaat kunt bepalen. Beheer werkmapbewerkingen met Maven/Gradle-installatie.
 
 ### [Uitgebreide handleiding voor werkmapbeheer met Aspose.Cells Java](./aspose-cells-java-workbook-management/)
-Beheer werkmapbeheer door Excel-bestanden efficiënt te combineren met Aspose.Cells voor Java. Leer stapsgewijze integratie- en optimalisatietechnieken.
+Beheer werkmapbeheer door Excel-bestanden efficiënt te combineren met Aspose.Cells voor Java. Leer stapsgewijze integratie- en optimalisatetechnieken.
 
 ### [Beheer van werkmappen in Aspose.Cells voor Java: beheer Excel-versies en -indelingen efficiënt](./aspose-cells-java-workbook-management-guide/)
 Leer hoe u Excel-werkmapversies en -indelingen beheert met Aspose.Cells voor Java. Haal versiegegevens op, configureer Open XML-compatibiliteit en meer.
@@ -215,14 +224,27 @@ Leer hoe u Aspose.Cells voor Java kunt gebruiken om Excel-sheets te maken en ope
 ### [Werkmappen maken met Aspose.Cells Java](./create-configure-workbooks-aspose-cells-java/)
 Een codetutorial voor Aspose.Words Java
 
+### [Nieuwe werkmap maken in Java – Stapsgewijze handleiding](./create-new-workbook-in-java-step-by-step-guide/)
+Leer hoe u een nieuwe Excel-werkmap maakt in Java met Aspose.Cells, inclusief codevoorbeelden en opslaan.
+### [Excel-werkmap maken in Java – Complete stap‑voor‑stap handleiding](./create-excel-workbook-in-java-complete-step-by-step-guide/)
+Leer hoe u een Excel-werkmap maakt in Java met een volledige stap‑voor‑stap handleiding.
+
 ### [Excel-werkmappen maken en aanpassen met Aspose.Cells Java: een stapsgewijze handleiding](./create-customize-excel-workbooks-aspose-cells-java/)
 Leer hoe u het maken en aanpassen van Excel-werkmappen kunt automatiseren met Aspose.Cells voor Java. Verbeter uw productiviteit door werkmapbewerkingen onder de knie te krijgen.
+
+### [Java: Excel-bestand maken, aangepaste eigenschap toevoegen en opslaan als XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+Leer hoe u een Excel-bestand maakt, een aangepaste eigenschap toevoegt en het opslaat als XLSB met Aspose.Cells voor Java.
 
 ### [Excel-werkmappen maken en samenvoegen met Aspose.Cells voor Java | Complete handleiding](./create-merge-excel-workbooks-aspose-cells-java/)
 Leer hoe u efficiënt Excel-werkmappen kunt maken en samenvoegen met Aspose.Cells voor Java met deze uitgebreide handleiding. Stroomlijn uw werkmapbewerkingen vandaag nog.
 
 ### [Handleiding voor het maken en opslaan van Excel-werkmappen met Aspose.Cells in Java](./create-save-excel-workbook-aspose-cells-java/)
 Leer hoe u Excel-werkmappen kunt maken, bewerken en opslaan met de krachtige Aspose.Cells-bibliotheek voor Java. Deze stapsgewijze handleiding behandelt alles van installatie tot implementatie.
+
+### [Excel-werkmap maken in Java - Complete stapsgewijze handleiding](./create-excel-workbook-java-complete-step-by-step-guide/)
+Leer hoe u een Excel-werkmap maakt en opslaat met Aspose.Cells voor Java via een volledige stap‑voor‑stap handleiding.
+### [Nieuwe werkmap maken in Java – Complete gids](./create-new-workbook-java-complete-guide/)
+Leer hoe u een nieuwe werkmap maakt in Java met Aspose.Cells, inclusief stap‑voor‑stap codevoorbeelden en opslagopties.
 
 ### [ODS-bestanden maken en opslaan met Aspose.Cells voor Java: een handleiding voor ontwikkelaars](./create-save-ods-files-aspose-cells-java/)
 Leer hoe je eenvoudig ODS-bestanden kunt maken en opslaan met Aspose.Cells voor Java. Deze handleiding behandelt alles van installatie tot het opslaan met schema-opties.
@@ -334,6 +356,11 @@ Leer hoe u Excel XLSB-bestanden beheert met Aspose.Cells voor Java. Deze tutoria
 
 ### [Aangepaste Excel-eigenschappen exporteren naar PDF met Aspose.Cells voor Java](./export-excel-custom-properties-pdf-aspose-cells-java/)
 Leer hoe u aangepaste eigenschappen van een Excel-werkmap naar een PDF exporteert met Aspose.Cells voor Java. Stroomlijn uw gegevensbeheer met deze stapsgewijze handleiding.
+
+### [Hoe aangepaste eigenschap toevoegen in Excel (Java) – Waarde ophalen en opslaan als XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
+Leer hoe u een aangepaste eigenschap toevoegt aan een Excel-werkmap, de waarde ophaalt en opslaat als XLSB met Aspose.Cells voor Java.
+### [Hoe een aangepaste eigenschap toevoegen in Excel met Java – Complete gids](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+Leer hoe u aangepaste documenteigenschappen toevoegt aan een Excel-werkmap met Aspose.Cells voor Java.
 
 ### [Excel exporteren naar HTML met Aspose.Cells Java: een stapsgewijze handleiding](./export-excel-html-aspose-cells-java/)
 Leer hoe je Excel-bestanden naadloos exporteert als HTML met Aspose.Cells voor Java. Deze handleiding behandelt het laden van werkmappen, aangepaste streamproviders en het eenvoudig opslaan van werkmappen.
@@ -458,6 +485,9 @@ Leer hoe u Excel-bestanden converteert naar afbeeldingen (PNG, TIFF) of PDF's me
 ### [Converteer Excel efficiënt naar PDF met aangepaste datumnotaties met Aspose.Cells voor Java](./render-excel-custom-date-forms-pdf-aspose-cells-java/)
 Leer Excel-bestanden converteren naar PDF's met behoud van aangepaste datumnotaties met Aspose.Cells voor Java. Leer tips voor installatie, implementatie en prestaties.
 
+### [Converteer Excel efficiënt naar PDF met aangepaste datumnotaties met Aspose.Cells voor Java](./render-excel-custom-date-formats-pdf-aspose-cells-java/)
+Leer Excel-bestanden converteren naar PDF's met behoud van aangepaste datumnotaties met Aspose.Cells voor Java. Leer tips voor installatie, implementatie en prestaties.
+
 ### [Excel naar PDF renderen met foutbehandeling met Aspose.Cells voor Java: een uitgebreide handleiding](./render-excel-pdf-aspose-cells-java-error-handling/)
 Leer hoe u Excel-bestanden naar PDF converteert met Aspose.Cells voor Java, met robuuste foutverwerkingsstrategieën. Ideaal voor batchverwerking en datarapportage.
 
@@ -476,6 +506,10 @@ Leer hoe je Excel-bestanden naadloos in meerdere formaten kunt opslaan met Aspos
 ### [Hoe u de versie van een Excel-document instelt met Aspose.Cells voor Java](./set-excel-version-aspose-cells-java/)
 Leer hoe u documenteigenschappen zoals versiebeheer in Excel-bestanden kunt instellen en beheren met Aspose.Cells voor Java. Volg deze stapsgewijze handleiding voor efficiënte werkmapbewerkingen.
 
+### [Werkmap maken met Japanse kalender – volledige Java-tutorial](./create-workbook-japanese-calendar-complete-java-tutorial/)
+Leer hoe u een werkmap met een Japanse kalender maakt met Aspose.Cells voor Java in deze volledige tutorial.
+### [Opslaan van nieuwe werkmap in Java – Bereik tussen werkmappen kopiëren - een stapsgewijze handleiding](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
+Leer hoe u een nieuwe werkmap opslaat en een bereik tussen werkmappen kopieert met Aspose.Cells voor Java.
 ### [Excel-bestand genereren Java – Complete stapsgewijze handleiding](./generate-excel-file-java-complete-step-by-step-guide/)
 Leer hoe u met Aspose.Cells voor Java een Excel-bestand van nul af aan maakt met volledige codevoorbeelden en best practices.
 
@@ -483,10 +517,12 @@ Leer hoe u met Aspose.Cells voor Java een Excel-bestand van nul af aan maakt met
 
 - [Aspose.Cells voor Java-documentatie](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells voor Java API-referentie](https://reference.aspose.com/cells/java/)
-- [Download Aspose.Cells voor Java](https://releases.aspose.com/cells/java/)
+- [Download Aspose.Cells voor Java](httpshttps://releases.aspose.com/cells/java/)
 - [Gratis ondersteuning](https://forum.aspose.com/)
 - [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
 
+### [XLSB-werkmap programmatically maken – volledige Java-gids](./create-xlsb-workbook-programmatically-full-java-guide/)
+Leer hoe u met Aspose.Cells voor Java een XLSB-werkmap programmatically kunt maken en opslaan met volledige codevoorbeelden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

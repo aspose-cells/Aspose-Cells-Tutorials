@@ -36,20 +36,48 @@ Zjednodušte si práci s tabulkami s Aspose.Cells pro Javu. Začněte ještě dn
 ## Výukové programy pro automatizaci tabulkových procesorů
 ### [Dávkové zpracování Excelu](./batch-excel-processing/)
 Zjistěte, jak zefektivnit dávkové zpracování dat v Excelu pomocí Aspose.Cells pro Javu. Automatizujte zpracování dat, jejich převod a manipulaci s nimi pomocí příkladů zdrojového kódu.
+
 ### [Automatizované zadávání dat](./automated-data-entry/)
 Naučte se, jak efektivně automatizovat zadávání dat s příklady zdrojového kódu pomocí Aspose.Cells pro Javu. Zvyšte produktivitu a přesnost při práci s daty.
+
 ### [Dynamické excelové sestavy](./dynamic-excel-reports/)
 Vytvářejte dynamické excelové reporty snadno s Aspose.Cells pro Javu. Automatizujte aktualizace dat, používejte formátování a šetřete čas.
+
 ### [Automatizovaná extrakce dat](./automated-data-extraction/)
 Naučte se, jak efektivně automatizovat extrakci dat s příklady zdrojového kódu pomocí Aspose.Cells pro Javu. Extrahujte data ze souborů Excelu bez námahy.
+
 ### [Automatizace sešitů v Excelu](./excel-workbook-automation/)
 Naučte se automatizaci sešitů Excelu v Javě s Aspose.Cells: Vytvářejte, čtěte a aktualizujte soubory Excelu programově. Začněte hned teď!
+
 ### [Automatizace grafů v Excelu](./automating-excel-charts/)
 Prozkoumejte, jak automatizovat vytváření a úpravy grafů v Excelu pomocí Aspose.Cells pro Javu s příklady zdrojového kódu. Zjednodušte si úkoly tvorby grafů. 
+
 ### [Automatizace Excelu s Javou](./excel-automation-with-java/)
 Naučte se, jak automatizovat úlohy v Excelu v Javě s příklady zdrojového kódu pomocí Aspose.Cells, výkonné knihovny pro manipulaci s Excelem.
+### [Zakázání automatického filtru v Excelu v Javě – krok za krokem](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells pro Javu vypnout automatický filtr v Excelu a zjednodušit zpracování dat.
 ### [Integrace dat v Excelu](./data-integration-in-excel/)
 Naučte se, jak efektivně integrovat data v Excelu pro lepší přehled a rozhodování. Podrobný návod se zdrojovým kódem pomocí Aspose.Cells pro Javu.
+### [Vytvoření Excelu programově v Javě – krok za krokem](./create-excel-programmatically-in-java-step-by-step-guide/)
+Naučte se, jak programově vytvořit soubor Excel v Javě pomocí Aspose.Cells s podrobným krok za krokem návodem a ukázkami kódu.
+
+### [Jak vypnout automatický filtr v Excelu pomocí Javy – Kompletní průvodce](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+Naučte se, jak pomocí Aspose.Cells v Javě vypnout automatický filtr v Excelu a zjednodušit zpracování dat.
+### [Jak vypnout AutoFilter v Excelu pomocí Javy – Kompletní průvodce](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells pro Javu vypnout funkci AutoFilter v Excelu a získat plnou kontrolu nad daty.
+### [Vytvořte vertikální pole v Excelu pomocí Javy – Kompletní průvodce krok za krokem](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+Naučte se, jak v Excelu pomocí Aspose.Cells a Javy vytvořit vertikální pole, včetně podrobných ukázek kódu a kroků.
+### [Jak použít Expand v Excelu pomocí Javy – Kompletní průvodce](./how-to-use-expand-in-java-complete-excel-guide/)
+Naučte se, jak pomocí Aspose.Cells pro Javu použít funkci Expand v Excelu a automatizovat rozšíření dat s praktickými ukázkami kódu.
+### [Jak vymazat AutoFilter v Excelu pomocí Javy – Kompletní průvodce](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells v Javě odstranit AutoFilter v Excelu a zjednodušit práci s daty.
+### [Vytvoření nového sešitu Aspose – přidání vlastní vlastnosti do Excelu a uložení jako XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+### [Jak odstranit hlavičku tabulky v Excelu pomocí Javy – Kompletní průvodce](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+Naučte se, jak pomocí Aspose.Cells pro Javu odstranit hlavičku tabulky v Excelu a upravit soubory programově.
+### [Rozšíření pole v Excelu v Javě – krok za krokem průvodce](./expand-array-in-excel-with-java-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells v Javě rozšířit pole v Excelu a dynamicky přidávat data.
+### [Odstranění automatického filtru z Excelu pomocí Javy – Kompletní průvodce](./remove-autofilter-from-excel-with-java-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells pro Javu odstranit automatický filtr z Excelu a zjednodušit úpravy dat.
 ### [Jak používat Aspose.Cells: Přidat vlastní vlastnost a uložit XLSB](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
 Naučte se, jak přidat vlastní vlastnost do souboru a uložit jej ve formátu XLSB pomocí Aspose.Cells pro Javu.
 

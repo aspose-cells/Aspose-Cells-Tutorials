@@ -1,0 +1,7 @@
+Title: Create duplicated detail sheets in Excel using C#
+Slug: create-duplicated-detail-sheets-in-excel-using-c
+Category: excel-copy-worksheet
+ProcessedDate: 2026-10-07T18:43:40.507059
+SourceRepo: AI Search API
+Keywords: create duplicated detail sheets, how to generate multiple worksheets, generate excel report from tables
+PRNumber: 183

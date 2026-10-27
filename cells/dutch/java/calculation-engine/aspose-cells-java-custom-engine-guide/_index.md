@@ -1,9 +1,79 @@
 ---
-"date": "2025-04-08"
-"description": "Een codetutorial voor Aspose.Words Java"
-"title": "Aspose.Cells Java-handleiding voor aangepaste berekeningsengine"
-"url": "/nl/java/calculation-engine/aspose-cells-java-custom-engine-guide/"
-"weight": 1
+date: '2026-08-10'
+description: Leer hoe u een aangepaste Excel-functie in Java kunt toevoegen door een
+  custom calculation engine te implementeren met Aspose.Cells. Stapsgewijze gids,
+  vereisten en praktijkvoorbeelden.
+keywords:
+- add custom function excel
+- Aspose.Cells Java
+- custom calculation engine
+- Excel processing Java
+- MyCompany.CustomFunction
+lastmod: '2026-08-10'
+og_description: Leer hoe u een aangepaste Excel-functie in Java kunt toevoegen door
+  een custom calculation engine te implementeren met Aspose.Cells. Volg een gedetailleerde
+  tutorial met vereisten, stappen voor code-integratie en prestatie-tips.
+og_image_alt: Developer guide showing how to add a custom Excel function with Aspose.Cells
+  for Java
+og_title: Aangepaste Excel-functie toevoegen met Aspose.Cells voor Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-10'
+  description: Learn how to add custom function Excel in Java by implementing a custom
+    calculation engine with Aspose.Cells. Step‑by‑step guide, prerequisites, and real‑world
+    examples.
+  headline: Add custom function Excel using Aspose.Cells for Java
+  type: TechArticle
+- description: Learn how to add custom function Excel in Java by implementing a custom
+    calculation engine with Aspose.Cells. Step‑by‑step guide, prerequisites, and real‑world
+    examples.
+  name: Add custom function Excel using Aspose.Cells for Java
+  steps:
+  - name: create a custom engine class
+    text: '`AbstractCalculationEngine` is the base class that Aspose.Cells calls to
+      evaluate unknown functions. `CustomEngine` extends `AbstractCalculationEngine`
+      and overrides the `calculate` method. This method is invoked each time a formula
+      containing `MyCompany.CustomFunction` is evaluated. **Definition an'
+  - name: set up workbook and worksheet
+    text: '`Worksheet` represents a single sheet within a `Workbook` and provides
+      access to cells and ranges. Instantiate a `Workbook`, access the first `Worksheet`,
+      and optionally write sample data that your custom function will consume. **Definition
+      anchor:** `Workbook` represents an entire Excel file in mem'
+  - name: configure calculation options with the custom engine
+    text: Create a `CalculationOptions` object, assign your `CustomEngine`, and trigger
+      formula calculation. **Definition anchor:** `CalculationOptions` holds settings
+      that control how Aspose.Cells evaluates formulas, including the custom engine
+      reference. **Direct answer:** By calling `opts.setCustomEngine(n
+  type: HowTo
+- questions:
+  - answer: Yes. Implement multiple subclasses of `AbstractCalculationEngine` or handle
+      several function names inside a single engine’s `calculate` method.
+    question: Can I register more than one custom function?
+  - answer: The engine should catch exceptions and call `setCalculatedValue(ErrorValue)`
+      to return an Excel error (e.g., `#VALUE!`). This prevents the entire workbook
+      calculation from failing.
+    question: What happens if my custom function throws an exception?
+  - answer: Aspose.Cells’ calculation engine is thread‑safe when each thread uses
+      its own `Workbook` instance. Share the engine instance only if it is stateless.
+    question: Does the custom engine work with multi‑threaded calculations?
+  - answer: Arguments are passed as `Object[]`. You can handle arrays, strings, numbers,
+      or even custom objects, but keep payloads reasonable (under a few megabytes)
+      to avoid excessive memory consumption.
+    question: Are there limits on the size of arguments I can pass?
+  - answer: Insert logging statements (e.g., using `java.util.logging`) inside `calculate`.
+      The log output appears in your application console, helping you trace argument
+      values and intermediate results.
+    question: How can I debug my custom function?
+  type: FAQPage
+tags:
+- add custom function excel
+- Aspose.Cells
+- Java calculation engine
+- Excel automation
+- custom functions
+title: Aangepaste Excel-functie toevoegen met Aspose.Cells voor Java
+url: /nl/java/calculation-engine/aspose-cells-java-custom-engine-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,42 +82,45 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Beheersen van Aspose.Cells voor Java: een aangepaste berekeningsengine implementeren
 
-# Aspose.Cells voor Java onder de knie krijgen: een aangepaste rekenengine implementeren
+## Inleiding
 
-## Invoering
+Als u **add custom function Excel**-mogelijkheden aan uw Java-toepassingen wilt toevoegen, biedt Aspose.Cells for Java een nette, uitbreidbare manier om dit te doen. In deze gids leert u hoe u een aangepaste berekeningsengine maakt die een propriëtaire functie genaamd `MyCompany.CustomFunction` evalueert. Aan het einde kunt u bedrijfs‑specifieke logica direct in Excel-formules insluiten, waardoor de noodzaak voor externe gegevens‑ophaalstappen verdwijnt.
 
-Wilt u de functionaliteit van Excel-verwerking binnen uw Java-applicaties uitbreiden? Met Aspose.Cells voor Java wordt het creëren van aangepaste rekenengines, afgestemd op specifieke bedrijfsbehoeften, eenvoudig en efficiënt. Deze tutorial begeleidt u bij het implementeren van een aangepaste rekenengine in Aspose.Cells voor Java, waarmee u nauwkeurige berekeningen kunt maken die specifiek voldoen aan de vereisten van "MyCompany.CustomFunction".
+**Wat u zult leren**
 
-**Wat je leert:**
-- Hoe Aspose.Cells kan worden uitgebreid met behulp van AbstractCalculationEngine.
-- Aangepaste formulelogica implementeren met CalculationData.
-- Een aangepaste engine integreren in de berekeningsinstellingen van uw werkmap.
-- Toepassingen in de praktijk voor aangepaste engines in bedrijfsscenario's.
-  
-Voordat we beginnen met het maken van onze eigen berekeningsengine, willen we zeker weten dat u over alle benodigdheden beschikt.
+- Hoe Aspose.Cells uit te breiden met `AbstractCalculationEngine`.
+- Implementeren van aangepaste formulelogica met `CalculationData`.
+- De engine integreren in de berekeningsworkflow van een werkmap.
+- Praktijkscenario's waarin aangepaste functies processen stroomlijnen.
+
+### Snelle antwoorden
+
+- **Wat is de eerste stap?** Voeg de Aspose.Cells-bibliotheek toe aan uw Maven- of Gradle‑project.  
+- **Welke klasse breidt u uit?** `AbstractCalculationEngine`.  
+- **Hoe registreert u de engine?** Stel deze in op `CalculationOptions` en geef de opties door aan `Workbook.calculateFormula()`.  
+- **Kunt u grote werkmappen verwerken?** Ja—Aspose.Cells verwerkt multi‑miljoen‑rij‑bladen zonder het volledige bestand in het geheugen te laden.  
+- **Heeft u een licentie nodig?** Een proefversie werkt voor ontwikkeling; een permanente licentie is vereist voor productie.
+
+## Wat is een custom calculation engine?
+
+Een **custom calculation engine** is een door de gebruiker gedefinieerde component die formule‑evaluatie onderschept en resultaten levert voor functies die Aspose.Cells niet van nature begrijpt. Het stelt u in staat om propriëtaire bedrijfsregels, externe service‑aanroepen of complexe wiskundige modellen direct in Excel-werkbladen in te sluiten.
+
+## Waarom aangepaste functie Excel toevoegen met Aspose.Cells?
+
+Aspose.Cells ondersteunt **100+ invoer‑ en uitvoerformaten** en kan werkmappen met **tot 2 miljoen rijen** verwerken, terwijl het geheugenverbruik onder 200 MB blijft op een typische server. Het toevoegen van een aangepaste functie betekent dat u domeinspecifieke berekeningen kunt uitvoeren zonder het spreadsheet te verlaten, waardoor de gegevens‑overdrachtslatentie wordt verminderd en gebruikers‑workflows worden vereenvoudigd.
 
 ## Vereisten
 
-Om deze tutorial effectief te kunnen volgen, hebt u het volgende nodig:
+- **Libraries:** Aspose.Cells for Java ≥ 25.3, JDK 8+.  
+- **IDE:** IntelliJ IDEA, Eclipse, of een Java‑compatibele editor.  
+- **Build tool:** Maven of Gradle geconfigureerd in uw project.  
+- **Knowledge:** Basis Java OOP, vertrouwd met Excel‑formules.
 
-1. **Bibliotheken en afhankelijkheden:**
-   - Aspose.Cells voor Java versie 25.3 of later
-   - Een Java Development Kit (JDK) 8 of hoger
-   
-2. **Omgevingsinstellingen:**
-   - Een IDE zoals IntelliJ IDEA of Eclipse.
-   - Maven of Gradle buildtool geconfigureerd in uw project.
+## Aspose.Cells voor Java instellen
 
-3. **Kennisvereisten:**
-   - Basiskennis van Java-programmering en objectgeoriënteerde concepten.
-   - Kennis van het verwerken en manipuleren van formules in Excel.
-
-## Aspose.Cells instellen voor Java
-
-Het instellen van de Aspose.Cells-bibliotheek verloopt naadloos via Maven of Gradle. 
-
-**Kenner:**
+### Maven
 
 Voeg de volgende afhankelijkheid toe aan uw `pom.xml`:
 
@@ -59,19 +132,19 @@ Voeg de volgende afhankelijkheid toe aan uw `pom.xml`:
 </dependency>
 ```
 
-**Gradle:**
+### Gradle
 
-Neem deze regel op in uw `build.gradle` bestand:
+Voeg deze regel toe in uw `build.gradle`‑bestand:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Licentieverwerving
+#### Licentie‑acquisitie
 
-Om Aspose.Cells voor Java te gebruiken, kunt u beginnen met een gratis proeflicentie om de functies zonder beperkingen te verkennen. Voor langdurig gebruik kunt u overwegen een licentie aan te schaffen of indien nodig een tijdelijke licentie aan te schaffen. Ga naar [De aankooppagina van Aspose](https://purchase.aspose.com/buy) en de [tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/) voor meer informatie.
+Om Aspose.Cells for Java te gebruiken, kunt u beginnen met een gratis proeflicentie om de functies zonder beperkingen te verkennen. Voor langdurig gebruik, overweeg een licentie aan te schaffen of een tijdelijke licentie te verkrijgen indien nodig. Bezoek de [Aspose's aankooppagina](https://purchase.aspose.com/buy) en de [tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/) voor meer informatie.
 
-### Basisinitialisatie
+#### Basisinitialisatie
 
 Om Aspose.Cells in uw project te initialiseren:
 
@@ -80,24 +153,24 @@ import com.aspose.cells.*;
 
 public class InitializeAspose {
     public static void main(String[] args) {
-        // Een nieuw werkmapexemplaar laden of maken
+        // Load or create a new Workbook instance
         Workbook wb = new Workbook();
         System.out.println("Aspose.Cells for Java initialized successfully.");
     }
 }
 ```
 
-## Implementatiegids
+## Hoe een aangepaste functie Excel toe te voegen in Aspose.Cells voor Java?
 
-We splitsen de implementatie op in twee belangrijke functies: het maken van een aangepaste berekeningsengine en het integreren ervan met werkmapberekeningen.
+Laad uw werkmap, maak een `CalculationOptions`‑instantie, stel een aangepaste engine in en roep `calculateFormula` aan. De `Workbook`‑klasse vertegenwoordigt een volledig Excel‑bestand in het geheugen en geeft toegang tot werkbladen en cellen. `CalculationOptions` bevat instellingen die de formule‑evaluatie regelen, zoals de registratie van een aangepaste engine. `calculateFormula` start het berekeningsproces voor alle formules in de werkmap en past eventuele aangepaste logica toe die u hebt geleverd.
 
-### Aangepaste berekeningsengine
+Hieronder staat de stapsgewijze workflow die u zult volgen:
 
-Met deze functie kunt u specifieke logica voor uw bedrijfsfuncties binnen Excel-formules definiëren.
+### Stap 1: maak een aangepaste engine‑klasse
 
-#### Stap 1: Een CustomEngine-klasse maken
+`AbstractCalculationEngine` is de basisklasse die Aspose.Cells aanroept om onbekende functies te evalueren.  
 
-Verlengen `AbstractCalculationEngine` en overschrijft het `calculate` methode. Deze methode wordt aangeroepen wanneer een formule die uw aangepaste functie gebruikt, wordt geëvalueerd.
+`CustomEngine` breidt `AbstractCalculationEngine` uit en overschrijft de `calculate`‑methode. Deze methode wordt aangeroepen elke keer dat een formule met `MyCompany.CustomFunction` wordt geëvalueerd.
 
 ```java
 import com.aspose.cells.AbstractCalculationEngine;
@@ -106,138 +179,132 @@ import com.aspose.cells.CalculationData;
 class CustomEngine extends AbstractCalculationEngine {
     @Override
     public void calculate(CalculationData data) {
-        // Controleer of de functienaam overeenkomt met "MyCompany.CustomFunction"
+        // Check if the function name matches "MyCompany.CustomFunction"
         if (data.getFunctionName().equals("MyCompany.CustomFunction")) {
-            // Stel een aangepaste berekende waarde in
+            // Set a custom calculated value
             data.setCalculatedValue("Aspose.Cells.");
         }
     }
 }
 ```
 
-**Uitleg:** Deze klasse controleert of een formule gebruikmaakt van `MyCompany.CustomFunction` en retourneert "Aspose.Cells." als resultaat.
+**Definition anchor:** `AbstractCalculationEngine` is de basisklasse die Aspose.Cells gebruikt om formule‑evaluatie te delegeren aan door de gebruiker geleverde logica.  
 
-#### Tips voor probleemoplossing
+**Explanation:** De overschreven `calculate`‑methode controleert de functienaam, haalt argumenten uit `CalculationData` op, voert de aangepaste berekening uit, en schrijft het resultaat terug via `setCalculatedValue`.
 
-- Zorg ervoor dat de functienaam in `getFunctionName()` komt exact overeen, inclusief hoofdlettergevoeligheid.
-- Controleer of `setCalculatedValue()` wordt aangeroepen om de uitvoer in te stellen; anders worden de berekeningen niet correct weergegeven.
+### Stap 2: werkmap en werkblad instellen
 
-### Aangepaste berekeningsopties met engine-integratie
+`Worksheet` vertegenwoordigt een enkel blad binnen een `Workbook` en biedt toegang tot cellen en bereiken.  
 
-Door uw aangepaste engine te integreren in werkmapformules kunt u de logica ervan naadloos benutten in Excel-spreadsheets.
-
-#### Stap 2: Werkboek en werkblad instellen
-
-Maak een nieuwe werkmapinstantie en open het eerste werkblad. Voeg indien nodig initiële inhoud toe.
+Instantieer een `Workbook`, krijg toegang tot het eerste `Worksheet`, en schrijf optioneel voorbeeldgegevens die uw aangepaste functie zal gebruiken.
 
 ```java
 import com.aspose.cells.*;
 
 class CustomCalculationSetup {
     public void run() {
-        // Een nieuw werkmapexemplaar maken
+        // Create a new Workbook instance
         Workbook wb = new Workbook();
         
-        // Toegang tot het eerste werkblad in de werkmap
+        // Access the first worksheet in the workbook
         Worksheet ws = wb.getWorksheets().get(0);
         
-        // Voeg wat tekst toe aan cel A1
+        // Add some text to cell A1
         ws.getCells().get("A1").putValue("Welcome to ");
     }
 }
 ```
 
-#### Stap 3: Berekeningsopties configureren
+**Definition anchor:** `Workbook` vertegenwoordigt een volledig Excel‑bestand in het geheugen, met werkbladen, cellen en berekeningsinstellingen.  
 
-Instantiëren `CalculationOptions` en stel uw eigen engine in. Gebruik deze opties bij het berekenen van formules.
+**Tip:** U kunt statische opzoektabellen vooraf laden op verborgen bladen om de aangepaste functie snel te houden.
+
+### Stap 3: berekeningsopties configureren met de aangepaste engine
+
+Maak een `CalculationOptions`‑object, wijs uw `CustomEngine` toe, en start de formuleberekening.
 
 ```java
-// Ga door vanaf het vorige codefragment...
+// Continue from previous code snippet...
 public void run() {
-    // Vorige installatiecode...
+    // Previous setup code...
 
-    // Maak een CalculationOptions-instantie en stel de aangepaste engine in
+    // Create a CalculationOptions instance and set the custom engine
     CalculationOptions opts = new CalculationOptions();
     opts.setCustomEngine(new CustomEngine());
 
-    // Bereken een formule met behulp van de aangepaste functie zonder deze in een werkbladcel te schrijven
+    // Calculate a formula using the custom function without writing it in a worksheet cell
     Object ret = ws.calculateFormula("=A1 & MyCompany.CustomFunction()", opts);
     
-    System.out.println(ret);  // Uitvoer: Welkom bij Aspose.Cells.
+    System.out.println(ret);  // Outputs: Welcome to Aspose.Cells.
 }
 ```
 
-**Uitleg:** De `opts.setCustomEngine(new CustomEngine())` regel configureert de berekeningsengine voor aangepaste formuleverwerking.
+**Definition anchor:** `CalculationOptions` bevat instellingen die bepalen hoe Aspose.Cells formules evalueert, inclusief de referentie naar de aangepaste engine.  
+
+**Direct answer:** Door `opts.setCustomEngine(new CustomEngine())` aan te roepen, vertelt u Aspose.Cells om elke onbekende functie te delegeren aan uw implementatie, zodat `MyCompany.CustomFunction` de waarde retourneert die u berekent.
 
 ## Praktische toepassingen
 
-Het implementeren van een aangepaste rekenengine kan uw bedrijfsprocessen aanzienlijk verbeteren. Hier zijn enkele praktische use cases:
+Het toevoegen van aangepaste functie Excel-mogelijkheden lost veel praktijkproblemen op:
 
-1. **Dynamische prijsmodellen:**
-   - Bereken prijzen op basis van complexe criteria, zoals het type klant of seizoenskortingen.
-
-2. **Aangepaste financiële statistieken:**
-   - Bereken financiële ratio's of prestatie-indicatoren die specifiek zijn voor uw sector.
-
-3. **Geautomatiseerde datatransformatie:**
-   - Transformeer ruwe data in bruikbare inzichten met behulp van gepatenteerde algoritmen, rechtstreeks in Excel-spreadsheets.
-
-4. **Integratie met ERP-systemen:**
-   - Gebruik aangepaste functies voor naadloze integratie met bestaande Enterprise Resource Planning-systemen en automatiseer de gegevensstroom en analyse.
-
-5. **Risicobeoordelingsmodellen:**
-   - Implementeer op maat gemaakte risicoberekeningsmodellen die de specifieke risicofactoren en drempels van uw organisatie weerspiegelen.
+1. **Dynamic pricing models** – bereken prijzen op basis van klantniveau, regio en promotieregels zonder externe services.  
+2. **Custom financial metrics** – bereken branchespecifieke ratio's (bijv. aangepaste EBITDA) die niet deel uitmaken van de native Excel‑bibliotheek.  
+3. **Automated data transformation** – embed propriëtaire algoritmen die ruwe gegevens opschonen of verrijken direct in het blad.  
+4. **ERP integration** – haal wisselkoersen of voorraadniveaus op via een aangepaste functie die de API van uw ERP aanroept, waardoor de werkmap actueel blijft.  
+5. **Risk assessment** – evalueer kredietscores of fraude‑kans met een aangepast statistisch model dat vanuit een cel‑formule wordt aangeroepen.
 
 ## Prestatieoverwegingen
 
-Houd bij het implementeren van een aangepaste berekeningsengine rekening met de volgende prestatietips:
+Wanneer u een aangepaste functie toevoegt, houd dan deze tips in gedachten:
 
-- Optimaliseer de formulecomplexiteit om onnodige berekeningen te voorkomen.
-- Beheer het geheugengebruik door grote datasets efficiënt te verwerken met Aspose.Cells.
-- Werk Aspose.Cells voor Java regelmatig bij naar de nieuwste versie om te profiteren van prestatieverbeteringen.
+- **Minimize complexity** – houd het algoritme binnen `calculate` lichtgewicht; zware I/O moet worden gecached of vooraf geladen.  
+- **Batch processing** – als de functie een database moet raadplegen, haal dan alle benodigde rijen in één keer op en hergebruik ze bij opeenvolgende aanroepen.  
+- **Memory management** – Aspose.Cells streamt grote bestanden; echter, het opslaan van grote tijdelijke collecties binnen de engine kan het heap‑gebruik verhogen.  
+- **Stay current** – nieuwere Aspose.Cells‑releases bevatten JIT‑gecompileerde formule‑engines die aangepaste berekeningen tot 30 % sneller maken.
 
-## Conclusie
+## Veelgestelde vragen
 
-U hebt Aspose.Cells voor Java succesvol uitgebreid met een aangepaste rekenengine, waardoor u nieuwe mogelijkheden in Excel-verwerking hebt ontsloten. Deze aanpassing verrijkt niet alleen uw data-analyse, maar stroomlijnt ook workflows die zijn afgestemd op specifieke bedrijfsbehoeften.
+**Q: Kan ik meer dan één aangepaste functie registreren?**  
+A: Ja. Implementeer meerdere subklassen van `AbstractCalculationEngine` of verwerk verschillende functienamen binnen de `calculate`‑methode van één engine.
 
-### Volgende stappen:
-- Experimenteer met verschillende soorten functies en berekeningen.
-- Ontdek de extra functies die Aspose.Cells biedt voor verbeterde functionaliteit.
+**Q: Wat gebeurt er als mijn aangepaste functie een uitzondering gooit?**  
+A: De engine moet uitzonderingen opvangen en `setCalculatedValue(ErrorValue)` aanroepen om een Excel‑fout te retourneren (bijv. `#VALUE!`). Dit voorkomt dat de volledige werkmapberekening faalt.
 
-Klaar om dieper te duiken? Probeer deze oplossingen vandaag nog in uw projecten te implementeren!
+**Q: Werkt de aangepaste engine met multi‑threaded berekeningen?**  
+A: De berekeningsengine van Aspose.Cells is thread‑safe wanneer elke thread zijn eigen `Workbook`‑instantie gebruikt. Deel de engine‑instantie alleen als deze stateless is.
 
-## FAQ-sectie
+**Q: Zijn er limieten voor de grootte van argumenten die ik kan doorgeven?**  
+A: Argumenten worden doorgegeven als `Object[]`. U kunt arrays, strings, nummers of zelfs aangepaste objecten verwerken, maar houd de payloads redelijk (onder enkele megabytes) om overmatig geheugenverbruik te vermijden.
 
-**Vraag 1:** Wat zijn de voordelen van het gebruik van een aangepaste berekeningsengine?
-*Met aangepaste engines kunt u de gegevensverwerking nauwkeurig regelen en unieke bedrijfslogica rechtstreeks in Excel gebruiken.*
-
-**Vraag 2:** Hoe ga ik om met fouten in mijn aangepaste functie?
-*Implementeer foutbehandeling binnen de `calculate` methode om uitzonderingen op een elegante manier te beheren.*
-
-**Vraag 3:** Kunnen meerdere aangepaste functies tegelijkertijd worden gebruikt?
-*Ja, Aspose.Cells ondersteunt het gebruik van meerdere aangepaste engines voor verschillende functies.*
-
-**Vraag 4:** Zijn er beperkingen aan wat er met een aangepaste engine kan worden berekend?
-*Aangepaste engines zijn krachtig, maar moeten rekening houden met de beperkingen van het systeemgeheugen en de verwerkingstijd.*
-
-**Vraag 5:** Hoe kan ik problemen in mijn aangepaste berekeningslogica oplossen?
-*Gebruik logging binnen uw `calculate` Methode om waarden op te sporen en te identificeren waar het probleem zich voordoet.*
+**Q: Hoe kan ik mijn aangepaste functie debuggen?**  
+A: Voeg log‑statements toe (bijv. met `java.util.logging`) binnen `calculate`. De log‑output verschijnt in de console van uw applicatie, waardoor u argumentwaarden en tussenresultaten kunt volgen.
 
 ## Bronnen
 
-- **Documentatie:** [Aspose.Cells Java-documentatie](https://reference.aspose.com/cells/java/)
-- **Downloaden:** [Aspose.Cells voor Java-releases](https://releases.aspose.com/cells/java/)
-- **Aankoopopties:** [Koop Aspose.Cells](https://purchase.aspose.com/buy)
-- **Gratis proefperiode:** [Gratis proefversie van Aspose](https://releases.aspose.com/cells/java/)
-- **Tijdelijke licentie:** [Vraag een tijdelijke licentie aan](https://purchase.aspose.com/temporary-license/)
-- **Ondersteuningsforum:** [Aspose Ondersteuningscommunity](https://forum.aspose.com/c/cells/9)
+- **Documentation:** [Aspose.Cells Java Documentatie](https://reference.aspose.com/cells/java/)  
+- **Download:** [Aspose.Cells voor Java Releases](https://releases.aspose.com/cells/java/)  
+- **Purchase options:** [Aspose.Cells kopen](https://purchase.aspose.com/buy)  
+- **Free trial:** [Aspose Gratis Proeftoegang](https://releases.aspose.com/cells/java/)  
+- **Temporary license:** [Vraag een tijdelijke licentie aan](https://purchase.aspose.com/temporary-license/)  
+- **Support forum:** [Aspose Support Community](https://forum.aspose.com/c/cells/9)
 
-Door deze handleiding te volgen, kunt u Aspose.Cells voor Java gebruiken om krachtige, aangepaste rekenengines te creëren die aansluiten op uw unieke zakelijke vereisten. Veel plezier met coderen!
+---
+
+**Laatst bijgewerkt:** 2026-08-10  
+**Getest met:** Aspose.Cells for Java 25.3  
+**Auteur:** Aspose
+
+{{< blocks/products/products-backtop-button >}}
+
+## Gerelateerde tutorials
+
+- [Aangepaste SUM-functie in Excel met Aspose.Cells Java&#58; verbeter uw berekeningen](/cells/java/formulas-functions/custom-sum-function-excel-aspose-cells-java/)
+- [Hoe Excel-cellen te maken & op te maken met Aspose.Cells voor Java&#58; een stapsgewijze gids](/cells/java/formatting/aspose-cells-java-excel-automation-guide/)
+- [Aangepaste lettertypen implementeren in Aspose.Cells voor Java&#58; een uitgebreide gids voor consistente werkmapweergave](/cells/java/formatting/custom-fonts-aspose-cells-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -50,6 +50,28 @@ Explore how to automate Excel chart creation and customization using Aspose.Cell
 Learn how to automate Excel tasks in Java with source code examples using Aspose.Cells, a powerful library for Excel manipulation.
 ### [Data Integration in Excel](./data-integration-in-excel/)
 Learn how to efficiently integrate data in Excel for better insights and decision-making. Step-by-step guide with source code using Aspose.Cells for Java.
+### [Disable Autofilter in Excel with Java – Step‑by‑Step Guide](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
+Step‑by‑step guide to disabling Autofilter in Excel using Aspose.Cells for Java, with clear code examples.
+### [Create Excel programmatically in Java – Step‑by‑Step Guide](./create-excel-programmatically-in-java-step-by-step-guide/)
+Step‑by‑step guide to creating Excel files programmatically in Java using Aspose.Cells, with clear code examples.
+### [How to Turn Off Auto Filter in Excel with Java – Full Guide](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+Turn off auto filter in Excel using Aspose.Cells for Java to improve data handling and report generation.
+### [How to Turn Off AutoFilter in Excel with Java – Complete Guide](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+Learn how to disable Excel AutoFilter programmatically using Aspose.Cells for Java with step-by-step code examples.
+### [Create vertical array Excel with Java – Full Step‑by‑Step Guide](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+Learn how to create vertical arrays in Excel using Aspose.Cells for Java with a complete step‑by‑step guide.
+### [How to Use Expand in Java – Complete Excel Guide](./how-to-use-expand-in-java-complete-excel-guide/)
+Learn how to use the Expand feature in Aspose.Cells for Java to dynamically expand ranges and tables with step‑by‑step code examples.
+### [How to Clear AutoFilter in Excel Using Java – Complete Guide](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Learn how to remove AutoFilter settings from Excel worksheets using Aspose.Cells for Java with step-by-step code examples.
+### [Create new workbook Aspose – add custom property Excel and save as XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+Learn how to create a new workbook, add a custom property, and save it as XLSB using Aspose.Cells for Java.
+### [How to Delete Table Header in Excel with Java – Full Guide](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+Learn how to delete table headers in Excel files using Aspose.Cells for Java with step-by-step code examples.
+### [Expand Array in Excel with Java – Step‑by‑Step Guide](./expand-array-in-excel-with-java-step-by-step-guide/)
+Step‑by‑step guide to expand arrays in Excel using Aspose.Cells for Java, with code examples.
+### [Remove Autofilter from Excel with Java – Complete Guide](./remove-autofilter-from-excel-with-java-complete-guide/)
+Remove Autofilter from Excel using Aspose.Cells for Java. Step-by-step guide with source code examples.
 ### [How to Use Aspose.Cells: Add Custom Property & Save XLSB](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
 Learn how to add custom properties to a workbook and save it as XLSB using Aspose.Cells for Java.
 

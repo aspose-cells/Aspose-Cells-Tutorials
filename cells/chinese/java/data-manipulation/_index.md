@@ -62,7 +62,8 @@
 ### [如何使用 Aspose.Cells for Java 在 Excel 中执行正则表达式替换：综合指南](./regex-replacement-excel-aspose-cells-java-guide/)
 学习如何使用 Aspose.Cells for Java 的正则表达式自动替换 Excel 文件中的文本。本分步指南涵盖初始化、配置和实际应用。
 
-
+### [如何在 Java 中使用 Aspose.Cells 拆分列 – 步骤指南](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
+学习如何使用 Aspose.Cells for Java 将 Excel 工作表中的列拆分为多个列的分步指南。
 
 ## 其他资源
 

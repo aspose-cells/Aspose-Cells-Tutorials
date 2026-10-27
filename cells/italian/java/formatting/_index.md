@@ -59,6 +59,10 @@ Scopri come personalizzare i font nei documenti Excel utilizzando Aspose.Cells p
 ### [Padroneggiare i formati numerici personalizzati nelle cartelle di lavoro Java Excel con Aspose.Cells](./aspose-cells-java-custom-number-formats-handling/)
 Scopri come gestire formati numerici personalizzati nelle cartelle di lavoro Java utilizzando Aspose.Cells. Questa guida tratta la configurazione delle cartelle di lavoro, la gestione delle eccezioni e le applicazioni reali.
 
+### [Imposta il formato numerico in Excel con Java – Guida completa](./set-number-format-excel-in-java-complete-guide/)
+Scopri come impostare formati numerici personalizzati in Excel utilizzando Aspose.Cells per Java, con esempi di codice passo passo.
+### [Imposta formato numerico personalizzato in Excel con Java – Guida completa](./set-custom-number-format-in-excel-with-java-complete-guide/)
+Scopri come definire formati numerici personalizzati nei fogli Excel usando Aspose.Cells per Java, con esempi di codice passo passo.
 ### [Applicare il formato numerico in Excel con Java – Guida completa Aspose.Cells](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
 Scopri come applicare formati numerici personalizzati ai fogli di calcolo Excel utilizzando Aspose.Cells per Java con esempi di codice dettagliati.
 
@@ -95,7 +99,7 @@ Scopri come formattare i fogli Excel e aggiungere pulsanti di opzione interattiv
 ### [Come impostare l'apice nelle celle di Excel utilizzando Aspose.Cells per Java: una guida completa](./aspose-cells-java-superscript-excel/)
 Scopri come applicare la formattazione in apice alle celle di Excel utilizzando Aspose.Cells per Java. Segui questa guida passo passo per migliorare i tuoi documenti Excel con notazioni scientifiche e altro ancora.
 
-### [Padroneggia gli effetti di testo e le ombre in Excel usando Aspose.Cells Java: una guida completa](./aspose-cells-java-text-effects-shadows-excel/)
+### [Padroneggiare gli effetti di testo e le ombre in Excel usando Aspose.Cells Java: una guida completa](./aspose-cells-java-text-effects-shadows-excel/)
 Scopri come aggiungere ombreggiature con effetti di testo a forme e caselle di testo in Excel utilizzando Aspose.Cells per Java. Arricchisci i tuoi fogli di calcolo con elementi visivi dinamici.
 
 ### [Aspose.Cells Java: aggiorna le impostazioni del testo avanzato e dei caratteri nelle celle di Excel](./aspose-cells-java-update-rich-text-fonts/)
@@ -143,7 +147,7 @@ Scopri come automatizzare lo stile e l'allineamento delle celle nei file Excel u
 ### [Personalizzazione dei font di Excel tramite Aspose.Cells Java: accesso e aggiornamento di porzioni di cella](./excel-font-customization-aspose-cells-java/)
 Scopri come personalizzare i font di Excel utilizzando Aspose.Cells per Java. Questa guida illustra come accedere, modificare e aggiornare le impostazioni dei font in specifiche porzioni di cella.
 
-### [Padroneggia lo stile di Excel con Aspose.Cells per Java: una guida completa](./excel-styling-aspose-cells-java/)
+### [Padroneggiare lo stile di Excel con Aspose.Cells per Java: una guida completa](./excel-styling-aspose-cells-java/)
 Impara ad automatizzare lo stile in Excel utilizzando Aspose.Cells per Java. Scopri come applicare stili, impostare colori e pattern e salvare i file a livello di codice.
 
 ### [Estrazione di temi Excel in Java utilizzando Aspose.Cells: una guida completa](./excel-theme-extraction-aspose-cells-java-guide/)
@@ -176,13 +180,13 @@ Scopri come automatizzare le ricerche di celle basate sullo stile in Excel utili
 ### [Padroneggia la formattazione condizionale con le formule in Aspose.Cells](./master-conditional-formatting-aspose-cells-java/)
 Un tutorial sul codice per Aspose.Words Java
 
-### [Padroneggia la formattazione condizionale in .NET utilizzando Aspose.Cells per Java](./master-conditional-formatting-net-aspose-cells-java/)
+### [Padroneggiare la formattazione condizionale in .NET utilizzando Aspose.Cells per Java](./master-conditional-formatting-net-aspose-cells-java/)
 Scopri come automatizzare la formattazione condizionale nelle cartelle di lavoro di Excel con Aspose.Cells per Java. Semplifica la presentazione dei dati e aumenta la produttività.
 
-### [Padroneggia la formattazione personalizzata dei numeri decimali in Java con Aspose.Cells](./master-custom-dbnum-formatting-aspose-cells-java/)
+### [Padroneggiare la formattazione personalizzata dei numeri decimali in Java con Aspose.Cells](./master-custom-dbnum-formatting-aspose-cells-java/)
 Scopri come implementare la formattazione personalizzata di DBNum in Java utilizzando Aspose.Cells per una presentazione dei dati precisa e professionale. Segui questa guida passo passo per migliorare la visualizzazione numerica della tua applicazione.
 
-### [Padroneggia i separatori numerici personalizzati in Excel con Aspose.Cells per Java](./master-custom-number-separators-aspose-cells-java/)
+### [Padroneggiare i separatori numerici personalizzati in Excel con Aspose.Cells per Java](./master-custom-number-separators-aspose-cells-java/)
 Scopri come personalizzare i separatori decimali e delle migliaia in Excel utilizzando Aspose.Cells per Java, garantendo la chiarezza dei dati in diverse impostazioni locali.
 
 ### [Come unire e formattare le celle in Excel utilizzando Aspose.Cells per Java: una guida completa](./master-merging-styling-cells-aspose-cells-java/)
@@ -197,10 +201,10 @@ Scopri come impostare la direzione del testo nelle celle di Excel utilizzando As
 ### [Creazione e stile di cartelle di lavoro principali in Java utilizzando Aspose.Cells](./mastering-aspose-cells-java-workbook-creation-styling/)
 Scopri come creare e personalizzare cartelle di lavoro Excel a livello di codice con Aspose.Cells per Java. Automatizza la presentazione dei tuoi dati con facilità.
 
-### [Padroneggia gli stili predefiniti in Aspose.Cells per Java: una guida completa](./mastering-built-in-styles-aspose-cells-java-guide/)
+### [Padroneggiare gli stili predefiniti in Aspose.Cells per Java: una guida completa](./mastering-built-in-styles-aspose-cells-java-guide/)
 Migliora l'aspetto visivo dei tuoi report Excel con questa guida sull'applicazione di stili predefiniti utilizzando Aspose.Cells per Java. Perfetto per gli sviluppatori che desiderano migliorare la presentazione dei fogli di calcolo.
 
-### [Padroneggia lo stile delle celle di Excel in Java con Aspose.Cells: una guida completa](./mastering-cell-styling-aspose-cells-java/)
+### [Padroneggiare lo stile delle celle di Excel in Java con Aspose.Cells: una guida completa](./mastering-cell-styling-aspose-cells-java/)
 Scopri come applicare lo stile alle celle di Excel utilizzando Aspose.Cells per Java. Questa guida illustra la creazione di cartelle di lavoro, la personalizzazione delle celle e il salvataggio dei file con esempi di codice dettagliati.
 
 ### [Formattazione dei dati master in Java utilizzando Aspose.Cells: una guida completa](./mastering-data-formatting-java-aspose-cells/)
@@ -236,7 +240,21 @@ Scopri come ordinare in modo efficiente i dati di Excel in base al colore delle 
 ### [Come formattare le celle di Excel e aggiungere collegamenti ipertestuali utilizzando Aspose.Cells per Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Padroneggia lo stile delle celle di Excel e aggiungi collegamenti ipertestuali nelle tue applicazioni Java con Aspose.Cells. Segui questa guida completa per un'integrazione e una formattazione perfette.
 
+### [Creare una cartella di lavoro Excel con formattazione dinamica in Java – Guida completa](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+Scopri come creare una cartella di lavoro Excel con formattazione dinamica utilizzando Aspose.Cells per Java, con esempi di codice completi.
 
+### [Come applicare stili durante la conversione di DataTable in Excel – Guida completa Java](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
+Scopri come convertire una DataTable in Excel applicando stili personalizzati con Aspose.Cells per Java, con esempi di codice passo passo.
+
+### [Formato data Aspose Cells: Come impostare un formato data personalizzato in Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+Scopri come impostare formati data personalizzati nei fogli Excel con Aspose.Cells per Java, con esempi di codice chiari e pratici.
+### [Impostare il carattere in grassetto nell'esportazione Excel Java – Guida completa](./set-font-bold-in-java-excel-export-complete-guide/)
+Scopri come impostare il grassetto del carattere nei file Excel esportati con Java usando Aspose.Cells, con esempi di codice passo passo.
+### [Creare una cartella di lavoro Excel con stile in Java – Guida completa](./create-styled-excel-workbook-in-java-complete-guide/)
+Scopri come creare una cartella di lavoro Excel con stili professionali usando Aspose.Cells per Java. Questa guida passo passo include esempi di codice.
+
+### [Come utilizzare WRAPCOLS in Aspose.Cells – Esempio Java completo](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Scopri come utilizzare la funzione WRAPCOLS di Aspose.Cells per Java per avvolgere dinamicamente il contenuto delle colonne, con esempi di codice completi.
 
 ## Risorse aggiuntive
 
