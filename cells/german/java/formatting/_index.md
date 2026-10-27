@@ -112,6 +112,9 @@ Ein Code-Tutorial für Aspose.Words Java
 ### [Master Aspose.Cells Java: Arbeitsmappenstile und effizientes Datenstreaming in Excel](./aspose-cells-java-workbook-styles-streaming/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java benutzerdefinierte Arbeitsmappenstile erstellen und große Datensätze mit LightCellsDataProvider effizient streamen. Verbessern Sie noch heute Ihre Excel-Kenntnisse.
 
+### [Master Workbook Styling in Java mit Aspose.Cells: Ein vollständiger Leitfaden](./aspose-cells-java-workbook-styling-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Excel-Arbeitsmappen erstellen und gestalten. Dieser Leitfaden behandelt die Erstellung von Arbeitsmappen, Gestaltungstechniken und praktische Anwendungen.
+
 ### [Erstellen Sie ein stilisiertes Excel-Arbeitsbuch in Java – Vollständige Anleitung](./create-styled-excel-workbook-in-java-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java ein professionell gestaltetes Excel-Arbeitsbuch erstellen, inklusive Formatvorlagen und Styling.
 

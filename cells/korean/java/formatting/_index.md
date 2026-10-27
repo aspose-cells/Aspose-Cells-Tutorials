@@ -172,23 +172,8 @@ Aspose.Words Java에 대한 코드 튜토리얼
 ### [Aspose.Cells Java를 활용한 Excel 셀 스타일 및 정렬 마스터하기](./excel-cell-styling-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 파일의 셀 스타일 및 정렬을 자동화하는 방법을 알아보세요. 서식을 유지하면서 문서 관리 효율성을 향상시켜 보세요.
 
-### [Aspose.Cells Java를 사용한 Excel 글꼴 사용자 지정: 셀 부분 액세스 및 업데이트](./excel-font-customization-aspose-cells-java/)
-Aspose.Cells for Java를 사용하여 Excel 글꼴을 사용자 지정하는 방법을 알아보세요. 이 가이드는 특정 셀 영역 내에서 글꼴 설정에 접근하고, 수정하고, 업데이트하는 방법을 다룹니다.
-
 ### [Aspose.Cells for Java를 활용한 Excel 스타일링 마스터하기: 완벽한 가이드](./excel-styling-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel에서 스타일을 자동화하는 방법을 알아보세요. 스타일을 적용하고, 색상과 패턴을 설정하고, 프로그래밍 방식으로 파일을 저장하는 방법을 알아보세요.
-
-### [Aspose.Cells를 사용하여 Java에서 Excel 테마 추출: 포괄적인 가이드](./excel-theme-extraction-aspose-cells-java-guide/)
-Aspose.Cells for Java를 사용하여 Excel 통합 문서에서 테마를 추출하고 관리하는 방법을 알아보세요. 이 가이드는 설정, 코드 예제 및 모범 사례를 다룹니다.
-
-### [Aspose.Cells Java를 사용한 Excel 통합 문서 초기화 및 셀 스타일 지정: 포괄적인 가이드](./excel-workbook-initialization-cell-styling-aspose-cells-java/)
-Aspose.Cells for Java를 사용하여 Excel 통합 문서를 초기화하고 스타일을 지정하는 방법을 익혀보세요. 이 가이드는 통합 문서 설정, 셀 수정 및 스타일 지정 기법을 다룹니다.
-
-### [Aspose.Cells Java를 사용한 Excel 통합 문서 스타일링 마스터하기: 개발자를 위한 종합 가이드](./excel-workbook-styling-aspose-cells-java/)
-Aspose.Cells Java를 사용하여 Excel 통합 문서 스타일 지정 및 데이터 조작을 간소화하는 방법을 알아보세요. 이 가이드는 초기화, 스타일 지정 기법, 효율적인 데이터 처리에 대해 다룹니다.
-
-### [Java용 Aspose.Cells를 사용하여 Excel 워크시트 탭 색상 설정: 완전한 가이드](./excel-worksheet-tab-color-aspose-cells-java/)
-Aspose.Cells for Java를 사용하여 Excel에서 워크시트 탭 색상을 사용자 지정하는 방법을 알아보세요. 이 가이드는 설정, 코딩 및 실제 적용 방법을 다룹니다.
 
 ### [Java용 Aspose.Cells를 사용하여 Excel 주석 서식 마스터하기](./format-excel-comments-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 주석 서식을 쉽게 지정하는 방법을 알아보세요. 프로그래밍 방식으로 주석을 추가하고 스타일을 지정하여 스프레드시트를 더욱 멋지게 꾸며보세요.
@@ -201,9 +186,6 @@ Aspose.Cells for Java를 사용하여 Excel에서 0값을 숨기고 스프레드
 
 ### [Java용 Aspose.Cells를 사용하여 Excel에서 가로 텍스트 정렬을 설정하는 방법](./horizontal-text-alignment-excel-aspose-cells-java/)
 단계별 지침과 모범 사례를 통해 Aspose.Cells for Java를 사용하여 Excel 스프레드시트에서 텍스트를 수평으로 정렬하는 방법을 알아보세요.
-
-### [Java용 Aspose.Cells 구현: Excel에서 스타일 기반 셀 검색 마스터하기](./implement-aspose-cells-java-style-cell-search/)
-Aspose.Cells for Java를 사용하여 Excel에서 스타일 기반 셀 검색을 자동화하는 방법을 알아보세요. 이 가이드는 설정, 스타일별 검색, 그리고 프로그래밍 방식으로 셀을 수정하는 방법을 다룹니다.
 
 ### [Aspose.Cells를 사용하여 Java에서 사용자 정의 10진수 숫자 서식 지정하기](./master-custom-dbnum-formatting-aspose-cells-java/)
 Aspose.Cells를 사용하여 Java에서 사용자 지정 DBNum 서식을 구현하여 정확하고 전문적인 데이터 표현을 구현하는 방법을 알아보세요. 이 단계별 가이드를 따라 애플리케이션의 숫자 표시 기능을 향상시켜 보세요.
