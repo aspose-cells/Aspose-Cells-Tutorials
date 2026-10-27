@@ -112,6 +112,8 @@ Aspose.Cells for Java kullanarak Excel dosyalarındaki otomatik filtreyi nasıl 
 Aspose.Cells for Java kullanarak aynı detay sayfalarını birden fazla kez oluşturmayı öğrenin.
 ### [Aspose.Cells Java ile Listeden Çalışma Sayfaları Oluşturma – Tam Kılavuz](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
 Aspose.Cells for Java kullanarak bir listeden birden fazla çalışma sayfası oluşturmayı adım adım öğrenin.
+### [Java ile Excel'de İlk İki Satırı Dondurma – Tam Kılavuz](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Java için Aspose.Cells kullanarak Excel dosyasında ilk iki satırı dondurmayı öğrenin. Bu kapsamlı kılavuz adım adım örnekler içerir.
 
 ## Ek Kaynaklar
 

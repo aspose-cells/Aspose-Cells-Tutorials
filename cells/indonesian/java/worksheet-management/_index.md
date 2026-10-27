@@ -53,6 +53,9 @@ Pelajari cara memindahkan, mengakses, dan mengelola lembar Excel dengan mudah me
 ### [Otomatiskan Penyesuaian Tinggi Baris Excel Menggunakan Aspose.Cells untuk Java](./aspose-cells-java-row-height-excel/)
 Pelajari cara mengotomatiskan penyesuaian tinggi baris dalam file Excel dengan Aspose.Cells untuk Java. Panduan ini mencakup instalasi, contoh pengodean, dan kiat performa.
 
+### [Membekukan Dua Baris Pertama di Excel dengan Java – Panduan Lengkap](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Pelajari cara membekukan dua baris pertama di file Excel menggunakan Aspose.Cells untuk Java. Ikuti panduan lengkap ini untuk mengatur tampilan data Anda.
+
 ### [Manajemen Baris yang Efisien di Excel menggunakan Aspose.Cells untuk Java: Sisipkan dan Hapus Baris](./aspose-cells-java-row-operations-excel/)
 Kuasai operasi baris di Excel dengan Aspose.Cells untuk Java. Pelajari cara menyisipkan dan menghapus baris secara efisien, mengoptimalkan tugas pengelolaan data Anda.
 

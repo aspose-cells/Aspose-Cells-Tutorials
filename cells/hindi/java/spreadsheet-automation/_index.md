@@ -51,7 +51,6 @@ Aspose.Cells के साथ जावा में Excel वर्कबुक
 ### [जावा के साथ एक्सेल में ऑटोफ़िल्टर बंद करना – पूर्ण गाइड](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
 जावा में Aspose.Cells का उपयोग करके Excel फ़ाइलों में ऑटोफ़िल्टर को निष्क्रिय करने की चरण-दर-चरण प्रक्रिया सीखें।
 ### [एक्सेल में डेटा एकीकरण](./data-integration-in-excel/)
-बेहतर जानकारी और निर्णय लेने के लिए Excel में डेटा को कुशलतापूर्वक एकीकृत करने का तरीका जानें। Java के लिए Aspose.Cells का उपयोग करके स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
 ### [जावा के साथ एक्सेल में ऑटोफ़िल्टर निष्क्रिय करें – चरण-दर-चरण मार्गदर्शिका](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
 जावा के साथ Aspose.Cells का उपयोग करके एक्सेल फ़ाइल में ऑटोफ़िल्टर को निष्क्रिय करने का तरीका सीखें।
 ### [जावा में प्रोग्रामेटिक रूप से Excel बनाएं – चरण-दर-चरण मार्गदर्शिका](./create-excel-programmatically-in-java-step-by-step-guide/)
@@ -69,6 +68,8 @@ Aspose.Cells का उपयोग करके नया वर्कबुक
 ### [जावा के साथ एक्सेल में एरे का विस्तार – चरण‑दर‑चरण गाइड](./expand-array-in-excel-with-java-step-by-step-guide/)
 जावा के साथ Aspose.Cells का उपयोग करके Excel में एरे को विस्तारित करने का चरण‑दर‑चरण मार्गदर्शन।
 ### [जावा के साथ एक्सेल से ऑटोफ़िल्टर हटाएँ – पूर्ण गाइड](./remove-autofilter-from-excel-with-java-complete-guide/)
+### [Aspose.Cells का उपयोग कैसे करें: कस्टम प्रॉपर्टी जोड़ें और XLSB सहेजें](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+Aspose.Cells के साथ कस्टम प्रॉपर्टी जोड़कर XLSB फ़ाइल को सहेजने की प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

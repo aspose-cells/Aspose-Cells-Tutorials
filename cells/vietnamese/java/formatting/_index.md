@@ -66,6 +66,8 @@ Tìm hiểu cách xử lý định dạng số tùy chỉnh trong sổ làm vi�
 Tìm hiểu cách thiết lập và tùy chỉnh định dạng số trong tệp Excel bằng Aspose.Cells cho Java, kèm ví dụ mã và mẹo tối ưu.
 ### [Đặt Định dạng Số Tùy chỉnh trong Excel bằng Java – Hướng dẫn đầy đủ](./set-custom-number-format-in-excel-with-java-complete-guide/)
 Tìm hiểu cách thiết lập định dạng số tùy chỉnh cho ô Excel bằng Aspose.Cells cho Java, bao gồm các ví dụ mã và hướng dẫn chi tiết.
+### [Áp dụng Định dạng Số trong Excel bằng Java – Hướng dẫn đầy đủ Aspose.Cells](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+Tìm hiểu cách áp dụng định dạng số trong tệp Excel bằng Aspose.Cells cho Java. Hướng dẫn chi tiết từng bước, ví dụ mã và mẹo tối ưu.
 
 ### [Làm chủ trình bày dữ liệu trong Excel: Định dạng số và ngày tùy chỉnh với Aspose.Cells cho Java](./aspose-cells-java-data-formatting-excel/)
 Tìm hiểu cách áp dụng định dạng số và kiểu ngày tùy chỉnh bằng Aspose.Cells cho Java, cải thiện khả năng trình bày dữ liệu trong bảng tính Excel.

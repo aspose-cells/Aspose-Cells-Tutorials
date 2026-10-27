@@ -71,6 +71,8 @@ Ismerje meg, hogyan alkalmazhatja a WRAPCOLS függvényt Java-ban a mátrixok á
 
 ### [Betűtípusok beágyazása Excel PDF-re konvertálásakor Java használatával](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
 Ismerje meg, hogyan ágyazhat be betűtípusokat az Excel PDF konvertálás során Java-val az Aspose.Cells segítségével.
+### [Excel-ből PPTX-be: Teljes Java útmutató a szerkeszthető alakzatok exportálásához](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+Ismerje meg, hogyan exportálhat szerkeszthető alakzatokat Excel-fájlokból PPTX prezentációkba Java és Aspose.Cells segítségével.
 
 ## További források
 

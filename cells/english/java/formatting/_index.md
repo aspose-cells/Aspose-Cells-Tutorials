@@ -67,6 +67,8 @@ Learn how to apply number formats and custom date styles using Aspose.Cells for 
 
 ### [Aspose Cells Date Format: How to Set Custom Date Format in Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
 Learn how to set custom date formats in Excel using Aspose.Cells for Java, with step-by-step code examples and best practices.
+### [Apply Number Format Excel in Java – Complete Aspose.Cells Guide](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+Learn how to apply number formats to Excel cells using Aspose.Cells for Java with step-by-step code examples.
 
 ### [How to Create & Format Excel Cells Using Aspose.Cells for Java&#58; A Step-by-Step Guide](./aspose-cells-java-excel-automation-guide/)
 Learn how to automate and format Excel files with ease using Aspose.Cells for Java. This guide covers workbook creation, cell formatting, and saving techniques.

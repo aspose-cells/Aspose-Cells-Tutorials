@@ -79,6 +79,8 @@
 
 ### [使用 Java 從 Excel 移除自動篩選 – 完整指南](./remove-autofilter-from-excel-with-java-complete-guide/)
 了解如何使用 Aspose.Cells for Java 移除 Excel 工作表中的自動篩選，並透過範例程式碼完成完整操作。
+### [如何使用 Aspose.Cells：新增自訂屬性並儲存為 XLSB](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+了解如何使用 Aspose.Cells 為 Excel 檔案新增自訂屬性，並將檔案儲存為 XLSB 格式。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

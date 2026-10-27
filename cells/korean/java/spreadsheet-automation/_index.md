@@ -62,6 +62,8 @@ Java와 Aspose.Cells를 활용해 Excel에서 자동 필터를 해제하는 방�
 Aspose.Cells for Java를 사용하여 Excel 자동 필터를 해제하는 방법을 단계별로 안내합니다.
 ### [Java를 사용한 Excel 테이블 헤더 삭제 – 전체 가이드](./how-to-delete-table-header-in-excel-with-java-full-guide/)
 Aspose.Cells for Java를 사용하여 Excel 테이블 헤더를 삭제하는 방법을 단계별로 안내합니다.
+### [Aspose.Cells 사용 방법: 사용자 정의 속성 추가 및 XLSB 저장](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+Aspose.Cells를 사용해 사용자 정의 속성을 추가하고 XLSB 형식으로 저장하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

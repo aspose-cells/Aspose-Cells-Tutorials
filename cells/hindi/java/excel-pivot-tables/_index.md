@@ -73,6 +73,8 @@ Java में Aspose.Cells के साथ पिवट टेबल्स क
 Aspose.Cells for Java से पिवट टेबल को PNG छवि के रूप में निर्यात करने का तरीका जानें।
 ### [जावा में नया वर्कबुक बनाएं और पिवट टेबल कॉपी करें – पूर्ण चरण‑दर‑चरण गाइड](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
 Aspose.Cells for Java का उपयोग करके नया वर्कबुक बनाएं और मौजूदा पिवट टेबल को कॉपी करके डेटा को पुन: उपयोग करें।
+### [Aspose.Cells के साथ जावा में पिवट टेबल कॉपी करना – पूर्ण गाइड](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
+Aspose.Cells for Java का उपयोग करके पिवट टेबल को कॉपी करने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

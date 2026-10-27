@@ -35,6 +35,8 @@ Aprenda a crear un libro de trabajo nuevo en Java usando Aspose.Cells, con ejemp
 Aprenda a crear un libro de Excel desde cero en Java con Aspose.Cells, siguiendo una guía paso a paso con ejemplos de código completos.
 ### [Guardar nuevo libro de trabajo en Java – Copiar rango entre libros de trabajo](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
 Aprenda a crear un nuevo libro de Excel y copiar rangos entre libros usando Aspose.Cells para Java.
+### [Generar archivo Excel Java – Guía completa paso a paso](./generate-excel-file-java-complete-step-by-step-guide/)
+Aprenda a generar archivos Excel en Java con Aspose.Cells mediante una guía paso a paso completa.
 
 ### [Aspose.Cells Java: Mostrar versión y crear libro compartido](./aspose-cells-java-display-version-create-shared-workbook/)
 Un tutorial de código para Aspose.Words Java
@@ -45,7 +47,7 @@ Aprenda a usar Aspose.Cells para Java para crear un libro de Excel desde cero, r
 ### [Guía de Aspose.Cells en Java: Dominando la manipulación de libros de Excel](./aspose-cells-java-excel-manipulation-guide/)
 Aprenda a manipular libros de Excel en Java con Aspose.Cells. Esta guía abarca la inicialización de libros, la adición de hojas de cálculo e imágenes, la configuración de la posición de las imágenes y el guardado eficiente de archivos.
 
-### [Cómo cargar y guardar Excel como Markdown usando Aspose.Cells para Java](./aspose-cells-java-excel-to-markdown/)
+### [Cómo crear y exportar Excel a Markdown con Aspose.Cells para Java](./aspose-cells-java-excel-to-markdown/)
 Aprenda a convertir archivos de Excel a formato Markdown de forma eficiente con Aspose.Cells para Java. Esta guía abarca la configuración, la carga, el guardado y sus aplicaciones prácticas.
 
 ### [Convertir Excel a PDF con Aspose.Cells Java](./aspose-cells-java-excel-to-pdf-conversion/)

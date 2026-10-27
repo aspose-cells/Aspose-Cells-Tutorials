@@ -65,6 +65,9 @@
 ### [ตั้งค่ารูปแบบตัวเลขกำหนดเองใน Excel ด้วย Java – คู่มือฉบับสมบูรณ์](./set-custom-number-format-in-excel-with-java-complete-guide/)
 เรียนรู้วิธีตั้งค่ารูปแบบตัวเลขกำหนดเองในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java ด้วยคำแนะนำทีละขั้นตอนและตัวอย่างโค้ดที่ใช้งานได้จริง
 
+### [การใช้รูปแบบตัวเลขใน Excel ด้วย Java – คู่มือ Aspose.Cells ฉบับสมบูรณ์](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+เรียนรู้วิธีกำหนดรูปแบบตัวเลขในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java ผ่านตัวอย่างโค้ดและขั้นตอนที่ละเอียด
+
 ### [การเรียนรู้การนำเสนอข้อมูลใน Excel: การจัดรูปแบบตัวเลขและวันที่แบบกำหนดเองด้วย Aspose.Cells สำหรับ Java](./aspose-cells-java-data-formatting-excel/)
 เรียนรู้วิธีการใช้รูปแบบตัวเลขและสไตล์วันที่ที่กำหนดเองโดยใช้ Aspose.Cells สำหรับ Java เพื่อปรับปรุงการนำเสนอข้อมูลในสเปรดชีต Excel
 

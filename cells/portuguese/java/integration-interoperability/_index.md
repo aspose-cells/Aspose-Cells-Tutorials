@@ -84,6 +84,8 @@ Aprenda a usar o método WRAPCOLS em Java com Aspose.Cells para converter matriz
 
 ### [Como incorporar fontes ao converter Excel para PDF com Java](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
 Aprenda a incorporar fontes nas conversões de arquivos Excel para PDF usando Aspose.Cells para Java, garantindo que o PDF mantenha a formatação correta.
+### [Excel para PPTX: Guia completo em Java para exportar formas editáveis](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+Aprenda a converter planilhas do Excel em apresentações PPTX, exportando formas editáveis usando Aspose.Cells para Java.
 
 ## Recursos adicionais
 

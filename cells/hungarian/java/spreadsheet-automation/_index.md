@@ -72,6 +72,8 @@ Tanulja meg, hogyan távolíthatja el a táblázatfejlécet Excel-fájlokból Ja
 Ismerje meg, hogyan bővíthet tömböket Excelben Java segítségével, részletes kódrészletekkel és példákkal.
 ### [Autofilter eltávolítása Excelből Java-val – Teljes útmutató](./remove-autofilter-from-excel-with-java-complete-guide/)
 Ismerje meg, hogyan távolíthatja el az Excel autofilter funkciót Java kóddal, részletes példákkal és lépésről-lépésre útmutatóval.
+### [Hogyan használjuk az Aspose.Cells-et: egyéni tulajdonság hozzáadása és XLSB mentése](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+Ismerje meg, hogyan adhat hozzá egyéni tulajdonságot egy Excel-fájlhoz, majd mentheti XLSB formátumban az Aspose.Cells segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

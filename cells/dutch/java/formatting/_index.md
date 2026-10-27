@@ -63,6 +63,8 @@ Leer hoe u aangepaste getalnotaties in Java-werkmappen kunt verwerken met Aspose
 Leer hoe u getalnotaties in Excel-werkbladen instelt met Aspose.Cells voor Java, inclusief codevoorbeelden en best practices.
 ### [Aangepast getalformaat instellen in Excel met Java – Complete handleiding](./set-custom-number-format-in-excel-with-java-complete-guide/)
 Leer hoe u aangepaste getalnotaties in Excel kunt instellen met Aspose.Cells voor Java. Deze stap‑voor‑stap gids toont codevoorbeelden en best practices.
+### [Getalnotatie toepassen in Excel met Java – Complete Aspose.Cells-gids](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+Leer hoe u getalnotaties in Excel toepast met Aspose.Cells voor Java. Deze complete gids biedt stapsgewijze instructies en werkende codevoorbeelden.
 
 ### [Gegevenspresentatie in Excel onder de knie krijgen: getal- en aangepaste datumnotatie met Aspose.Cells voor Java](./aspose-cells-java-data-formatting-excel/)
 Leer hoe u getalnotaties en aangepaste datumstijlen kunt toepassen met Aspose.Cells voor Java, waarmee u de presentatie van gegevens in Excel-spreadsheets kunt verbeteren.

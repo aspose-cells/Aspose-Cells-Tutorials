@@ -72,6 +72,8 @@ Pelajari cara menghapus header tabel di file Excel menggunakan Aspose.Cells for 
 Pelajari cara memperluas array di Excel menggunakan Aspose.Cells for Java dengan contoh kode lengkap.
 ### [Menghapus Autofilter dari Excel dengan Java – Panduan Lengkap](./remove-autofilter-from-excel-with-java-complete-guide/)
 Pelajari cara menghapus autofilter pada file Excel menggunakan Aspose.Cells untuk Java dengan contoh kode lengkap.
+### [Cara Menggunakan Aspose.Cells: Tambahkan Properti Kustom & Simpan XLSB](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+Pelajari cara menambahkan properti kustom ke file XLSB dan menyimpannya menggunakan Aspose.Cells untuk Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

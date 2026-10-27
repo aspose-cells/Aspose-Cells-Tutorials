@@ -113,6 +113,8 @@ Java と Aspose.Cells を使用して、テンプレートベースで複数シ�
 Aspose.Cells for Java を使って Excel のオートフィルタ設定を解除し、データの表示をリセットする手順を解説します。
 ### [Aspose.Cells for Java を使用して重複した詳細シートを作成する方法](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
 Aspose.Cells for Java を使って、詳細シートを複製し、データ管理とレポート作成を効率化する手順を解説します。
+### [Java を使用して Excel の最初の 2 行を固定する – 完全ガイド](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Aspose.Cells for Java を使用して、Excel の最初の 2 行を固定する方法を学び、データ表示を最適化しましょう。
 
 ## 追加リソース
 

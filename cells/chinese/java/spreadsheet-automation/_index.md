@@ -48,7 +48,8 @@
 
 ### [Excel 工作簿自动化](./excel-workbook-automation/)
 学习使用 Aspose.Cells 在 Java 中实现 Excel 工作簿自动化：以编程方式创建、读取和更新 Excel 文件。立即开始！
-
+### [如何使用 Aspose.Cells：添加自定义属性并保存 XLSB](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+学习如何使用 Aspose.Cells 为 Excel 文件添加自定义属性并保存为 XLSB 格式的示例代码。
 ### [自动化 Excel 图表](./automating-excel-charts/)
 探索如何使用 Aspose.Cells for Java 自动化创建和自定义 Excel 图表，并附带源代码示例。简化您的图表绘制任务。 
 

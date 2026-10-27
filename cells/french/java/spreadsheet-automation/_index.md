@@ -81,6 +81,8 @@ Apprenez à créer un classeur Excel, ajouter une propriété personnalisée et 
 Apprenez à supprimer l'en-tête d'un tableau Excel en Java avec Aspose.Cells, grâce à un guide complet et des exemples de code.
 ### [Étendre un tableau dans Excel avec Java – Guide étape par étape](./expand-array-in-excel-with-java-step-by-step-guide/)
 Apprenez à étendre des tableaux Excel en Java avec Aspose.Cells grâce à un guide détaillé et des exemples de code.
+### [Comment utiliser Aspose.Cells : ajouter une propriété personnalisée et enregistrer au format XLSB](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+Apprenez à ajouter une propriété personnalisée à un classeur Excel et à l’enregistrer au format XLSB avec Aspose.Cells pour Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

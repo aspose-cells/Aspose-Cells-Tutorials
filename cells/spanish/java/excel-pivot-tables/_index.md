@@ -74,6 +74,8 @@ Aprenda a duplicar tablas dinámicas en Excel usando Java, con instrucciones det
 Aprenda a exportar una tabla dinámica de Excel como imagen PNG usando Aspose.Cells para Java.
 ### [Crear nuevo libro y copiar tabla dinámica en Java – Guía completa paso a paso](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
 Aprenda a crear un nuevo libro y copiar una tabla dinámica en Java con Aspose.Cells, siguiendo una guía paso a paso.
+### [Copiar tabla dinámica en Java con Aspose.Cells – Guía completa](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
+Aprenda a copiar tablas dinámicas en Java usando Aspose.Cells, con ejemplos paso a paso para duplicar y reutilizar informes.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

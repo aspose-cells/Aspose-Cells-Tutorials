@@ -229,6 +229,8 @@ Pelajari cara membuat file Excel, menambahkan properti khusus, dan menyimpannya 
 Panduan langkah demi langkah untuk menambahkan properti kustom ke file Excel menggunakan Aspose.Cells untuk Java.
 ### [Gunakan Fungsi Lambda Java untuk Membuat Contoh Buku Kerja Excel](./use-lambda-function-java-to-create-excel-workbook-example/)
 Pelajari cara menggunakan fungsi lambda di Java untuk membuat buku kerja Excel secara programatis dengan contoh kode lengkap.
+### [Menghasilkan File Excel Java – Panduan Lengkap Langkah demi Langkah](./generate-excel-file-java-complete-step-by-step-guide/)
+Pelajari cara menghasilkan file Excel menggunakan Java dengan panduan langkah demi langkah lengkap.
 
 ## Sumber Daya Tambahan
 

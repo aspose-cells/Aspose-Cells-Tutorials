@@ -59,6 +59,9 @@ Java के लिए Aspose.Cells का उपयोग करके Excel द
 ### [Aspose.Cells के साथ जावा एक्सेल वर्कबुक में कस्टम नंबर फॉर्मेट में महारत हासिल करें](./aspose-cells-java-custom-number-formats-handling/)
 Aspose.Cells का उपयोग करके Java वर्कबुक में कस्टम नंबर फ़ॉर्मेट को हैंडल करना सीखें। यह गाइड वर्कबुक कॉन्फ़िगरेशन, अपवाद हैंडलिंग और वास्तविक दुनिया के अनुप्रयोगों को कवर करता है।
 
+### [Apply Number Format Excel in Java – Complete Aspose.Cells Guide](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+Aspose.Cells for Java का उपयोग करके Excel में संख्या फ़ॉर्मेट कैसे लागू करें, इस चरण-दर-चरण गाइड में सीखें।
+
 ### [Excel में डेटा प्रस्तुति में महारत हासिल करना: Java के लिए Aspose.Cells के साथ संख्या और कस्टम दिनांक स्वरूपण](./aspose-cells-java-data-formatting-excel/)
 जावा के लिए Aspose.Cells का उपयोग करके संख्या प्रारूप और कस्टम दिनांक शैलियों को लागू करना सीखें, एक्सेल स्प्रेडशीट में डेटा प्रस्तुति को बढ़ाएं।
 

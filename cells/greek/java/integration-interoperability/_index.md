@@ -78,6 +78,7 @@
 ### [Πώς να χρησιμοποιήσετε το WRAPCOLS στη Java – Πλήρης οδηγός για μετατροπή πινάκων](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
 
 ### [Πώς να ενσωματώσετε γραμματοσειρές κατά τη μετατροπή Excel σε PDF με Java](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
+### [excel σε pptx: Πλήρης Οδηγός Java για Εξαγωγή Επεξεργάσιμων Σχημάτων](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
 
 ## Πρόσθετοι Πόροι
 

@@ -155,6 +155,8 @@
 تعرّف على كيفية إدراج بيانات JSON في ملفات Excel باستخدام Aspose Cells لجافا. دليل خطوة بخطوة مع الكود المصدري.
 ### [تعيين فاصل خلايا مخصص – تصدير جدول إكسل إلى TXT](./set-custom-cell-separator-export-excel-table-to-txt/)
 تعرف على كيفية تعيين فاصل خلايا مخصص عند تصدير جدول إكسل إلى ملف TXT باستخدام Aspose.Cells لجافا.
+### [إنشاء إكسل من JSON باستخدام Aspose Cells – دليل Java كامل](./create-excel-from-json-with-aspose-cells-full-java-guide/)
+تعلم كيفية تحويل بيانات JSON إلى ملفات Excel باستخدام Aspose.Cells لجافا من خلال دليل شامل خطوة بخطوة مع أمثلة الكود.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

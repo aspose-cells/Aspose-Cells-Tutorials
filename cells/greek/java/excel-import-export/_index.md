@@ -152,6 +152,8 @@
 Μάθετε πώς να εξάγετε δεδομένα Excel σε αρχείο TXT χρησιμοποιώντας το Aspose.Cells για Java, με πλήρη βήμα‑βήμα οδηγίες και κώδικα.
 ### [Ορισμός προσαρμοσμένου διαχωριστή κελιών – Εξαγωγή πίνακα Excel σε TXT](./set-custom-cell-separator-export-excel-table-to-txt/)
 Μάθετε πώς να ορίσετε προσαρμοσμένο διαχωριστή κελιών κατά την εξαγωγή πίνακα Excel σε αρχείο TXT χρησιμοποιώντας το Aspose.Cells για Java.
+### [Δημιουργία Excel από JSON με Aspose Cells – Πλήρης Οδηγός Java](./create-excel-from-json-with-aspose-cells-full-java-guide/)
+Μάθετε πώς να δημιουργήσετε αρχεία Excel από JSON χρησιμοποιώντας το Aspose.Cells για Java με πλήρη βήμα-βήμα οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

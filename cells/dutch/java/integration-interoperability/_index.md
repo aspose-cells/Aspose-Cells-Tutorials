@@ -84,6 +84,8 @@ Leer hoe u de WRAPCOLS‑functie in Java gebruikt om matrices om te zetten met A
 
 ### [Hoe lettertypen inbedden bij het converteren van Excel naar PDF met Java](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
 Leer hoe u lettertypen insluit bij het converteren van Excel naar PDF met Aspose.Cells voor Java.
+### [Excel naar PPTX: volledige Java-gids voor het exporteren van bewerkbare vormen](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+Leer hoe u Excel-gegevens exporteert naar PPTX met bewerkbare vormen via Aspose.Cells voor Java. Deze gids bevat stap‑voor‑stap codevoorbeelden.
 
 ## Aanvullende bronnen
 

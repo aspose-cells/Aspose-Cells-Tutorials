@@ -72,6 +72,8 @@ Leer hoe u een nieuwe Excel-werkmap maakt, een aangepaste eigenschap toevoegt en
 Leer hoe u met Aspose.Cells voor Java tabelkoppen uit Excel-werkbladen kunt verwijderen met voorbeeldcode.
 ### [Array uitbreiden in Excel met Java – Stapsgewijze gids](./expand-array-in-excel-with-java-step-by-step-guide/)
 Leer hoe u arrays in Excel kunt uitbreiden met Java, met voorbeeldcode en stapsgewijze uitleg.
+### [Hoe Aspose.Cells te gebruiken: aangepaste eigenschap toevoegen en XLSB opslaan](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+Leer hoe u met Aspose.Cells een aangepaste eigenschap toevoegt aan een spreadsheet en deze opslaat als XLSB-bestand, inclusief voorbeeldcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

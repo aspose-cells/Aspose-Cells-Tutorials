@@ -84,6 +84,8 @@ Hướng dẫn chi tiết cách áp dụng hàm WRAPCOLS trong Java để chuy�
 
 ### [Cách nhúng phông chữ khi chuyển đổi Excel sang PDF bằng Java](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
 Tìm hiểu cách nhúng phông chữ khi chuyển đổi tệp Excel sang PDF bằng Aspose.Cells cho Java.
+### [excel sang pptx: Hướng dẫn Java đầy đủ để xuất các hình dạng có thể chỉnh sửa](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+Hướng dẫn chi tiết cách chuyển dữ liệu Excel sang PowerPoint (pptx) và xuất các hình dạng có thể chỉnh sửa bằng Aspose.Cells cho Java.
 
 ## Tài nguyên bổ sung
 

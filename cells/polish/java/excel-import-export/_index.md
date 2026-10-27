@@ -157,6 +157,8 @@ Dowiedz się, jak w prosty sposób wstawić dane JSON do pliku Excel przy użyci
 Dowiedz się, jak eksportować pliki Excel do formatu TXT przy użyciu Aspose.Cells for Java. Przewodnik krok po kroku z kodem źródłowym.
 ### [Ustaw niestandardowy separator komórek – eksport tabeli Excel do TXT](./set-custom-cell-separator-export-excel-table-to-txt/)
 Dowiedz się, jak ustawić niestandardowy separator komórek przy eksporcie tabeli Excel do formatu TXT przy użyciu Aspose.Cells for Java.
+### [Tworzenie Excela z JSON przy użyciu Aspose Cells – Pełny przewodnik Java](./create-excel-from-json-with-aspose-cells-full-java-guide/)
+Dowiedz się, jak w prosty sposób wygenerować plik Excel z danych JSON przy użyciu Aspose Cells w Javie.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

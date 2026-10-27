@@ -79,6 +79,8 @@ Java ve Aspose.Cells ile Excel'de dizi genişletmeyi adım adım öğrenin.
 
 ### [Java ile Excel'de Otomatik Filtreyi Kaldırma – Tam Kılavuz](./remove-autofilter-from-excel-with-java-complete-guide/)
 Java ve Aspose.Cells kullanarak Excel dosyalarındaki otomatik filtreyi nasıl kaldıracağınızı adım adım öğrenin.
+### [Aspose.Cells Nasıl Kullanılır: Özel Özellik Ekle ve XLSB Olarak Kaydet](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+Aspose.Cells ile bir özel özellik ekleyip dosyayı XLSB formatında kaydetmeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

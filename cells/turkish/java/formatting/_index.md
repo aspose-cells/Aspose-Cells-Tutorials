@@ -250,6 +250,7 @@ Aspose.Cells for Java kullanarak stilize bir Excel çalışma kitabı oluşturma
 
 ### [Aspose.Cells'te WRAPCOLS Kullanımı – Tam Java Örneği](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 Aspose.Cells for Java ile WRAPCOLS özelliğini nasıl kullanacağınızı ve tam bir Java örneğiyle uygulamayı öğrenin.
+### [Java'da Excel Sayı Biçimi Uygulama – Eksiksiz Aspose.Cells Kılavuzu](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
 
 ## Ek Kaynaklar
 

@@ -84,6 +84,8 @@ Apprenez à appliquer la fonction WRAPCOLS avec Aspose.Cells pour Java afin de t
 
 ### [Comment intégrer des polices lors de la conversion d'Excel en PDF avec Java](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
 Apprenez à incorporer les polices dans les fichiers PDF générés à partir d'Excel avec Aspose.Cells pour Java.
+### [Excel vers PPTX : guide complet Java pour exporter des formes modifiables](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+Apprenez à convertir des classeurs Excel en présentations PowerPoint avec des formes éditables en utilisant Aspose.Cells pour Java.
 
 ## Ressources supplémentaires
 

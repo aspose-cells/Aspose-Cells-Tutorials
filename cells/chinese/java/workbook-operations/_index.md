@@ -509,6 +509,8 @@ Aspose.Words Java 代码教程
 学习如何在 Java 中创建新工作簿并在工作簿之间复制单元格范围。
 ### [使用 Lambda 函数 Java 创建 Excel 工作簿示例](./use-lambda-function-java-to-create-excel-workbook-example/)
 演示如何使用 Java Lambda 函数快速创建并保存 Excel 工作簿的示例代码。
+### [生成 Excel 文件 Java – 完整分步指南](./generate-excel-file-java-complete-step-by-step-guide/)
+学习如何使用 Aspose.Cells for Java 从头创建 Excel 文件并保存为多种格式的完整分步指南。
 
 ## 其他资源
 

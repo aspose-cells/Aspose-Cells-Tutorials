@@ -78,6 +78,8 @@ Naučte se, jak pomocí Aspose.Cells pro Javu odstranit hlavičku tabulky v Exce
 Naučte se, jak pomocí Aspose.Cells v Javě rozšířit pole v Excelu a dynamicky přidávat data.
 ### [Odstranění automatického filtru z Excelu pomocí Javy – Kompletní průvodce](./remove-autofilter-from-excel-with-java-complete-guide/)
 Naučte se, jak pomocí Aspose.Cells pro Javu odstranit automatický filtr z Excelu a zjednodušit úpravy dat.
+### [Jak používat Aspose.Cells: Přidat vlastní vlastnost a uložit XLSB](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+Naučte se, jak přidat vlastní vlastnost do souboru a uložit jej ve formátu XLSB pomocí Aspose.Cells pro Javu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

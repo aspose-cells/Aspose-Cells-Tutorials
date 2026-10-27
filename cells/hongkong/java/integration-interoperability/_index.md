@@ -85,6 +85,8 @@
 
 ### [在 Java 中將 Excel 轉換為 PDF 時嵌入字型的做法](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
 了解如何在使用 Aspose.Cells for Java 轉換 Excel 為 PDF 時嵌入所需字型，確保文件外觀一致。
+### [Excel 轉 PPTX：完整 Java 指南，導出可編輯形狀](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+本指南說明如何使用 Aspose.Cells for Java 將 Excel 工作表中的圖形匯出為可在 PowerPoint 中編輯的形狀。
 
 ## 其他資源
 

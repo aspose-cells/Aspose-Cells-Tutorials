@@ -82,6 +82,8 @@ Lär dig hur du konverterar Excel-filer till PowerPoint-presentationer med Aspos
 
 ### [Hur man använder WRAPCOLS i Java – Komplett guide för matrisomvandling](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
 Lär dig hur du använder WRAPCOLS-funktionen i Aspose.Cells för Java för att enkelt konvertera data till matriser.
+### [Excel till PPTX: Komplett Java-guide för att exportera redigerbara former](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+Lär dig hur du med Aspose.Cells för Java exporterar redigerbara former från Excel till PowerPoint-presentationer.
 
 ## Ytterligare resurser
 

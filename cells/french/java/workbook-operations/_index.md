@@ -31,6 +31,8 @@ Apprenez à automatiser la création et la gestion de classeurs Excel avec Aspos
 
 ### [Java : créer un fichier Excel, ajouter une propriété personnalisée et l’enregistrer au format XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
 Apprenez à créer un classeur Excel en Java, ajouter une propriété personnalisée et l’enregistrer au format XLSB avec Aspose.Cells.
+### [Générer un fichier Excel Java : guide complet étape par étape](./generate-excel-file-java-complete-step-by-step-guide/)
+Apprenez à créer et enregistrer un fichier Excel en Java avec Aspose.Cells grâce à un guide complet étape par étape.
 
 ### [Aspose.Cells Java : afficher la version et créer un classeur partagé](./aspose-cells-java-display-version-create-shared-workbook/)
 Un tutoriel de code pour Aspose.Words Java

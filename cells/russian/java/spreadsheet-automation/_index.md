@@ -80,6 +80,8 @@
 Узнайте, как программно удалить заголовок таблицы в Excel с помощью Aspose.Cells для Java, с подробными примерами кода.
 ### [Удаление автофильтра из Excel с помощью Java – Полное руководство](./remove-autofilter-from-excel-with-java-complete-guide/)
 Узнайте, как удалить автофильтр из файлов Excel с помощью Aspose.Cells для Java, используя пошаговые примеры кода.
+### [Как использовать Aspose.Cells: добавить пользовательское свойство и сохранить XLSB](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+Узнайте, как добавить пользовательское свойство в файл XLSB и сохранить его с помощью Aspose.Cells для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

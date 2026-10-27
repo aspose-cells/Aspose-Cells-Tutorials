@@ -151,6 +151,8 @@ Naučte se, jak vložit data JSON do souboru Excel pomocí Aspose.Cells pro Javu
 Naučte se, jak exportovat data z Excelu do formátu TXT pomocí Aspose.Cells pro Javu. Podrobný návod s ukázkovým kódem.
 ### [Nastavit vlastní oddělovač buněk – Export tabulky Excel do TXT](./set-custom-cell-separator-export-excel-table-to-txt/)
 Naučte se, jak nastavit vlastní oddělovač buněk při exportu tabulky Excel do souboru TXT pomocí Aspose.Cells pro Javu.
+### [Vytvoření Excelu z JSON pomocí Aspose Cells – Kompletní průvodce v Javě](./create-excel-from-json-with-aspose-cells-full-java-guide/)
+Naučte se, jak vytvořit soubor Excel z JSON pomocí Aspose.Cells v Javě. Kompletní návod se zdrojovým kódem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

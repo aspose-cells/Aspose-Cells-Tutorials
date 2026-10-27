@@ -112,6 +112,9 @@ Ein Code-Tutorial für Aspose.Words Java
 ### [Master Aspose.Cells Java: Arbeitsmappenstile und effizientes Datenstreaming in Excel](./aspose-cells-java-workbook-styles-streaming/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java benutzerdefinierte Arbeitsmappenstile erstellen und große Datensätze mit LightCellsDataProvider effizient streamen. Verbessern Sie noch heute Ihre Excel-Kenntnisse.
 
+### [Master Workbook Styling in Java mit Aspose.Cells: Ein vollständiger Leitfaden](./aspose-cells-java-workbook-styling-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Excel-Arbeitsmappen erstellen und gestalten. Dieser Leitfaden behandelt die Erstellung von Arbeitsmappen, Gestaltungstechniken und praktische Anwendungen.
+
 ### [Erstellen Sie ein stilisiertes Excel-Arbeitsbuch in Java – Vollständige Anleitung](./create-styled-excel-workbook-in-java-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java ein professionell gestaltetes Excel-Arbeitsbuch erstellen, inklusive Formatvorlagen und Styling.
 
@@ -251,6 +254,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java beim Konvertieren einer DataTab
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Zahlenformate in Excel festlegen und anpassen, um Daten optimal darzustellen.
 ### [Wie man WRAPCOLS in Aspose.Cells verwendet – Vollständiges Java-Beispiel](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java die WRAPCOLS-Funktion nutzen, um Zelleninhalt automatisch umzubrechen.
+### [Zahlenformat in Excel mit Java anwenden – Vollständige Aspose.Cells-Anleitung](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Zahlenformate in Excel anwenden und anpassen, um professionelle Berichte zu erstellen.
 
 ## Weitere Ressourcen
 

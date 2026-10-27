@@ -83,6 +83,8 @@ Aspose.Cells for Java を使用して、Excel のテーブルヘッダーをプ�
 Aspose.Cells for Java を使用して、Excel の配列を動的に拡張し、データ操作を簡単に行う方法をステップバイステップで解説します。
 ### [JavaでExcelのオートフィルタを削除する完全ガイド](./remove-autofilter-from-excel-with-java-complete-guide/)
 Aspose.Cells for Java を使用して、Excel シートからオートフィルタを削除し、データ処理をシンプルにする方法を解説します。
+### [Aspose.Cells の使用方法: カスタム プロパティを追加して XLSB として保存](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+Aspose.Cells を使用してカスタム プロパティを追加し、XLSB 形式で保存する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

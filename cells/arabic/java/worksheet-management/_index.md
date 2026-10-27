@@ -111,6 +111,8 @@
 تعرف على طريقة مسح الفلتر التلقائي في ملفات Excel باستخدام مكتبة Aspose.Cells لجافا.
 ### [إنشاء أوراق عمل من قائمة باستخدام Aspose.Cells Java – دليل شامل](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
 تعلم كيفية إنشاء أوراق عمل متعددة من قائمة بيانات باستخدام Aspose.Cells لجافا خطوة بخطوة في هذا الدليل الشامل.
+### [تجميد الصفين الأولين في Excel باستخدام Java – دليل شامل](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+تعرف على كيفية تجميد الصفين الأولين في ملفات Excel باستخدام Aspose.Cells لجافا. دليل خطوة بخطوة لتطبيقاتك.
 
 ## موارد إضافية
 

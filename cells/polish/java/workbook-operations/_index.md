@@ -507,6 +507,8 @@ Dowiedz się, jak utworzyć nowy skoroszyt i skopiować zakres danych między sk
 Dowiedz się, jak utworzyć plik Excel, dodać własną właściwość i zapisać go w formacie XLSB przy użyciu Aspose.Cells dla Java.
 ### [Użyj funkcji lambda w Javie, aby utworzyć przykład skoroszytu Excel](./use-lambda-function-java-to-create-excel-workbook-example/)
 Dowiedz się, jak używać funkcji lambda w Javie do tworzenia skoroszytów programu Excel przy użyciu Aspose.Cells.
+### [Generowanie pliku Excel w Javie – Kompletny przewodnik krok po kroku](./generate-excel-file-java-complete-step-by-step-guide/)
+Dowiedz się, jak generować plik Excel w Javie przy użyciu Aspose.Cells, krok po kroku, od konfiguracji po zapis.
 
 ## Dodatkowe zasoby
 

@@ -165,6 +165,8 @@ Tìm hiểu cách xuất tệp PPTX từ Excel bằng Aspose.Cells for Java. Hư
 Tìm hiểu cách xuất dữ liệu Excel sang định dạng TXT bằng Aspose.Cells for Java. Hướng dẫn chi tiết với mã nguồn để chuyển đổi liền mạch.
 ### [Đặt dấu phân cách ô tùy chỉnh – Xuất bảng Excel sang TXT](./set-custom-cell-separator-export-excel-table-to-txt/)
 Hướng dẫn cách thiết lập dấu phân cách ô tùy chỉnh khi xuất bảng Excel sang tệp TXT bằng Aspose.Cells for Java.
+### [Tạo Excel từ JSON bằng Aspose Cells – Hướng dẫn Java đầy đủ](./create-excel-from-json-with-aspose-cells-full-java-guide/)
+Tìm hiểu cách tạo tệp Excel từ dữ liệu JSON bằng Aspose Cells trong Java. Hướng dẫn chi tiết với mã nguồn để chuyển đổi liền mạch.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

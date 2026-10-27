@@ -68,6 +68,9 @@
 ### [Aspose Cells Формат даты: Как установить пользовательский формат даты в Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
 Узнайте, как задать пользовательский формат даты в Excel с помощью Aspose.Cells для Java.
 
+### [Применение числового формата в Excel на Java — полное руководство Aspose.Cells](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+Узнайте, как применять числовые форматы к ячейкам Excel с помощью Aspose.Cells для Java.
+
 ### [Как создавать и форматировать ячейки Excel с помощью Aspose.Cells для Java: пошаговое руководство](./aspose-cells-java-excel-automation-guide/)
 Узнайте, как автоматизировать и форматировать файлы Excel с легкостью с помощью Aspose.Cells для Java. В этом руководстве рассматриваются создание рабочих книг, форматирование ячеек и методы сохранения.
 

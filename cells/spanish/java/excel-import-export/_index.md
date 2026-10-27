@@ -174,6 +174,8 @@ Aprenda a exportar presentaciones PPTX desde Excel usando Aspose.Cells para Java
 Aprenda a exportar datos de Excel a archivos TXT usando Aspose.Cells para Java. Guía paso a paso con ejemplos de código.
 ### [Establecer separador de celda personalizado – Exportar tabla de Excel a TXT](./set-custom-cell-separator-export-excel-table-to-txt/)
 Aprenda a establecer un separador de celda personalizado al exportar tablas de Excel a TXT con Aspose.Cells para Java. Guía paso a paso con ejemplos.
+### [Crear Excel desde JSON con Aspose Cells – Guía completa en Java](./create-excel-from-json-with-aspose-cells-full-java-guide/)
+Aprenda a crear archivos Excel a partir de JSON usando Aspose Cells en Java. Guía paso a paso con código fuente.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

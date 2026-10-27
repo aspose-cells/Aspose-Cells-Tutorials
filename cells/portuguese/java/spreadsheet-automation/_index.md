@@ -70,6 +70,8 @@ Aprenda a expandir arrays no Excel usando Java com exemplos de código-fonte pas
 ### [Como excluir o cabeçalho da tabela no Excel com Java – Guia completo](./how-to-delete-table-header-in-excel-with-java-full-guide/)
 ### [Remover Autofiltro do Excel com Java – Guia Completo](./remove-autofilter-from-excel-with-java-complete-guide/)
 Aprenda a remover filtros automáticos de planilhas Excel usando Aspose.Cells para Java com exemplos de código passo a passo.
+### [Como usar Aspose.Cells: adicionar propriedade personalizada e salvar XLSB](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+Aprenda a adicionar propriedades personalizadas a um arquivo XLSB e salvá‑lo usando Aspose.Cells para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

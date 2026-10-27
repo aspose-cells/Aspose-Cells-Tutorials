@@ -157,6 +157,8 @@ Tanuld meg, hogyan szúrj be JSON adatokat Excel munkafüzetbe az Aspose Cells J
 Tanuld meg, hogyan exportálhatsz Excel-fájlokat TXT formátumba Java és az Aspose.Cells segítségével, részletes lépésről lépésre útmutatóval.
 ### [Egyéni cellaelválasztó beállítása – Excel táblázat exportálása TXT-be](./set-custom-cell-separator-export-excel-table-to-txt/)
 Tanuld meg, hogyan állíthatsz be egyéni cellaelválasztót az Excel táblázat TXT formátumba történő exportálásához az Aspose.Cells for Java használatával.
+### [Excel létrehozása JSON-ból az Aspose Cells segítségével – Teljes Java útmutató](./create-excel-from-json-with-aspose-cells-full-java-guide/)
+Tanuld meg, hogyan hozhatsz létre Excel-fájlokat JSON adatokból az Aspose Cells Java API-val, lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

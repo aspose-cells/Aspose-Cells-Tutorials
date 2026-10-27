@@ -497,6 +497,7 @@
 ### [كيفية إضافة خاصية مخصصة في Excel باستخدام Java – دليل شامل](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
 ### [استخدام دالة Lambda في Java لإنشاء مثال لمصنف Excel](./use-lambda-function-java-to-create-excel-workbook-example/)
 تعلم كيفية إنشاء مصنف Excel باستخدام دالة Lambda في Java مع مثال عملي خطوة بخطوة.
+### [إنشاء ملف Excel باستخدام Java – دليل شامل خطوة بخطوة](./generate-excel-file-java-complete-step-by-step-guide/)
 
 ## موارد إضافية
 

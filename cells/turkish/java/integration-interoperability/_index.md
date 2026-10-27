@@ -78,6 +78,8 @@ Aspose.Cells for Java kullanarak Excel dosyalarını PowerPoint sunumlarına nas
 
 ### [Java ile Excel'i PDF'ye Dönüştürürken Yazı Tiplerini Gömme: Adım Adım Kılavuz](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
 Java ve Aspose.Cells kullanarak Excel dosyalarını PDF'ye çevirirken özel yazı tiplerini nasıl gömeceğinizi öğrenin.
+### [Excel'den PPTX'e: Düzenlenebilir Şekilleri Dışa Aktarmak İçin Tam Java Kılavuzu](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+Aspose.Cells for Java kullanarak Excel dosyalarındaki şekilleri PPTX sunumlarına düzenlenebilir olarak dışa aktarmayı öğrenin.
 
 ## Ek Kaynaklar
 

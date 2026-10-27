@@ -71,6 +71,8 @@
 تعلم كيفية حذف رأس الجدول في ملفات Excel باستخدام Aspose.Cells لجافا مع أمثلة شيفرة مفصلة.
 ### [إزالة الفلتر التلقائي من Excel باستخدام Java – دليل شامل](./remove-autofilter-from-excel-with-java-complete-guide/)
 تعلم كيفية إزالة الفلتر التلقائي من ملفات Excel باستخدام Aspose.Cells لجافا خطوة بخطوة.
+### [كيفية استخدام Aspose.Cells: إضافة خاصية مخصصة وحفظ بصيغة XLSB](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+تعرّف على طريقة إضافة خاصية مخصصة إلى ملف Excel وحفظه بصيغة XLSB باستخدام Aspose.Cells لجافا.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

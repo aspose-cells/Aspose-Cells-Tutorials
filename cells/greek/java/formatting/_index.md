@@ -253,6 +253,8 @@
 
 ### [Πώς να χρησιμοποιήσετε το WRAPCOLS στο Aspose.Cells – Πλήρης παράδειγμα Java](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 Μάθετε πώς να εφαρμόσετε τη λειτουργία WRAPCOLS για αυτόματη αναδίπλωση κειμένου σε κελιά Excel χρησιμοποιώντας Aspose.Cells για Java.
+### [Εφαρμογή μορφοποίησης αριθμών στο Excel με Java – Πλήρης οδηγός Aspose.Cells](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+Μάθετε πώς να εφαρμόζετε μορφοποίηση αριθμών σε αρχεία Excel με το Aspose.Cells για Java, βελτιώνοντας την παρουσίαση δεδομένων.
 
 ## Πρόσθετοι Πόροι
 

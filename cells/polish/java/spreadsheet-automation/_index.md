@@ -82,6 +82,8 @@ Dowiedz się, jak programowo usunąć nagłówek tabeli w Excelu przy użyciu As
 Dowiedz się, jak programowo rozszerzyć tablicę w Excelu przy użyciu Aspose.Cells for Java, krok po kroku z przykładami kodu.
 ### [Usuwanie autofiltrowania w Excelu przy użyciu Javy – Kompletny przewodnik](./remove-autofilter-from-excel-with-java-complete-guide/)
 Dowiedz się, jak usunąć autofiltrowanie w Excelu przy pomocy Aspose.Cells for Java, z przykładami kodu i praktycznymi wskazówkami.
+### [Jak używać Aspose.Cells: Dodaj własną właściwość i zapisz jako XLSB](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+Dowiedz się, jak dodać własną właściwość do skoroszytu i zapisać go w formacie XLSB przy użyciu Aspose.Cells for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

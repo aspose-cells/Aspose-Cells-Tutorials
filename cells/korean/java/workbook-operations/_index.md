@@ -508,6 +508,8 @@ Aspose.Cells for Java를 사용하여 엑셀 파일을 만들고, 사용자 정�
 Aspose.Cells for Java를 사용하여 Excel 파일에 사용자 지정 속성을 추가하고 관리하는 방법을 단계별로 안내합니다.
 ### [Lambda 함수를 사용한 Java Excel 통합 문서 생성 예제](./use-lambda-function-java-to-create-excel-workbook-example/)
 Lambda 함수를 활용해 Java에서 Excel 통합 문서를 프로그래밍 방식으로 생성하는 방법을 단계별로 안내합니다.
+### [Java로 Excel 파일 생성 – 완전 단계별 가이드](./generate-excel-file-java-complete-step-by-step-guide/)
+Java를 사용해 Excel 파일을 생성하고 저장하는 방법을 단계별로 자세히 안내합니다.
 
 ## 추가 자료
 

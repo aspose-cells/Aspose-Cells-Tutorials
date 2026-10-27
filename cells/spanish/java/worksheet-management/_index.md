@@ -109,6 +109,9 @@ Aprenda a mostrar filas y columnas en archivos de Excel fácilmente con Aspose.C
 
 ### [Cómo usar SmartMarkerProcessor para nombrar hojas de forma dinámica](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
 Aprenda a utilizar SmartMarkerProcessor para asignar nombres dinámicos a hojas de cálculo en Excel con Aspose.Cells para Java.
+### [Congelar las dos primeras filas en Excel con Java: guía completa](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Aprenda a congelar las dos primeras filas de una hoja de Excel usando Aspose.Cells para Java, mejorando la navegación y la presentación de datos.
+
 
 
 ### [Cómo crear hojas de detalle duplicadas en Aspose.Cells para Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)

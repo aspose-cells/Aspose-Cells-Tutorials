@@ -80,6 +80,8 @@
 
 ### [كيفية تضمين الخطوط عند تحويل Excel إلى PDF باستخدام Java](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
 دليل خطوة بخطوة لتضمين الخطوط في ملفات PDF عند تحويل مستندات Excel باستخدام Aspose.Cells لـ Java.
+### [Excel إلى PPTX: دليل Java الكامل لتصدير الأشكال القابلة للتحرير](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+تعلم كيفية تحويل ملفات Excel إلى عروض PowerPoint وتصدير الأشكال القابلة للتحرير باستخدام Aspose.Cells لـ Java.
 
 ## موارد إضافية
 

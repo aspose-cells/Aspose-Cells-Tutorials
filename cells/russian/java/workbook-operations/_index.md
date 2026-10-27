@@ -29,6 +29,9 @@
 ### [Aspose.Cells Java: создание и сохранение рабочих книг Excel — пошаговое руководство](./aspose-cells-java-create-save-excel-workbooks/)
 Узнайте, как автоматизировать создание и управление книгами Excel с помощью Aspose.Cells для Java. В этом руководстве рассматривается создание экземпляров, сохранение и настройка свойств страницы.
 
+### [Генерация файла Excel Java – Полное пошаговое руководство](./generate-excel-file-java-complete-step-by-step-guide/)
+Узнайте, как генерировать файлы Excel в Java с помощью Aspose.Cells, следуя полному пошаговому руководству.
+
 ### [Aspose.Cells Java: отображение версии и создание общей рабочей книги](./aspose-cells-java-display-version-create-shared-workbook/)
 Учебник по коду для Aspose.Words Java
 

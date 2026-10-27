@@ -507,6 +507,8 @@ Naučte se, jak vytvořit soubor Excel v Javě, přidat vlastní vlastnost a ulo
 Naučte se, jak pomocí Aspose.Cells pro Javu přidat vlastní vlastnost do souboru Excel a spravovat ji programově.
 ### [Použití lambda funkce v Javě k vytvoření sešitu Excel – příklad](./use-lambda-function-java-to-create-excel-workbook-example/)
 Naučte se, jak pomocí lambda funkcí v Javě vytvořit sešit Excel s praktickým příkladem kódu.
+### [Generování souboru Excel v Javě – Kompletní krok‑za‑krokem průvodce](./generate-excel-file-java-complete-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells v Javě vytvořit a uložit soubor Excel krok za krokem.
 
 ## Další zdroje
 

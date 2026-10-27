@@ -168,6 +168,8 @@
 学习使用 Aspose.Cells for Java 将 Excel 导出为 TXT，提供完整示例代码，帮助您实现无缝文本转换。
 ### [设置自定义单元格分隔符 – 导出 Excel 表为 TXT](./set-custom-cell-separator-export-excel-table-to-txt/)
 学习如何使用 Aspose.Cells for Java 设置自定义单元格分隔符，将 Excel 表导出为 TXT 文件。
+### [使用 Aspose Cells 从 JSON 创建 Excel](./create-excel-from-json-with-aspose-cells-full-java-guide/)
+学习如何使用 Aspose.Cells for Java 将 JSON 数据转换为 Excel 工作簿，提供完整代码示例和步骤指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

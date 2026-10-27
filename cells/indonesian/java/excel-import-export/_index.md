@@ -168,6 +168,8 @@ Pelajari cara mengekspor file PPTX dari Excel menggunakan Aspose.Cells untuk Jav
 Pelajari cara mengekspor file Excel ke format TXT menggunakan Aspose.Cells untuk Java dengan panduan langkah demi langkah yang lengkap.
 ### [Atur Pemisah Sel Kustom – Ekspor Tabel Excel ke TXT](./set-custom-cell-separator-export-excel-table-to-txt/)
 Pelajari cara mengatur pemisah sel khusus saat mengekspor tabel Excel ke file TXT menggunakan Aspose.Cells untuk Java.
+### [Buat Excel dari JSON dengan Aspose Cells – Panduan Java Lengkap](./create-excel-from-json-with-aspose-cells-full-java-guide/)
+Pelajari cara membuat file Excel dari data JSON menggunakan Aspose Cells untuk Java. Ikuti panduan langkah demi langkah dengan contoh kode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

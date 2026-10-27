@@ -502,6 +502,8 @@ Tìm hiểu cách tạo sổ làm việc mới trong Java bằng Aspose.Cells. H
 
 ### [Sử dụng hàm Lambda Java để tạo ví dụ Workbook Excel](./use-lambda-function-java-to-create-excel-workbook-example/)
 Hướng dẫn cách dùng hàm Lambda trong Java để tạo và lưu workbook Excel bằng Aspose.Cells.
+### [Tạo tệp Excel bằng Java – Hướng dẫn chi tiết từng bước](./generate-excel-file-java-complete-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo tệp Excel trong Java bằng Aspose.Cells, bao gồm cài đặt, mã mẫu và lưu ở các định dạng khác nhau.
 
 ## Tài nguyên bổ sung
 

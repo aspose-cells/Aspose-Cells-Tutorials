@@ -58,6 +58,7 @@
 ### [صورة جدول محوري في Excel: التصدير إلى PNG باستخدام Java](./excel-pivot-table-image-export-to-png-with-java/)
 ### [إنشاء مصنف جديد ونسخ جدول محوري في Java – دليل خطوة بخطوة كامل](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
 تعلم كيفية إنشاء مصنف جديد ونسخ جدول محوري باستخدام Aspose.Cells لجافا خطوة بخطوة.
+### [نسخ جدول محوري في Java باستخدام Aspose.Cells – دليل كامل](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

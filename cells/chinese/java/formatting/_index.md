@@ -63,6 +63,8 @@
 学习如何使用 Aspose.Cells for Java 在 Excel 中设置数字格式，包括自定义格式、日期和时间格式的示例。
 ### [使用 Aspose.Cells for Java 在 Excel 中设置自定义数字格式：完整指南](./set-custom-number-format-in-excel-with-java-complete-guide/)
 了解如何使用 Aspose.Cells for Java 在 Excel 中创建和应用自定义数字格式，提升数据展示的专业性和可读性。
+### [在 Java 中应用 Excel 数字格式 – 完整 Aspose.Cells 指南](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+学习如何使用 Aspose.Cells for Java 在 Excel 中应用数字格式，提供完整代码示例和最佳实践。
 
 ### [掌握 Excel 中的数据呈现：使用 Aspose.Cells for Java 设置数字和自定义日期格式](./aspose-cells-java-data-formatting-excel/)
 了解如何使用 Aspose.Cells for Java 应用数字格式和自定义日期样式，增强 Excel 电子表格中的数据呈现。

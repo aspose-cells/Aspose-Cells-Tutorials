@@ -112,6 +112,8 @@ Dowiedz się, jak programowo tworzyć wiele arkuszy w pliku Excel przy użyciu s
 Dowiedz się, jak usunąć filtr automatyczny z arkusza Excel przy użyciu Aspose.Cells for Java.
 ### [Tworzenie arkuszy kalkulacyjnych z listy przy użyciu Aspose.Cells Java – pełny przewodnik](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
 Dowiedz się, jak programowo tworzyć wiele arkuszy w Excelu z listy danych przy użyciu Aspose.Cells for Java.
+### [Zamrażanie pierwszych dwóch wierszy w Excelu w Javie – kompletny przewodnik](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Dowiedz się, jak zamrozić pierwsze dwa wiersze w pliku Excel przy użyciu Aspose.Cells for Java, aby ułatwić przeglądanie danych.
 
 ## Dodatkowe zasoby
 

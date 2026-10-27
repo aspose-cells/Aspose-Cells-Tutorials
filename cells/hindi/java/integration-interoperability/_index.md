@@ -61,6 +61,8 @@ Java के लिए Aspose.Cells का उपयोग करके Excel क
 ### [Excel से PowerPoint बनाएं – पूर्ण Java गाइड](./create-powerpoint-from-excel-full-java-guide/)
 Excel डेटा को PowerPoint प्रस्तुति में बदलना, Aspose.Slides और Java के साथ विस्तृत चरण-दर-स्टेप गाइड।
 ### [जावा का उपयोग करके Excel से रेंज कॉपी करें और PowerPoint में निर्यात करें](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+### [Excel से PPTX: संपादन योग्य आकार निर्यात करने के लिए पूर्ण Java गाइड](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+Java का उपयोग करके Excel फ़ाइलों से PPTX में संपादन योग्य आकार निर्यात करने की पूरी प्रक्रिया सीखें।
 
 ### [Excel को PowerPoint में बदलें – पूर्ण Java गाइड](./convert-excel-to-powerpoint-complete-java-guide/)
 Excel फ़ाइल को PowerPoint प्रस्तुति में बदलने के लिए Aspose.Slides और Java के साथ विस्तृत चरण-दर-चरण मार्गदर्शिका।

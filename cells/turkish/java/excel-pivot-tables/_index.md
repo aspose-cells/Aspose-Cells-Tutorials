@@ -73,6 +73,8 @@ Aspose.Cells for Java kullanarak bir aralığı kopyalayıp pivot tabloyu koruyu
 Aspose.Cells for Java kullanarak Pivot Tablo görüntüsünü PNG formatında dışa aktarmayı öğrenin.
 ### [Java'da Yeni Çalışma Kitabı Oluşturma ve Pivot Tablo Kopyalama – Tam Adım Adım Kılavuz](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
 Aspose.Cells for Java kullanarak yeni bir çalışma kitabı oluşturun ve mevcut bir pivot tabloyu kopyalayarak veri analizinizi genişletin.
+### [Aspose.Cells ile Java'da Pivot Tablo Kopyalama – Tam Kılavuz](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
+Aspose.Cells kullanarak Java'da bir pivot tabloyu nasıl kopyalayacağınızı ve verileri sorunsuz bir şekilde çoğaltacağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

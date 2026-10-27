@@ -112,6 +112,8 @@ Java के लिए Aspose.Cells का उपयोग करके Excel फ
 ### [जावा के लिए Aspose.Cells का उपयोग करके Excel में ऑटोफ़िल्टर कैसे साफ़ करें](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
 Excel में ऑटोफ़िल्टर हटाने की प्रक्रिया को Aspose.Cells (Java) के साथ सीखें।
 ### [Aspose.Cells for Java में डुप्लिकेट डिटेल शीट्स कैसे बनाएं](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+### [Java के साथ Excel में पहली दो पंक्तियों को फ्रीज़ करें – पूर्ण गाइड](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Java और Aspose.Cells का उपयोग करके Excel वर्कशीट में पहली दो पंक्तियों को फ्रीज़ करने का चरण-दर-चरण मार्गदर्शन।
 
 ## अतिरिक्त संसाधन
 

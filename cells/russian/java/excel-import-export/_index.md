@@ -177,6 +177,8 @@
 Узнайте, как экспортировать данные из Excel в формат TXT с помощью Aspose.Cells для Java. Пошаговое руководство с примерами кода.
 ### [Установить пользовательский разделитель ячеек – экспорт таблицы Excel в TXT](./set-custom-cell-separator-export-excel-table-to-txt/)
 Узнайте, как задать собственный разделитель ячеек при экспорте таблицы Excel в текстовый файл TXT с помощью Aspose.Cells для Java.
+### [Создание Excel из JSON с Aspose Cells – Полное руководство Java](./create-excel-from-json-with-aspose-cells-full-java-guide/)
+Узнайте, как создать файл Excel из JSON с помощью Aspose Cells в Java. Пошаговое руководство с примером кода.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

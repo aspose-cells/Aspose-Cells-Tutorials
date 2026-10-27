@@ -72,6 +72,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java AutoFilter in Excel-Tabellen pr
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Tabellenköpfe aus Excel-Dateien entfernen und Ihre Arbeitsmappen bereinigen.
 ### [Array in Excel mit Java erweitern – Schritt‑für‑Schritt‑Anleitung](./expand-array-in-excel-with-java-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java ein Array in Excel erweitern, inklusive Beispielcode und detaillierter Anleitung.
+### [So verwenden Sie Aspose.Cells: Benutzerdefinierte Eigenschaft hinzufügen und XLSB speichern](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+Erfahren Sie, wie Sie mit Aspose.Cells benutzerdefinierte Eigenschaften zu einer Arbeitsmappe hinzufügen und sie im XLSB-Format speichern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
