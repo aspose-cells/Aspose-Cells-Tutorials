@@ -69,6 +69,8 @@ Impara a creare un nuovo workbook con Aspose.Cells, aggiungere una proprietà pe
 Impara a rimuovere l'intestazione di una tabella Excel usando Aspose.Cells per Java, con esempi di codice passo passo.
 ### [Espandere un array in Excel con Java – Guida passo‑passo](./expand-array-in-excel-with-java-step-by-step-guide/)
 Scopri come espandere un array in Excel usando Aspose.Cells per Java, con esempi di codice passo‑passo per gestire dati dinamici.
+### [Rimuovere l'autofiltro da Excel con Java – Guida completa](./remove-autofilter-from-excel-with-java-complete-guide/)
+Scopri come rimuovere l'autofiltro da fogli Excel usando Aspose.Cells per Java, con esempi di codice passo passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

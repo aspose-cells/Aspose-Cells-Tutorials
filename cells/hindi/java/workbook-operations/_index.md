@@ -41,6 +41,8 @@
 
 ### [प्रोग्रामेटिक रूप से XLSB कार्यपुस्तिका बनाएं – पूर्ण जावा गाइड](./create-xlsb-workbook-programmatically-full-java-guide/)
 जावा में Aspose.Cells का उपयोग करके प्रोग्रामेटिक रूप से XLSB कार्यपुस्तिका बनाने और सहेजने की पूरी प्रक्रिया सीखें।
+### [जावा में नई वर्कबुक बनाएं – पूर्ण गाइड](./create-new-workbook-java-complete-guide/)
+जावा के लिए Aspose.Cells का उपयोग करके नई वर्कबुक बनाने की पूरी प्रक्रिया सीखें।
 
 ### [Aspose.Cells Java: संस्करण प्रदर्शित करें और साझा कार्यपुस्तिका बनाएँ](./aspose-cells-java-display-version-create-shared-workbook/)
 Aspose.Words Java के लिए एक कोड ट्यूटोरियल
@@ -347,7 +349,6 @@ Java के लिए Aspose.Cells का उपयोग करके कस्
 
 ### [Java के लिए Aspose.Cells का उपयोग करके कस्टम Excel गुणधर्मों को PDF में कैसे निर्यात करें](./export-excel-custom-properties-pdf-aspose-cells-java/)
 जावा के लिए Aspose.Cells का उपयोग करके Excel वर्कबुक से कस्टम प्रॉपर्टीज़ को PDF में एक्सपोर्ट करना सीखें। इस चरण-दर-स्टेप गाइड के साथ अपने डेटा प्रबंधन को सुव्यवस्थित करें।
-
 ### [Aspose.Cells Java का उपयोग करके Excel को HTML में निर्यात करें: एक चरण-दर-स्टेप मार्गदर्शिका](./export-excel-html-aspose-cells-java/)
 ### [जावा का उपयोग करके Excel में कस्टम प्रॉपर्टी कैसे जोड़ें – पूर्ण गाइड](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
 जावा के लिए Aspose.Cells का उपयोग करके Excel फ़ाइल में कस्टम प्रॉपर्टी जोड़ने का तरीका सीखें।
@@ -499,6 +500,8 @@ XLSX फ़ाइलें खोलकर और फ़ाइल नाम प�
 जावा में Aspose.Cells का उपयोग करके जापानी कैलेंडर के साथ वर्कबुक बनाना सीखें।
 ### [Java create excel file, add custom property and save as XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
 Java में Aspose.Cells का उपयोग करके Excel फ़ाइल बनाएं, कस्टम प्रॉपर्टी जोड़ें और इसे XLSB फ़ॉर्मेट में सहेजें।
+### [Lambda फ़ंक्शन जावा का उपयोग करके Excel वर्कबुक बनाने का उदाहरण](./use-lambda-function-java-to-create-excel-workbook-example/)
+जावा में Lambda फ़ंक्शन का उपयोग करके Excel वर्कबुक बनाने का चरण-दर- चरण उदाहरण।
 
 ## अतिरिक्त संसाधन
 

@@ -109,6 +109,8 @@
 تعرّف على كيفية إنشاء أوراق عمل متعددة في Excel باستخدام Java مع القوالب الجاهزة. يغطي الدليل الخطوات الكاملة والنصائح العملية.
 ### [كيفية مسح الفلتر التلقائي في Excel باستخدام Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
 تعرف على طريقة مسح الفلتر التلقائي في ملفات Excel باستخدام مكتبة Aspose.Cells لجافا.
+### [إنشاء أوراق عمل من قائمة باستخدام Aspose.Cells Java – دليل شامل](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+تعلم كيفية إنشاء أوراق عمل متعددة من قائمة بيانات باستخدام Aspose.Cells لجافا خطوة بخطوة في هذا الدليل الشامل.
 
 ## موارد إضافية
 

@@ -55,6 +55,8 @@ Apprenez à créer un fichier Excel en Java, appliquer des styles de lignes et e
 Apprenez à convertir des classeurs Excel en PDF avec Aspose.Cells pour Java grâce à un guide complet étape par étape.
 ### [Comment exporter Excel en TXT avec des chiffres significatifs limités en Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
 Apprenez à exporter un classeur Excel au format TXT en limitant le nombre de chiffres significatifs avec Aspose.Cells pour Java.
+### [Exportation d'Excel au format TXT avec Java](./export-excel-to-txt-with-java-complete-step-by-step-guide/)
+Apprenez à exporter des données Excel au format TXT en Java avec Aspose.Cells. Guide complet avec code source pour une conversion fluide.
 ### [Exporter Excel vers XML Java](./export-excel-to-xml-java/)
 Apprenez à exporter des données Excel vers XML en Java avec Aspose.Cells pour Java. Guide étape par étape avec code source pour une conversion de données fluide.
 
@@ -156,6 +158,12 @@ Apprenez à exporter les formules en texte avec Aspose.Cells pour Java, converti
 Apprenez à créer un fichier Word à partir d'un classeur Excel en exportant le format XLSX avec Aspose.Cells pour Java.
 ### [Comment intégrer des polices dans HTML à partir d'Excel – Guide complet](./how-to-embed-fonts-in-html-from-excel-full-guide/)
 Apprenez à intégrer des polices dans les fichiers HTML générés à partir d'Excel avec Aspose.Cells pour Java, guide complet pas à pas.
+### [Comment exporter PPTX depuis Excel – Guide complet Java](./how-to-export-pptx-from-excel-complete-java-guide/)
+Apprenez à exporter des présentations PPTX depuis Excel avec Aspose.Cells pour Java. Guide complet avec exemples de code.
+### [Insertion de JSON dans Excel avec Aspose Cells – Guide complet Java](./insert-json-into-excel-with-aspose-cells-full-java-guide/)
+Apprenez à insérer du JSON dans un fichier Excel en Java avec Aspose Cells. Guide étape par étape avec code source pour une intégration fluide.
+### [Définir un séparateur de cellule personnalisé – Exporter un tableau Excel en TXT](./set-custom-cell-separator-export-excel-table-to-txt/)
+Apprenez à définir un séparateur de cellule personnalisé lors de l'exportation d'un tableau Excel vers un fichier TXT avec Aspose.Cells pour Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -109,6 +109,8 @@
 ### [Как очистить автофильтр в Excel с помощью Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
 Узнайте, как программно снять автофильтр в файлах Excel, используя библиотеку Aspose.Cells для Java.
 ### [Как создать дублирующие листы деталей в Aspose.Cells для Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+### [Создание листов из списка с помощью Aspose.Cells для Java — полное руководство](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Узнайте, как программно создавать листы Excel из списка данных с помощью Aspose.Cells для Java.
 
 ## Дополнительные ресурсы
 

@@ -70,6 +70,8 @@ Leer hoe u een bestaande draaitabel dupliceert met Aspose.Cells voor Java.
 Leer hoe u draaitabellen in Excel dupliceert met Aspose.Cells voor Java, stap voor stap met voorbeeldcode.
 ### [Excel-draaitabelafbeelding: Exporteren naar PNG met Java](./excel-pivot-table-image-export-to-png-with-java/)
 Leer hoe u een draaitabel als PNG-afbeelding exporteert met Aspose.Cells voor Java.
+### [Nieuw werkboek maken en draaitabel kopiëren in Java – volledige stapsgewijze handleiding](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
+Leer hoe u een nieuw werkboek maakt en een bestaande draaitabel kopieert met Aspose.Cells voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

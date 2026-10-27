@@ -75,6 +75,8 @@
 
 ### [在 Excel 中使用 Java 扩展数组 – 步骤指南](./expand-array-in-excel-with-java-step-by-step-guide/)
 学习如何使用 Aspose.Cells for Java 在 Excel 中展开数组，实现动态数据填充和自动化处理。
+### [使用 Java 从 Excel 中删除自动筛选 – 完整指南](./remove-autofilter-from-excel-with-java-complete-guide/)
+学习如何使用 Aspose.Cells for Java 完整地删除 Excel 工作表中的自动筛选功能，并提供示例代码。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -224,9 +224,14 @@ Learn how to create an Excel workbook from scratch using Aspose.Cells for Java w
 Learn how to create a new Excel workbook from scratch using Aspose.Cells for Java with detailed code examples.
 ### [Create Excel Workbook in Java – Complete Step‑by‑Step Guide](./create-excel-workbook-in-java-complete-step-by-step-guide/)
 Learn how to create an Excel workbook in Java using Aspose.Cells with detailed steps and code examples.
+### [Use Lambda Function Java to Create Excel Workbook Example](./use-lambda-function-java-to-create-excel-workbook-example/)
+Learn how to use Java lambda functions to create an Excel workbook with Aspose.Cells, including code examples and step-by-step instructions.
+
+### [Create New Workbook Java – Complete Guide](./create-new-workbook-java-complete-guide/)
+Learn how to programmatically create a new Excel workbook in Java using Aspose.Cells, covering setup, initialization, and saving options.
 
 ### [Create and Customize Excel Workbooks Using Aspose.Cells Java&#58; A Step-by-Step Guide](./create-customize-excel-workbooks-aspose-cells-java/)
-Learn how to automate the creation and customization of Excel workbooks with Aspose.Cells for Java. Enhance productivity by mastering workbook operations.
+Learn how to automate the creation and customization of Excel workbooks with Aspose.Cells Java. Enhance productivity by mastering workbook operations.
 
 ### [Create Workbook Japanese Calendar – Complete Java Tutorial](./create-workbook-japanese-calendar-complete-java-tutorial/)
 Learn how to create an Excel workbook with Japanese calendar support using Aspose.Cells for Java in this comprehensive step-by-step tutorial.

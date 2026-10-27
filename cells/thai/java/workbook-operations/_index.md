@@ -29,6 +29,9 @@
 ### [Aspose.Cells Java: สร้างและบันทึกเวิร์กบุ๊ก Excel - คำแนะนำทีละขั้นตอน](./aspose-cells-java-create-save-excel-workbooks/)
 เรียนรู้วิธีการสร้างและจัดการเวิร์กบุ๊ก Excel โดยอัตโนมัติโดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการสร้างอินสแตนซ์ การบันทึก และการตั้งค่าคุณสมบัติการตั้งค่าหน้า
 
+### [สร้างเวิร์กบุ๊กใหม่ด้วย Java – คู่มือฉบับสมบูรณ์](./create-new-workbook-java-complete-guide/)
+เรียนรู้วิธีสร้างเวิร์กบุ๊ก Excel ใหม่ใน Java อย่างละเอียดด้วย Aspose.Cells
+
 ### [Aspose.Cells Java: แสดงเวอร์ชันและสร้างเวิร์กบุ๊กที่ใช้ร่วมกัน](./aspose-cells-java-display-version-create-shared-workbook/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Java
 
@@ -503,6 +506,8 @@
 เรียนรู้วิธีบันทึกสมุดงานใหม่ใน Java และคัดลอกช่วงข้อมูลระหว่างสมุดงานด้วย Aspose.Cells
 ### [Java สร้างไฟล์ Excel, เพิ่มคุณสมบัติแบบกำหนดเองและบันทึกเป็น XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
 เรียนรู้วิธีสร้างไฟล์ Excel, เพิ่มคุณสมบัติแบบกำหนดเองและบันทึกเป็นรูปแบบ XLSB ด้วย Aspose.Cells สำหรับ Java
+### [ใช้ Lambda Function Java เพื่อสร้างตัวอย่างเวิร์กบุ๊ก Excel](./use-lambda-function-java-to-create-excel-workbook-example/)
+เรียนรู้วิธีใช้ Lambda ใน Java เพื่อสร้างและบันทึกเวิร์กบุ๊ก Excel อย่างง่ายดายด้วย Aspose.Cells
 
 ## แหล่งข้อมูลเพิ่มเติม
 

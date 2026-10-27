@@ -110,6 +110,8 @@
 Μάθετε πώς να δημιουργείτε πολλά φύλλα εργασίας σε ένα αρχείο Excel χρησιμοποιώντας πρότυπα με Aspose.Cells για Java.
 ### [Πώς να καθαρίσετε το Autofilter στο Excel με το Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
 Μάθετε πώς να αφαιρέσετε το Autofilter από ένα φύλλο Excel χρησιμοποιώντας το Aspose.Cells για Java.
+### [Δημιουργία φύλλων εργασίας από λίστα με Aspose.Cells Java – Πλήρης Οδηγός](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Μάθετε πώς να δημιουργείτε πολλά φύλλα εργασίας από λίστα δεδομένων χρησιμοποιώντας το Aspose.Cells για Java, με πλήρη παραδείγματα κώδικα.
 
 ## Πρόσθετοι Πόροι
 

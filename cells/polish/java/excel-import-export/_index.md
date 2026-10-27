@@ -149,6 +149,14 @@ Dowiedz się, jak eksportować formuły w Javie, konwertując komórki Excela na
 Dowiedz się, jak wygenerować dokument Word z danych Excel, eksportując plik XLSX przy użyciu Aspose.Cells for Java.
 ### [Jak osadzić czcionki w HTML z Excela – Pełny przewodnik](./how-to-embed-fonts-in-html-from-excel-full-guide/)
 Dowiedz się, jak osadzić czcionki w plikach HTML generowanych z Excela przy użyciu Aspose.Cells for Java. Przewodnik krok po kroku z kodem źródłowym.
+### [Jak wyeksportować PPTX z Excela – Kompletny przewodnik Java](./how-to-export-pptx-from-excel-complete-java-guide/)
+Dowiedz się, jak wyeksportować plik PPTX z Excela przy użyciu Aspose.Cells for Java. Przewodnik krok po kroku z kodem źródłowym.
+### [Wstaw JSON do Excela za pomocą Aspose Cells – Kompletny przewodnik Java](./insert-json-into-excel-with-aspose-cells-full-java-guide/)
+Dowiedz się, jak w prosty sposób wstawić dane JSON do pliku Excel przy użyciu Aspose.Cells w Javie. Praktyczny przewodnik krok po kroku.
+### [Eksportuj Excel do TXT w Javie – Kompletny przewodnik krok po kroku](./export-excel-to-txt-with-java-complete-step-by-step-guide/)
+Dowiedz się, jak eksportować pliki Excel do formatu TXT przy użyciu Aspose.Cells for Java. Przewodnik krok po kroku z kodem źródłowym.
+### [Ustaw niestandardowy separator komórek – eksport tabeli Excel do TXT](./set-custom-cell-separator-export-excel-table-to-txt/)
+Dowiedz się, jak ustawić niestandardowy separator komórek przy eksporcie tabeli Excel do formatu TXT przy użyciu Aspose.Cells for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

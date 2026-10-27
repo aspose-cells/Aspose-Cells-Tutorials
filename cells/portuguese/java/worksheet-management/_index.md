@@ -111,6 +111,8 @@ Aprenda a exibir linhas e colunas em arquivos do Excel sem esforço usando o Asp
 Aprenda a criar múltiplas planilhas em um arquivo Excel usando modelos com Aspose.Cells para Java, passo a passo.
 ### [Como criar planilhas de detalhes duplicadas no Aspose.Cells para Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
 Aprenda a criar planilhas de detalhes duplicadas no Excel usando Aspose.Cells para Java, facilitando a replicação de dados e a automação de relatórios.
+### [Criar planilhas a partir de lista com Aspose.Cells Java – Guia completo](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Aprenda a criar várias planilhas a partir de uma lista usando Aspose.Cells para Java, com exemplos de código completos e boas práticas.
 
 ## Recursos adicionais
 

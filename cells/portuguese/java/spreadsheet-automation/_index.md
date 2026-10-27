@@ -68,6 +68,8 @@ Aprenda a criar uma nova pasta de trabalho, adicionar propriedades personalizada
 ### [Expandir Array no Excel com Java – Guia Passo a Passo](./expand-array-in-excel-with-java-step-by-step-guide/)
 Aprenda a expandir arrays no Excel usando Java com exemplos de código-fonte passo a passo.
 ### [Como excluir o cabeçalho da tabela no Excel com Java – Guia completo](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+### [Remover Autofiltro do Excel com Java – Guia Completo](./remove-autofilter-from-excel-with-java-complete-guide/)
+Aprenda a remover filtros automáticos de planilhas Excel usando Aspose.Cells para Java com exemplos de código passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -34,6 +34,8 @@
 
 ### [使用 Java 在 Excel 中建立多個工作表 – 完整範本指南](./create-multiple-sheets-in-excel-with-java-complete-template/)
 了解如何使用 Aspose.Cells for Java 透過範本一次性建立多個工作表，提升報表生成效率。
+### [使用 Aspose.Cells for Java 從清單建立工作表 – 完整指南](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+了解如何使用 Aspose.Cells for Java 從清單動態生成多個工作表，並自動填充資料與格式設定。
 
 ### [如何使用 Aspose.Cells for Java 在 Excel 中插入列 - 綜合指南](./aspose-cells-java-insert-column-excel/)
 掌握使用 Aspose.Cells for Java 將列插入 Excel 工作表。按照此詳細指南可以自動產生報表並增強資料管理。

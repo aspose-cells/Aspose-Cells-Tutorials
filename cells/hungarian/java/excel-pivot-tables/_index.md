@@ -79,6 +79,8 @@ Tanuld meg, hogyan másolhatsz egy tartományt úgy, hogy a pivot tábla formáz
 Ismerd meg, hogyan másolhatod a pivot táblákat Excelben Java segítségével egy részletes, lépésről‑lépésre útmutatóval.
 ### [Excel pivot tábla kép: Export PNG formátumba Java-val](./excel-pivot-table-image-export-to-png-with-java/)
 Tanuld meg, hogyan exportálhatod a pivot tábla képét PNG formátumba Java segítségével az Aspose.Cells API-val.
+### [Új munkafüzet létrehozása és pivot tábla másolása Java-ban – Teljes lépésről‑lépésre útmutató](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
+Tanuld meg, hogyan hozhatsz létre új munkafüzetet, és másolj pivot táblákat Java-ban az Aspose.Cells segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -244,6 +244,8 @@ Scopri come automatizzare la creazione di cartelle di lavoro Excel ed esportarle
 
 ### [Creare una cartella di lavoro Excel in Java – Guida completa passo‑passo](./create-excel-workbook-in-java-complete-step-by-step-guide/)
 Scopri come creare una cartella di lavoro Excel in Java con una guida completa passo‑passo, includendo esempi di codice e best practice.
+### [Creare una nuova cartella di lavoro Java – Guida completa](./create-new-workbook-java-complete-guide/)
+Scopri come creare una nuova cartella di lavoro Excel da zero utilizzando Aspose.Cells per Java con esempi di codice dettagliati.
 
 ### [Rileva il formato dei file crittografati con Aspose.Cells Java](./detect-encrypted-file-format-aspose-cells-java/)
 Un tutorial sul codice per Aspose.Words Java
@@ -499,6 +501,8 @@ Scopri come impostare e gestire le proprietà dei documenti, come il controllo d
 ### [Salva cartella di lavoro come XLSX in Java – Guida completa di programmazione](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
 Scopri come salvare una cartella di lavoro Excel in formato XLSX usando Aspose.Cells per Java con esempi di codice dettagliati.
 
+### [Utilizzare la funzione Lambda Java per creare una cartella di lavoro Excel - Esempio](./use-lambda-function-java-to-create-excel-workbook-example/)
+Scopri come usare le funzioni Lambda in Java per creare programmaticamente una cartella di lavoro Excel con Aspose.Cells.
 
 ### [Salva Cartella di Lavoro su File – Guida Completa Java per Copiare Intervalli Excel](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
 Scopri come salvare una cartella di lavoro su file e copiare intervalli Excel con Aspose.Cells per Java in questa guida completa.

@@ -247,6 +247,11 @@ Naučte se, jak nastavit tučné písmo při exportu souborů Excel v Javě pomo
 
 ### [Nastavení vlastního formátu čísel v Excelu pomocí Javy – Kompletní průvodce](./set-custom-number-format-in-excel-with-java-complete-guide/)
 Naučte se, jak nastavit vlastní číselné formáty v Excelu pomocí Aspose.Cells pro Javu.
+### [Jak vytvořit stylovaný sešit Excel v Javě – Kompletní průvodce](./create-styled-excel-workbook-in-java-complete-guide/)
+Naučte se, jak programově vytvořit a stylovat sešit Excel v Javě pomocí Aspose.Cells. Tento průvodce obsahuje podrobné kroky a ukázky kódu.
+
+### [Jak použít WRAPCOLS v Aspose.Cells – Kompletní Java příklad](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Naučte se, jak pomocí funkce WRAPCOLS v Aspose.Cells pro Javu rozdělit text do více sloupců a optimalizovat formátování tabulek.
 
 ## Další zdroje
 

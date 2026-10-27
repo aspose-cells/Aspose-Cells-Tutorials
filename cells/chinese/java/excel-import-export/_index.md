@@ -70,6 +70,8 @@
 学习如何使用 Aspose.Cells for Java 将 JSON 数据转换并导出为 Excel 文件，提供完整示例代码。
 ### [从 JSON 创建 Excel – 完整 Java 指南（使用 Aspose.Cells）](./create-excel-from-json-full-java-guide-with-aspose-cells/)
 学习如何使用 Aspose.Cells for Java 将 JSON 数据转换为 Excel 文件，提供完整代码示例，帮助您实现高效数据导出。
+### [使用 Aspose Cells 将 JSON 插入 Excel – 完整 Java 指南](./insert-json-into-excel-with-aspose-cells-full-java-guide/)
+学习如何使用 Aspose.Cells for Java 将 JSON 数据插入 Excel 文件。包含完整示例代码，帮助实现无缝转换。
 ### [Excel 导入数据验证](./excel-import-data-validation/)
 通过本指南，学习如何使用 Aspose.Cells for Java 实现 Excel 导入数据验证。确保数据准确性并提升用户体验。 
 
@@ -160,6 +162,12 @@
 通过 Aspose.Cells for Java 将 Excel 内容生成 Word 文档，并完整导出为 XLSX，提供详细代码示例。
 ### [如何在 HTML 中嵌入来自 Excel 的字体 – 完整指南](./how-to-embed-fonts-in-html-from-excel-full-guide/)
 学习使用 Aspose.Cells for Java 将 Excel 中的字体嵌入生成的 HTML，确保文档在浏览器中保持原始样式。
+### [如何从 Excel 导出 PPTX – 完整 Java 指南](./how-to-export-pptx-from-excel-complete-java-guide/)
+学习使用 Aspose.Cells for Java 将 Excel 内容导出为 PPTX 文件的完整步骤，包含示例代码，帮助您实现跨格式转换。
+### [使用 Java 将 Excel 导出为 TXT – 完整分步指南](./export-excel-to-txt-with-java-complete-step-by-step-guide/)
+学习使用 Aspose.Cells for Java 将 Excel 导出为 TXT，提供完整示例代码，帮助您实现无缝文本转换。
+### [设置自定义单元格分隔符 – 导出 Excel 表为 TXT](./set-custom-cell-separator-export-excel-table-to-txt/)
+学习如何使用 Aspose.Cells for Java 设置自定义单元格分隔符，将 Excel 表导出为 TXT 文件。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

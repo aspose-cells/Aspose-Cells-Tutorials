@@ -109,6 +109,8 @@ Lär dig hur du programatiskt skapar flera kalkylblad i en Excel-fil med Aspose.
 Lär dig hur du tar bort autofilter i en Excel-fil med Aspose.Cells för Java i några enkla steg.
 ### [Hur man skapar duplicerade detaljark i Aspose.Cells för Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
 Lär dig hur du duplicerar detaljark i Excel-filer med Aspose.Cells för Java för effektiv datahantering.
+### [Skapa kalkylblad från lista med Aspose.Cells Java – Fullständig guide](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Lär dig hur du skapar kalkylblad från en lista med Aspose.Cells för Java i en komplett guide.
 
 ## Ytterligare resurser
 

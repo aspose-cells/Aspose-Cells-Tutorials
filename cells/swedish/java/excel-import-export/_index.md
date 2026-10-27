@@ -144,6 +144,14 @@ Lär dig hur du exporterar Excel-celler som text inklusive formler med Aspose.Ce
 Lär dig hur du skapar Word-dokument från Excel och exporterar XLSX med Aspose.Cells för Java i en komplett guide.
 ### [Bädda in teckensnitt i HTML från Excel – Fullständig guide](./how-to-embed-fonts-in-html-from-excel-full-guide/)
 Lär dig hur du bäddar in teckensnitt i HTML-genererade filer från Excel med Aspose.Cells för Java i en komplett steg-för-steg-guide.
+### [Infoga JSON i Excel med Aspose Cells – Fullständig Java-guide](./insert-json-into-excel-with-aspose-cells-full-java-guide/)
+Lär dig hur du infogar JSON-data i Excel med Aspose.Cells för Java i en detaljerad steg-för-steg-guide.
+### [Exportera PPTX från Excel – Komplett Java-guide](./how-to-export-pptx-from-excel-complete-java-guide/)
+Lär dig hur du exporterar PPTX-filer från Excel med Aspose.Cells för Java i en komplett steg-för-steg-guide.
+### [Exportera Excel till TXT med Java – Komplett steg‑för‑steg‑guide](./export-excel-to-txt-with-java-complete-step-by-step-guide/)
+Lär dig hur du exporterar Excel-data till TXT-format med Java i en detaljerad steg‑för‑steg‑guide.
+### [Ange anpassad cellseparator – Exportera Excel-tabell till TXT](./set-custom-cell-separator-export-excel-table-to-txt/)
+Lär dig hur du anger en egen cellseparator när du exporterar en Excel-tabell till TXT med Aspose.Cells för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

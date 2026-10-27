@@ -35,7 +35,6 @@ Aspose.Cells for Java API का उपयोग करके Excel से ब�
 जावा के लिए Aspose.Cells का उपयोग करके Excel डेटा निर्यात विधियों की क्षमता को अनलॉक करें। इस व्यापक गाइड में व्यावहारिक स्रोत कोड उदाहरणों के साथ सीखें। आज ही अपने डेटा प्रबंधन कौशल को अनुकूलित करें।
 
 ### [CSV निर्यात जावा कोड](./csv-export-java-code/)
-Java के लिए Aspose.Cells का उपयोग करके CSV प्रारूप में डेटा निर्यात करना सीखें। सहज CSV निर्यात के लिए स्रोत कोड के साथ चरण-दर-स्तर मार्गदर्शिका।
 ### [एक्सेल को पीडीएफ में निर्यात करना](./exporting-excel-to-pdf/)
 जावा के लिए Aspose.Cells का उपयोग करके आसानी से Excel फ़ाइलों को PDF में निर्यात करना सीखें। हमारी चरण-दर-स्तर मार्गदर्शिका प्रक्रिया को सरल बनाती है। आज ही कनवर्ट करना शुरू करें!
 ### [एक्सेल को XML जावा में निर्यात करें](./export-excel-to-xml-java/)
@@ -161,6 +160,14 @@ Aspose.Cells for Java का उपयोग करके फ़ॉर्मू�
 Aspose.Cells for Java का उपयोग करके Excel फ़ाइल से Word दस्तावेज़ बनाना और XLSX निर्यात करना सीखें। चरण-दर-स्तर मार्गदर्शिका।
 ### [Excel से HTML में फ़ॉन्ट एम्बेड करें – पूर्ण गाइड](./how-to-embed-fonts-in-html-from-excel-full-guide/)
 Aspose.Cells for Java का उपयोग करके Excel फ़ाइल से HTML में फ़ॉन्ट एम्बेड करने की पूरी प्रक्रिया सीखें।
+### [Excel से PPTX निर्यात कैसे करें – पूर्ण जावा गाइड](./how-to-export-pptx-from-excel-complete-java-guide/)
+Aspose.Cells for Java का उपयोग करके Excel से PPTX फ़ाइल निर्यात करना सीखें। चरण-दर-स्टेप गाइड के साथ आसान रूपांतरण।
+### [Aspose Cells के साथ JSON को Excel में डालें – पूर्ण जावा गाइड](./insert-json-into-excel-with-aspose-cells-full-java-guide/)
+Aspose.Cells for Java का उपयोग करके JSON डेटा को Excel में इन्सर्ट करना सीखें। चरण-दर-चरण गाइड के साथ इसे लागू करें।
+### [जावा के साथ Excel को TXT में निर्यात – पूर्ण चरण‑दर‑चरण गाइड](./export-excel-to-txt-with-java-complete-step-by-step-guide/)
+जावा के लिए Aspose.Cells का उपयोग करके Excel को TXT फ़ॉर्मेट में निर्यात करना सीखें। चरण‑दर‑चरण मार्गदर्शिका के साथ आसान रूपांतरण।
+### [कस्टम सेल सेपरेटर सेट करें – एक्सेल टेबल को TXT में निर्यात करें](./set-custom-cell-separator-export-excel-table-to-txt/)
+Aspose.Cells for Java का उपयोग करके एक्सेल टेबल को TXT फ़ाइल में निर्यात करते समय कस्टम सेल सेपरेटर सेट करना सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

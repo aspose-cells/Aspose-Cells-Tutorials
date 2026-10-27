@@ -155,7 +155,7 @@ Pelajari cara mengotomatiskan penataan gaya di Excel menggunakan Aspose.Cells un
 Pelajari cara mengekstrak dan mengelola tema dari buku kerja Excel menggunakan Aspose.Cells untuk Java. Panduan ini mencakup penyiapan, contoh kode, dan praktik terbaik.
 
 ### [Inisialisasi Buku Kerja Excel & Penataan Sel menggunakan Aspose.Cells Java: Panduan Lengkap](./excel-workbook-initialization-cell-styling-aspose-cells-java/)
-Kuasai inisialisasi dan penataan buku kerja Excel dengan Aspose.Cells untuk Java. Panduan ini mencakup penyiapan buku kerja, modifikasi sel, dan teknik penataan.
+Kuasai inisialisasi dan penataan buku kerja Excel dengan Aspose.Cells Java. Panduan ini mencakup penyiapan buku kerja, modifikasi sel, dan teknik penataan.
 
 ### [Menguasai Penataan Buku Kerja di Excel dengan Aspose.Cells Java: Panduan Lengkap untuk Pengembang](./excel-workbook-styling-aspose-cells-java/)
 Pelajari cara menyederhanakan penataan dan manipulasi data buku kerja Excel Anda menggunakan Aspose.Cells Java. Panduan ini mencakup inisialisasi, teknik penataan, dan penanganan data yang efisien.
@@ -249,6 +249,11 @@ Pelajari cara menerapkan gaya saat mengonversi DataTable ke file Excel menggunak
 
 ### [Aspose Cells Format Tanggal: Cara Mengatur Format Tanggal Kustom di Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
 Pelajari cara menetapkan format tanggal khusus di Excel menggunakan Aspose.Cells untuk Java dengan contoh kode lengkap.
+### [Membuat Buku Kerja Excel Bergaya di Java – Panduan Lengkap](./create-styled-excel-workbook-in-java-complete-guide/)
+Pelajari cara membuat workbook Excel dengan gaya profesional menggunakan Aspose.Cells untuk Java, lengkap dengan contoh kode.
+
+### [Cara Menggunakan WRAPCOLS di Aspose.Cells – Contoh Java Lengkap](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Pelajari cara menggunakan WRAPCOLS di Aspose.Cells dengan contoh Java lengkap untuk mengontrol lebar kolom secara otomatis.
 
 ## Sumber Daya Tambahan
 

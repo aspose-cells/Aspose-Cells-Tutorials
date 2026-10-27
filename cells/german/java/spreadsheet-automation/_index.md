@@ -48,6 +48,7 @@ Lernen Sie die Automatisierung von Excel-Arbeitsmappen in Java mit Aspose.Cells:
 Erfahren Sie, wie Sie mit Aspose.Cells ein neues Excel‑Arbeitsbuch erstellen, eine benutzerdefinierte Eigenschaft hinzufügen und es als XLSB speichern.
 ### [Automatisieren von Excel-Diagrammen](./automating-excel-charts/)
 Erfahren Sie anhand von Quellcodebeispielen, wie Sie die Erstellung und Anpassung von Excel-Diagrammen mit Aspose.Cells für Java automatisieren. Optimieren Sie Ihre Diagrammerstellung. 
+### [Autofilter aus Excel mit Java entfernen – Komplettanleitung](./remove-autofilter-from-excel-with-java-complete-guide/)
 ### [Excel-Automatisierung mit Java](./excel-automation-with-java/)
 Erfahren Sie anhand von Quellcodebeispielen, wie Sie Excel-Aufgaben in Java automatisieren, indem Sie Aspose.Cells verwenden, eine leistungsstarke Bibliothek zur Excel-Bearbeitung.
 ### [Datenintegration in Excel](./data-integration-in-excel/)

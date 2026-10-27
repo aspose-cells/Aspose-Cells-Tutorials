@@ -37,6 +37,8 @@ Aspose.Cells for Java를 사용하여 일본 달력 기능이 포함된 워크�
 Aspose.Cells for Java를 사용해 Excel 통합 문서를 처음부터 만들고 저장하는 방법을 단계별로 안내합니다.
 ### [Java에서 새 통합 문서 저장 – 통합 문서 간 범위 복사 튜토리얼](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
 Java에서 Aspose.Cells를 사용하여 새 통합 문서를 저장하고, 다른 통합 문서로 범위를 복사하는 방법을 알아보세요.
+### [Java에서 새 워크북 만들기 – 완전 가이드](./create-new-workbook-java-complete-guide/)
+Aspose.Cells for Java를 사용하여 새로운 Excel 워크북을 생성하고 저장하는 방법을 단계별로 안내합니다.
 
 ### [Aspose.Cells Java: 버전 표시 및 공유 통합 문서 만들기](./aspose-cells-java-display-version-create-shared-workbook/)
 Aspose.Words Java에 대한 코드 튜토리얼
@@ -504,6 +506,8 @@ Aspose.Cells for Java를 사용하여 프로그램 방식으로 XLSB 워크북�
 Aspose.Cells for Java를 사용하여 엑셀 파일을 만들고, 사용자 정의 속성을 추가한 뒤 XLSB 형식으로 저장하는 방법을 알아보세요.
 ### [Java용 Aspose.Cells를 사용하여 사용자 지정 속성을 Excel에 추가하는 방법 – 완전 가이드](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
 Aspose.Cells for Java를 사용하여 Excel 파일에 사용자 지정 속성을 추가하고 관리하는 방법을 단계별로 안내합니다.
+### [Lambda 함수를 사용한 Java Excel 통합 문서 생성 예제](./use-lambda-function-java-to-create-excel-workbook-example/)
+Lambda 함수를 활용해 Java에서 Excel 통합 문서를 프로그래밍 방식으로 생성하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

@@ -247,6 +247,11 @@ Aprenda a aplicar estilos ao converter um DataTable para Excel usando Aspose.Cel
 Aprenda a definir formatos de data personalizados em planilhas Excel usando Aspose.Cells para Java, com exemplos de código passo a passo.
 ### [Definir fonte em negrito na exportação de Excel em Java – Guia completo](./set-font-bold-in-java-excel-export-complete-guide/)
 Aprenda a aplicar negrito a fontes ao exportar planilhas Excel usando Aspose.Cells para Java, com exemplos de código passo a passo.
+### [Criar Pasta de Trabalho Excel Estilizada em Java – Guia Completo](./create-styled-excel-workbook-in-java-complete-guide/)
+Aprenda a criar uma pasta de trabalho Excel estilizada em Java usando Aspose.Cells, com exemplos de código detalhados.
+
+### [Como usar WRAPCOLS no Aspose.Cells – Exemplo Java completo](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Aprenda a usar o método WRAPCOLS do Aspose.Cells em Java para ajustar automaticamente o conteúdo das células. Guia passo a passo com código completo.
 
 ## Recursos adicionais
 

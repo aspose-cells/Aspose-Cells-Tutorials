@@ -68,6 +68,7 @@ Aspose.Cells का उपयोग करके नया वर्कबुक
 ### [जावा के साथ एक्सेल में टेबल हेडर कैसे हटाएँ – पूर्ण गाइड](./how-to-delete-table-header-in-excel-with-java-full-guide/)
 ### [जावा के साथ एक्सेल में एरे का विस्तार – चरण‑दर‑चरण गाइड](./expand-array-in-excel-with-java-step-by-step-guide/)
 जावा के साथ Aspose.Cells का उपयोग करके Excel में एरे को विस्तारित करने का चरण‑दर‑चरण मार्गदर्शन।
+### [जावा के साथ एक्सेल से ऑटोफ़िल्टर हटाएँ – पूर्ण गाइड](./remove-autofilter-from-excel-with-java-complete-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

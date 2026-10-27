@@ -108,6 +108,8 @@ Ismerd meg, hogyan hozhatsz létre több munkalapot egy Excel-fájlban Java és 
 ### [Hogyan törölje az autofiltert Excelben az Aspose.Cells (Java) használatával](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
 ### [Hogyan hozhat létre duplikált részletes munkalapokat az Aspose.Cells for Java használatával](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
 Tanuld meg, hogyan hozhatsz létre duplikált részletes munkalapokat az Aspose.Cells for Java segítségével.
+### [Munkalapok létrehozása listából az Aspose.Cells Java-val – Teljes útmutató](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Tanuld meg, hogyan hozhatsz létre több munkalapot egy listából az Aspose.Cells for Java segítségével.
 
 ## További források
 

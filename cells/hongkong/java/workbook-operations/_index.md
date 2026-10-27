@@ -504,6 +504,10 @@ Aspose.Words Java 程式碼教程
 了解如何使用 Aspose.Cells for Java 建立 Excel 檔案、加入自訂屬性，並儲存為 XLSB 格式。
 ### [如何使用 Aspose.Cells for Java 在 Excel 中新增自訂屬性 – 完整指南](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
 了解如何使用 Aspose.Cells for Java 在 Excel 工作簿中新增自訂屬性並儲存。
+### [Aspose.Cells Java：建立新工作簿 – 完整指南](./create-new-workbook-java-complete-guide/)
+
+### [使用 Lambda 函式 Java 建立 Excel 工作簿範例](./use-lambda-function-java-to-create-excel-workbook-example/)
+了解如何使用 Lambda 函式在 Java 中建立 Excel 工作簿的示例。
 
 ## 其他資源
 

@@ -255,7 +255,7 @@ Aprenda a automatizar tarefas do Excel usando o Aspose.Cells para Java. Este gui
 Domine a automação do Excel com o Aspose.Cells para Java carregando pastas de trabalho e recuperando resultados de tabelas de consulta. Aumente a produtividade no processamento de dados, relatórios e integração.
 
 ### [Automação do Excel: Configurar páginas de pasta de trabalho e planilha com Aspose.Cells Java](./excel-automation-aspose-cells-java-workbook-setup/)
-Aprenda a automatizar tarefas do Excel configurando páginas de pastas de trabalho e planilhas usando o Aspose.Cells para Java. Simplifique seus fluxos de trabalho de processamento de dados com eficiência.
+Aprenda a automatizar tarefas do Excel configurando páginas de pastas de trabalho e planilhas usando o Aspose.Cells Java. Simplifique seus fluxos de trabalho de processamento de dados com eficiência.
 
 ### [Automação do Excel com Aspose.Cells Java: Criação de Pasta de Trabalho e Visibilidade de Colunas/Linhas](./excel-automation-aspose-cells-java-workbook-visibility/)
 Aprenda a automatizar tarefas do Excel criando e modificando pastas de trabalho e controlando a visibilidade de colunas/linhas com eficiência.
@@ -282,7 +282,7 @@ Aprenda a converter facilmente pastas de trabalho do Excel em HTML usando o Aspo
 Aprenda a converter planilhas do Excel em imagens de alta qualidade usando Java com Aspose.Cells. Este guia completo aborda instalação, configuração e aplicações práticas.
 
 ### [Domine o gerenciamento de planilhas e pastas de trabalho do Excel usando Aspose.Cells para Java | Aplicando efeitos de brilho a formas](./excel-management-aspose-cells-java-glow-effects/)
-Aprenda a gerenciar pastas de trabalho do Excel em Java com o Aspose.Cells, incluindo a aplicação de efeitos de brilho a formas. Aprimore sua visualização de dados e automatize as manipulações de pastas de trabalho sem esforço.
+Aprenda a gerenciar pastas de trabalho do Excel em Java com o Aspose.Cells, incluindo a aplicação de efeitos de brilho a formas. Aprimore sua visualização de dados e automatize as manipulções de pastas de trabalho sem esforço.
 
 ### [Carregar e iterar linhas do Excel com Aspose.Cells em Java: um guia completo](./excel-manipulation-aspose-cells-java/)
 Aprenda a carregar e iterar com eficiência linhas em um arquivo Excel usando o Aspose.Cells para Java, perfeito para análise de dados e tarefas de automação.
@@ -475,6 +475,11 @@ Aprenda a definir e gerenciar propriedades de documentos, como controle de vers�
 
 ### [Java: criar arquivo Excel, adicionar propriedade personalizada e salvar como XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
 Aprenda a criar um arquivo Excel, definir propriedades personalizadas e salvá‑lo no formato XLSB usando Aspose.Cells para Java.
+### [Criar Nova Pasta de Trabalho Java – Guia Completo](./create-new-workbook-java-complete-guide/)
+Aprenda a criar uma nova pasta de trabalho do Excel usando Aspose.Cells para Java com este guia completo passo a passo.
+
+### [Usar Função Lambda Java para Criar um Exemplo de Pasta de Trabalho do Excel](./use-lambda-function-java-to-create-excel-workbook-example/)
+Aprenda a usar funções lambda em Java para criar e manipular uma pasta de trabalho do Excel com Aspose.Cells.
 
 ## Recursos adicionais
 

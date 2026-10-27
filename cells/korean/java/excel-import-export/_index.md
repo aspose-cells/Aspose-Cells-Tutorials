@@ -143,6 +143,14 @@ Aspose.Cells for Java를 사용해 DataTable을 가져오면서 셀 서식을 �
 Aspose.Cells for Java를 사용해 Excel 셀의 수식을 텍스트로 변환하여 내보내는 방법을 단계별로 안내합니다.
 ### [Excel에서 HTML로 글꼴을 삽입하는 방법 – 전체 가이드](./how-to-embed-fonts-in-html-from-excel-full-guide/)
 Aspose.Cells for Java를 사용해 Excel을 HTML로 변환할 때 글꼴을 삽입하는 전체 가이드를 확인하고, 정확한 표시를 보장하세요.
+### [Excel에서 PPTX 내보내기 – 완전 Java 가이드](./how-to-export-pptx-from-excel-complete-java-guide/)
+Aspose.Cells for Java를 사용하여 Excel에서 PPTX 파일을 내보내는 방법을 단계별로 안내합니다. 실용적인 예제로 변환을 손쉽게 수행하세요.
+### [Aspose Cells로 JSON을 Excel에 삽입 – 전체 Java 가이드](./insert-json-into-excel-with-aspose-cells-full-java-guide/)
+Aspose.Cells for Java를 활용해 JSON 데이터를 Excel 워크시트에 삽입하는 방법을 단계별로 안내합니다.
+### [Java로 Excel을 TXT로 내보내기 – 완전 단계별 가이드](./export-excel-to-txt-with-java-complete-step-by-step-guide/)
+Aspose.Cells for Java를 사용하여 Excel 파일을 TXT 형식으로 변환하는 방법을 단계별로 안내합니다. 실용적인 예제로 손쉽게 구현하세요.
+### [사용자 정의 셀 구분자 설정 – Excel 테이블을 TXT로 내보내기](./set-custom-cell-separator-export-excel-table-to-txt/)
+Aspose.Cells for Java를 사용하여 Excel 테이블을 TXT 파일로 내보낼 때 사용자 지정 셀 구분자를 설정하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

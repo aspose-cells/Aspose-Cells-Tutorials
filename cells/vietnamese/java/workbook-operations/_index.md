@@ -497,6 +497,11 @@ Hướng dẫn cách lưu sổ làm việc mới và sao chép một vùng dữ 
 Hướng dẫn tạo tệp Excel, thêm thuộc tính tùy chỉnh và lưu dưới dạng XLSB bằng Aspose.Cells cho Java.
 ### [Cách Thêm Thuộc Tính Tùy Chỉnh trong Excel bằng Java – Hướng Dẫn Toàn Diện](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
 Tìm hiểu cách thêm thuộc tính tùy chỉnh vào tệp Excel bằng Aspose.Cells for Java. Hướng dẫn này bao gồm thiết lập, lưu và sử dụng thuộc tính.
+### [Tạo Sổ làm việc Mới Java – Hướng dẫn toàn diện](./create-new-workbook-java-complete-guide/)
+Tìm hiểu cách tạo sổ làm việc mới trong Java bằng Aspose.Cells. Hướng dẫn toàn diện này bao gồm các bước thiết lập, tạo và lưu workbook.
+
+### [Sử dụng hàm Lambda Java để tạo ví dụ Workbook Excel](./use-lambda-function-java-to-create-excel-workbook-example/)
+Hướng dẫn cách dùng hàm Lambda trong Java để tạo và lưu workbook Excel bằng Aspose.Cells.
 
 ## Tài nguyên bổ sung
 

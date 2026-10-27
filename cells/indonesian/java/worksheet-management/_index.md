@@ -111,6 +111,8 @@ Pelajari cara mudah untuk menampilkan kembali baris dan kolom dalam file Excel m
 Pelajari cara memanfaatkan SmartMarkerProcessor untuk memberi nama lembar kerja secara dinamis dalam file Excel menggunakan Aspose.Cells untuk Java.
 ### [Cara Menghapus Autofilter di Excel dengan Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
 Pelajari cara menghapus filter otomatis (autofilter) pada lembar kerja Excel menggunakan Aspose.Cells untuk Java.
+### [Buat lembar kerja dari daftar dengan Aspose.Cells Java – Panduan Lengkap](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Pelajari cara membuat beberapa lembar kerja secara otomatis dari daftar data menggunakan Aspose.Cells untuk Java dalam panduan lengkap ini.
 
 ## Sumber Daya Tambahan
 

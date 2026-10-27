@@ -69,6 +69,8 @@
 تعلم كيفية إنشاء مصنف Excel جديد وإضافة خاصية مخصصة ثم حفظه بصيغة XLSB باستخدام Aspose.Cells لجافا.
 ### [كيفية حذف رأس الجدول في Excel باستخدام Java – دليل كامل](./how-to-delete-table-header-in-excel-with-java-full-guide/)
 تعلم كيفية حذف رأس الجدول في ملفات Excel باستخدام Aspose.Cells لجافا مع أمثلة شيفرة مفصلة.
+### [إزالة الفلتر التلقائي من Excel باستخدام Java – دليل شامل](./remove-autofilter-from-excel-with-java-complete-guide/)
+تعلم كيفية إزالة الفلتر التلقائي من ملفات Excel باستخدام Aspose.Cells لجافا خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

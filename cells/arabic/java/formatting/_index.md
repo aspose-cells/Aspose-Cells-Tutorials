@@ -120,8 +120,7 @@
 تعرف على كيفية تحويل ملفات Excel ذات التعبئة المتدرجة إلى HTML باستخدام مكتبة Aspose.Cells لـ Java، مما يضمن عروض تقديمية ويب جذابة بصريًا.
 
 ### [إنشاء وتنسيق ملفات Excel/ODS باستخدام Aspose.Cells لـ Java: دليل شامل](./create-style-excel-ods-aspose-cells-java/)
-تعلّم كيفية إنشاء ملفات Excel وODS وتنسيقها وإدارتها برمجيًا باستخدام Aspose.Cells لـ Java. وفّر الوقت وقلل الأخطاء في مهام جداول البيانات.
-
+### [إنشاء مصنف Excel منسق في Java – دليل كامل](./create-styled-excel-workbook-in-java-complete-guide/)
 ### [تنفيذ الخطوط المخصصة في Aspose.Cells لـ Java: دليل شامل لعرض مصنفات العمل بشكل متسق](./custom-fonts-aspose-cells-java-guide/)
 تعرّف على كيفية ضمان عرض متناسق لمصنفات Excel باستخدام خطوط مخصصة باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل الإعداد والتكوين والتطبيقات العملية.
 
@@ -243,6 +242,7 @@
 ### [تعيين الخط العريض في تصدير Excel باستخدام Java – دليل كامل](./set-font-bold-in-java-excel-export-complete-guide/)
 
 ### [تعيين تنسيق رقم مخصص في Excel باستخدام Java – دليل كامل](./set-custom-number-format-in-excel-with-java-complete-guide/)
+### [كيفية استخدام WRAPCOLS في Aspose.Cells – مثال كامل بلغة Java](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 
 ## موارد إضافية
 

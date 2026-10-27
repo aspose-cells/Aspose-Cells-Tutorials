@@ -149,6 +149,14 @@ Tanuld meg, hogyan exportálhatsz képleteket szövegként Java-ban az Aspose.Ce
 Tanuld meg, hogyan hozhatsz létre Word-dokumentumot Excel adatokból, és exportáld őket XLSX formátumba Aspose.Cells for Java segítségével.
 ### [Betűtípusok beágyazása HTML-be Excelből – Teljes útmutató](./how-to-embed-fonts-in-html-from-excel-full-guide/)
 Tanuld meg, hogyan ágyazhatsz be betűtípusokat HTML-be Excel fájlokból az Aspose.Cells for Java segítségével, lépésről lépésre útmutatóval.
+### [Hogyan exportáljunk PPTX-et Excelből – Teljes Java útmutató](./how-to-export-pptx-from-excel-complete-java-guide/)
+Tanuld meg, hogyan exportálhatsz PPTX fájlokat Excelből az Aspose.Cells for Java segítségével. Lépésről lépésre útmutató forráskóddal.
+### [JSON beszúrása Excelbe az Aspose Cells segítségével – Teljes Java útmutató](./insert-json-into-excel-with-aspose-cells-full-java-guide/)
+Tanuld meg, hogyan szúrj be JSON adatokat Excel munkafüzetbe az Aspose Cells Java API-val lépésről lépésre.
+### [Excel exportálása TXT-be Java-val – Teljes lépésről lépésre útmutató](./export-excel-to-txt-with-java-complete-step-by-step-guide/)
+Tanuld meg, hogyan exportálhatsz Excel-fájlokat TXT formátumba Java és az Aspose.Cells segítségével, részletes lépésről lépésre útmutatóval.
+### [Egyéni cellaelválasztó beállítása – Excel táblázat exportálása TXT-be](./set-custom-cell-separator-export-excel-table-to-txt/)
+Tanuld meg, hogyan állíthatsz be egyéni cellaelválasztót az Excel táblázat TXT formátumba történő exportálásához az Aspose.Cells for Java használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

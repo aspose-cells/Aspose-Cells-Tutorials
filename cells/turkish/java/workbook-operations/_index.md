@@ -366,7 +366,7 @@ Aspose.Words Java için bir kod eğitimi
 ### [Aspose.Cells Java Kullanarak Excel Çalışma Sayfasını PNG'ye Nasıl Aktarırım](./export-excel-to-png-aspose-cells-java/)
 Aspose.Cells for Java ile Excel çalışma sayfalarını sorunsuz bir şekilde PNG görüntüleri olarak nasıl dışa aktaracağınızı öğrenin. Veri paylaşımınızı ve raporlama iş akışlarınızı geliştirmek için bu adım adım kılavuzu izleyin.
 
-### [Aspose.Cells Java Kullanarak Excel'den Güvenli PDF'ler Oluşturun: Kapsamlı Bir Kılavuz](./generate-secure-pdfs-excel-aspose-cells-java/)
+### [Aspose.Cells Java'yı kullanarak Excel'den Güvenli PDF'ler Oluşturun: Kapsamlı Bir Kılavuz](./generate-secure-pdfs-excel-aspose-cells-java/)
 Aspose.Cells for Java kullanarak Excel dosyalarından güvenli PDF'ler oluşturmayı öğrenin. Bu kılavuz parolaları, izinleri ayarlamayı ve performansı optimize etmeyi kapsar.
 
 ### [Java'da Aspose.Cells ile PDF Yer İmleri Nasıl Oluşturulur: Kapsamlı Bir Kılavuz](./guide-create-pdf-bookmarks-java-aspose-cells/)
@@ -499,6 +499,11 @@ Aspose.Cells for Java kullanarak yeni bir çalışma kitabı oluşturup, bir ça
 Aspose.Cells for Java kullanarak bir Excel dosyası oluşturmayı, özel bir özellik eklemeyi ve XLSB formatında kaydetmeyi öğrenin.
 ### [Java ile Excel'e Özel Özellik Ekleme – Tam Kılavuz](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
 Aspose.Cells for Java kullanarak Excel dosyalarına özel özellik eklemeyi adım adım öğrenin.
+### [Yeni Çalışma Kitabı Oluşturma Java – Tam Kılavuz](./create-new-workbook-java-complete-guide/)
+Aspose.Cells for Java kullanarak yeni bir Excel çalışma kitabı oluşturmayı ve kaydetmeyi adım adım öğrenin.
+
+### [Lambda Fonksiyonu Java Kullanarak Excel Çalışma Kitabı Oluşturma Örneği](./use-lambda-function-java-to-create-excel-workbook-example/)
+Lambda fonksiyonlarıyla Java’da Excel çalışma kitabı oluşturmayı adım adım öğrenin.
 
 ## Ek Kaynaklar
 

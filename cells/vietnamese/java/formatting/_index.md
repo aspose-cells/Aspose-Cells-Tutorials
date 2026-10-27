@@ -41,6 +41,9 @@ Tìm hiểu cách nâng cao biểu đồ Excel của bạn bằng cách áp dụ
 ### [Tự động điều chỉnh cột Excel trong Java bằng Aspose.Cells](./aspose-cells-java-auto-fit-excel-columns-guide/)
 Tìm hiểu cách tự động điều chỉnh độ rộng cột trong Excel bằng Aspose.Cells for Java. Hướng dẫn này bao gồm tải sổ làm việc, tự động điều chỉnh cột và lưu tệp hiệu quả.
 
+### [Cách sử dụng WRAPCOLS trong Aspose.Cells – Ví dụ Java đầy đủ](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Hướng dẫn chi tiết cách áp dụng thuộc tính WRAPCOLS trong Aspose.Cells for Java để tự động điều chỉnh độ rộng cột dựa trên nội dung ô.
+
 ### [Tự động điều chỉnh các hàng trong Excel bằng Aspose.Cells cho Java: Hướng dẫn toàn diện](./aspose-cells-java-auto-fit-rows-excel/)
 Tìm hiểu cách sử dụng Aspose.Cells for Java để tự động điều chỉnh chiều cao hàng trong sổ làm việc Excel, đảm bảo dữ liệu được trình bày gọn gàng và dễ đọc.
 
@@ -248,6 +251,8 @@ Làm chủ kiểu dáng ô Excel và thêm siêu liên kết vào ứng dụng J
 Hướng dẫn chi tiết cách tạo sổ làm việc Excel và áp dụng định dạng động bằng Aspose.Cells cho Java.
 ### [Cách áp dụng kiểu khi chuyển DataTable sang Excel – Hướng dẫn đầy đủ Java](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 Tìm hiểu cách áp dụng các kiểu định dạng khi chuyển đổi DataTable sang tệp Excel bằng Aspose.Cells cho Java.
+### [Tạo Workbook Excel có Định dạng trong Java – Hướng dẫn đầy đủ](./create-styled-excel-workbook-in-java-complete-guide/)
+Hướng dẫn chi tiết cách tạo và áp dụng các kiểu định dạng cho Workbook Excel bằng Aspose.Cells for Java, bao gồm ví dụ mã và mẹo tối ưu.
 
 ## Tài nguyên bổ sung
 

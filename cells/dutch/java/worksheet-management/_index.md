@@ -108,8 +108,9 @@ Leer hoe u efficiënt unieke ID's van werkbladen kunt ophalen met Aspose.Cells v
 Een codetutorial voor Aspose.Words Java
 
 ### [Rijen en kolommen zichtbaar maken in Excel met Aspose.Cells Java: een stapsgewijze handleiding](./unhide-rows-columns-excel-aspose-cells-java/)
-
 ### [Hoe duplicaat-detailbladen te maken in Aspose.Cells voor Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+### [Werkbladen maken vanuit een lijst met Aspose.Cells Java – Volledige gids](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Leer hoe u programmatically werkbladen maakt vanuit een lijst met Aspose.Cells voor Java. Deze handleiding biedt stap‑voor‑stap codevoorbeelden en best practices.
 
 ## Aanvullende bronnen
 

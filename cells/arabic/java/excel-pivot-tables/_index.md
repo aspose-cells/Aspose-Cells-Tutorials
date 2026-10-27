@@ -56,6 +56,8 @@
 ### [كيفية نسخ النطاق والحفاظ على جدول محوري في Java](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
 ### [كيفية تكرار جداول البيانات المحورية في Excel باستخدام Java – دليل خطوة بخطوة](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
 ### [صورة جدول محوري في Excel: التصدير إلى PNG باستخدام Java](./excel-pivot-table-image-export-to-png-with-java/)
+### [إنشاء مصنف جديد ونسخ جدول محوري في Java – دليل خطوة بخطوة كامل](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
+تعلم كيفية إنشاء مصنف جديد ونسخ جدول محوري باستخدام Aspose.Cells لجافا خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

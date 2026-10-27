@@ -157,6 +157,14 @@
 了解如何使用 Aspose.Cells for Java 從 Excel 建立 Word 文件，提供完整範例與逐步說明。
 ### [如何在 HTML 中嵌入來自 Excel 的字型 – 完整指南](./how-to-embed-fonts-in-html-from-excel-full-guide/)
 了解如何使用 Aspose.Cells for Java 將 Excel 中的字型嵌入 HTML，確保在網頁上正確顯示字型樣式。
+### [使用 Java 匯出 Excel 為 TXT – 完整逐步指南](./export-excel-to-txt-with-java-complete-step-by-step-guide/)
+了解如何使用 Aspose.Cells for Java 將 Excel 檔案匯出為 TXT 格式，提供完整的步驟與原始碼示例。
+### [如何從 Excel 匯出 PPTX – 完整 Java 指南](./how-to-export-pptx-from-excel-complete-java-guide/)
+了解如何使用 Aspose.Cells for Java 將 Excel 匯出為 PPTX 檔案，完整的 Java 實作指南。
+### [使用 Aspose Cells 將 JSON 插入 Excel – 完整 Java 指南](./insert-json-into-excel-with-aspose-cells-full-java-guide/)
+了解如何使用 Aspose.Cells for Java 將 JSON 資料插入 Excel 工作表。提供逐步指南與原始程式碼示例。
+### [設定自訂儲存格分隔符 – 匯出 Excel 表格為 TXT](./set-custom-cell-separator-export-excel-table-to-txt/)
+了解如何使用 Aspose.Cells for Java 設定自訂儲存格分隔符，將 Excel 表格匯出為 TXT 檔案。提供逐步指南與原始碼示例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

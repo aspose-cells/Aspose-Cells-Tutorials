@@ -110,6 +110,8 @@ Java ve Aspose.Cells kullanarak şablon tabanlı birden çok çalışma sayfası
 Aspose.Cells for Java kullanarak Excel dosyalarındaki otomatik filtreyi nasıl temizleyeceğinizi öğrenin.
 ### [Aspose.Cells for Java ile Detay Sayfalarını Kopyalama](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
 Aspose.Cells for Java kullanarak aynı detay sayfalarını birden fazla kez oluşturmayı öğrenin.
+### [Aspose.Cells Java ile Listeden Çalışma Sayfaları Oluşturma – Tam Kılavuz](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Aspose.Cells for Java kullanarak bir listeden birden fazla çalışma sayfası oluşturmayı adım adım öğrenin.
 
 ## Ek Kaynaklar
 

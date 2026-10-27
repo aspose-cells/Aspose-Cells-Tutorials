@@ -110,6 +110,8 @@ Dowiedz się, jak dynamicznie nadawać nazwy arkuszom w Excelu przy użyciu Smar
 Dowiedz się, jak programowo tworzyć wiele arkuszy w pliku Excel przy użyciu szablonów w Aspose.Cells for Java.
 ### [Jak wyczyścić filtr automatyczny w programie Excel przy użyciu Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
 Dowiedz się, jak usunąć filtr automatyczny z arkusza Excel przy użyciu Aspose.Cells for Java.
+### [Tworzenie arkuszy kalkulacyjnych z listy przy użyciu Aspose.Cells Java – pełny przewodnik](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Dowiedz się, jak programowo tworzyć wiele arkuszy w Excelu z listy danych przy użyciu Aspose.Cells for Java.
 
 ## Dodatkowe zasoby
 

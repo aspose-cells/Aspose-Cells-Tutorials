@@ -78,6 +78,9 @@ Dowiedz się, jak w prosty sposób skopiować i duplikować tabele przestawne w 
 ### [Eksport obrazu tabeli przestawnej Excel do PNG w Javie](./excel-pivot-table-image-export-to-png-with-java/)
 Dowiedz się, jak wyeksportować tabelę przestawną jako obraz PNG przy użyciu Aspose.Cells dla Java.
 
+### [Utwórz nowy skoroszyt i skopiuj tabelę przestawną w Javie – Pełny przewodnik krok po kroku](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
+Dowiedz się, jak w Javie utworzyć nowy skoroszyt i skopiować istniejącą tabelę przestawną przy użyciu Aspose.Cells, krok po kroku.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

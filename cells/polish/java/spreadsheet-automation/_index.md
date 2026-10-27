@@ -80,6 +80,8 @@ Dowiedz się, jak programowo usunąć nagłówek tabeli w Excelu przy użyciu As
 
 ### [Rozszerzanie tablicy w Excelu w Javie – przewodnik krok po kroku](./expand-array-in-excel-with-java-step-by-step-guide/)
 Dowiedz się, jak programowo rozszerzyć tablicę w Excelu przy użyciu Aspose.Cells for Java, krok po kroku z przykładami kodu.
+### [Usuwanie autofiltrowania w Excelu przy użyciu Javy – Kompletny przewodnik](./remove-autofilter-from-excel-with-java-complete-guide/)
+Dowiedz się, jak usunąć autofiltrowanie w Excelu przy pomocy Aspose.Cells for Java, z przykładami kodu i praktycznymi wskazówkami.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

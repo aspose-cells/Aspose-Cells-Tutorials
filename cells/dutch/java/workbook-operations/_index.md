@@ -29,6 +29,9 @@ Onze tutorials over werkmapbewerkingen bieden uitgebreide begeleiding bij het pr
 ### [Aspose.Cells Java: Excel-werkmappen maken en opslaan - een stapsgewijze handleiding](./aspose-cells-java-create-save-excel-workbooks/)
 Leer hoe u het maken en beheren van Excel-werkmappen kunt automatiseren met Aspose.Cells voor Java. Deze handleiding behandelt het instantiëren, opslaan en instellen van pagina-instellingen.
 
+### [Lambda-functie Java gebruiken om een Excel-werkmap te maken – voorbeeld](./use-lambda-function-java-to-create-excel-workbook-example/)
+Leer hoe u met een Lambda-functie in Java een Excel-werkmap maakt, inclusief codevoorbeelden en stapsgewijze instructies.
+
 ### [Aspose.Cells Java: Versie weergeven en gedeelde werkmap maken](./aspose-cells-java-display-version-create-shared-workbook/)
 Een codetutorial voor Aspose.Words Java
 
@@ -240,6 +243,8 @@ Leer hoe u Excel-werkmappen kunt maken, bewerken en opslaan met de krachtige Asp
 
 ### [Excel-werkmap maken in Java - Complete stapsgewijze handleiding](./create-excel-workbook-java-complete-step-by-step-guide/)
 Leer hoe u een Excel-werkmap maakt en opslaat met Aspose.Cells voor Java via een volledige stap‑voor‑stap handleiding.
+### [Nieuwe werkmap maken in Java – Complete gids](./create-new-workbook-java-complete-guide/)
+Leer hoe u een nieuwe werkmap maakt in Java met Aspose.Cells, inclusief stap‑voor‑stap codevoorbeelden en opslagopties.
 
 ### [ODS-bestanden maken en opslaan met Aspose.Cells voor Java: een handleiding voor ontwikkelaars](./create-save-ods-files-aspose-cells-java/)
 Leer hoe je eenvoudig ODS-bestanden kunt maken en opslaan met Aspose.Cells voor Java. Deze handleiding behandelt alles van installatie tot het opslaan met schema-opties.
@@ -510,7 +515,7 @@ Leer hoe u een nieuwe werkmap opslaat en een bereik tussen werkmappen kopieert m
 
 - [Aspose.Cells voor Java-documentatie](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells voor Java API-referentie](https://reference.aspose.com/cells/java/)
-- [Download Aspose.Cells voor Java](https://releases.aspose.com/cells/java/)
+- [Download Aspose.Cells voor Java](httpshttps://releases.aspose.com/cells/java/)
 - [Gratis ondersteuning](https://forum.aspose.com/)
 - [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
 

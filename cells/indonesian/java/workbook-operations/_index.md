@@ -103,6 +103,9 @@ Pelajari cara membuat buku kerja XLSB secara programatis menggunakan Aspose.Cell
 ### [Membuat Buku Kerja dengan Aspose.Cells Java](./create-configure-workbooks-aspose-cells-java/)
 ### [Membuat dan Menyesuaikan Buku Kerja Excel Menggunakan Aspose.Cells Java: Panduan Langkah demi Langkah](./create-customize-excel-workbooks-aspose-cells-java/)
 ### [Membuat dan Menggabungkan Buku Kerja Excel Menggunakan Aspose.Cells untuk Java | Panduan Lengkap](./create-merge-excel-workbooks-aspose-cells-java/)
+### [Buat Buku Kerja Baru Java – Panduan Lengkap](./create-new-workbook-java-complete-guide/)
+Pelajari cara membuat buku kerja Excel baru secara programatis menggunakan Aspose.Cells untuk Java dengan contoh kode lengkap.
+
 Pelajari cara membuat dan menggabungkan buku kerja Excel secara efisien menggunakan Aspose.Cells untuk Java dengan panduan lengkap ini. Sederhanakan operasi buku kerja Anda hari ini.
 
 ### [Panduan Membuat dan Menyimpan Buku Kerja Excel Menggunakan Aspose.Cells di Java](./create-save-excel-workbook-aspose-cells-java/)
@@ -224,6 +227,8 @@ Pelajari cara menyimpan buku kerja baru di Java serta menyalin rentang data anta
 Pelajari cara membuat file Excel, menambahkan properti khusus, dan menyimpannya dalam format XLSB menggunakan Aspose.Cells untuk Java.
 ### [Cara Menambahkan Properti Kustom di Excel Menggunakan Java – Panduan Lengkap](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
 Panduan langkah demi langkah untuk menambahkan properti kustom ke file Excel menggunakan Aspose.Cells untuk Java.
+### [Gunakan Fungsi Lambda Java untuk Membuat Contoh Buku Kerja Excel](./use-lambda-function-java-to-create-excel-workbook-example/)
+Pelajari cara menggunakan fungsi lambda di Java untuk membuat buku kerja Excel secara programatis dengan contoh kode lengkap.
 
 ## Sumber Daya Tambahan
 

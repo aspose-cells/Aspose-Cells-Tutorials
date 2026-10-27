@@ -241,6 +241,9 @@ Naučte se, jak snadno vytvářet a ukládat soubory ODS pomocí Aspose.Cells pr
 ### [Jak vytvořit a uložit sešit aplikace Excel jako SVG pomocí Aspose.Cells pro Javu](./create-save-workbook-svg-aspose-cells-java/)
 Naučte se, jak automatizovat vytváření sešitů Excelu a exportovat je jako soubory SVG pomocí Aspose.Cells pro Javu. Pro bezproblémovou integraci postupujte podle tohoto podrobného návodu.
 
+### [Vytvoření nového sešitu v Javě – Kompletní průvodce](./create-new-workbook-java-complete-guide/)
+Naučte se, jak vytvořit nový sešit v Javě pomocí Aspose.Cells s podrobnými ukázkami kódu.
+
 ### [Detekce formátu šifrovaných souborů pomocí Aspose.Cells v Javě](./detect-encrypted-file-format-aspose-cells-java/)
 Výukový program pro Aspose.Words v Javě
 
@@ -502,6 +505,8 @@ Naučte se, jak programově vytvořit sešit XLSB v Javě pomocí Aspose.Cells s
 Naučte se, jak vytvořit soubor Excel v Javě, přidat vlastní vlastnost a uložit jej ve formátu XLSB pomocí Aspose.Cells.
 ### [Jak přidat vlastní vlastnost v Excelu pomocí Javy – Kompletní průvodce](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
 Naučte se, jak pomocí Aspose.Cells pro Javu přidat vlastní vlastnost do souboru Excel a spravovat ji programově.
+### [Použití lambda funkce v Javě k vytvoření sešitu Excel – příklad](./use-lambda-function-java-to-create-excel-workbook-example/)
+Naučte se, jak pomocí lambda funkcí v Javě vytvořit sešit Excel s praktickým příkladem kódu.
 
 ## Další zdroje
 

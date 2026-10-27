@@ -70,6 +70,8 @@ Skapa en ny arbetsbok, lägg till en anpassad egenskap och spara som XLSB med As
 Lär dig hur du tar bort tabellrubriker i Excel med Java, med kodexempel och steg-för-steg-instruktioner.
 ### [Expandera array i Excel med Java – Steg‑för‑steg‑guide](./expand-array-in-excel-with-java-step-by-step-guide/)
 Lär dig hur du expanderar en array i Excel med Java, med kodexempel och tydliga steg-för-steg-instruktioner.
+### [Ta bort autofilter från Excel med Java – Komplett guide](./remove-autofilter-from-excel-with-java-complete-guide/)
+Lär dig hur du tar bort autofilter i Excel-filer med Aspose.Cells för Java, steg-för-steg med kodexempel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

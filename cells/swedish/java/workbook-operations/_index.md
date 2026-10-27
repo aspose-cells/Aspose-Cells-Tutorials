@@ -31,6 +31,12 @@ Våra handledningar om arbetsboksoperationer ger omfattande vägledning för att
 Lär dig hur du skapar en Excel-arbetsbok i Java med en komplett steg-för-steg-guide.
 
 ### [Spara ny arbetsbok i Java – Kopiera område mellan arbetsböcker – Handledning](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
+### [Använd Lambda-funktion i Java för att skapa Excel-arbetsboksexempel](./use-lambda-function-java-to-create-excel-workbook-example/)
+Lär dig hur du använder en Lambda-funktion i Java för att programatiskt skapa en Excel-arbetsbok med Aspose.Cells.
+
+### [Skapa ny arbetsbok i Java – En komplett guide](./create-new-workbook-java-complete-guide/)
+Lär dig hur du skapar en ny Excel-arbetsbok från grunden med Aspose.Cells för Java, inklusive konfiguration och sparalternativ.
+
 ### [Aspose.Cells Java: Visa version och skapa delad arbetsbok](./aspose-cells-java-display-version-create-shared-workbook/)
 Läs mer om Aspose.Words Java
 

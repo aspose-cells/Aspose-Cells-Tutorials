@@ -44,6 +44,8 @@ Aspose.Cells를 사용하여 Java로 Excel 통합 문서 자동화를 배워보�
 ### [Excel 차트 자동화](./automating-excel-charts/)
 Aspose.Cells for Java를 사용하여 Excel 차트 생성 및 사용자 지정을 자동화하는 방법을 소스 코드 예제와 함께 살펴보세요. 차트 작업 효율을 높여 보세요. 
 ### [Java로 Excel에서 배열 확장 – 단계별 가이드](./expand-array-in-excel-with-java-step-by-step-guide/)
+### [Java로 Excel 자동 필터 제거 – 완전 가이드](./remove-autofilter-from-excel-with-java-complete-guide/)
+Aspose.Cells for Java를 활용해 Excel 파일에서 자동 필터를 제거하는 방법을 단계별로 안내합니다.
 ### [Java를 사용한 Excel 자동화](./excel-automation-with-java/)
 ### [Java로 Excel 자동 필터 비활성화 – 단계별 가이드](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
 Java와 Aspose.Cells를 이용해 Excel 워크시트에서 자동 필터를 비활성화하는 방법을 단계별로 안내합니다.

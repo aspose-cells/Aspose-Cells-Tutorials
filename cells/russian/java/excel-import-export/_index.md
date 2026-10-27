@@ -58,6 +58,8 @@
 Узнайте, как экспортировать данные Excel в JSON с помощью Aspose.Cells для Java. Следуйте этому пошаговому руководству с исходным кодом для бесшовного преобразования.
 ### [Экспорт JSON в Excel с Java — Полное пошаговое руководство](./export-json-to-excel-with-java-complete-step-by-step-guide/)
 Узнайте, как экспортировать данные JSON в Excel с помощью Aspose.Cells для Java. Пошаговое руководство с примером кода.
+### [Вставка JSON в Excel с Aspose Cells – Полное руководство на Java](./insert-json-into-excel-with-aspose-cells-full-java-guide/)
+Узнайте, как вставлять данные JSON в файлы Excel с помощью Aspose.Cells для Java. Пошаговое руководство с примером кода.
 ### [Проверка данных импорта Excel](./excel-import-data-validation/)
 Узнайте, как реализовать проверку данных импорта Excel с помощью Aspose.Cells для Java с помощью этого всеобъемлющего пошагового руководства. Обеспечьте точность данных и улучшите пользовательский опыт. 
 
@@ -169,6 +171,12 @@
 
 ### [Экспорт JSON в Excel с Aspose.Cells в Java](./export-json-to-excel-with-aspose-cells-in-java/)
 Узнайте, как экспортировать данные из JSON в файл Excel с помощью Aspose.Cells для Java. Пошаговое руководство с примером кода.
+### [Как экспортировать PPTX из Excel — Полное руководство на Java](./how-to-export-pptx-from-excel-complete-java-guide/)
+Узнайте, как экспортировать презентацию PPTX из Excel с помощью Aspose.Cells для Java. Пошаговое руководство с примерами кода.
+### [Экспорт Excel в TXT с Java — Полное пошаговое руководство](./export-excel-to-txt-with-java-complete-step-by-step-guide/)
+Узнайте, как экспортировать данные из Excel в формат TXT с помощью Aspose.Cells для Java. Пошаговое руководство с примерами кода.
+### [Установить пользовательский разделитель ячеек – экспорт таблицы Excel в TXT](./set-custom-cell-separator-export-excel-table-to-txt/)
+Узнайте, как задать собственный разделитель ячеек при экспорте таблицы Excel в текстовый файл TXT с помощью Aspose.Cells для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

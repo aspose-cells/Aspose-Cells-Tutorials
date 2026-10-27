@@ -147,6 +147,14 @@ Aspose.Cells for Java ile Smart Marker kullanarak sipariş verilerini XLSX dosya
 Aspose.Cells for Java ile DataTable'ı özel biçimlendirme uygulayarak Excel'e nasıl aktaracağınızı adım adım öğrenin.
 ### [Excel'den Word Oluşturma – XLSX Dışa Aktarma Tam Kılavuzu](./create-word-from-excel-complete-guide-to-exporting-xlsx/)
 Aspose.Cells for Java kullanarak Excel dosyasından Word belgesi oluşturmayı ve XLSX'i dışa aktarmayı adım adım öğrenin.
+### [Excel'den PPTX'e Aktarma – Tam Java Kılavuzu](./how-to-export-pptx-from-excel-complete-java-guide/)
+Aspose.Cells for Java kullanarak Excel'den PPTX dosyalarına nasıl aktarım yapacağınızı öğrenin. Adım adım örneklerle süreç basitleşir.
+### [JSON'u Excel'e Aspose Cells ile Eklemek – Tam Java Kılavuzu](./insert-json-into-excel-with-aspose-cells-full-java-guide/)
+Aspose.Cells for Java kullanarak JSON verilerini Excel'e nasıl ekleyeceğinizi öğrenin. Adım adım kod örnekleriyle süreci keşfedin.
+### [Java ile Excel'i TXT'ye Aktarma – Tam Adım‑Adım Kılavuz](./export-excel-to-txt-with-java-complete-step-by-step-guide/)
+Aspose.Cells for Java kullanarak Excel dosyalarını TXT formatına nasıl dışa aktaracağınızı öğrenin. Kaynak kodlu adım adım kılavuz.
+### [Özel Hücre Ayırıcı Ayarla – Excel Tablosunu TXT'ye Dışa Aktar](./set-custom-cell-separator-export-excel-table-to-txt/)
+Aspose.Cells for Java kullanarak Excel tablosunu TXT formatına özel hücre ayırıcılarıyla dışa aktarmayı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

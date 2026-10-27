@@ -67,6 +67,8 @@ Hướng dẫn tạo sổ làm việc mới, thêm thuộc tính tùy chỉnh v�
 ### [Mở rộng mảng trong Excel bằng Java – Hướng dẫn từng bước](./expand-array-in-excel-with-java-step-by-step-guide/)
 Hướng dẫn chi tiết cách mở rộng mảng dữ liệu trong Excel bằng Java sử dụng Aspose.Cells, kèm ví dụ mã nguồn thực tế.
 ### [Cách Xóa Tiêu Đề Bảng trong Excel bằng Java – Hướng Dẫn Đầy Đủ](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+### [Xóa Autofilter khỏi Excel bằng Java – Hướng dẫn đầy đủ](./remove-autofilter-from-excel-with-java-complete-guide/)
+Hướng dẫn chi tiết cách loại bỏ Autofilter trong tệp Excel bằng Aspose.Cells for Java, kèm ví dụ mã nguồn thực tế.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

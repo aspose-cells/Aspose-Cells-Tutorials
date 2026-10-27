@@ -249,6 +249,11 @@ Leer hoe u tekst vet maakt bij het exporteren van Excel-bestanden met Aspose.Cel
 
 ### [Hoe stijlen toe te passen bij het converteren van DataTable naar Excel – volledige Java-gids](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 Leer hoe u met Aspose.Cells voor Java stijlen toepast tijdens het omzetten van een DataTable naar een Excel-bestand.
+### [Stijlvol Excel-werkboek maken in Java: een complete handleiding](./create-styled-excel-workbook-in-java-complete-guide/)
+Leer hoe u een gestileerd Excel-werkboek maakt met Aspose.Cells voor Java, inclusief codevoorbeelden en best practices.
+
+### [Hoe WRAPCOLS te gebruiken in Aspose.Cells – Complete Java-voorbeeld](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Leer hoe u de WRAPCOLS‑functie in Aspose.Cells voor Java gebruikt om tekst over kolommen te laten wikkelen. Deze tutorial biedt stapsgewijze codevoorbeelden.
 
 ## Aanvullende bronnen
 

@@ -158,6 +158,14 @@ Aspose.Cells for Javaを使用して、数式を保持したままExcelセルを
 Aspose.Cells for Java を使用して、Excel データから Word 文書を作成し、XLSX をエクスポートする手順をステップバイステップで解説します。
 ### [Excel から HTML にフォントを埋め込む方法 – 完全ガイド](./how-to-embed-fonts-in-html-from-excel-full-guide/)
 Aspose.Cells for Java を使用して、Excel から HTML にフォントを埋め込み、正確な表示を実現する方法を学びましょう。
+### [Excel から PPTX をエクスポートする完全 Java ガイド](./how-to-export-pptx-from-excel-complete-java-guide/)
+Aspose.Cells for Java を使用して、Excel データを PPTX 形式にエクスポートする手順をステップバイステップで解説します。実用的なコード例で学びましょう。
+### [Aspose Cells で JSON を Excel に挿入する完全 Java ガイド](./insert-json-into-excel-with-aspose-cells-full-java-guide/)
+Aspose.Cells for Java を使って JSON データを Excel に挿入する方法をステップバイステップで解説します。実用的なコード例で学びましょう。
+### [ExcelからTXTへのエクスポート（Java）完全ステップバイステップガイド](./export-excel-to-txt-with-java-complete-step-by-step-guide/)
+Aspose.Cells for Javaを使用して、ExcelをTXT形式にエクスポートする方法を学びましょう。実用的なコード例付きのステップバイステップガイドです。
+### [カスタムセル区切りの設定 – ExcelテーブルをTXTへエクスポート](./set-custom-cell-separator-export-excel-table-to-txt/)
+Aspose.Cells for Java を使い、Excel テーブルのエクスポート時にカスタムセル区切り文字を設定する方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

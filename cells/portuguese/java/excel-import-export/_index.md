@@ -145,6 +145,14 @@ Aprenda a aplicar estilos ao Excel importando DataTable com formatação persona
 Aprenda a exportar fórmulas do Excel como texto usando Aspose.Cells para Java. Guia passo a passo com código‑fonte para conversão simplificada.
 ### [Como Incorporar Fontes em HTML a partir do Excel – Guia Completo](./how-to-embed-fonts-in-html-from-excel-full-guide/)
 Aprenda a incorporar fontes em arquivos HTML a partir de planilhas Excel usando Aspose.Cells para Java. Guia passo a passo com código‑fonte.
+### [Como Exportar PPTX do Excel – Guia Java Completo](./how-to-export-pptx-from-excel-complete-java-guide/)
+Aprenda a exportar arquivos PPTX a partir do Excel usando Aspose.Cells para Java. Guia passo a passo com código-fonte para conversão simplificada.
+### [Inserir JSON no Excel com Aspose Cells – Guia Java Completo](./insert-json-into-excel-with-aspose-cells-full-java-guide/)
+Aprenda a inserir dados JSON em planilhas Excel usando Aspose.Cells para Java. Guia passo a passo com código-fonte para integração simplificada.
+### [Exportar Excel para TXT com Java – Guia Completo Passo a Passo](./export-excel-to-txt-with-java-complete-step-by-step-guide/)
+Aprenda a exportar arquivos do Excel para TXT usando o Aspose.Cells para Java. Guia passo a passo com código-fonte para conversão simplificada.
+### [Definir Separador de Célula Personalizado – Exportar Tabela do Excel para TXT](./set-custom-cell-separator-export-excel-table-to-txt/)
+Aprenda a definir um separador de célula personalizado ao exportar tabelas do Excel para TXT usando Aspose.Cells para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -248,6 +248,11 @@ Dowiedz się, jak programowo ustawić pogrubioną czcionkę w eksportowanych pli
 
 ### [Ustaw niestandardowy format liczbowy w Excelu przy użyciu Javy – kompletny przewodnik](./set-custom-number-format-in-excel-with-java-complete-guide/)
 Dowiedz się, jak ustawić własny format liczbowy w plikach Excel przy użyciu Aspose.Cells for Java. Przewodnik krok po kroku z przykładami kodu.
+### [Utwórz stylowany skoroszyt programu Excel w Javie – kompletny przewodnik](./create-styled-excel-workbook-in-java-complete-guide/)
+Dowiedz się, jak programowo tworzyć i stylować skoroszyty Excel w Javie, wykorzystując Aspose.Cells, z przykładami kodu i wskazówkami optymalizacji.
+
+### [Jak używać WRAPCOLS w Aspose.Cells – kompletny przykład w Javie](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Dowiedz się, jak zastosować metodę WRAPCOLS w Aspose.Cells for Java, aby automatycznie zawijać tekst w komórkach Excela.
 
 ## Dodatkowe zasoby
 

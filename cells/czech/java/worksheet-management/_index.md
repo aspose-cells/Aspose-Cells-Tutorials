@@ -111,6 +111,8 @@ Naučte se, jak snadno zobrazit skryté řádky a sloupce v souborech Excelu pom
 
 ### [Jak vytvořit duplicitní detailní listy v Aspose.Cells pro Javu](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
 Naučte se, jak programově vytvořit duplicitní detailní listy v Excelu pomocí Aspose.Cells pro Javu.
+### [Vytvoření pracovních listů ze seznamu pomocí Aspose.Cells pro Javu – Kompletní průvodce](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Naučte se, jak pomocí Aspose.Cells pro Javu vytvořit více pracovních listů ze seznamu dat.
 
 ## Další zdroje
 
