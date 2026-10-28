@@ -88,6 +88,8 @@ Aspose.Cells for Java を使用して、新しいワークブックを作成し�
 ### [Java で Aspose.Cells を使ってピボットテーブルをコピーする完全ガイド](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
 Aspose.Cells for Java を利用して、既存のピボットテーブルをコピーし、データ分析を効率化する方法を詳しく解説します。
 ### [Javaでピボットテーブルをコピーする – Aspose.Cellsを使用したステップバイステップガイド](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
+### [Aspose.Cellsでピボットをコピーする – 範囲をブックにコピー](./how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook/)
+Aspose.Cells を使用して、ピボットテーブルの範囲を別のワークブックにコピーする方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

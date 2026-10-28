@@ -78,6 +78,8 @@ Lär dig hur du skapar en ny arbetsbok och kopierar en pivottabell med Aspose.Ce
 Lär dig hur du kopierar en pivottabell i Java med Aspose.Cells, inklusive steg-för-steg-instruktioner och kodexempel.
 ### [Kopiera pivottabell i Java – steg‑för‑steg guide med Aspose.Cells](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
 Lär dig hur du kopierar en pivottabell i Java med Aspose.Cells i en detaljerad steg‑för‑steg guide.
+### [Hur man kopierar pivottabell i Aspose.Cells – kopiera område till arbetsbok](./how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook/)
+Lär dig hur du kopierar en pivottabell och dess område till en annan arbetsbok med Aspose.Cells för Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

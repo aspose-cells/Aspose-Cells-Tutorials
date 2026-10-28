@@ -78,6 +78,8 @@ Aprenda a crear un nuevo libro y copiar una tabla dinámica en Java con Aspose.C
 Aprenda a copiar tablas dinámicas en Java usando Aspose.Cells, con ejemplos paso a paso para duplicar y reutilizar informes.
 ### [Copiar tabla dinámica en Java – guía paso a paso usando Aspose.Cells](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
 Aprenda a copiar tablas dinámicas en Java con Aspose.Cells mediante una guía paso a paso.
+### [Cómo copiar una tabla dinámica en Aspose.Cells – copiar rango a libro de trabajo](./how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook/)
+Aprenda a copiar una tabla dinámica a otro libro de trabajo con Aspose.Cells para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

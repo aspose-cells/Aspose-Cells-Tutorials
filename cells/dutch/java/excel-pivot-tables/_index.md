@@ -76,6 +76,7 @@ Leer hoe u een nieuw werkboek maakt en een bestaande draaitabel kopieert met Asp
 Leer hoe u een draaitabel in Java kunt kopiëren met Aspose.Cells, inclusief codevoorbeelden en best practices.
 ### [Kopieer draaitabel in Java – stapsgewijze handleiding met Aspose.Cells](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
 Leer hoe u een draaitabel in Java kunt kopiëren met Aspose.Cells, stap voor stap uitgelegd.
+### [Hoe een draaitabel te kopiëren in Aspose.Cells – bereik naar werkmap kopiëren](./how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

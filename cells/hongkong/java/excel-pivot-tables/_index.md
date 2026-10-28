@@ -40,7 +40,7 @@ Aspose.Cells for Java 可讓您自動化資料透視表操作並將其無縫整�
 了解如何使用 Aspose.Cells for Java 在資料透視表中建立計算欄位。使用 Excel 中的自訂計算來增強您的資料分析。
 ### [刷新資料透視表數據](./refreshing-pivot-table-data/)
 了解如何在 Aspose.Cells for Java 中重新整理資料透視表資料。輕鬆保持您的數據為最新。
-### [自訂資料透視表樣式](./customizing-pivot-table-styles/)
+### [自訂資料透星表樣式](./customizing-pivot-table-styles/)
 了解如何在 Aspose.Cells for Java API 中自訂資料透視表樣式。輕鬆建立具有視覺吸引力的資料透視表。
 ### [如何在 Java 中複製資料透視表 – 完整 Aspose.Cells 指南](./how-to-copy-pivot-table-in-java-complete-aspose-cells-guide/)
 了解如何使用 Aspose.Cells for Java 複製現有的資料透視表，快速生成相同結構的報表，提升開發效率。
@@ -75,6 +75,8 @@ Aspose.Cells for Java 可讓您自動化資料透視表操作並將其無縫整�
 ### [使用 Aspose.Cells 在 Java 中複製資料透視表 – 完整指南](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
 了解如何使用 Aspose.Cells for Java 複製資料透視表，快速建立相同結構的報表，提升工作效率。
 ### [在 Java 中複製資料透視表 – 使用 Aspose.Cells 的逐步指南](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
+### [如何在 Aspose.Cells 中複製資料透視表 – 複製範圍到工作簿](./how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook/)
+了解如何使用 Aspose.Cells 複製資料透視表的範圍到另一個工作簿。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
