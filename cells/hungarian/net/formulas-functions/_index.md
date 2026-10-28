@@ -102,6 +102,18 @@ Ismerje meg, hogyan adhatja meg Excel-fájljai nyelvét az Aspose.Cells .NET has
 ### [Excel Power Query képletek frissítése az Aspose.Cells .NET segítségével](./update-power-query-formulas-aspose-cells-net)
 Ismerje meg, hogyan frissítheti programozottan a Power Query-képleteket az Excel-munkafüzetekben az Aspose.Cells for .NET használatával. Fő adatforrás-kezelés dinamikus jelentéskészítéshez.
 
+### [Hogyan használjuk a WRAPCOLS-t C#-ban – Excel munkafüzet létrehozása wrap függvényekkel](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
+
+### [Excel munkafüzet létrehozása C# – Lambda, SEQUENCE és EXPAND útmutató](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+Tanulja meg, hogyan hozhat létre Excel munkafüzetet C#-ban Lambda, SEQUENCE és EXPAND függvények használatával.
+### [Excel munkafüzet létrehozása EXPAND képlettel – Teljes útmutató](./create-excel-workbook-with-expand-formula-complete-guide/)
+Ismerje meg, hogyan hozhat létre Excel munkafüzetet az EXPAND képlettel, és automatizálhatja a dinamikus adatbővítést .NET-ben.
+### [Hogyan használjuk a SEQUENCE függvényt C#-ban – Excel munkafüzet létrehozása](./how-to-use-sequence-in-c-create-excel-workbook/)
+Tanulja meg, hogyan hozhat létre Excel munkafüzetet C#-ban a SEQUENCE függvény használatával.
+
+### [Tömbképlet írása C#-ban – Teljes programozási útmutató](./write-array-formula-in-c-complete-programming-guide/)
+Tanulja meg, hogyan írjon tömbképleteket C#-ban az Aspose.Cells for .NET segítségével.
+
 ## Az Excel képlettípusok megértése
 
 Az Excel-képletek különféle formákban léteznek, mindegyik egyedi jellemzőkkel rendelkezik, amelyeket az Aspose.Cells képes kezelni:
@@ -160,6 +172,8 @@ képlet robusztus megvalósításához:
 4. **Dokumentáció**: Az összetett képletszerkezetek egyértelmű dokumentációjának fenntartása
 
 Az Aspose.Cells for .NET ezen képletképességeinek elsajátításával kifinomult számítási motorokat hozhat létre táblázataiban, amelyek pontos, dinamikus eredményeket biztosítanak az Excel telepítése nélkül.
+### [Hogyan számítsuk ki a kotangenset Excelben C#-val – Munkafüzet létrehozása, EXPAND használata és mentés](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
+Tanulja meg, hogyan számíthatja ki a kotangens függvényt Excelben C#-ban, munkafüzet létrehozásával, EXPAND függvény használatával és mentéssel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

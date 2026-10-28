@@ -50,6 +50,10 @@ Vylepšete své dokumenty v Excelu pomocí Aspose.Cells pro .NET. Naučte se pou
 Zjistěte, jak používat předdefinované styly a formátování v Excelu s Aspose.Cells pro .NET. Snadno vytvářejte úžasné tabulky.
 ### [Formátování pomocí funkce Získat styl nebo Nastavit styl v Excelu](./formatting-with-get-style-or-set-style/)
 Naučte se v tomto jednoduchém průvodci, jak formátovat buňky v Excelu pomocí Aspose.Cells pro .NET. Zvládněte styly a ohraničení pro přesnou prezentaci dat.
+### [Jak vytvořit Excel sešit v C# s vlastním formátováním a uložit jako XLSX](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
+Naučte se vytvořit Excel sešit v C# s vlastním formátováním a uložit jej jako soubor XLSX pomocí Aspose.Cells.
+### [Vytvoření stylu buňky v C# – Jak aplikovat styl na buňku a zarovnat text na střed](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
+Naučte se v tomto tutoriálu, jak vytvořit styl buňky v C# pomocí Aspose.Cells pro .NET a zarovnat text na střed.
 ### [Práce se styly a formátováním objektů](./working-with-styles-and-formatting-objects/)
 Naučte se, jak formátovat excelové listy pomocí Aspose.Cells pro .NET pomocí podrobného návodu a osvojte si styly jako profesionál.
 ### [Přidání ohraničení buněk v Excelu](./adding-borders-to-cells/)
@@ -72,6 +76,10 @@ Naučte se, jak svisle zarovnat text v buňkách aplikace Excel pomocí Aspose.C
 Transformujte směr textu v Excelu pomocí Aspose.Cells pro .NET. Postupujte podle našeho podrobného návodu a snadno otočte a upravte text.
 ### [Zalamování dlouhého textu v buňkách v Excelu](./wrapping-long-text-within-cells/)
 Naučte se v tomto snadno srozumitelném návodu, jak zalamovat dlouhý text v buňkách aplikace Excel pomocí Aspose.Cells pro .NET. Transformujte své tabulky bez námahy.
+### [Jak stylovat sloupce v Excelu pomocí C# – importovat DataTable](./how-to-style-columns-in-excel-with-c-import-datatable/)
+Naučte se stylovat sloupce v Excelu pomocí Aspose.Cells pro .NET a importovat DataTable.
+### [Použití stylů buněk s Aspose.Cells – Import DataTable s formátováním](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+Naučte se, jak importovat DataTable do Excelu a aplikovat styly buněk pomocí Aspose.Cells pro .NET.
 ### [Vytvořit soubor Excel v C# – stylovat buňky a nastavit formát měny](./create-excel-file-c-style-cells-and-set-currency-format/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

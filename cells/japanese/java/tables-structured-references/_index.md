@@ -38,8 +38,14 @@ Aspose.Cells for Javaを使用してExcelリストオブジェクトを自動化
 ### [Aspose.Cells Java: セルを使った Excel テーブル操作の習得](./aspose-cells-java-manipulate-excel-tables/)
 Aspose.Cells for Javaを使ってExcelのテーブルを操作する方法を学びましょう。このガイドでは、テーブルデータのセットアップ、アクセス、変更、そして効率的な保存方法を解説します。
 
+### [JavaでExcelテーブルを作成する：ステップバイステップガイド](./create-excel-table-in-java-step-by-step-guide/)
+Aspose.Cells for Java を使用して、Java で Excel テーブルを作成する手順を詳細に解説します。初心者でも簡単に実装可能です。
+
 ### [Aspose.Cells Java を使用して Excel テーブルを範囲に変換する: ステップバイステップ ガイド](./convert-excel-tables-ranges-aspose-cells-java/)
 Aspose.Cells for Javaを使用して、Excelのテーブルから範囲への変換を自動化する方法を学びましょう。この包括的なガイドに従って、効率的なデータ管理を実現しましょう。
+
+### [Aspose.Cells for Java を使用して Excel テーブルを安全に名前変更する方法](./how-to-safely-rename-excel-table-with-aspose-cells-java/)
+Aspose.Cells for Java でテーブル名を安全に変更し、参照やデータ整合性を保つ手順を解説します。
 
 ### [Aspose.Cells for Java を使用して Excel で名前付き範囲を作成し、スタイルを設定する: 完全ガイド](./create-style-named-range-excel-aspose-cells-java/)
 Aspose.Cells for Java を使用して、Excel で名前付き範囲を作成し、スタイルを設定する方法を学びましょう。このステップバイステップガイドで、データ管理を強化しましょう。
@@ -56,7 +62,8 @@ Aspose.Cells for Javaを使ってExcelのテキストボックスを管理する
 ### [Aspose.Cells Java をマスターする: Excel データ操作用の名前付き範囲内のセルを識別する](./master-aspose-cells-java-identify-named-range-cells/)
 Aspose.Cells を Java で使用して、Excel スプレッドシート内の名前付き範囲内のセルを効率的に識別および操作する方法を学習します。
 
-
+### [Aspose.Cells for Java を使用して Excel のテーブル名を設定する: 完全ガイド](./set-table-name-in-excel-with-java-complete-guide/)
+Aspose.Cells for Java を使い、Excel テーブルに名前を付ける方法をステップバイステップで解説します。データ管理と参照が容易になります。
 
 ## 追加リソース
 

@@ -39,9 +39,13 @@
 | العنوان | الوصف |
 | --- | --- |
 | [نسخ ورقة عمل Excel من مصنف آخر](./excel-copy-worksheet-from-other-workbook/) |تعرف على كيفية نسخ ورقة عمل من مصنف Excel إلى آخر باستخدام Aspose.Cells لـ .NET من خلال هذا الدليل خطوة بخطوة. |  
-| [نسخ ورقة عمل Excel](./excel-copy-worksheet/) تعلّم كيفية نسخ ورقة عمل Excel باستخدام Aspose.Cells لـ .NET من خلال هذا الدليل السهل والبسيط. مثالي لمطوري .NET الذين يرغبون في أتمتة مهام Excel.  
-| [نسخ أوراق العمل بين المصنفات في Excel](./excel-copy-worksheets-between-workbooks/) | تعلّم كيفية نسخ أوراق العمل بين مصنفات Excel باستخدام Aspose.Cells لـ .NET. دليل خطوة بخطوة مع أمثلة برمجية لتبسيط إدارة جداول البيانات. |  
-| [نقل ورقة عمل Excel](./excel-move-worksheet/) | تعلّم كيفية نقل أوراق العمل في Excel باستخدام Aspose.Cells لـ .NET في دليلنا خطوة بخطوة. أتقن فن برمجة Excel. |  
+| [نسخ ورقة عمل Excel](./excel-copy-worksheet/) تعلّم كيفية نسخ ورقة عمل Excel باستخدام Aspose.Cells لـ .NET من خلال هذا الدليل السهل والبسيط. مثالي لمطوري .NET الذين يرغبون في أتمتة مهام Excel. |
+| [نسخ أوراق العمل بين المصنفات في Excel](./excel-copy-worksheets-between-workbooks/) | تعلّم كيفية نسخ أوراق العمل بين مصنفات Excel باستخدام Aspose.Cells لـ .NET. دليل خطوة بخطوة مع أمثلة برمجية لتبسيط إدارة جداول البيانات. |
+| [نقل ورقة عمل Excel](./excel-move-worksheet/) | تعلّم كيفية نقل أوراق العمل في Excel باستخدام Aspose.Cells لـ .NET في دليلنا خطوة بخطوة. أتقن فن برمجة Excel. |
+| [إنشاء مصنف جديد – نسخ ورقة عمل مع جدول محوري](./create-new-workbook-how-to-copy-a-worksheet-with-a-pivot-tab/) |تعرف على طريقة إنشاء مصنف جديد ونسخ ورقة عمل تحتوي على جدول محوري باستخدام Aspose.Cells لـ .NET. |
+| [كيفية نسخ ورقة عمل في C# باستخدام Aspose.Cells – دليل كامل](./how-to-copy-worksheet-in-c-with-aspose-cells-complete-guide/) | دليل شامل يوضح خطوة بخطوة كيفية نسخ ورقة عمل في C# باستخدام مكتبة Aspose.Cells. |  
+| [نسخ دفتر عمل في C# – تصدير جدول إلى ورقة عمل أخرى](./copy-workbook-in-c-export-table-to-another-worksheet/) | تعلم كيفية نسخ دفتر عمل كامل وتصدير جدول إلى ورقة عمل أخرى باستخدام Aspose.Cells لـ .NET. |
+| [إنشاء أوراق تفاصيل مكررة في Excel باستخدام C#](./create-duplicated-detail-sheets-in-excel-using-c/) | تعلم كيفية إنشاء أوراق تفاصيل مكررة في Excel باستخدام C# مع Aspose.Cells. |
 | [نسخ ورقة عمل مع Pivot في C# باستخدام Aspose.Cells](./copy-worksheet-with-pivot-in-c-using-aspose-cells/) | تعلم كيفية نسخ ورقة عمل تحتوي على Pivot باستخدام Aspose.Cells في C# خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

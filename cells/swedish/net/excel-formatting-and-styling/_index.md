@@ -41,7 +41,7 @@ Textjustering är avgörande för läsbarheten, och du skulle bli förvånad öv
 
 ## Radbryta lång text i celler
 
-Har du någonsin upplevt det där frustrerande ögonblicket när en cell är för liten för att visa all text? Istället för att ändra storlek på cellen eller förlora värdefull information, tänk om du helt enkelt kunde radbryta texten? Detta gör inte bara dina data läsbara utan säkerställer också att ditt kalkylblad behåller ett snyggt utseende. Kolla in vår steg-för-steg-guide om [radbryta lång text i celler](./wrapping-long-text-within-cells/)Du lär dig hur du gör dina data lättlästa utan att det blir rörigt i layouten.
+Har du någonsin upplevt det där frustrerande ögonblicket när en cell är för liten för att visa all text? Istället för att ändra storlek på cellen eller förlora värdefull information, tänk om du helt enkelt kunde radbryda texten? Detta gör inte bara dina data läsbara utan säkerställer också att ditt kalkylblad behåller ett snyggt utseende. Kolla in vår steg-för-steg-guide om [radbryta lång text i celler](./wrapping-long-text-within-cells/)Du lär dig hur du gör dina data lättlästa utan att det blir rörigt i layouten.
 
 ## Handledningar för formatering och styling i Excel
 ### [Använda gradientfyllningseffekter i Excel](./applying-gradient-fill-effects/)
@@ -52,6 +52,8 @@ Upptäck hur du använder fördefinierade stilar och formatering i Excel med Asp
 Lär dig hur du formaterar Excel-celler med Aspose.Cells för .NET i den här enkla guiden. Bemästra stilar och ramar för exakt datapresentation.
 ### [Arbeta med stilar och formatera objekt](./working-with-styles-and-formatting-objects/)
 Lär dig hur du formaterar Excel-ark med Aspose.Cells för .NET genom en steg-för-steg-guide och bemästra stilar som ett proffs.
+### [Tillämpa cellstilar med Aspose.Cells – Importera DataTable med formatering](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+Lär dig hur du importerar en DataTable till Excel med Aspose.Cells och behåller cellstilar och formatering.
 ### [Lägga till ramar till celler i Excel](./adding-borders-to-cells/)
 Lär dig hur du lägger till snygga ramar runt celler i Excel med Aspose.Cells för .NET. Följ den här steg-för-steg-guiden för tydliga och engagerande kalkylblad.
 ### [Tillämpa kantlinjer på cellområde i Excel](./applying-borders-to-range-of-cells/)
@@ -72,6 +74,9 @@ Lär dig hur du justerar text vertikalt i Excel-celler med hjälp av Aspose.Cell
 Omvandla textriktning i Excel med Aspose.Cells för .NET. Följ vår steg-för-steg-guide för att enkelt rotera och justera text.
 ### [Radbryta lång text i celler i Excel](./wrapping-long-text-within-cells/)
 Lär dig hur du radbryter lång text i Excel-celler med Aspose.Cells för .NET i den här lättförståeliga guiden. Förvandla dina kalkylblad utan ansträngning.
+### [Styling av kolumner i Excel med C# – Importera DataTable](./how-to-style-columns-in-excel-with-c-import-datatable/)
+### [Skapa cellstil i C# – Hur man tillämpar stil på en cell och centrerar text](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
+### [Hur man skapar Excel-arbetsbok i C# med anpassad formatering och sparar som XLSX](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
 ### [Skapa Excel-fil i C# – formatera celler och ange valutformat](./create-excel-file-c-style-cells-and-set-currency-format/)
 Lär dig hur du skapar en Excel-fil i C#, formaterar celler och ställer in valutformat med Aspose.Cells för .NET.
 

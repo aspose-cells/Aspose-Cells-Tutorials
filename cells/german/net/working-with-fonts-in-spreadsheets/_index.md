@@ -38,6 +38,8 @@ Erfahren Sie in diesem leicht verständlichen Tutorial, wie Sie mit Aspose.Cells
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Standardschriftarten für PDF-Speicheroptionen festlegen, um sicherzustellen, dass Ihre Dokumente jedes Mal perfekt aussehen.
 ### [Festlegen von Schriftarten für die Arbeitsmappendarstellung](./specify-fonts-for-workbook-rendering/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET benutzerdefinierte Schriftarten für die Arbeitsmappendarstellung festlegen. Eine Schritt-für-Schritt-Anleitung für eine perfekte PDF-Ausgabe.
+### [Schriftart der Textbox in einem Raster ändern – Komplett‑Anleitung Schritt für Schritt](./change-textbox-font-in-a-grid-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET die Schriftart von Textfeldern in einem Raster ändern – eine vollständige Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

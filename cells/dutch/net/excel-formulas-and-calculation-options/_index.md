@@ -25,6 +25,12 @@ Een van de eenvoudigste, maar toch effectieve manieren om je Excel-formules in d
 ## Formules programmatisch berekenen  
 Heb je er ooit over nagedacht hoe gaaf het zou zijn om je Excel-berekeningen te automatiseren? Nou, met Aspose.Cells voor .NET kan deze droom werkelijkheid worden! Stel je voor dat je gegevens voor berekeningen verstuurt terwijl je van je koffie nipt; dat is het mooie van het automatiseren van Excel-taken. Onze tutorial over [Formules in Excel programmatisch berekenen](./calculating-formulas/) Maakt je wegwijs in de eenvoudige technieken die je automatisering naar een hoger niveau kunnen tillen. Het gaat niet alleen om tijd besparen; het gaat om slimmer werken, niet harder!
 
+### [Excel-werkmap maken met formules – volledige stapsgewijze handleiding](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+Leer hoe u een Excel-werkmap met formules maakt met Aspose.Cells voor .NET in deze uitgebreide stapsgewijze tutorial.
+
+## Formules eenmalig programmatisch berekenen in Excel
+Leer hoe u Excel-formules programmatisch kunt berekenen met Aspose.Cells voor .NET in deze stapsgewijze tutorial. Verbeter uw Excel-automatiseringsvaardigheden.
+
 ## Circulaire verwijzingen detecteren  
 Ah, die gevreesde cirkelverwijzing! Het is een raadsel dat zelfs de meest ervaren Excel-gebruikers kan frustreren. Maar wees niet bang! Met onze gids over [Circulaire verwijzingen in Excel programmatisch detecteren](./detecting-circular-reference/)Leer hoe je deze lastige problemen effectief kunt identificeren met Aspose.Cells voor .NET. We nemen je mee door eenvoudig te volgen instructies, zodat je berekeningen nauwkeurig zijn en je later geen problemen meer hebt.
 
@@ -54,7 +60,7 @@ Bij het werken met gedeelde formules is het belangrijk om te begrijpen hoe u rij
 ### [Cellen toevoegen aan het formule-controlevenster van Microsoft Excel](./adding-cells-to-microsoft-excel-formula-watch-window/)
 Leer hoe je cellen toevoegt aan het Excel-formulevenster met Aspose.Cells voor .NET met deze stapsgewijze handleiding. Het is eenvoudig en efficiënt.
 ### [Formules in Excel programmatisch berekenen](./calculating-formulas/)
-Automatiseer je Excel-taken met Aspose.Cells voor .NET. Leer formules programmatisch berekenen in deze uitgebreide tutorial.
+Automatiseer je Excel-taken met Aspose.Cells voor .NET. Leer formules programmatisch te berekenen in deze uitgebreide tutorial.
 ### [Formules eenmalig programmatisch berekenen in Excel](./calculating-formulas-once/)
 Leer hoe u Excel-formules programmatisch kunt berekenen met Aspose.Cells voor .NET in deze stapsgewijze tutorial. Verbeter uw Excel-automatiseringsvaardigheden.
 ### [Circulaire verwijzingen in Excel programmatisch detecteren](./detecting-circular-reference/)
@@ -67,6 +73,8 @@ Leer hoe u Excel-formuleberekeningen kunt onderbreken met Aspose.Cells voor .NET
 Benut het potentieel van Excel met Aspose.Cells voor .NET. Leer stap voor stap hoe u gegevens verwerkt met behulp van krachtige invoegtoepassingen.
 ### [Gegevens verwerken met behulp van een matrixfunctie in Excel](./processing-data-using-array-function/)
 Ontgrendel de kracht van Excel met Aspose.Cells voor .NET. Leer gegevens verwerken met matrixfuncties in deze gedetailleerde tutorial.
+### [Hoe WRAPCOLS in C# te gebruiken – Arrays omvormen tot matrices](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
+Leer hoe u WRAPCOLS in C# toepast om arrays om te vormen tot matrices met Aspose.Cells voor .NET.
 ### [Gegevens verwerken met ingebouwde functies in Excel](./processing-data-using-built-in-functions/)
 Ontdek hoe u gegevens kunt verwerken met behulp van ingebouwde functies in Excel met Aspose.Cells voor .NET. Volg een stapsgewijze handleiding voor eenvoudige automatisering.
 ### [Gegevens verwerken met R1C1 in Excel](./processing-data-using-r1c1/)
@@ -75,6 +83,30 @@ Ontdek hoe u gegevens verwerkt met R1C1-formules in Excel met Aspose.Cells voor 
 Ontdek hoe u functies vanuit invoegtoepassingen in Excel kunt registreren en aanroepen met Aspose.Cells voor .NET met onze eenvoudige stapsgewijze zelfstudie.
 ### [Het maximale aantal rijen van een gedeelde formule in Excel specificeren](./specifying-maximum-rows-of-shared-formula/)
 Ontdek hoe u het maximum aantal rijen voor gedeelde formules in Excel kunt opgeven met Aspose.Cells voor .NET met deze eenvoudige, stapsgewijze zelfstudie.
+### [Alle formules opnieuw berekenen in C# – Excel vernieuwen](./recalculate-all-formulas-in-c-refresh-excel/)
+Leer hoe u met Aspose.Cells voor .NET alle formules in een werkmap opnieuw kunt berekenen en het blad kunt vernieuwen via C#.
+### [c# Excel-bestand maken – Stapsgewijze gids met voorwaardelijke logica](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Leer hoe u met Aspose.Cells voor .NET een Excel-bestand maakt in C# met voorwaardelijke logica, stap voor stap.
+### [Hoe cotangens te berekenen in Excel met C# – Stapsgewijze handleiding](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Leer hoe u cotangens berekent in Excel met C# via een duidelijke, stap‑voor‑stap tutorial.
+### [Hoe een array uit te breiden in C# met Aspose.Cells – Stapsgewijze gids](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+Leer hoe u een array in C# kunt uitbreiden met Aspose.Cells in deze stapsgewijze handleiding.
+### [Hoe een array in Excel maken met C# – Stapsgewijze handleiding](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+Leer hoe je met Aspose.Cells voor .NET een array in Excel kunt maken met C# in deze gedetailleerde stap‑voor‑stap gids.
+### [Hoe cotangens te berekenen in Excel met C# – Complete gids](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+Leer stap voor stap hoe je de cotangens-functie in Excel kunt berekenen met C# en Aspose.Cells.
+### [Hoe WRAPCOLS in Excel te gebruiken – Volledig C#-voorbeeld](./how-to-use-wrapcols-in-excel-complete-c-example/)
+Leer hoe je de WRAPCOLS-functie in Excel gebruikt met een volledig C#-voorbeeld in Aspose.Cells voor .NET.
+### [Hoe een Excel-werkmap maken en gegevens splitsen met WRAPCOLS in C#](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
+Leer hoe u met Aspose.Cells een Excel-werkmap maakt en data splitst met de WRAPCOLS-functie in C#.
+### [Arrayformule in Excel toepassen met C# – Volledige gids](./apply-array-formula-excel-in-c-complete-guide/)
+Leer stap voor stap hoe je een arrayformule in Excel toepast met C# en Aspose.Cells voor .NET.
+### [Hoe WRAPCOLS te gebruiken – Complete gids voor C# Excel-automatisering](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Leer hoe u WRAPCOLS gebruikt in C# voor geavanceerde Excel-automatisering met Aspose.Cells.
+### [Formules geforceerd berekenen en lambda gebruiken in Excel met C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Leer hoe je met Aspose.Cells voor .NET formules geforceerd berekent en lambda‑functies toepast in Excel via C#.
+### [Hoe een Excel-werkmap te maken in C# met de EXPAND-functie](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+Leer hoe je met Aspose.Cells voor .NET een Excel-werkmap maakt in C# met de EXPAND-functie in deze stapsgewijze tutorial.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

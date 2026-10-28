@@ -40,8 +40,42 @@ Naučte se, jak vytvářet kontingenční tabulky v Excelu pomocí Aspose.Cells 
 Naučte se, jak vytvářet vypočítaná pole v kontingenčních tabulkách pomocí Aspose.Cells pro Javu. Vylepšete svou analýzu dat pomocí vlastních výpočtů v Excelu.
 ### [Aktualizace dat kontingenční tabulky](./refreshing-pivot-table-data/)
 Naučte se, jak aktualizovat data kontingenční tabulky v Aspose.Cells pro Javu. Udržujte svá data aktuální bez námahy.
+### [Kopírování kontingenční tabulky v Javě – krok za krokem s Aspose.Cells](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
+Naučte se, jak v Javě pomocí Aspose.Cells zkopírovat existující kontingenční tabulku a upravit ji podle potřeb.
 ### [Přizpůsobení stylů kontingenčních tabulek](./customizing-pivot-table-styles/)
 Naučte se, jak přizpůsobit styly kontingenčních tabulek v Aspose.Cells pro Java API. Snadno vytvářejte vizuálně atraktivní kontingenční tabulky.
+### [Jak zkopírovat kontingenční tabulku v Javě – Kompletní průvodce Aspose.Cells](./how-to-copy-pivot-table-in-java-complete-aspose-cells-guide/)
+Naučte se, jak pomocí Aspose.Cells v Javě zkopírovat existující kontingenční tabulku a upravit ji podle potřeb.
+### [Vytvoření PNG z kontingenční tabulky v Javě – Kompletní průvodce krok za krokem](./create-png-from-pivot-in-java-full-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells v Javě exportovat kontingenční tabulku do formátu PNG s podrobným krokovým návodem.
+### [Kopírování kontingenční tabulky v Excelu – krok za krokem s Javou](./copy-pivot-table-excel-step-by-step-guide-using-java/)
+Naučte se, jak pomocí Aspose.Cells pro Javu zkopírovat existující kontingenční tabulku v Excelu a upravit ji podle potřeb.
+### [Export kontingenční tabulky do PNG v Javě – Kompletní programovací průvodce](./export-pivot-table-to-png-in-java-complete-programming-guide/)
+Naučte se, jak exportovat kontingenční tabulku z Excelu do formátu PNG pomocí Aspose.Cells pro Javu.
+### [Jak zkopírovat oblast v Javě – kopírování kontingenční tabulky pomocí Aspose.Cells](./how-to-copy-range-in-java-copy-pivot-table-with-aspose-cells/)
+Naučte se, jak v Javě pomocí Aspose.Cells zkopírovat oblast a přenést kontingenční tabulku do nového listu.
+### [Jak exportovat kontingenční tabulku jako PNG – Kompletní průvodce pro Javu](./how-to-export-pivot-table-as-png-complete-java-guide/)
+Naučte se, jak pomocí Aspose.Cells pro Javu exportovat kontingenční tabulku do formátu PNG pro snadné sdílení a vizualizaci.
+### [Jak zkopírovat kontingenční tabulku v Javě pomocí Aspose.Cells](./how-to-copy-pivot-table-in-java-using-aspose-cells/)
+Naučte se, jak pomocí Aspose.Cells v Javě zkopírovat kontingenční tabulku a snadno spravovat data.
+### [Kopírování kontingenční tabulky mezi sešity – krok za krokem průvodce v Javě](./copy-pivot-table-between-workbooks-step-by-step-java-guide/)
+Naučte se, jak pomocí Aspose.Cells pro Javu zkopírovat kontingenční tabulku z jednoho sešitu do druhého.
+### [Vytvoření nového sešitu v Javě – Kompletní průvodce kopírováním kontingenční tabulky](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
+Naučte se, jak v Javě vytvořit nový sešit a zkopírovat do něj kontingenční tabulku pomocí Aspose.Cells.
+### [Jak duplikovat list a zachovat kontingenční tabulky v Javě](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
+Naučte se duplikovat list v Excelu pomocí Aspose.Cells pro Javu a zachovat připojené kontingenční tabulky.
+### [Jak duplikovat kontingenční tabulku v Javě pomocí Aspose.Cells](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
+Naučte se, jak duplikovat kontingenční tabulku v Javě s Aspose.Cells pro snadnou replikaci analýz.
+### [Jak zkopírovat oblast a zachovat kontingenční tabulku v Javě](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
+Naučte se, jak zkopírovat oblast a zachovat funkčnost kontingenční tabulky pomocí Aspose.Cells pro Javu.
+### [Jak duplikovat kontingenční tabulky v Excelu v Javě – krok za krokem](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
+Naučte se, jak pomocí Aspose.Cells v Javě duplikovat kontingenční tabulky v Excelu a upravit je podle potřeb.
+### [Export obrázku kontingenční tabulky do PNG v Javě](./excel-pivot-table-image-export-to-png-with-java/)
+Naučte se, jak exportovat kontingenční tabulku jako PNG obrázek pomocí Aspose.Cells pro Javu.
+### [Vytvoření nového sešitu a kopírování kontingenční tabulky v Javě – Kompletní krok za krokem průvodce](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
+Naučte se, jak vytvořit nový sešit a zkopírovat kontingenční tabulku v Javě pomocí Aspose.Cells.
+### [Kopírování kontingenční tabulky v Javě s Aspose.Cells – Kompletní průvodce](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells pro Javu zkopírovat kontingenční tabulky a efektivně spravovat data v Excelu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

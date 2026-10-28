@@ -56,7 +56,12 @@ Scopri come gestire le caselle di testo in Excel con Aspose.Cells per Java. Ques
 ### [Padroneggiare Aspose.Cells Java: identificare le celle in un intervallo denominato per la manipolazione dei dati di Excel](./master-aspose-cells-java-identify-named-range-cells/)
 Scopri come utilizzare Aspose.Cells con Java per identificare e manipolare in modo efficiente le celle all'interno di intervalli denominati nei fogli di calcolo Excel.
 
-
+### [Come rinominare in modo sicuro una tabella Excel con Aspose.Cells per Java](./how-to-safely-rename-excel-table-with-aspose-cells-java/)
+Scopri come rinominare in modo sicuro le tabelle Excel usando Aspose.Cells per Java, garantendo integrità dei dati e riferimenti corretti.
+### [Imposta il nome della tabella in Excel con Java – Guida completa](./set-table-name-in-excel-with-java-complete-guide/)
+Scopri come assegnare e gestire il nome di una tabella Excel usando Aspose.Cells per Java, migliorando l'organizzazione e l'accesso ai dati.
+### [Crea una tabella Excel in Java – guida passo‑passo](./create-excel-table-in-java-step-by-step-guide/)
+Scopri come creare una tabella Excel in Java passo dopo passo con Aspose.Cells, includendo esempi di codice e best practice.
 
 ## Risorse aggiuntive
 

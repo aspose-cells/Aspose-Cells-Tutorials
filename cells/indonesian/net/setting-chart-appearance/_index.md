@@ -1,5 +1,5 @@
 ---
-"description": "Fedezd fel az Aspose.Cells for .NET oktatóanyagait a diagram megjelenésének beállításáról. Tanuld meg, hogyan alkalmazhatsz témákat, módosíthatod a rácsvonalakat, állíthatsz be diagramterületeket, címeket, tengelyeket és egyebeket egyszerű útmutatók segítségével."
+"description": "Fedezd fel az Aspose.Cells for .NET oktatóanyagait a diagram megjelenésének beállításáról. Tanuld meg, hogyan alkalmazhatsz témákat, módosíthatod a rácsvonalakat, állíthatsz be diagramterületeket, címeket, tengelyeket és egyebeket egyszerű útmutók segítségével."
 "linktitle": "Beállítási táblázat megjelenése"
 "second_title": "Aspose.Cells .NET Excel feldolgozási API"
 "title": "Beállítási táblázat megjelenése"
@@ -50,6 +50,8 @@ Engedd szabadjára az Excel diagramkészítésben rejlő lehetőségeket az Aspo
 Tanuld meg, hogyan szabhatod testre a diagram vonalait Excelben az Aspose.Cells for .NET használatával részletes, lépésről lépésre szóló útmutatónkkal.
 ### [Címek és tengelyek beállítása a diagramban](./set-titles-and-axes-in-chart/)
 Tanuld meg, hogyan állíthatsz be címeket és tengelyeket diagramokban az Aspose.Cells for .NET használatával ebből a lépésről lépésre haladó útmutatóból, amely kódpéldákat és tippeket is tartalmaz.
+### [Cara mempertahankan diagram – mempertahankan format diagram di PowerPoint C#](./how-to-preserve-charts-preserve-chart-formatting-in-powerpoi/)
+Pelajari cara menjaga format diagram di PowerPoint menggunakan C# dengan contoh kode langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

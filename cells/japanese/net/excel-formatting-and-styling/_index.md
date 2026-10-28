@@ -52,6 +52,8 @@ Aspose.Cells for .NET を使って、Excel で定義済みのスタイルと書�
 この簡単なガイドでは、Aspose.Cells for .NET を使用して Excel セルの書式を設定する方法を学びます。スタイルと境界線をマスターして、正確なデータ表示を実現しましょう。
 ### [スタイルと書式設定オブジェクトの操作](./working-with-styles-and-formatting-objects/)
 Aspose.Cells for .NET を使用して Excel シートをフォーマットする方法をステップバイステップのガイドで学習し、プロのようにスタイルをマスターしましょう。
+### [Aspose.Cellsでセルスタイルを適用 – フォーマット付きDataTableのインポート](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+Aspose.Cells for .NET を使用して、DataTable をインポートしながらセルスタイルと書式設定を適用する方法を学びます。
 ### [Excelのセルに罫線を追加する](./adding-borders-to-cells/)
 Aspose.Cells for .NET を使用して、Excel のセルにスタイリッシュな罫線を追加する方法を学びましょう。このステップバイステップのガイドに従って、わかりやすく魅力的なスプレッドシートを作成しましょう。
 ### [Excelのセル範囲に罫線を適用する](./applying-borders-to-range-of-cells/)
@@ -72,6 +74,12 @@ Aspose.Cells for .NET を使用して、Excel のセルサイズに合わせて�
 Aspose.Cells for .NET を使えば、Excel のテキストの方向を変換できます。ステップバイステップのガイドに従って、テキストの回転や調整を簡単に行うことができます。
 ### [Excelでセル内の長いテキストを折り返す](./wrapping-long-text-within-cells/)
 この分かりやすいガイドでは、Aspose.Cells for .NET を使って Excel のセル内の長いテキストを折り返す方法を学びます。スプレッドシートを簡単に変換できます。
+### [C# で Excel の列をスタイル設定する – DataTable のインポート](./how-to-style-columns-in-excel-with-c-import-datatable/)
+Aspose.Cells for .NET を使用し、C# で DataTable をインポートしながら Excel の列に書式やスタイルを適用する方法を学びます。
+### [C# でセルスタイルを作成 – セルにスタイルを適用し、テキストを中央揃えにする](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
+Aspose.Cells for .NET を使用して、C# でセルにスタイルを適用し、テキストを中央揃えにする方法を学びます。
+### [C# でカスタム書式設定を使用して Excel ワークブックを作成し、XLSX として保存する方法](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
+Aspose.Cells for .NET を使用して、C# でカスタム書式設定付きの Excel ワークブックを作成し、XLSX 形式で保存する方法を学びます。
 ### [C#でExcelファイルを作成 – セルにスタイルを設定し通貨形式を適用](./create-excel-file-c-style-cells-and-set-currency-format/)
 Aspose.Cells for .NET を使用して、C# で Excel ファイルを作成し、セルにスタイルを設定し通貨形式を適用する方法を学びます。
 

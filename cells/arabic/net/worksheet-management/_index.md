@@ -152,6 +152,9 @@
 ### [كيفية تقسيم أجزاء ورقة العمل في Excel باستخدام Aspose.Cells .NET لتحسين تحليل البيانات](./split-worksheet-panes-excel-aspose-cells-dotnet)
 تعرف على كيفية استخدام Aspose.Cells لـ .NET لتقسيم أجزاء ورقة العمل في Excel، مما يؤدي إلى تحسين كفاءة التنقل والتحليل للبيانات للحصول على تصور أفضل لمجموعات البيانات الكبيرة.
 
+### [كيفية استخدام SmartMarkerProcessor – إعادة تسمية ورقة موجودة في Excel](./how-to-use-smartmarkerprocessor-rename-existing-sheet-in-exc/)
+تعرّف على طريقة إعادة تسمية ورقة عمل موجودة باستخدام SmartMarkerProcessor في Aspose.Cells لـ .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

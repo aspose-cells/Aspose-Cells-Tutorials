@@ -42,6 +42,42 @@ Apprenez à créer des champs calculés dans des tableaux croisés dynamiques av
 Apprenez à actualiser les données d'un tableau croisé dynamique dans Aspose.Cells pour Java. Maintenez vos données à jour facilement.
 ### [Personnalisation des styles de tableau croisé dynamique](./customizing-pivot-table-styles/)
 Découvrez comment personnaliser les styles de tableaux croisés dynamiques dans l'API Aspose.Cells pour Java. Créez facilement des tableaux croisés dynamiques attrayants.
+### [Copier un tableau croisé dynamique en Java – le conserver, exporter en PPTX](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
+Apprenez à copier un tableau croisé dynamique, le préserver et l'exporter au format PPTX avec Aspose.Cells pour Java.
+### [Comment copier un tableau croisé dynamique en Java – Guide complet Aspose.Cells](./how-to-copy-pivot-table-in-java-complete-aspose-cells-guide/)
+Apprenez à copier un tableau croisé dynamique en Java avec Aspose.Cells grâce à ce guide complet.
+### [Comment dupliquer des tableaux croisés dynamiques dans Excel avec Java – guide étape par étape](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
+Apprenez à dupliquer des tableaux croisés dynamiques dans Excel en Java avec Aspose.Cells grâce à ce guide complet étape par étape.
+### [Créer un PNG à partir d'un tableau croisé dynamique en Java – Guide complet étape par étape](./create-png-from-pivot-in-java-full-step-by-step-guide/)
+Apprenez à générer des images PNG à partir de tableaux croisés dynamiques avec Aspose.Cells pour Java, grâce à un guide détaillé étape par étape.
+### [Copier un tableau croisé dynamique Excel – Guide étape par étape avec Java](./copy-pivot-table-excel-step-by-step-guide-using-java/)
+Apprenez à copier un tableau croisé dynamique dans Excel en utilisant Aspose.Cells pour Java. Suivez un guide détaillé étape par étape.
+### [Exporter un tableau croisé dynamique en PNG avec Java – Guide complet de programmation](./export-pivot-table-to-png-in-java-complete-programming-guide/)
+Apprenez à exporter un tableau croisé dynamique Excel au format PNG en Java avec Aspose.Cells, grâce à un guide complet pas à pas.
+### [Comment copier une plage en Java – Copier un tableau croisé dynamique avec Aspose.Cells](./how-to-copy-range-in-java-copy-pivot-table-with-aspose-cells/)
+Apprenez à copier une plage contenant un tableau croisé dynamique en Java avec Aspose.Cells pour réutiliser ou dupliquer vos rapports.
+### [Comment exporter un tableau croisé dynamique au format PNG – Guide complet Java](./how-to-export-pivot-table-as-png-complete-java-guide/)
+Apprenez à exporter un tableau croisé dynamique en image PNG avec Aspose.Cells pour Java, étape par étape.
+### [Comment copier un tableau croisé dynamique en Java avec Aspose.Cells](./how-to-copy-pivot-table-in-java-using-aspose-cells/)
+Apprenez à dupliquer un tableau croisé dynamique dans Excel en Java avec Aspose.Cells, pour réutiliser rapidement vos analyses.
+### [Copier un tableau croisé dynamique entre classeurs – Guide Java étape par étape](./copy-pivot-table-between-workbooks-step-by-step-java-guide/)
+Apprenez à copier un tableau croisé dynamique d'un classeur à un autre avec Aspose.Cells pour Java, étape par étape.
+### [Créer un nouveau classeur en Java – Guide complet pour copier un tableau croisé dynamique](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
+Apprenez à créer un nouveau classeur et à copier un tableau croisé dynamique avec Aspose.Cells pour Java.
+### [Comment dupliquer une feuille de calcul et préserver les tableaux croisés dynamiques en Java](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
+Apprenez à dupliquer une feuille tout en conservant les tableaux croisés dynamiques avec Aspose.Cells pour Java.
+### [Comment dupliquer un tableau croisé dynamique en Java avec Aspose.Cells](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
+Apprenez à dupliquer un tableau croisé dynamique en Java avec Aspose.Cells pour réutiliser et partager vos analyses.
+### [Comment copier une plage et préserver un tableau croisé dynamique en Java](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
+Apprenez à copier une plage tout en conservant le tableau croisé dynamique avec Aspose.Cells pour Java.
+### [Exportation d'une image de tableau croisé dynamique Excel au format PNG avec Java](./excel-pivot-table-image-export-to-png-with-java/)
+Apprenez à exporter un tableau croisé dynamique Excel en image PNG à l'aide d'Aspose.Cells pour Java.
+### [Créer un nouveau classeur et copier un tableau croisé dynamique en Java – Guide complet étape par étape](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
+Apprenez à créer un classeur, copier un tableau croisé dynamique et automatiser le processus avec Aspose.Cells pour Java.
+### [Copier un tableau croisé dynamique en Java avec Aspose.Cells – Guide complet](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
+Apprenez à copier un tableau croisé dynamique en Java avec Aspose.Cells, incluant des exemples de code et des meilleures pratiques.
+### [Copier un tableau croisé dynamique en Java – guide étape par étape avec Aspose.Cells](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
+Apprenez à copier un tableau croisé dynamique en Java avec Aspose.Cells grâce à un guide détaillé étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

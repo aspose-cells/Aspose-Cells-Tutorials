@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-08"
-"description": "Leer hoe u numerieke waarden in tekstformaat naadloos kunt omzetten naar daadwerkelijke getallen met Aspose.Cells voor Java. Deze handleiding behandelt de installatie, conversie en het efficiënt opslaan van wijzigingen."
-"title": "Tekst naar getallen converteren in Excel met Aspose.Cells voor Java"
-"url": "/nl/java/cell-operations/convert-text-to-numbers-excel-aspose-cells-java/"
-"weight": 1
+date: '2026-03-20'
+description: Leer hoe je tekst naar getallen converteert in Excel met Aspose.Cells
+  voor Java. Deze gids behandelt installatie, conversie en het efficiënt opslaan van
+  wijzigingen.
+keywords:
+- convert text to numbers in Excel
+- Aspose.Cells for Java setup
+- text to numeric conversion in Excel
+title: Hoe tekst naar getallen te converteren in Excel met Aspose.Cells voor Java
+url: /nl/java/cell-operations/convert-text-to-numbers-excel-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,34 +18,33 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Hoe tekst naar getallen te converteren in Excel met Aspose.Cells voor Java
 
-# Tekst naar getallen converteren in Excel met Aspose.Cells voor Java
+Het converteren van **tekst naar getallen** in Excel is een veelvoorkomende stap in gegevens‑opschoning die berekeningsfouten voorkomt en rapporten betrouwbaar houdt. In deze tutorial zie je precies hoe je **Aspose.Cells for Java** gebruikt om Excel‑tekstwaarden in batch te converteren naar echte numerieke typen, en het werkboek met de gecorrigeerde gegevens opslaat.
 
-## Invoering
+## Snelle antwoorden
+- **Wat betekent “convert text to numbers”?** Het verandert cellen die numerieke waarden als tekenreeksen opslaan in echte numerieke cellen waar Excel mee kan rekenen.  
+- **Welke bibliotheek behandelt dit in Java?** Aspose.Cells for Java biedt de `convertStringToNumericValue()`‑methode voor naadloze conversie.  
+- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor testen; een permanente licentie verwijdert alle evaluatiebeperkingen.  
+- **Kan ik meerdere werkbladen tegelijk verwerken?** Ja—loop door `workbook.getWorksheets()` en pas de conversie toe op elk blad.  
+- **Is Maven de aanbevolen manier om Aspose.Cells toe te voegen?** Het gebruik van de Aspose.Cells Maven‑dependency zorgt ervoor dat je automatisch de nieuwste stabiele versie krijgt.
 
-Werken met Excel-bestanden waarin getallen als tekst zijn opgemaakt, kan rekenfouten en inconsistenties in de gegevens veroorzaken. Dit probleem doet zich vaak voor bij het importeren van gegevens uit externe bronnen of het kopiëren van waarden tussen spreadsheets. **Aspose.Cells voor Java** biedt een krachtige oplossing om deze numerieke waarden in tekstformaat naadloos om te zetten in daadwerkelijke getallen. In deze tutorial leert u hoe u Aspose.Cells voor Java gebruikt om tekst in Excel-bestanden efficiënt om te zetten naar numerieke waarden.
+## Wat is “Convert Text to Numbers” in Excel?
+Wanneer Excel gegevens ontvangt van externe bronnen (CSV‑bestanden, databases of copy‑paste‑bewerkingen), kunnen numerieke waarden als tekst worden opgeslagen. Dit voorkomt dat formules ze als getallen behandelen, wat leidt tot #VALUE!-fouten of onnauwkeurige aggregaties. Het converteren van tekst naar getallen normaliseert de gegevens zodat alle berekeningen naar verwachting werken.
 
-### Wat je leert:
-- Hoe Aspose.Cells voor Java in te stellen
-- Converteer tekstgebaseerde numerieke gegevens naar getallen met behulp van Java
-- Sla de wijzigingen op in een Excel-bestand
-- Best practices voor het optimaliseren van prestaties
-
-Laten we nu eens kijken naar de vereisten die je moet hebben voordat je begint.
+## Waarom Aspose.Cells voor Java gebruiken?
+Aspose.Cells biedt een **pure Java**‑oplossing die werkt zonder Microsoft Office geïnstalleerd te hebben. De `convertStringToNumericValue()`‑methode verwerkt automatisch op locale gebaseerde notaties, duizendtallen‑scheidingstekens en wetenschappelijke notatie, waardoor het ideaal is voor batch‑verwerking van grote werkboeken.
 
 ## Vereisten
+- **Java Development Kit (JDK) 8+** geïnstalleerd.  
+- Vertrouwdheid met Maven of Gradle voor afhankelijkheidsbeheer.  
+- Een IDE zoals IntelliJ IDEA of Eclipse.  
+- (Optioneel) Een Aspose.Cells‑licentiebestand voor productiegebruik.
 
-Om deze tutorial te kunnen volgen, moet u het volgende doen:
+## Aspose.Cells voor Java instellen
 
-- **Java-ontwikkelingskit (JDK)** geïnstalleerd op uw computer. Wij raden aan JDK 8 of hoger te gebruiken.
-- Basiskennis van Java-programmering en werken met bibliotheken via Maven of Gradle.
-- Een IDE zoals IntelliJ IDEA of Eclipse voor het schrijven en uitvoeren van Java-code.
-
-## Aspose.Cells instellen voor Java
-
-### Aspose.Cells installeren met Maven
-
-Om Aspose.Cells in uw project op te nemen, voegt u de volgende afhankelijkheid toe aan uw `pom.xml` bestand:
+### Voeg de Aspose.Cells Maven‑dependency toe
+Het opnemen van Aspose.Cells via Maven zorgt ervoor dat je altijd compileert tegen de nieuwste release.
 
 ```xml
 <dependency>
@@ -49,25 +54,22 @@ Om Aspose.Cells in uw project op te nemen, voegt u de volgende afhankelijkheid t
 </dependency>
 ```
 
-### Aspose.Cells installeren met Gradle
-
-Voor degenen die Gradle gebruiken, neem het volgende op in uw `build.gradle` bestand:
+### Voeg de Aspose.Cells Gradle‑dependency toe
+Als je de voorkeur geeft aan Gradle, voeg dan de volgende regel toe aan je `build.gradle`.
 
 ```gradle
 implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Licentieverwerving
+### Verkrijg een licentie
+1. **Gratis proefversie:** Download de bibliotheek van [Aspose Downloads](https://releases.aspose.com/cells/java/).  
+2. **Tijdelijke licentie:** Vraag er een aan via [Aspose's Temporary License Page](https://purchase.aspose.com/temporary-license/).  
+3. **Volledige licentie:** Schaf een abonnement aan via de [Purchase Page](https://purchase.aspose.com/buy).
 
-Voordat je aan de slag gaat met coderen, moet je een licentie voor Aspose.Cells aanschaffen. Je kunt beginnen met een gratis proefperiode of indien nodig een tijdelijke licentie aanvragen. Voor volledige toegang zonder beperkingen kun je een abonnement overwegen.
+## Stapsgewijze implementatie
 
-1. **Gratis proefperiode:** Download de bibliotheek van [Aspose-downloads](https://releases.aspose.com/cells/java/).
-2. **Tijdelijke licentie:** Vraag er één aan via [Aspose's tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/).
-3. **Aankoop:** Koop een licentie rechtstreeks via de [Aankooppagina](https://purchase.aspose.com/buy).
-
-### Basisinitialisatie en -installatie
-
-Initialiseer Aspose.Cells door een exemplaar te maken van `Workbook`:
+### Stap 1: Initialiseer het werkboek
+Maak een `Workbook`‑instantie aan die naar het bronbestand wijst. Dit laadt de Excel‑gegevens in het geheugen.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -75,18 +77,13 @@ import com.aspose.cells.Workbook;
 public class Main {
     public static void main(String[] args) throws Exception {
         Workbook workbook = new Workbook("source.xlsx");
-        // Verdere verwerking hier
+        // Further processing will follow
     }
 }
 ```
 
-## Implementatiegids
-
-In dit gedeelte leggen we u uit hoe u tekst naar numerieke waarden in Excel kunt converteren met behulp van Aspose.Cells.
-
-### Laad de werkmap
-
-Begin met het laden van uw Excel-bestand in een `Workbook` object. Deze stap is cruciaal omdat hiermee de gegevens voor conversie worden klaargezet.
+### Stap 2: Laad je specifieke werkboek
+Als je je bestanden in een gedeelde data‑map bewaart, gebruik dan de hulpprogrammaklasse `Utils` (geleverd in Aspose‑voorbeelden) om het pad samen te stellen.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -97,14 +94,13 @@ public class ConvertTextNumericDataToNumber {
         String dataDir = Utils.getSharedDataDir(ConvertTextNumericDataToNumber.class) + "TechnicalArticles/";
         Workbook workbook = new Workbook(dataDir + "source.xlsx");
 
-        // Te volgen conversiestappen
+        // Conversion steps to follow
     }
 }
 ```
 
-### Tekst naar numerieke waarden converteren
-
-Loop door elk werkblad en converteer tekstgeformatteerde getallen naar numerieke waarden met behulp van `convertStringToNumericValue()`Deze methode verwerkt het conversieproces automatisch.
+### Stap 3: Converteer tekst naar numerieke waarden
+Itereer door elk werkblad en roep `convertStringToNumericValue()` aan. Deze methode scant elke cel, detecteert op cijfers lijkende tekenreeksen en herschrijft ze als echte getallen.
 
 ```java
 for (int i = 0; i < workbook.getWorksheets().getCount(); i++) {
@@ -112,62 +108,64 @@ for (int i = 0; i < workbook.getWorksheets().getCount(); i++) {
 }
 ```
 
-### Werkboek opslaan
+> **Pro tip:** De conversie respecteert de locale‑instellingen van het werkboek, zodat je komma’s of punten niet handmatig hoeft te verwerken.
 
-Sla de wijzigingen na het converteren op in een Excel-bestand. Zo weet u zeker dat uw gegevens correct worden bijgewerkt en opgeslagen.
+### Stap 4: Sla het bijgewerkte werkboek op
+Na de conversie schrijf je het werkboek terug naar de schijf (of naar een stream als je in een webservice werkt).
 
 ```java
 workbook.save(dataDir + "CTNDatatoNumber_out.xlsx");
 ```
 
 ## Praktische toepassingen
+- **Gegevensopschoning:** Normaliseer snel grote CSV‑importen die Excel als tekst behandelt.  
+- **Financiële rapportage:** Zorg ervoor dat alle geldkolommen numeriek zijn voordat je draaitabellen maakt.  
+- **Voorraadbeheer:** Corrigeer SKU‑ of hoeveelheidskolommen die per ongeluk als tekst zijn opgeslagen tijdens bulk‑uploads.
 
-- **Gegevens opschonen:** Automatiseer het proces voor het opschonen van grote datasets die zijn geïmporteerd uit tekstbestanden of andere bronnen.
-- **Financiële verslaggeving:** Zorg voor nauwkeurigheid bij financiële berekeningen door alle gegevens vóór verwerking om te zetten naar numerieke formaten.
-- **Voorraadbeheer:** Corrigeer inventarisnummers die mogelijk als tekst zijn ingevoerd als gevolg van importfouten.
+## Prestatie‑overwegingen
+- **Batchverwerking:** De `convertStringToNumericValue()`‑aanroep werkt op het hele blad, waardoor per‑cel‑lussen worden vermeden en de CPU‑tijd wordt verminderd.  
+- **Geheugenbeheer:** Voor zeer grote werkboeken, roep `workbook.dispose()` aan na het opslaan om native resources vrij te geven.  
+- **Laadopties:** Gebruik `LoadOptions` om onnodige functies (bijv. formules) over te slaan wanneer je alleen gegevensconversie nodig hebt.
 
-## Prestatieoverwegingen
+## Veelvoorkomende problemen en oplossingen
 
-Om de prestaties te optimaliseren bij het gebruik van Aspose.Cells voor Java:
+| Probleem | Oplossing |
+|----------|-----------|
+| Cellen blijven ongewijzigd | Controleer of de **NumberFormat** van de cel geen tekststijl afdwingt; de methode wijzigt alleen de onderliggende waarde. |
+| Locale‑specifieke scheidingstekens veroorzaken fouten | Stel de locale van het werkboek in via `workbook.getSettings().setCultureInfo(new CultureInfo("en-US"));` vóór de conversie. |
+| Out‑of‑memory‑fouten bij enorme bestanden | Verwerk het bestand in delen met `WorksheetCollection` en geef elk blad vrij na conversie. |
 
-- Minimaliseer het aantal bewerkingen binnen lussen over grote datasets.
-- Beheer het geheugengebruik effectief, vooral bij zeer grote Excel-bestanden. Sluit werkmappen en geef resources vrij na verwerking.
-- Gebruik `Workbook.setLoadOptions()` als u met specifieke gegevenstypen of -indelingen werkt om het laden te versnellen.
+## Veelgestelde vragen
 
-## Conclusie
+**Q: Wat gebeurt er als een cel tekst bevat die niet als een getal kan worden geparseerd?**  
+A: De methode laat de cel ongewijzigd en gaat door met het verwerken van de rest van het blad.
 
-Door deze tutorial te volgen, hebt u geleerd hoe u numerieke waarden in tekstformaat kunt omzetten naar echte getallen met Aspose.Cells voor Java. Deze functionaliteit is cruciaal voor het behoud van de integriteit en nauwkeurigheid van uw Excel-gegevens. Experimenteer vervolgens met andere functies van Aspose.Cells om uw applicaties verder te verbeteren.
+**Q: Kan ik de conversie beperken tot specifieke kolommen of rijen?**  
+A: Hoewel `convertStringToNumericValue()` op het gehele blad werkt, kun je door een `Range` itereren en `Cell.setValue(Cell.getStringValue())` toepassen na handmatig parseren.
 
-Klaar voor de volgende stap? Ontdek meer functionaliteiten in Aspose.Cells of integreer deze oplossing in uw bestaande projecten!
+**Q: Hoe ga ik om met uitzonderingen tijdens de conversie?**  
+A: Plaats de conversielogica in een try‑catch‑blok en log `Exception.getMessage()` voor foutopsporing.
 
-## FAQ-sectie
+**Q: Is er een manier om dit te automatiseren voor tientallen werkboeken?**  
+A: Ja—combineer de bovenstaande stappen in een lus die over een map met bestanden itereren en dezelfde conversieroutine op elk werkboek toepast.
 
-1. **Wat gebeurt er als een cel tekst bevat die niet naar een getal kan worden omgezet?**
-   - De methode laat het ongewijzigd en gaat door met het verwerken van andere cellen.
+**Q: Waarom kiezen voor Aspose.Cells boven Apache POI?**  
+A: Aspose.Cells biedt uitgebreidere formatondersteuning, snellere bulk‑operaties en ingebouwde conversie‑hulpmiddelen zoals `convertStringToNumericValue()` die aangepaste code verminderen.
 
-2. **Kan ik dit conversieproces op meerdere werkbladen tegelijk gebruiken?**
-   - Ja, de lus doorloopt alle werkbladen in de werkmap.
+## Resources
 
-3. **Hoe ga ik om met uitzonderingen tijdens de conversie?**
-   - Gebruik try-catch-blokken om potentiële fouten op een elegante manier te beheren.
-
-4. **Is er een manier om alleen specifieke kolommen of rijen te converteren?**
-   - Terwijl `convertStringToNumericValue()` geldt voor hele vellen, u kunt aangepaste logica implementeren om specifieke bereiken te targeten.
-
-5. **Wat zijn de voordelen van het gebruik van Aspose.Cells voor Java ten opzichte van andere bibliotheken?**
-   - Het biedt een uitgebreide set functies en is geoptimaliseerd voor prestaties met grote Excel-bestanden.
-
-## Bronnen
-
-- [Aspose.Cells-documentatie](https://reference.aspose.com/cells/java/)
-- [Download Aspose.Cellen](https://releases.aspose.com/cells/java/)
+- [Aspose.Cells Documentatie](https://reference.aspose.com/cells/java/)
+- [Download Aspose.Cells](https://releases.aspose.com/cells/java/)
 - [Aankoop Aspose.Cells](https://purchase.aspose.com/buy)
 - [Gratis proefversie downloaden](https://releases.aspose.com/cells/java/)
-- [Aanvraag tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
-- [Aspose Ondersteuningsforum](https://forum.aspose.com/c/cells/9)
+- [Tijdelijke licentie aanvragen](https://purchase.aspose.com/temporary-license/)
+- [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
-Deze uitgebreide handleiding stelt je in staat om tekst eenvoudig naar numerieke waarden om te zetten in Excel met Aspose.Cells voor Java. Veel plezier met programmeren!
+---
 
+**Laatst bijgewerkt:** 2026-03-20  
+**Getest met:** Aspose.Cells 25.3 for Java  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -52,6 +52,8 @@
 透過本簡易指南了解如何使用 Aspose.Cells for .NET 格式化 Excel 儲存格。掌握樣式和邊框以精確呈現資料。
 ### [使用樣式和格式化對象](./working-with-styles-and-formatting-objects/)
 透過逐步指南學習如何使用 Aspose.Cells for .NET 格式化 Excel 表，並像專業人士一樣掌握樣式。
+### [如何使用 C# 為 Excel 欄位套用樣式 – 匯入 DataTable](./how-to-style-columns-in-excel-with-c-import-datatable/)
+使用 Aspose.Cells for .NET 透過 C# 匯入 DataTable，為 Excel 欄位套用樣式的逐步教學。
 ### [在 Excel 中為儲存格新增邊框](./adding-borders-to-cells/)
 了解如何使用 Aspose.Cells for .NET 為 Excel 中的儲存格新增時尚邊框。按照本逐步指南，您可以製作清晰且引人入勝的電子表格。
 ### [在 Excel 中對儲存格區域套用邊框](./applying-borders-to-range-of-cells/)
@@ -72,6 +74,12 @@
 使用 Aspose.Cells for .NET 轉換 Excel 中的文字方向。按照我們的逐步指南輕鬆旋轉和調整文字。
 ### [在 Excel 儲存格內包裝長文本](./wrapping-long-text-within-cells/)
 透過本簡單易懂的指南，了解如何使用 Aspose.Cells for .NET 在 Excel 儲存格中換行顯示長文字。輕鬆轉換您的電子表格。
+### [在 C# 中建立儲存格樣式 – 如何套用樣式至儲存格並置中文字](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
+使用 Aspose.Cells for .NET 在 C# 中建立儲存格樣式，並將文字置中，輕鬆美化您的 Excel 表格。
+### [使用 Aspose.Cells 套用儲存格樣式 – 匯入 DataTable 並保留格式](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+透過 Aspose.Cells for .NET 匯入 DataTable 時，同時套用儲存格樣式與格式設定，保持資料外觀一致。
+### [如何使用 C# 建立 Excel 工作簿並套用自訂格式，儲存為 XLSX](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
+使用 Aspose.Cells for .NET 在 C# 中建立 Excel 工作簿，套用自訂格式並儲存為 XLSX。
 ### [建立 Excel 檔案 C# – 設定儲存格樣式與貨幣格式](./create-excel-file-c-style-cells-and-set-currency-format/)
 使用 Aspose.Cells for .NET 在 C# 中建立 Excel 檔案，設定儲存格樣式並套用貨幣格式。
 

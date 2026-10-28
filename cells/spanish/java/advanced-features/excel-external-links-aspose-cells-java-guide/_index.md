@@ -1,12 +1,13 @@
 ---
-date: '2025-12-20'
-description: Aprende a gestionar enlaces y actualizar enlaces externos de Excel de
-  manera eficiente usando Aspose.Cells para Java. Sigue esta guía paso a paso.
+date: '2026-03-04'
+description: Aprenda cómo actualizar los enlaces externos de Excel, cambiar la fuente
+  del enlace de Excel y establecer la ruta absoluta de Excel de manera eficiente con
+  Aspose.Cells para Java.
 keywords:
 - Excel external links Aspose.Cells
 - manage Excel external links Java
 - modify Excel link data source
-title: Cómo administrar enlaces en Excel usando Aspose.Cells para Java
+title: Cómo actualizar enlaces externos de Excel usando Aspose.Cells para Java
 url: /es/java/advanced-features/excel-external-links-aspose-cells-java-guide/
 weight: 1
 ---
@@ -17,35 +18,33 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cómo administrar enlaces en Excel usando Aspose.Cells para Java
+# Cómo actualizar enlaces externos de Excel usando Aspose.Cells para Java
 
 ## Introducción
-Trabajar con archivos de Excel que contienen enlaces externos puede ser un desafío, especialmente cuando necesitas **cómo administrar enlaces** entre diferentes fuentes de datos o entornos. En este tutorial, aprenderás a cargar archivos de Excel con enlaces, acceder y modificar esos enlaces, y cambiar la ruta absoluta del libro—todo con Aspose.Cells para Java. Al final, podrás **actualizar enlaces externos de Excel**, **cómo cambiar la fuente**, e incluso **cómo establecer la ruta** de forma programática.
+Trabajar con archivos de Excel que contienen enlaces externos puede ser un desafío, especialmente cuando necesita **actualizar enlaces externos de Excel** a través de diferentes fuentes de datos o entornos. En este tutorial, aprenderá a **cargar enlaces de libros de Excel**, acceder y modificar esos enlaces, y cambiar la ruta absoluta del libro, todo con Aspose.Cells para Java. Al final, podrá **cambiar la fuente del enlace de Excel**, **actualizar la fuente de datos de Excel** y **cambiar la ruta absoluta de Excel** de forma programática, facilitando **automatizar actualizaciones de enlaces de Excel** en sus aplicaciones.
 
-### Respuestas rápidas
-- **¿Cuál es la biblioteca principal para administrar enlaces en Excel?** Aspose.Cells para Java.  
+## Respuestas rápidas
+- **¿Cuál es la biblioteca principal para gestionar enlaces en Excel?** Aspose.Cells for Java.  
 - **¿Puedo cambiar la fuente de datos de un enlace externo?** Sí, usando `ExternalLink.setDataSource()`.  
-- **¿Cómo establezco una nueva ruta base para un libro?** Llamando a `Workbook.setAbsolutePath()`.  
-- **¿Es posible automatizar la actualización de enlaces en Excel?** Absolutamente—recorre los libros y actualiza los enlaces en código.  
+- **¿Cómo establezco una nueva ruta base para un libro?** Llame a `Workbook.setAbsolutePath()`.  
+- **¿Es posible automatizar las actualizaciones de enlaces de Excel?** Absolutamente—recorra los libros y actualice los enlaces en código.  
 - **¿Necesito una licencia para uso en producción?** Una licencia completa elimina todas las limitaciones de evaluación.
 
-### Lo que aprenderás
-- **Cómo cargar enlaces** desde un libro existente.  
-- **Cómo cambiar la fuente** de un enlace externo.  
-- **Cómo establecer la ruta** para resolver recursos vinculados.  
-- Escenarios prácticos donde la gestión de enlaces ahorra tiempo y reduce errores.
+## Qué significa “actualizar enlaces externos de Excel”
+Actualizar los enlaces externos de Excel significa cambiar programáticamente las referencias que un libro mantiene a otros archivos o fuentes de datos. Esto garantiza que las fórmulas, gráficos o tablas siempre apunten a la información correcta y actualizada sin intervención manual.
+
+## ¿Por qué usar Aspose.Cells para actualizar enlaces externos de Excel?
+Aspose.Cells ofrece una API robusta del lado del servidor que funciona sin necesidad de tener Microsoft Office instalado. Le permite **cargar enlaces de libros de Excel**, modificarlos y controlar la ruta de resolución, lo cual es esencial para canalizaciones de datos automatizadas, motores de informes y proyectos de migración.
 
 ## Requisitos previos
-Antes de comenzar, asegúrate de tener:
-
-- **Biblioteca Aspose.Cells** añadida a tu proyecto (Maven o Gradle).  
-- Un entorno de desarrollo Java (JDK 8+ recomendado).  
+- **Biblioteca Aspose.Cells** añadida a su proyecto (Maven o Gradle).  
+- Un entorno de desarrollo Java (se recomienda JDK 8+).  
 - Familiaridad básica con la sintaxis de Java y conceptos orientados a objetos.
 
 ## Configuración de Aspose.Cells para Java
 
 ### Información de instalación
-Agrega Aspose.Cells a tu proyecto usando una de las siguientes herramientas de compilación:
+Agregue Aspose.Cells a su proyecto usando una de las siguientes herramientas de compilación:
 
 **Maven:**
 ```xml
@@ -62,30 +61,30 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Obtención de licencia
-Puedes comenzar con una **prueba gratuita**, solicitar una **licencia temporal**, o comprar una licencia completa para uso sin restricciones.
+Puede comenzar con una **prueba gratuita**, solicitar una **licencia temporal**, o comprar una licencia completa para uso sin restricciones.
 
-### Inicialización y configuración básica
-Comienza importando la clase esencial:
+### Inicialización y configuración básicas
+Comience importando la clase esencial:
 
 ```java
 import com.aspose.cells.Workbook;
 ```
 
-## Guía paso a paso de implementación
+## Guía de implementación paso a paso
 
-### Cargar archivo Excel con enlaces externos
-**Por qué es importante:** Cargar el libro te brinda acceso a todos los enlaces externos incrustados.
+### Cargar archivo de Excel con enlaces externos
+**Por qué es importante:** Cargar el libro le brinda acceso a todos los enlaces externos incrustados, lo cual es el primer paso para **cargar enlaces de libros de Excel**.
 
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
 ```
 
-- `dataDir` apunta a la carpeta que contiene tu archivo Excel.  
+- `dataDir` apunta a la carpeta que contiene su archivo de Excel.  
 - `Workbook` representa toda la hoja de cálculo en memoria.
 
-### Acceder a un enlace externo
-**Cómo cargar enlaces:** Después de cargar el libro, puedes obtener cualquier enlace externo.
+### Acceder al enlace externo
+**Cómo cargar enlaces:** Después de cargar el libro, puede obtener cualquier enlace externo.
 
 ```java
 import com.aspose.cells.ExternalLink;
@@ -94,16 +93,16 @@ ExternalLink externalLink = wb.getWorksheets().getExternalLinks().get(0);
 ```
 
 - `getExternalLinks()` devuelve una colección de todos los enlaces.  
-- `get(0)` obtiene el primer enlace (puedes iterar para obtener más).
+- `get(0)` obtiene el primer enlace (puede iterar para obtener más).
 
 ### Modificar la fuente de datos del enlace externo
-**Cómo cambiar la fuente:** Actualizar la fuente de datos te permite apuntar el enlace a un nuevo archivo sin volver a abrir el libro manualmente.
+**Cómo cambiar la fuente:** Actualizar la fuente de datos le permite **cambiar la fuente del enlace de Excel** sin volver a abrir el libro manualmente.
 
 ```java
 externalLink.setDataSource("ExternalAccounts.xlsx");
 ```
 
-- Proporciona el nuevo nombre de archivo o la ruta completa a la fuente deseada.
+- Proporcione el nuevo nombre de archivo o la ruta completa a la fuente deseada.
 
 ### Cambiar la ruta absoluta del libro
 **Cómo establecer la ruta:** Ajustar la ruta absoluta influye en cómo se resuelven los enlaces relativos—útil al mover libros entre servidores o directorios.
@@ -120,29 +119,29 @@ wb.setAbsolutePath(remotePath);
 - `setAbsolutePath(String)` actualiza la ubicación base para todos los recursos vinculados.
 
 ### Consejos de solución de problemas
-- Verifica que todas las rutas usen el separador correcto para tu SO (`\\` para Windows, `/` para Linux/macOS).  
-- Asegúrate de que los archivos externos realmente existan en las ubicaciones especificadas.  
-- Captura `java.io.IOException` o `com.aspose.cells.CellsException` para manejar problemas de permisos o acceso a archivos de forma elegante.
+- Verifique que todas las rutas usen el separador correcto para su SO (`\\` para Windows, `/` para Linux/macOS).  
+- Asegúrese de que los archivos externos realmente existan en las ubicaciones especificadas.  
+- Capture `java.io.IOException` o `com.aspose.cells.CellsException` para manejar problemas de permisos o acceso a archivos de forma elegante.
 
 ## Aplicaciones prácticas
-Administrar enlaces externos de Excel es esencial en muchos escenarios reales:
+Gestionar los enlaces externos de Excel es esencial en muchos escenarios del mundo real:
 
-1. **Consolidación de datos:** Combina datos de varios libros en un informe maestro.  
-2. **Modelado financiero:** Mantén balances sincronizados con archivos de cuentas externos.  
-3. **Seguimiento de proyectos:** Vincula listas de tareas entre hojas departamentales para informes de estado actualizados.  
+1. **Consolidación de datos:** Combine datos de varios libros en un informe maestro.  
+2. **Modelado financiero:** Mantenga los balances sincronizados con archivos de cuentas externos.  
+3. **Seguimiento de proyectos:** Vincule listas de tareas entre hojas departamentales para informes de estado actualizados.  
 
 ## Consideraciones de rendimiento
-- Libera los objetos `Workbook` (`wb.dispose()`) cuando ya no los necesites para liberar memoria.  
-- Para libros grandes, considera cargar solo las hojas necesarias usando `LoadOptions`.  
-- Mantén Aspose.Cells actualizado para beneficiarte de mejoras de rendimiento y correcciones de errores.
+- Libere los objetos `Workbook` (`wb.dispose()`) cuando ya no sean necesarios para liberar memoria.  
+- Para libros grandes, considere cargar solo las hojas necesarias usando `LoadOptions`.  
+- Mantenga Aspose.Cells actualizado para beneficiarse de mejoras de rendimiento y correcciones de errores.
 
 ## Conclusión
-En esta guía cubrimos **cómo administrar enlaces** en Excel usando Aspose.Cells para Java, incluyendo la carga de libros, el acceso y la modificación de enlaces externos, y la actualización de la ruta absoluta del libro. Estas técnicas te permiten **automatizar actualizaciones de enlaces en Excel**, optimizar flujos de datos y reducir errores manuales.
+En esta guía cubrimos **cómo actualizar enlaces externos de Excel** usando Aspose.Cells para Java, incluyendo la carga de libros, el acceso y la modificación de enlaces externos, y la actualización de la ruta absoluta del libro. Estas técnicas le permiten **automatizar actualizaciones de enlaces de Excel**, optimizar los flujos de datos y reducir errores manuales.
 
 ### Próximos pasos
-- Experimenta con múltiples enlaces externos y recórrelos programáticamente.  
-- Integra estos fragmentos en aplicaciones Java más grandes para procesamiento de datos de extremo a extremo.  
-- Explora otras funcionalidades de Aspose.Cells como generación de gráficos, tablas dinámicas y formato avanzado.
+- Experimente con múltiples enlaces externos y recorra ellos programáticamente.  
+- Integre estos fragmentos en aplicaciones Java más grandes para procesamiento de datos de extremo a extremo.  
+- Explore otras funcionalidades de Aspose.Cells como generación de gráficos, tablas dinámicas y formato avanzado.
 
 ## Preguntas frecuentes
 
@@ -152,14 +151,14 @@ R: Sí, Aspose.Cells admite enlazar a numerosos recursos externos dentro de un s
 **P: ¿Cuáles son algunos errores comunes al acceder a enlaces externos?**  
 R: Los problemas típicos incluyen errores de archivo no encontrado y excepciones de permiso denegado.
 
-**P: ¿Cómo manejo enlaces rotos en mi archivo Excel?**  
-R: Usa el método `Workbook.getBrokenExternalLinks()` para identificar y corregir enlaces rotos.
+**P: ¿Cómo manejo los enlaces rotos en mi archivo de Excel?**  
+R: Use el método `Workbook.getBrokenExternalLinks()` para identificar y solucionar los enlaces rotos.
 
 **P: ¿Es posible automatizar la actualización de enlaces en varios libros?**  
-R: Absolutamente—itera sobre una colección de libros y actualiza cada enlace programáticamente.
+R: Absolutamente—itere sobre una colección de libros y actualice cada enlace programáticamente.
 
 **P: ¿Qué debo hacer si la ruta externa de mi libro es incorrecta?**  
-R: Llama a `setAbsolutePath()` con la ruta base correcta para resolver todos los enlaces adecuadamente.
+R: Llame a `setAbsolutePath()` con la ruta base correcta para resolver todos los enlaces correctamente.
 
 ## Recursos
 - [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)
@@ -171,8 +170,8 @@ R: Llama a `setAbsolutePath()` con la ruta base correcta para resolver todos los
 
 ---
 
-**Última actualización:** 2025-12-20  
-**Probado con:** Aspose.Cells 25.3 para Java  
+**Última actualización:** 2026-03-04  
+**Probado con:** Aspose.Cells 25.3 for Java  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
