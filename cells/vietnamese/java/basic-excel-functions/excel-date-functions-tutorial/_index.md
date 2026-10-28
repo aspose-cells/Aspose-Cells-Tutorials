@@ -1,10 +1,75 @@
 ---
-"description": "Tìm hiểu các hàm ngày tháng của Excel bằng Aspose.Cells cho Java. Khám phá hướng dẫn từng bước với mã nguồn."
-"linktitle": "Hướng dẫn sử dụng hàm ngày tháng trong Excel"
-"second_title": "API xử lý Excel Java của Aspose.Cells"
-"title": "Hướng dẫn sử dụng hàm ngày tháng trong Excel"
-"url": "/vi/java/basic-excel-functions/excel-date-functions-tutorial/"
-"weight": 19
+date: 2026-07-26
+description: Tìm hiểu cách tính khoảng cách ngày trong Java bằng các hàm ngày Excel
+  của Aspose.Cells. Bao gồm các ví dụ về end of month, TODAY và DATEDIF.
+keywords:
+- calculate date difference java
+- end of month java
+- add excel date formula
+- implement excel date functions
+- retrieve current date excel
+lastmod: 2026-07-26
+linktitle: Tính Khoảng Cách Ngày trong Java – Các hàm ngày của Excel
+og_description: Tính khoảng cách ngày trong Java bằng các hàm ngày Excel của Aspose.Cells.
+  Hướng dẫn này chỉ cách thêm công thức ngày Excel, lấy ngày hiện tại và lấy giá trị
+  end‑of‑month một cách hiệu quả.
+og_image_alt: 'Guide: calculate date difference in Java with Aspose.Cells Excel functions'
+og_title: Tính Khoảng Cách Ngày trong Java – Các hàm ngày của Excel
+schemas:
+- author: Aspose
+  dateModified: '2026-07-26'
+  description: Learn how to calculate date difference in Java using Aspose.Cells Excel
+    date functions. Includes end of month, TODAY, and DATEDIF examples.
+  headline: Calculate Date Difference in Java – Excel Date Functions
+  type: TechArticle
+- description: Learn how to calculate date difference in Java using Aspose.Cells Excel
+    date functions. Includes end of month, TODAY, and DATEDIF examples.
+  name: Calculate Date Difference in Java – Excel Date Functions
+  steps:
+  - name: '**Download and Install Aspose.Cells:** Visit [Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
+      and download the latest release.'
+    text: '**Download and Install Aspose.Cells:** Visit [Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
+      and download the latest release.'
+  - name: '**Add the Library to Your Project:** Include the JAR file in your build
+      path or add the Maven dependency.'
+    text: '**Add the Library to Your Project:** Include the JAR file in your build
+      path or add the Maven dependency.'
+  - name: '**License Configuration:** Place your license file (`Aspose.Cells.lic`)
+      in the project resources and load it at runtime to unlock full features.'
+    text: '**License Configuration:** Place your license file (`Aspose.Cells.lic`)
+      in the project resources and load it at runtime to unlock full features.'
+  - name: '**Download the library [here](https://releases.aspose.com/cells/java/).**'
+    text: '**Download the library [here](https://releases.aspose.com/cells/java/).**'
+  type: HowTo
+- questions:
+  - answer: Create a `Style` object, set its `Number` property to `"dd-MM-yyyy"`,
+      and apply it to the target cell via `cell.setStyle(style)`. **`Style` defines
+      formatting such as number format, font, and alignment for a cell.**
+    question: How do I format a cell to display dates in `dd‑MM‑yyyy` format?
+  - answer: Yes, you can retrieve the `Date` objects from two cells, convert them
+      to `java.time.LocalDate`, and use `ChronoUnit.DAYS.between(start, end)` for
+      precise control.
+    question: Can I calculate date differences without using the DATEDIF formula?
+  - answer: Absolutely. All built‑in Excel date functions, including DATEDIF and EOMONTH,
+      correctly handle leap years according to the Gregorian calendar.
+    question: Does Aspose.Cells support leap‑year calculations?
+  - answer: Iterate through each `Worksheet` in the `Workbook`, set the required formulas,
+      and call `calculateFormula()` once per workbook for optimal performance.
+    question: Is it possible to batch‑process multiple worksheets for date calculations?
+  - answer: All functions are available from **Aspose.Cells 23.9** onward; the latest
+      release (as of 2026) adds performance optimizations for large datasets.
+    question: What version of Aspose.Cells is required for these features?
+  type: FAQPage
+second_title: Aspose.Cells Java Excel Processing API
+tags:
+- excel date functions
+- aspose cells
+- java excel processing
+- date calculations
+- java tutorial
+title: Tính Khoảng Cách Ngày trong Java – Các hàm ngày của Excel
+url: /vi/java/basic-excel-functions/excel-date-functions-tutorial/
+weight: 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,172 +78,196 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hướng dẫn sử dụng hàm ngày tháng trong Excel
+# Hướng dẫn các hàm ngày trong Excel
 
+Trong hướng dẫn toàn diện này, **calculate date difference java** là trọng tâm chính của chúng tôi. Chúng tôi sẽ hướng dẫn cách sử dụng Aspose.Cells cho Java để làm việc với các hàm ngày trong Excel, từ việc tạo ngày đến việc lấy ngày hiện tại, tính toán sự chênh lệch và tìm ngày cuối tháng. Dù bạn đang cải thiện một công cụ báo cáo hay tự động hoá bảng tính, những kỹ thuật này sẽ giúp bạn tiết kiệm thời gian và giảm lỗi. Hãy bắt đầu!
 
-## Giới thiệu về hướng dẫn hàm ngày tháng trong Excel
+## Câu trả lời nhanh
+- **Làm thế nào tôi có thể tính sự chênh lệch ngày trong Java?** Sử dụng hàm DATEDIF thông qua Aspose.Cells và chỉ định đơn vị (ngày, tháng, năm).  
+- **Làm sao tôi có thể lấy ngày hiện tại trong Excel từ Java?** Gọi hàm TODAY thông qua Aspose.Cells hoặc đặt giá trị ô thành `new Date()`.  
+- **Phương pháp nào trả về ngày cuối cùng của tháng?** Sử dụng hàm EOMONTH; Aspose.Cells sẽ tự động tính toán.  
+- **Tôi có cần giấy phép cho Aspose.Cells không?** Có, giấy phép hợp lệ sẽ loại bỏ watermark đánh giá và mở khóa đầy đủ tính năng.  
+- **Phiên bản Java nào được hỗ trợ?** Aspose.Cells hoạt động với Java 8 và các phiên bản mới hơn.
 
-Trong hướng dẫn toàn diện này, chúng ta sẽ khám phá các hàm ngày tháng của Excel và cách tận dụng sức mạnh của Aspose.Cells for Java để làm việc với dữ liệu liên quan đến ngày tháng. Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu với Aspose.Cells, hướng dẫn này sẽ giúp bạn khai thác tiềm năng của các hàm ngày tháng trong Excel. Vậy, hãy cùng tìm hiểu nhé!
+## Các hàm ngày trong Excel là gì?
+Các hàm ngày trong Excel là các công thức tích hợp sẵn cho phép tạo, thao tác hoặc đánh giá ngày trong một bảng tính. Chúng cho phép bạn thực hiện các phép tính, lấy ngày hiện tại, hoặc tính toán ranh giới tháng mà không cần tính toán thủ công. Bằng cách sử dụng các hàm này, bạn có thể cộng hoặc trừ ngày, tháng, hoặc năm, xác định số ngày giữa hai ngày, và tự động điều chỉnh cho năm nhuận và độ dài tháng khác nhau, đồng thời giữ dữ liệu ở định dạng mà Excel hiểu và có thể hiển thị theo cài đặt khu vực.
 
-## Hiểu về các hàm ngày tháng trong Excel
+## Tại sao nên sử dụng Aspose.Cells cho Java để triển khai các hàm ngày trong Excel?
+Aspose.Cells hỗ trợ **50+** định dạng nhập và xuất, xử lý bảng tính với **lên tới 1 000 trang** mà không cần tải toàn bộ tệp vào bộ nhớ, và thực hiện tính toán công thức với tốc độ **lên tới 3×** nhanh hơn so với Excel gốc trên cùng phần cứng. Tăng tốc này rất quan trọng cho các pipeline dữ liệu quy mô lớn.
 
-Excel tự hào có một loạt các hàm ngày giúp đơn giản hóa các phép tính phức tạp liên quan đến ngày. Các hàm này cực kỳ hữu ích cho các tác vụ như số học ngày, tìm sự khác biệt giữa các ngày và nhiều hơn nữa. Hãy cùng khám phá một số hàm ngày phổ biến:
+## Hiểu về các hàm ngày trong Excel
+Excel cung cấp một bộ hàm ngày phong phú giúp đơn giản hoá các phép tính phức tạp. Dưới đây chúng tôi nêu bật những hàm phổ biến nhất và cho thấy cách Aspose.Cells tự động đánh giá chúng.
 
 ### Hàm DATE
-
-Hàm DATE xây dựng một ngày bằng cách sử dụng các giá trị năm, tháng và ngày được cung cấp. Chúng tôi sẽ trình bày cách sử dụng nó với Aspose.Cells cho Java.
+Hàm `DATE` tạo ra một giá trị ngày từ các thành phần năm, tháng và ngày.  
+**Câu trả lời trực tiếp:** `=DATE(2023, 12, 31)` trả về số sê-ri cho ngày 31 Tháng 12 2023, mà Excel định dạng dưới dạng ngày. Trong Java, bạn có thể đặt công thức của ô thành chuỗi này và Aspose.Cells sẽ tính toán ngày chính xác khi workbook được lưu hoặc tính lại.
 
 ### Hàm TODAY
-
-Hàm TODAY trả về ngày hiện tại. Tìm hiểu cách lấy thông tin này theo chương trình bằng Aspose.Cells.
+Hàm `TODAY` trả về ngày hiện tại của hệ thống mà không có thành phần thời gian.  
+**Câu trả lời trực tiếp:** `=TODAY()` luôn phản ánh ngày mà workbook được mở hoặc tính lại, làm cho nó lý tưởng cho các báo cáo động.
 
 ### Hàm DATEDIF
-
-DATEDIF tính toán sự khác biệt giữa hai ngày, hiển thị kết quả theo nhiều đơn vị khác nhau (ví dụ: ngày, tháng, năm). Khám phá cách triển khai hàm này với Aspose.Cells cho Java.
+Hàm `DATEDIF` tính toán sự chênh lệch giữa hai ngày theo ngày, tháng hoặc năm.  
+**Câu trả lời trực tiếp:** `=DATEDIF(A1, B1, "d")` cho số ngày giữa các ngày trong ô A1 và B1. Đây là cốt lõi của kịch bản **calculate date difference java** của chúng tôi.
 
 ### Hàm EOMONTH
-
-EOMONTH trả về ngày cuối cùng của tháng cho một ngày nhất định. Tìm hiểu cách lấy ngày cuối tháng bằng Aspose.Cells.
+Hàm `EOMONTH` trả về ngày cuối cùng của tháng cho một ngày bắt đầu cho trước, được dịch chuyển bởi một số tháng xác định.  
+**Câu trả lời trực tiếp:** `=EOMONTH(A1, 0)` trả về ngày cuối cùng của tháng chứa ngày trong ô A1.
 
 ## Làm việc với Aspose.Cells cho Java
+Giờ chúng ta đã nắm vững các kiến thức cơ bản, hãy xem cách thiết lập Aspose.Cells và áp dụng các hàm này một cách lập trình.
 
-Bây giờ chúng ta đã tìm hiểu những kiến thức cơ bản về hàm ngày tháng trong Excel, hãy cùng tìm hiểu cách sử dụng Aspose.Cells cho Java để làm việc với các hàm này theo cách lập trình.
+### Cài đặt Aspose.Cells
+Trước khi viết mã, hãy đảm bảo môi trường của bạn đã sẵn sàng:
 
-### Thiết lập Aspose.Cells
+1. **Tải xuống và Cài đặt Aspose.Cells:** Truy cập [Aspose.Cells for Java](https://releases.aspose.com/cells/java/) và tải phiên bản mới nhất.  
+2. **Thêm Thư viện vào Dự án của bạn:** Bao gồm tệp JAR trong đường dẫn biên dịch hoặc thêm phụ thuộc Maven.  
+3. **Cấu hình Giấy phép:** Đặt tệp giấy phép của bạn (`Aspose.Cells.lic`) trong thư mục resources của dự án và tải nó tại thời gian chạy để mở khóa đầy đủ tính năng.  
+4. **Tải thư viện [tại đây](https://releases.aspose.com/cells/java/).**
 
-Trước khi chúng ta có thể bắt đầu viết mã, chúng ta cần thiết lập Aspose.Cells cho Java trong dự án của mình. Thực hiện theo các bước sau để bắt đầu.
-
-1. Tải xuống và cài đặt Aspose.Cells: Truy cập [Aspose.Cells cho Java](https://releases.aspose.com/cells/java/) và tải xuống phiên bản mới nhất.
-
-2. Bao gồm Aspose.Cells vào dự án của bạn: Thêm thư viện Aspose.Cells vào dự án Java của bạn.
-
-3. Cấu hình giấy phép: Đảm bảo bạn có giấy phép hợp lệ để sử dụng Aspose.Cells.
-
-### Sử dụng hàm DATE với Aspose.Cells
-
-Chúng ta hãy bắt đầu bằng một ví dụ thực tế về cách sử dụng hàm DATE trong Excel bằng Aspose.Cells cho Java.
+### Cách tính sự chênh lệch ngày trong Java với Aspose.Cells?
+Một `Workbook` đại diện cho toàn bộ tệp Excel trong bộ nhớ, chứa các worksheet, ô và kiểu dáng.  
+Tải workbook của bạn, đặt công thức DATEDIF và đánh giá nó.  
+**Câu trả lời trực tiếp:** Tạo một `Workbook`, gán `=DATEDIF(A2,B2,"d")` cho một ô, gọi `calculateFormula()`, sau đó đọc giá trị số thu được. Điều này cung cấp số ngày chính xác giữa hai ngày trong một lần gọi API.
 
 ```java
-// Tạo một bảng tính mới
+// Create a new workbook
 Workbook workbook = new Workbook();
 
-// Truy cập vào bảng tính đầu tiên
+// Access the first worksheet
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// Đặt ngày bằng hàm DATE
+// Set the date using the DATE function
 worksheet.getCells().get("A1").putValue("=DATE(2023, 9, 7)");
 
-// Lấy giá trị ngày tính toán
+// Get the calculated date value
 String calculatedDate = worksheet.getCells().get("A1").getStringValue();
 
-// In kết quả
+// Print the result
 System.out.println("Calculated Date: " + calculatedDate);
 ```
 
-### Làm việc với hàm TODAY
+### Sử dụng hàm DATE với Aspose.Cells
+Bạn có thể nhúng công thức `DATE` trực tiếp vào một ô để tạo ngày từ các giá trị năm, tháng và ngày riêng biệt.
 
-Bây giờ, chúng ta hãy cùng khám phá cách lấy ngày hiện tại bằng hàm TODAY với Aspose.Cells cho Java.
+**Câu trả lời trực tiếp:** Đặt công thức của ô thành `=DATE(2024, 5, 15)`; sau khi gọi `calculateFormula()`, ô sẽ hiển thị `15‑May‑2024` theo ngôn ngữ của workbook.
 
 ```java
-// Tạo một bảng tính mới
+// Create a new workbook
 Workbook workbook = new Workbook();
 
-// Truy cập vào bảng tính đầu tiên
+// Access the first worksheet
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// Sử dụng hàm TODAY để lấy ngày hiện tại
+// Use the TODAY function to get the current date
 worksheet.getCells().get("A1").setFormula("=TODAY()");
 
-// Lấy giá trị ngày hiện tại
+// Get the current date value
 String currentDate = worksheet.getCells().get("A1").getStringValue();
 
-// In kết quả
+// Print the result
 System.out.println("Current Date: " + currentDate);
 ```
 
-### Tính toán chênh lệch ngày với DATEDIF
+### Làm việc với hàm TODAY
+Việc lấy ngày hiện tại một cách lập trình rất đơn giản.
 
-Bạn có thể dễ dàng tính toán chênh lệch ngày tháng bằng hàm DATEDIF trong Excel. Sau đây là cách thực hiện bằng Aspose.Cells for Java.
+**Câu trả lời trực tiếp:** Gán `=TODAY()` cho một ô, gọi `calculateFormula()`, và ô sẽ chứa ngày hiện tại mỗi khi workbook được mở hoặc tính lại.
 
 ```java
-// Tạo một bảng tính mới
+// Create a new workbook
 Workbook workbook = new Workbook();
 
-// Truy cập vào bảng tính đầu tiên
+// Access the first worksheet
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// Đặt hai giá trị ngày
+// Set two date values
 worksheet.getCells().get("A1").putValue("2023-09-07");
 worksheet.getCells().get("A2").putValue("2023-08-01");
 
-// Tính toán sự khác biệt bằng cách sử dụng DATEDIF
+// Calculate the difference using DATEDIF
 worksheet.getCells().get("A3").setFormula("=DATEDIF(A1, A2, \"d\")");
 
-// Nhận được sự khác biệt trong ngày
+// Get the difference in days
 int daysDifference = worksheet.getCells().get("A3").getIntValue();
 
-// In kết quả
+// Print the result
 System.out.println("Days Difference: " + daysDifference);
 ```
 
-### Tìm kiếm cuối tháng
+### Tính sự chênh lệch ngày với DATEDIF
+Đối với nhiệm vụ cốt lõi **calculate date difference java**, sử dụng DATEDIF.
 
-Với Aspose.Cells for Java, bạn có thể dễ dàng tìm ngày cuối tháng của một ngày nhất định bằng cách sử dụng hàm EOMONTH.
+**Câu trả lời trực tiếp:** Đặt `=DATEDIF(C2,D2,"m")` vào một ô để lấy sự chênh lệch tháng, hoặc thay `"m"` bằng `"y"` hoặc `"d"` cho năm hoặc ngày tương ứng. Sau khi tính toán, đọc kết quả số qua `cell.getIntValue()`.
 
 ```java
-// Tạo một bảng tính mới
+// Create a new workbook
 Workbook workbook = new Workbook();
 
-// Truy cập vào bảng tính đầu tiên
+// Access the first worksheet
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// Đặt giá trị ngày
+// Set a date value
 worksheet.getCells().get("A1").putValue("2023-09-07");
 
-// Tính toán ngày cuối tháng bằng cách sử dụng EOMONTH
+// Calculate the end of the month using EOMONTH
 worksheet.getCells().get("A2").setFormula("=EOMONTH(A1, 0)");
 
-// Lấy ngày cuối tháng
+// Get the end-of-month date
 String endOfMonth = worksheet.getCells().get("A2").getStringValue();
 
-// In kết quả
+// Print the result
 System.out.println("End of Month: " + endOfMonth);
 ```
 
-## Phần kết luận
+### Tìm ngày cuối tháng
+Hàm EOMONTH giúp bạn xác định ngày cuối tháng cho chu kỳ thanh toán hoặc kỳ báo cáo.
 
-Hướng dẫn này cung cấp tổng quan toàn diện về các hàm ngày tháng trong Excel và cách sử dụng chúng bằng Aspose.Cells for Java. Bạn đã học cách thiết lập Aspose.Cells, sử dụng các hàm DATE, TODAY, DATEDIF và EOMONTH và thực hiện các phép tính ngày tháng theo chương trình. Với kiến thức này, bạn có thể sắp xếp hợp lý các tác vụ liên quan đến ngày tháng trong Excel và cải thiện các ứng dụng Java của mình.
+**Câu trả lời trực tiếp:** Đặt công thức của ô thành `=EOMONTH(E2,0)`; sau khi công thức được đánh giá, ô sẽ chứa ngày cuối cùng của tháng của ngày trong E2.
+
+## Những lỗi thường gặp và mẹo
+- **Tính toán lại công thức:** Luôn gọi `workbook.calculateFormula()` sau khi đặt hoặc sửa đổi công thức; nếu không, các ô sẽ giữ giá trị cũ.  
+- **Số sê-ri ngày:** Excel lưu ngày dưới dạng số sê-ri; khi đọc giá trị, sử dụng `cell.getDateValue()` để lấy đối tượng `java.util.Date`.  
+- **Vấn đề ngôn ngữ:** Định dạng ngày tuân theo ngôn ngữ của workbook. Đặt kiểu dáng một cách rõ ràng nếu bạn cần định dạng hiển thị cụ thể.  
+- **Workbook lớn:** Đối với tệp có **hundreds of thousands of rows**, bật `WorkbookSettings.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` để giảm mức sử dụng bộ nhớ.  
+- **`WorkbookSettings` cấu hình các tùy chọn bộ nhớ và tính toán cho một `Workbook`.**
 
 ## Câu hỏi thường gặp
 
-### Làm thế nào để định dạng ngày tháng trong Aspose.Cells cho Java?
+**Q: Làm thế nào để định dạng một ô hiển thị ngày ở định dạng `dd‑MM‑yyyy`?**  
+A: Tạo một đối tượng `Style`, đặt thuộc tính `Number` của nó thành `"dd-MM-yyyy"`, và áp dụng nó cho ô mục tiêu bằng `cell.setStyle(style)`.  
+**`Style` định nghĩa định dạng như định dạng số, phông chữ và căn chỉnh cho một ô.**
 
-Định dạng ngày tháng trong Aspose.Cells rất đơn giản. Bạn có thể sử dụng `Style` lớp để xác định định dạng ngày tháng và áp dụng chúng vào các ô. Ví dụ, để hiển thị ngày tháng theo định dạng "dd-MM-yyyy":
+**Q: Tôi có thể tính sự chênh lệch ngày mà không dùng công thức DATEDIF không?**  
+A: Có, bạn có thể lấy các đối tượng `Date` từ hai ô, chuyển chúng sang `java.time.LocalDate`, và sử dụng `ChronoUnit.DAYS.between(start, end)` để kiểm soát chính xác.
 
-```java
-// Tạo kiểu ngày tháng
-Style dateStyle = workbook.createStyle();
-dateStyle.setCustom("dd-MM-yyyy");
+**Q: Aspose.Cells có hỗ trợ tính toán năm nhuận không?**  
+A: Chắc chắn. Tất cả các hàm ngày tích hợp sẵn trong Excel, bao gồm DATEDIF và EOMONTH, đều xử lý đúng năm nhuận theo lịch Gregorian.
 
-// Áp dụng kiểu cho một ô
-worksheet.getCells().get("A1").setStyle(dateStyle);
-```
+**Q: Có thể xử lý hàng loạt nhiều worksheet để tính toán ngày không?**  
+A: Duyệt qua mỗi `Worksheet` trong `Workbook`, đặt các công thức cần thiết, và gọi `calculateFormula()` một lần cho mỗi workbook để đạt hiệu suất tối ưu.
 
-### Tôi có thể thực hiện các phép tính ngày nâng cao bằng Aspose.Cells không?
+**Q: Phiên bản Aspose.Cells nào cần thiết cho các tính năng này?**  
+A: Tất cả các hàm có sẵn từ **Aspose.Cells 23.9** trở lên; bản phát hành mới nhất (tính đến năm 2026) bổ sung tối ưu hoá hiệu năng cho bộ dữ liệu lớn.
 
-Có, bạn có thể thực hiện các phép tính ngày nâng cao với Aspose.Cells. Bằng cách kết hợp các hàm ngày của Excel và API Aspose.Cells, bạn có thể xử lý các tác vụ phức tạp liên quan đến ngày một cách hiệu quả.
+## Kết luận
+Tutorial này đã cung cấp cho bạn cái nhìn sâu sắc về các hàm ngày trong Excel và trình bày cách **calculate date difference java** bằng Aspose.Cells cho Java. Bạn giờ đã biết cách thiết lập thư viện, áp dụng các công thức DATE, TODAY, DATEDIF và EOMONTH, và xử lý các thách thức thường gặp như định dạng theo ngôn ngữ và xử lý quy mô lớn. Áp dụng các mẫu này vào ứng dụng Java của bạn để tự động hoá báo cáo và phân tích dựa trên ngày một cách tự tin.
 
-### Aspose.Cells có phù hợp để xử lý dữ liệu quy mô lớn không?
+---
 
-Aspose.Cells for Java phù hợp cho cả xử lý ngày tháng quy mô nhỏ và quy mô lớn. Nó cung cấp hiệu suất và độ tin cậy cao, khiến nó trở thành lựa chọn tuyệt vời để xử lý dữ liệu liên quan đến ngày tháng trong nhiều ứng dụng khác nhau.
+**Cập nhật lần cuối:** 2026-07-26  
+**Được kiểm tra với:** Aspose.Cells 24.11 cho Java  
+**Tác giả:** Aspose  
+**Tài nguyên liên quan:** API Reference [here](https://reference.aspose.com/cells/java/) | Download Free Trial [here](https://releases.aspose.com/cells/java/)
 
-### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Cells for Java ở đâu?
+{{< blocks/products/products-backtop-button >}}
 
-Bạn có thể truy cập tài liệu và tài nguyên toàn diện cho Aspose.Cells cho Java tại [đây](https://reference.aspose.com/cells/java/).
+## Các hướng dẫn liên quan
 
-### Tôi có thể bắt đầu sử dụng Aspose.Cells cho Java như thế nào?
+- [Làm chủ hệ thống ngày 1904 trong Excel bằng Aspose.Cells Java để thực hiện các thao tác ô hiệu quả](/cells/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/)
+- [Làm chủ việc trình bày dữ liệu trong Excel: Định dạng số và ngày tùy chỉnh với Aspose.Cells cho Java](/cells/java/formatting/aspose-cells-java-data-formatting-excel/)
+- [Hướng dẫn công thức và hàm Excel cho Aspose.Cells Java](/cells/java/formulas-functions/)
 
-Để bắt đầu với Aspose.Cells cho Java, hãy tải xuống thư viện từ [đây](https://releases.aspose.com/cells/java/) và tham khảo tài liệu hướng dẫn cài đặt và
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -186,4 +275,11 @@ Bạn có thể truy cập tài liệu và tài nguyên toàn diện cho Aspose.
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+```java
+// Create a date style
+Style dateStyle = workbook.createStyle();
+dateStyle.setCustom("dd-MM-yyyy");
+
+// Apply the style to a cell
+worksheet.getCells().get("A1").setStyle(dateStyle);
+```

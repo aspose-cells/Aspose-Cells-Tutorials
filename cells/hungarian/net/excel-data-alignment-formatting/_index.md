@@ -38,6 +38,9 @@ További információ arról, hogyan [Az Excel cellák igazításának módosít
 ### [Az Excel cellák igazításának módosítása a formázás elvesztése nélkül](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
 Tanuld meg, hogyan módosíthatod az Excel cellák igazítását a formázás elvesztése nélkül az Aspose.Cells for .NET segítségével. Kövesd átfogó, lépésről lépésre szóló útmutatónkat a zökkenőmentes vezérlés érdekében.
 
+### [Szöveg tördelése Excelben: Szöveg cellában, automatikus méretezés és mentés](./how-to-wrap-text-in-excel-wrap-text-in-cell-auto-fit-save/)
+Ismerd meg, hogyan lehet szöveget tördelni Excel cellákban, automatikusan méretezni a sorokat és menteni a változtatásokat.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

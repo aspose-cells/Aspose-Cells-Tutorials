@@ -48,7 +48,7 @@ Scopri come utilizzare Aspose.Cells per Java per aggiungere caselle di testo e i
 Scopri come migliorare i tuoi file Excel con WordArt utilizzando Aspose.Cells per Java. Questo tutorial illustra la configurazione, esempi di codice e applicazioni pratiche.
 
 ### [Migliora i report di Excel: aggiungi forme ad arco con gradienti utilizzando Aspose.Cells per Java](./aspose-cells-java-arc-shapes-gradients-excel/)
-Scopri come migliorare i tuoi report Excel aggiungendo forme ad arco con riempimenti sfumati utilizzando Aspose.Cells per Java. Segui questa guida completa per creare documenti visivamente accattivanti.
+Scopri come migliorare i tuoi report Excel aggiungendo forme ad arco con riempimenti sfumati utilizzando Aspose.Cells per Java. Segui questa guida completa per creare documenti visualmente accattivanti.
 
 ### [Come impostare un'immagine di intestazione in Excel utilizzando Aspose.Cells Java](./aspose-cells-java-header-image-excel/)
 Scopri come aggiungere immagini di intestazione personalizzate alle cartelle di lavoro di Excel utilizzando Aspose.Cells per Java, migliorando l'aspetto visivo e la professionalità dei tuoi fogli di calcolo.
@@ -131,7 +131,8 @@ Un tutorial sul codice per Aspose.Words Java
 ### [Impostare un'immagine di sfondo in Excel utilizzando Aspose.Cells Java (guida passo passo)](./set-background-picture-excel-aspose-cells-java/)
 Scopri come migliorare i tuoi report Excel aggiungendo immagini di sfondo con Aspose.Cells Java. Segui questa guida passo passo per un'implementazione impeccabile.
 
-
+### [Come creare PNG da un intervallo in Java con Aspose.Cells](./how-to-create-png-from-range-in-java-with-aspose-cells/)
+Scopri come generare un'immagine PNG da un intervallo di celle in Excel usando Aspose.Cells per Java.
 
 ## Risorse aggiuntive
 

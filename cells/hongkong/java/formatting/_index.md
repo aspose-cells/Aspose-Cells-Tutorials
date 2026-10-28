@@ -101,8 +101,11 @@
 ### [使用 Aspose.Cells for Java 掌握工作簿和樣式管理](./aspose-cells-java-workbook-style-management/)
 Aspose.Words Java 程式碼教程
 
+### [如何使用 Aspose.Cells for Java 在 Excel 中設定數字格式 – 完整指南](./set-number-format-excel-in-java-complete-guide/)
+了解如何使用 Aspose.Cells for Java 設定 Excel 的自訂數字格式，提供完整範例與最佳實踐。
+
 ### [掌握 Aspose.Cells Java：工作簿樣式和 Excel 中的高效資料流](./aspose-cells-java-workbook-styles-streaming/)
-了解如何使用 Aspose.Cells for Java 建立自訂工作簿樣式並使用 LightCellsDataProvider 高效傳輸大型資料集。立即增強您的 Excel 文件處理技能。
+了解如何使用 Aspose.Cells Java 簡化 Excel 工作簿樣式和資料操作。本指南涵蓋初始化、樣式技術和高效資料處理。
 
 ### [使用 Aspose.Cells 掌握 Java 工作簿風格：完整指南](./aspose-cells-java-workbook-styling-guide/)
 了解如何使用 Aspose.Cells for Java 建立和設定 Excel 工作簿的樣式。本指南涵蓋工作簿建立、樣式技術和實際應用。
@@ -177,10 +180,13 @@ Aspose.Words Java 程式碼教程
 了解如何使用 Aspose.Cells for Java 自動執行 Excel 工作簿中的條件格式。簡化數據呈現並提高生產力。
 
 ### [使用 Aspose.Cells 掌握 Java 中的自訂十進位數字格式](./master-custom-dbnum-formatting-aspose-cells-java/)
-了解如何使用 Aspose.Cells 在 Java 中實作自訂 DBNum 格式，以實現精確、專業的資料呈現。請按照本逐步指南來增強應用程式的數位顯示。
+了解如何使用 Aspose.Cells 在 Java 中實作自訂 DBNum 格式，以實現精確、專業的資料呈現。請按照本逐步指南來增強您的應用程式的數位顯示。
 
 ### [使用 Aspose.Cells for Java 掌握 Excel 中的自訂數字分隔符](./master-custom-number-separators-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 在 Excel 中自訂小數和千位分隔符，確保不同語言環境中的資料清晰度。
+
+### [在 Java 中套用 Excel 數字格式 – 完整 Aspose.Cells 指南](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+了解如何使用 Aspose.Cells for Java 在 Excel 中套用自訂數字格式，提升資料呈現與報表外觀。
 
 ### [如何使用 Aspose.Cells for Java 合併並設定 Excel 儲存格樣式：完整指南](./master-merging-styling-cells-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 合併並設定 Excel 中的儲存格樣式。本指南涵蓋合併、樣式、自動調整行和實際應用。
@@ -218,7 +224,7 @@ Aspose.Words Java 程式碼教程
 ### [使用 Aspose.Cells for Java 高效率修改 Excel 中的命名樣式](./modify-named-styles-excel-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 自動修改 Excel 電子表格中的樣式，從而節省時間並確保一致性。
 
-### [使用 Aspose.Cells for Java 掌握 Excel 工作表與合併儲存格的最佳化](./optimize-excel-sheets-merged-cells-aspose-cells-java/)
+### [使用 Aspose.Cells for Java 探索 Excel 工作表與合併儲存格的最佳化](./optimize-excel-sheets-merged-cells-aspose-cells-java/)
 學習使用 Aspose.Cells for Java 合併儲存格來最佳化您的 Excel 工作表。本指南涵蓋工作簿的操作、樣式和有效保存。
 
 ### [使用 Aspose.Cells Java 在 Excel 儲存格中旋轉文字：完整指南](./rotate-text-excel-cells-aspose-cells-java/)
@@ -233,7 +239,21 @@ Aspose.Words Java 程式碼教程
 ### [如何使用 Aspose.Cells for Java 設定 Excel 儲存格樣式並新增超鏈接](./style-excel-cells-hyperlinks-aspose-cells-java/)
 使用 Aspose.Cells 掌握 Excel 儲存格的樣式以及在 Java 應用程式中新增超連結。請按照此綜合指南進行無縫整合和格式化。
 
+### [在 Java 中建立具動態格式化的 Excel 工作簿 – 完整指南](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+了解如何使用 Aspose.Cells for Java 在 Java 中建立 Excel 工作簿，並套用動態格式化以提升資料呈現效果。
+### [將 DataTable 轉換為 Excel 時套用樣式 – 完整 Java 教學](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 
+### [Aspose Cells 日期格式：如何在 Java 中設定自訂日期格式](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+了解如何使用 Aspose.Cells for Java 在 Excel 中設定自訂日期格式，以符合特定顯示需求。
+### [在 Java Excel 匯出中設定字體粗體：完整指南](./set-font-bold-in-java-excel-export-complete-guide/)
+了解如何使用 Aspose.Cells for Java 在 Java Excel 匯出時將字體設定為粗體。本指南提供逐步說明、程式碼範例與最佳實踐。
+
+### [在 Excel 中使用 Java 設定自訂數字格式 – 完整指南](./set-custom-number-format-in-excel-with-java-complete-guide/)
+了解如何使用 Aspose.Cells for Java 在 Excel 中設定自訂數字格式，提供逐步說明與程式碼範例。
+### [在 Java 中建立樣式化 Excel 工作簿 – 完整指南](./create-styled-excel-workbook-in-java-complete-guide/)
+
+### [如何在 Aspose.Cells 中使用 WRAPCOLS – 完整 Java 示例](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+了解如何在 Aspose.Cells for Java 中使用 WRAPCOLS 方法自動換列，並透過完整範例掌握其應用技巧。
 
 ## 其他資源
 

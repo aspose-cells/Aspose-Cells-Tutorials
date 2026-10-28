@@ -59,8 +59,18 @@ Leer hoe u lettertypen in Excel-documenten kunt aanpassen met Aspose.Cells voor 
 ### [Aangepaste getalnotaties in Java Excel-werkmappen onder de knie krijgen met Aspose.Cells](./aspose-cells-java-custom-number-formats-handling/)
 Leer hoe u aangepaste getalnotaties in Java-werkmappen kunt verwerken met Aspose.Cells. Deze handleiding behandelt de configuratie van werkmappen, uitzonderingsafhandeling en praktische toepassingen.
 
+### [Getalnotatie instellen in Excel met Java – Complete handleiding](./set-number-format-excel-in-java-complete-guide/)
+Leer hoe u getalnotaties in Excel-werkbladen instelt met Aspose.Cells voor Java, inclusief codevoorbeelden en best practices.
+### [Aangepast getalformaat instellen in Excel met Java – Complete handleiding](./set-custom-number-format-in-excel-with-java-complete-guide/)
+Leer hoe u aangepaste getalnotaties in Excel kunt instellen met Aspose.Cells voor Java. Deze stap‑voor‑stap gids toont codevoorbeelden en best practices.
+### [Getalnotatie toepassen in Excel met Java – Complete Aspose.Cells-gids](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+Leer hoe u getalnotaties in Excel toepast met Aspose.Cells voor Java. Deze complete gids biedt stapsgewijze instructies en werkende codevoorbeelden.
+
 ### [Gegevenspresentatie in Excel onder de knie krijgen: getal- en aangepaste datumnotatie met Aspose.Cells voor Java](./aspose-cells-java-data-formatting-excel/)
 Leer hoe u getalnotaties en aangepaste datumstijlen kunt toepassen met Aspose.Cells voor Java, waarmee u de presentatie van gegevens in Excel-spreadsheets kunt verbeteren.
+
+### [Aspose Cells datumopmaak: hoe een aangepaste datumopmaak instellen in Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+Leer hoe u met Aspose.Cells voor Java aangepaste datumopmaak in Excel kunt definiëren en toepassen.
 
 ### [Excel-cellen maken en opmaken met Aspose.Cells voor Java: een stapsgewijze handleiding](./aspose-cells-java-excel-automation-guide/)
 Leer hoe u Excel-bestanden eenvoudig kunt automatiseren en opmaken met Aspose.Cells voor Java. Deze handleiding behandelt het maken van werkmappen, het opmaken van cellen en het opslaan van gegevens.
@@ -228,12 +238,24 @@ Leer hoe je tekst in Excel-cellen roteert met Aspose.Cells voor Java. Verbeter j
 Leer hoe u de zoomfactor in Excel-werkbladen instelt met Aspose.Cells voor Java. Verbeter uw datapresentatie en reviewmogelijkheden programmatisch.
 
 ### [Excel-gegevens sorteren op kolomkleur met Aspose.Cells Java: een complete handleiding](./sort-excel-data-by-column-color-aspose-cells-java/)
-Leer hoe u Excel-gegevens efficiënt kunt sorteren op kolomkleur met Aspose.Cells voor Java. Deze handleiding behandelt de vereisten, implementatiestappen en praktische toepassingen.
+Leer hoe u Excel-gegevens efficiënt kunt sorteren op kolomkleur met Aspose.Cells Java. Deze handleiding behandelt de vereisten, implementatiestappen en praktische toepassingen.
 
 ### [Hoe u Excel-cellen kunt stylen en hyperlinks kunt toevoegen met Aspose.Cells voor Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Beheers de styling van Excel-cellen en het toevoegen van hyperlinks in je Java-applicaties met Aspose.Cells. Volg deze uitgebreide handleiding voor naadloze integratie en opmaak.
 
+### [Excel-werkmap maken met dynamische opmaak in Java – volledige handleiding](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+Leer hoe u een Excel-werkmap maakt en dynamische opmaak toepast met Aspose.Cells voor Java. Deze volledige handleiding bevat stap‑voor‑stap codevoorbeelden.
 
+### [Vet lettertype instellen in Java Excel-export – Complete handleiding](./set-font-bold-in-java-excel-export-complete-guide/)
+Leer hoe u tekst vet maakt bij het exporteren van Excel-bestanden met Aspose.Cells voor Java.
+
+### [Hoe stijlen toe te passen bij het converteren van DataTable naar Excel – volledige Java-gids](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
+Leer hoe u met Aspose.Cells voor Java stijlen toepast tijdens het omzetten van een DataTable naar een Excel-bestand.
+### [Stijlvol Excel-werkboek maken in Java: een complete handleiding](./create-styled-excel-workbook-in-java-complete-guide/)
+Leer hoe u een gestileerd Excel-werkboek maakt met Aspose.Cells voor Java, inclusief codevoorbeelden en best practices.
+
+### [Hoe WRAPCOLS te gebruiken in Aspose.Cells – Complete Java-voorbeeld](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Leer hoe u de WRAPCOLS‑functie in Aspose.Cells voor Java gebruikt om tekst over kolommen te laten wikkelen. Deze tutorial biedt stapsgewijze codevoorbeelden.
 
 ## Aanvullende bronnen
 

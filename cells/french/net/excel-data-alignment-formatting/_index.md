@@ -37,6 +37,8 @@ En savoir plus sur la façon de procéder [Modifier l'alignement des cellules Ex
 ## Tutoriels d'alignement et de formatage des données Excel
 ### [Modifier l'alignement des cellules Excel sans perte de formatage](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
 Apprenez à modifier l'alignement des cellules Excel sans perte de mise en forme grâce à Aspose.Cells pour .NET. Suivez notre guide complet étape par étape pour un contrôle optimal.
+### [Comment envelopper du texte dans Excel : texte dans la cellule, ajustement automatique et sauvegarde](./how-to-wrap-text-in-excel-wrap-text-in-cell-auto-fit-save/)
+Apprenez à activer le renvoi à la ligne dans les cellules Excel, à ajuster automatiquement la hauteur/largeur et à enregistrer le classeur.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

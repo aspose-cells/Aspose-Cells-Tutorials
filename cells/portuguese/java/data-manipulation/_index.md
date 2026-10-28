@@ -62,7 +62,8 @@ Aprenda a preencher planilhas do Excel com eficiência usando dados aninhados us
 ### [Como realizar a substituição de expressões regulares no Excel usando Aspose.Cells para Java: um guia completo](./regex-replacement-excel-aspose-cells-java-guide/)
 Aprenda a automatizar substituições de texto em arquivos do Excel usando regex com Aspose.Cells para Java. Este guia passo a passo aborda inicialização, configuração e aplicações práticas.
 
-
+### [Como dividir colunas em Java com Aspose.Cells – guia passo a passo](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
+Aprenda a dividir colunas em planilhas do Excel usando Aspose.Cells para Java, com instruções detalhadas passo a passo.
 
 ## Recursos adicionais
 

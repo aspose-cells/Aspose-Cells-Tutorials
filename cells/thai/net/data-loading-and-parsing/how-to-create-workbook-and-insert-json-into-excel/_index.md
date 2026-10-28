@@ -23,9 +23,7 @@ title: วิธีสร้างสมุดงานและแทรก JSO
 url: /th/net/data-loading-and-parsing/how-to-create-workbook-and-insert-json-into-excel/
 ---
 
-any URLs: none besides image.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

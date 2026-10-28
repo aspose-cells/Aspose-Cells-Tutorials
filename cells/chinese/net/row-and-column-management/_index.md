@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 行列管理
@@ -46,41 +44,89 @@
 ## 行和列管理教程
 ### [使用 Aspose.Cells for .NET 复制列](./copying-columns/)
 探索使用 Aspose.Cells for .NET 在 Excel 中复制列的分步指南。清晰的说明简化您的数据处理任务。
+
 ### [使用 Aspose.Cells for .NET 复制行](./copying-rows/)
 了解如何使用 Aspose.Cells for .NET 高效地复制 Excel 文件中的行。本分步指南将简化行复制操作，满足您的数据管理需求。
-### [使用 Aspose.Cells 在 Excel 中对行和列进行分组](./grouping-rows-and-columns/)
+
+### [使用 Aspose.Cells for .NET 将行从一个工作表复制到另一个工作表](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中将行从一个工作表复制到另一个工作表的完整步骤。
+
+### [使用 Aspose.Cells for .NET 在 Excel 中对行和列进行分组](./grouping-rows-and-columns/)
 通过本分步指南了解如何使用 Aspose.Cells for .NET 对 Excel 中的行和列进行分组。
+
 ### [使用 Aspose.Cells for .NET 创建下面的摘要行](./summary-row-below/)
 了解如何使用 Aspose.Cells for .NET 在 Excel 中分组行下方创建汇总行。包含分步指南。
+
 ### [使用 Aspose.Cells for .NET 创建摘要行](./summary-row-right/)
 学习如何使用 Aspose.Cells for .NET 在 Excel 右侧创建摘要行。请遵循我们的分步指南，获取清晰的说明。
+
 ### [使用 Aspose.Cells 在 Excel 中取消行和列的分组](./ungrouping-rows-and-columns/)
 通过本指南，了解如何使用 Aspose.Cells for .NET 在 Excel 中取消行和列的分组。简化您的 Excel 数据操作。
+
 ### [在 Aspose.Cells .NET 中隐藏多行和多列](./hide-multiple-rows-columns-aspose-cells/)
 了解如何使用 Aspose.Cells for .NET 轻松隐藏 Excel 中的多行和多列。按照本分步指南，即可轻松实现 Excel 的无缝操作。
+
 ### [在 Aspose.Cells .NET 中隐藏行和列](./hide-rows-columns-aspose-cells/)
 了解如何使用 Aspose.Cells for .NET 隐藏 Excel 文件中的行和列。逐步指导如何在 C# 应用程序中管理数据可见性。
+
 ### [在 Aspose.Cells .NET 中取消隐藏行和列](./unhide-rows-columns-aspose-cells/)
 通过我们的分步指南，学习如何使用 Aspose.Cells for .NET 在 Excel 中取消隐藏行和列。非常适合数据操作。
+
 ### [在 Aspose.Cells .NET 中删除列](./delete-column-aspose-cells/)
 了解如何使用 Aspose.Cells for .NET 删除 Excel 文件中的某一列。遵循我们详细的分步指南，简化您的 Excel 文件修改过程。
+
 ### [在 Aspose.Cells .NET 中删除一行](./delete-row-aspose-cells/)
 学习如何使用 Aspose.Cells for .NET 在 Excel 中删除一行。本分步指南涵盖先决条件、代码导入以及无缝数据操作的详细演示。
+### [如何使用 C# 删除 Excel 文件中的整行](./how-to-delete-entire-row-in-an-excel-file-using-c/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中删除 Excel 工作表的整行数据，提供完整代码示例。
 ### [在 Aspose.Cells .NET 中删除多行](./delete-multiple-rows-aspose-cells/)
 学习如何使用 Aspose.Cells for .NET 在 Excel 中删除多行数据。本指南详细分步，涵盖先决条件、代码示例以及开发人员常见问题解答。
+### [在 Aspose.Cells .NET 中删除行并保护标题行](./aspose-cells-delete-rows-protect-header-row-in-excel/)
+学习如何在删除行时保留标题行，防止误删关键数据的分步指南。
+### [使用 C# 删除 Excel 行 – 保护表头](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
+了解如何使用 C# 删除 Excel 中的行，并保护表头不被删除的完整分步指南。
+### [使用 Aspose.Cells 在 Excel 表格中删除行并保留标题行](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
+学习如何使用 Aspose.Cells for .NET 在 Excel 表格中删除行，同时保留标题行，确保关键数据不被误删。
 ### [在 Aspose.Cells .NET 中插入列](./insert-column-aspose-cells/)
 学习如何使用 Aspose.Cells for .NET 在 Excel 中插入列。按照我们简单的分步指南，无缝添加新列。非常适合 .NET 开发人员。
+
 ### [在 Aspose.Cells .NET 中插入一行](./insert-row-aspose-cells/)
 通过本分步指南学习如何使用 Aspose.Cells for .NET 在 Excel 中插入行。轻松提升您的数据处理技能。
+
 ### [在 Aspose.Cells .NET 中插入带格式的行](./insert-row-formatting-aspose-cells/)
 学习如何使用 Aspose.Cells for .NET 在 Excel 中插入带格式的行。按照我们的分步指南操作，轻松上手。
+
 ### [在 Aspose.Cells .NET 中插入多行](./insert-multiple-rows-aspose-cells/)
 学习如何使用 Aspose.Cells for .NET 在 Excel 中插入多行数据。遵循我们详细的教程，实现无缝数据操作。
+### [使用 C# 在 Excel 中重复项 – 动态行生成](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
+### [如何在 GridJs 中插入行 – 高效添加多行网格](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+通过本分步指南，学习在 GridJs 中高效插入多行，实现网格数据的快速扩展。
+
+
+
+
+
+
+
+
+### [使用 Aspose.Cells for .NET 加载 Excel 文件 – 删除行和特定行](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
+了解如何在 C# 中使用 Aspose.Cells 加载 Excel 并删除指定的行或批量行，提供完整代码示例。
+### [使用 Aspose.Cells for .NET 删除 Excel 表格中的行 – 分步指南](./delete-rows-excel-table-with-c-step-by-step-guide/)
+通过本分步指南，学习如何使用 Aspose.Cells for .NET 在 C# 中删除 Excel 表格中的多行，实现高效数据清理。
+### [使用 C# 在 Excel 中插入行 – 分步指南](./insert-rows-in-excel-with-c-step-by-step-guide/)
+### [使用 WRAPCOLS：在 C# 中创建两列布局](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
+了解如何在 C# 中使用 Aspose.Cells 的 WRAPCOLS 功能创建两列布局，提供完整代码示例和步骤说明。
+### [如何在 GridJs 中插入行 – 快速添加多行](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
+本教程提供在 GridJs 表格中一次性插入多行的分步指南，帮助您高效扩展数据。
+### [在 C# 中使用 wrapcols – 完整指南，包含 Excel WRAPROWS 与重新计算公式](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
+### [使用 C# 在 Excel 中向上移动单元格 – 完整指南](./shift-cells-up-in-excel-with-c-complete-guide/)
+了解如何使用 Aspose.Cells for .NET 在 Excel 中向上移动单元格的完整步骤。
+### [从 Excel 表中删除行 – 完整 C# 指南](./delete-rows-from-excel-table-complete-c-guide/)
+学习如何使用 Aspose.Cells for .NET 在 C# 中从 Excel 表中删除行的完整步骤指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

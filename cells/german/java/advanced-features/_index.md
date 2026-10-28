@@ -8,23 +8,7 @@ url: /de/java/advanced-features/
 weight: 18
 ---
 
-" => "Aspose.Cells für Java Dokumentation"
-
-- "Aspose.Cells for Java API Reference" => "Aspose.Cells für Java API‑Referenz"
-
-- "Download Aspose.Cells for Java" => "Aspose.Cells für Java herunterladen"
-
-- "Free Support" => "Kostenloser Support"
-
-- "Temporary License" => "Temporäre Lizenz"
-
-FAQ: translate Q and A.
-
-Now produce final markdown.
-
-Make sure to keep shortcodes unchanged.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -123,6 +107,11 @@ Learn how to load and modify VBA modules in Excel workbooks with Aspose.Cells fo
 
 ### [Slicer in Java‑Excel‑Dateien mit Aspose.Cells für Java aktualisieren](./update-slicers-java-excel-aspose-cells/)
 Learn to automate slicer updates in Excel files with Aspose.Cells for Java. Follow this guide to enhance data filtering and analysis.
+
+### [Datum mit Locale in Java parsen – Vollständige Schritt‑für‑Schritt‑Anleitung](./parse-date-with-locale-in-java-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie Datumswerte in Java anhand einer bestimmten Locale korrekt parsen und formatieren.
+### [Wie man wrapcols in Java verwendet – Array in Excel umformen](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
+Erfahren Sie, wie Sie wrapcols nutzen, um ein Array in Excel umzuwandeln.
 
 ## Additional Resources
 

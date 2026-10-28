@@ -38,6 +38,8 @@ Aprenda como buscar e listar fontes de planilhas do Excel usando o Aspose.Cells 
 Aprenda a definir fontes padrão para opções de salvamento de PDF usando o Aspose.Cells para .NET, garantindo que seus documentos tenham uma aparência perfeita sempre.
 ### [Especificar fontes para renderização da pasta de trabalho](./specify-fonts-for-workbook-rendering/)
 Aprenda a especificar fontes personalizadas para a renderização de pastas de trabalho usando o Aspose.Cells para .NET. Um guia passo a passo para garantir uma saída PDF perfeita.
+### [Alterar a Fonte da Caixa de Texto em uma Grade – Guia Completo Passo a Passo](./change-textbox-font-in-a-grid-complete-step-by-step-guide/)
+Aprenda a mudar a fonte de caixas de texto em grades usando Aspose.Cells para .NET, com instruções detalhadas passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
