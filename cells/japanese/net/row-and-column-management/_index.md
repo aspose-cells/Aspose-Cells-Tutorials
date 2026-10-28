@@ -111,6 +111,7 @@ WRAPCOLS 機能を利用して、C# で Excel シートに 2 列のレイアウ�
 GridJs を使用して、複数の行を素早く追加する方法をステップバイステップで解説します。
 ### [Aspose.Cells for .NET を使用して Excel のセルを上にシフトする – 完全ガイド](./shift-cells-up-in-excel-with-c-complete-guide/)
 Aspose.Cells for .NET を使用して、Excel のセルを上方向にシフトする方法をステップバイステップで解説します。簡単にデータを再配置できます。
+### [Excel テーブルから行を削除する – 完全 C# ガイド](./delete-rows-from-excel-table-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

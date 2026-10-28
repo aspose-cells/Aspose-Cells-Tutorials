@@ -101,6 +101,8 @@
 เรียนรู้วิธีใช้ wrapcols ใน C# พร้อม WRAPROWS และการคำนวณสูตรใหม่ใน Excel อย่างละเอียด
 ### [เลื่อนเซลล์ขึ้นใน Excel ด้วย C# – คู่มือฉบับสมบูรณ์](./shift-cells-up-in-excel-with-c-complete-guide/)
 เรียนรู้วิธีเลื่อนเซลล์ขึ้นในไฟล์ Excel ด้วย C# อย่างละเอียด ด้วยขั้นตอนและโค้ดตัวอย่างที่เข้าใจง่าย
+### [ลบแถวจากตาราง Excel – คู่มือ C# ฉบับสมบูรณ์](./delete-rows-from-excel-table-complete-c-guide/)
+เรียนรู้วิธีลบแถวจากตาราง Excel อย่างละเอียดด้วย C# และ Aspose.Cells
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

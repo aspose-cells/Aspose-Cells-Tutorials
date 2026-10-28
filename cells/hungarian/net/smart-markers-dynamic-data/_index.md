@@ -150,6 +150,7 @@ Ismerd meg, hogyan hozhatsz létre intelligens jelölőgyűjteményt C#-ban, lé
 
 ### [Munkalapok automatikus elnevezése – Több munkalap generálása C#-ban](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Ismerje meg, hogyan hozhat létre és nevezhet el több munkalapot automatikusan C#-ban az Aspose.Cells segítségével.
+### [Excel létrehozása JSON-ból az Aspose.Cells Smart Markerrel](./create-excel-from-json-with-aspose-cells-smart-marker/)
 
 ### [Mesteradat-objektum létrehozása – Lépésről‑lépésre útmutató a részletes lap generálásához](./create-master-data-object-step-by-step-guide-to-generate-det/)
 

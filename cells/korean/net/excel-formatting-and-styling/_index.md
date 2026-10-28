@@ -79,6 +79,7 @@ Aspose.Cells for .NET을 사용하여 Excel에서 텍스트 방향을 변환하�
 ### [Aspose.Cells로 셀 스타일 적용 – 서식이 포함된 DataTable 가져오기](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
 Aspose.Cells for .NET을 사용해 DataTable을 가져오면서 셀 스타일을 적용하는 방법을 단계별로 안내합니다.
 ### [C#으로 사용자 지정 서식이 적용된 Excel 워크북 만들고 XLSX로 저장하는 방법](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
+### [C#으로 Excel 파일 만들기 – 셀 스타일 지정 및 통화 형식 설정](./create-excel-file-c-style-cells-and-set-currency-format/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

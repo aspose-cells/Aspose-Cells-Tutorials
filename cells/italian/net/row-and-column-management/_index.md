@@ -77,6 +77,8 @@ Scopri come eliminare righe mantenendo intatta la riga di intestazione in Excel 
 ### [Come utilizzare Aspose.Cells per eliminare righe in una tabella Excel mantenendo l'intestazione](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
 Scopri come rimuovere righe da una tabella Excel mantenendo la riga di intestazione con Aspose.Cells per .NET.
 
+### [Elimina righe da una tabella Excel – guida completa C#](./delete-rows-from-excel-table-complete-c-guide/)
+Scopri come eliminare righe da una tabella Excel usando Aspose.Cells per .NET con C#. Guida passo passo completa.
 ### [Inserire una colonna in Aspose.Cells .NET](./insert-column-aspose-cells/)
 Scopri come inserire una colonna in Excel utilizzando Aspose.Cells per .NET. Segui la nostra semplice guida passo passo per aggiungere una nuova colonna senza problemi. Perfetto per gli sviluppatori .NET.
 ### [Inserisci una riga in Aspose.Cells .NET](./insert-row-aspose-cells/)

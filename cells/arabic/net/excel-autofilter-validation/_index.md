@@ -58,6 +58,8 @@
 تعلم كيفية إخفاء أسهم الفلتر في Excel باستخدام C# عبر دليل شامل خطوة بخطوة.
 ### [إضافة جدول إلى Excel باستخدام C# – مسح الفلتر التلقائي وحفظ الملف](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
 تعلم إضافة جدول إلى ملف Excel باستخدام C#، مسح الفلتر التلقائي، وحفظ الملف بنجاح.
+### [إزالة التصفية التلقائية من Excel باستخدام C# – دليل كامل](./remove-autofilter-from-excel-in-c-complete-guide/)
+اكتشف كيفية إزالة التصفية التلقائية من ملفات Excel باستخدام C# مع Aspose.Cells في دليل شامل.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

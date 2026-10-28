@@ -80,6 +80,7 @@ Naučte se v tomto snadno srozumitelném návodu, jak zalamovat dlouhý text v b
 Naučte se stylovat sloupce v Excelu pomocí Aspose.Cells pro .NET a importovat DataTable.
 ### [Použití stylů buněk s Aspose.Cells – Import DataTable s formátováním](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
 Naučte se, jak importovat DataTable do Excelu a aplikovat styly buněk pomocí Aspose.Cells pro .NET.
+### [Vytvořit soubor Excel v C# – stylovat buňky a nastavit formát měny](./create-excel-file-c-style-cells-and-set-currency-format/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

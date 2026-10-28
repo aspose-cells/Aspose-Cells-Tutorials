@@ -181,6 +181,8 @@ Leer hoe u een Excel-sjabloon laadt en met Aspose.Cells in C# snel meerdere werk
 Leer hoe u een master‑detail werkmap maakt met Smart Markers in Aspose.Cells voor .NET.
 ### [Master‑detail Excel‑gids – sjablonen invullen met Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)
 Leer hoe u master‑detail Excel‑sjablonen kunt vullen met Smart Markers voor dynamische rapporten.
+### [Excel maken vanuit JSON met Aspose.Cells Smart Marker](./create-excel-from-json-with-aspose-cells-smart-marker/)
+Leer hoe u met Aspose.Cells Smart Markers Excel-bestanden genereert uit JSON-gegevens in een paar eenvoudige stappen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

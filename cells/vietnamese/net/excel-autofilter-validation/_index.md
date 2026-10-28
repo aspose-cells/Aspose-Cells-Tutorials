@@ -58,6 +58,8 @@ Hướng dẫn cách xóa nút AutoFilter trong Excel bằng Aspose.Cells cho .N
 Khám phá cách ẩn các mũi tên lọc trong Excel bằng C# với Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
 ### [Thêm Bảng vào Excel bằng C# – Xóa Bộ lọc Tự động và Lưu Tệp](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
 Hướng dẫn cách thêm bảng vào Excel, xóa bộ lọc tự động và lưu tệp bằng Aspose.Cells cho .NET.
+### [Xóa bộ lọc tự động khỏi Excel trong C# – hướng dẫn đầy đủ](./remove-autofilter-from-excel-in-c-complete-guide/)
+Hướng dẫn chi tiết cách loại bỏ nút AutoFilter trong Excel bằng C# với Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

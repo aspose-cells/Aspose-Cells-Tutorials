@@ -58,6 +58,8 @@ Aprenda a remover as setas de filtro nas planilhas do Excel usando Aspose.Cells 
 Aprenda a inserir uma tabela no Excel com C#, limpar o autofiltro e salvar o arquivo usando Aspose.Cells.
 ### [Como remover o AutoFiltro de tabelas do Excel usando C#](./how-to-remove-autofilter-from-excel-tables-using-c/)
 Aprenda a remover o AutoFiltro de tabelas Excel usando Aspose.Cells para .NET com este guia passo a passo em C#.
+### [Remover o AutoFiltro do Excel em C# – guia completo](./remove-autofilter-from-excel-in-c-complete-guide/)
+Aprenda a remover o AutoFiltro do Excel usando Aspose.Cells e C# com este guia completo passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

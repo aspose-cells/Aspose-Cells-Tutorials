@@ -137,16 +137,6 @@ Erfahren Sie, wie Sie mit Aspose.Cells und SmartMarker in C# komplette Excel‑B
 ### [Excel-Arbeitsmappe programmgesteuert mit Smart Markern erstellen](./create-excel-workbook-programmatically-using-smart-markers/)
 Erstellen Sie eine Excel-Arbeitsmappe programmgesteuert mit Smart Markern in Aspose.Cells für .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-
-
 
 
 
@@ -169,6 +159,8 @@ Erfahren Sie, wie Sie in C# eine Sammlung von Smart Markern erstellen, um dynami
 Erfahren Sie, wie Sie mit Aspose.Cells ein Excel‑Template aus einem Array in C# befüllen und Daten effizient exportieren.
 ### [Excel exportieren – Komplettanleitung für C#‑Entwickler](./how-to-export-excel-complete-guide-for-c-developers/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel‑Dateien in C# effizient exportieren – Schritt‑für‑Schritt‑Anleitung.
+### [Excel aus JSON mit Aspose.Cells Smart Marker erstellen](./create-excel-from-json-with-aspose-cells-smart-marker/)
+Erfahren Sie, wie Sie JSON-Daten mithilfe von Smart Markern in Excel-Dateien umwandeln und automatisch ausfüllen.
 ### [Wie Sie Arbeitsblätter automatisch benennen – Mehrere Blätter in C# generieren](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET automatisch Arbeitsblätter benennen und mehrere Tabellenblätter in C# generieren.
 ### [Masterdaten‑Objekt erstellen – Schritt‑für‑Schritt‑Anleitung zur Generierung des Detailblatts](./create-master-data-object-step-by-step-guide-to-generate-det/)

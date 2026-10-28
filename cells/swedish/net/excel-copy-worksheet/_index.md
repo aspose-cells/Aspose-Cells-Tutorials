@@ -46,6 +46,7 @@ Aspose.Cells för .NET erbjuder kraftfulla funktioner för att manipulera Excel-
 | [Hur man kopierar kalkylblad i C# med Aspose.Cells – Komplett guide](./how-to-copy-worksheet-in-c-with-aspose-cells-complete-guide/) | Lär dig hur du kopierar ett kalkylblad i C# med Aspose.Cells i denna kompletta steg-för-steg-guide. |  
 | [Kopiera arbetsbok i C# – Exportera tabell till ett annat kalkylblad](./copy-workbook-in-c-export-table-to-another-worksheet/) | Lär dig hur du kopierar en arbetsbok i C# och exporterar en tabell till ett annat kalkylblad med Aspose.Cells för .NET. |  
 | [Skapa duplicerade detaljark i Excel med C#](./create-duplicated-detail-sheets-in-excel-using-c/) | Lär dig hur du skapar duplicerade detaljark i Excel med C# och Aspose.Cells för .NET i denna steg‑för‑steg‑guide. |  
+| [Kopiera kalkylblad med pivottabell i C# med Aspose.Cells](./copy-worksheet-with-pivot-in-c-using-aspose-cells/) | Lär dig hur du kopierar ett kalkylblad som innehåller en pivottabell i C# med Aspose.Cells. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

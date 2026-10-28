@@ -121,6 +121,8 @@
 ### [在 C# 中使用 wrapcols – 完整指南，包含 Excel WRAPROWS 与重新计算公式](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 ### [使用 C# 在 Excel 中向上移动单元格 – 完整指南](./shift-cells-up-in-excel-with-c-complete-guide/)
 了解如何使用 Aspose.Cells for .NET 在 Excel 中向上移动单元格的完整步骤。
+### [从 Excel 表中删除行 – 完整 C# 指南](./delete-rows-from-excel-table-complete-c-guide/)
+学习如何使用 Aspose.Cells for .NET 在 C# 中从 Excel 表中删除行的完整步骤指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

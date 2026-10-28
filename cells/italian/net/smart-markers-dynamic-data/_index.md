@@ -130,6 +130,7 @@ Scopri come generare programmaticamente una cartella di lavoro Excel con Smart M
 ### [Ripeti dati in Excel – Popola modello con SmartMarker in Aspose.Cells](./repeat-data-in-excel-populate-template-with-smartmarker/)
 ### [Come esportare Excel – Guida completa per sviluppatori C#](./how-to-export-excel-complete-guide-for-c-developers/)
 ### [Esporta dati in Excel: Popola un modello da un array in C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+### [Crea Excel da JSON con marcatori intelligenti in Aspose.Cells](./create-excel-from-json-with-aspose-cells-smart-marker/)
 ### [Come denominare i fogli automaticamente – Genera più fogli in C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 ### [Crea oggetto Master Data – Guida passo‑a‑step per generare foglio di dettaglio](./create-master-data-object-step-by-step-guide-to-generate-det/)
 Scopri come creare un oggetto Master Data e generare automaticamente un foglio di dettaglio in Aspose.Cells per .NET.

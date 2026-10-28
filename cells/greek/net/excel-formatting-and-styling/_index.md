@@ -81,6 +81,7 @@
 
 ### [Πώς να δημιουργήσετε βιβλίο εργασίας Excel C# με προσαρμοσμένη μορφοποίηση και αποθήκευση ως XLSX](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
 Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel με C# χρησιμοποιώντας προσαρμοσμένη μορφοποίηση και να το αποθηκεύσετε ως αρχείο XLSX.
+### [Δημιουργία αρχείου Excel C# – μορφοποίηση κελιών και ορισμός μορφής νομίσματος](./create-excel-file-c-style-cells-and-set-currency-format/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

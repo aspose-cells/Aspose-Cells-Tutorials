@@ -143,12 +143,6 @@ Aspose.Cells를 사용하여 워크시트를 반복 복제하고 자동화된 Ex
 
 ### [Smart Markers를 사용하여 Excel 워크북을 프로그래밍 방식으로 만들기](./create-excel-workbook-programmatically-using-smart-markers/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ## [Excel 시트 자동 이름 지정 – 시트를 손쉽게 생성하는 방법](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
 Aspose.Cells를 사용하여 데이터에 따라 Excel 시트 이름을 자동으로 지정하고, 여러 시트를 빠르게 생성하는 방법을 단계별로 안내합니다.
 
@@ -165,6 +159,8 @@ C# 개발자를 위해 Excel 파일을 내보내는 방법을 단계별로 안�
 스마트 마커를 활용해 동일한 데이터를 여러 행에 반복 삽입하고 템플릿을 자동으로 채우는 방법을 단계별로 안내합니다.
 ### [데이터를 Excel로 내보내기: C#에서 배열을 사용해 템플릿 채우기](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
 C# 배열 데이터를 활용해 Excel 템플릿에 데이터를 자동으로 채워 내보내는 방법을 단계별로 안내합니다.
+### [Aspose.Cells 스마트 마커를 사용하여 JSON에서 Excel 만들기](./create-excel-from-json-with-aspose-cells-smart-marker/)
+JSON 데이터를 활용해 스마트 마커로 Excel 파일을 생성하는 방법을 단계별로 안내합니다.
 ### [시트를 자동으로 이름 지정하는 방법 – C#에서 여러 시트 생성](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 ### [스마트 마커를 사용한 계층 구조 만들기 – 단계별 가이드](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
 스마트 마커를 활용해 계층 구조를 생성하는 방법을 단계별로 설명합니다.

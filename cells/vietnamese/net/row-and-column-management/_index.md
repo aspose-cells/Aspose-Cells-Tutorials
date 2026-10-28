@@ -113,6 +113,8 @@ Hướng dẫn chi tiết cách dùng WRAPCOLS để tạo bố cục hai cột 
 Hướng dẫn chi tiết cách dùng wrapcols trong C#, kết hợp với Excel WRAPROWS và cách tính lại công thức một cách hiệu quả.
 ### [Di chuyển ô lên trong Excel bằng C# – Hướng dẫn đầy đủ](./shift-cells-up-in-excel-with-c-complete-guide/)
 Hướng dẫn chi tiết cách dịch chuyển ô lên trong Excel bằng C#, bao gồm các bước thực hiện và ví dụ mã nguồn.
+### [Xóa các hàng trong bảng Excel – hướng dẫn C# đầy đủ](./delete-rows-from-excel-table-complete-c-guide/)
+Hướng dẫn chi tiết cách xóa các hàng trong bảng Excel bằng C# và Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

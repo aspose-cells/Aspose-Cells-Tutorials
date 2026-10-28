@@ -80,6 +80,8 @@ Aspose.Cells for .NET を使用し、C# で DataTable をインポートしな�
 Aspose.Cells for .NET を使用して、C# でセルにスタイルを適用し、テキストを中央揃えにする方法を学びます。
 ### [C# でカスタム書式設定を使用して Excel ワークブックを作成し、XLSX として保存する方法](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
 Aspose.Cells for .NET を使用して、C# でカスタム書式設定付きの Excel ワークブックを作成し、XLSX 形式で保存する方法を学びます。
+### [C#でExcelファイルを作成 – セルにスタイルを設定し通貨形式を適用](./create-excel-file-c-style-cells-and-set-currency-format/)
+Aspose.Cells for .NET を使用して、C# で Excel ファイルを作成し、セルにスタイルを設定し通貨形式を適用する方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

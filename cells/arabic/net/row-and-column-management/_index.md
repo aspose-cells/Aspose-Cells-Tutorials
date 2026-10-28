@@ -110,6 +110,8 @@
 تعلم كيفية تطبيق wrapcols و wraprows في Excel باستخدام C# وإعادة حساب الصيغ بسهولة خطوة بخطوة.
 ### [نقل الخلايا للأعلى في Excel باستخدام C# – دليل كامل](./shift-cells-up-in-excel-with-c-complete-guide/)
 تعلم كيفية تحريك الخلايا للأعلى في ملفات Excel باستخدام C# مع Aspose.Cells خطوة بخطوة.
+### [حذف الصفوف من جدول Excel – دليل كامل C#](./delete-rows-from-excel-table-complete-c-guide/)
+دليل شامل لحذف الصفوف من جدول Excel باستخدام Aspose.Cells لـ .NET بلغة C# خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

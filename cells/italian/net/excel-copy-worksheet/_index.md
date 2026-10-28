@@ -46,6 +46,7 @@ Aspose.Cells per .NET offre potenti funzionalità per la manipolazione di file E
 | [Come copiare un foglio di lavoro in C# con Aspose.Cells – Guida completa](./how-to-copy-worksheet-in-c-with-aspose-cells-complete-guide/) | Scopri come copiare un foglio di lavoro in C# usando Aspose.Cells con esempi dettagliati e consigli pratici. |  
 | [Crea fogli di dettaglio duplicati in Excel usando C#](./create-duplicated-detail-sheets-in-excel-using-c/) | Scopri come creare fogli di dettaglio duplicati in Excel con C# usando Aspose.Cells per .NET. |
 | [Copia cartella di lavoro in C# – Esporta tabella in un altro foglio](./copy-workbook-in-c-export-table-to-another-worksheet/) | Scopri come copiare una cartella di lavoro ed esportare una tabella in un altro foglio usando Aspose.Cells per .NET. |  
+| [Copia foglio di lavoro con pivot in C# usando Aspose.Cells](./copy-worksheet-with-pivot-in-c-using-aspose-cells/) | Scopri come copiare un foglio di lavoro con una tabella pivot in C# usando Aspose.Cells per .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

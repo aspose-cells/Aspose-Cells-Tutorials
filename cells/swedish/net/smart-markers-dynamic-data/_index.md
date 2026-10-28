@@ -141,6 +141,7 @@ Lär dig steg för steg hur du exporterar Excel-filer med Aspose.Cells i C#-appl
 ### [Exportera data till Excel: Fyll i en mall från en array i C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
 ### [Importera JSON till Excel i C# – steg‑för‑steg‑guide](./import-json-to-excel-in-c-step-by-step-guide/)
 Lär dig hur du importerar JSON-data till Excel med Aspose.Cells i C# steg för steg.
+### [Skapa Excel från JSON med Aspose.Cells Smart Marker](./create-excel-from-json-with-aspose-cells-smart-marker/)
 ### [Hur du namnger blad automatiskt – Generera flera blad i C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 ### [Skapa Master Data-objekt – Steg‑för‑steg‑guide för att generera detaljblad](./create-master-data-object-step-by-step-guide-to-generate-det/)
 Lär dig hur du skapar ett master‑dataobjekt och automatiskt genererar ett detaljblad i Excel med Smart Markers.

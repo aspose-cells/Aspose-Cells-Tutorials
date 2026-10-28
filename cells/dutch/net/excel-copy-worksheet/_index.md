@@ -46,6 +46,7 @@ Aspose.Cells voor .NET biedt krachtige functionaliteit voor het bewerken van Exc
 | [Hoe werkblad te kopiëren in C# met Aspose.Cells – Complete gids](./how-to-copy-worksheet-in-c-with-aspose-cells-complete-guide/) | Leer hoe u een werkblad in C# kopieert met Aspose.Cells via een volledige stap‑voor‑stap gids. |  
 | [Werkmap Kopiëren in C# – Tabel Exporteren naar Een Ander Werkblad](./copy-workbook-in-c-export-table-to-another-worksheet/) | Leer hoe u een tabel van een werkmap exporteert naar een ander werkblad met Aspose.Cells voor .NET in C#. |  
 | [Gedupliceerde detailbladen maken in Excel met C#](./create-duplicated-detail-sheets-in-excel-using-c/) | Leer hoe u met Aspose.Cells voor .NET detailbladen dupliceert in Excel via C#. |  
+| [Werkblad met draaitabel kopiëren in C# met Aspose.Cells](./copy-worksheet-with-pivot-in-c-using-aspose-cells/) | Leer hoe u een werkblad met een draaitabel kopieert in C# met Aspose.Cells. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

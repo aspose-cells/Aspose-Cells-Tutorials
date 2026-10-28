@@ -77,6 +77,8 @@ Lär dig hur du radbryter lång text i Excel-celler med Aspose.Cells för .NET i
 ### [Styling av kolumner i Excel med C# – Importera DataTable](./how-to-style-columns-in-excel-with-c-import-datatable/)
 ### [Skapa cellstil i C# – Hur man tillämpar stil på en cell och centrerar text](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
 ### [Hur man skapar Excel-arbetsbok i C# med anpassad formatering och sparar som XLSX](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
+### [Skapa Excel-fil i C# – formatera celler och ange valutformat](./create-excel-file-c-style-cells-and-set-currency-format/)
+Lär dig hur du skapar en Excel-fil i C#, formaterar celler och ställer in valutformat med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

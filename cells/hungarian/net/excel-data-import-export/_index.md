@@ -61,6 +61,8 @@ Ismerje meg, hogyan konvertálhatja a JSON tömböket Excel táblázatokká az A
 Ismerje meg, hogyan konvertálhatja a munkalapot DataTable objektummá C#-ban az Aspose.Cells for .NET segítségével, részletes lépésekkel.
 ### [JSON importálása Excelbe az Aspose.Cells segítségével – Teljes programozási útmutató](./import-json-to-excel-with-aspose-cells-complete-programming/)
 Ismerje meg, hogyan importálhat JSON adatokat Excel munkalapba az Aspose.Cells for .NET teljes körű útmutatójával.
+### [JSON konvertálása XLSX-be C#-ban – teljes lépésről‑lépésre útmutató](./convert-json-to-xlsx-in-c-complete-step-by-step-guide/)
+Ismerje meg, hogyan konvertálhat JSON adatokat XLSX fájlba C#-ban az Aspose.Cells for .NET segítségével, lépésről lépésre.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

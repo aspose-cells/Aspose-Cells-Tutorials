@@ -104,6 +104,8 @@ Lär dig hur du använder wrapcols i C# tillsammans med Excel WRAPROWS och omber
 Lär dig hur du tar bort en hel rad i en Excel-fil med C# och Aspose.Cells i några enkla steg.
 ### [Skifta celler upp i Excel med C# – Komplett guide](./shift-cells-up-in-excel-with-c-complete-guide/)
 Lär dig hur du flyttar celler uppåt i ett Excel-ark med C# genom en steg-för-steg-guide.
+### [Ta bort rader från Excel-tabell – komplett C#-guide](./delete-rows-from-excel-table-complete-c-guide/)
+Lär dig hur du tar bort rader från en Excel-tabell med en komplett C#-guide i Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

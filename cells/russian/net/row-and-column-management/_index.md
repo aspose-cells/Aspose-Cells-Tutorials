@@ -110,6 +110,8 @@
 Подробное руководство по использованию свойства WrapCols в Aspose.Cells для .NET, включая WrapRows и пересчет формул.
 ### [Сдвиг ячеек вверх в Excel с помощью C# – Полное руководство](./shift-cells-up-in-excel-with-c-complete-guide/)
 Узнайте, как сдвинуть ячейки вверх в Excel с помощью C# и Aspose.Cells, следуя пошаговому руководству.
+### [Удаление строк из таблицы Excel – полное руководство C#](./delete-rows-from-excel-table-complete-c-guide/)
+Подробное руководство по удалению строк из таблицы Excel с помощью Aspose.Cells для .NET на C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -183,6 +183,8 @@ Aspose.Cells のスマートマーカーを使用して、Excel レポートの�
 ### [Aspose.Cells でスマートマーカーを使用してマスターディテイル ワークブックを作成する](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
 ### [ワークシートの繰り返し方法 – Excel 自動化の完全ガイド](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 Aspose.Cells を使用して、Excel のワークシートを自動的に繰り返し生成する手順をステップバイステップで解説します。
+### [Aspose.Cells スマートマーカーで JSON から Excel を作成する](./create-excel-from-json-with-aspose-cells-smart-marker/)
+Aspose.Cells のスマートマーカー機能を利用し、JSON データから動的に Excel ファイルを生成する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

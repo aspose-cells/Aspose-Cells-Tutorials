@@ -76,6 +76,8 @@ Apprenez à supprimer plusieurs lignes dans Excel avec Aspose.Cells pour .NET. C
 Apprenez à supprimer des lignes tout en protégeant la ligne d’en-tête dans Excel avec Aspose.Cells pour .NET. Guide étape par étape.
 ### [Comment utiliser Aspose.Cells pour supprimer des lignes dans un tableau Excel tout en conservant l’en-tête](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
 Apprenez à supprimer des lignes d’un tableau Excel avec Aspose.Cells tout en préservant la ligne d’en‑tête, grâce à ce guide détaillé.
+### [Supprimer des lignes d'un tableau Excel – guide complet C#](./delete-rows-from-excel-table-complete-c-guide/)
+Apprenez à supprimer des lignes d'un tableau Excel avec Aspose.Cells pour .NET en C#, guide complet étape par étape.
 ### [Insérer une colonne dans Aspose.Cells .NET](./insert-column-aspose-cells/)
 Apprenez à insérer une colonne dans Excel avec Aspose.Cells pour .NET. Suivez notre guide simple et étape par étape pour ajouter une nouvelle colonne en toute simplicité. Idéal pour les développeurs .NET.
 ### [Insérer une ligne dans Aspose.Cells .NET](./insert-row-aspose-cells/)

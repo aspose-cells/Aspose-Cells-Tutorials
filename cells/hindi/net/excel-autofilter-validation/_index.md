@@ -58,6 +58,8 @@ C# में Aspose.Cells का उपयोग करके Excel से ऑ�
 C# का उपयोग करके Excel में फ़िल्टर एरो को कैसे छिपाएँ, इस पूर्ण गाइड में चरण-दर-चरण सीखें।
 ### [Excel में तालिका जोड़ें – ऑटोफ़िल्टर साफ़ करें और फ़ाइल सहेजें](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
 Aspose.Cells का उपयोग करके तालिका बनाएं, ऑटोफ़िल्टर हटाएं और फ़ाइल को सुरक्षित रूप से सहेजें।
+### [C# में Excel से ऑटोफ़िल्टर हटाना – पूर्ण मार्गदर्शिका](./remove-autofilter-from-excel-in-c-complete-guide/)
+C# और Aspose.Cells का उपयोग करके Excel फ़ाइल से ऑटोफ़िल्टर को पूरी तरह हटाने की विस्तृत प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

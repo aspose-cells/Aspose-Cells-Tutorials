@@ -58,6 +58,8 @@ Pelajari cara menghilangkan tombol AutoFilter di Excel menggunakan Aspose.Cells 
 Pelajari cara menyembunyikan panah filter di Excel menggunakan C# dengan Aspose.Cells dalam panduan lengkap ini.
 ### [Menambahkan Tabel ke Excel dengan C# – Hapus Autofilter dan Simpan File](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
 Pelajari cara menambahkan tabel ke Excel, menghapus autofilter, dan menyimpan file menggunakan Aspose.Cells for .NET.
+### [Hapus autofilter dari Excel di C# – panduan lengkap](./remove-autofilter-from-excel-in-c-complete-guide/)
+Pelajari cara menghapus autofilter di Excel menggunakan Aspose.Cells dengan C# dalam panduan lengkap ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

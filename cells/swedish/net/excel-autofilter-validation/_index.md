@@ -51,6 +51,8 @@ Lär dig hur du tar bort AutoFilter‑knappen i Excel med Aspose.Cells för .NET
 Lär dig hur du tar bort filterpilarna i Excel med C# och Aspose.Cells i en fullständig steg-för-steg-guide.
 ### [Lägg till tabell i Excel med C# – Rensa autofilter och spara fil](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
 Lär dig hur du lägger till en tabell, rensar autofilter och sparar Excel-filen med Aspose.Cells i .NET.
+### [Ta bort autofilter från Excel i C# – komplett guide](./remove-autofilter-from-excel-in-c-complete-guide/)
+Lär dig hur du tar bort autofilter i Excel med C# och Aspose.Cells för .NET i vår kompletta guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

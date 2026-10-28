@@ -58,6 +58,8 @@ Scopri come nascondere il pulsante AutoFilter in Excel usando Aspose.Cells per .
 Scopri come nascondere le frecce di filtro in Excel con C# usando Aspose.Cells per .NET in questa guida completa.
 ### [Aggiungi tabella a Excel con C# – Cancella autofiltro e salva file](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
 Scopri come aggiungere una tabella a Excel con C#, rimuovere l'autofiltro e salvare il file usando Aspose.Cells per .NET.
+### [Rimuovi il filtro automatico da Excel in C# – guida completa](./remove-autofilter-from-excel-in-c-complete-guide/)
+Scopri come rimuovere il filtro automatico da un foglio Excel usando Aspose.Cells per .NET con C# in questa guida completa.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
