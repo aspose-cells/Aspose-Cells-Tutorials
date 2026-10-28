@@ -228,6 +228,8 @@ Een codetutorial voor Aspose.Words Java
 Leer hoe u een nieuwe Excel-werkmap maakt in Java met Aspose.Cells, inclusief codevoorbeelden en opslaan.
 ### [Excel-werkmap maken in Java – Complete stap‑voor‑stap handleiding](./create-excel-workbook-in-java-complete-step-by-step-guide/)
 Leer hoe u een Excel-werkmap maakt in Java met een volledige stap‑voor‑stap handleiding.
+### [Excel-werkmap maken met aangepaste eigenschappen in Java – stapsgewijze handleiding](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+Leer hoe u een Excel-werkmap maakt en aangepaste eigenschappen instelt met Aspose.Cells voor Java.
 
 ### [Excel-werkmappen maken en aanpassen met Aspose.Cells Java: een stapsgewijze handleiding](./create-customize-excel-workbooks-aspose-cells-java/)
 Leer hoe u het maken en aanpassen van Excel-werkmappen kunt automatiseren met Aspose.Cells voor Java. Verbeter uw productiviteit door werkmapbewerkingen onder de knie te krijgen.
@@ -512,6 +514,8 @@ Leer hoe u een werkmap met een Japanse kalender maakt met Aspose.Cells voor Java
 Leer hoe u een nieuwe werkmap opslaat en een bereik tussen werkmappen kopieert met Aspose.Cells voor Java.
 ### [Excel-bestand genereren Java – Complete stapsgewijze handleiding](./generate-excel-file-java-complete-step-by-step-guide/)
 Leer hoe u met Aspose.Cells voor Java een Excel-bestand van nul af aan maakt met volledige codevoorbeelden en best practices.
+### [Excel-werkmap maken in Java: Japanse jaartijdperken verwerken](./create-excel-workbook-java-handle-japanese-era-dates/)
+Leer hoe u Japanse jaartijdperken correct verwerkt bij het maken van Excel-werkboeken met Aspose.Cells voor Java.
 
 ## Aanvullende bronnen
 

@@ -38,6 +38,9 @@ Naučte se, jak automatizovat objekty seznamů v Excelu pomocí Aspose.Cells pro
 ### [Aspose.Cells Java: Zvládnutí manipulace s tabulkami v Excelu pomocí buněk](./aspose-cells-java-manipulate-excel-tables/)
 Naučte se, jak manipulovat s tabulkami v Excelu pomocí Aspose.Cells pro Javu. Tato příručka se zabývá efektivním nastavením, přístupem k datům v tabulkách, jejich úpravami a ukládáním.
 
+### [Vytvoření tabulky Excel v Javě – krok za krokem](./create-excel-table-in-java-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells pro Javu vytvořit tabulku v Excelu krok za krokem.
+
 ### [Převod tabulek Excelu na oblasti pomocí Aspose.Cells v Javě: Podrobný návod](./convert-excel-tables-ranges-aspose-cells-java/)
 Naučte se, jak automatizovat převod excelových tabulek na oblasti pomocí Aspose.Cells pro Javu. Pro efektivní správu dat se řiďte tímto komplexním průvodcem.
 

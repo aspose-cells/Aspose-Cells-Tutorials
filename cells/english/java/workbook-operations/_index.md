@@ -505,13 +505,18 @@ Learn how to save an Excel workbook as XLSX using Aspose.Cells for Java with det
 ### [Java create excel file, add custom property and save as XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
 Learn how to create an Excel workbook in Java, add a custom document property, and save it as an XLSB file using Aspose.Cells.
 
-### [How to Set Excel Document Version Using Aspose.Cells for Java](./set-excel-version-aspose-cells-java/)
-Learn how to set and manage document properties like versioning in Excel files using Aspose.Cells for Java. Follow this step-by-step guide for efficient workbook operations.
-
 ### [Save New Workbook in Java – Copy Range Between Workbooks Tutorial](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
 Learn how to create a new workbook in Java and copy a range of cells from an existing workbook using Aspose.Cells.
 ### [How to Add Custom Property in Excel Using Java – Complete Guide](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
 Learn how to add custom document properties to Excel workbooks using Aspose.Cells for Java with step-by-step code examples.
+### [Create excel workbook java: handle Japanese era dates](./create-excel-workbook-java-handle-japanese-era-dates/)
+Learn how to handle Japanese era dates when creating Excel workbooks using Aspose.Cells for Java.
+
+### [Create Excel workbook with custom properties in Java – step‑by‑step guide](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+Learn how to create an Excel workbook and add custom document properties using Aspose.Cells for Java.
+
+### [How to Set Excel Document Version Using Aspose.Cells for Java](./set-excel-version-aspose-cells-java/)
+Learn how to set and manage document properties like versioning in Excel files using Aspose.Cells for Java. Follow this step-by-step guide for efficient workbook operations.
 
 ## Additional Resources
 

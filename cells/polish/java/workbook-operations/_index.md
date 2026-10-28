@@ -41,7 +41,7 @@ Dowiedz się, jak używać Aspose.Cells for Java, aby utworzyć skoroszyt progra
 ### [Aspose.Cells Java Guide: Opanowanie manipulacji skoroszytem programu Excel](./aspose-cells-java-excel-manipulation-guide/)
 Dowiedz się, jak manipulować skoroszytami programu Excel w Javie za pomocą Aspose.Cells. Ten przewodnik obejmuje inicjalizację skoroszytu, dodawanie arkuszy i obrazów, ustawianie pozycji obrazów i efektywne zapisywanie plików.
 
-### [Jak załadować i zapisać Excela jako Markdown przy użyciu Aspose.Cells dla Java](./aspose-cells-java-excel-to-markdown/)
+### [Jak ładować i zapisywać Excela jako Markdown przy użyciu Aspose.Cells dla Java](./aspose-cells-java-excel-to-markdown/)
 Dowiedz się, jak skutecznie konwertować pliki Excel do formatu Markdown za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje konfigurację, ładowanie, zapisywanie i praktyczne zastosowania.
 
 ### [Konwertuj Excela do PDF za pomocą Aspose.Cells Java](./aspose-cells-java-excel-to-pdf-conversion/)
@@ -341,7 +341,7 @@ Dowiedz się, jak zautomatyzować przetwarzanie plików Excela za pomocą Aspose
 ### [Efektywna manipulacja skoroszytem programu Excel w Javie przy użyciu Aspose.Cells](./excel-workbook-manipulation-java-aspose-cells/)
 Dowiedz się, jak używać Aspose.Cells for Java, aby sprawnie tworzyć, modyfikować i ulepszać skoroszyty programu Excel z łatwością. Opanuj operacje skoroszytu od konfiguracji po zaawansowane manipulacje.
 
-### [Opanuj zarządzanie plikami XLSB w programie Excel w Javie za pomocą Aspose.Cells: ładowanie i modyfikowanie połączeń z bazą danych](./excel-xlsb-management-aspose-cells-java/)
+### [Opanowanie zarządzania plikami XLSB w programie Excel w Javie za pomocą Aspose.Cells: ładowanie i modyfikowanie połączeń z bazą danych](./excel-xlsb-management-aspose-cells-java/)
 Dowiedz się, jak zarządzać plikami Excel XLSB za pomocą Aspose.Cells for Java. Ten samouczek obejmuje ładowanie, modyfikowanie połączeń z bazą danych i efektywne zapisywanie zmian.
 
 ### [Jak eksportować niestandardowe właściwości programu Excel do pliku PDF za pomocą Aspose.Cells dla języka Java](./export-excel-custom-properties-pdf-aspose-cells-java/)
@@ -509,6 +509,11 @@ Dowiedz się, jak utworzyć plik Excel, dodać własną właściwość i zapisa�
 Dowiedz się, jak używać funkcji lambda w Javie do tworzenia skoroszytów programu Excel przy użyciu Aspose.Cells.
 ### [Generowanie pliku Excel w Javie – Kompletny przewodnik krok po kroku](./generate-excel-file-java-complete-step-by-step-guide/)
 Dowiedz się, jak generować plik Excel w Javie przy użyciu Aspose.Cells, krok po kroku, od konfiguracji po zapis.
+### [Tworzenie skoroszytu programu Excel z własnymi właściwościami w Javie – przewodnik krok po kroku](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+Dowiedz się, jak dodać własne właściwości do skoroszytu Excela przy użyciu Aspose.Cells for Java.
+
+### [Tworzenie skoroszytu Excel w Javie: obsługa japońskich dat er](./create-excel-workbook-java-handle-japanese-era-dates/)
+Dowiedz się, jak obsługiwać japońskie daty er w skoroszycie Excela przy użyciu Aspose.Cells for Java.
 
 ## Dodatkowe zasoby
 

@@ -225,7 +225,13 @@ Un tutorial sul codice per Aspose.Words Java
 Scopri come creare una cartella di lavoro Excel da zero in Java con esempi di codice dettagliati e impostazioni avanzate.
 
 ### [Creare e personalizzare cartelle di lavoro di Excel utilizzando Aspose.Cells Java: una guida passo passo](./create-customize-excel-workbooks-aspose-cells-java/)
-Scopri come automatizzare la creazione e la personalizzazione delle cartelle di lavoro di Excel con Aspose.Cells per Java. Aumenta la produttività padroneggiando le operazioni delle cartelle di lavoro.
+Scopri come automatizzare la creazione e la personalizzazione delle cartelle di lavoro di Excel con Aspose.Cells Java. Aumenta la produttività padroneggiando le operazioni delle cartelle di lavoro.
+
+### [Creare e personalizzare cartelle di lavoro di Excel con proprietà personalizzate in Java – guida passo passo](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+Scopri come creare una cartella di lavoro Excel con proprietà personalizzate usando Aspose.Cells per Java.
+
+### [Creare una cartella di lavoro Excel in Java: gestire le date dell'era giapponese](./create-excel-workbook-java-handle-japanese-era-dates/)
+Scopri come creare una cartella di lavoro Excel in Java gestendo le date dell'era giapponese.
 
 ### [Creare e unire cartelle di lavoro Excel utilizzando Aspose.Cells per Java | Guida completa](./create-merge-excel-workbooks-aspose-cells-java/)
 Scopri come creare e unire in modo efficiente cartelle di lavoro Excel utilizzando Aspose.Cells per Java con questa guida completa. Semplifica le operazioni sulle tue cartelle di lavoro oggi stesso.
@@ -278,7 +284,7 @@ Scopri come automatizzare le attività di Excel utilizzando Aspose.Cells per Jav
 Padroneggia l'automazione di Excel con Aspose.Cells per Java caricando cartelle di lavoro e recuperando i risultati delle tabelle delle query. Aumenta la produttività nell'elaborazione, nel reporting e nell'integrazione dei dati.
 
 ### [Automazione di Excel: configurare le pagine di cartelle di lavoro e fogli di lavoro con Aspose.Cells Java](./excel-automation-aspose-cells-java-workbook-setup/)
-Scopri come automatizzare le attività di Excel configurando le pagine di cartelle e fogli di lavoro con Aspose.Cells per Java. Semplifica i flussi di lavoro di elaborazione dati in modo efficiente.
+Scopri come automatizzare le attività di Excel configurando le pagine di cartelle e fogli di lavoro con Aspose.Cells Java. Semplifica i flussi di lavoro di elaborazione dati in modo efficiente.
 
 ### [Automazione di Excel con Aspose.Cells Java: creazione di cartelle di lavoro principali e visibilità di colonne/righe](./excel-automation-aspose-cells-java-workbook-visibility/)
 Scopri come automatizzare le attività di Excel utilizzando Aspose.Cells per Java. Crea, modifica cartelle di lavoro e controlla la visibilità di colonne/righe in modo efficiente.

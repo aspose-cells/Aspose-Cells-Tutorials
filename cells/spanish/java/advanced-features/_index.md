@@ -110,6 +110,9 @@ Aprende a automatizar la actualización de segmentadores en archivos Excel con A
 ### [Analizar fecha con configuración regional en Java – Guía completa paso a paso](./parse-date-with-locale-in-java-complete-step-by-step-guide/)
 Aprende a analizar fechas en Java usando Locale, con ejemplos detallados y manejo de formatos internacionales.
 
+### [Cómo usar wrapcols en Java – remodelar matriz en Excel](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
+Aprende a usar la función wrapcols en Aspose.Cells for Java para remodelar matrices y reorganizar datos en Excel.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.Cells para Java](https://docs.aspose.com/cells/java/)

@@ -60,6 +60,8 @@
 了解如何使用 Aspose.Cells for Java 安全地重命名 Excel 表格，避免引用错误并保持数据完整性。
 ### [使用 Aspose.Cells Java 在 Excel 中设置表名称 – 完整指南](./set-table-name-in-excel-with-java-complete-guide/)
 学习如何使用 Aspose.Cells for Java 为 Excel 表格设置名称，以便更好地管理和引用表数据。
+### [在 Java 中创建 Excel 表格 – 分步指南](./create-excel-table-in-java-step-by-step-guide/)
+学习如何使用 Aspose.Cells for Java 在 Excel 中创建表格，涵盖从初始化到保存的完整步骤。
 
 ## 其他资源
 

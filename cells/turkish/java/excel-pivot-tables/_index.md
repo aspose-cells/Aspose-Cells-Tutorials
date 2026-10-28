@@ -33,7 +33,7 @@ Aspose.Cells for Java, Pivot Tablo işlemlerini sorunsuz bir şekilde Java uygul
 ### [Pivot Tablolar Oluşturma](./creating-pivot-tables/)
 Gelişmiş veri analizi ve görselleştirme için Aspose.Cells ile Java'da güçlü Pivot Tablolar oluşturmayı öğrenin.
 ### [Dinamik Pivot Tablolar](./dynamic-pivot-tables/)
-Java için Aspose.Cells'i kullanarak dinamik pivot tabloları zahmetsizce oluşturun. Verileri kolaylıkla analiz edin ve özetleyin. Veri analizi yeteneklerinizi artırın.
+Java için Aspose.Cells'i kullanarak dinik pivot tabloları zahmetsizce oluşturun. Verileri kolaylıkla analiz edin ve özetleyin. Veri analizi yeteneklerinizi artırın.
 ### [Pivot Tablolarda Verileri Gruplandırma](./grouping-data-in-pivot-tables/)
 Aspose.Cells for Java kullanarak Excel'de pivot tabloların nasıl oluşturulacağını öğrenin. Kaynak kod örnekleriyle veri gruplandırma ve analizini otomatikleştirin.
 ### [Pivot Tablolardaki Hesaplanan Alanlar](./calculated-fields-in-pivot-tables/)
@@ -75,6 +75,8 @@ Aspose.Cells for Java kullanarak Pivot Tablo görüntüsünü PNG formatında d�
 Aspose.Cells for Java kullanarak yeni bir çalışma kitabı oluşturun ve mevcut bir pivot tabloyu kopyalayarak veri analizinizi genişletin.
 ### [Aspose.Cells ile Java'da Pivot Tablo Kopyalama – Tam Kılavuz](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
 Aspose.Cells kullanarak Java'da bir pivot tabloyu nasıl kopyalayacağınızı ve verileri sorunsuz bir şekilde çoğaltacağınızı öğrenin.
+### [Java'da Pivot Tablosunu Kopyalama – Aspose.Cells Kullanarak Adım Adım Rehber](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
+Aspose.Cells ile Java'da pivot tabloyu nasıl kopyalayacağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

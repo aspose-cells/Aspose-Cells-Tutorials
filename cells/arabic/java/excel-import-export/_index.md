@@ -157,6 +157,10 @@
 تعرف على كيفية تعيين فاصل خلايا مخصص عند تصدير جدول إكسل إلى ملف TXT باستخدام Aspose.Cells لجافا.
 ### [إنشاء إكسل من JSON باستخدام Aspose Cells – دليل Java كامل](./create-excel-from-json-with-aspose-cells-full-java-guide/)
 تعلم كيفية تحويل بيانات JSON إلى ملفات Excel باستخدام Aspose.Cells لجافا من خلال دليل شامل خطوة بخطوة مع أمثلة الكود.
+### [كيفية تصدير Excel إلى PowerPoint – دليل خطوة بخطوة](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+تعرّف على طريقة تصدير ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells لجافا خطوة بخطوة.
+### [تصدير الخلايا المحددة إلى CSV في جافا – دليل كامل](./export-selected-cells-to-csv-in-java-complete-guide/)
+دليل شامل يوضح كيفية تصدير خلايا مختارة من ملف Excel إلى صيغة CSV باستخدام Aspose.Cells لجافا.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

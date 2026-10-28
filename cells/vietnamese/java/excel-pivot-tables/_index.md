@@ -75,6 +75,8 @@ Hướng dẫn xuất bảng Pivot Excel thành hình ảnh PNG bằng Aspose.Ce
 Hướng dẫn chi tiết cách tạo workbook mới và sao chép Pivot Table bằng Aspose.Cells for Java.
 ### [Sao chép Bảng Pivot trong Java với Aspose.Cells – Hướng dẫn đầy đủ](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
 Hướng dẫn chi tiết cách sao chép Bảng Pivot trong Java bằng Aspose.Cells, giúp bạn nhân bản và tái sử dụng báo cáo một cách nhanh chóng.
+### [Sao chép bảng Pivot trong Java – hướng dẫn từng bước sử dụng Aspose.Cells](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
+Hướng dẫn chi tiết cách sao chép bảng Pivot trong Java bằng Aspose.Cells, giúp tái sử dụng và cập nhật dữ liệu nhanh chóng.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

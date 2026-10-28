@@ -87,6 +87,7 @@ Aspose.Cells for Java を使用して、Excel のピボットテーブルを複�
 Aspose.Cells for Java を使用して、新しいワークブックを作成し、既存のピボットテーブルをコピーする方法をステップごとに解説します。
 ### [Java で Aspose.Cells を使ってピボットテーブルをコピーする完全ガイド](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
 Aspose.Cells for Java を利用して、既存のピボットテーブルをコピーし、データ分析を効率化する方法を詳しく解説します。
+### [Javaでピボットテーブルをコピーする – Aspose.Cellsを使用したステップバイステップガイド](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

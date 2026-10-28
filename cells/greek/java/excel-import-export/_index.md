@@ -154,6 +154,10 @@
 Μάθετε πώς να ορίσετε προσαρμοσμένο διαχωριστή κελιών κατά την εξαγωγή πίνακα Excel σε αρχείο TXT χρησιμοποιώντας το Aspose.Cells για Java.
 ### [Δημιουργία Excel από JSON με Aspose Cells – Πλήρης Οδηγός Java](./create-excel-from-json-with-aspose-cells-full-java-guide/)
 Μάθετε πώς να δημιουργήσετε αρχεία Excel από JSON χρησιμοποιώντας το Aspose.Cells για Java με πλήρη βήμα-βήμα οδηγό.
+### [Πώς να εξάγετε Excel σε PowerPoint – βήμα‑βήμα οδηγός](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+
+### [Εξαγωγή επιλεγμένων κελιών σε CSV σε Java – πλήρης οδηγός](./export-selected-cells-to-csv-in-java-complete-guide/)
+Μάθετε πώς να εξάγετε επιλεγμένα κελιά από ένα φύλλο Excel σε αρχείο CSV χρησιμοποιώντας το Aspose.Cells για Java, βήμα‑βήμα με κώδικα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

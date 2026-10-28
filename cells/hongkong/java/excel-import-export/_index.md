@@ -167,6 +167,10 @@
 了解如何使用 Aspose.Cells for Java 將 JSON 資料插入 Excel 工作表。提供逐步指南與原始程式碼示例。
 ### [設定自訂儲存格分隔符 – 匯出 Excel 表格為 TXT](./set-custom-cell-separator-export-excel-table-to-txt/)
 了解如何使用 Aspose.Cells for Java 設定自訂儲存格分隔符，將 Excel 表格匯出為 TXT 檔案。提供逐步指南與原始碼示例。
+### [如何將 Excel 匯出至 PowerPoint – 步驟說明指南](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+了解如何使用 Aspose.Cells for Java 將 Excel 檔案匯出為 PowerPoint 簡報，提供完整的程式碼範例與操作步驟。
+### [在 Java 中匯出選取儲存格至 CSV – 完整指南](./export-selected-cells-to-csv-in-java-complete-guide/)
+了解如何使用 Aspose.Cells for Java 將特定儲存格匯出為 CSV，提供完整步驟與範例程式碼。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

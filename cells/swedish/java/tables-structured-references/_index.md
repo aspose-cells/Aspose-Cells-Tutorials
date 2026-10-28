@@ -61,6 +61,7 @@ Lär dig hur du på ett säkert sätt byter namn på ett Excel-tabell med Aspose
 ### [Ställ in tabellnamn i Excel med Java – Komplett guide](./set-table-name-in-excel-with-java-complete-guide/)
 Lär dig hur du sätter tabellnamn i Excel med Aspose.Cells för Java för bättre kodläsbarhet och enklare datahantering.
 
+### [Skapa Excel-tabell i Java – steg‑för‑steg‑guide](./create-excel-table-in-java-step-by-step-guide/)
 
 ## Ytterligare resurser
 

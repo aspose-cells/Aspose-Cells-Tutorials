@@ -59,6 +59,8 @@ Tìm hiểu cách sử dụng Aspose.Cells với Java để xác định và tha
 ### [Cách đổi tên bảng Excel một cách an toàn với Aspose.Cells Java](./how-to-safely-rename-excel-table-with-aspose-cells-java/)
 Hướng dẫn cách đổi tên bảng Excel một cách an toàn bằng Aspose.Cells cho Java, bảo đảm dữ liệu không bị lỗi.
 
+### [Tạo bảng Excel trong Java – hướng dẫn từng bước](./create-excel-table-in-java-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo bảng Excel bằng Aspose.Cells cho Java, bao gồm các bước thực hiện và ví dụ mã thực tế.
 
 ### [Đặt tên bảng trong Excel bằng Java – Hướng dẫn đầy đủ](./set-table-name-in-excel-with-java-complete-guide/)
 Tìm hiểu cách đặt tên cho bảng trong Excel bằng Aspose.Cells cho Java, giúp quản lý dữ liệu và tham chiếu bảng dễ dàng hơn.

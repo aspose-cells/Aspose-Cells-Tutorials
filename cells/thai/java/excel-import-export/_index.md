@@ -43,6 +43,8 @@
 เรียนรู้วิธีการส่งออกไฟล์ Excel เป็น PDF ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ Java คำแนะนำทีละขั้นตอนของเราจะทำให้กระบวนการนี้ง่ายขึ้น เริ่มแปลงไฟล์ได้แล้ววันนี้!
 ### [วิธีสร้าง PDF จาก Workbook – คู่มือ Java ฉบับสมบูรณ์](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
 เรียนรู้วิธีแปลง Workbook เป็นไฟล์ PDF อย่างละเอียดด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดขั้นตอนครบถ้วน
+### [วิธีส่งออก Excel ไปยัง PowerPoint – คู่มือทีละขั้นตอน](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ไปยัง PowerPoint อย่างง่ายดายด้วย Aspose.Cells สำหรับ Java พร้อมขั้นตอนและโค้ดตัวอย่าง
 ### [การส่งออก Excel ไปยัง XML Java](./export-excel-to-xml-java/)
 เรียนรู้วิธีการส่งออก Excel ไปยัง XML ใน Java ด้วย Aspose.Cells สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการแปลงข้อมูลอย่างราบรื่น
 
@@ -173,6 +175,8 @@
 เรียนรู้วิธีตั้งค่าตัวคั่นเซลล์แบบกำหนดเองเมื่อส่งออกตาราง Excel เป็นไฟล์ TXT ด้วย Aspose.Cells สำหรับ Java
 ### [สร้างไฟล์ Excel จาก JSON ด้วย Aspose Cells – คู่มือเต็ม Java](./create-excel-from-json-with-aspose-cells-full-java-guide/)
 เรียนรู้วิธีสร้างไฟล์ Excel จากข้อมูล JSON ด้วย Aspose Cells ใน Java ผ่านคู่มือเต็มขั้นตอนพร้อมโค้ดตัวอย่าง
+### [ส่งออกเซลล์ที่เลือกเป็น CSV ใน Java – คู่มือฉบับสมบูรณ์](./export-selected-cells-to-csv-in-java-complete-guide/)
+เรียนรู้วิธีส่งออกเซลล์ที่เลือกจากไฟล์ Excel เป็น CSV ด้วย Aspose.Cells สำหรับ Java ด้วยขั้นตอนและโค้ดตัวอย่างที่ครบถ้วน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

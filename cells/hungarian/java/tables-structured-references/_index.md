@@ -61,6 +61,8 @@ Tanuld meg, hogyan lehet biztonságosan átnevezni egy Excel-táblát az Aspose.
 
 ### [Táblanév beállítása Excelben Java-val – Teljes útmutató](./set-table-name-in-excel-with-java-complete-guide/)
 Tanuld meg, hogyan állíthatod be a táblanevet Excelben Java használatával, lépésről lépésre útmutató.
+### [Excel-tábla létrehozása Java-ban – lépésről lépésre útmutató](./create-excel-table-in-java-step-by-step-guide/)
+Tanuld meg, hogyan hozhatsz létre Excel-táblázatot Java-ban az Aspose.Cells segítségével, részletes lépésről lépésre útmutatóval.
 
 ## További források
 

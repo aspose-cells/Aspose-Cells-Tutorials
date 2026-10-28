@@ -45,6 +45,8 @@ Tìm hiểu cách lưu tệp Excel dưới dạng TSV bằng Aspose.Cells for Ja
 Tìm hiểu cách xuất dữ liệu sang định dạng CSV từ các ô Excel bằng Aspose.Cells for Java. Hướng dẫn chi tiết với mã nguồn để thực hiện dễ dàng.
 ### [Lưu Workbook dưới dạng CSV – Hướng dẫn Java đầy đủ để xuất Excel sang CSV](./save-workbook-as-csv-complete-java-guide-to-export-excel-to/)
 Hướng dẫn chi tiết cách lưu workbook dưới dạng CSV bằng Aspose.Cells for Java, kèm mã nguồn mẫu để xuất dữ liệu Excel sang CSV một cách nhanh chóng.
+### [Xuất các ô đã chọn sang CSV trong Java – hướng dẫn đầy đủ](./export-selected-cells-to-csv-in-java-complete-guide/)
+Hướng dẫn chi tiết cách xuất các ô được chọn từ tệp Excel sang định dạng CSV bằng Aspose.Cells cho Java.
 ### [Xuất Excel sang PDF](./exporting-excel-to-pdf/)
 Tìm hiểu cách xuất tệp Excel sang PDF dễ dàng bằng Aspose.Cells for Java. Hướng dẫn từng bước của chúng tôi giúp đơn giản hóa quy trình. Bắt đầu chuyển đổi ngay hôm nay!
 
@@ -167,6 +169,8 @@ Tìm hiểu cách xuất dữ liệu Excel sang định dạng TXT bằng Aspose
 Hướng dẫn cách thiết lập dấu phân cách ô tùy chỉnh khi xuất bảng Excel sang tệp TXT bằng Aspose.Cells for Java.
 ### [Tạo Excel từ JSON bằng Aspose Cells – Hướng dẫn Java đầy đủ](./create-excel-from-json-with-aspose-cells-full-java-guide/)
 Tìm hiểu cách tạo tệp Excel từ dữ liệu JSON bằng Aspose Cells trong Java. Hướng dẫn chi tiết với mã nguồn để chuyển đổi liền mạch.
+### [Cách xuất Excel sang PowerPoint – hướng dẫn từng bước](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang PowerPoint bằng Aspose.Cells for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

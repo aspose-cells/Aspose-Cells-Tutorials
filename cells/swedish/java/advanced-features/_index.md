@@ -70,6 +70,7 @@ Denna handledning är en del av samlingen som listas längre ner.
 ### [Modifiera VBA‑moduler i Excel med Aspose.Cells for Java&#58; En omfattande guide](./modify-vba-modules-excel-aspose-cells-java/)
 ### [Uppdatera slicers i Java‑Excel‑filer med Aspose.Cells for Java](./update-slicers-java-excel-aspose-cells/)
 ### [Parsa datum med lokal i Java – Komplett steg‑för‑steg‑guide](./parse-date-with-locale-in-java-complete-step-by-step-guide/)
+### [Hur man använder wrapcols i Java – omforma array i Excel](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
 
 ## Ytterligare resurser
 

@@ -59,6 +59,8 @@ Pelajari cara menggunakan Aspose.Cells dengan Java untuk mengidentifikasi dan me
 ### [Cara aman mengganti nama tabel Excel dengan Aspose.Cells Java](./how-to-safely-rename-excel-table-with-aspose-cells-java/)
 ### [Menetapkan Nama Tabel di Excel dengan Java – Panduan Lengkap](./set-table-name-in-excel-with-java-complete-guide/)
 Pelajari cara menetapkan nama tabel di Excel menggunakan Aspose.Cells untuk Java, meningkatkan keterbacaan dan pengelolaan data dalam spreadsheet Anda.
+### [Membuat tabel Excel di Java – panduan langkah demi langkah](./create-excel-table-in-java-step-by-step-guide/)
+Panduan langkah demi langkah untuk membuat tabel Excel menggunakan Aspose.Cells untuk Java.
 
 ## Sumber Daya Tambahan
 

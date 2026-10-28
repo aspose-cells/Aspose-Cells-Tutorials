@@ -511,6 +511,12 @@ Lambda 함수를 활용해 Java에서 Excel 통합 문서를 프로그래밍 방
 ### [Java로 Excel 파일 생성 – 완전 단계별 가이드](./generate-excel-file-java-complete-step-by-step-guide/)
 Java를 사용해 Excel 파일을 생성하고 저장하는 방법을 단계별로 자세히 안내합니다.
 
+### [Java로 Excel 통합 문서 만들기: 일본 연호 날짜 처리](./create-excel-workbook-java-handle-japanese-era-dates/)
+
+### [Aspose.Cells for Java를 사용하여 사용자 지정 속성으로 Excel 통합 문서 만들기 – 단계별 가이드](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+Aspose.Cells for Java를 사용하여 사용자 지정 속성을 포함한 Excel 통합 문서를 생성하고 저장하는 방법을 단계별로 안내합니다.
+
+
 ## 추가 자료
 
 - [Java용 Aspose.Cells 문서](https://docs.aspose.com/cells/java/)

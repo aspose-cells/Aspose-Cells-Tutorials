@@ -43,6 +43,8 @@ Aspose.Cells for Javaを使用して、CSVエクスポート時に有効数字�
 Aspose.Cells for Java を使用して、Excel を CSV にエクスポートする手順をステップバイステップで学びましょう。
 ### [XLSX を CSV にエクスポート – 完全 Java ガイド](./export-xlsx-as-csv-complete-java-guide/)
 Aspose.Cells for Java を使用して、XLSX ファイルを CSV 形式に変換する手順をステップバイステップで解説します。実用的なコード例で学べます。
+### [Javaで選択したセルをCSVにエクスポートする完全ガイド](./export-selected-cells-to-csv-in-java-complete-guide/)
+Aspose.Cells for Java を使用して、選択したセルを CSV 形式でエクスポートする方法をステップバイステップで学びましょう。
 ### [Excel から PDF へのエクスポート](./exporting-excel-to-pdf/)
 Aspose.Cells for Javaを使って、ExcelファイルをPDFに簡単にエクスポートする方法を学びましょう。ステップバイステップガイドで手順を分かりやすく解説します。今すぐ変換を始めましょう！
 ### [ワークブックからPDFを作成する方法 – 完全Javaガイド](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
@@ -167,6 +169,8 @@ Aspose.Cells for Java を使って JSON データを Excel に挿入する方法
 Aspose.Cells for Javaを使用して、ExcelをTXT形式にエクスポートする方法を学びましょう。実用的なコード例付きのステップバイステップガイドです。
 ### [カスタムセル区切りの設定 – ExcelテーブルをTXTへエクスポート](./set-custom-cell-separator-export-excel-table-to-txt/)
 Aspose.Cells for Java を使い、Excel テーブルのエクスポート時にカスタムセル区切り文字を設定する方法を学びます。
+### [Excel を PowerPoint にエクスポートする方法 – ステップバイステップ ガイド](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Aspose.Cells for Java を使用して、Excel を PowerPoint にエクスポートする方法を学びましょう。ステップバイステップのガイドで簡単に変換できます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -62,6 +62,8 @@ Aprenda a renomear tabelas do Excel de forma segura usando Aspose.Cells para Jav
 Aprenda a definir o nome de uma tabela no Excel usando Aspose.Cells para Java, facilitando a referência e a manutenção dos dados.
 
 
+### [Criar tabela do Excel em Java – guia passo a passo](./create-excel-table-in-java-step-by-step-guide/)
+Aprenda a criar tabelas do Excel usando Aspose.Cells para Java com um tutorial detalhado passo a passo.
 
 ## Recursos adicionais
 

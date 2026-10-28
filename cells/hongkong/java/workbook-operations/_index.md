@@ -317,11 +317,11 @@ Aspose.Words Java 程式碼教程
 ### [使用 Aspose.Cells 掌握 Java 中的 Excel 操作：工作簿操作綜合指南](./excel-manipulation-java-aspose-cells-guide/)
 了解如何使用 Aspose.Cells for Java 自動化和簡化您的 Excel 任務。本指南涵蓋工作簿建立、儲存格樣式以及有效儲存工作簿。
 
-### [使用 Aspose.Cells Java 進行 Excel 工作簿和儲存格迭代：開發人員指南](./excel-operations-aspose-cells-java-workbook-cell-iteration/)
-使用 Aspose.Cells for Java 掌握 Excel 工作簿和儲存格迭代。本指南涵蓋設定、編碼技術和實際應用。
-
 ### [Java 中高效率的 Excel 操作：使用 Aspose.Cells 載入工作簿和計數儲存格](./excel-operations-aspose-cells-java-workbook-loading-cell-counting/)
 了解如何使用 Aspose.Cells for Java 輕鬆管理 Excel 文件，包括載入工作簿和計數儲存格。非常適合自動化數據分析任務。
+
+### [使用 Aspose.Cells Java 進行 Excel 工作簿和儲存格迭代：開發人員指南](./excel-operations-aspose-cells-java-workbook-cell-iteration/)
+使用 Aspose.Cells for Java 掌握 Excel 工作簿和儲存格迭代。本指南涵蓋設定、編碼技術和實際應用。
 
 ### [使用 Aspose.Cells Java 將 Excel 轉換為 HTML：逐步指南](./excel-to-html-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 將 Excel 檔案轉換為 HTML。增強 Web 專案中的資料呈現和可存取性。
@@ -510,6 +510,10 @@ Aspose.Words Java 程式碼教程
 了解如何使用 Lambda 函式在 Java 中建立 Excel 工作簿的示例。
 ### [生成 Excel 檔案 Java – 完整逐步指南](./generate-excel-file-java-complete-step-by-step-guide/)
 了解如何使用 Aspose.Cells for Java 生成 Excel 檔案的完整步驟指南。
+### [在 Aspose.Cells for Java 中建立 Excel 工作簿並設定自訂屬性 – 逐步指南](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+
+### [建立 Excel 工作簿 Java：處理日本元號日期](./create-excel-workbook-java-handle-japanese-era-dates/)
+了解如何在 Java 中使用 Aspose.Cells 處理日本元號日期並建立 Excel 工作簿。
 
 ## 其他資源
 

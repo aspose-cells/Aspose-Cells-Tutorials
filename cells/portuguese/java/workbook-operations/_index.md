@@ -206,7 +206,7 @@ Aprenda a usar o Aspose.Cells para Java para criar e acessar planilhas do Excel,
 Um tutorial de código para Aspose.Words Java
 
 ### [Crie e personalize pastas de trabalho do Excel usando Aspose.Cells Java: um guia passo a passo](./create-customize-excel-workbooks-aspose-cells-java/)
-Aprenda a automatizar a criação e a personalização de pastas de trabalho do Excel com o Aspose.Cells para Java. Aumente a produtividade dominando as operações da pasta de trabalho.
+Aprenda a automatizar a criação e a personalização de pastas de trabalho do Excel com o Aspose.Cells Java. Aumente a produtividade dominando as operações da pasta de trabalho.
 
 ### [Como criar e mesclar pastas de trabalho do Excel usando Aspose.Cells para Java | Guia completo](./create-merge-excel-workbooks-aspose-cells-java/)
 Aprenda a criar e mesclar pastas de trabalho do Excel com eficiência usando o Aspose.Cells para Java com este guia completo. Simplifique suas operações com pastas de trabalho hoje mesmo.
@@ -507,6 +507,11 @@ Aprenda a automatizar a criação, o gerenciamento e a formatação de pastas de
 
 ### [Gerar Arquivo Excel Java – Guia Completo Passo a Passo](./generate-excel-file-java-complete-step-by-step-guide/)
 Aprenda a gerar arquivos Excel em Java usando Aspose.Cells com um guia passo a passo completo.
+### [Criar pasta de trabalho do Excel com propriedades personalizadas em Java – guia passo a passo](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+Aprenda a criar uma pasta de trabalho do Excel com propriedades personalizadas usando Aspose.Cells para Java.
+
+### [Criar pasta de trabalho do Excel java: lidar com datas de era japonesa](./create-excel-workbook-java-handle-japanese-era-dates/)
+Aprenda a criar pastas de trabalho do Excel em Java que suportam datas de era japonesa.
 
 ## Recursos adicionais
 

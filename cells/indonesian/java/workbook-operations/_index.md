@@ -155,6 +155,11 @@ Kuasai buku kerja Excel dan iterasi sel menggunakan Aspose.Cells Java. Panduan i
 ### [Manipulasi Buku Kerja Excel yang Efisien di Java Menggunakan Aspose.Cells](./excel-workbook-manipulation-java-aspose-cells/)
 ### [Kuasai Manajemen File Excel XLSB di Java dengan Aspose.Cells: Muat dan Ubah Koneksi DB](./excel-xlsb-management-aspose-cells-java/)
 ### [Cara Mengekspor Properti Excel Kustom ke PDF Menggunakan Aspose.Cells untuk Java](./export-excel-custom-properties-pdf-aspose-cells-java/)
+Pelajari cara mengekspor properti kustom dari buku kerja Excel ke PDF menggunakan Aspose.Cells untuk Java. Sederhanakan pengelolaan data Anda dengan panduan langkah demi langkah ini.
+
+### **[Buat Buku Kerja Excel dengan Properti Kustom di Java – panduan langkah demi langkah](./create-excel-workbook-with-custom-properties-in-java-step-by/)**
+Pelajari cara membuat buku kerja Excel dengan properti kustom menggunakan Aspose.Cells untuk Java melalui panduan langkah demi langkah.
+
 ### [Ekspor Excel ke HTML menggunakan Aspose.Cells Java: Panduan Langkah demi Langkah](./export-excel-html-aspose-cells-java/)
 Pelajari cara mengekspor file Excel sebagai HTML dengan mudah menggunakan Aspose.Cells Java. Panduan ini mencakup pemuatan buku kerja, penyedia aliran kustom, dan penyimpanan buku kerja dengan mudah.
 
@@ -203,6 +208,12 @@ Pelajari cara mengonversi buku kerja Excel ke berkas PDF yang dioptimalkan mengg
 ### [Konversi Excel ke PNG, TIFF, dan PDF di Java menggunakan Aspose.Cells](./render-excel-as-png-tiff-pdf-aspose-cells-java/)
 ### [Konversi Excel ke PDF secara Efisien dengan Format Tanggal Kustom Menggunakan Aspose.Cells untuk Java](./render-excel-custom-date-formats-pdf-aspose-cells-java/)
 ### [Render Excel ke PDF dengan Penanganan Kesalahan Menggunakan Aspose.Cells untuk Java: Panduan Lengkap](./render-excel-pdf-aspose-cells-java-error-handling/)
+### [Konversi Excel ke PDF secara Efisien dengan Format Tanggal Kustom Menggunakan Aspose.Cells untuk Java](./render-excel-custom-date-forms-pdf-aspose-cells-java/)
+Kuasai cara mengonversi file Excel ke PDF sambil mempertahankan format tanggal khusus menggunakan Aspose.Cells untuk Java. Pelajari kiat penyiapan, penerapan, dan performa.
+
+### [Render Excel ke PDF dengan Penanganan Kesalahan Menggunakan Aspose.Cells untuk Java: Panduan Lengkap](./render-excel-ppdf-aspose-cells-java-error-handling/)
+Pelajari cara mengonversi file Excel ke PDF menggunakan Aspose.Cells untuk Java, dengan strategi penanganan kesalahan yang tangguh. Ideal untuk pemrosesan batch dan pelaporan data.
+
 ### [Cara Membuat Lembar Excel sebagai Gambar Menggunakan Aspose.Cells untuk Java (Operasi Buku Kerja)](./render-excel-sheets-images-aspose-cells-java/)
 ### [Cara Mengonversi Lembar Excel ke Format XPS Menggunakan Aspose.Cells Java](./render-excel-to-xps-aspose-cells-java/)
 ### [Cara Mengambil Versi File Excel Menggunakan Aspose.Cells untuk Java: Panduan Pengembang](./retrieve-excel-file-versions-aspose-cells-java/)
@@ -231,6 +242,8 @@ Panduan langkah demi langkah untuk menambahkan properti kustom ke file Excel men
 Pelajari cara menggunakan fungsi lambda di Java untuk membuat buku kerja Excel secara programatis dengan contoh kode lengkap.
 ### [Menghasilkan File Excel Java – Panduan Lengkap Langkah demi Langkah](./generate-excel-file-java-complete-step-by-step-guide/)
 Pelajari cara menghasilkan file Excel menggunakan Java dengan panduan langkah demi langkah lengkap.
+### [Membuat buku kerja Excel java: menangani tanggal era Jepang](./create-excel-workbook-java-handle-japanese-era-dates/)
+Pelajari cara membuat buku kerja Excel dengan Java yang mendukung tanggal era Jepang menggunakan Aspose.Cells.
 
 ## Sumber Daya Tambahan
 

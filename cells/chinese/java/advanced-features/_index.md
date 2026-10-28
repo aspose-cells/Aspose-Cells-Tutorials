@@ -108,6 +108,8 @@ A code tutorial for Aspose.Words Java
 
 ### [使用 Java 按地区解析日期 – 完整分步指南](./parse-date-with-locale-in-java-complete-step-by-step-guide/)
 使用 Java 的 java.time API 按区域解析日期。学习日本纪元格式处理、区域日期转换以及稳健的 Java 日期解析技术。
+### [如何在 Java 中使用 wrapcols – 在 Excel 中重塑数组](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
+学习如何在 Java 中使用 wrapcols 方法重塑 Excel 中的数组，实现灵活的数据布局。
 
 ## 其他资源
 

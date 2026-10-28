@@ -179,6 +179,10 @@
 Узнайте, как задать собственный разделитель ячеек при экспорте таблицы Excel в текстовый файл TXT с помощью Aspose.Cells для Java.
 ### [Создание Excel из JSON с Aspose Cells – Полное руководство Java](./create-excel-from-json-with-aspose-cells-full-java-guide/)
 Узнайте, как создать файл Excel из JSON с помощью Aspose Cells в Java. Пошаговое руководство с примером кода.
+### [Как экспортировать Excel в PowerPoint – пошаговое руководство](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Узнайте, как экспортировать файлы Excel в презентацию PowerPoint с помощью Aspose.Cells for Java. Пошаговое руководство с примером кода.
+### [Экспорт выбранных ячеек в CSV в Java – полное руководство](./export-selected-cells-to-csv-in-java-complete-guide/)
+Узнайте, как экспортировать выбранные ячейки в CSV с помощью Aspose.Cells для Java. Полное пошаговое руководство.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

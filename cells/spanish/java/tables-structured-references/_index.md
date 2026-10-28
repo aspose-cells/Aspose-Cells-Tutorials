@@ -61,6 +61,8 @@ Aprenda a utilizar Aspose.Cells con Java para identificar y manipular celdas den
 
 ### [Establecer el nombre de tabla en Excel con Aspose.Cells para Java: guía completa](./set-table-name-in-excel-with-java-complete-guide/)
 Aprenda a asignar un nombre a una tabla de Excel usando Aspose.Cells para Java, facilitando la referencia y gestión de datos estructurados.
+### [Crear tabla de Excel en Java – guía paso a paso](./create-excel-table-in-java-step-by-step-guide/)
+Aprenda a crear tablas de Excel en Java con Aspose.Cells mediante una guía paso a paso, incluyendo ejemplos de código y mejores prácticas.
 
 ## Recursos adicionales
 

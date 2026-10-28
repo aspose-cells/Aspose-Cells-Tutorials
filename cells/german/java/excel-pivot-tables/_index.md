@@ -76,6 +76,8 @@ Erfahren Sie, wie Sie Pivot-Tabellen aus Excel als PNG-Bild mit Aspose.Cells fü
 Erfahren Sie, wie Sie mit Aspose.Cells ein neues Arbeitsbuch erstellen und eine Pivot‑Tabelle in Java kopieren – Schritt für Schritt.
 ### [Pivot-Tabelle in Java mit Aspose.Cells kopieren – Komplettanleitung](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
 Erfahren Sie, wie Sie Pivot-Tabellen mit Aspose.Cells für Java kopieren und in Ihren Berichten wiederverwenden.
+### [Pivot-Tabelle in Java kopieren – Schritt‑für‑Schritt‑Anleitung mit Aspose.Cells](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
+Erfahren Sie, wie Sie Pivot-Tabellen mit Aspose.Cells für Java kopieren und anpassen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

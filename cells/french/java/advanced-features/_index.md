@@ -110,6 +110,8 @@ Apprenez à automatiser les mises à jour des slicers dans les fichiers Excel av
 
 ### [Analyser une date avec la locale en Java – Guide complet étape par étape](./parse-date-with-locale-in-java-complete-step-by-step-guide/)
 Apprenez à analyser des dates selon la locale en Java, avec un guide complet, du code d’exemple et des conseils pratiques.
+### [Comment utiliser wrapcols en Java – remodeler un tableau dans Excel](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
+Apprenez à utiliser la méthode wrapCols pour remodeler des tableaux dans Excel avec Aspose.Cells for Java.
 
 ## Ressources supplémentaires
 

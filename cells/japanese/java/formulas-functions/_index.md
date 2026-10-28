@@ -62,6 +62,9 @@ Aspose.Words Javaのコードチュートリアル
 ### [Aspose.Cells Javaを使用したExcelのカスタムSUM関数：計算を強化する](./custom-sum-function-excel-aspose-cells-java/)
 Aspose.Cells for Java を使って計算エンジンを拡張し、Excel の SUM 関数に定数値を追加してカスタマイズする方法を学びましょう。独自のビジネス計算に最適です。
 
+### [Aspose.Cells Java で expand 関数を使用する: ステップバイステップ ガイド](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
+Aspose.Cells for Java を使って expand 関数を適用し、データの展開方法を学び、Excel の自動化を強化する手順を解説します。
+
 ### [GlobalizationSettings と Aspose.Cells を使用して Java で Excel の数式をカスタマイズする](./customize-excel-formulas-globalizationsettings-aspose-cells-java/)
 Aspose.Cells for Javaを使用して、GlobalizationSettingsでExcelの数式をカスタマイズする方法を学びます。このガイドでは、実装、数式名のローカライズ、パフォーマンス最適化のテクニックについて説明します。
 

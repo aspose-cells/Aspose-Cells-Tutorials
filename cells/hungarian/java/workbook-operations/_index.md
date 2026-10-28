@@ -79,7 +79,7 @@ Kód oktatóanyag az Aspose.Words Java-hoz
 Ismerje meg, hogyan exportálhat Excel-fájlokat egységes szegélystílusokkal HTML-be az Aspose.Cells for Java használatával. Kövesse ezt az útmutatót a speciális mentési beállítások konfigurálásához és megvalósításához.
 
 ### [Excel exportálása XPS-be az Aspose.Cells for Java segítségével: lépésről lépésre útmutató](./aspose-cells-java-export-excel-xps/)
-Ismerje meg, hogyan exportálhat hatékonyan Excel-fájlokat XPS formátumba az Aspose.Cells for Java segítségével. Ez az átfogó útmutató a munkafüzetek betöltését, beállítási lehetőségeit és megjelenítését ismerteti.
+Ismerje meg, hogyan exportálhat hatékonyan Excel-fájlokat XPS formátumba az Aspose.Cells for Java használatával. Ez az átfogó útmutató a munkafüzetek betöltését, beállítási lehetőségeit és megjelenítését ismerteti.
 
 ### [Betűtípus-helyettesítési figyelmeztetések kezelése az Aspose.Cells-ben Java-ban: Teljes útmutató](./aspose-cells-java-font-substitution-warnings-guide/)
 Ismerje meg, hogyan kezelheti a betűtípus-helyettesítési figyelmeztetéseket Excel-fájlok Aspose.Cells for Java segítségével történő konvertálásakor, biztosítva a dokumentum integritását és az elrendezés konzisztenciáját.
@@ -123,7 +123,7 @@ Ismerje meg, hogyan automatizálhatja az Excel-feladatokat Java nyelven az Aspos
 ### [Master Workbook Management Java-ban: Excel papírméret betöltése és ellenőrzése az Aspose.Cells segítségével](./aspose-cells-java-load-workbook-paper-size/)
 Ismerje meg, hogyan használható az Aspose.Cells for Java Excel-munkafüzetek kezelésére fájlok betöltésével, munkalapok elérésével és a papírméret-beállítások ellenőrzésével.
 
-### [Aspose.Cells Java: Figyelmeztető visszahívás implementálása Excel munkafüzetek betöltésekor](./aspose-cells-java-loading-warning-callback/)
+### [Aspose.Cells Java: Figyelmeztő visszahívás implementálása Excel munkafüzetek betöltésekor](./aspose-cells-java-loading-warning-callback/)
 Ismerje meg, hogyan használható az Aspose.Cells Java-ban Excel-fájlok figyelmeztető visszahívással történő betöltéséhez, biztosítva az összetett munkafüzetek zökkenőmentes feldolgozását.
 
 ### [Munkafüzet-verziók és betöltési beállítások kezelése az Aspose.Cells programban Java-ban: Átfogó útmutató](./aspose-cells-java-manage-workbook-versions-load-options/)
@@ -236,6 +236,9 @@ Tanulja meg, hogyan hozhat létre és egyesíthet hatékonyan Excel-munkafüzete
 
 ### [Útmutató Excel-munkafüzetek létrehozásához és mentéséhez az Aspose.Cells használatával Java-ban](./create-save-excel-workbook-aspose-cells-java/)
 Ismerd meg, hogyan hozhatsz létre, kezelhetsz és menthetsz Excel-munkafüzeteket a hatékony Aspose.Cells Java könyvtár segítségével. Ez a lépésről lépésre haladó útmutató mindent lefed a beállítástól a megvalósításig.
+
+### [Excel munkafüzet létrehozása Java-ban: japán korszak dátumok kezelése](./create-excel-workbook-java-handle-japanese-era-dates/)
+Ismerje meg, hogyan kezelheti a japán korszak dátumait Excel-munkafüzetekben Java és Aspose.Cells használatával.
 
 ### [ODS fájlok létrehozása és mentése az Aspose.Cells for Java használatával: Fejlesztői útmutató](./create-save-ods-files-aspose-cells-java/)
 Tanuld meg, hogyan hozhatsz létre és menthetsz el ODS fájlokat könnyedén az Aspose.Cells for Java segítségével. Ez az útmutató mindent lefed a beállítástól a sémabeállításokkal történő mentésig.

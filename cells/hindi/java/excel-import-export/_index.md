@@ -42,6 +42,10 @@ Aspose.Cells for Java के साथ जावा में Excel को XML �
 ### [Excel को PDF में बदलें – Aspose.Cells के साथ पूर्ण जावा गाइड](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
 Aspose.Cells for Java का उपयोग करके Excel फ़ाइलों को PDF में बदलने की पूरी प्रक्रिया सीखें। चरण‑दर‑चरण कोड उदाहरणों के साथ।
 
+### [जावा में चयनित कोशिकाओं को CSV में निर्यात करें – पूर्ण गाइड](./export-selected-cells-to-csv-in-java-complete-guide/)
+जावा में Aspose.Cells का उपयोग करके चयनित कोशिकाओं को CSV फ़ाइल में निर्यात करने की पूरी मार्गदर्शिका।
+### [Excel को PowerPoint में निर्यात कैसे करें – चरण‑दर‑चरण गाइड](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Aspose.Cells for Java का उपयोग करके Excel को PowerPoint प्रस्तुति में निर्यात करने की प्रक्रिया सीखें। चरण‑दर‑स्टेप मार्गदर्शिका।
 ### [एक्सेल से डेटा आयात करें](./data-import-from-excel/)
 जावा के लिए Aspose.Cells का उपयोग करके Excel से डेटा आयात करना सीखें। निर्बाध डेटा पुनर्प्राप्ति के लिए स्रोत कोड के साथ एक व्यापक गाइड।
 

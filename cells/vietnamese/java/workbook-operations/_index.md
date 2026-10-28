@@ -505,6 +505,15 @@ Hướng dẫn cách dùng hàm Lambda trong Java để tạo và lưu workbook 
 ### [Tạo tệp Excel bằng Java – Hướng dẫn chi tiết từng bước](./generate-excel-file-java-complete-step-by-step-guide/)
 Hướng dẫn chi tiết cách tạo tệp Excel trong Java bằng Aspose.Cells, bao gồm cài đặt, mã mẫu và lưu ở các định dạng khác nhau.
 
+### [Kết xuất Excel thành PDF với Xử lý lỗi bằng Aspose.Cells cho Java: Hướng dẫn toàn diện](./render-excel-ppdf-aspose-cells-java-error-handling/)
+Tìm hiểu cách chuyển đổi tệp Excel sang PDF bằng Aspose.Cells for Java, với các chiến lược xử lý lỗi mạnh mẽ. Lý tưởng cho xử lý hàng loạt và báo cáo dữ liệu.
+
+### [Tạo sổ làm việc Excel với thuộc tính tùy chỉnh trong Java – hướng dẫn từng bước](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+Hướng dẫn cách tạo sổ làm việc Excel và thêm các thuộc tính tùy chỉnh bằng Aspose.Cells cho Java.
+
+### [Tạo sổ làm việc Excel java: Xử lý ngày theo niên hiệu Nhật Bản](./create-excel-workbook-java-handle-japanese-era-dates/)
+Hướng dẫn cách tạo sổ làm việc Excel trong Java và xử lý ngày theo niên hiệu Nhật Bản một cách chính xác.
+
 ## Tài nguyên bổ sung
 
 - [Tài liệu Aspose.Cells cho Java](https://docs.aspose.com/cells/java/)

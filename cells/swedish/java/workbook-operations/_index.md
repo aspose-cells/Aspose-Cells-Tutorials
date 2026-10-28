@@ -37,6 +37,9 @@ Lär dig hur du använder en Lambda-funktion i Java för att programatiskt skapa
 ### [Skapa ny arbetsbok i Java – En komplett guide](./create-new-workbook-java-complete-guide/)
 Lär dig hur du skapar en ny Excel-arbetsbok från grunden med Aspose.Cells för Java, inklusive konfiguration och sparalternativ.
 
+### [Skapa Excel-arbetsbok Java: hantera japanska era-datum](./create-excel-workbook-java-handle-japanese-era-dates/)
+Lär dig hur du skapar en Excel-arbetsbok i Java och hanterar datum i japanska eraformat med Aspose.Cells.
+
 ### [Aspose.Cells Java: Visa version och skapa delad arbetsbok](./aspose-cells-java-display-version-create-shared-workbook/)
 Läs mer om Aspose.Words Java
 
@@ -346,8 +349,11 @@ Lär dig hur du använder Aspose.Cells för Java för att effektivt skapa, modif
 ### [Bemästra Excel XLSB-filhantering i Java med Aspose.Cells: Ladda och ändra databasanslutningar](./excel-xlsb-management-aspose-cells-java/)
 Lär dig hur du hanterar Excel XLSB-filer med Aspose.Cells för Java. Den här handledningen beskriver hur du laddar, ändrar databaskopplingar och sparar ändringar effektivt.
 
-### [Hur man exporterar anpassade Excel-egenskaper till PDF med hjälp av Aspose.Cells för Java](./export-excel-custom-properties-pdf-aspose-cells-java/)
+### [Hur man exporterar anpassade Excel-egenskaper till PDF med Aspose.Cells för Java](./export-excel-custom-properties-pdf-aspose-cells-java/)
 Lär dig hur du exporterar anpassade egenskaper från en Excel-arbetsbok till en PDF med Aspose.Cells för Java. Effektivisera din datahantering med den här steg-för-steg-guiden.
+
+### [Skapa Excel-arbetsbok med anpassade egenskaper i Java – en steg-för-steg-guide](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+Lär dig hur du skapar en Excel-arbetsbok med anpassade egenskaper i Java med Aspose.Cells. En komplett steg‑för‑steg‑guide.
 
 ### [Exportera Excel till HTML med Aspose.Cells Java: En steg-för-steg-guide](./export-excel-html-aspose-cells-java/)
 Lär dig hur du sömlöst exporterar Excel-filer som HTML med Aspose.Cells för Java. Den här guiden behandlar hur man laddar arbetsböcker, anpassade strömleverantörer och hur man enkelt sparar arbetsböcker.

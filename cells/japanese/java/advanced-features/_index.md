@@ -70,6 +70,7 @@ weight: 18
 ### [Aspose.Cells for Java を使用した Excel の VBA モジュールの変更：包括的ガイド](./modify-vba-modules-excel-aspose-cells-java/)
 ### [Aspose.Cells for Java を使用した Java Excel ファイルのスライサー更新](./update-slicers-java-excel-aspose-cells/)
 ### [Java でロケールを使用した日付の解析 – 完全ステップバイステップガイド](./parse-date-with-locale-in-java-complete-step-by-step-guide/)
+### [Java で wrapcols を使用する方法 – Excel で配列を再形成](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
 
 ## Additional Resources
 

@@ -41,6 +41,8 @@ Aspose.Cells for Java를 사용하여 데이터를 CSV 형식으로 내보내는
 Aspose.Cells for Java를 사용하여 XLSX 파일을 CSV 형식으로 변환하는 방법을 단계별로 안내합니다.
 ### [워크북을 CSV로 저장 – Excel을 CSV로 내보내는 전체 Java 가이드](./save-workbook-as-csv-complete-java-guide-to-export-excel-to/)
 Aspose.Cells for Java를 활용해 워크북을 CSV 형식으로 저장하는 전체 가이드를 단계별로 확인하세요.
+### [Java에서 선택한 셀을 CSV로 내보내는 완전 가이드](./export-selected-cells-to-csv-in-java-complete-guide/)
+Aspose.Cells for Java를 사용하여 선택한 셀만 CSV 파일로 내보내는 방법을 단계별로 안내합니다.
 ### [Excel을 PDF로 내보내기](./exporting-excel-to-pdf/)
 Aspose.Cells for Java를 사용하여 Excel 파일을 PDF로 손쉽게 내보내는 방법을 알아보세요. 단계별 가이드를 통해 과정을 간소화할 수 있습니다. 지금 바로 변환을 시작하세요!
 ### [워크북에서 PDF 만들기 – 완전 Java 가이드](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
@@ -153,6 +155,8 @@ Aspose.Cells for Java를 사용하여 Excel 파일을 TXT 형식으로 변환하
 Aspose.Cells for Java를 사용하여 Excel 테이블을 TXT 파일로 내보낼 때 사용자 지정 셀 구분자를 설정하는 방법을 단계별로 안내합니다.
 ### [Aspose Cells로 JSON에서 Excel 만들기 – 전체 Java 가이드](./create-excel-from-json-with-aspose-cells-full-java-guide/)
 Aspose Cells를 활용해 JSON 데이터를 Excel 파일로 변환하는 전체 Java 단계별 가이드를 확인하세요.
+### [Excel을 PowerPoint로 내보내는 방법 – 단계별 가이드](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Aspose.Cells for Java를 사용하여 Excel을 PowerPoint 프레젠테이션으로 내보내는 방법을 단계별로 안내합니다. 실용적인 예제로 데이터 시각화를 손쉽게 구현하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

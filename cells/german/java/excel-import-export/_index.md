@@ -152,6 +152,10 @@ Erfahren Sie, wie Sie JSON-Daten mit Aspose Cells für Java in Excel einfügen. 
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java in das TXT-Format exportieren. Schritt‑für‑Schritt‑Anleitung mit Beispielcode.
 ### [Benutzerdefinierten Zellseparator festlegen – Excel‑Tabelle nach TXT exportieren](./set-custom-cell-separator-export-excel-table-to-txt/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java einen benutzerdefinierten Zellseparator festlegen und Excel‑Tabellen in das TXT‑Format exportieren.
+### [Excel nach PowerPoint exportieren – Schritt‑für‑Schritt‑Anleitung](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java in PowerPoint-Präsentationen exportieren. Schritt‑für‑Schritt‑Anleitung.
+### [Ausgewählte Zellen nach CSV exportieren in Java – vollständige Anleitung](./export-selected-cells-to-csv-in-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java ausgewählte Zellen in CSV exportieren. Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

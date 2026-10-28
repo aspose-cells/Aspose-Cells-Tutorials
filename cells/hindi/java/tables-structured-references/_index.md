@@ -61,6 +61,8 @@ Aspose.Cells Java का उपयोग करके वर्कबुक स�
 
 ### [Aspose.Cells Java के साथ एक्सेल टेबल को सुरक्षित रूप से पुनःनामित करने का तरीका](./how-to-safely-rename-excel-table-with-aspose-cells-java/)
 Aspose.Cells Java का उपयोग करके एक्सेल टेबल को सुरक्षित रूप से पुनःनामित करने की चरण-दर-चरण गाइड।
+### [जावा में एक्सेल टेबल बनाएं – चरण‑दर‑चरण गाइड](./create-excel-table-in-java-step-by-step-guide/)
+जावा में Aspose.Cells का उपयोग करके एक्सेल टेबल बनाने की विस्तृत चरण‑दर‑चरण गाइड।
 
 ## अतिरिक्त संसाधन
 

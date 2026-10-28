@@ -95,6 +95,7 @@ Dowiedz się, jak obliczyć cotangens w Excelu, korzystając z funkcji i formuł
 Dowiedz się, jak sortować unikalne wartości i ustawiać formuły tablicowe w Excelu przy użyciu Aspose.Cells dla Java.
 ### [Jak używać Aspose w Javie – tworzenie skoroszytu Excel z nowymi funkcjami](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
 Dowiedz się, jak używać Aspose w Javie do tworzenia skoroszytu Excel z nowymi funkcjami.
+### [Użyj funkcji expand w Aspose.Cells Java – przewodnik krok po kroku](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
 
 ## Dodatkowe zasoby
 

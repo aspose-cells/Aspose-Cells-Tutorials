@@ -288,7 +288,7 @@ Apprenez à automatiser les tâches Excel en configurant les pages de classeurs 
 ### [Automatisation Excel avec Aspose.Cells Java : création de classeurs et visibilité des colonnes/lignes](./excel-automation-aspose-cells-java-workbook-visibility/)
 Apprenez à automatiser les tâches Excel avec Aspose.Cells pour Java. Créez, modifiez des classeurs et gérez efficacement la visibilité des colonnes et des lignes.
 
-### [Automatisation Excel avec Aspose.Cells : charger, enregistrer et remplacer du texte](./excel-automation-aspose-cells-load-save-text/)
+### [Automatisation Excel : charger, enregistrer et remplacer du texte](./excel-automation-aspose-cells-load-save-text/)
 Un tutoriel de code pour Aspose.Words Java
 
 ### [Automatisation d'Excel avec Aspose.Cells Java : gestion efficace des propriétés du classeur et enregistrement des fichiers](./excel-automation-aspose-cells-manage-properties-save-files/)
@@ -364,6 +364,10 @@ Apprenez à exporter des propriétés personnalisées d'un classeur Excel vers u
 Apprenez à ajouter une propriété personnalisée à un classeur Excel, récupérer sa valeur et enregistrer le fichier au format XLSB avec Aspose.Cells pour Java.
 ### [Comment ajouter une propriété personnalisée dans Excel avec Java – Guide complet](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
 Apprenez à ajouter et gérer des propriétés personnalisées dans un classeur Excel à l'aide d'Aspose.Cells pour Java.
+### [Créer un classeur Excel avec des propriétés personnalisées en Java – guide étape par étape](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+Apprenez à créer un classeur Excel et à définir des propriétés personnalisées en Java avec Aspose.Cells, étape par étape.
+
+### [Créer un classeur Excel Java : gérer les dates d'ère japonaise](./create-excel-workbook-java-handle-japanese-era-dates/)
 
 ### [Exporter Excel au format HTML avec Aspose.Cells Java : guide étape par étape](./export-excel-html-aspose-cells-java/)
 Découvrez comment exporter facilement des fichiers Excel au format HTML avec Aspose.Cells Java. Ce guide explique comment charger des classeurs, personnaliser les fournisseurs de flux et enregistrer facilement des classeurs.

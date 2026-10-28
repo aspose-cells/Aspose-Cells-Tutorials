@@ -103,6 +103,9 @@ Learn to manage and modify Excel data connections programmatically with Aspose.C
 ### [Jak używać Aspose.Cells Java do zamrażania okien w Excelu&#58; przewodnik krok po kroku](./mastering-aspose-cells-java-freeze-panes-excel/)
 Learn how to use Aspose.Cells with Java to freeze panes in Excel. This step‑by‑step guide covers all you need from loading workbooks to saving them.
 
+### [Jak używać wrapcols w Javie – przekształcanie tablicy w Excelu](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
+Dowiedz się, jak używać metody wrapCols w Aspose.Cells for Java, aby przekształcić tablicę danych w arkuszu Excel.
+
 ### [Modyfikacja modułów VBA w Excelu przy użyciu Aspose.Cells for Java&#58; kompleksowy przewodnik](./modify-vba-modules-excel-aspose-cells-java/)
 Learn how to load and modify VBA modules in Excel workbooks with Aspose.Cells for Java. This guide covers the essential steps from setup to implementation, optimizing your automation tasks.
 

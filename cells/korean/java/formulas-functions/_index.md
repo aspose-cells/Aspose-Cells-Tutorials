@@ -97,6 +97,8 @@ Aspose.Cells for Java를 사용하여 고유값을 정렬하고 배열 수식을
 새로운 함수를 사용하여 Excel 워크북을 생성하고 Aspose 기능을 활용하는 방법을 단계별로 안내합니다.
 
 
+### [Aspose.Cells Java에서 expand 함수 사용 – 단계별 가이드](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
+Aspose.Cells for Java에서 expand 함수를 활용하여 데이터 확장을 수행하고, 구현 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

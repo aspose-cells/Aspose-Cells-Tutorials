@@ -157,6 +157,10 @@ Learn how to export Excel to TXT using Aspose.Cells for Java. Step-by-step guide
 Learn how to set a custom cell separator when exporting an Excel table to TXT using Aspose.Cells for Java. Step-by-step guide with source code.
 ### [Create Excel from JSON with Aspose Cells – Full Java Guide](./create-excel-from-json-with-aspose-cells-full-java-guide/)
 Learn how to generate Excel files from JSON data using Aspose.Cells for Java in this comprehensive step-by-step guide.
+### [How to export Excel to PowerPoint – step‑by‑step guide](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Learn how to export Excel files to PowerPoint using Aspose.Cells for Java with a step‑by‑step guide.
+### [Export selected cells to CSV in Java – complete guide](./export-selected-cells-to-csv-in-java-complete-guide/)
+Learn how to export specific cells from an Excel workbook to CSV using Aspose.Cells for Java with step‑by‑step code examples.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

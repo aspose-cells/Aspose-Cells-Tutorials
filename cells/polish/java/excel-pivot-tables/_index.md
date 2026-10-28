@@ -82,6 +82,8 @@ Dowiedz się, jak wyeksportować tabelę przestawną jako obraz PNG przy użyciu
 Dowiedz się, jak w Javie utworzyć nowy skoroszyt i skopiować istniejącą tabelę przestawną przy użyciu Aspose.Cells, krok po kroku.
 ### [Kopiowanie tabeli przestawnej w Javie z Aspose.Cells – Kompletny przewodnik](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
 Dowiedz się, jak skopiować tabelę przestawną w Javie przy użyciu Aspose.Cells, aby szybko replikować raporty i zachować formatowanie.
+### [Kopiowanie tabeli przestawnej w Javie – przewodnik krok po kroku z użyciem Aspose.Cells](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
+Dowiedz się, jak skopiować istniejącą tabelę przestawną w Javie przy użyciu Aspose.Cells, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

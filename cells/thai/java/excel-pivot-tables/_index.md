@@ -67,6 +67,8 @@ Aspose.Cells สำหรับ Java ช่วยให้คุณสามา�
 เรียนรู้วิธีสร้างเวิร์กบุ๊กใหม่และคัดลอกตารางสรุปข้อมูลใน Java ด้วย Aspose.Cells อย่างละเอียดขั้นตอนต่อขั้นตอน
 ### [คัดลอกตารางสรุปข้อมูลใน Java ด้วย Aspose.Cells – คู่มือฉบับสมบูรณ์](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
 เรียนรู้วิธีคัดลอก Pivot Table ใน Java ด้วย Aspose.Cells อย่างละเอียดเพื่อการวิเคราะห์ข้อมูลที่มีประสิทธิภาพ
+### [คัดลอกตารางสรุปข้อมูลใน Java – คู่มือขั้นตอนโดยใช้ Aspose.Cells](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
+เรียนรู้วิธีคัดลอก Pivot Table ใน Java อย่างละเอียดด้วย Aspose.Cells
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

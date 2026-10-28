@@ -170,6 +170,10 @@ Pelajari cara mengekspor file Excel ke format TXT menggunakan Aspose.Cells untuk
 Pelajari cara mengatur pemisah sel khusus saat mengekspor tabel Excel ke file TXT menggunakan Aspose.Cells untuk Java.
 ### [Buat Excel dari JSON dengan Aspose Cells – Panduan Java Lengkap](./create-excel-from-json-with-aspose-cells-full-java-guide/)
 Pelajari cara membuat file Excel dari data JSON menggunakan Aspose Cells untuk Java. Ikuti panduan langkah demi langkah dengan contoh kode.
+### [Cara Mengekspor Excel ke PowerPoint – panduan langkah demi langkah](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Pelajari cara mengekspor file Excel ke PowerPoint dengan Aspose.Cells untuk Java melalui panduan langkah demi langkah yang mudah diikuti.
+### [Ekspor sel terpilih ke CSV dalam Java – panduan lengkap](./export-selected-cells-to-csv-in-java-complete-guide/)
+Pelajari cara mengekspor sel tertentu dari file Excel ke format CSV menggunakan Aspose.Cells untuk Java dengan contoh kode lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

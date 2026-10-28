@@ -45,6 +45,7 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java ein neues Arbeitsbuch von Grund
 Erfahren Sie, wie Sie mit einer Java-Lambda‑Funktion ein Excel‑Arbeitsbuch programmgesteuert erstellen.
 ### [Excel-Datei mit Java generieren – Vollständige Schritt‑für‑Schritt‑Anleitung](./generate-excel-file-java-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Excel-Dateien von Grund auf erstellen und speichern.
+### [Excel-Arbeitsmappe in Java erstellen: Japanische Ära-Daten verarbeiten](./create-excel-workbook-java-handle-japanese-era-dates/)
 
 ### [Aspose.Cells Java: Version anzeigen und gemeinsame Arbeitsmappe erstellen](./aspose-cells-java-display-version-create-shared-workbook/)
 Ein Code-Tutorial für Aspose.Words Java
@@ -359,6 +360,8 @@ Erfahren Sie, wie Sie benutzerdefinierte Eigenschaften aus einer Excel-Arbeitsma
 
 ### [Exportieren Sie Excel mit Aspose.Cells Java nach HTML: Eine Schritt‑für‑Schritt‑Anleitung](./export-excel-html-aspose-cells-java/)
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java nahtlos als HTML exportieren. Diese Anleitung behandelt das Laden von Arbeitsmappen, benutzerdefinierte Stream‑Anbieter und das einfache Speichern von Arbeitsmappen.
+### [Excel-Arbeitsmappe mit benutzerdefinierten Eigenschaften in Java erstellen – Schritt‑für‑Schritt‑Anleitung](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+
 
 ### [Exportieren Sie Excel nach HTML mit IStreamProvider und Aspose.Cells für Java: Ein umfassender Leitfaden](./export-excel-html-streamprovider-aspose-cells-java/)
 Erfahren Sie, wie Sie Excel-Dateien mithilfe der IStreamProvider‑Schnittstelle mit Aspose.Cells effizient in Java in HTML exportieren. Diese Anleitung behandelt Einrichtung, Konfiguration und praktische Anwendungen.

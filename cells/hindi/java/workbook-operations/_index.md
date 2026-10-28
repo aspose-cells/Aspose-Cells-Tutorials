@@ -27,6 +27,11 @@
 ## उपलब्ध ट्यूटोरियल
 
 ### [Aspose.Cells Java: Excel वर्कबुक बनाएं और सहेजें - एक चरण-दर-स्टेप मार्गदर्शिका](./aspose-cells-java-create-save-excel-workbooks/)
+### [Create Excel workbook with custom properties in Java – step‑by‑step guide](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+
+### [जावा में एक्सेल वर्कबुक बनाएं: जापानी युग तिथियों को संभालें](./create-excel-workbook-java-handle-japanese-era-dates/)
+जावा में Aspose.Cells का उपयोग करके जापानी युग तिथियों को सही ढंग से संभालना सीखें।
+
 जावा के लिए Aspose.Cells का उपयोग करके Excel कार्यपुस्तिकाओं के निर्माण और प्रबंधन को स्वचालित करने का तरीका जानें। यह मार्गदर्शिका पृष्ठ सेटअप गुणों को इंस्टेंटिएट करना, सहेजना और सेट करना शामिल करती है।
 
 ### [Excel वर्कबुक जावा में बनाएं – पूर्ण चरण-दर-चरण गाइड](./create-excel-workbook-java-complete-step-by-step-guide/)

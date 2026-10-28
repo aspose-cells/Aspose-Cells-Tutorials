@@ -154,6 +154,10 @@ Lär dig hur du exporterar Excel-data till TXT-format med Java i en detaljerad s
 Lär dig hur du anger en egen cellseparator när du exporterar en Excel-tabell till TXT med Aspose.Cells för Java.
 ### [Skapa Excel från JSON med Aspose Cells – Fullständig Java-guide](./create-excel-from-json-with-aspose-cells-full-java-guide/)
 Lär dig hur du skapar en Excel-fil från JSON med Aspose Cells i Java. Steg-för-steg-guide med kodexempel för smidig konvertering.
+### [Exportera Excel till PowerPoint – steg‑för‑steg‑guide](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Lär dig hur du exporterar Excel-filer till PowerPoint med Aspose.Cells för Java i en enkel steg‑för‑steg‑guide.
+### [Exportera valda celler till CSV i Java – komplett guide](./export-selected-cells-to-csv-in-java-complete-guide/)
+Lär dig hur du exporterar specifika celler till CSV med Aspose.Cells för Java i en komplett steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

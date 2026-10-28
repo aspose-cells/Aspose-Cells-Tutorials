@@ -44,6 +44,8 @@ Aprenda a converter arquivos XLSX para CSV usando Aspose.Cells para Java. Guia c
 Aprenda a definir o delimitador e salvar arquivos como CSV usando Aspose.Cells no Java.
 ### [Salvar Pasta de Trabalho como CSV – Guia Java Completo para Exportar Excel para CSV](./save-workbook-as-csv-complete-java-guide-to-export-excel-to/)
 Aprenda a salvar uma pasta de trabalho como CSV usando Aspose.Cells para Java. Guia passo a passo com código‑fonte para exportação simplificada.
+### [Exportar células selecionadas para CSV em Java – guia completo](./export-selected-cells-to-csv-in-java-complete-guide/)
+Aprenda a exportar células selecionadas de uma planilha Excel para CSV usando Aspose.Cells para Java, com exemplos de código passo a passo.
 ### [Exportando Excel para PDF](./exporting-excel-to-pdf/)
 Aprenda a exportar arquivos do Excel para PDF sem esforço usando o Aspose.Cells para Java. Nosso guia passo a passo simplifica o processo. Comece a converter hoje mesmo!
 ### [Converter Excel para PDF – Guia Java Completo com Aspose.Cells](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
@@ -155,6 +157,8 @@ Aprenda a inserir dados JSON em planilhas Excel usando Aspose.Cells para Java. G
 Aprenda a exportar arquivos do Excel para TXT usando o Aspose.Cells para Java. Guia passo a passo com código-fonte para conversão simplificada.
 ### [Definir Separador de Célula Personalizado – Exportar Tabela do Excel para TXT](./set-custom-cell-separator-export-excel-table-to-txt/)
 Aprenda a definir um separador de célula personalizado ao exportar tabelas do Excel para TXT usando Aspose.Cells para Java.
+### [Como exportar Excel para PowerPoint – guia passo a passo](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Aprenda a exportar planilhas do Excel para apresentações PowerPoint usando Aspose.Cells para Java, com exemplos de código passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
