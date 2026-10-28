@@ -22,19 +22,12 @@ Vorlagen sparen Entwicklungszeit, indem sie Design und Datenverarbeitungslogik t
 ## Vorlagendesign und -verarbeitung
 
 ### Intelligente Markierungen für die Datenbindung
-- [Generieren Sie dynamische Excel-Berichte mit Smart Markers](./generate-excel-reports-aspose-cells-net-smart-markers) - Erstellen Sie datengesteuerte Berichte mit intelligenten Markierungen
-- [Master SmartMarkers für die Automatisierung von Excel-Berichten](./dynamic-excel-reports-aspose-cells-net) - Erlernen Sie fortgeschrittene Smart-Marker-Techniken
-- [Stammdatenintegration mit Smart Markers](./mastering-data-integration-aspose-cells-smart-markers) - Effiziente Datenbindung mit intelligenten Markern
 
 ### Professionelle Berichterstellung
-- [Dynamische Excel-Berichte meistern](./aspose-cells-net-dynamic-excel-reports-guide) - Erstellen Sie umfassende Excel-Berichte
-- [Arbeitsmappendesign mit SmartMarkers](./master-workbook-design-aspose-cells-smartmarkers) - Entwerfen Sie effiziente Berichtsvorlagen
-- [Erstellen Sie Excel-Berichte mit Diagrammen](./dynamic-excel-reports-aspose-cells-net) - Visualisierungen zu Berichten hinzufügen
 
 ## Metadatenverwaltung und Dokumenteigenschaften
 
 ### Dokumentinformationen
-- [Metadaten der Master-Arbeitsmappe](./mastering-workbook-metadata-aspose-cells-net) - Verwalten Sie Dokumenteigenschaften und Metadaten
 
 ## Liste der Tutorials
 
@@ -55,6 +48,21 @@ Ein Code-Tutorial für Aspose.Cells Net
 
 ### [Master Aspose.Cells .NET Smart Markers für die Datenintegration in Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Lernen Sie mit diesem umfassenden Leitfaden, die Datenintegration mit Aspose.Cells .NET Smart Markers zu meistern. Automatisieren Sie Ihre Excel-Workflows und erstellen Sie effizient Berichte.
+
+### [Datenbindung von Vorlagen in Excel: Vorlagen mit C# füllen](./template-data-binding-in-excel-populate-templates-with-c/)
+Erfahren Sie, wie Sie Excel-Vorlagen mithilfe von C# programmatisch befüllen und Daten effizient binden.
+### [Excel-Arbeitsmappe aus JSON speichern – Vollständige Anleitung](./save-excel-workbook-from-json-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Arbeitsmappen aus JSON-Daten speichern und exportieren.
+### [Excel aus Vorlage erstellen – Schritt‑für‑Schritt‑Anleitung für .NET‑Entwickler](./create-excel-from-template-step-by-step-guide-for-net-develo/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien aus Vorlagen erstellen, Daten binden und Berichte automatisieren.
+
+### [Excel-Vorlage verarbeiten und Arbeitsblätter automatisch benennen in C#](./how-to-process-excel-template-and-automatically-name-sheets)
+Erfahren Sie, wie Sie Excel-Vorlagen verarbeiten und Arbeitsblätter automatisch benennen, um Berichte effizient zu erstellen.
+
+### [Wie man Daten mit einer C#‑Vorlage nach Excel exportiert – Schritt‑für‑Schritt‑Anleitung](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
+Erfahren Sie, wie Sie mit einer C#‑Vorlage Daten nach Excel exportieren und den Vorgang Schritt für Schritt automatisieren.
+
+### [Wie man ein Array in Excel erweitert und eine Vorlage füllt](./how-to-expand-array-in-excel-and-populate-a-template)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

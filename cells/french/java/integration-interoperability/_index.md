@@ -53,7 +53,39 @@ Apprenez à automatiser les tâches Excel avec Aspose.Cells pour Java, notamment
 ### [Maîtriser l'implémentation de cours Java Teacher avec l'intégration d'Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 Découvrez comment implémenter une classe Teacher en Java, gérer les données des étudiants et intégrer Aspose.Cells pour une gestion améliorée des fichiers Excel.
 
+### [Convertir Excel en PPTX avec Java : guide complet de programmation](./convert-excel-to-pptx-with-java-complete-programming-guide/)
+Apprenez à convertir des classeurs Excel en présentations PowerPoint (PPTX) en Java à l'aide d'Aspose.Cells, avec du code complet et des conseils d'optimisation.
 
+### [Comment exporter des graphiques d'Excel vers Word – Guide Java](./how-to-export-charts-from-excel-to-word-java-guide/)
+Apprenez à exporter des graphiques Excel vers des documents Word en Java avec Aspose.Cells, incluant le code complet et les meilleures pratiques.
+
+### [Comment utiliser WRAPCOLS en Java – Guide complet des formules matricielles Excel](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
+Apprenez à appliquer la fonction WRAPCOLS avec Aspose.Cells pour Java afin de gérer les formules matricielles Excel efficacement.
+### [Créer PowerPoint à partir d'Excel – Guide complet Java](./create-powerpoint-from-excel-full-java-guide/)
+Apprenez à générer des présentations PowerPoint à partir de données Excel en utilisant Aspose.Cells et Aspose.Slides pour Java.
+
+### [Convertir Excel en PowerPoint – Guide complet Java](./convert-excel-to-powerpoint-complete-java-guide/)
+Apprenez à transformer des classeurs Excel en présentations PowerPoint avec Aspose.Cells et Aspose.Slides pour Java.
+### [Comment exporter des graphiques d'Excel vers PowerPoint – Guide complet Java](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
+Apprenez à extraire des graphiques Excel et les insérer dans des présentations PowerPoint à l'aide d'Aspose.Cells pour Java.
+### [Convertir Excel en PowerPoint – Guide complet étape par étape](./convert-excel-to-powerpoint-full-step-by-step-guide/)
+Apprenez à convertir des fichiers Excel en présentations PowerPoint avec Aspose.Cells pour Java, étape par étape.
+### [Comment enregistrer Excel au format DOCX avec Aspose.Cells en C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+Apprenez à convertir un classeur Excel en document Word (DOCX) à l'aide d'Aspose.Cells pour C#.
+### [Comment copier une plage depuis Excel et l'exporter vers PowerPoint avec Java](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+Apprenez à copier une plage de cellules Excel et à l'exporter dans une présentation PowerPoint en utilisant Aspose.Cells et Aspose.Slides pour Java.
+### [Convertir Excel en PowerPoint avec Aspose.Cells pour Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+Apprenez à convertir des classeurs Excel en présentations PowerPoint en Java à l'aide d'Aspose.Cells.
+### [Comment enregistrer un PPTX depuis Excel – Guide complet pour exporter une feuille Excel vers PowerPoint](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+Apprenez à convertir une feuille Excel en présentation PowerPoint en enregistrant le fichier au format PPTX avec Aspose.Cells pour Java.
+
+### [Comment utiliser WRAPCOLS en Java – Guide complet pour la conversion de matrices](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
+Apprenez à appliquer la fonction WRAPCOLS avec Aspose.Cells pour Java afin de transformer des données en matrices structurées.
+
+### [Comment intégrer des polices lors de la conversion d'Excel en PDF avec Java](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
+Apprenez à incorporer les polices dans les fichiers PDF générés à partir d'Excel avec Aspose.Cells pour Java.
+### [Excel vers PPTX : guide complet Java pour exporter des formes modifiables](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+Apprenez à convertir des classeurs Excel en présentations PowerPoint avec des formes éditables en utilisant Aspose.Cells pour Java.
 
 ## Ressources supplémentaires
 

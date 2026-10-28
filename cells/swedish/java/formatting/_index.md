@@ -59,8 +59,16 @@ Lär dig hur du anpassar teckensnitt i Excel-dokument med Aspose.Cells för Java
 ### [Bemästra anpassade talformat i Java Excel-arbetsböcker med Aspose.Cells](./aspose-cells-java-custom-number-formats-handling/)
 Lär dig hur du hanterar anpassade talformat i Java-arbetsböcker med Aspose.Cells. Den här guiden behandlar arbetsbokskonfiguration, undantagshantering och verkliga tillämpningar.
 
+### [Ställ in anpassat talformat i Excel med Java - Komplett guide](./set-custom-number-format-in-excel-with-java-complete-guide/)
+Lär dig hur du definierar och använder anpassade talformat i Excel-filer med Aspose.Cells för Java. Steg‑för‑steg‑exempel och bästa praxis.
+### [Tillämpa talformat i Excel med Java – Komplett Aspose.Cells-guide](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+Lär dig hur du använder Aspose.Cells för Java för att tillämpa talformat i Excel, med steg‑för‑steg‑instruktioner och kodexempel.
+
 ### [Mastering Data Presentation i Excel: Nummer- och anpassad datumformatering med Aspose.Cells för Java](./aspose-cells-java-data-formatting-excel/)
 Lär dig hur du använder talformat och anpassade datumformat med Aspose.Cells för Java, vilket förbättrar datapresentationen i Excel-kalkylblad.
+
+### [Ställ in talformat i Excel med Java – En komplett guide](./set-number-format-excel-in-java-complete-guide/)
+Lär dig hur du ställer in talformat i Excel-filer med Aspose.Cells för Java. Den här guiden visar steg-för-steg‑instruktioner och kodexempel.
 
 ### [Hur man skapar och formaterar Excel-celler med Aspose.Cells för Java: En steg-för-steg-guide](./aspose-cells-java-excel-automation-guide/)
 Lär dig hur du enkelt automatiserar och formaterar Excel-filer med Aspose.Cells för Java. Den här guiden behandlar skapande av arbetsböcker, cellformatering och sparningstekniker.
@@ -69,7 +77,7 @@ Lär dig hur du enkelt automatiserar och formaterar Excel-filer med Aspose.Cells
 Lär dig hur du tar bort redundanta mellanslag från HTML och anpassar kolumner automatiskt i Excel med Aspose.Cells för Java. Förbättra datapresentationen med effektiv formatering.
 
 ### [Hur man lägger till prefix för tabellformat i HTML med hjälp av Aspose.Cells för Java](./aspose-cells-java-prefix-table-styles-html/)
-Lär dig hur du förbättrar presentationen av Excel-data genom att prefixa tabellstilar med anpassade CSS-ID:n med Aspose.Cells för Java.
+Lär dig hur du förbättrar presentationen av Excel-data genom att prefixa tabellstilar med anpassade CSS‑ID:n med Aspose.Cells för Java.
 
 ### [Hur man läser glödeffektfärg i Excel med hjälp av Aspose.Cells för Java](./aspose-cells-java-read-glow-effect-color-excel/)
 Lär dig hur du extraherar och analyserar glödeffektfärger från former i Excel-filer programmatiskt med hjälp av Aspose.Cells för Java. Öka dina datavisualiserings- och rapporteringsmöjligheter.
@@ -79,6 +87,8 @@ Lär dig hur du ställer in kolumnbredd i pixlar med Aspose.Cells för Java. Den
 
 ### [Ställa in teckenstorlek i Excel med Aspose.Cells Java - Omfattande guide](./aspose-cells-java-set-font-size-excel/)
 Lär dig hur du ställer in teckenstorlek i Excel-filer med Aspose.Cells för Java med den här steg-för-steg-handledningen. Förbättra dina kunskaper i dokumentformatering idag!
+
+### [Ställ in fet stil på teckensnitt i Java Excel-export - Komplett guide](./set-font-bold-in-java-excel-export-complete-guide/)
 
 ### [Mastering Aspose.Cells för Java: Avancerad guide till stil- och teckensnittshantering i Excel](./aspose-cells-java-style-font-management/)
 Lär dig hur du hanterar stilar och teckensnitt i Excel-filer med Aspose.Cells för Java. Den här guiden behandlar konfiguration av arbetsböcker, skapande av stilar och anpassning av teckensnitt.
@@ -110,6 +120,9 @@ Lär dig hur du använder Aspose.Cells för Java för att skapa och formatera Ex
 ### [Automatisera villkorsstyrd formatering i Excel med Aspose.Cells för Java: En komplett guide](./automate-conditional-formatting-excel-aspose-cells-java/)
 Lär dig hur du automatiserar villkorsstyrd formatering i Excel med Aspose.Cells för Java. Effektivisera ditt arbetsflöde och öka produktiviteten genom att effektivt tillämpa dynamiska regler.
 
+### [Skapa Excel-arbetsbok med dynamisk formatering i Java – En komplett guide](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+Lär dig hur du skapar en Excel-arbetsbok med dynamisk formatering i Java med hjälp av Aspose.Cells. Steg-för-steg-instruktioner och kodexempel.
+
 ### [Så här ändrar du Excel-temafärger med Aspose.Cells för Java: En omfattande guide](./change-excel-theme-colors-aspose-cells-java/)
 Lär dig hur du ändrar temafärger i Excel-filer programmatiskt med Aspose.Cells för Java. Följ den här steg-för-steg-guiden för att förbättra dina kalkylblads utseende och bibehålla varumärkeskonsekvens.
 
@@ -121,6 +134,9 @@ Lär dig hur du konverterar Excel-filer med gradientfyllningar till HTML med hj�
 
 ### [Skapa och formatera Excel/ODS-filer med Aspose.Cells för Java: En omfattande guide](./create-style-excel-ods-aspose-cells-java/)
 Lär dig hur du skapar, formaterar och hanterar Excel- och ODS-filer programmatiskt med Aspose.Cells för Java. Spara tid och minska fel i dina kalkylbladsuppgifter.
+
+### [Skapa stiliserad Excel-arbetsbok i Java – En komplett guide](./create-styled-excel-workbook-in-java-complete-guide/)
+Lär dig hur du skapar och formaterar en Excel-arbetsbok med stil i Java med Aspose.Cells. Steg-för-steg‑exempel och bästa praxis.
 
 ### [Implementera anpassade teckensnitt i Aspose.Cells för Java: En omfattande guide till konsekvent arbetsboksrendering](./custom-fonts-aspose-cells-java-guide/)
 Lär dig hur du säkerställer konsekvent rendering av Excel-arbetsböcker med anpassade teckensnitt med hjälp av Aspose.Cells för Java. Den här guiden täcker installation, konfiguration och praktiska tillämpningar.
@@ -228,12 +244,17 @@ Lär dig hur du roterar text i Excel-celler med Aspose.Cells för Java. Förbät
 Lär dig hur du ställer in zoomfaktorn i Excel-kalkylblad med Aspose.Cells för Java. Förbättra dina funktioner för datapresentation och granskning programmatiskt.
 
 ### [Så här sorterar du Excel-data efter kolumnfärg med Aspose.Cells Java: En komplett guide](./sort-excel-data-by-column-color-aspose-cells-java/)
-Lär dig hur du effektivt sorterar Excel-data efter kolumnfärg med Aspose.Cells för Java. Den här guiden täcker förutsättningar, implementeringssteg och praktiska tillämpningar.
+Lär dig hur du effektivt sorterar Excel-data efter kolumnfärg med Aspose.Cells Java. Den här guiden täcker förutsättningar, implementeringssteg och praktiska tillämpningar.
 
 ### [Hur man utformar Excel-celler och lägger till hyperlänkar med hjälp av Aspose.Cells för Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Bemästra formateringen av Excel-celler och hur du lägger till hyperlänkar i dina Java-applikationer med Aspose.Cells. Följ den här omfattande guiden för sömlös integration och formatering.
 
+### [Hur man tillämpar stilar när man konverterar DataTable till Excel – Fullständig Java-guide](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 
+### [Aspose Cells datumformat: Hur du ställer in anpassat datumformat i Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+Lär dig hur du använder Aspose.Cells för Java för att definiera och tillämpa anpassade datumformat i Excel-filer.
+### [Hur man använder WRAPCOLS i Aspose.Cells – Komplett Java-exempel](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Lär dig hur du använder WRAPCOLS-funktionen i Aspose.Cells för Java för att automatiskt anpassa kolumnbredd baserat på cellinnehåll.
 
 ## Ytterligare resurser
 

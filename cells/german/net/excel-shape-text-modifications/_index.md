@@ -50,6 +50,8 @@ Zum Schluss noch ein Wort zur Präsentation. Es geht nicht nur um Daten, sondern
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Text aus zahnradartigem SmartArt in Excel extrahieren. Schritt-für-Schritt-Anleitung und Codebeispiel inklusive.
 ### [Ersetzen Sie das Tag durch Text im Textfeld in Excel](./replace-tag-text-textbox-excel/)
 Ersetzen Sie mühelos Text in Textfeldern Ihrer Excel-Tabellen mit Aspose.Cells für .NET. Eine Schritt-für-Schritt-Anleitung zur Excel-Automatisierung.
+### [Text in Textfeldern in Excel fett formatieren mit C# – Schritt‑für‑Schritt‑Anleitung](./make-textbox-text-bold-in-excel-with-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Text in Textfeldern in Excel fett formatieren. Schritt‑für‑Schritt‑Anleitung inklusive Codebeispiel.
 ### [Drehen Sie Text mit Form in Excel](./rotate-text-shape-excel/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Text mit Formen in Excel drehen. Folgen Sie dieser Schritt-für-Schritt-Anleitung für eine perfekte Excel-Präsentation.
 ### [Bild als Textur in Form kacheln in Excel](./tile-picture-texture-shape-excel/)
@@ -64,6 +66,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Formen in Excel nach vorne oder
 Erfahren Sie in diesem umfassenden und leicht verständlichen Tutorial, wie Sie mit Aspose.Cells für .NET fernöstliche und lateinische Schriftarten in Excel angeben.
 ### [Ränder für Kommentare oder Formen in Excel festlegen](./set-margins-comment-shape-excel/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Ränder für Kommentare und Formen in Excel festlegen. Eine Schritt-für-Schritt-Anleitung für eine einfache Implementierung ist enthalten.
+### [Textbox-Schriftgröße in Excel mit C# ändern – Vollständige Anleitung](./change-textbox-font-size-in-excel-with-c-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET die Schriftgröße von Textfeldern in Excel ändern. Schritt-für-Schritt-Anleitung inklusive.
 ### [Zugriff auf nicht-primitive Formen in Excel](./access-non-primitive-shape-excel/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET auf nicht-primitive Formen in Excel zugreifen. Entdecken Sie Schritt-für-Schritt-Methoden in diesem umfassenden Handbuch.
 ### [OLE-Objekt in Excel aktualisieren](./refresh-ole-object-excel/)

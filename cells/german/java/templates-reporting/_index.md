@@ -44,7 +44,30 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java dynamische Excel-Berichte mit b
 ### [Erstellen dynamischer Excel-Berichte mit Aspose.Cells Java und Smart Markers](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 Erfahren Sie, wie Sie die dynamische Excel-Berichterstellung mit Aspose.Cells für Java mithilfe intelligenter Markierungen automatisieren. Optimieren Sie Ihren Berichtsprozess effizient.
 
+### [Erstellen einer Master-Detail-Arbeitsmappe mit Aspose.Cells (Java)](./create-master-detail-workbook-with-aspose-cells-java/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java ein Master‑Detail‑Arbeitsbuch erstellen und Daten aus mehreren Quellen verknüpfen.
+### [Arbeitsmappe mit SmartMarker erstellen – Excel-Arbeitsmappe füllen](./create-workbook-smartmarker-populate-excel-workbook/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java einen SmartMarker erstellen und damit eine Excel-Arbeitsmappe programmgesteuert befüllen.
+### [Excel-Vorlage mit Daten füllen – Excel-Bericht aus Vorlage erstellen](./populate-excel-template-with-data-create-excel-report-from-t/)
+Erfahren Sie, wie Sie eine Excel-Vorlage mit Daten befüllen und daraus programmgesteuert einen Bericht erstellen.
+### [Excel-Vorlage mit Daten füllen mithilfe von Aspose.Cells](./how-to-populate-excel-template-with-data-using-aspose-cells/)
+Erfahren Sie, wie Sie mit Aspose.Cells Daten in eine Excel-Vorlage einfügen und Berichte automatisieren.
 
+### [Aspose Cells Smart Markers – Excel-Vorlage befüllen](./aspose-cells-smart-markers-populate-excel-template/)
+Erfahren Sie, wie Sie mit Smart Markers von Aspose.Cells eine Excel-Vorlage befüllen und daraus Berichte generieren.
+
+### [Wie man Arbeitsblätter mit Smart Markern generiert – Vollständige Java-Anleitung](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Smart Marker nutzen, um Arbeitsblätter automatisch zu erstellen und Daten zu füllen.
+
+### [Aspose Cells Smart Markers: Excel-Vorlage laden & Excel aus Vorlage generieren](./aspose-cells-smart-markers-load-excel-template-generate-exce/)
+Erfahren Sie, wie Sie mit Smart Markers eine Excel-Vorlage laden und daraus dynamisch Excel-Dateien generieren.
+### [Detailblätter in Java mit Aspose.Cells Smart Markers erstellen](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
+Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers Detailblätter in Java automatisch generieren.
+### [Wie man Berichte mit Excel Smart Markern generiert – Vollständige Java-Anleitung](./how-to-generate-report-with-excel-smart-markers-full-java-gu/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Smart Markers einsetzen, um vollständige Berichte zu erstellen – Schritt‑für‑Schritt‑Anleitung.
+
+### [Excel-Arbeitsmappe mit Smart Markern erstellen – Java‑Leitfaden](./create-excel-workbook-with-smart-markers-java-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Excel-Arbeitsmappe mithilfe von Smart Markern programmgesteuert erstellen.
 
 ## Weitere Ressourcen
 

@@ -54,13 +54,15 @@
 تعرف على كيفية تطبيق التنسيق الشرطي باستخدام Aspose.Cells for Java لتحسين تصور البيانات وإنشاء تقارير Excel احترافية.
 
 ### [كيفية تنفيذ إعدادات الخط المخصصة في تنسيق Aspose.Cells Java لـ Excel](./aspose-cells-java-custom-fonts/)
-تعرف على كيفية تخصيص الخطوط في مستندات Excel باستخدام Aspose.Cells لـ Java، بما في ذلك إعداد مصادر الخطوط واستكشاف المشكلات الشائعة وإصلاحها.
+تعرف على كيفية تخصيص الخطوط في مستندات Excel باستخدام Aspose.Cells لـ Java، بما في incluye إعداد مصادر الخطوط واستكشاف المشكلات الشائعة وإصلاحها.
 
 ### [إتقان تنسيقات الأرقام المخصصة في مصنفات Java Excel باستخدام Aspose.Cells](./aspose-cells-java-custom-number-formats-handling/)
 تعرّف على كيفية التعامل مع تنسيقات الأرقام المخصصة في مصنفات جافا باستخدام Aspose.Cells. يغطي هذا الدليل تكوين المصنفات، ومعالجة الاستثناءات، والتطبيقات العملية.
 
 ### [إتقان عرض البيانات في Excel: تنسيق الأرقام والتاريخ المخصص باستخدام Aspose.Cells لـ Java](./aspose-cells-java-data-formatting-excel/)
 تعرف على كيفية تطبيق تنسيقات الأرقام وأنماط التاريخ المخصصة باستخدام Aspose.Cells لـ Java، مما يعزز عرض البيانات في جداول بيانات Excel.
+
+### [تطبيق تنسيق الأرقام في Excel باستخدام Java – دليل كامل Aspose.Cells](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
 
 ### [كيفية إنشاء وتنسيق خلايا Excel باستخدام Aspose.Cells لـ Java: دليل خطوة بخطوة](./aspose-cells-java-excel-automation-guide/)
 تعلّم كيفية أتمتة ملفات Excel وتنسيقها بسهولة باستخدام Aspose.Cells لجافا. يغطي هذا الدليل إنشاء المصنفات، وتنسيق الخلايا، وتقنيات الحفظ.
@@ -111,7 +113,7 @@
 تعرّف على كيفية أتمتة التنسيق الشرطي في Excel باستخدام Aspose.Cells لـ Java. بسّط سير عملك وحسّن إنتاجيتك بتطبيق قواعد ديناميكية بكفاءة.
 
 ### [كيفية تغيير ألوان سمات Excel باستخدام Aspose.Cells لـ Java: دليل شامل](./change-excel-theme-colors-aspose-cells-java/)
-تعرّف على كيفية تغيير ألوان السمات في ملفات Excel برمجيًا باستخدام Aspose.Cells لجافا. اتبع هذا الدليل خطوة بخطوة لتحسين مظهر جداول بياناتك والحفاظ على اتساق علامتك التجارية.
+تعرّف على كيفية تغيير ألوان السمات في ملفات Excel برمجياً باستخدام Aspose.Cells لجافا. اتبع هذا الدليل خطوة بخطوة لتحسين مظهر جداول بياناتك والحفاظ على اتساق علامتك التجارية.
 
 ### [كيفية تغيير لون الخط في Excel باستخدام Aspose.Cells لـ Java: دليل شامل](./change-font-color-aspose-cells-java-tutorial/)
 تعلّم كيفية تغيير لون الخط بكفاءة في ملفات Excel باستخدام Aspose.Cells لجافا. يغطي هذا البرنامج التعليمي خطوة بخطوة كل شيء، من الإعداد إلى التنفيذ.
@@ -120,8 +122,7 @@
 تعرف على كيفية تحويل ملفات Excel ذات التعبئة المتدرجة إلى HTML باستخدام مكتبة Aspose.Cells لـ Java، مما يضمن عروض تقديمية ويب جذابة بصريًا.
 
 ### [إنشاء وتنسيق ملفات Excel/ODS باستخدام Aspose.Cells لـ Java: دليل شامل](./create-style-excel-ods-aspose-cells-java/)
-تعلّم كيفية إنشاء ملفات Excel وODS وتنسيقها وإدارتها برمجيًا باستخدام Aspose.Cells لـ Java. وفّر الوقت وقلل الأخطاء في مهام جداول البيانات.
-
+### [إنشاء مصنف Excel منسق في Java – دليل كامل](./create-styled-excel-workbook-in-java-complete-guide/)
 ### [تنفيذ الخطوط المخصصة في Aspose.Cells لـ Java: دليل شامل لعرض مصنفات العمل بشكل متسق](./custom-fonts-aspose-cells-java-guide/)
 تعرّف على كيفية ضمان عرض متناسق لمصنفات Excel باستخدام خطوط مخصصة باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل الإعداد والتكوين والتطبيقات العملية.
 
@@ -210,7 +211,7 @@
 تعلّم كيفية تطبيق تأثيرات الظل على أشكال Excel باستخدام Aspose.Cells لـ Java. حسّن جداول بياناتك بتصميم مرئي احترافي.
 
 ### [إتقان أنماط Excel في Java باستخدام Aspose.Cells: دليل شامل](./mastering-styles-excel-aspose-cells-java/)
-تعلّم كيفية إنشاء أنماط مخصصة وتطبيقها برمجيًا على ملفات Excel باستخدام Aspose.Cells لـ Java. حسّن قابلية القراءة وادمجها بسلاسة في سير عمل إدارة بياناتك.
+تعلّم كيفية إنشاء أنماط مخصصة وتطبيقها برمجياً على ملفات Excel باستخدام Aspose.Cells لـ Java. حسّن قابلية القراءة وادمجها بسلاسة في سير عمل إدارة بياناتك.
 
 ### [دمج الخلايا وتطبيق الأنماط في Excel باستخدام Aspose.Cells لـ Java - دليل شامل](./merge-cells-apply-styles-aspose-cells-java/)
 تعرّف على كيفية دمج الخلايا وتطبيق أنماط مخصصة في جداول بيانات Excel باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل كل شيء، بدءًا من الإعداد ووصولًا إلى حفظ الملفات بتنسيقات متعددة.
@@ -233,7 +234,17 @@
 ### [كيفية تصميم خلايا Excel وإضافة ارتباطات تشعبية باستخدام Aspose.Cells لـ Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 أتقن تنسيق خلايا Excel وإضافة الروابط التشعبية في تطبيقات Java باستخدام Aspose.Cells. اتبع هذا الدليل الشامل للتكامل والتنسيق بسلاسة.
 
+### [إنشاء مصنف Excel بتنسيق ديناميكي في Java – دليل كامل](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+تعلم كيفية إنشاء مصنف Excel وتطبيق تنسيقات ديناميكية باستخدام Aspose.Cells لجافا خطوة بخطوة.
+### [كيفية تطبيق الأنماط عند تحويل DataTable إلى Excel – دليل كامل لجافا](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 
+### [تنسيق تاريخ Aspose Cells: كيفية تعيين تنسيق تاريخ مخصص في Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+
+### [تعيين تنسيق الأرقام في Excel باستخدام Java – دليل كامل](./set-number-format-excel-in-java-complete-guide/)
+### [تعيين الخط العريض في تصدير Excel باستخدام Java – دليل كامل](./set-font-bold-in-java-excel-export-complete-guide/)
+
+### [تعيين تنسيق رقم مخصص في Excel باستخدام Java – دليل كامل](./set-custom-number-format-in-excel-with-java-complete-guide/)
+### [كيفية استخدام WRAPCOLS في Aspose.Cells – مثال كامل بلغة Java](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 
 ## موارد إضافية
 

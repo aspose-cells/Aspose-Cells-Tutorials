@@ -29,6 +29,11 @@
 ### [Aspose.Cells Java：创建和保存 Excel 工作簿 - 分步指南](./aspose-cells-java-create-save-excel-workbooks/)
 学习如何使用 Aspose.Cells for Java 自动创建和管理 Excel 工作簿。本指南涵盖实例化、保存和设置页面设置属性。
 
+### [Aspose.Cells Java：在 Java 中创建新工作簿 – 分步指南](./create-new-workbook-in-java-step-by-step-guide/)
+学习如何使用 Aspose.Cells for Java 从头创建全新的 Excel 工作簿，涵盖实例化、属性设置和保存步骤。
+### [创建工作簿日本日历 – 完整 Java 教程](./create-workbook-japanese-calendar-complete-java-tutorial/)
+学习如何使用 Aspose.Cells for Java 创建包含日本日历的工作簿，包括日期设置、格式化和本地化步骤。
+
 ### [Aspose.Cells Java：显示版本并创建共享工作簿](./aspose-cells-java-display-version-create-shared-workbook/)
 Aspose.Words Java 代码教程
 
@@ -135,7 +140,7 @@ Aspose.Words Java 代码教程
 学习如何使用 Aspose.Cells for Java 管理 Excel 工作簿的版本和格式。检索版本信息、配置 Open XML 兼容性等等。
 
 ### [使用 Aspose.Cells 掌握 Java 中的 Excel 工作簿操作](./aspose-cells-java-workbook-manipulation/)
-学习使用 Aspose.Cells for Java 自动执行 Excel 任务。本教程涵盖如何高效地设置、加载、创建、复制和保存工作簿。
+学习使用 Aspose.Cells for Java 自动执行 Excel 工作簿操作。本教程涵盖如何高效地设置、加载、创建、复制和保存工作簿。
 
 ### [掌握使用 Aspose.Cells for Java 进行工作簿操作：综合指南](./aspose-cells-java-workbook-manipulation-guide/)
 学习使用 Aspose.Cells for Java 自动化 Excel 工作簿操作。本指南涵盖如何高效地创建、修改和保存工作簿。
@@ -146,10 +151,10 @@ Aspose.Words Java 代码教程
 ### [使用 Aspose.Cells 掌握 Java 中的工作簿元数据管理](./aspose-cells-java-workbook-metadata-management/)
 学习如何使用 Aspose.Cells for Java 高效管理 Excel 工作簿元数据。本教程涵盖了如何无缝加载、修改和保存自定义文档属性。
 
-### [使用 Aspose.Cells 在 Java 中实现主工作簿样式和 HTML 导出](./aspose-cells-java-workbook-styling-html-export/)
+### [如何使用 Aspose.Cells 在 Java 中实现主工作簿样式和 HTML 导出](./aspose-cells-java-workbook-styling-html-export/)
 学习如何使用 Aspose.Cells for Java 设置 Excel 工作簿的样式并将其导出为 HTML。本指南涵盖版本检索、样式设置技巧以及使用 CSS 导出。
 
-### [使用 Aspose.Cells for Java 将 Apple Numbers 转换为 PDF：综合指南](./convert-apple-numbers-pdf-aspose-cells-java/)
+### [如何使用 Aspose.Cells for Java 将 Apple Numbers 转换为 PDF：综合指南](./convert-apple-numbers-pdf-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 将 Apple Numbers 电子表格转换为 PDF。本指南涵盖设置、实施和最佳实践。
 
 ### [如何使用 Aspose.Cells 在 Java 中将 Excel 文件转换为可访问的 PDF](./convert-excel-accessible-pdf-java-aspose-cells/)
@@ -215,8 +220,13 @@ Aspose.Words Java 代码教程
 ### [使用 Aspose.Cells Java 创建工作簿](./create-configure-workbooks-aspose-cells-java/)
 Aspose.Words Java 代码教程
 
+### [创建新工作簿 Java – 完整指南](./create-new-workbook-java-complete-guide/)
+学习如何使用 Aspose.Cells for Java 创建全新的工作簿并进行完整的配置和保存。
+
 ### [使用 Aspose.Cells Java 创建和自定义 Excel 工作簿：分步指南](./create-customize-excel-workbooks-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 自动创建和自定义 Excel 工作簿。掌握工作簿操作，提高工作效率。
+
+### [Java 创建 Excel 文件，添加自定义属性并保存为 XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
 
 ### [如何使用 Aspose.Cells for Java 创建和合并 Excel 工作簿 | 完整指南](./create-merge-excel-workbooks-aspose-cells-java/)
 通过本指南，学习如何使用 Aspose.Cells for Java 高效地创建和合并 Excel 工作簿。立即简化您的工作簿操作。
@@ -455,6 +465,9 @@ Aspose.Words Java 代码教程
 ### [使用 Aspose.Cells 在 Java 中将 Excel 转换为 PNG、TIFF 和 PDF](./render-excel-as-png-tiff-pdf-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 将 Excel 文件转换为图像（PNG、TIFF）或 PDF。遵循本分步指南，增强报告共享。
 
+### [使用 Aspose.Cells for Java 高效地将 Excel 转换为具有自定义日期格式的 PDF](./render-excel-custom-date-forms-pdf-aspose-cells-java/)
+掌握如何使用 Aspose.Cells for Java 将 Excel 文件转换为 PDF，同时保留自定义日期格式。学习设置、实施和性能技巧。
+
 ### [使用 Aspose.Cells for Java 高效地将 Excel 转换为具有自定义日期格式的 PDF](./render-excel-custom-date-formats-pdf-aspose-cells-java/)
 掌握如何使用 Aspose.Cells for Java 将 Excel 文件转换为 PDF，同时保留自定义日期格式。学习设置、实施和性能技巧。
 
@@ -476,27 +489,30 @@ Aspose.Words Java 代码教程
 ### [如何使用 Aspose.Cells for Java 设置 Excel 文档版本](./set-excel-version-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 设置和管理 Excel 文件中的文档属性（例如版本控制）。按照本分步指南，高效地操作工作簿。
 
-### [使用 Aspose.Cells for Java 创建 Excel 工作簿并将其保存为 SVG](./create-save-workbook-svg-aspose-cells-java/)
-了解如何使用 Aspose.Cells for Java 自动创建 Excel 工作簿并将其导出为 SVG 文件。请按照本分步指南进行操作，实现无缝集成。
+### [使用 Java 编程创建 XLSB 工作簿 – 完整指南](./create-xlsb-workbook-programmatically-full-java-guide/)
+学习如何使用 Aspose.Cells for Java 在代码中创建并保存 XLSB 工作簿，包括设置选项和最佳实践。
 
-### [使用 Aspose.Cells for Java 将 Excel 工作簿转换为 PDF 的综合指南](./convert-excel-to-pdf-aspose-cells-java/)
-了解如何使用 Aspose.Cells for Java 将 Excel 工作簿转换为 PDF。提供分步说明、示例代码和最佳实践。
+### [在 Java 中创建 Excel 工作簿 – 完整分步指南](./create-excel-workbook-in-java-complete-step-by-step-guide/)
+学习如何在 Java 中使用 Aspose.Cells 完整创建并保存 Excel 工作簿的每一步。
 
-### [使用 Aspose.Cells for Java 将 Excel 转换为 PNG 的综合指南](./convert-excel-to-png-aspose-cells-java/)
-了解如何使用 Aspose.Cells for Java 将 Excel 工作簿转换为 PNG 图像。提供示例代码、设置和优化技巧。
+### [在 Java 中将工作簿保存为 XLSX – 完整编程指南](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
+学习如何使用 Aspose.Cells for Java 将工作簿保存为 XLSX 格式，提供完整代码示例和最佳实践。
 
-### [使用 Aspose.Cells for Java 将 Excel 转换为 SVG 的综合指南](./convert-excel-to-svg-aspose-cells-java/)
-了解如何使用 Aspose.Cells for Java 将 Excel 工作簿转换为 SVG 矢量图像。提供示例代码、设置和优化技巧。
+### [创建 Excel 工作簿 Java – 完整分步指南](./create-excel-workbook-java-complete-step-by-step-guide/)
+学习如何使用 Java 创建 Excel 工作簿并进行完整的分步操作，涵盖创建、配置和保存等关键步骤。
 
-### [使用 Aspose.Cells for Java 将 Excel 转换为 TIFF 的综合指南](./convert-excel-to-tiff-aspose-cells-java/)
-了解如何使用 Aspose.Cells for Java 将 Excel 工作簿转换为 TIFF 图像。提供示例代码、设置和优化技巧。
+### [将工作簿保存到文件 – 完整的 Java 指南用于复制 Excel 区域](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
 
-### [使用 Aspose.Cells for Java 将 Excel 转换为 XPS 的综合指南](./convert-excel-to-xps-aspose-cells-java/)
-了解如何使用 Aspose.Cells for Java 将 Excel 工作簿转换为 XPS 文档。提供示例代码、设置和优化技巧。
-
-### [使用 Aspose.Cells for Java 将 Excel 转换为 PDF 的综合指南](./convert-excel-to-pdf-aspose-cells-java/)
-了解如何使用 Aspose.Cells for Java 将 Excel 工作簿转换为 PDF。提供示例代码、设置和优化技巧。
-
+### [如何在 Excel（Java）中添加自定义属性 – 检索值并保存为 XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
+学习如何使用 Aspose.Cells for Java 在 Excel 工作簿中添加自定义属性、检索其值并将工作簿保存为 XLSB 格式。
+### [在 Java 中保存新工作簿 – 在工作簿之间复制范围教程](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
+学习如何在 Java 中创建新工作簿并在工作簿之间复制单元格范围。
+### [使用 Lambda 函数 Java 创建 Excel 工作簿示例](./use-lambda-function-java-to-create-excel-workbook-example/)
+演示如何使用 Java Lambda 函数快速创建并保存 Excel 工作簿的示例代码。
+### [生成 Excel 文件 Java – 完整分步指南](./generate-excel-file-java-complete-step-by-step-guide/)
+学习如何使用 Aspose.Cells for Java 从头创建 Excel 文件并保存为多种格式的完整分步指南。
+### [如何使用 Java 在 Excel 中添加自定义属性 – 完整指南](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+学习如何使用 Aspose.Cells for Java 在 Excel 工作簿中添加自定义属性的完整步骤。
 ### [使用 Aspose.Cells for Java 将 Excel 转换为 PDF（带有自定义属性）](./convert-excel-to-pdf-with-custom-properties-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 将 Excel 工作簿转换为 PDF，并在输出中包含自定义属性。提供示例代码、设置和优化技巧。
 
@@ -505,3 +521,11 @@ Aspose.Words Java 代码教程
 
 ### [创建 Excel 工作簿 Java：处理日本纪元日期](./create-excel-workbook-java-handle-japanese-era-dates/)
 学习如何在 Java 中创建 Excel 工作簿并正确处理日本纪元日期。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

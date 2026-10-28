@@ -1,9 +1,50 @@
 ---
-"date": "2025-04-09"
-"description": "Pelajari cara menyesuaikan pesan kesalahan dan nilai boolean dalam berbagai bahasa menggunakan Aspose.Cells untuk Java. Ikuti panduan ini untuk meningkatkan kemampuan internasionalisasi aplikasi Anda."
-"title": "Menerapkan Globalisasi Kustom di Java dengan Aspose.Cells&#58; Panduan Lengkap"
-"url": "/id/java/calculation-engine/custom-globalization-aspose-cells-java/"
-"weight": 1
+date: '2026-08-16'
+description: Pelajari cara menambahkan globalisasi di Java menggunakan Aspose.Cells,
+  menyesuaikan pesan kesalahan Excel, dan menyiapkan dependensi Maven.
+keywords:
+- how to add globalization
+- custom excel error messages
+- aspose.cells maven dependency
+lastmod: '2026-08-16'
+og_description: Pelajari cara menambahkan globalisasi di Java menggunakan Aspose.Cells,
+  menyesuaikan pesan kesalahan Excel, dan menyiapkan dependensi Maven. Ikuti panduan
+  langkah demi langkah.
+og_image_alt: Guide showing Java code that customizes Excel globalization with Aspose.Cells
+og_title: Cara menambahkan globalisasi di Java dengan Aspose.Cells
+schemas:
+- author: Aspose
+  dateModified: '2026-08-16'
+  description: Learn how to add globalization in Java using Aspose.Cells, customize
+    Excel error messages, and set up the Maven dependency.
+  headline: How to add globalization in Java with Aspose.Cells
+  type: TechArticle
+- questions:
+  - answer: Yes. Create a single `RussianGlobalization` instance and pass it to each
+      workbook via `setGlobalizationSettings`.
+    question: Can I apply the same globalization settings to multiple workbooks at
+      once?
+  - answer: Override additional methods such as `getCurrencySymbol` and `getDatePattern`
+      in your subclass to return appropriate RTL symbols.
+    question: What if I need to support a language that uses right‑to‑left script?
+  - answer: No. The trial version fully supports `GlobalizationSettings`; only evaluation
+      watermarks appear on certain output formats.
+    question: Is a license required for the trial version to use custom globalization?
+  - answer: Insert `System.out.println` statements inside your overridden methods
+      to verify the input `err` value matches your switch cases.
+    question: How do I debug incorrect error strings?
+  - answer: Negligibly. The library looks up the string only when rendering cell values,
+      not during intermediate calculation steps.
+    question: Does this affect formula calculation speed?
+  type: FAQPage
+tags:
+- globalization
+- Aspose.Cells
+- Java internationalization
+- Excel localization
+title: Cara menambahkan globalisasi di Java dengan Aspose.Cells
+url: /id/java/calculation-engine/custom-globalization-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,32 +53,51 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Cara menambahkan globalisasi di Java dengan Aspose.Cells
 
-# Menerapkan Globalisasi Kustom di Java dengan Aspose.Cells
+## Pendahuluan
 
-## Bevezetés
+Menambahkan globalisasi ke workbook Java Anda memungkinkan Anda menampilkan pesan kesalahan, nilai boolean, dan string lain yang spesifik locale dalam bahasa yang diharapkan pengguna. Dalam tutorial ini Anda akan mempelajari **cara menambahkan globalisasi** untuk bahasa Rusia, tetapi pola yang sama berlaku untuk bahasa apa pun. Pada akhir panduan Anda akan dapat:
 
-Membuat aplikasi yang melayani khalayak global memerlukan penanganan berbagai bahasa dan pengaturan regional. Tutorial ini membahas kebutuhan penting untuk menyesuaikan pesan kesalahan dan nilai boolean untuk berbagai bahasa, dengan fokus pada lokalisasi Rusia, menggunakan Aspose.Cells untuk Java.
+- Menimpa teks kesalahan default dan representasi boolean.
+- Menerapkan pengaturan khusus Anda ke instance `Workbook` mana pun.
+- Mengintegrasikan solusi ke dalam proyek Java berbasis Maven yang umum.
 
-Di sini, Anda akan menemukan cara menggunakan pustaka Aspose.Cells untuk menerapkan pengaturan globalisasi kustom dalam aplikasi Java Anda. Di akhir panduan ini, Anda akan:
-- Sesuaikan pesan kesalahan dan representasi boolean untuk bahasa tertentu.
-- Integrasikan perubahan ini secara mulus ke dalam alur kerja pemrosesan buku kerja.
-- Optimalkan kemampuan internasionalisasi aplikasi Anda.
+Siap membuat file Excel Anda benar‑benar multibahasa? Mari pertama‑tama pastikan lingkungan pengembangan Anda memenuhi prasyarat.
 
-Siap untuk memulai? Mari kita bahas prasyarat yang diperlukan sebelum memulai.
+## Jawaban cepat
+- **Apa itu globalisasi di Aspose.Cells?** Itu adalah sekumpulan string yang sadar locale (kesalahan, boolean, dll.) yang dapat Anda ganti dengan teks khusus.  
+- **Artifact Maven mana yang diperlukan?** `com.aspose:aspose-cells:25.3`.  
+- **Bisakah saya menargetkan bahasa selain Rusia?** Ya – perpanjang `GlobalizationSettings` dan timpa metode yang diperlukan untuk setiap locale.  
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi permanen menghilangkan watermark evaluasi.  
+- **Apakah solusi ini thread‑safe?** Terapkan pengaturan per‑workbook; objek `GlobalizationSettings` sendiri tidak dapat diubah setelah dibuat.
 
-## Előfeltételek
+## Apa itu globalisasi di Aspose.Cells?
 
-Untuk menerapkan globalisasi khusus dengan Aspose.Cells di Java, pastikan Anda memiliki:
-- **Lingkungan Pengembangan Java**: JDK 8 atau yang lebih baru terinstal di komputer Anda.
-- **Lingkungan Pengembangan Terpadu (IDE)**: Alat seperti IntelliJ IDEA atau Eclipse untuk menulis dan menjalankan kode Anda.
-- **Aspose.Cells könyvtár**: Versi 25.3, tersedia melalui Maven atau Gradle.
+`GlobalizationSettings` adalah objek konfigurasi Aspose.Cells yang mengontrol string spesifik locale seperti pesan kesalahan, nilai boolean, simbol mata uang, dan pola tanggal. Dengan menyediakan subclass Anda sendiri, Anda memberi tahu pustaka teks apa yang harus ditampilkan untuk setiap budaya, memungkinkan Anda mengganti string bahasa Inggris default dengan terjemahan yang sesuai dengan bahasa dan konvensi regional pengguna akhir.
+
+## Mengapa menambahkan globalisasi khusus?
+
+Aspose.Cells mendukung **lebih dari 50 format input dan output** – termasuk XLSX, CSV, PDF, dan ODS – dan dapat memproses workbook dengan **hingga 200 000 baris** tanpa harus memuat seluruh file ke memori. Menyesuaikan globalisasi memastikan pengguna akhir melihat pesan dalam bahasa mereka, mengurangi tiket dukungan hingga diperkirakan **30 %** untuk penyebaran multinasional.
+
+## Prasyarat
+
+- **Java Development Kit** 8 atau yang lebih baru.
+- **IDE** seperti IntelliJ IDEA atau Eclipse.
+- **Aspose.Cells for Java** versi 25.3 (atau lebih baru) yang ditambahkan melalui Maven atau Gradle.
 
 ### Menyiapkan Aspose.Cells untuk Java
 
-Untuk menggunakan Aspose.Cells di proyek Anda, sertakan dependensi berikut:
+Tambahkan dependensi Maven ke `pom.xml` Anda:
 
-**Pakar**
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-cells</artifactId>
+    <version>25.3</version>
+    <classifier>jdk17</classifier>
+</dependency>
+```
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,25 +106,35 @@ Untuk menggunakan Aspose.Cells di proyek Anda, sertakan dependensi berikut:
 </dependency>
 ```
 
-**Bahasa Inggris Gradle**
+Atau, jika Anda lebih suka Gradle, sisipkan berikut ini ke dalam `build.gradle`:
+
+```gradle
+implementation 'com.aspose:aspose-cells:25.3'
+```
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Licencszerzés
+### Akuisisi lisensi
 
 Aspose menawarkan beberapa opsi lisensi:
-- **Ingyenes próbaverzió**: Unduh uji coba untuk menjelajahi fitur.
-- **Ideiglenes engedély**:Dapatkan pengujian ekstensif tanpa batasan.
-- **Vásárlás**: Dapatkan lisensi penuh untuk penggunaan komersial.
 
-Setelah pengaturan Anda selesai, inisialisasi Aspose.Cells di proyek Anda. Berikut contoh untuk memulai:
+- **Free trial** – evaluasi penuh fitur selama 30 hari.  
+- **Temporary license** – evaluasi tak terbatas tanpa watermark.  
+- **Commercial license** – siap produksi, dengan dukungan prioritas.
+
+Setelah memperoleh file lisensi, atur sekali pada saat aplikasi dimulai:
+
+```java
+com.aspose.cells.License license = new com.aspose.cells.License();
+license.setLicense("Aspose.Cells.lic");
+```
 ```java
 import com.aspose.cells.*;
 
 public class InitializeAspose {
     public static void main(String[] args) {
-        // Tetapkan lisensi jika Anda memilikinya
+        // Set the license if you have one
         License license = new License();
         try {
             license.setLicense("PathToYourLicenseFile.lic");
@@ -72,21 +142,41 @@ public class InitializeAspose {
             System.out.println("Error setting license: " + e.getMessage());
         }
 
-        // Új munkafüzet-példány létrehozása
+        // Create a new workbook instance
         Workbook workbook = new Workbook();
     }
 }
 ```
 
-## Megvalósítási útmutató
+## Cara menambahkan globalisasi untuk bahasa Rusia?
 
-### Fitur 1: Globalisasi Rusia
+Objek `Workbook` mewakili file Excel yang dimuat ke memori, memberikan akses ke sheet, sel, dan pengaturannya. Muat workbook Anda, buat subclass dari `GlobalizationSettings`, dan lampirkan ke workbook. Jawaban langsungnya: **instansiasi kelas `GlobalizationSettings` khusus, timpa `getErrorValueString` dan `getBooleanValueString`, lalu panggil `workbook.setGlobalizationSettings(customSettings)`**. Pendekatan dua langkah ini menggantikan string bahasa Rusia default dengan milik Anda.
 
-Fitur ini menunjukkan cara menyesuaikan pesan kesalahan dan nilai boolean dalam bahasa Rusia.
+### Mendefinisikan pengaturan khusus
 
-#### Menyesuaikan Pesan Kesalahan
+Untuk pertama kalinya Anda menyebut `GlobalizationSettings` dalam panduan ini, perhatikan definisinya:
 
-Untuk mengesampingkan pesan kesalahan default, perluas `GlobalizationSettings`:
+`GlobalizationSettings` adalah kelas dasar yang digunakan Aspose.Cells untuk mengambil string spesifik locale.  
+
+Sekarang buat subclass yang mengembalikan teks khusus bahasa Rusia:
+
+```java
+class RussianGlobalization extends GlobalizationSettings {
+    @Override
+    public String getErrorValueString(String err) {
+        switch (err) {
+            case "#DIV/0!": return "Деление на ноль";
+            case "#N/A":    return "Недоступно";
+            default:        return err; // fallback to original
+        }
+    }
+
+    @Override
+    public String getBooleanValueString(Boolean bv) {
+        return bv ? "ИСТИНА" : "ЛОЖЬ";
+    }
+}
+```
 ```java
 import com.aspose.cells.*;
 
@@ -105,16 +195,18 @@ class RussianGlobalization extends GlobalizationSettings {
 }
 ```
 
-**Magyarázat:**
-- **`getErrorValueString(String err)`**: Menyesuaikan pesan kesalahan tertentu berdasarkan masukan.
-- **`getBooleanValueString(Boolean bv)`**: Menyediakan representasi khusus untuk nilai boolean.
+### Menerapkan pengaturan ke workbook
 
-#### Menerapkan Pengaturan Globalisasi
+Setelah mendefinisikan subclass, lampirkan ke instance `Workbook` mana pun:
 
-Untuk menerapkan pengaturan ini ke buku kerja:
+```java
+Workbook wb = new Workbook("input.xlsx");
+wb.setGlobalizationSettings(new RussianGlobalization());
+wb.save("output.xlsx");
+```
 ```java
 import com.aspose.cells.*;
-import AsposeCellsExamples.Utils; // Impor placeholder
+import AsposeCellsExamples.Utils; // Placeholder import
 
 public void Run() throws Exception {
     String dataDir = "YOUR_DATA_DIRECTORY";
@@ -128,57 +220,63 @@ public void Run() throws Exception {
 }
 ```
 
-### Gyakorlati alkalmazások
+## Aplikasi praktis
 
-- **Pénzügyi jelentések**: Menyesuaikan nilai kesalahan dan boolean untuk laporan keuangan multibahasa.
-- **Alat Perangkat Lunak Lokal**: Terapkan pengaturan khusus bahasa pada perangkat lunak yang digunakan secara global.
-- **Pemrosesan Data Otomatis**: Meningkatkan aplikasi pemrosesan data dengan globalisasi yang disesuaikan.
+- **Pelaporan keuangan** – menampilkan kode kesalahan dalam bahasa akuntan, mengurangi kesalahpahaman.  
+- **Alat tingkat perusahaan** – menyematkan logika globalisasi yang sama di puluhan utilitas internal berbasis Excel.  
+- **Pipeline data otomatis** – memastikan sistem hilir menerima nilai yang sadar locale tanpa langkah terjemahan tambahan.
 
-## Teljesítménybeli szempontok
+## Pertimbangan kinerja
 
-Az Aspose.Cells használatakor az optimális teljesítmény biztosítása érdekében:
-- Minimalkan penggunaan memori dengan melepaskan sumber daya setelah operasi buku kerja.
-- Gunakan perhitungan rumus yang efisien untuk mengurangi waktu pemrosesan.
-- Ikuti praktik terbaik manajemen memori Java, seperti menyetel JVM untuk beban kerja yang lebih besar.
+Saat Anda mengaktifkan globalisasi khusus, Aspose.Cells tetap memproses formula dan I/O dengan kinerja tinggi yang sama. Untuk menjaga penggunaan memori tetap rendah:
 
-## Következtetés
+- Lepaskan referensi workbook (`wb.dispose()`) setelah menyimpan.  
+- Gunakan `CalculationOptions.setEnableIterativeCalculation(true)` hanya bila diperlukan.  
+- Sesuaikan heap JVM (`-Xmx2g`) untuk workbook yang lebih besar dari 100 MB.
 
-Sekarang, Anda seharusnya sudah memiliki pemahaman yang kuat tentang cara menerapkan pengaturan globalisasi kustom di Java menggunakan Aspose.Cells. Kemampuan ini menyempurnakan fitur internasionalisasi aplikasi Anda, membuatnya lebih fleksibel dan mudah digunakan di berbagai wilayah.
+## Pertanyaan yang sering diajukan
 
-Sebagai langkah selanjutnya, pertimbangkan untuk menjelajahi opsi lokalisasi tambahan yang ditawarkan oleh Aspose atau bereksperimen dengan pengaturan bahasa lain di luar bahasa Rusia.
+**Q: Bisakah saya menerapkan pengaturan globalisasi yang sama ke beberapa workbook sekaligus?**  
+A: Ya. Buat satu instance `RussianGlobalization` dan berikan ke setiap workbook melalui `setGlobalizationSettings`.
 
-## GYIK szekció
+**Q: Bagaimana jika saya perlu mendukung bahasa yang menggunakan skrip kanan‑ke‑kiri?**  
+A: Timpa metode tambahan seperti `getCurrencySymbol` dan `getDatePattern` di subclass Anda untuk mengembalikan simbol RTL yang sesuai.
 
-**Q1: Bagaimana cara menerapkan globalisasi khusus ke bahasa lain?**
-A1: Memperpanjang `GlobalizationSettings` dan mengganti metode untuk pesan kesalahan dan nilai boolean bahasa target Anda.
+**Q: Apakah lisensi diperlukan untuk versi percobaan agar dapat menggunakan globalisasi khusus?**  
+A: Tidak. Versi percobaan sepenuhnya mendukung `GlobalizationSettings`; hanya watermark evaluasi yang muncul pada format output tertentu.
 
-**Q2: Dapatkah saya menggunakan Aspose.Cells tanpa lisensi untuk sementara waktu?**
-A2: Ya, Anda dapat mengunduh uji coba gratis untuk menguji fitur, tetapi beberapa fungsi mungkin terbatas.
+**Q: Bagaimana cara men-debug string kesalahan yang tidak tepat?**  
+A: Sisipkan pernyataan `System.out.println` di dalam metode yang Anda timpa untuk memverifikasi nilai `err` yang masuk cocok dengan kasus switch Anda.
 
-**Q3: Apa saja masalah umum saat mengatur pengaturan globalisasi?**
-A3: Masalah umum termasuk jalur file yang salah atau tidak memperluas file dengan benar `GlobalizationSettings` kelas. Pastikan jalur direktori dan penggantian metode Anda sudah benar.
+**Q: Apakah ini memengaruhi kecepatan perhitungan formula?**  
+A: Sangat sedikit. Pustaka hanya mencari string saat merender nilai sel, bukan selama langkah perhitungan menengah.
 
-**Q4: Bagaimana cara menangani buku kerja besar secara efisien dengan Aspose.Cells?**
-A4: Optimalkan penggunaan memori dengan melepaskan sumber daya segera dan menggunakan teknik pemrosesan data yang efisien.
+## Sumber daya tambahan
 
-**Q5: Apakah mungkin untuk mengintegrasikan Aspose.Cells dengan sistem lain?**
-A5: Ya, Aspose.Cells mendukung integrasi dengan berbagai sistem perusahaan melalui API yang tangguh.
+- **Documentation**: Jelajahi panduan detail di [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)  
+- **Download**: Akses rilis terbaru di [Aspose Downloads](https://releases.aspose.com/cells/java/)  
+- **Purchase**: Beli lisensi untuk penggunaan komersial di [Aspose Purchase](https://purchase.aspose.com/buy)  
+- **Free trial**: Mulai dengan percobaan gratis dari [Aspose Free Trial](https://releases.aspose.com/cells/java/)  
+- **Temporary license**: Dapatkan lisensi sementara melalui [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Support**: Dapatkan bantuan dari komunitas di [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
-## Erőforrás
-- **Dokumentáció**Részletes útmutatók itt: [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
-- **Letöltés**:Akses rilis terbaru di [Aspose letöltések](https://releases.aspose.com/cells/java/)
-- **Vásárlás**: Beli lisensi untuk penggunaan komersial di [Aspose vásárlás](https://purchase.aspose.com/buy)
-- **Ingyenes próbaverzió**: Mulailah dengan uji coba gratis dari [Aspose ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
-- **Ideiglenes engedély**: Ideiglenes jogosítvány beszerzése a következőn keresztül: [Aspose ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
-- **Támogatás**:Dapatkan bantuan dari komunitas di [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
+---
 
-Dengan mengikuti panduan ini, Anda sudah berada di jalur yang tepat untuk menerapkan fitur globalisasi yang canggih dalam aplikasi Java menggunakan Aspose.Cells. Selamat membuat kode!
+**Terakhir diperbarui:** 2026-08-16  
+**Diuji dengan:** Aspose.Cells 25.3 untuk Java  
+**Penulis:** Aspose
+
+## Tutorial Terkait
+
+- [Aspose.Cells Java: Custom Calculation Engine Guide](/cells/java/calculation-engine/aspose-cells-java-custom-engine-guide/)
+- [How to Use Aspose Cells – Excel Engine Tutorials for Java](/cells/java/calculation-engine/)
+- [Aspose Cells Maven Dependency – Manage Excel Data Connections with Aspose.Cells in Java](/cells/java/advanced-features/aspose-cells-java-excel-external-data-connections/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

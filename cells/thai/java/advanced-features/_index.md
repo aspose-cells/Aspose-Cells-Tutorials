@@ -105,7 +105,10 @@ A code tutorial for Aspose.Words Java
 เรียนรู้วิธีโหลดและแก้ไขโมดูล VBA ในเวิร์กบุ๊ก Excel ด้วย Aspose.Cells for Java. คู่มือนี้ครอบคลุมขั้นตอนสำคัญตั้งแต่การตั้งค่าไปจนถึงการดำเนินการ, เพื่อเพิ่มประสิทธิภาพการทำงานอัตโนมัติของคุณ
 
 ### [Update Slicers in Java Excel Files using Aspose.Cells for Java](./update-slicers-java-excel-aspose-cells/)
-เรียนรู้การอัตโนมัติการอัปเดต slicer ในไฟล์ Excel ด้วย Aspose.Cells for Java. ทำตามคู่มือนี้เพื่อเสริมการกรองและการวิเคราะห์ข้อมูลของคุณ
+เรียนรู้การอัตโนมัติการอัปเดต slicer ในไฟล์ Excel ด้วย Java และ Aspose.Cells. คู่มือนี้ครอบคลุมการโหลดเวิร์กบุ๊ก, การเข้าถึงแผ่นงาน, การแก้ไข slicer, และการบันทึกการเปลี่ยนแปลง
+
+### [แยกวิเคราะห์วันที่ด้วย Locale ใน Java – คู่มือขั้นตอน‑โดย‑ขั้นตอนเต็มรูปแบบ](./parse-date-with-locale-in-java-complete-step-by-step-guide/)
+เรียนรู้วิธีแปลงสตริงวันที่ตาม Locale ใน Java ด้วย DateTimeFormatter อย่างละเอียดในคู่มือขั้นตอน‑โดย‑ขั้นตอน
 
 ### [วิธีใช้ wrapcols ใน Java – ปรับรูปร่างอาร์เรย์ใน Excel](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
 เรียนรู้วิธีใช้เมธอด wrapcols ของ Aspose.Cells for Java เพื่อปรับรูปร่างอาร์เรย์ใน Excel อย่างมีประสิทธิภาพ

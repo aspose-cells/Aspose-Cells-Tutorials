@@ -7,9 +7,7 @@ url: /pt/java/advanced-features/
 weight: 18
 ---
 
-.
-
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -71,6 +69,7 @@ Este tutorial faz parte da coleção listada mais adiante.
 ### [Como Usar Aspose.Cells Java para Congelar Painéis no Excel&#58; Guia Passo a Passo](./mastering-aspose-cells-java-freeze-panes-excel/)
 ### [Modificar Módulos VBA no Excel usando Aspose.Cells para Java&#58; Guia Abrangente](./modify-vba-modules-excel-aspose-cells-java/)
 ### [Atualizar Slicers em Arquivos Excel Java usando Aspose.Cells para Java](./update-slicers-java-excel-aspose-cells/)
+### [Analisar Data com Locale em Java – Guia Completo Passo a Passo](./parse-date-with-locale-in-java-complete-step-by-step-guide/)
 ### [Como Usar WrapCols em Java – Remodelar Matriz no Excel](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
 
 ## Recursos Adicionais

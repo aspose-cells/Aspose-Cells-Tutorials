@@ -38,6 +38,9 @@ Apprenez à automatiser les objets de liste Excel avec Aspose.Cells pour Java, p
 ### [Aspose.Cells Java : maîtriser la manipulation de tableaux Excel via des cellules](./aspose-cells-java-manipulate-excel-tables/)
 Apprenez à manipuler des tableaux Excel avec Aspose.Cells pour Java. Ce guide explique comment configurer, consulter, modifier et enregistrer efficacement les données des tableaux.
 
+### [Définir le nom du tableau dans Excel avec Java – Guide complet](./set-table-name-in-excel-with-java-complete-guide/)
+Apprenez à définir le nom d'un tableau Excel à l'aide d'Aspose.Cells pour Java, facilitant la gestion et la référence des données tabulaires.
+
 ### [Convertir des tableaux Excel en plages avec Aspose.Cells Java : guide étape par étape](./convert-excel-tables-ranges-aspose-cells-java/)
 Apprenez à automatiser la conversion de tableaux Excel en plages avec Aspose.Cells Java. Suivez ce guide complet pour une gestion efficace des données.
 
@@ -55,6 +58,9 @@ Apprenez à gérer les zones de texte dans Excel avec Aspose.Cells pour Java. Ce
 
 ### [Maîtriser Aspose.Cells Java : identifier les cellules d'une plage nommée pour la manipulation de données Excel](./master-aspose-cells-java-identify-named-range-cells/)
 Apprenez à utiliser Aspose.Cells avec Java pour identifier et manipuler efficacement les cellules dans les plages nommées dans les feuilles de calcul Excel.
+
+### [Comment renommer en toute sécurité un tableau Excel avec Aspose.Cells Java : guide complet](./how-to-safely-rename-excel-table-with-aspose-cells-java/)
+Apprenez à renommer de façon sécurisée les tableaux Excel en utilisant Aspose.Cells pour Java, en évitant les erreurs de référence.
 
 ### [Créer un tableau Excel en Java : guide étape par étape](./create-excel-table-in-java-step-by-step-guide/)
 Apprenez à créer un tableau Excel en Java avec Aspose.Cells, en suivant un guide complet étape par étape.

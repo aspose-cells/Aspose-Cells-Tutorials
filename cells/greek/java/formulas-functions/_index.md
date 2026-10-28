@@ -83,6 +83,18 @@
 ### [Πώς να εφαρμόσετε το FormulaText στο Aspose.Cells για Java: Οδηγός βήμα προς βήμα](./implementing-formula-text-aspose-cells-java-guide/)
 Μάθετε πώς να εξάγετε κείμενο τύπου από κελιά του Excel χρησιμοποιώντας το Aspose.Cells με Java. Αυτός ο οδηγός καλύπτει την εγκατάσταση, την υλοποίηση και τις πρακτικές εφαρμογές.
 
+### [Πώς να χρησιμοποιήσετε τη λειτουργία Reduce στο Excel με Java – Οδηγός τύπου Lambda](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
+Μάθετε πώς να εφαρμόζετε τη λειτουργία Reduce σε τύπους Excel χρησιμοποιώντας Java και Lambda για προηγμένες υπολογιστικές εργασίες.
+### [Πώς να χρησιμοποιήσετε τη λειτουργία SEQUENCE σε βιβλίο εργασίας Excel Java – Οδηγός βήμα‑προς‑βήμα](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+Μάθετε πώς να χρησιμοποιείτε τη λειτουργία SEQUENCE στο Aspose.Cells για Java για δημιουργία δυναμικών σειρών κελιών σε βιβλία εργασίας Excel.
+### [Πώς να χρησιμοποιήσετε το WRAPCOLS σε Java – Πλήρες παράδειγμα Excel WRAPCOLS](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+Μάθετε πώς να εφαρμόζετε τη λειτουργία WRAPCOLS με Aspose.Cells για Java, βήμα-βήμα, με πλήρη παράδειγμα κώδικα.
+### [Πώς να υπολογίσετε τη Συνεφαπτομένη στο Excel – Πλήρης Οδηγός](./how-to-calculate-cotangent-in-excel-complete-guide/)
+Μάθετε πώς να υπολογίσετε τη συνεφαπτομένη σε αρχεία Excel με το Aspose.Cells για Java, βήμα προς βήμα οδηγίες και παραδείγματα κώδικα.
+### [Ταξινόμηση μοναδικών τιμών Excel – Πλήρης οδηγός Java για ορισμό τύπων πίνακα](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+Μάθετε πώς να ταξινομήσετε μοναδικές τιμές και να ορίσετε τύπους πίνακα στο Excel χρησιμοποιώντας το Aspose.Cells για Java.
+### [Πώς να χρησιμοποιήσετε το Aspose σε Java – δημιουργία βιβλίου εργασίας Excel με νέες λειτουργίες](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel με νέες συναρτήσεις χρησιμοποιώντας το Aspose σε Java.
 ### [Χρησιμοποιήστε τη λειτουργία expand στο Aspose.Cells Java – οδηγός βήμα προς βήμα](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
 Μάθετε πώς να χρησιμοποιήσετε τη λειτουργία expand στο Aspose.Cells για Java για δυναμική επέκταση περιοχών κελιών.
 

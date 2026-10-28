@@ -56,6 +56,10 @@
 ### [Εξοικείωση με το Aspose.Cells Java: Προσδιορισμός κελιών σε μια ονομασμένη περιοχή για χειρισμό δεδομένων Excel](./master-aspose-cells-java-identify-named-range-cells/)
 Μάθετε πώς να χρησιμοποιείτε το Aspose.Cells με Java για να αναγνωρίζετε και να χειρίζεστε κελιά εντός ονομασμένων περιοχών σε υπολογιστικά φύλλα Excel αποτελεσματικά.
 
+### [Πώς να μετονομάσετε με ασφάλεια έναν πίνακα Excel με το Aspose.Cells για Java](./how-to-safely-rename-excel-table-with-aspose-cells-java/)
+Μάθετε πώς να μετονομάσετε με ασφάλεια έναν πίνακα Excel χρησιμοποιώντας το Aspose.Cells για Java, διασφαλίζοντας τη σωστή ενημέρωση των αναφορών.
+### [Ορισμός ονόματος πίνακα στο Excel με Java – Πλήρης οδηγός](./set-table-name-in-excel-with-java-complete-guide/)
+Μάθετε πώς να ορίζετε όνομα σε πίνακα Excel χρησιμοποιώντας το Aspose.Cells για Java, βελτιώνοντας την οργάνωση και τη συντηρησιμότητα των δεδομένων.
 ### [Δημιουργία πίνακα Excel σε Java – οδηγός βήμα‑βήμα](./create-excel-table-in-java-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε πίνακα Excel σε Java με οδηγίες βήμα‑βήμα, χρησιμοποιώντας το Aspose.Cells.
 
