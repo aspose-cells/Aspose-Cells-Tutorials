@@ -68,6 +68,9 @@
 ### [Aspose Cells Формат даты: Как установить пользовательский формат даты в Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
 Узнайте, как задать пользовательский формат даты в Excel с помощью Aspose.Cells для Java.
 
+### [Применение числового формата в Excel на Java — полное руководство Aspose.Cells](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+Узнайте, как применять числовые форматы к ячейкам Excel с помощью Aspose.Cells для Java.
+
 ### [Как создавать и форматировать ячейки Excel с помощью Aspose.Cells для Java: пошаговое руководство](./aspose-cells-java-excel-automation-guide/)
 Узнайте, как автоматизировать и форматировать файлы Excel с легкостью с помощью Aspose.Cells для Java. В этом руководстве рассматриваются создание рабочих книг, форматирование ячеек и методы сохранения.
 
@@ -247,6 +250,11 @@
 ### [Как применять стили при конвертации DataTable в Excel – Полное руководство Java](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 Узнайте, как автоматически применять стили к ячейкам при преобразовании DataTable в файл Excel с помощью Aspose.Cells для Java.
 ### [Установить полужирный шрифт в экспорте Excel на Java – полное руководство](./set-font-bold-in-java-excel-export-complete-guide/)
+### [Создание стилизованной рабочей книги Excel в Java — полное руководство](./create-styled-excel-workbook-in-java-complete-guide/)
+Узнайте, как программно создавать и оформлять рабочие книги Excel в Java с помощью Aspose.Cells, используя стили, шрифты и форматирование.
+
+### [Как использовать WRAPCOLS в Aspose.Cells – Полный пример на Java](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Узнайте, как применять функцию WRAPCOLS в Aspose.Cells для Java, используя полный пример кода.
 ### [Как создать книгу Excel с валютным форматом и полужирным шрифтом в Java: полное руководство](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 Узнайте, как программно создать книгу Excel в Java, применить валютный формат к ячейкам и задать полужирный шрифт.
 

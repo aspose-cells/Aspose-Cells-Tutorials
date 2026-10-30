@@ -78,6 +78,8 @@ Aspose.Cells का उपयोग करके इनवॉइस उत्प
 
 ### [C# टेम्प्लेट का उपयोग करके डेटा को Excel में निर्यात करने का चरण‑दर‑चरण गाइड](./how-to-export-data-to-excel-using-a-c-template-step-by-step/)
 C# टेम्प्लेट से डेटा को Excel में निर्यात करने की पूरी प्रक्रिया सीखें।
+### [Excel में एरे को विस्तारित करके टेम्पलेट भरें](./how-to-expand-array-in-excel-and-populate-a-template)
+Excel में एरे को विस्तारित करके टेम्पलेट को स्वचालित रूप से भरने की प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

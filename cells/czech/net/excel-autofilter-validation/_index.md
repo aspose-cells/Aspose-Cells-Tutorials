@@ -36,6 +36,8 @@ Naučte se, jak bez námahy automaticky filtrovat řádky Excelu pomocí Aspose.
 Zjistěte, jak implementovat validaci desetinných dat v Excelu pomocí Aspose.Cells pro .NET s naším snadno srozumitelným průvodcem. Vylepšete integritu dat bez námahy.
 ### [Odstranění AutoFiltru z Excelu – Kompletní průvodce C#](./remove-autofilter-from-excel-complete-c-guide/)
 Naučte se, jak pomocí Aspose.Cells v .NET odstranit automatický filtr z Excelu v kompletním C# průvodci.
+### [Jak odstranit automatický filtr z tabulek Excel pomocí C#](./how-to-remove-autofilter-from-excel-tables-using-c/)
+Naučte se, jak pomocí Aspose.Cells v .NET odstranit AutoFilter z tabulek Excel v podrobném průvodci.
 ### [Získání první tabulky z Excel sešitu v C# – Kompletní průvodce](./get-first-table-from-excel-workbook-in-c-complete-guide/)
 Naučte se, jak pomocí Aspose.Cells v .NET získat první tabulku z Excel sešitu a pracovat s ní v C#.
 ### [Jak používat AutoFilter v C# automatizaci Excelu – Kompletní krok za krokem průvodce](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
@@ -56,6 +58,8 @@ Naučte se, jak skrýt nebo odstranit tlačítko AutoFilter v Excelu pomocí Asp
 Naučte se, jak pomocí Aspose.Cells v .NET skrýt šipky filtru v Excelu a zjednodušit vzhled tabulek.
 ### [Přidání tabulky do Excelu pomocí C# – Vymazání automatického filtru a uložení souboru](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
 Naučte se, jak přidat tabulku, vymazat automatický filtr a uložit soubor v Excelu pomocí Aspose.Cells v .NET.
+### [Odstranit automatický filtr v Excelu pomocí C# – kompletní průvodce](./remove-autofilter-from-excel-in-c-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells v .NET kompletně odstranit automatický filtr v Excelu a upravit uživatelské rozhraní.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

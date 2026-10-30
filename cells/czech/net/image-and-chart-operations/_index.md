@@ -44,6 +44,8 @@ Naučte se, jak exportovat rozsah buněk z Excelu jako obrázek v C# pomocí Asp
 Naučte se, jak pomocí Aspose.Cells převést list Excelu na obrázek v C# s podrobným krok‑za‑krokem návodem.
 ### [Jak exportovat Excel do PNG – kompletní průvodce krok za krokem](./how-to-export-excel-to-png-full-step-by-step-guide/)
 Kompletní návod, jak v .NET pomocí Aspose.Cells převést Excel soubory do formátu PNG.
+### [Jak exportovat oblast Excelu jako obrázek v C# a Aspose.Cells](./how-to-export-excel-range-as-image-with-c-and-aspose-cells/)
+Naučte se, jak pomocí Aspose.Cells v C# exportovat vybraný rozsah buněk jako obrázek.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

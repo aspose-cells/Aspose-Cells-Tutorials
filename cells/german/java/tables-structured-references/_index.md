@@ -56,6 +56,14 @@ Erfahren Sie, wie Sie Textfelder in Excel mit Aspose.Cells für Java verwalten. 
 ### [Aspose.Cells Java beherrschen: Zellen in einem benannten Bereich für die Excel-Datenmanipulation identifizieren](./master-aspose-cells-java-identify-named-range-cells/)
 Erfahren Sie, wie Sie Aspose.Cells mit Java verwenden, um Zellen innerhalb benannter Bereiche in Excel-Tabellen effizient zu identifizieren und zu bearbeiten.
 
+### [Wie Sie Excel-Tabellen mit Aspose.Cells für Java sicher umbenennen](./how-to-safely-rename-excel-table-with-aspose-cells-java/)
+Erfahren Sie, wie Sie Excel-Tabellen mit Aspose.Cells für Java sicher umbenennen, um Datenintegrität zu gewährleisten.
+
+### [Excel-Tabelle in Java erstellen – Schritt‑für‑Schritt‑Anleitung](./create-excel-table-in-java-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Excel‑Tabelle von Grund auf erstellen und konfigurieren.
+
+### [Tabellennamen in Excel mit Java festlegen – Vollständige Anleitung](./set-table-name-in-excel-with-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java den Tabellennamen in Excel festlegen und verwalten, um die Datenorganisation zu verbessern.
 ### [Wie Sie Excel-Tabellenzeilen sicher mit Aspose.Cells löschen](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Excel-Tabellenzeilen sicher entfernen, um Datenintegrität zu gewährleisten.
 

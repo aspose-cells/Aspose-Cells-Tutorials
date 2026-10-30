@@ -40,7 +40,7 @@ Aspose.Cells for Java 可讓您自動化資料透視表操作並將其無縫整�
 了解如何使用 Aspose.Cells for Java 在資料透視表中建立計算欄位。使用 Excel 中的自訂計算來增強您的資料分析。
 ### [刷新資料透視表數據](./refreshing-pivot-table-data/)
 了解如何在 Aspose.Cells for Java 中重新整理資料透視表資料。輕鬆保持您的數據為最新。
-### [自訂資料透視表樣式](./customizing-pivot-table-styles/)
+### [自訂資料透星表樣式](./customizing-pivot-table-styles/)
 了解如何在 Aspose.Cells for Java API 中自訂資料透視表樣式。輕鬆建立具有視覺吸引力的資料透視表。
 ### [如何在 Java 中複製資料透視表 – 完整 Aspose.Cells 指南](./how-to-copy-pivot-table-in-java-complete-aspose-cells-guide/)
 了解如何使用 Aspose.Cells for Java 複製現有的資料透視表，快速生成相同結構的報表，提升開發效率。
@@ -60,6 +60,23 @@ Aspose.Cells for Java 可讓您自動化資料透視表操作並將其無縫整�
 了解如何使用 Aspose.Cells for Java 在不同工作簿之間複製資料透視表，實現跨檔案資料重用。
 ### [在 Java 中建立新工作簿 – 完整指南：複製資料透視表](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
 了解如何在 Aspose.Cells for Java 中建立新工作簿並複製資料透視表，以便在不同檔案間共享分析。
+### [如何在 Java 中複製工作表並保留資料透視表](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
+了解如何使用 Aspose.Cells for Java 複製工作表，同時保留其中的資料透視表設定。
+### [如何在 Java 中使用 Aspose.Cells 複製資料透視表](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
+說明如何使用 Aspose.Cells for Java 複製現有的資料透視表，以便快速重用分析設定。
+### [如何在 Java 中複製範圍並保留資料透視表](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
+示範如何使用 Aspose.Cells 複製儲存格範圍，同時保留資料透視表的結構與功能。
+### [如何在 Excel 中使用 Java 複製資料透視表 – 步驟指南](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
+了解如何在 Java 中複製 Excel 資料透視表的完整步驟。
+### [Excel 資料透視表圖像匯出為 PNG（Java）](./excel-pivot-table-image-export-to-png-with-java/)
+了解如何使用 Aspose.Cells for Java 將 Excel 資料透視表匯出為 PNG 圖像，以便在報表或網頁中顯示。
+### [在 Java 中建立新工作簿並複製資料透視表 – 完整步驟指南](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
+了解如何使用 Aspose.Cells for Java 在新工作簿中建立並複製資料透視表的完整步驟。
+### [使用 Aspose.Cells 在 Java 中複製資料透視表 – 完整指南](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
+了解如何使用 Aspose.Cells for Java 複製資料透視表，快速建立相同結構的報表，提升工作效率。
+### [在 Java 中複製資料透視表 – 使用 Aspose.Cells 的逐步指南](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
+### [如何在 Aspose.Cells 中複製資料透視表 – 複製範圍到工作簿](./how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook/)
+了解如何使用 Aspose.Cells 複製資料透視表的範圍到另一個工作簿。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

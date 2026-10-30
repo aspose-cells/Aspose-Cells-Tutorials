@@ -25,6 +25,8 @@ Jednym z najprostszych, a jednocześnie najbardziej wpływowych sposobów na kon
 ## Obliczanie formuł programowo  
 Czy kiedykolwiek myślałeś o tym, jak fajnie byłoby zautomatyzować obliczenia w programie Excel? Cóż, dzięki Aspose.Cells dla .NET to marzenie może stać się rzeczywistością! Wyobraź sobie, że wysyłasz dane do obliczeń, popijając kawę; to piękno automatyzacji zadań w programie Excel. Nasz samouczek na temat [Obliczanie formuł w programie Excel programowo](./calculating-formulas/) przedstawia Ci proste techniki, które mogą podnieść poziom Twojej gry w automatyzację. Nie chodzi tylko o oszczędzanie czasu; chodzi o pracę mądrzej, a nie ciężej!
 
+### [Jak wymusić obliczanie formuły i używać lambda w Excelu w C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+
 ## Wykrywanie odniesień cyklicznych  
 Ach, ta przerażająca, cykliczna referencja! To jak zagadka, która może frustrować nawet najbardziej doświadczonych użytkowników Excela. Ale nie bój się! Z naszym przewodnikiem [Wykrywanie odwołań cyklicznych w programie Excel programowo](./detecting-circular-reference/)nauczysz się, jak skutecznie lokalizować te trudne problemy, używając Aspose.Cells dla .NET. Przeprowadzimy Cię przez proste instrukcje, aby zapewnić dokładność obliczeń i uniknąć wszelkich problemów w przyszłości.
 
@@ -96,6 +98,11 @@ Dowiedz się, jak obliczyć cotangens w Excelu przy użyciu Aspose.Cells i C#. K
 Dowiedz się, jak zastosować formułę tablicową w Excelu przy użyciu Aspose.Cells w C#, krok po kroku, w pełnym przewodniku.
 ### [Jak używać WRAPCOLS – Kompletny przewodnik po automatyzacji Excela w C#](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
 Dowiedz się, jak wykorzystać funkcję WRAPCOLS w Aspose.Cells dla .NET, aby automatyzować Excel w C# w prosty i efektywny sposób.
+### [Utwórz skoroszyt programu Excel z formułami – Pełny przewodnik krok po kroku](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+Dowiedz się, jak programowo utworzyć skoroszyt Excel z formułami, korzystając z Aspose.Cells dla .NET – kompletny przewodnik krok po kroku.
+
+### [Jak utworzyć skoroszyt Excel w C# z funkcją EXPAND](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+Dowiedz się, jak przy użyciu Aspose.Cells dla .NET w C# utworzyć skoroszyt Excel wykorzystując funkcję EXPAND w prostym przewodniku krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

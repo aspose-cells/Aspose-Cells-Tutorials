@@ -50,6 +50,8 @@
 本指南演示如何使用 Aspose.Cells for .NET 在 C# 中加载 Excel 文件并将其转换为 XPS 格式，包含完整代码示例。
 ### [在 C# 中将 Excel 转换为 XPS – 完整分步指南](./convert-excel-to-xps-in-c-complete-step-by-step-guide/)
 学习如何使用 Aspose.Cells for .NET 在 C# 中将 Excel 文件转换为 XPS，提供完整的分步代码示例。
+### [在将 Excel 转换为 XPS 时启用字体 – 完整指南](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
+了解如何在将 Excel 文件转换为 XPS 时启用所需字体，确保文档外观一致。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

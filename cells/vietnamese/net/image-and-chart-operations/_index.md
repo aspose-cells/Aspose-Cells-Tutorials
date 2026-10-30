@@ -44,6 +44,8 @@ Tìm hiểu cách xuất một vùng dữ liệu Excel thành hình ảnh trong 
 Hướng dẫn chi tiết cách lưu một sheet Excel thành hình ảnh bằng C# và Aspose.Cells, bao gồm các bước thực hiện và ví dụ mã nguồn.
 ### [Cách xuất Excel sang PNG – hướng dẫn chi tiết từng bước](./how-to-export-excel-to-png-full-step-by-step-guide/)
 Hướng dẫn chi tiết cách xuất tệp Excel thành hình ảnh PNG bằng Aspose.Cells trong .NET.
+### [Cách xuất vùng Excel thành hình ảnh bằng C# và Aspose.Cells](./how-to-export-excel-range-as-image-with-c-and-aspose-cells/)
+Hướng dẫn chi tiết cách xuất một vùng dữ liệu trong Excel thành hình ảnh sử dụng C# và Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

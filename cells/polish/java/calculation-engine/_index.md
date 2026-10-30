@@ -65,6 +65,12 @@ Dowiedz się, jak otworzyć plik XLSX w Javie, załadować skoroszyt przy użyci
 ### [Formuły dynamicznych tablic w Javie: Tworzenie skoroszytu Excel i obliczanie wszystkich formuł](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
 Dowiedz się, jak w Javie tworzyć skoroszyt Excel z formułami dynamicznych tablic i obliczać je przy użyciu Aspose.Cells.
 
+### [Jak odświeżać skoroszyty Excel w Javie przy użyciu Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
+Dowiedz się, jak odświeżać skoroszyty Excel w Javie, aby zastosować zmiany przy użyciu Aspose.Cells.
+
+### [Jak wymusić obliczanie formuł w Javie przy użyciu Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+Samouczek kodu dla Aspose.Cells Java
+
 ## Dodatkowe zasoby
 - [Dokumentacja Aspose.Cells for Java](https://docs.aspose.com/cells/java/)
 - [Referencja API Aspose.Cells for Java](https://reference.aspose.com/cells/java/)

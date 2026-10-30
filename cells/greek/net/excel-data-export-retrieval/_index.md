@@ -53,6 +53,8 @@
 Μάθετε πώς να εξάγετε μια περιοχή κελιών ως πίνακα σε αρχείο Excel χρησιμοποιώντας το Aspose.Cells για .NET με C#.
 ### [Δημιουργία φύλλου Excel από DataTable σε C# – βήμα‑βήμα οδηγός](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε φύλλο Excel από DataTable σε C# με οδηγίες βήμα‑βήμα, ιδανικό για προγραμματιστές .NET.
+### [Πώς να εξάγετε πίνακα Excel – Πλήρης οδηγός βήμα προς βήμα](./how-to-export-excel-table-complete-step-by-step-guide/)
+Μάθετε πώς να εξάγετε πίνακες Excel εύκολα με το Aspose.Cells για .NET, ακολουθώντας έναν πλήρη βήμα‑βήμα οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

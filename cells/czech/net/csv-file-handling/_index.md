@@ -39,6 +39,8 @@ Naučte se, jak uložit sešit jako CSV pomocí Aspose.Cells pro .NET v jazyce C
 Naučte se, jak pomocí Aspose.Cells pro .NET převést soubory XLSX do formátu CSV v C# krok za krokem.
 ### [Vytvoření nového sešitu a export do CSV – krok za krokem průvodce v C#](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 Naučte se vytvořit nový sešit a exportovat jej do CSV pomocí Aspose.Cells pro .NET v C#.
+### [Jak vytvořit CSV z Excelu pomocí Aspose.Cells v C#](./how-to-create-csv-from-excel-using-aspose-cells-in-c/)
+Naučte se, jak převést Excel do CSV pomocí Aspose.Cells v C# krok za krokem.
 
 
 
@@ -63,6 +65,10 @@ Naučte se exportovat tabulky do CSV pomocí C# s podrobným krok za krokem prů
 Naučte se, jak pomocí Aspose.Cells pro .NET exportovat data z Excelu do CSV souboru pomocí C# v podrobném průvodci.
 ### [Uložení sešitu jako CSV – Kompletní průvodce exportem Excelu do CSV s řízením číslic](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-w/)
 Naučte se, jak uložit Excel sešit do CSV s přesnou kontrolou počtu desetinných míst a formátování dat.
+### [Jak uložit sešit jako CSV s přesným formátováním pomocí Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
+Naučte se, jak pomocí Aspose.Cells uložit sešit do CSV s přesným zachováním formátování.
+### [Uložení sešitu jako CSV v C# – Kompletní programovací průvodce](./save-workbook-as-csv-in-c-complete-programming-guide/)
+Naučte se, jak uložit Excel sešit do formátu CSV pomocí Aspose.Cells v C#. Kompletní krok za krokem průvodce.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

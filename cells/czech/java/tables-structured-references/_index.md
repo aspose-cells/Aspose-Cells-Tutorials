@@ -38,6 +38,9 @@ Naučte se, jak automatizovat objekty seznamů v Excelu pomocí Aspose.Cells pro
 ### [Aspose.Cells Java: Zvládnutí manipulace s tabulkami v Excelu pomocí buněk](./aspose-cells-java-manipulate-excel-tables/)
 Naučte se, jak manipulovat s tabulkami v Excelu pomocí Aspose.Cells pro Javu. Tato příručka se zabývá efektivním nastavením, přístupem k datům v tabulkách, jejich úpravami a ukládáním.
 
+### [Vytvoření tabulky Excel v Javě – krok za krokem](./create-excel-table-in-java-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells pro Javu vytvořit tabulku v Excelu krok za krokem.
+
 ### [Převod tabulek Excelu na oblasti pomocí Aspose.Cells v Javě: Podrobný návod](./convert-excel-tables-ranges-aspose-cells-java/)
 Naučte se, jak automatizovat převod excelových tabulek na oblasti pomocí Aspose.Cells pro Javu. Pro efektivní správu dat se řiďte tímto komplexním průvodcem.
 
@@ -56,6 +59,10 @@ Naučte se, jak spravovat textová pole v Excelu pomocí Aspose.Cells pro Javu. 
 ### [Zvládnutí Aspose.Cells v Javě: Identifikace buněk v pojmenované oblasti pro manipulaci s daty v Excelu](./master-aspose-cells-java-identify-named-range-cells/)
 Naučte se, jak používat Aspose.Cells s Javou k efektivní identifikaci a manipulaci s buňkami v pojmenovaných oblastech v tabulkách Excelu.
 
+### [Jak bezpečně přejmenovat tabulku Excel pomocí Aspose.Cells pro Javu](./how-to-safely-rename-excel-table-with-aspose-cells-java/)
+Naučte se, jak bezpečně přejmenovat tabulku Excel pomocí Aspose.Cells pro Javu.
+### [Nastavení názvu tabulky v Excelu pomocí Javy – Kompletní průvodce](./set-table-name-in-excel-with-java-complete-guide/)
+Naučte se, jak nastavit název tabulky v Excelu pomocí Aspose.Cells pro Javu, což usnadňuje správu a odkazování na data.
 ### [Jak bezpečně odstranit řádek tabulky Excel pomocí Aspose.Cells](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
 Naučte se, jak bezpečně odstranit řádek z tabulky Excel pomocí Aspose.Cells pro Javu, aby nedošlo k poškození dat.
 

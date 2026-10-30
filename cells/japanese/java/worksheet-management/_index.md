@@ -32,6 +32,9 @@ Aspose.Cells for Java を使用して、特定のワークシートに名前で�
 ### [Aspose.Cells for Java を使用して Excel にワークシートを追加する方法: 完全ガイド](./add-spreadsheets-excel-aspose-cells-java/)
 Aspose.Cells for Java を使用して、プログラムでExcelファイルにワークシートを追加する方法を学びます。このガイドでは、セットアップ、実装、そして実践的な応用例を解説します。
 
+### [Aspose.Cells Java を使用してリストからワークシートを作成する – 完全ガイド](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Aspose.Cells Java を使い、リストデータから複数のワークシートを自動的に生成する方法をステップバイステップで解説します。
+
 ### [Aspose.Cells for Java を使用して Excel に列を挿入する方法 - 包括的なガイド](./aspose-cells-java-insert-column-excel/)
 Aspose.Cells for Javaを使ってExcelワークシートに列を挿入する方法をマスターしましょう。この詳細なガイドに従って、レポート生成を自動化し、データ管理を強化しましょう。
 
@@ -108,6 +111,10 @@ Aspose.Cells for Javaを使って、Excelファイルの行と列を簡単に再
 Java と Aspose.Cells を使用して、テンプレートベースで複数シートを作成し、データを自動的に配置する方法を学びます。
 ### [Aspose.Cells (Java) で Excel のオートフィルタをクリアする方法](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
 Aspose.Cells for Java を使って Excel のオートフィルタ設定を解除し、データの表示をリセットする手順を解説します。
+### [Aspose.Cells for Java を使用して重複した詳細シートを作成する方法](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+Aspose.Cells for Java を使って、詳細シートを複製し、データ管理とレポート作成を効率化する手順を解説します。
+### [Java を使用して Excel の最初の 2 行を固定する – 完全ガイド](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Aspose.Cells for Java を使用して、Excel の最初の 2 行を固定する方法を学び、データ表示を最適化しましょう。
 
 ## 追加リソース
 

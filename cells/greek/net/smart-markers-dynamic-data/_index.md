@@ -144,9 +144,10 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 ### [Αυτοματοποιήστε τη Δημιουργία Τιμολογίων – Δυναμική Ονομασία Φύλλων Εργασίας & Επανάληψη σε C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
 ### [Δημιουργία προτύπου έκπτωσης σε C# – Οδηγός βήμα‑Βήμα](./create-discount-template-in-c-step-by-step-guide/)
 ### [Ανάλυση Φωλιασμένου JSON C# – Δημιουργία JSON Payload C#](./parse-nested-json-c-create-json-payload-c/)
+### [Δημιουργία βιβλίου εργασίας Excel προγραμματιστικά χρησιμοποιώντας Έξυπνους Δείκτες](./create-excel-workbook-programmatically-using-smart-markers/)
 ### [Πώς να δημιουργήσετε βιβλίο εργασίας με Έξυπνους Δείκτες – Έξοδος Υψηλή Χαμηλή](./how-to-create-workbook-with-smart-markers-output-high-low/)
 ### [Δημιουργία αναφοράς master-detail σε C# – Συμπλήρωση προτύπου Excel με SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
-Μάθετε πώς να δημιουργήσετε αναφορά master‑detail σε C# γεμίζοντας πρότυπο Excel με SmartMarker σε βήμα‑βήμα οδηγό.
+### [Πώς να δημιουργήσετε λίστα αναφοράς Excel με Έξυπνους Δείκτες Aspose.Cells](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
 
 ### [Δημιουργία Δυναμικού Πίνακα Excel – Οδηγός Smart Marker](./create-dynamic-excel-table-smart-marker-guide/)
 Μάθετε πώς να δημιουργήσετε δυναμικούς πίνακες Excel χρησιμοποιώντας Smart Markers στο Aspose.Cells για .NET.
@@ -171,6 +172,12 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 ### [Πώς να αξιολογήσετε τύπο με Έξυπνους Δείκτες – Πλήρης Οδηγός](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
 ### [Range smart marker για επεξεργασία ένθετων δεδομένων σε C# – Πλήρης οδηγός](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
 ### [Εισαγωγή JSON σε Excel με C# – οδηγός βήμα‑βήμα](./import-json-to-excel-in-c-step-by-step-guide/)
+### [Δημιουργία βιβλίου εργασίας Master‑Detail με Aspose.Cells Smart Marker](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Master‑Detail χρησιμοποιώντας Smart Markers του Aspose.Cells για .NET.
+### [Οδηγός Master‑Detail Excel – Συμπλήρωση προτύπων με Έξυπνους Δείκτες](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+Μάθετε πώς να δημιουργείτε βιβλία εργασίας Master‑Detail γεμίζοντας πρότυπα Excel με Έξυπνους Δείκτες σε .NET.
+### [Πώς να Επαναλάβετε Φύλλα Εργασίας – Πλήρης Οδηγός για Αυτοματοποίηση Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+### [Δημιουργία Excel από JSON με Aspose.Cells Smart Marker](./create-excel-from-json-with-aspose-cells-smart-marker/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

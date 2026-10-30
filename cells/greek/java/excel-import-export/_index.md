@@ -47,10 +47,16 @@
 Μάθετε πώς να μετατρέψετε αρχεία Excel σε PDF χρησιμοποιώντας το Aspose.Cells για Java με πλήρη παραδείγματα κώδικα.
 ### [Μετατροπή Excel σε PDF/A με Java – Πλήρης Οδηγός Βήμα‑βήμα](./convert-excel-to-pdf-a-with-java-complete-step-by-step-guide/)
 Μάθετε πώς να μετατρέπετε αρχεία Excel σε PDF/A με το Aspose.Cells για Java. Οδηγός βήμα‑βήμα με πηγαίο κώδικα.
+### [Πώς να Εξάγετε PPTX από το Excel – Πλήρης Οδηγός Java](./how-to-export-pptx-from-excel-complete-java-guide/)
+Μάθετε πώς να μετατρέψετε φύλλα Excel σε αρχεία PPTX χρησιμοποιώντας το Aspose.Cells για Java, βήμα-βήμα με κώδικα.
 ### [Εξαγωγή Excel σε XML Java](./export-excel-to-xml-java/)
 Μάθετε πώς να εξάγετε Excel σε XML σε Java με το Aspose.Cells για Java. Οδηγός βήμα προς βήμα με πηγαίο κώδικα για απρόσκοπτη μετατροπή δεδομένων.
 ### [Εισαγωγή δεδομένων από το Excel](./data-import-from-excel/)
 Μάθετε πώς να εισάγετε δεδομένα από το Excel χρησιμοποιώντας το Aspose.Cells για Java. Ένας ολοκληρωμένος οδηγός με πηγαίο κώδικα για απρόσκοπτη ανάκτηση δεδομένων.
+### [Πώς να μορφοποιήσετε το Excel – Εισαγωγή DataTable με προσαρμοσμένη μορφοποίηση σε Java](./how-to-style-excel-import-datatable-with-custom-formatting-i/)
+Μάθετε πώς να εισάγετε DataTable στο Excel με προσαρμοσμένη μορφοποίηση χρησιμοποιώντας Aspose.Cells για Java.
+### [Εισαγωγή JSON σε Excel με Aspose Cells – Πλήρης Οδηγός Java](./insert-json-into-excel-with-aspose-cells-full-java-guide/)
+Μάθετε πώς να εισάγετε δεδομένα JSON σε αρχεία Excel χρησιμοποιώντας το Aspose.Cells για Java. Οδηγός βήμα‑βήμα με κώδικα.
 ### [Εξαγωγή Excel σε JSON](./export-excel-to-json/)
 Μάθετε πώς να εξάγετε δεδομένα Excel σε JSON χρησιμοποιώντας το Aspose.Cells για Java. Ακολουθήστε αυτόν τον αναλυτικό οδηγό με πηγαίο κώδικα για απρόσκοπτη μετατροπή.
 ### [Μετατροπή JSON σε XLSX με Aspose.Cells Java – Πλήρης Οδηγός](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
@@ -122,6 +128,38 @@
 Μάθετε πώς να εξάγετε Excel σε HTML με Java, ακολουθώντας έναν πλήρη βήμα‑βήμα οδηγό.
 ### [Ενσωμάτωση γραμματοσειρών σε SVG κατά την εξαγωγή Excel σε SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
 Μάθετε πώς να ενσωματώσετε γραμματοσειρές σε αρχεία SVG κατά την εξαγωγή Excel χρησιμοποιώντας το Aspose.Cells για Java.
+### [Πώς να εισάγετε λίστα στο Excel και να μορφοποιήσετε στήλες σε Java](./how-to-import-list-to-excel-and-style-columns-in-java/)
+### [Πώς να εξάγετε Excel σε TXT με περιορισμένα σημαντικά ψηφία χρησιμοποιώντας Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+### [Πώς να εξάγετε Excel σε PowerPoint με το Aspose.Cells – οδηγός βήμα‑βήμα](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Μάθετε πώς να μετατρέψετε αρχεία Excel σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Cells για Java, βήμα προς βήμα.
+### [Εξαγωγή JSON σε Excel με Aspose.Cells σε Java](./export-json-to-excel-with-aspose-cells-in-java/)
+Μάθετε πώς να μετατρέψετε δεδομένα JSON σε αρχεία Excel χρησιμοποιώντας το Aspose.Cells για Java.
+### [Πώς να φορτώσετε JSON σε Excel με Aspose.Cells για Java](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+Μάθετε πώς να φορτώνετε αρχεία JSON σε Excel χρησιμοποιώντας το Aspose.Cells για Java, με βήμα‑βήμα οδηγίες και παραδείγματα κώδικα.
+### [Πώς να ενσωματώσετε γραμματοσειρές σε HTML από το Excel – Πλήρης Οδηγός](./how-to-embed-fonts-in-html-from-excel-full-guide/)
+Μάθετε πώς να ενσωματώσετε γραμματοσειρές σε αρχεία HTML εξάγοντας τα από Excel με το Aspose.Cells για Java.
+### [Δημιουργία Excel από JSON – Πλήρης Οδηγός Java με Aspose.Cells](./create-excel-from-json-full-java-guide-with-aspose-cells/)
+Μάθετε πώς να δημιουργήσετε αρχεία Excel από JSON χρησιμοποιώντας το Aspose.Cells για Java. Οδηγός βήμα προς βήμα με πηγαίο κώδικα.
+### [Αποθήκευση βιβλίου εργασίας ως XLSX με Smart Marker – Εξαγωγή παραγγελιών σε Excel](./save-workbook-as-xlsx-with-smart-marker-export-orders-to-exc/)
+
+### [Αποθήκευση βιβλίου εργασίας ως CSV – Πλήρης οδηγός Java για εξαγωγή Excel σε CSV](./save-workbook-as-csv-complete-java-guide-to-export-excel/)
+Μάθετε πώς να αποθηκεύσετε ένα βιβλίο εργασίας Excel ως CSV με το Aspose.Cells για Java. Οδηγός βήμα‑βήμα με παραδείγματα κώδικα.
+
+### [Συμπερίληψη Εξαγωγής Τύπων σε Java – Μετατροπή Κελιών Excel σε Κείμενο](./include-formulas-export-in-java-convert-excel-cells-to-text/)
+Μάθετε πώς να εξάγετε τύπους ως κείμενο από κελιά Excel χρησιμοποιώντας Aspose.Cells για Java.
+
+### [Δημιουργία Word από Excel – Πλήρης Οδηγός για Εξαγωγή XLSX](./create-word-from-excel-complete-guide-to-exporting-xlsx/)
+Μάθετε πώς να δημιουργήσετε έγγραφο Word από αρχείο Excel εξάγοντας το ως XLSX με Aspose.Cells για Java.
+### [Εξαγωγή Excel σε TXT με Java – Πλήρης Οδηγός Βήμα‑βήμα](./export-excel-to-txt-with-java-complete-step-by-step-guide/)
+Μάθετε πώς να εξάγετε δεδομένα Excel σε αρχείο TXT χρησιμοποιώντας το Aspose.Cells για Java, με πλήρη βήμα‑βήμα οδηγίες και κώδικα.
+### [Ορισμός προσαρμοσμένου διαχωριστή κελιών – Εξαγωγή πίνακα Excel σε TXT](./set-custom-cell-separator-export-excel-table-to-txt/)
+Μάθετε πώς να ορίσετε προσαρμοσμένο διαχωριστή κελιών κατά την εξαγωγή πίνακα Excel σε αρχείο TXT χρησιμοποιώντας το Aspose.Cells για Java.
+### [Δημιουργία Excel από JSON με Aspose Cells – Πλήρης Οδηγός Java](./create-excel-from-json-with-aspose-cells-full-java-guide/)
+Μάθετε πώς να δημιουργήσετε αρχεία Excel από JSON χρησιμοποιώντας το Aspose.Cells για Java με πλήρη βήμα-βήμα οδηγό.
+### [Πώς να εξάγετε Excel σε PowerPoint – βήμα‑βήμα οδηγός](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+
+### [Εξαγωγή επιλεγμένων κελιών σε CSV σε Java – πλήρης οδηγός](./export-selected-cells-to-csv-in-java-complete-guide/)
+Μάθετε πώς να εξάγετε επιλεγμένα κελιά από ένα φύλλο Excel σε αρχείο CSV χρησιμοποιώντας το Aspose.Cells για Java, βήμα‑βήμα με κώδικα.
 ### [Πώς να ορίσετε περιοχή εκτύπωσης Excel και εξαγωγή σε PowerPoint](./how-to-set-print-area-excel-and-export-to-powerpoint/)
 Μάθετε πώς να ορίσετε την περιοχή εκτύπωσης σε ένα αρχείο Excel και να το εξάγετε ως παρουσίαση PowerPoint χρησιμοποιώντας Aspose.Cells για Java.
 ### [Πώς να εξάγετε Excel σε TXT με Aspose.Cells και έλεγχο δεκαδικής ακρίβειας](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)

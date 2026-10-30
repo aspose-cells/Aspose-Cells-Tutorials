@@ -40,13 +40,13 @@ url: /hi/java/excel-import-export/how-to-set-print-area-excel-and-export-to-powe
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to set print area excel and export to PowerPoint
+# एक्सेल में प्रिंट एरिया कैसे सेट करें और पावरपॉइंट में निर्यात करें
 
 यदि आपको स्लाइड डेक में डेटा साझा करने से पहले **set print area excel** सेट करने की आवश्यकता है, तो यह ट्यूटोरियल आपको बिल्कुल वही दिखाता है। आप देखेंगे कि प्रिंट एरिया कैसे कॉन्फ़िगर करें, फिर **export excel to pptx** कैसे करें जबकि टेक्स्ट बॉक्स एडिटेबल रहें, ताकि परिणामी PowerPoint आगे के संपादन के लिए तैयार हो।
 
 हम Aspose.Cells for Java का उपयोग करके **convert worksheet to PowerPoint** करेंगे और अंत में **save worksheet as PowerPoint** को PPTX फ़ॉर्मेट में सहेजेंगे। Aspose.Cells JAR के अलावा कोई अतिरिक्त लाइब्रेरी आवश्यक नहीं है। इस गाइड के अंत तक आप कोड को किसी भी Java‑compatible environment में चला सकते हैं और चयनित Excel रेंज के समान एक प्रेज़ेंटेशन बना सकते हैं।
 
-## Prerequisites
+## पूर्वापेक्षाएँ
 
 - Java Development Kit 17 या बाद का संस्करण  
 - Aspose.Cells for Java (आधिकारिक Aspose साइट से डाउनलोड करें)  
@@ -59,7 +59,7 @@ javac -cp "aspose-cells-23.12.jar" ExportEditableShapesToPptx.java
 java -cp ".:aspose-cells-23.12.jar" ExportEditableShapesToPptx
 ```
 
-## Step 1: Set print area excel using Aspose.Cells
+## चरण 1: Aspose.Cells का उपयोग करके प्रिंट एरिया सेट करें
 
 पहला कदम वह रेंज निर्धारित करना है जिसे एक्सपोर्ट किया जाएगा। प्रिंट एरिया सेट करने से कन्वर्ज़न केवल उन सेल्स तक सीमित हो जाता है जिनकी आपको ज़रूरत है और प्रदर्शन में सुधार होता है।
 
@@ -73,7 +73,7 @@ workbook.getWorksheets().get(0).getPageSetup().setPrintArea("A1:G30");
 
 **Why this matters** – `setPrintArea` मेथड Aspose.Cells को बताता है कि कौन से सेल्स प्रिंटेबल पेज का हिस्सा हैं। जब आप बाद में **export excel to pptx** करेंगे, तो केवल यह एरिया रेंडर होगा, इसलिए अनावश्यक डेटा स्लाइड में नहीं दिखेगा।
 
-### Pro tip
+### प्रो टिप
 यदि आपको डायनामिक रेंज चाहिए, तो आप प्रोग्रामेटिकली एड्रेस की गणना कर सकते हैं:
 
 ```java
@@ -83,7 +83,7 @@ String range = String.format("A1:%s%d", CellsHelper.columnIndexToName(lastCol - 
 workbook.getWorksheets().get(0).getPageSetup().setPrintArea(range);
 ```
 
-## Step 2: Export excel to pptx with editable text boxes
+## चरण 2: एडिटेबल टेक्स्ट बॉक्स के साथ Excel को PPTX में एक्सपोर्ट करें
 
 प्रिंट एरिया निर्धारित होने के बाद, एक्सपोर्ट विकल्प कॉन्फ़िगर करें। `setExportEditableTextBoxes` को एनेबल करने से शैप्स का टेक्स्ट PowerPoint में एडिटेबल फ़ील्ड के रूप में बना रहता है।
 
@@ -96,7 +96,7 @@ exportOptions.setExportEditableTextBoxes(true);   // keeps text boxes editable
 
 **Why this matters** – डिफ़ॉल्ट रूप से Aspose.Cells टेक्स्ट बॉक्स को रास्टराइज़ कर देता है, जिससे वे इमेज का हिस्सा बन जाते हैं। `ExportEditableTextBoxes` को `true` सेट करने से मूल शैप ऑब्जेक्ट्स बरकरार रहते हैं, जिससे उपयोगकर्ता PowerPoint में सीधे टेक्स्ट को संशोधित कर सकते हैं।
 
-## Step 3: Convert worksheet to PowerPoint and save the file
+## चरण 3: वर्कशीट को PowerPoint में बदलें और फ़ाइल सहेजें
 
 अब वास्तविक कन्वर्ज़न करें। `Workbook.save` मेथड टार्गेट फ़ाइल नाम और पहले तैयार किए गए विकल्प लेता है।
 
@@ -107,14 +107,14 @@ workbook.save("YOUR_DIRECTORY/SheetWithEditableShapes.pptx", exportOptions);
 
 जब कोड समाप्त हो जाता है, `SheetWithEditableShapes.pptx` में एक ही स्लाइड होगी जो निर्धारित प्रिंट एरिया (`A1:G30`) को दर्शाती है। सभी शैप्स, जिसमें टेक्स्ट बॉक्स भी शामिल हैं, एडिटेबल रहते हैं।
 
-### Expected output
+### अनुमानित आउटपुट
 जनरेटेड PPTX को Microsoft PowerPoint में खोलें:
 
 - स्लाइड में **A1 से G30** तक के सेल्स बिल्कुल उसी तरह दिखेंगे जैसे Excel में हैं।  
 - मूल वर्कशीट में मौजूद सभी शैप्स PowerPoint शैप्स के रूप में दिखाई देंगे।  
 - उन शैप्स के अंदर का टेक्स्ट सीधे PowerPoint में एडिट किया जा सकता है (कोई रास्टराइज़ेशन नहीं)।
 
-## Step 4: Full, runnable example
+## चरण 4: पूर्ण, चलाने योग्य उदाहरण
 
 नीचे पूरा प्रोग्राम दिया गया है। `YOUR_DIRECTORY` को अपने मशीन पर वास्तविक फ़ोल्डर पाथ से बदलें।
 
@@ -142,7 +142,7 @@ public class ExportEditableShapesToPptx {
 
 प्रोग्राम को *Prerequisites* सेक्शन में बताए अनुसार चलाएँ। जनरेटेड PowerPoint फ़ाइल उसी डायरेक्टरी में रखी जाएगी जिसे आपने निर्दिष्ट किया है।
 
-## Common questions and edge cases
+## सामान्य प्रश्न और एज केस
 
 | प्रश्न | उत्तर |
 |----------|--------|
@@ -151,7 +151,7 @@ public class ExportEditableShapesToPptx {
 | **क्या प्रिंट एरिया अनिवार्य है?** | नहीं। यदि आप `setPrintArea` को छोड़ देते हैं, तो Aspose.Cells वर्कशीट की पूरी उपयोग की गई रेंज को एक्सपोर्ट करता है। प्रिंट एरिया सेट करने से आपको सटीक नियंत्रण मिलता है। |
 | **क्या यह .xlsx फ़ाइलों के साथ काम करता है जो अन्य टूल्स द्वारा बनाई गई हों?** | बिल्कुल। Aspose.Cells किसी भी वैध Office Open XML वर्कबुक को सपोर्ट करता है, चाहे उसकी उत्पत्ति कुछ भी हो। |
 
-## Next steps
+## अगले चरण
 
 - **Save worksheet as PowerPoint** को कस्टम स्लाइड लेआउट्स के साथ: Aspose.Slides की `Presentation` क्लास का उपयोग करके एक्सपोर्टेड स्लाइड को बड़े डेक में मर्ज करें।  
 - **Export excel to pptx** को विभिन्न इमेज रिज़ॉल्यूशन के साथ: हाई‑DPI आउटपुट के लिए `exportOptions.setResolution(300)` सेट करें।  
@@ -162,7 +162,7 @@ public class ExportEditableShapesToPptx {
 ---
 
 
-## What Should You Learn Next?
+## आपको आगे क्या सीखना चाहिए?
 
 
 निम्नलिखित ट्यूटोरियल्स उन विषयों को कवर करते हैं जो इस गाइड में प्रदर्शित तकनीकों पर आधारित हैं। प्रत्येक संसाधन में पूर्ण कार्यशील कोड उदाहरण और चरण‑दर‑चरण व्याख्याएँ शामिल हैं, जिससे आप अतिरिक्त API फीचर्स में निपुण हो सकें और अपने प्रोजेक्ट्स में वैकल्पिक इम्प्लीमेंटेशन एप्रोच को एक्सप्लोर कर सकें।

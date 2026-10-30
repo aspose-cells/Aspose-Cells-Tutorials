@@ -70,6 +70,8 @@ Aspose.Cells का उपयोग करके Excel वर्कबुक क
 Aspose.Cells का उपयोग करके C# में XLSX फ़ाइल को PDF/A‑1b फ़ॉर्मेट में बदलने के चरण‑दर‑चरण निर्देश।
 ### [C# में Excel को PDF में बदलें – पूर्ण प्रोग्रामिंग गाइड](./convert-excel-to-pdf-in-c-complete-programming-guide/)
 C# में Excel को PDF में बदलने के लिए पूर्ण प्रोग्रामिंग गाइड, चरण-दर-चरण निर्देश और कोड उदाहरण।
+### [फ़ॉन्ट वैरिएशन सिलेक्टर्स के साथ PDF कैसे सहेजें – पूर्ण गाइड](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
+फ़ॉन्ट वैरिएशन सिलेक्टर्स को सपोर्ट करने के लिए PDF को सुरक्षित करने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

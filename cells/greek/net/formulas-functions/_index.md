@@ -92,6 +92,9 @@
 
 ### [Δημιουργία βιβλίου εργασίας Excel με τύπο EXPAND – Πλήρης οδηγός](./create-excel-workbook-with-expand-formula-complete-guide/)
 Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel που χρησιμοποιεί τον τύπο EXPAND για δυναμική επέκταση δεδομένων, βήμα‑βήμα.
+### [Πώς να χρησιμοποιήσετε τη SEQUENCE σε C# – Δημιουργία βιβλίου εργασίας Excel](./how-to-use-sequence-in-c-create-excel-workbook/)
+
+### [Γράψτε τύπο πίνακα σε C# – Πλήρης οδηγός προγραμματισμού](./write-array-formula-in-c-complete-programming-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

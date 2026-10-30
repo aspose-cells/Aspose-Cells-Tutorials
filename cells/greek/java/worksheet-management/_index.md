@@ -53,8 +53,14 @@
 ### [Αποτελεσματική διαχείριση γραμμών στο Excel χρησιμοποιώντας Aspose.Cells για Java: Εισαγωγή και διαγραφή γραμμών](./aspose-cells-java-row-operations-excel/)
 Κατακτήστε τις λειτουργίες γραμμών στο Excel με το Aspose.Cells για Java. Μάθετε να εισάγετε και να διαγράφετε γραμμές αποτελεσματικά, βελτιστοποιώντας τις εργασίες διαχείρισης δεδομένων σας.
 
+### [Πάγωμα των πρώτων δύο γραμμών στο Excel με Java – Πλήρης οδηγός](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Μάθετε πώς να παγώσετε τις πρώτες δύο γραμμές σε ένα αρχείο Excel χρησιμοποιώντας το Aspose.Cells για Java.
+
 ### [Αφαίρεση Κύριου Φύλλου με Aspose.Cells σε Java](./aspose-cells-java-sheet-removal-guide/)
 Ένα σεμινάριο κώδικα για το Aspose.Words Java
+
+### [Πώς να δημιουργήσετε διπλότυπα φύλλα λεπτομερειών στο Aspose.Cells για Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+Μάθετε πώς να δημιουργήσετε αντίγραφα φύλλων λεπτομερειών σε αρχεία Excel χρησιμοποιώντας το Aspose.Cells για Java.
 
 ### [Εξοικείωση με το Aspose.Cells Java: Χρήση έξυπνων δεικτών για δυναμικά δεδομένα σε φύλλα εργασίας](./aspose-cells-java-smart-markers-worksheets/)
 Μάθετε πώς να αυτοματοποιήσετε τη δημιουργία αρχείων Excel χρησιμοποιώντας το Aspose.Cells για Java με έξυπνους δείκτες. Βελτιστοποιήστε τη διαχείριση δεδομένων και βελτιώστε τη ροή εργασίας σας σήμερα.
@@ -107,6 +113,8 @@
 Μάθετε πώς να δημιουργείτε πολλά φύλλα εργασίας σε ένα αρχείο Excel χρησιμοποιώντας πρότυπα με Aspose.Cells για Java.
 ### [Πώς να καθαρίσετε το Autofilter στο Excel με το Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
 Μάθετε πώς να αφαιρέσετε το Autofilter από ένα φύλλο Excel χρησιμοποιώντας το Aspose.Cells για Java.
+### [Δημιουργία φύλλων εργασίας από λίστα με Aspose.Cells Java – Πλήρης Οδηγός](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Μάθετε πώς να δημιουργείτε πολλά φύλλα εργασίας από λίστα δεδομένων χρησιμοποιώντας το Aspose.Cells για Java, με πλήρη παραδείγματα κώδικα.
 
 ## Πρόσθετοι Πόροι
 

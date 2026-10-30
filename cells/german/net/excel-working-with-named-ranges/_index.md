@@ -36,6 +36,8 @@ Diese Methode eignet sich ideal für gezieltes Datenmanagement und ermöglicht I
 Entfesseln Sie die Leistungsfähigkeit von Excel, indem Sie mit unserer einfachen Anleitung mit Aspose.Cells für .NET auf benannte Bereiche zugreifen. Perfekt für die Datenverwaltung.
 ### [Zugriff auf einen bestimmten benannten Bereich in Excel](./access-specific-named-range/)
 Erfahren Sie in diesem umfassenden Schritt-für-Schritt-Tutorial und mit Beispielcode, wie Sie mit Aspose.Cells für .NET auf bestimmte benannte Bereiche in Excel zugreifen.
+### [Benannten Bereich in Excel mit C# definieren – Arbeitsmappe erstellen](./define-named-range-in-excel-with-c-create-workbook/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET und C# einen benannten Bereich erstellen, indem Sie eine neue Arbeitsmappe anlegen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

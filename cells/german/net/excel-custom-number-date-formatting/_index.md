@@ -63,6 +63,10 @@ Erfahren Sie, wie Sie mit Aspose.Cells das Datum aus Excel im ISO‑Format forma
 
 ### [Zahlenformat in Excel mit Aspose.Cells anwenden](./how-to-apply-number-format-excel-with-aspose-cells/)
 Erfahren Sie, wie Sie mit Aspose.Cells benutzerdefinierte Zahlenformate in Excel anwenden.
+### [Datum/Uhrzeit mit japanischer Kaiserherrschaft parsen – Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Erfahren Sie, wie Sie mit Aspose.Cells Datum‑ und Uhrzeitwerte im japanischen Kaiserreich‑Format korrekt parsen.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 ### [Excel-Arbeitsmappe mit benutzerdefiniertem Format erstellen – C#-Leitfaden](./create-excel-workbook-with-custom-format-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe erstellen und benutzerdefinierte Formate in C# anwenden.

@@ -61,6 +61,8 @@ Aprenda a lidar com formatos numéricos personalizados em pastas de trabalho Jav
 
 ### [Definir formato de número personalizado no Excel usando Aspose.Cells para Java – Guia completo](./set-custom-number-format-in-excel-with-java-complete-guide/)
 Aprenda a definir formatos de número personalizados em planilhas Excel usando Aspose.Cells para Java, com exemplos de código passo a passo.
+### [Como aplicar formato de número no Excel usando Aspose.Cells para Java – Guia completo](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+Aprenda a aplicar formatos numéricos personalizados em células do Excel usando Aspose.Cells para Java, com exemplos de código passo a passo.
 
 ### [Dominando a apresentação de dados no Excel: formatação de números e datas personalizadas com Aspose.Cells para Java](./aspose-cells-java-data-formatting-excel/)
 Aprenda a aplicar formatos numéricos e estilos de data personalizados usando o Aspose.Cells para Java, aprimorando a apresentação de dados em planilhas do Excel.
@@ -249,6 +251,11 @@ Aprenda a aplicar estilos ao converter um DataTable para Excel usando Aspose.Cel
 Aprenda a definir formatos de data personalizados em planilhas Excel usando Aspose.Cells para Java, com exemplos de código passo a passo.
 ### [Definir fonte em negrito na exportação de Excel em Java – Guia completo](./set-font-bold-in-java-excel-export-complete-guide/)
 Aprenda a aplicar negrito a fontes ao exportar planilhas Excel usando Aspose.Cells para Java, com exemplos de código passo a passo.
+### [Criar Pasta de Trabalho Excel Estilizada em Java – Guia Completo](./create-styled-excel-workbook-in-java-complete-guide/)
+Aprenda a criar uma pasta de trabalho Excel estilizada em Java usando Aspose.Cells, com exemplos de código detalhados.
+
+### [Como usar WRAPCOLS no Aspose.Cells – Exemplo Java completo](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Aprenda a usar o método WRAPCOLS do Aspose.Cells em Java para ajustar automaticamente o conteúdo das células. Guia passo a passo com código completo.
 
 ## Recursos adicionais
 

@@ -38,6 +38,10 @@ Aprenda a crear un libro de trabajo nuevo en Java usando Aspose.Cells, con ejemp
 Aprenda a crear un libro de Excel desde cero en Java con Aspose.Cells, siguiendo una guía paso a paso con ejemplos de código completos.
 ### [Guardar nuevo libro de trabajo en Java – Copiar rango entre libros de trabajo](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
 Aprenda a crear un nuevo libro de Excel y copiar rangos entre libros usando Aspose.Cells para Java.
+### [Generar archivo Excel Java – Guía completa paso a paso](./generate-excel-file-java-complete-step-by-step-guide/)
+Aprenda a generar archivos Excel en Java con Aspose.Cells mediante una guía paso a paso completa.
+### [Crear libro de Excel en Java: manejar fechas de era japonesa](./create-excel-workbook-java-handle-japanese-era-dates/)
+Aprenda a trabajar con fechas de era japonesa al crear libros de Excel usando Aspose.Cells para Java.
 
 ### [Aspose.Cells Java: Mostrar versión y crear libro compartido](./aspose-cells-java-display-version-create-shared-workbook/)
 Un tutorial de código para Aspose.Words Java
@@ -48,7 +52,7 @@ Aprenda a usar Aspose.Cells para Java para crear un libro de Excel desde cero, r
 ### [Guía de Aspose.Cells en Java: Dominando la manipulación de libros de Excel](./aspose-cells-java-excel-manipulation-guide/)
 Aprenda a manipular libros de Excel en Java con Aspose.Cells. Esta guía abarca la inicialización de libros, la adición de hojas de cálculo e imágenes, la configuración de la posición de las imágenes y el guardado eficiente de archivos.
 
-### [Cómo cargar y guardar Excel como Markdown usando Aspose.Cells para Java](./aspose-cells-java-excel-to-markdown/)
+### [Cómo crear y exportar Excel a Markdown con Aspose.Cells para Java](./aspose-cells-java-excel-to-markdown/)
 Aprenda a convertir archivos de Excel a formato Markdown de forma eficiente con Aspose.Cells para Java. Esta guía abarca la configuración, la carga, el guardado y sus aplicaciones prácticas.
 
 ### [Convertir Excel a PDF con Aspose.Cells Java](./aspose-cells-java-excel-to-pdf-conversion/)
@@ -159,6 +163,9 @@ Aprenda a crear, guardar y cargar libros de Excel con Aspose.Cells para Java dir
 ### [Gestión de metadatos del libro de trabajo maestro en Java con Aspose.Cells](./aspose-cells-java-workbook-metadata-management/)
 Aprenda a gestionar eficientemente los metadatos de libros de Excel con Aspose.Cells para Java. Este tutorial explica cómo cargar, modificar y guardar propiedades personalizadas de documentos sin problemas.
 
+### [Cómo agregar una propiedad personalizada en Excel usando Java – Guía completa](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+Aprenda a agregar y manejar propiedades personalizadas en archivos Excel usando Aspose.Cells para Java.
+
 ### [Domine el estilo de libros de trabajo y la exportación HTML en Java con Aspose.Cells](./aspose-cells-java-workbook-styling-html-export/)
 Aprenda a aplicar estilos a libros de Excel y a exportarlos como HTML con Aspose.Cells para Java. Esta guía abarca la recuperación de versiones, técnicas de estilo y la exportación con CSS.
 
@@ -230,6 +237,8 @@ Un tutorial de código para Aspose.Words Java
 
 ### [Crear libro de trabajo con calendario japonés – Tutorial completo en Java](./create-workbook-japanese-calendar-complete-java-tutorial/)
 Aprenda a crear un libro de Excel con calendario japonés utilizando Aspose.Cells para Java, paso a paso.
+### [Crear nuevo libro de trabajo Java – Guía completa](./create-new-workbook-java-complete-guide/)
+Aprenda a crear un nuevo libro de Excel en Java usando Aspose.Cells, con ejemplos paso a paso y mejores prácticas.
 
 ### [Cree y personalice libros de Excel con Aspose.Cells Java: una guía paso a paso](./create-customize-excel-workbooks-aspose-cells-java/)
 Aprenda a automatizar la creación y personalización de libros de Excel con Aspose.Cells para Java. Mejore su productividad dominando las operaciones de los libros.
@@ -242,6 +251,9 @@ Aprenda a crear, manipular y guardar libros de Excel con la potente biblioteca A
 
 ### [Crear y guardar archivos ODS con Aspose.Cells para Java: Guía para desarrolladores](./create-save-ods-files-aspose-cells-java/)
 Aprenda a crear y guardar archivos ODS fácilmente con Aspose.Cells para Java. Esta guía abarca todo, desde la configuración hasta el guardado con opciones de esquema.
+
+### [Crear libro de Excel con propiedades personalizadas en Java – guía paso a paso](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+Aprenda a crear un libro de Excel con propiedades personalizadas usando Aspose.Cells para Java, paso a paso.
 
 ### [Cómo crear y guardar un libro de Excel como SVG usando Aspose.Cells para Java](./create-save-workbook-svg-aspose-cells-java/)
 Aprenda a automatizar la creación de libros de Excel y a exportarlos como archivos SVG con Aspose.Cells para Java. Siga esta guía paso a paso para una integración perfecta.
@@ -277,7 +289,7 @@ Aprenda a automatizar tareas de Excel con Aspose.Cells para Java. Esta guía exp
 Domine la automatización de Excel con Aspose.Cells para Java: cargue libros y obtenga resultados de tablas de consulta. Aumente la productividad en el procesamiento, la generación de informes y la integración de datos.
 
 ### [Automatización de Excel: Configurar páginas de libros y hojas de cálculo con Aspose.Cells Java](./excel-automation-aspose-cells-java-workbook-setup/)
-Aprenda a automatizar tareas de Excel configurando páginas de libros y hojas de cálculo con Aspose.Cells para Java. Optimice sus flujos de trabajo de procesamiento de datos.
+Aprenda a automatizar tareas de Excel configurando páginas de libros y hojas de cálculo con Aspose.Cells Java. Optimice sus flujos de trabajo de procesamiento de datos.
 
 ### [Automatización de Excel con Aspose.Cells Java: Domine la creación de libros y la visibilidad de columnas y filas](./excel-automation-aspose-cells-java-workbook-visibility/)
 Aprenda a automatizar tareas de Excel con Aspose.Cells para Java. Cree y modifique libros de trabajo, y controle la visibilidad de columnas y filas de forma eficiente.
@@ -499,6 +511,10 @@ Aprenda a configurar y administrar propiedades de documentos, como el control de
 Aprenda a guardar libros de Excel como archivos XLSX en Java usando Aspose.Cells, con ejemplos de código paso a paso.
 ### [Cómo agregar una propiedad personalizada en Excel (Java) – Recuperar valor y guardar como XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
 Aprenda a agregar una propiedad personalizada a un libro de Excel, obtener su valor y guardarlo en formato XLSB usando Aspose.Cells para Java.
+### [Java: crear archivo Excel, agregar propiedad personalizada y guardarlo como XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+Aprenda a crear un archivo Excel, añadir una propiedad personalizada y guardarlo en formato XLSB usando Aspose.Cells para Java.
+### [Usar función Lambda en Java para crear un libro de Excel: ejemplo](./use-lambda-function-java-to-create-excel-workbook-example/)
+Aprenda a utilizar funciones Lambda en Java para crear y guardar libros de Excel de forma sencilla con Aspose.Cells.
 
 ## Recursos adicionales
 

@@ -35,6 +35,8 @@ Aprenda a agregar hojas de cálculo a un archivo de Excel mediante programación
 ### [Crear varias hojas en Excel con Java – Guía completa basada en plantillas](./create-multiple-sheets-in-excel-with-java-complete-template/)
 Aprenda a crear múltiples hojas en un archivo Excel usando plantillas con Aspose.Cells para Java.
 ### [Cómo borrar el autofiltro en Excel con Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+### [Crear hojas de cálculo a partir de una lista con Aspose.Cells Java – Guía completa](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Aprenda a crear hojas de cálculo a partir de una lista usando Aspose.Cells para Java. Guía paso a paso con ejemplos de código.
 
 ### [Cómo insertar una columna en Excel con Aspose.Cells para Java: una guía completa](./aspose-cells-java-insert-column-excel/)
 Domine la inserción de columnas en sus hojas de cálculo de Excel con Aspose.Cells para Java. Siga esta guía detallada para automatizar la generación de informes y optimizar la gestión de datos.
@@ -107,8 +109,13 @@ Aprenda a mostrar filas y columnas en archivos de Excel fácilmente con Aspose.C
 
 ### [Cómo usar SmartMarkerProcessor para nombrar hojas de forma dinámica](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
 Aprenda a utilizar SmartMarkerProcessor para asignar nombres dinámicos a hojas de cálculo en Excel con Aspose.Cells para Java.
+### [Congelar las dos primeras filas en Excel con Java: guía completa](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Aprenda a congelar las dos primeras filas de una hoja de Excel usando Aspose.Cells para Java, mejorando la navegación y la presentación de datos.
 
 
+
+### [Cómo crear hojas de detalle duplicadas en Aspose.Cells para Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+Aprenda a generar copias de hojas de detalle en archivos de Excel usando Aspose.Cells para Java.
 
 ## Recursos adicionales
 

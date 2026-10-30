@@ -59,6 +59,9 @@ Ismerd meg, hogyan teheted teljessé Excel-prezentációidat tükröződéseffek
 ### [Excel-táblázatok képként való renderelése az Aspose.Cells segítségével Java-ban: Átfogó útmutató](./aspose-cells-java-render-excel-sheets-images/)
 Ismerd meg, hogyan alakíthatod át Excel-adataidat kiváló minőségű képekké az Aspose.Cells for Java segítségével. Ez az útmutató a beállítástól a renderelésig minden lépést lefed, biztosítva a zökkenőmentes adatvizualizációt.
 
+### [Hogyan hozzunk létre PNG-t tartományból Java-ban az Aspose.Cells használatával](./how-to-create-png-from-range-in-java-with-aspose-cells/)
+Ismerd meg, hogyan hozhatsz létre PNG képet egy Excel-tartományból az Aspose.Cells for Java segítségével.
+
 ### [Grafikus hátterek beállítása ODS fájlokban az Aspose.Cells Java használatával: lépésről lépésre útmutató](./aspose-cells-java-set-ods-graphic-background/)
 Tanuld meg, hogyan állíthatsz be grafikus háttereket ODS fájlokban az Aspose.Cells for Java segítségével. Dobd fel táblázataidat professzionális vizuális elemekkel, és fokozd azok vonzerejét.
 
@@ -68,7 +71,7 @@ Ismerd meg, hogyan adhatsz hozzá és szabhatsz testre WordArt vízjelet Excelbe
 ### [Aspose.Cells Java: Átfogó útmutató a munkafüzetek és alakzatok másolásához](./aspose-cells-java-workbook-shape-copying-guide/)
 Sajátítsd el a munkafüzetek kezelését és az alakzatok másolását a munkalapok között az Aspose.Cells for Java segítségével. Tanuld meg, hogyan automatizálhatsz hatékonyan Excel-feladatokat.
 
-### [SmartArt grafikák frissítésének automatizálása Excelben az Aspose.Cells for Java segítségével: Átfogó útmutató](./automate-updating-smartart-excel-aspose-cells-java/)
+### [SmartArt grafikák frissítésének automatizálása Excelben az Aspose.Cells for Java használatával: Átfogó útmutató](./automate-updating-smartart-excel-aspose-cells-java/)
 Ismerje meg, hogyan automatizálhatja a SmartArt-grafikák frissítését Excelben az Aspose.Cells for Java használatával. Egyszerűsítse munkafolyamatát és növelje termelékenységét ezzel a lépésről lépésre haladó oktatóanyaggal.
 
 ### [SmartArt-ábrák konvertálása csoportos alakzatokká Java-ban az Aspose.Cells használatával: Átfogó útmutató](./convert-smartart-group-shapes-java/)
@@ -117,7 +120,7 @@ Tanuld meg, hogyan manipulálhatsz összetett Excel alakzatokat az Aspose.Cells 
 Tanuld meg, hogyan automatizálhatod és manipulálhatod a szövegdobozokat Excelben az Aspose.Cells for Java használatával. Fejleszd a dinamikus jelentéskészítés és az automatizált adatbevitel terén szerzett készségeidet.
 
 ### [Mester munkafüzet létrehozása és alakzat-beállítás Aspose.Cells Java-val](./mastering-workbook-creation-shape-adjustment-aspose-cells-java/)
-Tanuld meg, hogyan hozhatsz létre és módosíthatsz hatékonyan Excel munkafüzeteket az Aspose.Cells for Java segítségével. Tökéletes a jelentéskészítés automatizálásához és az adatkezelés fejlesztéséhez.
+Tanuld meg, hogyan hozhatsz létre és módosíthass hatékonyan Excel munkafüzeteket az Aspose.Cells for Java segítségével. Tökéletes a jelentéskészítés automatizálásához és az adatkezelés fejlesztéséhez.
 
 ### [Karakterközök elsajátítása Excel alakzatokban az Aspose.Cells for Java használatával](./modifying-excel-shape-character-spacing-aspose-cells-java/)
 Tanuld meg, hogyan állíthatod be a karakterközöket az Excel alakzatokon belül az Aspose.Cells for Java segítségével. Javítsd a szöveg megjelenítését és professzionalizmusát lépésről lépésre szóló útmutatónkkal.

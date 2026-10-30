@@ -71,6 +71,8 @@ Lär dig steg för steg hur du skapar fakturor i Excel med Aspose.Cells, inklusi
 
 ### [Hur du exporterar data till Excel med en C#‑mall – steg‑för‑steg‑guide](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
 Lär dig hur du med en C#‑mall exporterar data till Excel i en tydlig steg‑för‑steg‑guide.
+### [Hur du expanderar en array i Excel och fyller i en mall](./how-to-expand-array-in-excel-and-populate-a-template)
+Lär dig hur du expanderar en array i Excel och använder den för att fylla i en mall med Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

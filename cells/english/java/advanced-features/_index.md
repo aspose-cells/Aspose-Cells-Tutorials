@@ -100,11 +100,17 @@ Learn to manage and modify Excel data connections programmatically with Aspose.C
 ### [How to Use Aspose.Cells Java to Freeze Panes in Excel&#58; A Step‑By‑Step Guide](./mastering-aspose-cells-java-freeze-panes-excel/)
 Learn how to use Aspose.Cells with Java to freeze panes in Excel. This step‑by‑step guide covers all you need from loading workbooks to saving them.
 
+### [how to use wrapcols in Java – reshape array in Excel](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
+Learn how to use the WrapCols feature in Aspose.Cells for Java to reshape arrays and format data in Excel worksheets.
+
 ### [Modify VBA Modules in Excel using Aspose.Cells for Java&#58; A Comprehensive Guide](./modify-vba-modules-excel-aspose-cells-java/)
 Learn how to load and modify VBA modules in Excel workbooks with Aspose.Cells for Java. This guide covers the essential steps from setup to implementation, optimizing your automation tasks.
 
 ### [Update Slicers in Java Excel Files using Aspose.Cells for Java](./update-slicers-java-excel-aspose-cells/)
 Learn to automate slicer updates in Excel files with Aspose.Cells for Java. Follow this guide to enhance data filtering and analysis.
+
+### [Parse Date with Locale in Java – Complete Step‑by‑Step Guide](./parse-date-with-locale-in-java-complete-step-by-step-guide/)
+Learn how to parse dates with specific locales in Java using step‑by‑step code examples and best practices.
 
 ## Additional Resources
 

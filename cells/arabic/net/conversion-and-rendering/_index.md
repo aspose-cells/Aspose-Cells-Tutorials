@@ -77,6 +77,10 @@
 تعلم كيفية حفظ صورة PNG من جدول محوري في Excel باستخدام C# مع Aspose.Cells. دليل شامل خطوة بخطوة.
 ### [تضمين الخطوط في HTML – دليل كامل لتحويل DOCX إلى HTML مع دعم كامل للخطوط](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
 تعلم كيفية تضمين الخطوط عند تحويل مستندات DOCX إلى HTML باستخدام Aspose.Words لضمان عرض النصوص بشكل صحيح على جميع المتصفحات.
+### [كيفية تضمين الخطوط في HTML من ملف DOCX – دليل كامل](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+تعلم كيفية استخراج الخطوط من مستند DOCX وتضمينها في ملفات HTML باستخدام Aspose.Words لضمان عرض النصوص بشكل صحيح.
+### [كيفية تحويل JSON إلى Excel في C# باستخدام خلية مفصولة بفواصل واحدة](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+تعلم كيفية تحويل ملفات JSON إلى Excel في C# بخلية مفصولة بفواصل واحدة باستخدام Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

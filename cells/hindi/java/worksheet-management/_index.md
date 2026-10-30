@@ -32,6 +32,9 @@ Aspose.Cells for Java का उपयोग करके नाम से व�
 ### [जावा के लिए Aspose.Cells का उपयोग करके Excel में वर्कशीट कैसे जोड़ें: एक संपूर्ण गाइड](./add-spreadsheets-excel-aspose-cells-java/)
 जावा के लिए Aspose.Cells का उपयोग करके एक्सेल फ़ाइल में प्रोग्रामेटिक रूप से वर्कशीट जोड़ने का तरीका जानें। यह गाइड सेटअप, कार्यान्वयन और व्यावहारिक अनुप्रयोगों को कवर करती है।
 
+### [Aspose.Cells Java के साथ सूची से वर्कशीट बनाएं – पूर्ण गाइड](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Aspose.Cells for Java का उपयोग करके सूची से कई वर्कशीट बनाना सीखें, कोड उदाहरण और सर्वोत्तम अभ्यास के साथ।
+
 ### [जावा के लिए Aspose.Cells का उपयोग करके Excel में कॉलम कैसे डालें - एक व्यापक गाइड](./aspose-cells-java-insert-column-excel/)
 Aspose.Cells for Java के साथ अपने Excel वर्कशीट में कॉलम सम्मिलित करना सीखें। रिपोर्ट निर्माण को स्वचालित करने और डेटा प्रबंधन को बेहतर बनाने के लिए इस विस्तृत गाइड का पालन करें।
 
@@ -108,6 +111,9 @@ Java के लिए Aspose.Cells का उपयोग करके Excel फ
 जावा और Aspose.Cells का उपयोग करके टेम्पलेट के आधार पर कई वर्कशीट बनाना और प्रबंधित करना सीखें।
 ### [जावा के लिए Aspose.Cells का उपयोग करके Excel में ऑटोफ़िल्टर कैसे साफ़ करें](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
 Excel में ऑटोफ़िल्टर हटाने की प्रक्रिया को Aspose.Cells (Java) के साथ सीखें।
+### [Aspose.Cells for Java में डुप्लिकेट डिटेल शीट्स कैसे बनाएं](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+### [Java के साथ Excel में पहली दो पंक्तियों को फ्रीज़ करें – पूर्ण गाइड](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Java और Aspose.Cells का उपयोग करके Excel वर्कशीट में पहली दो पंक्तियों को फ्रीज़ करने का चरण-दर-चरण मार्गदर्शन।
 
 ## अतिरिक्त संसाधन
 

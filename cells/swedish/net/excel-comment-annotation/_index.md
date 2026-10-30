@@ -48,6 +48,8 @@ Lär dig hur du lägger till kommentarer i Excel med C# och Aspose.Cells för .N
 
 
 
+### [Infoga kommentar i Excel med C# – steg‑för‑steg‑guide](./insert-comment-into-excel-with-c-step-by-step-guide/)
+Lär dig hur du programatiskt infogar kommentarer i Excel med C# med Aspose.Cells för .NET.
 
 
 
@@ -66,6 +68,8 @@ Lär dig hur du lägger till en kommentar i en cell med C# och genererar ett Exc
 
 ### [Infoga Excel-kommentar med C# – Komplett SmartMarker-guide](./insert-excel-comment-with-c-complete-smartmarker-guide/)
 Lär dig hur du använder SmartMarker för att infoga kommentarer i Excel med C# och Aspose.Cells.
+### [Hur du infogar en kommentar i Excel med Aspose.Cells](./how-to-insert-comment-in-excel-using-aspose-cells/)
+Lär dig hur du infogar en kommentar i Excel med Aspose.Cells för .NET. En steg-för-steg-guide för att förbättra dina kalkylblad.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

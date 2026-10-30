@@ -50,6 +50,9 @@ Lär dig hur du använder Aspose.Cells för Java för att enkelt hantera Excel-w
 ### [Bemästra Excel-automation i Java med hjälp av Aspose.Cells: En komplett guide](./master-excel-operations-aspose-cells-java/)
 Lär dig automatisera Excel-uppgifter med Aspose.Cells för Java, inklusive att läsa in arbetsböcker, ställa in globaliseringsalternativ, lägga till delsummor, beräkna formler och automatiskt anpassa kolumner.
 
+### [Hur man bäddar in teckensnitt vid konvertering av Excel till PDF med Java](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
+Lär dig hur du bäddar in teckensnitt i PDF-filer när du konverterar Excel-dokument med Aspose.Cells för Java.
+
 ### [Bemästra implementeringen av Java Teacher Class med Aspose.Cells-integration](./master-teacher-class-java-aspose-cells/)
 Lär dig hur du implementerar en Teacher-klass i Java, hanterar elevdata och integrerar Aspose.Cells för förbättrad Excel-filhantering.
 
@@ -72,6 +75,17 @@ Lär dig hur du konverterar Excel-filer till PowerPoint-presentationer med Aspos
 Lär dig hur du med Aspose.Cells för Java exporterar Excel-diagram till PowerPoint-presentationer med komplett kodexempel.
 ### [Konvertera Excel till PowerPoint – Fullständig steg‑för‑steg‑guide](./convert-excel-to-powerpoint-full-step-by-step-guide/)
 Lär dig hur du konverterar Excel-filer till PowerPoint-presentationer med Aspose.Cells för Java i en komplett steg‑för‑steg‑guide.
+### [Spara Excel som DOCX med Aspose.Cells i C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+Lär dig hur du konverterar en Excel-fil till DOCX-format med Aspose.Cells i C#.
+### [Hur man kopierar ett område från Excel och exporterar det till PowerPoint med Java](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+### [Konvertera Excel till PowerPoint med Aspose.Cells i Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+Lär dig hur du konverterar Excel-filer till PowerPoint-presentationer med Aspose.Cells för Java.
+### [Hur man sparar PPTX från Excel – Komplett guide för att exportera Excel-blad till PowerPoint](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+
+### [Hur man använder WRAPCOLS i Java – Komplett guide för matrisomvandling](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
+Lär dig hur du använder WRAPCOLS-funktionen i Aspose.Cells för Java för att enkelt konvertera data till matriser.
+### [Excel till PPTX: Komplett Java-guide för att exportera redigerbara former](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+Lär dig hur du med Aspose.Cells för Java exporterar redigerbara former från Excel till PowerPoint-presentationer.
 
 ## Ytterligare resurser
 

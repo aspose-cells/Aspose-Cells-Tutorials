@@ -65,6 +65,12 @@ Tanulja meg, hogyan nyisson meg XLSX fájlt Java-ban, töltse be a munkafüzetet
 ### [Dinamikus tömb képletek Java-ban: Excel munkafüzet létrehozása és minden képlet kiszámítása](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
 Ismerje meg, hogyan hozhat létre Excel munkafüzetet Java-val, és számíthatja ki a dinamikus tömb képleteket egy lépésben.
 
+### [Hogyan frissítsük az Excel munkafüzeteket Java-ban az Aspose.Cells használatával](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
+Tanuld meg, hogyan frissítheted a munkafüzeteket az Aspose.Cells for Java segítségével a legújabb adatok betöltéséhez.
+
+### [Hogyan kényszerítsük a képlet számítását Java-ban az Aspose.Cells használatával](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+Tanuld meg, hogyan kényszerítheted a képlet számítását Java-ban az Aspose.Cells segítségével.
+
 ## További források
 - [Aspose.Cells for Java dokumentáció](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells for Java API referencia](https://reference.aspose.com/cells/java/)

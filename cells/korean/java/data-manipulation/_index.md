@@ -62,7 +62,8 @@ Aspose.Cells for Java를 사용하여 중첩된 데이터로 Excel 시트를 효
 ### [Aspose.Cells for Java를 사용하여 Excel에서 정규식 바꾸기를 수행하는 방법: 포괄적인 가이드](./regex-replacement-excel-aspose-cells-java-guide/)
 Aspose.Cells for Java에서 정규식을 사용하여 Excel 파일의 텍스트 바꾸기를 자동화하는 방법을 알아보세요. 이 단계별 가이드에서는 초기화, 구성 및 실제 적용 방법을 다룹니다.
 
-
+### [Aspose.Cells를 사용한 Java에서 열 분할 방법 – 단계별 가이드](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
+Aspose.Cells for Java를 활용하여 Excel에서 열을 분할하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

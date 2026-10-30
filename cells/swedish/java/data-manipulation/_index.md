@@ -45,7 +45,7 @@ Lär dig hur du effektivt laddar, sparar och manipulerar former i Excel-filer me
 Lär dig hur du effektivt tar bort flera rader från ett Excel-kalkylblad med Aspose.Cells för Java. Den här guiden behandlar installation, implementering och bästa praxis.
 
 ### [Automatisera Excel-textbyte i specifika områden med hjälp av Aspose.Cells Java](./excel-text-replacement-aspose-cells-java/)
-Lär dig hur du automatiserar textersättning inom specifika cellområden i Excel med hjälp av Aspose.Cells för Java. Den här guiden behandlar tips för installation, implementering och optimering.
+Lär dig hur du automatiserar textersättning inom specifika cellområden i Excel med Aspose.Cells Java. Den här guiden behandlar tips för installation, implementering och optimering.
 
 ### [Bemästra Aspose.Cells Java: Instansiera arbetsböcker och utnyttja smarta markörer för datamanipulation](./master-aspose-cells-java-workbook-smart-markers/)
 Lär dig konfigurera och använda Aspose.Cells Java för effektiv Excel-databehandling med smarta markörer. Förbättra dina Java-applikationer genom att bemästra dynamiska datainsättningstekniker.
@@ -62,7 +62,8 @@ Lär dig hur du effektivt fyller Excel-ark med kapslade data med hjälp av Aspos
 ### [Hur man utför Regex-ersättning i Excel med Aspose.Cells för Java: En omfattande guide](./regex-replacement-excel-aspose-cells-java-guide/)
 Lär dig hur du automatiserar textersättningar i Excel-filer med hjälp av regex i Aspose.Cells för Java. Den här steg-för-steg-guiden täcker initialisering, konfiguration och praktiska tillämpningar.
 
-
+### [Hur man delar kolumner i Java med Aspose.Cells – steg‑för‑steg‑guide](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
+Lär dig hur du delar kolumner i Excel med Aspose.Cells för Java i en detaljerad steg‑för‑steg‑guide.
 
 ## Ytterligare resurser
 

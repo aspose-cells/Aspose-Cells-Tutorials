@@ -53,6 +53,8 @@
 Узнайте, как экспортировать диапазон ячеек в виде таблицы с помощью Aspose.Cells для .NET в полном руководстве на C#.
 ### [Создание листа Excel из DataTable в C# – пошаговое руководство](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
 Узнайте, как с помощью Aspose.Cells для .NET создать лист Excel из DataTable в C# в этом пошаговом руководстве.
+### [Как экспортировать таблицу Excel – Полное пошаговое руководство](./how-to-export-excel-table-complete-step-by-step-guide/)
+Узнайте, как экспортировать таблицу Excel с помощью Aspose.Cells для .NET в этом полном пошаговом руководстве, подходящем для всех уровней.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

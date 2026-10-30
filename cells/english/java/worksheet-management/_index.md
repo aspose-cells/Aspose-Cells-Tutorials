@@ -81,12 +81,16 @@ Learn how to efficiently delete rows from an Excel file using Aspose.Cells for J
 Learn how to delete rows in an Excel worksheet using Aspose.Cells for Java with clear steps and code samples.
 ### [How to clear autofilter in Excel with Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
 Learn how to remove autofilters from Excel worksheets using Aspose.Cells for Java, simplifying data handling and report generation.
+### [How to create duplicate detail sheets in Aspose.Cells for Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
 
 ### [Manage Excel Tabs Visibility with Aspose.Cells in Java](./display-excel-tabs-aspose-cells-java/)
 Learn how to display or hide Excel tabs using Aspose.Cells for Java. This guide covers setup, code implementation, and best practices for effective worksheet management.
 
-### [Hide Rows and Columns in Excel Using Aspose.Cells for Java&#58; A Comprehensive Guide](./hide-rows-columns-aspose-cells-java/)
+### [Hide Rows and Columns in Excel Using Aspose.Cells Java&#58; A Comprehensive Guide](./hide-rows-columns-aspose-cells-java/)
 Learn how to efficiently hide rows and columns in Excel spreadsheets using Aspose.Cells with Java. Enhance your data management skills today!
+
+### [Freeze First Two Rows in Excel with Java – Complete Guide](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Learn how to freeze the first two rows in an Excel worksheet using Aspose.Cells for Java. Step-by-step code examples and best practices.
 
 ### [Hide and Save Excel Tabs Effortlessly Using Aspose.Cells Java](./hide-save-excel-tabs-aspose-cells-java/)
 Learn how to streamline your Excel workflows by hiding tabs and saving workbooks using Aspose.Cells for Java. Perfect for enhancing productivity in worksheet management.
@@ -108,6 +112,8 @@ Learn how to effortlessly unhide rows and columns in Excel files using Aspose.Ce
 
 ### [Create Multiple Sheets in Excel with Java – Complete Template‑Based Guide](./create-multiple-sheets-in-excel-with-java-complete-template/)
 Learn how to create multiple Excel sheets using Aspose.Cells for Java with a template-based approach for efficient workbook generation.
+### [Create worksheets from list with Aspose.Cells Java – Full Guide](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Learn how to create multiple worksheets from a list in Excel using Aspose.Cells for Java, with step-by-step code examples.
 
 ## Additional Resources
 

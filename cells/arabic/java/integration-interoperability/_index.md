@@ -70,6 +70,18 @@
 تعلم كيفية تصدير المخططات من ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells لـ Java مع مثال كامل خطوة بخطوة.
 ### [تحويل Excel إلى PowerPoint – دليل شامل خطوة بخطوة](./convert-excel-to-powerpoint-full-step-by-step-guide/)
 تعلم كيفية تحويل ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells لـ Java خطوة بخطوة مع أمثلة عملية.
+### [كيفية حفظ Excel كملف DOCX باستخدام Aspose.Cells في C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+تعلم كيفية حفظ ملفات Excel كـ DOCX باستخدام Aspose.Cells في بيئة C#.
+### [كيفية نسخ نطاق من Excel وتصديره إلى PowerPoint باستخدام Java](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+### [تحويل Excel إلى PowerPoint باستخدام Aspose.Cells في Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+### [كيفية حفظ ملف PPTX من Excel – دليل كامل لتصدير ورقة Excel إلى PowerPoint](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+
+### [كيفية استخدام WRAPCOLS في Java – دليل كامل لتحويل المصفوفات](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
+
+### [كيفية تضمين الخطوط عند تحويل Excel إلى PDF باستخدام Java](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
+دليل خطوة بخطوة لتضمين الخطوط في ملفات PDF عند تحويل مستندات Excel باستخدام Aspose.Cells لـ Java.
+### [Excel إلى PPTX: دليل Java الكامل لتصدير الأشكال القابلة للتحرير](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+تعلم كيفية تحويل ملفات Excel إلى عروض PowerPoint وتصدير الأشكال القابلة للتحرير باستخدام Aspose.Cells لـ Java.
 ### [كيفية تصدير المخطط إلى ملف docx من Excel باستخدام Aspose.Cells لـ Java](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
 تعلم كيفية تصدير المخططات من ملفات Excel إلى مستندات Word (docx) باستخدام Aspose.Cells لـ Java.
 

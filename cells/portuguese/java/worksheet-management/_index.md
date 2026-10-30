@@ -56,6 +56,9 @@ Aprenda a automatizar ajustes de altura de linhas em arquivos do Excel com o Asp
 ### [Gerenciamento eficiente de linhas no Excel usando Aspose.Cells para Java: inserir e excluir linhas](./aspose-cells-java-row-operations-excel/)
 Domine operações de linha no Excel com o Aspose.Cells para Java. Aprenda a inserir e excluir linhas com eficiência, otimizando suas tarefas de gerenciamento de dados.
 
+### [Congelar as duas primeiras linhas no Excel com Java – Guia completo](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Aprenda a congelar as duas primeiras linhas em arquivos Excel usando Aspose.Cells para Java. Guia passo a passo com exemplos de código.
+
 ### [Remoção de Master Sheet com Aspose.Cells em Java](./aspose-cells-java-sheet-removal-guide/)
 Um tutorial de código para Aspose.Words Java
 
@@ -109,6 +112,10 @@ Aprenda a exibir linhas e colunas em arquivos do Excel sem esforço usando o Asp
 
 ### [Criar várias planilhas no Excel com Java – Guia completo baseado em modelo](./create-multiple-sheets-in-excel-with-java-complete-template/)
 Aprenda a criar múltiplas planilhas em um arquivo Excel usando modelos com Aspose.Cells para Java, passo a passo.
+### [Como criar planilhas de detalhes duplicadas no Aspose.Cells para Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+Aprenda a criar planilhas de detalhes duplicadas no Excel usando Aspose.Cells para Java, facilitando a replicação de dados e a automação de relatórios.
+### [Criar planilhas a partir de lista com Aspose.Cells Java – Guia completo](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Aprenda a criar várias planilhas a partir de uma lista usando Aspose.Cells para Java, com exemplos de código completos e boas práticas.
 
 ## Recursos adicionais
 

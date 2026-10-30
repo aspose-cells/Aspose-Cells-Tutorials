@@ -47,7 +47,6 @@
 ### [Πώς να Αντιγράψετε Συγκεντρωτικό Πίνακα σε Java – Πλήρης Οδηγός Aspose.Cells](./how-to-copy-pivot-table-in-java-complete-aspose-cells-guide/)
 Μάθετε πώς να αντιγράψετε έναν Συγκεντρωτικό Πίνακα σε Java χρησιμοποιώντας το Aspose.Cells, βήμα-βήμα οδηγίες και παραδείγματα κώδικα.
 ### [Δημιουργία PNG από Συγκεντρωτικό Πίνακα σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./create-png-from-pivot-in-java-full-step-by-step-guide/)
-Μάθετε πώς να εξάγετε έναν Συγκεντρωτικό Πίνακα ως PNG σε Java χρησιμοποιώντας το Aspose.Cells, ακολουθώντας βήμα‑βήμα οδηγίες.
 ### [Αντιγραφή Συγκεντρωτικού Πίνακα Excel – Οδηγός Βήμα‑βήμα με Java](./copy-pivot-table-excel-step-by-step-guide-using-java/)
 Μάθετε πώς να αντιγράψετε έναν Συγκεντρωτικό Πίνακα Excel χρησιμοποιώντας το Aspose.Cells για Java, βήμα‑βήμα.
 ### [Εξαγωγή Συγκεντρωτικού Πίνακα σε PNG με Java – Πλήρης Οδηγός Προγραμματισμού](./export-pivot-table-to-png-in-java-complete-programming-guide/)
@@ -62,6 +61,23 @@
 Μάθετε πώς να αντιγράψετε Συγκεντρωτικούς Πίνακες από ένα βιβλίο εργασίας σε άλλο χρησιμοποιώντας Aspose.Cells για Java.
 ### [Δημιουργία νέου βιβλίου εργασίας σε Java – Πλήρης οδηγός για αντιγραφή συγκεντρωτικού πίνακα](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
 Μάθετε πώς να δημιουργήσετε νέο βιβλίο εργασίας και να αντιγράψετε έναν Συγκεντρωτικό Πίνακα χρησιμοποιώντας Aspose.Cells για Java.
+### [Πώς να αντιγράψετε φύλλο εργασίας και να διατηρήσετε τους συγκεντρωτικούς πίνακες σε Java](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
+Μάθετε πώς να αντιγράψετε ένα φύλλο εργασίας διατηρώντας τους Συγκεντρωτικούς Πίνακες με Aspose.Cells για Java.
+### [Πώς να αντιγράψετε έναν συγκεντρωτικό πίνακα σε Java χρησιμοποιώντας Aspose.Cells](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
+Μάθετε πώς να αντιγράψετε έναν Συγκεντρωτικό Πίνακα σε Java με το Aspose.Cells.
+### [Πώς να αντιγράψετε περιοχή και να διατηρήσετε έναν Συγκεντρωτικό Πίνακα σε Java](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
+Μάθετε πώς να αντιγράψετε μια περιοχή και να διατηρήσετε τον Συγκεντρωτικό Πίνακα στο Aspose.Cells για Java.
+### [Πώς να αντιγράψετε συγκεντρωτικούς πίνακες στο Excel με Java – οδηγός βήμα‑βήμα](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
+Μάθετε πώς να δημιουργήσετε αντίγραφα Συγκεντρωτικών Πινάκων στο Excel με Aspose.Cells για Java, ακολουθώντας βήμα‑βήμα οδηγίες.
+### [Εξαγωγή εικόνας Συγκεντρωτικού Πίνακα Excel σε PNG με Java](./excel-pivot-table-image-export-to-png-with-java/)
+Μάθετε πώς να εξάγετε εικόνα ενός Συγκεντρωτικού Πίνακα Excel σε μορφή PNG χρησιμοποιώντας το Aspose.Cells για Java.
+### [Δημιουργία Νέου Φύλλου Εργασίας και Αντιγραφή Συγκεντρωτικού Πίνακα σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
+Μάθετε πώς να δημιουργήσετε νέο βιβλίο εργασίας και να αντιγράψετε έναν Συγκεντρωτικό Πίνακα χρησιμοποιώντας Aspose.Cells για Java, βήμα‑βήμα.
+### [Αντιγραφή Συγκεντρωτικού Πίνακα σε Java με Aspose.Cells – Πλήρης Οδηγός](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
+Μάθετε πώς να αντιγράψετε Συγκεντρωτικούς Πίνακες σε Excel χρησιμοποιώντας το Aspose.Cells για Java, βήμα-βήμα οδηγίες και παραδείγματα.
+### [Αντιγραφή πίνακα Pivot σε Java – οδηγός βήμα‑βήμα με το Aspose.Cells](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
+Μάθετε πώς να αντιγράψετε έναν Συγκεντρωτικό Πίνακα σε Java χρησιμοποιώντας το Aspose.Cells, βήμα‑βήμα.
+### [Πώς να αντιγράψετε συγκεντρωτικό πίνακα στο Aspose.Cells – αντιγραφή περιοχής σε βιβλίο εργασίας](./how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,6 +50,9 @@ Hướng dẫn chi tiết cách xuất một phạm vi ô thành bảng trong Ex
 ### [Tạo bảng tính Excel từ DataTable trong C# – hướng dẫn từng bước](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
 Hướng dẫn chi tiết cách tạo tệp Excel từ DataTable trong C# bằng Aspose.Cells, phù hợp cho mọi cấp độ.
 
+### [Cách xuất bảng Excel – Hướng dẫn chi tiết từng bước](./how-to-export-excel-table-complete-step-by-step-guide/)
+Tìm hiểu cách xuất bảng Excel bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết, phù hợp cho người mới bắt đầu và nhà phát triển có kinh nghiệm.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

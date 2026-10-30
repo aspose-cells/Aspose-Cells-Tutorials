@@ -77,6 +77,9 @@ Aspose.Cells for .NET предоставляет мощные инструмен
 ### [Создание отчета Excel с C# – пошаговое руководство](./generate-excel-report-with-c-step-by-step-guide/)
 Подробное руководство по генерации отчета Excel с помощью C# и Aspose.Cells, включающее пошаговые примеры кода.
 
+### [Как расширить массив в Excel и заполнить шаблон](./how-to-expand-array-in-excel-and-populate-a-template/)
+Узнайте, как расширять массивы в Excel и автоматически заполнять шаблоны с помощью Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

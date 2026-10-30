@@ -27,27 +27,24 @@
 ## บทช่วยสอนที่พร้อมใช้งาน
 
 ### [การเรียนรู้รายงาน Excel อย่างเชี่ยวชาญ: การเพิ่มหัวลูกศรใน Aspose.Cells สำหรับ Java](./aspose-cells-java-add-arrowheads-excel-reports/)
-เรียนรู้วิธีปรับปรุงรายงาน Excel ของคุณด้วยหัวลูกศรโดยใช้ Aspose.Cells สำหรับ Java เหมาะอย่างยิ่งสำหรับการแสดงภาพข้อมูลและการแสดงแผนภาพ
 
 ### [การสร้างรายงาน Excel แบบไดนามิกและการกำหนดค่าบุ๊กมาร์ก PDF ด้วย Aspose.Cells Java](./aspose-cells-java-dynamic-excel-reports-pdf-bookmarks/)
 เรียนรู้วิธีการสร้างรายงาน Excel แบบไดนามิก จัดการเวิร์กชีตและกำหนดค่าบุ๊กมาร์ก PDF โดยใช้ Aspose.Cells สำหรับ Java เชี่ยวชาญเทคนิคการจัดการข้อมูลที่มีประสิทธิภาพ
 
 ### [บทช่วยสอน Java ของ Aspose.Cells: การนำ SmartMarkers ไปใช้กับคลาส Person สำหรับรายงาน Excel แบบไดนามิก](./aspose-cells-java-smartmarkers-person-class/)
-เรียนรู้วิธีใช้ Aspose.Cells ใน Java เพื่อนำ SmartMarkers มาใช้และทำให้การรายงานข้อมูลแบบไดนามิกเป็นแบบอัตโนมัติโดยใช้คลาส Person คำแนะนำทีละขั้นตอนเพื่อปรับปรุงการทำงานอัตโนมัติของ Excel ของคุณ
 
 ### [คู่มือ Aspose.Cells Java: การออกแบบเวิร์กบุ๊กหลักและการทำงานอัตโนมัติของ SmartMarker](./aspose-cells-java-workbook-design-smartmarker-guide/)
-เรียนรู้วิธีการจัดการงาน Excel โดยอัตโนมัติด้วย Aspose.Cells สำหรับ Java ปรับปรุงรายงานที่ขับเคลื่อนด้วยข้อมูลของคุณโดยใช้ SmartMarkers และเพิ่มประสิทธิภาพการทำงาน
 
 ### [สร้างรายงาน Excel แบบไดนามิกโดยใช้ Aspose.Cells ใน Java: ช่วงที่มีชื่อและสูตรที่ซับซ้อน](./dynamic-excel-reports-aspose-cells-java/)
-เรียนรู้วิธีใช้ประโยชน์จาก Aspose.Cells สำหรับ Java เพื่อสร้างรายงาน Excel แบบไดนามิกที่มีช่วงที่มีชื่อและสูตรที่ซับซ้อน ปรับปรุงงานการจัดการข้อมูลของคุณอย่างมีประสิทธิภาพ
 
 ### [การสร้างรายงาน Excel แบบไดนามิกโดยใช้ Aspose.Cells Java และ Smart Markers](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
-เรียนรู้วิธีการสร้างรายงาน Excel แบบไดนามิกโดยอัตโนมัติด้วย Aspose.Cells สำหรับ Java โดยใช้มาร์กเกอร์อัจฉริยะ ปรับปรุงกระบวนการสร้างรายงานของคุณอย่างมีประสิทธิภาพ
 
 ### [สร้างเวิร์กบุ๊กมาสเตอร์-ดีเทลด้วย Aspose.Cells สำหรับ Java](./create-master-detail-workbook-with-aspose-cells-java/)
 เรียนรู้วิธีสร้างเวิร์กบุ๊กมาสเตอร์‑ดีเทลใน Excel ด้วย Aspose.Cells สำหรับ Java เพื่อจัดการข้อมูลหลายระดับและสร้างรายงานอัตโนมัติ
 ### [สร้างแผ่นรายละเอียดใน Java ด้วย Smart Markers ของ Aspose.Cells](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
 เรียนรู้วิธีใช้ Smart Markers เพื่อสร้างแผ่นรายละเอียดหลายแผ่นในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java
+### [วิธีเติมข้อมูลลงในเทมเพลต Excel ด้วย Aspose.Cells](./how-to-populate-excel-template-with-data-using-aspose-cells/)
+เรียนรู้วิธีนำข้อมูลมาผสานกับเทมเพลต Excel โดยใช้ Aspose.Cells สำหรับ Java อย่างง่ายดาย
 ### [วิธีสร้าง Smart Markers สำหรับเวิร์กชีตด้วย Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
 เรียนรู้วิธีใช้ Smart Markers เพื่อสร้างและจัดการเวิร์กชีตใน Aspose.Cells สำหรับ Java อย่างมีประสิทธิภาพ
 
@@ -64,6 +61,9 @@
 
 ### [Aspose Cells Smart Markers – เติมข้อมูลลงในเทมเพลต Excel](./aspose-cells-smart-markers-populate-excel-template/)
 เรียนรู้วิธีใช้ Smart Markers ของ Aspose.Cells เพื่อเติมข้อมูลลงในเทมเพลต Excel และสร้างรายงานอัตโนมัติ
+### [วิธีสร้างรายงานด้วย Excel Smart Markers – คู่มือ Java ฉบับเต็ม](./how-to-generate-report-with-excel-smart-markers-full-java-gu/)
+
+### [สร้างเวิร์กบุ๊ก Excel ด้วย Smart Markers – คู่มือ Java](./create-excel-workbook-with-smart-markers-java-guide/)
 
 ## แหล่งข้อมูลเพิ่มเติม
 

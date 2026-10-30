@@ -108,6 +108,8 @@ Egyszerűen beállíthat egyetlen lapfül nevét HTML exportálás során az Asp
 ### [Betűtípusok beágyazása Excel HTML-be exportálásakor – Teljes C# útmutató](./how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
 ### [Excel exportálása HTML-be C#-ban – Teljes programozási útmutató](./export-excel-to-html-with-c-complete-programming-guide/)
 ### [Excel mentése HTML-ként – Teljes útmutató az Excel formázott exportálásához](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
+### [Excel exportálása HTML-be – Teljes útmutató a befagyasztott panelek megőrzéséhez](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
+Ismerje meg, hogyan exportálhatja az Excel-fájlokat HTML-be úgy, hogy a befagyasztott panelek megmaradjanak, lépésről lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

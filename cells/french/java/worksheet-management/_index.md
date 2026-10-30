@@ -50,6 +50,9 @@ Apprenez à déplacer, accéder et gérer facilement des feuilles Excel grâce �
 ### [Automatiser l'ajustement de la hauteur des lignes Excel avec Aspose.Cells pour Java](./aspose-cells-java-row-height-excel/)
 Apprenez à automatiser l'ajustement de la hauteur des lignes dans les fichiers Excel avec Aspose.Cells pour Java. Ce guide présente l'installation, des exemples de codage et des conseils de performance.
 
+### [Figer les deux premières lignes dans Excel avec Java – Guide complet](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Apprenez à figer les deux premières lignes d'une feuille Excel en Java avec Aspose.Cells. Ce guide complet vous montre la configuration et le code.
+
 ### [Gestion efficace des lignes dans Excel avec Aspose.Cells pour Java : insertion et suppression de lignes](./aspose-cells-java-row-operations-excel/)
 Maîtrisez les opérations sur les lignes dans Excel avec Aspose.Cells pour Java. Apprenez à insérer et supprimer des lignes efficacement et à optimiser vos tâches de gestion de données.
 
@@ -107,6 +110,10 @@ Apprenez à utiliser SmartMarkerProcessor afin de nommer automatiquement les feu
 Apprenez à générer plusieurs feuilles Excel à partir d'un modèle en Java avec Aspose.Cells, incluant configuration, remplissage de données et sauvegarde.
 ### [Comment effacer le filtre automatique dans Excel avec Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
 Apprenez à supprimer le filtre automatique d'une feuille Excel à l'aide d'Aspose.Cells pour Java.
+### [Comment créer des feuilles de détail dupliquées avec Aspose.Cells pour Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+Apprenez à dupliquer des feuilles de détail dans un classeur Excel en utilisant Aspose.Cells pour Java.
+### [Créer des feuilles de calcul à partir d'une liste avec Aspose.Cells Java – Guide complet](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Apprenez à créer plusieurs feuilles de calcul à partir d'une liste d'objets en Java avec Aspose.Cells, étape par étape.
 
 ## Ressources supplémentaires
 

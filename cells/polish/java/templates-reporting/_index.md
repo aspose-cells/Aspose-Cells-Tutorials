@@ -61,6 +61,12 @@ Dowiedz się, jak wypełnić szablon Excela danymi i wygenerować raport Excel p
 Dowiedz się, jak używać Smart Markers w Aspose.Cells, aby wypełnić szablon Excela danymi i wygenerować raport.
 ### [Tworzenie arkuszy szczegółowych w Javie przy użyciu inteligentnych znaczników Aspose.Cells](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
 Dowiedz się, jak generować szczegółowe arkusze w Excelu przy użyciu inteligentnych znaczników Aspose.Cells w Javie.
+### [Jak wypełnić szablon Excela danymi przy użyciu Aspose.Cells](./how-to-populate-excel-template-with-data-using-aspose-cells/)
+### [Jak generować raport przy użyciu inteligentnych znaczników Excel – Pełny przewodnik Java](./how-to-generate-report-with-excel-smart-markers-full-java-gu/)
+Dowiedz się, jak generować raporty Excel przy użyciu inteligentnych znaczników w pełnym przewodniku Java, krok po kroku.
+
+### [Utwórz skoroszyt Excel z inteligentnymi znacznikami – przewodnik Java](./create-excel-workbook-with-smart-markers-java-guide/)
+Dowiedz się, jak tworzyć skoroszyty Excel przy użyciu inteligentnych znaczników w Aspose.Cells for Java.
 ### [Jak tworzyć inteligentne znaczniki arkuszy w Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
 Dowiedz się, jak używać inteligentnych znaczników do automatyzacji tworzenia arkuszy w Aspose.Cells dla Java.
 

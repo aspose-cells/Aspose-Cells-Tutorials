@@ -68,6 +68,8 @@ Lär dig hur du konverterar Excel till HTML med fullständig inbäddning av teck
 Lär dig hur du konverterar Markdown-filer till Excel med Aspose.Cells i en steg-för-steg-guide med kodexempel.
 ### [Ladda JSON-fil Java – Fullständig guide för att konvertera JSON till Excel](./load-json-file-java-full-guide-to-convert-json-to-excel/)
 Lär dig hur du laddar JSON-filer i Java och konverterar dem till Excel med Aspose.Cells för Java. Steg-för-steg-guide med kodexempel.
+### [Hur man laddar JSON i Excel med Aspose.Cells för Java](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+Lär dig hur du laddar JSON-data i en Excel-arbetsbok med Aspose.Cells för Java.
 ### [Skapa Excel-fil i Java – Fullständig guide med radformatering och XLSX-export](./create-excel-file-java-full-guide-with-row-styling-and-xlsx/)
 Lär dig skapa Excel-filer i Java, applicera radstilar och exportera till XLSX med Aspose.Cells.
 ### [Hur du exporterar Excel: Steg‑för‑steg guide till CSV-konvertering](./how-to-export-excel-step-by-step-guide-to-csv-conversion/)
@@ -121,6 +123,41 @@ Lär dig hur du importerar anpassade objekt till Excel med Aspose.Cells för Jav
 ### [Exportera Excel till HTML i Java – komplett steg‑för‑steg‑guide](./export-excel-to-html-in-java-complete-step-by-step-guide/)
 ### [Bädda in teckensnitt i SVG vid export av Excel till SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
 Lär dig hur du bäddar in teckensnitt när du exporterar Excel-filer till SVG med Aspose.Cells för Java.
+### [Exportera Excel till TXT med begränsade signifikanta siffror i Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+Lär dig hur du exporterar Excel till TXT-fil med begränsat antal signifikanta siffror i Java med Aspose.Cells.
+### [Hur man importerar lista till Excel och formaterar kolumner i Java](./how-to-import-list-to-excel-and-style-columns-in-java/)
+### [Exportera Excel till PowerPoint med Aspose.Cells – steg‑för‑steg‑guide](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+Lär dig hur du exporterar Excel-filer till PowerPoint med Aspose.Cells för Java i denna steg‑för‑steg‑guide.
+### [Exportera JSON till Excel med Aspose.Cells i Java](./export-json-to-excel-with-aspose-cells-in-java/)
+Lär dig hur du exporterar JSON-data till Excel med Aspose.Cells för Java i en steg‑för‑steg‑guide.
+### [Skapa Excel från JSON – Fullständig Java-guide med Aspose.Cells](./create-excel-from-json-full-java-guide-with-aspose-cells/)
+Lär dig hur du skapar Excel-filer från JSON med Aspose.Cells för Java i en komplett steg-för-steg-guide.
+### [Spara arbetsbok som XLSX med Smart Marker – Exportera beställningar till Excel](./save-workbook-as-xlsx-with-smart-marker-export-orders-to-exc/)
+Lär dig hur du använder Smart Marker för att spara en arbetsbok som XLSX och exportera orderdata till Excel med Aspose.Cells för Java.
+### [Hur du formaterar Excel – Importera DataTable med anpassad formatering i Java](./how-to-style-excel-import-datatable-with-custom-formatting-i/)
+Lär dig att importera en DataTable till Excel med anpassad formatering i Java med Aspose.Cells.
+### [Spara arbetsbok som CSV – Komplett Java-guide för att exportera Excel till CSV](./save-workbook-as-csv-complete-java-guide-to-export-excel-to/)
+Lär dig hur du sparar en arbetsbok som CSV med Aspose.Cells för Java i en komplett steg-för-steg-guide.
+### [Inkludera formler vid export i Java – Konvertera Excel-celler till text](./include-formulas-export-in-java-convert-excel-cells-to-text/)
+Lär dig hur du exporterar Excel-celler som text inklusive formler med Aspose.Cells för Java.
+### [Skapa Word från Excel – Fullständig guide för att exportera XLSX](./create-word-from-excel-complete-guide-to-exporting-xlsx/)
+Lär dig hur du skapar Word-dokument från Excel och exporterar XLSX med Aspose.Cells för Java i en komplett guide.
+### [Bädda in teckensnitt i HTML från Excel – Fullständig guide](./how-to-embed-fonts-in-html-from-excel-full-guide/)
+Lär dig hur du bäddar in teckensnitt i HTML-genererade filer från Excel med Aspose.Cells för Java i en komplett steg-för-steg-guide.
+### [Infoga JSON i Excel med Aspose Cells – Fullständig Java-guide](./insert-json-into-excel-with-aspose-cells-full-java-guide/)
+Lär dig hur du infogar JSON-data i Excel med Aspose.Cells för Java i en detaljerad steg-för-steg-guide.
+### [Exportera PPTX från Excel – Komplett Java-guide](./how-to-export-pptx-from-excel-complete-java-guide/)
+Lär dig hur du exporterar PPTX-filer från Excel med Aspose.Cells för Java i en komplett steg-för-steg-guide.
+### [Exportera Excel till TXT med Java – Komplett steg‑för‑steg‑guide](./export-excel-to-txt-with-java-complete-step-by-step-guide/)
+Lär dig hur du exporterar Excel-data till TXT-format med Java i en detaljerad steg‑för‑steg‑guide.
+### [Ange anpassad cellseparator – Exportera Excel-tabell till TXT](./set-custom-cell-separator-export-excel-table-to-txt/)
+Lär dig hur du anger en egen cellseparator när du exporterar en Excel-tabell till TXT med Aspose.Cells för Java.
+### [Skapa Excel från JSON med Aspose Cells – Fullständig Java-guide](./create-excel-from-json-with-aspose-cells-full-java-guide/)
+Lär dig hur du skapar en Excel-fil från JSON med Aspose Cells i Java. Steg-för-steg-guide med kodexempel för smidig konvertering.
+### [Exportera Excel till PowerPoint – steg‑för‑steg‑guide](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Lär dig hur du exporterar Excel-filer till PowerPoint med Aspose.Cells för Java i en enkel steg‑för‑steg‑guide.
+### [Exportera valda celler till CSV i Java – komplett guide](./export-selected-cells-to-csv-in-java-complete-guide/)
+Lär dig hur du exporterar specifika celler till CSV med Aspose.Cells för Java i en komplett steg‑för‑steg‑guide.
 ### [Hur man använder Aspose Smart Markers för att konvertera JSON till Excel i Java](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
 Lär dig hur du med Aspose Smart Markers konverterar JSON-data till Excel-filer i Java med praktiska kodexempel.
 ### [Hur man ställer in utskriftsområde i Excel och exporterar till PowerPoint](./how-to-set-print-area-excel-and-export-to-powerpoint/)

@@ -69,6 +69,8 @@ Aprenda a processar um modelo Excel e renomear planilhas automaticamente usando 
 
 ### [Como exportar dados para Excel usando um modelo C# – guia passo a passo](./how-to-export-data-to-excel-using-a-c-template-step-by-step/)
 Aprenda a exportar dados para Excel a partir de um modelo C# usando Aspose.Cells passo a passo.
+### [Como expandir array no Excel e preencher um modelo](./how-to-expand-array-in-excel-and-populate-a-template)
+Aprenda a expandir arrays no Excel e preencher um modelo usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

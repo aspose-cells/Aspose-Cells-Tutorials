@@ -50,6 +50,17 @@
 ### [نسخ جدول محوري بين دفاتر العمل – دليل جافا خطوة بخطوة](./copy-pivot-table-between-workbooks-step-by-step-java-guide/)
 تعلم كيفية نسخ جداول محورية بين ملفات Excel باستخدام Aspose.Cells لجافا بسهولة وفعالية.
 ### [إنشاء مصنف جديد في جافا – دليل كامل لنسخ جدول محوري](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
+### [كيفية تكرار ورقة العمل والحفاظ على جداول المحور في Java](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
+### [كيفية تكرار جدول محوري في Java باستخدام Aspose.Cells](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
+تعلم كيفية تكرار جدول محوري في Java باستخدام Aspose.Cells بسهولة.
+### [كيفية نسخ النطاق والحفاظ على جدول محوري في Java](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
+### [كيفية تكرار جداول البيانات المحورية في Excel باستخدام Java – دليل خطوة بخطوة](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
+### [صورة جدول محوري في Excel: التصدير إلى PNG باستخدام Java](./excel-pivot-table-image-export-to-png-with-java/)
+### [إنشاء مصنف جديد ونسخ جدول محوري في Java – دليل خطوة بخطوة كامل](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
+تعلم كيفية إنشاء مصنف جديد ونسخ جدول محوري باستخدام Aspose.Cells لجافا خطوة بخطوة.
+### [نسخ جدول محوري في Java باستخدام Aspose.Cells – دليل كامل](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
+### [نسخ جدول محوري في Java – دليل خطوة بخطوة باستخدام Aspose.Cells](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
+### [كيفية نسخ جدول محوري في Aspose.Cells – نسخ النطاق إلى مصنف](./how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

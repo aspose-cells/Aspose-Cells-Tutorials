@@ -119,6 +119,7 @@ Warum also nicht diese Chance nutzen, Ihre Excel-Kenntnisse zu verbessern? Jedes
 | [Neues Arbeitsbuch erstellen – Markdown nach Excel in C# konvertieren](./create-new-workbook-convert-markdown-to-excel-in-c/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein neues Arbeitsbuch erzeugen und Markdown in Excel umwandeln. |
 | [Wie man ein Arbeitsbuch in C# erstellt – Wert schreiben und Zahl formatieren](./how-to-create-workbook-in-c-write-value-format-number/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Arbeitsbuch in C# erstellen, Werte schreiben und Zahlen formatieren. |
 | [Excel-Arbeitsmappe mit Aspose.Cells erstellen – Vollständige Anleitung](./create-excel-workbook-with-aspose-cells-full-guide/) | Erfahren Sie Schritt für Schritt, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe von Grund auf erstellen. |
+| [Excel-Arbeitsmappe erstellen und Daten in C# schreiben – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-excel-workbook-and-write-data-in-c-full-step-by-step/) | Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe erstellen und Daten in C# schreiben – Schritt für Schritt. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

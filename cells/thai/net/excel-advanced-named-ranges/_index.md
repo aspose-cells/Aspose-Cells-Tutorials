@@ -42,6 +42,8 @@
 บันทึกไฟล์ Excel และเพิ่มช่วงที่ตั้งชื่อด้วยคำแนะนำเต็มใน C#
 ### [สร้าง Excel Workbook ใน C# – เพิ่มช่วงที่มีชื่อและตั้งชื่อตาราง](./create-excel-workbook-in-c-add-named-range-set-table-name/)
 เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# เพิ่มช่วงที่มีชื่อและตั้งชื่อตารางโดยใช้ Aspose.Cells สำหรับ .NET
+### [กำหนดชื่อให้ตาราง Excel และหลีกเลี่ยงความขัดแย้งของชื่อ](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
+เรียนรู้วิธีตั้งชื่อให้ตาราง Excel อย่างปลอดภัยและป้องกันการชนกันของชื่อใน Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

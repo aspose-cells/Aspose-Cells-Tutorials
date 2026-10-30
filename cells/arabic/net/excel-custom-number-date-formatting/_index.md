@@ -56,6 +56,7 @@
 
 
 
+### [تحليل DateTime باستخدام عهد الإمبراطور الياباني مع Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
 
 
 

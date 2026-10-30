@@ -50,6 +50,8 @@
 ค้นพบวิธีใช้รูปแบบและการจัดรูปแบบที่กำหนดไว้ล่วงหน้าใน Excel ด้วย Aspose.Cells สำหรับ .NET สร้างสเปรดชีตที่สวยงามได้อย่างง่ายดาย
 ### [การจัดรูปแบบด้วย Get Style หรือ Set Style ใน Excel](./formatting-with-get-style-or-set-style/)
 เรียนรู้วิธีจัดรูปแบบเซลล์ Excel โดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือที่ใช้งานง่ายนี้ เลือกใช้สไตล์และเส้นขอบเพื่อการนำเสนอข้อมูลที่แม่นยำ
+### [สร้างไฟล์ Excel ด้วย C# – กำหนดสไตล์เซลล์และตั้งค่ารูปแบบสกุลเงิน](./create-excel-file-c-style-cells-and-set-currency-format/)
+เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# และกำหนดสไตล์เซลล์พร้อมตั้งค่ารูปแบบสกุลเงินโดยใช้ Aspose.Cells สำหรับ .NET
 ### [การทำงานกับสไตล์และการจัดรูปแบบวัตถุ](./working-with-styles-and-formatting-objects/)
 เรียนรู้วิธีจัดรูปแบบแผ่นงาน Excel ด้วย Aspose.Cells สำหรับ .NET ผ่านคำแนะนำทีละขั้นตอนและเชี่ยวชาญสไตล์เหมือนมืออาชีพ
 ### [การเพิ่มเส้นขอบให้กับเซลล์ใน Excel](./adding-borders-to-cells/)
@@ -79,6 +81,8 @@
 เรียนรู้วิธีใช้ Aspose.Cells สำหรับ .NET จัดรูปแบบคอลัมน์ใน Excel จาก DataTable ด้วย C# อย่างง่าย
 ### [สร้างสไตล์เซลล์ใน C# – วิธีใช้สไตล์กับเซลล์และจัดข้อความให้อยู่กึ่งกลาง](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
 เรียนรู้วิธีสร้างสไตล์เซลล์ใน Aspose.Cells สำหรับ .NET ด้วย C# และจัดข้อความให้อยู่กึ่งกลางในบทช่วยสอนทีละขั้นตอนนี้
+### [วิธีสร้าง Excel workbook ด้วย C# พร้อมการจัดรูปแบบแบบกำหนดเองและบันทึกเป็น XLSX](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
+เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# พร้อมการจัดรูปแบบแบบกำหนดเองและบันทึกเป็น XLSX ด้วย Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

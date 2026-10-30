@@ -69,6 +69,8 @@ Apprenez à enregistrer votre classeur Excel en PDF avec Aspose.Cells, étape pa
 Apprenez à enregistrer des fichiers XLSX en PDF conforme PDF/A‑1b en C# avec Aspose.Cells, étape par étape.
 ### [Convertir Excel en PDF en C# – guide complet de programmation](./convert-excel-to-pdf-in-c-complete-programming-guide/)
 Suivez ce guide complet pour convertir des fichiers Excel en PDF avec C# et Aspose.Cells, étape par étape.
+### [Comment enregistrer un PDF avec des sélecteurs de variation de police – guide complet](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
+Apprenez à enregistrer des PDF en conservant les sélecteurs de variation de police grâce à ce guide complet avec Aspose.PDF.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -43,6 +43,8 @@ Leer hoe u een bereik in Excel exporteert als afbeelding met Aspose.Cells in C#.
 Leer stap voor stap hoe u een Excel-werkblad met Aspose.Cells in C# opslaat als afbeelding van hoge kwaliteit.
 ### [Hoe Excel naar PNG exporteren – volledige stapsgewijze handleiding](./how-to-export-excel-to-png-full-step-by-step-guide/)
 Leer hoe u Excel-werkbladen naar PNG-afbeeldingen exporteert met Aspose.Cells in een volledige stapsgewijze handleiding.
+### [Hoe Excel-bereik exporteren als afbeelding met C# en Aspose.Cells](./how-to-export-excel-range-as-image-with-c-and-aspose-cells/)
+Leer hoe u een bereik in een Excel-werkblad kunt exporteren als afbeelding met C# en Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

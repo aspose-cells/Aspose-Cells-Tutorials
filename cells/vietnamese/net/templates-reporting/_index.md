@@ -71,6 +71,9 @@ Hướng dẫn cách sử dụng Aspose.Cells để xử lý mẫu Excel và t�
 ### [Cách xuất dữ liệu ra Excel bằng mẫu C# – hướng dẫn từng bước](./how-to-export-data-to-excel-using-a-c-template-step-by-step/)
 Hướng dẫn chi tiết cách xuất dữ liệu từ C# vào tệp Excel bằng mẫu, bao gồm thiết lập, liên kết dữ liệu và lưu file.
 
+### [Cách mở rộng mảng trong Excel và điền dữ liệu vào mẫu](./how-to-expand-array-in-excel-and-populate-a-template/)
+Hướng dẫn mở rộng mảng dữ liệu trong Excel và tự động điền vào mẫu bằng Aspose.Cells cho .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

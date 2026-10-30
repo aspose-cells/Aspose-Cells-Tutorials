@@ -61,6 +61,8 @@
 เรียนรู้วิธีแปลง Worksheet เป็น DataTable ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET อย่างละเอียด
 ### [นำเข้า JSON ไปยัง Excel ด้วย Aspose.Cells – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./import-json-to-excel-with-aspose-cells-complete-programming/)
 เรียนรู้วิธีนำเข้า JSON ไปยัง Excel ด้วย Aspose.Cells สำหรับ .NET ในคู่มือการเขียนโปรแกรมฉบับเต็มนี้
+### [แปลง JSON เป็น XLSX ใน C# – คู่มือขั้นตอนเต็ม](./convert-json-to-xlsx-in-c-complete-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ JSON เป็นไฟล์ Excel (XLSX) ด้วย C# อย่างละเอียดโดยใช้ Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

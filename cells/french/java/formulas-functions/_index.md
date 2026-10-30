@@ -96,6 +96,7 @@ Apprenez à appliquer la fonction SEQUENCE d'Excel avec Aspose.Cells pour Java a
 Apprenez à calculer la fonction cotangente dans Excel en utilisant les formules appropriées et à gérer les cas particuliers.
 ### [Trier les valeurs uniques dans Excel – Guide complet Java pour définir des formules matricielles](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 Apprenez à trier les valeurs uniques dans Excel en définissant des formules matricielles avec Aspose.Cells pour Java.
+### [Utiliser la fonction expand dans Aspose.Cells Java : guide étape par étape](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
 
 ## Ressources supplémentaires
 

@@ -57,6 +57,8 @@ Aspose.Words Java 程式碼教程
 了解如何使用 Aspose.Cells for Java 在 Excel 工作表中程式化地新增註解，提升協作與文件說明。
 ### [使用 Java 為 Excel 新增註解 – 完整步驟指南](./add-comment-to-excel-using-java-complete-step-by-step-guide/)
 了解如何使用 Aspose.Cells for Java 在 Excel 工作表中程式化新增註解，提供完整的步驟說明與範例程式碼。
+### [使用 Java 為 Excel 新增註解 – 完整步驟指南](./add-comment-to-excel-with-java-complete-step-by-step-guide/)
+了解如何使用 Aspose.Cells for Java 在 Excel 工作表中新增註解，提供完整的步驟說明與程式碼範例。
 
 ## 其他資源
 

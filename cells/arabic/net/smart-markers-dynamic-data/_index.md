@@ -56,6 +56,7 @@
 ## تنفيذ مصفوفة متغيرة باستخدام العلامات الذكية
 هل تتعامل كثيرًا مع كميات متفاوتة من البيانات؟ تتيح لك ميزة المصفوفات المتغيرة في Smart Markers إدارة قوائم البيانات بمرونة. هذا يعني أنه يمكنك إنشاء تقارير تتكيف مع أحجام مختلفة من مجموعات البيانات دون الحاجة إلى إعادة تصميم قوالبك في كل مرة. بتعلم كيفية استخدام المصفوفات المتغيرة، يمكنك تبسيط عمليات إعداد التقارير وتحسين عرض البيانات. يوضح هذا البرنامج التعليمي الخطوات لمساعدتك على البدء باستخدام المصفوفات المتغيرة في تقاريرك. [اقرأ المزيد](./variable-array-smart-markers/)
 
+
 ## استخدام القائمة العامة في العلامات الذكية
 تتيح مرونة القوائم العامة للمطورين التعامل مع البيانات بطريقة منظمة دون التأثير على الأداء. في هذا البرنامج التعليمي، ستتعلم كيفية الاستفادة من القوائم العامة مع العلامات الذكية لإنشاء تقارير Excel قوية وديناميكية. يضمن هذا النهج سهولة التعامل مع مجموعات البيانات مع الحفاظ على سلامة النوع والأداء القوي في تطبيقاتك. تابع معنا لمعرفة كيف يمكن لهذا أن يُفيد في إنشاء تقاريرك. [اقرأ المزيد](./generic-list-smart-markers/)
 
@@ -150,7 +151,6 @@
 ### [إنشاء مجموعة علامات ذكية في C# – دليل كامل](./create-smart-marker-collection-in-c-complete-guide/)
 تعلم خطوة بخطوة كيفية إنشاء مجموعة علامات ذكية باستخدام C# في Aspose.Cells لتوليد تقارير Excel ديناميكية.
 ### [كيفية تسمية الأوراق تلقائيًا – إنشاء أوراق متعددة في C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
-تعلم كيفية تسمية أوراق Excel تلقائيًا وإنشاء أوراق متعددة باستخدام Aspose.Cells في C# لتقارير ديناميكية.
 ### [إنشاء كائن البيانات الرئيسي – دليل خطوة بخطوة لتوليد ورقة التفاصيل](./create-master-data-object-step-by-step-guide-to-generate-det/)
 اكتشف طريقة إنشاء كائن البيانات الرئيسي وتوليد ورقة التفاصيل تلقائيًا خطوة بخطوة باستخدام Aspose.Cells.
 ### [إنشاء قالب خصم في C# – دليل خطوة بخطوة](./create-discount-template-in-c-step-by-step-guide/)
@@ -178,6 +178,14 @@
 ### [تحميل قالب Excel في C# – إنشاء أوراق متعددة بسرعة](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
 تعلم كيفية تحميل قالب Excel في C# وإنشاء أوراق عمل متعددة بسرعة باستخدام Aspose.Cells.
 ### [استيراد JSON إلى Excel في C# – دليل خطوة بخطوة](./import-json-to-excel-in-c-step-by-step-guide/)
+### [كيفية إنشاء قائمة تقارير Excel باستخدام علامات Aspose.Cells الذكية](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+### [إنشاء دفتر عمل رئيسي وتفصيلي باستخدام علامة Aspose.Cells الذكية](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+### [دليل Excel الرئيسي والتفصيلي – تعبئة القوالب باستخدام العلامات الذكية](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+### [كيفية تكرار أوراق العمل – دليل كامل لأتمتة Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+
+### [إنشاء مصنف Excel برمجيًا باستخدام العلامات الذكية](./create-excel-workbook-programmatically-using-smart-markers/)
+تعلم كيفية إنشاء ملف Excel باستخدام العلامات الذكية برمجيًا في Aspose.Cells للـ .NET.
+### [إنشاء Excel من JSON باستخدام العلامة الذكية Aspose.Cells](./create-excel-from-json-with-aspose-cells-smart-marker/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

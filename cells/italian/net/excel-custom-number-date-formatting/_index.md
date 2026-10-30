@@ -58,6 +58,8 @@ Impara a creare una cartella di lavoro Excel in C# e a interpretare le date giap
 
 
 
+### [Analizza DateTime con il regno dell'imperatore giapponese usando Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Scopri come analizzare valori DateTime basati sul calendario dell'imperatore giapponese con Aspose.Cells per .NET.
 
 
 

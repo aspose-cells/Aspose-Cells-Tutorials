@@ -32,6 +32,9 @@ Aspose.Cells for Java를 사용하여 특정 워크시트에 이름으로 액세
 ### [Aspose.Cells for Java를 사용하여 Excel에 워크시트를 추가하는 방법: 완전한 가이드](./add-spreadsheets-excel-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 파일에 워크시트를 프로그래밍 방식으로 추가하는 방법을 알아보세요. 이 가이드에서는 설정, 구현 및 실제 적용 사례를 다룹니다.
 
+### [Aspose.Cells Java를 사용하여 목록에서 워크시트 생성 – 전체 가이드](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Aspose.Cells Java를 사용해 목록 데이터를 기반으로 여러 워크시트를 프로그래밍 방식으로 생성하는 방법을 단계별로 안내합니다.
+
 ### [Aspose.Cells for Java를 사용하여 Excel에 열을 삽입하는 방법 - 포괄적인 가이드](./aspose-cells-java-insert-column-excel/)
 Aspose.Cells for Java를 사용하여 Excel 워크시트에 열을 삽입하는 방법을 익혀 보세요. 이 상세 가이드를 따라 보고서 생성을 자동화하고 데이터 관리를 향상해 보세요.
 
@@ -108,6 +111,10 @@ Aspose.Cells for Java를 사용하여 Excel 파일의 행과 열을 손쉽게 �
 SmartMarkerProcessor를 활용하여 Excel 워크시트 이름을 동적으로 지정하는 방법을 단계별로 안내합니다.
 ### [Java를 사용하여 Excel에 여러 시트 만들기 – 완전한 템플릿 기반 가이드](./create-multiple-sheets-in-excel-with-java-complete-template/)
 Java와 Aspose.Cells를 사용해 템플릿 기반으로 Excel에 여러 워크시트를 생성하는 방법을 단계별로 안내합니다.
+### [Aspose.Cells for Java를 사용하여 상세 시트를 복제하는 방법](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+Aspose.Cells for Java를 사용하여 Excel 워크북에 상세 시트를 복제하는 방법을 단계별로 안내합니다.
+### [Java로 Excel에서 첫 두 행 고정하기 – 완전 가이드](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Java와 Aspose.Cells를 사용하여 Excel 워크시트의 첫 두 행을 고정하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

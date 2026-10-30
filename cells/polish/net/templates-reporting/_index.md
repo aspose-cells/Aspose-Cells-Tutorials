@@ -77,6 +77,9 @@ Dowiedz się, jak programowo przetworzyć szablon Excela i dynamicznie nadawać 
 ### [Jak wyeksportować dane do Excela przy użyciu szablonu C# – przewodnik krok po kroku](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
 Dowiedz się, jak programowo wyeksportować dane do pliku Excel przy użyciu szablonu C# i biblioteki Aspose.Cells.
 
+### [Jak rozszerzyć tablicę w Excelu i wypełnić szablon](./how-to-expand-array-in-excel-and-populate-a-template)
+Dowiedz się, jak przy użyciu Aspose.Cells rozszerzyć tablicę w Excelu i automatycznie wypełnić szablon danymi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

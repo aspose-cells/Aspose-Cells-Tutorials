@@ -93,6 +93,8 @@ Apprenez à créer un classeur Excel en C# et à limiter les chiffres significat
 Apprenez à formater une colonne de date dans Excel et à exporter un DataTable en C# avec Aspose.Cells.
 ### [Conversion du calendrier japonais en C# – Guide complet](./japanese-calendar-conversion-in-c-full-guide/)
 Apprenez à convertir les dates du calendrier japonais en C# avec Aspose.Cells grâce à ce guide complet.
+### [Analyser DateTime avec le règne de l'empereur japonais en C# – Guide complet](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Apprenez à analyser des dates incluant le règne de l'empereur japonais dans Excel avec Aspose.Cells pour .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

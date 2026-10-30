@@ -38,6 +38,11 @@ Leer hoe u Excel-lijstobjecten kunt automatiseren met Aspose.Cells voor Java, wa
 ### [Aspose.Cells Java: Excel-tabelmanipulatie via cellen onder de knie krijgen](./aspose-cells-java-manipulate-excel-tables/)
 Leer hoe u Excel-tabellen bewerkt met Aspose.Cells voor Java. Deze handleiding behandelt het efficiënt instellen, openen, wijzigen en opslaan van tabelgegevens.
 
+### [Hoe een Excel-tabel veilig hernoemen met Aspose.Cells Java](./how-to-safely-rename-excel-table-with-aspose-cells-java/)
+Leer hoe u een Excel-tabel veilig kunt hernoemen met Aspose.Cells voor Java, zodat verwijzingen en gegevensintegriteit behouden blijven.
+### [Excel-tabel maken in Java – stapsgewijze handleiding](./create-excel-table-in-java-step-by-step-guide/)
+Leer hoe u met Aspose.Cells voor Java een Excel-tabel maakt en configureert in een stapsgewijze handleiding.
+
 ### [Excel-tabellen converteren naar bereiken met Aspose.Cells Java: een stapsgewijze handleiding](./convert-excel-tables-ranges-aspose-cells-java/)
 Leer hoe u de conversie van Excel-tabellen naar bereiken kunt automatiseren met Aspose.Cells voor Java. Volg deze uitgebreide handleiding voor efficiënt gegevensbeheer.
 
@@ -59,6 +64,8 @@ Leer hoe u tekstvakken in Excel beheert met Aspose.Cells voor Java. Deze handlei
 ### [Aspose.Cells Java onder de knie krijgen: cellen in een benoemd bereik identificeren voor Excel-gegevensmanipulatie](./master-aspose-cells-java-identify-named-range-cells/)
 Leer hoe u Aspose.Cells met Java kunt gebruiken om cellen binnen benoemde bereiken in Excel-spreadsheets efficiënt te identificeren en te manipuleren.
 
+### [Tabelnaam instellen in Excel met Java: een volledige handleiding](./set-table-name-in-excel-with-java-complete-guide/)
+Leer hoe u een tabel in Excel een naam geeft met Aspose.Cells voor Java, zodat u tabellen makkelijker kunt beheren en refereren.
 ### [Hoe een Excel-tabelrij veilig te verwijderen met Aspose.Cells](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
 Leer hoe u veilig een rij uit een Excel-tabel kunt verwijderen met Aspose.Cells voor Java.
 

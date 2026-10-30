@@ -51,6 +51,7 @@
 ### [كيفية حساب القاطع في Excel – دليل شامل](./how-to-calculate-cotangent-in-excel-complete-guide/)
 ### [فرز القيم الفريدة في Excel – دليل Java كامل لتعيين صيغ المصفوفة](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 ### [كيفية استخدام Aspose في Java – إنشاء مصنف Excel مع وظائف جديدة](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+### [استخدام دالة expand في Aspose.Cells Java – دليل خطوة بخطوة](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
 
 ## موارد إضافية
 

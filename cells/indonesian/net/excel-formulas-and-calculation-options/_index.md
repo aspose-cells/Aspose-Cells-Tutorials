@@ -51,6 +51,8 @@ Apakah Anda memiliki fungsi kustom atau add-in yang sering Anda gunakan? Nah, de
 Saat bekerja dengan rumus bersama, penting untuk memahami cara mengelola batas baris secara efisien. Ini dapat membantu Anda menjaga kejelasan sekaligus memastikan bahwa kinerja tidak terganggu. Tutorial kami, [Menentukan Jumlah Baris Maksimum Rumus Bersama di Excel](./specifying-maximum-rows-of-shared-formula/)memberikan wawasan tentang cara menentukan batasan ini, sehingga mencegah potensi perlambatan atau kesalahan dalam kumpulan data besar. Anda tidak ingin Excel Anda terasa seperti kemacetan lalu lintas, bukan? Menjaga semuanya tetap teratur memastikan data Anda mengalir dengan lancar.
 
 ## Tutorial Rumus Excel dan Opsi Perhitungan
+### [Cara memaksa perhitungan rumus dan menggunakan lambda di Excel dengan C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Pelajari cara memaksa perhitungan rumus dan memanfaatkan fungsi lambda di Excel menggunakan C# dengan Aspose.Cells.
 ### [Menambahkan Sel ke Jendela Pengawas Rumus Microsoft Excel](./adding-cells-to-microsoft-excel-formula-watch-window/)
 Pelajari cara menambahkan sel ke Excel Formula Watch Window menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Sederhana dan efisien.
 ### [Menghitung Rumus di Excel Secara Terprogram](./calculating-formulas/)
@@ -97,6 +99,10 @@ Pelajari cara membuat workbook Excel dan membagi data menggunakan fungsi WRAPCOL
 Pelajari cara menerapkan rumus array di Excel menggunakan C# dengan Aspose.Cells dalam panduan lengkap ini.
 ### [Cara Menggunakan WRAPCOLS – Panduan Lengkap untuk Otomasi Excel C#](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
 Pelajari cara menggunakan fungsi WRAPCOLS dalam Aspose.Cells untuk .NET dengan contoh lengkap otomatisasi Excel menggunakan C#.
+### [Buat Workbook Excel dengan Rumus – Panduan Lengkap Langkah-demi-Langkah](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+Panduan lengkap untuk membuat workbook Excel dengan rumus menggunakan Aspose.Cells for .NET, langkah demi langkah.
+### [Cara membuat buku kerja Excel di C# dengan fungsi EXPAND](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+Pelajari cara membuat workbook Excel menggunakan fungsi EXPAND di C# dengan panduan langkah demi langkah ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

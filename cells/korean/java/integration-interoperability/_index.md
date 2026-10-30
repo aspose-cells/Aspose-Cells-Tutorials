@@ -51,13 +51,18 @@ Aspose.Cells for Java를 사용하여 Excel 웹 확장 프로그램을 쉽게 �
 Aspose.Cells for Java를 사용하여 통합 문서 로드, 글로벌화 옵션 설정, 소계 추가, 수식 계산, 열 자동 맞춤 등 Excel 작업을 자동화하는 방법을 알아보세요.
 
 ### [Aspose.Cells 통합을 통한 Java Teacher 클래스 구현 마스터하기](./master-teacher-class-java-aspose-cells/)
-Java로 Teacher 클래스를 구현하고, 학생 데이터를 관리하고, Aspose.Cells를 통합하여 Excel 파일 처리를 개선하는 방법을 알아보세요.
-
 ### [Java를 사용하여 Excel을 PPTX로 변환 – 완전 프로그래밍 가이드](./convert-excel-to-pptx-with-java-complete-programming-guide/)
 Java와 Aspose.Cells를 활용해 Excel 파일을 PPTX 프레젠테이션으로 변환하는 방법을 단계별로 안내합니다.
 
 ### [Excel에서 차트를 Word로 내보내는 방법 – Java 가이드](./how-to-export-charts-from-excel-to-word-java-guide/)
 Aspose.Cells for Java를 사용하여 Excel 차트를 Word 문서로 내보내는 방법을 단계별로 안내합니다. 설정, 코드 구현 및 주요 팁을 다룹니다.
+### [Java에서 Aspose.Cells를 사용해 Excel을 PowerPoint로 변환](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+Aspose.Cells for Java를 활용해 Excel 파일을 PowerPoint 프레젠테이션으로 변환하는 방법을 단계별로 안내합니다.
+### [Excel에서 PPTX로: 편집 가능한 도형 내보내기 완전 Java 가이드](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+Aspose.Cells for Java를 사용하여 Excel 워크시트의 편집 가능한 도형을 PPTX 파일로 내보내는 방법을 단계별로 안내합니다.
+
+### [Java에서 WRAPCOLS 사용 방법 – 매트릭스 변환 완전 가이드](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
+WRAPCOLS 함수를 활용해 Java에서 행렬 데이터를 변환하고 Excel에 적용하는 방법을 단계별로 안내합니다.
 
 ### [Java에서 WRAPCOLS 사용 방법 – Excel 배열 수식 완전 가이드](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
 Aspose.Cells for Java를 활용해 WRAPCOLS 함수를 사용하여 Excel 배열 수식을 구현하고 적용하는 방법을 단계별로 안내합니다.
@@ -70,6 +75,15 @@ Aspose.Cells for Java를 사용해 Excel 데이터를 PowerPoint 프레젠테이
 Aspose.Cells for Java와 Aspose.Slides for Java를 사용하여 Excel 차트를 PowerPoint 슬라이드로 내보내는 방법을 단계별로 안내합니다.
 ### [Excel을 PowerPoint로 변환 – 전체 단계별 가이드](./convert-excel-to-powerpoint-full-step-by-step-guide/)
 Aspose.Cells for Java를 사용하여 Excel 파일을 PowerPoint 프레젠테이션으로 변환하는 전체 단계별 가이드를 확인하세요.
+### [C#에서 Aspose.Cells를 사용하여 Excel을 DOCX로 저장하는 방법](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+Aspose.Cells를 이용해 Excel 파일을 DOCX 형식으로 변환하고 저장하는 방법을 단계별로 안내합니다.
+### [Java를 사용하여 Excel에서 범위를 복사하고 PowerPoint로 내보내는 방법](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+Java와 Aspose.Cells를 활용해 Excel 범위를 복사하고 PowerPoint 프레젠테이션으로 내보내는 방법을 단계별로 안내합니다.
+### [Excel에서 PPTX 저장 방법 – Excel 시트를 PowerPoint로 내보내는 완전 가이드](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+Excel 데이터를 PPTX 파일로 저장하는 방법을 단계별로 안내하고, 시트 내용을 PowerPoint 프레젠테이션으로 내보내는 전체 과정을 설명합니다.
+
+### [Java를 사용하여 Excel을 PDF로 변환할 때 글꼴 포함하기](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
+Java와 Aspose.Cells를 사용해 Excel 파일을 PDF로 변환하면서 필요한 글꼴을 포함하는 방법을 단계별로 안내합니다.
 ### [Aspose.Cells for Java를 사용해 Excel에서 차트를 DOCX 파일로 내보내는 방법](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
 Aspose.Cells for Java를 활용해 Excel 차트를 DOCX 문서로 내보내는 단계별 가이드를 확인하세요.
 

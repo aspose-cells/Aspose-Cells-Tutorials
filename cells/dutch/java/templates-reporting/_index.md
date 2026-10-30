@@ -46,6 +46,11 @@ Leer hoe u dynamische Excel-rapportgeneratie kunt automatiseren met Aspose.Cells
 
 ### [Maak master-detail werkmap met Aspose.Cells (Java)](./create-master-detail-workbook-with-aspose-cells-java/)
 Leer hoe u een master‑detail werkmap maakt met Aspose.Cells voor Java, inclusief gegevensbinding en dynamische rapportage.
+### [Hoe een rapport te genereren met Excel Smart Markers – volledige Java-gids](./how-to-generate-report-with-excel-smart-markers-full-java-gu/)
+Leer stap voor stap hoe u met Smart Markers in Aspose.Cells voor Java volledige rapporten genereert, inclusief codevoorbeelden.
+
+### [Maak een Excel-werkmap met Smart Markers – Java-gids](./create-excel-workbook-with-smart-markers-java-guide/)
+Leer stap voor stap hoe u een Excel-werkmap maakt met Smart Markers in Aspose.Cells voor Java, inclusief codevoorbeelden.
 
 ### [Hoe werkbladen te genereren met Smart Markers – volledige Java-gids](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
 Leer hoe u met Smart Markers dynamisch werkbladen genereert in Java met Aspose.Cells.
@@ -61,6 +66,8 @@ Leer hoe u een Excel-sjabloon kunt vullen met gegevens en een rapport kunt gener
 Leer hoe u met Smart Markers een Excel-sjabloon kunt vullen met gegevens via Aspose.Cells voor Java.
 ### [Detailbladen maken in Java met Aspose.Cells slimme markeringen](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
 Leer hoe u detailbladen genereert met slimme markeringen in Aspose.Cells voor Java.
+### [Hoe een Excel-sjabloon te vullen met gegevens met Aspose.Cells](./how-to-populate-excel-template-with-data-using-aspose-cells/)
+Leer hoe u een Excel-sjabloon automatisch kunt vullen met gegevens via Aspose.Cells in Java.
 ### [Hoe werkbladen met slimme markeringen maken met Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
 Leer hoe u met Aspose.Cells slimme markeringen kunt gebruiken om werkbladen automatisch te vullen en rapporten te genereren.
 

@@ -99,6 +99,11 @@ Excel 内置了大量函数，可用于执行各种计算和数据操作。了�
 通过本分步指南，学习如何使用 Aspose.Cells for .NET 在 C# 中应用 Excel 数组公式，实现完整的解决方案。
 ### [如何使用 WRAPCOLS – C# Excel 自动化完整指南](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
 通过本分步指南，学习在 Aspose.Cells for .NET 中使用 WRAPCOLS 函数实现 Excel 自动化。
+### [在 C# 中强制公式计算并使用 Lambda 表达式](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+使用 Aspose.Cells for .NET 在 C# 中强制公式计算并使用 Lambda，实现高级 Excel 计算。
+### [创建带公式的 Excel 工作簿 – 完整分步指南](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+通过本详细分步教程，学习如何使用 Aspose.Cells for .NET 创建包含公式的 Excel 工作簿。
+### [如何在 C# 中使用 EXPAND 函数创建 Excel 工作簿](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

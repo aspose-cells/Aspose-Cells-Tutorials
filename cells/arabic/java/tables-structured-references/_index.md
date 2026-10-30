@@ -56,6 +56,11 @@
 ### [إتقان Aspose.Cells في Java: تحديد الخلايا في نطاق مُسمّى لمعالجة بيانات Excel](./master-aspose-cells-java-identify-named-range-cells/)
 تعرف على كيفية استخدام Aspose.Cells مع Java لتحديد الخلايا ومعالجتها ضمن النطاقات المسماة في جداول بيانات Excel بكفاءة.
 
+### [كيفية إعادة تسمية جدول Excel بأمان باستخدام Aspose.Cells لـ Java](./how-to-safely-rename-excel-table-with-aspose-cells-java/)
+### [تعيين اسم الجدول في Excel باستخدام Java – دليل شامل](./set-table-name-in-excel-with-java-complete-guide/)
+تعرّف على طريقة تعيين اسم للجدول في Excel باستخدام Aspose.Cells لجافا، مع أمثلة عملية لتسهيل إدارة الجداول.
+### [إنشاء جدول Excel في Java – دليل خطوة بخطوة](./create-excel-table-in-java-step-by-step-guide/)
+تعلم كيفية إنشاء جدول Excel باستخدام Aspose.Cells في Java خطوة بخطوة مع أمثلة عملية.
 ### [كيفية حذف صف جدول Excel بأمان باستخدام Aspose.Cells](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
 تعلم طريقة حذف صف من جدول Excel بأمان باستخدام Aspose.Cells لجافا.
 

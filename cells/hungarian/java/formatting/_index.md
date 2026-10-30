@@ -14,7 +14,7 @@
 
 # Excel formázási és stíluskezelési oktatóanyagok Aspose.Cells Java-hoz
 
-Tanuld meg, hogyan készíthetsz professzionális stílusú Excel dokumentumokat Aspose.Cells Java formázási oktatóanyagaink segítségével. Ezek a részletes útmutatók bemutatják, hogyan alkalmazhatsz és kezelhetsz cellastílusokat, hogyan valósíthatsz meg feltételes formázási szabályokat, hogyan dolgozhatsz színekkel és témákkal, valamint hogyan szabályozhatod a számformátumokat különböző adattípusokhoz. Minden oktatóanyag működő Java kódpéldákat tartalmaz, amelyek bemutatják, hogyan hozhatsz létre vizuálisan vonzó táblázatokat egységes formázással, amely javítja az adatok olvashatóságát és megjelenítését.
+Tanuld meg, hogyan készíthetsz professzionális stílusú Excel dokumentumokat Aspose.Cells Java formázási oktatóanyagaink segítségével. Ezek a részletes útmutatók bemutatják, hogyan alkalmazhatsz és kezelhetsz cellastílusokat, hogyan valósíthatsz meg feltételes formázási szabályokat, hogyan dolgozhatsz színekkel és témákkal, valamint hogyan szabályozhatod a számformátumokat különböző adattípusokhoz. Minden oktatóanyag működő Java kódpéldákat tartalmaz, amelyek bemontják, hogyan hozhatsz létre vizuálisan vonzó táblázatokat egységes formázással, amely javítja az adatok olvashatóságát és megjelenítését.
 
 ## Amit tanulni fogsz
 
@@ -68,6 +68,9 @@ Ismerje meg, hogyan alkalmazhat számformátumokat és egyéni dátumstílusokat
 
 ### [Excel cellák létrehozása és formázása az Aspose.Cells for Java használatával: lépésről lépésre útmutató](./aspose-cells-java-excel-automation-guide/)
 Tanuld meg, hogyan automatizálhatod és formázhatod könnyedén az Excel-fájlokat az Aspose.Cells for Java segítségével. Ez az útmutató a munkafüzetek létrehozását, a cellaformázást és a mentési technikákat ismerteti.
+
+### [Stílusos Excel munkafüzet létrehozása Java-ban – Teljes útmutató](./create-styled-excel-workbook-in-java-complete-guide/)
+Ismerd meg, hogyan hozhatsz létre stílusos Excel munkafüzetet Java-ban az Aspose.Cells segítségével, lépésről lépésre kódpéldákkal.
 
 ### [HTML-terek optimalizálása és oszlopok automatikus illesztése Excelben az Aspose.Cells for Java használatával](./aspose-cells-java-optimize-html-spaces-auto-fit-columns/)
 Tanuld meg, hogyan távolíthatod el a felesleges szóközöket a HTML-ből, és hogyan illesztheted automatikusan az oszlopokat Excelben az Aspose.Cells for Java használatával. Javítsd az adatmegjelenítést az egyszerűsített formázással.
@@ -124,7 +127,7 @@ Tanuld meg, hogyan módosíthatod hatékonyan a betűszínt Excel fájlokban az 
 Tanuld meg, hogyan konvertálhatsz színátmenetes kitöltésű Excel-fájlokat HTML-be az Aspose.Cells Java könyvtár segítségével, biztosítva a vizuálisan vonzó webes prezentációkat.
 
 ### [Excel/ODS fájlok létrehozása és formázása az Aspose.Cells segítségével Java-ban: Átfogó útmutató](./create-style-excel-ods-aspose-cells-java/)
-Tanuld meg, hogyan hozhatsz létre, formázhatsz és kezelhetsz Excel és ODS fájlokat programozottan az Aspose.Cells for Java segítségével. Takaríts meg időt és csökkentsd a hibákat a táblázatkezelési feladataidban.
+Tanuld meg, hogyan hozhatsz létre, formázhass és kezelhetsz Excel és ODS fájlokat programozottan az Aspose.Cells for Java segítségével. Takaríts meg időt és csökkentsd a hibákat a táblázatkezelési feladataidban.
 
 ### [Egyéni betűtípusok implementálása az Aspose.Cells-ben Java-ban: Átfogó útmutató a munkafüzetek konzisztens megjelenítéséhez](./custom-fonts-aspose-cells-java-guide/)
 Ismerje meg, hogyan biztosíthatja az Excel-munkafüzetek egységes megjelenítését egyéni betűtípusokkal az Aspose.Cells for Java használatával. Ez az útmutató a beállítást, a konfigurációt és a gyakorlati alkalmazásokat ismerteti.
@@ -156,7 +159,7 @@ Sajátítsa el az Excel-munkafüzetek inicializálását és formázását az As
 ### [Mester munkafüzet-stílusok Excelben az Aspose.Cells Java segítségével: Átfogó útmutató fejlesztőknek](./excel-workbook-styling-aspose-cells-java/)
 Ismerje meg, hogyan egyszerűsítheti Excel-munkafüzetének formázását és adatkezelését az Aspose.Cells Java használatával. Ez az útmutató az inicializálást, a formázási technikákat és a hatékony adatkezelést ismerteti.
 
-### [Excel munkalap fül színének beállítása az Aspose.Cells használatával Java-ban: Teljes útmutató](./excel-worksheet-tab-color-aspose-cells-java/)
+### [Excel munkafüzet fül színének beállítása az Aspose.Cells használatával Java-ban: Teljes útmutató](./excel-worksheet-tab-color-aspose-cells-java/)
 Ismerd meg, hogyan szabhatod testre a munkalapfülek színeit Excelben az Aspose.Cells for Java segítségével. Ez az útmutató a beállítást, a kódolást és a gyakorlati alkalmazásokat ismerteti.
 
 ### [Excel megjegyzésformázás elsajátítása Aspose.Cells használatával Java-ban](./format-excel-comments-aspose-cells-java/)
@@ -235,8 +238,6 @@ Tanuld meg, hogyan állíthatod be a nagyítási tényezőt az Excel munkalapokb
 Tanulja meg, hogyan rendezheti hatékonyan az Excel-adatokat oszlopszín szerint az Aspose.Cells for Java használatával. Ez az útmutató ismerteti az előfeltételeket, a megvalósítási lépéseket és a gyakorlati alkalmazásokat.
 
 ### [Hogyan formázzuk az Excel cellákat és adjunk hozzá hiperhivatkozásokat az Aspose.Cells for Java használatával?](./style-excel-cells-hyperlinks-aspose-cells-java/)
-Sajátítsd el az Excel-cellák formázását és a hiperhivatkozások hozzáadását Java-alkalmazásaidban az Aspose.Cells segítségével. Kövesd ezt az átfogó útmutatót a zökkenőmentes integráció és formázás érdekében.
-
 ### [Excel munkafüzet létrehozása dinamikus formázással Java-ban – Teljes útmutató](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 Tanulja meg, hogyan hozhat létre Excel munkafüzetet dinamikus formázással Java-ban, részletes kódpéldákkal és lépésről-lépésre útmutatóval.
 
@@ -247,6 +248,9 @@ Ismerje meg, hogyan alkalmazhat stílusokat a DataTable Excel-be konvertálásak
 Tanuld meg, hogyan állíthatsz be egyedi dátumformátumot Excel-fájlokban az Aspose.Cells for Java használatával.
 ### [Betűtípus félkövér beállítása Java Excel exportálásban – Teljes útmutató](./set-font-bold-in-java-excel-export-complete-guide/)
 Ismerd meg, hogyan állíthatod be a betűtípust félkövérre Excel-exportáláskor Java-ban, részletes kódpéldákkal és tippekkel.
+### [Hogyan használjuk a WRAPCOLS-t az Aspose.Cells-ben – Teljes Java példa](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Ismerd meg, hogyan alkalmazhatod a WRAPCOLS funkciót az Aspose.Cells Java könyvtárban a cellák szövegének automatikus tördeléséhez.
+### [Számformátum alkalmazása Excelben Java-ban – Teljes Aspose.Cells útmutató](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
 ### [Excel munkafüzet létrehozása pénznemformátummal és félkövér betűtípussal Java-ban](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet pénznemformátummal és félkövér betűtípussal Java-ban az Aspose.Cells segítségével.
 

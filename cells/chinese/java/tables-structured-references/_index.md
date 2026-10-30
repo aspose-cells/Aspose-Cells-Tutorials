@@ -59,6 +59,12 @@
 ### [掌握 Aspose.Cells Java：识别指定范围内的单元格以进行 Excel 数据操作](./master-aspose-cells-java-identify-named-range-cells/)
 了解如何使用 Aspose.Cells 和 Java 来有效地识别和操作 Excel 电子表格中指定范围内的单元格。
 
+### [使用 Aspose.Cells Java 安全重命名 Excel 表格](./how-to-safely-rename-excel-table-with-aspose-cells-java/)
+了解如何使用 Aspose.Cells for Java 安全地重命名 Excel 表格，避免引用错误并保持数据完整性。
+### [使用 Aspose.Cells Java 在 Excel 中设置表名称 – 完整指南](./set-table-name-in-excel-with-java-complete-guide/)
+学习如何使用 Aspose.Cells for Java 为 Excel 表格设置名称，以便更好地管理和引用表数据。
+### [在 Java 中创建 Excel 表格 – 分步指南](./create-excel-table-in-java-step-by-step-guide/)
+学习如何使用 Aspose.Cells for Java 在 Excel 中创建表格，涵盖从初始化到保存的完整步骤。
 ### [如何使用 Aspose.Cells 安全删除 Excel 表格行](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
 学习如何使用 Aspose.Cells for Java 安全删除 Excel 表格中的行，避免数据损坏。
 

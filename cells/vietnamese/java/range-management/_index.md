@@ -90,6 +90,8 @@ Tìm hiểu cách tách ô hiệu quả trong các tệp Excel bằng Aspose.Cel
 Tìm hiểu cách sao chép phạm vi worksheet trong Excel bằng Aspose.Cells cho Java một cách tự động và chi tiết.
 ### [Sao chép phạm vi giữa các sổ làm việc trong Java – hướng dẫn từng bước](./copy-range-between-workbooks-in-java-step-by-step-guide/)
 Hướng dẫn chi tiết cách sao chép phạm vi ô từ một workbook sang workbook khác bằng Aspose.Cells cho Java.
+### [Tạo trang tính mới và sao chép phạm vi Excel bằng Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+Hướng dẫn cách tạo một trang tính mới và sao chép phạm vi dữ liệu trong Excel bằng Aspose.Cells cho Java.
 
 ## Tài nguyên bổ sung
 

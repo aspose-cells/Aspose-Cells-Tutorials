@@ -245,7 +245,12 @@ Aspose.Cells for Java kullanarak Excel'de tarih biçimlerini özelleştirmeyi ve
 ### [Java’da Dinamik Biçimlendirme ile Excel Çalışma Kitabı Oluşturma – Tam Kılavuz](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 Aspose.Cells for Java kullanarak dinamik biçimlendirme ile Excel çalışma kitabı oluşturmayı öğrenin.
 
+### [Java ile Stilize Excel Çalışma Kitabı Oluşturma – Tam Kılavuz](./create-styled-excel-workbook-in-java-complete-guide/)
+Aspose.Cells for Java kullanarak stilize bir Excel çalışma kitabı oluşturmayı adım adım öğrenin.
 
+### [Aspose.Cells'te WRAPCOLS Kullanımı – Tam Java Örneği](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Aspose.Cells for Java ile WRAPCOLS özelliğini nasıl kullanacağınızı ve tam bir Java örneğiyle uygulamayı öğrenin.
+### [Java'da Excel Sayı Biçimi Uygulama – Eksiksiz Aspose.Cells Kılavuzu](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
 ### [Java için Aspose.Cells Kullanarak Para Birimi Biçimi ve Kalın Yazı Tipiyle Excel Çalışma Kitabı Oluşturma](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 Aspose.Cells for Java kullanarak para birimi formatı ve kalın yazı tipi uygulayan bir Excel çalışma kitabı oluşturmayı öğrenin.
 

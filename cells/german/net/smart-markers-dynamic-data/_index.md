@@ -91,7 +91,6 @@ Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells mit diesem Schritt‑fü
 Erfahren Sie, wie Sie die Option für verschachtelte Bereiche aktivieren, um komplexe Datenhierarchien in Smart Markers zu verarbeiten.
 
 ### [Implementieren Sie ein Variablenarray mit intelligenten Markierungen Aspose.Cells](./variable-array-smart-markers/)
-Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells. Erfahren Sie Schritt für Schritt, wie Sie variable Arrays mit Smart Markers für die nahtlose Erstellung von Excel‑Berichten implementieren.
 ### [Excel programmgesteuert mit Aspose.Cells Smart Markers erstellen](./create-excel-programmatically-using-aspose-cells-smart-marke/)
 Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers Excel‑Dateien programmgesteuert erstellen und Daten dynamisch einfügen.
 
@@ -135,8 +134,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells Vorlagen mithilfe von Smart Markern Schri
 Erfahren Sie, wie Sie mit Aspose.Cells und SmartMarker in C# komplette Excel‑Berichte automatisch generieren.
 
 ### [Exportieren von Daten nach Excel mit Smart Marker – Vollständige C#‑Anleitung](./export-data-to-excel-with-smart-marker-full-c-guide/)
-
-
+### [Excel-Arbeitsmappe programmgesteuert mit Smart Markern erstellen](./create-excel-workbook-programmatically-using-smart-markers/)
+Erstellen Sie eine Excel-Arbeitsmappe programmgesteuert mit Smart Markern in Aspose.Cells für .NET.
 
 
 
@@ -160,6 +159,8 @@ Erfahren Sie, wie Sie in C# eine Sammlung von Smart Markern erstellen, um dynami
 Erfahren Sie, wie Sie mit Aspose.Cells ein Excel‑Template aus einem Array in C# befüllen und Daten effizient exportieren.
 ### [Excel exportieren – Komplettanleitung für C#‑Entwickler](./how-to-export-excel-complete-guide-for-c-developers/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel‑Dateien in C# effizient exportieren – Schritt‑für‑Schritt‑Anleitung.
+### [Excel aus JSON mit Aspose.Cells Smart Marker erstellen](./create-excel-from-json-with-aspose-cells-smart-marker/)
+Erfahren Sie, wie Sie JSON-Daten mithilfe von Smart Markern in Excel-Dateien umwandeln und automatisch ausfüllen.
 ### [Wie Sie Arbeitsblätter automatisch benennen – Mehrere Blätter in C# generieren](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET automatisch Arbeitsblätter benennen und mehrere Tabellenblätter in C# generieren.
 ### [Masterdaten‑Objekt erstellen – Schritt‑für‑Schritt‑Anleitung zur Generierung des Detailblatts](./create-master-data-object-step-by-step-guide-to-generate-det/)
@@ -232,6 +233,14 @@ Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers Excel‑Dateien aus Modelle
 ### [Excel-Vorlage in C# laden – Mehrere Arbeitsblätter schnell generieren](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
 ### [Formel mit Smart Markers auswerten – Komplettanleitung](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
 ### [JSON nach Excel in C# importieren – Schritt‑für‑Schritt‑Anleitung](./import-json-to-excel-in-c-step-by-step-guide/)
+### [Wie man eine Excel-Berichtsliste mit Aspose.Cells Smart Markers erstellt](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers eine Liste von Excel-Berichten automatisch generieren.
+### [Master-Detail-Arbeitsmappe mit Aspose.Cells Smart Marker erstellen](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers eine Master‑Detail‑Arbeitsmappe erstellen, um hierarchische Daten automatisch zu füllen.
+### [Master‑Detail‑Excel‑Leitfaden – Vorlagen mit Smart Markers füllen](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+Erfahren Sie, wie Sie mit Smart Markers Vorlagen automatisch befüllen und Master‑Detail‑Berichte in Excel erstellen.
+### [Wie man Arbeitsblätter wiederholt – Komplettanleitung für Excel-Automatisierung](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+Erfahren Sie, wie Sie Arbeitsblätter in Excel automatisch duplizieren und wiederholen, um Berichte effizient zu automatisieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

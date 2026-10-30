@@ -75,6 +75,9 @@ Scopri come esportare dati in Excel da un modello C# con Aspose.Cells, seguendo 
 ### [Genera report Excel con C# – Guida passo‑passo](./generate-excel-report-with-c-step-by-step-guide/)
 Scopri come creare un report Excel in C# passo dopo passo, dalla configurazione dei dati alla generazione del file finale.
 
+### [Come espandere un array in Excel e popolare un modello](./how-to-expand-array-in-excel-and-populate-a-template)
+Scopri come espandere un array in Excel e popolare un modello usando Aspose.Cells per .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

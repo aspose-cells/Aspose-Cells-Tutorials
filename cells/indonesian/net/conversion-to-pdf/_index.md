@@ -69,6 +69,8 @@ Pelajari cara mengekspor lembar kerja Excel menjadi PDF dengan mudah menggunakan
 Pelajari cara menyimpan file XLSX sebagai PDF dengan standar PDF/A‑1b menggunakan Aspose.Cells untuk .NET dalam panduan lengkap ini.
 ### [Konversi Excel ke PDF dalam C# – panduan pemrograman lengkap](./convert-excel-to-pdf-in-c-complete-programming-guide/)
 Panduan lengkap mengonversi file Excel ke PDF menggunakan C# dengan Aspose.Cells.
+### [Cara menyimpan PDF dengan font variation selectors – panduan lengkap](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
+Pelajari cara menyimpan PDF dengan selector variasi font secara tepat menggunakan Aspose.PDF dalam .NET. Ikuti panduan lengkap kami!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

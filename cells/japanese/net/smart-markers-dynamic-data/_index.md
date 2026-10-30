@@ -61,6 +61,8 @@ SmartMarker を使用して JSON 内の変数を置換する手順を詳しく�
 
 ## スマートマーカーで汎用リストを使用する
 汎用リストの柔軟性により、開発者はパフォーマンスを損なうことなく、構造化された方法でデータを処理できます。このチュートリアルでは、スマートマーカーと汎用リストを活用して、堅牢で動的なExcelレポートを作成する方法を学びます。このアプローチにより、アプリケーションで強力な型安全性とパフォーマンスを維持しながら、データコレクションを簡単に操作できます。このアプローチがレポート作成にどのように役立つか、ぜひご覧ください。 [続きを読む](./generic-list-smart-markers/)
+### [Aspose.Cells でマスターディテイル Excel ガイド – スマートマーカーでテンプレートにデータを入力](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+スマートマーカーを活用して、マスターディテイル構造のExcelテンプレートにデータを自動的に埋め込む方法をステップバイステップで解説します。
 
 ## Aspose.Cells のスマートマーカーを使用した動的データチュートリアル
 ### [C# で Excel データマージ – 完全スマートマーカーガイド](./excel-data-merging-in-c-complete-smart-marker-guide/)
@@ -103,6 +105,7 @@ Aspose.Cells のスマートマーカーを活用し、C# で Excel テンプレ
 
 ### [C# で Excel レポートを生成する方法 – SmartMarker を使用した完全ガイド](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 ### [Aspose.Cells でスマートマーカーを使用して動的なワークシートを作成する](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
+### [Smart Markers を使って Excel ワークブックをプログラムで作成する](./create-excel-workbook-programmatically-using-smart-markers/)
 ### [スマートマーカーを使用したテンプレートの書き方 – ステップバイステップガイド](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 ### [スマートマーカーでテンプレートを読み込み、Excel レポートを作成する方法](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 テンプレートをロードし、スマートマーカーを使用して動的な Excel レポートを生成する手順をステップバイステップで解説します。
@@ -133,7 +136,7 @@ C# で JSON データを読み込み、Aspose.Cells を使って Excel ファイ
 
 
 ### [Excelでデータを繰り返す – スマートマーカーでテンプレートにデータを埋め込む](./repeat-data-in-excel-populate-template-with-smartmarker/)
-スマートマーカーを使い、テンプレートの行を繰り返し生成し、データを自動的に埋め込む方法を解説します。
+スマートマーカーを使、テンプレートの行を繰り返し生成し、データを自動的に埋め込む方法を解説します。
 ### [スマートマーカーでワークブックを作成する – 出力（High Low）](./how-to-create-workbook-with-smart-markers-output-high-low/)
 スマートマーカーを使用して、High/Low データを含むワークブックを生成し、条件に応じた出力を実装する方法を学びます。
 ### [スマートマーカーを使用してワークブックを作成する方法 – Aspose.Cells ガイド](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
@@ -175,6 +178,13 @@ SmartMarker を活用し、C# で Excel に複数のシートを自動生成す�
 C# を使用して Excel テンプレートを読み込み、複数シートを効率的に自動生成する手順を解説します。
 ### [C# でネストされたデータを処理するレンジ スマートマーカー – 完全ガイド](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
 ### [C# で JSON を Excel にインポートする – ステップバイステップ ガイド](./import-json-to-excel-in-c-step-by-step-guide/)
+### [Aspose.Cells スマートマーカーで Excel レポートリストを作成する方法](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+Aspose.Cells のスマートマーカーを使用して、Excel レポートのリストを効率的に生成する手順をステップバイステップで解説します。
+### [Aspose.Cells でスマートマーカーを使用してマスターディテイル ワークブックを作成する](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+### [ワークシートの繰り返し方法 – Excel 自動化の完全ガイド](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+Aspose.Cells を使用して、Excel のワークシートを自動的に繰り返し生成する手順をステップバイステップで解説します。
+### [Aspose.Cells スマートマーカーで JSON から Excel を作成する](./create-excel-from-json-with-aspose-cells-smart-marker/)
+Aspose.Cells のスマートマーカー機能を利用し、JSON データから動的に Excel ファイルを生成する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

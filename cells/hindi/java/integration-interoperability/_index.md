@@ -19,15 +19,15 @@
 ## आप क्या सीखेंगे
 
 - एकीकरण और अंतर-संचालन संचालन करने के लिए Java के लिए Aspose.Cells का उपयोग कैसे करें
-- संपूर्ण कोड उदाहरणों के साथ चरण-दर-चरण कार्यान्वयन
+- संपूर्ण कोड उदाहरणों के साथ चरण-दर-स्टेप कार्यान्वयन
 - सर्वोत्तम अभ्यास और अनुकूलन तकनीकें
 - एकीकरण एवं अंतरसंचालनीयता में आम चुनौतियों का समाधान
 
 
 ## उपलब्ध ट्यूटोरियल
 
-### [Excel में Aspose.Cells for Java के साथ VBA को एकीकृत करना: एक चरण-दर-चरण मार्गदर्शिका](./aspose-cells-java-integration-vba-excel/)
-जावा के लिए Aspose.Cells का उपयोग करके Excel में VBA को एकीकृत करना सीखें। यह चरण-दर-चरण मार्गदर्शिका सेटअप, कोड कार्यान्वयन और समस्या निवारण को कवर करती है।
+### [Excel में Aspose.Cells for Java के साथ VBA को एकीकृत करना: एक चरण-दर-स्टेप मार्गदर्शिका](./aspose-cells-java-integration-vba-excel/)
+जावा के लिए Aspose.Cells का उपयोग करके Excel में VBA को एकीकृत करना सीखें। यह चरण-दर-स्टेप मार्गदर्शिका सेटअप, कोड कार्यान्वयन और समस्या निवारण को कवर करती है।
 
 ### [Aspose.Cells के साथ Excel को बेहतर बनाएँ: Java का उपयोग करके वेब एक्सटेंशन और टास्क पैन को एकीकृत करें](./enhance-excel-aspose-cells-web-extensions-task-panes/)
 जानें कि Aspose.Cells for Java के साथ वेब एक्सटेंशन और टास्क पैन जोड़कर अपनी Excel कार्यपुस्तिकाओं को कैसे उन्नत करें, उत्पादकता और डेटा इंटरैक्शन में सुधार करें।
@@ -60,6 +60,9 @@ Java के लिए Aspose.Cells का उपयोग करके Excel क
 जावा में Aspose.Cells का उपयोग करके WRAPCOLS फ़ंक्शन के साथ एरे फ़ॉर्मूले लागू करने की पूरी प्रक्रिया सीखें।
 ### [Excel से PowerPoint बनाएं – पूर्ण Java गाइड](./create-powerpoint-from-excel-full-java-guide/)
 Excel डेटा को PowerPoint प्रस्तुति में बदलना, Aspose.Slides और Java के साथ विस्तृत चरण-दर-स्टेप गाइड।
+### [जावा का उपयोग करके Excel से रेंज कॉपी करें और PowerPoint में निर्यात करें](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+### [Excel से PPTX: संपादन योग्य आकार निर्यात करने के लिए पूर्ण Java गाइड](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+Java का उपयोग करके Excel फ़ाइलों से PPTX में संपादन योग्य आकार निर्यात करने की पूरी प्रक्रिया सीखें।
 
 ### [Excel को PowerPoint में बदलें – पूर्ण Java गाइड](./convert-excel-to-powerpoint-complete-java-guide/)
 Excel फ़ाइल को PowerPoint प्रस्तुति में बदलने के लिए Aspose.Slides और Java के साथ विस्तृत चरण-दर-चरण मार्गदर्शिका।
@@ -67,6 +70,18 @@ Excel फ़ाइल को PowerPoint प्रस्तुति में �
 Java के साथ Aspose.Cells का उपयोग करके Excel चार्ट को PowerPoint स्लाइड में निर्यात करने की चरण-दर-चरण प्रक्रिया सीखें।
 ### [Excel को PowerPoint में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-excel-to-powerpoint-full-step-by-step-guide/)
 Excel फ़ाइलों को PowerPoint प्रस्तुतियों में बदलने की पूरी प्रक्रिया, कोड उदाहरणों सहित।
+### [C# में Aspose.Cells के साथ Excel को DOCX के रूप में सहेजना कैसे करें](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+C# में Aspose.Cells का उपयोग करके Excel फ़ाइल को DOCX फ़ॉर्मेट में सहेजने की चरण-दर-स्टेप प्रक्रिया।
+### [Aspose.Cells के साथ जावा में Excel को PowerPoint में परिवर्तित करें](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+Aspose.Cells for Java का उपयोग करके Excel फ़ाइलों को PowerPoint प्रस्तुतियों में बदलने का तरीका सीखें।
+### [Excel से PPTX कैसे सहेजें – Excel शीट को PowerPoint में निर्यात करने की पूर्ण गाइड](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+Excel शीट को PowerPoint प्रस्तुति के रूप में निर्यात करने के चरण-दर-श...  
+
+### [जावा में WRAPCOLS का उपयोग कैसे करें – मैट्रिक्स रूपांतरण के लिए पूर्ण गाइड](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
+जावा में WRAPCOLS फ़ंक्शन का उपयोग करके मैट्रिक्स को कॉलम‑वाइज बदलने के चरण‑दर‑श...  
+
+### [जावा के साथ Excel को PDF में परिवर्तित करते समय फ़ॉन्ट एम्बेड करने का तरीका](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
+जावा में Aspose.Cells का उपयोग करके Excel फ़ाइल को PDF में बदलते समय फ़ॉन्ट एम्बेड करने की चरण-दर-शरण प्रक्रिया।
 ### [Aspose.Cells for Java का उपयोग करके Excel से चार्ट को DOCX में निर्यात करने का तरीका](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
 Excel फ़ाइल से चार्ट को DOCX दस्तावेज़ में निर्यात करने के लिए Aspose.Cells for Java का उपयोग कैसे करें।
 

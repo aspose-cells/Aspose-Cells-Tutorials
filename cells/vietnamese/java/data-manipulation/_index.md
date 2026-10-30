@@ -62,7 +62,8 @@ Tìm hiểu cách điền dữ liệu lồng nhau vào bảng tính Excel một 
 ### [Cách thực hiện thay thế Regex trong Excel bằng Aspose.Cells cho Java: Hướng dẫn toàn diện](./regex-replacement-excel-aspose-cells-java-guide/)
 Tìm hiểu cách tự động thay thế văn bản trong tệp Excel bằng regex với Aspose.Cells for Java. Hướng dẫn từng bước này bao gồm khởi tạo, cấu hình và ứng dụng thực tế.
 
-
+### [Cách tách cột trong Java với Aspose.Cells – hướng dẫn từng bước](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
+Hướng dẫn chi tiết cách tách các cột trong tệp Excel bằng Aspose.Cells cho Java, bao gồm các ví dụ thực tế và các bước thực hiện.
 
 ## Tài nguyên bổ sung
 

@@ -54,13 +54,15 @@
 تعرف على كيفية تطبيق التنسيق الشرطي باستخدام Aspose.Cells for Java لتحسين تصور البيانات وإنشاء تقارير Excel احترافية.
 
 ### [كيفية تنفيذ إعدادات الخط المخصصة في تنسيق Aspose.Cells Java لـ Excel](./aspose-cells-java-custom-fonts/)
-تعرف على كيفية تخصيص الخطوط في مستندات Excel باستخدام Aspose.Cells لـ Java، بما في ذلك إعداد مصادر الخطوط واستكشاف المشكلات الشائعة وإصلاحها.
+تعرف على كيفية تخصيص الخطوط في مستندات Excel باستخدام Aspose.Cells لـ Java، بما في incluye إعداد مصادر الخطوط واستكشاف المشكلات الشائعة وإصلاحها.
 
 ### [إتقان تنسيقات الأرقام المخصصة في مصنفات Java Excel باستخدام Aspose.Cells](./aspose-cells-java-custom-number-formats-handling/)
 تعرّف على كيفية التعامل مع تنسيقات الأرقام المخصصة في مصنفات جافا باستخدام Aspose.Cells. يغطي هذا الدليل تكوين المصنفات، ومعالجة الاستثناءات، والتطبيقات العملية.
 
 ### [إتقان عرض البيانات في Excel: تنسيق الأرقام والتاريخ المخصص باستخدام Aspose.Cells لـ Java](./aspose-cells-java-data-formatting-excel/)
 تعرف على كيفية تطبيق تنسيقات الأرقام وأنماط التاريخ المخصصة باستخدام Aspose.Cells لـ Java، مما يعزز عرض البيانات في جداول بيانات Excel.
+
+### [تطبيق تنسيق الأرقام في Excel باستخدام Java – دليل كامل Aspose.Cells](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
 
 ### [كيفية إنشاء وتنسيق خلايا Excel باستخدام Aspose.Cells لـ Java: دليل خطوة بخطوة](./aspose-cells-java-excel-automation-guide/)
 تعلّم كيفية أتمتة ملفات Excel وتنسيقها بسهولة باستخدام Aspose.Cells لجافا. يغطي هذا الدليل إنشاء المصنفات، وتنسيق الخلايا، وتقنيات الحفظ.
@@ -120,8 +122,7 @@
 تعرف على كيفية تحويل ملفات Excel ذات التعبئة المتدرجة إلى HTML باستخدام مكتبة Aspose.Cells لـ Java، مما يضمن عروض تقديمية ويب جذابة بصريًا.
 
 ### [إنشاء وتنسيق ملفات Excel/ODS باستخدام Aspose.Cells لـ Java: دليل شامل](./create-style-excel-ods-aspose-cells-java/)
-تعلّم كيفية إنشاء ملفات Excel وODS وتنسيقها وإدارتها برمجيًا باستخدام Aspose.Cells لـ Java. وفّر الوقت وقلل الأخطاء في مهام جداول البيانات.
-
+### [إنشاء مصنف Excel منسق في Java – دليل كامل](./create-styled-excel-workbook-in-java-complete-guide/)
 ### [تنفيذ الخطوط المخصصة في Aspose.Cells لـ Java: دليل شامل لعرض مصنفات العمل بشكل متسق](./custom-fonts-aspose-cells-java-guide/)
 تعرّف على كيفية ضمان عرض متناسق لمصنفات Excel باستخدام خطوط مخصصة باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل الإعداد والتكوين والتطبيقات العملية.
 
@@ -243,6 +244,7 @@
 ### [تعيين الخط العريض في تصدير Excel باستخدام Java – دليل كامل](./set-font-bold-in-java-excel-export-complete-guide/)
 
 ### [تعيين تنسيق رقم مخصص في Excel باستخدام Java – دليل كامل](./set-custom-number-format-in-excel-with-java-complete-guide/)
+### [كيفية استخدام WRAPCOLS في Aspose.Cells – مثال كامل بلغة Java](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 ### [كيفية إنشاء مصنف Excel بتنسيق عملة وخط عريض في Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 
 ## موارد إضافية

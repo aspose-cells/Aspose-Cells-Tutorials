@@ -123,6 +123,8 @@ Aspose.Cells for .NET を使用し、C# で Excel を HTML にエクスポート
 Aspose.Cells for .NET を使用して、C# で Excel テーブルを HTML に変換する方法をステップバイステップで解説します。
 ### [Excel を HTML に保存する – 書式設定付きエクスポートの完全ガイド](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
 Aspose.Cells for .NET を使用して、Excel を書式を保持したまま HTML にエクスポートする完全な手順を解説します。
+### [Excel を HTML にエクスポートする – フリーズペインを保持する完全ガイド](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
+Aspose.Cells for .NET を使用して、Excel のフリーズペインを保持しながら HTML にエクスポートする方法を詳しく解説したステップバイステップ ガイドです。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

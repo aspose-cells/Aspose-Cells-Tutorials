@@ -58,6 +58,8 @@ En kodhandledning för Aspose.Words Java
 
 ### [Hur man lägger till en kommentar i Excel med Java – En komplett guide](./how-to-add-comment-in-excel-with-java-complete-guide/)
 Lär dig steg för steg hur du programatiskt lägger till kommentarer i Excel-filer med Aspose.Cells för Java.
+### [Lägg till kommentar till Excel med Java – Komplett steg‑för‑steg‑guide](./add-comment-to-excel-with-java-complete-step-by-step-guide/)
+Lär dig hur du lägger till kommentarer i Excel med Java och Aspose.Cells. En komplett steg‑för‑steg‑guide för att förbättra dina kalkylblad.
 
 ## Ytterligare resurser
 

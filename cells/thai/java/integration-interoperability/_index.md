@@ -59,6 +59,12 @@
 เรียนรู้ขั้นตอนการส่งออกแผนภูมิจากไฟล์ Excel ไปยัง PowerPoint ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดครบถ้วน
 ### [แปลง Excel เป็น PowerPoint – คู่มือเต็มขั้นตอน](./convert-excel-to-powerpoint-full-step-by-step-guide/)
 เรียนรู้วิธีแปลงไฟล์ Excel ไปเป็น PowerPoint อย่างละเอียดด้วยขั้นตอนครบถ้วนโดยใช้ Aspose.Cells สำหรับ Java
+### [วิธีบันทึก Excel เป็น DOCX ด้วย Aspose.Cells ใน C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+เรียนรู้วิธีบันทึกไฟล์ Excel เป็น DOCX ด้วย Aspose.Cells ใน C# อย่างง่ายดาย
+### [แปลง Excel เป็น PowerPoint ด้วย Aspose.Cells ใน Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+เรียนรู้วิธีแปลงไฟล์ Excel ไปเป็น PowerPoint ด้วย Aspose.Cells สำหรับ Java อย่างง่ายดาย
+### [Excel ไปยัง PPTX: คู่มือ Java ฉบับสมบูรณ์สำหรับการส่งออกรูปร่างที่แก้ไขได้](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+เรียนรู้วิธีส่งออกรูปร่างจาก Excel ไปยังไฟล์ PPTX ที่สามารถแก้ไขได้โดยใช้ Aspose.Cells สำหรับ Java
 ### [วิธีส่งออกแผนภูมิจาก Excel ไปยัง DOCX ด้วย Aspose.Cells สำหรับ Java](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
 เรียนรู้วิธีส่งออกแผนภูมิจากไฟล์ Excel ไปยังไฟล์ DOCX ด้วย Aspose.Cells สำหรับ Java
 
@@ -70,6 +76,16 @@
 
 ### [วิธีใช้ WRAPCOLS ใน Java – คู่มือฉบับสมบูรณ์สำหรับสูตรอาร์เรย์ใน Excel](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
 เรียนรู้วิธีใช้ฟังก์ชัน WRAPCOLS ใน Java เพื่อจัดการสูตรอาร์เรย์ใน Excel อย่างเต็มที่ พร้อมตัวอย่างโค้ดและแนวทางปฏิบัติ
+### [วิธีคัดลอกช่วงจาก Excel และส่งออกเป็น PowerPoint ด้วย Java](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+เรียนรู้วิธีคัดลอกช่วงข้อมูลจากไฟล์ Excel แล้วส่งออกเป็นสไลด์ PowerPoint ด้วย Aspose.Cells และ Aspose.Slides สำหรับ Java
+### [วิธีบันทึก PPTX จาก Excel – คู่มือครบถ้วนสำหรับการส่งออกแผ่นงาน Excel ไปเป็น PowerPoint](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+เรียนรู้วิธีบันทึกไฟล์ PPTX จาก Excel ด้วย Aspose.Cells สำหรับ Java พร้อมขั้นตอนและตัวอย่างโค้ดที่สมบูรณ์
+
+### [วิธีใช้ WRAPCOLS ใน Java – คู่มือครบถ้วนสำหรับการแปลงเมทริกซ์](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
+เรียนรู้วิธีการใช้ฟังก์ชัน WRAPCOLS ใน Java เพื่อแปลงข้อมูลเมทริกซ์เป็นรูปแบบที่ต้องการ พร้อมตัวอย่างโค้ดและคำอธิบายขั้นตอน
+
+### [วิธีฝังฟอนต์เมื่อแปลง Excel เป็น PDF ด้วย Java](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
+เรียนรู้วิธีฝังฟอนต์ในไฟล์ PDF ระหว่างการแปลง Excel ด้วย Aspose.Cells สำหรับ Java เพื่อให้เอกสารแสดงผลอย่างถูกต้อง
 
 ## แหล่งข้อมูลเพิ่มเติม
 

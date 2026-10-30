@@ -62,6 +62,9 @@ Dowiedz się, jak obsługiwać niestandardowe formaty liczb w skoroszytach Java 
 ### [Opanowanie prezentacji danych w programie Excel: formatowanie liczb i dat niestandardowych za pomocą Aspose.Cells dla języka Java](./aspose-cells-java-data-formatting-excel/)
 Dowiedz się, jak stosować formaty liczbowe i niestandardowe style dat za pomocą pakietu Aspose.Cells for Java, ulepszając prezentację danych w arkuszach kalkulacyjnych programu Excel.
 
+### [Jak zastosować format liczbowy w programie Excel w Javie – kompletny przewodnik Aspose.Cells](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+Dowiedz się, jak programowo stosować formaty liczb w arkuszach Excel przy użyciu Aspose.Cells for Java, z praktycznymi przykładami kodu.
+
 ### [Jak tworzyć i formatować komórki programu Excel za pomocą Aspose.Cells dla języka Java: przewodnik krok po kroku](./aspose-cells-java-excel-automation-guide/)
 Dowiedz się, jak z łatwością automatyzować i formatować pliki Excela za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje tworzenie skoroszytów, formatowanie komórek i techniki zapisywania.
 
@@ -248,6 +251,11 @@ Dowiedz się, jak programowo ustawić pogrubioną czcionkę w eksportowanych pli
 
 ### [Ustaw niestandardowy format liczbowy w Excelu przy użyciu Javy – kompletny przewodnik](./set-custom-number-format-in-excel-with-java-complete-guide/)
 Dowiedz się, jak ustawić własny format liczbowy w plikach Excel przy użyciu Aspose.Cells for Java. Przewodnik krok po kroku z przykładami kodu.
+### [Utwórz stylowany skoroszyt programu Excel w Javie – kompletny przewodnik](./create-styled-excel-workbook-in-java-complete-guide/)
+Dowiedz się, jak programowo tworzyć i stylować skoroszyty Excel w Javie, wykorzystując Aspose.Cells, z przykładami kodu i wskazówkami optymalizacji.
+
+### [Jak używać WRAPCOLS w Aspose.Cells – kompletny przykład w Javie](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Dowiedz się, jak zastosować metodę WRAPCOLS w Aspose.Cells for Java, aby automatycznie zawijać tekst w komórkach Excela.
 
 ## Dodatkowe zasoby
 

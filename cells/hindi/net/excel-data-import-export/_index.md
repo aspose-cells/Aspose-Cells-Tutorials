@@ -64,6 +64,8 @@ C# का उपयोग करके डेटा बाइंड करें
 C# में Aspose.Cells का उपयोग करके Worksheet को DataTable में बदलने की पूरी मार्गदर्शिका।
 ### [Aspose.Cells के साथ JSON को Excel में आयात करें – पूर्ण प्रोग्रामिंग गाइड](./import-json-to-excel-with-aspose-cells-complete-programming/)
 .NET के लिए Aspose.Cells का उपयोग करके JSON डेटा को Excel में आयात करने की पूरी प्रक्रिया सीखें।
+### [C# में JSON को XLSX में बदलें – पूर्ण चरण‑दर‑चरण मार्गदर्शिका](./convert-json-to-xlsx-in-c-complete-step-by-step-guide/)
+.NET के लिए Aspose.Cells का उपयोग करके C# में JSON डेटा को XLSX फ़ाइल में बदलना सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
