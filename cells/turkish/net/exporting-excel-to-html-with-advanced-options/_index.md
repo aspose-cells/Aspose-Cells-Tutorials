@@ -35,7 +35,10 @@ Son olarak, ölçeklenebilir sütun genişlikleri ayarlama ve üst üste binen i
 
 Hiç Excel sayfanızın yalnızca belirli bir bölümünü dışa aktarmak istediğiniz oldu mu? Bir yazdırma alanını HTML'ye programatik olarak dışa aktarma eğitimine girin. Bu kullanışlı özellik yalnızca en alakalı verilere odaklanmanızı sağlayarak raporlarınızı daha temiz ve daha hedef odaklı hale getirir. Yalnızca temel rakamların görüntülendiği bir proje özeti hazırlamayı hayal edin - bu ne kadar etkili olurdu? [Bu özelliği uygulamak için kılavuza göz atın](./exporting-print-area/).
 
-## Kenarlık Stillerini Kolayca Yönetin
+### [Excel'i HTML'ye Aktarma – Dondurulmuş Bölmeleri Korumak için Tam Kılavuz](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
+Bu kapsamlı adım adım kılavuzda, Aspose.Cells for .NET kullanarak Excel'deki dondurulmuş bölmeleri koruyarak HTML'ye nasıl aktaracağınızı öğrenin.
+
+## Benzer Kenarlık Stillerini Kolayca Yönetin
 
 Bir diğer yararlı ipucu, benzer kenarlık stillerini Excel'e programatik olarak dışa aktarmaktır. Excel belgenizde birden fazla tablo olduğunda, stilde tekdüzelik profesyonel görünümler için çok önemlidir. Bu eğitimle, HTML çıktınızın öne çıkmasını ve marka kimliğinizi güçlendirmesini sağlayan tutarlı kenarlıkları nasıl koruyacağınızı öğrenin. O cilalı görünümü elde etmekle ilgileniyor musunuz? [Burada püf noktalarını öğrenin](./exporting-similar-border-style/).
 

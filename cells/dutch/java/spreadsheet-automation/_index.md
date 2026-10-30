@@ -50,6 +50,8 @@ Ontdek hoe u het maken en aanpassen van Excel-grafieken kunt automatiseren met A
 Leer hoe u Excel-taken in Java kunt automatiseren met behulp van broncodevoorbeelden met Aspose.Cells, een krachtige bibliotheek voor Excel-bewerking.
 ### [Excel programmatisch maken in Java – Stapsgewijze handleiding](./create-excel-programmatically-in-java-step-by-step-guide/)
 Leer hoe u Excel-bestanden programmatisch kunt maken in Java met Aspose.Cells, inclusief voorbeeldcode en stapsgewijze uitleg.
+### [Autofilter uit Excel verwijderen met Java – Complete gids](./remove-autofilter-from-excel-with-java-complete-guide/)
+Leer hoe u met Aspose.Cells voor Java de autofilter uit Excel-werkbladen kunt verwijderen en uw spreadsheets kunt opschonen.
 ### [Gegevensintegratie in Excel](./data-integration-in-excel/)
 Leer hoe u gegevens efficiënt kunt integreren in Excel voor betere inzichten en betere besluitvorming. Stapsgewijze handleiding met broncode met Aspose.Cells voor Java.
 ### [Autofilter uitschakelen in Excel met Java – Stapsgewijze handleiding](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
@@ -66,6 +68,12 @@ Leer hoe u AutoFilter in Excel kunt verwijderen met Aspose.Cells voor Java, incl
 
 ### [Nieuwe werkmap maken met Aspose – aangepaste eigenschap toevoegen aan Excel en opslaan als XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
 Leer hoe u een nieuwe Excel-werkmap maakt, een aangepaste eigenschap toevoegt en opslaat als XLSB met Aspose.Cells voor Java.
+### [Hoe tabelkop in Excel te verwijderen met Java – volledige gids](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+Leer hoe u met Aspose.Cells voor Java tabelkoppen uit Excel-werkbladen kunt verwijderen met voorbeeldcode.
+### [Array uitbreiden in Excel met Java – Stapsgewijze gids](./expand-array-in-excel-with-java-step-by-step-guide/)
+Leer hoe u arrays in Excel kunt uitbreiden met Java, met voorbeeldcode en stapsgewijze uitleg.
+### [Hoe Aspose.Cells te gebruiken: aangepaste eigenschap toevoegen en XLSB opslaan](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+Leer hoe u met Aspose.Cells een aangepaste eigenschap toevoegt aan een spreadsheet en deze opslaat als XLSB-bestand, inclusief voorbeeldcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

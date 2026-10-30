@@ -53,6 +53,8 @@
 ### [使用 Aspose.Cells for Java 高效复制 Excel 列：综合指南](./copy-excel-columns-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 自动复制 Excel 中的列。本指南简单易懂，助您简化工作流程，提升工作效率。
 
+### [在 Java 中跨工作簿复制范围 – 分步指南](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+
 ### [如何使用 Aspose.Cells Java 在 Excel 中复制多列：完整指南](./copy-multiple-columns-excel-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 自动复制 Excel 工作表中的多列。本指南涵盖设置、实施和故障排除。
 
@@ -89,7 +91,8 @@ Aspose.Words Java 代码教程
 ### [使用 Aspose.Cells 在 Java 中取消合并 Excel 单元格：分步指南](./unmerge-excel-cells-aspose-cells-java-guide/)
 学习如何使用 Aspose.Cells for Java 高效地拆分 Excel 文件中的单元格。本指南包含合并单元格的设置、检测和拆分操作，并附带代码示例。
 
-
+### [使用 Aspose.Cells 创建新工作表并复制 Excel 区域](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+学习如何使用 Aspose.Cells for Java 创建新工作表并复制指定的 Excel 区域，实现数据迁移和复制。
 
 ## 其他资源
 

@@ -65,6 +65,13 @@ Aprenda a usar o método Expand no Aspose.Cells para Java e crie planilhas dinâ
 Aprenda a remover filtros automáticos de planilhas Excel programaticamente com Aspose.Cells para Java, com exemplos de código passo a passo.
 ### [Criar nova pasta de trabalho Aspose – adicionar propriedade personalizada ao Excel e salvar como XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
 Aprenda a criar uma nova pasta de trabalho, adicionar propriedades personalizadas e salvar como XLSB usando Aspose.Cells para Java.
+### [Expandir Array no Excel com Java – Guia Passo a Passo](./expand-array-in-excel-with-java-step-by-step-guide/)
+Aprenda a expandir arrays no Excel usando Java com exemplos de código-fonte passo a passo.
+### [Como excluir o cabeçalho da tabela no Excel com Java – Guia completo](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+### [Remover Autofiltro do Excel com Java – Guia Completo](./remove-autofilter-from-excel-with-java-complete-guide/)
+Aprenda a remover filtros automáticos de planilhas Excel usando Aspose.Cells para Java com exemplos de código passo a passo.
+### [Como usar Aspose.Cells: adicionar propriedade personalizada e salvar XLSB](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+Aprenda a adicionar propriedades personalizadas a um arquivo XLSB e salvá‑lo usando Aspose.Cells para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

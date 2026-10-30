@@ -58,6 +58,21 @@ Ismerje meg, hogyan konvertálhat Excel fájlokat PowerPoint prezentációkká a
 Ismerje meg, hogyan exportálhat diagramokat Excelből PowerPointba Java használatával az Aspose.Cells és Aspose.Slides segítségével.
 ### [Excel konvertálása PowerPointba – Teljes lépésről lépésre útmutató](./convert-excel-to-powerpoint-full-step-by-step-guide/)
 Ismerd meg, hogyan konvertálhatod az Excel fájlokat PowerPoint prezentációkká az Aspose.Cells for Java segítségével, részletes lépésekkel.
+### [Hogyan mentse el az Excelt DOCX formátumban az Aspose.Cells segítségével C#-ban](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+### [Hogyan másoljon tartományt Excelből és exportálja PowerPointba Java-val](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+Ismerje meg, hogyan másolhat adatokat egy Excel‑tartományból, és exportálhatja őket PowerPoint‑diára Java és Aspose.Cells segítségével.
+### [Excel konvertálása PowerPointba Aspose.Cells segítségével Java-ban](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+Ismerje meg, hogyan konvertálhat Excel-fájlokat PowerPoint-prezentációkká az Aspose.Cells for Java használatával.
+### [Hogyan mentse el a PPTX-et Excelből – Teljes útmutató az Excel munkalap PowerPointba exportálásához](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+Ismerje meg, hogyan exportálhatja az Excel munkalapokat PPTX formátumba az Aspose.Cells for Java segítségével, lépésről lépésre útmutatóval.
+
+### [WRAPCOLS használata Java-ban – Teljes útmutató mátrixkonverzióhoz](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
+Ismerje meg, hogyan alkalmazhatja a WRAPCOLS függvényt Java-ban a mátrixok átalakításához, részletes példákkal és magyarázatokkal.
+
+### [Betűtípusok beágyazása Excel PDF-re konvertálásakor Java használatával](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
+Ismerje meg, hogyan ágyazhat be betűtípusokat az Excel PDF konvertálás során Java-val az Aspose.Cells segítségével.
+### [Excel-ből PPTX-be: Teljes Java útmutató a szerkeszthető alakzatok exportálásához](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+Ismerje meg, hogyan exportálhat szerkeszthető alakzatokat Excel-fájlokból PPTX prezentációkba Java és Aspose.Cells segítségével.
 
 ## További források
 

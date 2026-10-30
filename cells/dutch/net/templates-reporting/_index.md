@@ -77,6 +77,9 @@ Leer hoe u gegevens exporteert naar Excel met een C#‑sjabloon, stap voor stap.
 ### [Excel-rapport genereren met C# – Stapsgewijze handleiding](./generate-excel-report-with-c-step-by-step-guide/)
 Leer hoe u met C# een Excel‑rapport maakt, van gegevensbinding tot opmaak, met duidelijke stap‑voor‑stap instructies.
 
+### [Hoe een array uit te breiden in Excel en een sjabloon te vullen](./how-to-expand-array-in-excel-and-populate-a-template)
+Leer hoe u een array uitbreidt in Excel en een sjabloon vult met Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

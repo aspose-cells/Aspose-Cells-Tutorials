@@ -32,6 +32,9 @@ Scopri come accedere a fogli di lavoro specifici per nome utilizzando Aspose.Cel
 ### [Come aggiungere fogli di lavoro in Excel utilizzando Aspose.Cells per Java: una guida completa](./add-spreadsheets-excel-aspose-cells-java/)
 Scopri come aggiungere fogli di lavoro a un file Excel tramite programmazione utilizzando Aspose.Cells per Java. Questa guida illustra la configurazione, l'implementazione e le applicazioni pratiche.
 
+### [Crea fogli di lavoro da un elenco con Aspose.Cells Java – Guida completa](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Impara a generare più fogli di lavoro in Excel a partire da una lista di dati usando Aspose.Cells per Java.
+
 ### [Come inserire una colonna in Excel utilizzando Aspose.Cells per Java - Una guida completa](./aspose-cells-java-insert-column-excel/)
 Impara a inserire colonne nei tuoi fogli di lavoro Excel con Aspose.Cells per Java. Segui questa guida dettagliata per automatizzare la generazione di report e migliorare la gestione dei dati.
 
@@ -52,6 +55,9 @@ Impara ad automatizzare la regolazione dell'altezza delle righe nei file Excel c
 
 ### [Gestione efficiente delle righe in Excel utilizzando Aspose.Cells per Java: inserimento ed eliminazione di righe](./aspose-cells-java-row-operations-excel/)
 Padroneggia le operazioni di riga in Excel con Aspose.Cells per Java. Impara a inserire ed eliminare righe in modo efficiente, ottimizzando le tue attività di gestione dei dati.
+
+### [Blocca le prime due righe in Excel con Java – Guida completa](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Impara a bloccare le prime due righe di un foglio Excel usando Aspose.Cells per Java, con esempi di codice e consigli pratici.
 
 ### [Rimozione del foglio master con Aspose.Cells in Java](./aspose-cells-java-sheet-removal-guide/)
 Un tutorial sul codice per Aspose.Words Java
@@ -108,6 +114,8 @@ Scopri come visualizzare facilmente righe e colonne nascoste nei file Excel util
 Impara a generare più fogli di lavoro in un file Excel usando Aspose.Cells per Java con un modello predefinito, passo passo.
 ### [Come cancellare l'autofiltro in Excel con Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
 Scopri come rimuovere l'autofiltro da un foglio Excel usando Aspose.Cells per Java.
+### [Come creare fogli di dettaglio duplicati in Aspose.Cells per Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+Scopri come creare fogli di dettaglio duplicati in Excel utilizzando Aspose.Cells per Java.
 
 ## Risorse aggiuntive
 

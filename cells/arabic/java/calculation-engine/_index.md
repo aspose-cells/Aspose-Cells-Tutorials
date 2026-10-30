@@ -64,6 +64,12 @@ weight: 22
 ### [الصيغ الديناميكية للمصفوفات في Java: إنشاء مصنف Excel وحساب جميع الصيغ](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
 تعلم كيفية إنشاء مصنف Excel باستخدام Aspose.Cells في Java وتطبيق الصيغ الديناميكية لحساب جميع القيم تلقائيًا.
 
+### [كيفية تحديث دفاتر عمل Excel في Java باستخدام Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
+دروس توضح كيفية تحديث دفاتر عمل Excel برمجياً باستخدام Aspose.Cells للـ Java.
+
+### [كيفية إجبار حساب الصيغ في Java باستخدام Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+دروس شفرة لتعلم كيفية إجبار محرك الحساب على حساب الصيغ في Aspose.Cells للـ Java
+
 ## موارد إضافية
 - [توثيق Aspose.Cells للـ Java](https://docs.aspose.com/cells/java/)
 - [مرجع API لـ Aspose.Cells للـ Java](https://reference.aspose.com/cells/java/)

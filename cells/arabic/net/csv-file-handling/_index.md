@@ -39,6 +39,8 @@
 تعلم كيفية حفظ ملفات Excel بصيغة CSV باستخدام C# مع Aspose.Cells خطوة بخطوة.
 ### [إنشاء مصنف جديد وتصديره إلى CSV – دليل خطوة بخطوة بلغة C#](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 تعلم كيفية إنشاء مصنف جديد وتصديره إلى ملف CSV باستخدام Aspose.Cells لـ .NET مع أمثلة C# واضحة.
+### [كيفية إنشاء ملف CSV من Excel باستخدام Aspose.Cells في C#](./how-to-create-csv-from-excel-using-aspose-cells-in-c/)
+تعلم كيفية إنشاء ملف CSV من مصنف Excel باستخدام Aspose.Cells في C# بسهولة.
 
 
 
@@ -63,6 +65,10 @@
 تعلم خطوة بخطوة كيفية تصدير ملفات CSV من Excel باستخدام C# مع Aspose.Cells .NET.
 ### [حفظ المصنف كملف CSV – دليل شامل لتصدير Excel إلى CSV مع التحكم في الأرقام](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-w/)
 تعلم كيفية حفظ المصنف كملف CSV مع التحكم في عدد الأرقام بعد الفاصلة لضمان دقة البيانات.
+### [كيفية حفظ المصنف كملف CSV مع تنسيقات دقيقة باستخدام Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
+تعلم كيفية حفظ المصنف كملف CSV مع تنسيقات دقيقة باستخدام Aspose.Cells لـ .NET.
+### [حفظ المصنف كملف CSV في C# – دليل برمجة كامل](./save-workbook-as-csv-in-c-complete-programming-guide/)
+تعلم كيفية حفظ المصنف كملف CSV باستخدام Aspose.Cells لـ .NET في C# خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -36,6 +36,8 @@ Excelシート上に複数の名前付き範囲が散在していて、それら
 Aspose.Cells for .NET を使った簡単なガイドで名前付き範囲にアクセスし、Excel のパワーを最大限に引き出しましょう。データ管理に最適です。
 ### [Excelで特定の名前付き範囲にアクセスする](./access-specific-named-range/)
 この包括的なステップバイステップのチュートリアルとサンプル コードを使用して、Aspose.Cells for .NET を使用して Excel 内の特定の名前付き範囲にアクセスする方法を学習します。
+### [C# で Excel に名前付き範囲を定義する – ワークブックの作成](./define-named-range-in-excel-with-c-create-workbook/)
+C# を使用してワークブックを作成し、名前付き範囲を定義する手順を示します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

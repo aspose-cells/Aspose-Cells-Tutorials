@@ -57,6 +57,8 @@ Kód oktatóanyag az Aspose.Words Java-hoz
 Tanulja meg, hogyan hozhat létre és kezelhet megjegyzéseket Excel-fájlokban Java segítségével, lépésről lépésre útmutatóval.
 ### [Megjegyzés hozzáadása Excelhez Java‑ban – Teljes lépésről‑lépésre útmutató](./add-comment-to-excel-using-java-complete-step-by-step-guide/)
 Tanuld meg, hogyan adhatsz hozzá megjegyzést Excel-fájlokhoz Java‑val az Aspose.Cells segítségével, részletes kódpéldákkal.
+### [Megjegyzés hozzáadása Excelhez Java-val – Teljes lépésről‑lépésre útmutató](./add-comment-to-excel-with-java-complete-step-by-step-guide/)
+Tanulja meg, hogyan adjon hozzá megjegyzést egy Excel-fájlhoz Java használatával, részletes lépésről‑lépésre útmutatóval.
 
 ## További források
 

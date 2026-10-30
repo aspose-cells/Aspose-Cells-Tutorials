@@ -48,6 +48,7 @@ Aprenda a automatizar a geração dinâmica de relatórios do Excel com o Aspose
 Aprenda a gerar uma pasta de trabalho mestre‑detalhe usando Aspose.Cells para Java, facilitando relatórios hierárquicos e consolidação de dados.
 ### [Criar planilhas de detalhes em Java com marcadores inteligentes do Aspose.Cells](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
 Aprenda a gerar planilhas detalhadas usando marcadores inteligentes do Aspose.Cells em Java.
+### [Como preencher um modelo Excel com dados usando Aspose.Cells](./how-to-populate-excel-template-with-data-using-aspose-cells/)
 
 ### [Como gerar planilhas com Smart Markers – Guia completo Java](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
 Aprenda a gerar planilhas usando Smart Markers no Aspose.Cells para Java com este guia completo passo a passo.
@@ -61,6 +62,11 @@ Aprenda a preencher um modelo Excel com dados e gerar relatórios dinamicamente 
 
 ### [Aspose Cells Marcadores Inteligentes – Preencher Modelo do Excel](./aspose-cells-smart-markers-populate-excel-template/)
 Aprenda a usar Marcadores Inteligentes do Aspose.Cells para Java para preencher modelos do Excel com dados dinamicamente.
+### [Como gerar relatório com Marcadores Inteligentes do Excel – Guia completo em Java](./how-to-generate-report-with-excel-smart-markers-full-java-gu/)
+Aprenda passo a passo a gerar relatórios usando Marcadores Inteligentes no Excel com Aspose.Cells para Java, com exemplos completos.
+
+### [Criar Pasta de Trabalho Excel com Marcadores Inteligentes – Guia Java](./create-excel-workbook-with-smart-markers-java-guide/)
+Aprenda a gerar uma pasta de trabalho Excel usando Marcadores Inteligentes com Aspose.Cells para Java, com exemplos passo a passo.
 
 ## Recursos adicionais
 

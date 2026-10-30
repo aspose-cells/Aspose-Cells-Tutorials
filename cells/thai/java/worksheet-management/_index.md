@@ -32,6 +32,9 @@
 ### [วิธีเพิ่มเวิร์กชีตใน Excel โดยใช้ Aspose.Cells สำหรับ Java: คู่มือฉบับสมบูรณ์](./add-spreadsheets-excel-aspose-cells-java/)
 เรียนรู้วิธีการเพิ่มเวิร์กชีตลงในไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า การใช้งาน และแอปพลิเคชันจริง
 
+### [สร้างแผ่นงานจากรายการด้วย Aspose.Cells Java – คู่มือฉบับสมบูรณ์](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+เรียนรู้วิธีสร้างแผ่นงานหลายแผ่นจากรายการโดยใช้ Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดทีละขั้นตอน
+
 ### [วิธีแทรกคอลัมน์ใน Excel โดยใช้ Aspose.Cells สำหรับ Java - คู่มือฉบับสมบูรณ์](./aspose-cells-java-insert-column-excel/)
 เรียนรู้การแทรกคอลัมน์ลงในเวิร์กชีต Excel ด้วย Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำโดยละเอียดนี้เพื่อสร้างรายงานอัตโนมัติและปรับปรุงการจัดการข้อมูล
 
@@ -52,6 +55,9 @@
 
 ### [การจัดการแถวอย่างมีประสิทธิภาพใน Excel โดยใช้ Aspose.Cells สำหรับ Java: แทรกและลบแถว](./aspose-cells-java-row-operations-excel/)
 เรียนรู้การดำเนินการแถวใน Excel ด้วย Aspose.Cells สำหรับ Java เรียนรู้การแทรกและลบแถวอย่างมีประสิทธิภาพ เพิ่มประสิทธิภาพงานการจัดการข้อมูลของคุณ
+
+### [การตรึงสองแถวแรกใน Excel ด้วย Java – คู่มือฉบับสมบูรณ์](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+เรียนรู้วิธีตรึงสองแถวแรกของแผ่นงาน Excel ด้วย Aspose.Cells สำหรับ Java เพื่อให้หัวตารางคงที่ขณะเลื่อน
 
 ### [การลบมาสเตอร์ชีทด้วย Aspose.Cells ใน Java](./aspose-cells-java-sheet-removal-guide/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Java
@@ -108,6 +114,8 @@
 เรียนรู้วิธีสร้างหลายแผ่นงานในไฟล์ Excel ด้วย Java โดยใช้เทมเพลตที่กำหนดเองเพื่ออัตโนมัติและเพิ่มประสิทธิภาพการทำงาน
 ### [วิธีล้าง Autofilter ใน Excel ด้วย Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
 เรียนรู้วิธีล้างตัวกรองอัตโนมัติในไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ Java
+### [วิธีสร้างแผ่นงานรายละเอียดซ้ำใน Aspose.Cells สำหรับ Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+เรียนรู้วิธีสร้างแผ่นงานรายละเอียดที่ซ้ำกันในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java
 
 ## แหล่งข้อมูลเพิ่มเติม
 

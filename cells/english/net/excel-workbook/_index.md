@@ -111,6 +111,7 @@ So why not embrace this chance to enhance your Excel skills? Each tutorial not o
 | [Create New Workbook in C# – Step‑by‑Step Guide](./create-new-workbook-in-c-step-by-step-guide/) | Learn how to create a new Excel workbook in C# using Aspose.Cells for .NET with this detailed step-by-step guide. |
 | [Create new Excel workbook in C# – Step‑by‑Step Guide](./create-new-excel-workbook-in-c-step-by-step-guide/) | Learn how to create a new Excel workbook in C# using Aspose.Cells for .NET with this comprehensive step‑by‑step tutorial. |
 | [Create New Workbook – Convert Markdown to Excel in C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Learn how to create a new workbook and convert Markdown to Excel using Aspose.Cells for .NET with C# in this step-by-step guide. |
+| [Create Excel Workbook and Write Data in C# – Full Step‑by‑Step Guide](./create-excel-workbook-and-write-data-in-c-full-step-by-step/) | Learn how to create an Excel workbook and write data using Aspose.Cells for .NET in C# with a complete step-by-step tutorial. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

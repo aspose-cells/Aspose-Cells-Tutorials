@@ -69,6 +69,8 @@ Leer hoe je een Excel-werkmap als PDF opslaat met Aspose.Cells voor .NET in deze
 Leer hoe je een XLSX-bestand naar PDF converteert in C# met ondersteuning voor PDF/A‑1b, stap voor stap met Aspose.Cells.
 ### [Excel naar PDF converteren in C# – volledige programmeergids](./convert-excel-to-pdf-in-c-complete-programming-guide/)
 Leer stap voor stap hoe je Excel-bestanden naar PDF converteert met C# en Aspose.Cells.
+### [Hoe PDF op te slaan met fontvariatie-selectors – volledige gids](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
+Leer hoe je PDF's opslaat met fontvariatie-selectors voor nauwkeurige weergave van speciale tekens.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

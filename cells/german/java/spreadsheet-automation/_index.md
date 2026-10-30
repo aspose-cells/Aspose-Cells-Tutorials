@@ -48,6 +48,7 @@ Lernen Sie die Automatisierung von Excel-Arbeitsmappen in Java mit Aspose.Cells:
 Erfahren Sie, wie Sie mit Aspose.Cells ein neues Excel‑Arbeitsbuch erstellen, eine benutzerdefinierte Eigenschaft hinzufügen und es als XLSB speichern.
 ### [Automatisieren von Excel-Diagrammen](./automating-excel-charts/)
 Erfahren Sie anhand von Quellcodebeispielen, wie Sie die Erstellung und Anpassung von Excel-Diagrammen mit Aspose.Cells für Java automatisieren. Optimieren Sie Ihre Diagrammerstellung. 
+### [Autofilter aus Excel mit Java entfernen – Komplettanleitung](./remove-autofilter-from-excel-with-java-complete-guide/)
 ### [Excel-Automatisierung mit Java](./excel-automation-with-java/)
 Erfahren Sie anhand von Quellcodebeispielen, wie Sie Excel-Aufgaben in Java automatisieren, indem Sie Aspose.Cells verwenden, eine leistungsstarke Bibliothek zur Excel-Bearbeitung.
 ### [Datenintegration in Excel](./data-integration-in-excel/)
@@ -67,6 +68,12 @@ Erfahren Sie anhand von Quellcodebeispielen, wie Sie die Expand‑Funktion in Ex
 
 ### [Wie man AutoFilter in Excel mit Java löscht – Komplettanleitung](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java AutoFilter in Excel-Tabellen programmgesteuert entfernen und Daten sauber filtern.
+### [Wie man Tabellenkopf in Excel mit Java löscht – Vollständige Anleitung](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Tabellenköpfe aus Excel-Dateien entfernen und Ihre Arbeitsmappen bereinigen.
+### [Array in Excel mit Java erweitern – Schritt‑für‑Schritt‑Anleitung](./expand-array-in-excel-with-java-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java ein Array in Excel erweitern, inklusive Beispielcode und detaillierter Anleitung.
+### [So verwenden Sie Aspose.Cells: Benutzerdefinierte Eigenschaft hinzufügen und XLSB speichern](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+Erfahren Sie, wie Sie mit Aspose.Cells benutzerdefinierte Eigenschaften zu einer Arbeitsmappe hinzufügen und sie im XLSB-Format speichern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

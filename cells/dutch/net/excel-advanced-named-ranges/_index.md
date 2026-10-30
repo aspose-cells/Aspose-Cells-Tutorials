@@ -42,6 +42,8 @@ Leer hoe u een Excel-werkmap maakt, tabellen toevoegt en benoemingsregels instel
 Leer hoe u een Excel-werkmap opslaat en een benoemd bereik toevoegt met een volledige C#-handleiding.
 ### [Maak Excel-werkmap in C# – Voeg een benoemd bereik toe en stel de tabelnaam in](./create-excel-workbook-in-c-add-named-range-set-table-name/)
 Leer hoe u een Excel-werkmap maakt in C#, een benoemd bereik toevoegt en een tabelnaam instelt met Aspose.Cells voor .NET.
+### [Naam toewijzen aan Excel-tabel en naamconflicten voorkomen](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
+Leer hoe u een naam aan een Excel-tabel toewijst en conflicten met bestaande namen voorkomt met Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

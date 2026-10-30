@@ -69,6 +69,8 @@ Hướng dẫn chi tiết cách lưu workbook Excel thành file PDF bằng Aspos
 Hướng dẫn chi tiết cách lưu tệp XLSX thành PDF trong C# với chuẩn PDF/A‑1b bằng Aspose.Cells.
 ### [Chuyển đổi Excel sang PDF trong C# – hướng dẫn lập trình đầy đủ](./convert-excel-to-pdf-in-c-complete-programming-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang PDF bằng C# với Aspose.Cells, bao gồm mọi bước cần thiết.
+### [Cách lưu PDF với bộ chọn biến thể phông chữ – hướng dẫn đầy đủ](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
+Hướng dẫn chi tiết cách lưu tệp PDF giữ nguyên các bộ chọn biến thể phông chữ, đảm bảo hiển thị chính xác trên mọi thiết bị.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

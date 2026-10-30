@@ -64,6 +64,9 @@ Aspose.Cells Net 代码教程
 ### [使用 C# 生成 Excel 报表 – 步骤指南](./generate-excel-report-with-c-step-by-step-guide/)
 学习如何使用 C# 与 Aspose.Cells 逐步生成 Excel 报表，涵盖模板创建、数据绑定和导出。
 
+### [如何在 Excel 中展开数组并填充模板](./how-to-expand-array-in-excel-and-populate-a-template)
+学习如何在 Excel 中展开数组并将数据填充到模板，实现动态报表生成。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -42,6 +42,8 @@ Aspose.Cells for .NET을 사용해 Excel 워크북을 만들고, 테이블을 �
 Aspose.Cells for .NET을 사용하여 Excel 워크북을 저장하고 명명된 범위를 추가하는 전체 C# 가이드입니다.
 ### [C#에서 Excel 워크북 만들기 – 명명된 범위 추가 및 테이블 이름 설정](./create-excel-workbook-in-c-add-named-range-set-table-name/)
 C#를 사용해 Excel 워크북을 생성하고, 명명된 범위를 추가한 뒤 테이블 이름을 설정하는 방법을 단계별로 안내합니다.
+### [Excel 테이블에 이름 지정 및 명명 충돌 방지](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
+Aspose.Cells for .NET을 사용해 Excel 테이블에 이름을 지정하고 명명 충돌을 방지하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

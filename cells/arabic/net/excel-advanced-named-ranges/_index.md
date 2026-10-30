@@ -42,6 +42,8 @@
 تعلم كيفية حفظ ملف Excel وإضافة نطاق مسمى باستخدام Aspose.Cells لـ .NET في دليل شامل بلغة C#.
 ### [إنشاء مصنف Excel في C# – إضافة نطاق مسمى وتعيين اسم جدول](./create-excel-workbook-in-c-add-named-range-set-table-name/)
 تعلم كيفية إنشاء مصنف Excel في C# وإضافة نطاق مسمى وتحديد اسم جدول باستخدام Aspose.Cells.
+### [تعيين اسم لجدول Excel وتجنب تعارضات الأسماء](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
+تعلم كيفية تعيين اسم لجدول Excel وتجنب تعارضات الأسماء باستخدام Aspose.Cells لـ .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

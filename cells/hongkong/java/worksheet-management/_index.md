@@ -34,6 +34,8 @@
 
 ### [使用 Java 在 Excel 中建立多個工作表 – 完整範本指南](./create-multiple-sheets-in-excel-with-java-complete-template/)
 了解如何使用 Aspose.Cells for Java 透過範本一次性建立多個工作表，提升報表生成效率。
+### [使用 Aspose.Cells for Java 從清單建立工作表 – 完整指南](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+了解如何使用 Aspose.Cells for Java 從清單動態生成多個工作表，並自動填充資料與格式設定。
 
 ### [如何使用 Aspose.Cells for Java 在 Excel 中插入列 - 綜合指南](./aspose-cells-java-insert-column-excel/)
 掌握使用 Aspose.Cells for Java 將列插入 Excel 工作表。按照此詳細指南可以自動產生報表並增強資料管理。
@@ -55,6 +57,9 @@ Aspose.Words Java 程式碼教程
 
 ### [使用 Aspose.Cells for Java 在 Excel 中實現高效的行管理：插入和刪除行](./aspose-cells-java-row-operations-excel/)
 使用 Aspose.Cells for Java 掌握 Excel 中的行操作。學習有效地插入和刪除行，優化資料管理任務。
+
+### [使用 Java 在 Excel 中凍結前兩行：完整指南](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+了解如何使用 Aspose.Cells for Java 在 Excel 中凍結前兩行，確保標題列固定並提升報表可讀性。
 
 ### [使用 Java 中的 Aspose.Cells 刪除主表](./aspose-cells-java-sheet-removal-guide/)
 Aspose.Words Java 程式碼教程
@@ -110,7 +115,8 @@ Aspose.Words Java 程式碼教程
 ### [使用 Aspose.Cells Java 在 Excel 中取消隱藏行和列：逐步指南](./unhide-rows-columns-excel-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 輕鬆取消隱藏 Excel 檔案中的行和列。使用本綜合指南實現資料管理自動化。
 
-
+### [如何在 Aspose.Cells for Java 中建立重複的詳細工作表](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+了解如何使用 Aspose.Cells for Java 複製詳細工作表，以便在工作簿中重複使用資料。
 
 ## 其他資源
 

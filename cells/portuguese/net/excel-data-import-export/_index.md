@@ -61,6 +61,8 @@ Aprenda a gerar rapidamente uma nova planilha Excel a partir de Markdown usando 
 Aprenda a converter dados JSON em planilhas Excel usando Aspose.Cells para .NET com este guia completo.
 ### [Converter planilha para DataTable em C# – Guia completo de programação](./convert-worksheet-to-datatable-in-c-complete-programming-gui/)
 Aprenda a converter uma planilha do Excel em um DataTable usando Aspose.Cells para .NET em C# com este guia completo.
+### [Converter JSON para XLSX em C# – guia completo passo a passo](./convert-json-to-xlsx-in-c-complete-step-by-step-guide/)
+Aprenda a converter arquivos JSON em planilhas XLSX usando C# e Aspose.Cells, com instruções detalhadas passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

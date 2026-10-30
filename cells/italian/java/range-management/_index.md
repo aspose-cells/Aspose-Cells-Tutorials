@@ -56,6 +56,9 @@ Scopri come copiare programmaticamente un intervallo di foglio di lavoro in Exce
 ### [Come copiare più colonne in Excel utilizzando Aspose.Cells Java: una guida completa](./copy-multiple-columns-excel-aspose-cells-java/)
 Scopri come automatizzare la copia di più colonne in un foglio di lavoro Excel utilizzando Aspose.Cells per Java. Questa guida illustra la configurazione, l'implementazione e la risoluzione dei problemi.
 
+### [Creare un nuovo foglio di lavoro e copiare un intervallo Excel con Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+Scopri come creare un nuovo foglio di lavoro e copiare un intervallo di celle in Excel usando Aspose.Cells per Java.
+
 ### [Creare un intervallo di unione in Excel utilizzando Aspose.Cells Java: una guida completa](./create-union-range-excel-aspose-cells-java/)
 Scopri come utilizzare Aspose.Cells per Java per creare intervalli di unione in Excel, migliorando la presentazione e la leggibilità dei dati.
 
@@ -88,6 +91,8 @@ Scopri come separare in modo efficiente le celle nei file Excel utilizzando Aspo
 
 ### [Assegnare un nome a una cella in Excel con Java – Guida completa](./assign-name-to-cell-in-excel-using-java-complete-guide/)
 Scopri come assegnare un nome a una cella in Excel usando Aspose.Cells per Java con esempi di codice passo passo.
+### [Copia intervallo tra cartelle di lavoro in Java – guida passo‑passo](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+Scopri come copiare intervalli di celle da una cartella di lavoro all'altra usando Aspose.Cells per Java.
 
 ## Risorse aggiuntive
 

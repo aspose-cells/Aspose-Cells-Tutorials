@@ -104,6 +104,8 @@
 يمكنك بسهولة تعيين اسم علامة تبويب ورقة واحدة أثناء تصدير HTML باستخدام Aspose.Cells لـ .NET. دليل خطوة بخطوة مع أمثلة برمجية.
 ### [حفظ Excel كـ HTML – دليل كامل لتصدير Excel مع التنسيق](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
 تعرف على كيفية حفظ ملفات Excel كصفحات HTML مع الحفاظ على جميع التنسيقات باستخدام Aspose.Cells لـ .NET في دليل شامل خطوة بخطوة.
+### [تصدير Excel إلى HTML – دليل كامل للحفاظ على الأجزاء المثبتة](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
+تعرف على كيفية تصدير Excel إلى HTML مع الحفاظ على الأجزاء المثبتة باستخدام Aspose.Cells لـ .NET في هذا الدليل المفصل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

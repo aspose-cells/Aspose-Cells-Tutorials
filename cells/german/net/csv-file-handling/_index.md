@@ -37,6 +37,8 @@ Erfahren Sie, wie Sie CSV-Dateien mit benutzerdefinierten Parsern in Aspose.Cell
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Arbeitsmappen in CSV-Dateien exportieren und speichern.
 ### [Neues Arbeitsbuch erstellen und in CSV exportieren – Schritt‑für‑Schritt C#‑Leitfaden](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 Erfahren Sie, wie Sie ein neues Arbeitsbuch erstellen und es mit Aspose.Cells für .NET in eine CSV-Datei exportieren – ein klarer C#‑Leitfaden.
+### [CSV aus Excel mit Aspose.Cells in C# erstellen](./how-to-create-csv-from-excel-using-aspose-cells-in-c/)
+Erfahren Sie, wie Sie Excel-Arbeitsmappen in CSV-Dateien konvertieren.
 
 
 
@@ -61,6 +63,10 @@ Erfahren Sie, wie Sie Tabellen mit Aspose.Cells für .NET in CSV-Dateien exporti
 Erfahren Sie, wie Sie CSV-Dateien aus Excel mithilfe von C# und Aspose.Cells exportieren – Schritt für Schritt.
 ### [Arbeitsmappe als CSV speichern – Vollständige Anleitung zum Exportieren von Excel nach CSV mit kontrollierten Ziffern](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-w/)
 Erfahren Sie, wie Sie Arbeitsmappen mit Aspose.Cells präzise als CSV exportieren und die Anzahl der Nachkommastellen steuern.
+### [Arbeitsmappe als CSV mit präzisem Format speichern mit Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
+Erfahren Sie, wie Sie eine Arbeitsmappe mit Aspose.Cells als CSV speichern und dabei das genaue Zahlen- und Datumsformat beibehalten.
+### [Arbeitsmappe als CSV in C# speichern – Vollständiger Programmierleitfaden](./save-workbook-as-csv-in-c-complete-programming-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Arbeitsmappen vollständig als CSV-Dateien speichern – Schritt für Schritt Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

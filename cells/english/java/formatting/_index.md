@@ -67,6 +67,8 @@ Learn how to apply number formats and custom date styles using Aspose.Cells for 
 
 ### [Aspose Cells Date Format: How to Set Custom Date Format in Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
 Learn how to set custom date formats in Excel using Aspose.Cells for Java, with step-by-step code examples and best practices.
+### [Apply Number Format Excel in Java – Complete Aspose.Cells Guide](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+Learn how to apply number formats to Excel cells using Aspose.Cells for Java with step-by-step code examples.
 
 ### [How to Create & Format Excel Cells Using Aspose.Cells for Java&#58; A Step-by-Step Guide](./aspose-cells-java-excel-automation-guide/)
 Learn how to automate and format Excel files with ease using Aspose.Cells for Java. This guide covers workbook creation, cell formatting, and saving techniques.
@@ -200,6 +202,9 @@ Learn how to merge and style cells in Excel with Aspose.Cells for Java. This gui
 ### [How to Wrap Text in Excel Cells Using Aspose.Cells for Java&#58; A Complete Guide](./master-text-wrapping-excel-cells-aspose-cells-java/)
 Master text wrapping in Excel cells with Aspose.Cells for Java. Learn how to set up, implement text wrap styles, and optimize cell presentation.
 
+### [How to Use WRAPCOLS in Aspose.Cells – Complete Java Example](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Learn how to use the WRAPCOLS option in Aspose.Cells for Java to wrap text across multiple columns with a complete example.
+
 ### [Mastering Text Direction in Excel Cells with Aspose.Cells for Java&#58; A Comprehensive Guide](./mastering-aspose-cells-java-text-direction/)
 Learn how to set text direction in Excel cells using Aspose.Cells for Java. This guide covers creating workbooks, setting cell values, and saving files.
 
@@ -248,6 +253,8 @@ Master styling Excel cells and adding hyperlinks in your Java applications with 
 ### [Create Excel Workbook with Dynamic Formatting in Java – Full Guide](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 Learn how to create Excel workbooks with dynamic formatting using Aspose.Cells for Java, including code examples and best practices.
 
+### [Create Styled Excel Workbook in Java – Complete Guide](./create-styled-excel-workbook-in-java-complete-guide/)
+Learn how to create a fully styled Excel workbook in Java using Aspose.Cells, covering workbook setup, styling techniques, and saving options.
 
 ### [How to Apply Styles When Converting DataTable to Excel – Full Java Guide](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 Learn how to apply cell styles while converting a DataTable to Excel using Aspose.Cells for Java, with step-by-step code examples.

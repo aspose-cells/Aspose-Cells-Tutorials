@@ -50,6 +50,7 @@ Aspose.Cells for .NET을 사용하여 C#에서 Excel 워크북을 생성하고 �
 ### [사용자 지정 서식으로 Excel 워크북 만들기 – C# 가이드](./create-excel-workbook-with-custom-format-c-guide/)
 Aspose.Cells for .NET을 사용하여 C#에서 사용자 지정 서식이 적용된 Excel 워크북을 만드는 방법을 단계별로 안내합니다.
 ### [Aspose.Cells를 사용한 C#에서 일본 연호 날짜 구문 분석 – 전체 가이드](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+### [Aspose.Cells를 사용해 일본 황제 연호로 DateTime 파싱](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
 
 ### [C#에서 Excel 워크북을 만들고 일본 날짜를 구문 분석하는 방법](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
 

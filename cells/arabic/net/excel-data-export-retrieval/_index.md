@@ -50,6 +50,9 @@
 ### [إنشاء ورقة Excel من DataTable في C# – دليل خطوة بخطوة](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
 تعلم كيفية إنشاء ورقة Excel من DataTable باستخدام C# و Aspose.Cells خطوة بخطوة، مناسب للمبتدئين والمحترفين.
 
+### [كيفية تصدير جدول Excel – دليل خطوة بخطوة كامل](./how-to-export-excel-table-complete-step-by-step-guide/)
+تعلم كيفية تصدير جدول Excel إلى ملف باستخدام Aspose.Cells لـ .NET في هذا الدليل الشامل خطوة بخطوة، مناسب لجميع المستويات.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

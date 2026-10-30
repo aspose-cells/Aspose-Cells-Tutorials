@@ -51,6 +51,9 @@ Aspose.Cells kullanarak Java'da Excel çalışma kitaplarını nasıl düzenleye
 ### [Java için Aspose.Cells Kullanarak Excel'i Markdown Olarak Yükleme ve Kaydetme](./aspose-cells-java-excel-to-markdown/)
 Aspose.Cells for Java kullanarak Excel dosyalarını Markdown formatına nasıl verimli bir şekilde dönüştüreceğinizi öğrenin. Bu kılavuz kurulum, yükleme, kaydetme ve pratik uygulamaları kapsar.
 
+### [Java ile Excel Çalışma Kitabı Oluşturma: Japon Dönemi Tarihlerini İşleme](./create-excel-workbook-java-handle-japanese-era-dates/)
+Java'da Aspose.Cells kullanarak Japon dönemi tarihlerini doğru şekilde işleyerek Excel çalışma kitabı oluşturmayı öğrenin.
+
 ### [Excel'i Aspose.Cells Java ile PDF'ye dönüştürün](./aspose-cells-java-excel-to-pdf-conversion/)
 Aspose.Words Java için bir kod eğitimi
 
@@ -192,7 +195,7 @@ Excel dosyalarını Aspose.Cells for Java ile sorunsuz bir şekilde HTML'ye nas�
 ### [Aspose.Cells Java kullanarak Excel'i Optimize Edilmiş PDF'ye Dönüştürme: Adım Adım Kılavuz](./convert-excel-to-optimized-pdf-aspose-cells-java/)
 Excel dosyalarını Aspose.Cells for Java ile optimize edilmiş PDF'lere nasıl dönüştüreceğinizi öğrenin. Bu kılavuz çalışma kitaplarını yüklemeyi, optimizasyon seçeneklerini ayarlamayı ve PDF olarak kaydetmeyi kapsar.
 
-### [Aspose.Cells Kullanarak Java'da Excel'i PDF'ye Nasıl Dönüştürebilirsiniz: Adım Adım Kılavuz](./convert-excel-to-pdf-aspose-cells-java/)
+### [Aspose.Cells kullanarak Java'da Excel'i PDF'ye Nasıl Dönüştürebilirsiniz: Adım Adım Kılavuz](./convert-excel-to-pdf-aspose-cells-java/)
 Excel dosyalarını Aspose.Cells for Java ile sorunsuz bir şekilde yüksek kaliteli PDF'lere nasıl dönüştüreceğinizi öğrenin. Bu kılavuz kurulum, yapılandırma ve en iyi uygulamaları kapsar.
 
 ### [Aspose.Cells kullanarak Java'da Sütunları Sığdır ile Excel'i PDF'ye Dönüştürme](./convert-excel-to-pdf-fit-columns-java/)
@@ -220,7 +223,7 @@ Aspose.Cells Java kullanarak HTML dizelerini yapılandırılmış Excel çalış
 XLSB dosalarını Aspose.Cells for Java kullanarak makro etkin XLSM çalışma kitaplarına nasıl dönüştüreceğinizi öğrenin. Kod örnekleri ve en iyi uygulamalar içeren bu kapsamlı kılavuzu izleyin.
 
 ### [Java için Aspose.Cells'i Kullanarak Excel Sayfaları Oluşturun ve Erişim Sağlayın, PDF Yer İşaretleri Ekleyin](./create-access-excel-sheets-add-pdf-bookmarks-aspose-cells-java/)
-Excel sayfaları oluşturmak ve bunlara erişmek, PDF'lere yer imleri eklemek ve belge gezintinizi kolaylaştırmak için Aspose.Cells for Java'yı nasıl kullanacağınızı öğrenin.
+Excel sayfaları oluşturmak ve bunlara erişmek, PDF'lere yer imleri eklemek ve belge gezintinizi kolaylaştırmak için Aspose.Cells for Java'yı nasıl kullanacağacağınızı öğrenin.
 
 ### [Aspose.Cells Java ile Çalışma Kitapları Oluşturun](./create-configure-workbooks-aspose-cells-java/)
 Aspose.Words Java için bir kod eğitimi
@@ -261,7 +264,7 @@ Aspose.Cells for Java kullanarak Excel dosyalarını CSV'ye etkili bir şekilde 
 ### [Aspose.Cells Java ile Excel Otomasyonu: Çalışma Kitaplarını Zahmetsizce Oluşturun ve Değiştirin](./excel-automation-aspose-cells-java-create-modify-workbooks/)
 Aspose.Cells for Java kullanarak Excel görevlerini nasıl otomatikleştireceğinizi öğrenin. Bu eğitim, çalışma kitaplarını kolayca oluşturmayı, değiştirmeyi ve kaydetmeyi kapsar.
 
-### [Aspose.Cells ile Excel Otomasyonu: Java'da Anında Çalışma Kitabı Oluşturma ve Düzenleme](./excel-automation-aspose-cells-java-instant-workbook-creation/)
+### [Aspose.Cells ile Java'da Anında Çalışma Kitabı Oluşturma ve Düzenleme](./excel-automation-aspose-cells-java-instant-workbook-creation/)
 Aspose.Cells for Java kullanarak Excel görevlerini nasıl otomatikleştireceğinizi öğrenin. İş akışınızı geliştirirken çalışma kitaplarını verimli bir şekilde oluşturun, değiştirin ve kaydedin.
 
 ### [Aspose.Cells Java ile Excel Otomasyonu: Çalışma Kitaplarında Veri Yükleme ve Bulma](./excel-automation-aspose-cells-java-load-find-data/)
@@ -291,7 +294,7 @@ Aspose.Cells ile Java'da Excel dosyalarını zahmetsizce yönetmeyi ve analiz et
 ### [Aspose.Cells Java'yı Kullanarak Excel'den HTML'e Dönüştürme: CrossHideRight Tekniğine Hakim Olun](./excel-html-conversion-aspose-cells-java-crosshide-right/)
 Aspose.Cells for Java ile Excel dosyalarını HTML'e nasıl dönüştüreceğinizi öğrenin ve üst üste binen içeriği etkili bir şekilde işlemek için CrossHideRight yöntemini kullanın.
 
-### [Aspose.Cells Java'yı Kullanarak Excel'i HTML'ye Dönüştürün ve Yorumları Gizleyin](./excel-html-conversion-hide-comments-aspose-cells-java/)
+### [Aspose.Cells Java'yı Kullanarak Excel'i HTML'ye Dönüştürme ve Yorumları Gizleyin](./excel-html-conversion-hide-comments-aspose-cells-java/)
 Aspose.Cells for Java'yı kullanarak Excel çalışma kitaplarını sorunsuz bir şekilde HTML'ye nasıl dönüştüreceğinizi ve daha temiz çıktılar için yorumları gizleme seçeneklerini öğrenin.
 
 ### [Java'da Excel'den Görüntüye Dönüştürme: Aspose.Cells Kullanarak Adım Adım Kılavuz](./excel-image-conversion-aspose-cells-java/)
@@ -342,10 +345,10 @@ Excel çalışma kitaplarını kolayca oluşturmak, değiştirmek ve geliştirme
 ### [Aspose.Cells ile Java'da Excel XLSB Dosya Yönetiminde Ustalaşın: Veritabanı Bağlantılarını Yükleyin ve Değiştirin](./excel-xlsb-management-aspose-cells-java/)
 Aspose.Cells for Java kullanarak Excel XLSB dosyalarını nasıl yöneteceğinizi öğrenin. Bu eğitim, veritabanı bağlantılarını yüklemeyi, değiştirmeyi ve değişiklikleri verimli bir şekilde kaydetmeyi kapsar.
 
-### [Java için Aspose.Cells Kullanarak Özel Excel Özelliklerini PDF'ye Nasıl Aktarabilirsiniz](./export-excel-custom-properties-pdf-aspose-cells-java/)
+### [Java için Aspose.Cells Kullanarak Özel Excel Özelliklerini PDF'ye Aktarabilirsiniz](./export-excel-custom-properties-pdf-aspose-cells-java/)
 Aspose.Cells for Java kullanarak Excel çalışma kitabından özel özellikleri PDF'ye nasıl aktaracağınızı öğrenin. Bu adım adım kılavuzla veri yönetiminizi kolaylaştırın.
 
-### [Aspose.Cells Java kullanarak Excel'i HTML'ye Aktarma: Adım Adım Kılavuz](./export-excel-html-aspose-cells-java/)
+### [Aspose.Cells Java ile Excel'i HTML'ye Aktarma: Adım Adım Kılavuz](./export-excel-html-aspose-cells-java/)
 Aspose.Cells for Java kullanarak Excel dosyalarını sorunsuz bir şekilde HTML olarak nasıl dışa aktaracağınızı öğrenin. Bu kılavuz çalışma kitabı yüklemeyi, özel akış sağlayıcılarını ve çalışma kitaplarını kolayca kaydetmeyi kapsar.
 
 ### [IStreamProvider ve Aspose.Cells for Java kullanarak Excel'i HTML'ye Aktarma: Kapsamlı Bir Kılavuz](./export-excel-html-streamprovider-aspose-cells-java/)
@@ -366,7 +369,7 @@ Aspose.Words Java için bir kod eğitimi
 ### [Aspose.Cells Java Kullanarak Excel Çalışma Sayfasını PNG'ye Nasıl Aktarırım](./export-excel-to-png-aspose-cells-java/)
 Aspose.Cells for Java ile Excel çalışma sayfalarını sorunsuz bir şekilde PNG görüntüleri olarak nasıl dışa aktaracağınızı öğrenin. Veri paylaşımınızı ve raporlama iş akışlarınızı geliştirmek için bu adım adım kılavuzu izleyin.
 
-### [Aspose.Cells Java Kullanarak Excel'den Güvenli PDF'ler Oluşturun: Kapsamlı Bir Kılavuz](./generate-secure-pdfs-excel-aspose-cells-java/)
+### [Aspose.Cells Java'yı kullanarak Excel'den Güvenli PDF'ler Oluşturun: Kapsamlı Bir Kılavuz](./generate-secure-pdfs-excel-aspose-cells-java/)
 Aspose.Cells for Java kullanarak Excel dosyalarından güvenli PDF'ler oluşturmayı öğrenin. Bu kılavuz parolaları, izinleri ayarlamayı ve performansı optimize etmeyi kapsar.
 
 ### [Java'da Aspose.Cells ile PDF Yer İmleri Nasıl Oluşturulur: Kapsamlı Bir Kılavuz](./guide-create-pdf-bookmarks-java-aspose-cells/)
@@ -495,6 +498,19 @@ Excel dosyasına özel özellik eklemeyi, değerini almayı ve dosyayı XLSB for
 Aspose.Cells for Java kullanarak Japon takvimine sahip bir çalışma kitabı oluşturmayı ve kaydetmeyi öğrenin.
 ### [Java'da Yeni Çalışma Kitabı Kaydet – Çalışma Kitapları Arasında Aralık Kopyalama Eğitimi](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
 Aspose.Cells for Java kullanarak yeni bir çalışma kitabı oluşturup, bir çalışma kitabından diğerine aralık kopyalamayı öğrenin.
+### [Java ile Excel dosyası oluşturun, özel özellik ekleyin ve XLSB olarak kaydedin](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+Aspose.Cells for Java kullanarak bir Excel dosyası oluşturmayı, özel bir özellik eklemeyi ve XLSB formatında kaydetmeyi öğrenin.
+### [Java ile Excel'e Özel Özellik Ekleme – Tam Kılavuz](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+Aspose.Cells for Java kullanarak Excel dosyalarına özel özellik eklemeyi adım adım öğrenin.
+### [Yeni Çalışma Kitabı Oluşturma Java – Tam Kılavuz](./create-new-workbook-java-complete-guide/)
+Aspose.Cells for Java kullanarak yeni bir Excel çalışma kitabı oluşturmayı ve kaydetmeyi adım adım öğrenin.
+
+### [Lambda Fonksiyonu Java Kullanarak Excel Çalışma Kitabı Oluşturma Örneği](./use-lambda-function-java-to-create-excel-workbook-example/)
+Lambda fonksiyonlarıyla Java’da Excel çalışma kitabı oluşturmayı adım adım öğrenin.
+### [Java ile Excel Dosyası Oluşturma – Tam Adım‑Adım Kılavuz](./generate-excel-file-java-complete-step-by-step-guide/)
+Java ve Aspose.Cells kullanarak Excel dosyası oluşturmayı adım adım öğrenin.
+### [Java için Aspose.Cells ile Özel Özelliklerle Excel Çalışma Kitabı Oluşturma – Adım Adım Kılavuz](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+Aspose.Cells for Java kullanarak özel özelliklerle bir Excel çalışma kitabı oluşturmayı ve kaydetmeyi öğrenin.
 
 ## Ek Kaynaklar
 

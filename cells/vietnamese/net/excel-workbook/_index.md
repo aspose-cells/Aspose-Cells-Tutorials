@@ -119,6 +119,7 @@ Vậy tại sao không nắm bắt cơ hội này để nâng cao kỹ năng Exc
 | [Tạo Sổ làm việc mới – Chuyển đổi Markdown sang Excel trong C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Hướng dẫn cách tạo sổ làm việc mới và chuyển đổi nội dung Markdown thành tệp Excel bằng C# và Aspose.Cells. |
 | [Cách tạo sổ làm việc trong C# – Ghi giá trị và định dạng số](./how-to-create-workbook-in-c-write-value-format-number/) | Tìm hiểu cách tạo sổ làm việc, ghi giá trị và định dạng số trong Excel bằng Aspose.Cells cho .NET với C#. |
 | [Tạo sổ làm việc Excel với Aspose.Cells – Hướng dẫn đầy đủ](./create-excel-workbook-with-aspose-cells-full-guide/) | Tìm hiểu cách tạo sổ làm việc Excel bằng Aspose.Cells cho .NET với hướng dẫn chi tiết từng bước. |  
+| [Tạo sổ làm việc Excel và ghi dữ liệu trong C# – Hướng dẫn đầy đủ từng bước](./create-excel-workbook-and-write-data-in-c-full-step-by-step/) | Hướng dẫn chi tiết cách tạo sổ làm việc Excel và ghi dữ liệu bằng C# sử dụng Aspose.Cells cho .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

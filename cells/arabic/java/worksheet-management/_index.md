@@ -65,6 +65,9 @@
 ### [نسخ صف واحد في Excel باستخدام Aspose.Cells لـ Java: دليل كامل](./copy-single-row-excel-aspose-cells-java/)
 تعرّف على كيفية نسخ صف واحد بكفاءة في Excel باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل نصائح الإعداد والتنفيذ والتحسين.
 
+### [كيفية إنشاء أوراق تفاصيل مكررة في Aspose.Cells لـ Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+تعلم كيفية إنشاء أوراق تفاصيل مكررة في ملفات Excel باستخدام Aspose.Cells للـ Java.
+
 ### [كيفية حذف الأعمدة الفارغة في Excel باستخدام Aspose.Cells Java: دليل شامل](./delete-blank-columns-aspose-cells-java/)
 تعرف على كيفية حذف الأعمدة الفارغة بكفاءة من ملفات Excel باستخدام Aspose.Cells for Java، مما يعزز إدارة البيانات وأتمتة سير العمل.
 
@@ -106,6 +109,10 @@
 تعرّف على كيفية إنشاء أوراق عمل متعددة في Excel باستخدام Java مع القوالب الجاهزة. يغطي الدليل الخطوات الكاملة والنصائح العملية.
 ### [كيفية مسح الفلتر التلقائي في Excel باستخدام Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
 تعرف على طريقة مسح الفلتر التلقائي في ملفات Excel باستخدام مكتبة Aspose.Cells لجافا.
+### [إنشاء أوراق عمل من قائمة باستخدام Aspose.Cells Java – دليل شامل](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+تعلم كيفية إنشاء أوراق عمل متعددة من قائمة بيانات باستخدام Aspose.Cells لجافا خطوة بخطوة في هذا الدليل الشامل.
+### [تجميد الصفين الأولين في Excel باستخدام Java – دليل شامل](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+تعرف على كيفية تجميد الصفين الأولين في ملفات Excel باستخدام Aspose.Cells لجافا. دليل خطوة بخطوة لتطبيقاتك.
 
 ## موارد إضافية
 

@@ -14,7 +14,7 @@
 
 # Excel munkalapkezelési oktatóanyagok Aspose.Cells Java-hoz
 
-Sajátítsa el a munkalap-kezelést részletes Aspose.Cells Java oktatóanyagainkkal. Ezek a lépésről lépésre bemutatják, hogyan hozhat létre új munkalapokat, nevezhet át meglévő munkalapokat, másolhat tartalmat munkalapok között, kezelheti a láthatóságot és rendszerezheti Excel-munkafüzeteit programozottan. Minden oktatóanyag működő Java-kódpéldákat, megvalósítási megjegyzéseket és ajánlott gyakorlatokat tartalmaz, amelyek segítenek olyan alkalmazások létrehozásában, amelyek hatékonyan kezelik a többlapos munkafüzeteket tiszta, karbantartható kóddal.
+Sajátítsa el a munkalap-kezelést részletes Aspose.Cells Java oktatóanyagainkkal. Ezek a lépésről lépésre bemutatják, hogyan hozhat létre új munkalapokat, nevezhet át meglévő munkalapokat, másolhat tartalmat munkalapok között, kezelheti a láthatóságot és rendszerezheti Excel-munkafüzeteit programozottan. Minden oktatóanyag működő Java-kódpéldákat, megvalósítási megjegyzéseket és ajánlott gyakorlatokat tartalmaz, amelyek segítenek olyan alkalmazások létrehozásában, amelyek hatékonyan kezelik a töblapos munkafüzeteket tiszta, karbantartható kóddal.
 
 ## Amit tanulni fogsz
 
@@ -83,6 +83,9 @@ Ismerje meg, hogyan jelenítheti meg vagy rejtheti el az Excel-füleket az Aspos
 ### [Sorok és oszlopok elrejtése Excelben az Aspose.Cells for Java használatával: Átfogó útmutató](./hide-rows-columns-aspose-cells-java/)
 Tanuld meg, hogyan rejthetsz el hatékonyan sorokat és oszlopokat Excel-táblázatokban az Aspose.Cells és Java használatával. Fejleszd adatkezelési készségeidet még ma!
 
+### [Az első két sor rögzítése Excelben Java-val – Teljes útmutató](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Tanuld meg, hogyan rögzítheted az első két sort egy Excel-fájlban az Aspose.Cells for Java segítségével.
+
 ### [Excel lapok elrejtése és mentése könnyedén az Aspose.Cells Java használatával](./hide-save-excel-tabs-aspose-cells-java/)
 Ismerd meg, hogyan egyszerűsítheted az Excel munkafolyamataidat a fülek elrejtésével és a munkafüzetek mentésével az Aspose.Cells for Java segítségével. Tökéletes a munkalapkezelés termelékenységének fokozásához.
 
@@ -106,6 +109,10 @@ Tanuld meg, hogyan nevezheted át dinamikusan a munkalapokat a SmartMarkerProces
 ### [Több munkalap létrehozása Excelben Java-val – Teljes sablonalapú útmutató](./create-multiple-sheets-in-excel-with-java-complete-template/)
 Ismerd meg, hogyan hozhatsz létre több munkalapot egy Excel-fájlban Java és sablonok segítségével, részletes példákkal.
 ### [Hogyan törölje az autofiltert Excelben az Aspose.Cells (Java) használatával](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+### [Hogyan hozhat létre duplikált részletes munkalapokat az Aspose.Cells for Java használatával](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+Tanuld meg, hogyan hozhatsz létre duplikált részletes munkalapokat az Aspose.Cells for Java segítségével.
+### [Munkalapok létrehozása listából az Aspose.Cells Java-val – Teljes útmutató](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Tanuld meg, hogyan hozhatsz létre több munkalapot egy listából az Aspose.Cells for Java segítségével.
 
 ## További források
 

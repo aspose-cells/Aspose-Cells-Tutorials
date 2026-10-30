@@ -83,11 +83,22 @@ Aspose.Cells for .NET を使用して、Excel で R1C1 数式を使ってデー�
 ### [C# で WRAPCOLS を使用する方法 – 配列を行列に変形](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
 ### [C# で Excel ワークブックを作成し、WRAPCOLS でデータを分割する方法](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
 ### [C# で Excel の余接関数を計算する方法 – 完全ガイド](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+### [C# で EXPAND 関数を使用して Excel ワークブックを作成する方法](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+Aspose.Cells for .NET を使って、C# で EXPAND 関数を利用し Excel ワークブックを作成する手順を解説します。
+
+### [C# で Excel ファイルを作成 – 条件付きロジックによるステップバイステップガイド](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
+Aspose.Cells for .NET を使用して C# で条件付きロジックを組み込んだ Excel ファイルを作成する方法をステップバイステップで解説します。
+
+### [C# ですべての数式を再計算 – Excel をリフレッシュ](./recalculate-all-formulas-in-c-refresh-excel/)
+Aspose.Cells for .NET を使用して、Excel のすべての数式を再計算し、最新のデータに更新する方法をステップバイステップで解説します。
 ### [C# で Excel の余接関数を計算する方法 – ステップバイステップ ガイド](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
 ### [C# で配列を拡張する – Aspose.Cells ステップバイステップ ガイド](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 ### [C# で Excel の配列を作成する方法 – ステップバイステップ ガイド](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 ### [C# で Excel の余接関数を計算する方法 – 完全ガイド](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 ### [ExcelでWRAPCOLSを使用する方法 – 完全なC#例](./how-to-use-wrapcols-in-excel-complete-c-example/)
+### [C# で Excel の数式計算を強制し、ラムダを使用する方法](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Aspose.Cells for .NET を使用して、C# で数式計算を強制し、ラムダ関数を活用する手順を解説します。
+### [数式付きExcelブックの作成 – 完全ステップバイステップガイド](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

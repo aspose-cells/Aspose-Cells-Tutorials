@@ -29,6 +29,9 @@ Our comments and annotations tutorials show you how to implement collaborative f
 ### [Add Image to Excel Comment with Aspose.Cells for Java&#58; A Complete Guide](./add-image-excel-comment-aspose-cells-java/)
 Learn how to add images to Excel comments using Aspose.Cells for Java. This guide covers everything from setup to implementation, enhancing your spreadsheets effectively.
 
+### [Add comment to Excel with Java – Complete Step‑by‑Step Guide](./add-comment-to-excel-with-java-complete-step-by-step-guide/)
+Learn how to add comments to Excel workbooks using Aspose.Cells for Java with a detailed step‑by‑step guide.
+
 ### [Master Aspose.Cells Java&#58; Efficient Excel Comment Management](./aspose-cells-java-excel-comment-management/)
 Learn to manage and remove Excel comments using Aspose.Cells for Java. Automate data processing with our step-by-step guide on comment management.
 

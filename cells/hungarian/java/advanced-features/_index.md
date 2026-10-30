@@ -8,6 +8,8 @@ url: /hu/java/advanced-features/
 weight: 18
 ---
 
+.
+
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -22,7 +24,7 @@ Ha kifinomult táblázatkezelő megoldásokat építesz **Aspose.Cells for Java*
 - **Mi a “freeze panes” funkció?** Kiválasztott sorokat vagy oszlopokat rögzít, így görgetés közben is láthatóak maradnak.  
 - **Melyik API hívás rögzíti az ablaktáblákat?** `Worksheet.freezePanes(row, column)` az Aspose.Cells for Java‑ban.  
 - **Lehet egyszerre sorokat és oszlopokat is rögzíteni?** Igen — adja meg mind a sor, mind az oszlop indexét.  
-- **Szükség van licencre a funkció használatához?** Ideiglenes licenc teszteléshez elegendő; a teljes licenc a termeléshez kötelező.  
+- **Szükség van licencre a funkció használatához?** Ideiglenes licenc teszteléshez elegő; a teljes licenc a termeléshez kötelező.  
 - **Támogatott nagy munkafüzeteknél is?** Teljesen — a freeze panes szinte elhanyagolható teljesítményhatással bír még óriási fájlok esetén is.
 
 ## Quick Overview
@@ -107,6 +109,11 @@ Learn how to load and modify VBA modules in Excel workbooks with Aspose.Cells fo
 
 ### [Szeletelők frissítése Java Excel fájlokban Aspose.Cells for Java‑val](./update-slicers-java-excel-aspose-cells/)
 Learn to automate slicer updates in Excel files with Aspose.Cells for Java. Follow this guide to enhance data filtering and analysis.
+
+### [Dátum elemzése helyi beállítással Java‑ban – Teljes lépésről‑lépésre útmutató](./parse-date-with-locale-in-java-complete-step-by-step-guide/)
+Tanulja meg, hogyan lehet Java‑ban helyi beállítással dátumot helyesen értelmezni lépésről‑lépésre.
+### [Wrapcols használata Java-ban – tömb átalakítása Excelben](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
+Tanulja meg, hogyan alakíthatja át a tömböket Excelben a wrapcols funkcióval Java és Aspose.Cells segítségével.
 
 ## Additional Resources
 

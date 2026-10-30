@@ -46,7 +46,7 @@ Aprenda a aplicar formatos numéricos personalizados en Excel usando C# y Aspose
 Aprenda a formatear números con separadores en C# usando Aspose.Cells en esta guía completa.
 ### [Formato de fecha ISO desde Excel – Guía completa en C#](./format-date-iso-from-excel-complete-c-guide/)
 Aprenda a formatear fechas ISO en Excel usando Aspose.Cells para .NET con esta guía completa en C#.
-### [Aplicar formato de número personalizado en la exportación de hojas de cálculo C# – Guía paso a paso](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+### [Aplicar formato de número personalizado en la exportación de hojas de cálculo C# – Guía paso a paso](./apply-custom-number-format-in-c-spreadsheet-export-step-s/)
 Aprenda a aplicar formatos numéricos personalizados al exportar hojas de cálculo en C# usando Aspose.Cells para .NET en este tutorial paso a paso.
 ### [Escribir fecha y hora en Excel – Guía completa para desarrolladores C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
 Aprenda a escribir valores de fecha y hora en hojas de Excel usando Aspose.Cells para .NET en C# paso a paso.
@@ -58,6 +58,8 @@ Aprenda a analizar y convertir fechas en hojas de Excel usando C# y Aspose.Cells
 
 
 
+### [Analizar DateTime con el reinado del emperador japonés usando Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Aprenda a analizar valores DateTime que incluyen el reinado del emperador japonés en Excel con Aspose.Cells para .NET.
 
 
 

@@ -70,6 +70,22 @@ Naučte se, jak v Javě pomocí Aspose.Cells a Aspose.Slides převést data z Ex
 Naučte se, jak pomocí Aspose.Cells pro Javu exportovat grafy z Excelu do PowerPointu a automatizovat tvorbu prezentací.
 ### [Převod Excelu do PowerPointu – Kompletní průvodce krok za krokem](./convert-excel-to-powerpoint-full-step-by-step-guide/)
 Naučte se převádět soubory Excel do prezentací PowerPoint pomocí Aspose.Cells pro Javu s podrobnými ukázkami kódu.
+### [Jak uložit Excel jako DOCX pomocí Aspose.Cells v C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+Naučte se, jak převést soubor Excel do formátu DOCX pomocí Aspose.Cells v jazyce C#.
+### [Jak zkopírovat oblast z Excelu a exportovat ji do PowerPointu pomocí Javy](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+Naučte se, jak pomocí Aspose.Cells a Aspose.Slides v Javě zkopírovat oblast buněk z Excelu a vložit ji do prezentace PowerPoint.
+### [Převod Excelu do PowerPointu pomocí Aspose.Cells v Javě](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+Naučte se převádět soubory Excel do PowerPointu pomocí Aspose.Cells v Javě.
+### [Jak uložit PPTX z Excelu – Kompletní průvodce exportem listu Excel do PowerPointu](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+Naučte se, jak exportovat list Excelu do PowerPointu ve formátu PPTX pomocí Aspose.Cells pro Javu.
+
+### [Jak používat WRAPCOLS v Javě – Kompletní průvodce konverzí matic](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
+Naučte se, jak pomocí funkce WRAPCOLS v Aspose.Cells pro Javu převádět jednorozměrná data na dvourozměrné matice a manipulovat s nimi.
+
+### [Jak vložit písma při konverzi Excelu do PDF v Javě](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
+Naučte se, jak vložit písma při převodu Excelu do PDF pomocí Aspose.Cells pro Javu.
+### [Excel do PPTX: Kompletní průvodce v Javě pro export upravitelných tvarů](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+Naučte se, jak pomocí Aspose.Cells pro Javu převést Excel do PPTX a exportovat upravitelné tvary.
 
 ## Další zdroje
 

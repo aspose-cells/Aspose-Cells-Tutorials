@@ -50,12 +50,15 @@ Erfahren Sie, wie Sie mit Aspose.Cells AutoFilter in C# automatisiert einsetzen 
 
 ### [Entfernen des Autofilters in Excel mit C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie den Autofilter in Excel mithilfe von C# und Aspose.Cells vollständig entfernen – klar und detailliert erklärt.
+### [Wie man den Autofilter aus Excel-Tabellen mit C# entfernt](./how-to-remove-autofilter-from-excel-tables-using-c/)
 ### [Filter-UI in Excel mit C# – AutoFilter-Schaltfläche entfernen](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 Erfahren Sie, wie Sie die AutoFilter-Schaltfläche in Excel per C# ausblenden und die Benutzeroberfläche bereinigen.
 ### [Filterpfeile in Excel mit C# ausblenden – Komplettanleitung](./hide-filter-arrows-excel-with-c-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET die Filterpfeile in Excel ausblenden und Ihre Arbeitsblätter übersichtlicher gestalten.
 ### [Tabelle zu Excel mit C# hinzufügen – Autofilter zurücksetzen und Datei speichern](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
 Lernen Sie, wie Sie mit Aspose.Cells in .NET eine Tabelle hinzufügen, den Autofilter zurücksetzen und die Datei speichern.
+### [AutoFilter aus Excel in C# entfernen – vollständige Anleitung](./remove-autofilter-from-excel-in-c-complete-guide/)
+Lernen Sie, wie Sie den AutoFilter in Excel mit C# vollständig entfernen und die UI optimieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

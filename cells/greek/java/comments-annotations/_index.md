@@ -56,6 +56,8 @@
 ### [Προσθήκη σχολίου σε Excel με Java – Πλήρης οδηγός](./how-to-add-comment-in-excel-with-java-complete-guide/)
 ### [Προσθήκη σχολίου σε Excel με Java – Πλήρης οδηγός βήμα προς βήμα](./add-comment-to-excel-using-java-complete-step-by-step-guide/)
 Μάθετε πώς να προσθέτετε σχόλια σε αρχεία Excel με χρήση του Aspose.Cells για Java, ακολουθώντας αναλυτικά βήματα και παραδείγματα κώδικα.
+### [Προσθήκη σχολίου σε Excel με Java – Πλήρης οδηγός βήμα‑βήμα](./add-comment-to-excel-with-java-complete-step-by-step-guide/)
+Μάθετε πώς να προσθέτετε σχόλια σε αρχεία Excel με το Aspose.Cells για Java, βήμα‑βήμα, με παραδείγματα κώδικα.
 
 ## Πρόσθετοι Πόροι
 

@@ -34,12 +34,17 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java programmgesteuert Arbeitsblätt
 
 ### [Mehrere Arbeitsblätter in Excel mit Java erstellen – Vollständiger Vorlagen‑basierter Leitfaden](./create-multiple-sheets-in-excel-with-java-complete-template/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java mehrere Arbeitsblätter aus einer Vorlage erstellen und verwalten.
+### [Arbeitsblätter aus einer Liste mit Aspose.Cells Java erstellen – Vollständige Anleitung](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Arbeitsblätter programmgesteuert aus einer Liste erstellen und speichern.
 
 ### [So fügen Sie mit Aspose.Cells für Java eine Spalte in Excel ein – Eine umfassende Anleitung](./aspose-cells-java-insert-column-excel/)
 Meistern Sie das Einfügen von Spalten in Ihre Excel-Arbeitsblätter mit Aspose.Cells für Java. Folgen Sie dieser ausführlichen Anleitung, um die Berichterstellung zu automatisieren und das Datenmanagement zu verbessern.
 
 ### [Einfügen einer Zeile mit Formatierung in Excel mit Aspose.Cells Java](./aspose-cells-java-insert-row-formatting/)
 Erfahren Sie, wie Sie mithilfe der Aspose.Cells-Bibliothek für Java formatierte Zeilen in Excel-Dateien einfügen. Folgen Sie dieser Schritt-für-Schritt-Anleitung für eine reibungslose Arbeitsblattverwaltung.
+
+### [Erste zwei Zeilen in Excel mit Java einfrieren – Vollständige Anleitung](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java die ersten beiden Zeilen in Excel einfrieren. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen.
 
 ### [So fügen Sie Zeilen in Excel-Arbeitsmappen mit Aspose.Cells für Java ein](./aspose-cells-java-insert-rows-excel-workbooks/)
 Ein Code-Tutorial für Aspose.Words Java
@@ -109,7 +114,8 @@ Ein Code-Tutorial für Aspose.Words Java
 ### [Zeilen und Spalten in Excel mit Aspose.Cells Java einblenden: Eine Schritt-für-Schritt-Anleitung](./unhide-rows-columns-excel-aspose-cells-java/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Zeilen und Spalten in Excel-Dateien mühelos sichtbar machen. Automatisieren Sie die Datenverwaltung mit diesem umfassenden Leitfaden.
 
-
+### [Wie man doppelte Detailblätter in Aspose.Cells für Java erstellt](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java doppelte Detailblätter in Excel erstellen.
 
 ## Weitere Ressourcen
 

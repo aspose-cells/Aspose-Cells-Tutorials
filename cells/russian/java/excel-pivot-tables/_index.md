@@ -51,6 +51,8 @@ Aspose.Cells для Java позволяет вам автоматизирова�
 Узнайте, как скопировать сводную таблицу в Aspose.Cells для Java, сохранить её свойства и экспортировать в презентацию PPTX.
 ### [Как скопировать сводную таблицу в Java – Полное руководство Aspose.Cells](./how-to-copy-pivot-table-in-java-complete-aspose-cells-guide/)
 Узнайте, как копировать сводные таблицы в Excel с помощью Aspose.Cells для Java, включая примеры кода и лучшие практики.
+### [Как дублировать сводные таблицы в Excel с помощью Java – пошаговое руководство](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
+Узнайте, как дублировать сводные таблицы в Excel с помощью Aspose.Cells для Java, следуя пошаговым инструкциям.
 ### [Создание PNG из сводной таблицы в Java – Полное пошаговое руководство](./create-png-from-pivot-in-java-full-step-by-step-guide/)
 Узнайте, как экспортировать сводную таблицу в PNG с помощью Aspose.Cells для Java, следуя подробным шагам.
 
@@ -69,6 +71,22 @@ Aspose.Cells для Java позволяет вам автоматизирова�
 Узнайте, как копировать сводные таблицы между рабочими книгами в Aspose.Cells для Java, используя пошаговые примеры кода.
 ### [Создание новой книги Excel в Java – Полное руководство по копированию сводной таблицы](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
 Узнайте, как создать новую книгу Excel в Java и скопировать сводную таблицу с помощью Aspose.Cells.
+### [Как дублировать лист и сохранить сводные таблицы в Java](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
+Узнайте, как дублировать лист в Excel, сохраняя все сводные таблицы, используя Aspose.Cells для Java.
+### [Как дублировать сводную таблицу в Java с помощью Aspose.Cells](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
+Узнайте, как дублировать сводную таблицу в Aspose.Cells для Java, сохраняя её свойства и форматирование.
+### [Копирование диапазона и сохранение сводной таблицы в Java](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
+Узнайте, как скопировать диапазон, сохранив привязку к сводной таблице, используя Aspose.Cells для Java.
+### [Экспорт изображения сводной таблицы в PNG с Java](./excel-pivot-table-image-export-to-png-with-java/)
+Узнайте, как экспортировать сводную таблицу Excel в изображение PNG с помощью Aspose.Cells для Java.
+### [Создание новой книги и копирование сводной таблицы в Java – Полное пошаговое руководство](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
+Узнайте, как создать новую книгу и скопировать сводную таблицу в Aspose.Cells для Java с полным пошаговым руководством.
+### [Копирование сводной таблицы в Java с Aspose.Cells – Полное руководство](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
+Узнайте, как копировать сводные таблицы в Excel с помощью Aspose.Cells для Java. Полное руководство по дублированию и настройке.
+### [Копирование сводной таблицы в Java – пошаговое руководство с использованием Aspose.Cells](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
+Узнайте, как копировать сводные таблицы в Java с помощью Aspose.Cells, следуя пошаговым инструкциям.
+### [Как скопировать сводную таблицу в Aspose.Cells – копировать диапазон в рабочую книгу](./how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook/)
+Узнайте, как скопировать сводную таблицу в другую книгу с помощью Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,6 +50,8 @@ Dowiedz się, jak zapisać skoroszyt Excel jako plik XPS w C# przy użyciu Aspos
 Dowiedz się, jak w C# konwertować plik Excel do formatu XPS oraz wczytywać plik Excel przy użyciu Aspose.Cells.
 ### [Konwersja Excel do XPS w C# – Kompletny przewodnik krok po kroku](./convert-excel-to-xps-in-c-complete-step-by-step-guide/)
 Dowiedz się, jak w C# konwertować pliki Excel do formatu XPS, korzystając z pełnego przewodnika krok po kroku i praktycznych przykładów kodu.
+### [Jak włączyć czcionki przy konwertowaniu Excela do XPS – Kompletny przewodnik](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
+Dowiedz się, jak włączyć czcionki przy konwersji plików Excel do XPS, aby zachować ich wygląd, korzystając z praktycznych przykładów kodu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

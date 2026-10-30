@@ -64,7 +64,7 @@ Opanuj automatyzację formuł Excela za pomocą Aspose.Cells dla .NET. Ten samou
 Dowiedz się, jak automatyzować zadania programu Excel za pomocą Aspose.Cells dla .NET. Twórz skoroszyty, stosuj formuły takie jak IFNA i VLOOKUP oraz usprawniaj procesy przetwarzania danych bez konieczności instalowania programu Excel.
 
 ### [Formuły obliczeń bezpośrednich w programie Excel przy użyciu Aspose.Cells dla .NET: kompleksowy przewodnik](./excel-direct-calculation-aspose-cells-dotnet)
-Dowiedz się, jak wydajnie wykonywać bezpośrednie obliczenia w programie Excel za pomocą Aspose.Cells dla .NET. Zautomatyzuj przetwarzanie formuł i ulepsz zarządzanie danymi dzięki możliwościom obliczeń na żądanie.
+Dowiedz się, jak wydajnie wykonywać bezpośrednie obliczenia w programie Excel przy użyciu Aspose.Cells dla .NET. Zautomatyzuj przetwarzanie formuł i ulepsz zarządzanie danymi dzięki możliwościom obliczeń na żądanie.
 
 ### [Wyszukiwanie formuł w programie Excel za pomocą Aspose.Cells dla platformy .NET](./excel-formula-search-aspose-cells-net)
 Dowiedz się, jak wyszukiwać określone formuły w skoroszytach programu Excel przy użyciu Aspose.Cells dla .NET. Ten samouczek obejmuje dopasowywanie wzorców, lokalizację formuł i techniki ekstrakcji w celu znajdowania formuł w arkuszach.
@@ -97,7 +97,7 @@ Dowiedz się, jak implementować współdzielone formuły w programie Excel przy
 Dowiedz się, jak opanować formuły tablicowe przy użyciu Aspose.Cells dla .NET. Ten przewodnik obejmuje konfigurację, implementację i rzeczywiste zastosowania zaawansowanych obliczeń wielokomórkowych.
 
 ### [Jak ustawić język w plikach Excela za pomocą Aspose.Cells .NET w celu zapewnienia obsługi wielu języków](./specify-language-excel-aspose-cells-net)
-Dowiedz się, jak określić język plików Excel za pomocą Aspose.Cells .NET. Zwiększ dostępność i zgodność dokumentu dzięki temu przewodnikowi krok po kroku dotyczącemu internacjonalizacji ustawień formuł.
+Dowiedz się, jak określić język plików Excel za pomocą Aspose.Cells .NET. Zwiększ dostępność i zgodność dokumentu dzięki temu przewodnikowi krok po kroku dotyczącym internacjonalizacji ustawień formuł.
 
 ### [Aktualizuj formuły programu Excel Power Query za pomocą Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Dowiedz się, jak programowo aktualizować formuły Power Query w skoroszytach programu Excel przy użyciu Aspose.Cells dla .NET. Zarządzanie głównym źródłem danych na potrzeby dynamicznego raportowania.
@@ -171,6 +171,8 @@ Dowiedz się, jak w C# wykorzystać funkcję WRAPCOLS do tworzenia i formatowani
 
 ### [Tworzenie skoroszytu Excel w C# – przewodnik po Lambda, SEQUENCE i EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 Dowiedz się, jak w C# tworzyć skoroszyty Excel wykorzystując nowe funkcje Lambda, SEQUENCE i EXPAND w Aspose.Cells.
+### [Zapisz formułę tablicową w C# – Kompletny przewodnik programistyczny](./write-array-formula-in-c-complete-programming-guide/)
+Dowiedz się, jak programowo tworzyć i wstawiać formuły tablicowe w Excelu przy użyciu Aspose.Cells w C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

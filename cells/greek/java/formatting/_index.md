@@ -248,6 +248,13 @@
 ### [Aspose Cells Μορφή Ημερομηνίας: Πώς να ορίσετε προσαρμοσμένη μορφή ημερομηνίας σε Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
 Μάθετε πώς να ορίσετε προσαρμοσμένη μορφή ημερομηνίας σε αρχεία Excel χρησιμοποιώντας το Aspose.Cells για Java.
 ### [Ορισμός έντονου γραμματοσειράς σε εξαγωγή Excel με Java – Πλήρης οδηγός](./set-font-bold-in-java-excel-export-complete-guide/)
+### [Δημιουργία Στυλιζαρισμένου Βιβλίου Εργασίας Excel σε Java – Πλήρης Οδηγός](./create-styled-excel-workbook-in-java-complete-guide/)
+Μάθετε πώς να δημιουργήσετε ένα στυλιζαρισμένο βιβλίο εργασίας Excel χρησιμοποιώντας το Aspose.Cells για Java, με βήμα-βήμα παραδείγματα κώδικα.
+
+### [Πώς να χρησιμοποιήσετε το WRAPCOLS στο Aspose.Cells – Πλήρης παράδειγμα Java](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Μάθετε πώς να εφαρμόσετε τη λειτουργία WRAPCOLS για αυτόματη αναδίπλωση κειμένου σε κελιά Excel χρησιμοποιώντας Aspose.Cells για Java.
+### [Εφαρμογή μορφοποίησης αριθμών στο Excel με Java – Πλήρης οδηγός Aspose.Cells](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+Μάθετε πώς να εφαρμόζετε μορφοποίηση αριθμών σε αρχεία Excel με το Aspose.Cells για Java, βελτιώνοντας την παρουσίαση δεδομένων.
 
 ## Πρόσθετοι Πόροι
 

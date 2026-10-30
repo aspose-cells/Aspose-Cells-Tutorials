@@ -50,12 +50,16 @@
 
 ### [إزالة التصفية التلقائية في Excel باستخدام C# – دليل خطوة بخطوة كامل](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 تعلم كيفية إزالة التصفية التلقائية من ملفات Excel باستخدام Aspose.Cells في C# من خلال دليل شامل خطوة بخطوة.
+### [إزالة AutoFilter من جداول Excel باستخدام C# – دليل كامل](./how-to-remove-autofilter-from-excel-tables-using-c/)
+تعلم كيفية إزالة AutoFilter من جداول Excel باستخدام Aspose.Cells في C# عبر دليل شامل خطوة بخطوة.
 ### [إزالة زر AutoFilter في Excel باستخدام C#](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 اكتشف كيفية إزالة زر التصفية التلقائية من واجهة Excel باستخدام Aspose.Cells و C# لتحسين تجربة المستخدم.
 ### [إخفاء أسهم الفلتر في Excel باستخدام C# – دليل كامل](./hide-filter-arrows-excel-with-c-complete-guide/)
 تعلم كيفية إخفاء أسهم الفلتر في Excel باستخدام C# عبر دليل شامل خطوة بخطوة.
 ### [إضافة جدول إلى Excel باستخدام C# – مسح الفلتر التلقائي وحفظ الملف](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
 تعلم إضافة جدول إلى ملف Excel باستخدام C#، مسح الفلتر التلقائي، وحفظ الملف بنجاح.
+### [إزالة التصفية التلقائية من Excel باستخدام C# – دليل كامل](./remove-autofilter-from-excel-in-c-complete-guide/)
+اكتشف كيفية إزالة التصفية التلقائية من ملفات Excel باستخدام C# مع Aspose.Cells في دليل شامل.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

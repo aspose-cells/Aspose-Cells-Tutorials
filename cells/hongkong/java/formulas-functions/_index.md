@@ -96,6 +96,8 @@ Aspose.Words Java 程式碼教程
 了解如何在 Excel 中使用公式計算餘切值，並在 Aspose.Cells for Java 中實作相關功能。
 ### [在 Excel 中排序唯一值 – 完整的 Java 陣列公式設定指南](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 了解如何使用 Aspose.Cells for Java 在 Excel 中設定陣列公式，以排序唯一值並提升資料處理效率。
+### [在 Aspose.Cells Java 中使用 Expand 函數：逐步指南](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
+了解如何在 Aspose.Cells for Java 中使用 Expand 函數進行資料展開與處理。
 
 ## 其他資源
 

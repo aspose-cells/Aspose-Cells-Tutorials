@@ -78,6 +78,10 @@ Bu kolay takip edilebilir kılavuzda, .NET için Aspose.Cells ile uzun metinleri
 Aspose.Cells for .NET ile C# kullanarak Excel'de sütunları stilize edip DataTable'ı nasıl içe aktaracağınızı öğrenin.
 ### [Aspose.Cells ile Hücre Stillerini Uygula – Biçimlendirilmiş DataTable'ı İçe Aktarma](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
 Aspose.Cells for .NET kullanarak DataTable'ı biçimlendirilmiş hücre stilleriyle içe aktarın ve Excel'de stil uygulamayı öğrenin.
+### [C# ile Özel Biçimlendirme Kullanarak Excel Çalışma Kitabı Oluşturma ve XLSX Olarak Kaydetme](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
+Aspose.Cells for .NET kullanarak C# ile özel biçimlendirme ekleyip Excel çalışma kitabını XLSX olarak kaydetmeyi öğrenin.
+### [Excel dosyası oluşturma C# – hücreleri biçimlendirme ve para birimi formatı ayarlama](./create-excel-file-c-style-cells-and-set-currency-format/)
+Aspose.Cells for .NET kullanarak C# ile Excel dosyası oluşturun, hücreleri biçimlendirin ve para birimi formatı uygulayın.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -89,6 +89,9 @@ Tìm hiểu cách chèn nhiều hàng vào GridJs một cách hiệu quả với
 
 ### [Aspose Cells Xóa hàng – Bảo vệ hàng tiêu đề trong Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 Hướng dẫn cách xóa các hàng trong Excel bằng Aspose.Cells trong khi bảo vệ hàng tiêu đề không bị xóa.
+### [Xóa hàng trong bảng Excel bằng Aspose.Cells – Giữ lại hàng tiêu đề](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
+Hướng dẫn chi tiết cách xóa các hàng trong bảng Excel bằng Aspose.Cells mà vẫn giữ lại hàng tiêu đề.
+
 ### [Cách lặp lại các mục trong Excel – Tạo hàng động với C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Hướng dẫn chi tiết cách tự động tạo các hàng lặp lại dữ liệu trong Excel bằng C# và Aspose.Cells.
 
@@ -110,6 +113,8 @@ Hướng dẫn chi tiết cách dùng WRAPCOLS để tạo bố cục hai cột 
 Hướng dẫn chi tiết cách dùng wrapcols trong C#, kết hợp với Excel WRAPROWS và cách tính lại công thức một cách hiệu quả.
 ### [Di chuyển ô lên trong Excel bằng C# – Hướng dẫn đầy đủ](./shift-cells-up-in-excel-with-c-complete-guide/)
 Hướng dẫn chi tiết cách dịch chuyển ô lên trong Excel bằng C#, bao gồm các bước thực hiện và ví dụ mã nguồn.
+### [Xóa các hàng trong bảng Excel – hướng dẫn C# đầy đủ](./delete-rows-from-excel-table-complete-c-guide/)
+Hướng dẫn chi tiết cách xóa các hàng trong bảng Excel bằng C# và Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

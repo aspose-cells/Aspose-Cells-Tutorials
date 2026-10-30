@@ -70,6 +70,22 @@ Aprenda a converter arquivos Excel em apresentações PowerPoint usando Aspose.S
 Aprenda a exportar gráficos do Excel para apresentações PowerPoint usando Aspose.Cells para Java, com exemplos de código completos.
 ### [Converter Excel para PowerPoint – Guia Completo Passo a Passo](./convert-excel-to-powerpoint-full-step-by-step-guide/)
 Aprenda a converter planilhas Excel em apresentações PowerPoint usando Aspose.Cells para Java, com instruções detalhadas e exemplos de código.
+### [Como salvar Excel como DOCX com Aspose.Cells em C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+Aprenda a converter arquivos Excel para DOCX usando Aspose.Cells em C# com exemplo passo a passo.
+### [Como copiar intervalo do Excel e exportá-lo para PowerPoint usando Java](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+Aprenda a copiar um intervalo de planilha Excel e exportá-lo para uma apresentação PowerPoint usando Aspose.Cells e Aspose.Slides para Java.
+### [Converter Excel para PowerPoint com Aspose.Cells em Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+Aprenda a converter arquivos Excel em apresentações PowerPoint usando Aspose.Cells para Java.
+### [Como salvar PPTX a partir do Excel – Guia completo para exportar planilha do Excel para PowerPoint](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+Aprenda a exportar planilhas do Excel para arquivos PPTX usando Aspose.Cells para Java, passo a passo.
+
+### [Como usar WRAPCOLS em Java – Guia completo para conversão de matrizes](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
+Aprenda a usar o método WRAPCOLS em Java com Aspose.Cells para converter matrizes de dados em planilhas de forma eficiente.
+
+### [Como incorporar fontes ao converter Excel para PDF com Java](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
+Aprenda a incorporar fontes nas conversões de arquivos Excel para PDF usando Aspose.Cells para Java, garantindo que o PDF mantenha a formatação correta.
+### [Excel para PPTX: Guia completo em Java para exportar formas editáveis](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+Aprenda a converter planilhas do Excel em apresentações PPTX, exportando formas editáveis usando Aspose.Cells para Java.
 
 ## Recursos adicionais
 

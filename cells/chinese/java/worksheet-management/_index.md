@@ -32,6 +32,9 @@
 ### [如何使用 Aspose.Cells for Java 在 Excel 中添加工作表：完整指南](./add-spreadsheets-excel-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 以编程方式将工作表添加到 Excel 文件。本指南涵盖设置、实现和实际应用。
 
+### [使用 Aspose.Cells Java 从列表创建工作表：完整指南](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+学习如何使用 Aspose.Cells for Java 根据列表批量创建工作表，实现高效的数据组织和自动化生成。
+
 ### [如何使用 Aspose.Cells for Java 在 Excel 中插入列 - 综合指南](./aspose-cells-java-insert-column-excel/)
 掌握使用 Aspose.Cells for Java 在 Excel 工作表中插入列的方法。遵循本详细指南，即可自动生成报告并增强数据管理。
 
@@ -52,6 +55,9 @@ Aspose.Words Java 代码教程
 
 ### [使用 Aspose.Cells for Java 在 Excel 中实现高效的行管理：插入和删除行](./aspose-cells-java-row-operations-excel/)
 使用 Aspose.Cells for Java 掌握 Excel 中的行操作。学习如何高效地插入和删除行，优化您的数据管理任务。
+
+### [使用 Java 冻结 Excel 前两行 – 完整指南](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+学习如何使用 Aspose.Cells for Java 冻结 Excel 工作表的前两行，以便在滚动时保持标题可见。
 
 ### [使用 Java 中的 Aspose.Cells 删除主表](./aspose-cells-java-sheet-removal-guide/)
 Aspose.Words Java 代码教程
@@ -108,6 +114,8 @@ Aspose.Words Java 代码教程
 学习如何使用 Aspose.Cells for Java 基于模板一次性创建多个工作表，并掌握实现步骤和最佳实践。
 ### [使用 Aspose.Cells for Java 清除 Excel 自动筛选](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 在 Excel 工作表中清除已应用的自动筛选。
+### [如何在 Aspose.Cells for Java 中创建重复的明细工作表](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+学习如何在 Aspose.Cells for Java 中创建重复的明细工作表，以便在报告中重复使用数据。
 
 ## 其他资源
 

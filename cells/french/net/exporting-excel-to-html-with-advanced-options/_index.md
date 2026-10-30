@@ -149,6 +149,8 @@ Apprenez à intégrer des polices lors de l'exportation d'Excel vers HTML avec C
 
 ### [Exporter Excel vers HTML avec C# – Guide complet de programmation](./export-excel-to-html-with-c-complete-programming-guide/)
 Apprenez à exporter Excel vers HTML en C# avec Aspose.Cells, guide complet étape par étape.
+### [Exporter Excel vers HTML – Guide complet pour conserver les volets figés](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
+Découvrez comment conserver les volets figés lors de l’exportation d’Excel vers HTML avec Aspose.Cells pour .NET dans ce guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

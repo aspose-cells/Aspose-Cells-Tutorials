@@ -51,8 +51,6 @@ Pelajari cara menggunakan Aspose.Cells untuk Java guna mengelola ekstensi web Ex
 Pelajari cara mengotomatiskan tugas Excel dengan Aspose.Cells untuk Java, termasuk memuat buku kerja, mengatur opsi globalisasi, menambahkan subtotal, menghitung rumus, dan menyesuaikan kolom secara otomatis.
 
 ### [Menguasai Implementasi Kelas Guru Java dengan Integrasi Aspose.Cells](./master-teacher-class-java-aspose-cells/)
-Pelajari cara mengimplementasikan kelas Guru di Java, mengelola data siswa, dan mengintegrasikan Aspose.Cells untuk penanganan file Excel yang lebih baik.
-
 ### [Mengonversi Excel ke PPTX dengan Java – Panduan Pemrograman Lengkap](./convert-excel-to-pptx-with-java-complete-programming-guide/)
 Pelajari cara mengonversi file Excel menjadi presentasi PPTX menggunakan Aspose.Cells untuk Java dalam panduan pemrograman lengkap.
 
@@ -69,6 +67,22 @@ Pelajari cara mengonversi file Excel menjadi presentasi PowerPoint menggunakan A
 Panduan lengkap untuk mengekspor diagram Excel ke PowerPoint menggunakan Aspose.Cells untuk Java, termasuk contoh kode dan langkah-langkah implementasi.
 ### [Mengonversi Excel ke PowerPoint – Panduan Lengkap Langkah demi Langkah](./convert-excel-to-powerpoint-full-step-by-step-guide/)
 Pelajari cara mengonversi file Excel menjadi presentasi PowerPoint menggunakan Aspose.Cells untuk Java dalam panduan langkah demi langkah yang lengkap.
+### [Cara menyimpan Excel sebagai DOCX dengan Aspose.Cells di C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+Pelajari cara mengonversi file Excel menjadi dokumen Word (DOCX) menggunakan Aspose.Cells dalam bahasa C#.
+### [Cara menyalin rentang dari Excel dan mengekspornya ke PowerPoint menggunakan Java](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+Pelajari cara menyalin rentang data dari file Excel dan mengekspornya ke presentasi PowerPoint menggunakan Aspose.Cells dan Aspose.Slides untuk Java.
+### [Mengonversi Excel ke PowerPoint dengan Aspose.Cells di Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+Pelajari cara mengonversi file Excel menjadi presentasi PowerPoint menggunakan Aspose.Cells untuk Java.
+### [Panduan lengkap cara menyimpan file PPTX dari Excel, mengekspor lembar kerja Excel ke PowerPoint dengan Aspose.Cells untuk Java](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+Panduan lengkap cara menyimpan file PPTX dari Excel, mengekspor lembar kerja Excel ke PowerPoint dengan Aspose.Cells untuk Java.
+
+### [Cara Menggunakan WRAPCOLS di Java – Panduan Lengkap untuk Konversi Matriks](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
+Pelajari cara menggunakan fungsi WRAPCOLS di Java dengan Aspose.Cells untuk mengubah data menjadi matriks secara efisien.
+
+### [Cara menyematkan font saat mengonversi Excel ke PDF dengan Java](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
+Panduan langkah demi langkah untuk menyematkan font dalam PDF yang dihasilkan dari file Excel menggunakan Aspose.Cells untuk Java.
+### [Excel ke PPTX: Panduan Lengkap Java untuk Mengekspor Bentuk yang Dapat Diedit](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+Panduan langkah demi langkah untuk mengekspor bentuk yang dapat diedit dari Excel ke file PPTX menggunakan Aspose.Cells untuk Java.
 
 ## Sumber Daya Tambahan
 

@@ -70,6 +70,22 @@ Learn how to generate PowerPoint presentations from Excel data using Aspose.Cell
 Learn how to convert Excel workbooks to PowerPoint presentations using Aspose.Cells and Aspose.Slides for Java in a step-by-step guide.
 ### [Convert Excel to PowerPoint – Full Step‑by‑Step Guide](./convert-excel-to-powerpoint-full-step-by-step-guide/)
 Learn how to convert Excel workbooks to PowerPoint presentations using Aspose.Cells for Java in a detailed step‑by‑step guide.
+### [How to save Excel as DOCX with Aspose.Cells in C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
+Learn how to convert and save Excel workbooks as DOCX files using Aspose.Cells for C#.
+### [How to copy range from Excel and export it to PowerPoint using Java](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
+Learn how to copy a range from an Excel workbook and export it as a PowerPoint slide using Aspose.Cells and Aspose.Slides for Java.
+### [Convert Excel to PowerPoint with Aspose.Cells in Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+Learn how to convert Excel workbooks to PowerPoint presentations using Aspose.Cells for Java, with step-by-step code examples.
+### [How to Save PPTX from Excel – Complete Guide to Export Excel Sheet PowerPoint](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+Learn how to export Excel worksheets to PowerPoint PPTX files using Aspose.Cells for Java, with step-by-step code examples.
+
+### [How to Use WRAPCOLS in Java – Complete Guide for Matrix Conversion](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
+Learn how to apply the WRAPCOLS function in Java with Aspose.Cells to convert data matrices efficiently.
+
+### [How to Embed Fonts When Converting Excel to PDF with Java](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
+Learn how to embed fonts during Excel to PDF conversion using Aspose.Cells for Java, ensuring accurate text rendering in generated PDFs.
+### [excel to pptx: Complete Java Guide to Export Editable Shapes](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+Learn how to export Excel shapes to editable PowerPoint slides using Aspose.Cells for Java, with full code examples and step-by-step instructions.
 
 ## Additional Resources
 

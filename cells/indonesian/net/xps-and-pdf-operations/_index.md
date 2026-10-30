@@ -51,6 +51,8 @@ Pelajari cara menyematkan font ke dalam file PDF menggunakan Aspose.Cells dengan
 Pelajari cara menyimpan workbook Excel sebagai file XPS menggunakan C# dengan contoh kode lengkap.
 ### [Mengonversi Excel ke XPS di C# – Panduan Lengkap Langkah demi Langkah](./convert-excel-to-xps-in-c-complete-step-by-step-guide/)
 Pelajari cara mengonversi file Excel ke format XPS menggunakan C# dengan contoh kode praktis dan langkah-langkah detail.
+### [Cara Mengaktifkan Font Saat Mengonversi Excel ke XPS – Panduan Lengkap](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
+Pelajari cara mengaktifkan font agar tampil dengan benar saat mengonversi file Excel ke XPS menggunakan Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

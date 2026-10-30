@@ -42,6 +42,8 @@ Impara a creare una cartella di lavoro Excel, aggiungere tabelle e definire rego
 Impara a salvare una cartella di lavoro Excel e creare un intervallo denominato usando Aspose.Cells per .NET con C# passo passo.
 ### [Crea cartella di lavoro Excel in C# – Aggiungi intervallo denominato e imposta nome tabella](./create-excel-workbook-in-c-add-named-range-set-table-name/)
 Impara a creare una cartella di lavoro Excel in C#, aggiungere un intervallo denominato e impostare il nome della tabella con Aspose.Cells per .NET.
+### [Assegna un nome alla tabella Excel ed evita conflitti di denominazione](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
+Scopri come assegnare un nome unico alle tabelle Excel e gestire i conflitti di denominazione con Aspose.Cells per .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

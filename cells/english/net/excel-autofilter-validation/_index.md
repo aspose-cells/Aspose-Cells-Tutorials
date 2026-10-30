@@ -36,6 +36,8 @@ Learn how to autofilter Excel rows using Aspose.Cells in .NET effortlessly with 
 Discover how to implement decimal data validation in Excel using Aspose.Cells for .NET with our easy-to-follow guide. Enhance data integrity effortlessly.
 ### [Remove AutoFilter from Excel – Complete C# Guide](./remove-autofilter-from-excel-complete-c-guide/)
 Learn how to remove an Autofilter from Excel using Aspose.Cells in C# with a clear, step‑by‑step guide.
+### [How to remove autofilter from Excel tables using C#](./how-to-remove-autofilter-from-excel-tables-using-c/)
+Learn how to remove autofilter from Excel tables using Aspose.Cells in C# with a clear step‑by‑step guide.
 ### [How to Use AutoFilter in C# Excel Automation – Full Step‑by‑Step Guide](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
 Step-by-step guide to applying AutoFilter in Excel using C# and Aspose.Cells, simplifying data filtering in your .NET applications.
 
@@ -56,6 +58,8 @@ Learn how to hide filter arrows in Excel using Aspose.Cells with C# in this comp
 Learn how to retrieve the first table from an Excel workbook using Aspose.Cells in C# with this comprehensive guide.
 ### [Add Table to Excel with C# – Clear Autofilter and Save File](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
 Learn how to add a table to Excel with C#, clear any autofilter, and save the file using Aspose.Cells for .NET.
+### [Remove autofilter from Excel in C# – complete guide](./remove-autofilter-from-excel-in-c-complete-guide/)
+Learn how to remove the autofilter from Excel using Aspose.Cells for .NET with C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

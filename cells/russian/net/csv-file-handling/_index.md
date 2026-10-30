@@ -39,6 +39,8 @@
 Узнайте, как с помощью Aspose.Cells для .NET экспортировать файлы XLSX в CSV в C#, включая настройки формата и оптимизацию.
 ### [Создание новой книги и экспорт в CSV – пошаговое руководство C#](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 Узнайте, как создать новую книгу Excel и экспортировать её в CSV с помощью Aspose.Cells для .NET, следуя пошаговому руководству на C#.
+### [Создание CSV из Excel с помощью Aspose.Cells в C#](./how-to-create-csv-from-excel-using-aspose-cells-in-c/)
+Узнайте, как преобразовать книгу Excel в CSV с помощью Aspose.Cells на C# быстро и просто.
 
 
 
@@ -63,6 +65,10 @@
 Узнайте, как экспортировать данные из Excel в CSV с помощью C# и Aspose.Cells, следуя подробному пошаговому руководству.
 ### [Сохранить книгу как CSV — Полное руководство по экспорту Excel в CSV с контролируемыми цифрами](./save-workbook-as-csv-complete-guide-to-export-excel-to-csv-w/)
 Узнайте, как сохранять рабочие книги Excel в CSV, управляя количеством знаков после запятой и форматом данных.
+### [Как сохранить книгу как CSV с точным форматированием с помощью Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
+Узнайте, как сохранить рабочую книгу в CSV с точным форматированием, используя возможности Aspose.Cells.
+### [Сохранение рабочей книги в CSV на C# – Полное руководство по программированию](./save-workbook-as-csv-in-c-complete-programming-guide/)
+Узнайте, как сохранить книгу Excel в CSV с помощью Aspose.Cells для .NET, используя C# и полное пошаговое руководство.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

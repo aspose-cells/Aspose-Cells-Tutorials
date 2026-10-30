@@ -62,6 +62,8 @@ Erfahren Sie, wie Sie Excel-Vorlagen verarbeiten und Arbeitsblätter automatisch
 ### [Wie man Daten mit einer C#‑Vorlage nach Excel exportiert – Schritt‑für‑Schritt‑Anleitung](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
 Erfahren Sie, wie Sie mit einer C#‑Vorlage Daten nach Excel exportieren und den Vorgang Schritt für Schritt automatisieren.
 
+### [Wie man ein Array in Excel erweitert und eine Vorlage füllt](./how-to-expand-array-in-excel-and-populate-a-template)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

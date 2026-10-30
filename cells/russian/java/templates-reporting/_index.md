@@ -52,6 +52,13 @@
 ### [Aspose Cells Smart Markers – Заполнение шаблона Excel](./aspose-cells-smart-markers-populate-excel-template/)
 ### [Создание листов деталей в Java с помощью интеллектуальных маркеров Aspose.Cells](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
 Узнайте, как создавать листы деталей в Excel, используя интеллектуальные маркеры Aspose.Cells в Java.
+### [Как заполнить шаблон Excel данными с помощью Aspose.Cells](./how-to-populate-excel-template-with-data-using-aspose-cells/)
+Узнайте, как программно заполнять шаблоны Excel данными, используя Aspose.Cells для Java.
+### [Как создать отчет с помощью интеллектуальных маркеров Excel – Полное руководство на Java](./how-to-generate-report-with-excel-smart-markers-full-java-gu/)
+Подробное пошаговое руководство по использованию интеллектуальных маркеров Excel в Java для автоматической генерации отчетов.
+
+### [Создание рабочей книги Excel с интеллектуальными маркерами – руководство на Java](./create-excel-workbook-with-smart-markers-java-guide/)
+Узнайте, как создавать рабочие книги Excel с помощью интеллектуальных маркеров в Java, используя Aspose.Cells, с подробными примерами кода.
 
 ## Дополнительные ресурсы
 

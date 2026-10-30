@@ -61,6 +61,8 @@ Aprenda a convertir datos JSON a Excel usando Aspose.Cells para .NET en esta gu�
 Aprenda a convertir una hoja de cálculo en un DataTable usando Aspose.Cells para .NET en C#. Guía completa paso a paso.
 ### [Importar JSON a Excel con Aspose.Cells – Guía completa de programación](./import-json-to-excel-with-aspose-cells-complete-programming/)
 Aprenda a importar datos JSON a Excel usando Aspose.Cells para .NET con esta guía completa paso a paso.
+### [Convertir JSON a XLSX en C# – guía completa paso a paso](./convert-json-to-xlsx-in-c-complete-step-by-step-guide/)
+Aprenda a convertir archivos JSON a XLSX usando Aspose.Cells para .NET en C# con esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

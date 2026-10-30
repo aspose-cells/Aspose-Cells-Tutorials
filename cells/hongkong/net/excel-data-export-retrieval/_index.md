@@ -53,6 +53,8 @@
 本教學說明如何使用 Aspose.Cells for .NET 將指定的儲存格範圍匯出為 Excel 表格，提供完整的 C# 程式碼範例。
 ### [在 C# 中從 DataTable 建立 Excel 工作表 – 步驟指南](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
 透過本逐步教學學習如何使用 Aspose.Cells for .NET 從 DataTable 產生 Excel 工作表，適合所有開發人員。
+### [如何匯出 Excel 表格 – 完整逐步指南](./how-to-export-excel-table-complete-step-by-step-guide/)
+本完整指南將逐步說明如何使用 Aspose.Cells for .NET 匯出 Excel 表格，適合所有開發人員。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

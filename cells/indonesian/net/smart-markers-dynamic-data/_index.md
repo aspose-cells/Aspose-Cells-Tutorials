@@ -84,7 +84,6 @@ Sajátítsa el az Aspose.Cells for .NET-et általános listákkal és intelligen
 ### [HTML tulajdonságok használata intelligens jelölőkben Aspose.Cells .NET](./html-property-smart-markers/)
 Engedd szabadjára az Aspose.Cells erejét ezzel a lépésről lépésre haladó oktatóanyaggal, amely bemutatja a HTML tulajdonság használatát az intelligens jelölőkben .NET alkalmazásokhoz.
 ### [Beágyazott objektumok kezelése intelligens jelölőkkel Aspose.Cells](./nested-objects-smart-markers/)
-Az Aspose.Cells segítségével lépésről lépésre haladva könnyedén kezelheted a beágyazott objektumokat intelligens jelölők segítségével, így az Excel-jelentéskészítésben rejlő lehetőségeket is kihasználhatod.
 ### [Range smart marker untuk memproses data bersarang di C# – Panduan Lengkap](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
 Pelajari cara menggunakan range smart marker untuk memproses data bersarang di C# dengan panduan lengkap.
 ### [Változó tömb implementálása intelligens jelölőkkel Aspose.Cells](./variable-array-smart-markers/)
@@ -103,6 +102,9 @@ Pelajari cara membuat template Excel menggunakan Smart Markers di C# dengan lang
 
 ### [Cara Mengganti Variabel dalam JSON dengan SmartMarker – Panduan Lengkap](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 Pelajari cara mengganti variabel dalam JSON menggunakan SmartMarker secara lengkap.
+
+### [Buat workbook Excel secara programatis menggunakan Smart Markers](./create-excel-workbook-programmatically-using-smart-markers/)
+Pelajari cara membuat workbook Excel secara programatis dengan Smart Markers menggunakan Aspose.Cells untuk .NET.
 
 ### [Buat Lembar Kerja Dinamis dengan Smart Markers di Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 Pelajari cara membuat lembar kerja dinamis menggunakan Smart Markers di Aspose.Cells untuk .NET, memungkinkan pembuatan laporan Excel yang fleksibel dan otomatis.
@@ -138,6 +140,8 @@ Pelajari cara membuat koleksi smart marker secara lengkap menggunakan C# dengan 
 Panduan lengkap untuk mengembangkan aplikasi C# yang mengekspor data ke file Excel menggunakan Aspose.Cells.
 ### [Ulangi data di Excel – Isi templat dengan SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
 ### [Ekspor Data ke Excel: Isi Template dari Array di C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+### [Buat Excel dari JSON dengan Aspose.Cells Smart Marker](./create-excel-from-json-with-aspose-cells-smart-marker/)
+
 ### [Cara Menamai Sheet Secara Otomatis – Menghasilkan Banyak Sheet di C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Pelajari cara memberi nama sheet secara otomatis dan menghasilkan banyak sheet dalam file Excel menggunakan C# dengan Aspose.Cells.
 ### [Buat Objek Data Master – Panduan Langkah-demi-Langkah untuk Menghasilkan Lembar Detail](./create-master-data-object-step-by-step-guide-to-generate-det/)
@@ -183,6 +187,11 @@ Pelajari langkah demi langkah cara mengevaluasi formula menggunakan Smart Marker
 ### [Muat Template Excel di C# – Hasilkan Beberapa Lembar dengan Cepat](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
 ### [Impor JSON ke Excel di C# – panduan langkah demi langkah](./import-json-to-excel-in-c-step-by-step-guide/)
 Pelajari cara mengimpor data JSON ke file Excel menggunakan C# dengan Aspose.Cells dalam panduan langkah demi langkah.
+### [Cara membuat daftar laporan Excel dengan Smart Markers Aspose.Cells](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+### [Buat Workbook Master Detail dengan Aspose.Cells Smart Marker](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+### [Panduan master detail Excel – mengisi templat dengan Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+### [Cara Mengulang Lembar Kerja – Panduan Lengkap untuk Otomatisasi Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+Pelajari cara mengulang lembar kerja secara otomatis di Excel menggunakan Aspose.Cells untuk meningkatkan efisiensi laporan.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

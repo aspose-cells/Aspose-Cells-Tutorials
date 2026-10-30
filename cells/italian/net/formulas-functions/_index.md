@@ -96,6 +96,9 @@ Scopri come implementare formule condivise in Excel utilizzando Aspose.Cells per
 ### [Padroneggiare le formule di matrice in .NET con Aspose.Cells: una guida completa](./mastering-aspose-cells-net-array-formulas)
 Scopri come padroneggiare le formule array utilizzando Aspose.Cells per .NET. Questa guida illustra la configurazione, l'implementazione e le applicazioni pratiche di potenti calcoli multi-cella.
 
+### [Scrivi formula array in C# – Guida completa di programmazione](./write-array-formula-in-c-complete-programming-guide/)
+Scopri come creare e applicare formule array in Excel usando C# e Aspose.Cells con esempi pratici passo passo.
+
 ### [Come impostare la lingua nei file Excel utilizzando Aspose.Cells .NET per il supporto multilingue](./specify-language-excel-aspose-cells-net)
 Scopri come specificare la lingua dei tuoi file Excel utilizzando Aspose.Cells .NET. Migliora l'accessibilità e la conformità dei documenti con questa guida dettagliata per l'internazionalizzazione delle impostazioni delle formule.
 
@@ -103,6 +106,10 @@ Scopri come specificare la lingua dei tuoi file Excel utilizzando Aspose.Cells .
 
 ### [Come usare WRAPCOLS in C# – Rimodellare un array in una matrice in Excel](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
 Scopri come utilizzare la funzione WRAPCOLS in C# per convertire un array in una matrice all'interno di un foglio Excel con Aspose.Cells.
+### [Come utilizzare SEQUENCE in C# – Creare una cartella di lavoro Excel](./how-to-use-sequence-in-c-create-excel-workbook/)
+Scopri come generare sequenze di dati in Excel usando la funzione SEQUENCE con C# e Aspose.Cells.
+
+## Comprensione dei tipi di formule di Excel
 
 ### [Come calcolare la cotangente in Excel con C# – Creare una cartella di lavoro, utilizzare EXPAND e salvare](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
 Impara a calcolare la cotangente in Excel usando C#, creando una cartella di lavoro, applicando la funzione EXPAND e salvando il file.
