@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Преобразование файлов Excel в другие форматы
@@ -102,13 +104,9 @@ Aspose.Cells для .NET упрощает преобразование доку�
 
 ### [Как обернуть ячейки и преобразовать Excel в PowerPoint на C#](./how-to-wrap-cells-and-convert-excel-to-powerpoint-in-c/)
 Узнайте, как обернуть ячейки и преобразовать файл Excel в презентацию PowerPoint с помощью Aspose.Cells для .NET на C#.
+### [Как сохранить Excel в PowerPoint с помощью C# и Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+Узнайте, как программно сохранить файл Excel в презентацию PowerPoint с помощью Aspose.Cells для .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Сохранение Excel в Docx с C# – Полное пошаговое руководство](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 Узнайте, как программно сохранить файл Excel в формате DOCX с помощью C# и Aspose.Cells для .NET в этом подробном руководстве.
 ### [Создание PPT из Excel – Полное руководство по автоматизации на C#](./create-ppt-from-excel-full-c-automation-guide/)
@@ -141,5 +139,4 @@ Aspose.Cells для .NET упрощает преобразование доку�
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

@@ -69,6 +69,8 @@
 本完整指南展示如何使用 Aspose.Cells for .NET 将 Excel 工作表导出为 PowerPoint 演示文稿，包含代码示例和步骤说明。
 ### [使用 Aspose.Cells 从 Excel 创建 PowerPoint](./how-to-create-powerpoint-from-excel-using-aspose-cells/)
 本教程演示如何使用 Aspose.Cells 将 Excel 工作表转换为 PowerPoint 演示文稿，提供完整的 C# 示例代码。
+### [使用 C# 和 Aspose.Cells 将 Excel 保存为 PowerPoint](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+本教程演示如何使用 C# 和 Aspose.Cells 将 Excel 工作簿保存为 PowerPoint 演示文稿，帮助您快速生成演示文件。
 ### [在 .NET 中以编程方式在输出 HTML 中指定 HTML CrossType](./specifying-html-crosstype-in-output-html/)
 学习如何在 Aspose.Cells for .NET 中指定 HTML CrossType。按照我们的分步教程，将 Excel 文件精确转换为 HTML。
 ### [在 .NET 中以编程方式读取数字电子表格](./reading-numbers-spreadsheet/)

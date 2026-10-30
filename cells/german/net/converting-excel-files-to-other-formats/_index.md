@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konvertieren von Excel-Dateien in andere Formate
@@ -80,6 +82,8 @@ Erfahren Sie, wie Sie Excel-Tabellen mit Aspose.Cells programmgesteuert in Power
 Erfahren Sie, wie Sie mit Aspose.Cells Excel‑Arbeitsblätter programmgesteuert als Textdateien exportieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
 ### [Wie man Excel nach PowerPoint exportiert – Komplettanleitung](./how-to-export-excel-to-powerpoint-complete-guide/)
 Erfahren Sie in dieser umfassenden Anleitung, wie Sie Excel-Dateien mit Aspose.Cells für .NET programmgesteuert nach PowerPoint exportieren.
+### [Programmgesteuertes Speichern einer Excel-Datei als PowerPoint in .NET](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien programmgesteuert in PowerPoint-Präsentationen speichern.
 ### [Programmgesteuertes Angeben von HTML CrossType in der HTML-Ausgabe in .NET](./specifying-html-crosstype-in-output-html/)
 Erfahren Sie, wie Sie HTML CrossType in Aspose.Cells für .NET angeben. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung, um Excel-Dateien präzise in HTML zu konvertieren.
 ### [Numbers-Tabellenkalkulation programmgesteuert in .NET lesen](./reading-numbers-spreadsheet/)
@@ -93,12 +97,6 @@ Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie den Fortschritt 
 ### [Exportieren von Excel nach TXT in C# – vollständige Programmieranleitung](./export-excel-to-txt-in-c-complete-programming-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel‑Arbeitsmappen programmgesteuert in Textdateien (TXT) exportieren.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Programmgesteuertes Konvertieren einer Excel-Datei in DOCX mit C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien programmgesteuert in DOCX speichern. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen.
 ### [Programmgesteuertes Erstellen eines neuen Arbeitsbuchs – Excel mit voller Präzision nach TXT exportieren in .NET](./create-new-workbook-export-excel-to-txt-with-full-precision/)
@@ -133,5 +131,4 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET PowerPoint‑Präsentationen au
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

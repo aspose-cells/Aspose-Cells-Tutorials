@@ -135,6 +135,8 @@
 Μάθετε πώς να εξάγετε αρχεία Excel σε μορφή txt χρησιμοποιώντας C# με αναλυτικό οδηγό βήμα προς βήμα.
 ### [Εξαγωγή Excel σε PowerPoint με Aspose.Cells – πλήρης οδηγός προγραμματισμού](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
 Μάθετε πώς να εξάγετε ένα αρχείο Excel σε παρουσίαση PowerPoint χρησιμοποιώντας το Aspose.Cells σε πλήρη βήμα-βήμα οδηγό.
+### [Πώς να αποθηκεύσετε το Excel ως PowerPoint χρησιμοποιώντας C# και Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+Μάθετε πώς να μετατρέψετε ένα βιβλίο εργασίας Excel σε παρουσίαση PowerPoint με C# και Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwersja plików Excel do innych formatów
@@ -82,6 +84,8 @@ Dowiedz się, jak programowo konwertować pliki Excel na obrazy PNG w C# przy u�
 Dowiedz się, jak programowo eksportować pliki Excel do prezentacji PowerPoint przy użyciu Aspose.Cells dla .NET w tym szczegółowym przewodniku krok po kroku.
 ### [Jak wyeksportować Excel do PowerPoint – Kompletny przewodnik](./how-to-export-excel-to-powerpoint-complete-guide/)
 Dowiedz się, jak programowo wyeksportować arkusz Excel do prezentacji PowerPoint przy użyciu Aspose.Cells dla .NET w pełnym przewodniku krok po kroku.
+### [Jak zapisać Excel jako PowerPoint przy użyciu C# i Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+Dowiedz się, jak programowo przekształcić arkusz Excel w prezentację PowerPoint przy użyciu C# i biblioteki Aspose.Cells.
 ### [Określanie HTML CrossType w wyjściowym HTML programowo w .NET](./specifying-html-crosstype-in-output-html/)
 Dowiedz się, jak określić HTML CrossType w Aspose.Cells dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby precyzyjnie przekonwertować pliki Excel na HTML.
 ### [Odczyt arkusza kalkulacyjnego liczb programowo w .NET](./reading-numbers-spreadsheet/)
@@ -97,12 +101,6 @@ Dowiedz się, jak programowo wyeksportować dane z pliku Excel do formatu txt w 
 ### [Jak utworzyć prezentację PowerPoint z Excela przy użyciu Aspose.Cells](./how-to-create-powerpoint-from-excel-using-aspose-cells/)
 Dowiedz się, jak programowo przekształcić arkusz Excel w prezentację PowerPoint przy użyciu Aspose.Cells w C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Zapisz plik Excel jako Docx w C# – Kompletny przewodnik krok po kroku](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 Dowiedz się, jak programowo zapisać plik Excel jako dokument DOCX w C# przy użyciu Aspose.Cells, krok po kroku.
 ### [Utworzenie PPT z Excela – Pełny przewodnik automatyzacji w C#](./create-ppt-from-excel-full-c-automation-guide/)
@@ -133,5 +131,4 @@ Dowiedz się, jak programowo zapisać plik Excel jako DOCX i wyeksportować wykr
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

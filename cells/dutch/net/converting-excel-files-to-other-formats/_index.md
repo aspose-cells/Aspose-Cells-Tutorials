@@ -210,6 +210,8 @@ Leer hoe u Excel-bestanden naar PowerPoint converteert met Aspose.Cells voor .NE
 ### [Excel naar PNG converteren met C# – stapsgewijze gids](./how-to-convert-excel-to-png-with-c-step-by-step-guide/)
 ### [Excel exporteren naar PowerPoint met Aspose.Cells – volledige programmeergids](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
 Leer hoe u Excel-werkbladen volledig kunt exporteren naar PowerPoint-presentaties met Aspose.Cells in .NET.
+### [Excel opslaan als PowerPoint met C# en Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+Leer hoe u een Excel-werkmap programmatically opslaat als PowerPoint-presentatie met C# en Aspose.Cells.
 ### [HTML CrossType specificeren in uitvoer-HTML programmatisch in .NET](./specifying-html-crosstype-in-output-html/)
 Leer hoe u HTML CrossType specificeert in Aspose.Cells voor .NET. Volg onze stapsgewijze tutorial om Excel-bestanden nauwkeurig naar HTML te converteren.
 ### [Getallenspreadsheets programmatisch lezen in .NET](./reading-numbers-spreadsheet/)

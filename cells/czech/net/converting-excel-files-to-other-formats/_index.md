@@ -136,6 +136,8 @@ Naučte se, jak exportovat data z Excelu do textových souborů TXT v C# pomocí
 Kompletní návod, jak exportovat data z Excelu do PowerPointu pomocí Aspose.Cells v .NET.
 ### [Kopírování kontingenční tabulky a export Excelu do PPTX pomocí Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
 Naučte se programově zkopírovat kontingenční tabulku a exportovat Excel do PowerPointu (PPTX) pomocí Aspose.Cells v .NET.
+### [Jak uložit Excel jako PowerPoint pomocí C# a Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+Naučte se, jak programově převést soubor Excel do prezentace PowerPoint pomocí Aspose.Cells pro .NET v C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

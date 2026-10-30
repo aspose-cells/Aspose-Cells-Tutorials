@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การแปลงไฟล์ Excel เป็นรูปแบบอื่น
@@ -73,6 +75,8 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 เรียนรู้วิธีสร้างไฟล์ PowerPoint จากข้อมูล Excel ด้วย Aspose.Cells สำหรับ .NET ด้วยคำแนะนำ C# ขั้นตอนเต็มรูปแบบ
 ### [การส่งออก Excel ไปยัง PowerPoint – คู่มือครบถ้วน](./how-to-export-excel-to-powerpoint-complete-guide/)
 เรียนรู้วิธีส่งออกไฟล์ Excel เป็นงานนำเสนอ PowerPoint ด้วย Aspose.Cells สำหรับ .NET ผ่านขั้นตอนที่ละเอียดและตัวอย่างโค้ดที่เข้าใจง่าย
+### [วิธีบันทึก Excel เป็น PowerPoint ด้วย C# และ Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+เรียนรู้วิธีแปลงไฟล์ Excel เป็น PowerPoint ด้วย C# โดยใช้ Aspose.Cells อย่างง่ายดาย
 ### [การระบุ HTML CrossType ในโปรแกรมเอาท์พุต HTML ใน .NET](./specifying-html-crosstype-in-output-html/)
 เรียนรู้วิธีระบุ HTML CrossType ใน Aspose.Cells สำหรับ .NET ปฏิบัตตามบทช่วยสอนทีละขั้นตอนของเราเพื่อแปลงไฟล์ Excel เป็น HTML อย่างแม่นยำ
 ### [การอ่านสเปรดชีตตัวเลขโดยโปรแกรมใน .NET](./reading-numbers-spreadsheet/)
@@ -99,12 +103,6 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 ### [วิธีห่อเซลล์และแปลง Excel เป็น PowerPoint ด้วย C#](./how-to-wrap-cells-and-convert-excel-to-powerpoint-in-c/)
 เรียนรู้วิธีห่อเซลล์ใน Excel แล้วแปลงเป็น PowerPoint ด้วย C# โดยใช้ Aspose.Cells
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [สร้าง PPT จาก Excel – คู่มืออัตโนมัติเต็มรูปแบบ C#](./create-ppt-from-excel-full-c-automation-guide/)
 เรียนรู้วิธีสร้างไฟล์ PPT จากข้อมูล Excel ด้วย C# โดยใช้ Aspose.Cells อย่างละเอียดและครบถ้วน
 ### [สร้างสมุดงานใหม่ – ส่งออก Excel เป็น TXT ด้วยความแม่นยำเต็มรูปแบบ](./create-new-workbook-export-excel-to-txt-with-full-precision/)
@@ -134,5 +132,4 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

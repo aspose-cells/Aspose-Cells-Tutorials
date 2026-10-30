@@ -81,6 +81,8 @@ Aprenda a copiar una tabla dinámica y exportar un libro de Excel a una presenta
 
 
 
+### [Cómo guardar Excel como PowerPoint usando C# y Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+Aprenda a guardar un libro de Excel como presentación PowerPoint mediante C# y Aspose.Cells para .NET.
 ### [Especificación de HTML CrossType en la salida HTML mediante programación en .NET](./specifying-html-crosstype-in-output-html/)
 Aprenda a especificar HTML CrossType en Aspose.Cells para .NET. Siga nuestro tutorial paso a paso para convertir archivos de Excel a HTML con precisión.
 
