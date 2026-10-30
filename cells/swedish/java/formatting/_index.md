@@ -255,6 +255,8 @@ Bemästra formateringen av Excel-celler och hur du lägger till hyperlänkar i d
 Lär dig hur du använder Aspose.Cells för Java för att definiera och tillämpa anpassade datumformat i Excel-filer.
 ### [Hur man använder WRAPCOLS i Aspose.Cells – Komplett Java-exempel](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 Lär dig hur du använder WRAPCOLS-funktionen i Aspose.Cells för Java för att automatiskt anpassa kolumnbredd baserat på cellinnehåll.
+### [Hur man skapar Excel-arbetsbok med valutaformat och fet stil i Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+Lär dig hur du skapar en Excel-arbetsbok med valutaformat och fet text i Java.
 
 ## Ytterligare resurser
 

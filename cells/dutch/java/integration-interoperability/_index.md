@@ -86,6 +86,8 @@ Leer hoe u de WRAPCOLS‑functie in Java gebruikt om matrices om te zetten met A
 Leer hoe u lettertypen insluit bij het converteren van Excel naar PDF met Aspose.Cells voor Java.
 ### [Excel naar PPTX: volledige Java-gids voor het exporteren van bewerkbare vormen](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
 Leer hoe u Excel-gegevens exporteert naar PPTX met bewerkbare vormen via Aspose.Cells voor Java. Deze gids bevat stap‑voor‑stap codevoorbeelden.
+### [Hoe een grafiek exporteren naar docx vanuit Excel met Aspose.Cells voor Java](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+Leer hoe u een grafiek uit een Excel-werkmap exporteert naar een DOCX-document met Aspose.Cells voor Java.
 
 ## Aanvullende bronnen
 

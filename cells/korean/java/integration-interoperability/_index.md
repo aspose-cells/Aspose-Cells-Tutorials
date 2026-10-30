@@ -84,6 +84,8 @@ Excel 데이터를 PPTX 파일로 저장하는 방법을 단계별로 안내하�
 
 ### [Java를 사용하여 Excel을 PDF로 변환할 때 글꼴 포함하기](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
 Java와 Aspose.Cells를 사용해 Excel 파일을 PDF로 변환하면서 필요한 글꼴을 포함하는 방법을 단계별로 안내합니다.
+### [Aspose.Cells for Java를 사용해 Excel에서 차트를 DOCX 파일로 내보내는 방법](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+Aspose.Cells for Java를 활용해 Excel 차트를 DOCX 문서로 내보내는 단계별 가이드를 확인하세요.
 
 ## 추가 자료
 

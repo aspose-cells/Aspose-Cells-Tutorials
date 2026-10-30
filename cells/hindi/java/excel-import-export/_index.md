@@ -174,6 +174,12 @@ Aspose.Cells for Java का उपयोग करके JSON डेटा क�
 Aspose.Cells for Java का उपयोग करके एक्सेल टेबल को TXT फ़ाइल में निर्यात करते समय कस्टम सेल सेपरेटर सेट करना सीखें।
 ### [Aspose Cells के साथ JSON से Excel बनाएं – पूर्ण जावा गाइड](./create-excel-from-json-with-aspose-cells-full-java-guide/)
 Aspose Cells का उपयोग करके JSON डेटा को Excel फ़ाइल में बदलना सीखें। पूर्ण जावा कोड उदाहरणों के साथ चरण-दर-स्टेप मार्गदर्शिका।
+### [Excel में प्रिंट एरिया सेट करें और PowerPoint में निर्यात करें](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+Excel में प्रिंट एरिया निर्धारित करके उसे PowerPoint स्लाइड में निर्यात करने की प्रक्रिया सीखें।
+### [जावा में JSON को Excel में बदलने के लिए Aspose स्मार्ट मार्कर्स का उपयोग कैसे करें](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+Aspose स्मार्ट मार्कर्स का उपयोग करके जावा में JSON डेटा को Excel फ़ाइल में परिवर्तित करने की प्रक्रिया सीखें।
+### [Aspose.Cells के साथ Excel को TXT में निर्यात करना और दशमलव सटीकता को नियंत्रित करना](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+Aspose.Cells का उपयोग करके Excel फ़ाइल को TXT में निर्यात करें और दशमलव स्थानों को नियंत्रित करें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

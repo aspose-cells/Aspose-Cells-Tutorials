@@ -55,6 +55,9 @@ Leer hoe u Excel-querytabellen effectief beheert met Aspose.Cells voor Java, inc
 ### [Hoe u een benoemd bereik met werkmapbereik implementeert in Aspose.Cells Java voor verbeterd Excel-gegevensbeheer](./implement-named-range-workbook-scope-aspose-cells-java/)
 Leer hoe u benoemde bereiken met werkmapbereik kunt maken en gebruiken met Aspose.Cells Java. Verbeter uw gegevensbeheer, verbeter de leesbaarheid van code en stroomlijn uw workflow.
 
+### [Hoe een benoemd bereik te maken en tabellen te beheren in een Java-werkmap met Aspose](./how-to-create-named-range-aspose-and-manage-tables-in-a-java/)
+Leer hoe u met Aspose.Cells voor Java een benoemd bereik maakt en tabellen beheert voor efficiënt gegevensbeheer.
+
 ### [Beheer en benoem tekstvakken in Excel met Aspose.Cells voor Java](./manage-textbox-names-aspose-cells-java/)
 Leer hoe u tekstvakken in Excel beheert met Aspose.Cells voor Java. Deze handleiding behandelt het programmatisch maken, benoemen en openen van tekstvakken.
 
@@ -63,6 +66,8 @@ Leer hoe u Aspose.Cells met Java kunt gebruiken om cellen binnen benoemde bereik
 
 ### [Tabelnaam instellen in Excel met Java: een volledige handleiding](./set-table-name-in-excel-with-java-complete-guide/)
 Leer hoe u een tabel in Excel een naam geeft met Aspose.Cells voor Java, zodat u tabellen makkelijker kunt beheren en refereren.
+### [Hoe een Excel-tabelrij veilig te verwijderen met Aspose.Cells](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
+Leer hoe u veilig een rij uit een Excel-tabel kunt verwijderen met Aspose.Cells voor Java.
 
 ## Aanvullende bronnen
 

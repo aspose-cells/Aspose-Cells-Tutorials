@@ -69,6 +69,8 @@ Pelajari cara membuat file Excel dari JSON menggunakan Aspose.Cells untuk Java. 
 
 ### [Menyisipkan JSON ke Excel dengan Aspose Cells – Panduan Java Lengkap](./insert-json-into-excel-with-aspose-cells-full-java-guide/)
 Pelajari cara menyisipkan data JSON ke dalam file Excel menggunakan Aspose Cells untuk Java dengan contoh kode lengkap.
+### [Cara menggunakan Aspose Smart Markers untuk mengonversi JSON ke Excel di Java](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+Pelajari cara menggunakan Aspose Smart Markers untuk mengonversi data JSON menjadi file Excel dengan Java.
 ### [Validasi Data Impor Excel](./excel-import-data-validation/)
 Pelajari cara menerapkan validasi data impor Excel menggunakan Aspose.Cells untuk Java dengan panduan langkah demi langkah yang komprehensif ini. Pastikan keakuratan data dan tingkatkan pengalaman pengguna. 
 
@@ -174,6 +176,9 @@ Pelajari cara membuat file Excel dari data JSON menggunakan Aspose Cells untuk J
 Pelajari cara mengekspor file Excel ke PowerPoint dengan Aspose.Cells untuk Java melalui panduan langkah demi langkah yang mudah diikuti.
 ### [Ekspor sel terpilih ke CSV dalam Java – panduan lengkap](./export-selected-cells-to-csv-in-java-complete-guide/)
 Pelajari cara mengekspor sel tertentu dari file Excel ke format CSV menggunakan Aspose.Cells untuk Java dengan contoh kode lengkap.
+### [Cara mengatur area cetak Excel dan mengekspor ke PowerPoint](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+Pelajari cara menentukan area cetak pada file Excel dan mengekspornya ke PowerPoint menggunakan Aspose.Cells untuk Java.
+### [Cara mengekspor Excel ke TXT dengan Aspose.Cells dan mengontrol presisi desimal](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

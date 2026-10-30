@@ -85,6 +85,8 @@
 Узнайте, как внедрить шрифты при конвертации файлов Excel в PDF с помощью Aspose.Cells для Java, включая настройку и примеры кода.
 ### [Excel в PPTX: Полное руководство Java по экспорту редактируемых фигур](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
 Узнайте, как экспортировать редактируемые фигуры из Excel в PPTX с помощью Aspose.Cells для Java.
+### [Как экспортировать диаграмму в docx из Excel с помощью Aspose.Cells для Java](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+Узнайте, как экспортировать диаграмму из книги Excel в документ Word (docx) с помощью Aspose.Cells для Java.
 
 ## Дополнительные ресурсы
 

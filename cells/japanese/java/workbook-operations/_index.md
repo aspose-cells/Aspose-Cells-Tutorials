@@ -521,6 +521,8 @@ Lambda 関数を活用して、Java で Excel ワークブックを簡単に作�
 Aspose.Cells for Java を使用して、Excel ファイルを作成し保存する方法をステップバイステップで学びます。
 ### [Javaでカスタムプロパティ付きExcelワークブックを作成する – ステップバイステップガイド](./create-excel-workbook-with-custom-properties-in-java-step-by/)
 Javaでカスタムプロパティを設定したExcelワークブックの作成方法を学びます。
+### [Aspose.Cells for Java を使用してカスタム プロパティ付き xlsb ファイルを保存する方法](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Aspose.Cells for Java でカスタム プロパティを設定した xlsb ファイルを保存する手順を解説します。
 
 ## 追加リソース
 

@@ -156,6 +156,12 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java einen benutzerdefinierten Zells
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java in PowerPoint-Präsentationen exportieren. Schritt‑für‑Schritt‑Anleitung.
 ### [Ausgewählte Zellen nach CSV exportieren in Java – vollständige Anleitung](./export-selected-cells-to-csv-in-java-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java ausgewählte Zellen in CSV exportieren. Schritt‑für‑Schritt‑Anleitung.
+### [Verwendung von Aspose Smart Markers zum Konvertieren von JSON nach Excel in Java](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+Erfahren Sie, wie Sie mit Aspose Smart Markers JSON-Daten in Excel-Tabellen in Java konvertieren.
+### [Druckbereich in Excel festlegen und nach PowerPoint exportieren](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+Erfahren Sie, wie Sie in Excel den Druckbereich festlegen und die Arbeitsmappe nach PowerPoint exportieren.
+### [Wie man Excel nach TXT exportiert mit Aspose.Cells und Dezimalpräzision steuert](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+Erfahren Sie, wie Sie mit Aspose.Cells Excel-Daten in das TXT-Format exportieren und die Dezimalstellenpräzision steuern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

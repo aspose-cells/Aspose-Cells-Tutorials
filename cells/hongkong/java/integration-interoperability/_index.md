@@ -87,6 +87,8 @@
 了解如何在使用 Aspose.Cells for Java 轉換 Excel 為 PDF 時嵌入所需字型，確保文件外觀一致。
 ### [Excel 轉 PPTX：完整 Java 指南，導出可編輯形狀](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
 本指南說明如何使用 Aspose.Cells for Java 將 Excel 工作表中的圖形匯出為可在 PowerPoint 中編輯的形狀。
+### [如何使用 Aspose.Cells for Java 從 Excel 匯出圖表至 DOCX](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+了解如何利用 Aspose.Cells for Java 將 Excel 中的圖表匯出為 DOCX 文件，提供實作步驟與範例代碼。
 
 ## 其他資源
 

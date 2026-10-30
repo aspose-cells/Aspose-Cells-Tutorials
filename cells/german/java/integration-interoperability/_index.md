@@ -83,6 +83,8 @@ Erfahren Sie, wie Sie die WRAPCOLS-Funktion in Aspose.Cells für Java nutzen, um
 Erfahren Sie, wie Sie beim Konvertieren von Excel-Tabellen zu PDF mit Aspose.Cells für Java Schriftarten einbetten, um einheitliches Layout sicherzustellen.
 ### [Excel zu PPTX: Vollständiger Java-Leitfaden zum Export bearbeitbarer Formen](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
 Erfahren Sie, wie Sie Excel-Inhalte in bearbeitbare PowerPoint-Folien exportieren, inklusive Formen, mit Aspose.Cells für Java.
+### [Diagramm aus Excel in DOCX exportieren mit Aspose.Cells für Java](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+Erfahren Sie, wie Sie Diagramme aus Excel-Arbeitsblättern in DOCX-Dokumente exportieren, indem Sie Aspose.Cells für Java nutzen.
 
 ## Weitere Ressourcen
 

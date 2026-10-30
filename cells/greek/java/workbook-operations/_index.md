@@ -509,6 +509,8 @@
 
 ### [Δημιουργία βιβλίου εργασίας Excel με Java: διαχείριση ημερομηνιών ιαπωνικής εποχής](./create-excel-workbook-java-handle-japanese-era-dates/)
 Μάθετε πώς να χειρίζεστε ημερομηνίες ιαπωνικής εποχής σε βιβλία εργασίας Excel χρησιμοποιώντας το Aspose.Cells για Java.
+### [Πώς να αποθηκεύσετε αρχεία xlsb με προσαρμοσμένες ιδιότητες χρησιμοποιώντας το Aspose.Cells για Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Μάθετε πώς να αποθηκεύσετε αρχεία xlsb με προσαρμοσμένες ιδιότητες χρησιμοποιώντας το Aspose.Cells για Java.
 
 ## Πρόσθετοι Πόροι
 

@@ -255,6 +255,8 @@ Aprenda a crear libros de Excel con estilo profesional usando Aspose.Cells para 
 
 ### [Cómo usar WRAPCOLS en Aspose.Cells – Ejemplo completo en Java](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 Aprenda a aplicar la función WRAPCOLS en Aspose.Cells con Java para dividir texto en columnas automáticamente.
+### [Cómo crear un libro de Excel con formato de moneda y fuente en negrita en Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+Aprenda a crear libros de Excel con formato de moneda y texto en negrita usando Aspose.Cells para Java.
 
 ## Recursos adicionales
 

@@ -53,6 +53,8 @@ Pelajari cara mengotomatiskan tugas Excel dengan Aspose.Cells untuk Java, termas
 ### [Menguasai Implementasi Kelas Guru Java dengan Integrasi Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 ### [Mengonversi Excel ke PPTX dengan Java – Panduan Pemrograman Lengkap](./convert-excel-to-pptx-with-java-complete-programming-guide/)
 Pelajari cara mengonversi file Excel menjadi presentasi PPTX menggunakan Aspose.Cells untuk Java dalam panduan pemrograman lengkap.
+### [Cara mengekspor diagram ke DOCX dari Excel menggunakan Aspose.Cells untuk Java](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+Pelajari cara mengekspor grafik Excel ke file DOCX menggunakan Aspose.Cells untuk Java dalam beberapa langkah mudah.
 
 ### [Cara Mengekspor Diagram dari Excel ke Word – Panduan Java](./how-to-export-charts-from-excel-to-word-java-guide/)
 

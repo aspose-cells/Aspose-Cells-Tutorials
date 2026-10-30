@@ -58,6 +58,8 @@
 
 ### [إنشاء مصنف Excel باستخدام العلامات الذكية – دليل Java](./create-excel-workbook-with-smart-markers-java-guide/)
 دليل شامل لإنشاء مصنف Excel باستخدام العلامات الذكية في Java، مع أمثلة خطوة بخطوة لتوليد تقارير ديناميكية.
+### [كيفية إنشاء علامات ذكية لأوراق العمل باستخدام Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
+تعلم كيفية إنشاء علامات ذكية في أوراق العمل باستخدام Aspose.Cells لجافا لتوليد تقارير Excel ديناميكية.
 
 ## موارد إضافية
 

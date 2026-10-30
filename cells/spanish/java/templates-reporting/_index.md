@@ -53,6 +53,7 @@ Aprenda a crear un libro de trabajo maestro‑detalle con Aspose.Cells para Java
 Aprenda a generar hojas de detalle en Excel usando marcadores inteligentes de Aspose.Cells para Java, facilitando informes detallados.
 ### [Cómo generar un informe con marcadores inteligentes de Excel – Guía completa de Java](./how-to-generate-report-with-excel-smart-markers-full-java-gu/)
 Aprenda a crear informes de Excel usando Smart Markers con una guía paso a paso en Java.
+### [Cómo crear marcadores inteligentes en hojas de cálculo con Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
 
 ### [Cómo generar hojas de cálculo con SmartMarkers – Guía completa de Java](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
 Aprenda paso a paso a crear hojas de cálculo usando SmartMarkers en Java con Aspose.Cells, cubriendo configuración y generación automática.

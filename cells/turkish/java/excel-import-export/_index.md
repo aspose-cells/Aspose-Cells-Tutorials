@@ -60,6 +60,8 @@ Aspose.Cells for Java kullanarak Excel'den veri içe aktarmayı öğrenin. Sorun
 Aspose.Cells for Java kullanarak JSON dosyasını Excel'e nasıl dönüştüreceğinizi öğrenin. Adım adım kaynak kodlu rehber.
 ### [JSON'u Java ile Excel'e Aktarma – Tam Adım Adım Kılavuz](./export-json-to-excel-with-java-complete-step-by-step-guide/)
 Java ve Aspose.Cells kullanarak JSON verilerini Excel dosyasına nasıl aktaracağınızı öğrenin. Bu adım adım kılavuzla dönüşümü kolaylaştırın.
+### [Java'da Aspose Smart Markers ile JSON'u Excel'e Dönüştürme](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+Java için Aspose Smart Markers kullanarak JSON verilerini Excel dosyasına nasıl dönüştüreceğinizi öğrenin.
 ### [Excel İçe Aktarma Veri Doğrulaması](./excel-import-data-validation/)
 Bu kapsamlı adım adım kılavuzla Java için Aspose.Cells'i kullanarak Excel içe aktarma veri doğrulamasını nasıl uygulayacağınızı öğrenin. Veri doğruluğunu sağlayın ve kullanıcı deneyimini geliştirin. 
 ### [Aspose.Cells ile Özel Nesneleri Excel'e Aktarma – Java Kılavuzu](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
@@ -161,6 +163,10 @@ Aspose.Cells for Java kullanarak Excel tablosunu TXT formatına özel hücre ay�
 Aspose.Cells for Java kullanarak JSON verilerinden Excel dosyası oluşturmayı öğrenin. Adım adım kaynak kodlu kılavuz.
 ### [Java'da Seçili Hücreleri CSV'ye Aktarma – Tam Kılavuz](./export-selected-cells-to-csv-in-java-complete-guide/)
 Aspose.Cells for Java kullanarak seçili hücreleri CSV formatına nasıl aktaracağınızı öğrenin. Adım adım örnek kodlarla süreci basitleştirin.
+### [Excel'de Yazdırma Alanı Ayarlama ve PowerPoint'e Aktarma](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+Excel'de yazdırma alanı belirleyip, ardından PowerPoint sunumuna nasıl aktaracağınızı öğrenin.
+### [Aspose.Cells ile Excel'i TXT'ye Dışa Aktarma ve Ondalık Hassasiyetini Kontrol Etme](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+Aspose.Cells kullanarak Excel dosyalarını TXT formatına dışa aktarırken ondalık basamak sayısını nasıl kontrol edeceğinizi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

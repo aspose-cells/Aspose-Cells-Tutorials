@@ -254,6 +254,8 @@ Apprenez à appliquer le style gras aux polices lors de l'exportation de fichier
 
 ### [Comment utiliser WRAPCOLS dans Aspose.Cells – Exemple complet Java](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 Apprenez à utiliser la fonction WRAPCOLS d'Aspose.Cells en Java pour ajuster le texte dans les cellules Excel avec un exemple complet.
+### [Comment créer un classeur Excel avec format monétaire et police en gras en Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+Apprenez à créer un classeur Excel avec des cellules au format monétaire et du texte en gras en utilisant Aspose.Cells pour Java.
 
 ## Ressources supplémentaires
 

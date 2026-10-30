@@ -50,6 +50,9 @@
 ### [如何在 Aspose.Cells Java 中實現具有工作簿範圍的命名範圍以增強 Excel 資料管理](./implement-named-range-workbook-scope-aspose-cells-java/)
 了解如何使用 Aspose.Cells Java 建立和使用具有工作簿範圍的命名範圍。增強資料管理，提高程式碼可讀性，並簡化您的工作流程。
 
+### [如何在 Aspose.Cells Java 中於 Java 工作簿建立命名範圍並管理表格](./how-to-create-named-range-aspose-and-manage-tables-in-a-java/)
+了解如何使用 Aspose.Cells for Java 在 Java 工作簿中建立命名範圍並管理 Excel 表格，提高資料組織與操作效率。
+
 ### [使用 Aspose.Cells for Java 管理和命名 Excel 中的文字框](./manage-textbox-names-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 管理 Excel 中的文字方塊。本指南介紹如何以程式設計方式建立、命名和存取文字方塊。
 
@@ -62,6 +65,9 @@
 了解如何使用 Aspose.Cells for Java 為 Excel 表格設定名稱，提升資料組織與程式碼可讀性。
 ### [在 Java 中建立 Excel 表格：逐步指南](./create-excel-table-in-java-step-by-step-guide/)
 了解如何使用 Aspose.Cells for Java 在 Java 中建立 Excel 表格，提供完整的步驟說明與程式碼範例。
+### [使用 Aspose.Cells 安全刪除 Excel 表格列](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
+了解如何使用 Aspose.Cells 安全地刪除 Excel 表格中的行，以避免資料遺失。
+
 
 ## 其他資源
 

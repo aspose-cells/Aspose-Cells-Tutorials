@@ -525,6 +525,8 @@ Aspose.Cells for Java를 사용하여 사용자 지정 속성을 포함한 Excel
 - [무료 지원](https://forum.aspose.com/)
 - [임시 면허](https://purchase.aspose.com/temporary-license/)
 
+### [Aspose.Cells for Java를 사용하여 xlsb 파일에 사용자 지정 속성을 저장하는 방법](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Aspose.Cells for Java를 사용해 xlsb 파일에 사용자 지정 속성을 저장하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

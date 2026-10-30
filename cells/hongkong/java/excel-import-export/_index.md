@@ -73,6 +73,8 @@
 了解如何使用 Aspose.Cells for Java 從 JSON 資料建立 Excel 工作簿，提供完整範例與步驟說明。
 ### [使用 Aspose Cells 從 JSON 建立 Excel – 完整 Java 教學](./create-excel-from-json-with-aspose-cells-full-java-guide/)
 了解如何使用 Aspose.Cells for Java 從 JSON 資料生成 Excel 檔案，提供完整步驟與原始程式碼示例。
+### [如何在 Java 中使用 Aspose 智慧標記將 JSON 轉換為 Excel](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+了解如何使用 Aspose.Cells for Java 的智慧標記功能，將 JSON 資料轉換為 Excel 工作表。
 ### [Excel 導入資料驗證](./excel-import-data-validation/)
 透過本全面的逐步指南了解如何使用 Aspose.Cells for Java 實作 Excel 匯入資料驗證。確保數據準確性並提升用戶體驗。 
 
@@ -171,6 +173,10 @@
 了解如何使用 Aspose.Cells for Java 將 Excel 檔案匯出為 PowerPoint 簡報，提供完整的程式碼範例與操作步驟。
 ### [在 Java 中匯出選取儲存格至 CSV – 完整指南](./export-selected-cells-to-csv-in-java-complete-guide/)
 了解如何使用 Aspose.Cells for Java 將特定儲存格匯出為 CSV，提供完整步驟與範例程式碼。
+### [如何設定 Excel 列印區域並匯出至 PowerPoint](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+說明如何使用 Aspose.Cells for Java 設定列印區域並將 Excel 匯出為 PowerPoint 簡報。提供逐步指引與原始碼範例。
+### [如何使用 Aspose.Cells 將 Excel 匯出為 TXT 並控制小數精度](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+了解如何使用 Aspose.Cells for Java 將 Excel 匯出為 TXT，並設定小數點精度，以確保資料精確呈現。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

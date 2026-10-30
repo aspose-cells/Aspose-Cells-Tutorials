@@ -69,6 +69,8 @@ Tìm hiểu cách tạo báo cáo bằng Smart Markers trong Excel sử dụng J
 
 ### [Tạo sổ làm việc Excel với Smart Markers – Hướng dẫn Java](./create-excel-workbook-with-smart-markers-java-guide/)
 Tìm hiểu cách tạo sổ làm việc Excel bằng Smart Markers trong Java, bao gồm các ví dụ và hướng dẫn chi tiết.
+### [Cách tạo smart markers cho worksheets bằng Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
+Hướng dẫn tạo smart markers cho các worksheet bằng Aspose.Cells.
 
 ## Tài nguyên bổ sung
 

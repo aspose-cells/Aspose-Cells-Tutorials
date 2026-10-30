@@ -64,6 +64,11 @@ Hướng dẫn chi tiết cách tạo bảng Excel bằng Aspose.Cells cho Java,
 
 ### [Đặt tên bảng trong Excel bằng Java – Hướng dẫn đầy đủ](./set-table-name-in-excel-with-java-complete-guide/)
 Tìm hiểu cách đặt tên cho bảng trong Excel bằng Aspose.Cells cho Java, giúp quản lý dữ liệu và tham chiếu bảng dễ dàng hơn.
+### [Cách xóa hàng bảng Excel một cách an toàn bằng Aspose.Cells](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
+Hướng dẫn cách xóa một hàng trong bảng Excel một cách an toàn và hiệu quả bằng Aspose.Cells cho Java.
+
+### [Cách tạo phạm vi được đặt tên và quản lý bảng trong sổ làm việc Java bằng Aspose](./how-to-create-named-range-aspose-and-manage-tables-in-a-java/)
+Hướng dẫn tạo phạm vi đặt tên và thao tác các bảng trong workbook Java bằng Aspose.Cells.
 
 ## Tài nguyên bổ sung
 

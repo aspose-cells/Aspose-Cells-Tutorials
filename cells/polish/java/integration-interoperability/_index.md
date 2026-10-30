@@ -86,6 +86,8 @@ Dowiedz się, jak używać funkcji WRAPCOLS w Javie do konwersji danych macierzo
 Dowiedz się, jak osadzić czcionki w plikach PDF generowanych z arkuszy Excel przy użyciu Aspose.Cells for Java.
 ### [Excel do PPTX: Kompletny przewodnik Java do eksportu edytowalnych kształtów](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
 Dowiedz się, jak eksportować edytowalne kształty z Excela do prezentacji PPTX przy użyciu Aspose.Cells for Java.
+### [Jak wyeksportować wykres do docx z Excela przy użyciu Aspose.Cells dla Javy](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+Dowiedz się, jak wyeksportować wykres z arkusza Excel do dokumentu Word (docx) przy użyciu Aspose.Cells for Java.
 
 ## Dodatkowe zasoby
 

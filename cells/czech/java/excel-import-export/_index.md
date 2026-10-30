@@ -157,6 +157,12 @@ Naučte se, jak vytvořit soubor Excel z JSON pomocí Aspose.Cells v Javě. Komp
 Naučte se, jak převést soubory Excel do prezentací PowerPoint pomocí Aspose.Cells pro Javu.
 ### [Export vybraných buněk do CSV v Javě – kompletní průvodce](./export-selected-cells-to-csv-in-java-complete-guide/)
 Naučte se, jak exportovat vybrané buňky do CSV pomocí Aspose.Cells pro Javu.
+### [Jak nastavit oblast tisku v Excelu a exportovat do PowerPointu](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+Naučte se nastavit oblast tisku v Excelu a exportovat ji do PowerPointu pomocí Aspose.Cells pro Javu.
+### [Jak použít Aspose Smart Markers pro převod JSON do Excelu v Javě](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+Naučte se, jak pomocí Aspose Smart Markers v Javě převést data z JSON do souboru Excel s praktickým ukázkovým kódem.
+### [Jak exportovat Excel do TXT s Aspose.Cells a řídit desetinnou přesnost](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+Naučte se exportovat data z Excelu do formátu TXT a nastavit požadovanou přesnost desetinných čísel pomocí Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

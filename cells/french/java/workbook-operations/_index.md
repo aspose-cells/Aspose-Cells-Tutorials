@@ -516,6 +516,8 @@ Apprenez à enregistrer un classeur dans un fichier et à copier des plages Exce
 Apprenez à créer un classeur Excel vierge en Java avec Aspose.Cells, étape par étape, incluant la configuration et l'enregistrement.
 ### [Utiliser la fonction Lambda Java pour créer un exemple de classeur Excel](./use-lambda-function-java-to-create-excel-workbook-example/)
 Apprenez à créer un classeur Excel en Java en utilisant les fonctions Lambda avec Aspose.Cells.
+### [Comment enregistrer des fichiers xlsb avec des propriétés personnalisées à l'aide d'Aspose.Cells pour Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Apprenez à enregistrer des fichiers XLSB en définissant des propriétés personnalisées avec Aspose.Cells pour Java.
 
 ## Ressources supplémentaires
 

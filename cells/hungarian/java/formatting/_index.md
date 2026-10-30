@@ -251,6 +251,8 @@ Ismerd meg, hogyan állíthatod be a betűtípust félkövérre Excel-exportál�
 ### [Hogyan használjuk a WRAPCOLS-t az Aspose.Cells-ben – Teljes Java példa](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 Ismerd meg, hogyan alkalmazhatod a WRAPCOLS funkciót az Aspose.Cells Java könyvtárban a cellák szövegének automatikus tördeléséhez.
 ### [Számformátum alkalmazása Excelben Java-ban – Teljes Aspose.Cells útmutató](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+### [Excel munkafüzet létrehozása pénznemformátummal és félkövér betűtípussal Java-ban](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet pénznemformátummal és félkövér betűtípussal Java-ban az Aspose.Cells segítségével.
 
 ## További források
 

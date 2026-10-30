@@ -45,6 +45,8 @@
 เรียนรู้วิธีใช้ Smart Markers เพื่อสร้างแผ่นรายละเอียดหลายแผ่นในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java
 ### [วิธีเติมข้อมูลลงในเทมเพลต Excel ด้วย Aspose.Cells](./how-to-populate-excel-template-with-data-using-aspose-cells/)
 เรียนรู้วิธีนำข้อมูลมาผสานกับเทมเพลต Excel โดยใช้ Aspose.Cells สำหรับ Java อย่างง่ายดาย
+### [วิธีสร้าง Smart Markers สำหรับเวิร์กชีตด้วย Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
+เรียนรู้วิธีใช้ Smart Markers เพื่อสร้างและจัดการเวิร์กชีตใน Aspose.Cells สำหรับ Java อย่างมีประสิทธิภาพ
 
 ### [วิธีสร้างเวิร์กชีตด้วย Smart Markers – คู่มือเต็ม Java](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
 เรียนรู้วิธีใช้ Smart Markers ในการสร้างเวิร์กชีตหลายแผ่นอย่างอัตโนมัติด้วย Java อย่างละเอียด

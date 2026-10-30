@@ -65,6 +65,8 @@
 เรียนรู้วิธีแปลงไฟล์ Excel ไปเป็น PowerPoint ด้วย Aspose.Cells สำหรับ Java อย่างง่ายดาย
 ### [Excel ไปยัง PPTX: คู่มือ Java ฉบับสมบูรณ์สำหรับการส่งออกรูปร่างที่แก้ไขได้](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
 เรียนรู้วิธีส่งออกรูปร่างจาก Excel ไปยังไฟล์ PPTX ที่สามารถแก้ไขได้โดยใช้ Aspose.Cells สำหรับ Java
+### [วิธีส่งออกแผนภูมิจาก Excel ไปยัง DOCX ด้วย Aspose.Cells สำหรับ Java](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+เรียนรู้วิธีส่งออกแผนภูมิจากไฟล์ Excel ไปยังไฟล์ DOCX ด้วย Aspose.Cells สำหรับ Java
 
 ### [แปลง Excel ไปเป็น PowerPoint – คู่มือเต็มสำหรับ Java](./convert-excel-to-powerpoint-complete-java-guide/)
 เรียนรู้วิธีแปลงไฟล์ Excel ไปเป็นงานนำเสนอ PowerPoint อย่างเต็มรูปแบบด้วย Aspose.Cells สำหรับ Java

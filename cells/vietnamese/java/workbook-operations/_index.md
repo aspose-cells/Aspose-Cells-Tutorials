@@ -171,7 +171,7 @@ Tìm hiểu cách chuyển đổi bảng tính Excel thành hình ảnh TIFF ch�
 Tìm hiểu cách chuyển đổi dễ dàng các bảng tính Excel thành hình ảnh chất lượng cao bằng Aspose.Cells for Java. Hoàn hảo cho các bài thuyết trình, báo cáo và tích hợp web.
 
 ### [Chuyển đổi Excel sang Văn bản Sử dụng Aspose.Cells cho Java: Hướng dẫn Toàn diện](./convert-excel-text-aspose-cells-java/)
-Tìm hiểu cách chuyển đổi các trang tính Excel thành văn bản một cách liền mạch bằng Aspose.Cells for Java. Hướng dẫn này bao gồm cài đặt, cấu hình và ứng dụng thực tế.
+Tìm hiểu cách chuyển đổi các trang tính Excel thành văn bản một cách liền mạch bằng Aspose.Cells cho Java. Hướng dẫn này bao gồm cài đặt, cấu hình và ứng dụng thực tế.
 
 ### [Chuyển đổi Excel sang PDF tương thích bằng Aspose.Cells trong Java: Hướng dẫn toàn diện](./convert-excel-to-compliant-pdf-aspose-cells-java/)
 Tìm hiểu cách chuyển đổi sổ làm việc Excel thành PDF tuân thủ với Aspose.Cells for Java, đảm bảo tuân thủ các tiêu chuẩn công nghiệp như PDF/A. Hoàn thiện kỹ năng chuyển đổi dữ liệu của bạn.
@@ -513,6 +513,8 @@ Hướng dẫn cách tạo sổ làm việc Excel và thêm các thuộc tính t
 
 ### [Tạo sổ làm việc Excel java: Xử lý ngày theo niên hiệu Nhật Bản](./create-excel-workbook-java-handle-japanese-era-dates/)
 Hướng dẫn cách tạo sổ làm việc Excel trong Java và xử lý ngày theo niên hiệu Nhật Bản một cách chính xác.
+### [Cách lưu tệp xlsb với thuộc tính tùy chỉnh bằng Aspose.Cells cho Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Hướng dẫn lưu tệp XLSB và thêm các thuộc tính tùy chỉnh bằng Aspose.Cells cho Java.
 
 ## Tài nguyên bổ sung
 

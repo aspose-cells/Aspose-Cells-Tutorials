@@ -255,6 +255,7 @@ Naučte se, jak programově vytvořit a stylovat sešit Excel v Javě pomocí As
 
 ### [Jak použít WRAPCOLS v Aspose.Cells – Kompletní Java příklad](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 Naučte se, jak pomocí funkce WRAPCOLS v Aspose.Cells pro Javu rozdělit text do více sloupců a optimalizovat formátování tabulek.
+### [Jak vytvořit excelový sešit s formátem měny a tučným písmem v Javě](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 
 ## Další zdroje
 

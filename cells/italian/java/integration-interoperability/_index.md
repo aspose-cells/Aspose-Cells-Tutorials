@@ -85,6 +85,8 @@ Scopri come convertire i file Excel in DOCX utilizzando Aspose.Cells per C#.
 ### [Come copiare un intervallo da Excel ed esportarlo in PowerPoint usando Java](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
 ### [Excel a PPTX: Guida completa Java per esportare forme modificabili](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
 Scopri come convertire fogli Excel in presentazioni PowerPoint mantenendo forme editabili usando Aspose.Cells per Java.
+### [Come esportare un grafico in docx da Excel usando Aspose.Cells per Java](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+Scopri come esportare grafici da Excel a documenti Word (DOCX) con Aspose.Cells per Java.
 
 ## Risorse aggiuntive
 

@@ -63,6 +63,11 @@ Tanuld meg, hogyan lehet biztonságosan átnevezni egy Excel-táblát az Aspose.
 Tanuld meg, hogyan állíthatod be a táblanevet Excelben Java használatával, lépésről lépésre útmutató.
 ### [Excel-tábla létrehozása Java-ban – lépésről lépésre útmutató](./create-excel-table-in-java-step-by-step-guide/)
 Tanuld meg, hogyan hozhatsz létre Excel-táblázatot Java-ban az Aspose.Cells segítségével, részletes lépésről lépésre útmutatóval.
+### [Hogyan töröljünk biztonságosan Excel táblázat sorát az Aspose.Cells használatával](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
+Tanulj meg, hogyan törölhetsz biztonságosan sorokat egy Excel-táblázatból az Aspose.Cells Java segítségével.
+
+### [Hogyan hozzunk létre elnevezett tartományt az Aspose segítségével, és kezeljünk táblázatokat egy Java munkafüzetben](./how-to-create-named-range-aspose-and-manage-tables-in-a-java/)
+Ismerje meg, hogyan hozhat létre elnevezett tartományt és kezelhet Excel-táblázatokat egy Java munkafüzetben az Aspose.Cells segítségével.
 
 ## További források
 

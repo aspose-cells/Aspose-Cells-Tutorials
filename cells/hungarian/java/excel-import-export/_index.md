@@ -163,6 +163,12 @@ Tanuld meg, hogyan állíthatsz be egyéni cellaelválasztót az Excel tábláza
 Tanuld meg, hogyan hozhatsz létre Excel-fájlokat JSON adatokból az Aspose Cells Java API-val, lépésről lépésre útmutatóval.
 ### [Excel exportálása PowerPointba – lépésről lépésre útmutató](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
 Tanuld meg, hogyan exportálhatsz Excel-fájlokat PowerPoint prezentációkba az Aspose.Cells for Java használatával. Lépésről lépésre útmutató forráskóddal.
+### [Nyomtatási terület beállítása Excelben és exportálás PowerPointba](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+Ismerd meg, hogyan állíts be nyomtatási területet Excelben, majd exportáld a munkafüzetet PowerPoint prezentációba az Aspose.Cells for Java segítségével.
+### [Hogyan használjuk az Aspose Smart Markers-t a JSON Excel-be konvertálásához Java-ban](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+Ismerd meg, hogyan konvertálhatsz JSON adatokat Excel fájlokká az Aspose Smart Markers segítségével Java-ban.
+### [Excel exportálása TXT-be és a tizedes pontosság szabályozása](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+Ismerd meg, hogyan exportálhatsz Excel-fájlokat TXT formátumba az Aspose.Cells használatával, miközben pontosan beállíthatod a tizedesjegyek számát.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

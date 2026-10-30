@@ -79,6 +79,7 @@
 
 ### [Πώς να ενσωματώσετε γραμματοσειρές κατά τη μετατροπή Excel σε PDF με Java](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
 ### [excel σε pptx: Πλήρης Οδηγός Java για Εξαγωγή Επεξεργάσιμων Σχημάτων](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+### [Πώς να εξάγετε διάγραμμα σε docx από το Excel χρησιμοποιώντας το Aspose.Cells για Java](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
 
 ## Πρόσθετοι Πόροι
 

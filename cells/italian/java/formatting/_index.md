@@ -255,6 +255,7 @@ Scopri come creare una cartella di lavoro Excel con stili professionali usando A
 
 ### [Come utilizzare WRAPCOLS in Aspose.Cells – Esempio Java completo](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 Scopri come utilizzare la funzione WRAPCOLS di Aspose.Cells per Java per avvolgere dinamicamente il contenuto delle colonne, con esempi di codice completi.
+### [Come creare una cartella di lavoro Excel con formato valuta e carattere grassetto in Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 
 ## Risorse aggiuntive
 

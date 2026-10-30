@@ -220,6 +220,9 @@ Naučte se, jak transformovat HTML řetězce do strukturovaných sešitů aplika
 ### [Převod XLSB na XLSM pomocí Aspose.Cells pro Javu: Podrobný návod](./convert-xlsb-to-xlsm-aspose-cells-java/)
 Naučte se, jak převést soubory XLSB do sešitů XLSM s podporou maker pomocí Aspose.Cells pro Javu. Řiďte se tímto komplexním průvodcem s příklady kódu a osvědčenými postupy.
 
+### [Jak uložit soubory xlsb s vlastními vlastnostmi pomocí Aspose.Cells pro Javu](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Naučte se, jak uložit soubory xlsb s vlastními vlastnostmi pomocí Aspose.Cells pro Javu.
+
 ### [Vytvářejte a zpřístupňovejte excelové tabulky, přidávejte záložky do PDF pomocí Aspose.Cells pro Javu](./create-access-excel-sheets-add-pdf-bookmarks-aspose-cells-java/)
 Naučte se, jak používat Aspose.Cells pro Javu k vytváření a přístupu k excelovým listům, přidávání záložek do PDF a zefektivnění navigace v dokumentech.
 

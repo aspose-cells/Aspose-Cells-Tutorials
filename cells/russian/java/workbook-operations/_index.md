@@ -493,6 +493,9 @@
 ### [Как сохранить файлы Excel в различных форматах с помощью Aspose.Cells Java](./save-excel-files-aspose-cells-java/)
 Узнайте, как легко сохранять файлы Excel в нескольких форматах с помощью Aspose.Cells для Java. Это руководство охватывает XLSX, PDF, HTML и многое другое.
 
+### [Как сохранить файлы xlsb с пользовательскими свойствами с помощью Aspose.Cells для Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Узнайте, как сохранять файлы xlsb с пользовательскими свойствами, используя Aspose.Cells для Java.
+
 ### [Как установить версию документа Excel с помощью Aspose.Cells для Java](./set-excel-version-aspose-cells-java/)
 Узнайте, как устанавливать и управлять свойствами документа, такими как управление версиями в файлах Excel, с помощью Aspose.Cells для Java. Следуйте этому пошаговому руководству для эффективных операций с рабочей книгой.
 

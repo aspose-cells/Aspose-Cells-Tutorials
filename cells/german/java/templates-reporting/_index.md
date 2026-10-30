@@ -68,6 +68,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java Smart Markers einsetzen, um vol
 
 ### [Excel-Arbeitsmappe mit Smart Markern erstellen – Java‑Leitfaden](./create-excel-workbook-with-smart-markers-java-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Excel-Arbeitsmappe mithilfe von Smart Markern programmgesteuert erstellen.
+### [Wie man Arbeitsblätter mit Smart Markern in Aspose.Cells erstellt](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Smart Markers in Arbeitsblättern einsetzen, um dynamische Berichte zu erstellen.
 
 ## Weitere Ressourcen
 

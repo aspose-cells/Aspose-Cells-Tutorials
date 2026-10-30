@@ -255,6 +255,8 @@
 
 ### [Как использовать WRAPCOLS в Aspose.Cells – Полный пример на Java](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 Узнайте, как применять функцию WRAPCOLS в Aspose.Cells для Java, используя полный пример кода.
+### [Как создать книгу Excel с валютным форматом и полужирным шрифтом в Java: полное руководство](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+Узнайте, как программно создать книгу Excel в Java, применить валютный формат к ячейкам и задать полужирный шрифт.
 
 ## Дополнительные ресурсы
 

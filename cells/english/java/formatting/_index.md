@@ -255,6 +255,8 @@ Learn how to create Excel workbooks with dynamic formatting using Aspose.Cells f
 
 ### [Create Styled Excel Workbook in Java – Complete Guide](./create-styled-excel-workbook-in-java-complete-guide/)
 Learn how to create a fully styled Excel workbook in Java using Aspose.Cells, covering workbook setup, styling techniques, and saving options.
+### [How to create Excel workbook with currency format and bold font in Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+Learn how to generate an Excel workbook in Java with currency formatting and bold font using Aspose.Cells.
 
 ### [How to Apply Styles When Converting DataTable to Excel – Full Java Guide](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 Learn how to apply cell styles while converting a DataTable to Excel using Aspose.Cells for Java, with step-by-step code examples.

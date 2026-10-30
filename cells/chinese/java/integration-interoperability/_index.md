@@ -83,6 +83,8 @@
 学习如何在使用 Aspose.Cells for Java 将 Excel 转换为 PDF 时嵌入所需字体，确保文档在不同设备上保持一致显示。
 ### [Excel 转 PPTX：完整的 Java 指南，导出可编辑形状](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
 本指南展示如何使用 Aspose.Cells for Java 将 Excel 内容导出为可编辑的 PowerPoint 幻灯片形状，实现跨文档交互。
+### [如何使用 Aspose.Cells for Java 将图表从 Excel 导出到 docx](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+学习如何使用 Aspose.Cells for Java 将 Excel 中的图表导出为 Word 文档（docx），实现跨文件格式的图表迁移。
 
 ## 其他资源
 

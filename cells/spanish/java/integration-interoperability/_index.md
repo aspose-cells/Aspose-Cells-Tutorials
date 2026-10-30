@@ -61,6 +61,8 @@ Aprenda a convertir archivos Excel a presentaciones PowerPoint usando Aspose.Cel
 Aprenda a convertir archivos Excel a formato DOCX usando Aspose.Cells en C# con ejemplos paso a paso.
 ### [Convertir Excel a PowerPoint con Aspose.Cells en Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
 Aprenda a convertir archivos Excel a presentaciones PowerPoint usando Aspose.Cells para Java, con ejemplos de código paso a paso.
+### [Cómo exportar un gráfico a DOCX desde Excel usando Aspose.Cells para Java](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+Aprenda a exportar gráficos de Excel a documentos DOCX utilizando Aspose.Cells para Java en unos simples pasos.
 
 ### [Cómo exportar gráficos de Excel a Word – Guía Java](./how-to-export-charts-from-excel-to-word-java-guide/)
 Aprenda a exportar gráficos de Excel a documentos Word usando Aspose.Cells para Java, con ejemplos de código completos.

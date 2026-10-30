@@ -159,6 +159,12 @@ Aprenda a exportar arquivos do Excel para TXT usando o Aspose.Cells para Java. G
 Aprenda a definir um separador de célula personalizado ao exportar tabelas do Excel para TXT usando Aspose.Cells para Java.
 ### [Como exportar Excel para PowerPoint – guia passo a passo](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
 Aprenda a exportar planilhas do Excel para apresentações PowerPoint usando Aspose.Cells para Java, com exemplos de código passo a passo.
+### [Como exportar Excel para TXT com Aspose.Cells e controlar a precisão decimal](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+Aprenda a exportar planilhas Excel para arquivos TXT usando Aspose.Cells, controlando a precisão decimal dos valores.
+### [Como definir a área de impressão no Excel e exportar para PowerPoint](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+Aprenda a definir a área de impressão no Excel e exportá‑la para PowerPoint usando Aspose.Cells para Java.
+### [Como usar marcadores inteligentes Aspose para converter JSON em Excel em Java](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+Aprenda a usar marcadores inteligentes Aspose para transformar JSON em planilhas Excel com Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

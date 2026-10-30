@@ -86,6 +86,8 @@ Apprenez à appliquer la fonction WRAPCOLS avec Aspose.Cells pour Java afin de t
 Apprenez à incorporer les polices dans les fichiers PDF générés à partir d'Excel avec Aspose.Cells pour Java.
 ### [Excel vers PPTX : guide complet Java pour exporter des formes modifiables](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
 Apprenez à convertir des classeurs Excel en présentations PowerPoint avec des formes éditables en utilisant Aspose.Cells pour Java.
+### [Comment exporter un graphique vers docx depuis Excel à l'aide d'Aspose.Cells pour Java](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+Apprenez à exporter un graphique Excel vers un document Word (docx) en utilisant Aspose.Cells pour Java.
 
 ## Ressources supplémentaires
 

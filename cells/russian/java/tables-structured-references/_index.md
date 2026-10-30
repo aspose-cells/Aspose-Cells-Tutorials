@@ -62,6 +62,11 @@
 Узнайте, как установить имя таблицы в Excel с помощью Aspose.Cells для Java, улучшая читаемость и управление данными.
 ### [Создание таблицы Excel в Java – пошаговое руководство](./create-excel-table-in-java-step-by-step-guide/)
 Узнайте, как создать таблицу Excel в Java с помощью Aspose.Cells, следуя пошаговому руководству.
+### [Как безопасно удалить строку таблицы Excel с помощью Aspose.Cells](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
+Узнайте, как безопасно удалить строку из таблицы Excel, используя Aspose.Cells для Java, избегая нарушения структуры данных.
+
+### [Как создать именованный диапазон Aspose и управлять таблицами в Java‑рабочей книге](./how-to-create-named-range-aspose-and-manage-tables-in-a-java/)
+Узнайте, как создавать именованные диапазоны и управлять таблицами в рабочей книге Java с помощью Aspose.Cells.
 
 ## Дополнительные ресурсы
 

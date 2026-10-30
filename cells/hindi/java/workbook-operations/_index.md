@@ -506,6 +506,8 @@ XLSX फ़ाइलें खोलकर और फ़ाइल नाम प�
 Java में Aspose.Cells का उपयोग करके Excel फ़ाइल बनाएं, कस्टम प्रॉपर्टी जोड़ें और इसे XLSB फ़ॉर्मेट में सहेजें।
 ### [Lambda फ़ंक्शन जावा का उपयोग करके Excel वर्कबुक बनाने का उदाहरण](./use-lambda-function-java-to-create-excel-workbook-example/)
 जावा में Lambda फ़ंक्शन का उपयोग करके Excel वर्कबुक बनाने का चरण-दर- चरण उदाहरण।
+### [Aspose.Cells for Java का उपयोग करके xlsb फ़ाइलें कस्टम प्रॉपर्टीज़ के साथ कैसे सहेजें](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Aspose.Cells for Java के साथ xlsb फ़ाइलों में कस्टम प्रॉपर्टीज़ जोड़कर सहेजने का तरीका सीखें।
 
 ## अतिरिक्त संसाधन
 

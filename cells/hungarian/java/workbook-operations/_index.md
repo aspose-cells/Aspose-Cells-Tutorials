@@ -512,6 +512,8 @@ Ismerje meg, hogyan hozhat létre Excel munkafüzetet Lambda függvényekkel Jav
 Ismerje meg, hogyan hozhat létre új Excel-munkafüzetet Java nyelven az Aspose.Cells segítségével, lépésről lépésre útmutatóval.
 ### [Excel fájl generálása Java – Teljes lépésről lépésre útmutató](./generate-excel-file-java-complete-step-by-step-guide/)
 Ismerje meg, hogyan hozhat létre Excel-fájlokat Java nyelven részletes, kódpéldákkal és beállítási útmutatóval.
+### [Hogyan menthetünk xlsb fájlokat egyéni tulajdonságokkal az Aspose.Cells for Java használatával](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Ismerje meg, hogyan menthet xlsb fájlokat egyéni tulajdonságokkal az Aspose.Cells for Java segítségével.
 
 ## További források
 

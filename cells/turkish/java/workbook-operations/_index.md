@@ -511,6 +511,7 @@ Lambda fonksiyonlarıyla Java’da Excel çalışma kitabı oluşturmayı adım 
 Java ve Aspose.Cells kullanarak Excel dosyası oluşturmayı adım adım öğrenin.
 ### [Java için Aspose.Cells ile Özel Özelliklerle Excel Çalışma Kitabı Oluşturma – Adım Adım Kılavuz](./create-excel-workbook-with-custom-properties-in-java-step-by/)
 Aspose.Cells for Java kullanarak özel özelliklerle bir Excel çalışma kitabı oluşturmayı ve kaydetmeyi öğrenin.
+### [Aspose.Cells for Java Kullanarak xlsb dosyalarını özel özelliklerle kaydetme](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
 
 ## Ek Kaynaklar
 

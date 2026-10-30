@@ -40,6 +40,8 @@
 
 ### [สร้างตาราง Excel ใน Java – คู่มือทีละขั้นตอน](./create-excel-table-in-java-step-by-step-guide/)
 เรียนรู้วิธีสร้างตาราง Excel ด้วย Java อย่างละเอียดผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ดที่ใช้งานได้จริง
+### [วิธีลบแถวตาราง Excel อย่างปลอดภัยด้วย Aspose.Cells](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
+เรียนรู้วิธีลบแถวในตาราง Excel อย่างปลอดภัยโดยใช้ Aspose.Cells สำหรับ Java เพื่อป้องกันข้อผิดพลาดและรักษาความสมบูรณ์ของข้อมูล
 
 ### [แปลงตาราง Excel เป็นช่วงโดยใช้ Aspose.Cells Java: คำแนะนำทีละขั้นตอน](./convert-excel-tables-ranges-aspose-cells-java/)
 เรียนรู้วิธีการแปลงตาราง Excel เป็นช่วงโดยอัตโนมัติโดยใช้ Aspose.Cells สำหรับ Java ปฏิบัติตามคู่มือฉบับสมบูรณ์นี้เพื่อการจัดการข้อมูลอย่างมีประสิทธิภาพ
@@ -63,6 +65,7 @@
 ### [ตั้งชื่อตารางใน Excel ด้วย Java – คู่มือฉบับสมบูรณ์](./set-table-name-in-excel-with-java-complete-guide/)
 เรียนรู้วิธีตั้งชื่อให้กับตาราง Excel ด้วย Aspose.Cells สำหรับ Java อย่างละเอียดเพื่อการจัดการข้อมูลที่เป็นระบบและง่ายต่อการอ้างอิง
 
+### [วิธีสร้างช่วงที่ตั้งชื่อด้วย Aspose และจัดการตารางในเวิร์กบุ๊ก Java](./how-to-create-named-range-aspose-and-manage-tables-in-a-java/)
 
 ## แหล่งข้อมูลเพิ่มเติม
 

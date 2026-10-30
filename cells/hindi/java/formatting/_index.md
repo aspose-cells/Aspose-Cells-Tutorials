@@ -257,6 +257,7 @@ Aspose.Cells के साथ अपने जावा अनुप्रयो
 
 ### [Aspose.Cells में WRAPCOLS का उपयोग कैसे करें – पूर्ण Java उदाहरण](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 Aspose.Cells for Java में WRAPCOLS फ़ंक्शन का उपयोग करके सेल टेक्स्ट को रैप करने का चरण-दर-चरण उदाहरण देखें।
+### [जावा में मुद्रा फ़ॉर्मेट और बोल्ड फ़ॉन्ट के साथ एक्सेल वर्कबुक कैसे बनाएं](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 
 ## अतिरिक्त संसाधन
 

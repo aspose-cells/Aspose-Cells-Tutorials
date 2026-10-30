@@ -64,6 +64,8 @@ Aspose.Cells for Java kullanarak SmartMarker ile bir çalışma kitabı oluştur
 
 ### [Akıllı İşaretleyiciler Kullanarak Excel Çalışma Kitabı Oluşturma – Java Kılavuzu](./create-excel-workbook-with-smart-markers-java-guide/)
 Akıllı İşaretleyicileri kullanarak Java'da Excel çalışma kitabı oluşturmayı ve veri bağlamayı adım adım öğrenin.
+### [Aspose.Cells ile Çalışma Sayfalarında Akıllı İşaretleyiciler Oluşturma](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
+Aspose.Cells for Java kullanarak çalışma sayfalarında akıllı işaretleyicileri nasıl oluşturacağınızı öğrenin.
 
 ## Ek Kaynaklar
 

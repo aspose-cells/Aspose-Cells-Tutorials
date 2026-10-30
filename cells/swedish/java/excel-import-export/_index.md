@@ -158,6 +158,11 @@ Lär dig hur du skapar en Excel-fil från JSON med Aspose Cells i Java. Steg-fö
 Lär dig hur du exporterar Excel-filer till PowerPoint med Aspose.Cells för Java i en enkel steg‑för‑steg‑guide.
 ### [Exportera valda celler till CSV i Java – komplett guide](./export-selected-cells-to-csv-in-java-complete-guide/)
 Lär dig hur du exporterar specifika celler till CSV med Aspose.Cells för Java i en komplett steg‑för‑steg‑guide.
+### [Hur man använder Aspose Smart Markers för att konvertera JSON till Excel i Java](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+Lär dig hur du med Aspose Smart Markers konverterar JSON-data till Excel-filer i Java med praktiska kodexempel.
+### [Hur man ställer in utskriftsområde i Excel och exporterar till PowerPoint](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+### [Hur man exporterar Excel till TXT med Aspose.Cells och styr decimalprecision](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+Lär dig hur du exporterar Excel-filer till TXT och kontrollerar decimalprecision med Aspose.Cells i Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

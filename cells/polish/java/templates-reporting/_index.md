@@ -67,6 +67,8 @@ Dowiedz się, jak generować raporty Excel przy użyciu inteligentnych znacznik�
 
 ### [Utwórz skoroszyt Excel z inteligentnymi znacznikami – przewodnik Java](./create-excel-workbook-with-smart-markers-java-guide/)
 Dowiedz się, jak tworzyć skoroszyty Excel przy użyciu inteligentnych znaczników w Aspose.Cells for Java.
+### [Jak tworzyć inteligentne znaczniki arkuszy w Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
+Dowiedz się, jak używać inteligentnych znaczników do automatyzacji tworzenia arkuszy w Aspose.Cells dla Java.
 
 ## Dodatkowe zasoby
 

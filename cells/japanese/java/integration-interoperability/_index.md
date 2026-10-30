@@ -86,6 +86,8 @@ WRAPCOLS 関数を使って行列変換を実装する手順とコード例を�
 Aspose.Cells for Java を使用して、Excel ファイルを PDF に変換する際にフォントを埋め込む手順とコード例を解説します。
 ### [Excel から PPTX へ: 編集可能なシェイプをエクスポートする完全 Java ガイド](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
 Excel のシートから PowerPoint のスライドへ、編集可能なシェイプをエクスポートする方法をステップバイステップで解説します。
+### [Aspose.Cells for Java を使用して Excel からチャートを DOCX にエクスポートする方法](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+Aspose.Cells for Java を使い、Excel のチャートを Word の DOCX ファイルにエクスポートする手順を解説します。
 
 ## 追加リソース
 

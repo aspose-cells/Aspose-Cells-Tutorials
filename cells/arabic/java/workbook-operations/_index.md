@@ -501,6 +501,7 @@
 ### [إنشاء مصنف Excel بخصائص مخصصة في Java – دليل خطوة بخطوة](./create-excel-workbook-with-custom-properties-in-java-step-by/)
 
 ### [إنشاء مصنف Excel باستخدام Java: التعامل مع تواريخ العصور اليابانية](./create-excel-workbook-java-handle-japanese-era-dates/)
+### [كيفية حفظ ملفات xlsb بخصائص مخصصة باستخدام Aspose.Cells لـ Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
 
 ## موارد إضافية
 

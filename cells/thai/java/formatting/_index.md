@@ -256,6 +256,8 @@
 เรียนรู้วิธีตั้งค่าฟอนต์ให้เป็นตัวหนาในไฟล์ Excel ที่ส่งออกด้วย Java โดยใช้ Aspose.Cells คู่มือนี้แสดงขั้นตอนและโค้ดตัวอย่าง
 ### [วิธีใช้ WRAPCOLS ใน Aspose.Cells – ตัวอย่าง Java ฉบับสมบูรณ์](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 เรียนรู้วิธีใช้ฟังก์ชัน WRAPCOLS ใน Aspose.Cells สำหรับ Java เพื่อจัดรูปแบบเซลล์อัตโนมัติ พร้อมตัวอย่างโค้ดที่ทำตามได้ง่าย
+### [วิธีสร้างสมุดงาน Excel ด้วยรูปแบบสกุลเงินและตัวหนาใน Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+เรียนรู้วิธีสร้างไฟล์ Excel พร้อมรูปแบบสกุลเงินและตัวอักษรหนาโดยใช้ Aspose.Cells สำหรับ Java
 
 ## แหล่งข้อมูลเพิ่มเติม
 

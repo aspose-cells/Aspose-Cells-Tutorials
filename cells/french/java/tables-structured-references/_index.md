@@ -64,6 +64,11 @@ Apprenez à renommer de façon sécurisée les tableaux Excel en utilisant Aspos
 
 ### [Créer un tableau Excel en Java : guide étape par étape](./create-excel-table-in-java-step-by-step-guide/)
 Apprenez à créer un tableau Excel en Java avec Aspose.Cells, en suivant un guide complet étape par étape.
+### [Comment supprimer en toute sécurité une ligne de tableau Excel à l'aide d'Aspose.Cells](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
+Apprenez à supprimer de façon fiable une ligne d'un tableau Excel en utilisant Aspose.Cells pour Java, en évitant les erreurs courantes.
+
+### [Comment créer une plage nommée Aspose et gérer les tableaux dans un classeur Java](./how-to-create-named-range-aspose-and-manage-tables-in-a-java/)
+Apprenez à créer des plages nommées avec Aspose.Cells et à gérer les tables Excel dans un classeur Java, avec des exemples de code clairs.
 
 ## Ressources supplémentaires
 

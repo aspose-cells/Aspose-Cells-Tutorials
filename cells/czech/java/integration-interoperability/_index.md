@@ -86,6 +86,8 @@ Naučte se, jak pomocí funkce WRAPCOLS v Aspose.Cells pro Javu převádět jedn
 Naučte se, jak vložit písma při převodu Excelu do PDF pomocí Aspose.Cells pro Javu.
 ### [Excel do PPTX: Kompletní průvodce v Javě pro export upravitelných tvarů](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
 Naučte se, jak pomocí Aspose.Cells pro Javu převést Excel do PPTX a exportovat upravitelné tvary.
+### [Jak exportovat graf do DOCX z Excelu pomocí Aspose.Cells pro Javu](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+Naučte se exportovat grafy z Excelu do souboru DOCX pomocí Aspose.Cells pro Javu.
 
 ## Další zdroje
 

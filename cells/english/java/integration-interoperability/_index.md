@@ -86,6 +86,8 @@ Learn how to apply the WRAPCOLS function in Java with Aspose.Cells to convert da
 Learn how to embed fonts during Excel to PDF conversion using Aspose.Cells for Java, ensuring accurate text rendering in generated PDFs.
 ### [excel to pptx: Complete Java Guide to Export Editable Shapes](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
 Learn how to export Excel shapes to editable PowerPoint slides using Aspose.Cells for Java, with full code examples and step-by-step instructions.
+### [How to export chart to docx from Excel using Aspose.Cells for Java](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+Learn how to export Excel charts to DOCX documents using Aspose.Cells for Java.
 
 ## Additional Resources
 

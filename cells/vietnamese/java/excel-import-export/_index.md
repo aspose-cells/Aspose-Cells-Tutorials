@@ -171,6 +171,12 @@ Hướng dẫn cách thiết lập dấu phân cách ô tùy chỉnh khi xuất 
 Tìm hiểu cách tạo tệp Excel từ dữ liệu JSON bằng Aspose Cells trong Java. Hướng dẫn chi tiết với mã nguồn để chuyển đổi liền mạch.
 ### [Cách xuất Excel sang PowerPoint – hướng dẫn từng bước](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang PowerPoint bằng Aspose.Cells for Java.
+### [Cách thiết lập vùng in trong Excel và xuất sang PowerPoint](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+Hướng dẫn cách đặt vùng in trong tệp Excel và xuất nó thành bản trình chiếu PowerPoint bằng Aspose.Cells for Java.
+### [Cách sử dụng Aspose Smart Markers để chuyển đổi JSON sang Excel trong Java](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+Hướng dẫn chi tiết cách dùng Aspose Smart Markers để biến dữ liệu JSON thành tệp Excel trong Java.
+### [Cách xuất Excel sang TXT với Aspose.Cells và kiểm soát độ chính xác thập phân](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+Hướng dẫn chi tiết cách xuất dữ liệu Excel sang file TXT và điều chỉnh độ chính xác thập phân bằng Aspose.Cells cho Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -265,6 +265,7 @@ Dowiedz się, jak zastosować metodę WRAPCOLS w Aspose.Cells for Java, aby auto
 - [Bezpłatne wsparcie](https://forum.aspose.com/)
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
 
+### [Jak utworzyć skoroszyt Excela z formatem waluty i pogrubioną czcionką w Javie](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

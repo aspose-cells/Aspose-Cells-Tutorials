@@ -58,6 +58,8 @@ Lär dig hur du implementerar en Teacher-klass i Java, hanterar elevdata och int
 
 ### [Konvertera Excel till PPTX med Java – Komplett programmeringsguide](./convert-excel-to-pptx-with-java-complete-programming-guide/)
 Lär dig hur du konverterar Excel-filer till PPTX-presentationer med Java och Aspose.Cells i en komplett steg-för-steg-guide.
+### [Exportera diagram till DOCX från Excel med Aspose.Cells för Java](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+Lär dig hur du exporterar diagram från Excel till ett DOCX-dokument med Aspose.Cells för Java.
 
 ### [Exportera diagram från Excel till Word – Java-guide](./how-to-export-charts-from-excel-to-word-java-guide/)
 Lär dig hur du med Aspose.Cells för Java exporterar diagram från Excel till Word i en steg-för-steg-guide.

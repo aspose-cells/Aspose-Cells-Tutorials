@@ -504,6 +504,7 @@ Learn how to save a workbook to a file and copy Excel ranges using Aspose.Cells 
 Learn how to save an Excel workbook as XLSX using Aspose.Cells for Java with detailed code examples and best practices.
 ### [Java create excel file, add custom property and save as XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
 Learn how to create an Excel workbook in Java, add a custom document property, and save it as an XLSB file using Aspose.Cells.
+### [How to save xlsb files with custom properties using Aspose.Cells for Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
 
 ### [Save New Workbook in Java – Copy Range Between Workbooks Tutorial](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
 Learn how to create a new workbook in Java and copy a range of cells from an existing workbook using Aspose.Cells.

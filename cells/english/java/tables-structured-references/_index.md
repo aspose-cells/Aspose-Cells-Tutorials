@@ -62,6 +62,11 @@ Learn how to safely rename an Excel table using Aspose.Cells for Java, ensuring 
 Learn how to set a table name in Excel using Aspose.Cells for Java, improving data referencing and spreadsheet organization.
 ### [Create excel table in Java – step‑by‑step guide](./create-excel-table-in-java-step-by-step-guide/)
 Step-by-step guide to creating Excel tables in Java with Aspose.Cells, including code samples and best practices.
+### [How to delete Excel table row safely using Aspose.Cells](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
+Learn how to safely remove rows from Excel tables using Aspose.Cells for Java, ensuring data integrity and proper table updates.
+
+### [How to create named range aspose and manage tables in a Java workbook](./how-to-create-named-range-aspose-and-manage-tables-in-a-java/)
+Learn how to create named ranges and manage Excel tables in a Java workbook using Aspose.Cells, with clear code examples.
 
 ## Additional Resources
 

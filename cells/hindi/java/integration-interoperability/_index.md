@@ -82,6 +82,8 @@ Excel शीट को PowerPoint प्रस्तुति के रूप �
 
 ### [जावा के साथ Excel को PDF में परिवर्तित करते समय फ़ॉन्ट एम्बेड करने का तरीका](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
 जावा में Aspose.Cells का उपयोग करके Excel फ़ाइल को PDF में बदलते समय फ़ॉन्ट एम्बेड करने की चरण-दर-शरण प्रक्रिया।
+### [Aspose.Cells for Java का उपयोग करके Excel से चार्ट को DOCX में निर्यात करने का तरीका](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+Excel फ़ाइल से चार्ट को DOCX दस्तावेज़ में निर्यात करने के लिए Aspose.Cells for Java का उपयोग कैसे करें।
 
 ## अतिरिक्त संसाधन
 

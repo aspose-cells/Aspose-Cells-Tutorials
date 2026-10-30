@@ -63,6 +63,11 @@ Aspose.Cells for Java kullanarak Excel tablolarına programatik olarak nasıl ta
 
 ### [Java'da Excel Tablosu Oluşturma – Adım Adım Kılavuz](./create-excel-table-in-java-step-by-step-guide/)
 Aspose.Cells for Java kullanarak Excel'de tablo oluşturmayı adım adım öğrenin ve kod örnekleriyle uygulayın.
+### [Aspose.Cells kullanarak Excel tablo satırını güvenli bir şekilde silme](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
+Aspose.Cells for Java ile Excel tablolarında satırları güvenli bir şekilde silmeyi adım adım öğrenin.
+
+### [Java çalışma kitabında Aspose.Cells ile adlandırılmış aralık oluşturma ve tabloları yönetme](./how-to-create-named-range-aspose-and-manage-tables-in-a-java/)
+Aspose.Cells for Java kullanarak bir çalışma kitabında adlandırılmış aralık oluşturmayı ve tablo yönetimini adım adım öğrenin.
 
 ## Ek Kaynaklar
 

@@ -64,6 +64,11 @@ Dowiedz się, jak używać Aspose.Cells z Java do efektywnego identyfikowania i 
 
 ### [Ustaw nazwę tabeli w programie Excel przy użyciu Java: kompletny przewodnik](./set-table-name-in-excel-with-java-complete-guide/)
 Dowiedz się, jak ustawić nazwę tabeli w Excelu przy użyciu Aspose.Cells dla Java, aby ułatwić zarządzanie danymi i zwiększyć czytelność kodu.
+### [Jak bezpiecznie usunąć wiersz tabeli Excel przy użyciu Aspose.Cells](./how-to-delete-excel-table-row-safely-using-aspose-cells/)
+Dowiedz się, jak bezpiecznie usuwać wiersze tabeli w Excelu przy użyciu Aspose.Cells dla Java, zachowując integralność danych.
+
+### [Jak utworzyć nazwany zakres w Aspose i zarządzać tabelami w skoroszycie Java](./how-to-create-named-range-aspose-and-manage-tables-in-a-java/)
+Dowiedz się, jak tworzyć nazwane zakresy i zarządzać tabelami w skoroszycie Java przy użyciu Aspose.Cells.
 
 ## Dodatkowe zasoby
 

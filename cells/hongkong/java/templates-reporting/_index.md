@@ -68,6 +68,8 @@
 
 ### [使用智慧標記建立 Excel 工作簿 – Java 指南](./create-excel-workbook-with-smart-markers-java-guide/)
 了解如何使用 Aspose.Cells for Java 的智慧標記功能建立 Excel 工作簿，實現自動化報表生成。
+### [如何使用 Aspose.Cells 建立工作表智慧標記](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
+了解如何在 Aspose.Cells 中使用智慧標記建立和管理工作表，以自動化資料填充。
 
 ## 其他資源
 
