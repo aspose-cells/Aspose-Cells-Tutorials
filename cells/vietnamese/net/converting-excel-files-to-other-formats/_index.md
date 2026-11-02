@@ -149,6 +149,11 @@ Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang định dạng 
 Hướng dẫn chi tiết cách tạo tệp PowerPoint từ dữ liệu Excel bằng Aspose.Cells cho .NET.
 ### [Cách lưu Excel thành PPT với các hộp văn bản có thể chỉnh sửa trong C#](./how-to-save-excel-as-ppt-with-editable-text-boxes-in-c/)
 Hướng dẫn chi tiết cách lưu tệp Excel thành bản trình chiếu PowerPoint với các hộp văn bản có thể chỉnh sửa bằng C# và Aspose.Cells.
+### [Cách lưu sổ làm việc dưới dạng CSV và xuất Excel sang TXT với định dạng tùy chỉnh trong C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+Tìm hiểu cách lưu sổ làm việc Excel dưới dạng CSV và xuất sang TXT với định dạng tùy chỉnh bằng Aspose.Cells cho .NET.
+
+### [Cách nhúng phông chữ vào SVG khi chuyển đổi tệp Excel sang SVG và PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Hướng dẫn nhúng phông chữ vào tệp SVG khi chuyển đổi Excel sang SVG hoặc PowerPoint bằng Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -57,6 +57,8 @@ Aprenda a converter arquivos do Excel para Word programaticamente usando Aspose.
 Converta Excel para HTML com dicas de ferramentas usando o Aspose.Cells para .NET em poucos passos simples. Aprimore seus aplicativos web com dados interativos do Excel sem esforço.
 ### [Convertendo arquivo Excel para Markdown programaticamente no .NET](./converting-excel-file-to-markdown/)
 Aprenda a converter arquivos do Excel para o formato Markdown usando o Aspose.Cells para .NET neste guia passo a passo detalhado. Aumente a produtividade com a conversão fácil de arquivos.
+### [Como salvar a pasta de trabalho como CSV e exportar Excel para TXT com formatação personalizada em C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+Aprenda a salvar uma pasta de trabalho como CSV e exportar para TXT com formatação personalizada usando Aspose.Cells em C#.
 ### [Convertendo arquivo Excel para PDF (A-1a) programaticamente em .NET](./converting-excel-file-to-pdf-a-1a/)
 Aprenda a converter arquivos do Excel para PDF/A-1a para fins de arquivamento usando o Aspose.Cells para .NET. Guia passo a passo com exemplos de código incluídos.
 ### [Convertendo JSON para CSV programaticamente no .NET](./converting-json-to-csv/)
@@ -144,6 +146,8 @@ Aprenda a salvar planilhas Excel como arquivos de texto usando Aspose.Cells, pas
 Aprenda a exportar planilhas do Excel para apresentações PowerPoint programaticamente usando Aspose.Cells para .NET neste guia passo a passo.
 ### [Copiando tabela dinâmica e exportando Excel para PPTX com Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
 Aprenda a copiar uma tabela dinâmica de uma planilha Excel e exportá‑la como apresentação PPTX usando Aspose.Cells para .NET.
+### [Como incorporar fontes em SVG ao converter arquivos Excel para SVG e PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Aprenda a incorporar fontes ao gerar arquivos SVG a partir de planilhas Excel e ao converter para PowerPoint usando Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

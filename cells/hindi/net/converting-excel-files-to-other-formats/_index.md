@@ -110,6 +110,8 @@ Aspose.Cells for .NET का उपयोग करके Excel को PowerPoin
 
 ### [C# में संपादन योग्य टेक्स्ट बॉक्स के साथ Excel को PPT के रूप में सहेजें](./how-to-save-excel-as-ppt-with-editable-text-boxes-in-c/)
 Aspose.Cells for .NET का उपयोग करके Excel शीट को PPT में बदलें और टेक्स्ट बॉक्स को संपादन योग्य बनाएं।
+### [.NET में प्रोग्रामेटिक रूप से Excel फ़ाइलों को SVG और PowerPoint में परिवर्तित करते समय SVG में फ़ॉन्ट एम्बेड करना](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Aspose.Cells for .NET का उपयोग करके Excel को SVG या PowerPoint में बदलते समय फ़ॉन्ट एम्बेड करने की प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

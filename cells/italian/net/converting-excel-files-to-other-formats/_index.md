@@ -116,6 +116,8 @@ Scopri come salvare un file Excel in formato testo passo‑passo usando Aspose.C
 Scopri come esportare un file Excel in una presentazione PowerPoint con Aspose.Cells per .NET, passo dopo passo.
 ### [Salva Excel come txt – Guida completa C# per esportare Excel in TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
 Scopri come esportare un foglio Excel in file di testo TXT usando Aspose.Cells per .NET con esempi di codice C#.
+### [Come salvare una cartella di lavoro come CSV ed esportare Excel in TXT con formattazione personalizzata in C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+Scopri come salvare una cartella di lavoro in CSV ed esportare dati Excel in TXT con formattazione personalizzata usando C# e Aspose.Cells.
 ### [Come esportare Excel in PowerPoint con C# – Guida completa](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
 Scopri come convertire programmaticamente file Excel in presentazioni PowerPoint usando Aspose.Cells per .NET con esempi di codice dettagliati.
 ### [Converti Excel in PowerPoint – Guida passo‑passo C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
@@ -132,6 +134,8 @@ Scopri come esportare i numeri da Excel in file txt mantenendo le cifre signific
 Scopri come generare un documento Word da un file Excel in pochi passaggi con C# e Aspose.Cells.
 ### [Come salvare Excel come PPT con caselle di testo modificabili in C#](./how-to-save-excel-as-ppt-with-editable-text-boxes-in-c/)
 Scopri come salvare un file Excel come presentazione PowerPoint con caselle di testo editabili usando Aspose.Cells per .NET in C#.
+### [Come incorporare i font in SVG durante la conversione di file Excel in SVG e PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Scopri come incorporare i font nei file SVG generati da Excel e PowerPoint usando Aspose.Cells per .NET.
 
 ### [Conversione di file Excel in Markdown tramite programmazione in .NET](./converting-excel-file-to-markdown/)
 Scopri come convertire i file Excel in formato Markdown utilizzando Aspose.Cells per .NET in questa guida dettagliata e passo dopo passo. Aumenta la produttività con una facile conversione dei file.
