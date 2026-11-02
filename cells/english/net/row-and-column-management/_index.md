@@ -103,6 +103,8 @@ Learn how to create an Excel workbook in C# and transpose a column into a row us
 Learn how to load an Excel file in C# and delete rows, including removing specific rows, using Aspose.Cells for .NET.
 ### [Delete Rows Excel Table with C# – Step‑by‑Step Guide](./delete-rows-excel-table-with-c-step-by-step-guide/)
 Learn how to delete rows from an Excel table using C# and Aspose.Cells with a clear, step‑by‑step guide.
+### [How to delete rows from Excel table using C#](./how-to-delete-rows-from-excel-table-using-c/)
+Learn how to delete rows from an Excel table using C# and Aspose.Cells for .NET with a clear step‑by‑step guide.
 ### [Insert rows in Excel with C# – Step‑by‑step guide](./insert-rows-in-excel-with-c-step-by-step-guide/)
 Learn how to insert rows in Excel using C# and Aspose.Cells for .NET with this detailed step‑by‑step guide.
 ### [How to Use WRAPCOLS: Create a Two‑Column Layout in C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)

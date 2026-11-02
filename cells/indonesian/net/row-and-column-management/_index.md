@@ -100,6 +100,10 @@ Pelajari cara memuat file Excel dengan C# dan menghapus baris tertentu menggunak
 Pelajari cara membuat workbook Excel dengan C# dan mentranspose data dari kolom ke baris menggunakan Aspose.Cells.
 ### [Cara Mengulang Item di Excel – Pembuatan Baris Dinamis dengan C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Pelajari cara menghasilkan baris secara dinamis di Excel dengan mengulang item menggunakan C# dan Aspose.Cells.
+### [Cara menghapus baris dari tabel Excel menggunakan C#](./how-to-delete-rows-from-excel-table-using-c/)
+Panduan langkah demi langkah menghapus baris dalam tabel Excel menggunakan C# dan Aspose.Cells.
+### [Cara Menyisipkan Baris di GridJs – Menambahkan Beberapa Baris ke Grid dengan Efisien](./how-to-insert-rows-in-gridjs-add-multiple-rows-efficien/)
+Pelajari cara menambahkan beberapa baris secara efisien ke GridJs dengan contoh kode praktis.
 
 ### [Hapus Baris Tabel Excel dengan C# – Panduan Langkah demi Langkah](./delete-rows-excel-table-with-c-step-by-step-guide/)
 Pelajari cara menghapus baris dalam tabel Excel menggunakan C# dan Aspose.Cells, panduan langkah demi langkah yang mudah diikuti.

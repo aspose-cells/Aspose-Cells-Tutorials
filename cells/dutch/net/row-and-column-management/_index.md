@@ -115,6 +115,8 @@ Leer hoe u met GridJs meerdere rijen in één keer kunt toevoegen via een eenvou
 Ontdek hoe u wrapcols en wraprows in Excel kunt toepassen en formules automatisch laat herberekenen met Aspose.Cells voor .NET.
 ### [Cellen omhoog verschuiven in Excel met C# – Complete gids](./shift-cells-up-in-excel-with-c-complete-guide/)
 Leer hoe u met C# cellen in een Excel-werkblad omhoog verschuift met Aspose.Cells, stap voor stap uitgelegd.
+### [Hoe rijen uit Excel-tabel verwijderen met C#](./how-to-delete-rows-from-excel-table-using-c/)
+Leer hoe u rijen uit een Excel‑tabel verwijdert met C# via een stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

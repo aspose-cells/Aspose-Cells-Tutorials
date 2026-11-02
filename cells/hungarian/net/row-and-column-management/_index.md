@@ -79,7 +79,9 @@ Tanuld meg, hogyan törölhetsz több sort Excelben az Aspose.Cells for .NET seg
 ### [Aspose Cells sorok törlése – Fejléc sor védelme Excelben](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 Ismerje meg, hogyan törölhet sorokat úgy, hogy a fejléc sort megőrizze az Excel-fájlban az Aspose.Cells for .NET használatával.
 ### [Sorok törlése Excel táblázatból C#‑val – Lépésről lépésre útmutató](./delete-rows-excel-table-with-c-step-by-step-guide/)
-Ismerje meg, hogyan törölhet több sort egy Excel‑táblázatból C#‑ban az Aspose.Cells for .NET segítségével.
+Ismerje meg, hogyan törölhet több sort egy Excel‑táblázatból C#‑ban az Aspose.Cells segítségével.
+### [Hogyan töröljünk sorokat egy Excel táblázatból C#‑val](./how-to-delete-rows-from-excel-table-using-c/)
+Ismerje meg, hogyan törölhet sorokat egy Excel‑táblázatból C#‑ban az Aspose.Cells segítségével.
 ### [Sorok beszúrása Excelben C#‑val – Lépésről‑lépésre útmutató](./insert-rows-in-excel-with-c-step-by-step-guide/)
 Fedezze fel a lépésről lépésre útmutatót a sorok Excelbe való beszúrásához C#‑ban az Aspose.Cells for .NET segítségével.
 ### [Hogyan használjuk a WRAPCOLS-t: Kétoszlopos elrendezés létrehozása C#-ban](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
@@ -96,6 +98,10 @@ Tanuld meg, hogyan szúrhatsz be sort Excelben az Aspose.Cells for .NET használ
 Tanuld meg, hogyan szúrhatsz be formázott sort Excelben az Aspose.Cells for .NET használatával. Kövesd lépésről lépésre szóló útmutatónkat az egyszerű megvalósításhoz.
 ### [Több sor beszúrása az Aspose.Cells .NET-be](./insert-multiple-rows-aspose-cells/)
 Tanuld meg, hogyan szúrhatsz be több sort Excelben az Aspose.Cells for .NET segítségével. Kövesd részletes oktatóanyagunkat a zökkenőmentes adatkezeléshez.
+### [Hogyan szúrjunk be sorokat a GridJs-ben – Több sor hozzáadása a rácshoz hatékonyan](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+Ismerje meg, hogyan adhat hozzá több sort a GridJs rácshoz hatékonyan, lépésről lépésre útmutatóval.
+### [Hogyan ismételjünk elemeket az Excelben – Dinamikus sor generálás C#-val](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
+Ismerje meg, hogyan hozhat létre dinamikusan sorokat az Excelben C# segítségével az elemek ismétléséhez.
 ### [Cellák felfelé mozgatása Excelben C#-val – Teljes útmutató](./shift-cells-up-in-excel-with-c-complete-guide/)
 Ismerje meg, hogyan mozgathatja felfelé a cellákat Excelben C# segítségével lépésről lépésre útmutatóval.
 

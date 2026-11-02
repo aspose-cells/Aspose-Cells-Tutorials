@@ -78,10 +78,13 @@ Leer hoe u bevroren rijen in Excel behoudt bij het exporteren naar HTML met Aspo
 ### [Schaalbare kolombreedte programmatisch instellen in Excel](./setting-scalable-column-width/)
 ### [Naam van tabblad voor één blad instellen in HTML-export](./setting-single-sheet-tab-name/)
 ### [Lettertypen insluiten in HTML – Complete C#-gids](./how-to-embed-fonts-in-html-complete-c-guide/)
+Leer hoe u lettertypen insluit in de HTML-uitvoer bij het exporteren van Excel met Aspose.Cells voor .NET in een volledige C#-handleiding.
 ### [Excel opslaan als HTML – Complete C#-gids](./save-excel-as-html-complete-c-guide/)
 Leer hoe u Excel opslaat als HTML met een volledige C#-handleiding met Aspose.Cells voor .NET.
 ### [Lettertypen insluiten in HTML bij het exporteren van Excel – Complete C#-gids](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
 Leer hoe u lettertypen insluit in de HTML-uitvoer bij het exporteren van Excel met Aspose.Cells voor .NET in een volledige C#-handleiding.
+### [Lettertypen insluiten in HTML bij het opslaan van een werkmap](./how-to-embed-fonts-in-html-when-saving-a-workbook/)
+Leer hoe u lettertypen in de HTML-uitvoer kunt insluiten bij het opslaan van een Excel-werkmap met Aspose.Cells voor .NET.
 ### [Hoe Excel naar HTML exporteren – Bevroren rijen behouden in C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
 ### [Hoe Excel naar HTML exporteren met behoud van bevroren rijen](./how-to-export-excel-to-html-while-preserving-frozen-panes/)
 ### [Lettertypen insluiten in HTML – Export Excel naar HTML met C#](./embed-fonts-in-html-export-excel-to-html-with-c/)
@@ -109,6 +112,13 @@ Leer hoe u Excel naar HTML exporteert met C# en Aspose.Cells voor .NET in een vo
 Leer hoe u lettertypen kunt insluiten bij het exporteren van Excel naar HTML met Aspose.Cells voor .NET in deze stapsgewijze handleiding.
 ### [Excel opslaan als HTML – Complete gids voor het exporteren van Excel met opmaak](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
 Leer hoe u Excel-bestanden volledig met opmaak opslaat als HTML met Aspose.Cells voor .NET in deze stapsgewijze handleiding.
+### [Hoe xlsx naar HTML exporteren – Bevroren rijen behouden in C#](./how-to-export-xlsx-to-html-with-frozen-panes-in-c/)
+### [Lettertypen insluiten in HTML – Converteer Excel naar HTML met C#](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
+Leer hoe u lettertypen insluit in de HTML-uitvoer bij het converteren van Excel naar HTML met C# en Aspose.Cells voor .NET.
+### [Hoe Excel naar HTML exporteren – Stapsgewijze handleiding](./how-to-export-excel-to-html-step-by-step-guide/)
+Leer hoe u Excel naar HTML exporteert met een stapsgewijze handleiding voor Aspose.Cells voor .NET.
+### [Excel opslaan als HTML met bevroren rijen – Complete C#-handleiding](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
+Leer hoe u Excel opslaat als HTML met bevroren rijen met Aspose.Cells voor .NET in deze stapsgewijze C#-handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

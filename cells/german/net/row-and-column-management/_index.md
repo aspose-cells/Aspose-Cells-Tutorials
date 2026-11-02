@@ -104,6 +104,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe erstell
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien in C# laden und gezielt Zeilen löschen oder bestimmte Zeilen entfernen.
 ### [Zeilen aus Excel‑Tabelle mit C# löschen – Schritt‑für‑Schritt‑Anleitung](./delete-rows-excel-table-with-c-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Zeilen aus einer Excel‑Tabelle in C# löschen. Schritt‑für‑Schritt‑Anleitung.
+### [Zeilen aus Excel‑Tabelle mit C# löschen](./how-to-delete-rows-from-excel-table-using-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Zeilen aus einer Excel‑Tabelle per C# löschen.
 ### [Zeilen in Excel mit C# einfügen – Schritt‑für‑Schritt‑Anleitung](./insert-rows-in-excel-with-c-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Zeilen in Excel per C# einfügen – eine klare Schritt‑für‑Schritt‑Anleitung.
 ### [Wie man WRAPCOLS verwendet: Erstellen eines Zwei‑Spalten‑Layouts in C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)

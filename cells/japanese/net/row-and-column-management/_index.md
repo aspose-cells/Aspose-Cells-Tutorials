@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 行と列の管理
@@ -90,13 +92,6 @@ C# で動的に行を生成し、Excel のアイテムを繰り返し入力す�
 ### [Aspose.Cells for .NET を使用して C# で Excel ワークブックを作成し、列を行に転置する](./create-excel-workbook-c-and-transpose-column-to-row/)
 C# を使って Excel ワークブックを作成し、列データを行に転置する手順をステップバイステップで解説します。
 
-
-
-
-
-
-
-
 ### [C# で Excel ファイルを読み込む – 行の削除と特定行の除去方法](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Aspose.Cells for .NET を使用して、Excel ファイルから行を削除し、特定の行だけを除去する手順を解説します。
 ### [C# を使用して Excel ファイルの行全体を削除する方法](./how-to-delete-entire-row-in-an-excel-file-using-c/)
@@ -105,6 +100,8 @@ Aspose.Cells for .NET と C# を使用して、Excel ファイルから特定の
 C# と Aspose.Cells for .NET を使って、Excel テーブルから行を削除する手順を詳しく解説します。
 ### [ヘッダーを保持しながら Excel テーブルの行を削除するための Aspose.Cells の使用方法](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
 ヘッダー行を保持したまま、Excel テーブルから特定の行を削除する手順をステップバイステップで解説します。
+### [C# を使用して Excel テーブルから行を削除する方法](./how-to-delete-rows-from-excel-table-using-c/)
+Aspose.Cells for .NET を使用して、Excel テーブル内の行を削除する手順をステップバイステップで解説します。
 ### [C# を使用して Excel に行を挿入する – ステップバイステップ ガイド](./insert-rows-in-excel-with-c-step-by-step-guide/)
 Aspose.Cells for .NET を使用し、C# で Excel に行を挿入する方法をステップバイステップで解説します。
 ### [WRAPCOLS の使い方: C# で 2 列レイアウトを作成する](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
@@ -118,6 +115,6 @@ Aspose.Cells for .NET を使用して、Excel のセルを上方向にシフト�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

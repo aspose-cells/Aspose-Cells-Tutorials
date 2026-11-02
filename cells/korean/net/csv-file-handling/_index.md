@@ -45,6 +45,8 @@ Aspose.Cells for .NET을 사용하여 C#에서 Excel 파일을 CSV 형식으로 
 
 
 
+### [C#에서 Excel 워크북을 CSV로 내보내기 – Aspose.Cells 활용](./how-to-export-excel-workbook-to-csv-with-aspose-cells-in-c/)
+Aspose.Cells for .NET을 사용해 C#에서 Excel 워크북을 CSV 파일로 내보내는 방법을 단계별로 안내합니다.
 
 
 

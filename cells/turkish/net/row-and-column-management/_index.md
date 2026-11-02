@@ -115,6 +115,8 @@ Aspose.Cells for .NET kullanarak Excel'de hücreleri yukarı kaydırmayı adım 
 
 ### [Aspose.Cells kullanarak Excel tablosunda başlığı koruyarak satırları silme](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
 Aspose.Cells for .NET ile Excel tablosundaki satırları silerken başlık satırını korumanın adım adım rehberi.
+### [C# ile Excel Tablosundan Satır Silme – Adım Adım Kılavuz](./how-to-delete-rows-from-excel-table-using-c/)
+Aspose.Cells for .NET kullanarak C# ile bir Excel tablosundan satırları nasıl sileceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -95,7 +95,9 @@ C# 코드를 사용해 Excel에서 항목을 반복하고 동적으로 행을 �
 ### [Excel 파일 로드 C# – 행 삭제 및 특정 행 제거 방법](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Aspose.Cells for .NET을 사용하여 Excel 파일을 로드하고 행을 삭제하거나 특정 행을 제거하는 단계별 가이드를 확인하세요.
 ### [C#를 사용한 Excel 테이블 행 삭제 – 단계별 가이드](./delete-rows-excel-table-with-c-step-by-step-guide/)
-C#와 Aspose.Cells for .NET을 이용해 Excel 테이블에서 행을 삭제하는 방법을 단계별로 안내합니다.
+C#와 Aspose.Cells for .NET을 사용해 Excel 테이블에서 행을 삭제하는 방법을 단계별로 안내합니다.
+### [C#를 사용하여 Excel 테이블에서 행 삭제하는 방법](./how-to-delete-rows-from-excel-table-using-c/)
+C#와 Aspose.Cells for .NET을 이용해 Excel 테이블에서 행을 삭제하는 단계별 가이드를 확인하세요.
 ### [C#를 사용하여 Excel에 행 삽입 – 단계별 가이드](./insert-rows-in-excel-with-c-step-by-step-guide/)
 Aspose.Cells for .NET을 사용하여 C#로 Excel에 행을 삽입하는 방법을 단계별로 안내합니다.
 ### [C#에서 WRAPCOLS 사용 방법: 두 열 레이아웃 만들기](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)

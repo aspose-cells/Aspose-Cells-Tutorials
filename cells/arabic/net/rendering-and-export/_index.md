@@ -68,6 +68,8 @@ Aspose.Cells for .NET أداة فعّالة تُبسّط طريقة تعاملك
 تعرف على كيفية تصدير جداول Pivot إلى صور PNG باستخدام Aspose.Cells لـ .NET في C# خطوة بخطوة.
 ### [إنشاء صورة Pivot بصيغة PNG في C# – دليل شامل خطوة بخطوة](./create-png-pivot-image-in-c-full-step-by-step-guide/)
 تعلم كيفية إنشاء صورة Pivot بصيغة PNG باستخدام Aspose.Cells في C# من خلال دليل خطوة بخطوة مفصل.
+### [كيفية تعيين منطقة الطباعة في Excel وتصدير PNG](./how-to-set-print-area-in-excel-and-export-png/)
+تعرف على كيفية تحديد منطقة الطباعة في Excel وتصديرها كصورة PNG باستخدام Aspose.Cells لـ .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
