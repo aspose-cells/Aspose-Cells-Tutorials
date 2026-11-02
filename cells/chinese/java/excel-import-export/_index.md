@@ -180,6 +180,8 @@
 学习使用 Aspose.Cells for Java 设置 Excel 打印区域并将其导出为 PowerPoint 演示文稿的步骤。
 ### [如何使用 Aspose Smart Markers 将 JSON 转换为 Excel（Java）](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
 学习如何使用 Aspose.Cells for Java 的 Smart Markers 将 JSON 数据转换为 Excel 文件。
+### [如何使用 Java 将 Excel 导出为 PowerPoint](./how-to-export-excel-to-powerpoint-with-java/)
+学习如何使用 Aspose.Cells for Java 将 Excel 文件导出为 PowerPoint 演示文稿。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -174,6 +174,8 @@ Leer hoe u een printgebied in Excel instelt en het bestand exporteert naar Power
 Leer hoe u Aspose Smart Markers gebruikt om JSON-gegevens om te zetten naar een Excel-werkmap in Java met voorbeeldcode.
 ### [Hoe Excel exporteren naar TXT met Aspose.Cells en decimale precisie regelen](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
 Leer hoe u Excel-werkbladen naar TXT exporteert met Aspose.Cells en de decimale precisie nauwkeurig kunt instellen.
+### [Excel exporteren naar PowerPoint met Java](./how-to-export-excel-to-powerpoint-with-java/)
+Leer hoe u Excel-bestanden naar PowerPoint exporteert met Aspose.Cells voor Java. Volg de stapsgewijze handleiding met voorbeeldcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

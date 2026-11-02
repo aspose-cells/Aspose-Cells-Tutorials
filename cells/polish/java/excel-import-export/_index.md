@@ -169,6 +169,8 @@ Dowiedz się, jak ustawić niestandardowy separator komórek przy eksporcie tabe
 Dowiedz się, jak w prosty sposób wygenerować plik Excel z danych JSON przy użyciu Aspose Cells w Javie.
 ### [Jak wyeksportować Excel do PowerPoint – przewodnik krok po kroku](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
 Dowiedz się, jak bezproblemowo wyeksportować pliki Excel do PowerPoint przy użyciu Aspose.Cells for Java.
+### [Jak wyeksportować Excel do PowerPoint w Javie](./how-to-export-excel-to-powerpoint-with-java/)
+Dowiedz się, jak przy użyciu Aspose.Cells for Java wyeksportować plik Excel do prezentacji PowerPoint w kilku prostych krokach.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

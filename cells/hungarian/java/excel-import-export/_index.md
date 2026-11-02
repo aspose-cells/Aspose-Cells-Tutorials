@@ -169,6 +169,8 @@ Ismerd meg, hogyan állíts be nyomtatási területet Excelben, majd exportáld 
 Ismerd meg, hogyan konvertálhatsz JSON adatokat Excel fájlokká az Aspose Smart Markers segítségével Java-ban.
 ### [Excel exportálása TXT-be és a tizedes pontosság szabályozása](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
 Ismerd meg, hogyan exportálhatsz Excel-fájlokat TXT formátumba az Aspose.Cells használatával, miközben pontosan beállíthatod a tizedesjegyek számát.
+### [Hogyan exportáljunk Excel-t PowerPoint-ba Java-val](./how-to-export-excel-to-powerpoint-with-java/)
+Tanuld meg, hogyan konvertálhatod Excel fájljaidat PowerPoint prezentációvá Java és Aspose.Cells segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

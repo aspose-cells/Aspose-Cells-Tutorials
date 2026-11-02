@@ -162,6 +162,8 @@ Aspose.Cells for Java를 사용하여 인쇄 영역을 설정하고 Excel을 Pow
 ### [Java에서 Aspose 스마트 마커를 사용하여 JSON을 Excel로 변환하는 방법](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
 Aspose 스마트 마커를 활용해 JSON 데이터를 Java에서 Excel 파일로 손쉽게 변환하는 단계별 가이드입니다.
 ### [Excel을 TXT로 내보내고 소수점 정밀도 제어하기](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+### [Java로 Excel을 PowerPoint로 내보내는 방법](./how-to-export-excel-to-powerpoint-with-java/)
+Aspose.Cells for Java를 사용하여 Excel 파일을 PowerPoint 프레젠테이션으로 변환하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -180,6 +180,8 @@ Excel में प्रिंट एरिया निर्धारित �
 Aspose स्मार्ट मार्कर्स का उपयोग करके जावा में JSON डेटा को Excel फ़ाइल में परिवर्तित करने की प्रक्रिया सीखें।
 ### [Aspose.Cells के साथ Excel को TXT में निर्यात करना और दशमलव सटीकता को नियंत्रित करना](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
 Aspose.Cells का उपयोग करके Excel फ़ाइल को TXT में निर्यात करें और दशमलव स्थानों को नियंत्रित करें।
+### [जावा के साथ Excel को PowerPoint में निर्यात कैसे करें](./how-to-export-excel-to-powerpoint-with-java/)
+जावा के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों को PowerPoint स्लाइड्स में निर्यात करना सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

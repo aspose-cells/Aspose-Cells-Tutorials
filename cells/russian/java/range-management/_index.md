@@ -92,6 +92,8 @@
 
 ### [Назначение имени ячейке в Excel с помощью Java – Полное руководство](./assign-name-to-cell-in-excel-using-java-complete-guide/)
 Узнайте, как присвоить имя отдельной ячейке в Excel с помощью Aspose.Cells для Java, используя пошаговые примеры кода.
+### [Как скопировать диапазон в Java с Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
+Узнайте, как копировать диапазоны в Excel с помощью Aspose.Cells для Java.
 
 ## Дополнительные ресурсы
 

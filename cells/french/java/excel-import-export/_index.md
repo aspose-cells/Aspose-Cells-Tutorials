@@ -59,6 +59,8 @@ Apprenez à exporter un classeur Excel au format TXT en limitant le nombre de ch
 Apprenez à exporter des données Excel au format TXT en Java avec Aspose.Cells. Guide complet avec code source pour une conversion fluide.
 ### [Comment exporter Excel en TXT avec Aspose.Cells et contrôler la précision décimale](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
 Apprenez à exporter des fichiers Excel au format TXT avec Aspose.Cells tout en maîtrisant la précision des décimales.
+### [Exporter Excel vers PowerPoint avec Java](./how-to-export-excel-to-powerpoint-with-java/)
+Apprenez à convertir des classeurs Excel en présentations PowerPoint en Java avec Aspose.Cells, grâce à ce guide étape par étape.
 ### [Exporter Excel vers XML Java](./export-excel-to-xml-java/)
 Apprenez à exporter des données Excel vers XML en Java avec Aspose.Cells pour Java. Guide étape par étape avec code source pour une conversion de données fluide.
 

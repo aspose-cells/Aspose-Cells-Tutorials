@@ -165,6 +165,8 @@ Aprenda a exportar planilhas Excel para arquivos TXT usando Aspose.Cells, contro
 Aprenda a definir a área de impressão no Excel e exportá‑la para PowerPoint usando Aspose.Cells para Java.
 ### [Como usar marcadores inteligentes Aspose para converter JSON em Excel em Java](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
 Aprenda a usar marcadores inteligentes Aspose para transformar JSON em planilhas Excel com Java.
+### [Como exportar Excel para PowerPoint com Java](./how-to-export-excel-to-powerpoint-with-java/)
+Aprenda a exportar arquivos do Excel para PowerPoint usando o Aspose.Cells para Java. Guia passo a passo com código-fonte para conversão fácil.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

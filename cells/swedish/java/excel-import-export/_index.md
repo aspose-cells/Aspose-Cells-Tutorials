@@ -163,6 +163,8 @@ Lär dig hur du med Aspose Smart Markers konverterar JSON-data till Excel-filer 
 ### [Hur man ställer in utskriftsområde i Excel och exporterar till PowerPoint](./how-to-set-print-area-excel-and-export-to-powerpoint/)
 ### [Hur man exporterar Excel till TXT med Aspose.Cells och styr decimalprecision](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
 Lär dig hur du exporterar Excel-filer till TXT och kontrollerar decimalprecision med Aspose.Cells i Java.
+### [Hur man exporterar Excel till PowerPoint med Java](./how-to-export-excel-to-powerpoint-with-java/)
+Lär dig hur du exporterar Excel-filer till PowerPoint med Aspose.Cells för Java i en steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

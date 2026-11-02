@@ -177,6 +177,8 @@ Hướng dẫn cách đặt vùng in trong tệp Excel và xuất nó thành b�
 Hướng dẫn chi tiết cách dùng Aspose Smart Markers để biến dữ liệu JSON thành tệp Excel trong Java.
 ### [Cách xuất Excel sang TXT với Aspose.Cells và kiểm soát độ chính xác thập phân](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
 Hướng dẫn chi tiết cách xuất dữ liệu Excel sang file TXT và điều chỉnh độ chính xác thập phân bằng Aspose.Cells cho Java.
+### [Cách xuất Excel sang PowerPoint bằng Java](./how-to-export-excel-to-powerpoint-with-java/)
+Tìm hiểu cách xuất tệp Excel sang PowerPoint bằng Aspose.Cells cho Java. Hướng dẫn chi tiết với mã nguồn để chuyển đổi mượt mà.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -167,6 +167,8 @@
 تعرف على كيفية تحويل ملفات JSON إلى Excel باستخدام العلامات الذكية من Aspose في Java.
 ### [كيفية تصدير إكسل إلى TXT باستخدام Aspose.Cells والتحكم في دقة الأرقام العشرية](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
 تعرّف على تصدير ملفات Excel إلى TXT مع التحكم في عدد الأرقام العشرية باستخدام Aspose.Cells.
+### [كيفية تصدير Excel إلى PowerPoint باستخدام Java](./how-to-export-excel-to-powerpoint-with-java/)
+تعرّف على طريقة تصدير ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells لـ Java خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -177,6 +177,7 @@ Aspose.Cells for Java を使用して、Excel の印刷範囲を指定し、Powe
 Aspose.Smart Markers を使用して JSON データを Excel に変換する手順を学びます。
 ### [Excel を TXT にエクスポートし、小数点精度を制御する方法](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
 Aspose.Cellsを使用して、ExcelをTXT形式にエクスポートし、小数点の精度を自在に設定する方法を学びます。
+### [JavaでExcelをPowerPointにエクスポートする方法](./how-to-export-excel-to-powerpoint-with-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

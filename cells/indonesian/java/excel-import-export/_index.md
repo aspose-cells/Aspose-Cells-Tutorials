@@ -179,6 +179,8 @@ Pelajari cara mengekspor sel tertentu dari file Excel ke format CSV menggunakan 
 ### [Cara mengatur area cetak Excel dan mengekspor ke PowerPoint](./how-to-set-print-area-excel-and-export-to-powerpoint/)
 Pelajari cara menentukan area cetak pada file Excel dan mengekspornya ke PowerPoint menggunakan Aspose.Cells untuk Java.
 ### [Cara mengekspor Excel ke TXT dengan Aspose.Cells dan mengontrol presisi desimal](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+### [Cara Mengekspor Excel ke PowerPoint dengan Java](./how-to-export-excel-to-powerpoint-with-java/)
+Pelajari cara mengekspor file Excel ke presentasi PowerPoint menggunakan Aspose.Cells untuk Java dalam panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

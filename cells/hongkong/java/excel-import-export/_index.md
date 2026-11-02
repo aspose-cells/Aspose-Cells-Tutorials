@@ -177,6 +177,8 @@
 說明如何使用 Aspose.Cells for Java 設定列印區域並將 Excel 匯出為 PowerPoint 簡報。提供逐步指引與原始碼範例。
 ### [如何使用 Aspose.Cells 將 Excel 匯出為 TXT 並控制小數精度](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
 了解如何使用 Aspose.Cells for Java 將 Excel 匯出為 TXT，並設定小數點精度，以確保資料精確呈現。
+### [如何使用 Java 將 Excel 匯出為 PowerPoint](./how-to-export-excel-to-powerpoint-with-java/)
+了解如何使用 Aspose.Cells for Java 將 Excel 工作表匯出為 PowerPoint 簡報，並提供完整範例程式碼。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

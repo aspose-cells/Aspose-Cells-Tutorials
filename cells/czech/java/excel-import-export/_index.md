@@ -163,6 +163,8 @@ Naučte se nastavit oblast tisku v Excelu a exportovat ji do PowerPointu pomocí
 Naučte se, jak pomocí Aspose Smart Markers v Javě převést data z JSON do souboru Excel s praktickým ukázkovým kódem.
 ### [Jak exportovat Excel do TXT s Aspose.Cells a řídit desetinnou přesnost](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
 Naučte se exportovat data z Excelu do formátu TXT a nastavit požadovanou přesnost desetinných čísel pomocí Aspose.Cells.
+### [Jak exportovat Excel do PowerPointu pomocí Javy](./how-to-export-excel-to-powerpoint-with-java/)
+Naučte se, jak převést soubory Excel do PowerPointu pomocí Aspose.Cells pro Javu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

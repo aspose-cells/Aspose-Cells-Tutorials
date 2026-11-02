@@ -185,6 +185,8 @@ Aprenda a establecer un separador de celda personalizado al exportar tablas de E
 Aprenda a crear archivos Excel a partir de JSON usando Aspose Cells en Java. Guía paso a paso con código fuente.
 ### [Cómo exportar Excel a PowerPoint – guía paso a paso](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
 Aprenda a convertir archivos de Excel a presentaciones PowerPoint usando Aspose.Cells para Java. Guía paso a paso con ejemplos de código.
+### [Cómo exportar Excel a PowerPoint con Java](./how-to-export-excel-to-powerpoint-with-java/)
+Aprenda a exportar archivos de Excel a presentaciones PowerPoint usando Aspose.Cells para Java. Guía paso a paso con código fuente.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

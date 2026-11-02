@@ -164,6 +164,8 @@
 Μάθετε πώς να ορίσετε την περιοχή εκτύπωσης σε ένα αρχείο Excel και να το εξάγετε ως παρουσίαση PowerPoint χρησιμοποιώντας Aspose.Cells για Java.
 ### [Πώς να εξάγετε Excel σε TXT με Aspose.Cells και έλεγχο δεκαδικής ακρίβειας](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
 Μάθετε πώς να εξάγετε αρχεία Excel σε μορφή TXT και να ελέγξετε την ακρίβεια των δεκαδικών χρησιμοποιώντας Aspose.Cells για Java.
+### [Πώς να εξάγετε Excel σε PowerPoint με Java](./how-to-export-excel-to-powerpoint-with-java/)
+Μάθετε πώς να μετατρέψετε αρχεία Excel σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Cells για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -189,6 +189,8 @@
 Узнайте, как с помощью Aspose Smart Markers преобразовать JSON в файл Excel в Java.
 ### [Как экспортировать Excel в TXT с помощью Aspose.Cells и контролировать точность десятичных знаков](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
 Узнайте, как экспортировать данные Excel в формат TXT, управляя точностью десятичных знаков с помощью Aspose.Cells.
+### [Экспорт Excel в PowerPoint с Java](./how-to-export-excel-to-powerpoint-with-java/)
+Узнайте, как экспортировать данные Excel в презентацию PowerPoint с помощью Aspose.Cells для Java. Пошаговое руководство с примером кода.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

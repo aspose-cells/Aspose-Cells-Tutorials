@@ -167,6 +167,8 @@ Learn how to export Excel files to TXT format using Aspose.Cells while controlli
 Learn how to set a print area in Excel and export the worksheet to PowerPoint using Aspose.Cells for Java.
 ### [How to use aspose smart markers to convert JSON to Excel in Java](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
 Learn how to convert JSON data to Excel using Aspose Smart Markers in Java with clear, step-by-step code examples.
+### [How to export Excel to PowerPoint with Java](./how-to-export-excel-to-powerpoint-with-java/)
+Learn how to export Excel files to PowerPoint using Aspose.Cells for Java. Step-by-step guide with source code for seamless conversion.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

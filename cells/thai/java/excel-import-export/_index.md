@@ -183,6 +183,7 @@
 เรียนรู้วิธีใช้ Smart Markers ของ Aspose เพื่อแปลงไฟล์ JSON เป็น Excel ด้วย Java อย่างง่ายดาย
 ### [วิธีส่งออก Excel เป็น TXT ด้วย Aspose.Cells และควบคุมความแม่นยำของทศนิยม](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
 เรียนรู้วิธีส่งออกไฟล์ Excel เป็น TXT พร้อมควบคุมจำนวนตำแหน่งทศนิยมโดยใช้ Aspose.Cells สำหรับ Java
+### [วิธีส่งออก Excel ไปยัง PowerPoint ด้วย Java](./how-to-export-excel-to-powerpoint-with-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
