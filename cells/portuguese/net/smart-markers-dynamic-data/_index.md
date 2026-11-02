@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Marcadores inteligentes no Aspose.Cells para dados dinâmicos
@@ -127,13 +129,6 @@ Aprenda a converter arquivos JSON para XLSX usando SmartMarker em C#, passo a pa
 ### [Criar Pasta de Trabalho a partir de XLSX com Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
 Aprenda a gerar uma nova pasta de trabalho a partir de um arquivo XLSX usando o SmartMarkerProcessor do Aspose.Cells.
 
-
-
-
-
-
-
-
 ### [Nomear automaticamente planilhas do Excel – Forma fácil de gerar planilhas](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
 Aprenda a nomear automaticamente as planilhas do Excel ao gerar relatórios, simplificando a organização e economizando tempo.
 ### [Como criar hierarquia com SmartMarker – Guia passo a passo](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
@@ -164,13 +159,6 @@ Aprenda a criar um relatório mestre‑detalhe em C# preenchendo um modelo Excel
 ### [Como criar lista de relatórios Excel com marcadores inteligentes do Aspose.Cells](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
 Aprenda a gerar uma lista de relatórios Excel usando Marcadores Inteligentes do Aspose.Cells em .NET.
 
-
-
-
-
-
-
-
 ### [Aplicar SmartMarker à Planilha em C# – Guia Completo](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
 Aprenda passo a passo como aplicar SmartMarker a uma planilha usando C#, criando relatórios Excel dinâmicos de forma completa.
 ### [Criar Excel programaticamente usando Marcadores Inteligentes do Aspose.Cells](./create-excel-programmatically-using-aspose-cells-smart-marke/)
@@ -194,11 +182,12 @@ Aprenda a gerar relatórios mestre‑detalhe preenchendo modelos de Excel usando
 ### [Como Repetir Planilhas – Guia Completo para Automação do Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 Aprenda a duplicar planilhas automaticamente usando Aspose.Cells, otimizando a criação de relatórios e economizando tempo no Excel.
 
+### [Analisar JSON Aninhado C# – Criar Payload JSON C#](./parse-nested-json-c-create-json-payload-c/)
+Aprenda a analisar JSON aninhado e criar payloads JSON em C# usando Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
-### [Analisar JSON Aninhado C# – Criar Payload JSON C#](./parse-nested-json-c-create-json-payload-c/)
-Aprenda a analisar JSON aninhado e criar payloads JSON em C# usando Aspose.Cells.

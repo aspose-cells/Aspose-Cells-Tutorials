@@ -91,6 +91,8 @@ Leer hoe u XLSX-bestanden naar CSV converteert in C# met Aspose.Cells, stap voor
 
 
 
+### [Excel exporteren naar PowerPoint met bewerkbare grafieken in C#](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Leer hoe u Excel-gegevens exporteert naar PowerPoint met bewerkbare grafieken via C# en Aspose.Cells.
 
 ### [Excel opslaan als Docx met C# – Complete stapsgewijze handleiding](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 Leer hoe u Excel-bestanden opslaat als Docx met C# via een volledige stap‑voor‑stap handleiding.

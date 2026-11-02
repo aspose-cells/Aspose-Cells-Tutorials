@@ -61,6 +61,8 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 เรียนรู้วิธีการแปลงไฟล์ Excel เป็นงานนำเสนอ PowerPoint (PPTX) ด้วยโปรแกรม Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้
 ### [แปลง Excel เป็น PowerPoint ด้วย C# – คู่มือครบถ้วน](./convert-excel-to-powerpoint-with-c-complete-guide/)
 เรียนรู้วิธีแปลงไฟล์ Excel เป็นงานนำเสนอ PowerPoint ด้วย C# อย่างละเอียดและครบถ้วนในขั้นตอนเดียว
+### [ส่งออก Excel ไปยัง PowerPoint พร้อมแผนภูมิที่แก้ไขได้ใน C#](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ไปยัง PowerPoint พร้อมแผนภูมิที่สามารถแก้ไขได้โดยใช้ C# และ Aspose.Cells
 ### [ตั้งพื้นที่พิมพ์ใน Excel และส่งออกเป็น PowerPoint – คู่มือขั้นตอนโดยละเอียด](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
 เรียนรู้วิธีตั้งพื้นที่พิมพ์ใน Excel แล้วส่งออกเป็นไฟล์ PowerPoint ด้วย Aspose.Cells สำหรับ .NET อย่างง่าย
 ### [แปลง Excel เป็น PowerPoint และตั้งพื้นที่พิมพ์](./convert-excel-to-powerpoint-and-set-print-area/)

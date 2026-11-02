@@ -101,6 +101,8 @@ Learn how to generate PowerPoint presentations from Excel data using Aspose.Cell
 Learn how to export Excel to PowerPoint programmatically using Aspose.Cells for .NET in this step‑by‑step guide.
 ### [Create PowerPoint from Excel – Step‑by‑Step Guide](./create-powerpoint-from-excel-step-by-step-guide/)
 Learn how to create a PowerPoint presentation from an Excel file using Aspose.Cells for .NET in this step-by-step guide.
+### [Export Excel to PowerPoint with editable charts in C#](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Learn how to export Excel worksheets to PowerPoint with editable charts using C# and Aspose.Cells.
 ### [How to save Excel as PPT with editable text boxes in C#](./how-to-save-excel-as-ppt-with-editable-text-boxes-in-c/)
 Learn how to save an Excel workbook as a PowerPoint presentation with editable text boxes using Aspose.Cells for .NET in C#.
 ### [Convert Excel to PowerPoint – Step‑by‑Step C# Guide](./convert-excel-to-powerpoint-step-by-step-c-guide/)

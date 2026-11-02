@@ -79,6 +79,8 @@ Tanulja meg, hogyan hozhat létre PowerPoint-prezentációt Excel-adatokból C#-
 Tanulja meg, hogyan exportálhat Excel-fájlokat PowerPoint-prezentációvá C#-ban az Aspose.Cells for .NET segítségével, részletes lépésekkel.
 ### [Excel mentése PPT-be szerkeszthető szövegdobozokkal C#-ban](./how-to-save-excel-as-ppt-with-editable-text-boxes-in-c/)
 Tanuld meg, hogyan mentheted az Excel-fájlt PPT-be szerkeszthető szövegdobozokkal C#-ban az Aspose.Cells segítségével.
+### [Excel exportálása PowerPointba szerkeszthető diagramokkal C#-ban](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Ismerje meg, hogyan exportálhat Excel-fájlokat PowerPointba szerkeszthető diagramokkal C#-ban az Aspose.Cells for .NET használatával.
 ### [HTML CrossType megadása a kimeneti HTML-ben programozottan .NET-ben](./specifying-html-crosstype-in-output-html/)
 Tanuld meg, hogyan adhatsz meg HTML CrossType-ot az Aspose.Cells for .NET-ben. Kövesd lépésről lépésre útmutatónkat az Excel-fájlok precíz HTML-be konvertálásához.
 ### [Hogyan ágyazzunk be betűtípusokat SVG-be Excel-fájlok SVG- és PowerPoint-formátumba konvertálásakor .NET-ben](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)

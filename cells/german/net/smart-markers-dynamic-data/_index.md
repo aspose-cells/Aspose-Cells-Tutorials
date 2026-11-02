@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Intelligente Markierungen in Aspose.Cells für dynamische Daten
@@ -136,11 +138,7 @@ Erfahren Sie, wie Sie mit Aspose.Cells und SmartMarker in C# komplette Excel‑B
 ### [Exportieren von Daten nach Excel mit Smart Marker – Vollständige C#‑Anleitung](./export-data-to-excel-with-smart-marker-full-c-guide/)
 ### [Excel-Arbeitsmappe programmgesteuert mit Smart Markern erstellen](./create-excel-workbook-programmatically-using-smart-markers/)
 Erstellen Sie eine Excel-Arbeitsmappe programmgesteuert mit Smart Markern in Aspose.Cells für .NET.
-
-
-
-
-
+### [SmartMarkerOptions ArrayAsSingle in C# für JSON-Arrays konfigurieren](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
 
 ### [Excel‑Tabellenblätter automatisch benennen – einfacher Weg zum Generieren von Blättern](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
 Erfahren Sie, wie Sie mit Aspose.Cells Excel‑Tabellenblätter automatisch benennen und so Berichte effizient erstellen.
@@ -245,6 +243,6 @@ Erfahren Sie, wie Sie Arbeitsblätter in Excel automatisch duplizieren und wiede
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

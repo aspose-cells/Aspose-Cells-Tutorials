@@ -138,6 +138,10 @@ Scopri come salvare un file Excel come presentazione PowerPoint con caselle di t
 Scopri come incorporare i font nei file SVG generati da Excel e PowerPoint usando Aspose.Cells per .NET.
 
 ### [Conversione di file Excel in Markdown tramite programmazione in .NET](./converting-excel-file-to-markdown/)
+### [Esporta Excel in PowerPoint con grafici modificabili in C#](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Scopri come esportare un foglio Excel in PowerPoint mantenendo i grafici editabili usando Aspose.Cells per .NET con C#.
+
+### [Conversione di file Excel in Markdown tramite programmazione in .NET](./converting-excel-file-to-markdown/)
 Scopri come convertire i file Excel in formato Markdown utilizzando Aspose.Cells per .NET in questa guida dettagliata e passo dopo passo. Aumenta la produttività con una facile conversione dei file.
 ### [Come esportare Excel in PowerPoint – Guida completa](./how-to-export-excel-to-powerpoint-complete-guide/)
 Scopri come esportare i fogli Excel in presentazioni PowerPoint con Aspose.Cells per .NET, passo passo e con esempi di codice.

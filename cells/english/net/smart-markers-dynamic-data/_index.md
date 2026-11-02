@@ -8,7 +8,9 @@ url: /net/smart-markers-dynamic-data/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Smart Markers in Aspose.Cells for Dynamic Data
@@ -127,12 +129,8 @@ Learn how to create an Excel template using Smart Markers in C# with step‑by�
 ### [Convert JSON to XLSX in C# using SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
 ### [Create Workbook from XLSX with Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
 
-
-
-
-
-
-
+### [Configure SmartMarkerOptions ArrayAsSingle in C# for JSON arrays](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
+Configure SmartMarkerOptions to treat JSON arrays as a single entity in C# with Aspose.Cells.
 
 ### [repeat data in excel – Populate template with SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
 Learn how to repeat rows of data in an Excel template using SmartMarker to populate dynamic content efficiently.
@@ -178,6 +176,6 @@ Unlock the power of Aspose.Cells for .NET to populate templates with Smart Marke
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

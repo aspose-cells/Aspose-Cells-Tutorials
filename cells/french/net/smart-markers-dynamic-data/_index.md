@@ -113,6 +113,7 @@ Apprenez à générer un classeur Excel à partir d'un fichier XLSX en utilisant
 ### [Convertir JSON en Excel avec C# – Guide étape par étape](./convert-json-to-excel-with-c-step-by-step-guide/)
 ### [Créer un classeur Excel programmatique avec les Smart Markers](./create-excel-workbook-programmatically-using-smart-markers/)
 Apprenez à créer un classeur Excel en utilisant les Smart Markers via du code C#.
+### [Configurer SmartMarkerOptions ArrayAsSingle en C# pour les tableaux JSON](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
 
 Apprenez à convertir des fichiers JSON en Excel en C# avec un guide détaillé, étape par étape, pour créer des rapports dynamiques.
 

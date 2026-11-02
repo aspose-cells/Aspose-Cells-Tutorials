@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Inteligentne znaczniki w Aspose.Cells dla dynamicznych danych
@@ -55,7 +57,6 @@ Czy często masz do czynienia z różnymi ilościami danych? Funkcja tablicy zmi
 
 ### [Utwórz plik Excel z JSON przy użyciu Aspose.Cells Smart Marker](./create-excel-from-json-with-aspose-cells-smart-marker/)
 Dowiedz się, jak generować plik Excel z danych JSON przy pomocy Smart Markers w Aspose.Cells.
-
 
 ## Inteligentne znaczniki w Aspose.Cells dla samouczków dotyczących dynamicznych danych
 ### [Dodawanie niestandardowych etykiet za pomocą inteligentnych znaczników w Aspose.Cells](./add-custom-labels-smart-markers/)
@@ -122,13 +123,8 @@ Dowiedz się, jak konwertować pliki JSON do formatu Excel przy użyciu C# i bib
 ### [Jak połączyć arkusze w Excelu za pomocą SmartMarker – przewodnik krok po kroku](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
 Dowiedz się, jak przy użyciu SmartMarker łączyć arkusze w Excelu, tworząc spójne raporty. Przewodnik krok po kroku dla .NET.
 
-
-
-
 ### [Utwórz skoroszyt Excel programowo przy użyciu inteligentnych znaczników](./create-excel-workbook-programmatically-using-smart-markers/)
-
-
-
+### [Konfiguracja opcji SmartMarkerOptions ArrayAsSingle w C# dla tablic JSON](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
 
 ### [Jak utworzyć skoroszyt przy użyciu inteligentnych znaczników – przewodnik Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
 Dowiedz się, jak krok po kroku utworzyć nowy skoroszyt Excel przy użyciu inteligentnych znaczników w Aspose.Cells dla .NET.
@@ -181,11 +177,11 @@ Dowiedz się, jak przy pomocy Smart Markers w Aspose.Cells stworzyć skoroszyt M
 Dowiedz się, jak używać Smart Markers do wypełniania szablonów Excel danymi w scenariuszu Master‑Detail.
 ### [Jak powielać arkusze – Kompletny przewodnik po automatyzacji Excela](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 
+### [Konwertuj JSON do XLSX w C# przy użyciu SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-
-### [Konwertuj JSON do XLSX w C# przy użyciu SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)

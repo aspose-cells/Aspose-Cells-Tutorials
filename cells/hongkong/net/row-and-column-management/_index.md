@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 行列管理
@@ -92,12 +94,8 @@
 了解如何使用 Aspose.Cells for .NET 在 C# 中載入 Excel 檔案，並刪除或移除特定的行。
 ### [如何在 GridJs 中插入行 – 高效新增多行](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 
-
-
-
-
-
-
+### [使用 C# 建立 Excel 工作簿並將欄位轉置為列](./create-excel-workbook-c-and-transpose-column-to-row/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中建立 Excel 工作簿，並將欄位資料轉置為列。
 
 ### [在 Aspose.Cells .NET 中使用 C# 刪除 Excel 表格的行](./delete-rows-excel-table-with-c-step-by-step-guide/)
 了解如何使用 C# 及 Aspose.Cells for .NET 在 Excel 表格中刪除行的完整步驟說明。
@@ -115,6 +113,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

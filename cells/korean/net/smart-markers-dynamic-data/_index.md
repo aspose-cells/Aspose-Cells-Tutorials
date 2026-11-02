@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells의 동적 데이터를 위한 스마트 마커
@@ -151,6 +153,18 @@ Aspose.Cells를 사용하여 데이터에 따라 Excel 시트 이름을 자동�
 
 ## [C#에서 스마트 마커 컬렉션 만들기 – 완전 가이드](./create-smart-marker-collection-in-c-complete-guide/)
 C#을 사용하여 스마트 마커 컬렉션을 완전하게 구현하는 방법을 단계별로 안내합니다.
+### [Aspose.Cells 스마트 마커를 사용하여 JSON에서 Excel 만들기](./create-excel-from-json-with-aspose-cells-smart-marker/)
+JSON 데이터를 활용해 스마트 마커로 Excel 파일을 생성하는 방법을 단계별로 안내합니다.
+### [C#에서 JSON 배열을 위한 SmartMarkerOptions ArrayAsSingle 구성](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
+
+## [Excel 시트 자동 이름 지정 – 시트를 손쉽게 생성하는 방법](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+Aspose.Cells를 사용하여 데이터에 따라 Excel 시트 이름을 자동으로 지정하고, 여러 시트를 빠르게 생성하는 방법을 단계별로 안내합니다.
+
+## [스마트 마커로 워크북 만들기 – Aspose.Cells 가이드](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+스마트 마커를 사용하여 워크북을 생성하는 방법을 단계별로 안내합니다. Aspose.Cells를 활용해 동적 Excel 보고서를 손쉽게 만들 수 있습니다.
+
+## [C#에서 스마트 마커 컬렉션 만들기 – 완전 가이드](./create-smart-marker-collection-in-c-complete-guide/)
+C#을 사용하여 스마트 마커 컬렉션을 완전하게 구현하는 방법을 단계별로 안내합니다.
 ### [스마트 마커를 사용하여 워크북 만들기 – 높음/낮음 출력](./how-to-create-workbook-with-smart-markers-output-high-low/)
 스마트 마커를 활용해 고/저 값을 출력하는 워크북을 생성하는 방법을 단계별로 안내합니다.
 ### [Excel 내보내기 방법 – C# 개발자를 위한 완전 가이드](./how-to-export-excel-complete-guide-for-c-developers/)
@@ -159,8 +173,6 @@ C# 개발자를 위해 Excel 파일을 내보내는 방법을 단계별로 안�
 스마트 마커를 활용해 동일한 데이터를 여러 행에 반복 삽입하고 템플릿을 자동으로 채우는 방법을 단계별로 안내합니다.
 ### [데이터를 Excel로 내보내기: C#에서 배열을 사용해 템플릿 채우기](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
 C# 배열 데이터를 활용해 Excel 템플릿에 데이터를 자동으로 채워 내보내는 방법을 단계별로 안내합니다.
-### [Aspose.Cells 스마트 마커를 사용하여 JSON에서 Excel 만들기](./create-excel-from-json-with-aspose-cells-smart-marker/)
-JSON 데이터를 활용해 스마트 마커로 Excel 파일을 생성하는 방법을 단계별로 안내합니다.
 ### [시트를 자동으로 이름 지정하는 방법 – C#에서 여러 시트 생성](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 ### [스마트 마커를 사용한 계층 구조 만들기 – 단계별 가이드](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
 스마트 마커를 활용해 계층 구조를 생성하는 방법을 단계별로 설명합니다.
@@ -178,5 +190,4 @@ C#에서 SmartMarker를 사용해 마스터‑디테일 보고서를 만들고 E
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

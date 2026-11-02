@@ -96,12 +96,10 @@ Apprenez à convertir un fichier Excel en Word avec C# en suivant un guide compl
 
 
 
-
-
-
-
 ### [Comment envelopper les cellules et convertir Excel en PowerPoint en C#](./how-to-wrap-cells-and-convert-excel-to-powerpoint-in-c/)
 Apprenez à envelopper les cellules et à convertir un classeur Excel en présentation PowerPoint en C# avec Aspose.Cells, étape par étape.
+### [Exporter Excel vers PowerPoint avec graphiques modifiables en C#](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Apprenez à exporter un classeur Excel vers PowerPoint tout en conservant des graphiques éditables grâce à Aspose.Cells pour .NET.
 ### [Enregistrer Excel au format Docx avec C# – Guide complet étape par étape](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 Apprenez à enregistrer un classeur Excel au format DOCX en C# avec Aspose.Cells, étape par étape.
 

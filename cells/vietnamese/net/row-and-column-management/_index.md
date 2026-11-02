@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Quản lý hàng và cột
@@ -95,12 +97,8 @@ Hướng dẫn chi tiết cách xóa các hàng trong bảng Excel bằng Aspose
 ### [Cách lặp lại các mục trong Excel – Tạo hàng động với C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Hướng dẫn chi tiết cách tự động tạo các hàng lặp lại dữ liệu trong Excel bằng C# và Aspose.Cells.
 
-
-
-
-
-
-
+### [Tạo workbook Excel C# và chuyển cột thành hàng](./create-excel-workbook-c-and-transpose-column-to-row/)
+Hướng dẫn tạo workbook Excel bằng C# và chuyển dữ liệu từ cột sang hàng một cách dễ dàng.
 
 ### [Chèn các hàng trong Excel bằng C# – Hướng dẫn từng bước](./insert-rows-in-excel-with-c-step-by-step-guide/)
 Hướng dẫn chi tiết cách chèn các hàng vào tệp Excel bằng C# và Aspose.Cells cho .NET, giúp bạn thao tác dữ liệu nhanh chóng.
@@ -119,6 +117,6 @@ Hướng dẫn chi tiết cách xóa các hàng trong bảng Excel bằng C# và
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

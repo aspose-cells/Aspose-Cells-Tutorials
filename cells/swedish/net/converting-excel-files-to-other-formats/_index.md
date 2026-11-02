@@ -64,6 +64,7 @@ Lär dig hur du ställer in utskriftsområde i Excel och exporterar till PowerPo
 ### [Konvertera Excel till PowerPoint och ange utskriftsområde](./convert-excel-to-powerpoint-and-set-print-area/)
 Lär dig hur du konverterar en Excel-fil till en PowerPoint-presentation och ställer in utskriftsområdet med Aspose.Cells för .NET.
 ### [Skapa PowerPoint från Excel – Steg‑för‑steg C#‑guide](./create-powerpoint-from-excel-step-by-step-c-guide/)
+Lär dig hur du skapar en PowerPoint-presentation från en Excel‑arbetsbok steg för steg med Aspose.Cells för .NET.
 ### [Exportera Excel till PowerPoint med Aspose.Cells – komplett programmeringsguide](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
 Lär dig hur du exporterar en Excel-arbetsbok till en PowerPoint-presentation med Aspose.Cells i .NET med steg‑för‑steg‑kodexempel.
 ### [Exportera Excel till PowerPoint – Komplett guide](./how-to-export-excel-to-powerpoint-complete-guide/)
@@ -128,6 +129,8 @@ Lär dig spara en arbetsbok som CSV och exportera Excel till TXT med anpassad fo
 
 ### [Hur man bäddar in typsnitt i SVG när man konverterar Excel-filer till SVG och PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
 Lär dig hur du bäddar in typsnitt i SVG vid konvertering av Excel-filer till SVG och PowerPoint med Aspose.Cells för .NET.
+### [Exportera Excel till PowerPoint med redigerbara diagram i C#](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Lär dig hur du exporterar en Excel-arbetsbok till PowerPoint med diagram som kan redigeras, med C# och Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

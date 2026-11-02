@@ -127,6 +127,8 @@ Dowiedz się, jak programowo konwertować arkusze Excel na prezentacje PowerPoin
 Dowiedz się, jak szybko wygenerować plik Word z danych Excela w C# przy użyciu Aspose.Cells.
 ### [Jak zapisać DOCX z Excela – Kompletny przewodnik eksportu wykresów do Worda](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
 Dowiedz się, jak programowo zapisać plik Excel jako DOCX i wyeksportować wykresy do dokumentu Word przy użyciu Aspose.Cells.
+### [Eksportuj Excel do PowerPoint z edytowalnymi wykresami w C#](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Dowiedz się, jak wyeksportować arkusz Excel do PowerPoint z wykresami, które można edytować, używając Aspose.Cells w C#.
 ### [Jak osadzić czcionki w SVG przy konwertowaniu plików Excel do SVG i PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
 Dowiedz się, jak osadzić czcionki w plikach SVG podczas konwersji Excel do SVG i PowerPoint przy użyciu Aspose.Cells dla .NET.
 

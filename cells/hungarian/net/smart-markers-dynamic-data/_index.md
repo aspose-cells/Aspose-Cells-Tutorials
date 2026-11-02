@@ -106,6 +106,8 @@ Lépésről lépésre bemutatja, hogyan hozhat létre Excel sablont Smart Marker
 ### [Hogyan töltsünk be sablont és hozzunk létre Excel-jelentést SmartMarkerrel](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 
 ### [Excel jelentés generálása C#-ban – Teljes útmutató a SmartMarker használatával](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+### [SmartMarkerOptions ArrayAsSingle beállítása C#-ban JSON tömbökhöz](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
+Ismerje meg, hogyan konfigurálhatja a SmartMarkerOptions ArrayAsSingle beállítást C#-ban JSON tömbök kezeléséhez az Aspose.Cells-ben.
 
 ### [Változók helyettesítése JSON-ban SmartMarkerrel – Teljes útmutató](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 Ismerje meg, hogyan helyettesítheti a változókat JSON-ban SmartMarkerrel, hogy dinamikus adatkitöltést érjen el.

@@ -124,6 +124,34 @@ Tìm hiểu cách sử dụng SmartMarker để liên kết các sheet trong Exc
 ### [Phân tích JSON lồng nhau C# – Tạo payload JSON C#](./parse-nested-json-c-create-json-payload-c/)
 ### [Cách tạo Workbook với Smart Markers – Output High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
 ### [Tạo báo cáo master-detail trong C# – Điền mẫu Excel bằng SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
+### [Cấu hình SmartMarkerOptions ArrayAsSingle trong C# cho mảng JSON](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
+
+## Cách tạo Workbook bằng Smart Markers – Hướng dẫn Aspose.Cells
+Hướng dẫn chi tiết cách tạo một Workbook mới bằng Smart Markers trong Aspose.Cells cho .NET.
+## Tự Đặt Tên Các Sheet Excel – Cách Dễ Dàng Tạo Sheet
+## Tạo bộ sưu tập Smart Marker – Hướng dẫn C# đầy đủ
+Hướng dẫn chi tiết cách tạo bộ sưu tập Smart Marker trong Aspose.Cells bằng C#, từ khởi tạo đến sử dụng trong báo cáo động.
+## Tạo bộ sưu tập Smart Marker trong C# – Hướng dẫn đầy đủ
+Hướng dẫn chi tiết cách tạo bộ sưu tập Smart Marker trong Aspose.Cells bằng C#, từ khởi tạo đến sử dụng trong báo cáo động.
+## Cách xuất Excel – Hướng dẫn toàn diện cho nhà phát triển C#
+Khám phá cách xuất tệp Excel bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết, giúp nhà phát triển C# tạo báo cáo nhanh chóng và chính xác.
+## Lặp lại dữ liệu trong Excel – Điền mẫu bằng SmartMarker
+Tìm hiểu cách lặp lại dữ liệu và tự động điền mẫu Excel bằng SmartMarker trong Aspose.Cells.
+## Xuất dữ liệu sang Excel: Điền mẫu từ một mảng trong C#
+Hướng dẫn cách sử dụng Aspose.Cells để xuất dữ liệu từ một mảng C# vào mẫu Excel, tạo báo cáo động nhanh chóng.
+## Cách Đặt Tên Các Sheet Tự Động – Tạo Nhiều Sheet trong C#
+Hướng dẫn tự động đặt tên các sheet và tạo nhiều sheet trong Excel bằng Aspose.Cells cho .NET sử dụng C#.
+## Tạo Đối tượng Dữ liệu Chủ – Hướng dẫn từng bước để tạo Sheet chi tiết
+Hướng dẫn chi tiết cách tạo Đối tượng Dữ liệu Chủ và sinh Sheet chi tiết trong Aspose.Cells.
+## Tự động tạo hoá đơn – Đặt tên trang tính động và lặp lại trong C#
+Tự động tạo hoá đơn với việc đặt tên trang tính động và lặp lại dữ liệu trong C# bằng Aspose.Cells.
+## Tạo mẫu giảm giá trong C# – Hướng dẫn từng bước
+Hướng dẫn chi tiết cách tạo mẫu giảm giá trong C# bằng Aspose.Cells, bao gồm các bước thiết lập và tùy chỉnh mẫu cho báo cáo.
+## Cách tạo cây phân cấp với SmartMarker – Hướng dẫn từng bước
+## Phân tích JSON lồng nhau C# – Tạo payload JSON C#
+Hướng dẫn chi tiết cách phân tích JSON lồng nhau và tạo payload JSON trong C# sử dụng Aspose.Cells.
+## Cách tạo Workbook với Smart Markers – Output High Low
+## Tạo báo cáo master-detail trong C# – Điền mẫu Excel bằng SmartMarker
 Hướng dẫn cách tạo báo cáo master-detail bằng C# và tự động điền dữ liệu vào mẫu Excel sử dụng SmartMarker.
 ### [Cách tạo danh sách báo cáo Excel với Aspose.Cells Smart Markers](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
 Hướng dẫn chi tiết cách tạo danh sách báo cáo Excel bằng Smart Markers trong Aspose.Cells cho .NET.

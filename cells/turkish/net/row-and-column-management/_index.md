@@ -91,6 +91,15 @@ Aspose.Cells for .NET kullanarak C# ile Excel'de öğeleri tekrarlayarak dinamik
 ### [GridJs'de Satır Ekleme – Çoklu Satırları Verimli Şekilde Ekleyin](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 GridJs kullanarak birden fazla satırı verimli bir şekilde eklemeyi adım adım öğrenin.
 
+
+
+
+### [C# ile Excel çalışma kitabı oluşturma ve sütunu satıra dönüştürme](./create-excel-workbook-c-and-transpose-column-to-row/)
+Aspose.Cells for .NET kullanarak bir Excel çalışma kitabı oluşturmayı ve bir sütunu satıra dönüştürmeyi adım adım öğrenin.
+
+
+
+
 ### [C# ile Excel Tablosundan Satır Silme – Adım Adım Kılavuz](./delete-rows-excel-table-with-c-step-by-step-guide/)
 Aspose.Cells for .NET kullanarak C# ile Excel tablosundan satırları nasıl sileceğinizi adım adım öğrenin.
 ### [WRAPCOLS Kullanımı: C#'ta İki Sütunlu Düzen Oluşturma](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
