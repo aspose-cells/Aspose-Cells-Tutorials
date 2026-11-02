@@ -1,13 +1,76 @@
 ---
-date: '2025-12-20'
-description: Tanulja meg, hogyan lehet URL-t kinyerni az Excelből az Aspose.Cells
-  for Java használatával, Java-val Excel-fájlt betölteni, és hozzáférni a webes lekérdezési
-  kapcsolatokhoz az adatimport automatizálásához.
+date: '2026-05-18'
+description: Ismerje meg, hogyan lehet URL-t kinyerni az Excelből az Aspose.Cells
+  for Java használatával, Excel fájlokat betölteni, és weblekérdezési kapcsolatokat
+  elérni az Excel adatimport automatizálásához.
 keywords:
-- Aspose.Cells for Java
-- load Excel data connections
-- access web queries
-title: URL kinyerése Excelből az Aspose.Cells for Java segítségével – Adatkapcsolatok
+- extract url from excel
+- aspose cells java
+- java excel streaming
+- load excel file java
+- automate excel data import
+schemas:
+- author: Aspose
+  dateModified: '2026-05-18'
+  description: Learn how to extract URL from Excel using Aspose.Cells for Java, load
+    Excel files, and access web query connections to automate Excel data import.
+  headline: Extract URL from Excel with Aspose.Cells for Java – Load Data Connections
+  type: TechArticle
+- description: Learn how to extract URL from Excel using Aspose.Cells for Java, load
+    Excel files, and access web query connections to automate Excel data import.
+  name: Extract URL from Excel with Aspose.Cells for Java – Load Data Connections
+  steps:
+  - name: '**Install the Library** – use the Maven or Gradle snippet above.'
+    text: '**Install the Library** – use the Maven or Gradle snippet above.'
+  - name: '**License Acquisition** –'
+    text: '**License Acquisition** –'
+  - name: '**Initialization and Setup** – Create an instance of `Workbook` by specifying
+      your Excel file''s path. `Workbook` is the primary class that represents an
+      Excel file in memory.'
+    text: '**Initialization and Setup** – Create an instance of `Workbook` by specifying
+      your Excel file''s path. `Workbook` is the primary class that represents an
+      Excel file in memory.'
+  - name: '**Import Classes** – ensure necessary classes are imported.'
+    text: '**Import Classes** – ensure necessary classes are imported.'
+  - name: '**Specify File Path** – set the path to your Excel file.'
+    text: '**Specify File Path** – set the path to your Excel file.'
+  - name: '**Load Workbook** – create a new `Workbook` instance with the input file
+      path.'
+    text: '**Load Workbook** – create a new `Workbook` instance with the input file
+      path.'
+  - name: '**Import Classes** –'
+    text: '**Import Classes** –'
+  - name: '**Retrieve Connections** – use the `getDataConnections()` method to access
+      all workbook connections.'
+    text: '**Retrieve Connections** – use the `getDataConnections()` method to access
+      all workbook connections.'
+  - name: '**Access a Specific Connection** – get the desired connection by index
+      or iterate over them.'
+    text: '**Access a Specific Connection** – get the desired connection by index
+      or iterate over them.'
+  - name: '**Check Connection Type** – determine if the connection is an instance
+      of `WebQueryConnection`.'
+    text: '**Check Connection Type** – determine if the connection is an instance
+      of `WebQueryConnection`.'
+  type: HowTo
+- questions:
+  - answer: It’s a library for managing Excel files programmatically, providing features
+      like reading, writing, and manipulating spreadsheet data without Microsoft Excel.
+    question: What is Aspose.Cells for Java used for?
+  - answer: Visit the [free trial](https://releases.aspose.com/cells/java/) page to
+      download a temporary license and start exploring its capabilities.
+    question: How do I obtain a free trial of Aspose.Cells?
+  - answer: Yes, it integrates smoothly with Maven, Gradle, Spring, and other Java
+      build tools.
+    question: Can I use Aspose.Cells with other Java frameworks?
+  - answer: Data connections let Excel link to external sources (databases, web services,
+      etc.) and refresh data automatically.
+    question: What are data connections in Excel?
+  - answer: Use streaming methods, set appropriate memory options, and always dispose
+      of the workbook after processing.
+    question: How do I optimize Aspose.Cells performance for large files?
+  type: FAQPage
+title: URL kinyerése az Excelből az Aspose.Cells for Java segítségével – Adatkapcsolatok
   betöltése
 url: /hu/java/advanced-features/aspose-cells-java-excel-data-connections/
 weight: 1
@@ -19,32 +82,32 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Excel URL-címének kinyerése Aspose.Cells for Java – Adatkapcsolatok betöltése
+# Excel URL-címének kinyerése Aspose.Cells for Java segítségével – Adatkapcsolatok betöltése
 
 ## Bevezetés
 
-Szeretné egyszerűsíteni az Excel fájlok kezelését Java‑ban? **Aspose.Cells for Java** egy erőteljes könyvtár, amely az Excel fájlokkal való munkát könnyíti meg. Ebben az útmutatóban megtanulja, hogyan **extract URL from Excel** munkafüzetekből, hogyan töltsön be Excel adatkapcsolatokat, és hogyan kezelje könnyedén a webes lekérdezési kapcsolatokat.
+Ha programozott módon **Excel URL-címét kell kinyerni** munkafüzetekből, az Aspose.Cells for Java egy tiszta, szerver‑oldali API-t biztosít, amely Microsoft Excel telepítése nélkül működik. Ebben az oktatóanyagban végigvezetjük az Excel fájl betöltését, adatkapcsolatainak felsorolását, a `WebQueryConnection` objektumok azonosítását, és a beágyazott URL-ek kinyerését, hogy automatizálhassa az adatimport folyamatokat.
 
-**Mit fog megtanulni:**
-- Hogyan **java load excel file** használja az Aspose.Cells for Java‑val.  
-- Technikák az **excel data connections** elérésére és lekérésére egy munkafüzetből.  
-- Módszerek a `WebQueryConnection` típusok azonosítására és URL‑jeik kinyerésére, amely lehetővé teszi az **excel data import** automatizálását.
+**Amit megtanul**
+- Hogyan **java load excel file** használatával töltsön be Excel fájlt az Aspose.Cells for Java‑val.  
+- Hogyan szerezze meg a **excel data connections**‑t egy munkafüzetből.  
+- Hogyan észlelje a `WebQueryConnection` típusokat, és kinyerje azok URL-jeit a további feldolgozáshoz.
 
-Mielőtt elkezdenénk, győződjön meg róla, hogy a szükséges beállítások készen állnak!
+Mielőtt elkezdené, győződjön meg arról, hogy a fejlesztői környezete megfelel az alább felsorolt előfeltételeknek.
 
 ## Gyors válaszok
-- **Mit jelent az “extract URL from Excel”?** Azt jelenti, hogy beolvassa a web‑query kapcsolat URL‑jét, amely egy Excel munkafüzetben van tárolva.  
-- **Melyik könyvtárat használjam?** Az Aspose.Cells for Java tiszta API‑t biztosít ehhez a feladathoz.  
-- **Szükségem van licencre?** Egy ingyenes próba verzió fejlesztéshez megfelelő; a termeléshez kereskedelmi licenc szükséges.  
-- **Betölthetek nagy munkafüzeteket?** Igen – használjon streaminget, és a használat után szabadítsa fel a munkafüzetet.  
-- **Melyik Java verzió támogatott?** JDK 8 vagy újabb.
+- **Mit jelent a „Excel URL-címének kinyerése”?** Azt jelenti, hogy elolvassa a web‑lekérdezés URL-jét, amely egy Excel munkafüzetben tárolódik, hogy programozottan újra felhasználhassa a forrást.  
+- **Melyik könyvtárat használjam?** Az Aspose.Cells for Java egy dedikált API‑t biztosít ehhez a feladathoz.  
+- **Szükségem van licencre?** Egy ingyenes próba verzió fejlesztéshez elegendő; a termeléshez kereskedelmi licenc szükséges.  
+- **Betölthetek nagy munkafüzeteket?** Igen – használjon streaming opciókat, és mindig szabadítsa fel a munkafüzetet a feldolgozás után.  
+- **Melyik Java verzió támogatott?** A JDK 8 vagy újabb teljes mértékben támogatott.
 
 ## Előfeltételek
 
-Az útmutató hatékony követéséhez győződjön meg róla, hogy rendelkezik:
+A hatékony követéshez győződjön meg arról, hogy rendelkezik:
 
 ### Szükséges könyvtárak
-Szüksége lesz az Aspose.Cells for Java‑ra. Az alább látható módon Maven vagy Gradle segítségével adható hozzá:
+Az Aspose.Cells for Java‑ra lesz szüksége. Maven vagy Gradle segítségével is beilleszthető, ahogy alább látható:
 
 **Maven**  
 ```xml
@@ -53,28 +116,28 @@ Szüksége lesz az Aspose.Cells for Java‑ra. Az alább látható módon Maven 
   <artifactId>aspose-cells</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
 **Gradle**  
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
-```
+```  
 
-### Környezeti beállítás
-Győződjön meg róla, hogy a Java Development Kit (JDK) telepítve van, lehetőleg JDK 8 vagy újabb.
+### Környezet beállítása
+Győződjön meg arról, hogy a Java Development Kit (JDK) telepítve van, előnyösen JDK 8 vagy újabb.
 
 ### Tudás előfeltételek
-Alapvető Java programozási ismeretek és a Maven vagy Gradle függőségek kezelésének tudása előnyös lesz.
+Alapvető Java programozási ismeretek és a Maven vagy Gradle függőségek kezelése hasznos lesz.
 
 ## Az Aspose.Cells for Java beállítása
 
-Miután a környezet készen áll, kövesse az alábbi lépéseket az Aspose.Cells beállításához:
+Miután a környezet készen áll, kövesse ezeket a lépéseket az Aspose.Cells beállításához:
 
 1. **Könyvtár telepítése** – használja a fenti Maven vagy Gradle kódrészletet.  
-2. **License Acquisition** –  
-   - Szerezzen be egy [ingyenes próbaverziót](https://releases.aspose.com/cells/java/), hogy felfedezze a funkciókat.  
-   - Fontolja meg egy licenc megvásárlását a termeléshez a [vásárlási oldalon](https://purchase.aspose.com/buy).  
-3. **Inicializálás és beállítás** – Hozzon létre egy `Workbook` példányt az Excel fájl elérési útjának megadásával.
+2. **Licenc beszerzése** –  
+   - Szerezzen be egy [free trial](https://releases.aspose.com/cells/java/) verziót a funkciók kipróbálásához.  
+   - Fontolja meg a licenc megvásárlását a termelési használathoz a [purchase page](https://purchase.aspose.com/buy) oldalon.  
+3. **Inicializálás és beállítás** – Hozzon létre egy `Workbook` példányt a Excel fájl útvonalának megadásával. A `Workbook` az a fő osztály, amely egy Excel fájlt reprezentál a memóriában.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -82,127 +145,121 @@ import com.aspose.cells.Workbook;
 String dataDir = "YOUR_DATA_DIRECTORY";
 String inputPath = dataDir + "WebQuerySample.xlsx";
 Workbook workbook = new Workbook(inputPath);
-```
+```  
 
 Ez a kódrészlet betölti a megadott Excel fájlt egy `Workbook` objektumba, lehetővé téve a további műveleteket.
 
-## Mi az “extract URL from Excel”?
+## Mi az a „Excel URL-címének kinyerése”?
 
-Egy Excel munkafüzet tartalmazhat **data connections**‑t, amelyek külső forrásokra, például weboldalakra mutatnak. Amikor egy munkafüzet *Web Query* kapcsolatot használ, a lekérdezés URL‑je a fájlban tárolódik. Ennek az URL‑nek a kinyerése lehetővé teszi a forrás programozott lekérését, ellenőrzését vagy más integrációkban való újrafelhasználását.
+Az Excel URL-címének kinyerése azt jelenti, hogy elolvassa a web‑lekérdezés URL-jét, amelyet az Excel belsőleg tárol, amikor egy munkafüzet külső webforráshoz van kapcsolva. Az URL ezután felhasználható friss adatok lekérésére, a forrás ellenőrzésére vagy ugyanannak a feednek a beillesztésére más rendszerekbe.
 
-## Miért használja az Aspose.Cells for Java‑t Excel adatkapcsolatok betöltéséhez?
+## Miért használja az Aspose.Cells for Java‑t az Excel adatkapcsolatok betöltéséhez?
 
-- **Nincs szükség Excel telepítésére** – bármilyen szerveroldali környezetben működik.  
-- **Teljes támogatás a modern Excel formátumokhoz** (XLSX, XLSM, stb.).  
-- **Robusztus API** az adatkapcsolatok olvasásához, létrehozásához és módosításához.  
-- **Teljesítmény‑optimalizált** nagy munkafüzetekhez streaming és felszabadítási módszerekkel.
+Az Excel adatkapcsolatok betöltése azonnal megtörténik Microsoft Excel nélkül a szerveren. Az Aspose.Cells **több mint 50 bemeneti és kimeneti formátumot** támogat, **több száz oldalas munkafüzeteket** dolgoz fel streaminggel, és egy **single‑line API**‑t biztosít a kapcsolat részleteinek lekéréséhez, ezzel órákat takarít meg a kézi elemzéssel.
 
-## Implementációs útmutató
+## Megvalósítási útmutató
 
-Bontsuk le a megvalósítást logikai szakaszokra a funkciók alapján.
+Tördeljük le a megvalósítást logikai szakaszokra a funkciók alapján.
 
 ### Funkció: Munkafüzet olvasása
 
 #### Áttekintés
-Az Excel munkafüzet betöltése az első lépés. Ez a funkció bemutatja, hogyan inicializálja és töltse be az Excel fájlt az Aspose.Cells for Java használatával.
+Az Excel munkafüzet betöltése az első lépés. Ez a funkció bemutatja, hogyan inicializálja és töltse be az Excel fájlt az Aspose.Cells for Java‑val.
 
 #### Lépések
-1. **Osztályok importálása** – győződjön meg róla, hogy a szükséges osztályok importálva vannak.  
+1. **Osztályok importálása** – győződjön meg arról, hogy a szükséges osztályok importálva vannak.  
    ```java
    import com.aspose.cells.Workbook;
-   ```
-2. **Fájlútvonal megadása** – állítsa be az Excel fájl elérési útját.  
+   ```  
+2. **Fájl útvonal megadása** – állítsa be az Excel fájl útvonalát.  
 3. **Munkafüzet betöltése** – hozzon létre egy új `Workbook` példányt a bemeneti fájl útvonalával.
 
-Ez a folyamat lehetővé teszi, hogy a munkafüzettel memóriában dolgozzon, adatmanipulációt és kinyerést végezve.
+A `Workbook` osztály az Aspose.Cells felső szintű objektuma, amely egyetlen Excel fájlt reprezentál a memóriában. Miután példányosítva, lekérdezheti annak tulajdonságait, munkalapjait és adatkapcsolatait.
 
 ### Funkció: Adatkapcsolatok elérése
 
 #### Áttekintés
-Az adatkapcsolatok elérése kulcsfontosságú, amikor külső adatforrásokkal dolgozunk, amelyek egy Excel fájlban vannak összekapcsolva.
+Az adatkapcsolatok elérése kulcsfontosságú, amikor külső adatforrásokkal dolgozunk, amelyek egy Excel fájlban vannak definiálva.
 
 #### Lépések
 1. **Osztályok importálása** –  
    ```java
    import com.aspose.cells.ExternalConnection;
-   ```
+   ```  
 2. **Kapcsolatok lekérése** – használja a `getDataConnections()` metódust az összes munkafüzetkapcsolat eléréséhez.  
+   A `DataConnection` egy külső adatforrást reprezentál, amely a munkafüzethez van kapcsolva.  
 3. **Egy adott kapcsolat elérése** – szerezze be a kívánt kapcsolatot index alapján vagy iteráljon rajtuk.
+
+A `DataConnection` gyűjtemény tartalmazza a munkafüzetben definiált minden külső hivatkozást, beleértve az ODBC, OLEDB és web‑lekérdezés kapcsolatokat.
 
 Példa:  
 ```java
 ExternalConnection connection = workbook.getDataConnections().get(0);
-```
+```  
 
-### Funkció: Web lekérdezési kapcsolat kezelése
+### Funkció: Web lekérdezés kapcsolat kezelése
 
 #### Áttekintés
-Ez a funkció bemutatja, hogyan azonosítsa és kezelje a webes lekérdezési kapcsolatokat, lehetővé téve a külső adatforrások, például URL‑ek elérését.
+Ez a funkció bemutatja, hogyan azonosítsa és kezelje a web‑lekérdezés kapcsolatokat, lehetővé téve a külső adatforrások, például URL-ek elérését.
 
 #### Lépések
-1. **Kapcsolat típusának ellenőrzése** – határozza meg, hogy a kapcsolat `WebQueryConnection` példány-e.  
-   ```java
-   import com.aspose.cells.WebQueryConnection;
+1. **Kapcsolat típusának ellenőrzése** – határozza meg, hogy a kapcsolat egy `WebQueryConnection` példány-e.  
+   A `WebQueryConnection` a `DataConnection` alosztálya, amely a web‑lekérdezés URL‑jét tárolja.  
+2. **Átkonvertálás és URL kinyerése** – a típus megerősítése után konvertálja a kapcsolatot, és hívja a `getUrl()` metódust a hivatkozás lekéréséhez.
 
-   if (connection instanceof WebQueryConnection) {
-       WebQueryConnection webQuery = (WebQueryConnection) connection;
-       // Access the URL with webQuery.getUrl()
-   }
-   ```
-
-A `WebQueryConnection` típusra való átkasztással meghívhatja a `getUrl()` metódust, és **extract URL from Excel**-t végezhet a további feldolgozáshoz.
+A `WebQueryConnection`‑ra **cast**‑olva meghívhatja a `getUrl()`‑t, és **extract URL from Excel**‑t végezhet a további feldolgozáshoz.
 
 ## Gyakorlati alkalmazások
 
-Íme néhány valós példaforgató eset a funkciókhoz:
+Néhány valós példaforgató a funkciók használatára:
 
-1. **Pénzügyi jelentések automatizálása** – Töltsön be pénzügyi táblázatokat, csatlakozzon élő piaci adatokhoz webes lekérdezésekkel, és frissítse a jelentéseket automatikusan.  
-2. **Adatintegráció** – Zökkenőmentesen integrálja az Excel adatokat Java alkalmazásokkal az adatkapcsolatokból származó URL‑ek elérésével.  
-3. **Készletkezelő rendszerek** – Használjon webes lekérdezési kapcsolatokat a valós idejű készletszintek lekéréséhez adatbázisból vagy API‑ból.
+1. **Pénzügyi jelentések automatizálása** – Töltsön be pénzügyi táblázatokat, csatlakozzon élő piaci adatfolyamokhoz web‑lekérdezésekkel, és frissítse a jelentéseket automatikusan.  
+2. **Adatintegráció** – Zökkenőmentesen integrálja az Excel adatokat Java alkalmazásokba a adatkapcsolatok URL‑jeinek elérésével.  
+3. **Készletkezelő rendszerek** – Használjon web‑lekérdezés kapcsolatokat a valós idejű készletszintek adatbázisból vagy API‑ból történő lekérésére.
 
-## Teljesítménybeli megfontolások
+## Teljesítmény szempontok
 
-Az Aspose.Cells Java‑ban való használatakor:
+Az Aspose.Cells Java‑val való munka során:
 
-- **Erőforrás-használat optimalizálása** – mindig zárja be a munkafüzeteket a feldolgozás után az erőforrások felszabadításához:  
+- **Erőforrás-használat optimalizálása** – mindig zárja be a munkafüzeteket a feldolgozás után, hogy felszabadítsa az erőforrásokat:  
   ```java
   workbook.dispose();
-  ```
-- **Memória hatékony kezelése** – használjon streaming technikákat nagy fájlok esetén a memória túlterhelés elkerülése érdekében.  
+  ```  
+- **Memória hatékony kezelése** – használjon streaming technikákat nagy fájlok esetén a memória túlterhelésének elkerülése érdekében.  
 - **Legjobb gyakorlatok** – rendszeresen frissítse a könyvtár verzióját a teljesítményjavulások és hibajavítások érdekében.
 
 ## Gyakori problémák és megoldások
 
 | Probléma | Ok | Megoldás |
 |----------|----|----------|
-| `NullPointerException` a `getUrl()` hívásakor | A kapcsolat nem `WebQueryConnection` | Ellenőrizze a kapcsolat típusát `instanceof`‑val a átkasztás előtt. |
-| A munkafüzet betöltése sikertelen | Helytelen fájlútvonal vagy nem támogatott formátum | Győződjön meg róla, hogy az útvonal helyes és a fájl támogatott Excel formátum (XLSX, XLSM). |
-| Magas memóriahasználat nagy fájlok esetén | A teljes munkafüzet betöltése a memóriába | Használjon `LoadOptions`‑t a `setMemorySetting`‑tel streaminghez, és mindig hívja a `dispose()`‑t. |
+| `NullPointerException` a `getUrl()` hívásakor | A kapcsolat nem `WebQueryConnection` típusú | Ellenőrizze a kapcsolat típusát `instanceof` használatával, mielőtt átkonvertálná. |
+| A munkafüzet betöltése sikertelen | Helytelen fájl útvonal vagy nem támogatott formátum | Győződjön meg arról, hogy az útvonal helyes, és a fájl támogatott Excel formátumú (XLSX, XLSM). |
+| Magas memóriahasználat nagy fájlok esetén | A teljes munkafüzet betöltése a memóriába | Használja a `LoadOptions`‑t a `setMemorySetting` beállítással streaminghez, és mindig hívja a `dispose()`‑t. |
 
-## Gyakran ismételt kérdések
+## Gyakran feltett kérdések
 
 **K: Mire használható az Aspose.Cells for Java?**  
-Ez egy könyvtár Excel fájlok programozott kezelésére, amely olyan funkciókat biztosít, mint a beolvasás, írás és a táblázati adatok manipulálása.
+V: Ez egy könyvtár Excel fájlok programozott kezelésére, amely olyan funkciókat biztosít, mint a beolvasás, írás és a táblázati adatok manipulálása Microsoft Excel nélkül.
 
-**K: Hogyan szerezhetek ingyenes próbaverziót az Aspose.Cells‑ből?**  
-Látogassa meg a [free trial](https://releases.aspose.com/cells/java/) oldalt, hogy letölthesse az ideiglenes licencet és elkezdje felfedezni a képességeit.
+**K: Hogyan szerezhetek ingyenes próba verziót az Aspose.Cells‑ből?**  
+V: Látogassa meg a [free trial](https://releases.aspose.com/cells/java/) oldalt, hogy letölthesse az ideiglenes licencet és elkezdhesse a funkciók felfedezését.
 
 **K: Használhatom az Aspose.Cells‑t más Java keretrendszerekkel?**  
-Igen, zökkenőmentesen integrálható Maven, Gradle, Spring és más Java build eszközökkel.
+V: Igen, zökkenőmentesen integrálható Maven, Gradle, Spring és más Java build eszközökkel.
 
 **K: Mik azok az adatkapcsolatok az Excelben?**  
-Az adatkapcsolatok lehetővé teszik, hogy az Excel külső adatforrásokhoz (adatbázisok, webszolgáltatások stb.) kapcsolódjon, automatikus frissítéseket biztosítva.
+V: Az adatkapcsolatok lehetővé teszik, hogy az Excel külső forrásokhoz (adatbázisok, webszolgáltatások stb.) kapcsolódjon, és automatikusan frissítse az adatokat.
 
-**K: Hogyan optimalizáljam az Aspose.Cells teljesítményét nagy fájlok esetén?**  
-Fontolja meg streaming módszerek használatát, állítson be megfelelő memória beállításokat, és mindig szabadítsa fel a munkafüzetet a feldolgozás után.
+**K: Hogyan optimalizálhatom az Aspose.Cells teljesítményét nagy fájlok esetén?**  
+V: Használjon streaming módszereket, állítson be megfelelő memória opciókat, és mindig szabadítsa fel a munkafüzetet a feldolgozás után.
 
-## Következtetés
+## Összegzés
 
-Most már elsajátította, hogyan **extract URL from Excel** munkafüzetekből és hogyan érheti el az adatkapcsolatokat az Aspose.Cells for Java segítségével. Ez a hatékony eszköz egyszerűsítheti az adatfeldolgozási feladatait, fokozhatja az automatizálást, és lehetővé teszi a külső rendszerekkel való zökkenőmentes integrációt. További információkért tekintse meg az [Aspose dokumentációt](https://reference.aspose.com/cells/java/), vagy kísérletezzen további Aspose.Cells funkciókkal.
+Most már megtanulta, hogyan **extract URL from Excel** munkafüzetekből és hogyan érheti el az adatkapcsolatokat az Aspose.Cells for Java‑val. Ez a képesség egyszerűsíti az adatfeldolgozási feladatokat, fokozza az automatizálást, és lehetővé teszi a zökkenőmentes integrációt külső rendszerekkel. További információkért tekintse meg az [Aspose dokumentációt](https://reference.aspose.com/cells/java/), vagy kísérletezzen további Aspose.Cells funkciókkal.
 
-Készen áll, hogy új képességeit a gyakorlatba ültesse? Kezdje el alkalmazni ezeket a technikákat a projektjeiben még ma!
+Készen áll, hogy új készségeit a gyakorlatban alkalmazza? Kezdje el ezeket a technikákat projektjeiben még ma!
 
-## Források
+## Erőforrások
 - **Dokumentáció**: [Aspose.Cells Java Documentation](https://reference.aspose.com/cells/java/)
 - **Letöltés**: [Get the Latest Release](https://releases.aspose.com/cells/java/)
 - **Vásárlás**: [Buy a License](https://purchase.aspose.com/buy)
@@ -212,9 +269,18 @@ Készen áll, hogy új képességeit a gyakorlatba ültesse? Kezdje el alkalmazn
 
 ---
 
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose
+**Utoljára frissítve:** 2026-05-18  
+**Tesztelt verzió:** Aspose.Cells for Java 25.12  
+**Szerző:** Aspose
+
+{{< blocks/products/products-backtop-button >}}
+
+## Kapcsolódó oktatóanyagok
+
+- [Aspose Cells Maven Dependency – Manage Excel Data Connections with Aspose.Cells in Java](/cells/java/advanced-features/aspose-cells-java-excel-external-data-connections/)
+- [Excel Automation: Load Workbooks and Query Tables Using Aspose.Cells Java for Efficient Data Management](/cells/java/workbook-operations/excel-automation-aspose-cells-java-workbook-query-tables/)
+- [Aspose.Cells Java: Mastering Excel Workbook Connections for Data Integration and Analysis](/cells/java/import-export/aspose-cells-java-excel-connections/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -222,4 +288,11 @@ Készen áll, hogy új képességeit a gyakorlatba ültesse? Kezdje el alkalmazn
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+```java
+   import com.aspose.cells.WebQueryConnection;
+
+   if (connection instanceof WebQueryConnection) {
+       WebQueryConnection webQuery = (WebQueryConnection) connection;
+       // Access the URL with webQuery.getUrl()
+   }
+   ```

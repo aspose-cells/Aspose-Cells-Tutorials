@@ -30,6 +30,8 @@ Daha fazla örnek keşfetmek ister misiniz? [Excel'de çalışma zamanında koş
 ## Excel Koşullu Biçimlendirme Eğitimleri
 ### [Excel'de Çalışma Zamanında Koşullu Biçimlendirme Uygulama](./applying-conditional-formatting-at-runtime/)
 Bu kapsamlı, adım adım kılavuzda, Aspose.Cells for .NET ile Excel'de çalışma zamanında koşullu biçimlendirmenin nasıl uygulanacağını öğrenin.
+### [Aspose.Cells ile Excel'de Koşullu Biçimlendirme Oluşturma – Adım Adım Kılavuz](./create-conditional-formatting-in-excel-with-aspose-cells-ste/)
+Aspose.Cells kullanarak Excel'de koşullu biçimlendirme oluşturmayı adım adım öğrenin.
 
 ### [C# ile Excel Çalışma Kitabı Oluşturma – Koşullu Biçimlendirmeli Adım Adım Kılavuz](./create-excel-workbook-c-step-by-step-guide-with-conditional/)
 Bu adım adım rehberde, C# kullanarak Aspose.Cells ile koşullu biçimlendirme içeren bir Excel çalışma kitabı oluşturmayı öğrenin.

@@ -75,6 +75,11 @@
 ### [วิธีสร้างเวิร์กชีต – คู่มือขั้นตอนต่อขั้นตอนสำหรับการสร้าง Excel แบบไดนามิก](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
 เรียนรู้วิธีสร้างเวิร์กชีตใน Excel อย่างอัตโนมัติด้วย Aspose.Cells สำหรับ .NET ผ่านขั้นตอนละเอียดและตัวอย่างโค้ด
 
+### [วิธีเปลี่ยนชื่อเวิร์กชีตใน C# – คู่มือครบถ้วน](./how-to-rename-worksheet-in-c-complete-guide/)
+เรียนรู้วิธีเปลี่ยนชื่อเวิร์กชีตใน Excel ด้วย C# อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET พร้อมตัวอย่างโค้ดขั้นตอนต่อขั้นตอน
+### [สร้างเวิร์กชีตต่อรายการ – วิธีทำซ้ำเวิร์กชีตใน C#](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+เรียนรู้วิธีสร้างเวิร์กชีตใหม่สำหรับแต่ละรายการและทำซ้ำเวิร์กชีตใน C# ด้วย Aspose.Cells สำหรับ .NET
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

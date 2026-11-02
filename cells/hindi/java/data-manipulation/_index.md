@@ -62,6 +62,8 @@ Excel में PowerQuery सूत्रों तक पहुँचने �
 ### [जावा के लिए Aspose.Cells का उपयोग करके Excel में Regex प्रतिस्थापन कैसे करें: एक व्यापक गाइड](./regex-replacement-excel-aspose-cells-java-guide/)
 जानें कि जावा के लिए Aspose.Cells के साथ regex का उपयोग करके Excel फ़ाइलों में टेक्स्ट प्रतिस्थापन को स्वचालित कैसे करें। यह चरण-दर-चरण मार्गदर्शिका आरंभीकरण, कॉन्फ़िगरेशन और व्यावहारिक अनुप्रयोगों को कवर करती है।
 
+### [जावा में Aspose.Cells के साथ कॉलम विभाजित कैसे करें – चरण‑दर‑चरण गाइड](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
+जावा में Aspose.Cells का उपयोग करके Excel कॉलम को विभाजित करने की प्रक्रिया सीखें।
 ### [Aspose.Cells Java के साथ Excel से ऑटोफ़िल्टर हटाना](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
 Aspose.Cells Java का उपयोग करके Excel शीट से ऑटोफ़िल्टर हटाने का तरीका सीखें। यह गाइड सेटअप, कोड उदाहरण और सर्वोत्तम प्रथाओं को कवर करता है।
 

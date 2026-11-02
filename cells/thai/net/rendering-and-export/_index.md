@@ -54,6 +54,8 @@ Aspose.Cells สำหรับ .NET เป็นเครื่องมือ�
 เรียนรู้วิธีการสร้างบุ๊กมาร์ก PDF สำหรับแผ่นงานแผนภูมิใน Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้
 ### [ส่งออกช่วงเซลล์ไปยังรูปภาพด้วย Aspose.Cells](./export-range-of-cells-to-image/)
 ส่งออกช่วงเซลล์ของ Excel ไปยังรูปภาพได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนนี้ ปรับปรุงการรายงานและการนำเสนอของคุณ
+### [สร้างภาพ Pivot PNG ใน C# – คู่มือเต็มขั้นตอน](./create-png-pivot-image-in-c-full-step-by-step-guide/)
+เรียนรู้วิธีสร้างภาพ Pivot จาก Excel เป็น PNG ด้วย C# อย่างละเอียดตามขั้นตอน
 ### [รับขอบเขตของวัตถุที่วาดด้วย Aspose.Cells](./get-draw-object-and-bound/)
 ค้นพบวิธีการแยกขอบเขตของวัตถุที่วาดใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมของเรา
 ### [ละเว้นข้อผิดพลาดในการเรนเดอร์ Excel เป็น PDF ด้วย Aspose.Cells](./ignore-errors-while-rendering/)
@@ -66,6 +68,8 @@ Aspose.Cells สำหรับ .NET เป็นเครื่องมือ�
 เรียนรู้การเรนเดอร์หน้าแบบต่อเนื่องใน Excel ด้วย Aspose.Cells สำหรับ .NET บทช่วยสอนแบบทีละขั้นตอนนี้ให้คำแนะนำโดยละเอียดในการแปลงหน้าที่เลือกเป็นรูปภาพ
 ### [สร้างช่วงอ้างอิง Pivot – ส่งออกภาพ Pivot Table เป็น PNG](./create-pivot-reference-range-export-pivot-table-image-as-png/)
 เรียนรู้วิธีสร้างช่วงอ้างอิง Pivot และส่งออกเป็นภาพ PNG ด้วย Aspose.Cells สำหรับ .NET
+### [วิธีตั้งพื้นที่พิมพ์ใน Excel และส่งออกเป็น PNG](./how-to-set-print-area-in-excel-and-export-png/)
+เรียนรู้วิธีกำหนดพื้นที่พิมพ์ใน Excel แล้วส่งออกเป็นไฟล์ PNG ด้วย Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

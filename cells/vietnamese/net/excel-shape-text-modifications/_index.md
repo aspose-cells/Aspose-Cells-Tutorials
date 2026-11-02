@@ -50,6 +50,8 @@ Cuối cùng, chúng ta hãy nói về cách trình bày. Không chỉ là về 
 Tìm hiểu cách trích xuất văn bản từ SmartArt dạng bánh răng trong Excel bằng Aspose.Cells cho .NET. Có kèm hướng dẫn từng bước và ví dụ mã.
 ### [Thay thế Tag bằng Text trong TextBox trong Excel](./replace-tag-text-textbox-excel/)
 Dễ dàng thay thế văn bản trong hộp văn bản trong bảng tính Excel của bạn bằng Aspose.Cells cho .NET. Hướng dẫn từng bước để tự động hóa Excel.
+### [Thay đổi kích thước phông chữ hộp văn bản trong Excel bằng C# – Hướng dẫn đầy đủ](./change-textbox-font-size-in-excel-with-c-complete-guide/)
+Dễ dàng thay đổi kích thước phông chữ của hộp văn bản trong Excel bằng Aspose.Cells cho .NET với hướng dẫn chi tiết từng bước.
 ### [Xoay Văn bản có Hình dạng trong Excel](./rotate-text-shape-excel/)
 Tìm hiểu cách xoay văn bản có hình dạng trong Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước này để có bản trình bày Excel hoàn hảo.
 ### [Ghép hình ảnh thành họa tiết trong hình dạng trong Excel](./tile-picture-texture-shape-excel/)

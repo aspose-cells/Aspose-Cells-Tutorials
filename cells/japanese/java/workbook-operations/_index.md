@@ -26,6 +26,9 @@
 
 ## 利用可能なチュートリアル
 
+### [Create excel workbook java: handle Japanese era dates](./create-excel-workbook-java-handle-japanese-era-dates/)
+
+
 ### [Aspose.Cells Java: Excel ワークブックの作成と保存 - ステップバイステップガイド](./aspose-cells-java-create-save-excel-workbooks/)
 Aspose.Cells for Java を使用して Excel ブックの作成と管理を自動化する方法を学びます。このガイドでは、インスタンスの作成、保存、ページ設定プロパティの設定について説明します。
 
@@ -74,8 +77,8 @@ Aspose.Cells for Javaを使用して、ExcelファイルをXPS形式に効率的
 ### [Aspose.Cells for Java におけるフォント置換警告の管理: 完全ガイド](./aspose-cells-java-font-substitution-warnings-guide/)
 Aspose.Cells for Java を使用して Excel ファイルを変換するときにフォント置換警告を管理し、ドキュメントの整合性とレイアウトの一貫性を確保する方法を学習します。
 
-### [Aspose.Cells for Java を使用して HTML を Excel に正確に変換する](./aspose-cells-java-html-to-excel-precision/)
-Aspose.Cells for Javaを使って、複雑なHTMLファイルをExcelファイルへ正確に変換する方法を習得しましょう。設定、読み込み方法、保存方法を学びましょう。
+### [Java を使用して Excel にカスタム プロパティを追加する方法 – 完全ガイド](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+Aspose.Cells for Java を使用して、Excel ファイルにカスタム プロパティを追加し、管理する方法を学びます。
 
 ### [Aspose.Cells Java: Excel ファイルの HTML 変換時に画像の設定を行う方法](./aspose-cells-java-image-preferences-html-conversion-guide/)
 Aspose.Cells for Java を使用してHTML変換時に画像の設定を行う方法を学びます。このガイドでは、複雑なExcelファイルを変換する際に高品質な画像表示を実現します。
@@ -93,7 +96,7 @@ Aspose.Cells for Java を使用して Excel ワークブックを読み込み、
 Aspose.Cells for Java を使用して、Excel ブックを効率的に読み込み、アクセスし、変更する方法を学びましょう。レポートの自動化や、Java アプリケーションへの Excel 機能の統合に最適です。
 
 ### [Aspose.Cells for Java を使用して Excel ブックをマスター: 効率的に読み込み、変更、保存します。](./aspose-cells-java-load-modify-excel-workbooks/)
-Aspose.Cellsを使用して、JavaでExcelブックを効率的に読み込み、アクセスし、変更する方法を学びます。データ処理タスクをシームレスに効率化します。
+Aspose.Cellsを使用して、JavaでExcelブックを効率的に読み込み、アクセス、変更する方法を学びます。データ処理タスクをシームレスに効率化します。
 
 ### [Aspose.Cells Java での効率的なワークブックの読み込み: カスタム読み込みオプションをマスターする](./aspose-cells-java-load-options-efficiency/)
 Aspose.Cells for Java のカスタム読み込みオプションを使用して、Excel ワークブックを効率的に読み込む方法を学びます。パフォーマンスを向上させ、大規模なデータセットを効果的に管理します。
@@ -135,7 +138,7 @@ Aspose.Cells for Javaを使用してExcelファイルを効率的に結合し、
 Aspose.Cells for Java を使用して、Excel ブックのバージョンと形式を管理する方法を学びます。バージョン情報の取得、Open XML コンプライアンスの設定などを行います。
 
 ### [Aspose.Cells を使用した Java での Excel ブック操作の習得](./aspose-cells-java-workbook-manipulation/)
-Aspose.Cells for Javaを使ってExcelのタスクを自動化する方法を学びましょう。このチュートリアルでは、ワークブックの設定、読み込み、作成、コピー、保存を効率的に行う方法を解説します。
+Aspose.Cells for Javaを使ってExcelのタスクを自動化する方法を学びましょう。このチュートリアルでは、ワークブックの設定、読み込み、作成、コピー、保存を効率的に行う方法について解説します。
 
 ### [Aspose.Cells for Java によるワークブック操作のマスター: 総合ガイド](./aspose-cells-java-workbook-manipulation-guide/)
 Aspose.Cells for Java を使用して Excel ブックの操作を自動化する方法を学びます。このガイドでは、ブックの作成、変更、保存を効率的に行う方法について説明します。
@@ -209,8 +212,36 @@ Aspose.Cells Java を使用して、HTML 文字列を構造化された Excel �
 ### [Aspose.Cells for Java を使用して XLSB を XLSM に変換する: ステップバイステップ ガイド](./convert-xlsb-to-xlsm-aspose-cells-java/)
 Aspose.Cells for Javaを使用して、XLSBファイルをマクロ対応のXLSMワークブックに変換する方法を学びましょう。コード例とベストプラクティスを網羅したこの包括的なガイドに従ってください。
 
-### [Aspose.Cells for Java を使用して Excel シートを作成およびアクセスし、PDF ブックマークを追加する](./create-access-excel-sheets-add-pdf-bookmarks-aspose-cells-java/)
+### [XLSB ワークブックをプログラムで作成 – 完全 Java ガイド](./create-xlsb-workbook-programmatically-full-java-guide/)
+Aspose.Cells for Java を使用して、XLSB 形式のワークブックをコードで作成し、保存する方法をステップバイステップで解説します。
+
+### [Aspose.Cells for Java を使用して Excel ブックを作成およびアクセスし、PDF ブックマークを追加する](./create-access-excel-sheets-add-pdf-bookmarks-aspose-cells-java/)
 Aspose.Cells for Java を使用して Excel シートを作成してアクセスする方法、PDF にブックマークを追加する方法、ドキュメントのナビゲーションを効率化する方法について学習します。
+
+### [Aspose.Cells for Java を使用して Excel ブックを保存する – 完全ガイド（コピー範囲）](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
+Aspose.Cells for Java を使用して、Excel のセル範囲をコピーしながらワークブックをファイルに保存する方法を学びます。
+
+### [Excel にカスタム プロパティを追加する方法（Java） – 値を取得して XLSB として保存](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
+Aspose.Cells for Java を使用して Excel にカスタム プロパティを追加し、値を取得して XLSB 形式で保存する方法を学びます。
+
+### [JavaでワークブックをXLSXとして保存 – 完全プログラミングガイド](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
+### [日本のカレンダーを作成するワークブック – 完全な Java チュートリアル](./create-workbook-japanese-calendar-complete-java-tutorial/)
+Aspose.Cells for Java を使用して、日本の祝日カレンダーを含むワークブックを作成し、保存する方法をステップバイステップで解説します。
+
+### [JavaでExcelワークブックを作成する – 完全ステップバイステップガイド](./create-excel-workbook-java-complete-step-by-step-guide/)
+JavaとAspose.Cellsを使用して、Excelワークブックの作成、設定、保存方法を段階的に学びます。
+
+### [Javaで新しいワークブックを作成する – ステップバイステップガイド](./create-new-workbook-in-java-step-by-step-guide/)
+Aspose.Cells for Java を使用して、Javaで新しい Excel ワークブックを作成し、保存する方法を学びます。
+
+### 追加リソース
+### [Aspose.Cells Javaでワークブックを作成する](./aspose-cells-java-workbook-creation/)
+Aspose.Cells for Javaを使用して、JavaでExcelブックを作成し、保存する方法をステップバイステップで解説します。
+
+Aspose.Cells for Java を使用して Excel シートを作成してアクセスする方法、PDF にブックマークを追加する方法、ドキュメントのナビゲーションを効率化する方法について学習します。
+
+### [JavaでExcelワークブックを作成する – 完全ステップバイステップガイド](./create-excel-workbook-in-java-complete-step-by-step-guide/)
+Aspose.Cells for Java を使用して、Excel ワークブックを作成し保存する手順を詳細に解説します。
 
 ### [Aspose.Cells Javaでワークブックを作成する](./create-configure-workbooks-aspose-cells-java/)
 Aspose.Words Javaのコードチュートリアル
@@ -251,7 +282,7 @@ Aspose.Words Javaのコードチュートリアル
 ### [Aspose.Cells Java による Excel 自動化: ワークブックを簡単に作成および変更](./excel-automation-aspose-cells-java-create-modify-workbooks/)
 Aspose.Cells for Javaを使ってExcelのタスクを自動化する方法を学びましょう。このチュートリアルでは、ワークブックの作成、変更、保存を簡単に行う方法を説明します。
 
-### [Aspose.Cells を使用した Java で瞬時にワークブックを作成および操作](./excel-automation-aspose-cells-java-instant-workbook-creation/)
+### [Aspose.Cells を使用した Java でのマスター ワークブックのメタデータ管理](./excel-automation-aspose-cells-java-instant-workbook-creation/)
 Aspose.Cells for Java を使用して Excel タスクを自動化する方法を学びましょう。ワークブックを効率的に作成、変更、保存し、ワークフローを強化します。
 
 ### [Aspose.Cells Java を使用した Excel 自動化: ワークブック内のデータの読み込みと検索](./excel-automation-aspose-cells-java-load-find-data/)
@@ -321,7 +352,7 @@ Aspose.Cells for Java を使い、カスタムリソース管理機能を使っ�
 Javaの強力なAspose.Cellsライブラリを使って、ExcelファイルをPDFに変換する方法をマスターしましょう。この包括的なガイドに従って、シームレスなドキュメント変換を実現しましょう。
 
 ### [Aspose.Cells for Java で Excel ブックの操作をマスターする: 総合ガイド](./excel-workbook-creation-modification-aspose-cells-java/)
-Aspose.Cells for Java を使用して Excel ブックを効率的に作成および変更する方法を学びます。このガイドでは、セットアップ、ブックの作成、セルの変更、数式の割り当てなどについて説明します。
+Aspose.Cells for Java を使用して、Excel ブックを効率的に作成および変更する方法を学びます。このガイドでは、セットアップ、ブックの作成、セルの変更、数式の割り当てなどについて説明します。
 
 ### [Aspose.Cells を使用した Java での Excel ブック操作: 包括的なガイド](./excel-workbook-manipulation-aspose-cells-java/)
 Aspose.Cells for Javaを使用してExcelファイルの処理を自動化する方法を学びましょう。このガイドでは、ワークブックの読み込み、変更、保存を効率的に行う方法について説明します。
@@ -338,7 +369,124 @@ Aspose.Cells for Java を使用して、Excel ブックのカスタムプロパ�
 ### [Aspose.Cells for Java を使用して HTML を Excel に正確に変換する](./aspose-cells-java-html-to-excel-precision/)
 Aspose.Cells for Javaを使って、複雑なHTMLファイルをExcelファイルへ正確に変換する方法を習得しましょう。設定、読み込み方法、保存方法を学びましょう。
 
-### [Aspose.Cells for Java を使用して Excel をカスタム日付形式で PDF に効率的に変換する](./render-excel-custom-date-formats-pdf-aspose-cells-java/)
+### [IStreamProvider と Aspose.Cells for Java を使用して Excel を HTML にエクスポートする: 包括的なガイド](./export-excel-html-streamprovider-aspose-cells-java/)
+Aspose.CellsのIStreamProviderインターフェースを使用して、JavaでExcelファイルをHTMLに効率的にエクスポートする方法を学びましょう。このガイドでは、セットアップ、構成、そして実践的な応用例を解説します。
+
+### [Aspose.Cells Java で Excel を印刷範囲の HTML にエクスポートする](./export-excel-print-area-html-aspose-cells-java/)
+Aspose.Words Javaのコードチュートリアル
+
+### [Aspose.Cells for Java を使用して Excel シートを画像にエクスポートする - 包括的なガイド](./export-excel-sheets-images-aspose-cells-java/)
+Aspose.Cells for Javaを使ってExcelシートを高画質画像に変換する方法を学びましょう。JPEGまたはPNGとしてレンダリングする方法については、このステップバイステップガイドをご覧ください。
+
+### [Aspose.Cells for Java を使用して Excel を HTML にエクスポートする: 完全ガイド](./export-excel-to-html-aspose-cells-java/)
+カスタム オプションと強力なドキュメント変換機能を活用して、Aspose.Cells for Java で Excel ファイルを HTML としてエクスポートする方法を学習します。
+
+### [JavaでExcelをスケーラブルな列を持つHTMLにエクスポートする](./export-excel-to-html-scalable-columns-java/)
+Aspose.Words Javaのコードチュートリアル
+
+### [Aspose.Cells Java を使用して Excel ワークシートを PNG にエクスポートする方法](./export-excel-to-png-aspose-cells-java/)
+Aspose.Cells for Javaを使って、ExcelワークシートをPNG画像としてシームレスにエクスポートする方法を学びましょう。このステップバイステップガイドに従って、データ共有とレポート作成のワークフローを強化しましょう。
+
+### [Aspose.Cells Java を使用して Excel から安全な PDF を生成する: 包括的なガイド](./generate-secure-pdfs-excel-aspose-cells-java/)
+Aspose.Cells for Javaを使用してExcelファイルから安全なPDFを生成する方法を学びましょう。このガイドでは、パスワード、権限の設定、パフォーマンスの最適化について説明します。
+
+### [Aspose.Cells を使用して Java で PDF ブックマークを作成する方法: 包括的なガイド](./guide-create-pdf-bookmarks-java-aspose-cells/)
+Aspose.Cells for Java を使用してPDFブックマークを作成および管理する方法を学びます。このガイドでは、ワークブックの読み込み、ブックマークの設定、PDFへのエクスポートについて説明します。
+
+### [Aspose.Cells を使用して Java でワークブック データをインポートするためのガイド: ベスト プラクティスとテクニック](./java-aspose-cells-workbook-data-import-guide/)
+Aspose.Cells for Java を使ってワークブックのデータのインポートをマスターしましょう。設定方法、パフォーマンスの最適化、複雑なデータ構造の効率的な処理方法を学びます。
+
+### [Aspose.Cells を使用した Java Excel ブックの操作: 包括的なガイド](./java-aspose-cells-workbook-manipulation/)
+Aspose.Cellsを使ってJavaでワークブックの操作をマスターしましょう。Excelファイルにシームレスにアクセス、変更、保存する方法を学びます。
+
+### [Aspose.Cells で Java ファイル処理をマスター: データの効率的な読み取り、書き込み、処理](./java-file-handling-aspose-cells-read-write-process/)
+Aspose.Cellsを使用してJavaでファイル操作を管理する方法を学びます。このガイドでは、データファイルの効率的な読み取り、書き込み、処理について説明します。
+
+### [Java ワークブックの自動回復: Aspose.Cells で Excel ファイルを管理する](./java-workbook-autorecovery-aspose-cells/)
+Aspose.Cellsを使用して、JavaでExcelブックの自動回復を管理する方法を学びましょう。データセキュリティを強化し、ワークフローを効率化します。
+
+### [Aspose.Cells を使用して Java で PDF のページ数を制限する方法: ステップバイステップガイド](./limit-pages-pdf-aspose-cells-java/)
+Aspose.Cells for Java を使用して、Excel ファイルから生成される PDF のページ数を制限する方法を学びます。このガイドでは、ステップバイステップの手順と実用的な応用例を紹介します。
+
+### [Aspose.Cells for Java を使用して CSV ファイルを読み込む方法: 包括的なガイド](./load-csv-aspose-cells-java-tutorial/)
+Aspose.Cells for Java を使用してCSVファイルを効率的に読み込み、操作する方法を学びましょう。このステップバイステップガイドに従って、データ処理能力を強化しましょう。
+
+### [Aspose.Cells for Java で Excel ブックとスライサーを管理する: 包括的なガイド](./manage-excel-workbooks-aspose-cells-java/)
+Aspose.Cellsを使用してJavaでワークブックの管理を自動化する方法を学びましょう。このガイドでは、ファイルの読み込み、ワークシートへのアクセス、スライサーの削除、変更の保存について説明します。
+
+### [Aspose.Cells Java をマスターする: Excel ワークブックを効率的に作成および管理する](./master-aspose-cells-java-create-excel-workbooks/)
+Aspose.Cells for Javaを使用してExcelタスクを自動化する方法を学びましょう。このガイドでは、ワークブックの作成、VBAプロジェクト管理、参照の追加について説明します。
+
+### [Aspose.Cells for Java をマスターする: 効率的な Excel ブック操作テクニック](./master-aspose-cells-java-excel-manipulation/)
+Aspose.Cells for Java を使用して、Excel ブックを効率的に作成、変更、保存する方法を学びましょう。レポート作成やデータ処理の自動化に最適です。
+
+### [Aspose.Cells Java を使用した CSV から JSON への効率的な変換](./master-csv-to-json-conversion-aspose-cells-java/)
+Aspose.Cells for Java を使用すると、CSV ファイルを JSON 形式に簡単に変換する方法を習得し、データの処理と統合の機能を強化します。
+
+### [Aspose.Cells for Java を使用した Excel ファイル操作のマスター | ワークブック操作ガイド](./master-excel-manipulation-aspose-cells-java/)
+Aspose.Cells for Javaを使用してExcelファイルを効率的に操作する方法を学びましょう。このガイドでは、セットアップ、ワークブックの操作、そしてベストプラクティスについて説明します。
+
+### [JavaでExcel操作をマスターする：Aspose.Cellsで図形とActiveXコントロールを管理する](./master-excel-manipulation-java-aspose-cells/)
+Aspose.Cells for Javaを使用して、Excelの図形とActiveXコントロールを管理する方法を学びます。レポートの自動化、スプレッドシートの強化、複雑なファイルの効率的な処理を実現します。
+
+### [Java での Excel ブック管理: Aspose.Cells を使用した完全ガイド](./master-excel-workbook-management-aspose-cells-java/)
+Aspose.Cells を使用して Excel タスクを効率的に作成、スタイル設定、自動化するための包括的なガイドを使用して、Java での Excel ワークブックの管理を習得します。
+
+### [Aspose.Cells を使って Java で Excel ブックの操作をマスターする: 総合ガイド](./master-excel-workbook-manipulation-aspose-cells-java/)
+Aspose.Cellsを使用してJavaでExcelブックを操作する方法を学びましょう。このガイドでは、ワークシートの作成、名前の変更、そして変更の効率的な保存方法について説明します。
+
+### [Aspose.Cells を使用して Java で Excel ブックをマスターする](./master-excel-workbooks-java-aspose-cells/)
+Aspose.Words Javaのコードチュートリアル
+
+### [Aspose.Cells for Java を使用したマスター ワークブックの作成とスタイル設定 | 総合ガイド](./master-workbook-creation-aspose-cells-java/)
+Aspose.Cells for Java を使用して Excel ブックを作成、アクセス、変更、スタイル設定する方法を学びます。ブックの操作については、このステップバイステップガイドをご覧ください。
+
+### [Aspose.Cells Java を使用してワークブックを PDF に変換する包括的なガイド](./master-workbook-pdf-conversion-aspose-cells-java/)
+詳細な実装ガイドと高度なオプションを使用して、Aspose.Cells for Java を使用して Excel ブックを最適化された PDF ファイルに変換する方法を学習します。
+
+### [Aspose.Cells for Java でワークブックの XML パーツを管理する方法: 包括的なガイド](./master-workbook-xml-parts-aspose-cells-java/)
+Aspose.Cells for Java を使用して、ワークブックの XML パーツをマスターします。Excel ワークブックにカスタム XML データを追加、管理、検索する方法を学びます。
+
+### [Aspose.Cells for Java をマスターする: Excel ブックからテキストを効率的に読み込み、抽出する](./mastering-aspose-cells-excel-load-extract-text/)
+Aspose.Cells for Java を使用して、Excel ブックからテキストを効率的に読み込み、アクセスし、抽出する方法を学びましょう。このガイドでは、セットアップから高度な機能まで、あらゆる内容を網羅しています。
+
+### [Aspose.Cells for Java: Excel ブックの操作に関する包括的なガイド](./mastering-aspose-cells-java-excel-manipulation/)
+Excelワークブックの操作方法をステップバイステップで解説するチュートリアルで、Aspose.Cells for Javaをマスターしましょう。ライセンスの適用方法、ワークブックの作成と変更を効率的に行う方法を学びます。
+
+### [Aspose.Cells を使用した Java での CSV 処理のマスター: 総合ガイド](./mastering-csv-handling-aspose-cells-java/)
+Aspose.Cells for Javaを使用してCSVファイルを効率的に管理およびクレンジングする方法を学びましょう。このガイドでは、セットアップ、読み込みオプション、無効な文字の置換について説明します。
+
+### [Aspose.Cells を使用した Java での効率的な CSV 処理: 開発者ガイド](./mastering-csv-handling-java-aspose-cells/)
+Aspose.Cells for Javaを使用して、CSVファイルをExcelブックに効率的に読み込み、インポートする方法を学びます。データの処理、書式設定、最適化のテクニックを習得します。
+
+### [Aspose.Cells を使用して Java で Excel ワークブックを作成し、スタイル設定する](./mastering-excel-workbook-aspose-cells-java/)
+Aspose.Cells for Javaを使ってExcelブックを効果的に作成、アクセス、そしてスタイル設定する方法を学びましょう。Java開発者のための完璧なガイドです。
+
+### [Aspose.Cells を使用して Java で Excel 95/5.0 ファイルを開く: 完全ガイド](./open-excel-95-xls-files-aspose-cells-java/)
+Aspose.Cells for Java を使用して Excel 95/5.0 XLS ファイルを簡単に開いて管理し、シームレスなデータ統合と移行を実現する方法を学習します。
+
+### [Aspose.Cells を使用して Java で Excel 97/2003 ファイルを開く: 包括的なガイド](./open-excel-97-2003-files-java-aspose-cells/)
+Javaで強力なAspose.Cellsライブラリを使用して、従来のMicrosoft Excelファイルをシームレスに開く方法を学びましょう。設定、使用方法、そして実際のアプリケーションについて学びましょう。
+
+### [Aspose.Cells Java を使用してストリームから Excel ワークブックを開く](./open-excel-workbook-stream-aspose-cells-java/)
+Aspose.Words Javaのコードチュートリアル
+
+### [JavaでAspose.Cellsを使用してXLSXファイルを開き、ファイル名を取得する方法](./open-retrieve-filenames-excel-aspose-cells-java/)
+Aspose.Cells for Java で XLSX ファイルを開き、ファイル名を取得することで、Excel ファイルを効率的に処理する方法を学びましょう。今すぐスプレッドシート操作を効率化しましょう。
+
+### [Aspose.Cells for Java を使用して TSV ファイルを開く方法 (ステップバイステップ ガイド)](./open-tsv-files-aspose-cells-java/)
+この包括的なガイドでは、セットアップ、実装、実用的なアプリケーションを網羅し、Aspose.Cells を使用して Java で TSV ファイルを開いて操作する方法を学習します。
+
+### [Aspose.Cells Java で非表示のワークシートのエクスポートを防ぐ方法: 完全ガイド](./prevent-export-hidden-worksheets-aspose-cells-java/)
+エクスポート中に非表示のワークシートをスキップし、クリーンかつ簡潔なデータ出力を保証するように Aspose.Cells for Java を構成する方法を学習します。
+
+### [Aspose.Cells Java を使用して CSV ファイルを効率的に読み取り、変換する](./read-and-convert-csv-aspose-cells-java/)
+Aspose.Cells for Java を使用して、複数のエンコードされた CSV ファイルをシームレスに読み取り、Excel 形式に変換する方法を、ステップバイステップのガイドに従って学習します。
+
+### [Aspose.Cells を使用して Java で Excel を PNG、TIFF、PDF に変換する](./render-excel-as-png-tiff-pdf-aspose-cells-java/)
+Aspose.Cells for Javaを使ってExcelファイルを画像（PNG、TIFF）またはPDFに変換する方法を学びましょう。このステップバイステップガイドに従って、レポートの共有を強化しましょう。
+
+### [Aspose.Cells for Java を使用して、Excel をカスタム日付形式で PDF に効率的に変換する](./render-excel-custom-date-formats-pdf-aspose-cells-java/)
 Aspose.Cells for Javaを使用して、カスタム日付形式を維持しながらExcelファイルをPDFに変換する方法を習得しましょう。設定、実装、パフォーマンスに関するヒントを学びます。
 
 ### [Aspose.Cells for Java を使用してエラー処理付きで Excel を PDF に変換する: 包括的なガイド](./render-excel-pdf-aspose-cells-java-error-handling/)
@@ -359,8 +507,24 @@ Aspose.Cells for Javaを使って、Excelファイルを複数の形式でシー
 ### [Aspose.Cells for Java を使用して Excel ドキュメントのバージョンを設定する方法](./set-excel-version-aspose-cells-java/)
 Aspose.Cells for Java を使用して、Excel ファイルのバージョン管理などのドキュメントプロパティを設定および管理する方法を学びます。このステップバイステップガイドに従って、ワークブックを効率的に操作しましょう。
 
+### [JavaでExcelファイルを作成し、カスタムプロパティを追加してXLSBとして保存](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+JavaでExcelファイルを作成し、カスタムプロパティを設定してXLSB形式で保存する方法を学びます。
+### [Javaで新しいワークブックを作成する – 完全ガイド](./create-new-workbook-java-complete-guide/)
+Aspose.Cells for Java を使用して、新しいワークブックの作成、設定、保存方法を学びます。
+
+### [Lambda 関数（Java）を使用して Excel ワークブックを作成する例](./use-lambda-function-java-to-create-excel-workbook-example/)
+Lambda 関数を活用して、Java で Excel ワークブックを簡単に作成する手順をステップバイステップで解説します。
+### [JavaでExcelファイルを生成する – 完全ステップバイステップガイド](./generate-excel-file-java-complete-step-by-step-guide/)
+Aspose.Cells for Java を使用して、Excel ファイルを作成し保存する方法をステップバイステップで学びます。
+### [Javaでカスタムプロパティ付きExcelワークブックを作成する – ステップバイステップガイド](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+Javaでカスタムプロパティを設定したExcelワークブックの作成方法を学びます。
+### [Aspose.Cells for Java を使用してカスタム プロパティ付き xlsb ファイルを保存する方法](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Aspose.Cells for Java でカスタム プロパティを設定した xlsb ファイルを保存する手順を解説します。
 ### [Aspose.Cells for Java を使用して カスタム プロパティを取得する方法](./how-to-get-custom-property-java-using-aspose-cells/)
 Aspose.Cells for Java を使用して、Excel のカスタム プロパティを取得する方法を学びます。このステップバイステップガイドで、プロパティの取得と活用をマスターしましょう。
+
+### [Aspose.Cells Java を使用して Excel を HTML にエクスポートする: ステップバイステップ ガイド](./export-excel-html-aspose-cells-java/)
+Aspose.Cells for Java を使用して、Excel ファイルを HTML としてシームレスにエクスポートする方法を学びます。このガイドでは、ワークブックの読み込み、カスタム ストリーム プロバイダー、そしてワークブックの簡単な保存方法について説明します。
 
 ## 追加リソース
 

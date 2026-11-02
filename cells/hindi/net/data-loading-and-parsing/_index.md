@@ -75,6 +75,12 @@ Excel में जापानी युग तिथियों को कै
 Aspose.Cells का उपयोग करके .NET में JSON डेटा को Excel टेम्पलेट में सम्मिलित करने की चरण‑दर‑चरण गाइड।
 ### [मार्कडाउन को Excel में लोड करना – Aspose.Cells के साथ मार्कडाउन फ़ाइल आयात करें](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
 Aspose.Cells का उपयोग करके मार्कडाउन फ़ाइल को Excel में आयात करने और डेटा को शीट में लोड करने की चरण‑दर‑चरण गाइड।
+### [JSON से Excel उत्पन्न करना (C#) – पूर्ण चरण‑दर‑चरण गाइड](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
+.NET के लिए Aspose.Cells का उपयोग करके JSON डेटा से Excel फ़ाइल बनाना सीखें। पूर्ण चरण‑दर‑चरण मार्गदर्शिका।
+### [Excel वर्कबुक बनाना C# – सेल्स से तिथियों को पढ़ने के लिए पूर्ण गाइड](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+.NET के लिए Aspose.Cells का उपयोग करके C# में Excel वर्कबुक बनाएं और सेल्स से तिथियों को पढ़ें।
+### [C# में जापानी युग तिथि को पार्स करना – पूर्ण गाइड](./parse-japanese-era-date-in-c-complete-guide/)
+C# में Aspose.Cells का उपयोग करके जापानी युग तिथि को कैसे पार्स करें, इस पूर्ण गाइड में चरण-दर-चरण सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -62,6 +62,9 @@ Dowiedz się, jak obsługiwać niestandardowe formaty liczb w skoroszytach Java 
 ### [Opanowanie prezentacji danych w programie Excel: formatowanie liczb i dat niestandardowych za pomocą Aspose.Cells dla języka Java](./aspose-cells-java-data-formatting-excel/)
 Dowiedz się, jak stosować formaty liczbowe i niestandardowe style dat za pomocą pakietu Aspose.Cells for Java, ulepszając prezentację danych w arkuszach kalkulacyjnych programu Excel.
 
+### [Jak zastosować format liczbowy w programie Excel w Javie – kompletny przewodnik Aspose.Cells](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+Dowiedz się, jak programowo stosować formaty liczb w arkuszach Excel przy użyciu Aspose.Cells for Java, z praktycznymi przykładami kodu.
+
 ### [Jak tworzyć i formatować komórki programu Excel za pomocą Aspose.Cells dla języka Java: przewodnik krok po kroku](./aspose-cells-java-excel-automation-guide/)
 Dowiedz się, jak z łatwością automatyzować i formatować pliki Excela za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje tworzenie skoroszytów, formatowanie komórek i techniki zapisywania.
 
@@ -95,7 +98,7 @@ Dowiedz się, jak stosować formatowanie indeksu górnego do komórek programu E
 ### [Efekty tekstowe Master Cienie w programie Excel przy użyciu Aspose.Cells Java: kompleksowy przewodnik](./aspose-cells-java-text-effects-shadows-excel/)
 Dowiedz się, jak dodawać cienie efektów tekstowych do kształtów i pól tekstowych w programie Excel przy użyciu Aspose.Cells dla języka Java. Ulepsz swoje arkusze kalkulacyjne za pomocą dynamicznych elementów wizualnych.
 
-### [Aspose.Cells Java: Aktualizacja ustawień tekstu sformatowanego i czcionek w komórkach programu Excel](./aspose-cells-java-update-rich-text-fonts/)
+### [Aspose Cells Java: Aktualizacja ustawień tekstu sformatowanego i czcionek w komórkach programu Excel](./aspose-cells-java-update-rich-text-fonts/)
 Dowiedz się, jak skutecznie aktualizować komórki z tekstem sformatowanym i ustawienia czcionek za pomocą Aspose.Cells dla Java. Ulepsz zarządzanie plikami Excela dzięki precyzyjnym technikom formatowania.
 
 ### [Opanuj zarządzanie skoroszytami i stylami za pomocą Aspose.Cells dla Java](./aspose-cells-java-workbook-style-management/)
@@ -159,7 +162,7 @@ Dowiedz się, jak dostosować kolory kart arkusza kalkulacyjnego w programie Exc
 Naucz się formatować komentarze w programie Excel z łatwością, używając Aspose.Cells dla Java. Ulepsz swoje arkusze kalkulacyjne, dodając i stylizując komentarze programowo.
 
 ### [Opanuj formatowanie tabeli w programie Excel za pomocą Aspose.Cells dla języka Java](./format-excel-tables-aspose-cells-java/)
-Naucz się formatować i automatyzować tabele Excela za pomocą Aspose.Cells dla Java. Popraw swoje umiejętności prezentacji danych już dziś.
+Naucz się formatować i automatyzować tabele Excela za pomocą Aspose.Cells for Java. Popraw swoje umiejętności prezentacji danych już dziś.
 
 ### [Ukryj wartości zerowe w programie Excel za pomocą Aspose.Cells dla języka Java: kompletny przewodnik](./hide-zero-values-excel-aspose-cells-java/)
 Dowiedz się, jak ukryć wartości zerowe w programie Excel przy użyciu pakietu Aspose.Cells for Java. Dzięki temu dane w arkuszach kalkulacyjnych będą bardziej przejrzyste i lepiej się prezentować.
@@ -233,6 +236,26 @@ Dowiedz się, jak skutecznie sortować dane w programie Excel według koloru kol
 ### [Jak stylizować komórki programu Excel i dodawać hiperłącza za pomocą Aspose.Cells dla języka Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Opanuj stylizowanie komórek Excela i dodawanie hiperłączy w aplikacjach Java za pomocą Aspose.Cells. Postępuj zgodnie z tym kompleksowym przewodnikiem, aby uzyskać bezproblemową integrację i formatowanie.
 
+### [Utwórz skoroszyt Excel z dynamicznym formatowaniem w Javie – kompletny przewodnik](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
+Dowiedz się, jak programowo tworzyć skoroszyty Excel i stosować dynamiczne formatowanie przy użyciu Aspose.Cells dla Java.
+### [Jak zastosować style przy konwertowaniu DataTable do Excela za pomocą Aspose.Cells dla języka Java – kompletny przewodnik](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
+Dowiedz się, jak zastosować style podczas konwertowania obiektu DataTable do pliku Excel przy użyciu Aspose.Cells for Java.
+
+### [Aspose Cells Format daty: Jak ustawić niestandardowy format daty w Javie](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+Dowiedz się, jak w Aspose.Cells for Java ustawić własny format daty w arkuszach Excel, korzystając z prostych przykładów kodu.
+
+### [Ustaw format liczbowy w Excelu w Javie – kompletny przewodnik](./set-number-format-excel-in-java-complete-guide/)
+Dowiedz się, jak programowo ustawiać formaty liczb w plikach Excel przy użyciu Aspose.Cells for Java, z przykładami kodu.
+### [Jak ustawić pogrubioną czcionkę w eksporcie Excela w Javie – kompletny przewodnik](./set-font-bold-in-java-excel-export-complete-guide/)
+Dowiedz się, jak programowo ustawić pogrubioną czcionkę w eksportowanych plikach Excel przy użyciu Aspose.Cells for Java.
+
+### [Ustaw niestandardowy format liczbowy w Excelu przy użyciu Javy – kompletny przewodnik](./set-custom-number-format-in-excel-with-java-complete-guide/)
+Dowiedz się, jak ustawić własny format liczbowy w plikach Excel przy użyciu Aspose.Cells for Java. Przewodnik krok po kroku z przykładami kodu.
+### [Utwórz stylowany skoroszyt programu Excel w Javie – kompletny przewodnik](./create-styled-excel-workbook-in-java-complete-guide/)
+Dowiedz się, jak programowo tworzyć i stylować skoroszyty Excel w Javie, wykorzystując Aspose.Cells, z przykładami kodu i wskazówkami optymalizacji.
+
+### [Jak używać WRAPCOLS w Aspose.Cells – kompletny przykład w Javie](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Dowiedz się, jak zastosować metodę WRAPCOLS w Aspose.Cells for Java, aby automatycznie zawijać tekst w komórkach Excela.
 ### [Utwórz skoroszyt Excel w Javie i zastosuj formaty liczbowe kolumn](./create-excel-workbook-java-and-apply-column-number-formats/)
 Dowiedz się, jak programowo tworzyć skoroszyty Excel w Javie i stosować formaty liczbowe do kolumn przy użyciu Aspose.Cells.
 
@@ -244,6 +267,7 @@ Dowiedz się, jak programowo tworzyć skoroszyty Excel w Javie i stosować forma
 - [Bezpłatne wsparcie](https://forum.aspose.com/)
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
 
+### [Jak utworzyć skoroszyt Excela z formatem waluty i pogrubioną czcionką w Javie](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

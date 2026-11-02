@@ -74,6 +74,13 @@
 ### [Эффективное копирование одного столбца в Excel с помощью Aspose.Cells Java](./excel-single-column-copying-aspose-cells-java/)
 Узнайте, как автоматизировать процесс копирования отдельных столбцов в несколько других с помощью Aspose.Cells для Java. Оптимизируйте свои задачи по обработке данных с легкостью.
 
+### [Программное копирование диапазона листа – Полное руководство на Java](./programmatically-copy-worksheet-range-complete-java-guide/)
+Узнайте, как программно копировать диапазоны листов в Excel с помощью Aspose.Cells для Java, используя пошаговые примеры кода.
+### [Копирование диапазона между рабочими книгами в Java – пошаговое руководство](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+Узнайте, как копировать диапазоны между рабочими книгами Excel с помощью Aspose.Cells для Java.
+### [Создать новый лист и скопировать диапазон Excel с помощью Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+Узнайте, как создать новый лист и скопировать диапазон в Excel с помощью Aspose.Cells для Java.
+
 ### [Импорт пользовательских объектов в объединенные ячейки Excel с помощью Aspose.Cells для Java: подробное руководство](./import-custom-objects-merged-cells-java-aspose-cells/)
 Узнайте, как эффективно импортировать пользовательские объекты в объединенные ячейки Excel с помощью Aspose.Cells для Java. Освойте обработку данных с помощью этого всеобъемлющего руководства.
 
@@ -86,7 +93,10 @@
 ### [Разделение ячеек Excel в Java с помощью Aspose.Cells: пошаговое руководство](./unmerge-excel-cells-aspose-cells-java-guide/)
 Узнайте, как эффективно разъединять ячейки в файлах Excel с помощью Aspose.Cells для Java. В этом руководстве описывается настройка, обнаружение и разъединение объединенных ячеек с примерами кода.
 
-
+### [Назначение имени ячейке в Excel с помощью Java – Полное руководство](./assign-name-to-cell-in-excel-using-java-complete-guide/)
+Узнайте, как присвоить имя отдельной ячейке в Excel с помощью Aspose.Cells для Java, используя пошаговые примеры кода.
+### [Как скопировать диапазон в Java с Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
+Узнайте, как копировать диапазоны в Excel с помощью Aspose.Cells для Java.
 
 ## Дополнительные ресурсы
 

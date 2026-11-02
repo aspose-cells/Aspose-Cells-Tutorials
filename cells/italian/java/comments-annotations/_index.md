@@ -29,6 +29,9 @@ I nostri tutorial su commenti e annotazioni mostrano come implementare funzional
 ### [Aggiungere un'immagine a un commento Excel con Aspose.Cells per Java: una guida completa](./add-image-excel-comment-aspose-cells-java/)
 Scopri come aggiungere immagini ai commenti di Excel utilizzando Aspose.Cells per Java. Questa guida copre tutto, dalla configurazione all'implementazione, per migliorare efficacemente i tuoi fogli di calcolo.
 
+### [Aggiungere un commento a Excel con Java – Guida completa passo‑a‑passo](./add-comment-to-excel-with-java-complete-step-by-step-guide/)
+Scopri come aggiungere commenti a file Excel usando Aspose.Cells per Java, con esempi di codice dettagliati e istruzioni passo passo.
+
 ### [Master Aspose.Cells Java: gestione efficiente dei commenti in Excel](./aspose-cells-java-excel-comment-management/)
 Impara a gestire e rimuovere i commenti di Excel utilizzando Aspose.Cells per Java. Automatizza l'elaborazione dei dati con la nostra guida passo passo sulla gestione dei commenti.
 
@@ -53,7 +56,10 @@ Scopri come cambiare la direzione del testo nei commenti di Excel con Aspose.Cel
 ### [Esportare commenti Excel in HTML con Aspose.Cells per Java](./export-excel-comments-html-aspose-cells-java/)
 Un tutorial sul codice per Aspose.Words Java
 
-
+### [Come aggiungere un commento in Excel con Java – Guida completa](./how-to-add-comment-in-excel-with-java-complete-guide/)
+Scopri come aggiungere commenti a un file Excel utilizzando Aspose.Cells per Java, con esempi di codice passo passo.
+### [Aggiungere un commento a Excel usando Java – Guida completa passo‑passo](./add-comment-to-excel-using-java-complete-step-by-step-guide/)
+Scopri come aggiungere commenti a un file Excel con Aspose.Cells per Java, passo dopo passo, per migliorare la collaborazione.
 
 ## Risorse aggiuntive
 

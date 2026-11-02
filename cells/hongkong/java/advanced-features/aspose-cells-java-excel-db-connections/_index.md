@@ -13,7 +13,7 @@ url: /zh-hant/java/advanced-features/aspose-cells-java-excel-db-connections/
 weight: 1
 ---
 
- answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

@@ -13,21 +13,14 @@ url: /fr/java/cell-operations/aspose-cells-java-workbook-cell-operations/
 weight: 1
 ---
 
-/products-backtop-button >}}
 
-Now produce final translation.
 
-Need to ensure we keep markdown formatting exactly.
 
-Let's translate.
 
-I'll write French translations.
 
-Be careful with code placeholders: keep them unchanged.
 
-Also keep bold formatting.
 
-Let's produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

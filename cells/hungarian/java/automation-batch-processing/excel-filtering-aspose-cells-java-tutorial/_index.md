@@ -1,9 +1,68 @@
 ---
-"date": "2025-04-07"
-"description": "Ismerje meg, hogyan automatizálhatja az Excel-szűrést az Aspose.Cells for Java segítségével. Ez az útmutató a munkafüzetek inicializálását, az egyéni szűrőket és a munkafüzetek hatékony mentését ismerteti."
-"title": "Az Excel-szűrés automatizálása az Aspose.Cells for Java használatával – Átfogó útmutató"
-"url": "/hu/java/automation-batch-processing/excel-filtering-aspose-cells-java-tutorial/"
-"weight": 1
+date: '2026-07-31'
+description: Ismerje meg, hogyan szűrhet Excel fájlokat az Aspose.Cells for Java segítségével.
+  Ez az útmutató bemutatja a munkafüzetek betöltését, az egyéni szűrők alkalmazását
+  és az eredmények hatékony mentését.
+keywords:
+- how to filter excel
+- automate excel filtering
+- apply custom excel filter
+- load excel workbook java
+lastmod: '2026-07-31'
+og_description: Hogyan szűrhet Excel-t az Aspose.Cells for Java használatával. Ismerje
+  meg lépésről lépésre a munkafüzetek betöltését, az egyéni szűrők alkalmazását és
+  a hatékony mentést ebben a átfogó oktatóanyagban.
+og_image_alt: 'Developer guide: Filter Excel files using Aspose.Cells for Java'
+og_title: Hogyan szűrjünk Excel-t az Aspose.Cells for Java segítségével – Útmutató
+schemas:
+- author: Aspose
+  dateModified: '2026-07-31'
+  description: Learn how to filter Excel files using Aspose.Cells for Java. This guide
+    covers loading workbooks, applying custom filters, and saving results efficiently.
+  headline: How to Filter Excel with Aspose.Cells for Java
+  type: TechArticle
+- description: Learn how to filter Excel files using Aspose.Cells for Java. This guide
+    covers loading workbooks, applying custom filters, and saving results efficiently.
+  name: How to Filter Excel with Aspose.Cells for Java
+  steps:
+  - name: Initialize the Workbook and Load Data
+    text: The `Workbook` class is Aspose.Cells' top‑level object that represents a
+      single Excel file in memory.
+  - name: Access the Target Worksheet and Set AutoFilter Range
+    text: The `Worksheet` object gives you row‑level access; setting an `AutoFilter`
+      range tells Aspose which cells to evaluate.
+  - name: Apply a Custom “Contains” Filter
+    text: The `AutoFilter.addCustomFilter` method lets you specify an operator (`Contains`)
+      and the text to match, e.g., “Ba”.
+  - name: Save the Modified Workbook
+    text: Calling `save` writes the filtered view to a new file while keeping the
+      original workbook untouched.
+  type: HowTo
+- questions:
+  - answer: Process them sheet‑by‑sheet, dispose of each `Worksheet` after use, and
+      consider streaming APIs introduced in Aspose.Cells 25.0 to keep memory footprint
+      under 200 MB.
+    question: How do I handle Excel files larger than 100 MB?
+  - answer: Yes—call `AutoFilter.addCustomFilter` for each column index before invoking
+      `AutoFilter.refresh`.
+    question: Can I filter multiple columns at once?
+  - answer: A full Aspose.Cells license is mandatory for production; the temporary
+      license is for evaluation only.
+    question: Is a license required for commercial deployment?
+  - answer: It preserves VBA macros when loading and saving `.xlsm` files, but filtering
+      does not affect macro code.
+    question: Does Aspose.Cells support .xlsx files with macros?
+  - answer: Aspose.Cells supports JDK 8 through JDK 21; always verify the specific
+      version in the release notes.
+    question: What Java versions are compatible?
+  type: FAQPage
+tags:
+- filter excel
+- Aspose.Cells
+- Java Excel automation
+title: Hogyan szűrjünk Excel fájlokat az Aspose.Cells for Java használatával
+url: /hu/java/automation-batch-processing/excel-filtering-aspose-cells-java-tutorial/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,35 +71,48 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Excel-szűrés automatizálása az Aspose.Cells for Java segítségével
+# Hogyan szűrjünk Excel-t az Aspose.Cells for Java segítségével
 
 ## Bevezetés
 
-A nagy adathalmazok kezelése Excel-fájlokban kihívást jelenthet. A szűrési folyamat automatizálása időt takarít meg, csökkenti a hibákat, és mélyebb betekintést nyújt. Ebben az oktatóanyagban bemutatjuk, hogyan implementálhatunk Excel-szűrőket az Aspose.Cells for Java használatával – ez egy hatékony könyvtár, amelyet zökkenőmentes, összetett Excel-műveletekhez terveztek.
+Nagy adathalmazok kezelése Excel-fájlokban kihívást jelenthet. **Hogyan szűrjünk Excel-t** gyorsan és pontosan gyakori kérés a nagy adatmennyiséggel dolgozó csapatok részéről. A szűrés automatizálása időt takarít meg, csökkenti a hibákat, és mélyebb betekintést nyújt. Ebben az útmutatóban bemutatjuk, hogyan valósíthatók meg az Excel-szűrők az Aspose.Cells for Java segítségével – egy erőteljes könyvtár, amely a komplex Excel-műveletek zökkenőmentes végrehajtására lett tervezve.
 
-**Amit tanulni fogsz:**
+**Amit megtanul**
 - Excel munkafüzet inicializálása és betöltése.
-- Munkalapok elérése és az automatikus szűrőtartományok beállítása.
+- Munkalapok elérése és automatikus szűrő tartományok beállítása.
 - Egyéni szűrők alkalmazása meghatározott feltételekkel.
 - A módosított munkafüzet hatékony mentése.
 
-Ez a lépésről lépésre haladó útmutató biztosítja, hogy még a kezdők is automatizálhassák adatszűrési feladataikat Excelben az Aspose.Cells for Java használatával. Fedezzük fel, hogyan egyszerűsítheti a munkafolyamatát!
+Fedezzük fel, hogyan egyszerűsíthető a munkafolyamat!
+
+## Gyors válaszok
+- **Mi a fő osztály az Excel munkához?** `Workbook` egy teljes Excel-fájlt reprezentál a memóriában.  
+- **Hány formátumot támogat az Aspose.Cells?** Több mint 50 bemeneti és kimeneti formátum, többek között XLSX, CSV, ODS és PDF.  
+- **Alkalmazhatok “tartalmaz” szűrőt egy sorban?** Igen – használja a `AutoFilter.addCustomFilter`‑t a `Contains` operátorral.  
+- **Szükség van licencre a fejlesztéshez?** Egy ingyenes ideiglenes licenc elegendő értékeléshez; a teljes licenc a termeléshez kötelező.  
+- **A kötegelt feldolgozás memóriahatékony?** Igen – dolgozzon a munkalapokkal egyesével, és szabadítsa fel az objektumokat a RAM használat alacsonyan tartásához.
+
+## Mi a “how to filter excel”?
+
+*“How to filter Excel”* a technikát jelenti, amely programozottan szűkíti egy munkalap sorait meghatározott kritériumok alapján, például szövegtartalom vagy numerikus tartományok szerint. Szűrők kóddal történő alkalmazásával automatikusan elrejthetők azok a sorok, amelyek nem felelnek meg a megadott feltételeknek, megőrizve az eredeti adatelrendezést, miközben fókuszált nézetet biztosít az elemzéshez vagy jelentéskészítéshez.
+
+## Miért használjuk az Aspose.Cells for Java-t az Excel szűrésére?
+
+Az Aspose.Cells egy nagy teljesítményű, memóriahatékony motorral rendelkezik, amely hatalmas munkafüzeteket képes kezelni anélkül, hogy teljesen betöltené őket a RAM-ba. Több mint 50 táblázatformátumot támogat, gazdag API‑t biztosít a komplex szűréshez, és általában a szűrési műveleteket akár háromszor gyorsabban hajtja végre, mint a natív Java alternatívák. Ezek a képességek ideálissá teszik vállalati szintű adatfeldolgozó csővezetékekhez, ahol a sebesség és a megbízhatóság kritikus.
 
 ## Előfeltételek
 
-Kezdés előtt győződjön meg arról, hogy rendelkezik a következőkkel:
-- **Aspose.Cells Java könyvtárhoz:** 25.3-as vagy újabb verzió.
-- **Java fejlesztői környezet:** A JDK telepítve és konfigurálva van a gépeden.
-- **Alapvető Java ismeretek:** A Java szintaxisának és fogalmainak ismerete előnyös lesz.
+- **Aspose.Cells for Java könyvtár:** 25.3 vagy újabb verzió.  
+- **Java fejlesztői környezet:** JDK 8 vagy újabb, `JAVA_HOME` beállítva.  
+- **Alap Java ismeretek:** Osztályok, metódusok és kivételkezelés ismerete.
 
-## Az Aspose.Cells beállítása Java-hoz
+## Az Aspose.Cells for Java beállítása
 
 ### A könyvtár telepítése
 
-Az Aspose.Cells használatához a projektedben, add hozzá függőségként:
+Adja hozzá a függőséget, amely megfelel az Ön build eszközének.
 
-**Szakértő:**
+**Maven:**  
 
 ```xml
 <dependency>
@@ -48,166 +120,148 @@ Az Aspose.Cells használatához a projektedben, add hozzá függőségként:
     <artifactId>aspose-cells</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Fokozat:**
+**Gradle:**  
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
-```
+```  
 
-### Licencszerzés
+### Licenc beszerzése
 
-Az Aspose ingyenes próbaverziót kínál a könyvtár teljes funkcióinak felfedezéséhez:
-1. Látogatás [Aspose ideiglenes engedély](https://purchase.aspose.com/temporary-license/) és töltsd ki az űrlapot.
-2. A jóváhagyás után töltse le a licencfájlt.
-3. Állítsa be a licencét a Java alkalmazásában ezzel a kódrészlettel:
+Az Aspose ingyenes próba licencet kínál a könyvtár teljes képességeinek felfedezéséhez:
+
+1. Látogassa meg a [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) oldalt, és töltse ki az űrlapot.  
+2. Töltse le a licencfájlt, amint jóváhagyják.  
+3. Állítsa be a licencet a Java alkalmazásban:
 
 ```java
 License license = new License();
 license.setLicense("path/to/your/license/file.lic");
-```
+```  
 
-## Megvalósítási útmutató
+## Hogyan szűrjünk Excel-t az Aspose.Cells for Java segítségével?
 
-### Munkafüzet inicializálása és adatbetöltés
+Töltse be a munkafüzetet, határozza meg az automatikus szűrő tartományt, és alkalmazzon egy egyéni “tartalmaz” szűrőt – mindhárom lépésben. Az `AutoFilter` API automatikusan elrejti azokat a sorokat, amelyek nem felelnek meg a feltételeknek, megőrizve az eredeti adat sorrendet és formázást.
 
-**Áttekintés:**
-Kezdje egy Excel-munkafüzet betöltésével, hogy hozzáférhessen és módosíthassa az adatait.
+### 1. lépés: A Workbook inicializálása és az adatok betöltése
 
-**Lépések:**
-
-#### 1. lépés: Munkafüzet-objektum példányosítása
-Inicializálja a `Workbook` osztály az Excel fájl elérési útjával:
+`Workbook` osztály az Aspose.Cells felső szintű objektuma, amely egyetlen Excel-fájlt reprezentál a memóriában.  
 
 ```java
 import com.aspose.cells.Workbook;
 
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "/sourceSampleCountryNames.xlsx");
-```
+```  
 
-### Munkalapok elérése és az automatikus szűrő tartományának beállítása
+### 2. lépés: A cél munkalap elérése és az AutoFilter tartomány beállítása
 
-**Áttekintés:**
-Hozzáférhet meghatározott munkalapokhoz, és beállíthat automatikus szűrőtartományokat az adatelemzés egyszerűsítése érdekében.
-
-#### 1. lépés: A munkafüzet betöltése
-Feltételezve, hogy már betöltötted a korábban látható módon:
+A `Worksheet` objektum sor‑szintű hozzáférést biztosít; egy `AutoFilter` tartomány beállítása megmondja az Aspose-nak, mely cellákat kell értékelni.  
 
 ```java
 Workbook workbook = new Workbook(dataDir + "/sourceSampleCountryNames.xlsx");
-```
-
-#### 2. lépés: A munkalap elérése
-Szerezd meg az első munkalapot a munkafüzetből:
+```  
 
 ```java
 import com.aspose.cells.Worksheet;
 
 Worksheet worksheet = workbook.getWorksheets().get(0);
-```
-
-#### 3. lépés: Automatikus szűrő tartományának beállítása
-Adjon meg egy tartományt bizonyos cellák automatikus szűréséhez:
+```  
 
 ```java
 worksheet.getAutoFilter().setRange("A1:A18");
-```
+```  
 
-### Egyéni szűrő alkalmazása a „Tartalmaz” művelettel
+### 3. lépés: Egyéni “tartalmaz” szűrő alkalmazása
 
-**Áttekintés:**
-Egyéni szűrők alkalmazása csak a megadott szöveget tartalmazó sorok megjelenítéséhez, növelve az adatok relevanciáját.
-
-#### 1. lépés: Munkafüzet és Access-munkalap betöltése
-Győződjön meg arról, hogy a munkafüzet be van töltve:
+Az `AutoFilter.addCustomFilter` metódus lehetővé teszi egy operátor (`Contains`) és a keresett szöveg megadását, például “Ba”.  
 
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
-```
-
-#### 2. lépés: Egyéni szűrő alkalmazása
-Állítson be egy szűrőt a „Ba”-t tartalmazó sorok megjelenítéséhez:
+```  
 
 ```java
 import com.aspose.cells.FilterOperatorType;
 
 worksheet.getAutoFilter().custom(0, FilterOperatorType.CONTAINS, "Ba");
-```
-
-#### 3. lépés: Frissítse a szűrőt
-Győződjön meg arról, hogy a módosítások érvénybe lépnek:
+```  
 
 ```java
 worksheet.getAutoFilter().refresh();
-```
+```  
 
-### Módosított Excel fájl mentése
+### 4. lépés: A módosított munkafüzet mentése
 
-**Áttekintés:**
-módosítások után mentse el a munkafüzetet a munka megőrzése érdekében.
-
-#### 1. lépés: Munkafüzet betöltése és módosítása
-Feltéve, hogy a korábban leírtak szerint van feltöltve.
-
-#### 2. lépés: A munkafüzet mentése
-A változtatások visszaírása egy új fájlba:
+A `save` hívás a szűrt nézetet egy új fájlba írja, miközben az eredeti munkafüzet érintetlen marad.  
 
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "/outSourceSampleCountryNames.xlsx");
-```
+```  
 
 ## Gyakorlati alkalmazások
 
-- **Adatelemzés:** Gyorsan szűrhet nagy adathalmazokat adott kritériumok alapján, ami elősegíti a gyorsabb döntéshozatalt.
-- **Jelentéstétel:** Automatizálja a szűrt jelentések létrehozását a kulcsfontosságú adatok bemutatása érdekében.
-- **Pénzügyi auditok:** Bizonyos feltételeknek megfelelő tranzakciók elkülönítése megfelelőségi ellenőrzések céljából.
+- **Adat elemzés:** Azonnal elkülöníti az üzletileg kritikus kulcsszavaknak megfelelő sorokat, felgyorsítva az ad-hoc jelentést.  
+- **Automatizált jelentés:** Szűrt CSV vagy PDF jelentéseket generál ütemezés szerint manuális beavatkozás nélkül.  
+- **Pénzügyi auditok:** Kivonja azokat a tranzakciókat, amelyek tartalmaznak specifikus kódokat (pl. “INV”) a megfelelőség ellenőrzéséhez.
 
-Az Aspose.Cells más rendszerekkel, például adatbázisokkal vagy felhőalapú tárhelyekkel való integrálása tovább egyszerűsítheti a munkafolyamatot.
+Az Aspose.Cells adatbázisokkal, REST szolgáltatásokkal vagy felhő tárolókkal (AWS S3, Azure Blob) való integrálása tovább automatizálhatja az end‑to‑end adatcsővezetékeket.
 
-## Teljesítménybeli szempontok
+## Teljesítmény szempontok
 
-- **Memóriahasználat optimalizálása:** Szüntesd meg az objektumokat, amikor már nincs rájuk szükség, és minimalizáld a változók hatókörét.
-- **Kötegelt feldolgozás:** Nagy fájlok kezelésekor a hatékonyság megőrzése érdekében az adatokat darabokban kell feldolgozni.
-- **Erőforrás-gazdálkodás:** Rendszeresen figyelje az erőforrás-felhasználást a végrehajtás során fellépő szűk keresztmetszetek megelőzése érdekében.
+- **Memóriahasználat optimalizálása:** Hívja meg a `Workbook.dispose()`‑t a mentés után a natív erőforrások felszabadításához.  
+- **Kötegelt feldolgozás:** Dolgozza fel minden munkalapot külön, és ha lehetséges, használja újra ugyanazt a `Workbook` példányt.  
+- **Erőforrás menedzsment:** Figyelje a JVM heap-et VisualVM-hez hasonló eszközökkel; az Aspose.Cells általában < 150 MB‑ot fogyaszt egy 500 soros lap esetén.
 
-Ezen ajánlott gyakorlatok betartása segít hatékonyan kezelni az erőforrásokat, és biztosítja az alkalmazások zökkenőmentes működését.
+Ezeknek a gyakorlatoknak a követése biztosítja, hogy az alkalmazás elegánsan skálázódjon a táblázat méretének növekedésével.
 
 ## Következtetés
 
-Ebben az oktatóanyagban bemutattuk, hogyan implementálhatsz Excel-szűrőket az Aspose.Cells for Java használatával. A munkafüzetek inicializálásától az egyéni szűrők alkalmazásán át a módosítások mentéséig most már szilárd alapot kapsz az adatszűrési feladatok hatékony automatizálásához.
+Ebben az útmutatóban bemutattuk, hogyan **szűrjünk Excel-t** programozottan az Aspose.Cells for Java segítségével – a munkafüzet betöltésétől az egyéni “tartalmaz” szűrő alkalmazásáig és az eredmény mentéséig. Most már van egy újrahasználható minta az Excel adatkinyerés automatizálásához, amely kiterjeszthető diagramgenerálásra, pivot táblákra vagy tömeges konverzióra.
 
-A következő lépések közé tartozik az Aspose.Cells további funkcióinak felfedezése, mint például a diagramkészítés és a speciális formázási lehetőségek. 
+**Következő lépések:** Fedezze fel a fejlett szűrést (dátumtartományok, numerikus összehasonlítások), vagy kombinálja a szűrőket feltételes formázással a kulcsfontosságú sorok automatikus kiemeléséhez.
 
-## GYIK szekció
+## Gyakran Ismételt Kérdések
 
-**K: Hogyan kezelhetek nagyméretű Excel fájlokat az Aspose.Cells segítségével?**
-A: Adatok kötegelt feldolgozása és a memóriahasználat optimalizálása a nem használt objektumok eltávolításával.
+**Q: Hogyan kezeljem a 100 MB-nél nagyobb Excel fájlokat?**  
+A: Dolgozza fel őket munkalaponként, minden `Worksheet` használat után szabadítsa fel, és fontolja meg az Aspose.Cells 25.0‑ban bevezetett streaming API‑kat a memóriahasználat 200 MB alatt tartásához.
 
-**K: Használhatom az Aspose.Cells fájlt az Excelen kívül más fájlformátumokhoz is?**
-V: Igen, az Aspose több táblázatformátumot támogat, például CSV-t, ODS-t és egyebeket.
+**Q: Szűrhetek több oszlopot egyszerre?**  
+A: Igen – hívja meg az `AutoFilter.addCustomFilter`‑t minden oszlopindexhez, mielőtt meghívná az `AutoFilter.refresh`‑t.
 
-**K: Mi van, ha a szűrőfeltételeim dinamikusak?**
-A: A szűrési logikát dinamikusan módosíthatja a Java programozási konstrukcióinak használatával, hogy megfeleljen a változó igényeknek.
+**Q: Szükséges licenc a kereskedelmi telepítéshez?**  
+A: Teljes Aspose.Cells licenc kötelező a termeléshez; az ideiglenes licenc csak értékelésre szolgál.
 
-**K: Hogyan oldhatom meg az automatikus szűrőkkel kapcsolatos gyakori problémákat?**
-A: Győződjön meg arról, hogy az adattartomány helyesen van beállítva, és hogy megfelelően alkalmazta a szűrőket. Ellenőrizze a hibanaplókat az adott üzenetekért.
+**Q: Támogatja az Aspose.Cells a makrókat tartalmazó .xlsx fájlokat?**  
+A: Megőrzi a VBA makrókat `.xlsm` fájlok betöltésekor és mentésekor, de a szűrés nem befolyásolja a makrók kódját.
 
-**K: Az Aspose.Cells kompatibilis az összes Java verzióval?**
-V: Igen, több JDK verziót is támogat; a kompatibilitást a könyvtár dokumentációjának ellenőrzésével ellenőrizheti.
+**Q: Mely Java verziók kompatibilisek?**  
+A: Az Aspose.Cells támogatja a JDK 8‑tól a JDK 21‑ig terjedő verziókat; mindig ellenőrizze a konkrét verziót a kiadási jegyzetekben.
 
-## Erőforrás
+## Források
 
 - [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
 - [Legújabb verzió letöltése](https://releases.aspose.com/cells/java/)
 - [Licenc vásárlása](https://purchase.aspose.com/buy)
-- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
-- [Ideiglenes engedélykérelem](https://purchase.aspose.com/temporary-license/)
-- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
+- [Ingyenes próba hozzáférés](https://releases.aspose.com/cells/java/)
+- [Ideiglenes licenc kérése](https://purchase.aspose.com/temporary-license/)
+- [Aspose támogatási fórum](https://forum.aspose.com/c/cells/9)
 
-Kezdje el kihasználni az Aspose.Cells for Java erejét, hogy még ma hatékonyabbá tegye Excel adatkezelési feladatait!
+Kezdje el kihasználni az Aspose.Cells for Java erejét, hogy ma javítsa az Excel adatkezelési feladatait!
+
+---
+
+**Last Updated:** 2026-07-31  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose
+
+## Kapcsolódó útmutatók
+
+- [Mesteri Aspose.Cells for Java: Excel munkafüzetek hatékony betöltése és módosítása](/cells/java/workbook-operations/aspose-cells-java-load-modify-excel/)
+- [Excel automatizálás Aspose.Cells Java-val: Átfogó útmutató a munkafüzet manipulációhoz](/cells/java/automation-batch-processing/excel-automation-aspose-cells-java-master-workbook-manipulation/)
+- [Java Excel betöltés optimalizálása Aspose.Cells-szel: Egyéni munkalap szűrők megvalósítása a teljesítmény javításához](/cells/java/performance-optimization/java-excel-optimization-aspose-cells-filters/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

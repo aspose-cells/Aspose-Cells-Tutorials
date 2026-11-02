@@ -62,6 +62,8 @@
 تعرّف على كيفية ضبط إعدادات المسافة البادئة في Excel باستخدام Aspose.Cells لـ .NET. دليل خطوة بخطوة لتحسين مستندات Excel بسهولة.
 ### [دمج الخلايا وتنسيقها في Excel](./merging-cells-and-formatting/)
 تعرّف على كيفية دمج وتنسيق الخلايا في Excel باستخدام Aspose.Cells لـ .NET في هذا البرنامج التعليمي المُفصّل. بسّط مهام أتمتة Excel لديك.
+### [إنشاء ملف Excel باستخدام C# – تنسيق الخلايا وتعيين تنسيق العملة](./create-excel-file-c-style-cells-and-set-currency-format/)
+تعلم إنشاء ملف Excel في C# وتنسيق الخلايا وتطبيق تنسيق العملة باستخدام Aspose.Cells لـ .NET.
 ### [تخصيص إعدادات الاتجاه للنص في Excel](./customizing-orientation-settings-for-text/)
 تعلم كيفية تخصيص اتجاه النص في Excel باستخدام Aspose.Cells لـ .NET من خلال هذا الدليل خطوة بخطوة.
 ### [تقليص حجم النص ليناسب حجم الخلية في Excel](./shrinking-text-to-fit-cell-size/)
@@ -76,6 +78,9 @@
 تعرّف على كيفية لفّ نص طويل في خلايا Excel باستخدام Aspose.Cells لـ .NET في هذا الدليل السهل. حوّل جداول بياناتك بسهولة.
 ### [إنشاء نمط خلية في C# – كيفية تطبيق النمط على خلية وتوسيط النص](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
 تعلم كيفية إنشاء نمط خلية وتطبيقه على خلية وتوسيط النص باستخدام Aspose.Cells لـ .NET في هذا الدليل خطوة بخطوة.
+### [تطبيق أنماط الخلايا باستخدام Aspose.Cells – استيراد DataTable مع التنسيق](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+تعلم كيفية تطبيق أنماط الخلايا عند استيراد DataTable مع الحفاظ على التنسيق باستخدام Aspose.Cells لـ .NET.
+### [كيفية إنشاء مصنف Excel باستخدام C# وتنسيق مخصص وحفظه كملف XLSX](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

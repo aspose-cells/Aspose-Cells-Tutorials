@@ -38,6 +38,8 @@ Tìm hiểu cách xuất các thuộc tính tùy chỉnh từ Excel sang PDF b�
 Tìm hiểu cách giữ dấu phân cách cho các hàng trống trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước có kèm ví dụ về mã.
 ### [Chỉ tải các trang tính có thể nhìn thấy từ tệp Excel](./load-visible-sheets-only/)
 Tìm hiểu cách chỉ tải các trang tính hiển thị từ tệp Excel bằng Aspose.Cells cho .NET trong hướng dẫn từng bước này.
+### [Tạo tệp Excel bằng cách lập trình trong C# – hướng dẫn](./create-excel-file-programmatically-in-c-tutorial/)
+Hướng dẫn tạo tệp Excel bằng C# một cách tự động với Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

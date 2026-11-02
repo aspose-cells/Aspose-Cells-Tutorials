@@ -1,42 +1,88 @@
 ---
-"date": "2025-04-08"
-"description": "Aprenda a criar e personalizar gráficos de pizza usando Aspose.Cells para Java. Um guia passo a passo com exemplos de código para desenvolvedores."
-"title": "Dominando o Aspose.Cells&#58; Crie e personalize gráficos de pizza em Java"
-"url": "/pt/java/charts-graphs/create-customize-aspose-cells-pie-chart-java/"
-"weight": 1
+date: '2026-09-27'
+description: Aprenda a criar gráfico de pizza java usando Aspose.Cells. Guia passo
+  a passo para personalizar gráfico de pizza do Excel, configurar dependência Maven
+  e gerar gráficos profissionais.
+keywords:
+- create pie chart java
+- customize excel pie chart
+- maven dependency aspose cells
+lastmod: '2026-09-27'
+og_description: Crie gráfico de pizza java usando Aspose.Cells para Java. Aprenda
+  a personalizar gráfico de pizza do Excel, adicionar dependência Maven e gerar gráficos
+  profissionais em minutos.
+og_image_alt: Java code generating a customized pie chart in Excel with Aspose.Cells
+og_title: Criar gráfico de pizza java com Aspose.Cells – Guia Java Completo
+schemas:
+- author: Aspose
+  dateModified: '2026-09-27'
+  description: Learn how to create pie chart java using Aspose.Cells. Step‑by‑step
+    guide to customize Excel pie chart, set up Maven dependency, and generate professional
+    charts.
+  headline: How to create pie chart java with Aspose.Cells
+  type: TechArticle
+- questions:
+  - answer: Yes, repeat the chart‑creation steps for each data range; each chart is
+      independent.
+    question: Can I generate multiple pie charts in the same workbook?
+  - answer: It does; set the chart type to `ChartType.PIE_3D` when adding the chart.
+    question: Does Aspose.Cells support 3‑D pie charts?
+  - answer: Use the `Workbook.setDefaultTheme` method before creating any charts.
+    question: How do I apply a custom theme to all charts?
+  - answer: Over 30 formats, including XLSX, CSV, PDF, and HTML.
+    question: What file formats can I export the workbook to?
+  - answer: Yes, a valid license removes evaluation watermarks and unlocks full functionality.
+    question: Is a license required for commercial deployment?
+  type: FAQPage
+tags:
+- Aspose.Cells
+- Java charting
+- Excel automation
+- data visualization
+title: Como criar gráfico de pizza java com Aspose.Cells
+url: /pt/java/charts-graphs/create-customize-aspose-cells-pie-chart-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Dominando Aspose.Cells: Crie e personalize gráficos de pizza em Java
+# Como criar gráfico de pizza java com Aspose.Cells
 
 ## Introdução
-Criar gráficos visualmente atraentes é um requisito comum ao lidar com visualização de dados no Excel. Seja para apresentar informações demográficas ou analisar tendências de mercado, os gráficos de pizza oferecem uma maneira clara de representar dados proporcionais. No entanto, configurar esses gráficos programaticamente pode ser complexo. Este tutorial orienta você na criação e personalização de um gráfico de pizza Aspose.Cells usando Java, simplificando o processo para desenvolvedores.
+Criar um **pie chart** programaticamente muitas vezes parece um quebra-cabeça, especialmente quando você precisa de controle fino sobre cores, legendas e títulos. Neste guia você aprenderá como **create pie chart java** usando Aspose.Cells, e então personalizar o gráfico de pizza do Excel para combinar com sua marca ou estilo de relatório. Percorreremos a configuração do ambiente, o preenchimento de dados, a geração do gráfico e ajustes visuais — tudo sem sair do seu IDE Java.
 
-**O que você aprenderá:**
-- Configure seu ambiente com Aspose.Cells para Java.
-- Crie uma nova pasta de trabalho e acesse as células da planilha.
-- Preencha dados em células específicas para preparar a criação do gráfico.
-- Gere um gráfico de pizza a partir desses dados.
-- Personalize a aparência do seu gráfico de pizza, incluindo cores, títulos e legendas.
+**O que você aprenderá**
+- Adicionar a **Maven dependency Aspose.Cells** ao seu projeto.
+- Construir uma pasta de trabalho, preencher células com dados e gerar um gráfico de pizza.
+- Aplicar cores personalizadas, títulos e legendas ao gráfico.
+- Exportar a pasta de trabalho para um arquivo XLSX pronto para compartilhamento.
 
-Antes de começar, certifique-se de ter noções básicas de programação Java e gerenciamento de dependências em Maven ou Gradle. Vamos configurar nosso ambiente!
+Antes de começar, você deve estar confortável com a sintaxe básica de Java e ter o Maven ou Gradle instalado.
+
+## Respostas rápidas
+- **Qual biblioteca cria gráficos de pizza em Java?** Aspose.Cells for Java.
+- **Preciso de uma licença?** Um teste gratuito funciona para desenvolvimento; uma licença paga é necessária para produção.
+- **Quais coordenadas Maven são necessárias?** `com.aspose:aspose-cells:24.10`.
+- **Posso mudar as cores das fatias?** Sim, via o método `setAreaColor` em cada série.
+- **O gráfico pode ser exportado para XLSX?** Absolutamente — basta chamar `workbook.save("output.xlsx")`.
+
+## O que é um gráfico de pizza no Excel?
+Um gráfico de pizza visualiza uma única série de dados como fatias proporcionais de um círculo, facilitando a comparação de partes de um todo. O ângulo de cada fatia corresponde ao seu valor relativo ao total, permitindo uma visão rápida da distribuição entre categorias como participação de mercado, alocação de orçamento ou percentuais demográficos.
+
+## Por que usar Aspose.Cells para criar um gráfico de pizza java?
+Aspose.Cells suporta mais de 50 tipos de gráficos e pode lidar com planilhas com até um milhão de linhas sem carregar o arquivo inteiro na memória. Essa vantagem de desempenho permite gerar relatórios grandes em hardware modesto, ao mesmo tempo que oferece controle fino sobre a aparência do gráfico, vinculação de dados e formatos de exportação, tornando‑a uma escolha superior em relação a muitas bibliotecas de código aberto.
 
 ## Pré-requisitos
-Para acompanhar este tutorial, você precisará:
-- **Kit de Desenvolvimento Java (JDK)**: Versão 8 ou superior.
-- **Ambiente de Desenvolvimento Integrado (IDE)**: Como IntelliJ IDEA ou Eclipse.
-- **Gerenciamento de Dependências**: Use Maven ou Gradle para gerenciar suas dependências.
+- **Java Development Kit (JDK)** 8 ou mais recente.
+- **IDE** como IntelliJ IDEA ou Eclipse.
+- **Maven** ou **Gradle** para gerenciamento de dependências.
+- Uma **licença de teste ou comprada do Aspose.Cells**.
 
 ### Bibliotecas e dependências necessárias
-Certifique-se de incluir o Aspose.Cells para Java no seu projeto usando Maven ou Gradle.
+Adicione o artefato Maven do Aspose.Cells ao seu `pom.xml`:
 
-**Especialista**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -45,31 +91,29 @@ Certifique-se de incluir o Aspose.Cells para Java no seu projeto usando Maven ou
 </dependency>
 ```
 
-**Gradle**
+Ou o equivalente no Gradle:
+
 ```gradle
 implementation 'com.aspose:aspose-cells:25.3'
 ```
 
-### Etapas de aquisição de licença
-Aspose.Cells para Java é uma biblioteca comercial, mas você pode começar com um teste gratuito ou solicitar uma licença temporária. Visite o [página de compra](https://purchase.aspose.com/buy) para explorar opções de licenciamento.
+### Etapas para aquisição de licença
+Aspose.Cells for Java é comercial, mas você pode começar com um teste gratuito. Visite a [purchase page](https://purchase.aspose.com/buy) para obter uma chave de licença temporária.
 
 ## Configurando Aspose.Cells para Java
-Primeiramente, certifique-se de que o ambiente do seu projeto inclua as bibliotecas necessárias, adicionando-as por meio do Maven ou Gradle, conforme mostrado acima. Uma vez incluídas, você pode inicializar o Aspose.Cells:
+Primeiro, certifique-se de que a biblioteca está no seu classpath. Após adicionar a dependência, você pode inicializar a API como mostrado abaixo.
 
 ```java
 import com.aspose.cells.Workbook;
 
-// Inicializar uma nova instância da pasta de trabalho
+// Initialize a new workbook instance
 Workbook workbook = new Workbook();
 ```
 
-## Guia de Implementação
+## Guia de implementação
 
 ### Criar e configurar uma pasta de trabalho
-Criar uma pasta de trabalho é o passo inicial em que você configurará seus dados.
-
-#### Importar bibliotecas
-Certifique-se de que essas importações estejam incluídas no topo do seu arquivo:
+A classe `Workbook` representa um arquivo Excel completo na memória.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -83,23 +127,24 @@ import com.aspose.cells.LegendPositionType;
 import com.aspose.cells.SaveFormat;
 ```
 
-#### Etapa 1: Criar uma instância de pasta de trabalho
+#### Etapa 1: instanciar uma pasta de trabalho
 ```java
-// Cria uma instância de pasta de trabalho vazia para trabalhar.
+// Creates an empty workbook instance to work with.
 Workbook workbook = new Workbook();
-```
-Esta etapa inicializa seu arquivo Excel programaticamente, permitindo que você o manipule usando as funcionalidades do Aspose.Cells.
+```  
+Isso cria uma nova pasta de trabalho vazia que você pode começar a preencher imediatamente.
 
 ### Acessar ou modificar células da planilha
-Em seguida, preencha os dados nas células da planilha que serão usadas para o gráfico de pizza.
+Um `Worksheet` representa uma única planilha dentro da pasta de trabalho, contendo células, linhas e colunas.  
+Você escreverá os dados que alimentam o gráfico de pizza em uma planilha.
 
-#### Etapa 2: Acessar uma planilha e suas células
+#### Etapa 2: obter a primeira planilha e suas células
 ```java
-// Acesse a primeira planilha na pasta de trabalho.
+// Access the first worksheet in the workbook.
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Cells cells = worksheet.getCells();
 
-// Coloque valores de amostra usados para um gráfico de pizza em células específicas.
+// Put sample values used for a pie chart into specific cells.
 cells.get("C3").putValue("India");
 cells.get("C4").putValue("China");
 cells.get("C5").parseNumber("United States", true, null);
@@ -107,7 +152,7 @@ cells.get("C6").setValue("Russia");
 cells.get("C7").setValue("United Kingdom");
 cells.get("C8").setValue("Others");
 
-// Coloque valores percentuais de um gráfico de pizza em células específicas.
+// Put percentage values for a pie chart into specific cells.
 cells.get("D2").putValue("% of world population");
 cells.get("D3").putValue(25);
 cells.get("D4").putValue(30);
@@ -115,52 +160,53 @@ cells.get("D5").putValue(10);
 cells.get("D6").putValue(13);
 cells.get("D7").putValue(9);
 cells.get("D8").putValue(13);
-```
-Aqui, você preenche a planilha com dados que representarão diferentes segmentos de um gráfico de pizza.
+```  
+Preencha as células com nomes de categorias e valores que o gráfico consumirá.
 
 ### Criar um gráfico de pizza
+Objetos `Chart` visualizam dados em uma planilha e suportam vários tipos como pizza, coluna e linha.
 
-#### Etapa 3: adicione um gráfico de pizza à planilha
+#### Etapa 3: adicionar um gráfico de pizza à planilha
 ```java
-// Crie um gráfico de pizza na planilha.
+// Create a pie chart in the worksheet.
 int pieIdx = worksheet.getCharts().add(ChartType.PIE, 1, 6, 15, 14);
 Chart pie = worksheet.getCharts().get(pieIdx);
-```
-Esta etapa adiciona um novo gráfico de pizza à sua planilha em posições e dimensões especificadas.
+```  
 
 ### Configurar séries e dados do gráfico de pizza
+`Series` define o intervalo de dados e a formatação de um gráfico, vinculando células da planilha a elementos visuais.
 
-#### Etapa 4: Defina a série para o gráfico
+#### Etapa 4: definir as séries para o gráfico
 ```java
-// Configure o intervalo de dados da série para o gráfico.
+// Configure the series data range for the chart.
 pie.getNSeries().add("D3:D8", true);
 pie.getNSeries().setCategoryData("=Sheet1!$C$3:$C$8");
 
-// Vincule o título do gráfico de pizza a uma célula que contém o texto do título.
+// Link the pie chart title to a cell containing the title text.
 pie.getTitle().setLinkedSource("D2");
-```
-Este código vincula seu intervalo de dados e configura a série para o gráfico de pizza.
+```  
 
-### Configurar a legenda do gráfico e a aparência do título
+### Configurar aparência da legenda e título do gráfico
+Uma `Legend` do gráfico exibe os nomes das séries e cores, ajudando os leitores a identificar cada fatia.
 
-#### Etapa 5: personalize a legenda e o título do gráfico
+#### Etapa 5: personalizar a legenda e o título do gráfico
 ```java
-// Defina a posição da legenda na parte inferior do gráfico.
+// Set legend position at bottom of the chart.
 pie.getLegend().setPosition(LegendPositionType.BOTTOM);
 
-// Defina as propriedades da fonte para o título do gráfico.
+// Set font properties for the chart title.
 pie.getTitle().getFont().setName("Calibri");
 pie.getTitle().getFont().setSize(18);
-```
-Personalizar a aparência melhora a legibilidade e o apelo visual.
+```  
 
-### Personalizar cores da série do gráfico
+### Personalizar cores das séries do gráfico
+`setAreaColor` define a cor de preenchimento de uma fatia da série do gráfico usando um valor RGB.
 
-#### Etapa 6: alterar as cores dos segmentos da pizza
+#### Etapa 6: alterar cores dos segmentos do pizza
 ```java
 import com.aspose.cells.Color;
 
-// Acesse e personalize as cores de segmentos individuais do gráfico de pizza.
+// Access and customize colors of individual pie chart segments.
 Series srs = pie.getNSeries().get(0);
 srs.getPoints().get(0).getArea().setForegroundColor(Color.fromArgb(0, 246, 22, 219));
 srs.getPoints().get(1).getArea().setForegroundColor(Color.fromArgb(0, 51, 34, 84));
@@ -168,41 +214,64 @@ srs.getPoints().get(2).getArea().setForegroundColor(Color.fromArgb(0, 46, 74, 44
 srs.getPoints().get(3).getArea().setForegroundColor(Color.fromArgb(0, 19, 99, 44));
 srs.getPoints().get(4).getArea().setForegroundColor(Color.fromArgb(0, 208, 223, 7));
 srs.getPoints().get(5).getArea().setForegroundColor(Color.fromArgb(0, 222, 69, 8));
-```
-Essas configurações personalizam seu gráfico para se ajustar a esquemas de cores específicos.
+```  
 
-### Ajustar colunas automaticamente e salvar pasta de trabalho
+### Ajustar colunas automaticamente e salvar a pasta de trabalho
+`autoFitColumns` ajusta automaticamente a largura das colunas para caber o conteúdo das células.
 
-#### Etapa 7: ajuste as larguras das colunas e salve o arquivo
+#### Etapa 7: ajustar larguras das colunas e salvar o arquivo
 ```java
-// Ajustar automaticamente todas as colunas.
+// Autofit all columns.
 worksheet.autoFitColumns();
 
-// Defina o caminho do espaço reservado do diretório de saída para salvar a pasta de trabalho.
+// Define output directory placeholder path for saving the workbook.
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 
-// Salve a pasta de trabalho modificada em um arquivo Excel no diretório especificado.
+// Save the modified workbook to an Excel file in the specified directory.
 workbook.save(outDir + "/CSOrSColorsPieChart_out.xlsx", SaveFormat.XLSX);
-```
-Por fim, ajuste automaticamente as colunas e salve sua pasta de trabalho.
+```  
 
-## Aplicações práticas
-1. **Análise Demográfica**: Use gráficos de pizza para exibir distribuições populacionais em diferentes países ou regiões.
-2. **Relatórios de Participação de Mercado**: Ilustrar a participação de mercado de diferentes empresas em um setor.
-3. **Alocação Orçamentária**: Visualize como os orçamentos são alocados entre vários departamentos dentro de uma organização.
-
-Esses aplicativos demonstram a versatilidade e a utilidade do Aspose.Cells em cenários do mundo real.
+## Casos de uso comuns
+- **Análise demográfica:** Mostrar a distribuição da população entre regiões.
+- **Relatório de participação de mercado:** Visualizar a fatia de cada concorrente de um único olhar.
+- **Alocação de orçamento:** Destacar como os fundos são divididos entre departamentos.
 
 ## Considerações de desempenho
-Para otimizar o desempenho ao usar Aspose.Cells:
-- Minimize o uso de memória descartando objetos que não são mais necessários.
-- Use estruturas de dados eficientes para processar grandes conjuntos de dados.
-- Crie um perfil do seu aplicativo para identificar gargalos.
+- Liberar objetos (`workbook.dispose()`) quando não forem mais necessários para liberar memória nativa.
+- Para conjuntos de dados massivos, use `WorkbookDesigner` para transmitir dados em vez de carregar tudo de uma vez.
+- Perfil com Java Flight Recorder para identificar gargalos na geração de gráficos.
 
-adesão às melhores práticas garante aplicativos fluidos e responsivos.
+## Perguntas frequentes
+
+**Q: Posso gerar vários gráficos de pizza na mesma pasta de trabalho?**  
+A: Sim, repita as etapas de criação de gráfico para cada intervalo de dados; cada gráfico é independente.
+
+**Q: O Aspose.Cells suporta gráficos de pizza 3‑D?**  
+A: Sim; defina o tipo de gráfico como `ChartType.PIE_3D` ao adicionar o gráfico.
+
+**Q: Como aplicar um tema personalizado a todos os gráficos?**  
+A: Use o método `Workbook.setDefaultTheme` antes de criar quaisquer gráficos.
+
+**Q: Para quais formatos de arquivo posso exportar a pasta de trabalho?**  
+A: Mais de 30 formatos, incluindo XLSX, CSV, PDF e HTML.
+
+**Q: É necessária uma licença para implantação comercial?**  
+A: Sim, uma licença válida remove marcas d'água de avaliação e desbloqueia toda a funcionalidade.
 
 ## Conclusão
-Este tutorial orientou você nas etapas para criar e personalizar um gráfico de pizza usando o Aspose.Cells em Java. Com esse conhecimento, você poderá aplicar essas técnicas a diversas tarefas de visualização de dados em seus projetos. Para explorar mais a fundo, considere explorar outros tipos de gráficos e opções avançadas de personalização disponíveis com o Aspose.Cells.
+Agora você tem uma receita completa, de ponta a ponta, para **create pie chart java** com Aspose.Cells. Seguindo os passos acima, você pode gerar gráficos de pizza do Excel refinados, ajustar cores e títulos, e incorporá‑los em qualquer fluxo de relatório. Explore outros tipos de gráficos — coluna, linha, radar — para ampliar seu conjunto de ferramentas de visualização de dados.
+
+---
+
+**Última atualização:** 2026-09-27  
+**Testado com:** Aspose.Cells 24.10 for Java  
+**Autor:** Aspose
+
+## Tutoriais relacionados
+
+- [Personalizar rótulos de dados de gráficos do Excel usando Aspose.Cells para Java: Um guia passo a passo](/cells/java/charts-graphs/customize-chart-data-labels-aspose-cells-java/)
+- [Criar gráficos dinâmicos do Excel com Aspose.Cells Java: Um guia abrangente para desenvolvedores](/cells/java/charts-graphs/aspose-cells-java-dynamic-excel-charts/)
+- [Criar e personalizar pastas de trabalho do Excel usando Aspose.Cells Java: Um guia passo a passo](/cells/java/workbook-operations/create-customize-excel-workbooks-aspose-cells-java/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

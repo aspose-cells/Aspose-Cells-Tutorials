@@ -131,7 +131,7 @@ Aspose.Words Java için bir kod eğitimi
 ### [Aspose.Cells Java Kullanarak Excel'de Arka Plan Resmi Ayarlama (Adım Adım Kılavuz)](./set-background-picture-excel-aspose-cells-java/)
 Aspose.Cells Java ile arka plan görüntüleri ekleyerek Excel raporlarınızı nasıl geliştireceğinizi öğrenin. Sorunsuz uygulama için bu adım adım kılavuzu izleyin.
 
-
+### [Java ile Aspose.Cells kullanarak aralıktan PNG oluşturma](./how-to-create-png-from-range-in-java-with-aspose-cells/)
 
 ## Ek Kaynaklar
 

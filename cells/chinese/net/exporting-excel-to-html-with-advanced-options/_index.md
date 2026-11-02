@@ -71,7 +71,7 @@ HTML 导出过程中，一个经常被忽视的方面是自闭合标签的管理
 通过本简单的分步指南了解如何使用 Aspose.Cells for .NET 以编程方式在 Excel 中导出类似的边框样式。
 ### [在输出 HTML 中单独导出工作表 CSS](./exporting-worksheet-css-separately/)
 在本全面的分步教程中，了解如何使用 Aspose.Cells for .NET 将 Excel 工作表有效地导出为带有单独 CSS 的 HTML。
-### [以编程方式从 Excel 单元格获取 HTML5 字符串](./getting-html5-string-from-cell/)
+### [在 Excel 中以编程方式获取 HTML5 字符串](./getting-html5-string-from-cell/)
 通过本详细的分步指南，了解如何使用 Aspose.Cells for .NET 以编程方式从 Excel 单元格中检索 HTML5 字符串。
 ### [保存为 HTML 时使用“隐藏右侧十字”功能隐藏叠加内容](./hiding-overlaid-content-with-cross-hide-right/)
 在本综合指南中了解如何使用 Aspose.Cells for .NET 将 Excel 保存为 HTML 时隐藏覆盖内容。
@@ -79,6 +79,10 @@ HTML 导出过程中，一个经常被忽视的方面是自闭合标签的管理
 了解如何使用 Aspose.Cells for .NET 在 HTML 中为表格样式添加前缀，并通过分步示例增强您的 Excel 导出功能。
 ### [在 HTML 中嵌入字体 – 使用 C# 将 Excel 转换为 HTML](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
 通过本分步指南，了解如何使用 Aspose.Cells for .NET 在将 Excel 导出为 HTML 时嵌入自定义字体。
+### [在导出 Excel 为 HTML 时嵌入字体 – 完整 C# 指南](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c/)
+通过本完整的分步指南，了解如何在使用 Aspose.Cells for .NET 将 Excel 导出为 HTML 时嵌入字体。
+### [在保存工作簿为 HTML 时嵌入字体](./how-to-embed-fonts-in-html-when-saving-a-workbook/)
+了解如何使用 Aspose.Cells for .NET 在将工作簿保存为 HTML 时嵌入自定义字体，以确保页面显示一致。
 ### [在 Excel 中以编程方式打印标题](./printing-headings/)
 使用 Aspose.Cells for .NET，按照分步指南轻松在 Excel 中打印标题。将您的数据整齐地导出为 HTML，让您的受众印象深刻。
 ### [在 Excel 中以编程方式识别自闭合标签](./recognizing-self-closing-tags/)
@@ -87,6 +91,82 @@ HTML 导出过程中，一个经常被忽视的方面是自闭合标签的管理
 学习如何使用 Aspose.Cells for .NET 以编程方式设置 Excel 文件中可缩放的列宽。非常适合高效的数据呈现。
 ### [在 C# 中导出 Excel 为 HTML – 保留冻结窗格](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
 本教程展示如何使用 Aspose.Cells for .NET 在导出为 HTML 时保留 Excel 冻结窗格，保持页面布局一致。
+### [在导出 Excel 为 HTML 时保留冻结窗格](./how-to-export-excel-to-html-while-preserving-frozen-panes/)
+了解如何使用 Aspose.Cells for .NET 在导出为 HTML 时保留 Excel 的冻结窗格，确保页面布局一致。
+### [在 HTML 中嵌入字体 – 使用 C# 将 Excel 导出为 HTML](./embed-fonts-in-html-export-excel-to-html-with-c/)
+通过本指南了解如何使用 Aspose.Cells for .NET 在导出为 HTML 时嵌入自定义字体，确保页面显示一致。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-in-c-complete-guide/)
+通过本完整指南，学习使用 Aspose.Cells for .NET 在 C# 中将 Excel 文件导出为高质量的 HTML 页面。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+通过本完整指南，了解如何使用 Aspose.Cells for .NET 将 Excel 文件全面转换为 HTML，涵盖所有关键步骤和最佳实践。
+### [如何在 C# 中将 xlsx 导出为带冻结窗格的 HTML](./how-to-export-xlsx-to-html-with-frozen-panes-in-c/)
+本教程演示如何使用 Aspose.Cells for .NET 在 C# 中将 xlsx 文件导出为带冻结窗格的 HTML，确保页面布局保持原样。
 ### [在 HTML 导出中设置单个工作表选项卡名称](./setting-single-sheet-tab-name/)
 使用 Aspose.Cells for .NET 在 HTML 导出过程中轻松设置单个工作表选项卡名称。包含包含代码示例的分步指南。
 ### [如何在 HTML 中嵌入字体 – 完整 C# 指南](./how-to-embed-fonts-in-html-complete-c-guide/)
@@ -101,6 +181,10 @@ HTML 导出过程中，一个经常被忽视的方面是自闭合标签的管理
 通过本详细的分步指南了解如何使用 Aspose.Cells for .NET 将 Excel 导出为 HTML。
 ### [将 Excel 保存为 HTML 并冻结窗格 – 完整 C# 指南](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
 通过本完整的 C# 示例，学习如何使用 Aspose.Cells for .NET 将 Excel 导出为 HTML 并保留冻结窗格，实现更好的页面布局。
+### [将 Excel 保存为 HTML – 完整指南：导出带格式的 Excel](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
+通过本详细的分步指南了解如何使用 Aspose.Cells for .NET 将 Excel 保存为 HTML，并保留原始格式。
+### [将 Excel 导出为 HTML – 完整指南：保留冻结窗格](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
+本指南详细演示如何使用 Aspose.Cells for .NET 在导出为 HTML 时保留 Excel 的冻结窗格，实现页面滚动时保持标题行或列固定。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -131,7 +131,7 @@ Hướng dẫn mã cho Aspose.Words Java
 ### [Đặt Ảnh Nền trong Excel Sử dụng Aspose.Cells Java (Hướng dẫn từng bước)](./set-background-picture-excel-aspose-cells-java/)
 Tìm hiểu cách cải thiện báo cáo Excel của bạn bằng cách thêm hình nền với Aspose.Cells Java. Làm theo hướng dẫn từng bước này để triển khai liền mạch.
 
-
+### [Cách tạo PNG từ phạm vi trong Java với Aspose.Cells](./how-to-create-png-from-range-in-java-with-aspose-cells/)
 
 ## Tài nguyên bổ sung
 

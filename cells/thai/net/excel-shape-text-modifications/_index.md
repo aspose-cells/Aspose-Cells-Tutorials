@@ -70,6 +70,8 @@
 เรียนรู้วิธีการรีเฟรชวัตถุ OLE ใน Excel โดยใช้ Aspose.Cells สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนเพื่อเสริมทักษะการทำงานอัตโนมัติของ Excel ของคุณได้อย่างราบรื่น
 ### [ทำให้ข้อความใน TextBox เป็นตัวหนาใน Excel ด้วย C# – คู่มือทีละขั้นตอน](./make-textbox-text-bold-in-excel-with-c-step-by-step-guide/)
 เรียนรู้วิธีทำให้ข้อความในกล่องข้อความของ Excel เป็นตัวหนาโดยใช้ Aspose.Cells สำหรับ .NET กับ C# ผ่านขั้นตอนง่ายๆ
+### [เปลี่ยนขนาดฟอนต์ของกล่องข้อความใน Excel ด้วย C# – คู่มือฉบับสมบูรณ์](./change-textbox-font-size-in-excel-with-c-complete-guide/)
+เรียนรู้วิธีเปลี่ยนขนาดฟอนต์ของกล่องข้อความใน Excel ด้วย Aspose.Cells สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนและตัวอย่างโค้ด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

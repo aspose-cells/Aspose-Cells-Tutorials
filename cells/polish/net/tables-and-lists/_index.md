@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabele i listy
@@ -55,23 +53,28 @@ Dowiedz się, jak ustawiać komentarze dla tabel w programie Excel za pomocą As
 Dowiedz się, jak w C# utworzyć tabelę Excel przy użyciu Aspose.Cells, krok po kroku, z praktycznymi przykładami.
 ### [Utwórz tabelę z zakresu w C# – Kompletny samouczek Aspose.Cells](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
 Dowiedz się, jak utworzyć tabelę z zakresu w C# przy użyciu Aspose.Cells dla .NET, krok po kroku.
+### [Jak zmienić nazwę tabeli w C# – pełny przewodnik](./how-to-rename-table-in-c-full-guide/)
+Dowiedz się, jak zmienić nazwę tabeli w programie Excel przy użyciu Aspose.Cells dla .NET w języku C# w tym szczegółowym przewodniku krok po kroku.
+### [Usuwanie wierszy w tabeli Word – kompletny przewodnik C#](./delete-rows-word-table-complete-c-guide/)
+Naucz się usuwać wiersze w tabeli Word przy użyciu Aspose.Words dla .NET w języku C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Usuwanie nagłówka tabeli w Aspose.Cells – kompletny przewodnik](./remove-table-header-in-aspose-cells-complete-guide/)
 Dowiedz się, jak usunąć nagłówek tabeli w Excelu przy użyciu Aspose.Cells w kilku prostych krokach.
 ### [Jak zmienić nazwę tabeli w Excelu przy użyciu C# – przewodnik krok po kroku](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
 Dowiedz się, jak zmienić nazwę tabeli w Excelu przy użyciu Aspose.Cells dla .NET w prostym przewodniku krok po kroku.
+### [Usuwanie wielu wierszy w programie Word – Kompletny przewodnik usuwania wierszy tabeli](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
+Dowiedz się, jak usunąć wiele wierszy z tabeli w dokumencie Word przy użyciu Aspose.Words dla .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

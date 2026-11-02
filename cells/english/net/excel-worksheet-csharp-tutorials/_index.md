@@ -38,6 +38,8 @@ Accessing specific worksheets by name or index can sometimes feel like searching
 | [Delete Excel Worksheet By Index C# Tutorial](./delete-excel-worksheet-by-index-csharp-tutorial/) | Learn how to delete an Excel worksheet by index in C# using Aspose.Cells. Follow this easy step-by-step tutorial to simplify your workbook management. |  
 | [Delete Excel Worksheet By Name C# Tutorial](./delete-excel-worksheet-by-name-csharp-tutorial/) | Learn how to delete Excel worksheets by name using C#. This beginner-friendly tutorial guides you step-by-step with Aspose.Cells for .NET. |  
 | [Get Excel Worksheet By Name C# Tutorial](./get-excel-worksheet-by-name-csharp-tutorial/) | Access Excel worksheets by name in C# with step-by-step guidance, using Aspose.Cells for .NET for better code efficiency. |  
+| [Create New Worksheet in C# – Complete Guide to Dynamic Array Formulas](./create-new-worksheet-in-c-complete-guide-to-dynamic-array-fo/) | Learn how to create a new worksheet and use dynamic array formulas in C# with Aspose.Cells, step-by-step guide. |
+| [Create worksheets from list – C# Excel template guide](./create-worksheets-from-list-c-excel-template-guide/) | Learn how to create multiple worksheets from a list using an Excel template in C# with Aspose.Cells. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

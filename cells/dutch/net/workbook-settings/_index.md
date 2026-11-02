@@ -52,6 +52,8 @@ Ontdek hoe u een celformule implementeert die vergelijkbaar is met de lokale fun
 Ontdek hoe u formules voor benoemde bereiken in de Duitse taalinstelling kunt verwerken met Aspose.Cells voor .NET. Leer hoe u Excel-bestanden programmatisch kunt maken, bewerken en opslaan.
 ### [Maak Japans werkboek in C# – Complete stapsgewijze handleiding](./create-japanese-workbook-in-c-complete-step-by-step-guide/)
 Leer hoe u een Japans werkboek maakt in C# met Aspose.Cells voor .NET via een volledige stap‑voor‑stap handleiding.
+### [Japanse jaartelling parsing inschakelen in C# met Aspose.Cells](./enable-japanese-era-parsing-in-c-with-aspose-cells/)
+Leer hoe u Japanse jaartelling kunt parseren in C# met Aspose.Cells, zodat datumwaarden correct worden geïnterpreteerd.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

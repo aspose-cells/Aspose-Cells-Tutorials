@@ -33,6 +33,8 @@
 
 ### [建立 Excel 工作簿 C# – 逐步指南與條件格式](./create-excel-workbook-c-step-by-step-guide-with-conditional/)
 本指南說明如何使用 C# 及 Aspose.Cells 建立 Excel 工作簿，並套用條件格式以強化資料呈現。
+### [在 Excel 中使用 Aspose.Cells 建立條件格式 – 步驟指南](./create-conditional-formatting-in-excel-with-aspose-cells-ste/)
+本指南逐步說明如何使用 Aspose.Cells 在 Excel 中建立條件格式，無需開啟 Excel。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
