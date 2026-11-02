@@ -90,6 +90,8 @@
 ### [نسخ نطاق بين دفاتر العمل في Java – دليل خطوة بخطوة](./copy-range-between-workbooks-in-java-step-by-step-guide/)
 ### [إنشاء ورقة عمل جديدة ونسخ نطاق Excel باستخدام Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
 تعلم كيفية إنشاء ورقة عمل جديدة ونسخ نطاق من خلايا Excel باستخدام مكتبة Aspose.Cells في Java.
+### [كيفية نسخ النطاق في Java باستخدام Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
+تعرّف على كيفية نسخ نطاق من الخلايا في Excel باستخدام Aspose.Cells لجافا خطوة بخطوة.
 
 ## موارد إضافية
 

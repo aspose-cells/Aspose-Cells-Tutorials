@@ -36,6 +36,8 @@ Bu yöntem, hedeflenen veri yönetimi için idealdir ve Excel görevlerinizde ha
 Aspose.Cells for .NET'i kullanarak kolay kılavuzumuzla adlandırılmış aralıklara erişerek Excel'in gücünü açığa çıkarın. Veri yönetimi için mükemmeldir.
 ### [Excel'de Belirli Adlandırılmış Aralığa Erişim](./access-specific-named-range/)
 Bu kapsamlı, adım adım eğitim ve örnek kod ile Aspose.Cells for .NET'i kullanarak Excel'de belirli adlandırılmış aralıklara nasıl erişeceğinizi öğrenin.
+### [C# ile Excel'de adlandırılmış aralık tanımlama – çalışma kitabı oluşturma](./define-named-range-in-excel-with-c-create-workbook/)
+Aspose.Cells for .NET kullanarak C# ile yeni bir çalışma kitabı oluşturup adlandırılmış aralık tanımlamayı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

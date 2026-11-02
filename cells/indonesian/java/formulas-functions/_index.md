@@ -87,6 +87,7 @@ Pelajari cara mengekstrak teks rumus dari sel Excel menggunakan Aspose.Cells den
 ### [Cara Menggunakan SEQUENCE di Buku Kerja Excel Java – Panduan Langkah demi Langkah](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
 ### [Cara Menggunakan WRAPCOLS di Java – Contoh Lengkap Excel WRAPCOLS](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
 ### [Cara Menghitung Kotangen di Excel – Panduan Lengkap](./how-to-calculate-cotangent-in-excel-complete-guide/)
+### [Gunakan fungsi expand di Aspose.Cells Java – panduan langkah demi langkah](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
 
 ### [Mengurutkan Nilai Unik di Excel – Panduan Lengkap Java untuk Menetapkan Rumus Array](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 ### [Cara menggunakan Aspose di Java – membuat buku kerja Excel dengan fungsi baru](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)

@@ -52,6 +52,8 @@ Scopri come automatizzare la copia delle colonne in Excel con Aspose.Cells per J
 
 ### [Copia programmatica di un intervallo di foglio di lavoro – Guida completa Java](./programmatically-copy-worksheet-range-complete-java-guide/)
 Scopri come copiare programmaticamente un intervallo di foglio di lavoro in Excel usando Aspose.Cells per Java, con esempi di codice completi.
+### [Come copiare un intervallo in Java con Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
+Scopri come copiare intervalli di celle in Excel usando Aspose.Cells per Java con esempi di codice pratici.
 
 ### [Come copiare più colonne in Excel utilizzando Aspose.Cells Java: una guida completa](./copy-multiple-columns-excel-aspose-cells-java/)
 Scopri come automatizzare la copia di più colonne in un foglio di lavoro Excel utilizzando Aspose.Cells per Java. Questa guida illustra la configurazione, l'implementazione e la risoluzione dei problemi.

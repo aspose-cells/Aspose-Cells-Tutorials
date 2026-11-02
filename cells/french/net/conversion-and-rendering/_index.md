@@ -86,6 +86,8 @@ Apprenez à extraire et enregistrer une image PNG d'un tableau croisé dynamique
 Apprenez à intégrer des polices lors de la conversion de documents DOCX en HTML avec Aspose.Words, garantissant un rendu fidèle.
 ### [Comment intégrer des polices dans HTML à partir d’un DOCX – Guide complet](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
 Apprenez à intégrer des polices dans vos pages HTML à partir de documents DOCX avec Aspose.Words, étape par étape.
+### [Comment convertir JSON en Excel en C# avec une seule cellule séparée par des virgules](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Apprenez à transformer des données JSON en classeur Excel en C# en utilisant une seule cellule contenant des valeurs séparées par des virgules.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

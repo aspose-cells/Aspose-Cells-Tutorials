@@ -68,6 +68,9 @@ Apprenez à créer un classeur Excel en Java et à calculer toutes les formules,
 ### [Comment actualiser les classeurs Excel en Java avec Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
 Apprenez à rafraîchir les classeurs Excel en Java pour refléter les dernières modifications avec Aspose.Cells.
 
+### [Comment forcer le calcul des formules en Java avec Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+Apprenez à forcer le recalcul des formules dans les classeurs Excel avec Aspose.Cells for Java.
+
 ## Ressources supplémentaires
 - [Documentation Aspose.Cells for Java](https://docs.aspose.com/cells/java/)
 - [Référence API Aspose.Cells for Java](https://reference.aspose.com/cells/java/)

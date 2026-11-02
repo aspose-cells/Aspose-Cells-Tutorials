@@ -88,6 +88,7 @@ Aspose.Cells में Nested Range विकल्प को सक्षम �
 ### [स्मार्ट मार्करों के साथ चर सरणी को लागू करें Aspose.Cells](./variable-array-smart-markers/)
 Aspose.Cells की शक्ति को अनलॉक करें। सहज Excel रिपोर्ट निर्माण के लिए स्मार्ट मार्कर के साथ चरण-दर-चरण परिवर्तनीय सरणियों को लागू करना सीखें।
 ### [C# में Excel वर्कबुक बनाएं – सेल में एरे डालने की पूरी गाइड](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
+### [Aspose.Cells स्मार्ट मार्कर के साथ JSON से Excel बनाएं](./create-excel-from-json-with-aspose-cells-smart-marker/)
 
 ### [स्मार्ट मार्कर डेटा बनाकर एक्सेल टेम्प्लेट डेटा भरना कैसे करें](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
 
@@ -114,9 +115,8 @@ Aspose.Cells स्मार्ट मार्कर का उपयोग क
 
 ### [SmartMarker के साथ JSON में वेरिएबल्स को बदलना – पूर्ण गाइड](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 SmartMarker का उपयोग करके JSON में वेरिएबल्स को कैसे प्रतिस्थापित करें, इस विस्तृत गाइड में चरण-दर-चरण सीखें।
-
 ### [Aspose.Cells में स्मार्ट मार्कर के साथ गतिशील वर्कशीट बनाएं](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
-Aspose.Cells के स्मार्ट मार्कर का उपयोग करके कई वर्कशीट को गतिशील रूप से जनरेट और डेटा से भरना सीखें।
+### [स्मार्ट मार्कर्स का उपयोग करके प्रोग्रामेटिक रूप से Excel वर्कबुक बनाएं](./create-excel-workbook-programmatically-using-smart-markers/)
 ### [स्मार्ट मार्कर्स के साथ टेम्प्लेट लिखने का चरण‑दर‑चरण गाइड](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 ### [C# में एक्सेल रिपोर्ट कैसे जनरेट करें – स्मार्टमार्कर का पूर्ण गाइड](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 ### [C# में JSON एरे के लिए SmartMarkerOptions ArrayAsSingle कॉन्फ़िगर करें](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
@@ -156,7 +156,6 @@ Aspose.Cells for .NET का उपयोग करके C# में डिस
 C# में नेस्टेड JSON को पार्स करके JSON पेलोड बनाने की प्रक्रिया सीखें।
 
 ### [स्मार्ट मार्कर के साथ वर्कबुक बनाना – आउटपुट हाई लो](./how-to-create-workbook-with-smart-markers-output-high-low/)
-
 ### [Aspose.Cells स्मार्ट मार्कर के साथ एक्सेल रिपोर्ट सूची कैसे बनाएं](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
 Aspose.Cells स्मार्ट मार्कर का उपयोग करके एक्सेल रिपोर्ट सूची बनाने की चरण‑दर‑चरण प्रक्रिया सीखें।
 

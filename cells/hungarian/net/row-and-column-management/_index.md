@@ -72,6 +72,8 @@ Ismerje meg, hogyan lehet egy teljes sort eltávolítani egy Excel-fájlban C# �
 Tanulja meg, hogyan törölhet sorokat és eltávolíthat konkrét sorokat egy Excel-fájl betöltése után C#-ban az Aspose.Cells segítségével.
 ### [Hogyan töröljünk sorokat Excelben C#-al – a táblázatfejléc védelme](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
 Ismerje meg, hogyan törölhet sorokat Excelben C#-ban úgy, hogy a táblázatfejléc védve marad, részletes lépésekkel.
+### [Sorok törlése Excel táblázatból – teljes C# útmutató](./delete-rows-from-excel-table-complete-c-guide/)
+Ismerje meg, hogyan törölhet sorokat egy Excel táblázatból C#-ban az Aspose.Cells for .NET segítségével, lépésről lépésre útmutató.
 ### [Több sor törlése az Aspose.Cells .NET-ben](./delete-multiple-rows-aspose-cells/)
 Tanuld meg, hogyan törölhetsz több sort Excelben az Aspose.Cells for .NET segítségével. Ez a részletes, lépésről lépésre haladó útmutató tartalmazza az előfeltételeket, a kódolási példákat és a fejlesztőknek szóló GYIK-et.
 ### [Aspose Cells sorok törlése – Fejléc sor védelme Excelben](./aspose-cells-delete-rows-protect-header-row-in-excel/)

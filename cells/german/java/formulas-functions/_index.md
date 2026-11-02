@@ -95,6 +95,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java den Kotangens in Excel berechne
 Erfahren Sie, wie Sie in Excel eindeutige Werte sortieren und mithilfe von Array-Formeln in Java implementieren.
 ### [Wie man Aspose in Java verwendet – Excel-Arbeitsmappe mit neuen Funktionen erstellen](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java eine neue Excel-Arbeitsmappe erstellen und benutzerdefinierte Funktionen hinzufügen.
+### [Verwenden Sie die Expand-Funktion in Aspose.Cells Java – Schritt‑für‑Schritt‑Anleitung](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
+Erfahren Sie, wie Sie die Expand-Funktion in Aspose.Cells für Java einsetzen, um Daten dynamisch zu erweitern und Berechnungen zu optimieren.
 
 ## Weitere Ressourcen
 

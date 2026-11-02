@@ -80,6 +80,9 @@ Erfahren Sie, wie Sie mit Aspose.Words DOCX-Dateien nach HTML konvertieren und d
 ### [Wie man Schriftarten in HTML aus einer DOCX einbetten – Komplettanleitung](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Words Schriftarten aus einer DOCX in HTML einbetten, um konsistente Darstellung sicherzustellen.
 
+### [Wie man JSON in Excel in C# mit einer einzigen kommagetrennten Zelle konvertiert](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Erfahren Sie, wie Sie JSON-Daten mit Aspose.Cells in Excel umwandeln, wobei jede Zeile in einer einzigen kommagetrennten Zelle gespeichert wird.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

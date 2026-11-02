@@ -46,6 +46,8 @@
 تعلم أتمتة مصنفات Excel بلغة جافا باستخدام Aspose.Cells: أنشئ ملفات Excel، واقرأها، وحدّثها برمجيًا. ابدأ الآن!
 ### [أتمتة مخططات Excel](./automating-excel-charts/)
 اكتشف كيفية أتمتة إنشاء وتخصيص مخططات Excel باستخدام Aspose.Cells لـ Java مع أمثلة من الكود المصدري. بسّط مهامك في إنشاء المخططات. 
+### [توسيع المصفوفة في Excel باستخدام Java – دليل خطوة بخطوة](./expand-array-in-excel-with-java-step-by-step-guide/)
+تعلم كيفية توسيع المصفوفات في ملفات Excel باستخدام Aspose.Cells لجافا مع أمثلة شيفرة مفصلة.
 ### [أتمتة Excel باستخدام Java](./excel-automation-with-java/)
 تعرف على كيفية أتمتة مهام Excel في Java باستخدام أمثلة التعليمات البرمجية المصدرية باستخدام Aspose.Cells، وهي مكتبة قوية للتعامل مع Excel.
 ### [تكامل البيانات في Excel](./data-integration-in-excel/)
@@ -65,6 +67,12 @@
 تعلّم كيفية إزالة الفلتر التلقائي من ملفات Excel باستخدام Aspose.Cells لجافا مع أمثلة شيفرة المصدر.
 ### [إنشاء مصنف جديد باستخدام Aspose – إضافة خاصية مخصصة إلى Excel وحفظه كملف XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
 تعلم كيفية إنشاء مصنف Excel جديد وإضافة خاصية مخصصة ثم حفظه بصيغة XLSB باستخدام Aspose.Cells لجافا.
+### [كيفية حذف رأس الجدول في Excel باستخدام Java – دليل كامل](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+تعلم كيفية حذف رأس الجدول في ملفات Excel باستخدام Aspose.Cells لجافا مع أمثلة شيفرة مفصلة.
+### [إزالة الفلتر التلقائي من Excel باستخدام Java – دليل شامل](./remove-autofilter-from-excel-with-java-complete-guide/)
+تعلم كيفية إزالة الفلتر التلقائي من ملفات Excel باستخدام Aspose.Cells لجافا خطوة بخطوة.
+### [كيفية استخدام Aspose.Cells: إضافة خاصية مخصصة وحفظ بصيغة XLSB](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+تعرّف على طريقة إضافة خاصية مخصصة إلى ملف Excel وحفظه بصيغة XLSB باستخدام Aspose.Cells لجافا.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

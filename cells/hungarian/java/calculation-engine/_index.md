@@ -68,6 +68,9 @@ Ismerje meg, hogyan hozhat létre Excel munkafüzetet Java-val, és számíthatj
 ### [Hogyan frissítsük az Excel munkafüzeteket Java-ban az Aspose.Cells használatával](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
 Tanuld meg, hogyan frissítheted a munkafüzeteket az Aspose.Cells for Java segítségével a legújabb adatok betöltéséhez.
 
+### [Hogyan kényszerítsük a képlet számítását Java-ban az Aspose.Cells használatával](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+Tanuld meg, hogyan kényszerítheted a képlet számítását Java-ban az Aspose.Cells segítségével.
+
 ## További források
 - [Aspose.Cells for Java dokumentáció](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells for Java API referencia](https://reference.aspose.com/cells/java/)

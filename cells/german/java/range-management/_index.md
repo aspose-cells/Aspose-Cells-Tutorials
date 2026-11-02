@@ -93,6 +93,8 @@ Erfahren Sie, wie Sie Datenbereiche in Excel mit Aspose.Cells für Java effizien
 Erfahren Sie, wie Sie Zellen in Excel-Dateien mit Aspose.Cells für Java effizient trennen. Diese Anleitung behandelt die Einrichtung, Erkennung und Trennung verbundener Zellen mit Codebeispielen.
 
 ### [Neues Arbeitsblatt erstellen und Excel-Bereich mit Aspose.Cells kopieren](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+### [Wie Sie einen Bereich in Java mit Aspose.Cells kopieren](./how-to-copy-range-in-java-with-aspose-cells/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Zellbereiche effizient kopieren und in Excel-Tabellen einfügen.
 
 ## Weitere Ressourcen
 

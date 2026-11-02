@@ -60,6 +60,8 @@ Learn how to create an Excel workbook and parse Japanese dates in C# using Aspos
 
 
 
+### [Parse DateTime with Japanese Emperor Reign using Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Learn how to parse DateTime values using Japanese Emperor reign formats in Excel with Aspose.Cells for .NET.
 
 
 

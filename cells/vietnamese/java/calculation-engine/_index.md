@@ -66,6 +66,9 @@ Hướng dẫn tạo workbook Excel trong Java và tính toán toàn bộ công 
 ### [Cách làm mới workbook Excel trong Java bằng Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
 Hướng dẫn cách làm mới dữ liệu workbook Excel trong Java với Aspose.Cells
 
+### [Cách buộc tính toán công thức trong Java với Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+Hướng dẫn buộc tính toán lại công thức trong workbook bằng Aspose.Cells cho Java.
+
 ## Tài nguyên bổ sung
 - [Tài liệu Aspose.Cells cho Java](https://docs.aspose.com/cells/java/)
 - [Tham chiếu API Aspose.Cells cho Java](https://reference.aspose.com/cells/java/)

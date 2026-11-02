@@ -55,6 +55,8 @@ Aprenda a automatizar la copia de varias columnas en una hoja de cálculo de Exc
 
 ### [Copiar rango de hoja de cálculo programáticamente – Guía completa de Java](./programmatically-copy-worksheet-range-complete-java-guide/)
 Aprenda a copiar rangos de hojas de cálculo de forma programática usando Aspose.Cells para Java.
+### [Cómo copiar un rango en Java con Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
+Aprenda a copiar rangos de celdas en Excel usando Aspose.Cells para Java, con ejemplos de código paso a paso.
 
 ### [Crear un rango de unión en Excel con Aspose.Cells Java: una guía completa](./create-union-range-excel-aspose-cells-java/)
 Aprenda a utilizar Aspose.Cells para Java para crear rangos de unión en Excel, mejorando la presentación y la legibilidad de los datos.

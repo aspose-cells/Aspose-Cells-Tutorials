@@ -98,6 +98,8 @@ Aspose.Cells for .NET ile WRAPCOLS işlevini kullanarak C# Excel otomasyonunda v
 C# ile Aspose.Cells kullanarak formül hesaplamasını zorlamak ve lambda ifadelerini uygulamayı öğrenin.
 ### [Formüllerle Excel Çalışma Kitabı Oluşturma – Tam Adım‑Adım Kılavuz](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
 Aspose.Cells for .NET kullanarak formüller içeren bir Excel çalışma kitabını baştan sona nasıl oluşturacağınızı adım adım öğrenin.
+### [C# ile EXPAND Fonksiyonunu Kullanarak Excel Çalışma Kitabı Oluşturma](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+Bu adım adım kılavuzda Aspose.Cells for .NET kullanarak C# ile EXPAND fonksiyonunu nasıl kullanıp bir Excel çalışma kitabı oluşturacağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

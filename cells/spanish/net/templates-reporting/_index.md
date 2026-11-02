@@ -71,6 +71,9 @@ Aprenda a procesar plantillas de Excel y asignar nombres a las hojas automática
 ### [Cómo exportar datos a Excel usando una plantilla C# – guía paso a paso](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
 Aprenda a exportar datos a Excel mediante una plantilla C# con Aspose.Cells, siguiendo una guía paso a paso.
 
+### [Cómo expandir una matriz en Excel y poblar una plantilla](./how-to-expand-array-in-excel-and-populate-a-template)
+Aprenda a expandir matrices en Excel y rellenar plantillas automáticamente.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

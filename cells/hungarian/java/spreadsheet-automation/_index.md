@@ -66,6 +66,14 @@ Ismerje meg, hogyan alkalmazhatja az Expand függvényt Java-ban Excel-fájlokba
 Lépésről lépésre bemutatjuk, hogyan távolítható el az AutoFilter az Excel-fájlokból Java kóddal az Aspose.Cells segítségével.
 ### [Új munkafüzet létrehozása Aspose‑val – egyedi tulajdonság hozzáadása Excelhez és mentés XLSB formátumban](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
 Lépésről lépésre útmutató új Excel munkafüzet létrehozásához, egyedi tulajdonságok hozzáadásához és XLSB formátumban mentéshez Aspose.Cells for Java-val.
+### [Hogyan töröljük a táblázatfejlécet Excelben Java-val – Teljes útmutató](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+Tanulja meg, hogyan távolíthatja el a táblázatfejlécet Excel-fájlokból Java-val, részletes lépésekkel és kódrészletekkel.
+### [Tömb kibővítése Excelben Java-val – Lépésről lépésre útmutató](./expand-array-in-excel-with-java-step-by-step-guide/)
+Ismerje meg, hogyan bővíthet tömböket Excelben Java segítségével, részletes kódrészletekkel és példákkal.
+### [Autofilter eltávolítása Excelből Java-val – Teljes útmutató](./remove-autofilter-from-excel-with-java-complete-guide/)
+Ismerje meg, hogyan távolíthatja el az Excel autofilter funkciót Java kóddal, részletes példákkal és lépésről-lépésre útmutatóval.
+### [Hogyan használjuk az Aspose.Cells-et: egyéni tulajdonság hozzáadása és XLSB mentése](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+Ismerje meg, hogyan adhat hozzá egyéni tulajdonságot egy Excel-fájlhoz, majd mentheti XLSB formátumban az Aspose.Cells segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

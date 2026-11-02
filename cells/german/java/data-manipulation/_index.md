@@ -62,7 +62,8 @@ Erfahren Sie, wie Sie Excel-Tabellen mit Aspose.Cells für Java effizient mit ve
 ### [So führen Sie Regex-Ersetzungen in Excel mit Aspose.Cells für Java durch: Eine umfassende Anleitung](./regex-replacement-excel-aspose-cells-java-guide/)
 Erfahren Sie, wie Sie Textersetzungen in Excel-Dateien mithilfe von regulären Ausdrücken mit Aspose.Cells für Java automatisieren. Diese Schritt-für-Schritt-Anleitung behandelt Initialisierung, Konfiguration und praktische Anwendungen.
 
-
+### [Wie man Spalten in Java mit Aspose.Cells aufteilt – Schritt‑für‑Schritt‑Anleitung](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Spalten in Excel-Dateien programmgesteuert aufteilen und Daten effizient organisieren.
 
 ## Weitere Ressourcen
 

@@ -66,6 +66,9 @@ Aspose.Words Java 的程式碼教學
 ### [如何在 Java 中使用 Aspose.Cells 刷新 Excel 活頁簿](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
 了解如何使用 Aspose.Cells for Java 重新載入或刷新活頁簿，以確保資料同步與計算正確。
 
+### [如何在 Java 中使用 Aspose.Cells 強制公式計算](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+說明如何使用 Aspose.Cells for Java 強制重新計算公式。
+
 ## 其他資源
 - [Aspose.Cells for Java 文件](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells for Java API 參考](https://reference.aspose.com/cells/java/)

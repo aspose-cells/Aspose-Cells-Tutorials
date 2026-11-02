@@ -61,6 +61,8 @@
 Узнайте, как преобразовать лист Excel в DataTable на C# с помощью Aspose.Cells для .NET в полном руководстве.
 ### [Импорт JSON в Excel с Aspose.Cells – Полное руководство по программированию](./import-json-to-excel-with-aspose-cells-complete-programming/)
 Узнайте, как импортировать данные JSON в Excel с помощью Aspose.Cells для .NET в полном пошаговом руководстве.
+### [Преобразование JSON в XLSX на C# – полное пошаговое руководство](./convert-json-to-xlsx-in-c-complete-step-by-step-guide/)
+Узнайте, как преобразовать JSON в файл XLSX с помощью C# и Aspose.Cells, следуя полному пошаговому руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -59,6 +59,8 @@ Aspose.Cells를 활용해 새 워크시트를 생성하고 기존 Excel 범위�
 ### [프로그래밍 방식으로 워크시트 범위 복사 – 완전 Java 가이드](./programmatically-copy-worksheet-range-complete-java-guide/)
 Aspose.Cells for Java를 사용하여 워크시트 범위를 프로그래밍 방식으로 복사하는 방법을 단계별로 안내합니다.
 
+### [Aspose.Cells를 사용하여 Java에서 Excel 범위 복사하는 방법](./how-to-copy-range-in-java-with-aspose-cells/)
+
 ### [Aspose.Cells Java를 사용하여 Excel에서 Union Range 만들기: 포괄적인 가이드](./create-union-range-excel-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel에서 Union 범위를 만들고 데이터 표현과 가독성을 향상시키는 방법을 알아보세요.
 

@@ -127,6 +127,8 @@ Leer hoe u JSON-gegevens omzet naar XLSX-bestanden met SmartMarker in C#.
 
 
 
+### [Excel-werkmap programmeren met Smart Markers](./create-excel-workbook-programmatically-using-smart-markers/)
+Ontdek hoe u met Aspose.Cells en Smart Markers een Excel-werkmap programmatically kunt maken. Volg de stapsgewijze .NET‑handleiding.
 ### [Hoe een werkmap te maken met slimme markeringen – Output Hoog Laag](./how-to-create-workbook-with-smart-markers-output-high-low/)
 Leer hoe u met Aspose.Cells een Excel-werkmap genereert met slimme markeringen die hoge en lage waarden dynamisch weergeven.
 ### [SmartMarkerOptions ArrayAsSingle configureren in C# voor JSON-arrays](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
@@ -181,6 +183,8 @@ Leer hoe u een Excel-sjabloon laadt en met Aspose.Cells in C# snel meerdere werk
 Leer hoe u een master‑detail werkmap maakt met Smart Markers in Aspose.Cells voor .NET.
 ### [Master‑detail Excel‑gids – sjablonen invullen met Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)
 Leer hoe u master‑detail Excel‑sjablonen kunt vullen met Smart Markers voor dynamische rapporten.
+### [Excel maken vanuit JSON met Aspose.Cells Smart Marker](./create-excel-from-json-with-aspose-cells-smart-marker/)
+Leer hoe u met Aspose.Cells Smart Markers Excel-bestanden genereert uit JSON-gegevens in een paar eenvoudige stappen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

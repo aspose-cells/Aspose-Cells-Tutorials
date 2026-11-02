@@ -91,6 +91,7 @@ Ismerd meg, hogyan másolhatod programozottan a munkalap-tartományokat Java-ban
 Tanuld meg, hogyan másolhatsz cellatartományokat egy munkafüzetből a másikba Java és Aspose.Cells használatával.
 ### [Új munkalap létrehozása és Excel-tartomány másolása Aspose.Cells segítségével](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
 Ismerd meg, hogyan hozhatsz létre új munkalapot és másolhatsz tartományt az Aspose.Cells Java könyvtárral.
+### [Hogyan másolhatunk tartományt Java-ban az Aspose.Cells használatával](./how-to-copy-range-in-java-with-aspose-cells/)
 
 ## További források
 

@@ -42,6 +42,8 @@
 इस पूर्ण C# गाइड में Excel वर्कबुक को सहेजने और नामित रेंज जोड़ने के चरणों को सीखें।
 ### [C# में Excel वर्कबुक बनाएं – नामित रेंज जोड़ें और टेबल नाम सेट करें](./create-excel-workbook-in-c-add-named-range-set-table-name/)
 Aspose.Cells for .NET का उपयोग करके C# में नई Excel वर्कबुक बनाएं, नामित रेंज जोड़ें और टेबल का नाम सेट करें।
+### [Excel तालिका को नाम दें और नामकरण टकराव से बचें](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
+Aspose.Cells for .NET का उपयोग करके Excel तालिका को नामित करने और नामकरण टकराव को रोकने के चरण‑दर‑चरण गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

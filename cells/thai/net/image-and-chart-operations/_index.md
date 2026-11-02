@@ -44,6 +44,8 @@
 เรียนรู้วิธีบันทึกแผ่นงาน Excel เป็นภาพใน .NET ด้วย Aspose.Cells ผ่านคู่มือขั้นตอนเต็มรูปแบบ เพิ่มประสิทธิภาพการแสดงผลข้อมูลของคุณ
 ### [วิธีส่งออก Excel เป็น PNG – คู่มือเต็มขั้นตอน](./how-to-export-excel-to-png-full-step-by-step-guide/)
 เรียนรู้วิธีส่งออกไฟล์ Excel เป็นรูปภาพ PNG อย่างละเอียดด้วยขั้นตอนครบถ้วนจาก Aspose.Cells
+### [วิธีส่งออกช่วง Excel เป็นรูปภาพด้วย C# และ Aspose.Cells](./how-to-export-excel-range-as-image-with-c-and-aspose-cells/)
+เรียนรู้วิธีส่งออกช่วงของไฟล์ Excel เป็นรูปภาพโดยใช้ C# และ Aspose.Cells อย่างง่ายดาย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

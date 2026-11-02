@@ -115,7 +115,8 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 ### [如何使用智慧標記編寫範本 – 步驟說明指南](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 說明如何編寫包含智慧標記的範本，以自動化 Excel 報表產生流程。
 
-
+### [使用智慧標記程式化建立 Excel 工作簿](./create-excel-workbook-programmatically-using-smart-markers/)
+了解如何使用 Aspose.Cells Smart Markers 以程式方式建立 Excel 工作簿，實現動態報表生成。
 
 
 
@@ -137,6 +138,7 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 了解如何使用智慧標記在 Excel 範本中重複資料，以生成多行動態報表。
 ### [將資料匯出至 Excel：在 C# 中使用陣列填充範本](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
 了解如何使用 Aspose.Cells for .NET，在 C# 中將陣列資料匯入 Excel 範本，快速產生動態報表。
+### [使用 Aspose.Cells 智慧標記從 JSON 建立 Excel](./create-excel-from-json-with-aspose-cells-smart-marker/)
 ### [如何自動命名工作表 – 在 C# 中產生多個工作表](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 ### [自動化發票產生 – 動態工作表命名與重複（C#）](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
 使用 Aspose.Cells for .NET 自動產生發票，動態命名工作表並重複資料，提升報表效率。

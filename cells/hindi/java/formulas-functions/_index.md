@@ -97,6 +97,8 @@ Java में Aspose.Cells के साथ WRAPCOLS फ़ंक्शन ल�
 जावा के साथ Aspose.Cells का उपयोग करके Excel में अद्वितीय मानों को सॉर्ट करने और एरे फ़ॉर्मूला सेट करने की पूरी प्रक्रिया सीखें।
 ### [Aspose को Java में कैसे उपयोग करें – नई फ़ंक्शनों के साथ Excel वर्कबुक बनाएं](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
 Java में Aspose का उपयोग करके नई फ़ंक्शनों के साथ Excel वर्कबुक बनाने की प्रक्रिया सीखें।
+### [Aspose.Cells Java में expand फ़ंक्शन का उपयोग – चरण‑दर‑चरण गाइड](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
+Aspose.Cells Java में expand फ़ंक्शन का उपयोग करने के लिए चरण‑दर‑चरण गाइड।
 
 ## अतिरिक्त संसाधन
 

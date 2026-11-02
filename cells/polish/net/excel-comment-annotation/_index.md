@@ -47,6 +47,8 @@ Poznaj, jak dodać komentarz do arkusza Excel przy użyciu C# i Aspose.Cells dla
 
 
 
+### [Wstaw komentarz do Excela w C# – przewodnik krok po kroku](./insert-comment-into-excel-with-c-step-by-step-guide/)
+Dowiedz się, jak w C# wstawić komentarz do pliku Excel, korzystając z Aspose.Cells, w prostym przewodniku krok po kroku.
 
 
 

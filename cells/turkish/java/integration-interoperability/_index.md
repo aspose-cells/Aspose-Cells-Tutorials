@@ -51,7 +51,6 @@ Excel web uzantılarını kolayca yönetmek için Java için Aspose.Cells'i nas�
 Çalışma kitaplarını yükleme, küreselleştirme seçeneklerini ayarlama, ara toplamlar ekleme, formülleri hesaplama ve sütunları otomatik olarak sığdırma dahil olmak üzere Aspose.Cells for Java ile Excel görevlerini otomatikleştirmeyi öğrenin.
 
 ### [Aspose.Cells Entegrasyonu ile Java Öğretmen Sınıfı Uygulamasında Ustalaşma](./master-teacher-class-java-aspose-cells/)
-Java'da Öğretmen sınıfının nasıl uygulanacağını, öğrenci verilerinin nasıl yönetileceğini ve gelişmiş Excel dosya yönetimi için Aspose.Cells'in nasıl entegre edileceğini öğrenin.
 
 ### [Excel'den Word'e Grafik Aktarma – Java Kılavuzu](./how-to-export-charts-from-excel-to-word-java-guide/)
 Aspose.Cells for Java kullanarak Excel dosyalarındaki grafiklerinizi Word belgelerine nasıl aktaracağınızı adım adım öğrenin.
@@ -71,6 +70,18 @@ Aspose.Cells for Java kullanarak Excel dosyalarını PowerPoint sunumlarına dö
 Aspose.Cells for C# kullanarak Excel dosyalarını DOCX formatına dönüştürmeyi adım adım öğrenin.
 ### [Java ile Excel'den aralığı kopyalayıp PowerPoint'e dışa aktarma](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
 Java ve Aspose.Cells kullanarak bir Excel aralığını kopyalayıp PowerPoint sunumuna eklemeyi öğrenin.
+### [Aspose.Cells ile Java'da Excel'i PowerPoint'e Dönüştürme](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
+Aspose.Cells for Java kullanarak Excel dosyalarını PowerPoint sunumlarına nasıl dönüştüreceğinizi adım adım öğrenin.
+### [Excel'den PPTX Kaydetme – Excel Sayfasını PowerPoint'e Aktarma Tam Kılavuz](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+
+### [Java'da WRAPCOLS Kullanımı – Matris Dönüştürme İçin Tam Kılavuz](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
+
+### [Java ile Excel'i PDF'ye Dönüştürürken Yazı Tiplerini Gömme: Adım Adım Kılavuz](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
+Java ve Aspose.Cells kullanarak Excel dosyalarını PDF'ye çevirirken özel yazı tiplerini nasıl gömeceğinizi öğrenin.
+### [Excel'den PPTX'e: Düzenlenebilir Şekilleri Dışa Aktarmak İçin Tam Java Kılavuzu](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+Aspose.Cells for Java kullanarak Excel dosyalarındaki şekilleri PPTX sunumlarına düzenlenebilir olarak dışa aktarmayı öğrenin.
+### [Aspose.Cells for Java ile Excel'den DOCX'e Grafik Dışa Aktarma](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+Aspose.Cells for Java kullanarak Excel dosyasındaki grafiği DOCX belgesine nasıl aktaracağınızı adım adım öğrenin.
 
 ## Ek Kaynaklar
 

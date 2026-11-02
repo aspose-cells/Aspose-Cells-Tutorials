@@ -96,6 +96,8 @@ Aspose.Words Java 代码教程
 学习如何在 Excel 中使用公式计算余切值，提供实现步骤和代码示例。
 ### [如何在 Java 中使用 Aspose – 创建带有新函数的 Excel 工作簿](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
 学习如何在 Java 中使用 Aspose 创建包含自定义函数的 Excel 工作簿，实现高级计算功能。
+### [在 Aspose.Cells Java 中使用 expand 函数 – 步骤指南](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
+学习如何在 Aspose.Cells for Java 中使用 expand 函数进行动态范围扩展和公式计算。
 
 ## 其他资源
 

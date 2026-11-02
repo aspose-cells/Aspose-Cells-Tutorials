@@ -103,6 +103,7 @@ Excel 内置了大量函数，可用于执行各种计算和数据操作。了�
 使用 Aspose.Cells for .NET 在 C# 中强制公式计算并使用 Lambda，实现高级 Excel 计算。
 ### [创建带公式的 Excel 工作簿 – 完整分步指南](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
 通过本详细分步教程，学习如何使用 Aspose.Cells for .NET 创建包含公式的 Excel 工作簿。
+### [如何在 C# 中使用 EXPAND 函数创建 Excel 工作簿](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
