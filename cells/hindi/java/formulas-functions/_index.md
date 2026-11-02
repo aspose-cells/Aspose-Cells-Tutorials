@@ -99,6 +99,8 @@ Java में Aspose.Cells के साथ WRAPCOLS का उपयोग क
 ### [Excel में अद्वितीय मानों को क्रमबद्ध करें – एरे फ़ॉर्मूला सेट करने के लिए पूर्ण जावा गाइड](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 ### [Aspose को Java में कैसे उपयोग करें – नई फ़ंक्शनों के साथ Excel वर्कबुक बनाएं](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
 Java में Aspose का उपयोग करके नई फ़ंक्शनों के साथ Excel वर्कबुक बनाने की प्रक्रिया सीखें।
+### [Aspose.Cells Java में expand फ़ंक्शन का उपयोग – चरण‑दर‑चरण गाइड](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
+Aspose.Cells Java में expand फ़ंक्शन का उपयोग करने के लिए चरण‑दर‑चरण गाइड।
 ### [Aspose.Cells सेट फ़ॉर्मूला के साथ EXPAND फ़ंक्शन – पूर्ण जावा गाइड](./aspose-cells-set-formula-with-expand-function-complete-java/)
 
 ## अतिरिक्त संसाधन

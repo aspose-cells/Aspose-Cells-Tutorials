@@ -37,6 +37,8 @@ Pelajari cara membuat, mengelola, dan memanipulasi rentang bernama menggunakan A
 
 ### [Menetapkan Nama ke Sel di Excel Menggunakan Java – Panduan Lengkap](./assign-name-to-cell-in-excel-using-java-complete-guide/)
 Pelajari cara menetapkan nama pada sel di Excel dengan Java menggunakan Aspose.Cells dalam panduan lengkap ini.
+### [Buat rentang bernama dan deteksi nama duplikat di Excel](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Mendeteksi dan menangani nama rentang duplikat dalam file Excel.
 
 ### [Mengakses Rentang Tampilan Maksimum di Buku Kerja Excel menggunakan Aspose.Cells Java](./aspose-cells-java-max-display-range/)
 Pelajari cara mengakses rentang tampilan maksimum lembar kerja di Excel menggunakan Aspose.Cells untuk Java. Kuasai fitur ini dengan panduan langkah demi langkah kami.
@@ -94,6 +96,10 @@ Pelajari cara memisahkan sel dalam file Excel secara efisien menggunakan Aspose.
 
 ### [Menyalin rentang antar buku kerja di Java – panduan langkah demi langkah](./copy-range-between-workbooks-in-java-step-by-step-guide/)
 Pelajari cara menyalin rentang sel antara buku kerja Excel menggunakan Aspose.Cells untuk Java dengan panduan langkah demi langkah.
+### [Cara menyalin rentang di Java dengan Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
+Pelajari cara menyalin rentang sel di Excel menggunakan Aspose.Cells untuk Java dengan contoh kode praktis.
+### [Cara Menggunakan Fungsi Expand dalam Pemrosesan Excel Java](./how-to-use-expand-function-in-java-excel-processing/)
+Pelajari cara menggunakan fungsi expand di Aspose.Cells untuk Java dalam memproses file Excel secara efisien.
 
 ## Sumber Daya Tambahan
 

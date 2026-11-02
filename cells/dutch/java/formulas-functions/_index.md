@@ -95,6 +95,7 @@ Leer hoe u de WRAPCOLS-functie in Aspose.Cells voor Java gebruikt om een lijst i
 Leer hoe u de cotangensfunctie in Excel gebruikt en implementeert met Aspose.Cells voor Java.
 ### [Unieke waarden sorteren in Excel – Complete Java-gids voor het instellen van matrixformules](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 ### [Hoe Aspose te gebruiken in Java – maak Excel-werkmap met nieuwe functies](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+### [Gebruik de expand-functie in Aspose.Cells Java – stapsgewijze handleiding](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
 ### [Aspose.Cells formule instellen met EXPAND-functie – volledige Java-gids](./aspose-cells-set-formula-with-expand-function-complete-java/)
 
 ## Aanvullende bronnen

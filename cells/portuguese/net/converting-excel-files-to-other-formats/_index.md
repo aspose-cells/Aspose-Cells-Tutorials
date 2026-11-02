@@ -57,6 +57,8 @@ Aprenda a converter arquivos do Excel para Word programaticamente usando Aspose.
 Converta Excel para HTML com dicas de ferramentas usando o Aspose.Cells para .NET em poucos passos simples. Aprimore seus aplicativos web com dados interativos do Excel sem esforço.
 ### [Convertendo arquivo Excel para Markdown programaticamente no .NET](./converting-excel-file-to-markdown/)
 Aprenda a converter arquivos do Excel para o formato Markdown usando o Aspose.Cells para .NET neste guia passo a passo detalhado. Aumente a produtividade com a conversão fácil de arquivos.
+### [Como salvar a pasta de trabalho como CSV e exportar Excel para TXT com formatação personalizada em C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+Aprenda a salvar uma pasta de trabalho como CSV e exportar para TXT com formatação personalizada usando Aspose.Cells em C#.
 ### [Convertendo arquivo Excel para PDF (A-1a) programaticamente em .NET](./converting-excel-file-to-pdf-a-1a/)
 Aprenda a converter arquivos do Excel para PDF/A-1a para fins de arquivamento usando o Aspose.Cells para .NET. Guia passo a passo com exemplos de código incluídos.
 ### [Convertendo JSON para CSV programaticamente no .NET](./converting-json-to-csv/)
@@ -67,12 +69,14 @@ Aprenda a converter arquivos XLSX para CSV usando C# e Aspose.Cells, com um guia
 Aprenda como converter um arquivo do Excel em uma apresentação do PowerPoint (PPTX) programaticamente usando o Aspose.Cells para .NET com este guia passo a passo.
 ### [Criar PowerPoint a partir do Excel – Guia passo a passo em C#](./create-powerpoint-from-excel-step-by-step-c-guide/)
 Aprenda a criar apresentações PowerPoint a partir de arquivos Excel usando Aspose.Cells para .NET com este guia passo a passo em C#.
-### [Convertendo Excel para PowerPoint com C# – Guia Completo](./convert-excel-to-powerpoint-with-c-complete-guide/)
+### [Convertendo Excel para PowerPoint – Guia Completo em C#](./convert-excel-to-powerpoint-with-c-complete-guide/)
 Aprenda a converter planilhas do Excel em apresentações PowerPoint usando C# e Aspose.Cells para .NET neste guia completo passo a passo.
 ### [Como Exportar Excel para PowerPoint – Guia Completo em C#](./how-to-export-excel-to-powerpoint-complete-c-guide/)
 Aprenda a exportar planilhas do Excel para apresentações PowerPoint usando C# e Aspose.Cells neste guia completo.
 ### [Como exportar Excel para PowerPoint – Guia completo](./how-to-export-excel-to-powerpoint-complete-guide/)
 Aprenda a exportar planilhas do Excel para apresentações PowerPoint programaticamente usando Aspose.Cells para .NET neste guia completo.
+### [Como salvar Excel como PowerPoint usando C# e Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+Aprenda a salvar uma planilha Excel como apresentação PowerPoint usando C# e Aspose.Cells.
 ### [Exportar Excel para TXT em C# – guia completo de programação](./export-excel-to-txt-in-c-complete-programming-guide/)
 Aprenda a exportar planilhas do Excel para arquivos TXT usando C# com Aspose.Cells, passo a passo.
 ### [Como criar PowerPoint a partir do Excel usando Aspose.Cells](./how-to-create-powerpoint-from-excel-using-aspose-cells/)
@@ -104,12 +108,13 @@ Aprenda a converter arquivos do Excel para o formato Markdown usando o Aspose.Ce
 Aprenda a criar uma nova pasta de trabalho e exportar dados do Excel para TXT mantendo a precisão total usando Aspose.Cells para .NET.
 ### [Criar PPT a partir do Excel – Guia completo de automação C#](./create-ppt-from-excel-full-c-automation-guide/)
 Aprenda a gerar apresentações PPT a partir de planilhas Excel usando Aspose.Cells com automação completa em C#.
-
 ### [Como salvar DOCX a partir do Excel – Guia completo para exportar gráficos para Word](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
 Aprenda a salvar planilhas do Excel como arquivos DOCX e exportar gráficos para Word usando Aspose.Cells para .NET.
 ### [Salvar Excel como txt – Guia Completo em C# para Exportar Números com Dígitos Significativos](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
-Aprenda a salvar planilhas Excel como arquivos txt, preservando dígitos significativos, usando Aspose.Cells para .NET em C#.
-### [Como Exportar Excel para PowerPoint – Guia Passo a Passo](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Aprenda a salvar planilhas Excel como arquivos txt, preservando dígitos significativos, usando Aspose.Cells para .NET em C# passo a passo.
+### [Como salvar Excel como TXT usando Aspose.Cells em C#](./how-to-save-excel-as-txt-using-aspose-cells-in-c/)
+Aprenda a salvar planilhas do Excel como arquivos TXT usando Aspose.Cells para .NET em C# neste guia passo a passo.
+### [Como exportar Excel para PowerPoint – Guia Passo a Passo](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
 Aprenda a exportar planilhas do Excel para apresentações PowerPoint passo a passo usando Aspose.Cells para .NET.
 ### [Criar PowerPoint a partir do Excel – Tutorial Completo em C#](./create-powerpoint-from-excel-complete-c-tutorial/)
 Aprenda a gerar apresentações PowerPoint a partir de arquivos Excel usando Aspose.Cells para .NET em C# passo a passo.
@@ -126,9 +131,10 @@ Aprenda como salvar uma pasta de trabalho no formato Strict Open XML Spreadsheet
 
 ### [Salvar Excel como Texto – Guia Completo em C# para Exportar Excel para TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
 Aprenda a salvar planilhas do Excel como arquivos de texto TXT usando Aspose.Cells para .NET com C# passo a passo.
-
 ### [Como exportar Excel para PowerPoint com C# – Guia completo](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
 Aprenda a exportar planilhas do Excel para apresentações PowerPoint usando C# e Aspose.Cells neste guia passo a passo.
+### [Exportar Excel para PowerPoint com gráficos editáveis em C#](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Aprenda a exportar planilhas do Excel para PowerPoint mantendo os gráficos editáveis usando Aspose.Cells em C#.
 ### [Criar Word a partir do Excel – Guia rápido em C#](./create-word-from-excel-quick-c-guide/)
 Aprenda a gerar documentos Word a partir de planilhas Excel usando Aspose.Cells em C# com este guia rápido.
 ### [Como exportar Excel – Guia de Texto Delimitado por Tabulação](./how-to-export-excel-tab-delimited-text-guide/)
@@ -142,6 +148,8 @@ Aprenda a salvar planilhas Excel como arquivos de texto usando Aspose.Cells, pas
 Aprenda a exportar planilhas do Excel para apresentações PowerPoint programaticamente usando Aspose.Cells para .NET neste guia passo a passo.
 ### [Copiando tabela dinâmica e exportando Excel para PPTX com Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
 Aprenda a copiar uma tabela dinâmica de uma planilha Excel e exportá‑la como apresentação PPTX usando Aspose.Cells para .NET.
+### [Como incorporar fontes em SVG ao converter arquivos Excel para SVG e PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Aprenda a incorporar fontes ao gerar arquivos SVG a partir de planilhas Excel e ao converter para PowerPoint usando Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

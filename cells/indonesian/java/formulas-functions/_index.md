@@ -92,6 +92,7 @@ Pelajari cara mengekstrak teks rumus dari sel Excel menggunakan Aspose.Cells den
 ### [Cara menggunakan wrapcols untuk mengonversi daftar menjadi beberapa kolom di Java](./how-to-use-wrapcols-to-convert-a-list-into-multiple-columns/)
 
 ### [Cara Menghitung Kotangen di Excel – Panduan Lengkap](./how-to-calculate-cotangent-in-excel-complete-guide/)
+### [Gunakan fungsi expand di Aspose.Cells Java – panduan langkah demi langkah](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
 
 ### [Mengurutkan Nilai Unik di Excel – Panduan Lengkap Java untuk Menetapkan Rumus Array](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 ### [Cara menggunakan Aspose di Java – membuat buku kerja Excel dengan fungsi baru](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)

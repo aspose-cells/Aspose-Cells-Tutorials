@@ -46,6 +46,7 @@
 | [Δημιουργία νέου βιβλίου εργασίας – Πώς να αντιγράψετε ένα φύλλο εργασίας με Πίνακα Pivot](./create-new-workbook-how-to-copy-a-worksheet-with-a-pivot-tab/) | Μάθετε πώς να δημιουργήσετε νέο βιβλίο εργασίας και να αντιγράψετε φύλλο με Πίνακα Pivot χρησιμοποιώντας Aspose.Cells για .NET. |  
 | [Αντιγραφή βιβλίου εργασίας σε C# – Εξαγωγή πίνακα σε άλλο φύλλο εργασίας](./copy-workbook-in-c-export-table-to-another-worksheet/) | Μάθετε πώς να αντιγράψετε ένα βιβλίο εργασίας και να εξάγετε έναν πίνακα σε διαφορετικό φύλλο εργασίας χρησιμοποιώντας Aspose.Cells για .NET. |  
 | [Δημιουργία διπλών φύλλων λεπτομερειών στο Excel χρησιμοποιώντας C#](./create-duplicated-detail-sheets-in-excel-using-c/) | Μάθετε πώς να δημιουργείτε διπλότυπα φύλλα λεπτομερειών στο Excel με C# χρησιμοποιώντας Aspose.Cells. |  
+| [Αντιγραφή φύλλου εργασίας με συγκεντρωτικό πίνακα σε C# χρησιμοποιώντας το Aspose.Cells](./copy-worksheet-with-pivot-in-c-using-aspose-cells/) | Μάθετε πώς να αντιγράψετε φύλλο εργασίας που περιέχει PivotTable σε C# με Aspose.Cells. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

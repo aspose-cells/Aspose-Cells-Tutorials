@@ -1,0 +1,7 @@
+Title: How to create Excel from template and generate repeated sheets
+Slug: how-to-create-excel-from-template-and-generate-repeated-shee
+Category: templates-reporting
+ProcessedDate: 2026-10-01T11:50:32.014244
+SourceRepo: AI Search API
+Keywords: create excel from template, create multiple worksheets, how to repeat worksheet, export dataset to sheets, generate repeated sheets
+PRNumber: 174

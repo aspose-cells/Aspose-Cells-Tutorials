@@ -71,6 +71,8 @@ Naučte se, jak uložit soubor XLSX jako PDF v C# s podporou PDF/A‑1b pomocí 
 Kompletní návod, jak v C# pomocí Aspose.Cells převést Excel do PDF, včetně nastavení a optimalizace.
 ### [Jak uložit PDF s výběrovými selektory písma – kompletní průvodce](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
 Naučte se, jak pomocí Aspose.PDF uložit PDF s výběrovými selektory písma a zachovat správné zobrazení znaků.
+### [Vytvořte sešit Excel a uložte jako PDF s dynamickými poli](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
+Naučte se pomocí Aspose.Cells vytvořit sešit Excel s dynamickými poli a exportovat jej do PDF.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

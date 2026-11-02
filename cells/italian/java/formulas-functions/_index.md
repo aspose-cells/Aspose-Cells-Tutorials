@@ -102,6 +102,8 @@ Scopri come trasformare un elenco in più colonne usando la funzione WRAPCOLS co
 Scopri come calcolare la cotangente in Excel usando le funzioni integrate e personalizzate con Aspose.Cells per Java.
 ### [Come utilizzare Aspose in Java – creare cartella di lavoro Excel con nuove funzioni](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
 Scopri come creare una cartella di lavoro Excel con nuove funzioni utilizzando Aspose in Java.
+### [Utilizza la funzione expand in Aspose.Cells Java – guida passo‑passo](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
+Scopri come utilizzare la funzione EXPAND di Aspose.Cells per Java per gestire intervalli dinamici nelle cartelle di lavoro Excel.
 
 ### [Aspose.Cells imposta formula con la funzione EXPAND – guida completa Java](./aspose-cells-set-formula-with-expand-function-complete-java/)
 

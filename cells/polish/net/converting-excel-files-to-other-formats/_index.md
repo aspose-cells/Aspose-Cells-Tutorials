@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwersja plików Excel do innych formatów
@@ -38,6 +40,8 @@ Dla tych, którzy potrzebują specjalistycznych wyników, Aspose.Cells obsługuj
 - [Konwersja pliku Excel do formatu PPTX programowo w środowisku .NET](./converting-excel-file-to-pptx/): Zmień arkusze Excela w slajdy prezentacji. Ten samouczek oferuje łatwe do wdrożenia fragmenty kodu do konwersji danych Excela do PPTX.
 
 - [Śledzenie postępu konwersji dokumentów dla formatu TIFF programowo w środowisku .NET](./tracking-document-conversion-progress-for-tiff/):Śledź i zarządzaj konwersjami plików TIFF, cenne narzędzie do tworzenia archiwów opartych na obrazach.
+### [Jak wyeksportować Excel do PowerPoint – Kompletny przewodnik C#](./how-to-export-excel-to-powerpoint-complete-c-guide/)
+Dowiedz się, jak programowo konwertować arkusze Excel na prezentacje PowerPoint przy użyciu Aspose.Cells i C#.
 
 Aspose.Cells for .NET upraszcza przekształcanie dokumentów, umożliwiając programistom automatyzację procesów i oszczędzanie czasu przy konwersji w różnych formatach.
 
@@ -72,6 +76,8 @@ Dowiedz się, jak ustawić obszar drukowania w Excelu i wyeksportować arkusz do
 Dowiedz się, jak programowo konwertować pliki Excel do PowerPoint oraz ustawiać obszar drukowania przy użyciu Aspose.Cells dla .NET.
 ### [Tworzenie prezentacji PowerPoint z Excela – przewodnik krok po kroku w C#](./create-powerpoint-from-excel-step-by-step-c-guide/)
 Dowiedz się, jak programowo przekształcić arkusz Excel w prezentację PowerPoint przy użyciu Aspose.Cells w C#.
+### [Konwersja Excela do PowerPoint przy użyciu C# – kompletny przewodnik](./convert-excel-to-powerpoint-with-c-complete-guide/)
+Pełny przewodnik pokazujący, jak programowo konwertować pliki Excel na prezentacje PowerPoint przy użyciu C# i Aspose.Cells dla .NET.
 ### [Kopiowanie tabeli przestawnej i eksportowanie Excela do PPTX przy użyciu Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
 Dowiedz się, jak skopiować tabelę przestawną i wyeksportować plik Excel do prezentacji PPTX przy użyciu Aspose.Cells dla .NET.
 ### [Jak zapisać Excel jako tekst – przewodnik krok po kroku](./how-to-save-excel-as-text-with-aspose-cells-step-by-step-gui/)
@@ -82,6 +88,8 @@ Dowiedz się, jak programowo konwertować pliki Excel na obrazy PNG w C# przy u�
 Dowiedz się, jak programowo eksportować pliki Excel do prezentacji PowerPoint przy użyciu Aspose.Cells dla .NET w tym szczegółowym przewodniku krok po kroku.
 ### [Jak wyeksportować Excel do PowerPoint – Kompletny przewodnik](./how-to-export-excel-to-powerpoint-complete-guide/)
 Dowiedz się, jak programowo wyeksportować arkusz Excel do prezentacji PowerPoint przy użyciu Aspose.Cells dla .NET w pełnym przewodniku krok po kroku.
+### [Jak zapisać Excel jako PowerPoint przy użyciu C# i Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+Dowiedz się, jak programowo przekształcić arkusz Excel w prezentację PowerPoint przy użyciu C# i biblioteki Aspose.Cells.
 ### [Określanie HTML CrossType w wyjściowym HTML programowo w .NET](./specifying-html-crosstype-in-output-html/)
 Dowiedz się, jak określić HTML CrossType w Aspose.Cells dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby precyzyjnie przekonwertować pliki Excel na HTML.
 ### [Odczyt arkusza kalkulacyjnego liczb programowo w .NET](./reading-numbers-spreadsheet/)
@@ -97,12 +105,6 @@ Dowiedz się, jak programowo wyeksportować dane z pliku Excel do formatu txt w 
 ### [Jak utworzyć prezentację PowerPoint z Excela przy użyciu Aspose.Cells](./how-to-create-powerpoint-from-excel-using-aspose-cells/)
 Dowiedz się, jak programowo przekształcić arkusz Excel w prezentację PowerPoint przy użyciu Aspose.Cells w C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Zapisz plik Excel jako Docx w C# – Kompletny przewodnik krok po kroku](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 Dowiedz się, jak programowo zapisać plik Excel jako dokument DOCX w C# przy użyciu Aspose.Cells, krok po kroku.
 ### [Utworzenie PPT z Excela – Pełny przewodnik automatyzacji w C#](./create-ppt-from-excel-full-c-automation-guide/)
@@ -121,17 +123,24 @@ Dowiedz się, jak krok po kroku konwertować plik Excel na prezentację PowerPoi
 Dowiedz się, jak zapisać plik Excel jako txt w C#, zachowując znaczące cyfry liczb, korzystając z Aspose.Cells.
 ### [Zapisz Excel jako tekst – Kompletny przewodnik C# do eksportu Excela do TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
 Dowiedz się, jak w C# programowo zapisać arkusz Excel jako plik tekstowy TXT przy użyciu Aspose.Cells.
+### [Jak zapisać skoroszyt jako CSV i wyeksportować Excel do TXT z niestandardowym formatowaniem w C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+Dowiedz się, jak zapisać skoroszyt jako plik CSV i wyeksportować dane Excela do pliku TXT z własnym formatowaniem w C# przy użyciu Aspose.Cells.
+### [Jak zapisać Excel jako TXT przy użyciu Aspose.Cells w C#](./how-to-save-excel-as-txt-using-aspose-cells-in-c/)
+Dowiedz się, jak programowo zapisać plik Excel jako TXT przy użyciu Aspose.Cells w C#.
 ### [Jak wyeksportować Excel do PowerPoint przy użyciu C# – Kompletny przewodnik](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
 Dowiedz się, jak programowo konwertować arkusze Excel na prezentacje PowerPoint przy użyciu C# i Aspose.Cells w pełnym przewodniku krok po kroku.
 ### [Utworzenie dokumentu Word z Excela – szybki przewodnik C#](./create-word-from-excel-quick-c-guide/)
 Dowiedz się, jak szybko wygenerować plik Word z danych Excela w C# przy użyciu Aspose.Cells.
 ### [Jak zapisać DOCX z Excela – Kompletny przewodnik eksportu wykresów do Worda](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
 Dowiedz się, jak programowo zapisać plik Excel jako DOCX i wyeksportować wykresy do dokumentu Word przy użyciu Aspose.Cells.
+### [Eksportuj Excel do PowerPoint z edytowalnymi wykresami w C#](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Dowiedz się, jak wyeksportować arkusz Excel do PowerPoint z wykresami, które można edytować, używając Aspose.Cells w C#.
+### [Jak osadzić czcionki w SVG przy konwertowaniu plików Excel do SVG i PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Dowiedz się, jak osadzić czcionki w plikach SVG podczas konwersji Excel do SVG i PowerPoint przy użyciu Aspose.Cells dla .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

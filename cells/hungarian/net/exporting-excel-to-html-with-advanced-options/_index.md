@@ -110,6 +110,10 @@ Egyszerűen beállíthat egyetlen lapfül nevét HTML exportálás során az Asp
 ### [Excel mentése HTML-ként – Teljes útmutató az Excel formázott exportálásához](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
 ### [Excel exportálása HTML-be – Teljes útmutató a befagyasztott panelek megőrzéséhez](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
 Ismerje meg, hogyan exportálhatja az Excel-fájlokat HTML-be úgy, hogy a befagyasztott panelek megmaradjanak, lépésről lépésre útmutatóval.
+### [Betűtípusok beágyazása HTML-be munkafüzet mentésekor](./how-to-embed-fonts-in-html-when-saving-a-workbook/)
+
+### [Hogyan exportáljunk xlsx-et HTML-be fagyasztott panelekkel C#-ban](./how-to-export-xlsx-to-html-with-frozen-panes-in-c/)
+### [Betűtípusok beágyazása HTML-be – Excel konvertálása HTML-be C#-al](./how-to-embed-fonts-in-html-convert-excel-to-html/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -37,6 +37,8 @@ Learn how to create, manage, and manipulate named ranges using Aspose.Cells for 
 
 ### [Assign Name to Cell in Excel Using Java – Complete Guide](./assign-name-to-cell-in-excel-using-java-complete-guide/)
 Learn how to assign a custom name to a single cell in Excel using Aspose.Cells for Java with step-by-step code examples.
+### [Create a named range and detect duplicate name in Excel](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Detect and handle duplicate named ranges in Excel using Aspose.Cells for Java.
 
 ### [Access Maximum Display Range in Excel Workbooks using Aspose.Cells Java](./aspose-cells-java-max-display-range/)
 Learn how to access the maximum display range of a worksheet in Excel using Aspose.Cells for Java. Master this feature with our step-by-step guide.
@@ -46,6 +48,9 @@ Master selecting cell ranges in Excel with Aspose.Cells for Java. This guide cov
 
 ### [How to Unmerge Cells in Excel Using Aspose.Cells for Java&#58; A Step-by-Step Guide](./aspose-cells-java-unmerging-excel-cells-guide/)
 Learn how to efficiently unmerge cells in Excel using Aspose.Cells for Java with this comprehensive guide. Ideal for data preparation and report generation.
+
+### [How to use expand function in Java Excel processing](./how-to-use-expand-function-in-java-excel-processing/)
+Learn how to apply the expand function in Aspose.Cells for Java to dynamically adjust ranges and process Excel data efficiently.
 
 ### [AutoFit Rows & Columns in Excel with Aspose.Cells for Java](./auto-fit-excel-aspose-cells-java/)
 Learn how to use Aspose.Cells for Java to convert HTML tables into well-structured Excel files, including auto-fitting rows and columns.
@@ -79,6 +84,8 @@ Learn how to automate Excel print areas with Aspose.Cells for Java. Master workb
 
 ### [Efficiently Copy a Single Column in Excel Using Aspose.Cells Java](./excel-single-column-copying-aspose-cells-java/)
 Learn how to automate the process of copying single columns across multiple others using Aspose.Cells for Java. Streamline your data handling tasks with ease.
+
+### [How to copy range in Java with Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
 
 ### [Import Custom Objects into Merged Excel Cells Using Aspose.Cells for Java&#58; A Comprehensive Guide](./import-custom-objects-merged-cells-java-aspose-cells/)
 Learn how to efficiently import custom objects into merged cells in Excel using Aspose.Cells for Java. Master data handling with this comprehensive guide.

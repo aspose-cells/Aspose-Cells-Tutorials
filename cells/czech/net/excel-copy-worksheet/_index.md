@@ -46,6 +46,7 @@ Aspose.Cells pro .NET nabízí výkonné funkce pro manipulaci s Excelovými sou
 | [Jak kopírovat list v C# pomocí Aspose.Cells – Kompletní průvodce](./how-to-copy-worksheet-in-c-with-aspose-cells-complete-guide/) | Kompletní návod, jak v C# kopírovat listy v Excelu pomocí Aspose.Cells, včetně ukázek kódu a tipů. |  
 | [Vytvořit duplicitní detailní listy v Excelu pomocí C#](./create-duplicated-detail-sheets-in-excel-using-c/) | Naučte se, jak v C# vytvořit duplicitní detailní listy v Excelu pomocí Aspose.Cells. |  
 | [Kopírování sešitu v C# – Export tabulky do jiného listu](./copy-workbook-in-c-export-table-to-another-worksheet/) | Naučte se, jak exportovat tabulku do jiného listu v sešitu pomocí Aspose.Cells pro .NET v C#. |  
+| [Kopírování listu s kontingenční tabulkou v C# pomocí Aspose.Cells](./copy-worksheet-with-pivot-in-c-using-aspose-cells/) | Naučte se, jak zkopírovat list s kontingenční tabulkou v C# pomocí Aspose.Cells. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -47,9 +47,13 @@ Aspose.Cells for Javaでピボットテーブルデータを更新する方法�
 
 ### [ピボットテーブルスタイルのカスタマイズ](./customizing-pivot-table-styles/)
 Aspose.Cells for Java API でピボットテーブルのスタイルをカスタマイズする方法を学びましょう。視覚的に魅力的なピボットテーブルを簡単に作成できます。
+### [ピボットテーブル画像のエクスポート: Java で PNG に変換](./excel-pivot-table-image-export-to-png-with-java/)
+Aspose.Cells for Java を使用して、ピボットテーブルを PNG 画像としてエクスポートする方法を学びます。
 
 ### [Javaでピボットテーブルをコピー – 保持してPPTXにエクスポート](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
 Aspose.Cells for Java を使用して、ピボットテーブルをコピーし、書式やデータを保持したまま PowerPoint PPTX ファイルへエクスポートする方法を学びます。
+### [Javaでピボットテーブルをコピーする方法](./how-to-copy-a-pivot-table-in-java-using-aspose-cells/)
+Aspose.Cells を使用して Java でピボットテーブルをコピーし、データと書式を保持する手順を学びます。
 
 ### [Javaでピボットテーブルをコピーする方法 – 完全 Aspose.Cells ガイド](./how-to-copy-pivot-table-in-java-complete-aspose-cells-guide/)
 Aspose.Cells for Java を使用して、ピボットテーブルをコピーする手順とベストプラクティスを学びます。
@@ -81,6 +85,16 @@ Aspose.Cells for Java を使用して、範囲をコピーしながらピボッ�
 
 ### [JavaでExcelのピボットテーブルを複製する方法 – ステップバイステップガイド](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
 Aspose.Cells for Java を使用して、Excel のピボットテーブルを複製し、書式やデータを保持したままエクスポートする手順を学びます。
+
+### [Javaで新しいブックを作成し、ピボットテーブルをコピーする – 完全ステップバイステップガイド](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
+Aspose.Cells for Java を使用して、新しいワークブックを作成し、既存のピボットテーブルをコピーする方法をステップごとに解説します。
+### [Java で Aspose.Cells を使ってピボットテーブルをコピーする完全ガイド](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
+Aspose.Cells for Java を利用して、既存のピボットテーブルをコピーし、データ分析を効率化する方法を詳しく解説します。
+### [Javaでピボットテーブルをコピーする – Aspose.Cellsを使用したステップバイステップガイド](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
+### [Aspose.Cellsでピボットをコピーする – 範囲をブックにコピー](./how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook/)
+Aspose.Cells を使用して、ピボットテーブルの範囲を別のワークブックにコピーする方法を学びます。
+### [JavaでExcelブック間のピボットテーブルをコピーする方法](./how-to-copy-pivot-tables-between-excel-workbooks-in-java/)
+Aspose.Cells for Java を使用して、Excel ブック間でピボットテーブルをコピーし、書式やデータを保持する方法を学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

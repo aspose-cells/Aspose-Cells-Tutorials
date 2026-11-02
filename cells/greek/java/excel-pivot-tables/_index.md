@@ -71,6 +71,19 @@
 Μάθετε πώς να αντιγράψετε μια περιοχή και να διατηρήσετε τον Συγκεντρωτικό Πίνακα στο Aspose.Cells για Java.
 ### [Πώς να αντιγράψετε συγκεντρωτικούς πίνακες στο Excel με Java – οδηγός βήμα‑βήμα](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
 Μάθετε πώς να δημιουργήσετε αντίγραφα Συγκεντρωτικών Πινάκων στο Excel με Aspose.Cells για Java, ακολουθώντας βήμα‑βήμα οδηγίες.
+### [Εξαγωγή εικόνας Συγκεντρωτικού Πίνακα Excel σε PNG με Java](./excel-pivot-table-image-export-to-png-with-java/)
+Μάθετε πώς να εξάγετε εικόνα ενός Συγκεντρωτικού Πίνακα Excel σε μορφή PNG χρησιμοποιώντας το Aspose.Cells για Java.
+### [Δημιουργία Νέου Φύλλου Εργασίας και Αντιγραφή Συγκεντρωτικού Πίνακα σε Java – Πλήρης Οδηγός Βήμα‑βήμα](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
+Μάθετε πώς να δημιουργήσετε νέο βιβλίο εργασίας και να αντιγράψετε έναν Συγκεντρωτικό Πίνακα χρησιμοποιώντας Aspose.Cells για Java, βήμα‑βήμα.
+### [Αντιγραφή Συγκεντρωτικού Πίνακα σε Java με Aspose.Cells – Πλήρης Οδηγός](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
+Μάθετε πώς να αντιγράψετε Συγκεντρωτικούς Πίνακες σε Excel χρησιμοποιώντας το Aspose.Cells για Java, βήμα-βήμα οδηγίες και παραδείγματα.
+### [Αντιγραφή πίνακα Pivot σε Java – οδηγός βήμα‑βήμα με το Aspose.Cells](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
+Μάθετε πώς να αντιγράψετε έναν Συγκεντρωτικό Πίνακα σε Java χρησιμοποιώντας το Aspose.Cells, βήμα‑βήμα.
+### [Πώς να αντιγράψετε συγκεντρωτικό πίνακα στο Aspose.Cells – αντιγραφή περιοχής σε βιβλίο εργασίας](./how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook/)
+### [Πώς να αντιγράψετε έναν Συγκεντρωτικό Πίνακα σε Java με Aspose.Cells](./how-to-copy-a-pivot-table-in-java-using-aspose-cells/)
+Μάθετε πώς να αντιγράψετε έναν Συγκεντρωτικό Πίνακα σε Java χρησιμοποιώντας Aspose.Cells.
+### [Πώς να αντιγράψετε συγκεντρωτικούς πίνακες μεταξύ βιβλίων εργασίας Excel σε Java](./how-to-copy-pivot-tables-between-excel-workbooks-in-java/)
+Μάθετε πώς να αντιγράψετε συγκεντρωτικούς πίνακες από ένα βιβλίο εργασίας Excel σε άλλο χρησιμοποιώντας Aspose.Cells για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

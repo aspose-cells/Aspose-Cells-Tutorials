@@ -79,6 +79,7 @@ Tìm hiểu cách ngắt dòng văn bản dài trong ô Excel bằng Aspose.Cell
 ### [Tạo kiểu ô trong C# – Cách áp dụng kiểu cho ô và căn giữa văn bản](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
 Hướng dẫn tạo kiểu ô trong Aspose.Cells cho .NET bằng C#, áp dụng kiểu và căn giữa nội dung ô một cách dễ dàng.
 ### [Cách tạo workbook Excel bằng C# với định dạng tùy chỉnh và lưu dưới dạng XLSX](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
+### [Tạo file Excel C# – tạo kiểu ô và đặt định dạng tiền tệ](./create-excel-file-c-style-cells-and-set-currency-format/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

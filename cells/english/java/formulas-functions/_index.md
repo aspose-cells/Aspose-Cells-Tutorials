@@ -101,6 +101,7 @@ Learn how to use the WRAPCOLS function in Aspose.Cells for Java to split a list 
 Learn how to calculate cotangent in Excel with Aspose.Cells for Java, covering formula setup, implementation details, and practical code examples.
 ### [How to use Aspose in Java – create Excel workbook with new functions](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
 Learn how to create an Excel workbook with new functions using Aspose.Cells for Java.
+### [Use expand function in Aspose.Cells Java – step‑by‑step guide](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
 
 ### [Aspose.Cells set formula with EXPAND function – complete Java guide](./aspose-cells-set-formula-with-expand-function-complete-java/)
 

@@ -100,6 +100,8 @@
 ### [วิธีคำนวณโคแทนเจนต์ใน Excel – คู่มือฉบับสมบูรณ์](./how-to-calculate-cotangent-in-excel-complete-guide/)
 เรียนรู้วิธีคำนวณฟังก์ชันโคแทนเจนต์ใน Excel อย่างละเอียด พร้อมตัวอย่างโค้ด Java และการใช้ Aspose.Cells
 
+### [ใช้ฟังก์ชัน expand ใน Aspose.Cells Java – คู่มือทีละขั้นตอน](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
+เรียนรู้วิธีใช้ฟังก์ชัน expand ใน Aspose.Cells สำหรับ Java อย่างละเอียดด้วยขั้นตอนที่ชัดเจน
 ### [Aspose.Cells ตั้งสูตรด้วยฟังก์ชัน EXPAND – คู่มือ Java ฉบับสมบูรณ์](./aspose-cells-set-formula-with-expand-function-complete-java/)
 เรียนรู้วิธีใช้ฟังก์ชัน EXPAND ใน Aspose.Cells สำหรับ Java เพื่อกำหนดสูตรและขยายช่วงข้อมูลอย่างอัตโนมัติ
 

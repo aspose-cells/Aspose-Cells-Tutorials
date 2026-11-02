@@ -64,6 +64,8 @@
 
 ### [如何在 Java 中使用 Aspose.Cells 拆分列 – 步骤指南](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
 学习如何使用 Aspose.Cells for Java 将 Excel 工作表中的列拆分为多个列的分步指南。
+### [如何使用 Aspose.Cells for Java 从 Excel 中删除自动筛选](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
+学习使用 Aspose.Cells for Java 删除 Excel 工作表中的自动筛选，以简化数据处理流程。
 
 ## 其他资源
 

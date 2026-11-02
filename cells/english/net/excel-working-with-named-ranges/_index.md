@@ -36,6 +36,8 @@ This method is ideal for targeted data management, allowing you to be precise wi
 Unlock the power of Excel by accessing named ranges with our easy guide using Aspose.Cells for .NET. Perfect for data management.
 ### [Access Specific Named Range in Excel](./access-specific-named-range/)
 Learn how to access specific named ranges in Excel using Aspose.Cells for .NET with this comprehensive, step-by-step tutorial and sample code.
+### [Define named range in Excel with C# – create workbook](./define-named-range-in-excel-with-c-create-workbook/)
+Learn how to define a named range in Excel using C# and Aspose.Cells by creating a new workbook from scratch.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

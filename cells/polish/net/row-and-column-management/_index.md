@@ -102,6 +102,8 @@ Naucz się wstawiać wiele wierszy w programie Excel za pomocą Aspose.Cells dla
 ### [Jak używać WRAPCOLS: Utwórz układ dwukolumnowy w C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 Dowiedz się, jak zastosować metodę WRAPCOLS w Aspose.Cells, aby w prosty sposób stworzyć układ dwukolumnowy w C#.
 ### [Usuwanie wierszy w tabeli Excel przy użyciu C# – przewodnik krok po kroku](./delete-rows-excel-table-with-c-step-by-step-guide/)
+### [Jak usunąć wiersze z tabeli Excel przy użyciu C#](./how-to-delete-rows-from-excel-table-using-c/)
+Dowiedz się, jak w C# usuwać wiersze z tabeli Excel przy użyciu Aspose.Cells, krok po kroku.
 ### [Jak wstawić wiersze w GridJs – dodaj wiele wierszy szybko](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Poznaj, jak przy użyciu GridJs wstawić wiele wierszy jednocześnie, aby przyspieszyć manipulację danymi w tabelach.
 ### [Jak wstawiać wiersze w GridJs – Efektywne dodawanie wielu wierszy do siatki](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
@@ -115,6 +117,9 @@ Dowiedz się, jak programowo przesunąć komórki w górę w arkuszu Excel przy 
 ### [Jak usuwać wiersze w Excelu przy użyciu C# – zachowanie nagłówka tabeli](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
 Dowiedz się, jak usuwać wiersze w Excelu w C# zachowując nagłówek tabeli.
 ### [Jak używać Aspose.Cells do usuwania wierszy w tabeli Excel przy zachowaniu nagłówka](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
+### [Usuwanie wierszy z tabeli Excel – kompletny przewodnik C#](./delete-rows-from-excel-table-complete-c-guide/)
+### [Utwórz skoroszyt Excel w C# i transponuj kolumnę do wiersza](./create-excel-workbook-c-and-transpose-column-to-row/)
+Dowiedz się, jak w C# utworzyć nowy skoroszyt Excel i zamienić kolumnę w wiersz przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -45,6 +45,8 @@ Apprenez à créer un fichier CSV depuis un classeur Excel avec Aspose.Cells en 
 
 
 
+### [Comment exporter un classeur Excel au format CSV avec Aspose.Cells en C#](./how-to-export-excel-workbook-to-csv-with-aspose-cells-in-c/)
+Apprenez à exporter un classeur Excel vers CSV en C# avec Aspose.Cells, étape par étape.
 
 
 

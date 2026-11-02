@@ -64,6 +64,8 @@
 
 ### [كيفية تقسيم الأعمدة في Java باستخدام Aspose.Cells – دليل خطوة بخطوة](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
 تعلم كيفية تقسيم الأعمدة في ملفات Excel باستخدام Aspose.Cells لجافا خطوة بخطوة.
+### [كيفية إزالة الفلتر التلقائي من Excel باستخدام Aspose.Cells Java](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
+تعرّف على كيفية إزالة الفلتر التلقائي من ملفات Excel باستخدام Aspose.Cells لجافا.
 
 ## موارد إضافية
 

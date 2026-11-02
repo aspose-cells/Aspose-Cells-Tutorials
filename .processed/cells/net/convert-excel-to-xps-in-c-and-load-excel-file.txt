@@ -1,0 +1,7 @@
+Title: Convert Excel to XPS in C# and load Excel file
+Slug: convert-excel-to-xps-in-c-and-load-excel-file
+Category: xps-and-pdf-operations
+ProcessedDate: 2026-10-10T23:57:37.788754
+SourceRepo: AI Search API
+Keywords: convert excel to xps, load excel file in c#
+PRNumber: 188

@@ -48,7 +48,7 @@ Dowiedz się, jak zaimplementować klasę produktu Java i zintegrować ją z Asp
 Dowiedz się, jak używać Aspose.Cells for Java do łatwego zarządzania rozszerzeniami internetowymi Excela. Postępuj zgodnie z tym przewodnikiem, aby zwiększyć swoje umiejętności zarządzania danymi i automatyzacji.
 
 ### [Opanuj automatyzację programu Excel w Javie przy użyciu Aspose.Cells: kompletny przewodnik](./master-excel-operations-aspose-cells-java/)
-Naucz się automatyzować zadania w programie Excel za pomocą Aspose.Cells for Java, obejmujące ładowanie skoroszytów, ustawianie opcji globalizacji, dodawanie sum częściowych, obliczanie formuł i automatyczne dopasowywanie kolumn.
+Naucz się automatyzować zadania w programie Excel za pomocą Aspose.Cells for Java, obejmujące ładowanie skoroszytów, ustawianie opcji globalizacji, dodanie sum częściowych, obliczanie formuł i automatyczne dopasowywanie kolumn.
 
 ### [Opanowanie implementacji klasy nauczycielskiej Java z integracją Aspose.Cells](./master-teacher-class-java-aspose-cells/)
 Dowiedz się, jak wdrożyć klasę Teacher w języku Java, zarządzać danymi uczniów i zintegrować Aspose.Cells w celu usprawnienia obsługi plików Excel.
@@ -76,6 +76,18 @@ Dowiedz się, jak wyeksportować wykresy z Excela do PowerPoint przy użyciu Asp
 Dowiedz się, jak przy użyciu Aspose.Cells for .NET zapisać plik Excel jako dokument DOCX w języku C#.
 ### [Konwertuj Excel na PowerPoint przy użyciu Aspose.Cells w Javie](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
 Dowiedz się, jak przekształcić pliki Excel w prezentacje PowerPoint przy pomocy Aspose.Cells w Javie.
+### [Jak zapisać PPTX z Excela – Kompletny przewodnik eksportu arkusza Excel do PowerPoint](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+Dowiedz się, jak przy użyciu Aspose.Cells for Java wyeksportować arkusz Excel do pliku PPTX (PowerPoint).
+
+### [Jak używać WRAPCOLS w Javie – Kompletny przewodnik konwersji macierzy](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
+Dowiedz się, jak używać funkcji WRAPCOLS w Javie do konwersji danych macierzowych przy użyciu Aspose.Cells.
+
+### [Jak osadzić czcionki przy konwertowaniu Excela do PDF w Javie](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
+Dowiedz się, jak osadzić czcionki w plikach PDF generowanych z arkuszy Excel przy użyciu Aspose.Cells for Java.
+### [Excel do PPTX: Kompletny przewodnik Java do eksportu edytowalnych kształtów](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+Dowiedz się, jak eksportować edytowalne kształty z Excela do prezentacji PPTX przy użyciu Aspose.Cells for Java.
+### [Jak wyeksportować wykres do docx z Excela przy użyciu Aspose.Cells dla Javy](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+Dowiedz się, jak wyeksportować wykres z arkusza Excel do dokumentu Word (docx) przy użyciu Aspose.Cells for Java.
 
 ## Dodatkowe zasoby
 

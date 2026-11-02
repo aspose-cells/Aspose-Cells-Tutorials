@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Inteligentne znaczniki w Aspose.Cells dla dynamicznych danych
@@ -53,8 +55,8 @@ Dowiedz się, jak ocenić formuły w Excelu przy użyciu inteligentnych znacznik
 ## Implementacja tablicy zmiennych z inteligentnymi znacznikami
 Czy często masz do czynienia z różnymi ilościami danych? Funkcja tablicy zmiennych w Smart Markers pozwala na elastyczne zarządzanie listami danych. Oznacza to, że możesz generować raporty, które dostosowują się do różnych rozmiarów zestawów danych bez konieczności ponownego projektowania szablonów za każdym razem. Ucząc się, jak wdrażać tablice zmiennych, możesz usprawnić procesy raportowania i ulepszyć prezentację danych. Ten samouczek przedstawia kroki, które pomogą Ci rozpocząć pracę z tablicami zmiennych w raportach. [Przeczytaj więcej](./variable-array-smart-markers/)
 
-## Użyj listy ogólnej w inteligentnych znacznikach
-Elastyczność list generycznych pozwala deweloperom obsługiwać dane w sposób ustrukturyzowany bez utraty wydajności. W tym samouczku dowiesz się, jak wykorzystać listy generyczne ze znacznikami inteligentnymi, aby tworzyć solidne, dynamiczne raporty programu Excel. Takie podejście zapewnia, że możesz łatwo manipulować zbiorami danych, zachowując jednocześnie silne bezpieczeństwo typów i wydajność w swoich aplikacjach. Śledź dalej, aby zobaczyć, jak może to przynieść korzyści w generowaniu raportów. [Przeczytaj więcej](./generic-list-smart-markers/)
+### [Utwórz plik Excel z JSON przy użyciu Aspose.Cells Smart Marker](./create-excel-from-json-with-aspose-cells-smart-marker/)
+Dowiedz się, jak generować plik Excel z danych JSON przy pomocy Smart Markers w Aspose.Cells.
 
 ## Inteligentne znaczniki w Aspose.Cells dla samouczków dotyczących dynamicznych danych
 ### [Dodawanie niestandardowych etykiet za pomocą inteligentnych znaczników w Aspose.Cells](./add-custom-labels-smart-markers/)
@@ -121,13 +123,8 @@ Dowiedz się, jak konwertować pliki JSON do formatu Excel przy użyciu C# i bib
 ### [Jak połączyć arkusze w Excelu za pomocą SmartMarker – przewodnik krok po kroku](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
 Dowiedz się, jak przy użyciu SmartMarker łączyć arkusze w Excelu, tworząc spójne raporty. Przewodnik krok po kroku dla .NET.
 
-
-
-
 ### [Utwórz skoroszyt Excel programowo przy użyciu inteligentnych znaczników](./create-excel-workbook-programmatically-using-smart-markers/)
-
-
-
+### [Konfiguracja opcji SmartMarkerOptions ArrayAsSingle w C# dla tablic JSON](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
 
 ### [Jak utworzyć skoroszyt przy użyciu inteligentnych znaczników – przewodnik Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
 Dowiedz się, jak krok po kroku utworzyć nowy skoroszyt Excel przy użyciu inteligentnych znaczników w Aspose.Cells dla .NET.
@@ -180,11 +177,11 @@ Dowiedz się, jak przy pomocy Smart Markers w Aspose.Cells stworzyć skoroszyt M
 Dowiedz się, jak używać Smart Markers do wypełniania szablonów Excel danymi w scenariuszu Master‑Detail.
 ### [Jak powielać arkusze – Kompletny przewodnik po automatyzacji Excela](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 
+### [Konwertuj JSON do XLSX w C# przy użyciu SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
-
-### [Konwertuj JSON do XLSX w C# przy użyciu SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)

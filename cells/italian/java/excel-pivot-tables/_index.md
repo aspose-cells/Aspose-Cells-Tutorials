@@ -79,6 +79,20 @@ Scopri come copiare un intervallo mantenendo intatta la tabella pivot in Java co
 
 ### [Come duplicare le tabelle pivot in Excel con Java – guida passo‑passo](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
 Scopri come duplicare le tabelle pivot in Excel usando Aspose.Cells per Java, con istruzioni dettagliate passo‑passo.
+### [Immagine della tabella pivot di Excel: esporta in PNG con Java](./excel-pivot-table-image-export-to-png-with-java/)
+Scopri come esportare una tabella pivot di Excel come immagine PNG usando Aspose.Cells per Java.
+### [Crea nuovo workbook e copia tabella pivot in Java – Guida completa passo‑passo](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
+Impara a creare un nuovo workbook e copiare una tabella pivot in Java con Aspose.Cells, passo dopo passo.
+### [Copiare la tabella pivot in Java con Aspose.Cells – Guida completa](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
+Impara a duplicare tabelle pivot in Excel usando Aspose.Cells per Java, con esempi pratici e consigli per una gestione efficiente dei dati.
+### [Copia tabella pivot in Java – guida passo‑passo con Aspose.Cells](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
+Scopri come copiare una tabella pivot in Java usando Aspose.Cells con istruzioni dettagliate passo‑passo.
+### [Come copiare una tabella pivot in Aspose.Cells – copiare l'intervallo nel workbook](./how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook/)
+Scopri come copiare una tabella pivot in Aspose.Cells copiando l'intervallo in un workbook.
+### [Copia di una tabella pivot in Java con Aspose.Cells](./how-to-copy-a-pivot-table-in-java-using-aspose-cells/)
+Scopri come copiare una tabella pivot in Java con Aspose.Cells, mantenendo formattazione e dati per ulteriori elaborazioni.
+### [Copia di tabelle pivot tra cartelle di lavoro Excel in Java](./how-to-copy-pivot-tables-between-excel-workbooks-in-java/)
+Scopri come copiare tabelle pivot da una cartella di lavoro Excel a un'altra usando Aspose.Cells per Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

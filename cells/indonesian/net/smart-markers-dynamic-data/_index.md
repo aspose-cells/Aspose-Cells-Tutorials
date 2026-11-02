@@ -140,6 +140,8 @@ Pelajari cara membuat koleksi smart marker secara lengkap menggunakan C# dengan 
 Panduan lengkap untuk mengembangkan aplikasi C# yang mengekspor data ke file Excel menggunakan Aspose.Cells.
 ### [Ulangi data di Excel – Isi templat dengan SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
 ### [Ekspor Data ke Excel: Isi Template dari Array di C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+### [Buat Excel dari JSON dengan Aspose.Cells Smart Marker](./create-excel-from-json-with-aspose-cells-smart-marker/)
+
 ### [Cara Menamai Sheet Secara Otomatis – Menghasilkan Banyak Sheet di C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Pelajari cara memberi nama sheet secara otomatis dan menghasilkan banyak sheet dalam file Excel menggunakan C# dengan Aspose.Cells.
 ### [Buat Objek Data Master – Panduan Langkah-demi-Langkah untuk Menghasilkan Lembar Detail](./create-master-data-object-step-by-step-guide-to-generate-det/)
@@ -190,6 +192,7 @@ Pelajari cara mengimpor data JSON ke file Excel menggunakan C# dengan Aspose.Cel
 ### [Panduan master detail Excel – mengisi templat dengan Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)
 ### [Cara Mengulang Lembar Kerja – Panduan Lengkap untuk Otomatisasi Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 Pelajari cara mengulang lembar kerja secara otomatis di Excel menggunakan Aspose.Cells untuk meningkatkan efisiensi laporan.
+### [Mengonfigurasi SmartMarkerOptions ArrayAsSingle di C# untuk array JSON](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

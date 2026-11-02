@@ -64,6 +64,8 @@ Erfahren Sie, wie Sie Textersetzungen in Excel-Dateien mithilfe von regulären A
 
 ### [Wie man Spalten in Java mit Aspose.Cells aufteilt – Schritt‑für‑Schritt‑Anleitung](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Spalten in Excel-Dateien programmgesteuert aufteilen und Daten effizient organisieren.
+### [So entfernen Sie den Autofilter aus Excel mit Aspose.Cells für Java](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java den Autofilter aus Excel-Arbeitsblättern entfernen.
 
 ## Weitere Ressourcen
 

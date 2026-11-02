@@ -64,6 +64,8 @@ Aspose.Cells for Java ile regex kullanarak Excel dosyalarında metin değiştirm
 
 ### [Java'da Aspose.Cells ile Sütunları Bölme: Adım Adım Kılavuz](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
 Java ve Aspose.Cells kullanarak Excel sütunlarını nasıl bölüp yeniden düzenleyeceğinizi adım adım öğrenin.
+### [Aspose.Cells Java ile Excel'den Otomatik Filtreyi Kaldırma](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
+Aspose.Cells for Java kullanarak Excel dosyalarından otomatik filtreyi nasıl kaldıracağınızı öğrenin.
 
 ## Ek Kaynaklar
 

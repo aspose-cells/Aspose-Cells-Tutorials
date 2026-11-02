@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Conversione di file Excel in altri formati
@@ -71,6 +73,8 @@ Scopri come esportare programmaticamente i fogli Excel in presentazioni PowerPoi
 Scopri come esportare un file Excel in una presentazione PowerPoint usando Aspose.Cells per .NET, con esempi di codice dettagliati.
 ### [Come avvolgere le celle e convertire Excel in PowerPoint con C#](./how-to-wrap-cells-and-convert-excel-to-powerpoint-in-c/)
 Scopri come avvolgere le celle e convertire un foglio Excel in una presentazione PowerPoint usando Aspose.Cells per .NET.
+### [Come salvare Excel come PowerPoint usando C# e Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+Scopri come convertire un file Excel in una presentazione PowerPoint con C# e Aspose.Cells in pochi passaggi.
 ### [Specificare HTML CrossType nell'output HTML a livello di programmazione in .NET](./specifying-html-crosstype-in-output-html/)
 Scopri come specificare HTML CrossType in Aspose.Cells per .NET. Segui il nostro tutorial passo passo per convertire i file Excel in HTML con precisione.
 ### [Lettura di fogli di calcolo numerici in modo programmatico in .NET](./reading-numbers-spreadsheet/)
@@ -85,14 +89,6 @@ Scopri come convertire un file Excel in PowerPoint e definire l'area di stampa u
 Scopri come convertire file XLSX in CSV usando C# e Aspose.Cells, con esempi di codice chiari e istruzioni passo‑passo.
 ### [Converti Excel in Word – Guida completa con C#](./convert-excel-to-word-complete-guide-with-c/)
 Scopri come convertire file Excel in Word utilizzando Aspose.Cells per .NET con C#. Guida passo passo con esempi di codice.
-
-
-
-
-
-
-
-
 ### [Salva Excel come Docx con C# – Guida completa passo‑passo](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 Scopri come salvare un file Excel in formato DOCX usando C# con Aspose.Cells, passo dopo passo con esempi di codice.
 ### [Creare PPT da Excel – Guida completa all'automazione C#](./create-ppt-from-excel-full-c-automation-guide/)
@@ -119,6 +115,8 @@ Scopri come salvare un file Excel in formato testo passo‑passo usando Aspose.C
 Scopri come esportare un file Excel in una presentazione PowerPoint con Aspose.Cells per .NET, passo dopo passo.
 ### [Salva Excel come txt – Guida completa C# per esportare Excel in TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
 Scopri come esportare un foglio Excel in file di testo TXT usando Aspose.Cells per .NET con esempi di codice C#.
+### [Come salvare una cartella di lavoro come CSV ed esportare Excel in TXT con formattazione personalizzata in C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+Scopri come salvare una cartella di lavoro in CSV ed esportare dati Excel in TXT con formattazione personalizzata usando C# e Aspose.Cells.
 ### [Come esportare Excel in PowerPoint con C# – Guida completa](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
 Scopri come convertire programmaticamente file Excel in presentazioni PowerPoint usando Aspose.Cells per .NET con esempi di codice dettagliati.
 ### [Converti Excel in PowerPoint – Guida passo‑passo C#](./convert-excel-to-powerpoint-step-by-step-c-guide/)
@@ -131,18 +129,27 @@ descrizione: Scopri come monitorare a livello di programmazione l'avanzamento de
 Impara a monitorare l'avanzamento della conversione TIFF a livello di codice utilizzando Aspose.Cells per .NET con la nostra guida passo passo. Migliora le tue competenze di gestione dei documenti.
 ### [Salva Excel come txt – Guida completa C# per esportare numeri con cifre significative](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 Scopri come esportare i numeri da Excel in file txt mantenendo le cifre significative con una guida passo passo in C#.
+### [Come salvare Excel come TXT usando Aspose.Cells in C#](./how-to-save-excel-as-txt-using-aspose-cells-in-c/)
+Scopri come salvare un foglio Excel in formato TXT con Aspose.Cells per .NET usando C#.
 ### [Crea Word da Excel – Guida rapida C#](./create-word-from-excel-quick-c-guide/)
 Scopri come generare un documento Word da un file Excel in pochi passaggi con C# e Aspose.Cells.
 ### [Come salvare Excel come PPT con caselle di testo modificabili in C#](./how-to-save-excel-as-ppt-with-editable-text-boxes-in-c/)
 Scopri come salvare un file Excel come presentazione PowerPoint con caselle di testo editabili usando Aspose.Cells per .NET in C#.
+### [Come incorporare i font in SVG durante la conversione di file Excel in SVG e PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Scopri come incorporare i font nei file SVG generati da Excel e PowerPoint usando Aspose.Cells per .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+### [Conversione di file Excel in Markdown tramite programmazione in .NET](./converting-excel-file-to-markdown/)
+### [Esporta Excel in PowerPoint con grafici modificabili in C#](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Scopri come esportare un foglio Excel in PowerPoint mantenendo i grafici editabili usando Aspose.Cells per .NET con C#.
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}### [Conversione di file Excel in Markdown tramite programmazione in .NET](./converting-excel-file-to-markdown/)
+### [Conversione di file Excel in Markdown tramite programmazione in .NET](./converting-excel-file-to-markdown/)
 Scopri come convertire i file Excel in formato Markdown utilizzando Aspose.Cells per .NET in questa guida dettagliata e passo dopo passo. Aumenta la produttività con una facile conversione dei file.
 ### [Come esportare Excel in PowerPoint – Guida completa](./how-to-export-excel-to-powerpoint-complete-guide/)
 Scopri come esportare i fogli Excel in presentazioni PowerPoint con Aspose.Cells per .NET, passo passo e con esempi di codice.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

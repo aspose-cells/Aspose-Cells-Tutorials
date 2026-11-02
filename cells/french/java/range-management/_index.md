@@ -55,6 +55,8 @@ Découvrez comment automatiser la copie de plusieurs colonnes dans une feuille d
 
 ### [Copier une plage de feuille de calcul par programme – Guide complet Java](./programmatically-copy-worksheet-range-complete-java-guide/)
 Apprenez à copier une plage de cellules d'une feuille de calcul Excel en Java avec Aspose.Cells, étape par étape.
+### [Comment copier une plage en Java avec Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
+Apprenez à copier rapidement des plages de cellules dans Excel en utilisant Aspose.Cells pour Java, avec des exemples de code détaillés.
 
 ### [Créer une plage d'union dans Excel avec Aspose.Cells Java : un guide complet](./create-union-range-excel-aspose-cells-java/)
 Apprenez à utiliser Aspose.Cells pour Java pour créer des plages d’union dans Excel, améliorant ainsi la présentation et la lisibilité des données.
@@ -93,6 +95,10 @@ Apprenez à fusionner efficacement des cellules dans des fichiers Excel avec Asp
 Apprenez à copier une plage de cellules d'un classeur à un autre en Java avec Aspose.Cells.
 ### [Créer une nouvelle feuille de calcul et copier une plage Excel avec Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
 Apprenez à créer une nouvelle feuille de calcul et à copier une plage de cellules Excel à l'aide d'Aspose.Cells pour Java.
+### [Créer une plage nommée et détecter les noms en double dans Excel](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Apprenez à créer une plage nommée dans Excel et à détecter les noms en double à l'aide d'Aspose.Cells pour Java.
+### [Comment utiliser la fonction d'expansion dans le traitement Excel Java](./how-to-use-expand-function-in-java-excel-processing/)
+Apprenez à appliquer la fonction d'expansion pour manipuler efficacement les données Excel avec Aspose.Cells pour Java.
 
 ## Ressources supplémentaires
 
