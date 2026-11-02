@@ -66,6 +66,8 @@ Aspose.Cells for .NET kullanarak boş bir sayfanın nasıl yazdırılacağını 
 Aspose.Cells for .NET ile Excel'de sıralı sayfaları işlemeyi öğrenin. Bu adım adım eğitim, seçili sayfaları resimlere dönüştürmek için ayrıntılı bir kılavuz sağlar.
 ### [Aspose.Cells'de Pivot Referans Aralığı Oluştur – Pivot Tablo Görüntüsünü PNG Olarak Dışa Aktar](./create-pivot-reference-range-export-pivot-table-image-as-png/)
 Aspose.Cells for .NET kullanarak pivot referans aralığı oluşturmayı ve pivot tablo görüntüsünü PNG olarak dışa aktarmayı öğrenin.
+### [Aspose.Cells'de C# ile PNG Pivot Görüntüsü Oluşturma – Tam Adım Adım Kılavuz](./create-png-pivot-image-in-c-full-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak C# içinde PNG pivot görüntüsü oluşturmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -72,6 +72,8 @@ Learn how to customize superscript text in Excel using Aspose.Cells for .NET. En
 Learn how to embed fonts in Excel exports using Aspose.Cells for .NET in C# with this comprehensive step-by-step guide.
 ### [how to copy font from an Excel cell to a TextBox – Step‑by‑Step Guide](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
 Learn how to copy font from an Excel cell to a TextBox using Aspose.Cells for .NET in this step‑by‑step guide.
+### [Apply Bold Font to a Textbox – Step‑by‑Step C# Guide](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
+Learn how to apply bold font to a textbox in Excel using Aspose.Cells for .NET with this step‑by‑step C# guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

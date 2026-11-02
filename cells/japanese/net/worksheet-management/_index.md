@@ -152,6 +152,9 @@ Aspose.Cells for .NET を使って、Excel のワークシートタブの色を�
 ### [Aspose.Cells .NET を使用して Excel のワークシートペインを分割し、データ分析を強化する方法](./split-worksheet-panes-excel-aspose-cells-dotnet)
 Aspose.Cells for .NET を使用して Excel のワークシート ペインを分割し、データ ナビゲーションと分析の効率を向上させて大規模なデータセットをより適切に視覚化する方法を学びます。
 
+### [SmartMarkerProcessor を使用して Excel の既存シートの名前を変更する方法](./how-to-use-smartmarkerprocessor-rename-existing-sheet-in-exc/)
+SmartMarkerProcessor を活用し、既存の Excel シート名をプログラムで変更する手順をステップバイステップで解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

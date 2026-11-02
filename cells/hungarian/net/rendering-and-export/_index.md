@@ -66,6 +66,8 @@ Tanuld meg, hogyan nyomtathatsz üres oldalt az Aspose.Cells for .NET segítség
 Tanuld meg, hogyan jeleníts meg szekvenciális oldalakat Excelben az Aspose.Cells for .NET segítségével. Ez a lépésről lépésre bemutató részletes útmutatást nyújt a kiválasztott oldalak képekké konvertálásához.
 ### [Pivot hivatkozási tartomány létrehozása – Pivot tábla kép exportálása PNG-ként](./create-pivot-reference-range-export-pivot-table-image-as-png/)
 Tanuld meg, hogyan hozhatsz létre pivot hivatkozási tartományt, és exportálhatod a pivot táblát PNG képként az Aspose.Cells for .NET segítségével.
+### [PNG Pivot kép létrehozása C#‑ban – Teljes lépésről‑lépésre útmutató](./create-png-pivot-image-in-c-full-step-by-step-guide/)
+Tanulja meg, hogyan hozhat létre PNG formátumú pivot képet C#‑ban az Aspose.Cells for .NET segítségével, részletes lépésről‑lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

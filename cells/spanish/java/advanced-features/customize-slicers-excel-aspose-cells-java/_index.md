@@ -1,13 +1,12 @@
 ---
-date: '2025-12-19'
-description: Aprende cómo actualizar el segmentador de Excel y personalizar sus propiedades
-  usando Aspose.Cells para Java, incluyendo la configuración de la dependencia Maven
-  Aspose.Cells. Potencia tu visualización de datos.
+date: '2026-04-27'
+description: Aprende cómo agregar un segmentador a Excel y actualizarlo usando Aspose.Cells
+  para Java, incluida la configuración de la dependencia Maven de Aspose.Cells.
 keywords:
-- Excel slicer customization
-- Aspose.Cells for Java
-- Java Excel manipulation
-title: Actualizar el segmentador de Excel y personalizar con Aspose.Cells para Java
+- add slicer to excel
+- maven aspose cells dependency
+- customize excel slicer java
+title: Agregar segmentación a Excel y actualizar con Aspose.Cells para Java
 url: /es/java/advanced-features/customize-slicers-excel-aspose-cells-java/
 weight: 1
 ---
@@ -22,32 +21,43 @@ weight: 1
 
 ## Introducción
 
-¿Necesita más control sobre las herramientas de visualización de datos de Excel? Si está trabajando con conjuntos de datos complejos, los segmentadores son esenciales para filtrar y gestionar las vistas de manera eficaz. En esta guía aprenderá a **refrescar el segmentador de Excel**, ajustar la ubicación, el tamaño, los títulos y más, utilizando Aspose.Cells para Java. Este tutorial lo acompañará paso a paso, desde la configuración del entorno hasta el guardado del libro final.
+¿Necesitas más control sobre las herramientas de visualización de datos de Excel? Cuando trabajas con conjuntos de datos complejos, a menudo necesitas **add slicer to Excel** y luego actualizar sus propiedades para que la vista se mantenga al día. En esta guía aprenderás a **refresh Excel slicer** programáticamente, ajustar la ubicación, el tamaño, los títulos y más—usando Aspose.Cells para Java. Recorreremos todo, desde la configuración del entorno hasta guardar el libro final, para que puedas ofrecer informes pulidos e interactivos.
 
-**Lo que aprenderá:**
-- Configurar Aspose.Cells para Java en su entorno de desarrollo
-- Personalizar los segmentadores cambiando su ubicación, tamaño, título y más
-- Cómo **refrescar el segmentador de Excel** programáticamente para aplicar los cambios dinámicamente
+**Lo que aprenderás:**
+- Configurar Aspose.Cells para Java en tu entorno de desarrollo  
+- Cómo **add slicer to Excel** y personalizar su ubicación, tamaño, título y otras propiedades  
+- Cómo **refresh Excel slicer** programáticamente para aplicar cambios dinámicamente  
 
-¿Listo para mejorar sus habilidades de visualización de datos? ¡Comencemos con los requisitos previos!
+¿Listo para mejorar tus habilidades de visualización de datos? ¡Comencemos con los requisitos previos!
 
 ## Respuestas rápidas
-- **¿Cuál es el objetivo principal?** Refrescar el segmentador de Excel y personalizar su apariencia.  
-- **¿Qué biblioteca necesito?** Aspose.Cells para Java (dependencia Maven Aspose.Cells).  
+- **¿Cuál es el objetivo principal?** Add slicer to Excel y actualizar su apariencia.  
+- **¿Qué biblioteca necesito?** Aspose.Cells for Java (dependencia Maven Aspose.Cells).  
 - **¿Necesito una licencia?** Una prueba gratuita sirve para evaluación; se requiere una licencia comercial para producción.  
 - **¿Qué versión de Java es compatible?** JDK 8 o superior.  
-- **¿Puedo usar esto en un proyecto Maven?** Sí, añada la dependencia Maven Aspose.Cells como se muestra a continuación.
+- **¿Puedo usar esto en un proyecto Maven?** Sí—agrega la dependencia Maven Aspose.Cells como se muestra a continuación.
+
+## Qué es “add slicer to excel”?
+
+Un slicer es un control interactivo tipo botón que permite a los usuarios filtrar datos de tabla con un solo clic. Añadir un slicer a Excel brinda a los usuarios finales una forma visual de segmentar y desglosar datos sin abrir el cuadro de diálogo de filtro. Aspose.Cells te permite crear y dar estilo a los slicers completamente desde código Java, lo que es perfecto para la generación automatizada de informes.
+
+## ¿Por qué personalizar slicers con Aspose.Cells?
+
+- **Control total programático** – Sin pasos manuales en Excel; todo se ejecuta desde tu aplicación Java.  
+- **Marca coherente** – Ajusta colores, títulos y ubicación para que coincidan con las guías de estilo corporativas.  
+- **Actualizaciones dinámicas** – Actualiza los slicers después de cambiar datos o el diseño, manteniendo los paneles precisos.  
 
 ## Requisitos previos
 
-Antes de personalizar las propiedades del segmentador, asegúrese de tener:
-1. **Bibliotecas requeridas**: Aspose.Cells para Java, integrado mediante Maven o Gradle.  
+Antes de personalizar las propiedades del slicer, asegúrate de tener:
+
+1. **Bibliotecas requeridas**: Aspose.Cells for Java, integrado vía Maven o Gradle.  
 2. **Configuración del entorno**: Un Java Development Kit (JDK) compatible, típicamente JDK 8 o superior.  
-3. **Prerequisitos de conocimiento**: Comprensión básica de programación Java y familiaridad con archivos Excel.
+3. **Prerequisitos de conocimiento**: Comprensión básica de programación Java y familiaridad con archivos Excel.  
 
 ## Configuración de Aspose.Cells para Java
 
-Para comenzar, incluya Aspose.Cells en su proyecto:
+Para comenzar, incluye Aspose.Cells en tu proyecto:
 
 ### Dependencia Maven Aspose.Cells
 
@@ -59,7 +69,7 @@ Para comenzar, incluya Aspose.Cells en su proyecto:
 </dependency>
 ```
 
-### Configuración Gradle
+### Configuración de Gradle
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
@@ -67,27 +77,27 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### Obtención de licencia
 
-Comience con una **prueba gratuita** de Aspose.Cells para explorar sus funciones:
+Comienza con una **prueba gratuita** de Aspose.Cells para explorar sus funciones:
 - [Free Trial](https://releases.aspose.com/cells/java/)
-Para acceso completo, considere comprar una licencia o obtener una licencia temporal:
+Para acceso completo, considera comprar una licencia o obtener una temporal:
 - [Purchase](https://purchase.aspose.com/buy)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
 ### Inicialización básica
 
-Una vez que Aspose.Cells esté configurado, inicialice su entorno Java para comenzar a trabajar con archivos Excel.
+Una vez que Aspose.Cells está configurado, inicializa tu entorno Java para comenzar a trabajar con archivos Excel.
 
 ```java
 import com.aspose.cells.Workbook;
 ```
 
-## Guía de implementación
+## Cómo añadir slicer a Excel con Aspose.Cells para Java
 
-En esta sección, recorreremos los pasos necesarios para personalizar las propiedades del segmentador en un archivo Excel usando Aspose.Cells para Java.
+En esta sección, repasaremos los pasos exactos que necesitas para **add slicer to Excel**, luego personalizarlo y actualizarlo.
 
-### Carga y acceso a su libro
+### Cargar y acceder a tu libro de trabajo
 
-**Visión general:** Comience cargando su libro de Excel y accediendo a la hoja que contiene su tabla de datos.
+**Visión general:** Comienza cargando el libro de Excel que contiene la tabla que deseas filtrar.
 
 ```java
 // Load sample Excel file containing a table.
@@ -97,9 +107,9 @@ Workbook workbook = new Workbook("sampleCreateSlicerToExcelTable.xlsx");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### Añadir y personalizar segmentadores
+### Añadir y personalizar slicers
 
-**Visión general:** Añada un segmentador a su tabla y luego personalice sus propiedades como ubicación, tamaño, título y más.
+**Visión general:** Después de obtener la hoja de cálculo, añade un slicer para la columna deseada y luego ajusta sus propiedades.
 
 ```java
 // Access the first table in the worksheet.
@@ -132,17 +142,17 @@ slicer.setPrintable(false); // Do not include slicer in prints
 slicer.setLocked(false);    // Allow edits to the slicer
 ```
 
-### Cómo refrescar el segmentador de Excel
+### Cómo actualizar el slicer de Excel
 
-Después de realizar cualquier cambio de propiedad, debe **refrescar el segmentador de Excel** para que el libro refleje las actualizaciones.
+Después de realizar cambios en cualquier propiedad, debes **refresh Excel slicer** para que el libro refleje las actualizaciones.
 
 ```java
 slicer.refresh();
 ```
 
-### Guardado de su libro
+### Guardar tu libro de trabajo
 
-Finalmente, guarde su libro con las propiedades del segmentador personalizadas.
+Finalmente, guarda el libro con las propiedades personalizadas del slicer.
 
 ```java
 workbook.save("outputChangeSlicerProperties.xlsx", SaveFormat.XLSX);
@@ -150,34 +160,36 @@ workbook.save("outputChangeSlicerProperties.xlsx", SaveFormat.XLSX);
 
 ## Aplicaciones prácticas
 
-Personalizar segmentadores es particularmente útil en escenarios como:
-1. **Análisis de datos** – Mejore la exploración de datos haciendo los segmentadores más interactivos e informativos.  
-2. **Informes** – Adapte los informes para enfatizar puntos de datos específicos usando segmentadores visualmente distintivos.  
-3. **Integración en paneles** – Incorpore segmentadores en paneles para una mejor interacción del usuario.
+Personalizar slicers es particularmente útil en escenarios como:
+
+1. **Análisis de datos** – Haz que la exploración de datos sea más interactiva al proporcionar a los usuarios un filtro claro y clicable.  
+2. **Informes** – Destaca métricas clave con slicers visualmente distintos que coincidan con la marca corporativa.  
+3. **Integración de paneles** – Inserta slicers en paneles para una experiencia de análisis autoservicio sin interrupciones.  
 
 ## Consideraciones de rendimiento
 
-Al trabajar con conjuntos de datos grandes o numerosos segmentadores, considere estos consejos:
-- Optimice el uso de memoria gestionando los ciclos de vida de los objetos.  
-- Minimice operaciones redundantes para mejorar el rendimiento.  
-- Refresque los segmentadores solo cuando sea necesario para reducir la sobrecarga de procesamiento.
+Al trabajar con grandes conjuntos de datos o numerosos slicers, ten en cuenta estos consejos:
+
+- **Gestión de memoria:** Elimina los objetos que ya no necesitas para liberar memoria.  
+- **Actualizaciones por lotes:** Agrupa cambios de propiedades y llama a `slicer.refresh()` solo una vez para evitar procesamiento innecesario.  
+- **Actualización selectiva:** Actualiza solo los slicers que realmente cambiaron en lugar de todos.  
 
 ## Preguntas frecuentes
 
-**P:** ¿Qué pasa si encuentro errores al añadir un segmentador?  
-**R:** Asegúrese de que la hoja contiene una tabla válida y verifique su código en busca de errores de sintaxis.
+**Q:** ¿Qué pasa si encuentro errores al añadir un slicer?  
+**A:** Asegúrate de que la hoja contiene una tabla válida y verifica tu código en busca de errores de sintaxis.
 
-**P:** ¿Puedo cambiar los segmentadores dinámicamente según la entrada del usuario?  
-**R:** Sí, integre escuchas de eventos o componentes UI que disparen actualizaciones del segmentador en tiempo de ejecución.
+**Q:** ¿Puedo cambiar los slicers dinámicamente según la entrada del usuario?  
+**A:** Sí—integra escuchas de eventos o componentes UI que disparen actualizaciones del slicer en tiempo de ejecución.
 
-**P:** ¿Cuáles son los errores comunes al personalizar segmentadores?  
-**R:** Olvidar llamar a `slicer.refresh()` después de los cambios puede provocar visuales desactualizados.
+**Q:** ¿Cuáles son los errores comunes al personalizar slicers?  
+**A:** Olvidar llamar a `slicer.refresh()` después de los cambios puede provocar visuales desactualizados.
 
-**P:** ¿Cómo manejo archivos Excel grandes con múltiples segmentadores?  
-**R:** Use técnicas eficientes de gestión de memoria y refresque solo los segmentadores que realmente cambiaron.
+**Q:** ¿Cómo manejo archivos Excel grandes con múltiples slicers?  
+**A:** Usa técnicas eficientes de gestión de memoria y actualiza solo los slicers que realmente cambiaron.
 
-**P:** ¿Está disponible soporte si necesito ayuda?  
-**R:** Por supuesto, visite los [Foros de Soporte de Aspose](https://forum.aspose.com/c/cells/9) para obtener ayuda.
+**Q:** ¿Está disponible el soporte si necesito ayuda?  
+**A:** Por supuesto—visita los [Foros de Soporte de Aspose](https://forum.aspose.com/c/cells/9) para obtener asistencia.
 
 ## Recursos
 - **Documentación:** [Aspose.Cells Java Documentation](https://reference.aspose.com/cells/java/)  
@@ -185,11 +197,11 @@ Al trabajar con conjuntos de datos grandes o numerosos segmentadores, considere 
 - **Compra y licencias:** [Buy Aspose Cells](https://purchase.aspose.com/buy)  
 - **Prueba y licencia:** [Free Trial](https://releases.aspose.com/cells/java/) | [Temporary License](https://purchase.aspose.com/temporary-license/)
 
-¡Emprenda su camino para dominar la personalización de segmentadores de Excel con Aspose.Cells para Java y lleve sus presentaciones de datos al siguiente nivel!
+¡Emprende tu camino para dominar la personalización de slicers de Excel con Aspose.Cells para Java y lleva tus presentaciones de datos al siguiente nivel!
 
 ---
 
-**Última actualización:** 2025-12-19  
+**Última actualización:** 2026-04-27  
 **Probado con:** Aspose.Cells 25.3 for Java  
 **Autor:** Aspose
 

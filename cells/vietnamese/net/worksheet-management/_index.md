@@ -137,6 +137,9 @@ Tìm hiểu cách tải hiệu quả các trang tính có thể nhìn thấy tro
 ### [Cách hợp nhất và đổi tên các trang tính Excel bằng Aspose.Cells cho .NET: Hướng dẫn từng bước](./merge-rename-excel-sheets-aspose-cells-net)
 Tìm hiểu cách hợp nhất nhiều tệp Excel thành một và đổi tên các trang tính theo trình tự bằng Aspose.Cells cho .NET. Nâng cao năng suất và hợp lý hóa quy trình làm việc với hướng dẫn toàn diện này để hợp nhất sổ làm việc.
 
+### [Cách sử dụng SmartMarkerProcessor – Đổi tên trang tính hiện có trong Excel](./how-to-use-smartmarkerprocessor-rename-existing-sheet-in-exc/)
+Tìm hiểu cách sử dụng SmartMarkerProcessor để đổi tên một trang tính hiện có trong tệp Excel bằng Aspose.Cells cho .NET.
+
 ### [Cách hợp nhất các trang tính trong Excel bằng Aspose.Cells cho .NET: Hướng dẫn toàn diện](./merge-spreadsheets-with-aspose-cells-net)
 Tìm hiểu cách hợp nhất nhiều bảng tính thành một bằng Aspose.Cells cho .NET, hợp lý hóa việc quản lý dữ liệu và tự động hóa các tác vụ Excel một cách hiệu quả để báo cáo hợp nhất và phân tích dữ liệu.
 

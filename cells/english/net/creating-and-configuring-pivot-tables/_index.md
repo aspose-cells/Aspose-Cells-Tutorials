@@ -63,6 +63,8 @@ Learn to create a pivot table programmatically in .NET using Aspose.Cells with o
 Learn how to disable the pivot table ribbon in .NET using Aspose.Cells. This step-by-step guide makes it easy to customize your Excel interactions.
 ### [Formatting and Look of Pivot Tables Programmatically in .NET](./formatting-and-look/)
 Enhance your Excel pivot tables with Aspose.Cells for .NET. Learn to format, customize, and automate your data presentation effortlessly.
+### [How to Create Pivot in C# – Full Guide with Aspose.Cells](./how-to-create-pivot-in-c-full-guide-with-aspose-cells/)
+Learn to create a pivot table in C# using Aspose.Cells with a comprehensive step-by-step guide.
 ### [Refresh and Calculate Items in Pivot Table  in .NET](./refreshing-and-calculating-items/)
 Discover how to refresh and calculate items in a Pivot Table using Aspose.Cells for .NET with this comprehensive, step-by-step tutorial.
 ### [Setting Auto Format of Pivot Table Programmatically in .NET](./setting-auto-format/)

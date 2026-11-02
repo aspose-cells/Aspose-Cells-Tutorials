@@ -1,12 +1,55 @@
 ---
-date: '2026-01-14'
-description: Học cách lưu workbook Excel bằng Aspose.Cells cho Java và khám phá cách
-  nhập dữ liệu Excel cho quản lý tồn kho.
+date: '2026-06-27'
+description: Tìm hiểu cách chuyển đổi Excel sang PDF bằng Aspose.Cells for Java và
+  khám phá cách nhập dữ liệu Excel cho quản lý tồn kho.
 keywords:
-- Excel Workbook Automation
-- Aspose.Cells Java
-- Java Excel Manipulation
-title: Lưu Sổ làm việc Excel bằng Aspose.Cells cho Java – Hướng dẫn đầy đủ
+- convert excel to pdf
+- how to save excel
+- optimize excel performance
+- convert excel to csv
+- generate excel report java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-27'
+  description: Learn how to convert Excel to PDF using Aspose.Cells for Java, and
+    discover how to import Excel data for inventory management.
+  headline: Convert Excel to PDF using Aspose.Cells for Java – Guide
+  type: TechArticle
+- description: Learn how to convert Excel to PDF using Aspose.Cells for Java, and
+    discover how to import Excel data for inventory management.
+  name: Convert Excel to PDF using Aspose.Cells for Java – Guide
+  steps:
+  - name: Specify the File Path and Load the Workbook
+    text: '**Explanation**: The `Workbook` constructor loads your Excel file into
+      memory, allowing you to manipulate its contents programmatically.'
+  - name: Access the Desired Worksheet
+    text: '**Explanation**: The `getWorksheets()` method retrieves all worksheets,
+      while `get(0)` accesses the first worksheet (indexing starts at 0).'
+  - name: Set OLE Object Properties
+    text: '**Explanation**: The `setAutoLoad(true)` method ensures the OLE object
+      automatically loads when opening the workbook.'
+  - name: Save the Workbook with Changes
+    text: '**Explanation**: The `save` method writes your changes to a file, with
+      `SaveFormat.XLSX` specifying the output format. Replace `SaveFormat.XLSX` with
+      `SaveFormat.PDF` to **convert Excel to PDF**, or use `SaveFormat.CSV` for CSV
+      output.'
+  type: HowTo
+- questions:
+  - answer: It is a Java library that enables creation, manipulation, conversion,
+      and rendering of Excel files without requiring Microsoft Office.
+    question: What is Aspose.Cells for Java?
+  - answer: Yes, Aspose.Cells is also available for .NET, C++, and other platforms.
+    question: Can I use Aspose.Cells with other programming languages?
+  - answer: You can start with a temporary license to evaluate all features without
+      limitations.
+    question: Is there a free version?
+  - answer: Use Maven or Gradle dependency management as shown earlier in this guide.
+    question: How do I integrate Aspose.Cells into my existing Java project?
+  - answer: Ensure the file path is correct, verify the file isn’t corrupted, and
+      enable memory‑optimised settings to avoid OutOfMemory errors.
+    question: What are common issues when loading large Excel files?
+  type: FAQPage
+title: Chuyển đổi Excel sang PDF bằng Aspose.Cells for Java – Hướng dẫn
 url: /vi/java/automation-batch-processing/excel-workbook-automation-aspose-cells-java/
 weight: 1
 ---
@@ -17,43 +60,48 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lưu Sổ làm việc Excel với Aspose.Cells cho Java – Hướng Dẫn Toàn Diện
+# Chuyển đổi Excel sang PDF bằng Aspose.Cells cho Java – Hướng dẫn
 
 ## Giới thiệu
 
-Bạn có mệt mỏi vì phải **save Excel workbook** bằng các thư viện Java truyền thống? Dù bạn là nhà phát triển muốn tối ưu hoá quy trình xử lý dữ liệu hay cần **import Excel data** cho việc quản lý tồn kho, việc thành thạo Aspose.Cells có thể thay đổi cách bạn làm việc với Excel trong Java. Trong hướng dẫn chi tiết này, chúng tôi sẽ hướng dẫn bạn cách tải, chỉnh sửa và cuối cùng **save Excel workbook**, đồng thời đề cập đến các nhiệm vụ liên quan như chuyển đổi định dạng Excel và tạo báo cáo Excel.
+Nếu bạn cần **chuyển đổi Excel sang PDF** nhanh chóng và đáng tin cậy từ một ứng dụng Java, Aspose.Cells cho Java là giải pháp hàng đầu. Dù bạn đang xây dựng công cụ quản lý tồn kho, tạo báo cáo tài chính, hoặc tự động hoá các quy trình trao đổi dữ liệu, hướng dẫn này sẽ dẫn bạn qua việc tải một workbook, chỉnh sửa nội dung, và cuối cùng **lưu** (hoặc chuyển đổi) nó sang PDF, CSV, hoặc bất kỳ định dạng hỗ trợ nào khác. Chúng tôi cũng sẽ đề cập đến các thực hành tốt nhất để xử lý các tệp Excel lớn và tối ưu hiệu năng.
 
 **Bạn sẽ học được**
-- Cách tải một sổ làm việc Excel hiện có từ tệp.  
-- Kỹ thuật truy cập và thao tác với các worksheet cụ thể.  
-- Các phương pháp thiết lập thuộc tính của đối tượng OLE trong các sheet.  
-- Các thực tiễn tốt nhất để **save Excel workbook** một cách hiệu quả và chuyển đổi sang các định dạng khác.  
+- Tải một workbook Excel hiện có từ đĩa.  
+- Truy cập và thao tác các worksheet cụ thể và các đối tượng OLE.  
+- Chuyển đổi và **lưu workbook Excel** sang PDF, CSV, hoặc các định dạng khác.  
+- Mẹo để **tối ưu hiệu năng Excel** cho các tệp lớn.  
 
-Hãy chắc chắn rằng bạn đã đáp ứng các yêu cầu trước khi bắt đầu!
+Trước khi chúng ta bắt đầu, hãy chắc chắn môi trường của bạn đáp ứng các yêu cầu trước đây dưới đây.
 
 ## Câu trả lời nhanh
-- **Mục tiêu chính là gì?** Lưu các tệp sổ làm việc Excel sau khi đã chỉnh sửa.  
-- **Nên dùng thư viện nào?** Aspose.Cells cho Java (v25.3+).  
-- **Có cần giấy phép không?** Một giấy phép tạm thời có sẵn để đánh giá; giấy phép mua sẽ cần cho môi trường sản xuất.  
-- **Có thể chuyển đổi định dạng không?** Có – bạn có thể lưu dưới dạng XLSX, CSV, PDF, và nhiều hơn nữa.  
-- **Có phù hợp với tệp lớn không?** Có, với việc quản lý bộ nhớ hợp lý bạn có thể **optimize Excel performance**.
+
+- **Mục tiêu chính là gì?** Chuyển đổi các workbook Excel sang PDF (hoặc các định dạng khác) sau khi thao tác.  
+- **Thư viện nào tôi nên sử dụng?** Aspose.Cells cho Java (v25.3+).  
+- **Tôi có cần giấy phép không?** Giấy phép đánh giá tạm thời là miễn phí; giấy phép mua cần thiết cho môi trường sản xuất.  
+- **Tôi có thể xử lý các tệp lớn không?** Có—sử dụng cài đặt tối ưu bộ nhớ để xử lý các workbook hàng trăm trang một cách hiệu quả.  
+- **Có hỗ trợ chuyển đổi định dạng không?** Hoàn toàn—lưu dưới dạng XLSX, CSV, PDF, HTML và hơn 50 định dạng khác.
+
+## Aspose.Cells cho Java là gì?
+
+Aspose.Cells cho Java là một API mạnh mẽ cho phép tạo, thao tác và chuyển đổi các tệp Excel mà không cần Microsoft Office. Nó hỗ trợ hơn 50 định dạng đầu vào và đầu ra—bao gồm XLSX, CSV, PDF, HTML và các loại hình ảnh—giúp bạn làm việc với bảng tính trên bất kỳ nền tảng nào. Để biết hướng dẫn chi tiết, xem [tài liệu toàn diện](https://reference.aspose.com/cells/java/).
 
 ## Yêu cầu trước
 
-Trước khi bắt đầu, hãy chắc chắn bạn đã có những thứ sau:
+Trước khi bắt đầu, hãy chắc chắn bạn có những thứ sau:
 
 ### Thư viện và phụ thuộc cần thiết
-Bạn sẽ cần Aspose.Cells cho Java phiên bản 25.3 hoặc mới hơn. Đảm bảo phụ thuộc này được cấu hình đúng trong dự án của bạn bằng Maven hoặc Gradle.
+Bạn sẽ cần Aspose.Cells cho Java phiên bản 25.3 hoặc mới hơn. Đảm bảo rằng phụ thuộc này được cấu hình đúng trong dự án của bạn bằng Maven hoặc Gradle.
 
-### Yêu cầu môi trường
-Đảm bảo môi trường phát triển của bạn hỗ trợ Java SE Development Kit (JDK) 8 trở lên, vì nó tương thích với Aspose.Cells.
+### Yêu cầu thiết lập môi trường
+Đảm bảo môi trường phát triển của bạn hỗ trợ Java SE Development Kit (JDK) 8 hoặc cao hơn, vì nó tương thích với Aspose.Cells.
 
-### Kiến thức nền tảng
-Hiểu biết cơ bản về lập trình Java và quen thuộc với cấu trúc tệp Excel sẽ giúp bạn theo dõi tutorial này dễ dàng hơn.
+### Yêu cầu kiến thức
+Kiến thức cơ bản về lập trình Java và hiểu biết về cấu trúc tệp Excel sẽ hữu ích khi theo dõi hướng dẫn này.
 
 ## Cài đặt Aspose.Cells cho Java
 
-Để bắt đầu sử dụng Aspose.Cells trong dự án Java của bạn, cần thiết lập thư viện đúng cách. Đây là cách thực hiện:
+Để bắt đầu sử dụng Aspose.Cells trong dự án Java của bạn, bạn cần thiết lập thư viện một cách đúng đắn. Đây là cách thực hiện:
 
 **Maven**  
 Thêm phụ thuộc sau vào tệp `pom.xml` của bạn:
@@ -67,17 +115,19 @@ Thêm phụ thuộc sau vào tệp `pom.xml` của bạn:
 ```
 
 **Gradle**  
-Thêm đoạn này vào tệp `build.gradle` của bạn:
+Bao gồm đoạn này trong tệp `build.gradle` của bạn:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Nhận giấy phép
-Bạn có thể lấy giấy phép tạm thời để đánh giá đầy đủ tính năng của Aspose.Cells mà không bị giới hạn bằng cách truy cập [temporary license page](https://purchase.aspose.com/temporary-license/). Đối với việc sử dụng lâu dài, bạn có thể mua giấy phép từ [purchase portal](https://purchase.aspose.com/buy).
+### Mua giấy phép
+
+Bạn có thể nhận giấy phép tạm thời để đánh giá đầy đủ các tính năng của Aspose.Cells mà không bị giới hạn bằng cách truy cập [trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/). Đối với việc sử dụng lâu dài, bạn có thể mua giấy phép từ [cổng mua hàng](https://purchase.aspose.com/buy).
 
 ### Khởi tạo cơ bản
-Sau khi cài đặt và cấp giấy phép, khởi tạo sổ làm việc với cấu hình tối thiểu:
+
+Sau khi cài đặt và cấp giấy phép, khởi tạo workbook của bạn với cấu hình tối thiểu:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -95,31 +145,25 @@ public class ExcelManipulation {
 }
 ```
 
-## Hướng dẫn triển khai
+## Tải một workbook Excel
 
-Bây giờ, chúng ta sẽ đi sâu vào từng tính năng của Aspose.Cells cho Java, kèm theo hướng dẫn từng bước.
-
-### Tải một Sổ làm việc Excel
-
-**Tổng quan**  
-Việc tải sổ làm việc là bước đầu tiên để truy cập và thao tác nội dung của nó. Quá trình này khởi tạo các cấu trúc dữ liệu cần thiết cho các thao tác tiếp theo.
+Lớp `Workbook` là đối tượng cốt lõi của Aspose.Cells đại diện cho một tệp Excel duy nhất trong bộ nhớ. Việc tải một workbook tạo ra các cấu trúc dữ liệu cần thiết cho việc thao tác tiếp theo.
 
 #### Bước 1: Nhập lớp Workbook
 ```java
 import com.aspose.cells.Workbook;
 ```
 
-#### Bước 2: Xác định đường dẫn tệp và tải Workbook
+#### Bước 2: Xác định đường dẫn tệp và tải workbook
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
-```
-**Giải thích**: Hàm khởi tạo `Workbook` tải tệp Excel của bạn vào bộ nhớ, cho phép bạn thao tác nội dung một cách lập trình.
+```  
+**Giải thích**: Hàm khởi tạo `Workbook` tải tệp Excel của bạn vào bộ nhớ, cho phép bạn thao tác nội dung của nó bằng chương trình.
 
-### Truy cập Worksheets trong một Sổ làm việc Excel
+## Truy cập các Worksheet trong một workbook Excel
 
-**Tổng quan**  
-Sổ làm việc Excel có thể chứa nhiều worksheet. Dưới đây là cách bạn có thể truy cập một worksheet cụ thể trong sổ làm việc.
+Worksheet là các tab riêng lẻ bên trong một workbook. Bạn có thể lấy bất kỳ sheet nào bằng chỉ mục hoặc tên.
 
 #### Bước 1: Nhập các lớp cần thiết
 ```java
@@ -132,13 +176,12 @@ import com.aspose.cells.Workbook;
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
 Worksheet sheet = wb.getWorksheets().get(0);
-```
-**Giải thích**: Phương thức `getWorksheets()` trả về tất cả các worksheet, trong khi `get(0)` truy cập worksheet đầu tiên (đánh số bắt đầu từ 0).
+```  
+**Giải thích**: Phương thức `getWorksheets()` trả về tất cả các worksheet, trong khi `get(0)` truy cập worksheet đầu tiên (chỉ mục bắt đầu từ 0).
 
-### Thiết lập Thuộc tính Đối tượng OLE trong Worksheet Excel
+## Đặt thuộc tính đối tượng OLE trong một Worksheet Excel
 
-**Tổng quan**  
-Các đối tượng OLE có thể được nhúng trong các sheet của Excel. Phần này trình bày cách chỉnh sửa thuộc tính của chúng.
+Đối tượng OLE có thể được nhúng trong các sheet Excel. Phần này trình bày cách chỉnh sửa thuộc tính của chúng.
 
 #### Bước 1: Nhập các lớp cần thiết
 ```java
@@ -146,20 +189,19 @@ import com.aspose.cells.Worksheet;
 import com.aspose.cells.OleObjectCollection;
 ```
 
-#### Bước 2: Thiết lập Thuộc tính Đối tượng OLE
+#### Bước 2: Đặt thuộc tính đối tượng OLE
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
 Worksheet sheet = wb.getWorksheets().get(0);
 OleObjectCollection oleObjects = sheet.getOleObjects();
 oleObjects.get(0).setAutoLoad(true);
-```
-**Giải thích**: Phương thức `setAutoLoad(true)` đảm bảo đối tượng OLE tự động tải khi mở sổ làm việc.
+```  
+**Giải thích**: Phương thức `setAutoLoad(true)` đảm bảo đối tượng OLE tự động tải khi mở workbook.
 
-### Lưu một Sổ làm việc Excel
+## Lưu một workbook Excel
 
-**Tổng quan**  
-Sau khi thực hiện các thay đổi, **saving an Excel workbook** là bước quan trọng để bảo lưu các chỉnh sửa. Phần này hướng dẫn cách lưu sổ làm việc ở nhiều định dạng, hữu ích khi bạn cần **convert Excel format** hoặc tạo **Excel report**.
+Sau khi thực hiện các thay đổi, **lưu một workbook Excel** là rất quan trọng để bảo tồn các sửa đổi và tùy chọn chuyển đổi tệp.
 
 #### Bước 1: Nhập các lớp cần thiết
 ```java
@@ -167,84 +209,90 @@ import com.aspose.cells.Workbook;
 import com.aspose.cells.SaveFormat;
 ```
 
-#### Bước 2: Lưu Workbook với các thay đổi
+#### Bước 2: Lưu workbook với các thay đổi
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
 wb.save(outDir + "/ARefreshOLEobject_out.xlsx", SaveFormat.XLSX);
-```
-**Giải thích**: Phương thức `save` ghi các thay đổi của bạn vào tệp, với `SaveFormat.XLSX` chỉ định định dạng đầu ra. Bạn có thể thay `SaveFormat.XLSX` bằng các hằng số khác như `SaveFormat.CSV` hoặc `SaveFormat.PDF` để **convert Excel format**.
+```  
+**Giải thích**: Phương thức `save` ghi các thay đổi của bạn vào tệp, với `SaveFormat.XLSX` chỉ định định dạng đầu ra. Thay `SaveFormat.XLSX` bằng `SaveFormat.PDF` để **chuyển đổi Excel sang PDF**, hoặc sử dụng `SaveFormat.CSV` cho đầu ra CSV.
 
-## Cách Import Excel Data cho Quản lý Tồn kho
+## Cách chuyển đổi Excel sang PDF?
 
-Nhiều doanh nghiệp cần **import Excel data** vào các hệ thống quản lý tồn kho dựa trên Java. Bằng cách tải Workbook và duyệt qua các hàng, bạn có thể đưa số lượng sản phẩm trực tiếp vào cơ sở dữ liệu. Cách tiếp cận này cũng có thể mở rộng để **generate Excel report** tóm tắt mức tồn kho.
+Tải workbook bằng `new Workbook("input.xlsx")` và gọi `workbook.save("output.pdf", SaveFormat.PDF)` – Aspose.Cells tự động giữ nguyên định dạng ô, biểu đồ và hình ảnh khi chuyển đổi sang PDF. Phép chuyển đổi một dòng này hoạt động cho bất kỳ workbook nào; đối với các tệp rất lớn, hãy bật cài đặt tối ưu bộ nhớ trước khi lưu để giảm lượng bộ nhớ sử dụng.
 
-## Mẹo tối ưu hoá hiệu suất Excel
+## Cách nhập dữ liệu Excel cho quản lý tồn kho?
 
-Khi làm việc với sổ làm việc lớn, hãy cân nhắc các điểm sau:
+Đọc các hàng từ workbook, ánh xạ mỗi ô tới các trường sản phẩm, và chèn dữ liệu vào cơ sở dữ liệu tồn kho của bạn. Cách tiếp cận này cho phép bạn xử lý hàng nghìn mục hàng loạt chỉ với vài dòng mã Java, biến một bảng tính tĩnh thành hệ thống tồn kho động, có khả năng tìm kiếm.
 
-- Giải phóng các đối tượng `Workbook` sau khi sử dụng để giải bộ nhớ.  
-- Sử dụng `Workbook.getSettings().setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` để kiểm soát tiêu thụ bộ nhớ.  
-- Chỉ tải các worksheet cần thiết thay vì toàn bộ sổ làm việc.
+## Mẹo tối ưu hiệu năng Excel
 
-Những thực tiễn này giúp bạn **optimize Excel performance** và giữ cho ứng dụng Java luôn phản hồi nhanh.
+Khi làm việc với các workbook lớn, hãy cân nhắc các điểm sau:
+
+- Giải phóng các đối tượng `Workbook` sau khi sử dụng để giải phóng bộ nhớ.  
+- Sử dụng `Workbook.getSettings().setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` để kiểm soát việc tiêu thụ bộ nhớ.  
+- Chỉ tải các worksheet cần thiết thay vì toàn bộ workbook.  
+
+Những thực hành này giúp bạn **tối ưu hiệu năng Excel** và giữ cho ứng dụng Java của bạn phản hồi nhanh ngay cả với các tệp hàng trăm trang.
 
 ## Ứng dụng thực tiễn
 
-Hiểu cách thao tác với sổ làm việc Excel chỉ là bước khởi đầu. Dưới đây là một số kịch bản thực tế:
+Hiểu cách thao tác các workbook Excel chỉ là bước đầu. Dưới đây là một số kịch bản thực tế:
 
-1. **Báo cáo Dữ liệu** – Tự động tạo và cập nhật báo cáo tài chính hoặc dashboard.  
-2. **Quản lý Tồn kho** – Tinh giản hệ thống theo dõi tồn kho bằng cách import/export dữ liệu một cách liền mạch giữa ứng dụng Java và các sheet Excel.  
-3. **Quản lý Quan hệ Khách hàng (CRM)** – Quản lý dữ liệu khách hàng, tạo danh sách liên hệ tùy chỉnh trực tiếp từ cơ sở dữ liệu.
+1. **Báo cáo dữ liệu** – Tự động tạo và cập nhật các báo cáo tài chính hoặc bảng điều khiển.  
+2. **Quản lý tồn kho** – Tinh giản hệ thống theo dõi tồn kho bằng cách nhập/xuất dữ liệu một cách liền mạch giữa các ứng dụng Java và sheet Excel.  
+3. **Quản lý quan hệ khách hàng (CRM)** – Quản lý dữ liệu khách hàng, tạo danh sách liên hệ tùy chỉnh trực tiếp từ cơ sở dữ liệu của bạn.
 
-## Các lưu ý về hiệu suất
+## Các cân nhắc về hiệu năng
 
-Khi xử lý tập dữ liệu lớn hoặc workbook phức tạp:
+Khi xử lý các bộ dữ liệu lớn hoặc workbook phức tạp:
 
 - Giảm thiểu việc sử dụng bộ nhớ bằng cách giải phóng các đối tượng khi không còn cần thiết.  
-- Tối ưu hoá các thao tác đọc/ghi bằng cách chỉ truy cập những phần cần thiết của workbook.  
+- Tối ưu các thao tác đọc/ghi bằng cách truy cập chỉ các phần cần thiết của workbook.  
 - Sử dụng API streaming nếu có để xử lý các tệp rất lớn một cách hiệu quả.
-
-## Kết luận
-
-Bạn đã nắm được cách **load**, **access**, **modify**, và **save Excel workbook** bằng Aspose.Cells cho Java. Những khả năng này có thể nâng cao đáng kể quy trình xử lý dữ liệu của bạn, làm cho chúng nhanh hơn, đáng tin cậy hơn và dễ bảo trì hơn. Để tiếp tục khám phá các tính năng mạnh mẽ của Aspose.Cells, hãy tham khảo [comprehensive documentation](https://reference.aspose.com/cells/java/) hoặc tham gia diễn đàn cộng đồng.
-
-**Bước tiếp theo**: Thử áp dụng các kỹ thuật này trong dự án của bạn để tự động hoá các tác vụ Excel, chuyển đổi định dạng và tạo các báo cáo Excel chuyên nghiệp.
 
 ## Câu hỏi thường gặp
 
 **Q: Aspose.Cells cho Java là gì?**  
-A: Đó là một thư viện cung cấp nhiều chức năng để thao tác tệp Excel một cách lập trình bằng Java.
+A: Đó là một thư viện Java cho phép tạo, thao tác, chuyển đổi và render các tệp Excel mà không cần Microsoft Office.
 
-**Q: Tôi có thể dùng Aspose.Cells với các ngôn ngữ lập trình khác không?**  
-A: Có, Aspose.Cells hỗ trợ nhiều nền tảng bao gồm .NET và C++.
+**Q: Tôi có thể sử dụng Aspose.Cells với các ngôn ngữ lập trình khác không?**  
+A: Có, Aspose.Cells cũng có sẵn cho .NET, C++ và các nền tảng khác.
 
 **Q: Có phiên bản miễn phí không?**  
-A: Bạn có thể bắt đầu với giấy phép tạm thời để đánh giá đầy đủ các tính năng mà không bị giới hạn.
+A: Bạn có thể bắt đầu với giấy phép tạm thời để đánh giá tất cả các tính năng mà không có giới hạn.
 
-**Q: Làm sao tích hợp Aspose.Cells vào dự án Java hiện có?**  
-A: Sử dụng quản lý phụ thuộc Maven hoặc Gradle như đã minh họa ở phần đầu của hướng dẫn này.
+**Q: Làm thế nào để tích hợp Aspose.Cells vào dự án Java hiện có của tôi?**  
+A: Sử dụng quản lý phụ thuộc Maven hoặc Gradle như đã trình bày ở phần trước trong hướng dẫn này.
 
-**Q: Những vấn đề thường gặp khi tải tệp Excel là gì?**  
-A: Đảm bảo đường dẫn tệp đúng và có thể truy cập, đồng thời xác nhận workbook không bị hỏng.
+**Q: Những vấn đề thường gặp khi tải các tệp Excel lớn là gì?**  
+A: Đảm bảo đường dẫn tệp đúng, xác minh tệp không bị hỏng, và bật cài đặt tối ưu bộ nhớ để tránh lỗi OutOfMemory.
 
 ## Tài nguyên
-- [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/)
-- [Download Aspose.Cells](https://releases.aspose.com/cells/java/)
-- [Purchase a License](https://purchase.aspose.com/buy)
+
+- [Tài liệu Aspose.Cells cho Java](https://reference.aspose.com/cells/java/)
+- [Tải xuống Aspose.Cells](https://releases.aspose.com/cells/java/)
+- [Mua giấy phép](https://purchase.aspose.com/buy)
 
 ---
 
-**Last Updated:** 2026-01-14  
-**Tested With:** Aspose.Cells 25.3 for Java  
-**Author:** Aspose
+**Cập nhật lần cuối:** 2026-06-27  
+**Kiểm tra với:** Aspose.Cells 25.3 for Java  
+**Tác giả:** Aspose
+
+{{< blocks/products/products-backtop-button >}}
+
+## Hướng dẫn liên quan
+
+- [Chuyển đổi Excel sang PDF tối ưu bằng Aspose.Cells Java&#58; Hướng dẫn từng bước](/cells/java/workbook-operations/convert-excel-to-optimized-pdf-aspose-cells-java/)
+- [Chuyển đổi Excel sang PDF bằng Aspose.Cells Java&#58; Hướng dẫn tuân thủ cho PDFA-1a](/cells/java/workbook-operations/convert-excel-pdf-aspose-cells-compliance-guide/)
+- [Tối ưu workbook Excel trong Java bằng Aspose.Cells&#58; Hướng dẫn hiệu năng](/cells/java/performance-optimization/optimize-excel-workbooks-java-aspose-cells-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

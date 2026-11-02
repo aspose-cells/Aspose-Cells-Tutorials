@@ -1,0 +1,7 @@
+Title: How to embed fonts in SVG when converting Excel files to SVG and PowerPoint
+Slug: how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg
+Category: converting-excel-files-to-other-formats
+ProcessedDate: 2026-09-15T10:35:28.433255
+SourceRepo: AI Search API
+Keywords: embed fonts in svg, export excel chart to powerpoint, convert xlsx to svg, convert xlsx to pptx, save workbook as svg
+PRNumber: 160

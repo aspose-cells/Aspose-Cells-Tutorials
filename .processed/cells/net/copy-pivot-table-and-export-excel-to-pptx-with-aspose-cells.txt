@@ -1,0 +1,7 @@
+Title: Copy pivot table and export Excel to PPTX with Aspose.Cells
+Slug: copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells
+Category: converting-excel-files-to-other-formats
+ProcessedDate: 2026-09-12T06:14:58.212161
+SourceRepo: AI Search API
+Keywords: copy pivot table, export excel to pptx, generate editable pptx, save workbook as pptx, export excel sheet pptx
+PRNumber: 157

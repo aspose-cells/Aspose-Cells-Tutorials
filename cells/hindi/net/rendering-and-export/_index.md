@@ -66,6 +66,8 @@ Aspose.Cells की सबसे बेहतरीन विशेषताओ�
 .NET के लिए Aspose.Cells का उपयोग करके पिवट टेबल की छवि को PNG फ़ॉर्मेट में निर्यात करने की प्रक्रिया सीखें।
 ### [C# में पिवट को PNG में निर्यात करने का तरीका – चरण-दर-चरण गाइड](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
 C# में Aspose.Cells का उपयोग करके पिवट टेबल को PNG छवि के रूप में निर्यात करने की चरण-दर-चरण प्रक्रिया सीखें।
+### [C# में PNG पिवट इमेज बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./create-png-pivot-image-in-c-full-step-by-step-guide/)
+C# के लिए Aspose.Cells का उपयोग करके PNG पिवट इमेज बनाने की पूरी चरण‑दर‑चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

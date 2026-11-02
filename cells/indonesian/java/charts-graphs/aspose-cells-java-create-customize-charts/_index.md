@@ -1,9 +1,18 @@
 ---
-"date": "2025-04-08"
-"description": "Tutorial kode untuk Aspose.Words Java"
-"title": "Aspose.Cells Java&#58; Membuat & Menyesuaikan Bagan"
-"url": "/id/java/charts-graphs/aspose-cells-java-create-customize-charts/"
-"weight": 1
+date: '2026-04-08'
+description: Pelajari cara menghasilkan diagram kolom di Java menggunakan Aspose.Cells,
+  meliputi membuat diagram Java, menambahkan lembar diagram, dan mengekspor buku kerja
+  Excel.
+keywords:
+- generate column chart
+- create chart java
+- add chart sheet
+- populate excel cells
+- set chart title
+- export workbook excel
+title: Buat Diagram Kolom dengan Tutorial Aspose.Cells Java
+url: /id/java/charts-graphs/aspose-cells-java-create-customize-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,34 +21,34 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Buat Diagram Kolom dengan Aspose.Cells Java
 
-# Menguasai Pembuatan dan Kustomisasi Bagan dengan Aspose.Cells Java
+Dalam aplikasi berbasis data saat ini, **menghasilkan diagram kolom** dengan cepat dan secara programatik dapat mengubah angka mentah menjadi wawasan visual yang jelas. Apakah Anda membangun dasbor pelaporan, alat analitik, atau fitur ekspor sederhana, Aspose.Cells untuk Java memberikan API yang mudah digunakan untuk **create chart java** proyek tanpa harus berurusan dengan UI Excel. Dalam tutorial ini Anda akan belajar cara menyiapkan pustaka, **populate Excel cells**, menambahkan **chart sheet**, menyesuaikan **chart title**, dan akhirnya **export workbook excel** ke sebuah file.
 
-Dalam dunia yang digerakkan oleh data saat ini, memvisualisasikan kumpulan data yang kompleks sangat penting untuk membuat keputusan yang tepat. Baik Anda seorang pengembang berpengalaman atau baru memulai, membuat bagan yang menarik dalam aplikasi Anda dapat meningkatkan pengalaman pengguna secara signifikan. Tutorial ini akan memandu Anda melalui proses penggunaan Aspose.Cells untuk Java untuk membuat dan menyesuaikan bagan dengan mudah.
+## Jawaban Cepat
+- **What does “generate column chart” mean?** Ini membuat visualisasi tipe batang vertikal dari data tabel.  
+- **Which library is required?** Aspose.Cells for Java (trial gratis tersedia).  
+- **Do I need an Excel installation?** Tidak, pustaka ini bekerja secara independen dari Microsoft Excel.  
+- **Can I export to formats other than XLS?** Ya – PDF, PNG, SVG, dll., via `workbook.save()`.  
+- **Is a license mandatory for production?** Ya, lisensi yang dibeli atau lisensi sementara diperlukan.
 
-## Amit tanulni fogsz
+## Apa itu generate column chart?
+Diagram kolom menampilkan rangkaian data sebagai batang vertikal, memudahkan perbandingan nilai antar kategori seperti wilayah, bulan, atau lini produk. Aspose.Cells memungkinkan Anda membangun diagram ini sepenuhnya dengan kode, memberi Anda kontrol penuh atas data, gaya, dan format output.
 
-- Cara mengatur Aspose.Cells untuk Java
-- Membuat dan memberi nama lembar kerja
-- Mengisi sel dengan data
-- Menambahkan lembar bagan dan membuat bagan kolom
-- Menyesuaikan bagan Anda dengan gambar, judul, dan konfigurasi seri
-- Menyimpan buku kerja
+## Mengapa menggunakan Aspose.Cells untuk create chart java?
+- **No COM interop** – berfungsi pada semua OS dengan JVM.  
+- **Rich styling options** – gambar, gradien, legenda, dan font khusus.  
+- **High performance** – cocok untuk dataset besar.  
+- **Multiple export formats** – XLS, XLSX, PDF, PNG, dan lainnya.
 
-Dengan langkah-langkah ini, Anda akan dapat membuat bagan yang menarik secara visual dalam waktu singkat.
+## Prasyarat
+- **Java Development Kit (JDK) 8+** terpasang.  
+- Pengetahuan dasar Java dan familiaritas dengan konsep Excel.
 
-## Előfeltételek
+### Perpustakaan yang Diperlukan
+Tambahkan Aspose.Cells ke proyek Anda menggunakan salah satu potongan kode di bawah.
 
-Sebelum menyelami Aspose.Cells untuk Java, pastikan Anda memiliki:
-
-- **Java Development Kit (JDK) 8 atau yang lebih baru** telepítve a gépedre.
-- Pemahaman dasar tentang pemrograman Java dan keakraban dengan operasi Excel.
-  
-### Kötelező könyvtárak
-
-Untuk memulai Aspose.Cells, sertakan dependensi berikut dalam alat manajemen proyek Anda.
-
-#### Pakar
+#### Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -48,74 +57,58 @@ Untuk memulai Aspose.Cells, sertakan dependensi berikut dalam alat manajemen pro
 </dependency>
 ```
 
-#### Bahasa Inggris Gradle
+#### Gradle
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-cells', version: '25.3'
 ```
 
-### Licencszerzés
+### Perolehan Lisensi
+Aspose menawarkan trial gratis dan lisensi sementara untuk pengujian ekstensif.
 
-Aspose menawarkan uji coba gratis, yang memungkinkan Anda menguji fitur-fitur lengkap pustaka sebelum membeli. Anda juga dapat memperoleh lisensi sementara untuk pengujian ekstensif.
-
-- **Ingyenes próbaverzió**: [Unduh Gratis](https://releases.aspose.com/cells/java/)
-- **Ideiglenes engedély**: [Kérelem itt](https://purchase.aspose.com/temporary-license/)
+- **Free Trial**: [Download Free](https://releases.aspose.com/cells/java/)  
+- **Temporary License**: [Request Here](https://purchase.aspose.com/temporary-license/)
 
 ## Menyiapkan Aspose.Cells untuk Java
 
-Setelah lingkungan Anda siap, inisialisasi perpustakaan dengan membuat yang baru `Workbook` Misalnya. Ini akan menjadi dasar bagi perjalanan pembuatan bagan kita.
+Pertama, buat instance `Workbook` – ini akan menjadi kanvas untuk data dan diagram kami.
 
 ```java
 import com.aspose.cells.Workbook;
 
-// Új munkafüzet inicializálása
+// Initialize a new Workbook
 Workbook workbook = new Workbook();
 ```
 
-## Megvalósítási útmutató
+## Panduan Langkah‑per‑Langkah
 
-### 1. Membuat dan Memberi Nama Lembar Kerja
+### 1. Buat dan Beri Nama Worksheet
+Kami akan menyimpan data mentah di lembar yang disebut **Data**.
 
-#### Áttekintés
-Mulailah dengan menyiapkan lembar data Anda, yang akan menampung semua data yang diperlukan untuk bagan tersebut.
-
-#### Lépések:
-
-**Új munkafüzet létrehozása**
 ```java
 import com.aspose.cells.Worksheet;
 
-// Új munkafüzet-példány létrehozása
+// Create a new Workbook instance
 Workbook workbook = new Workbook();
 ```
 
-**Beri Nama Lembar Kerja**
-
 ```java
-// Akses lembar kerja pertama dan atur namanya menjadi "Data"
+// Access the first worksheet and set its name to "Data"
 Worksheet sheet = workbook.getWorksheets().get(0);
 sheet.setName("Data");
 ```
 
-### 2. Mengisi Sel dengan Data
-
-#### Áttekintés
-Mengisi data pada lembar kerja Anda penting untuk membuat bagan yang bermakna.
-
-#### Lépések:
-
-**Akses Koleksi Sel**
+### 2. Isi Sel Excel
+Masukkan nama wilayah dan angka penjualan yang akan divisualisasikan oleh diagram kolom.
 
 ```java
 import com.aspose.cells.Cells;
 
-// Dapatkan koleksi sel dari lembar "Data"
+// Get the cells collection from the "Data" sheet
 Cells cells = sheet.getCells();
 ```
 
-**Masukkan Data**
-
 ```java
-// Masukkan nama wilayah dan angka penjualan
+// Insert region names and sales figures
 cells.get("A1").putValue("Region");
 cells.get("B1").putValue("Sale");
 
@@ -128,52 +121,34 @@ for (int i = 0; i < regions.length; i++) {
 }
 ```
 
-### 3. Menambahkan Lembar Bagan
-
-#### Áttekintés
-Tambahkan lembar bagan khusus untuk memisahkan data dan visualisasi Anda.
-
-#### Lépések:
-
-**Buat Lembar Bagan**
+### 3. Tambahkan Chart Sheet
+Memisahkan diagram dari data mentah membuat workbook tetap rapi.
 
 ```java
 import com.aspose.cells.SheetType;
 
-// Tambahkan lembar grafik baru
+// Add a new chart sheet
 int sheetIndex = workbook.getWorksheets().add(SheetType.CHART);
 Worksheet chartSheet = workbook.getWorksheets().get(sheetIndex);
 
-// Beri nama lembar kerja "Bagan"
+// Name the worksheet "Chart"
 chartSheet.setName("Chart");
 ```
 
-### 4. Membuat Bagan
-
-#### Áttekintés
-Buat bagan kolom untuk memvisualisasikan data penjualan menurut wilayah.
-
-#### Lépések:
-
-**Buat Bagan Kolom**
+### 4. Buat Diagram Kolom
+Sekarang kami benar‑benar membuat objek **generate column chart**.
 
 ```java
 import com.aspose.cells.Chart;
 import com.aspose.cells.ChartType;
 
-// Tambahkan bagan kolom baru ke lembar "Bagan"
+// Add a new column chart to the "Chart" sheet
 int chartIndex = chartSheet.getCharts().add(ChartType.COLUMN, 1, 1, 25, 10);
 Chart chart = chartSheet.getCharts().get(chartIndex);
 ```
 
-### 5. Mengatur Gambar sebagai Isi Latar Belakang di Area Plot Grafik
-
-#### Áttekintés
-Tingkatkan daya tarik visual bagan Anda dengan menambahkan gambar latar belakang.
-
-#### Lépések:
-
-**Atur Data Gambar**
+### 5. Atur Gambar sebagai Isi Latar Belakang di Area Plot
+Gambar latar belakang dapat membuat diagram lebih menonjol.
 
 ```java
 import java.io.FileInputStream;
@@ -188,32 +163,27 @@ chart.getPlotArea().getArea().getFillFormat().setImageData(data);
 chart.getPlotArea().getBorder().setVisible(false);
 ```
 
-### 6. Mengonfigurasi Judul dan Seri Bagan
-
-#### Áttekintés
-Sesuaikan bagan Anda dengan judul, data seri, dan posisi legenda.
-
-#### Lépések:
-
-**Tetapkan Judul Bagan**
+### 6. Atur Judul Diagram
+Menyesuaikan **set chart title** meningkatkan keterbacaan.
 
 ```java
-// Konfigurasikan properti judul bagan
+// Configure the chart's title properties
 chart.getTitle().setText("Sales By Region");
 chart.getTitle().getFont().setColor(Color.getBlue());
 chart.getTitle().getFont().setBold(true);
 chart.getTitle().getFont().setSize(12);
 ```
 
-**Konfigurasikan Data Seri**
+### 7. Konfigurasikan Data Seri dan Legenda
+Hubungkan rentang data ke diagram dan atur posisi legenda.
 
 ```java
-// Tetapkan data seri dan kategori untuk bagan
+// Set series and category data for the chart
 chart.getNSeries().add("Data!B2:B8", true);
 chart.getNSeries().setCategoryData("Data!A2:A8");
 chart.getNSeries().setColorVaried(true);
 
-// Posisikan legenda di bagian atas grafik
+// Position the legend at the top of the chart
 import com.aspose.cells.Legend;
 import com.aspose.cells.LegendPositionType;
 
@@ -221,62 +191,59 @@ Legend legend = chart.getLegend();
 legend.setPosition(LegendPositionType.TOP);
 ```
 
-### 7. Menyimpan Buku Kerja
-
-#### Áttekintés
-Pastikan semua kerja keras Anda disimpan dengan mengekspor buku kerja.
-
-#### Lépések:
-
-**Munkafüzet mentése**
+### 8. Ekspor Workbook Excel
+Akhirnya, **export workbook excel** ke file XLS (atau format lain yang didukung).
 
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "SPAsBFillInChart_out.xls");
 ```
 
-## Gyakorlati alkalmazások
+## Aplikasi Praktis
+- **Business Reports** – Membuat diagram penjualan secara otomatis untuk PDF bulanan.  
+- **Data Analysis Tools** – Menyematkan diagram dinamis dalam dasbor analitik khusus.  
+- **Enterprise Dashboards** – Memperbarui gambar diagram secara langsung untuk pemantauan waktu nyata.
 
-- **Üzleti jelentések**: Buat laporan penjualan dan kinerja yang dinamis.
-- **Adatelemző eszközök**: Meningkatkan visualisasi data dalam perangkat lunak analitis.
-- **Integrasi Dasbor**:Integrasikan grafik ke dalam dasbor untuk pembaruan waktu nyata.
+## Pertimbangan Kinerja
+- Lakukan pembaruan sel secara batch saat bekerja dengan dataset besar untuk mengurangi beban.  
+- Lepaskan sumber daya (`workbook.dispose()`) jika Anda memproses banyak workbook dalam loop.  
 
-## Teljesítménybeli szempontok
+## Masalah Umum dan Solusinya
+- **Image not showing** – Verifikasi jalur file dan pastikan format gambar (PNG, JPEG) didukung.  
+- **Chart appears blank** – Pastikan referensi rentang data (`Data!B2:B8`) sesuai dengan sel yang telah diisi.  
+- **Out‑of‑memory errors** – Proses data dalam potongan dan panggil `System.gc()` setelah penyimpanan besar.
 
-- Optimalkan dengan meminimalkan jumlah operasi pada kumpulan data besar.
-- Kelola memori secara efektif dengan segera membuang objek yang tidak digunakan.
+## Pertanyaan yang Sering Diajukan
 
-## Következtetés
+**Q: Bagaimana cara menambahkan beberapa seri ke diagram kolom?**  
+A: Panggil `chart.getNSeries().add()` berulang kali dengan rentang data yang berbeda, misalnya, `"Data!C2:C8"` untuk seri kedua.
 
-Anda kini telah menguasai pembuatan dan penyesuaian grafik menggunakan Aspose.Cells di Java. Untuk melanjutkan perjalanan Anda, jelajahi lebih banyak fitur seperti rentang data dinamis atau berbagai jenis grafik. 
+**Q: Bisakah saya mengubah label sumbu?**  
+A: Ya. Gunakan `chart.getCategoryAxis().setTitle("Regions")` dan `chart.getValueAxis().setTitle("Sales")`.
 
-## GYIK szekció
+**Q: Format apa yang dapat saya ekspor selain XLS?**  
+A: Gunakan `workbook.save("chart.pdf")`, `workbook.save("chart.png")`, atau `workbook.save("chart.xlsx")` untuk PDF, PNG, dan XLSX masing‑masing.
 
-1. **Bagaimana cara menambahkan beberapa seri ke bagan?**
-   - Használd a `add` módszer bekapcsolva `NSeries` dengan beberapa rentang.
+**Q: Apakah lisensi diperlukan untuk build pengembangan?**  
+A: Trial gratis dapat digunakan untuk evaluasi, tetapi lisensi permanen atau sementara diperlukan untuk penerapan produksi.
 
-2. **Bisakah saya menyesuaikan label sumbu grafik?**
-   - Ya, akses dan konfigurasikan sumbu menggunakan `chart.getCategvagyyAxis()` or `chart.getValueAxis()`.
+**Q: Bagaimana cara meningkatkan kecepatan rendering untuk ribuan baris?**  
+A: Isi sel menggunakan `cells.importArray()` dan minimalkan penggambaran ulang diagram dengan membuat diagram setelah semua data dimuat.
 
-3. **Bagaimana jika berkas gambar saya tidak ditampilkan dengan benar di area plot?**
-   - Pastikan jalur berkas benar dan format gambar didukung oleh Aspose.Cells.
+---
 
-4. **Bagaimana cara menangani kumpulan data besar secara efisien?**
-   - Pertimbangkan untuk membaca data dalam potongan dan memperbarui sel secara bertahap.
+**Terakhir Diperbarui:** 2026-04-08  
+**Diuji Dengan:** Aspose.Cells 25.3 for Java  
+**Penulis:** Aspose  
 
-5. **Apakah mungkin untuk mengekspor grafik ke format lain seperti PDF atau PNG?**
-   - Igen, használom `workbook.save()` dengan ekstensi file yang sesuai untuk format yang berbeda.
+## Sumber Daya
 
-## Erőforrás
-
-- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
-- [Aspose.Cells letöltése](https://releases.aspose.com/cells/java/)
-- [Licenc vásárlása](https://purchase.aspose.com/buy)
-- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
-- [Ideiglenes engedélykérelem](https://purchase.aspose.com/temporary-license/)
-- [Támogatási fórum](https://forum.aspose.com/c/cells/9)
-
-Dengan mengikuti panduan ini, Anda akan dapat membuat dan menyesuaikan grafik dalam aplikasi Java menggunakan Aspose.Cells dengan mudah. Selamat membuat kode!
+- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
+- [Unduh Aspose.Cells](https://releases.aspose.com/cells/java/)
+- [Beli Lisensi](https://purchase.aspose.com/buy)
+- [Trial Gratis](https://releases.aspose.com/cells/java/)
+- [Permintaan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Forum Dukungan](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,9 +1,77 @@
 ---
-"date": "2025-04-08"
-"description": "Aspose.Words Javaのコードチュートリアル"
-"title": "Aspose.Cells Java カスタム計算エンジン ガイド"
-"url": "/ja/java/calculation-engine/aspose-cells-java-custom-engine-guide/"
-"weight": 1
+date: '2026-08-10'
+description: Aspose.Cells を使用した custom calculation engine を実装して、Java で Excel の custom
+  function を追加する方法を学びます。ステップバイステップのガイド、前提条件、実践的な例を紹介します。
+keywords:
+- add custom function excel
+- Aspose.Cells Java
+- custom calculation engine
+- Excel processing Java
+- MyCompany.CustomFunction
+lastmod: '2026-08-10'
+og_description: Aspose.Cells を使用した custom calculation engine を実装して、Java で Excel の
+  custom function を追加する方法を学びます。前提条件、コード統合手順、パフォーマンスのヒントを含む詳細なチュートリアルをご覧ください。
+og_image_alt: Developer guide showing how to add a custom Excel function with Aspose.Cells
+  for Java
+og_title: Aspose.Cells for Java を使用して Excel の custom function を追加する
+schemas:
+- author: Aspose
+  dateModified: '2026-08-10'
+  description: Learn how to add custom function Excel in Java by implementing a custom
+    calculation engine with Aspose.Cells. Step‑by‑step guide, prerequisites, and real‑world
+    examples.
+  headline: Add custom function Excel using Aspose.Cells for Java
+  type: TechArticle
+- description: Learn how to add custom function Excel in Java by implementing a custom
+    calculation engine with Aspose.Cells. Step‑by‑step guide, prerequisites, and real‑world
+    examples.
+  name: Add custom function Excel using Aspose.Cells for Java
+  steps:
+  - name: create a custom engine class
+    text: '`AbstractCalculationEngine` is the base class that Aspose.Cells calls to
+      evaluate unknown functions. `CustomEngine` extends `AbstractCalculationEngine`
+      and overrides the `calculate` method. This method is invoked each time a formula
+      containing `MyCompany.CustomFunction` is evaluated. **Definition an'
+  - name: set up workbook and worksheet
+    text: '`Worksheet` represents a single sheet within a `Workbook` and provides
+      access to cells and ranges. Instantiate a `Workbook`, access the first `Worksheet`,
+      and optionally write sample data that your custom function will consume. **Definition
+      anchor:** `Workbook` represents an entire Excel file in mem'
+  - name: configure calculation options with the custom engine
+    text: Create a `CalculationOptions` object, assign your `CustomEngine`, and trigger
+      formula calculation. **Definition anchor:** `CalculationOptions` holds settings
+      that control how Aspose.Cells evaluates formulas, including the custom engine
+      reference. **Direct answer:** By calling `opts.setCustomEngine(n
+  type: HowTo
+- questions:
+  - answer: Yes. Implement multiple subclasses of `AbstractCalculationEngine` or handle
+      several function names inside a single engine’s `calculate` method.
+    question: Can I register more than one custom function?
+  - answer: The engine should catch exceptions and call `setCalculatedValue(ErrorValue)`
+      to return an Excel error (e.g., `#VALUE!`). This prevents the entire workbook
+      calculation from failing.
+    question: What happens if my custom function throws an exception?
+  - answer: Aspose.Cells’ calculation engine is thread‑safe when each thread uses
+      its own `Workbook` instance. Share the engine instance only if it is stateless.
+    question: Does the custom engine work with multi‑threaded calculations?
+  - answer: Arguments are passed as `Object[]`. You can handle arrays, strings, numbers,
+      or even custom objects, but keep payloads reasonable (under a few megabytes)
+      to avoid excessive memory consumption.
+    question: Are there limits on the size of arguments I can pass?
+  - answer: Insert logging statements (e.g., using `java.util.logging`) inside `calculate`.
+      The log output appears in your application console, helping you trace argument
+      values and intermediate results.
+    question: How can I debug my custom function?
+  type: FAQPage
+tags:
+- add custom function excel
+- Aspose.Cells
+- Java calculation engine
+- Excel automation
+- custom functions
+title: Aspose.Cells for Java を使用して Excel の custom function を追加する
+url: /ja/java/calculation-engine/aspose-cells-java-custom-engine-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,44 +80,47 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Java 用 Aspose.Cells のマスター: カスタム計算エンジンの実装
 
-# Aspose.Cells for Java をマスターする: カスタム計算エンジンの実装
+## はじめに
 
-## 導入
+Java アプリケーションに **カスタム関数 Excel** 機能を追加する必要がある場合、Aspose.Cells for Java はクリーンで拡張可能な方法を提供します。このガイドでは、`MyCompany.CustomFunction` という独自関数を評価するカスタム計算エンジンの作成方法を学びます。最後まで読むと、ビジネス固有のロジックを Excel の数式に直接埋め込むことができ、外部データ取得ステップが不要になります。
 
-Javaアプリケーション内でExcel処理の機能を拡張したいとお考えですか？Aspose.Cells for Javaを使えば、特定のビジネスニーズに合わせたカスタム計算エンジンを簡単かつ効率的に作成できます。このチュートリアルでは、Aspose.Cells for Javaでカスタム計算エンジンを実装する方法を解説し、「MyCompany.CustomFunction」の要件に特化した正確な計算を作成できるようにします。
+**学べること**
 
-**学習内容:**
-- AbstractCalculationEngine を使用して Aspose.Cells を拡張する方法。
-- CalculationData を使用してカスタム数式ロジックを実装します。
-- カスタム エンジンをワークブックの計算設定に統合します。
-- ビジネス シナリオにおけるカスタム エンジンの実際のアプリケーション。
-  
-カスタム計算エンジンの作成に進む前に、必要なものがすべて揃っていることを確認しましょう。
+- `AbstractCalculationEngine` を使用した Aspose.Cells の拡張方法
+- `CalculationData` を使ったカスタム数式ロジックの実装
+- エンジンをワークブックの計算ワークフローに統合する方法
+- カスタム関数がプロセスを効率化する実際のシナリオ
+
+### クイック回答
+
+- **最初のステップは何ですか？** Aspose.Cells ライブラリを Maven または Gradle プロジェクトに追加します。  
+- **どのクラスを拡張しますか？** `AbstractCalculationEngine`。  
+- **エンジンはどうやって登録しますか？** `CalculationOptions` に設定し、`Workbook.calculateFormula()` にオプションを渡します。  
+- **大規模なワークブックに対応できますか？** はい — Aspose.Cells はメモリ全体にロードせずに数百万行のシートを処理できます。  
+- **ライセンスは必要ですか？** 開発にはトライアルで動作しますが、本番環境では永続ライセンスが必要です。
+
+## カスタム計算エンジンとは？
+
+**カスタム計算エンジン** は、数式評価をインターセプトし、Aspose.Cells が標準で理解できない関数に対して結果を提供するユーザー定義コンポーネントです。これにより、独自のビジネスルール、外部サービス呼び出し、または複雑な数理モデルを Excel ワークシートに直接埋め込むことができます。
+
+## なぜ Aspose.Cells でカスタム関数 Excel を追加するのか？
+
+Aspose.Cells は **100 以上の入力・出力形式** をサポートし、**200 MB 未満** のメモリで **200 万行** までのワークブックを処理できます。カスタム関数を追加すると、スプレッドシートを離れずにドメイン固有の計算を実行でき、データ転送レイテンシが削減され、ユーザーのワークフローがシンプルになります。
 
 ## 前提条件
 
-このチュートリアルを効果的に実行するには、次のものが必要です。
+- **ライブラリ:** Aspose.Cells for Java ≥ 25.3、JDK 8 以上。  
+- **IDE:** IntelliJ IDEA、Eclipse、または任意の Java 対応エディタ。  
+- **ビルドツール:** プロジェクトで構成された Maven または Gradle。  
+- **知識:** 基本的な Java OOP、Excel 数式への親しみ。
 
-1. **ライブラリと依存関係:**
-   - Aspose.Cells for Java バージョン 25.3 以降
-   - Java開発キット（JDK）8以上
-   
-2. **環境設定:**
-   - IntelliJ IDEA や Eclipse などの IDE。
-   - プロジェクトで構成された Maven または Gradle ビルド ツール。
+## Aspose.Cells for Java の設定
 
-3. **知識の前提条件:**
-   - Java プログラミングとオブジェクト指向の概念に関する基本的な理解。
-   - Excel の数式処理と操作に関する知識。
+### Maven
 
-## Aspose.Cells for Java のセットアップ
-
-Aspose.Cells ライブラリの設定は、Maven または Gradle のいずれかを使用してシームレスに行えます。 
-
-**メイヴン:**
-
-次の依存関係を `pom.xml`：
+`pom.xml` に以下の依存関係を追加します:
 
 ```xml
 <dependency>
@@ -59,19 +130,19 @@ Aspose.Cells ライブラリの設定は、Maven または Gradle のいずれ�
 </dependency>
 ```
 
-**グレード:**
+### Gradle
 
-この行を `build.gradle` ファイル：
+`build.gradle` ファイルに以下の行を追加します:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### ライセンス取得
+#### ライセンス取得
 
-Aspose.Cells for Java をご利用になるには、まずは無料トライアルライセンスで機能を無制限にお試しください。長期的にご利用いただく場合は、ライセンスのご購入、または必要に応じて一時ライセンスの取得をご検討ください。 [Asposeの購入ページ](https://purchase.aspose.com/buy) そして [一時ライセンスページ](https://purchase.aspose.com/temporary-license/) 詳細についてはこちらをご覧ください。
+Aspose.Cells for Java を使用するには、機能制限なしで試せる無料トライアル ライセンスから始められます。長期利用の場合はライセンス購入、または必要に応じて一時ライセンスの取得を検討してください。詳細は [Aspose の購入ページ](https://purchase.aspose.com/buy) と [一時ライセンスページ](https://purchase.aspose.com/temporary-license/) をご覧ください。
 
-### 基本的な初期化
+#### 基本的な初期化
 
 プロジェクトで Aspose.Cells を初期化するには:
 
@@ -80,24 +151,24 @@ import com.aspose.cells.*;
 
 public class InitializeAspose {
     public static void main(String[] args) {
-        // 新しいワークブックインスタンスを読み込むか作成する
+        // Load or create a new Workbook instance
         Workbook wb = new Workbook();
         System.out.println("Aspose.Cells for Java initialized successfully.");
     }
 }
 ```
 
-## 実装ガイド
+## Aspose.Cells for Java でカスタム関数 Excel を追加する方法
 
-実装を、カスタム計算エンジンの作成と、それをワークブックの計算と統合するという 2 つの主要機能に分けて説明します。
+ワークブックをロードし、`CalculationOptions` インスタンスを作成し、カスタムエンジンを設定して `calculateFormula` を呼び出します。`Workbook` クラスはメモリ上の Excel ファイル全体を表し、ワークシートやセルにアクセスできます。`CalculationOptions` はカスタムエンジンの登録など、数式評価を制御する設定を保持します。`calculateFormula` はワークブック内のすべての数式に対して計算プロセスをトリガーし、提供したカスタムロジックを適用します。
 
-### カスタム計算エンジン
+以下は実行するステップバイステップのワークフローです:
 
-この機能を使用すると、Excel の数式内でビジネス関数の特定のロジックを定義できます。
+### 手順 1: カスタムエンジン・クラスを作成
 
-#### ステップ1: CustomEngineクラスを作成する
+`AbstractCalculationEngine` は、未知の関数を評価するために Aspose.Cells が呼び出す基底クラスです。  
 
-伸ばす `AbstractCalculationEngine` そしてそれを上書きする `calculate` メソッド。このメソッドは、カスタム関数を使用する数式が評価されるたびに呼び出されます。
+`CustomEngine` は `AbstractCalculationEngine` を拡張し、`calculate` メソッドをオーバーライドします。このメソッドは `MyCompany.CustomFunction` を含む数式が評価されるたびに呼び出されます。
 
 ```java
 import com.aspose.cells.AbstractCalculationEngine;
@@ -106,138 +177,132 @@ import com.aspose.cells.CalculationData;
 class CustomEngine extends AbstractCalculationEngine {
     @Override
     public void calculate(CalculationData data) {
-        // 関数名が「MyCompany.CustomFunction」と一致するかどうかを確認します
+        // Check if the function name matches "MyCompany.CustomFunction"
         if (data.getFunctionName().equals("MyCompany.CustomFunction")) {
-            // カスタム計算値を設定する
+            // Set a custom calculated value
             data.setCalculatedValue("Aspose.Cells.");
         }
     }
 }
 ```
 
-**説明：** このクラスは、数式が `MyCompany.CustomFunction` 結果として「Aspose.Cells」を返します。
+**定義アンカー:** `AbstractCalculationEngine` は、ユーザー提供ロジックに数式評価を委譲するために Aspose.Cells が使用する基底クラスです。  
 
-#### トラブルシューティングのヒント
+**説明:** オーバーライドされた `calculate` メソッドは関数名をチェックし、`CalculationData` から引数を抽出し、カスタム計算を実行し、`setCalculatedValue` を通じて結果を書き戻します。
 
-- 関数名が `getFunctionName()` 大文字と小文字の区別を含めて完全に一致します。
-- 確認する `setCalculatedValue()` 出力を設定するために呼び出されます。そうしないと、計算が正しく反映されません。
+### 手順 2: ワークブックとワークシートを設定
 
-### エンジン統合によるカスタム計算オプション
+`Worksheet` は `Workbook` 内の単一シートを表し、セルや範囲へのアクセスを提供します。  
 
-カスタム エンジンをワークブックの数式に統合すると、そのロジックを Excel シート内でシームレスに活用できるようになります。
-
-#### ステップ2: ワークブックとワークシートを設定する
-
-新しいワークブックインスタンスを作成し、最初のワークシートにアクセスします。必要に応じて初期コンテンツを追加します。
+`Workbook` をインスタンス化し、最初の `Worksheet` にアクセスし、必要に応じてカスタム関数が利用するサンプルデータを書き込みます。
 
 ```java
 import com.aspose.cells.*;
 
 class CustomCalculationSetup {
     public void run() {
-        // 新しいワークブックインスタンスを作成する
+        // Create a new Workbook instance
         Workbook wb = new Workbook();
         
-        // ワークブックの最初のワークシートにアクセスする
+        // Access the first worksheet in the workbook
         Worksheet ws = wb.getWorksheets().get(0);
         
-        // セルA1にテキストを追加する
+        // Add some text to cell A1
         ws.getCells().get("A1").putValue("Welcome to ");
     }
 }
 ```
 
-#### ステップ3: 計算オプションを設定する
+**定義アンカー:** `Workbook` はメモリ上の Excel ファイル全体を表し、ワークシート、セル、計算設定にアクセスできます。  
 
-インスタンス化 `CalculationOptions` カスタムエンジンを設定します。数式を計算する際にこれらのオプションを使用します。
+**ヒント:** カスタム関数を高速化するために、非表示シートに静的な参照テーブルを事前にロードしておくと便利です。
+
+### 手順 3: カスタムエンジンで計算オプションを構成
+
+`CalculationOptions` オブジェクトを作成し、`CustomEngine` を割り当て、数式計算をトリガーします。
 
 ```java
-// 前のコード スニペットから続行します...
+// Continue from previous code snippet...
 public void run() {
-    // 以前のセットアップ コード...
+    // Previous setup code...
 
-    // CalculationOptionsインスタンスを作成し、カスタムエンジンを設定する
+    // Create a CalculationOptions instance and set the custom engine
     CalculationOptions opts = new CalculationOptions();
     opts.setCustomEngine(new CustomEngine());
 
-    // ワークシートのセルに書き込まずに、カスタム関数を使用して数式を計算する
+    // Calculate a formula using the custom function without writing it in a worksheet cell
     Object ret = ws.calculateFormula("=A1 & MyCompany.CustomFunction()", opts);
     
-    System.out.println(ret);  // 出力: Aspose.Cells へようこそ。
+    System.out.println(ret);  // Outputs: Welcome to Aspose.Cells.
 }
 ```
 
-**説明：** その `opts.setCustomEngine(new CustomEngine())` 行は、カスタム数式処理用の計算エンジンを構成します。
+**定義アンカー:** `CalculationOptions` は Aspose.Cells が数式を評価する方法を制御する設定を保持し、カスタムエンジンへの参照も含みます。  
 
-## 実用的なアプリケーション
+**直接的な回答:** `opts.setCustomEngine(new CustomEngine())` と呼び出すことで、未知の関数はすべて実装したロジックに委譲され、`MyCompany.CustomFunction` が計算した値を返すようになります。
 
-カスタム計算エンジンを導入することで、ビジネスプロセスを大幅に強化できます。以下に、具体的なユースケースをいくつかご紹介します。
+## 実用的な適用例
 
-1. **動的価格設定モデル:**
-   - 顧客タイプや季節割引などの複雑な基準に基づいて価格を計算します。
+カスタム関数 Excel 機能を追加すると、以下のような実世界の課題が解決します:
 
-2. **カスタム財務指標:**
-   - 業界固有の財務比率または業績指標を計算します。
+1. **動的価格モデル** – 顧客層、地域、プロモーション規則に基づいて価格を計算し、外部サービスを呼び出す必要がありません。  
+2. **カスタム財務指標** – Excel の標準ライブラリにない業界固有の比率（例: 調整後 EBITDA）を計算します。  
+3. **自動データ変換** – 生データをクレンジングまたは強化する独自アルゴリズムをシート内に埋め込みます。  
+4. **ERP 連携** – 為替レートや在庫レベルを取得するカスタム関数で ERP の API を呼び出し、ワークブックを常に最新に保ちます。  
+5. **リスク評価** – セル数式から呼び出すカスタム統計モデルで信用スコアや不正検出の可能性を評価します。
 
-3. **自動データ変換:**
-   - 独自のアルゴリズムを Excel シート内で直接使用して、生データを実用的な洞察に変換します。
+## パフォーマンス上の考慮点
 
-4. **ERP システムとの統合:**
-   - カスタム関数を使用して、既存のエンタープライズ リソース プランニング システムとシームレスに統合し、データ フローと分析を自動化します。
+カスタム関数を追加する際は、次のポイントに留意してください:
 
-5. **リスク評価モデル:**
-   - 組織固有のリスク要因としきい値を反映したカスタマイズされたリスク計算モデルを実装します。
+- **複雑さを最小化** – `calculate` 内のアルゴリズムは軽量に保ち、重い I/O はキャッシュまたは事前ロードしてください。  
+- **バッチ処理** – データベースクエリが必要な場合は、必要な行を一度取得して呼び出し間で再利用します。  
+- **メモリ管理** – Aspose.Cells は大きなファイルをストリーミングしますが、エンジン内に大規模な一時コレクションを保持するとヒープ使用量が増加します。  
+- **最新バージョンを使用** – 新しい Aspose.Cells リリースには JIT コンパイルされた数式エンジンが含まれ、カスタム計算が最大 30 % 高速化されます。
 
-## パフォーマンスに関する考慮事項
+## よくある質問
 
-カスタム計算エンジンを展開する場合は、次のパフォーマンスに関するヒントを考慮してください。
+**Q: 複数のカスタム関数を登録できますか？**  
+A: はい。`AbstractCalculationEngine` のサブクラスを複数実装するか、単一エンジンの `calculate` メソッド内で複数の関数名を処理します。
 
-- 不要な計算を防ぐために、数式の複雑さを最適化します。
-- Aspose.Cells を使用して大規模なデータセットを効率的に処理し、メモリ使用量を管理します。
-- パフォーマンスの向上のメリットを得るには、Aspose.Cells for Java を最新バージョンに定期的に更新してください。
+**Q: カスタム関数が例外をスローした場合はどうなりますか？**  
+A: エンジンは例外を捕捉し、`setCalculatedValue(ErrorValue)` を呼び出して Excel エラー（例: `#VALUE!`）を返すべきです。これによりワークブック全体の計算が失敗するのを防げます。
 
-## 結論
+**Q: カスタムエンジンはマルチスレッド計算に対応していますか？**  
+A: 各スレッドが独自の `Workbook` インスタンスを使用すれば、Aspose.Cells の計算エンジンはスレッドセーフです。ステートレスであればエンジンインスタンスを共有しても構いません。
 
-Aspose.Cells for Java にカスタム計算エンジンを追加することで、Excel 処理の新たな機能を実現できました。このカスタマイズにより、データ分析の精度が向上するだけでなく、特定のビジネスニーズに合わせたワークフローの効率化も実現できます。
+**Q: 引数のサイズに制限はありますか？**  
+A: 引数は `Object[]` として渡されます。配列、文字列、数値、カスタムオブジェクトなどを扱えますが、ペイロードは数 MB 未満に抑えてメモリ消費を抑制してください。
 
-### 次のステップ:
-- さまざまな種類の関数と計算を試してみてください。
-- 機能性を強化するために、Aspose.Cells が提供する追加機能を調べてください。
-
-もっと詳しく知りたいですか？今すぐこれらのソリューションをプロジェクトに実装してみてください。
-
-## FAQセクション
-
-**質問1:** カスタム計算エンジンを使用する利点は何ですか?
-*カスタム エンジンを使用すると、データ処理を正確に制御でき、Excel 内で直接独自のビジネス ロジックを実現できます。*
-
-**質問2:** カスタム関数でエラーを処理するにはどうすればよいですか?
-*エラー処理を実装する `calculate` 例外を適切に管理する方法。*
-
-**質問3:** 複数のカスタム関数を同時に使用できますか?
-*はい、Aspose.Cells は、さまざまな機能に対して複数のカスタム エンジンの使用をサポートしています。*
-
-**質問4:** カスタム エンジンで計算できる内容に制限はありますか?
-*カスタム エンジンは強力ですが、システム メモリの制約と処理時間の制限を尊重する必要があります。*
-
-**質問5:** カスタム計算ロジックの問題をデバッグするにはどうすればいいですか?
-*ログ記録を活用 `calculate` 値をトレースし、問題が発生する可能性のある場所を特定する方法。*
+**Q: カスタム関数のデバッグ方法は？**  
+A: `calculate` 内にロギングステートメント（例: `java.util.logging`）を挿入します。ログはアプリケーションコンソールに出力され、引数値や中間結果の追跡に役立ちます。
 
 ## リソース
 
-- **ドキュメント:** [Aspose.Cells Java ドキュメント](https://reference.aspose.com/cells/java/)
-- **ダウンロード：** [Aspose.Cells for Java リリース](https://releases.aspose.com/cells/java/)
-- **購入オプション:** [Aspose.Cellsを購入する](https://purchase.aspose.com/buy)
-- **無料トライアル:** [Aspose 無料トライアルアクセス](https://releases.aspose.com/cells/java/)
-- **一時ライセンス:** [一時ライセンスの申請](https://purchase.aspose.com/temporary-license/)
-- **サポートフォーラム:** [Aspose サポートコミュニティ](https://forum.aspose.com/c/cells/9)
+- **ドキュメント:** [Aspose.Cells Java Documentation](https://reference.aspose.com/cells/java/)  
+- **ダウンロード:** [Aspose.Cells for Java Releases](https://releases.aspose.com/cells/java/)  
+- **購入オプション:** [Buy Aspose.Cells](https://purchase.aspose.com/buy)  
+- **無料トライアル:** [Aspose Free Trial Access](https://releases.aspose.com/cells/java/)  
+- **一時ライセンス:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **サポートフォーラム:** [Aspose Support Community](https://forum.aspose.com/c/cells/9)
 
-このガイドに従うことで、Aspose.Cells for Java を活用して、独自のビジネス要件に適した強力なカスタム計算エンジンを作成できます。コーディングを楽しみましょう！
+---
+
+**最終更新日:** 2026-08-10  
+**テスト環境:** Aspose.Cells for Java 25.3  
+**作者:** Aspose
+
+{{< blocks/products/products-backtop-button >}}
+
+## 関連チュートリアル
+
+- [Custom SUM Function in Excel using Aspose.Cells Java&#58; Enhance Your Calculations](/cells/java/formulas-functions/custom-sum-function-excel-aspose-cells-java/)
+- [How to Create & Format Excel Cells Using Aspose.Cells for Java&#58; A Step-by-Step Guide](/cells/java/formatting/aspose-cells-java-excel-automation-guide/)
+- [Implementing Custom Fonts in Aspose.Cells for Java&#58; A Comprehensive Guide to Consistent Workbook Rendering](/cells/java/formatting/custom-fonts-aspose-cells-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

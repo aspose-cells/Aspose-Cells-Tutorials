@@ -62,7 +62,7 @@ Naučte se, jak efektivně naplnit excelové listy vnořenými daty pomocí Aspo
 ### [Jak provést nahrazení regulárních výrazů v Excelu pomocí Aspose.Cells pro Javu: Komplexní průvodce](./regex-replacement-excel-aspose-cells-java-guide/)
 Naučte se, jak automatizovat nahrazování textu v souborech Excelu pomocí regulárních výrazů s Aspose.Cells pro Javu. Tato podrobná příručka zahrnuje inicializaci, konfiguraci a praktické aplikace.
 
-
+### [Jak rozdělit sloupce v Javě pomocí Aspose.Cells – krok za krokem](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
 
 ## Další zdroje
 

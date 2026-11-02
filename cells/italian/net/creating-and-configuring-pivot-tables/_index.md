@@ -59,6 +59,8 @@ Sfrutta la potenza di Aspose.Cells per .NET. Cancella i campi pivot in Excel sen
 Scopri come utilizzare Aspose.Cells per .NET per applicare funzioni di consolidamento a livello di codice. Automatizza in modo efficiente le tue attività di analisi dei dati.
 ### [Creare una nuova tabella pivot a livello di programmazione in .NET](./creating-new-pivot-table/)
 Impara a creare una tabella pivot in .NET tramite Aspose.Cells con la nostra guida passo passo. Analizza i tuoi dati in modo efficiente.
+### [Come creare una tabella pivot in C# – Guida completa con Aspose.Cells](./how-to-create-pivot-in-c-full-guide-with-aspose-cells/)
+Scopri come creare una tabella pivot in C# usando Aspose.Cells con una guida dettagliata passo passo.
 ### [Disabilitare la barra multifunzione della tabella pivot a livello di programmazione in .NET](./disabling-pivot-table-ribbon/)
 Scopri come disattivare la barra multifunzione della tabella pivot in .NET utilizzando Aspose.Cells. Questa guida dettagliata semplifica la personalizzazione delle interazioni in Excel.
 ### [Formattazione e aspetto delle tabelle pivot a livello di programmazione in .NET](./formatting-and-look/)

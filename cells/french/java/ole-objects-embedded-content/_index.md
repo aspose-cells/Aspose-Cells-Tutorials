@@ -47,7 +47,8 @@ Découvrez comment extraire efficacement les GUID d'objets PowerPoint intégrés
 ### [Supprimer les contrôles ActiveX d'Excel avec Aspose.Cells Java](./remove-activex-controls-excel-aspose-cells-java/)
 Un tutoriel de code pour Aspose.Words Java
 
-
+### [Comment incorporer des polices – Guide complet pour l'exportation HTML, XPS et OLE](./how-to-embed-fonts-complete-guide-for-html-xps-and-ole-expor/)
+Apprenez à intégrer des polices dans les fichiers HTML, XPS et OLE lors de l'exportation avec Aspose.Cells pour Java.
 
 ## Ressources supplémentaires
 

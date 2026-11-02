@@ -68,7 +68,8 @@ Pelajari cara mengoptimalkan buku kerja Excel di Java dengan Aspose.Cells untuk 
 ### [Mengoptimalkan Sel Buku Kerja Excel di Java Menggunakan Aspose.Cells: Panduan Lengkap](./optimize-workbook-cells-java-aspose-cells-guide/)
 Pelajari cara mengoptimalkan dan mengelola sel buku kerja Excel secara efisien menggunakan Aspose.Cells untuk Java. Sempurnakan aplikasi Java Anda dengan panduan lengkap ini.
 
-
+### [set useflatopc true – Cara Menyimpan Buku Kerja Excel dengan Flat OPC di Java](./set-useflatopc-true-how-to-save-excel-workbooks-with-flat-op/)
+Pelajari cara mengaktifkan opsi useFlatOPC dan menyimpan buku kerja Excel dalam format Flat OPC menggunakan Aspose.Cells untuk Java.
 
 ## Sumber Daya Tambahan
 

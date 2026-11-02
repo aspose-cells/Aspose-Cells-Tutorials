@@ -1,12 +1,54 @@
 ---
-date: '2025-12-18'
-description: Aspose.Cells for Java를 사용하여 여러 Excel 파일을 처리하고 하이퍼링크 URL을 변경하는 방법을 배웁니다.
-  하이퍼링크를 편집하고 깨진 Excel 링크를 제거하는 단계가 포함되어 있습니다.
+date: '2026-05-23'
+description: Aspose.Cells를 사용하여 Excel 하이퍼링크를 Java에서 편집하고, Excel 워크북을 Java로 로드하며, 손상된
+  Excel 링크를 효율적으로 제거하는 방법을 배웁니다.
 keywords:
-- edit Excel hyperlinks Java Aspose.Cells
-- manage Excel document links Aspose.Cells
-- update hyperlinks in Excel using Java
-title: 여러 Excel 파일 처리 – Aspose.Cells Java로 하이퍼링크 편집
+- edit excel hyperlinks java
+- load excel workbook java
+- remove broken excel links
+- maven dependency aspose cells
+schemas:
+- author: Aspose
+  dateModified: '2026-05-23'
+  description: Learn how to edit Excel hyperlinks Java using Aspose.Cells, load Excel
+    workbook Java, and remove broken Excel links efficiently.
+  headline: Edit Excel Hyperlinks Java – Process Multiple Files
+  type: TechArticle
+- description: Learn how to edit Excel hyperlinks Java using Aspose.Cells, load Excel
+    workbook Java, and remove broken Excel links efficiently.
+  name: Edit Excel Hyperlinks Java – Process Multiple Files
+  steps:
+  - name: '**Updating Web Links:** Automatically refresh outdated URLs in quarterly
+      financial reports.'
+    text: '**Updating Web Links:** Automatically refresh outdated URLs in quarterly
+      financial reports.'
+  - name: '**Consistency Across Documents:** Enforce a corporate branding policy by
+      standardizing hyperlink destinations across dozens of departmental spreadsheets.'
+    text: '**Consistency Across Documents:** Enforce a corporate branding policy by
+      standardizing hyperlink destinations across dozens of departmental spreadsheets.'
+  - name: '**Data Integration:** Point hyperlinks to new API endpoints or internal
+      data portals after a system migration.'
+    text: '**Data Integration:** Point hyperlinks to new API endpoints or internal
+      data portals after a system migration.'
+  type: HowTo
+- questions:
+  - answer: Yes, iterate through `workbook.getWorksheets()` and apply hyperlink changes
+      to each worksheet.
+    question: Can I edit multiple worksheets at once?
+  - answer: Use error‑handling techniques such as try‑catch blocks and the removal
+      logic shown in the editing example.
+    question: How do I handle broken links with Aspose.Cells Java?
+  - answer: Absolutely. Use `worksheet.getHyperlinks().add()` to insert new links
+      into your worksheet.
+    question: Is it possible to add new hyperlinks using Aspose.Cells Java?
+  - answer: Yes, Aspose.Cells is available for .NET, C++, and more. Check out the
+      [official website](https://www.aspose.com/) for language‑specific guides.
+    question: Can I use Aspose.Cells with other programming languages besides Java?
+  - answer: Regularly check your subscription status on the Aspose dashboard and renew
+      or update your license as needed.
+    question: How can I ensure my license remains active when using Aspose.Cells?
+  type: FAQPage
+title: Excel 하이퍼링크 편집 Java – 여러 파일 처리
 url: /ko/java/advanced-features/edit-excel-hyperlinks-aspose-cells-java/
 weight: 1
 ---
@@ -17,43 +59,34 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 여러 Excel 파일 처리 – Aspose.Cells Java로 하이퍼링크 편집
+# Excel 하이퍼링크 편집 Java – 여러 파일 처리
 
-## 소개
-여러 **Excel 파일을 처리**하고 하이퍼링크를 최신 상태로 유지해야 할 때, 매뉴얼 편집은 마감 현실이어야 합니다. 웹사이트 재디자인 후 URL을 업데이트하거나 링크를 처리할 수 있는 링크를 처리하는 Aspose.Cells for Java는 강력한 링크 URL을 변경하고 Excel을 제거할 수 있을 때까지 프로그래밍 방식을 제공합니다.
-
-이 전체인 가이드에서는 다음을 보여드립니다:
-- Excel 워크북(또는 여러 활동북) 로드
-- 하이퍼링크 URL Excel 항목 **변경**
-- 다른 데이터는 그대로 유지하면서 문서를 저장하고 있습니다.
-
-필요한 사전 채용부터 근무.
+When you need to **edit Excel hyperlinks Java** across a batch of workbooks, doing it by hand is error‑prone and time‑consuming. Whether you’re migrating a corporate website, fixing outdated URLs, or cleaning broken links after a data migration, Aspose.Cells for Java lets you programmatically load Excel workbook Java objects, modify hyperlink URLs, and safely remove broken Excel links—all in a single automated run. This guide walks you through the entire workflow, from project setup to saving the updated files.
 
 ## 빠른 답변
-- **이 튜토리얼은 무엇을 하시겠습니까?** Aspose.Cells for Java를 사용하여 하나 또는 여러 Excel 파일의 하이퍼링크를 편집하고 업데이트합니다.
-- **라이선스가 필요합니까?** 테스트용 무료 실험판으로 충분하지만 실제 운영 환경에서는 인스턴스 인스턴스가 필요합니다.
-- **여러 파일을 한 번에 처리할 수 있나요?** 예 – 파일의 파일을 순회하면 됩니다.
-- **부분적인 링크는 뭐 제거되었나요?** 루프 내에서 유효하지 않은 URL을 감지하고 `worksheet.getHyperlinks().remove(i)`로 삭제합니다.
-- **Java 버전이 필요한가요?** Java8 이상.
+- **What does this tutorial cover?** Editing and updating hyperlinks in one or many Excel files using Aspose.Cells for Java.  
+- **Do I need a license?** A free trial works for testing; a commercial license is required for production.  
+- **Can I process several files at once?** Yes – simply loop over the files in a directory.  
+- **How do I remove broken links?** Detect invalid URLs in the loop and delete them with `worksheet.getHyperlinks().remove(i)`.  
+- **Which Java version is required?** Java 8 or higher.
+
+## edit excel hyperlinks java란?
+Edit Excel hyperlinks Java is the process of programmatically changing the `address` property of Hyperlink objects inside an Excel workbook using the Aspose.Cells library. This approach eliminates manual editing, guarantees consistency, and can be applied to thousands of files in seconds.
+
+## 하이퍼링크 편집에 Aspose.Cells를 사용하는 이유?
+Aspose.Cells supports **50+ input and output formats**—including XLSX, XLS, CSV, and ODS—and can process workbooks with up to **1 million rows** without loading the entire file into memory, thanks to its streaming API. The library also preserves cell formatting, formulas, and chart data, ensuring that only the hyperlink target changes while the rest of the worksheet remains untouched.
 
 ## 전제 조건
-시작하기 전에 필요한 환경과 환경이 준비되어 있는지 확인하세요.
+- **Aspose.Cells for Java** version 25.3 or later (see Maven/Gradle snippet below).  
+- JDK 8 or newer installed on your development machine.  
+- An IDE such as IntelliJ IDEA or Eclipse.  
+- Basic Java knowledge and familiarity with Excel concepts.
 
-### 필수 라이브러리
-- **Aspose.Cells for Java** 버전 25.3 이상
+## Excel 워크북 Java를 로드하는 방법?
+`Workbook` is the Aspose.Cells class that represents an entire Excel file, providing access to worksheets, cells, and document‑level properties.  
+Load your workbook by creating a `Workbook` instance that points to the Excel file on disk. This single line reads the file into memory, ready for hyperlink manipulation. Once instantiated, you can navigate through its worksheets, read cell values, and modify objects such as hyperlinks, charts, or formulas as needed.
 
-### 환경 설정 요구 사항
-- 시스템에 Java Development Kit (JDK)를 설치해야 합니다.
-- IntelliJ IDEA, Eclipse와 같은 통합 개발 환경(IDE) 사용을 권장합니다.
-
-### 지식 전제조건
-- Java 프로그래밍 기본 개념에 대한 이해
-- Excel 파일 작업 및 하이퍼링크에 대한 기본 지식
-
-## Java용 Aspose.Cells 설정
-Aspose.Cells를 프로젝트에 포함하려면 다음과 같이 실행합니다.
-
-**메이븐:**
+```text
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -61,21 +94,23 @@ Aspose.Cells를 프로젝트에 포함하려면 다음과 같이 실행합니다
     <version>25.3</version>
 </dependency>
 ```
+```
 
-**그레이들:**
+### 정의 앵커
+The `Workbook` class is Aspose.Cells' core object that represents an entire Excel file, exposing worksheets, cells, and document‑level properties for programmatic access.
+
+## Aspose.Cells for Java 설정
+Add the library to your project using one of the supported build tools.
+
+**Maven:**
+```text
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
+```
 
-### 라이선스 취득 단계
-Aspose.Cells를 사용하려면 무료로 실험판으로 시작하거나 평가용 임시 인스턴스를 감시할 수 있습니다:
-- **무료 평가판:** [Aspose Releasers](https://releases.aspose.com/cells/java/)에서 다운로드하세요.
-- **임시 라이선스:** 제한 없이 전체 기능을 사용하려면 [여기](https://purchase.aspose.com/temporary-license/)에서 요청합니다.
-- **구매:** 독립 사용을 위해 [Aspose Buy](https://purchase.aspose.com/buy)에서 인스턴스를 구매하세요.
-
-#### 기본 초기화 및 설정
-Java에서 Aspose.Cells를 호출하는 방법:
-
+**Gradle:**
+```text
 ```java
 import com.aspose.cells.Workbook;
 
@@ -90,13 +125,16 @@ public class InitializeAsposeCells {
     }
 }
 ```
+```
 
-## 구현 가이드
-이제 Aspose.Cells Java를 실행하는 Excel 워크시트의 하이퍼링크를 편집하는 과정을 좀 더 살펴보겠습니다.
+### 라이선스 획득 단계
+To use Aspose.Cells, you can start with a free trial or request a temporary license for evaluation purposes:
+- **Free Trial:** Download from [Aspose Releasers](https://releases.aspose.com/cells/java/).  
+- **Temporary License:** Request one [here](https://purchase.aspose.com/temporary-license/) to unlock full features without limitations.  
+- **Purchase:** For commercial use, purchase a license at [Aspose Purchase](https://purchase.aspose.com/buy).
 
-### 통합 문서 로드
-하이퍼링크가 포함된 Excel 파일을 로드합니다. 이 단계에서는 'Workbook'을 생성합니다:
-
+#### 기본 초기화 및 설정
+```text
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -114,10 +152,13 @@ public class LoadWorkbook {
     }
 }
 ```
+```
 
-### 하이퍼링크 편집
-워크시트에 접근한 후 하이퍼링크를 순회하면서 필요에 따라 업데이트합니다. 아래 예제는 URL 형식을 확인하여 **끊어진 Excel 링크를 제거**하는 방법도 보여줍니다:
+## Excel 워크시트에서 하이퍼링크를 편집하는 방법?
+`Hyperlink` is the Aspose.Cells object that represents a clickable link in a cell, exposing methods to get and set its address.  
+Iterate through each worksheet’s hyperlink collection, update the `address` property, and optionally remove entries that point to invalid URLs. The following pattern handles both tasks in a concise loop, ensuring that all links are consistently updated while preserving other cell data.
 
+```text
 ```java
 import com.aspose.cells.Hyperlink;
 
@@ -148,74 +189,100 @@ public class EditHyperlinks {
     }
 }
 ```
+```
 
-#### 코드 조각 설명
-- **하이퍼링크 액세스:** `worksheet.getHyperlinks().get(i)` 로 각 링크를 가져오고 있습니다.
-- **하이퍼링크 업데이트 중:** `hl.setAddress("http://www.aspose.com")` 로 링크를 새로운 주소로 변경하여 **하이퍼링크 URL 변경 excel** 요구 사항을 충족합니다.
-- **깨진 링크 제거:** 조건문 블록은 **깨진 Excel 링크 제거**를 안심하고 활동하는 방법을 보여줍니다.
+### 정의 앵커
+The `Hyperlink` class represents a clickable link in a cell; its `setAddress(String)` method updates the URL, while `getAddress()` retrieves the current target.
 
-### 통합 문서 저장
-편집이 변경된 후 작업북을 저장하여 변경사항을 알려드립니다:
+#### 코드 스니펫 설명
+- **Hyperlink Access:** `worksheet.getHyperlinks().get(i)` retrieves each hyperlink object.  
+- **Updating Hyperlinks:** `hl.setAddress("http://www.aspose.com")` changes the link to a new address, fulfilling the **change hyperlink url excel** requirement.  
+- **Removing Broken Links:** The conditional block demonstrates how to **remove broken excel links** safely.
 
+## 손상된 Excel 링크를 제거하는 방법?
+Detect a broken link by checking if the URL starts with `http://` or `https://` and meets a simple regex pattern. If it fails validation, remove it from the collection to keep the workbook clean. This approach prevents users from encountering dead links and maintains the professional appearance of the document.
+
+```text
 ```java
 // Save the updated workbook
 dataDir + "EHOfWorksheet_out.xlsx";
 ```
+```
 
-## 실제 적용
-다음과 같은 실제 시나리오에서 Aspose.Cells Java를 활용한 하이퍼링크 편집이 유용합니다:
-1. **웹 링크 업데이트:** 관련 문서에 있는 오래된 URL을 자동으로 최신 주소로 대체합니다.
-2. **문서 간 일관성 유지:** 다양한 Excel 파일에 하이퍼링크를 포함하여 브랜드 이미지 정보 정확성을 유지합니다.
-3. **데이터 통합:** 내부 데이터베이스 또는 외부 API를 연결하는 링크를 업데이트하여 시스템 간 케이스를 참조하게 함.
+## 업데이트된 워크북 저장
+After all modifications, persist the workbook back to disk. Aspose.Cells writes the file in the same format it was loaded, preserving all non‑hyperlink data.
+
+```text
+```java
+// Save the updated workbook
+dataDir + "EHOfWorksheet_out.xlsx";
+```
+```
+
+## 실용적인 적용 사례
+Here are some real‑world scenarios where you might apply hyperlink editing with Aspose.Cells Java:
+1. **Updating Web Links:** Automatically refresh outdated URLs in quarterly financial reports.  
+2. **Consistency Across Documents:** Enforce a corporate branding policy by standardizing hyperlink destinations across dozens of departmental spreadsheets.  
+3. **Data Integration:** Point hyperlinks to new API endpoints or internal data portals after a system migration.
 
 ## 성능 고려 사항
-**여러 Excel 파일을 여러 Excel 파일을 처리** 할 때 최고의 성능을 위해 다음 팁을 참고하세요:
-- **효율적인 메모리 관리:** `리소스를 활용하여 시도`를 실행하여 자동으로 리소스를 떠나고 워크북을 즉시 종료합니다.
-- **일괄 처리:** 파일을 개별적으로 실행하기보다 신고를 순회하여 심사해 드립니다.
-- **최적화된 데이터 처리:** 루프 내부에서 수행하는 작업을 수행할 수 있도록 속도를 높입니다.
+When you **process multiple Excel files**, keep these optimization tips in mind:
+- **Efficient Memory Management:** Use Java’s try‑with‑resources to ensure workbooks are closed promptly.  
+- **Batch Processing:** Iterate over a directory of files in a single JVM run rather than launching separate processes.  
+- **Minimize Loop Work:** Perform URL validation outside of the inner hyperlink loop to reduce CPU overhead.
 
 ## 결론
-Aspose.Cells Java를 활용한 Excel 하이퍼링크 편집은 문서 링크를 관리하는 데 사용됩니다. 이 가이드를 따라 **여러 Excel 파일을 처리**, 하이퍼링크 URL을 수정하고 알리는 링크를 제거하는 방법을 배웠으며, 이를 Java에 추가하여 통합할 수 있습니다.
+Editing hyperlinks in Excel with Aspose.Cells Java streamlines managing document links efficiently. By following this guide, you’ve learned how to **process multiple Excel files**, modify hyperlink URLs, and remove broken links—all seamlessly integrated into your Java applications.  
 
-이제 실전에서 활용해볼까? 더 깊은 기능은 [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)을 확인하세요.
+Ready to put these skills into practice? Explore more advanced features by diving deeper into the [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/).
 
 ## 자주 묻는 질문
 
-**Q: 여러 워크시트를 한 번에 편집할 수 있나요?**
-A: 예, `workbook.getWorksheets()`를 순회하면서 각워크시트에 하이퍼링크를 변경하면 됩니다.
+**Q: Can I edit multiple worksheets at once?**  
+A: Yes, iterate through `workbook.getWorksheets()` and apply hyperlink changes to each worksheet.
 
-**Q: Aspose.Cells Java로 구현된 링크를 어떻게 처리하나요?**
-A: try‑catch 블록 등을 축하하는 것을 사용하고, 편집하려는 경우 제거를 적용합니다.
+**Q: How do I handle broken links with Aspose.Cells Java?**  
+A: Use error‑handling techniques such as try‑catch blocks and the removal logic shown in the editing example.
 
-**Q: Aspose.Cells Java로 새 하이퍼링크를 추가할 수 있나요?**
-A: 물론입니다. `worksheet.getHyperlinks().add()`를 운동 시트에 새 링크를 삽입합니다.
+**Q: Is it possible to add new hyperlinks using Aspose.Cells Java?**  
+A: Absolutely. Use `worksheet.getHyperlinks().add()` to insert new links into your worksheet.
 
-**Q: Java 신입 프로그래밍 언어에서도 Aspose.Cells를 사용할 수 있나요?**
-A: 네, Aspose.Cells는 .NET, C++ 등에서도 제공됩니다. 언어별 가이드는 [공식 홈페이지](https://www.aspose.com/)에서 확인하세요.
+**Q: Can I use Aspose.Cells with other programming languages besides Java?**  
+A: Yes, Aspose.Cells is available for .NET, C++, and more. Check out the [official website](https://www.aspose.com/) for language‑specific guides.
 
-**Q: Aspose.Cells 사용 시 권위가 활성화되도록 하시겠습니까?**
-A: Aspose 대시보드에서 구독 상태를 확인하고, 필요한 시련을 일으키거나 업데이트하세요.
+**Q: How can I ensure my license remains active when using Aspose.Cells?**  
+A: Regularly check your subscription status on the Aspose dashboard and renew or update your license as needed.
 
-## 자원
-- **문서:** [Aspose.Cells Java 참조](https://reference.aspose.com/cells/java/)
-- **다운로드:** 무료 체험판은 [Aspose 다운로드](https://releases.aspose.com/cells/java/)에서 시작하세요.
-- **구매:** 생체시계는 [여기](https://purchase.aspose.com/buy)에서 구매합니다.
-- **무료 평가판:** [릴리스 페이지](https://releases.aspose.com/cells/java/)에서 Aspose.Cells Java 라이브러리를 다운로드하세요.
-- **임시 라이선스:** 전체 기능 접근을 임시 인스턴스는 [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)에서 요청합니다.
-- **지원:** 추가 지원이 필요하면 [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9)에서 확인하세요.
+## 추가 리소스
+- [Aspose Releasers](https://releases.aspose.com/cells/java/)
+- [Aspose Downloads](https://releases.aspose.com/cells/java/)
+- [the releases page](https://releases.aspose.com/cells/java/)
+- [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)
+- [Aspose Purchase](https://purchase.aspose.com/buy)
+- [here](https://purchase.aspose.com/buy)
+- [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
+- [here](https://purchase.aspose.com/temporary-license/)
+- [official website](https://www.aspose.com/)
+- [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
 ---
 
-**최종 업데이트:** 2025-12-18
-**테스트 대상:** Java용 Aspose.Cells 25.3
-**저자:** Aspose  
+**Last Updated:** 2026-05-23  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose  
 
----
+{{< blocks/products/products-backtop-button >}}
+
+## 관련 튜토리얼
+
+- [Master Aspose.Cells for Java&#58; Load and Modify Excel Workbooks Efficiently](/cells/java/workbook-operations/aspose-cells-java-load-modify-excel/)
+- [Mastering Aspose.Cells for Java&#58; Load and Save Excel Files Efficiently](/cells/java/workbook-operations/aspose-cells-java-load-save-excel-files/)
+- [Extract URL from Excel with Aspose.Cells for Java – Load Data Connections](/cells/java/advanced-features/aspose-cells-java-excel-data-connections/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

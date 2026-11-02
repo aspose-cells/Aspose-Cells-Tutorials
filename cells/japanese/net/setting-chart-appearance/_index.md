@@ -50,6 +50,8 @@ Aspose.Cells for .NET で Excel のグラフ作成の可能性を最大限に引
 詳細なステップバイステップ ガイドを使用して、Aspose.Cells for .NET を使用して Excel のグラフの線をカスタマイズする方法を学びます。
 ### [グラフのタイトルと軸を設定する](./set-titles-and-axes-in-chart/)
 コード例とヒントが揃ったこのステップバイステップ ガイドで、Aspose.Cells for .NET を使用してグラフのタイトルと軸を設定する方法を学習します。
+### [チャートを保持する方法 – PowerPoint C# でチャートの書式設定を保持](./how-to-preserve-charts-preserve-chart-formatting-in-powerpoi/)
+Aspose.Slides for .NET を使用して、PowerPoint の C# コードでチャートの書式設定を保持する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

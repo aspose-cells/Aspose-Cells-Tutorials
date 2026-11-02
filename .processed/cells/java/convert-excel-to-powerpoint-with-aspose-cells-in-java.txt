@@ -1,0 +1,7 @@
+Title: Convert Excel to PowerPoint with Aspose.Cells in Java
+Slug: convert-excel-to-powerpoint-with-aspose-cells-in-java
+Category: integration-interoperability
+ProcessedDate: 2026-09-21T18:42:29.185065
+SourceRepo: AI Search API
+Keywords: convert excel to powerpoint, save workbook as pptx, how to export chart to pptx, create powerpoint from excel chart
+PRNumber: 166

@@ -50,6 +50,9 @@ Lär dig hur du flyttar, kommer åt och hanterar Excel-ark sömlöst med Aspose.
 ### [Automatisera justering av radhöjd i Excel med Aspose.Cells för Java](./aspose-cells-java-row-height-excel/)
 Lär dig automatisera justeringar av radhöjd i Excel-filer med Aspose.Cells för Java. Den här guiden täcker installation, kodningsexempel och prestandatips.
 
+### [Frys de två första raderna i Excel med Java – En komplett guide](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Lär dig hur du fryser de två första raderna i ett Excel‑ark med Aspose.Cells för Java. Guiden visar steg‑för‑steg‑exempel och bästa praxis.
+
 ### [Effektiv radhantering i Excel med Aspose.Cells för Java: Infoga och ta bort rader](./aspose-cells-java-row-operations-excel/)
 Bemästra radoperationer i Excel med Aspose.Cells för Java. Lär dig att infoga och ta bort rader effektivt och optimera dina datahanteringsuppgifter.
 
@@ -73,6 +76,9 @@ Lär dig hur du tar bort kolumner från en Excel-arbetsbok med Aspose.Cells för
 
 ### [Hur man tar bort rader i Excel med Aspose.Cells för Java | Guide och handledning](./delete-row-excel-aspose-cells-java/)
 Lär dig hur du effektivt tar bort rader från en Excel-fil med Aspose.Cells för Java. Den här guiden behandlar installation, kodexempel och praktiska tillämpningar.
+
+### [Ta bort rader i kalkylblad med Java – Komplett guide](./delete-rows-in-worksheet-with-java-complete-guide/)
+Lär dig hur du effektivt tar bort rader i ett kalkylblad med Aspose.Cells för Java. Guiden innehåller installation, kodexempel och bästa praxis.
 
 ### [Hantera synligheten för Excel-flikar med Aspose.Cells i Java](./display-excel-tabs-aspose-cells-java/)
 Lär dig hur du visar eller döljer Excel-flikar med Aspose.Cells för Java. Den här guiden behandlar installation, kodimplementering och bästa praxis för effektiv hantering av kalkylblad.
@@ -98,7 +104,16 @@ En kodhandledning för Aspose.Words Java
 ### [Visa rader och kolumner i Excel med hjälp av Aspose.Cells Java: En steg-för-steg-guide](./unhide-rows-columns-excel-aspose-cells-java/)
 Lär dig hur du enkelt kan visa rader och kolumner i Excel-filer med Aspose.Cells för Java. Automatisera datahantering med den här omfattande guiden.
 
-
+### [Hur man använder SmartMarkerProcessor för dynamisk namngening av kalkylblad](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
+Lär dig hur du med SmartMarkerProcessor kan namnge kalkylblad dynamiskt baserat på data i dina Excel-filer.
+### [Skapa flera kalkylblad i Excel med Java – Komplett mallbaserad guide](./create-multiple-sheets-in-excel-with-java-complete-template/)
+Lär dig hur du programatiskt skapar flera kalkylblad i en Excel-fil med Aspose.Cells för Java med hjälp av en färdig mall.
+### [Hur du rensar autofilter i Excel med Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
+Lär dig hur du tar bort autofilter i en Excel-fil med Aspose.Cells för Java i några enkla steg.
+### [Hur man skapar duplicerade detaljark i Aspose.Cells för Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
+Lär dig hur du duplicerar detaljark i Excel-filer med Aspose.Cells för Java för effektiv datahantering.
+### [Skapa kalkylblad från lista med Aspose.Cells Java – Fullständig guide](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Lär dig hur du skapar kalkylblad från en lista med Aspose.Cells för Java i en komplett guide.
 
 ## Ytterligare resurser
 

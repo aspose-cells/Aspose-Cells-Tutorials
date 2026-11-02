@@ -29,7 +29,7 @@
 ### [如何使用 Aspose.Cells Java 將圖像新增至 Excel：綜合指南](./add-images-excel-aspose-cells-java-guide/)
 了解如何使用 Aspose.Cells for Java 以程式設計方式將影像插入 Excel 電子表格。本指南涵蓋了從設定環境到執行程式碼的所有內容。
 
-### [如何使用 Aspose.Cells for Java 在 Excel 中套用 3D 形狀格式](./aspose-cells-java-3d-shape-formatting/)
+### [如何使用 Aspose.Cells Java 在 Excel 中套用 3D 形狀格式](./aspose-cells-java-3d-shape-formatting/)
 了解如何使用 Aspose.Cells for Java 透過視覺上引人入勝的 3D 形狀增強您的 Excel 報告。請按照本逐步指南即可輕鬆實施。
 
 ### [使用 Aspose.Cells Java 在 Excel 中加入線條：綜合指南](./aspose-cells-java-add-lines-excel/)
@@ -53,10 +53,10 @@
 ### [如何使用 Aspose.Cells Java 在 Excel 中設定標題圖像](./aspose-cells-java-header-image-excel/)
 了解如何使用 Aspose.Cells for Java 為 Excel 工作簿新增自訂標題影像，增強電子表格的視覺吸引力和專業性。
 
-### [如何使用 Aspose.Cells for Java 在 Excel 形狀中新增反射效果](./aspose-cells-java-reflection-effects-excel-shapes/)
+### [如何使用 Aspose.Cells Java 在 Excel 形狀中新增反射效果](./aspose-cells-java-reflection-effects-excel-shapes/)
 了解如何使用 Aspose.Cells for Java 透過反射效果增強您的 Excel 簡報。請按照本逐步指南來提升您的資料視覺化。
 
-### [如何使用 Aspose.Cells for Java 將 Excel 工作表渲染為圖像：綜合指南](./aspose-cells-java-render-excel-sheets-images/)
+### [如何使用 Aspose.Cells Java 將 Excel 工作表渲染為圖像：綜合指南](./aspose-cells-java-render-excel-sheets-images/)
 了解如何使用 Aspose.Cells for Java 將 Excel 資料轉換為高品質影像。本指南涵蓋從設定到渲染的所有步驟，確保無縫資料視覺化。
 
 ### [使用 Aspose.Cells Java 在 ODS 檔案中設定圖形背景：逐步指南](./aspose-cells-java-set-ods-graphic-background/)
@@ -131,7 +131,8 @@ Aspose.Words Java 程式碼教程
 ### [使用 Aspose.Cells Java 在 Excel 中設定背景圖片（逐步指南）](./set-background-picture-excel-aspose-cells-java/)
 了解如何透過使用 Aspose.Cells Java 新增背景影像來增強您的 Excel 報告。按照本逐步指南可實現無縫實施。
 
-
+### [如何在 Java 中使用 Aspose.Cells 從範圍建立 PNG 圖像](./how-to-create-png-from-range-in-java-with-aspose-cells/)
+了解如何使用 Aspose.Cells for Java 從工作表範圍生成 PNG 圖像，以便在報告或網頁中使用。
 
 ## 其他資源
 

@@ -35,7 +35,15 @@ Krása této funkce spočívá v její snadném použití. Buňky můžete progr
 ### [Identifikace buněk v pojmenované oblasti v Excelu](./identify-cells-in-named-range/)
 Snadno identifikujte buňky v pojmenované oblasti v Excelu pomocí Aspose.Cells pro .NET s tímto komplexním podrobným tutoriálem.
 ### [Sloučení buněk v pojmenované oblasti v Excelu](./merge-cells-in-named-range/)
-tomto podrobném tutoriálu se naučte, jak sloučit buňky v pojmenované oblasti pomocí Aspose.Cells pro .NET. Objevte, jak formátovat, stylovat a automatizovat sestavy v Excelu.
+tomuto podrobném tutoriálu se naučte, jak sloučit buňky v pojmenované oblasti pomocí Aspose.Cells pro .NET. Objevte, jak formátovat, stylovat a automatizovat sestavy v Excelu.
+### [Vytvoření sešitu Excel – krok za krokem průvodce přidáváním tabulek a pojmenovacími pravidly](./create-excel-workbook-step-by-step-guide-to-adding-tables-an/)
+Kompletní průvodce vytvořením sešitu Excel, přidáním tabulek a nastavením pojmenovacích pravidel pomocí Aspose.Cells pro .NET.
+### [Uložení sešitu Excel a přidání pojmenovaného rozsahu – Kompletní průvodce C#](./save-excel-workbook-and-add-named-range-full-c-guide/)
+Kompletní návod, jak pomocí Aspose.Cells pro .NET uložit sešit Excel a vytvořit pojmenovaný rozsah v jazyce C#.
+### [Vytvoření sešitu Excel v C# – Přidání pojmenovaného rozsahu a nastavení názvu tabulky](./create-excel-workbook-in-c-add-named-range-set-table-name/)
+Naučte se vytvořit sešit Excel v C# s pojmenovaným rozsahem a nastavením názvu tabulky pomocí Aspose.Cells pro .NET.
+### [Přiřaďte název tabulce Excel a vyhněte se konfliktům názvů](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
+Naučte se, jak přiřadit název tabulce v Excelu a předejít konfliktům názvů pomocí Aspose.Cells pro .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

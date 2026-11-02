@@ -34,6 +34,24 @@ Aprenda como converter arquivos do Excel para o formato XPS usando o Aspose.Cell
 Aprenda a definir o horário de criação de um PDF no .NET usando o Aspose.Cells. Siga nosso guia passo a passo para uma conversão perfeita de Excel para PDF.
 ### [Como escrever Unicode no Excel com C# – Guia completo passo a passo](./how-to-write-unicode-in-excel-with-c-complete-step-by-step-g/)
 Aprenda a inserir caracteres Unicode em planilhas Excel usando C# e Aspose.Cells, com exemplos detalhados passo a passo.
+### [Convertendo docx para XPS em C# – Guia Completo](./convert-docx-to-xps-in-c-complete-guide/)
+Aprenda a converter documentos DOCX para XPS em C# com exemplos práticos e código completo usando Aspose.Words.
+### [Converter Excel para XPS com C# - Guia Completo](./convert-excel-to-xps-with-c-complete-guide/)
+Aprenda passo a passo como converter arquivos Excel para XPS usando C# e Aspose.Cells, com exemplos completos de código.
+### [Criar Nova Pasta de Trabalho do Excel – Guia de Exportação Unicode e XPS](./create-new-excel-workbook-unicode-xps-export-guide/)
+Aprenda a criar uma nova pasta de trabalho do Excel com suporte Unicode e exportá‑la para XPS usando Aspose.Cells para .NET.
+### [Incorporar fontes em XPS com C# – Guia completo de programação](./embed-fonts-in-xps-with-c-complete-programming-guide/)
+Aprenda a incorporar fontes em documentos XPS usando C# e Aspose.Cells, garantindo a fidelidade visual nas conversões.
+### [Incorporar fontes PDF com Aspose.Cells – Guia Completo em C#](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
+Aprenda a incorporar fontes em PDFs gerados com Aspose.Cells usando C#, garantindo que o documento mantenha a formatação correta.
+### [Salvar Pasta de Trabalho como XPS em C# – Guia Passo a Passo](./save-workbook-as-xps-in-c-step-by-step-guide/)
+Aprenda a salvar uma pasta de trabalho do Excel como XPS usando C# com Aspose.Cells, seguindo um guia detalhado passo a passo.
+### [Converter Excel para XPS em C# e carregar arquivo Excel](./convert-excel-to-xps-in-c-and-load-excel-file/)
+Aprenda a converter arquivos Excel para XPS em C# e a carregar planilhas Excel durante o processo, com exemplos de código completos.
+### [Converter Excel para XPS em C# – Guia Completo Passo a Passo](./convert-excel-to-xps-in-c-complete-step-by-step-guide/)
+Aprenda a converter arquivos Excel para XPS usando C# com um guia detalhado passo a passo e exemplos práticos de código.
+### [Como habilitar fontes ao converter Excel para XPS – Guia completo](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
+Aprenda a habilitar fontes ao converter planilhas Excel para XPS usando Aspose.Cells, garantindo que o documento mantenha a formatação correta.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

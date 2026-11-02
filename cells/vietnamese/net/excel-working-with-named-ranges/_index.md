@@ -36,6 +36,8 @@ Phương pháp này lý tưởng cho việc quản lý dữ liệu mục tiêu, 
 Mở khóa sức mạnh của Excel bằng cách truy cập các phạm vi được đặt tên với hướng dẫn dễ dàng của chúng tôi bằng Aspose.Cells cho .NET. Hoàn hảo cho việc quản lý dữ liệu.
 ### [Truy cập phạm vi được đặt tên cụ thể trong Excel](./access-specific-named-range/)
 Tìm hiểu cách truy cập các phạm vi được đặt tên cụ thể trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước toàn diện và mã mẫu này.
+### [Định nghĩa phạm vi được đặt tên trong Excel bằng C# – tạo workbook](./define-named-range-in-excel-with-c-create-workbook/)
+Hướng dẫn tạo workbook và định nghĩa phạm vi được đặt tên trong Excel bằng C# với Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

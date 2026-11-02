@@ -25,7 +25,7 @@ Aspose.Cells 的一大亮点是能够添加 PDF 书签，从而直接从 Excel �
 
 ## 处理突出问题
 
-你有没有遇到过导出 PDF 后，发现自己面对的是空白页的情况？是不是有点郁闷？好在， [避免在 Aspose.Cells 中输出 PDF 时出现空白页](./avoid-blank-page-in-output-pdf/) 本教程提供了一些常识性的解决方案，确保您的 PDF 输出干净且专业。同样，如果您在渲染过程中遇到错误，也不用担心！ [使用 Aspose.Cells 忽略 Excel 到 PDF 渲染中的错误](./ignore-errors-while-rendering/) 本教程将向您展示如何有效地绕过这些问题。
+你有没有遇到过导出 PDF 后，发现自己面对的是空白页的情况？是不是有点郁闷？好在， [避免在 Aspose.Cells 中输出 PDF 时出现空白页](./avoid-blank-page-in-output-pdf/) 本教程提供了一些常识性的解决方案，确保您的 PDF 输出干净且专业。同样，如果您的项目需要仅导出特定的单元格区域，请查看 [使用 Aspose.Cells 将单元格范围导出到图像](./export-range-of-cells-to-image/).
 
 ## 自定义您的导出
 
@@ -66,6 +66,8 @@ Aspose.Cells 的一大亮点是能够添加 PDF 书签，从而直接从 Excel �
 学习如何使用 Aspose.Cells for .NET 创建数据透视表引用范围并将其导出为 PNG 图像。
 ### [在 Aspose.Cells 中将透视表导出为 PNG（C#） – 分步指南](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
 通过本分步指南，了解如何使用 Aspose.Cells for .NET 在 C# 中将透视表导出为 PNG 图像。
+### [在 C# 中创建 PNG 透视图像 – 完整分步指南](./create-png-pivot-image-in-c-full-step-by-step-guide/)
+通过本完整分步指南，了解如何使用 Aspose.Cells for .NET 在 C# 中将数据透视表导出为 PNG 图像。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -38,6 +38,8 @@ Apprenez à récupérer et à répertorier les polices à partir de feuilles de 
 Découvrez comment définir les polices par défaut pour les options d’enregistrement PDF à l’aide d’Aspose.Cells pour .NET, garantissant ainsi que vos documents sont parfaits à chaque fois.
 ### [Spécifier les polices pour le rendu du classeur](./specify-fonts-for-workbook-rendering/)
 Découvrez comment spécifier des polices personnalisées pour le rendu de classeurs avec Aspose.Cells pour .NET. Un guide étape par étape pour garantir une sortie PDF parfaite.
+### [Modifier la police de la zone de texte dans une grille – Guide complet étape par étape](./change-textbox-font-in-a-grid-complete-step-by-step-guide/)
+Apprenez à changer la police d'une zone de texte dans une grille avec Aspose.Cells pour .NET grâce à ce guide complet.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

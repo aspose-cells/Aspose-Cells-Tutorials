@@ -54,6 +54,8 @@ Aspose.Cells for .NET을 사용하여 ODS 파일에서 셀 유효성 검사를 �
 이 포괄적인 단계별 튜토리얼을 통해 Aspose.Cells for .NET을 사용하여 Excel 워크시트에서 외부 링크가 있는 범위를 효율적으로 가져오는 방법을 알아보세요.
 ### [워크시트의 고유 ID 가져오기](./get-worksheet-id/)
 Aspose.Cells for .NET을 사용하여 워크시트의 고유 ID를 가져오는 방법을 단계별 가이드를 통해 알아보세요. 스프레드시트를 더욱 효율적으로 관리해 보세요.
+### [C#에서 워크시트 이름 바꾸는 방법 – 완전 가이드](./how-to-rename-worksheet-in-c-complete-guide/)
+Aspose.Cells for .NET을 사용하여 C#에서 워크시트 이름을 변경하는 방법을 단계별로 안내합니다.
 ### [추가 설정을 사용하여 시트 인쇄](./print-sheet-with-settings/)
 이 자세한 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 Excel 시트를 손쉽게 인쇄하는 방법을 알아보세요.
 ### [ODS 배경 이미지 읽기](./read-ods-background/)
@@ -72,6 +74,10 @@ Aspose.Cells for .NET을 사용하여 ODS 파일에 색상 배경을 설정하�
 Aspose.Cells for .NET을 사용하여 공유 통합 문서의 수정 로그 기록을 업데이트하는 방법을 알아보세요. 협업을 간소화하고 문서 기록을 명확하게 관리할 수 있습니다.
 ### [워크시트에서 OpenXml의 Sheet_SheetId 속성 활용](./utilize-sheet-sheetid-property/)
 Aspose.Cells for .NET으로 Excel의 강력한 기능을 활용하세요. 단계별 가이드를 통해 시트 ID를 효과적으로 조작하는 방법을 알아보세요.
+### [워크시트 만들기 – 동적 Excel 생성을 위한 단계별 가이드](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
+Aspose.Cells for .NET을 사용하여 동적으로 워크시트를 생성하고 Excel 파일을 자동으로 만드는 방법을 단계별로 안내합니다.
+### [항목당 워크시트 만들기 – C#에서 워크시트 반복 방법](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Aspose.Cells for .NET을 사용하여 각 항목마다 워크시트를 생성하고 C#에서 워크시트를 반복하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -80,8 +80,8 @@
 ### [วิธีการสร้างและกำหนดค่ากล่องข้อความใน Excel โดยใช้ Aspose.Cells Java เพื่อการนำเสนอข้อมูลขั้นสูง](./create-text-boxes-excel-aspose-cells-java/)
 เรียนรู้วิธีการสร้างและจัดรูปแบบกล่องข้อความใน Excel โดยใช้ Aspose.Cells Java ปรับปรุงการนำเสนอข้อมูลด้วยการจัดตำแหน่งย่อหน้าที่ชัดเจน
 
-### [เพิ่มและปรับแต่งรูปร่างวงรีใน Excel โดยใช้ Aspose.Cells Java](./customize-oval-shapes-excel-aspose-cells-java/)
-เรียนรู้วิธีการเพิ่มและปรับแต่งรูปทรงวงรีในสเปรดชีต Excel โดยใช้ Aspose.Cells สำหรับ Java ปรับปรุงการแสดงภาพข้อมูลของคุณด้วยคำแนะนำทีละขั้นตอน ตัวอย่างโค้ด และแอปพลิเคชันในทางปฏิบัติ
+### [เพิ่มและปรับแต่งรูปร่างวงศ์ใน Excel โดยใช้ Aspose.Cells Java](./customize-oval-shapes-excel-aspose-cells-java/)
+เรียนรู้วิธีการเพิ่มและปรับแต่งรูปทรงวงศ์ในสเปรดชีต Excel โดยใช้ Aspose.Cells สำหรับ Java ปรับปรุงการแสดงภาพข้อมูลของคุณด้วยคำแนะนำทีละขั้นตอน ตัวอย่างโค้ด และแอปพลิเคชันในทางปฏิบัติ
 
 ### [ตรวจจับรูปทรง SmartArt ในไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ Java](./detect-smartart-shapes-excel-aspose-cells-java/)
 เรียนรู้วิธีการตรวจจับรูปทรง SmartArt ในไฟล์ Excel อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า การนำไปใช้งาน และแอปพลิเคชันในทางปฏิบัติ
@@ -131,7 +131,8 @@
 ### [ตั้งค่ารูปภาพพื้นหลังใน Excel โดยใช้ Aspose.Cells Java (คู่มือทีละขั้นตอน)](./set-background-picture-excel-aspose-cells-java/)
 เรียนรู้วิธีปรับปรุงรายงาน Excel ของคุณโดยเพิ่มรูปภาพพื้นหลังด้วย Aspose.Cells Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อการใช้งานที่ราบรื่น
 
-
+### [วิธีสร้าง PNG จากช่วงใน Java ด้วย Aspose.Cells](./how-to-create-png-from-range-in-java-with-aspose-cells/)
+เรียนรู้วิธีแปลงช่วงข้อมูลในแผ่นงาน Excel เป็นไฟล์ PNG ด้วย Aspose.Cells สำหรับ Java
 
 ## แหล่งข้อมูลเพิ่มเติม
 

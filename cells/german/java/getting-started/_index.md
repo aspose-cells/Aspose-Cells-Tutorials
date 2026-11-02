@@ -38,6 +38,9 @@ Ein Code-Tutorial für Aspose.Words Java
 ### [Aspose.Cells Java-Lizenzeinrichtung und -überprüfung: Vollständige Anleitung](./aspose-cells-java-license-setup-guide/)
 Meistern Sie die Einrichtung und Überprüfung Ihrer Aspose.Cells Java-Lizenz mit unserem umfassenden Leitfaden. Sichern Sie sich mühelos vollen Zugriff auf erweiterte Funktionen.
 
+### [Erstellen einer lizenzierten Arbeitsmappe – Vollständiger Aspose.Cells Java Leitfaden](./create-licensed-workbook-full-aspose-cells-java-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java eine lizenzierte Arbeitsmappe erstellen und alle Funktionen voll nutzen.
+
 ### [Aspose.Cells für Java: So erstellen und formatieren Sie Excel-Arbeitsmappen effizient](./aspose-cells-java-workbook-creation-guide/)
 Erfahren Sie, wie Sie die Erstellung und Formatierung von Excel-Arbeitsmappen in Java mit Aspose.Cells automatisieren. Diese Anleitung behandelt die Einrichtung, die Bearbeitung von Arbeitsmappen und Techniken zur Zellenformatierung.
 

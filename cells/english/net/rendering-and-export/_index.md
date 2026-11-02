@@ -66,6 +66,8 @@ Learn to render sequential pages in Excel with Aspose.Cells for .NET. This step-
 Learn how to export a pivot table as a PNG image using a reference range with Aspose.Cells for .NET. Step-by-step guide.
 ### [how to export pivot to png in C# – Step‑by‑Step Guide](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
 Learn how to export a pivot table to PNG using Aspose.Cells for .NET with C#. Follow this step‑by‑step guide.
+### [Create PNG Pivot Image in C# – Full Step‑by‑Step Guide](./create-png-pivot-image-in-c-full-step-by-step-guide/)
+Learn how to generate a PNG image of an Excel pivot table using Aspose.Cells for .NET in C# with this comprehensive step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -46,6 +46,9 @@
 ## Εκπαιδευτικά σεμινάρια μορφοποίησης και στυλ στο Excel
 ### [Εφαρμογή εφέ γεμίσματος με διαβάθμιση στο Excel](./applying-gradient-fill-effects/)
 Αναβαθμίστε τα έγγραφά σας στο Excel χρησιμοποιώντας το Aspose.Cells για .NET. Μάθετε να εφαρμόζετε εκπληκτικά εφέ γεμίσματος με διαβάθμιση με αυτό το βήμα προς βήμα σεμινάριο.
+### [Εφαρμογή στυλ κελιών με Aspose.Cells – Εισαγωγή DataTable με μορφοποίηση](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+Μάθετε πώς να εφαρμόζετε στυλ σε κελιά κατά την εισαγωγή DataTable στο Excel με Aspose.Cells για .NET.
+
 ### [Χρήση προκαθορισμένων στυλ και μορφοποίησης του Excel](./using-excel-predefined-styles-and-formatting/)
 Ανακαλύψτε πώς να χρησιμοποιείτε προκαθορισμένα στυλ και μορφοποίηση στο Excel με το Aspose.Cells για .NET. Δημιουργήστε εκπληκτικά υπολογιστικά φύλλα με ευκολία.
 ### [Μορφοποίηση με Get Style ή Set Style στο Excel](./formatting-with-get-style-or-set-style/)
@@ -75,6 +78,10 @@
 ### [Δημιουργία στυλ κελιού σε C# – Πώς να εφαρμόσετε στυλ σε κελί και να κεντράρετε το κείμενο](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
 Μάθετε πώς να δημιουργήσετε στυλ κελιού με Aspose.Cells για .NET, να το εφαρμόσετε σε ένα κελί και να κεντράρετε το κείμενο.
 ### [Μορφοποίηση στηλών στο Excel με C# – Εισαγωγή DataTable](./how-to-style-columns-in-excel-with-c-import-datatable/)
+
+### [Πώς να δημιουργήσετε βιβλίο εργασίας Excel C# με προσαρμοσμένη μορφοποίηση και αποθήκευση ως XLSX](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel με C# χρησιμοποιώντας προσαρμοσμένη μορφοποίηση και να το αποθηκεύσετε ως αρχείο XLSX.
+### [Δημιουργία αρχείου Excel C# – μορφοποίηση κελιών και ορισμός μορφής νομίσματος](./create-excel-file-c-style-cells-and-set-currency-format/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

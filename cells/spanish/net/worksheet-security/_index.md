@@ -45,6 +45,8 @@ Aprenda a crear rangos editables en hojas de cálculo de Excel utilizando Aspose
 Aprenda a proteger celdas y rangos en una hoja de cálculo de Excel con Aspose.Cells para .NET. Siga esta guía paso a paso para proteger sus hojas de cálculo.
 ### [Proteger toda la hoja de cálculo con contraseña usando Aspose.Cells](./protect-worksheet-password/)
 Aprenda a proteger sus hojas de cálculo de Excel con seguridad de contraseña usando Aspose.Cells para .NET en este completo tutorial paso a paso.
+### [Agregar contraseña a Excel – Guía completa de protección de hoja](./add-password-to-excel-complete-sheet-protection-guide/)
+Aprenda a añadir una contraseña a una hoja de Excel y protegerla completamente con Aspose.Cells para .NET en una guía paso a paso.
 ### [Proteger columnas en una hoja de cálculo usando Aspose.Cells](./protect-columns/)
 Aprenda a proteger columnas en Excel con Aspose.Cells para .NET. Siga este tutorial detallado para bloquear columnas en hojas de Excel de forma eficaz.
 ### [Proteger celdas específicas en una hoja de cálculo usando Aspose.Cells](./protect-specific-cells/)

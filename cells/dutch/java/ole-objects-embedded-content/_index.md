@@ -47,7 +47,8 @@ Leer hoe u efficiënt GUID's kunt extraheren uit ingesloten PowerPoint-objecten 
 ### [ActiveX-besturingselementen uit Excel verwijderen met Aspose.Cells Java](./remove-activex-controls-excel-aspose-cells-java/)
 Een codetutorial voor Aspose.Words Java
 
-
+### [Lettertypen insluiten – Complete handleiding voor HTML-, XPS- en OLE-export](./how-to-embed-fonts-complete-guide-for-html-xps-and-ole-expor/)
+Leer hoe u lettertypen kunt insluiten bij het exporteren naar HTML, XPS en OLE met Aspose.Cells voor Java.
 
 ## Aanvullende bronnen
 

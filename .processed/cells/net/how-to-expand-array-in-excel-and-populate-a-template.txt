@@ -1,0 +1,7 @@
+Title: How to expand array in Excel and populate a template
+Slug: how-to-expand-array-in-excel-and-populate-a-template
+Category: templates-reporting
+ProcessedDate: 2026-09-18T14:31:02.180821
+SourceRepo: AI Search API
+Keywords: how to expand array, populate excel template, dynamic range excel, use expand function, expand array formula
+PRNumber: 163

@@ -152,6 +152,9 @@ Scopri come impostare i colori delle schede del foglio di lavoro in Excel con As
 ### [Come dividere i riquadri del foglio di lavoro in Excel utilizzando Aspose.Cells .NET per un'analisi avanzata dei dati](./split-worksheet-panes-excel-aspose-cells-dotnet)
 Scopri come utilizzare Aspose.Cells per .NET per suddividere i riquadri del foglio di lavoro in Excel, migliorando l'efficienza dell'analisi e della navigazione dei dati per una migliore visualizzazione di set di dati di grandi dimensioni.
 
+### [Come utilizzare SmartMarkerProcessor – Rinomina un foglio esistente in Excel](./how-to-use-smartmarkerprocessor-rename-existing-sheet-in-exc/)
+Scopri come usare SmartMarkerProcessor per rinominare un foglio esistente in un file Excel con Aspose.Cells per .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

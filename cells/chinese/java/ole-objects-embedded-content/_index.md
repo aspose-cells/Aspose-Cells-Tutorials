@@ -47,7 +47,8 @@
 ### [使用 Aspose.Cells Java 从 Excel 中删除 ActiveX 控件](./remove-activex-controls-excel-aspose-cells-java/)
 Aspose.Words Java 代码教程
 
-
+### [如何嵌入字体 – HTML、XPS 和 OLE 导出完整指南](./how-to-embed-fonts-complete-guide-for-html-xps-and-ole-expor/)
+了解如何在导出为 HTML、XPS 和 OLE 时嵌入字体，确保文档在不同平台上保持一致的外观。
 
 ## 其他资源
 

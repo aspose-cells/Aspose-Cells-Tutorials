@@ -1,0 +1,7 @@
+Title: How to export Excel workbook to CSV with Aspose.Cells in C#
+Slug: how-to-export-excel-workbook-to-csv-with-aspose-cells-in-c
+Category: csv-file-handling
+ProcessedDate: 2026-09-28T02:39:45.544938
+SourceRepo: AI Search API
+Keywords: export excel workbook to csv, convert xlsx file to csv
+PRNumber: 171

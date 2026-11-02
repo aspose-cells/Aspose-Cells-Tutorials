@@ -1,12 +1,56 @@
 ---
-date: '2026-01-14'
-description: Tanulja meg, hogyan mentse el az Excel munkafüzetet az Aspose.Cells for
-  Java segítségével, és ismerje meg, hogyan importáljon Excel adatokat a készletkezeléshez.
+date: '2026-06-27'
+description: Ismerje meg, hogyan konvertálhatja az Excelt PDF-re az Aspose.Cells for
+  Java segítségével, és fedezze fel, hogyan importálhatja az Excel adatokat az inventory
+  managementhez.
 keywords:
-- Excel Workbook Automation
-- Aspose.Cells Java
-- Java Excel Manipulation
-title: Excel munkafüzet mentése az Aspose.Cells for Java-val – Teljes útmutató
+- convert excel to pdf
+- how to save excel
+- optimize excel performance
+- convert excel to csv
+- generate excel report java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-27'
+  description: Learn how to convert Excel to PDF using Aspose.Cells for Java, and
+    discover how to import Excel data for inventory management.
+  headline: Convert Excel to PDF using Aspose.Cells for Java – Guide
+  type: TechArticle
+- description: Learn how to convert Excel to PDF using Aspose.Cells for Java, and
+    discover how to import Excel data for inventory management.
+  name: Convert Excel to PDF using Aspose.Cells for Java – Guide
+  steps:
+  - name: Specify the File Path and Load the Workbook
+    text: '**Explanation**: The `Workbook` constructor loads your Excel file into
+      memory, allowing you to manipulate its contents programmatically.'
+  - name: Access the Desired Worksheet
+    text: '**Explanation**: The `getWorksheets()` method retrieves all worksheets,
+      while `get(0)` accesses the first worksheet (indexing starts at 0).'
+  - name: Set OLE Object Properties
+    text: '**Explanation**: The `setAutoLoad(true)` method ensures the OLE object
+      automatically loads when opening the workbook.'
+  - name: Save the Workbook with Changes
+    text: '**Explanation**: The `save` method writes your changes to a file, with
+      `SaveFormat.XLSX` specifying the output format. Replace `SaveFormat.XLSX` with
+      `SaveFormat.PDF` to **convert Excel to PDF**, or use `SaveFormat.CSV` for CSV
+      output.'
+  type: HowTo
+- questions:
+  - answer: It is a Java library that enables creation, manipulation, conversion,
+      and rendering of Excel files without requiring Microsoft Office.
+    question: What is Aspose.Cells for Java?
+  - answer: Yes, Aspose.Cells is also available for .NET, C++, and other platforms.
+    question: Can I use Aspose.Cells with other programming languages?
+  - answer: You can start with a temporary license to evaluate all features without
+      limitations.
+    question: Is there a free version?
+  - answer: Use Maven or Gradle dependency management as shown earlier in this guide.
+    question: How do I integrate Aspose.Cells into my existing Java project?
+  - answer: Ensure the file path is correct, verify the file isn’t corrupted, and
+      enable memory‑optimised settings to avoid OutOfMemory errors.
+    question: What are common issues when loading large Excel files?
+  type: FAQPage
+title: Excel PDF-re konvertálása az Aspose.Cells for Java segítségével – Útmutató
 url: /hu/java/automation-batch-processing/excel-workbook-automation-aspose-cells-java/
 weight: 1
 ---
@@ -17,46 +61,47 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Excel munkafüzet mentése Aspose.Cells for Java használatával – Teljes útmutató
+# Excel PDF-re konvertálása Aspose.Cells for Java segítségével – Útmutató
 
 ## Bevezetés
 
-Unod már, hogy a hagyományos Java könyvtárakkal **save Excel workbook** fájlok mentése olyan nehézségekbe ütközik? Akár fejlesztőként szeretnéd egyszerűsíteni az adatfeldolgozási munkafolyamatokat, akár **import Excel data**‑t kell beolvasnod a készletkezeléshez, az Aspose.Cells elsajátítása forradalmasíthatja az Excel használatát Java-ban. Ebben az átfogó oktatóanyagról lépésről‑lépésre végigvezetünk a betöltésen, módosításon és végül a **save Excel workbook** fájlok mentésén, miközben érintjük az Excel formátum konvertálását és Excel jelentések generálását is.
+Ha gyorsan és megbízhatóan szeretne **Excel PDF-re konvertálni** egy Java alkalmazásból, az Aspose.Cells for Java a megfelelő megoldás. Akár egy készletkezelő eszközt épít, pénzügyi jelentéseket generál, vagy adatcsere‑csővezetékeket automatizál, ez az útmutató végigvezet a munkafüzet betöltésén, a tartalom finomhangolásán, és végül a **mentésen** (vagy konvertáláson) PDF, CSV vagy bármely más támogatott formátumba. Emellett érintjük a nagy Excel fájlok kezelésének legjobb gyakorlatait és a teljesítmény optimalizálását.
 
-**Mit fogsz megtanulni**
-- Hogyan tölts be egy meglévő Excel munkafüzetet fájlból.  
-- Technikai tippek a konkrét munkalapok eléréséhez és manipulálásához.  
-- Módszerek OLE objektumok tulajdonságainak beállítására a lapjaidon.  
-- Legjobb gyakorlatok a **save Excel workbook** hatékony mentéséhez és más formátumokra való konvertáláshoz.  
+**Mit fog megtanulni**
+- Egy meglévő Excel munkafüzet betöltése lemezről.  
+- Speciális munkalapok és OLE objektumok elérése és módosítása.  
+- Az Excel munkafüzet **mentése** PDF, CSV vagy más formátumba konvertálása.  
+- Tippek a **Excel teljesítmény optimalizálására** nagy fájlok esetén.  
 
-Győződj meg róla, hogy a szükséges előfeltételek rendben vannak, mielőtt elkezdjük!
+Mielőtt belemerülnénk, győződjön meg róla, hogy környezete megfelel az alábbi előfeltételeknek.
 
 ## Gyors válaszok
-- **Mi a fő cél?** Excel munkafüzet fájlok mentése módosítás után.  
-- **Melyik könyvtárat használjam?** Aspose.Cells for Java (v25.3+).  
-- **Szükség van licencre?** Ideiglenes licenc elérhető értékeléshez; a termeléshez vásárolt licenc szükséges.  
-- **Konvertálhatok formátumokat?** Igen – mentheted XLSX, CSV, PDF és egyéb formátumokba.  
-- **Alkalmas nagy fájlokra?** Igen, megfelelő memória-kezeléssel **optimize Excel performance** érhető el.
+- **Mi a fő cél?** Excel munkafüzetek PDF-re (vagy más formátumokra) konvertálása a módosítások után.  
+- **Melyik könyvtárat használjam?** Aspose.Cells for Java (v25.3+).  
+- **Szükségem van licencre?** Egy ideiglenes értékelési licenc ingyenes; a gyártási környezethez vásárolt licenc szükséges.  
+- **Kezelhetek nagy fájlokat?** Igen—használjon memória‑optimalizált beállításokat a több száz oldalas munkafüzetek hatékony feldolgozásához.  
+- **Támogatott a formátumkonverzió?** Teljesen—mentse XLSX, CSV, PDF, HTML és több mint 50 egyéb formátumba.
+
+## Mi az Aspose.Cells for Java?
+Az Aspose.Cells for Java egy erőteljes API, amely lehetővé teszi Excel fájlok létrehozását, módosítását és konvertálását a Microsoft Office nélkül. Több mint 50 bemeneti és kimeneti formátumot támogat—beleértve az XLSX, CSV, PDF, HTML és képtípusokat—lehetővé téve a táblázatokkal való munkát bármely platformon. Részletes útmutatásért tekintse meg a [teljes körű dokumentációt](https://reference.aspose.com/cells/java/).
 
 ## Előfeltételek
-
-Mielőtt elkezdenénk, győződj meg róla, hogy a következőkkel rendelkezel:
+Mielőtt elkezdenénk, győződjön meg róla, hogy a következőkkel rendelkezik:
 
 ### Szükséges könyvtárak és függőségek
-Az Aspose.Cells for Java 25.3 vagy újabb verziójára lesz szükséged. Bizonyosodj meg róla, hogy ez a függőség helyesen van konfigurálva a projektedben, akár Maven, akár Gradle használatával.
+Szüksége lesz az Aspose.Cells for Java 25.3 vagy újabb verziójára. Győződjön meg róla, hogy ez a függőség helyesen van konfigurálva a projektjében Maven vagy Gradle használatával.
 
 ### Környezet beállítási követelmények
-Győződj meg róla, hogy a fejlesztői környezet támogatja a Java SE Development Kit (JDK) 8 vagy újabb verzióját, mivel ez kompatibilis az Aspose.Cells‑szel.
+Győződjön meg róla, hogy a fejlesztői környezete támogatja a Java SE Development Kit (JDK) 8 vagy újabb verziót, mivel ez kompatibilis az Aspose.Cells-szel.
 
-### Tudásbeli előfeltételek
-Alapvető Java programozási ismeretek és az Excel fájlstruktúrák ismerete nagy segítség lesz a tutorial követéséhez.
+### Tudás előfeltételek
+Az alapvető Java programozási ismeretek és az Excel fájlstruktúrák ismerete hasznos lesz a tutorial követéséhez.
 
-## Aspose.Cells for Java beállítása
-
-Ahhoz, hogy az Aspose.Cells‑t a Java projektedben használhasd, helyesen kell beállítanod a könyvtárat. Íme, hogyan:
+## Az Aspose.Cells for Java beállítása
+Az Aspose.Cells elindításához a Java projektjében helyesen kell beállítani a könyvtárat. Íme, hogyan:
 
 **Maven**  
-Add hozzá a következő függőséget a `pom.xml` fájlodhoz:
+Adja hozzá a következő függőséget a `pom.xml` fájlhoz:
 
 ```xml
 <dependency>
@@ -67,17 +112,17 @@ Add hozzá a következő függőséget a `pom.xml` fájlodhoz:
 ```
 
 **Gradle**  
-Helyezd be ezt a `build.gradle` fájlba:
+Vegye fel ezt a `build.gradle` fájlba:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Licenc beszerzése
-Ideiglenes licencet szerezhetsz, hogy korlátozás nélkül értékeld az Aspose.Cells teljes funkcionalitását, a [temporary license page](https://purchase.aspose.com/temporary-license/) meglátogatásával. Hosszú távú használathoz vásárolhatsz licencet a [purchase portal](https://purchase.aspose.com/buy) oldalon.
+Átmeneti licencet szerezhet az Aspose.Cells teljes funkcióinak korlátok nélküli kiértékeléséhez a [temporary license page](https://purchase.aspose.com/temporary-license/) oldalon. Hosszú távú használathoz licencet vásárolhat a [purchase portal](https://purchase.aspose.com/buy) oldalon.
 
-### Alapvető inicializálás
-A telepítés és licencelés után inicializáld a munkafüzetet minimális beállítással:
+### Alap inicializálás
+A telepítés és licenc után inicializálja a munkafüzetet minimális beállítással:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -95,31 +140,23 @@ public class ExcelManipulation {
 }
 ```
 
-## Implementációs útmutató
-
-Most nézzük meg részletesen az Aspose.Cells for Java egyes funkcióit, lépésről‑lépésre.
-
-### Excel munkafüzet betöltése
-
-**Áttekintés**  
-A munkafüzet betöltése az első lépés a tartalom eléréséhez és módosításához. Ez a folyamat inicializálja a további műveletekhez szükséges adatstruktúrákat.
+## Excel munkafüzet betöltése
+Az `Workbook` osztály az Aspose.Cells központi objektuma, amely egyetlen Excel fájlt képvisel a memóriában. A munkafüzet betöltése létrehozza a további módosításhoz szükséges adatstruktúrákat.
 
 #### 1. lépés: A Workbook osztály importálása
 ```java
 import com.aspose.cells.Workbook;
 ```
 
-#### 2. lépés: Fájlútvonal megadása és a munkafüzet betöltése
+#### 2. lépés: A fájl útvonalának megadása és a munkafüzet betöltése
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
-```
-**Magyarázat**: A `Workbook` konstruktor betölti az Excel fájlt a memóriába, lehetővé téve a tartalom programozott manipulálását.
+```  
+**Magyarázat**: A `Workbook` konstruktor betölti az Excel fájlt a memóriába, lehetővé téve a tartalom programozott módosítását.
 
-### Munkalapok elérése egy Excel munkafüzetben
-
-**Áttekintés**  
-Az Excel munkafüzetek több munkalapot is tartalmazhatnak. Így érheted el egy konkrét munkalapot a munkafüzeten belül.
+## Munkalapok elérése egy Excel munkafüzetben
+A munkalapok a munkafüzet egyes fülei. Bármely lapot lekérhet index vagy név alapján.
 
 #### 1. lépés: Szükséges osztályok importálása
 ```java
@@ -132,13 +169,11 @@ import com.aspose.cells.Workbook;
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
 Worksheet sheet = wb.getWorksheets().get(0);
-```
-**Magyarázat**: A `getWorksheets()` metódus visszaadja az összes munkalapot, míg a `get(0)` az első munkalapot (a indexelés 0‑tól kezdődik) adja vissza.
+```  
+**Magyarázat**: A `getWorksheets()` metódus visszaadja az összes munkalapot, míg a `get(0)` az első munkalapot érheti el (az indexelés 0‑tól kezdődik).
 
-### OLE objektum tulajdonságainak beállítása egy Excel munkalapon
-
-**Áttekintés**  
-OLE objektumok beágyazhatók az Excel lapokba. Ez a rész bemutatja, hogyan módosíthatod azok tulajdonságait.
+## OLE objektum tulajdonságainak beállítása egy Excel munkalapon
+OLE objektumok beágyazhatók Excel lapokba. Ez a szakasz bemutatja, hogyan módosíthatók azok tulajdonságai.
 
 #### 1. lépés: Szükséges osztályok importálása
 ```java
@@ -153,13 +188,11 @@ Workbook wb = new Workbook(dataDir + "/sample.xlsx");
 Worksheet sheet = wb.getWorksheets().get(0);
 OleObjectCollection oleObjects = sheet.getOleObjects();
 oleObjects.get(0).setAutoLoad(true);
-```
+```  
 **Magyarázat**: A `setAutoLoad(true)` metódus biztosítja, hogy az OLE objektum automatikusan betöltődjön a munkafüzet megnyitásakor.
 
-### Excel munkafüzet mentése
-
-**Áttekintés**  
-A módosítások után a **save Excel workbook** elengedhetetlen a változások megőrzéséhez. Ez a rész bemutatja, hogyan mentheted a munkafüzetet különböző formátumokba, ami hasznos, ha **convert Excel format** vagy **Excel report** generálásra van szükség.
+## Excel munkafüzet mentése
+A módosítások után a **Excel munkafüzet mentése** elengedhetetlen a változtatások megőrzéséhez és opcionálisan a fájl konvertálásához.
 
 #### 1. lépés: Szükséges osztályok importálása
 ```java
@@ -167,84 +200,84 @@ import com.aspose.cells.Workbook;
 import com.aspose.cells.SaveFormat;
 ```
 
-#### 2. lépés: A munkafüzet mentése a változtatásokkal
+#### 2. lépés: A munkafüzet mentése módosításokkal
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 
 Workbook wb = new Workbook(dataDir + "/sample.xlsx");
 wb.save(outDir + "/ARefreshOLEobject_out.xlsx", SaveFormat.XLSX);
-```
-**Magyarázat**: A `save` metódus a változtatásokat egy fájlba írja, a `SaveFormat.XLSX` a kimeneti formátumot határozza meg. A `SaveFormat.XLSX` helyett más konstansok, például `SaveFormat.CSV` vagy `SaveFormat.PDF` használhatók a **convert Excel format** eléréséhez.
+```  
+**Magyarázat**: A `save` metódus a változtatásokat egy fájlba írja, a `SaveFormat.XLSX` megadja a kimeneti formátumot. Cserélje le a `SaveFormat.XLSX`-t `SaveFormat.PDF`-re a **Excel PDF-re konvertálásához**, vagy használja a `SaveFormat.CSV`-t CSV kimenethez.
 
-## Excel adatok importálása készletkezeléshez
+## Hogyan konvertáljuk az Excelt PDF-re?
+Töltse be a munkafüzetet a `new Workbook("input.xlsx")` paranccsal, és hívja a `workbook.save("output.pdf", SaveFormat.PDF)` metódust – az Aspose.Cells automatikusan megőrzi a cellák formázását, diagramokat és képeket a PDF-re konvertálás során. Ez az egyetlen soros konvertálás bármilyen méretű munkafüzetnél működik; nagyon nagy fájlok esetén engedélyezze a memória‑optimalizált beállításokat a mentés előtt a memóriahasználat csökkentése érdekében.
 
-Sok vállalkozásnak szüksége van **import Excel data**‑ra Java‑alapú készletkezelő rendszerekbe. Egy munkafüzet betöltésével és a sorok iterálásával közvetlenül az adatbázisba viheted a termékmennyiségeket. Ugyanez a megközelítés felhasználható **generate Excel report** fájlok létrehozására, amelyek összegzik a készletállományt.
+## Hogyan importáljunk Excel adatokat készletkezeléshez?
+Olvassa be a munkafüzet sorait, térképezze le minden cellát a termék mezőire, és szúrja be az adatokat a készletadatbázisba. Ez a megközelítés lehetővé teszi több ezer elem kötegelt feldolgozását néhány Java kódsorral, átalakítva egy statikus táblázatot egy dinamikus, kereshető készletkezelő rendszeré.
 
 ## Tippek az Excel teljesítmény optimalizálásához
+Nagyméretű munkafüzetekkel dolgozva vegye figyelembe a következőket:
 
-Nagy munkafüzetek kezelésekor vedd figyelembe a következőket:
+- `Workbook` objektumok eldobása használat után a memória felszabadításához.  
+- `Workbook.getSettings().setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` használata a memóriafogyasztás szabályozásához.  
+- Csak a szükséges munkalapok betöltése a teljes munkafüzet helyett.  
 
-- Szabadítsd fel a `Workbook` objektumokat használat után a memória felszabadításához.  
-- Használd a `Workbook.getSettings().setMemorySetting(MemorySetting.MEMORY_PREFERENCE)`‑t a memóriafogyasztás szabályozásához.  
-- Tölts be csak a szükséges munkalapokat, ne az egész munkafüzetet.
-
-Ezek a gyakorlatok segítenek **optimize Excel performance**‑t elérni, és a Java alkalmazásod responsív marad.
+Ezek a gyakorlatok segítenek **az Excel teljesítmény optimalizálásában**, és a Java alkalmazását válaszkésznek tartják még több száz oldalas fájlok esetén is.
 
 ## Gyakorlati alkalmazások
+A Excel munkafüzetek manipulálásának megértése csak a kezdet. Íme néhány valós példaszakasz:
 
-Az Excel munkafüzetek manipulálásának megértése csak a kezdet. Íme néhány valós példaforgató:
+1. **Adatjelentés** – Automatizálja a pénzügyi jelentések vagy irányítópultok generálását és frissítését.  
+2. **Készletkezelés** – Egyszerűsítse a készletkövető rendszereket az adatok Java alkalmazások és Excel lapok közötti zökkenőmentes importálásával/exportálásával.  
+3. **Ügyfélkapcsolat-kezelés (CRM)** – Kezelje az ügyfél adatokat, testreszabott kapcsolati listákat generálva közvetlenül az adatbázisból.
 
-1. **Adatjelentés** – Automatizáld a pénzügyi jelentések vagy irányítópultok generálását és frissítését.  
-2. **Készletkezelés** – Egyszerűsítsd a készletkövető rendszereket az adatok zökkenőmentes importálásával/exportálásával Java‑alkalmazások és Excel‑lapok között.  
-3. **Ügyfélkapcsolat-kezelés (CRM)** – Kezeld az ügyféladatokat, és generálj testreszabott kontaktlistákat közvetlenül az adatbázisból.
+## Teljesítményfontosságú szempontok
+Nagy adathalmazok vagy összetett munkafüzetek kezelésekor:
 
-## Teljesítménybeli megfontolások
+- Csökkentse a memóriahasználatot az objektumok eldobásával, amikor már nincs rájuk szükség.  
+- Olvasási/írási műveletek optimalizálása a munkafüzet csak a szükséges részeinek elérésével.  
+- Használjon streaming API-kat, ha elérhetők, a nagyon nagy fájlok hatékony kezeléséhez.
 
-Nagy adathalmazok vagy összetett munkafüzetek esetén:
-
-- Minimalizáld a memóriahasználatot az objektumok felszabadításával, amikor már nincs rájuk szükség.  
-- Optimalizáld az olvasási/írási műveleteket, csak a munkafüzet szükséges részeit érintve.  
-- Használj streaming API‑kat, ha elérhetők, a nagyon nagy fájlok hatékony kezelése érdekében.
-
-## Következtetés
-
-Most már tudod, hogyan **load**, **access**, **modify**, és **save Excel workbook** fájlokat használj az Aspose.Cells for Java‑val. Ezek a képességek jelentősen javíthatják az adatfeldolgozási munkafolyamataidat, gyorsabbá, megbízhatóbbá és könnyebben karbantarthatóvá téve őket. A további felfedezéshez tekintsd meg a [comprehensive documentation](https://reference.aspose.com/cells/java/) vagy csatlakozz a közösségi fórumhoz.
-
-**Következő lépések**: Próbáld ki ezeket a technikákat a saját projektedben, automatizáld az Excel feladatokat, konvertálj formátumokat, és generálj kifinomult Excel jelentéseket.
-
-## Gyakran ismételt kérdések
+## Gyakran Ismételt Kérdések
 
 **Q: Mi az Aspose.Cells for Java?**  
-A: Egy könyvtár, amely széles körű funkciókat biztosít az Excel fájlok programozott manipulálásához Java‑ban.
+A: Ez egy Java könyvtár, amely lehetővé teszi Excel fájlok létrehozását, módosítását, konvertálását és renderelését anélkül, hogy a Microsoft Office-ra szükség lenne.
 
-**Q: Használhatom az Aspose.Cells‑t más programozási nyelvekkel?**  
-Igen, az Aspose.Cells több platformot támogat, többek között .NET‑et és C++‑t.
+**Q: Használhatom az Aspose.Cells-t más programozási nyelvekkel?**  
+A: Igen, az Aspose.Cells elérhető .NET, C++ és más platformok számára is.
 
 **Q: Van ingyenes verzió?**  
-Ideiglenes licenccel korlátozás nélkül kipróbálhatod a teljes funkcionalitást.
+A: Kezdhet egy ideiglenes licenccel, amely korlátok nélkül teszi lehetővé az összes funkció kipróbálását.
 
-**Q: Hogyan integráljam az Aspose.Cells‑t a meglévő Java projektembe?**  
-Használd a Maven vagy Gradle függőségkezelést, ahogy korábban bemutattuk ebben az útmutatóban.
+**Q: Hogyan integráljam az Aspose.Cells-t a meglévő Java projektembe?**  
+A: Használja a Maven vagy Gradle függőségkezelőt, ahogy a korábbiakban bemutattuk.
 
-**Q: Milyen gyakori problémák merülnek fel Excel fájlok betöltésekor?**  
-Győződj meg róla, hogy a fájlútvonalak helyesek és elérhetők, valamint ellenőrizd, hogy a munkafüzet nincs-e sérült.
+**Q: Milyen gyakori problémák merülnek fel nagy Excel fájlok betöltésekor?**  
+A: Győződjön meg róla, hogy a fájl útvonala helyes, ellenőrizze, hogy a fájl nem sérült, és engedélyezze a memória‑optimalizált beállításokat az OutOfMemory hibák elkerülése érdekében.
 
 ## Források
-- [Aspose.Cells for Java Documentation](https://reference.aspose.com/cells/java/)
-- [Download Aspose.Cells](https://releases.aspose.com/cells/java/)
-- [Purchase a License](https://purchase.aspose.com/buy)
+- [Aspose.Cells for Java dokumentáció](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells letöltése](https://releases.aspose.com/cells/java/)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
 
 ---
 
-**Last Updated:** 2026-01-14  
-**Tested With:** Aspose.Cells 25.3 for Java  
-**Author:** Aspose
+**Utolsó frissítés:** 2026-06-27  
+**Tesztelve ezzel:** Aspose.Cells 25.3 for Java  
+**Szerző:** Aspose
+
+{{< blocks/products/products-backtop-button >}}
+
+## Kapcsolódó tutorialok
+
+- [Excel optimalizált PDF-re konvertálása Aspose.Cells Java&#58; Lépésről lépésre útmutató](/cells/java/workbook-operations/convert-excel-to-optimized-pdf-aspose-cells-java/)
+- [Excel PDF-re konvertálása Aspose.Cells Java&#58; PDFA-1a megfelelőségi útmutató](/cells/java/workbook-operations/convert-excel-pdf-aspose-cells-compliance-guide/)
+- [Excel munkafüzetek optimalizálása Java-ban Aspose.Cells&#58; Teljesítmény útmutató](/cells/java/performance-optimization/optimize-excel-workbooks-java-aspose-cells-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

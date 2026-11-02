@@ -82,6 +82,9 @@ Büyük Excel dosyalarını işliyorsanız, bazen zaman kısıtlamaları veya be
 ## Daha Fazla Aspose.Cells Çalışma Kitabı İşlemleri Eğitimi
 ### [Aspose.Cells kullanarak Excel Web Uzantısı Bilgilerine Erişim](./access-web-extension-information/)
 Aspose.Cells for .NET ile Excel web uzantısı verilerinizi zahmetsizce açın. Otomasyon çözümleri arayan geliştiriciler için adım adım kılavuz.
+### [C#'ta yeni çalışma kitabı oluşturma – Adım adım kılavuz](./create-new-workbook-in-c-step-by-step-guide/)
+Aspose.Cells for .NET kullanarak C# ile yeni bir Excel çalışma kitabı oluşturmayı adım adım öğrenin.
+
 ### [Çalışma Kitabına Kimlikli Özel XML Parçaları Ekle](./add-custom-xml-parts-with-id/)
 Bu kapsamlı adım adım eğitimde, Aspose.Cells for .NET kullanarak Excel çalışma kitabına kimlikli özel XML parçalarının nasıl ekleneceğini öğrenin.
 ### [İmzalanmış Excel Dosyasına Dijital İmza Ekle](./add-digital-signature-to-signed-file/)
@@ -239,6 +242,9 @@ Aspose.Cells for .NET kullanarak Excel dosyalarının PowerPoint sunumlarına d�
 
 ### [Aspose.Cells for .NET Kullanarak Excel'i SVG'ye Dönüştürme: Adım Adım Kılavuz](./convert-excel-to-svg-aspose-cells-net)
 Excel çalışma sayfalarını Aspose.Cells for .NET ile ölçeklenebilir vektör grafiklerine (SVG) nasıl dönüştüreceğinizi öğrenin. Belge otomasyon araçlarınızı geliştirmek için bu adım adım kılavuzu izleyin.
+
+### [Aspose.Cells for .NET Kullanarak Excel'i TIFF'e Dönüştürme - Adım Adım Kılavuz](./convert-excel-to-tiff-aspose-cells-net)
+Excel çalışma kitaplarını Aspose.Cells for .NET ile yüksek kaliteli TIFF görüntülerine nasıl dönüştüreceğinizi öğrenin. Sorunsuz entegrasyon için bu adım adım kılavuzu izleyin.
 
 ### [Aspose.Cells for .NET Kullanarak Excel'i TIFF'e Dönüştürme - Adım Adım Kılavuz](./convert-excel-to-tiff-aspose-cells-dotnet)
 Excel çalışma kitaplarını Aspose.Cells for .NET ile yüksek kaliteli TIFF görüntülerine nasıl dönüştüreceğinizi öğrenin. Sorunsuz entegrasyon için bu adım adım kılavuzu izleyin.
@@ -593,6 +599,9 @@ Aspose.Cells for .NET kullanarak Excel dosyalarını programlı olarak nasıl ka
 
 ### [C# dilinde Aspose.Cells ile Excel Belge Sürümünü Ayarlama](./set-excel-document-version-aspose-csharp)
 Aspose.Cells Net için bir kod eğitimi
+
+### [C# ile yeni çalışma kitabı oluşturma – Tam Programlama Kılavuzu](./create-new-workbook-in-c-complete-programming-guide/)
+Aspose.Cells for .NET kullanarak C# dilinde yeni bir Excel çalışma kitabı oluşturmayı adım adım öğrenin.
 
 
 

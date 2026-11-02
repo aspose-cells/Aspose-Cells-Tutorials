@@ -33,6 +33,26 @@
 ### [إنشاء دفتر عمل جديد وتصدير Excel إلى TXT بدقة](./create-new-workbook-and-export-excel-to-txt-with-precision/)
 تعلم كيفية إنشاء دفتر عمل جديد وتصدير محتوى Excel إلى ملف TXT مع الحفاظ على الدقة.
 
+### [تصدير جدول بيانات Excel في C# – دليل شامل](./export-excel-data-table-in-c-complete-guide/)
+تعرف على كيفية تصدير جداول بيانات Excel باستخدام C# و Aspose.Cells في دليل شامل خطوة بخطوة للمطورين.
+
+### [كيفية تصدير بيانات Excel في C# – دليل خطوة بخطوة](./how-to-export-excel-data-in-c-step-by-step-guide/)
+تعرف على كيفية تصدير بيانات Excel باستخدام C# و Aspose.Cells في دليل شامل خطوة بخطوة للمطورين.
+
+### [كيفية تصدير بيانات Excel – دليل خطوة بخطوة بلغة C#](./how-to-export-excel-data-step-by-step-c-guide/)
+تعرف على كيفية تصدير بيانات Excel باستخدام Aspose.Cells لـ .NET في دليل شامل خطوة بخطوة للمطورين.
+
+### [تصدير نطاق ورقة العمل في C# – دليل برمجة كامل](./export-worksheet-range-in-c-complete-programming-guide/)
+تعلم كيفية تصدير نطاق محدد من ورقة العمل إلى ملف Excel باستخدام Aspose.Cells لـ .NET في دليل برمجة شامل خطوة بخطوة.
+
+### [كيفية تصدير نطاق الخلايا كجدول – دليل C# كامل](./how-to-export-cell-range-as-table-complete-c-guide/)
+تعرف على كيفية تصدير نطاق من الخلايا إلى جدول في Excel باستخدام Aspose.Cells لـ .NET في هذا الدليل الشامل بلغة C#.
+### [إنشاء ورقة Excel من DataTable في C# – دليل خطوة بخطوة](./create-excel-sheet-from-a-datatable-in-c-step-by-step-guide/)
+تعلم كيفية إنشاء ورقة Excel من DataTable باستخدام C# و Aspose.Cells خطوة بخطوة، مناسب للمبتدئين والمحترفين.
+
+### [كيفية تصدير جدول Excel – دليل خطوة بخطوة كامل](./how-to-export-excel-table-complete-step-by-step-guide/)
+تعلم كيفية تصدير جدول Excel إلى ملف باستخدام Aspose.Cells لـ .NET في هذا الدليل الشامل خطوة بخطوة، مناسب لجميع المستويات.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

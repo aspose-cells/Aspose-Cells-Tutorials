@@ -34,6 +34,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Spalten und Zeilen beim Laden v
 Erfahren Sie in dieser ausführlichen Schritt-für-Schritt-Anleitung, wie Sie beim Speichern einer Excel-Arbeitsmappe im HTML-Format mit Aspose.Cells für .NET angezeigte Kommentare auf niedrigerer Ebene deaktivieren.
 ### [Neues Arbeitsbuch in C# erstellen – Excel mit japanischem Kalender laden](./create-new-workbook-in-c-load-excel-with-japanese-calendar/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein neues Arbeitsbuch erstellen und eine Excel-Datei mit japanischem Kalender laden.
+### [Excel-Datei lesen C# – Wie man Excel-Arbeitsmappe C# effizient lädt](./read-excel-file-c-how-to-load-excel-workbook-c-efficiently/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Arbeitsmappen in C# schnell und effizient laden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-08"
-"description": "Узнайте, как эффективно копировать диаграммы между листами Excel с помощью Aspose.Cells для Java. Следуйте этому пошаговому руководству и улучшите свой рабочий процесс визуализации данных."
-"title": "Копирование диаграмм между рабочими листами с помощью Aspose.Cells для Java&#58; Подробное руководство"
-"url": "/ru/java/charts-graphs/aspose-cells-java-copy-chart-worksheets/"
-"weight": 1
+date: '2026-04-05'
+description: Узнайте, как копировать диаграмму между листами с помощью Aspose.Cells
+  for Java, быстрый гид по перемещению листа с диаграммой и ускорению вашего рабочего
+  процесса визуализации данных.
+keywords:
+- how to copy chart
+- move chart worksheet
+- aspose cells maven setup
+title: Как скопировать диаграмму между листами с помощью Aspose.Cells для Java
+url: /ru/java/charts-graphs/aspose-cells-java-copy-chart-worksheets/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,43 +18,42 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Освоение Aspose.Cells Java: копирование диаграммы между рабочими листами
+# Как копировать диаграмму между листами с помощью Aspose.Cells для Java
 
 ## Введение
 
-В сфере визуализации данных диаграммы являются незаменимыми инструментами, которые эффективно передают сложную информацию. Управление этими диаграммами на нескольких листах может быть обременительным. Это руководство проведет вас через использование Aspose.Cells для Java для бесшовного копирования диаграммы с одного листа на другой, что улучшит ваш рабочий процесс и производительность.
+В области визуализации данных изучение **как копировать диаграмму** между листами может сэкономить ваше время и усилия. Диаграммы — незаменимые инструменты, эффективно передающие сложную информацию, но управление ими на нескольких листах может стать обременительным. Этот учебник покажет, как с помощью Aspose.Cells для Java без проблем копировать диаграмму с одного листа на другой, повышая эффективность вашего рабочего процесса.
 
-### Что вы узнаете:
-- Как использовать Aspose.Cells для Java для управления файлами Excel
-- Пошаговый процесс копирования диаграмм между рабочими листами
-- Требования к установке и подробности конфигурации
-- Практические приложения в управлении данными
+### Быстрые ответы
+- **Что означает “how to copy chart”?** Это дублирование существующего объекта диаграммы с одного листа на другой в той же книге.  
+- **Какая библиотека помогает в этом?** Aspose.Cells for Java предоставляет простой API для работы с диаграммами.  
+- **Нужна ли лицензия?** Бесплатная пробная версия подходит для оценки; для производства требуется коммерческая лицензия.  
+- **Можно ли переместить диаграмму в другую книгу?** Да — аналогичные методы применимы, но данное руководство сосредоточено на одной книге.  
+- **Поддерживается ли Maven?** Абсолютно; см. раздел «aspose cells maven setup» ниже.
 
-Готовы оптимизировать управление диаграммами? Давайте начнем с предварительных условий!
+## Что такое “how to copy chart” в Aspose.Cells?
 
-## Предпосылки
+Копирование диаграммы означает создание точной копии формы диаграммы, включая её источник данных, форматирование и позицию, и размещение её на другом листе. Эта возможность упрощает задачи отчетности, когда один и тот же визуальный элемент должен появляться в нескольких разделах книги.
 
-Прежде чем продолжить, убедитесь, что ваша среда разработки настроена правильно.
+## Почему использовать Aspose.Cells для Java для перемещения диаграммы между листами?
 
-### Требуемые библиотеки и версии:
-- **Aspose.Cells для Java**: Версия 25.3 или более поздняя.
-- Совместимый комплект разработки Java (JDK), установленный на вашем компьютере.
+- **Full .NET‑free Java API** – Не требуется Microsoft Office на сервере.  
+- **High fidelity** – Диаграммы сохраняют оригинальный внешний вид и привязки к данным.  
+- **Performance‑optimized** – Эффективно обрабатывает большие книги.  
+- **Cross‑platform** – Работает на Windows, Linux и macOS.
 
-### Требования к настройке среды:
-- Интегрированная среда разработки (IDE), например IntelliJ IDEA, Eclipse или NetBeans.
+## Требования
 
-### Необходимые знания:
-- Базовые знания программирования на Java
-- Знакомство с инструментами сборки Maven или Gradle
+- **Aspose.Cells for Java** (версия 25.3 или новее).  
+- Совместимый Java Development Kit (JDK).  
+- IDE, например IntelliJ IDEA, Eclipse или NetBeans.  
+- Базовые знания Java и знакомство с Maven или Gradle.
 
-## Настройка Aspose.Cells для Java
-
-Чтобы начать использовать Aspose.Cells для Java, добавьте его в свой проект следующим образом:
+## Настройка Aspose.Cells для Java (aspose cells maven setup)
 
 ### Использование Maven
 
-Добавьте эту зависимость к вашему `pom.xml` файл:
+Add this dependency to your `pom.xml` file:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -59,147 +64,164 @@
 
 ### Использование Gradle
 
-Включите это в свой `build.gradle` файл:
+Include this in your `build.gradle` file:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Этапы получения лицензии:
-1. **Бесплатная пробная версия**Загрузить [бесплатная пробная версия](https://releases.aspose.com/cells/java/) для изучения основных характеристик.
-2. **Временная лицензия**: Получите временную лицензию для полного доступа на время оценки от [здесь](https://purchase.aspose.com/temporary-license/).
-3. **Покупка**: Для дальнейшего использования приобретите лицензию через [Сайт Aspose](https://purchase.aspose.com/buy).
+#### Шаги получения лицензии
+1. **Free Trial**: Download a [free trial](https://releases.aspose.com/cells/java/) to explore basic features.  
+2. **Temporary License**: Obtain a temporary license for full access during evaluation from [here](https://purchase.aspose.com/temporary-license/).  
+3. **Purchase**: For continued use, purchase a license via the [Aspose website](https://purchase.aspose.com/buy).
 
 ### Базовая инициализация и настройка
 
-После интеграции Aspose.Cells в ваш проект инициализируйте его в вашем приложении Java:
+Once Aspose.Cells is integrated into your project, initialize it in your Java application:
 ```java
 import com.aspose.cells.Workbook;
 
 public class Initialize {
     public static void main(String[] args) throws Exception {
-        // Создать новый объект Workbook
+        // Create a new Workbook object
         Workbook workbook = new Workbook();
         System.out.println("Aspose.Cells for Java is set up and ready to go!");
     }
 }
 ```
 
-## Руководство по внедрению
+## Руководство по реализации – пошагово
 
-Давайте реализуем функцию копирования диаграммы с одного рабочего листа на другой.
+Ниже представлена полная пошаговая инструкция по копированию диаграммы между листами.
 
-### Копирование диаграммы между рабочими листами
+### Шаг 1: Загрузка книги
 
-#### Обзор:
-Эта функция позволяет дублировать диаграммы на разных листах книги Excel, что упрощает эффективное управление представлением данных.
-
-##### Шаг 1: Загрузите рабочую книгу
-Начните с загрузки существующей рабочей книги, содержащей диаграмму.
+Start by loading your existing workbook that contains the chart you want to duplicate.
 ```java
 import com.aspose.cells.Workbook;
 import AsposeCellsExamples.Utils;
 
 public class CopyChartExample {
     public static void main(String[] args) throws Exception {
-        // Определить путь к каталогу документов
+        // Define the path to the documents directory
         String dataDir = Utils.getSharedDataDir(CopyChartExample.class) + "TechnicalArticles/";
 
-        // Загрузить существующую книгу по указанному пути
+        // Load an existing workbook from the specified path
         Workbook workbook = new Workbook(dataDir + "Shapes.xls");
     }
 }
 ```
 
-##### Шаг 2: Доступ к рабочим листам и диаграммам
-Откройте исходный рабочий лист, содержащий вашу диаграмму.
+### Шаг 2: Доступ к листам и диаграмме
+
+Retrieve the source worksheet that holds the chart.
 ```java
 import com.aspose.cells.WorksheetCollection;
 import com.aspose.cells.Worksheet;
 
-// Получить коллекцию рабочих листов из рабочей тетради
+// Obtain the collection of worksheets from the workbook
 WorksheetCollection ws = workbook.getWorksheets();
 
-// Извлеките исходный рабочий лист с именем «Диаграмма».
+// Retrieve the source worksheet named "Chart"
 Worksheet sheet1 = ws.get("Chart");
 ```
 
-##### Шаг 3: Скопируйте диаграмму на другой рабочий лист
-Использовать `addCopy` метод копирования диаграммы на другой рабочий лист.
+### Шаг 3: Копирование диаграммы на другой лист
+
+Use the `addCopy` method to replicate the chart onto a different worksheet.
 ```java
 import com.aspose.cells.Chart;
 import com.aspose.cells.ChartShape;
 
-// Получить первую диаграмму из исходного рабочего листа
+// Get the first chart from the source worksheet
 Chart chart = sheet1.getCharts().get(0);
 
-// Доступ к форме диаграммы
+// Access the chart shape
 ChartShape cshape = chart.getChartObject();
 
-// Целевой рабочий лист, куда нужно скопировать диаграмму
+// Target worksheet to copy the chart into
 Worksheet sheet2 = ws.get("Result");
 
-// Скопируйте диаграмму на целевой рабочий лист в указанное место.
+// Copy the chart to the target worksheet at specified position
 sheet2.getShapes().addCopy(cshape, 20, 0, 2, 0);
 ```
 
-##### Шаг 4: Сохраните рабочую книгу
-Наконец, сохраните свою рабочую книгу с только что скопированной диаграммой.
+### Шаг 4: Сохранение книги
+
+Persist the changes by saving the workbook with the newly copied chart.
 ```java
-// Определите выходной путь и сохраните измененную книгу.
+// Define the output path and save the modified workbook
 temporaryFile = dataDir + "CCFOneWToAnother_out.xls";
 workbook.save(temporaryFile);
 ```
 
-### Советы по устранению неполадок:
-- Убедитесь, что названия листов в вашем коде соответствуют названиям в файле Excel.
-- Проверьте совместимость версий Aspose.Cells и Java SDK.
+### Советы по устранению неполадок
+- Verify that the worksheet names (`"Chart"` and `"Result"`) match exactly those in your Excel file.  
+- Ensure you are using Aspose.Cells version 25.3 or newer to avoid compatibility issues.  
 
 ## Практические применения
-1. **Финансовые отчеты**: Быстрое копирование диаграмм тенденций в финансовых сводках для поддержания согласованности.
-2. **Анализ продаж**Скопируйте диаграммы эффективности продаж, чтобы выделить ключевые показатели на разных листах.
-3. **Управление запасами**: Используйте дублированные графики уровня запасов для сравнительного просмотра в отдельных разделах рабочей книги.
-4. **Планирование проекта**: Переносите диаграммы Ганта между временными шкалами проектов для упрощения управления.
 
-## Соображения производительности
-### Оптимизация производительности:
-- Минимизируйте количество копируемых объектов диаграммы, чтобы сократить время обработки.
-- Регулярно обновляйте Aspose.Cells, чтобы воспользоваться улучшениями производительности и новыми функциями.
+1. **Financial Reports** – Duplicate trend charts across summary sheets for consistent presentation.  
+2. **Sales Analysis** – Copy sales performance graphs to highlight key metrics on different departmental tabs.  
+3. **Inventory Management** – Replicate inventory level charts for comparative views in separate sections.  
+4. **Project Planning** – Transfer Gantt charts between timeline worksheets for streamlined updates.
 
-### Правила использования ресурсов:
-- Помните о потреблении памяти при работе с большими файлами Excel или многочисленными диаграммами.
+## Соображения по производительности
 
-### Лучшие практики управления памятью Java:
-- Незамедлительно удаляйте ненужные экземпляры рабочих книг, чтобы освободить ресурсы.
-- Используйте обработку исключений для эффективного управления потенциальными ошибками.
+- **Minimize Copies** – Only duplicate necessary charts to keep processing time low.  
+- **Memory Management** – Dispose of workbook instances you no longer need, especially when handling large files.  
 
 ## Заключение
-В этом руководстве вы рассмотрели, как использовать Aspose.Cells для Java для бесшовного копирования диаграммы с одного листа на другой. Вы узнали о настройке среды, внедрении необходимого кода и применении практических вариантов использования в реальных сценариях. Чтобы развить свои навыки, изучите дополнительные функции Aspose.Cells или интегрируйте его с другими системами.
 
-### Следующие шаги:
-- Экспериментируйте с различными типами и конфигурациями диаграмм
-- Изучите передовые методы обработки данных с помощью Aspose.Cells
+Вы теперь освоили **как копировать диаграмму** между листами с помощью Aspose.Cells for Java. От настройки окружения до выполнения операции копирования и сохранения результата — это руководство охватило всё, что нужно для интеграции дублирования диаграмм в ваши Java‑приложения.
 
-Готовы применить свои знания на практике? [Попробуйте реализовать решение сейчас](https://reference.aspose.com/cells/java/).
+### Следующие шаги
+- Экспериментируйте с различными типами диаграмм (pie, line, bar) и параметрами позиционирования.  
+- Изучайте расширенные возможности работы с данными, такие как форматирование диаграмм и обновление источников данных.  
 
-## Раздел часто задаваемых вопросов
-1. **Для чего используется Aspose.Cells для Java?**
-   - Это библиотека, которая позволяет программно создавать, изменять и конвертировать файлы Excel.
-2. **Могу ли я использовать Aspose.Cells в коммерческих приложениях?**
-   - Да, но убедитесь, что у вас есть соответствующая лицензия.
-3. **Как обрабатывать большие файлы Excel с помощью Aspose.Cells?**
-   - Используйте методы управления памятью, такие как утилизация неиспользуемых объектов.
-4. **Можно ли копировать диаграммы между рабочими книгами?**
-   - Хотя в этом руководстве рассматривается копирование внутри рабочей книги, аналогичные методы применимы и для операций между рабочими книгами.
-5. **Каковы системные требования для использования Aspose.Cells?**
-   - Совместимый Java SDK и IDE, поддерживающая разработку на Java.
+Ready to put your knowledge into action? [Try implementing the solution now](https://reference.aspose.com/cells/java/).
+
+## Раздел FAQ
+1. **What is Aspose.Cells for Java used for?**
+   - It's a library that allows you to create, modify, and convert Excel files programmatically.
+2. **Can I use Aspose.Cells in commercial applications?**
+   - Yes, but ensure you have the appropriate license.
+3. **How do I handle large Excel files with Aspose.Cells?**
+   - Use memory management techniques like disposing of unused objects.
+4. **Is it possible to copy charts between workbooks?**
+   - While this tutorial covers copying within a workbook, similar methods apply for inter‑workbook operations.
+5. **What are the system requirements for using Aspose.Cells?**
+   - A compatible Java SDK and an IDE that supports Java development.
+
+## Часто задаваемые вопросы
+
+**Q: Does the `addCopy` method preserve chart formatting?**  
+A: Yes, it copies the entire chart shape, including formatting, data ranges, and styles.
+
+**Q: Can I copy multiple charts at once?**  
+A: Iterate over the `getCharts()` collection and call `addCopy` for each chart you need to duplicate.
+
+**Q: Is a license required for the trial version?**  
+A: The free trial works without a license but adds evaluation watermarks; a commercial license removes them.
+
+**Q: How can I move a chart to a different workbook?**  
+A: Export the chart as an image using `chart.toImage()` and then insert it into the target workbook, or recreate the chart using the same data source.
+
+**Q: What Java versions are supported?**  
+A: Aspose.Cells for Java supports JDK 8 and later.
 
 ## Ресурсы
 - [Документация Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [Загрузить Aspose.Cells для Java](https://releases.aspose.com/cells/java/)
-- [Купить лицензию](https://purchase.aspose.com/buy)
-- [Бесплатная пробная версия](https://releases.aspose.com/cells/java/)
-- [Заявление на временную лицензию](https://purchase.aspose.com/temporary-license/)
+- [Скачать Aspose.Cells для Java](https://releases.aspose.com/cells/java/)
+- [Приобрести лицензию](https://purchase.aspose.com/buy)
+- [Версия бесплатного пробного периода](https://releases.aspose.com/cells/java/)
+- [Заявка на временную лицензию](https://purchase.aspose.com/temporary-license/)
 - [Форум поддержки Aspose](https://forum.aspose.com/c/cells/9)
+
+---
+
+**Последнее обновление:** 2026-04-05  
+**Тестировано с:** Aspose.Cells 25.3 for Java  
+**Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

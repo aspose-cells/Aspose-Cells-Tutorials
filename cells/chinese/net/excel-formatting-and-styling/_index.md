@@ -76,6 +76,11 @@
 通过 Aspose.Cells for .NET 使用 C# 将 DataTable 导入 Excel，并为列应用样式的分步教程。
 ### [在 C# 中创建单元格样式 – 如何对单元格应用样式并居中文本](./create-cell-style-in-c-how-to-apply-style-to-a-cell-and-cent/)
 使用 Aspose.Cells for .NET 在 C# 中创建单元格样式，应用样式并居中文本的分步指南。
+### [使用 Aspose.Cells 应用单元格样式 – 导入带格式的 DataTable](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+使用 Aspose.Cells for .NET 将 DataTable 导入 Excel 并应用单元格样式，实现数据与格式同步。
+### [如何使用 C# 创建带自定义格式的 Excel 工作簿并保存为 XLSX](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
+使用 Aspose.Cells for .NET，学习在 C# 中创建 Excel 工作簿、应用自定义格式并保存为 XLSX 文件的完整步骤。
+### [创建 Excel 文件 C# – 设置单元格样式和货币格式](./create-excel-file-c-style-cells-and-set-currency-format/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

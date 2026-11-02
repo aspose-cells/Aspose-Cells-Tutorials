@@ -40,21 +40,19 @@ Podobnie wytyczne dotyczące [otwieranie plików SXC](./opening-sxc-files/) zape
 ## Samouczki dotyczące ładowania i analizowania plików
 ### [Otwieranie zaszyfrowanych plików Excel](./opening-encrypted-excel-files/)
 Dowiedz się, jak otwierać zaszyfrowane pliki Excela za pomocą Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Odblokuj swoje dane.
-
 ### [Otwieranie pliku zawierającego tylko dane](./opening-file-with-data-only/)
 Opanuj otwieranie plików Excela skupiając się tylko na danych za pomocą Aspose.Cells dla .NET. Prosty przewodnik dla programistów .NET, który usprawnia operacje w Excelu.
-
 ### [Otwieranie plików przez ścieżkę](./opening-files-through-path/)
 Dowiedz się, jak bez wysiłku otwierać pliki Excela za pomocą Aspose.Cells dla .NET, korzystając ze szczegółowego przewodnika krok po kroku.
-
 ### [Otwieranie pliku przez strumień](./opening-file-through-stream/)
 Dowiedz się, jak otwierać pliki Excela za pomocą Aspose.Cells w .NET. Ten przyjazny dla początkujących przewodnik zawiera instrukcje krok po kroku dotyczące wydajnej obsługi plików.
-
 ### [Otwieranie plików FODS](./opening-fods-files/)
 Dowiedz się, jak otwierać pliki FODS za pomocą Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Idealne dla programistów, którzy chcą bezproblemowo manipulować danymi arkusza kalkulacyjnego.
-
 ### [Otwieranie plików SXC](./opening-sxc-files/)
 Dowiedz się, jak sprawnie otwierać i manipulować plikami SXC w .NET przy użyciu Aspose.Cells. Samouczek krok po kroku z przykładami kodu.
+### [Wyodrębnij datę z Excela i wyświetl ją w formacie yyyy‑mm‑dd – Kompletny przewodnik C#](./extract-date-from-excel-and-output-date-yyyy-mm-dd-complete/)
+Dowiedz się, jak wyodrębnić datę z arkusza Excel i sformatować ją jako yyyy‑mm‑dd w C# przy użyciu Aspose.Cells.
+
 ### [Utworzenie skoroszytu Excel z JSON – Kompletny przewodnik Aspose.Cells](./create-excel-workbook-from-json-complete-aspose-cells-guide/)
 Dowiedz się, jak tworzyć skoroszyt Excel z danych JSON przy użyciu Aspose.Cells dla .NET w pełnym przewodniku krok po kroku.
 ### [Parsowanie japońskich dat ery w Excel – Pełny przewodnik dla programistów C#](./parse-japanese-era-dates-in-excel-full-guide-for-c-developer/)
@@ -67,6 +65,18 @@ Dowiedz się, jak utworzyć skoroszyt i wstawić dane JSON do Excela przy użyci
 
 ### [Wyodrębnianie daty z Excela w C# – Kompletny przewodnik krok po kroku](./extract-date-from-excel-in-c-complete-step-by-step-guide/)
 Dowiedz się, jak wyodrębnić daty z arkuszy Excel w C# przy użyciu Aspose.Cells, krok po kroku.
+### [Jak parsować japońskie daty w C# – Kompletny przewodnik](./how-to-parse-japanese-dates-in-c-complete-guide/)
+Dowiedz się, jak prawidłowo parsować japońskie daty w C# przy użyciu Aspose.Cells, krok po kroku.
+### [Jak wstawić JSON do szablonu Excela – krok po kroku](./how-to-insert-json-into-excel-template-step-by-step/)
+Dowiedz się, jak wstawić dane JSON do szablonu Excela przy użyciu Aspose.Cells dla .NET w prostym przewodniku krok po kroku.
+### [Jak załadować Markdown do Excela – import pliku Markdown przy użyciu Aspose.Cells](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
+Dowiedz się, jak zaimportować plik Markdown do Excela przy użyciu Aspose.Cells w prostym przewodniku krok po kroku.
+### [Generowanie pliku Excel z JSON w C# – Kompletny przewodnik krok po kroku](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
+Dowiedz się, jak w C# generować pliki Excel z danych JSON przy użyciu Aspose.Cells, krok po kroku.
+### [Tworzenie skoroszytu Excel w C# – Pełny przewodnik odczytywania dat z komórek](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+Dowiedz się, jak w C# tworzyć skoroszyt Excel i odczytywać daty z komórek przy użyciu Aspose.Cells.
+### [Parsowanie japońskiej daty ery w C# – Kompletny przewodnik](./parse-japanese-era-date-in-c-complete-guide/)
+Dowiedz się, jak parsować japońskie daty ery w C# przy użyciu Aspose.Cells, krok po kroku, z przykładami kodu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

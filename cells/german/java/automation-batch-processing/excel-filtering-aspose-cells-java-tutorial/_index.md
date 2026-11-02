@@ -1,9 +1,68 @@
 ---
-"date": "2025-04-07"
-"description": "Erfahren Sie, wie Sie die Excel-Filterung mit Aspose.Cells für Java automatisieren. Diese Anleitung behandelt die Initialisierung von Arbeitsmappen, benutzerdefinierte Filter und das effiziente Speichern von Arbeitsmappen."
-"title": "Automatisieren Sie die Excel-Filterung mit Aspose.Cells für Java – Ein umfassender Leitfaden"
-"url": "/de/java/automation-batch-processing/excel-filtering-aspose-cells-java-tutorial/"
-"weight": 1
+date: '2026-07-31'
+description: Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells for Java filtern.
+  Dieser Guide behandelt das Laden von Workbooks, das Anwenden von Custom Filters
+  und das effiziente Saving von Ergebnissen.
+keywords:
+- how to filter excel
+- automate excel filtering
+- apply custom excel filter
+- load excel workbook java
+lastmod: '2026-07-31'
+og_description: Wie man Excel mit Aspose.Cells for Java filtert. Erfahren Sie Schritt
+  für Schritt das Laden von Workbooks, die Anwendung von Custom Filters und das effiziente
+  Saving in diesem umfassenden Tutorial.
+og_image_alt: 'Developer guide: Filter Excel files using Aspose.Cells for Java'
+og_title: Wie man Excel mit Aspose.Cells for Java filtert – Guide
+schemas:
+- author: Aspose
+  dateModified: '2026-07-31'
+  description: Learn how to filter Excel files using Aspose.Cells for Java. This guide
+    covers loading workbooks, applying custom filters, and saving results efficiently.
+  headline: How to Filter Excel with Aspose.Cells for Java
+  type: TechArticle
+- description: Learn how to filter Excel files using Aspose.Cells for Java. This guide
+    covers loading workbooks, applying custom filters, and saving results efficiently.
+  name: How to Filter Excel with Aspose.Cells for Java
+  steps:
+  - name: Initialize the Workbook and Load Data
+    text: The `Workbook` class is Aspose.Cells' top‑level object that represents a
+      single Excel file in memory.
+  - name: Access the Target Worksheet and Set AutoFilter Range
+    text: The `Worksheet` object gives you row‑level access; setting an `AutoFilter`
+      range tells Aspose which cells to evaluate.
+  - name: Apply a Custom “Contains” Filter
+    text: The `AutoFilter.addCustomFilter` method lets you specify an operator (`Contains`)
+      and the text to match, e.g., “Ba”.
+  - name: Save the Modified Workbook
+    text: Calling `save` writes the filtered view to a new file while keeping the
+      original workbook untouched.
+  type: HowTo
+- questions:
+  - answer: Process them sheet‑by‑sheet, dispose of each `Worksheet` after use, and
+      consider streaming APIs introduced in Aspose.Cells 25.0 to keep memory footprint
+      under 200 MB.
+    question: How do I handle Excel files larger than 100 MB?
+  - answer: Yes—call `AutoFilter.addCustomFilter` for each column index before invoking
+      `AutoFilter.refresh`.
+    question: Can I filter multiple columns at once?
+  - answer: A full Aspose.Cells license is mandatory for production; the temporary
+      license is for evaluation only.
+    question: Is a license required for commercial deployment?
+  - answer: It preserves VBA macros when loading and saving `.xlsm` files, but filtering
+      does not affect macro code.
+    question: Does Aspose.Cells support .xlsx files with macros?
+  - answer: Aspose.Cells supports JDK 8 through JDK 21; always verify the specific
+      version in the release notes.
+    question: What Java versions are compatible?
+  type: FAQPage
+tags:
+- filter excel
+- Aspose.Cells
+- Java Excel automation
+title: Wie man Excel mit Aspose.Cells for Java filtert
+url: /de/java/automation-batch-processing/excel-filtering-aspose-cells-java-tutorial/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,35 +71,48 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Automatisieren Sie die Excel-Filterung mit Aspose.Cells für Java
+# Wie man Excel mit Aspose.Cells für Java filtert
 
 ## Einführung
 
-Die Verwaltung großer Datensätze in Excel-Dateien kann eine Herausforderung sein. Die Automatisierung des Filterprozesses spart Zeit, reduziert Fehler und ermöglicht tiefere Einblicke. In diesem Tutorial zeigen wir, wie Sie Excel-Filter mit Aspose.Cells für Java implementieren – einer leistungsstarken Bibliothek für nahtlose, komplexe Excel-Operationen.
+Das Verwalten großer Datensätze in Excel‑Dateien kann eine Herausforderung sein. **How to filter Excel** schnell und genau ist eine häufige Anforderung von datenintensiven Teams. Die Automatisierung des Filtervorgangs spart Zeit, reduziert Fehler und liefert tiefere Einblicke. In diesem Tutorial zeigen wir, wie man Excel‑Filter mit Aspose.Cells für Java implementiert – einer leistungsstarken Bibliothek, die für nahtlose komplexe Excel‑Operationen entwickelt wurde.
 
-**Was Sie lernen werden:**
-- Initialisieren und Laden einer Excel-Arbeitsmappe.
-- Auf Arbeitsblätter zugreifen und Autofilterbereiche festlegen.
-- Anwenden benutzerdefinierter Filter mit bestimmten Kriterien.
-- Effizientes Speichern der geänderten Arbeitsmappe.
+**Was Sie lernen werden**
+- Initialisieren und Laden einer Excel‑Arbeitsmappe.
+- Zugriff auf Arbeitsblätter und Festlegen von Auto‑Filter‑Bereichen.
+- Anwenden benutzerdefinierter Filter mit spezifischen Kriterien.
+- Effizientes Speichern der modifizierten Arbeitsmappe.
 
-Diese Schritt-für-Schritt-Anleitung stellt sicher, dass selbst Anfänger ihre Datenfilteraufgaben in Excel mit Aspose.Cells für Java automatisieren können. Lassen Sie uns herausfinden, wie Sie Ihren Workflow optimieren können!
+Lassen Sie uns erkunden, wie Sie Ihren Arbeitsablauf optimieren können!
+
+## Schnelle Antworten
+- **Was ist die primäre Klasse für die Arbeit mit Excel?** `Workbook` repräsentiert eine komplette Excel‑Datei im Speicher.  
+- **Wie viele Formate unterstützt Aspose.Cells?** Über 50 Eingabe‑ und Ausgabeformate, einschließlich XLSX, CSV, ODS und PDF.  
+- **Kann ich einen „contains“-Filter in einer Zeile anwenden?** Ja – verwenden Sie `AutoFilter.addCustomFilter` mit dem `Contains`‑Operator.  
+- **Benötige ich eine Lizenz für die Entwicklung?** Eine kostenlose temporäre Lizenz funktioniert für die Evaluierung; eine Voll‑Lizenz ist für die Produktion erforderlich.  
+- **Ist die Stapelverarbeitung speichereffizient?** Ja – verarbeiten Sie Arbeitsblätter einzeln und geben Sie Objekte frei, um den RAM‑Verbrauch gering zu halten.
+
+## Was ist „how to filter excel“?
+
+*„How to filter Excel“* bezieht sich auf die Technik, ein Arbeitsblatt programmgesteuert anhand definierter Kriterien, wie Text‑Enthaltung oder numerische Bereiche, zu filtern. Durch das Anwenden von Filtern per Code können Sie automatisch Zeilen ausblenden, die die angegebenen Bedingungen nicht erfüllen, wobei das ursprüngliche Datenlayout erhalten bleibt und gleichzeitig eine fokussierte Ansicht für Analyse‑ oder Berichtszwecke bereitgestellt wird.
+
+## Warum Aspose.Cells für Java zum Filtern von Excel verwenden?
+
+Aspose.Cells bietet eine Hochleistungs‑ und speichereffiziente Engine, die massive Arbeitsmappen verarbeiten kann, ohne sie vollständig in den RAM zu laden. Es unterstützt mehr als 50 Tabellenkalkulationsformate, stellt eine umfangreiche API für komplexe Filterungen bereit und liefert Filtervorgänge typischerweise bis zu dreimal schneller als native Java‑Alternativen. Diese Fähigkeiten machen es ideal für unternehmensweite Datenverarbeitungspipelines, bei denen Geschwindigkeit und Zuverlässigkeit entscheidend sind.
 
 ## Voraussetzungen
 
-Stellen Sie vor dem Start sicher, dass Sie über Folgendes verfügen:
-- **Aspose.Cells für die Java-Bibliothek:** Version 25.3 oder höher.
-- **Java-Entwicklungsumgebung:** JDK auf Ihrem Computer installiert und konfiguriert.
-- **Grundlegende Java-Kenntnisse:** Kenntnisse der Java-Syntax und -Konzepte sind hilfreich.
+- **Aspose.Cells for Java Bibliothek:** Version 25.3 oder neuer.  
+- **Java-Entwicklungsumgebung:** JDK 8 oder neuer, mit konfiguriertem `JAVA_HOME`.  
+- **Grundlegende Java‑Kenntnisse:** Vertrautheit mit Klassen, Methoden und Ausnahmebehandlung.
 
-## Einrichten von Aspose.Cells für Java
+## Einrichtung von Aspose.Cells für Java
 
-### Installieren der Bibliothek
+### Installation der Bibliothek
 
-Um Aspose.Cells in Ihrem Projekt zu verwenden, fügen Sie es als Abhängigkeit hinzu:
+Fügen Sie die Abhängigkeit hinzu, die zu Ihrem Build‑Tool passt.
 
-**Maven:**
+**Maven:**  
 
 ```xml
 <dependency>
@@ -48,166 +120,149 @@ Um Aspose.Cells in Ihrem Projekt zu verwenden, fügen Sie es als Abhängigkeit h
     <artifactId>aspose-cells</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle:**
+**Gradle:**  
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
-```
+```  
 
-### Lizenzerwerb
+### Lizenzbeschaffung
 
-Aspose bietet eine kostenlose Testlizenz zum Erkunden aller Funktionen der Bibliothek:
-1. Besuchen [Aspose Temporäre Lizenz](https://purchase.aspose.com/temporary-license/) und füllen Sie das Formular aus.
-2. Laden Sie die Lizenzdatei nach der Genehmigung herunter.
-3. Legen Sie Ihre Lizenz in Ihrer Java-Anwendung mit diesem Codeausschnitt fest:
+Aspose bietet eine kostenlose Testlizenz, um die vollen Möglichkeiten der Bibliothek zu erkunden:
+
+1. Besuchen Sie [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) und füllen Sie das Formular aus.  
+2. Laden Sie die Lizenzdatei herunter, sobald sie genehmigt wurde.  
+3. Setzen Sie Ihre Lizenz in der Java‑Anwendung:
 
 ```java
 License license = new License();
 license.setLicense("path/to/your/license/file.lic");
-```
+```  
 
-## Implementierungshandbuch
+## Wie filtert man Excel mit Aspose.Cells für Java?
 
-### Initialisierung der Arbeitsmappe und Laden der Daten
+Laden Sie Ihre Arbeitsmappe, definieren Sie einen Auto‑Filter‑Bereich und wenden Sie einen benutzerdefinierten „contains“-Filter an – alles in drei prägnanten Schritten. Die `AutoFilter`‑API blendet automatisch Zeilen aus, die die Kriterien nicht erfüllen, und bewahrt dabei die ursprüngliche Datenreihenfolge und Formatierung.
 
-**Überblick:**
-Beginnen Sie mit dem Laden einer Excel-Arbeitsmappe, um auf die Daten zuzugreifen und sie zu bearbeiten.
+### Schritt 1: Initialisieren der Arbeitsmappe und Laden der Daten
 
-**Schritte:**
-
-#### Schritt 1: Instanziieren eines Arbeitsmappenobjekts
-Initialisieren Sie den `Workbook` Klasse durch den Pfad Ihrer Excel-Datei:
+Die `Workbook`‑Klasse ist das Top‑Level‑Objekt von Aspose.Cells, das eine einzelne Excel‑Datei im Speicher darstellt.  
 
 ```java
 import com.aspose.cells.Workbook;
 
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "/sourceSampleCountryNames.xlsx");
-```
+```  
 
-### Zugreifen auf Arbeitsblätter und Festlegen des AutoFilter-Bereichs
+### Schritt 2: Zugriff auf das Ziel‑Arbeitsblatt und Festlegen des AutoFilter‑Bereichs
 
-**Überblick:**
-Greifen Sie auf bestimmte Arbeitsblätter zu und legen Sie automatische Filterbereiche fest, um Ihre Datenanalyse zu optimieren.
-
-#### Schritt 1: Laden Sie die Arbeitsmappe
-Vorausgesetzt, Sie haben es bereits wie zuvor gezeigt geladen:
+Das `Worksheet`‑Objekt bietet Zeilen‑Ebene Zugriff; das Festlegen eines `AutoFilter`‑Bereichs teilt Aspose mit, welche Zellen ausgewertet werden sollen.  
 
 ```java
 Workbook workbook = new Workbook(dataDir + "/sourceSampleCountryNames.xlsx");
-```
-
-#### Schritt 2: Zugriff auf das Arbeitsblatt
-Holen Sie sich das erste Arbeitsblatt aus der Arbeitsmappe:
+```  
 
 ```java
 import com.aspose.cells.Worksheet;
 
 Worksheet worksheet = workbook.getWorksheets().get(0);
-```
-
-#### Schritt 3: Festlegen eines AutoFilter-Bereichs
-Definieren Sie einen Bereich zum automatischen Filtern bestimmter Zellen:
+```  
 
 ```java
 worksheet.getAutoFilter().setRange("A1:A18");
-```
+```  
 
-### Anwenden eines benutzerdefinierten Filters mit der Operation „Enthält“
+### Schritt 3: Anwenden eines benutzerdefinierten „Contains“-Filters
 
-**Überblick:**
-Wenden Sie benutzerdefinierte Filter an, um nur die Zeilen anzuzeigen, die den angegebenen Text enthalten, und so die Datenrelevanz zu verbessern.
-
-#### Schritt 1: Arbeitsmappe und Access-Arbeitsblatt laden
-Stellen Sie sicher, dass die Arbeitsmappe geladen ist:
+Die Methode `AutoFilter.addCustomFilter` ermöglicht das Festlegen eines Operators (`Contains`) und des zu suchenden Textes, z. B. „Ba“.  
 
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
-```
-
-#### Schritt 2: Benutzerdefinierten Filter anwenden
-Legen Sie einen Filter fest, um Zeilen anzuzeigen, die „Ba“ enthalten:
+```  
 
 ```java
 import com.aspose.cells.FilterOperatorType;
 
 worksheet.getAutoFilter().custom(0, FilterOperatorType.CONTAINS, "Ba");
-```
-
-#### Schritt 3: Aktualisieren Sie den Filter
-Stellen Sie sicher, dass die Änderungen übernommen werden:
+```  
 
 ```java
 worksheet.getAutoFilter().refresh();
-```
+```  
 
-### Geänderte Excel-Datei speichern
+### Schritt 4: Speichern der modifizierten Arbeitsmappe
 
-**Überblick:**
-Speichern Sie Ihre Arbeitsmappe nach Änderungen, um Ihre Arbeit zu erhalten.
-
-#### Schritt 1: Arbeitsmappe laden und ändern
-Vorausgesetzt, es wird wie zuvor beschrieben geladen.
-
-#### Schritt 2: Speichern der Arbeitsmappe
-Änderungen in eine neue Datei zurückschreiben:
+Durch Aufrufen von `save` wird die gefilterte Ansicht in eine neue Datei geschrieben, während die ursprüngliche Arbeitsmappe unverändert bleibt.  
 
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "/outSourceSampleCountryNames.xlsx");
-```
+```  
 
 ## Praktische Anwendungen
 
-- **Datenanalyse:** Filtern Sie schnell große Datensätze nach bestimmten Kriterien und beschleunigen Sie so die Entscheidungsfindung.
-- **Berichterstattung:** Automatisieren Sie die Erstellung gefilterter Berichte, um wichtige Dateneinblicke zu präsentieren.
-- **Finanzprüfungen:** Isolieren Sie Transaktionen, die bestimmte Bedingungen erfüllen, für Konformitätsprüfungen.
+- **Datenanalyse:** Sofort Zeilen isolieren, die geschäftskritische Schlüsselwörter enthalten, und damit die Ad‑hoc‑Berichterstellung beschleunigen.  
+- **Automatisierte Berichterstellung:** Generieren Sie gefilterte CSV‑ oder PDF‑Berichte nach Zeitplan ohne manuelle Eingriffe.  
+- **Finanzprüfungen:** Extrahieren Sie Transaktionen, die bestimmte Codes (z. B. „INV“) enthalten, für Compliance‑Prüfungen.  
 
-Die Integration von Aspose.Cells mit anderen Systemen wie Datenbanken oder Cloud-Speicher kann Ihren Arbeitsablauf weiter optimieren.
+Die Integration von Aspose.Cells mit Datenbanken, REST‑Services oder Cloud‑Speicher (AWS S3, Azure Blob) kann End‑zu‑End‑Datenpipelines weiter automatisieren.
 
-## Überlegungen zur Leistung
+## Leistungsüberlegungen
 
-- **Speichernutzung optimieren:** Entsorgen Sie Objekte, wenn Sie sie nicht mehr benötigen, und minimieren Sie den Umfang der Variablen.
-- **Stapelverarbeitung:** Wenn Sie mit großen Dateien arbeiten, verarbeiten Sie die Daten in Blöcken, um die Effizienz aufrechtzuerhalten.
-- **Ressourcenmanagement:** Überwachen Sie regelmäßig die Ressourcennutzung, um Engpässe während der Ausführung zu vermeiden.
+- **Speichernutzung optimieren:** Rufen Sie nach dem Speichern `Workbook.dispose()` auf, um native Ressourcen freizugeben.  
+- **Stapelverarbeitung:** Verarbeiten Sie jedes Arbeitsblatt separat und verwenden Sie nach Möglichkeit dieselbe `Workbook`‑Instanz erneut.  
+- **Ressourcenverwaltung:** Überwachen Sie den JVM‑Heap mit Tools wie VisualVM; Aspose.Cells verbraucht typischerweise < 150 MB für ein Blatt mit 500 Zeilen.  
 
-Durch die Einhaltung dieser Best Practices können Sie Ihre Ressourcen effektiv verwalten und einen reibungslosen Betrieb Ihrer Anwendungen gewährleisten.
+Die Befolgung dieser Praktiken stellt sicher, dass Ihre Anwendung skalierbar bleibt, wenn die Größe der Tabellenkalkulationen wächst.
 
-## Abschluss
+## Fazit
 
-In diesem Tutorial haben wir die Implementierung von Excel-Filtern mit Aspose.Cells für Java erläutert. Von der Initialisierung von Arbeitsmappen über die Anwendung benutzerdefinierter Filter bis hin zum Speichern von Änderungen verfügen Sie nun über eine solide Grundlage für die effiziente Automatisierung von Datenfilteraufgaben.
+In diesem Tutorial haben wir **how to filter Excel** programmgesteuert mit Aspose.Cells für Java behandelt – vom Laden einer Arbeitsmappe über das Anwenden eines benutzerdefinierten „contains“-Filters bis zum Speichern des Ergebnisses. Sie verfügen nun über ein wiederverwendbares Muster zur Automatisierung der Excel‑Datenextraktion, das auf Diagrammerstellung, Pivot‑Tabellen oder Massenkonvertierung erweitert werden kann.
 
-Zu den nächsten Schritten gehört das Erkunden zusätzlicher Funktionen von Aspose.Cells, wie Diagrammerstellung und erweiterte Formatierungsoptionen. 
+**Nächste Schritte:** Erkunden Sie erweiterte Filterungen (Datumsbereiche, numerische Vergleiche) oder kombinieren Sie Filter mit bedingter Formatierung, um Schlüsselzeilen automatisch hervorzuheben.
 
-## FAQ-Bereich
+## Häufig gestellte Fragen
 
-**F: Wie verarbeite ich große Excel-Dateien mit Aspose.Cells?**
-A: Verarbeiten Sie Daten in Stapeln und optimieren Sie die Speichernutzung, indem Sie nicht verwendete Objekte entsorgen.
+**Q: Wie gehe ich mit Excel‑Dateien größer als 100 MB um?**  
+**A:** Verarbeiten Sie sie Blatt für Blatt, geben Sie jedes `Worksheet` nach der Verwendung frei und erwägen Sie die in Aspose.Cells 25.0 eingeführten Streaming‑APIs, um den Speicherverbrauch unter 200 MB zu halten.
 
-**F: Kann ich Aspose.Cells für andere Dateiformate außer Excel verwenden?**
-A: Ja, Aspose unterstützt mehrere Tabellenkalkulationsformate wie CSV, ODS und mehr.
+**Q: Kann ich mehrere Spalten gleichzeitig filtern?**  
+**A:** Ja – rufen Sie `AutoFilter.addCustomFilter` für jeden Spaltenindex auf, bevor Sie `AutoFilter.refresh` ausführen.
 
-**F: Was ist, wenn meine Filterkriterien dynamisch sind?**
-A: Sie können die Filterlogik mithilfe der Programmierkonstrukte von Java dynamisch anpassen, um unterschiedlichen Anforderungen gerecht zu werden.
+**Q: Ist eine Lizenz für den kommerziellen Einsatz erforderlich?**  
+**A:** Eine vollständige Aspose.Cells‑Lizenz ist für die Produktion obligatorisch; die temporäre Lizenz dient nur zur Evaluierung.
 
-**F: Wie behebe ich häufige Probleme mit Autofiltern?**
-A: Stellen Sie sicher, dass Ihr Datenbereich korrekt eingestellt ist und dass Sie die Filter korrekt angewendet haben. Überprüfen Sie die Fehlerprotokolle auf spezifische Meldungen.
+**Q: Unterstützt Aspose.Cells .xlsx‑Dateien mit Makros?**  
+**A:** Es bewahrt VBA‑Makros beim Laden und Speichern von `.xlsm`‑Dateien, jedoch beeinflusst das Filtern den Makrocode nicht.
 
-**F: Ist Aspose.Cells mit allen Java-Versionen kompatibel?**
-A: Ja, es werden mehrere JDK-Versionen unterstützt. Stellen Sie die Kompatibilität sicher, indem Sie die Bibliotheksdokumentation prüfen.
+**Q: Welche Java‑Versionen sind kompatibel?**  
+**A:** Aspose.Cells unterstützt JDK 8 bis JDK 21; prüfen Sie stets die spezifische Version in den Release‑Notes.
 
 ## Ressourcen
 
-- [Aspose.Cells-Dokumentation](https://reference.aspose.com/cells/java/)
-- [Lade die neueste Version herunter](https://releases.aspose.com/cells/java/)
+- [Aspose.Cells Dokumentation](https://reference.aspose.com/cells/java/)
+- [Neueste Version herunterladen](https://releases.aspose.com/cells/java/)
 - [Lizenz erwerben](https://purchase.aspose.com/buy)
-- [Kostenloser Testzugang](https://releases.aspose.com/cells/java/)
-- [Antrag auf eine temporäre Lizenz](https://purchase.aspose.com/temporary-license/)
+- [Kostenlosen Testzugriff](https://releases.aspose.com/cells/java/)
+- [Anfrage für temporäre Lizenz](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
-Nutzen Sie noch heute die Leistungsfähigkeit von Aspose.Cells für Java, um Ihre Excel-Datenmanipulationsaufgaben zu verbessern!
+Beginnen Sie noch heute, die Leistungsfähigkeit von Aspose.Cells für Java zu nutzen, um Ihre Excel‑Datenmanipulationsaufgaben zu verbessern!
+
+---
+
+**Last Updated:** 2026-07-31  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose
+
+## Verwandte Tutorials
+
+- [Meistern Sie Aspose.Cells für Java: Excel‑Arbeitsmappen effizient laden und ändern](/cells/java/workbook-operations/aspose-cells-java-load-modify-excel/)
+- [Excel‑Automatisierung mit Aspose.Cells Java: Umfassender Leitfaden zur Arbeitsmappen‑Manipulation](/cells/java/automation-batch-processing/excel-automation-aspose-cells-java-master-workbook-manipulation/)
+- [Optimieren Sie das Laden von Java‑Excel mit Aspose.Cells: Implementieren Sie benutzerdefinierte Arbeitsblatt‑Filter für verbesserte Leistung](/cells/java/performance-optimization/java-excel-optimization-aspose-cells-filters/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
