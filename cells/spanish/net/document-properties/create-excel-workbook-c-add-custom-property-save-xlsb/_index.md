@@ -25,7 +25,7 @@ title: Crear libro de Excel en C# – Añadir propiedad personalizada y guardar 
 url: /es/net/document-properties/create-excel-workbook-c-add-custom-property-save-xlsb/
 ---
 
-final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

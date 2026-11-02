@@ -1,0 +1,7 @@
+Title: How to create excel report list with Aspose.Cells smart markers
+Slug: how-to-create-excel-report-list-with-aspose-cells-smart-mark
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-09-09T02:23:03.578595
+SourceRepo: AI Search API
+Keywords: create excel report list, export orders to excel, aspose.cells smart markers
+PRNumber: 155

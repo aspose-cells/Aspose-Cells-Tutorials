@@ -22,17 +22,7 @@ title: كيفية حفظ ملف XLSB في C# – دليل خطوة بخطوة
 url: /ar/net/saving-files-in-different-formats/how-to-save-xlsb-in-c-step-by-step-guide/
 ---
 
-and happy coding!"
-
-Translate.
-
-Then closing shortcodes.
-
-Now produce final content.
-
-Make sure to keep all shortcodes exactly as original.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

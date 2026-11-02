@@ -22,16 +22,6 @@ title: 在 C# 中将表导出为 CSV – 完整指南
 url: /zh/net/csv-file-handling/export-table-to-csv-in-c-complete-guide/
 ---
 
-as is? It's title attribute, can translate.
-
-Also translate list items.
-
-Also translate the "## What You’ll Need" etc.
-
-Make sure to preserve shortcodes at start and end.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

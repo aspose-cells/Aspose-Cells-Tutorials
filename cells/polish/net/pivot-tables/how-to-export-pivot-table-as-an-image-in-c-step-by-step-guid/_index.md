@@ -25,8 +25,6 @@ title: Jak wyeksportować tabelę przestawną jako obraz w C# – przewodnik kro
 url: /pl/net/pivot-tables/how-to-export-pivot-table-as-an-image-in-c-step-by-step-guid/
 ---
 
-produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -24,14 +24,6 @@ title: Cách nhúng phông chữ vào HTML khi xuất Excel – Hướng dẫn �
 url: /vi/net/exporting-excel-to-html-with-advanced-options/how-to-embed-fonts-in-html-when-exporting-excel-complete-gui/
 ---
 
-: Nếu tôi cần nhúng**". But the answer missing; we can leave blank? The original ends abruptly, no answer. We'll keep the same truncated line but translated.
-
-Now close shortcodes.
-
-Add remaining shortcodes unchanged.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

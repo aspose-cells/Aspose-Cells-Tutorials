@@ -22,15 +22,7 @@ title: إنشاء مصنف جديد وتصدير إكسل إلى TXT بدقة
 url: /ar/net/excel-data-export-retrieval/create-new-workbook-and-export-excel-to-txt-with-precision/
 ---
 
-}}
-
-All unchanged.
-
-Now produce final content with Arabic translations.
-
-Make sure to keep markdown formatting exactly same.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,10 +24,6 @@ title: Crea una nuova cartella di lavoro Excel in C# – Guida passo passo
 url: /it/net/excel-workbook/create-new-excel-workbook-in-c-step-by-step-guide/
 ---
 
-the shortcodes unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

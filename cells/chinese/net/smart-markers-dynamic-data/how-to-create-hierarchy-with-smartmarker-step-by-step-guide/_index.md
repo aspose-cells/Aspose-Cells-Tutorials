@@ -20,16 +20,6 @@ title: 如何使用 SmartMarker 创建层次结构 – 步骤指南
 url: /zh/net/smart-markers-dynamic-data/how-to-create-hierarchy-with-smartmarker-step-by-step-guide/
 ---
 
-’s the limit, and now you have a solid foundation." => translate.
-
-"Happy coding! If you hit any snags, drop a comment below—I'm happy to help." => "祝编码愉快！如果遇到任何问题，欢迎在下方留言——我很乐意帮助。"
-
-Image alt translation: alt="How to create hierarchy diagram showing department‑employee relationship" => Chinese: "展示部门‑员工关系的层级结构图". Keep alt attribute.
-
-Now produce final content with same shortcodes and markdown.
-
-Let's assemble.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -13,12 +13,6 @@ url: /cs/java/cell-operations/aspose-cells-java-copy-paste-options/
 weight: 1
 ---
 
-: preserve all code blocks (``` fenced). There are none except placeholders. So fine.
-
-Now translate.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

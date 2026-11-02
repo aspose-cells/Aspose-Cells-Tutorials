@@ -23,21 +23,7 @@ title: Δημιουργία νέου βιβλίου εργασίας σε C# –
 url: /el/net/pivot-tables/create-new-workbook-in-c-preserve-pivot-table/
 ---
 
-later.
-
-- **create new workbook** in conclusion.
-
-- **copy pivot table** maybe appears: "**copy pivot table**". It appears in conclusion: "**copy pivot table**". Translate to "**αντιγράψετε pivot table**"? Actually original phrase: "**copy pivot table**". We'll translate to "**αντιγράψετε pivot table**". Keep bold.
-
-- **preserve pivot table** again.
-
-- **how to copy rows** again.
-
-- **duplicate pivot table** again.
-
-Make sure all bold markers are correct.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

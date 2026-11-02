@@ -20,28 +20,6 @@ title: Excelで行をコピー – 行を複製する際にピボットテーブ
 url: /ja/net/pivot-tables/copy-rows-excel-preserve-pivot-table-while-duplicating-rows/
 ---
 
-.
-
-"## Step 1 – Load the Workbook (copy rows excel)" translate.
-
-Paragraph.
-
-Then code block placeholder.
-
-Blockquote.
-
-Similarly for other steps.
-
-Tables: translate column headers and content.
-
-FAQ: translate Q and A.
-
-Conclusion: translate.
-
-At end, image line unchanged.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

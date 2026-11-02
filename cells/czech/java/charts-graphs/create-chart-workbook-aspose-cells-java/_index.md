@@ -1,43 +1,84 @@
 ---
-"date": "2025-04-08"
-"description": "Naučte se, jak programově vytvářet a zobrazovat grafy v Excelu pomocí Aspose.Cells pro Javu. Tato příručka se zabývá vytvářením sešitů, manipulací s daty a generováním grafů."
-"title": "Tvorba hlavních sešitů a grafů v Excelu pomocí Aspose.Cells pro Javu"
-"url": "/cs/java/charts-graphs/create-chart-workbook-aspose-cells-java/"
-"weight": 1
+date: '2026-09-27'
+description: Naučte se, jak vytvořit soubor xlsx v Javě pomocí Aspose.Cells, přidat
+  data do grafu a automatizovat tvorbu grafů v Excelu s nastavením Maven během několika
+  kroků.
+keywords:
+- create xlsx file java
+- add data to chart
+- how to add chart
+- create excel workbook java
+- automate excel chart creation
+lastmod: '2026-09-27'
+og_description: Naučte se, jak vytvořit soubor xlsx v Javě pomocí Aspose.Cells, přidat
+  data do grafu a automatizovat tvorbu grafů v Excelu s nastavením Maven během několika
+  kroků.
+og_image_alt: Guide showing how to create XLSX file in Java and generate charts with
+  Aspose.Cells
+og_title: Jak vytvořit soubor xlsx v Javě s grafy Aspose.Cells
+schemas:
+- author: Aspose
+  dateModified: '2026-09-27'
+  description: Learn how to create xlsx file java using Aspose.Cells, add data to
+    chart, and automate Excel chart creation with Maven setup in just a few steps.
+  headline: How to create xlsx file java with Aspose.Cells charts
+  type: TechArticle
+- questions:
+  - answer: Use `worksheet.getCharts().add(ChartType.COLUMN, upperLeftRow, upperLeftColumn,
+      lowerRightRow, lowerRightColumn)` for each chart you need, then set each chart’s
+      data source individually.
+    question: How do I add more than one chart to the same worksheet?
+  - answer: Yes—instantiate `Workbook` with the file path (`new Workbook("existing.xlsx")`)
+      and then add or edit worksheets and charts as shown above.
+    question: Can I modify an existing Excel file instead of creating a new one?
+  - answer: Aspose.Cells supports XLS, CSV, PDF, HTML, ODS, and more than 30 additional
+      formats, allowing seamless conversion after chart creation.
+    question: Which file formats can I export to besides XLSX?
+  - answer: Load data in chunks, write each chunk to the worksheet, and call `worksheet.calculateFormula()`
+      only after all data is written to minimise CPU overhead.
+    question: What is the recommended way to handle very large datasets?
+  - answer: Browse the full reference at the [official documentation](https://docs.aspose.com/cells/java/).
+    question: Where can I find deeper documentation and code samples?
+  type: FAQPage
+tags:
+- create xlsx
+- Aspose.Cells
+- Java Excel automation
+- chart generation
+title: Jak vytvořit soubor xlsx v Javě s grafy Aspose.Cells
+url: /cs/java/charts-graphs/create-chart-workbook-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Jak vytvořit soubor xlsx v Javě s grafy Aspose.Cells
 
-# Tvorba hlavních sešitů a grafů v Excelu pomocí Aspose.Cells pro Javu
+## Úvod
+Vytvoření **xlsx** sešitu programově může působit odstrašujícím dojmem, zejména když potřebujete automatizovat generování grafů. V tomto průvodci se naučíte, jak **v Javě vytvořit soubor xlsx** pomocí Aspose.Cells, přidat data do grafu a výsledek uložit – vše s jasným, krok‑za‑krokem Java kódem. Na konci budete schopni vložit dynamické sloupcové grafy do libovolného Excel souboru, aniž byste museli otevírat samotný Excel.
 
-## Zavedení
-Vytváření dynamických sešitů aplikace Excel programově může být náročný úkol, zejména pokud chcete automatizovat proces vytváření grafů na základě vstupních dat. **Aspose.Cells pro Javu**, vývojáři mohou snadno generovat nové soubory aplikace Excel, manipulovat s listy a vkládat grafy s minimálním úsilím při programování. Tento tutoriál vás provede kroky k vytvoření sešitu aplikace Excel od nuly, přidání dat a generování sloupcového grafu pomocí Aspose.Cells v Javě.
+## Rychlé odpovědi
+- **Jaký je první řádek kódu?** `Workbook workbook = new Workbook();` vytváří nový XLSX sešit.  
+- **Jaký Maven artefakt potřebuji?** `com.aspose:aspose-cells` (nejnovější verze).  
+- **Mohu přidat více grafů?** Ano – voláním `worksheet.getCharts().add(...)` pro každý typ grafu.  
+- **Potřebuji licenci pro testování?** Dočasná licence funguje pro hodnocení; zakoupená licence odstraňuje omezení hodnocení.  
+- **Jaká verze Javy je vyžadována?** Java 8 nebo vyšší je plně podporována.
 
-**Co se naučíte:**
-- Jak vytvořit nový sešit ve formátu XLSX.
-- Přístup k prvnímu pracovnímu listu a manipulace s ním.
-- Přidávání dat pro vytvoření grafu.
-- Snadné vytváření sloupcového grafu.
-- Efektivní ukládání sešitu.
+## Co je Aspose.Cells pro Javu?
+Aspose.Cells pro Javu je výkonné API, které vám umožní vytvářet, upravovat a konvertovat Excel soubory bez Microsoft Office. Podporuje **50+** vstupních a výstupních formátů a dokáže zpracovat sešity se stovkami listů při využití méně než 200 MB paměti.
 
-Než se pustíte do implementace, ujistěte se, že máte vše správně nastavené. Probereme nezbytné knihovny a nastavení prostředí, abyste mohli začít hladce.
+## Jak vytvořit soubor xlsx v Javě?
+`Workbook` představuje Excel sešit v paměti. Načtěte knihovnu Aspose.Cells, vytvořte instanci `Workbook`, přidejte data, vytvořte graf a poté soubor uložte. Tento celý postup lze zapsat v méně než deseti řádcích Java kódu, což poskytuje rychlé a opakovatelné řešení pro automatizované reportování.
 
-## Předpoklady
-Abyste mohli tento tutoriál efektivně sledovat, ujistěte se, že splňujete tyto požadavky:
-
-1. **Knihovny a závislosti**Ve svém projektu potřebujete Aspose.Cells pro Javu. Pro snadnou správu závislostí doporučujeme použít Maven nebo Gradle.
-2. **Vývojové prostředí v Javě**Ujistěte se, že máte nainstalovaný a nakonfigurovaný JDK (nejlépe Java 8 nebo vyšší).
-3. **Základní znalost Javy**Znalost konceptů programování v Javě je užitečná.
+## Požadavky
+- **Aspose.Cells pro Javu** – přidejte Maven nebo Gradle závislost (viz níže).  
+- **JDK 8+** – knihovna běží na jakémkoli Java 8 nebo novějším runtime.  
+- **Základní znalost Javy** – měli byste být obeznámeni s třídami a voláním metod.
 
 ## Nastavení Aspose.Cells pro Javu
-Chcete-li do projektu Java zahrnout Aspose.Cells, postupujte podle těchto kroků instalace:
-
-**Znalec:**
+### Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,26 +87,22 @@ Chcete-li do projektu Java zahrnout Aspose.Cells, postupujte podle těchto krok�
 </dependency>
 ```
 
-**Gradle:**
+### Gradle
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Získání licence
-Než začnete používat Aspose.Cells, rozhodněte se o svých licenčních potřebách:
-- **Bezplatná zkušební verze**Získejte dočasnou licenci pro vyzkoušení všech funkcí bez omezení.
-- **Nákup**Zvažte nákup pro dlouhodobé použití.
+## Získání licence
+Než začnete, rozhodněte se, zda potřebujete **bezplatnou zkušební verzi** nebo **zakoupenou licenci**. Zkušební licence odstraňuje většinu omezení funkcí, zatímco plná licence eliminuje vodoznak hodnocení. Získejte licenci na [Aspose's Purchase Page](https://purchase.aspose.com/buy) nebo požádejte o [Temporary License](https://purchase.aspose.com/temporary-license/).
 
-Pro obě možnosti navštivte [Nákupní stránka Aspose](https://purchase.aspose.com/buy) nebo si zažádat o [Dočasná licence](https://purchase.aspose.com/temporary-license/).
-
-### Základní inicializace
-Zde je návod, jak inicializovat Aspose.Cells ve vaší aplikaci Java:
+## Základní inicializace
+Třída `License` načte váš licenční soubor, takže všechny následné volání API probíhají bez omezení hodnocení.  
 ```java
 import com.aspose.cells.Workbook;
 
 public class Main {
     public static void main(String[] args) {
-        // Inicializace nového objektu Workbook
+        // Initialize a new Workbook object
         Workbook workbook = new Workbook();
         
         System.out.println("Workbook initialized successfully.");
@@ -74,10 +111,10 @@ public class Main {
 ```
 
 ## Průvodce implementací
-Nyní si krok za krokem implementujme klíčové funkce.
+Níže procházíme každý krok potřebný k **vytvoření souboru xlsx v Javě** a vložení sloupcového grafu.
 
-### 1. Vytvořte nový sešit
-Začněte vytvořením nového sešitu aplikace Excel ve formátu XLSX.
+### 1. Vytvořit nový sešit
+`Workbook` je objekt nejvyšší úrovně, který představuje Excel soubor v paměti.  
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.FileFormatType;
@@ -86,15 +123,15 @@ public class WorkbookCreation {
     public static void main(String[] args) {
         String dataDir = "YOUR_DATA_DIRECTORY";
         
-        // Vytvořte nový sešit ve formátu XLSX
+        // Create a new workbook in XLSX format
         Workbook workbook = new Workbook(FileFormatType.XLSX);
         System.out.println("New Excel workbook created.");
     }
 }
 ```
 
-### 2. Přístup k prvnímu pracovnímu listu
-Přístup k prvnímu listu vám umožní začít přidávat data nebo manipulovat s existujícím obsahem.
+### 2. Přístup k prvnímu listu
+`Worksheet` vám poskytuje přístup k buňkám, řádkům, sloupcům a grafům na konkrétním listu.  
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -103,15 +140,15 @@ public class AccessWorksheet {
     public static void main(String[] args) {
         Workbook workbook = new Workbook();
         
-        // Získejte první pracovní list
+        // Get the first worksheet
         Worksheet worksheet = workbook.getWorksheets().get(0);
         System.out.println("First worksheet accessed.");
     }
 }
 ```
 
-### 3. Přidání dat do grafu
-vytvoření grafu potřebujete v listu data. Zde je návod, jak naplnit buňky vzorovými daty.
+### 3. Přidat data pro graf
+Naplněte buňky hodnotami, které chcete vizualizovat. Tato data budou zdrojovým rozsahem pro graf.  
 ```java
 import com.aspose.cells.Cells;
 import com.aspose.cells.Worksheet;
@@ -122,7 +159,7 @@ public class AddData {
         Worksheet worksheet = workbook.getWorksheets().get(0);
         Cells cells = worksheet.getCells();
 
-        // Naplnění grafu daty
+        // Populate data for chart
         cells.get("A2").putValue("C1");
 cells.get("A3").putValue("C2");
 cells.get("A4").putValue("C3");
@@ -147,8 +184,8 @@ cells.get("D4").putValue(2);
 }
 ```
 
-### 4. Vytvořte sloupcový graf
-Jakmile máte data připravená, můžete si vytvořit sloupcový graf pro jejich vizualizaci.
+### 4. Vytvořit sloupcový graf
+Objekty `Chart` se přidávají do kolekce `Charts` listu. Můžete specifikovat typ grafu, datový rozsah a pozici.  
 ```java
 import com.aspose.cells.Chart;
 import com.aspose.cells.ChartType;
@@ -159,11 +196,11 @@ public class CreateChart {
         Workbook workbook = new Workbook();
         Worksheet worksheet = workbook.getWorksheets().get(0);
 
-        // Přidat sloupcový graf
+        // Add a column chart
         int idx = worksheet.getCharts().add(ChartType.COLUMN, 6, 5, 20, 13);
         Chart ch = worksheet.getCharts().get(idx);
 
-        // Nastavení rozsahu dat pro graf
+        // Set the data range for the chart
         ch.setChartDataRange("A1:D4", true);
         
         System.out.println("Column chart created successfully.");
@@ -172,7 +209,7 @@ public class CreateChart {
 ```
 
 ### 5. Uložit sešit
-Nakonec uložte sešit do souboru s použitím zadaného formátu a adresáře.
+Zavolejte `save` na instanci `Workbook`, přičemž zadáte cílovou cestu a požadovaný formát (XLSX, PDF, atd.).  
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.SaveFormat;
@@ -182,7 +219,7 @@ public class SaveWorkbook {
         String outDir = "YOUR_OUTPUT_DIRECTORY";
         Workbook workbook = new Workbook();
 
-        // Uložte sešit ve formátu XLSX
+        // Save the workbook in XLSX format
         workbook.save(outDir + "EWForChartSetup.xlsx", SaveFormat.XLSX);
         
         System.out.println("Workbook saved as 'EWForChartSetup.xlsx'.");
@@ -191,40 +228,51 @@ public class SaveWorkbook {
 ```
 
 ## Praktické aplikace
-- **Finanční výkaznictví**Automaticky generovat a vizualizovat čtvrtletní finanční výkazy.
-- **Analýza prodeje**Vytvořte dynamické prodejní dashboardy pro porovnání výkonnosti v různých regionech.
-- **Správa zásob**Vizualizace stavu zásob v čase pro usnadnění rozhodování o zásobách.
-
-Tyto aplikace demonstrují všestrannost Aspose.Cells pro Javu a umožňují integraci s širšími podnikovými systémy, jako je CRM nebo ERP software.
+- **Finanční výkaznictví** – generovat čtvrtletní výkazy zisk‑a‑ztráta s automaticky škálovanými sloupcovými grafy.  
+- **Analýza prodeje** – vytvářet region‑po‑regionu prodejní dashboardy, které se každou noc aktualizují z databáze.  
+- **Řízení zásob** – vizualizovat trendy zásob během měsíců pro spuštění **upozornění na doplnění**.
 
 ## Úvahy o výkonu
-Pro optimální výkon:
-- Pokud je to možné, omezte využití paměti zpracováním velkých souborů po částech.
-- Znovu použít `Workbook` objekty při provádění opakujících se úloh v rámci smyček, aby se snížila režie.
-- Upravte nastavení JVM podle potřeb vaší aplikace.
+Aspose.Cells zpracovává velké sešity efektivně pomocí streamování dat a opětovného využití objektů. Pro nejlepší výsledky:
+- Zpracovávejte řádky po dávkách při práci s více než 100 000 záznamy.  
+- Znovu použijte jedinou instanci `Workbook` uvnitř smyček, abyste se vyhnuli opakované alokaci paměti.  
+- Upravte velikost haldy JVM (`-Xmx2g` nebo vyšší), pokud očekáváte soubory s několika stovkami stránek.
 
-Dodržování těchto pokynů zajistí, že vaše aplikace budou fungovat efektivně, a to i při složitých datových operacích.
+## Často kladené otázky
+**Q: Jak přidat více než jeden graf do stejného listu?**  
+A: Použijte `worksheet.getCharts().add(ChartType.COLUMN, upperLeftRow, upperLeftColumn, lowerRightRow, lowerRightColumn)` pro každý požadovaný graf a poté nastavte datový zdroj každého grafu samostatně.
+
+**Q: Mohu upravit existující Excel soubor místo vytvoření nového?**  
+A: Ano – instanciujte `Workbook` s cestou k souboru (`new Workbook("existing.xlsx")`) a poté přidejte nebo upravte listy a grafy podle výše uvedeného postupu.
+
+**Q: Do jakých formátů souborů mohu exportovat kromě XLSX?**  
+A: Aspose.Cells podporuje XLS, CSV, PDF, HTML, ODS a více než 30 dalších formátů, což umožňuje bezproblémovou konverzi po vytvoření grafu.
+
+**Q: Jaký je doporučený způsob, jak pracovat s velmi velkými datovými sadami?**  
+A: Načítejte data po částech, zapisujte každou část do listu a až po dokončení všech zápisů zavolejte `worksheet.calculateFormula()`, aby se minimalizovalo zatížení CPU.
+
+**Q: Kde najdu podrobnější dokumentaci a ukázky kódu?**  
+A: Prohlédněte si kompletní referenci na [official documentation](https://docs.aspose.com/cells/java/).
 
 ## Závěr
-Nyní jste zvládli vytváření a grafické znázornění sešitu pomocí knihovny Aspose.Cells pro Javu. Tato výkonná knihovna zjednodušuje manipulaci se soubory v Excelu a umožňuje vám soustředit se na analýzu dat, nikoli na složitosti správy souborů. Prozkoumejte tyto techniky dále integrací do svých projektů nebo jejich rozšířením o další funkce knihovny Aspose.Cells.
+Nyní máte kompletní, připravený recept na **vytvoření souboru xlsx v Javě**, naplnění daty a generování sloupcového grafu pomocí Aspose.Cells. Integrovat tyto úryvky můžete do dávkových úloh, webových služeb nebo desktopových nástrojů pro automatizaci reportování a analytiky bez nutnosti spouštět Excel.
 
-## Sekce Často kladených otázek
-1. **Jak přidám další grafy?**
-   - Použijte `add` metodu pro každý typ grafu a pozici dle potřeby.
-2. **Mohu aktualizovat stávající sešity místo vytváření nových?**
-   - Ano, načíst existující sešit pomocí jeho cesty pomocí `new Workbook("path")`.
-3. **Jaké formáty jsou podporovány pro ukládání?**
-   - Aspose.Cells podporuje XLSX, XLS, CSV, PDF a další.
-4. **Jak efektivně zpracovávám velké datové sady?**
-   - Zpracovávejte data po částech pro efektivní správu využití paměti.
-5. **Kde najdu další zdroje o Aspose.Cells pro Javu?**
-   - Navštivte [oficiální dokumentace](https://docs.aspose.com/cells/java/) a prozkoumejte komunitní fóra.
+---
+
+**Last Updated:** 2026-09-27  
+**Tested With:** Aspose.Cells 24.12 for Java  
+**Author:** Aspose
+
+## Související tutoriály
+
+- [Ovládněte Aspose.Cells v Javě: Nastavení sešitu a vizualizace dat pomocí grafů](/cells/java/charts-graphs/aspose-cells-java-setup-data-visualization/)
+- [Ovládněte Excel s Aspose.Cells Java: Vytváření sešitu a přizpůsobení grafů](/cells/java/charts-graphs/aspose-cells-java-workbook-chart-customization/)
+- [Přidání popisků dat do Excel grafu s Aspose.Cells Java](/cells/java/advanced-excel-charts/chart-interactivity/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

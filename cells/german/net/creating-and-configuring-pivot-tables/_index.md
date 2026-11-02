@@ -59,6 +59,8 @@ Entfesseln Sie die Leistungsfähigkeit von Aspose.Cells für .NET. Löschen Sie 
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Konsolidierungsfunktionen programmgesteuert anwenden. Automatisieren Sie Ihre Datenanalyseaufgaben effizient.
 ### [Erstellen Sie programmgesteuert eine neue Pivot-Tabelle in .NET](./creating-new-pivot-table/)
 Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Cells programmgesteuert eine Pivot-Tabelle in .NET erstellen. Analysieren Sie Ihre Daten effizient.
+### [Wie man Pivot in C# erstellt – Vollständiger Leitfaden mit Aspose.Cells](./how-to-create-pivot-in-c-full-guide-with-aspose-cells/)
+Erfahren Sie in diesem umfassenden Schritt‑für‑Schritt‑Tutorial, wie Sie mit Aspose.Cells in C# eine Pivot‑Tabelle erstellen.
 ### [PivotTable-Menüband programmgesteuert in .NET deaktivieren](./disabling-pivot-table-ribbon/)
 Erfahren Sie, wie Sie das PivotTable-Menüband in .NET mit Aspose.Cells deaktivieren. Diese Schritt-für-Schritt-Anleitung erleichtert die Anpassung Ihrer Excel-Interaktionen.
 ### [Formatierung und Aussehen von Pivot-Tabellen programmgesteuert in .NET](./formatting-and-look/)

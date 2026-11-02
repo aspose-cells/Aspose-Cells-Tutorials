@@ -25,28 +25,6 @@ title: Creare una cartella di lavoro Excel in C# – Aggiungere una proprietà p
 url: /it/net/document-properties/create-excel-workbook-c-add-custom-property-save-xlsb/
 ---
 
-Title also. So alt and title should be translated. The alt is inside [] and title after space in quotes. Must translate.
-
-Also the table content: translate the English text in table cells.
-
-Also the FAQ Q/A: translate.
-
-Also bullet points.
-
-Also blockquote.
-
-Also the final sections.
-
-Make sure to keep code block placeholders unchanged.
-
-Also preserve markdown headings.
-
-Let's produce translation.
-
-Start with shortcodes.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

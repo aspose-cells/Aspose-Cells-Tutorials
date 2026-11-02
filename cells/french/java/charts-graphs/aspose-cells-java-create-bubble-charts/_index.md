@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-07"
-"description": "Apprenez à créer des graphiques à bulles dynamiques dans Excel avec Aspose.Cells pour Java. Ce guide étape par étape couvre toutes les étapes, de la configuration de votre environnement à la configuration et à l'enregistrement de vos graphiques."
-"title": "Créer des graphiques à bulles dans Excel à l'aide d'Aspose.Cells pour Java &#58; un guide étape par étape"
-"url": "/fr/java/charts-graphs/aspose-cells-java-create-bubble-charts/"
-"weight": 1
+date: '2026-04-02'
+description: Apprenez à créer un graphique et à générer un graphique à bulles Excel
+  en utilisant Aspose.Cells for Java. Ce guide vous accompagne dans la configuration,
+  les données et l'enregistrement du graphique.
+keywords:
+- how to create chart
+- generate excel bubble chart
+- set bubble chart data
+title: 'Comment créer un graphique : graphique à bulles Excel avec Aspose.Cells Java'
+url: /fr/java/charts-graphs/aspose-cells-java-create-bubble-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,40 +18,45 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Comment créer un graphique : graphique à bulles Excel avec Aspose.Cells Java
 
-# Créer des graphiques à bulles dans Excel avec Aspose.Cells pour Java : guide étape par étape
+Améliorez vos rapports Excel avec des graphiques à bulles dynamiques en utilisant Aspose.Cells pour Java. Dans ce tutoriel, vous apprendrez **comment créer des graphiques** qui visualisent les données sous forme de graphiques à bulles, rendant vos présentations plus perspicaces et interactives. Nous parcourrons chaque étape — de la configuration de l'environnement de développement à la configuration des données du graphique et enfin à l'enregistrement du classeur.
 
-## Introduction
+## Réponses rapides
+- **Quelle bibliothèque est la meilleure pour les graphiques Excel en Java ?** Aspose.Cells for Java.
+- **Puis-je générer un graphique à bulles Excel programmatique ?** Oui, en utilisant l'API de graphique présentée ci‑dessus.
+- **Ai‑je besoin d’une licence pour exécuter le code ?** Un essai gratuit fonctionne, mais une licence complète débloque toutes les fonctionnalités.
+- **Quels outils de construction Java sont pris en charge ?** Maven et Gradle sont tous deux pris en charge.
+- **Quelle est la méthode principale pour définir les données d’un graphique à bulles ?** Utilisez `setBubbleSizes`, `setXValues` et `setValues` sur la série.
 
-Améliorez vos rapports Excel avec des graphiques à bulles dynamiques grâce à Aspose.Cells pour Java. Ce tutoriel complet vous guidera dans la création, la personnalisation et l'enregistrement de graphiques à bulles dans des classeurs Excel, pour des présentations de données plus pertinentes.
+## Qu’est‑ce qu’un graphique à bulles ?
+Un graphique à bulles est une variante d’un nuage de points où chaque point de données est représenté par une bulle. L’axe X et l’axe Y déterminent la position, tandis que la taille de la bulle transmet une troisième dimension d’information — parfait pour visualiser des données financières, de ventes ou scientifiques.
 
-**Ce que vous apprendrez :**
-- Initialisation d'un nouveau `Workbook` objet
-- Accéder et manipuler les cellules de la feuille de calcul
-- Création et configuration de graphiques à bulles avec des ensembles de données personnalisés
-- Sauvegarder efficacement votre classeur
-
-Découvrons comment Aspose.Cells pour Java peut simplifier votre processus de visualisation de données. Assurez-vous d'avoir tout configuré avant de commencer.
+## Pourquoi utiliser Aspose.Cells pour Java ?
+- **Moteur Excel sans installation** – aucune nécessité d’installer Microsoft Office sur le serveur.
+- **API de graphiques riche** – prend en charge tous les types de graphiques modernes, y compris les graphiques à bulles.
+- **Multiplateforme** – fonctionne sous Windows, Linux et macOS.
+- **Haute performance** – optimisé pour les grands ensembles de données et la génération de rapports à haut volume.
 
 ## Prérequis
-Pour créer des graphiques à bulles à l’aide d’Aspose.Cells pour Java, assurez-vous de remplir les conditions préalables suivantes :
+Pour créer des graphiques à bulles avec Aspose.Cells pour Java, assurez‑vous de remplir les prérequis suivants :
 
 ### Bibliothèques et dépendances requises
-- **Aspose.Cells pour Java**:Installez la dernière version (par exemple, 25.3).
+- **Aspose.Cells for Java** : Installez la dernière version (par ex., 25.3).
 
-### Configuration requise pour l'environnement
+### Exigences de configuration de l’environnement
 - Kit de développement Java (JDK) compatible installé.
 - Configurez votre projet pour utiliser Maven ou Gradle.
 
-### Prérequis en matière de connaissances
+### Prérequis de connaissances
 - Compréhension de base de la programmation Java.
-- Connaissance des structures de fichiers Excel et des types de graphiques.
+- Familiarité avec les structures de fichiers Excel et les types de graphiques.
 
-## Configuration d'Aspose.Cells pour Java
-La configuration de votre environnement est cruciale. Voici comment commencer :
+## Configuration d’Aspose.Cells pour Java
+Configurer votre environnement est crucial. Voici comment démarrer :
 
 ### Installation via Maven
-Ajoutez la dépendance suivante à votre `pom.xml`:
+Add the following dependency to your `pom.xml`:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -55,50 +66,50 @@ Ajoutez la dépendance suivante à votre `pom.xml`:
 ```
 
 ### Installation via Gradle
-Pour ceux qui utilisent Gradle, ajoutez ceci à votre `build.gradle`:
+For those using Gradle, add this to your `build.gradle`:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Acquisition de licence
-Aspose.Cells propose un essai gratuit avec des fonctionnalités limitées. Pour bénéficier de toutes les fonctionnalités :
-- **Achat**: Visitez le [page d'achat](https://purchase.aspose.com/buy) pour les options de licence.
-- **Permis temporaire**:Obtenir un permis temporaire auprès de [ici](https://purchase.aspose.com/temporary-license/) à tester complètement.
+Aspose.Cells propose un essai gratuit avec des fonctionnalités limitées. Pour des capacités complètes :
+- **Achat** : Visitez la [page d'achat](https://purchase.aspose.com/buy) pour les options de licence.
+- **Licence temporaire** : Obtenez une licence temporaire depuis [ici](https://purchase.aspose.com/temporary-license/) pour tester pleinement.
 
 ### Initialisation de base
-Avant d'utiliser Aspose.Cells, initialisez-le dans votre projet Java :
+Before using Aspose.Cells, initialize it in your Java project:
 ```java
 import com.aspose.cells.Workbook;
 
-// Initialiser un nouvel objet Workbook
+// Initialize a new Workbook object
 Workbook workbook = new Workbook();
 ```
 
 ## Guide de mise en œuvre
-Décomposons le processus de création et de configuration de graphiques à bulles avec Aspose.Cells.
+Décomposons le processus de création et de configuration des graphiques à bulles avec Aspose.Cells.
 
-### Initialisation d'un objet classeur
-UN `Workbook` Représente un fichier Excel entier, vous permettant de manipuler des feuilles, des cellules, etc. Initialisez-le comme suit :
+### Comment créer un graphique : initialisation d’un objet Workbook
+A `Workbook` represents an entire Excel file, allowing you to manipulate sheets, cells, and more. Initialize it as follows:
 ```java
 import com.aspose.cells.Workbook;
 
-// Créer une nouvelle instance de classeur
+// Create a new Workbook instance
 Workbook workbook = new Workbook();
 ```
 
-### Accéder et manipuler les feuilles de calcul
-Accédez aux feuilles de travail pour préparer les données à la création de graphiques :
+### Comment définir les données du graphique à bulles : accès et manipulation des feuilles de calcul
+Prepare the data that will feed the bubble chart:
 ```java
 import com.aspose.cells.WorksheetCollection;
 import com.aspose.cells.Cells;
 import com.aspose.cells.Cell;
 
-// Obtenez la collection de feuilles de travail
+// Get the collection of worksheets
 WorksheetCollection worksheets = workbook.getWorksheets();
 Worksheet sheet = worksheets.get(0);
 Cells cells = sheet.getCells();
 
-// Définissez des valeurs dans des cellules spécifiques pour préparer les données à la création de graphiques
+// Set values in specific cells to prepare data for charting
 cells.get("A1").setValue(50);
 cells.get("A2").setValue(100);
 cells.get("A3").setValue(150);
@@ -113,72 +124,85 @@ cells.get("D2").setValue(120);
 cells.get("D3").setValue(250);
 ```
 
-### Création et configuration de graphiques à bulles
-Créez un graphique à bulles en l'ajoutant à la feuille de calcul et en définissant les sources de données :
+### Comment générer un graphique à bulles Excel : création et configuration du graphique
+Create a bubble chart by adding it to the worksheet and setting its data sources:
 ```java
 import com.aspose.cells.ChartCollection;
 import com.aspose.cells.Chart;
 import com.aspose.cells.SeriesCollection;
 import com.aspose.cells.ChartType;
 
-// Accéder à la collection de graphiques dans la feuille
+// Access the collection of charts in the sheet
 ChartCollection charts = sheet.getCharts();
 int chartIndex = charts.add(ChartType.BUBBLE, 5, 0, 15, 5);
 Chart chart = charts.get(chartIndex);
 
-// Ajouter des séries au graphique et définir des sources de données
+// Add series to the chart and set data sources
 SeriesCollection serieses = chart.getNSeries();
 serieses.add("A1:B3", true);
 
-// Définissez les tailles des bulles, les valeurs X et Y pour le graphique
+// Set bubble sizes, X values, and Y values for the chart
 chart.getNSeries().get(0).setBubbleSizes("B2:D2");
 chart.getNSeries().get(0).setXValues("B3:D3");
 chart.getNSeries().get(0).setValues("B1:D1");
 ```
 
-### Enregistrer le classeur
-Enregistrez votre classeur pour conserver toutes les modifications :
+### Comment enregistrer le graphique : sauvegarde du classeur
+Persist the workbook (and the embedded chart) to disk:
 ```java
 import com.aspose.cells.SaveFormat;
 
-// Définir le répertoire pour enregistrer le fichier
+// Define the directory to save the file
 String dataDir = "YOUR_DATA_DIRECTORY";
 workbook.save(dataDir + "/HToCrBChart_out.xls", SaveFormat.EXCEL_97_TO_2003);
 ```
 
 ## Applications pratiques
-- **Rapports financiers**:Visualisez les indicateurs financiers avec des graphiques à bulles.
-- **Analyse des données de vente**: Mettez en évidence les tendances des ventes dans les régions en utilisant différentes tailles de bulles.
-- **Recherche scientifique**:Afficher les résultats expérimentaux où la taille des bulles indique la signification des données.
+- **Rapports financiers** – Visualisez le chiffre d’affaires, le profit et la part de marché en une seule vue.
+- **Analyse des données de ventes** – Mettez en évidence la performance des ventes régionales où la taille des bulles indique le volume.
+- **Recherche scientifique** – Affichez les résultats expérimentaux avec trois variables simultanément.
 
-## Considérations relatives aux performances
-- Réduisez l’utilisation de la mémoire du classeur en supprimant rapidement les objets inutilisés.
-- Optimisez les sources de données graphiques pour réduire le temps de traitement lors du rendu.
-- Utilisez des pratiques efficaces de gestion de la mémoire Java lors de la gestion de grands ensembles de données avec Aspose.Cells.
+## Considérations de performance
+- Libérez rapidement les objets inutilisés pour libérer la mémoire.
+- Gardez les plages de données aussi restreintes que possible ; de grandes plages inutiles peuvent ralentir le rendu.
+- Utilisez les meilleures pratiques de gestion de mémoire de Java lors du traitement de jeux de données massifs.
 
-## Conclusion
-Vous savez maintenant comment créer et configurer des graphiques à bulles avec Aspose.Cells pour Java. Cet outil puissant peut considérablement améliorer vos capacités de reporting Excel. Envisagez d'explorer d'autres types de graphiques ou d'intégrer cette solution à des pipelines de traitement de données plus importants.
+## Problèmes courants et solutions
+| Problème | Cause | Solution |
+|---|---|---|
+| **Graphique vide** | Les plages de données ne correspondent pas aux séries | Vérifiez que `setBubbleSizes`, `setXValues` et `setValues` font référence aux cellules correctes. |
+| **Tailles de bulles incorrectes** | Longueurs de plage incompatibles | Assurez‑vous que les trois plages contiennent le même nombre de points. |
+| **Exception de licence** | Exécution sans licence valide | Appliquez une licence temporaire ou achetée avant de créer le classeur. |
 
-**Appel à l'action**:Essayez d’implémenter ce guide dans vos projets dès aujourd’hui !
+## Questions fréquemment posées
 
-## Section FAQ
-1. **Quelle est la version minimale d'Aspose.Cells requise ?**
-   - La version 25.3 est recommandée pour ce tutoriel afin de garantir la compatibilité avec toutes les fonctionnalités démontrées.
-2. **Comment puis-je personnaliser les couleurs du graphique à bulles ?**
-   - Personnaliser en utilisant `chart.getNSeries().get(0).setPlotOnSecondAxis(true)` et d'autres méthodes de style fournies par Aspose.Cells.
-3. **Puis-je utiliser Aspose.Cells sur les environnements Windows et Linux ?**
-   - Oui, Aspose.Cells est entièrement compatible multiplateforme avec les applications Java.
-4. **Quels sont les problèmes courants lors de la définition des tailles de bulles ?**
-   - Assurez-vous que les plages de données pour les tailles de bulles correspondent à la taille de l'ensemble de données pour éviter les erreurs.
-5. **Comment puis-je obtenir une licence temporaire pour Aspose.Cells ?**
-   - Visite [Page de licence temporaire d'Aspose](https://purchase.aspose.com/temporary-license/) pour appliquer et tester pleinement toutes les fonctionnalités.
+**Q : Quelle est la version minimale d’Aspose.Cells requise ?**  
+R : La version 25.3 est recommandée pour ce tutoriel afin d’assurer la compatibilité avec toutes les fonctionnalités démontrées.
+
+**Q : Comment personnaliser les couleurs du graphique à bulles ?**  
+R : Utilisez les méthodes de formatage de la série, comme `chart.getNSeries().get(0).getArea().getFillFormat().setForeColor(Color.getRed())`.
+
+**Q : Puis‑je exécuter ce code sur des serveurs Linux ?**  
+R : Oui, Aspose.Cells pour Java est entièrement multiplateforme et fonctionne sur tout OS avec un JDK compatible.
+
+**Q : Que faire si je reçois une erreur « Taille de source de données incohérente » ?**  
+R : Vérifiez que les plages pour les tailles de bulles, les valeurs X et les valeurs Y contiennent le même nombre de cellules.
+
+**Q : Où puis‑je obtenir une licence temporaire pour les tests ?**  
+R : Visitez la [page de licence temporaire d'Aspose](https://purchase.aspose.com/temporary-license/) pour demander une licence d’essai.
 
 ## Ressources
-- **Documentation**: Pour plus de détails, reportez-vous à la [documentation officielle](https://reference.aspose.com/cells/java/).
-- **Télécharger**: Obtenez la dernière version à partir de [la page de sortie](https://releases.aspose.com/cells/java/).
-- **Achat**: Explorez les options de licence sur [cette page](https://purchase.aspose.com/buy).
-- **Essai gratuit**: Commencez par un essai gratuit pour tester les fonctionnalités de [Section des sorties d'Aspose](https://releases.aspose.com/cells/java/).
-- **Forum d'assistance**:Pour toute question, le [forum d'assistance](https://forum.aspose.com/c/cells/9) est disponible.
+- **Documentation** : Pour plus de détails, consultez la [documentation officielle](https://reference.aspose.com/cells/java/).
+- **Téléchargement** : Obtenez la dernière version depuis [la page de publication](https://releases.aspose.com/cells/java/).
+- **Achat** : Explorez les options de licence sur [cette page](https://purchase.aspose.com/buy).
+- **Essai gratuit** : Commencez avec un essai gratuit pour tester les capacités dans la [section des versions d'Aspose](https://releases.aspose.com/cells/java/).
+- **Forum de support** : Pour toute question, le [forum de support](https://forum.aspose.com/c/cells/9) est disponible.
+
+---
+
+**Dernière mise à jour** : 2026-04-02  
+**Testé avec** : Aspose.Cells 25.3 for Java  
+**Auteur** : Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

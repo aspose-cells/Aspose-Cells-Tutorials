@@ -25,10 +25,6 @@ title: Automatizar la generación de facturas – Nomenclatura dinámica de hoja
 url: /es/net/smart-markers-dynamic-data/automate-invoice-generation-dynamic-worksheet-naming-repeati/
 ---
 
-with bold formatting and code formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

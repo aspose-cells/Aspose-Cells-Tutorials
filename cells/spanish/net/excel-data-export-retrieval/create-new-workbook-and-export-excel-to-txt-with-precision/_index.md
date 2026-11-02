@@ -23,7 +23,7 @@ title: Crear nuevo libro de trabajo y exportar Excel a TXT con precisión
 url: /es/net/excel-data-export-retrieval/create-new-workbook-and-export-excel-to-txt-with-precision/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

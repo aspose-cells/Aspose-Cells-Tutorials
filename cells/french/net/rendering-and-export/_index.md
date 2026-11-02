@@ -66,6 +66,8 @@ Découvrez comment imprimer une page vierge à l’aide d’Aspose.Cells pour .N
 Apprenez à afficher des pages séquentielles dans Excel avec Aspose.Cells pour .NET. Ce tutoriel détaillé vous explique comment convertir des pages sélectionnées en images.
 ### [Créer une plage de référence de tableau croisé dynamique – Exporter l'image du tableau croisé dynamique en PNG](./create-pivot-reference-range-export-pivot-table-image-as-png/)
 Apprenez à créer une plage de référence pour un tableau croisé dynamique et à exporter son image au format PNG avec Aspose.Cells pour .NET.
+### [Créer une image PNG de tableau croisé dynamique en C# – Guide complet étape par étape](./create-png-pivot-image-in-c-full-step-by-step-guide/)
+Apprenez à générer une image PNG d'un tableau croisé dynamique avec Aspose.Cells en C#, étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -23,13 +23,7 @@ title: Japán korszak dátumok feldolgozása Excelben – Teljes útmutató C# f
 url: /hu/net/data-loading-and-parsing/parse-japanese-era-dates-in-excel-full-guide-for-c-developer/
 ---
 
-from file" is a phrase but maybe keep as is? It's a technical phrase, could keep. In earlier translation we kept it unchanged. Good.
-
-Also "custom date parsing excel" is technical phrase, keep unchanged.
-
-Make sure code block placeholders remain unchanged.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

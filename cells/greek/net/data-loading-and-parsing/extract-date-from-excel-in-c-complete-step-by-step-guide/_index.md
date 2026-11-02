@@ -25,17 +25,7 @@ title: Εξαγωγή ημερομηνίας από το Excel σε C# – Πλ�
 url: /el/net/data-loading-and-parsing/extract-date-from-excel-in-c-complete-step-by-step-guide/
 ---
 
-Walkthrough" => "Εξαγωγή ημερομηνίας από το Excel – Πλήρης Προγραμματιστική Επίδειξη"
-
-Paragraphs.
-
-Let's translate step by step.
-
-Will produce final markdown.
-
-Be careful with bullet points: keep dash.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -26,12 +26,6 @@ title: Comment exporter un tableau croisé dynamique en image en C# – Guide é
 url: /fr/net/pivot-tables/how-to-export-pivot-table-as-an-image-in-c-step-by-step-guid/
 ---
 
-answer content, but keep technical terms.
-
-Let's translate.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -25,21 +25,7 @@ title: C# के साथ Excel को PowerPoint में निर्या�
 url: /hi/net/converting-excel-files-to-other-formats/how-to-export-excel-to-powerpoint-with-c-complete-guide/
 ---
 
-वाली सर्विसेज़ में **अस्थायी फ़ाइलों को साफ़ करें**। `ExportToImage` मेथड सीधे PPTX लिखता है, लेकिन मध्यवर्ती कैश रह सकते हैं।"
-
-Next "## Conclusion" translate: "## निष्कर्ष".
-
-Paragraph: "You now have a reliable, production‑ready pattern for **how to export Excel** data into a PowerPoint slide using C#. By mastering the **convert excel to pptx** workflow, **set print area excel**, and **create powerpoint from excel**"
-
-Translate: "अब आपके पास C# का उपयोग करके Excel डेटा को PowerPoint स्लाइड में एक्सपोर्ट करने के लिए एक भरोसेमंद, प्रोडक्शन‑रेडी पैटर्न है। **convert excel to pptx** वर्कफ़्लो, **set print area excel**, और **create powerpoint from excel** को महारत हासिल करके।"
-
-Then closing shortcodes.
-
-Now ensure we keep all shortcodes exactly.
-
-Also ensure we keep markdown formatting: headings, lists, tables, blockquotes.
-
-Now produce final answer with only translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

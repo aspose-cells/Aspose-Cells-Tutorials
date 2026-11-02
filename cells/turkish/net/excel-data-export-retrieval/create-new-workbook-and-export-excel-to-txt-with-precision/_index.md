@@ -23,12 +23,6 @@ title: Yeni Çalışma Kitabı Oluştur ve Excel'i Hassasiyetle TXT'ye Dışa Ak
 url: /tr/net/excel-data-export-retrieval/create-new-workbook-and-export-excel-to-txt-with-precision/
 ---
 
-.
-
-Translate.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

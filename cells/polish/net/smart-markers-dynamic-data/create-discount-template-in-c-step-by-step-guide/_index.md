@@ -23,7 +23,7 @@ title: Utwórz szablon rabatu w C# – Przewodnik krok po kroku
 url: /pl/net/smart-markers-dynamic-data/create-discount-template-in-c-step-by-step-guide/
 ---
 
-translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

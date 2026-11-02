@@ -25,14 +25,6 @@ title: Cara Mengekspor Excel ke PowerPoint dengan C# – Panduan Lengkap
 url: /id/net/converting-excel-files-to-other-formats/how-to-export-excel-to-powerpoint-with-c-complete-guide/
 ---
 
-kap"
-
-Translate sentences.
-
-Also keep bullet points.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

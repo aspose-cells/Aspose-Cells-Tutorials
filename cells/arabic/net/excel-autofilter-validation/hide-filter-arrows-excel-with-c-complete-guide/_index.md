@@ -22,7 +22,7 @@ title: إخفاء أسهم الفلتر في إكسل باستخدام C# – د
 url: /ar/net/excel-autofilter-validation/hide-filter-arrows-excel-with-c-complete-guide/
 ---
 
-craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

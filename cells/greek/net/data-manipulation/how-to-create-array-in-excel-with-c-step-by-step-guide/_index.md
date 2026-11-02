@@ -24,12 +24,6 @@ title: Πώς να δημιουργήσετε πίνακα στο Excel με C# 
 url: /el/net/data-manipulation/how-to-create-array-in-excel-with-c-step-by-step-guide/
 ---
 
-text.
-
-Be careful with markdown formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

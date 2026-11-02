@@ -72,6 +72,7 @@ Aspose.Cells for .NET を使用して、Excel の上付き文字をカスタマ�
 Aspose.Cells for .NET を使用して、C# で Excel エクスポート時にフォントを埋め込む手順をステップバイステップで解説します。
 ### [Excelセルからテキストボックスへフォントをコピーする方法 – ステップバイステップガイド](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
 この簡単なステップバイステップ ガイドで、Aspose.Cells for .NET を使用して Excel セルのフォントをテキストボックスにコピーする方法を学びます。
+### [テキストボックスに太字フォントを適用する – ステップバイステップ C# ガイド](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

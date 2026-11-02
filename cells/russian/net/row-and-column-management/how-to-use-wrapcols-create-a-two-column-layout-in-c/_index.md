@@ -22,8 +22,6 @@ title: 'Как использовать WRAPCOLS: создайте двухко�
 url: /ru/net/row-and-column-management/how-to-use-wrapcols-create-a-two-column-layout-in-c/
 ---
 
-write translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

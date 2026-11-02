@@ -25,16 +25,6 @@ title: Extraer fecha de Excel en C# – Guía completa paso a paso
 url: /es/net/data-loading-and-parsing/extract-date-from-excel-in-c-complete-step-by-step-guide/
 ---
 
-="extract date from excel". That's part of the attribute. Should translate? It's inside {} after the image. That's part of markdown extension. Probably translate that too. Let's translate to Spanish: alt="fecha extraída de excel". Title: "Fecha extraída de Excel". We'll translate.
-
-Now translate each paragraph.
-
-Let's produce final content.
-
-Be careful to keep code block placeholders unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

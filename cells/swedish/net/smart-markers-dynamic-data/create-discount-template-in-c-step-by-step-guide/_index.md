@@ -21,11 +21,7 @@ title: Skapa rabattmall i C# – Steg‑för‑steg‑guide
 url: /sv/net/smart-markers-dynamic-data/create-discount-template-in-c-step-by-step-guide/
 ---
 
-as given.
-
-Make sure to keep all shortcodes exactly.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

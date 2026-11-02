@@ -21,20 +21,6 @@ title: カスタムプロパティ付きXLSBを保存する方法 – ステッ�
 url: /ja/net/document-properties/how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/
 ---
 
-workbook – how to save xlsb". Should translate alt text but keep URL unchanged.
-
-So alt text translate.
-
-Finally closing shortcodes.
-
-Now produce final content.
-
-Let's craft Japanese translation.
-
-Be careful to keep markdown syntax.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

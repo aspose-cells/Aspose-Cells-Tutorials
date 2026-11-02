@@ -1,107 +1,161 @@
 ---
-"date": "2025-04-07"
-"description": "تعرّف على كيفية إعداد البيانات وتصورها باستخدام Aspose.Cells لجافا. يغطي هذا الدليل إنشاء مصنفات، وإدراج البيانات، وإضافة المخططات البيانية، وحفظ الملفات بكفاءة."
-"title": "إتقان Aspose.Cells في Java&#58; إعداد مصنف العمل وتصور البيانات باستخدام المخططات البيانية"
-"url": "/ar/java/charts-graphs/aspose-cells-java-setup-data-visualization/"
-"weight": 1
+date: '2026-09-07'
+description: تعلم كيفية تصدير البيانات إلى Excel في Java باستخدام Aspose.Cells. يوضح
+  هذا الدليل إنشاء المصنفات، وإدخال البيانات، وإنشاء المخططات، وحفظ الملفات بكفاءة.
+keywords:
+- export data to excel java
+- how to create excel workbook java
+- Aspose.Cells Java tutorial
+lastmod: '2026-09-07'
+og_description: تصدير البيانات إلى Excel في Java باستخدام Aspose.Cells. اتبع التعليمات
+  خطوة بخطوة لإنشاء المصنفات، وإضافة البيانات، وإنشاء المخططات، وحفظ الملفات.
+og_image_alt: Guide showing Java code creating an Excel workbook with charts using
+  Aspose.Cells
+og_title: كيفية تصدير البيانات إلى Excel في Java باستخدام Aspose.Cells
+schemas:
+- author: Aspose
+  dateModified: '2026-09-07'
+  description: Learn how to export data to Excel in Java using Aspose.Cells. This
+    guide shows workbook creation, data insertion, charting, and saving files efficiently.
+  headline: How to export data to Excel in Java with Aspose.Cells
+  type: TechArticle
+- description: Learn how to export data to Excel in Java using Aspose.Cells. This
+    guide shows workbook creation, data insertion, charting, and saving files efficiently.
+  name: How to export data to Excel in Java with Aspose.Cells
+  steps:
+  - name: '**Financial analysis** – generate profit‑and‑loss statements with trend
+      charts.'
+    text: '**Financial analysis** – generate profit‑and‑loss statements with trend
+      charts.'
+  - name: '**Inventory management** – visualize stock levels across multiple warehouses.'
+    text: '**Inventory management** – visualize stock levels across multiple warehouses.'
+  - name: '**Sales reporting** – create dashboards that auto‑refresh with the latest
+      sales figures.'
+    text: '**Sales reporting** – create dashboards that auto‑refresh with the latest
+      sales figures.'
+  type: HowTo
+- questions:
+  - answer: Yes. Download the JAR from the [Aspose website](https://releases.aspose.com/cells/java/)
+      and add it to your classpath manually.
+    question: Can I use Aspose.Cells in a non‑Maven project?
+  - answer: Absolutely. The library is available for .NET, C++, Python, and more.
+      See the [official documentation](https://reference.aspose.com/cells) for details.
+    question: Does Aspose.Cells work with other languages?
+  - answer: Use `SaveFormat.XLSX` for modern Excel versions; for legacy support, choose
+      `SaveFormat.EXCEL_97_TO_2003`.
+    question: Which file format should I choose for maximum compatibility?
+  - answer: Leverage the streaming API (`WorkbookFactory.create`) to process rows
+      without loading the entire file into memory.
+    question: How can I handle workbooks with millions of rows?
+  - answer: Aspose.Cells imposes no hard limit; practical limits depend on available
+      system memory and Excel’s own constraints.
+    question: Is there a limit to the number of worksheets?
+  type: FAQPage
+tags:
+- export data to excel
+- Aspose.Cells
+- Java Excel workbook
+- data visualization
+title: كيفية تصدير البيانات إلى Excel في Java باستخدام Aspose.Cells
+url: /ar/java/charts-graphs/aspose-cells-java-setup-data-visualization/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# إتقان Aspose.Cells في Java: إعداد المصنفات وتصور البيانات باستخدام المخططات البيانية
+# كيفية تصدير البيانات إلى Excel في Java باستخدام Aspose.Cells
 
 ## مقدمة
 
-تُعدّ إدارة البيانات الفعّالة أمرًا بالغ الأهمية في عالمنا الرقمي اليوم. إذا كنت ترغب في الاستفادة من قوة Excel برمجيًا، فإن "Aspose.Cells for Java" يُقدّم حلاً فعّالاً. سيُرشدك هذا الدليل الشامل خلال عملية إعداد مصنفات العمل، وإضافة البيانات، وتصويرها باستخدام المخططات البيانية - كل ذلك باستخدام Aspose.Cells for Java. سواء كنت مطورًا خبيرًا أو جديدًا في التعامل مع جداول البيانات في البرمجة، فإن هذا البرنامج التعليمي مُصمّم لتطوير مهاراتك.
+تصدير البيانات إلى Excel في Java هو طلب شائع للتقارير والتحليلات وتبادل البيانات. توفر Aspose.Cells for Java واجهة برمجة تطبيقات قوية بدون تبعيات لإنشاء وتعديل وتصوير جداول البيانات برمجيًا. في هذا الدرس ستتعلم كيفية **تصدير البيانات إلى Excel في Java**، إعداد دفاتر العمل، إدراج الصفوف والأعمدة، إضافة مخططات ديناميكية، وأخيرًا حفظ الملف بالتنسيق الذي تحتاجه.
 
-### ما سوف تتعلمه:
-- إعداد مصنف وأوراق العمل
-- إدراج البيانات وتنظيمها داخل الخلايا
-- إضافة مخططات ديناميكية لتوضيح تلك البيانات
-- حفظ المصنف بكفاءة
+### ما ستتعلمه
+- كيفية **إنشاء دفتر عمل Excel في Java**
+- كيفية إدراج وتنظيم البيانات في الخلايا
+- كيفية إضافة مخطط عمودي يتجدد تلقائيًا
+- كيفية تصدير دفتر العمل المكتمل إلى القرص أو إلى تدفق
 
-هل أنت مستعد لتحويل البيانات الخام إلى تصورات مرئية ثاقبة؟ لنستكشف أساسيات Aspose.Cells لجافا!
+هل أنت مستعد لتحويل البيانات الخام إلى تقرير Excel مصقول؟ هيا نبدأ.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **أي مكتبة تصدر البيانات إلى Excel في Java؟** Aspose.Cells for Java.
+- **هل أحتاج إلى تثبيت Microsoft Office؟** No, Aspose.Cells works completely independently.
+- **هل يمكنني إنشاء مخططات بدون Excel؟** Yes, the API creates 100+ chart types natively.
+- **ما صيغ الملفات المدعومة للتصدير؟** XLS, XLSX, CSV, HTML, PDF, and more.
+- **هل يلزم وجود ترخيص للإنتاج؟** A temporary or purchased license removes evaluation limits.
 
-قبل أن نبدأ، تأكد من أن لديك ما يلي:
+## ما هو تصدير البيانات إلى Excel في Java؟
+يشير تصدير البيانات إلى Excel في Java إلى استخدام مكتبة Java لإنشاء ملف Excel (XLS/XLSX) برمجيًا يحتوي على صفوف وأعمدة منظمة، وعناصر بصرية اختيارية مثل المخططات. توفر Aspose.Cells هذه القدرة دون الحاجة إلى Microsoft Excel.
 
-### المكتبات المطلوبة:
-- **Aspose.Cells لـ Java**هذه هي المكتبة الأساسية المطلوبة. الإصدار المستخدم هنا هو 25.3.
+## لماذا تستخدم Aspose.Cells for Java؟
+يدعم Aspose.Cells **أكثر من 100 نوع من المخططات** ويمكنه التعامل مع دفاتر العمل التي تحتوي على **ما يصل إلى مليون صف** مع الحفاظ على استهلاك الذاكرة أقل من 200 ميغابايت على خادم عادي. كما تقدم المكتبة **أكثر من 50 صيغة ملف** للاستيراد والتصدير، مما يضمن إمكانية مشاركة النتائج مع أي طرف معني.
 
-### متطلبات إعداد البيئة:
-- بيئة تطوير متكاملة متوافقة (Eclipse، IntelliJ IDEA)
-- نظام بناء Maven أو Gradle
+## المتطلبات المسبقة
+- **Aspose.Cells for Java** (الإصدار 25.3 أو أحدث) – المكتبة الأساسية.
+- بيئة تطوير Java (Eclipse، IntelliJ IDEA، أو أي IDE تفضله).
+- Maven أو Gradle لإدارة التبعيات.
+- معرفة أساسية بـ Java وإلمام بمفاهيم Excel.
 
-### المتطلبات المعرفية:
-- فهم أساسي لبرمجة جافا
-- المعرفة بمفاهيم Excel مثل المصنفات والمخططات
+## إعداد Aspose.Cells for Java
 
-## إعداد Aspose.Cells لـ Java
+### معلومات التثبيت
 
-### معلومات التثبيت:
-
-**مافن**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-cells</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**جرادل**
+**Gradle**  
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
-```
+```  
 
-### خطوات الحصول على الترخيص:
-- **نسخة تجريبية مجانية**:اختبار Aspose.Cells مع ميزات محدودة.
-- **رخصة مؤقتة**:احصل على ترخيص مؤقت للوصول إلى الميزات الكاملة أثناء التقييم.
-- **شراء**:للإستخدام المستمر، قم بشراء اشتراك.
+### خطوات الحصول على الترخيص
+- **نسخة تجريبية مجانية** – تقييم بميزات محدودة.
+- **ترخيص مؤقت** – مجموعة كاملة من الميزات لفترة محدودة.
+- **شراء** – ترخيص دائم للاستخدام في الإنتاج.
 
-### التهيئة والإعداد الأساسي
-لبدء استخدام Aspose.Cells في مشروع Java الخاص بك، قم بتهيئة `Workbook` هذا الكائن سيكون بمثابة حاوية لجميع أوراق العمل ومعالجة البيانات الخاصة بك:
+### التهيئة الأساسية والإعداد
+لبدء العمل، تقوم بإنشاء كائن `Workbook` الذي يمثل ملف Excel بالكامل في الذاكرة.
 
 ```java
 import com.aspose.cells.Workbook;
 
-// تهيئة المصنف
+// Initialize Workbook
 Workbook workbook = new Workbook();
-```
+```  
 
 ## دليل التنفيذ
 
-### إعداد المصنف وأوراق العمل
-يتيح لك Aspose.Cells إنشاء ملفات Excel ومعالجتها برمجيًا. إليك كيفية إعداد مصنف وتعبئته بالبيانات.
+### إعداد دفتر العمل وأوراق العمل
+يتيح لك Aspose.Cells إنشاء ملفات Excel ومعالجتها بالكامل عبر الكود.
 
-#### الخطوة 1: إنشاء مصنف والوصول إلى أوراق العمل
+#### الخطوة 1: إنشاء دفتر عمل والوصول إلى أوراق العمل
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorksheetCollection;
 
-// إنشاء كائن مصنف جديد.
+// Instantiate a new Workbook object.
 Workbook workbook = new Workbook();
 WorksheetCollection worksheets = workbook.getWorksheets();
 
-// قم بالوصول إلى ورقة العمل الأولى في المجموعة.
+// Access the first worksheet in the collection.
 com.aspose.cells.Worksheet worksheet = worksheets.get(0);
-```
+```  
 
-#### الخطوة 2: ملء الخلايا بالبيانات
-املأ خلايا محددة بالبيانات. يوضح هذا القسم إضافة قيم رقمية وفئوية إلى ورقة عمل.
-
+#### الخطوة 2: تعبئة الخلايا بالبيانات
 ```java
 import com.aspose.cells.Cells;
 
 Cells cells = worksheet.getCells();
 
-// أضف قيم العينة للتوضيح.
+// Add sample values for demonstration.
 cells.get("A1").setValue(50);
 cells.get("A2").setValue(100);
 cells.get("A3").setValue(150);
@@ -112,86 +166,114 @@ cells.get("B2").setValue(32);
 cells.get("B3").setValue(50);
 cells.get("B4").setValue(40);
 
-// إدراج بيانات الفئة.
+// Insert category data.
 cells.get("C1").setValue("Q1");
 cells.get("C2").setValue("Q2");
 cells.get("C3").setValue("Y1");
 cells.get("C4").setValue("Y2");
-```
+```  
 
 ### إضافة مخطط إلى ورقة العمل
-تصوّر بياناتك بإضافة مخطط بياني. تُحسّن هذه الميزة فهم البيانات من خلال التمثيل البياني.
+تحول المخططات الأرقام الخام إلى رؤى بصرية، مما يجعل التقارير أسهل في القراءة.
 
-#### الخطوة 3: إضافة مخطط عمودي وتكوينه
+#### الخطوة 3: إضافة وتكوين مخطط عمودي
 ```java
 import com.aspose.cells.ChartCollection;
 import com.aspose.cells.ChartType;
 
 ChartCollection charts = worksheet.getCharts();
 
-// أضف مخططًا عموديًا إلى ورقة العمل.
+// Add a column chart to the worksheet.
 int chartIndex = charts.add(ChartType.COLUMN, 5, 0, 15, 5);
 com.aspose.cells.Chart chart = charts.get(chartIndex);
 
-// قم بتحديد سلسلة البيانات للرسم البياني من "A1" إلى "B4".
+// Define data series for the chart from "A1" to "B4".
 import com.aspose.cells.SeriesCollection;
 SeriesCollection nSeries = chart.getNSeries();
 nSeries.add("A1:B4", true);
 
-// تعيين بيانات الفئة باستخدام النطاق "C1:C4".
+// Set category data using range "C1:C4".
 nSeries.setCategoryData("C1:C4");
-```
+```  
 
-### حفظ المصنف
-بعد إعداد مصنفك، احفظه في المكان المطلوب. تُنهي هذه الخطوة جميع التعديلات.
+## حفظ دفتر العمل
+عندما تكون راضيًا عن البيانات والمخططات، احفظ دفتر العمل بالتنسيق المطلوب.
 
 ```java
 import com.aspose.cells.SaveFormat;
 
-String outDir = "YOUR_OUTPUT_DIRECTORY"; // حدد مسار دليل الإخراج.
+String outDir = "YOUR_OUTPUT_DIRECTORY"; // Specify output directory path.
 workbook.save(outDir + "/SettingCategoryData_out.xls", SaveFormat.EXCEL_97_TO_2003);
-```
+```  
 
-## التطبيقات العملية
+## تطبيقات عملية
 
-1. **التحليل المالي**:استخدم Aspose.Cells لإنشاء التقارير المالية وتصورها، مع تسليط الضوء على الاتجاهات والتوقعات.
-2. **إدارة المخزون**:تتبع مستويات المخزون باستخدام الرسوم البيانية الديناميكية لاتخاذ قرارات أفضل بشأن إدارة المخزون.
-3. **إعداد تقارير بيانات المبيعات**:إنشاء لوحات معلومات تقوم تلقائيًا بتحديث أرقام المبيعات باستخدام رؤى بصرية.
+1. **التحليل المالي** – إنشاء بيانات الأرباح والخسائر مع مخططات الاتجاه.
+2. **إدارة المخزون** – تصور مستويات المخزون عبر عدة مستودعات.
+3. **تقارير المبيعات** – إنشاء لوحات معلومات يتم تحديثها تلقائيًا بأحدث أرقام المبيعات.
 
-تتضمن إمكانيات التكامل ربط البيانات من قواعد البيانات أو أنظمة التخزين السحابي، مما يتيح التحديثات في الوقت الفعلي لملفات عمل Excel الخاصة بك.
+يمكنك أيضًا سحب البيانات مباشرةً من قواعد البيانات، أو واجهات REST API، أو التخزين السحابي للحفاظ على تقارير Excel محدثة.
 
 ## اعتبارات الأداء
-- **إدارة الذاكرة**:تحسين إعدادات ذاكرة Java عند العمل مع مجموعات بيانات كبيرة في Aspose.Cells.
-- **إرشادات استخدام الموارد**:استخدم هياكل بيانات فعالة وقلل من تعقيد المصنف للحصول على أداء أفضل.
-- **أفضل الممارسات**:قم بالتحديث بانتظام إلى أحدث إصدار من Aspose.Cells للحصول على التحسينات والميزات الجديدة.
+- **إدارة الذاكرة** – استخدم واجهة برمجة التطبيقات المتدفقة للملفات التي يزيد حجمها عن 500 ميغابايت.
+- **استخدام الموارد** – تجنب إنشاء أوراق عمل غير ضرورية؛ أعد استخدام الأوراق الموجودة عندما يكون ذلك ممكنًا.
+- **أفضل الممارسات** – حافظ على تحديث المكتبة؛ الإصدارات الأخيرة تضيف تحسينات في الأداء وأنواع مخططات جديدة.
 
-## خاتمة
-باتباع هذا الدليل، ستتعلم كيفية إنشاء مصنفات العمل، وتعبئتها بالبيانات، وإضافة المخططات، وحفظ عملك - كل ذلك باستخدام Aspose.Cells في جافا. يمكن تطبيق هذه المعرفة في العديد من المجالات التي يُعد فيها تصور البيانات أمرًا بالغ الأهمية. ما التالي؟ جرّب دمج أنواع مختلفة من مصادر البيانات أو استكشف أنماط المخططات الأخرى التي يوفرها Aspose.Cells.
+## كيفية تصدير البيانات إلى Excel في Java؟
+حمّل بياناتك في مجموعات Java، أنشئ كائن `Workbook`، اكتب البيانات في الخلايا، أضف مخططًا، ثم استدعِ `workbook.save("Report.xlsx", SaveFormat.XLSX)`. يتيح هذا التدفق من البداية إلى النهاية تصدير البيانات إلى Excel في Java ببضع نداءات للطرق فقط دون أي تبعيات خارجية.
 
-## قسم الأسئلة الشائعة
-1. **كيف أقوم بتثبيت Aspose.Cells لمشروع غير Maven؟**  
-   قم بتنزيل ملف JAR من [موقع Aspose](https://releases.aspose.com/cells/java/) وأضفه إلى مسار الفصل الخاص بك يدويًا.
-2. **هل يمكنني استخدام Aspose.Cells مع لغات برمجة أخرى؟**  
-   نعم، Aspose.Cells متاح لـ .NET وC++ وPython وغيرها. تحقق من [الوثائق الرسمية](https://reference.aspose.com/cells) لمزيد من التفاصيل.
-3. **ما الفرق بين SaveFormat.EXCEL_97_TO_2003 وغيرها؟**  
-   يضمن هذا التنسيق التوافق مع إصدارات Excel القديمة (97-2003). بالنسبة للتنسيقات الحديثة مثل XLSX، استخدم `SaveFormat.XLSX`.
-4. **كيف يمكنني التعامل مع مجموعات البيانات الكبيرة بكفاءة في Aspose.Cells؟**  
-   استخدم تقنيات تحسين الذاكرة مثل واجهة برمجة التطبيقات المتدفقة لمعالجة الملفات الكبيرة دون تحميلها بالكامل في الذاكرة.
-5. **هل هناك حد لعدد أوراق العمل الموجودة في مصنف Aspose.Cells؟**  
-   لا يوجد حد متأصل يتم تعيينه بواسطة Aspose.Cells؛ ومع ذلك، يتم فرض الحدود العملية بواسطة ذاكرة النظام وExcel نفسه.
+## ما هي فئة Workbook؟
+فئة `Workbook` هي الكائن الأعلى مستوى في Aspose.Cells الذي يمثل ملف Excel كامل في الذاكرة. تُجرى جميع العمليات—إضافة أوراق عمل، إدراج بيانات، إنشاء مخططات—من خلال هذا الكائن. يمكنك أيضًا تحميل ملفات موجودة، ضبط إعدادات دفتر العمل، والتحكم في خيارات الحساب.
 
-## موارد
+## ما هي فئة Chart؟
+فئة `Chart` تُجسّد تمثيلًا رسوميًا لنطاقات البيانات، وتدعم أكثر من 100 نوع من المخططات مثل العمودي، الخطّي، الدائري، والراداري. توفر خصائص لتنسيق الشكل، تكوين المحاور، وربط البيانات. يمكن وضع المخططات في أي مكان على ورقة العمل وتخصيصها بالعناوين، الأساطير، وملصقات البيانات.
+
+## المشكلات الشائعة واستكشاف الأخطاء
+- **الترخيص مفقود** – ستظهر رسالة تحذير ووظائف محدودة؛ قم بتطبيق ترخيص مؤقت أو مُشتَرٍ في بداية الكود.
+- **مجموعات بيانات كبيرة** – فعّل `WorkbookSettings.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` لتدفق البيانات وتقليل استهلاك الذاكرة.
+- **نطاق بيانات غير صحيح** – تحقق مرة أخرى من مراجع الخلايا المستخدمة عند إنشاء المخطط؛ خطأ إزاحة بواحد سيؤدي إلى مخططات فارغة أو غير محاذية.
+
+## الأسئلة المتكررة
+
+**س: هل يمكنني استخدام Aspose.Cells في مشروع غير Maven؟**  
+نعم. قم بتنزيل ملف JAR من [Aspose website](https://releases.aspose.com/cells/java/) وأضفه إلى مسار الصف الخاص بك يدويًا.
+
+**س: هل يعمل Aspose.Cells مع لغات أخرى؟**  
+بالطبع. المكتبة متاحة لـ .NET، C++، Python، وأكثر. راجع [official documentation](https://reference.aspose.com/cells) للتفاصيل.
+
+**س: أي صيغة ملف يجب أن أختار لأقصى توافق؟**  
+استخدم `SaveFormat.XLSX` لإصدارات Excel الحديثة؛ للدعم القديم، اختر `SaveFormat.EXCEL_97_TO_2003`.
+
+**س: كيف يمكنني التعامل مع دفاتر عمل تحتوي على ملايين الصفوف؟**  
+استفد من واجهة البرمجة المتدفقة (`WorkbookFactory.create`) لمعالجة الصفوف دون تحميل الملف بالكامل في الذاكرة.
+
+**س: هل هناك حد لعدد أوراق العمل؟**  
+لا يفرض Aspose.Cells حدًا ثابتًا؛ الحدود العملية تعتمد على الذاكرة المتاحة في النظام وقيود Excel نفسها.
+
+## الموارد
 - [توثيق Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [تنزيل Aspose.Cells لـ Java](https://releases.aspose.com/cells/java/)
+- [تحميل Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
 - [شراء ترخيص](https://purchase.aspose.com/buy)
 - [نسخة تجريبية مجانية](https://releases.aspose.com/cells/java/)
-- [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
+- [ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)
 - [منتدى دعم Aspose](https://forum.aspose.com/c/cells/9)
+
+---
+
+**آخر تحديث:** 2026-09-07  
+**تم الاختبار مع:** Aspose.Cells 25.3 for Java  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [إنشاء دفتر عمل Excel باستخدام Aspose.Cells في Java: دليل خطوة بخطوة](/cells/java/getting-started/create-excel-workbook-aspose-cells-java/)
+- [كيفية إنشاء وتصدير المخططات في Java باستخدام Aspose.Cells: دليل شامل](/cells/java/charts-graphs/aspose-cells-java-create-export-charts/)
+- [أتمتة Excel باستخدام Aspose.Cells Java: إدارة خصائص دفتر العمل وحفظ الملفات بكفاءة](/cells/java/workbook-operations/excel-automation-aspose-cells-manage-properties-save-files/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

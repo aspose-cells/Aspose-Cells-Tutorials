@@ -20,13 +20,7 @@ title: Zpracovat vnořený JSON v C# – Vytvořit JSON payload v C#
 url: /cs/net/smart-markers-dynamic-data/parse-nested-json-c-create-json-payload-c/
 ---
 
-all translations and unchanged placeholders.
-
-Check for any missed items: The blockquote tip translation changed "Pro tip" to "Tip". Should we keep "Pro tip"? It's English phrase; we can translate to Czech "Tip". It's fine.
-
-Make sure we keep bold formatting for expected console output.
-
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -35,6 +35,9 @@
 ### [Aspose.Cells Java：在 Excel 文件中创建和管理命名范围](./aspose-cells-java-manage-named-ranges/)
 学习如何使用 Aspose.Cells for Java 创建、管理和操作命名范围。本教程将通过代码示例指导您设置环境并掌握关键功能。
 
+### [使用 Java 为 Excel 单元格分配名称 – 完整指南](./assign-name-to-cell-in-excel-using-java-complete-guide/)
+学习如何使用 Aspose.Cells for Java 为 Excel 单元格分配名称，提供完整代码示例和实用技巧。
+
 ### [使用 Aspose.Cells Java 访问 Excel 工作簿中的最大显示范围](./aspose-cells-java-max-display-range/)
 了解如何使用 Aspose.Cells for Java 访问 Excel 中工作表的最大显示范围。遵循我们的分步指南，掌握此功能。
 
@@ -50,8 +53,13 @@
 ### [使用 Aspose.Cells for Java 高效复制 Excel 列：综合指南](./copy-excel-columns-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 自动复制 Excel 中的列。本指南简单易懂，助您简化工作流程，提升工作效率。
 
+### [在 Java 中跨工作簿复制范围 – 分步指南](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+
 ### [如何使用 Aspose.Cells Java 在 Excel 中复制多列：完整指南](./copy-multiple-columns-excel-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 自动复制 Excel 工作表中的多列。本指南涵盖设置、实施和故障排除。
+
+### [使用 Java 编程复制工作表范围 – 完整指南](./programmatically-copy-worksheet-range-complete-java-guide/)
+学习如何使用 Aspose.Cells for Java 通过代码复制工作表中的指定范围，涵盖步骤、示例和最佳实践。
 
 ### [使用 Aspose.Cells Java 在 Excel 中创建联合范围：综合指南](./create-union-range-excel-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 在 Excel 中创建联合范围，增强数据呈现和可读性。
@@ -83,7 +91,8 @@ Aspose.Words Java 代码教程
 ### [使用 Aspose.Cells 在 Java 中取消合并 Excel 单元格：分步指南](./unmerge-excel-cells-aspose-cells-java-guide/)
 学习如何使用 Aspose.Cells for Java 高效地拆分 Excel 文件中的单元格。本指南包含合并单元格的设置、检测和拆分操作，并附带代码示例。
 
-
+### [使用 Aspose.Cells 创建新工作表并复制 Excel 区域](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+学习如何使用 Aspose.Cells for Java 创建新工作表并复制指定的 Excel 区域，实现数据迁移和复制。
 
 ## 其他资源
 

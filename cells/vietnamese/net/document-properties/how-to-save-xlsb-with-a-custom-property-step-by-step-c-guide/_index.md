@@ -23,21 +23,7 @@ title: Cách lưu tệp XLSB với thuộc tính tùy chỉnh – Hướng dẫn
 url: /vi/net/document-properties/how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/
 ---
 
-to add property** to chart objects or pivot tables—those are just a few steps away."
-
-Translate.
-
-Then "If you found this tutorial helpful, give it a thumbs‑up, share it with teammates, or drop a comment below with your own use‑case. Happy coding, and may your spreadsheets always be well‑annotated!"
-
-Translate.
-
-Then image markdown.
-
-Then closing shortcodes.
-
-Make sure to preserve all markdown formatting.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

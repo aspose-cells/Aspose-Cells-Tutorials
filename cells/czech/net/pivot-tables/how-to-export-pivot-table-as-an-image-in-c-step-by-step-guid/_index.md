@@ -25,34 +25,6 @@ title: Jak exportovat kontingenční tabulku jako obrázek v C# – průvodce kr
 url: /cs/net/pivot-tables/how-to-export-pivot-table-as-an-image-in-c-step-by-step-guid/
 ---
 
-tní průvodce"
-
-Then paragraph.
-
-We'll translate.
-
-Make sure to keep **bold** formatting.
-
-Proceed.
-
-Also list items.
-
-We need to translate "Prerequisites" heading: "Požadavky" maybe "Předpoklady". Use "Požadavky" or "Předpoklady". Keep heading level.
-
-Let's translate.
-
-Also bullet list.
-
-We must keep code block placeholders.
-
-Also table.
-
-Translate table content.
-
-Make sure to keep markdown table syntax.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -41,6 +41,9 @@ Våra cell‑operations handledningar ger dig praktisk, hand‑on vägledning f�
 ### [Behärska 1904‑datumsystemet i Excel med Aspose.Cells Java för effektiva celloperationer](./aspose-cells-java-configure-1904-date-system-excel/)
 
 ### [Behärska Aspose.Cells&#58; Implementering av CopyOptions & PasteOptions i Java för Excel‑datamanagement](./aspose-cells-java-copy-paste-options/)
+### [Hämta datum/tid från cell i Java Excel – Komplett guide](./get-datetime-from-cell-in-java-excel-complete-guide/)
+Lär dig hur du extraherar datum- och tidsvärden från Excel-celler med Aspose.Cells för Java.
+
 
 ### [Hur man hämtar data från Excel‑celler med Aspose.Cells Java&#58; En omfattande guide](./aspose-cells-java-data-retrieval-excel/)
 
@@ -59,6 +62,9 @@ En kodhandledning för Aspose.Words Java
 ### [Hur man konverterar text till tal i Excel med Aspose.Cells för Java](./convert-text-to-numbers-excel-aspose-cells-java/)
 
 ### [Excel‑automation med Aspose.Cells för Java&#58; Inbäddning av HTML i celler för förbättrade rapporter](./excel-automation-aspose-cells-java-html-cells/)
+### [Konvertera cell till sträng i Java – Komplett exportguide](./convert-cell-to-string-in-java-complete-export-guide/)
+Lär dig hur du konverterar en Excel-cell till en sträng i Java och exporterar data på ett komplett sätt.
+
 
 ### [Infoga flera rader i Excel med Aspose.Cells Java&#58; En omfattande guide](./excel-automation-aspose-cells-java-insert-multiple-rows/)
 
@@ -77,6 +83,9 @@ En kodhandledning för Aspose.Words Java
 ### [Ställ in kolumnbredd i Excel med Aspose.Cells Java](./set-column-width-excel-aspose-cells-java/)
 
 En kodhandledning för Aspose.Words Java
+
+### [Tolka japanskt era-datum från Excel i Java – Fullständig guide](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Lär dig hur du läser och konverterar japanska era-datum i Excel-filer med Aspose.Cells för Java.
 
 ## Ytterligare resurser
 

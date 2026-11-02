@@ -1,9 +1,17 @@
 ---
-"date": "2025-04-08"
-"description": "برنامج تعليمي لبرمجة Aspose.Words في Java"
-"title": "Aspose.Cells Java - إنشاء وتخصيص المخططات البيانية"
-"url": "/ar/java/charts-graphs/aspose-cells-java-create-customize-charts/"
-"weight": 1
+date: '2026-04-08'
+description: تعلم كيفية إنشاء مخطط عمودي في Java باستخدام Aspose.Cells، مع تغطية إنشاء
+  المخطط في Java، إضافة ورقة مخطط، وتصدير دفتر العمل إلى Excel.
+keywords:
+- generate column chart
+- create chart java
+- add chart sheet
+- populate excel cells
+- set chart title
+- export workbook excel
+title: إنشاء مخطط عمودي باستخدام Aspose.Cells دليل Java
+url: /ar/java/charts-graphs/aspose-cells-java-create-customize-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,34 +20,34 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# إنشاء مخطط عمودي باستخدام Aspose.Cells Java
 
-# إتقان إنشاء المخططات وتخصيصها باستخدام Aspose.Cells Java
+في تطبيقات اليوم المعتمدة على البيانات، **generating a column chart** بسرعة وبرمجياً يمكن أن يحول الأرقام الخام إلى رؤى بصرية واضحة. سواءً كنت تبني لوحة تقارير، أداة تحليل، أو ميزة تصدير بسيطة، توفر لك Aspose.Cells for Java واجهة برمجة تطبيقات سلسة **create chart java** للمشاريع دون الحاجة للتعامل مع واجهة Excel. في هذا البرنامج التعليمي ستتعلم كيفية إعداد المكتبة، **populate Excel cells**، إضافة **chart sheet**، تخصيص **chart title**، وأخيراً **export workbook excel** إلى ملف.
 
-في عالمنا اليوم الذي يعتمد على البيانات، يُعدّ تصوّر مجموعات البيانات المعقدة أمرًا بالغ الأهمية لاتخاذ قرارات مدروسة. سواء كنت مطورًا محترفًا أو مبتدئًا، فإن إنشاء مخططات بيانية جذابة في تطبيقاتك يُحسّن تجربة المستخدم بشكل كبير. سيرشدك هذا البرنامج التعليمي خلال عملية استخدام Aspose.Cells لـ Java لإنشاء المخططات البيانية وتخصيصها بسهولة.
+## إجابات سريعة
+- **What does “generate column chart” mean?** إنه ينشئ تصورًا من نوع شريط عمودي من البيانات الجدولية.  
+- **Which library is required?** Aspose.Cells for Java (متاح نسخة تجريبية مجانية).  
+- **Do I need an Excel installation?** لا، المكتبة تعمل بشكل مستقل عن Microsoft Excel.  
+- **Can I export to formats other than XLS?** نعم – PDF، PNG، SVG، إلخ، عبر `workbook.save()`.  
+- **Is a license mandatory for production?** نعم، يلزم الحصول على ترخيص مشترا أو مؤقت.  
 
-## ما سوف تتعلمه
+## ما هو generate column chart؟
+مخطط عمودي يعرض سلاسل البيانات كأشرطة عمودية، مما يسهل مقارنة القيم عبر الفئات مثل المناطق، الأشهر، أو خطوط المنتجات. تتيح لك Aspose.Cells بناء هذا المخطط بالكامل عبر الكود، مما يمنحك تحكمًا كاملاً في البيانات، التنسيق، وصيغة الإخراج.
 
-- كيفية إعداد Aspose.Cells لـ Java
-- إنشاء أوراق العمل وتسميتها
-- ملء الخلايا بالبيانات
-- إضافة ورقة مخطط وإنشاء مخطط عمودي
-- تخصيص الرسم البياني الخاص بك باستخدام الصور والعناوين وتكوينات السلسلة
-- حفظ المصنف
+## لماذا تستخدم Aspose.Cells لإنشاء chart java؟
+- **No COM interop** – يعمل على أي نظام تشغيل يحتوي على JVM.  
+- **Rich styling options** – صور، تدرجات، أساطير، وخطوط مخصصة.  
+- **High performance** – مناسب لمجموعات البيانات الكبيرة.  
+- **Multiple export formats** – XLS، XLSX، PDF، PNG، وأكثر.  
 
-باستخدام هذه الخطوات، ستتمكن من إنشاء مخططات جذابة بصريًا في وقت قصير.
+## المتطلبات المسبقة
+- **Java Development Kit (JDK) 8+** مثبت.  
+- معرفة أساسية بـ Java وإلمام بمفاهيم Excel.  
 
-## المتطلبات الأساسية
-
-قبل الغوص في Aspose.Cells لـ Java، تأكد من أن لديك:
-
-- **مجموعة تطوير Java (JDK) 8 أو أحدث** تم تثبيته على جهازك.
-- فهم أساسي لبرمجة Java والمعرفة بعمليات Excel.
-  
 ### المكتبات المطلوبة
+أضف Aspose.Cells إلى مشروعك باستخدام أحد المقاطع البرمجية أدناه.
 
-للبدء في استخدام Aspose.Cells، قم بتضمين التبعية التالية في أداة إدارة المشروع الخاصة بك.
-
-#### مافن
+#### Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -48,74 +56,58 @@
 </dependency>
 ```
 
-#### جرادل
+#### Gradle
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-cells', version: '25.3'
 ```
 
 ### الحصول على الترخيص
+توفر Aspose نسخة تجريبية مجانية وترخيصًا مؤقتًا للاختبار المكثف.
 
-يقدم Aspose نسخة تجريبية مجانية، تتيح لك اختبار كامل ميزات المكتبة قبل الشراء. يمكنك أيضًا الحصول على ترخيص مؤقت لإجراء اختبارات موسعة.
-
-- **نسخة تجريبية مجانية**: [تنزيل مجاني](https://releases.aspose.com/cells/java/)
-- **رخصة مؤقتة**: [اطلب هنا](https://purchase.aspose.com/temporary-license/)
+- **Free Trial**: [Download Free](https://releases.aspose.com/cells/java/)  
+- **Temporary License**: [Request Here](https://purchase.aspose.com/temporary-license/)
 
 ## إعداد Aspose.Cells لـ Java
 
-بمجرد أن تصبح بيئتك جاهزة، قم بتهيئة المكتبة عن طريق إنشاء مكتبة جديدة `Workbook` على سبيل المثال. سيكون هذا بمثابة الأساس لرحلة إنشاء المخطط الخاص بنا.
+أولاً، أنشئ كائن `Workbook` – سيكون هذا القماش لبياناتنا ومخططنا.
 
 ```java
 import com.aspose.cells.Workbook;
 
-// تهيئة مصنف جديد
+// Initialize a new Workbook
 Workbook workbook = new Workbook();
 ```
 
-## دليل التنفيذ
+## دليل خطوة بخطوة
 
-### 1. إنشاء ورقة عمل وتسميتها
+### 1. إنشاء وتسمية ورقة عمل
+سنخزن البيانات الخام في ورقة تسمى **Data**.
 
-#### ملخص
-ابدأ بإعداد ورقة البيانات الخاصة بك، والتي ستحتوي على جميع البيانات اللازمة للرسم البياني.
-
-#### خطوات:
-
-**إنشاء مصنف جديد**
 ```java
 import com.aspose.cells.Worksheet;
 
-// إنشاء مثيل جديد للمصنف
+// Create a new Workbook instance
 Workbook workbook = new Workbook();
 ```
 
-**تسمية ورقة العمل**
-
 ```java
-// قم بالوصول إلى ورقة العمل الأولى وقم بتعيين اسمها إلى "البيانات"
+// Access the first worksheet and set its name to "Data"
 Worksheet sheet = workbook.getWorksheets().get(0);
 sheet.setName("Data");
 ```
 
-### 2. ملء الخلايا بالبيانات
-
-#### ملخص
-يعد ملء البيانات في ورقة العمل أمرًا ضروريًا لإنشاء مخططات بيانية ذات معنى.
-
-#### خطوات:
-
-**مجموعة خلايا الوصول**
+### 2. ملء خلايا Excel
+أدرج أسماء المناطق وأرقام المبيعات التي سيعرضها المخطط العمودي.
 
 ```java
 import com.aspose.cells.Cells;
 
-// احصل على مجموعة الخلايا من ورقة "البيانات"
+// Get the cells collection from the "Data" sheet
 Cells cells = sheet.getCells();
 ```
 
-**إدراج البيانات**
-
 ```java
-// أدخل أسماء المناطق وأرقام المبيعات
+// Insert region names and sales figures
 cells.get("A1").putValue("Region");
 cells.get("B1").putValue("Sale");
 
@@ -129,51 +121,33 @@ for (int i = 0; i < regions.length; i++) {
 ```
 
 ### 3. إضافة ورقة مخطط
-
-#### ملخص
-أضف ورقة مخطط مخصصة لإبقاء بياناتك وتصوراتك منفصلة.
-
-#### خطوات:
-
-**إنشاء ورقة الرسم البياني**
+فصل المخطط عن البيانات الخام يحافظ على تنظيم المصنف.
 
 ```java
 import com.aspose.cells.SheetType;
 
-// إضافة ورقة رسم بياني جديدة
+// Add a new chart sheet
 int sheetIndex = workbook.getWorksheets().add(SheetType.CHART);
 Worksheet chartSheet = workbook.getWorksheets().get(sheetIndex);
 
-// قم بتسمية ورقة العمل "المخطط"
+// Name the worksheet "Chart"
 chartSheet.setName("Chart");
 ```
 
-### 4. إنشاء مخطط بياني
-
-#### ملخص
-إنشاء مخطط عمودي لتوضيح بيانات المبيعات حسب المنطقة.
-
-#### خطوات:
-
-**إنشاء مخطط عمودي**
+### 4. إنشاء مخطط عمودي
+الآن نقوم فعليًا بإنشاء كائنات **generate column chart**.
 
 ```java
 import com.aspose.cells.Chart;
 import com.aspose.cells.ChartType;
 
-// إضافة مخطط عمودي جديد إلى ورقة "المخطط"
+// Add a new column chart to the "Chart" sheet
 int chartIndex = chartSheet.getCharts().add(ChartType.COLUMN, 1, 1, 25, 10);
 Chart chart = chartSheet.getCharts().get(chartIndex);
 ```
 
-### 5. تعيين الصورة كخلفية لملء منطقة رسم المخطط
-
-#### ملخص
-قم بتعزيز المظهر البصري للرسم البياني الخاص بك عن طريق إضافة صورة خلفية.
-
-#### خطوات:
-
-**تعيين بيانات الصورة**
+### 5. تعيين صورة كملء خلفية في منطقة الرسم
+يمكن أن تجعل الصورة الخلفية المخطط يبرز.
 
 ```java
 import java.io.FileInputStream;
@@ -188,32 +162,27 @@ chart.getPlotArea().getArea().getFillFormat().setImageData(data);
 chart.getPlotArea().getBorder().setVisible(false);
 ```
 
-### 6. تكوين عنوان الرسم البياني والسلسلة
-
-#### ملخص
-قم بتخصيص الرسم البياني الخاص بك باستخدام عنوان وبيانات السلسلة وموضع الأسطورة.
-
-#### خطوات:
-
-**تعيين عنوان الرسم البياني**
+### 6. تعيين عنوان المخطط
+تخصيص **set chart title** يحسن قابلية القراءة.
 
 ```java
-// تكوين خصائص عنوان الرسم البياني
+// Configure the chart's title properties
 chart.getTitle().setText("Sales By Region");
 chart.getTitle().getFont().setColor(Color.getBlue());
 chart.getTitle().getFont().setBold(true);
 chart.getTitle().getFont().setSize(12);
 ```
 
-**تكوين بيانات السلسلة**
+### 7. تكوين بيانات السلسلة والوسيلة الإيضاحية
+ربط نطاق البيانات بالمخطط وتحديد موضع الوسيلة الإيضاحية.
 
 ```java
-// تعيين بيانات السلسلة والفئة للرسم البياني
+// Set series and category data for the chart
 chart.getNSeries().add("Data!B2:B8", true);
 chart.getNSeries().setCategoryData("Data!A2:A8");
 chart.getNSeries().setColorVaried(true);
 
-// ضع الأسطورة في أعلى الرسم البياني
+// Position the legend at the top of the chart
 import com.aspose.cells.Legend;
 import com.aspose.cells.LegendPositionType;
 
@@ -221,62 +190,57 @@ Legend legend = chart.getLegend();
 legend.setPosition(LegendPositionType.TOP);
 ```
 
-### 7. حفظ المصنف
-
-#### ملخص
-تأكد من حفظ كل عملك الشاق عن طريق تصدير المصنف.
-
-#### خطوات:
-
-**حفظ المصنف**
+### 8. تصدير مصنف Excel
+أخيرًا، **export workbook excel** إلى ملف XLS (أو أي صيغة مدعومة).
 
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "SPAsBFillInChart_out.xls");
 ```
 
-## التطبيقات العملية
-
-- **تقارير الأعمال**:إنشاء تقارير المبيعات والأداء الديناميكية.
-- **أدوات تحليل البيانات**:تعزيز تصور البيانات في البرامج التحليلية.
-- **تكاملات لوحة المعلومات**:دمج المخططات البيانية في لوحات المعلومات للحصول على التحديثات في الوقت الفعلي.
+## تطبيقات عملية
+- **Business Reports** – إنشاء تلقائي لمخططات المبيعات للملفات PDF الشهرية.  
+- **Data Analysis Tools** – تضمين مخططات ديناميكية في لوحات تحليلات مخصصة.  
+- **Enterprise Dashboards** – تحديث صور المخططات فورًا للمراقبة في الوقت الحقيقي.  
 
 ## اعتبارات الأداء
+- تحديثات خلايا على دفعات عند العمل مع مجموعات بيانات كبيرة لتقليل الحمل.  
+- تحرير الموارد (`workbook.dispose()`) إذا قمت بمعالجة العديد من المصنفات في حلقة.  
 
-- تحسين الأداء عن طريق تقليل عدد العمليات على مجموعات البيانات الكبيرة.
-- قم بإدارة الذاكرة بشكل فعال عن طريق التخلص من العناصر غير المستخدمة على الفور.
+## المشكلات الشائعة والحلول
+- **Image not showing** – تحقق من مسار الملف وأن صيغة الصورة (PNG، JPEG) مدعومة.  
+- **Chart appears blank** – تأكد من أن مراجع نطاق البيانات (`Data!B2:B8`) تتطابق مع الخلايا المملوءة.  
+- **Out‑of‑memory errors** – عالج البيانات على دفعات واستدعِ `System.gc()` بعد عمليات حفظ كبيرة.  
 
-## خاتمة
+## الأسئلة المتكررة
 
-لقد أتقنتَ الآن إنشاء وتخصيص المخططات البيانية باستخدام Aspose.Cells في Java. لمواصلة رحلتك، استكشف المزيد من الميزات، مثل نطاقات البيانات الديناميكية أو أنواع المخططات البيانية المختلفة. 
+**Q: كيف يمكنني إضافة سلاسل متعددة إلى مخطط عمودي؟**  
+A: Call `chart.getNSeries().add()` repeatedly with different data ranges, e.g., `"Data!C2:C8"` for a second series.
 
-## قسم الأسئلة الشائعة
+**Q: هل يمكنني تغيير تسميات المحاور؟**  
+A: Yes. Use `chart.getCategoryAxis().setTitle("Regions")` and `chart.getValueAxis().setTitle("Sales")`.
 
-1. **كيف أضيف سلاسل متعددة إلى الرسم البياني؟**
-   - استخدم `add` الطريقة على `NSeries` مع نطاقات متعددة.
+**Q: ما الصيغ التي يمكنني التصدير إليها بخلاف XLS؟**  
+A: Use `workbook.save("chart.pdf")`, `workbook.save("chart.png")`, or `workbook.save("chart.xlsx")` for PDF, PNG, and XLSX respectively.
 
-2. **هل يمكنني تخصيص تسميات محاور الرسم البياني؟**
-   - نعم، قم بالوصول إلى المحاور وتكوينها باستخدام `chart.getCategأوyAxis()` or `chart.getValueAxis()`.
+**Q: هل الترخيص مطلوب لبنات التطوير؟**  
+A: A free trial works for evaluation, but a permanent or temporary license is needed for production deployments.
 
-3. **ماذا لو لم يتم عرض ملف صورتي بشكل صحيح في منطقة الرسم البياني؟**
-   - تأكد من أن مسار الملف صحيح وأن تنسيق الصورة مدعوم بواسطة Aspose.Cells.
+**Q: كيف يمكنني تحسين سرعة العرض لآلاف الصفوف؟**  
+A: Populate cells using `cells.importArray()` and minimize chart redraws by creating the chart after all data is loaded.
 
-4. **كيف أتعامل مع مجموعات البيانات الكبيرة بكفاءة؟**
-   - خذ بعين الاعتبار قراءة البيانات في أجزاء وتحديث الخلايا بشكل تدريجي.
+**آخر تحديث:** 2026-04-08  
+**تم الاختبار باستخدام:** Aspose.Cells 25.3 for Java  
+**المؤلف:** Aspose  
 
-5. **هل من الممكن تصدير المخططات إلى تنسيقات أخرى مثل PDF أو PNG؟**
-   - نعم استخدم `workbook.save()` مع ملحق الملف المناسب للتنسيقات المختلفة.
-
-## موارد
+## الموارد
 
 - [توثيق Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [تنزيل Aspose.Cells](https://releases.aspose.com/cells/java/)
+- [تحميل Aspose.Cells](https://releases.aspose.com/cells/java/)
 - [شراء ترخيص](https://purchase.aspose.com/buy)
-- [نسخة تجريبية مجانية](https://releases.aspose.com/cells/java/)
+- [نسخة تجريبية](https://releases.aspose.com/cells/java/)
 - [طلب ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)
 - [منتدى الدعم](https://forum.aspose.com/c/cells/9)
-
-باتباع هذا الدليل، ستتمكن من إنشاء وتخصيص المخططات البيانية في تطبيقات جافا باستخدام Aspose.Cells بسهولة. برمجة ممتعة!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

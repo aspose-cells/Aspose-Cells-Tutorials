@@ -22,9 +22,7 @@ title: 'Hur du använder WRAPCOLS: Skapa en tvåkolumnslayout i C#'
 url: /sv/net/row-and-column-management/how-to-use-wrapcols-create-a-two-column-layout-in-c/
 ---
 
-placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

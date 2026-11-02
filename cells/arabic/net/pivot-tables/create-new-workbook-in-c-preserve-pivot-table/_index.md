@@ -22,9 +22,7 @@ title: إنشاء مصنف جديد في C# – الحفاظ على جدول ا�
 url: /ar/net/pivot-tables/create-new-workbook-in-c-preserve-pivot-table/
 ---
 
-code blocks: placeholders only.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

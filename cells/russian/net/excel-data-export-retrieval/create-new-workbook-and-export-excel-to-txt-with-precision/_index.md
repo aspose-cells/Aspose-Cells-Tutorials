@@ -22,9 +22,7 @@ title: Создать новую книгу и экспортировать Exce
 url: /ru/net/excel-data-export-retrieval/create-new-workbook-and-export-excel-to-txt-with-precision/
 ---
 
-block placeholders remain.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

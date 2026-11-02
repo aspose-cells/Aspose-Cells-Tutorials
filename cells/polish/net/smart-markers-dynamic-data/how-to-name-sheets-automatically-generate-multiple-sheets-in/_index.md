@@ -22,7 +22,7 @@ title: Jak automatycznie nazywać arkusze – generowanie wielu arkuszy w C#
 url: /pl/net/smart-markers-dynamic-data/how-to-name-sheets-automatically-generate-multiple-sheets-in/
 ---
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

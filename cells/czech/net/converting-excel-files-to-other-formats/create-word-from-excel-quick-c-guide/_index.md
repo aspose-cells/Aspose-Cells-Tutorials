@@ -23,9 +23,7 @@ title: Vytvořte Word z Excelu – Rychlý C# průvodce
 url: /cs/net/converting-excel-files-to-other-formats/create-word-from-excel-quick-c-guide/
 ---
 
-fences, but they are placeholders. The instruction says preserve code blocks fenced. There are none except placeholders. So fine.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

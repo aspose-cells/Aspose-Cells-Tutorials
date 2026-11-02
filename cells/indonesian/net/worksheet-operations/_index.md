@@ -42,6 +42,8 @@ Tanuld meg, hogyan adhatsz hozzá menetes megjegyzéseket Excel-munkafüzetekhez
 Engedd szabadjára az Aspose.Cells for .NET erejét. Tanuld meg, hogyan számolhatod a cellákat egy Excel-munkafüzetben ezzel a lépésről lépésre szóló útmutatóval.
 ### [Cellák kivágása és beillesztése a munkalapon belül](./cut-and-paste-cells/)
 Tanuld meg, hogyan vághatsz ki és illeszthetsz be cellákat Excelben az Aspose.Cells for .NET használatával ezzel az egyszerű, lépésről lépésre haladó oktatóanyaggal.
+### [Buat Lembar Kerja Per Item – Cara Mengulang Lembar Kerja di C#](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Pelajari cara membuat lembar kerja baru untuk setiap item dan mengulangnya secara otomatis menggunakan Aspose.Cells for .NET dengan C#.
 ### [Nemzetközi makrólap észlelése a munkafüzetben](./detect-international-macro-sheet/)
 Fedezze fel, hogyan észlelheti a nemzetközi makrólapokat Excelben az Aspose.Cells for .NET használatával ezzel a részletes, lépésről lépésre szóló útmutatóval. Tökéletes fejlesztők számára.
 ### [Hozzászólások menetének szerkesztése a munkalapon](./edit-threaded-comments/)
@@ -63,7 +65,7 @@ Tanuld meg az Aspose.Cells for .NET használatával Excelben a hozzászóláslá
 ### [Hozzászólások olvasása a munkalapban](./read-threaded-comments/)
 Engedd szabadjára a hozzászólásláncokba rendezett megjegyzések olvasásának erejét az Excelben az Aspose.Cells for .NET segítségével. Merülj el ebben a lépésről lépésre szóló útmutatóban az egyszerű dokumentumkezelés érdekében.
 ### [Hozzászólások menetének eltávolítása a munkalapról](./remove-threaded-comments/)
-Ezzel a lépésről lépésre haladó útmutatóval könnyedén eltávolíthatja a hozzászólásláncokba rendezett megjegyzéseket az Excel-munkafüzetekből az Aspose.Cells for .NET segítségével. Egyszerűsítse az Excel-kezelést.
+Ezzel a lépésről lépésre haladó útmutatóval könnyen eltávolíthatja a hozzászólásláncokba rendezett megjegyzéseket az Excel-munkafüzetekből az Aspose.Cells for .NET segítségével. Egyszerűsítse az Excel-kezelést.
 ### [Színes háttér beállítása az ODS fájlban](./set-ods-colored-background/)
 Tanuld meg, hogyan állíthatsz be színes hátteret ODS fájlokban az Aspose.Cells for .NET használatával, lépésről lépésre bemutatott oktatóanyagokkal és tippekkel.
 ### [Grafikus háttér beállítása ODS fájlban](./set-ods-graphic-background/)
@@ -71,7 +73,11 @@ Tanuld meg, hogyan állíthatsz be grafikus hátteret ODS fájlokban az Aspose.C
 ### [Verziós napló előzményeinek frissítése a megosztott munkafüzetben](./update-revision-log-history/)
 Tanulja meg, hogyan frissítheti a megosztott munkafüzetek módosítási naplójának előzményeit az Aspose.Cells for .NET használatával. Egyszerűsítse az együttműködést és tartsa karban az átlátható dokumentumnyilvántartást.
 ### [Használja az OpenXml Sheet_SheetId tulajdonságát a munkalapon](./utilize-sheet-sheetid-property/)
-Engedd szabadjára az Excel erejét az Aspose.Cells for .NET segítségével. Tanuld meg a munkalap-azonosítók hatékony kezelését lépésről lépésre bemutató útmutatónkkal.
+Engedd szabadjára az Excel erejét az Aspose.Cells for .NET segítségével. Tanuld meg a munkalap-azonosítók hatékony kezelését lépésről lépésre bemutató útmutatóval.
+### [Cara Membuat Worksheet – Panduan Langkah demi Langkah untuk Generasi Excel Dinamis](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
+Pelajari cara membuat worksheet secara dinamis dengan panduan langkah demi langkah menggunakan Aspose.Cells for .NET.
+### [Cara Mengganti Nama Worksheet di C# – Panduan Lengkap](./how-to-rename-worksheet-in-c-complete-guide/)
+Pelajari cara mengganti nama worksheet dalam file Excel menggunakan Aspose.Cells for .NET dengan contoh kode langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

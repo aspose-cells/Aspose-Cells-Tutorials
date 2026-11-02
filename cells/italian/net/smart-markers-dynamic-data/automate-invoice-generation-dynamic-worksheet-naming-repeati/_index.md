@@ -25,11 +25,7 @@ title: Automatizza la generazione delle fatture – Nominazione dinamica dei fog
 url: /it/net/smart-markers-dynamic-data/automate-invoice-generation-dynamic-worksheet-naming-repeati/
 ---
 
-.
-
-Be careful with markdown syntax.
-
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

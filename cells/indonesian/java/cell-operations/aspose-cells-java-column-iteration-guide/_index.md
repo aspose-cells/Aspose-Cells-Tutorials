@@ -12,7 +12,7 @@ url: /id/java/cell-operations/aspose-cells-java-column-iteration-guide/
 weight: 1
 ---
 
- final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

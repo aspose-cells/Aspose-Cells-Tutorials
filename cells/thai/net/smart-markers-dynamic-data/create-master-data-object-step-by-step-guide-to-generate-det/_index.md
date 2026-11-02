@@ -22,8 +22,6 @@ title: สร้างวัตถุข้อมูลหลัก – คู�
 url: /th/net/smart-markers-dynamic-data/create-master-data-object-step-by-step-guide-to-generate-det/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

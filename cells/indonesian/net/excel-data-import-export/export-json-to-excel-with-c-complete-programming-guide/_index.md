@@ -25,29 +25,7 @@ title: 'Ekspor JSON ke Excel dengan C#: Panduan Pemrograman Lengkap'
 url: /id/net/excel-data-import-export/export-json-to-excel-with-c-complete-programming-guide/
 ---
 
-spor json ke excel\")"
-
-Paragraph after image.
-
-"*The image above demonstrates the final worksheet after processing the sample JSON.*" translate.
-
-"## Conclusion" -> "## Kesimpulan"
-
-Paragraph.
-
-Translate.
-
-"Next steps? Try adding formulas, charts, or even multiple worksheets to the same file. Dive into Aspose.Cells’ rich formatting API and turn raw data into polished reports. And if you’re pulling JSON from a live API, wrap the call in `HttpClient` and feed the response directly into the processor."
-
-Translate.
-
-"Got questions or a tricky JSON structure you can’t crack? Drop a comment below—happy coding!" translate.
-
-Then close shortcodes.
-
-Make sure to keep all shortcodes unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

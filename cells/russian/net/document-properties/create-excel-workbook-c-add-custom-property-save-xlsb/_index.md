@@ -25,10 +25,6 @@ title: Создание книги Excel на C# – добавление по
 url: /ru/net/document-properties/create-excel-workbook-c-add-custom-property-save-xlsb/
 ---
 
-Be careful to keep markdown formatting.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

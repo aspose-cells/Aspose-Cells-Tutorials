@@ -95,7 +95,8 @@
 ### [ตัดช่องว่างที่ซ้ำซ้อนออกจาก HTML โดยใช้ Aspose.Cells สำหรับ .NET: คู่มือฉบับสมบูรณ์](./trim-redundant-spaces-html-aspose-cells-net)
 เรียนรู้วิธีการตัดช่องว่างที่ซ้ำซ้อนออกจากข้อมูล HTML อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ .NET เพื่อเสริมทักษะการนำเข้าและจัดการข้อมูล Excel ของคุณ
 
-
+### [วิธีสร้างอาเรย์ใน Excel ด้วย C# – คู่มือขั้นตอนโดยละเอียด](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+เรียนรู้วิธีสร้างอาเรย์ใน Excel ด้วย C# อย่างละเอียดด้วยขั้นตอนที่ชัดเจน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

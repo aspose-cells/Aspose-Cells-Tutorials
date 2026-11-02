@@ -22,22 +22,7 @@ title: C#로 Excel 워크북 만들기 – 단계별 가이드
 url: /ko/net/excel-workbook/create-excel-workbook-c-step-by-step-guide/
 ---
 
-`workbook.CalculateFormula()` 사용."
-
-* Exporting the workbook to PDF or CSV for reporting pipelines.  
-Translate: "* 보고 파이프라인을 위한 워크북을 PDF 또는 CSV로 내보내기."
-
-Final paragraph: "Give those ideas a try, experiment with other Excel functions, and let the automation do the heavy lifting. Happy coding!"
-
-Translate: "위 아이디어들을 시도해보고, 다른 Excel 함수들을 실험해보며 자동화가 무거운 작업을 대신하도록 하세요. 즐거운 코딩 되세요!"
-
-Then closing shortcodes.
-
-Make sure to keep all shortcodes and code block placeholders exactly.
-
-Also ensure no extra spaces causing mismatch? Should be fine.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -45,6 +45,8 @@ Lär dig skapa redigerbara områden i Excel-kalkylblad med hjälp av Aspose.Cell
 Lär dig hur du skyddar celler och områden i ett Excel-kalkylblad med Aspose.Cells för .NET. Följ den här steg-för-steg-guiden för att säkra dina kalkylblad.
 ### [Skydda hela kalkylbladet med lösenord med Aspose.Cells](./protect-worksheet-password/)
 Lär dig hur du skyddar dina Excel-kalkylblad med lösenordsskydd med Aspose.Cells för .NET i den här omfattande steg-för-steg-handledningen.
+### [Lägg till lösenord i Excel – Komplett guide för skydd av blad](./add-password-to-excel-complete-sheet-protection-guide/)
+Lär dig hur du skyddar ett helt kalkylblad med lösenord i Excel med Aspose.Cells för .NET genom steg‑för‑steg‑kodexempel.
 ### [Skydda kolumner i kalkylblad med Aspose.Cells](./protect-columns/)
 Lär dig hur du skyddar kolumner i Excel med Aspose.Cells för .NET. Följ den här detaljerade handledningen för att effektivt låsa kolumner i Excel-ark.
 ### [Skydda specifika celler i kalkylblad med hjälp av Aspose.Cells](./protect-specific-cells/)

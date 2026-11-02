@@ -19,23 +19,7 @@ title: تحليل JSON المتداخل C# – إنشاء حمولة JSON C#
 url: /ar/net/smart-markers-dynamic-data/parse-nested-json-c-create-json-payload-c/
 ---
 
-similarly.
-
-Make sure to keep bold formatting.
-
-Proceed through sections.
-
-Bullet list under "What You’ll Need". Translate bullet items.
-
-Code block placeholders remain unchanged.
-
-Quote block.
-
-Proceed.
-
-At the end, keep image markdown unchanged.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

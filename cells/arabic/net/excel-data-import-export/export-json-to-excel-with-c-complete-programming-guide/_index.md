@@ -23,11 +23,7 @@ title: 'تصدير JSON إلى Excel باستخدام C#: دليل برمجي ش
 url: /ar/net/excel-data-import-export/export-json-to-excel-with-c-complete-programming-guide/
 ---
 
-top button shortcode.
-
-Now produce final translated content with same markdown.
-
-Let's construct.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

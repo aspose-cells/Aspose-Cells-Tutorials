@@ -24,12 +24,6 @@ title: Hur man formaterar valuta i en rutnätskolumn – steg‑för‑steg‑gu
 url: /sv/net/number-and-display-formats-in-excel/how-to-format-currency-in-a-grid-column-step-by-step-guide/
 ---
 
-we preserve the horizontal rules "---". Keep them.
-
-Now produce final content with all translations.
-
-Let's assemble.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

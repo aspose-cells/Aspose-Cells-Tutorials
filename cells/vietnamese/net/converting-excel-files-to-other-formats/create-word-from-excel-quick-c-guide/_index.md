@@ -23,17 +23,7 @@ title: Tạo Word từ Excel – Hướng dẫn nhanh C#
 url: /vi/net/converting-excel-files-to-other-formats/create-word-from-excel-quick-c-guide/
 ---
 
-Word reports!" translate.
-
-Then closing shortcodes.
-
-Now produce final content.
-
-Be careful to keep code block placeholders exactly as they are, including braces.
-
-Also keep markdown formatting.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

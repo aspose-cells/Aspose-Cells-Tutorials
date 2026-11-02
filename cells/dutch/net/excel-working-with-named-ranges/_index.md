@@ -36,6 +36,7 @@ Deze methode is ideaal voor gericht gegevensbeheer, zodat u nauwkeurig kunt werk
 Ontgrendel de kracht van Excel door toegang te krijgen tot benoemde bereiken met onze eenvoudige handleiding met Aspose.Cells voor .NET. Perfect voor gegevensbeheer.
 ### [Toegang tot een specifiek benoemd bereik in Excel](./access-specific-named-range/)
 Leer hoe u toegang krijgt tot specifieke benoemde bereiken in Excel met behulp van Aspose.Cells voor .NET met deze uitgebreide, stapsgewijze zelfstudie en voorbeeldcode.
+### [Definieer een benoemd bereik in Excel met C# – maak een werkmap](./define-named-range-in-excel-with-c-create-workbook/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

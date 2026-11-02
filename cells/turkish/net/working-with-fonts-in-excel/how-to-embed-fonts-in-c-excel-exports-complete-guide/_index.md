@@ -25,8 +25,6 @@ title: C# Excel Dışa Aktarımlarında Yazı Tiplerini Gömme – Tam Rehber
 url: /tr/net/working-with-fonts-in-excel/how-to-embed-fonts-in-c-excel-exports-complete-guide/
 ---
 
-.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

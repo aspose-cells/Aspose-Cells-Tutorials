@@ -22,19 +22,12 @@ Aspose.Cells for .NET, Excel şablonlarıyla çalışmak ve profesyonel raporlar
 ## Şablon Tasarımı ve İşleme
 
 ### Veri Bağlama için Akıllı İşaretleyiciler
-- [Akıllı İşaretleyicileri Kullanarak Dinamik Excel Raporları Oluşturun](./generate-excel-reports-aspose-cells-net-smart-markers) - Akıllı işaretçileriyle veri odaklı raporlar oluşturun
-- [Excel Rapor Otomasyonu için Master SmartMarkers](./dynamic-excel-reports-aspose-cells-net) - Gelişmiş akıllı işaretleme tekniklerini öğrenin
-- [Akıllı İşaretleyicilerle Ana Veri Entegrasyonu](./mastering-data-integration-aspose-cells-smart-markers) - Akıllı işaretleyicilerle verimli veri bağlama
 
 ### Profesyonel Rapor Oluşturma
-- [Dinamik Excel Raporlarında Ustalaşın](./aspose-cells-net-dynamic-excel-reports-guide) - Kapsamlı Excel raporları oluşturun
-- [SmartMarkers ile Çalışma Kitabı Tasarımı](./master-workbook-design-aspose-cells-smartmarkers) - Verimli raporlama şablonları tasarlayın
-- [Grafiklerle Ana Excel Raporları](./dynamic-excel-reports-aspose-cells-net) - Raporlara görselleştirmeler ekleyin
 
 ## Meta Veri Yönetimi ve Belge Özellikleri
 
 ### Belge Bilgileri
-- [Ana Çalışma Kitabı Meta Verileri](./mastering-workbook-metadata-aspose-cells-net) - Belge özelliklerini ve meta verilerini yönetin
 
 ## Eğitimler Listesi
 
@@ -58,6 +51,26 @@ Bu kapsamlı kılavuzla Aspose.Cells .NET Smart Markers'ı kullanarak veri enteg
 
 ### [C# ile Şablondan Çalışma Kitabı Oluşturma – Adım Adım Kılavuz](./create-workbook-from-template-in-c-step-by-step-guide/)
 C# kodu kullanarak bir Excel şablonundan çalışma kitabı oluşturmayı ve veri bağlamayı öğrenin.
+
+### [C# ile Excel Raporu Oluşturma – Adım Adım Kılavuz](./create-excel-report-in-c-step-by-step-guide/)
+C# kullanarak Excel raporu oluşturmayı adım adım öğrenin; veri bağlama, biçimlendirme ve dosya kaydetme süreçleri anlatılır.
+
+### [Şablondan Excel Oluşturma – .NET Geliştiricileri için Adım Adım Kılavuz](./create-excel-from-template-step-by-step-guide-for-net-develo/)
+.NET geliştiricileri için şablon kullanarak Excel dosyası oluşturmayı adım adım öğrenin.
+
+### [Excel Şablon Dosyasını Kaydetme – Adım Adım Kılavuz](./how-to-save-excel-template-file-step-by-step-guide/)
+Excel şablon dosyalarını kaydetme sürecini adım adım öğrenin ve raporlarınızı otomatikleştirin.
+
+### [Excel'i Mail Birleştirme İçin Nasıl Kullanılır – Tam C# Kılavuzu](./how-to-use-excel-for-mail-merge-complete-c-guide/)
+C# ile Excel dosyalarını mail birleştirme için nasıl hazırlayacağınızı ve otomatikleştireceğinizi öğrenin.
+### [Aspose.Cells ile Fatura Oluşturma – Tam Programlama Kılavuzu](./how-to-generate-invoice-with-aspose-cells-complete-programmi/)
+Aspose.Cells kullanarak fatura oluşturmayı, hücre doldurmayı ve dosyayı kaydetmeyi adım adım öğrenin.
+
+### [C# ile Excel şablonunu işleme ve sayfaları otomatik olarak adlandırma](./how-to-process-excel-template-and-automatically-name-sheets)
+
+### [C# Şablonu Kullanarak Veriyi Excel'e Aktarma – Adım Adım Kılavuz](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
+C# şablonu kullanarak veriyi Excel'e aktarmayı adım adım öğrenin.
+### [Excel'de Dizi Genişletme ve Şablon Doldurma](./how-to-expand-array-in-excel-and-populate-a-template)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

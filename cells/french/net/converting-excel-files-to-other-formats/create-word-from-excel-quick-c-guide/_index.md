@@ -24,11 +24,7 @@ title: Créer Word à partir d'Excel – Guide rapide C#
 url: /fr/net/converting-excel-files-to-other-formats/create-word-from-excel-quick-c-guide/
 ---
 
-Keep everything.
-
-Now produce final content with same structure.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,9 +23,7 @@ title: 'Hoe WRAPCOLS te gebruiken: Maak een tweekolomsindeling in C#'
 url: /nl/net/row-and-column-management/how-to-use-wrapcols-create-a-two-column-layout-in-c/
 ---
 
-.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

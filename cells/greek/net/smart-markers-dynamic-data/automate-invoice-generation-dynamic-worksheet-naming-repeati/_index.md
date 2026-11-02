@@ -25,14 +25,6 @@ title: Αυτοματοποιήστε τη δημιουργία τιμολογί
 url: /el/net/smart-markers-dynamic-data/automate-invoice-generation-dynamic-worksheet-naming-repeati/
 ---
 
-translate each paragraph.
-
-Will produce Greek text.
-
-Will keep code block placeholders.
-
-Let's write final answer.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

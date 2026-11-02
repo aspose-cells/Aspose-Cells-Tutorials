@@ -1,0 +1,7 @@
+Title: How to add comment to Excel using Aspose.Cells smart markers
+Slug: how-to-add-comment-to-excel-using-aspose-cells-smart-markers
+Category: excel-comment-annotation
+ProcessedDate: 2026-09-28T02:39:55.103605
+SourceRepo: AI Search API
+Keywords: add comment to excel
+PRNumber: 171

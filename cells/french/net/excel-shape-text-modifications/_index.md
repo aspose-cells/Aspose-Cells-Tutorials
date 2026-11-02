@@ -62,12 +62,16 @@ Apprenez à convertir Smart Art en forme de groupe dans Excel à l'aide d'Aspose
 Découvrez comment placer des formes au premier plan ou en arrière-plan dans Excel avec Aspose.Cells pour .NET. Ce guide propose un tutoriel étape par étape avec des conseils.
 ### [Spécifier les polices d'Extrême-Orient et latines dans Excel](./specify-far-east-latin-font-excel/)
 Apprenez à spécifier les polices d'Extrême-Orient et latines dans Excel à l'aide d'Aspose.Cells pour .NET dans ce didacticiel complet et facile à suivre.
+### [Modifier la taille de police d'une zone de texte dans Excel avec C# – Guide complet](./change-textbox-font-size-in-excel-with-c-complete-guide/)
+Apprenez à modifier la taille de police d'une zone de texte dans Excel à l'aide d'Aspose.Cells pour .NET et C#. Guide complet étape par étape.
 ### [Définir les marges pour un commentaire ou une forme dans Excel](./set-margins-comment-shape-excel/)
 Apprenez à définir des marges pour les commentaires et les formes dans Excel avec Aspose.Cells pour .NET. Guide étape par étape inclus pour une mise en œuvre facile.
 ### [Accéder aux formes non primitives dans Excel](./access-non-primitive-shape-excel/)
 Apprenez à accéder aux formes non primitives dans Excel avec Aspose.Cells pour .NET. Découvrez des méthodologies étape par étape dans ce guide complet.
 ### [Actualiser l'objet OLE dans Excel](./refresh-ole-object-excel/)
 Apprenez à actualiser les objets OLE dans Excel à l'aide d'Aspose.Cells pour .NET avec un guide étape par étape, améliorant ainsi vos compétences en automatisation Excel de manière transparente.
+### [Rendre le texte d'une zone de texte gras dans Excel avec C# – Guide étape par étape](./make-textbox-text-bold-in-excel-with-c-step-by-step-guide/)
+Apprenez à mettre en gras le texte d'une zone de texte dans Excel en utilisant C# et Aspose.Cells pour .NET. Guide complet pas à pas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

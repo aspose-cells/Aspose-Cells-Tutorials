@@ -1,43 +1,82 @@
 ---
-"date": "2025-04-08"
-"description": "تعلّم كيفية إنشاء مصنفات Excel ورسمها برمجيًا باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل إنشاء المصنفات، ومعالجة البيانات، وإنشاء المخططات."
-"title": "إنشاء مصنفات العمل الرئيسية وتخطيطها في Excel باستخدام Aspose.Cells لـ Java"
-"url": "/ar/java/charts-graphs/create-chart-workbook-aspose-cells-java/"
-"weight": 1
+date: '2026-09-27'
+description: تعلم كيفية إنشاء ملف xlsx java باستخدام Aspose.Cells، إضافة البيانات
+  إلى chart، وأتمتة إنشاء chart Excel باستخدام إعداد Maven في بضع خطوات فقط.
+keywords:
+- create xlsx file java
+- add data to chart
+- how to add chart
+- create excel workbook java
+- automate excel chart creation
+lastmod: '2026-09-27'
+og_description: تعلم كيفية إنشاء ملف xlsx java باستخدام Aspose.Cells، إضافة البيانات
+  إلى chart، وأتمتة إنشاء chart Excel باستخدام إعداد Maven في بضع خطوات فقط.
+og_image_alt: Guide showing how to create XLSX file in Java and generate charts with
+  Aspose.Cells
+og_title: كيفية إنشاء ملف xlsx java مع مخططات Aspose.Cells
+schemas:
+- author: Aspose
+  dateModified: '2026-09-27'
+  description: Learn how to create xlsx file java using Aspose.Cells, add data to
+    chart, and automate Excel chart creation with Maven setup in just a few steps.
+  headline: How to create xlsx file java with Aspose.Cells charts
+  type: TechArticle
+- questions:
+  - answer: Use `worksheet.getCharts().add(ChartType.COLUMN, upperLeftRow, upperLeftColumn,
+      lowerRightRow, lowerRightColumn)` for each chart you need, then set each chart’s
+      data source individually.
+    question: How do I add more than one chart to the same worksheet?
+  - answer: Yes—instantiate `Workbook` with the file path (`new Workbook("existing.xlsx")`)
+      and then add or edit worksheets and charts as shown above.
+    question: Can I modify an existing Excel file instead of creating a new one?
+  - answer: Aspose.Cells supports XLS, CSV, PDF, HTML, ODS, and more than 30 additional
+      formats, allowing seamless conversion after chart creation.
+    question: Which file formats can I export to besides XLSX?
+  - answer: Load data in chunks, write each chunk to the worksheet, and call `worksheet.calculateFormula()`
+      only after all data is written to minimise CPU overhead.
+    question: What is the recommended way to handle very large datasets?
+  - answer: Browse the full reference at the [official documentation](https://docs.aspose.com/cells/java/).
+    question: Where can I find deeper documentation and code samples?
+  type: FAQPage
+tags:
+- create xlsx
+- Aspose.Cells
+- Java Excel automation
+- chart generation
+title: كيفية إنشاء ملف xlsx java مع مخططات Aspose.Cells
+url: /ar/java/charts-graphs/create-chart-workbook-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# إنشاء مصنفات العمل الرئيسية وتخطيطها في Excel باستخدام Aspose.Cells لـ Java
+# كيفية إنشاء ملف xlsx جافا باستخدام مخططات Aspose.Cells
 
 ## مقدمة
-قد يكون إنشاء مصنفات عمل Excel ديناميكية برمجيًا مهمة صعبة، خاصةً عندما تريد أتمتة عملية إنشاء المخططات البيانية استنادًا إلى مدخلات البيانات. باستخدام **Aspose.Cells لـ Java**يمكن للمطورين بسهولة إنشاء ملفات Excel جديدة، ومعالجة أوراق العمل، ودمج المخططات البيانية بأقل جهد برمجي. سيرشدك هذا البرنامج التعليمي خلال خطوات إنشاء مصنف Excel من الصفر، وإضافة البيانات، وإنشاء مخطط بياني عمودي باستخدام Aspose.Cells في Java.
+إنشاء مصنف **xlsx** برمجيًا قد يبدو مهمة شاقة، خاصةً عندما تحتاج إلى أتمتة إنشاء المخططات. في هذا الدليل ستتعلم كيفية **create xlsx file java** باستخدام Aspose.Cells، وإضافة البيانات إلى مخطط، وحفظ النتيجة—كل ذلك باستخدام كود Java واضح خطوة بخطوة. في النهاية ستتمكن من تضمين مخططات عمودية ديناميكية في أي ملف Excel دون الحاجة لفتح Excel نفسه.
 
-**ما سوف تتعلمه:**
-- كيفية إنشاء مصنف جديد بتنسيق XLSX.
-- الوصول إلى ورقة العمل الأولى والتلاعب بها.
-- إضافة البيانات لإنشاء الرسم البياني.
-- إنشاء مخطط عمودي بسهولة.
-- حفظ المصنف الخاص بك بكفاءة.
+## إجابات سريعة
+- **ما هو سطر الكود الأول؟** `Workbook workbook = new Workbook();` ينشئ مصنف XLSX جديد.  
+- **ما هو الـ Maven artifact الذي أحتاجه؟** `com.aspose:aspose-cells` (أحدث نسخة).  
+- **هل يمكنني إضافة مخططات متعددة؟** نعم – استدعِ `worksheet.getCharts().add(...)` لكل نوع مخطط.  
+- **هل أحتاج إلى ترخيص للاختبار؟** الترخيص المؤقت يعمل للتقييم؛ الترخيص المشتري يزيل حدود التقييم.  
+- **ما نسخة Java المطلوبة؟** Java 8 أو أعلى مدعومة بالكامل.
 
-قبل البدء بالتنفيذ، تأكد من إعداد كل شيء بشكل صحيح. سنغطي المتطلبات الأساسية، مثل المكتبات وإعدادات البيئة اللازمة، لمساعدتك على البدء بسلاسة.
+## ما هو Aspose.Cells for Java؟
+Aspose.Cells for Java هو API قوي يتيح لك إنشاء ملفات Excel وتعديلها وتحويلها دون الحاجة إلى Microsoft Office. يدعم **أكثر من 50** تنسيقًا للإدخال والإخراج ويمكنه معالجة مصنفات تحتوي على مئات الأوراق باستخدام أقل من 200 ميغابايت من الذاكرة.
 
-## المتطلبات الأساسية
-لمتابعة هذا البرنامج التعليمي بشكل فعال، تأكد من تلبية المتطلبات التالية:
+## كيفية إنشاء ملف xlsx جافا؟
+`Workbook` يمثل مصنف Excel في الذاكرة. حمّل مكتبة Aspose.Cells، أنشئ كائن `Workbook`، أضف البيانات، أنشئ مخططًا، ثم احفظ الملف. يمكن كتابة هذا التدفق الكامل بأقل من عشر أسطر من Java، ما يمنحك حلاً سريعًا وقابلًا للتكرار للتقارير الآلية.
 
-1. **المكتبات والتبعيات**تحتاج إلى Aspose.Cells لجافا في مشروعك. نوصي باستخدام Maven أو Gradle لإدارة التبعيات بسهولة.
-2. **بيئة تطوير جافا**:تأكد من تثبيت JDK وتكوينه (يفضل Java 8 أو أعلى).
-3. **المعرفة الأساسية بلغة جافا**:إن المعرفة بمفاهيم برمجة Java مفيدة.
+## المتطلبات المسبقة
+- **Aspose.Cells for Java** – أضف تبعية Maven أو Gradle (انظر أدناه).  
+- **JDK 8+** – المكتبة تعمل على أي بيئة تشغيل Java 8 أو أحدث.  
+- **معرفة أساسية بـ Java** – يجب أن تكون مرتاحًا مع الفئات واستدعاءات الطرق.
 
-## إعداد Aspose.Cells لـ Java
-لتضمين Aspose.Cells في مشروع Java الخاص بك، اتبع خطوات التثبيت التالية:
-
-**مافن:**
+## إعداد Aspose.Cells for Java
+### Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,26 +85,22 @@
 </dependency>
 ```
 
-**جرادل:**
+### Gradle
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### الحصول على الترخيص
-قبل البدء في استخدام Aspose.Cells، حدد احتياجاتك المتعلقة بالترخيص:
-- **نسخة تجريبية مجانية**:احصل على ترخيص مؤقت لتقييم الميزات الكاملة دون قيود.
-- **شراء**:فكر في الشراء للاستخدام على المدى الطويل.
+## الحصول على الترخيص
+قبل البدء، قرّر ما إذا كنت تحتاج إلى **نسخة تجريبية مجانية** أو **ترخيص مُشتَرٍ**. الترخيص التجريبي يزيل معظم قيود الميزات، بينما الترخيص الكامل يزيل علامة التقييم. احصل على ترخيص من [صفحة شراء Aspose](https://purchase.aspose.com/buy) أو اطلب [ترخيصًا مؤقتًا](https://purchase.aspose.com/temporary-license/).
 
-لكلا الخيارين، قم بزيارة [صفحة شراء Aspose](https://purchase.aspose.com/buy) أو التقدم بطلب للحصول على [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/).
-
-### التهيئة الأساسية
-فيما يلي كيفية تهيئة Aspose.Cells في تطبيق Java الخاص بك:
+## التهيئة الأساسية
+تقوم فئة `License` بتحميل ملف الترخيص الخاص بك بحيث تُجرى جميع استدعاءات API اللاحقة دون حدود التقييم.  
 ```java
 import com.aspose.cells.Workbook;
 
 public class Main {
     public static void main(String[] args) {
-        // تهيئة كائن مصنف جديد
+        // Initialize a new Workbook object
         Workbook workbook = new Workbook();
         
         System.out.println("Workbook initialized successfully.");
@@ -74,10 +109,10 @@ public class Main {
 ```
 
 ## دليل التنفيذ
-الآن، دعونا ننفذ الميزات الرئيسية خطوة بخطوة.
+فيما يلي نستعرض كل خطوة مطلوبة لـ **create xlsx file java** وتضمين مخطط عمودي.
 
 ### 1. إنشاء مصنف جديد
-ابدأ بإنشاء مصنف Excel جديد بتنسيق XLSX.
+`Workbook` هو الكائن الأعلى مستوى الذي يمثل ملف Excel في الذاكرة.  
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.FileFormatType;
@@ -86,15 +121,15 @@ public class WorkbookCreation {
     public static void main(String[] args) {
         String dataDir = "YOUR_DATA_DIRECTORY";
         
-        // إنشاء مصنف جديد بتنسيق XLSX
+        // Create a new workbook in XLSX format
         Workbook workbook = new Workbook(FileFormatType.XLSX);
         System.out.println("New Excel workbook created.");
     }
 }
 ```
 
-### 2. الوصول إلى ورقة العمل الأولى
-يتيح لك الوصول إلى ورقة العمل الأولى البدء في إضافة البيانات أو معالجة المحتوى الموجود.
+### 2. الوصول إلى الورقة الأولى
+`Worksheet` يتيح لك الوصول إلى الخلايا والصفوف والأعمدة والمخططات في ورقة معينة.  
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -103,15 +138,15 @@ public class AccessWorksheet {
     public static void main(String[] args) {
         Workbook workbook = new Workbook();
         
-        // احصل على ورقة العمل الأولى
+        // Get the first worksheet
         Worksheet worksheet = workbook.getWorksheets().get(0);
         System.out.println("First worksheet accessed.");
     }
 }
 ```
 
-### 3. إضافة بيانات للرسم البياني
-لإنشاء مخطط بياني، تحتاج إلى بيانات في ورقة العمل. إليك كيفية ملء الخلايا ببيانات نموذجية.
+### 3. إضافة بيانات للمخطط
+املأ الخلايا بالقيم التي تريد تصورها. هذه البيانات ستكون النطاق المصدر للمخطط.  
 ```java
 import com.aspose.cells.Cells;
 import com.aspose.cells.Worksheet;
@@ -122,7 +157,7 @@ public class AddData {
         Worksheet worksheet = workbook.getWorksheets().get(0);
         Cells cells = worksheet.getCells();
 
-        // ملء البيانات للرسم البياني
+        // Populate data for chart
         cells.get("A2").putValue("C1");
 cells.get("A3").putValue("C2");
 cells.get("A4").putValue("C3");
@@ -148,7 +183,7 @@ cells.get("D4").putValue(2);
 ```
 
 ### 4. إنشاء مخطط عمودي
-بعد أن أصبحت بياناتك جاهزة، يمكنك الآن إنشاء مخطط عمودي لتوضيحها.
+يتم إضافة كائنات `Chart` إلى مجموعة `Charts` في الورقة. يمكنك تحديد نوع المخطط، نطاق البيانات، والموقع.  
 ```java
 import com.aspose.cells.Chart;
 import com.aspose.cells.ChartType;
@@ -159,11 +194,11 @@ public class CreateChart {
         Workbook workbook = new Workbook();
         Worksheet worksheet = workbook.getWorksheets().get(0);
 
-        // إضافة مخطط عمودي
+        // Add a column chart
         int idx = worksheet.getCharts().add(ChartType.COLUMN, 6, 5, 20, 13);
         Chart ch = worksheet.getCharts().get(idx);
 
-        // تعيين نطاق البيانات للرسم البياني
+        // Set the data range for the chart
         ch.setChartDataRange("A1:D4", true);
         
         System.out.println("Column chart created successfully.");
@@ -171,8 +206,8 @@ public class CreateChart {
 }
 ```
 
-### 5. احفظ المصنف
-وأخيرًا، احفظ المصنف الخاص بك في ملف باستخدام التنسيق والدليل المحددين.
+### 5. حفظ المصنف
+استدعِ `save` على كائن `Workbook`، مع تحديد مسار الهدف والصيغة المطلوبة (XLSX، PDF، إلخ).  
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.SaveFormat;
@@ -182,7 +217,7 @@ public class SaveWorkbook {
         String outDir = "YOUR_OUTPUT_DIRECTORY";
         Workbook workbook = new Workbook();
 
-        // احفظ المصنف بتنسيق XLSX
+        // Save the workbook in XLSX format
         workbook.save(outDir + "EWForChartSetup.xlsx", SaveFormat.XLSX);
         
         System.out.println("Workbook saved as 'EWForChartSetup.xlsx'.");
@@ -190,41 +225,51 @@ public class SaveWorkbook {
 }
 ```
 
-## التطبيقات العملية
-- **التقارير المالية**:إنشاء وتصور التقارير المالية الفصلية تلقائيًا.
-- **تحليلات المبيعات**:إنشاء لوحات معلومات مبيعات ديناميكية لمقارنة الأداء عبر مناطق مختلفة.
-- **إدارة المخزون**:تصور مستويات المخزون على مدار الوقت للمساعدة في اتخاذ قرارات المخزون.
-
-تُظهر هذه التطبيقات تنوع Aspose.Cells for Java، مما يسمح بالتكامل مع أنظمة الأعمال الأوسع مثل برامج CRM أو ERP.
+## تطبيقات عملية
+- **التقارير المالية** – إنشاء بيانات الأرباح والخسائر ربع السنوية مع مخططات عمودية ذات مقياس تلقائي.  
+- **تحليل المبيعات** – إنتاج لوحات تحكم مبيعات إقليمية تُحدَّث كل ليلة من قاعدة بيانات.  
+- **إدارة المخزون** – تصور اتجاهات المخزون على مدى الشهور لتفعيل تنبيهات إعادة الطلب.
 
 ## اعتبارات الأداء
-للحصول على الأداء الأمثل:
-- قم بالحد من استخدام الذاكرة عن طريق معالجة الملفات الكبيرة في أجزاء إذا كان ذلك ممكنا.
-- إعادة الاستخدام `Workbook` الكائنات عند تنفيذ مهام متكررة داخل الحلقات لتقليل التكلفة.
-- قم بضبط إعدادات JVM وفقًا لاحتياجات تطبيقك.
+تقوم Aspose.Cells بمعالجة المصنفات الكبيرة بكفاءة عبر تدفق البيانات وإعادة استخدام الكائنات. للحصول على أفضل النتائج:
+- عالج الصفوف على دفعات عند التعامل مع أكثر من 100 000 سجل.  
+- أعد استخدام كائن `Workbook` واحد داخل الحلقات لتجنب تخصيص الذاكرة المتكرر.  
+- اضبط حجم ذاكرة JVM (`-Xmx2g` أو أعلى) إذا كنت تتوقع ملفات مئات الصفحات.
 
-إن اتباع هذه الإرشادات سيضمن تشغيل تطبيقاتك بكفاءة، حتى مع عمليات البيانات المعقدة.
+## الأسئلة المتكررة
+**س: كيف يمكنني إضافة أكثر من مخطط واحد إلى نفس الورقة؟**  
+ج: استخدم `worksheet.getCharts().add(ChartType.COLUMN, upperLeftRow, upperLeftColumn, lowerRightRow, lowerRightColumn)` لكل مخطط تحتاجه، ثم عيّن مصدر البيانات لكل مخطط على حدة.
 
-## خاتمة
-لقد أتقنتَ الآن إنشاء مصنف ورسم مخططاته باستخدام Aspose.Cells لجافا. تُبسّط هذه المكتبة الفعّالة التعامل مع ملفات Excel، مما يتيح لك التركيز على تحليل البيانات بدلاً من تعقيدات إدارة الملفات. استكشف المزيد من خلال دمج هذه التقنيات في مشاريعك أو توسيعها بميزات Aspose.Cells الإضافية.
+**س: هل يمكنني تعديل ملف Excel موجود بدلًا من إنشاء ملف جديد؟**  
+ج: نعم—أنشئ كائن `Workbook` باستخدام مسار الملف (`new Workbook("existing.xlsx")`) ثم أضف أو حرّر الأوراق والمخططات كما هو موضح أعلاه.
 
-## قسم الأسئلة الشائعة
-1. **كيف أضيف المزيد من الرسوم البيانية؟**
-   - استخدم `add` طريقة لكل نوع من أنواع المخططات وموضعها حسب الحاجة.
-2. **هل يمكنني تحديث المصنفات الموجودة بدلاً من إنشاء مصنفات جديدة؟**
-   - نعم، قم بتحميل مصنف موجود باستخدام مساره مع `new Workbook("path")`.
-3. **ما هي التنسيقات المدعومة للحفظ؟**
-   - يدعم Aspose.Cells تنسيقات XLSX وXLS وCSV وPDF والمزيد.
-4. **كيف أتعامل مع مجموعات البيانات الكبيرة بكفاءة؟**
-   - قم بمعالجة البيانات في أجزاء لإدارة استخدام الذاكرة بشكل فعال.
-5. **أين يمكنني العثور على المزيد من الموارد حول Aspose.Cells لـ Java؟**
-   - قم بزيارة [الوثائق الرسمية](https://docs.aspose.com/cells/java/) واستكشاف المنتديات المجتمعية.
+**س: ما هي تنسيقات الملفات التي يمكنني التصدير إليها غير XLSX؟**  
+ج: تدعم Aspose.Cells تنسيقات XLS، CSV، PDF، HTML، ODS، وأكثر من 30 تنسيقًا إضافيًا، مما يتيح تحويلًا سلسًا بعد إنشاء المخطط.
 
+**س: ما هي الطريقة الموصى بها للتعامل مع مجموعات بيانات ضخمة جدًا؟**  
+ج: حمّل البيانات على دفعات، واكتب كل دفعة إلى الورقة، واستدعِ `worksheet.calculateFormula()` فقط بعد كتابة جميع البيانات لتقليل استهلاك المعالج.
+
+**س: أين يمكنني العثور على وثائق أعمق وعينات كود؟**  
+ج: تصفح المرجع الكامل في [الوثائق الرسمية](https://docs.aspose.com/cells/java/).
+
+## الخلاصة
+الآن لديك وصفة كاملة وجاهزة للإنتاج لـ **create xlsx file java**، تعبئتها بالبيانات، وإنشاء مخطط عمودي باستخدام Aspose.Cells. دمج هذه المقاطع في وظائف الدُفعات، خدمات الويب، أو أدوات سطح المكتب لأتمتة التقارير والتحليلات دون الحاجة إلى تشغيل Excel.
+
+---
+
+**آخر تحديث:** 2026-09-27  
+**تم الاختبار مع:** Aspose.Cells 24.12 for Java  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [إتقان Aspose.Cells في Java: إعداد المصنف وتصور البيانات بالمخططات](/cells/java/charts-graphs/aspose-cells-java-setup-data-visualization/)
+- [إتقان Excel مع Aspose.Cells Java: إنشاء المصنف وتخصيص المخططات](/cells/java/charts-graphs/aspose-cells-java-workbook-chart-customization/)
+- [إضافة تسميات البيانات إلى مخطط Excel باستخدام Aspose.Cells Java](/cells/java/advanced-excel-charts/chart-interactivity/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

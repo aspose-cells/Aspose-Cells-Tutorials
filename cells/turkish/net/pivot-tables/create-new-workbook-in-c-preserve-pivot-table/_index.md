@@ -23,16 +23,6 @@ title: C#'ta Yeni Çalışma Kitabı Oluştur – Pivot Tablosunu Koru
 url: /tr/net/pivot-tables/create-new-workbook-in-c-preserve-pivot-table/
 ---
 
-However the phrase appears many times; maybe keep as is. We'll keep bold English phrase unchanged.
-
-Similarly "preserve pivot table", "duplicate pivot table", "copy rows". Those are technical actions; maybe keep English. But we can translate surrounding text.
-
-Let's translate.
-
-Proceed.
-
-Will produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

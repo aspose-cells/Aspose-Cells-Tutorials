@@ -36,6 +36,8 @@ Ta metoda jest idealna do ukierunkowanego zarządzania danymi, pozwalając na pr
 Odblokuj moc programu Excel, uzyskując dostęp do nazwanych zakresów za pomocą naszego prostego przewodnika po Aspose.Cells dla .NET. Idealne do zarządzania danymi.
 ### [Dostęp do określonego zakresu nazwanego w programie Excel](./access-specific-named-range/)
 Dowiedz się, jak uzyskać dostęp do określonych nazwanych zakresów w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego kompleksowego samouczka krok po kroku i przykładowego kodu.
+### [Zdefiniuj zakres nazwany w Excelu w C# – utwórz skoroszyt](./define-named-range-in-excel-with-c-create-workbook/)
+Dowiedz się, jak zdefiniować zakres nazwany w Excelu przy użyciu C# i utworzyć nowy skoroszyt przy pomocy Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

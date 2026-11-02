@@ -25,10 +25,6 @@ title: C#'ta Pivot Tablosunu Görüntü Olarak Dışa Aktarma – Adım Adım Re
 url: /tr/net/pivot-tables/how-to-export-pivot-table-as-an-image-in-c-step-by-step-guid/
 ---
 
-**.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

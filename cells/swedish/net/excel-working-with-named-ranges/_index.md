@@ -36,6 +36,8 @@ Den här metoden är idealisk för riktad datahantering, så att du kan vara exa
 Lås upp kraften i Excel genom att komma åt namngivna områden med vår enkla guide med Aspose.Cells för .NET. Perfekt för datahantering.
 ### [Åtkomst till specifikt namngivet område i Excel](./access-specific-named-range/)
 Lär dig hur du kommer åt specifika namngivna områden i Excel med hjälp av Aspose.Cells för .NET med den här omfattande steg-för-steg-handledningen och exempelkod.
+### [Definiera namngivet område i Excel med C# – skapa arbetsbok](./define-named-range-in-excel-with-c-create-workbook/)
+Skapa en ny arbetsbok och definiera ett namngivet område i Excel med C# och Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

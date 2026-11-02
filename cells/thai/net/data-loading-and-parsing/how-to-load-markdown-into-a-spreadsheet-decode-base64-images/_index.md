@@ -21,10 +21,6 @@ title: วิธีโหลด Markdown ไปยังสเปรดชีต
 url: /th/net/data-loading-and-parsing/how-to-load-markdown-into-a-spreadsheet-decode-base64-images/
 ---
 
-step by step.
-
-Will produce final answer.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

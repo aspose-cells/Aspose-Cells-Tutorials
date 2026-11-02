@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-08"
-"description": "Un tutorial sul codice per Aspose.Words Java"
-"title": "Dividi i nomi in colonne con Aspose.Cells Java"
-"url": "/it/java/cell-operations/aspose-cells-java-split-names-columns/"
-"weight": 1
+date: '2026-03-15'
+description: Impara come suddividere i nomi in colonne separate e salvare la cartella
+  di lavoro xlsx usando Aspose.Cells Java in un tutorial passo‑passo.
+keywords:
+- Aspose.Cells Java
+- split names columns
+- Excel manipulation
+- text to columns Java
+- Java Excel processing
+title: aspose cells java – Dividi i nomi in colonne
+url: /it/java/cell-operations/aspose-cells-java-split-names-columns/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,34 +19,33 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Padroneggiare **aspose cells java**: Dividere i Nomi in Colonne
 
-# Padroneggiare Aspose.Cells Java: dividere i nomi in colonne
+Benvenuti al nostro completo tutorial su **aspose cells java**. In questa guida imparerete **come dividere i nomi** che sono memorizzati in una singola colonna di Excel in due colonne separate—nome e cognome—utilizzando la potente funzionalità testo‑in‑colonne. Che stiate pulendo una lista di contatti, preparando dati per un'importazione CRM, o semplicemente abbiate bisogno di un modo rapido per ristrutturare i fogli di calcolo, questo tutorial vi mostra esattamente come **save workbook xlsx** dopo la trasformazione.
 
-Benvenuti alla nostra guida completa sull'utilizzo di Aspose.Cells in Java per dividere i nomi di una singola colonna in due colonne distinte: una per i nomi e una per i cognomi. Se avete mai avuto difficoltà con la manipolazione dei dati in file Excel o avete bisogno di un modo efficiente per gestire la suddivisione del testo nei vostri fogli di calcolo, questo tutorial fa al caso vostro.
+## Risposte Rapide
+- **Di cosa tratta questo tutorial?** Dividere le stringhe di nome completo in colonne nome e cognome con Aspose.Cells per Java.  
+- **Quale versione della libreria è utilizzata?** L'ultima versione stabile (al 2026).  
+- **Ho bisogno di una licenza?** Una prova gratuita funziona per lo sviluppo; è necessaria una licenza commerciale per la produzione.  
+- **Posso dividere su altri delimitatori?** Sì—basta cambiare il separatore in `TxtLoadOptions`.  
+- **L'output è un file .xlsx?** Assolutamente, la cartella di lavoro viene salvata in formato XLSX.
 
-## Cosa imparerai:
-- Come creare una nuova cartella di lavoro utilizzando Aspose.Cells Java.
-- Tecniche per popolare i fogli di lavoro con i dati.
-- Configurazione `TxtLoadOptions` per la suddivisione delle colonne.
-- Utilizzando il `textToColumns()` metodo per dividere efficacemente le colonne dei nomi.
-- Salvataggio della cartella di lavoro in formato XLSX.
+## Cos'è **aspose cells java**?
+**Aspose.Cells java** è un'API Java ad alte prestazioni che consente agli sviluppatori di creare, modificare, convertire e renderizzare file Excel senza necessità di Microsoft Office. Supporta tutti i principali formati Excel e fornisce funzionalità avanzate come formule, grafici e manipolazione dei dati.
 
-Al termine di questo tutorial, avrai una chiara comprensione di come Aspose.Cells Java possa migliorare le tue attività di gestione dei file Excel. Analizziamo prima i prerequisiti e configuriamo il nostro ambiente per il successo.
+## Perché usare **aspose cells java** per dividere i nomi?
+- **Zero‑install**: Funziona su qualsiasi ambiente Java lato server.  
+- **Speed**: Gestisce grandi fogli di calcolo più velocemente rispetto all'interoperabilità nativa di Excel.  
+- **Precision**: Controllo completo su delimitatori, intervalli di colonne e formati di output.  
+- **Reliability**: Nessuna dipendenza da COM o Office, rendendolo ideale per distribuzioni cloud o container.
 
-### Prerequisiti
+## Prerequisiti
+- Java Development Kit (JDK) 8 o successivo.  
+- Un IDE come IntelliJ IDEA o Eclipse (opzionale ma consigliato).  
+- Maven o Gradle per la gestione delle dipendenze.  
 
-Prima di iniziare, assicurati di avere:
-
-- **Kit di sviluppo Java (JDK)** installato sul tuo sistema.
-- Una conoscenza di base dei concetti di programmazione Java.
-- Un ambiente di sviluppo integrato (IDE) come IntelliJ IDEA o Eclipse.
-
-Inoltre, dovrai includere la libreria Aspose.Cells nel tuo progetto. Questo tutorial illustrerà le opzioni di configurazione sia per Maven che per Gradle.
-
-### Impostazione di Aspose.Cells per Java
-
-#### Configurazione Maven
-Aggiungi la seguente dipendenza al tuo `pom.xml`:
+### Configurazione Maven
+Aggiungi la dipendenza Aspose.Cells al tuo `pom.xml`:
 
 ```xml
 <dependency>
@@ -49,45 +55,39 @@ Aggiungi la seguente dipendenza al tuo `pom.xml`:
 </dependency>
 ```
 
-#### Configurazione di Gradle
-Includi questo nel tuo `build.gradle`:
+### Configurazione Gradle
+Aggiungi la libreria al tuo `build.gradle`:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-Per iniziare a usare Aspose.Cells, puoi optare per una prova gratuita o richiedere una licenza temporanea per esplorarne tutte le funzionalità prima di acquistarla.
+> **Suggerimento:** Usa una licenza temporanea dal portale Aspose per sbloccare tutte le funzionalità durante lo sviluppo.
 
-### Guida all'implementazione
+## Implementazione Passo‑per‑Passo
 
-Analizziamo il processo di suddivisione dei nomi in colonne utilizzando Aspose.Cells Java:
-
-#### Crea una cartella di lavoro e un foglio di lavoro di Access First
-
-Iniziamo importando le classi necessarie da Aspose.Cells:
+### Passo 1: Creare una Cartella di Lavoro e Accedere al Primo Foglio di Lavoro
+Innanzitutto, importa le classi principali e istanzia una nuova cartella di lavoro. Questo ti fornisce un file Excel pulito pronto per l'inserimento dei dati.
 
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 ```
 
-Crea un nuovo `Workbook` istanza e accedi al suo primo foglio di lavoro:
-
 ```java
-String dataDir = "YOUR_DATA_DIRECTORY"; // Definisci qui il percorso della tua directory
+String dataDir = "YOUR_DATA_DIRECTORY"; // Define your directory path here
 
 Workbook wb = new Workbook();
 Worksheet ws = wb.getWorksheets().get(0);
 ```
 
-#### Compilare il foglio di lavoro con i dati
-
-Quindi, compila il foglio di lavoro con i nomi. Importa il `Cell` classe e aggiungere i nomi alla colonna A:
+### Passo 2: Popolare il Foglio di Lavoro con Nomi di Esempio
+Successivamente, aggiungi alcune stringhe di nome completo nella colonna **A**. In un progetto reale, le leggeresti da un database o da un file CSV.
 
 ```java
 import com.aspose.cells.Cell;
 
-String outDir = "YOUR_OUTPUT_DIRECTORY"; // Definisci qui il percorso della directory di output
+String outDir = "YOUR_OUTPUT_DIRECTORY"; // Define your output directory path here
 
 ws.getCells().get("A1").putValue("John Teal");
 ws.getCells().get("A2").putValue("Peter Graham");
@@ -96,9 +96,8 @@ ws.getCells().get("A4").putValue("Mack Nick");
 ws.getCells().get("A5").putValue("Hsu Lee");
 ```
 
-#### Configurare le opzioni di caricamento del testo per la divisione delle colonne
-
-Per dividere il testo in colonne, configurare `TxtLoadOptions`:
+### Passo 3: Configurare le Opzioni di Caricamento Testo per la Divisione delle Colonne
+La classe `TxtLoadOptions` indica ad Aspose.Cells come interpretare il testo. Qui usiamo uno spazio (`' '`) come delimitatore.
 
 ```java
 import com.aspose.cells.TxtLoadOptions;
@@ -107,19 +106,17 @@ TxtLoadOptions opts = new TxtLoadOptions();
 opts.setSeparator(' ');
 ```
 
-#### Dividi il testo in colonne
-
-Utilizzare il `textToColumns()` metodo per separare nomi e cognomi:
+### Passo 4: Dividere il Testo in Due Colonne
+Ora chiama `textToColumns()` sull'area di celle che contiene i nomi. I parametri `(0, 0, 5, opts)` significano *inizia dalla riga 0, colonna 0, elabora 5 righe, usando le opzioni appena definite*.
 
 ```java
 ws.getCells().textToColumns(0, 0, 5, opts);
 ```
 
-In questo passaggio, lo spazio viene utilizzato come separatore per dividere i nomi completi in due colonne.
+Dopo questa chiamata, la colonna A contiene i nomi e la colonna B contiene i cognomi.
 
-#### Salva la cartella di lavoro in formato XLSX
-
-Infine, salva la cartella di lavoro nella directory desiderata:
+### Passo 5: Salvare la Cartella di Lavoro come File XLSX
+Infine, scrivi la cartella di lavoro modificata su disco. L'enumerazione `SaveFormat` garantisce che il file sia salvato nel moderno formato XLSX.
 
 ```java
 import com.aspose.cells.SaveFormat;
@@ -127,56 +124,54 @@ import com.aspose.cells.SaveFormat;
 wb.save(outDir + "outputTextToColumns.xlsx");
 ```
 
-### Applicazioni pratiche
+> **Perché è importante:** Utilizzando **save workbook xlsx**, garantisci la compatibilità con le versioni più recenti di Excel, Google Sheets e altri strumenti di fogli di calcolo.
 
-Ecco alcuni scenari reali in cui la suddivisione del testo in colonne può rivelarsi preziosa:
-- **Pulizia dei dati**: Preparazione di set di dati per l'analisi mediante separazione dei campi di dati composti.
-- **Sistemi CRM**: Organizzare le informazioni dei clienti in modo più efficiente.
-- **Gestione delle risorse umane**: Semplificazione delle registrazioni e dei database dei dipendenti.
+## Applicazioni Pratiche
+- **Data Cleaning:** Pulizia dei Dati: Separare rapidamente i campi concatenati prima di caricarli nei pipeline di analisi.  
+- **CRM Integration:** Integrazione CRM: Trasformare una lista di contatti piatta in una tabella strutturata per l'importazione.  
+- **HR Systems:** Sistemi HR: Dividere i nomi completi dei dipendenti per la gestione di paghe o benefici.
 
-L'integrazione di Aspose.Cells con altri sistemi, come database o applicazioni web, consente una gestione e una manipolazione dei dati senza interruzioni.
+## Considerazioni sulle Prestazioni
+Quando si lavora con migliaia di righe:
 
-### Considerazioni sulle prestazioni
+1. **Batch Updates:** Aggiornamenti in Batch: Usa `ws.getCells().setRowHeight()` o metodi batch simili per ridurre l'overhead.  
+2. **Memory Management:** Gestione della Memoria: Chiama `wb.calculateFormula()` solo quando necessario e libera rapidamente gli oggetti di grandi dimensioni.  
+3. **Garbage Collection:** Garbage Collection: Esegui la JVM con impostazioni di heap appropriate (`-Xmx2g` per file grandi) per evitare errori OutOfMemory.
 
-Per ottimizzare le prestazioni quando si lavora con set di dati di grandi dimensioni:
-- Riduci al minimo le operazioni non necessarie sulla cartella di lavoro aggiornando in batch le celle.
-- Gestire con attenzione l'utilizzo della memoria, soprattutto in ambienti con risorse limitate.
-- Per garantire un funzionamento senza intoppi, seguire le best practice di Java per la garbage collection.
+## Problemi Comuni e Soluzioni
 
-### Conclusione
+| Issue | Solution |
+|-------|----------|
+| **I nomi contengono iniziali intermedie** (ad es., “John A. Doe”) | Regola il separatore o elabora la seconda colonna per estrarre il cognome. |
+| **Celle vuote inaspettate** | Verifica che l'intervallo di origine (`textToColumns` parametri) corrisponda alle righe di dati effettive. |
+| **Licenza non trovata** | Posiziona il file di licenza temporanea (`Aspose.Cells.lic`) nella radice del progetto o imposta la licenza programmaticamente. |
 
-Seguendo questa guida, hai imparato come suddividere efficacemente i nomi in colonne utilizzando Aspose.Cells in Java. Questa competenza può migliorare significativamente le tue capacità di gestione dei dati nei file Excel.
+## Domande Frequenti
 
-Come passaggi successivi, potresti provare ad esplorare altre funzionalità di Aspose.Cells, come la formattazione delle celle o la generazione di grafici.
+**Q: Cos'è Aspose.Cells Java?**  
+A: Una potente libreria che consente di creare, modificare e convertire file Excel programmaticamente usando Java.
 
-Non esitate a contattarci per qualsiasi domanda nella sezione FAQ qui sotto e a continuare a sperimentare con Aspose.Cells per casi d'uso più avanzati.
+**Q: Posso dividere le colonne in base a delimitatori diversi dallo spazio?**  
+A: Sì, personalizza il separatore `TxtLoadOptions` secondo le esigenze dei tuoi dati.
 
-### Sezione FAQ
+**Q: Come gestisco grandi dataset con Aspose.Cells?**  
+A: Ottimizza le prestazioni gestendo la memoria e riducendo al minimo le operazioni sulla cartella di lavoro, come descritto sopra.
 
-**D: Che cos'è Aspose.Cells Java?**
-A: Una potente libreria che consente di creare, modificare e convertire file Excel a livello di programmazione utilizzando Java.
+**Q: È disponibile supporto se incontro problemi?**  
+A: Visita il [Aspose Forum](https://forum.aspose.com/c/cells/9) per assistenza della community o contatta direttamente il team di supporto Aspose.
 
-**D: Posso dividere le colonne in base a delimitatori diversi dagli spazi?**
-A: Sì, personalizza il `TxtLoadOptions` separatore in base alle tue esigenze di dati.
+**Q: In quali formati Aspose.Cells può salvare le cartelle di lavoro?**  
+A: Supporta una vasta gamma di formati di file Excel, inclusi XLSX, XLS, CSV e altri.
 
-**D: Come posso gestire set di dati di grandi dimensioni con Aspose.Cells?**
-A: Ottimizza le prestazioni gestendo la memoria e riducendo al minimo le operazioni all'interno della cartella di lavoro.
+## Risorse
 
-**D: È disponibile assistenza in caso di problemi?**
-A: Visita il [Forum Aspose](https://forum.aspose.com/c/cells/9) per ricevere supporto dalla comunità o contattare direttamente il loro team.
+- **Documentazione**: [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)
+- **Download**: [Aspose.Cells Java Releases](https://releases.aspose.com/cells/java/)
+- **Acquisto**: [Buy Aspose.Cells](https://purchase.aspose.com/buy)
+- **Prova Gratuita**: [Try Aspose.Cells for Free](https://releases.aspose.com/cells/java/)
+- **Licenza Temporanea**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 
-**D: In quali formati Aspose.Cells può salvare le cartelle di lavoro?**
-A: Supporta un'ampia gamma di formati di file Excel, tra cui XLSX, XLS, CSV e altri.
-
-### Risorse
-
-- **Documentazione**: [Riferimento Java per Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Scaricamento**: [Versioni Java di Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Acquistare**: [Acquista Aspose.Cells](https://purchase.aspose.com/buy)
-- **Prova gratuita**: [Prova Aspose.Cells gratuitamente](https://releases.aspose.com/cells/java/)
-- **Licenza temporanea**: [Richiedi una licenza temporanea](https://purchase.aspose.com/temporary-license/)
-
-Buona programmazione e buon divertimento sfruttando tutta la potenza di Aspose.Cells Java nei tuoi progetti!
+Buon coding, e goditi l'utilizzo della piena potenza di **aspose cells java** nei tuoi progetti!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -185,3 +180,9 @@ Buona programmazione e buon divertimento sfruttando tutta la potenza di Aspose.C
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ultimo Aggiornamento:** 2026-03-15  
+**Testato Con:** Aspose.Cells 25.3 for Java  
+**Autore:** Aspose

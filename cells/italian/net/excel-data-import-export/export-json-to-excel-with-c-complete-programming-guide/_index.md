@@ -25,14 +25,6 @@ title: 'Esporta JSON in Excel con C#: Guida completa di programmazione'
 url: /it/net/excel-data-import-export/export-json-to-excel-with-c-complete-programming-guide/
 ---
 
-|
-
-Translate header to "Nome". Keep rows.
-
-Now produce final content.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

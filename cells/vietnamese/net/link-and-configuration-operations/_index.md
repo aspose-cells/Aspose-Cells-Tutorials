@@ -29,6 +29,9 @@ Sẵn sàng để nhảy vào? Ghé thăm [Cấu hình liên kết đến thuộ
 ### [Cấu hình liên kết đến thuộc tính tài liệu nội dung trong .NET](./configuring-link-to-content-document-property/)
 Tìm hiểu cách liên kết thuộc tính tài liệu với nội dung trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước dành cho nhà phát triển.
 
+### [Tạo GridJsOptions Instance – Cấu hình tùy chọn lưới JavaScript](./create-gridjsoptions-instance-configure-grid-options-javascr/)
+Hướng dẫn tạo đối tượng GridJsOptions và cấu hình các tùy chọn lưới trong JavaScript bằng Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

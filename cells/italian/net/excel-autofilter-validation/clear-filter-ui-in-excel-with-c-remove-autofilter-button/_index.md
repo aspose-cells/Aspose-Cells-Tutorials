@@ -27,15 +27,7 @@ title: Interfaccia per cancellare il filtro in Excel con C# – Rimuovi il pulsa
 url: /it/net/excel-autofilter-validation/clear-filter-ui-in-excel-with-c-remove-autofilter-button/
 ---
 
-: "Interfaccia di filtro pulita in Excel con C# – Rimuovere il pulsante AutoFilter". Good.
-
-Then paragraph.
-
-Proceed.
-
-Make sure to keep code block placeholders unchanged.
-
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

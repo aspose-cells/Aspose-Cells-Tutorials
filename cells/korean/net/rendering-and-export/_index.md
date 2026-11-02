@@ -66,6 +66,8 @@ Aspose.Cells for .NET을 사용하여 Excel에서 순차적 페이지를 렌더�
 Aspose.Cells for .NET을 사용하여 피벗 테이블 이미지를 PNG 형식으로 내보내고, 피벗 참조 범위를 설정하는 방법을 단계별로 안내합니다.
 ### [C#에서 피벗을 PNG로 내보내는 방법 – 단계별 가이드](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
 Aspose.Cells for .NET을 사용하여 C#에서 피벗 테이블을 PNG 이미지로 내보내는 방법을 단계별로 안내합니다.
+### [C#에서 PNG 피벗 이미지 만들기 – 전체 단계별 가이드](./create-png-pivot-image-in-c-full-step-by-step-guide/)
+C#을 사용하여 Excel 피벗 테이블을 PNG 이미지로 내보내는 전체 단계별 가이드를 확인하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

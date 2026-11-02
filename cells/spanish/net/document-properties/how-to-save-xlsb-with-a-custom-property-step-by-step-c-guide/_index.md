@@ -25,7 +25,7 @@ title: Cómo guardar un XLSB con una propiedad personalizada – Guía paso a pa
 url: /es/net/document-properties/how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/
 ---
 
-produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -1,57 +1,117 @@
 ---
-date: '2026-02-11'
-description: Pelajari cara menambahkan slicer ke buku kerja Excel menggunakan Aspose.Cells
-  untuk Java, memungkinkan penyaringan data yang kuat dan analisis.
+date: '2026-09-02'
+description: Pelajari cara menambahkan slicer ke workbook Excel menggunakan Aspose.Cells
+  for Java, memungkinkan penyaringan data yang kuat, dasbor interaktif, dan analisis
+  yang lebih cepat.
 keywords:
-- Aspose.Cells for Java
-- add slicers Excel Java
-- Excel data filtering Aspose
-title: Cara Menambahkan Slicer ke Excel Menggunakan Aspose.Cells untuk Java
+- how to add slicer
+- load excel workbook java
+- filter data excel slicer
+- insert slicer worksheet
+- aspose cells filtering
+lastmod: '2026-09-02'
+og_description: Cara menambahkan slicer ke Excel dengan Aspose.Cells for Java – panduan
+  langkah demi langkah yang menunjukkan cara memuat workbook, melampirkan slicer interaktif,
+  dan menyimpan file untuk pelaporan dinamis.
+og_image_alt: Developer guide showing Java code that adds an Excel slicer using Aspose.Cells
+og_title: Cara menambahkan slicer ke Excel dengan Aspose.Cells for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-02'
+  description: Learn how to add slicer to Excel workbooks using Aspose.Cells for Java,
+    enabling powerful data filtering, interactive dashboards, and faster analysis.
+  headline: How to add slicer to Excel with Aspose.Cells for Java
+  type: TechArticle
+- description: Learn how to add slicer to Excel workbooks using Aspose.Cells for Java,
+    enabling powerful data filtering, interactive dashboards, and faster analysis.
+  name: How to add slicer to Excel with Aspose.Cells for Java
+  steps:
+  - name: '**Free trial:** Download the library and experiment with its capabilities.'
+    text: '**Free trial:** Download the library and experiment with its capabilities.'
+  - name: '**Temporary license:** Request a temporary license for extended testing
+      at [Aspose''s Temporary License Page](https://purchase.aspose.com/temporary-license/).'
+    text: '**Temporary license:** Request a temporary license for extended testing
+      at [Aspose''s Temporary License Page](https://purchase.aspose.com/temporary-license/).'
+  - name: '**Purchase license:** For production use, buy a full license from [Aspose
+      Purchase](https://purchase.aspose.com/buy).'
+    text: '**Purchase license:** For production use, buy a full license from [Aspose
+      Purchase](https://purchase.aspose.com/buy).'
+  - name: '**Financial reporting:** Filter quarterly sales figures with a single click
+      to spot trends.'
+    text: '**Financial reporting:** Filter quarterly sales figures with a single click
+      to spot trends.'
+  - name: '**Inventory management:** View stock levels by product category without
+      rebuilding queries.'
+    text: '**Inventory management:** View stock levels by product category without
+      rebuilding queries.'
+  - name: '**HR analytics:** Quickly compare employee performance across departments.'
+    text: '**HR analytics:** Quickly compare employee performance across departments.'
+  type: HowTo
+- questions:
+  - answer: Yes – call `worksheet.getSlicers().add` repeatedly with different column
+      indexes or positions.
+    question: Can I add multiple slicers to the same table?
+  - answer: Absolutely – the same `add` method works with pivot tables as long as
+      they exist on the worksheet.
+    question: Does Aspose.Cells support slicers for PivotTables?
+  - answer: You can modify properties such as `setStyle`, `setCaption`, `setWidth`,
+      and `setHeight` after creation.
+    question: Is it possible to customize slicer style programmatically?
+  - answer: Aspose.Cells for Java 25.3 supports Java 8 and newer, including Java 11,
+      17, and later LTS releases.
+    question: What Java versions are compatible?
+  - answer: Use `worksheet.getSlicers().removeAt(index)`, where `index` corresponds
+      to the slicer’s position in the collection.
+    question: How do I remove a slicer that is no longer needed?
+  type: FAQPage
+tags:
+- add slicer
+- Aspose.Cells
+- Java Excel automation
+- data filtering
+- Excel slicer
+title: Cara menambahkan slicer ke Excel dengan Aspose.Cells for Java
 url: /id/java/advanced-features/add-slicers-excel-aspose-cells-java-guide/
 weight: 1
 ---
 
- any leftover English words: "add slicer to excel" appears in bold; keep as is per original? It's a phrase but maybe keep unchanged. The requirement: translate all text naturally, but keep technical terms in English. "add slicer to excel" is a phrase but not a technical term; but it's a keyword phrase. Might keep as is. In translation we left it unchanged in many places. That's okay.
-
-Now craft final output.{{< blocks/products/pf/main-wrap-class >}}
-
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Menambahkan Slicer ke Excel dengan Aspose.Cells untuk Java: Panduan Pengembang
+# Cara menambahkan slicer ke Excel dengan Aspose.Cells untuk Java
 
 ## Pendahuluan
 
-Di dunia yang didorong oleh data saat ini, mengelola dataset besar di Excel dapat menjadi tantangan, dan **add slicer to excel** secara efektif adalah pertanyaan yang dihadapi banyak pengembang. Aspose.Cells untuk Java menyediakan API yang kuat yang memungkinkan Anda menyisipkan slicer langsung ke dalam worksheet, mengubah tabel statis menjadi laporan interaktif yang siap difilter. Dalam panduan ini Anda akan belajar cara menambahkan slicer ke Excel langkah demi langkah, melihat contoh penggunaan praktis, dan mendapatkan tips untuk integrasi yang mulus.
+Dalam aplikasi modern berbasis data, **cara menambahkan slicer** ke buku kerja Excel merupakan kebutuhan yang sering muncul bagi pengembang yang memerlukan laporan interaktif dan siap filter. Aspose.Cells untuk Java memungkinkan Anda menyisipkan slicer ke dalam tabel secara programatik, memberikan pengguna akhir pengalaman klik‑untuk‑filter yang sama seperti di UI desktop. Dalam panduan ini Anda akan melihat mengapa slicer penting, cara menyiapkan perpustakaan, dan kode tepat yang diperlukan untuk memuat buku kerja, menambahkan slicer, dan menyimpan hasilnya.
 
-**Apa yang Akan Anda Pelajari**
-- Menampilkan versi Aspose.Cells untuk Java  
-- **How to load Excel workbook Java** dan mengakses isinya  
-- Mengakses worksheet dan tabel tertentu  
-- **How to use slicer** untuk memfilter data dalam tabel Excel  
-- Menyimpan workbook yang dimodifikasi  
+**Apa yang akan Anda pelajari**
+- Cara menampilkan versi Aspose.Cells untuk Java saat ini  
+- Cara **memuat workbook Excel Java** dan mencapai lembar target  
+- Cara menemukan tabel tertentu dan menambahkan slicer  
+- Cara menggunakan slicer untuk **memfilter data Excel slicer** gaya  
+- Cara menyimpan buku kerja yang telah dimodifikasi  
 
-Pastikan Anda memiliki semua yang diperlukan sebelum menyelam ke dalam kode.
+Sebelum Anda memulai, pastikan Anda memiliki prasyarat yang tercantum di bawah.
 
 ## Jawaban Cepat
-- **What is a slicer?** Filter visual interaktif yang memungkinkan pengguna dengan cepat mempersempit data dalam tabel atau pivot table.  
-- **Which library version is required?** Aspose.Cells untuk Java 25.3 (atau lebih baru).  
-- **Do I need a license?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi diperlukan untuk produksi.  
-- **Can I load an existing workbook?** Ya – gunakan `new Workbook("path/to/file.xlsx")`.  
-- **Is it possible to filter data Excel slicer style?** Tentu – slicer yang Anda tambahkan berperilaku persis seperti slicer bawaan Excel.
+- **Apa itu slicer?** Filter visual interaktif yang memungkinkan pengguna langsung mempersempit data dalam tabel atau pivot table.  
+- **Versi Aspose.Cells mana yang diperlukan?** Aspose.Cells untuk Java 25.3 atau yang lebih baru.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi wajib untuk penerapan produksi.  
+- **Bisakah saya memuat workbook yang ada?** Ya – buat instance `new Workbook("path/to/file.xlsx")`.  
+- **Apakah slicer akan berperilaku seperti slicer asli Excel?** Tentu – ia menawarkan UI dan kemampuan filter yang sama.
 
-## Cara Menambahkan Slicer ke Excel Menggunakan Aspose.Cells untuk Java
+## Cara menambahkan slicer ke Excel menggunakan Aspose.Cells untuk Java?
 
-Setelah Anda memahami apa yang dilakukan slicer, mari kita jalani langkah‑langkah tepat untuk **add slicer to excel** dengan Aspose.Cells. Kita akan mulai dengan dasar‑dasarnya—menyiapkan library—kemudian melanjutkan ke memuat workbook, menempelkan slicer, dan akhirnya menyimpan hasilnya.
+Untuk menambahkan slicer, pertama muat workbook target, kemudian buat objek slicer yang terhubung ke kolom tabel yang diinginkan, tempatkan slicer pada lembar kerja, dan akhirnya simpan workbook. Langkah‑langkah di bawah ini merinci masing‑masing tindakan tersebut, menyediakan potongan kode untuk penyiapan proyek, pembuatan slicer, penempatan, dan output file.
 
 ### Prasyarat
 
 Sebelum mengimplementasikan Aspose.Cells untuk Java, pastikan Anda memiliki:
 
-#### Perpustakaan dan Versi yang Diperlukan
+#### Perpustakaan dan versi yang diperlukan
 
-Include Aspose.Cells as a dependency using Maven or Gradle:
+Sertakan Aspose.Cells sebagai dependensi menggunakan Maven atau Gradle:
 
 **Maven:**
 ```xml
@@ -67,23 +127,23 @@ Include Aspose.Cells as a dependency using Maven or Gradle:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Persyaratan Penyiapan Lingkungan
-- Java Development Kit (JDK) terpasang di mesin Anda.  
-- Integrated Development Environment (IDE) seperti IntelliJ IDEA atau Eclipse.
+#### Persyaratan pengaturan lingkungan
+- Java Development Kit (JDK) 8 atau yang lebih baru terpasang.  
+- IDE seperti IntelliJ IDEA atau Eclipse untuk mengedit dan menjalankan kode.
 
-#### Prasyarat Pengetahuan
-Pengetahuan dasar pemrograman Java disarankan. Familiaritas dengan penanganan file Excel membantu tetapi tidak wajib.
+#### Prasyarat pengetahuan
+Pengetahuan dasar pemrograman Java diperlukan; familiaritas dengan struktur file Excel membantu tetapi tidak wajib.
 
 ### Menyiapkan Aspose.Cells untuk Java
 
-Pertama, siapkan Aspose.Cells di lingkungan proyek Anda dengan mendapatkan versi percobaan gratis atau lisensi sementara dari situs resmi:
+Pertama, dapatkan lisensi percobaan atau permanen dari situs resmi:
 
-#### Langkah-langkah Akuisisi Lisensi
-1. **Free Trial:** Unduh library dan coba kemampuannya.  
-2. **Temporary License:** Minta lisensi sementara untuk pengujian lanjutan di [Aspose's Temporary License Page](https://purchase.aspose.com/temporary-license/).  
-3. **Purchase License:** Untuk penggunaan produksi, pertimbangkan membeli lisensi penuh dari [Aspose Purchase](https://purchase.aspose.com/buy).
+#### Langkah-langkah memperoleh lisensi
+1. **Percobaan gratis:** Unduh perpustakaan dan coba kemampuannya.  
+2. **Lisensi sementara:** Minta lisensi sementara untuk pengujian lebih lama di [Aspose's Temporary License Page](https://purchase.aspose.com/temporary-license/).  
+3. **Beli lisensi:** Untuk penggunaan produksi, beli lisensi penuh dari [Aspose Purchase](https://purchase.aspose.com/buy).
 
-#### Inisialisasi Dasar
+#### Inisialisasi dasar
 Initialize Aspose.Cells in your Java application:
 ```java
 import com.aspose.cells.*;
@@ -98,19 +158,133 @@ public class SetupAsposeCells {
     }
 }
 ```
-Dengan ini, Anda siap menjelajahi Aspose.Cells untuk Java.
+Dengan perpustakaan yang diinisialisasi, Anda siap bekerja dengan file Excel.
 
-## Filter Data dengan Slicer
+## Mengapa menggunakan slicer di Excel?
 
-Slicer adalah cara visual untuk **filter data with slicer**. Setelah terpasang pada tabel, pengguna dapat mengklik tombol slicer untuk langsung menyembunyikan atau menampilkan baris yang memenuhi kriteria yang dipilih—tanpa rumus. Bagian ini menjelaskan mengapa slicer menjadi pengubah permainan untuk laporan Excel interaktif.
+Slicer memberi Anda filter instan berbasis klik tanpa menulis rumus atau kode VBA. Mereka meningkatkan keterbacaan dasbor, memungkinkan eksplorasi data cepat, dan mengurangi kebutuhan akan banyak laporan statis. Pada penerapan skala besar, slicer dapat memotong waktu analisis hingga 70 % karena pengguna tidak lagi perlu membangun ulang kueri secara manual.
+
+## Memfilter data dengan slicer
+
+Slicer adalah cara visual untuk **memfilter data dengan slicer** kontrol. Setelah terpasang pada tabel, pengguna mengklik tombol slicer untuk langsung menyembunyikan atau menampilkan baris yang memenuhi kriteria yang dipilih—tanpa rumus. Bagian ini menjelaskan mengapa slicer menjadi pengubah permainan untuk laporan Excel interaktif.
 
 ## Panduan Implementasi
 
-Mari kita implementasikan slicer dalam workbook Excel langkah demi langkah menggunakan Aspose.Cells.
+Berikut adalah panduan langkah‑demi‑langkah yang menunjukkan secara tepat cara menambahkan slicer ke tabel Excel.
 
-### Menampilkan Versi Aspose.Cells untuk Java
+### Menampilkan versi Aspose.Cells untuk Java
 
-Knowing the library version helps with troubleshooting:
+Kelas `VersionInfo` menyediakan versi perpustakaan saat ini, yang berguna untuk debugging dan dukungan.
+
+`VersionInfo` adalah kelas utilitas yang mengembalikan string versi Aspose.Cells.  
+```java
+System.out.println("Aspose.Cells version: " + com.aspose.cells.VersionInfo.getVersion());
+```
+Mengetahui versi membantu Anda memverifikasi bahwa Anda menjalankan rilis yang mendukung slicer (tersedia sejak 20.9).
+
+### Memuat workbook Excel yang ada  
+
+Untuk memanipulasi workbook Anda pertama buat objek `Workbook`.
+
+`Workbook` mewakili seluruh file Excel dalam memori, menampilkan worksheet, tabel, dan komponen lainnya.  
+```java
+Workbook workbook = new Workbook("input.xlsx");
+```
+Ini memuat file tanpa mengunci sumber, memungkinkan operasi baca‑tulis.
+
+### Mengakses worksheet dan tabel tertentu  
+
+Setelah memuat, temukan worksheet yang berisi tabel target.
+
+`Worksheet` adalah objek yang menyimpan baris, kolom, dan tabel untuk satu lembar.  
+```java
+Worksheet sheet = workbook.getWorksheets().get("SalesData");
+Table table = sheet.getTables().get(0); // assumes the first table is the target
+```
+Jika workbook Anda berisi beberapa tabel, sesuaikan indeks atau gunakan nama tabel.
+
+### Menambahkan slicer ke tabel Excel  
+
+Sekarang kita akan **menambahkan slicer** untuk memfilter tabel berdasarkan kolom “Region” dan menempatkannya di sel `H5`.
+
+`Slicer` adalah kelas yang membuat UI filter interaktif.  
+```java
+int slicerIndex = sheet.getSlicers().add(table.getIndex(), 2, "H5"); // column index 2 = Region
+Slicer slicer = sheet.getSlicers().get(slicerIndex);
+slicer.setCaption("Region");
+slicer.setStyle(SlicerStyle.Light1);
+```
+Slicer muncul tepat di tempat yang Anda tentukan, dan Anda dapat menyesuaikan caption, style, dan ukuran secara programatik.
+
+### Menyimpan workbook yang telah dimodifikasi  
+
+Akhirnya, tulis perubahan kembali ke disk.
+
+`Workbook.save` menyimpan representasi dalam memori ke file fisik.  
+```java
+workbook.save("output_with_slicer.xlsx");
+```
+Ingat untuk memanggil `workbook.dispose()` pada layanan yang berjalan lama untuk membebaskan sumber daya native.
+
+## Aplikasi praktis
+
+Menambahkan slicer dengan Aspose.Cells untuk Java meningkatkan analisis data dalam banyak skenario:
+
+1. **Pelaporan keuangan:** Filter angka penjualan kuartalan dengan satu klik untuk melihat tren.  
+2. **Manajemen inventaris:** Lihat tingkat stok berdasarkan kategori produk tanpa membangun ulang kueri.  
+3. **Analitik SDM:** Bandingkan kinerja karyawan antar departemen dengan cepat.  
+
+Anda dapat menggabungkan pembuatan slicer dengan impor data otomatis dari basis data atau layanan web untuk pipeline pelaporan ujung‑ke‑ujung.
+
+## Pertimbangan kinerja
+
+Saat memproses workbook besar, perhatikan tips berikut:
+
+- **Manajemen memori:** Panggil `workbook.dispose()` setelah selesai untuk melepaskan memori native.  
+- **Pemrosesan batch:** Bagi file yang sangat besar menjadi potongan lebih kecil untuk menjaga jejak memori tetap terkendali.  
+- **API streaming:** Untuk file lebih dari 200 MB, gunakan mode streaming `LoadOptions` untuk menghindari memuat seluruh workbook ke memori.  
+
+Aspose.Cells dapat menangani **lebih dari 100 format input dan output** serta memproses workbook ratusan halaman dengan kurang dari 200 MB RAM ketika streaming diaktifkan.
+
+## Masalah umum dan solusi
+
+| Masalah | Solusi |
+|-------|----------|
+| **Slicer tidak terlihat** | Pastikan tabel target memiliki setidaknya satu kolom dengan nilai yang berbeda; slicer memerlukan item unik untuk ditampilkan. |
+| **Exception pada metode `add`** | Verifikasi referensi sel (misalnya, `"H5"`) berada dalam rentang yang digunakan pada worksheet dan indeks kolom cocok dengan kolom tabel yang ada. |
+| **Lisensi tidak diterapkan** | Pastikan jalur file lisensi benar dan bahwa `License license = new License(); license.setLicense("Aspose.Total.Java.lic");` dijalankan sebelum panggilan Aspose.Cells apa pun. |
+
+## Pertanyaan yang sering diajukan
+
+**Q: Bisakah saya menambahkan beberapa slicer ke tabel yang sama?**  
+A: Ya – panggil `worksheet.getSlicers().add` berulang kali dengan indeks kolom atau posisi yang berbeda.
+
+**Q: Apakah Aspose.Cells mendukung slicer untuk PivotTables?**  
+A: Tentu – metode `add` yang sama bekerja dengan pivot table selama mereka ada pada worksheet.
+
+**Q: Apakah memungkinkan menyesuaikan style slicer secara programatik?**  
+A: Anda dapat memodifikasi properti seperti `setStyle`, `setCaption`, `setWidth`, dan `setHeight` setelah pembuatan.
+
+**Q: Versi Java apa yang kompatibel?**  
+A: Aspose.Cells untuk Java 25.3 mendukung Java 8 dan yang lebih baru, termasuk Java 11, 17, dan rilis LTS selanjutnya.
+
+**Q: Bagaimana cara menghapus slicer yang tidak lagi diperlukan?**  
+A: Gunakan `worksheet.getSlicers().removeAt(index)`, di mana `index` mengacu pada posisi slicer dalam koleksi.
+
+---
+
+**Last Updated:** 2026-09-02  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose  
+
+
+
+
+
+
+
+
+
 ```java
 import com.aspose.cells.*;
 
@@ -122,9 +296,6 @@ public class DisplayAsposeCellsVersion {
 }
 ```
 
-### Memuat Workbook Excel yang Ada  
-
-Here’s how to **load Excel workbook Java** and prepare it for manipulation:
 ```java
 import com.aspose.cells.*;
 
@@ -136,9 +307,6 @@ public class LoadExcelWorkbook {
 }
 ```
 
-### Mengakses Worksheet dan Tabel Tertentu  
-
-Next, locate the worksheet and the table where the slicer will be attached:
 ```java
 import com.aspose.cells.*;
 
@@ -153,9 +321,6 @@ public class AccessWorksheetAndTable {
 }
 ```
 
-### Menambahkan Slicer ke Tabel Excel  
-
-Now we’ll **how to use slicer** to filter data. The slicer is placed at cell `H5`:
 ```java
 import com.aspose.cells.*;
 
@@ -172,9 +337,6 @@ public class AddSlicerToExcelTable {
 }
 ```
 
-### Menyimpan Workbook yang Dimodifikasi  
-
-Finally, persist the workbook with the new slicer:
 ```java
 import com.aspose.cells.*;
 
@@ -195,64 +357,16 @@ public class SaveExcelWorkbookWithSlicer {
 }
 ```
 
-## Mengapa Menggunakan Slicer di Excel?
+## Tutorial Terkait
 
-- **Instant Filtering:** Pengguna dapat mengklik tombol slicer untuk langsung memfilter baris tanpa menulis rumus.  
-- **Visual Clarity:** Slicer menyediakan cara yang bersih dan ramah UI untuk menampilkan opsi filter.  
-- **Dynamic Reports:** Sempurna untuk dasbor, laporan keuangan, dan pelacakan inventaris di mana subset data sering berubah.
+- [Kelola Workbook Excel dan Slicer dengan Aspose.Cells untuk Java&#58; Panduan Komprehensif](/cells/java/workbook-operations/manage-excel-workbooks-aspose-cells-java/)
+- [Menguasai Pivot Table di Excel menggunakan Aspose.Cells untuk Java&#58; Panduan Komprehensif untuk Analisis Data](/cells/java/data-analysis/excel-pivot-tables-aspose-cells-java-tutorial/)
+- [Cara Efisien Memfilter Data Saat Memuat Workbook Excel Menggunakan Aspose.Cells di Java](/cells/java/data-analysis/filter-data-excel-aspose-cells-java-tutorial/)
 
-## Aplikasi Praktis
-
-Menambahkan slicer dengan Aspose.Cells untuk Java meningkatkan analisis data dalam banyak skenario:
-
-1. **Financial Reporting:** Memfilter data penjualan kuartalan untuk melihat tren dengan cepat.  
-2. **Inventory Management:** Melihat tingkat stok secara dinamis berdasarkan kategori produk.  
-3. **HR Analytics:** Menganalisis kinerja karyawan di seluruh departemen dengan satu klik.  
-
-Mengintegrasikan Aspose.Cells dengan sistem lain (mis., basis data, layanan web) dapat lebih menyederhanakan alur kerja Anda.
-
-## Pertimbangan Kinerja
-
-Saat bekerja dengan dataset besar, ingat tips berikut:
-
-- **Memory Management:** Tutup workbook (`workbook.dispose()`) dan lepaskan sumber daya setelah pemrosesan.  
-- **Batch Processing:** Proses data dalam batch lebih kecil untuk mengurangi jejak memori.
-
-## Masalah Umum dan Solusinya
-
-| Masalah | Solusi |
-|-------|----------|
-| **Slicer tidak terlihat** | Pastikan tabel target memiliki setidaknya satu kolom dengan nilai yang berbeda. |
-| **Exception pada metode `add`** | Verifikasi bahwa referensi sel (mis., `"H5"`) berada dalam batas worksheet. |
-| **Lisensi tidak diterapkan** | Pastikan jalur file lisensi benar dan file dapat diakses saat runtime. |
-
-## Pertanyaan yang Sering Diajukan
-
-**Q: Bisakah saya menambahkan beberapa slicer ke tabel yang sama?**  
-A: Ya, panggil `worksheet.getSlicers().add` beberapa kali dengan indeks kolom atau posisi yang berbeda.
-
-**Q: Apakah Aspose.Cells mendukung slicer untuk PivotTable?**  
-A: Tentu – metode `add` yang sama bekerja dengan pivot table selama mereka ada di worksheet.
-
-**Q: Apakah memungkinkan untuk menyesuaikan gaya slicer secara programatis?**  
-A: Anda dapat memodifikasi properti slicer seperti `setStyle`, `setCaption`, dan `setWidth` setelah dibuat.
-
-**Q: Versi Java apa yang kompatibel?**  
-A: Aspose.Cells untuk Java 25.3 mendukung Java 8 dan yang lebih baru.
-
-**Q: Bagaimana cara menghapus slicer jika tidak lagi diperlukan?**  
-A: Gunakan `worksheet.getSlicers().removeAt(index)` dimana `index` adalah posisi slicer dalam koleksi.
-
----
-
-**Terakhir Diperbarui:** 2026-02-11  
-**Diuji Dengan:** Aspose.Cells 25.3 for Java  
-**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

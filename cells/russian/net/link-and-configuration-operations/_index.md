@@ -29,6 +29,9 @@ Aspose.Cells для .NET предлагает множество функций,
 ### [Настройка свойства «Ссылка на содержимое документа» в .NET](./configuring-link-to-content-document-property/)
 Узнайте, как связать свойства документа с содержимым в Excel с помощью Aspose.Cells для .NET. Пошаговое руководство для разработчиков.
 
+### [Создание экземпляра GridJsOptions – Настройка параметров сетки JavaScript](./create-gridjsoptions-instance-configure-grid-options-javascr/)
+Узнайте, как создать объект GridJsOptions и настроить параметры сетки в JavaScript с помощью Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

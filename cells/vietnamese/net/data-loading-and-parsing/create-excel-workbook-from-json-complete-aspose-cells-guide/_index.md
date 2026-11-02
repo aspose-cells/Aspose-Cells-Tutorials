@@ -23,18 +23,6 @@ title: Tạo Sổ làm việc Excel từ JSON – Hướng dẫn đầy đủ As
 url: /vi/net/data-loading-and-parsing/create-excel-workbook-from-json-complete-aspose-cells-guide/
 ---
 
-:** etc.
-
-Also translate the "Pro tip", "Why this matters", etc.
-
-Make sure to keep markdown formatting.
-
-Let's produce the translation.
-
-We'll keep the shortcodes as is.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

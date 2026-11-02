@@ -72,6 +72,8 @@ Aprenda a personalizar texto sobrescrito no Excel usando o Aspose.Cells para .NE
 Aprenda a incorporar fontes em exportações Excel usando C# e Aspose.Cells para .NET neste guia completo passo a passo.
 ### [Como copiar fonte de uma célula do Excel para um TextBox – Guia passo a passo](./how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/)
 Aprenda a copiar a formatação de fonte de uma célula do Excel para um TextBox usando Aspose.Cells para .NET neste tutorial passo a passo.
+### [Aplicar fonte em negrito a uma caixa de texto – Guia passo a passo em C#](./apply-bold-font-to-a-textbox-step-by-step-c-guide/)
+Aprenda a aplicar negrito a uma caixa de texto no Excel usando Aspose.Cells para .NET com este tutorial passo a passo em C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

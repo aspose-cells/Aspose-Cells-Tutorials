@@ -74,6 +74,9 @@ Tanuld meg, hogyan zárolhatsz cellákat az Excelben az Aspose.Cells for .NET ha
 ### [Szerző megadása írásvédett munkafüzet esetén az Aspose.Cells használatával](./specify-author-write-protect-workbook/)
 Ebben a lépésenkénti útmutatóban megtudhatja, hogyan adhat meg szerzőt írásvédelemmel ellátott Excel-munkafüzetben az Aspose.Cells for .NET használatával.
 
+### [Menambahkan kata sandi ke Excel – Panduan Perlindungan Lembar Lengkap](./add-password-to-excel-complete-sheet-protection-guide/)
+Pelajari cara menambahkan kata sandi untuk melindungi seluruh lembar kerja Excel menggunakan Aspose.Cells for .NET dalam panduan langkah demi langkah.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

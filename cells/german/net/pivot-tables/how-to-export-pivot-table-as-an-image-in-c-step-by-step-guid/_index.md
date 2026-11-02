@@ -25,11 +25,7 @@ title: Wie man Pivot‑Tabelle in C# als Bild exportiert – Schritt‑für‑Sc
 url: /de/net/pivot-tables/how-to-export-pivot-table-as-an-image-in-c-step-by-step-guid/
 ---
 
-< blocks/products/products-backtop-button >}}
-
-We must keep them unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

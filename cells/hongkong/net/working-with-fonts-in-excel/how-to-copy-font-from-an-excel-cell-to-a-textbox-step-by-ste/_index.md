@@ -21,11 +21,7 @@ title: 如何將 Excel 儲存格的字型複製到文字方塊 – 逐步指南
 url: /zh-hant/net/working-with-fonts-in-excel/how-to-copy-font-from-an-excel-cell-to-a-textbox-step-by-ste/
 ---
 
-? Actually they are placeholders not code fences. In original, they appear as separate lines, not inside fences. So we keep them unchanged.
-
-Also keep markdown formatting.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

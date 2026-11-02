@@ -22,16 +22,6 @@ title: 그리드 열에서 통화 형식 지정 방법 – 단계별 가이드
 url: /ko/net/number-and-display-formats-in-excel/how-to-format-currency-in-a-grid-column-step-by-step-guide/
 ---
 
-string based on the user’s locale." => "**동적 문화권** – 사용자의 로케일에 따라 포맷 문자열을 전환합니다."
-
-Second bullet incomplete: "**Conditional". Probably "Conditional formatting"? but incomplete. We'll translate as "**조건부**". Keep as is? Might be incomplete; we keep same text but translate "Conditional" to "조건부". So bullet: "- **Conditional" -> "- **조건부". Keep line as is.
-
-Now closing shortcodes.
-
-All good.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

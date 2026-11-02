@@ -23,8 +23,6 @@ title: Vytvořit nový sešit v C# – zachovat kontingenční tabulku
 url: /cs/net/pivot-tables/create-new-workbook-in-c-preserve-pivot-table/
 ---
 
-produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

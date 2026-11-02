@@ -23,20 +23,6 @@ title: 如何使用 C# 將 Excel 匯出至 PowerPoint – 完整指南
 url: /zh-hant/net/converting-excel-files-to-other-formats/how-to-export-excel-to-powerpoint-with-c-complete-guide/
 ---
 
-content.
-
-Be careful with punctuation: Use Chinese punctuation? Usually Traditional Chinese uses full-width punctuation, but we can keep English punctuation. It's okay.
-
-Let's translate.
-
-Will keep **convert Excel to PPTX**, **set print area Excel**, **create PowerPoint from Excel** unchanged? The instruction says keep technical terms in English, but these are phrases. Probably keep them as is, but we can keep them as they are (they are in English). So keep them.
-
-Also keep "Aspose.Cells" unchanged.
-
-Proceed.
-
-Now produce final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

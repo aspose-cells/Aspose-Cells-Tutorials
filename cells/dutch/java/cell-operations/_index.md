@@ -41,9 +41,15 @@ Onze cel‑operaties handleidingen bieden praktische, hands‑on begeleiding voo
 
 ### [Beheers het 1904-datumsysteem in Excel met Aspose.Cells Java voor effectieve celoperaties](./aspose-cells-java-configure-1904-date-system-excel/)
 
-### [Aspose.Cells beheersen&#58; Implementatie van CopyOptions & PasteOptions in Java voor Excel-gegevensbeheer](./aspose-cells-java-copy-paste-options/)
-
 ### [Hoe gegevens uit Excel-cellen op te halen met Aspose.Cells Java&#58; Een uitgebreide gids](./aspose-cells-java-data-retrieval-excel/)
+### [Parse Japanse jaartijd datum uit Excel in Java – volledige gids](./parse-japanese-era-date-from-excel-in-java-full-guide/)
+Leer hoe u Japanse jaartijddatums uit Excel kunt ontleden en verwerken met Aspose.Cells voor Java.
+
+### [Aspose.Cells onder de knie krijgen: CopyOptions en PasteOptions implementeren in Java voor Excel-gegevensbeheer](./aspose-cells-java-copy-paste-options/)
+Verbeter uw Java-gebaseerde Excel-gegevensbeheer met Aspose.Cells. Leer hoe u CopyOptions en PasteOptions kunt gebruiken om verwijzingen te behouden en waarden uit zichtbare cellen te plakken.
+
+### [Datum‑tijd ophalen uit cel in Java Excel – een complete gids](./get-datetime-from-cell-in-java-excel-complete-guide/)
+Leer hoe u datum‑ en tijdwaarden uit een Excel‑cel haalt met Aspose.Cells voor Java.
 
 ### [Hoe een actieve cel in Excel in te stellen met Aspose.Cells voor Java&#58; Een volledige gids](./aspose-cells-java-set-active-cell-excel/)
 
@@ -56,6 +62,9 @@ Onze cel‑operaties handleidingen bieden praktische, hands‑on begeleiding voo
 ### [Hoe Excel-celnamen naar indexen te converteren met Aspose.Cells voor Java&#58; Een stap‑voor‑stap gids](./convert-excel-cell-names-to-indices-aspose-cells-java/)
 
 ### [Hoe tekst naar getallen te converteren in Excel met Aspose.Cells voor Java](./convert-text-to-numbers-excel-aspose-cells-java/)
+
+### [Cel naar tekenreeks converteren in Java – Complete exportgids](./convert-cell-to-string-in-java-complete-export-guide/)
+Leer hoe u een celwaarde naar een tekenreeks converteert en exporteert met Aspose.Cells voor Java.
 
 ### [Excel-automatisering met Aspose.Cells voor Java&#58; HTML in cellen insluiten voor verbeterde rapporten](./excel-automation-aspose-cells-java-html-cells/)
 

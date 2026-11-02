@@ -23,9 +23,7 @@ title: Mengurai Tanggal Era Jepang di Excel – Panduan Lengkap untuk Pengembang
 url: /id/net/data-loading-and-parsing/parse-japanese-era-dates-in-excel-full-guide-for-c-developer/
 ---
 
-placeholders. The instruction says preserve all code blocks: fenced code blocks. There are none actual code blocks; placeholders are not code fences. So fine.
-
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

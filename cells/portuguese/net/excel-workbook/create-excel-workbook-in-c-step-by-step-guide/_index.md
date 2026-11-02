@@ -23,10 +23,6 @@ title: Criar Pasta de Trabalho do Excel em C# – Guia Passo a Passo
 url: /pt/net/excel-workbook/create-excel-workbook-in-c-step-by-step-guide/
 ---
 
-Pro tip" etc.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

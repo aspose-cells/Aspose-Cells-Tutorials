@@ -1,0 +1,7 @@
+Title: Create Excel workbook programmatically using Smart Markers
+Slug: create-excel-workbook-programmatically-using-smart-markers
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-09-24T22:35:22.654578
+SourceRepo: AI Search API
+Keywords: create excel workbook programmatically, how to create multiple detail sheets, save workbook as xlsx file
+PRNumber: 169

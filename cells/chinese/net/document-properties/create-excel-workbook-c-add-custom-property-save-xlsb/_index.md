@@ -19,16 +19,6 @@ title: 使用 C# 创建 Excel 工作簿 – 添加自定义属性并保存为 XL
 url: /zh/net/document-properties/create-excel-workbook-c-add-custom-property-save-xlsb/
 ---
 
-text in table cells.
-
-Also bullet points, etc.
-
-Make sure not to translate code block placeholders.
-
-Let's produce final markdown.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

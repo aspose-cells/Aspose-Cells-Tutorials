@@ -25,12 +25,6 @@ title: Exporter Excel en HTML – Conserver les lignes figées en C#
 url: /fr/net/exporting-excel-to-html-with-advanced-options/export-excel-to-html-preserve-frozen-rows-in-c/
 ---
 
-we translate alt? The instruction: translate ALL text content naturally to French. That includes alt text? It's part of markdown image. Probably yes, translate alt text and title. But must not translate URLs. The title is "Screenshot showing exported HTML with frozen rows – export excel to html". That should be translated. So we translate alt and title.
-
-All other text.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

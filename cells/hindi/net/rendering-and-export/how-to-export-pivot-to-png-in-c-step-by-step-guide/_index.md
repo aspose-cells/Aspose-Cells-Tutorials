@@ -24,14 +24,6 @@ title: C# में पिवट को PNG में निर्यात क�
 url: /hi/net/rendering-and-export/how-to-export-pivot-to-png-in-c-step-by-step-guide/
 ---
 
-rule: keep technical terms in English, but "Pro tip" is not technical. Could translate. But we can keep "Pro tip:" as is, but it's okay. I'll translate to "प्रो टिप:".
-
-Also "Expected output:" translate.
-
-Now produce final content.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -20,28 +20,6 @@ title: 创建数据透视表参考范围 – 导出数据透视表图像为 PNG
 url: /zh/net/rendering-and-export/create-pivot-reference-range-export-pivot-table-image-as-png/
 ---
 
-PNG"
-
-But keep the header as #.
-
-Proceed.
-
-Paragraph: "Need to **create pivot reference range** in an Excel workbook using C#? You can also **export pivot table image** and **save Excel range as png** with just a few lines of code. In my experience, turning a live pivot into a static image is a handy way to embed analytics into reports, emails, or dashboards without pulling the whole workbook along."
-
-Translate.
-
-Continue.
-
-We'll keep bold formatting.
-
-Proceed through each section.
-
-Make sure to keep code block placeholders unchanged.
-
-Table: translate column headers and cells.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

@@ -68,7 +68,8 @@
 ### [Оптимизация ячеек книги Excel в Java с использованием Aspose.Cells: полное руководство](./optimize-workbook-cells-java-aspose-cells-guide/)
 Узнайте, как эффективно оптимизировать и управлять ячейками книги Excel с помощью Aspose.Cells для Java. Улучшите свои приложения Java с помощью этого всеобъемлющего руководства.
 
-
+### [set useflatopc true – Как сохранять рабочие книги Excel с Flat OPC в Java](./set-useflatopc-true-how-to-save-excel-workbooks-with-flat-op/)
+Узнайте, как включить параметр useFlatOPC при сохранении файлов Excel в формате Flat OPC, чтобы улучшить совместимость и уменьшить размер.
 
 ## Дополнительные ресурсы
 

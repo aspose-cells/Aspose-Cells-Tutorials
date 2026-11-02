@@ -23,20 +23,6 @@ title: Criar Nova Pasta de Trabalho e Exportar Excel para TXT com Precisão
 url: /pt/net/excel-data-export-retrieval/create-new-workbook-and-export-excel-to-txt-with-precision/
 ---
 
-But we must not translate URLs. The URL is /images/create-new-workbook.png, keep unchanged.
-
-Now produce final content with same structure.
-
-Let's translate.
-
-Start with shortcodes unchanged.
-
-Proceed.
-
-Will produce Portuguese translation.
-
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

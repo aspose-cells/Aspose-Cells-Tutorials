@@ -23,18 +23,6 @@ title: Maak een nieuw werkboek in C# – Behoud draaitabel
 url: /nl/net/pivot-tables/create-new-workbook-in-c-preserve-pivot-table/
 ---
 
--button >}}
-
-Make sure we keep them.
-
-Now ensure we didn't miss any markdown formatting.
-
-Check bullet lists: we used "*Why this matters:*" originally "*Why this matters:*". Should translate "*Waarom dit belangrijk is:*". Keep same bullet formatting.
-
-Make sure we keep code block placeholders unchanged.
-
-Now produce final output with all translated content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

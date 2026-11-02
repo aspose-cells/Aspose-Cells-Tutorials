@@ -23,8 +23,6 @@ title: Mesteradat-objektum létrehozása – Lépésről lépésre útmutató a 
 url: /hu/net/smart-markers-dynamic-data/create-master-data-object-step-by-step-guide-to-generate-det/
 ---
 
-Let's write.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

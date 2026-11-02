@@ -38,6 +38,8 @@ Aprenda a exportar propriedades personalizadas do Excel para PDF usando o Aspose
 Aprenda a manter separadores para linhas em branco no Excel usando o Aspose.Cells para .NET. Guia passo a passo com exemplos de código incluídos.
 ### [Carregar planilhas visíveis somente do arquivo Excel](./load-visible-sheets-only/)
 Aprenda como carregar somente planilhas visíveis de arquivos do Excel usando o Aspose.Cells para .NET neste guia passo a passo.
+### [Criar arquivo Excel programaticamente em C# – tutorial](./create-excel-file-programmatically-in-c-tutorial/)
+Aprenda a criar arquivos Excel programaticamente em C# usando Aspose.Cells para .NET neste tutorial passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

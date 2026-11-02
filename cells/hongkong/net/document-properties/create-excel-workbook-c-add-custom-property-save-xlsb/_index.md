@@ -19,9 +19,7 @@ title: 使用 C# 建立 Excel 活頁簿 – 新增自訂屬性並儲存為 XLSB
 url: /zh-hant/net/document-properties/create-excel-workbook-c-add-custom-property-save-xlsb/
 ---
 
-but can keep English punctuation.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

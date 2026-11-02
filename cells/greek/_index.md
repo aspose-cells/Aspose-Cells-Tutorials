@@ -12,12 +12,6 @@ url: /el/
 weight: 10
 ---
 
- top and bottom unchanged.
-
-Now translate.
-
-I'll produce the final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

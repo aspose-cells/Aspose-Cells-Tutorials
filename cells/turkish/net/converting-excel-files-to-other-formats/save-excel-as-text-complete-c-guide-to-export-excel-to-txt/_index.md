@@ -23,12 +23,6 @@ title: Excel'i Metin Olarak Kaydet – Excel'i TXT'ye Dışa Aktarmak İçin Tam
 url: /tr/net/converting-excel-files-to-other-formats/save-excel-as-text-complete-c-guide-to-export-excel-to-txt/
 ---
 
-ks.
-
-Translate "Ever needed to **save Excel as text** but weren’t sure which API call to use?" etc.
-
-Let's produce.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

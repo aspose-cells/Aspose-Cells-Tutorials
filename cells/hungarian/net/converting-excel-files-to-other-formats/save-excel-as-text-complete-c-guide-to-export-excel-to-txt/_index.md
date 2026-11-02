@@ -23,11 +23,7 @@ title: Excel mentése szövegként – Teljes C# útmutató az Excel TXT formát
 url: /hu/net/converting-excel-files-to-other-formats/save-excel-as-text-complete-c-guide-to-export-excel-to-txt/
 ---
 
-to keep code block placeholders unchanged.
-
-Also ensure we didn't translate any URLs or file paths. There are none besides image placeholder.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

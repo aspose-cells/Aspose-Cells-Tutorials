@@ -21,7 +21,7 @@ title: كيفية تحميل ماركداون إلى جدول بيانات – �
 url: /ar/net/data-loading-and-parsing/how-to-load-markdown-into-a-spreadsheet-decode-base64-images/
 ---
 
-answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

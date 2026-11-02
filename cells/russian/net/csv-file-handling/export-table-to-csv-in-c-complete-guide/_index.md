@@ -24,17 +24,7 @@ title: Экспорт таблицы в CSV в C# — Полное руково�
 url: /ru/net/csv-file-handling/export-table-to-csv-in-c-complete-guide/
 ---
 
-< blocks/products/products-backtop-button >}}
-
-All unchanged.
-
-Now ensure we kept all placeholders and shortcodes.
-
-Check for any markdown links: none besides image.
-
-All good.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

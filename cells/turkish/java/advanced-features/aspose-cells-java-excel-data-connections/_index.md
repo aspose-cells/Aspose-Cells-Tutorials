@@ -1,13 +1,76 @@
 ---
-date: '2025-12-20'
-description: Aspose.Cells for Java kullanarak Excel'den URL nasıl çıkarılır, Java
-  ile Excel dosyası nasıl yüklenir ve veri ithalatını otomatikleştirmek için web sorgu
-  bağlantılarına nasıl erişilir öğrenin.
+date: '2026-05-18'
+description: Aspose.Cells for Java kullanarak Excel'den URL nasıl çıkarılır, Excel
+  dosyaları nasıl yüklenir ve web sorgu bağlantılarına nasıl erişilir öğrenin; Excel
+  veri aktarımını otomatikleştirin.
 keywords:
-- Aspose.Cells for Java
-- load Excel data connections
-- access web queries
-title: Aspose.Cells for Java ile Excel'den URL Çıkarma – Veri Bağlantılarını Yükleme
+- extract url from excel
+- aspose cells java
+- java excel streaming
+- load excel file java
+- automate excel data import
+schemas:
+- author: Aspose
+  dateModified: '2026-05-18'
+  description: Learn how to extract URL from Excel using Aspose.Cells for Java, load
+    Excel files, and access web query connections to automate Excel data import.
+  headline: Extract URL from Excel with Aspose.Cells for Java – Load Data Connections
+  type: TechArticle
+- description: Learn how to extract URL from Excel using Aspose.Cells for Java, load
+    Excel files, and access web query connections to automate Excel data import.
+  name: Extract URL from Excel with Aspose.Cells for Java – Load Data Connections
+  steps:
+  - name: '**Install the Library** – use the Maven or Gradle snippet above.'
+    text: '**Install the Library** – use the Maven or Gradle snippet above.'
+  - name: '**License Acquisition** –'
+    text: '**License Acquisition** –'
+  - name: '**Initialization and Setup** – Create an instance of `Workbook` by specifying
+      your Excel file''s path. `Workbook` is the primary class that represents an
+      Excel file in memory.'
+    text: '**Initialization and Setup** – Create an instance of `Workbook` by specifying
+      your Excel file''s path. `Workbook` is the primary class that represents an
+      Excel file in memory.'
+  - name: '**Import Classes** – ensure necessary classes are imported.'
+    text: '**Import Classes** – ensure necessary classes are imported.'
+  - name: '**Specify File Path** – set the path to your Excel file.'
+    text: '**Specify File Path** – set the path to your Excel file.'
+  - name: '**Load Workbook** – create a new `Workbook` instance with the input file
+      path.'
+    text: '**Load Workbook** – create a new `Workbook` instance with the input file
+      path.'
+  - name: '**Import Classes** –'
+    text: '**Import Classes** –'
+  - name: '**Retrieve Connections** – use the `getDataConnections()` method to access
+      all workbook connections.'
+    text: '**Retrieve Connections** – use the `getDataConnections()` method to access
+      all workbook connections.'
+  - name: '**Access a Specific Connection** – get the desired connection by index
+      or iterate over them.'
+    text: '**Access a Specific Connection** – get the desired connection by index
+      or iterate over them.'
+  - name: '**Check Connection Type** – determine if the connection is an instance
+      of `WebQueryConnection`.'
+    text: '**Check Connection Type** – determine if the connection is an instance
+      of `WebQueryConnection`.'
+  type: HowTo
+- questions:
+  - answer: It’s a library for managing Excel files programmatically, providing features
+      like reading, writing, and manipulating spreadsheet data without Microsoft Excel.
+    question: What is Aspose.Cells for Java used for?
+  - answer: Visit the [free trial](https://releases.aspose.com/cells/java/) page to
+      download a temporary license and start exploring its capabilities.
+    question: How do I obtain a free trial of Aspose.Cells?
+  - answer: Yes, it integrates smoothly with Maven, Gradle, Spring, and other Java
+      build tools.
+    question: Can I use Aspose.Cells with other Java frameworks?
+  - answer: Data connections let Excel link to external sources (databases, web services,
+      etc.) and refresh data automatically.
+    question: What are data connections in Excel?
+  - answer: Use streaming methods, set appropriate memory options, and always dispose
+      of the workbook after processing.
+    question: How do I optimize Aspose.Cells performance for large files?
+  type: FAQPage
+title: Aspose.Cells for Java ile Excel'den URL Çıkar – Veri Bağlantılarını Yükle
 url: /tr/java/advanced-features/aspose-cells-java-excel-data-connections/
 weight: 1
 ---
@@ -20,60 +83,60 @@ weight: 1
 
 # Excel'den URL Çıkarma – Aspose.Cells for Java ile Veri Bağlantılarını Yükleme
 
-## Giriiş
+## Giriş
 
-Java’da Excel’in yönetimini iyileştirme mi? **Aspose.Cells for Java**, Excel dosyalarıyla almayı basitleştirmek için tasarlanmış güçlü bir yüklemedir. Bu öğreticide **Excel'den URL çıkarma**, Excel veri aktarmalarını yükleme ve web sorgu aktarmalarını sorunsuz bir şekilde ele alma dosyaları.
+Programlı olarak **Excel'den URL çıkarma** ihtiyacınız varsa, Aspose.Cells for Java, Microsoft Excel yüklü olmadan çalışan temiz bir sunucu‑tarafı API sağlar. Bu öğreticide bir Excel dosyasını yüklemeyi, veri bağlantılarını listelemeyi, `WebQueryConnection` nesnelerini tanımlamayı ve gömülü URL'leri alarak veri içe aktarma boru hatlarını otomatikleştirmenizi göstereceğiz.
 
-**Ne Öğreneceksiniz:**
-- Aspose.Cells for Java kullanılarak **java excel dosyası yükleme** nasıl yapılır.
-- Bir çalışma = =excel veri bağlantıları** erişim ve birleştirme teknikleri.
-- `WebQueryConnection` türlerini tanımlama ve URL'lerini çıkarma yöntemleri, bu şekilde **excel veri aktarımını otomatikleştir** yapabilirsiniz.
+**Öğrenecekleriniz**
+- Aspose.Cells for Java kullanarak **java excel dosyası yükleme** nasıl yapılır.  
+- Bir çalışma kitabından **excel veri bağlantılarını** nasıl alırsınız.  
+- `WebQueryConnection` türlerini nasıl tespit eder ve URL'lerini sonraki işlemler için nasıl çıkarırsınız.
 
-Başlamadan önce gerekli kurulumların yapıldığından emin olun!
+Başlamadan önce, geliştirme ortamınızın aşağıda listelenen önkoşulları karşıladığından emin olun.
 
 ## Hızlı Yanıtlar
-- **“Excel'den URL çıkarma” ne anlama geliyor?** Bir Excel çalışma kitabının içinde saklanan web‑sorgu bağlantısı URL'sinin okunması demektir.
-- **Hangi üyeliğini kullanmalı mıyım?** Bu görev için Aspose.Cells for Java temiz bir API sunar.
-- **Lisans gerekli mi?** Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim için ticari lisans gerekir.
-- **Büyük çalışma kitaplarını yükleyebilir miyim?** Evet – akış (streaming) kullanımı ve sorunların giderilmesi çalışma kitabını serbest bırakın.
-- **Hangi Java sürümü destekleniyor mu?** JDK8ve üzeri.
+- **“Excel'den URL çıkarma” ne anlama geliyor?** Bu, bir Excel çalışma kitabı içinde depolanan web‑sorgu bağlantısı URL'sini okuyarak kaynağı programlı olarak yeniden kullanabilmeniz anlamına gelir.  
+- **Hangi kütüphaneyi kullanmalıyım?** Aspose.Cells for Java bu görev için özel bir API sunar.  
+- **Lisans gerekli mi?** Geliştirme için ücretsiz deneme yeterlidir; üretim dağıtımları için ticari lisans gereklidir.  
+- **Büyük çalışma kitaplarını yükleyebilir miyim?** Evet—akış seçeneklerini kullanın ve işlem sonrası her zaman çalışma kitabını serbest bırakın.  
+- **Hangi Java sürümü destekleniyor?** JDK 8 veya üzeri tam olarak desteklenir.
 
 ## Önkoşullar
 
-Bu öğreticiyi etkili bir şekilde takip etmek için kullandığınıza sahip olun:
+Bu öğreticiyi etkili bir şekilde takip etmek için şunlara sahip olduğunuzdan emin olun:
 
-### Gerekli Kitaplıklar
-Aspose.Cells for Java gerekir. Aşağıdaki gibi Maven ya da Gradle ile kullanılabilir:
+### Gerekli Kütüphaneler
+Aspose.Cells for Java gerekir. Aşağıda gösterildiği gibi Maven veya Gradle aracılığıyla eklenebilir:
 
-**Maven**
+**Maven**  
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
   <artifactId>aspose-cells</artifactId>
   <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle**
+**Gradle**  
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
-```
+```  
 
 ### Ortam Kurulumu
-Java Development Kit (JDK) yüklü olduğunuzdan emin olun, JDK8 veya üzeri.
+Java Development Kit (JDK) yüklü olduğundan emin olun, tercihen JDK 8 veya üzeri.
 
 ### Bilgi Önkoşulları
-Java programlamaya ve Maven ya da Gradle protokolü yönetimine temel bir hakimiyet faydalı olacaktır.
+Java programlaması ve Maven ya da Gradle'da bağımlılık yönetimi konusunda temel bir anlayış faydalı olacaktır.
 
-## Java için Aspose.Cells'i Kurma
+## Aspose.Cells for Java'ı Kurma
 
-Ortamınız hazır olduğunda Aspose.Cells kurulum adımlarını izleyin:
+Ortamınız hazır olduğunda, Aspose.Cells'ı kurmak için şu adımları izleyin:
 
-1. **Kütüphaneyi Kurun** – yapılan Maven veya Gradle kod parçasını kullanın.
-2. **Lisans Alımı** – 
-- Özelliklerin ayrılması için bir [ücretsiz deneme](https://releases.aspose.com/cells/java/) alın. 
-- Üretim kullanımı için [satın alma sayfası](https://purchase.aspose.com/buy) üzerinden lisans satın almayı düşünün.
-3. **Başlatma ve Kurulum** – Excel dosyanızın yolunu belirten bir `Çalışma Kitabı` örneği oluşturur.
+1. **Kütüphaneyi Yükleyin** – yukarıdaki Maven veya Gradle kod parçacığını kullanın.  
+2. **Lisans Edinme** –  
+   - Özellikleri keşfetmek için bir [ücretsiz deneme](https://releases.aspose.com/cells/java/) alın.  
+   - Üretim kullanımı için bir lisans satın almayı [satın alma sayfası](https://purchase.aspose.com/buy) üzerinden değerlendirin.  
+3. **Başlatma ve Kurulum** – Excel dosyanızın yolunu belirterek bir `Workbook` örneği oluşturun. `Workbook`, bellekte bir Excel dosyasını temsil eden temel sınıftır.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -81,140 +144,142 @@ import com.aspose.cells.Workbook;
 String dataDir = "YOUR_DATA_DIRECTORY";
 String inputPath = dataDir + "WebQuerySample.xlsx";
 Workbook workbook = new Workbook(inputPath);
-```
+```  
 
-Bu kod parçasının belirtilen Excel parçaları bir `Workbook` nesnesine yüklenir ve sonraki işlemlere olanak tanır.
+Bu kod parçacığı belirtilen Excel dosyasını bir `Workbook` nesnesine yükler, böylece sonraki işlemler mümkün olur.
 
-## “URL'yi Excel'den çıkar” nedir?
+## “Excel'den URL Çıkarma” Nedir?
 
-Bir Excel çalışma kitabı, dış kaynaklara (web sayfaları gibi) işaret eden **veri bağlantılarının** bölünmesi. Çalışma kitabı bir *Web Sorgusu* bağlantısında, sorgunun URL'si dosyasının içinde saklanır. Bu URL'yi çıkarır, kaynağı programatik olarak çalışır, sürekliliğinizi ya da başka entegrasyonlarda yeniden kullanılmasını sağlar.
+Excel'den URL'yi çıkarmak, bir çalışma kitabı dış bir web kaynağına bağlandığında Excel'in dahili olarak sakladığı web‑sorgu bağlantısı URL'sini okumak demektir. Bu URL daha sonra yeni veri çekmek, kaynağı doğrulamak veya aynı beslemeyi diğer sistemlere entegre etmek için kullanılabilir.
 
-## Excel Veri Bağlantılarını Yüklemek İçin Neden Aspose.Cells for Java Kullanılmalı?
+## Neden Aspose.Cells for Java ile Excel Veri Bağlantılarını Yüklemelisiniz?
 
-- **Excel kurulumu gerekmez** – herhangi bir sunucu‑tarafı analiz edilir.
-- **Modern Excel formatlarını tam olarak saklama** (XLSX, XLSM vb.).
-- **Veri bağlantılarını okuma, oluşturma ve değiştirme** için sağlam bir API.
-- **Büyük çalışma kitapları için performans‑optimizasyon** beslenme ve serbest bırakma yöntemleriyle sağlanır.
+Excel veri bağlantılarını sunucuda Microsoft Excel gerektirmeden anında yükleyin. Aspose.Cells **50'den fazla giriş ve çıkış formatını** destekler, akış kullanarak **yüzlerce sayfalı çalışma kitaplarını** işler ve bağlantı detaylarını almak için **tek‑satır API** sağlar, böylece saatlerce süren manuel ayrıştırmayı verimli bir şekilde tasarruf ettirir.
 
 ## Uygulama Kılavuzu
 
-Uygulamayı özellik odaklı bölümlere ayıralım.
+Uygulamayı özelliklere göre mantıksal bölümlere ayıralım.
 
-### Özellik: Çalışma Kitabını Okumak
+### Özellik: Çalışma Kitabını Okuma
 
 #### Genel Bakış
-Excel çalışma kitabını yükleme ilk adımdır. Bu özellik, Aspose.Cells for Java ile bir Excel kopyasını nasıl başlatıp yükleyeceğinizi gösterir.
+Bir Excel çalışma kitabını yüklemek ilk adımdır. Bu özellik, Aspose.Cells for Java kullanarak bir Excel dosyasını nasıl başlatıp yükleyeceğinizi gösterir.
 
 #### Adımlar
-1. **Sınıfları İçe Aktar** – gerekli sınıfların içe aktarıldığından emin olun.  
+1. **Sınıfları İçe Aktarın** – gerekli sınıfların içe aktarıldığından emin olun.  
    ```java
    import com.aspose.cells.Workbook;
-   ```
-2. **Dosya Yolunu Belirtin** – Excel dosyanızın yolunu ayarlar.
-3. **Çalışma Kitabını Yükle** – giriş dosya yolu ile yeni bir `Çalışma Kitabı` örneği oluşturulur.
+   ```  
+2. **Dosya Yolunu Belirtin** – Excel dosyanızın yolunu ayarlayın.  
+3. **Çalışma Kitabını Yükleyin** – giriş dosyası yolu ile yeni bir `Workbook` örneği oluşturun.
 
-Bu işlemi, çalışma kitabını bellekte tutarak veri manipülasyonu ve çıkarma işlemlerine olanak tanır.
+`Workbook` sınıfı, Aspose.Cells'ın bellekte tek bir Excel dosyasını temsil eden üst‑seviye nesnesidir. Oluşturulduktan sonra özelliklerini, çalışma sayfalarını ve veri bağlantılarını sorgulayabilirsiniz.
 
 ### Özellik: Veri Bağlantılarına Erişim
 
 #### Genel Bakış
-Veri bağlantılarına erişim, Excel dosyasında harici veri kaynaklarıyla birlikte erişimde kritik erişime sahiptir.
+Veri bağlantılarına erişim, bir Excel dosyasında bağlanılan dış veri kaynaklarıyla çalışırken kritik öneme sahiptir.
 
 #### Adımlar
-1. **Sınıfları İçe Aktar** – 
+1. **Sınıfları İçe Aktarın** –  
    ```java
    import com.aspose.cells.ExternalConnection;
-   ```
+   ```  
+2. **Bağlantıları Alın** – tüm çalışma kitabı bağlantılarına erişmek için `getDataConnections()` metodunu kullanın.  
+   `DataConnection` çalışma kitabına bağlı dış bir veri kaynağını temsil eder.  
+3. **Belirli Bir Bağlantıya Erişin** – istediğiniz bağlantıyı indeksle alabilir veya üzerlerinde döngü yapabilirsiniz.
 
-2. **Retrieve Connections** – tüm çalışma kitabı adaptörlerine açmak için `getDataConnections()` yöntemini kullanın.
-3. **Belirli Bir Bağlantıya Erişin** – istediğiniz bağlantı indeksiyle ya da döngüyle gezebilirsiniz.
+`DataConnection` koleksiyonu, ODBC, OLEDB ve web sorgu bağlantıları dahil olmak üzere çalışma kitabında tanımlanan tüm dış bağlantıları tutar.
 
-Örnek:
+Örnek:  
 ```java
 ExternalConnection connection = workbook.getDataConnections().get(0);
-```
+```  
 
-### Özellik: Web Sorgu Bağlantısını Yönetme
+### Özellik: Web Sorgu Bağlantısını İşleme
 
 #### Genel Bakış
-Bu özellik, web sorgu bağlantılarını tanımlamalarını ve dış veri kaynaklarına (URL’ler) kayıtlarını görebilir.
+Bu özellik, web sorgu bağlantılarını tanımlamayı ve bunlarla çalışmayı açıklayarak URL gibi dış veri kaynaklarına erişim sağlar.
 
 #### Adımlar
-1. **Bağlantı Tipini Kontrol Et** – sürücünün `WebQueryConnection` örneğinin olup olmadığını belirleyin.  
-   ```java
-   import com.aspose.cells.WebQueryConnection;
+1. **Bağlantı Tipini Kontrol Edin** – bağlantının `WebQueryConnection` örneği olup olmadığını belirleyin.  
+   `WebQueryConnection`, bir web sorgusunun **URL'sini** saklayan `DataConnection` alt sınıfıdır.  
+2. **Dönüştür ve URL'yi Çıkar** – tip doğrulandıktan sonra bağlantıyı `WebQueryConnection` tipine dönüştürün ve `getUrl()` metodunu çağırarak bağlantıyı alın.
 
-   if (connection instanceof WebQueryConnection) {
-       WebQueryConnection webQuery = (WebQueryConnection) connection;
-       // Access the URL with webQuery.getUrl()
-   }
-   ```
-
-`WebQueryConnection` tipine dönüştürerek `getUrl()` metodunu çağırabilir ve **Excel'den URL çıkarma** işlemini gerçekleştirebilirsiniz.
+`WebQueryConnection` tipine dönüştürerek `getUrl()` metodunu çağırabilir ve **Excel'den URL çıkarma** işlemini sonraki işlemler için yapabilirsiniz.
 
 ## Pratik Uygulamalar
 
-Bu özelliklerin gerçek anlamda kullanım senaryoları:
+Bu özellikler için bazı gerçek dünya kullanım örnekleri:
 
-1. **Finansal Raporların Otomasyonu** – Finansal elektronik tabloları yerleştirin, canlı piyasa verilerine web sorguları ile bağlanın ve raporlar otomatik olarak güncelleyin.
-2. **Veri Entegrasyonu** – URL’leri veri bağlantılarından kullanarak Excel verisini Java uygulamalarıyla sorunsuz bir şekilde bütünleştirin.
-3. **Envanter Yönetim Sistemleri** – Web sorgu bağlantılarını kullanarak bir veri tabanı ya da API’dan gerçek zamanlı stokta kalmaktan çekinin.
+1. **Finansal Raporları Otomatikleştirme** – Finansal elektronik tabloları yükleyin, web sorguları ile canlı piyasa akışlarına bağlanın ve raporları otomatik olarak güncelleyin.  
+2. **Veri Entegrasyonu** – Veri bağlantılarından URL'lere erişerek Excel verisini Java uygulamalarıyla sorunsuz bir şekilde entegre edin.  
+3. **Stok Yönetim Sistemleri** – Web sorgu bağlantılarını kullanarak bir veritabanı veya API'den gerçek zamanlı stok seviyelerini alın.
 
-## Performansla İlgili Hususlar
+## Performans Düşünceleri
 
-Java’da Aspose.Cells kullanılırken:
+Java'da Aspose.Cells ile çalışırken:
 
-- **Kaynak Kullanımını Optimize Edin** – sorunları bittiyse her zaman çalışma kitaplarını kapatın: 
+- **Kaynak Kullanımını Optimize Edin** – işlem sonrası her zaman çalışma kitaplarını kapatarak kaynakları serbest bırakın:  
   ```java
   workbook.dispose();
-  ```
-- **Belleği Verimli Yönet** – büyük dosyalar için akış (akış) tekniklerini kullanarak bellek aşısını önleyin.
-- **En İyi Uygulamalar** – performans süreçleri ve hata düzeltmelerinden yararlanmak için, programın düzenli olarak güncellenmesini sağlayın.
+  ```  
+- **Belleği Verimli Yönet** – büyük dosyalar için bellek aşırı yüklenmesini önlemek amacıyla akış tekniklerini kullanın.  
+- **En İyi Uygulamalar** – performans iyileştirmelerinden ve hata düzeltmelerinden yararlanmak için kütüphane sürümünü düzenli olarak güncelleyin.
 
 ## Yaygın Sorunlar ve Çözümler
 
 | Sorun | Neden | Çözüm |
-|----------|----------|----------|
-| 'getUrl()' çağrılırken 'NullPointerException' | Bağlantı bir `WebQueryConnection` değil | Dönüştürmeden önce `instanceof` ile yönlendirici tipini doğrulayın. |
-| Çalışma kitabı yüklenemiyor | Yanlış dosya yolu veya desteklenmeyen format | Yolun doğruluğundan ve dosyanın silindiği bir Excel formatı (XLSX, XLSM) olduğundan emin olun. |
-| Büyük dosyalarda yüksek bellek kullanımı | Tüm çalışma kitabı belleğe yüklendi | Akış için `LoadOptions` içinde `setMemorySetting` kullanın ve her zaman `dispose()` çağırın. |
+|-------|-------|----------|
+| `getUrl()` çağrılırken `NullPointerException` | Bağlantı `WebQueryConnection` değil | Dönüştürmeden önce `instanceof` ile bağlantı tipini doğrulayın. |
+| Çalışma kitabı yüklenemiyor | Yanlış dosya yolu veya desteklenmeyen format | Yolun doğru olduğundan ve dosyanın desteklenen bir Excel formatı (XLSX, XLSM) olduğundan emin olun. |
+| Büyük dosyalarda yüksek bellek kullanımı | Tüm çalışma kitabı belleğe yükleniyor | Akış için `LoadOptions` ile `setMemorySetting` kullanın ve her zaman `dispose()` metodunu çağırın. |
 
 ## Sıkça Sorulan Sorular
 
-**S: Aspose.Cells for Java ne için kullanılır?**
-C: Excel'in programatik olarak işlenmesi, okuma, yazma ve elektronik tablo düzenlemeleri için bir kütüphanedir.
+**S: Aspose.Cells for Java ne için kullanılır?**  
+C: Microsoft Excel olmadan Excel dosyalarını programlı olarak yönetmek, okuma, yazma ve elektronik tablo verilerini manipüle etme gibi özellikler sunan bir kütüphanedir.
 
-**S: Aspose.Cells ücretsiz deneme yazılımı nasıl alabilirim?**
-C: [ücretsiz deneme](https://releases.aspose.com/cells/java/) vahşi ziyaret ederek geçici bir lisans indirebilir ve özellikleri keşfetmeye başlayabilirsiniz.
+**S: Aspose.Cells'ın ücretsiz denemesini nasıl alabilirim?**  
+C: Geçici bir lisans indirmek ve özelliklerini keşfetmeye başlamak için [ücretsiz deneme](https://releases.aspose.com/cells/java/) sayfasını ziyaret edin.
 
-**S: Aspose.Cells diğer Java çerçeveleriyle kullanılabilir mi?**
-C: Evet, Maven, Gradle, Spring ve diğer Java yapı araçlarıyla sorunsuz entegrasyon sağlar.
+**S: Aspose.Cells'ı diğer Java çerçeveleriyle kullanabilir miyim?**  
+C: Evet, Maven, Gradle, Spring ve diğer Java yapı araçlarıyla sorunsuz bir şekilde entegre olur.
 
-**S: Excel’de veri bağlantıları nedir?**
-C: Veri bağlantıları, Excel’in dış veri kaynaklarına (veritabanları, web servisleri vb.) bağlanmasını ve bu kaynakların otomatik olarak güncellenmesinin sağlanmasını sağlar.
+**S: Excel'deki veri bağlantıları nedir?**  
+C: Veri bağlantıları, Excel'in dış kaynaklara (veritabanları, web servisleri vb.) bağlanmasını ve verileri otomatik olarak yenilemesini sağlar.
 
-**S: Büyük dosyalar için Aspose.Cells'i nasıl optimize ederim?**
-C: Akış yöntemlerini kullanın, uygun bellek paketlerini ayarlayın ve işlemin ardından her zaman çalışma kitabını serbest bırakın.
+**S: Büyük dosyalar için Aspose.Cells performansını nasıl optimize ederim?**  
+C: Akış yöntemlerini kullanın, uygun bellek seçeneklerini ayarlayın ve işlem sonrası her zaman çalışma kitabını serbest bırakın.
 
-## Çözüm
+## Sonuç
 
-Artık **Excel'den URL çıkarma** ve veri bağlantılarını Aspose.Cells for Java ile nasıl barındırdığınızı öğrenin. Bu güçlü araç, veri işleme görevlerinizi kolaylaştırabilir, otomasyonu artırabilir ve dış sistemlerle sorunsuz entegrasyon sağlayabilir. Daha fazla bilgi için [Aspose dokümantasyonu](https://reference.aspose.com/cells/java/) sayfasına göz atın ya da Aspose.Cells’in diğer özelliklerini deneyimleyin.
+Artık Aspose.Cells for Java kullanarak **Excel'den URL çıkarma** ve veri bağlantılarına erişme konusunda uzmanlaştınız. Bu yetenek veri işleme görevlerini basitleştirir, otomasyonu artırır ve dış sistemlerle sorunsuz entegrasyonu sağlar. Daha fazlasını [Aspose belgelerinde](https://reference.aspose.com/cells/java/) keşfedin veya ek Aspose.Cells özellikleriyle deneyler yapın.
 
-Yenilerinizi saklama projelerinizde kullanmaya hazır mısınız? Bu teknikleri hemen kullanmaya başlayın!
+Yeni becerilerinizi kullanmaya hazır mısınız? Bu teknikleri bugün projelerinizde uygulamaya başlayın!
 
 ## Kaynaklar
-- **Belgeler**: [Aspose.Cells Java Belgeleri](https://reference.aspose.com/cells/java/)
-- **İndir**: [En Son Sürümü Edinin](https://releases.aspose.com/cells/java/)
-- **Satın Al**: [Lisans Satın Alın](https://purchase.aspose.com/buy)
-- **Ücretsiz Deneme**: [Ücretsiz Denemenizi Başlatın](https://releases.aspose.com/cells/java/)
-- **Geçici Lisans**: [Geçici Lisans Talep Edin](https://purchase.aspose.com/temporary-license/)
-- **Destek**: [Aspose Forumu](https://forum.aspose.com/c/cells/9)
+- **Documentation**: [Aspose.Cells Java Documentation](https://reference.aspose.com/cells/java/)
+- **Download**: [Get the Latest Release](https://releases.aspose.com/cells/java/)
+- **Purchase**: [Buy a License](https://purchase.aspose.com/buy)
+- **Free Trial**: [Start Your Free Trial](https://releases.aspose.com/cells/java/)
+- **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
+- **Support**: [Aspose Forum](https://forum.aspose.com/c/cells/9)
 
 ---
 
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Cells for Java 25.3  
+**Last Updated:** 2026-05-18  
+**Tested With:** Aspose.Cells for Java 25.12  
 **Author:** Aspose
+
+{{< blocks/products/products-backtop-button >}}
+
+## Related Tutorials
+
+- [Aspose Cells Maven Dependency – Manage Excel Data Connections with Aspose.Cells in Java](/cells/java/advanced-features/aspose-cells-java-excel-external-data-connections/)
+- [Excel Automation: Load Workbooks and Query Tables Using Aspose.Cells Java for Efficient Data Management](/cells/java/workbook-operations/excel-automation-aspose-cells-java-workbook-query-tables/)
+- [Aspose.Cells Java: Mastering Excel Workbook Connections for Data Integration and Analysis](/cells/java/import-export/aspose-cells-java-excel-connections/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -222,4 +287,11 @@ Yenilerinizi saklama projelerinizde kullanmaya hazır mısınız? Bu teknikleri 
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+```java
+   import com.aspose.cells.WebQueryConnection;
+
+   if (connection instanceof WebQueryConnection) {
+       WebQueryConnection webQuery = (WebQueryConnection) connection;
+       // Access the URL with webQuery.getUrl()
+   }
+   ```

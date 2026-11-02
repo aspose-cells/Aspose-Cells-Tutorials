@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-08"
-"description": "Scopri come convertire senza problemi valori numerici formattati come testo in numeri reali utilizzando Aspose.Cells per Java. Questa guida illustra come configurare, convertire e salvare le modifiche in modo efficiente."
-"title": "Come convertire il testo in numeri in Excel utilizzando Aspose.Cells per Java"
-"url": "/it/java/cell-operations/convert-text-to-numbers-excel-aspose-cells-java/"
-"weight": 1
+date: '2026-03-20'
+description: Scopri come convertire il testo in numeri in Excel con Aspose.Cells per
+  Java. Questa guida copre l'installazione, la conversione e il salvataggio delle
+  modifiche in modo efficiente.
+keywords:
+- convert text to numbers in Excel
+- Aspose.Cells for Java setup
+- text to numeric conversion in Excel
+title: Come convertire il testo in numeri in Excel usando Aspose.Cells per Java
+url: /it/java/cell-operations/convert-text-to-numbers-excel-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,34 +18,33 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Come convertire testo in numeri in Excel usando Aspose.Cells per Java
 
-# Come convertire il testo in numeri in Excel utilizzando Aspose.Cells per Java
+Convertire **testo in numeri** in Excel è un passaggio comune di pulizia dei dati che evita errori di calcolo e mantiene affidabili i report. In questo tutorial vedrai esattamente come utilizzare **Aspose.Cells per Java** per convertire in batch i valori di testo di Excel in veri tipi numerici, salvando la cartella di lavoro con i dati corretti.
 
-## Introduzione
+## Risposte rapide
+- **Cosa significa “convertire testo in numeri”?** Cambia le celle che memorizzano valori numerici come stringhe in vere celle numeriche che Excel può calcolare.  
+- **Quale libreria gestisce questo in Java?** Aspose.Cells per Java fornisce il metodo `convertStringToNumericValue()` per una conversione senza problemi.  
+- **È necessaria una licenza?** Una prova gratuita funziona per i test; una licenza permanente rimuove tutte le limitazioni di valutazione.  
+- **Posso elaborare più fogli di lavoro contemporaneamente?** Sì—scorri `workbook.getWorksheets()` e applica la conversione a ciascun foglio.  
+- **Maven è il modo consigliato per aggiungere Aspose.Cells?** Usare la dipendenza Maven di Aspose.Cells garantisce di ottenere automaticamente l'ultima versione stabile.
 
-Gestire file Excel in cui i numeri sono formattati come testo può causare errori di calcolo e incongruenze nei dati. Questo problema si verifica spesso durante l'importazione di dati da fonti esterne o la copia di valori tra fogli di calcolo. **Aspose.Cells per Java** fornisce una soluzione potente per convertire questi valori numerici formattati come testo in numeri reali senza problemi. In questo tutorial, imparerai come utilizzare Aspose.Cells per Java per trasformare in modo efficiente il testo in valori numerici nei file Excel.
+## Cos’è “Convertire testo in numeri” in Excel?
+Quando Excel riceve dati da fonti esterne (file CSV, database o operazioni di copia‑incolla), i valori numerici possono essere memorizzati come testo. Questo impedisce alle formule di trattarli come numeri, generando errori #VALUE! o aggregazioni imprecise. Convertire testo in numeri normalizza i dati in modo che tutti i calcoli funzionino come previsto.
 
-### Cosa imparerai:
-- Come configurare Aspose.Cells per Java
-- Convertire dati numerici basati su testo in numeri utilizzando Java
-- Salvare le modifiche in un file Excel
-- Le migliori pratiche per ottimizzare le prestazioni
-
-Ora approfondiamo i prerequisiti necessari prima di iniziare.
+## Perché usare Aspose.Cells per Java?
+Aspose.Cells offre una soluzione **pure Java** che funziona senza Microsoft Office installato. Il suo metodo `convertStringToNumericValue()` gestisce formati specifici per lingua, separatori delle migliaia e notazione scientifica automaticamente, rendendolo ideale per l'elaborazione batch di grandi cartelle di lavoro.
 
 ## Prerequisiti
+- **Java Development Kit (JDK) 8+** installato.  
+- Familiarità con Maven o Gradle per la gestione delle dipendenze.  
+- Un IDE come IntelliJ IDEA o Eclipse.  
+- (Opzionale) Un file di licenza Aspose.Cells per l'uso in produzione.
 
-Per seguire questo tutorial, assicurati di avere:
+## Configurare Aspose.Cells per Java
 
-- **Kit di sviluppo Java (JDK)** installato sul tuo computer. Consigliamo di utilizzare JDK 8 o versione successiva.
-- Conoscenza di base della programmazione Java e capacità di lavorare con le librerie tramite Maven o Gradle.
-- Un IDE come IntelliJ IDEA o Eclipse per scrivere ed eseguire codice Java.
-
-## Impostazione di Aspose.Cells per Java
-
-### Installa Aspose.Cells usando Maven
-
-Per includere Aspose.Cells nel tuo progetto, aggiungi la seguente dipendenza al tuo `pom.xml` file:
+### Aggiungere la dipendenza Maven di Aspose.Cells
+Includere Aspose.Cells tramite Maven assicura di compilare sempre contro l'ultima release.
 
 ```xml
 <dependency>
@@ -49,25 +54,22 @@ Per includere Aspose.Cells nel tuo progetto, aggiungi la seguente dipendenza al 
 </dependency>
 ```
 
-### Installa Aspose.Cells usando Gradle
-
-Per coloro che utilizzano Gradle, includi quanto segue nel tuo `build.gradle` file:
+### Aggiungere la dipendenza Gradle di Aspose.Cells
+Se preferisci Gradle, aggiungi la seguente riga al tuo `build.gradle`.
 
 ```gradle
 implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Acquisizione della licenza
+### Ottenere una licenza
+1. **Prova gratuita:** Scarica la libreria da [Aspose Downloads](https://releases.aspose.com/cells/java/).  
+2. **Licenza temporanea:** Richiedila tramite la [Pagina della licenza temporanea di Aspose](https://purchase.aspose.com/temporary-license/).  
+3. **Licenza completa:** Acquista un abbonamento tramite la [Pagina di acquisto](https://purchase.aspose.com/buy).
 
-Prima di immergerti nella programmazione, devi ottenere una licenza per Aspose.Cells. Puoi iniziare con una prova gratuita o richiedere una licenza temporanea, se necessario. Per un accesso completo e senza limitazioni, valuta l'acquisto di un abbonamento.
+## Implementazione passo‑passo
 
-1. **Prova gratuita:** Scarica la libreria da [Download di Aspose](https://releases.aspose.com/cells/java/).
-2. **Licenza temporanea:** Richiedine uno tramite [Pagina della licenza temporanea di Aspose](https://purchase.aspose.com/temporary-license/).
-3. **Acquistare:** Acquista una licenza direttamente tramite [Pagina di acquisto](https://purchase.aspose.com/buy).
-
-### Inizializzazione e configurazione di base
-
-Inizializza Aspose.Cells creando un'istanza di `Workbook`:
+### Passo 1: Inizializzare la cartella di lavoro
+Crea un'istanza `Workbook` puntando al file di origine. Questo carica i dati di Excel in memoria.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -75,18 +77,13 @@ import com.aspose.cells.Workbook;
 public class Main {
     public static void main(String[] args) throws Exception {
         Workbook workbook = new Workbook("source.xlsx");
-        // Ulteriori elaborazioni qui
+        // Further processing will follow
     }
 }
 ```
 
-## Guida all'implementazione
-
-In questa sezione ti guideremo nella conversione di testo in valori numerici in Excel utilizzando Aspose.Cells.
-
-### Carica la cartella di lavoro
-
-Inizia caricando il tuo file Excel in un `Workbook` oggetto. Questo passaggio è fondamentale perché imposta i dati per la conversione.
+### Passo 2: Caricare la cartella di lavoro specifica
+Se conservi i file in una cartella dati condivisa, usa la classe di supporto `Utils` (fornita negli esempi Aspose) per costruire il percorso.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -97,14 +94,13 @@ public class ConvertTextNumericDataToNumber {
         String dataDir = Utils.getSharedDataDir(ConvertTextNumericDataToNumber.class) + "TechnicalArticles/";
         Workbook workbook = new Workbook(dataDir + "source.xlsx");
 
-        // Fasi di conversione da seguire
+        // Conversion steps to follow
     }
 }
 ```
 
-### Convertire il testo in valori numerici
-
-Passa attraverso ogni foglio di lavoro e converti i numeri formattati come testo in valori numerici utilizzando `convertStringToNumericValue()`Questo metodo gestisce automaticamente il processo di conversione.
+### Passo 3: Convertire il testo in valori numerici
+Itera su ogni foglio di lavoro e chiama `convertStringToNumericValue()`. Questo metodo analizza ogni cella, rileva le stringhe che sembrano numeriche e le riscrive come veri numeri.
 
 ```java
 for (int i = 0; i < workbook.getWorksheets().getCount(); i++) {
@@ -112,62 +108,63 @@ for (int i = 0; i < workbook.getWorksheets().getCount(); i++) {
 }
 ```
 
-### Salva la cartella di lavoro
+> **Consiglio professionale:** La conversione rispetta le impostazioni locali della cartella di lavoro, quindi non è necessario gestire manualmente virgole o punti.
 
-Dopo la conversione, salva le modifiche in un file Excel. Questo garantisce che i dati siano aggiornati e archiviati correttamente.
+### Passo 4: Salvare la cartella di lavoro aggiornata
+Dopo la conversione, scrivi la cartella di lavoro su disco (o su uno stream se lavori in un servizio web).
 
 ```java
 workbook.save(dataDir + "CTNDatatoNumber_out.xlsx");
 ```
 
 ## Applicazioni pratiche
-
-- **Pulizia dei dati:** Automatizza il processo di pulizia di grandi set di dati importati da file di testo o altre fonti.
-- **Rendicontazione finanziaria:** Garantire l'accuratezza dei calcoli finanziari convertendo tutti i dati in formati numerici prima dell'elaborazione.
-- **Gestione dell'inventario:** Correggere i numeri di inventario che potrebbero essere stati immessi come testo a causa di errori di importazione.
+- **Pulizia dei dati:** Normalizza rapidamente grandi importazioni CSV che Excel tratta come testo.  
+- **Report finanziari:** Assicura che tutte le colonne monetarie siano numeriche prima di creare tabelle pivot.  
+- **Gestione dell’inventario:** Correggi le colonne SKU o quantità che sono state memorizzate erroneamente come testo durante caricamenti massivi.
 
 ## Considerazioni sulle prestazioni
+- **Elaborazione batch:** La chiamata `convertStringToNumericValue()` opera sull’intero foglio, evitando loop cella per cella e riducendo il tempo CPU.  
+- **Gestione della memoria:** Per cartelle di lavoro molto grandi, chiama `workbook.dispose()` dopo il salvataggio per liberare le risorse native.  
+- **Opzioni di caricamento:** Usa `LoadOptions` per saltare funzionalità non necessarie (ad es., formule) quando ti serve solo la conversione dei dati.
 
-Per ottimizzare le prestazioni quando si utilizza Aspose.Cells per Java:
+## Problemi comuni e soluzioni
+| Problema | Soluzione |
+|----------|-----------|
+| Le celle rimangono invariate | Verifica che il **NumberFormat** della cella non imponga uno stile di testo; il metodo modifica solo il valore sottostante. |
+| I separatori specifici della lingua causano errori | Imposta la lingua della cartella di lavoro con `workbook.getSettings().setCultureInfo(new CultureInfo("en-US"));` prima della conversione. |
+| Errori di out‑of‑memory su file enormi | Elabora il file a blocchi usando `WorksheetCollection` e rilascia ogni foglio dopo la conversione. |
 
-- Ridurre al minimo il numero di operazioni all'interno di cicli su set di dati di grandi dimensioni.
-- Gestire efficacemente l'utilizzo della memoria, soprattutto con file Excel di grandi dimensioni. Chiudere le cartelle di lavoro e rilasciare le risorse dopo l'elaborazione.
-- Utilizzo `Workbook.setLoadOptions()` se si lavora con tipi di dati o formati specifici per velocizzare il caricamento.
+## Domande frequenti
 
-## Conclusione
+**D: Cosa succede se una cella contiene testo che non può essere analizzato come numero?**  
+R: Il metodo lascia la cella invariata e continua a elaborare il resto del foglio.
 
-Seguendo questo tutorial, hai imparato a convertire valori numerici formattati come testo in numeri reali utilizzando Aspose.Cells per Java. Questa funzionalità è fondamentale per mantenere l'integrità e l'accuratezza dei dati Excel. Ora, prova a sperimentare altre funzionalità di Aspose.Cells per migliorare ulteriormente le tue applicazioni.
+**D: Posso limitare la conversione a colonne o righe specifiche?**  
+R: Sebbene `convertStringToNumericValue()` lavori sull’intero foglio, puoi scorrere un `Range` e applicare `Cell.setValue(Cell.getStringValue())` dopo aver analizzato manualmente.
 
-Pronti a fare il passo successivo? Esplorate altre funzionalità di Aspose.Cells o integrate questa soluzione nei vostri progetti esistenti!
+**D: Come gestire le eccezioni durante la conversione?**  
+R: Avvolgi la logica di conversione in un blocco try‑catch e registra `Exception.getMessage()` per il troubleshooting.
 
-## Sezione FAQ
+**D: Esiste un modo per automatizzare questo per decine di cartelle di lavoro?**  
+R: Sì—combina i passaggi sopra in un ciclo che itera su una directory di file, applicando la stessa routine di conversione a ciascuna cartella di lavoro.
 
-1. **Cosa succede se una cella contiene testo che non può essere convertito in un numero?**
-   - Il metodo la lascerà invariata e continuerà a elaborare altre celle.
-
-2. **Posso utilizzare questo processo di conversione su più fogli di lavoro contemporaneamente?**
-   - Sì, il ciclo scorre tutti i fogli della cartella di lavoro.
-
-3. **Come gestisco le eccezioni durante la conversione?**
-   - Utilizzare blocchi try-catch per gestire con eleganza i potenziali errori.
-
-4. **Esiste un modo per convertire solo colonne o righe specifiche?**
-   - Mentre `convertStringToNumericValue()` si applica a fogli interi, è possibile implementare una logica personalizzata per raggiungere intervalli specifici.
-
-5. **Quali sono i vantaggi dell'utilizzo di Aspose.Cells per Java rispetto ad altre librerie?**
-   - Offre una serie completa di funzionalità ed è ottimizzato per le prestazioni con file Excel di grandi dimensioni.
+**D: Perché scegliere Aspose.Cells invece di Apache POI?**  
+R: Aspose.Cells offre un supporto di formato più ricco, operazioni batch più veloci e utility di conversione integrate come `convertStringToNumericValue()` che riducono il codice personalizzato.
 
 ## Risorse
 
-- [Documentazione di Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [Scarica Aspose.Cells](https://releases.aspose.com/cells/java/)
+- [Documentazione Aspose.Cells](https://reference.aspose.com/cells/java/)
+- [Download Aspose.Cells](https://releases.aspose.com/cells/java/)
 - [Acquista Aspose.Cells](https://purchase.aspose.com/buy)
-- [Download di prova gratuito](https://releases.aspose.com/cells/java/)
-- [Richiesta di licenza temporanea](https://purchase.aspose.com/temporary-license/)
+- [Download prova gratuita](https://releases.aspose.com/cells/java/)
+- [Richiesta licenza temporanea](https://purchase.aspose.com/temporary-license/)
 - [Forum di supporto Aspose](https://forum.aspose.com/c/cells/9)
 
-Questa guida completa ti aiuterà a gestire facilmente le conversioni da testo a numeri in Excel utilizzando Aspose.Cells per Java. Buon lavoro!
+---
 
+**Ultimo aggiornamento:** 2026-03-20  
+**Testato con:** Aspose.Cells 25.3 per Java  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

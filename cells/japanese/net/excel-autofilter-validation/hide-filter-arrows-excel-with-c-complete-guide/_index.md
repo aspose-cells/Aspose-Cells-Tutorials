@@ -21,8 +21,6 @@ title: C#でExcelのフィルター矢印を非表示にする – 完全ガイ�
 url: /ja/net/excel-autofilter-validation/hide-filter-arrows-excel-with-c-complete-guide/
 ---
 
-We'll output the entire content with same structure.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

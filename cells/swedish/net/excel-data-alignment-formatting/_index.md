@@ -38,6 +38,9 @@ Läs mer om hur du [Ändra Excel-celljustering utan att förlora formatering](./
 ### [Ändra Excel-celljustering utan att förlora formatering](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
 Lär dig hur du ändrar justeringen av Excel-celler utan att förlora formatering med Aspose.Cells för .NET. Följ vår omfattande steg-för-steg-guide för sömlös kontroll.
 
+### [Hur du radbryter text i Excel: Radbryt text i cell, Auto‑Fit och spara](./how-to-wrap-text-in-excel-wrap-text-in-cell-auto-fit-save/)
+Lär dig hur du radbryter text i Excel‑celler, använder Auto‑Fit och sparar dina ändringar med Aspose.Cells för .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

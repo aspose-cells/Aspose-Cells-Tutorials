@@ -12,13 +12,7 @@ url: /it/java/cell-operations/aspose-cells-java-column-iteration-guide/
 weight: 1
 ---
 
-/products/products-backtop-button >}}
-
-Now ensure we keep all shortcodes exactly. Also keep code block placeholders unchanged.
-
-We need to keep markdown formatting, headers etc.
-
-Now produce final output with translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

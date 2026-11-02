@@ -24,13 +24,7 @@ title: C#'ta yeni Excel çalışma kitabı oluşturma – Adım adım rehber
 url: /tr/net/excel-workbook/create-new-excel-workbook-in-c-step-by-step-guide/
 ---
 
-iyet duyarım.*"
-
-Then closing shortcodes unchanged.
-
-Make sure to keep all shortcodes at top and bottom.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

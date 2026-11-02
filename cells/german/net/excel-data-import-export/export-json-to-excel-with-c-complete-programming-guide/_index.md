@@ -25,12 +25,6 @@ title: 'JSON nach Excel exportieren mit C#: Vollständiger Programmierleitfaden'
 url: /de/net/excel-data-import-export/export-json-to-excel-with-c-complete-programming-guide/
 ---
 
-Export JSON to Excel result showing a table of names](/images/export-json-to-excel.png "export json to excel") - keep unchanged.
-
-Also keep any inline code like `Workbook`, `SmartMarkerOptions.ArrayAsSingle`, etc.
-
-Now produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

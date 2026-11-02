@@ -23,15 +23,7 @@ title: Como criar pasta de trabalho – Fundo azul‑claro, importação de dado
 url: /pt/net/excel-data-import-export/how-to-create-workbook-light-blue-background-data-import/
 ---
 
-any URLs: none.
-
-Check for any markdown links: none.
-
-Check for code fences: placeholders only.
-
-Make sure to preserve headings count.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

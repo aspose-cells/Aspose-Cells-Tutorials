@@ -22,15 +22,7 @@ title: 'Como usar WRAPCOLS: Crie um layout de duas colunas em C#'
 url: /pt/net/row-and-column-management/how-to-use-wrapcols-create-a-two-column-layout-in-c/
 ---
 
-them as is.
-
-Check for any URLs: none.
-
-Check for any markdown links: none.
-
-All good.
-
-Now produce final answer with only translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

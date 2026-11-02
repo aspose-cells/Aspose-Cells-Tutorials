@@ -20,12 +20,6 @@ title: 创建新工作簿并精确导出 Excel 为 TXT
 url: /zh/net/excel-data-export-retrieval/create-new-workbook-and-export-excel-to-txt-with-precision/
 ---
 
-them as is.
-
-Also the block shortcodes at top and bottom remain unchanged.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}

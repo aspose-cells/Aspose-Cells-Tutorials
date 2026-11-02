@@ -20,9 +20,7 @@ title: C#でExcelに配列を作成する方法 – ステップバイステッ�
 url: /ja/net/data-manipulation/how-to-create-array-in-excel-with-c-step-by-step-guide/
 ---
 
-Keep them.
-
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -20,12 +20,6 @@ title: แปลงวันที่ตามสมัยญี่ปุ่น�
 url: /th/net/data-loading-and-parsing/parse-japanese-era-dates-in-excel-full-guide-for-c-developer/
 ---
 
-Now ensure we preserve markdown formatting, headings, lists, tables, code placeholders.
-
-Check for any other markdown links: none.
-
-Now produce final content with translations.
-
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
