@@ -38,6 +38,8 @@
 تعرف على كيفية تعيين الخطوط الافتراضية لخيارات حفظ PDF باستخدام Aspose.Cells لـ .NET، مما يضمن ظهور مستنداتك بشكل مثالي في كل مرة.
 ### [تحديد الخطوط لعرض المصنف](./specify-fonts-for-workbook-rendering/)
 تعرّف على كيفية تحديد خطوط مخصصة لعرض مصنفات العمل باستخدام Aspose.Cells لـ .NET. دليل خطوة بخطوة لضمان إخراج مثالي لملفات PDF.
+### [تغيير خط مربع النص في شبكة – دليل شامل خطوة بخطوة](./change-textbox-font-in-a-grid-complete-step-by-step-guide/)
+تعرف على كيفية تغيير خط مربع النص داخل شبكة باستخدام Aspose.Cells لـ .NET عبر دليل شامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

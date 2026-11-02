@@ -29,6 +29,9 @@
 ### [إضافة صورة إلى تعليق Excel باستخدام Aspose.Cells لـ Java: دليل كامل](./add-image-excel-comment-aspose-cells-java/)
 تعرّف على كيفية إضافة صور إلى تعليقات Excel باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل كل شيء، من الإعداد إلى التنفيذ، لتحسين جداول بياناتك بفعالية.
 
+### [كيفية إضافة تعليق في Excel باستخدام Java – دليل كامل](./how-to-add-comment-in-excel-with-java-complete-guide/)
+تعرف على كيفية إضافة تعليقات إلى ملفات Excel باستخدام Aspose.Cells لـ Java خطوة بخطوة.
+
 ### [إتقان Aspose.Cells Java: إدارة تعليقات Excel بكفاءة](./aspose-cells-java-excel-comment-management/)
 تعلم كيفية إدارة تعليقات Excel وإزالتها باستخدام Aspose.Cells لجافا. أتمت معالجة البيانات باستخدام دليلنا المفصل لإدارة التعليقات.
 
@@ -53,7 +56,10 @@
 ### [تصدير تعليقات Excel إلى HTML باستخدام Aspose.Cells لـ Java](./export-excel-comments-html-aspose-cells-java/)
 برنامج تعليمي لبرمجة Aspose.Words في Java
 
-
+### [إضافة تعليق إلى Excel باستخدام Java – دليل كامل خطوة بخطوة](./add-comment-to-excel-using-java-complete-step-by-step-guide/)
+تعرّف على كيفية إضافة تعليق إلى ملفات Excel باستخدام Aspose.Cells لـ Java من خلال دليل خطوة بخطوة شامل.
+### [إضافة تعليق إلى Excel باستخدام Java – دليل خطوة بخطوة كامل](./add-comment-to-excel-with-java-complete-step-by-step-guide/)
+تعرّف على كيفية إضافة تعليقات إلى ملفات Excel باستخدام Java خطوة بخطوة مع Aspose.Cells.
 
 ## موارد إضافية
 

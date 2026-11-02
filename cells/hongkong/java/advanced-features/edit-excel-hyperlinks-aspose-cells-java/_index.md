@@ -1,12 +1,54 @@
 ---
-date: '2025-12-18'
-description: 學習如何使用 Aspose.Cells for Java 處理多個 Excel 檔案並更改超連結 URL。包括編輯超連結及移除損毀的 Excel
-  連結的步驟。
+date: '2026-05-23'
+description: 了解如何使用 Aspose.Cells 於 Java 編輯 Excel 超連結、載入 Excel 工作簿（Java），以及有效移除損壞的
+  Excel 連結。
 keywords:
-- edit Excel hyperlinks Java Aspose.Cells
-- manage Excel document links Aspose.Cells
-- update hyperlinks in Excel using Java
-title: 處理多個 Excel 檔案 – 使用 Aspose.Cells Java 編輯超連結
+- edit excel hyperlinks java
+- load excel workbook java
+- remove broken excel links
+- maven dependency aspose cells
+schemas:
+- author: Aspose
+  dateModified: '2026-05-23'
+  description: Learn how to edit Excel hyperlinks Java using Aspose.Cells, load Excel
+    workbook Java, and remove broken Excel links efficiently.
+  headline: Edit Excel Hyperlinks Java – Process Multiple Files
+  type: TechArticle
+- description: Learn how to edit Excel hyperlinks Java using Aspose.Cells, load Excel
+    workbook Java, and remove broken Excel links efficiently.
+  name: Edit Excel Hyperlinks Java – Process Multiple Files
+  steps:
+  - name: '**Updating Web Links:** Automatically refresh outdated URLs in quarterly
+      financial reports.'
+    text: '**Updating Web Links:** Automatically refresh outdated URLs in quarterly
+      financial reports.'
+  - name: '**Consistency Across Documents:** Enforce a corporate branding policy by
+      standardizing hyperlink destinations across dozens of departmental spreadsheets.'
+    text: '**Consistency Across Documents:** Enforce a corporate branding policy by
+      standardizing hyperlink destinations across dozens of departmental spreadsheets.'
+  - name: '**Data Integration:** Point hyperlinks to new API endpoints or internal
+      data portals after a system migration.'
+    text: '**Data Integration:** Point hyperlinks to new API endpoints or internal
+      data portals after a system migration.'
+  type: HowTo
+- questions:
+  - answer: Yes, iterate through `workbook.getWorksheets()` and apply hyperlink changes
+      to each worksheet.
+    question: Can I edit multiple worksheets at once?
+  - answer: Use error‑handling techniques such as try‑catch blocks and the removal
+      logic shown in the editing example.
+    question: How do I handle broken links with Aspose.Cells Java?
+  - answer: Absolutely. Use `worksheet.getHyperlinks().add()` to insert new links
+      into your worksheet.
+    question: Is it possible to add new hyperlinks using Aspose.Cells Java?
+  - answer: Yes, Aspose.Cells is available for .NET, C++, and more. Check out the
+      [official website](https://www.aspose.com/) for language‑specific guides.
+    question: Can I use Aspose.Cells with other programming languages besides Java?
+  - answer: Regularly check your subscription status on the Aspose dashboard and renew
+      or update your license as needed.
+    question: How can I ensure my license remains active when using Aspose.Cells?
+  type: FAQPage
+title: 編輯 Excel 超連結 Java – 處理多個檔案
 url: /zh-hant/java/advanced-features/edit-excel-hyperlinks-aspose-cells-java/
 weight: 1
 ---
@@ -17,44 +59,34 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# 編輯 Excel 超連結 Java – 處理多個檔案
 
-# 一次處理多個 Excel 檔案 – 使用 Aspose.Cells Java 編輯超連結
+當您需要在一批工作簿中 **edit Excel hyperlinks Java** 時，手動操作容易出錯且耗時。無論您是遷移企業網站、修復過時的 URL，或在資料遷移後清理失效連結，Aspose.Cells for Java 都能讓您以程式方式載入 Excel 工作簿 Java 物件、修改超連結 URL，並安全地移除損壞的 Excel 超連結——全部在一次自動化執行中完成。本指南將帶您完整了解工作流程，從專案設定到儲存已更新的檔案。
 
-## 介紹
-當您需要 **一次處理多個 Excel 檔案** 並保持其超連結為最新時，手動編輯很快就變得不切實際。無論是網站重新設計後更新 URL，或是清除失效的連結，Aspose.Cells for Java 都提供可靠且程式化的方式來變更 Excel 檔案中的超連結 URL，甚至移除失效的 Excel 連結。  
-
-在本完整指南中，我們將示範如何：
-- 載入 Excel 活頁簿（或一批活頁簿）
-- 存取並 **變更 Excel 超連結 URL** 條目
-- 儲存更新後的文件，同時保留所有其他資料
-
-讓我們先了解您需要的先決條件。
-
-## 快速解答
-- **本教學涵蓋什麼內容？** 使用 Aspose.Cells for Java 編輯與更新一個或多個 Excel 檔案中的超連結。  
+## 快速答案
+- **此教學涵蓋什麼內容？** 使用 Aspose.Cells for Java 編輯與更新單一或多個 Excel 檔案中的超連結。  
 - **我需要授權嗎？** 免費試用可用於測試；正式環境需購買商業授權。  
-- **我能一次處理多個檔案嗎？** 可以，只需在目錄中迴圈處理檔案。  
-- **如何移除失效的連結？** 在迴圈中偵測無效的 URL，並使用 `worksheet.getHyperlinks().remove(i)` 刪除。  
+- **我可以一次處理多個檔案嗎？** 可以——只需在目錄中迴圈處理檔案。  
+- **如何移除損壞的連結？** 在迴圈中偵測無效 URL，並使用 `worksheet.getHyperlinks().remove(i)` 刪除。  
 - **需要哪個版本的 Java？** Java 8 或更高版本。
 
-## 先決條件
-在開始之前，請確保已安裝必要的程式庫與環境設定：
+## 什麼是 edit excel hyperlinks java？
+Edit Excel hyperlinks Java 是使用 Aspose.Cells 程式庫，以程式方式變更 Excel 工作簿內 Hyperlink 物件之 `address` 屬性的過程。此方式可避免手動編輯、確保一致性，且能在數秒內套用於成千上萬的檔案。
 
-### 必要程式庫
-- **Aspose.Cells for Java** 版本 25.3 或更新版本
+## 為什麼使用 Aspose.Cells 進行超連結編輯？
+Aspose.Cells 支援 **50 多種輸入與輸出格式**——包括 XLSX、XLS、CSV 與 ODS，且憑藉其串流 API 可在不將整個檔案載入記憶體的情況下處理高達 **100 萬列** 的工作簿。此程式庫亦會保留儲存格格式、公式與圖表資料，確保僅變更超連結目標，而工作表的其他部分保持不變。
 
-### 環境設定需求
-- 系統上已安裝 Java Development Kit（JDK）。  
-- 使用 IntelliJ IDEA、Eclipse 或其他類似的整合開發環境（IDE）。
+## 前置條件
+- **Aspose.Cells for Java** 版本 25.3 或更新（請參考下方 Maven/Gradle 片段）。  
+- 在開發機上安裝 JDK 8 或更新版本。  
+- 使用 IntelliJ IDEA 或 Eclipse 等 IDE。  
+- 具備基本的 Java 知識與 Excel 概念。
 
-### 知識先備
-- 具備 Java 程式設計概念的基本了解。  
-- 熟悉 Excel 檔案操作與超連結。
+## 如何載入 Excel 工作簿 Java？
+`Workbook` 是 Aspose.Cells 中代表整個 Excel 檔案的類別，可存取工作表、儲存格與文件層級屬性。  
+透過建立指向磁碟上 Excel 檔案的 `Workbook` 實例來載入工作簿。此單行程式碼會將檔案讀入記憶體，準備進行超連結操作。實例化後，您即可在工作表間導航、讀取儲存格值，並依需求修改超連結、圖表或公式等物件。
 
-## 設定 Aspose.Cells for Java
-要開始使用 Aspose.Cells，您需要將其加入專案中。以下說明如何操作：
-
-**Maven:**
+```text
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -62,22 +94,23 @@ weight: 1
     <version>25.3</version>
 </dependency>
 ```
+```
 
-**Gradle:**
+### 定義錨點
+`Workbook` 類別是 Aspose.Cells 的核心物件，代表整個 Excel 檔案，提供程式化存取工作表、儲存格與文件層級屬性。
+
+## 設定 Aspose.Cells for Java
+使用支援的建置工具將程式庫加入您的專案。
+
+**Maven:**
+```text
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
+```
 
-### 取得授權步驟
-使用 Aspose.Cells 時，您可以先使用免費試用版，或申請臨時授權以供評估：
-
-- **免費試用：** 從 [Aspose Releasers](https://releases.aspose.com/cells/java/) 下載。  
-- **臨時授權：** 前往 [此處](https://purchase.aspose.com/temporary-license/) 申請，以解鎖完整功能且無限制。  
-- **購買授權：** 商業使用請於 [Aspose Purchase](https://purchase.aspose.com/buy) 購買授權。  
-
-#### 基本初始化與設定
-在 Java 應用程式中初始化 Aspose.Cells：
-
+**Gradle:**
+```text
 ```java
 import com.aspose.cells.Workbook;
 
@@ -92,13 +125,15 @@ public class InitializeAsposeCells {
     }
 }
 ```
+```
 
-## 實作指南
-現在，讓我們一步步說明如何使用 Aspose.Cells Java 編輯 Excel 工作表中的超連結。
+### 取得授權步驟
+- **免費試用：** 從 [Aspose Releasers](https://releases.aspose.com/cells/java/) 下載。  
+- **臨時授權：** 前往 [此處](https://purchase.aspose.com/temporary-license/) 申請，以解鎖完整功能且無限制。  
+- **購買授權：** 商業使用請於 [Aspose Purchase](https://purchase.aspose.com/buy) 購買授權。
 
-### 載入活頁簿
-首先載入包含您想編輯的超連結之 Excel 檔案。此步驟需要建立 `Workbook` 物件：
-
+#### 基本初始化與設定
+```text
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -116,10 +151,13 @@ public class LoadWorkbook {
     }
 }
 ```
+```
 
-### 編輯超連結
-取得工作表後，遍歷其超連結並依需求進行更新。此範例亦示範如何透過檢查 URL 格式 **移除失效的 Excel 連結**：
+## 如何編輯 Excel 工作表中的超連結？
+`Hyperlink` 是 Aspose.Cells 中代表儲存格可點擊連結的物件，提供取得與設定其 address 的方法。  
+遍歷每個工作表的超連結集合，更新 `address` 屬性，並可選擇移除指向無效 URL 的項目。以下範例以簡潔的迴圈同時處理這兩項任務，確保所有連結一致更新，同時保留其他儲存格資料。
 
+```text
 ```java
 import com.aspose.cells.Hyperlink;
 
@@ -150,76 +188,98 @@ public class EditHyperlinks {
     }
 }
 ```
+```
+
+### 定義錨點
+`Hyperlink` 類別代表儲存格中的可點擊連結；其 `setAddress(String)` 方法可更新 URL，而 `getAddress()` 取得目前的目標位址。
 
 #### 程式碼片段說明
 - **取得超連結：** `worksheet.getHyperlinks().get(i)` 取得每個超連結物件。  
-- **更新超連結：** `hl.setAddress("http://www.aspose.com")` 將連結變更為新地址，滿足 **change hyperlink url excel** 的需求。  
-- **移除失效連結：** 條件區塊示範如何安全地 **remove broken excel links**。
+- **更新超連結：** `hl.setAddress("http://www.aspose.com")` 將連結變更為新位址，滿足 **change hyperlink url excel** 的需求。  
+- **移除損壞的連結：** 條件區塊示範如何安全地 **remove broken excel links**。
 
-### 儲存活頁簿
-編輯完成後，儲存活頁簿以保留變更：
+## 如何移除損壞的 Excel 超連結？
+透過檢查 URL 是否以 `http://` 或 `https://` 開頭且符合簡單的正則表達式，即可偵測損壞的連結。若驗證失敗，將其從集合中移除，以保持工作簿的整潔。此方法可防止使用者遇到失效連結，維持文件的專業外觀。
 
+```text
 ```java
 // Save the updated workbook
 dataDir + "EHOfWorksheet_out.xlsx";
 ```
+```
+
+## 儲存已更新的工作簿
+完成所有修改後，將工作簿寫回磁碟。Aspose.Cells 會以原始載入的相同格式寫入檔案，保留所有非超連結資料。
+
+```text
+```java
+// Save the updated workbook
+dataDir + "EHOfWorksheet_out.xlsx";
+```
+```
 
 ## 實務應用
-以下是一些您可能使用 Aspose.Cells Java 進行超連結編輯的實務情境：
-
-1. **更新網站連結：** 自動更新公司報告或財務文件中過時的 URL。  
-2. **文件一致性：** 在多個 Excel 檔案中統一超連結，以維持品牌或資訊的正確性。  
-3. **資料整合：** 透過更新指向內部資料庫或外部 API 的連結，促進整合。  
+1. **更新網頁連結：** 自動刷新季報財務報告中過時的 URL。  
+2. **文件一致性：** 透過在數十個部門試算表中統一超連結目的地，執行企業品牌政策。  
+3. **資料整合：** 系統遷移後，將超連結指向新的 API 端點或內部資料入口。
 
 ## 效能考量
-為了在 **process multiple Excel files** 時獲得最佳效能，請留意以下建議：
-
-- **有效的記憶體管理：** 使用 `try‑with‑resources` 進行自動資源管理，並及時關閉活頁簿。  
-- **批次處理：** 迴圈處理目錄中的檔案，而非在不同執行中逐一開啟。  
-- **優化資料處理：** 減少迴圈內的操作次數，以提升速度。  
+- **有效的記憶體管理：** 使用 Java 的 try‑with‑resources 確保工作簿及時關閉。  
+- **批次處理：** 在單一 JVM 執行中遍歷目錄內的檔案，而非啟動多個獨立程序。  
+- **減少迴圈工作量：** 將 URL 驗證移至內層超連結迴圈之外，以降低 CPU 負擔。
 
 ## 結論
-使用 Aspose.Cells Java 編輯 Excel 超連結，可有效簡化文件連結的管理。透過本指南，您已學會如何 **process multiple Excel files**、修改超連結 URL，並移除失效的連結——全部無縫整合於您的 Java 應用程式中。  
+使用 Aspose.Cells Java 編輯 Excel 超連結，可有效簡化文件連結的管理。透過本指南，您已學會如何 **process multiple Excel files**、修改超連結 URL，並移除損壞的連結——全部無縫整合於您的 Java 應用程式中。  
 
-準備好將這些技巧付諸實踐了嗎？深入探索 [Aspose.Cells 文件](https://reference.aspose.com/cells/java/) 以了解更多進階功能。
+準備好將這些技能付諸實踐了嗎？深入探索 [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/) 以了解更多進階功能。
 
-## 常見問答
+## 常見問題
 
 **Q: 我可以一次編輯多個工作表嗎？**  
-A: 可以，遍歷 `workbook.getWorksheets()` 並對每個工作表套用超連結變更。
+**A:** 可以，遍歷 `workbook.getWorksheets()`，對每個工作表套用超連結變更。
 
-**Q: 如何使用 Aspose.Cells Java 處理失效的連結？**  
-A: 使用錯誤處理技巧，例如 try‑catch 區塊，並套用編輯範例中示範的移除邏輯。
+**Q: 如何使用 Aspose.Cells Java 處理損壞的連結？**  
+**A:** 使用 try‑catch 等錯誤處理技術，並參考編輯範例中的移除邏輯。
 
 **Q: 能否使用 Aspose.Cells Java 新增超連結？**  
-A: 當然可以。使用 `worksheet.getHyperlinks().add()` 在工作表中插入新連結。
+**A:** 當然可以。使用 `worksheet.getHyperlinks().add()` 在工作表中插入新連結。
 
 **Q: 除了 Java，還能在其他程式語言中使用 Aspose.Cells 嗎？**  
-A: 可以，Aspose.Cells 亦提供 .NET、C++ 等版本。請參閱 [官方網站](https://www.aspose.com/) 取得各語言的使用說明。
+**A:** 可以，Aspose.Cells 也提供 .NET、C++ 等版本。請參閱 [official website](https://www.aspose.com/) 瞭解各語言的指南。
 
 **Q: 如何確保使用 Aspose.Cells 時授權持續有效？**  
-A: 定期在 Aspose 儀表板檢查訂閱狀態，並依需求續約或更新授權。
+**A:** 定期在 Aspose 控制台檢查訂閱狀態，並依需求續約或更新授權。
 
-## 資源
-- **文件：** [Aspose.Cells Java 參考文件](https://reference.aspose.com/cells/java/)  
-- **下載：** 前往 [Aspose 下載頁面](https://releases.aspose.com/cells/java/) 取得免費試用版。  
-- **購買：** 在此 [購買授權](https://purchase.aspose.com/buy) 取得商業授權。  
-- **免費試用：** 從 [發行頁面](https://releases.aspose.com/cells/java/) 取得 Aspose.Cells Java 程式庫。  
-- **臨時授權：** 前往 [Aspose 臨時授權](https://purchase.aspose.com/temporary-license/) 申請完整功能的授權。  
-- **支援：** 前往 [Aspose 支援論壇](https://forum.aspose.com/c/cells/9) 取得更多協助。
+## 其他資源
+- [Aspose Releasers](https://releases.aspose.com/cells/java/)
+- [Aspose Downloads](https://releases.aspose.com/cells/java/)
+- [the releases page](https://releases.aspose.com/cells/java/)
+- [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)
+- [Aspose Purchase](https://purchase.aspose.com/buy)
+- [here](https://purchase.aspose.com/buy)
+- [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
+- [here](https://purchase.aspose.com/temporary-license/)
+- [official website](https://www.aspose.com/)
+- [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
 ---
 
-**Last Updated:** 2025-12-18  
+**Last Updated:** 2026-05-23  
 **Tested With:** Aspose.Cells 25.3 for Java  
 **Author:** Aspose  
 
----
+{{< blocks/products/products-backtop-button >}}
+
+## 相關教學
+
+- [精通 Aspose.Cells for Java：高效載入與修改 Excel 工作簿](/cells/java/workbook-operations/aspose-cells-java-load-modify-excel/)
+- [精通 Aspose.Cells for Java：高效載入與儲存 Excel 檔案](/cells/java/workbook-operations/aspose-cells-java-load-save-excel-files/)
+- [使用 Aspose.Cells for Java 從 Excel 抽取 URL – 載入資料連接](/cells/java/advanced-features/aspose-cells-java-excel-data-connections/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 표와 목록
@@ -56,22 +54,27 @@ C# 코드를 사용해 Excel 표를 만드는 방법을 단계별로 안내합�
 ### [C#에서 범위로부터 표 만들기 – 완전 Aspose.Cells 튜토리얼](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
 Aspose.Cells for .NET을 사용하여 C# 코드로 범위에서 표를 생성하는 방법을 단계별로 안내합니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+### [C#에서 테이블 이름 바꾸기 – 전체 가이드](./how-to-rename-table-in-c-full-guide/)
+C# 코드를 사용하여 Excel 테이블의 이름을 변경하는 방법을 단계별로 안내합니다.
+### [행 삭제 워드 테이블 – 완전 C# 가이드](./delete-rows-word-table-complete-c-guide/)
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
+
 ### [C#를 사용하여 Excel에서 테이블 이름 바꾸기 – 단계별 가이드](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
 Aspose.Cells for .NET을 활용해 C# 코드로 Excel 테이블 이름을 쉽게 변경하는 방법을 단계별로 안내합니다.
 ### [Aspose.Cells를 사용하여 테이블 헤더 제거 – 완전 가이드](./remove-table-header-in-aspose-cells-complete-guide/)
 Aspose.Cells for .NET을 활용해 Excel 테이블에서 헤더 행을 손쉽게 삭제하는 방법을 단계별로 안내합니다.
+### [Word에서 여러 행 삭제 – 표 행 제거에 대한 완전 가이드](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
+Aspose.Words for .NET을 사용하여 Word 문서에서 표의 여러 행을 효율적으로 삭제하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

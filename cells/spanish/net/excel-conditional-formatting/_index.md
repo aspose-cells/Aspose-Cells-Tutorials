@@ -32,6 +32,8 @@ Con Aspose.Cells para .NET, aplicar formato condicional es increíblemente fáci
 Aprenda a aplicar formato condicional en tiempo de ejecución en Excel con Aspose.Cells para .NET en esta guía completa paso a paso.
 ### [Crear libro de Excel en C# – Guía paso a paso con formato condicional](./create-excel-workbook-c-step-by-step-guide-with-conditional/)
 Aprenda a crear un libro de Excel en C# con formato condicional paso a paso usando Aspose.Cells para .NET.
+### [Crear formato condicional en Excel con Aspose.Cells – Guía paso a paso](./create-conditional-formatting-in-excel-with-aspose-cells-ste/)
+Aprenda a crear formato condicional en Excel con Aspose.Cells mediante una guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

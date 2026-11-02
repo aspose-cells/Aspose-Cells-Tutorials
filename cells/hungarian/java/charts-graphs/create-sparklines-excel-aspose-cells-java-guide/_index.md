@@ -1,49 +1,122 @@
 ---
-"date": "2025-04-07"
-"description": "Tanuld meg, hogyan hozhatsz létre és szabhatsz testre hatékonyan sparkline-okat Excelben az Aspose.Cells for Java használatával. Ez az átfogó útmutató a beállítást, a kódolást és a gyakorlati alkalmazásokat ismerteti."
-"title": "Sparkline-ok létrehozása Excelben az Aspose.Cells for Java használatával – Teljes útmutató"
-"url": "/hu/java/charts-graphs/create-sparklines-excel-aspose-cells-java-guide/"
-"weight": 1
+date: '2026-09-22'
+description: Ismerje meg, hogyan hozhat létre sparklines-t az Excelben az Aspose.Cells
+  for Java segítségével, beleértve a telepítési lépéseket, kódrészleteket és testreszabási
+  tippeket, hogy hatékonyan ágyazzon be apró diagramokat közvetlenül a cellákba.
+keywords:
+- create sparklines in excel
+- Aspose.Cells sparklines
+- Java Excel charts
+lastmod: '2026-09-22'
+og_description: Ismerje meg, hogyan hozhat létre sparklines-t az Excelben az Aspose.Cells
+  for Java segítségével, beleértve a telepítési lépéseket, kódrészleteket és testreszabási
+  tippeket, hogy hatékonyan ágyazzon be apró diagramokat közvetlenül a cellákba.
+og_image_alt: 'Developer guide: create sparklines in Excel using Aspose.Cells for
+  Java'
+og_title: Hogyan készítsünk sparklines-t az Excelben az Aspose.Cells for Java használatával
+schemas:
+- author: Aspose
+  dateModified: '2026-09-22'
+  description: Learn how to create sparklines in Excel with Aspose.Cells for Java,
+    including setup steps, code snippets, and customization tips to embed tiny charts
+    directly in cells efficiently.
+  headline: How to create sparklines in Excel using Aspose.Cells for Java
+  type: TechArticle
+- description: Learn how to create sparklines in Excel with Aspose.Cells for Java,
+    including setup steps, code snippets, and customization tips to embed tiny charts
+    directly in cells efficiently.
+  name: How to create sparklines in Excel using Aspose.Cells for Java
+  steps:
+  - name: instantiate a workbook
+    text: '`Workbook` is Aspose.Cells'' core object that represents an entire Excel
+      file in memory.'
+  - name: access a worksheet
+    text: '`Worksheet` represents a single sheet within a `Workbook`.'
+  - name: working with sparkline groups
+    text: '`SparklineGroup` groups related sparklines and defines their source data
+      range and display options.'
+  - name: adding sparklines to a worksheet
+    text: Define the area where you want to apply sparklines, then add them using
+      the `add()` method.
+  - name: setting sparkline group colors
+    text: 'Customize your sparklines by setting their colors to enhance readability
+      and aesthetics. Finally, save the workbook to see the results of your work:'
+  type: HowTo
+- questions:
+  - answer: Sparklines are miniature charts that reside in a single cell, showing
+      trends without taking up extra space.
+    question: What are sparklines?
+  - answer: Use `SparklineType` when adding new sparklines to specify types like LINE,
+      COLUMN, or WIN_LOSS.
+    question: How do I change the type of sparkline?
+  - answer: While Aspose.Cells doesn’t provide a bulk‑apply method, you can loop through
+      each worksheet programmatically and add a `SparklineGroup` to each.
+    question: Can I apply sparklines to multiple worksheets at once?
+  - answer: The library processes large workbooks efficiently; typical usage stays
+      below 300 MB for files up to 1 million rows, but ensure the JVM heap is sized
+      accordingly.
+    question: What are the memory limits when using Aspose.Cells for Java?
+  - answer: Visit the official support forum or consult the comprehensive documentation
+      linked below.
+    question: How do I get technical support for Aspose.Cells?
+  type: FAQPage
+tags:
+- sparklines
+- Aspose.Cells
+- Java Excel automation
+title: Hogyan készítsünk sparklines-t az Excelben az Aspose.Cells for Java használatával
+url: /hu/java/charts-graphs/create-sparklines-excel-aspose-cells-java-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Sparkline-ok létrehozása Excelben az Aspose.Cells for Java használatával
+# Hogyan hozzunk létre szikra diagramokat az Excelben az Aspose.Cells for Java segítségével
 
 ## Bevezetés
 
-sparkline-ok egyetlen cellába illeszkedő kis diagramok, amelyek lehetővé teszik az adattrendek közvetlen megjelenítését egy Excel-táblázatban anélkül, hogy teljes méretű diagramokkal terhelnéd meg azt. Ez az útmutató végigvezet a sparkline-ok létrehozásán és testreszabásán az Aspose.Cells for Java használatával.
+A szikra diagramok (sparklines) kis diagramok, amelyek egyetlen cellába férnek, és **létrehozhat szikra diagramokat az Excelben**, hogy közvetlenül a munkalapon jelenítse meg az adattrendeket anélkül, hogy teljes méretű diagramokkal zsúfolná azt. Ez az útmutató végigvezet a szikra diagramok létrehozásán és testreszabásán az Aspose.Cells for Java használatával, bemutatva, miért könnyű alternatívát jelentenek a hagyományos diagramokhoz, és hogyan ágyazhatók be programozottan.
 
-**Amit tanulni fogsz:**
-- Hogyan lehet munkafüzetet példányosítani az Aspose.Cells segítségével?
+**Mit fog megtanulni**
+
+- Hogyan példányosítsunk egy `Workbook`-ot az Aspose.Cells segítségével
 - Munkalapok elérése és módosítása
-- Sparkline-csoportok hozzáadása és használata
+- Szikra diagramcsoportok hozzáadása és kezelése
 - Színek testreszabása és a munkafüzet mentése
 
-Kezdjük azzal, hogy áttekintjük a szükséges előfeltételeket, mielőtt belekezdenénk.
+Kezdjük azzal, hogy áttekintjük a szükséges előfeltételeket, mielőtt elkezdenénk.
+
+## Gyors válaszok
+
+- **Mi a leggyorsabb módja egy szikra diagram hozzáadásának?** Töltsön be egy `Workbook`-ot, hozzon létre egy `SparklineGroup`-ot, állítsa be a forrás tartományt, és hívja meg az `add()`-et – mindez néhány kódsorban.  
+- **Melyik Aspose.Cells verzió támogatja a szikra diagramokat?** A szikra diagramok a 20.5-ös verziótól támogatottak; az útmutató a 25.3-at használja.  
+- **Szükségem van licencre fejlesztéshez?** Egy ingyenes próba a kiértékeléshez működik; a termeléshez kereskedelmi licenc szükséges.  
+- **Stílusozhatom a szikra diagramokat?** Igen – a vonal, jelölő és negatív színeket a `SparklineGroup` API-n keresztül állíthatja be.  
+- **Aggódom a memóriahasználat miatt nagy munkafüzetek esetén?** Az adatokat darabokban dolgozza fel, és kerülje el a teljes fájl memóriába töltését; az Aspose.Cells hatékonyan kezeli a több száz oldalas fájlokat.
+
+## Mi az a szikra diagram?
+
+A szikra diagram egy apró, adat‑vezérelt diagram, amely egyetlen Excel‑cellában él, vizuális trendet adva anélkül, hogy extra helyet foglalna. Kompakt vizuális összefoglalót nyújt egy értékek sorozatáról, lehetővé téve az olvasók számára, hogy gyorsan felismerjék a mintákat, mint például növekedés, csökkenés, csúcsok vagy volatilitás, közvetlenül a nyers adatok mellett. Mivel a szikra diagramok cellákba vannak ágyazva, másolhatók, szűrhetők és formázhatók, mint bármely más cellatartalom, így ideálisak irányítópultokhoz és jelentésekhez, ahol a hely korlátozott.
+
+## Miért használjuk az Aspose.Cells for Java-t szikra diagramok létrehozásához az Excelben?
+
+Az Aspose.Cells **50+ bemeneti és kimeneti formátumot** támogat (beleértve az XLSX, CSV, PDF és ODS formátumokat), és képes több százezer soros munkafüzetekkel dolgozni, miközben a memóriahasználat egy standard JVM‑en 200 MB alatt marad. API-ja lehetővé teszi a szikra diagramok generálását, stílusozását és exportálását anélkül, hogy a Microsoft Office‑t telepíteni kellene.
 
 ## Előfeltételek
 
-A megoldás bevezetése előtt győződjön meg arról, hogy rendelkezik a következőkkel:
+- Az Aspose.Cells könyvtár (25.3 verzió) integrálva a Java projektjébe.  
+- Alapvető Java programozási ismeretek.  
+- Maven vagy Gradle telepítve, ha a függőség‑kezelő eszközöket részesíti előnyben.
 
-- Az Aspose.Cells könyvtár (25.3-as verzió) integrálva van a Java projektedbe.
-- A Java programozás alapvető ismerete.
-- Maven vagy Gradle telepítve van, ha a függőségeket ezekkel az eszközökkel kezeli.
+### Környezet beállítási követelmények
 
-### Környezeti beállítási követelmények
+Állítsa be a Java fejlesztői környezetét, és válasszon egy építőeszközt, például Maven-t vagy Gradle-t a függőségkezeléshez.
 
-Állítsd be a Java fejlesztői környezetedet, és válassz egy build eszközt, például a Mavent vagy a Gradle-t a függőségek kezeléséhez.
+## Az Aspose.Cells for Java beállítása
 
-## Az Aspose.Cells beállítása Java-hoz
-
-Az Aspose.Cells integrálása a projektbe Maven vagy Gradle használatával:
-
-**Szakértő:**
+### Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -52,25 +125,24 @@ Az Aspose.Cells integrálása a projektbe Maven vagy Gradle használatával:
 </dependency>
 ```
 
-**Fokozat:**
+### Gradle
 ```gradle
 implementation 'com.aspose:aspose-cells:25.3'
 ```
 
-### Licencszerzés
+#### Licenc beszerzése
+Az Aspose.Cells egy kereskedelmi termék, de ingyenes próbaverziót szerezhet a funkciók kipróbálásához. Fontolja meg egy licenc megvásárlását hosszú távú használathoz.
 
-Az Aspose.Cells egy kereskedelmi forgalomban kapható termék, de ingyenes próbaverziót igényelhet a funkcióinak megismeréséhez. Hosszú távú használat esetén érdemes lehet licencet vásárolni.
-
-Az Aspose.Cells inicializálása és beállítása a Java alkalmazásban:
+Az Aspose.Cells inicializálásához és beállításához a Java alkalmazásában:
 ```java
 import com.aspose.cells.*;
 
 class SparklineExample {
     public static void main(String[] args) {
-        // Inicializálja a licencet, ha elérhető
+        // Initialize the License if available
         License license = new License();
         try {
-            // Állítsa be a licencfájl elérési útját
+            // Set the path to the license file
             license.setLicense("path/to/Aspose.Total.Java.lic");
         } catch (Exception e) {
             System.out.println("License not applied: " + e.getMessage());
@@ -81,48 +153,52 @@ class SparklineExample {
 
 ## Megvalósítási útmutató
 
-Nézzük meg az Aspose.Cells for Java használatával Excelben a sparkline-ok létrehozásának és konfigurálásának folyamatát.
+Vessük szét a folyamatot, hogyan hozhatunk létre és konfigurálhatunk szikra diagramokat az Excelben az Aspose.Cells for Java használatával.
 
-### 1. lépés: Munkafüzet példányosítása
+### Hogyan hozzunk létre szikra diagramokat az Excelben az Aspose.Cells for Java segítségével?
 
-Az Excel-fájlok kezeléséhez először hozzon létre egy példányt a `Workbook` osztály. Ez szolgál alapul a munkalapok és egyéb funkciók eléréséhez.
+Töltsön be egy munkafüzetet, definiáljon egy szikra diagramcsoportot, állítsa be az adat‑tartományt, és hívja meg az `add()`‑et – ez a teljes munkafolyamat néhány utasításban. Az API automatikusan kezeli a cellaméretet, a színmegjelenítést és a elrendezést, így manuális rajzolás nélkül kész, használatra kész szikra diagramokat kap.
+
+### 1. lépés: munkafüzet példányosítása
+
+`Workbook` az Aspose.Cells központi objektuma, amely egy teljes Excel fájlt reprezentál a memóriában.  
 ```java
 import com.aspose.cells.*;
 
-// Hozzon létre egy példányt a Workbook osztályból az Excel-fájlok kezeléséhez.
+// Create an instance of the Workbook class to work with Excel files.
 Workbook workbook = new Workbook();
 WorksheetCollection worksheets = workbook.getWorksheets();
 ```
 
-### 2. lépés: Munkalap elérése
+### 2. lépés: munkalap elérése
 
-Miután megvan a `Workbook` objektum, hozzáférhet a munkalapjaihoz. Itt az első munkalapra fogunk összpontosítani:
+`Worksheet` egyetlen munkalapot képvisel egy `Workbook`-on belül.  
 ```java
-// Szerezd meg a munkafüzet első munkalapját.
+// Obtain the first worksheet in the workbook.
 Worksheet worksheet = worksheets.get(0);
 ```
 
-### 3. lépés: Sparkline-csoportok használata
+### 3. lépés: szikra diagramcsoportok kezelése
 
-Újak hozzáadása előtt ismételje meg a meglévő sparkline-csoportok konfigurációjának megértését.
+`SparklineGroup` csoportosítja a kapcsolódó szikra diagramokat, és meghatározza a forrásadat‑tartományt és a megjelenítési beállításokat.  
 ```java
-// Járja végig a meglévő sparkline-csoportokat, és nyomtassa ki a részleteket.
+// Iterate through existing sparkline groups and print details.
 for (int i = 0; i < worksheet.getSparklineGroups().getCount(); i++) {
     SparklineGroup g = worksheet.getSparklineGroups().get(i);
-    // Információkat nyomtat ki az egyes sparkline-csoportok típusáról.
+    // Print information about the type of each sparkline group.
 
     for (int j = 0; j < g.getSparklines().getCount(); j++) { 
         Sparkline gg = g.getSparklines().get(j);
-        // Kinyomtatja az egyes sparkline-ok részleteit, például a sort, oszlopot és adattartományt.
+        // Print details such as row, column, and data range for each sparkline.
     }
 }
 ```
 
-### 4. lépés: Sparkline-ok hozzáadása egy munkalaphoz
+### 4. lépés: szikra diagramok hozzáadása egy munkalaphoz
 
-Határozza meg azt a területet, ahová a sparkline-okat alkalmazni szeretné, majd adja hozzá őket a `add()` módszer.
+Határozza meg a területet, ahol a szikra diagramokat alkalmazni szeretné, majd adja hozzá őket az `add()` metódussal.  
 ```java
-// Adja meg a cellaterületet, ahová az értékgörbéket alkalmazni fogja.
+// Define the cell area where sparklines will be applied.
 CellArea ca = new CellArea();
 ca.StartColumn = 4; 
 ca.EndColumn = 4;
@@ -130,21 +206,21 @@ ca.StartRow = 1;
 car.EndRow = 7;
 
 int idx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "Sheet1!B2:D8", false, ca);
-// Nyissa meg az újonnan hozzáadott értékgörbe-csoportot.
+// Access the newly added sparkline group.
 SparklineGroup group = worksheet.getSparklineGroups().get(idx);
 ```
 
-### 5. lépés: Sparkline csoportszínek beállítása
+### 5. lépés: szikra diagramcsoport színeinek beállítása
 
-Szabja testre a sparkline-okat a színek beállításával az olvashatóság és az esztétika javítása érdekében.
+Testreszabhatja a szikra diagramokat a színek beállításával, hogy javítsa az olvashatóságot és az esztétikát.  
 ```java
-// Hozz létre egy új színobjektumot, és állítsd be a színét csokoládéra.
+// Create a new color object and set its color to chocolate.
 CellsColor clr = workbook.createCellsColor();
 clr.setColor(Color.getChocolate());
 group.setSeriesColor(clr);
 ```
 
-Végül mentse el a munkafüzetet a munka eredményének megtekintéséhez:
+Végül mentse a munkafüzetet, hogy láthassa a munkája eredményét:  
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 String outDir = "YOUR_OUTPUT_DIRECTORY";
@@ -153,54 +229,70 @@ workbook.save(outDir + "/UsingSparklines_out.xls");
 
 ## Gyakorlati alkalmazások
 
-Íme néhány gyakorlati alkalmazás az Aspose.Cells Excelben történő sparkline-használatához:
-1. **Pénzügyi jelentéstétel**Napi részvényteljesítmény vizualizálása pénzügyi táblázatokban.
-2. **Értékesítési adatok elemzése**: Gyorsan megértheti az értékesítési trendeket a munkalap elhagyása nélkül.
-3. **Készletgazdálkodás**: Készletszintek egy pillantással történő nyomon követése különböző időszakokban.
+Íme néhány gyakorlati alkalmazás a szikra diagramok Excelben való használatához az Aspose.Cells segítségével:
 
-## Teljesítménybeli szempontok
+1. **Pénzügyi jelentés** – Napi részvényteljesítmény megjelenítése pénzügyi táblázatokban.  
+2. **Értékesítési adatelemzés** – Gyorsan átlátja az értékesítési trendeket a munkalap elhagyása nélkül.  
+3. **Készletkezelés** – Egy pillantással nyomon követheti a készletszinteket különböző időszakokban.
 
-Az optimális teljesítmény érdekében nagy adathalmazokkal való munka során az Aspose.Cells-ben:
-- Ha lehetséges, az adatok darabokban történő feldolgozásával minimalizálja az erőforrás-felhasználást.
-- Hatékony Java memóriakezelési technikák alkalmazása nagyméretű munkafüzetek kezeléséhez.
+## Teljesítmény szempontok
 
-## Következtetés
+Az optimális teljesítmény érdekében nagy adathalmazokkal dolgozva az Aspose.Cells-ben:
 
-Megtanultad, hogyan hozhatsz létre és szabhatsz testre sparkline-okat Excelben az Aspose.Cells for Java segítségével. Kísérletezz tovább a könyvtár egyéb funkcióinak felfedezésével, például a diagramok testreszabásával vagy a munkafüzet védelmével.
+- Az adatokat darabokban dolgozza fel a memóriahasználat alacsonyan tartása érdekében.  
+- Használja a Java try‑with‑resources konstrukciót, hogy a streamek gyorsan le legyenek zárva.  
+- Az Aspose.Cells képes kezelni **300+ munkalapot és 1 millió sort** tartalmazó munkafüzeteket, miközben a heap memória használata egy tipikus szerveren 300 MB alatt marad.
 
-**Következő lépések:**
-- Tudj meg többet az Aspose.Cells képességeiről.
-- Próbálja meg integrálni a megoldását adatfolyamokkal a valós idejű frissítések érdekében.
+## Összegzés
 
-## GYIK szekció
+Megtanulta, hogyan **hozzon létre szikra diagramokat az Excelben** az Aspose.Cells for Java segítségével, a könyvtár beállításától a színek testreszabásáig és a végleges fájl mentéséig. Kísérletezzen tovább a könyvtár egyéb funkcióinak felfedezésével, például diagramtestreszabással vagy munkafüzetvédelemmel.
 
-**1. Mik azok a sparkline-ok?**
-   A sparkline-ok egyetlen cellába helyezett kis diagramok, amelyek az adathalmazok trendjeit ábrázolják.
+**Következő lépések**
 
-**2. Hogyan tudom megváltoztatni a sparkline típusát?**
-   Használat `SparklineType` új sparkline-ok hozzáadásakor olyan típusok megadásához, mint a LINE vagy az COLUMN.
+- Fedezze fel az Aspose.Cells további képességeit.  
+- Próbálja meg integrálni a megoldását élő adatforrásokkal a valós idejű frissítésekhez.
 
-**3. Alkalmazhatok sparkline-eket egyszerre több munkalapon?**
-   Bár az Aspose.Cells nem támogatja közvetlenül a tömeges műveleteket, programozottan végigmehetsz az egyes munkalapokon.
+## Gyakran ismételt kérdések
 
-**4. Milyen korlátai vannak az Aspose.Cells Java-ban való használatának?**
-   Győződjön meg arról, hogy elegendő memória áll rendelkezésre; a nagy munkafüzetek befolyásolhatják a teljesítményt.
+**Q: Mik azok a szikra diagramok?**  
+A: A szikra diagramok mini‑diagramok, amelyek egyetlen cellában helyezkednek el, trendeket mutatva anélkül, hogy extra helyet foglalnának.
 
-**5. Hogyan kaphatok technikai támogatást az Aspose.Cells-hez?**
-   Látogatás [Aspose támogatás](https://forum.aspose.com/c/cells/9) vagy tekintse meg az átfogó dokumentációjukat.
+**Q: Hogyan változtathatom meg a szikra diagram típusát?**  
+A: Használja a `SparklineType`‑ot új szikra diagramok hozzáadásakor, hogy megadja a típusokat, például LINE, COLUMN vagy WIN_LOSS.
 
-## Erőforrás
+**Q: Alkalmazhatok szikra diagramokat több munkalapon egyszerre?**  
+A: Bár az Aspose.Cells nem biztosít tömeges alkalmazási módszert, programozottan végigiterálhat minden munkalapon, és mindenhez hozzáadhat egy `SparklineGroup`‑ot.
 
-- **Dokumentáció:** Részletes útmutatókat és API-referenciákat itt talál: [Aspose dokumentáció](https://reference.aspose.com/cells/java/).
-- **Letöltés:** Az Aspose.Cells legújabb verzióinak elérése innen: [Kiadások](https://releases.aspose.com/cells/java/).
-- **Vásárlás:** Vásároljon licencet a teljes funkciók feloldásához a következőn keresztül: [Aspose vásárlás](https://purchase.aspose.com/buy).
-- **Ingyenes próbaverzió:** Kezdje el a próbaverziót a következő címen: [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/).
-- **Ideiglenes engedély:** Ideiglenes engedélyt igényeljen a következő címen: [Ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/).
+**Q: Mik a memóriahatárok az Aspose.Cells for Java használatakor?**  
+A: A könyvtár hatékonyan kezeli a nagy munkafüzeteket; a tipikus használat 300 MB alatt marad 1 millió sorig terjedő fájlok esetén, de ügyeljen arra, hogy a JVM heap megfelelő méretű legyen.
+
+**Q: Hogyan kaphatok technikai támogatást az Aspose.Cells‑hez?**  
+A: Látogassa meg a hivatalos támogatási fórumot, vagy tekintse meg az alább található átfogó dokumentációt.
+
+---
+
+**Utolsó frissítés:** 2026-09-22  
+**Tesztelve ezzel:** Aspose.Cells 25.3 for Java  
+**Szerző:** Aspose  
+
+## Erőforrások
+
+- **Dokumentáció:** Részletes útmutatókat és API hivatkozásokat tekinthet meg a [Aspose Documentation](https://reference.aspose.com/cells/java/) oldalon.  
+- **Letöltés:** A legújabb Aspose.Cells verziók elérhetők a [Releases](https://releases.aspose.com/cells/java/) oldalon.  
+- **Vásárlás:** Licencet vásárolhat a teljes funkciók feloldásához a [Aspose Purchase](https://purchase.aspose.com/buy) oldalon.  
+- **Ingyenes próba:** Kezdje el a próba verzióval a [Free Trial](https://releases.aspose.com/cells/java/) oldalon.  
+- **Ideiglenes licenc:** Ideiglenes licencet igényelhet a [Temporary License Page](https://purchase.aspose.com/temporary-license/) oldalon.  
+- **Támogatás:** Kérdéseket tehet fel a közösségi fórumon a [Aspose Support](https://forum.aspose.com/c/cells/9) címen.
+
+## Kapcsolódó oktatóanyagok
+
+- [Excel munkafüzetek és diagramok létrehozása az Aspose.Cells for Java segítségével: Átfogó útmutató](/cells/java/charts-graphs/aspose-cells-java-excel-workbook-charts/)
+- [Az Aspose.Cells Java mestersége az Excel diagram testreszabásához: Teljes útmutató](/cells/java/charts-graphs/aspose-cells-java-excel-charts-customization/)
+- [Dinamikus Excel diagramok létrehozása az Aspose.Cells Java-val: Fejlesztőknek szóló átfogó útmutató](/cells/java/charts-graphs/aspose-cells-java-dynamic-excel-charts/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

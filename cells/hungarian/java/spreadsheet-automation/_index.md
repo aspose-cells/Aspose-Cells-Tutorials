@@ -45,11 +45,35 @@ Tanulja meg, hogyan automatizálhatja hatékonyan az adatkinyerést forráskódp
 ### [Excel munkafüzet automatizálás](./excel-workbook-automation/)
 Tanuld meg az Excel munkafüzet automatizálását Java nyelven az Aspose.Cells segítségével: Hozz létre, olvass és frissíts Excel fájlokat programozottan. Kezdj hozzá most!
 ### [Excel-diagramok automatizálása](./automating-excel-charts/)
-Fedezd fel, hogyan automatizálhatod az Excel-diagramok létrehozását és testreszabását az Aspose.Cells for Java használatával forráskódpéldákkal. Egyszerűsítsd a diagramkészítési feladataidat. 
+Fedezd fel, hogyan automatizálhatod az Excel-diagramok létrehozását és testreszabását az Aspose.Cells for Java használatával forráskóddel. Egyszerűsítsd a diagramkészítési feladataidat. 
 ### [Excel automatizálás Java-val](./excel-automation-with-java/)
 Ismerje meg, hogyan automatizálhatja az Excel-feladatokat Java nyelven forráskódpéldák segítségével az Aspose.Cells segítségével, amely egy hatékony Excel-manipulációs könyvtár.
+### [Excel autofiltr kikapcsolása Java-val](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
+Tanulja meg, hogyan kapcsolhatja ki az Excel autofiltr funkciót Java-val az Aspose.Cells segítségével, egyszerű kódrészletekkel.
 ### [Adatintegráció Excelben](./data-integration-in-excel/)
 Ismerd meg, hogyan integrálhatod hatékonyan az adatokat az Excelben a jobb elemzések és döntéshozatal érdekében. Lépésről lépésre útmutató forráskóddal az Aspose.Cells for Java használatával.
+### [Excel programozott létrehozása Java‑ban – Lépésről‑lépésre útmutató](./create-excel-programmatically-in-java-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre Excel-fájlokat Java‑ban programozottan, részletes kódrészletekkel és magyarázatokkal.
+### [Hogyan kapcsoljuk ki az automatikus szűrőt Excelben Java-val – Teljes útmutató](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+Lépésről lépésre bemutatjuk, hogyan kapcsolhatja ki az Excel automatikus szűrőjét Java kóddal.
+### [Hogyan kapcsoljuk ki az AutoFilter-t Excelben Java-val – Teljes útmutató](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+Tanulja meg, hogyan kapcsolhatja ki az AutoFilter funkciót Excel fájlokban Java kóddal, lépésről lépésre útmutatóval.
+### [Vertikális tömb létrehozása Excelben Java-val – Teljes lépésről‑lépésre útmutató](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+Ismerje meg, hogyan hozhat létre vertikális tömböket Excelben Java kóddal, részletes példákkal és magyarázatokkal.
+### [Hogyan használjuk az Expand-et Java-val – Teljes Excel útmutató](./how-to-use-expand-in-java-complete-excel-guide/)
+Ismerje meg, hogyan alkalmazhatja az Expand függvényt Java-ban Excel-fájlokban, részletes példákkal és lépésről‑lépésre útmutatóval.
+### [Hogyan töröljük az AutoFiltert Excelben Java-val – Teljes útmutató](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
+Lépésről lépésre bemutatjuk, hogyan távolítható el az AutoFilter az Excel-fájlokból Java kóddal az Aspose.Cells segítségével.
+### [Új munkafüzet létrehozása Aspose‑val – egyedi tulajdonság hozzáadása Excelhez és mentés XLSB formátumban](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
+Lépésről lépésre útmutató új Excel munkafüzet létrehozásához, egyedi tulajdonságok hozzáadásához és XLSB formátumban mentéshez Aspose.Cells for Java-val.
+### [Hogyan töröljük a táblázatfejlécet Excelben Java-val – Teljes útmutató](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+Tanulja meg, hogyan távolíthatja el a táblázatfejlécet Excel-fájlokból Java-val, részletes lépésekkel és kódrészletekkel.
+### [Tömb kibővítése Excelben Java-val – Lépésről lépésre útmutató](./expand-array-in-excel-with-java-step-by-step-guide/)
+Ismerje meg, hogyan bővíthet tömböket Excelben Java segítségével, részletes kódrészletekkel és példákkal.
+### [Autofilter eltávolítása Excelből Java-val – Teljes útmutató](./remove-autofilter-from-excel-with-java-complete-guide/)
+Ismerje meg, hogyan távolíthatja el az Excel autofilter funkciót Java kóddal, részletes példákkal és lépésről-lépésre útmutatóval.
+### [Hogyan használjuk az Aspose.Cells-et: egyéni tulajdonság hozzáadása és XLSB mentése](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+Ismerje meg, hogyan adhat hozzá egyéni tulajdonságot egy Excel-fájlhoz, majd mentheti XLSB formátumban az Aspose.Cells segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

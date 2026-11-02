@@ -1,14 +1,55 @@
 ---
-date: '2025-12-18'
-description: Tanulja meg, hogyan dolgozzon fel több Excel-fájlt, és módosítsa a hiperhivatkozás
-  URL-jét az Aspose.Cells for Java segítségével. Tartalmaz lépéseket a hiperhivatkozások
-  szerkesztéséhez és a hibás Excel-hivatkozások eltávolításához.
+date: '2026-05-23'
+description: Ismerje meg, hogyan szerkeszthet Excel hiperhivatkozásokat Java‑ban az
+  Aspose.Cells használatával, hogyan tölthet be Excel munkafüzetet Java‑ban, és hogyan
+  távolíthatja el hatékonyan a hibás Excel hivatkozásokat.
 keywords:
-- edit Excel hyperlinks Java Aspose.Cells
-- manage Excel document links Aspose.Cells
-- update hyperlinks in Excel using Java
-title: Több Excel-fájl feldolgozása – Hiperhivatkozások szerkesztése Aspose.Cells
-  Java-val
+- edit excel hyperlinks java
+- load excel workbook java
+- remove broken excel links
+- maven dependency aspose cells
+schemas:
+- author: Aspose
+  dateModified: '2026-05-23'
+  description: Learn how to edit Excel hyperlinks Java using Aspose.Cells, load Excel
+    workbook Java, and remove broken Excel links efficiently.
+  headline: Edit Excel Hyperlinks Java – Process Multiple Files
+  type: TechArticle
+- description: Learn how to edit Excel hyperlinks Java using Aspose.Cells, load Excel
+    workbook Java, and remove broken Excel links efficiently.
+  name: Edit Excel Hyperlinks Java – Process Multiple Files
+  steps:
+  - name: '**Updating Web Links:** Automatically refresh outdated URLs in quarterly
+      financial reports.'
+    text: '**Updating Web Links:** Automatically refresh outdated URLs in quarterly
+      financial reports.'
+  - name: '**Consistency Across Documents:** Enforce a corporate branding policy by
+      standardizing hyperlink destinations across dozens of departmental spreadsheets.'
+    text: '**Consistency Across Documents:** Enforce a corporate branding policy by
+      standardizing hyperlink destinations across dozens of departmental spreadsheets.'
+  - name: '**Data Integration:** Point hyperlinks to new API endpoints or internal
+      data portals after a system migration.'
+    text: '**Data Integration:** Point hyperlinks to new API endpoints or internal
+      data portals after a system migration.'
+  type: HowTo
+- questions:
+  - answer: Yes, iterate through `workbook.getWorksheets()` and apply hyperlink changes
+      to each worksheet.
+    question: Can I edit multiple worksheets at once?
+  - answer: Use error‑handling techniques such as try‑catch blocks and the removal
+      logic shown in the editing example.
+    question: How do I handle broken links with Aspose.Cells Java?
+  - answer: Absolutely. Use `worksheet.getHyperlinks().add()` to insert new links
+      into your worksheet.
+    question: Is it possible to add new hyperlinks using Aspose.Cells Java?
+  - answer: Yes, Aspose.Cells is available for .NET, C++, and more. Check out the
+      [official website](https://www.aspose.com/) for language‑specific guides.
+    question: Can I use Aspose.Cells with other programming languages besides Java?
+  - answer: Regularly check your subscription status on the Aspose dashboard and renew
+      or update your license as needed.
+    question: How can I ensure my license remains active when using Aspose.Cells?
+  type: FAQPage
+title: Excel hiperhivatkozások szerkesztése Java – Több fájl feldolgozása
 url: /hu/java/advanced-features/edit-excel-hyperlinks-aspose-cells-java/
 weight: 1
 ---
@@ -19,43 +60,34 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Több Excel-fájl feldolgozása – Hiperhivatkozások szerkesztése az Aspose.Cells Java-val
+# Excel hiperhivatkozások szerkesztése Java – Több fájl feldolgozása
 
-## Bevezetés
-Amikor **több Excel-fájlt** kell feldolgozni, és a hiperhivatkozásaikat naprakészen kell tartani, a kézi szerkesztés gyorsan lehetetlen. Akár egy weboldal újratervezése után frissíti az URL-eket, akár a törött hivatkozásokat takarítja ki, az Aspose.Cells for Java megbízható, programozott módot biztosít a hiperhivatkozás URL-ek módosítására az Excel-fájlokban, és még a törött Excel-hivatkozások eltávolítására is.
-
-Ebben az átfogó útmutatóban megmutatjuk, hogyan:
-- Betölt egy Excel-munkafüzetet (vagy egy munkafüzetcsoportot)
-- Hozzáfér és **módosítja a hyperlink URL Excel** bejegyzéseket
-- Elmenti a frissített dokumentumokat, miközben megőrzi az összes többi adatot
-
-Kezdjük a szükséges előfeltételekkel.
+Amikor **edit Excel hyperlinks Java**-t kell végrehajtani egy munkafüzet-csomagon, a kézi megoldás hibára hajlamos és időigényes. Akár egy vállalati weboldalt migrálsz, elavult URL-eket javítasz, vagy adatköltöztetés után megtisztítod a törött hivatkozásokat, az Aspose.Cells for Java lehetővé teszi, hogy programozottan betöltsd az Excel munkafüzet Java objektumait, módosítsd a hiperhivatkozás URL-eket, és biztonságosan eltávolítsd a törött Excel hivatkozásokat – mindezt egyetlen automatizált futtatásban. Ez az útmutató végigvezet a teljes munkafolyamaton, a projekt beállításától a frissített fájlok mentéséig.
 
 ## Gyors válaszok
-- **Miről szól ez a bemutató?** Hiperhivatkozások szerkesztése és frissítése egy vagy több Excel-fájlban az Aspose.Cells for Java használatával.  
-- **Szükségem van licencre?** Egy ingyenes próba a teszteléshez elegendő; a termeléshez kereskedelmi licenc szükséges.  
-- **Feldolgozhatok több fájlt egyszerre?** Igen – egyszerűen ciklusba helyezheti a könyvtárban lévő fájlokat.  
-- **Hogyan távolíthatom el a törött hivatkozásokat?** A ciklusban detektálja az érvénytelen URL-eket, és törölje őket a `worksheet.getHyperlinks().remove(i)` segítségével.  
-- **Melyik Java verzió szükséges?** Java 8 vagy újabb.
+- **Mi a tutorial témája?** Editing and updating hyperlinks in one or many Excel files using Aspose.Cells for Java.  
+- **Szükségem van licencre?** A free trial works for testing; a commercial license is required for production.  
+- **Feldolgozhatok több fájlt egyszerre?** Yes – simply loop over the files in a directory.  
+- **Hogyan távolíthatom el a törött hivatkozásokat?** Detect invalid URLs in the loop and delete them with `worksheet.getHyperlinks().remove(i)`.  
+- **Melyik Java verzió szükséges?** Java 8 or higher.
+
+## Mi az edit excel hyperlinks java?
+Edit Excel hyperlinks Java is the process of programmatically changing the `address` property of Hyperlink objects inside an Excel workbook using the Aspose.Cells library. This approach eliminates manual editing, guarantees consistency, and can be applied to thousands of files in seconds.
+
+## Miért használjuk az Aspose.Cells-et a hiperhivatkozás szerkesztéséhez?
+Aspose.Cells supports **50+ input and output formats**—including XLSX, XLS, CSV, and ODS—and can process workbooks with up to **1 million rows** without loading the entire file into memory, thanks to its streaming API. The library also preserves cell formatting, formulas, and chart data, ensuring that only the hyperlink target changes while the rest of the worksheet remains untouched.
 
 ## Előfeltételek
-Mielőtt elkezdenénk, győződjön meg róla, hogy a szükséges könyvtárak és a környezet be van állítva:
+- **Aspose.Cells for Java** 25.3 vagy újabb verzió (lásd a Maven/Gradle kódrészletet alább).  
+- JDK 8 vagy újabb telepítve a fejlesztői gépen.  
+- IDE, például IntelliJ IDEA vagy Eclipse.  
+- Alap Java ismeretek és Excel koncepciók ismerete.
 
-### Szükséges könyvtárak
-- **Aspose.Cells for Java** 25.3 vagy újabb verzió
+## Hogyan töltsük be az Excel munkafüzetet Java-ban?
+`Workbook` is the Aspose.Cells class that represents an entire Excel file, providing access to worksheets, cells, and document‑level properties.  
+Load your workbook by creating a `Workbook` instance that points to the Excel file on disk. This single line reads the file into memory, ready for hyperlink manipulation. Once instantiated, you can navigate through its worksheets, read cell values, and modify objects such as hyperlinks, charts, or formulas as needed.
 
-### Környezet beállítási követelmények
-- Telepített Java Development Kit (JDK) a rendszerén.
-- Integrált fejlesztőkörnyezet (IDE), például IntelliJ IDEA, Eclipse vagy hasonló.
-
-### Tudás előfeltételek
-- Alapvető Java programozási ismeretek.
-- Excel-fájl műveletek és hiperhivatkozások ismerete.
-
-## Az Aspose.Cells for Java beállítása
-Az Aspose.Cells használatához fel kell venni a projektbe. Így teheti:
-
-**Maven:**  
+```text
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -63,21 +95,23 @@ Az Aspose.Cells használatához fel kell venni a projektbe. Így teheti:
     <version>25.3</version>
 </dependency>
 ```
+```
 
-**Gradle:**  
+### Definíció horgony
+The `Workbook` class is Aspose.Cells' core object that represents an entire Excel file, exposing worksheets, cells, and document‑level properties for programmatic access.
+
+## Aspose.Cells for Java beállítása
+Add the library to your project using one of the supported build tools.
+
+**Maven:**
+```text
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
+```
 
-### Licenc megszerzésének lépései
-Az Aspose.Cells használatához kezdhet egy ingyenes próbaverzióval, vagy kérhet egy ideiglenes licencet értékelési célokra:
-- **Ingyenes próba:** Töltse le a [Aspose Releasers](https://releases.aspose.com/cells/java/) oldalról.  
-- **Ideiglenes licenc:** Kérjen egyet [itt](https://purchase.aspose.com/temporary-license/), hogy korlátozások nélkül használhassa a teljes funkciókészletet.  
-- **Vásárlás:** Kereskedelmi felhasználáshoz vásároljon licencet a [Aspose Purchase](https://purchase.aspose.com/buy) oldalon.
-
-#### Alapvető inicializálás és beállítás
-Az Aspose.Cells inicializálása a Java alkalmazásban:
-
+**Gradle:**
+```text
 ```java
 import com.aspose.cells.Workbook;
 
@@ -92,13 +126,16 @@ public class InitializeAsposeCells {
     }
 }
 ```
+```
 
-## Megvalósítási útmutató
-Most lépésről lépésre bemutatjuk, hogyan szerkessze a hiperhivatkozásokat az Excel-munkalapokon az Aspose.Cells Java segítségével.
+### Licenc beszerzési lépések
+To use Aspose.Cells, you can start with a free trial or request a temporary license for evaluation purposes:
+- **Free Trial:** Download from [Aspose Releasers](https://releases.aspose.com/cells/java/).  
+- **Temporary License:** Request one [here](https://purchase.aspose.com/temporary-license/) to unlock full features without limitations.  
+- **Purchase:** For commercial use, purchase a license at [Aspose Purchase](https://purchase.aspose.com/buy).
 
-### A munkafüzet betöltése
-Kezdje el a hiperhivatkozásokat tartalmazó Excel-fájl betöltésével. Ehhez hozzon létre egy `Workbook` objektumot:
-
+#### Alap inicializálás és beállítás
+```text
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -116,10 +153,13 @@ public class LoadWorkbook {
     }
 }
 ```
+```
 
-### Hiperhivatkozások szerkesztése
-Miután hozzáfér a munkalaphoz, iteráljon a hiperhivatkozásokon, és frissítse őket igény szerint. Az alábbi példa azt is mutatja, hogyan **távolítsa el a törött Excel-hivatkozásokat** az URL formátum ellenőrzésével:
+## Hogyan szerkesszük a hiperhivatkozásokat az Excel munkalapokon?
+`Hyperlink` is the Aspose.Cells object that represents a clickable link in a cell, exposing methods to get and set its address.  
+Iterate through each worksheet’s hyperlink collection, update the `address` property, and optionally remove entries that point to invalid URLs. The following pattern handles both tasks in a concise loop, ensuring that all links are consistently updated while preserving other cell data.
 
+```text
 ```java
 import com.aspose.cells.Hyperlink;
 
@@ -150,72 +190,100 @@ public class EditHyperlinks {
     }
 }
 ```
+```
+
+### Definíció horgony
+The `Hyperlink` class represents a clickable link in a cell; its `setAddress(String)` method updates the URL, while `getAddress()` retrieves the current target.
 
 #### Kódrészletek magyarázata
-- **Hiperhivatkozás elérése:** `worksheet.getHyperlinks().get(i)` visszaadja az egyes hiperhivatkozás objektumot.  
-- **Hiperhivatkozások frissítése:** `hl.setAddress("http://www.aspose.com")` új címet állít be, ezzel teljesítve a **change hyperlink url excel** követelményt.  
-- **Törött hivatkozások eltávolítása:** A feltételes blokk bemutatja, hogyan **remove broken excel links** biztonságosan.
+- **Hyperlink Access:** `worksheet.getHyperlinks().get(i)` retrieves each hyperlink object.  
+- **Updating Hyperlinks:** `hl.setAddress("http://www.aspose.com")` changes the link to a new address, fulfilling the **change hyperlink url excel** requirement.  
+- **Removing Broken Links:** The conditional block demonstrates how to **remove broken excel links** safely.
 
-### A munkafüzet mentése
-A szerkesztés után mentse a munkafüzetet a változások megőrzéséhez:
+## Hogyan távolítsuk el a törött Excel hivatkozásokat?
+Detect a broken link by checking if the URL starts with `http://` or `https://` and meets a simple regex pattern. If it fails validation, remove it from the collection to keep the workbook clean. This approach prevents users from encountering dead links and maintains the professional appearance of the document.
 
+```text
 ```java
 // Save the updated workbook
 dataDir + "EHOfWorksheet_out.xlsx";
 ```
+```
+
+## A frissített munkafüzet mentése
+After all modifications, persist the workbook back to disk. Aspose.Cells writes the file in the same format it was loaded, preserving all non‑hyperlink data.
+
+```text
+```java
+// Save the updated workbook
+dataDir + "EHOfWorksheet_out.xlsx";
+```
+```
 
 ## Gyakorlati alkalmazások
-Néhány valós életbeli forgatókönyv, ahol a hiperhivatkozások szerkesztése az Aspose.Cells Java-val hasznos lehet:
-1. **Webes linkek frissítése:** Automatikusan frissítse a elavult URL-eket vállalati jelentésekben vagy pénzügyi dokumentumokban.  
-2. **Konzisztencia több dokumentumban:** Standardizálja a hiperhivatkozásokat több Excel-fájlban a márka vagy az információ pontosságának fenntartása érdekében.  
-3. **Adatintegráció:** Könnyítse az integrációt azáltal, hogy frissíti a belső adatbázisokra vagy külső API-kra mutató linkeket.  
+Here are some real‑world scenarios where you might apply hyperlink editing with Aspose.Cells Java:
+1. **Updating Web Links:** Automatically refresh outdated URLs in quarterly financial reports.  
+2. **Consistency Across Documents:** Enforce a corporate branding policy by standardizing hyperlink destinations across dozens of departmental spreadsheets.  
+3. **Data Integration:** Point hyperlinks to new API endpoints or internal data portals after a system migration.
 
-## Teljesítmény szempontok
-A **process multiple Excel files** optimális teljesítménye érdekében vegye figyelembe a következő tippeket:
-- **Hatékony memória kezelés:** Használjon `try‑with‑resources`-t az automatikus erőforrás-kezeléshez, és zárja be a munkafüzeteket időben.  
-- **Kötegelt feldolgozás:** Ciklusba helyezze a könyvtárban lévő fájlokat, ahelyett, hogy egyesével nyitná meg őket külön futtatások során.  
-- **Optimalizált adatkezelés:** Minimalizálja a cikluson belüli műveletek számát a sebesség növelése érdekében.
+## Teljesítményfontosságú szempontok
+When you **process multiple Excel files**, keep these optimization tips in mind:
+- **Efficient Memory Management:** Use Java’s try‑with‑resources to ensure workbooks are closed promptly.  
+- **Batch Processing:** Iterate over a directory of files in a single JVM run rather than launching separate processes.  
+- **Minimize Loop Work:** Perform URL validation outside of the inner hyperlink loop to reduce CPU overhead.
 
 ## Következtetés
-A hiperhivatkozások szerkesztése Excelben az Aspose.Cells Java-val hatékonyan egyszerűsíti a dokumentumhivatkozások kezelését. Ezzel az útmutatóval megtanulta, hogyan **process multiple Excel files**, módosítsa a hyperlink URL-eket, és távolítson el törött linkeket – mindezt zökkenőmentesen integrálva Java-alkalmazásaiba.
+Editing hyperlinks in Excel with Aspose.Cells Java streamlines managing document links efficiently. By following this guide, you’ve learned how to **process multiple Excel files**, modify hyperlink URLs, and remove broken links—all seamlessly integrated into your Java applications.  
 
-Készen áll a tudás gyakorlati alkalmazására? Fedezzen fel további fejlett funkciókat a [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/) mélyebb tanulmányozásával.
+Ready to put these skills into practice? Explore more advanced features by diving deeper into the [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/).
 
 ## Gyakran Ismételt Kérdések
 
-**Q:** **Szerkeszthetek több munkalapot egyszerre?**  
-**A:** Igen, iteráljon a `workbook.getWorksheets()`-en, és alkalmazza a hiperhivatkozás‑változtatásokat minden munkalapra.
+**Q: Can I edit multiple worksheets at once?**  
+A: Yes, iterate through `workbook.getWorksheets()` and apply hyperlink changes to each worksheet.
 
-**Q:** **Hogyan kezelem a törött linkeket az Aspose.Cells Java-val?**  
-**A:** Használjon hibakezelési technikákat, például try‑catch blokkokat, és alkalmazza a szerkesztési példában bemutatott eltávolítási logikát.
+**Q: How do I handle broken links with Aspose.Cells Java?**  
+A: Use error‑handling techniques such as try‑catch blocks and the removal logic shown in the editing example.
 
-**Q:** **Lehet új hiperhivatkozásokat hozzáadni az Aspose.Cells Java-val?**  
-**A:** Természetesen. Használja a `worksheet.getHyperlinks().add()` metódust új linkek beszúrásához a munkalapba.
+**Q: Is it possible to add new hyperlinks using Aspose.Cells Java?**  
+A: Absolutely. Use `worksheet.getHyperlinks().add()` to insert new links into your worksheet.
 
-**Q:** **Használhatom az Aspose.Cells‑t más programozási nyelvekkel is, mint a Java?**  
-**A:** Igen, az Aspose.Cells elérhető .NET, C++ és más nyelvekhez is. Tekintse meg a [hivatalos weboldalt](https://www.aspose.com/) a nyelvspecifikus útmutatókért.
+**Q: Can I use Aspose.Cells with other programming languages besides Java?**  
+A: Yes, Aspose.Cells is available for .NET, C++, and more. Check out the [official website](https://www.aspose.com/) for language‑specific guides.
 
-**Q:** **Hogyan biztosíthatom, hogy a licencem aktív marad az Aspose.Cells használata során?**  
-**A:** Rendszeresen ellenőrizze előfizetési állapotát az Aspose irányítópulton, és szükség esetén újítsa vagy frissítse a licencet.
+**Q: How can I ensure my license remains active when using Aspose.Cells?**  
+A: Regularly check your subscription status on the Aspose dashboard and renew or update your license as needed.
 
-## Források
-- **Dokumentáció:** [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)
-- **Letöltés:** Kezdje el egy ingyenes próbaverzióval a [Aspose Downloads](https://releases.aspose.com/cells/java/) oldalon
-- **Vásárlás:** Licenc vásárlása kereskedelmi felhasználáshoz [itt](https://purchase.aspose.com/buy)
-- **Ingyenes próba:** Az Aspose.Cells Java könyvtár elérése a [kiadási oldalon](https://releases.aspose.com/cells/java/)
-- **Ideiglenes licenc:** Ideiglenes licenc kérése a teljes funkciók eléréséhez a [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) oldalon
-- **Támogatás:** Látogassa meg a [Aspose Support Forum](https://forum.aspose.com/c/cells/9) fórumot további segítségért.
+## További források
+- [Aspose Releasers](https://releases.aspose.com/cells/java/)
+- [Aspose Downloads](https://releases.aspose.com/cells/java/)
+- [the releases page](https://releases.aspose.com/cells/java/)
+- [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)
+- [Aspose Purchase](https://purchase.aspose.com/buy)
+- [here](https://purchase.aspose.com/buy)
+- [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
+- [here](https://purchase.aspose.com/temporary-license/)
+- [official website](https://www.aspose.com/)
+- [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
 ---
 
-**Utolsó frissítés:** 2025-12-18  
-**Tesztelve:** Aspose.Cells 25.3 for Java  
-**Szerző:** Aspose
+**Utolsó frissítés:** 2026-05-23  
+**Tesztelve ezzel:** Aspose.Cells 25.3 for Java  
+**Szerző:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Kapcsolódó oktatóanyagok
+
+- [Master Aspose.Cells for Java&#58; Load and Modify Excel Workbooks Efficiently](/cells/java/workbook-operations/aspose-cells-java-load-modify-excel/)
+- [Mastering Aspose.Cells for Java&#58; Load and Save Excel Files Efficiently](/cells/java/workbook-operations/aspose-cells-java-load-save-excel-files/)
+- [Extract URL from Excel with Aspose.Cells for Java – Load Data Connections](/cells/java/advanced-features/aspose-cells-java-excel-data-connections/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

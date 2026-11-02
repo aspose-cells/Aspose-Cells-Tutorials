@@ -50,6 +50,8 @@
 เรียนรู้วิธีปรับแต่งเส้นแผนภูมิใน Excel โดยใช้ Aspose.Cells สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนโดยละเอียดของเรา
 ### [ตั้งชื่อและแกนในแผนภูมิ](./set-titles-and-axes-in-chart/)
 เรียนรู้วิธีตั้งค่าชื่อและแกนในแผนภูมิโดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ พร้อมด้วยตัวอย่างโค้ดและเคล็ดลับ
+### [วิธีรักษาแผนภูมิ – รักษาการจัดรูปแบบแผนภูมิใน PowerPoint C#](./how-to-preserve-charts-preserve-chart-formatting-in-powerpoi/)
+เรียนรู้วิธีรักษาการจัดรูปแบบของแผนภูมิเมื่อแปลงเป็น PowerPoint ด้วย C# โดยใช้ Aspose.Slides
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

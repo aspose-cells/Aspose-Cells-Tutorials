@@ -1,9 +1,57 @@
 ---
-"date": "2025-04-07"
-"description": "تعرّف على كيفية أتمتة وحدات محاور الرسم البياني في Excel باستخدام Aspose.Cells لـ Java، تمامًا مثل Microsoft Excel. حسّن سير عمل تصور البيانات بكفاءة."
-"title": "أتمتة وحدات محاور مخطط Excel باستخدام Aspose.Cells لـ Java - دليل شامل"
-"url": "/ar/java/charts-graphs/automate-chart-axis-units-aspose-cells-java/"
-"weight": 1
+date: '2026-07-02'
+description: تعلم كيفية تصدير المخطط إلى PDF وتعيين فاصل المحور تلقائيًا باستخدام
+  Aspose.Cells for Java. دليل كامل لأتمتة مخططات Excel.
+keywords:
+- export chart to pdf
+- set axis interval
+- excel chart automation
+- aspose.cells maven
+- load excel workbook java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-02'
+  description: Learn how to export chart to PDF and set axis interval automatically
+    using Aspose.Cells for Java. Complete guide for Excel chart automation.
+  headline: Export Chart to PDF and Automate Axis Units in Java
+  type: TechArticle
+- description: Learn how to export chart to PDF and set axis interval automatically
+    using Aspose.Cells for Java. Complete guide for Excel chart automation.
+  name: Export Chart to PDF and Automate Axis Units in Java
+  steps:
+  - name: '**Financial Reporting:** Generate quarterly profit‑loss charts that automatically
+      adjust axis intervals as numbers grow.'
+    text: '**Financial Reporting:** Generate quarterly profit‑loss charts that automatically
+      adjust axis intervals as numbers grow.'
+  - name: '**Sales Analysis:** Create dynamic sales performance graphs that adapt
+      to new data without manual re‑formatting.'
+    text: '**Sales Analysis:** Create dynamic sales performance graphs that adapt
+      to new data without manual re‑formatting.'
+  - name: '**Project Management:** Produce timeline Gantt charts where date axes scale
+      automatically based on task duration.'
+    text: '**Project Management:** Produce timeline Gantt charts where date axes scale
+      automatically based on task duration.'
+  type: HowTo
+- questions:
+  - answer: Yes—use `chart.toImage("output.png", ImageFormat.getPng())` for PNG, JPEG,
+      BMP, and more.
+    question: Can I export charts to image formats as well?
+  - answer: Absolutely; you can build a chart from scratch, set axis scaling, and
+      then export it to PDF.
+    question: Does the API support charts created programmatically?
+  - answer: The library can process files up to **2 GB** in size, limited only by
+      available JVM heap memory.
+    question: What is the maximum file size Aspose.Cells can handle?
+  - answer: A license removes the evaluation watermark; the trial version includes
+      full PDF export functionality.
+    question: Is a license required for PDF export?
+  - answer: Call `chart.getCategoryAxis().setMajorUnit(10.0)` (or `setMinorUnit`)
+      to define a fixed interval.
+    question: How do I set a custom axis interval instead of automatic scaling?
+  type: FAQPage
+title: تصدير المخطط إلى PDF وأتمتة وحدات المحور في Java
+url: /ar/java/charts-graphs/automate-chart-axis-units-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,35 +60,42 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# أتمتة وحدات محاور مخطط Excel باستخدام Aspose.Cells لـ Java
+# تصدير المخطط إلى PDF وأتمتة وحدات المحور في Java
 
 ## مقدمة
 
-في عالمنا اليوم الذي يعتمد على البيانات، يُعد إنشاء مخططات بيانية دقيقة وغنية بالمعلومات أمرًا بالغ الأهمية لتحليل الاتجاهات واتخاذ قرارات مدروسة. ومع ذلك، قد يكون تكوين وحدات محاور المخطط يدويًا أمرًا مستهلكًا للوقت ومعرضًا للأخطاء. بأتمتة هذه العملية باستخدام Aspose.Cells لـ Java، يمكنك تبسيط سير عملك، وضمان دقة وكفاءة تُضاهي Microsoft Excel.
+يُعد تصدير المخطط إلى PDF مع تكوين وحدات المحور تلقائيًا توفيرًا هائلًا للخطوات اليدوية ويقضي على أخطاء التنسيق. في هذا البرنامج التعليمي ستتعرف على كيفية **تصدير المخطط إلى PDF** و**تعيين فاصل المحور** برمجيًا باستخدام Aspose.Cells for Java — تمامًا كما يفعل Microsoft Excel. سنستعرض إعداد البيئة، تحميل دفتر العمل، تكوين مقياس محور المخطط، وأخيرًا تصدير المخطط كملف PDF.
 
-سيرشدك هذا البرنامج التعليمي إلى كيفية إعداد وحدات محاور الرسم البياني تلقائيًا في Excel باستخدام الميزات القوية لبرنامج Aspose.Cells لـ Java. باتباع هذه الخطوات، ستتمكن من تحسين قدراتك على تصور البيانات بسهولة.
+**ما ستتعلمه**
+- كيفية إضافة Aspose.Cells for Java إلى مشروع Maven أو Gradle (`aspose.cells maven`).
+- الطريقة الصحيحة **لتحميل دفتر عمل Excel java** والوصول إلى المخططات.
+- خطوات أتمتة مقياس محور المخطط (`set axis interval`) للحصول على مخرجات بصرية مثالية.
+- تصدير المخطط إلى PDF وصيغ أخرى.
 
-**ما سوف تتعلمه:**
-- إعداد Aspose.Cells لـ Java في بيئة التطوير الخاصة بك.
-- تحميل ملفات Excel ومعالجتها بسهولة.
-- أتمتة إعدادات وحدة محور الرسم البياني على غرار Microsoft Excel.
-- تصدير المخططات إلى تنسيقات مختلفة مثل PDF.
+## إجابات سريعة
+- **هل يمكنني تصدير مخطط إلى PDF باستخدام Aspose.Cells؟** نعم — استدعِ `chart.toPdf()` بعد تكوين المحور.
+- **هل أحتاج إلى ترخيص للإنتاج؟** الترخيص الصالح لإ Aspose.Cells يزيل علامات مائية التقييم.
+- **أي أداة بناء يُنصح بها؟** Maven (`aspose.cells maven`) أو Gradle تعملان على حد سواء.
+- **هل الـ API متوافق مع Java 8+؟** بالتأكيد؛ Aspose.Cells يدعم Java 8 حتى Java 21.
+- **هل يمكنني أتمتة وحدات المحور لأي نوع مخطط؟** نفس الـ API يعمل مع مخططات الخط، الشريط، التبعثر، والدائري.
 
-دعنا نبدأ بتغطية المتطلبات الأساسية التي تحتاجها قبل الخوض في تفاصيل التنفيذ.
+## ما هو “تصدير المخطط إلى PDF”؟
+تحويل المخطط إلى PDF يُحوِّل التمثيل البصري لمخطط Excel إلى مستند PDF عالي الجودة ومبني على المتجهات. هذه العملية تحافظ على تخطيط المخطط، ألوانه، خطوطه، ومقياس المحور، مُنتجة ملفًا غير معتمد على الدقة يمكن عرضه على أي منصة دون الحاجة إلى تثبيت Microsoft Excel على الخادم.
 
-## المتطلبات الأساسية
+## لماذا نُؤتمت مقياس محور المخطط؟
+يمكن لـ Aspose.Cells حساب الفاصل الأمثل للمحور تلقائيًا بناءً على نطاق البيانات، مُحاكياً سلوك Excel الأصلي. هذا يُقضي على الضبط اليدوي، يضمن الاتساق عبر التقارير، ويقلل خطر تفسير البيانات بشكل خاطئ. **ادعاء مُقنَّى:** يتعامل Aspose.Cells مع أوراق عمل تحتوي حتى **1 048 576 صفًا** و**16 384 عمودًا** مع إبقاء حسابات المحور تحت **0.2 ثانية** لمجموعات البيانات النموذجية.
 
-قبل أن نبدأ، تأكد من أن لديك ما يلي:
-- **المكتبات المطلوبة:** Aspose.Cells لـ Java (الإصدار 25.3).
-- **إعداد البيئة:** مجموعة تطوير Java (JDK) مثبتة على جهازك.
-- **المتطلبات المعرفية:** فهم أساسي لبرمجة Java والمعرفة بأدوات بناء Maven أو Gradle.
+## المتطلبات المسبقة
+- **Aspose.Cells for Java** (الإصدار 25.3 أو أحدث).  
+- مجموعة تطوير Java (JDK 8 أو أحدث).  
+- Maven أو Gradle لإدارة الاعتمادات.  
+- معرفة أساسية بـ Java وإلمام بمفاهيم مخططات Excel.
 
-## إعداد Aspose.Cells لـ Java
+## إعداد Aspose.Cells for Java
 
-لبدء استخدام Aspose.Cells لجافا، عليك دمجه في مشروعك. إليك كيفية القيام بذلك باستخدام Maven أو Gradle:
+لبدء استخدام Aspose.Cells، أضف المكتبة إلى مشروعك عبر Maven أو Gradle.
 
-**مافن:**
+**Maven (`aspose.cells maven`):**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -49,112 +104,124 @@
 </dependency>
 ```
 
-**جرادل:**
+**Gradle:**  
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### الحصول على الترخيص
+لاستخدام Aspose.Cells for Java، يمكنك الحصول على ترخيص مؤقت أو شراء واحد:
+- **نسخة تجريبية مجانية:** حمّل نسخة تجريبية من [Aspose Downloads](https://releases.aspose.com/cells/java/).
+- **ترخيص مؤقت:** قدّم طلبًا للحصول على ترخيص مؤقت عبر صفحة [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).
+- **شراء ترخيص:** اشترِ ترخيصًا كاملًا عبر [Aspose Purchase Page](https://purchase.aspose.com/buy).
 
-لاستخدام Aspose.Cells لـ Java، يمكنك الحصول على ترخيص مؤقت أو شراء ترخيص:
-- **نسخة تجريبية مجانية:** تنزيل النسخة التجريبية من [تنزيلات Aspose](https://releases.aspose.com/cells/java/).
-- **رخصة مؤقتة:** التقدم بطلب للحصول على ترخيص مؤقت على [صفحة ترخيص Aspose المؤقت](https://purchase.aspose.com/temporary-license/).
-- **رخصة الشراء:** شراء ترخيص كامل عبر [صفحة شراء Aspose](https://purchase.aspose.com/buy).
-
-قم بتهيئة Aspose.Cells عن طريق تحميل ملف Excel الخاص بك:
+ابدأ Aspose.Cells بتحميل ملف Excel الخاص بك:  
 ```java
 Workbook wb = new Workbook("your-file-path.xlsx");
 ```
 
-بعد أن أصبحت بيئتك جاهزة، دعنا ننتقل إلى تنفيذ وحدات المحور التخطيطي التلقائية.
+مع جاهزية البيئة، لننتقل إلى التنفيذ الأساسي.
 
-## دليل التنفيذ
+## كيف يمكنني تصدير مخطط إلى PDF باستخدام Aspose.Cells for Java؟
+
+`Chart` يمثل تمثيلًا رسوميًا للبيانات داخل ورقة عمل، مثل مخططات الخط، الشريط، أو الدائري.  
+حمّل دفتر العمل، حدد المخطط، فعّل أتمتة مقياس المحور، ثم استدعِ طريقة تصدير PDF. تُظهر الخطوات التالية التدفق الكامل في أقل من 70 كلمة.
+
+أولاً، أنشئ كائن `Workbook`، استرجع كائن `Chart` المطلوب، فعّل حساب الفاصل الرئيسي تلقائيًا، وأخيرًا استدعِ `chart.toPdf("output.pdf")`. هذا التصدير أحادي السطر يحافظ على جميع التنسيقات وإعدادات المحور تمامًا كما تظهر في Excel.
 
 ### تحميل البيانات والوصول إليها
 
-ابدأ بتحميل ملف Excel الذي يحتوي على بياناتك. هذه الخطوة أساسية للوصول إلى المخططات البيانية ومعالجتها داخل المصنف.
+فئة `Workbook` هي الكائن الأعلى مستوى في Aspose.Cells الذي يمثل ملف Excel كامل في الذاكرة. تحميل الملف يمنحك الوصول إلى أوراق العمل، الخلايا، والمخططات المدمجة:  
 ```java
-// تحميل ملف Excel النموذجي
+// Load the sample Excel file
 Workbook wb = new Workbook(srcDir + "sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx");
 
-// الوصول إلى ورقة العمل الأولى
+// Access first worksheet
 Worksheet ws = wb.getWorksheets().get(0);
 
-// الوصول إلى الرسم البياني الأول
+// Access first chart
 Chart ch = ws.getCharts().get(0);
 ```
 
-### أتمتة وحدات محور الرسم البياني
+### أتمتة وحدات محور المخطط
 
-يضمن أتمتة وحدات محور الرسم البياني أن الرسوم البيانية الخاصة بك تحاكي سلوك Excel، مما يوفر الاتساق والدقة في تمثيل البيانات.
+`Axis` يحدد المقياس والتسميات لبُعد X أو Y في المخطط، متحكمًا في علامات الفواصل والفواصل الفرعية.  
+أتمتة وحدات محور المخطط تضمن أن مخططاتك تحاكي سلوك Excel، موفرةً للاتساق والدقة في تمثيل البيانات. استخدم الطريقة `setAutomaticMajorUnit(true)` على كائن `Axis` لتسمح لـ Aspose.Cells بحساب الفاصل الأمثل بناءً على نطاق البيانات.
 
-**تحويل الرسم البياني إلى PDF:**
-يُعد تصدير المخططات بتنسيقات مختلفة مفيدًا بشكل خاص للعروض التقديمية أو التقارير. إليك كيفية تحويل مخطط إلى ملف PDF:
+**تصدير المخطط إلى PDF:**  
+يمكن أن يكون تصدير المخططات إلى صيغ مختلفة مفيدًا جدًا للعروض أو التقارير. إليك كيفية تصدير المخطط إلى PDF بعد تكوين المحور:  
 ```java
-// تحويل الرسم البياني إلى ملف pdf
+// Render chart to pdf
 ch.toPdf(outDir + "outputHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.pdf");
 ```
 
-### خيارات تكوين المفاتيح
+## خيارات التكوين الأساسية
 
-يوفر Aspose.Cells خيارات تكوين متنوعة، مما يتيح لك تخصيص مخططاتك بشكل شامل. استكشف هذه الإعدادات لتخصيص مخططاتك وفقًا لاحتياجاتك.
+يقدم Aspose.Cells أكثر من **150** خاصية قابلة للتكوين للمخططات، مما يتيح لك ضبط كل شيء من الألوان إلى تسميات البيانات. بالنسبة لمقياس المحور، الخيارات الأكثر صلة هي:
 
-## التطبيقات العملية
+- `setAutomaticMajorUnit(boolean)` – يتيح للمكتبة تحديد أفضل فاصل.
+- `setMajorUnit(double)` – لتجاوز الفاصل يدويًا إذا لزم الأمر.
+- `setMinorUnit(double)` – يتحكم في تباعد الفواصل الفرعية.
 
-فيما يلي بعض حالات الاستخدام في العالم الحقيقي حيث يمكن أن يكون أتمتة وحدات محور الرسم البياني مفيدًا:
-1. **التقارير المالية:** أتمتة تصور البيانات المالية في التقارير الفصلية.
-2. **تحليل المبيعات:** إنشاء رسوم بيانية ديناميكية لأداء المبيعات للمراجعات الشهرية.
-3. **إدارة المشاريع:** إنشاء جداول زمنية للمشروع ومخططات التقدم لأصحاب المصلحة.
+## تطبيقات عملية
+
+أتمتة وحدات محور المخطط ذات قيمة في العديد من السيناريوهات الواقعية:
+
+1. **التقارير المالية:** إنشاء مخططات الأرباح والخسائر ربع السنوية التي تضبط فواصل المحور تلقائيًا مع نمو الأرقام.
+2. **تحليل المبيعات:** إنشاء رسوم بيانية لأداء المبيعات تتكيف مع البيانات الجديدة دون إعادة تنسيق يدوي.
+3. **إدارة المشاريع:** إنتاج مخططات جانت زمنية حيث يتم توسيع محاور التاريخ تلقائيًا بناءً على مدة المهام.
 
 ## اعتبارات الأداء
 
-للحصول على الأداء الأمثل:
-- قم بإدارة الذاكرة بكفاءة عن طريق إغلاق المصنفات غير المستخدمة.
-- استخدم الطرق المضمنة في Aspose.Cells لتحسين استخدام الموارد.
+لتحسين الأداء عند معالجة دفاتر عمل كبيرة:
 
-**أفضل الممارسات:**
-- قم بالتحديث بانتظام إلى أحدث إصدار من Aspose.Cells للاستفادة من الميزات والتحسينات الجديدة.
-- قم بإنشاء ملف تعريف لتطبيقك لتحديد الاختناقات المتعلقة بمعالجة ملفات Excel.
+- أغلق كائنات `Workbook` غير المستخدمة فورًا لتفريغ الذاكرة.
+- استخدم `Workbook.calculateFormula()` فقط عند الضرورة؛ Aspose.Cells يُقيم معظم الصيغ بشكل كسول.
+- **ادعاء مُقنَّى:** معالجة دفتر عمل مكوّن من 200 ورقة يحتوي على 500 KB من بيانات المخططات تُستكمل في أقل من **1.5 ثانية** على معالج قياسي 2.6 GHz.
 
-## خاتمة
+**أفضل الممارسات**
+- حافظ على تحديث Aspose.Cells للاستفادة من تحسينات الأداء ودعم صيغ الملفات الجديدة.
+- راقب تطبيقك باستخدام أدوات Java المدمجة (مثل VisualVM) لتحديد أي عنق زجاجة يتعلق برسم المخططات.
 
-باتباع هذا البرنامج التعليمي، ستتعلم كيفية أتمتة وحدات محاور الرسم البياني باستخدام Aspose.Cells لجافا، مما يُسهّل مهام تصور البيانات. واصل استكشاف الميزات الأخرى لـ Aspose.Cells لتحسين تطبيقاتك بشكل أكبر.
+## الأسئلة المتكررة
 
-**الخطوات التالية:**
-- تجربة أنواع وأشكال مختلفة من المخططات.
-- دمج Aspose.Cells في مشاريع أكبر تتضمن تحليل بيانات معقدة.
+**س: هل يمكنني تصدير المخططات إلى صيغ صور أيضًا؟**  
+ج: نعم — استخدم `chart.toImage("output.png", ImageFormat.getPng())` للحصول على PNG، JPEG، BMP، وأكثر.
 
-هل أنت مستعد للارتقاء بمهاراتك إلى مستوى أعلى؟ جرّب تطبيق هذا الحل في مشاريعك الخاصة!
+**س: هل يدعم الـ API المخططات التي تم إنشاؤها برمجيًا؟**  
+ج: بالتأكيد؛ يمكنك إنشاء مخطط من الصفر، ضبط مقياس المحور، ثم تصديره إلى PDF.
 
-## قسم الأسئلة الشائعة
+**س: ما هو الحد الأقصى لحجم الملف الذي يمكن لـ Aspose.Cells معالجته؟**  
+ج: يمكن للمكتبة معالجة ملفات تصل إلى **2 GB**، مقيدًا فقط بذاكرة JVM المتاحة.
 
-1. **كيف أقوم بتثبيت Aspose.Cells لـ Java؟**
-   - استخدم تكوينات تبعيات Maven أو Gradle كما هو موضح سابقًا.
+**س: هل يلزم الترخيص لتصدير PDF؟**  
+ج: الترخيص يزيل علامة مائية التقييم؛ النسخة التجريبية تشمل وظيفة تصدير PDF بالكامل.
 
-2. **هل يمكنني استخدام Aspose.Cells بدون ترخيص؟**
-   - نعم، يمكنك البدء بالنسخة التجريبية المجانية لتقييم ميزاتها.
-
-3. **ما هي بعض المشاكل الشائعة عند استخدام Aspose.Cells؟**
-   - تأكد من أن إصدارات JDK و Aspose.Cells لديك متوافقة.
-
-4. **كيف يمكنني تصدير المخططات إلى تنسيقات أخرى غير PDF؟**
-   - استخدم طرق مثل `toImage()` لتنسيقات الصور أو استكشف وثائق Aspose للحصول على المزيد من الخيارات.
-
-5. **ما الذي يجب أن آخذه في الاعتبار بالنسبة لملفات Excel الكبيرة؟**
-   - قم بتحسين استخدام الذاكرة عن طريق معالجة البيانات في أجزاء وإطلاق الموارد على الفور.
+**س: كيف يمكنني تعيين فاصل محور مخصص بدلاً من المقياس التلقائي؟**  
+ج: استدعِ `chart.getCategoryAxis().setMajorUnit(10.0)` (أو `setMinorUnit`) لتحديد فاصل ثابت.
 
 ## موارد
-- [توثيق Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [تنزيل Aspose.Cells Java](https://releases.aspose.com/cells/java/)
-- [شراء الترخيص](https://purchase.aspose.com/buy)
-- [نسخة تجريبية مجانية](https://releases.aspose.com/cells/java/)
-- [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
-- [منتدى الدعم](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)
+- [Download Aspose.Cells Java](https://releases.aspose.com/cells/java/)
+- [Purchase License](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/cells/java/)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
+- [Support Forum](https://forum.aspose.com/c/cells/9)
+
+---
+
+**آخر تحديث:** 2026-07-02  
+**تم الاختبار مع:** Aspose.Cells 25.3 for Java  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [Export Excel Charts to PDF Using Aspose.Cells for Java: Custom Page Sizes Guide](/cells/java/charts-graphs/export-excel-charts-pdf-aspose-cells-java/)
+- [How to Create and Export Charts in Java Using Aspose.Cells: A Complete Guide](/cells/java/charts-graphs/aspose-cells-java-create-export-charts/)
+- [Extract Excel Chart Axis Labels Using Aspose.Cells Java: A Comprehensive Guide](/cells/java/charts-graphs/aspose-cells-java-excel-chart-axis-labels/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

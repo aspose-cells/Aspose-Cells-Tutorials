@@ -53,6 +53,31 @@ Leer hoe je het kopiëren van kolommen in Excel kunt automatiseren met Aspose.Ce
 ### [Meerdere kolommen kopiëren in Excel met Aspose.Cells Java: een complete handleiding](./copy-multiple-columns-excel-aspose-cells-java/)
 Leer hoe u het kopiëren van meerdere kolommen in een Excel-werkblad kunt automatiseren met Aspose.Cells voor Java. Deze handleiding behandelt de installatie, implementatie en probleemoplossing.
 
+### [Kopieer efficiënt één kolom in Excel met Aspose.Cells Java](./excel-single-column-copying-aspose-cells-java/)
+Leer hoe u het kopiëren van afzonderlijke kolommen naar meerdere kolommen kunt automatiseren met Aspose.Cells voor Java. Stroomlijn uw gegevensverwerkingstaken eenvoudig.
+
+### [Bereik tussen werkboeken kopiëren in Java – stapsgewijze handleiding](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+Leer hoe u bereiken tussen verschillende Excel-werkboeken kunt kopiëren met Aspose.Cells voor Java, inclusief codevoorbeelden en best practices.
+
+### [Aangepaste objecten importeren in samengevoegde Excel-cellen met Aspose.Cells voor Java: een uitgebreide handleiding](./import-custom-objects-merged-cells-java-aspose-cells/)
+Leer hoe u aangepaste objecten efficiënt kunt importeren in samengevoegde cellen in Excel met Aspose.Cells voor Java. Leer hoe u gegevens verwerkt met deze uitgebreide handleiding.
+
+### [Beheers de manipulatie van meerdere rijen in Excel met Aspose.Cells](./master-multi-row-manipulation-excel-aspose-cells-java/)
+Een codetutorial voor Aspose.Words Java
+
+### [Beheers Excel-bereiken met Aspose.Cells voor Java: een uitgebreide handleiding](./mastering-excel-range-management-aspose-cells-java/)
+Leer hoe u gegevensbereiken in Excel efficiënt kunt beheren en bewerken met Aspose.Cells voor Java. Ideaal voor het automatiseren van rapporten en het bouwen van datagestuurde applicaties.
+
+### [Excel-cellen samenvoegen in Java met Aspose.Cells: een stapsgewijze handleiding](./unmerge-excel-cells-aspose-cells-java-guide/)
+Leer hoe je cellen in Excel-bestanden efficiënt kunt ontkoppelen met Aspose.Cells voor Java. Deze handleiding behandelt de installatie, detectie en het ontkoppelen van samengevoegde cellen met codevoorbeelden.
+
+### [Naam toewijzen aan een cel in Excel met Java – Complete gids](./assign-name-to-cell-in-excel-using-java-complete-guide/)
+Leer hoe u een naam toewijst aan een cel in Excel met Aspose.Cells voor Java, inclusief codevoorbeelden en best practices.
+### [Programmeermatig werkbladbereik kopiëren – Complete Java-gids](./programmatically-copy-worksheet-range-complete-java-guide/)
+Leer hoe u met Aspose.Cells voor Java een bereik van een werkblad programmatic kopieert, inclusief codevoorbeelden en best practices.
+### [Nieuwe werkblad maken en Excel-bereik kopiëren met Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+Leer hoe u een nieuw werkblad maakt en een bereik van een Excel-bestand kopieert met Aspose.Cells voor Java.
+
 ### [Uniebereik maken in Excel met Aspose.Cells Java: een uitgebreide handleiding](./create-union-range-excel-aspose-cells-java/)
 Leer hoe u Aspose.Cells voor Java kunt gebruiken om verbindingsbereiken in Excel te maken, waardoor de presentatie en leesbaarheid van gegevens worden verbeterd.
 
@@ -68,21 +93,7 @@ Een codetutorial voor Aspose.Words Java
 ### [Automatiseer Excel-afdrukgebieden met Aspose.Cells voor Java: een stapsgewijze handleiding](./excel-print-areas-automation-aspose-cells-java-guide/)
 Leer hoe u Excel-afdrukgebieden kunt automatiseren met Aspose.Cells voor Java. Beheers werkmapbewerking en stroomlijn uw rapportagetaken efficiënt.
 
-### [Kopieer efficiënt één kolom in Excel met Aspose.Cells Java](./excel-single-column-copying-aspose-cells-java/)
-Leer hoe u het kopiëren van afzonderlijke kolommen naar meerdere kolommen kunt automatiseren met Aspose.Cells voor Java. Stroomlijn uw gegevensverwerkingstaken eenvoudig.
-
-### [Aangepaste objecten importeren in samengevoegde Excel-cellen met Aspose.Cells voor Java: een uitgebreide handleiding](./import-custom-objects-merged-cells-java-aspose-cells/)
-Leer hoe u aangepaste objecten efficiënt kunt importeren in samengevoegde cellen in Excel met Aspose.Cells voor Java. Leer hoe u gegevens verwerkt met deze uitgebreide handleiding.
-
-### [Beheers de manipulatie van meerdere rijen in Excel met Aspose.Cells](./master-multi-row-manipulation-excel-aspose-cells-java/)
-Een codetutorial voor Aspose.Words Java
-
-### [Beheers Excel-bereiken met Aspose.Cells voor Java: een uitgebreide handleiding](./mastering-excel-range-management-aspose-cells-java/)
-Leer hoe u gegevensbereiken in Excel efficiënt kunt beheren en bewerken met Aspose.Cells voor Java. Ideaal voor het automatiseren van rapporten en het bouwen van datagestuurde applicaties.
-
-### [Excel-cellen samenvoegen in Java met Aspose.Cells: een stapsgewijze handleiding](./unmerge-excel-cells-aspose-cells-java-guide/)
-Leer hoe je cellen in Excel-bestanden efficiënt kunt ontkoppelen met Aspose.Cells voor Java. Deze handleiding behandelt de installatie, detectie en het ontkoppelen van samengevoegde cellen met codevoorbeelden.
-
+### [Bereik kopiëren in Java met Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
 
 
 ## Aanvullende bronnen

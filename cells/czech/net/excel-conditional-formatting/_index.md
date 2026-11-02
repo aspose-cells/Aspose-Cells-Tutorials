@@ -30,6 +30,8 @@ Chcete prozkoumat další příklady? Ponořte se do nich [použití podmíněn�
 ## Výukové programy pro podmíněné formátování v Excelu
 ### [Použití podmíněného formátování za běhu v Excelu](./applying-conditional-formatting-at-runtime/)
 Naučte se, jak v Excelu s Aspose.Cells pro .NET za běhu použít podmíněné formátování v tomto komplexním návodu krok za krokem.
+### [Vytvořte podmíněné formátování v Excelu s Aspose.Cells – průvodce krok za krokem](./create-conditional-formatting-in-excel-with-aspose-cells-ste/)
+Naučte se, jak pomocí Aspose.Cells vytvořit podmíněné formátování v Excelu krok po kroku.
 
 ### [Vytvoření sešitu Excel v C# – krok za krokem průvodce s podmíněným formátováním](./create-excel-workbook-c-step-by-step-guide-with-conditional/)
 Naučte se, jak v C# pomocí Aspose.Cells vytvořit sešit Excel a aplikovat podmíněné formátování v podrobném návodu.

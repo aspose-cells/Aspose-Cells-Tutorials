@@ -33,6 +33,8 @@
 
 ### [Δημιουργία βιβλίου εργασίας Excel C# – Οδηγός βήμα προς βήμα με μορφοποίηση υπό όρους](./create-excel-workbook-c-step-by-step-guide-with-conditional/)
 Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel με C# και να εφαρμόσετε μορφοποίηση υπό όρους σε αυτόν τον οδηγό βήμα‑βήμα.
+### [Δημιουργία μορφοποίησης υπό όρους στο Excel με το Aspose.Cells – Οδηγός βήμα προς βήμα](./create-conditional-formatting-in-excel-with-aspose-cells-ste/)
+Μάθετε πώς να δημιουργήσετε μορφοποίηση υπό όρους στο Excel χρησιμοποιώντας το Aspose.Cells σε έναν πλήρη οδηγό βήμα προς βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

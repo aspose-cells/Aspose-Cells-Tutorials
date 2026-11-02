@@ -56,6 +56,8 @@ Leer hoe u met Aspose.Cells voor .NET een celstijl maakt, toepast en de tekst ce
 Leer hoe u Excel-bladen opmaakt met Aspose.Cells voor .NET aan de hand van een stapsgewijze handleiding en leer stijlen beheersen als een professional.
 ### [Hoe kolommen opmaken in Excel met C# – DataTable importeren](./how-to-style-columns-in-excel-with-c-import-datatable/)
 Leer hoe u kolommen in Excel kunt stylen met Aspose.Cells voor .NET en een DataTable importeert via C#.
+### [Celstijlen toepassen met Aspose.Cells – DataTable importeren met opmaak](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
+Leer hoe u celstijlen toepast en een DataTable importeert met behoud van opmaak met Aspose.Cells voor .NET.
 ### [Randen toevoegen aan cellen in Excel](./adding-borders-to-cells/)
 Leer hoe je stijlvolle randen toevoegt aan cellen in Excel met Aspose.Cells voor .NET. Volg deze stapsgewijze handleiding voor duidelijke en aantrekkelijke spreadsheets.
 ### [Randen toepassen op een celbereik in Excel](./applying-borders-to-range-of-cells/)
@@ -76,6 +78,10 @@ Leer hoe u tekst verticaal uitlijnt in Excel-cellen met Aspose.Cells voor .NET m
 Transformeer de tekstrichting in Excel met Aspose.Cells voor .NET. Volg onze stapsgewijze handleiding om tekst eenvoudig te roteren en aan te passen.
 ### [Lange tekst in cellen in Excel omwikkelen](./wrapping-long-text-within-cells/)
 Leer hoe je lange tekst in Excel-cellen kunt omzetten met Aspose.Cells voor .NET in deze gebruiksvriendelijke handleiding. Transformeer je spreadsheets moeiteloos.
+### [Hoe een Excel-werkmap maken in C# met aangepaste opmaak en opslaan als XLSX](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
+Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap in C# maakt, aangepaste opmaak toepast en opslaat als XLSX-bestand.
+### [Excel-bestand maken in C# – cellen opmaken en valuta-indeling instellen](./create-excel-file-c-style-cells-and-set-currency-format/)
+Leer hoe u met Aspose.Cells voor .NET een Excel-bestand maakt in C#, cellen opmaakt en een valuta-opmaak toepast.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

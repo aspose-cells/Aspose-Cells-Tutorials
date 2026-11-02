@@ -34,10 +34,15 @@ veces solo quieres concentrarte en las hojas con las que estás trabajando, ¿ve
 ## Tutoriales de manejo de archivos de Excel
 ### [Exportar propiedades personalizadas a PDF desde Excel](./export-custom-properties-to-pdf/)
 Aprenda a exportar propiedades personalizadas de Excel a PDF con Aspose.Cells para .NET con esta guía paso a paso. Optimice el intercambio de datos.
+
 ### [Mantener separadores para filas en blanco en Excel](./keep-separators-for-blank-rows/)
 Aprenda a mantener separadores para filas en blanco en Excel con Aspose.Cells para .NET. Guía paso a paso con ejemplos de código.
+
 ### [Cargar solo hojas visibles desde un archivo de Excel](./load-visible-sheets-only/)
 Aprenda a cargar solo hojas visibles de archivos de Excel usando Aspose.Cells para .NET en esta guía paso a paso.
+
+### [Crear archivo Excel programáticamente en C# – tutorial](./create-excel-file-programmatically-in-c-tutorial/)
+Aprenda a crear archivos Excel de forma programática en C# usando Aspose.Cells para .NET. Guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

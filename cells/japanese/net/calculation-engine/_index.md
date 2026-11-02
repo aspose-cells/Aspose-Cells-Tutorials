@@ -51,6 +51,8 @@ Aspose.Cells for .NETの再帰オプションを使用して、Excelの計算時
 C# で Aspose.Cells を使用し、ワークブックの計算、ソート、数式適用方法をステップバイステップで解説します。
 ### [Excel ワークブックの作成 – WRAPCOLS で配列を行列に変換](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
 WRAPCOLS 関数を利用して、配列データを行列形式に変換し、Excel ワークブックを作成する手順を解説します。
+### [C# で数式を評価する方法 – 完全な Aspose.Cells ガイド](./how-to-evaluate-formulas-in-c-complete-aspose-cells-guide/)
+C# で Aspose.Cells を使用して Excel の数式を評価する手順とコード例を詳しく解説します。
 
 ## 利点
 

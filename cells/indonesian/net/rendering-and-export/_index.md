@@ -58,6 +58,8 @@ Ekspor rentang sel Excel ke gambar dengan mudah menggunakan Aspose.Cells for .NE
 Pelajari cara menentukan area cetak di Excel dan mengekspor sebagai gambar PNG menggunakan Aspose.Cells for .NET.
 ### [Dapatkan Batas Objek Gambar dengan Aspose.Cells](./get-draw-object-and-bound/)
 Temukan cara mengekstrak batas objek gambar di Excel menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah kami yang komprehensif.
+### [Buat Gambar PNG Pivot di C# – Panduan Langkah-demi-Langkah Lengkap](./create-png-pivot-image-in-c-full-step-by-step-guide/)
+Pelajari cara membuat gambar PNG pivot dari data Excel menggunakan Aspose.Cells for .NET dengan panduan lengkap langkah demi langkah.
 ### [Abaikan Kesalahan dalam Rendering Excel ke PDF dengan Aspose.Cells](./ignore-errors-while-rendering/)
 Pelajari cara mengabaikan kesalahan saat mengonversi file Excel ke PDF dengan Aspose.Cells for .NET. Panduan langkah demi langkah disertakan.
 ### [Menampilkan Halaman Kosong jika Tidak Ada yang Dicetak di Aspose.Cells](./output-blank-page-when-nothing-to-print/)

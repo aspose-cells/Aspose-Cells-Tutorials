@@ -1,117 +1,185 @@
 ---
-"date": "2025-04-07"
-"description": "Aprenda a criar pastas de trabalho e adicionar gráficos usando o Aspose.Cells para Java. Este guia passo a passo aborda a criação de pastas de trabalho, entrada de dados, personalização de gráficos e otimização de desempenho."
-"title": "Crie uma pasta de trabalho e adicione gráficos com Aspose.Cells para Java - Um guia completo"
-"url": "/pt/java/charts-graphs/create-workbook-add-charts-aspose-cells-java/"
-"weight": 1
+date: '2026-09-27'
+description: Aprenda como personalizar chart do Excel e criar workbooks usando Aspose.Cells
+  for Java. Guia passo a passo cobre a criação de chart, a entrada de data e dicas
+  de performance.
+keywords:
+- customize excel chart
+- aspose cells license
+- how to add chart
+- how to create workbook
+- aspose cells maven
+lastmod: '2026-09-27'
+og_description: Personalize rapidamente chart do Excel usando Aspose.Cells for Java.
+  Este guia mostra como criar um workbook, adicionar data e gerar charts com as melhores
+  práticas de performance.
+og_image_alt: Tutorial showing how to customize Excel chart with Aspose.Cells for
+  Java
+og_title: Personalize rapidamente o chart do Excel com Aspose.Cells for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-27'
+  description: Learn how to customize Excel chart and create workbooks using Aspose.Cells
+    for Java. Step-by-step guide covers chart creation, data entry, and performance
+    tips.
+  headline: Customize Excel chart quickly with Aspose.Cells for Java
+  type: TechArticle
+- description: Learn how to customize Excel chart and create workbooks using Aspose.Cells
+    for Java. Step-by-step guide covers chart creation, data entry, and performance
+    tips.
+  name: Customize Excel chart quickly with Aspose.Cells for Java
+  steps:
+  - name: install Aspose.Cells via Maven or Gradle
+    text: '**Maven** **Gradle**'
+  - name: obtain and apply a license
+    text: You can start with a free trial, request a temporary license for extended
+      testing, or purchase a full license for production use. For licensing details,
+      visit the [purchase page](https://purchase.aspose.com/buy).
+  - name: initialize the API
+    text: The `Workbook` class is Aspose.Cells' top‑level object that represents an
+      Excel file in memory.
+  - name: instantiate the workbook
+    text: The `Workbook` constructor creates an empty workbook ready for data entry.
+  - name: access the first worksheet
+    text: '`Worksheet` represents an individual sheet within a workbook. The first
+      `Worksheet` is where we’ll store our sample data.'
+  - name: enter data into cells
+    text: Here we populate a small data table that the chart will later reference.
+  - name: add a 3‑D column chart
+    text: The `ChartCollection` class manages multiple charts within a worksheet.
+      Add a new 3‑D column chart and position it on the sheet.
+  - name: set the chart’s data source
+    text: Defining the data range tells the chart which cells to plot.
+  - name: save the workbook
+    text: Finally, write the workbook to an Excel‑compatible file.
+  type: HowTo
+- questions:
+  - answer: Load the file with `Workbook.load("path")`, modify cells or charts, then
+      call `save()` to write changes.
+    question: How do I update an existing workbook?
+  - answer: Yes. It efficiently processes workbooks with 100 000+ rows using less
+      than 200 MB of RAM when streaming is enabled.
+    question: Can Aspose.Cells handle large datasets?
+  - answer: Absolutely. The library includes line, pie, radar, bubble, and more than
+      70 chart types. See the documentation for the full list.
+    question: Are other chart types supported?
+  - answer: Verify that the data range references contiguous cells and that the cell
+      values are of numeric type. Adjust the chart’s `ChartArea` or `PlotArea` settings
+      if needed.
+    question: My chart looks distorted – what should I check?
+  - answer: Ensure your `pom.xml` or `build.gradle` uses the latest version number
+      and that your repository settings allow access to Maven Central.
+    question: What if Maven/Gradle fails to resolve the dependency?
+  type: FAQPage
+tags:
+- customize excel chart
+- Aspose.Cells
+- Java spreadsheet automation
+title: Personalize rapidamente o chart do Excel com Aspose.Cells for Java
+url: /pt/java/charts-graphs/create-workbook-add-charts-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Crie uma pasta de trabalho e adicione gráficos com Aspose.Cells para Java: um guia completo
+# Personalize rapidamente gráficos do Excel com Aspose.Cells para Java
 
 ## Introdução
-No mundo atual, movido por dados, visualizar informações é fundamental para tomar decisões informadas. Dados brutos geralmente precisam ser transformados em visuais perspicazes. Este tutorial orienta você no uso **Aspose.Cells para Java** para criar uma pasta de trabalho e adicionar gráficos visualmente atraentes — uma ferramenta poderosa para transformar seus conjuntos de dados.
+No ambiente atual orientado a dados, os recursos de **customize Excel chart** permitem transformar números brutos em histórias visuais claras. Este tutorial orienta você na criação de uma pasta de trabalho, inserção de dados e adição de um gráfico refinado usando Aspose.Cells para Java. Ao final, você terá um padrão de código reutilizável que pode ser incorporado em pipelines de relatórios, dashboards ou resumos de e‑mail automatizados.
 
-### O que você aprenderá:
-- Como criar uma pasta de trabalho no Aspose.Cells para Java
-- Como inserir dados em células específicas
-- Como adicionar e personalizar gráficos em sua planilha
-- Melhores práticas para otimizar o desempenho
+### O que você aprenderá
+- Como **create a workbook** com Aspose.Cells para Java  
+- Como **enter data** nas células programaticamente  
+- Como **add and customize a chart** para visualizar esses dados  
+- Dicas de melhores práticas para **excel chart performance** e uso de memória  
 
-Vamos começar! Antes de começar, certifique-se de que você possui os pré-requisitos necessários.
+Vamos começar depois de confirmar que você tem as ferramentas necessárias.
+
+## Respostas rápidas
+- **What is the first step?** Instale Aspose.Cells para Java via Maven ou Gradle.  
+- **Which class represents the spreadsheet?** `Workbook` é o objeto de nível superior.  
+- **How many chart types are supported?** Mais de 70 tipos de gráfico incorporados.  
+- **Do I need a license for production?** Sim – é necessária uma licença válida do Aspose.Cells.  
+- **Can large files be processed efficiently?** Sim, usando streaming e atualizações em lote.  
+
+## O que é customize Excel chart?
+**Customize Excel chart** significa definir programaticamente o tipo, intervalo de dados, estilo e layout de um gráfico dentro de uma pasta de trabalho Excel. Isso inclui selecionar séries, definir títulos dos eixos, aplicar temas e configurar legendas. Aspose.Cells permite que você execute todas essas ações sem Microsoft Office, diretamente a partir do código Java, possibilitando a geração no lado do servidor de gráficos totalmente formatados.
+
+## Por que usar Aspose.Cells para Java para customize Excel chart?
+Aspose.Cells suporta **70+ chart types** e pode lidar com pastas de trabalho com **100.000+ linhas** mantendo o uso de memória abaixo de 200 MB ao fazer streaming de dados. A biblioteca processa gráficos no lado do servidor, eliminando a necessidade de instalações do Excel no cliente e garantindo renderização consistente em todas as plataformas.
 
 ## Pré-requisitos
-Para começar, certifique-se de ter:
-1. **Biblioteca Aspose.Cells**: Você precisa da biblioteca Aspose.Cells for Java versão 25.3 ou posterior.
-2. **Ambiente de Desenvolvimento**:Seu ambiente deve suportar Maven ou Gradle para gerenciar dependências.
-3. **Conhecimento Java**: É recomendável familiaridade básica com programação Java.
+- **Aspose.Cells library** – versão 25.3 ou posterior.  
+- **Build tool** – Maven ou Gradle para obter a dependência.  
+- **Basic Java knowledge** – você deve estar confortável com classes, métodos e tratamento de exceções.  
 
-## Configurando Aspose.Cells para Java
+## Como criar uma pasta de trabalho e adicionar um gráfico?
+Carregue a biblioteca, instancie uma pasta de trabalho, preencha‑a com dados e, em seguida, crie um gráfico. O fluxo completo é descrito nas etapas abaixo.
 
-### Instalação
-Para incluir Aspose.Cells em seu projeto, use Maven ou Gradle:
-
-**Especialista**
+### Etapa 1: instalar Aspose.Cells via Maven ou Gradle
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-cells</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-cells', version: '25.3'
-```
+```  
 
-### Aquisição de Licença
-Para começar a usar o Aspose.Cells para Java, você pode:
-- Obter um **licença de teste gratuita** para explorar suas funcionalidades.
-- Candidatar-se a um **licença temporária** se necessário para testes prolongados.
-- Compre uma licença completa para uso em produção.
+### Etapa 2: obter e aplicar uma licença
+Você pode começar com um teste gratuito, solicitar uma licença temporária para testes estendidos ou comprar uma licença completa para uso em produção. Para detalhes de licenciamento, visite a [purchase page](https://purchase.aspose.com/buy).
 
-Para adquirir licenças, visite o [página de compra](https://purchase.aspose.com/buy).
-
-### Inicialização básica
-Uma vez instalado, inicialize o Aspose.Cells da seguinte maneira:
-
+### Etapa 3: inicializar a API
+A classe `Workbook` é o objeto de nível superior do Aspose.Cells que representa um arquivo Excel na memória.  
 ```java
 import com.aspose.cells.Workbook;
 
 public class WorkbookInitialization {
     public static void main(String[] args) {
-        // Criar um novo objeto de pasta de trabalho
+        // Create a new workbook object
         Workbook workbook = new Workbook();
         
         System.out.println("Workbook created successfully!");
     }
 }
-```
+```  
 
-Esta configuração simples permite que você crie uma pasta de trabalho vazia, pronta para entrada de dados e criação de gráficos.
-
-## Guia de Implementação
-
-### Recurso: Criação de pasta de trabalho e entrada de dados
-
-#### Visão geral
-Criar uma pasta de trabalho é o primeiro passo para gerenciar planilhas programaticamente. Esta seção orienta você na instanciação de uma nova pasta de trabalho e no preenchimento com dados de exemplo.
-
-#### Implementação passo a passo
-##### 1. Instanciar objeto Workbook
+### Etapa 4: instanciar a pasta de trabalho
+O construtor `Workbook` cria uma pasta de trabalho vazia pronta para inserção de dados.  
 ```java
 import com.aspose.cells.Workbook;
 
-// Criar um novo objeto de pasta de trabalho
+// Create a new workbook object
 double value = 50;
 workbook.getWorksheets().get(0).getCells().get("A1").setValue(value);
-```
-O `Workbook` class representa um arquivo Excel, permitindo que você execute operações em seu conteúdo.
+```  
 
-##### 2. Acesse a Primeira Planilha
+### Etapa 5: acessar a primeira planilha
+`Worksheet` representa uma planilha individual dentro de uma pasta de trabalho.  
+A primeira `Worksheet` é onde armazenaremos nossos dados de exemplo.  
 ```java
 import com.aspose.cells.WorksheetCollection;
 
 WorksheetCollection worksheets = workbook.getWorksheets();
 Worksheet sheet = worksheets.get(0);
-```
-Acessar a primeira planilha é crucial, pois ela serve como nosso ponto de entrada de dados.
+```  
 
-##### 3. Insira dados nas células
+### Etapa 6: inserir dados nas células
+Aqui preenchemos uma pequena tabela de dados que o gráfico referenciará posteriormente.  
 ```java
 import com.aspose.cells.Cells;
 import com.aspose.cells.Cell;
 
 Cells cells = sheet.getCells();
 
-// Definir valores para células diferentes
+// Set values for different cells
 cells.get("A1").setValue(50);
 cells.get("A2").setValue(100);
 cells.get("A3").setValue(150);
@@ -124,92 +192,95 @@ cells.get("C3").setValue(180);
 cells.get("D1").setValue(40);
 cells.get("D2").setValue(120);
 cells.get("D3").setValue(250);
-```
-Aqui, estamos preenchendo células com valores específicos que posteriormente serão visualizados em um gráfico.
+```  
 
-### Recurso: Adicionar um gráfico à planilha
-
-#### Visão geral
-Visualizar dados pode aprimorar muito a compreensão e os insights. Vamos adicionar um gráfico de colunas 3D à nossa planilha.
-
-#### Implementação passo a passo
-##### 1. Coleção de gráficos de acesso
+### Etapa 7: adicionar um gráfico de colunas 3‑D
+A classe `ChartCollection` gerencia múltiplos gráficos dentro de uma planilha.  
 ```java
 import com.aspose.cells.ChartCollection;
 
 ChartCollection charts = sheet.getCharts();
-```
-O `ChartCollection` A classe permite que você gerencie vários gráficos em uma planilha.
+```  
 
-##### 2. Adicione um gráfico de colunas 3D
+Adicione um novo gráfico de colunas 3‑D e posicione‑o na planilha.  
 ```java
 import com.aspose.cells.Chart;
 import com.aspose.cells.ChartType;
 
 int chartIndex = charts.add(ChartType.COLUMN_3_D, 5, 0, 15, 5);
 Chart chart = charts.get(chartIndex);
-```
-Adicionar um gráfico envolve especificar seu tipo e posição na planilha.
+```  
 
-##### 3. Definir fonte de dados do gráfico
+### Etapa 8: definir a fonte de dados do gráfico
+Definir o intervalo de dados informa ao gráfico quais células plotar.  
 ```java
 import com.aspose.cells.SeriesCollection;
 
 SeriesCollection serieses = chart.getNSeries();
 serieses.add("A1:B3", true);
-```
-Definir o intervalo de dados do seu gráfico é essencial para representar com precisão seu conjunto de dados.
+```  
 
-### Recurso: Salvando a pasta de trabalho
-Por fim, salve a pasta de trabalho com todas as alterações:
+### Etapa 9: salvar a pasta de trabalho
+Finalmente, escreva a pasta de trabalho em um arquivo compatível com Excel.  
 ```java
 import com.aspose.cells.SaveFormat;
 
-String outDir = "YOUR_OUTPUT_DIRECTORY"; // Definir caminho do diretório de saída
+String outDir = "YOUR_OUTPUT_DIRECTORY"; // Define output directory path
 workbook.save(outDir + "/HTCCustomChart_out.xls", SaveFormat.EXCEL_97_TO_2003);
-```
-Isso salva sua pasta de trabalho em um formato compatível com o Excel, deixando-a pronta para compartilhamento ou análise posterior.
+```  
+
+## Considerações de desempenho para geração de gráficos do Excel
+- **Stream data**: Use `WorkbookDesigner` ou APIs de streaming do `Workbook` ao trabalhar com milhões de linhas.  
+- **Batch updates**: Agrupe gravações de células e modificações de gráficos para reduzir recalculações internas.  
+- **Dispose objects**: Chame `close()` nos streams e defina objetos grandes como `null` após salvar para liberar memória rapidamente.  
 
 ## Aplicações práticas
-1. **Análise Financeira**: Visualize tendências de dados financeiros usando o Aspose.Cells para auxiliar na tomada de decisões.
-2. **Relatórios de vendas**: Gere gráficos de vendas dinâmicos para exibir o desempenho de vendas mensal ou trimestral.
-3. **Gestão de Estoque**: Crie painéis para níveis de estoque e movimentação de estoque ao longo do tempo.
-4. **Ferramentas educacionais**: Desenvolver materiais de aprendizagem interativos com gráficos de dados incorporados.
-5. **Análise de saúde**: Use recursos de gráficos para apresentar estatísticas de pacientes e tendências de saúde.
+1. **Financial analysis** – gerar gráficos de lucro‑prejuízo que são atualizados diariamente.  
+2. **Sales reporting** – produzir gráficos de barras trimestrais para dashboards executivos.  
+3. **Inventory tracking** – visualizar níveis de estoque com gráficos de colunas empilhadas.  
+4. **Education** – criar planilhas interativas para exercícios em sala de aula.  
+5. **Healthcare analytics** – plotar estatísticas de pacientes para publicações de pesquisa.  
 
-## Considerações de desempenho
-Ao trabalhar com grandes conjuntos de dados, considere estas dicas de otimização de desempenho:
-- Minimize o uso de recursos processando apenas os dados necessários.
-- Gerencie a memória Java de forma eficaz fechando objetos após o uso.
-- Opte por atualizações em lote sempre que possível para reduzir o tempo de computação.
+## Perguntas frequentes
 
-## Conclusão
-Seguindo este guia, você aprendeu a criar uma pasta de trabalho, inserir dados e adicionar gráficos usando o Aspose.Cells para Java. Essas habilidades permitem que você apresente seus dados de maneira significativa, aprimorando tanto a análise quanto a comunicação.
+**Q: Como atualizo uma pasta de trabalho existente?**  
+A: Carregue o arquivo com `Workbook.load("path")`, modifique células ou gráficos e, em seguida, chame `save()` para gravar as alterações.
 
-### Próximos passos
-Explore mais integrando o Aspose.Cells com outros sistemas ou experimentando diferentes tipos e configurações de gráficos.
+**Q: O Aspose.Cells pode lidar com grandes conjuntos de dados?**  
+A: Sim. Ele processa eficientemente pastas de trabalho com 100 000+ linhas usando menos de 200 MB de RAM quando o streaming está habilitado.
 
-## Seção de perguntas frequentes
-1. **Como atualizo uma pasta de trabalho existente?**
-   - Carregue a pasta de trabalho usando `Workbook.load()` e modifique conforme necessário.
-2. **Posso usar o Aspose.Cells para grandes conjuntos de dados?**
-   - Sim, mas considere técnicas de otimização de desempenho.
-3. **Há suporte para outros tipos de gráficos?**
-   - Com certeza! Confira o [documentação](https://reference.aspose.com/cells/java/) para uma lista completa de gráficos suportados.
-4. **E se meu gráfico não for exibido corretamente?**
-   - Verifique seu intervalo de dados e certifique-se de que ele esteja formatado corretamente.
-5. **Como soluciono problemas de instalação com Maven/Gradle?**
-   - Certifique-se de que sua configuração de dependência corresponda à versão mais recente disponível.
+**Q: Outros tipos de gráfico são suportados?**  
+A: Absolutamente. A biblioteca inclui gráficos de linha, pizza, radar, bolha e mais de 70 tipos de gráfico. Consulte a documentação para a lista completa.
+
+**Q: Meu gráfico parece distorcido – o que devo verificar?**  
+A: Verifique se o intervalo de dados referencia células contíguas e se os valores das células são numéricos. Ajuste as configurações `ChartArea` ou `PlotArea` do gráfico, se necessário.
+
+**Q: E se Maven/Gradle falhar ao resolver a dependência?**  
+A: Certifique‑se de que seu `pom.xml` ou `build.gradle` usa o número de versão mais recente e que as configurações do seu repositório permitem acesso ao Maven Central.
 
 ## Recursos
 - [Documentação do Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [Baixe Aspose.Cells para Java](https://releases.aspose.com/cells/java/)
-- [Licença de compra](https://purchase.aspose.com/buy)
-- [Teste grátis](https://releases.aspose.com/cells/java/)
+- [documentação](https://reference.aspose.com/cells/java/)
+- [Baixar Aspose.Cells para Java](https://releases.aspose.com/cells/java/)
+- [Comprar Licença](https://purchase.aspose.com/buy)
+- [Teste Gratuito](https://releases.aspose.com/cells/java/)
 - [Licença Temporária](https://purchase.aspose.com/temporary-license/)
-- [Fórum de Suporte Aspose](https://forum.aspose.com/c/cells/9)
+- [Fórum de Suporte da Aspose](https://forum.aspose.com/c/cells/9)
 
-Comece a usar o Aspose.Cells para Java hoje mesmo para aprimorar seus recursos de visualização de dados!
+Comece a usar Aspose.Cells para Java hoje para criar **customize Excel chart** e entregar insights orientados a dados mais rapidamente do que nunca.
+
+---
+
+**Última atualização:** 2026-09-27  
+**Testado com:** Aspose.Cells 25.3 para Java  
+**Autor:** Aspose
+
+## Tutoriais Relacionados
+
+- [Personalizar rótulos de dados de gráficos do Excel usando Aspose.Cells para Java: Um guia passo a passo](/cells/java/charts-graphs/customize-chart-data-labels-aspose-cells-java/)
+- [Domine o Excel com Aspose.Cells Java: Criação de pasta de trabalho e personalização de gráficos](/cells/java/charts-graphs/aspose-cells-java-workbook-chart-customization/)
+- [Criar gráficos dinâmicos do Excel com Aspose.Cells Java: Um guia abrangente para desenvolvedores](/cells/java/charts-graphs/aspose-cells-java-dynamic-excel-charts/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

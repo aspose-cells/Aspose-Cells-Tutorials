@@ -77,6 +77,9 @@ Aprenda a administrar eficientemente libros y hojas de cálculo de Excel con Asp
 ### [Cómo cambiar los ID de hojas de Excel en .NET con Aspose.Cells: una guía completa](./change-excel-sheet-id-net-aspose-cells)
 Aprenda a cambiar los ID de las hojas de Excel con Aspose.Cells para .NET. Esta guía abarca la configuración, ejemplos de código y las prácticas recomendadas para una gestión eficiente de las hojas de cálculo y el mantenimiento de referencias adecuadas.
 
+### [Cómo usar SmartMarkerProcessor – Renombrar una hoja existente en Excel](./how-to-use-smartmarkerprocessor-rename-existing-sheet-in-exc/)
+Aprenda a renombrar una hoja existente en Excel utilizando SmartMarkerProcessor con Aspose.Cells para .NET.
+
 ### [Cómo identificar hojas de diálogo en Excel con Aspose.Cells .NET: una guía completa](./check-excel-dialog-sheet-aspose-cells-net)
 Aprenda a comprobar si una hoja de cálculo de Excel es una hoja de diálogo con Aspose.Cells para .NET. Mejore su automatización con esta guía detallada para identificar tipos de hojas especializadas en sus libros.
 

@@ -1,0 +1,7 @@
+Title: Create Excel workbook java and apply column number formats
+Slug: create-excel-workbook-java-and-apply-column-number-formats
+Category: formatting
+ProcessedDate: 2026-09-28T03:34:00.638012
+SourceRepo: AI Search API
+Keywords: create excel workbook java, save workbook as xlsx, import sql data excel, add number format excel, set number format column
+PRNumber: 172

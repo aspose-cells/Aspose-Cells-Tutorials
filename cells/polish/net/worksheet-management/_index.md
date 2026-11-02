@@ -152,6 +152,9 @@ Dowiedz się, jak ustawić kolory kart arkusza kalkulacyjnego w programie Excel 
 ### [Jak podzielić panele arkusza kalkulacyjnego w programie Excel za pomocą Aspose.Cells .NET w celu rozszerzonej analizy danych](./split-worksheet-panes-excel-aspose-cells-dotnet)
 Dowiedz się, jak używać Aspose.Cells for .NET do dzielenia paneli arkusza kalkulacyjnego w programie Excel, co usprawnia nawigację po danych i wydajność analizy, zapewniając lepszą wizualizację dużych zestawów danych.
 
+### [Jak używać SmartMarkerProcessor – Zmiana nazwy istniejącego arkusza w Excelu](./how-to-use-smartmarkerprocessor-rename-existing-sheet-in-exc/)
+Dowiedz się, jak przy użyciu SmartMarkerProcessor zmienić nazwę istniejącego arkusza w pliku Excel przy pomocy Aspose.Cells dla .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

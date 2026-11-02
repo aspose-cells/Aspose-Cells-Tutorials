@@ -1,0 +1,7 @@
+Title: How to get custom property java using Aspose.Cells
+Slug: how-to-get-custom-property-java-using-aspose-cells
+Category: workbook-operations
+ProcessedDate: 2026-09-28T03:33:55.684559
+SourceRepo: AI Search API
+Keywords: get custom property java, retrieve custom property value
+PRNumber: 172

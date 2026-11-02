@@ -62,7 +62,8 @@ Aspose.Cells for Java を使用して、Excel シートにネストされたデ�
 ### [Aspose.Cells for Java を使用して Excel で正規表現置換を実行する方法: 包括的なガイド](./regex-replacement-excel-aspose-cells-java-guide/)
 Aspose.Cells for Java を使って、正規表現を使ったExcelファイル内のテキスト置換を自動化する方法を学びましょう。このステップバイステップガイドでは、初期化、設定、そして実践的な応用方法を解説します。
 
-
+### [Aspose.Cells Java を使用して列を分割する方法 – ステップバイステップガイド](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
+Aspose.Cells for Java を使って Excel の列を分割する手順を詳しく解説します。実装例とベストプラクティスを学びましょう。
 
 ## 追加リソース
 

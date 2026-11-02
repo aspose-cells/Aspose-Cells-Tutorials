@@ -41,7 +41,7 @@ url: /hi/net/pivot-tables/how-to-copy-a-pivot-table-in-c-with-aspose-cells/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to copy a pivot table in C# with Aspose.Cells
+# C# में Aspose.Cells के साथ पिवट टेबल को कैसे कॉपी करें
 
 यदि आपको **एक पिवट टेबल को** एक वर्कशीट से दूसरी में **कॉपी** करनी है, तो Aspose.Cells के साथ C# में **पिवट टेबल कॉपी करने** का तरीका सीखना आपके कई घंटे के मैन्युअल काम को बचा सकता है। यह तरीका आपको **फ़ॉर्मेटिंग के साथ पंक्तियों को कॉपी** करने, पिवट कैश को बरकरार रखने, और जब आपको एक स्टैंडअलोन फ़ाइल चाहिए तो **पिवट टेबल को नई वर्कबुक में एक्सपोर्ट** करने की सुविधा भी देता है।
 
@@ -54,7 +54,7 @@ url: /hi/net/pivot-tables/how-to-copy-a-pivot-table-in-c-with-aspose-cells/
 
 आप देखेंगे कि बिल्ट‑इन `CopyRows` मेथड **पिवट टेबल को दूसरी शीट पर कॉपी** करने का सबसे भरोसेमंद तरीका क्यों है, और छिपी हुई पंक्तियों या बाहरी डेटा स्रोतों जैसे एज केस को संभालने के टिप्स भी प्राप्त करेंगे।
 
-## Prerequisites
+## पूर्वापेक्षाएँ
 
 शुरू करने से पहले सुनिश्चित करें कि आपके पास ये हैं:
 
@@ -71,7 +71,7 @@ NuGet CLI या Package Manager Console से लाइब्रेरी इ�
 dotnet add package Aspose.Cells
 ```
 
-## Step 1: Load the workbook that contains the pivot table
+## चरण 1: पिवट टेबल वाली वर्कबुक लोड करें
 
 पहली लाइन एक `Workbook` ऑब्जेक्ट बनाती है जो पूरी Excel फ़ाइल का प्रतिनिधित्व करता है। फ़ाइल को एक बार लोड करने से आपको हर वर्कशीट पर रीड/राइट एक्सेस मिल जाता है।
 
@@ -84,7 +84,7 @@ Workbook workbook = new Workbook(@"YOUR_DIRECTORY\source.xlsx");
 
 > **Why this step matters** – Without loading the workbook, none of the subsequent `CopyRows` calls can reference the source data or the pivot cache.
 
-## Step 2: Prepare source and destination worksheets
+## चरण 2: स्रोत और डेस्टिनेशन वर्कशीट तैयार करें
 
 आपको एक डेस्टिनेशन शीट चाहिए जहाँ कॉपी किया गया पिवट टेबल रहेगा। नीचे दिया गया कोड मूल पिवट टेबल वाली पहली शीट को प्राप्त करता है और **Copy** नाम की नई शीट जोड़ता है।
 
@@ -98,7 +98,7 @@ Worksheet destinationSheet = workbook.Worksheets.Add("Copy");
 
 > **Pro tip:** If the destination sheet already exists, call `Worksheets.RemoveAt(index)` first to avoid duplicate names.
 
-## Step 3: Define the cell area that encloses the pivot table
+## चरण 3: वह सेल एरिया परिभाषित करें जो पिवट टेबल को घेरता है
 
 एक `CellArea` ऑब्जेक्ट उस रेंज के टॉप‑लेफ़्ट और बॉटम‑राइट सेल को वर्णित करता है जिसे आप मूव करना चाहते हैं। इस उदाहरण में पिवट टेबल `A1:G20` रेंज में है। बड़े टेबल के लिए कॉर्डिनेट्स को समायोजित करें।
 
@@ -107,7 +107,7 @@ Worksheet destinationSheet = workbook.Worksheets.Add("Copy");
 CellArea sourceArea = CellArea.CreateCellArea("A1", "G20");
 ```
 
-## Step 4: Copy rows with formatting and preserve the pivot cache
+## चरण 4: फ़ॉर्मेटिंग के साथ पंक्तियाँ कॉपी करें और पिवट कैश को सुरक्षित रखें
 
 `CopyRows` मेथड स्रोत शीट से डेस्टिनेशन शीट में **पंक्तियों** को कॉपी करता है। `CopyOptions.CopyAll` पास करने से आप सुनिश्चित करते हैं कि वैल्यूज़, फ़ॉर्मेटिंग, चार्ट्स, और एम्बेडेड ऑब्जेक्ट्स—जो पिवट टेबल का हिस्सा हैं—सभी ट्रांसफ़र हो जाएँ।
 
@@ -121,13 +121,13 @@ sourceSheet.CopyRows(
     CopyOptions.CopyAll);        // copy everything (values, formats, objects, etc.)
 ```
 
-### Why `CopyRows` works better than `Copy` for pivot tables
+### पिवट टेबल के लिए `CopyRows`, `Copy` से बेहतर क्यों काम करता है
 
 * `CopyRows` respects the internal pivot cache, so the copied pivot table remains functional.
 * It preserves **copy rows with formatting** exactly as they appear in the original sheet.
 * Unlike a simple `Copy` of a range, it also moves hidden rows and any associated slicers.
 
-## Step 5: Save the workbook with the copied pivot table
+## चरण 5: कॉपी किए गए पिवट टेबल के साथ वर्कबुक सेव करें
 
 अंत में, संशोधित वर्कबुक को डिस्क पर लिखें। नई फ़ाइल में मूल शीट के साथ एक **Copy** शीट होगी जिसमें मूल पिवट टेबल की पूरी कार्यशील प्रतिलिपि होगी।
 
@@ -136,7 +136,7 @@ sourceSheet.CopyRows(
 workbook.Save(@"YOUR_DIRECTORY\pivot_copied.xlsx");
 ```
 
-### Expected result
+### अनुमानित परिणाम
 
 जब आप `pivot_copied.xlsx` खोलेंगे:
 
@@ -144,7 +144,7 @@ workbook.Save(@"YOUR_DIRECTORY\pivot_copied.xlsx");
 * शीट **Copy** में एक समान पिवट टेबल होगा, जिसका लेआउट, फ़िल्टर और फ़ॉर्मेटिंग वही रहेगा।
 * सभी फ़ॉर्मूले और डेटा कनेक्शन बरकरार रहेंगे क्योंकि पिवट कैश को पंक्तियों के साथ कॉपी किया गया था।
 
-## How to copy pivot table to another sheet in the same workbook
+## उसी वर्कबुक में पिवट टेबल को दूसरी शीट में कैसे कॉपी करें
 
 यदि आपको पिवट टेबल को किसी मौजूदा अन्य शीट (जैसे “Report”) में चाहिए, तो डेस्टिनेशन निर्माण चरण को लक्ष्य शीट के रेफ़रेंस से बदल दें:
 
@@ -156,7 +156,7 @@ sourceSheet.CopyRows(sourceArea.StartRow, destinationSheet, 0,
 
 यह स्निपेट **पिवट टेबल को दूसरी शीट पर कॉपी** करने को दिखाता है बिना नई वर्कशीट बनाए।
 
-## Export pivot table to new workbook
+## पिवट टेबल को नई वर्कबुक में निर्यात करें
 
 कभी‑कभी आप पिवट टेबल को पूरी तरह से अलग फ़ाइल में चाहते हैं। कॉपी ऑपरेशन के बाद, आप सभी शीट्स को हटा सकते हैं सिवाय उस शीट के जिसमें कॉपी किया गया पिवट टेबल है और फिर सेव करें:
 
@@ -174,7 +174,7 @@ workbook.Save(@"YOUR_DIRECTORY\pivot_only.xlsx");
 
 अब `pivot_only.xlsx` में केवल एक शीट होगी जिसमें डुप्लिकेट पिवट टेबल होगा, जिससे **export pivot table to new workbook** की आवश्यकता पूरी होती है।
 
-## How to copy excel rows without losing formatting
+## फ़ॉर्मेटिंग खोए बिना एक्सेल पंक्तियों को कैसे कॉपी करें
 
 उसी `CopyRows` कॉल का उपयोग किसी भी रेंज के लिए किया जा सकता है, न कि केवल पिवट टेबल के लिए। यदि आपको **excel rows को कॉपी** करना है जिसमें कंडीशनल फ़ॉर्मेटिंग, डेटा वैलिडेशन, या मर्ज्ड सेल्स हों, तो वही मेथड उपयोग करें:
 
@@ -189,7 +189,7 @@ sourceSheet.CopyRows(29, // zero‑based index for row 30
 
 क्योंकि `CopyOptions.CopyAll` सब कुछ ट्रांसफ़र करता है, डेस्टिनेशन पंक्तियाँ बिल्कुल स्रोत पंक्तियों जैसी दिखेंगी।
 
-## Common pitfalls and how to avoid them
+## सामान्य गलतियाँ और उन्हें कैसे टालें
 
 | Pitfall | Symptom | Fix |
 |---------|---------|-----|
@@ -198,7 +198,7 @@ sourceSheet.CopyRows(29, // zero‑based index for row 30
 | Pivot table uses an external data source | The copy loses its connection. | After copying, call `pivotTable.RefreshData()` to re‑establish the link. |
 | Hidden rows are omitted | Some rows disappear in the copy. | `CopyRows` automatically copies hidden rows; ensure you are not using `CopyOptions.CopyValuesOnly`. |
 
-## Full, runnable example
+## पूर्ण, चलाने योग्य उदाहरण
 
 नीचे एक स्व-समाहित प्रोग्राम दिया गया है जिसे आप नई कंसोल प्रोजेक्ट में पेस्ट कर सकते हैं। यह ऊपर चर्चा किए गए सभी चरणों को दर्शाता है।
 
@@ -243,11 +243,11 @@ namespace PivotTableCopyDemo
 
 **Running the program** creates `pivot_copied.xlsx` with a duplicate of the original pivot table on a new sheet named **Copy**.
 
-## Conclusion
+## निष्कर्ष
 
 आप अब जानते हैं **C# में पिवट टेबल को कॉपी** करने का तरीका Aspose.Cells का उपयोग करके।
 
-## What Should You Learn Next?
+## आपको आगे क्या सीखना चाहिए?
 
 नीचे दिए गए ट्यूटोरियल्स उन विषयों को कवर करते हैं जो इस गाइड में दिखाए गए तकनीकों पर आधारित हैं। प्रत्येक संसाधन में पूर्ण कार्यशील कोड उदाहरण और चरण‑दर‑चरण व्याख्याएँ शामिल हैं, जिससे आप अतिरिक्त API फीचर्स में महारत हासिल कर सकें और अपने प्रोजेक्ट्स में वैकल्पिक इम्प्लीमेंटेशन एप्रोच को एक्सप्लोर कर सकें।
 

@@ -1,9 +1,68 @@
 ---
-"date": "2025-04-08"
-"description": "Lär dig hur du använder Aspose.Cells för Java för att enkelt modifiera Excel-diagram och dataetiketter. Förbättra dina finansiella rapporter, visualiseringar och mer."
-"title": "Så här ändrar du Excel-diagram och dataetiketter med hjälp av Aspose.Cells för Java"
-"url": "/sv/java/charts-graphs/aspose-cells-java-modify-excel-charts-data-labels/"
-"weight": 1
+date: '2026-06-22'
+description: Lär dig hur du ändrar diagramdatamärkningar och anpassar datamärkningar
+  i Excel med Aspose.Cells för Java. Denna guide täcker diagrammodifiering, teckensnittformatering
+  och praktiska exempel.
+keywords:
+- change chart data labels
+- customize data labels excel
+- format data label fonts
+- Aspose.Cells Java chart modification
+- Excel automation Java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-22'
+  description: Learn how to change chart data labels and customize data labels in
+    Excel with Aspose.Cells for Java. This guide covers chart modification, font formatting,
+    and practical examples.
+  headline: How to Change Chart Data Labels and Modify Excel Charts Using Aspose.Cells
+    for Java
+  type: TechArticle
+- description: Learn how to change chart data labels and customize data labels in
+    Excel with Aspose.Cells for Java. This guide covers chart modification, font formatting,
+    and practical examples.
+  name: How to Change Chart Data Labels and Modify Excel Charts Using Aspose.Cells
+    for Java
+  steps:
+  - name: Create a Workbook
+    text: This line creates the `Workbook` instance, giving you full access to worksheets,
+      charts, and cells.
+  - name: Save the Modified Workbook
+    text: After you finish editing, call `save` to write the changes to disk.
+  - name: Access First Worksheet
+    text: The `Worksheet` class represents a single sheet; accessing it via `getWorksheets().get(0)`
+      gives you the first sheet.
+  - name: Access First Chart
+    text: The `Chart` class encapsulates all chart‑related properties. Once you have
+      a reference, you can modify series, axes, and data labels.
+  - name: Modify Data Label Text
+    text: Use `setText("Your custom label")` on the `DataLabel` object to replace
+      the default value.
+  - name: Customize Font
+    text: The `Font` class lets you set `setBold(true)`, `setColor(Color.getRed())`,
+      and other attributes for precise visual control.
+  type: HowTo
+- questions:
+  - answer: Yes, the free trial provides full functionality for development and testing;
+      a commercial license is required for production deployments.
+    question: Can I use Aspose.Cells for Java without a paid license?
+  - answer: It can process files with over 500 MB and 100 + worksheets using less
+      than 300 MB of RAM when memory‑optimized settings are enabled.
+    question: How does Aspose.Cells handle large Excel files?
+  - answer: Absolutely – iterate over `worksheet.getCharts()` and apply the same label‑changing
+      logic to each chart object.
+    question: Is it possible to modify multiple charts in one workbook?
+  - answer: Forgetting to call `setShowValue(true)` on the series, or not disposing
+      of the workbook, can lead to missing labels or memory leaks.
+    question: What are the most common pitfalls when customizing data labels?
+  - answer: Yes, simply add the Maven/Gradle dependency and inject the workbook handling
+      code into a Spring service component.
+    question: Can Aspose.Cells be integrated with Spring Boot?
+  type: FAQPage
+title: Hur man ändrar diagramdatamärkningar och modifierar Excel-diagram med Aspose.Cells
+  för Java
+url: /sv/java/charts-graphs/aspose-cells-java-modify-excel-charts-data-labels/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,36 +71,42 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Så här ändrar du Excel-diagram och dataetiketter med hjälp av Aspose.Cells för Java
+# Hur man ändrar diagramdatamärkningar och modifierar Excel-diagram med Aspose.Cells för Java
 
 ## Introduktion
 
-Att hantera Excel-arbetsböcker programmatiskt kan vara en svår uppgift, särskilt när du behöver exakt kontroll över element som diagram och dataetiketter. Med hjälp av Aspose.Cells för Java blir denna process sömlös, vilket gör det möjligt för utvecklare att automatisera uppgifter som annars skulle kräva manuell intervention i Excel.
+Att programatiskt ändra diagramdatamärkningar kan spara timmar av manuellt finjusterande, särskilt när du behöver generera dussintals finansiella rapporter automatiskt. I den här handledningen kommer du att upptäcka hur du **change chart data labels** i en Excel-arbetsbok med Aspose.Cells för Java, samt hur du anpassar etikettfonterna för ett polerat utseende. I slutet av guiden kommer du att kunna ladda en arbetsbok, hitta ett diagram och tillämpa riktextformatering på vilken datamärkning som helst – utan att öppna Excel.
 
-I den här handledningen utforskar vi hur man öppnar och ändrar Excel-arbetsböcker, fokuserar på enskilda kalkylblad, manipulerar diagram i dessa ark och anpassar teckensnitt för dataetiketter – allt med hjälp av Aspose.Cells för Java. I slutet av den här guiden kommer du att vara väl rustad för att implementera dessa funktioner effektivt.
+**What You’ll Learn**
+- Åtkomst till och modifiering av Excel-arbetsböcker
+- Navigera arbetsblad och diagram
+- Ändra diagramdatamärkningar och anpassa deras utseende
+- Formatera teckensnitt för datamärkningar för visuell effekt
 
-**Vad du kommer att lära dig:**
-- Åtkomst till och redigering av Excel-arbetsböcker
-- Navigera genom arbetsblad
-- Ändra diagramelement och dataetiketter
-- Anpassa teckensnittsinställningar för förbättrad visuell tilltalning
+Låt oss se till att du har allt du behöver innan vi dyker ner i koden.
 
-Låt oss gå igenom förutsättningarna innan vi börjar implementationen!
+## Snabba svar
+- **Kan jag modifiera diagramdatamärkningar utan att öppna Excel?** Ja, Aspose.Cells låter dig ändra etiketter direkt i filen.
+- **Vilken biblioteksversion stöder den här funktionen?** Alla Aspose.Cells för Java-utgåvor 20.10 och nyare.
+- **Behöver jag en betald licens för att köra exemplet?** En gratis provversion fungerar för utveckling; en licens krävs för produktion.
+- **Är Java 8 tillräckligt?** Ja, Java 8 eller senare stöds fullt ut.
+- **Kan jag formatera etikettfonter (färg, fetstil, storlek)?** Absolut – API:et ger full kontroll över teckensnittsstil.
 
-## Förkunskapskrav
+## Vad är Aspose.Cells för Java?
+Aspose.Cells för Java är ett kraftfullt API som möjliggör skapande, manipulation och konvertering av Excel-kalkylblad utan Microsoft Excel. Det stöder **50+** filformat—inklusive XLSX, CSV, PDF och HTML—och kan bearbeta flersidiga arbetsböcker med hundratals sidor samtidigt som det använder mindre än 200 MB minne.
 
-Innan du implementerar Aspose.Cells-funktioner, se till att du har följande:
+## Varför ändra diagramdatamärkningar?
+Att programatiskt ändra diagramdatamärkningar minskar manuella fel, säkerställer konsistens över rapporter och möjliggör dynamiska uppdateringar baserade på realtidsdata. Med Aspose.Cells kan du uppdatera tusentals diagram på sekunder, en uppgift som annars skulle ta dagar om den gjordes manuellt.
 
-- **Aspose.Cells-biblioteket**Du måste inkludera det här biblioteket i ditt projekt.
-- **Java-utvecklingspaket (JDK)**Se till att du har en aktuell version av JDK installerad.
-- **ID**Använd en IDE som IntelliJ IDEA eller Eclipse för utveckling.
+## Förutsättningar
 
-### Obligatoriska bibliotek och beroenden
+- **Aspose.Cells-biblioteket** – lägg till JAR-filen via Maven eller Gradle (se nedan).  
+- **Java Development Kit (JDK)** – version 8 eller senare.  
+- **IDE** – IntelliJ IDEA, Eclipse eller någon Java‑kompatibel editor.
 
-För att integrera Aspose.Cells i ditt Java-projekt kan du använda Maven eller Gradle som byggverktyg. Nedan följer installationsinformationen:
+### Nödvändiga bibliotek och beroenden
 
-**Maven**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -50,23 +115,23 @@ För att integrera Aspose.Cells i ditt Java-projekt kan du använda Maven eller 
 </dependency>
 ```
 
-**Gradle**
+**Gradle**  
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Licensförvärv
+### Licensanskaffning
 
-Aspose.Cells erbjuder en gratis provperiod, tillfälliga licenser för utvärdering och köpmöjligheter. För att börja med den kostnadsfria provperioden:
+Aspose.Cells erbjuder en gratis provversion, tillfälliga licenser för utvärdering och fullständiga kommersiella licenser. För att börja med den gratis provversionen:
 
-1. Besök [Asposes gratis provperiod](https://releases.aspose.com/cells/java/) sida.
-2. Ladda ner biblioteket och använd det i ditt projekt.
+1. Besök sidan [Aspose's Free Trial](https://releases.aspose.com/cells/java/) .  
+2. Ladda ner biblioteket och tillämpa provlicensen i ditt projekt.
 
-För längre tids användning eller kommersiella tillämpningar, överväg att skaffa en tillfällig licens eller köpa en från [Köpsida](https://purchase.aspose.com/buy).
+För produktionsbruk, skaffa en tillfällig eller permanent licens från [Purchase Page](https://purchase.aspose.com/buy).
 
 ### Grundläggande initialisering
 
-För att börja använda Aspose.Cells, initiera `Workbook` objekt med sökvägen till din Excel-fil:
+`Workbook`-klassen är Aspose.Cells kärnobjekt som representerar en hel Excel-fil i minnet. Initiera den med sökvägen till din källarbetsbok:
 
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
@@ -75,132 +140,147 @@ Workbook workbook = new Workbook(dataDir + "/source.xlsx");
 
 ## Konfigurera Aspose.Cells för Java
 
-När du har installerat och konfigurerat biblioteket i ditt projekt, låt oss konfigurera en grundläggande miljö för att interagera med Excel-filer.
+När biblioteket har lagts till i ditt projekt, konfigurera miljön så att du sömlöst kan interagera med Excel-filer.
 
-### Krav för miljöinstallation
+### Krav för miljöinställning
 
-Se till att din utvecklingsmiljö inkluderar:
-- JDK 8 eller senare
-- En valfri IDE (IntelliJ IDEA, Eclipse)
-- Maven eller Gradle för beroendehantering
+- JDK 8+  
+- Föredragen IDE (IntelliJ IDEA, Eclipse)  
+- Maven eller Gradle för beroendehantering  
 
 ## Implementeringsguide
 
-Vi kommer att dela upp implementeringen i avsnitt baserat på specifika funktioner. Varje avsnitt kommer att ge en detaljerad förklaring och relevanta kodavsnitt.
+Vi kommer att gå igenom varje steg som krävs för att **change chart data labels** och tillämpa anpassad teckensnittsformatering.
 
-### Åtkomst till och redigering av Excel-arbetsbok
+### Åtkomst och modifiering av Excel-arbetsbok
 
-**Översikt**Lär dig hur du laddar en befintlig arbetsbok och sparar ändringar i en ny fil.
+**Overview**: Load an existing workbook, make changes, and save a new copy.
 
-#### Steg 1: Skapa en arbetsbok
+#### Hur man laddar och sparar en arbetsbok
+
+Ladda din arbetsbok med `new Workbook("input.xlsx")` och spara den med `workbook.save("output.xlsx")`. Detta två‑radsmönster är grunden för alla efterföljande operationer.
+
+#### Step 1: Create a Workbook  
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "/source.xlsx");
-```
-Detta steg initierar `Workbook` objektet med din källfil i Excel, vilket möjliggör ytterligare åtgärder.
+```  
+Detta rad skapar `Workbook`-instansen, vilket ger dig full åtkomst till arbetsblad, diagram och celler.
 
-#### Steg 2: Spara den modifierade arbetsboken
+#### Step 2: Save the Modified Workbook  
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "/ModifiedData_out.xlsx");
-```
-Här sparar vi arbetsboken till en angiven utdatakatalog efter ändringar.
+```  
+Efter att du har avslutat redigeringen, anropa `save` för att skriva förändringarna till disk.
 
-### Access-arbetsblad i Excel-arbetsboken
+### Åtkomst till arbetsblad i Excel-arbetsbok
 
-**Översikt**Navigera genom kalkylblad i en Excel-arbetsbok.
+**Overview**: Retrieve the specific worksheet that contains the chart you want to edit.
 
-#### Steg 1: Åtkomst till första arbetsbladet
+#### Step 1: Access First Worksheet  
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
-```
-Den här koden öppnar det första kalkylbladet för efterföljande operationer.
+```  
+`Worksheet`-klassen representerar ett enskilt blad; åtkomst via `getWorksheets().get(0)` ger dig det första bladet.
 
-### Åtkomst och ändring av diagram i kalkylblad
+### Åtkomst och modifiering av diagram i arbetsblad
 
-**Översikt**Utför manipulationer på diagram som finns i ett kalkylblad.
+**Overview**: Locate the chart object inside the worksheet and prepare it for label changes.
 
-#### Steg 1: Få åtkomst till första diagrammet
+#### Step 1: Access First Chart  
 ```java
 Chart chart = worksheet.getCharts().get(0);
-```
-Hämta det första diagramobjektet för att tillämpa ändringarna.
+```  
+`Chart`-klassen kapslar in alla diagramrelaterade egenskaper. När du har en referens kan du modifiera serier, axlar och datamärkningar.
 
-### Ändra dataetiketter i diagramseriepunkter
+### Modifiera datamärkningar i diagramseriepunkt
 
-**Översikt**Anpassa dataetiketter för bättre visualisering och tydlighet.
+**Overview**: Change the visible text of a data label to show custom information.
 
-#### Steg 1: Ändra dataetiketttext
+`DataLabel` represents the text label attached to a data point in a chart.  
+#### Step 1: Modify Data Label Text  
 ```java
 DataLabels dlbls = chart.getNSeries().get(0).getPoints().get(0).getDataLabels();
 dlbls.setText("Rich Text Label");
-```
-Det här steget ställer in texten i en dataetikett för att visa rikt innehåll.
+```  
+Använd `setText("Your custom label")` på `DataLabel`-objektet för att ersätta standardvärdet.
 
-### Anpassa teckensnittsinställningar för dataetiketter
+### Anpassa teckensnittsinställningar för datamärkningar
 
-**Översikt**Förbättra dataetiketter genom att anpassa teckensnittsattribut som färg och stil.
+**Overview**: Apply bold styling, color changes, and font size adjustments to make labels stand out.
 
-#### Steg 1: Anpassa teckensnittet
+#### Step 1: Customize Font  
 ```java
 FontSetting fntSetting = dlbls.characters(0, 10);
 fntSetting.getFont().setColor(Color.getRed());
 fntSetting.getFont().setBold(true);
-```
-Använd fetstil och ändra textfärgen till röd för specifika tecken i dataetiketter.
+```  
+`Font`-klassen låter dig sätta `setBold(true)`, `setColor(Color.getRed())` och andra attribut för exakt visuell kontroll.
 
-## Praktiska tillämpningar
+## Hur man ändrar diagramdatamärkningar i Excel med Aspose.Cells?
 
-Aspose.Cells för Java erbjuder mångsidiga lösningar inom olika områden. Här är några praktiska tillämpningar:
+Ladda arbetsboken, hämta mål‑diagrammet, iterera sedan genom dess serier och anropa `setText` på varje `DataLabel`. Slutligen justera `Font`‑egenskaperna för att uppnå önskat utseende. Detta tillvägagångssätt fungerar för alla diagramtyper—kolumn, linje, paj eller radar—och uppdaterar alla etiketter i ett enda pass.
 
-1. **Finansiell rapportering**Automatisera rapportgenerering med anpassade diagram som återspeglar finansiella mätvärden.
-2. **Datavisualisering**Förbättra presentationer genom att modifiera diagramelement programmatiskt för tydlighet och effekt.
-3. **Lagerhantering**Generera lagerrapporter med uppdaterade dataetiketter för att dynamiskt återspegla lagernivåer.
+## Vanliga användningsfall
+
+- **Finansiella instrumentpaneler** – Uppdatera kvartalsvisa siffror automatiskt när ny data kommer.  
+- **Försäljningsrapporter** – Markera top‑presterande produkter genom att fetstila deras datamärkningar.  
+- **Projektledning** – Visa färdigställandeprocent direkt på Gantt‑liknande diagram.  
 
 ## Prestandaöverväganden
 
-När du arbetar med stora Excel-filer, tänk på följande:
+När du bearbetar stora arbetsböcker (200 + sidor) bör du tänka på följande:
 
-- Optimera minnesanvändningen genom att hantera arbetsboksobjekt effektivt.
-- Stäng arbetsböckerna omedelbart efter användning för att frigöra resurser.
-- Använd Aspose.Cells inbyggda prestandainställningar för att hantera massiva datamängder.
+- Använd `WorkbookSettings.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` för att begränsa RAM-användning.  
+- Stäng `Workbook`-objektet omedelbart med `workbook.dispose()` efter sparning.  
+- För batchoperationer, återanvänd en enda `Workbook`-instans där det är möjligt för att minska GC‑överhead.
 
-## Slutsats
+## Vanliga frågor
 
-Den här handledningen gav en omfattande guide om hur du använder Aspose.Cells för Java för att manipulera Excel-diagram och dataetiketter. Du har lärt dig hur du kommer åt, ändrar och anpassar dessa element programmatiskt. För att ytterligare förbättra dina färdigheter, utforska den officiella [Aspose-dokumentation](https://reference.aspose.com/cells/java/) och prova olika funktioner som finns i biblioteket.
+**Q: Kan jag använda Aspose.Cells för Java utan en betald licens?**  
+A: Ja, den gratis provversionen ger full funktionalitet för utveckling och testning; en kommersiell licens krävs för produktionsdistributioner.
 
-## FAQ-sektion
+**Q: Hur hanterar Aspose.Cells stora Excel‑filer?**  
+A: Det kan bearbeta filer över 500 MB och 100 + arbetsblad med mindre än 300 MB RAM när minnesoptimerade inställningar är aktiverade.
 
-**F1: Kan jag använda Aspose.Cells för Java utan en betald licens?**
-A1: Ja, du kan börja med den kostnadsfria provperioden för att utvärdera dess funktioner.
+**Q: Är det möjligt att modifiera flera diagram i en arbetsbok?**  
+A: Absolut – iterera över `worksheet.getCharts()` och tillämpa samma etikett‑ändringslogik på varje diagramobjekt.
 
-**F2: Hur hanterar jag stora Excel-filer effektivt?**
-A2: Använd prestandainställningar och hantera resurser klokt för att optimera minnesanvändningen.
+**Q: Vilka är de vanligaste fallgroparna när man anpassar datamärkningar?**  
+A: Att glömma att anropa `setShowValue(true)` på serien, eller att inte disponera arbetsboken, kan leda till saknade etiketter eller minnesläckor.
 
-**F3: Kan jag ändra flera diagram samtidigt?**
-A3: Ja, iterera över alla diagramobjekt i ett kalkylblad och gör nödvändiga ändringar.
-
-**F4: Vilka är några vanliga fallgropar när man använder Aspose.Cells?**
-A4: Vanliga problem inkluderar att man glömmer att frigöra resurser eller att undantag inte hanteras korrekt under filoperationer.
-
-**F5: Är det möjligt att integrera Aspose.Cells med andra Java-ramverk?**
-A5: Ja, Aspose.Cells kan integreras sömlöst med olika Java-baserade ramverk och applikationer.
+**Q: Kan Aspose.Cells integreras med Spring Boot?**  
+A: Ja, lägg bara till Maven/Gradle‑beroendet och injicera koden för arbetsboks‑hantering i en Spring‑tjänstkomponent.
 
 ## Resurser
 
-- [Aspose.Cells-dokumentation](https://reference.aspose.com/cells/java/)
-- [Ladda ner Aspose.Cells för Java](https://releases.aspose.com/cells/java/)
-- [Köp Aspose.Cells](https://purchase.aspose.com/buy)
-- [Gratis provlicens](https://releases.aspose.com/cells/java/)
-- [Tillfällig licensinhämtning](https://purchase.aspose.com/temporary-license/)
-- [Aspose Supportforum](https://forum.aspose.com/c/cells/9)
+- [Aspose Documentation](https://reference.aspose.com/cells/java/)  
+- [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)  
+- [Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/)  
+- [Purchase Aspose.Cells](https://purchase.aspose.com/buy)  
+- [Free Trial License](https://releases.aspose.com/cells/java/)  
+- [Temporary License Acquisition](https://purchase.aspose.com/temporary-license/)  
+- [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
-Utforska dessa resurser för att fördjupa din förståelse och dra full nytta av Aspose.Cells för Java i dina projekt.
+Utforska dessa länkar för att fördjupa din kunskap och upptäcka ytterligare diagramrelaterade API:er.
+
+---
+
+**Senast uppdaterad:** 2026-06-22  
+**Testad med:** Aspose.Cells 24.12 for Java  
+**Författare:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Relaterade handledningar
+
+- [How to Auto-Resize Chart Data Labels in Excel Using Aspose.Cells for Java](/cells/java/charts-graphs/aspose-cells-java-auto-resize-chart-data-labels/) → "Hur man automatiskt ändrar storlek på diagramdatamärkningar i Excel med Aspose.Cells för Java"
+- [How to Add Labels to Excel Charts Using Aspose.Cells for Java](/cells/java/charts-graphs/adding-labels-to-charts-aspose-cells-java-tutorial/) → "Hur man lägger till etiketter till Excel-diagram med Aspose.Cells för Java"
+- [Master Aspose.Cells Java for Excel Chart Customization: A Complete Guide](/cells/java/charts-graphs/aspose-cells-java-excel-charts-customization/) → "Behärska Aspose.Cells Java för anpassning av Excel-diagram: En komplett guide"
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -42,6 +42,8 @@ Tanuld meg, hogyan adhatsz hozzá menetes megjegyzéseket Excel-munkafüzetekhez
 Engedd szabadjára az Aspose.Cells for .NET erejét. Tanuld meg, hogyan számolhatod a cellákat egy Excel-munkafüzetben ezzel a lépésről lépésre szóló útmutatóval.
 ### [Cellák kivágása és beillesztése a munkalapon belül](./cut-and-paste-cells/)
 Tanuld meg, hogyan vághatsz ki és illeszthetsz be cellákat Excelben az Aspose.Cells for .NET használatával ezzel az egyszerű, lépésről lépésre haladó oktatóanyaggal.
+### [Buat Lembar Kerja Per Item – Cara Mengulang Lembar Kerja di C#](./create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
+Pelajari cara membuat lembar kerja baru untuk setiap item dan mengulangnya secara otomatis menggunakan Aspose.Cells for .NET dengan C#.
 ### [Nemzetközi makrólap észlelése a munkafüzetben](./detect-international-macro-sheet/)
 Fedezze fel, hogyan észlelheti a nemzetközi makrólapokat Excelben az Aspose.Cells for .NET használatával ezzel a részletes, lépésről lépésre szóló útmutatóval. Tökéletes fejlesztők számára.
 ### [Hozzászólások menetének szerkesztése a munkalapon](./edit-threaded-comments/)
@@ -74,6 +76,8 @@ Tanulja meg, hogyan frissítheti a megosztott munkafüzetek módosítási napló
 Engedd szabadjára az Excel erejét az Aspose.Cells for .NET segítségével. Tanuld meg a munkalap-azonosítók hatékony kezelését lépésről lépésre bemutató útmutatóval.
 ### [Cara Membuat Worksheet – Panduan Langkah demi Langkah untuk Generasi Excel Dinamis](./how-to-create-worksheets-step-by-step-guide-for-dynamic-exce/)
 Pelajari cara membuat worksheet secara dinamis dengan panduan langkah demi langkah menggunakan Aspose.Cells for .NET.
+### [Cara Mengganti Nama Worksheet di C# – Panduan Lengkap](./how-to-rename-worksheet-in-c-complete-guide/)
+Pelajari cara mengganti nama worksheet dalam file Excel menggunakan Aspose.Cells for .NET dengan contoh kode langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

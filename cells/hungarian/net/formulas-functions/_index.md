@@ -106,6 +106,13 @@ Ismerje meg, hogyan frissítheti programozottan a Power Query-képleteket az Exc
 
 ### [Excel munkafüzet létrehozása C# – Lambda, SEQUENCE és EXPAND útmutató](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 Tanulja meg, hogyan hozhat létre Excel munkafüzetet C#-ban Lambda, SEQUENCE és EXPAND függvények használatával.
+### [Excel munkafüzet létrehozása EXPAND képlettel – Teljes útmutató](./create-excel-workbook-with-expand-formula-complete-guide/)
+Ismerje meg, hogyan hozhat létre Excel munkafüzetet az EXPAND képlettel, és automatizálhatja a dinamikus adatbővítést .NET-ben.
+### [Hogyan használjuk a SEQUENCE függvényt C#-ban – Excel munkafüzet létrehozása](./how-to-use-sequence-in-c-create-excel-workbook/)
+Tanulja meg, hogyan hozhat létre Excel munkafüzetet C#-ban a SEQUENCE függvény használatával.
+
+### [Tömbképlet írása C#-ban – Teljes programozási útmutató](./write-array-formula-in-c-complete-programming-guide/)
+Tanulja meg, hogyan írjon tömbképleteket C#-ban az Aspose.Cells for .NET segítségével.
 
 ## Az Excel képlettípusok megértése
 

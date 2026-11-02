@@ -52,6 +52,8 @@ Découvrez comment implémenter une formule de cellule similaire à la fonctionn
 Découvrez comment gérer les formules de plages nommées en allemand avec Aspose.Cells pour .NET. Apprenez à créer, manipuler et enregistrer des fichiers Excel par programmation.
 ### [Créer un classeur japonais en C# – Guide complet étape par étape](./create-japanese-workbook-in-c-complete-step-by-step-guide/)
 Découvrez comment créer un classeur japonais en C# avec Aspose.Cells pour .NET grâce à notre guide complet étape par étape.
+### [Activer l'analyse des ères japonaises en C# avec Aspose.Cells](./enable-japanese-era-parsing-in-c-with-aspose-cells/)
+Apprenez à activer l’interprétation des ères japonaises en C# avec Aspose.Cells pour gérer correctement les dates historiques.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

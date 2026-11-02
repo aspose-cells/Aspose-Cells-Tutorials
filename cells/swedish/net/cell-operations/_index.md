@@ -51,6 +51,8 @@ Den här samlingen handledningar täcker allt från grundläggande cellåtkomst 
 ### [Dela upp sammanfogade celler i Excel med Aspose.Cells för .NET | Guide till celloperationer](./unmerge-cells-excel-aspose-net)
 ### [Uppdatera revisionsloggdagar i delad Excel med Aspose.Cells](./update-revision-logs-days-aspose-cells-net)
 ### [Läsa och skriva Excel C# – Komplett guide för att läsa och skriva Excel-celler](./read-write-excel-c-complete-guide-to-reading-and-writing-exc/)
+### [Hur du skriver datum i Excel i C# – Komplett programmeringsguide](./how-to-write-date-excel-in-c-complete-programming-guide/)
+Lär dig hur du skriver datumvärden till Excel-filer med Aspose.Cells för .NET i C# med steg-för-steg‑exempel och bästa praxis.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

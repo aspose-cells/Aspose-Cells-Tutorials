@@ -1,0 +1,7 @@
+Title: How to set print area in Excel and export PNG
+Slug: how-to-set-print-area-in-excel-and-export-png
+Category: rendering-and-export
+ProcessedDate: 2026-09-28T02:39:50.340745
+SourceRepo: AI Search API
+Keywords: set print area excel, how to export png, save range as image, add picture to worksheet, export selected cells image
+PRNumber: 171

@@ -38,6 +38,20 @@ Leer hoe u Unicode-tekens in Excel kunt invoegen met C#, stap voor stap met voor
 Leer hoe u docx-bestanden naar XPS converteert met C# en Aspose.Cells, stap voor stap met voorbeeldcode.
 ### [Excel naar XPS converteren met C# - Complete gids](./convert-excel-to-xps-with-c-complete-guide/)
 Leer stap voor stap hoe u Excel-bestanden naar XPS converteert met C# en Aspose.Cells, inclusief volledige codevoorbeelden.
+### [Nieuw Excel-werkboek maken – Unicode- en XPS-exportgids](./create-new-excel-workbook-unicode-xps-export-guide/)
+Leer hoe u een nieuw Excel-werkboek maakt met Unicode-ondersteuning en exporteert naar XPS met Aspose.Cells.
+### [Lettertypen insluiten in XPS met C# – Complete programmeergids](./embed-fonts-in-xps-with-c-complete-programming-guide/)
+Leer hoe u lettertypen in XPS-documenten kunt insluiten met C# en Aspose.Cells, inclusief voorbeeldcode en stapsgewijze instructies.
+### [Lettertypen insluiten in PDF met Aspose.Cells – Complete C#-gids](./embed-fonts-pdf-with-aspose-cells-complete-c-guide/)
+Leer hoe u lettertypen in PDF's insluit met Aspose.Cells in C#, stap voor stap met voorbeeldcode.
+### [Werkmap opslaan als XPS in C# – Stapsgewijze handleiding](./save-workbook-as-xps-in-c-step-by-step-guide/)
+Leer hoe u een Excel-werkmap als XPS-bestand opslaat met Aspose.Cells in C#, stap voor stap met voorbeeldcode.
+### [Excel naar XPS converteren in C# en Excel-bestand laden](./convert-excel-to-xps-in-c-and-load-excel-file/)
+Leer hoe u een Excel-bestand laadt en converteert naar XPS met C# en Aspose.Cells, stap voor stap met voorbeeldcode.
+### [Excel naar XPS converteren in C# – Complete stapsgewijze handleiding](./convert-excel-to-xps-in-c-complete-step-by-step-guide/)
+Leer hoe u Excel-bestanden naar XPS converteert met C# en Aspose.Cells, stap voor stap met voorbeeldcode.
+### [Hoe lettertypen inschakelen bij het converteren van Excel naar XPS – Complete gids](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
+Leer hoe u lettertypen inschakelt bij het converteren van Excel naar XPS met Aspose.Cells, stap voor stap met codevoorbeelden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -69,6 +69,12 @@ Apprenez à analyser les dates au format japonais en C# avec Aspose.Cells, guide
 Apprenez à insérer des données JSON dans un modèle Excel avec Aspose.Cells pour .NET grâce à ce guide détaillé étape par étape.
 ### [Comment charger du Markdown dans Excel – Importer un fichier Markdown avec Aspose.Cells](./how-to-load-markdown-into-excel-import-markdown-file-with-as/)
 Apprenez à importer un fichier Markdown dans Excel en utilisant Aspose.Cells pour .NET grâce à ce guide étape par étape.
+### [Générer Excel à partir de JSON avec C# – Guide complet étape par étape](./generate-excel-from-json-with-c-complete-step-by-step-guide/)
+Apprenez à créer un fichier Excel à partir de données JSON en C# avec Aspose.Cells, guide complet étape par étape.
+### [Créer un classeur Excel C# – Guide complet pour lire les dates depuis les cellules](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
+Apprenez à créer un classeur Excel en C# et à extraire les dates des cellules avec Aspose.Cells.
+### [Analyser les dates d'ère japonaise en C# – Guide complet](./parse-japanese-era-date-in-c-complete-guide/)
+Apprenez à analyser les dates du calendrier japonais en C# avec Aspose.Cells, grâce à un guide complet pas à pas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
