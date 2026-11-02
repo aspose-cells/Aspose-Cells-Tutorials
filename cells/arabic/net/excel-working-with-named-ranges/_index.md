@@ -36,6 +36,8 @@
 استغل إمكانيات Excel بالوصول إلى النطاقات المُسمّاة باستخدام دليلنا السهل باستخدام Aspose.Cells لـ .NET. مثالي لإدارة البيانات.
 ### [الوصول إلى نطاق مسمى محدد في Excel](./access-specific-named-range/)
 تعرف على كيفية الوصول إلى نطاقات محددة مسماة في Excel باستخدام Aspose.Cells لـ .NET باستخدام هذا البرنامج التعليمي الشامل خطوة بخطوة وكود العينة.
+### [تعريف نطاق مسمى في Excel باستخدام C# – إنشاء دفتر عمل](./define-named-range-in-excel-with-c-create-workbook/)
+تعلم كيفية تعريف نطاق مسمى في Excel باستخدام C# وإنشاء دفتر عمل جديد باستخدام Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

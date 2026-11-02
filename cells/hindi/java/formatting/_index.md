@@ -45,7 +45,7 @@
 Excel कार्यपुस्तिकाओं में पंति की ऊंचाई को स्वचालित रूप से समायोजित करने के लिए Java के लिए Aspose.Cells का उपयोग करना सीखें, जिससे साफ और पठनीय डेटा प्रस्तुति सुनिश्चित हो सके।
 
 ### [जावा के लिए Aspose.Cells के साथ एक्सेल सेल स्टाइलिंग में महारत हासिल करें: एक व्यापक गाइड](./aspose-cells-java-cell-styling-guide/)
-जावा के लिए Aspose.Cells का उपयोग करके Excel सेल को स्टाइल करना सीखें। यह गाइड वर्कबुक मैनिपुलेशन, सेल स्टाइलिंग तकनीक और प्रदर्शन युक्तियों को कवर करती है।
+जावा के लिए Aspose.Cells का उपयोग करके Excel सेल को स्टाइल करना सीखें। यह गाइड वर्कबुक मैनिपुलेशन, सेल स्टाइलिंग तकनीक और प्रदर्शन युक्तियों को कवर करता है।
 
 ### [Aspose.Cells Java में कंडीशनल फ़ॉर्मेटिंग में महारत हासिल करना: एक संपूर्ण गाइड](./aspose-cells-java-conditional-formatting-guide/)
 Excel में डायनेमिक कंडीशनल फ़ॉर्मेटिंग लागू करने के लिए Java के लिए Aspose.Cells का उपयोग करना सीखें। आसानी से समझ में आने वाले ट्यूटोरियल और कोड उदाहरणों के साथ अपनी स्प्रेडशीट को बेहतर बनाएँ।
@@ -58,6 +58,9 @@ Java के लिए Aspose.Cells का उपयोग करके Excel द
 
 ### [Aspose.Cells के साथ जावा एक्सेल वर्कबुक में कस्टम नंबर फॉर्मेट में महारत हासिल करें](./aspose-cells-java-custom-number-formats-handling/)
 Aspose.Cells का उपयोग करके Java वर्कबुक में कस्टम नंबर फ़ॉर्मेट को हैंडल करना सीखें। यह गाइड वर्कबुक कॉन्फ़िगरेशन, अपवाद हैंडलिंग और वास्तविक दुनिया के अनुप्रयोगों को कवर करता है।
+
+### [Apply Number Format Excel in Java – Complete Aspose.Cells Guide](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+Aspose.Cells for Java का उपयोग करके Excel में संख्या फ़ॉर्मेट कैसे लागू करें, इस चरण-दर-चरण गाइड में सीखें।
 
 ### [Excel में डेटा प्रस्तुति में महारत हासिल करना: Java के लिए Aspose.Cells के साथ संख्या और कस्टम दिनांक स्वरूपण](./aspose-cells-java-data-formatting-excel/)
 जावा के लिए Aspose.Cells का उपयोग करके संख्या प्रारूप और कस्टम दिनांक शैलियों को लागू करना सीखें, एक्सेल स्प्रेडशीट में डेटा प्रस्तुति को बढ़ाएं।
@@ -248,6 +251,13 @@ Aspose.Cells के साथ अपने जावा अनुप्रयो
 
 ### [जावा के साथ Excel में कस्टम नंबर फ़ॉर्मेट सेट करें – पूर्ण गाइड](./set-custom-number-format-in-excel-with-java-complete-guide/)
 जावा के लिए Aspose.Cells का उपयोग करके Excel में कस्टम नंबर फ़ॉर्मेट कैसे लागू करें, चरण-दर-चरण गाइड।
+### [जावा में स्टाइल्ड एक्सेल वर्कबुक बनाएं – पूर्ण गाइड](./create-styled-excel-workbook-in-java-complete-guide/)
+
+### [Aspose.Cells में WRAPCOLS का उपयोग कैसे करें – पूर्ण Java उदाहरण](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Aspose.Cells for Java में WRAPCOLS फ़ंक्शन का उपयोग करके सेल टेक्स्ट को रैप करने का चरण-दर-चरण उदाहरण देखें।
+### [जावा में मुद्रा फ़ॉर्मेट और बोल्ड फ़ॉन्ट के साथ एक्सेल वर्कबुक कैसे बनाएं](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+### [जावा के लिए Aspose.Cells का उपयोग करके Excel वर्कबुक बनाएं और कॉलम नंबर फ़ॉर्मेट लागू करें](./create-excel-workbook-java-and-apply-column-number-formats/)
+जावा में Aspose.Cells का उपयोग करके Excel वर्कबुक बनाना और कॉलम पर संख्या फ़ॉर्मेट लागू करना सीखें।
 ### [जावा का उपयोग करके एक्सेल में महत्वपूर्ण अंकों को सीमित करने का तरीका](./how-to-limit-significant-digits-excel-using-java/)
 जावा में Aspose.Cells का उपयोग करके एक्सेल फ़ाइल में महत्वपूर्ण अंकों की संख्या को नियंत्रित करने की पूरी गाइड।
 

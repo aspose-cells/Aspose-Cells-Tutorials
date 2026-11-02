@@ -71,6 +71,8 @@ Impara a salvare file XLSX come PDF in C# con supporto PDF/A‑1b, garantendo co
 Scopri come convertire file Excel in PDF usando C# con Aspose.Cells, passo passo, per sviluppatori di tutti i livelli.
 ### [Come salvare PDF con selettori di variazione dei caratteri – guida completa](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
 Impara a salvare PDF mantenendo i selettori di variazione dei font per una resa tipografica accurata, passo dopo passo.
+### [Crea cartella di lavoro Excel e salva come PDF con array dinamici](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
+Impara a generare una cartella di lavoro Excel e convertirla in PDF sfruttando gli array dinamici con Aspose.Cells per .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

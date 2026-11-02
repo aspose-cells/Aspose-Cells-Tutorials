@@ -1,0 +1,7 @@
+Title: How to add chart to Word with Aspose – embed Excel chart
+Slug: how-to-add-chart-to-word-with-aspose-embed-excel-chart
+Category: chart-rendering-and-conversion
+ProcessedDate: 2026-10-01T11:50:09.927020
+SourceRepo: AI Search API
+Keywords: add chart to word, embed excel chart word, export chart excel word, create word document aspose, save chart word document
+PRNumber: 174

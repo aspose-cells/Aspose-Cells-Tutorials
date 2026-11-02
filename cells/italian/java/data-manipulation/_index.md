@@ -35,6 +35,9 @@ Scopri come utilizzare Aspose.Cells per Java per accedere ed elaborare le formul
 ### [Come rimuovere le righe vuote dai file Excel utilizzando Aspose.Cells per Java](./delete-blank-rows-aspose-cells-java/)
 Scopri come eliminare in modo efficiente le righe vuote nei file Excel con Aspose.Cells per Java. Segui questa guida passo passo pensata per sviluppatori e analisti di dati.
 
+### [Come rimuovere l'autofiltro da Excel utilizzando Aspose.Cells per Java](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
+Scopri come rimuovere l'autofiltro da un foglio Excel con Aspose.Cells per Java, includendo esempi di codice chiari e consigli di ottimizzazione.
+
 ### [Padroneggia la gestione dei dati Excel in Java con Aspose.Cells: una guida completa](./excel-data-management-java-aspose-cells/)
 Scopri come gestire e manipolare in modo efficiente i dati di Excel utilizzando Aspose.Cells per Java. Questa guida illustra come caricare cartelle di lavoro, accedere alle celle e scorrere i set di dati.
 
@@ -62,7 +65,8 @@ Scopri come popolare in modo efficiente i fogli Excel con dati nidificati utiliz
 ### [Come eseguire la sostituzione di espressioni regolari in Excel utilizzando Aspose.Cells per Java: una guida completa](./regex-replacement-excel-aspose-cells-java-guide/)
 Scopri come automatizzare le sostituzioni di testo nei file Excel utilizzando espressioni regolari con Aspose.Cells per Java. Questa guida passo passo illustra l'inizializzazione, la configurazione e le applicazioni pratiche.
 
-
+### [Come dividere le colonne in Java con Aspose.Cells – guida passo‑passo](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
+Scopri come suddividere le colonne in un foglio Excel usando Aspose.Cells per Java, con istruzioni dettagliate passo‑passo.
 
 ## Risorse aggiuntive
 

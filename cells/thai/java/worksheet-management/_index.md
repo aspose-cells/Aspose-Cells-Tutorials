@@ -32,6 +32,9 @@
 ### [วิธีเพิ่มเวิร์กชีตใน Excel โดยใช้ Aspose.Cells สำหรับ Java: คู่มือฉบับสมบูรณ์](./add-spreadsheets-excel-aspose-cells-java/)
 เรียนรู้วิธีการเพิ่มเวิร์กชีตลงในไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า การใช้งาน และแอปพลิเคชันจริง
 
+### [สร้างแผ่นงานจากรายการด้วย Aspose.Cells Java – คู่มือฉบับสมบูรณ์](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+เรียนรู้วิธีสร้างแผ่นงานหลายแผ่นจากรายการโดยใช้ Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดทีละขั้นตอน
+
 ### [วิธีแทรกคอลัมน์ใน Excel โดยใช้ Aspose.Cells สำหรับ Java - คู่มือฉบับสมบูรณ์](./aspose-cells-java-insert-column-excel/)
 เรียนรู้การแทรกคอลัมน์ลงในเวิร์กชีต Excel ด้วย Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำโดยละเอียดนี้เพื่อสร้างรายงานอัตโนมัติและปรับปรุงการจัดการข้อมูล
 
@@ -52,6 +55,9 @@
 
 ### [การจัดการแถวอย่างมีประสิทธิภาพใน Excel โดยใช้ Aspose.Cells สำหรับ Java: แทรกและลบแถว](./aspose-cells-java-row-operations-excel/)
 เรียนรู้การดำเนินการแถวใน Excel ด้วย Aspose.Cells สำหรับ Java เรียนรู้การแทรกและลบแถวอย่างมีประสิทธิภาพ เพิ่มประสิทธิภาพงานการจัดการข้อมูลของคุณ
+
+### [การตรึงสองแถวแรกใน Excel ด้วย Java – คู่มือฉบับสมบูรณ์](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+เรียนรู้วิธีตรึงสองแถวแรกของแผ่นงาน Excel ด้วย Aspose.Cells สำหรับ Java เพื่อให้หัวตารางคงที่ขณะเลื่อน
 
 ### [การลบมาสเตอร์ชีทด้วย Aspose.Cells ใน Java](./aspose-cells-java-sheet-removal-guide/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Java
@@ -100,6 +106,9 @@
 
 ### [ตั้งชื่อแท็บแผ่นเดียวใน HTML ด้วย Aspose.Cells Java](./set-single-sheet-tab-name-html-aspose-cells-java/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Java
+
+### [วิธีสร้างชื่อแผ่นงานแบบไดนามิกใน Excel ด้วย Java](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
+เรียนรู้วิธีสร้างชื่อแผ่นงานแบบไดนามิกในไฟล์ Excel ด้วย Java โดยใช้ Aspose.Cells เพื่อเพิ่มความยืดหยุ่นและประสิทธิภาพในการจัดการข้อมูล
 
 ### [ยกเลิกการซ่อนแถวและคอลัมน์ใน Excel โดยใช้ Aspose.Cells Java: คำแนะนำทีละขั้นตอน](./unhide-rows-columns-excel-aspose-cells-java/)
 เรียนรู้วิธีการแสดงแถวและคอลัมน์ในไฟล์ Excel ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ Java จัดการข้อมูลโดยอัตโนมัติด้วยคู่มือฉบับสมบูรณ์นี้

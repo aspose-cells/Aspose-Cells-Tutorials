@@ -43,6 +43,8 @@ Erfahren Sie, wie Sie Excel-Arbeitsmappen in CSV-Dateien konvertieren.
 
 
 
+### [Excel-Arbeitsmappe mit Aspose.Cells in C# als CSV exportieren](./how-to-export-excel-workbook-to-csv-with-aspose-cells-in-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe in eine CSV-Datei exportieren.
 
 
 

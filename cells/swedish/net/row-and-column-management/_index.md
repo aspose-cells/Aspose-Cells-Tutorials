@@ -66,10 +66,14 @@ Lär dig hur du visar rader och kolumner i Excel med hjälp av Aspose.Cells för
 Lär dig hur du tar bort en kolumn i en Excel-fil med Aspose.Cells för .NET. Följ vår detaljerade steg-för-steg-guide för att effektivisera dina Excel-filändringar.
 ### [Ta bort en rad i Aspose.Cells .NET](./delete-row-aspose-cells/)
 Lär dig hur du tar bort en rad i Excel med Aspose.Cells för .NET. Den här steg-för-steg-guiden täcker förutsättningar, kodiport och en detaljerad genomgång för sömlös datamanipulation.
+### [Hur man tar bort rader från Excel-tabell med C#](./how-to-delete-rows-from-excel-table-using-c/)
+Lär dig hur du tar bort rader från en Excel-tabell med C# och Aspose.Cells för .NET.
 ### [Aspose Cells ta bort rader – skydda rubrikrad i Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 Lär dig hur du tar bort rader men behåller rubrikraden skyddad i Excel med Aspose.Cells för .NET.
 ### [Hur man tar bort rader i Excel med C# – skydda tabellrubrik](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
 Lär dig hur du tar bort rader i Excel med C# samtidigt som du skyddar tabellens rubrik.
+### [Hur man använder Aspose.Cells för att ta bort rader i en Excel-tabell samtidigt som rubriken behålls](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
+Lär dig hur du tar bort rader i en Excel-tabell men behåller rubrikraden med Aspose.Cells för .NET.
 ### [Ta bort flera rader i Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Lär dig ta bort flera rader i Excel med Aspose.Cells för .NET. Den här detaljerade steg-för-steg-guiden täcker förutsättningar, kodningsexempel och vanliga frågor för utvecklare.
 ### [Infoga en kolumn i Aspose.Cells .NET](./insert-column-aspose-cells/)
@@ -84,6 +88,7 @@ Lär dig infoga flera rader i Excel med Aspose.Cells för .NET. Följ vår detal
 Lär dig hur du dynamiskt genererar rader i Excel för att upprepa data med C# och Aspose.Cells.
 ### [Hur man infogar rader i GridJs – Lägg till flera rader i rutnätet effektivt](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 Lär dig hur du effektivt lägger till flera rader i ett GridJs‑rutnät med enkla kodexempel.
+### [Skapa Excel-arbetsbok C# och transponera kolumn till rad](./create-excel-workbook-c-and-transpose-column-to-row/)
 
 ### [Ladda Excel-fil C# – Hur du tar bort rader och specifika rader](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Lär dig hur du tar bort rader och specifika rader i en Excel-fil med Aspose.Cells för .NET i C#.
@@ -102,6 +107,8 @@ Lär dig hur du använder wrapcols i C# tillsammans med Excel WRAPROWS och omber
 Lär dig hur du tar bort en hel rad i en Excel-fil med C# och Aspose.Cells i några enkla steg.
 ### [Skifta celler upp i Excel med C# – Komplett guide](./shift-cells-up-in-excel-with-c-complete-guide/)
 Lär dig hur du flyttar celler uppåt i ett Excel-ark med C# genom en steg-för-steg-guide.
+### [Ta bort rader från Excel-tabell – komplett C#-guide](./delete-rows-from-excel-table-complete-c-guide/)
+Lär dig hur du tar bort rader från en Excel-tabell med en komplett C#-guide i Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

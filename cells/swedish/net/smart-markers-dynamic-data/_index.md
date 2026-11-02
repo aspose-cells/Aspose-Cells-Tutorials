@@ -97,7 +97,6 @@ Lär dig hur du slår ihop data i Excel med Smart Markers i C# för att skapa dy
 ### [Hur man genererar Excel-rapport i C# – Fullständig guide med SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 Lär dig hur du genererar en Excel‑rapport i C# med SmartMarker, inklusive mallhantering och datafusion.
 ### [Skapa dynamiska arbetsblad med smarta markörer i Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
-Lär dig hur du dynamiskt skapar och fyller arbetsblad med Smart Markers i Aspose.Cells för .NET, för flexibel och automatiserad rapportering.
 ### [Hur man skriva mall med smarta markörer – steg‑för‑steg‑guide](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 ### [Hur du ersätter variabler i JSON med SmartMarker – Komplett guide](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 Lär dig hur du använder SmartMarker för att dynamiskt ersätta variabler i JSON när du skapar Excel-rapporter.
@@ -122,6 +121,7 @@ Lär dig steg för steg hur du exporterar data till Excel med Smart Marker i C#.
 
 ### [Skapa Excel-arbetsbok programatiskt med Smart Markers i Aspose.Cells](./create-excel-workbook-programmatically-using-smart-markers/)
 Lär dig hur du programatiskt skapar en Excel-arbetsbok med Smart Markers i Aspose.Cells för .NET.
+### [Konfigurera SmartMarkerOptions ArrayAsSingle i C# för JSON-arrayer](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
 
 
 
@@ -141,6 +141,7 @@ Lär dig steg för steg hur du exporterar Excel-filer med Aspose.Cells i C#-appl
 ### [Exportera data till Excel: Fyll i en mall från en array i C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
 ### [Importera JSON till Excel i C# – steg‑för‑steg‑guide](./import-json-to-excel-in-c-step-by-step-guide/)
 Lär dig hur du importerar JSON-data till Excel med Aspose.Cells i C# steg för steg.
+### [Skapa Excel från JSON med Aspose.Cells Smart Marker](./create-excel-from-json-with-aspose-cells-smart-marker/)
 ### [Hur du namnger blad automatiskt – Generera flera blad i C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 ### [Skapa Master Data-objekt – Steg‑för‑steg‑guide för att generera detaljblad](./create-master-data-object-step-by-step-guide-to-generate-det/)
 Lär dig hur du skapar ett master‑dataobjekt och automatiskt genererar ett detaljblad i Excel med Smart Markers.

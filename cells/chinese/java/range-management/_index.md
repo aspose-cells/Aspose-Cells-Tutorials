@@ -60,6 +60,8 @@
 
 ### [使用 Java 编程复制工作表范围 – 完整指南](./programmatically-copy-worksheet-range-complete-java-guide/)
 学习如何使用 Aspose.Cells for Java 通过代码复制工作表中的指定范围，涵盖步骤、示例和最佳实践。
+### [如何使用 Aspose.Cells 在 Java 中复制范围](./how-to-copy-range-in-java-with-aspose-cells/)
+学习如何使用 Aspose.Cells for Java 在 Excel 中复制指定单元格范围，实现高效的数据迁移和处理。
 
 ### [使用 Aspose.Cells Java 在 Excel 中创建联合范围：综合指南](./create-union-range-excel-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 在 Excel 中创建联合范围，增强数据呈现和可读性。
@@ -96,6 +98,8 @@ Aspose.Words Java 代码教程
 
 ### [使用 Aspose.Cells 创建新工作表并复制 Excel 区域](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
 学习如何使用 Aspose.Cells for Java 创建新工作表并复制指定的 Excel 区域，实现数据迁移和复制。
+### [在 Excel 中创建命名范围并检测重复名称](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+学习如何在 Excel 中使用 Aspose.Cells for Java 创建命名范围，并检测是否存在重复的名称。
 
 ## 其他资源
 

@@ -27,6 +27,11 @@
 ## उपलब्ध ट्यूटोरियल
 
 ### [Aspose.Cells Java: Excel वर्कबुक बनाएं और सहेजें - एक चरण-दर-स्टेप मार्गदर्शिका](./aspose-cells-java-create-save-excel-workbooks/)
+### [Create Excel workbook with custom properties in Java – step‑by‑step guide](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+
+### [जावा में एक्सेल वर्कबुक बनाएं: जापानी युग तिथियों को संभालें](./create-excel-workbook-java-handle-japanese-era-dates/)
+जावा में Aspose.Cells का उपयोग करके जापानी युग तिथियों को सही ढंग से संभालना सीखें।
+
 जावा के लिए Aspose.Cells का उपयोग करके Excel कार्यपुस्तिकाओं के निर्माण और प्रबंधन को स्वचालित करने का तरीका जानें। यह मार्गदर्शिका पृष्ठ सेटअप गुणों को इंस्टेंटिएट करना, सहेजना और सेट करना शामिल करती है।
 
 ### [Excel वर्कबुक जावा में बनाएं – पूर्ण चरण-दर-चरण गाइड](./create-excel-workbook-java-complete-step-by-step-guide/)
@@ -41,6 +46,10 @@
 
 ### [प्रोग्रामेटिक रूप से XLSB कार्यपुस्तिका बनाएं – पूर्ण जावा गाइड](./create-xlsb-workbook-programmatically-full-java-guide/)
 जावा में Aspose.Cells का उपयोग करके प्रोग्रामेटिक रूप से XLSB कार्यपुस्तिका बनाने और सहेजने की पूरी प्रक्रिया सीखें।
+### [जावा में नई वर्कबुक बनाएं – पूर्ण गाइड](./create-new-workbook-java-complete-guide/)
+जावा के लिए Aspose.Cells का उपयोग करके नई वर्कबुक बनाने की पूरी प्रक्रिया सीखें।
+### [जावा में Excel फ़ाइल बनाना – पूर्ण चरण‑दर‑चरण मार्गदर्शिका](./generate-excel-file-java-complete-step-by-step-guide/)
+जावा के लिए Aspose.Cells का उपयोग करके Excel फ़ाइल बनाने की पूरी प्रक्रिया सीखें। सेटअप, कोड उदाहरण और सर्वोत्तम अभ्यास शामिल हैं।
 
 ### [Aspose.Cells Java: संस्करण प्रदर्शित करें और साझा कार्यपुस्तिका बनाएँ](./aspose-cells-java-display-version-create-shared-workbook/)
 Aspose.Words Java के लिए एक कोड ट्यूटोरियल
@@ -346,9 +355,10 @@ Java के लिए Aspose.Cells का उपयोग करके कस्
 जावा के लिए Aspose.Cells का उपयोग करके Excel XLSB फ़ाइलों को प्रबंधित करना सीखें। यह ट्यूटोरियल लोडिंग, डेटाबेस कनेक्शन को संशोधित करना और परिवर्तनों को कुशलतापूर्वक सहेजना शामिल करता है।
 
 ### [Java के लिए Aspose.Cells का उपयोग करके कस्टम Excel गुणधर्मों को PDF में कैसे निर्यात करें](./export-excel-custom-properties-pdf-aspose-cells-java/)
-जावा के लिए Aspose.Cells का उपयोग करके Excel वर्कबुक से कस्टम प्रॉपर्टीज़ को PDF में एक्सपोर्ट करना सीखें। इस चरण-दर-स्टेप गाइड के साथ अपने डेटा प्रबंधन को सुव्यवस्थित करें।
-
 ### [Aspose.Cells Java का उपयोग करके Excel को HTML में निर्यात करें: एक चरण-दर-स्टेप मार्गदर्शिका](./export-excel-html-aspose-cells-java/)
+### [जावा का उपयोग करके Excel में कस्टम प्रॉपर्टी कैसे जोड़ें – पूर्ण गाइड](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+जावा के लिए Aspose.Cells का उपयोग करके Excel फ़ाइल में कस्टम प्रॉपर्टी जोड़ने का तरीका सीखें।
+
 जानें कि Java के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों को HTML के रूप में कैसे सहजता से निर्यात किया जाए। यह मार्गदर्शिका कार्यपुस्तिका लोडिंग, कस्टम स्ट्रीम प्रदाता और कार्यपुस्तिकाओं को आसानी से सहेजने को कवर करती है।
 
 ### [IStreamProvider और Aspose.Cells for Java का उपयोग करके Excel को HTML में निर्यात करें: एक व्यापक मार्गदर्शिका](./export-excel-html-streamprovider-aspose-cells-java/)
@@ -496,6 +506,11 @@ XLSX फ़ाइलें खोलकर और फ़ाइल नाम प�
 जावा में Aspose.Cells का उपयोग करके जापानी कैलेंडर के साथ वर्कबुक बनाना सीखें।
 ### [Java create excel file, add custom property and save as XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
 Java में Aspose.Cells का उपयोग करके Excel फ़ाइल बनाएं, कस्टम प्रॉपर्टी जोड़ें और इसे XLSB फ़ॉर्मेट में सहेजें।
+### [Lambda फ़ंक्शन जावा का उपयोग करके Excel वर्कबुक बनाने का उदाहरण](./use-lambda-function-java-to-create-excel-workbook-example/)
+जावा में Lambda फ़ंक्शन का उपयोग करके Excel वर्कबुक बनाने का चरण-दर- चरण उदाहरण।
+### [Aspose.Cells for Java का उपयोग करके xlsb फ़ाइलें कस्टम प्रॉपर्टीज़ के साथ कैसे सहेजें](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Aspose.Cells for Java के साथ xlsb फ़ाइलों में कस्टम प्रॉपर्टीज़ जोड़कर सहेजने का तरीका सीखें।
+### [Aspose.Cells का उपयोग करके जावा में कस्टम प्रॉपर्टी कैसे प्राप्त करें](./how-to-get-custom-property-java-using-aspose-cells/)
 
 ## अतिरिक्त संसाधन
 

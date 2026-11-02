@@ -74,7 +74,11 @@ Leer hoe u rijen in een Excel-tabel verwijdert met C# terwijl u de tabelkop beho
 Leer hoe u meerdere rijen in Excel kunt verwijderen met Aspose.Cells voor .NET. Deze gedetailleerde, stapsgewijze handleiding behandelt de vereisten, codevoorbeelden en veelgestelde vragen voor ontwikkelaars.
 ### [Rijen verwijderen – Koprij beschermen met Aspose.Cells .NET](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 Leer hoe u rijen kunt verwijderen terwijl u de koprij beschermt in Excel met Aspose.Cells voor .NET.
+### [Hoe Aspose.Cells te gebruiken om rijen in een Excel‑tabel te verwijderen terwijl de kop behouden blijft](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
+Leer hoe u rijen uit een Excel‑tabel verwijdert met Aspose.Cells, terwijl de header behouden blijft, via een duidelijke stap‑voor‑stap handleiding.
 
+### [Rijen verwijderen uit Excel-tabel – volledige C#-handleiding](./delete-rows-from-excel-table-complete-c-guide/)
+Leer hoe u rijen uit een Excel-tabel verwijdert met een volledige C#-handleiding.
 ### [Een kolom invoegen in Aspose.Cells .NET](./insert-column-aspose-cells/)
 Leer hoe je een kolom in Excel invoegt met Aspose.Cells voor .NET. Volg onze eenvoudige, stapsgewijze handleiding om naadloos een nieuwe kolom toe te voegen. Perfect voor .NET-ontwikkelaars.
 ### [Een rij invoegen in Aspose.Cells .NET](./insert-row-aspose-cells/)
@@ -105,11 +109,14 @@ Leer hoe u rijen in een Excel‑bestand invoegt met C# en Aspose.Cells via een d
 Leer hoe u met WRAPCOLS een tweekolomsindeling maakt in Excel via C# met Aspose.Cells.
 ### [Hoe rijen invoegen in GridJs – Voeg meerdere rijen snel toe](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Leer hoe u met GridJs meerdere rijen in één keer kunt toevoegen via een eenvoudige, stapsgewijze handleiding.
+### [Excel-werkmap maken met C# en kolom transponeren naar rij](./create-excel-workbook-c-and-transpose-column-to-row/)
 
 ### [Hoe wrapcols te gebruiken in C# – Volledige gids met Excel WRAPROWS & Formules opnieuw berekenen](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Ontdek hoe u wrapcols en wraprows in Excel kunt toepassen en formules automatisch laat herberekenen met Aspose.Cells voor .NET.
 ### [Cellen omhoog verschuiven in Excel met C# – Complete gids](./shift-cells-up-in-excel-with-c-complete-guide/)
 Leer hoe u met C# cellen in een Excel-werkblad omhoog verschuift met Aspose.Cells, stap voor stap uitgelegd.
+### [Hoe rijen uit Excel-tabel verwijderen met C#](./how-to-delete-rows-from-excel-table-using-c/)
+Leer hoe u rijen uit een Excel‑tabel verwijdert met C# via een stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -36,18 +36,26 @@
 ## 电子表格自动化教程
 ### [批量 Excel 处理](./batch-excel-processing/)
 了解如何使用 Aspose.Cells for Java 简化批量 Excel 处理任务。通过源代码示例实现数据处理、转换和操作的自动化。
+
 ### [自动数据输入](./automated-data-entry/)
 学习如何使用 Aspose.Cells for Java 的源代码示例高效地实现数据录入自动化。提高数据处理的效率和准确性。
+
 ### [动态 Excel 报告](./dynamic-excel-reports/)
 使用 Aspose.Cells for Java 轻松创建动态 Excel 报表。自动更新数据、应用格式并节省时间。
+
 ### [自动数据提取](./automated-data-extraction/)
 通过 Aspose.Cells for Java 的源代码示例，学习如何高效地自动提取数据。轻松从 Excel 文件中提取数据。
+
 ### [Excel 工作簿自动化](./excel-workbook-automation/)
 学习使用 Aspose.Cells 在 Java 中实现 Excel 工作簿自动化：以编程方式创建、读取和更新 Excel 文件。立即开始！
+### [如何使用 Aspose.Cells：添加自定义属性并保存 XLSB](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+学习如何使用 Aspose.Cells 为 Excel 文件添加自定义属性并保存为 XLSB 格式的示例代码。
 ### [自动化 Excel 图表](./automating-excel-charts/)
 探索如何使用 Aspose.Cells for Java 自动化创建和自定义 Excel 图表，并附带源代码示例。简化您的图表绘制任务。 
+
 ### [使用 Java 实现 Excel 自动化](./excel-automation-with-java/)
 了解如何使用 Aspose.Cells（一个强大的 Excel 操作库）通过源代码示例在 Java 中自动执行 Excel 任务。
+
 ### [Excel 中的数据集成](./data-integration-in-excel/)
 学习如何高效地集成 Excel 数据，从而获得更深入的洞察和决策。本指南包含使用 Aspose.Cells for Java 的源代码，并包含分步指南。
 ### [使用 Java 禁用 Excel 自动筛选 – 步骤指南](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
@@ -63,6 +71,13 @@
 学习如何使用 Aspose.Cells for Java 在 Excel 中清除自动筛选，并通过示例代码实现完整的操作流程。
 ### [创建新工作簿 Aspose – 添加自定义属性 Excel 并保存为 XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
 演示如何使用 Aspose.Cells for Java 创建工作簿、添加自定义属性并保存为 XLSB 格式。
+
+### [使用 Java 删除 Excel 表头 – 完整指南](./how-to-delete-table-header-in-excel-with-java-full-guide/)
+
+### [在 Excel 中使用 Java 扩展数组 – 步骤指南](./expand-array-in-excel-with-java-step-by-step-guide/)
+学习如何使用 Aspose.Cells for Java 在 Excel 中展开数组，实现动态数据填充和自动化处理。
+### [使用 Java 从 Excel 中删除自动筛选 – 完整指南](./remove-autofilter-from-excel-with-java-complete-guide/)
+学习如何使用 Aspose.Cells for Java 完整地删除 Excel 工作表中的自动筛选功能，并提供示例代码。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

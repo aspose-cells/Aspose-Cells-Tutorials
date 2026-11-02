@@ -67,6 +67,8 @@ Aspose.Cells for .NET kullanarak Excel dosyalarına metaveri eklemeyi adım adı
 Aspose.Cells for .NET ile Excel dosyalarınıza özel özellik eklemeyi adım adım öğrenin.
 ### [C# ile XLSB Kaydetme ve Özel Belge Özellikleri Ekleme](./how-to-save-xlsb-and-add-custom-document-properties-in-c/)
 Aspose.Cells for .NET kullanarak XLSB dosyasını kaydedin ve özel belge özelliklerini ekleyerek Excel dosyanızı özelleştirin.
+### [C# ile Excel özel özelliklerini yönetme – adım adım öğretici](./how-to-manage-excel-custom-properties-in-c-a-step-by-step-tu/)
+C# ile Excel özel özelliklerini ekleme, güncelleme ve silme sürecini adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

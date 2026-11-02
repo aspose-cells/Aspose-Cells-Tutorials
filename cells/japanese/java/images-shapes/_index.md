@@ -74,6 +74,9 @@ Aspose.Cells for Java を使って、ワークブックの操作とシート間�
 ### [Aspose.Cells for Java で Excel の SmartArt グラフィック更新を自動化する: 包括的なガイド](./automate-updating-smartart-excel-aspose-cells-java/)
 Aspose.Cells for Javaを使用して、ExcelのSmartArtグラフィックの更新を自動化する方法を学びましょう。このステップバイステップのチュートリアルで、ワークフローを効率化し、生産性を向上させましょう。
 
+### [Aspose.Cells for Java を使用して ShapeExportOptions で図形をエクスポートする方法](./how-to-export-shape-with-shapeexportoptions-in-java/)
+Aspose.Cells for Java の ShapeExportOptions を活用し、Excel の図形を画像としてエクスポートする手順を解説します。
+
 ### [Aspose.Cells を使用して Java で SmartArt をグループ図形に変換する: 包括的なガイド](./convert-smartart-group-shapes-java/)
 Aspose.Cells for Javaを使用して、Excelファイル内のSmartArtグラフィックをグループ図形に変換する方法を学びます。このガイドでは、設定、コード例、そして実践的な応用例を紹介します。
 
@@ -132,7 +135,8 @@ Aspose.Cells for Java を使用して、Excel シートから空白を削除し�
 Aspose.Words Javaのコードチュートリアル
 
 ### [Aspose.Cells Java を使用して Excel に背景画像を設定する (ステップバイステップ ガイド)](./set-background-picture-excel-aspose-cells-java/)
-Aspose.Cells Javaを使って背景画像を追加し、Excelレポートを魅力的にする方法を学びましょう。このステップバイステップガイドに従って、シームレスに実装しましょう。
+
+### [Aspose.Cells を使用して Java で範囲から PNG を作成する方法](./how-to-create-png-from-range-in-java-with-aspose-cells/)
 
 ## 追加リソース
 

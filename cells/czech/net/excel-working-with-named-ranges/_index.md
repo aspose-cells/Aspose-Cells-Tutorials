@@ -36,6 +36,8 @@ Tato metoda je ideální pro cílenou správu dat, která vám umožňuje přesn
 Odemkněte sílu Excelu přístupem k pojmenovaným oblastem pomocí našeho jednoduchého průvodce s Aspose.Cells pro .NET. Ideální pro správu dat.
 ### [Přístup k specifickému pojmenovanému rozsahu v Excelu](./access-specific-named-range/)
 Naučte se, jak v Excelu pomocí Aspose.Cells pro .NET přistupovat ke konkrétním pojmenovaným oblastem, a to v tomto komplexním návodu krok za krokem a s ukázkovým kódem.
+### [Definovat pojmenovanou oblast v Excelu pomocí C# – vytvořit sešit](./define-named-range-in-excel-with-c-create-workbook/)
+Naučte se, jak pomocí Aspose.Cells pro .NET v C# vytvořit nový sešit a definovat pojmenovanou oblast v Excelu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

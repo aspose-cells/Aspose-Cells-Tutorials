@@ -66,6 +66,20 @@ Leer hoe u in Java een nieuw werkboek maakt en een bestaande draaitabel kopieert
 Leer hoe u een werkblad dupliceert zonder draaitabellen te verliezen met Aspose.Cells voor Java.
 ### [Hoe een draaitabel dupliceren in Java met Aspose.Cells](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
 Leer hoe u een bestaande draaitabel dupliceert met Aspose.Cells voor Java.
+### [Hoe draaitabellen te dupliceren in Excel met Java – stapsgewijze handleiding](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
+Leer hoe u draaitabellen in Excel dupliceert met Aspose.Cells voor Java, stap voor stap met voorbeeldcode.
+### [Excel-draaitabelafbeelding: Exporteren naar PNG met Java](./excel-pivot-table-image-export-to-png-with-java/)
+Leer hoe u een draaitabel als PNG-afbeelding exporteert met Aspose.Cells voor Java.
+### [Nieuw werkboek maken en draaitabel kopiëren in Java – volledige stapsgewijze handleiding](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
+Leer hoe u een nieuw werkboek maakt en een bestaande draaitabel kopieert met Aspose.Cells voor Java.
+### [Kopieer draaitabel in Java met Aspose.Cells – Complete gids](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
+Leer hoe u een draaitabel in Java kunt kopiëren met Aspose.Cells, inclusief codevoorbeelden en best practices.
+### [Kopieer draaitabel in Java – stapsgewijze handleiding met Aspose.Cells](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
+Leer hoe u een draaitabel in Java kunt kopiëren met Aspose.Cells, stap voor stap uitgelegd.
+### [Hoe een draaitabel te kopiëren in Aspose.Cells – bereik naar werkmap kopiëren](./how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook/)
+### [Hoe een draaitabel te kopiëren in Java met Aspose.Cells](./how-to-copy-a-pivot-table-in-java-using-aspose-cells/)
+Leer hoe u een bestaande draaitabel dupliceert met Aspose.Cells voor Java voor snelle rapportage.
+### [Hoe draaitabellen tussen Excel-werkboeken te kopiëren in Java](./how-to-copy-pivot-tables-between-excel-workbooks-in-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

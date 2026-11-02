@@ -17,7 +17,7 @@ Draaitabellen zijn een krachtige functie in Aspose.Cells voor .NET waarmee ontwi
 
 Met Aspose.Cells voor .NET kunt u draaitabellen volledig aanpassen door berekende velden toe te voegen, gegevensaggregatietypen te wijzigen en stijlen toe te passen voor een professionele uitstraling. De API ondersteunt geavanceerde functionaliteiten zoals het groeperen van gegevens, het dynamisch vernieuwen van draaitabellen en het efficiënt verwerken van meerdere gegevensbronnen. Dit stelt ontwikkelaars in staat om de generatie van Excel-rapporten te automatiseren, zodat gebruikers met minimale inspanning nauwkeurige, actuele overzichten krijgen.
 
-{{< tutorial-card link="./create-pivot-table/" title="Een draaitabel maken in Excel met Aspose.Cells" imgSrc="./create-pivot-table/images/thumb.png" >}}
+{{< tutorial-card link="./create-pivot-table/" title="Een draaitabel maken in Excel met Aspere.Cells" imgSrc="./create-pivot-table/images/thumb.png" >}}
 
 {{< tutorial-card link="./pivot-table-save-in-ods/" title="Draaitabel opslaan als ODS in Aspose.Cells" imgSrc="./pivot-table-save-in-ods/images/thumb.png" >}}
 

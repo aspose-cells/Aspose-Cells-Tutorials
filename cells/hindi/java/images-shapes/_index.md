@@ -59,9 +59,6 @@ Java के लिए Aspose.Cells का उपयोग करके Excel क
 ### [जावा के लिए Aspose.Cells के साथ एक्सेल शीट को छवियों के रूप में कैसे प्रस्तुत करें: एक व्यापक गाइड](./aspose-cells-java-render-excel-sheets-images/)
 जानें कि Aspose.Cells for Java का उपयोग करके अपने Excel डेटा को उच्च-गुणवत्ता वाली छवियों में कैसे बदलें। यह गाइड सेटअप से लेकर रेंडरिंग तक के सभी चरणों को कवर करता है, जिससे निर्बाध डेटा विज़ुअलाइज़ेशन सुनिश्चित होता है।
 
-### [Aspose.Cells Java का उपयोग करके ODS फ़ाइलों में ग्राफ़िक पृष्ठभूमि सेट करें: एक चरण-दर-चरण मार्गदर्शिका](./aspose-cells-java-set-ods-graphic-background/)
-Java के लिए Aspose.Cells का उपयोग करके ODS फ़ाइलों में ग्राफ़िक पृष्ठभूमि सेट करना सीखें। पेशेवर विज़ुअल के साथ अपनी स्प्रेडशीट को बेहतर बनाएँ और उनकी अपील में सुधार करें।
-
 ### [जावा के लिए Aspose.Cells का उपयोग करके Excel में WordArt वॉटरमार्क कैसे जोड़ें](./aspose-cells-java-wordart-watermark-excel/)
 जावा के लिए Aspose.Cells का उपयोग करके Excel में WordArt वॉटरमार्क जोड़ना और कस्टमाइज़ करना सीखें। इस चरण-दर-चरण मार्गदर्शिका के साथ अपने दस्तावेज़ों को आसानी से सुरक्षित करें।
 
@@ -104,6 +101,9 @@ Aspose.Words Java के लिए एक कोड ट्यूटोरिय�
 ### [जावा और Aspose.Cells का उपयोग करके एक्सेल वर्कबुक में छवियों को कैसे एकीकृत करें](./java-aspose-cells-excel-images-integration-guide/)
 जानें कि जावा और Aspose.Cells का उपयोग करके अपनी एक्सेल रिपोर्ट में छवियों को कैसे सहजता से एकीकृत किया जाए। यह गाइड छवि फ़ाइलों को पढ़ने से लेकर गतिशील कार्यपुस्तिकाएँ बनाने तक सब कुछ कवर करता है।
 
+### [जावा के लिए Aspose.Cells का उपयोग करके Excel में ODS फ़ाइलों में ग्राफ़िक पृष्ठभूमि सेट करें: एक चरण-दर-चरण मार्गदर्शिका](./aspose-cells-java-set-ods-graphic-background/)
+Java के लिए Aspose.Cells का उपयोग करके ODS फ़ाइलों में ग्राफ़िक पृष्ठभूमि सेट करना सीखें। पेशेवर विज़ुअल के साथ अपनी स्प्रेडशीट को बेहतर बनाएँ और उनकी अपील में सुधार करें।
+
 ### [Aspose.Cells for Java के साथ जावा में मास्टर वर्कबुक और शेप मैनिपुलेशन](./master-workbook-shape-manipulation-aspose-cells-java/)
 जावा के लिए Aspose.Cells का उपयोग करके Excel कार्यों को स्वचालित करना और कार्यपुस्तिकाओं और आकृतियों में हेरफेर करना सीखें। यह मार्गदर्शिका कार्यपुस्तिका निर्माण, आकृति जोड़ना और कनेक्शन बिंदु पुनर्प्राप्ति को कवर करती है।
 
@@ -131,6 +131,10 @@ Aspose.Words Java के लिए एक कोड ट्यूटोरिय�
 ### [Aspose.Cells Java का उपयोग करके Excel में पृष्ठभूमि चित्र सेट करें (चरण-दर-चरण मार्गदर्शिका)](./set-background-picture-excel-aspose-cells-java/)
 Aspose.Cells Java के साथ बैकग्राउंड इमेज जोड़कर अपनी Excel रिपोर्ट को बेहतर बनाने का तरीका जानें। सहज कार्यान्वयन के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
 
+### [Java में Aspose.Cells के साथ रेंज से PNG कैसे बनाएं](./how-to-create-png-from-range-in-java-with-aspose-cells/)
+Aspose.Cells for Java का उपयोग करके किसी रेंज को PNG इमेज में बदलने की प्रक्रिया सीखें।
+### [Java में ShapeExportOptions के साथ आकृति निर्यात कैसे करें](./how-to-export-shape-with-shapeexportoptions-in-java/)
+Java में ShapeExportOptions का उपयोग करके आकृति को निर्यात करने की प्रक्रिया सीखें।
 ### [Aspose.Cells Java का उपयोग करके Excel रेंज को छवि के रूप में निर्यात करें](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
 जावा में Aspose.Cells के साथ Excel रेंज को छवि के रूप में निर्यात करने का विस्तृत मार्गदर्शक।
 

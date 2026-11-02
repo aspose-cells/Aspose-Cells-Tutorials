@@ -35,6 +35,9 @@ Aprenda a converter valores de enumeração em strings com o Aspose.Cells para J
 ### [Aspose.Cells Java: Crie e gerencie intervalos nomeados em arquivos do Excel](./aspose-cells-java-manage-named-ranges/)
 Aprenda a criar, gerenciar e manipular intervalos nomeados usando Aspose.Cells para Java. Este tutorial guia você na configuração do seu ambiente e no domínio dos principais recursos com exemplos de código.
 
+### [Criar um intervalo nomeado e detectar nome duplicado no Excel usando Aspose.Cells para Java](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Aprenda a criar intervalos nomeados e a detectar nomes duplicados em planilhas Excel usando Aspose.Cells para Java.
+
 ### [Acesse o intervalo máximo de exibição em pastas de trabalho do Excel usando Aspose.Cells Java](./aspose-cells-java-max-display-range/)
 Aprenda a acessar o intervalo máximo de exibição de uma planilha no Excel usando o Aspose.Cells para Java. Domine esse recurso com nosso guia passo a passo.
 
@@ -54,6 +57,9 @@ Aprenda a automatizar a cópia de colunas no Excel com o Aspose.Cells para Java.
 
 ### [Como copiar várias colunas no Excel usando Aspose.Cells Java: um guia completo](./copy-multiple-columns-excel-aspose-cells-java/)
 Aprenda a automatizar a cópia de várias colunas em uma planilha do Excel usando o Aspose.Cells para Java. Este guia aborda configuração, implementação e solução de problemas.
+
+### [Como copiar intervalo em Java com Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
+Aprenda a copiar intervalos de células no Excel usando Aspose.Cells para Java com exemplos de código passo a passo.
 
 ### [Crie um intervalo de união no Excel usando Aspose.Cells Java: um guia completo](./create-union-range-excel-aspose-cells-java/)
 Aprenda a usar o Aspose.Cells para Java para criar intervalos de união no Excel, melhorando a apresentação e a legibilidade dos dados.

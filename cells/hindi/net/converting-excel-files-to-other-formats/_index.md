@@ -31,6 +31,8 @@
 
 5. [.NET में प्रोग्रामेटिक रूप से दस्तावेज़ रूपांतरण प्रगति पर नज़र रखना](./tracking-document-conversion-progress/): वास्तविक समय में रूपांतरण प्रगति की निगरानी करें! Aspose.Cells for .NET में ऐसी विशेषताएं शामिल हैं जो आपको प्रक्रियाओं को पारदर्शी और कुशल रखते हुए दस्तावेज़ रूपांतरण को ट्रैक और प्रबंधित करने की अनुमति देती हैं।
 
+6. [.NET में प्रोग्रामेटिक रूप से Excel को PowerPoint के रूप में सहेजना](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+
 ## एक्सेल फ़ाइलों को TIFF, PPTX, और अधिक में परिवर्तित करना
 
 विशेष आउटपुट की आवश्यकता वाले लोगों के लिए, Aspose.Cells TIFF, PowerPoint (PPTX) और Markdown रूपांतरणों के साथ-साथ स्ट्रिक्ट ओपन XML प्रारूपों जैसे अधिक जटिल विकल्पों का समर्थन करता है। प्रत्येक प्रारूप और कोड नमूने के बारे में जानने के लिए विस्तृत ट्यूटोरियल का पालन करें:
@@ -76,6 +78,7 @@ Aspose.Cells का उपयोग करके Excel को PowerPoint मे�
 Aspose.Cells का उपयोग करके .NET में Excel को PowerPoint में निर्यात करने की पूरी प्रक्रिया सीखें।
 ### [Pivot तालिका कॉपी करें और Aspose.Cells के साथ Excel को PPTX में निर्यात करें](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
 Aspose.Cells का उपयोग करके Pivot तालिका को कॉपी करके Excel फ़ाइल को PowerPoint (PPTX) में बदलने की प्रक्रिया सीखें।
+### [.NET में प्रोग्रामेटिक रूप से Excel को PowerPoint के रूप में सहेजना](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
 
 ### [.NET में आउटपुट HTML में HTML क्रॉसटाइप को प्रोग्रामेटिक रूप से निर्दिष्ट करना](./specifying-html-crosstype-in-output-html/)
 .NET के लिए Aspose.Cells में HTML CrossType निर्दिष्ट करना सीखें। Excel फ़ाइलों को सटीकता के साथ HTML में बदलने के लिए हमारे चरण-दर-स्टेप ट्यूटोरियल का पालन करें।
@@ -104,6 +107,22 @@ Aspose.Cells for .NET का उपयोग करके Excel को PowerPoin
 विवरण: इस विस्तृत ट्यूटोरियल में Aspose.Cells for .NET का उपयोग करके प्रोग्रामेटिक रूप से दस्तावेज़ रूपांतरण प्रगति को ट्रैक करना सीखें।
 ### [.NET में प्रोग्रामेटिक रूप से TIFF के लिए दस्तावेज़ रूपांतरण प्रगति को ट्रैक करना](./tracking-document-conversion-progress-for-tiff/)
 हमारे चरण-दर-स्टेप गाइड के साथ .NET के लिए Aspose.Cells का उपयोग करके TIFF रूपांतरण प्रगति को प्रोग्रामेटिक रूप से ट्रैक करना सीखें। अपने दस्तावेज़ प्रबंधन कौशल को बढ़ाएँ।
+### [C# के साथ Excel को PowerPoint में निर्यात करें, संपादन योग्य चार्ट्स के साथ](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Aspose.Cells for .NET का उपयोग करके Excel डेटा को PowerPoint स्लाइड में निर्यात करें और चार्ट्स को संपादन योग्य रखें।
+### [Excel से PowerPoint बनाएं – पूर्ण C# ट्यूटोरियल](./create-powerpoint-from-excel-complete-c-tutorial/)
+Aspose.Cells for .NET का उपयोग करके Excel डेटा से PowerPoint प्रस्तुति बनाने के चरण‑दर‑स्टेप मार्गदर्शन।
+### [Excel को PowerPoint में निर्यात करने का चरण‑दर‑चरण गाइड](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+Aspose.Cells for .NET का उपयोग करके Excel को PowerPoint में निर्यात करने की चरण‑दर‑चरण प्रक्रिया सीखें।
+### [Excel को txt के रूप में सहेजें – महत्वपूर्ण अंकों के साथ संख्याएँ निर्यात करने के लिए पूर्ण C# गाइड](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
+Aspose.Cells का उपयोग करके .NET में Excel फ़ाइल को txt फ़ॉर्मेट में सहेजें और महत्वपूर्ण अंकों के साथ संख्याओं को निर्यात करने की प्रक्रिया सीखें।
+### [Excel से Word बनाएं – त्वरित C# गाइड](./create-word-from-excel-quick-c-guide/)
+Aspose.Cells for .NET का उपयोग करके Excel डेटा से Word दस्तावेज़ जल्दी बनाना सीखें। C# कोड उदाहरण सहित।
+### [.NET में प्रोग्रामेटिक रूप से Excel को टैब‑डिलिमिटेड टेक्स्ट में निर्यात करना](./how-to-export-excel-tab-delimited-text-guide/)
+
+### [C# में संपादन योग्य टेक्स्ट बॉक्स के साथ Excel को PPT के रूप में सहेजें](./how-to-save-excel-as-ppt-with-editable-text-boxes-in-c/)
+Aspose.Cells for .NET का उपयोग करके Excel शीट को PPT में बदलें और टेक्स्ट बॉक्स को संपादन योग्य बनाएं।
+### [.NET में प्रोग्रामेटिक रूप से Excel फ़ाइलों को SVG और PowerPoint में परिवर्तित करते समय SVG में फ़ॉन्ट एम्बेड करना](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Aspose.Cells for .NET का उपयोग करके Excel को SVG या PowerPoint में बदलते समय फ़ॉन्ट एम्बेड करने की प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

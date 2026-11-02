@@ -52,6 +52,8 @@ Scopri come automatizzare la copia delle colonne in Excel con Aspose.Cells per J
 
 ### [Copia programmatica di un intervallo di foglio di lavoro – Guida completa Java](./programmatically-copy-worksheet-range-complete-java-guide/)
 Scopri come copiare programmaticamente un intervallo di foglio di lavoro in Excel usando Aspose.Cells per Java, con esempi di codice completi.
+### [Come copiare un intervallo in Java con Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
+Scopri come copiare intervalli di celle in Excel usando Aspose.Cells per Java con esempi di codice pratici.
 
 ### [Come copiare più colonne in Excel utilizzando Aspose.Cells Java: una guida completa](./copy-multiple-columns-excel-aspose-cells-java/)
 Scopri come automatizzare la copia di più colonne in un foglio di lavoro Excel utilizzando Aspose.Cells per Java. Questa guida illustra la configurazione, l'implementazione e la risoluzione dei problemi.
@@ -71,6 +73,9 @@ Scopri come automatizzare il raggruppamento e la strutturazione in Excel con Asp
 ### [Gestire gli intervalli denominati in Excel con Aspose.Cells per Java](./excel-named-ranges-aspose-cells-java/)
 Un tutorial sul codice per Aspose.Words Java
 
+### [Creare un intervallo denominato e rilevare un nome duplicato in Excel](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Scopri come creare un intervallo denominato e rilevare nomi duplicati in Excel con Aspose.Cells per Java.
+
 ### [Automatizzare le aree di stampa di Excel utilizzando Aspose.Cells per Java: una guida passo passo](./excel-print-areas-automation-aspose-cells-java-guide/)
 Scopri come automatizzare le aree di stampa di Excel con Aspose.Cells per Java. Padroneggia la manipolazione delle cartelle di lavoro e semplifica le tue attività di reporting in modo efficiente.
 
@@ -88,6 +93,9 @@ Scopri come gestire e manipolare in modo efficiente intervalli di dati in Excel 
 
 ### [Separare le celle di Excel in Java utilizzando Aspose.Cells: una guida passo passo](./unmerge-excel-cells-aspose-cells-java-guide/)
 Scopri come separare in modo efficiente le celle nei file Excel utilizzando Aspose.Cells per Java. Questa guida illustra la configurazione, il rilevamento e la separazione delle celle unite con esempi di codice.
+
+### [Assegnare un nome a una cella in Excel con Java – Guida completa](./assign-name-to-cell-in-excel-using-java-complete-guide/)
+Scopri come assegnare un nome a una cella in Excel usando Aspose.Cells per Java con esempi di codice passo passo.
 
 ### [Come utilizzare la funzione expand nell'elaborazione di Excel con Java](./how-to-use-expand-function-in-java-excel-processing/)
 Scopri come usare la funzione expand per gestire dinamicamente i dati in Excel con Aspose.Cells per Java.

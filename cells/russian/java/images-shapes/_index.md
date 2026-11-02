@@ -59,6 +59,39 @@
 ### [Как визуализировать таблицы Excel в виде изображений с помощью Aspose.Cells для Java: подробное руководство](./aspose-cells-java-render-excel-sheets-images/)
 Узнайте, как преобразовать данные Excel в высококачественные изображения с помощью Aspose.Cells для Java. Это руководство охватывает все шаги от настройки до рендеринга, обеспечивая бесшовную визуализацию данных.
 
+### [Как создать PNG из диапазона в Java с помощью Aspose.Cells](./how-to-create-png-from-range-in-java-with-aspose-cells/)
+Узнайте, как создать PNG‑изображение из выбранного диапазона ячеек в Excel с помощью Aspose.Cells для Java.
+
+### [Установка графического фона в файлах ODS с помощью Aspose.Cells Java: пошаговое руководство](./aspose-cells-java-set-ods-graphic-background/)
+Узнайте, как устанавливать графические фоны в файлах ODS с помощью Aspose.Cells для Java. Улучшите свои таблицы с помощью профессиональных визуальных эффектов и повысьте их привлекательность.
+
+### [Как добавить водяной знак WordArt в Excel с помощью Aspose.Cells для Java](./aspose-cells-java-wordart-watermark-excel/)
+Узнайте, как добавить и настроить водяной знак WordArt в Excel с помощью Aspose.Cells для Java. Защитите свои документы без усилий с помощью этого пошагового руководства.
+
+### [Aspose.Cells Java: полное руководство по копированию рабочих книг и фигур](./aspose-cells-java-workbook-shape-copying-guide/)
+Освойте манипуляции с книгами и копирование фигур между листами с помощью Aspose.Cells для Java. Узнайте, как эффективно автоматизировать задачи Excel.
+
+### [Автоматизация обновления графики SmartArt в Excel с помощью Aspose.Cells для Java: подробное руководство](./automate-updating-smartart-excel-aspose-cells-java/)
+Узнайте, как автоматизировать обновление графики SmartArt в Excel с помощью Aspose.Cells для Java. Оптимизируйте свой рабочий процесс и повысьте производительность с помощью этого пошагового руководства.
+
+### [Преобразование SmartArt в групповые фигуры в Java с помощью Aspose.Cells: подробное руководство](./convert-smartart-group-shapes-java/)
+Узнайте, как преобразовать графику SmartArt в групповые фигуры в файлах Excel с помощью Aspose.Cells для Java. В этом руководстве описывается настройка, примеры кода и практические приложения.
+
+### [Копирование изображений между листами в Excel с помощью Aspose.Cells для Java: подробное руководство](./copy-images-between-sheets-excel-aspose-cells-java/)
+Узнайте, как легко копировать изображения между листами Excel с помощью библиотеки Aspose.Cells из этого подробного руководства по Java.
+
+### [Как создать и настроить текстовые поля в Excel с помощью Aspose.Cells Java для улучшенного представления данных](./create-text-boxes-excel-aspose-cells-java/)
+Узнайте, как создавать и форматировать текстовые поля в Excel с помощью Aspose.Cells Java. Улучшите представление данных с помощью отдельных выравниваний абзацев.
+
+### [Добавляйте и настраивайте овальные фигуры в Excel с помощью Aspose.Cells Java](./customize-oval-shapes-excel-aspose-cells-java/)
+Узнайте, как добавлять и настраивать овальные фигуры в таблицах Excel с помощью Aspose.Cells для Java. Улучшите визуализацию данных с помощью пошаговых руководств, примеров кода и практических приложений.
+
+### [Обнаружение фигур SmartArt в файлах Excel с помощью Aspose.Cells для Java](./detect-smartart-shapes-excel-aspose-cells-java/)
+Узнайте, как эффективно обнаруживать фигуры SmartArt в файлах Excel с помощью Aspose.Cells для Java. Это руководство охватывает настройку, реализацию и практическое применение.
+
+### [Как настроить поля формы в Excel с помощью Aspose.Cells для Java](./excel-aspose-cells-java-shape-margins/)
+Узнайте, как использовать Aspose.Cells для Java для настройки полей фигур и выравнивания текста в Excel, эффективно улучшая представление документа.
+
 ### [Экспортируйте столбцы данных Excel как изображения с помощью Aspose.Cells Java](./export-excel-data-bars-images-aspose-cells-java/)
 Учебник по коду для Aspose.Words Java
 
@@ -104,7 +137,8 @@
 ### [Установка фонового рисунка в Excel с помощью Aspose.Cells Java (пошаговое руководство)](./set-background-picture-excel-aspose-cells-java/)
 Узнайте, как улучшить отчеты Excel, добавив фоновые изображения с помощью Aspose.Cells Java. Следуйте этому пошаговому руководству для беспроблемной реализации.
 
-
+### [Как экспортировать фигуру с ShapeExportOptions в Java](./how-to-export-shape-with-shapeexportoptions-in-java/)
+Узнайте, как экспортировать отдельные фигуры из листа Excel в различные форматы, используя ShapeExportOptions в Aspose.Cells для Java.
 
 ## Дополнительные ресурсы
 

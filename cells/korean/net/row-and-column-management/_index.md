@@ -68,6 +68,8 @@ Aspose.Cells for .NET을 사용하여 Excel에서 행을 삭제하는 방법을 
 C#와 Aspose.Cells for .NET을 이용해 Excel 파일에서 전체 행을 삭제하는 단계별 가이드를 확인하세요.
 ### [Aspose Cells 행 삭제 – Excel에서 헤더 행 보호](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 Aspose.Cells for .NET을 사용하여 헤더 행을 보호하면서 Excel에서 행을 삭제하는 방법을 단계별로 안내합니다.
+### [Aspose.Cells를 사용하여 헤더를 유지하면서 Excel 테이블에서 행을 삭제하는 방법](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
+Aspose.Cells for .NET을 사용하여 헤더를 보존하면서 Excel 테이블에서 행을 삭제하는 단계별 가이드를 확인하세요.
 ### [Aspose.Cells .NET에서 여러 행 삭제](./delete-multiple-rows-aspose-cells/)
 Aspose.Cells for .NET을 사용하여 Excel에서 여러 행을 삭제하는 방법을 알아보세요. 이 상세하고 단계별 가이드는 개발자를 위한 필수 조건, 코딩 예제, FAQ를 다룹니다.
 ### [Aspose.Cells .NET에 열 삽입](./insert-column-aspose-cells/)
@@ -85,6 +87,7 @@ C# 코드를 사용해 Excel에서 항목을 반복하고 동적으로 행을 �
 
 
 
+### [C#로 Excel 워크북 만들기 및 열을 행으로 전치](./create-excel-workbook-c-and-transpose-column-to-row/)
 
 
 
@@ -92,7 +95,9 @@ C# 코드를 사용해 Excel에서 항목을 반복하고 동적으로 행을 �
 ### [Excel 파일 로드 C# – 행 삭제 및 특정 행 제거 방법](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Aspose.Cells for .NET을 사용하여 Excel 파일을 로드하고 행을 삭제하거나 특정 행을 제거하는 단계별 가이드를 확인하세요.
 ### [C#를 사용한 Excel 테이블 행 삭제 – 단계별 가이드](./delete-rows-excel-table-with-c-step-by-step-guide/)
-C#와 Aspose.Cells for .NET을 이용해 Excel 테이블에서 행을 삭제하는 방법을 단계별로 안내합니다.
+C#와 Aspose.Cells for .NET을 사용해 Excel 테이블에서 행을 삭제하는 방법을 단계별로 안내합니다.
+### [C#를 사용하여 Excel 테이블에서 행 삭제하는 방법](./how-to-delete-rows-from-excel-table-using-c/)
+C#와 Aspose.Cells for .NET을 이용해 Excel 테이블에서 행을 삭제하는 단계별 가이드를 확인하세요.
 ### [C#를 사용하여 Excel에 행 삽입 – 단계별 가이드](./insert-rows-in-excel-with-c-step-by-step-guide/)
 Aspose.Cells for .NET을 사용하여 C#로 Excel에 행을 삽입하는 방법을 단계별로 안내합니다.
 ### [C#에서 WRAPCOLS 사용 방법: 두 열 레이아웃 만들기](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
@@ -107,6 +112,8 @@ Aspose.Cells for .NET을 사용하여 Excel에서 셀을 위로 이동하는 방
 Aspose.Cells for .NET을 사용하여 한 워크시트에서 다른 워크시트로 행을 복사하는 단계별 C# 가이드를 확인하세요.
 ### [C#로 Excel에서 행 삭제 – 테이블 헤더 보호](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
 C#를 사용해 Excel에서 테이블 헤더를 보호하면서 행을 삭제하는 방법을 단계별로 안내합니다.
+### [Excel 테이블에서 행 삭제 – 완전한 C# 가이드](./delete-rows-from-excel-table-complete-c-guide/)
+Excel 테이블에서 행을 삭제하는 방법을 단계별로 안내합니다. C# 코드 예제로 손쉽게 구현하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

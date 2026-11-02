@@ -1,0 +1,7 @@
+Title: How to save workbook as PDF with Aspose.Cells in C#
+Slug: how-to-save-workbook-as-pdf-with-aspose-cells-in-c
+Category: conversion-to-pdf
+ProcessedDate: 2026-10-01T11:50:00.596191
+SourceRepo: AI Search API
+Keywords: save workbook as pdf, convert excel to pdf, export workbook to pdf, generate pdf from excel, export spreadsheet as pdf
+PRNumber: 174

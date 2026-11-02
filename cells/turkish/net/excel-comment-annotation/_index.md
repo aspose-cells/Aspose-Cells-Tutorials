@@ -48,6 +48,7 @@ Aspose.Cells for .NET kullanarak C# ile Excel'e yorum eklemeyi öğrenin. Detayl
 
 ### [C# ile Excel'e Yorum Ekle – Adım Adım Kılavuz](./insert-comment-into-excel-with-c-step-by-step-guide/)
 Aspose.Cells for .NET kullanarak C# ile Excel dosyasına yorum eklemeyi adım adım öğrenin.
+### [Aspose.Cells akıllı işaretçileriyle Excel'e yorum ekleme](./how-to-add-comment-to-excel-using-aspose-cells-smart-markers/)
 
 
 

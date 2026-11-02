@@ -95,6 +95,8 @@ Naučte se, jak pomocí Excelu vypočítat kotangens a využít tuto funkci v r�
 Naučte se řadit a odstraňovat duplicitní hodnoty v Excelu pomocí maticových vzorců v Javě s Aspose.Cells.
 ### [Jak používat Aspose v Javě – vytvořit sešit Excel s novými funkcemi](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
 Naučte se, jak pomocí Aspose.Cells v Javě vytvořit nový sešit Excel a přidat vlastní funkce.
+### [Použití funkce Expand v Aspose.Cells pro Javu – průvodce krok za krokem](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
+Naučte se, jak použít funkci Expand v Aspose.Cells pro Javu k dynamickému rozšíření oblastí buněk.
 
 ## Další zdroje
 

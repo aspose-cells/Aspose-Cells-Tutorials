@@ -42,6 +42,8 @@
 通过本完整 C# 示例，学习如何保存 Excel 工作簿并创建命名范围，实现自动化处理。
 ### [在 C# 中创建 Excel 工作簿 – 添加命名范围并设置表名称](./create-excel-workbook-in-c-add-named-range-set-table-name/)
 本教程演示如何使用 Aspose.Cells for .NET 在 C# 中创建工作簿、添加命名范围并设置表名称。
+### [为 Excel 表格分配名称并避免命名冲突](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
+本教程演示如何为 Excel 表格分配唯一名称，避免命名冲突。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

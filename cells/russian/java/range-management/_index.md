@@ -35,6 +35,9 @@
 ### [Aspose.Cells Java: создание и управление именованными диапазонами в файлах Excel](./aspose-cells-java-manage-named-ranges/)
 Узнайте, как создавать, управлять и манипулировать именованными диапазонами с помощью Aspose.Cells для Java. Это руководство проведет вас через настройку вашей среды и освоение ключевых функций с примерами кода.
 
+### [Создать именованный диапазон и обнаружить дублирующее имя в Excel](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Узнайте, как создать именованный диапазон в Excel с помощью Aspose.Cells для Java и как обнаружить дублирующие имена.
+
 ### [Доступ к максимальному диапазону отображения в книгах Excel с помощью Aspose.Cells Java](./aspose-cells-java-max-display-range/)
 Узнайте, как получить доступ к максимальному диапазону отображения листа в Excel с помощью Aspose.Cells Java. Освойте эту функцию с помощью нашего пошагового руководства.
 
@@ -92,6 +95,8 @@
 
 ### [Назначение имени ячейке в Excel с помощью Java – Полное руководство](./assign-name-to-cell-in-excel-using-java-complete-guide/)
 Узнайте, как присвоить имя отдельной ячейке в Excel с помощью Aspose.Cells для Java, используя пошаговые примеры кода.
+### [Как скопировать диапазон в Java с Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
+Узнайте, как копировать диапазоны в Excel с помощью Aspose.Cells для Java.
 
 ### [Как использовать функцию expand в обработке Excel на Java](./how-to-use-expand-function-in-java-excel-processing/)
 Узнайте, как применять функцию expand в Aspose.Cells для Java при работе с Excel, включая примеры кода и практические советы.

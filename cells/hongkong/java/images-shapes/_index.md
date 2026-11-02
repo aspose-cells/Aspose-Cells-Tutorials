@@ -56,7 +56,7 @@
 ### [如何使用 Aspose.Cells Java 在 Excel 形狀中新增反射效果](./aspose-cells-java-reflection-effects-excel-shapes/)
 了解如何使用 Aspose.Cells for Java 透過反射效果增強您的 Excel 簡報。請按照本逐步指南來提升您的資料視覺化。
 
-### [如何使用 Aspose.Cells for Java 將 Excel 工作表渲染為圖像：綜合指南](./aspose-cells-java-render-excel-sheets-images/)
+### [如何使用 Aspose.Cells Java 將 Excel 工作表渲染為圖像：綜合指南](./aspose-cells-java-render-excel-sheets-images/)
 了解如何使用 Aspose.Cells for Java 將 Excel 資料轉換為高品質影像。本指南涵蓋從設定到渲染的所有步驟，確保無縫資料視覺化。
 
 ### [使用 Aspose.Cells Java 在 ODS 檔案中設定圖形背景：逐步指南](./aspose-cells-java-set-ods-graphic-background/)
@@ -134,7 +134,10 @@ Aspose.Words Java 程式碼教程
 ### [使用 Aspose.Cells Java 在 Excel 中設定背景圖片（逐步指南）](./set-background-picture-excel-aspose-cells-java/)
 了解如何透過使用 Aspose.Cells Java 新增背景影像來增強您的 Excel 報告。按照本逐步指南可實現無縫實施。
 
-
+### [如何在 Java 中使用 Aspose.Cells 從範圍建立 PNG 圖像](./how-to-create-png-from-range-in-java-with-aspose-cells/)
+了解如何使用 Aspose.Cells for Java 從工作表範圍生成 PNG 圖像，以便在報告或網頁中使用。
+### [如何在 Java 中使用 ShapeExportOptions 匯出形狀](./how-to-export-shape-with-shapeexportoptions-in-java/)
+了解如何使用 Aspose.Cells for Java 的 ShapeExportOptions 將形狀匯出為圖像或其他格式。
 
 ## 其他資源
 

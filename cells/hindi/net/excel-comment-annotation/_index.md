@@ -47,6 +47,8 @@
 
 ### [C# के साथ Excel में टिप्पणी डालें – चरण‑दर‑चरण गाइड](./insert-comment-into-excel-with-c-step-by-step-guide/)
 C# का उपयोग करके Excel में टिप्पणी डालने की पूरी प्रक्रिया सीखें।
+### [Aspose.Cells स्मार्ट मार्कर्स का उपयोग करके Excel में टिप्पणी कैसे जोड़ें](./how-to-add-comment-to-excel-using-aspose-cells-smart-markers/)
+.NET के लिए Aspose.Cells के स्मार्ट मार्कर्स का उपयोग करके Excel फ़ाइल में टिप्पणी जोड़ना सीखें।
 
 
 

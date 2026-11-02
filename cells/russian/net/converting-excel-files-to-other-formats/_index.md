@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Преобразование файлов Excel в другие форматы
@@ -34,6 +36,9 @@
 Для тех, кому нужны специализированные выходные данные, Aspose.Cells поддерживает преобразования TIFF, PowerPoint (PPTX) и Markdown, а также более сложные варианты, такие как форматы Strict Open XML. Следуйте подробным руководствам, чтобы узнать о каждом формате и примере кода:
 
 - [Программное преобразование файла Excel в PPTX в .NET](./converting-excel-file-to-pptx/): Превратите листы Excel в слайды презентации. Этот урок предлагает простые в реализации фрагменты кода для преобразования данных Excel в PPTX.
+
+- [Как сохранить Excel как PPT с редактируемыми текстовыми полями в C#](./how-to-save-excel-as-ppt-with-editable-text-boxes-in-c/)
+  Узнайте, как программно сохранить файл Excel в презентацию PowerPoint с редактируемыми текстовыми полями, используя C# и Aspose.Cells.
 
 - [Установка области печати в Excel и экспорт в PowerPoint – пошаговое руководство](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
 
@@ -73,6 +78,8 @@ Aspose.Cells для .NET упрощает преобразование доку�
 Узнайте, как программно создать презентацию PowerPoint из файла Excel с помощью Aspose.Cells для .NET в этом пошаговом руководстве.
 ### [Конвертация Excel в PowerPoint и установка области печати](./convert-excel-to-powerpoint-and-set-print-area/)
 Узнайте, как программно преобразовать Excel в презентацию PowerPoint и задать область печати с помощью Aspose.Cells для .NET.
+### [Создание PowerPoint из Excel – пошаговое руководство C#](./create-powerpoint-from-excel-step-by-step-c-guide/)
+Узнайте, как программно создавать презентации PowerPoint из файлов Excel с помощью Aspose.Cells для .NET на C#.
 
 ### [Сохранить Excel как текст – пошаговое руководство с Aspose.Cells](./how-to-save-excel-as-text-with-aspose-cells-step-by-step-gui/)
 Узнайте, как программно сохранить книгу Excel в текстовый файл, используя Aspose.Cells, следуя пошаговому руководству.
@@ -97,13 +104,9 @@ Aspose.Cells для .NET упрощает преобразование доку�
 
 ### [Как обернуть ячейки и преобразовать Excel в PowerPoint на C#](./how-to-wrap-cells-and-convert-excel-to-powerpoint-in-c/)
 Узнайте, как обернуть ячейки и преобразовать файл Excel в презентацию PowerPoint с помощью Aspose.Cells для .NET на C#.
+### [Как сохранить Excel в PowerPoint с помощью C# и Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+Узнайте, как программно сохранить файл Excel в презентацию PowerPoint с помощью Aspose.Cells для .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Сохранение Excel в Docx с C# – Полное пошаговое руководство](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 Узнайте, как программно сохранить файл Excel в формате DOCX с помощью C# и Aspose.Cells для .NET в этом подробном руководстве.
 ### [Создание PPT из Excel – Полное руководство по автоматизации на C#](./create-ppt-from-excel-full-c-automation-guide/)
@@ -130,11 +133,16 @@ Aspose.Cells для .NET упрощает преобразование доку�
 Узнайте, как программно сохранить книгу Excel в текстовый файл TXT с помощью Aspose.Cells для .NET, используя C#.
 ### [Как экспортировать Excel в PowerPoint с C# – Полное руководство](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
 Узнайте, как программно экспортировать файлы Excel в презентацию PowerPoint с помощью Aspose.Cells для .NET, следуя пошаговому руководству.
+### [Как сохранить книгу в формате CSV и экспортировать Excel в TXT с пользовательским форматированием на C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+Узнайте, как сохранить книгу Excel в CSV и экспортировать её в TXT с кастомным форматированием, используя Aspose.Cells для .NET и C#.
+### [Как внедрить шрифты в SVG при конвертации файлов Excel в SVG и PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Узнайте, как встроить шрифты в SVG при преобразовании файлов Excel в SVG и PowerPoint с помощью Aspose.Cells для .NET.
+### [Экспорт Excel в PowerPoint с редактируемыми диаграммами в C#](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Узнайте, как экспортировать листы Excel в презентацию PowerPoint с редактируемыми диаграммами, используя C# и Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
