@@ -98,7 +98,10 @@ Aspose.Cells for .NET 簡化了文件轉換，讓開發人員可以自動化流�
 本教學說明如何使用 Aspose.Cells for .NET 將 Excel 工作表轉換為 PowerPoint 簡報，並在匯出前設定列印區域。
 ### [在 .NET 中以程式設計方式將 Excel 匯出至 PowerPoint – 完整 C# 指南](./export-excel-to-powerpoint-complete-c-guide/)
 了解如何使用 Aspose.Cells for .NET 以 C# 完整步驟將 Excel 工作表匯出至 PowerPoint 簡報。
+### [從 Excel 建立 PowerPoint – 步驟說明 C# 指南](./create-powerpoint-from-excel-step-by-step-c-guide/)
 
+### [使用 C# 完整指南將 Excel 轉換為 PowerPoint](./convert-excel-to-powerpoint-with-c-complete-guide/)
+本完整指南示範如何使用 C# 與 Aspose.Cells for .NET 將 Excel 工作表轉換為 PowerPoint 簡報，包含完整程式碼範例。
 ### [在 .NET 中以程式設計方式將 Excel 檔案儲存為 Docx（完整步驟指南）](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 ### [從 Excel 建立 PPT – 完整 C# 自動化指南](./create-ppt-from-excel-full-c-automation-guide/)
 本教學示範如何使用 Aspose.Cells for .NET 以 C# 完全自動化方式，將 Excel 工作表轉換為 PowerPoint 簡報。
@@ -137,6 +140,8 @@ Aspose.Cells for .NET 簡化了文件轉換，讓開發人員可以自動化流�
 
 ### [在 .NET 中以程式設計方式匯出 Excel 為制表符分隔文字指南](./how-to-export-excel-tab-delimited-text-guide/)
 本教學說明如何使用 Aspose.Cells for .NET 將 Excel 工作表匯出為制表符分隔的文字檔案。
+### [在 .NET 中以程式設計方式將 Excel 儲存為 TXT](./how-to-save-excel-as-txt-using-aspose-cells-in-c/)
+本教學說明如何使用 Aspose.Cells for .NET 以 C# 將 Excel 工作表儲存為純文字 (TXT) 檔案。
 ### [如何將 Excel 匯出至 PowerPoint – 完整 C# 指南](./how-to-export-excel-to-powerpoint-complete-c-guide/)
 
 ### [在 .NET 中以程式設計方式將 Excel 匯出至 PowerPoint – 完整指南](./how-to-export-excel-to-powerpoint-complete-guide/)

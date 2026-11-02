@@ -38,6 +38,8 @@
 - [تحويل Excel إلى PowerPoint وتحديد منطقة الطباعة](./convert-excel-to-powerpoint-and-set-print-area/)تعرف على كيفية تحويل ملفات Excel إلى PowerPoint وتحديد منطقة الطباعة باستخدام Aspose.Cells لـ .NET.
 
 - [تتبع تقدم تحويل المستندات لـ TIFF برمجيًا في .NET](./tracking-document-conversion-progress-for-tiff/):تتبع وإدارة تحويلات ملفات TIFF، وهي أداة قيمة لإنشاء أرشيفات تعتمد على الصور.
+### [تحديد منطقة الطباعة في Excel وتصديرها إلى PowerPoint – دليل خطوة بخطوة](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
+تعلم كيفية تحديد منطقة الطباعة في ملف Excel وتصديره إلى عرض PowerPoint باستخدام Aspose.Cells for .NET خطوة بخطوة.
 
 - [كيفية تضمين الخطوط في SVG عند تحويل ملفات Excel إلى SVG وPowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
 تعلم كيفية تضمين الخطوط في ملفات SVG أثناء تحويل Excel إلى SVG أو PowerPoint باستخدام Aspose.Cells.
@@ -79,6 +81,8 @@
 تعلم كيفية تحويل ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells لـ .NET خطوة بخطوة مع أمثلة برمجية واضحة.
 ### [إنشاء PowerPoint من Excel – دليل خطوة بخطوة](./create-powerpoint-from-excel-step-by-step-guide/)
 تعرّف على كيفية إنشاء عرض تقديمي PowerPoint من ملف Excel باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
+### [كيفية تصدير Excel إلى PowerPoint باستخدام C# – دليل كامل](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
+تعلم خطوة بخطوة كيفية تحويل ملفات Excel إلى عروض PowerPoint باستخدام C# و Aspose.Cells.
 ### [تصدير Excel إلى PowerPoint باستخدام Aspose.Cells – دليل برمجي كامل](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
 دليل شامل لتصدير ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells، مع أمثلة برمجية خطوة بخطوة.
 ### [تحديد HTML CrossType في إخراج HTML برمجيًا في .NET](./specifying-html-crosstype-in-output-html/)
@@ -126,8 +130,12 @@
 
 ### [إنشاء Word من Excel – دليل سريع C#](./create-word-from-excel-quick-c-guide/)
 تعلم كيفية إنشاء مستند Word من ملف Excel باستخدام Aspose.Cells لـ .NET في دليل سريع خطوة بخطوة.
+### [حفظ ملف Excel كـ TXT باستخدام Aspose.Cells في C#](./how-to-save-excel-as-txt-using-aspose-cells-in-c/)
+دليل خطوة بخطوة لحفظ ملفات Excel بصيغة TXT باستخدام Aspose.Cells وC#.
 ### [حفظ ملف Excel كنص – دليل C# كامل لتصدير Excel إلى TXT](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
 تعلم كيفية حفظ مصنف Excel كملف نصي (TXT) باستخدام C# و Aspose.Cells خطوة بخطوة.
+### [كيفية تصدير Excel – دليل النص المفصول بعلامات التبويب](./how-to-export-excel-tab-delimited-text-guide/)
+تعلم كيفية تصدير ملفات Excel إلى نص مفصول بعلامات التبويب باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
 ### [كيفية حفظ ملف Excel كنص باستخدام Aspose.Cells – دليل خطوة بخطوة](./how-to-save-excel-as-text-with-aspose-cells-step-by-step-gui/)
 تعلم كيفية حفظ ملف Excel كنص (TXT) باستخدام Aspose.Cells خطوة بخطوة مع أمثلة برمجية واضحة.
 ### [حفظ Excel كملف txt – دليل C# كامل لتصدير الأرقام ذات الخانات المهمة](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)

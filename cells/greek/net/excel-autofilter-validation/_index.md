@@ -60,6 +60,8 @@
 Μάθετε πώς να προσθέσετε πίνακα στο Excel, να καθαρίσετε το Autofilter και να αποθηκεύσετε το αρχείο χρησιμοποιώντας Aspose.Cells για .NET.
 ### [Αφαίρεση autofilter από το Excel σε C# – πλήρης οδηγός](./remove-autofilter-from-excel-in-c-complete-guide/)
 Μάθετε πώς να αφαιρέσετε το AutoFilter από το Excel χρησιμοποιώντας C# και Aspose.Cells με αυτόν τον ολοκληρωμένο οδηγό.
+### [Αφαίρεση Αυτόματου Φίλτρου στο Excel με C# – βήμα‑βήμα οδηγός](./remove-autofilter-in-excel-with-c-step-by-step-guide/)
+Μάθετε πώς να αφαιρέσετε το αυτόματο φίλτρο από το Excel βήμα‑βήμα, χρησιμοποιώντας Aspose.Cells σε .NET με C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

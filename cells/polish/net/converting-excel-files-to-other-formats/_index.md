@@ -40,6 +40,8 @@ Dla tych, którzy potrzebują specjalistycznych wyników, Aspose.Cells obsługuj
 - [Konwersja pliku Excel do formatu PPTX programowo w środowisku .NET](./converting-excel-file-to-pptx/): Zmień arkusze Excela w slajdy prezentacji. Ten samouczek oferuje łatwe do wdrożenia fragmenty kodu do konwersji danych Excela do PPTX.
 
 - [Śledzenie postępu konwersji dokumentów dla formatu TIFF programowo w środowisku .NET](./tracking-document-conversion-progress-for-tiff/):Śledź i zarządzaj konwersjami plików TIFF, cenne narzędzie do tworzenia archiwów opartych na obrazach.
+### [Jak wyeksportować Excel do PowerPoint – Kompletny przewodnik C#](./how-to-export-excel-to-powerpoint-complete-c-guide/)
+Dowiedz się, jak programowo konwertować arkusze Excel na prezentacje PowerPoint przy użyciu Aspose.Cells i C#.
 
 Aspose.Cells for .NET upraszcza przekształcanie dokumentów, umożliwiając programistom automatyzację procesów i oszczędzanie czasu przy konwersji w różnych formatach.
 
@@ -74,6 +76,8 @@ Dowiedz się, jak ustawić obszar drukowania w Excelu i wyeksportować arkusz do
 Dowiedz się, jak programowo konwertować pliki Excel do PowerPoint oraz ustawiać obszar drukowania przy użyciu Aspose.Cells dla .NET.
 ### [Tworzenie prezentacji PowerPoint z Excela – przewodnik krok po kroku w C#](./create-powerpoint-from-excel-step-by-step-c-guide/)
 Dowiedz się, jak programowo przekształcić arkusz Excel w prezentację PowerPoint przy użyciu Aspose.Cells w C#.
+### [Konwersja Excela do PowerPoint przy użyciu C# – kompletny przewodnik](./convert-excel-to-powerpoint-with-c-complete-guide/)
+Pełny przewodnik pokazujący, jak programowo konwertować pliki Excel na prezentacje PowerPoint przy użyciu C# i Aspose.Cells dla .NET.
 ### [Kopiowanie tabeli przestawnej i eksportowanie Excela do PPTX przy użyciu Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
 Dowiedz się, jak skopiować tabelę przestawną i wyeksportować plik Excel do prezentacji PPTX przy użyciu Aspose.Cells dla .NET.
 ### [Jak zapisać Excel jako tekst – przewodnik krok po kroku](./how-to-save-excel-as-text-with-aspose-cells-step-by-step-gui/)
@@ -121,6 +125,8 @@ Dowiedz się, jak zapisać plik Excel jako txt w C#, zachowując znaczące cyfry
 Dowiedz się, jak w C# programowo zapisać arkusz Excel jako plik tekstowy TXT przy użyciu Aspose.Cells.
 ### [Jak zapisać skoroszyt jako CSV i wyeksportować Excel do TXT z niestandardowym formatowaniem w C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
 Dowiedz się, jak zapisać skoroszyt jako plik CSV i wyeksportować dane Excela do pliku TXT z własnym formatowaniem w C# przy użyciu Aspose.Cells.
+### [Jak zapisać Excel jako TXT przy użyciu Aspose.Cells w C#](./how-to-save-excel-as-txt-using-aspose-cells-in-c/)
+Dowiedz się, jak programowo zapisać plik Excel jako TXT przy użyciu Aspose.Cells w C#.
 ### [Jak wyeksportować Excel do PowerPoint przy użyciu C# – Kompletny przewodnik](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
 Dowiedz się, jak programowo konwertować arkusze Excel na prezentacje PowerPoint przy użyciu C# i Aspose.Cells w pełnym przewodniku krok po kroku.
 ### [Utworzenie dokumentu Word z Excela – szybki przewodnik C#](./create-word-from-excel-quick-c-guide/)

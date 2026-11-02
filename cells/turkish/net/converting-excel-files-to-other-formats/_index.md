@@ -125,6 +125,8 @@ Aspose.Cells for .NET kullanarak Excel dosyalarını sekmeli metin (tab‑delimi
 Aspose.Cells for .NET kullanarak Excel dosyalarını PowerPoint sunumlarına (PPTX) dönüştürmek için adım adım C# kod örnekleri.
 ### [Excel Dosyasını .NET'te Programatik Olarak SVG'ye Dönüştürürken Yazı Tiplerini Gömme ve PowerPoint'e Dönüştürme](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
 Aspose.Cells kullanarak Excel dosyalarını SVG'ye dönüştürürken yazı tiplerini gömmenin ve PowerPoint'e aktarımın adımlarını öğrenin.
+### [C#'ta Aspose.Cells Kullanarak Excel'i TXT Olarak Kaydetme](./how-to-save-excel-as-txt-using-aspose-cells-in-c/)
+Aspose.Cells for .NET ile C# kullanarak Excel dosyalarını TXT formatına kaydetmeyi adım adım öğrenin.
 
 ### [Excel'i C# ile PNG'ye Dönüştürme – Adım Adım Kılavuz](./how-to-convert-excel-to-png-with-c-step-by-step-guide/)
 Aspose.Cells kullanarak .NET'te Excel dosyalarını PNG formatına nasıl dönüştüreceğinizi adım adım öğrenin.

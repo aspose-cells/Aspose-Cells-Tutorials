@@ -38,6 +38,8 @@ For those needing specialized outputs, Aspose.Cells supports TIFF, PowerPoint (P
 - [Converting Excel File to PPTX Programmatically in .NET](./converting-excel-file-to-pptx/): Turn Excel sheets into presentation slides. This tutorial offers easy-to-implement code snippets for converting Excel data to PPTX.
 
 - [Tracking Document Conversion Progress for TIFF Programmatically in .NET](./tracking-document-conversion-progress-for-tiff/): Track and manage TIFF file conversions, a valuable tool for creating image-based archives.
+### [Convert Excel to Word – Complete Guide with C#](./convert-excel-to-word-complete-guide-with-c/)
+Learn how to convert Excel files to Word documents using Aspose.Cells for .NET with a step-by-step C# guide.
 
 Aspose.Cells for .NET simplifies document transformations, allowing developers to automate processes and save time on conversions across various formats.
 
@@ -80,6 +82,8 @@ Learn how to export Excel worksheets to PowerPoint presentations using C# and As
 Learn how to generate PowerPoint presentations from Excel data using C# and Aspose.Cells in a detailed step‑by‑step guide.
 ### [Convert Excel to PowerPoint – Complete Guide with C#](./convert-excel-to-powerpoint-with-c-complete-guide/)
 Learn how to convert Excel files to PowerPoint presentations using C# and Aspose.Cells for .NET in this comprehensive step-by-step guide.
+### [How to Export Excel to PowerPoint – Complete C# Guide](./how-to-export-excel-to-powerpoint-complete-c-guide/)
+Learn how to export Excel worksheets to PowerPoint presentations using Aspose.Cells for .NET with a complete C# step-by-step guide.
 ### [How to save Excel as PowerPoint using C# and Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
 Learn how to programmatically save an Excel workbook as a PowerPoint presentation using C# and Aspose.Cells for .NET.
 
@@ -133,6 +137,8 @@ description: Learn how to track document conversion progress programmatically us
 Learn to track TIFF conversion progress programmatically using Aspose.Cells for .NET with our step-by-step guide. Enhance your document management skills.
 ### [How to embed fonts in SVG when converting Excel files to SVG and PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
 Learn how to embed fonts in SVG output when converting Excel files to SVG and PowerPoint using Aspose.Cells for .NET.
+### [How to save Excel as TXT using Aspose.Cells in C#](./how-to-save-excel-as-txt-using-aspose-cells-in-c/)
+Learn how to save an Excel workbook as a TXT file using Aspose.Cells for .NET in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
