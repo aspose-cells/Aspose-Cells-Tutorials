@@ -46,6 +46,8 @@
 
 
 
+### [إدراج تعليق في Excel باستخدام C# – دليل خطوة بخطوة](./insert-comment-into-excel-with-c-step-by-step-guide/)
+تعلم كيفية إدراج تعليق في ملف Excel باستخدام C# خطوة بخطوة مع Aspose.Cells.
 
 
 

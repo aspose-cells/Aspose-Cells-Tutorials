@@ -62,10 +62,36 @@
 เรียนรู้วิธีจัดรูปแบบคอลัมน์วันที่ใน Excel และส่งออก DataTable ด้วย C# อย่างละเอียดในบทช่วยสอนนี้
 ### [การแปลงปฏิทินญี่ปุ่นใน C# – คู่มือเต็ม](./japanese-calendar-conversion-in-c-full-guide/)
 เรียนรู้วิธีแปลงปฏิทินญี่ปุ่นเป็นวันที่ใน C# อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
+### [แปลง DateTime ด้วยรัชกาลของจักรพรรดิญี่ปุ่นโดยใช้ Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+เรียนรู้วิธีแปลงค่า DateTime พร้อมระบุรัชกาลของจักรพรรดิญี่ปุ่นโดยใช้ Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [ตั้งค่ารูปแบบเซลล์แบบกำหนดเองใน C# – คู่มือฉบับสมบูรณ์สำหรับการเขียนและอ่านวันที่ใน Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
+เรียนรู้วิธีตั้งค่าและอ่านรูปแบบวันที่ใน Excel ด้วย Aspose.Cells สำหรับ .NET ผ่านตัวอย่าง C# อย่างละเอียด
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+### [แปลงสตริงเป็น DateTime ใน C# – เขียนและอ่านวันที่ใน Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
+เรียนรู้วิธีแปลงสตริงเป็น DateTime และจัดการการเขียน/อ่านวันที่ในไฟล์ Excel ด้วย Aspose.Cells สำหรับ .NET
+### [วิธีสร้างเวิร์กบุ๊กและแปลงสตริงเป็นวันที่ใน C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
+เรียนรู้วิธีสร้างเวิร์กบุ๊กใน Aspose.Cells สำหรับ .NET และแปลงสตริงเป็นวันที่ใน C# อย่างง่าย
+### [ตั้งค่ารูปแบบวันที่ใน Excel ด้วย C# – คู่มือขั้นตอนเต็ม](./set-excel-date-format-in-c-complete-step-by-step-guide/)
+เรียนรู้วิธีตั้งค่ารูปแบบวันที่ในไฟล์ Excel ด้วย C# อย่างละเอียดผ่านขั้นตอนที่เข้าใจง่าย
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

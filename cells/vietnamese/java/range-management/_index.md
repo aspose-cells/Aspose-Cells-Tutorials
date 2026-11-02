@@ -53,6 +53,9 @@ Tìm hiểu cách tự động sao chép các cột trong Excel bằng Aspose.Ce
 ### [Cách sao chép nhiều cột trong Excel bằng Aspose.Cells Java: Hướng dẫn đầy đủ](./copy-multiple-columns-excel-aspose-cells-java/)
 Tìm hiểu cách tự động sao chép nhiều cột trong một bảng tính Excel bằng Aspose.Cells for Java. Hướng dẫn này bao gồm thiết lập, triển khai và khắc phục sự cố.
 
+### [Cách sao chép phạm vi trong Java với Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
+Hướng dẫn cách sao chép một phạm vi ô trong Excel bằng Aspose.Cells cho Java một cách dễ dàng và hiệu quả.
+
 ### [Tạo Union Range trong Excel bằng Aspose.Cells Java: Hướng dẫn toàn diện](./create-union-range-excel-aspose-cells-java/)
 Tìm hiểu cách sử dụng Aspose.Cells for Java để tạo các phạm vi hợp nhất trong Excel, cải thiện khả năng trình bày và đọc dữ liệu.
 
@@ -90,6 +93,8 @@ Tìm hiểu cách tách ô hiệu quả trong các tệp Excel bằng Aspose.Cel
 Tìm hiểu cách sao chép phạm vi worksheet trong Excel bằng Aspose.Cells cho Java một cách tự động và chi tiết.
 ### [Sao chép phạm vi giữa các sổ làm việc trong Java – hướng dẫn từng bước](./copy-range-between-workbooks-in-java-step-by-step-guide/)
 Hướng dẫn chi tiết cách sao chép phạm vi ô từ một workbook sang workbook khác bằng Aspose.Cells cho Java.
+### [Tạo trang tính mới và sao chép phạm vi Excel bằng Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+Hướng dẫn cách tạo một trang tính mới và sao chép phạm vi dữ liệu trong Excel bằng Aspose.Cells cho Java.
 
 ## Tài nguyên bổ sung
 

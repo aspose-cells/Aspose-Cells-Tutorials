@@ -64,6 +64,9 @@ C# を使用して Excel テンプレートを処理し、シート名を自動�
 ### [C# テンプレートを使用してデータを Excel にエクスポートする方法 – ステップバイステップ ガイド](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
 C# テンプレートでデータを Excel にエクスポートする手順を詳しく解説します。
 
+### [Excel で配列を拡張し、テンプレートにデータを入力する方法](./how-to-expand-array-in-excel-and-populate-a-template)
+Excel で配列を拡張し、テンプレートにデータを自動的に入力する手順を解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

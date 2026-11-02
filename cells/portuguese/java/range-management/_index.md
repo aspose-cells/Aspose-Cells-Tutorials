@@ -55,6 +55,9 @@ Aprenda a automatizar a cópia de colunas no Excel com o Aspose.Cells para Java.
 ### [Como copiar várias colunas no Excel usando Aspose.Cells Java: um guia completo](./copy-multiple-columns-excel-aspose-cells-java/)
 Aprenda a automatizar a cópia de várias colunas em uma planilha do Excel usando o Aspose.Cells para Java. Este guia aborda configuração, implementação e solução de problemas.
 
+### [Como copiar intervalo em Java com Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
+Aprenda a copiar intervalos de células no Excel usando Aspose.Cells para Java com exemplos de código passo a passo.
+
 ### [Crie um intervalo de união no Excel usando Aspose.Cells Java: um guia completo](./create-union-range-excel-aspose-cells-java/)
 Aprenda a usar o Aspose.Cells para Java para criar intervalos de união no Excel, melhorando a apresentação e a legibilidade dos dados.
 
@@ -90,6 +93,8 @@ Aprenda a desfazer a mesclagem de células em arquivos do Excel com eficiência 
 
 ### [Copiar intervalo de planilha programaticamente – Guia completo Java](./programmatically-copy-worksheet-range-complete-java-guide/)
 Aprenda a copiar intervalos de planilhas no Excel programaticamente usando Aspose.Cells para Java com exemplos completos.
+### [Criar nova planilha e copiar intervalo do Excel com Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+Aprenda a criar uma planilha nova e copiar intervalos de dados no Excel usando Aspose.Cells para Java.
 
 ## Recursos adicionais
 

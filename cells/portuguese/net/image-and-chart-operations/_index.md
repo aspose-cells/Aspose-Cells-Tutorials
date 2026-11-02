@@ -47,6 +47,9 @@ Aprenda a salvar planilhas do Excel como imagens usando Aspose.Cells em C#, pass
 ### [Como exportar Excel para PNG – guia completo passo a passo](./how-to-export-excel-to-png-full-step-by-step-guide/)
 Aprenda a exportar planilhas do Excel para PNG usando Aspose.Cells com um guia completo passo a passo.
 
+### [Como exportar intervalo do Excel como imagem com C# e Aspose.Cells](./how-to-export-excel-range-as-image-with-c-and-aspose-cells/)
+Aprenda a exportar um intervalo de planilha do Excel como imagem usando C# e Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

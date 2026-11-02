@@ -102,6 +102,8 @@ Lär dig hur du använder WRAPCOLS-funktionen för att formatera data i Excel me
 Lär dig hur du tvingar formelberäkning och använder lambda-funktioner i Excel med C# via Aspose.Cells.
 ### [Skapa Excel-arbetsbok med formler – Fullständig steg‑för‑steg‑guide](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
 Lär dig hur du skapar en Excel-arbetsbok med formler med Aspose.Cells för .NET i en fullständig steg‑för‑steg‑guide.
+### [Hur man skapar Excel-arbetsbok i C# med EXPAND-funktionen](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+Lär dig hur du skapar en Excel-arbetsbok i C# med EXPAND‑funktionen med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

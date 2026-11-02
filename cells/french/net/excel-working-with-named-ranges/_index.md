@@ -36,6 +36,8 @@ Cette méthode est idéale pour une gestion ciblée des données et vous permet 
 Exploitez toute la puissance d'Excel en accédant aux plages nommées grâce à notre guide simple d'utilisation d'Aspose.Cells pour .NET. Idéal pour la gestion des données.
 ### [Accéder à une plage nommée spécifique dans Excel](./access-specific-named-range/)
 Découvrez comment accéder à des plages nommées spécifiques dans Excel à l'aide d'Aspose.Cells pour .NET avec ce didacticiel complet étape par étape et cet exemple de code.
+### [Définir une plage nommée dans Excel avec C# – créer un classeur](./define-named-range-in-excel-with-c-create-workbook/)
+Apprenez à créer une plage nommée dans Excel en C# en générant un classeur avec Aspose.Cells pour .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

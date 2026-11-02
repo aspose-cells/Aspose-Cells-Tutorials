@@ -56,6 +56,9 @@ Lär dig hur du programatiskt kopierar ett arbetsbladsområde i Excel med Aspose
 ### [Hur man kopierar flera kolumner i Excel med Aspose.Cells Java: En komplett guide](./copy-multiple-columns-excel-aspose-cells-java/)
 Lär dig hur du automatiserar kopiering av flera kolumner i ett Excel-ark med hjälp av Aspose.Cells för Java. Den här guiden behandlar installation, implementering och felsökning.
 
+### [Hur du kopierar ett område i Java med Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
+Lär dig hur du kopierar cellområden i Excel med Aspose.Cells för Java i denna steg-för-steg-guide.
+
 ### [Skapa unionsområde i Excel med Aspose.Cells Java: En omfattande guide](./create-union-range-excel-aspose-cells-java/)
 Lär dig hur du använder Aspose.Cells för Java för att skapa unionsområden i Excel, vilket förbättrar datapresentationen och läsbarheten.
 
@@ -90,6 +93,8 @@ Lär dig hur du effektivt avsammanfogar celler i Excel-filer med Aspose.Cells f�
 Lär dig hur du tilldelar ett namn till en cell i Excel med Aspose.Cells för Java, med kodexempel och steg-för-steg-instruktioner.
 ### [Kopiera område mellan arbetsböcker i Java – steg‑för‑steg‑guide](./copy-range-between-workbooks-in-java-step-by-step-guide/)
 Lär dig hur du kopierar ett cellområde från en arbetsbok till en annan med Aspose.Cells för Java.
+### [Skapa nytt kalkylblad och kopiera Excel-område med Aspose.Cells Java](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+Lär dig hur du skapar ett nytt kalkylblad och kopierar ett cellområde i Excel med Aspose.Cells för Java.
 
 ## Ytterligare resurser
 

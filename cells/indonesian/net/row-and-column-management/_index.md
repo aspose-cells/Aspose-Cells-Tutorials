@@ -58,7 +58,7 @@ Pelajari cara membuat baris ringkasan di sebelah kanan di Excel menggunakan Aspo
 Pelajari cara memisahkan baris dan kolom di Excel menggunakan Aspose.Cells untuk .NET dengan panduan lengkap ini. Sederhanakan manipulasi data Excel Anda.
 ### [Sembunyikan Beberapa Baris dan Kolom di Aspose.Cells .NET](./hide-multiple-rows-columns-aspose-cells/)
 Pelajari cara menyembunyikan beberapa baris dan kolom di Excel dengan mudah menggunakan Aspose.Cells for .NET. Ikuti panduan langkah demi langkah ini untuk manipulasi Excel yang lancar.
-### [Menyembunyikan Baris dan Kolom di Aspose.Cells .NET](./hide-rows-columns-aspose-cells/)
+### [Sembunyikan Baris dan Kolom di Aspose.Cells .NET](./hide-rows-columns-aspose-cells/)
 Pelajari cara menyembunyikan baris dan kolom dalam file Excel dengan Aspose.Cells for .NET. Panduan langkah demi langkah untuk mengelola visibilitas data dalam aplikasi C#.
 ### [Menampilkan Baris dan Kolom di Aspose.Cells .NET](./unhide-rows-columns-aspose-cells/)
 Pelajari cara menampilkan kembali baris dan kolom di Excel menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah kami. Sempurna untuk manipulasi data.
@@ -70,6 +70,10 @@ Pelajari cara menghapus baris di Excel dengan Aspose.Cells for .NET. Panduan lan
 Pelajari cara menghapus baris di Excel sambil melindungi baris header menggunakan Aspose.Cells untuk .NET.
 ### [Cara menghapus baris di Excel dengan C# – melindungi header tabel](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
 Pelajari cara menghapus baris di Excel menggunakan C# sambil melindungi header tabel agar tidak terhapus.
+### [Cara menggunakan Aspose.Cells untuk menghapus baris dalam tabel Excel sambil mempertahankan header](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
+Panduan langkah demi langkah menghapus baris tabel Excel dengan Aspose.Cells tanpa menghapus baris header.
+### [Hapus baris dari tabel Excel – panduan lengkap C#](./delete-rows-from-excel-table-complete-c-guide/)
+Panduan langkah demi langkah untuk menghapus baris dari tabel Excel menggunakan Aspose.Cells dengan C#.
 ### [Hapus Beberapa Baris di Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Pelajari cara menghapus beberapa baris di Excel menggunakan Aspose.Cells untuk .NET. Panduan terperinci dan langkah demi langkah ini mencakup prasyarat, contoh pengodean, dan Tanya Jawab Umum untuk pengembang.
 ### [Muat File Excel C# – Cara Menghapus Baris dan Menghapus Baris Tertentu](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
@@ -91,7 +95,7 @@ Pelajari cara menyisipkan kolom di Excel menggunakan Aspose.Cells untuk .NET. Ik
 ### [Menyisipkan Baris di Aspose.Cells .NET](./insert-row-aspose-cells/)
 Pelajari cara menyisipkan baris di Excel menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Tingkatkan keterampilan manipulasi data Anda dengan mudah.
 ### [Sisipkan Baris dengan Pemformatan di Aspose.Cells .NET](./insert-row-formatting-aspose-cells/)
-Pelajari cara menyisipkan baris dengan format di Excel menggunakan Aspose.Cells untuk .NET. Ikuti panduan langkah demi langkah kami untuk penerapan yang mudah.
+Pelajari cara menyisipkan baris dengan format di Excel menggunakan Aspose.Cells for .NET. Ikuti panduan langkah demi langkah kami untuk penerapan yang mudah.
 ### [Sisipkan Beberapa Baris di Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Pelajari cara menyisipkan beberapa baris di Excel menggunakan Aspose.Cells for .NET. Ikuti tutorial terperinci kami untuk manipulasi data yang lancar.
 ### [Geser Sel ke Atas di Excel dengan C# – Panduan Lengkap](./shift-cells-up-in-excel-with-c-complete-guide/)

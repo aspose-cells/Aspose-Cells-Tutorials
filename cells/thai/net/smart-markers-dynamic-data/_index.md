@@ -137,6 +137,10 @@
 
 ### [วิธีสร้าง Workbook ด้วย Smart Markers – คู่มือ Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
 เรียนรู้วิธีสร้างไฟล์ Workbook ด้วย Smart Markers ใน Aspose.Cells เพื่อสร้างรายงาน Excel อย่างรวดเร็วและอัตโนมัติ
+
+### [สร้าง Workbook Excel โดยใช้ Smart Markers อย่างเป็นโปรแกรม](./create-excel-workbook-programmatically-using-smart-markers/)
+สร้าง Workbook Excel ด้วย Smart Markers อย่างเป็นโปรแกรมเพื่อรายงานอัตโนมัติ
+
 ### [ตั้งชื่อแผ่นงาน Excel อัตโนมัติ – วิธีง่ายในการสร้างแผ่นงาน](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
 เรียนรู้วิธีตั้งชื่อแผ่นงาน Excel อัตโนมัติใน Aspose.Cells เพื่อสร้างแผ่นงานหลายแผ่นอย่างรวดเร็วและง่ายดาย
 ### [สร้างคอลเลกชัน Smart Marker – คู่มือ C# ฉบับสมบูรณ์](./create-smart-marker-collection-complete-c-guide/)
@@ -184,6 +188,8 @@
 ### [สร้างสมุดงาน Master Detail ด้วย Aspose.Cells Smart Marker](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
 
 ### [คู่มือ Master Detail Excel – เติมเทมเพลตด้วย Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+### [สร้างไฟล์ Excel จาก JSON ด้วย Aspose.Cells Smart Marker](./create-excel-from-json-with-aspose-cells-smart-marker/)
+เรียนรู้วิธีสร้างไฟล์ Excel จากข้อมูล JSON โดยใช้ Smart Marker ของ Aspose.Cells อย่างง่ายดาย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

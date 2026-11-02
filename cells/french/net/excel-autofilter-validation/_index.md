@@ -36,6 +36,8 @@ Apprenez à filtrer automatiquement les lignes Excel à l'aide d'Aspose.Cells da
 Découvrez comment implémenter la validation des données décimales dans Excel avec Aspose.Cells pour .NET grâce à notre guide facile à suivre. Améliorez l'intégrité des données sans effort.
 ### [Supprimer le filtre automatique d'Excel – Guide complet C#](./remove-autofilter-from-excel-complete-c-guide/)
 Apprenez à retirer le filtre automatique d'un classeur Excel avec Aspose.Cells en C# grâce à ce guide complet.
+### [Supprimer le filtre automatique des tableaux Excel – Guide complet C#](./how-to-remove-autofilter-from-excel-tables-using-c/)
+Apprenez à retirer le filtre automatique des tableaux Excel en C# avec Aspose.Cells grâce à ce guide complet.
 ### [Obtenir la première table d'un classeur Excel en C# – Guide complet](./get-first-table-from-excel-workbook-in-c-complete-guide/)
 Apprenez à extraire la première table d'un classeur Excel en C# avec Aspose.Cells grâce à ce guide complet.
 ### [Comment utiliser AutoFilter en automatisation Excel C# – Guide complet étape par étape](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
@@ -56,6 +58,8 @@ Apprenez à supprimer le bouton AutoFilter et à nettoyer l'interface de filtre 
 Apprenez à masquer les flèches de filtre dans Excel en utilisant C# avec Aspose.Cells, grâce à ce guide complet et facile à suivre.
 ### [Ajouter un tableau à Excel avec C# – Effacer le filtre automatique et enregistrer le fichier](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
 Apprenez à ajouter un tableau, désactiver le filtre automatique et enregistrer le classeur Excel avec Aspose.Cells en C#.
+### [Supprimer le filtre automatique d'Excel en C# – guide complet](./remove-autofilter-from-excel-in-c-complete-guide/)
+Apprenez à retirer le filtre automatique d'Excel en C# avec Aspose.Cells pour .NET grâce à ce guide complet.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

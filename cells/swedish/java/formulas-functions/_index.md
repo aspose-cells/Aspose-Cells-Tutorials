@@ -95,6 +95,8 @@ Lär dig hur du beräknar cotangens i Excel med en komplett steg-för-steg-guide
 Lär dig hur du sorterar unika värden i Excel med Aspose.Cells för Java och använder matrisformler för effektiv datahantering.
 ### [Hur man använder Aspose i Java – skapa Excel-arbetsbok med nya funktioner](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
 Lär dig hur du skapar en Excel-arbetsbok med nya funktioner i Java med Aspose.
+### [Använd expand-funktionen i Aspose.Cells Java – steg‑för‑steg‑guide](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
+Lär dig hur du använder expand‑funktionen i Aspose.Cells för Java för att dynamiskt utöka dataområden.
 
 ## Ytterligare resurser
 

@@ -60,6 +60,7 @@ Learn how to automate copying multiple columns within an Excel worksheet using A
 Learn how to copy worksheet ranges programmatically using Aspose.Cells for Java with step-by-step code examples.
 ### [Copy range between workbooks in Java – step‑by‑step guide](./copy-range-between-workbooks-in-java-step-by-step-guide/)
 Learn how to copy a range of cells from one workbook to another using Aspose.Cells for Java with clear code examples.
+### [Create new worksheet and copy Excel range with Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
 
 ### [Create Union Range in Excel using Aspose.Cells Java&#58; A Comprehensive Guide](./create-union-range-excel-aspose-cells-java/)
 Learn how to use Aspose.Cells for Java to create union ranges in Excel, enhancing data presentation and readability.
@@ -78,6 +79,8 @@ Learn how to automate Excel print areas with Aspose.Cells for Java. Master workb
 
 ### [Efficiently Copy a Single Column in Excel Using Aspose.Cells Java](./excel-single-column-copying-aspose-cells-java/)
 Learn how to automate the process of copying single columns across multiple others using Aspose.Cells for Java. Streamline your data handling tasks with ease.
+
+### [How to copy range in Java with Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
 
 ### [Import Custom Objects into Merged Excel Cells Using Aspose.Cells for Java&#58; A Comprehensive Guide](./import-custom-objects-merged-cells-java-aspose-cells/)
 Learn how to efficiently import custom objects into merged cells in Excel using Aspose.Cells for Java. Master data handling with this comprehensive guide.

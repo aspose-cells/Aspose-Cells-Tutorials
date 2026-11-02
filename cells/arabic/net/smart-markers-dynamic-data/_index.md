@@ -151,7 +151,6 @@
 ### [إنشاء مجموعة علامات ذكية في C# – دليل كامل](./create-smart-marker-collection-in-c-complete-guide/)
 تعلم خطوة بخطوة كيفية إنشاء مجموعة علامات ذكية باستخدام C# في Aspose.Cells لتوليد تقارير Excel ديناميكية.
 ### [كيفية تسمية الأوراق تلقائيًا – إنشاء أوراق متعددة في C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
-تعلم كيفية تسمية أوراق Excel تلقائيًا وإنشاء أوراق متعددة باستخدام Aspose.Cells في C# لتقارير ديناميكية.
 ### [إنشاء كائن البيانات الرئيسي – دليل خطوة بخطوة لتوليد ورقة التفاصيل](./create-master-data-object-step-by-step-guide-to-generate-det/)
 اكتشف طريقة إنشاء كائن البيانات الرئيسي وتوليد ورقة التفاصيل تلقائيًا خطوة بخطوة باستخدام Aspose.Cells.
 ### [إنشاء قالب خصم في C# – دليل خطوة بخطوة](./create-discount-template-in-c-step-by-step-guide/)
@@ -183,6 +182,10 @@
 ### [إنشاء دفتر عمل رئيسي وتفصيلي باستخدام علامة Aspose.Cells الذكية](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
 ### [دليل Excel الرئيسي والتفصيلي – تعبئة القوالب باستخدام العلامات الذكية](./master-detail-excel-guide-populate-templates-with-smart-mark/)
 ### [كيفية تكرار أوراق العمل – دليل كامل لأتمتة Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+
+### [إنشاء مصنف Excel برمجيًا باستخدام العلامات الذكية](./create-excel-workbook-programmatically-using-smart-markers/)
+تعلم كيفية إنشاء ملف Excel باستخدام العلامات الذكية برمجيًا في Aspose.Cells للـ .NET.
+### [إنشاء Excel من JSON باستخدام العلامة الذكية Aspose.Cells](./create-excel-from-json-with-aspose-cells-smart-marker/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

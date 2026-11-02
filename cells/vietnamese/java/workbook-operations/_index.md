@@ -171,7 +171,7 @@ Tìm hiểu cách chuyển đổi bảng tính Excel thành hình ảnh TIFF ch�
 Tìm hiểu cách chuyển đổi dễ dàng các bảng tính Excel thành hình ảnh chất lượng cao bằng Aspose.Cells for Java. Hoàn hảo cho các bài thuyết trình, báo cáo và tích hợp web.
 
 ### [Chuyển đổi Excel sang Văn bản Sử dụng Aspose.Cells cho Java: Hướng dẫn Toàn diện](./convert-excel-text-aspose-cells-java/)
-Tìm hiểu cách chuyển đổi các trang tính Excel thành văn bản một cách liền mạch bằng Aspose.Cells for Java. Hướng dẫn này bao gồm cài đặt, cấu hình và ứng dụng thực tế.
+Tìm hiểu cách chuyển đổi các trang tính Excel thành văn bản một cách liền mạch bằng Aspose.Cells cho Java. Hướng dẫn này bao gồm cài đặt, cấu hình và ứng dụng thực tế.
 
 ### [Chuyển đổi Excel sang PDF tương thích bằng Aspose.Cells trong Java: Hướng dẫn toàn diện](./convert-excel-to-compliant-pdf-aspose-cells-java/)
 Tìm hiểu cách chuyển đổi sổ làm việc Excel thành PDF tuân thủ với Aspose.Cells for Java, đảm bảo tuân thủ các tiêu chuẩn công nghiệp như PDF/A. Hoàn thiện kỹ năng chuyển đổi dữ liệu của bạn.
@@ -495,6 +495,26 @@ Hướng dẫn chi tiết cách tạo sổ làm việc XLSB trong Java bằng As
 Hướng dẫn cách lưu sổ làm việc mới và sao chép một vùng dữ liệu giữa các sổ làm việc trong Java bằng Aspose.Cells.
 ### [Java tạo tệp Excel, thêm thuộc tính tùy chỉnh và lưu dưới dạng XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
 Hướng dẫn tạo tệp Excel, thêm thuộc tính tùy chỉnh và lưu dưới dạng XLSB bằng Aspose.Cells cho Java.
+### [Cách Thêm Thuộc Tính Tùy Chỉnh trong Excel bằng Java – Hướng Dẫn Toàn Diện](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+Tìm hiểu cách thêm thuộc tính tùy chỉnh vào tệp Excel bằng Aspose.Cells for Java. Hướng dẫn này bao gồm thiết lập, lưu và sử dụng thuộc tính.
+### [Tạo Sổ làm việc Mới Java – Hướng dẫn toàn diện](./create-new-workbook-java-complete-guide/)
+Tìm hiểu cách tạo sổ làm việc mới trong Java bằng Aspose.Cells. Hướng dẫn toàn diện này bao gồm các bước thiết lập, tạo và lưu workbook.
+
+### [Sử dụng hàm Lambda Java để tạo ví dụ Workbook Excel](./use-lambda-function-java-to-create-excel-workbook-example/)
+Hướng dẫn cách dùng hàm Lambda trong Java để tạo và lưu workbook Excel bằng Aspose.Cells.
+### [Tạo tệp Excel bằng Java – Hướng dẫn chi tiết từng bước](./generate-excel-file-java-complete-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo tệp Excel trong Java bằng Aspose.Cells, bao gồm cài đặt, mã mẫu và lưu ở các định dạng khác nhau.
+
+### [Kết xuất Excel thành PDF với Xử lý lỗi bằng Aspose.Cells cho Java: Hướng dẫn toàn diện](./render-excel-ppdf-aspose-cells-java-error-handling/)
+Tìm hiểu cách chuyển đổi tệp Excel sang PDF bằng Aspose.Cells for Java, với các chiến lược xử lý lỗi mạnh mẽ. Lý tưởng cho xử lý hàng loạt và báo cáo dữ liệu.
+
+### [Tạo sổ làm việc Excel với thuộc tính tùy chỉnh trong Java – hướng dẫn từng bước](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+Hướng dẫn cách tạo sổ làm việc Excel và thêm các thuộc tính tùy chỉnh bằng Aspose.Cells cho Java.
+
+### [Tạo sổ làm việc Excel java: Xử lý ngày theo niên hiệu Nhật Bản](./create-excel-workbook-java-handle-japanese-era-dates/)
+Hướng dẫn cách tạo sổ làm việc Excel trong Java và xử lý ngày theo niên hiệu Nhật Bản một cách chính xác.
+### [Cách lưu tệp xlsb với thuộc tính tùy chỉnh bằng Aspose.Cells cho Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Hướng dẫn lưu tệp XLSB và thêm các thuộc tính tùy chỉnh bằng Aspose.Cells cho Java.
 
 ## Tài nguyên bổ sung
 

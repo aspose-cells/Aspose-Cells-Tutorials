@@ -58,6 +58,8 @@ Pelajari cara membuat workbook Excel dan mengurai tanggal era Jepang menggunakan
 
 
 
+### [Parse DateTime dengan Reign Kaisar Jepang menggunakan Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Pelajari cara mengurai nilai DateTime yang menggunakan era kaisar Jepang di Excel dengan Aspose.Cells untuk .NET.
 
 
 

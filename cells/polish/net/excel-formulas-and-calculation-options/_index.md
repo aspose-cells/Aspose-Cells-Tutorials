@@ -101,6 +101,9 @@ Dowiedz się, jak wykorzystać funkcję WRAPCOLS w Aspose.Cells dla .NET, aby au
 ### [Utwórz skoroszyt programu Excel z formułami – Pełny przewodnik krok po kroku](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
 Dowiedz się, jak programowo utworzyć skoroszyt Excel z formułami, korzystając z Aspose.Cells dla .NET – kompletny przewodnik krok po kroku.
 
+### [Jak utworzyć skoroszyt Excel w C# z funkcją EXPAND](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+Dowiedz się, jak przy użyciu Aspose.Cells dla .NET w C# utworzyć skoroszyt Excel wykorzystując funkcję EXPAND w prostym przewodniku krok po kroku.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

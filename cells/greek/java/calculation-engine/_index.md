@@ -68,6 +68,9 @@ weight: 22
 ### [Πώς να ανανεώσετε βιβλία εργασίας Excel σε Java χρησιμοποιώντας Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
 Μάθετε πώς να ανανεώνετε τα βιβλία εργασίας Excel προγραμματιστικά με Aspose.Cells for Java
 
+### [Πώς να εξαναγκάσετε τον υπολογισμό τύπων σε Java με Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+Μάθετε πώς να αναγκάσετε τον υπολογισμό τύπων σε βιβλία εργασίας Excel με Aspose.Cells for Java.
+
 ## Πρόσθετοι Πόροι
 - [Τεκμηρίωση Aspose.Cells για Java](https://docs.aspose.com/cells/java/)
 - [Αναφορά API Aspose.Cells για Java](https://reference.aspose.com/cells/java/)

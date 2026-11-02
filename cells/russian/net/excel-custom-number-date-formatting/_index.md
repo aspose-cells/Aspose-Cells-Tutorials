@@ -58,6 +58,8 @@
 
 
 
+### [Разбор DateTime с японской императорской эпохой с помощью Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Узнайте, как распарсить даты и время, учитывая японские императорские эпохи, используя Aspose.Cells для .NET.
 
 
 

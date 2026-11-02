@@ -44,6 +44,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells einen ausgewählten Excel-Bereich in ein 
 Erfahren Sie, wie Sie ein Excel-Arbeitsblatt mit Aspose.Cells in C# in ein Bild konvertieren und speichern.
 ### [Excel nach PNG exportieren – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-export-excel-to-png-full-step-by-step-guide/)
 Erfahren Sie, wie Sie Excel-Arbeitsblätter mit Aspose.Cells in hochqualitative PNG‑Bilder exportieren – komplett erklärt.
+### [Wie man einen Excel‑Bereich als Bild mit C# und Aspose.Cells exportiert](./how-to-export-excel-range-as-image-with-c-and-aspose-cells/)
+Erfahren Sie, wie Sie mit Aspose.Cells in C# einen Excel‑Bereich in ein Bild exportieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

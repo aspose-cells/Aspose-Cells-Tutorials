@@ -79,6 +79,8 @@ Lär dig hur du extraherar och sparar en pivot-tabell som PNG-bild i C# med Aspo
 Lär dig hur du konverterar DOCX till HTML och bäddar in alla teckensnitt för korrekt visning i webbläsare.
 ### [Hur du bäddar in teckensnitt i HTML från ett DOCX – Komplett guide](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
 Lär dig hur du bäddar in teckensnitt från ett DOCX-dokument i HTML med Aspose.Words för .NET i en steg-för-steg-guide.
+### [Hur man konverterar JSON till Excel i C# med en enda kommaseparerad cell](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Lär dig hur du med C# konverterar JSON till ett Excel-ark med en enda kommaseparerad cell.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

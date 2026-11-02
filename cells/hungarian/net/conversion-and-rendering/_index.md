@@ -65,6 +65,7 @@ Tanuld meg, hogyan exportálhatsz Pivot táblákat PNG képként C#-ban az Aspos
 
 ### [Új munkafüzet létrehozása C#-ban – Markdown importálása Excelbe](./create-new-workbook-in-c-import-markdown-to-excel/)
 Tanuld meg, hogyan hozhatsz létre új Excel munkafüzetet C#-ban, és importálj Markdown tartalmat Excelbe az Aspose.Cells segítségével.
+
 ### [Markdown konvertálása Excelbe – Teljes C# útmutató](./convert-markdown-to-excel-complete-c-guide/)
 Tanuld meg, hogyan alakíthatod át a Markdown fájlokat Excel táblázatokká C# segítségével az Aspose.Cells használatával.
 ### [Excel exportálása PNG-be az Aspose.Cells segítségével – Teljes lépésről‑lépésre útmutató](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
@@ -79,6 +80,9 @@ Tanuld meg, hogyan menthetsz PNG képet egy Excel pivot táblából C#-ban az As
 Tanuld meg, hogyan ágyazhatod be a betűtípusokat HTML-be a DOCX konvertálás során, hogy a megjelenés minden eszközön megmaradjon.
 ### [Betűtípusok beágyazása HTML-be DOCX-ből – Teljes útmutató](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
 Tanuld meg, hogyan ágyazhatod be a DOCX dokumentumban használt betűtípusokat HTML-be az Aspose.Words segítségével .NET-ben.
+
+### [JSON konvertálása Excelbe C#-ban egyetlen vesszővel elválasztott cellával](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Tanuld meg, hogyan konvertálhatsz JSON adatot Excel munkafüzetbe C#-ban egyetlen vesszővel elválasztott cella használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

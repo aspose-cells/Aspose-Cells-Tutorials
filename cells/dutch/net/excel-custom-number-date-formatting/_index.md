@@ -92,6 +92,8 @@ Leer hoe u met Aspose.Cells een aangepast getalformaat in Excel toepast via C#.
 Leer hoe u met Aspose.Cells een datumkolom in Excel opmaakt en een DataTable exporteert via C#.
 ### [Japanse kalenderconversie in C# – volledige gids](./japanese-calendar-conversion-in-c-full-guide/)
 Leer hoe u met Aspose.Cells de Japanse kalender converteert in C# met een volledige stap‑voor‑stap gids.
+### [Parse DateTime met Japanse keizerrege in C# – Complete gids](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Leer hoe u met Aspose.Cells datum‑ en tijdwaarden parseert volgens de Japanse keizerrege in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -103,6 +103,9 @@ Pelajari cara membuat template Excel menggunakan Smart Markers di C# dengan lang
 ### [Cara Mengganti Variabel dalam JSON dengan SmartMarker – Panduan Lengkap](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 Pelajari cara mengganti variabel dalam JSON menggunakan SmartMarker secara lengkap.
 
+### [Buat workbook Excel secara programatis menggunakan Smart Markers](./create-excel-workbook-programmatically-using-smart-markers/)
+Pelajari cara membuat workbook Excel secara programatis dengan Smart Markers menggunakan Aspose.Cells untuk .NET.
+
 ### [Buat Lembar Kerja Dinamis dengan Smart Markers di Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 Pelajari cara membuat lembar kerja dinamis menggunakan Smart Markers di Aspose.Cells untuk .NET, memungkinkan pembuatan laporan Excel yang fleksibel dan otomatis.
 
@@ -137,6 +140,8 @@ Pelajari cara membuat koleksi smart marker secara lengkap menggunakan C# dengan 
 Panduan lengkap untuk mengembangkan aplikasi C# yang mengekspor data ke file Excel menggunakan Aspose.Cells.
 ### [Ulangi data di Excel – Isi templat dengan SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
 ### [Ekspor Data ke Excel: Isi Template dari Array di C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
+### [Buat Excel dari JSON dengan Aspose.Cells Smart Marker](./create-excel-from-json-with-aspose-cells-smart-marker/)
+
 ### [Cara Menamai Sheet Secara Otomatis – Menghasilkan Banyak Sheet di C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Pelajari cara memberi nama sheet secara otomatis dan menghasilkan banyak sheet dalam file Excel menggunakan C# dengan Aspose.Cells.
 ### [Buat Objek Data Master – Panduan Langkah-demi-Langkah untuk Menghasilkan Lembar Detail](./create-master-data-object-step-by-step-guide-to-generate-det/)

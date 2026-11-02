@@ -150,12 +150,11 @@ Ismerd meg, hogyan hozhatsz létre intelligens jelölőgyűjteményt C#-ban, lé
 
 ### [Munkalapok automatikus elnevezése – Több munkalap generálása C#-ban](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Ismerje meg, hogyan hozhat létre és nevezhet el több munkalapot automatikusan C#-ban az Aspose.Cells segítségével.
+### [Excel létrehozása JSON-ból az Aspose.Cells Smart Markerrel](./create-excel-from-json-with-aspose-cells-smart-marker/)
 
 ### [Mesteradat-objektum létrehozása – Lépésről‑lépésre útmutató a részletes lap generálásához](./create-master-data-object-step-by-step-guide-to-generate-det/)
 
 ### [Számlagenerálás automatizálása – Dinamikus munkalap elnevezés és ismétlés C#-ban](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
-Ismerje meg, hogyan hozhat létre automatikusan számlákat, dinamikusan elnevezve és ismételve a munkalapokat C#-ban az Aspose.Cells segítségével.
-
 ### [Hierarchia létrehozása SmartMarkerrel – Lépés‑ről‑lépésre útmutató](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
 
 ### [Beágyazott JSON feldolgozása C# – JSON terhelés létrehozása C#](./parse-nested-json-c-create-json-payload-c/)
@@ -191,6 +190,7 @@ Ismerje meg, hogyan hozhat létre Excel jelentéslistát Aspose.Cells intelligen
 ### [Munkalapok ismétlése – Teljes útmutató az Excel automatizáláshoz](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 Ismerje meg, hogyan ismételhet munkalapokat automatikusan az Aspose.Cells segítségével, hogy hatékonyan generáljon több hasonló Excel-állományt.
 
+### [Excel munkafüzet létrehozása programozott módon Smart Markerekkel](./create-excel-workbook-programmatically-using-smart-markers/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

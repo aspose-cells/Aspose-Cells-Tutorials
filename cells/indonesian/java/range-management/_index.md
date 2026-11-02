@@ -59,6 +59,9 @@ Pelajari cara mengotomatiskan penyalinan beberapa kolom dalam lembar kerja Excel
 ### [Membuat Rentang Gabungan di Excel menggunakan Aspose.Cells Java: Panduan Lengkap](./create-union-range-excel-aspose-cells-java/)
 Pelajari cara menggunakan Aspose.Cells untuk Java untuk membuat rentang gabungan di Excel, meningkatkan penyajian dan keterbacaan data.
 
+### [Buat lembar kerja baru dan salin rentang Excel dengan Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+Pelajari cara membuat lembar kerja baru dan menyalin rentang sel di Excel menggunakan Aspose.Cells untuk Java.
+
 ### [Menguasai Rentang Tampilan Excel di Java Menggunakan Aspose.Cells: Panduan Lengkap](./excel-display-ranges-aspose-cells-java/)
 Pelajari cara mengelola dan mengoptimalkan rentang tampilan Excel dengan Aspose.Cells untuk Java. Tingkatkan kemampuan visualisasi data aplikasi Anda.
 
@@ -91,6 +94,8 @@ Pelajari cara memisahkan sel dalam file Excel secara efisien menggunakan Aspose.
 
 ### [Menyalin rentang antar buku kerja di Java – panduan langkah demi langkah](./copy-range-between-workbooks-in-java-step-by-step-guide/)
 Pelajari cara menyalin rentang sel antara buku kerja Excel menggunakan Aspose.Cells untuk Java dengan panduan langkah demi langkah.
+### [Cara menyalin rentang di Java dengan Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
+Pelajari cara menyalin rentang sel di Excel menggunakan Aspose.Cells untuk Java dengan contoh kode praktis.
 
 ## Sumber Daya Tambahan
 

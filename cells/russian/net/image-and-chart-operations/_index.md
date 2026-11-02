@@ -44,6 +44,8 @@
 Узнайте, как сохранить лист Excel в виде изображения с помощью Aspose.Cells в полном руководстве на C#.
 ### [Как экспортировать Excel в PNG – полное пошаговое руководство](./how-to-export-excel-to-png-full-step-by-step-guide/)
 Подробное руководство по экспорту файлов Excel в формат PNG с помощью Aspose.Cells в .NET.
+### [Как экспортировать диапазон Excel в изображение с C# и Aspose.Cells](./how-to-export-excel-range-as-image-with-c-and-aspose-cells/)
+Узнайте, как экспортировать диапазон ячеек Excel в изображение с помощью C# и библиотеки Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

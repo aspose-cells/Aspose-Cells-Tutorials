@@ -42,6 +42,8 @@
 Полное руководство по сохранению книги Excel и добавлению именованного диапазона с использованием Aspose.Cells для .NET на C#.
 ### [Создать книгу Excel в C# – Добавить именованный диапазон и задать имя таблицы](./create-excel-workbook-in-c-add-named-range-set-table-name/)
 Узнайте, как создать книгу Excel в C#, добавить именованный диапазон и задать имя таблицы с помощью Aspose.Cells для .NET.
+### [Назначить имя таблице Excel и избежать конфликтов имен](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
+Узнайте, как присвоить имя таблице Excel и предотвратить конфликты имен с помощью Aspose.Cells для .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

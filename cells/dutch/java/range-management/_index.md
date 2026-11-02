@@ -75,6 +75,26 @@ Leer hoe je cellen in Excel-bestanden efficiënt kunt ontkoppelen met Aspose.Cel
 Leer hoe u een naam toewijst aan een cel in Excel met Aspose.Cells voor Java, inclusief codevoorbeelden en best practices.
 ### [Programmeermatig werkbladbereik kopiëren – Complete Java-gids](./programmatically-copy-worksheet-range-complete-java-guide/)
 Leer hoe u met Aspose.Cells voor Java een bereik van een werkblad programmatic kopieert, inclusief codevoorbeelden en best practices.
+### [Nieuwe werkblad maken en Excel-bereik kopiëren met Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+Leer hoe u een nieuw werkblad maakt en een bereik van een Excel-bestand kopieert met Aspose.Cells voor Java.
+
+### [Uniebereik maken in Excel met Aspose.Cells Java: een uitgebreide handleiding](./create-union-range-excel-aspose-cells-java/)
+Leer hoe u Aspose.Cells voor Java kunt gebruiken om verbindingsbereiken in Excel te maken, waardoor de presentatie en leesbaarheid van gegevens worden verbeterd.
+
+### [Excel-weergavebereiken in Java onder de knie krijgen met Aspose.Cells: een uitgebreide handleiding](./excel-display-ranges-aspose-cells-java/)
+Leer hoe u Excel-weergavebereiken kunt beheren en optimaliseren met Aspose.Cells voor Java. Verbeter de datavisualisatiemogelijkheden van uw applicatie.
+
+### [Groepeer en schets Excel-rijen en -kolommen met Aspose.Cells voor Java - Een uitgebreide handleiding](./excel-group-rows-columns-aspose-cells-java/)
+Leer hoe u groepering en overzichten in Excel kunt automatiseren met Aspose.Cells voor Java. Volg deze handleiding om uw gegevenspresentatie efficiënter te maken.
+
+### [Beheers benoemde bereiken in Excel met Aspose.Cells voor Java](./excel-named-ranges-aspose-cells-java/)
+Een codetutorial voor Aspose.Words Java
+
+### [Automatiseer Excel-afdrukgebieden met Aspose.Cells voor Java: een stapsgewijze handleiding](./excel-print-areas-automation-aspose-cells-java-guide/)
+Leer hoe u Excel-afdrukgebieden kunt automatiseren met Aspose.Cells voor Java. Beheers werkmapbewerking en stroomlijn uw rapportagetaken efficiënt.
+
+### [Bereik kopiëren in Java met Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
+
 
 ## Aanvullende bronnen
 

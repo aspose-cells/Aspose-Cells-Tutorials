@@ -67,6 +67,9 @@ Pelajari cara mengatur format angka kustom di Excel menggunakan Aspose.Cells unt
 ### [Menguasai Presentasi Data di Excel: Format Angka dan Tanggal Kustom dengan Aspose.Cells untuk Java](./aspose-cells-java-data-formatting-excel/)
 Pelajari cara menerapkan format angka dan gaya tanggal khusus menggunakan Aspose.Cells untuk Java, menyempurnakan penyajian data dalam lembar kerja Excel.
 
+### [Menerapkan Format Angka di Excel dengan Java – Panduan Lengkap Aspose.Cells](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+Pelajari cara menerapkan format angka khusus di Excel menggunakan Aspose.Cells untuk Java dengan contoh kode lengkap.
+
 ### [Cara Membuat & Memformat Sel Excel Menggunakan Aspose.Cells untuk Java: Panduan Langkah demi Langkah](./aspose-cells-java-excel-automation-guide/)
 Pelajari cara mengotomatiskan dan memformat file Excel dengan mudah menggunakan Aspose.Cells untuk Java. Panduan ini mencakup pembuatan buku kerja, pemformatan sel, dan teknik penyimpanan.
 
@@ -86,7 +89,7 @@ Pelajari cara mengekstrak dan menganalisis warna efek cahaya dari bentuk dalam f
 Pelajari cara mengatur lebar kolom dalam piksel dengan Aspose.Cells untuk Java. Panduan ini mencakup instalasi, contoh kode, dan aplikasi praktis.
 
 ### [Mengatur Ukuran Font di Excel Menggunakan Aspose.Cells Java - Panduan Lengkap](./aspose-cells-java-set-font-size-excel/)
-Pelajari cara mengatur ukuran font dalam file Excel menggunakan Aspose.Cells untuk Java dengan tutorial langkah demi langkah ini. Tingkatkan keterampilan pemformatan dokumen Anda hari ini!
+Pelajari cara mengatur ukuran font dalam file Excel menggunakan Aspose.Cells Java dengan tutorial langkah demi langkah ini. Tingkatkan keterampilan pemformatan dokumen Anda hari ini!
 
 ### [Menguasai Aspose.Cells untuk Java: Panduan Manajemen Gaya dan Font Excel Tingkat Lanjut](./aspose-cells-java-style-font-management/)
 Pelajari cara mengelola gaya dan font dalam file Excel menggunakan Aspose.Cells untuk Java. Panduan ini mencakup pengaturan buku kerja, pembuatan gaya, dan kustomisasi font.
@@ -155,7 +158,7 @@ Pelajari cara mengotomatiskan penataan gaya di Excel menggunakan Aspose.Cells un
 Pelajari cara mengekstrak dan mengelola tema dari buku kerja Excel menggunakan Aspose.Cells untuk Java. Panduan ini mencakup penyiapan, contoh kode, dan praktik terbaik.
 
 ### [Inisialisasi Buku Kerja Excel & Penataan Sel menggunakan Aspose.Cells Java: Panduan Lengkap](./excel-workbook-initialization-cell-styling-aspose-cells-java/)
-Kuasai inisialisasi dan penataan buku kerja Excel dengan Aspose.Cells untuk Java. Panduan ini mencakup penyiapan buku kerja, modifikasi sel, dan teknik penataan.
+Kuasai inisialisasi dan penataan buku kerja Excel dengan Aspose.Cells Java. Panduan ini mencakup penyiapan buku kerja, modifikasi sel, dan teknik penataan.
 
 ### [Menguasai Penataan Buku Kerja di Excel dengan Aspose.Cells Java: Panduan Lengkap untuk Pengembang](./excel-workbook-styling-aspose-cells-java/)
 Pelajari cara menyederhanakan penataan dan manipulasi data buku kerja Excel Anda menggunakan Aspose.Cells Java. Panduan ini mencakup inisialisasi, teknik penataan, dan penanganan data yang efisien.
@@ -239,7 +242,7 @@ Pelajari cara memutar teks di sel Excel menggunakan Aspose.Cells Java. Sempurnak
 Pelajari cara mengatur faktor zoom di lembar kerja Excel dengan Aspose.Cells untuk Java. Tingkatkan kemampuan presentasi dan peninjauan data Anda secara terprogram.
 
 ### [Cara Mengurutkan Data Excel Berdasarkan Warna Kolom Menggunakan Aspose.Cells Java: Panduan Lengkap](./sort-excel-data-by-column-color-aspose-cells-java/)
-Pelajari cara mengurutkan data Excel secara efisien berdasarkan warna kolom menggunakan Aspose.Cells untuk Java. Panduan ini mencakup prasyarat, langkah implementasi, dan aplikasi praktis.
+Pelajari cara mengurutkan data Excel secara efisien berdasarkan warna kolom menggunakan Aspose.Cells Java. Panduan ini mencakup prasyarat, langkah implementasi, dan aplikasi praktis.
 
 ### [Cara Menata Sel Excel dan Menambahkan Hyperlink Menggunakan Aspose.Cells untuk Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Kuasai penataan sel Excel dan tambahkan hyperlink di aplikasi Java Anda dengan Aspose.Cells. Ikuti panduan lengkap ini untuk integrasi dan pemformatan yang lancar.
@@ -249,6 +252,12 @@ Pelajari cara menerapkan gaya saat mengonversi DataTable ke file Excel menggunak
 
 ### [Aspose Cells Format Tanggal: Cara Mengatur Format Tanggal Kustom di Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
 Pelajari cara menetapkan format tanggal khusus di Excel menggunakan Aspose.Cells untuk Java dengan contoh kode lengkap.
+### [Membuat Buku Kerja Excel Bergaya di Java – Panduan Lengkap](./create-styled-excel-workbook-in-java-complete-guide/)
+Pelajari cara membuat workbook Excel dengan gaya profesional menggunakan Aspose.Cells untuk Java, lengkap dengan contoh kode.
+
+### [Cara Menggunakan WRAPCOLS di Aspose.Cells – Contoh Java Lengkap](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Pelajari cara menggunakan WRAPCOLS di Aspose.Cells dengan contoh Java lengkap untuk mengontrol lebar kolom secara otomatis.
+### [Cara Membuat Buku Kerja Excel dengan Format Mata Uang dan Font Tebal di Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 
 ## Sumber Daya Tambahan
 

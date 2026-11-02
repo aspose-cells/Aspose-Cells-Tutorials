@@ -66,6 +66,8 @@ Excel 템플릿 파일을 저장하는 방법을 단계별로 안내합니다.
 C#를 사용해 Excel 템플릿을 처리하고 시트를 자동으로 이름 지정하는 방법을 단계별로 안내합니다.
 ### [C# 템플릿을 사용하여 데이터를 Excel로 내보내는 방법 – 단계별 가이드](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
 C# 템플릿을 활용해 데이터를 Excel 파일로 내보내는 단계별 방법을 안내합니다.
+### [Excel에서 배열을 확장하고 템플릿을 채우는 방법](./how-to-expand-array-in-excel-and-populate-a-template)
+Excel에서 배열을 확장하고 템플릿에 데이터를 자동으로 채우는 방법을 배웁니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

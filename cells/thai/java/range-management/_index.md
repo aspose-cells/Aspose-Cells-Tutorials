@@ -88,6 +88,10 @@
 เรียนรู้วิธีแยกเซลล์ที่ผสานกันในไฟล์ Excel อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า การตรวจจับ และการแยกเซลล์ที่ผสานกันพร้อมตัวอย่างโค้ด
 
 ### [คัดลอกช่วงเวิร์กชีตโดยโปรแกรม – คู่มือ Java ฉบับสมบูรณ์](./programmatically-copy-worksheet-range-complete-java-guide/)
+### [สร้างแผ่นงานใหม่และคัดลอกช่วง Excel ด้วย Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+เรียนรู้วิธีสร้างแผ่นงานใหม่และคัดลอกช่วงข้อมูลใน Excel ด้วย Aspose.Cells สำหรับ Java อย่างง่ายดาย
+### [วิธีคัดลอกช่วงใน Java ด้วย Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
+เรียนรู้วิธีคัดลอกช่วงของเซลล์ใน Excel ด้วย Aspose.Cells สำหรับ Java อย่างง่ายและมีประสิทธิภาพ
 
 ## แหล่งข้อมูลเพิ่มเติม
 

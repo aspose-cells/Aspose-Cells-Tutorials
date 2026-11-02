@@ -51,10 +51,16 @@ Aspose.Cells for Javaを使ってExcelのセル範囲選択をマスターしま
 Aspose.Cells for Java を使用して、行と列の自動調整を含む、HTML テーブルを適切に構造化された Excel ファイルに変換する方法を学習します。
 
 ### [Aspose.Cells for Java を使用して Excel の列を効率的にコピーする: 包括的なガイド](./copy-excel-columns-aspose-cells-java/)
-Aspose.Cells for Javaを使ってExcelの列コピーを自動化する方法を学びましょう。この分かりやすいガイドでワークフローを効率化し、生産性を向上させましょう。
+Aspose.Cells Javaを使ってExcelの列コピーを自動化する方法を学びましょう。この分かりやすいガイドでワークフローを効率化し、生産性を向上させましょう。
+
+### [Aspose.Cells Java を使用して範囲をコピーする方法](./how-to-copy-range-in-java-with-aspose-cells/)
+Aspose.Cells for Java を利用し、Excel のセル範囲を効率的にコピーする手順とコード例を解説します。
 
 ### [Aspose.Cells Java を使用して Excel の複数の列をコピーする方法: 完全ガイド](./copy-multiple-columns-excel-aspose-cells-java/)
 Aspose.Cells for Javaを使用して、Excelワークシート内の複数の列のコピーを自動化する方法を学びます。このガイドでは、セットアップ、実装、トラブルシューティングについて説明します。
+
+### [Aspose.Cells Java を使用して新しいワークシートを作成し、Excel の範囲をコピーする方法](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+Aspose.Cells Java を使って新しいワークシートを作成し、指定したセル範囲を別シートへコピーする手順を解説します。
 
 ### [Aspose.Cells Java を使用して Excel で結合範囲を作成する: 包括的なガイド](./create-union-range-excel-aspose-cells-java/)
 Aspose.Cells for Java を使用して Excel で結合範囲を作成し、データの表示と読みやすさを向上させる方法を学習します。

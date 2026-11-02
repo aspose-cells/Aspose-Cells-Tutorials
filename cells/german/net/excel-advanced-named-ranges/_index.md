@@ -42,6 +42,8 @@ Erfahren Sie in diesem Schritt‑für‑Schritt‑Tutorial, wie Sie mit Aspose.C
 Erfahren Sie in diesem Schritt‑für‑Schritt‑Tutorial, wie Sie mit Aspose.Cells für .NET eine Excel‑Arbeitsmappe speichern und einen benannten Bereich hinzufügen.
 ### [Excel-Arbeitsmappe in C# erstellen – Benannten Bereich hinzufügen & Tabellennamen festlegen](./create-excel-workbook-in-c-add-named-range-set-table-name/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe in C# erstellen, benannte Bereiche hinzufügen und Tabellennamen setzen.
+### [Name für Excel‑Tabelle zuweisen und Namenskonflikte vermeiden](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
+Erfahren Sie in diesem Schritt‑für‑Schritt‑Tutorial, wie Sie mit Aspose.Cells für .NET einer Excel‑Tabelle einen Namen zuweisen und Namenskonflikte vermeiden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

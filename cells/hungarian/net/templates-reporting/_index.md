@@ -68,6 +68,9 @@ Tanulja meg, hogyan dolgozhat fel Excel sablonokat, és nevezze át automatikusa
 ### [Adatok exportálása Excelbe C# sablon használatával – lépésről‑lépésre útmutató](./how-to-export-data-to-excel-using-a-c-template-step-by-step/)
 Ismerje meg, hogyan exportálhat adatokat Excelbe C# sablon segítségével lépésről‑lépésre.
 
+### [Hogyan bővítsünk tömböt Excelben és töltsünk fel egy sablont](./how-to-expand-array-in-excel-and-populate-a-template)
+Tanulja meg, hogyan bővíthet tömböt Excelben és töltheti fel egy sablonba.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
