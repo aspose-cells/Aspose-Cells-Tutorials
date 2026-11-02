@@ -135,6 +135,8 @@ Aspose.Cells Java के साथ बैकग्राउंड इमेज �
 Aspose.Cells for Java का उपयोग करके किसी रेंज को PNG इमेज में बदलने की प्रक्रिया सीखें।
 ### [Java में ShapeExportOptions के साथ आकृति निर्यात कैसे करें](./how-to-export-shape-with-shapeexportoptions-in-java/)
 Java में ShapeExportOptions का उपयोग करके आकृति को निर्यात करने की प्रक्रिया सीखें।
+### [Aspose.Cells Java का उपयोग करके Excel रेंज को छवि के रूप में निर्यात करें](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
+जावा में Aspose.Cells के साथ Excel रेंज को छवि के रूप में निर्यात करने का विस्तृत मार्गदर्शक।
 
 ## अतिरिक्त संसाधन
 

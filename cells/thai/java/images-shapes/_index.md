@@ -135,6 +135,8 @@
 เรียนรู้วิธีแปลงช่วงข้อมูลในแผ่นงาน Excel เป็นไฟล์ PNG ด้วย Aspose.Cells สำหรับ Java
 ### [วิธีการส่งออกรูปร่างด้วย ShapeExportOptions ใน Java](./how-to-export-shape-with-shapeexportoptions-in-java/)
 เรียนรู้วิธีส่งออกรูปร่างจากไฟล์ Excel โดยใช้ ShapeExportOptions ใน Aspose.Cells สำหรับ Java
+### [วิธีการส่งออกช่วงข้อมูล Excel เป็นรูปภาพใน Java ด้วย Aspose.Cells](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
+เรียนรู้วิธีแปลงช่วงของแผ่นงาน Excel เป็นไฟล์ภาพโดยใช้ Aspose.Cells สำหรับ Java อย่างละเอียด
 
 ## แหล่งข้อมูลเพิ่มเติม
 

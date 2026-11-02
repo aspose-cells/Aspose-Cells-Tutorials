@@ -275,6 +275,9 @@ Aspose.Cells for Java를 사용하여 Excel 셀에 숫자 서식을 적용하는
 ### [Java에서 통화 형식 및 굵은 글꼴로 Excel 통합 문서 만들기](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 ### [Java로 Excel 워크북을 생성하고 열 번호 서식을 적용하는 방법](./create-excel-workbook-java-and-apply-column-number-formats/)
 
+### [Java를 사용하여 Excel에서 유효 숫자 자리수 제한하는 방법](./how-to-limit-significant-digits-excel-using-java/)
+Java와 Aspose.Cells를 사용해 Excel 셀의 유효숫자 자리수를 제한하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 - [Java용 Aspose.Cells 문서](https://docs.aspose.com/cells/java/)

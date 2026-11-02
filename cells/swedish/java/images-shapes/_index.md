@@ -60,6 +60,8 @@ Lär dig hur du förbättrar dina Excel-presentationer med reflektionseffekter m
 Lär dig hur du omvandlar dina Excel-data till högkvalitativa bilder med Aspose.Cells för Java. Den här guiden täcker alla steg från installation till rendering, vilket säkerställer sömlös datavisualisering.
 
 ### [Hur man skapar PNG från ett område i Java med Aspose.Cells](./how-to-create-png-from-range-in-java-with-aspose-cells/)
+### [Hur man exporterar ett Excel-område som bild i Java med Aspose.Cells](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
+Lär dig hur du exporterar ett specifikt område i ett Excel-ark som en bild med Aspose.Cells för Java.
 
 ### [Ställ in grafiska bakgrunder i ODS-filer med Aspose.Cells Java: En steg-för-steg-guide](./aspose-cells-java-set-ods-graphic-background/)
 Lär dig hur du ställer in grafiska bakgrunder i ODS-filer med Aspose.Cells för Java. Förbättra dina kalkylblad med professionella bilder och gör dem mer attraktiva.

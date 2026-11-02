@@ -238,6 +238,7 @@ Opanuj stylizowanie komórek Excela i dodawanie hiperłączy w aplikacjach Java 
 
 ### [Utwórz skoroszyt Excel z dynamicznym formatowaniem w Javie – kompletny przewodnik](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 Dowiedz się, jak programowo tworzyć skoroszyty Excel i stosować dynamiczne formatowanie przy użyciu Aspose.Cells dla Java.
+
 ### [Jak zastosować style przy konwertowaniu DataTable do Excela za pomocą Aspose.Cells dla języka Java – kompletny przewodnik](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 Dowiedz się, jak zastosować style podczas konwertowania obiektu DataTable do pliku Excel przy użyciu Aspose.Cells for Java.
 
@@ -258,6 +259,9 @@ Dowiedz się, jak programowo tworzyć i stylować skoroszyty Excel w Javie, wyko
 Dowiedz się, jak zastosować metodę WRAPCOLS w Aspose.Cells for Java, aby automatycznie zawijać tekst w komórkach Excela.
 ### [Utwórz skoroszyt Excel w Javie i zastosuj formaty liczbowe kolumn](./create-excel-workbook-java-and-apply-column-number-formats/)
 Dowiedz się, jak programowo tworzyć skoroszyty Excel w Javie i stosować formaty liczbowe do kolumn przy użyciu Aspose.Cells.
+
+### [Jak ograniczyć znaczące cyfry w programie Excel przy użyciu Javy — kompletny przewodnik](./how-to-limit-significant-digits-excel-using-java/)
+Dowiedz się, jak ograniczyć liczbę znaczących cyfr w komórkach Excela przy użyciu Aspose.Cells for Java.
 
 ## Dodatkowe zasoby
 

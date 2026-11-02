@@ -99,6 +99,9 @@ Aspose.Cells for Java を使用して、ワークシートのセル範囲をプ�
 ### [Excel で名前付き範囲を作成し、重複する名前を検出する](./create-a-named-range-and-detect-duplicate-name-in-excel/)
 Aspose.Cells for Java を使用して、Excel に名前付き範囲を作成し、重複する名前があるかどうかを検出する方法を学びます。
 
+### [Java Excel 処理で expand 関数を使用する方法](./how-to-use-expand-function-in-java-excel-processing/)
+expand 関数を活用して、セル範囲の拡張やデータ抽出を効率化する手順を解説します。
+
 ## 追加リソース
 
 - [Aspose.Cells for Java ドキュメント](https://docs.aspose.com/cells/java/)

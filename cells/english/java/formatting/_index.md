@@ -263,6 +263,9 @@ Learn how to apply cell styles while converting a DataTable to Excel using Aspos
 ### [Create Excel workbook java and apply column number formats](./create-excel-workbook-java-and-apply-column-number-formats/)
 Learn how to create an Excel workbook in Java using Aspose.Cells and apply number formats to columns programmatically.
 
+### [How to Limit Significant Digits in Excel Using Java](./how-to-limit-significant-digits-excel-using-java/)
+Learn how to restrict the number of significant digits displayed in Excel cells using Aspose.Cells for Java with clear code examples.
+
 ## Additional Resources
 
 - [Aspose.Cells for Java Documentation](https://docs.aspose.com/cells/java/)

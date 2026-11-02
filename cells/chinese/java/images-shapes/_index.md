@@ -62,10 +62,13 @@
 ### [如何使用 Aspose.Cells Java 将 Excel 工作表渲染为图像：综合指南](./aspose-cells-java-render-excel-sheets-images/)
 了解如何使用 Aspose.Cells for Java 将 Excel 数据转换为高质量图像。本指南涵盖从设置到渲染的所有步骤，确保无缝衔接的数据可视化。
 
+### [如何使用 Aspose.Cells Java 将 Excel 区域导出为图像](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
+学习如何使用 Aspose.Cells for Java 将指定的 Excel 区域渲染并保存为高质量图像。
+
 ### [使用 Aspose.Cells Java 在 ODS 文件中设置图形背景：分步指南](./aspose-cells-java-set-ods-graphic-background/)
 学习如何使用 Aspose.Cells for Java 在 ODS 文件中设置图形背景。使用专业的视觉效果增强您的电子表格，提升其吸引力。
 
-### [如何使用 Aspose.Cells for Java 向 Excel 添加艺术字水印](./aspose-cells-java-wordart-watermark-excel/)
+### [如何使用 Aspose.Cells Java 向 Excel 添加艺术字水印](./aspose-cells-java-wordart-watermark-excel/)
 了解如何使用 Aspose.Cells for Java 在 Excel 中添加和自定义艺术字水印。本分步指南助您轻松保护文档安全。
 
 ### [Aspose.Cells Java：工作簿和形状复制综合指南](./aspose-cells-java-workbook-shape-copying-guide/)
@@ -89,7 +92,7 @@
 ### [使用 Aspose.Cells for Java 检测 Excel 文件中的 SmartArt 形状](./detect-smartart-shapes-excel-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 高效检测 Excel 文件中的 SmartArt 形状。本指南涵盖设置、实现和实际应用。
 
-### [如何使用 Aspose.Cells for Java 调整 Excel 中的形状边距](./excel-aspose-cells-java-shape-margins/)
+### [如何使用 Aspose.Cells Java 调整 Excel 中的形状边距](./excel-aspose-cells-java-shape-margins/)
 了解如何使用 Aspose.Cells for Java 调整 Excel 中的形状边距和文本对齐方式，从而有效增强文档的呈现效果。
 
 ### [使用 Aspose.Cells Java 将 Excel 数据条导出为图像](./export-excel-data-bars-images-aspose-cells-java/)

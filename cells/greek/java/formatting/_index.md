@@ -260,6 +260,8 @@
 ### [Δημιουργία βιβλίου εργασίας Excel με Java και εφαρμογή μορφοποίησης αριθμών στήλης](./create-excel-workbook-java-and-apply-column-number-formats/)
 Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel και να εφαρμόσετε μορφοποίηση αριθμών σε στήλες χρησιμοποιώντας το Aspose.Cells για Java.
 
+### [Πώς να περιορίσετε τα σημαντικά ψηφία στο Excel χρησιμοποιώντας Java](./how-to-limit-significant-digits-excel-using-java/)
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.Cells για τεκμηρίωση Java](https://docs.aspose.com/cells/java/)

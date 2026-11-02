@@ -95,6 +95,9 @@ Tanuld meg, hogyan másolhatsz cellatartományokat egy munkafüzetből a másikb
 Ismerd meg, hogyan hozhatsz létre új munkalapot és másolhatsz tartományt az Aspose.Cells Java könyvtárral.
 ### [Hogyan másolhatunk tartományt Java-ban az Aspose.Cells használatával](./how-to-copy-range-in-java-with-aspose-cells/)
 
+### [Hogyan használjuk az expand függvényt Java Excel feldolgozásban](./how-to-use-expand-function-in-java-excel-processing/)
+Ismerd meg, hogyan alkalmazhatod az expand függvényt az Excel-fájlok Java‑ban történő feldolgozásához az Aspose.Cells segítségével.
+
 ## További források
 
 - [Aspose.Cells Java-dokumentációhoz](https://docs.aspose.com/cells/java/)

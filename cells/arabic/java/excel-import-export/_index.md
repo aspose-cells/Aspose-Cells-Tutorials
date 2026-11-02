@@ -173,6 +173,8 @@
 ### [كيفية تصدير ورقة Excel إلى PowerPoint باستخدام Aspose.Cells في Java](./how-to-export-excel-sheet-to-powerpoint-with-aspose-cells-in/)
 ### [كيفية تحويل JSON إلى Excel وتعبئة Excel من JSON باستخدام Aspose.Cells](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
 ### [حفظ المصنف كملف CSV باستخدام Aspose.Cells لجافا – دليل خطوة بخطوة](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
+### [تحويل Markdown إلى جدول بيانات في Java – دليل خطوة بخطوة](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+تعرف على كيفية تحويل ملفات Markdown إلى جداول بيانات Excel باستخدام Aspose.Cells لجافا خطوة بخطوة مع أمثلة الكود.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

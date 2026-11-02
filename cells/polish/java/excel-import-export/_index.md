@@ -179,6 +179,8 @@ Dowiedz się, jak wyeksportować arkusz Excel do prezentacji PowerPoint przy uż
 Dowiedz się, jak konwertować pliki JSON do formatu Excel i wypełniać arkusz danymi z JSON przy użyciu Aspose.Cells.
 ### [Zapisz skoroszyt jako CSV przy użyciu Aspose.Cells dla Javy – przewodnik krok po kroku](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
 Dowiedz się, jak zapisać skoroszyt Excel jako plik CSV przy użyciu Aspose.Cells for Java w kilku prostych krokach.
+### [Konwertuj markdown do arkusza kalkulacyjnego w Javie – przewodnik krok po kroku](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+Dowiedz się, jak przekształcić pliki Markdown w arkusze kalkulacyjne w Javie przy użyciu Aspose.Cells – kompletny przewodnik krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -97,6 +97,7 @@ Java के लिए Aspose.Cells का उपयोग करके Excel म
 Aspose.Cells का उपयोग करके नया वर्कशीट बनाना और एक रेंज को कॉपी करके अन्य वर्कशीट में ले जाना सीखें।
 ### [Excel में नामित रेंज बनाएं और डुप्लिकेट नाम का पता लगाएँ](./create-a-named-range-and-detect-duplicate-name-in-excel/)
 Excel में नामित रेंज बनाना और डुप्लिकेट नामों की जाँच करने के लिए Aspose.Cells Java का उपयोग कैसे करें, सीखें।
+### [जावा एक्सेल प्रोसेसिंग में एक्सपैंड फ़ंक्शन का उपयोग कैसे करें](./how-to-use-expand-function-in-java-excel-processing/)
 
 ## अतिरिक्त संसाधन
 

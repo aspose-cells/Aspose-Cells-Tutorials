@@ -194,6 +194,8 @@ Leer hoe u JSON-gegevens converteert naar een Excel-werkmap en deze vult met Asp
 
 ### [Werkmap opslaan als CSV met Aspose.Cells voor Java – stapsgewijze handleiding](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
 Leer hoe u een werkmap opslaat als CSV met Aspose.Cells voor Java in een stapsgewijze handleiding.
+### [Markdown naar spreadsheet converteren in Java – stapsgewijze gids](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+Leer hoe u Markdown-bestanden omzet naar een spreadsheet in Java met Aspose.Cells voor Java in deze stapsgewijze gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

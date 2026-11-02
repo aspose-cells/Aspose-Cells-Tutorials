@@ -96,6 +96,8 @@
 ### [كيفية نسخ النطاق في Java باستخدام Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
 تعرّف على كيفية نسخ نطاق من الخلايا في Excel باستخدام Aspose.Cells لجافا خطوة بخطوة.
 
+### [كيفية استخدام وظيفة التوسيع في معالجة Excel باستخدام Java](./how-to-use-expand-function-in-java-excel-processing/)
+
 ## موارد إضافية
 
 - [توثيق Aspose.Cells لـ Java](https://docs.aspose.com/cells/java/)

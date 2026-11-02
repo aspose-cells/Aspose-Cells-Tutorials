@@ -96,6 +96,9 @@ Aspose.Cells for Java を使用して、Excel を HTML に変換する際にフ�
 
 ### [Markdown を Excel に変換 – Aspose.Cells を使用した完全ガイド](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
 Aspose.Cells を利用して、Markdown ファイルを Excel に変換する手順をステップバイステップで解説します。
+
+### [Markdown を Excel に変換 – Aspose.Cells を使用した完全ガイド](./convert-markdown-to-excel/)
+Aspose.Cells を利用して、Markdown ファイルを Excel に変換する手順をステップバイステップで解説します。
 ### [ワークブックをXLSXとして保存 – JSONからXLSXを生成](./save-workbook-as-xlsx-generate-xlsx-from-json/)
 Aspose.Cells for Java を使用して、JSON データから XLSX ワークブックを生成し、保存する方法を学びます。
 ### [Javaで数値エクスポートの精度を設定：有効数字の設定](./set-numeric-export-precision-in-java-set-significant-digits/)
@@ -186,6 +189,7 @@ Aspose.Cellsを使用して、ExcelをTXT形式にエクスポートし、小数
 Aspose.Cells for Java を使い、Excel シートを PowerPoint スライドに変換する手順をステップバイステップで解説します。
 ### [Aspose.Cells を使用して JSON を Excel に変換し、Excel にデータを入力する方法](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
 JSON データを Excel に変換し、Aspose.Cells でシートにデータを埋め込む手順を解説します。
+### [JavaでMarkdownをスプレッドシートに変換 – ステップバイステップガイド](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

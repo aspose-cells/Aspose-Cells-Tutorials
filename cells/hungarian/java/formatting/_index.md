@@ -256,6 +256,9 @@ Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet pénznemformátummal és 
 ### [Excel munkafüzet létrehozása Java-ban és oszlopszám formátumok alkalmazása](./create-excel-workbook-java-and-apply-column-number-formats/)
 Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet Java-ban és alkalmazhatsz oszlopszám formátumokat.
 
+### [Hogyan korlátozzuk a jelentős számjegyeket Excelben Java használatával](./how-to-limit-significant-digits-excel-using-java/)
+Ismerje meg, hogyan korlátozhatja a számjegyek számát Excel-fájlokban Java-val az Aspose.Cells segítségével.
+
 ## További források
 
 - [Aspose.Cells Java-dokumentációhoz](https://docs.aspose.com/cells/java/)

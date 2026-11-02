@@ -172,6 +172,8 @@ Erfahren Sie, wie Sie JSON-Daten mit Aspose.Cells in Excel umwandeln und Arbeits
 Erfahren Sie, wie Sie mit Aspose.Cells für Java ein Arbeitsblatt präzise als CSV exportieren, inklusive Einstellung signifikanter Stellen.
 ### [Arbeitsmappe als CSV speichern mit Aspose.Cells für Java – Schritt‑für‑Schritt‑Anleitung](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Arbeitsmappe im CSV-Format speichern – detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [Markdown in Tabellenkalkulation konvertieren – Schritt‑für‑Schritt‑Leitfaden in Java](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java Markdown-Dateien in Excel-Tabellen konvertieren – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

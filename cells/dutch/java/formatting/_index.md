@@ -261,6 +261,9 @@ Leer hoe u de WRAPCOLS‑functie in Aspose.Cells voor Java gebruikt om tekst ove
 ### [Excel-werkmap maken in Java en kolomnummerformaten toepassen](./create-excel-workbook-java-and-apply-column-number-formats/)
 Leer hoe u een Excel-werkmap maakt en kolomnummerformaten toepast met Aspose.Cells voor Java.
 
+### [Hoe u significante cijfers in Excel beperkt met Java](./how-to-limit-significant-digits-excel-using-java/)
+Leer hoe u met Aspose.Cells voor Java het aantal significante cijfers in Excel-werkbladen kunt beperken.
+
 ## Aanvullende bronnen
 
 - [Aspose.Cells voor Java-documentatie](https://docs.aspose.com/cells/java/)

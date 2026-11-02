@@ -61,6 +61,8 @@ Ismerd meg, hogyan alakíthatod át Excel-adataidat kiváló minőségű képekk
 
 ### [Hogyan hozzunk létre PNG-t tartományból Java-ban az Aspose.Cells használatával](./how-to-create-png-from-range-in-java-with-aspose-cells/)
 Ismerd meg, hogyan hozhatsz létre PNG képet egy Excel-tartományból az Aspose.Cells for Java segítségével.
+### [Excel tartomány exportálása képként Java-ban az Aspose.Cells használatával](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
+Ismerd meg, hogyan exportálhatsz egy Excel-tartományt képként Java környezetben az Aspose.Cells könyvtár segítségével.
 
 ### [Grafikus hátterek beállítása ODS fájlokban az Aspose.Cells Java használatával: lépésről lépésre útmutató](./aspose-cells-java-set-ods-graphic-background/)
 Tanuld meg, hogyan állíthatsz be grafikus háttereket ODS fájlokban az Aspose.Cells for Java segítségével. Dobd fel táblázataidat professzionális vizuális elemekkel, és fokozd azok vonzerejét.

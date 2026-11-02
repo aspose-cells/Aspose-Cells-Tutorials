@@ -26,6 +26,9 @@ Lär dig hur du skapar professionellt utformade Excel-dokument med våra Aspose.
 
 ## Tillgängliga handledningar
 
+### [Hur man begränsar signifikanta siffror i Excel med Java](./how-to-limit-significant-digits-excel-using-java/)
+Lär dig hur du begränsar antalet signifikanta siffror i Excel med Aspose.Cells för Java.
+
 ### [Hur man lägger till HTML-rik text i Excel med hjälp av Aspose.Cells för Java: En komplett guide](./add-html-rich-text-excel-aspose-cells-java/)
 Lär dig hur du förbättrar dina Excel-kalkylblad med HTML-rik text med hjälp av Aspose.Cells för Java. Den här guiden innehåller steg-för-steg-instruktioner, praktiska tillämpningar och prestandatips.
 

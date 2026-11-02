@@ -134,6 +134,7 @@
 ### [كيفية إنشاء PNG من نطاق في Java باستخدام Aspose.Cells](./how-to-create-png-from-range-in-java-with-aspose-cells/)
 تعرف على كيفية إنشاء صورة PNG من نطاق خلايا في Excel باستخدام Aspose.Cells لجافا.
 ### [كيفية تصدير الشكل باستخدام ShapeExportOptions في Java](./how-to-export-shape-with-shapeexportoptions-in-java/)
+### [كيفية تصدير نطاق Excel كصورة في Java باستخدام Aspose.Cells](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
 
 ## موارد إضافية
 

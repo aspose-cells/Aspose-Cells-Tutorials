@@ -260,6 +260,9 @@ Aprenda a aplicar la función WRAPCOLS en Aspose.Cells con Java para dividir tex
 ### [Cómo crear un libro de Excel con formato de moneda y fuente en negrita en Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 Aprenda a crear libros de Excel con formato de moneda y texto en negrita usando Aspose.Cells para Java.
 
+### [Cómo limitar los dígitos significativos en Excel usando Java](./how-to-limit-significant-digits-excel-using-java/)
+Aprenda a limitar la cantidad de dígitos significativos en celdas de Excel mediante Aspose.Cells para Java.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.Cells para Java](https://docs.aspose.com/cells/java/)

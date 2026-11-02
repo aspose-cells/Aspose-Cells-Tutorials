@@ -190,6 +190,8 @@
 เรียนรู้วิธีส่งออกแผ่นงานเป็นไฟล์ CSV ด้วยความแม่นยำใน Java โดยใช้ Aspose.Cells พร้อมตัวอย่างโค้ดขั้นตอนครบถ้วน
 ### [วิธีส่งออกแผ่นงาน Excel ไปยัง PowerPoint ด้วย Aspose.Cells ใน Java](./how-to-export-excel-sheet-to-powerpoint-with-aspose-cells-in/)
 ### [วิธีแปลง JSON เป็น Excel และเติมข้อมูล Excel จาก JSON ด้วย Aspose.Cells](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
+### [แปลง Markdown เป็นสเปรดชีตใน Java – คู่มือขั้นตอนโดยขั้นตอน](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ Markdown เป็นสเปรดชีตโดยใช้ Aspose.Cells สำหรับ Java ด้วยคำแนะนำทีละขั้นตอนและโค้ดตัวอย่าง
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

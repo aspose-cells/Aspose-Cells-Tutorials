@@ -71,6 +71,9 @@ Dowiedz się, jak odświeżać skoroszyty Excel w Javie, aby zastosować zmiany 
 ### [Jak wymusić obliczanie formuł w Javie przy użyciu Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
 Samouczek kodu dla Aspose.Cells Java
 
+### [Ponowne obliczanie wszystkich formuł Excel w Javie Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
+Samouczek kodu pokazujący, jak przeliczyć wszystkie formuły w skoroszycie.
+
 ## Dodatkowe zasoby
 - [Dokumentacja Aspose.Cells for Java](https://docs.aspose.com/cells/java/)
 - [Referencja API Aspose.Cells for Java](https://reference.aspose.com/cells/java/)

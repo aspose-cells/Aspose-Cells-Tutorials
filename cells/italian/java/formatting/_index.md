@@ -259,6 +259,8 @@ Scopri come utilizzare la funzione WRAPCOLS di Aspose.Cells per Java per avvolge
 ### [Creare una cartella di lavoro Excel in Java e applicare formati numerici alle colonne](./create-excel-workbook-java-and-apply-column-number-formats/)
 Scopri come creare una cartella di lavoro Excel con Aspose.Cells per Java e impostare formati numerici personalizzati per le colonne.
 
+### [Come limitare le cifre significative in Excel usando Java](./how-to-limit-significant-digits-excel-using-java/)
+
 ## Risorse aggiuntive
 
 - [Documentazione di Aspose.Cells per Java](https://docs.aspose.com/cells/java/)

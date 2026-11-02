@@ -190,6 +190,8 @@
 学习如何使用 Aspose.Cells for Java 将 Excel 工作表导出为 PowerPoint 演示文稿。
 ### [如何使用 Aspose.Cells 将 JSON 转换为 Excel 并从 JSON 填充 Excel](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
 学习如何使用 Aspose.Cells for Java 将 JSON 数据转换为 Excel，并将 JSON 内容填充到 Excel 工作表中。
+### [将 Markdown 转换为电子表格 – Java 分步指南](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+学习如何使用 Aspose.Cells for Java 将 Markdown 文件转换为 Excel 电子表格，完整代码示例助您快速上手。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

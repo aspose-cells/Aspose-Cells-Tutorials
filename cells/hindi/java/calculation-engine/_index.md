@@ -70,6 +70,9 @@ Aspose.Cells के साथ फ़ॉर्मूला गणना को �
 ### [Aspose.Cells का उपयोग करके जावा में Excel वर्कबुक को रीफ़्रेश कैसे करें](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
 Aspose.Cells के साथ जावा में Excel वर्कबुक को रीफ़्रेश करने की प्रक्रिया सीखें।
 
+### [Java Aspose.Cells के साथ सभी फ़ॉर्मूले पुनः गणना करें](./recalculate-all-formulas-excel-with-java-aspose-cells/)
+Java में Aspose.Cells का उपयोग करके सभी Excel फ़ॉर्मूले को पुनः गणना करने का तरीका सीखें।
+
 ## अतिरिक्त संसाधन
 - [Aspose.Cells for Java डॉक्यूमेंटेशन](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells for Java API रेफ़रेंस](https://reference.aspose.com/cells/java/)

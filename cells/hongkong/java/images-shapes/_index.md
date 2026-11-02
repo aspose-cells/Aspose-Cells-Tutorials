@@ -92,6 +92,9 @@
 ### [使用 Aspose.Cells Java 將 Excel 資料條匯出為影像](./export-excel-data-bars-images-aspose-cells-java/)
 Aspose.Words Java 程式碼教程
 
+### [如何使用 Aspose.Cells 在 Java 中將 Excel 範圍匯出為影像](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
+了解如何使用 Aspose.Cells for Java 將 Excel 工作表中的指定範圍匯出為高品質影像。
+
 ### [如何使用 Aspose.Cells Java 從 Excel 中擷取影像：開發人員綜合指南](./extract-images-excel-aspose-cells-java-guide/)
 透過本詳細的開發人員指南了解如何使用 Java 中的 Aspose.Cells 從 Excel 檔案中提取圖像。包括設定、程式碼範例和優化技巧。
 

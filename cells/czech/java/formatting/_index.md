@@ -259,6 +259,8 @@ Naučte se, jak programově vytvořit a stylovat sešit Excel v Javě pomocí As
 Naučte se, jak pomocí funkce WRAPCOLS v Aspose.Cells pro Javu rozdělit text do více sloupců a optimalizovat formátování tabulek.
 ### [Jak vytvořit excelový sešit s formátem měny a tučným písmem v Javě](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 
+### [Jak omezit významné číslice v Excelu pomocí Javy](./how-to-limit-significant-digits-excel-using-java/)
+
 ## Další zdroje
 
 - [Dokumentace k Aspose.Cells pro Javu](https://docs.aspose.com/cells/java/)

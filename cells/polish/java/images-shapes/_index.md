@@ -136,6 +136,8 @@ Dowiedz się, jak ulepszyć raporty Excela, dodając obrazy tła za pomocą Aspo
 
 ### [Jak wyeksportować kształt przy użyciu ShapeExportOptions w Javie](./how-to-export-shape-with-shapeexportoptions-in-java/)
 Dowiedz się, jak wyeksportować kształt z użyciem ShapeExportOptions przy pomocy Aspose.Cells for Java.
+### [Jak wyeksportować zakres Excela jako obraz w Javie przy użyciu Aspose.Cells](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
+Dowiedz się, jak wyeksportować wybrany zakres arkusza Excela jako obraz przy użyciu Aspose.Cells w Javie.
 
 ## Dodatkowe zasoby
 

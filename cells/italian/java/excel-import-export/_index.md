@@ -176,6 +176,8 @@ Scopri come esportare un foglio di lavoro in CSV mantenendo la precisione dei da
 Scopri come salvare una cartella di lavoro Excel in formato CSV con Aspose.Cells per Java, seguendo una guida dettagliata passo passo.
 ### [Come esportare un foglio Excel in PowerPoint con Aspose.Cells in Java](./how-to-export-excel-sheet-to-powerpoint-with-aspose-cells-in/)
 Scopri come convertire un foglio di lavoro Excel in una presentazione PowerPoint usando Aspose.Cells per Java.
+### [Convertire markdown in foglio di calcolo in Java – guida passo‑passo](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+Scopri come trasformare file Markdown in fogli di calcolo con Aspose.Cells per Java, passo passo con esempi di codice.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

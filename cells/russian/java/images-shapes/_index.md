@@ -95,6 +95,9 @@
 ### [Экспортируйте столбцы данных Excel как изображения с помощью Aspose.Cells Java](./export-excel-data-bars-images-aspose-cells-java/)
 Учебник по коду для Aspose.Words Java
 
+### [Как экспортировать диапазон Excel в изображение с помощью Aspose.Cells для Java](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
+Узнайте, как экспортировать выбранный диапазон листа Excel в изображение с помощью Aspose.Cells для Java.
+
 ### [Как извлекать изображения из Excel с помощью Aspose.Cells Java: полное руководство для разработчиков](./extract-images-excel-aspose-cells-java-guide/)
 Узнайте, как извлекать изображения из файлов Excel с помощью Aspose.Cells в Java с помощью этого подробного руководства для разработчиков. Включает настройку, примеры кода и советы по оптимизации.
 

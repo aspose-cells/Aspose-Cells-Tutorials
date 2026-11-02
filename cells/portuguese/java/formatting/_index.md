@@ -259,6 +259,9 @@ Aprenda a usar o método WRAPCOLS do Aspose.Cells em Java para ajustar automatic
 ### [Criar pasta de trabalho Excel em Java e aplicar formatos numéricos de coluna](./create-excel-workbook-java-and-apply-column-number-formats/)
 Aprenda a criar uma pasta de trabalho Excel em Java e aplicar formatos numéricos personalizados às colunas usando Aspose.Cells.
 
+### [Como limitar dígitos significativos no Excel usando Java](./how-to-limit-significant-digits-excel-using-java/)
+Aprenda a limitar o número de dígitos significativos em valores do Excel usando Aspose.Cells para Java, com exemplos de código claros.
+
 ## Recursos adicionais
 
 - [Documentação do Aspose.Cells para Java](https://docs.aspose.com/cells/java/)
