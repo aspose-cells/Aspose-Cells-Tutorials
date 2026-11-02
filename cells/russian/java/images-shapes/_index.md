@@ -59,6 +59,9 @@
 ### [Как визуализировать таблицы Excel в виде изображений с помощью Aspose.Cells для Java: подробное руководство](./aspose-cells-java-render-excel-sheets-images/)
 Узнайте, как преобразовать данные Excel в высококачественные изображения с помощью Aspose.Cells для Java. Это руководство охватывает все шаги от настройки до рендеринга, обеспечивая бесшовную визуализацию данных.
 
+### [Как создать PNG из диапазона в Java с помощью Aspose.Cells](./how-to-create-png-from-range-in-java-with-aspose-cells/)
+Узнайте, как создать PNG‑изображение из выбранного диапазона ячеек в Excel с помощью Aspose.Cells для Java.
+
 ### [Установка графического фона в файлах ODS с помощью Aspose.Cells Java: пошаговое руководство](./aspose-cells-java-set-ods-graphic-background/)
 Узнайте, как устанавливать графические фоны в файлах ODS с помощью Aspose.Cells для Java. Улучшите свои таблицы с помощью профессиональных визуальных эффектов и повысьте их привлекательность.
 
@@ -91,6 +94,9 @@
 
 ### [Экспортируйте столбцы данных Excel как изображения с помощью Aspose.Cells Java](./export-excel-data-bars-images-aspose-cells-java/)
 Учебник по коду для Aspose.Words Java
+
+### [Как экспортировать диапазон Excel в изображение с помощью Aspose.Cells для Java](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
+Узнайте, как экспортировать выбранный диапазон листа Excel в изображение с помощью Aspose.Cells для Java.
 
 ### [Как извлекать изображения из Excel с помощью Aspose.Cells Java: полное руководство для разработчиков](./extract-images-excel-aspose-cells-java-guide/)
 Узнайте, как извлекать изображения из файлов Excel с помощью Aspose.Cells в Java с помощью этого подробного руководства для разработчиков. Включает настройку, примеры кода и советы по оптимизации.
@@ -131,7 +137,8 @@
 ### [Установка фонового рисунка в Excel с помощью Aspose.Cells Java (пошаговое руководство)](./set-background-picture-excel-aspose-cells-java/)
 Узнайте, как улучшить отчеты Excel, добавив фоновые изображения с помощью Aspose.Cells Java. Следуйте этому пошаговому руководству для беспроблемной реализации.
 
-
+### [Как экспортировать фигуру с ShapeExportOptions в Java](./how-to-export-shape-with-shapeexportoptions-in-java/)
+Узнайте, как экспортировать отдельные фигуры из листа Excel в различные форматы, используя ShapeExportOptions в Aspose.Cells для Java.
 
 ## Дополнительные ресурсы
 

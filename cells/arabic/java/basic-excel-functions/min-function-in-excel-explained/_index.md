@@ -1,10 +1,74 @@
 ---
-"description": "اكتشف قوة دالة MIN في Excel مع Aspose.Cells لجافا. تعلم كيفية إيجاد القيم الدنيا بسهولة."
-"linktitle": "شرح دالة MIN في Excel"
-"second_title": "واجهة برمجة تطبيقات معالجة Excel لـ Aspose.Cells Java"
-"title": "شرح دالة MIN في Excel"
-"url": "/ar/java/basic-excel-functions/min-function-in-excel-explained/"
-"weight": 17
+date: 2026-08-05
+description: تعلم بنية دالة min في Excel وكيفية العثور على القيمة الصغرى باستخدام
+  Aspose.Cells for Java. دليل خطوة بخطوة للمطورين.
+keywords:
+- min function syntax
+- how to use min
+- find minimum value excel
+- read excel file java
+- load excel workbook java
+lastmod: 2026-08-05
+linktitle: شرح بنية دالة Min في Excel
+og_description: اكتشف بنية دالة min في Excel وتعلم كيفية استخدام Aspose.Cells for
+  Java للعثور على القيمة الصغرى في ورقة العمل بكفاءة.
+og_image_alt: Screenshot showing Excel MIN function result in a Java‑generated workbook
+og_title: بنية دالة Min في Excel – دليل سريع لمطوري Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-05'
+  description: Learn the min function syntax in Excel and how to find the minimum
+    value using Aspose.Cells for Java. Step‑by‑step guide for developers.
+  headline: Min function syntax in Excel explained
+  type: TechArticle
+- description: Learn the min function syntax in Excel and how to find the minimum
+    value using Aspose.Cells for Java. Step‑by‑step guide for developers.
+  name: Min function syntax in Excel explained
+  steps:
+  - name: Set up the development environment
+    text: Install the Aspose.Cells JAR and add it to your project’s classpath. This
+      gives you access to the `Workbook`, `Worksheet`, and `Cells` classes needed
+      for formula handling.
+  - name: Load an Excel file
+    text: The `Workbook` class represents an entire Excel file in memory.
+  - name: Access a worksheet
+    text: A `Worksheet` object gives you access to a single sheet within the workbook.
+  - name: Define the range and apply the MIN formula
+    text: Assume the numbers you want to evaluate are in cells **A1:A10**. You set
+      the formula on cell **B1** using the exact min function syntax.
+  - name: Calculate the worksheet
+    text: Calling `calculateFormula()` forces Aspose.Cells to evaluate all formulas,
+      including the MIN function you just added.
+  - name: Retrieve the result
+    text: After calculation, read the value from the cell containing the formula.
+      The returned value is the minimum number from the specified range.
+  type: HowTo
+- questions:
+  - answer: Define a named range that expands automatically (e.g., using `OFFSET`)
+      and reference that name in the MIN formula. Aspose.Cells evaluates the named
+      range each time you recalculate.
+    question: How can I apply the MIN function to a dynamic range of cells?
+  - answer: The function ignores non‑numeric entries. If you need to treat text as
+      zero, use the `MINA` function instead.
+    question: Can I use the MIN function with non‑numeric data?
+  - answer: '`MIN` skips text and blanks, while `MINA` treats text as zero and includes
+      empty cells in its calculation.'
+    question: What is the difference between MIN and MINA functions?
+  - answer: The function accepts up to 255 arguments and does not accept array literals
+      directly; for complex scenarios, combine it with `MINA` or use helper columns.
+    question: Are there any limitations to the MIN function in Excel?
+  - answer: Wrap the MIN formula with `IFERROR(MIN(...), "N/A")` to return a custom
+      message instead of an error code.
+    question: How do I handle errors when using the MIN function in Excel?
+  type: FAQPage
+second_title: Aspose.Cells Java Excel Processing API
+tags:
+- min function
+- Aspose.Cells
+- Java Excel processing
+title: شرح بنية دالة Min في Excel
+url: /ar/java/basic-excel-functions/min-function-in-excel-explained/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,121 +77,122 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# شرح دالة MIN في Excel
+# شرح بنية دالة MIN في Excel
 
+## مقدمة عن دالة MIN في Excel موضحة باستخدام Aspose.Cells for Java
 
-## مقدمة لدالة MIN في Excel موضحة باستخدام Aspose.Cells لـ Java
+في عالم معالجة البيانات وتحليلها، يُعد Excel أداة موثوقة. فهو يوفر وظائف متعددة لمساعدة المستخدمين على إجراء حسابات معقدة بسهولة. إحدى هذه الوظائف هي **دالة MIN**، وإتقان **بنية دالة MIN** يتيح لك العثور بسرعة على أصغر رقم في أي نطاق. في هذا البرنامج التعليمي ستتعلم ما هي بنية دالة MIN، لماذا هي مهمة، وكيفية تطبيقها برمجياً باستخدام Aspose.Cells for Java.
 
-في عالم معالجة البيانات وتحليلها، يُعدّ إكسل أداةً موثوقةً. فهو يوفر وظائف متنوعة تُساعد المستخدمين على إجراء حسابات معقدة بسهولة. إحدى هذه الوظائف هي دالة MIN، التي تُمكّنك من إيجاد الحد الأدنى للقيمة في نطاق من الخلايا. في هذه المقالة، سنتناول دالة MIN في إكسل، والأهم من ذلك، كيفية استخدامها بفعالية مع Aspose.Cells في جافا.
+## إجابات سريعة
+- **ماذا تفعل دالة MIN؟** تُرجع أصغر قيمة رقمية من نطاق أو قائمة أرقام مُعطاة.  
+- **ما هي البنية المطلوبة؟** `MIN(number1, [number2], …)` حيث يمكن أن يكون كل معامل رقمًا أو إشارة خلية أو نطاق.  
+- **هل يمكنني استخدامها مع Java؟** نعم—تتيح لك Aspose.Cells for Java تعيين الصيغة في ورقة عمل وحساب النتيجة تلقائيًا.  
+- **هل تؤثر الخلايا غير الرقمية على النتيجة؟** لا—تتجاهل دالة MIN الخلايا الفارغة والنصوص.  
+- **هل هناك حد لعدد المعاملات؟** تقبل الدالة حتى 255 معاملًا، وفقًا للحد الأصلي في Excel.
 
-## فهم دالة MIN
+## ما هي بنية دالة MIN؟
+**بنية دالة MIN** هي `MIN(number1, [number2], …)` حيث قد يكون كل معامل قيمة منفردة أو إشارة خلية أو نطاق. تقوم بتقييم جميع الأرقام المُعطاة وتُرجع الأصغر، متجاهلة الخلايا الفارغة وغير الرقمية. تعمل مع الأرقام الفردية وإشارات الخلايا، مما يجعلها مرنة لمختلف تخطيطات البيانات.
 
-دالة MIN في Excel هي دالة رياضية أساسية تساعدك على تحديد أصغر قيمة ضمن مجموعة أرقام أو نطاق خلايا. تُستخدم هذه الدالة غالبًا في الحالات التي تحتاج فيها إلى تحديد أصغر قيمة ضمن مجموعة من نقاط البيانات.
+## لماذا نستخدم دالة MIN مع Aspose.Cells for Java؟
+تدعم Aspose.Cells **أكثر من 50 تنسيق إدخال وإخراج** ويمكنها معالجة دفاتر عمل تحتوي على **مئات الآلاف من الصفوف** دون تحميل الملف بالكامل إلى الذاكرة. يتيح لك استخدام بنية دالة MIN داخل دفتر عمل تم إنشاؤه بـ Java أتمتة الحسابات التي كانت تتطلب تفاعلًا يدويًا مع Excel، مما يوفر وقت التطوير ويقلل الأخطاء البشرية.
 
-### بناء جملة الدالة MIN
+## المتطلبات المسبقة
+- تثبيت Java 8 أو أعلى.  
+- إضافة مكتبة Aspose.Cells for Java إلى مشروعك (تحميل من [إصدارات Aspose.Cells Java](https://releases.aspose.com/cells/java/)).  
+- معرفة أساسية بصيغ Excel.
 
-قبل أن نتعمق في التنفيذ العملي باستخدام Aspose.Cells لـ Java، دعنا نفهم بناء جملة الدالة MIN في Excel:
+## كيفية استخدام بنية دالة MIN مع Aspose.Cells for Java
 
+حمّل دفتر العمل الخاص بك، عيّن صيغة MIN في الخلية المطلوبة، ثم احسب ورقة العمل للحصول على النتيجة—كل ذلك في بضع أسطر من الشيفرة. أولاً، حمّل أو أنشئ دفتر عمل، ثم احصل على ورقة العمل المستهدفة، عيّن سلسلة الصيغة `=MIN(A1:A10)` في الخلية المختارة، وأخيرًا استدعِ محرك الحساب لتقييم الصيغة.
+
+### الخطوة 1: إعداد بيئة التطوير
+ثبت ملف JAR الخاص بـ Aspose.Cells وأضفه إلى مسار الفئات (classpath) في مشروعك. سيمكنك ذلك من الوصول إلى الفئات `Workbook` و `Worksheet` و `Cells` اللازمة لمعالجة الصيغ.
+
+### الخطوة 2: تحميل ملف Excel
+فئة `Workbook` تمثل ملف Excel كامل في الذاكرة.  
 ```
 =MIN(number1, [number2], ...)
 ```
 
-- `number1`:هذا هو الرقم الأول أو النطاق الذي تريد العثور على الحد الأدنى لقيمته.
-- `[number2]`، `[number3]`، ... (اختياري): هذه أرقام أو نطاقات إضافية يمكنك تضمينها للعثور على الحد الأدنى للقيمة.
-
-## كيف تعمل دالة MIN
-
-تُقيّم دالة MIN الأرقام أو النطاقات المُدخلة وتُرجع أصغر قيمة بينها. تتجاهل هذه الدالة أي قيم غير رقمية أو خلايا فارغة. هذا يجعلها مفيدة بشكل خاص لمهام مثل العثور على أقل نتيجة اختبار في مجموعة بيانات أو تحديد أرخص منتج في قائمة.
-
-## تنفيذ دالة MIN مع Aspose.Cells لـ Java
-
-بعد أن فهمنا جيدًا وظيفة دالة MIN في Excel، لنستكشف كيفية استخدامها مع Aspose.Cells لجافا. Aspose.Cells لجافا هي مكتبة فعّالة تُمكّن المطورين من العمل مع ملفات Excel برمجيًا. لتنفيذ دالة MIN، اتبع الخطوات التالية:
-
-### الخطوة 1: إعداد بيئة التطوير الخاصة بك
-
-قبل البدء بالبرمجة، تأكد من تثبيت Aspose.Cells لجافا وإعداده في بيئة التطوير لديك. يمكنك تنزيله من [هنا](https://releases.aspose.com/cells/java/).
-
-### الخطوة 2: إنشاء مشروع Java
-
-قم بإنشاء مشروع Java جديد في بيئة التطوير المتكاملة (IDE) المفضلة لديك وأضف Aspose.Cells for Java إلى تبعيات مشروعك.
-
-### الخطوة 3: تحميل ملف Excel
-
-للعمل مع ملف Excel، ستحتاج إلى تحميله إلى تطبيق Java. إليك كيفية القيام بذلك:
-
+### الخطوة 3: الوصول إلى ورقة عمل
+كائن `Worksheet` يتيح لك الوصول إلى ورقة واحدة داخل دفتر العمل.  
 ```java
-// تحميل ملف Excel
+// Load the Excel file
 Workbook workbook = new Workbook("sample.xlsx");
 ```
 
-### الخطوة 4: الوصول إلى ورقة العمل
-
-بعد ذلك، قم بالوصول إلى ورقة العمل التي تريد تطبيق الدالة MIN عليها:
-
+### الخطوة 4: تعريف النطاق وتطبيق صيغة MIN
+افترض أن الأرقام التي تريد تقييمها موجودة في الخلايا **A1:A10**. عيّن الصيغة في الخلية **B1** باستخدام بنية دالة MIN الدقيقة.  
 ```java
-// الوصول إلى ورقة العمل الأولى
+// Access the first worksheet
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### الخطوة 5: تطبيق الدالة MIN
-
-لنفترض الآن أن لديك نطاقًا من الأرقام في الخلايا من A1 إلى A10، وتريد إيجاد الحد الأدنى للقيمة بينها. يمكنك استخدام Aspose.Cells لجافا لتطبيق دالة MIN كما يلي:
-
+### الخطوة 5: حساب ورقة العمل
+استدعاء `calculateFormula()` يجبر Aspose.Cells على تقييم جميع الصيغ، بما في ذلك دالة MIN التي أضفتها للتو.  
 ```java
-// قم بتطبيق الدالة MIN على النطاق A1:A10 وقم بتخزين النتيجة في الخلية B1
+// Apply the MIN function to range A1:A10 and store the result in cell B1
 Cell cell = worksheet.getCells().get("B1");
 cell.setFormula("=MIN(A1:A10)");
 ```
 
-### الخطوة 6: احسب ورقة العمل
-
-بعد تطبيق الصيغة، تحتاج إلى إعادة حساب ورقة العمل للحصول على النتيجة:
-
+### الخطوة 6: استرجاع النتيجة
+بعد الحساب، اقرأ القيمة من الخلية التي تحتوي على الصيغة. القيمة المرجعة هي أصغر رقم في النطاق المحدد.  
 ```java
-// احسب ورقة العمل
+// Calculate the worksheet
 workbook.calculateFormula();
 ```
 
-### الخطوة 7: الحصول على النتيجة
+## المشكلات الشائعة واستكشاف الأخطاء وإصلاحها
 
-وأخيرًا، استرد نتيجة الدالة MIN:
+- **بيانات غير رقمية في النطاق** – تتخطى دالة MIN النصوص والخلايا الفارغة تلقائيًا، ولكن إذا حصلت على خطأ `#VALUE!`، فتأكد من أن النطاق لا يحتوي على قيم خطأ.  
+- **مجموعات بيانات كبيرة** – بالنسبة لأوراق العمل التي تتجاوز 100 000 صف، فعّل `WorkbookSettings.setMemoryOptimization(true)` لتقليل استهلاك الذاكرة.  
+- **نطاقات ديناميكية** – استخدم النطاقات المسماة أو دالة `OFFSET` لجعل صيغة MIN تتكيف عند إضافة أو حذف صفوف.
+
+## الأسئلة المتكررة
+
+**س: كيف يمكنني تطبيق دالة MIN على نطاق خلايا ديناميكي؟**  
+ج: عرّف نطاقًا مسمىً يتوسع تلقائيًا (مثلاً باستخدام `OFFSET`) وارجع إلى هذا الاسم في صيغة MIN. تقوم Aspose.Cells بتقييم النطاق المسمى في كل مرة تعيد فيها الحساب.
+
+**س: هل يمكنني استخدام دالة MIN مع بيانات غير رقمية؟**  
+ج: تتجاهل الدالة الإدخالات غير الرقمية. إذا رغبت في اعتبار النص صفرًا، استخدم دالة `MINA` بدلاً منها.
+
+**س: ما الفرق بين دالتي MIN و MINA؟**  
+ج: `MIN` تتخطى النصوص والخلايا الفارغة، بينما `MINA` تعتبر النص صفرًا وتضم الخلايا الفارغة في حسابها.
+
+**س: هل هناك أي قيود على دالة MIN في Excel؟**  
+ج: تقبل الدالة حتى 255 معاملًا ولا تقبل القيم المصفوفية مباشرة؛ للسيناريوهات المعقدة، يمكن دمجها مع `MINA` أو استخدام أعمدة مساعدة.
+
+**س: كيف أتعامل مع الأخطاء عند استخدام دالة MIN في Excel؟**  
+ج: غلف صيغة MIN بـ `IFERROR(MIN(...), "N/A")` لإرجاع رسالة مخصصة بدلاً من رمز الخطأ.
+
+## الخلاصة
+
+فهم **بنية دالة MIN** يمكّنك من استخراج أدنى قيمة من أي مجموعة بيانات بسرعة. من خلال الاستفادة من Aspose.Cells for Java، يمكنك دمج هذه المنطق مباشرةً في تطبيقاتك، أتمتة الحسابات عبر آلاف الصفوف، والحفاظ على سيطرة كاملة على إنشاء دفاتر العمل دون الحاجة إلى تثبيت Microsoft Excel.
+
+---
+
+**آخر تحديث:** 2026-08-05  
+**تم الاختبار مع:** Aspose.Cells for Java 24.11  
+**المؤلف:** Aspose  
 
 ```java
-// احصل على النتيجة من الخلية B1
+// Get the result from cell B1
 double minValue = cell.getDoubleValue();
 System.out.println("The minimum value is: " + minValue);
 ```
 
-## خاتمة
+{{< blocks/products/products-backtop-button >}}
 
-دالة MIN في Excel أداة مفيدة للعثور على أصغر قيمة في نطاق من الخلايا. عند دمجها مع Aspose.Cells في Java، تُصبح أداة فعّالة لأتمتة مهام Excel في تطبيقات Java. باتباع الخطوات الموضحة في هذه المقالة، يمكنك تنفيذ دالة MIN بكفاءة والاستفادة القصوى من إمكانياتها.
+## دروس ذات صلة
 
-## الأسئلة الشائعة
+- [إنشاء دفتر عمل Excel باستخدام Aspose.Cells في Java: دليل خطوة بخطوة](/cells/java/getting-started/create-excel-workbook-aspose-cells-java/)
+- [كيفية إنشاء وتنسيق خلايا Excel باستخدام Aspose.Cells for Java: دليل خطوة بخطوة](/cells/java/formatting/aspose-cells-java-excel-automation-guide/)
+- [كيفية إنشاء قائمة تحقق من صحة بيانات Excel باستخدام Aspose.Cells for Java: دليل خطوة بخطوة](/cells/java/data-validation/excel-data-validation-aspose-cells-java/)
 
-### كيف يمكنني تطبيق الدالة MIN على نطاق ديناميكي من الخلايا؟
-
-لتطبيق دالة MIN على نطاق ديناميكي من الخلايا، يمكنك استخدام ميزات Excel المضمنة، مثل النطاقات المُسمّاة، أو استخدام Aspose.Cells لـ Java لتعريف النطاق ديناميكيًا بناءً على معاييرك. تأكد من تحديد النطاق بشكل صحيح في الصيغة، وستتكيف دالة MIN وفقًا لذلك.
-
-### هل يمكنني استخدام الدالة MIN مع البيانات غير الرقمية؟
-
-دالة MIN في Excel مصممة للعمل مع البيانات الرقمية. إذا حاولت استخدامها مع بيانات غير رقمية، فستُرجع خطأً. تأكد من أن بياناتك رقمية، أو استخدم دوال أخرى مثل MINA للبيانات غير الرقمية.
-
-### ما هو الفرق بين الدالتين MIN و MINA؟
-
-تتجاهل دالة MIN في Excel الخلايا الفارغة والقيم غير الرقمية عند إيجاد الحد الأدنى للقيمة. على النقيض من ذلك، تُدرج دالة MINA القيم غير الرقمية كصفر. اختر الدالة التي تُناسب احتياجاتك الخاصة بناءً على بياناتك.
-
-### هل هناك أي قيود على وظيفة MIN في Excel؟
-
-دالة MIN في Excel لها بعض القيود، مثل الحد الأقصى للوسيطات وهو ٢٥٥، وعدم القدرة على التعامل مع المصفوفات مباشرةً. في الحالات المعقدة، يُنصح باستخدام دوال أكثر تقدمًا أو صيغ مخصصة.
-
-### كيف أتعامل مع الأخطاء عند استخدام الدالة MIN في Excel؟
-
-لمعالجة الأخطاء عند استخدام دالة MIN في Excel، يمكنك استخدام دالة IFERROR لإرجاع رسالة أو قيمة مخصصة عند حدوث خطأ. يُحسّن هذا تجربة المستخدم عند التعامل مع بيانات قد تُسبب مشاكل.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

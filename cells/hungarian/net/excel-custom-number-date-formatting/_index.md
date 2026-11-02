@@ -52,6 +52,8 @@ Ismerd meg, hogyan lehet C#-ban dátumokat beolvasni és konvertálni Excel fáj
 Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet egyedi formátummal C#-ban az Aspose.Cells segítségével.
 ### [Japán korszak dátumának feldolgozása C#-ban az Aspose.Cells segítségével – Teljes útmutató](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Tanulja meg, hogyan értelmezze a japán era dátumokat C#-ban az Aspose.Cells használatával, részletes lépésről-lépésre útmutató.
+### [Hogyan hozzunk létre Excel munkafüzetet és dolgozzunk fel japán dátumokat C#-ban](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
+Tanulja meg, hogyan hozhat létre Excel munkafüzetet és dolgozhat fel japán dátumokat C#-ban az Aspose.Cells segítségével.
 
 
 
@@ -76,12 +78,21 @@ Tanulja meg, hogyan konvertálja a karakterláncokat DateTime objektummá C#-ban
 Ismerd meg, hogyan hozhatsz létre munkafüzetet, és alakíthatod át a szöveget dátummá C#-ban az Aspose.Cells segítségével.
 ### [Excel dátumformátum beállítása C#‑ban – Teljes lépésről‑lépésre útmutató](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 Tanuld meg, hogyan állíthatsz be Excel dátumformátumot C#‑ban az Aspose.Cells for .NET segítségével ebben a részletes útmutatóban.
-### [Dátumformátum beállítása Excelben C#-val – Teljes import formázási útmutató](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+### [Dátumformátum beállítása Excelben C#‑val – Teljes import formázási útmutató](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
 Tanuld meg, hogyan állíthatsz be dátumformátumot Excelben C# segítségével, teljes import formázási útmutatóval.
 ### [Excel munkafüzet létrehozása japán naptári dátumokkal – Teljes útmutató](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
 Tanuld meg, hogyan hozhatsz létre Excel munkafüzetet japán naptári dátumokkal a teljes útmutató segítségével.
 ### [Excel munkafüzet létrehozása C# – Jelentős számjegyek korlátozása Excelben](./create-excel-workbook-c-limit-significant-digits-excel/)
 Ismerje meg, hogyan hozhat létre Excel munkafüzetet C#-ban, és korlátozhatja a számok jelentős számjegyeit az Aspose.Cells segítségével.
+
+### [Számformátum alkalmazása Excelben az Aspose.Cells segítségével](./how-to-apply-number-format-excel-with-aspose-cells/)
+Tanuld meg, hogyan alkalmazz számformátumot Excelben az Aspose.Cells használatával.
+### [Dátum oszlop formázása Excelben – Teljes C# útmutató a DataTable exportálásához](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+Ismerd meg, hogyan formázhatod a dátumoszlopokat Excelben C#-ban a DataTable exportálásakor az Aspose.Cells segítségével.
+### [Japán naptár konverzió C#-ban – Teljes útmutató](./japanese-calendar-conversion-in-c-full-guide/)
+Ismerd meg, hogyan konvertálhatod a japán naptárat C#-ban az Aspose.Cells segítségével.
+### [Dátum és idő elemzése japán császári uralkodás alapján az Aspose.Cells használatával](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Tanulja meg, hogyan értelmezhet japán császári uralkodás szerinti dátumokat az Aspose.Cells .NET könyvtárral.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

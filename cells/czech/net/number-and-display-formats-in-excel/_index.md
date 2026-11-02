@@ -46,6 +46,8 @@ Naučte se, jak v C# převést datum a čas do formátu ISO pomocí Aspose.Cells
 Naučte se, jak pomocí Aspose.Cells pro .NET nastavit formát měny ve sloupci mřížky v několika krocích.
 ### [Použití formátu čísel v Excelu – krok za krokem průvodce formátováním sloupců](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
 Naučte se, jak pomocí Aspose.Cells pro .NET aplikovat číselné formáty na sloupce v Excelu krok po kroku.
+### [Jak zaokrouhlit čísla v Excelu v C# – kompletní programovací průvodce](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+Naučte se, jak pomocí Aspose.Cells v C# přesně zaokrouhlit čísla v Excelu a ovládat formátování podle vašich potřeb.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

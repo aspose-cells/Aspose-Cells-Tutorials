@@ -51,6 +51,7 @@
 
 ### [Δεσμεύοντας Δεδομένα σε Πρότυπο Excel: Συμπλήρωση Προτύπων με C#](./template-data-binding-in-excel-populate-templates-with-c/)
 Μάθετε πώς να συνδέετε δεδομένα με πρότυπα Excel και να τα γεμίζετε προγραμματιστικά με C# χρησιμοποιώντας Aspose.Cells.
+
 ### [Αποθήκευση βιβλίου εργασίας Excel από JSON – Πλήρης οδηγός](./save-excel-workbook-from-json-complete-guide/)
 Μάθετε πώς να αποθηκεύετε ένα βιβλίο εργασίας Excel από δεδομένα JSON χρησιμοποιώντας το Aspose.Cells για .NET.
 ### [Δημιουργία Excel από Πρότυπο – Προσθήκη Δεδομένων, Εικόνας, Αποθήκευση XLSX](./create-excel-from-template-add-data-image-save-xlsx/)
@@ -62,6 +63,17 @@
 
 ### [Πώς να Χρησιμοποιήσετε το Excel για Συγχώνευση Αλληλογραφίας – Πλήρης Οδηγός C#](./how-to-use-excel-for-mail-merge-complete-c-guide/)
 Μάθετε πώς να δημιουργήσετε συγχώνευση αλληλογραφίας στο Excel χρησιμοποιώντας C# και Aspose.Cells.
+
+### [Πώς να επεξεργαστείτε πρότυπο Excel και να ονομάσετε αυτόματα τα φύλλα σε C#](./how-to-process-excel-template-and-automatically-name-sheets/)
+Μάθετε πώς να επεξεργαστείτε ένα πρότυπο Excel και να ονομάσετε αυτόματα τα φύλλα χρησιμοποιώντας C# και Aspose.Cells.
+
+### [Πώς να εξάγετε δεδομένα σε Excel χρησιμοποιώντας πρότυπο C# – οδηγός βήμα‑βήμα](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
+Μάθετε πώς να εξάγετε δεδομένα σε Excel χρησιμοποιώντας πρότυπο C# με βήμα‑βήμα οδηγίες.
+### [Δημιουργία Αναφοράς Excel με C# – Οδηγός Βήμα‑βήμα](./generate-excel-report-with-c-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε αναφορά Excel με C# ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα.
+
+### [Πώς να επεκτείνετε έναν πίνακα στο Excel και να συμπληρώσετε ένα πρότυπο](./how-to-expand-array-in-excel-and-populate-a-template)
+Μάθετε πώς να επεκτείνετε έναν πίνακα στο Excel και να γεμίσετε ένα πρότυπο χρησιμοποιώντας Aspose.Cells για .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

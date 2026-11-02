@@ -46,6 +46,8 @@ Apprenez à convertir des objets DateTime en chaînes ISO 8601 avec C# en utilis
 Apprenez à appliquer un format monétaire aux colonnes de grille avec Aspose.Cells pour .NET, étape par étape.
 ### [Appliquer le format de nombre Excel – Guide étape par étape pour formater les colonnes](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
 Apprenez à appliquer des formats numériques aux colonnes Excel avec Aspose.Cells pour .NET, étape par étape.
+### [Comment arrondir les nombres Excel en C# – guide complet de programmation](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+Apprenez à arrondir les valeurs numériques dans Excel avec Aspose.Cells pour .NET en C# grâce à ce guide complet.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

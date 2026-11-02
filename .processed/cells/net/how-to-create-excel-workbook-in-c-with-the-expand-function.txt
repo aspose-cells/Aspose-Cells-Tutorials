@@ -1,0 +1,7 @@
+Title: How to create Excel workbook in C# with the EXPAND function
+Slug: how-to-create-excel-workbook-in-c-with-the-expand-function
+Category: excel-formulas-and-calculation-options
+ProcessedDate: 2026-10-04T14:23:30.580732
+SourceRepo: AI Search API
+Keywords: create excel workbook, how to use expand, force formula calculation, save workbook as xlsx, populate column with numbers
+PRNumber: 180

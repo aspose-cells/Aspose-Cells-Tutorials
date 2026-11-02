@@ -42,6 +42,10 @@ Apprenez à formater des nombres avec séparateur en C# en utilisant Aspose.Cell
 Apprenez à convertir des dates Excel au format ISO en C# avec Aspose.Cells grâce à ce guide complet.
 ### [Appliquer un format numérique personnalisé lors de l'exportation de feuille de calcul C# – Guide étape par étape](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
 Apprenez à appliquer un format numérique personnalisé lors de l'exportation d'une feuille de calcul C# avec Aspose.Cells, étape par étape.
+
+### [Comment appliquer un format numérique Excel avec Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
+Apprenez à appliquer des formats numériques aux cellules Excel en utilisant Aspose.Cells pour .NET.
+
 ### [Écrire une date/heure dans Excel – Guide complet pour les développeurs C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
 Apprenez à écrire des valeurs de date et d'heure dans Excel avec Aspose.Cells en C#, étape par étape.
 ### [Créer un classeur Excel en C# – Appliquer un format numérique personnalisé](./create-excel-workbook-in-c-apply-custom-number-format/)
@@ -52,6 +56,9 @@ Apprenez à analyser et convertir des dates dans Excel en C# avec Aspose.Cells p
 Apprenez à créer un classeur Excel avec un format personnalisé en C# à l'aide d'Aspose.Cells pour .NET.
 ### [Analyser la date d'ère japonaise en C# avec Aspose.Cells – Guide complet](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Apprenez à analyser les dates du calendrier japonais en C# à l'aide d'Aspose.Cells grâce à ce guide complet.
+
+### [Comment créer un classeur Excel et analyser les dates japonaises en C#](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
+Apprenez à créer un classeur Excel et à analyser les dates du calendrier japonais en C# avec Aspose.Cells.
 
 
 
@@ -82,6 +89,12 @@ Apprenez à appliquer un format de date personnalisé dans Excel en C# grâce à
 Apprenez à créer un classeur Excel utilisant le calendrier japonais pour les dates, grâce à un guide complet pas à pas.
 ### [Créer un classeur Excel C# – Limiter les chiffres significatifs](./create-excel-workbook-c-limit-significant-digits-excel/)
 Apprenez à créer un classeur Excel en C# et à limiter les chiffres significatifs à l'aide d'Aspose.Cells pour .NET.
+### [Formater la colonne de date Excel – Guide complet C# pour exporter DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+Apprenez à formater une colonne de date dans Excel et à exporter un DataTable en C# avec Aspose.Cells.
+### [Conversion du calendrier japonais en C# – Guide complet](./japanese-calendar-conversion-in-c-full-guide/)
+Apprenez à convertir les dates du calendrier japonais en C# avec Aspose.Cells grâce à ce guide complet.
+### [Analyser DateTime avec le règne de l'empereur japonais en C# – Guide complet](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Apprenez à analyser des dates incluant le règne de l'empereur japonais dans Excel avec Aspose.Cells pour .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -29,7 +29,7 @@ Rasterlijnen – die kleine maar cruciale elementen – helpen de gegevens in je
 Het grafiekgebied definieert de grens waar uw dataverhaal zich ontvouwt. Door het correct in te stellen, zorgt u ervoor dat uw grafieken duidelijk en overzichtelijk zijn. Of u nu een grafiek in een dashboard plaatst of aanpast zodat deze perfect op een pagina past, de [Grafiekgebied instellen](./set-chart-area/) Deze tutorial biedt een eenvoudige handleiding voor het beheersen van grafiekgebieden in Excel met Aspose.Cells voor .NET. Deze is een must als je streeft naar precisie en professionele presentaties!
 
 ## Belangrijkste rasterlijnen van de grafiek ophalen
-Moet u de belangrijkste rasterlijnen uit uw grafiek ophalen? Geen zorgen, Aspose.Cells voor .NET heeft de oplossing! Rasterlijnen spelen een belangrijke rol bij het interpreteren van uw grafieken, en doordat u ze programmatisch kunt benaderen, hebt u meer controle. [Belangrijkste rasterlijnen van de grafiek ophalen](./get-major-gridlines-of-chart/) Deze tutorial laat je zien hoe je snel en efficiënt rasterlijnen uit je grafieken haalt. Of je nu een bestaande grafiek aanpast of er zelf een maakt, deze handleiding zorgt ervoor dat je nooit meer iets mist bij het werken met rasterlijnen.
+Moet u de belangrijkste rasterlijnen uit uw grafiek ophalen? Geen zorgen, Aspose.Cells voor .NET heeft de oplossing! Rasterlijnen spelen een belangrijke rol bij het interpreteren van uw grafieken, en doordat u ze programmatisch kunt benaderen, hebt u meer controle. [Belangrijkste rasterlijnen van de grafiek ophalen](./get-major-gridlines-of-chart/) Deze tutorial laat je zien hoe je snel en efficiënt rasterlijnen uit je grafieken haalt. Of u nu een bestaande grafiek aanpast of er zelf een maakt, deze handleiding zorgt ervoor dat u nooit meer iets mist bij het werken met rasterlijnen.
 
 ## Grafieklijnen instellen
 Grafieklijnen zijn cruciaal om datapunten te verbinden en uw grafieken overzichtelijker te maken. Wilt u ze aanpassen? Natuurlijk! Met Aspose.Cells voor .NET kunt u de stijl, kleur en dikte van grafieklijnen eenvoudig aanpassen. [Grafieklijnen instellen](./set-chart-lines/) In de tutorial vindt u gedetailleerde instructies over hoe u uw grafieklijnen extra flair kunt geven. Deze stapsgewijze handleiding zorgt ervoor dat uw gegevens altijd duidelijk en aantrekkelijk worden gepresenteerd – perfect om uw grafieken te laten opvallen in een presentatie of rapport.
@@ -50,6 +50,7 @@ Benut de mogelijkheden van Excel-grafieken met Aspose.Cells voor .NET. Leer stap
 Leer hoe u grafieklijnen in Excel kunt aanpassen met Aspose.Cells voor .NET met onze gedetailleerde stapsgewijze handleiding.
 ### [Titels en assen in grafiek instellen](./set-titles-and-axes-in-chart/)
 Leer hoe u titels en assen in diagrammen instelt met Aspose.Cells voor .NET met behulp van deze stapsgewijze handleiding, compleet met codevoorbeelden en tips.
+### [Grafieken behouden – grafiekopmaak behouden in PowerPoint C#](./how-to-preserve-charts-preserve-chart-formatting-in-powerpoi/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

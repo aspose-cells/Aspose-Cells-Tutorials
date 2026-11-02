@@ -42,6 +42,8 @@ Learn how to format numbers with separators in C# using Aspose.Cells, with a com
 Learn how to convert Excel dates to ISO format in C# using Aspose.Cells, with a complete step-by-step guide.
 ### [Apply Custom Number Format in C# Spreadsheet Export – Step‑by‑Step Guide](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
 Learn how to apply custom number formats when exporting spreadsheets in C# using Aspose.Cells for .NET in this step‑by‑step guide.
+### [How to apply number format excel with Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
+Learn how to apply number formats in Excel using Aspose.Cells for .NET with this comprehensive step-by-step guide.
 ### [Write datetime to Excel – Complete Guide for C# Developers](./write-datetime-to-excel-complete-guide-for-c-developers/)
 Learn how to write datetime values to Excel using Aspose.Cells for .NET in C# with this comprehensive guide.
 ### [Create Excel Workbook in C# – Apply Custom Number Format](./create-excel-workbook-in-c-apply-custom-number-format/)
@@ -52,10 +54,14 @@ Learn how to parse dates in Excel using C# and Aspose.Cells for .NET in this com
 Learn how to create an Excel workbook with custom formatting using Aspose.Cells for .NET in this C# guide.
 ### [Parse Japanese Era Date in C# with Aspose.Cells – Full Guide](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Learn how to parse Japanese era dates in C# using Aspose.Cells with this comprehensive full guide.
+### [How to create Excel workbook and parse Japanese dates in C#](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
+Learn how to create an Excel workbook and parse Japanese dates in C# using Aspose.Cells for .NET.
 
 
 
 
+### [Parse DateTime with Japanese Emperor Reign using Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Learn how to parse DateTime values using Japanese Emperor reign formats in Excel with Aspose.Cells for .NET.
 
 
 
@@ -82,6 +88,10 @@ Learn how to set date format in Excel using C# with Aspose.Cells for .NET in thi
 Learn how to create Excel workbooks with Japanese calendar dates using Aspose.Cells for .NET in this full guide.
 ### [Create Excel Workbook C# – Limit Significant Digits Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
 Learn how to create an Excel workbook in C# and limit significant digits using Aspose.Cells for .NET in this concise tutorial.
+### [Format Date Column Excel – Complete C# Guide to Export DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+Learn how to format date columns and export a DataTable to Excel using Aspose.Cells for .NET in this comprehensive C# guide.
+### [Japanese Calendar Conversion in C# – Full Guide](./japanese-calendar-conversion-in-c-full-guide/)
+Learn how to convert Japanese calendar dates in C# using Aspose.Cells for .NET in this comprehensive full guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

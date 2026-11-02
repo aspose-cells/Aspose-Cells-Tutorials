@@ -46,6 +46,8 @@ Ismerje meg, hogyan formázhatja a dátum- és időértékeket ISO 8601 formátu
 Ismerje meg, hogyan formázhat pénznem cellákat egy rács oszlopában az Aspose.Cells for .NET segítségével.
 ### [Számformátum alkalmazása Excelben – Lépésről lépésre útmutató az oszlopok formázásához](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
 Ismerje meg, hogyan alkalmazzon számformátumot Excel oszlopokra lépésről lépésre az Aspose.Cells for .NET segítségével.
+### [Hogyan kerekítsük az Excel számokat C#-ban – teljes programozási útmutató](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+Ismerje meg, hogyan kerekítheti az Excel számokat C#-ban a teljes programozási útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

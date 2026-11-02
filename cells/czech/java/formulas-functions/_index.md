@@ -91,6 +91,12 @@ Naučte se, jak pomocí Aspose.Cells pro Javu využít funkci SEQUENCE k dynamic
 Naučte se, jak pomocí Aspose.Cells pro Javu implementovat funkci WRAPCOLS v Excelu a automatizovat rozdělení textu do sloupců.
 ### [Jak vypočítat kotangens v Excelu – Kompletní průvodce](./how-to-calculate-cotangent-in-excel-complete-guide/)
 Naučte se, jak pomocí Excelu vypočítat kotangens a využít tuto funkci v různých výpočtech.
+### [Řazení unikátních hodnot v Excelu – Kompletní průvodce v Javě pro nastavení maticových vzorců](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+Naučte se řadit a odstraňovat duplicitní hodnoty v Excelu pomocí maticových vzorců v Javě s Aspose.Cells.
+### [Jak používat Aspose v Javě – vytvořit sešit Excel s novými funkcemi](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+Naučte se, jak pomocí Aspose.Cells v Javě vytvořit nový sešit Excel a přidat vlastní funkce.
+### [Použití funkce Expand v Aspose.Cells pro Javu – průvodce krok za krokem](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
+Naučte se, jak použít funkci Expand v Aspose.Cells pro Javu k dynamickému rozšíření oblastí buněk.
 
 ## Další zdroje
 

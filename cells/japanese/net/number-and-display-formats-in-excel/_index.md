@@ -46,6 +46,8 @@ C# で DateTime を ISO 形式に変換する方法を詳しく解説し、実�
 Aspose.Cells for .NET を使用して、グリッド列の通貨表示をステップバイステップで設定する方法を学びます。
 ### [Excel の数値書式を適用する – 列の書式設定ステップバイステップガイド](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
 Aspose.Cells for .NET を使用して、列に数値書式を適用する方法を段階的に解説します。
+### [C# で Excel の数値を丸める方法 – 完全プログラミングガイド](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+Aspose.Cells for .NET を使用して、C# で Excel の数値を丸める方法をステップバイステップで学びます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

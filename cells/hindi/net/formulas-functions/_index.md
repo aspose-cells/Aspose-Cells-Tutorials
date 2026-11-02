@@ -108,6 +108,12 @@ Aspose.Cells .NET का उपयोग करके अपनी Excel फ़�
 ### [C# के साथ Excel में कोटैन्जेंट कैसे गणना करें – वर्कबुक बनाएं, EXPAND उपयोग करें, और सहेजें](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
 C# में Aspose.Cells का उपयोग करके Excel में कोटैन्जेंट फ़ॉर्मूला बनाएं, EXPAND फ़ंक्शन लागू करें और वर्कबुक सहेजें।
 
+### [EXPAND फ़ॉर्मूला के साथ Excel वर्कबुक बनाएं – पूर्ण गाइड](./create-excel-workbook-with-expand-formula-complete-guide/)
+
+### [C# में SEQUENCE का उपयोग कैसे करें – Excel वर्कबुक बनाएं](./how-to-use-sequence-in-c-create-excel-workbook/)
+
+### [C# में एरे फ़ॉर्मूला लिखें – पूर्ण प्रोग्रामिंग गाइड](./write-array-formula-in-c-complete-programming-guide/)
+
 ## एक्सेल फॉर्मूला प्रकारों को समझना
 
 एक्सेल सूत्र विभिन्न रूपों में आते हैं, जिनमें से प्रत्येक में अद्वितीय विशेषताएं होती हैं जिन्हें Aspose.Cells प्रबंधित कर सकता है:

@@ -27,6 +27,11 @@
 ## उपलब्ध ट्यूटोरियल
 
 ### [Aspose.Cells Java: Excel वर्कबुक बनाएं और सहेजें - एक चरण-दर-स्टेप मार्गदर्शिका](./aspose-cells-java-create-save-excel-workbooks/)
+### [Create Excel workbook with custom properties in Java – step‑by‑step guide](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+
+### [जावा में एक्सेल वर्कबुक बनाएं: जापानी युग तिथियों को संभालें](./create-excel-workbook-java-handle-japanese-era-dates/)
+जावा में Aspose.Cells का उपयोग करके जापानी युग तिथियों को सही ढंग से संभालना सीखें।
+
 जावा के लिए Aspose.Cells का उपयोग करके Excel कार्यपुस्तिकाओं के निर्माण और प्रबंधन को स्वचालित करने का तरीका जानें। यह मार्गदर्शिका पृष्ठ सेटअप गुणों को इंस्टेंटिएट करना, सहेजना और सेट करना शामिल करती है।
 
 ### [Excel वर्कबुक जावा में बनाएं – पूर्ण चरण-दर-चरण गाइड](./create-excel-workbook-java-complete-step-by-step-guide/)
@@ -36,6 +41,15 @@
 जावा में Aspose.Cells का उपयोग करके वर्कबुक को XLSX फ़ॉर्मेट में सहेजने का विस्तृत चरण-दर-चरण मार्गदर्शन।
 ### [जावा में नई वर्कबुक बनाएं – चरण‑दर‑चरण मार्गदर्शिका](./create-new-workbook-in-java-step-by-step-guide/)
 जावा में Aspose.Cells का उपयोग करके नई वर्कबुक बनाने और प्रारंभिक सेटिंग्स कॉन्फ़िगर करने की चरण‑दर‑चरण गाइड।
+### [जावा में Excel वर्कबुक बनाएं – पूर्ण चरण-दर-चरण गाइड](./create-excel-workbook-in-java-complete-step-by-step-guide/)
+जावा के लिए Aspose.Cells का उपयोग करके Excel वर्कबुक बनाने, कॉन्फ़िगर करने और सहेजने की पूरी प्रक्रिया सीखें।
+
+### [प्रोग्रामेटिक रूप से XLSB कार्यपुस्तिका बनाएं – पूर्ण जावा गाइड](./create-xlsb-workbook-programmatically-full-java-guide/)
+जावा में Aspose.Cells का उपयोग करके प्रोग्रामेटिक रूप से XLSB कार्यपुस्तिका बनाने और सहेजने की पूरी प्रक्रिया सीखें।
+### [जावा में नई वर्कबुक बनाएं – पूर्ण गाइड](./create-new-workbook-java-complete-guide/)
+जावा के लिए Aspose.Cells का उपयोग करके नई वर्कबुक बनाने की पूरी प्रक्रिया सीखें।
+### [जावा में Excel फ़ाइल बनाना – पूर्ण चरण‑दर‑चरण मार्गदर्शिका](./generate-excel-file-java-complete-step-by-step-guide/)
+जावा के लिए Aspose.Cells का उपयोग करके Excel फ़ाइल बनाने की पूरी प्रक्रिया सीखें। सेटअप, कोड उदाहरण और सर्वोत्तम अभ्यास शामिल हैं।
 
 ### [Aspose.Cells Java: संस्करण प्रदर्शित करें और साझा कार्यपुस्तिका बनाएँ](./aspose-cells-java-display-version-create-shared-workbook/)
 Aspose.Words Java के लिए एक कोड ट्यूटोरियल
@@ -167,7 +181,7 @@ Aspose.Cells for Java का उपयोग करके Excel कार्य�
 इस व्यापक गाइड के साथ जावा के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों को HTML में कनवर्ट करना सीखें। सहज एकीकरण के लिए चरण-दर-स्टेप निर्देशों और सुझावों का पालन करें।
 
 ### [Java के लिए Aspose.Cells का उपयोग करके Excel को MHTML में बदलें - एक व्यापक गाइड](./convert-excel-mhtml-aspose-cells-java/)
-Java के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों को MHTML में परिवर्तित करना सीखें, प्लेटफार्मों में डेटा साझाकरण और एकीकरण को बढ़ाएं।
+Java के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों को MHTML में परिवर्तित करना सीखें। प्लेटफार्मों में डेटा साझाकरण और एकीकरण को बढ़ाएं।
 
 ### [Aspose.Cells Java का उपयोग करके Excel को PDF में बदलें: PDFA-1a के लिए अनुपालन मार्गदर्शिका](./convert-excel-pdf-aspose-cells-compliance-guide/)
 जानें कि Java के लिए Aspose.Cells का उपयोग करके Excel वर्कबुक को PDFA-1a अनुरूप PDF में कैसे परिवर्तित किया जाए। इस चरण-दर-स्टेप अनुपालन मार्गदर्शिका का पालन करें।
@@ -341,9 +355,10 @@ Java के लिए Aspose.Cells का उपयोग करके कस्
 जावा के लिए Aspose.Cells का उपयोग करके Excel XLSB फ़ाइलों को प्रबंधित करना सीखें। यह ट्यूटोरियल लोडिंग, डेटाबेस कनेक्शन को संशोधित करना और परिवर्तनों को कुशलतापूर्वक सहेजना शामिल करता है।
 
 ### [Java के लिए Aspose.Cells का उपयोग करके कस्टम Excel गुणधर्मों को PDF में कैसे निर्यात करें](./export-excel-custom-properties-pdf-aspose-cells-java/)
-जावा के लिए Aspose.Cells का उपयोग करके Excel वर्कबुक से कस्टम प्रॉपर्टीज़ को PDF में एक्सपोर्ट करना सीखें। इस चरण-दर-स्टेप गाइड के साथ अपने डेटा प्रबंधन को सुव्यवस्थित करें।
-
 ### [Aspose.Cells Java का उपयोग करके Excel को HTML में निर्यात करें: एक चरण-दर-स्टेप मार्गदर्शिका](./export-excel-html-aspose-cells-java/)
+### [जावा का उपयोग करके Excel में कस्टम प्रॉपर्टी कैसे जोड़ें – पूर्ण गाइड](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+जावा के लिए Aspose.Cells का उपयोग करके Excel फ़ाइल में कस्टम प्रॉपर्टी जोड़ने का तरीका सीखें।
+
 जानें कि Java के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों को HTML के रूप में कैसे सहजता से निर्यात किया जाए। यह मार्गदर्शिका कार्यपुस्तिका लोडिंग, कस्टम स्ट्रीम प्रदाता और कार्यपुस्तिकाओं को आसानी से सहेजने को कवर करती है।
 
 ### [IStreamProvider और Aspose.Cells for Java का उपयोग करके Excel को HTML में निर्यात करें: एक व्यापक मार्गदर्शिका](./export-excel-html-streamprovider-aspose-cells-java/)
@@ -368,7 +383,7 @@ Aspose.Words Java के लिए एक कोड ट्यूटोरिय�
 जावा के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों से सुरक्षित PDF जेनरेट करना सीखें। यह गाइड पासवर्ड सेट करना, अनुमतियाँ सेट करना और प्रदर्शन को अनुकूलित करना सिखाती है।
 
 ### [Aspose.Cells के साथ जावा में पीडीएफ बुकमार्क कैसे बनाएं: एक व्यापक गाइड](./guide-create-pdf-bookmarks-java-aspose-cells/)
-Java के लिए Aspose.Cells का उपयोग करके PDF बुकमार्क बनाना और प्रबंधित करना सीखें। यह मार्गदर्शिका कार्यपुस्तिकाएँ लोड करना, बुकमार्क कॉन्फ़िगर करना और PDF के रूप में निर्यात करना शामिल करती है।
+Java के लिए Aspose.Cells का उपयोग करके PDF बुकमार्क बनाना और प्रबंधित करना सीखें। यह मार्गदर्शिका कार्यपुस्तिकाएँ लोड करना, बुकमार्क कॉन्फ़िगर करना और PDF के रूप में निर्यात करना शामिल है।
 
 ### [Aspose.Cells के साथ जावा में वर्कबुक डेटा आयात करने के लिए गाइड: सर्वोत्तम अभ्यास और तकनीकें](./java-aspose-cells-workbook-data-import-guide/)
 Java के लिए Aspose.Cells का उपयोग करके मास्टर वर्कबुक डेटा आयात करें। जानें कि कैसे सेट अप करें, प्रदर्शन को अनुकूलित करें और जटिल डेटा संरचनाओं को कुशलतापूर्वक संभालें।
@@ -482,7 +497,6 @@ XLSX फ़ाइलें खोलकर और फ़ाइल नाम प�
 जानें कि Aspose.Cells for Java के साथ Excel फ़ाइलों को कई फ़ॉर्मेट में सहजता से कैसे सेव करें। यह गाइड XLSX, PDF, HTML, और बहुत कुछ को कवर करती है।
 
 ### [जावा के लिए Aspose.Cells का उपयोग करके Excel दस्तावेज़ संस्करण कैसे सेट करें](./set-excel-version-aspose-cells-java/)
-जावा के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों में संस्करण जैसे दस्तावेज़ गुण सेट और प्रबंधित करना सीखें। कुशल कार्यपुस्तिका संचालन के लिए इस चरण-दर-स्टेप मार्गदर्शिका का पालन करें।
 ### [वर्कबुक को फ़ाइल में सहेजें – Excel रेंज कॉपी करने के लिए पूर्ण जावा गाइड](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
 जावा में Aspose.Cells का उपयोग करके Excel रेंज कॉपी करके वर्कबुक को फ़ाइल में सहेजने का विस्तृत मार्गदर्शन।
 
@@ -490,6 +504,13 @@ XLSX फ़ाइलें खोलकर और फ़ाइल नाम प�
 जावा के लिए Aspose.Cells का उपयोग करके Excel में कस्टम प्रॉपर्टी जोड़ना, मान प्राप्त करना और XLSB फ़ाइल के रूप में सहेजना सीखें।
 ### [जावा के लिए वर्कबुक जापानी कैलेंडर बनाएं – पूर्ण ट्यूटोरियल](./create-workbook-japanese-calendar-complete-java-tutorial/)
 जावा में Aspose.Cells का उपयोग करके जापानी कैलेंडर के साथ वर्कबुक बनाना सीखें।
+### [Java create excel file, add custom property and save as XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+Java में Aspose.Cells का उपयोग करके Excel फ़ाइल बनाएं, कस्टम प्रॉपर्टी जोड़ें और इसे XLSB फ़ॉर्मेट में सहेजें।
+### [Lambda फ़ंक्शन जावा का उपयोग करके Excel वर्कबुक बनाने का उदाहरण](./use-lambda-function-java-to-create-excel-workbook-example/)
+जावा में Lambda फ़ंक्शन का उपयोग करके Excel वर्कबुक बनाने का चरण-दर- चरण उदाहरण।
+### [Aspose.Cells for Java का उपयोग करके xlsb फ़ाइलें कस्टम प्रॉपर्टीज़ के साथ कैसे सहेजें](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Aspose.Cells for Java के साथ xlsb फ़ाइलों में कस्टम प्रॉपर्टीज़ जोड़कर सहेजने का तरीका सीखें।
+### [Aspose.Cells का उपयोग करके जावा में कस्टम प्रॉपर्टी कैसे प्राप्त करें](./how-to-get-custom-property-java-using-aspose-cells/)
 
 ## अतिरिक्त संसाधन
 

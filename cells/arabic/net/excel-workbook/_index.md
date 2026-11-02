@@ -90,7 +90,6 @@
 | [إنشاء ورقة رئيسية في C# – دليل Aspose.Cells الكامل](./create-master-sheet-in-c-complete-aspose-cells-guide/) | تعلم كيفية إنشاء ورقة رئيسية في ملف Excel باستخدام C# مع Aspose.Cells خطوة بخطوة. |  
 | [إنشاء مصنف Excel في C# – دليل برمجة كامل](./create-excel-workbook-in-c-complete-programming-guide/) | دليل شامل لإنشاء مصنف Excel باستخدام C# مع أمثلة برمجية خطوة بخطوة. |
 | [إنشاء مصنف Excel C# – دليل كامل مع وظيفة التوسيع](./create-excel-workbook-c-full-guide-with-expand-function/) |تعلم كيفية إنشاء مصنف Excel باستخدام C# مع تمكين وظيفة التوسيع خطوة بخطوة. |  
-| [إنشاء مصنف Excel C# – دليل خطوة بخطوة لكتابة التواريخ وحفظه كملف XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) |تعلم كيفية إنشاء مصنف Excel باستخدام C# وكتابة التواريخ وحفظه بصيغة XLSX باستخدام Aspose.Cells. |
 | [إنشاء مصنف Excel وإضافة تاريخ إلى ورقة العمل في C#](./create-excel-workbook-and-add-date-to-worksheet-in-c/) |تعلم كيفية إنشاء مصنف Excel وإضافة تاريخ إلى ورقة العمل باستخدام C# و Aspose.Cells خطوة بخطوة. |
 |  |  
 
@@ -122,6 +121,7 @@
 | [إنشاء مصنف جديد – تحويل Markdown إلى Excel باستخدام C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | تعلم كيفية إنشاء مصنف Excel جديد وتحويل ملفات Markdown إلى Excel باستخدام Aspose.Cells في C# خطوة بخطوة. |
 | [كيفية إنشاء مصنف في C# – كتابة قيمة وتنسيق رقم](./how-to-create-workbook-in-c-write-value-format-number/) | تعلم كيفية إنشاء مصنف Excel في C# وإدخال قيم وتنسيق الأرقام باستخدام Aspose.Cells لـ .NET خطوة بخطوة. |
 | [إنشاء مصنف Excel باستخدام Aspose.Cells – دليل كامل](./create-excel-workbook-with-aspose-cells-full-guide/) | دليل شامل لإنشاء مصنف Excel من الصفر باستخدام Aspose.Cells لـ .NET مع أمثلة خطوة بخطوة. |  
+| [إنشاء مصنف Excel وكتابة البيانات في C# – دليل كامل خطوة بخطوة](./create-excel-workbook-and-write-data-in-c-full-step-by-step/) | تعرّف على كيفية إنشاء مصنف Excel وكتابة البيانات باستخدام C# خطوة بخطوة مع Aspose.Cells لـ .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

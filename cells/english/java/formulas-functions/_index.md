@@ -29,6 +29,9 @@ Master Excel's calculation capabilities with our comprehensive Aspose.Cells form
 ### [Master Excel Array Formulas with Aspose.Cells Java&#58; Streamline Calculations and Formatting](./aspose-cells-java-array-formulas-custom-calculations/)
 Learn to set array formulas, apply number styles, customize calculations, and save workbooks efficiently using Aspose.Cells for Java.
 
+### [Sort Unique Values Excel – Complete Java Guide to Set Array Formulas](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+Learn how to sort unique values in Excel using array formulas with Aspose.Cells for Java, including implementation steps and best practices.
+
 ### [How to Create a Custom Static Value Function in Aspose.Cells Java](./aspose-cells-java-custom-static-value-function/)
 Learn how to extend AbstractCalculationEngine for custom calculations using Aspose.Cells Java. Automate Excel tasks with predefined values.
 
@@ -89,6 +92,9 @@ Learn how to use the SEQUENCE function in Excel workbooks with Aspose.Cells for 
 Learn how to apply the WRAPCOLS function in Excel using Aspose.Cells for Java, with a complete example and code walkthrough.
 ### [How to Calculate Cotangent in Excel – Complete Guide](./how-to-calculate-cotangent-in-excel-complete-guide/)
 Learn how to calculate cotangent in Excel with Aspose.Cells for Java, covering formula setup, implementation details, and practical code examples.
+### [How to use Aspose in Java – create Excel workbook with new functions](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+Learn how to create an Excel workbook with new functions using Aspose.Cells for Java.
+### [Use expand function in Aspose.Cells Java – step‑by‑step guide](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
 
 ## Additional Resources
 

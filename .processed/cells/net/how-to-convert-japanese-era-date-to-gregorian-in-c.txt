@@ -1,0 +1,7 @@
+Title: How to convert Japanese era date to Gregorian in C#
+Slug: how-to-convert-japanese-era-date-to-gregorian-in-c
+Category: excel-custom-number-date-formatting
+ProcessedDate: 2026-10-01T11:49:51.651606
+SourceRepo: AI Search API
+Keywords: convert japanese era date, how to convert japanese calendar
+PRNumber: 174

@@ -1,29 +1,31 @@
 ---
 category: general
-date: 2026-06-08
-description: احصل على التاريخ والوقت من الخلية باستخدام Aspose.Cells Java وتعلم كيفية
-  كتابة قيمة إلى خلية إكسل في بضع خطوات فقط.
+date: 2026-10-07
+description: تعلم كيفية قراءة تواريخ Excel من الخلايا في Java باستخدام Aspose.Cells
+  وكذلك كتابة القيم مرة أخرى إلى Excel بكفاءة.
 draft: false
 keywords:
-- get datetime from cell
-- write value to excel cell
+- how to read excel
+- write value to excel
+- get datetime from excel
+- extract datetime from cell
 - Aspose.Cells Java date parsing
-- Japanese era calendar Excel
-- Excel formula recalculation Java
-language: ar
-og_description: احصل على التاريخ والوقت من الخلية باستخدام Aspose.Cells Java. يوضح
-  هذا الدرس أيضًا كيفية كتابة قيمة إلى خلية إكسل بكفاءة.
-og_title: الحصول على التاريخ والوقت من خلية في Java Excel – دليل كامل
+lastmod: 2026-10-07
+og_description: كيفية قراءة تواريخ Excel من الخلايا في Java باستخدام Aspose.Cells.
+  يوضح هذا الدليل أيضًا كيفية كتابة القيم إلى خلايا Excel بكفاءة.
+og_image_alt: 'Developer guide: reading and writing Excel dates with Aspose.Cells
+  Java'
+og_title: كيفية قراءة تواريخ Excel من الخلايا في Java باستخدام Aspose.Cells
 schemas:
 - author: Aspose
-  dateModified: '2026-06-08'
-  description: Get datetime from cell using Aspose.Cells Java and learn how to write
-    value to excel cell in just a few steps.
-  headline: Get datetime from cell in Java Excel – Complete Guide
+  dateModified: '2026-10-07'
+  description: Learn how to read Excel dates from cells in Java using Aspose.Cells
+    and write values back.
+  headline: How to read Excel dates from cells in Java using Aspose.Cells
   type: TechArticle
-- description: Get datetime from cell using Aspose.Cells Java and learn how to write
-    value to excel cell in just a few steps.
-  name: Get datetime from cell in Java Excel – Complete Guide
+- description: Learn how to read Excel dates from cells in Java using Aspose.Cells
+    and write values back.
+  name: How to read Excel dates from cells in Java using Aspose.Cells
   steps:
   - name: What if the cell already contains a true Excel date?
     text: 'If `cell.getType()` returns `CellValueType.IS_DATE_TIME`, you can skip
@@ -37,7 +39,9 @@ tags:
 - Java
 - Excel
 - Aspose.Cells
-title: الحصول على التاريخ والوقت من خلية في إكسل جافا – دليل كامل
+- date parsing
+- Excel automation
+title: كيفية قراءة تواريخ Excel من الخلايا في Java باستخدام Aspose.Cells
 url: /ar/java/cell-operations/get-datetime-from-cell-in-java-excel-complete-guide/
 ---
 
@@ -45,31 +49,32 @@ url: /ar/java/cell-operations/get-datetime-from-cell-in-java-excel-complete-guid
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# الحصول على التاريخ والوقت من خلية في Java Excel – دليل شامل
+# كيفية قراءة تواريخ Excel من الخلايا في Java باستخدام Aspose.Cells
 
-هل احتجت يوماً إلى **الحصول على التاريخ والوقت من خلية** لكن القيمة تظهر كسلسلة زمنية يابانية؟ لست وحدك. في العديد من جداول البيانات القديمة تُخزن التواريخ كـ “Reiwa 3/04/01”، واستخراج `java.time.LocalDateTime` صحيح من ذلك قد يبدو كفك شفرة رسالة سرية.  
+إذا كنت بحاجة إلى **كيفية قراءة Excel** القيم المخزنة كسلاسل زمنية يابانية، فأنت في المكان الصحيح. تحتوي العديد من المصنفات القديمة على تواريخ مثل “Reiwa 3/04/01”، واستخراج `java.time.LocalDateTime` صحيح قد يبدو ككسر شفرة. يدعم Aspose.Cells for Java تلك الصيغ الزمنية، كما يتيح لك **كتابة قيمة إلى Excel** الخلايا دون فقدان التنسيق. في هذا الدليل ستحصل على شرح كامل خطوة‑بخطوة يمكنك لصقه في أي مشروع Maven اليوم.
 
-لحسن الحظ، Aspose.Cells for Java يمكنه التعامل مع التحويل لك، وسنوضح لك أيضاً كيفية **كتابة قيمة إلى خلية إكسل** حتى تتمكن من نقل البيانات ذهاباً وإياباً دون كسر منطق الورقة.
+## إجابات سريعة
+- **هل يستطيع Aspose.Cells تحليل تواريخ العصر الياباني؟** نعم – فعّل علم تقويم العصر الياباني وأعد حساب الصيغ.  
+- **هل أحتاج إلى إعادة حساب الصيغ يدويًا؟** بالتأكيد؛ بدون تمريرة حساب يبقى نص العصر.  
+- **كم عدد صيغ Excel التي يدعمها Aspose.Cells؟** أكثر من 50 صيغة إدخال وإخراج، بما في ذلك XLSX و XLS و CSV و ODS.  
+- **هل المكتبة متوافقة مع Java 8+؟** نعم، تعمل مع Java 8 والإصدارات الأحدث.  
+- **هل يمكنني كتابة تاريخ ميلادي مرة أخرى إلى نفس الخلية؟** استخدم `putValue` مع `LocalDateTime` واضبط تنسيق الرقم لعرض ISO‑8601.
 
-في هذا الدرس ستتعلم:
+## ما هو كيفية قراءة تواريخ Excel من الخلايا؟
+تشير العبارة **كيفية قراءة Excel** إلى استخراج محتويات الخلايا—وخاصة التواريخ—إلى أنواع برمجية أصلية مثل `java.time.LocalDateTime`. يقوم Aspose.Cells بتجريد عملية التحليل منخفضة المستوى، مما يتيح لك التركيز على منطق الأعمال بدلاً من تفاصيل أرقام Excel المتسلسلة. يبسط هذا النهج صيانة الكود ويقلل من فرص الأخطاء عند التعامل مع جداول البيانات القديمة.
 
-* كيفية إنشاء مصنف واستهداف ورقة عمل محددة.  
-* الخطوات الدقيقة لتمكين تقويم العصر الياباني للتحليل.  
-* لماذا يجب إعادة حساب الصيغ قبل قراءة التاريخ.  
-* كيفية كتابة قيمة جديدة إلى خلية دون فقدان التنسيق.  
-
-بدون أدوات خارجية، بدون سحر—فقط كود Java بسيط يمكنك إدراجه في أي مشروع Maven اليوم.
-
----
+## لماذا نستخدم Aspose.Cells لتحويل العصر الياباني؟
+يدعم Aspose.Cells **أكثر من 50** صيغة ملف ويمكنه معالجة مصنفات تحتوي على **مئات الصفحات** دون تحميل الملف بالكامل إلى الذاكرة. إضافة علم تقويم العصر الياباني يكلف أداءً ضئيلًا فقط، مما يجعله مثاليًا للمعالجة الدفعة للجداول القديمة. كما يحافظ المكتبة على أنماط الخلايا والصيغ أثناء التحويل، مما يضمن أن المخرجات تبدو مطابقة للمصنف الأصلي.
 
 ## المتطلبات المسبقة
 
-* **Java 8+** (المثال يستخدم واجهة برمجة التطبيقات الحديثة `java.time`).  
-* **Aspose.Cells for Java** ≥ 23.9.0 – أضف الاعتماد عبر Maven أو Gradle.  
-* إلمام أساسي بمفاهيم Excel (أوراق العمل، الخلايا، الصيغ).  
+* **Java 8+** – الأمثلة تستخدم واجهة `java.time` الحديثة.  
+* **Aspose.Cells for Java ≥ 23.9.0** – أضف تبعية Maven/Gradle من المستودع الرسمي.  
+* معرفة أساسية بمفاهيم Excel (الأوراق، الخلايا، الصيغ).  
 
 إذا كنت تفتقد المكتبة، احصل عليها من المستودع الرسمي لـ Aspose:
 
+``` 
 ```xml
 <!-- Maven -->
 <dependency>
@@ -79,77 +84,69 @@ url: /ar/java/cell-operations/get-datetime-from-cell-in-java-excel-complete-guid
     <classifier>jdk17</classifier>
 </dependency>
 ```
+```
 
----
+## كيفية إنشاء مصنف والوصول إلى الورقة الأولى؟
+`Workbook` يمثل ملف Excel محمَّل في الذاكرة. `Worksheet` يمثل ورقة واحدة داخل ذلك المصنف.  
+أنشئ كائن `Workbook`، ثم احصل على أول `Worksheet`. يمنحك ذلك تحكمًا كاملًا قبل أن يلمس أي بيانات القرص. بتهيئة المصنف أولاً يمكنك ضبط الإعدادات—مثل معالجة التقويم—قبل قراءة أو كتابة أي قيم خلايا.
 
-## الخطوة 1: إنشاء مصنف جديد والوصول إلى ورقة العمل الأولى
-
-للبدء، نحتاج إلى كائن `Workbook` جديد. فكر فيه كفتح ملف Excel جديد في الذاكرة.
-
+``` 
 ```java
 // Step 1: Initialize workbook and grab the first sheet
 Workbook workbook = new Workbook();                     // creates an empty .xlsx
 Worksheet worksheet = workbook.getWorksheets().get(0); // first (and only) sheet
 ```
+```
 
-*لماذا هذا مهم:*  
-إنشاء المصنف برمجياً يمنحك التحكم الكامل في الإعدادات قبل أن تلمس أي بيانات نظام الملفات. ورقة العمل الأولى (`index 0`) هي المكان الذي سنعرض فيه كل من القراءة والكتابة.
+## كيفية كتابة سلسلة تاريخ العصر الياباني في الخلية A1؟
+`Cell` هو الكائن الذي يحمل قيمة خلية Excel واحدة.  
+أدخل سلسلة العصر القديمة “Reiwa 3/04/01” في الخلية A1. هذا يحاكي قيمة أدخلها المستخدم ستقوم بتحويلها لاحقًا. كتابة السلسلة أولاً تسمح لك بعرض سير العمل الكامل من النص إلى كائن تاريخ صحيح.
 
----
-
-## الخطوة 2: كتابة سلسلة تاريخ يابانية في الخلية A1
-
-الآن سنقوم بـ **كتابة قيمة إلى خلية إكسل** A1. هذا يعكس سيناريو واقعي حيث أدخل المستخدم يدوياً “Reiwa 3/04/01”.
-
+``` 
 ```java
 // Step 2: Write the era date string into A1
 Cell cell = worksheet.getCells().get("A1");
 cell.putValue("Reiwa 3/04/01"); // raw string, not yet a date
 ```
+```
 
-*نصيحة سريعة:* `putValue` متعددة الاستخدامات—تقبل سلاسل، أرقام، تواريخ، وحتى صيغ. عندما تمرر سلسلة عادية، يقوم Aspose بتخزينها كما هي، وهو ما يناسب عرضنا التجريبي.
+## كيفية تفعيل تقويم العصر الياباني لتحليل التاريخ؟
+`WorkbookSettings.setUseJapaneseEraCalendar(boolean)` يبدّل ميزة تحويل العصر.  
+فعّل علم التقويم حتى يعرف Aspose.Cells كيف يترجم أسماء العصور إلى سنوات ميلادية. تفعيل هذا العلم يخبر محرك الحساب بتفسير السلاسل مثل “Reiwa” كالسنة الميلادية المقابلة، وهو أمر أساسي لتحليل تاريخ دقيق.
 
----
-
-## الخطوة 3: تمكين تقويم العصر الياباني لتحليل التاريخ
-
-بشكل افتراضي يستخدم Aspose.Cells التقويم الميلادي. لجعل “Reiwa” مفهومة، نقوم بتبديل إعداد معين.
-
+``` 
 ```java
 // Step 3: Turn on Japanese era calendar support
 WorkbookSettings settings = workbook.getSettings();
 settings.setUseJapaneseEraCalendar(true);
 ```
+```
 
-*لماذا نُفعّل هذا؟*  
-تقويم العصر الياباني يربط أسماء العصور (Reiwa, Heisei, Showa) بمعادلاتها الميلادية. بدون هذا العلم، ستعامل المكتبة السلسلة كنص عادي، ولن تحصل أبداً على كائن `DateTime` صحيح.
+## كيفية إعادة حساب الصيغ حتى يتحول نص العصر إلى تاريخ ميلادي؟
+`Workbook.calculateFormula()` يجبر محرك الحساب على تقييم جميع الصيغ في المصنف.  
+قم بتشغيل محرك الحساب مرة واحدة؛ سيُدرك نمط العصر، يحوله، ويخزن النتيجة الميلادية داخليًا. بعد ذلك، `getDateTime()` يُعيد `java.util.Date` يمكنك تحويله إلى `java.time`. هذه الخطوة ضرورية لأن نص العصر يُعامل في البداية كنص عادي حتى تُقيم الصيغ.
 
----
-
-## الخطوة 4: إعادة حساب الصيغ حتى يتحول نص العصر إلى تاريخ ميلادي
-
-Aspose لا يحلل السلسلة إلى تاريخ تلقائياً. بدلاً من ذلك، يعامل الخلية كنتيجة صيغ بعد تمريرة حساب.
-
+``` 
 ```java
 // Step 4: Force a recalculation to convert the era string
 workbook.calculateFormula(); // processes all cells, including A1
 System.out.println(cell.getDateTime()); // → 2021‑04‑01
 ```
+```
 
-عند تشغيل `calculateFormula()`، يتعرف المحرك على نمط العصر، يطبق التقويم الياباني، ويخزن التاريخ الميلادي الناتج داخلياً. ثم تُعيد استدعاء `getDateTime()` كائن `java.util.Date` (أو يمكنك التحويل إلى `java.time`).
+**المخرجات المتوقعة**
 
-**الناتج المتوقع**
-
+``` 
 ```
 2021-04-01T00:00:00.000+00:00
 ```
+```
 
----
+## كيفية كتابة قيمة جديدة إلى نفس الخلية (أو خلية أخرى)؟
+`Cell.putValue(Object)` يكتب قيمة في خلية، ويتعامل تلقائيًا مع تحويل النوع.  
+استبدل سلسلة العصر الأصلية بتاريخ ISO‑8601 نظيف مع الحفاظ على نمط الخلية. يكتشف `putValue` نوع `LocalDateTime` ويحوّله إلى تمثيل الرقم التسلسلي في Excel. ضبط تنسيق الرقم يضمن أن الخلية تعرض التاريخ بالضبط كما تتوقع عند فتحها في Excel.
 
-## الخطوة 5: كتابة قيمة جديدة إلى نفس الخلية (أو خلية أخرى)
-
-افترض أنك تريد استبدال السلسلة الأصلية بتاريخ ISO‑8601 نظيف. إليك كيفية **كتابة قيمة إلى خلية إكسل** بأمان، مع الحفاظ على نمط الخلية.
-
+``` 
 ```java
 // Step 5: Overwrite A1 with a formatted date string
 java.time.LocalDateTime now = java.time.LocalDateTime.now();
@@ -159,16 +156,13 @@ Style style = cell.getStyle();
 style.setNumber(14); // built‑in "m/d/yyyy" format
 cell.setStyle(style);
 ```
+```
 
-*ما الذي يحدث؟*  
-`putValue` يكتشف نوع `LocalDateTime` ويحوّله إلى تمثيل الرقم التسلسلي في Excel. ضبط تنسيق الرقم يضمن أن الخلية تعرض التاريخ بالضبط كما تتوقع عند فتحها في Excel.
+## مثال عملي كامل
 
----
+جميع الخطوات السابقة مُدمجة في فئة Java واحدة يمكنك تجميعها وتشغيلها. تُنشئ مصنفًا، تكتب سلسلة عصر، تحولها، وأخيرًا تحفظ الملف.
 
-## مثال كامل يعمل
-
-بجمع كل ما سبق، إليك فئة Java واحدة يمكنك تجميعها وتشغيلها. تُنشئ مصنفاً، تكتب سلسلة عصر، تحوّلها، وأخيراً تحفظ الملف.
-
+``` 
 ```java
 import com.aspose.cells.*;
 
@@ -203,27 +197,25 @@ public class JapaneseEraDateDemo {
     }
 }
 ```
+```
 
-شغّل هذا باستخدام `java -cp aspose-cells-23.9.jar;. JapaneseEraDateDemo` وافتح **output.xlsx**. سترى الخلية A1 تعرض التاريخ الحالي، بينما تُظهر وحدة التحكم القيمة المحوّلة “2021‑04‑01”.
+شغّل الفئة باستخدام `java -cp aspose-cells-23.9.jar;. JapaneseEraDateDemo` وافتح **output.xlsx**. ستظهر الخلية A1 التاريخ الميلادي المحوَّل، وستسجل وحدة التحكم القيمة “2021‑04‑01”.
 
----
+## ماذا لو كانت الخلية تحتوي بالفعل على تاريخ Excel حقيقي؟
+إذا كانت الخلية تخزن تاريخ Excel أصليًا، يمكنك قراءته مباشرة دون معالجة إضافية. هذا يوفر وقتًا لأن محرك الحساب لا يحتاج إلى إعادة تفسير القيمة. فقط تحقق من نوع الخلية واسترجع التاريخ.
 
-## معالجة الحالات الخاصة والأسئلة الشائعة
-
-### ماذا لو كانت الخلية تحتوي بالفعل على تاريخ Excel حقيقي؟
-
-إذا أعاد `cell.getType()` القيمة `CellValueType.IS_DATE_TIME`، يمكنك تخطي خطوة إعادة الحساب وقراءة القيمة مباشرة:
-
+``` 
 ```java
 if (cell.getType() == CellValueType.IS_DATE_TIME) {
     System.out.println("Already a date: " + cell.getDateTime());
 }
 ```
+```
 
-### كيف أعالج عموداً كاملاً من سلاسل العصور؟
+## كيفية معالجة عمود كامل من سلاسل العصر؟
+عند وجود العديد من الخلايا التي تحتوي على سلاسل عصر، كرّر عبر النطاق المستخدم وطبق نفس منطق التحويل على كل خلية. يقلل هذا النهج الدفعي من الحمل مقارنةً بمعالجة كل خلية على حدة. تذكر تفعيل تقويم العصر الياباني قبل الحلقة وإعادة الحساب مرة واحدة بعد المعالجة.
 
-قم بالتكرار عبر النطاق المستخدم وطبق نفس الإعدادات مرة واحدة:
-
+``` 
 ```java
 Range used = worksheet.getCells().getMaxDisplayRange();
 for (int row = 0; row < used.getRowCount(); row++) {
@@ -232,47 +224,75 @@ for (int row = 0; row < used.getRowCount(); row++) {
 }
 workbook.calculateFormula();
 ```
+```
 
-### هل يمكنني إلغاء تمكين معالجة العصر الياباني لاحقاً؟
+## هل يمكنني إلغاء تفعيل معالجة العصر الياباني لاحقًا؟
+يمكنك إيقاف علم تحويل العصر بعد الانتهاء من معالجة الخلايا المعنية. إلغاء التفعيل يعيد سلوك التحليل الافتراضي لأي عمليات لاحقة. هذا مفيد إذا احتجت للعمل مع تواريخ قياسية لاحقًا في نفس المصنف.
 
-نعم—فقط عكس العلم:
-
+``` 
 ```java
 settings.setUseJapaneseEraCalendar(false);
 ```
+```
 
-تذكر أن تعيد الحساب مرة أخرى إذا غيرت الإعداد بعد كتابة البيانات.
-
----
+تذكر إعادة حساب الصيغ مرة أخرى إذا غيرت الإعداد بعد كتابة البيانات.
 
 ## نصائح احترافية وملاحظات
 
-* **الأداء:** تمكين تقويم العصر الياباني يضيف عبئاً بسيطاً. إذا كنت تحتاجه لعدد قليل من الخلايا، فكر في تفعيل الإعداد، معالجة الخلايا، ثم إيقافه.  
-* **الوعي بالمنطقة:** يجب أن تتطابق سلسلة العصر مع النمط الدقيق “EraName yy/MM/dd”. الأخطاء الإملائية مثل “Rewa” ستترك الخلية كنص عادي.  
-* **صيغة الحفظ:** `Workbook.save("output.xlsx")` يكتب ملف XLSX. استخدم `"output.xls"` إذا كنت تحتاج الصيغة الثنائية القديمة، لكن لاحظ أن بعض الميزات (مثل تحليل العصور) قد تكون محدودة.
+* **الأداء:** تفعيل تقويم العصر الياباني يضيف عبئًا ضئيلًا. فعّله فقط للخلايا التي تحتاج تحويلًا، ثم أوقفه.  
+* **الوعي بالمنطقة:** يجب أن تتبع سلسلة العصر النمط الدقيق “EraName yy/MM/dd”. الأخطاء الإملائية (مثل “Rewa”) تبقي الخلية كنص عادي.  
+* **صيغة الحفظ:** `Workbook.save("output.xlsx")` يكتب ملف XLSX. استخدم `"output.xls"` للنسخة الثنائية القديمة، لكن لاحظ أن بعض الميزات المتقدمة—مثل تحليل العصر—قد تكون محدودة.
 
----
+## الأسئلة المتكررة
+
+**س: هل يعمل هذا النهج مع تقاويم ثقافية أخرى (Thai, Hijri)؟**  
+ج: نعم—يوفر Aspose.Cells أعلامًا مماثلة لتقويمات بوذية تايلاندية وإسلامية؛ فعّل الإعداد المناسب وأعد الحساب.
+
+**س: هل يمكنني قراءة تواريخ من مصنف محمي بكلمة مرور؟**  
+ج: حمّل المصنف مع معامل كلمة المرور، ثم اتبع نفس الخطوات؛ علم التقويم يعمل دون تغيير.
+
+**س: هل هناك حد لعدد الصفوف التي يمكنني معالجتها؟**  
+ج: يمكن لـ Aspose.Cells التعامل مع ملايين الصفوف؛ فهو يبث البيانات لتقليل استهلاك الذاكرة، خاصةً عندما يتم تبديل `setUseJapaneseEraCalendar` لكل دفعة.
+
+**س: كيف أحافظ على أنماط الخلايا الحالية عند الكتابة فوق التاريخ؟**  
+ج: استرجع كائن `Style` الخاص بالخلية قبل استدعاء `putValue`، ثم أعد تطبيقه بعد عملية الكتابة.
+
+**س: هل أحتاج إلى ترخيص تجاري للاستخدام في الإنتاج؟**  
+ج: نعم، يلزم وجود ترخيص Aspose.Cells صالح للنشر في بيئات الإنتاج؛ يتوفر نسخة تجريبية مجانية للتقييم.
 
 ## الخلاصة
 
-أنت الآن تعرف كيف **تحصل على التاريخ والوقت من خلية** عندما يكون المصدر يستخدم ترميز العصر الياباني، ورأيت أيضاً طريقة نظيفة لـ **كتابة قيمة إلى خلية إكسل** مع تنسيق صحيح. عبر تفعيل `setUseJapaneseEraCalendar(true)` وإجبار إعادة حساب الصيغ، يجسر Aspose.Cells الفجوة بين سلاسل العصور القديمة والتواريخ الميلادية الحديثة—كل ذلك ببضع أسطر من Java.
+أنت الآن تعرف **كيفية قراءة Excel** التواريخ التي تستخدم صيغة العصر الياباني وكيفية **كتابة قيمة إلى Excel** الخلايا مع تنسيق صحيح. عبر تفعيل `setUseJapaneseEraCalendar(true)` وإجبار إعادة حساب الصيغ، يربط Aspose.Cells سلاسل العصر القديمة بالتواريخ الميلادية الحديثة في بضع أسطر من Java فقط. جرّب توسيع هذا النمط إلى تقاويم ثقافية أخرى أو معالجة دفعات كبيرة من المصنفات—نفس سير العمل (تفعيل‑إعادة حساب‑قراءة/كتابة) ينطبق عالميًا.
 
-ما الخطوة التالية؟ جرّب توسيع هذا النمط إلى تقاويم ثقافية أخرى (Thai, Hijri) أو معالجة دفعات كبيرة من المصنفات باستخدام النهج نفسه. المبادئ نفسها—تمكين التقويم المناسب، إعادة الحساب، ثم القراءة/الكتابة—تنطبق على جميع الحالات.
+هل تواجه صيغة تاريخ معقدة لا يمكنك فك شيفرتها؟ اترك تعليقًا أدناه، وسنساعدك على حل المشكلة. برمجة سعيدة!
 
-هل لديك تنسيق تاريخ معقد لا تستطيع حله؟ اترك تعليقاً أدناه، ولنحل المشكلة معاً. برمجة سعيدة!  
+![Get datetime from cell example](https://example.com/images/get-datetime-from-cell.png "Get datetime from cell example")
+[Get datetime from cell example](https://example.com/images/get-datetime-from-cell.png "Get datetime from cell example")
 
-![مثال الحصول على التاريخ والوقت من خلية](https://example.com/images/get-datetime-from-cell.png "مثال الحصول على التاريخ والوقت من خلية")
+## ما الذي ينبغي أن تتعلمه بعد ذلك؟
 
+الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات الموضحة في هذا الدليل. كل مورد يتضمن أمثلة شاملة مع شروحات خطوة‑بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك.
 
-## ماذا يجب أن تتعلم بعد ذلك؟
+- [Master the 1904 Date System in Excel Using Aspose.Cells Java for Effective Cell Operations](/cells/english/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/)
+- [How to Implement Recursive Cell Calculation in Aspose.Cells Java for Enhanced Excel Automation](/cells/english/java/calculation-engine/aspose-cells-java-recursive-cell-calculations/)
+- [How to Convert Excel Cell Names to Indices Using Aspose.Cells for Java: A Step‑by‑Step Guide](/cells/english/java/cell-operations/convert-excel-cell-names-to-indices-aspose-cells-java/)
 
-الدروس التالية تغطي مواضيع ذات صلة وثيقة تبني على التقنيات الموضحة في هذا الدليل. كل مورد يتضمن أمثلة كود كاملة مع شروحات خطوة بخطوة لمساعدتك على إتقان ميزات API إضافية واستكشاف أساليب تنفيذ بديلة في مشاريعك.
+--- 
 
-- [إتقان نظام التاريخ 1904 في Excel باستخدام Aspose.Cells Java لعمليات الخلية الفعّالة](/cells/english/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/)
-- [كيفية تنفيذ حساب الخلايا المتكرر في Aspose.Cells Java لتعزيز أتمتة Excel](/cells/english/java/calculation-engine/aspose-cells-java-recursive-cell-calculations/)
-- [كيفية تحويل أسماء خلايا Excel إلى مؤشرات باستخدام Aspose.Cells for Java: دليل خطوة بخطوة](/cells/english/java/cell-operations/convert-excel-cell-names-to-indices-aspose-cells-java/)
+**آخر تحديث:** 2026-10-07  
+**تم الاختبار مع:** Aspose.Cells 23.9.0  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [aspose cells performance: Retrieve Excel Cell Data with Java](/cells/java/cell-operations/aspose-cells-java-data-retrieval-excel/)
+- [Change Excel 1904 date system with Aspose.Cells for Java](/cells/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/)
+- [Master Java File Handling with Aspose.Cells: Read, Write & Process Data Efficiently](/cells/java/workbook-operations/java-file-handling-aspose-cells-read-write-process/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -75,6 +75,10 @@ Aspose.Cells for .NET을 사용하여 Excel에 특수 문자를 삽입하는 방
 Aspose.Cells를 사용하여 C#에서 Excel 피벗 테이블을 PNG 이미지로 저장하는 방법을 단계별로 안내합니다.
 ### [HTML에 글꼴 삽입 – 전체 글꼴 지원을 통한 DOCX를 HTML로 변환하는 완전 가이드](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
 Aspose.Words를 사용하여 DOCX 파일을 HTML로 변환하면서 모든 글꼴을 포함시키는 방법을 단계별로 안내합니다.
+### [DOCX에서 HTML로 글꼴을 삽입하는 방법 – 완전 가이드](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Aspose.Words for .NET을 사용하여 DOCX 파일의 글꼴을 HTML에 포함시키는 단계별 완전 가이드를 확인하세요.
+### [C#에서 단일 콤마 구분 셀을 사용해 JSON을 Excel로 변환하는 방법](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Aspose.Cells를 활용해 JSON 데이터를 단일 콤마‑구분 셀로 변환하여 Excel 파일로 저장하는 단계별 가이드입니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

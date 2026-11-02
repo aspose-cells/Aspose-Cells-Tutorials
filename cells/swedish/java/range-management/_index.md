@@ -35,6 +35,9 @@ Lär dig hur du konverterar enum-värden till strängar med Aspose.Cells för Ja
 ### [Aspose.Cells Java: Skapa och hantera namngivna områden i Excel-filer](./aspose-cells-java-manage-named-ranges/)
 Lär dig hur du skapar, hanterar och manipulerar namngivna områden med Aspose.Cells för Java. Den här handledningen guidar dig genom att konfigurera din miljö och bemästra viktiga funktioner med kodexempel.
 
+### [Skapa ett namngivet område och upptäck duplicerat namn i Excel](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Lär dig hur du skapar ett namngivet område och hanterar dubbletter i Excel med Aspose.Cells för Java.
+
 ### [Få åtkomst till maximalt visningsområde i Excel-arbetsböcker med hjälp av Aspose.Cells Java](./aspose-cells-java-max-display-range/)
 Lär dig hur du får tillgång till det maximala visningsområdet för ett kalkylblad i Excel med Aspose.Cells för Java. Bemästra den här funktionen med vår steg-för-steg-guide.
 
@@ -55,6 +58,9 @@ Lär dig hur du programatiskt kopierar ett arbetsbladsområde i Excel med Aspose
 
 ### [Hur man kopierar flera kolumner i Excel med Aspose.Cells Java: En komplett guide](./copy-multiple-columns-excel-aspose-cells-java/)
 Lär dig hur du automatiserar kopiering av flera kolumner i ett Excel-ark med hjälp av Aspose.Cells för Java. Den här guiden behandlar installation, implementering och felsökning.
+
+### [Hur du kopierar ett område i Java med Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
+Lär dig hur du kopierar cellområden i Excel med Aspose.Cells för Java i denna steg-för-steg-guide.
 
 ### [Skapa unionsområde i Excel med Aspose.Cells Java: En omfattande guide](./create-union-range-excel-aspose-cells-java/)
 Lär dig hur du använder Aspose.Cells för Java för att skapa unionsområden i Excel, vilket förbättrar datapresentationen och läsbarheten.
@@ -88,6 +94,13 @@ Lär dig hur du effektivt avsammanfogar celler i Excel-filer med Aspose.Cells f�
 
 ### [Tilldela namn till cell i Excel med Java – Komplett guide](./assign-name-to-cell-in-excel-using-java-complete-guide/)
 Lär dig hur du tilldelar ett namn till en cell i Excel med Aspose.Cells för Java, med kodexempel och steg-för-steg-instruktioner.
+### [Kopiera område mellan arbetsböcker i Java – steg‑för‑steg‑guide](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+Lär dig hur du kopierar ett cellområde från en arbetsbok till en annan med Aspose.Cells för Java.
+### [Skapa nytt kalkylblad och kopiera Excel-område med Aspose.Cells Java](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+Lär dig hur du skapar ett nytt kalkylblad och kopierar ett cellområde i Excel med Aspose.Cells för Java.
+
+### [Hur man använder expand‑funktionen i Java Excel‑bearbetning](./how-to-use-expand-function-in-java-excel-processing/)
+Lär dig hur du använder expand‑funktionen för att bearbeta Excel-filer i Java med Aspose.Cells.
 
 ## Ytterligare resurser
 

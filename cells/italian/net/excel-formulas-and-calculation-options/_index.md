@@ -94,14 +94,24 @@ Impara a generare file Excel con C# usando Aspose.Cells, includendo logica condi
 Scopri come calcolare la cotangente in Excel usando C# con Aspose.Cells per .NET in questa guida dettagliata passo passo.
 ### [Come espandere un array in C# con Aspose.Cells – Guida passo‑passo](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Scopri come espandere un array in C# utilizzando Aspose.Cells con questa guida dettagliata passo passo.
+### [Come creare una cartella di lavoro Excel in C# con la funzione EXPAND](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+Guida passo passo per creare una cartella di lavoro Excel in C# utilizzando la funzione EXPAND di Aspose.Cells.
 ### [Creare un array in Excel con C# – Guida passo‑passo](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 ### [Come calcolare la cotangente in Excel con C# – Guida completa](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 
 ### [Come utilizzare WRAPCOLS in Excel – Esempio completo C#](./how-to-use-wrapcols-in-excel-complete-c-example/)
 Scopri come usare la funzione WRAPCOLS in Excel con un esempio completo in C# usando Aspose.Cells per .NET.
 
+### [Come creare una cartella di lavoro Excel e suddividere i dati con WRAPCOLS in C#](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
+Scopri come creare una cartella di lavoro Excel e dividere i dati usando WRAPCOLS con Aspose.Cells per .NET in C#.
+
 ### [Applicare la formula array in Excel con C# – Guida completa](./apply-array-formula-excel-in-c-complete-guide/)
 Scopri come applicare una formula array in Excel usando Aspose.Cells per .NET con C# in questa guida passo passo.
+### [Come utilizzare WRAPCOLS – Guida completa per l'automazione Excel in C#](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Scopri come usare WRAPCOLS per gestire colonne multiple in Excel con Aspose.Cells per .NET in C#.
+### [Come forzare il calcolo delle formule e utilizzare lambda in Excel con C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+Scopri come forzare il calcolo delle formule e sfruttare le funzioni lambda in Excel usando C# con Aspose.Cells.
+### [Crea cartella di lavoro Excel con formule – Guida completa passo‑passo](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

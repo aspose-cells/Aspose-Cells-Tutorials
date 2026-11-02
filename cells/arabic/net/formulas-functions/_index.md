@@ -107,6 +107,8 @@
 ### [كيفية استخدام WRAPCOLS في C# – إنشاء مصنف Excel مع وظائف التغليف](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
 ### [كيفية استخدام WRAPCOLS في C# – تحويل مصفوفة إلى مصفوفة (ماتريكس) في Excel](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
 تعلّم كيفية استخدام WRAPCOLS في C# لإعادة تشكيل مصفوفة إلى مصفوفة (ماتريكس) داخل Excel باستخدام Aspose.Cells.
+### [كيفية استخدام SEQUENCE في C# – إنشاء مصنف Excel](./how-to-use-sequence-in-c-create-excel-workbook/)
+تعلم كيفية استخدام دالة SEQUENCE في C# لإنشاء مصنف Excel وتوليد القيم تلقائيًا.
 
 ## فهم أنواع الصيغ في Excel
 

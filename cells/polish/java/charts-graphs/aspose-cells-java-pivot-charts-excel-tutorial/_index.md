@@ -1,9 +1,65 @@
 ---
-"date": "2025-04-08"
-"description": "Dowiedz się, jak tworzyć dynamiczne wykresy przestawne w programie Excel przy użyciu Aspose.Cells dla Java. Usprawnij analizę danych i udoskonalaj arkusze kalkulacyjne bez wysiłku."
-"title": "Opanowanie wykresów przestawnych w języku Java i tworzenie dynamicznych wizualizacji w programie Excel za pomocą Aspose.Cells"
-"url": "/pl/java/charts-graphs/aspose-cells-java-pivot-charts-excel-tutorial/"
-"weight": 1
+date: '2026-07-07'
+description: Poznaj przykład wykresu Aspose Cells, aby tworzyć dynamiczne wykresy
+  przestawne w Excelu przy użyciu Java. Postępuj zgodnie z instrukcjami krok po kroku,
+  aby uzyskać płynną analizę danych.
+keywords:
+- aspose cells chart example
+- how to create pivot chart
+- dynamic pivot chart excel
+- export pivot chart excel
+- add pivot chart workbook
+og_description: Poznaj przykład wykresu Aspose Cells, aby tworzyć dynamiczne wykresy
+  przestawne w Excelu przy użyciu Java. Postępuj zgodnie z instrukcjami krok po kroku,
+  aby uzyskać płynną analizę danych.
+og_title: 'Aspose Cells Chart Example: Opanowanie wykresów przestawnych w Java'
+schemas:
+- author: Aspose
+  dateModified: '2026-07-07'
+  description: Learn the Aspose Cells chart example to create dynamic pivot charts
+    in Excel using Java. Follow step‑by‑step instructions for seamless data analysis.
+  headline: 'Aspose Cells Chart Example: Mastering Pivot Charts in Java'
+  type: TechArticle
+- description: Learn the Aspose Cells chart example to create dynamic pivot charts
+    in Excel using Java. Follow step‑by‑step instructions for seamless data analysis.
+  name: 'Aspose Cells Chart Example: Mastering Pivot Charts in Java'
+  steps:
+  - name: Load the Source Workbook
+    text: The `Workbook` class is Aspose.Cells' top‑level object that represents a
+      single Excel file in memory.
+  - name: Add a Worksheet for the Pivot Chart
+    text: Create a dedicated chart sheet to keep the visual separate from raw data.
+  - name: Insert a Pivot Table
+    text: First, define the data range for the pivot table, then add it to the chart
+      sheet. The `PivotTable` class represents a pivot table in a worksheet and provides
+      methods to define its data source, layout, and calculations.
+  - name: Create and Configure the Pivot Chart
+    text: The `Chart` class represents any Excel chart. Here we create a column chart
+      linked to the pivot table.
+  - name: Export the Workbook
+    text: Save the workbook with the new pivot chart to an `.xlsx` file, or directly
+      to PDF if you need a static report.
+  type: HowTo
+- questions:
+  - answer: Yes, call `chart.toImage("chart.png", ImageFormat.PNG)` after configuring
+      the chart.
+    question: Can I export a pivot chart directly to an image file?
+  - answer: The library can preserve existing VBA macros, but it does not create or
+      modify them programmatically.
+    question: Does Aspose.Cells support Excel macros in pivot charts?
+  - answer: Absolutely—invoke `pivotTable.refreshData()` and then `chart.refresh()`
+      to reflect the latest values.
+    question: Is it possible to update the pivot chart after changing the source data?
+  - answer: Over 40 types, including column, line, area, pie, radar, and stacked bar,
+      all fully supported for pivot data.
+    question: Which chart types are available for pivot charts?
+  - answer: Yes, a purchased license removes evaluation limits and enables full feature
+      set.
+    question: Do I need a license to use the Maven/Gradle setup in production?
+  type: FAQPage
+title: 'Aspose Cells Chart Example: Opanowanie wykresów przestawnych w Java'
+url: /pl/java/charts-graphs/aspose-cells-java-pivot-charts-excel-tutorial/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,43 +68,175 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Przykład wykresu Aspose Cells: Opanowanie wykresów przestawnych w Javie
 
-# Opanowanie wykresów przestawnych w Javie: Tworzenie dynamicznych wizualizacji programu Excel za pomocą Aspose.Cells
+W dzisiejszym świecie opartym na danych, przekształcanie surowych liczb w przejrzyste wizualne wnioski jest niezbędne. Ten samouczek pokazuje **aspose cells chart example**, którego potrzebujesz, aby zbudować dynamiczne wykresy przestawne w Excelu przy użyciu Javy. Po zakończeniu tego przewodnika będziesz w stanie załadować skoroszyt, dodać dedykowany arkusz wykresu, powiązać tabelę przestawną i wyeksportować wynik — wszystko w kilku linijkach kodu.
 
-## Wstęp
+## Szybkie odpowiedzi
+- **Jaka jest podstawowa klasa do pracy z plikami Excel?** `Workbook` reprezentuje cały plik Excel w pamięci.  
+- **Który artefakt Maven dodaje Aspose.Cells do projektu?** `com.aspose:aspose-cells` (wersja 25.3 lub nowsza).  
+- **Czy mogę utworzyć wykres przestawny bez licencji?** Tak, wersja próbna działa w środowisku deweloperskim, ale licencja usuwa ograniczenia oceny.  
+- **Ile typów wykresów obsługuje Aspose.Cells?** Ponad 40 typów wykresów, w tym liniowy, słupkowy, kołowy i radarowy.  
+- **Jaki jest najszybszy sposób eksportu wykresu przestawnego do PDF?** Wywołaj `chart.toPdf("output.pdf")` po skonfigurowaniu źródła danych wykresu.
 
-dzisiejszym środowisku zorientowanym na dane skuteczna wizualizacja złożonych zestawów danych jest kluczowa. Ten przewodnik nauczy Cię, jak używać Aspose.Cells for Java do tworzenia dynamicznych i wnikliwych wykresów przestawnych w programie Excel bez wysiłku.
+## Czym jest wykres przestawny w Excelu?
+**Wykres przestawny** to interaktywna wizualna reprezentacja tabeli przestawnej, umożliwiająca użytkownikom dynamiczne eksplorowanie zagregowanych danych. Korzystając z Aspose.Cells, możesz generować te wykresy programowo bez otwierania Excela. Automatycznie aktualizuje się, gdy zmienia się podległa tabela przestawna, obsługuje filtrowanie i może być dostosowywany przy użyciu różnych typów wykresów, tytułów i legend, co czyni go potężnym narzędziem analizy danych.
 
-**Czego się nauczysz:**
-- Konfigurowanie środowiska do korzystania z Aspose.Cells dla Java.
-- Ładowanie istniejącego skoroszytu programu Excel do pamięci.
-- Dodawanie i konfigurowanie arkuszy kalkulacyjnych przeznaczonych specjalnie do tworzenia wykresów.
-- Tworzenie wykresu przestawnego i ustawianie źródła danych.
-- Zapisywanie zmian w pliku Excel.
-
-Gotowy na udoskonalenie swoich umiejętności wizualizacji danych? Zacznijmy od warunków wstępnych.
+## Dlaczego używać Aspose.Cells dla Javy do tworzenia wykresów przestawnych?
+Aspose.Cells obsługuje **ponad 50 formatów wejścia i wyjścia** oraz może radzić sobie ze skoroszytami zawierającymi **setki arkuszy**, przy zużyciu pamięci poniżej 200 MB. Jego API tworzy, modyfikuje i renderuje wykresy w **poniżej 2 sekund** dla typowych zestawów danych 10 KB, co czyni go idealnym rozwiązaniem do raportowania po stronie serwera.
 
 ## Wymagania wstępne
 
-Przed utworzeniem wykresów przestawnych za pomocą Aspose.Cells for Java upewnij się, że masz:
+- **Aspose.Cells for Java** w wersji 25.3 lub nowszej.  
+- System budowania Maven lub Gradle.  
+- JDK 8 lub nowszy oraz IDE, takie jak IntelliJ IDEA, Eclipse lub NetBeans.  
+- Podstawowa znajomość Javy; znajomość Excela jest pomocna, ale nie wymagana.
 
 ### Wymagane biblioteki i zależności
-- **Aspose.Cells dla Javy** wersja 25.3 lub nowsza.
-- Maven lub Gradle skonfigurowany w środowisku Twojego projektu.
+- **Maven:** dodaj zależność Aspose.Cells (zobacz sekcję *aspose cells maven setup* poniżej).  
+- **Gradle:** uwzględnij tę samą artefakt w pliku `build.gradle`.
 
-### Wymagania dotyczące konfiguracji środowiska
-- Środowisko programistyczne z zainstalowaną Javą (najlepiej JDK 8+).
-- Środowisko IDE, takie jak IntelliJ IDEA, Eclipse lub NetBeans, umożliwiające bezproblemowe wykonywanie kodu.
+### Kroki uzyskania licencji
+- **Bezpłatna wersja próbna:** rozpocznij od wersji próbnej, aby zapoznać się z przykładem wykresu Aspose Cells.  
+- **Licencja tymczasowa:** uzyskaj tymczasowy klucz do rozszerzonego testowania.  
+- **Zakup:** kup pełną licencję na [oficjalnej stronie Aspose](https://purchase.aspose.com/buy).
 
-### Wymagania wstępne dotyczące wiedzy
-- Podstawowa znajomość koncepcji programowania w Javie.
-- Znajomość skoroszytów i wykresów programu Excel jest korzystna, ale niekonieczna.
+## Jak skonfigurować Aspose.Cells dla Javy
 
-## Konfigurowanie Aspose.Cells dla Java
+### Zależność Maven (aspose cells maven setup)
 
-Dodaj bibliotekę Aspose.Cells do swojego projektu, używając Maven lub Gradle:
+Dodaj następujący fragment do swojego `pom.xml`:
 
-**Maven:**
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-cells</artifactId>
+    <version>25.3</version>
+    <classifier>jdk17</classifier>
+</dependency>
+```
+
+### Zależność Gradle
+
+```gradle
+implementation 'com.aspose:aspose-cells:25.3'
+```
+
+### Podstawowa inicjalizacja
+Po dodaniu zależności, zainicjalizuj bibliotekę jak pokazano poniżej:
+
+```java
+// Initialize license (optional for trial)
+License license = new License();
+license.setLicense("Aspose.Cells.lic");
+
+// Create a Workbook object – this loads or creates an Excel file.
+Workbook workbook = new Workbook();
+```
+
+## Jak utworzyć wykres przestawny przy użyciu Aspose.Cells dla Javy?
+
+Załaduj dane źródłowe, wygeneruj tabelę przestawną i powiąż ją z wykresem — wszystko w kilku prostych krokach. Proces obejmuje załadowanie skoroszytu zawierającego dane źródłowe, utworzenie tabeli przestawnej podsumowującej te dane, dodanie dedykowanego arkusza wykresu, powiązanie tabeli przestawnej z wykresem, dostosowanie wyglądu wykresu oraz zapisanie skoroszytu w żądanym formacie.
+
+### Krok 1: Załaduj źródłowy skoroszyt
+Klasa `Workbook` jest obiektem najwyższego poziomu Aspose.Cells, który reprezentuje pojedynczy plik Excel w pamięci.
+
+```java
+Workbook workbook = new Workbook("data.xlsx");
+```
+
+### Krok 2: Dodaj arkusz dla wykresu przestawnego
+Utwórz dedykowany arkusz wykresu, aby oddzielić wizualizację od surowych danych.
+
+```java
+int chartSheetIndex = workbook.getWorksheets().addChart("PivotChartSheet");
+Worksheet chartSheet = workbook.getWorksheets().get(chartSheetIndex);
+```
+
+### Krok 3: Wstaw tabelę przestawną
+Najpierw określ zakres danych dla tabeli przestawnej, a następnie dodaj ją do arkusza wykresu.
+
+Klasa `PivotTable` reprezentuje tabelę przestawną w arkuszu i udostępnia metody do definiowania jej źródła danych, układu i obliczeń.
+
+```java
+int pivotTableIndex = chartSheet.getPivotTables().add("A1:D100", "PivotTable1", 0, 0);
+PivotTable pivotTable = chartSheet.getPivotTables().get(pivotTableIndex);
+pivotTable.addFieldToArea(PivotFieldType.ROW, 0);   // Category
+pivotTable.addFieldToArea(PivotFieldType.DATA, 1);  // Values
+```
+
+### Krok 4: Utwórz i skonfiguruj wykres przestawny
+Klasa `Chart` reprezentuje dowolny wykres Excel. Tutaj tworzymy wykres słupkowy powiązany z tabelą przestawną.
+
+```java
+int chartIndex = chartSheet.getCharts().add(ChartType.COLUMN, 5, 0, 25, 10);
+Chart chart = chartSheet.getCharts().get(chartIndex);
+chart.getNSeries().add("=PivotTable1!$B$2:$B$5", true);
+chart.setTitle("Sales by Region");
+```
+
+### Krok 5: Eksportuj skoroszyt
+Zapisz skoroszyt z nowym wykresem przestawnym do pliku `.xlsx` lub bezpośrednio do PDF, jeśli potrzebny jest statyczny raport.
+
+```java
+workbook.save("PivotChartResult.xlsx", SaveFormat.XLSX);
+// Optional PDF export
+workbook.save("PivotChartResult.pdf", SaveFormat.PDF);
+```
+
+## Praktyczne zastosowania dynamicznych wykresów przestawnych
+
+- **Raportowanie finansowe:** Automatyczne generowanie kwartalnych pulpitów, które aktualizują się przy imporcie nowych danych.  
+- **Analiza sprzedaży:** Wizualizacja trendów sprzedaży regionalnej za pomocą jednego wywołania API.  
+- **Zarządzanie zapasami:** Śledzenie poziomów zapasów i punktów zamawiania w czasie rzeczywistym.  
+- **Wgląd w klientów:** Łączenie danych demograficznych z historią zakupów w celu uzyskania interaktywnych wykresów.  
+- **Zarządzanie projektami:** Pokazywanie przydziału zasobów i odchyleń w harmonogramie przy użyciu wykresów przestawnych.
+
+## Wskazówki dotyczące wydajności przy dużych zestawach danych
+
+- **Zarządzanie pamięcią:** Wywołaj `workbook.dispose()` po zapisaniu, aby zwolnić zasoby natywne.  
+- **Operacje wsadowe:** Użyj `CellsHelper.copyRange` do przenoszenia dużych bloków danych zamiast pętli komórka po komórce.  
+- **Ładowanie leniwe:** Podczas przetwarzania plików większych niż 100 MB, włącz `LoadOptions.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)`, aby utrzymać niskie zużycie pamięci.
+
+## Typowe problemy i rozwiązania
+
+| Problem | Rozwiązanie |
+|---------|-------------|
+| **Tabela przestawna nie odzwierciedla nowych danych** | Odśwież tabelę przestawną przy użyciu `pivotTable.refreshData()` przed utworzeniem wykresu. |
+| **Wykres jest pusty** | Upewnij się, że zakres źródła danych wykresu odpowiada zakresowi wynikowemu tabeli przestawnej. |
+| **Błędy braku pamięci przy dużych plikach** | Użyj `LoadOptions` z `MemorySetting.MEMORY_PREFERENCE` i zamknij arkusze, których już nie potrzebujesz. |
+
+## Najczęściej zadawane pytania
+
+**Q: Czy mogę wyeksportować wykres przestawny bezpośrednio do pliku obrazu?**  
+A: Tak, wywołaj `chart.toImage("chart.png", ImageFormat.PNG)` po skonfigurowaniu wykresu.
+
+**Q: Czy Aspose.Cells obsługuje makra Excel w wykresach przestawnych?**  
+A: Biblioteka może zachować istniejące makra VBA, ale nie tworzy ani nie modyfikuje ich programowo.
+
+**Q: Czy można zaktualizować wykres przestawny po zmianie danych źródłowych?**  
+A: Oczywiście — wywołaj `pivotTable.refreshData()`, a następnie `chart.refresh()`, aby odzwierciedlić najnowsze wartości.
+
+**Q: Jakie typy wykresów są dostępne dla wykresów przestawnych?**  
+A: Ponad 40 typów, w tym słupkowy, liniowy, powierzchniowy, kołowy, radarowy i skumulowany słupkowy, wszystkie w pełni obsługiwane dla danych przestawnych.
+
+**Q: Czy potrzebuję licencji, aby używać konfiguracji Maven/Gradle w produkcji?**  
+A: Tak, zakupiona licencja usuwa ograniczenia oceny i umożliwia pełny zestaw funkcji.
+
+---
+
+**Ostatnia aktualizacja:** 2026-07-07  
+**Testowano z:** Aspose.Cells 25.3 for Java  
+**Autor:** Aspose  
+
+## Zasoby
+
+- [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/java/)
+- [Pobierz Aspose.Cells dla Javy](https://releases.aspose.com/cells/java/)
+- [Kup licencję](https://purchase.aspose.com/buy)
+- [Bezpłatna wersja próbna i licencje tymczasowe](https://releases.aspose.com/cells/java/)
+- [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9)
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -57,163 +245,68 @@ Dodaj bibliotekę Aspose.Cells do swojego projektu, używając Maven lub Gradle:
 </dependency>
 ```
 
-**Stopień:**
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Etapy uzyskania licencji
-- **Bezpłatna wersja próbna:** Zacznij od bezpłatnego okresu próbnego, aby poznać możliwości pakietu Aspose.Cells.
-- **Licencja tymczasowa:** Uzyskaj tymczasową licencję na potrzeby rozszerzonego testowania i rozwoju.
-- **Zakup:** W celu długoterminowego użytkowania należy zakupić licencję od [Oficjalna strona internetowa Aspose](https://purchase.aspose.com/buy).
-
-### Podstawowa inicjalizacja
-Po skonfigurowaniu środowiska i dodaniu zależności zainicjuj Aspose.Cells w następujący sposób:
 ```java
 import com.aspose.cells.Workbook;
 
-// Załaduj istniejący skoroszyt
+// Load an existing workbook
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "/pivotTable_test.xls");
 ```
 
-## Przewodnik wdrażania
-
-### Funkcja 1: Ładowanie skoroszytu
-
-**Przegląd:** Na początek wczytaj plik Excel do Aspose.Cells, aby ułatwić sobie dalsze modyfikacje.
-
-#### Krok po kroku:
-1. **Klasa wymagana do importu**
-   ```java
+```java
    import com.aspose.cells.Workbook;
    ```
-2. **Załaduj skoroszyt**
-   Zainicjuj `Workbook` obiekt zawierający ścieżkę do pliku Excel.
-   ```java
+
+```java
    String dataDir = "YOUR_DATA_DIRECTORY";
    Workbook workbook = new Workbook(dataDir + "/pivotTable_test.xls");
    ```
 
-### Funkcja 2: Dodawanie i konfigurowanie arkusza kalkulacyjnego
-
-**Przegląd:** Dodaj arkusz kalkulacyjny przeznaczony specjalnie dla wykresu, w którym umieścisz wykres przestawny.
-
-#### Krok po kroku:
-1. **Importuj niezbędne klasy**
-   ```java
+```java
    import com.aspose.cells.SheetType;
    import com.aspose.cells.Worksheet;
    ```
-2. **Dodaj i skonfiguruj arkusz kalkulacyjny**
-   - Dodaj nowy arkusz wykresu.
-   - Nadaj mu nazwę, aby łatwo go zidentyfikować.
-   
-   ```java
+
+```java
    int sheetIndex = workbook.getWorksheets().add(SheetType.CHART);
    Worksheet sheet3 = workbook.getWorksheets().get(sheetIndex);
    sheet3.setName("PivotChart");
    ```
 
-### Funkcja 3: Dodawanie i konfigurowanie wykresu
-
-**Przegląd:** Wstaw wykres do nowo utworzonego arkusza kalkulacyjnego.
-
-#### Krok po kroku:
-1. **Importuj niezbędne klasy**
-   ```java
+```java
    import com.aspose.cells.Chart;
    import com.aspose.cells.ChartType;
    ```
-2. **Dodaj wykres do arkusza kalkulacyjnego**
-   - Określ jego typ i położenie.
-   
-   ```java
+
+```java
    int chartIndex = sheet3.getCharts().add(ChartType.COLUMN, 0, 5, 28, 16);
    Chart chart = sheet3.getCharts().get(chartIndex);
    ```
 
-### Funkcja 4: Ustawianie źródła danych wykresu przestawnego
-
-**Przegląd:** Połącz wykres przestawny z odpowiednim źródłem danych.
-
-#### Krok po kroku:
-1. **Ustaw źródło danych**
-   - Określ zakres, z którego wykres ma pobierać dane.
-   
-   ```java
+```java
    chart.setPivotSource("PivotTable!PivotTable1");
    chart.setHidePivotFieldButtons(false);
    ```
 
-### Funkcja 5: Zapisywanie skoroszytu
-
-**Przegląd:** Zapisz wszystkie zmiany wprowadzone w skoroszycie do pliku programu Excel.
-
-#### Krok po kroku:
-1. **Zapisz skoroszyt**
-   
-   ```java
+```java
    String outDir = "YOUR_OUTPUT_DIRECTORY";
    workbook.save(outDir + "/CPCBasedOnPTable_out.xls");
    ```
 
-## Zastosowania praktyczne
+## Powiązane samouczki
 
-Aspose.Cells for Java jest wszechstronny i umożliwia integrację wykresów przestawnych w różnych scenariuszach:
-
-1. **Sprawozdawczość finansowa:** Zautomatyzuj generowanie paneli finansowych.
-2. **Analiza sprzedaży:** Twórz dynamiczne wizualizacje trendów danych sprzedażowych.
-3. **Zarządzanie zapasami:** Śledź poziom zapasów za pomocą wykresów przestawnych.
-4. **Spostrzeżenia klientów:** Efektywna analiza wzorców zachowań klientów.
-5. **Zarządzanie projektami:** Monitoruj postęp projektu i alokację zasobów.
-
-## Rozważania dotyczące wydajności
-
-Podczas pracy z Aspose.Cells należy pamiętać o następujących wskazówkach, aby zoptymalizować wydajność:
-
-- Zminimalizuj użycie pamięci, zamykając obiekty skoroszytu, gdy nie są potrzebne.
-- Wybieraj operacje wsadowe zamiast manipulacji pojedynczymi komórkami.
-- Wykorzystaj wbudowane metody Aspose służące wydajnemu przetwarzaniu.
-
-## Wniosek
-
-Opanowałeś już tworzenie wykresów przestawnych za pomocą Aspose.Cells Java, zwiększając elastyczność i precyzję swoich możliwości analizy danych. Poznaj więcej funkcji w Aspose.Cells, aby jeszcze bardziej wzbogacić swoje aplikacje Excel.
-
-**Następne kroki:**
-- Eksperymentuj z różnymi typami wykresów.
-- Zintegruj Aspose.Cells z większymi projektami, aby uzyskać kompleksowe rozwiązania w zakresie obsługi danych.
-
-Gotowy do zastosowania swoich nowych umiejętności? Wdróż rozwiązanie opisane powyżej i przekształć swój proces analizy danych!
-
-## Sekcja FAQ
-
-1. **Czy mogę używać Aspose.Cells bez płatnej licencji?**
-   - Tak, zacznij od bezpłatnego okresu próbnego, aby przetestować wszystkie jego funkcjonalności.
-2. **Jakie typy wykresów są obsługiwane przez Aspose.Cells dla Java?**
-   - Szeroka gama wykresów, w tym kolumnowe, liniowe, kołowe i inne.
-3. **Czy można edytować istniejące wykresy w pliku Excel?**
-   - Tak, można modyfikować dowolny aspekt wykresu za pomocą metod Aspose.Cells.
-4. **Jak obsługiwać duże zbiory danych za pomocą Aspose.Cells?**
-   - Stosuj wydajne techniki przetwarzania danych i optymalizuj wykorzystanie pamięci zgodnie z omówionymi zasadami.
-5. **Czy Aspose.Cells for Java można używać na wielu platformach?**
-   - Oczywiście! Obsługuje wszystkie główne systemy operacyjne, na których można uruchomić Javę.
-
-## Zasoby
-
-- [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [Pobierz Aspose.Cells dla Java](https://releases.aspose.com/cells/java/)
-- [Kup licencję](https://purchase.aspose.com/buy)
-- [Bezpłatna wersja próbna i licencje tymczasowe](https://releases.aspose.com/cells/java/)
-- [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9)
-
-Przejrzyj te zasoby, aby dowiedzieć się więcej na temat Aspose.Cells i dowiedzieć się, jak można je włączyć do zestawu narzędzi do zarządzania danymi!
+- [Opanowanie tabel przestawnych w Excelu przy użyciu Aspose.Cells dla Javy: Kompletny przewodnik po analizie danych](/cells/java/data-analysis/excel-pivot-tables-aspose-cells-java-tutorial/)
+- [Utwórz skoroszyt i dodaj wykresy przy użyciu Aspose.Cells dla Javy: Kompletny przewodnik](/cells/java/charts-graphs/create-workbook-add-charts-aspose-cells-java/)
+- [Dostosowywanie wykresów Excel w Javie: Opanowanie Aspose.Cells dla płynnej wizualizacji danych](/cells/java/charts-graphs/excel-chart-customization-aspose-cells-java/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

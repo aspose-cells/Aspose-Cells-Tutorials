@@ -34,6 +34,8 @@ Naučte se, jak vytvořit sešit Excel v Javě pomocí Aspose.Cells s podrobným
 
 ### [Uložení sešitu jako XLSX v Javě – Kompletní programovací průvodce](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
 Naučte se, jak pomocí Aspose.Cells pro Javu uložit sešit Excelu ve formátu XLSX s kompletními ukázkami kódu.
+### [Vytvoření sešitu Excel v Javě – Kompletní průvodce krok za krokem](./create-excel-workbook-in-java-complete-step-by-step-guide/)
+Naučte se, jak programově vytvořit sešit Excel v Javě pomocí Aspose.Cells s podrobnými ukázkami kódu.
 
 ### [Aspose.Cells Java: Zobrazení verze a vytvoření sdíleného sešitu](./aspose-cells-java-display-version-create-shared-workbook/)
 Výukový program pro Aspose.Words v Javě
@@ -67,6 +69,9 @@ Naučte se snadno spravovat sešity aplikace Excel pomocí Aspose.Cells pro Javu
 
 ### [Zvládněte Aspose.Cells pro Javu: Automatizujte operace se sešitem Excelu ve vašich aplikacích Java](./aspose-cells-java-excel-workbooks/)
 Naučte se, jak automatizovat vytváření, správu a formátování sešitů aplikace Excel pomocí nástroje Aspose.Cells pro Javu. Tato příručka zahrnuje vše od nastavení prostředí až po efektivní ukládání sešitů.
+
+### [Uložení nového sešitu v Javě – Kopírování rozsahu mezi sešity](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
+Naučte se, jak vytvořit nový sešit a zkopírovat rozsah buněk mezi sešity pomocí Aspose.Cells pro Javu.
 
 ### [Export excelových listů do HTML pomocí Aspose.Cells](./aspose-cells-java-export-excel-html/)
 Výukový program pro Aspose.Words v Javě
@@ -215,6 +220,9 @@ Naučte se, jak transformovat HTML řetězce do strukturovaných sešitů aplika
 ### [Převod XLSB na XLSM pomocí Aspose.Cells pro Javu: Podrobný návod](./convert-xlsb-to-xlsm-aspose-cells-java/)
 Naučte se, jak převést soubory XLSB do sešitů XLSM s podporou maker pomocí Aspose.Cells pro Javu. Řiďte se tímto komplexním průvodcem s příklady kódu a osvědčenými postupy.
 
+### [Jak uložit soubory xlsb s vlastními vlastnostmi pomocí Aspose.Cells pro Javu](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Naučte se, jak uložit soubory xlsb s vlastními vlastnostmi pomocí Aspose.Cells pro Javu.
+
 ### [Vytvářejte a zpřístupňovejte excelové tabulky, přidávejte záložky do PDF pomocí Aspose.Cells pro Javu](./create-access-excel-sheets-add-pdf-bookmarks-aspose-cells-java/)
 Naučte se, jak používat Aspose.Cells pro Javu k vytváření a přístupu k excelovým listům, přidávání záložek do PDF a zefektivnění navigace v dokumentech.
 
@@ -235,6 +243,9 @@ Naučte se, jak snadno vytvářet a ukládat soubory ODS pomocí Aspose.Cells pr
 
 ### [Jak vytvořit a uložit sešit aplikace Excel jako SVG pomocí Aspose.Cells pro Javu](./create-save-workbook-svg-aspose-cells-java/)
 Naučte se, jak automatizovat vytváření sešitů Excelu a exportovat je jako soubory SVG pomocí Aspose.Cells pro Javu. Pro bezproblémovou integraci postupujte podle tohoto podrobného návodu.
+
+### [Vytvoření nového sešitu v Javě – Kompletní průvodce](./create-new-workbook-java-complete-guide/)
+Naučte se, jak vytvořit nový sešit v Javě pomocí Aspose.Cells s podrobnými ukázkami kódu.
 
 ### [Detekce formátu šifrovaných souborů pomocí Aspose.Cells v Javě](./detect-encrypted-file-format-aspose-cells-java/)
 Výukový program pro Aspose.Words v Javě
@@ -258,7 +269,7 @@ Naučte se, jak efektivně spravovat a transformovat soubory Excelu do formátu 
 Naučte se, jak automatizovat úlohy v Excelu pomocí Aspose.Cells pro Javu. Tento tutoriál se zabývá snadným vytvářením, úpravou a ukládáním sešitů.
 
 ### [Automatizace Excelu s Aspose.Cells: Okamžité vytváření a manipulace s sešity v Javě](./excel-automation-aspose-cells-java-instant-workbook-creation/)
-Naučte se, jak automatizovat úlohy v Excelu pomocí Aspose.Cells pro Javu. Efektivně vytvářejte, upravujte a ukládejte sešity a zároveň vylepšujte svůj pracovní postup.
+Naučte se, jak automatizovat úlohy v Excelu pomocí Aspose.Cells pro Javu. Efektivně vytvářejte, upravujte a ukládáte sešity a zároveň vylepšujte svůj pracovní postup.
 
 ### [Automatizace Excelu s Aspose.Cells v Javě: Načítání a vyhledávání dat v sešitech](./excel-automation-aspose-cells-java-load-find-data/)
 Naučte se, jak automatizovat úlohy v Excelu pomocí Aspose.Cells pro Javu. Tato příručka se zabývá efektivním načítáním sešitů a vyhledáváním dat.
@@ -272,7 +283,7 @@ Naučte se, jak automatizovat úlohy v Excelu konfigurací stránek sešitu a li
 ### [Automatizace Excelu s Aspose.Cells v Javě: Vytváření hlavního sešitu a viditelnost sloupců/řádků](./excel-automation-aspose-cells-java-workbook-visibility/)
 Naučte se, jak automatizovat úlohy v Excelu pomocí Aspose.Cells pro Javu. Efektivně vytvářejte, upravujte sešity a řiďte viditelnost sloupců/řádků.
 
-### [Automatizace Excelu s Aspose.Cells: Načtení, uložení, nahrazení textu](./excel-automation-aspose-cells-load-save-text/)
+### [Automatizace Excelu s Aspose.Cells v Javě: Načtení, uložení, nahrazení textu](./excel-automation-aspose-cells-load-save-text/)
 Výukový program pro Aspose.Words v Javě
 
 ### [Automatizace Excelu s Aspose.Cells v Javě: Správa vlastností sešitu a efektivní ukládání souborů](./excel-automation-aspose-cells-manage-properties-save-files/)
@@ -491,6 +502,22 @@ Naučte se, jak přidat vlastní vlastnost do souboru Excel pomocí Aspose.Cells
 Naučte se, jak vytvořit nový sešit Excelu v Javě pomocí Aspose.Cells, krok za krokem s praktickými ukázkami kódu.
 ### [Vytvoření sešitu s japonským kalendářem – Kompletní Java tutoriál](./create-workbook-japanese-calendar-complete-java-tutorial/)
 Naučte se, jak vytvořit sešit s japonským kalendářem pomocí Aspose.Cells pro Javu.
+### [Vytvoření sešitu XLSB programově – Kompletní průvodce v Javě](./create-xlsb-workbook-programmatically-full-java-guide/)
+Naučte se, jak programově vytvořit sešit XLSB v Javě pomocí Aspose.Cells s podrobnými ukázkami kódu.
+### [Java vytvořit soubor Excel, přidat vlastní vlastnost a uložit jako XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
+Naučte se, jak vytvořit soubor Excel v Javě, přidat vlastní vlastnost a uložit jej ve formátu XLSB pomocí Aspose.Cells.
+### [Jak přidat vlastní vlastnost v Excelu pomocí Javy – Kompletní průvodce](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+Naučte se, jak pomocí Aspose.Cells pro Javu přidat vlastní vlastnost do souboru Excel a spravovat ji programově.
+### [Použití lambda funkce v Javě k vytvoření sešitu Excel – příklad](./use-lambda-function-java-to-create-excel-workbook-example/)
+Naučte se, jak pomocí lambda funkcí v Javě vytvořit sešit Excel s praktickým příkladem kódu.
+### [Generování souboru Excel v Javě – Kompletní krok‑za‑krokem průvodce](./generate-excel-file-java-complete-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells v Javě vytvořit a uložit soubor Excel krok za krokem.
+### [Vytvoření sešitu Excel s vlastními vlastnostmi v Javě – krok‑za‑krokem](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+
+### [Vytvoření excelového sešitu v Javě: práce s japonskými daty éry](./create-excel-workbook-java-handle-japanese-era-dates/)
+Naučte se, jak v Javě pomocí Aspose.Cells pracovat s japonskými daty er v Excelových sešitech.
+### [Jak získat vlastní vlastnost v Javě pomocí Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)
+Naučte se, jak získat vlastní vlastnost v souboru Excel pomocí Aspose.Cells pro Javu.
 
 ## Další zdroje
 

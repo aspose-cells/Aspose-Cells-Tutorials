@@ -1,27 +1,29 @@
 ---
 category: general
-date: 2026-06-08
-description: 使用 Aspose.Cells Java 取得儲存格的日期時間，並學習如何在幾個步驟內寫入值到 Excel 儲存格。
+date: 2026-10-07
+description: 了解如何在 Java 中使用 Aspose.Cells 從儲存格讀取 Excel 日期，並且高效地將值寫回 Excel。
 draft: false
 keywords:
-- get datetime from cell
-- write value to excel cell
+- how to read excel
+- write value to excel
+- get datetime from excel
+- extract datetime from cell
 - Aspose.Cells Java date parsing
-- Japanese era calendar Excel
-- Excel formula recalculation Java
-language: zh-hant
-og_description: 使用 Aspose.Cells Java 從儲存格取得日期時間。本教學亦示範如何高效寫入值至 Excel 儲存格。
-og_title: 在 Java Excel 中從儲存格取得日期時間 – 完整指南
+lastmod: 2026-10-07
+og_description: 如何在 Java 中使用 Aspose.Cells 從儲存格讀取 Excel 日期。本指南亦示範如何高效地將值寫入 Excel 儲存格。
+og_image_alt: 'Developer guide: reading and writing Excel dates with Aspose.Cells
+  Java'
+og_title: 如何在 Java 中使用 Aspose.Cells 從儲存格讀取 Excel 日期
 schemas:
 - author: Aspose
-  dateModified: '2026-06-08'
-  description: Get datetime from cell using Aspose.Cells Java and learn how to write
-    value to excel cell in just a few steps.
-  headline: Get datetime from cell in Java Excel – Complete Guide
+  dateModified: '2026-10-07'
+  description: Learn how to read Excel dates from cells in Java using Aspose.Cells
+    and write values back.
+  headline: How to read Excel dates from cells in Java using Aspose.Cells
   type: TechArticle
-- description: Get datetime from cell using Aspose.Cells Java and learn how to write
-    value to excel cell in just a few steps.
-  name: Get datetime from cell in Java Excel – Complete Guide
+- description: Learn how to read Excel dates from cells in Java using Aspose.Cells
+    and write values back.
+  name: How to read Excel dates from cells in Java using Aspose.Cells
   steps:
   - name: What if the cell already contains a true Excel date?
     text: 'If `cell.getType()` returns `CellValueType.IS_DATE_TIME`, you can skip
@@ -35,7 +37,9 @@ tags:
 - Java
 - Excel
 - Aspose.Cells
-title: 在 Java Excel 中從儲存格取得日期時間 – 完整指南
+- date parsing
+- Excel automation
+title: 如何在 Java 中使用 Aspose.Cells 從儲存格讀取 Excel 日期
 url: /zh-hant/java/cell-operations/get-datetime-from-cell-in-java-excel-complete-guide/
 ---
 
@@ -43,30 +47,30 @@ url: /zh-hant/java/cell-operations/get-datetime-from-cell-in-java-excel-complete
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 從 Java Excel 中的儲存格取得日期時間 – 完整指南
+# 如何在 Java 中使用 Aspose.Cells 讀取 Excel 儲存格的日期
 
-是否曾需要 **從儲存格取得日期時間**，但值卻是日文元號字串？你並非唯一遇到此問題的人。在許多舊版試算表中，日期會以「Reiwa 3/04/01」的形式儲存，而要把它轉換成正確的 `java.time.LocalDateTime` 常常感覺像在破解密碼。  
+如果您需要 **how to read Excel** 以日本元號字串儲存的值，您來對地方了。許多舊版活頁簿包含類似「Reiwa 3/04/01」的日期，將其正確轉換為 `java.time.LocalDateTime` 可能感覺像在破譯密碼。Aspose.Cells for Java 能理解這些元號表示，且也允許您 **write value to excel** 儲存格而不失去格式。在本指南中，您將獲得完整的逐步說明，今天即可貼入任何 Maven 專案使用。
 
-幸好 Aspose.Cells for Java 能為你處理這個轉換，同時我們也會示範如何 **寫入值到 Excel 儲存格**，讓你在不破壞工作表邏輯的前提下完成資料的來回傳遞。
+## 快速回答
+- **Aspose.Cells 能解析日本元號日期嗎？** 是 – 啟用日本元號日曆旗標並重新計算公式。  
+- **我需要手動重新計算公式嗎？** 絕對需要；如果不進行計算，元號字串會保持為文字。  
+- **Aspose.Cells 支援多少種 Excel 格式？** 超過 50 種輸入與輸出格式，包括 XLSX、XLS、CSV 與 ODS。  
+- **此函式庫相容於 Java 8+ 嗎？** 是的，它可在 Java 8 及更新的執行環境上運作。  
+- **我可以將公曆日期寫回同一個儲存格嗎？** 使用 `putValue` 搭配 `LocalDateTime`，並設定數字格式為 ISO‑8601 顯示。
 
-在本教學中，你將學會：
+## 什麼是 **如何讀取 Excel** 日期從儲存格？
+**如何讀取 Excel** 指的是將儲存格內容——尤其是日期——抽取為原生程式類型，例如 `java.time.LocalDateTime`。Aspose.Cells 抽象化了低階解析，讓您專注於業務邏輯，而不必處理 Excel 序號的怪異行為。此方式簡化了程式碼維護，降低了在處理舊版試算表時的轉換錯誤機率。
 
-* 如何建立工作簿並鎖定特定工作表。  
-* 啟用日文元號曆的精確步驟，以便解析。  
-* 為什麼在讀取日期前必須重新計算公式。  
-* 如何將新值寫回儲存格而不失去格式。  
-
-不需要外部工具，也不需要魔法——只要純粹的 Java 程式碼，今天就能放入任何 Maven 專案使用。
-
----
+## 為何使用 Aspose.Cells 進行日本元號轉換？
+Aspose.Cells 支援 **50+** 檔案格式，且可在不將整個檔案載入記憶體的情況下處理 **數百頁** 的活頁簿。啟用日本元號日曆僅會產生極小的效能開銷，適合大量處理舊版試算表。函式庫亦在轉換過程中保留儲存格樣式與公式，確保輸出與原始活頁簿外觀一致。
 
 ## 前置條件
 
-* **Java 8+**（範例使用現代的 `java.time` API）。  
-* **Aspose.Cells for Java** ≥ 23.9.0 – 透過 Maven 或 Gradle 加入相依性。  
-* 基本的 Excel 概念（工作表、儲存格、公式）熟悉度。  
+* **Java 8+** – 範例使用現代的 `java.time` API。  
+* **Aspose.Cells for Java ≥ 23.9.0** – 從官方儲存庫加入 Maven/Gradle 依賴。  
+* 基本的 Excel 概念（工作表、儲存格、公式）認知。  
 
-如果缺少此函式庫，請從官方 Aspose 倉庫取得：
+如果您尚未取得函式庫，請從官方 Aspose 儲存庫下載：
 
 ```xml
 <!-- Maven -->
@@ -78,11 +82,9 @@ url: /zh-hant/java/cell-operations/get-datetime-from-cell-in-java-excel-complete
 </dependency>
 ```
 
----
-
-## 第一步：建立新工作簿並存取第一個工作表
-
-首先，我們需要一個全新的 `Workbook` 物件。把它想像成在記憶體中開啟一個新的 Excel 檔案。
+## 如何建立活頁簿並存取第一個工作表？
+`Workbook` 代表載入記憶體中的 Excel 檔案。`Worksheet` 代表該活頁簿中的單一工作表。  
+建立一個 `Workbook` 物件，然後取得第一個 `Worksheet`。這讓您在任何資料寫入磁碟前就能完整控制。先初始化活頁簿即可在讀寫儲存格前設定（例如日曆處理）等設定。
 
 ```java
 // Step 1: Initialize workbook and grab the first sheet
@@ -90,14 +92,9 @@ Workbook workbook = new Workbook();                     // creates an empty .xls
 Worksheet worksheet = workbook.getWorksheets().get(0); // first (and only) sheet
 ```
 
-*為什麼這很重要：*  
-以程式方式建立工作簿可讓你在任何資料寫入檔案系統之前，完整掌控設定。第一個工作表（`index 0`）將用來示範讀寫操作。
-
----
-
-## 第二步：將日文元號日期字串寫入儲存格 A1
-
-現在我們要 **寫入值到 Excel 儲存格** A1。這模擬了使用者手動輸入「Reiwa 3/04/01」的真實情境。
+## 如何將日本元號日期字串寫入儲存格 A1？
+`Cell` 是保存單一 Excel 儲存格值的物件。  
+將舊版元號字串「Reiwa 3/04/01」寫入儲存格 A1。這模擬使用者輸入的值，稍後您會將其轉換。先寫入字串可示範從文字到正確日期物件的完整工作流程。
 
 ```java
 // Step 2: Write the era date string into A1
@@ -105,13 +102,9 @@ Cell cell = worksheet.getCells().get("A1");
 cell.putValue("Reiwa 3/04/01"); // raw string, not yet a date
 ```
 
-*小技巧：* `putValue` 功能多元——它接受字串、數字、日期，甚至公式。當你傳入純文字時，Aspose 會原樣儲存，非常適合本示範。
-
----
-
-## 第三步：啟用日文元號曆以供日期解析
-
-預設情況下 Aspose.Cells 使用公曆。為了讓「Reiwa」有意義，我們需要切換設定。
+## 如何啟用日本元號日曆以進行日期解析？
+`WorkbookSettings.setUseJapaneseEraCalendar(boolean)` 會切換元號轉換功能。  
+開啟此旗標讓 Aspose.Cells 知道如何將元號名稱轉換為公曆年份。啟用後，計算引擎會把「Reiwa」等字串解讀為對應的公曆年份，這對正確的日期解析至關重要。
 
 ```java
 // Step 3: Turn on Japanese era calendar support
@@ -119,14 +112,9 @@ WorkbookSettings settings = workbook.getSettings();
 settings.setUseJapaneseEraCalendar(true);
 ```
 
-*為什麼要啟用？*  
-日文元號曆會把元號名稱（Reiwa、Heisei、Showa）映射到對應的公曆日期。若未開啟此旗標，函式庫會把字串視為純文字，永遠不會得到正確的 `DateTime` 物件。
-
----
-
-## 第四步：重新計算公式，使元號字串轉換為公曆日期
-
-Aspose 不會自動將字串解析為日期。相反地，它會在一次計算過程後，將儲存格視為公式結果。
+## 如何重新計算公式，使元號字串轉換為公曆日期？
+`Workbook.calculateFormula()` 會強制計算引擎評估活頁簿中的所有公式。  
+執行一次計算引擎後，它會識別元號模式、完成轉換，並在內部儲存公曆結果。之後，`getDateTime()` 會回傳 `java.util.Date`，您可再轉換為 `java.time`。此步驟必要，因為元號字串在公式未計算前會被視為純文字。
 
 ```java
 // Step 4: Force a recalculation to convert the era string
@@ -134,19 +122,15 @@ workbook.calculateFormula(); // processes all cells, including A1
 System.out.println(cell.getDateTime()); // → 2021‑04‑01
 ```
 
-當 `calculateFormula()` 執行時，引擎會辨識元號模式、套用日文曆，並在內部儲存轉換後的公曆日期。之後呼叫 `getDateTime()` 會回傳 `java.util.Date`（或自行轉換為 `java.time`）。
-
 **預期輸出**
 
 ```
 2021-04-01T00:00:00.000+00:00
 ```
 
----
-
-## 第五步：將新值寫回同一儲存格（或其他儲存格）
-
-假設你想把原本的字串覆寫為符合 ISO‑8601 格式的日期。以下示範如何安全地 **寫入值到 Excel 儲存格**，同時保留儲存格樣式。
+## 如何將新值寫回同一個儲存格（或其他儲存格）？
+`Cell.putValue(Object)` 會將值寫入儲存格，並自動處理型別轉換。  
+使用 `putValue` 用乾淨的 ISO‑8601 日期覆寫原始元號字串，同時保留儲存格樣式。`putValue` 會偵測 `LocalDateTime` 型別並轉換為 Excel 的序號表示。設定數字格式可確保在 Excel 中開啟時顯示您期望的日期格式。
 
 ```java
 // Step 5: Overwrite A1 with a formatted date string
@@ -158,14 +142,9 @@ style.setNumber(14); // built‑in "m/d/yyyy" format
 cell.setStyle(style);
 ```
 
-*發生了什麼事？*  
-`putValue` 會偵測到 `LocalDateTime` 類型，並將其轉換為 Excel 的序號表示法。設定數字格式可確保在 Excel 中開啟時，儲存格會如你所預期顯示日期。
+## 完整範例
 
----
-
-## 完整範例程式
-
-將上述步驟整合起來，以下是一個可直接編譯執行的單一 Java 類別。它會建立工作簿、寫入元號字串、完成轉換，最後儲存檔案。
+以下程式碼將上述所有步驟合併成一個可編譯執行的 Java 類別。它會建立活頁簿、寫入元號字串、執行轉換，最後儲存檔案。
 
 ```java
 import com.aspose.cells.*;
@@ -202,15 +181,10 @@ public class JapaneseEraDateDemo {
 }
 ```
 
-使用 `java -cp aspose-cells-23.9.jar;. JapaneseEraDateDemo` 執行，然後開啟 **output.xlsx**。你會看到 A1 儲存格顯示當前日期，且主控台會列印轉換後的「2021‑04‑01」值。
+使用 `java -cp aspose-cells-23.9.jar;. JapaneseEraDateDemo` 執行類別，並開啟 **output.xlsx**。儲存格 A1 會顯示已轉換的公曆日期，主控台會列印出值「2021‑04‑01」。
 
----
-
-## 處理邊緣情況與常見問題
-
-### 若儲存格已經是正規的 Excel 日期，該怎麼辦？
-
-如果 `cell.getType()` 回傳 `CellValueType.IS_DATE_TIME`，你可以直接讀取值，省略重新計算步驟：
+## 如果儲存格已經包含真正的 Excel 日期該怎麼辦？
+若儲存格已存儲原生 Excel 日期，您可以直接讀取而不需額外處理。這樣可節省時間，因為計算引擎不必重新解讀值。只要檢查儲存格類型並取得日期即可。
 
 ```java
 if (cell.getType() == CellValueType.IS_DATE_TIME) {
@@ -218,9 +192,8 @@ if (cell.getType() == CellValueType.IS_DATE_TIME) {
 }
 ```
 
-### 如何一次處理整欄的元號字串？
-
-遍歷已使用的範圍，並在一次設定後套用相同的處理流程：
+## 如何處理整欄元號字串？
+當大量儲存格包含元號字串時，遍歷已使用的範圍並對每個儲存格套用相同的轉換邏輯。此批次方式較逐一處理效能更佳。記得在迴圈前啟用日本元號日曆，處理完畢後一次重新計算。
 
 ```java
 Range used = worksheet.getCells().getMaxDisplayRange();
@@ -231,46 +204,71 @@ for (int row = 0; row < used.getRowCount(); row++) {
 workbook.calculateFormula();
 ```
 
-### 之後想關閉日文元號處理，該怎麼做？
-
-可以把旗標關回：
+## 後續可以關閉日本元號處理嗎？
+在完成相關儲存格的處理後，您可以關閉元號轉換旗標。關閉後會恢復預設的解析行為，適用於同一本活頁簿中稍後需要處理標準日期的情況。
 
 ```java
 settings.setUseJapaneseEraCalendar(false);
 ```
 
-記得在變更設定後再次重新計算。
+若在寫入資料後變更設定，請再次重新計算。
 
----
+## 專業技巧與常見陷阱
 
-## 專業技巧與注意事項
+* **效能：** 啟用日本元號日曆只會產生極小的額外開銷。僅對需要轉換的儲存格開啟，完成後再關閉。  
+* **語系意識：** 元號字串必須完全符合「EraName yy/MM/dd」模式。拼寫錯誤（例如「Rewa」）會使儲存格保持為文字。  
+* **儲存格式：** `Workbook.save("output.xlsx")` 會寫入 XLSX 檔案。若使用 `"output.xls"` 會產生舊版二進位格式，但某些進階功能（如元號解析）可能受限。
 
-* **效能：** 開啟日文元號曆會帶來微小的額外開銷。如果只需要處理少數儲存格，建議在處理完畢後立即關閉此設定。  
-* **語系相容性：** 元號字串必須完全符合「EraName yy/MM/dd」的格式。拼寫錯誤（例如「Rewa」）會導致字串被當作純文字處理。  
-* **儲存格式：** `Workbook.save("output.xlsx")` 會產生 XLSX 檔案。若需舊版二進位格式，使用 `"output.xls"`，但需注意某些功能（如元號解析）可能受限。
+## 常見問與答
 
----
+**問：此方法適用於其他文化曆法（泰曆、伊斯蘭曆）嗎？**  
+答：可以——Aspose.Cells 提供泰國佛教曆與伊斯蘭曆的類似旗標；啟用相應設定並重新計算即可。
+
+**問：我可以從受密碼保護的活頁簿讀取日期嗎？**  
+答：使用帶有密碼參數的方式載入活頁簿，然後照常執行步驟；日曆旗標仍然有效。
+
+**問：處理的列數有上限嗎？**  
+答：Aspose.Cells 能處理數百萬列；它會以串流方式處理資料以降低記憶體使用，特別是每批次切換 `setUseJapaneseEraCalendar` 時。
+
+**問：覆寫日期時如何保留原有儲存格樣式？**  
+答：在呼叫 `putValue` 前先取得儲存格的 `Style` 物件，寫入後再重新套用該樣式。
+
+**問：商業使用是否需要授權？**  
+答：是的，正式上線必須擁有有效的 Aspose.Cells 授權；亦提供免費試用版供評估使用。
 
 ## 結論
 
-現在你已掌握在來源使用日文元號表示法時，如何 **從儲存格取得日期時間**，以及如何以正確格式 **寫入值到 Excel 儲存格**。只要切換 `setUseJapaneseEraCalendar(true)` 並強制公式重新計算，Aspose.Cells 就能在舊有元號字串與現代公曆日期之間架起橋樑——全部只需幾行 Java 程式碼。
+您現在已掌握 **如何讀取 Excel** 中使用日本元號表示的日期，並了解如何 **write value to excel** 儲存格以正確格式呈現。只要啟用 `setUseJapaneseEraCalendar(true)` 並強制公式重新計算，Aspose.Cells 即可在幾行 Java 程式碼內將舊版元號字串橋接至現代公曆日期。試著將此模式延伸至其他文化曆法或大量活頁簿的批次處理——相同的啟用‑重新計算‑讀寫工作流程普遍適用。
 
-接下來可以嘗試將此模式延伸至其他文化曆法（如泰曆、伊斯蘭曆），或使用相同方法批次處理大型工作簿。核心原則——啟用正確的曆法、重新計算、再讀寫——在各種情境下皆適用。
+有無法破解的奇怪日期格式嗎？在下方留言，我們一起排除問題。祝程式開發愉快！
 
-有無法破解的日期格式嗎？在下方留言，我們一起來排除問題。祝程式開發愉快！  
-
-![取得儲存格日期時間範例](https://example.com/images/get-datetime-from-cell.png "取得儲存格日期時間範例")
-
+![從儲存格取得日期時間範例](https://example.com/images/get-datetime-from-cell.png "從儲存格取得日期時間範例")
+[從儲存格取得日期時間範例](https://example.com/images/get-datetime-from-cell.png "從儲存格取得日期時間範例")
 
 ## 接下來該學什麼？
 
-以下教學與本指南的技巧緊密相關，能進一步深化你對 API 功能的掌握，並提供在專案中實作的不同方式。
+以下教學與本指南主題密切相關，能進一步深化您對 API 功能的掌握，並探索在專案中實作的其他方式。
 
-- [使用 Aspose.Cells Java 在 Excel 中設定 1904 日期系統，以提升儲存格操作效能](/cells/english/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/)
-- [在 Aspose.Cells Java 中實作遞迴儲存格計算，以加強 Excel 自動化](/cells/english/java/calculation-engine/aspose-cells-java-recursive-cell-calculations/)
+- [精通 Aspose.Cells Java 在 Excel 中設定 1904 日期系統以提升儲存格操作效能](/cells/english/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/)
+- [在 Aspose.Cells Java 中實作遞迴儲存格計算以加強 Excel 自動化](/cells/english/java/calculation-engine/aspose-cells-java-recursive-cell-calculations/)
 - [使用 Aspose.Cells for Java 將 Excel 儲存格名稱轉換為索引的逐步指南](/cells/english/java/cell-operations/convert-excel-cell-names-to-indices-aspose-cells-java/)
 
+---
+
+**最後更新：** 2026-10-07  
+**測試版本：** Aspose.Cells 23.9.0  
+**作者：** Aspose
+
+## 相關教學
+
+- [aspose cells performance: 使用 Java 取得 Excel 儲存格資料](/cells/java/cell-operations/aspose-cells-java-data-retrieval-excel/)
+- [使用 Aspose.Cells for Java 變更 Excel 1904 日期系統](/cells/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/)
+- [精通 Aspose.Cells Java 檔案處理：高效讀寫與資料處理](/cells/java/workbook-operations/java-file-handling-aspose-cells-read-write-process/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

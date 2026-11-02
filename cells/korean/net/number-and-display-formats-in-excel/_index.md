@@ -46,6 +46,8 @@ Aspose.Cells for .NET을 사용해 C#에서 날짜와 시간을 ISO 8601 형식�
 Aspose.Cells for .NET을 사용하여 그리드 열에 통화 서식을 적용하는 방법을 단계별로 안내합니다.
 ### [Excel에서 숫자 서식 적용 – 열 서식 지정 단계별 가이드](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
 Aspose.Cells for .NET을 사용하여 Excel에서 열에 숫자 서식을 적용하는 방법을 단계별로 안내합니다.
+### [C#에서 Excel 숫자를 반올림하는 방법 – 완전 프로그래밍 가이드](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+Aspose.Cells for .NET을 사용하여 C#에서 Excel 숫자를 반올림하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

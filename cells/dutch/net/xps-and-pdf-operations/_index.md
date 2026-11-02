@@ -46,6 +46,12 @@ Leer hoe u lettertypen in XPS-documenten kunt insluiten met C# en Aspose.Cells, 
 Leer hoe u lettertypen in PDF's insluit met Aspose.Cells in C#, stap voor stap met voorbeeldcode.
 ### [Werkmap opslaan als XPS in C# – Stapsgewijze handleiding](./save-workbook-as-xps-in-c-step-by-step-guide/)
 Leer hoe u een Excel-werkmap als XPS-bestand opslaat met Aspose.Cells in C#, stap voor stap met voorbeeldcode.
+### [Excel naar XPS converteren in C# en Excel-bestand laden](./convert-excel-to-xps-in-c-and-load-excel-file/)
+Leer hoe u een Excel-bestand laadt en converteert naar XPS met C# en Aspose.Cells, stap voor stap met voorbeeldcode.
+### [Excel naar XPS converteren in C# – Complete stapsgewijze handleiding](./convert-excel-to-xps-in-c-complete-step-by-step-guide/)
+Leer hoe u Excel-bestanden naar XPS converteert met C# en Aspose.Cells, stap voor stap met voorbeeldcode.
+### [Hoe lettertypen inschakelen bij het converteren van Excel naar XPS – Complete gids](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
+Leer hoe u lettertypen inschakelt bij het converteren van Excel naar XPS met Aspose.Cells, stap voor stap met codevoorbeelden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

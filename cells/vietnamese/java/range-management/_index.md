@@ -35,6 +35,9 @@ Tìm hiểu cách chuyển đổi giá trị enum thành chuỗi bằng Aspose.C
 ### [Aspose.Cells Java: Tạo và quản lý các phạm vi được đặt tên trong các tệp Excel](./aspose-cells-java-manage-named-ranges/)
 Tìm hiểu cách tạo, quản lý và thao tác các phạm vi được đặt tên bằng Aspose.Cells for Java. Hướng dẫn này hướng dẫn bạn thiết lập môi trường và nắm vững các tính năng chính với các ví dụ mã.
 
+### [Tạo một phạm vi được đặt tên và phát hiện tên trùng lặp trong Excel bằng Aspose.Cells Java](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Hướng dẫn tạo phạm vi đặt tên và kiểm tra trùng lặp tên trong Excel bằng Aspose.Cells cho Java.
+
 ### [Truy cập Phạm vi Hiển thị Tối đa trong Sổ làm việc Excel bằng Aspose.Cells Java](./aspose-cells-java-max-display-range/)
 Tìm hiểu cách truy cập phạm vi hiển thị tối đa của một trang tính trong Excel bằng Aspose.Cells for Java. Làm chủ tính năng này với hướng dẫn từng bước của chúng tôi.
 
@@ -52,6 +55,9 @@ Tìm hiểu cách tự động sao chép các cột trong Excel bằng Aspose.Ce
 
 ### [Cách sao chép nhiều cột trong Excel bằng Aspose.Cells Java: Hướng dẫn đầy đủ](./copy-multiple-columns-excel-aspose-cells-java/)
 Tìm hiểu cách tự động sao chép nhiều cột trong một bảng tính Excel bằng Aspose.Cells for Java. Hướng dẫn này bao gồm thiết lập, triển khai và khắc phục sự cố.
+
+### [Cách sao chép phạm vi trong Java với Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
+Hướng dẫn cách sao chép một phạm vi ô trong Excel bằng Aspose.Cells cho Java một cách dễ dàng và hiệu quả.
 
 ### [Tạo Union Range trong Excel bằng Aspose.Cells Java: Hướng dẫn toàn diện](./create-union-range-excel-aspose-cells-java/)
 Tìm hiểu cách sử dụng Aspose.Cells for Java để tạo các phạm vi hợp nhất trong Excel, cải thiện khả năng trình bày và đọc dữ liệu.
@@ -88,6 +94,13 @@ Tìm hiểu cách tách ô hiệu quả trong các tệp Excel bằng Aspose.Cel
 
 ### [Sao chép phạm vi trang tính bằng lập trình – Hướng dẫn Java toàn diện](./programmatically-copy-worksheet-range-complete-java-guide/)
 Tìm hiểu cách sao chép phạm vi worksheet trong Excel bằng Aspose.Cells cho Java một cách tự động và chi tiết.
+### [Sao chép phạm vi giữa các sổ làm việc trong Java – hướng dẫn từng bước](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+Hướng dẫn chi tiết cách sao chép phạm vi ô từ một workbook sang workbook khác bằng Aspose.Cells cho Java.
+### [Tạo trang tính mới và sao chép phạm vi Excel bằng Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+Hướng dẫn cách tạo một trang tính mới và sao chép phạm vi dữ liệu trong Excel bằng Aspose.Cells cho Java.
+
+### [Cách sử dụng hàm expand trong xử lý Excel bằng Java](./how-to-use-expand-function-in-java-excel-processing/)
+Khám phá cách áp dụng hàm expand để mở rộng dữ liệu trong tệp Excel bằng Aspose.Cells cho Java.
 
 ## Tài nguyên bổ sung
 

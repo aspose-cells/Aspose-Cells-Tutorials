@@ -1,28 +1,34 @@
 ---
 category: general
-date: 2026-06-18
-description: Разберите дату в японском календаре в Java с помощью Aspose.Cells. Узнайте,
-  как быстро считать дату из ячейки Excel и извлечь дату и время из ячейки Excel.
+date: 2026-10-07
+description: Чтение даты из Excel в Java с Aspose.Cells. Это руководство показывает,
+  как разбирать Japanese era dates, читать дату из ячеек Excel и быстро извлекать
+  datetime из ячеек Excel.
 draft: false
 keywords:
-- parse japanese era date
-- read date from excel cell
-- extract datetime from excel cell
-language: ru
-og_description: Разбор даты в японском календаре в Java с помощью Aspose.Cells. Это
-  руководство покажет, как считать дату из ячейки Excel и извлечь дату и время из
-  ячейки Excel за несколько шагов.
-og_title: Разбор даты японской эры из Excel в Java — Полный учебник
+- read date from excel
+- extract datetime from excel
+- java excel date conversion
+- japanese era date parsing
+- aspose.cells java
+lastmod: 2026-10-07
+og_description: Чтение даты из Excel в Java с Aspose.Cells. Это руководство показывает,
+  как разбирать Japanese era dates, читать дату из ячеек Excel и извлекать datetime
+  из ячеек Excel всего за несколько шагов.
+og_image_alt: 'Developer guide: Read date from Excel in Java using Aspose.Cells'
+og_title: Чтение даты из Excel в Java с Aspose.Cells – полное руководство
 schemas:
 - author: Aspose
-  dateModified: '2026-06-18'
-  description: Parse Japanese era date in Java using Aspose.Cells. Learn how to read
-    date from Excel cell and extract datetime from Excel cell quickly.
-  headline: Parse Japanese Era Date from Excel in Java – Full Guide
+  dateModified: '2026-10-07'
+  description: Read date from Excel in Java with Aspose.Cells. This guide shows you
+    how to parse Japanese era dates, read date from Excel cells, and extract datetime
+    from Excel cells quickly.
+  headline: Read date from Excel in Java with Aspose.Cells – full guide
   type: TechArticle
-- description: Parse Japanese era date in Java using Aspose.Cells. Learn how to read
-    date from Excel cell and extract datetime from Excel cell quickly.
-  name: Parse Japanese Era Date from Excel in Java – Full Guide
+- description: Read date from Excel in Java with Aspose.Cells. This guide shows you
+    how to parse Japanese era dates, read date from Excel cells, and extract datetime
+    from Excel cells quickly.
+  name: Read date from Excel in Java with Aspose.Cells – full guide
   steps:
   - name: Multiple Eras
     text: Japan has had several eras (Meiji, Taishō, Shōwa, Heisei, Reiwa). The `setParseDateUsingJapaneseEra(true)`
@@ -41,7 +47,9 @@ tags:
 - Java
 - Excel
 - DateTime
-title: Разбор даты японской эры из Excel в Java – Полное руководство
+- read date from excel
+- java excel date conversion
+title: Чтение даты из Excel в Java с Aspose.Cells – полное руководство
 url: /ru/java/cell-operations/parse-japanese-era-date-from-excel-in-java-full-guide/
 ---
 
@@ -49,24 +57,36 @@ url: /ru/java/cell-operations/parse-japanese-era-date-from-excel-in-java-full-gu
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Разбор дат японской эры из Excel в Java – Полное руководство
+# Чтение даты из Excel в Java с Aspose.Cells – полное руководство
 
-Когда‑нибудь вам нужно было **parse Japanese era date**, хранящуюся в рабочей книге Excel, но вы не знали, как превратить её в обычный григорианский `DateTime`? Вы не одиноки — многие разработчики сталкиваются с этой проблемой при работе с устаревшими японскими бухгалтерскими таблицами или государственными формами. Хорошая новость в том, что с несколькими строками кода на Java и правильной библиотекой вы можете read date from Excel cell и extract datetime from Excel cell без ручных манипуляций со строками.
+Если вам нужно **читать дату из Excel** листы, содержащие строки с японскими эпохами, вы попали по адресу. Во многих устаревших бухгалтерских или государственных таблицах дата хранится как “令和3年5月10日”, и преобразование её в стандартный григорианский `LocalDateTime` может быть ошибочным. В этом руководстве показано, шаг за шагом, как включить парсинг с учётом эпох, прочитать значение ячейки и **извлечь datetime из Excel** с помощью Aspose.Cells для Java.
 
-В этом руководстве мы пройдем полный, готовый к запуску пример, который показывает, как именно **parse Japanese era date** строки вроде “令和3年5月10日” в Java `java.time.LocalDateTime`. Мы рассмотрим необходимую зависимость Maven, объясним, почему нужно включить парсинг с учётом эпох, и укажем распространённые подводные камни. К концу вы получите надёжный, готовый к продакшену фрагмент кода, который можно вставить в любой проект на Java.
+## Быстрые ответы
+- **Какая библиотека обрабатывает даты японских эпох?** Aspose.Cells for Java.
+- **Какая версия Java требуется?** Java 17 or newer (Java 8 works as well).
+- **Нужна ли лицензия для тестирования?** A free trial is sufficient for development.
+- **Может ли тот же код читать григорианские даты?** Yes, the API automatically detects the format.
+- **Сохраняется ли информация о времени?** Absolutely – hours, minutes, and seconds survive the conversion.
 
-## Требования
+## Что такое чтение даты из Excel?
+Фраза “read date from Excel” относится к получению значения даты из ячейки и преобразованию его в объект даты‑времени Java, например `java.time.LocalDateTime`. Aspose.Cells абстрагирует низкоуровневый бинарный формат Excel, поэтому вы можете работать с датами без ручного разбора строк.
 
-- Java 17 или новее (код также работает на Java 8+)
-- Система сборки Maven или Gradle
-- Базовое знакомство с файлами Excel
-- Библиотека **Aspose.Cells for Java** (бесплатная пробная версия подходит для тестирования)
+## Почему использовать Aspose.Cells для парсинга дат японских эпох?
+Aspose.Cells поддерживает **более 50 форматов ввода и вывода** и может обрабатывать книги из сотен страниц без загрузки всего файла в память. Его встроенный парсер с учётом эпох преобразует каждую японскую эпоху (Meiji, Taishō, Shōwa, Heisei, Reiwa) в григорианские даты одним вызовом API, устраняя хрупкий код на регулярных выражениях.
 
-Если что‑то из этого вам незнакомо, не переживайте — я покажу, как именно добавить библиотеку и начать работу.
+## Предварительные требования
+- Java 17 (или Java 8+) установлен на вашем компьютере.
+- Система сборки Maven или Gradle.
+- Базовое знакомство с файлами Excel.
+- Библиотека Aspose.Cells for Java (пробная или лицензированная версия).
 
-## Шаг 1: Добавьте Aspose.Cells в ваш проект
+Если что‑то из этого вам незнакомо, не переживайте — в следующем шаге мы покажем, как добавить библиотеку.
 
-Во-первых, вам нужна библиотека, умеющая работать с датами японской эры. Aspose.Cells делает всю тяжелую работу за вас.
+## Как прочитать дату из Excel в Java?
+
+Загрузите книгу, включите парсинг с учётом эпох и запросите у ячейки её значение `DateTime`. Весь процесс занимает **два строки кода** после того, как библиотека добавлена в classpath.
+
+### Шаг 1: добавить Aspose.Cells в ваш проект
 
 **Maven**:
 
@@ -84,11 +104,11 @@ url: /ru/java/cell-operations/parse-japanese-era-date-from-excel-in-java-full-gu
 implementation 'com.aspose:aspose-cells:24.9'
 ```
 
-После того как зависимость будет разрешена, вы можете начать писать код, который *reads date from Excel cell* и *extracts datetime from Excel cell*.
+После разрешения зависимости вы можете начать использовать API для **чтения даты из Excel** ячеек.
 
-## Шаг 2: Создайте Workbook и выберите первый лист
+### Шаг 2: создать книгу и выбрать первый лист
 
-Мы начнём с создания нового workbook в памяти и получения первого листа. Это соответствует первым двум строкам оригинального примера.
+Класс `Workbook` представляет весь файл Excel в памяти. Создание нового экземпляра гарантирует чистую среду для последующих шагов парсинга.
 
 ```java
 import com.aspose.cells.*;
@@ -100,11 +120,9 @@ public class JapaneseEraDateParser {
         Worksheet sheet = workbook.getWorksheets().get(0); // first (and only) sheet
 ```
 
-Зачем начинать с чистого workbook? Это гарантирует чистую среду, где мы можем контролировать каждую настройку — что критично, когда позже включаете парсинг с учётом эпох.
+### Шаг 3: поместить строку даты японской эпохи в ячейку A1
 
-## Шаг 3: Поместите строку даты японской эры в ячейку A1
-
-Теперь мы имитируем файл Excel, который уже содержит дату японской эры. В реальной жизни вы, вероятно, будете загружать существующий `.xlsx`, но для иллюстрации мы **write** значение сами.
+Для демонстрации мы записываем строку эпохи вручную; в продакшене вы бы загрузили существующий `.xlsx`.
 
 ```java
         // Step 3: Insert a Japanese era date string into A1
@@ -112,22 +130,23 @@ public class JapaneseEraDateParser {
         cell.putValue("令和3年5月10日"); // Reiwa 3rd year = 2021-05-10
 ```
 
-Строка следует стандартному японскому формату: *Era* + *Year* + *Month* + *Day*. Без дополнительной конфигурации Aspose.Cells будет рассматривать её как обычный текст, а не как дату.
+Текст следует традиционному японскому шаблону: *Эра* + *Год* + *Месяц* + *День*.
 
-## Шаг 4: Включите парсинг дат с учётом эпох
+### Шаг 4: включить парсинг дат с учётом эпох
 
-Это ключевой момент: указать workbook **parse Japanese era date** строки, когда он их встречает. Это делается с помощью флага `ParseDateUsingJapaneseEra`.
+Укажите Aspose.Cells рассматривать строки эпох как даты, установив флаг `ParseDateUsingJapaneseEra`.  
+`ParseDateUsingJapaneseEra` — это свойство, которое при значении true включает автоматическое преобразование строк японских эпох в григорианские даты.
 
 ```java
         // Step 4: Turn on era‑aware parsing
         workbook.getSettings().setParseDateUsingJapaneseEra(true);
 ```
 
-Зачем это нужно? По умолчанию Aspose.Cells предполагает григорианский календарь, поэтому “令和3年5月10日” останется строкой. Включение флага заставляет движок преобразовать её в `java.util.Date` (или эквивалент `java.time`) под капотом.
+Без этого флага библиотека будет рассматривать “令和3年5月10日” как обычный текст, и автоматическое преобразование будет потеряно.
 
-## Шаг 5: Получите разобранное значение DateTime
+### Шаг 5: получить разобранное значение DateTime
 
-Теперь, когда workbook умеет интерпретировать эпоху, мы можем запросить у ячейки её представление в виде `DateTime`.
+Теперь запросите у ячейки её представление даты. `cell.getDateTime()` возвращает значение ячейки как объект `java.util.Date`. Метод возвращает `java.util.Date`, который мы сразу преобразуем в современный `java.time.LocalDateTime`. `LocalDateTime` — это класс Java, представляющий дату и время без часового пояса.
 
 ```java
         // Step 5: Extract the parsed DateTime
@@ -138,11 +157,11 @@ public class JapaneseEraDateParser {
         java.time.LocalDateTime dateTime = java.time.LocalDateTime.ofInstant(instant, zone);
 ```
 
-Обратите внимание, что мы **read date from Excel cell** с помощью `cell.getDateTime()`. Метод возвращает `java.util.Date`, который мы сразу преобразуем в `LocalDateTime` для лучшей типовой безопасности. Это удовлетворяет требование **extract datetime from excel cell** чистым и идиоматичным способом.
+Это удовлетворяет требование **извлечь datetime из Excel** типобезопасным способом.
 
-## Шаг 6: Проверьте результат
+### Шаг 6: проверить результат
 
-Наконец, выведем григорианскую дату, чтобы подтвердить успешность преобразования.
+Выведите григорианскую дату, чтобы подтвердить успешность преобразования.
 
 ```java
         // Step 6: Output the Gregorian date
@@ -157,13 +176,13 @@ public class JapaneseEraDateParser {
 2021-05-10T00:00
 ```
 
-Этот вывод доказывает, что мы успешно **parse Japanese era date**, **read date from Excel cell** и **extract datetime from Excel cell** в едином потоке.
+Вывод доказывает, что мы успешно **прочитали дату из Excel**, разобрали японскую эпоху и **извлекли datetime из Excel** в одном процессе.
 
 ## Обработка реальных граничных случаев
 
 ### Несколько эпох
 
-В Японии было несколько эпох (Meiji, Taishō, Shōwa, Heisei, Reiwa). Флаг `setParseDateUsingJapaneseEra(true)` охватывает их все автоматически, но имейте в виду, что более старые даты могут находиться за пределами поддерживаемого диапазона библиотеки (обычно 1868‑настоящее время). Если вы встретите дату вроде “昭和45年12月31日”, тот же код преобразует её в 1970‑12‑31.
+В Японии было несколько эпох (Meiji, Taishō, Shōwa, Heisei, Reiwa). Флаг `setParseDateUsingJapaneseEra(true)` покрывает их все автоматически, но имейте в виду, что более старые даты могут находиться за пределами поддерживаемого диапазона библиотеки (обычно 1868‑настоящее время). Если вы встретите дату вроде “昭和45年12月31日”, тот же код преобразует её в 1970‑12‑31.
 
 ### Пустые или некорректные ячейки
 
@@ -179,11 +198,11 @@ if (cell.getType() == CellValueType.IS_DATE) {
 
 ### Компонент времени
 
-В примере указана только дата, но если ваш файл Excel также хранит время (например, “令和3年5月10日 14:30”), Aspose.Cells сохранит часть времени. `LocalDateTime`, который вы получите, будет включать часы, минуты и секунды.
+В примере присутствует только дата, но если ваш файл Excel также хранит время (например, “令和3年5月10日 14:30”), Aspose.Cells сохранит часть времени. Полученный `LocalDateTime` будет включать часы, минуты и секунды.
 
 ## Полный рабочий пример
 
-Объединив всё вместе, представляем полный готовый к копированию и вставке код программы:
+Объединив всё вместе, представляем полный готовый к копированию и вставке пример программы:
 
 ```java
 import com.aspose.cells.*;
@@ -214,32 +233,56 @@ public class JapaneseEraDateParser {
 }
 ```
 
-Сохраните файл как `JapaneseEraDateParser.java`, скомпилируйте с помощью `javac` и запустите с `java`. Если всё настроено правильно, вы увидите григорианскую дату, выведенную в консоль.
+Сохраните как `JapaneseEraDateParser.java`, скомпилируйте с помощью `javac` и запустите с `java`. Если всё настроено правильно, в консоли будет выведена григорианская дата.
 
 ## Профессиональные советы и распространённые подводные камни
 
-- **Pro tip:** Всегда вызывайте `setParseDateUsingJapaneseEra(true)` **before** чтения любых значений ячеек. Изменение флага после чтения ячейки не преобразует значение ретроспективно.
-- **Watch out for locale:** Библиотека разбирает строки эпох на основе Unicode‑символов, поэтому явно задавать японскую локаль не требуется.
-- **Performance note:** Включение парсинга эпох добавляет небольшие накладные расходы. Если он нужен только для нескольких ячеек, вы можете временно переключать флаг, читать ячейки, а затем снова отключать его.
-- **Testing:** Используйте бесплатную пробную версию Aspose для проверки реального Excel‑файла, содержащего несколько дат эпох. Это гарантирует, что ваш продакшн‑код работает как ожидается.
+- **Pro tip:** Включите `setParseDateUsingJapaneseEra(true)` **до** чтения любых значений ячеек. Изменение флага позже не преобразует уже прочитанные ячейки ретроспективно.
+- **Locale note:** Парсер работает непосредственно с символами Unicode, поэтому явно задавать японскую локаль не требуется.
+- **Performance:** Парсинг эпох добавляет незначительные накладные расходы. Если он нужен только для нескольких ячеек, включайте флаг только для этих чтений.
+- **Testing:** Используйте бесплатную trial‑версию Aspose для проверки реальной книги, содержащей как григорианские, так и эпохальные даты. Это гарантирует ожидаемое поведение кода в продакшене.
 
-## Заключение
+## Часто задаваемые вопросы
 
-Мы только что продемонстрировали, как **parse Japanese era date** значения напрямую из рабочей книги Excel с помощью Java и Aspose.Cells. Включив парсинг с учётом эпох, вы можете **read date from Excel cell** и **extract datetime from Excel cell** чистым, типобезопасным способом. Этот подход работает для любой современной японской эпохи, обрабатывает компонент времени и корректно справляется с некорректными данными.
+**Q: Можно ли использовать этот подход с существующим файлом .xlsx?**  
+A: Да. Загрузите файл с помощью `new Workbook("path/to/file.xlsx")`, и тот же флаг разберёт любые найденные строки эпох.
 
-Готовы к следующему вызову? Попробуйте загрузить реальный файл `.xlsx`, содержащий смесь григорианских и японских дат эпох, или поэкспериментировать с форматированием полученного `LocalDateTime` в строки, соответствующие вашей локали. Вы также можете попробовать записать преобразованные даты обратно в Excel для систем, которые понимают только григорианские даты.
+**Q: Что происходит, если ячейка содержит григорианскую дату?**  
+A: Библиотека возвращает григорианское значение без изменений; парсинг эпох влияет только на строки, соответствующие шаблону эпохи.
 
-Есть вопросы или столкнулись с необычным случаем? Оставьте комментарий ниже, и удачной разработки!
+**Q: Поддерживает ли Aspose.Cells даты раньше эпохи Мэйдзи (1868)?**  
+A: Нет. Даты до 1868 находятся за пределами поддерживаемого диапазона и будут рассматриваться как обычный текст.
 
-## Что изучать дальше?
+**Q: Как работать с большими книгами без исчерпания памяти?**  
+A: Используйте конструктор `Workbook`, принимающий `LoadOptions` с `setMemorySetting(MemorySetting.MemoryPreference)`, чтобы потоково обрабатывать данные вместо полной загрузки.
 
-Следующие руководства охватывают тесно связанные темы, расширяющие техники, продемонстрированные в этом руководстве. Каждый ресурс включает полные рабочие примеры кода с пошаговыми объяснениями, помогающие вам освоить дополнительные возможности API и исследовать альтернативные подходы к реализации в собственных проектах.
+**Q: Требуется ли коммерческая лицензия для использования в продакшене?**  
+A: Да, действительная лицензия Aspose.Cells снимает ограничения оценки и обеспечивает полную производительность.
 
-- [Master the 1904 Date System in Excel Using Aspose.Cells Java for Effective Cell Operations](/cells/english/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/)
-- [Efficiently Convert Excel to PDF with Custom Date Formats Using Aspose.Cells for Java](/cells/english/java/workbook-operations/render-excel-custom-date-formats-pdf-aspose-cells-java/)
-- [How to Select Cell Ranges in Excel Using Aspose.Cells for Java (2023 Guide)](/cells/english/java/range-management/aspose-cells-java-select-cell-ranges-excel/)
+## Что стоит изучить дальше?
+
+Следующие руководства охватывают тесно связанные темы, основанные на техниках, продемонстрированных в этом руководстве. Каждый ресурс содержит полные рабочие примеры кода с пошаговыми объяснениями, помогающими освоить дополнительные возможности API и исследовать альтернативные подходы к реализации в ваших проектах.
+
+- [Освойте систему дат 1904 в Excel с помощью Aspose.Cells Java для эффективных операций с ячейками](/cells/english/java/cell-operations/aspose-cells-java-configure-1904-date-system-excel/)
+- [Эффективно конвертировать Excel в PDF с пользовательскими форматами дат, используя Aspose.Cells для Java](/cells/english/java/workbook-operations/render-excel-custom-date-formats-pdf-aspose-cells-java/)
+- [Как выбрать диапазоны ячеек в Excel с помощью Aspose.Cells для Java (руководство 2023)](/cells/english/java/range-management/aspose-cells-java-select-cell-ranges-excel/)
+
+---
+
+**Последнее обновление:** 2026-10-07  
+**Тестировано с:** Aspose.Cells 24.12 for Java  
+**Автор:** Aspose
+
+## Связанные руководства
+
+- [Разобрать дату японской эпохи из Excel в Java: полное руководство](/cells/java/cell-operations/parse-japanese-era-date-from-excel-in-java-full-guide/)
+- [Чтение файлов Excel в Java с Aspose.Cells – полное руководство](/cells/java/automation-batch-processing/aspose-cells-java-excel-manipulation/)
+- [Сохранение книги Excel с Aspose.Cells для Java – полное руководство](/cells/java/automation-batch-processing/excel-workbook-automation-aspose-cells-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

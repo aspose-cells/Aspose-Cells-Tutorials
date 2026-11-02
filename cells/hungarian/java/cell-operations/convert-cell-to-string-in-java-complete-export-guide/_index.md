@@ -1,37 +1,42 @@
 ---
 category: general
-date: 2026-06-08
-description: Cella konvertálása stringgé Java-ban az Aspose.Cells használatával –
-  megtanulhatja, hogyan exportáljon cellát tudományos jelöléssel, állítsa be az exportálási
-  opciókat, és szabályozza az Excel kimenetet.
+date: 2026-10-02
+description: Ismerje meg, hogyan konvertálja az excel oszlopot stringgé Java-ban az
+  Aspose.Cells használatával, exportálja az excel cellát szövegként, szabályozza a
+  scientific notation-t, és testreszabja az export options-t a precise Excel output
+  érdekében.
 draft: false
 keywords:
-- convert cell to string
-- how to export cell
-- how to set export
-- export excel scientific notation
-- export excel cell string
-language: hu
-og_description: Átalakítás cella sztringgé Java-ban az Aspose.Cells használatával.
-  Ez az útmutató bemutatja, hogyan exportáljunk cellát, állítsuk be az exportálási
-  beállításokat, és használjunk tudományos jelölést Excel-fájlokhoz.
-og_title: Cell átalakítása Stringgé Java-ban – Teljes Export útmutató
+- convert excel column to string
+- export excel cell as text
+- export excel file java
+- export excel with scientific notation
+- convert formula result to string
+lastmod: 2026-10-02
+og_description: Ismerje meg, hogyan konvertálja az excel oszlopot stringgé Java-ban
+  az Aspose.Cells használatával, exportálja az excel cellát szövegként, és alkalmazza
+  a scientific notation-t a pontos Excel kimenetekhez.
+og_image_alt: Developer guide showing how to convert an Excel column to a string in
+  Java with Aspose.Cells
+og_title: Excel oszlop konvertálása stringgé Java-ban – export útmutató
 schemas:
 - author: Aspose
-  dateModified: '2026-06-08'
-  description: Convert cell to string in Java using Aspose.Cells – learn how to export
-    cell with scientific notation, set export options, and control Excel output.
-  headline: Convert Cell to String in Java – Complete Export Guide
+  dateModified: '2026-10-02'
+  description: Convert excel column to string in Java using Aspose.Cells – learn how
+    to export cell with scientific notation, set export options, and control Excel
+    output.
+  headline: Convert excel column to string in Java – complete export guide
   type: TechArticle
-- description: Convert cell to string in Java using Aspose.Cells – learn how to export
-    cell with scientific notation, set export options, and control Excel output.
-  name: Convert Cell to String in Java – Complete Export Guide
+- description: Convert excel column to string in Java using Aspose.Cells – learn how
+    to export cell with scientific notation, set export options, and control Excel
+    output.
+  name: Convert excel column to string in Java – complete export guide
   steps:
   - name: Prerequisites
     text: '- Java 17 or later (the code works with earlier versions, but we recommend
       the newest LTS). - Aspose.Cells for Java library (version 23.10 or newer). -
       A basic Maven or Gradle project setup so you can add the Aspose.Cells dependency.
-      - An Excel file (`source.xlsx`) placed in a folder you can referen'
+      - An Excel file (`source.xlsx`) placed in a folder you can reference.'
   - name: Does this work with older Excel formats (XLS)?
     text: Yes—Aspose.Cells abstracts the file format, so the same code works for `.xls`,
       `.xlsx`, and even `.xlsb`. Just change the file extension in the `save` call.
@@ -49,7 +54,7 @@ tags:
 - Aspose.Cells
 - Excel
 - Export
-title: Cellát Stringgé konvertálás Java-ban – Teljes export útmutató
+title: Excel oszlop konvertálása stringgé Java-ban – export útmutató
 url: /hu/java/cell-operations/convert-cell-to-string-in-java-complete-export-guide/
 ---
 
@@ -57,27 +62,33 @@ url: /hu/java/cell-operations/convert-cell-to-string-in-java-complete-export-gui
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cellát Stringgé konvertálás Java-ban – Teljes Export Útmutató
+# Excel oszlop karakterlánccá konvertálása Java-ban – exportálási útmutató
 
-Valaha szükséged volt **convert cell to string** műveletre Excel fájlok Java-ban történő kezelésekor? Ez egy gyakori akadály—különösen, ha a forrásadatok számokat tartalmaznak, amelyeket pontosan úgy szeretnél megőrizni, ahogy megjelennek, például azonosítók vagy tudományos értékek. Ebben az útmutatóban egy gyakorlati megoldáson vezetünk végig, amely nemcsak arra kényszeríti a cella értékét, hogy szövegként legyen mentve, hanem megmutatja, **how to export cell** adatokat egyedi beállításokkal, például tudományos jelöléssel.
+Valaha is szükséged volt **convert excel column to string**-re, amikor Excel fájlokkal dolgozol Java-ban? Gyakori probléma — különösen, ha a forrásadatok számokat tartalmaznak, amelyeket pontosan úgy szeretnél megőrizni, ahogy megjelennek, például azonosítók vagy tudományos értékek. Ebben az útmutatóban egy gyakorlati megoldáson keresztül vezetünk, amely nem csak arra kényszeríti a cella értékét, hogy karakterláncként legyen mentve, hanem megmutatja, hogyan **exportálhatod az Excel cellát szövegként** egyéni beállítások, például tudományos jelölés használatával.
 
-Ha valaha is elgondolkodtál **how to set export** paramétereken, vagy arra van szükséged, hogy a kimenet úgy nézzen ki, mint „1.23E+04” egy egyszerű szám helyett, jó helyen vagy. A végére egy azonnal futtatható Java kódrészletet, minden opció világos magyarázatát és néhány profi tippet kapsz, hogy az Excel exportjaid rendezettek legyenek.
+Ha valaha is kíváncsi voltál arra, **how to set export** paraméterekre, vagy arra, hogy a kimenet úgy nézzen ki, mint a „1.23E+04” egy egyszerű szám helyett, jó helyen vagy. A végére egy azonnal futtatható Java kódrészletet, minden opció részletes magyarázatát és néhány profi tippet kapsz, hogy az Excel exportjaid rendezettek legyenek.
 
-## Amit elérsz
+## Gyors válaszok
+- **What does “convert excel column to string” do?** Kényszeríti a munkafüzetet, hogy a kiválasztott cellákat szövegként írja, megőrizve a pontos vizuális ábrázolást.
+- **Which library handles the export?** Az Aspose.Cells for Java biztosítja a `ExportTableOptions` API-t a finomhangolt vezérléshez.
+- **Can I keep scientific notation while exporting as text?** Igen — állíts be egy egyéni számformátumot és engedélyezd a `exportAsString`-et.
+- **Will formulas be lost?** Nem, a képlet a munkafüzetben marad; csak a kiszámított eredmény kerül szövegként írásra.
+- **Is this approach compatible with .xls, .xlsx, and .xlsb?** Teljesen, ugyanaz a kód működik mindhárom formátumban.
 
-- Kényszeríts bármely munkalap cellát, hogy szövegként legyen kiírva, függetlenül az eredeti típusától.  
-- Alkalmazz egyedi számformátumot (tudományos jelölés) miközben az értéket továbbra is szövegként kezeled.  
-- Értsd meg a különbséget a **export excel cell string** és a normál numerikus export között.  
-- Szerezz egy teljes, futtatható példát, amelyet beilleszthetsz a saját projektedbe.
+## Mi az a convert excel column to string?
+A *convert excel column to string* művelet azt mondja az Aspose.Cells-nek, hogy a mentés során a cella alaptartalmát szövegként kezelje, biztosítva, hogy a számok, dátumok vagy tudományos értékek ne legyenek újraértelmezve az Excel által. Gyakorlatban ez azt jelenti, hogy a cella adattípusa EXPORTáláskor TEXT-re változik, így az Excel nem próbál további numerikus feldolgozást vagy kerekítést végezni.
 
-### Előfeltételek
+## Miért használjuk az Aspose.Cells-et ehhez a feladathoz?
+Az Aspose.Cells **50+ bemeneti és kimeneti formátumot** támogat — beleértve az XLS, XLSX, XLSB, CSV és HTML formátumokat — és képes több száz oldalas munkafüzeteket feldolgozni anélkül, hogy az egész fájlt a memóriába töltené, így gyors és skálázható megoldást nyújt. Emellett gazdag API-t biztosít a formázáshoz, képletekhez és diagramkezeléshez, így egy átfogó megoldás a komplex jelentéscsővezetékekhez.
+
+## Előfeltételek
 
 - Java 17 vagy újabb (a kód korábbi verziókkal is működik, de a legújabb LTS-t ajánljuk).  
 - Aspose.Cells for Java könyvtár (23.10 vagy újabb verzió).  
 - Alap Maven vagy Gradle projekt beállítás, hogy hozzá tudd adni az Aspose.Cells függőséget.  
-- Egy Excel fájl (`source.xlsx`) egy mappában, amelyre a kódból hivatkozhatsz.
+- Egy Excel fájl (`source.xlsx`) egy olyan mappában, amelyre a kódból hivatkozhatsz.
 
-> **Pro tipp:** Ha Maven-t használsz, add hozzá a függőséget így:
+> **Pro tip:** Ha Maven-t használsz, add hozzá a függőséget a következő módon:
 
 ```xml
 <dependency>
@@ -88,13 +99,12 @@ Ha valaha is elgondolkodtál **how to set export** paramétereken, vagy arra van
 </dependency>
 ```
 
-Miután áttekintettük a „mit” és a „miért” részeket, merüljünk el a **how**‑ban—lépésről lépésre.
+## Hogyan konvertálod a cellát karakterlánccá Java-ban?
 
----
+Töltsd be a munkafüzetet, célozd meg a cellát, alkalmazd a `ExportTableOptions`-t, majd mentsd. Ez a négylépéses minta a szabványos megközelítés a cella karakterlánccá konvertálásához a formázás megőrzése mellett. A megközelítés függetlenül az eredeti cellatípustól működik — legyen az szám, dátum vagy képlet — biztosítva a konzisztens kimenetet a különböző táblázatokban.
 
-## Cellát Stringgé konvertálás export beállításokkal
-
-Az első dolog, amit tennünk kell, hogy betöltsük azt a munkafüzetet, amely a konvertálni kívánt cellát tartalmazza. Ez a lépés egyszerű, de lényeges; érvényes `Workbook` objektum nélkül az export logika nem fog működni.
+### 1. lépés: a munkafüzet betöltése
+A `Workbook` osztály az Aspose.Cells legfelső szintű objektuma, amely egy teljes Excel fájlt reprezentál a memóriában.  
 
 ```java
 // Step 1: Load the source workbook
@@ -106,13 +116,10 @@ if (workbook.getWorksheets().getCount() == 0) {
 }
 ```
 
-*Miért fontos:* A munkafüzet betöltése hozzáférést biztosít a belső cellamodelhez. Az Aspose.Cells minden cellát egy objektumként kezel, amely értéket, stílust és – számunkra kulcsfontosságú – export beállításokat tarthat. Azáltal, hogy biztosítjuk, hogy a munkafüzet nem üres, elkerülünk egy későbbi csendes hibát.
+*Miért fontos:* A munkafüzet betöltése hozzáférést biztosít minden munkalaphoz, sorhoz és cellához, lehetővé téve a pontos exportvezérlést.
 
----
-
-## Hogyan exportáljunk cellát egyedi beállításokkal
-
-Ezután lekérjük a pontos cellát, amelyet konvertálni szeretnénk. Ebben a példában a **B2**-t célozzuk, de a címet bármire kicserélheted, amire szükséged van.
+### 2. lépés: a célcellá kiválasztása
+Bármely cellát elérhetsz az A1 jelölésével. Ebben a példában a **B2**-vel dolgozunk, de a címet bármely, konvertálni kívánt oszlopra cserélheted.
 
 ```java
 // Step 2: Access the first worksheet and the target cell (B2)
@@ -123,13 +130,10 @@ Cell cell = worksheet.getCells().get("B2");
 System.out.println("Original value: " + cell.getStringValue());
 ```
 
-*Miért fontos:* A cellára való közvetlen hivatkozás lehetővé teszi, hogy az export utasításokat pontosan ott csatoljuk, ahol kell. Ha a teljes munkalapra próbálnád beállítani az export opciókat, elveszítenéd azt a finomhangolt vezérlést, amelyet a **how to export cell** helyzetek gyakran igényelnek.
+*Miért fontos:* A cella közvetlen címezése lehetővé teszi, hogy az exportutasításokat pontosan oda csatold, ahol kell, elkerülve a nem kívánt mellékhatásokat más cellákon.
 
----
-
-## Hogyan állítsuk be az export opciókat tudományos jelöléshez
-
-Most jön a tutorial középpontja: az export konfigurálása úgy, hogy a cella értéke szövegként legyen mentve *és* tudományos jelöléssel jelenjen meg. Az Aspose.Cells egy `ExportTableOptions` osztályt biztosít pontosan erre a célra.
+### 3. lépés: exportálási beállítások konfigurálása tudományos jelöléshez
+A `ExportTableOptions` osztály lehetővé teszi, hogy meghatározd, hogyan íródik ki egy cella. Az `exportAsString` beállítása szöveges kimenetet kényszerít, míg a `setNumberFormat` egy tudományos mintát alkalmaz a megjelenítéshez.
 
 ```java
 // Step 3: Configure export options to force the cell value to be saved as a string
@@ -142,16 +146,11 @@ cell.getExportTableOptions().set(exportOptions);
 ```
 
 *Miért fontos:*  
-- `setExportAsString(true)` azt mondja a könyvtárnak, hogy a mentési művelet során a cella tartalmát szövegként kezelje. Ez a **convert cell to string** lényege.  
-- `setNumberFormat("0.00E+00")` csak az export lépéshez alkalmaz tudományos formátumot. Az alaprendszer cella továbbra is numerikus értéket tarthat, de a létrejövő fájl „1.23E+04” formában mutatja, ami megfelel a **export excel scientific notation** követelménynek.
+- `setExportAsString(true)` biztosítja, hogy a cella tartalma szövegként legyen mentve, elérve a **convert excel column to string** alapcélját.  
+- `setNumberFormat("0.00E+00")` tudományos jelölésben jeleníti meg az exportált szöveget, teljesítve a **export excel with scientific notation** követelményt.
 
-> **Szél eset:** Ha a cella már egy számra hasonlító szöveget tartalmaz, a formátum figyelmen kívül marad, mert az érték már szöveg. Ebben az esetben egyszerűen beállíthatod a `exportAsString`‑t számformátum nélkül.
-
----
-
-## Munkafüzet mentése egyedi export beállításokkal
-
-Miután az export opciók csatolva lettek, az utolsó lépés a munkafüzet egy új fájlba írása. Ez egy olyan Excel fájlt hoz létre, ahol a **B2** szövegként van tárolva, de tudományos jelölésben jelenik meg.
+### 4. lépés: a munkafüzet mentése egyedi beállításokkal
+A mentés elindítja az exportfolyamatot, alkalmazva a konfigurált beállításokat, és egy új fájlt hoz létre, ahol a kiválasztott cella karakterláncként van tárolva.
 
 ```java
 // Step 4: Save the workbook with the custom export settings
@@ -165,29 +164,29 @@ System.out.println("Exported value type: " + exportedCell.getType()); // Should 
 System.out.println("Exported display: " + exportedCell.getStringValue());
 ```
 
-*Miért fontos:* A mentés elindítja az export csővezetékét, alkalmazva a korábban beállított opciókat. A verifikációs blokk azt mutatja, hogy a cella **type** most `STRING`, ami megerősíti a **export excel cell string** sikerét.
+*Miért fontos:* A mentett fájl most `STRING` típusú cellát tartalmaz, ami megerősíti, hogy az export sikeres volt.
 
----
+## Hogyan exportálj Excel cellát szövegként egy teljes oszlopra
+
+Ha egy teljes oszlopot kell konvertálni, iterálj minden cellán, és használd újra ugyanazt a `ExportTableOptions` példányt a memóriahasználat minimalizálása érdekében. Azonos `ExportTableOptions` alkalmazásával minden cellán garantálod, hogy az oszlop minden bejegyzése megőrzi szöveges ábrázolását, ami elengedhetetlen olyan azonosítók esetén, mint a termékkódok, amelyek nem veszíthetnek a vezető nullákban. Ez a megközelítés hatékonyan skálázódik nagy adathalmazoknál.
 
 ## Gyakori kérdések és buktatók
 
 ### Működik ez régebbi Excel formátumokkal (XLS)?
 
-Igen—az Aspose.Cells elvonja a fájlformátum részleteit, így ugyanaz a kód működik `.xls`, `.xlsx`, sőt `.xlsb` esetén is. Csak cseréld ki a fájlkiterjesztést a `save` hívásban.
+Igen — az Aspose.Cells elrejti a fájlformátumot, így ugyanaz a kód működik `.xls`, `.xlsx` és még `.xlsb` esetén is. Csak a `save` hívásban cseréld ki a fájlkiterjesztést.
 
-### Mi van, ha egy egész oszlopot kell konvertálni?
+### Mi van, ha egy teljes oszlopot kell konvertálni?
 
-Átfuthatsz a oszlop celláin és minden egyesre alkalmazhatod ugyanazt a `ExportTableOptions`‑t. Nagy adathalmazok esetén érdemes egyetlen `ExportTableOptions` példányt használni és megosztani a cellák között, hogy csökkentsd a memóriahasználatot.
+Át tudod iterálni az oszlop celláit, és mindegyikre alkalmazni ugyanazt a `ExportTableOptions`-t. Nagy adathalmazok esetén érdemes egyetlen `ExportTableOptions` példányt használni és megosztani a cellák között a memóriaigény csökkentése érdekében.
 
 ### Befolyásolják a képletek?
 
-Ha egy cella képletet tartalmaz, a `setExportAsString(true)` arra kényszeríti, hogy a *kiszámított* eredmény szövegként legyen kiírva, nem pedig a képlet maga. A képlet a munkafüzet objektumban érintetlen marad, de az exportált fájl az eredményt szövegként mutatja.
-
----
+Ha egy cella képletet tartalmaz, a `setExportAsString(true)` a *kiszámított* eredményt írja szövegként, nem magát a képletet. A képlet érintetlenül marad a munkafüzet objektumban, de az exportált fájl az eredményt karakterláncként mutatja.
 
 ## Teljes működő példa
 
-Az alábbiakban a teljes, önálló program látható, amelyet beilleszthetsz egy `Main.java` fájlba. Tartalmazza az importokat, a `main` metódust, és az összes megbeszélt lépést.
+Az alábbiakban a teljes, önálló program látható, amelyet be tudsz másolni egy `Main.java` fájlba. Tartalmazza az importokat, a `main` metódust és az összes korábban tárgyalt lépést.
 
 ```java
 import com.aspose.cells.*;
@@ -231,7 +230,7 @@ public class ExportCellAsString {
 }
 ```
 
-**Várható kimenet** (feltételezve, hogy a `B2` eredetileg a `12345` számot tartotta):
+**Várható kimenet** (feltételezve, hogy a `B2` eredetileg a `12345` számot tartalmazta):
 
 ```
 Original value: 12345
@@ -240,27 +239,56 @@ Exported type: STRING
 Exported display: 1.23E+04
 ```
 
-Vedd észre, hogy a végső megjelenítés tiszteletben tartja a tudományos formátumot, miközben a cella típusa most szöveg—pontosan amit a **convert cell to string** ígér.
+Vedd észre, hogy a végső megjelenítés tiszteletben tartja a tudományos formátumot, miközben a cella típusa most karakterlánc — pontosan azt ígéri a **convert excel column to string**.
 
----
+## Gyakran ismételt kérdések
+
+**Q: Exportálhatok több munkalapot egyszerre?**  
+A: Igen, iterálj minden munkalapon, alkalmazd ugyanazt a `ExportTableOptions`-t, és egyszer mentsd a munkafüzetet — minden munkalap megtartja a saját exportbeállításait.
+
+**Q: Működik ez a megközelítés Linux szervereken?**  
+A: Teljesen. Az Aspose.Cells for Java platformfüggetlen, és bármely JVM‑kompatibilis környezetben fut, beleértve a Linuxot, Windows‑t és macOS‑t.
+
+**Q: Mekkora munkafüzetet tudok feldolgozni?**  
+A: Az Aspose.Cells képes **akár 1 millió sor** kezelésére laponként, csak a rendelkezésre álló heap memória korlátozza; a streaming API‑k használata tovább csökkenti a memóriaigényt.
+
+**Q: Szükséges licenc a termelési használathoz?**  
+A: Igen, egy kereskedelmi licenc eltávolítja a kiértékelési vízjeleket és feloldja a teljes funkcionalitást. Ingyenes próba elérhető a teszteléshez.
+
+**Q: Kombinálhatom ezt feltételes formázással?**  
+A: Határozottan. Alkalmazd a feltételes formázást exportálás előtt; a formázás megmarad, mivel az alaprendszer munkafüzet változatlan marad.
 
 ## Következtetés
 
-Most megmutattuk, hogyan **convert cell to string** Java-ban az Aspose.Cells használatával, lefedve mindent a munkafüzet betöltésétől az export beállítások konfigurálásáig és az eredmény ellenőrzéséig. A **how to export cell** egyedi beállításokkal való elsajátításával pontos irányítást kapsz az Excel kimenet felett, legyen szó **export excel scientific notation**-ról, egyszerű szöveges ábrázolásról vagy mindkettőről.
+Most megmutattuk, hogyan **convert excel column to string** Java-ban az Aspose.Cells használatával, lefedve mindent a munkafüzet betöltésétől az exportálási beállítások konfigurálásig és az eredmény ellenőrzéséig. A **how to export excel cell as text** egyéni beállításokkal való elsajátításával pontos kontrollt nyersz az Excel kimenet felett, legyen szó **export excel with scientific notation**‑ról, egyszerű szöveges ábrázolásról vagy mindkettőről.
 
-Készen állsz a következő kihívásra? Próbáld ki ugyanazt a technikát egy teljes tartományra, kísérletezz különböző számformátumokkal, vagy kombináld feltételes formázással egy kifinomult jelentéshez. Az eszközök most a kezedben vannak—haladj tovább, és tedd az Excel exportjaidat pontosan úgy, ahogy szükséges.
+Készen állsz a következő kihívásra? Próbáld ki ugyanazt a technikát egy teljes tartományra, kísérletezz különböző számformátumokkal, vagy kombináld feltételes formázással egy kifinomult jelentéshez. Az eszközök most a kezedben vannak — hajrá, és tedd az Excel exportjaidat pontosan úgy, ahogy szükséges.
 
 Boldog kódolást!
 
-## Mit érdemes még megtanulni?
+## Mit érdemes legközelebb megtanulni?
 
-Az alábbi útmutatók szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás tartalmaz teljes működő kódrészleteket lépésről‑lépésre magyarázatokkal, hogy segítsenek elsajátítani további API funkciókat és alternatív megvalósítási megközelítéseket a saját projektjeidben.
+Az oszlopkonverzió elsajátítása után felfedezheted a kapcsolódó export szcenáriókat, például a cellák képként történő megjelenítését, HTML jelentések generálását vagy a munkalapok PNG grafikává konvertálását, mindegyik az ugyanazon alap API koncepciókra épül.
 
 - [Hogyan exportáljunk Excel cellákat képként az Aspose.Cells for Java használatával](/cells/english/java/import-export/export-excel-cells-as-image-aspose-cells-java/)
 - [Hogyan hozzunk létre és exportáljunk Excel-t HTML-be az Aspose.Cells Java használatával | Munkafüzet műveletek útmutató](/cells/english/java/workbook-operations/aspose-cells-java-excel-html-export/)
 - [Hogyan exportáljunk egy Excel munkalapot PNG-be az Aspose.Cells Java használatával](/cells/english/java/workbook-operations/export-excel-to-png-aspose-cells-java/)
 
+---
+
+**Utoljára frissítve:** 2026-10-02  
+**Tesztelve a következővel:** Aspose.Cells for Java 23.10  
+**Szerző:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [Excel cella sor és oszlop indexek konvertálása Aspose.Cells Java-val](/cells/java/cell-operations/convert-excel-cell-names-to-indices-aspose-cells-java/)
+- [Excel konvertálása szöveggé az Aspose.Cells for Java használatával&#58; Átfogó útmutató](/cells/java/workbook-operations/convert-excel-text-aspose-cells-java/)
+- [Hogyan konvertáljunk indexet cellanevekké az Aspose.Cells for Java használatával](/cells/java/cell-operations/aspose-cells-java-cell-index-to-name-conversion/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,0 +1,7 @@
+Title: How to generate Excel report by merging an Excel template with Smart Markers
+Slug: how-to-generate-excel-report-by-merging-an-excel-template-wi
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-10-10T23:57:41.892192
+SourceRepo: AI Search API
+Keywords: generate excel report, merge excel template, detail sheet tag, use smart markers, replace smart tags
+PRNumber: 188

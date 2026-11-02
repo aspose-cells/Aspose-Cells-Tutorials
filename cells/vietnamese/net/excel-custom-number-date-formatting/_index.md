@@ -52,14 +52,18 @@ Tìm hiểu cách phân tích ngày trong Excel bằng C# và Aspose.Cells cho .
 Hướng dẫn chi tiết cách tạo workbook Excel với định dạng tùy chỉnh bằng C# và Aspose.Cells.
 ### [Phân tích ngày Niên đại Nhật Bản trong C# với Aspose.Cells – Hướng dẫn đầy đủ](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Hướng dẫn chi tiết cách phân tích ngày theo niên đại Nhật Bản trong C# bằng Aspose.Cells, bao gồm các ví dụ thực tế.
+### [Cách tạo workbook Excel và phân tích ngày Nhật Bản trong C#](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
+Hướng dẫn tạo workbook Excel và xử lý ngày theo lịch Nhật Bản bằng C# với Aspose.Cells.
+### [Phân tích DateTime với Niên hiệu Hoàng đế Nhật Bản bằng Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Hướng dẫn cách phân tích và xử lý DateTime dựa trên niên hiệu Hoàng đế Nhật Bản trong Excel bằng Aspose.Cells cho .NET.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< /blocks/products/pf/main-container >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 
-
-
-
-
+{{< blocks/products/products-backtop-button >}}
 ### [Đặt Định dạng Tùy chỉnh cho Ô trong C# – Hướng dẫn Toàn diện về Ghi & Đọc Ngày trong Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 Khám phá cách thiết lập định dạng tùy chỉnh cho ô và đọc/ghi ngày tháng trong Excel bằng Aspose.Cells cho .NET.
 
@@ -82,6 +86,12 @@ Hướng dẫn chi tiết cách thiết lập định dạng ngày trong Excel b
 Tìm hiểu cách tạo workbook Excel với ngày theo lịch Nhật Bản bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
 ### [Tạo Workbook Excel C# – Giới hạn chữ số có ý nghĩa trong Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
 Tìm hiểu cách tạo workbook Excel trong C# và giới hạn số chữ số có ý nghĩa bằng Aspose.Cells cho .NET.
+### [Cách áp dụng định dạng số trong Excel với Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
+Hướng dẫn chi tiết cách áp dụng định dạng số trong Excel bằng Aspose.Cells cho .NET.
+### [Định dạng cột ngày trong Excel – Hướng dẫn C# đầy đủ để xuất DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+Hướng dẫn chi tiết cách định dạng cột ngày trong Excel khi xuất DataTable bằng C# với Aspose.Cells.
+### [Chuyển đổi Lịch Nhật trong C# – Hướng dẫn đầy đủ](./japanese-calendar-conversion-in-c-full-guide/)
+Tìm hiểu cách chuyển đổi ngày theo lịch Nhật trong C# bằng Aspose.Cells với hướng dẫn chi tiết từng bước.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

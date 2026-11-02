@@ -42,6 +42,8 @@ Aspose.Cells for .NET を使用して、C#で特定の列の背景色を一括�
 Aspose.Cells for .NET を使用して、C# で交互に行の色を設定し、スプレッドシートの可読性と視覚的魅力を向上させる手順を学びます。
 ### [C#でExcelの背景色を追加 – 交互行スタイル](./add-background-color-excel-alternating-row-styles-in-c/)
 Aspose.Cells for .NET を使用して、C# で交互行に背景色を設定し、スプレッドシートの可読性と視覚的魅力を向上させる方法を学びます。
+### [C# で Excel の交互行の色を適用する – 完全ガイド](./apply-alternating-row-colors-in-excel-with-c-complete-guide/)
+C# を使用して Excel の行に交互の背景色を適用し、データの可読性と視覚的な魅力を向上させる完全ガイドです。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

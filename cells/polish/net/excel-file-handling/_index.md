@@ -38,6 +38,8 @@ Naucz się eksportować niestandardowe właściwości z programu Excel do pliku 
 Dowiedz się, jak zachować separatory dla pustych wierszy w programie Excel przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku z dołączonymi przykładami kodu.
 ### [Załaduj widoczne arkusze tylko z pliku Excel](./load-visible-sheets-only/)
 W tym przewodniku krok po kroku dowiesz się, jak za pomocą Aspose.Cells dla platformy .NET ładować tylko widoczne arkusze z plików programu Excel.
+### [Utwórz plik Excel programowo w C# – samouczek](./create-excel-file-programmatically-in-c-tutorial/)
+Dowiedz się, jak programowo tworzyć pliki Excel w języku C# przy użyciu Aspose.Cells dla .NET w prostym przewodniku krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

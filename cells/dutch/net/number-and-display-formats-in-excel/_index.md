@@ -46,6 +46,8 @@ Leer hoe u datum- en tijdwaarden naar ISO-indeling formatteert in C# met Aspose.
 Leer hoe u valuta in een rasterkolom formatteert met Aspose.Cells voor .NET in een eenvoudige stap‑voor‑stap gids.
 ### [Numberformat toepassen in Excel – Stapsgewijze handleiding voor het opmaken van kolommen](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
 Leer hoe u kolommen in Excel automatisch kunt opmaken met Aspose.Cells voor .NET, inclusief getal- en datumformaten.
+### [Hoe Excel-getallen afronden in C# – volledige programmeergids](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+Leer hoe u getallen in Excel kunt afronden met Aspose.Cells voor .NET in C# met stap‑voor‑stap voorbeelden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

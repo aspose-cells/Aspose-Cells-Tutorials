@@ -62,6 +62,9 @@ Aspose.Words Javaのコードチュートリアル
 ### [Aspose.Cells Javaを使用したExcelのカスタムSUM関数：計算を強化する](./custom-sum-function-excel-aspose-cells-java/)
 Aspose.Cells for Java を使って計算エンジンを拡張し、Excel の SUM 関数に定数値を追加してカスタマイズする方法を学びましょう。独自のビジネス計算に最適です。
 
+### [Aspose.Cells Java で expand 関数を使用する: ステップバイステップ ガイド](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
+Aspose.Cells for Java を使って expand 関数を適用し、データの展開方法を学び、Excel の自動化を強化する手順を解説します。
+
 ### [GlobalizationSettings と Aspose.Cells を使用して Java で Excel の数式をカスタマイズする](./customize-excel-formulas-globalizationsettings-aspose-cells-java/)
 Aspose.Cells for Javaを使用して、GlobalizationSettingsでExcelの数式をカスタマイズする方法を学びます。このガイドでは、実装、数式名のローカライズ、パフォーマンス最適化のテクニックについて説明します。
 
@@ -91,6 +94,10 @@ Aspose.Cells for Java を使用して、Excel ワークブックで SEQUENCE 関
 Aspose.Cells for Java を使用して WRAPCOLS 関数を適用し、Excel シートの列幅を自動調整する手順を詳しく解説します。
 ### [Excelで余接関数を計算する方法 – 完全ガイド](./how-to-calculate-cotangent-in-excel-complete-guide/)
 Excelでcotangent関数を使用し、余接の計算方法と実装例をステップバイステップで解説します。
+### [Excelでユニーク値を並べ替える：配列数式設定の完全Javaガイド](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+Aspose.Cells for Java を使用して、配列数式でユニークな値をソートし、Excel シートに適用する方法を学びます。
+### [Java で Aspose を使用する方法 – 新しい関数で Excel ワークブックを作成](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+Aspose.Cells for Java を使って、新しい関数を追加し、Excel ワークブックを作成する手順を解説します。
 
 ## 追加リソース
 

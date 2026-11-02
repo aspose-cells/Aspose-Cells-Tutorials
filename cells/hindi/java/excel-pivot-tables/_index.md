@@ -52,6 +52,37 @@ Aspose.Cells for Java का उपयोग करके पिवट टेब
 जावा में Aspose.Cells का उपयोग करके एक्सेल पिवट टेबल को कॉपी करने की चरण‑दर‑चरण प्रक्रिया सीखें।
 ### [जावा में पिवट टेबल को PNG में निर्यात करें – पूर्ण प्रोग्रामिंग गाइड](./export-pivot-table-to-png-in-java-complete-programming-guide/)
 Aspose.Cells for Java का उपयोग करके पिवट टेबल को PNG इमेज के रूप में निर्यात करने की पूरी प्रक्रिया सीखें।
+### [जावा में रेंज कॉपी करना – Aspose.Cells के साथ पिवट टेबल कॉपी करें](./how-to-copy-range-in-java-copy-pivot-table-with-aspose-cells/)
+Aspose.Cells for Java का उपयोग करके पिवट टेबल की रेंज को कॉपी करने का तरीका सीखें।
+### [पिवट टेबल को PNG के रूप में निर्यात करने का पूर्ण जावा गाइड](./how-to-export-pivot-table-as-png-complete-java-guide/)
+Aspose.Cells for Java का उपयोग करके पिवट टेबल को PNG छवि के रूप में निर्यात करने की पूरी प्रक्रिया सीखें।
+### [Java में Aspose.Cells का उपयोग करके पिवट टेबल कैसे कॉपी करें](./how-to-copy-pivot-table-in-java-using-aspose-cells/)
+Aspose.Cells for Java के साथ पिवट टेबल को कॉपी करने की प्रक्रिया सीखें और अपने रिपोर्ट को आसानी से पुन: उपयोग करें।
+### [वर्कबुक्स के बीच पिवट टेबल कॉपी करना – चरण‑बद्ध जावा गाइड](./copy-pivot-table-between-workbooks-step-by-step-java-guide/)
+Aspose.Cells for Java का उपयोग करके एक वर्कबुक से दूसरे में पिवट टेबल कॉपी करने की प्रक्रिया सीखें।
+### [जावा में नया वर्कबुक बनाना – पिवट टेबल कॉपी करने की पूर्ण गाइड](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
+Aspose.Cells for Java का उपयोग करके नया वर्कबुक बनाएं और पिवट टेबल को कॉपी करने की प्रक्रिया सीखें।
+### [जावा में वर्कशीट को डुप्लिकेट करना और पिवट टेबल्स को संरक्षित रखना](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
+जावा में Aspose.Cells का उपयोग करके वर्कशीट को डुप्लिकेट करें और पिवट टेबल्स को बनाए रखें।
+### [जावा में Aspose.Cells का उपयोग करके पिवट को डुप्लिकेट कैसे करें](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
+Aspose.Cells for Java के साथ पिवट टेबल को डुप्लिकेट करके उसकी फ़ॉर्मेटिंग और डेटा को सुरक्षित रखें।
+### [जावा में रेंज कॉपी करके पिवट टेबल को संरक्षित रखें](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
+### [Java के साथ Excel में पिवट टेबल्स को डुप्लिकेट करने का चरण‑दर‑चरण गाइड](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
+Java में Aspose.Cells के साथ पिवट टेबल्स को डुप्लिकेट करने की पूरी प्रक्रिया सीखें।
+### [एक्सेल पिवट टेबल छवि: जावा के साथ PNG निर्यात](./excel-pivot-table-image-export-to-png-with-java/)
+Aspose.Cells for Java से पिवट टेबल को PNG छवि के रूप में निर्यात करने का तरीका जानें।
+### [जावा में नया वर्कबुक बनाएं और पिवट टेबल कॉपी करें – पूर्ण चरण‑दर‑चरण गाइड](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
+Aspose.Cells for Java का उपयोग करके नया वर्कबुक बनाएं और मौजूदा पिवट टेबल को कॉपी करके डेटा को पुन: उपयोग करें।
+### [Aspose.Cells के साथ जावा में पिवट टेबल कॉपी करना – पूर्ण गाइड](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
+Aspose.Cells for Java का उपयोग करके पिवट टेबल को कॉपी करने की पूरी प्रक्रिया सीखें।
+### [जावा में पिवट टेबल कॉपी करना – Aspose.Cells के साथ चरण‑दर‑चरण मार्गदर्शिका](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
+Aspose.Cells का उपयोग करके जावा में पिवट टेबल को कॉपी करने की पूरी प्रक्रिया सीखें।
+### [Aspose.Cells में पिवट कॉपी कैसे करें – रेंज को वर्कबुक में कॉपी करें](./how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook/)
+Aspose.Cells for Java में पिवट टेबल को कॉपी करके दूसरे वर्कबुक में रेंज को स्थानांतरित करने की प्रक्रिया सीखें।
+### [जावा में Aspose.Cells का उपयोग करके पिवट टेबल कॉपी करना](./how-to-copy-a-pivot-table-in-java-using-aspose-cells/)
+Aspose.Cells के साथ पिवट टेबल को कॉपी करें, फ़ॉर्मेटिंग सुरक्षित रखें और निर्यात विकल्पों का उपयोग करें।
+### [जावा में Excel कार्यपुस्तिकाओं के बीच पिवट टेबल्स कॉपी करना](./how-to-copy-pivot-tables-between-excel-workbooks-in-java/)
+Aspose.Cells for Java का उपयोग करके विभिन्न Excel फ़ाइलों में पिवट टेबल कॉपी करने की प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

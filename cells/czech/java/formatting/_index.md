@@ -62,6 +62,9 @@ Naučte se, jak pracovat s vlastními formáty čísel v sešitech Java pomocí 
 ### [Zvládnutí prezentace dat v Excelu: Formátování čísel a vlastního data s Aspose.Cells pro Javu](./aspose-cells-java-data-formatting-excel/)
 Naučte se, jak používat číselné formáty a vlastní styly data pomocí Aspose.Cells pro Javu a vylepšit tak prezentaci dat v tabulkách aplikace Excel.
 
+### [Aplikace číselného formátu v Excelu v Javě – Kompletní průvodce Aspose.Cells](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+Naučte se, jak aplikovat číselné formáty v Excelu pomocí Aspose.Cells pro Javu. Průvodce obsahuje podrobné kroky a ukázky kódu.
+
 ### [Jak vytvořit a formátovat buňky v Excelu pomocí Aspose.Cells pro Javu: Podrobný návod](./aspose-cells-java-excel-automation-guide/)
 Naučte se, jak snadno automatizovat a formátovat soubory Excelu pomocí Aspose.Cells pro Javu. Tato příručka se zabývá vytvářením sešitů, formátováním buněk a technikami ukládání.
 
@@ -76,6 +79,8 @@ Naučte se, jak programově extrahovat a analyzovat barvy efektů záře z tvar�
 
 ### [Nastavení šířky sloupce v pixelech pomocí Aspose.Cells pro Javu: Kompletní průvodce](./aspose-cells-java-set-column-width-pixels/)
 Naučte se, jak nastavit šířku sloupce v pixelech pomocí Aspose.Cells pro Javu. Tato příručka se zabývá instalací, příklady kódu a praktickými aplikacemi.
+
+### [Vytvořit sešit Excel v Javě a aplikovat číselné formáty sloupců](./create-excel-workbook-java-and-apply-column-number-formats/)
 
 ### [Nastavení velikosti písma v Excelu pomocí Aspose.Cells v Javě - Komplexní průvodce](./aspose-cells-java-set-font-size-excel/)
 Naučte se, jak nastavit velikost písma v souborech Excelu pomocí Aspose.Cells pro Javu v tomto podrobném návodu. Zlepšete si své dovednosti formátování dokumentů ještě dnes!
@@ -219,13 +224,13 @@ Naučte se, jak sloučit buňky a aplikovat vlastní styly v excelových listech
 Naučte se, jak automatizovat úpravy stylů v excelových tabulkách pomocí Aspose.Cells pro Javu, ušetřit čas a zajistit konzistenci.
 
 ### [Optimalizace excelových listů se sloučenými buňkami pomocí Aspose.Cells pro Javu](./optimize-excel-sheets-merged-cells-aspose-cells-java/)
-Naučte se optimalizovat excelové listy sloučením buněk pomocí nástroje Aspose.Cells pro Javu. Tato příručka se zabývá efektivní manipulací se sešity, jejich stylováním a ukládáním.
+Naučte se, optimalizovat excelové listy sloučením buněk pomocí nástroje Aspose.Cells pro Javu. Tato příručka se zabývá efektivní manipulací se sešity, jejich stylováním a ukládáním.
 
 ### [Otočení textu v buňkách aplikace Excel pomocí Aspose.Cells v Javě: Kompletní průvodce](./rotate-text-excel-cells-aspose-cells-java/)
 Naučte se, jak otáčet text v buňkách aplikace Excel pomocí nástroje Aspose.Cells pro Javu. Vylepšete si tabulky díky lepší čitelnosti a designu.
 
 ### [Jak nastavit faktor přiblížení listu aplikace Excel pomocí Aspose.Cells pro Javu](./set-zoom-factor-excel-aspose-cells-java/)
-Naučte se, jak nastavit faktor přiblížení v listech aplikace Excel pomocí Aspose.Cells pro Javu. Vylepšete si programově prezentaci a prohlížení dat.
+Naučte se, jak nastavit faktor přiblížení v listech aplikace Excel pomocí Aspose.Cells pro Javu. Vylepšte si programově prezentaci a prohlížení dat.
 
 ### [Jak seřadit data v Excelu podle barvy sloupce pomocí Aspose.Cells v Javě: Kompletní průvodce](./sort-excel-data-by-column-color-aspose-cells-java/)
 Naučte se, jak efektivně třídit data v Excelu podle barvy sloupce pomocí Aspose.Cells pro Javu. Tato příručka zahrnuje předpoklady, kroky implementace a praktické aplikace.
@@ -242,6 +247,19 @@ Naučte se, jak aplikovat styly při převodu DataTable do Excelu pomocí Aspose
 
 ### [Aspose Cells formát data: Jak nastavit vlastní formát data v Javě](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
 Naučte se, jak nastavit vlastní formát data v Excelu pomocí Aspose.Cells pro Javu.
+### [Nastavení tučného písma v exportu Excelu v Javě – Kompletní průvodce](./set-font-bold-in-java-excel-export-complete-guide/)
+Naučte se, jak nastavit tučné písmo při exportu souborů Excel v Javě pomocí Aspose.Cells.
+
+### [Nastavení vlastního formátu čísel v Excelu pomocí Javy – Kompletní průvodce](./set-custom-number-format-in-excel-with-java-complete-guide/)
+Naučte se, jak nastavit vlastní číselné formáty v Excelu pomocí Aspose.Cells pro Javu.
+### [Jak vytvořit stylovaný sešit Excel v Javě – Kompletní průvodce](./create-styled-excel-workbook-in-java-complete-guide/)
+Naučte se, jak programově vytvořit a stylovat sešit Excel v Javě pomocí Aspose.Cells. Tento průvodce obsahuje podrobné kroky a ukázky kódu.
+
+### [Jak použít WRAPCOLS v Aspose.Cells – Kompletní Java příklad](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Naučte se, jak pomocí funkce WRAPCOLS v Aspose.Cells pro Javu rozdělit text do více sloupců a optimalizovat formátování tabulek.
+### [Jak vytvořit excelový sešit s formátem měny a tučným písmem v Javě](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+
+### [Jak omezit významné číslice v Excelu pomocí Javy](./how-to-limit-significant-digits-excel-using-java/)
 
 ## Další zdroje
 

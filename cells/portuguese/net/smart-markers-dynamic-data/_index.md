@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Marcadores inteligentes no Aspose.Cells para dados dinâmicos
@@ -47,6 +49,8 @@ Você sabia que pode incorporar conteúdo HTML diretamente em suas planilhas do 
 ## Avalie IsBlank com marcadores inteligentes
 Gerenciar valores em branco em conjuntos de dados pode ser um incômodo, mas o Aspose.Cells simplifica isso com sua capacidade de avaliar valores em branco usando Marcadores Inteligentes. Esse recurso permite que você verifique facilmente se há células vazias e ajuste sua lógica de relatórios de acordo. Com esse recurso, seus relatórios podem lidar automaticamente com situações em que dados podem estar ausentes, garantindo que seu público receba informações claras e precisas. Descubra como implementar esse recurso de forma eficaz em seus relatórios. [Ler mais](./evaluate-isblank-smart-markers/)
 
+### [Como Avaliar Fórmula com Marcadores Inteligentes – Guia Completo](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
+
 ## Implementar matriz de variáveis com marcadores inteligentes
 Você lida frequentemente com quantidades variáveis de dados? O recurso de matriz variável do Smart Markers permite gerenciar listas de dados com flexibilidade. Isso significa que você pode gerar relatórios que se adaptam a diferentes tamanhos de conjuntos de dados sem precisar redesenhar seus modelos toda vez. Ao aprender a implementar matrizes variáveis, você pode otimizar seus processos de geração de relatórios e aprimorar a apresentação dos dados. Este tutorial detalha as etapas para ajudar você a começar a usar matrizes variáveis em seus relatórios. [Ler mais](./variable-array-smart-markers/)
 
@@ -82,11 +86,14 @@ Descubra o poder do Aspose.Cells com este tutorial passo a passo sobre como usar
 Libere o potencial dos relatórios do Excel com o Aspose.Cells manipulando objetos aninhados sem esforço usando Marcadores Inteligentes em um guia passo a passo.
 ### [Mesclagem de dados do Excel em C# – Guia Completo de Marcadores Inteligentes](./excel-data-merging-in-c-complete-smart-marker-guide/)
 Descubra como mesclar dados do Excel usando Marcadores Inteligentes no Aspose.Cells para .NET com este guia completo passo a passo.
+### [Como gerar relatório Excel mesclando um modelo Excel com Marcadores Inteligentes](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
+Aprenda a gerar relatórios Excel combinando um modelo com Marcadores Inteligentes usando Aspose.Cells para .NET.
 ### [Implementar matriz de variáveis com marcadores inteligentes Aspose.Cells](./variable-array-smart-markers/)
 Desbloqueie o poder do Aspose.Cells. Aprenda a implementar matrizes de variáveis com Marcadores Inteligentes passo a passo para gerar relatórios do Excel sem interrupções.
 ### [Como carregar modelo e criar relatório Excel com SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 Aprenda a carregar um modelo de Excel e gerar relatórios usando SmartMarkers no Aspose.Cells para .NET.
-
+### [Criar pasta de trabalho Excel programaticamente usando Marcadores Inteligentes](./create-excel-workbook-programmatically-using-smart-markers/)
+Aprenda a criar programaticamente uma pasta de trabalho do Excel usando Marcadores Inteligentes no Aspose.Cells para .NET.
 ### [Como gerar relatório Excel em C# – Guia completo usando SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 Aprenda passo a passo a criar relatórios Excel em C# usando SmartMarker, cobrindo configuração, geração e personalização de dados.
 ### [Criar planilhas dinâmicas com marcadores inteligentes no Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
@@ -109,21 +116,18 @@ Aprenda a usar Marcadores Inteligentes para preencher um modelo Excel com dados 
 Aprenda a criar uma pasta de trabalho Excel usando C# e inserir matrizes em células de forma eficiente com Aspose.Cells.
 ### [Criar modelo Excel com Marcadores Inteligentes em C# – Guia completo](./create-excel-template-with-smart-markers-in-c-complete-guide/)
 Aprenda passo a passo como criar um modelo de Excel usando Marcadores Inteligentes em C# com este guia completo.
+### [Como criar dados de Smart Marker e preencher dados de modelo Excel](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
+Aprenda a criar dados para Smart Markers e preencher um modelo Excel dinamicamente usando Aspose.Cells para .NET.
 ### [Habilitar a Opção de Intervalo Aninhado no Aspose.Cells SmartMarker](./enable-nested-range-option-in-aspose-cells-smartmarker/)
 Aprenda a habilitar a opção de intervalo aninhado nos Marcadores Inteligentes do Aspose.Cells para gerar relatórios mais complexos.
 ### [Como vincular planilhas no Excel com SmartMarker – Guia passo a passo](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
 Aprenda a conectar planilhas no Excel usando SmartMarker, criando relatórios interligados de forma simples e eficiente.
 ### [Converter JSON para Excel com C# – Guia passo a passo](./convert-json-to-excel-with-c-step-by-step-guide/)
 Aprenda a converter arquivos JSON em planilhas Excel usando C# com o Aspose.Cells, passo a passo.
+### [Converter JSON para XLSX em C# usando SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
+Aprenda a converter arquivos JSON para XLSX usando SmartMarker em C#, passo a passo.
 ### [Criar Pasta de Trabalho a partir de XLSX com Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
 Aprenda a gerar uma nova pasta de trabalho a partir de um arquivo XLSX usando o SmartMarkerProcessor do Aspose.Cells.
-
-
-
-
-
-
-
 
 ### [Nomear automaticamente planilhas do Excel – Forma fácil de gerar planilhas](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
 Aprenda a nomear automaticamente as planilhas do Excel ao gerar relatórios, simplificando a organização e economizando tempo.
@@ -138,6 +142,8 @@ Aprenda a criar e gerenciar coleções de marcadores inteligentes no Aspose.Cell
 ### [Repetir dados no Excel – Preencher modelo com SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
 ### [Exportar Dados para Excel: Preencher um Modelo a partir de um Array em C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
 ### [Como Exportar Excel – Guia Completo para Desenvolvedores C#](./how-to-export-excel-complete-guide-for-c-developers/)
+### [Criar Excel a partir de JSON com Marcador Inteligente Aspose.Cells](./create-excel-from-json-with-aspose-cells-smart-marker/)
+Aprenda a gerar arquivos Excel a partir de dados JSON usando Marcadores Inteligentes do Aspose.Cells em .NET.
 ### [Como nomear planilhas automaticamente – Gerar várias planilhas em C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Aprenda a criar e nomear múltiplas planilhas dinamicamente usando Marcadores Inteligentes no Aspose.Cells com C#.
 ### [Automatizar geração de faturas – Nomeação dinâmica de planilhas e repetição em C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
@@ -150,16 +156,9 @@ Aprenda a criar um modelo de desconto em C# usando Aspose.Cells, passo a passo, 
 Aprenda a gerar uma pasta de trabalho que destaca valores altos e baixos usando Marcadores Inteligentes no Aspose.Cells para .NET.
 ### [Criar relatório mestre‑detalhe em C# – Preencher modelo Excel com SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
 Aprenda a criar um relatório mestre‑detalhe em C# preenchendo um modelo Excel usando SmartMarkers no Aspose.Cells.
+### [Como criar lista de relatórios Excel com marcadores inteligentes do Aspose.Cells](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+Aprenda a gerar uma lista de relatórios Excel usando Marcadores Inteligentes do Aspose.Cells em .NET.
 
-
-
-
-
-
-
-
-### [Analisar JSON Aninhado C# – Criar Payload JSON C#](./parse-nested-json-c-create-json-payload-c/)
-Aprenda a analisar JSON aninhado e criar payloads JSON em C# usando Aspose.Cells.
 ### [Aplicar SmartMarker à Planilha em C# – Guia Completo](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
 Aprenda passo a passo como aplicar SmartMarker a uma planilha usando C#, criando relatórios Excel dinâmicos de forma completa.
 ### [Criar Excel programaticamente usando Marcadores Inteligentes do Aspose.Cells](./create-excel-programmatically-using-aspose-cells-smart-marke/)
@@ -170,10 +169,25 @@ Aprenda a criar várias planilhas dinamicamente usando SmartMarker em C#, com pa
 Aprenda passo a passo como exportar dados para um modelo Excel usando Marcadores Inteligentes no Aspose.Cells para .NET.
 ### [Aspose Cells Marcadores Inteligentes: Gerar Excel a partir de Modelo em C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
 Aprenda a gerar arquivos Excel a partir de um modelo usando Marcadores Inteligentes do Aspose.Cells em C# passo a passo.
+### [Carregar modelo Excel em C# – Gerar várias planilhas rapidamente](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
+Aprenda a carregar um modelo Excel em C# e gerar várias planilhas de forma rápida usando Aspose.Cells.
+### [Marcador de intervalo para processar dados aninhados em C# – Guia completo](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
+Aprenda a usar marcadores de intervalo para processar dados aninhados em C# passo a passo neste guia completo.
+### [Importar JSON para Excel em C# – guia passo a passo](./import-json-to-excel-in-c-step-by-step-guide/)
+Aprenda a importar arquivos JSON para planilhas Excel usando C# com Aspose.Cells, passo a passo, de forma simples e eficiente.
+### [Criar Pasta de Trabalho Mestre‑Detalhe com Marcador Inteligente Aspose.Cells](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+Aprenda a gerar uma pasta de trabalho mestre‑detalhe usando Marcadores Inteligentes no Aspose.Cells para .NET.
+### [Guia mestre‑detalhe Excel – preencher modelos com Marcadores Inteligentes](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+Aprenda a gerar relatórios mestre‑detalhe preenchendo modelos de Excel usando Marcadores Inteligentes no Aspose.Cells para .NET.
+### [Como Repetir Planilhas – Guia Completo para Automação do Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+Aprenda a duplicar planilhas automaticamente usando Aspose.Cells, otimizando a criação de relatórios e economizando tempo no Excel.
+
+### [Analisar JSON Aninhado C# – Criar Payload JSON C#](./parse-nested-json-c-create-json-payload-c/)
+Aprenda a analisar JSON aninhado e criar payloads JSON em C# usando Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

@@ -41,10 +41,15 @@
 تعرّف على كيفية تصدير ملفات إكسل إلى صيغة CSV باستخدام Aspose.Cells لجافا. دليل خطوة بخطوة مع الكود المصدري.
 ### [تصدير XLSX كملف CSV – دليل جافا كامل](./export-xlsx-as-csv-complete-java-guide/)
 دليل شامل خطوة بخطوة لتصدير ملفات XLSX إلى CSV باستخدام Aspose.Cells لجافا.
+### [تصدير إكسل إلى TXT باستخدام جافا – دليل كامل خطوة بخطوة](./export-excel-to-txt-with-java-complete-step-by-step-guide/)
+تعرف على كيفية تصدير ملفات إكسل إلى صيغة TXT باستخدام Aspose.Cells لجافا عبر دليل شامل مع أمثلة الكود.
+### [كيفية تصدير ورقة العمل إلى CSV بدقة في Java](./how-to-export-worksheet-to-csv-with-precision-in-java/)
 ### [تصدير Excel إلى PDF](./exporting-excel-to-pdf/)
 تعلّم كيفية تصدير ملفات Excel إلى PDF بسهولة باستخدام Aspose.Cells لجافا. دليلنا المفصل يُبسّط العملية. ابدأ التحويل اليوم!
 ### [إنشاء PDF من مصنف – دليل جافا كامل](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
 تعلم كيفية إنشاء ملف PDF من مصنف Excel باستخدام Aspose.Cells لجافا خطوة بخطوة مع أمثلة الكود.
+### [تحويل Excel إلى PDF – دليل Java كامل مع Aspose.Cells](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
+تعلم كيفية تحويل ملفات Excel إلى PDF باستخدام Aspose.Cells لجافا من خلال دليل شامل خطوة بخطوة مع أمثلة الكود.
 ### [تصدير Excel إلى XML Java](./export-excel-to-xml-java/)
 تعرّف على كيفية تصدير Excel إلى XML في Java باستخدام Aspose.Cells for Java. دليل خطوة بخطوة مع الكود المصدري لتحويل البيانات بسلاسة.
 ### [استيراد البيانات من Excel](./data-import-from-excel/)
@@ -97,6 +102,79 @@
 تعلم كيفية تضمين الخطوط في ملفات SVG المستخرجة من Excel باستخدام Aspose.Cells لجافا خطوة بخطوة.
 ### [تضمين الخطوط في HTML – تحويل Excel إلى HTML وحفظ المصنف](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
 تعرّف على كيفية تضمين الخطوط عند تحويل ملفات Excel إلى HTML وحفظ المصنف باستخدام Aspose.Cells لـ Java.
+### [تحويل Excel إلى PPTX: دليل Java كامل](./convert-excel-to-pptx-complete-java-guide/)
+تعلم كيفية تحويل ملفات Excel إلى عروض PowerPoint (PPTX) باستخدام Aspose.Cells لـ Java في دليل شامل خطوة بخطوة.
+### [تحويل Excel إلى PDF/A باستخدام Java – دليل كامل خطوة بخطوة](./convert-excel-to-pdf-a-with-java-complete-step-by-step-guide/)
+تعلم كيفية تحويل ملفات Excel إلى PDF/A باستخدام Aspose.Cells لجافا من خلال دليل شامل خطوة بخطوة مع أمثلة الكود.
+### [تصدير المخطط كصورة – دليل كامل لتحويل Excel إلى Word](./export-chart-as-image-complete-guide-to-convert-excel-to-wor/)
+تعرّف على كيفية تصدير المخططات كصور ثم تحويل ملفات Excel إلى مستندات Word باستخدام Aspose.Cells لجافا.
+### [كيفية تصدير Excel إلى SVG – دليل Java خطوة بخطوة](./how-to-export-excel-to-svg-step-by-step-java-guide/)
+تعرّف على طريقة تصدير ملفات Excel إلى صيغة SVG باستخدام Aspose.Cells لجافا من خلال دليل خطوة بخطوة مع أمثلة الكود.
+### [كيفية تضمين الخطوط عند تحويل Excel إلى HTML – دليل كامل](./how-to-embed-fonts-when-converting-excel-to-html-complete-gu/)
+اكتشف طريقة تضمين الخطوط في ملفات HTML عند تحويل Excel باستخدام Aspose.Cells لجافا، مع دليل شامل خطوة بخطوة.
+### [إنشاء ملف FlatOPC من مصنف Excel – دليل خطوة بخطوة](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
+تعرف على كيفية إنشاء ملف FlatOPC من مصنف Excel باستخدام Aspose.Cells لجافا عبر دليل خطوة بخطوة مع أمثلة الكود.
+### [تصدير JSON إلى Excel باستخدام Java – دليل خطوة بخطوة كامل](./export-json-to-excel-with-java-complete-step-by-step-guide/)
+تعلم كيفية تحويل ملفات JSON إلى Excel باستخدام Aspose.Cells لجافا عبر دليل شامل مع أمثلة الكود خطوة بخطوة.
+### [إنشاء ملف Excel من JSON وتحويل JSON إلى خلية Excel باستخدام Aspose.Cells](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+تعلم كيفية إنشاء ملفات Excel من بيانات JSON وتحويلها إلى خلايا Excel باستخدام Aspose.Cells.
+### [تحويل ملف XLSX إلى PowerPoint باستخدام Java – دليل كامل](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
+### [استيراد الكائنات المخصصة إلى Excel باستخدام Aspose.Cells – دليل Java](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
+تعرّف على كيفية استيراد كائنات مخصصة إلى ملفات Excel باستخدام Aspose.Cells لجافا. دليل خطوة بخطوة مع أمثلة عملية.
+### [كيفية تعيين الفاصل وحفظ كملف CSV باستخدام Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
+تعلم كيفية تعيين الفاصل المخصص وحفظ ملفات Excel كـ CSV باستخدام Aspose.Cells لجافا بسهولة.
+### [تضمين الخطوط في SVG أثناء تصدير Excel إلى SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
+تعلم كيفية تضمين الخطوط داخل ملفات SVG عند تصدير مصنفات Excel باستخدام Aspose.Cells لجافا.
+### [تصدير إكسل إلى HTML في جافا – دليل خطوة بخطوة كامل](./export-excel-to-html-in-java-complete-step-by-step-guide/)
+### [كيفية استيراد قائمة إلى Excel وتنسيق الأعمدة في Java](./how-to-import-list-to-excel-and-style-columns-in-java/)
+تعلم كيفية استيراد قائمة إلى ملف Excel وتطبيق تنسيقات على الأعمدة باستخدام Aspose.Cells لجافا.
+### [كيفية تصدير Excel إلى TXT مع أرقام ذات أرقام معنوية محدودة باستخدام Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
+تعرّف على تصدير Excel إلى TXT مع تحديد الأرقام المعنوية باستخدام Aspose.Cells لجافا. دليل خطوة بخطوة مع الكود المصدري.
+### [كيفية تصدير Excel إلى PowerPoint باستخدام Aspose.Cells – دليل خطوة بخطوة](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+تعلم كيفية تصدير ملفات Excel إلى PowerPoint باستخدام Aspose.Cells خطوة بخطوة.
+### [تصدير JSON إلى Excel باستخدام Aspose.Cells في Java](./export-json-to-excel-with-aspose-cells-in-java/)
+تعرّف على كيفية تصدير بيانات JSON إلى ملفات Excel باستخدام Aspose.Cells في Java خطوة بخطوة.
+### [كيفية تحميل JSON إلى Excel باستخدام Aspose.Cells لجافا](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
+تعرف على طريقة تحميل ملفات JSON وتحويلها إلى جداول Excel باستخدام Aspose.Cells لجافا خطوة بخطوة.
+### [إنشاء Excel من JSON – دليل Java كامل مع Aspose.Cells](./create-excel-from-json-full-java-guide-with-aspose-cells/)
+تعلم كيفية إنشاء ملفات Excel من بيانات JSON باستخدام Aspose.Cells لجافا خطوة بخطوة مع أمثلة الكود.
+### [إنشاء Word من Excel – دليل كامل لتصدير XLSX](./create-word-from-excel-complete-guide-to-exporting-xlsx/)
+تعلم كيفية تحويل ملفات Excel إلى مستندات Word وتصديرها بصيغة XLSX باستخدام Aspose.Cells لجافا.
+### [حفظ المصنف كملف XLSX باستخدام Smart Marker – تصدير الطلبات إلى إكسل](./save-workbook-as-xlsx-with-smart-marker-export-orders-to-exc/)
+تعلم كيفية حفظ المصنف بصيغة XLSX باستخدام Smart Marker وتصدير طلباتك إلى إكسل بسهولة مع Aspose.Cells لجافا.
+### [كيفية تنسيق إكسل – استيراد DataTable مع تنسيق مخصص في جافا](./how-to-style-excel-import-datatable-with-custom-formatting-i/)
+تعلم كيفية استيراد DataTable إلى ملف إكسل وتطبيق تنسيقات مخصصة باستخدام Aspose.Cells لجافا.
+### [حفظ المصنف كملف CSV – دليل Java كامل لتصدير Excel إلى CSV](./save-workbook-as-csv-complete-java-guide-to-export-excel-to/)
+تعلم كيفية حفظ المصنف بصيغة CSV باستخدام Aspose.Cells لجافا خطوة بخطوة مع أمثلة الكود.
+### [تضمين تصدير الصيغ في جافا – تحويل خلايا إكسل إلى نص](./include-formulas-export-in-java-convert-excel-cells-to-text/)
+تعلم كيفية تصدير الصيغ مع تحويل خلايا إكسل إلى نص في جافا باستخدام Aspose.Cells. دليل خطوة بخطوة مع أمثلة الكود.
+### [كيفية تضمين الخطوط في HTML من Excel – دليل كامل](./how-to-embed-fonts-in-html-from-excel-full-guide/)
+تعرّف على طريقة تضمين الخطوط في ملفات HTML المستخرجة من Excel باستخدام Aspose.Cells لجافا خطوة بخطوة مع أمثلة الكود.
+### [كيفية تصدير PPTX من Excel – دليل Java الكامل](./how-to-export-pptx-from-excel-complete-java-guide/)
+تعرّف على كيفية تصدير ملفات PPTX من Excel باستخدام Aspose.Cells لـ Java عبر دليل شامل خطوة بخطوة.
+### [إدراج JSON في Excel باستخدام Aspose Cells – دليل Java كامل](./insert-json-into-excel-with-aspose-cells-full-java-guide/)
+تعرّف على كيفية إدراج بيانات JSON في ملفات Excel باستخدام Aspose Cells لجافا. دليل خطوة بخطوة مع الكود المصدري.
+### [تعيين فاصل خلايا مخصص – تصدير جدول إكسل إلى TXT](./set-custom-cell-separator-export-excel-table-to-txt/)
+تعرف على كيفية تعيين فاصل خلايا مخصص عند تصدير جدول إكسل إلى ملف TXT باستخدام Aspose.Cells لجافا.
+### [إنشاء إكسل من JSON باستخدام Aspose Cells – دليل Java كامل](./create-excel-from-json-with-aspose-cells-full-java-guide/)
+تعلم كيفية تحويل بيانات JSON إلى ملفات Excel باستخدام Aspose.Cells لجافا من خلال دليل شامل خطوة بخطوة مع أمثلة الكود.
+### [كيفية تصدير Excel إلى PowerPoint – دليل خطوة بخطوة](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+تعرّف على طريقة تصدير ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells لجافا خطوة بخطوة.
+### [تصدير الخلايا المحددة إلى CSV في جافا – دليل كامل](./export-selected-cells-to-csv-in-java-complete-guide/)
+دليل شامل يوضح كيفية تصدير خلايا مختارة من ملف Excel إلى صيغة CSV باستخدام Aspose.Cells لجافا.
+### [كيفية تعيين منطقة الطباعة في إكسل وتصديرها إلى PowerPoint](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+تعرف على كيفية تحديد منطقة الطباعة في ملف إكسل وتصديرها إلى عرض تقديمي PowerPoint باستخدام Aspose.Cells لجافا.
+### [كيفية استخدام العلامات الذكية من Aspose لتحويل JSON إلى Excel في Java](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+تعرف على كيفية تحويل ملفات JSON إلى Excel باستخدام العلامات الذكية من Aspose في Java.
+### [كيفية تصدير إكسل إلى TXT باستخدام Aspose.Cells والتحكم في دقة الأرقام العشرية](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+تعرّف على تصدير ملفات Excel إلى TXT مع التحكم في عدد الأرقام العشرية باستخدام Aspose.Cells.
+### [كيفية تصدير Excel إلى PowerPoint باستخدام Java](./how-to-export-excel-to-powerpoint-with-java/)
+تعرّف على طريقة تصدير ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells لـ Java خطوة بخطوة.
+### [كيفية تصدير ورقة Excel إلى PowerPoint باستخدام Aspose.Cells في Java](./how-to-export-excel-sheet-to-powerpoint-with-aspose-cells-in/)
+### [كيفية تحويل JSON إلى Excel وتعبئة Excel من JSON باستخدام Aspose.Cells](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
+### [حفظ المصنف كملف CSV باستخدام Aspose.Cells لجافا – دليل خطوة بخطوة](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
+### [تحويل Markdown إلى جدول بيانات في Java – دليل خطوة بخطوة](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+تعرف على كيفية تحويل ملفات Markdown إلى جداول بيانات Excel باستخدام Aspose.Cells لجافا خطوة بخطوة مع أمثلة الكود.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

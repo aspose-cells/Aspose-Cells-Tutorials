@@ -40,6 +40,10 @@ Bu adım adım eğitimde Aspose.Cells for .NET kullanarak adlandırılmış aral
 Bu adım adım kılavuzda Aspose.Cells for .NET ile Excel çalışma kitabı oluşturmayı, tablo eklemeyi ve adlandırma kurallarını öğrenin.
 ### [Excel Çalışma Kitabını Kaydet ve Adlandırılmış Aralık Ekle – Tam C# Kılavuzu](./save-excel-workbook-and-add-named-range-full-c-guide/)
 Aspose.Cells for .NET kullanarak bir Excel dosyasını kaydedin ve adlandırılmış bir aralık ekleyerek tam C# örneğiyle nasıl yapacağınızı öğrenin.
+### [C# ile Excel Çalışma Kitabı Oluşturma – Adlandırılmış Aralık Ekleme ve Tablo Adı Belirleme](./create-excel-workbook-in-c-add-named-range-set-table-name/)
+C# ve Aspose.Cells for .NET kullanarak yeni bir Excel dosyası oluşturun, adlandırılmış aralık ekleyin ve tablo adını ayarlayın.
+### [Excel Tablosuna Ad Verme ve Ad Çakışmalarını Önleme](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
+Aspose.Cells for .NET kullanarak Excel tablosuna ad atama ve olası ad çakışmalarını önleme yöntemlerini öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

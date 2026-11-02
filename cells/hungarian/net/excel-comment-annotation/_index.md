@@ -38,6 +38,8 @@ Tanuld meg, hogyan adhatsz megjegyzéseket cellákhoz Excelben az Aspose.Cells f
 Fedezze fel, hogyan formázhatja könnyedén az Excel-megjegyzéseket az Aspose.Cells for .NET segítségével. Testreszabhatja a betűtípust, a méretet és az igazítást a táblázatai fejlesztése érdekében.
 ### [Excel munkafüzet létrehozása C# – Megjegyzések hozzáadása és kitöltése okos jelölőkkel](./create-excel-workbook-c-add-and-fill-comments-with-smart-mar/)
 Tanuld meg, hogyan hozhatsz létre Excel munkafüzetet C#-ban, és adhatod hozzá, illetve töltheted ki a megjegyzéseket okos jelölőkkel az Aspose.Cells for .NET‑ben.
+### [Hogyan adjon megjegyzést az Excelhez az Aspose.Cells okos jelölőkkel](./how-to-add-comment-to-excel-using-aspose-cells-smart-markers/)
+Tanulja meg, hogyan adjon megjegyzést egy Excel fájlhoz az Aspose.Cells okos jelölőkkel C#-ban.
 
 ### [Megjegyzés hozzáadása Excel cellához Aspose.Cells C# használatával](./add-comment-to-excel-cell-using-aspose-cells-c/)
 Tanulja meg, hogyan adhat megjegyzést egy Excel cellához az Aspose.Cells C# könyvtár segítségével.
@@ -54,6 +56,9 @@ Tanulja meg, hogyan adjon megjegyzést Excel fájlokhoz C#-ban az Aspose.Cells f
 ### [Excel munkafüzet létrehozása C# – Megjegyzés hozzáadása és mentés XLSX formátumban](./create-excel-workbook-c-add-comment-save-as-xlsx/)
 Tanuld meg, hogyan hozhatsz létre Excel munkafüzetet C#-ban, adj hozzá megjegyzést, és mentsd el XLSX formátumban az Aspose.Cells for .NET segítségével.
 
+### [Megjegyzés beszúrása Excelbe C#‑val – lépésről‑lépésre útmutató](./insert-comment-into-excel-with-c-step-by-step-guide/)
+Tanulja meg, hogyan szúrjon be megjegyzést Excel fájlba C#‑ban az Aspose.Cells for .NET segítségével.
+
 ### [Megjegyzés hozzáadása Excel – Hogyan töltsünk fel egy Excel sablont okos jelölőkkel C#-ban](./add-comment-excel-how-to-populate-an-excel-template-with-sma/)
 Tanulja meg, hogyan adjon megjegyzést egy Excel sablonhoz okos jelölőkkel C#-ban az Aspose.Cells for .NET segítségével.
 ### [Excel-fájl létrehozása programozottan – Megjegyzések hozzáadása és mentés XLSX formátumban](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
@@ -64,6 +69,8 @@ Ismerje meg, hogyan adhat hozzá megjegyzést cellához az Aspose.Cells Smart Ma
 Tanuld meg, hogyan adhatsz megjegyzést egy cellához C#-ban, és generálj Excel-fájlt adatokból az Aspose.Cells for .NET segítségével.
 ### [Excel megjegyzés beszúrása C#-ban – Teljes SmartMarker útmutató](./insert-excel-comment-with-c-complete-smartmarker-guide/)
 Fedezze fel, hogyan szúrhat be Excel megjegyzéseket C#-ban a SmartMarker segítségével az Aspose.Cells for .NET használatával.
+### [Megjegyzés beszúrása Excelben az Aspose.Cells használatával](./how-to-insert-comment-in-excel-using-aspose-cells/)
+Tanuld meg, hogyan szúrj be megjegyzést Excelben az Aspose.Cells for .NET segítségével, lépésről lépésre útmutató.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

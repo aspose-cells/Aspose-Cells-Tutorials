@@ -46,6 +46,8 @@ Impara a convertire date e ore in formato ISO con C# usando Aspose.Cells per .NE
 Impara a formattare i valori di valuta in una colonna della griglia usando Aspose.Cells per .NET, con esempi pratici passo‑passo.
 ### [Applicare il formato numerico in Excel – Guida passo‑passo per formattare le colonne](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
 Impara a formattare le colonne di Excel con Aspose.Cells per .NET, applicando formati numerici in modo rapido e preciso.
+### [Come arrotondare i numeri di Excel in C# – guida completa di programmazione](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+Scopri come arrotondare i numeri in Excel usando Aspose.Cells per .NET con C#. Esempi pratici e codice completo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -91,6 +91,10 @@
 Узнайте, как применять функцию WRAPCOLS в Aspose.Cells для Java, чтобы разбивать текст по столбцам в Excel с полным примером кода.
 ### [Как вычислить котангенс в Excel – Полное руководство](./how-to-calculate-cotangent-in-excel-complete-guide/)
 Узнайте, как использовать функции Excel для расчета котангенса, включая примеры кода и рекомендации по точности.
+### [Сортировка уникальных значений в Excel – Полное руководство Java по установке формул массива](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+Узнайте, как сортировать уникальные значения и применять формулы массива в Excel с помощью Aspose.Cells для Java.
+### [Как использовать Aspose в Java – создать книгу Excel с новыми функциями](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
+### [Использование функции Expand в Aspose.Cells Java – пошаговое руководство](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
 
 ## Дополнительные ресурсы
 

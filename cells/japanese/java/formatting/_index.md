@@ -56,8 +56,13 @@ Aspose.Cells for Java を使用して条件付き書式を適用し、データ�
 ### [Aspose.Cells Java で Excel の書式設定にカスタム フォント設定を実装する方法](./aspose-cells-java-custom-fonts/)
 フォント ソースの設定や一般的な問題のトラブルシューティングなど、Aspose.Cells for Java を使用して Excel ドキュメント内のフォントをカスタマイズする方法を学習します。
 
-### [Aspose.Cells を使用した Java Excel ブックのカスタム数値形式をマスターする](./aspose-cells-java-custom-number-formats-handling/)
+### [Aspose.Cells を使用した Java でのワークブックのカスタム数値形式をマスターする: 完全ガイド](./aspose-cells-java-custom-number-formats-handling/)
 Aspose.Cellsを使用して、Javaワークブックでカスタム数値書式を処理する方法を学びます。このガイドでは、ワークブックの設定、例外処理、そして実際のアプリケーションについて説明します。
+
+### [Java で Excel のカスタム数値形式を設定する方法 – 完全ガイド](./set-custom-number-format-in-excel-with-java-complete-guide/)
+Java と Aspose.Cells を使用して、Excel のセルにカスタム数値書式を適用する手順とコード例を解説します。
+### [Aspose.Cells for Java を使用して Excel の数値書式を適用する方法: 完全ガイド](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+Aspose.Cells for Java を使って、Excel のセルに数値書式を設定する方法をステップバイステップで学びます。コード例とベストプラクティスを紹介します。
 
 ### [Excel でのデータ表示をマスターする: Aspose.Cells for Java による数値とカスタム日付の書式設定](./aspose-cells-java-data-formatting-excel/)
 Aspose.Cells for Java を使用して数値形式とカスタム日付スタイルを適用し、Excel スプレッドシートでのデータの表示を強化する方法を学習します。
@@ -235,8 +240,21 @@ Aspose.Cellsを使って、Excelセルのスタイル設定とJavaアプリケ�
 
 ### [Aspose.Cells for Java を使用して、動的書式設定付き Excel ワークブックを作成する方法 – 完全ガイド](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 Java と Aspose.Cells を活用し、動的な書式設定を持つ Excel ワークブックをステップバイステップで作成する方法を学びます。
+
 ### [Aspose.Cells for Java を使用して Excel の数値書式を設定する方法 - 完全ガイド](./set-number-format-excel-in-java-complete-guide/)
 Aspose.Cells for Java を使用して、Excel のセルにカスタム数値書式を設定し、データ表示を最適化する方法を学びます。
+### [Aspose.Cells for Java を使用して Java Excel エクスポートでフォントを太字に設定する方法 – 完全ガイド](./set-font-bold-in-java-excel-export-complete-guide/)
+Aspose.Cells for Java を使い、Excel エクスポート時にフォントを太字に設定する手順とコード例を詳しく解説します。
+### [Aspose.Cells for Java を使用してスタイル付き Excel ワークブックを作成する – 完全ガイド](./create-styled-excel-workbook-in-java-complete-guide/)
+
+### [Aspose.Cells for Java で WRAPCOLS を使用する方法 – 完全な Java 例](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Aspose.Cells for Java を使用して WRAPCOLS 機能を活用し、セルのテキストを自動的に折り返す方法をステップバイステップで解説します。
+### [Javaで通貨形式と太字フォントを使用したExcelブックを作成する方法](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+### [Aspose.Cells for Java を使用して Excel ワークブックを作成し、列の数値書式を適用する方法](./create-excel-workbook-java-and-apply-column-number-formats/)
+Aspose.Cells for Java を使い、Excel ワークブックを作成し、特定の列に数値書式を設定する手順を学びます。
+
+### [Java を使用して Excel の有効数字を制限する方法](./how-to-limit-significant-digits-excel-using-java/)
+Java を使用して Excel の有効数字を制限する方法を学びます。
 
 ## 追加リソース
 

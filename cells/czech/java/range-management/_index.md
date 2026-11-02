@@ -56,8 +56,14 @@ Naučte se, jak automatizovat kopírování sloupců v Excelu pomocí Aspose.Cel
 ### [Jak kopírovat více sloupců v Excelu pomocí Aspose.Cells v Javě: Kompletní průvodce](./copy-multiple-columns-excel-aspose-cells-java/)
 Naučte se, jak automatizovat kopírování více sloupců v listu aplikace Excel pomocí Aspose.Cells pro Javu. Tato příručka se zabývá nastavením, implementací a řešením problémů.
 
+### [Jak kopírovat oblast v Javě pomocí Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
+Naučte se, jak efektivně kopírovat oblast buněk v Excelu pomocí Aspose.Cells pro Javu.
+
 ### [Vytvoření sjednoceného rozsahu v Excelu pomocí Aspose.Cells v Javě: Komplexní průvodce](./create-union-range-excel-aspose-cells-java/)
 Naučte se, jak pomocí Aspose.Cells pro Javu vytvářet sjednocovací oblasti v Excelu, a vylepšovat tak prezentaci a čitelnost dat.
+
+### [Vytvoření nového listu a kopírování rozsahu v Excelu pomocí Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+Naučte se, jak vytvořit nový list a zkopírovat oblast buněk v Excelu pomocí Aspose.Cells pro Javu.
 
 ### [Zvládněte rozsahy zobrazení v Excelu v Javě pomocí Aspose.Cells: Komplexní průvodce](./excel-display-ranges-aspose-cells-java/)
 Naučte se, jak spravovat a optimalizovat rozsahy zobrazení v Excelu pomocí Aspose.Cells pro Javu. Vylepšete možnosti vizualizace dat vaší aplikace.
@@ -89,7 +95,10 @@ Naučte se, jak efektivně spravovat a manipulovat s datovými oblastmi v Excelu
 ### [Rozdělení buněk Excelu v Javě pomocí Aspose.Cells: Podrobný návod](./unmerge-excel-cells-aspose-cells-java-guide/)
 Naučte se, jak efektivně rozdělit buňky v souborech Excelu pomocí Aspose.Cells pro Javu. Tato příručka se zabývá nastavením, detekcí a rozdělováním sloučených buněk s příklady kódu.
 
-
+### [Kopírování rozsahu mezi sešity v Javě – průvodce krok za krokem](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+### [Vytvoření pojmenovaného rozsahu a detekce duplicitního názvu v Excelu](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+### [Jak použít funkci expand v Javě pro zpracování Excelu](./how-to-use-expand-function-in-java-excel-processing/)
+Naučte se, jak využít funkci expand v Aspose.Cells pro Javu k rozšíření oblastí a dynamickému přizpůsobení dat v Excelu.
 
 ## Další zdroje
 

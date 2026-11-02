@@ -62,6 +62,17 @@ Scopri come aprire un file XLSX in Java, caricare la cartella di lavoro e ricalc
 
 ### [Ottimizzare i calcoli Excel con Aspose.Cells Java&#58; Padroneggiare le catene di calcolo per un'elaborazione efficiente dei workbook](./optimize-excel-aspose-cells-java-calculation-chains/)
 Scopri come migliorare le prestazioni di Excel con Aspose.Cells per Java implementando catene di calcolo, calcolando formule in modo efficiente e aggiornando i valori delle celle.
+### [Formule di array dinamici in Java: crea una cartella di lavoro Excel e calcola tutte le formule](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
+Scopri come creare una cartella di lavoro Excel in Java e calcolare tutte le formule di array dinamici in modo efficiente.
+
+### [Come aggiornare le cartelle di lavoro Excel in Java usando Aspose.Cells](./how-to-refresh-excel-workbooks-in-java-using-aspose-cells/)
+Scopri come ricaricare e aggiornare i workbook Excel in Java con il motore di calcolo di Aspose.Cells per garantire dati aggiornati.
+
+### [Come forzare il calcolo delle formule in Java con Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
+Scopri come forzare il ricalcolo delle formule in un workbook Excel usando Aspose.Cells per Java.
+
+### [Ricalcolare tutte le formule Excel con Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
+Un tutorial di codice per ricalcolare tutte le formule Excel usando Aspose.Cells per Java
 
 ## Risorse aggiuntive
 - [Documentazione di Aspose.Cells per Java](https://docs.aspose.com/cells/java/)

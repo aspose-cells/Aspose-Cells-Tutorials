@@ -85,6 +85,8 @@ Mở khóa tiềm năng của thẻ tự đóng trong Excel với hướng dẫn
 Tìm hiểu cách sử dụng Aspose.Cells cho .NET để thiết lập độ rộng cột có thể mở rộng trong các tệp Excel theo chương trình. Hoàn hảo cho việc trình bày dữ liệu hiệu quả.
 ### [Lưu Excel thành HTML với Ô Đóng Băng – Hướng Dẫn C# Hoàn Chỉnh](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
 Tìm hiểu cách lưu Excel dưới dạng HTML với các ô đóng băng bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết từng bước.
+### [Cách xuất xlsx sang HTML với các ô đóng băng trong C#](./how-to-export-xlsx-to-html-with-frozen-panes-in-c/)
+Hướng dẫn chi tiết cách xuất tệp Excel (.xlsx) sang HTML với các ô đóng băng bằng Aspose.Cells cho .NET và C#.
 ### [Thiết lập tên tab trang tính đơn trong xuất HTML](./setting-single-sheet-tab-name/)
 Dễ dàng đặt tên tab trang tính duy nhất trong quá trình xuất HTML bằng Aspose.Cells cho .NET. Hướng dẫn từng bước có kèm ví dụ về mã.
 ### [Cách Nhúng Font trong HTML – Hướng Dẫn Đầy Đủ C#](./how-to-embed-fonts-in-html-complete-c-guide/)
@@ -97,6 +99,8 @@ Tìm hiểu cách xuất Excel sang HTML trong C# đồng thời giữ nguyên c
 Tìm hiểu cách nhúng phông chữ vào HTML khi chuyển Excel sang HTML bằng C# với Aspose.Cells cho .NET trong hướng dẫn chi tiết.
 ### [Cách nhúng phông chữ vào HTML từ Excel – Hướng dẫn toàn diện](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
 Tìm hiểu cách nhúng phông chữ vào HTML từ Excel bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
+### [Cách nhúng phông chữ vào HTML khi lưu workbook](./how-to-embed-fonts-in-html-when-saving-a-workbook/)
+Hướng dẫn chi tiết cách nhúng phông chữ vào HTML khi lưu workbook bằng Aspose.Cells cho .NET.
 ### [Cách xuất Excel sang HTML – Hướng dẫn từng bước](./how-to-export-excel-to-html-step-by-step-guide/)
 Hướng dẫn chi tiết các bước để xuất tệp Excel sang HTML bằng Aspose.Cells cho .NET, phù hợp cho người mới bắt đầu.
 ### [Nhúng phông chữ trong HTML – Xuất Excel sang HTML bằng C#](./embed-fonts-in-html-export-excel-to-html-with-c/)
@@ -116,8 +120,13 @@ Tìm hiểu cách lưu tệp Excel thành HTML bằng Aspose.Cells cho .NET vớ
 Tìm hiểu cách tạo HTML từ bảng trong C# bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết từng bước này.
 ### [Xuất Excel sang HTML với C# – Hướng dẫn lập trình đầy đủ](./export-excel-to-html-with-c-complete-programming-guide/)
 Tìm hiểu cách xuất Excel sang HTML bằng C# với Aspose.Cells cho .NET trong hướng dẫn lập trình chi tiết.
-### [Cách nhúng phông chữ khi xuất Excel sang HTML – Hướng dẫn đầy đủ C#](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
-Tìm hiểu cách nhúng phông chữ vào HTML khi xuất Excel bằng Aspose.Cells cho .NET với hướng dẫn chi tiết từng bước.
+### [Cách nhúng phông chữ khi xuất Excel sang HTML – Hướng dẫn đầy đủ C#](./how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
+Tìm hiểu cách nhúng phông chữ vào HTML khi xuất Excel sang HTML bằng C# với Aspose.Cells cho .NET trong hướng dẫn chi tiết.
+### [Cách xuất Excel sang HTML trong khi giữ nguyên các pane đã đóng băng](./how-to-export-excel-to-html-while-preserving-frozen-panes/)
+### [Lưu Excel dưới dạng HTML – Hướng dẫn toàn diện xuất Excel với định dạng](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
+Tìm hiểu cách lưu tệp Excel thành HTML với đầy đủ định dạng bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
+### [Xuất Excel sang HTML – Hướng dẫn toàn diện về việc giữ lại các ô cố định](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
+Tìm hiểu cách xuất Excel sang HTML trong khi duy trì các ô cố định, bảo đảm bố cục và trải nghiệm người dùng không bị gián đoạn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

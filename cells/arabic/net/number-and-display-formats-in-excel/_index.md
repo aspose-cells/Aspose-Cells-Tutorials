@@ -46,6 +46,8 @@
 تعلم كيفية تنسيق القيم النقدية في عمود الشبكة باستخدام Aspose.Cells لـ .NET خطوة بخطوة.
 ### [تطبيق تنسيق الأرقام في Excel – دليل خطوة بخطوة لتنسيق الأعمدة](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
 دليل تفصيلي لتطبيق تنسيقات الأرقام على الأعمدة في Excel باستخدام Aspose.Cells لـ .NET.
+### [كيفية تقريب أرقام Excel في C# – دليل برمجي كامل](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+تعلم كيفية تقريب القيم الرقمية في Excel باستخدام Aspose.Cells لـ .NET مع مثال كامل في C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

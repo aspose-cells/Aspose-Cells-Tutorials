@@ -59,6 +59,9 @@ Erfahren Sie, wie Sie Ihre Excel-Präsentationen mit Aspose.Cells für Java mit 
 ### [So rendern Sie Excel-Tabellen als Bilder mit Aspose.Cells für Java: Eine umfassende Anleitung](./aspose-cells-java-render-excel-sheets-images/)
 Erfahren Sie, wie Sie Ihre Excel-Daten mit Aspose.Cells für Java in hochwertige Bilder umwandeln. Diese Anleitung deckt alle Schritte von der Einrichtung bis zum Rendering ab und gewährleistet so eine nahtlose Datenvisualisierung.
 
+### [Wie Sie einen Excel‑Bereich in Java mit Aspose.Cells als Bild exportieren](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java einen ausgewählten Excel‑Bereich in ein Bild konvertieren und speichern.
+
 ### [Festlegen von Grafikhintergründen in ODS-Dateien mit Aspose.Cells Java: Eine Schritt-für-Schritt-Anleitung](./aspose-cells-java-set-ods-graphic-background/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java grafische Hintergründe in ODS-Dateien festlegen. Optimieren Sie Ihre Tabellen mit professionellen Grafiken und steigern Sie deren Attraktivität.
 
@@ -131,7 +134,9 @@ Ein Code-Tutorial für Aspose.Words Java
 ### [Festlegen eines Hintergrundbilds in Excel mit Aspose.Cells Java (Schritt-für-Schritt-Anleitung)](./set-background-picture-excel-aspose-cells-java/)
 Erfahren Sie, wie Sie Ihre Excel-Berichte mit Aspose.Cells Java durch das Hinzufügen von Hintergrundbildern optimieren. Folgen Sie dieser Schritt-für-Schritt-Anleitung für eine reibungslose Implementierung.
 
-
+### [So erstellen Sie in Java mit Aspose.Cells ein PNG aus einem Bereich](./how-to-create-png-from-range-in-java-with-aspose-cells/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java ein PNG-Bild aus einem definierten Zellbereich generieren und speichern.
+### [Formen mit ShapeExportOptions in Java exportieren](./how-to-export-shape-with-shapeexportoptions-in-java/)
 
 ## Weitere Ressourcen
 

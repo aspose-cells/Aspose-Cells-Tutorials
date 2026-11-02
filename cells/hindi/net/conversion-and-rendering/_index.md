@@ -79,6 +79,11 @@ Aspose.Cells का उपयोग करके Excel में विशेष
 Aspose.Cells का उपयोग करके C# में Excel पिवट टेबल से PNG इमेज निकालने और सहेजने की पूरी प्रक्रिया सीखें।
 ### [HTML में फ़ॉन्ट एम्बेड करें – DOCX को HTML में पूर्ण फ़ॉन्ट समर्थन के साथ परिवर्तित करने की पूर्ण गाइड](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
 Aspose.Words का उपयोग करके DOCX फ़ाइलों को HTML में फ़ॉन्ट एम्बेड के साथ परिवर्तित करने की पूरी प्रक्रिया सीखें।
+### [DOCX से HTML में फ़ॉन्ट एम्बेड करने की पूरी गाइड](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Aspose.Words के साथ DOCX फ़ाइल से HTML उत्पन्न करते समय फ़ॉन्ट को एम्बेड करने की प्रक्रिया सीखें।
+
+### [C# में एकल कॉमा‑सेपरेटेड सेल के साथ JSON को Excel में कैसे बदलें](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Aspose.Cells का उपयोग करके C# में JSON डेटा को एकल कॉमा‑सेपरेटेड सेल से Excel फ़ाइल में बदलना सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

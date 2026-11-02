@@ -46,6 +46,8 @@ Aprenda a convertir fechas y horas a formato ISO en C# usando Aspose.Cells para 
 Aprenda a aplicar formato de moneda a columnas de cuadrícula en Aspose.Cells para .NET con este tutorial paso a paso.
 ### [Aplicar formato numérico en Excel – Guía paso a paso para formatear columnas](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
 Aprenda a aplicar formatos numéricos a columnas en Excel usando Aspose.Cells para .NET, con ejemplos claros y paso a paso.
+### [Cómo redondear números de Excel en C# – guía completa de programación](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+Aprenda a redondear valores numéricos en Excel usando Aspose.Cells para .NET con C# paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

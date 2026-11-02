@@ -1,0 +1,7 @@
+Title: How to duplicate pivot tables in Excel with Java – step‑by‑step guide
+Slug: how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste
+Category: excel-pivot-tables
+ProcessedDate: 2026-10-07T19:04:40.920689
+SourceRepo: AI Search API
+Keywords: how to duplicate pivot, copy pivot table, copy excel range, copy range between workbooks, how to copy pivot table
+PRNumber: 184

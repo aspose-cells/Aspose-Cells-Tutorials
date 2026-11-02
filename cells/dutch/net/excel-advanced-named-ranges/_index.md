@@ -40,6 +40,10 @@ Leer in deze stapsgewijze tutorial hoe u cellen in een benoemd bereik samenvoegt
 Leer hoe u een Excel-werkmap maakt, tabellen toevoegt en benoemingsregels instelt met Aspose.Cells voor .NET.
 ### [Excel-werkmap opslaan en benoemd bereik toevoegen – volledige C#-gids](./save-excel-workbook-and-add-named-range-full-c-guide/)
 Leer hoe u een Excel-werkmap opslaat en een benoemd bereik toevoegt met een volledige C#-handleiding.
+### [Maak Excel-werkmap in C# – Voeg een benoemd bereik toe en stel de tabelnaam in](./create-excel-workbook-in-c-add-named-range-set-table-name/)
+Leer hoe u een Excel-werkmap maakt in C#, een benoemd bereik toevoegt en een tabelnaam instelt met Aspose.Cells voor .NET.
+### [Naam toewijzen aan Excel-tabel en naamconflicten voorkomen](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
+Leer hoe u een naam aan een Excel-tabel toewijst en conflicten met bestaande namen voorkomt met Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
