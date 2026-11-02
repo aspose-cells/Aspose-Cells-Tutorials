@@ -132,6 +132,8 @@ Aspose.Words Java için bir kod eğitimi
 Aspose.Cells Java ile arka plan görüntüleri ekleyerek Excel raporlarınızı nasıl geliştireceğinizi öğrenin. Sorunsuz uygulama için bu adım adım kılavuzu izleyin.
 
 ### [Java ile Aspose.Cells kullanarak aralıktan PNG oluşturma](./how-to-create-png-from-range-in-java-with-aspose-cells/)
+### [Java'da ShapeExportOptions ile Şekli Dışa Aktarma](./how-to-export-shape-with-shapeexportoptions-in-java/)
+Java için Aspose.Cells kullanarak ShapeExportOptions ile bir şekli nasıl dışa aktaracağınızı öğrenin.
 
 ## Ek Kaynaklar
 

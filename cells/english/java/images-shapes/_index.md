@@ -98,6 +98,9 @@ A code tutorial for Aspose.Words Java
 ### [How to Extract Images from Excel Using Aspose.Cells Java&#58; A Comprehensive Guide for Developers](./extract-images-excel-aspose-cells-java-guide/)
 Learn how to extract images from Excel files using Aspose.Cells in Java with this detailed developer guide. Includes setup, code examples, and optimization tips.
 
+### [How to export shape with ShapeExportOptions in Java](./how-to-export-shape-with-shapeexportoptions-in-java/)
+Learn how to export a specific shape from an Excel worksheet using ShapeExportOptions with Aspose.Cells for Java.
+
 ### [How to Insert Images into Excel Using Java and Aspose.Cells](./insert-image-into-excel-java-aspose-cells/)
 Learn how to automate image insertion in Excel files using Java with the powerful Aspose.Cells library. Enhance productivity with step-by-step code examples.
 

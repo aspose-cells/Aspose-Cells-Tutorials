@@ -59,6 +59,9 @@ Tìm hiểu cách nâng cao bài thuyết trình Excel của bạn bằng hiệu
 ### [Cách kết xuất bảng tính Excel dưới dạng hình ảnh bằng Aspose.Cells cho Java: Hướng dẫn toàn diện](./aspose-cells-java-render-excel-sheets-images/)
 Tìm hiểu cách chuyển đổi dữ liệu Excel của bạn thành hình ảnh chất lượng cao bằng Aspose.Cells for Java. Hướng dẫn này bao gồm tất cả các bước từ thiết lập đến kết xuất, đảm bảo trực quan hóa dữ liệu liền mạch.
 
+### [Cách xuất hình dạng với ShapeExportOptions trong Java](./how-to-export-shape-with-shapeexportoptions-in-java/)
+Tìm hiểu cách xuất hình dạng từ Excel sang các định dạng khác bằng ShapeExportOptions trong Aspose.Cells for Java.
+
 ### [Thiết lập hình nền đồ họa trong tệp ODS bằng Aspose.Cells Java: Hướng dẫn từng bước](./aspose-cells-java-set-ods-graphic-background/)
 Tìm hiểu cách thiết lập nền đồ họa trong tệp ODS bằng Aspose.Cells for Java. Nâng cao bảng tính của bạn bằng hình ảnh chuyên nghiệp và cải thiện sức hấp dẫn của chúng.
 
@@ -108,7 +111,7 @@ Tìm hiểu cách tích hợp hình ảnh liền mạch vào báo cáo Excel c�
 Học cách tự động hóa các tác vụ Excel và thao tác sổ làm việc và hình dạng bằng Aspose.Cells for Java. Hướng dẫn này bao gồm việc tạo sổ làm việc, thêm hình dạng và truy xuất điểm kết nối.
 
 ### [Xử lý sự kiện đối tượng vẽ Excel với Aspose.Cells trong Java: Hướng dẫn toàn diện](./mastering-draw-object-event-handling-excel-aspose-cells-java/)
-Nắm vững cách xử lý sự kiện đối tượng vẽ trong Excel bằng Aspose.Cells cho Java. Học cách thao tác hình dạng và chuyển đổi sổ làm việc sang PDF.
+Nắm vững cách xử lý sự kiện đối tượng vẽ trong Excel bằng Aspose.Cells for Java. Học cách thao tác hình dạng và chuyển đổi sổ làm việc sang PDF.
 
 ### [Làm chủ các hình dạng Excel trong Java với Aspose.Cells: Hướng dẫn đầy đủ](./mastering-excel-shapes-aspose-cells-java-guide/)
 Tìm hiểu cách thao tác các hình dạng Excel phức tạp bằng Aspose.Cells for Java. Hoàn thiện kỹ năng tự động hóa báo cáo và nâng cao khả năng trực quan hóa.

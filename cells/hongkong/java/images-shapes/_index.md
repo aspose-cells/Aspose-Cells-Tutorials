@@ -133,6 +133,8 @@ Aspose.Words Java 程式碼教程
 
 ### [如何在 Java 中使用 Aspose.Cells 從範圍建立 PNG 圖像](./how-to-create-png-from-range-in-java-with-aspose-cells/)
 了解如何使用 Aspose.Cells for Java 從工作表範圍生成 PNG 圖像，以便在報告或網頁中使用。
+### [如何在 Java 中使用 ShapeExportOptions 匯出形狀](./how-to-export-shape-with-shapeexportoptions-in-java/)
+了解如何使用 Aspose.Cells for Java 的 ShapeExportOptions 將形狀匯出為圖像或其他格式。
 
 ## 其他資源
 

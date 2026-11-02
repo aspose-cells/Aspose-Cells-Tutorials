@@ -89,6 +89,8 @@ Scopri come copiare una tabella pivot in Java usando Aspose.Cells con istruzioni
 Scopri come copiare una tabella pivot in Aspose.Cells copiando l'intervallo in un workbook.
 ### [Copia di una tabella pivot in Java con Aspose.Cells](./how-to-copy-a-pivot-table-in-java-using-aspose-cells/)
 Scopri come copiare una tabella pivot in Java con Aspose.Cells, mantenendo formattazione e dati per ulteriori elaborazioni.
+### [Copia di tabelle pivot tra cartelle di lavoro Excel in Java](./how-to-copy-pivot-tables-between-excel-workbooks-in-java/)
+Scopri come copiare tabelle pivot da una cartella di lavoro Excel a un'altra usando Aspose.Cells per Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

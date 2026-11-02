@@ -133,6 +133,8 @@
 
 ### [วิธีสร้าง PNG จากช่วงใน Java ด้วย Aspose.Cells](./how-to-create-png-from-range-in-java-with-aspose-cells/)
 เรียนรู้วิธีแปลงช่วงข้อมูลในแผ่นงาน Excel เป็นไฟล์ PNG ด้วย Aspose.Cells สำหรับ Java
+### [วิธีการส่งออกรูปร่างด้วย ShapeExportOptions ใน Java](./how-to-export-shape-with-shapeexportoptions-in-java/)
+เรียนรู้วิธีส่งออกรูปร่างจากไฟล์ Excel โดยใช้ ShapeExportOptions ใน Aspose.Cells สำหรับ Java
 
 ## แหล่งข้อมูลเพิ่มเติม
 

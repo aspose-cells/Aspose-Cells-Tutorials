@@ -41,6 +41,9 @@
 ### [如何使用 Aspose.Cells Java 在 Excel 中添加和设置形状样式](./aspose-cells-java-add-styling-shapes-excel/)
 学习如何使用强大的 Aspose.Cells 库和 Java 在 Excel 中添加矩形等形状并设置其样式。本指南涵盖从设置到实现的所有内容。
 
+### [如何在 Java 中使用 ShapeExportOptions 导出形状](./how-to-export-shape-with-shapeexportoptions-in-java/)
+了解如何使用 Aspose.Cells for Java 的 ShapeExportOptions 将 Excel 中的形状导出为图像或其他格式。
+
 ### [使用 Aspose.Cells for Java 在 Excel 中添加文本框并设置行距](./aspose-cells-java-add-text-box-line-spacing/)
 学习如何使用 Aspose.Cells for Java 在 Excel 工作簿中添加文本框并设置行距。使用样式化的文本形状增强您的工作簿演示效果。
 

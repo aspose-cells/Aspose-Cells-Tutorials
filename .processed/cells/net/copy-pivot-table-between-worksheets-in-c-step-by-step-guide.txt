@@ -1,0 +1,7 @@
+Title: Copy pivot table between worksheets in C# – step‑by‑step guide
+Slug: copy-pivot-table-between-worksheets-in-c-step-by-step-guide
+Category: pivot-tables
+ProcessedDate: 2026-10-01T11:49:18.090376
+SourceRepo: AI Search API
+Keywords: copy pivot table, how to copy pivot, load excel workbook c#, copy range to worksheet
+PRNumber: 174

@@ -80,6 +80,8 @@
 ### [Πώς να αντιγράψετε συγκεντρωτικό πίνακα στο Aspose.Cells – αντιγραφή περιοχής σε βιβλίο εργασίας](./how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook/)
 ### [Πώς να αντιγράψετε έναν Συγκεντρωτικό Πίνακα σε Java με Aspose.Cells](./how-to-copy-a-pivot-table-in-java-using-aspose-cells/)
 Μάθετε πώς να αντιγράψετε έναν Συγκεντρωτικό Πίνακα σε Java χρησιμοποιώντας Aspose.Cells.
+### [Πώς να αντιγράψετε συγκεντρωτικούς πίνακες μεταξύ βιβλίων εργασίας Excel σε Java](./how-to-copy-pivot-tables-between-excel-workbooks-in-java/)
+Μάθετε πώς να αντιγράψετε συγκεντρωτικούς πίνακες από ένα βιβλίο εργασίας Excel σε άλλο χρησιμοποιώντας Aspose.Cells για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

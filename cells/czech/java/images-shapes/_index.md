@@ -132,6 +132,7 @@ Výukový program pro Aspose.Words v Javě
 Naučte se, jak vylepšit své excelovské sestavy přidáním obrázků na pozadí pomocí Aspose.Cells v Javě. Pro bezproblémovou implementaci postupujte podle tohoto podrobného návodu.
 
 ### [Jak vytvořit PNG z rozsahu v Javě pomocí Aspose.Cells](./how-to-create-png-from-range-in-java-with-aspose-cells/)
+### [Jak exportovat tvar pomocí ShapeExportOptions v Javě](./how-to-export-shape-with-shapeexportoptions-in-java/)
 
 ## Další zdroje
 

@@ -133,6 +133,8 @@ Aspose.Cells Java를 사용하여 배경 이미지를 추가하여 Excel 보고�
 
 ### [Aspose.Cells를 사용하여 Java에서 범위에서 PNG 생성하는 방법](./how-to-create-png-from-range-in-java-with-aspose-cells/)
 Aspose.Cells를 사용해 Java에서 지정된 셀 범위를 PNG 이미지로 변환하는 방법을 단계별로 안내합니다.
+### [Java에서 ShapeExportOptions를 사용하여 도형을 내보내는 방법](./how-to-export-shape-with-shapeexportoptions-in-java/)
+Java용 Aspose.Cells를 사용하여 ShapeExportOptions로 도형을 이미지 파일로 내보내는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

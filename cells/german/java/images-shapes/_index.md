@@ -133,6 +133,7 @@ Erfahren Sie, wie Sie Ihre Excel-Berichte mit Aspose.Cells Java durch das Hinzuf
 
 ### [So erstellen Sie in Java mit Aspose.Cells ein PNG aus einem Bereich](./how-to-create-png-from-range-in-java-with-aspose-cells/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java ein PNG-Bild aus einem definierten Zellbereich generieren und speichern.
+### [Formen mit ShapeExportOptions in Java exportieren](./how-to-export-shape-with-shapeexportoptions-in-java/)
 
 ## Weitere Ressourcen
 

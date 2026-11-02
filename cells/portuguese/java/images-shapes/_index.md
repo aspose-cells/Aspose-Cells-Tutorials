@@ -133,6 +133,8 @@ Aprenda a aprimorar seus relatórios do Excel adicionando imagens de fundo com o
 
 ### [Como criar PNG a partir de um intervalo em Java com Aspose.Cells](./how-to-create-png-from-range-in-java-with-aspose-cells/)
 Aprenda a gerar imagens PNG de um intervalo de células no Excel usando Aspose.Cells para Java.
+### [Como exportar forma com ShapeExportOptions em Java](./how-to-export-shape-with-shapeexportoptions-in-java/)
+Aprenda a exportar formas do Excel como imagens usando ShapeExportOptions com Aspose.Cells para Java.
 
 ## Recursos adicionais
 
