@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konvertering och rendering
@@ -57,13 +55,13 @@ Lär dig hur du konverterar Word-dokument till SVG med Aspose.Words för .NET i 
 ### [Bädda in typsnitt i HTML – Fullständig guide för .NET-utvecklare](./embed-fonts-in-html-complete-guide-for-net-developers/)
 Lär dig hur du bäddar in typsnitt i HTML med Aspose.Cells för .NET i en komplett steg-för-steg-guide.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Excel-ark till PNG – Exportera en pivottabell som PNG i C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 Lär dig hur du exporterar en pivottabell från ett Excel-ark till PNG med Aspose.Cells i C#.
 
@@ -71,11 +69,24 @@ Lär dig hur du exporterar en pivottabell från ett Excel-ark till PNG med Aspos
 Lär dig hur du skapar en ny arbetsbok i C# och importerar Markdown-innehåll till Excel med Aspose.Cells.
 ### [Konvertera markdown till Excel – Komplett C#-guide](./convert-markdown-to-excel-complete-c-guide/)
 Lär dig hur du omvandlar markdown-filer till Excel med en komplett C#-guide.
+### [Exportera Excel till PNG med Aspose.Cells – Komplett steg‑för‑steg‑guide](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Lär dig hur du exporterar Excel-filer till PNG med Aspose.Cells i .NET med en komplett steg-för-steg-guide.
+### [Hur man konverterar XLSX till PNG – Komplett C#-guide](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Lär dig steg för steg hur du konverterar XLSX-filer till PNG-bilder med C# och Aspose.Cells.
+### [Hur man infogar specialtecken i Excel – Steg‑för‑steg‑guide](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Lär dig hur du enkelt infogar specialtecken i Excel med en tydlig steg‑för‑steg‑guide.
+### [Spara PNG-bild från Excel-pivot-tabell i C# – Komplett guide](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Lär dig hur du extraherar och sparar en pivot-tabell som PNG-bild i C# med Aspose.Cells.
+### [Bädda in teckensnitt i HTML – Komplett guide för konvertering av DOCX till HTML med full teckensnittsstöd](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Lär dig hur du konverterar DOCX till HTML och bäddar in alla teckensnitt för korrekt visning i webbläsare.
+### [Hur du bäddar in teckensnitt i HTML från ett DOCX – Komplett guide](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Lär dig hur du bäddar in teckensnitt från ett DOCX-dokument i HTML med Aspose.Words för .NET i en steg-för-steg-guide.
+### [Hur man konverterar JSON till Excel i C# med en enda kommaseparerad cell](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Lär dig hur du med C# konverterar JSON till ett Excel-ark med en enda kommaseparerad cell.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -38,6 +38,8 @@
 了解如何使用 Aspose.Cells for .NET 设置 PDF 保存选项的默认字体，确保您的文档每次都看起来完美无缺。
 ### [指定工作簿渲染的字体](./specify-fonts-for-workbook-rendering/)
 了解如何使用 Aspose.Cells for .NET 为工作簿渲染指定自定义字体。分步指南，确保完美的 PDF 输出。
+### [在网格中更改文本框字体 – 完整分步指南](./change-textbox-font-in-a-grid-complete-step-by-step-guide/)
+了解如何使用 Aspose.Cells for .NET 在网格中更改文本框的字体，提供完整的分步操作指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

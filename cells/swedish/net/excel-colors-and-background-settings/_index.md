@@ -42,6 +42,8 @@ Lär dig hur du programatiskt sätter bakgrundsfärg för en hel kolumn i Excel 
 Lär dig hur du programatiskt applicerar alternerande färger på kolumner i Excel med Aspose.Cells för .NET i C#.
 ### [Växlande radfärger i C#-arbetsblad – Komplett guide](./alternating-row-colors-in-c-worksheets-complete-guide/)
 Lär dig hur du automatiskt tilldelar växlande färger till rader i Excel-ark med Aspose.Cells för .NET för bättre läsbarhet.
+### [Applicera alternerande radfärger i Excel med C# – Komplett guide](./apply-alternating-row-colors-in-excel-with-c-complete-guide/)
+Lär dig hur du automatiskt tillämpar alternerande radfärger i Excel med Aspose.Cells för .NET och förbättra läsbarheten av dina kalkylblad.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

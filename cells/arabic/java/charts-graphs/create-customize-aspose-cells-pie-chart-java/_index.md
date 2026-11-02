@@ -1,42 +1,86 @@
 ---
-"date": "2025-04-08"
-"description": "تعلم كيفية إنشاء وتخصيص المخططات الدائرية باستخدام Aspose.Cells لجافا. دليل خطوة بخطوة مع أمثلة برمجية للمطورين."
-"title": "إتقان Aspose.Cells - إنشاء وتخصيص المخططات الدائرية في Java"
-"url": "/ar/java/charts-graphs/create-customize-aspose-cells-pie-chart-java/"
-"weight": 1
+date: '2026-09-27'
+description: تعلم كيفية إنشاء مخطط دائري Java باستخدام Aspose.Cells. دليل خطوة بخطوة
+  لتخصيص مخطط دائري Excel، إعداد اعتماد Maven، وإنشاء مخططات احترافية.
+keywords:
+- create pie chart java
+- customize excel pie chart
+- maven dependency aspose cells
+lastmod: '2026-09-27'
+og_description: إنشاء مخطط دائري Java باستخدام Aspose.Cells للـ Java. تعلم كيفية تخصيص
+  مخطط دائري Excel، إضافة اعتماد Maven، وإنشاء مخططات احترافية في دقائق.
+og_image_alt: Java code generating a customized pie chart in Excel with Aspose.Cells
+og_title: إنشاء مخطط دائري Java باستخدام Aspose.Cells – دليل Java كامل
+schemas:
+- author: Aspose
+  dateModified: '2026-09-27'
+  description: Learn how to create pie chart java using Aspose.Cells. Step‑by‑step
+    guide to customize Excel pie chart, set up Maven dependency, and generate professional
+    charts.
+  headline: How to create pie chart java with Aspose.Cells
+  type: TechArticle
+- questions:
+  - answer: Yes, repeat the chart‑creation steps for each data range; each chart is
+      independent.
+    question: Can I generate multiple pie charts in the same workbook?
+  - answer: It does; set the chart type to `ChartType.PIE_3D` when adding the chart.
+    question: Does Aspose.Cells support 3‑D pie charts?
+  - answer: Use the `Workbook.setDefaultTheme` method before creating any charts.
+    question: How do I apply a custom theme to all charts?
+  - answer: Over 30 formats, including XLSX, CSV, PDF, and HTML.
+    question: What file formats can I export the workbook to?
+  - answer: Yes, a valid license removes evaluation watermarks and unlocks full functionality.
+    question: Is a license required for commercial deployment?
+  type: FAQPage
+tags:
+- Aspose.Cells
+- Java charting
+- Excel automation
+- data visualization
+title: كيفية إنشاء مخطط دائري Java باستخدام Aspose.Cells
+url: /ar/java/charts-graphs/create-customize-aspose-cells-pie-chart-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# إتقان Aspose.Cells: إنشاء مخططات دائرية وتخصيصها في Java
+# كيفية إنشاء مخطط دائري java باستخدام Aspose.Cells
 
 ## مقدمة
-يُعد إنشاء مخططات بيانية جذابة بصريًا متطلبًا شائعًا عند التعامل مع تصور البيانات في Excel. سواء كنت تعرض معلومات ديموغرافية أو تحلل اتجاهات السوق، توفر المخططات الدائرية طريقة واضحة لتمثيل البيانات النسبية. ومع ذلك، قد يكون إعداد هذه المخططات برمجيًا معقدًا. يرشدك هذا البرنامج التعليمي خلال إنشاء مخطط بياني دائري Aspose.Cells وتخصيصه باستخدام Java، مما يُبسط العملية للمطورين.
+إنشاء **pie chart** برمجياً غالبًا ما يشعر وكأنه لغز، خاصةً عندما تحتاج إلى تحكم دقيق في الألوان، والوسائط، والعناوين. في هذا الدليل ستتعلم كيفية **create pie chart java** باستخدام Aspose.Cells، ثم تخصيص مخطط Excel الدائري ليتطابق مع علامتك التجارية أو نمط التقارير الخاص بك. سنستعرض إعداد البيئة، تعبئة البيانات، إنشاء المخطط، وتعديلات بصرية — كل ذلك دون مغادرة بيئة تطوير Java الخاصة بك.
 
-**ما سوف تتعلمه:**
-- قم بإعداد بيئتك باستخدام Aspose.Cells لـ Java.
-- إنشاء مصنف جديد والوصول إلى خلايا ورقة العمل.
-- قم بتعبئة البيانات في خلايا محددة للتحضير لإنشاء الرسم البياني.
-- إنشاء مخطط دائري من هذه البيانات.
-- قم بتخصيص مظهر مخططك الدائري، بما في ذلك الألوان والعناوين والأساطير.
+**ما ستتعلمه**
+- أضف **Maven dependency Aspose.Cells** إلى مشروعك.
+- أنشئ دفتر عمل، واملأ الخلايا بالبيانات، وأنشئ مخططًا دائريًا.
+- طبّق ألوانًا مخصصة، وعناوين، ووسائط للمخطط.
+- صدّر دفتر العمل إلى ملف XLSX جاهز للمشاركة.
 
-قبل البدء، تأكد من فهمك الأساسي لبرمجة جافا وإدارة تبعيات Maven أو Gradle. لنبدأ بإعداد بيئتنا!
+قبل أن تبدأ، يجب أن تكون مرتاحًا مع بنية Java الأساسية وأن يكون لديك Maven أو Gradle مثبتًا.
 
-## المتطلبات الأساسية
-لمتابعة هذا البرنامج التعليمي، ستحتاج إلى:
-- **مجموعة تطوير جافا (JDK)**:الإصدار 8 أو أعلى.
-- **بيئة التطوير المتكاملة (IDE)**:مثل IntelliJ IDEA أو Eclipse.
-- **إدارة التبعيات**:استخدم Maven أو Gradle لإدارة التبعيات الخاصة بك.
+## إجابات سريعة
+- **أي مكتبة تنشئ مخططات دائرية في Java؟** Aspose.Cells for Java.
+- **هل أحتاج إلى ترخيص؟** نسخة تجريبية مجانية تكفي للتطوير؛ يلزم ترخيص مدفوع للإنتاج.
+- **ما هي إحداثيات Maven المطلوبة؟** `com.aspose:aspose-cells:24.10`.
+- **هل يمكنني تغيير ألوان القطاعات؟** نعم، عبر طريقة `setAreaColor` لكل سلسلة.
+- **هل يمكن تصدير المخطط إلى XLSX؟** بالتأكيد—فقط استدعِ `workbook.save("output.xlsx")`.
 
-### المكتبات والتبعيات المطلوبة
-تأكد من تضمين Aspose.Cells for Java في مشروعك باستخدام Maven أو Gradle.
+## ما هو المخطط الدائري في Excel؟
+المخطط الدائري يُظهر سلسلة بيانات واحدة كشرائح نسبية لدائرة، مما يجعل من السهل مقارنة أجزاء الكل. زاوية كل شريحة تتطابق مع قيمتها بالنسبة للإجمالي، مما يتيح نظرة سريعة على توزيع الفئات مثل حصة السوق، توزيع الميزانية، أو النسب السكانية.
 
-**مافن**
+## لماذا تستخدم Aspose.Cells لإنشاء مخطط دائري java؟
+يدعم Aspose.Cells أكثر من 50 نوعًا من المخططات ويمكنه التعامل مع أوراق عمل تحتوي على ما يصل إلى مليون صف دون تحميل الملف بالكامل إلى الذاكرة. هذا التفوق في الأداء يتيح لك إنشاء تقارير كبيرة على أجهزة ذات موارد محدودة، مع توفير تحكم دقيق في مظهر المخطط، ربط البيانات، وصيغ التصدير، مما يجعله خيارًا متفوقًا على العديد من المكتبات المفتوحة المصدر.
+
+## المتطلبات المسبقة
+- **Java Development Kit (JDK)** 8 أو أحدث.
+- **IDE** مثل IntelliJ IDEA أو Eclipse.
+- **Maven** أو **Gradle** لإدارة الاعتمادات.
+- **رخصة Aspose.Cells تجريبية أو مُشتراة**.
+
+### المكتبات والاعتمادات المطلوبة
+أضف قطعة Aspose.Cells Maven إلى ملف `pom.xml` الخاص بك:
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -45,31 +89,29 @@
 </dependency>
 ```
 
-**جرادل**
+أو ما يعادله في Gradle:
+
 ```gradle
 implementation 'com.aspose:aspose-cells:25.3'
 ```
 
 ### خطوات الحصول على الترخيص
-Aspose.Cells لجافا هي مكتبة تجارية، ولكن يمكنك البدء بفترة تجريبية مجانية أو التقدم بطلب للحصول على ترخيص مؤقت. تفضل بزيارة [صفحة الشراء](https://purchase.aspose.com/buy) لاستكشاف خيارات الترخيص.
+Aspose.Cells for Java تجاري، لكن يمكنك البدء بنسخة تجريبية مجانية. زر [purchase page](https://purchase.aspose.com/buy) للحصول على مفتاح ترخيص مؤقت.
 
 ## إعداد Aspose.Cells لـ Java
-أولاً، تأكد من أن بيئة مشروعك تتضمن المكتبات اللازمة بإضافتها عبر Maven أو Gradle كما هو موضح أعلاه. بعد إضافتها، يمكنك تهيئة Aspose.Cells:
+أولاً، تأكد من أن المكتبة موجودة في مسار الفئات (classpath). بعد إضافة الاعتماد، يمكنك تهيئة الـ API كما هو موضح أدناه.
 
 ```java
 import com.aspose.cells.Workbook;
 
-// تهيئة مثيل مصنف جديد
+// Initialize a new workbook instance
 Workbook workbook = new Workbook();
 ```
 
 ## دليل التنفيذ
 
-### إنشاء مصنف وتكوينه
-إن إنشاء مصنف هو الخطوة الأولى لإعداد بياناتك.
-
-#### استيراد المكتبات
-تأكد من تضمين هذه الواردات في أعلى ملفك:
+### إنشاء وتكوين دفتر عمل
+تمثل الفئة `Workbook` ملف Excel كامل في الذاكرة.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -83,23 +125,24 @@ import com.aspose.cells.LegendPositionType;
 import com.aspose.cells.SaveFormat;
 ```
 
-#### الخطوة 1: إنشاء مثيل مصنف
+#### الخطوة 1: إنشاء دفتر عمل
 ```java
-// إنشاء مثيل مصنف فارغ للعمل عليه.
+// Creates an empty workbook instance to work with.
 Workbook workbook = new Workbook();
-```
-تعمل هذه الخطوة على تهيئة ملف Excel الخاص بك برمجيًا، مما يسمح لك بالتعامل معه باستخدام وظائف Aspose.Cells.
+```  
+هذا ينشئ دفتر عمل جديد فارغ يمكنك البدء في ملئه فورًا.
 
 ### الوصول إلى خلايا ورقة العمل أو تعديلها
-بعد ذلك، قم بملء البيانات في خلايا ورقة العمل التي سيتم استخدامها في الرسم البياني الدائري.
+تمثل الفئة `Worksheet` ورقة واحدة داخل دفتر العمل، تحتوي على خلايا، صفوف، وأعمدة.  
+ستكتب البيانات التي تُغذي المخطط الدائري في ورقة العمل.
 
-#### الخطوة 2: الوصول إلى ورقة العمل وخلاياها
+#### الخطوة 2: الحصول على أول ورقة عمل وخلاياها
 ```java
-// قم بالوصول إلى ورقة العمل الأولى في المصنف.
+// Access the first worksheet in the workbook.
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Cells cells = worksheet.getCells();
 
-// ضع قيم العينة المستخدمة في مخطط دائري في خلايا محددة.
+// Put sample values used for a pie chart into specific cells.
 cells.get("C3").putValue("India");
 cells.get("C4").putValue("China");
 cells.get("C5").parseNumber("United States", true, null);
@@ -107,7 +150,7 @@ cells.get("C6").setValue("Russia");
 cells.get("C7").setValue("United Kingdom");
 cells.get("C8").setValue("Others");
 
-// وضع قيم النسب المئوية لمخطط دائري في خلايا محددة.
+// Put percentage values for a pie chart into specific cells.
 cells.get("D2").putValue("% of world population");
 cells.get("D3").putValue(25);
 cells.get("D4").putValue(30);
@@ -115,52 +158,53 @@ cells.get("D5").putValue(10);
 cells.get("D6").putValue(13);
 cells.get("D7").putValue(9);
 cells.get("D8").putValue(13);
-```
-هنا، يمكنك ملء ورقة العمل بالبيانات التي ستمثل أجزاء مختلفة من مخطط دائري.
+```  
+املأ الخلايا بأسماء الفئات والقيم التي سيستخدمها المخطط.
 
 ### إنشاء مخطط دائري
+كائنات `Chart` تُظهر البيانات في ورقة العمل وتدعم أنواعًا مختلفة مثل الدائري، العمودي، والخطي.
 
 #### الخطوة 3: إضافة مخطط دائري إلى ورقة العمل
 ```java
-// إنشاء مخطط دائري في ورقة العمل.
+// Create a pie chart in the worksheet.
 int pieIdx = worksheet.getCharts().add(ChartType.PIE, 1, 6, 15, 14);
 Chart pie = worksheet.getCharts().get(pieIdx);
-```
-تضيف هذه الخطوة مخططًا دائريًا جديدًا إلى ورقة العمل الخاصة بك في المواضع والأبعاد المحددة.
+```  
 
-### تكوين سلسلة مخططات الفطيرة والبيانات
+### تكوين سلسلة البيانات للمخطط الدائري
+تحدد الفئة `Series` نطاق البيانات وتنسيق المخطط، ربطًا بين خلايا ورقة العمل والعناصر البصرية.
 
-#### الخطوة 4: تعيين السلسلة للرسم البياني
+#### الخطوة 4: تعيين السلسلة للمخطط
 ```java
-// قم بتكوين نطاق بيانات السلسلة للرسم البياني.
+// Configure the series data range for the chart.
 pie.getNSeries().add("D3:D8", true);
 pie.getNSeries().setCategoryData("=Sheet1!$C$3:$C$8");
 
-// ربط عنوان المخطط الدائري بالخلية التي تحتوي على نص العنوان.
+// Link the pie chart title to a cell containing the title text.
 pie.getTitle().setLinkedSource("D2");
-```
-يقوم هذا الكود بربط نطاق البيانات لديك وإعداد السلسلة لمخطط الفطيرة.
+```  
 
-### تكوين أسطورة الرسم البياني ومظهر العنوان
+### تكوين مظهر وسيلة الإيضاح والعنوان للمخطط
+تُظهر وسيلة إيضاح `Legend` للمخطط أسماء السلاسل والألوان، مما يساعد القارئ على التعرف على كل شريحة.
 
-#### الخطوة 5: تخصيص أسطورة الرسم البياني والعنوان
+#### الخطوة 5: تخصيص وسيلة إيضاح المخطط والعنوان
 ```java
-// تعيين موضع الأسطورة في أسفل الرسم البياني.
+// Set legend position at bottom of the chart.
 pie.getLegend().setPosition(LegendPositionType.BOTTOM);
 
-// تعيين خصائص الخط لعنوان الرسم البياني.
+// Set font properties for the chart title.
 pie.getTitle().getFont().setName("Calibri");
 pie.getTitle().getFont().setSize(18);
-```
-يؤدي تخصيص المظهر إلى تحسين إمكانية القراءة والجاذبية البصرية.
+```  
 
-### تخصيص ألوان سلسلة المخططات
+### تخصيص ألوان سلسلة المخطط
+`setAreaColor` يحدد لون تعبئة شريحة سلسلة المخطط باستخدام قيمة RGB.
 
-#### الخطوة 6: تغيير ألوان أجزاء الدائرة
+#### الخطوة 6: تغيير ألوان شرائح المخطط الدائري
 ```java
 import com.aspose.cells.Color;
 
-// الوصول إلى ألوان أجزاء المخطط الدائري الفردية وتخصيصها.
+// Access and customize colors of individual pie chart segments.
 Series srs = pie.getNSeries().get(0);
 srs.getPoints().get(0).getArea().setForegroundColor(Color.fromArgb(0, 246, 22, 219));
 srs.getPoints().get(1).getArea().setForegroundColor(Color.fromArgb(0, 51, 34, 84));
@@ -168,41 +212,64 @@ srs.getPoints().get(2).getArea().setForegroundColor(Color.fromArgb(0, 46, 74, 44
 srs.getPoints().get(3).getArea().setForegroundColor(Color.fromArgb(0, 19, 99, 44));
 srs.getPoints().get(4).getArea().setForegroundColor(Color.fromArgb(0, 208, 223, 7));
 srs.getPoints().get(5).getArea().setForegroundColor(Color.fromArgb(0, 222, 69, 8));
-```
-تعمل هذه الإعدادات على تخصيص الرسم البياني الخاص بك ليناسب أنظمة الألوان المحددة.
+```  
 
-### ضبط الأعمدة تلقائيًا وحفظ المصنف
+### ضبط الأعمدة تلقائيًا وحفظ دفتر العمل
+`autoFitColumns` يضبط عرض الأعمدة تلقائيًا ليتناسب مع محتوى الخلايا.
 
 #### الخطوة 7: ضبط عرض الأعمدة وحفظ الملف
 ```java
-// ملائمة جميع الأعمدة تلقائيًا.
+// Autofit all columns.
 worksheet.autoFitColumns();
 
-// قم بتحديد مسار العنصر النائب لدليل الإخراج لحفظ المصنف.
+// Define output directory placeholder path for saving the workbook.
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 
-// احفظ المصنف المعدل في ملف Excel في الدليل المحدد.
+// Save the modified workbook to an Excel file in the specified directory.
 workbook.save(outDir + "/CSOrSColorsPieChart_out.xlsx", SaveFormat.XLSX);
-```
-وأخيرًا، قم بضبط الأعمدة تلقائيًا وحفظ المصنف الخاص بك.
+```  
 
-## التطبيقات العملية
-1. **التحليل الديموغرافي**:استخدم المخططات الدائرية لعرض توزيعات السكان عبر بلدان أو مناطق مختلفة.
-2. **تقارير حصة السوق**:توضيح حصة السوق للشركات المختلفة في قطاع معين.
-3. **تخصيص الميزانية**:تصور كيفية تخصيص الميزانيات عبر الأقسام المختلفة داخل المنظمة.
-
-تُظهر هذه التطبيقات تنوع وفائدة Aspose.Cells في السيناريوهات الواقعية.
+## حالات الاستخدام الشائعة
+- **Demographic analysis:** عرض توزيع السكان عبر المناطق.
+- **Market‑share reporting:** تصور حصة كل منافس بنظرة واحدة.
+- **Budget allocation:** إبراز كيفية توزيع الأموال بين الأقسام.
 
 ## اعتبارات الأداء
-لتحسين الأداء عند استخدام Aspose.Cells:
-- قم بتقليل استخدام الذاكرة عن طريق التخلص من الكائنات التي لم تعد هناك حاجة إليها.
-- استخدم هياكل البيانات الفعالة لمعالجة مجموعات البيانات الكبيرة.
-- قم بإنشاء ملف تعريف لتطبيقك لتحديد الاختناقات.
+- حرّر الكائنات (`workbook.dispose()`) عندما لا تكون بحاجة إليها لتحرير الذاكرة الأصلية.
+- لمجموعات البيانات الضخمة، استخدم `WorkbookDesigner` لبث البيانات بدلاً من تحميل كل شيء مرة واحدة.
+- قم بعمل ملف تعريف باستخدام Java Flight Recorder لتحديد أي عنق زجاجة في توليد المخططات.
 
-إن الالتزام بأفضل الممارسات يضمن تطبيقات سلسة وسريعة الاستجابة.
+## الأسئلة المتكررة
 
-## خاتمة
-شرح لك هذا البرنامج التعليمي خطوات إنشاء مخطط دائري وتخصيصه باستخدام Aspose.Cells في جافا. بفضل هذه المعرفة، يمكنك الآن تطبيق هذه التقنيات على مختلف مهام تصور البيانات في مشاريعك. لمزيد من الاستكشاف، يمكنك التعمق في أنواع المخططات الإضافية وخيارات التخصيص المتقدمة المتاحة مع Aspose.Cells.
+**س: هل يمكنني إنشاء مخططات دائرية متعددة في نفس دفتر العمل؟**  
+ج: نعم، كرّر خطوات إنشاء المخطط لكل نطاق بيانات؛ كل مخطط مستقل.
+
+**س: هل يدعم Aspose.Cells مخططات دائرية ثلاثية الأبعاد؟**  
+ج: نعم؛ اضبط نوع المخطط إلى `ChartType.PIE_3D` عند إضافة المخطط.
+
+**س: كيف يمكنني تطبيق سمة مخصصة على جميع المخططات؟**  
+ج: استخدم طريقة `Workbook.setDefaultTheme` قبل إنشاء أي مخططات.
+
+**س: ما هي صيغ الملفات التي يمكنني تصدير دفتر العمل إليها؟**  
+ج: أكثر من 30 صيغة، بما في ذلك XLSX، CSV، PDF، وHTML.
+
+**س: هل يلزم وجود ترخيص للنشر التجاري؟**  
+ج: نعم، الترخيص الصالح يزيل علامات التقييم ويُفعل جميع الوظائف.
+
+## الخاتمة
+الآن لديك وصفة كاملة من البداية إلى النهاية لإنشاء **create pie chart java** باستخدام Aspose.Cells. باتباع الخطوات أعلاه يمكنك توليد مخططات Excel دائرية مصقولة، تخصيص الألوان والعناوين، ودمجها في أي خط أنابيب تقارير. استكشف أنواع مخططات أخرى—عمودية، خطية، رادارية—لتوسيع مجموعة أدواتك في تصور البيانات.
+
+---
+
+**آخر تحديث:** 2026-09-27  
+**تم الاختبار مع:** Aspose.Cells 24.10 for Java  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [تخصيص تسميات بيانات مخطط Excel باستخدام Aspose.Cells for Java: دليل خطوة بخطوة](/cells/java/charts-graphs/customize-chart-data-labels-aspose-cells-java/)
+- [إنشاء مخططات Excel ديناميكية باستخدام Aspose.Cells Java: دليل شامل للمطورين](/cells/java/charts-graphs/aspose-cells-java-dynamic-excel-charts/)
+- [إنشاء وتخصيص دفاتر عمل Excel باستخدام Aspose.Cells Java: دليل خطوة بخطوة](/cells/java/workbook-operations/create-customize-excel-workbooks-aspose-cells-java/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

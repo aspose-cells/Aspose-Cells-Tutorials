@@ -63,6 +63,20 @@ Tìm hiểu cách tạo báo cáo Excel bằng C# với Aspose.Cells, bao gồm 
 
 ### [Tạo Excel từ mẫu – Hướng dẫn từng bước cho nhà phát triển .NET](./create-excel-from-template-step-by-step-guide-for-net-develo/)
 Hướng dẫn chi tiết cách tạo tệp Excel từ mẫu sử dụng Aspose.Cells cho .NET, phù hợp cho các nhà phát triển.
+### [Cách lưu tệp mẫu Excel – Hướng dẫn từng bước](./how-to-save-excel-template-file-step-by-step-guide/)
+Hướng dẫn chi tiết cách lưu tệp mẫu Excel bằng Aspose.Cells cho .NET, bao gồm các bước thiết lập và lưu trữ.
+
+### [Cách sử dụng Excel cho Mail Merge – Hướng dẫn C# đầy đủ](./how-to-use-excel-for-mail-merge-complete-c-guide/)
+Hướng dẫn chi tiết cách kết hợp Excel với Mail Merge trong C#, bao gồm các bước thiết lập, mẫu và mã mẫu.
+
+### [Cách xử lý mẫu Excel và tự động đặt tên các sheet trong C#](./how-to-process-excel-template-and-automatically-name-sheets/)
+Hướng dẫn cách sử dụng Aspose.Cells để xử lý mẫu Excel và tự động đặt tên các sheet trong C#.
+
+### [Cách xuất dữ liệu ra Excel bằng mẫu C# – hướng dẫn từng bước](./how-to-export-data-to-excel-using-a-c-template-step-by-step/)
+Hướng dẫn chi tiết cách xuất dữ liệu từ C# vào tệp Excel bằng mẫu, bao gồm thiết lập, liên kết dữ liệu và lưu file.
+
+### [Cách mở rộng mảng trong Excel và điền dữ liệu vào mẫu](./how-to-expand-array-in-excel-and-populate-a-template/)
+Hướng dẫn mở rộng mảng dữ liệu trong Excel và tự động điền vào mẫu bằng Aspose.Cells cho .NET.
 
 ### [Chuyển đổi bộ dữ liệu sang Excel và điền vào mẫu Excel](./convert-dataset-to-excel-and-populate-an-excel-template/)
 Hướng dẫn cách chuyển dữ liệu từ bộ dữ liệu sang tệp Excel và tự động điền nội dung vào mẫu Excel bằng Aspose.Cells cho .NET.

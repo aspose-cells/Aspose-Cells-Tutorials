@@ -36,6 +36,8 @@ Este método es ideal para la gestión de datos específicos, lo que le permite 
 Desbloquee el poder de Excel accediendo a rangos con nombre con nuestra sencilla guía usando Aspose.Cells para .NET. Perfecto para la gestión de datos.
 ### [Acceder a un rango con nombre específico en Excel](./access-specific-named-range/)
 Aprenda a acceder a rangos con nombre específicos en Excel usando Aspose.Cells para .NET con este completo tutorial paso a paso y código de muestra.
+### [Definir rango con nombre en Excel con C# – crear libro de trabajo](./define-named-range-in-excel-with-c-create-workbook/)
+Aprenda a crear y definir un rango con nombre en Excel usando C# y Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

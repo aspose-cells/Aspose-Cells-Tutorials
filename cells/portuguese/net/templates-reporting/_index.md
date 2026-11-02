@@ -64,6 +64,13 @@ Aprenda a gerar planilhas Excel a partir de modelos usando Aspose.Cells para .NE
 ### [Salvar pasta de trabalho preenchida programaticamente com Aspose.Cells](./save-populated-workbook-programmatically-with-aspose-cells/)
 Aprenda a salvar programaticamente uma pasta de trabalho já preenchida usando Aspose.Cells para .NET.
 
+### [Como processar modelo Excel e nomear planilhas automaticamente em C#](./how-to-process-excel-template-and-automatically-name-sheets/)
+Aprenda a processar um modelo Excel e renomear planilhas automaticamente usando C# com Aspose.Cells.
+
+### [Como exportar dados para Excel usando um modelo C# – guia passo a passo](./how-to-export-data-to-excel-using-a-c-template-step-by-step/)
+Aprenda a exportar dados para Excel a partir de um modelo C# usando Aspose.Cells passo a passo.
+### [Como expandir array no Excel e preencher um modelo](./how-to-expand-array-in-excel-and-populate-a-template)
+Aprenda a expandir arrays no Excel e preencher um modelo usando Aspose.Cells para .NET.
 ### [Converter conjunto de dados para Excel e preencher um modelo Excel](./convert-dataset-to-excel-and-populate-an-excel-template)
 Aprenda a converter um conjunto de dados em planilha Excel e preenchê‑la usando um modelo com Aspose.Cells para .NET.
 

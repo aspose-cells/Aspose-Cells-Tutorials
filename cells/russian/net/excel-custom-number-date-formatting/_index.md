@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Пользовательское форматирование чисел и дат в Excel
@@ -56,37 +54,52 @@
 Узнайте, как создать рабочую книгу Excel с пользовательским форматом в C# с помощью Aspose.Cells для .NET в этом практическом руководстве.
 ### [Разбор даты японской эры в C# с Aspose.Cells – Полное руководство](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Узнайте, как в C# с помощью Aspose.Cells разобрать даты в японском календаре, включая эпохи, в полном пошаговом руководстве.
+### [Как создать книгу Excel и разобрать японские даты в C#](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
+Узнайте, как создать книгу Excel и разобрать японские даты в C# с помощью Aspose.Cells.
+
+
+
+
+### [Разбор DateTime с японской императорской эпохой с помощью Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+Узнайте, как распарсить даты и время, учитывая японские императорские эпохи, используя Aspose.Cells для .NET.
 ### [Как преобразовать дату японской эры в григорианскую в C#](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
 Узнайте, как с помощью Aspose.Cells преобразовать даты японской эры в григорианский календарь в C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
 ### [Установить пользовательский формат ячейки в C# – Полное руководство по записи и чтению дат в Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 Узнайте, как установить пользовательский формат ячейки и работать с датами в Excel с помощью Aspose.Cells для .NET в этом полном руководстве.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Преобразование строки в DateTime в C# – запись и чтение дат в Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 Узнайте, как преобразовать строку в DateTime и работать с датами в Excel с помощью Aspose.Cells для .NET в этом руководстве.
 ### [Как создать рабочую книгу и преобразовать строку в дату в C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
 Узнайте, как создать рабочую книгу и преобразовать строку в дату с помощью Aspose.Cells для .NET в этом руководстве.
 ### [Установить формат даты в Excel в C# – Полное пошаговое руководство](./set-excel-date-format-in-c-complete-step-by-step-guide/)
 Узнайте, как задать пользовательский формат даты в Excel с помощью Aspose.Cells для .NET в C# в этом полном пошаговом руководстве.
+### [Установите формат даты в Excel с C# – Полное руководство по импортному форматированию](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
+Узнайте, как установить формат даты в Excel с помощью Aspose.Cells для .NET в этом полном руководстве по импортному форматированию.
+### [Создание книги Excel с датами японского календаря – Полное руководство](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
+Узнайте, как создать книгу Excel с датами японского календаря, используя Aspose.Cells для .NET, в этом полном руководстве.
+### [Создание рабочей книги Excel C# – Ограничение значимых цифр в Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
+Узнайте, как создать рабочую книгу Excel в C# и ограничить количество значимых цифр в ячейках с помощью Aspose.Cells для .NET.
+### [Как применить числовой формат в Excel с Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
+Узнайте, как применить числовой формат в Excel с помощью Aspose.Cells.
+### [Форматирование столбца даты в Excel – Полное руководство C# по экспорту DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+Узнайте, как экспортировать DataTable в Excel с правильным форматом столбца даты с помощью Aspose.Cells для .NET в этом полном руководстве.
+### [Конвертация японского календаря в C# – Полное руководство](./japanese-calendar-conversion-in-c-full-guide/)
+Узнайте, как выполнять конвертацию японского календаря в C# с помощью Aspose.Cells для .NET в этом полном руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

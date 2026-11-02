@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel automatikus szűrő és érvényesítés
@@ -43,24 +41,28 @@ Ismerje meg, hogyan nyerheti ki az első táblázatot egy Excel munkafüzetből 
 ### [Hogyan használjuk az AutoFilter-t C# Excel automatizálásban – Teljes lépésről‑lépésre útmutató](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
 Ismerje meg, hogyan alkalmazhatja az AutoFilter-t C#-ban az Excel automatizálás során részletes, lépésről‑lépésre útmutatóval.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Autofilter eltávolítása Excelben C#‑ban – Teljes lépésről‑lépésre útmutató](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Ismerje meg, hogyan távolíthatja el az autofiltert Excel fájlokból C#‑ban az Aspose.Cells segítségével, részletes, lépésről‑lépésre útmutatóval.
 ### [Szűrő felület törlése Excelben C#-val – AutoFilter gomb eltávolítása](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 Tanulja meg, hogyan távolíthatja el az AutoFilter gombot és tisztíthatja meg a szűrő felületet Excelben C# használatával.
 ### [Szűrőnyilak elrejtése Excelben C#-val – Teljes útmutató](./hide-filter-arrows-excel-with-c-complete-guide/)
 Tanulja meg, hogyan rejtheti el a szűrő nyilakat Excelben C# használatával, hogy tisztább legyen a munkalap.
+### [Táblázat hozzáadása Excelhez C#-ban – Autofilter törlése és fájl mentése](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
+Ismerje meg, hogyan adhat hozzá táblázatot Excel fájlhoz C#-ban, törölheti az autofiltert, és mentheti a módosított fájlt.
+### [Hogyan távolítsuk el az autofiltert Excel táblázatokból C#-ban](./how-to-remove-autofilter-from-excel-tables-using-c/)
+### [AutoFilter eltávolítása Excelben C#-val – teljes útmutató](./remove-autofilter-from-excel-in-c-complete-guide/)
+Ismerje meg, hogyan távolíthatja el az AutoFilter gombot Excelben C# használatával, részletes lépésekkel és példákkal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

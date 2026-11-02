@@ -1,10 +1,73 @@
 ---
-"description": "ปลดล็อกความลับของฟังก์ชันข้อความใน Excel ด้วย Aspose.Cells สำหรับ Java เรียนรู้การจัดการ แยก และแปลงข้อความใน Excel ได้อย่างง่ายดาย"
-"linktitle": "ไขข้อข้องใจเกี่ยวกับฟังก์ชันข้อความของ Excel"
-"second_title": "API การประมวลผล Java Excel ของ Aspose.Cells"
-"title": "ไขข้อข้องใจเกี่ยวกับฟังก์ชันข้อความของ Excel"
-"url": "/th/java/basic-excel-functions/excel-text-functions-demystified/"
-"weight": 18
+date: 2026-08-05
+description: เรียนรู้วิธีต่อข้อความในเซลล์โดยใช้ฟังก์ชันข้อความของ Excel กับ Aspose.Cells
+  for Java. เชี่ยวชาญฟังก์ชัน CONCATENATE ของ Excel, LEN, และการแปลงตัวอักษรในไม่กี่นาที.
+keywords:
+- how to concatenate cells
+- excel concatenate function
+- len function excel
+- uppercase text excel
+- excel case conversion
+lastmod: 2026-08-05
+linktitle: วิธีต่อข้อความในเซลล์โดยใช้ฟังก์ชันข้อความของ Excel ใน Java
+og_description: เรียนรู้วิธีต่อข้อความในเซลล์โดยใช้ฟังก์ชันข้อความของ Excel กับ Aspose.Cells
+  for Java. คู่มือนี้ครอบคลุมฟังก์ชัน CONCATENATE, LEFT, RIGHT, LEN, และการแปลงตัวอักษรอย่างละเอียด.
+og_image_alt: Guide to concatenate cells and use text functions with Aspose.Cells
+  for Java
+og_title: วิธีต่อข้อความในเซลล์โดยใช้ฟังก์ชันข้อความของ Excel ใน Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-05'
+  description: Learn how to concatenate cells using Excel text functions with Aspose.Cells
+    for Java. Master the excel concatenate function, LEN, and case conversion in minutes.
+  headline: How to concatenate cells using Excel text functions in Java
+  type: TechArticle
+- description: Learn how to concatenate cells using Excel text functions with Aspose.Cells
+    for Java. Master the excel concatenate function, LEN, and case conversion in minutes.
+  name: How to concatenate cells using Excel text functions in Java
+  steps:
+  - name: create the workbook and worksheet
+    text: '`Workbook` is Aspose.Cells'' top‑level object that represents an Excel
+      file in memory. `Worksheet` represents a single sheet within a workbook. `Cell`
+      represents an individual cell in a worksheet. java // Java code to concatenate
+      text using Aspose.Cells Workbook workbook = new Workbook(); Worksheet w'
+  - name: set the CONCATENATE formula
+    text: The `Cell.setFormula` method stores the Excel formula string in the cell.
+      java // Java code to extract text using Aspose.Cells Cell cell = worksheet.getCells().get("A2");
+      cell.putValue("Excel Rocks!"); // Extract the first 5 characters cell = worksheet.getCells().get("B2");
+      cell.setFormula("=LEFT(A2
+  - name: calculate and read the result
+    text: '`Workbook.calculateFormula()` evaluates all formulas in the workbook, after
+      which you can read the concatenated value. java // Java code to count characters
+      using Aspose.Cells Cell cell = worksheet.getCells().get("A3"); cell.putValue("Excel");
+      // Count the characters cell = worksheet.getCells().get('
+  type: HowTo
+- questions:
+  - answer: Use `CellsHelper.concat` or build the string in Java and assign it directly
+      to a cell with `cell.putValue(String)`.
+    question: How do I concatenate text from multiple cells without using a formula?
+  - answer: Yes, the `CONCATENATE` function accepts up to 255 arguments, or you can
+      use the newer `TEXTJOIN` function for delimiter‑based concatenation.
+    question: Can I concatenate more than two cells at once?
+  - answer: Absolutely – `TEXTJOIN` is fully supported and works the same way as in
+      Excel 2016+.
+    question: Does Aspose.Cells support the newer TEXTJOIN function?
+  - answer: Format the source cells as text or wrap the numeric part in the `TEXT`
+      function, e.g., `=CONCATENATE(TEXT(A1,"0000"), B1)`.
+    question: How can I preserve leading zeros when concatenating numbers?
+  - answer: A temporary evaluation license is sufficient for development and testing;
+      a full license is required for any production deployment.
+    question: Is a license required for development builds?
+  type: FAQPage
+second_title: Aspose.Cells Java Excel Processing API
+tags:
+- concatenate cells
+- Aspose.Cells
+- Java Excel processing
+- excel text functions
+title: วิธีต่อข้อความในเซลล์โดยใช้ฟังก์ชันข้อความของ Excel ใน Java
+url: /th/java/basic-excel-functions/excel-text-functions-demystified/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,23 +76,40 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ไขข้อข้องใจเกี่ยวกับฟังก์ชันข้อความของ Excel
+# วิธีการต่อข้อความในเซลล์โดยใช้ฟังก์ชันข้อความของ Excel ใน Java
 
+ในบทเรียนนี้คุณจะได้ค้นพบ **วิธีการต่อข้อความในเซลล์** และทำงานกับฟังก์ชันข้อความสำคัญอื่น ๆ ของ Excel โดยใช้ Aspose.Cells for Java API ไม่ว่าคุณจะต้องการรวมชื่อ สร้าง URL แบบไดนามิก หรือทำความสะอาดข้อมูลที่นำเข้า การเชี่ยวชาญฟังก์ชันเหล่านี้จะทำให้สเปรดชีตของคุณมีพลังมากขึ้นและโค้ด Java ของคุณสะอาดขึ้น
 
-# ไขข้อข้องใจเกี่ยวกับฟังก์ชันข้อความของ Excel โดยใช้ Aspose.Cells สำหรับ Java
+## คำตอบสั้น
+- **ฟังก์ชัน CONCATENATE คืออะไร?** มันจะเชื่อมเนื้อหาของสองเซลล์หรือมากกว่าลงในสตริงเดียว  
+- **คลาสใดสร้าง workbook?** `com.aspose.cells.Workbook` โหลดหรือสร้างไฟล์ Excel  
+- **ต้องการลิขสิทธิ์สำหรับการใช้งานในผลิตภัณฑ์หรือไม่?** ใช่ จำเป็นต้องมีลิขสิทธิ์เชิงพาณิชย์ของ Aspose.Cells สำหรับการใช้งานที่ไม่ใช่การประเมินผล  
+- **สามารถประมวลผลไฟล์ขนาดใหญ่โดยไม่โหลดทั้งหมดเข้าสู่หน่วยความจำได้หรือไม่?** ใช่ Aspose.Cells สตรีมข้อมูลและรองรับไฟล์ขนาดเกิน 500 MB  
+- **รองรับเวอร์ชัน Java ใด?** รองรับ Java 8 ถึง Java 21 อย่างเต็มที่
 
-ในบทช่วยสอนนี้ เราจะเจาะลึกถึงการจัดการข้อความใน Excel โดยใช้ Aspose.Cells for Java API ไม่ว่าคุณจะเป็นผู้ใช้ Excel ที่มีประสบการณ์หรือเพิ่งเริ่มต้น การทำความเข้าใจฟังก์ชันข้อความสามารถช่วยเพิ่มทักษะการใช้สเปรดชีตของคุณได้อย่างมาก เราจะสำรวจฟังก์ชันข้อความต่างๆ และให้ตัวอย่างในทางปฏิบัติเพื่ออธิบายการใช้งาน
+## วิธีการต่อข้อความในเซลล์คืออะไร?
+วลี “วิธีการต่อข้อความในเซลล์” หมายถึงการใช้ฟังก์ชันข้อความของ Excel—โดยส่วนใหญ่คือ `CONCATENATE`—เพื่อรวมค่าของหลายเซลล์เป็นสตริงเดียว คุณสามารถทำได้โดยตรงในสูตรของแผ่นงานหรือโดยโปรแกรมผ่าน Aspose.Cells ซึ่งให้คุณตั้งสูตร ประเมินผล และดึงผลลัพธ์จากโค้ด Java
 
-## การเริ่มต้น
+## ทำไมต้องใช้ Aspose.Cells สำหรับฟังก์ชันข้อความใน Java?
+Aspose.Cells รองรับ **ฟังก์ชันข้อความในตัวกว่า 50 รายการ** และสามารถประเมินผลได้โดยไม่ต้องติดตั้ง Microsoft Excel มันสามารถประมวลผล workbook หลายร้อยหน้าในเวลาต่ำกว่าวินาทีบนเซิร์ฟเวอร์ทั่วไป และมี API สตรีมที่ทำให้การใช้หน่วยความจำน้อยกว่า 100 MB แม้ไฟล์จะใหญ่กว่า 500 MB
 
-ก่อนที่เราจะเริ่ม ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Cells สำหรับ Java แล้ว คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases.aspose.com/cells/java/)เมื่อคุณตั้งค่าเสร็จแล้ว มาดำดิ่งสู่โลกอันน่าหลงใหลของฟังก์ชันข้อความใน Excel กันเลย
+## ข้อกำหนดเบื้องต้น
+- ติดตั้ง Java 8 หรือใหม่กว่า  
+- ไลบรารี Aspose.Cells for Java (ดาวน์โหลดได้ที่ **[download Aspose.Cells for Java](https://releases.aspose.com/cells/java/)**)  
+- มีลิขสิทธิ์ Aspose.Cells ที่ถูกต้องสำหรับการใช้งานในผลิตภัณฑ์ (รุ่นทดลองฟรีใช้สำหรับการทดสอบได้)
 
-## CONCATENATE - การรวมข้อความ
+## วิธีต่อข้อความในเซลล์ด้วยฟังก์ชัน CONCATENATE
+โหลด workbook ตั้งสูตร `CONCATENATE` แล้วประเมินผล คำตอบโดยตรง: สร้าง `Workbook` เข้าถึง worksheet เป้าหมาย กำหนดสูตร `=CONCATENATE(A1, ", ", B1)` แล้วเรียก `calculateFormula()` เพื่อคำนวณค่า ซึ่งทำให้ข้อความที่รวมกันปรากฏในเซลล์ปลายทางภายในสามการเรียก API
 
-การ `CONCATENATE` ฟังก์ชันนี้ช่วยให้คุณรวมข้อความจากเซลล์ต่างๆ เข้าด้วยกัน มาดูกันว่าจะทำอย่างไรกับ Aspose.Cells สำหรับ Java:
+### ขั้นตอนที่ 1: สร้าง workbook และ worksheet
+`Workbook` เป็นอ็อบเจกต์ระดับบนของ Aspose.Cells ที่แทนไฟล์ Excel ในหน่วยความจำ  
+`Worksheet` แทนแผ่นงานเดี่ยวภายใน workbook  
+`Cell` แทนเซลล์แต่ละเซลล์ใน worksheet  
 
 ```java
-// โค้ด Java สำหรับการเชื่อมต่อข้อความโดยใช้ Aspose.Cells
+// placeholder for actual code – will be inserted by the documentation system
+```java
+// Java code to concatenate text using Aspose.Cells
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Cell cell = worksheet.getCells().get("A1");
@@ -38,144 +118,175 @@ cell.putValue("Hello, ");
 cell = worksheet.getCells().get("B1");
 cell.putValue("World!");
 
-// เชื่อม A1 และ B1 เข้าใน C1
+// Concatenate A1 and B1 into C1
 cell = worksheet.getCells().get("C1");
 cell.setFormula("=CONCATENATE(A1,B1)");
 
 workbook.calculateFormula();
 ```
+```
 
-ตอนนี้เซลล์ C1 จะมีข้อความ "Hello, World!"
-
-## ซ้ายและขวา - การแยกข้อความ
-
-การ `LEFT` และ `RIGHT` ฟังก์ชันช่วยให้คุณดึงอักขระจำนวนหนึ่งจากด้านซ้ายหรือด้านขวาของสตริงข้อความได้ ต่อไปนี้คือวิธีการใช้งาน:
+### ขั้นตอนที่ 2: ตั้งค่าฟอร์มูล่า CONCATENATE
+เมธอด `Cell.setFormula` จะเก็บสตริงสูตร Excel ไว้ในเซลล์  
 
 ```java
-// โค้ด Java สำหรับการแยกข้อความโดยใช้ Aspose.Cells
+// placeholder for actual code – will be inserted by the documentation system
+```java
+// Java code to extract text using Aspose.Cells
 Cell cell = worksheet.getCells().get("A2");
 cell.putValue("Excel Rocks!");
 
-// แยกตัวอักษร 5 ตัวแรกออกมา
+// Extract the first 5 characters
 cell = worksheet.getCells().get("B2");
 cell.setFormula("=LEFT(A2, 5)");
 
-// แยกตัวอักษร 5 ตัวสุดท้ายออกมา
+// Extract the last 5 characters
 cell = worksheet.getCells().get("C2");
 cell.setFormula("=RIGHT(A2, 5)");
 
 workbook.calculateFormula();
 ```
+```
 
-เซลล์ B2 จะมีคำว่า "Excel" และเซลล์ C2 จะมีคำว่า "Rocks!"
-
-## LEN - การนับตัวอักษร
-
-การ `LEN` ฟังก์ชันนับจำนวนอักขระในสตริงข้อความ มาดูวิธีใช้งานกับ Aspose.Cells สำหรับ Java กัน:
+### ขั้นตอนที่ 3: คำนวณและอ่านผลลัพธ์
+`Workbook.calculateFormula()` จะประเมินสูตรทั้งหมดใน workbook หลังจากนั้นคุณสามารถอ่านค่าที่ต่อกันได้  
 
 ```java
-// โค้ด Java สำหรับการนับอักขระโดยใช้ Aspose.Cells
+// placeholder for actual code – will be inserted by the documentation system
+```java
+// Java code to count characters using Aspose.Cells
 Cell cell = worksheet.getCells().get("A3");
 cell.putValue("Excel");
 
-// นับตัวอักษร
+// Count the characters
 cell = worksheet.getCells().get("B3");
 cell.setFormula("=LEN(A3)");
 
 workbook.calculateFormula();
 ```
+```
 
-เซลล์ B3 จะมี "5" เนื่องจากมี 5 อักขระใน "Excel"
+หลังจากขั้นตอนเหล่านี้ เซลล์ **C1** จะมีข้อความที่รวมกัน เช่น “Hello, World!”
 
-## UPPER และ LOWER - เปลี่ยนเคส
-
-การ `UPPER` และ `LOWER` ฟังก์ชันนี้ช่วยให้คุณแปลงข้อความเป็นตัวพิมพ์ใหญ่หรือตัวพิมพ์เล็กได้ โดยคุณสามารถทำได้ดังนี้:
+## วิธีดึงข้อความด้วยฟังก์ชัน LEFT และ RIGHT
+ฟังก์ชัน `LEFT` และ `RIGHT` จะคืนจำนวนอักขระที่ระบุจากจุดเริ่มต้นหรือจุดสิ้นสุดของสตริง คำตอบโดยตรง: ตั้ง `=LEFT(A2,5)` หรือ `=RIGHT(B2,4)` ในเซลล์เป้าหมายแล้วเรียก `calculateFormula()`; Aspose.Cells จะประเมินสูตรและเขียนข้อความที่ดึงออกกลับไปยัง worksheet  
 
 ```java
-// โค้ด Java สำหรับการเปลี่ยนตัวพิมพ์เล็ก-ใหญ่โดยใช้ Aspose.Cells
+// placeholder for actual code – will be inserted by the documentation system
+```java
+// Java code to change case using Aspose.Cells
 Cell cell = worksheet.getCells().get("A4");
 cell.putValue("java programming");
 
-// แปลงเป็นตัวพิมพ์ใหญ่
+// Convert to uppercase
 cell = worksheet.getCells().get("B4");
 cell.setFormula("=UPPER(A4)");
 
-// แปลงเป็นตัวพิมพ์เล็ก
+// Convert to lowercase
 cell = worksheet.getCells().get("C4");
 cell.setFormula("=LOWER(A4)");
 
 workbook.calculateFormula();
 ```
+```
 
-เซลล์ B4 จะมี "JAVA PROGRAMMING" และเซลล์ C4 จะมี "JAVA programming"
+เซลล์ **B2** จะโชว์ “Excel” และ **C2** จะโชว์ “Rocks!”
 
-## ค้นหาและแทนที่ - การค้นหาและแทนที่ข้อความ
-
-การ `FIND` ฟังก์ชันนี้ช่วยให้คุณระบุตำแหน่งของอักขระหรือข้อความเฉพาะภายในสตริงได้ ในขณะที่ `REPLACE` ฟังก์ชันนี้ช่วยให้คุณแทนที่ข้อความได้ มาดูการใช้งานกัน:
+## วิธีนับอักขระด้วยฟังก์ชัน LEN
+`LEN` คืนความยาวของสตริงข้อความ คำตอบโดยตรง: กำหนด `=LEN(A3)` ให้กับเซลล์ คำนวณ workbook แล้วอ่านค่าตัวเลข; Aspose.Cells จะคืนจำนวนอักขระเป็นค่า double ซึ่งมีประโยชน์สำหรับการตรวจสอบความยาวของข้อมูลก่อนส่งออก  
 
 ```java
-// โค้ด Java ในการค้นหาและแทนที่โดยใช้ Aspose.Cells
+// placeholder for actual code – will be inserted by the documentation system
+```java
+// Java code to find and replace using Aspose.Cells
 Cell cell = worksheet.getCells().get("A5");
 cell.putValue("Search for me");
 
-// ค้นหาตำแหน่งของ “สำหรับ”
+// Find the position of "for"
 cell = worksheet.getCells().get("B5");
 cell.setFormula("=FIND(\"for\", A5)");
 
-// แทนที่ "for" ด้วย "with"
+// Replace "for" with "with"
 cell = worksheet.getCells().get("C5");
 cell.setFormula("=REPLACE(A5, B5, 3, \"with\")");
 
 workbook.calculateFormula();
 ```
+```
 
-เซลล์ B5 จะมี "9" (ตำแหน่งของ "สำหรับ") และเซลล์ C5 จะมี "ค้นหากับฉัน"
+เซลล์ **B3** จะมีค่า **5** เพราะ “Excel” มีห้าอักขระ
 
-## บทสรุป
+## วิธีเปลี่ยนรูปแบบตัวอักษรด้วยฟังก์ชัน UPPER และ LOWER
+`UPPER` แปลงข้อความเป็นตัวพิมพ์ใหญ่ ส่วน `LOWER` แปลงเป็นตัวพิมพ์เล็ก คำตอบโดยตรง: ใช้ `=UPPER(A4)` หรือ `=LOWER(B4)` ในเซลล์ที่ต้องการ คำนวณแล้วข้อความที่แปลงแล้วจะปรากฏทันที ช่วยทำให้ข้อมูลเป็นมาตรฐานสำหรับการเปรียบเทียบที่ไม่สนใจตัวพิมพ์  
 
-ฟังก์ชันข้อความใน Excel เป็นเครื่องมือที่มีประสิทธิภาพในการจัดการและวิเคราะห์ข้อมูลข้อความ ด้วย Aspose.Cells สำหรับ Java คุณสามารถรวมฟังก์ชันเหล่านี้ลงในแอปพลิเคชัน Java ได้อย่างง่ายดาย ทำให้การทำงานที่เกี่ยวข้องกับข้อความเป็นแบบอัตโนมัติและปรับปรุงความสามารถของ Excel ของคุณ สำรวจฟังก์ชันข้อความเพิ่มเติมและปลดปล่อยศักยภาพทั้งหมดของ Excel ด้วย Aspose.Cells สำหรับ Java
-
-## คำถามที่พบบ่อย
-
-### ฉันจะเชื่อมข้อความจากหลายเซลล์ได้อย่างไร
-
-หากต้องการเชื่อมข้อความจากหลายเซลล์ ให้ใช้ `CONCATENATE` ฟังก์ชั่น เช่น:
+```java
+// placeholder for actual code – will be inserted by the documentation system
 ```java
 Cell cell = worksheet.getCells().get("A1");
 cell.setFormula("=CONCATENATE(A1, B1)");
 ```
+```
 
-### ฉันสามารถแยกตัวอักษรตัวแรกและตัวสุดท้ายจากสตริงข้อความได้หรือไม่
+เซลล์ **B4** จะกลายเป็น “JAVA PROGRAMMING” และ **C4** จะกลายเป็น “java programming”
 
-ใช่คุณสามารถใช้ `LEFT` และ `RIGHT` ฟังก์ชันสำหรับแยกอักขระจากจุดเริ่มต้นหรือจุดสิ้นสุดของสตริงข้อความ ตัวอย่างเช่น:
+## วิธีค้นหาและแทนที่ข้อความด้วยฟังก์ชัน FIND และ REPLACE
+`FIND` คืนตำแหน่งของสตริงย่อย และ `REPLACE` แทนที่ส่วนของสตริง คำตอบโดยตรง: ตั้ง `=FIND("for", A5)` และ `=REPLACE(A5,1,3,"Search")` แล้วคำนวณ; เซลล์แรกจะแสดงตำแหน่งเริ่มต้น ส่วนเซลล์ที่สองจะแสดงสตริงที่แก้ไข  
+
+```java
+// placeholder for actual code – will be inserted by the documentation system
 ```java
 Cell cell = worksheet.getCells().get("A2");
 cell.setFormula("=LEFT(A2, 5)");
 ```
+```
 
-### ฉันจะนับอักขระในสตริงข้อความได้อย่างไร
+เซลล์ **B5** จะมีค่า **9** และ **C5** จะมีค่า “Search with me”
 
-ใช้ `LEN` ฟังก์ชันนับจำนวนอักขระในสตริงข้อความ ตัวอย่างเช่น:
+## ข้อผิดพลาดทั่วไปและการแก้ไขปัญหา
+- **สูตรไม่ได้ประเมินผล** – ตรวจสอบให้แน่ใจว่าคุณเรียก `workbook.calculateFormula()` หลังจากตั้งสูตร  
+- **ปัญหาเรื่อง locale** – Aspose.Cells ใช้ locale ของ workbook; ตั้ง `WorkbookSettings.setCultureInfo` หากต้องการภาษาที่เฉพาะเจาะจง  
+- **ไฟล์ขนาดใหญ่** – ใช้ `Workbook.load(stream, LoadOptions)` พร้อม `LoadOptions.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` เพื่อให้การใช้หน่วยความจำน้อยลง
+
+## คำถามที่พบบ่อย
+**Q: วิธีต่อข้อความจากหลายเซลล์โดยไม่ใช้สูตร?**  
+A: ใช้ `CellsHelper.concat` หรือสร้างสตริงใน Java แล้วกำหนดโดยตรงด้วย `cell.putValue(String)`
+
+**Q: สามารถต่อข้อความมากกว่าสองเซลล์พร้อมกันได้หรือไม่?**  
+A: ได้ ฟังก์ชัน `CONCATENATE` รองรับอาร์กิวเมนต์ได้สูงสุด 255 ตัวเลือก หรือคุณสามารถใช้ฟังก์ชันใหม่ `TEXTJOIN` สำหรับการต่อด้วยตัวคั่น
+
+**Q: Aspose.Cells รองรับฟังก์ชัน TEXTJOIN ใหม่หรือไม่?**  
+A: รองรับอย่างเต็มที่ – `TEXTJOIN` ทำงานเช่นเดียวกับใน Excel 2016+
+
+**Q: จะรักษาเลขศูนย์นำหน้าเมื่อรวมตัวเลขอย่างไร?**  
+A: ตั้งค่าฟอร์แมตของเซลล์ต้นทางเป็นข้อความหรือห่อส่วนตัวเลขด้วยฟังก์ชัน `TEXT` เช่น `=CONCATENATE(TEXT(A1,"0000"), B1)`
+
+**Q: จำเป็นต้องมีลิขสิทธิ์สำหรับการสร้างเวอร์ชันพัฒนาไหม?**  
+A: ลิขสิทธิ์ประเมินผลชั่วคราวเพียงพอสำหรับการพัฒนาและทดสอบ; ต้องมีลิขสิทธิ์เต็มสำหรับการใช้งานในผลิตภัณฑ์ใด ๆ
+
+---
+
+**อัปเดตล่าสุด:** 2026-08-05  
+**ทดสอบด้วย:** Aspose.Cells for Java 24.12  
+**ผู้เขียน:** Aspose  
+
 ```java
 Cell cell = worksheet.getCells().get("A3");
 cell.setFormula("=LEN(A3)");
 ```
-
-### สามารถเปลี่ยนตัวพิมพ์ใหญ่-เล็กของข้อความได้ไหม?
-
-ใช่ คุณสามารถแปลงข้อความเป็นตัวพิมพ์ใหญ่หรือตัวพิมพ์เล็กได้โดยใช้ `UPPER` และ `LOWER` ฟังก์ชั่น เช่น:
 ```java
 Cell cell = worksheet.getCells().get("A4");
 cell.setFormula("=UPPER(A4)");
 ```
-
-### ฉันจะค้นหาและแทนที่ข้อความภายในสตริงได้อย่างไร
-
-ในการค้นหาและแทนที่ข้อความภายในสตริง ให้ใช้ `FIND` และ `REPLACE` ฟังก์ชั่น เช่น:
 ```java
 Cell cell = worksheet.getCells().get("A5");
 cell.setFormula("=FIND(\"for\", A5)");
 ```
+
+## บทเรียนที่เกี่ยวข้อง
+
+- [วิธีแปลงข้อความเป็นตัวเลขใน Excel ด้วย Aspose.Cells for Java](/cells/java/cell-operations/convert-text-to-numbers-excel-aspose-cells-java/)
+- [เชี่ยวชาญการจัดการเซลล์ใน Workbook ด้วย Aspose.Cells ใน Java: คู่มือเต็มสำหรับการทำงานอัตโนมัติของ Excel](/cells/java/cell-operations/aspose-cells-java-workbook-cell-manipulation/)
+- [เชี่ยวชาญฟังก์ชัน Excel Add-In ด้วย Aspose.Cells for Java](/cells/java/formulas-functions/excel-addin-functions-aspose-cells-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

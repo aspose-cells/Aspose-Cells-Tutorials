@@ -34,11 +34,13 @@ url: /de/java/advanced-features/mastering-aspose-cells-java-freeze-panes-excel/
 weight: 1
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
+
+
+
 
 # Wie man Aspose.Cells verwendet, um Fenster in Excel (Java) zu fixieren
 
@@ -190,11 +192,9 @@ Für weiterführende Themen — wie Diagrammerstellung, Datenvalidierung ode
 - [Save Excel File Java with Aspose.Cells – Mastering Workbook Automation](/cells/java/automation-batch-processing/aspose-cells-java-excel-workbook-automation/)
 - [Extract URL from Excel with Aspose.Cells for Java – Load Data Connections](/cells/java/advanced-features/aspose-cells-java-excel-data-connections/)
 
+{{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/main-wrap-class >}}

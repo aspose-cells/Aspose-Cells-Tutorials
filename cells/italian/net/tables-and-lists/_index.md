@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabelle ed elenchi
@@ -62,22 +60,23 @@ Elimina righe da una tabella Word con Aspose.Words per .NET usando C#. Guida com
 ### [Come eliminare righe da una tabella Excel e cambiarne il nome in C#](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
 Scopri come rimuovere righe da una tabella Excel e rinominarla usando Aspose.Cells per .NET con C# passo passo.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Rimuovere l'intestazione della tabella in Aspose.Cells – Guida completa](./remove-table-header-in-aspose-cells-complete-guide/)
 Scopri come rimuovere l'intestazione di una tabella in Aspose.Cells con una guida completa passo passo.
 ### [Come rinominare una tabella in Excel con C# – Guida passo‑passo](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
 Scopri come rinominare una tabella in Excel usando C# con Aspose.Cells per .NET in questa guida passo passo.
+### [Elimina più righe in Word – Guida completa alla rimozione di righe di tabella](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
+Scopri come rimuovere rapidamente più righe da una tabella Word usando Aspose.Words per .NET in pochi semplici passaggi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

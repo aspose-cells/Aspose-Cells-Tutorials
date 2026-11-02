@@ -178,11 +178,14 @@ Bước **điền dữ liệu vào mẫu Excel** đã hoàn tất, và bạn đ�
 Nếu `Items` rỗng, SmartMarker sẽ giữ lại tiêu đề bảng nhưng không chèn dòng nào. Để tránh khoảng trống, bạn có thể thêm một khối điều kiện:
 
 ```csharp
-{{#if Orders.Items.Length > 0}}
-    ... table rows ...
-{{else}}
-    No items were ordered.
-{{/if}}
+if (order.Items.Length > 0)
+{
+    // ... table rows ...
+}
+else
+{
+    // No items were ordered.
+}
 ```
 
 ### Định Dạng Số Tùy Chỉnh

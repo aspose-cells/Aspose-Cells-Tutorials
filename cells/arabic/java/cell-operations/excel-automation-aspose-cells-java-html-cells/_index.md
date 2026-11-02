@@ -11,27 +11,16 @@ url: /ar/java/cell-operations/excel-automation-aspose-cells-java-html-cells/
 weight: 1
 ---
 
- Updated:** 2026-03-17  
-**Tested With:** Aspose.Cells for Java 25.3  
-**Author:** Aspose
 
-We need to translate "Last Updated", "Tested With", "Author"? Probably keep as English? These are labels; we can translate to Arabic: "آخر تحديث"، "تم الاختبار مع"، "المؤلف". Keep bold formatting.
 
-So:
 
-**Last Updated:** => "**آخر تحديث:**"
 
-**Tested With:** => "**تم الاختبار مع:**"
 
-**Author:** => "**المؤلف:**"
 
-Now produce final content with all translations.
 
-Check that we didn't translate any URLs or code placeholders.
 
-Make sure to keep markdown formatting.
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

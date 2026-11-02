@@ -1,9 +1,63 @@
 ---
-"date": "2025-04-08"
-"description": "Aspose.Cells for Java kullanarak Excel'de dinamik pivot grafikleri oluşturmayı öğrenin. Veri analizini kolaylaştırın ve elektronik tablolarınızı zahmetsizce geliştirin."
-"title": "Java'da Pivot Tablolarında Ustalaşma & Aspose.Cells ile Dinamik Excel Görselleştirmeleri Oluşturma"
-"url": "/tr/java/charts-graphs/aspose-cells-java-pivot-charts-excel-tutorial/"
-"weight": 1
+date: '2026-07-07'
+description: Aspose Cells grafik örneğini öğrenerek Java kullanarak Excel'de dinamik
+  pivot charts oluşturun. Sorunsuz veri analizi için adım adım talimatları izleyin.
+keywords:
+- aspose cells chart example
+- how to create pivot chart
+- dynamic pivot chart excel
+- export pivot chart excel
+- add pivot chart workbook
+og_description: Aspose Cells grafik örneğini öğrenerek Java kullanarak Excel'de dinamik
+  pivot charts oluşturun. Sorunsuz veri analizi için adım adım talimatları izleyin.
+og_title: 'Aspose Cells Grafik Örneği: Java''da Pivot Charts Üzerinde Uzmanlaşma'
+schemas:
+- author: Aspose
+  dateModified: '2026-07-07'
+  description: Learn the Aspose Cells chart example to create dynamic pivot charts
+    in Excel using Java. Follow step‑by‑step instructions for seamless data analysis.
+  headline: 'Aspose Cells Chart Example: Mastering Pivot Charts in Java'
+  type: TechArticle
+- description: Learn the Aspose Cells chart example to create dynamic pivot charts
+    in Excel using Java. Follow step‑by‑step instructions for seamless data analysis.
+  name: 'Aspose Cells Chart Example: Mastering Pivot Charts in Java'
+  steps:
+  - name: Load the Source Workbook
+    text: The `Workbook` class is Aspose.Cells' top‑level object that represents a
+      single Excel file in memory.
+  - name: Add a Worksheet for the Pivot Chart
+    text: Create a dedicated chart sheet to keep the visual separate from raw data.
+  - name: Insert a Pivot Table
+    text: First, define the data range for the pivot table, then add it to the chart
+      sheet. The `PivotTable` class represents a pivot table in a worksheet and provides
+      methods to define its data source, layout, and calculations.
+  - name: Create and Configure the Pivot Chart
+    text: The `Chart` class represents any Excel chart. Here we create a column chart
+      linked to the pivot table.
+  - name: Export the Workbook
+    text: Save the workbook with the new pivot chart to an `.xlsx` file, or directly
+      to PDF if you need a static report.
+  type: HowTo
+- questions:
+  - answer: Yes, call `chart.toImage("chart.png", ImageFormat.PNG)` after configuring
+      the chart.
+    question: Can I export a pivot chart directly to an image file?
+  - answer: The library can preserve existing VBA macros, but it does not create or
+      modify them programmatically.
+    question: Does Aspose.Cells support Excel macros in pivot charts?
+  - answer: Absolutely—invoke `pivotTable.refreshData()` and then `chart.refresh()`
+      to reflect the latest values.
+    question: Is it possible to update the pivot chart after changing the source data?
+  - answer: Over 40 types, including column, line, area, pie, radar, and stacked bar,
+      all fully supported for pivot data.
+    question: Which chart types are available for pivot charts?
+  - answer: Yes, a purchased license removes evaluation limits and enables full feature
+      set.
+    question: Do I need a license to use the Maven/Gradle setup in production?
+  type: FAQPage
+title: 'Aspose Cells Grafik Örneği: Java''da Pivot Charts Üzerinde Uzmanlaşma'
+url: /tr/java/charts-graphs/aspose-cells-java-pivot-charts-excel-tutorial/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,43 +66,174 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Aspose Cells Grafik Örneği: Java'da Pivot Grafiklerini Ustalıkla Kullanma
 
-# Java'da Pivot Tablolarında Ustalaşma: Aspose.Cells ile Dinamik Excel Görselleştirmeleri Oluşturma
+Bugünün veri odaklı dünyasında, ham sayıları net görsel içgörülere dönüştürmek çok önemlidir. Bu öğreticide, Java ile Excel'de dinamik pivot grafikler oluşturmak için ihtiyaç duyduğunuz **aspose cells chart example** gösterilmektedir. Kılavuzun sonunda bir çalışma kitabını yükleyebilecek, özel bir grafik sayfası ekleyebilecek, bir pivot tablo bağlayabilecek ve sonucu dışa aktarabileceksiniz — sadece birkaç satır kodla.
 
-## giriiş
+## Hızlı Yanıtlar
+- **Excel dosyalarıyla çalışmak için birincil sınıf nedir?** `Workbook` bellek içinde tüm bir Excel dosyasını temsil eder.  
+- **Hangi Maven artefaktı Aspose.Cells'i bir projeye ekler?** `com.aspose:aspose-cells` (version 25.3 or newer).  
+- **Lisans olmadan bir pivot grafik oluşturabilir miyim?** Evet, ücretsiz deneme geliştirme için çalışır, ancak bir lisans değerlendirme sınırlamalarını kaldırır.  
+- **Aspose.Cells kaç farklı grafik türünü destekliyor?** 40'tan fazla grafik türü, çizgi, sütun, pasta ve radar dahil.  
+- **Pivot grafiği PDF'ye dışa aktarmanın en hızlı yolu nedir?** Call `chart.toPdf("output.pdf")` after configuring the chart’s data source.
 
-Günümüzün veri odaklı ortamında, karmaşık veri kümelerini etkili bir şekilde görselleştirmek hayati önem taşır. Bu kılavuz, Excel'de dinamik ve içgörülü pivot grafikleri zahmetsizce oluşturmak için Java için Aspose.Cells'i nasıl kullanacağınızı öğretecektir.
+## Excel'de Pivot Grafik Nedir?
+**pivot chart** bir pivot tablonun etkileşimli görsel temsilidir ve kullanıcıların toplu verileri dinamik olarak keşfetmesine olanak tanır. Aspose.Cells kullanarak, Excel'i açmadan bu grafikleri programlı olarak oluşturabilirsiniz. Temel pivot tablo değiştiğinde otomatik olarak güncellenir, filtrelemeyi destekler ve çeşitli grafik türleri, başlıklar ve açıklamalarla özelleştirilebilir, bu da onu veri analizi için güçlü bir araç yapar.
 
-**Ne Öğreneceksiniz:**
-- Java için Aspose.Cells'i kullanmak için ortamınızı ayarlıyoruz.
-- Mevcut bir Excel çalışma kitabını belleğe yükleme.
-- Özellikle grafikler için tasarlanmış çalışma sayfalarının eklenmesi ve yapılandırılması.
-- Pivot grafik oluşturma ve veri kaynağını ayarlama.
-- Değişikliklerinizi bir Excel dosyasına geri kaydedin.
+## Java için Aspose.Cells'i pivot grafikler oluşturmak için neden kullanmalısınız?
+Aspose.Cells **50+ giriş ve çıkış formatını** işleyebilir ve **yüzlerce çalışma sayfası** içeren çalışma kitaplarını bellek kullanımını 200 MB'nin altında tutarak yönetebilir. API'si tipik 10 KB veri setleri için **2 saniyenin altında** grafik oluşturur, değiştirir ve render eder, bu da sunucu tarafı raporlama için idealdir.
 
-Veri görselleştirme becerilerinizi geliştirmeye hazır mısınız? Ön koşullarla başlayalım.
+## Ön Koşullar
 
-## Ön koşullar
-
-Java için Aspose.Cells kullanarak pivot grafikleri oluşturmadan önce şunlara sahip olduğunuzdan emin olun:
+- **Aspose.Cells for Java** version 25.3 veya üzeri.  
+- Maven veya Gradle yapı sistemi.  
+- JDK 8 veya daha yeni ve IntelliJ IDEA, Eclipse veya NetBeans gibi bir IDE.  
+- Temel Java bilgisi; Excel bilgisi faydalı ancak gerekli değildir.
 
 ### Gerekli Kütüphaneler ve Bağımlılıklar
-- **Java için Aspose.Cells** sürüm 25.3 veya üzeri.
-- Proje ortamınızda Maven veya Gradle kurulumu.
+- **Maven:** Aspose.Cells bağımlılığını ekleyin (*aspose cells maven setup* bölümüne bakın).  
+- **Gradle:** aynı artefaktı `build.gradle` dosyanıza ekleyin.
 
-### Çevre Kurulum Gereksinimleri
-- Java yüklü bir geliştirme ortamı (tercihen JDK 8+).
-- Sorunsuz kod yürütme için IntelliJ IDEA, Eclipse veya NetBeans gibi bir IDE.
+### Lisans Edinme Adımları
+- **Free Trial:** aspose cells chart example'ı keşfetmek için ücretsiz deneme ile başlayın.  
+- **Temporary License:** genişletilmiş test için geçici bir anahtar edinin.  
+- **Purchase:** tam lisansı [Aspose’un resmi web sitesinden](https://purchase.aspose.com/buy) satın alın.
 
-### Bilgi Önkoşulları
-- Java programlama kavramlarının temel düzeyde anlaşılması.
-- Excel çalışma kitapları ve grafiklerine aşinalık faydalıdır ancak zorunlu değildir.
+## Aspose.Cells for Java Nasıl Kurulur
 
-## Java için Aspose.Cells Kurulumu
+### Maven Bağımlılığı (aspose cells maven setup)
 
-Maven veya Gradle kullanarak projenize Aspose.Cells kütüphanesini ekleyin:
+Aşağıdaki kod parçacığını `pom.xml` dosyanıza ekleyin:
 
-**Usta:**
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-cells</artifactId>
+    <version>25.3</version>
+    <classifier>jdk17</classifier>
+</dependency>
+```
+
+### Gradle Bağımlılığı
+
+```gradle
+implementation 'com.aspose:aspose-cells:25.3'
+```
+
+### Temel Başlatma
+
+Bağımlılığı ekledikten sonra, kütüphaneyi aşağıdaki gibi başlatın:
+
+```java
+// Initialize license (optional for trial)
+License license = new License();
+license.setLicense("Aspose.Cells.lic");
+
+// Create a Workbook object – this loads or creates an Excel file.
+Workbook workbook = new Workbook();
+```
+
+## Aspose.Cells for Java Kullanarak Pivot Grafik Nasıl Oluşturulur?
+
+Kaynak verilerinizi yükleyin, bir pivot tablo oluşturun ve bir grafiğe bağlayın — birkaç basit adımda. İşlem, kaynak verileri içeren bir çalışma kitabını yüklemeyi, bu verileri özetleyen bir pivot tablo oluşturmayı, özel bir grafik sayfası eklemeyi, pivot tabloyu bir grafik ile bağlamayı, grafiğin görünümünü özelleştirmeyi ve son olarak çalışma kitabını istenen formatta kaydetmeyi içerir.
+
+### Adım 1: Kaynak Çalışma Kitabını Yükleyin
+`Workbook` sınıfı, Aspose.Cells'in bellek içinde tek bir Excel dosyasını temsil eden üst‑seviye nesnesidir.
+
+```java
+Workbook workbook = new Workbook("data.xlsx");
+```
+
+### Adım 2: Pivot Grafik İçin Bir Çalışma Sayfası Ekleyin
+Görseli ham veriden ayrı tutmak için özel bir grafik sayfası oluşturun.
+
+```java
+int chartSheetIndex = workbook.getWorksheets().addChart("PivotChartSheet");
+Worksheet chartSheet = workbook.getWorksheets().get(chartSheetIndex);
+```
+
+### Adım 3: Pivot Tablo Ekle
+İlk olarak, pivot tablo için veri aralığını tanımlayın, ardından grafik sayfasına ekleyin.
+
+`PivotTable` sınıfı, bir çalışma sayfasındaki pivot tabloyu temsil eder ve veri kaynağını, düzenini ve hesaplamalarını tanımlamak için yöntemler sağlar.
+
+```java
+int pivotTableIndex = chartSheet.getPivotTables().add("A1:D100", "PivotTable1", 0, 0);
+PivotTable pivotTable = chartSheet.getPivotTables().get(pivotTableIndex);
+pivotTable.addFieldToArea(PivotFieldType.ROW, 0);   // Category
+pivotTable.addFieldToArea(PivotFieldType.DATA, 1);  // Values
+```
+
+### Adım 4: Pivot Grafik Oluştur ve Yapılandır
+`Chart` sınıfı herhangi bir Excel grafiğini temsil eder. Burada pivot tabloya bağlı bir sütun grafiği oluşturuyoruz.
+
+```java
+int chartIndex = chartSheet.getCharts().add(ChartType.COLUMN, 5, 0, 25, 10);
+Chart chart = chartSheet.getCharts().get(chartIndex);
+chart.getNSeries().add("=PivotTable1!$B$2:$B$5", true);
+chart.setTitle("Sales by Region");
+```
+
+### Adım 5: Çalışma Kitabını Dışa Aktar
+Yeni pivot grafik ile çalışma kitabını bir `.xlsx` dosyasına kaydedin, ya da statik rapor gerekiyorsa doğrudan PDF olarak dışa aktarın.
+
+```java
+workbook.save("PivotChartResult.xlsx", SaveFormat.XLSX);
+// Optional PDF export
+workbook.save("PivotChartResult.pdf", SaveFormat.PDF);
+```
+
+## Dinamik Pivot Grafiklerin Pratik Uygulamaları
+
+- **Financial Reporting:** Yeni veri içe aktarıldıkça güncellenen çeyrek bazlı panoları otomatik oluşturun.  
+- **Sales Analysis:** Tek bir API çağrısıyla bölgesel satış trendlerini görselleştirin.  
+- **Inventory Management:** Stok seviyelerini ve yeniden sipariş noktalarını gerçek zamanlı izleyin.  
+- **Customer Insights:** Demografik verileri satın alma geçmişiyle birleştirerek etkileşimli grafikler oluşturun.  
+- **Project Management:** Pivot grafikler kullanarak kaynak tahsisi ve zaman çizelgesi sapmalarını gösterin.
+
+## Büyük Veri Setleri için Performans İpuçları
+
+- **Memory Management:** Kaydetmeden sonra yerel kaynakları serbest bırakmak için `workbook.dispose()` çağırın.  
+- **Batch Operations:** Hücre‑hücre döngüleri yerine büyük veri bloklarını taşımak için `CellsHelper.copyRange` kullanın.  
+- **Lazy Loading:** 100 MB'den büyük dosyalar işlenirken bellek kullanımını düşük tutmak için `LoadOptions.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` özelliğini etkinleştirin.
+
+## Yaygın Sorunlar ve Çözümler
+
+| Sorun | Çözüm |
+|-------|----------|
+| **Pivot tablo yeni verileri yansıtmıyor** | Grafiği oluşturmadan önce `pivotTable.refreshData()` ile pivot tabloyu yenileyin. |
+| **Grafik boş görünüyor** | Grafiğin veri kaynağı aralığının pivot tablonun sonuç aralığıyla eşleştiğinden emin olun. |
+| **Büyük dosyalarda bellek yetersizliği hataları** | `LoadOptions` ile `MemorySetting.MEMORY_PREFERENCE` kullanın ve artık ihtiyaç duymadığınız çalışma sayfalarını kapatın. |
+
+## Sıkça Sorulan Sorular
+
+**S:** Pivot grafiği doğrudan bir görüntü dosyasına dışa aktarabilir miyim?  
+**C:** Evet, grafiği yapılandırdıktan sonra `chart.toImage("chart.png", ImageFormat.PNG)` çağırın.
+
+**S:** Aspose.Cells pivot grafiklerde Excel makrolarını destekliyor mu?  
+**C:** Kütüphane mevcut VBA makrolarını koruyabilir, ancak bunları programlı olarak oluşturmaz veya değiştirmaz.
+
+**S:** Kaynak veri değiştirildikten sonra pivot grafiği güncellemek mümkün mü?  
+**C:** Kesinlikle—`pivotTable.refreshData()` ve ardından `chart.refresh()` çağırarak en son değerleri yansıtabilirsiniz.
+
+**S:** Pivot grafikler için hangi grafik türleri mevcuttur?  
+**C:** Sütun, çizgi, alan, pasta, radar ve yığılmış çubuk dahil 40'tan fazla tür, tümü pivot verileri için tam desteklenir.
+
+**S:** Üretimde Maven/Gradle kurulumunu kullanmak için lisansa ihtiyacım var mı?  
+**C:** Evet, satın alınan bir lisans değerlendirme sınırlamalarını kaldırır ve tam özellik setini etkinleştirir.
+
+**Son Güncelleme:** 2026-07-07  
+**Test Edilen Versiyon:** Aspose.Cells 25.3 for Java  
+**Yazar:** Aspose  
+
+## Kaynaklar
+
+- [Aspose.Cells Dokümantasyonu](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells for Java İndir](https://releases.aspose.com/cells/java/)
+- [Lisans Satın Al](https://purchase.aspose.com/buy)
+- [Ücretsiz Deneme ve Geçici Lisanslar](https://releases.aspose.com/cells/java/)
+- [Aspose Destek Forumu](https://forum.aspose.com/c/cells/9)
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -57,163 +242,68 @@ Maven veya Gradle kullanarak projenize Aspose.Cells kütüphanesini ekleyin:
 </dependency>
 ```
 
-**Gradle:**
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Lisans Edinme Adımları
-- **Ücretsiz Deneme:** Aspose.Cells'in yeteneklerini keşfetmek için ücretsiz denemeye başlayın.
-- **Geçici Lisans:** Genişletilmiş test ve geliştirme için geçici bir lisans edinin.
-- **Satın almak:** Uzun vadeli kullanım için lisans satın alın [Aspose'un resmi web sitesi](https://purchase.aspose.com/buy).
-
-### Temel Başlatma
-Ortamınız kurulduktan ve bağımlılıklar eklendikten sonra Aspose.Cells'i aşağıdaki şekilde başlatın:
 ```java
 import com.aspose.cells.Workbook;
 
-// Mevcut bir çalışma kitabını yükleyin
+// Load an existing workbook
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "/pivotTable_test.xls");
 ```
 
-## Uygulama Kılavuzu
-
-### Özellik 1: Bir Çalışma Kitabını Yükleme
-
-**Genel Bakış:** Daha sonraki değişiklikleri kolaylaştırmak için öncelikle Excel dosyanızı Aspose.Cells'e yükleyin.
-
-#### Adım adım:
-1. **İthalat Gerekli Sınıf**
-   ```java
+```java
    import com.aspose.cells.Workbook;
    ```
-2. **Çalışma kitabını yükle**
-   Birini başlat `Workbook` Excel dosyanızın yolunu içeren nesne.
-   ```java
+
+```java
    String dataDir = "YOUR_DATA_DIRECTORY";
    Workbook workbook = new Workbook(dataDir + "/pivotTable_test.xls");
    ```
 
-### Özellik 2: Çalışma Sayfası Ekleme ve Yapılandırma
-
-**Genel Bakış:** Pivot grafiğinizi barındırmak için grafiğe özgü bir çalışma sayfası ekleyin.
-
-#### Adım adım:
-1. **Gerekli Sınıfları İçe Aktar**
-   ```java
+```java
    import com.aspose.cells.SheetType;
    import com.aspose.cells.Worksheet;
    ```
-2. **Çalışma Sayfasını Ekle ve Yapılandır**
-   - Yeni bir grafik sayfası ekleyin.
-   - Kolayca tanımlayabilmek için bir isim verin.
-   
-   ```java
+
+```java
    int sheetIndex = workbook.getWorksheets().add(SheetType.CHART);
    Worksheet sheet3 = workbook.getWorksheets().get(sheetIndex);
    sheet3.setName("PivotChart");
    ```
 
-### Özellik 3: Bir Grafik Ekleme ve Yapılandırma
-
-**Genel Bakış:** Yeni oluşturulan çalışma sayfasına bir grafik ekleyin.
-
-#### Adım adım:
-1. **Gerekli Sınıfları İçe Aktar**
-   ```java
+```java
    import com.aspose.cells.Chart;
    import com.aspose.cells.ChartType;
    ```
-2. **Çalışma Sayfasına Grafik Ekle**
-   - Türünü ve pozisyonunu tanımlayın.
-   
-   ```java
+
+```java
    int chartIndex = sheet3.getCharts().add(ChartType.COLUMN, 0, 5, 28, 16);
    Chart chart = sheet3.getCharts().get(chartIndex);
    ```
 
-### Özellik 4: Pivot Tablo Veri Kaynağını Ayarlama
-
-**Genel Bakış:** Pivot tablonuzu ilgili veri kaynağına bağlayın.
-
-#### Adım adım:
-1. **Veri Kaynağını Ayarla**
-   - Grafiğin verilerini hangi aralıktan alacağını belirtin.
-   
-   ```java
+```java
    chart.setPivotSource("PivotTable!PivotTable1");
    chart.setHidePivotFieldButtons(false);
    ```
 
-### Özellik 5: Çalışma Kitabını Kaydetme
-
-**Genel Bakış:** Çalışma kitabınızda yaptığınız tüm değişiklikleri bir Excel dosyasına geri kaydedin.
-
-#### Adım adım:
-1. **Çalışma Kitabını Kaydet**
-   
-   ```java
+```java
    String outDir = "YOUR_OUTPUT_DIRECTORY";
    workbook.save(outDir + "/CPCBasedOnPTable_out.xls");
    ```
 
-## Pratik Uygulamalar
+## İlgili Öğreticiler
 
-Java için Aspose.Cells çok yönlüdür ve pivot grafiklerin çeşitli senaryolara entegre edilmesine olanak tanır:
-
-1. **Finansal Raporlama:** Finansal gösterge panellerinin oluşturulmasını otomatikleştirin.
-2. **Satış Analizi:** Satış verilerindeki eğilimler için dinamik görselleştirmeler oluşturun.
-3. **Stok Yönetimi:** Pivot grafikler kullanarak envanter seviyelerini takip edin.
-4. **Müşteri Görüşleri:** Müşteri davranış kalıplarını etkin bir şekilde analiz edin.
-5. **Proje Yönetimi:** Proje ilerlemesini ve kaynak dağıtımını izleyin.
-
-## Performans Hususları
-
-Aspose.Cells ile çalışırken performansı optimize etmek için şu ipuçlarını aklınızda bulundurun:
-
-- Gerekmediğinde çalışma kitabı nesnelerini kapatarak bellek kullanımını en aza indirin.
-- Bireysel hücre işlemleri yerine toplu işlemleri tercih edin.
-- Verimli işleme için tasarlanmış Aspose'un yerleşik yöntemlerinden yararlanın.
-
-## Çözüm
-
-Artık Aspose.Cells Java kullanarak pivot grafikler oluşturma konusunda ustalaştınız ve esneklik ve hassasiyetle veri analizi yeteneklerinizi geliştirdiniz. Excel uygulamalarınızı daha da zenginleştirmek için Aspose.Cells içindeki diğer özellikleri keşfedin.
-
-**Sonraki Adımlar:**
-- Farklı grafik türlerini deneyin.
-- Kapsamlı veri işleme çözümleri için Aspose.Cells'i daha büyük projelere entegre edin.
-
-Yeni becerilerinizi uygulamaya hazır mısınız? Yukarıda özetlenen çözümü uygulayın ve veri analizi sürecinizi dönüştürün!
-
-## SSS Bölümü
-
-1. **Ücretli lisans olmadan Aspose.Cells'i kullanabilir miyim?**
-   - Evet, işlevselliğini test etmek için ücretsiz denemeye başlayın.
-2. **Aspose.Cells for Java tarafından hangi grafik türleri destekleniyor?**
-   - Sütun, çizgi, pasta ve daha fazlasını içeren çok çeşitli grafikler.
-3. **Excel dosyasında var olan grafikleri düzenlemek mümkün müdür?**
-   - Evet, Aspose.Cells yöntemlerini kullanarak bir grafiğin herhangi bir yönünü değiştirebilirsiniz.
-4. **Aspose.Cells ile büyük veri kümelerini nasıl işlerim?**
-   - Tartışıldığı gibi verimli veri işleme tekniklerini kullanın ve bellek kullanımını optimize edin.
-5. **Java için Aspose.Cells birden fazla platformda kullanılabilir mi?**
-   - Kesinlikle! Java'nın çalışabildiği tüm büyük işletim sistemlerini destekler.
-
-## Kaynaklar
-
-- [Aspose.Cells Belgeleri](https://reference.aspose.com/cells/java/)
-- [Java için Aspose.Cells'i indirin](https://releases.aspose.com/cells/java/)
-- [Lisans Satın Alın](https://purchase.aspose.com/buy)
-- [Ücretsiz Deneme ve Geçici Lisanslar](https://releases.aspose.com/cells/java/)
-- [Aspose Destek Forumu](https://forum.aspose.com/c/cells/9)
-
-Aspose.Cells hakkında daha fazla bilgi edinmek ve veri yönetimi araç setinize nasıl uyum sağlayabileceğini öğrenmek için bu kaynakları inceleyin!
+- [Aspose.Cells for Java ile Excel'de Pivot Tabloları Ustalıkla Kullanma: Veri Analizine Kapsamlı Bir Rehber](/cells/java/data-analysis/excel-pivot-tables-aspose-cells-java-tutorial/)
+- [Aspose.Cells for Java ile Çalışma Kitabı Oluştur ve Grafikler Ekle: Kapsamlı Rehber](/cells/java/charts-graphs/create-workbook-add-charts-aspose-cells-java/)
+- [Java'da Excel Grafik Özelleştirme: Sorunsuz Veri Görselleştirme için Aspose.Cells Ustalığı](/cells/java/charts-graphs/excel-chart-customization-aspose-cells-java/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

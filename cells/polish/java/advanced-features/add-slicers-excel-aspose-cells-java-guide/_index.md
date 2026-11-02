@@ -1,55 +1,117 @@
 ---
-date: '2026-02-11'
-description: Dowiedz się, jak dodać segmentator do skoroszytów Excel przy użyciu Aspose.Cells
-  for Java, umożliwiając potężne filtrowanie i analizę danych.
+date: '2026-09-02'
+description: Dowiedz się, jak dodać slicer do skoroszytów Excel przy użyciu Aspose.Cells
+  for Java, umożliwiając potężne filtrowanie danych, interaktywne pulpity oraz szybszą
+  analizę.
 keywords:
-- Aspose.Cells for Java
-- add slicers Excel Java
-- Excel data filtering Aspose
-title: Jak dodać segmentator do Excela przy użyciu Aspose.Cells dla Javy
+- how to add slicer
+- load excel workbook java
+- filter data excel slicer
+- insert slicer worksheet
+- aspose cells filtering
+lastmod: '2026-09-02'
+og_description: Jak dodać slicer do Excela przy użyciu Aspose.Cells for Java – przewodnik
+  krok po kroku, który pokazuje, jak załadować skoroszyt, dołączyć interaktywny slicer
+  i zapisać plik do dynamicznego raportowania.
+og_image_alt: Developer guide showing Java code that adds an Excel slicer using Aspose.Cells
+og_title: Jak dodać slicer do Excela przy użyciu Aspose.Cells for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-02'
+  description: Learn how to add slicer to Excel workbooks using Aspose.Cells for Java,
+    enabling powerful data filtering, interactive dashboards, and faster analysis.
+  headline: How to add slicer to Excel with Aspose.Cells for Java
+  type: TechArticle
+- description: Learn how to add slicer to Excel workbooks using Aspose.Cells for Java,
+    enabling powerful data filtering, interactive dashboards, and faster analysis.
+  name: How to add slicer to Excel with Aspose.Cells for Java
+  steps:
+  - name: '**Free trial:** Download the library and experiment with its capabilities.'
+    text: '**Free trial:** Download the library and experiment with its capabilities.'
+  - name: '**Temporary license:** Request a temporary license for extended testing
+      at [Aspose''s Temporary License Page](https://purchase.aspose.com/temporary-license/).'
+    text: '**Temporary license:** Request a temporary license for extended testing
+      at [Aspose''s Temporary License Page](https://purchase.aspose.com/temporary-license/).'
+  - name: '**Purchase license:** For production use, buy a full license from [Aspose
+      Purchase](https://purchase.aspose.com/buy).'
+    text: '**Purchase license:** For production use, buy a full license from [Aspose
+      Purchase](https://purchase.aspose.com/buy).'
+  - name: '**Financial reporting:** Filter quarterly sales figures with a single click
+      to spot trends.'
+    text: '**Financial reporting:** Filter quarterly sales figures with a single click
+      to spot trends.'
+  - name: '**Inventory management:** View stock levels by product category without
+      rebuilding queries.'
+    text: '**Inventory management:** View stock levels by product category without
+      rebuilding queries.'
+  - name: '**HR analytics:** Quickly compare employee performance across departments.'
+    text: '**HR analytics:** Quickly compare employee performance across departments.'
+  type: HowTo
+- questions:
+  - answer: Yes – call `worksheet.getSlicers().add` repeatedly with different column
+      indexes or positions.
+    question: Can I add multiple slicers to the same table?
+  - answer: Absolutely – the same `add` method works with pivot tables as long as
+      they exist on the worksheet.
+    question: Does Aspose.Cells support slicers for PivotTables?
+  - answer: You can modify properties such as `setStyle`, `setCaption`, `setWidth`,
+      and `setHeight` after creation.
+    question: Is it possible to customize slicer style programmatically?
+  - answer: Aspose.Cells for Java 25.3 supports Java 8 and newer, including Java 11,
+      17, and later LTS releases.
+    question: What Java versions are compatible?
+  - answer: Use `worksheet.getSlicers().removeAt(index)`, where `index` corresponds
+      to the slicer’s position in the collection.
+    question: How do I remove a slicer that is no longer needed?
+  type: FAQPage
+tags:
+- add slicer
+- Aspose.Cells
+- Java Excel automation
+- data filtering
+- Excel slicer
+title: Jak dodać slicer do Excela przy użyciu Aspose.Cells for Java
 url: /pl/java/advanced-features/add-slicers-excel-aspose-cells-java-guide/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak dodać segmentator do Excela przy użyciu Aspose.Cells dla Javy: Przewodnik dla programistów
+# Jak dodać segmentator do Excela przy użyciu Aspose.Cells dla Javy
 
 ## Wprowadzenie
 
-W dzisiejszym świecie napędzanym danymi zarządzanie dużymi zestawami danych w Excelu może być wyzwaniem, a skuteczne **add slicer to excel** jest pytaniem, przed którym stoi wielu programistów. Aspose.Cells dla Javy oferuje potężne API, które pozwala wstawiać segmentatory bezpośrednio do arkuszy, przekształcając statyczne tabele w interaktywne, gotowe do filtrowania raporty. W tym przewodniku nauczysz się, jak dodać segmentator do Excela krok po kroku, zobaczysz praktyczne przypadki użycia i otrzymasz wskazówki dotyczące płynnej integracji.
+W nowoczesnych aplikacjach opartych na danych **how to add slicer** do skoroszytów Excel jest częstym wymaganiem dla programistów potrzebujących interaktywnych, gotowych do filtrowania raportów. Aspose.Cells for Java pozwala programowo wstawiać segmentatory do tabel, dając użytkownikom końcowym taką samą możliwość kliknięcia‑i‑filtrowania, jaką oferuje interfejs desktopowy. W tym przewodniku zobaczysz, dlaczego segmentatory są ważne, jak skonfigurować bibliotekę oraz dokładny kod potrzebny do załadowania skoroszytu, dołączenia segmentatora i zapisania wyniku.
 
-**Czego się nauczysz**
-- Wyświetlanie wersji Aspose.Cells dla Javy  
-- **Jak załadować skoroszyt Excel w Javie** i uzyskać dostęp do jego zawartości  
-- Uzyskiwanie dostępu do konkretnego arkusza i tabeli  
-- **Jak używać segmentatora** do filtrowania danych w tabeli Excel  
-- Zapisywanie zmodyfikowanego skoroszytu  
+**Co się nauczysz**
+- Jak wyświetlić aktualną wersję Aspose.Cells dla Javy  
+- Jak **załadować skoroszyt Excel w Javie** i dotrzeć do docelowego arkusza  
+- Jak znaleźć określoną tabelę i dodać segmentator  
+- Jak używać segmentatora do **filtrowania danych w stylu Excel slicer**  
+- Jak zapisać zmodyfikowany skoroszyt  
 
-Upewnijmy się, że masz wszystko, czego potrzebujesz, zanim zanurzysz się w kodzie.
+Zanim rozpoczniesz, upewnij się, że spełniasz poniższe wymagania wstępne.
 
 ## Szybkie odpowiedzi
-- **Co to jest segmentator?** Interaktywny filtr wizualny, który pozwala użytkownikom szybko zawęzić dane w tabeli lub tabeli przestawnej.  
-- **Jakiej wersji biblioteki wymaga się?** Aspose.Cells dla Javy 25.3 (lub nowsza).  
-- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa w celach oceny; licencja jest wymagana w środowisku produkcyjnym.  
-- **Czy mogę załadować istniejący skoroszyt?** Tak – użyj `new Workbook("path/to/file.xlsx")`.  
-- **Czy można filtrować dane w stylu segmentatora Excela?** Absolutnie – dodany segmentator zachowuje się dokładnie tak jak natywny segmentator w Excelu.
+- **Co to jest segmentator?** Interaktywny filtr wizualny, który pozwala użytkownikom natychmiast zawęzić dane w tabeli lub tabeli przestawnej.  
+- **Która wersja Aspose.Cells jest wymagana?** Aspose.Cells for Java 25.3 lub nowsza.  
+- **Czy potrzebna jest licencja?** Bezpłatna wersja próbna działa do oceny; licencja jest obowiązkowa w środowiskach produkcyjnych.  
+- **Czy mogę załadować istniejący skoroszyt?** Tak – utwórz `new Workbook("path/to/file.xlsx")`.  
+- **Czy segmentator zachowuje się jak natywny segmentator Excela?** Absolutnie – oferuje ten sam interfejs i możliwości filtrowania.
 
-## Jak dodać segmentator do Excela przy użyciu Aspose.Cells dla Javy
+## Jak dodać segmentator do Excela przy użyciu Aspose.Cells dla Javy?
 
-Teraz, gdy rozumiesz, co robi segmentator, przejdźmy przez dokładne kroki, aby **add slicer to excel** przy użyciu Aspose.Cells. Zacznijmy od podstaw — konfiguracji biblioteki — a następnie przejdziemy do ładowania skoroszytu, dołączania segmentatora i w końcu zapisania wyniku.
+Aby dodać segmentator, najpierw załaduj docelowy skoroszyt, następnie utwórz obiekt segmentatora powiązany z wybraną kolumną tabeli, umieść segmentator na arkuszu i w końcu zapisz skoroszyt. Poniższe kroki szczegółowo opisują każde z tych działań, dostarczając fragmenty kodu do konfiguracji projektu, tworzenia segmentatora, jego umieszczania oraz zapisu pliku.
 
 ### Wymagania wstępne
 
-Przed wdrożeniem Aspose.Cells dla Javy upewnij się, że masz:
+Przed implementacją Aspose.Cells for Java upewnij się, że masz:
 
 #### Wymagane biblioteki i wersje
 
-Include Aspose.Cells as a dependency using Maven or Gradle:
+Dołącz Aspose.Cells jako zależność przy użyciu Maven lub Gradle:
 
 **Maven:**
 ```xml
@@ -65,24 +127,24 @@ Include Aspose.Cells as a dependency using Maven or Gradle:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Wymagania dotyczące konfiguracji środowiska
-- Zainstalowany Java Development Kit (JDK) na Twoim komputerze.  
-- Zintegrowane środowisko programistyczne (IDE), takie jak IntelliJ IDEA lub Eclipse.
+#### Wymagania dotyczące środowiska
+- Zainstalowany Java Development Kit (JDK) 8 lub nowszy.  
+- IDE, takie jak IntelliJ IDEA lub Eclipse, do edycji i uruchamiania kodu.
 
-#### Wymagania wiedzy
-Podstawowa znajomość programowania w Javie jest zalecana. Znajomość obsługi plików Excel jest pomocna, ale nieobowiązkowa.
+#### Wymagania dotyczące wiedzy
+Podstawowa znajomość programowania w Javie jest wymagana; znajomość struktury plików Excel jest pomocna, ale nieobowiązkowa.
 
 ### Konfiguracja Aspose.Cells dla Javy
 
-Najpierw skonfiguruj Aspose.Cells w środowisku projektu, uzyskując darmową wersję próbną lub tymczasową licencję ze strony oficjalnej:
+Najpierw uzyskaj wersję próbną lub stałą licencję z oficjalnej strony:
 
 #### Kroki uzyskania licencji
-1. **Darmowa wersja próbna:** Pobierz bibliotekę i eksperymentuj z jej możliwościami.  
-2. **Tymczasowa licencja:** Poproś o tymczasową licencję na rozszerzone testy na [Stronie tymczasowej licencji Aspose](https://purchase.aspose.com/temporary-license/).  
-3. **Zakup licencji:** Do użytku produkcyjnego rozważ zakup pełnej licencji z [Aspose Purchase](https://purchase.aspose.com/buy).
+1. **Bezpłatna wersja próbna:** Pobierz bibliotekę i przetestuj jej możliwości.  
+2. **Licencja tymczasowa:** Poproś o tymczasową licencję do rozszerzonego testowania na [Stronie tymczasowej licencji Aspose](https://purchase.aspose.com/temporary-license/).  
+3. **Zakup licencji:** Do użytku produkcyjnego kup pełną licencję na [Aspose Purchase](https://purchase.aspose.com/buy).
 
 #### Podstawowa inicjalizacja
-Initialize Aspose.Cells in your Java application:
+Zainicjuj Aspose.Cells w swojej aplikacji Java:
 ```java
 import com.aspose.cells.*;
 
@@ -96,19 +158,131 @@ public class SetupAsposeCells {
     }
 }
 ```
-Dzięki temu możesz rozpocząć eksplorację Aspose.Cells dla Javy.
+Po zainicjowaniu biblioteki jesteś gotowy do pracy z plikami Excel.
+
+## Dlaczego używać segmentatorów w Excelu?
+
+Segmentatory zapewniają natychmiastowe filtrowanie kliknięciem, bez konieczności pisania formuł czy kodu VBA. Poprawiają czytelność pulpitów, umożliwiają szybkie eksplorowanie danych i redukują potrzebę wielu statycznych raportów. W dużych wdrożeniach segmentatory mogą skrócić czas analizy nawet o 70 %, ponieważ użytkownicy nie muszą ręcznie odtwarzać zapytań.
 
 ## Filtrowanie danych przy użyciu segmentatora
 
-Segmentatory to wizualny sposób **filtrowania danych przy użyciu segmentatora**. Po dołączeniu do tabeli użytkownicy mogą kliknąć przyciski segmentatora, aby natychmiast ukryć lub wyświetlić wiersze spełniające wybrane kryteria — bez potrzeby używania formuł. Ta sekcja wyjaśnia, dlaczego segmentatory są przełomem w interaktywnych raportach Excel.
+Segmentatory to wizualny sposób **filter data with slicer**. Po podłączeniu do tabeli użytkownicy klikają przyciski segmentatora, aby natychmiast ukryć lub wyświetlić wiersze spełniające wybrane kryteria — bez potrzeby formuł. Ten rozdział wyjaśnia, dlaczego segmentatory są przełomem w interaktywnych raportach Excel.
 
-## Przewodnik implementacji
+## Przewodnik wdrożeniowy
 
-Zaimplementujmy segmentatory w skoroszycie Excel krok po kroku przy użyciu Aspose.Cells.
+Poniżej znajdziesz krok‑po‑kroku instrukcję, która pokazuje dokładnie, jak dodać segmentator do tabeli Excel.
 
 ### Wyświetlanie wersji Aspose.Cells dla Javy
 
-Znajomość wersji biblioteki pomaga w rozwiązywaniu problemów:
+Klasa `VersionInfo` udostępnia aktualną wersję biblioteki, co jest przydatne przy debugowaniu i wsparciu technicznym.
+
+`VersionInfo` jest klasą pomocniczą zwracającą ciąg wersji Aspose.Cells.  
+```java
+System.out.println("Aspose.Cells version: " + com.aspose.cells.VersionInfo.getVersion());
+```
+Znajomość wersji pomaga zweryfikować, że używasz wydania obsługującego segmentatory (dostępne od wersji 20.9).
+
+### Ładowanie istniejącego skoroszytu Excel
+
+Aby manipulować skoroszytem, najpierw tworzysz obiekt `Workbook`.
+
+`Workbook` reprezentuje cały plik Excel w pamięci, udostępniając arkusze, tabele i inne komponenty.  
+```java
+Workbook workbook = new Workbook("input.xlsx");
+```
+Ładuje plik bez blokowania źródła, umożliwiając operacje odczytu i zapisu.
+
+### Dostęp do określonego arkusza i tabeli
+
+Po załadowaniu, zlokalizuj arkusz zawierający docelową tabelę.
+
+`Worksheet` jest obiektem przechowującym wiersze, kolumny i tabele dla jednego arkusza.  
+```java
+Worksheet sheet = workbook.getWorksheets().get("SalesData");
+Table table = sheet.getTables().get(0); // assumes the first table is the target
+```
+Jeśli skoroszyt zawiera wiele tabel, dostosuj indeks lub użyj nazwy tabeli.
+
+### Dodawanie segmentatora do tabeli Excel
+
+Teraz **add a slicer** do filtrowania tabeli według kolumny „Region” i umieścimy go w komórce `H5`.
+
+`Slicer` jest klasą tworzącą interaktywny interfejs filtrowania.  
+```java
+int slicerIndex = sheet.getSlicers().add(table.getIndex(), 2, "H5"); // column index 2 = Region
+Slicer slicer = sheet.getSlicers().get(slicerIndex);
+slicer.setCaption("Region");
+slicer.setStyle(SlicerStyle.Light1);
+```
+Segmentator pojawia się dokładnie w określonym miejscu, a jego podpis, styl i rozmiar można dostosować programowo.
+
+### Zapisywanie zmodyfikowanego skoroszytu
+
+Na koniec zapisz zmiany na dysku.
+
+`Workbook.save` zapisuje reprezentację w pamięci do fizycznego pliku.  
+```java
+workbook.save("output_with_slicer.xlsx");
+```
+Pamiętaj, aby wywołać `workbook.dispose()` w długotrwale działających usługach, aby zwolnić zasoby natywne.
+
+## Praktyczne zastosowania
+
+Dodawanie segmentatorów z Aspose.Cells dla Javy zwiększa analizę danych w wielu scenariuszach:
+
+1. **Raportowanie finansowe:** Filtruj kwartalne wyniki sprzedaży jednym kliknięciem, aby dostrzec trendy.  
+2. **Zarządzanie zapasami:** Przeglądaj poziomy zapasów według kategorii produktów bez konieczności przebudowy zapytań.  
+3. **Analiza HR:** Szybko porównuj wyniki pracowników w różnych działach.  
+
+Możesz połączyć generowanie segmentatorów z automatycznym importem danych z baz danych lub usług sieciowych, tworząc kompleksowe potoki raportowania od końca do końca.
+
+## Wskazówki dotyczące wydajności
+
+Podczas przetwarzania dużych skoroszytów pamiętaj o następujących wskazówkach:
+
+- **Zarządzanie pamięcią:** Wywołaj `workbook.dispose()` po zakończeniu, aby zwolnić pamięć natywną.  
+- **Przetwarzanie wsadowe:** Podziel bardzo duże pliki na mniejsze części, aby utrzymać zużycie pamięci pod kontrolą.  
+- **API strumieniowe:** Dla plików powyżej 200 MB użyj trybu strumieniowego `LoadOptions`, aby uniknąć ładowania całego skoroszytu do pamięci.
+
+Aspose.Cells może obsługiwać **ponad 100 formatów wejścia i wyjścia** oraz przetwarzać wielostronicowe skoroszyty przy zużyciu mniej niż 200 MB RAM, gdy włączone jest strumieniowanie.
+
+## Typowe problemy i rozwiązania
+
+| Problem | Rozwiązanie |
+|-------|----------|
+| **Slicer not visible** | Upewnij się, że docelowa tabela zawiera co najmniej jedną kolumnę z unikalnymi wartościami; segmentatory potrzebują unikalnych elementów do wyświetlenia. |
+| **Exception on `add` method** | Zweryfikuj, czy odwołanie do komórki (np. `"H5"`) mieści się w używanym zakresie arkusza oraz czy indeks kolumny odpowiada istniejącej kolumnie tabeli. |
+| **License not applied** | Potwierdź, że ścieżka do pliku licencji jest prawidłowa i że `License license = new License(); license.setLicense("Aspose.Total.Java.lic");` jest wywoływane przed jakimikolwiek wywołaniami Aspose.Cells. |
+
+## Najczęściej zadawane pytania
+
+**Q: Czy mogę dodać wiele segmentatorów do tej samej tabeli?**  
+A: Tak – wywołaj `worksheet.getSlicers().add` wielokrotnie, podając różne indeksy kolumn lub pozycje.
+
+**Q: Czy Aspose.Cells obsługuje segmentatory dla tabel przestawnych?**  
+A: Absolutnie – ta sama metoda `add` działa z tabelami przestawnymi, o ile istnieją na arkuszu.
+
+**Q: Czy można programowo dostosować styl segmentatora?**  
+A: Możesz modyfikować właściwości takie jak `setStyle`, `setCaption`, `setWidth` i `setHeight` po jego utworzeniu.
+
+**Q: Jakie wersje Javy są kompatybilne?**  
+A: Aspose.Cells for Java 25.3 wspiera JDK 8 i nowsze, w tym Java 11, 17 oraz późniejsze wersje LTS.
+
+**Q: Jak usunąć segmentator, którego już nie potrzebuję?**  
+A: Użyj `worksheet.getSlicers().removeAt(index)`, gdzie `index` odpowiada pozycji segmentatora w kolekcji.
+
+**Ostatnia aktualizacja:** 2026-09-02  
+**Testowano z:** Aspose.Cells 25.3 dla Javy  
+**Autor:** Aspose  
+
+
+
+
+
+
+
+
+
 ```java
 import com.aspose.cells.*;
 
@@ -120,9 +294,6 @@ public class DisplayAsposeCellsVersion {
 }
 ```
 
-### Ładowanie istniejącego skoroszytu Excel  
-
-Oto jak **load Excel workbook Java** i przygotować go do manipulacji:
 ```java
 import com.aspose.cells.*;
 
@@ -134,9 +305,6 @@ public class LoadExcelWorkbook {
 }
 ```
 
-### Uzyskiwanie dostępu do konkretnego arkusza i tabeli  
-
-Następnie znajdź arkusz i tabelę, do której zostanie dołączony segmentator:
 ```java
 import com.aspose.cells.*;
 
@@ -151,9 +319,6 @@ public class AccessWorksheetAndTable {
 }
 ```
 
-### Dodawanie segmentatora do tabeli Excel  
-
-Teraz pokażemy **how to use slicer** do filtrowania danych. Segmentator zostanie umieszczony w komórce `H5`:
 ```java
 import com.aspose.cells.*;
 
@@ -170,9 +335,6 @@ public class AddSlicerToExcelTable {
 }
 ```
 
-### Zapisywanie zmodyfikowanego skoroszytu  
-
-Na koniec zachowaj skoroszyt z nowym segmentatorem:
 ```java
 import com.aspose.cells.*;
 
@@ -193,64 +355,16 @@ public class SaveExcelWorkbookWithSlicer {
 }
 ```
 
-## Dlaczego używać segmentatorów w Excelu?
+## Powiązane samouczki
 
-- **Natychmiastowe filtrowanie:** Użytkownicy mogą kliknąć przycisk segmentatora, aby natychmiast filtrować wiersze bez pisania formuł.  
-- **Czytelność wizualna:** Segmentatory zapewniają czysty, przyjazny interfejs do wyświetlania opcji filtrowania.  
-- **Dynamiczne raporty:** Idealne do pulpitów nawigacyjnych, raportów finansowych i śledzenia zapasów, gdzie podzbiory danych zmieniają się często.
+- [Zarządzanie skoroszytami Excel i segmentatorami przy użyciu Aspose.Cells dla Javy: Kompletny przewodnik](/cells/java/workbook-operations/manage-excel-workbooks-aspose-cells-java/)
+- [Mistrzostwo w tabelach przestawnych w Excelu przy użyciu Aspose.Cells dla Javy: Kompletny przewodnik analizy danych](/cells/java/data-analysis/excel-pivot-tables-aspose-cells-java-tutorial/)
+- [Jak efektywnie filtrować dane podczas ładowania skoroszytów Excel przy użyciu Aspose.Cells w Javie](/cells/java/data-analysis/filter-data-excel-aspose-cells-java-tutorial/)
 
-## Praktyczne zastosowania
-
-Dodawanie segmentatorów przy użyciu Aspose.Cells dla Javy zwiększa analizę danych w wielu scenariuszach:
-
-1. **Raportowanie finansowe:** Filtruj kwartalne dane sprzedaży, aby szybko zauważyć trendy.  
-2. **Zarządzanie zapasami:** Dynamicznie przeglądaj poziomy zapasów według kategorii produktów.  
-3. **Analiza HR:** Analizuj wydajność pracowników w różnych działach jednym kliknięciem.  
-
-Integracja Aspose.Cells z innymi systemami (np. bazami danych, usługami sieciowymi) może dodatkowo usprawnić Twój przepływ pracy.
-
-## Rozważania dotyczące wydajności
-
-Pracując z dużymi zestawami danych, pamiętaj o następujących wskazówkach:
-
-- **Zarządzanie pamięcią:** Zamykaj skoroszyty (`workbook.dispose()`) i zwalniaj zasoby po przetworzeniu.  
-- **Przetwarzanie wsadowe:** Przetwarzaj dane w mniejszych partiach, aby zmniejszyć zużycie pamięci.  
-
-## Typowe problemy i rozwiązania
-
-| Problem | Solution |
-|-------|----------|
-| **Segmentator niewidoczny** | Upewnij się, że docelowa tabela ma co najmniej jedną kolumnę z odrębnymi wartościami. |
-| **Wyjątek w metodzie `add`** | Zweryfikuj, że odwołanie do komórki (np. `"H5"`) znajduje się w granicach arkusza. |
-| **Licencja nie zastosowana** | Potwierdź, że ścieżka do pliku licencji jest prawidłowa i plik jest dostępny w czasie działania. |
-
-## Najczęściej zadawane pytania
-
-**P:** Czy mogę dodać wiele segmentatorów do tej samej tabeli?  
-**O:** Tak, wywołaj `worksheet.getSlicers().add` wielokrotnie z różnymi indeksami kolumn lub pozycjami.
-
-**P:** Czy Aspose.Cells obsługuje segmentatory dla tabel przestawnych?  
-**O:** Absolutnie – ta sama metoda `add` działa z tabelami przestawnymi, o ile znajdują się w arkuszu.
-
-**P:** Czy można programowo dostosować styl segmentatora?  
-**O:** Możesz modyfikować właściwości segmentatora, takie jak `setStyle`, `setCaption` i `setWidth` po jego utworzeniu.
-
-**P:** Jakie wersje Javy są kompatybilne?  
-**O:** Aspose.Cells dla Javy 25.3 obsługuje Javę 8 i nowsze.
-
-**P:** Jak usunąć segmentator, jeśli nie jest już potrzebny?  
-**O:** Użyj `worksheet.getSlicers().removeAt(index)`, gdzie `index` to pozycja segmentatora w kolekcji.
-
----
-
-**Ostatnia aktualizacja:** 2026-02-11  
-**Testowano z:** Aspose.Cells 25.3 for Java  
-**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -60,6 +60,16 @@ Apprenez à générer un classeur Excel à partir d'un modèle en suivant un gui
 
 ### [Créer un Excel à partir d'un modèle – Ajouter des données, une image, enregistrer en XLSX](./create-excel-from-template-add-data-image-save-xlsx/)
 Apprenez à générer un classeur Excel à partir d'un modèle, insérer des données et des images, puis enregistrer le fichier au format XLSX.
+### [Comment générer une facture avec Aspose.Cells – Guide complet de programmation](./how-to-generate-invoice-with-aspose-cells-complete-programmi/)
+Apprenez à créer automatiquement des factures Excel avec Aspose.Cells, du modèle à la génération et à l’enregistrement du fichier.
+
+### [Comment traiter un modèle Excel et nommer automatiquement les feuilles en C#](./how-to-process-excel-template-and-automatically-name-sheets)
+Apprenez à automatiser le traitement d'un modèle Excel et à renommer les feuilles dynamiquement en C#.
+
+### [Comment exporter des données vers Excel à l'aide d'un modèle C# – guide étape par étape](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
+Apprenez à exporter des données vers un fichier Excel en utilisant un modèle C# avec Aspose.Cells, étape par étape.
+### [Comment étendre un tableau dans Excel et le remplir à partir d'un modèle](./how-to-expand-array-in-excel-and-populate-a-template)
+Apprenez à étendre un tableau dans Excel et à le remplir à partir d'un modèle à l'aide d'Aspose.Cells pour .NET.
 
 ### [Convertir un jeu de données en Excel et remplir un modèle Excel](./convert-dataset-to-excel-and-populate-an-excel-template/)
 Apprenez à convertir un jeu de données en fichier Excel et à le remplir à l'aide d'un modèle Excel avec Aspose.Cells pour .NET.

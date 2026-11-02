@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Táblázatok és listák
@@ -60,23 +58,23 @@ Pelajari cara mengubah nama tabel di Excel menggunakan Aspose.Cells for .NET den
 Pelajari cara menghapus baris dalam tabel Word menggunakan Aspose.Words for .NET dengan contoh lengkap dalam C#.
 ### [Cara menghapus baris dari tabel Excel dan mengubah namanya di C#](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Menghapus Header Tabel di Aspose.Cells – Panduan Lengkap](./remove-table-header-in-aspose-cells-complete-guide/)
 Pelajari cara menghapus header tabel di Aspose.Cells dengan panduan lengkap langkah demi langkah.
 
 ### [Cara Mengganti Nama Tabel di Excel dengan C# – Panduan Langkah demi Langkah](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
 Pelajari cara mengganti nama tabel di Excel menggunakan C# dengan panduan langkah demi langkah yang mudah diikuti.
+### [Menghapus Beberapa Baris di Word – Panduan Lengkap Menghapus Baris Tabel](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

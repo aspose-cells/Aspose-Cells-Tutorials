@@ -42,6 +42,8 @@ Scopri come impostare lo sfondo delle colonne in Excel usando C# e Aspose.Cells 
 Scopri come applicare colori alternati alle colonne di un foglio Excel usando Aspose.Cells per .NET in C#.
 ### [Colori di riga alternati nei fogli di lavoro C# – Guida completa](./alternating-row-colors-in-c-worksheets-complete-guide/)
 Scopri come applicare colori alternati alle righe dei fogli di lavoro C# con Aspose.Cells per .NET, migliorando la leggibilità dei dati.
+### [Applicare colori alternati alle righe in Excel con C# – Guida completa](./apply-alternating-row-colors-in-excel-with-c-complete-guide/)
+Scopri come applicare colori alternati alle righe di un foglio Excel usando Aspose.Cells per .NET e C# per migliorare la leggibilità.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

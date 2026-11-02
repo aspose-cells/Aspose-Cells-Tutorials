@@ -52,6 +52,8 @@ Dowiedz się, jak uniknąć pustych stron w wynikach PDF przy użyciu Aspose.Cel
 Dowiedz się, jak kontrolować zasoby zewnętrzne podczas konwersji plików Excel do PDF za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego łatwego w użyciu przewodnika.
 ### [Utwórz zakładkę PDF dla arkusza wykresu w Aspose.Cells](./create-pdf-bookmark-entry-for-chart-sheet/)
 Dowiedz się, jak tworzyć zakładki PDF do arkuszy wykresów w Aspose.Cells dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku.
+### [Utwórz obraz PNG z tabeli przestawnej w C# – Pełny przewodnik krok po kroku](./create-png-pivot-image-in-c-full-step-by-step-guide/)
+Dowiedz się, jak wygenerować obraz PNG z tabeli przestawnej w C# przy użyciu Aspose.Cells, krok po kroku.
 ### [Eksportuj zakres komórek do obrazu za pomocą Aspose.Cells](./export-range-of-cells-to-image/)
 Łatwo eksportuj zakresy komórek Excela do obrazów za pomocą Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Ulepsz swoje raporty i prezentacje.
 ### [Pobierz Rysuj granice obiektów za pomocą Aspose.Cells](./get-draw-object-and-bound/)
@@ -66,6 +68,8 @@ Naucz się renderować sekwencyjne strony w programie Excel za pomocą Aspose.Ce
 Dowiedz się, jak utworzyć zakres odniesienia tabeli przestawnej i wyeksportować jej obraz jako plik PNG przy użyciu Aspose.Cells dla .NET.
 ### [Jak wyeksportować tabelę przestawną do PNG w C# – przewodnik krok po kroku](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
 Dowiedz się, jak wyeksportować tabelę przestawną z Excela do pliku PNG w C# przy użyciu Aspose.Cells – prosty przewodnik krok po kroku.
+### [Jak ustawić obszar wydruku w Excelu i wyeksportować PNG](./how-to-set-print-area-in-excel-and-export-png/)
+Dowiedz się, jak ustawić obszar wydruku w Excelu i wyeksportować go jako PNG przy użyciu Aspose.Cells dla .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

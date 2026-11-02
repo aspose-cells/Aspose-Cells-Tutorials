@@ -54,17 +54,21 @@
 ### [Microsoft Excel फ़ॉर्मूला वॉच विंडो में सेल जोड़ना](./adding-cells-to-microsoft-excel-formula-watch-window/)
 ### [एक्सेल में प्रोग्रामेटिक रूप से सूत्रों की गणना करना](./calculating-formulas/)
 ### [एक्सेल में प्रोग्रामेटिक रूप से एक बार फ़ार्मुलों की गणना करना](./calculating-formulas-once/)
+इस चरण-दर-स्टेप ट्यूटोरियल में .NET के लिए Aspose.Cells का उपयोग करके प्रोग्रामेटिक रूप से Excel फ़ॉर्मूला की गणना करना सीखें। अपने Excel स्वचालन कौशल को बढ़ाएँ।
 ### [एक्सेल में प्रोग्रामेटिक रूप से सर्कुलर संदर्भ का पता लगाना](./detecting-circular-reference/)
 ### [एक्सेल प्रोग्रामेटिक रूप से प्रत्यक्ष गणना सूत्र](./direct-calculation-formula/)
 ### [कार्यपुस्तिका की सूत्र गणना को बाधित या रद्द करें](./interrupt-or-cancel-formula-calculation-of-workbook/)
+इस विस्तृत चरण-दर-चरण मार्गदर्शन में .NET के लिए Aspose.Cells का उपयोग करके Excel सूत्र गणना को बाधित करना सीखें।
 ### [एक्सेल में ऐड-इन फ़ंक्शन का उपयोग करके डेटा प्रोसेस करना](./processing-data-using-add-in-function/)
 ### [एक्सेल में ऐरे फ़ंक्शन का उपयोग करके डेटा प्रोसेसिंग](./processing-data-using-array-function/)
 ### [एक्सेल में अंतर्निहित फ़ंक्शन का उपयोग करके डेटा प्रोसेस करना](./processing-data-using-built-in-functions/)
 ### [Excel में R1C1 का उपयोग करके डेटा प्रोसेस करना](./processing-data-using-r1c1/)
 ### [Excel में ऐड-इन से फ़ंक्शन पंजीकृत करना और कॉल करना](./registering-and-calling-function-from-add-in/)
-### [एक्सेल में साझा सूत्र की अधिकतम पंक्तियाँ निर्दिष्ट करना](./specifying-maximum-rows-of-shared-formula/)
+### [Excel में साझा सूत्र की अधिकतम पंक्तियाँ निर्दिष्ट करना](./specifying-maximum-rows-of-shared-formula/)
 ### [Aspose.Cells के साथ C# में एरे को विस्तारित करने की चरण‑दर‑चरण गाइड](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Aspose.Cells का उपयोग करके C# में एरे को कैसे विस्तारित करें, इस विस्तृत मार्गदर्शिका में सीखें।
+
+### [C# में EXPAND फ़ंक्शन के साथ Excel वर्कबुक कैसे बनाएं](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
 
 ### [c# एक्सेल फ़ाइल बनाना – शर्तीय लॉजिक के साथ चरण‑दर‑चरण गाइड](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 
@@ -74,6 +78,16 @@ C# और Aspose.Cells का उपयोग करके Excel में क�
 ### [C# में WRAPCOLS का उपयोग कैसे करें – एरे को मैट्रिक्स में पुनः आकार देना](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
 ### [C# में WRAPCOLS का उपयोग करके Excel एरे और वर्कबुक सहेजना](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
 ### [C# के साथ Excel में एरे कैसे बनाएं – चरण‑दर‑चरण गाइड](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
+### [C# के साथ Excel में कोटैन्जेंट कैसे गणना करें – पूर्ण गाइड](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
+### [Excel में WRAPCOLS का उपयोग कैसे करें – पूर्ण C# उदाहरण](./how-to-use-wrapcols-in-excel-complete-c-example/)
+### [C# में एरे फ़ॉर्मूला Excel लागू करना – पूर्ण गाइड](./apply-array-formula-excel-in-c-complete-guide/)
+### [C# में Excel वर्कबुक बनाना और WRAPCOLS के साथ डेटा विभाजित करना](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
+### [WRAPCOLS का उपयोग कैसे करें – C# एक्सेल ऑटोमेशन के लिए पूर्ण गाइड](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
+Aspose.Cells for .NET में WRAPCOLS फ़ंक्शन का उपयोग करके C# के साथ एक्सेल ऑटोमेशन को पूरी तरह समझें।
+### [C# के साथ Excel में फ़ॉर्मूला गणना को बाध्य करना और लैम्ब्डा का उपयोग करना](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
+C# का उपयोग करके Excel में फ़ॉर्मूला की गणना को मजबूर करने और लैम्ब्डा फ़ंक्शन लागू करने का तरीका सीखें।
+### [फ़ॉर्मूले के साथ Excel वर्कबुक बनाना – पूर्ण चरण‑दर‑चरण गाइड](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+इस विस्तृत गाइड में .NET के लिए Aspose.Cells का उपयोग करके फ़ॉर्मूले सहित Excel वर्कबुक बनाने के सभी चरण सीखें।
 ### [C# के साथ डायनामिक एरे फ़ॉर्मूला वाला Excel वर्कबुक बनाना](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
 ### [C# में Excel वर्कबुक बनाना और फ़ॉर्मूले सेट करना](./how-to-create-excel-workbook-in-c-and-set-formulas/)
 

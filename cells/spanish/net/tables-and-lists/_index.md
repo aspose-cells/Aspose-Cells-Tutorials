@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tablas y listas
@@ -62,22 +60,23 @@ Aprenda a eliminar filas de una tabla en Word usando Aspose.Words para .NET con 
 ### [Cómo eliminar filas de una tabla de Excel y cambiar su nombre en C#](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
 Aprenda a eliminar filas de una tabla de Excel y cambiar su nombre usando Aspose.Cells para .NET con C# paso a paso.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Eliminar el encabezado de tabla en Aspose.Cells – Guía completa](./remove-table-header-in-aspose-cells-complete-guide/)
 Aprenda a eliminar el encabezado de una tabla en Excel usando Aspose.Cells con esta guía paso a paso.
 ### [Cómo renombrar una tabla en Excel con C# – Guía paso a paso](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
 Aprenda a cambiar el nombre de una tabla en Excel usando C# y Aspose.Cells con esta guía paso a paso.
+### [Eliminar varias filas en Word – Guía completa para eliminar filas de tabla](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
+Aprenda a eliminar múltiples filas de una tabla en Word usando Aspose.Words para .NET con pasos claros y ejemplos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

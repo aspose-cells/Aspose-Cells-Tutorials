@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Πίνακες και Λίστες
@@ -62,22 +60,23 @@
 ### [Πώς να διαγράψετε γραμμές από έναν πίνακα Excel και να αλλάξετε το όνομά του σε C#](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
 Μάθετε πώς να διαγράψετε γραμμές από πίνακα Excel και να μετονομάσετε τον πίνακα χρησιμοποιώντας C#.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Αφαίρεση κεφαλίδας πίνακα στο Aspose.Cells – Πλήρης οδηγός](./remove-table-header-in-aspose-cells-complete-guide/)
 Μάθετε πώς να αφαιρέσετε την κεφαλίδα ενός πίνακα στο Excel με το Aspose.Cells για .NET.
 ### [Πώς να μετονομάσετε πίνακα στο Excel με C# – Οδηγός βήμα προς βήμα](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
 Μάθετε πώς να μετονομάσετε έναν πίνακα Excel χρησιμοποιώντας C# με το Aspose.Cells σε απλούς βήμα‑βήμα οδηγίες.
+### [Διαγραφή πολλαπλών γραμμών Word – Πλήρης οδηγός αφαίρεσης γραμμών πίνακα](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
+Μάθετε πώς να διαγράψετε πολλαπλές γραμμές σε πίνακα Word χρησιμοποιώντας το Aspose.Words για .NET σε πλήρη οδηγό.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

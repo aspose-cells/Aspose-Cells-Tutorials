@@ -107,6 +107,8 @@ Leer hoe u Lambda-expressies in C# kunt toepassen op Excel-formules met Aspose.C
 ### [Hoe WRAPCOLS te gebruiken in C# – Maak Excel-werkmap met Wrap-functies](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
 
 ### [Maak Excel-werkmap C# – Lambda, SEQUENCE & EXPAND-gids](./create-excel-workbook-c-lambda-sequence-expand-guide/)
+### [Hoe WRAPCOLS te gebruiken in C# – Een array omvormen tot een matrix in Excel](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
+Leer hoe u met WRAPCOLS in C# een eendimensionale array omzet naar een matrix in Excel met Aspose.Cells.
 
 ## Inzicht in Excel-formuletypen
 
@@ -168,6 +170,10 @@ Voor een robuuste implementatie van de formule:
 Wanneer u deze formulemogelijkheden onder de knie krijgt met Aspose.Cells voor .NET, kunt u geavanceerde berekeningsengines in uw spreadsheets maken die nauwkeurige, dynamische resultaten leveren zonder dat u Excel hoeft te installeren.
 ### [Hoe cotangens te berekenen in Excel met C# – Werkmap maken, EXPAND gebruiken en opslaan](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
 Leer hoe u met Aspose.Cells cotangens berekent, een werkmap maakt, de EXPAND-functie toepast en het bestand opslaat via C#.
+### [Arrayformule schrijven in C# – Complete programmeergids](./write-array-formula-in-c-complete-programming-guide/)
+Leer hoe u met Aspose.Cells voor .NET arrayformules in C# kunt schrijven en toepassen in Excel-werkbladen.
+
+### [Hoe SEQUENCE in C# te gebruiken – Excel-werkmap maken](./how-to-use-sequence-in-c-create-excel-workbook/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi và Kết xuất
@@ -58,13 +56,13 @@ Học cách chuyển đổi tài liệu Word (docx) sang định dạng SVG mộ
 ### [Nhúng phông chữ trong HTML – Hướng dẫn đầy đủ cho nhà phát triển .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
 Tìm hiểu cách nhúng phông chữ vào tài liệu HTML bằng Aspose.Words cho .NET, đảm bảo hiển thị chính xác trên mọi trình duyệt.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [excel sheet to png – Xuất Pivot Table dưới dạng PNG trong C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 Hướng dẫn xuất Pivot Table từ Excel sang PNG bằng C# và Aspose.Cells.
 
@@ -72,11 +70,24 @@ Hướng dẫn xuất Pivot Table từ Excel sang PNG bằng C# và Aspose.Cells
 Hướng dẫn cách tạo một workbook mới trong C# và nhập nội dung Markdown vào Excel bằng Aspose.Cells.
 ### [Chuyển đổi markdown sang Excel – Hướng dẫn C# đầy đủ](./convert-markdown-to-excel-complete-c-guide/)
 Hướng dẫn chi tiết cách chuyển đổi nội dung markdown thành tệp Excel bằng C# và Aspose.Cells.
+### [Xuất Excel sang PNG với Aspose.Cells – Hướng dẫn chi tiết từng bước](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Học cách xuất tệp Excel sang định dạng PNG một cách chi tiết và dễ dàng với Aspose.Cells cho .NET.
+### [Cách chuyển đổi XLSX sang PNG – Hướng dẫn C# đầy đủ](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Tìm hiểu cách chuyển đổi tệp XLSX sang PNG bằng Aspose.Cells trong .NET với hướng dẫn chi tiết từng bước.
+### [Cách chèn ký tự đặc biệt trong Excel – Hướng dẫn từng bước](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Tìm hiểu cách chèn các ký tự đặc biệt vào bảng tính Excel bằng Aspose.Cells trong .NET qua hướng dẫn chi tiết từng bước.
+### [Lưu ảnh PNG từ Pivot Table Excel trong C# – Hướng dẫn đầy đủ](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Hướng dẫn chi tiết cách lưu hình ảnh PNG từ Pivot Table trong Excel bằng C# sử dụng Aspose.Cells.
+### [Nhúng phông chữ trong HTML – Hướng dẫn đầy đủ chuyển đổi DOCX sang HTML với hỗ trợ phông chữ đầy đủ](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Hướng dẫn chi tiết cách nhúng phông chữ khi chuyển đổi tài liệu DOCX sang HTML, đảm bảo hiển thị đúng định dạng trên mọi trình duyệt.
+### [Cách Nhúng Phông Chữ vào HTML từ DOCX – Hướng Dẫn Đầy Đủ](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Hướng dẫn chi tiết cách nhúng phông chữ từ tài liệu DOCX vào trang HTML để bảo đảm hiển thị đúng trên mọi trình duyệt.
+### [Cách chuyển đổi JSON sang Excel trong C# với một ô chứa dữ liệu phân tách bằng dấu phẩy](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Hướng dẫn chi tiết cách chuyển đổi dữ liệu JSON thành file Excel trong C# với một ô duy nhất chứa các giá trị được ngăn cách bằng dấu phẩy.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

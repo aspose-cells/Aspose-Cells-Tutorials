@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tableaux et listes
@@ -69,22 +67,23 @@ Apprenez à supprimer des lignes d'un tableau Word en C# avec Aspose.Words grâc
 ### [Comment supprimer des lignes d'un tableau Excel et changer son nom en C#](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
 Apprenez à supprimer des lignes d'un tableau Excel et à renommer le tableau en C# avec Aspose.Cells.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Supprimer l'en-tête de tableau dans Aspose.Cells – Guide complet](./remove-table-header-in-aspose-cells-complete-guide/)
 Apprenez à supprimer l'en-tête d'un tableau Excel avec Aspose.Cells grâce à ce guide complet étape par étape.
 ### [Comment renommer un tableau dans Excel avec C# – Guide étape par étape](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
 Apprenez à renommer un tableau Excel en C# avec Aspose.Cells grâce à ce guide détaillé étape par étape.
+### [Supprimer plusieurs lignes Word – Guide complet pour supprimer des lignes de tableau](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
+Apprenez à supprimer plusieurs lignes d'un tableau Word avec Aspose.Words pour .NET grâce à ce guide complet étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

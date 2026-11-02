@@ -179,11 +179,14 @@ El paso de **poblar la plantilla de Excel** está ahora completo, y has llenado 
 Si `Items` está vacío, SmartMarker dejará intacto el encabezado de la tabla pero no insertará filas. Para evitar un espacio en blanco, puedes agregar un bloque condicional:
 
 ```csharp
-{{#if Orders.Items.Length > 0}}
-    ... table rows ...
-{{else}}
-    No items were ordered.
-{{/if}}
+if (order.Items.Length > 0)
+{
+    // ... table rows ...
+}
+else
+{
+    // No items were ordered.
+}
 ```
 
 ### Formatos Numéricos Personalizados

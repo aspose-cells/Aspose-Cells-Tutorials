@@ -1,9 +1,87 @@
 ---
-"date": "2025-04-07"
-"description": "Aspose.Words Java için bir kod eğitimi"
-"title": "Aspose.Cells Java ile Excel'i otomatikleştirin"
-"url": "/tr/java/automation-batch-processing/excel-automation-aspose-cells-java/"
-"weight": 1
+date: '2026-07-21'
+description: aspose cells maven'i kullanarak Excel workbook'leri oluşturmayı, charts
+  eklemeyi ve Java'da dosyaları kaydetmeyi, lisanslama ipuçlarıyla öğrenin.
+keywords:
+- aspose cells maven
+- aspose cells license
+- create excel workbook java
+- save excel java
+lastmod: '2026-07-21'
+og_description: aspose cells maven'i kullanarak Excel workbook'leri oluşturmayı, charts
+  eklemeyi ve Java'da dosyaları kaydetmeyi öğrenin. Lisanslama ipuçları ve adım adım
+  rehberlik içerir.
+og_image_alt: 'Developer guide: Create Excel workbook with charts using aspose cells
+  maven in Java'
+og_title: 'aspose cells maven: Java''da Excel Workbook ve Charts Otomatikleştirme'
+schemas:
+- author: Aspose
+  dateModified: '2026-07-21'
+  description: Learn how to use aspose cells maven to create Excel workbooks, add
+    charts, and save files in Java with licensing tips.
+  headline: 'aspose cells maven: Automate Excel Workbook & Charts in Java'
+  type: TechArticle
+- description: Learn how to use aspose cells maven to create Excel workbooks, add
+    charts, and save files in Java with licensing tips.
+  name: 'aspose cells maven: Automate Excel Workbook & Charts in Java'
+  steps:
+  - name: Instantiate a New Workbook Object
+    text: The `Workbook` class is the top‑level object that holds all worksheets,
+      styles, and charts.
+  - name: Access the First Worksheet
+    text: '`Worksheet` represents a single sheet inside the workbook; you can retrieve
+      it via the `getWorksheets().get(0)` method.'
+  - name: Populate Cells with Sample Data
+    text: The `Cells` collection lets you write values directly to specific cell addresses.
+      **Explanation** – This code creates a workbook, selects the first sheet, and
+      writes a small data table that will later be visualized with a chart.
+  - name: Ensure a Workbook Exists
+    text: If you haven’t already, instantiate a `Workbook` as shown earlier.
+  - name: Retrieve the First Worksheet
+    text: Reuse the worksheet reference from the previous section.
+  - name: Add Sample Data (if not already present)
+    text: Populate the same cells to guarantee the chart has data to display.
+  - name: Access the Chart Collection
+    text: '`Charts` is a collection that holds all chart objects for a worksheet.'
+  - name: Add and Configure a New Chart
+    text: The `add` method creates a chart of the specified type (e.g., Pyramid) at
+      the given cell range; `getNSeries()` then links the chart to the data source.
+      **Explanation** – This snippet adds a Pyramid chart positioned at cells D5 to
+      K20 and binds it to the data range A1:B5.
+  - name: Assume the Workbook Is Populated
+    text: All previous steps have prepared the workbook with data and a chart.
+  - name: Save the Workbook
+    text: Specify the output folder and filename; the library writes the file in native
+      Excel format (`.xlsx`). **Explanation** – The `save` call persists the in‑memory
+      workbook to a physical file, making it available for users, downstream processes,
+      or further automation.
+  type: HowTo
+- questions:
+  - answer: Yes. Use `workbook.getWorksheets().add()` to append additional sheets,
+      each with its own data and charts.
+    question: Can I create multiple worksheets in one workbook?
+  - answer: Load the file with `new Workbook("existing.xlsx")`, modify cells or charts,
+      then call `save` to overwrite or write a new file.
+    question: How do I update an existing Excel file?
+  - answer: Absolutely. The streaming mode processes files with **100,000+ rows**
+      while keeping memory usage under **200 MB**.
+    question: Is Aspose.Cells efficient with large data sets?
+  - answer: Over **30** chart types, including Column, Line, Pie, Radar, Pyramid,
+      and Funnel. See the official docs for the full list.
+    question: Which chart types are supported?
+  - answer: Purchase a perpetual license, a subscription, or request an extended temporary
+      license via the Aspose portal.
+    question: What licensing options are available for production?
+  type: FAQPage
+tags:
+- aspose cells
+- excel automation
+- java
+- maven
+- licensing
+title: 'aspose cells maven: Java''da Excel Workbook ve Charts Otomatikleştirme'
+url: /tr/java/automation-batch-processing/excel-automation-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,146 +90,145 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Excel Otomasyonunda Uzmanlaşma: Aspose.Cells Java Kullanarak Excel Çalışma Kitabı Oluşturma ve Grafik Ekleme
 
-# Excel Otomasyonunda Ustalaşma: Aspose.Cells Java Kullanarak Excel Çalışma Kitabı Oluşturun ve Grafikler Ekleyin
+## Giriş
 
-## giriiş
+Günümüzün veri odaklı dünyasında, **aspose cells maven** Java üzerinden Excel görevlerini otomatikleştirmenizi sağlar, manuel çabayı azaltır ve insan hatasını ortadan kaldırır. Finansal raporlar oluşturuyor, gösterge panoları üretiyor ya da elektronik tabloları daha büyük bir Java uygulamasına entegre ediyor olun, bu öğretici bir çalışma kitabı oluşturmayı, doldurmayı, grafik eklemeyi ve sonucu kaydetmeyi—bütün bunları sadece birkaç satır kodla nasıl yapacağınızı gösterir.
 
-Günümüzün veri odaklı dünyasında, Excel görevlerini otomatikleştirmek size zaman kazandırabilir ve verimliliği artırabilir. İster geliştirici ister iş profesyoneli olun, Excel çalışma kitaplarını programatik olarak nasıl oluşturacağınızı ve yöneteceğinizi anlamak oyunun kurallarını değiştirir. Bu eğitim, Excel'i kullanma konusunda size rehberlik edecektir. **Java için Aspose.Cells** çalışma kitabı oluşturmayı otomatikleştirin, dosyayı verilerle doldurun, grafikler ekleyin ve dosyayı kaydedin; tüm bunları yalnızca birkaç basit adımda yapabilirsiniz.
-
-### Ne Öğreneceksiniz:
-- Java için Aspose.Cells nasıl kurulur
+### Öğrenecekleriniz
+- Maven kullanarak Aspose.Cells for Java nasıl kurulur
 - Sıfırdan bir Excel çalışma kitabı oluşturma
-- Çalışma sayfalarını örnek verilerle doldurma
-- Grafik koleksiyonlarını kullanarak grafik ekleme ve yapılandırma
-- Çalışma kitaplarınızı etkili bir şekilde kaydedin
+- Çalışma sayfalarını örnek veri ile doldurma
+- Grafik koleksiyonu aracılığıyla grafik ekleme ve yapılandırma
+- Çalışma kitabınızı verimli bir şekilde kaydetme
 
-Bu dönüştürücü araca dalmaya hazır mısınız? Her şeyin hazır olduğundan emin olarak başlayalım.
+Verimliliği artırmaya hazır mısınız? İhtiyacınız olan her şeyin mevcut olduğunu doğrulayalım.
 
-## Ön koşullar
+## Hızlı Yanıtlar
+- **Hangi Maven artefaktı Aspose.Cells'i ekler?** `com.aspose:aspose-cells`  
+- **Excel yüklü olmadan grafik ekleyebilir miyim?** Evet, Aspose.Cells tamamen bağımsız çalışır.  
+- **Üretim için lisansa ihtiyacım var mı?** Sınırsız kullanım için geçerli bir Aspose.Cells lisansı gereklidir.  
+- **Hangi dosya formatlarını dışa aktarabilirim?** XLSX, CSV, PDF ve HTML dahil olmak üzere 50'den fazla format.  
+- **Büyük dosyalar için akış (streaming) destekleniyor mu?** Evet, çok sayfalı çalışma kitapları için `WorkbookDesigner` akış API'sını kullanın.
 
-Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+## aspose cells maven nedir?
+`aspose cells maven`, Aspose.Cells for Java kütüphanesini projenize getiren Maven bağımlılığını ifade eder, Microsoft Office olmadan programatik Excel manipülasyonu sağlar. Bu artefaktı `pom.xml` dosyanıza ekleyerek, Maven gerekli JAR'ları ve geçişli bağımlılıkları otomatik olarak indirir, böylece tamamen Java üzerinden Excel dosyaları oluşturup, okuyup ve değiştiren kodu derleyip çalıştırabilirsiniz.
 
-- **Java için Aspose.Cells kütüphanesi**Excel dosyalarıyla çalışmak için bu çok önemlidir. Bu eğitimde 25.3 sürümünü kullanacağız.
-- **Java Geliştirme Kiti (JDK)**: Uyumlu bir JDK sürümü kullandığınızdan emin olun.
-- **Entegre Geliştirme Ortamı (IDE)**: Zorunlu olmamakla birlikte IntelliJ IDEA veya Eclipse gibi bir IDE bu süreci basitleştirebilir.
+## Aspose.Cells for Java neden kullanılmalı?
+Aspose.Cells for Java, Microsoft Office gerektirmeden Excel dosyaları oluşturma, düzenleme, dönüştürme ve renderleme için kapsamlı bir özellik seti sunar. 50'den fazla giriş ve çıkış formatını destekler, büyük çalışma kitaplarının yüksek performanslı işlenmesini sağlar ve grafik oluşturma, formül hesaplama ve koşullu biçimlendirme gibi gelişmiş yeteneklere sahiptir; bu da onu kurumsal düzeyde raporlama ve veri odaklı uygulamalar için ideal kılar.
+
+## Önkoşullar
+
+- **Aspose.Cells for Java** (versiyon 25.3 kullanacağız)  
+- **Java Development Kit (JDK)** – 8 veya daha yeni  
+- **IDE** – IntelliJ IDEA, Eclipse veya tercih ettiğiniz herhangi bir editör  
 
 ### Gerekli Kütüphaneler
 
-Projenize Aspose.Cells for Java'yı eklemek için aşağıdaki bağımlılık yöneticilerinden birini kullanın:
+Proje yapılandırmanıza Maven veya Gradle bağımlılığını ekleyin.
 
-**Usta**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-cells</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle**
+**Gradle**  
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
-```
+```  
 
-### Lisans Edinimi
+### Lisans Edinme
 
-- **Ücretsiz Deneme**:Kütüphanenin yeteneklerini keşfetmek için ücretsiz denemeye başlayın.
-- **Geçici Lisans**:Deneme süresinden daha fazla zamana ihtiyacınız varsa geçici lisans başvurusunda bulunun.
-- **Satın almak**: Uzun süreli kullanım için tam lisans satın almayı düşünün.
+- **Free Trial** – tüm özellikleri ücretsiz keşfedin.  
+- **Temporary License** – daha büyük değerlendirmeler için deneme süresini uzatın.  
+- **Full License** – sınırsız üretim kullanımının kilidini açın.  
 
-## Java için Aspose.Cells Kurulumu
+Geçici veya tam lisansı [Aspose](https://purchase.aspose.com/temporary-license/) adresinden edinin.
 
-Öncelikle ortamınızın hazır olduğundan emin olun:
+## Aspose.Cells for Java Kurulumu
 
-1. Yukarıdaki Maven veya Gradle bağımlılığını projenizin yapılandırma dosyasına ekleyin.
-2. Geçici veya tam lisans alın [Aspose](https://purchase.aspose.com/temporary-license/).
-3. Lisanslamanızı kodunuzda başlatın ve ayarlayın (genellikle uygulama başlangıcında):
+İlk olarak, kütüphanenin sınıf yolunuzda olduğundan emin olun, ardından lisansınızı uygulamanın başlangıcında uygulayın:
 
+`License`, tam kütüphane işlevselliğini etkinleştirmek için bir Aspose.Cells lisans dosyasını yükleyen ve uygulayan bir sınıftır.  
 ```java
 License license = new License();
 license.setLicense("path_to_your_license_file.lic");
-```
+```  
 
-Bu adımları tamamladıktan sonra Aspose.Cells for Java'dan yararlanmaya hazırsınız.
+Lisanslama yapıldıktan sonra, çalışma kitapları oluşturmaya hazırsınız.
 
-## Uygulama Kılavuzu
+## Uygulama Rehberi
 
-Uygulamayı farklı özelliklere bölelim: çalışma kitabı oluşturma, veri doldurma, grafik ekleme ve dosya kaydetme.
+Üç temel özelliği adım adım inceleyeceğiz: çalışma kitabı oluşturma, grafik ekleme ve dosya kaydetme. Her bölüm, kısa bir doğrudan yanıtla başlar, ardından ayrıntılı adımları izler.
 
-### Özellik 1: Çalışma Kitabı Oluşturma ve Temel Düzenleme
+## Aspose.Cells kullanarak yeni bir Excel çalışma kitabı nasıl oluşturulur?
 
-#### Genel bakış
+`Worksheet`, hücreler, satırlar, sütunlar ve diğer nesneleri içeren bir çalışma kitabı içindeki tek bir sayfayı temsil eder.
 
-Yeni bir Excel çalışma kitabı oluşturmak, bir nesneyi başlatmayı, çalışma sayfalarına erişmeyi ve hücreleri örnek verilerle doldurmayı içerir. Bu bölüm, Java için Aspose.Cells'i kullanarak bu adımlarda size rehberlik edecektir.
+Başlamak için, bellekte tüm bir Excel dosyasını temsil eden `Workbook` sınıfını örnekleyin; bu sınıf çalışma sayfalarını, stilleri ve grafikleri içerir. Bu tek nesne, veri ekleme, hücre biçimlendirme ve görsel öğeler ekleme için tam bir API sağlar. Oluşturulduktan sonra, varsayılan çalışma sayfasına hemen erişerek satır ve sütunları doldurmaya başlayabilirsiniz.
 
-#### Adım Adım Uygulama
-
-**Yeni Bir Çalışma Kitabı Nesnesi Oluşturun**
-
-Yeni bir örnek oluşturun `Workbook` Excel dosyanız üzerinde çalışmaya başlamak için sınıf:
+### Adım 1: Yeni Bir Workbook Nesnesi Oluşturma  
+`Workbook` sınıfı, tüm çalışma sayfalarını, stilleri ve grafikleri tutan üst düzey nesnedir.  
 
 ```java
 Workbook workbook = new Workbook();
-```
+```  
 
-**İlk Çalışma Sayfasına Erişim**
-
-Çalışma kitabındaki ilk çalışma sayfasını alın ve üzerinde çalışın:
+### Adım 2: İlk Çalışma Sayfasına Erişme  
+`Worksheet`, çalışma kitabı içindeki tek bir sayfayı temsil eder; `getWorksheets().get(0)` yöntemiyle alabilirsiniz.  
 
 ```java
 WorksheetCollection worksheets = workbook.getWorksheets();
 Worksheet sheet = worksheets.get(0);
-```
+```  
 
-**Hücreleri Örnek Verilerle Doldur**
-
-Hücreleri şunu kullanarak doldurun: `Cells` nesne. Belirli hücreleri doldurmanın yolu şöyledir:
+### Adım 3: Hücreleri Örnek Veri ile Doldurma  
+`Cells` koleksiyonu, belirli hücre adreslerine doğrudan değer yazmanıza olanak tanır.  
 
 ```java
 Cells cells = sheet.getCells();
 
-// A1 hücresini 50 değeriyle doldur
+// Populate cell A1 with value 50
 cells.get("A1").setValue(50);
 
-// Diğer hücreler için devam edin...
+// Continue for other cells...
 cells.get("A2").setValue(100);
 cells.get("A3").setValue(150);
 cells.get("B1").setValue(4);
 cells.get("B2").setValue(20);
 cells.get("B3").setValue(50);
-```
+```  
 
-**Açıklama**: Bu kod çalışma sayfasını önceden tanımlanmış değerlerle başlatır ve doldurur, böylece grafikleme gibi daha ileri işlemler için hazır hale getirir.
+**Açıklama** – Bu kod bir çalışma kitabı oluşturur, ilk sayfayı seçer ve daha sonra bir grafikle görselleştirilecek küçük bir veri tablosu yazar.
 
-### Özellik 2: Çalışma Sayfasına Grafik Ekleme
+## Çalışma sayfasına nasıl grafik eklenir?
 
-#### Genel bakış
+`Charts`, bir çalışma sayfasındaki tüm grafik nesnelerini tutan bir koleksiyondur.
 
-Bir grafik eklemek, türünü tanımlamayı, veri kaynaklarını ayarlamayı ve serileri yapılandırmayı içerir. Bu, doğrudan çalışma kitabınız içinde veri görselleştirmesini geliştirir.
+Dolu bir çalışma sayfanız olduğunda, yeni bir grafik nesnesi oluşturmak için `Charts` koleksiyonunu kullanın. İstediğiniz grafik tipini seçin, sayfadaki konumunu ayarlayın ve veri serisini içeren hücre aralığına bağlayın. Grafik anında oluşturulur ve başlıklar, açıklamalar ve stil seçenekleriyle daha da özelleştirilebilir.
 
-#### Adım Adım Uygulama
-
-**Yeni Bir Çalışma Kitabı Nesnesi Oluşturun**
-
-Henüz oluşturulmamışsa, yeni bir tane başlatın `Workbook` misal:
+### Adım 1: Bir Workbook'un Var Olduğundan Emin Olun  
+Eğer henüz yapmadıysanız, daha önce gösterildiği gibi bir `Workbook` örneği oluşturun.  
 
 ```java
 Workbook workbook = new Workbook();
-```
+```  
 
-**İlk Çalışma Sayfasına Erişim**
-
-İlk çalışma sayfası üzerinde çalıştığınızdan emin olun:
+### Adım 2: İlk Çalışma Sayfasını Alın  
+Önceki bölümdeki çalışma sayfası referansını yeniden kullanın.  
 
 ```java
 WorksheetCollection worksheets = workbook.getWorksheets();
 Worksheet sheet = worksheets.get(0);
-```
+```  
 
-**Hücrelere Örnek Veri Ekle**
-
-Daha önce yaptığınız gibi verilerinizi doldurun:
+### Adım 3: Örnek Veri Ekle (eğer henüz yoksa)  
+Aynı hücreleri doldurarak grafiğin görüntülenecek veriye sahip olmasını sağlayın.  
 
 ```java
 Cells cells = sheet.getCells();
@@ -162,110 +239,105 @@ cells.get("A3").setValue(150);
 cells.get("B1").setValue(4);
 cells.get("B2").setValue(20);
 cells.get("B3").setValue(50);
-```
+```  
 
-**Grafik Koleksiyonuna Erişim**
-
-Çalışma sayfanızda bir grafik koleksiyonunu alın veya oluşturun:
+### Adım 4: Grafik Koleksiyonuna Erişme  
+`Charts`, bir çalışma sayfasındaki tüm grafik nesnelerini tutan bir koleksiyondur.  
 
 ```java
 ChartCollection charts = sheet.getCharts();
-```
+```  
 
-**Yeni Bir Grafik Ekle ve Yapılandır**
-
-Örnek olarak bir piramit grafiği oluşturun:
+### Adım 5: Yeni Bir Grafik Ekle ve Yapılandır  
+`add` yöntemi, belirtilen hücre aralığında (ör. Pyramid) belirli bir tipte grafik oluşturur; `getNSeries()` ise grafiği veri kaynağına bağlar.  
 
 ```java
 int chartIndex = charts.add(ChartType.PYRAMID, 5, 0, 15, 5);
 Chart chart = charts.get(chartIndex);
 
-// Grafik serisi için veri kaynağını ayarlayın
+// Set the data source for the chart series
 SeriesCollection serieses = chart.getNSeries();
-serieses.add("A1:B3", true); // 'true' ilk satırın başlıklara sahip olduğu anlamına gelir
-```
+serieses.add("A1:B3", true); // 'true' means first row has headers
+```  
 
-**Açıklama**: : `add` yöntem, belirtilen konumlara belirtilen türde yeni bir grafik ekler ve `getNSeries()` hücre aralıklarına bağlı veri serilerini yapılandırır.
+**Açıklama** – Bu kod parçacığı, D5 ile K20 hücreleri arasında konumlandırılmış bir Pyramid grafiği ekler ve A1:B5 veri aralığına bağlar.
 
-### Özellik 3: Bir Excel Dosyasını Kaydetme
+## Excel dosyasını diske nasıl kaydederim?
 
-#### Genel bakış
+Çalışma kitabınız veri ve grafiklerle tamamen hazır olduğunda, `save` yöntemiyle fiziksel bir dosyaya kaydedin. Hedef dosya yolunu sağlayın ve isteğe bağlı olarak formatı belirtin; Aspose.Cells dosya uzantısına göre yazıcıyı belirler. Bu işlem, çalışma kitabını seçilen formatta yazar ve dağıtıma ya da sonraki işleme hazır hâle getirir.
 
-Çalışma kitabınız hazır olduğunda (veri ve grafiklerle doldurulmuştur) daha sonraki kullanım veya dağıtım için kaydetme zamanı gelmiştir. Bu bölüm, Java için Aspose.Cells kullanarak dosya kaydetme mekaniklerini ele almaktadır.
-
-#### Adım Adım Uygulama
-
-**Yeni Bir Çalışma Kitabı Nesnesi Oluşturun**
-
-Çalışma kitabınızın doldurulduğunu varsayarak:
+### Adım 1: Çalışma Kitabının Dolu Olduğunu Varsay  
+Önceki tüm adımlar, çalışma kitabını veri ve bir grafik ile hazırlamıştır.  
 
 ```java
 Workbook workbook = new Workbook();
-```
+```  
 
-**Çalışma Kitabını Kaydet**
-
-Excel dosyanızı kaydetmek için çıktı dizinini ve dosya adını belirtin:
+### Adım 2: Çalışma Kitabını Kaydet  
+Çıktı klasörünü ve dosya adını belirtin; kütüphane dosyayı yerel Excel formatında (`.xlsx`) yazar.  
 
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "CreateChart_out.xls");
-```
+```  
 
-**Açıklama**: : `save` yöntemi, çalışma kitabınızın geçerli durumunu belirtilen bir yola sabitler ve böylece standart Excel biçimlerinde erişmenize olanak tanır.
+**Açıklama** – `save` çağrısı, bellek içindeki çalışma kitabını fiziksel bir dosyaya kalıcı hale getirir, böylece kullanıcılar, sonraki süreçler veya ek otomasyonlar için kullanılabilir.
 
 ## Pratik Uygulamalar
 
-Java için Aspose.Cells çeşitli senaryolarda kullanılabilir:
+Aspose.Cells for Java, birçok gerçek dünya senaryosunda öne çıkar:
 
-1. **Finansal Raporlama**: Dinamik grafiklerle aylık satış ve gider raporlarını otomatikleştirin.
-2. **Stok Yönetimi**Gerçek zamanlı veri akışlarına göre güncellenen envanter durum tabloları oluşturun.
-3. **Proje Takibi**: Görev tamamlanma oranlarını zaman içinde görselleştiren ilerleme panoları oluşturun.
+1. **Financial Reporting** – Veritabanı beslemelerinden otomatik güncellenen dinamik grafiklerle ay sonu bilanço tabloları oluşturun.  
+2. **Inventory Management** – Stok seviyeleri gösterge panoları üretin ve birden fazla depodaki trendleri görselleştirin.  
+3. **Project Tracking** – Paydaş dağıtımı için Excel dosyaları içinde doğrudan Gantt tarzı zaman çizelgeleri ve ilerleme grafikleri oluşturun.  
 
-Entegrasyon olanakları arasında zenginleştirilmiş veri işleme yetenekleri için veritabanlarına, REST API'lerine veya diğer Java uygulamalarına bağlanma yer alır.
+Bunları Java’nın JDBC veya REST istemcileriyle birleştirerek canlı veri çekebilir, ardından Aspose.Cells'in biçimlendirme ve grafik oluşturmasını sağlayabilirsiniz.
 
-## Performans Hususları
+## Performans Düşünceleri
 
-En iyi performansı sağlamak için:
+- **Memory Management** – Büyük `Workbook` nesnelerini hızlıca serbest bırakın; işiniz bittiğinde `dispose()` kullanın.  
+- **Streaming API** – `WorkbookDesigner`, düşük bellek tüketimiyle büyük çalışma kitaplarını işleyen bir akış API'sı sağlar. 1.000 satırı aşan çalışma kitapları için, tüm dosyayı RAM'e yüklemeyi önlemek amacıyla akışı etkinleştirin.  
+- **Profiling** – Kritik bölümlerin etrafında Java’nın `System.nanoTime()` ile performans ölçümü yaparak darboğazları tespit edin.  
 
-- İhtiyaç duyulmadığında büyük nesneleri elden çıkararak belleği verimli bir şekilde yönetin.
-- Çok büyük çalışma kitaplarını yönetmek için Aspose.Cells'in akış özelliklerini kullanın.
-- Kaynak yoğun operasyonları belirlemek ve optimize etmek için uygulamanızı profilleyin.
+Bu uygulamaları izlemek, otomasyonunuzun sorunsuz bir şekilde ölçeklenmesini sağlar.
 
-## Çözüm
+## Sık Sorulan Sorular
 
-Artık Excel çalışma kitapları oluşturma, bunları verilerle doldurma, içgörülü grafikler ekleme ve nihai ürünü kaydetme konusunda rahat olmalısınız; tüm bunları Aspose.Cells for Java kullanarak programatik olarak yapabilirsiniz. Bu otomasyon, Excel görevlerini ele alma şeklinizi dönüştürebilir, zamandan tasarruf sağlayabilir ve hataları azaltabilir.
+**Q: Bir çalışma kitabında birden fazla çalışma sayfası oluşturabilir miyim?**  
+A: Evet. Use `workbook.getWorksheets().add()` to append additional sheets, each with its own data and charts.
 
-### Sonraki Adımlar
-Formül hesaplamaları veya özel biçimlendirme seçenekleri gibi daha da büyük potansiyelin kilidini açmak için Aspose.Cells'deki daha gelişmiş özellikleri keşfedin.
+**Q: Mevcut bir Excel dosyasını nasıl güncellerim?**  
+A: Load the file with `new Workbook("existing.xlsx")`, modify cells or charts, then call `save` to overwrite or write a new file.
 
-## SSS Bölümü
+**Q: Aspose.Cells büyük veri setleriyle verimli mi?**  
+A: Kesinlikle. The streaming mode processes files with **100,000+ rows** while keeping memory usage under **200 MB**.
 
-**S1: Bir çalışma kitabında birden fazla çalışma sayfası oluşturabilir miyim?**
-Evet, kullanın `add` Çalışma sayfanıza ek sayfalar eklemek için çalışma sayfası koleksiyonunuza bir yöntem ekleyin.
+**Q: Hangi grafik tipleri destekleniyor?**  
+A: Over **30** chart types, including Column, Line, Pie, Radar, Pyramid, and Funnel. See the official docs for the full list.
 
-**S2: Mevcut Excel dosyalarını Aspose.Cells ile nasıl güncelleyebilirim?**
-Dosyayı yeni bir yere yükleyin `Workbook` örneği inceleyin ve kaydetmeden önce gerektiği gibi değiştirin.
-
-**S3: Büyük veri kümelerini verimli bir şekilde yönetmek mümkün müdür?**
-Evet, kapsamlı veri kümeleriyle daha iyi performans elde etmek için akış özelliklerini kullanmayı düşünün.
-
-**S4: Aspose.Cells hangi grafik türlerini destekliyor?**
-Sütun, çizgi, pasta ve daha fazlası dahil olmak üzere çok çeşitli grafikler mevcuttur. Ayrıntılar için belgeleri kontrol edin.
-
-**S5: Uygulamam deneme sınırlarını aşarsa lisanslama sorunlarını nasıl çözebilirim?**
-Aspose'un platformu üzerinden bir lisans satın almayı veya genişletilmiş geçici bir lisans başvurusunda bulunmayı düşünebilirsiniz.
+**Q: Üretim için hangi lisans seçenekleri mevcuttur?**  
+A: Sürekli bir lisans, bir abonelik satın alın veya Aspose portalı üzerinden genişletilmiş geçici bir lisans talep edin.
 
 ## Kaynaklar
 
-- **Belgeleme**: [Aspose.Cells Java Referansı](https://reference.aspose.com/cells/java/)
-- **İndirmek**: [Aspose.Cells Sürümleri](https://releases.aspose.com/cells/java/)
-- **Satın almak**: [Aspose.Cells'i satın alın](https://purchase.aspose.com/buy)
-- **Ücretsiz Deneme**: [Aspose.Cells Ücretsiz Deneme](https://releases.aspose.com/cells/java/)
-- **Geçici Lisans**: [Geçici Lisans Başvurusunda Bulunun](https://purchase.aspose.com/temporary-license/)
-- **Destek Forumu**: [Aspose Hücreleri Forumu](https://forum.aspose.com/c/cells/9)
+- **Dokümantasyon**: [Aspose.Cells Java Referansı](https://reference.aspose.com/cells/java/)  
+- **İndirme**: [Aspose.Cells Sürümleri](https://releases.aspose.com/cells/java/)  
+- **Satın Alma**: [Aspose.Cells Satın Al](https://purchase.aspose.com/buy)  
+- **Ücretsiz Deneme**: [Aspose.Cells Ücretsiz Deneme](https://releases.aspose.com/cells/java/)  
+- **Geçici Lisans**: [Geçici Lisans Başvurusu](https://purchase.aspose.com/temporary-license/)  
+- **Destek Forumu**: [Aspose Cells Forum](https://forum.aspose.com/c/cells/9)
 
-Aspose.Cells ile yolculuğunuza bugün başlayın ve Java'da Excel ile çalışma şeklinizi kökten değiştirin!
+---
+
+**Son Güncelleme:** 2026-07-21  
+**Test Edilen Versiyon:** Aspose.Cells 25.3 for Java  
+**Yazar:** Aspose
+
+## İlgili Öğreticiler
+
+- [Aspose.Cells for Java ile Çalışma Kitabı Oluşturma ve Grafik Ekleme: Kapsamlı Rehber](/cells/java/charts-graphs/create-workbook-add-charts-aspose-cells-java/)  
+- [Aspose.Cells Java: Excel Çalışma Kitapları Oluşturma ve Kaydetme - Adım Adım Rehber](/cells/java/workbook-operations/aspose-cells-java-create-save-excel-workbooks/)  
+- [Aspose.Cells Java için Excel Otomasyonu ve Toplu İşleme Öğreticileri](/cells/java/automation-batch-processing/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

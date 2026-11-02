@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel-werkmap
@@ -94,22 +92,22 @@ Dus waarom zou u deze kans niet grijpen om uw Excel-vaardigheden te verbeteren? 
 | [Excel-werkmap maken in C# – volledige gids met uitbreidingsfunctie](./create-excel-workbook-c-full-guide-with-expand-function/) | Leer hoe u een Excel-werkmap maakt in C# met een volledige gids, inclusief het gebruik van de uitbreidingsfunctie. |
 | [Excel-werkmap maken en opslaan naar bestand in C#](./create-excel-workbook-and-save-it-to-file-in-c/) | Leer hoe u een Excel-werkmap maakt en opslaat naar een bestand met C# en Aspose.Cells. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 | [Excel-werkmap maken met gestylede tabel – Stapsgewijze handleiding](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Leer hoe u een Excel-werkmap maakt met een opgemaakte tabel met Aspose.Cells voor .NET. |
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 | [Excel-werkmap maken in C# – Stapsgewijze handleiding](./create-excel-workbook-in-c-step-by-step-guide/) | Leer hoe u een Excel-werkmap maakt in C# met gedetailleerde, stap‑voor‑stap codevoorbeelden. |
 | [Nieuw werkboek maken in C# – Formule toevoegen en Excel-bestand opslaan](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Leer hoe u in C# een nieuw Excel-werkboek maakt, een formule toevoegt en het bestand opslaat met Aspose.Cells. |  
 | [Excel-werkmap maken C# – Stapsgewijze handleiding om datums te schrijven en op te slaan als XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Leer hoe u met C# een Excel-werkmap maakt, datums invoegt en opslaat als XLSX-bestand met Aspose.Cells voor .NET. |
@@ -121,11 +119,12 @@ Dus waarom zou u deze kans niet grijpen om uw Excel-vaardigheden te verbeteren? 
 | [Excel-bestand programmatically maken met C# – Stapsgewijze handleiding](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Leer hoe u met Aspose.Cells voor .NET en C# een Excel-bestand van nul af aan maakt met duidelijke stap‑voor‑stap codevoorbeelden. |
 | [Nieuw werkboek maken – Markdown naar Excel converteren in C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Leer hoe u met Aspose.Cells voor .NET een nieuw Excel-werkboek maakt en Markdown-inhoud naar Excel converteert met C#. |
 | [Hoe maak je een werkmap in C# – Waarde schrijven & Getal opmaken](./how-to-create-workbook-in-c-write-value-format-number/) | Leer hoe u een Excel-werkmap maakt in C#, waarden toevoegt en getallen opmaakt met Aspose.Cells voor .NET. |
+| [Excel-werkmap maken met Aspose.Cells – volledige gids](./create-excel-workbook-with-aspose-cells-full-guide/) | Leer stap voor stap hoe u een Excel-werkmap maakt met Aspose.Cells in deze volledige gids. |  
+| [Excel-werkmap maken en gegevens schrijven in C# – volledige stapsgewijze handleiding](./create-excel-workbook-and-write-data-in-c-full-step-by-step/) | Leer hoe u een Excel-werkmap maakt en data schrijft in C# met een volledige stap‑voor‑stap handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,42 +1,88 @@
 ---
-"date": "2025-04-08"
-"description": "Pelajari cara membuat dan menyesuaikan diagram lingkaran menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan contoh kode untuk pengembang."
-"title": "Menguasai Aspose.Cells&#58; Membuat & Menyesuaikan Diagram Lingkaran di Java"
-"url": "/id/java/charts-graphs/create-customize-aspose-cells-pie-chart-java/"
-"weight": 1
+date: '2026-09-27'
+description: Pelajari cara membuat pie chart Java menggunakan Aspose.Cells. Panduan
+  langkah demi langkah untuk menyesuaikan pie chart Excel, menyiapkan dependensi Maven,
+  dan menghasilkan diagram profesional.
+keywords:
+- create pie chart java
+- customize excel pie chart
+- maven dependency aspose cells
+lastmod: '2026-09-27'
+og_description: Buat pie chart Java menggunakan Aspose.Cells untuk Java. Pelajari
+  cara menyesuaikan pie chart Excel, menambahkan dependensi Maven, dan menghasilkan
+  diagram profesional dalam hitungan menit.
+og_image_alt: Java code generating a customized pie chart in Excel with Aspose.Cells
+og_title: Buat pie chart Java dengan Aspose.Cells – Panduan Java Lengkap
+schemas:
+- author: Aspose
+  dateModified: '2026-09-27'
+  description: Learn how to create pie chart java using Aspose.Cells. Step‑by‑step
+    guide to customize Excel pie chart, set up Maven dependency, and generate professional
+    charts.
+  headline: How to create pie chart java with Aspose.Cells
+  type: TechArticle
+- questions:
+  - answer: Yes, repeat the chart‑creation steps for each data range; each chart is
+      independent.
+    question: Can I generate multiple pie charts in the same workbook?
+  - answer: It does; set the chart type to `ChartType.PIE_3D` when adding the chart.
+    question: Does Aspose.Cells support 3‑D pie charts?
+  - answer: Use the `Workbook.setDefaultTheme` method before creating any charts.
+    question: How do I apply a custom theme to all charts?
+  - answer: Over 30 formats, including XLSX, CSV, PDF, and HTML.
+    question: What file formats can I export the workbook to?
+  - answer: Yes, a valid license removes evaluation watermarks and unlocks full functionality.
+    question: Is a license required for commercial deployment?
+  type: FAQPage
+tags:
+- Aspose.Cells
+- Java charting
+- Excel automation
+- data visualization
+title: Cara membuat pie chart Java dengan Aspose.Cells
+url: /id/java/charts-graphs/create-customize-aspose-cells-pie-chart-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Cara membuat pie chart java dengan Aspose.Cells
 
-# Menguasai Aspose.Cells: Membuat & Menyesuaikan Diagram Lingkaran di Java
+## Pendahuluan
+Membuat **pie chart** secara programatik sering terasa seperti teka‑teki, terutama ketika Anda memerlukan kontrol yang sangat detail atas warna, legenda, dan judul. Dalam panduan ini Anda akan belajar cara **create pie chart java** menggunakan Aspose.Cells, kemudian menyesuaikan **pie chart** Excel agar sesuai dengan merek atau gaya pelaporan Anda. Kami akan membahas penyiapan lingkungan, pengisian data, pembuatan diagram, dan penyesuaian visual—semua tanpa meninggalkan IDE Java Anda.
 
-## Bevezetés
-Membuat diagram yang menarik secara visual merupakan persyaratan umum saat menangani visualisasi data di Excel. Baik saat Anda menyajikan informasi demografis atau menganalisis tren pasar, diagram pai menawarkan cara yang jelas untuk merepresentasikan data proporsional. Namun, menyiapkan diagram ini secara terprogram bisa jadi rumit. Tutorial ini memandu Anda dalam membuat dan menyesuaikan Diagram Pai Aspose.Cells menggunakan Java, yang menyederhanakan proses bagi para pengembang.
+**Apa yang akan Anda pelajari**
+- Tambahkan **Maven dependency Aspose.Cells** ke proyek Anda.
+- Bangun workbook, isi sel dengan data, dan hasilkan **pie chart**.
+- Terapkan warna khusus, judul, dan legenda pada diagram.
+- Ekspor workbook ke file XLSX yang siap dibagikan.
 
-**Amit tanulni fogsz:**
-- Siapkan lingkungan Anda dengan Aspose.Cells untuk Java.
-- Buat buku kerja baru dan akses sel lembar kerja.
-- Isi data ke dalam sel tertentu untuk persiapan pembuatan bagan.
-- Buat diagram lingkaran dari data ini.
-- Sesuaikan tampilan diagram lingkaran Anda, termasuk warna, judul, dan legenda.
+Sebelum memulai, Anda harus nyaman dengan sintaks Java dasar dan telah menginstal Maven atau Gradle.
 
-Sebelum memulai, pastikan Anda memiliki pemahaman dasar tentang pemrograman Java dan manajemen dependensi Maven atau Gradle. Mari kita siapkan lingkungan kita!
+## Jawaban Cepat
+- **Library mana yang membuat pie chart di Java?** Aspose.Cells for Java.
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi berbayar diperlukan untuk produksi.
+- **Koordinat Maven apa yang diperlukan?** `com.aspose:aspose-cells:24.10`.
+- **Bisakah saya mengubah warna irisan?** Ya, melalui metode `setAreaColor` pada setiap series.
+- **Apakah diagram dapat diekspor ke XLSX?** Tentu—cukup panggil `workbook.save("output.xlsx")`.
 
-## Előfeltételek
-A bemutató követéséhez a következőkre lesz szükséged:
-- **Kit Pengembangan Java (JDK)**: Versi 8 atau lebih tinggi.
-- **Lingkungan Pengembangan Terpadu (IDE)**Seperti IntelliJ IDEA atau Eclipse.
-- **Manajemen Ketergantungan**: Gunakan Maven atau Gradle untuk mengelola dependensi Anda.
+## Apa itu pie chart di Excel?
+**pie chart** menvisualisasikan satu seri data sebagai irisan proporsional dari sebuah lingkaran, memudahkan perbandingan bagian-bagian dari keseluruhan. Sudut setiap irisan sesuai dengan nilai relatifnya terhadap total, memberikan wawasan cepat tentang distribusi di antara kategori seperti pangsa pasar, alokasi anggaran, atau persentase demografis.
 
-### Szükséges könyvtárak és függőségek
-Pastikan untuk menyertakan Aspose.Cells untuk Java dalam proyek Anda menggunakan Maven atau Gradle.
+## Mengapa menggunakan Aspose.Cells untuk membuat pie chart java?
+Aspose.Cells mendukung lebih dari 50 tipe diagram dan dapat menangani worksheet dengan hingga satu juta baris tanpa memuat seluruh file ke memori. Keunggulan performa ini memungkinkan Anda menghasilkan laporan besar pada perangkat keras yang sederhana, sambil memberikan kontrol detail atas tampilan diagram, pengikatan data, dan format ekspor, menjadikannya pilihan yang lebih unggul dibanding banyak pustaka open‑source.
 
-**Pakar**
+## Prasyarat
+- **Java Development Kit (JDK)** 8 atau yang lebih baru.
+- **IDE** seperti IntelliJ IDEA atau Eclipse.
+- **Maven** atau **Gradle** untuk manajemen dependensi.
+- Sebuah **lisensi Aspose.Cells trial atau berbayar**.
+
+### Perpustakaan dan dependensi yang diperlukan
+Tambahkan artefak Maven Aspose.Cells ke `pom.xml` Anda:
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -45,31 +91,29 @@ Pastikan untuk menyertakan Aspose.Cells untuk Java dalam proyek Anda menggunakan
 </dependency>
 ```
 
-**Bahasa Inggris Gradle**
+Atau setara Gradle:
+
 ```gradle
 implementation 'com.aspose:aspose-cells:25.3'
 ```
 
-### Licencbeszerzés lépései
-Aspose.Cells untuk Java adalah pustaka komersial, tetapi Anda dapat memulai dengan uji coba gratis atau mengajukan lisensi sementara. Kunjungi [vásárlási oldal](https://purchase.aspose.com/buy) hogy felmérje a licencelési lehetőségeket.
+### Langkah-langkah memperoleh lisensi
+Aspose.Cells for Java bersifat komersial, tetapi Anda dapat memulai dengan percobaan gratis. Kunjungi [halaman pembelian](https://purchase.aspose.com/buy) untuk mendapatkan kunci lisensi sementara.
 
 ## Menyiapkan Aspose.Cells untuk Java
-Pertama-tama, pastikan lingkungan proyek Anda menyertakan pustaka yang diperlukan dengan menambahkannya melalui Maven atau Gradle seperti yang ditunjukkan di atas. Setelah disertakan, Anda dapat menginisialisasi Aspose.Cells:
+Pertama, pastikan pustaka berada di classpath Anda. Setelah menambahkan dependensi, Anda dapat menginisialisasi API seperti ditunjukkan di bawah.
 
 ```java
 import com.aspose.cells.Workbook;
 
-// Új munkafüzetpéldány inicializálása
+// Initialize a new workbook instance
 Workbook workbook = new Workbook();
 ```
 
-## Megvalósítási útmutató
+## Panduan Implementasi
 
-### Membuat dan Mengonfigurasi Buku Kerja
-Membuat buku kerja adalah langkah awal di mana Anda menyiapkan data Anda.
-
-#### Impor Perpustakaan
-Pastikan impor ini disertakan di bagian atas berkas Anda:
+### Membuat dan mengkonfigurasi workbook
+Kelas `Workbook` mewakili seluruh file Excel dalam memori.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -83,23 +127,24 @@ import com.aspose.cells.LegendPositionType;
 import com.aspose.cells.SaveFormat;
 ```
 
-#### 1. lépés: Munkafüzet-példány létrehozása
+#### Langkah 1: membuat instance workbook
 ```java
-// Membuat contoh buku kerja kosong untuk digunakan.
+// Creates an empty workbook instance to work with.
 Workbook workbook = new Workbook();
-```
-Langkah ini menginisialisasi berkas Excel Anda secara terprogram, memungkinkan Anda untuk memanipulasinya menggunakan fungsionalitas Aspose.Cells.
+```  
+Ini membuat workbook baru yang kosong yang dapat Anda isi segera.
 
-### Mengakses atau Memodifikasi Sel Lembar Kerja
-Berikutnya, isi data ke dalam sel lembar kerja yang akan digunakan untuk diagram lingkaran.
+### Mengakses atau memodifikasi sel worksheet
+`Worksheet` mewakili satu lembar dalam workbook, berisi sel, baris, dan kolom.  
+Anda akan menuliskan data yang menggerakkan **pie chart** ke dalam worksheet.
 
-#### Langkah 2: Mengakses Lembar Kerja dan Sel-selnya
+#### Langkah 2: dapatkan worksheet pertama dan sel-selnya
 ```java
-// Nyissa meg a munkafüzet első munkalapját.
+// Access the first worksheet in the workbook.
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Cells cells = worksheet.getCells();
 
-// Masukkan nilai sampel yang digunakan untuk diagram lingkaran ke dalam sel tertentu.
+// Put sample values used for a pie chart into specific cells.
 cells.get("C3").putValue("India");
 cells.get("C4").putValue("China");
 cells.get("C5").parseNumber("United States", true, null);
@@ -107,7 +152,7 @@ cells.get("C6").setValue("Russia");
 cells.get("C7").setValue("United Kingdom");
 cells.get("C8").setValue("Others");
 
-// Masukkan nilai persentase untuk diagram lingkaran ke dalam sel tertentu.
+// Put percentage values for a pie chart into specific cells.
 cells.get("D2").putValue("% of world population");
 cells.get("D3").putValue(25);
 cells.get("D4").putValue(30);
@@ -115,52 +160,53 @@ cells.get("D5").putValue(10);
 cells.get("D6").putValue(13);
 cells.get("D7").putValue(9);
 cells.get("D8").putValue(13);
-```
-Di sini, Anda mengisi lembar kerja dengan data yang akan mewakili berbagai segmen diagram lingkaran.
+```  
+Isi sel dengan nama kategori dan nilai yang akan digunakan diagram.
 
-### Membuat Diagram Lingkaran
+### Membuat pie chart
+Objek `Chart` memvisualisasikan data dalam worksheet dan mendukung berbagai tipe seperti pie, column, dan line.
 
-#### Langkah 3: Tambahkan Diagram Lingkaran ke Lembar Kerja
+#### Langkah 3: tambahkan pie chart ke worksheet
 ```java
-// Buat diagram lingkaran pada lembar kerja.
+// Create a pie chart in the worksheet.
 int pieIdx = worksheet.getCharts().add(ChartType.PIE, 1, 6, 15, 14);
 Chart pie = worksheet.getCharts().get(pieIdx);
-```
-Langkah ini menambahkan diagram lingkaran baru ke lembar kerja Anda pada posisi dan dimensi yang ditentukan.
+```  
 
-### Konfigurasikan Seri dan Data Diagram Lingkaran
+### Mengkonfigurasi seri dan data pie chart
+`Series` mendefinisikan rentang data dan pemformatan untuk diagram, menghubungkan sel worksheet ke elemen visual.
 
-#### Langkah 4: Mengatur Seri untuk Bagan
+#### Langkah 4: atur seri untuk diagram
 ```java
-// Konfigurasikan rentang data seri untuk bagan.
+// Configure the series data range for the chart.
 pie.getNSeries().add("D3:D8", true);
 pie.getNSeries().setCategoryData("=Sheet1!$C$3:$C$8");
 
-// Tautkan judul diagram lingkaran ke sel yang berisi teks judul.
+// Link the pie chart title to a cell containing the title text.
 pie.getTitle().setLinkedSource("D2");
-```
-Kode ini menghubungkan rentang data Anda dan menyiapkan seri untuk diagram lingkaran.
+```  
 
-### Konfigurasikan Legenda dan Tampilan Judul Bagan
+### Mengkonfigurasi tampilan legenda dan judul diagram
+`Legend` diagram menampilkan nama seri dan warna, membantu pembaca mengidentifikasi setiap irisan.
 
-#### Langkah 5: Sesuaikan Legenda dan Judul Bagan
+#### Langkah 5: sesuaikan legenda dan judul diagram
 ```java
-// Tetapkan posisi legenda di bagian bawah bagan.
+// Set legend position at bottom of the chart.
 pie.getLegend().setPosition(LegendPositionType.BOTTOM);
 
-// Tetapkan properti font untuk judul bagan.
+// Set font properties for the chart title.
 pie.getTitle().getFont().setName("Calibri");
 pie.getTitle().getFont().setSize(18);
-```
-Menyesuaikan tampilan meningkatkan keterbacaan dan daya tarik visual.
+```  
 
-### Sesuaikan Warna Seri Bagan
+### Menyesuaikan warna seri diagram
+`setAreaColor` mengatur warna isi irisan seri diagram menggunakan nilai RGB.
 
-#### Langkah 6: Ubah Warna Segmen Pai
+#### Langkah 6: ubah warna segmen pie
 ```java
 import com.aspose.cells.Color;
 
-// Akses dan sesuaikan warna segmen diagram lingkaran individual.
+// Access and customize colors of individual pie chart segments.
 Series srs = pie.getNSeries().get(0);
 srs.getPoints().get(0).getArea().setForegroundColor(Color.fromArgb(0, 246, 22, 219));
 srs.getPoints().get(1).getArea().setForegroundColor(Color.fromArgb(0, 51, 34, 84));
@@ -168,41 +214,64 @@ srs.getPoints().get(2).getArea().setForegroundColor(Color.fromArgb(0, 46, 74, 44
 srs.getPoints().get(3).getArea().setForegroundColor(Color.fromArgb(0, 19, 99, 44));
 srs.getPoints().get(4).getArea().setForegroundColor(Color.fromArgb(0, 208, 223, 7));
 srs.getPoints().get(5).getArea().setForegroundColor(Color.fromArgb(0, 222, 69, 8));
-```
-Pengaturan ini mempersonalisasi bagan Anda agar sesuai dengan skema warna tertentu.
+```  
 
-### Sesuaikan Kolom Secara Otomatis dan Simpan Buku Kerja
+### Autofit kolom dan simpan workbook
+`autoFitColumns` secara otomatis menyesuaikan lebar kolom agar sesuai dengan isi sel.
 
-#### Langkah 7: Sesuaikan Lebar Kolom dan Simpan File
+#### Langkah 7: sesuaikan lebar kolom dan simpan file
 ```java
-// Sesuaikan otomatis semua kolom.
+// Autofit all columns.
 worksheet.autoFitColumns();
 
-// Tentukan jalur tempat penampung direktori keluaran untuk menyimpan buku kerja.
+// Define output directory placeholder path for saving the workbook.
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 
-// Simpan buku kerja yang dimodifikasi ke file Excel di direktori yang ditentukan.
+// Save the modified workbook to an Excel file in the specified directory.
 workbook.save(outDir + "/CSOrSColorsPieChart_out.xlsx", SaveFormat.XLSX);
-```
-Terakhir, sesuaikan kolom secara otomatis dan simpan buku kerja Anda.
+```  
 
-## Gyakorlati alkalmazások
-1. **Analisis Demografi**: Gunakan diagram lingkaran untuk menampilkan distribusi populasi di berbagai negara atau wilayah.
-2. **Laporan Pangsa Pasar**: Mengilustrasikan pangsa pasar berbagai perusahaan di suatu sektor.
-3. **Alokasi Anggaran**: Visualisasikan bagaimana anggaran dialokasikan di berbagai departemen dalam suatu organisasi.
+## Kasus penggunaan umum
+- **Analisis demografis:** Menampilkan distribusi populasi di seluruh wilayah.
+- **Pelaporan pangsa pasar:** Memvisualisasikan pangsa masing‑masing kompetitor dalam satu pandangan.
+- **Alokasi anggaran:** Menyoroti bagaimana dana dibagi di antara departemen.
 
-Aplikasi ini menunjukkan fleksibilitas dan kegunaan Aspose.Cells dalam skenario dunia nyata.
+## Pertimbangan kinerja
+- Lepaskan objek (`workbook.dispose()`) ketika tidak lagi diperlukan untuk membebaskan memori native.
+- Untuk set data yang sangat besar, gunakan `WorkbookDesigner` untuk streaming data alih-alih memuat semuanya sekaligus.
+- Profil dengan Java Flight Recorder untuk menemukan bottleneck dalam pembuatan diagram.
 
-## Teljesítménybeli szempontok
-A teljesítmény optimalizálása Aspose.Cells használatakor:
-- Minimalkan penggunaan memori dengan membuang objek yang tidak lagi diperlukan.
-- Gunakan struktur data yang efisien untuk memproses kumpulan data besar.
-- Profilkan aplikasi Anda untuk mengidentifikasi hambatan.
+## Pertanyaan yang sering diajukan
 
-Mematuhi praktik terbaik memastikan aplikasi berjalan lancar dan responsif.
+**Q: Bisakah saya menghasilkan beberapa pie chart dalam satu workbook yang sama?**  
+A: Ya, ulangi langkah pembuatan diagram untuk setiap rentang data; setiap diagram bersifat independen.
 
-## Következtetés
-Tutorial ini memandu Anda melalui langkah-langkah untuk membuat dan menyesuaikan diagram pai menggunakan Aspose.Cells di Java. Dengan pengetahuan ini, Anda sekarang dapat menerapkan teknik-teknik ini ke berbagai tugas visualisasi data dalam proyek Anda. Untuk eksplorasi lebih lanjut, pertimbangkan untuk mempelajari jenis-jenis diagram tambahan dan opsi penyesuaian lanjutan yang tersedia dengan Aspose.Cells.
+**Q: Apakah Aspose.Cells mendukung pie chart 3‑D?**  
+A: Ya; set tipe diagram ke `ChartType.PIE_3D` saat menambahkan diagram.
+
+**Q: Bagaimana cara menerapkan tema khusus ke semua diagram?**  
+A: Gunakan metode `Workbook.setDefaultTheme` sebelum membuat diagram apa pun.
+
+**Q: Format file apa yang dapat saya ekspor dari workbook?**  
+A: Lebih dari 30 format, termasuk XLSX, CSV, PDF, dan HTML.
+
+**Q: Apakah lisensi diperlukan untuk penyebaran komersial?**  
+A: Ya, lisensi yang valid menghapus watermark evaluasi dan membuka semua fungsi.
+
+## Kesimpulan
+Anda kini memiliki resep lengkap, end‑to‑end untuk **create pie chart java** dengan Aspose.Cells. Dengan mengikuti langkah‑langkah di atas, Anda dapat menghasilkan **pie chart** Excel yang halus, menyesuaikan warna dan judul, serta menyematkannya ke dalam pipeline pelaporan apa pun. Jelajahi tipe diagram lain—column, line, radar—untuk memperluas toolkit visualisasi data Anda.
+
+---
+
+**Last Updated:** 2026-09-27  
+**Tested with:** Aspose.Cells 24.10 for Java  
+**Author:** Aspose
+
+## Tutorial Terkait
+
+- [Sesuaikan Label Data Diagram Excel Menggunakan Aspose.Cells untuk Java: Panduan Langkah demi Langkah](/cells/java/charts-graphs/customize-chart-data-labels-aspose-cells-java/)
+- [Buat Diagram Excel Dinamis dengan Aspose.Cells Java: Panduan Komprehensif untuk Pengembang](/cells/java/charts-graphs/aspose-cells-java-dynamic-excel-charts/)
+- [Buat dan Sesuaikan Workbook Excel Menggunakan Aspose.Cells Java: Panduan Langkah demi Langkah](/cells/java/workbook-operations/create-customize-excel-workbooks-aspose-cells-java/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

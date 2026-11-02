@@ -179,11 +179,14 @@ Langkah **populate Excel template** kini selesai, dan Anda telah berhasil **fill
 Jika `Items` kosong, SmartMarker akan membiarkan header tabel tetap tetapi tidak menyisipkan baris apa pun. Untuk menghindari ruang kosong, Anda dapat menambahkan blok kondisional:
 
 ```csharp
-{{#if Orders.Items.Length > 0}}
-    ... table rows ...
-{{else}}
-    No items were ordered.
-{{/if}}
+if (order.Items.Length > 0)
+{
+    // ... table rows ...
+}
+else
+{
+    // No items were ordered.
+}
 ```
 
 ### Format Angka Kustom

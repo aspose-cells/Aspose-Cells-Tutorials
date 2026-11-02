@@ -1,0 +1,7 @@
+Title: How to split columns in Java with Aspose.Cells – step‑by‑step guide
+Slug: how-to-split-columns-in-java-with-aspose-cells-step-by-step
+Category: data-manipulation
+ProcessedDate: 2026-10-07T19:04:43.605012
+SourceRepo: AI Search API
+Keywords: how to split columns, split string into columns, automate excel formula, write formula to cell
+PRNumber: 184

@@ -38,6 +38,8 @@ Tanuld meg, hogyan exportálhatsz egyéni tulajdonságokat Excelből PDF-be az A
 Tanuld meg, hogyan tarthatsz elválasztókat az üres soroknál az Excelben az Aspose.Cells for .NET használatával. Lépésről lépésre útmutató kódpéldákkal.
 ### [Csak látható munkalapok betöltése Excel fájlból](./load-visible-sheets-only/)
 Ebben a lépésről lépésre szóló útmutatóban megtudhatja, hogyan tölthet be csak látható munkalapokat Excel-fájlokból az Aspose.Cells for .NET használatával.
+### [Excel fájl létrehozása programozott módon C#-ban – oktatóanyag](./create-excel-file-programmatically-in-c-tutorial/)
+Ismerje meg, hogyan hozhat létre Excel fájlt C#-ban az Aspose.Cells for .NET segítségével lépésről lépésre.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

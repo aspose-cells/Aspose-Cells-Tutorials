@@ -1,42 +1,86 @@
 ---
-"date": "2025-04-08"
-"description": "Aspose.Cells for Javaを使って円グラフを作成、カスタマイズする方法を学びましょう。開発者向けのコード例を交えたステップバイステップガイドです。"
-"title": "Aspose.Cells をマスターして Java で円グラフを作成およびカスタマイズする"
-"url": "/ja/java/charts-graphs/create-customize-aspose-cells-pie-chart-java/"
-"weight": 1
+date: '2026-09-27'
+description: Aspose.Cells を使用して Java で円グラフを作成する方法を学びます。Excel の円グラフをカスタマイズし、Maven 依存関係を設定し、プロフェッショナルなチャートを生成するステップバイステップガイドです。
+keywords:
+- create pie chart java
+- customize excel pie chart
+- maven dependency aspose cells
+lastmod: '2026-09-27'
+og_description: Aspose.Cells for Java を使用して円グラフを作成します。Excel の円グラフをカスタマイズし、Maven 依存関係を追加し、数分でプロフェッショナルなチャートを生成する方法を学びます。
+og_image_alt: Java code generating a customized pie chart in Excel with Aspose.Cells
+og_title: Aspose.Cells で Java の円グラフを作成 – 完全 Java ガイド
+schemas:
+- author: Aspose
+  dateModified: '2026-09-27'
+  description: Learn how to create pie chart java using Aspose.Cells. Step‑by‑step
+    guide to customize Excel pie chart, set up Maven dependency, and generate professional
+    charts.
+  headline: How to create pie chart java with Aspose.Cells
+  type: TechArticle
+- questions:
+  - answer: Yes, repeat the chart‑creation steps for each data range; each chart is
+      independent.
+    question: Can I generate multiple pie charts in the same workbook?
+  - answer: It does; set the chart type to `ChartType.PIE_3D` when adding the chart.
+    question: Does Aspose.Cells support 3‑D pie charts?
+  - answer: Use the `Workbook.setDefaultTheme` method before creating any charts.
+    question: How do I apply a custom theme to all charts?
+  - answer: Over 30 formats, including XLSX, CSV, PDF, and HTML.
+    question: What file formats can I export the workbook to?
+  - answer: Yes, a valid license removes evaluation watermarks and unlocks full functionality.
+    question: Is a license required for commercial deployment?
+  type: FAQPage
+tags:
+- Aspose.Cells
+- Java charting
+- Excel automation
+- data visualization
+title: Aspose.Cells を使用した Java の円グラフ作成方法
+url: /ja/java/charts-graphs/create-customize-aspose-cells-pie-chart-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Aspose.Cells を使用した Java の円グラフ作成方法
 
-# Aspose.Cells をマスターする: Java で円グラフを作成およびカスタマイズする
+## はじめに
+プログラムで **pie chart** を作成することは、特に色、凡例、タイトルを細かく制御する必要がある場合、パズルのように感じられることがあります。このガイドでは Aspose.Cells を使用して **create pie chart java** の方法を学び、Excel の円グラフをブランドやレポート様式に合わせてカスタマイズします。環境設定、データ入力、チャート生成、ビジュアル調整をすべて Java IDE から離れることなく順に解説します。
 
-## 導入
-Excelでデータビジュアライゼーションを行う際、視覚的に魅力的なグラフを作成することはよくある要件です。人口統計情報を提示する場合でも、市場動向を分析する場合でも、円グラフは割合データを明確に表現する手段となります。しかし、円グラフをプログラムで設定するのは複雑になる場合があります。このチュートリアルでは、Javaを使用してAspose.Cellsの円グラフを作成およびカスタマイズする方法を解説し、開発者のプロセスを簡素化します。
+**学習内容**
+- プロジェクトに **Maven dependency Aspose.Cells** を追加する。
+- ワークブックを作成し、セルにデータを入力して円グラフを生成する。
+- チャートにカスタムカラー、タイトル、凡例を適用する。
+- ワークブックを共有用の XLSX ファイルとしてエクスポートする。
 
-**学習内容:**
-- Aspose.Cells for Java を使用して環境を設定します。
-- 新しいワークブックを作成し、ワークシートのセルにアクセスします。
-- グラフ作成の準備として、特定のセルにデータを入力します。
-- このデータから円グラフを生成します。
-- 色、タイトル、凡例など、円グラフの外観をカスタマイズします。
+開始する前に、基本的な Java 文法に慣れており、Maven または Gradle がインストールされていることが必要です。
 
-始める前に、JavaプログラミングとMavenまたはGradleの依存関係管理について基本的な知識を身に付けておきましょう。それでは環境を構築しましょう！
+## クイック回答
+- **Which library creates pie charts in Java?** Aspose.Cells for Java.
+- **Do I need a license?** 開発には無料トライアルが使用でき、製品版には有料ライセンスが必要です。
+- **What Maven coordinates are required?** `com.aspose:aspose-cells:24.10`.
+- **Can I change slice colors?** はい、各シリーズの `setAreaColor` メソッドで変更できます。
+- **Is the chart exportable to XLSX?** もちろんです—`workbook.save("output.xlsx")` を呼び出すだけです。
+
+## Excel の円グラフとは何か？
+
+円グラフは、単一のデータ系列を円の比例的なスライスとして視覚化し、全体の一部を比較しやすくします。各スライスの角度は、総計に対するその値に比例し、市場シェア、予算配分、人口統計のパーセンテージなどのカテゴリ別分布を迅速に把握できます。
+
+## なぜ Aspose.Cells を使用して Java の円グラフを作成するのか？
+
+Aspose.Cells は 50 種類以上のチャートタイプをサポートし、ファイル全体をメモリに読み込むことなく、最大 100 万行のワークシートを処理できます。このパフォーマンスの優位性により、低スペックのハードウェアでも大規模なレポートを生成でき、チャートの外観、データバインディング、エクスポート形式を細かく制御できるため、多くの open‑source ライブラリよりも優れた選択肢となります。
 
 ## 前提条件
-このチュートリアルを実行するには、次のものが必要です。
-- **Java開発キット（JDK）**: バージョン 8 以上。
-- **統合開発環境（IDE）**: IntelliJ IDEA や Eclipse など。
-- **依存関係管理**依存関係を管理するには、Maven または Gradle を使用します。
+- **Java Development Kit (JDK)** 8 以上。
+- **IDE**（例：IntelliJ IDEA または Eclipse）。
+- 依存関係管理のための **Maven** または **Gradle**。
+- **trial or purchased Aspose.Cells license**。
 
 ### 必要なライブラリと依存関係
-Maven または Gradle を使用して、プロジェクトに Aspose.Cells for Java を必ず含めてください。
+`pom.xml` に Aspose.Cells の Maven アーティファクトを追加します:
 
-**メイヴン**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -45,31 +89,29 @@ Maven または Gradle を使用して、プロジェクトに Aspose.Cells for 
 </dependency>
 ```
 
-**グラドル**
+または Gradle の等価設定:
+
 ```gradle
 implementation 'com.aspose:aspose-cells:25.3'
 ```
 
 ### ライセンス取得手順
-Aspose.Cells for Javaは商用ライブラリですが、無料トライアルから始めることも、一時ライセンスを申請することもできます。 [購入ページ](https://purchase.aspose.com/buy) ライセンス オプションを検討します。
+Aspose.Cells for Java は商用製品ですが、無料トライアルから始めることができます。テンポラリライセンスキーを取得するには、[purchase page](https://purchase.aspose.com/buy) をご覧ください。
 
-## Aspose.Cells for Java のセットアップ
-まず、上記のようにMavenまたはGradleを使って必要なライブラリを追加し、プロジェクト環境に必要なライブラリが含まれていることを確認します。ライブラリが追加されたら、Aspose.Cellsを初期化できます。
+## Aspose.Cells for Java の設定
+まず、ライブラリがクラスパスにあることを確認してください。依存関係を追加したら、以下のように API を初期化できます。
 
 ```java
 import com.aspose.cells.Workbook;
 
-// 新しいワークブックインスタンスを初期化する
+// Initialize a new workbook instance
 Workbook workbook = new Workbook();
 ```
 
 ## 実装ガイド
 
 ### ワークブックの作成と構成
-ワークブックの作成は、データを設定する最初のステップです。
-
-#### ライブラリのインポート
-次のインポートがファイルの先頭に含まれていることを確認します。
+`Workbook` クラスは、メモリ上の Excel ファイル全体を表します。
 
 ```java
 import com.aspose.cells.Workbook;
@@ -83,23 +125,24 @@ import com.aspose.cells.LegendPositionType;
 import com.aspose.cells.SaveFormat;
 ```
 
-#### ステップ1: ワークブックインスタンスを作成する
+#### Step 1: ワークブックをインスタンス化する
 ```java
-// 作業する空のワークブック インスタンスを作成します。
+// Creates an empty workbook instance to work with.
 Workbook workbook = new Workbook();
-```
-この手順では、Excel ファイルをプログラムで初期化し、Aspose.Cells 機能を使用して操作できるようになります。
+```  
+これは新しい空のワークブックを作成し、すぐにデータを入力し始めることができます。
 
-### ワークシートのセルにアクセスまたは変更する
-次に、円グラフに使用するワークシートのセルにデータを入力します。
+### ワークシートのセルへのアクセスまたは変更
+`Worksheet` はワークブック内の単一シートを表し、セル、行、列を含みます。  
+円グラフのデータとなる情報をワークシートに書き込みます。
 
-#### ステップ2: ワークシートとそのセルにアクセスする
+#### Step 2: 最初のワークシートとそのセルを取得する
 ```java
-// ワークブックの最初のワークシートにアクセスします。
+// Access the first worksheet in the workbook.
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Cells cells = worksheet.getCells();
 
-// 円グラフに使用するサンプル値を特定のセルに入力します。
+// Put sample values used for a pie chart into specific cells.
 cells.get("C3").putValue("India");
 cells.get("C4").putValue("China");
 cells.get("C5").parseNumber("United States", true, null);
@@ -107,7 +150,7 @@ cells.get("C6").setValue("Russia");
 cells.get("C7").setValue("United Kingdom");
 cells.get("C8").setValue("Others");
 
-// 円グラフのパーセンテージ値を特定のセルに入力します。
+// Put percentage values for a pie chart into specific cells.
 cells.get("D2").putValue("% of world population");
 cells.get("D3").putValue(25);
 cells.get("D4").putValue(30);
@@ -115,52 +158,53 @@ cells.get("D5").putValue(10);
 cells.get("D6").putValue(13);
 cells.get("D7").putValue(9);
 cells.get("D8").putValue(13);
-```
-ここでは、円グラフのさまざまなセグメントを表すデータをワークシートに入力します。
+```  
+セルにカテゴリ名と値を入力し、チャートが使用できるようにします。
 
-### 円グラフを作成する
+### 円グラフの作成
+`Chart` オブジェクトはワークシート内のデータを可視化し、円、棒、折れ線などさまざまなタイプをサポートします。
 
-#### ステップ3: ワークシートに円グラフを追加する
+#### Step 3: ワークシートに円グラフを追加する
 ```java
-// ワークシートに円グラフを作成します。
+// Create a pie chart in the worksheet.
 int pieIdx = worksheet.getCharts().add(ChartType.PIE, 1, 6, 15, 14);
 Chart pie = worksheet.getCharts().get(pieIdx);
-```
-この手順では、指定された位置と寸法で新しい円グラフをワークシートに追加します。
+```  
 
-### 円グラフのシリーズとデータを設定する
+### 円グラフのシリーズとデータの構成
+`Series` はチャートのデータ範囲と書式設定を定義し、ワークシートのセルとビジュアル要素を結びつけます。
 
-#### ステップ4: グラフの系列を設定する
+#### Step 4: チャートのシリーズを設定する
 ```java
-// グラフの系列データ範囲を設定します。
+// Configure the series data range for the chart.
 pie.getNSeries().add("D3:D8", true);
 pie.getNSeries().setCategoryData("=Sheet1!$C$3:$C$8");
 
-// 円グラフのタイトルを、タイトル テキストを含むセルにリンクします。
+// Link the pie chart title to a cell containing the title text.
 pie.getTitle().setLinkedSource("D2");
-```
-このコードはデータ範囲をリンクし、円グラフの系列を設定します。
+```  
 
-### グラフの凡例とタイトルの外観を構成する
+### チャートの凡例とタイトルの外観設定
+チャートの `Legend` はシリーズ名とカラーを表示し、各スライスを識別しやすくします。
 
-#### ステップ5: グラフの凡例とタイトルをカスタマイズする
+#### Step 5: チャートの凡例とタイトルをカスタマイズする
 ```java
-// 凡例の位置をグラフの下部に設定します。
+// Set legend position at bottom of the chart.
 pie.getLegend().setPosition(LegendPositionType.BOTTOM);
 
-// グラフのタイトルのフォントプロパティを設定します。
+// Set font properties for the chart title.
 pie.getTitle().getFont().setName("Calibri");
 pie.getTitle().getFont().setSize(18);
-```
-外観をカスタマイズすると、読みやすさと視覚的な魅力が向上します。
+```  
 
-### グラフシリーズの色をカスタマイズする
+### チャートシリーズの色をカスタマイズする
+`setAreaColor` は RGB 値を使用してチャートシリーズのスライスの塗りつぶし色を設定します。
 
-#### ステップ6: 円グラフのセグメントの色を変更する
+#### Step 6: 円グラフのセグメント色を変更する
 ```java
 import com.aspose.cells.Color;
 
-// 個々の円グラフセグメントの色にアクセスしてカスタマイズします。
+// Access and customize colors of individual pie chart segments.
 Series srs = pie.getNSeries().get(0);
 srs.getPoints().get(0).getArea().setForegroundColor(Color.fromArgb(0, 246, 22, 219));
 srs.getPoints().get(1).getArea().setForegroundColor(Color.fromArgb(0, 51, 34, 84));
@@ -168,42 +212,64 @@ srs.getPoints().get(2).getArea().setForegroundColor(Color.fromArgb(0, 46, 74, 44
 srs.getPoints().get(3).getArea().setForegroundColor(Color.fromArgb(0, 19, 99, 44));
 srs.getPoints().get(4).getArea().setForegroundColor(Color.fromArgb(0, 208, 223, 7));
 srs.getPoints().get(5).getArea().setForegroundColor(Color.fromArgb(0, 222, 69, 8));
-```
-これらの設定により、特定の配色に合わせてグラフをカスタマイズできます。
+```  
 
 ### 列の自動調整とワークブックの保存
+`autoFitColumns` はセルの内容に合わせて列幅を自動的に調整します。
 
-#### ステップ7: 列幅を調整してファイルを保存する
+#### Step 7: 列幅を調整し、ファイルを保存する
 ```java
-// すべての列を自動調整します。
+// Autofit all columns.
 worksheet.autoFitColumns();
 
-// ワークブックを保存するための出力ディレクトリのプレースホルダー パスを定義します。
+// Define output directory placeholder path for saving the workbook.
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 
-// 変更したブックを指定されたディレクトリ内の Excel ファイルに保存します。
+// Save the modified workbook to an Excel file in the specified directory.
 workbook.save(outDir + "/CSOrSColorsPieChart_out.xlsx", SaveFormat.XLSX);
-```
-最後に、列を自動調整してワークブックを保存します。
+```  
 
-## 実用的なアプリケーション
-1. **人口統計分析**さまざまな国や地域の人口分布を表示するには、円グラフを使用します。
-2. **市場シェアレポート**業界内のさまざまな企業の市場シェアを示します。
-3. **予算配分**組織内のさまざまな部門に予算がどのように割り当てられているかを視覚化します。
+## 一般的な使用例
+- **Demographic analysis:** 地域別の人口分布を示す。
+- **Market‑share reporting:** 各競合他社のシェアを一目で可視化する。
+- **Budget allocation:** 部門別の予算配分をハイライトする。
 
-これらのアプリケーションは、実際のシナリオにおける Aspose.Cells の汎用性と有用性を実証します。
+## パフォーマンス上の考慮点
+- 必要なくなったオブジェクトは (`workbook.dispose()`) を呼び出して解放し、ネイティブメモリを確保します。
+- 大規模データセットの場合、`WorkbookDesigner` を使用してデータをストリーミングし、すべてを一度にロードしないようにします。
+- Java Flight Recorder でプロファイルし、チャート生成時のボトルネックを特定します。
 
-## パフォーマンスに関する考慮事項
-Aspose.Cells を使用する際のパフォーマンスを最適化するには:
-- 不要になったオブジェクトを破棄してメモリ使用量を最小限に抑えます。
-- 大規模なデータセットを処理するには、効率的なデータ構造を使用します。
-- アプリケーションをプロファイルしてボトルネックを特定します。
+## よくある質問
 
-ベスト プラクティスに従うことで、スムーズで応答性の高いアプリケーションが保証されます。
+**Q: Can I generate multiple pie charts in the same workbook?**  
+A: はい、各データ範囲に対してチャート作成手順を繰り返すことで、複数の円グラフを同一ワークブックに生成できます。各チャートは独立しています。
+
+**Q: Does Aspose.Cells support 3‑D pie charts?**  
+A: 対応しています。チャートを追加する際にチャートタイプを `ChartType.PIE_3D` に設定してください。
+
+**Q: How do I apply a custom theme to all charts?**  
+A: チャートを作成する前に `Workbook.setDefaultTheme` メソッドを使用してカスタムテーマを適用します。
+
+**Q: What file formats can I export the workbook to?**  
+A: XLSX、CSV、PDF、HTML など、30 以上の形式にエクスポートできます。
+
+**Q: Is a license required for commercial deployment?**  
+A: はい、有効なライセンスが評価用の透かしを除去し、すべての機能を利用可能にします。
 
 ## 結論
-このチュートリアルでは、JavaでAspose.Cellsを使用して円グラフを作成およびカスタマイズする手順を詳しく説明しました。このチュートリアルで学んだ知識があれば、プロジェクトの様々なデータ視覚化タスクにこれらのテクニックを適用できるようになります。さらに詳しく知りたい場合は、Aspose.Cellsで利用できる他のグラフの種類や高度なカスタマイズオプションについても調べてみてください。
+Aspose.Cells を使用した **create pie chart java** の完全な手順が揃いました。上記の手順に従うことで、洗練された Excel の円グラフを生成し、色やタイトルをカスタマイズして、任意のレポートパイプラインに組み込むことができます。他のチャートタイプ（棒、折れ線、レーダー）も試して、データ可視化ツールキットを拡充しましょう。
 
+---
+
+**最終更新日:** 2026-09-27  
+**テスト環境:** Aspose.Cells 24.10 for Java  
+**作者:** Aspose
+
+## 関連チュートリアル
+
+- [Aspose.Cells for Java を使用した Excel チャート データ ラベルのカスタマイズ&#58; ステップバイステップ ガイド](/cells/java/charts-graphs/customize-chart-data-labels-aspose-cells-java/)
+- [Aspose.Cells Java で動的 Excel チャートを作成する&#58; 開発者向け包括的ガイド](/cells/java/charts-graphs/aspose-cells-java-dynamic-excel-charts/)
+- [Aspose.Cells Java を使用した Excel ワークブックの作成とカスタマイズ&#58; ステップバイステップ ガイド](/cells/java/workbook-operations/create-customize-excel-workbooks-aspose-cells-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

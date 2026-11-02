@@ -38,6 +38,8 @@
 เรียนรู้วิธีการเก็บตัวคั่นสำหรับแถวว่างใน Excel โดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดรวมอยู่ด้วย
 ### [โหลดแผ่นงานที่มองเห็นได้จากไฟล์ Excel เท่านั้น](./load-visible-sheets-only/)
 เรียนรู้วิธีโหลดเฉพาะแผ่นงานที่มองเห็นได้จากไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือทีละขั้นตอนนี้
+### [สร้างไฟล์ Excel อย่างเป็นโปรแกรมใน C# – บทช่วยสอน](./create-excel-file-programmatically-in-c-tutorial/)
+เรียนรู้วิธีสร้างไฟล์ Excel โดยใช้ C# อย่างเป็นขั้นตอนด้วย Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

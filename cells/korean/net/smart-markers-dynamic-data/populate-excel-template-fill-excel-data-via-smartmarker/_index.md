@@ -178,11 +178,14 @@ workbook.Save("Output/InvoicePopulated.xlsx");
 `Items`가 비어 있으면 SmartMarker는 테이블 헤더는 유지하지만 행을 삽입하지 않습니다. 빈 공간을 방지하려면 조건 블록을 추가할 수 있습니다:
 
 ```csharp
-{{#if Orders.Items.Length > 0}}
-    ... table rows ...
-{{else}}
-    No items were ordered.
-{{/if}}
+if (order.Items.Length > 0)
+{
+    // ... table rows ...
+}
+else
+{
+    // No items were ordered.
+}
 ```
 
 ### 사용자 정의 숫자 형식

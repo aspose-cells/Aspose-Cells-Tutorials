@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Автофильтр и проверка Excel
@@ -43,24 +41,29 @@
 ### [Как использовать автофильтр в автоматизации Excel на C# – Полное пошаговое руководство](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
 Узнайте, как реализовать автофильтр в Excel с помощью C# и Aspose.Cells, следуя полному пошаговому руководству.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Удаление автофильтра в Excel на C# – Полное пошаговое руководство](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Узнайте, как полностью удалить автофильтр из Excel с помощью Aspose.Cells в C# в этом подробном пошаговом руководстве.
+### [Как удалить автофильтр из таблиц Excel с помощью C#](./how-to-remove-autofilter-from-excel-tables-using-c/)
+Узнайте, как удалить автофильтр из таблиц Excel с помощью Aspose.Cells в .NET, следуя нашему полному руководству на C#.
 ### [Очистка UI фильтра в Excel с C# – Удалить кнопку автофильтра](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 Узнайте, как убрать кнопку автофильтра в Excel с помощью Aspose.Cells для .NET и C#.
 ### [Скрытие стрелок фильтра в Excel с C# – Полное руководство](./hide-filter-arrows-excel-with-c-complete-guide/)
 Узнайте, как полностью скрыть стрелки автофильтра в Excel с помощью Aspose.Cells для .NET и C#.
+### [Добавление таблицы в Excel с C# – очистка автофильтра и сохранение файла](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
+Узнайте, как добавить таблицу в Excel с помощью C#, очистить автофильтр и сохранить файл, используя Aspose.Cells для .NET.
+### [Удалить автофильтр из Excel в C# – полное руководство](./remove-autofilter-from-excel-in-c-complete-guide/)
+Узнайте, как полностью удалить автофильтр из Excel с помощью Aspose.Cells для .NET и C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

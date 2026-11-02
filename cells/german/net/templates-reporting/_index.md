@@ -58,6 +58,13 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Arbeitsmappen aus JSON-Da
 ### [Excel aus Vorlage erstellen – Schritt‑für‑Schritt‑Anleitung für .NET‑Entwickler](./create-excel-from-template-step-by-step-guide-for-net-develo/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien aus Vorlagen erstellen, Daten binden und Berichte automatisieren.
 
+### [Excel-Vorlage verarbeiten und Arbeitsblätter automatisch benennen in C#](./how-to-process-excel-template-and-automatically-name-sheets)
+Erfahren Sie, wie Sie Excel-Vorlagen verarbeiten und Arbeitsblätter automatisch benennen, um Berichte effizient zu erstellen.
+
+### [Wie man Daten mit einer C#‑Vorlage nach Excel exportiert – Schritt‑für‑Schritt‑Anleitung](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
+Erfahren Sie, wie Sie mit einer C#‑Vorlage Daten nach Excel exportieren und den Vorgang Schritt für Schritt automatisieren.
+
+### [Wie man ein Array in Excel erweitert und eine Vorlage füllt](./how-to-expand-array-in-excel-and-populate-a-template)
 ### [Datensatz in Excel konvertieren und eine Excel-Vorlage befüllen](./convert-dataset-to-excel-and-populate-an-excel-template)
 
 ### [Excel aus Vorlage erstellen und wiederholte Arbeitsblätter generieren](./how-to-create-excel-from-template-and-generate-repeated-shee)

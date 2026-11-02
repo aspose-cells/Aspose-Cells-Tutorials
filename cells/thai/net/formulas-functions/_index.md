@@ -105,6 +105,7 @@
 ### [สร้างสมุดงาน Excel ด้วย C# – Lambda, SEQUENCE & EXPAND คู่มือ](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 ### [วิธีคำนวณโคแทนเจนต์ใน Excel ด้วย C# – สร้าง Workbook, ใช้ EXPAND, และบันทึก](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
 เรียนรู้วิธีคำนวณโคแทนเจนต์ใน Excel ด้วย C#, สร้าง Workbook, ใช้ฟังก์ชัน EXPAND, และบันทึกไฟล์
+### [เขียนสูตรอาร์เรย์ใน C# – คู่มือการเขียนโปรแกรมครบถ้วน](./write-array-formula-in-c-complete-programming-guide/)
 
 ## ทำความเข้าใจเกี่ยวกับชนิดของสูตร Excel
 

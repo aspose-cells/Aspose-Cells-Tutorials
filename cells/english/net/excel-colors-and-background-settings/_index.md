@@ -42,6 +42,8 @@ Learn how to set column backgrounds in Excel using C# and Aspose.Cells for .NET 
 Learn how to add alternating column colors in Excel using Aspose.Cells for .NET with C#.
 ### [Alternating Row Colors in C# Worksheets – Complete Guide](./alternating-row-colors-in-c-worksheets-complete-guide/)
 Learn how to apply alternating row colors in Excel worksheets using C# and Aspose.Cells for .NET to improve readability and visual appeal.
+### [Apply Alternating Row Colors in Excel with C# – Complete Guide](./apply-alternating-row-colors-in-excel-with-c-complete-guide/)
+Learn how to apply alternating row colors in Excel using C# and Aspose.Cells for .NET to improve readability and visual appeal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

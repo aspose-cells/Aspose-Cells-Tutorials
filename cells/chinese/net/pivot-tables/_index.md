@@ -21,7 +21,7 @@
 
 {{< tutorial-card link="./pivot-table-save-in-ods/" title="在 Aspose.Cells 中将数据透视表保存为 ODS" imgSrc="./pivot-table-save-in-ods/images/thumb.png" >}}
 
-{{< tutorial-card link="./copy-pivot-table-between-worksheets-in-c-step-by-step-guide/" title="在 C# 中跨工作表复制数据透视表 – 步骤指南" imgSrc="./copy-pivot-table-between-worksheets-in-c-step-by-step-guide/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-copy-pivot-table-in-c-complete-programming-guide/" title="如何在 C# 中复制数据透视表 – 完整编程指南" imgSrc="./how-to-copy-pivot-table-in-c-complete-programming-guide/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -179,11 +179,14 @@ workbook.Save("Output/InvoicePopulated.xlsx");
 `Items` boş ise, SmartMarker tablo başlığını korur ancak satır eklemez. Boş bir alan oluşmasını önlemek için koşullu bir blok ekleyebilirsiniz:
 
 ```csharp
-{{#if Orders.Items.Length > 0}}
-    ... table rows ...
-{{else}}
-    No items were ordered.
-{{/if}}
+if (order.Items.Length > 0)
+{
+    // ... table rows ...
+}
+else
+{
+    // No items were ordered.
+}
 ```
 
 ### Özel Sayı Formatları

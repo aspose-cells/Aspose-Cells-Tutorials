@@ -38,6 +38,8 @@ ExcelスプレッドシートをPDFに変換する際、文書の見栄えを完
 Aspose.Cells for .NET を使用して PDF 保存オプションの既定のフォントを設定し、ドキュメントが常に完璧に表示されるようにする方法を学習します。
 ### [ワークブックのレンダリングに使用するフォントを指定する](./specify-fonts-for-workbook-rendering/)
 Aspose.Cells for .NET を使用して、ワークブックのレンダリングにカスタムフォントを指定する方法を学びます。完璧なPDF出力を実現するためのステップバイステップガイドです。
+### [グリッド内テキストボックスのフォントを変更する – 完全ステップバイステップガイド](./change-textbox-font-in-a-grid-complete-step-by-step-guide/)
+Aspose.Cells for .NET を使用して、グリッド内のテキストボックスのフォントを変更する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

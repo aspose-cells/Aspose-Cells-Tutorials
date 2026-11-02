@@ -53,7 +53,9 @@ Aspose.Cells for .NET을 사용하여 Excel에서 PDF로 변환할 때 외부 �
 ### [Aspose.Cells에서 차트 시트에 대한 PDF 북마크 만들기](./create-pdf-bookmark-entry-for-chart-sheet/)
 이 포괄적인 단계별 가이드를 통해 Aspose.Cells for .NET에서 차트 시트에 대한 PDF 책갈피를 만드는 방법을 알아보세요.
 ### [Aspose.Cells를 사용하여 셀 범위를 이미지로 내보내기](./export-range-of-cells-to-image/)
-Aspose.Cells for .NET을 사용하여 Excel 셀 범위를 이미지로 쉽게 내보내는 단계별 가이드를 소개합니다. 보고서와 프레젠테이션을 더욱 효과적으로 만들어 보세요.
+Aspose.Cells for .NET을 사용하여 Excel 셀 범위를 이미지로 쉽게 내보내는 단계별 포괄적인 가이드를 소개합니다. 보고서와 프레젠테이션을 더욱 효과적으로 만들어 보세요.
+### [Excel에서 인쇄 영역을 설정하고 PNG로 내보내는 방법](./how-to-set-print-area-in-excel-and-export-png/)
+Excel에서 인쇄 영역을 지정한 후 PNG 이미지로 내보내는 단계별 가이드를 제공합니다.
 ### [Aspose.Cells를 사용하여 객체 경계 그리기](./get-draw-object-and-bound/)
 Aspose.Cells for .NET을 사용하여 Excel에서 그리기 개체 경계를 추출하는 방법을 단계별 포괄적인 가이드를 통해 알아보세요.
 ### [Aspose.Cells를 사용하여 Excel에서 PDF로 렌더링할 때 오류 무시](./ignore-errors-while-rendering/)
@@ -66,6 +68,8 @@ Aspose.Cells for .NET을 사용하여 Excel에서 순차적 페이지를 렌더�
 Aspose.Cells for .NET을 사용하여 피벗 테이블 이미지를 PNG 형식으로 내보내고, 피벗 참조 범위를 설정하는 방법을 단계별로 안내합니다.
 ### [C#에서 피벗을 PNG로 내보내는 방법 – 단계별 가이드](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
 Aspose.Cells for .NET을 사용하여 C#에서 피벗 테이블을 PNG 이미지로 내보내는 방법을 단계별로 안내합니다.
+### [C#에서 PNG 피벗 이미지 만들기 – 전체 단계별 가이드](./create-png-pivot-image-in-c-full-step-by-step-guide/)
+C#을 사용하여 Excel 피벗 테이블을 PNG 이미지로 내보내는 전체 단계별 가이드를 확인하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

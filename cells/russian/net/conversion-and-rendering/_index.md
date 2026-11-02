@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Конвертация и рендеринг
@@ -31,7 +29,9 @@
 
 Наконец, мы не можем забыть о руководстве по конвертации Excel в MHTML в .NET. MHTML идеально подходит для захвата сути ваших электронных таблиц вместе с их форматированием, позволяя вам делиться полными отчетами. Это руководство позволит вам расширить возможности отчетности, сделав совместную работу бесперебойной и эффективной. Это обязательное чтение для тех, кто серьезно относится к обмену данными! Погрузитесь в это полезное руководство [здесь](./converting-excel-to-mhtml/).
 
-## Учебники по конвертации и рендерингу
+### [Как конвертировать JSON в Excel в C# с одной ячейкой, разделённой запятыми](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+Узнайте, как преобразовать JSON в Excel в C#, поместив данные в одну ячейку, разделённую запятыми.
+
 ### [Расширенное преобразование в PDF в .NET](./advanced-conversion-to-pdf/)
 Узнайте, как легко преобразовать Excel в PDF с помощью Aspose.Cells в .NET. Следуйте нашему пошаговому руководству.
 ### [Преобразование рабочего листа в SVG в .NET](./converting-worksheet-to-svg/)
@@ -57,13 +57,13 @@
 ### [Встраивание шрифтов в HTML – Полное руководство для разработчиков .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
 Узнайте, как эффективно встраивать шрифты в HTML с помощью Aspose.Cells для .NET, обеспечивая корректное отображение текста.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Экспорт сводной таблицы из листа Excel в PNG в C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 Узнайте, как экспортировать сводную таблицу из Excel в формат PNG с помощью Aspose.Cells для .NET на C#.
 
@@ -71,11 +71,22 @@
 Узнайте, как создать новую книгу Excel в C# и импортировать содержимое Markdown, используя Aspose.Cells.
 ### [Конвертация markdown в Excel – Полное руководство на C#](./convert-markdown-to-excel-complete-c-guide/)
 Узнайте, как преобразовать файлы markdown в Excel с помощью Aspose.Cells и C#, следуя пошаговому руководству.
+### [Экспорт Excel в PNG с Aspose.Cells – Полное пошаговое руководство](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
+Узнайте, как экспортировать файлы Excel в формат PNG с помощью Aspose.Cells, следуя полному пошаговому руководству.
+### [Как конвертировать XLSX в PNG – Полное руководство C#](./how-to-convert-xlsx-to-png-complete-c-guide/)
+Узнайте, как преобразовать файлы XLSX в PNG с помощью Aspose.Cells в C#, следуя пошаговому руководству.
+### [Как вставить специальные символы в Excel – пошаговое руководство](./how-to-insert-special-characters-in-excel-step-by-step-guide/)
+Узнайте, как вставлять специальные символы в Excel с помощью Aspose.Cells в .NET, следуя пошаговому руководству.
+### [Сохранение PNG‑изображения из сводной таблицы Excel в C# – Полное руководство](./save-image-png-from-excel-pivot-table-in-c-complete-guide/)
+Узнайте, как экспортировать диаграммы сводных таблиц Excel в PNG‑изображения с помощью Aspose.Cells в C#.
+### [Встраивание шрифтов в HTML – Полное руководство по конвертации DOCX в HTML с полной поддержкой шрифтов](./embed-fonts-in-html-complete-guide-to-converting-docx-to-htm/)
+Узнайте, как встраивать шрифты при конвертации DOCX в HTML с помощью Aspose.Words, обеспечивая полную поддержку шрифтов в веб‑контенте.
+### [Как внедрить шрифты в HTML из DOCX – Полное руководство](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
+Узнайте, как внедрить шрифты из DOCX в HTML с помощью Aspose.Words, следуя нашему полному руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

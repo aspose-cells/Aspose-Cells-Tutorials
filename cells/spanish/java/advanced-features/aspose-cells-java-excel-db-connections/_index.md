@@ -16,21 +16,14 @@ url: /es/java/advanced-features/aspose-cells-java-excel-db-connections/
 weight: 1
 ---
 
-Now close shortcodes.
 
-We must keep the final shortcodes as is.
 
-Now produce final content.
 
-Check we didn't translate any code block placeholders.
 
-Check we didn't translate URLs.
 
-We changed link text for official site and documentation.
 
-All good.
 
-Now output only translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
