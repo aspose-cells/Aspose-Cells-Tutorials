@@ -64,6 +64,8 @@ Leer hoe u Excel-bestandsgeneratie kunt automatiseren met Aspose.Cells voor Java
 
 ### [Hoe SmartMarkerProcessor te gebruiken voor dynamische bladnaamgeving](./how-to-use-smartmarkerprocessor-for-dynamic-sheet-naming/)
 Leer hoe u met SmartMarkerProcessor dynamische werkbladnamen kunt instellen in Excel-bestanden met Aspose.Cells voor Java.
+### [Hoe dynamische werkbladnamen te genereren in Excel met Java](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
+Leer hoe u dynamische werkbladnamen kunt maken in Excel-bestanden met Aspose.Cells voor Java, inclusief voorbeeldcode en best practices.
 
 ### [Master Aspose.Cells Java: Uitgebreide handleiding voor werkmap- en werkbladbeheer](./aspose-cells-java-workbook-worksheet-guide/)
 Leer hoe u Excel-werkmappen beheert met Aspose.Cells voor Java. Deze handleiding behandelt het maken van werkmappen, toegang tot werkbladen, pagina-instellingen, afdruktitels en meer.

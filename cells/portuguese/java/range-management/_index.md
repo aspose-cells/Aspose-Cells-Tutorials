@@ -35,6 +35,9 @@ Aprenda a converter valores de enumeração em strings com o Aspose.Cells para J
 ### [Aspose.Cells Java: Crie e gerencie intervalos nomeados em arquivos do Excel](./aspose-cells-java-manage-named-ranges/)
 Aprenda a criar, gerenciar e manipular intervalos nomeados usando Aspose.Cells para Java. Este tutorial guia você na configuração do seu ambiente e no domínio dos principais recursos com exemplos de código.
 
+### [Criar um intervalo nomeado e detectar nome duplicado no Excel usando Aspose.Cells para Java](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Aprenda a criar intervalos nomeados e a detectar nomes duplicados em planilhas Excel usando Aspose.Cells para Java.
+
 ### [Acesse o intervalo máximo de exibição em pastas de trabalho do Excel usando Aspose.Cells Java](./aspose-cells-java-max-display-range/)
 Aprenda a acessar o intervalo máximo de exibição de uma planilha no Excel usando o Aspose.Cells para Java. Domine esse recurso com nosso guia passo a passo.
 

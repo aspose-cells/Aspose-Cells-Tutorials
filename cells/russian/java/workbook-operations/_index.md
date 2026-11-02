@@ -516,6 +516,8 @@
 
 ### [Использование Lambda-функции Java для создания примера рабочей книги Excel](./use-lambda-function-java-to-create-excel-workbook-example/)
 ### [Создание рабочей книги Excel с пользовательскими свойствами в Java — пошаговое руководство](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+### [Как получить пользовательское свойство Java с помощью Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)
+Узнайте, как получить пользовательское свойство из книги Excel с помощью Aspose.Cells для Java.
 
 ## Дополнительные ресурсы
 

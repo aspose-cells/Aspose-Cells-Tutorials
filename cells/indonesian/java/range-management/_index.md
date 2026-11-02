@@ -37,6 +37,8 @@ Pelajari cara membuat, mengelola, dan memanipulasi rentang bernama menggunakan A
 
 ### [Menetapkan Nama ke Sel di Excel Menggunakan Java – Panduan Lengkap](./assign-name-to-cell-in-excel-using-java-complete-guide/)
 Pelajari cara menetapkan nama pada sel di Excel dengan Java menggunakan Aspose.Cells dalam panduan lengkap ini.
+### [Buat rentang bernama dan deteksi nama duplikat di Excel](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Mendeteksi dan menangani nama rentang duplikat dalam file Excel.
 
 ### [Mengakses Rentang Tampilan Maksimum di Buku Kerja Excel menggunakan Aspose.Cells Java](./aspose-cells-java-max-display-range/)
 Pelajari cara mengakses rentang tampilan maksimum lembar kerja di Excel menggunakan Aspose.Cells untuk Java. Kuasai fitur ini dengan panduan langkah demi langkah kami.

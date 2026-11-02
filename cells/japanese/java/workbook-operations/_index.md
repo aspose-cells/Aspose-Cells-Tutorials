@@ -80,9 +80,6 @@ Aspose.Cells for Java を使用して Excel ファイルを変換するときに
 ### [Java を使用して Excel にカスタム プロパティを追加する方法 – 完全ガイド](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
 Aspose.Cells for Java を使用して、Excel ファイルにカスタム プロパティを追加し、管理する方法を学びます。
 
-### [Aspose.Cells for Java を使用して HTML を Excel に正確に変換する](./aspose-cells-java-html-to-excel-precision/)
-Aspose.Cells for Javaを使って、複雑なHTMLファイルをExcelファイルへ正確に変換する方法を習得しましょう。設定、読み込み方法、保存方法を学びましょう。
-
 ### [Aspose.Cells Java: Excel ファイルの HTML 変換時に画像の設定を行う方法](./aspose-cells-java-image-preferences-html-conversion-guide/)
 Aspose.Cells for Java を使用してHTML変換時に画像の設定を行う方法を学びます。このガイドでは、複雑なExcelファイルを変換する際に高品質な画像表示を実現します。
 
@@ -369,8 +366,8 @@ Aspose.Cells for Java を使用して Excel XLSB ファイルを管理する方�
 ### [Aspose.Cells for Java を使用して Excel のカスタム プロパティを PDF にエクスポートする方法](./export-excel-custom-properties-pdf-aspose-cells-java/)
 Aspose.Cells for Java を使用して、Excel ブックのカスタムプロパティを PDF にエクスポートする方法を学びましょう。このステップバイステップガイドで、データ管理を効率化しましょう。
 
-### [Aspose.Cells Java を使用して Excel を HTML にエクスポートする: ステップバイステップ ガイド](./export-excel-html-aspose-cells-java/)
-Aspose.Cells for Java を使用して、Excel ファイルを HTML としてシームレスにエクスポートする方法を学びます。このガイドでは、ワークブックの読み込み、カスタム ストリーム プロバイダー、そしてワークブックの簡単な保存方法について説明します。
+### [Aspose.Cells for Java を使用して HTML を Excel に正確に変換する](./aspose-cells-java-html-to-excel-precision/)
+Aspose.Cells for Javaを使って、複雑なHTMLファイルをExcelファイルへ正確に変換する方法を習得しましょう。設定、読み込み方法、保存方法を学びましょう。
 
 ### [IStreamProvider と Aspose.Cells for Java を使用して Excel を HTML にエクスポートする: 包括的なガイド](./export-excel-html-streamprovider-aspose-cells-java/)
 Aspose.CellsのIStreamProviderインターフェースを使用して、JavaでExcelファイルをHTMLに効率的にエクスポートする方法を学びましょう。このガイドでは、セットアップ、構成、そして実践的な応用例を解説します。
@@ -523,6 +520,11 @@ Aspose.Cells for Java を使用して、Excel ファイルを作成し保存す�
 Javaでカスタムプロパティを設定したExcelワークブックの作成方法を学びます。
 ### [Aspose.Cells for Java を使用してカスタム プロパティ付き xlsb ファイルを保存する方法](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
 Aspose.Cells for Java でカスタム プロパティを設定した xlsb ファイルを保存する手順を解説します。
+### [Aspose.Cells for Java を使用して カスタム プロパティを取得する方法](./how-to-get-custom-property-java-using-aspose-cells/)
+Aspose.Cells for Java を使用して、Excel のカスタム プロパティを取得する方法を学びます。このステップバイステップガイドで、プロパティの取得と活用をマスターしましょう。
+
+### [Aspose.Cells Java を使用して Excel を HTML にエクスポートする: ステップバイステップ ガイド](./export-excel-html-aspose-cells-java/)
+Aspose.Cells for Java を使用して、Excel ファイルを HTML としてシームレスにエクスポートする方法を学びます。このガイドでは、ワークブックの読み込み、カスタム ストリーム プロバイダー、そしてワークブックの簡単な保存方法について説明します。
 
 ## 追加リソース
 

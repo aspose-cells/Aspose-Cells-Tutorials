@@ -458,7 +458,7 @@ Aspose.Words Java에 대한 코드 튜토리얼
 Aspose.Cells for Java를 사용하여 XLSX 파일을 열고 파일 이름을 검색하여 Excel 파일을 효율적으로 처리하는 방법을 알아보세요. 지금 바로 스프레드시트 작업을 간소화하세요.
 
 ### [Aspose.Cells for Java를 사용하여 TSV 파일을 여는 방법(단계별 가이드)](./open-tsv-files-aspose-cells-java/)
-이 포괄적인 가이드를 통해 Aspose.Cells를 사용하여 Java에서 TSV 파일을 열고 조작하는 방법을 알아보세요. 설정, 구현, 실제 응용 프로그램 등이 다루어집니다.
+이 포괄적인 가이드를 통해 Aspose.Cells를 사용하여 Java에서 TSV 파일를 열고 조작하는 방법을 알아보세요. 설정, 구현, 실제 응용 프로그램 등이 다루어집니다.
 
 ### [Aspose.Cells Java에서 숨겨진 워크시트 내보내기를 방지하는 방법: 완전한 가이드](./prevent-export-hidden-worksheets-aspose-cells-java/)
 Java에서 Aspose.Cells를 구성하여 내보내기 중에 숨겨진 워크시트를 건너뛰고 깔끔하고 간결한 데이터 출력을 보장하는 방법을 알아보세요.
@@ -516,6 +516,7 @@ Java를 사용해 Excel 파일을 생성하고 저장하는 방법을 단계별�
 ### [Aspose.Cells for Java를 사용하여 사용자 지정 속성으로 Excel 통합 문서 만들기 – 단계별 가이드](./create-excel-workbook-with-custom-properties-in-java-step-by/)
 Aspose.Cells for Java를 사용하여 사용자 지정 속성을 포함한 Excel 통합 문서를 생성하고 저장하는 방법을 단계별로 안내합니다.
 
+### [Aspose.Cells를 사용하여 Java에서 사용자 지정 속성 가져오기](./how-to-get-custom-property-java-using-aspose-cells/)
 
 ## 추가 자료
 

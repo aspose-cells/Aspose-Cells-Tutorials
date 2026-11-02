@@ -114,6 +114,7 @@ Apprenez à supprimer le filtre automatique d'une feuille Excel à l'aide d'Aspo
 Apprenez à dupliquer des feuilles de détail dans un classeur Excel en utilisant Aspose.Cells pour Java.
 ### [Créer des feuilles de calcul à partir d'une liste avec Aspose.Cells Java – Guide complet](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
 Apprenez à créer plusieurs feuilles de calcul à partir d'une liste d'objets en Java avec Aspose.Cells, étape par étape.
+### [Comment générer des noms de feuilles dynamiques dans Excel avec Java](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
 
 ## Ressources supplémentaires
 

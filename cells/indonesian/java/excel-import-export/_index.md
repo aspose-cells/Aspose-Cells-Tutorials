@@ -43,6 +43,10 @@ Pelajari cara mengekspor data ke CSV dengan mengatur digit signifikan dan rentan
 Pelajari cara mengekspor file Excel ke format CSV dengan panduan langkah demi langkah dan contoh kode sumber praktis.
 ### [Cara Mengekspor CSV dari Sel Excel – Panduan Lengkap](./how-to-export-csv-from-excel-cells-complete-guide/)
 Pelajari cara mengekspor data ke format CSV dari sel Excel menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan contoh kode.
+### [Cara Mengekspor Lembar Kerja ke CSV dengan Presisi di Java](./how-to-export-worksheet-to-csv-with-precision-in-java/)
+Pelajari cara mengekspor lembar kerja ke format CSV dengan presisi tinggi menggunakan Aspose.Cells untuk Java.
+### [Simpan workbook sebagai CSV menggunakan Aspose.Cells untuk Java – panduan langkah demi langkah](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
+Pelajari cara menyimpan workbook sebagai file CSV menggunakan Aspose.Cells untuk Java dengan panduan langkah demi langkah.
 ### [Mengekspor Excel ke PDF](./exporting-excel-to-pdf/)
 Pelajari cara mengekspor file Excel ke PDF dengan mudah menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah kami menyederhanakan prosesnya. Mulailah mengonversi hari ini!
 ### [Mengonversi Excel ke PDF – Panduan Lengkap Java dengan Aspose.Cells](./convert-excel-to-pdf-complete-java-guide-with-aspose-cells/)
@@ -181,6 +185,10 @@ Pelajari cara menentukan area cetak pada file Excel dan mengekspornya ke PowerPo
 ### [Cara mengekspor Excel ke TXT dengan Aspose.Cells dan mengontrol presisi desimal](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
 ### [Cara Mengekspor Excel ke PowerPoint dengan Java](./how-to-export-excel-to-powerpoint-with-java/)
 Pelajari cara mengekspor file Excel ke presentasi PowerPoint menggunakan Aspose.Cells untuk Java dalam panduan langkah demi langkah.
+### [Cara Mengekspor Lembar Excel ke PowerPoint dengan Aspose.Cells di Java](./how-to-export-excel-sheet-to-powerpoint-with-aspose-cells-in/)
+Pelajari cara mengekspor lembar kerja Excel ke presentasi PowerPoint menggunakan Aspose.Cells untuk Java dengan contoh kode langkah demi langkah.
+### [Cara Mengonversi JSON ke Excel dan Mengisi Excel dari JSON menggunakan Aspose.Cells](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
+Pelajari cara mengonversi data JSON menjadi file Excel dan mengisi workbook Excel dari JSON menggunakan Aspose.Cells untuk Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

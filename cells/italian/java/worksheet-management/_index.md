@@ -116,6 +116,8 @@ Impara a generare più fogli di lavoro in un file Excel usando Aspose.Cells per 
 Scopri come rimuovere l'autofiltro da un foglio Excel usando Aspose.Cells per Java.
 ### [Come creare fogli di dettaglio duplicati in Aspose.Cells per Java](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
 Scopri come creare fogli di dettaglio duplicati in Excel utilizzando Aspose.Cells per Java.
+### [Come generare nomi di fogli dinamici in Excel con Java](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
+Scopri come creare nomi di fogli di lavoro dinamici in Excel utilizzando Aspose.Cells per Java, con esempi di codice e best practice.
 
 ## Risorse aggiuntive
 

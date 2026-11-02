@@ -93,6 +93,8 @@
 ### [Αντιγραφή εύρους μεταξύ βιβλίων εργασίας σε Java – οδηγός βήμα προς βήμα](./copy-range-between-workbooks-in-java-step-by-step-guide/)
 ### [Δημιουργία νέου φύλλου εργασίας και αντιγραφή εύρους Excel με το Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
 Μάθετε πώς να δημιουργείτε νέο φύλλο εργασίας και να αντιγράφετε εύρος Excel χρησιμοποιώντας το Aspose.Cells για Java.
+### [Δημιουργία ονομασμένης περιοχής και ανίχνευση διπλότυπου ονόματος στο Excel](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Μάθετε πώς να δημιουργήσετε ονομασμένη περιοχή και να εντοπίσετε διπλότυπα ονόματα χρησιμοποιώντας Aspose.Cells για Java.
 
 ## Πρόσθετοι Πόροι
 

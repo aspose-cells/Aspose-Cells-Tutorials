@@ -115,6 +115,7 @@
 Μάθετε πώς να αφαιρέσετε το Autofilter από ένα φύλλο Excel χρησιμοποιώντας το Aspose.Cells για Java.
 ### [Δημιουργία φύλλων εργασίας από λίστα με Aspose.Cells Java – Πλήρης Οδηγός](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
 Μάθετε πώς να δημιουργείτε πολλά φύλλα εργασίας από λίστα δεδομένων χρησιμοποιώντας το Aspose.Cells για Java, με πλήρη παραδείγματα κώδικα.
+### [Πώς να δημιουργήσετε δυναμικά ονόματα φύλλων στο Excel με Java](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
 
 ## Πρόσθετοι Πόροι
 

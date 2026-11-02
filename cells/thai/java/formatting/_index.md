@@ -258,6 +258,8 @@
 เรียนรู้วิธีใช้ฟังก์ชัน WRAPCOLS ใน Aspose.Cells สำหรับ Java เพื่อจัดรูปแบบเซลล์อัตโนมัติ พร้อมตัวอย่างโค้ดที่ทำตามได้ง่าย
 ### [วิธีสร้างสมุดงาน Excel ด้วยรูปแบบสกุลเงินและตัวหนาใน Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 เรียนรู้วิธีสร้างไฟล์ Excel พร้อมรูปแบบสกุลเงินและตัวอักษรหนาโดยใช้ Aspose.Cells สำหรับ Java
+### [สร้างสมุดงาน Excel ด้วย Java และกำหนดรูปแบบตัวเลขของคอลัมน์](./create-excel-workbook-java-and-apply-column-number-formats/)
+เรียนรู้วิธีสร้างไฟล์ Excel ด้วย Java และกำหนดรูปแบบตัวเลขของคอลัมน์โดยใช้ Aspose.Cells
 
 ## แหล่งข้อมูลเพิ่มเติม
 

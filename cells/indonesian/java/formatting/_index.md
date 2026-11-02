@@ -137,7 +137,7 @@ Pelajari cara membuat, menata, dan mengelola berkas Excel dan ODS secara terprog
 Pelajari cara memastikan tampilan buku kerja Excel yang konsisten dengan font khusus menggunakan Aspose.Cells untuk Java. Panduan ini mencakup pengaturan, konfigurasi, dan aplikasi praktis.
 
 ### [Menguasai Warna Tema Kustom di Aspose.Cells Java: Panduan Lengkap](./custom-theme-colors-aspose-cells-java/)
-Pelajari cara menyempurnakan laporan Excel dengan warna tema khusus menggunakan Aspose.Cells untuk Java. Ikuti panduan lengkap ini untuk menerapkan skema warna yang disesuaikan secara efektif.
+Pelajari cara menyempurnakan laporan Excel dengan warna tema khusus menggunakan Aspose.Cells Java. Ikuti panduan lengkap ini untuk menerapkan skema warna yang disesuaikan secara efektif.
 
 ### [Menyesuaikan Warna Buku Kerja dengan Aspose.Cells Java](./customize-workbook-colors-aspose-cells-java/)
 Tutorial kode untuk Aspose.Words Java
@@ -258,6 +258,8 @@ Pelajari cara membuat workbook Excel dengan gaya profesional menggunakan Aspose.
 ### [Cara Menggunakan WRAPCOLS di Aspose.Cells – Contoh Java Lengkap](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 Pelajari cara menggunakan WRAPCOLS di Aspose.Cells dengan contoh Java lengkap untuk mengontrol lebar kolom secara otomatis.
 ### [Cara Membuat Buku Kerja Excel dengan Format Mata Uang dan Font Tebal di Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+### [Buat Buku Kerja Excel dengan Java dan Terapkan Format Angka Kolom](./create-excel-workbook-java-and-apply-column-number-formats/)
+Pelajari cara membuat buku kerja Excel dengan Java dan menerapkan format angka pada kolom secara terprogram.
 
 ## Sumber Daya Tambahan
 

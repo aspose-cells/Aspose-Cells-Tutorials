@@ -114,6 +114,8 @@ Learn how to effortlessly unhide rows and columns in Excel files using Aspose.Ce
 Learn how to create multiple Excel sheets using Aspose.Cells for Java with a template-based approach for efficient workbook generation.
 ### [Create worksheets from list with Aspose.Cells Java – Full Guide](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
 Learn how to create multiple worksheets from a list in Excel using Aspose.Cells for Java, with step-by-step code examples.
+### [How to generate dynamic sheet names in Excel with Java](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
+Learn how to programmatically generate dynamic worksheet names in Excel using Aspose.Cells for Java, enhancing workbook organization and automation.
 
 ## Additional Resources
 

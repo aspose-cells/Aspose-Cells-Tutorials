@@ -45,6 +45,8 @@ Learn how to export XLSX files to CSV using Aspose.Cells for Java with a complet
 Learn how to export CSV from Excel cells using Aspose.Cells for Java. Follow this step‑by‑step guide with source code for seamless CSV export.
 ### [How to set delimiter and save as CSV with Aspose.Cells](./how-to-set-delimiter-and-save-as-csv-with-aspose-cells/)
 Learn how to set a custom delimiter and save files as CSV using Aspose.Cells for Java. Follow the step-by-step guide with source code.
+### [How to export worksheet to CSV with precision in Java](./how-to-export-worksheet-to-csv-with-precision-in-java/)
+Learn how to export a worksheet to CSV with precision using Aspose.Cells for Java.
 ### [Exporting Excel to PDF](./exporting-excel-to-pdf/)
 ### [How to Create PDF from a Workbook – Complete Java Guide](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
 Learn how to generate PDF files from Excel workbooks using Aspose.Cells for Java with a complete step-by-step guide.
@@ -66,6 +68,8 @@ Learn how to export JSON data to Excel using Aspose.Cells for Java. Follow this 
 Learn how to convert JSON data into Excel files using Aspose.Cells for Java. Follow this step-by-step guide with source code.
 ### [Insert JSON into Excel with Aspose Cells – Full Java Guide](./insert-json-into-excel-with-aspose-cells-full-java-guide/)
 Learn how to insert JSON data into Excel workbooks using Aspose.Cells for Java. Step-by-step guide with source code for seamless integration.
+### [How to convert JSON to Excel and populate Excel from JSON using Aspose.Cells](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
+Learn how to convert JSON data to Excel and populate worksheets using Aspose.Cells for Java in this step-by-step guide.
 ### [Excel Import Data Validation](./excel-import-data-validation/)
 Learn how to implement Excel import data validation using Aspose.Cells for Java with this comprehensive step-by-step guide. Ensure data accuracy and enhance user experience. 
 ### [How to import list to Excel and style columns in Java](./how-to-import-list-to-excel-and-style-columns-in-java/)
@@ -169,6 +173,10 @@ Learn how to set a print area in Excel and export the worksheet to PowerPoint us
 Learn how to convert JSON data to Excel using Aspose Smart Markers in Java with clear, step-by-step code examples.
 ### [How to export Excel to PowerPoint with Java](./how-to-export-excel-to-powerpoint-with-java/)
 Learn how to export Excel files to PowerPoint using Aspose.Cells for Java. Step-by-step guide with source code for seamless conversion.
+### [How to export Excel sheet to PowerPoint with Aspose.Cells in Java](./how-to-export-excel-sheet-to-powerpoint-with-aspose-cells-in/)
+Learn how to export an Excel worksheet to PowerPoint using Aspose.Cells for Java in this step-by-step guide.
+### [Save workbook as CSV using Aspose.Cells for Java – step‑by‑step guide](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
+Learn how to save an Excel workbook as CSV using Aspose.Cells for Java with a detailed step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

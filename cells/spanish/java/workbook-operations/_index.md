@@ -515,6 +515,8 @@ Aprenda a agregar una propiedad personalizada a un libro de Excel, obtener su va
 Aprenda a crear un archivo Excel, añadir una propiedad personalizada y guardarlo en formato XLSB usando Aspose.Cells para Java.
 ### [Usar función Lambda en Java para crear un libro de Excel: ejemplo](./use-lambda-function-java-to-create-excel-workbook-example/)
 Aprenda a utilizar funciones Lambda en Java para crear y guardar libros de Excel de forma sencilla con Aspose.Cells.
+### [Cómo obtener una propiedad personalizada en Java usando Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)
+Aprenda a recuperar propiedades personalizadas de un libro de Excel con Aspose.Cells para Java.
 
 ## Recursos adicionales
 

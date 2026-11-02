@@ -107,6 +107,9 @@ Pelajari cara mengambil ID unik lembar kerja secara efisien menggunakan Aspose.C
 ### [Mengatur Nama Tab Lembar Tunggal dalam HTML dengan Aspose.Cells Java](./set-single-sheet-tab-name-html-aspose-cells-java/)
 Tutorial kode untuk Aspose.Words Java
 
+### [Cara menghasilkan nama lembar dinamis di Excel dengan Java](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
+Pelajari cara membuat nama lembar kerja secara dinamis di Excel menggunakan Aspose.Cells untuk Java.
+
 ### [Menampilkan Baris & Kolom di Excel Menggunakan Aspose.Cells Java: Panduan Langkah demi Langkah](./unhide-rows-columns-excel-aspose-cells-java/)
 Pelajari cara mudah untuk menampilkan kembali baris dan kolom dalam file Excel menggunakan Aspose.Cells untuk Java. Otomatiskan pengelolaan data dengan panduan lengkap ini.
 

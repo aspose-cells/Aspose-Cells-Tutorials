@@ -64,6 +64,8 @@ Learn how to automate text replacements in Excel files using regex with Aspose.C
 
 ### [How to split columns in Java with Aspose.Cells – step‑by‑step guide](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
 Learn how to split column data into multiple columns in Excel using Aspose.Cells for Java with a clear step‑by‑step guide.
+### [How to remove autofilter from Excel with Aspose.Cells Java](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
+Learn how to remove an autofilter from an Excel worksheet using Aspose.Cells for Java.
 
 ## Additional Resources
 

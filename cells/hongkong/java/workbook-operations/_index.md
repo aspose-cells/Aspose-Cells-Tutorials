@@ -516,6 +516,8 @@ Aspose.Words Java 程式碼教程
 
 ### [建立 Excel 工作簿 Java：處理日本元號日期](./create-excel-workbook-java-handle-japanese-era-dates/)
 了解如何在 Java 中使用 Aspose.Cells 處理日本元號日期並建立 Excel 工作簿。
+### [如何使用 Aspose.Cells for Java 取得自訂屬性（Java）](./how-to-get-custom-property-java-using-aspose-cells/)
+了解如何使用 Aspose.Cells for Java 取得 Excel 工作簿的自訂屬性並在程式中存取它們。
 
 ## 其他資源
 

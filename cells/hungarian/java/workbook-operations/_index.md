@@ -358,6 +358,8 @@ Ismerje meg, hogyan exportálhat egyéni tulajdonságokat egy Excel-munkafüzetb
 Ismerje meg, hogyan adhat hozzá egyéni tulajdonságot Excel-fájlhoz Java-val, lekérheti az értékét és mentheti XLSB formátumban.
 ### [Egyéni tulajdonság hozzáadása Excelben Java használatával – Teljes útmutató](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
 Ismerje meg, hogyan adhat hozzá egyéni tulajdonságokat Excel-fájlokhoz Java és Aspose.Cells segítségével.
+### [Hogyan lehet lekérni egyéni tulajdonságot Java-ban az Aspose.Cells használatával](./how-to-get-custom-property-java-using-aspose-cells/)
+Ismerje meg, hogyan kérhet le egyéni tulajdonságot egy Excel-munkafüzetből Java-ban az Aspose.Cells segítségével.
 
 ### [Excel exportálása HTML-be Aspose.Cells Java használatával: lépésről lépésre útmutató](./export-excel-html-aspose-cells-java/)
 Ismerje meg, hogyan exportálhat zökkenőmentesen Excel-fájlokat HTML-ként az Aspose.Cells for Java használatával. Ez az útmutató a munkafüzetek betöltését, az egyéni adatfolyam-szolgáltatókat és a munkafüzetek egyszerű mentését ismerteti.

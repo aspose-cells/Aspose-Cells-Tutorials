@@ -519,6 +519,9 @@ Learn how to create an Excel workbook and add custom document properties using A
 ### [How to Set Excel Document Version Using Aspose.Cells for Java](./set-excel-version-aspose-cells-java/)
 Learn how to set and manage document properties like versioning in Excel files using Aspose.Cells for Java. Follow this step-by-step guide for efficient workbook operations.
 
+### [How to Get Custom Property Java Using Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)
+Learn how to retrieve custom document properties from Excel workbooks using Aspose.Cells for Java.
+
 ## Additional Resources
 
 - [Aspose.Cells for Java Documentation](https://docs.aspose.com/cells/java/)

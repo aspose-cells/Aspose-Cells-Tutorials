@@ -258,6 +258,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java Zahlenformate in Excel festlege
 Erfahren Sie, wie Sie mit Aspose.Cells für Java die WRAPCOLS-Funktion nutzen, um Zelleninhalt automatisch umzubrechen.
 ### [Zahlenformat in Excel mit Java anwenden – Vollständige Aspose.Cells-Anleitung](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Zahlenformate in Excel anwenden und anpassen, um professionelle Berichte zu erstellen.
+### [Excel-Arbeitsmappe in Java erstellen und Spaltenzahlenformate anwenden](./create-excel-workbook-java-and-apply-column-number-formats/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java eine neue Arbeitsmappe erzeugen und gezielt Zahlenformate für Spalten festlegen.
 
 ## Weitere Ressourcen
 

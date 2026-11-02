@@ -45,6 +45,10 @@ Aspose.Cells for Java を使用して、Excel を CSV にエクスポートす�
 Aspose.Cells for Java を使用して、XLSX ファイルを CSV 形式に変換する手順をステップバイステップで解説します。実用的なコード例で学べます。
 ### [Javaで選択したセルをCSVにエクスポートする完全ガイド](./export-selected-cells-to-csv-in-java-complete-guide/)
 Aspose.Cells for Java を使用して、選択したセルを CSV 形式でエクスポートする方法をステップバイステップで学びましょう。
+### [Javaでワークシートを精度付きCSVにエクスポートする方法](./how-to-export-worksheet-to-csv-with-precision-in-java/)
+Aspose.Cells for Java を使用し、ワークシートをCSV形式でエクスポートする際に有効数字や精度を設定する方法を学びます。
+### [Aspose.Cells for Java を使用してワークブックを CSV に保存する – ステップバイステップ ガイド](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
+Aspose.Cells for Java を使い、ワークブックを CSV 形式で保存する手順をステップバイステップで解説します。
 ### [Excel から PDF へのエクスポート](./exporting-excel-to-pdf/)
 Aspose.Cells for Javaを使って、ExcelファイルをPDFに簡単にエクスポートする方法を学びましょう。ステップバイステップガイドで手順を分かりやすく解説します。今すぐ変換を始めましょう！
 ### [ワークブックからPDFを作成する方法 – 完全Javaガイド](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
@@ -178,6 +182,10 @@ Aspose.Smart Markers を使用して JSON データを Excel に変換する手�
 ### [Excel を TXT にエクスポートし、小数点精度を制御する方法](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
 Aspose.Cellsを使用して、ExcelをTXT形式にエクスポートし、小数点の精度を自在に設定する方法を学びます。
 ### [JavaでExcelをPowerPointにエクスポートする方法](./how-to-export-excel-to-powerpoint-with-java/)
+### [Aspose.CellsでJavaのExcelシートをPowerPointにエクスポートする方法](./how-to-export-excel-sheet-to-powerpoint-with-aspose-cells-in/)
+Aspose.Cells for Java を使い、Excel シートを PowerPoint スライドに変換する手順をステップバイステップで解説します。
+### [Aspose.Cells を使用して JSON を Excel に変換し、Excel にデータを入力する方法](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
+JSON データを Excel に変換し、Aspose.Cells でシートにデータを埋め込む手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -164,6 +164,14 @@ Erfahren Sie, wie Sie mit Aspose Smart Markers JSON-Daten in Excel-Tabellen in J
 Erfahren Sie, wie Sie in Excel den Druckbereich festlegen und die Arbeitsmappe nach PowerPoint exportieren.
 ### [Wie man Excel nach TXT exportiert mit Aspose.Cells und Dezimalpräzision steuert](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
 Erfahren Sie, wie Sie mit Aspose.Cells Excel-Daten in das TXT-Format exportieren und die Dezimalstellenpräzision steuern.
+### [Wie man ein Excel‑Blatt mit Aspose.Cells in Java nach PowerPoint exportiert](./how-to-export-excel-sheet-to-powerpoint-with-aspose-cells-in/)
+Erfahren Sie, wie Sie Excel‑Daten mit Aspose.Cells für Java in PowerPoint‑Präsentationen exportieren.
+### [Wie man JSON in Excel konvertiert und Excel aus JSON befüllt mit Aspose.Cells](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
+Erfahren Sie, wie Sie JSON-Daten mit Aspose.Cells in Excel umwandeln und Arbeitsblätter automatisch füllen.
+### [Wie man ein Arbeitsblatt mit Präzision nach CSV exportiert – Java](./how-to-export-worksheet-to-csv-with-precision-in-java/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java ein Arbeitsblatt präzise als CSV exportieren, inklusive Einstellung signifikanter Stellen.
+### [Arbeitsmappe als CSV speichern mit Aspose.Cells für Java – Schritt‑für‑Schritt‑Anleitung](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Arbeitsmappe im CSV-Format speichern – detaillierte Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

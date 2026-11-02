@@ -164,6 +164,12 @@ Aspose 스마트 마커를 활용해 JSON 데이터를 Java에서 Excel 파일�
 ### [Excel을 TXT로 내보내고 소수점 정밀도 제어하기](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
 ### [Java로 Excel을 PowerPoint로 내보내는 방법](./how-to-export-excel-to-powerpoint-with-java/)
 Aspose.Cells for Java를 사용하여 Excel 파일을 PowerPoint 프레젠테이션으로 변환하는 방법을 단계별로 안내합니다.
+### [Java에서 워크시트를 정밀하게 CSV로 내보내는 방법](./how-to-export-worksheet-to-csv-with-precision-in-java/)
+### [Java에서 Aspose.Cells를 사용해 Excel 시트를 PowerPoint로 내보내는 방법](./how-to-export-excel-sheet-to-powerpoint-with-aspose-cells-in/)
+### [Aspose.Cells를 사용하여 JSON을 Excel로 변환하고 JSON으로 Excel을 채우는 방법](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
+Aspose.Cells for Java를 활용해 JSON 데이터를 Excel 파일로 변환하고, JSON을 사용해 Excel 워크시트를 채우는 단계별 가이드입니다.
+### [Aspose.Cells for Java를 사용하여 워크북을 CSV로 저장하기 – 단계별 가이드](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
+Aspose.Cells for Java를 활용해 워크북을 CSV 파일로 변환하고 저장하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -253,6 +253,8 @@ Ismerd meg, hogyan alkalmazhatod a WRAPCOLS funkciót az Aspose.Cells Java köny
 ### [Számformátum alkalmazása Excelben Java-ban – Teljes Aspose.Cells útmutató](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
 ### [Excel munkafüzet létrehozása pénznemformátummal és félkövér betűtípussal Java-ban](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet pénznemformátummal és félkövér betűtípussal Java-ban az Aspose.Cells segítségével.
+### [Excel munkafüzet létrehozása Java-ban és oszlopszám formátumok alkalmazása](./create-excel-workbook-java-and-apply-column-number-formats/)
+Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet Java-ban és alkalmazhatsz oszlopszám formátumokat.
 
 ## További források
 

@@ -257,6 +257,7 @@ Lär dig hur du använder Aspose.Cells för Java för att definiera och tillämp
 Lär dig hur du använder WRAPCOLS-funktionen i Aspose.Cells för Java för att automatiskt anpassa kolumnbredd baserat på cellinnehåll.
 ### [Hur man skapar Excel-arbetsbok med valutaformat och fet stil i Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 Lär dig hur du skapar en Excel-arbetsbok med valutaformat och fet text i Java.
+### [Skapa Excel-arbetsbok i Java och tillämpa kolumnnummerformat](./create-excel-workbook-java-and-apply-column-number-formats/)
 
 ## Ytterligare resurser
 

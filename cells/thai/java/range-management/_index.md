@@ -92,6 +92,8 @@
 เรียนรู้วิธีสร้างแผ่นงานใหม่และคัดลอกช่วงข้อมูลใน Excel ด้วย Aspose.Cells สำหรับ Java อย่างง่ายดาย
 ### [วิธีคัดลอกช่วงใน Java ด้วย Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
 เรียนรู้วิธีคัดลอกช่วงของเซลล์ใน Excel ด้วย Aspose.Cells สำหรับ Java อย่างง่ายและมีประสิทธิภาพ
+### [สร้างช่วงที่ตั้งชื่อและตรวจจับชื่อซ้ำใน Excel](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+เรียนรู้วิธีสร้างช่วงที่ตั้งชื่อใน Excel และตรวจจับชื่อที่ซ้ำกันด้วย Aspose.Cells สำหรับ Java
 
 ## แหล่งข้อมูลเพิ่มเติม
 

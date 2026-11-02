@@ -514,6 +514,7 @@ Lär dig hur du skapar en arbetsbok med japansk kalender i Java med Aspose.Cells
 Lär dig hur du lägger till anpassade egenskaper i Excel-filer med Aspose.Cells för Java i en komplett steg-för-steg-guide.
 ### [Hur man sparar xlsb-filer med anpassade egenskaper med Aspose.Cells för Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
 Lär dig hur du sparar XLSB-filer med anpassade egenskaper med Aspose.Cells för Java.
+### [Hur du hämtar anpassad egenskap i Java med Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)
 
 ## Ytterligare resurser
 

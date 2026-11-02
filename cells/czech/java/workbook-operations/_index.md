@@ -283,7 +283,7 @@ Naučte se, jak automatizovat úlohy v Excelu konfigurací stránek sešitu a li
 ### [Automatizace Excelu s Aspose.Cells v Javě: Vytváření hlavního sešitu a viditelnost sloupců/řádků](./excel-automation-aspose-cells-java-workbook-visibility/)
 Naučte se, jak automatizovat úlohy v Excelu pomocí Aspose.Cells pro Javu. Efektivně vytvářejte, upravujte sešity a řiďte viditelnost sloupců/řádků.
 
-### [Automatizace Excelu s Aspose.Cells: Načtení, uložení, nahrazení textu](./excel-automation-aspose-cells-load-save-text/)
+### [Automatizace Excelu s Aspose.Cells v Javě: Načtení, uložení, nahrazení textu](./excel-automation-aspose-cells-load-save-text/)
 Výukový program pro Aspose.Words v Javě
 
 ### [Automatizace Excelu s Aspose.Cells v Javě: Správa vlastností sešitu a efektivní ukládání souborů](./excel-automation-aspose-cells-manage-properties-save-files/)
@@ -516,6 +516,8 @@ Naučte se, jak pomocí Aspose.Cells v Javě vytvořit a uložit soubor Excel kr
 
 ### [Vytvoření excelového sešitu v Javě: práce s japonskými daty éry](./create-excel-workbook-java-handle-japanese-era-dates/)
 Naučte se, jak v Javě pomocí Aspose.Cells pracovat s japonskými daty er v Excelových sešitech.
+### [Jak získat vlastní vlastnost v Javě pomocí Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)
+Naučte se, jak získat vlastní vlastnost v souboru Excel pomocí Aspose.Cells pro Javu.
 
 ## Další zdroje
 

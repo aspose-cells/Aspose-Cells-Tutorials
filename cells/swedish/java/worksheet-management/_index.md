@@ -114,6 +114,8 @@ Lär dig hur du tar bort autofilter i en Excel-fil med Aspose.Cells för Java i 
 Lär dig hur du duplicerar detaljark i Excel-filer med Aspose.Cells för Java för effektiv datahantering.
 ### [Skapa kalkylblad från lista med Aspose.Cells Java – Fullständig guide](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
 Lär dig hur du skapar kalkylblad från en lista med Aspose.Cells för Java i en komplett guide.
+### [Hur man genererar dynamiska bladnamn i Excel med Java](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
+Lär dig hur du programatiskt skapar dynamiska bladnamn i Excel-filer med Aspose.Cells för Java.
 
 ## Ytterligare resurser
 

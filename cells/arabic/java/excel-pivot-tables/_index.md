@@ -61,6 +61,7 @@
 ### [نسخ جدول محوري في Java باستخدام Aspose.Cells – دليل كامل](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
 ### [نسخ جدول محوري في Java – دليل خطوة بخطوة باستخدام Aspose.Cells](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
 ### [كيفية نسخ جدول محوري في Aspose.Cells – نسخ النطاق إلى مصنف](./how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook/)
+### [كيفية نسخ جدول محوري في Java باستخدام Aspose.Cells](./how-to-copy-a-pivot-table-in-java-using-aspose-cells/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

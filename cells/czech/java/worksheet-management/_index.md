@@ -115,6 +115,8 @@ Naučte se, jak programově vytvořit duplicitní detailní listy v Excelu pomoc
 Naučte se, jak pomocí Aspose.Cells pro Javu vytvořit více pracovních listů ze seznamu dat.
 ### [Zmrazení prvních dvou řádků v Excelu pomocí Javy – Kompletní průvodce](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
 Naučte se, jak zmrazit první dva řádky v sešitu Excel pomocí Aspose.Cells pro Javu a zlepšit čitelnost tabulek.
+### [Jak generovat dynamické názvy listů v Excelu pomocí Javy](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
+Naučte se, jak programově vytvářet dynamické názvy listů v Excelu pomocí Aspose.Cells pro Javu.
 
 ## Další zdroje
 

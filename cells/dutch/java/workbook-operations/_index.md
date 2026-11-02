@@ -365,6 +365,8 @@ Leer hoe u een aangepaste eigenschap toevoegt aan een Excel-werkmap, de waarde o
 Leer hoe u aangepaste documenteigenschappen toevoegt aan een Excel-werkmap met Aspose.Cells voor Java.
 ### [Hoe xlsb-bestanden met aangepaste eigenschappen opslaan met Aspose.Cells voor Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
 Leer hoe u xlsb-bestanden kunt opslaan met aangepaste documenteigenschappen met Aspose.Cells voor Java.
+### [Hoe aangepaste eigenschap opvragen in Java met Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)
+Leer hoe u aangepaste eigenschappen van een Excel-werkmap kunt ophalen met Aspose.Cells voor Java.
 
 ### [Excel exporteren naar HTML met Aspose.Cells Java: een stapsgewijze handleiding](./export-excel-html-aspose-cells-java/)
 Leer hoe je Excel-bestanden naadloos exporteert als HTML met Aspose.Cells voor Java. Deze handleiding behandelt het laden van werkmappen, aangepaste streamproviders en het eenvoudig opslaan van werkmappen.

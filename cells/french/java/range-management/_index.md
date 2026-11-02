@@ -95,6 +95,8 @@ Apprenez à fusionner efficacement des cellules dans des fichiers Excel avec Asp
 Apprenez à copier une plage de cellules d'un classeur à un autre en Java avec Aspose.Cells.
 ### [Créer une nouvelle feuille de calcul et copier une plage Excel avec Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
 Apprenez à créer une nouvelle feuille de calcul et à copier une plage de cellules Excel à l'aide d'Aspose.Cells pour Java.
+### [Créer une plage nommée et détecter les noms en double dans Excel](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Apprenez à créer une plage nommée dans Excel et à détecter les noms en double à l'aide d'Aspose.Cells pour Java.
 
 ## Ressources supplémentaires
 

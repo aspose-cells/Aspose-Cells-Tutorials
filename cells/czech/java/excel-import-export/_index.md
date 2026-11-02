@@ -165,6 +165,13 @@ Naučte se, jak pomocí Aspose Smart Markers v Javě převést data z JSON do so
 Naučte se exportovat data z Excelu do formátu TXT a nastavit požadovanou přesnost desetinných čísel pomocí Aspose.Cells.
 ### [Jak exportovat Excel do PowerPointu pomocí Javy](./how-to-export-excel-to-powerpoint-with-java/)
 Naučte se, jak převést soubory Excel do PowerPointu pomocí Aspose.Cells pro Javu.
+### [Jak exportovat list Excelu do PowerPointu pomocí Aspose.Cells v Javě](./how-to-export-excel-sheet-to-powerpoint-with-aspose-cells-in/)
+Naučte se, jak exportovat list Excelu do PowerPointu pomocí Aspose.Cells v Javě. Praktický návod s ukázkovým kódem pro snadnou konverzi.
+### [Jak převést JSON do Excelu a naplnit Excel z JSON pomocí Aspose.Cells](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
+### [Jak exportovat list do CSV s přesností v Javě](./how-to-export-worksheet-to-csv-with-precision-in-java/)
+Naučte se exportovat list do CSV s nastavením přesnosti v Javě.
+### [Uložení sešitu jako CSV pomocí Aspose.Cells pro Javu – krok za krokem](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
+Naučte se, jak uložit sešit jako CSV pomocí Aspose.Cells pro Javu v podrobném průvodci krok za krokem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

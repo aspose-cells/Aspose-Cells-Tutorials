@@ -512,6 +512,7 @@ Erfahren Sie, wie Sie benutzerdefinierte Eigenschaften zu einer Excel-Arbeitsmap
 Erfahren Sie, wie Sie benutzerdefinierte Eigenschaften zu Excel-Dateien mit Aspose.Cells für Java hinzufügen und verwalten.
 ### [So speichern Sie XLSB-Dateien mit benutzerdefinierten Eigenschaften – Aspose.Cells für Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
 Erfahren Sie, wie Sie XLSB-Dateien mit benutzerdefinierten Dokumenteigenschaften speichern, indem Sie Aspose.Cells für Java nutzen.
+### [Wie man benutzerdefinierte Eigenschaften in Java mit Aspose.Cells abruft](./how-to-get-custom-property-java-using-aspose-cells/)
 
 ## Weitere Ressourcen
 

@@ -37,6 +37,8 @@ Erfahren Sie, wie Sie benannte Bereiche mit Aspose.Cells für Java erstellen, ve
 
 ### [Namen einer Zelle in Excel mit Java zuweisen – Vollständige Anleitung](./assign-name-to-cell-in-excel-using-java-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java einer einzelnen Zelle einen Namen zuweisen und diesen später im Code referenzieren.
+### [Erstellen Sie einen benannten Bereich und erkennen Sie doppelte Namen in Excel](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java benannte Bereiche erstellen und doppelte Namen erkennen.
 
 ### [Zugriff auf den maximalen Anzeigebereich in Excel-Arbeitsmappen mit Aspose.Cells Java](./aspose-cells-java-max-display-range/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java auf den maximalen Anzeigebereich eines Arbeitsblatts in Excel zugreifen. Meistern Sie diese Funktion mit unserer Schritt-für-Schritt-Anleitung.

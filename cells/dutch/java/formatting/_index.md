@@ -258,6 +258,8 @@ Leer hoe u een gestileerd Excel-werkboek maakt met Aspose.Cells voor Java, inclu
 
 ### [Hoe WRAPCOLS te gebruiken in Aspose.Cells – Complete Java-voorbeeld](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 Leer hoe u de WRAPCOLS‑functie in Aspose.Cells voor Java gebruikt om tekst over kolommen te laten wikkelen. Deze tutorial biedt stapsgewijze codevoorbeelden.
+### [Excel-werkmap maken in Java en kolomnummerformaten toepassen](./create-excel-workbook-java-and-apply-column-number-formats/)
+Leer hoe u een Excel-werkmap maakt en kolomnummerformaten toepast met Aspose.Cells voor Java.
 
 ## Aanvullende bronnen
 

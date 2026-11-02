@@ -518,6 +518,8 @@ Scopri come usare le funzioni Lambda in Java per creare programmaticamente una c
 
 ### [Salva Cartella di Lavoro su File – Guida Completa Java per Copiare Intervalli Excel](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
 Scopri come salvare una cartella di lavoro su file e copiare intervalli Excel con Aspose.Cells per Java in questa guida completa.
+### [Come ottenere una proprietà personalizzata in Java usando Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)
+Scopri come recuperare una proprietà personalizzata da una cartella di lavoro Excel con Aspose.Cells per Java.
 
 ## Risorse aggiuntive
 

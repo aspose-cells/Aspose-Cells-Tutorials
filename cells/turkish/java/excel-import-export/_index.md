@@ -169,6 +169,14 @@ Excel'de yazdırma alanı belirleyip, ardından PowerPoint sunumuna nasıl aktar
 Aspose.Cells kullanarak Excel dosyalarını TXT formatına dışa aktarırken ondalık basamak sayısını nasıl kontrol edeceğinizi öğrenin.
 ### [Java ile Excel'i PowerPoint'e Aktarma](./how-to-export-excel-to-powerpoint-with-java/)
 Aspose.Cells for Java kullanarak Excel dosyalarını PowerPoint sunumlarına nasıl dönüştüreceğinizi öğrenin.
+### [Java ile Çalışma Sayfasını Hassasiyetle CSV'ye Aktarma](./how-to-export-worksheet-to-csv-with-precision-in-java/)
+Java ile bir çalışma sayfasını belirli hassasiyetle CSV formatına nasıl dışa aktaracağınızı öğrenin. Adım adım kılavuz.
+### [Aspose.Cells ile Java'da Excel Sayfasını PowerPoint'e Aktarma](./how-to-export-excel-sheet-to-powerpoint-with-aspose-cells-in/)
+Aspose.Cells for Java kullanarak bir Excel sayfasını PowerPoint sunumuna nasıl aktaracağınızı adım adım öğrenin.
+### [Aspose.Cells ile JSON'u Excel'e Dönüştürme ve JSON'dan Excel'i Doldurma](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
+Aspose.Cells kullanarak JSON verilerini Excel dosyasına dönüştürmeyi ve Excel'i JSON'dan doldurmayı adım adım öğrenin.
+### [Aspose.Cells for Java ile Çalışma Kitabını CSV Olarak Kaydet – adım adım rehber](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
+Aspose.Cells for Java kullanarak bir çalışma kitabını CSV formatına nasıl kaydedeceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

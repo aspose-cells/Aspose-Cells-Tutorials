@@ -113,6 +113,7 @@
 تعلم كيفية إنشاء أوراق عمل متعددة من قائمة بيانات باستخدام Aspose.Cells لجافا خطوة بخطوة في هذا الدليل الشامل.
 ### [تجميد الصفين الأولين في Excel باستخدام Java – دليل شامل](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
 تعرف على كيفية تجميد الصفين الأولين في ملفات Excel باستخدام Aspose.Cells لجافا. دليل خطوة بخطوة لتطبيقاتك.
+### [كيفية إنشاء أسماء أوراق ديناميكية في Excel باستخدام Java](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
 
 ## موارد إضافية
 

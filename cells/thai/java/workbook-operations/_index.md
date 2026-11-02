@@ -26,6 +26,9 @@
 
 ## บทช่วยสอนที่พร้อมใช้งาน
 
+### [How to get custom property java using Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)
+
+
 ### [Aspose.Cells Java: สร้างและบันทึกเวิร์กบุ๊ก Excel - คำแนะนำทีละขั้นตอน](./aspose-cells-java-create-save-excel-workbooks/)
 เรียนรู้วิธีการสร้างและจัดการเวิร์กบุ๊ก Excel โดยอัตโนมัติโดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการสร้างอินสแตนซ์ การบันทึก และการตั้งค่าคุณสมบัติการตั้งค่าหน้า
 

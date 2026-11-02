@@ -330,6 +330,8 @@ Aprenda a exportar propriedades personalizadas de uma pasta de trabalho do Excel
 Aprenda a adicionar propriedades personalizadas a arquivos do Excel usando Aspose.Cells para Java, incluindo configuração, salvamento e exemplos de código.
 
 ### [Como salvar arquivos xlsb com propriedades personalizadas usando Aspose.Cells para Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+### [Como obter propriedade personalizada java usando Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)
+Aprenda a recuperar propriedades personalizadas de um documento Excel usando Aspose.Cells para Java.
 
 ### [Exportar Excel para HTML usando Aspose.Cells Java: um guia passo a passo](./export-excel-html-aspose-cells-java/)
 Aprenda a exportar arquivos do Excel para HTML com facilidade usando o Aspose.Cells para Java. Este guia aborda como carregar pastas de trabalho, provedores de fluxo personalizados e salvar pastas de trabalho com facilidade.
@@ -440,7 +442,7 @@ Um tutorial de código para Aspose.Words Java
 Aprenda a lidar eficientemente com arquivos Excel com o Aspose.Cells para Java, abrindo arquivos XLSX e recuperando nomes de arquivos. Simplifique suas operações com planilhas hoje mesmo.
 
 ### [Como abrir arquivos TSV usando Aspose.Cells para Java (guia passo a passo)](./open-tsv-files-aspose-cells-java/)
-Aprenda a abrir e manipular arquivos TSV em Java usando Aspose.Cells com este guia abrangente, abrangendo configuração, implementação e aplicações práticas.
+Aprenda a abrir e manipular arquivos TSV em Java usando Aspose.Cells com este guia abrangente, abrangindo configuração, implementação e aplicações práticas.
 
 ### [Como evitar a exportação de planilhas ocultas no Aspose.Cells Java: um guia completo](./prevent-export-hidden-worksheets-aspose-cells-java/)
 Aprenda a configurar o Aspose.Cells para Java para ignorar planilhas ocultas durante a exportação, garantindo saídas de dados limpas e concisas.

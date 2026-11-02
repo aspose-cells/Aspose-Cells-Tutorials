@@ -257,6 +257,8 @@ Tìm hiểu cách áp dụng các kiểu định dạng khi chuyển đổi Data
 Hướng dẫn chi tiết cách tạo và áp dụng các kiểu định dạng cho Workbook Excel bằng Aspose.Cells for Java, bao gồm ví dụ mã và mẹo tối ưu.
 ### [Cách tạo workbook Excel với định dạng tiền tệ và phông chữ đậm trong Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 Hướng dẫn tạo sổ làm việc Excel, áp dụng định dạng tiền tệ và phông chữ đậm bằng Aspose.Cells cho Java.
+### [Tạo sổ làm việc Excel bằng Java và áp dụng định dạng số cho cột](./create-excel-workbook-java-and-apply-column-number-formats/)
+Hướng dẫn tạo sổ làm việc Excel và áp dụng định dạng số cho cột bằng Aspose.Cells cho Java.
 
 ## Tài nguyên bổ sung
 

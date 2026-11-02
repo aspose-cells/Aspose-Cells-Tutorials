@@ -78,7 +78,7 @@ Dowiedz się, jak ulepszyć prezentację danych w programie Excel, dodając pref
 Dowiedz się, jak programowo wyodrębnić i analizować kolory efektów świecenia z kształtów w plikach Excela, używając Aspose.Cells for Java. Zwiększ możliwości wizualizacji danych i raportowania.
 
 ### [Ustaw szerokość kolumny w pikselach za pomocą Aspose.Cells dla Java: kompletny przewodnik](./aspose-cells-java-set-column-width-pixels/)
-Dowiedz się, jak ustawić szerokość kolumny w pikselach za pomocą Aspose.Cells dla Java. Ten przewodnik obejmuje instalację, przykłady kodu i praktyczne zastosowania.
+Dowiedz się, jak ustawić szerokość kolumny w pikselach za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje instalację, przykłady kodu i praktyczne zastosowania.
 
 ### [Ustaw rozmiar czcionki w programie Excel za pomocą Aspose.Cells Java — kompleksowy przewodnik](./aspose-cells-java-set-font-size-excel/)
 Dowiedz się, jak ustawić rozmiar czcionki w plikach Excela za pomocą Aspose.Cells for Java dzięki temu samouczkowi krok po kroku. Popraw swoje umiejętności formatowania dokumentów już dziś!
@@ -256,6 +256,8 @@ Dowiedz się, jak programowo tworzyć i stylować skoroszyty Excel w Javie, wyko
 
 ### [Jak używać WRAPCOLS w Aspose.Cells – kompletny przykład w Javie](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 Dowiedz się, jak zastosować metodę WRAPCOLS w Aspose.Cells for Java, aby automatycznie zawijać tekst w komórkach Excela.
+### [Utwórz skoroszyt Excel w Javie i zastosuj formaty liczbowe kolumn](./create-excel-workbook-java-and-apply-column-number-formats/)
+Dowiedz się, jak programowo tworzyć skoroszyty Excel w Javie i stosować formaty liczbowe do kolumn przy użyciu Aspose.Cells.
 
 ## Dodatkowe zasoby
 

@@ -471,9 +471,6 @@ Excel dosyalarını Aspose.Cells for Java ile resimlere (PNG, TIFF) veya PDF'ler
 ### [Aspose.Cells for Java Kullanarak Özel Tarih Biçimleriyle Excel'i PDF'ye Verimli Şekilde Dönüştürün](./render-excel-custom-date-formats-pdf-aspose-cells-java/)
 Aspose.Cells for Java kullanarak özel tarih biçimlerini koruyarak Excel dosyalarını PDF'lere dönüştürme konusunda uzmanlaşın. Kurulum, uygulama ve performans ipuçlarını öğrenin.
 
-### [Java için Aspose.Cells Kullanarak Hata Yönetimiyle Excel'i PDF'ye Dönüştürme: Kapsamlı Bir Kılavuz](./render-excel-pdf-aspose-cells-java-error-handling/)
-Java için Aspose.Cells'i kullanarak Excel dosyalarını PDF'ye nasıl dönüştüreceğinizi öğrenin, sağlam hata işleme stratejileriyle. Toplu işleme ve veri raporlaması için idealdir.
-
 ### [Java için Aspose.Cells Kullanarak Excel Sayfalarını Resim Olarak Nasıl Oluşturursunuz (Çalışma Kitabı İşlemleri)](./render-excel-sheets-images-aspose-cells-java/)
 Aspose.Cells for Java kullanarak Excel sayfalarını görsellere nasıl dönüştüreceğinizi öğrenin. Çalışma Kitabı İşlemlerinde ustalaşın, raporlama işlevlerini optimize edin ve Excel görsellerini sorunsuz bir şekilde entegre edin.
 
@@ -512,6 +509,11 @@ Java ve Aspose.Cells kullanarak Excel dosyası oluşturmayı adım adım öğren
 ### [Java için Aspose.Cells ile Özel Özelliklerle Excel Çalışma Kitabı Oluşturma – Adım Adım Kılavuz](./create-excel-workbook-with-custom-properties-in-java-step-by/)
 Aspose.Cells for Java kullanarak özel özelliklerle bir Excel çalışma kitabı oluşturmayı ve kaydetmeyi öğrenin.
 ### [Aspose.Cells for Java Kullanarak xlsb dosyalarını özel özelliklerle kaydetme](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+### [Aspose.Cells ile Java'da Özel Özellik Alma](./how-to-get-custom-property-java-using-aspose-cells/)
+Aspose.Cells for Java kullanarak Excel dosyalarından özel özellikleri nasıl alacağınızı öğrenin.
+
+### [Java için Aspose.Cells Kullanarak Hata Yönetimiyle Excel'i PDF'ye Dönüştürme: Kapsamlı Bir Kılavuz](./render-excel-pdf-aspose-cells-java-error-handling/)
+Java için Aspose.Cells'i kullanarak Excel dosyalarını PDF'ye nasıl dönüştüreceğinizi öğrenin, sağlam hata işleme stratejileriyle. Toplu işleme ve veri raporlaması için idealdir.
 
 ## Ek Kaynaklar
 

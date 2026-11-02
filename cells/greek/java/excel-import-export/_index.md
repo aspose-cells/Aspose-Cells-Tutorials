@@ -166,6 +166,13 @@
 Μάθετε πώς να εξάγετε αρχεία Excel σε μορφή TXT και να ελέγξετε την ακρίβεια των δεκαδικών χρησιμοποιώντας Aspose.Cells για Java.
 ### [Πώς να εξάγετε Excel σε PowerPoint με Java](./how-to-export-excel-to-powerpoint-with-java/)
 Μάθετε πώς να μετατρέψετε αρχεία Excel σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Cells για Java.
+### [Πώς να εξάγετε φύλλο Excel σε PowerPoint με το Aspose.Cells σε Java](./how-to-export-excel-sheet-to-powerpoint-with-aspose-cells-in/)
+Μάθετε πώς να εξάγετε φύλλο Excel σε παρουσίαση PowerPoint χρησιμοποιώντας το Aspose.Cells για Java.
+### [Πώς να μετατρέψετε JSON σε Excel και να γεμίσετε το Excel από JSON χρησιμοποιώντας το Aspose.Cells](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
+Μάθετε πώς να μετατρέψετε JSON σε αρχείο Excel και να γεμίσετε το Excel με δεδομένα JSON χρησιμοποιώντας το Aspose.Cells για Java.
+### [Πώς να εξάγετε φύλλο εργασίας σε CSV με ακρίβεια στη Java](./how-to-export-worksheet-to-csv-with-precision-in-java/)
+### [Αποθήκευση βιβλίου εργασίας ως CSV χρησιμοποιώντας Aspose.Cells για Java – οδηγός βήμα‑βήμα](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
+Μάθετε πώς να αποθηκεύσετε ένα βιβλίο εργασίας Excel ως αρχείο CSV χρησιμοποιώντας Aspose.Cells για Java, βήμα‑βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

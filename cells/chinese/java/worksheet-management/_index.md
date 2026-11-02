@@ -116,6 +116,8 @@ Aspose.Words Java 代码教程
 学习如何使用 Aspose.Cells for Java 在 Excel 工作表中清除已应用的自动筛选。
 ### [如何在 Aspose.Cells for Java 中创建重复的明细工作表](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
 学习如何在 Aspose.Cells for Java 中创建重复的明细工作表，以便在报告中重复使用数据。
+### [使用 Java 在 Excel 中生成动态工作表名称](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
+学习如何使用 Aspose.Cells for Java 动态创建工作表名称，实现灵活的数据组织。
 
 ## 其他资源
 

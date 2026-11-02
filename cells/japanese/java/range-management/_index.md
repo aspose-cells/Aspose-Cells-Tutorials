@@ -96,6 +96,8 @@ Aspose.Cells for Java を使用して、Excel ファイル内のセルを効率�
 
 ### [プログラムでワークシートの範囲をコピーする – 完全 Java ガイド](./programmatically-copy-worksheet-range-complete-java-guide/)
 Aspose.Cells for Java を使用して、ワークシートのセル範囲をプログラムでコピーする方法をステップバイステップで解説します。
+### [Excel で名前付き範囲を作成し、重複する名前を検出する](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Aspose.Cells for Java を使用して、Excel に名前付き範囲を作成し、重複する名前があるかどうかを検出する方法を学びます。
 
 ## 追加リソース
 

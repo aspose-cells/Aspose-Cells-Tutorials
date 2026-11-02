@@ -246,6 +246,7 @@
 ### [تعيين تنسيق رقم مخصص في Excel باستخدام Java – دليل كامل](./set-custom-number-format-in-excel-with-java-complete-guide/)
 ### [كيفية استخدام WRAPCOLS في Aspose.Cells – مثال كامل بلغة Java](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 ### [كيفية إنشاء مصنف Excel بتنسيق عملة وخط عريض في Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+### [إنشاء مصنف Excel باستخدام Java وتطبيق تنسيقات أرقام الأعمدة](./create-excel-workbook-java-and-apply-column-number-formats/)
 
 ## موارد إضافية
 

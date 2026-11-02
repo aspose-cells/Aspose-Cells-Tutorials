@@ -115,6 +115,10 @@ Java와 Aspose.Cells를 사용해 템플릿 기반으로 Excel에 여러 워크�
 Aspose.Cells for Java를 사용하여 Excel 워크북에 상세 시트를 복제하는 방법을 단계별로 안내합니다.
 ### [Java로 Excel에서 첫 두 행 고정하기 – 완전 가이드](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
 Java와 Aspose.Cells를 사용하여 Excel 워크시트의 첫 두 행을 고정하는 방법을 단계별로 안내합니다.
+### [Java를 사용하여 Excel에서 동적 시트 이름 생성하는 방법](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
+Java와 Aspose.Cells를 활용해 Excel 시트 이름을 동적으로 생성하고 관리하는 방법을 단계별로 안내합니다.
+
+
 
 ## 추가 자료
 

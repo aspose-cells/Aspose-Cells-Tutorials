@@ -35,6 +35,9 @@
 ### [Aspose.Cells Java: إنشاء وإدارة النطاقات المسماة في ملفات Excel](./aspose-cells-java-manage-named-ranges/)
 تعلّم كيفية إنشاء نطاقات مُسمّاة وإدارتها ومعالجتها باستخدام Aspose.Cells في Java. يُرشدك هذا البرنامج التعليمي خلال إعداد بيئتك وإتقان ميزاتها الرئيسية من خلال أمثلة برمجية.
 
+### [إنشاء نطاق مسمى واكتشاف اسم مكرر في Excel](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+تعلم كيفية إنشاء نطاق مسمى في Excel واكتشاف الأسماء المكررة باستخدام Aspose.Cells لـ Java.
+
 ### [الوصول إلى الحد الأقصى لنطاق العرض في مصنفات Excel باستخدام Aspose.Cells Java](./aspose-cells-java-max-display-range/)
 تعرّف على كيفية الوصول إلى أقصى نطاق عرض لورقة عمل في Excel باستخدام Aspose.Cells لـ Java. أتقن هذه الميزة من خلال دليلنا المفصل.
 

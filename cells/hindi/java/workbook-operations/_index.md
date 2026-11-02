@@ -473,6 +473,8 @@ XLSX फ़ाइलें खोलकर और फ़ाइल नाम प�
 जानें कि निर्यात के दौरान छिपी हुई वर्कशीट को छोड़ने के लिए Aspose.Cells for Java को कैसे कॉन्फ़िगर करें, जिससे स्वच्छ और संक्षिप्त डेटा आउटपुट सुनिश्चित हो।
 
 ### [Aspose.Cells Java का उपयोग करके CSV फ़ाइलों को कुशलतापूर्वक पढ़ें और परिवर्तित करें](./read-and-convert-csv-aspose-cells-java/)
+चरण-दर-स्टेप मार्गदर्शन के साथ, Java के लिए Aspose.Cells का उपयोग करके बहु-एन्कोडेड CSV फ़ाइलों को सहजता से पढ़ना और उन्हें Excel प्रारूप में परिवर्तित करना सीखें।
+
 ### [Aspose.Cells का उपयोग करके जावा में Excel को PNG, TIFF और PDF में बदलें](./render-excel-as-png-tiff-pdf-aspose-cells-java/)
 जावा के लिए Aspose.Cells के साथ Excel फ़ाइलों को छवियों (PNG, TIFF) या PDF में बदलने का तरीका जानें। रिपोर्ट साझाकरण को बेहतर बनाने के लिए इस चरण-दर-स्टेप मार्गदर्शिका का पालन करें।
 
@@ -508,6 +510,7 @@ Java में Aspose.Cells का उपयोग करके Excel फ़ा�
 जावा में Lambda फ़ंक्शन का उपयोग करके Excel वर्कबुक बनाने का चरण-दर- चरण उदाहरण।
 ### [Aspose.Cells for Java का उपयोग करके xlsb फ़ाइलें कस्टम प्रॉपर्टीज़ के साथ कैसे सहेजें](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
 Aspose.Cells for Java के साथ xlsb फ़ाइलों में कस्टम प्रॉपर्टीज़ जोड़कर सहेजने का तरीका सीखें।
+### [Aspose.Cells का उपयोग करके जावा में कस्टम प्रॉपर्टी कैसे प्राप्त करें](./how-to-get-custom-property-java-using-aspose-cells/)
 
 ## अतिरिक्त संसाधन
 

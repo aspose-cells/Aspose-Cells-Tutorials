@@ -68,6 +68,9 @@ Aprenda a automatizar la generación de archivos de Excel con Aspose.Cells para 
 ### [Domine Aspose.Cells Java: Guía completa para la gestión de libros y hojas de trabajo](./aspose-cells-java-workbook-worksheet-guide/)
 Aprenda a administrar libros de Excel con Aspose.Cells para Java. Esta guía abarca la creación de instancias de libros, el acceso a hojas de cálculo, la configuración de páginas, la impresión de títulos y mucho más.
 
+### [Cómo generar nombres de hoja dinámicos en Excel con Java](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
+Aprenda a crear nombres de hoja dinámicos en archivos de Excel mediante Aspose.Cells para Java.
+
 ### [Copiar una sola fila en Excel con Aspose.Cells para Java: una guía completa](./copy-single-row-excel-aspose-cells-java/)
 Aprenda a copiar eficientemente una sola fila en Excel con Aspose.Cells para Java. Esta guía incluye consejos de configuración, implementación y optimización.
 

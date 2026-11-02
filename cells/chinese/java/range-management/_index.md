@@ -95,6 +95,8 @@ Aspose.Words Java 代码教程
 
 ### [使用 Aspose.Cells 创建新工作表并复制 Excel 区域](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
 学习如何使用 Aspose.Cells for Java 创建新工作表并复制指定的 Excel 区域，实现数据迁移和复制。
+### [在 Excel 中创建命名范围并检测重复名称](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+学习如何在 Excel 中使用 Aspose.Cells for Java 创建命名范围，并检测是否存在重复的名称。
 
 ## 其他资源
 

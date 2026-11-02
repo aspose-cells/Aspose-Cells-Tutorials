@@ -273,6 +273,7 @@ Aspose.Cells Java 라이브러리를 사용하여 WRAPCOLS 옵션을 적용하�
 ### [Java에서 Excel에 숫자 서식 적용 – 완전 Aspose.Cells 가이드](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
 Aspose.Cells for Java를 사용하여 Excel 셀에 숫자 서식을 적용하는 방법을 단계별로 안내합니다.
 ### [Java에서 통화 형식 및 굵은 글꼴로 Excel 통합 문서 만들기](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+### [Java로 Excel 워크북을 생성하고 열 번호 서식을 적용하는 방법](./create-excel-workbook-java-and-apply-column-number-formats/)
 
 ## 추가 자료
 

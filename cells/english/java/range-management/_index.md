@@ -37,6 +37,8 @@ Learn how to create, manage, and manipulate named ranges using Aspose.Cells for 
 
 ### [Assign Name to Cell in Excel Using Java – Complete Guide](./assign-name-to-cell-in-excel-using-java-complete-guide/)
 Learn how to assign a custom name to a single cell in Excel using Aspose.Cells for Java with step-by-step code examples.
+### [Create a named range and detect duplicate name in Excel](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Detect and handle duplicate named ranges in Excel using Aspose.Cells for Java.
 
 ### [Access Maximum Display Range in Excel Workbooks using Aspose.Cells Java](./aspose-cells-java-max-display-range/)
 Learn how to access the maximum display range of a worksheet in Excel using Aspose.Cells for Java. Master this feature with our step-by-step guide.

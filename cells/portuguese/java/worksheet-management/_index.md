@@ -116,6 +116,8 @@ Aprenda a criar múltiplas planilhas em um arquivo Excel usando modelos com Aspo
 Aprenda a criar planilhas de detalhes duplicadas no Excel usando Aspose.Cells para Java, facilitando a replicação de dados e a automação de relatórios.
 ### [Criar planilhas a partir de lista com Aspose.Cells Java – Guia completo](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
 Aprenda a criar várias planilhas a partir de uma lista usando Aspose.Cells para Java, com exemplos de código completos e boas práticas.
+### [Como gerar nomes de planilhas dinâmicos no Excel com Java](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
+Aprenda a criar nomes de planilhas dinâmicos programaticamente usando Aspose.Cells para Java.
 
 ## Recursos adicionais
 

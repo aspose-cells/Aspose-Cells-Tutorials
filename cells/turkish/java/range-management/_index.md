@@ -91,6 +91,8 @@ Aspose.Cells for Java kullanarak Excel dosyalarındaki hücreleri etkin bir şek
 ### [Java Kullanarak Excel'de Hücreye İsim Atama – Tam Kılavuz](./assign-name-to-cell-in-excel-using-java-complete-guide/)
 ### [Programlı Olarak Çalışma Sayfası Aralığını Kopyalama – Tam Java Kılavuzu](./programmatically-copy-worksheet-range-complete-java-guide/)
 ### [Java’da Çalışma Kitapları Arasında Aralık Kopyalama – Adım Adım Kılavuz](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+### [Excel'de Adlandırılmış Bir Aralık Oluşturun ve Yinelenen İsimleri Tespit Edin](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Aspose.Cells for Java kullanarak Excel'de adlandırılmış bir aralık oluşturmayı ve aynı isimdeki mevcut aralıkları tespit etmeyi öğrenin.
 
 ## Ek Kaynaklar
 

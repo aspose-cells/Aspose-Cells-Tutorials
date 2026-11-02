@@ -87,6 +87,8 @@ Learn how to copy Pivot Tables in Java with Aspose.Cells, including code example
 Learn how to copy a Pivot Table in Java using Aspose.Cells with a step‑by‑step guide.
 ### [How to copy pivot in Aspose.Cells – copy range to workbook](./how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook/)
 Learn how to copy a Pivot Table range to another workbook using Aspose.Cells for Java.
+### [How to copy a pivot table in Java using Aspose.Cells](./how-to-copy-a-pivot-table-in-java-using-aspose-cells/)
+Learn how to copy a pivot table in Java using Aspose.Cells, preserving formatting and enabling further processing.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

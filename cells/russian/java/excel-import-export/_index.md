@@ -42,6 +42,8 @@
 
 ### [Сохранить книгу как CSV – Полное руководство Java по экспорту Excel в CSV](./save-workbook-as-csv-complete-java-guide-to-export-excel-to/)
 Узнайте, как сохранить рабочую книгу в формате CSV с помощью Aspose.Cells для Java. Подробное руководство с примером кода.
+### [Сохранить книгу как CSV с помощью Aspose.Cells для Java – пошаговое руководство](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
+Узнайте, как сохранить рабочую книгу в формате CSV с помощью Aspose.Cells для Java, следуя пошаговым инструкциям.
 ### [Экспорт Excel в PDF](./exporting-excel-to-pdf/)
 Узнайте, как легко экспортировать файлы Excel в PDF с помощью Aspose.Cells для Java. Наше пошаговое руководство упрощает процесс. Начните конвертацию сегодня!
 
@@ -83,7 +85,8 @@
 
 ### [Как экспортировать CSV с Java – установить значимые цифры и диапазон экспорта в CSV](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
 Узнайте, как экспортировать данные в CSV с помощью Aspose.Cells для Java, задав значимые цифры и диапазон экспорта.
-
+### [Как экспортировать лист Excel в CSV с точностью в Java](./how-to-export-worksheet-to-csv-with-precision-in-java/)
+Узнайте, как экспортировать лист Excel в CSV с точностью до значимых цифр, используя Aspose.Cells для Java.
 ### [Как создать PDF из рабочей книги – Полное руководство Java](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
 Узнайте, как создать PDF из рабочей книги с помощью Aspose.Cells для Java. Пошаговое руководство с примером кода.
 ### [Конвертация XLSX в PPTX – Полное руководство по экспорту редактируемых фигур](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
@@ -191,6 +194,10 @@
 Узнайте, как экспортировать данные Excel в формат TXT, управляя точностью десятичных знаков с помощью Aspose.Cells.
 ### [Экспорт Excel в PowerPoint с Java](./how-to-export-excel-to-powerpoint-with-java/)
 Узнайте, как экспортировать данные Excel в презентацию PowerPoint с помощью Aspose.Cells для Java. Пошаговое руководство с примером кода.
+### [Как экспортировать лист Excel в PowerPoint с помощью Aspose.Cells в Java](./how-to-export-excel-sheet-to-powerpoint-with-aspose-cells-in/)
+Узнайте, как экспортировать лист Excel в презентацию PowerPoint с использованием Aspose.Cells для Java.
+### [Как конвертировать JSON в Excel и заполнять Excel из JSON с помощью Aspose.Cells](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
+Узнайте, как преобразовать данные JSON в файл Excel и заполнить его данными из JSON с использованием Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

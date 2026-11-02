@@ -260,6 +260,8 @@ Learn how to generate an Excel workbook in Java with currency formatting and bol
 
 ### [How to Apply Styles When Converting DataTable to Excel – Full Java Guide](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 Learn how to apply cell styles while converting a DataTable to Excel using Aspose.Cells for Java, with step-by-step code examples.
+### [Create Excel workbook java and apply column number formats](./create-excel-workbook-java-and-apply-column-number-formats/)
+Learn how to create an Excel workbook in Java using Aspose.Cells and apply number formats to columns programmatically.
 
 ## Additional Resources
 

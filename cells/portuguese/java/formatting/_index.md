@@ -256,6 +256,8 @@ Aprenda a criar uma pasta de trabalho Excel estilizada em Java usando Aspose.Cel
 
 ### [Como usar WRAPCOLS no Aspose.Cells – Exemplo Java completo](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 Aprenda a usar o método WRAPCOLS do Aspose.Cells em Java para ajustar automaticamente o conteúdo das células. Guia passo a passo com código completo.
+### [Criar pasta de trabalho Excel em Java e aplicar formatos numéricos de coluna](./create-excel-workbook-java-and-apply-column-number-formats/)
+Aprenda a criar uma pasta de trabalho Excel em Java e aplicar formatos numéricos personalizados às colunas usando Aspose.Cells.
 
 ## Recursos adicionais
 

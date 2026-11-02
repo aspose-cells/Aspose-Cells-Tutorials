@@ -114,6 +114,8 @@ Excel में ऑटोफ़िल्टर हटाने की प्र�
 ### [Aspose.Cells for Java में डुप्लिकेट डिटेल शीट्स कैसे बनाएं](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
 ### [Java के साथ Excel में पहली दो पंक्तियों को फ्रीज़ करें – पूर्ण गाइड](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
 Java और Aspose.Cells का उपयोग करके Excel वर्कशीट में पहली दो पंक्तियों को फ्रीज़ करने का चरण-दर-चरण मार्गदर्शन।
+### [जावा के साथ एक्सेल में डायनामिक शीट नाम कैसे बनाएं](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
+जावा का उपयोग करके एक्सेल में गतिशील शीट नाम उत्पन्न करने की प्रक्रिया सीखें।
 
 ## अतिरिक्त संसाधन
 

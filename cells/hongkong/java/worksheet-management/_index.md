@@ -117,6 +117,8 @@ Aspose.Words Java 程式碼教程
 
 ### [如何在 Aspose.Cells for Java 中建立重複的詳細工作表](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
 了解如何使用 Aspose.Cells for Java 複製詳細工作表，以便在工作簿中重複使用資料。
+### [如何在 Excel 中使用 Java 產生動態工作表名稱](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
+了解如何使用 Aspose.Cells for Java 在 Excel 中動態產生工作表名稱，以自動化報表生成。
 
 ## 其他資源
 

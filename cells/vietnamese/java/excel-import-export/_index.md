@@ -70,6 +70,8 @@ Tìm hiểu cách chuyển đổi dữ liệu JSON sang tệp XLSX bằng Aspose
 Hướng dẫn chi tiết cách xuất dữ liệu JSON sang tệp Excel bằng Aspose.Cells cho Java, kèm mã nguồn mẫu.
 ### [Chèn JSON vào Excel bằng Aspose Cells – Hướng dẫn Java đầy đủ](./insert-json-into-excel-with-aspose-cells-full-java-guide/)
 Tìm hiểu cách chèn dữ liệu JSON vào tệp Excel bằng Aspose.Cells for Java. Hướng dẫn chi tiết với mã nguồn để thực hiện chuyển đổi liền mạch.
+### [Cách chuyển đổi JSON sang Excel và điền dữ liệu vào Excel từ JSON bằng Aspose.Cells](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
+Hướng dẫn chi tiết cách chuyển đổi dữ liệu JSON thành tệp Excel và điền dữ liệu vào Workbook bằng Aspose.Cells cho Java.
 ### [Xác thực dữ liệu nhập Excel](./excel-import-data-validation/)
 Tìm hiểu cách triển khai xác thực dữ liệu nhập Excel bằng Aspose.Cells for Java với hướng dẫn từng bước toàn diện này. Đảm bảo độ chính xác của dữ liệu và nâng cao trải nghiệm người dùng. 
 ### [Xuất Excel sang HTML Java](./export-excel-to-html-java/)
@@ -179,6 +181,12 @@ Hướng dẫn chi tiết cách dùng Aspose Smart Markers để biến dữ li�
 Hướng dẫn chi tiết cách xuất dữ liệu Excel sang file TXT và điều chỉnh độ chính xác thập phân bằng Aspose.Cells cho Java.
 ### [Cách xuất Excel sang PowerPoint bằng Java](./how-to-export-excel-to-powerpoint-with-java/)
 Tìm hiểu cách xuất tệp Excel sang PowerPoint bằng Aspose.Cells cho Java. Hướng dẫn chi tiết với mã nguồn để chuyển đổi mượt mà.
+### [Cách xuất sheet Excel sang PowerPoint bằng Aspose.Cells trong Java](./how-to-export-excel-sheet-to-powerpoint-with-aspose-cells-in/)
+Hướng dẫn chi tiết cách xuất sheet Excel sang bản trình chiếu PowerPoint bằng Aspose.Cells cho Java.
+### [Cách xuất worksheet sang CSV với độ chính xác trong Java](./how-to-export-worksheet-to-csv-with-precision-in-java/)
+Hướng dẫn chi tiết cách xuất worksheet sang CSV với độ chính xác cao trong Java bằng Aspose.Cells.
+### [Lưu workbook dưới dạng CSV bằng Aspose.Cells cho Java – hướng dẫn từng bước](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
+Hướng dẫn chi tiết cách lưu workbook thành tệp CSV bằng Aspose.Cells cho Java, kèm ví dụ mã nguồn thực tế.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

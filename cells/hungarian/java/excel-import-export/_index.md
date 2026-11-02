@@ -41,6 +41,8 @@ Tanuld meg, hogyan exportálhatsz Excel-fájlokat CSV formátumba az Aspose.Cell
 Tanuld meg, hogyan exportálhatsz CSV fájlokat Excel cellákból az Aspose.Cells for Java segítségével, lépésről lépésre útmutatóval.
 ### [Kijelölt cellák exportálása CSV-be Java-ban – teljes útmutató](./export-selected-cells-to-csv-in-java-complete-guide/)
 Tanuld meg, hogyan exportálhatsz kiválasztott cellákat CSV formátumba Java-ban az Aspose.Cells for Java segítségével.
+### [Munkafüzet mentése CSV-be az Aspose.Cells for Java használatával – lépésről lépésre útmutató](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
+Ismerd meg, hogyan mentheted el a munkafüzetet CSV formátumba az Aspose.Cells for Java segítségével, lépésről lépésre útmutatóval.
 ### [Excel exportálása PDF-be](./exporting-excel-to-pdf/)
 Tanuld meg, hogyan exportálhatsz Excel-fájlokat könnyedén PDF-be az Aspose.Cells for Java segítségével. Lépésről lépésre útmutatónk leegyszerűsíti a folyamatot. Kezdd el a konvertálást még ma!
 ### [Hogyan hozzunk létre PDF-et egy munkafüzetből – Teljes Java útmutató](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
@@ -171,6 +173,12 @@ Ismerd meg, hogyan konvertálhatsz JSON adatokat Excel fájlokká az Aspose Smar
 Ismerd meg, hogyan exportálhatsz Excel-fájlokat TXT formátumba az Aspose.Cells használatával, miközben pontosan beállíthatod a tizedesjegyek számát.
 ### [Hogyan exportáljunk Excel-t PowerPoint-ba Java-val](./how-to-export-excel-to-powerpoint-with-java/)
 Tanuld meg, hogyan konvertálhatod Excel fájljaidat PowerPoint prezentációvá Java és Aspose.Cells segítségével.
+### [Hogyan exportáljunk munkalapot CSV-be pontossággal Java-ban](./how-to-export-worksheet-to-csv-with-precision-in-java/)
+Tanuld meg, hogyan exportálj munkalapot CSV-be precíziós beállításokkal Java-ban az Aspose.Cells segítségével.
+### [Hogyan exportáljunk Excel munkalapot PowerPointba az Aspose.Cells segítségével Java-ban](./how-to-export-excel-sheet-to-powerpoint-with-aspose-cells-in/)
+Tanuld meg, hogyan konvertálj Excel munkalapot PowerPoint diára az Aspose.Cells for Java használatával.
+### [JSON konvertálása Excelbe és Excel feltöltése JSON-ból az Aspose.Cells segítségével](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
+Ismerd meg, hogyan alakítsd át a JSON adatokat Excel táblázattá, és töltsd fel a munkafüzetet JSON-ból az Aspose.Cells használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

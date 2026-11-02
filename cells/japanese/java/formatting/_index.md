@@ -249,6 +249,8 @@ Aspose.Cells for Java を使い、Excel エクスポート時にフォントを�
 ### [Aspose.Cells for Java で WRAPCOLS を使用する方法 – 完全な Java 例](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 Aspose.Cells for Java を使用して WRAPCOLS 機能を活用し、セルのテキストを自動的に折り返す方法をステップバイステップで解説します。
 ### [Javaで通貨形式と太字フォントを使用したExcelブックを作成する方法](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+### [Aspose.Cells for Java を使用して Excel ワークブックを作成し、列の数値書式を適用する方法](./create-excel-workbook-java-and-apply-column-number-formats/)
+Aspose.Cells for Java を使い、Excel ワークブックを作成し、特定の列に数値書式を設定する手順を学びます。
 
 ## 追加リソース
 

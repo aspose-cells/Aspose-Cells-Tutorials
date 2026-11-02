@@ -245,6 +245,8 @@ Pelajari cara menghasilkan file Excel menggunakan Java dengan panduan langkah de
 ### [Membuat buku kerja Excel java: menangani tanggal era Jepang](./create-excel-workbook-java-handle-japanese-era-dates/)
 Pelajari cara membuat buku kerja Excel dengan Java yang mendukung tanggal era Jepang menggunakan Aspose.Cells.
 ### [Cara menyimpan file xlsb dengan properti khusus menggunakan Aspose.Cells untuk Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+### [Cara Mendapatkan Properti Kustom Java Menggunakan Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)
+Pelajari cara mengambil properti kustom dari buku kerja Excel menggunakan Aspose.Cells untuk Java.
 
 ## Sumber Daya Tambahan
 

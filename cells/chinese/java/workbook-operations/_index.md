@@ -494,6 +494,7 @@ Aspose.Words Java 代码教程
 
 ### [在 Java 中创建 Excel 工作簿 – 完整分步指南](./create-excel-workbook-in-java-complete-step-by-step-guide/)
 学习如何在 Java 中使用 Aspose.Cells 完整创建并保存 Excel 工作簿的每一步。
+### [如何使用 Aspose.Cells for Java 获取 Java 自定义属性](./how-to-get-custom-property-java-using-aspose-cells/)
 
 ### [在 Java 中将工作簿保存为 XLSX – 完整编程指南](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
 学习如何使用 Aspose.Cells for Java 将工作簿保存为 XLSX 格式，提供完整代码示例和最佳实践。

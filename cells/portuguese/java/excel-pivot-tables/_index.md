@@ -89,6 +89,8 @@ Aprenda a copiar tabelas dinâmicas programaticamente usando Aspose.Cells para J
 Aprenda a copiar tabelas dinâmicas no Aspose.Cells para Java com um guia detalhado passo a passo.
 ### [Como copiar tabela dinâmica no Aspose.Cells – copiar intervalo para a pasta de trabalho](./how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook/)
 Aprenda a copiar uma tabela dinâmica para outra pasta de trabalho usando Aspose.Cells.
+### [Como copiar uma tabela dinâmica em Java usando Aspose.Cells](./how-to-copy-a-pivot-table-in-java-using-aspose-cells/)
+Aprenda a copiar uma Tabela Dinâmica em Java, preservando seu formato e exportando para PPTX com Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -116,6 +116,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java Zeilen und Spalten in Excel-Dat
 
 ### [Wie man doppelte Detailblätter in Aspose.Cells für Java erstellt](./how-to-create-duplicate-detail-sheets-in-aspose-cells-for-ja/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java doppelte Detailblätter in Excel erstellen.
+### [Dynamische Blattnamen in Excel mit Java generieren](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java dynamische Blattnamen in Excel generieren.
 
 ## Weitere Ressourcen
 
