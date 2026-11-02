@@ -50,11 +50,16 @@ HTML tablolarını, satır ve sütunların otomatik olarak sığdırılması da 
 ### [Java için Aspose.Cells'i Kullanarak Excel Sütunlarını Verimli Şekilde Kopyalayın: Kapsamlı Bir Kılavuz](./copy-excel-columns-aspose-cells-java/)
 Aspose.Cells for Java ile Excel'de sütun kopyalamayı otomatikleştirmeyi öğrenin. Bu kolay takip edilebilir kılavuzla iş akışınızı kolaylaştırın ve üretkenliğinizi artırın.
 
-### [Aspose.Cells Java Kullanarak Excel'de Birden Fazla Sütun Nasıl Kopyalanır: Eksiksiz Bir Kılavuz](./copy-multiple-columns-excel-aspose-cells-java/)
+### [Java için Aspose.Cells Kullanarak Excel'de Birden Fazla Sütun Nasıl Kopyalanır: Eksiksiz Bir Kılavuz](./copy-multiple-columns-excel-aspose-cells-java/)
 Aspose.Cells for Java kullanarak bir Excel çalışma sayfasındaki birden fazla sütunu kopyalamayı otomatikleştirmeyi öğrenin. Bu kılavuz kurulum, uygulama ve sorun gidermeyi kapsar.
+
+### [Aspose.Cells ile Java'da Aralığı Kopyalama](./how-to-copy-range-in-java-with-aspose-cells/)
 
 ### [Aspose.Cells Java kullanarak Excel'de Birlik Aralığı Oluşturma: Kapsamlı Bir Kılavuz](./create-union-range-excel-aspose-cells-java/)
 Excel'de birleşik aralıklar oluşturmak, veri sunumunu ve okunabilirliği geliştirmek için Aspose.Cells for Java'yı nasıl kullanacağınızı öğrenin.
+
+### [Aspose.Cells ile yeni bir çalışma sayfası oluşturun ve Excel aralığını kopyalayın](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
+Aspose.Cells ile yeni bir çalışma sayfası oluşturup, bir Excel aralığını kolayca kopyalamayı öğrenin.
 
 ### [Aspose.Cells Kullanarak Java'da Excel Görüntüleme Aralıklarını Ustalaştırın: Kapsamlı Bir Kılavuz](./excel-display-ranges-aspose-cells-java/)
 Aspose.Cells for Java ile Excel görüntüleme aralıklarını nasıl yöneteceğinizi ve optimize edeceğinizi öğrenin. Uygulamanızın veri görselleştirme yeteneklerini geliştirin.
@@ -83,7 +88,11 @@ Aspose.Cells for Java kullanarak Excel'de veri aralıklarını nasıl verimli bi
 ### [Aspose.Cells Kullanarak Java'da Excel Hücrelerini Ayırma: Adım Adım Kılavuz](./unmerge-excel-cells-aspose-cells-java-guide/)
 Aspose.Cells for Java kullanarak Excel dosyalarındaki hücreleri etkin bir şekilde ayırmayı öğrenin. Bu kılavuz, kod örnekleriyle birleştirilmiş hücrelerin kurulumunu, algılanmasını ve ayrılmasını kapsar.
 
-
+### [Java Kullanarak Excel'de Hücreye İsim Atama – Tam Kılavuz](./assign-name-to-cell-in-excel-using-java-complete-guide/)
+### [Programlı Olarak Çalışma Sayfası Aralığını Kopyalama – Tam Java Kılavuzu](./programmatically-copy-worksheet-range-complete-java-guide/)
+### [Java’da Çalışma Kitapları Arasında Aralık Kopyalama – Adım Adım Kılavuz](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+### [Excel'de Adlandırılmış Bir Aralık Oluşturun ve Yinelenen İsimleri Tespit Edin](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Aspose.Cells for Java kullanarak Excel'de adlandırılmış bir aralık oluşturmayı ve aynı isimdeki mevcut aralıkları tespit etmeyi öğrenin.
 
 ## Ek Kaynaklar
 

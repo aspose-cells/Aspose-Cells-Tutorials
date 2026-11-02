@@ -50,6 +50,8 @@ Sfrutta il potenziale dei grafici Excel con Aspose.Cells per .NET. Impara a impo
 Scopri come personalizzare le linee dei grafici in Excel utilizzando Aspose.Cells per .NET con la nostra guida dettagliata passo dopo passo.
 ### [Imposta titoli e assi nel grafico](./set-titles-and-axes-in-chart/)
 Scopri come impostare titoli e assi nei grafici utilizzando Aspose.Cells per .NET con questa guida dettagliata, completa di esempi di codice e suggerimenti.
+### [Come preservare i grafici – preservare la formattazione dei grafici in PowerPoint C#](./how-to-preserve-charts-preserve-chart-formatting-in-powerpoi/)
+Scopri come mantenere la formattazione dei grafici quando li trasferisci in PowerPoint usando Aspose.Slides per .NET con C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

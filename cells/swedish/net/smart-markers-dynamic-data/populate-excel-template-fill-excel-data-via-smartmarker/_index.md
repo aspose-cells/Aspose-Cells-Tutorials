@@ -178,11 +178,14 @@ Steget **fylla i Excel‑mall** är nu slutfört, och du har framgångsrikt **fy
 Om `Items` är tomt lämnar SmartMarker tabellrubriken intakt men infogar inga rader. För att undvika ett tomt utrymme kan du lägga till ett villkorsblock:
 
 ```csharp
-{{#if Orders.Items.Length > 0}}
-    ... table rows ...
-{{else}}
-    No items were ordered.
-{{/if}}
+if (order.Items.Length > 0)
+{
+    // ... table rows ...
+}
+else
+{
+    // No items were ordered.
+}
 ```
 
 ### Anpassade talformat

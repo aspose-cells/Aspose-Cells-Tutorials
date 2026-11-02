@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabulky a seznamy
@@ -60,22 +58,23 @@ Naučte se, jak snadno přejmenovat tabulku v Excelu pomocí Aspose.Cells pro .N
 ### [Smazání řádků v tabulce Word – Kompletní průvodce C#](./delete-rows-word-table-complete-c-guide/)
 Naučte se, jak pomocí Aspose.Words pro .NET smazat řádky v tabulce Word pomocí C# v tomto podrobném průvodci.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Jak přejmenovat tabulku v Excelu pomocí C# – krok za krokem](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
 Naučte se přejmenovat tabulku v Excelu pomocí C# s podrobným krok za krokem návodem v Aspose.Cells pro .NET.
 ### [Odstranění záhlaví tabulky v Aspose.Cells – kompletní průvodce](./remove-table-header-in-aspose-cells-complete-guide/)
 Naučte se, jak odstranit záhlaví tabulky v Aspose.Cells pro .NET pomocí tohoto kompletního průvodce.
+### [Odstranění více řádků ve Wordu – Kompletní průvodce odstraňováním řádků tabulky](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
+Naučte se, jak pomocí Aspose.Words pro .NET odstranit více řádků z tabulky ve Wordu v několika krocích.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

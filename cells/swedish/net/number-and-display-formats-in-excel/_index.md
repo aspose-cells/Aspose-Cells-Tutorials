@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tal- och visningsformat i Excel
@@ -37,22 +35,23 @@ Lär dig att exportera Excel-filer med Aspose.Cells för .NET samtidigt som du b
 ### [Formatera datum och tid till ISO i C# – Komplett guide](./format-datetime-to-iso-in-c-complete-guide/)
 Lär dig hur du formaterar datum och tid till ISO‑format i C# med Aspose.Cells för .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Hur du formaterar valuta i en grid‑kolumn – steg‑för‑steg‑guide](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 Lär dig att formatera valuta i en grid‑kolumn med Aspose.Cells för .NET i denna detaljerade steg‑för‑steg‑guide.
 ### [Applicera talformat i Excel – Steg‑för‑steg guide för att formatera kolumner](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
 Lär dig hur du med Aspose.Cells för .NET applicerar talformat på kolumner i Excel steg för steg.
+### [Hur man avrundar Excel-nummer i C# – komplett programmeringsguide](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+Lär dig att avrunda tal i Excel med C# med Aspose.Cells. En steg-för-steg-guide för exakt numerisk formatering.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

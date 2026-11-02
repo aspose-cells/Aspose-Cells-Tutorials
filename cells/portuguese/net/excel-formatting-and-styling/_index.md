@@ -78,6 +78,10 @@ Transforme a direção do texto no Excel com o Aspose.Cells para .NET. Siga noss
 Aprenda a quebrar texto longo em células do Excel com o Aspose.Cells para .NET neste guia fácil de seguir. Transforme suas planilhas sem esforço.
 ### [Aplicar estilos de célula com Aspose.Cells – Importar DataTable com formatação](./apply-cell-styles-with-aspose-cells-import-datatable-with-fo/)
 Aprenda a aplicar estilos de célula ao importar um DataTable para o Excel usando Aspose.Cells, preservando a formatação.
+### [Como criar uma pasta de trabalho Excel em C# com formatação personalizada e salvar como XLSX](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
+Aprenda a criar uma pasta de trabalho Excel em C# com formatação personalizada e salvá‑la como XLSX usando Aspose.Cells.
+### [Criar arquivo Excel em C# – estilizar células e definir formato de moeda](./create-excel-file-c-style-cells-and-set-currency-format/)
+Aprenda a criar um arquivo Excel em C# usando Aspose.Cells, aplicar estilos às células e definir o formato de moeda de forma simples.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

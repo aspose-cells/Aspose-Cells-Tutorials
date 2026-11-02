@@ -50,6 +50,8 @@ Odblokuj potencjał wykresów Excela dzięki Aspose.Cells dla .NET. Naucz się u
 Dowiedz się, jak dostosować linie wykresu w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego szczegółowego przewodnika krok po kroku.
 ### [Ustaw tytuły i osie na wykresie](./set-titles-and-axes-in-chart/)
 Dowiedz się, jak ustawiać tytuły i osie na wykresach za pomocą Aspose.Cells dla .NET, korzystając z tego przewodnika krok po kroku, który zawiera przykłady kodu i wskazówki.
+### [Jak zachować wykresy – zachowanie formatowania wykresu w PowerPoint (C#)](./how-to-preserve-charts-preserve-chart-formatting-in-powerpoi/)
+Dowiedz się, jak zachować formatowanie wykresów w prezentacjach PowerPoint przy użyciu Aspose.Slides dla .NET w języku C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

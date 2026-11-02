@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รูปแบบตัวเลขและการแสดงผลใน Excel
@@ -37,22 +35,23 @@
 ### [แปลงวันที่และเวลาเป็น ISO ใน C# – คู่มือครบถ้วน](./format-datetime-to-iso-in-c-complete-guide/)
 เรียนรู้วิธีแปลงค่า DateTime เป็นรูปแบบ ISO ใน C# ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [วิธีจัดรูปแบบสกุลเงินในคอลัมน์กริด – คู่มือขั้นตอนโดยละเอียด](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 เรียนรู้วิธีจัดรูปแบบสกุลเงินในคอลัมน์กริดของ Excel อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
 ### [การใช้รูปแบบตัวเลขใน Excel – คู่มือขั้นตอนต่อขั้นตอนในการจัดรูปแบบคอลัมน์](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
 เรียนรู้วิธีใช้รูปแบบตัวเลขใน Excel อย่างละเอียดเพื่อจัดรูปแบบคอลัมน์อย่างมืออาชีพด้วย Aspose.Cells สำหรับ .NET
+### [วิธีปัดเศษตัวเลขใน Excel ด้วย C# – คู่มือการเขียนโปรแกรมครบถ้วน](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+เรียนรู้วิธีปัดเศษตัวเลขใน Excel ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

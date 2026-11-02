@@ -49,11 +49,14 @@ Czy wiesz, że możesz włączyć zawartość HTML bezpośrednio do arkuszy Exce
 ## Oceń IsBlank za pomocą inteligentnych znaczników
 Zarządzanie pustymi wartościami w zestawach danych może być uciążliwe, ale Aspose.Cells upraszcza to dzięki swojej możliwości oceny pustych wartości za pomocą inteligentnych znaczników. Ta funkcja umożliwia łatwe sprawdzanie pustych komórek i odpowiednie dostosowywanie logiki raportowania. Dzięki tej możliwości raporty mogą automatycznie obsługiwać sytuacje, w których może brakować danych, zapewniając odbiorcom jasne i dokładne informacje. Dowiedz się, jak skutecznie wdrożyć tę funkcję w swoich raportach. [Przeczytaj więcej](./evaluate-isblank-smart-markers/)
 
+### [Jak ocenić formułę za pomocą inteligentnych znaczników – Kompletny przewodnik](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
+Dowiedz się, jak ocenić formuły w Excelu przy użyciu inteligentnych znaczników w Aspose.Cells, aby automatycznie obsługiwać warunki i wyniki.
+
 ## Implementacja tablicy zmiennych z inteligentnymi znacznikami
 Czy często masz do czynienia z różnymi ilościami danych? Funkcja tablicy zmiennych w Smart Markers pozwala na elastyczne zarządzanie listami danych. Oznacza to, że możesz generować raporty, które dostosowują się do różnych rozmiarów zestawów danych bez konieczności ponownego projektowania szablonów za każdym razem. Ucząc się, jak wdrażać tablice zmiennych, możesz usprawnić procesy raportowania i ulepszyć prezentację danych. Ten samouczek przedstawia kroki, które pomogą Ci rozpocząć pracę z tablicami zmiennych w raportach. [Przeczytaj więcej](./variable-array-smart-markers/)
 
-## Użyj listy ogólnej w inteligentnych znacznikach
-Elastyczność list generycznych pozwala deweloperom obsługiwać dane w sposób ustrukturyzowany bez utraty wydajności. W tym samouczku dowiesz się, jak wykorzystać listy generyczne ze znacznikami inteligentnymi, aby tworzyć solidne, dynamiczne raporty programu Excel. Takie podejście zapewnia, że możesz łatwo manipulować zbiorami danych, zachowując jednocześnie silne bezpieczeństwo typów i wydajność w swoich aplikacjach. Śledź dalej, aby zobaczyć, jak może to przynieść korzyści w generowaniu raportów. [Przeczytaj więcej](./generic-list-smart-markers/)
+### [Utwórz plik Excel z JSON przy użyciu Aspose.Cells Smart Marker](./create-excel-from-json-with-aspose-cells-smart-marker/)
+Dowiedz się, jak generować plik Excel z danych JSON przy pomocy Smart Markers w Aspose.Cells.
 
 ## Inteligentne znaczniki w Aspose.Cells dla samouczków dotyczących dynamicznych danych
 ### [Dodawanie niestandardowych etykiet za pomocą inteligentnych znaczników w Aspose.Cells](./add-custom-labels-smart-markers/)
@@ -98,6 +101,8 @@ Krok po kroku pokażemy, jak tworzyć szablony Excela wykorzystujące inteligent
 Dowiedz się, jak dynamicznie podmieniać zmienne w plikach JSON przy pomocy SmartMarker w Aspose.Cells, krok po kroku.
 ### [Jak załadować szablon i utworzyć raport Excel przy użyciu SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 Dowiedz się, jak wczytać szablon i wygenerować raport Excel przy pomocy SmartMarker w Aspose.Cells for .NET.
+### [Jak wygenerować raport Excel, łącząc szablon Excel z inteligentnymi znacznikami](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
+Poznaj krok po kroku, jak scalić szablon Excel z inteligentnymi znacznikami, aby automatycznie tworzyć raporty w Aspose.Cells.
 ### [Jak używać znaczników w Aspose.Cells do dynamicznego nazewnictwa arkuszy w Excelu](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
 Dowiedz się, jak wykorzystać znaczniki w Aspose.Cells, aby automatycznie nadawać arkuszom dynamiczne nazwy w plikach Excel.
 ### [Utwórz dynamiczną tabelę Excel – przewodnik po inteligentnych znacznikach](./create-dynamic-excel-table-smart-marker-guide/)
@@ -118,13 +123,9 @@ Dowiedz się, jak konwertować pliki JSON do formatu Excel przy użyciu C# i bib
 ### [Jak połączyć arkusze w Excelu za pomocą SmartMarker – przewodnik krok po kroku](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
 Dowiedz się, jak przy użyciu SmartMarker łączyć arkusze w Excelu, tworząc spójne raporty. Przewodnik krok po kroku dla .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+### [Utwórz skoroszyt Excel programowo przy użyciu inteligentnych znaczników](./create-excel-workbook-programmatically-using-smart-markers/)
+### [Konfiguracja opcji SmartMarkerOptions ArrayAsSingle w C# dla tablic JSON](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
 
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Jak utworzyć skoroszyt przy użyciu inteligentnych znaczników – przewodnik Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
 Dowiedz się, jak krok po kroku utworzyć nowy skoroszyt Excel przy użyciu inteligentnych znaczników w Aspose.Cells dla .NET.
 ### [Automatyczne nazewnictwo arkuszy Excel – łatwy sposób generowania arkuszy](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
@@ -149,15 +150,38 @@ Dowiedz się, jak automatycznie generować faktury w Excelu, dynamicznie nazywa�
 Dowiedz się, jak stworzyć obiekt danych głównych i automatycznie generować arkusz szczegółowy przy użyciu Smart Markers w Aspose.Cells.
 ### [Jak utworzyć hierarchię przy użyciu SmartMarker – przewodnik krok po kroku](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
 ### [Parsowanie zagnieżdżonego JSON w C# – Tworzenie ładunku JSON w C#](./parse-nested-json-c-create-json-payload-c/)
-Dowiedz się, jak analizować zagnieżdżone struktury JSON i generować odpowiedni ładunek JSON w języku C# przy użyciu Aspose.Cells.
 ### [Jak utworzyć skoroszyt z inteligentnymi znacznikami – Output High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
 ### [Utwórz raport master‑detail w C# – Wypełnij szablon Excela przy użyciu SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
-Dowiedz się, jak w C# stworzyć raport master‑detail, wypełniając szablon Excela przy użyciu SmartMarker w Aspose.Cells.
+### [Zastosowanie SmartMarker w arkuszu w C# – Kompletny przewodnik](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
+Dowiedz się, jak zastosować SmartMarker w arkuszu Excel przy użyciu C#, krok po kroku, aby generować dynamiczne raporty.
+### [Tworzenie pliku Excel programowo przy użyciu Aspose.Cells Smart Markers](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+### [Generowanie wielu arkuszy przy użyciu SmartMarker – Kompletny przewodnik C#](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
+Dowiedz się, jak generować wiele arkuszy w Excelu przy użyciu SmartMarker w C#, krok po kroku, aby tworzyć dynamiczne raporty.
+### [Aspose Cells Smart Markers: Generowanie Excela z modelu w C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
+Poznaj, jak przy użyciu Smart Markers w Aspose.Cells generować pliki Excel bezpośrednio z modelu w C#.
+### [Eksport danych do Excela – Kompletny przewodnik po wypełnianiu szablonu Excela za pomocą inteligentnych znaczników](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
+
+### [Jak utworzyć dane inteligentnych znaczników i wypełnić szablon Excela](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
+Dowiedz się, jak tworzyć dane dla inteligentnych znaczników i wypełniać szablon Excela przy użyciu Aspose.Cells w .NET.
+### [Ładowanie szablonu Excela w C# – szybkie generowanie wielu arkuszy](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
+Dowiedz się, jak wczytać szablon Excela w C# i szybko wygenerować wiele arkuszy w raporcie.
+### [Zakresowy znacznik inteligentny do przetwarzania danych zagnieżdżonych w C# – Kompletny przewodnik](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
+Dowiedz się, jak używać zakresowych znaczników inteligentnych w Aspose.Cells, aby obsługiwać zagnieżdżone dane w C#.
+### [Import JSON do Excela w C# – przewodnik krok po kroku](./import-json-to-excel-in-c-step-by-step-guide/)
+Dowiedz się, jak w prosty sposób zaimportować dane JSON do pliku Excel przy użyciu Aspose.Cells w C#.
+### [Jak utworzyć listę raportów Excel przy użyciu inteligentnych znaczników Aspose.Cells](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
+Dowiedz się, jak generować listy raportów Excel przy użyciu inteligentnych znaczników Aspose.Cells w .NET.
+### [Utwórz skoroszyt Master Detail z użyciem Aspose.Cells Smart Marker](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
+Dowiedz się, jak przy pomocy Smart Markers w Aspose.Cells stworzyć skoroszyt Master‑Detail, łączący dane nadrzędne i szczegółowe w Excelu.
+### [Przewodnik Master‑Detail w Excelu – wypełnianie szablonów za pomocą Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+Dowiedz się, jak używać Smart Markers do wypełniania szablonów Excel danymi w scenariuszu Master‑Detail.
+### [Jak powielać arkusze – Kompletny przewodnik po automatyzacji Excela](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+
+### [Konwertuj JSON do XLSX w C# przy użyciu SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

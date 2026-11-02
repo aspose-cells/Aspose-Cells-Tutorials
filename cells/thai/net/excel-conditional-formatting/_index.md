@@ -33,6 +33,9 @@
 ### [สร้างเวิร์กบุ๊ก Excel ด้วย C# – คู่มือทีละขั้นตอนพร้อมการจัดรูปแบบตามเงื่อนไข](./create-excel-workbook-c-step-by-step-guide-with-conditional/)
 เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# พร้อมการจัดรูปแบบตามเงื่อนไขในคู่มือทีละขั้นตอน
 
+### [สร้างการจัดรูปแบบตามเงื่อนไขใน Excel ด้วย Aspose.Cells – คู่มือทีละขั้นตอน](./create-conditional-formatting-in-excel-with-aspose-cells-ste/)
+เรียนรู้วิธีสร้างการจัดรูปแบบตามเงื่อนไขใน Excel ด้วย Aspose.Cells ผ่านคู่มือทีละขั้นตอนที่เข้าใจง่าย
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

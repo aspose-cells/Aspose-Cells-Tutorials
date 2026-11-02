@@ -38,6 +38,8 @@ Leer in deze stapsgewijze handleiding hoe u aangepaste eigenschappen van Excel n
 Leer hoe u scheidingstekens voor lege rijen in Excel kunt behouden met Aspose.Cells voor .NET. Stapsgewijze handleiding met codevoorbeelden.
 ### [Alleen zichtbare bladen laden vanuit Excel-bestand](./load-visible-sheets-only/)
 Leer in deze stapsgewijze handleiding hoe u alleen zichtbare bladen uit Excel-bestanden kunt laden met Aspose.Cells voor .NET.
+### [Excel-bestand programmatisch maken in C# – tutorial](./create-excel-file-programmatically-in-c-tutorial/)
+Leer hoe u met Aspose.Cells voor .NET een Excel-bestand maakt in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

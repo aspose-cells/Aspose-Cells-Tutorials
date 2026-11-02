@@ -36,6 +36,8 @@ Este método é ideal para gerenciamento de dados direcionado, permitindo que vo
 Libere o poder do Excel acessando intervalos nomeados com nosso guia fácil usando Aspose.Cells para .NET. Perfeito para gerenciamento de dados.
 ### [Acessar intervalo nomeado específico no Excel](./access-specific-named-range/)
 Aprenda como acessar intervalos nomeados específicos no Excel usando o Aspose.Cells para .NET com este tutorial abrangente passo a passo e código de exemplo.
+### [Definir intervalo nomeado no Excel com C# – criar pasta de trabalho](./define-named-range-in-excel-with-c-create-workbook/)
+Aprenda a criar e definir um intervalo nomeado em uma nova pasta de trabalho Excel usando C# e Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การจัดรูปแบบตัวเลขและวันที่แบบกำหนดเองของ Excel
@@ -54,11 +52,22 @@
 เรียนรู้วิธีสร้างไฟล์ Excel พร้อมรูปแบบกำหนดเองโดยใช้ Aspose.Cells สำหรับ .NET ด้วยภาษา C#
 ### [การแยกวันที่ตามยุคญี่ปุ่นใน C# ด้วย Aspose.Cells – คู่มือเต็ม](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 เรียนรู้วิธีแปลงและประมวลผลวันที่ตามระบบยุคญี่ปุ่นใน C# ด้วย Aspose.Cells อย่างละเอียดในคู่มือฉบับเต็ม
+### [สร้างเวิร์กบุ๊ก Excel และแปลงวันที่ญี่ปุ่นใน C#](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
+เรียนรู้วิธีสร้างไฟล์ Excel และแปลงวันที่ตามระบบญี่ปุ่นด้วย Aspose.Cells สำหรับ .NET ใน C#
+### [สร้าง Excel Workbook ด้วย C# – จำกัดจำนวนหลักสำคัญใน Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
+เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# และตั้งค่าการจำกัดจำนวนหลักสำคัญเพื่อควบคุมความแม่นยำของข้อมูล
+### [วิธีใช้รูปแบบตัวเลขใน Excel ด้วย Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
+เรียนรู้วิธีกำหนดรูปแบบตัวเลขในไฟล์ Excel ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด
+### [จัดรูปแบบคอลัมน์วันที่ใน Excel – คู่มือ C# ครบถ้วนสำหรับการส่งออก DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
+เรียนรู้วิธีจัดรูปแบบคอลัมน์วันที่ใน Excel และส่งออก DataTable ด้วย C# อย่างละเอียดในบทช่วยสอนนี้
+### [การแปลงปฏิทินญี่ปุ่นใน C# – คู่มือเต็ม](./japanese-calendar-conversion-in-c-full-guide/)
+เรียนรู้วิธีแปลงปฏิทินญี่ปุ่นเป็นวันที่ใน C# อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
+### [แปลง DateTime ด้วยรัชกาลของจักรพรรดิญี่ปุ่นโดยใช้ Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+เรียนรู้วิธีแปลงค่า DateTime พร้อมระบุรัชกาลของจักรพรรดิญี่ปุ่นโดยใช้ Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
@@ -86,4 +95,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

@@ -62,7 +62,11 @@
 ### [วิธีการดำเนินการแทนที่ Regex ใน Excel โดยใช้ Aspose.Cells สำหรับ Java: คู่มือฉบับสมบูรณ์](./regex-replacement-excel-aspose-cells-java-guide/)
 เรียนรู้วิธีการสร้างระบบอัตโนมัติในการแทนที่ข้อความในไฟล์ Excel โดยใช้ regex ด้วย Aspose.Cells สำหรับ Java คำแนะนำทีละขั้นตอนนี้ครอบคลุมถึงการเริ่มต้น การกำหนดค่า และการใช้งานจริง
 
+### [วิธีแยกคอลัมน์ใน Java ด้วย Aspose.Cells – คู่มือขั้นตอนโดยขั้นตอน](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
+เรียนรู้วิธีแยกคอลัมน์ในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
 
+### [วิธีลบ Autofilter จาก Excel ด้วย Aspose.Cells Java](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
+เรียนรู้วิธีลบ Autofilter จากไฟล์ Excel อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java
 
 ## แหล่งข้อมูลเพิ่มเติม
 

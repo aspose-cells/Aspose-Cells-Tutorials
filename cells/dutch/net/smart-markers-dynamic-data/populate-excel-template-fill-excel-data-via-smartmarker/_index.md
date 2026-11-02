@@ -178,11 +178,14 @@ De **populate Excel template**‑stap is nu voltooid, en je hebt met succes **Ex
 Als `Items` leeg is, laat SmartMarker de tabelkop intact, maar voegt geen rijen in. Om een lege ruimte te vermijden, kun je een voorwaardelijk blok toevoegen:
 
 ```csharp
-{{#if Orders.Items.Length > 0}}
-    ... table rows ...
-{{else}}
-    No items were ordered.
-{{/if}}
+if (order.Items.Length > 0)
+{
+    // ... table rows ...
+}
+else
+{
+    // No items were ordered.
+}
 ```
 
 ### Aangepaste getalformaten

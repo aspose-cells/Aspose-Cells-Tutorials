@@ -8,9 +8,7 @@ url: /net/number-and-display-formats-in-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Number and Display Formats in Excel
@@ -37,22 +35,23 @@ Learn how to export Excel files while preserving number formats using Aspose.Cel
 ### [format datetime to iso in C# – Complete Guide](./format-datetime-to-iso-in-c-complete-guide/)
 Learn how to format DateTime values to ISO 8601 strings in C# with Aspose.Cells for .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [how to format currency in a Grid Column – Step‑by‑Step Guide](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 Step-by-step guide to format currency values in a grid column using Aspose.Cells for .NET.
 ### [apply number format excel – Step‑by‑Step Guide to Formatting Columns](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
 Step-by-step guide to applying number formats to Excel columns using Aspose.Cells for .NET.
+### [How to round Excel numbers in C# – complete programming guide](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+Learn how to round numbers in Excel using Aspose.Cells for .NET with C#. Step-by-step guide covering rounding methods and best practices.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

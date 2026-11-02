@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Числовые и отображаемые форматы в Excel
@@ -37,22 +35,23 @@
 ### [Форматирование даты и времени в ISO в C# – Полное руководство](./format-datetime-to-iso-in-c-complete-guide/)
 Преобразуйте даты и время в формат ISO в C# с помощью Aspose.Cells для .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Как отформатировать валюту в столбце сетки – пошаговое руководство](./how-to-format-currency-in-a-grid-column-step-by-step-guide/)
 Узнайте, как программно отформатировать валюту в столбце сетки с помощью Aspose.Cells для .NET.
 ### [Применение числового формата в Excel – Пошаговое руководство по форматированию столбцов](./apply-number-format-excel-step-by-step-guide-to-formatting-c/)
 Узнайте, как с помощью Aspose.Cells для .NET применять числовые форматы к столбцам Excel шаг за шагом.
+### [Как округлять числа в Excel в C# – полное руководство по программированию](./how-to-round-excel-numbers-in-c-complete-programming-guide/)
+Узнайте, как округлять числа в Excel с помощью Aspose.Cells для .NET на C# в полном пошаговом руководстве.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -14,9 +14,8 @@ url: /hu/java/automation-batch-processing/aspose-cells-java-two-three-color-scal
 weight: 1
 ---
 
-". All sections present.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

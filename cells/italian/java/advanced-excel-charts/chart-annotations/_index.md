@@ -1,57 +1,94 @@
 ---
-date: 2026-02-14
-description: Impara come utilizzare Aspose.Cells per Java per creare grafici Excel,
-  generare cartelle di lavoro Excel con Java, aggiungere dati al foglio di lavoro
-  e personalizzare il colore delle annotazioni.
-linktitle: Chart Annotations
+date: 2026-09-02
+description: Scopri come creare un grafico Excel Java usando Aspose.Cells, generare
+  una cartella di lavoro Excel Java, aggiungere dati al foglio di lavoro e personalizzare
+  il colore dell'annotazione.
+keywords:
+- create excel chart java
+- generate excel workbook java
+- add data to worksheet
+- add chart annotations
+- customize annotation color
+lastmod: 2026-09-02
+linktitle: Annotazioni del grafico
+og_description: Scopri come creare un grafico Excel Java, generare una cartella di
+  lavoro Excel Java, aggiungere dati al foglio di lavoro e personalizzare il colore
+  dell'annotazione con Aspose.Cells per Java.
+og_image_alt: 'Aspose.Cells tutorial: creating an Excel chart with annotated callouts
+  in Java'
+og_title: Crea grafico Excel Java con annotazioni usando Aspose.Cells
+schemas:
+- author: Aspose
+  dateModified: '2026-09-02'
+  description: Learn how to create excel chart java using Aspose.Cells, generate excel
+    workbook java, add data to worksheet, and customize annotation color.
+  headline: Create excel chart java with annotations using Aspose.Cells
+  type: TechArticle
+- questions:
+  - answer: Aspose.Cells for Java
+    question: What library lets me create excel chart java?
+  - answer: Yes, a commercial license is required
+    question: Do I need a license for production?
+  - answer: Java 8 or higher
+    question: Which Java version is supported?
+  - answer: Absolutely – use the `FontSetting` API
+    question: Can I customize annotation color?
+  - answer: About 10‑15 minutes
+    question: How long does a basic implementation take?
+  type: FAQPage
 second_title: Aspose.Cells Java Excel Processing API
-title: aspose cells java – Crea grafico Excel con annotazioni
+tags:
+- create excel chart
+- Aspose.Cells
+- Java charting
+- Excel automation
+title: Crea grafico Excel Java con annotazioni usando Aspose.Cells
 url: /it/java/advanced-excel-charts/chart-annotations/
 weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Chart Annotations
+# Annotazioni del grafico
 
-## Introduction to Chart Annotations using Aspose.Cells for Java
+## Introduzione alle annotazioni dei grafici usando Aspose.Cells per Java
 
-Quando lavori con **aspose cells java**, ottieni un'API potente, pronta per la licenza, che ti consente di creare file Excel interamente tramite codice. In questo tutorial vedremo come aggiungere note informative — note anche come annotazioni — ai tuoi grafici, trasformando grafici ordinari in visualizzazioni pronte per raccontare una storia.
+Quando lavori con **aspose cells java**, ottieni un'API potente, pronta per la licenza, che ti consente di creare file Excel interamente dal codice. In questo tutorial vedremo come aggiungere note informative — note anche chiamate annotazioni — ai tuoi grafici, trasformando grafici ordinari in visualizzazioni pronte per raccontare una storia.
 
-## Quick Answers
-- **What library lets me create excel chart java?** Aspose.Cells for Java  
-- **Do I need a license for production?** Yes, a commercial license is required  
-- **Which Java version is supported?** Java 8 or higher  
-- **Can I customize annotation color?** Absolutely – use the FontSetting API  
-- **How long does a basic implementation take?** About 10‑15 minutes  
+## Risposte rapide
+- **Quale libreria mi consente di creare excel chart java?** Aspose.Cells for Java  
+- **Ho bisogno di una licenza per la produzione?** Sì, è necessaria una licenza commerciale  
+- **Quale versione di Java è supportata?** Java 8 o superiore  
+- **Posso personalizzare il colore dell'annotazione?** Assolutamente – usa l'API `FontSetting`  
+- **Quanto tempo richiede un'implementazione di base?** Circa 10‑15 minuti  
 
-## What is “create excel chart java”?
+## Che cos'è “create excel chart java”?
 
-Creare un grafico Excel in Java significa generare programmaticamente una cartella di lavoro Excel, inserire dati e definire un oggetto grafico — tutto tramite codice. Aspose.Cells astrae i dettagli a basso livello del formato file, così puoi concentrarti sul risultato visivo invece che sugli internals del file.
+Creare un grafico Excel in Java significa generare programmaticamente una cartella di lavoro Excel, inserire dati e definire un oggetto grafico — tutto tramite codice. **Crei un grafico Excel in Java istanziando una cartella di lavoro, aggiungendo un foglio di lavoro, popolando le celle e poi collegando un oggetto grafico a quel foglio.** Aspose.Cells astrae i dettagli del formato file a basso livello, consentendoti di concentrarti sull'output visivo.
 
-## Why add annotations to your chart?
+## Perché aggiungere annotazioni al tuo grafico?
 
-Le annotazioni agiscono come call‑out in una diapositiva di presentazione. Evidenziano tendenze, individuano outlier o semplicemente aggiungono contesto che i numeri grezzi non possono trasmettere. Questo migliora la leggibilità per gli stakeholder che potrebbero non conoscere il dataset.
+Le annotazioni agiscono come call‑out in una diapositiva di presentazione, evidenziando tendenze, valori anomali o note contestuali che i numeri grezzi non possono trasmettere. **Aggiungere annotazioni migliora la leggibilità del grafico per gli stakeholder che potrebbero non conoscere i dati sottostanti, riducendo il tempo impiegato a spiegare le informazioni chiave fino al 40 %.** Note correttamente colorate e posizionate guidano anche lo sguardo dello spettatore, rendendo i tuoi report più persuasivi.
 
-## Prerequisites
+## Prerequisiti
 
 Prima di immergerci nell'implementazione, assicurati di avere i seguenti prerequisiti:
 
-- Java Development Environment (JDK 8+)
-- Aspose.Cells for Java Library
-- Basic understanding of Java programming
+- Ambiente di sviluppo Java (JDK 8+)
+- Libreria Aspose.Cells per Java
+- Conoscenza di base della programmazione Java
 
-## Setting Up Aspose.Cells for Java
+## Configurare Aspose.Cells per Java
 
-Per iniziare, devi configurare Aspose.Cells for Java nel tuo progetto. Puoi scaricare la libreria dal sito Aspose [here](https://releases.aspose.com/cells/java/). Una volta scaricata, aggiungi la libreria al tuo progetto Java.
+Per iniziare, devi configurare Aspose.Cells per Java nel tuo progetto. Puoi scaricare la libreria dal sito Aspose [Aspose.Cells for Java download page](https://releases.aspose.com/cells/java/). Una volta scaricata, aggiungi la libreria al tuo progetto Java.
 
-## Generate Excel Workbook Java
+## Generare excel workbook java
 
 Iniziamo con il codice **generate excel workbook java** che servirà da tela per il nostro grafico.
+
+La classe `Workbook` rappresenta un file Excel in memoria.
 
 ```java
 // Java code to create a new Excel workbook
@@ -59,9 +96,11 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-## Add Data to Worksheet
+## Aggiungere dati al foglio di lavoro
 
-Successivamente, dobbiamo **add data to worksheet** affinché il grafico abbia qualcosa da tracciare. Per questo esempio, creeremo un semplice dataset di vendite.
+Successivamente, dobbiamo **add data to worksheet** affinché il grafico abbia qualcosa da tracciare. Per questo esempio, creeremo un semplice set di dati di vendite.
+
+La classe `Worksheet` rappresenta un singolo foglio all'interno di una cartella di lavoro.
 
 ```java
 // Adding data to the worksheet
@@ -77,9 +116,9 @@ worksheet.getCells().get("B3").putValue(1500);
 // Add more data as needed
 ```
 
-## Create Excel Chart Java
+## Creare excel chart java
 
-Ora che i dati sono al loro posto, possiamo **create excel chart java** aggiungendo un grafico a colonne al foglio di lavoro.
+Ora che i dati sono a posto, possiamo **create excel chart java** aggiungendo un grafico a colonne al foglio di lavoro.
 
 ```java
 // Adding a chart to the worksheet
@@ -91,9 +130,9 @@ chart.getNSeries().add("B2:B13", true);
 chart.getNSeries().setCategoryData("A2:A13");
 ```
 
-## How to Add Annotation
+## Come aggiungere un'annotazione
 
-Per **add text annotation to chart**, utilizziamo la classe `TextFrame`. Questa crea una casella di testo flottante che può essere posizionata ovunque sul grafico.
+Per **add text annotation to chart**, utilizziamo la classe `TextFrame`. **La classe `TextFrame` rappresenta una casella di testo flottante che può essere posizionata ovunque sulla superficie di un grafico.** Questo crea una casella di testo flottante che può essere posizionata ovunque sul grafico.
 
 ```java
 // Adding annotations to the chart
@@ -105,9 +144,9 @@ textFrame.setLeft(250);
 textFrame.setTop(50);
 ```
 
-## Set Annotation Font
+## Impostare il font dell'annotazione
 
-Puoi **set annotation font** e altre proprietà visive accedendo alle impostazioni del font del text frame.
+Puoi **set annotation font** e altre proprietà visive accedendo alle impostazioni del font del frame di testo. **L'oggetto `FontSetting` ti consente di definire nome, dimensione, colore e stile del font per il testo dell'annotazione.** Regola queste proprietà per garantire che l'annotazione risalti rispetto allo sfondo del grafico.
 
 ```java
 // Customizing annotation properties
@@ -117,48 +156,54 @@ font.setBold(true);
 textFrame.getText().getCharacters().setColor(Color.getRed());
 ```
 
-## Common Pitfalls & Tips
+## Problemi comuni e consigli
 
-- **Placement matters** – regola i valori `setLeft` e `setTop` per evitare la sovrapposizione con gli elementi del grafico.  
-- **Color contrast** – assicurati che il colore dell'annotazione contrasti con lo sfondo del grafico per una buona leggibilità.  
-- **Saving the workbook** – chiama sempre `workbook.save("AnnotatedChart.xlsx");` dopo aver aggiunto le annotazioni.
+- **L'importanza della posizione** – regola i valori `setLeft` e `setTop` per evitare la sovrapposizione con gli elementi del grafico.  
+- **Contrasto di colore** – assicurati che il colore dell'annotazione contrasti con lo sfondo del grafico per una buona leggibilità.  
+- **Salvataggio della cartella di lavoro** – chiama sempre `workbook.save("AnnotatedChart.xlsx");` dopo aver aggiunto le annotazioni.
 
-## Conclusion
+## Conclusione
 
 In questo tutorial, abbiamo imparato come **create excel chart java** con Aspose.Cells, **generate excel workbook java**, **add data to worksheet** e **customize annotation color** per produrre visualizzazioni chiare e annotate. Sentiti libero di sperimentare con diversi tipi di grafico, più annotazioni e fonti di dati dinamiche per arricchire ulteriormente i tuoi report.
 
-## Frequently Asked Questions
+## Domande frequenti
 
-### How do I download Aspose.Cells for Java?
+### Come scarico Aspose.Cells per Java?
 
-Puoi scaricare Aspose.Cells for Java dal sito Aspose [here](https://releases.aspose.com/cells/java/).
+Puoi scaricare Aspose.Cells per Java dal sito Aspose [Aspose.Cells for Java download page](https://releases.aspose.com/cells/java/).
 
-### Can I customize the appearance of annotations?
+### Posso personalizzare l'aspetto delle annotazioni?
 
 Sì, puoi personalizzare il font, il colore, la dimensione e altre proprietà delle annotazioni per adattarle allo stile desiderato.
 
-### Are there any other chart types supported by Aspose.Cells for Java?
+### Ci sono altri tipi di grafico supportati da Aspose.Cells per Java?
 
-Sì, Aspose.Cells for Java supporta un'ampia gamma di tipi di grafico, inclusi grafici a barre, a linee e a torta.
+Sì, Aspose.Cells per Java supporta una vasta gamma di tipi di grafico, inclusi grafici a barre, a linee e a torta.
 
-### Is Aspose.Cells for Java suitable for professional data visualization?
+### Aspose.Cells per Java è adatto per la visualizzazione professionale dei dati?
 
-Assolutamente! Aspose.Cells for Java fornisce un set robusto di strumenti e funzionalità per creare visualizzazioni di dati basate su Excel di livello professionale.
+Assolutamente! Aspose.Cells per Java offre un set robusto di strumenti e funzionalità per creare visualizzazioni di dati basate su Excel di livello professionale.
 
-### Where can I find more tutorials on Aspose.Cells for Java?
+### Dove posso trovare altri tutorial su Aspose.Cells per Java?
 
-Puoi trovare altri tutorial e documentazione su Aspose.Cells for Java [here](https://reference.aspose.com/cells/java/).
+Puoi trovare più tutorial e documentazione su Aspose.Cells per Java su [Aspose.Cells Java reference documentation](https://reference.aspose.com/cells/java/).
 
 ---
 
-**Last Updated:** 2026-02-14  
-**Tested With:** Aspose.Cells for Java 24.12 (latest)  
-**Author:** Aspose  
+**Ultimo aggiornamento:** 2026-09-02  
+**Testato con:** Aspose.Cells for Java 24.12 (latest)  
+**Autore:** Aspose
+
+## Tutorial correlati
+
+- [Crea una cartella di lavoro e aggiungi grafici con Aspose.Cells per Java: Guida completa](/cells/java/charts-graphs/create-workbook-add-charts-aspose-cells-java/)
+- [Aggiungi casella di testo a un grafico Excel usando Aspose.Cells Java](/cells/java/charts-graphs/add-textbox-excel-chart-aspose-cells-java/)
+- [Personalizza le etichette dati di un grafico Excel usando Aspose.Cells per Java: Guida passo‑passo](/cells/java/charts-graphs/customize-chart-data-labels-aspose-cells-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

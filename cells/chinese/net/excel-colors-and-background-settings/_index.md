@@ -40,6 +40,8 @@
 通过 Aspose.Cells for .NET 使用 C# 在 Excel 中设置列背景的完整指南，帮助您轻松自定义列的颜色和样式。
 ### [C# 工作表交替行颜色完整指南](./alternating-row-colors-in-c-worksheets-complete-guide/)
 本指南展示如何使用 Aspose.Cells for .NET 在 C# 工作表中实现交替行颜色，以提升可读性和视觉效果。
+### [在 Excel 中使用 C# 应用交替行颜色 – 完整指南](./apply-alternating-row-colors-in-excel-with-c-complete-guide/)
+学习如何使用 Aspose.Cells for .NET 在 Excel 工作表中通过 C# 自动设置交替行颜色，以提升可读性和视觉效果。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

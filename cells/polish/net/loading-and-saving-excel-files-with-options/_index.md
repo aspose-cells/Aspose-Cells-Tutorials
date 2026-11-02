@@ -34,6 +34,8 @@ Dowiedz się, jak automatycznie dopasowywać kolumny i wiersze podczas ładowani
 Dowiedz się, jak wyłączyć ujawnianie komentarzy niższego poziomu podczas zapisywania skoroszytu programu Excel w formacie HTML przy użyciu Aspose.Cells dla platformy .NET, korzystając ze szczegółowego przewodnika krok po kroku.
 ### [Utwórz nowy skoroszyt w C# – Ładuj Excel z japońskim kalendarzem](./create-new-workbook-in-c-load-excel-with-japanese-calendar/)
 Dowiedz się, jak utworzyć nowy skoroszyt w C# i wczytać plik Excel używający japońskiego kalendarza przy pomocy Aspose.Cells dla .NET.
+### [Odczyt pliku Excel C# – Jak efektywnie wczytać skoroszyt Excel w C#](./read-excel-file-c-how-to-load-excel-workbook-c-efficiently/)
+Dowiedz się, jak szybko i efektywnie wczytać plik Excel w C# przy użyciu Aspose.Cells dla .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

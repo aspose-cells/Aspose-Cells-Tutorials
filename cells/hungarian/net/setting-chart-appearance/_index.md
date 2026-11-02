@@ -50,6 +50,8 @@ Engedd szabadjára az Excel diagramkészítésben rejlő lehetőségeket az Aspo
 Tanuld meg, hogyan szabhatod testre a diagram vonalait Excelben az Aspose.Cells for .NET használatával részletes, lépésről lépésre szóló útmutatónkkal.
 ### [Címek és tengelyek beállítása a diagramban](./set-titles-and-axes-in-chart/)
 Tanuld meg, hogyan állíthatsz be címeket és tengelyeket diagramokban az Aspose.Cells for .NET használatával ebből a lépésről lépésre haladó útmutatóból, amely kódpéldákat és tippeket is tartalmaz.
+### [Diagramok megőrzése – diagramformázás megőrzése PowerPointban C#-ban](./how-to-preserve-charts-preserve-chart-formatting-in-powerpoi/)
+Tanuld meg, hogyan őrizheted meg a diagramok formázását PowerPointban C#-ban az Aspose.Slides for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

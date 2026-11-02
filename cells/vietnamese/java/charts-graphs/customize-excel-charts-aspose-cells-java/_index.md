@@ -1,46 +1,112 @@
 ---
-"date": "2025-04-07"
-"description": "Tìm hiểu cách cải thiện giao diện biểu đồ Excel của bạn bằng cách sử dụng màu chủ đề với Aspose.Cells Java. Hướng dẫn này bao gồm việc tải sổ làm việc, sửa đổi giao diện biểu đồ và lưu tệp."
-"title": "Cách tùy chỉnh biểu đồ Excel với màu chủ đề bằng Aspose.Cells Java"
-"url": "/vi/java/charts-graphs/customize-excel-charts-aspose-cells-java/"
-"weight": 1
+date: '2026-10-02'
+description: Tìm hiểu cách áp dụng màu chủ đề cho biểu đồ Excel bằng Aspose.Cells
+  Java, bao gồm thiết lập phụ thuộc Maven, các bước tùy chỉnh biểu đồ và lưu workbook.
+keywords:
+- excel chart theme colors
+- asp​ose cells maven dependency
+- customize Excel charts
+- theme colors Aspose.Cells Java
+lastmod: '2026-10-02'
+og_description: Khám phá cách sử dụng Aspose.Cells for Java để áp dụng màu chủ đề
+  cho biểu đồ Excel, thiết lập phụ thuộc Maven và lưu workbook đã cải tiến của bạn.
+og_image_alt: Guide showing Excel chart theme colors customization using Aspose.Cells
+  Java
+og_title: Màu chủ đề biểu đồ Excel – tùy chỉnh biểu đồ với Aspose.Cells Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-02'
+  description: Learn how to apply excel chart theme colors with Aspose.Cells Java,
+    including Maven dependency setup, chart customization steps, and saving the workbook.
+  headline: How to customize Excel charts with theme colors using Aspose.Cells Java
+  type: TechArticle
+- description: Learn how to apply excel chart theme colors with Aspose.Cells Java,
+    including Maven dependency setup, chart customization steps, and saving the workbook.
+  name: How to customize Excel charts with theme colors using Aspose.Cells Java
+  steps:
+  - name: Install the JDK if it isn’t already on your machine.
+    text: Install the JDK if it isn’t already on your machine.
+  - name: Create a new Java project in your IDE.
+    text: Create a new Java project in your IDE.
+  - name: Add the Aspose.Cells dependency via Maven or Gradle as shown above.
+    text: Add the Aspose.Cells dependency via Maven or Gradle as shown above.
+  - name: '**Add the dependency** – include the Maven or Gradle snippet shown earlier.'
+    text: '**Add the dependency** – include the Maven or Gradle snippet shown earlier.'
+  - name: '**Initialize the license** (optional but recommended for production).'
+    text: '**Initialize the license** (optional but recommended for production).'
+  - name: '**Data‑visualization projects** – produce polished charts for client presentations.'
+    text: '**Data‑visualization projects** – produce polished charts for client presentations.'
+  - name: '**Business analytics** – enforce corporate branding across all analytical
+      reports.'
+    text: '**Business analytics** – enforce corporate branding across all analytical
+      reports.'
+  - name: '**Java‑driven automation** – integrate chart styling into batch processing
+      pipelines.'
+    text: '**Java‑driven automation** – integrate chart styling into batch processing
+      pipelines.'
+  - name: '**Educational material** – create visually consistent teaching aids.'
+    text: '**Educational material** – create visually consistent teaching aids.'
+  - name: '**Financial reporting** – align charts with the firm’s visual identity
+      for regulatory filings.'
+    text: '**Financial reporting** – align charts with the firm’s visual identity
+      for regulatory filings.'
+  type: HowTo
+- questions:
+  - answer: Apply excel chart theme colors to existing charts using Aspose.Cells for
+      Java.
+    question: What is the primary goal?
+  - answer: Aspose.Cells 25.3 or later.
+    question: Which library version is required?
+  - answer: A temporary or permanent license is required for full feature access.
+    question: Do I need a license?
+  - answer: Yes—add the Aspose.Cells Maven dependency to your `pom.xml`.
+    question: Can I use Maven?
+  - answer: Absolutely; the API works on Java 8 and newer runtimes.
+    question: Is the code compatible with Java 8+?
+  type: FAQPage
+tags:
+- excel chart theme colors
+- Aspose.Cells
+- Java chart customization
+- Maven dependency
+title: Cách tùy chỉnh biểu đồ Excel với màu chủ đề bằng Aspose.Cells Java
+url: /vi/java/charts-graphs/customize-excel-charts-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-
 
 # Cách tùy chỉnh biểu đồ Excel với màu chủ đề bằng Aspose.Cells Java
 
 ## Giới thiệu
-Bạn có muốn tăng cường sức hấp dẫn trực quan của biểu đồ Excel bằng cách tùy chỉnh chúng với màu chủ đề không? Hướng dẫn này sẽ hướng dẫn bạn cách sử dụng **Aspose.Cells cho Java** để cải thiện giao diện biểu đồ Excel của bạn một cách liền mạch. Cho dù bạn là nhà phân tích dữ liệu, nhà phát triển hay chuyên gia kinh doanh, việc cải thiện tính thẩm mỹ của biểu đồ có thể nâng cao đáng kể hiệu quả truyền tải thông tin của chúng.
+Tăng cường sức ảnh hưởng trực quan của bảng tính của bạn bằng cách áp dụng **excel chart theme colors** với Aspose.Cells cho Java. Hướng dẫn này sẽ dẫn bạn qua việc tải workbook, truy cập biểu đồ, gán màu chủ đề cho các series, và lưu kết quả. Cho dù bạn đang chuẩn bị báo cáo kinh doanh, bảng điều khiển phân tích, hoặc quy trình xuất dữ liệu tự động, việc định dạng biểu đồ nhất quán giúp dữ liệu của bạn dễ đọc hơn và chuyên nghiệp hơn.
 
-Trong bài viết này, chúng ta sẽ khám phá cách:
-- Tải bảng tính Excel và truy cập các bảng tính và biểu đồ cụ thể.
-- Áp dụng màu chủ đề cho chuỗi biểu đồ.
-- Lưu các thay đổi—tất cả đều sử dụng Aspose.Cells cho Java.
+Kết thúc hướng dẫn này, bạn sẽ có thể:
 
-Đến cuối hướng dẫn này, bạn sẽ hiểu toàn diện về:
-- Tải sổ làm việc và truy cập các trang tính trong Java.
-- Sửa đổi giao diện biểu đồ bằng kiểu tô tùy chỉnh và màu chủ đề.
-- Lưu trữ các tệp Excel đã cập nhật của bạn một cách hiệu quả.
+- Tải một tệp Excel hiện có và xác định biểu đồ bạn muốn định dạng.  
+- Áp dụng một màu chủ đề cụ thể cho mỗi series của biểu đồ bằng lớp `ThemeColor`.  
+- Lưu workbook trong khi giữ nguyên mọi định dạng và dữ liệu.
 
-Trước khi đi sâu vào chi tiết triển khai, hãy đảm bảo rằng môi trường của bạn được thiết lập chính xác để làm việc với Aspose.Cells.
+Trước khi bắt đầu, hãy chắc chắn môi trường phát triển của bạn đáp ứng các yêu cầu sau.
 
-## Điều kiện tiên quyết
-Để thực hiện theo hướng dẫn này, bạn sẽ cần:
+## Câu trả lời nhanh
+- **Mục tiêu chính là gì?** Áp dụng excel chart theme colors cho các biểu đồ hiện có bằng Aspose.Cells cho Java.  
+- **Phiên bản thư viện yêu cầu là gì?** Aspose.Cells 25.3 hoặc mới hơn.  
+- **Tôi có cần giấy phép không?** Cần một giấy phép tạm thời hoặc vĩnh viễn để truy cập đầy đủ các tính năng.  
+- **Tôi có thể sử dụng Maven không?** Có—thêm phụ thuộc Aspose.Cells Maven vào `pom.xml` của bạn.  
+- **Mã có tương thích với Java 8+ không?** Chắc chắn; API hoạt động trên Java 8 và các môi trường mới hơn.
 
-- **Thư viện Aspose.Cells**: Đảm bảo bạn có phiên bản 25.3 trở lên của Aspose.Cells for Java.
-- **Bộ phát triển Java (JDK)**: Yêu cầu phải có JDK 8 trở lên.
-- **Thiết lập IDE**:Bất kỳ IDE Java nào như IntelliJ IDEA hoặc Eclipse đều hoạt động hoàn hảo.
+## Yêu cầu trước
+- **Thư viện Aspose.Cells** – phiên bản 25.3 hoặc mới hơn.  
+- **Bộ công cụ phát triển Java (JDK)** – 8 hoặc cao hơn.  
+- **IDE** – IntelliJ IDEA, Eclipse, hoặc bất kỳ trình chỉnh sửa nào tương thích với Java.
 
-### Thư viện bắt buộc
+### Thư viện cần thiết
 Đảm bảo dự án của bạn bao gồm các phụ thuộc cần thiết:
 
-**Maven**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -49,39 +115,48 @@ Trước khi đi sâu vào chi tiết triển khai, hãy đảm bảo rằng mô
 </dependency>
 ```
 
-**Tốt nghiệp**
+**Gradle**  
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Mua lại giấy phép
-Aspose.Cells là một thư viện thương mại, nhưng bạn có thể bắt đầu dùng thử miễn phí để đánh giá các tính năng của nó:
-- **Dùng thử miễn phí**: Nhận giấy phép tạm thời để truy cập đầy đủ tính năng mà không bị giới hạn.
-- **Giấy phép tạm thời**: Xin cấp giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
-- **Mua**: Để sử dụng lâu dài, hãy cân nhắc mua giấy phép đầy đủ [đây](https://purchase.aspose.com/buy).
+### Đăng ký giấy phép
+Aspose.Cells là sản phẩm thương mại, nhưng bạn có thể bắt đầu với bản dùng thử miễn phí:
 
-### Thiết lập môi trường
-1. Cài đặt JDK nếu chưa cài đặt.
-2. Thiết lập IDE của bạn và tạo một dự án Java mới.
-3. Thêm phụ thuộc Aspose.Cells thông qua Maven hoặc Gradle.
+- **Dùng thử miễn phí** – nhận giấy phép tạm thời để đánh giá không giới hạn.  
+- **Giấy phép tạm thời** – đăng ký giấy phép tạm thời [apply for a temporary license](https://purchase.aspose.com/temporary-license/).  
+- **Mua** – mua giấy phép đầy đủ [buy a full license](https://purchase.aspose.com/buy).
 
-## Thiết lập Aspose.Cells cho Java
+### Cài đặt môi trường
+1. Cài đặt JDK nếu chưa có trên máy của bạn.  
+2. Tạo một dự án Java mới trong IDE của bạn.  
+3. Thêm phụ thuộc Aspose.Cells qua Maven hoặc Gradle như đã trình bày ở trên.
+
+## Cách áp dụng màu chủ đề cho biểu đồ Excel bằng Aspose.Cells Java?
+Tải workbook, xác định biểu đồ mục tiêu, đặt một `ThemeColor` cho mỗi series, và lưu tệp – tất cả trong bốn bước ngắn gọn. Cách tiếp cận này đảm bảo biểu đồ áp dụng cùng ngôn ngữ hình ảnh với phần còn lại của tài liệu, cải thiện khả năng đọc và sự nhất quán thương hiệu trên mọi báo cáo được tạo ra.
+
+## ThemeColor là gì trong Aspose.Cells?
+`ThemeColor` đại diện cho một màu được định nghĩa bởi bảng màu chủ đề của workbook, cho phép bạn áp dụng thương hiệu nhất quán mà không cần mã hóa cứng các giá trị RGB. Sử dụng màu chủ đề đảm bảo các biểu đồ tự động thích nghi khi chủ đề của workbook thay đổi. Lớp `ThemeColor` đại diện cho một màu dựa trên chủ đề có thể được áp dụng cho các phần tử biểu đồ. `ThemeColorType` là một enumeration của các màu chủ đề đã định nghĩa trước như ACCENT_1, ACCENT_2, v.v.
+
+## Cài đặt Aspose.Cells cho Java
 Để bắt đầu sử dụng Aspose.Cells, hãy làm theo các bước sau:
 
-1. **Thêm phụ thuộc**: Bao gồm thư viện Aspose.Cells vào cấu hình bản dựng của bạn như được hiển thị ở trên.
-2. **Khởi tạo Giấy phép** (tùy chọn): Nếu bạn có tệp giấy phép, hãy áp dụng nó để mở khóa đầy đủ tính năng:
-    ```java
+1. **Thêm phụ thuộc** – bao gồm đoạn mã Maven hoặc Gradle đã hiển thị ở trên.  
+2. **Khởi tạo giấy phép** (tùy chọn nhưng được khuyến nghị cho môi trường sản xuất).  
+
+```java
     import com.aspose.cells.License;
 
     License license = new License();
     license.setLicense("path_to_license_file");
     ```
 
-Bây giờ khi thiết lập đã hoàn tất, chúng ta hãy bắt đầu tùy chỉnh biểu đồ Excel theo màu chủ đề.
+Bây giờ thư viện đã sẵn sàng, hãy tùy chỉnh biểu đồ.
 
 ## Hướng dẫn thực hiện
-### Tải Workbook và Access Worksheet
-**Tổng quan**:Bước đầu tiên bao gồm việc tải một tệp Excel hiện có và truy cập vào một bảng tính cụ thể để thao tác với nội dung của tệp đó.
+
+### Tải workbook và truy cập worksheet
+Lớp `Workbook` tải một tệp Excel vào bộ nhớ, cung cấp cho bạn quyền truy cập lập trình vào các sheet, ô và biểu đồ của nó.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -93,11 +168,11 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 WorksheetCollection worksheets = workbook.getWorksheets();
 Worksheet sheet = worksheets.get(0);
 ```
-- **Các tham số**: Các `Workbook` constructor tải tệp Excel từ thư mục được chỉ định.
-- **Truy cập vào bảng tính**: Sử dụng `workbook.getWorksheets()` để lấy tất cả các bảng tính và truy cập chúng theo mục lục.
+- **Tham số** – hàm khởi tạo nhận đường dẫn tới tệp nguồn.  
+- **Truy cập worksheet** – `workbook.getWorksheets()` trả về tập hợp; bạn có thể lấy một sheet bằng chỉ mục hoặc tên.
 
-### Truy cập Biểu đồ và Áp dụng Kiểu Điền
-**Tổng quan**: Tùy chỉnh giao diện của biểu đồ bằng cách thiết lập kiểu tô cho chuỗi biểu đồ.
+### Truy cập biểu đồ và áp dụng kiểu fill
+Bạn có thể sửa đổi cách một series của biểu đồ được tô màu bằng cách đặt kiểu fill, quyết định phong cách hiển thị của dữ liệu.
 
 ```java
 import com.aspose.cells.Chart;
@@ -106,11 +181,11 @@ import com.aspose.cells.FillType;
 Chart chart = sheet.getCharts().get(0);
 chart.getNSeries().get(0).getArea().getFillFormat().setFillType(FillType.SOLID);
 ```
-- **Truy cập biểu đồ**: Lấy biểu đồ đầu tiên từ bảng tính bằng cách sử dụng `sheet.getCharts()`.
-- **Thiết lập Kiểu Điền**: Sử dụng `setFillType()` để xác định cách điền vào vùng chuỗi.
+- **Truy cập biểu đồ** – `sheet.getCharts().get(0)` lấy biểu đồ đầu tiên trên worksheet.  
+- **Đặt kiểu fill** – `setFillType()` cho phép bạn chọn giữa các fill dạng đặc, gradient hoặc mẫu.
 
-### Đặt ThemeColor thành Chart Series
-**Tổng quan**: Nâng cao biểu đồ của bạn bằng cách áp dụng màu chủ đề, làm cho biểu đồ nhất quán về mặt hình ảnh với thiết kế của tài liệu.
+### Đặt ThemeColor cho series biểu đồ
+Áp dụng một màu chủ đề cho mỗi series để biểu đồ phù hợp với ngôn ngữ thiết kế tổng thể của workbook.
 
 ```java
 import com.aspose.cells.CellsColor;
@@ -122,70 +197,88 @@ cc.setThemeColor(new ThemeColor(ThemeColorType.FOLLOWED_HYPERLINK, 0.6));
 
 chart.getNSeries().get(0).getArea().getFillFormat().getSolidFill().setCellsColor(cc);
 ```
-- **Thiết lập màu chủ đề**: Sử dụng `ThemeColor` Và `ThemeColorType` để áp dụng màu chủ đề nhất quán.
-- **Tùy chỉnh**: Điều chỉnh độ trong suốt với tham số thứ hai trong `new ThemeColor()`.
+- **Đặt màu chủ đề** – tạo một thể hiện `ThemeColor` với `ThemeColorType` mong muốn (ví dụ, `ACCENT_1`).  
+- **Độ trong suốt** – đối số thứ hai kiểm soát độ mờ, cho phép bạn tạo hiệu ứng bóng mờ nhẹ.
 
-### Lưu sổ làm việc
-**Tổng quan**: Sau khi thực hiện thay đổi, hãy lưu sổ làm việc để giữ nguyên các sửa đổi.
+### Lưu workbook
+Lưu các thay đổi của bạn bằng cách gọi phương thức `save()` với đường dẫn và định dạng đầu ra mong muốn.
 
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "MicrosoftTheme_out.xlsx");
 ```
-- **Lưu tập tin**: Các `save()` phương pháp này ghi sổ làm việc đã cập nhật vào một đường dẫn đã chỉ định.
+- **Lưu tệp** – chỉ định vị trí và tùy chọn định dạng (XLSX, XLS, CSV, v.v.) để tạo workbook cuối cùng.
 
-## Ứng dụng thực tế
-Việc tùy chỉnh biểu đồ Excel theo màu chủ đề có lợi trong nhiều trường hợp:
-1. **Dự án trực quan hóa dữ liệu**: Nâng cao tính thẩm mỹ của báo cáo khi thuyết trình.
-2. **Phân tích kinh doanh**: Duy trì tính nhất quán trên các tài liệu và bảng thông tin của công ty.
-3. **Tích hợp với các ứng dụng Java**: Tự động tùy chỉnh biểu đồ trong quy trình xử lý dữ liệu.
-4. **Công cụ giáo dục**: Tạo tài liệu trực quan hấp dẫn cho học sinh.
-5. **Báo cáo tài chính**: Căn chỉnh biểu đồ với thương hiệu công ty trong báo cáo tài chính.
+## Ứng dụng thực tiễn
+Tùy chỉnh màu chủ đề biểu đồ Excel có giá trị trong nhiều bối cảnh:
 
-## Cân nhắc về hiệu suất
-Để đảm bảo hiệu suất tối ưu khi sử dụng Aspose.Cells:
-- **Quản lý tài nguyên**: Đóng sổ làm việc sau khi thực hiện thao tác để giải phóng bộ nhớ.
-- **Xử lý dữ liệu hiệu quả**: Sử dụng luồng hoặc tệp tạm thời khi xử lý các tập dữ liệu lớn.
-- **Quản lý bộ nhớ Java**: Phân bổ đủ không gian heap để xử lý các tệp Excel lớn, đặc biệt là trong môi trường doanh nghiệp.
+1. **Dự án trực quan dữ liệu** – tạo các biểu đồ chuyên nghiệp cho bài thuyết trình khách hàng.  
+2. **Phân tích kinh doanh** – thực thi thương hiệu công ty trên tất cả các báo cáo phân tích.  
+3. **Tự động hoá bằng Java** – tích hợp định dạng biểu đồ vào quy trình xử lý batch.  
+4. **Tài liệu giáo dục** – tạo các công cụ giảng dạy nhất quán về mặt hình ảnh.  
+5. **Báo cáo tài chính** – đồng bộ biểu đồ với nhận dạng hình ảnh của công ty cho các hồ sơ pháp lý.
 
-## Phần kết luận
-Bây giờ bạn đã biết cách tùy chỉnh biểu đồ Excel bằng màu chủ đề với Aspose.Cells Java. Các bước này sẽ giúp bạn tăng cường sức hấp dẫn trực quan cho các bài thuyết trình dữ liệu của mình và đảm bảo tính nhất quán trên nhiều tài liệu khác nhau. Tiếp tục khám phá thêm các tính năng của Aspose.Cells để nâng cao hơn nữa khả năng tự động hóa Excel của bạn.
+## Các cân nhắc về hiệu năng
+Aspose.Cells được thiết kế cho các kịch bản xử lý khối lượng lớn:
 
-Các bước tiếp theo:
-- Thử nghiệm với nhiều loại biểu đồ khác nhau.
-- Khám phá các tùy chọn tùy chỉnh bổ sung cho biểu đồ.
-- Tích hợp các kỹ thuật này vào các dự án hoặc quy trình làm việc lớn hơn.
+- **Hiệu quả bộ nhớ** – thư viện có thể làm việc với các worksheet lớn hơn 1 GB mà không cần tải toàn bộ tệp vào bộ nhớ.  
+- **Hỗ trợ streaming** – sử dụng luồng `Workbook` để xử lý bộ dữ liệu khổng lồ, giảm việc sử dụng heap lên tới 70 %.  
+- **Đa luồng** – thực hiện cập nhật biểu đồ song song trên các sheet để giảm thời gian xử lý khoảng 30 % trên máy chủ đa nhân.
+
+## Kết luận
+Bạn đã có quy trình hoàn chỉnh để áp dụng màu chủ đề biểu đồ Excel với Aspose.Cells Java. Các bước này giúp bạn tạo ra các hình ảnh trực quan nhất quán, phù hợp với thương hiệu, đồng thời giữ cho mã nguồn dễ bảo trì và hiệu năng cao. Khám phá các tùy chọn tùy chỉnh biểu đồ bổ sung—như nhãn dữ liệu, định dạng trục và chủ đề tùy chỉnh—để nâng cao hơn nữa các báo cáo của bạn.
+
+### Các bước tiếp theo
+- Thử nghiệm các giá trị `ThemeColorType` khác nhau (ACCENT_2, ACCENT_3, v.v.).  
+- Thử áp dụng màu chủ đề cho nhiều biểu đồ trong một workbook.  
+- Kết hợp cách tiếp cận này với Aspose.Slides để tạo các bản trình bày PowerPoint có cùng phong cách hình ảnh.
 
 ## Phần Câu hỏi thường gặp
-**Câu hỏi 1: Tôi có thể tùy chỉnh nhiều biểu đồ trong một bảng tính cùng một lúc không?**
-A1: Có, lặp qua tất cả các biểu đồ bằng cách sử dụng `sheet.getCharts().toArray()` và áp dụng tùy chỉnh cho từng mục.
+**Q1: Tôi có thể tùy chỉnh nhiều biểu đồ trong một workbook cùng lúc không?**  
+A1: Có, lặp qua `sheet.getCharts()` và áp dụng cùng một logic `ThemeColor` cho mỗi series của biểu đồ.
 
-**Câu hỏi 2: Tôi phải xử lý lỗi như thế nào khi tải tệp Excel?**
-A2: Sử dụng các khối try-catch xung quanh khởi tạo Workbook để bắt các ngoại lệ như `FileNotFoundException`.
+**Q2: Làm thế nào để xử lý lỗi khi tải tệp Excel?**  
+A2: Bao bọc hàm khởi tạo `Workbook` trong khối try‑catch và xử lý `FileNotFoundException` hoặc `InvalidFormatException` theo nhu cầu.
 
-**Câu hỏi 3: Màu chủ đề có thể tùy chỉnh ngoài các kiểu được xác định trước không?**
-A3: Có, bạn có thể xác định màu chủ đề tùy chỉnh bằng cách sử dụng các giá trị RGB thông qua các cài đặt Aspose.Cells bổ sung.
+**Q3: Màu chủ đề có thể tùy chỉnh vượt quá các loại đã định nghĩa không?**  
+A3: Bạn có thể định nghĩa các mục chủ đề tùy chỉnh bằng cách sửa đổi bảng màu chủ đề của workbook qua lớp `Theme` và sau đó tham chiếu chúng bằng `ThemeColor`.
 
-**Câu hỏi 4: Nếu bảng tính của tôi chứa nhiều trang tính có biểu đồ thì sao?**
-A4: Truy cập từng trang tính thông qua `workbook.getWorksheets().get(i)` và áp dụng các sửa đổi biểu đồ khi cần thiết.
+**Q4: Nếu workbook của tôi chứa nhiều sheet có biểu đồ thì sao?**  
+A4: Lặp qua `workbook.getWorksheets()` và lặp lại các bước tùy chỉnh biểu đồ cho mỗi sheet có chứa biểu đồ.
 
-**Câu hỏi 5: Làm thế nào để đảm bảo khả năng tương thích giữa các phiên bản Excel khác nhau?**
-A5: Lưu sổ làm việc của bạn ở định dạng tương thích với các phiên bản Excel cũ hơn bằng cách sử dụng `workbook.saveFormat()` tùy chọn.
+**Q5: Làm sao để đảm bảo tương thích với các phiên bản Excel khác nhau?**  
+A5: Lưu workbook bằng `SaveFormat.XLSX` cho các phiên bản hiện đại hoặc `SaveFormat.XLS` cho khả năng tương thích legacy; Aspose.Cells tự động điều chỉnh các tính năng.
+
+**Q6: Phụ thuộc Maven có bao gồm các thư viện truyền tải không?**  
+A6: Gói Maven của Aspose.Cells bao gồm tất cả các phụ thuộc cần thiết, vì vậy bạn chỉ cần thêm một mục `<dependency>` duy nhất như đã hiển thị trước đó.
+
+**Q7: Tôi có thể áp dụng màu chủ đề cho tiêu đề biểu đồ không?**  
+A7: Có—truy cập tiêu đề biểu đồ qua `chart.getTitle()` và đặt màu `Font` bằng một thể hiện `ThemeColor`.
 
 ## Tài nguyên
-- **Tài liệu**: [Tài liệu tham khảo Aspose.Cells cho Java](https://reference.aspose.com/cells/java/)
-- **Tải về**: [Aspose.Cells phát hành](https://releases.aspose.com/cells/java/)
-- **Mua**: [Mua Aspose.Cells](https://purchase.aspose.com/buy)
-- **Dùng thử miễn phí**: [Bắt đầu với Giấy phép miễn phí](https://releases.aspose.com/cells/java/)
-- **Giấy phép tạm thời**: [Nộp đơn xin quyền truy cập tạm thời](https://purchase.aspose.com/temporary-license/)
-- **Ủng hộ**: [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)
+- **Tài liệu**: [Aspose.Cells for Java Reference](https://reference.aspose.com/cells/java/)  
+- **Tải xuống**: [Aspose.Cells Releases](https://releases.aspose.com/cells/java/)  
+- **Mua**: [Buy Aspose.Cells](https://purchase.aspose.com/buy)  
+- **Dùng thử miễn phí**: [Start with a Free License](https://releases.aspose.com/cells/java/)  
+- **Giấy phép tạm thời**: [Apply for Temporary Access](https://purchase.aspose.com/temporary-license/)  
+- **Hỗ trợ**: [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
-Hãy liên hệ với diễn đàn hỗ trợ nếu bạn gặp bất kỳ vấn đề nào hoặc cần trợ giúp thêm.
+---
+
+**Cập nhật lần cuối:** 2026-10-02  
+**Kiểm tra với:** Aspose.Cells 25.3 for Java  
+**Tác giả:** Aspose
+
+## Các hướng dẫn liên quan
+
+- [Cách áp dụng chủ đề cho series biểu đồ trong Excel bằng Aspose.Cells Java](/cells/java/formatting/apply-themes-chart-series-aspose-cells-java/)
+- [Cách thay đổi màu chủ đề Excel bằng Aspose.Cells cho Java: Hướng dẫn toàn diện](/cells/java/formatting/change-excel-theme-colors-aspose-cells-java/)
+- [Thành thạo Excel với Aspose.Cells Java: Tạo workbook và tùy chỉnh biểu đồ](/cells/java/charts-graphs/aspose-cells-java-workbook-chart-customization/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

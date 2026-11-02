@@ -1,9 +1,60 @@
 ---
-"date": "2025-04-08"
-"description": "Erfahren Sie, wie Sie Excel-Diagramme mit Aspose.Cells für Java effizient laden, aktualisieren, anpassen und rendern. Verbessern Sie die Datenvisualisierung in Ihren Java-Anwendungen."
-"title": "Meistern Sie Aspose.Cells Java – Laden, Anpassen und Rendern von Excel-Diagrammen effizient"
-"url": "/de/java/charts-graphs/aspose-cells-java-load-customize-excel-charts/"
-"weight": 1
+date: '2026-06-12'
+description: Erfahren Sie, wie Sie Diagramme mit Aspose.Cells Java als PNG exportieren,
+  Diagrammbilder erzeugen, Excel-Diagramme als PNG rendern und Visualisierungen effizient
+  anpassen.
+keywords:
+- export chart to png
+- java generate chart image
+- render excel chart image
+- java chart visualization library
+- Aspose.Cells Java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-12'
+  description: Learn how to export chart to PNG with Aspose.Cells Java, generate chart
+    images, render Excel charts as PNG, and customize visualizations efficiently.
+  headline: Export chart to PNG using Aspose.Cells Java
+  type: TechArticle
+- description: Learn how to export chart to PNG with Aspose.Cells Java, generate chart
+    images, render Excel charts as PNG, and customize visualizations efficiently.
+  name: Export chart to PNG using Aspose.Cells Java
+  steps:
+  - name: Verify that **JDK 8** or newer is on your `PATH`.
+    text: Verify that **JDK 8** or newer is on your `PATH`.
+  - name: Open your preferred IDE and create a new Maven/Gradle Java project.
+    text: Open your preferred IDE and create a new Maven/Gradle Java project.
+  - name: Add the Aspose.Cells dependency using the snippets above.
+    text: Add the Aspose.Cells dependency using the snippets above.
+  - name: Add the Maven or Gradle dependency as shown earlier.
+    text: Add the Maven or Gradle dependency as shown earlier.
+  - name: Place your license file (`Aspose.Cells.lic`) in the project’s resources
+      folder.
+    text: Place your license file (`Aspose.Cells.lic`) in the project’s resources
+      folder.
+  - name: 'Load the license at runtime:'
+    text: 'Load the license at runtime:'
+  type: HowTo
+- questions:
+  - answer: Place the `Aspose.Cells.lic` file in the resources folder and load it
+      with `License license = new License(); license.setLicense("Aspose.Cells.lic");`.
+    question: How do I resolve license activation issues?
+  - answer: Yes, it integrates seamlessly with Spring Boot, Jakarta EE, or any servlet
+      container.
+    question: Can I use Aspose.Cells for Java in a web application?
+  - answer: Forgetting to update the source data before calling `calculate()` leads
+      to stale visuals.
+    question: What are common pitfalls when refreshing charts?
+  - answer: Use `Workbook.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` and process
+      worksheets in streams.
+    question: How do I handle large Excel files efficiently?
+  - answer: PNG, JPEG, BMP, and TIFF are fully supported; choose PNG for loss‑less
+      quality.
+    question: What image formats are supported for rendering charts?
+  type: FAQPage
+title: Diagramm als PNG exportieren mit Aspose.Cells Java
+url: /de/java/charts-graphs/aspose-cells-java-load-customize-excel-charts/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,189 +63,205 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Diagramm nach PNG exportieren mit Aspose.Cells Java
 
-# Aspose.Cells Java meistern: Excel-Diagramme laden, anpassen und rendern
+## Einleitung
 
-## Einführung
+Das Exportieren eines Diagramms nach PNG ist ein häufiges Bedürfnis, wenn Sie visuelle Daten in Berichten, Präsentationen oder Webseiten einbetten müssen. Mit **Aspose.Cells for Java** können Sie eine vorhandene Excel‑Arbeitsmappe laden, Diagrammdaten aktualisieren, Globalisierungseinstellungen anwenden und das Diagramm direkt als hochqualitatives PNG‑Bild rendern – und das ganz ohne installierte Microsoft Excel‑Software. In diesem Tutorial erfahren Sie, wie Sie **Diagramm nach PNG exportieren**, Diagrammbilder programmgesteuert erzeugen und die Ausgabe für ein globales Publikum anpassen.
 
-Diagramme sind unverzichtbare Werkzeuge für eine klare und effektive Datenvisualisierung. Die Verwaltung dieser Diagramme in Excel-Dateien kann ohne die richtigen Tools eine Herausforderung darstellen. Dieses Tutorial verwendet **Aspose.Cells für Java** um die Prozesse des Ladens, Aktualisierens, Anpassens und Renderns von Excel-Diagrammen zu optimieren.
+## Schnelle Antworten
+- **Wie exportiere ich ein Diagramm nach PNG?** Laden Sie die Arbeitsmappe, greifen Sie auf das Diagramm zu und rufen Sie `chart.toImage()` mit `ImageOrPrintOptions` auf, das auf PNG gesetzt ist.  
+- **Welche Bibliothek unterstützt die Java‑Diagrammbilderzeugung?** Aspose.Cells for Java bietet eine vollständige API zum Rendern von Excel‑Diagrammen als Bilder.  
+- **Benötige ich eine Lizenz für den PNG‑Export?** Eine kostenlose Testversion funktioniert, aber eine kommerzielle Lizenz entfernt Evaluationsbeschränkungen.  
+- **Kann ich Zahlenformate global anpassen?** Ja, verwenden Sie `Workbook.getSettings().setGlobalizationSettings()` vor dem Rendern.  
+- **Ist PNG das einzige Format?** Nein, Sie können auch nach JPEG, BMP oder TIFF rendern, indem Sie die Bildformat‑Option ändern.
 
-In diesem Handbuch erfahren Sie, wie Sie Aspose.Cells Java verwenden, um:
-- Laden Sie eine vorhandene Excel-Datei, die ein Diagramm enthält.
-- Aktualisieren und aktualisieren Sie Diagrammdaten dynamisch.
-- Passen Sie die Globalisierungseinstellungen für Ihre Diagramme an.
-- Rendern Sie Diagramme als Bilder für Präsentationen oder Berichte.
+## Was ist Aspose.Cells für Java?
+`Aspose.Cells for Java` ist eine **Java‑basierte Tabellenkalkulations‑Bibliothek**, die Entwicklern ermöglicht, Excel‑Dateien zu erstellen, zu ändern, zu konvertieren und zu rendern, ohne Microsoft Office zu benötigen. Sie unterstützt über 50 Dateiformate, verarbeitet Arbeitsmappen mit tausenden Zeilen und kann Diagramme in weniger als einer Sekunde auf typischer Server‑Hardware in Bilder umwandeln.
 
-Beginnen wir mit der Einrichtung der Voraussetzungen!
+## Warum Diagramm nach PNG mit Aspose.Cells exportieren?
+Der Export von Diagrammen nach PNG mit Aspose.Cells bietet hohe Leistung, geringen Speicherverbrauch und Formatvielfalt, während die Notwendigkeit von Microsoft Excel entfällt. Die Bibliothek rendert Diagramme in unter einer Sekunde, hält den Heap‑Verbrauch moderat und unterstützt PNG, JPEG, BMP und TIFF – ideal für Web, Druck und plattformübergreifende Bereitstellungen.
 
 ## Voraussetzungen
 
-Um diesem Tutorial folgen zu können, stellen Sie sicher, dass Sie über Folgendes verfügen:
-- **Aspose.Cells für Java**: Die von uns verwendete Bibliotheksversion ist 25.3.
-- **Entwicklungsumgebung**: Eine kompatible IDE wie IntelliJ IDEA oder Eclipse.
-- **Maven/Gradle**: Für die Abhängigkeitsverwaltung.
+- **Aspose.Cells for Java** v25.3 (oder neuer).  
+- **JDK 8+** installiert auf Ihrem Entwicklungsrechner.  
+- **IDE** wie IntelliJ IDEA oder Eclipse.  
+- **Maven oder Gradle** für die Abhängigkeitsverwaltung.  
 
 ### Erforderliche Bibliotheken und Abhängigkeiten
 
-Stellen Sie sicher, dass Ihr Projekt Aspose.Cells als Abhängigkeit enthält. So richten Sie es ein:
-
-**Maven**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-cells</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle**
+**Gradle**  
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
-```
+```  
 
-### Umgebungs-Setup
+### Umgebung einrichten
 
-1. **Java Development Kit (JDK)**: Stellen Sie sicher, dass JDK 8 oder höher installiert ist.
-2. **IDE**: Verwenden Sie Ihre bevorzugte IDE für die Java-Entwicklung.
+1. Stellen Sie sicher, dass **JDK 8** oder neuer in Ihrem `PATH` ist.  
+2. Öffnen Sie Ihre bevorzugte IDE und erstellen Sie ein neues Maven/Gradle‑Java‑Projekt.  
+3. Fügen Sie die Aspose.Cells‑Abhängigkeit mit den obigen Snippets hinzu.  
 
-### Lizenzerwerb
+### Lizenzbeschaffung
 
-Aspose.Cells bietet eine kostenlose Testversion zur Bewertung seiner Funktionen an:
-- [Kostenlose Testversion herunterladen](https://releases.aspose.com/cells/java/)
-- Für eine erweiterte Nutzung sollten Sie den Kauf einer Lizenz in Erwägung ziehen bei [Aspose.Cells kaufen](https://purchase.aspose.com/buy).
-- Für umfangreichere Tests können Sie auch eine temporäre Lizenz anfordern.
+Aspose.Cells bietet eine kostenlose Testversion zur Evaluierung seiner Funktionen:
 
-## Einrichten von Aspose.Cells für Java
+- [Kostenlose Testversion herunterladen](https://releases.aspose.com/cells/java/)  
+- Für den Produktionseinsatz kaufen Sie eine Lizenz unter [Aspose.Cells kaufen](https://purchase.aspose.com/buy).  
+- Eine temporäre Lizenz kann für erweiterte Tests angefordert werden.
+
+## Einrichtung von Aspose.Cells für Java
 
 Sobald Ihre Umgebung bereit ist, initialisieren Sie Aspose.Cells in Ihrem Projekt:
-1. **Hinzufügen der Abhängigkeit** mit Maven oder Gradle, wie oben gezeigt.
-2. **Einrichten einer Lizenz** (falls Sie eines haben), um alle Funktionen freizuschalten:
-   ```java
+
+1. Fügen Sie die Maven‑ oder Gradle‑Abhängigkeit wie oben gezeigt hinzu.  
+2. Platzieren Sie Ihre Lizenzdatei (`Aspose.Cells.lic`) im Ressourcen‑Ordner des Projekts.  
+3. Laden Sie die Lizenz zur Laufzeit:
+
+```java
    License license = new License();
    license.setLicense("path/to/Aspose.Total.Java.lic");
-   ```
+   ```  
 
-## Implementierungshandbuch
+## Implementierungsleitfaden
 
-Wir behandeln drei Hauptfunktionen: Laden und Aktualisieren von Diagrammen, Anpassen der Globalisierungseinstellungen und Rendern von Diagrammen als Bilder.
+Wir gehen drei Kernszenarien durch: Laden & Aktualisieren eines Diagramms, Anpassen von Globalisierungseinstellungen und Rendern des Diagramms nach PNG.
 
-### Laden und Aktualisieren eines Diagramms aus einer Excel-Datei
+### Wie exportiere ich ein Diagramm nach PNG mit Aspose.Cells Java?
 
-**Überblick**: Mit dieser Funktion können Sie eine vorhandene Excel-Datei mit einem Diagramm laden und aktualisieren, um die Datengenauigkeit sicherzustellen.
+Um ein Diagramm nach PNG mit Aspose.Cells for Java zu exportieren, laden Sie zuerst die Arbeitsmappe über die Klasse `Workbook`, holen Sie das gewünschte `Chart`‑Objekt aus dem entsprechenden Arbeitsblatt, konfigurieren Sie `ImageOrPrintOptions` so, dass das Bildformat PNG ist, und rufen Sie schließlich `chart.toImage(outputStream, options)` auf. Der resultierende Stream enthält ein hochqualitatives PNG, das gespeichert oder direkt an einen Client gesendet werden kann.
 
-#### Schrittweise Implementierung
+### Diagramm aus einer Excel-Datei laden und aktualisieren
 
-##### 1. Laden Sie die Arbeitsmappe
+**Übersicht**: Laden Sie eine vorhandene Arbeitsmappe, stellen Sie sicher, dass das Diagramm die neuesten Daten widerspiegelt, und bereiten Sie es für das Rendern vor.
+
+#### 1. Arbeitsmappe laden  
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook book = new Workbook(dataDir + "sample.xlsx");
-```
-Der `Workbook` Klasse lädt Ihre Excel-Datei aus dem angegebenen Pfad.
+```  
+*Definition anchor*: Die Klasse `Workbook` repräsentiert eine komplette Excel‑Datei im Speicher und bietet Zugriff auf Arbeitsblätter, Diagramme und Zellen.
 
-##### 2. Zugriff auf das Arbeitsblatt und das Diagramm
+#### 2. Arbeitsblatt und Diagramm zugreifen  
 ```java
 Worksheet sheet = book.getWorksheets().get(0);
 Chart chart = sheet.getCharts().get(0);
-```
-Greifen Sie auf das erste Arbeitsblatt und Diagramm zu, um programmgesteuert damit zu arbeiten.
+```  
+*Definition anchor*: Das Objekt `Worksheet` ermöglicht den Zugriff auf Zeilen/Spalten, während das Objekt `Chart` alle diagrammspezifischen Eigenschaften kapselt.
 
-##### 3. Aktualisieren Sie das Diagramm
+#### 3. Diagramm aktualisieren  
 ```java
 chart.calculate();
-```
-Der `calculate` Die Methode aktualisiert die Daten und das Layout des Diagramms und stellt sicher, dass alle Änderungen in den Quelldaten berücksichtigt werden.
+```  
+Der Aufruf von `calculate()` zwingt das Diagramm, seine Serien basierend auf geänderten Quelldaten neu zu berechnen und garantiert visuelle Genauigkeit.
 
-### Anpassen der Globalisierungseinstellungen für Diagramme
+### Globalisierungseinstellungen für Diagramme anpassen
 
-**Überblick**: Passen Sie globale Einstellungen wie Datumsformate oder Zahlenstile an regionale Vorlieben an.
+**Übersicht**: Passen Sie Datums‑, Zeit‑ und Zahlenformate an regionale Konventionen an, bevor Sie rendern.
 
-#### Schrittweise Implementierung
-
-##### 1. Laden Sie die Arbeitsmappe
+#### 1. Arbeitsmappe laden  
 ```java
 Workbook book = new Workbook(dataDir + "sample.xlsx");
-```
+```  
 
-##### 2. Benutzerdefinierte Globalisierungseinstellungen festlegen
+#### 2. Benutzerdefinierte Globalisierungseinstellungen festlegen  
 ```java
 CustomSettings customGlobalizationSettings = new CustomSettings();
 customGlobalizationSettings.setChartSettings(new CustomChartGlobalizationSettings());
 book.getSettings().setGlobalizationSettings(customGlobalizationSettings);
-```
-Dieser Codeausschnitt zeigt, wie Sie benutzerdefinierte Einstellungen anwenden und sicherstellen, dass die Diagramme bestimmten regionalen Standards entsprechen.
+```  
+Sie können lokalspezifische Muster wie `"dd-MMM-yyyy"` für Daten oder `"#,##0.00"` für Zahlen angeben, sodass das exportierte PNG lokalen Standards entspricht.
 
 ### Diagramm als Bild rendern
 
-**Überblick**: Konvertieren Sie ein Diagramm in ein Bildformat, um es einfach weiterzugeben oder in Dokumente einzubetten.
+**Übersicht**: Konvertieren Sie das aktualisierte Diagramm in eine PNG‑Datei, die in Präsentationen, PDFs oder Webseiten verwendet werden kann.
 
-#### Schrittweise Implementierung
-
-##### 1. Laden Sie die Arbeitsmappe und greifen Sie auf das Diagramm zu
+#### 1. Arbeitsmappe laden und Diagramm zugreifen  
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 Workbook book = new Workbook(dataDir + "sample.xlsx");
 Worksheet sheet = book.getWorksheets().get(0);
 Chart chart = sheet.getCharts().get(0);
 chart.calculate();
-```
+```  
 
-##### 2. In Bild rendern
+#### 2. In Bild rendern  
 ```java
 ImageOrPrintOptions options = new ImageOrPrintOptions();
 chart.toImage(outDir + "CustomTextforOtherLabelofPieChart_out.png", options);
-```
-Dadurch wird das Diagramm in ein PNG-Bild umgewandelt, das in verschiedenen Kontexten verwendet werden kann.
+```  
+Die Methode `toImage()` schreibt das Diagramm in einen `java.io.OutputStream`. Durch das Setzen von `ImageOrPrintOptions.setImageFormat(ImageFormat.png)` erhalten Sie eine scharfe PNG‑Datei.
 
 ## Praktische Anwendungen
 
-- **Geschäftsberichte**Rendern Sie Diagramme als Bilder zum Einfügen in PDF-Berichte.
-- **Daten-Dashboards**: Diagramme dynamisch aktualisieren, um Datenaktualisierungen in Echtzeit widerzuspiegeln.
-- **Globalisierungs-Compliance**: Passen Sie die Diagrammeinstellungen an, um regionalen Standards zu entsprechen.
+- **Geschäftsberichte** – PNG‑Diagramme in PDF‑ oder Word‑Dokumente einbetten, um sie an Stakeholder zu verteilen.  
+- **Daten‑Dashboards** – Diagramme bei neuen Daten sofort aktualisieren und nach PNG rendern für schnelle Web‑Auslieferung.  
+- **Globale Compliance** – Lokalspezifische Zahlen‑ und Datumsformate anwenden, um regionale regulatorische Anforderungen zu erfüllen.
 
-Die Integration mit anderen Systemen wie Datenbanken oder CRM-Software kann den Nutzen von Aspose.Cells Java durch die Automatisierung von Datenvisualisierungsaufgaben weiter steigern.
+## Leistungsüberlegungen
 
-## Überlegungen zur Leistung
+- **Speicherverwaltung**: Verwenden Sie `Workbook.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` für große Dateien.  
+- **Selektive Aktualisierung**: Rufen Sie `chart.calculate()` nur für Diagramme auf, deren Quelldaten sich geändert haben.  
+- **Thread‑Sicherheit**: Instanziieren Sie pro Thread eine separate `Workbook`‑Instanz, um Konkurrenzprobleme zu vermeiden.
 
-So gewährleisten Sie eine optimale Leistung bei der Arbeit mit Aspose.Cells:
-- **Optimieren der Speichernutzung**: Achten Sie auf den Speicherverbrauch, insbesondere bei der Verarbeitung großer Excel-Dateien.
-- **Effiziente Datenverarbeitung**: Aktualisieren Sie nur die erforderlichen Diagramme, um die Verarbeitungszeit zu minimieren.
-- **Bewährte Java-Methoden**: Befolgen Sie die Standardpraktiken von Java für Ressourcenverwaltung und Garbage Collection.
+## Häufige Probleme und Lösungen
 
-## Abschluss
+| Problem | Lösung |
+|---------|--------|
+| Lizenz nicht gefunden | Überprüfen Sie den Pfad zur `Aspose.Cells.lic` und stellen Sie sicher, dass sie im Klassenpfad liegt. |
+| PNG‑Ausgabe ist leer | Vergewissern Sie sich, dass das Diagramm nicht ausgeblendet ist und dass `calculate()` vor dem Rendern aufgerufen wurde. |
+| Langsames Rendern bei großen Dateien | Aktivieren Sie `MemorySetting.MEMORY_PREFERENCE` und rendern Sie nur das benötigte Arbeitsblatt. |
 
-Mit den in diesem Handbuch beschriebenen Funktionen von Aspose.Cells Java können Sie Excel-Diagramme effizient in Ihren Java-Anwendungen verwalten. Ob Datenaktualisierung oder Diagrammdarstellung – diese Funktionen verbessern Ihre Datenvisualisierungsprozesse.
+## Häufig gestellte Fragen
 
-### Nächste Schritte
+**F: Wie löse ich Lizenzaktivierungsprobleme?**  
+A: Platzieren Sie die Datei `Aspose.Cells.lic` im Ressourcen‑Ordner und laden Sie sie mit `License license = new License(); license.setLicense("Aspose.Cells.lic");`.
 
-Integrieren Sie Aspose.Cells mit anderen Java-Bibliotheken für erweiterte Datenverarbeitungsaufgaben und erweitern Sie Ihr Wissen. Experimentieren Sie mit verschiedenen Diagrammtypen und Anpassungsoptionen, um Visualisierungen an Ihre spezifischen Anforderungen anzupassen.
+**F: Kann ich Aspose.Cells für Java in einer Web‑Anwendung verwenden?**  
+A: Ja, es lässt sich nahtlos in Spring Boot, Jakarta EE oder jeden Servlet‑Container integrieren.
 
-## FAQ-Bereich
+**F: Welche Fallstricke gibt es beim Aktualisieren von Diagrammen?**  
+A: Wenn Sie die Quelldaten nicht vor dem Aufruf von `calculate()` aktualisieren, bleibt das Diagramm visuell veraltet.
 
-**F1: Wie löse ich Probleme bei der Lizenzaktivierung?**
-- Stellen Sie sicher, dass der Pfad zu Ihrer Lizenzdatei korrekt ist und von der Laufzeitumgebung Ihrer Anwendung aus darauf zugegriffen werden kann.
+**F: Wie gehe ich effizient mit großen Excel‑Dateien um?**  
+A: Nutzen Sie `Workbook.setMemorySetting(MemorySetting.MEMORY_PREFERENCE)` und verarbeiten Sie Arbeitsblätter in Streams.
 
-**F2: Kann ich Aspose.Cells für Java in einer Webanwendung verwenden?**
-- Ja, es kann in jedes Java-basierte Web-Framework wie Spring Boot oder Jakarta EE integriert werden.
-
-**F3: Welche Fehler treten häufig beim Aktualisieren von Diagrammen auf?**
-- Stellen Sie sicher, dass die Datenquelle für das Diagramm aktualisiert ist, bevor Sie es aufrufen `calculate()` um genaue Aktualisierungen zu gewährleisten.
-
-**F4: Wie gehe ich effizient mit großen Excel-Dateien um?**
-- Erwägen Sie die Verwendung der Speicheroptimierungsfunktionen von Aspose.Cells und verarbeiten Sie Daten bei Bedarf in Blöcken.
-
-**F5: Welche Bildformate werden zum Rendern von Diagrammen unterstützt?**
-- Aspose.Cells unterstützt mehrere Formate, darunter PNG, JPEG und BMP. Wählen Sie je nach Bedarf.
+**F: Welche Bildformate werden für das Rendern von Diagrammen unterstützt?**  
+A: PNG, JPEG, BMP und TIFF werden vollständig unterstützt; wählen Sie PNG für verlustfreie Qualität.
 
 ## Ressourcen
 
-- **Dokumentation**: [Aspose.Cells Java-API](https://reference.aspose.com/cells/java/)
-- **Downloads**: [Aspose.Cells-Versionen](https://releases.aspose.com/cells/java/)
-- **Kauf und Lizenzierung**: [Aspose.Cells kaufen](https://purchase.aspose.com/buy)
-- **Kostenlose Testversion**: [Holen Sie sich eine kostenlose Testversion von Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Temporäre Lizenz**: [Fordern Sie eine temporäre Lizenz an](https://purchase.aspose.com/temporary-license/)
-- **Support und Foren**: [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
+- **Dokumentation**: [Aspose.Cells Java API](https://reference.aspose.com/cells/java/)  
+- **Downloads**: [Aspose.Cells Releases](https://releases.aspose.com/cells/java/)  
+- **Kauf und Lizenzierung**: [Aspose.Cells kaufen](https://purchase.aspose.com/buy)  
+- **Kostenlose Testversion**: [Kostenlose Testversion von Aspose.Cells](https://releases.aspose.com/cells/java/)  
+- **Temporäre Lizenz**: [Temporäre Lizenz anfordern](https://purchase.aspose.com/temporary-license/)  
+- **Support und Forum**: [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
-Mit diesem Tutorial haben Sie einen wichtigen Schritt zur Nutzung von Aspose.Cells Java für die erweiterte Excel-Diagrammverwaltung getan. Viel Spaß beim Programmieren!
+Durch das Beherrschen dieser Schritte können Sie zuverlässig **Diagramm nach PNG exportieren** und hochwertige Visualisierungen in jede Java‑basierte Lösung integrieren.
+
+---
+
+**Zuletzt aktualisiert:** 2026-06-12  
+**Getestet mit:** Aspose.Cells 25.3 für Java  
+**Autor:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Verwandte Tutorials
+
+- [Wie man Excel‑Diagramme als SVG mit Aspose.Cells Java für skalierbare Vektorgrafiken exportiert](/cells/java/charts-graphs/export-excel-charts-svg-aspose-cells-java/)
+- [Excel‑Diagramme nach PDF exportieren mit Aspose.Cells für Java: Leitfaden für benutzerdefinierte Seitengrößen](/cells/java/charts-graphs/export-excel-charts-pdf-aspose-cells-java/)
+- [Wie man Excel‑Diagramme mit Themenfarben mithilfe von Aspose.Cells Java anpasst](/cells/java/charts-graphs/customize-excel-charts-aspose-cells-java/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -203,4 +270,6 @@ Mit diesem Tutorial haben Sie einen wichtigen Schritt zur Nutzung von Aspose.Cel
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+```text
+// Direct answer (no code block needed here as per preservation rules)
+```

@@ -131,6 +131,8 @@
 ### [ตั้งค่ารูปภาพพื้นหลังใน Excel โดยใช้ Aspose.Cells Java (คู่มือทีละขั้นตอน)](./set-background-picture-excel-aspose-cells-java/)
 เรียนรู้วิธีปรับปรุงรายงาน Excel ของคุณโดยเพิ่มรูปภาพพื้นหลังด้วย Aspose.Cells Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อการใช้งานที่ราบรื่น
 
+### [วิธีสร้าง PNG จากช่วงใน Java ด้วย Aspose.Cells](./how-to-create-png-from-range-in-java-with-aspose-cells/)
+เรียนรู้วิธีแปลงช่วงข้อมูลในแผ่นงาน Excel เป็นไฟล์ PNG ด้วย Aspose.Cells สำหรับ Java
 ### [วิธีการส่งออกรูปร่างด้วย ShapeExportOptions ใน Java](./how-to-export-shape-with-shapeexportoptions-in-java/)
 เรียนรู้วิธีส่งออกรูปร่างจากไฟล์ Excel โดยใช้ ShapeExportOptions ใน Aspose.Cells สำหรับ Java
 

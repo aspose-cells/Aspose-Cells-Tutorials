@@ -86,6 +86,12 @@ Aspose.Cells を使用した数式操作を習得すると、C# コードから�
 
 ### [Excel ワークブックを作成する C# – Lambda、SEQUENCE、EXPAND ガイド](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 
+### [C# で WRAPCOLS を使用する方法 – 配列を Excel の行列に変換する](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
+### [EXPAND 関数で Excel ワークブックを作成する – 完全ガイド](./create-excel-workbook-with-expand-formula-complete-guide/)
+### [C# で SEQUENCE を使用する方法 – Excel ブックの作成](./how-to-use-sequence-in-c-create-excel-workbook/)
+
+### [C# で配列数式を書く – 完全プログラミングガイド](./write-array-formula-in-c-complete-programming-guide/)
+
 ## Excelの数式の種類を理解する
 
 Excel の数式にはさまざまな形式があり、それぞれに Aspose.Cells で管理できる独自の特性があります。

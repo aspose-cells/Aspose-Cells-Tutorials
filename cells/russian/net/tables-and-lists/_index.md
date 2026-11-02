@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Таблицы и списки
@@ -60,22 +58,23 @@
 ### [Удалить строки в таблице Word – Полное руководство на C#](./delete-rows-word-table-complete-c-guide/)
 Узнайте, как удалять строки из таблицы Word с помощью Aspose.Words для .NET, используя C# в полном пошаговом руководстве.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Удалить заголовок таблицы в Aspose.Cells – Полное руководство](./remove-table-header-in-aspose-cells-complete-guide/)
 Узнайте, как удалить заголовок таблицы в Excel с помощью Aspose.Cells для .NET, следуя нашему подробному руководству.
 ### [Как переименовать таблицу в Excel с помощью C# – пошаговое руководство](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
 Узнайте, как переименовать таблицу в Excel с помощью Aspose.Cells для .NET, следуя нашему пошаговому руководству.
+### [Удаление нескольких строк в Word – Полное руководство по удалению строк таблицы](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
+Узнайте, как удалить несколько строк из таблицы Word с помощью Aspose.Words для .NET, следуя пошаговым инструкциям.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

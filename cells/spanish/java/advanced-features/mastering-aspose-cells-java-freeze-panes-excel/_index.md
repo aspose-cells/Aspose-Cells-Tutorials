@@ -34,11 +34,13 @@ url: /es/java/advanced-features/mastering-aspose-cells-java-freeze-panes-excel/
 weight: 1
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
+
+
+
 
 # Cómo usar Aspose.Cells para congelar paneles en Excel (Java)
 
@@ -190,11 +192,9 @@ Para una exploración más profunda—como creación de gráficos, validación d
 - [Guardar archivo Excel Java con Aspose.Cells – Dominar la automatización de libros de trabajo](/cells/java/automation-batch-processing/aspose-cells-java-excel-workbook-automation/)
 - [Extraer URL de Excel con Aspose.Cells para Java – Cargar conexiones de datos](/cells/java/advanced-features/aspose-cells-java-excel-data-connections/)
 
+{{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/main-wrap-class >}}

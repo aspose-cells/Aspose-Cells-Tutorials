@@ -56,6 +56,9 @@ Adlandırılmış aralıkları ve Java için Aspose.Cells'i kullanarak birden fa
 ### [Aspose.Cells for Java'da Formülleri Yayma ile Excel Formüllerini Otomatikleştirin](./automate-excel-formulas-aspose-cells-java/)
 Aspose.Cells for Java'yı kullanarak Excel'de formülleri nasıl otomatikleştireceğinizi ve yayacağınızı öğrenin, böylece veri yönetimi verimliliğini artırın.
 
+### [Aspose.Cells Java'da expand fonksiyonunu kullanın – adım adım rehber](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
+Aspose.Cells for Java ile expand fonksiyonunu nasıl kullanacağınızı öğrenin ve Excel dosyalarında dinamik veri genişletme işlemlerini gerçekleştirin.
+
 ### [Aspose.Cells Java'da Özel Hesaplama: SUM İşlevselliğini Geliştirin](./custom-calculation-engine-aspose-cells-java-enhanced-sum/)
 Aspose.Words Java için bir kod eğitimi
 
@@ -83,7 +86,16 @@ Aspose.Cells for Java kullanarak Excel görevlerinin nasıl otomatikleştirilece
 ### [Java için Aspose.Cells'te FormulaText Nasıl Uygulanır: Adım Adım Kılavuz](./implementing-formula-text-aspose-cells-java-guide/)
 Java ile Aspose.Cells kullanarak Excel hücrelerinden formül metninin nasıl çıkarılacağını öğrenin. Bu kılavuz kurulum, uygulama ve pratik uygulamaları kapsar.
 
+### [Java ile Excel'de Reduce Kullanımı – Lambda Formül Kılavuzu](./how-to-use-reduce-in-excel-with-java-lambda-formula-guide/)
+### [Java Excel Çalışma Kitabında SEQUENCE Kullanımı – Adım Adım Kılavuz](./how-to-use-sequence-in-java-excel-workbook-step-by-step-guid/)
+Java Excel çalışma kitabında SEQUENCE işlevini nasıl kullanacağınızı adım adım öğrenin.
 
+### [Java'da WRAPCOLS Nasıl Kullanılır – Tam Excel WRAPCOLS Örneği](./how-to-use-wrapcols-in-java-complete-excel-wrapcols-example/)
+### [Excel'de Kotanjantı Hesaplama – Tam Kılavuz](./how-to-calculate-cotangent-in-excel-complete-guide/)
+Excel'de kotanjant fonksiyonunu kullanarak trigonometrik hesaplamalar yapmayı öğrenin.
+### [Excel'de Tekil Değerleri Sıralama – Dizi Formüllerini Ayarlamak için Tam Java Rehberi](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
+Java ve Aspose.Cells ile Excel'de benzersiz değerleri sıralamayı ve dizi formüllerini ayarlamayı adım adım öğrenin.
+### [Aspose'i Java'da Kullanma – Yeni Fonksiyonlarla Excel Çalışma Kitabı Oluşturma](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
 
 ## Ek Kaynaklar
 

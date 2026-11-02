@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตารางและรายการ
@@ -60,22 +58,23 @@
 ### [ลบแถวในตาราง Word – คู่มือ C# ฉบับสมบูรณ์](./delete-rows-word-table-complete-c-guide/)
 เรียนรู้วิธีลบแถวในตาราง Word ด้วย Aspose.Words for .NET ด้วยโค้ด C# อย่างละเอียดและง่ายต่อการทำตาม
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [วิธีเปลี่ยนชื่อตารางใน Excel ด้วย C# – คู่มือทีละขั้นตอน](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
 เรียนรู้วิธีเปลี่ยนชื่อตารางใน Excel ด้วย C# ด้วยคู่มือขั้นตอนที่ชัดเจนและง่ายต่อการทำตาม
 ### [การลบส่วนหัวของตารางใน Aspose.Cells – คู่มือฉบับสมบูรณ์](./remove-table-header-in-aspose-cells-complete-guide/)
 เรียนรู้วิธีลบส่วนหัวของตารางใน Excel ด้วย Aspose.Cells อย่างละเอียดและง่ายดาย
+### [ลบหลายแถวใน Word – คู่มือฉบับสมบูรณ์สำหรับการลบแถวในตาราง](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
+เรียนรู้วิธีลบหลายแถวในตาราง Word อย่างง่ายดายด้วย Aspose.Words สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

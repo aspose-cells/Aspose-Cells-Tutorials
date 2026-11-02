@@ -1,9 +1,79 @@
 ---
-"date": "2025-04-08"
-"description": "Výukový program pro Aspose.Words v Javě"
-"title": "Průvodce vlastním výpočetním enginem Aspose.Cells v Javě"
-"url": "/cs/java/calculation-engine/aspose-cells-java-custom-engine-guide/"
-"weight": 1
+date: '2026-08-10'
+description: Naučte se, jak přidat custom function Excel v Java implementací custom
+  calculation engine s Aspose.Cells. Praktický průvodce krok za krokem, předpoklady
+  a reálné příklady.
+keywords:
+- add custom function excel
+- Aspose.Cells Java
+- custom calculation engine
+- Excel processing Java
+- MyCompany.CustomFunction
+lastmod: '2026-08-10'
+og_description: Naučte se, jak přidat custom function Excel v Java implementací custom
+  calculation engine s Aspose.Cells. Postupujte podle podrobného tutoriálu s předpoklady,
+  kroky integrace kódu a tipy na výkon.
+og_image_alt: Developer guide showing how to add a custom Excel function with Aspose.Cells
+  for Java
+og_title: Přidat custom function Excel pomocí Aspose.Cells pro Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-10'
+  description: Learn how to add custom function Excel in Java by implementing a custom
+    calculation engine with Aspose.Cells. Step‑by‑step guide, prerequisites, and real‑world
+    examples.
+  headline: Add custom function Excel using Aspose.Cells for Java
+  type: TechArticle
+- description: Learn how to add custom function Excel in Java by implementing a custom
+    calculation engine with Aspose.Cells. Step‑by‑step guide, prerequisites, and real‑world
+    examples.
+  name: Add custom function Excel using Aspose.Cells for Java
+  steps:
+  - name: create a custom engine class
+    text: '`AbstractCalculationEngine` is the base class that Aspose.Cells calls to
+      evaluate unknown functions. `CustomEngine` extends `AbstractCalculationEngine`
+      and overrides the `calculate` method. This method is invoked each time a formula
+      containing `MyCompany.CustomFunction` is evaluated. **Definition an'
+  - name: set up workbook and worksheet
+    text: '`Worksheet` represents a single sheet within a `Workbook` and provides
+      access to cells and ranges. Instantiate a `Workbook`, access the first `Worksheet`,
+      and optionally write sample data that your custom function will consume. **Definition
+      anchor:** `Workbook` represents an entire Excel file in mem'
+  - name: configure calculation options with the custom engine
+    text: Create a `CalculationOptions` object, assign your `CustomEngine`, and trigger
+      formula calculation. **Definition anchor:** `CalculationOptions` holds settings
+      that control how Aspose.Cells evaluates formulas, including the custom engine
+      reference. **Direct answer:** By calling `opts.setCustomEngine(n
+  type: HowTo
+- questions:
+  - answer: Yes. Implement multiple subclasses of `AbstractCalculationEngine` or handle
+      several function names inside a single engine’s `calculate` method.
+    question: Can I register more than one custom function?
+  - answer: The engine should catch exceptions and call `setCalculatedValue(ErrorValue)`
+      to return an Excel error (e.g., `#VALUE!`). This prevents the entire workbook
+      calculation from failing.
+    question: What happens if my custom function throws an exception?
+  - answer: Aspose.Cells’ calculation engine is thread‑safe when each thread uses
+      its own `Workbook` instance. Share the engine instance only if it is stateless.
+    question: Does the custom engine work with multi‑threaded calculations?
+  - answer: Arguments are passed as `Object[]`. You can handle arrays, strings, numbers,
+      or even custom objects, but keep payloads reasonable (under a few megabytes)
+      to avoid excessive memory consumption.
+    question: Are there limits on the size of arguments I can pass?
+  - answer: Insert logging statements (e.g., using `java.util.logging`) inside `calculate`.
+      The log output appears in your application console, helping you trace argument
+      values and intermediate results.
+    question: How can I debug my custom function?
+  type: FAQPage
+tags:
+- add custom function excel
+- Aspose.Cells
+- Java calculation engine
+- Excel automation
+- custom functions
+title: Přidat custom function Excel pomocí Aspose.Cells pro Java
+url: /cs/java/calculation-engine/aspose-cells-java-custom-engine-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -12,44 +82,47 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Ovládání Aspose.Cells pro Java: implementace vlastního výpočetního enginu
 
-# Zvládnutí Aspose.Cells pro Javu: Implementace vlastního výpočetního enginu
+## Úvod
 
-## Zavedení
+Pokud potřebujete **přidat vlastní funkci Excel** do svých Java aplikací, Aspose.Cells pro Java vám poskytuje čistý, rozšiřitelný způsob, jak to provést. V tomto průvodci se naučíte vytvořit vlastní výpočetní engine, který vyhodnocuje proprietární funkci nazvanou `MyCompany.CustomFunction`. Na konci budete schopni vložit obchodně specifickou logiku přímo do Excelových vzorců, čímž odstraníte potřebu externích kroků pro získávání dat.
 
-Hledáte způsoby, jak rozšířit funkcionalitu zpracování Excelu ve vašich Java aplikacích? S Aspose.Cells pro Javu se vytváření vlastních výpočetních nástrojů přizpůsobených specifickým obchodním potřebám stává jednoduchým a efektivním. Tento tutoriál vás provede implementací vlastního výpočetního nástroje v Aspose.Cells pro Javu, který vám umožní vytvářet přesné výpočty, které splňují specifické požadavky „MyCompany.CustomFunction“.
+**Co se naučíte**
 
-**Co se naučíte:**
-- Jak rozšířit Aspose.Cells pomocí AbstractCalculationEngine.
-- Implementace vlastní logiky vzorců pomocí CalculationData.
-- Integrace vlastního modulu do nastavení výpočtů v sešitu.
-- Reálné aplikace pro zakázkové enginy v obchodních scénářích.
-  
-Než se pustíme do vytváření našeho vlastního výpočetního enginu, ujistěte se, že máte vše potřebné.
+- Jak rozšířit Aspose.Cells pomocí `AbstractCalculationEngine`.
+- Implementace vlastní logiky vzorce pomocí `CalculationData`.
+- Integrace enginu do výpočetního workflow sešitu.
+- Scénáře z reálného světa, kde vlastní funkce zjednodušují procesy.
 
-## Předpoklady
+### Rychlé odpovědi
 
-Abyste mohli tento tutoriál efektivně sledovat, budete potřebovat následující:
+- **Jaký je první krok?** Přidejte knihovnu Aspose.Cells do svého Maven nebo Gradle projektu.  
+- **Kterou třídu rozšiřujete?** `AbstractCalculationEngine`.  
+- **Jak zaregistrujete engine?** Nastavte jej na `CalculationOptions` a předávejte možnosti do `Workbook.calculateFormula()`.  
+- **Dokážete zpracovat velké sešity?** Ano—Aspose.Cells zpracovává listy s miliony řádků, aniž by načítal celý soubor do paměti.  
+- **Potřebujete licenci?** Zkušební verze funguje pro vývoj; pro produkci je vyžadována trvalá licence.
 
-1. **Knihovny a závislosti:**
-   - Aspose.Cells pro Javu verze 25.3 nebo novější
-   - Vývojářská sada Java (JDK) 8 nebo vyšší
-   
-2. **Nastavení prostředí:**
-   - IDE, jako například IntelliJ IDEA nebo Eclipse.
-   - Nástroj pro sestavení Maven nebo Gradle nakonfigurovaný ve vašem projektu.
+## Co je vlastní výpočetní engine?
 
-3. **Předpoklady znalostí:**
-   - Základní znalost programování v Javě a objektově orientovaných konceptů.
-   - Znalost zpracování a manipulace se vzorci v Excelu.
+**Vlastní výpočetní engine** je komponenta definovaná uživatelem, která zachytává vyhodnocování vzorců a poskytuje výsledky pro funkce, které Aspose.Cells nativně nezná. Umožňuje vložit proprietární obchodní pravidla, volání externích služeb nebo složité matematické modely přímo do Excelových listů.
 
-## Nastavení Aspose.Cells pro Javu
+## Proč přidat vlastní funkci Excel s Aspose.Cells?
 
-Nastavení knihovny Aspose.Cells je bezproblémové pomocí Mavenu nebo Gradle. 
+Aspose.Cells podporuje **více než 100 vstupních a výstupních formátů** a dokáže zpracovat sešity obsahující **až 2 miliony řádků**, přičemž spotřeba paměti zůstává pod 200 MB na typickém serveru. Přidání vlastní funkce znamená, že můžete provádět doménově specifické výpočty přímo v tabulce, což snižuje latenci přenosu dat a zjednodušuje pracovní postupy uživatelů.
 
-**Znalec:**
+## Požadavky
 
-Přidejte do svého `pom.xml`:
+- **Knihovny:** Aspose.Cells pro Java ≥ 25.3, JDK 8+.  
+- **IDE:** IntelliJ IDEA, Eclipse nebo jakýkoli Java‑kompatibilní editor.  
+- **Nástroj pro sestavení:** Maven nebo Gradle nakonfigurovaný ve vašem projektu.  
+- **Znalosti:** Základy Java OOP, znalost Excelových vzorců.
+
+## Nastavení Aspose.Cells pro Java
+
+### Maven
+
+Add the following dependency to your `pom.xml`:
 
 ```xml
 <dependency>
@@ -59,45 +132,45 @@ Přidejte do svého `pom.xml`:
 </dependency>
 ```
 
-**Gradle:**
+### Gradle
 
-Zahrňte tento řádek do svého `build.gradle` soubor:
+Include this line in your `build.gradle` file:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Získání licence
+#### Získání licence
 
-Chcete-li používat Aspose.Cells pro Javu, můžete začít s bezplatnou zkušební licencí a prozkoumat jeho funkce bez omezení. Pro dlouhodobé používání zvažte zakoupení licence nebo v případě potřeby pořízení dočasné licence. Navštivte [Nákupní stránka Aspose](https://purchase.aspose.com/buy) a [stránka s dočasnou licencí](https://purchase.aspose.com/temporary-license/) pro více informací.
+Pro použití Aspose.Cells pro Java můžete začít s bezplatnou zkušební licencí, která vám umožní prozkoumat jeho funkce bez omezení. Pro dlouhodobé používání zvažte zakoupení licence nebo získání dočasné licence podle potřeby. Navštivte [Aspose's purchase page](https://purchase.aspose.com/buy) a [temporary license page](https://purchase.aspose.com/temporary-license/) pro více informací.
 
-### Základní inicializace
+#### Základní inicializace
 
-Inicializace Aspose.Cells ve vašem projektu:
+Pro inicializaci Aspose.Cells ve vašem projektu:
 
 ```java
 import com.aspose.cells.*;
 
 public class InitializeAspose {
     public static void main(String[] args) {
-        // Načtení nebo vytvoření nové instance sešitu
+        // Load or create a new Workbook instance
         Workbook wb = new Workbook();
         System.out.println("Aspose.Cells for Java initialized successfully.");
     }
 }
 ```
 
-## Průvodce implementací
+## Jak přidat vlastní funkci Excel v Aspose.Cells pro Java?
 
-Implementaci rozdělíme na dvě klíčové funkce: vytvoření vlastního výpočetního enginu a jeho integrace s výpočty v sešitu.
+Načtěte svůj sešit, vytvořte instanci `CalculationOptions`, nastavte vlastní engine a zavolejte `calculateFormula`. Třída `Workbook` představuje celý Excelový soubor v paměti a poskytuje přístup k listům a buňkám. `CalculationOptions` obsahuje nastavení, která řídí vyhodnocování vzorců, například registraci vlastního enginu. `calculateFormula` spustí výpočetní proces pro všechny vzorce v sešitu a použije jakoukoli vlastní logiku, kterou jste poskytli.
 
-### Vlastní výpočetní modul
+Níže je krok‑za‑krokem pracovní postup, který budete následovat:
 
-Tato funkce vám umožňuje definovat specifickou logiku pro vaše obchodní funkce ve vzorcích aplikace Excel.
+### Krok 1: vytvořte třídu vlastního enginu
 
-#### Krok 1: Vytvořte třídu CustomEngine
+`AbstractCalculationEngine` je základní třída, kterou Aspose.Cells volá pro vyhodnocení neznámých funkcí.  
 
-Rozšířit `AbstractCalculationEngine` a přepsat jeho `calculate` metoda. Tato metoda bude vyvolána vždy, když bude vyhodnocen vzorec používající vaši vlastní funkci.
+`CustomEngine` rozšiřuje `AbstractCalculationEngine` a přepisuje metodu `calculate`. Tato metoda je volána pokaždé, když je vyhodnocen vzorec obsahující `MyCompany.CustomFunction`.
 
 ```java
 import com.aspose.cells.AbstractCalculationEngine;
@@ -106,138 +179,132 @@ import com.aspose.cells.CalculationData;
 class CustomEngine extends AbstractCalculationEngine {
     @Override
     public void calculate(CalculationData data) {
-        // Zkontrolujte, zda název funkce odpovídá „MyCompany.CustomFunction“.
+        // Check if the function name matches "MyCompany.CustomFunction"
         if (data.getFunctionName().equals("MyCompany.CustomFunction")) {
-            // Nastavení vlastní vypočítané hodnoty
+            // Set a custom calculated value
             data.setCalculatedValue("Aspose.Cells.");
         }
     }
 }
 ```
 
-**Vysvětlení:** Tato třída kontroluje, zda vzorec používá `MyCompany.CustomFunction` a jako výsledek vrátí „Aspose.Cells.“.
+**Definiční kotva:** `AbstractCalculationEngine` je základní třída, kterou Aspose.Cells používá k delegování vyhodnocování vzorců na logiku poskytnutou uživatelem.  
 
-#### Tipy pro řešení problémů
+**Vysvětlení:** Přepsaná metoda `calculate` kontroluje název funkce, získává argumenty z `CalculationData`, provádí vlastní výpočet a zapisuje výsledek zpět pomocí `setCalculatedValue`.
 
-- Ujistěte se, že název funkce je v `getFunctionName()` přesně se shoduje, včetně rozlišování velkých a malých písmen.
-- Ověřte, že `setCalculatedValue()` se volá k nastavení výstupu; jinak se výpočty nebudou zobrazovat správně.
+### Krok 2: nastavení sešitu a listu
 
-### Možnosti vlastního výpočtu s integrací enginu
+`Worksheet` představuje jeden list v rámci `Workbook` a poskytuje přístup k buňkám a oblastem.  
 
-Integrace vlastního enginu do vzorců sešitu vám umožní bezproblémově využít jeho logiku v excelových listech.
-
-#### Krok 2: Nastavení sešitu a pracovního listu
-
-Vytvořte novou instanci sešitu a zpřístupněte její první list. V případě potřeby přidejte libovolný počáteční obsah.
+Vytvořte instanci `Workbook`, přistupte k prvnímu `Worksheet` a volitelně zapište ukázková data, která bude vaše vlastní funkce spotřebovávat.
 
 ```java
 import com.aspose.cells.*;
 
 class CustomCalculationSetup {
     public void run() {
-        // Vytvoření nové instance sešitu
+        // Create a new Workbook instance
         Workbook wb = new Workbook();
         
-        // Přístup k prvnímu listu v sešitu
+        // Access the first worksheet in the workbook
         Worksheet ws = wb.getWorksheets().get(0);
         
-        // Přidejte nějaký text do buňky A1
+        // Add some text to cell A1
         ws.getCells().get("A1").putValue("Welcome to ");
     }
 }
 ```
 
-#### Krok 3: Konfigurace možností výpočtu
+**Definiční kotva:** `Workbook` představuje celý Excelový soubor v paměti, poskytuje listy, buňky a nastavení výpočtů.  
 
-Vytvořit instanci `CalculationOptions` a nastavte si vlastní engine. Tyto možnosti použijte při výpočtu vzorců.
+**Tip:** Můžete přednačíst statické vyhledávací tabulky na skrytých listech, aby byla vlastní funkce rychlá.
+
+### Krok 3: nakonfigurujte možnosti výpočtu s vlastním enginem
+
+Vytvořte objekt `CalculationOptions`, přiřaďte svůj `CustomEngine` a spustíte výpočet vzorců.
 
 ```java
-// Pokračovat z předchozího úryvku kódu...
+// Continue from previous code snippet...
 public void run() {
-    // Předchozí instalační kód...
+    // Previous setup code...
 
-    // Vytvořte instanci CalculationOptions a nastavte vlastní engine
+    // Create a CalculationOptions instance and set the custom engine
     CalculationOptions opts = new CalculationOptions();
     opts.setCustomEngine(new CustomEngine());
 
-    // Výpočet vzorce pomocí vlastní funkce bez jeho zapsání do buňky listu
+    // Calculate a formula using the custom function without writing it in a worksheet cell
     Object ret = ws.calculateFormula("=A1 & MyCompany.CustomFunction()", opts);
     
-    System.out.println(ret);  // Výstupy: Vítejte v Aspose.Cells.
+    System.out.println(ret);  // Outputs: Welcome to Aspose.Cells.
 }
 ```
 
-**Vysvětlení:** Ten/Ta/To `opts.setCustomEngine(new CustomEngine())` Řádek konfiguruje výpočetní engine pro zpracování vlastních vzorců.
+**Definiční kotva:** `CalculationOptions` obsahuje nastavení, která řídí, jak Aspose.Cells vyhodnocuje vzorce, včetně odkazu na vlastní engine.  
+
+**Přímá odpověď:** Voláním `opts.setCustomEngine(new CustomEngine())` říkáte Aspose.Cells, aby delegovalo jakoukoli neznámou funkci na vaši implementaci, čímž zajistíte, že `MyCompany.CustomFunction` vrátí hodnotu, kterou vypočítáte.
 
 ## Praktické aplikace
 
-Implementace vlastního výpočetního enginu může výrazně vylepšit vaše obchodní procesy. Zde je několik praktických případů použití:
+**Přidání schopnosti vlastní funkce Excel řeší mnoho problémů z reálného světa:**
 
-1. **Dynamické cenové modely:**
-   - Vypočítávejte ceny na základě složitých kritérií, jako je typ zákazníka nebo sezónní slevy.
-
-2. **Vlastní finanční metriky:**
-   - Vypočítejte finanční poměry nebo ukazatele výkonnosti specifické pro vaše odvětví.
-
-3. **Automatizovaná transformace dat:**
-   - Transformujte nezpracovaná data do praktických poznatků pomocí vlastních algoritmů přímo v excelových tabulkách.
-
-4. **Integrace s ERP systémy:**
-   - Využijte vlastní funkce pro bezproblémovou integraci se stávajícími systémy plánování podnikových zdrojů (ERP), automatizaci toku dat a analýzy.
-
-5. **Modely hodnocení rizik:**
-   - Implementujte modely výpočtu rizik šité na míru, které odrážejí specifické rizikové faktory a prahové hodnoty vaší organizace.
+1. **Dynamické modely cen** – vypočítejte ceny na základě úrovně zákazníka, regionu a propagačních pravidel bez externích služeb.  
+2. **Vlastní finanční metriky** – vypočítejte poměry specifické pro odvětví (např. upravené EBITDA), které nejsou součástí nativní knihovny Excelu.  
+3. **Automatizovaná transformace dat** – vložte proprietární algoritmy, které čistě nebo obohacují surová data přímo v listu.  
+4. **Integrace s ERP** – načtěte směnné kurzy nebo úrovně zásob pomocí vlastní funkce, která volá API vašeho ERP, a udržujte sešit aktuální.  
+5. **Posouzení rizika** – vyhodnoťte kreditní skóre nebo pravděpodobnost podvodu pomocí vlastního statistického modelu volaného z buňkového vzorce.
 
 ## Úvahy o výkonu
 
-Při nasazení vlastního výpočetního enginu zvažte tyto tipy pro zvýšení výkonu:
+**Při přidávání vlastní funkce mějte na paměti následující tipy:**
 
-- Optimalizujte složitost vzorců, abyste předešli zbytečným výpočtům.
-- Spravujte využití paměti efektivním zpracováním velkých datových sad pomocí Aspose.Cells.
-- Pravidelně aktualizujte na nejnovější verzi Aspose.Cells pro Javu, abyste mohli těžit z vylepšení výkonu.
+- **Minimalizujte složitost** – udržujte algoritmus uvnitř `calculate` lehký; těžké I/O by mělo být kešováno nebo přednačteno.  
+- **Dávkové zpracování** – pokud funkce potřebuje dotazovat databázi, načtěte všechny potřebné řádky najednou a znovu je použijte při voláních.  
+- **Správa paměti** – Aspose.Cells streamuje velké soubory; nicméně ukládání velkých dočasných kolekcí uvnitř enginu může zvýšit využití haldy.  
+- **Zůstaňte aktuální** – novější verze Aspose.Cells obsahují JIT‑kompilované výpočetní enginy, které urychlují vlastní výpočty až o 30 %.
 
-## Závěr
+## Často kladené otázky
 
-Úspěšně jste rozšířili Aspose.Cells pro Javu o vlastní výpočetní engine, čímž jste odemkli nové možnosti zpracování v Excelu. Toto přizpůsobení nejen obohacuje vaši analýzu dat, ale také zefektivňuje pracovní postupy přizpůsobené specifickým obchodním potřebám.
+**Q: Mohu zaregistrovat více než jednu vlastní funkci?**  
+A: Ano. Implementujte více podtříd `AbstractCalculationEngine` nebo zpracovávejte několik názvů funkcí v jedné metodě `calculate` enginu.
 
-### Další kroky:
-- Experimentujte s různými typy funkcí a výpočtů.
-- Prozkoumejte další funkce nabízené službou Aspose.Cells pro vylepšenou funkčnost.
+**Q: Co se stane, pokud moje vlastní funkce vyhodí výjimku?**  
+A: Engine by měl zachytit výjimky a zavolat `setCalculatedValue(ErrorValue)`, aby vrátil Excelovou chybu (např. `#VALUE!`). Tím se zabrání selhání výpočtu celého sešitu.
 
-Jste připraveni ponořit se hlouběji? Zkuste tato řešení implementovat ve svých projektech ještě dnes!
+**Q: Funguje vlastní engine s vícevláknovými výpočty?**  
+A: Výpočetní engine Aspose.Cells je bezpečný pro vlákna, pokud každé vlákno používá vlastní instanci `Workbook`. Sdílejte instanci enginu pouze pokud je bezstavová.
 
-## Sekce Často kladených otázek
+**Q: Existují limity na velikost argumentů, které mohu předat?**  
+A: Argumenty jsou předávány jako `Object[]`. Můžete zpracovávat pole, řetězce, čísla nebo i vlastní objekty, ale udržujte payloady rozumné (pod několik megabajtů), aby nedošlo k nadměrné spotřebě paměti.
 
-**Otázka 1:** Jaké jsou výhody používání vlastního výpočetního nástroje?
-*Vlastní enginy umožňují přesnou kontrolu nad zpracováním dat a umožňují jedinečnou obchodní logiku přímo v Excelu.*
-
-**Otázka 2:** Jak mám řešit chyby ve své vlastní funkci?
-*Implementujte ošetření chyb v rámci `calculate` metoda pro elegantní správu výjimek.*
-
-**Otázka 3:** Lze použít více vlastních funkcí současně?
-*Ano, Aspose.Cells podporuje použití více vlastních enginů pro různé funkce.*
-
-**Otázka 4:** Existují nějaká omezení ohledně toho, co lze vypočítat pomocí vlastního enginu?
-*I když jsou vlastní enginy výkonné, měly by respektovat omezení systémové paměti a časové limity zpracování.*
-
-**Otázka 5:** Jak mohu ladit problémy v mé vlastní výpočetní logice?
-*Využijte protokolování ve svém `calculate` metoda pro sledování hodnot a identifikaci místa, kde by mohl nastat problém.*
+**Q: Jak mohu ladit svou vlastní funkci?**  
+A: Vložte logovací výpisy (např. pomocí `java.util.logging`) do metody `calculate`. Výstup logu se zobrazí v konzoli aplikace a pomůže vám sledovat hodnoty argumentů a mezivýsledky.
 
 ## Zdroje
 
-- **Dokumentace:** [Dokumentace k Aspose.Cells v Javě](https://reference.aspose.com/cells/java/)
-- **Stáhnout:** [Aspose.Cells pro verze Javy](https://releases.aspose.com/cells/java/)
-- **Možnosti nákupu:** [Koupit Aspose.Cells](https://purchase.aspose.com/buy)
-- **Bezplatná zkušební verze:** [Bezplatný zkušební přístup k Aspose](https://releases.aspose.com/cells/java/)
-- **Dočasná licence:** [Žádost o dočasnou licenci](https://purchase.aspose.com/temporary-license/)
-- **Fórum podpory:** [Komunita podpory Aspose](https://forum.aspose.com/c/cells/9)
+- **Dokumentace:** [Aspose.Cells Java Documentation](https://reference.aspose.com/cells/java/)  
+- **Ke stažení:** [Aspose.Cells for Java Releases](https://releases.aspose.com/cells/java/)  
+- **Možnosti nákupu:** [Buy Aspose.Cells](https://purchase.aspose.com/buy)  
+- **Bezplatná zkušební verze:** [Aspose Free Trial Access](https://releases.aspose.com/cells/java/)  
+- **Dočasná licence:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Fórum podpory:** [Aspose Support Community](https://forum.aspose.com/c/cells/9)
 
-Dodržováním tohoto návodu můžete využít Aspose.Cells pro Javu k vytvoření výkonných vlastních výpočetních nástrojů, které budou vyhovovat vašim jedinečným obchodním požadavkům. Přejeme vám příjemné programování!
+---
+
+**Poslední aktualizace:** 2026-08-10  
+**Testováno s:** Aspose.Cells pro Java 25.3  
+**Autor:** Aspose
+
+{{< blocks/products/products-backtop-button >}}
+
+## Související tutoriály
+
+- [Vlastní funkce SUM v Excelu pomocí Aspose.Cells Java&#58; Vylepšete své výpočty](/cells/java/formulas-functions/custom-sum-function-excel-aspose-cells-java/)
+- [Jak vytvořit a formátovat buňky v Excelu pomocí Aspose.Cells pro Java&#58; Průvodce krok za krokem](/cells/java/formatting/aspose-cells-java-excel-automation-guide/)
+- [Implementace vlastních fontů v Aspose.Cells pro Java&#58; Komplexní průvodce pro konzistentní vykreslování sešitu](/cells/java/formatting/custom-fonts-aspose-cells-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

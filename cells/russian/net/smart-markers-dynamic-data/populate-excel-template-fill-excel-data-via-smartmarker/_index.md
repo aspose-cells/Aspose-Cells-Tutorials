@@ -178,11 +178,14 @@ workbook.Save("Output/InvoicePopulated.xlsx");
 Если `Items` пуст, SmartMarker оставит заголовок таблицы, но не вставит строки. Чтобы избежать пустого пространства, можно добавить условный блок:
 
 ```csharp
-{{#if Orders.Items.Length > 0}}
-    ... table rows ...
-{{else}}
-    No items were ordered.
-{{/if}}
+if (order.Items.Length > 0)
+{
+    // ... table rows ...
+}
+else
+{
+    // No items were ordered.
+}
 ```
 
 ### Пользовательские числовые форматы

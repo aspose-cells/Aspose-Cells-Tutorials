@@ -50,6 +50,8 @@ Unlock the potential of Excel charting with Aspose.Cells for .NET. Learn to set 
 Learn how to customize chart lines in Excel using Aspose.Cells for .NET with our detailed step-by-step guide.
 ### [Set Titles and Axes in Chart](./set-titles-and-axes-in-chart/)
 Learn how to set titles and axes in charts using Aspose.Cells for .NET with this step-by-step guide, complete with code examples and tips.
+### [how to preserve charts – preserve chart formatting in PowerPoint C#](./how-to-preserve-charts-preserve-chart-formatting-in-powerpoi/)
+Learn how to preserve chart formatting in PowerPoint using C# with Aspose.Slides for .NET in this step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -39,6 +39,7 @@
 | [حذف ورقة عمل Excel حسب الاسم - برنامج تعليمي C#](./delete-excel-worksheet-by-name-csharp-tutorial/) تعلّم كيفية حذف أوراق عمل Excel بالاسم باستخدام C#. يرشدك هذا البرنامج التعليمي الملائم للمبتدئين خطوة بخطوة مع Aspose.Cells لـ .NET.  
 | [الحصول على ورقة عمل Excel حسب الاسم باستخدام برنامج تعليمي C#](./get-excel-worksheet-by-name-csharp-tutorial/) |يمكنك الوصول إلى أوراق عمل Excel حسب الاسم في C# مع إرشادات خطوة بخطوة، باستخدام Aspose.Cells لـ .NET لتحقيق كفاءة أفضل في الكود. |  
 | [إنشاء ورقة عمل جديدة في C# – دليل كامل لصيغ المصفوفة الديناميكية](./create-new-worksheet-in-c-complete-guide-to-dynamic-array-fo/) | تعلم كيفية إنشاء ورقة عمل جديدة في C# واستخدام صيغ المصفوفة الديناميكية مع Aspose.Cells خطوة بخطوة. |
+| [إنشاء أوراق عمل من قائمة – دليل قالب Excel C#](./create-worksheets-from-list-c-excel-template-guide/) | تعلم كيفية إنشاء أوراق عمل Excel من قائمة باستخدام Aspose.Cells في C# عبر دليل القالب خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

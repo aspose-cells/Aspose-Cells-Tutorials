@@ -40,6 +40,12 @@
 تعرّف على كيفية حفظ Pivot كصورة في .NET باستخدام Aspose.Cells من خلال دليل خطوة بخطوة.
 ### [تصدير نطاق Excel كصورة – دليل C# كامل](./export-excel-range-as-image-complete-c-guide/)
 تعلم كيفية تصدير نطاق محدد من ملف Excel إلى صورة باستخدام Aspose.Cells في C# خطوة بخطوة.
+### [كيفية حفظ ورقة Excel كصورة – دليل C# كامل](./how-to-save-excel-sheet-as-image-complete-c-guide/)
+تعلم خطوة بخطوة كيفية تحويل وحفظ ورقة Excel كصورة باستخدام Aspose.Cells في C#.
+### [كيفية تصدير Excel إلى PNG – دليل خطوة بخطوة كامل](./how-to-export-excel-to-png-full-step-by-step-guide/)
+تعلم كيفية تحويل ملفات Excel إلى صور PNG بجودة عالية باستخدام Aspose.Cells من خلال دليل شامل خطوة بخطوة.
+### [كيفية تصدير نطاق Excel كصورة باستخدام C# و Aspose.Cells](./how-to-export-excel-range-as-image-with-c-and-aspose-cells/)
+تعلم كيفية تصدير نطاق محدد من ملف Excel كصورة باستخدام C# ومكتبة Aspose.Cells بسهولة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

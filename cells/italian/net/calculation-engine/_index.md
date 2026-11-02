@@ -51,6 +51,8 @@ Scopri come ottimizzare i tempi di calcolo di Excel utilizzando le opzioni ricor
 Scopri come calcolare e ordinare i dati in una cartella di lavoro Excel usando C# con esempi pratici di formule.
 ### [Crea cartella di lavoro Excel – Converti array in matrice con WRAPCOLS](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
 Scopri come creare una cartella di lavoro Excel e trasformare un array in una matrice usando la funzione WRAPCOLS di Aspose.Cells.
+### [Come valutare le formule in C# – Guida completa ad Aspose.Cells](./how-to-evaluate-formulas-in-c-complete-aspose-cells-guide/)
+Scopri come valutare le formule Excel in C# usando Aspose.Cells, con esempi pratici e consigli per ottimizzare le prestazioni.
 
 ## Benefici
 

@@ -8,9 +8,7 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Комментарии и примечания Excel
@@ -45,13 +43,17 @@
 ### [Добавить комментарий в Excel с C# – Полное пошаговое руководство](./add-comment-to-excel-with-c-complete-step-by-step-guide/)
 Узнайте, как добавить комментарий в Excel с помощью C# и Aspose.Cells для .NET. Полное пошаговое руководство.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+### [Вставить комментарий в Excel с C# – пошаговое руководство](./insert-comment-into-excel-with-c-step-by-step-guide/)
+Узнайте, как добавить комментарий в Excel с помощью C# и Aspose.Cells, следуя пошаговому руководству.
+### [Как добавить комментарий в Excel с помощью умных маркеров Aspose.Cells](./how-to-add-comment-to-excel-using-aspose-cells-smart-markers/)
+Узнайте, как использовать умные маркеры Aspose.Cells для добавления комментариев в Excel на C#.
+
+
+
+
 ### [Создать книгу Excel C# – Добавить комментарий и сохранить как XLSX](./create-excel-workbook-c-add-comment-save-as-xlsx/)
 Узнайте, как создать книгу Excel на C#, добавить комментарий и сохранить её в формате XLSX с помощью Aspose.Cells для .NET.
 
@@ -59,12 +61,18 @@
 Узнайте, как использовать Smart Markers в C# для заполнения шаблона Excel комментариями.
 ### [Создать файл Excel программно – добавить комментарии и сохранить как XLSX](./create-excel-file-programmatically-add-comments-save-as-xlsx/)
 Узнайте, как программно создавать файлы Excel, добавлять комментарии и сохранять их в формате XLSX с помощью Aspose.Cells для .NET.
+### [Добавить комментарий к ячейке в Excel с помощью Aspose.Cells Smart Marker](./add-comment-cell-in-excel-with-aspose-cells-smart-marker/)
+Узнайте, как использовать Smart Marker для добавления комментариев к ячейкам в Excel с Aspose.Cells.
+### [Добавить комментарий к ячейке в C# – Генерация Excel из данных](./add-comment-to-cell-in-c-generate-excel-from-data/)
+Узнайте, как добавить комментарий к ячейке в C# и создать файл Excel из данных с помощью Aspose.Cells.
+### [Вставка комментария в Excel с C# – Полное руководство по SmartMarker](./insert-excel-comment-with-c-complete-smartmarker-guide/)
+Узнайте, как с помощью SmartMarker вставлять комментарии в Excel с C# в Aspose.Cells для .NET.
+### [Как вставить комментарий в Excel с помощью Aspose.Cells](./how-to-insert-comment-in-excel-using-aspose-cells/)
+Узнайте, как добавить комментарий в Excel с помощью Aspose.Cells для .NET. Пошаговое руководство для улучшения ваших таблиц.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

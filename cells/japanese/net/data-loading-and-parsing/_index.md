@@ -73,6 +73,8 @@ Aspose.Cells を使用して Markdown ファイルを Excel に取り込み、�
 Aspose.Cells for .NET を使用して、JSON データから Excel ファイルを作成する方法をステップバイステップで解説します。
 ### [C#でExcelブックを作成 – セルから日付を読み取る完全ガイド](./create-excel-workbook-c-full-guide-to-read-dates-from-cells/)
 このステップバイステップガイドでは、Aspose.Cells for .NET を使用して、セル内の日付を読み取る方法を学びます。
+### [C#で和暦日付を解析する – 完全ガイド](./parse-japanese-era-date-in-c-complete-guide/)
+C#で和暦（元号）の日付文字列をDateTimeに変換する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
