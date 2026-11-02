@@ -49,6 +49,8 @@ Apprenez à exporter facilement des fichiers Excel au format PDF avec Aspose.Cel
 Apprenez à convertir une feuille Excel en présentation PowerPoint en Java avec Aspose.Cells, guide pas à pas avec code source.
 ### [Comment créer un PDF à partir d'un classeur – Guide complet Java](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
 Apprenez à générer un fichier PDF à partir d'un classeur Excel en Java avec Aspose.Cells, guide complet pas à pas.
+### [Comment enregistrer un classeur au format PDF avec précision numérique en Java](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+Apprenez à enregistrer un classeur Excel en PDF tout en conservant la précision numérique des valeurs avec Aspose.Cells pour Java.
 ### [Comment exporter Excel : guide étape par étape pour la conversion CSV](./how-to-export-excel-step-by-step-guide-to-csv-conversion/)
 Apprenez à convertir un classeur Excel en fichier CSV avec Aspose.Cells pour Java. Guide complet pas à pas avec exemples de code.
 ### [Créer un fichier Excel en Java – Guide complet avec style de ligne et exportation XLSX](./create-excel-file-java-full-guide-with-row-styling-and-xlsx/)

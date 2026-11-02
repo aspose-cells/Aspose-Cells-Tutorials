@@ -89,6 +89,9 @@
 ### [如何在 Java 中將工作表匯出為 CSV 並保持精度](./how-to-export-worksheet-to-csv-with-precision-in-java/)
 了解如何使用 Aspose.Cells for Java 精確匯出工作表為 CSV，設定有效位數與匯出範圍。
 ### [如何從工作簿建立 PDF – 完整 Java 指南](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
+了解如何使用 Aspose.Cells for Java 將工作簿匯出為 PDF，提供完整的程式碼範例與逐步說明。
+### [如何在 Java 中將工作簿另存為 PDF 並設定數值精度](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+了解如何使用 Aspose.Cells for Java 在將工作簿匯出為 PDF 時設定數值精度，確保資料呈現正確。
 ### [嵌入字型 HTML – Excel 轉 HTML 完整字型嵌入](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
 了解如何使用 Aspose.Cells for Java 將 Excel 轉換為 HTML 並完整嵌入字型。提供逐步指南與原始程式碼示例。
 ### [將 XLSX 轉換為 PPTX – 完整指南：匯出可編輯形狀](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)

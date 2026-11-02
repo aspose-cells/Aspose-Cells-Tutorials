@@ -94,7 +94,7 @@
 Μάθετε πώς να μετατρέψετε αρχεία Excel σε Word χρησιμοποιώντας το Aspose.Cells για Java με πλήρη οδηγό κώδικα.
 ### [Πώς να ενσωματώσετε γραμματοσειρές στη μετατροπή Excel σε SVG](./how-to-embed-fonts-in-excel-to-svg-conversion/)
 ### [Μετατροπή αρχείου Excel σε HTML – Πλήρης Οδηγός με Ενσωμάτωση Γραμματοσειρών](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
-Μάθετε πώς να μετατρέψετε αρχεία Excel σε HTML με ενσωμάτωση γραμματοσειρών χρησιμοποιώντας Aspose.Cells για Java σε πλήρη βήμα-βήμα οδηγό.
+Μάθετε πώς να μετατρέψετε αρχεία Excel σε HTML με ενσωμάτωση γραμματοσειρών χρησιμοποιώντας Aspose.Cells για Java σε πλήρη βήμα‑βήμα οδηγό.
 ### [Εξαγωγή Excel σε HTML – Πλήρης Οδηγός με Παγωμένα Πάνελ](./export-excel-to-html-complete-guide-with-frozen-panes/)
 Μάθετε πώς να εξάγετε αρχεία Excel σε HTML με πλήρη υποστήριξη παγωμένων πλαισίων, βήμα‑βήμα οδηγίες και παραδείγματα κώδικα.
 ### [Δημιουργία Excel από JSON – Πλήρης Οδηγός Βήμα‑Βήμα](./create-excel-from-json-full-step-by-step-guide/)
@@ -175,6 +175,8 @@
 ### [Πώς να εξάγετε φύλλο εργασίας σε CSV με ακρίβεια στη Java](./how-to-export-worksheet-to-csv-with-precision-in-java/)
 ### [Αποθήκευση βιβλίου εργασίας ως CSV χρησιμοποιώντας Aspose.Cells για Java – οδηγός βήμα‑βήμα](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
 Μάθετε πώς να αποθηκεύσετε ένα βιβλίο εργασίας Excel ως αρχείο CSV χρησιμοποιώντας Aspose.Cells για Java, βήμα‑βήμα.
+### [Πώς να αποθηκεύσετε βιβλίο εργασίας ως PDF με αριθμητική ακρίβεια σε Java](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+Μάθετε πώς να αποθηκεύσετε ένα βιβλίο εργασίας Excel ως PDF με ακριβή αριθμητική ακρίβεια χρησιμοποιώντας Aspose.Cells για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

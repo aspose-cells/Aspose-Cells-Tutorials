@@ -52,6 +52,8 @@
 ### [فرز القيم الفريدة في Excel – دليل Java كامل لتعيين صيغ المصفوفة](./sort-unique-values-excel-complete-java-guide-to-set-array-fo/)
 ### [كيفية استخدام Aspose في Java – إنشاء مصنف Excel مع وظائف جديدة](./how-to-use-aspose-in-java-create-excel-workbook-with-new-fun/)
 ### [استخدام دالة expand في Aspose.Cells Java – دليل خطوة بخطوة](./use-expand-function-in-aspose-cells-java-step-by-step-guide/)
+### [كيفية استخدام wrapcols لتحويل قائمة إلى أعمدة متعددة في Java](./how-to-use-wrapcols-to-convert-a-list-into-multiple-columns/)
+### [Aspose.Cells تعيين الصيغة باستخدام الدالة EXPAND – دليل Java كامل](./aspose-cells-set-formula-with-expand-function-complete-java/)
 
 ## موارد إضافية
 

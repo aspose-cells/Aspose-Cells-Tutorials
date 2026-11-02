@@ -84,6 +84,8 @@ Aprenda a copiar una tabla dinámica a otro libro de trabajo con Aspose.Cells pa
 Aprenda a copiar una tabla dinámica en Java, conservar su formato y exportarla a una presentación PPTX con Aspose.Cells.
 ### [Cómo copiar tablas dinámicas entre libros de Excel en Java](./how-to-copy-pivot-tables-between-excel-workbooks-in-java/)
 Aprenda a copiar tablas dinámicas entre libros de Excel en Java usando Aspose.Cells.
+### [Cómo copiar una tabla dinámica entre hojas de cálculo en Java](./how-to-copy-a-pivot-table-between-worksheets-in-java/)
+Aprenda a copiar una tabla dinámica entre hojas de cálculo en Java usando Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

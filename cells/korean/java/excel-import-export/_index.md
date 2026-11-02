@@ -172,6 +172,8 @@ Aspose.Cells for Java를 사용하여 Excel 파일을 PowerPoint 프레젠테이
 Aspose.Cells for Java를 활용해 JSON 데이터를 Excel 파일로 변환하고, JSON을 사용해 Excel 워크시트를 채우는 단계별 가이드입니다.
 ### [Aspose.Cells for Java를 사용하여 워크북을 CSV로 저장하기 – 단계별 가이드](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
 Aspose.Cells for Java를 활용해 워크북을 CSV 파일로 변환하고 저장하는 방법을 단계별로 안내합니다.
+### [Java에서 숫자 정밀도로 워크북을 PDF로 저장하는 방법](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+Aspose.Cells for Java를 사용하여 숫자 정밀도를 유지하면서 워크북을 PDF로 저장하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

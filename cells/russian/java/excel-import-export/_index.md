@@ -201,6 +201,9 @@
 ### [Как конвертировать JSON в Excel и заполнять Excel из JSON с помощью Aspose.Cells](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
 Узнайте, как преобразовать данные JSON в файл Excel и заполнить его данными из JSON с использованием Aspose.Cells.
 
+### [Как сохранить рабочую книгу в PDF с точностью чисел в Java](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+Узнайте, как сохранить рабочую книгу в PDF с заданной точностью чисел, используя Aspose.Cells для Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
