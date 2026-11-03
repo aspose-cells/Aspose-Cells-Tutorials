@@ -1,106 +1,146 @@
 ---
-date: '2026-02-24'
-description: Tanulja meg, hogyan dolgozzon fel nagy Excel-fájlokat a hiperhivatkozások
-  Java-ban történő kezelésével az Aspose.Cells segítségével – olvassa, módosítsa és
-  törölje a hivatkozásokat hatékonyan.
+date: '2026-11-03'
+description: Ismerje meg, hogyan kezelheti az Excel hiperhivatkozásokat nagy munkafüzetekben
+  az aspose cells java használatával. Ez az útmutató bemutatja a hivatkozások olvasását,
+  frissítését és törlését hatékonyan a Java 8+ környezetben.
 keywords:
-- Aspose.Cells for Java
-- Excel Hyperlinks Management
-- Java Excel Library
-- Manage Excel Hyperlinks
-- Programmatic Excel Handling
-title: 'Nagy Excel-fájlok feldolgozása: Hiperhivatkozások kezelése az Aspose.Cells
-  segítségével'
+- aspose cells java
+- excel hyperlink management
+- java excel processing
+- large excel files
+- aspose cells tutorial
+lastmod: '2026-11-03'
+og_description: Ismerje meg, hogyan kezelheti az Excel hiperhivatkozásokat nagy munkafüzetekben
+  az aspose cells java használatával. Ez az útmutató bemutatja a hivatkozások olvasását,
+  frissítését és törlését hatékonyan a Java 8+ környezetben.
+og_image_alt: Guide to managing Excel hyperlinks in large workbooks using aspose cells
+  java
+og_title: Hogyan kezeljük az Excel hiperhivatkozásokat az aspose cells java segítségével
+schemas:
+- author: Aspose
+  dateModified: '2026-11-03'
+  description: Learn how to manage Excel hyperlinks in large workbooks using aspose
+    cells java. This guide shows reading, updating, and deleting links efficiently
+    with Java 8+.
+  headline: How to manage Excel hyperlinks with aspose cells java
+  type: TechArticle
+- description: Learn how to manage Excel hyperlinks in large workbooks using aspose
+    cells java. This guide shows reading, updating, and deleting links efficiently
+    with Java 8+.
+  name: How to manage Excel hyperlinks with aspose cells java
+  steps:
+  - name: '**Data validation** – verify that every link points to a live resource.'
+    text: '**Data validation** – verify that every link points to a live resource.'
+  - name: '**Automated reporting** – update report links automatically after each
+      data refresh.'
+    text: '**Automated reporting** – update report links automatically after each
+      data refresh.'
+  - name: '**Batch cleanup** – remove outdated or broken hyperlinks from dozens of
+      workbooks in one go.'
+    text: '**Batch cleanup** – remove outdated or broken hyperlinks from dozens of
+      workbooks in one go.'
+  type: HowTo
+- questions:
+  - answer: Aspose.Cells for Java
+    question: What library handles Excel hyperlinks in Java?
+  - answer: Use `Range.getHyperlinks()`
+    question: How to read hyperlinks?
+  - answer: Call `hyperlink.delete()` on each item
+    question: How to delete a hyperlink?
+  - answer: A trial works for testing; a paid license removes limitations
+    question: Do I need a license?
+  - answer: Java 8+ (including Java 11, 17)
+    question: Which Java versions are supported?
+  type: FAQPage
+tags:
+- manage excel hyperlinks
+- aspose cells
+- java excel
+- large excel files
+title: Hogyan kezeljük az Excel hiperhivatkozásokat az aspose cells java segítségével
 url: /hu/java/advanced-features/manage-excel-hyperlinks-aspose-cells-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nagy Excel-fájlok feldolgozása: Hiperhivatkozások kezelése Java-ban az Aspose.Cells segítségével
+# Hogyan kezeljük az Excel hiperhivatkozásokat az Aspose Cells Java segítségével
 
-## Introduction
+## Bevezetés
 
-Ha **nagy Excel-fájlokat** kell feldolgoznod, és a hiperhivatkozásaikat rendezett állapotban szeretnéd tartani, jó helyen vagy. A hatalmas munkafüzetekben lévő hiperhivatkozások kezelése gyorsan rémálommá válhat, de a **Aspose.Cells for Java** segítségével néhány kódsorral programozottan olvashatod, módosíthatod és törölheted őket. Ez az útmutató mindent bemutat, amit tudnod kell – a könyvtár beállításától a hiperhivatkozások hatékony kezeléséig.
+Ha **nagy Excel fájlok** feldolgozására van szükséged, és szeretnéd rendezetté tenni a hiperhivatkozásaikat, jó helyen vagy. A hatalmas munkafüzetekben lévő hiperhivatkozások kezelése gyorsan rémálommá válhat, de az **Aspose Cells Java** segítségével néhány kódsorral programozottan olvashatod, módosíthatod és törölheted őket. Ez a bemutató végigvezet mindenen, amit tudnod kell – a könyvtár beállításától a hiperhivatkozások hatékony kezeléséig a Java 8+, 11 vagy 17 környezetben.
 
-## Quick Answers
-- **Melyik könyvtár kezeli az Excel hiperhivatkozásait Java-ban?** Aspose.Cells for Java  
-- **Hogyan olvashatók a hiperhivatkozások?** Használd a `Range.getHyperlinks()` metódust  
-- **Hogyan törölhető egy hiperhivatkozás?** Hívd meg a `Hyperlink.delete()` metódust minden elemre  
-- **Szükség van licencre?** A próba verzió tesztelésre elegendő; egy fizetett licenc eltávolítja a korlátozásokat  
-- **Mely Java verziók támogatottak?** Java 8+ (beleértve a Java 11, 17 verziókat)
+## Gyors válaszok
+- **Melyik könyvtár kezeli az Excel hiperhivatkozásokat Java-ban?** Aspose.Cells for Java  
+- **Hogyan olvassuk be a hiperhivatkozásokat?** Használd a `Range.getHyperlinks()`-t  
+- **Hogyan töröljünk egy hiperhivatkozást?** Hívd meg a `hyperlink.delete()`-t minden elemnél  
+- **Szükségem van licencre?** A próbaverzió teszteléshez működik; egy fizetett licenc eltávolítja a korlátozásokat  
+- **Mely Java verziók támogatottak?** Java 8+ (beleértve a Java 11-et és a 17-et)
 
-## What is hyperlink management for large Excel files?
+## Mi a hiperhivatkozás-kezelés nagy Excel fájlok esetén?
 
-Amikor olyan munkafüzetekkel dolgozol, amelyek több ezer sort és tucatnyi lapot tartalmaznak, a hivatkozások kézi ellenőrzése gyakorlati lehetetlen. A hiperhivatkozás-kezelés lehetővé teszi az ellenőrzés, tisztítás és frissítés automatizálását, biztosítva, hogy minden hivatkozás pontos maradjon, és a fájlméret optimális legyen.
+`Hyperlink management` az automatizált folyamat, amely a hiperhivatkozás-objektumok olvasását, ellenőrzését, frissítését vagy eltávolítását végzi a munkafüzet munkalapjai között. Ha egy munkafüzet több ezer sort és tucatnyi lapot tartalmaz, a manuális ellenőrzés gyakorlati lehetetlen; a programozott kezelés biztosítja, hogy minden link pontos maradjon, és a fájlméret optimális legyen.
 
-## Why use Aspose.Cells to process large Excel files?
+## Miért használjuk az Aspose Cells Java-t nagy Excel fájlok feldolgozásához?
 
-- **Microsoft Office nélkül** – bármely szerveren vagy CI környezetben működik.  
-- **Magas teljesítmény** – nagy adathalmazokra és streamingre optimalizálva.  
-- **Gazdag API** – teljes kontroll a hiperhivatkozások olvasása, szerkesztése és törlése felett.  
-- **Kereszt‑platform** – kompatibilis Windows, Linux és macOS rendszerekkel.
+Az Aspose.Cells for Java a munkafüzeteket a Microsoft Office nélkül dolgozza fel, támogatja a streaminget 500 MB feletti fájlok esetén, és gazdag API-t kínál, amely lehetővé teszi a hiperhivatkozások nagyméretű kezelését. Kezel **50+ bemeneti és kimeneti formátumot**, és Windows, Linux, valamint macOS rendszereken működik, így ideális CI folyamatokhoz és szerver‑oldali automatizáláshoz.
 
-## Prerequisites
+## Előkövetelmények
 
-### Required Libraries and Dependencies
-
-- **Aspose.Cells for Java** (a legújabb verzió)  
+### Szükséges könyvtárak és függőségek
+- **Aspose.Cells for Java** (legújabb verzió)  
 - Egy IDE, például IntelliJ IDEA vagy Eclipse  
 
-### Environment Setup Requirements
-
+### Környezet beállítási követelmények
 - JDK 8 vagy újabb telepítve  
 - Maven vagy Gradle a függőségkezeléshez  
 
-### Knowledge Prerequisites
+### Tudás előfeltételek
+- Alap Java programozás  
+- Ismeret a build eszközökkel (Maven/Gradle)  
+- Az Excel fájlstruktúrák megértése  
 
-- Alapvető Java programozás  
-- Ismeretek a build eszközökről (Maven/Gradle)  
-- Excel fájlstruktúrák megértése  
+## Az Aspose Cells Java beállítása
 
-## Setting Up Aspose.Cells for Java
+Add a könyvtárat a projektedhez Maven vagy Gradle használatával.
 
-Add the library to your project with Maven or Gradle.
-
-**Maven**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-cells</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle**
+**Gradle**  
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
-```
+```  
 
-### License Acquisition Steps
+### Licenc beszerzési lépések
+- **Ingyenes próba** – letölthető az Aspose weboldaláról.  
+- **Ideiglenes licenc** – kérj egyet a kiterjesztett teszteléshez.  
+- **Vásárlás** – szerezd be a teljes licencet a termelési használathoz.  
 
-- **Free Trial** – letölthető az Aspose weboldaláról.  
-- **Temporary License** – kérhető hosszabb teszteléshez.  
-- **Purchase** – teljes licenc beszerzése éles használathoz.
-
-Miután megvan a könyvtár, elkezdheted használni a **how to use Aspose** kódodban:
+Miután megvan a könyvtár, elkezdheted használni az **Aspose Cells Java**-t a kódban:
 
 ```java
 import com.aspose.cells.Workbook;
 
 // Initialize the Aspose.Cells Workbook object
 Workbook workbook = new Workbook("your-file-path.xlsx");
-```
+```  
 
-## How to Process Large Excel Files with Hyperlink Management
+## Hogyan dolgozzuk fel a nagy Excel fájlokat hiperhivatkozás-kezeléssel
 
-### Opening an Excel File
+A nagy Excel fájlok feldolgozásához töltsd be a munkafüzetet az Aspose.Cells segítségével, opcionálisan engedélyezd a memória‑optimalizált betöltést, iterálj végig minden munkalapon, határozd meg a hiperhivatkozásokat tartalmazó tartományokat, majd olvasd, frissítsd vagy töröld a hiperhivatkozás-objektumokat. A fájlt kezelhető darabokban dolgozd fel, hogy alacsony maradjon a memóriahasználat, és a végén mentsd el a munkafüzetet.
 
-Create a `Workbook` instance to load the target file.
+### Excel fájl megnyitása
+
+`Workbook` az Aspose.Cells alapobjektuma, amely egy teljes Excel munkafüzetet reprezentál a memóriában. Hozz létre egy `Workbook` példányt a célfájl betöltéséhez.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -116,22 +156,22 @@ public class GetHyperlinksInRange {
         // Proceed to the next steps...
     }
 }
-```
+```  
 
-### Accessing Worksheets
+### Munkalapok elérése
 
-Grab the worksheet that contains the hyperlinks you want to manage.
+`Worksheet` objektumok hozzáférést biztosítanak az egyes lapokhoz. Szerezz be azt a munkalapot, amelyik a kezelni kívánt hiperhivatkozásokat tartalmazza.
 
 ```java
 import com.aspose.cells.Worksheet;
 
 // Get the first (default) worksheet
 Worksheet worksheet = workbook.getWorksheets().get(0);
-```
+```  
 
-### Creating a Range and Managing Hyperlinks
+### Tartomány létrehozása és a hiperhivatkozások kezelése
 
-Define the cell range, read the hyperlinks, and optionally delete them.
+`Range` egy téglalap alakú cellatartományt definiál. A `Hyperlink` objektumok egy `Range`‑ben élnek. Határozd meg a cellatartományt, olvasd be a hiperhivatkozásokat, és opcionálisan töröld őket.
 
 ```java
 import com.aspose.cells.Range;
@@ -148,11 +188,11 @@ for (Hyperlink link : hyperlinks) {
     // Optionally delete the hyperlink
     link.delete();
 }
-```
+```  
 
-### Saving Changes
+### Változások mentése
 
-Persist the modifications by saving the workbook.
+`Workbook.save()` menti a módosításokat. Felülírhatod az eredeti fájlt, vagy egy új helyre írhatod.
 
 ```java
 import AsposeCellsExamples.Utils;
@@ -161,63 +201,69 @@ static String outputDir = Utils.Get_OutputDirectory();
 
 // Save the modified workbook
 workbook.save(outputDir + "HyperlinksSample_out.xlsx");
-```
+```  
 
-## Practical Applications
+## Gyakorlati alkalmazások
 
-Managing hyperlinks is useful in many real‑world scenarios:
+A hiperhivatkozások kezelése számos valós helyzetben hasznos:
 
-1. **Data Validation** – verify that every link points to a live resource.  
-2. **Automated Reporting** – update report links automatically after each data refresh.  
-3. **Batch Cleanup** – remove outdated or broken hyperlinks from dozens of workbooks in one go.
+1. **Adatellenőrzés** – ellenőrizd, hogy minden link élő erőforráshoz mutat.  
+2. **Automatizált jelentéskészítés** – frissítsd a jelentés linkjeit automatikusan minden adatfrissítés után.  
+3. **Kötegelt tisztítás** – távolítsd el a elavult vagy hibás hiperhivatkozásokat tucatnyi munkafüzetből egyszerre.  
 
-These examples illustrate **how to use Aspose** to streamline Excel‑based workflows when you need to **process large Excel files**.
+Ezek a példák bemutatják, hogyan használjuk az **Aspose Cells Java**-t az Excel‑alapú munkafolyamatok egyszerűsítéséhez, amikor **nagy Excel fájlok** feldolgozására van szükség.
 
-## Performance Considerations
+## Teljesítmény szempontok
 
-- **Chunk Processing** – for very large files, work with smaller ranges to keep memory usage low.  
-- **Dispose Resources** – call `workbook.dispose()` when you’re finished.  
-- **Parallel Execution** – use Java’s `ExecutorService` to process multiple workbooks concurrently.
+- **Darabokban történő feldolgozás** – nagyon nagy fájlok esetén dolgozz kisebb tartományokkal a memóriahasználat alacsonyan tartása érdekében.  
+- **Erőforrások felszabadítása** – hívd meg a `workbook.dispose()`-t, amikor befejezted.  
+- **Párhuzamos végrehajtás** – használd a Java `ExecutorService`‑ét több munkafüzet egyidejű feldolgozásához.  
 
-## Common Issues and Solutions
+## Gyakori problémák és megoldások
 
-| Issue | Cause | Fix |
-|-------|-------|-----|
-| **No hyperlinks returned** | Range does not actually contain hyperlinks | Verify the address string (e.g., `"A2"` to `"B3"`). |
-| **`OutOfMemoryError` on huge files** | Loading the entire workbook into memory | Enable **memory‑optimized** loading via `LoadOptions`. |
-| **License not applied** | License file not loaded before workbook creation | Load the license (`License license = new License(); license.setLicense("Aspose.Cells.lic");`) at the start of your program. |
+| Probléma | Ok | Javítás |
+|----------|----|---------|
+| **Nincsenek visszaadott hiperhivatkozások** | A tartomány valójában nem tartalmaz hiperhivatkozásokat | Ellenőrizd a címkarakterláncot (pl. `"A2"`‑től `"B3"`‑ig). |
+| **`OutOfMemoryError` hatalmas fájlok esetén** | A teljes munkafüzet betöltése a memóriába | Engedélyezd a **memory‑optimized** betöltést a `LoadOptions` segítségével. |
+| **Licenc nincs alkalmazva** | A licencfájl nem lett betöltve a munkafüzet létrehozása előtt | Töltsd be a licencet (`License license = new License(); license.setLicense("Aspose.Cells.lic");`) a program elején. |
 
-## Frequently Asked Questions
+## Gyakran feltett kérdések
 
-**Q:** What is Aspose.Cells for Java?  
-**A:** It’s a powerful Java library that lets you create, edit, convert, and render Excel files without Microsoft Office.
+**Q:** Mi az Aspose.Cells for Java?  
+**A:** Egy erőteljes Java könyvtár, amely lehetővé teszi Excel fájlok létrehozását, szerkesztését, konvertálását és megjelenítését a Microsoft Office nélkül.
 
-**Q:** How do I remove all hyperlinks from a worksheet?  
-**A:** Iterate over the desired range and call `Hyperlink.delete()` on each hyperlink object.
+**Q:** Hogyan távolítsak el minden hiperhivatkozást egy munkalapról?  
+**A:** Iterálj a kívánt tartományon, és hívd meg a `hyperlink.delete()`-t minden `Hyperlink` objektumnál.
 
-**Q:** Can I handle very large Excel files efficiently?  
-**A:** Yes – process the file in chunks, release resources promptly, and consider using the streaming APIs provided by Aspose.Cells.
+**Q:** Kezelhetek nagyon nagy Excel fájlokat hatékonyan?  
+**A:** Igen – dolgozd fel a fájlt darabokban, szabadítsd fel az erőforrásokat időben, és fontold meg az Aspose.Cells által biztosított streaming API-k használatát.
 
-**Q:** Is it possible to add new hyperlinks with this library?  
-**A:** Absolutely. Use `range.getHyperlinks().add(address, text, ...)` to insert new links.
+**Q:** Lehetséges új hiperhivatkozásokat hozzáadni ezzel a könyvtárral?  
+**A:** Természetesen. Használd a `range.getHyperlinks().add(address, text, ...)`-t új linkek beszúrásához.
 
-**Q:** What should I do if a hyperlink is broken?  
-**A:** Validate URLs before adding them, or use the library to update the address programmatically.
+**Q:** Mit tegyek, ha egy hiperhivatkozás hibás?  
+**A:** Ellenőrizd az URL-eket a hozzáadás előtt, vagy használd a könyvtárat a cím programozott frissítéséhez.
 
-## Resources
+## Erőforrások
 
-- **Documentation**: [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
-- **Download**: [Latest Releases](https://releases.aspose.com/cells/java/)  
-- **Purchase**: [Buy Aspose.Cells](https://purchase.aspose.com/buy)  
-- **Free Trial**: [Try Aspose.Cells for Free](https://releases.aspose.com/cells/java/)  
-- **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
-- **Support**: [Aspose Forum](https://forum.aspose.com/c/cells/9)
+- **Dokumentáció**: [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
+- **Letöltés**: [Latest Releases](https://releases.aspose.com/cells/java/)  
+- **Vásárlás**: [Buy Aspose.Cells](https://purchase.aspose.com/buy)  
+- **Ingyenes próba**: [Try Aspose.Cells for Free](https://releases.aspose.com/cells/java/)  
+- **Ideiglenes licenc**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Támogatás**: [Aspose Forum](https://forum.aspose.com/c/cells/9)
 
 ---
 
-**Last Updated:** 2026-02-24  
-**Tested With:** Aspose.Cells 25.3 for Java  
-**Author:** Aspose  
+**Utolsó frissítés:** 2026-11-03  
+**Tesztelve a következővel:** Aspose.Cells 25.3 for Java  
+**Szerző:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [Hogyan adjunk hozzá hiperhivatkozást az Excelhez az Aspose.Cells for Java használatával – Lépésről‑lépésre útmutató](/cells/java/advanced-features/create-hyperlinks-excel-aspose-cells-java/)
+- [Hogyan találjunk rejtett külső hivatkozásokat Excel munkafüzetekben az Aspose.Cells for Java használatával](/cells/java/advanced-features/detect-hidden-external-links-excel-aspose-cells-java/)
+- [Nagy Excel fájlok hatékony kezelése Java-ban az Aspose.Cells segítségével](/cells/java/performance-optimization/aspose-cells-java-large-excel-files/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
