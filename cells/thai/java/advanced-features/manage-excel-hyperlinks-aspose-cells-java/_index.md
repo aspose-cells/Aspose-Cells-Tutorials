@@ -1,69 +1,110 @@
 ---
-date: '2026-02-24'
-description: เรียนรู้วิธีประมวลผลไฟล์ Excel ขนาดใหญ่โดยจัดการไฮเปอร์ลิงก์ใน Java ด้วย
-  Aspose.Cells – อ่าน แก้ไข และลบลิงก์อย่างมีประสิทธิภาพ
+date: '2026-11-03'
+description: เรียนรู้วิธีจัดการ Hyperlink ของ Excel ใน workbook ขนาดใหญ่โดยใช้ Aspose
+  Cells Java คู่มือนี้แสดงวิธีอ่าน, ปรับปรุง, และลบ links อย่างมีประสิทธิภาพด้วย Java
+  8+.
 keywords:
-- Aspose.Cells for Java
-- Excel Hyperlinks Management
-- Java Excel Library
-- Manage Excel Hyperlinks
-- Programmatic Excel Handling
-title: 'ประมวลผลไฟล์ Excel ขนาดใหญ่: จัดการไฮเปอร์ลิงก์ด้วย Aspose.Cells'
+- aspose cells java
+- excel hyperlink management
+- java excel processing
+- large excel files
+- aspose cells tutorial
+lastmod: '2026-11-03'
+og_description: เรียนรู้วิธีจัดการ Hyperlink ของ Excel ใน workbook ขนาดใหญ่โดยใช้
+  Aspose Cells Java คู่มือนี้แสดงวิธีอ่าน, ปรับปรุง, และลบ links อย่างมีประสิทธิภาพด้วย
+  Java 8+.
+og_image_alt: Guide to managing Excel hyperlinks in large workbooks using aspose cells
+  java
+og_title: วิธีจัดการ Hyperlink ของ Excel ด้วย Aspose Cells Java
+schemas:
+- author: Aspose
+  dateModified: '2026-11-03'
+  description: Learn how to manage Excel hyperlinks in large workbooks using aspose
+    cells java. This guide shows reading, updating, and deleting links efficiently
+    with Java 8+.
+  headline: How to manage Excel hyperlinks with aspose cells java
+  type: TechArticle
+- description: Learn how to manage Excel hyperlinks in large workbooks using aspose
+    cells java. This guide shows reading, updating, and deleting links efficiently
+    with Java 8+.
+  name: How to manage Excel hyperlinks with aspose cells java
+  steps:
+  - name: '**Data validation** – verify that every link points to a live resource.'
+    text: '**Data validation** – verify that every link points to a live resource.'
+  - name: '**Automated reporting** – update report links automatically after each
+      data refresh.'
+    text: '**Automated reporting** – update report links automatically after each
+      data refresh.'
+  - name: '**Batch cleanup** – remove outdated or broken hyperlinks from dozens of
+      workbooks in one go.'
+    text: '**Batch cleanup** – remove outdated or broken hyperlinks from dozens of
+      workbooks in one go.'
+  type: HowTo
+- questions:
+  - answer: Aspose.Cells for Java
+    question: What library handles Excel hyperlinks in Java?
+  - answer: Use `Range.getHyperlinks()`
+    question: How to read hyperlinks?
+  - answer: Call `hyperlink.delete()` on each item
+    question: How to delete a hyperlink?
+  - answer: A trial works for testing; a paid license removes limitations
+    question: Do I need a license?
+  - answer: Java 8+ (including Java 11, 17)
+    question: Which Java versions are supported?
+  type: FAQPage
+tags:
+- manage excel hyperlinks
+- aspose cells
+- java excel
+- large excel files
+title: วิธีจัดการ Hyperlink ของ Excel ด้วย Aspose Cells Java
 url: /th/java/advanced-features/manage-excel-hyperlinks-aspose-cells-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ประมวลผลไฟล์ Excel ขนาดใหญ่: จัดการ Hyperlinks ใน Java ด้วย Aspose.Cells
+# วิธีจัดการลิงก์ไฮเปอร์ใน Excel ด้วย aspose cells java
 
-## Introduction
+## บทนำ
 
-หากคุณต้อง **ประมวลผลไฟล์ Excel ขนาดใหญ่** และต้องการให้ Hyperlinks ของไฟล์เป็นระเบียบ คุณมาถูกที่แล้ว การจัดการ Hyperlinks ภายในเวิร์กบุ๊กขนาดมหาศาลอาจกลายเป็นความฝันร้ายได้อย่างรวดเร็ว แต่ด้วย **Aspose.Cells for Java** คุณสามารถอ่าน, แก้ไข, และลบ Hyperlinks ได้โดยอัตโนมัติด้วยเพียงไม่กี่บรรทัดของโค้ด บทแนะนำนี้จะพาคุณผ่านทุกอย่างที่ต้องรู้ ตั้งแต่การตั้งค่าไลบรารีจนถึงการจัดการ Hyperlinks อย่างมีประสิทธิภาพ
+หากคุณต้องการ **ประมวลผลไฟล์ Excel ขนาดใหญ่** และทำให้ลิงก์ไฮเปอร์เป็นระเบียบ คุณมาถูกที่แล้ว การจัดการลิงก์ไฮเปอร์ในสมุดงานขนาดมหาศาลอาจกลายเป็นความยุ่งยากได้อย่างรวดเร็ว แต่ด้วย **aspose cells java** คุณสามารถอ่าน แก้ไข และลบลิงก์เหล่านั้นโดยใช้โปรแกรมได้เพียงไม่กี่บรรทัดของโค้ด บทเรียนนี้จะพาคุณผ่านทุกอย่างที่คุณต้องรู้ ตั้งแต่การตั้งค่าห้องสมุดจนถึงการจัดการลิงก์ไฮเปอร์อย่างมีประสิทธิภาพบน Java 8+, 11 หรือ 17.
 
-## Quick Answers
-- **ไลบรารีที่จัดการ Excel hyperlinks ใน Java คืออะไร?** Aspose.Cells for Java  
-- **วิธีอ่าน hyperlinks?** ใช้ `Range.getHyperlinks()`  
-- **วิธีลบ hyperlink?** เรียก `Hyperlink.delete()` กับแต่ละรายการ  
-- **ต้องการไลเซนส์หรือไม่?** ทดลองใช้ได้สำหรับการทดสอบ; ไลเซนส์แบบชำระเงินจะลบข้อจำกัดทั้งหมด  
-- **เวอร์ชัน Java ที่รองรับคืออะไร?** Java 8+ (รวมถึง Java 11, 17)
+## คำตอบด่วน
+- **ไลบรารีใดจัดการลิงก์ไฮเปอร์ใน Excel ด้วย Java?** Aspose.Cells for Java  
+- **วิธีอ่านลิงก์ไฮเปอร์?** Use `Range.getHyperlinks()`  
+- **วิธีลบลิงก์ไฮเปอร์?** Call `hyperlink.delete()` on each item  
+- **ฉันต้องการไลเซนส์หรือไม่?** A trial works for testing; a paid license removes limitations  
+- **เวอร์ชัน Java ใดที่รองรับ?** Java 8+ (including Java 11, 17)
 
-## What is hyperlink management for large Excel files?
+## การจัดการลิงก์ไฮเปอร์สำหรับไฟล์ Excel ขนาดใหญ่คืออะไร?
 
-เมื่อคุณต้องทำงานกับเวิร์กบุ๊กที่มีแถวหลายพันแถวและหลายสิบชีต การตรวจสอบลิงก์แต่ละอันด้วยตนเองเป็นเรื่องที่ทำไม่ได้ การจัดการ Hyperlink ช่วยให้คุณอัตโนมัติการตรวจสอบความถูกต้อง, ทำความสะอาด, และอัปเดตลิงก์ เพื่อให้แน่ใจว่าการอ้างอิงทั้งหมดยังคงแม่นยำและขนาดไฟล์อยู่ในระดับที่เหมาะสม
+`Hyperlink management` คือกระบวนการอัตโนมัติในการอ่าน ตรวจสอบความถูกต้อง อัปเดต หรือเอาวัตถุลิงก์ไฮเปอร์ออกจากหลาย ๆ worksheet ใน workbook เมื่อ workbook มีแถวเป็นพันและหลายสิบแผ่น การตรวจสอบด้วยมือเป็นเรื่องยาก การจัดการด้วยโปรแกรมจะทำให้ลิงก์ทุกอันแม่นยำและขนาดไฟล์อยู่ในระดับที่เหมาะสม.
 
-## Why use Aspose.Cells to process large Excel files?
+## ทำไมต้องใช้ aspose cells java เพื่อประมวลผลไฟล์ Excel ขนาดใหญ่?
 
-- **ไม่ต้องใช้ Microsoft Office** – ทำงานบนเซิร์ฟเวอร์หรือสภาพแวดล้อม CI ใดก็ได้  
-- **ประสิทธิภาพสูง** – ปรับให้เหมาะกับชุดข้อมูลขนาดใหญ่และการสตรีม  
-- **API ครบถ้วน** – ควบคุมการอ่าน, แก้ไข, และลบ Hyperlinks อย่างเต็มที่  
-- **ข้ามแพลตฟอร์ม** – รองรับ Windows, Linux, และ macOS  
+Aspose.Cells for Java สามารถประมวลผล workbook ได้โดยไม่ต้องใช้ Microsoft Office รองรับการสตรีมไฟล์ขนาดเกิน 500 MB และมี API ที่ครอบคลุมทำให้คุณจัดการลิงก์ไฮเปอร์ในปริมาณมากได้ มันรองรับ **50+ รูปแบบการนำเข้าและส่งออก** และทำงานบน Windows, Linux, และ macOS ทำให้เหมาะสำหรับ CI pipelines และการทำงานอัตโนมัติบนเซิร์ฟเวอร์
 
-## Prerequisites
+## ข้อกำหนดเบื้องต้น
 
-### Required Libraries and Dependencies
-
+### ไลบรารีและการพึ่งพาที่จำเป็น
 - **Aspose.Cells for Java** (เวอร์ชันล่าสุด)  
 - IDE เช่น IntelliJ IDEA หรือ Eclipse  
 
-### Environment Setup Requirements
-
+### ข้อกำหนดการตั้งค่าสภาพแวดล้อม
 - ติดตั้ง JDK 8 หรือสูงกว่า  
-- Maven หรือ Gradle สำหรับการจัดการ dependencies  
+- Maven หรือ Gradle สำหรับการจัดการการพึ่งพา  
 
-### Knowledge Prerequisites
-
-- ความรู้พื้นฐานการเขียนโปรแกรม Java  
+### ความรู้เบื้องต้นที่จำเป็น
+- การเขียนโปรแกรม Java พื้นฐาน  
 - ความคุ้นเคยกับเครื่องมือสร้าง (Maven/Gradle)  
 - ความเข้าใจโครงสร้างไฟล์ Excel  
 
-## Setting Up Aspose.Cells for Java
+## การตั้งค่า aspose cells java
 
-เพิ่มไลบรารีลงในโปรเจกต์ของคุณด้วย Maven หรือ Gradle
+เพิ่มไลบรารีลงในโปรเจคของคุณด้วย Maven หรือ Gradle.
 
 **Maven**  
 ```xml
@@ -72,33 +113,34 @@ weight: 1
     <artifactId>aspose-cells</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
 **Gradle**  
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
-```
+```  
 
-### License Acquisition Steps
+### ขั้นตอนการรับไลเซนส์
+- **Free trial** – ดาวน์โหลดจากเว็บไซต์ Aspose.  
+- **Temporary license** – ขอรับเพื่อการทดสอบต่อเนื่อง.  
+- **Purchase** – ซื้อไลเซนส์เต็มสำหรับการใช้งานในผลิตภัณฑ์.  
 
-- **Free Trial** – ดาวน์โหลดจากเว็บไซต์ Aspose  
-- **Temporary License** – ขอรับสำหรับการทดสอบระยะยาว  
-- **Purchase** – ซื้อไลเซนส์เต็มรูปแบบสำหรับการใช้งานในผลิตภัณฑ์
-
-เมื่อคุณมีไลบรารีแล้ว คุณสามารถเริ่ม **how to use Aspose** ในโค้ดของคุณได้เลย:
+เมื่อคุณมีไลบรารีแล้ว คุณสามารถเริ่มใช้ **aspose cells java** ในโค้ดของคุณได้:
 
 ```java
 import com.aspose.cells.Workbook;
 
 // Initialize the Aspose.Cells Workbook object
 Workbook workbook = new Workbook("your-file-path.xlsx");
-```
+```  
 
-## How to Process Large Excel Files with Hyperlink Management
+## วิธีประมวลผลไฟล์ Excel ขนาดใหญ่ด้วยการจัดการลิงก์ไฮเปอร์
 
-### Opening an Excel File
+เพื่อประมวลผลไฟล์ Excel ขนาดใหญ่ ให้โหลด workbook ด้วย Aspose.Cells โดยอาจเปิดการโหลดแบบประหยัดหน่วยความจำ, วนลูปผ่านแต่ละ worksheet, กำหนดช่วงที่มีลิงก์ไฮเปอร์, แล้วทำการอ่าน, อัปเดต หรือ ลบวัตถุลิงก์ไฮเปอร์ ประมวลผลไฟล์เป็นชิ้นส่วนที่จัดการได้เพื่อรักษาการใช้หน่วยความจำให้ต่ำและบันทึก workbook เมื่อเสร็จสิ้น.
 
-สร้างอ็อบเจกต์ `Workbook` เพื่อโหลดไฟล์เป้าหมาย
+### การเปิดไฟล์ Excel
+
+`Workbook` คืออ็อบเจ็กต์หลักของ Aspose.Cells ที่แสดงถึง workbook ของ Excel ทั้งหมดในหน่วยความจำ สร้างอินสแตนซ์ `Workbook` เพื่อโหลดไฟล์เป้าหมาย.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -114,22 +156,22 @@ public class GetHyperlinksInRange {
         // Proceed to the next steps...
     }
 }
-```
+```  
 
-### Accessing Worksheets
+### การเข้าถึง worksheet
 
-ดึง Worksheet ที่มี Hyperlinks ที่คุณต้องการจัดการ
+`Worksheet` ให้คุณเข้าถึงแผ่นงานแต่ละแผ่น จับ worksheet ที่มีลิงก์ไฮเปอร์ที่คุณต้องการจัดการ.
 
 ```java
 import com.aspose.cells.Worksheet;
 
 // Get the first (default) worksheet
 Worksheet worksheet = workbook.getWorksheets().get(0);
-```
+```  
 
-### Creating a Range and Managing Hyperlinks
+### การสร้างช่วงและจัดการลิงก์ไฮเปอร์
 
-กำหนดช่วงเซลล์, อ่าน Hyperlinks, และหากต้องการก็สามารถลบได้
+`Range` กำหนดบล็อกสี่เหลี่ยมของเซลล์ `Hyperlink` อยู่ภายใน `Range` กำหนดช่วงเซลล์ อ่านลิงก์ไฮเปอร์ และอาจลบออกได้ตามต้องการ.
 
 ```java
 import com.aspose.cells.Range;
@@ -146,11 +188,11 @@ for (Hyperlink link : hyperlinks) {
     // Optionally delete the hyperlink
     link.delete();
 }
-```
+```  
 
-### Saving Changes
+### การบันทึกการเปลี่ยนแปลง
 
-บันทึกการเปลี่ยนแปลงโดยการเซฟเวิร์กบุ๊ก
+`Workbook.save()` จะบันทึกการแก้ไข คุณสามารถเขียนทับไฟล์ต้นฉบับหรือบันทึกไปยังตำแหน่งใหม่ได้.
 
 ```java
 import AsposeCellsExamples.Utils;
@@ -159,50 +201,50 @@ static String outputDir = Utils.Get_OutputDirectory();
 
 // Save the modified workbook
 workbook.save(outputDir + "HyperlinksSample_out.xlsx");
-```
+```  
 
-## Practical Applications
+## การประยุกต์ใช้งานจริง
 
-การจัดการ Hyperlinks มีประโยชน์ในหลายสถานการณ์จริง:
+การจัดการลิงก์ไฮเปอร์มีประโยชน์ในหลายสถานการณ์จริง:
 
-1. **Data Validation** – ตรวจสอบว่าลิงก์ทุกอันชี้ไปยังแหล่งที่ยังใช้งานได้  
-2. **Automated Reporting** – อัปเดตลิงก์ของรายงานโดยอัตโนมัติหลังจากการรีเฟรชข้อมูลแต่ละครั้ง  
-3. **Batch Cleanup** – ลบ Hyperlinks ที่ล้าสมัยหรือเสียจากหลายสิบเวิร์กบุ๊กในครั้งเดียว  
+1. **Data validation** – ตรวจสอบว่าลิงก์ทุกอันชี้ไปยังแหล่งข้อมูลที่ใช้งานได้.  
+2. **Automated reporting** – อัปเดตลิงก์รายงานโดยอัตโนมัติหลังจากการรีเฟรชข้อมูลแต่ละครั้ง.  
+3. **Batch cleanup** – ลบลิงก์ไฮเปอร์ที่ล้าสมัยหรือเสียจากหลายสิบ workbook ในครั้งเดียว.  
 
-ตัวอย่างเหล่านี้แสดงให้เห็น **how to use Aspose** เพื่อทำให้กระบวนการทำงานกับ Excel มีประสิทธิภาพเมื่อต้อง **ประมวลผลไฟล์ Excel ขนาดใหญ่**
+ตัวอย่างเหล่านี้แสดงให้เห็น **วิธีใช้ aspose cells java** เพื่อทำให้กระบวนการทำงานบน Excel มีประสิทธิภาพเมื่อคุณต้อง **ประมวลผลไฟล์ Excel ขนาดใหญ่**.
 
-## Performance Considerations
+## ข้อควรพิจารณาด้านประสิทธิภาพ
 
-- **Chunk Processing** – สำหรับไฟล์ที่ใหญ่มาก ให้ทำงานกับช่วงย่อยเพื่อให้การใช้หน่วยความจำน้อยลง  
-- **Dispose Resources** – เรียก `workbook.dispose()` เมื่อทำงานเสร็จ  
-- **Parallel Execution** – ใช้ `ExecutorService` ของ Java เพื่อประมวลผลหลายเวิร์กบุ๊กพร้อมกัน  
+- **Chunk processing** – สำหรับไฟล์ขนาดใหญ่มาก ทำงานกับช่วงเล็ก ๆ เพื่อรักษาการใช้หน่วยความจำให้ต่ำ.  
+- **Dispose resources** – เรียก `workbook.dispose()` เมื่อทำงานเสร็จ.  
+- **Parallel execution** – ใช้ `ExecutorService` ของ Java เพื่อประมวลผลหลาย workbook พร้อมกัน.  
 
-## Common Issues and Solutions
+## ปัญหาทั่วไปและวิธีแก้
 
-| Issue | Cause | Fix |
+| ปัญหา | สาเหตุ | วิธีแก้ |
 |-------|-------|-----|
-| **No hyperlinks returned** | ช่วงที่กำหนดไม่มี Hyperlinks จริง | ตรวจสอบสตริงที่อยู่ (เช่น `"A2"` ถึง `"B3"`) |
-| **`OutOfMemoryError` on huge files** | โหลดเวิร์กบุ๊กทั้งหมดเข้าสู่หน่วยความจำ | เปิดการโหลดแบบ **memory‑optimized** ผ่าน `LoadOptions` |
-| **License not applied** | ไฟล์ไลเซนส์ไม่ได้โหลดก่อนสร้างเวิร์กบุ๊ก | โหลดไลเซนส์ (`License license = new License(); license.setLicense("Aspose.Cells.lic");`) ที่จุดเริ่มต้นของโปรแกรม |
+| **ไม่มีลิงก์ไฮเปอร์ที่ส่งคืน** | ช่วงไม่ได้มีลิงก์ไฮเปอร์อยู่จริง | ตรวจสอบสตริงที่อยู่ (เช่น `"A2"` ถึง `"B3"`). |
+| **`OutOfMemoryError` บนไฟล์ขนาดใหญ่** | โหลด workbook ทั้งหมดเข้าสู่หน่วยความจำ | เปิดการโหลดแบบ **memory‑optimized** ผ่าน `LoadOptions`. |
+| **ไลเซนส์ไม่ได้ถูกนำไปใช้** | ไฟล์ไลเซนส์ไม่ได้โหลดก่อนสร้าง workbook | โหลดไลเซนส์ (`License license = new License(); license.setLicense("Aspose.Cells.lic");`) ที่จุดเริ่มต้นของโปรแกรม. |
 
-## Frequently Asked Questions
+## คำถามที่พบบ่อย
 
 **Q:** Aspose.Cells for Java คืออะไร?  
-**A:** เป็นไลบรารี Java ที่ทรงพลัง ช่วยให้คุณสร้าง, แก้ไข, แปลง, และเรนเดอร์ไฟล์ Excel ได้โดยไม่ต้องใช้ Microsoft Office  
+**A:** เป็นไลบรารี Java ที่ทรงพลังซึ่งช่วยให้คุณสร้าง แก้ไข แปลง และเรนเดอร์ไฟล์ Excel โดยไม่ต้องใช้ Microsoft Office.
 
-**Q:** วิธีลบ Hyperlinks ทั้งหมดจาก Worksheet อย่างไร?  
-**A:** วนลูปช่วงที่ต้องการและเรียก `Hyperlink.delete()` กับแต่ละอ็อบเจกต์ Hyperlink  
+**Q:** ฉันจะลบลิงก์ไฮเปอร์ทั้งหมดจาก worksheet อย่างไร?  
+**A:** วนลูปผ่านช่วงที่ต้องการและเรียก `hyperlink.delete()` บนแต่ละอ็อบเจ็กต์ `Hyperlink`.
 
-**Q:** สามารถจัดการไฟล์ Excel ขนาดใหญ่อย่างมีประสิทธิภาพได้หรือไม่?  
-**A:** ได้ – ประมวลผลไฟล์เป็นชิ้นส่วน, ปล่อยทรัพยากรให้เร็วที่สุด, และพิจารณาใช้ Streaming API ของ Aspose.Cells  
+**Q:** ฉันสามารถจัดการไฟล์ Excel ขนาดใหญ่อย่างมีประสิทธิภาพได้หรือไม่?  
+**A:** ได้ – ประมวลผลไฟล์เป็นชิ้นส่วน ปล่อยทรัพยากรอย่างทันท่วงที และพิจารณาใช้ streaming API ที่ Aspose.Cells มีให้.
 
-**Q:** สามารถเพิ่ม Hyperlinks ใหม่ด้วยไลบรารีนี้ได้หรือไม่?  
-**A:** แน่นอน ใช้ `range.getHyperlinks().add(address, text, ...)` เพื่อแทรกลิงก์ใหม่  
+**Q:** สามารถเพิ่มลิงก์ไฮเปอร์ใหม่ด้วยไลบรารีนี้ได้หรือไม่?  
+**A:** แน่นอน ใช้ `range.getHyperlinks().add(address, text, ...)` เพื่อแทรกลิงก์ใหม่.
 
-**Q:** ควรทำอย่างไรเมื่อพบ Hyperlink ที่เสีย?  
-**A:** ตรวจสอบ URL ก่อนเพิ่ม, หรือใช้ไลบรารีเพื่ออัปเดตที่อยู่โดยอัตโนมัติ  
+**Q:** ควรทำอย่างไรหากลิงก์ไฮเปอร์เสีย?  
+**A:** ตรวจสอบ URL ก่อนเพิ่ม หรือใช้ไลบรารีเพื่ออัปเดตที่อยู่โดยอัตโนมัติ.
 
-## Resources
+## แหล่งข้อมูล
 
 - **เอกสาร**: [Aspose.Cells Java Reference](https://reference.aspose.com/cells/java/)  
 - **ดาวน์โหลด**: [Latest Releases](https://releases.aspose.com/cells/java/)  
@@ -213,9 +255,16 @@ workbook.save(outputDir + "HyperlinksSample_out.xlsx");
 
 ---
 
-**Last Updated:** 2026-02-24  
-**Tested With:** Aspose.Cells 25.3 for Java  
-**Author:** Aspose  
+**อัปเดตล่าสุด:** 2026-11-03  
+**ทดสอบด้วย:** Aspose.Cells 25.3 for Java  
+**ผู้เขียน:** Aspose
+
+## บทเรียนที่เกี่ยวข้อง
+
+- [วิธีเพิ่มลิงก์ไฮเปอร์ใน Excel ด้วย Aspose.Cells for Java – คู่มือขั้นตอนโดยละเอียด](/cells/java/advanced-features/create-hyperlinks-excel-aspose-cells-java/)
+- [วิธีค้นหาลิงก์ภายนอกที่ซ่อนอยู่ใน Workbook Excel ด้วย Aspose.Cells for Java](/cells/java/advanced-features/detect-hidden-external-links-excel-aspose-cells-java/)
+- [การจัดการไฟล์ Excel ขนาดใหญ่อย่างมีประสิทธิภาพใน Java ด้วย Aspose.Cells](/cells/java/performance-optimization/aspose-cells-java-large-excel-files/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
