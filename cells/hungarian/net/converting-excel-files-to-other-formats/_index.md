@@ -130,6 +130,8 @@ Ismerje meg, hogyan menthet Excel-fájlokat TXT szövegfájlokba C#-ban az Aspos
 Ismerje meg, hogyan menthet Excel-fájlokat egyszerű szövegfájlba az Aspose.Cells segítségével lépésről‑lépésre.
 ### [Excel exportálása – Tab‑elválasztott szöveg útmutató](./how-to-export-excel-tab-delimited-text-guide/)
 Ismerje meg, hogyan exportálhatja az Excel‑munkafüzetet tabulátorral elválasztott szövegfájlba az Aspose.Cells for .NET segítségével.
+### [Excel mentése TXT formátumba Aspose.Cells használatával C#-ban](./how-to-save-excel-as-txt-using-aspose-cells-in-c/)
+Ismerje meg, hogyan menthet Excel-fájlokat TXT formátumba az Aspose.Cells könyvtár segítségével C#-ban.
 ### [Hogyan mentsünk DOCX-et Excelből – Teljes útmutató a diagramok Word-be exportálásához](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
 Tanuld meg, hogyan exportálhatod az Excel diagramokat DOCX fájlba a Wordben, lépésről‑lépésre útmutatóval.
 ### [Excel konvertálása PowerPointba – Lépésről‑lépésre C# útmutató](./convert-excel-to-powerpoint-step-by-step-c-guide/)

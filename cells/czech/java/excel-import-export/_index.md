@@ -64,6 +64,8 @@ Naučte se, jak implementovat validaci dat importu z Excelu pomocí Aspose.Cells
 Naučte se, jak exportovat data do CSV v Javě s nastavením významných číslic a určením rozsahu exportu.
 ### [Jak vytvořit PDF ze sešitu – Kompletní průvodce pro Javu](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
 Naučte se, jak pomocí Aspose.Cells pro Javu převést sešit do PDF s podrobným kódem a nastavením výstupu.
+### [Jak uložit sešit jako PDF s číselnou přesností v Javě](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+Naučte se, jak uložit Excel sešit jako PDF s nastavením číselné přesnosti pomocí Aspose.Cells pro Javu.
 ### [Převod XLSX na PPTX – Kompletní průvodce exportem editovatelných tvarů](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
 Naučte se, jak převést soubor XLSX na PPTX a exportovat editovatelné tvary pomocí Aspose.Cells pro Javu.
 ### [Převod JSON na XLSX pomocí Aspose.Cells Java – Kompletní průvodce](./convert-json-to-xlsx-with-aspose-cells-full-guide/)
@@ -72,6 +74,8 @@ Naučte se, jak převést soubory JSON do formátu XLSX pomocí Aspose.Cells pro
 Naučte se, jak exportovat Excel do HTML s plným vložením všech použitých fontů pomocí Aspose.Cells pro Javu.
 ### [Převod Markdown do Excelu – Kompletní průvodce pomocí Aspose.Cells](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
 Naučte se, jak převést soubory Markdown do Excelu pomocí Aspose.Cells. Podrobný návod se zdrojovým kódem pro snadnou konverzi.
+### [Převod markdownu do tabulky v Javě – krok za krokem průvodce](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+Naučte se, jak převést soubory markdown do formátu Excel v Javě pomocí Aspose.Cells, s podrobným ukázkovým kódem.
 ### [Jak exportovat Excel do SVG – Kompletní průvodce v Javě](./how-to-export-excel-to-svg-complete-java-guide/)
 Naučte se, jak pomocí Aspose.Cells pro Javu exportovat soubory Excel do formátu SVG s podrobným ukázkovým kódem.
 ### [Načtení souboru JSON v Javě – Kompletní průvodce konverzí JSON do Excelu](./load-json-file-java-full-guide-to-convert-json-to-excel/)

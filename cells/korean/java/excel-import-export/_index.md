@@ -70,6 +70,8 @@ Aspose.Cells for Java를 사용해 XLSX 파일을 PPTX로 변환하고 편집 �
 Aspose.Cells for Java를 사용하여 Excel 파일을 HTML로 변환하면서 모든 폰트를 완전히 포함하는 방법을 단계별로 안내합니다.
 ### [Markdown을 Excel로 변환 – Aspose.Cells 사용 전체 가이드](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
 Aspose.Cells를 활용해 Markdown 파일을 Excel 형식으로 변환하는 방법을 단계별로 안내합니다.
+### [Java에서 마크다운을 스프레드시트로 변환 – 단계별 가이드](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+Aspose.Cells for Java를 사용하여 마크다운 파일을 스프레드시트 형식으로 변환하는 방법을 단계별로 안내합니다.
 ### [Excel을 SVG로 내보내기 – 완전한 Java 가이드](./how-to-export-excel-to-svg-complete-java-guide/)
 Aspose.Cells for Java를 사용해 Excel 파일을 SVG로 변환하는 방법을 단계별로 안내합니다.
 ### [JSON 파일 로드 Java – JSON을 Excel로 변환하는 전체 가이드](./load-json-file-java-full-guide-to-convert-json-to-excel/)
@@ -170,6 +172,8 @@ Aspose.Cells for Java를 사용하여 Excel 파일을 PowerPoint 프레젠테이
 Aspose.Cells for Java를 활용해 JSON 데이터를 Excel 파일로 변환하고, JSON을 사용해 Excel 워크시트를 채우는 단계별 가이드입니다.
 ### [Aspose.Cells for Java를 사용하여 워크북을 CSV로 저장하기 – 단계별 가이드](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
 Aspose.Cells for Java를 활용해 워크북을 CSV 파일로 변환하고 저장하는 방법을 단계별로 안내합니다.
+### [Java에서 숫자 정밀도로 워크북을 PDF로 저장하는 방법](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+Aspose.Cells for Java를 사용하여 숫자 정밀도를 유지하면서 워크북을 PDF로 저장하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

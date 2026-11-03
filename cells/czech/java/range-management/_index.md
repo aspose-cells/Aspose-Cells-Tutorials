@@ -97,6 +97,8 @@ Naučte se, jak efektivně rozdělit buňky v souborech Excelu pomocí Aspose.Ce
 
 ### [Kopírování rozsahu mezi sešity v Javě – průvodce krok za krokem](./copy-range-between-workbooks-in-java-step-by-step-guide/)
 ### [Vytvoření pojmenovaného rozsahu a detekce duplicitního názvu v Excelu](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+### [Jak použít funkci expand v Javě pro zpracování Excelu](./how-to-use-expand-function-in-java-excel-processing/)
+Naučte se, jak využít funkci expand v Aspose.Cells pro Javu k rozšíření oblastí a dynamickému přizpůsobení dat v Excelu.
 
 ## Další zdroje
 

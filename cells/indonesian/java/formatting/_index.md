@@ -261,6 +261,8 @@ Pelajari cara menggunakan WRAPCOLS di Aspose.Cells dengan contoh Java lengkap un
 ### [Buat Buku Kerja Excel dengan Java dan Terapkan Format Angka Kolom](./create-excel-workbook-java-and-apply-column-number-formats/)
 Pelajari cara membuat buku kerja Excel dengan Java dan menerapkan format angka pada kolom secara terprogram.
 
+### [Cara Membatasi Digit Signifikan di Excel Menggunakan Java](./how-to-limit-significant-digits-excel-using-java/)
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.Cells untuk Java](https://docs.aspose.com/cells/java/)

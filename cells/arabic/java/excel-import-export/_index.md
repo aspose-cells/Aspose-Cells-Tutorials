@@ -82,6 +82,7 @@
 تعلم كيفية حفظ مصنف Excel كملف XLSX وإنشاء ملف XLSX من بيانات JSON باستخدام Aspose.Cells لجافا.
 ### [ضبط دقة التصدير الرقمي في جافا: تعيين الأرقام المهمة](./set-numeric-export-precision-in-java-set-significant-digits/)
 تعلم كيفية ضبط عدد الأرقام المهمة عند تصدير القيم الرقمية باستخدام Aspose.Cells لجافا.
+### [كيفية حفظ المصنف كملف PDF مع ضبط الدقة الرقمية في Java](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
 ### [تحويل Excel إلى Word – دليل جافا كامل (2026)](./convert-excel-to-word-complete-java-guide-2026/)
 تعرّف على كيفية تحويل ملفات Excel إلى مستندات Word باستخدام Aspose.Cells for Java في دليل شامل خطوة بخطوة.
 ### [كيفية تضمين الخطوط في تحويل Excel إلى SVG](./how-to-embed-fonts-in-excel-to-svg-conversion/)
@@ -173,6 +174,8 @@
 ### [كيفية تصدير ورقة Excel إلى PowerPoint باستخدام Aspose.Cells في Java](./how-to-export-excel-sheet-to-powerpoint-with-aspose-cells-in/)
 ### [كيفية تحويل JSON إلى Excel وتعبئة Excel من JSON باستخدام Aspose.Cells](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
 ### [حفظ المصنف كملف CSV باستخدام Aspose.Cells لجافا – دليل خطوة بخطوة](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
+### [تحويل Markdown إلى جدول بيانات في Java – دليل خطوة بخطوة](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+تعرف على كيفية تحويل ملفات Markdown إلى جداول بيانات Excel باستخدام Aspose.Cells لجافا خطوة بخطوة مع أمثلة الكود.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

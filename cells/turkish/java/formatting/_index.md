@@ -231,7 +231,7 @@ Aspose.Cells for Java kullanarak Excel hücrelerindeki metni nasıl döndürece�
 Aspose.Cells for Java ile Excel çalışma sayfalarında yakınlaştırma faktörünün nasıl ayarlanacağını öğrenin. Veri sunumunuzu geliştirin ve yeteneklerinizi programlı olarak inceleyin.
 
 ### [Aspose.Cells Java Kullanarak Excel Verilerini Sütun Rengine Göre Sıralama: Eksiksiz Bir Kılavuz](./sort-excel-data-by-column-color-aspose-cells-java/)
-Aspose.Cells for Java kullanarak Excel verilerini sütun rengine göre verimli bir şekilde nasıl sıralayacağınızı öğrenin. Bu kılavuz ön koşulları, uygulama adımlarını ve pratik uygulamaları kapsar.
+Aspose.Cells for Java kullanarak Excel verilerini sütun rengine göre verimli şekilde nasıl sıralayacağınızı öğrenin. Bu kılavuz ön koşulları, uygulama adımlarını ve pratik uygulamaları kapsar.
 
 ### [Java için Aspose.Cells Kullanarak Excel Hücrelerine Nasıl Stil Verilir ve Köprüler Nasıl Eklenir](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Aspose.Cells ile Excel hücrelerini biçimlendirmede ve Java uygulamalarınıza köprüler eklemede ustalaşın. Kusursuz entegrasyon ve biçimlendirme için bu kapsamlı kılavuzu izleyin.
@@ -258,6 +258,7 @@ Aspose.Cells for Java ile WRAPCOLS özelliğini nasıl kullanacağınızı ve ta
 Aspose.Cells for Java kullanarak para birimi formatı ve kalın yazı tipi uygulayan bir Excel çalışma kitabı oluşturmayı öğrenin.
 ### [Java için Aspose.Cells Kullanarak Excel Çalışma Kitabı Oluşturma ve Sütun Sayı Biçimlerini Uygulama](./create-excel-workbook-java-and-apply-column-number-formats/)
 Java için Aspose.Cells Kullanarak Excel Çalışma Kitabı Oluşturma ve Sütun Sayı Biçimlerini Uygulama
+### [Java için Aspose.Cells Kullanarak Excel'de Anlamlı Basamakları Sınırlama](./how-to-limit-significant-digits-excel-using-java/)
 
 ## Ek Kaynaklar
 

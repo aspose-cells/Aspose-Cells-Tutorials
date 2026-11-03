@@ -97,6 +97,8 @@
 Узнайте, как экспортировать Excel в HTML с полным встраиванием шрифтов для точного отображения.
 ### [Конвертация Markdown в Excel – Полное руководство с использованием Aspose.Cells](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
 Узнайте, как преобразовать файлы Markdown в Excel с помощью Aspose.Cells, следуя пошаговому полному руководству.
+### [Конвертировать markdown в таблицу в Java – пошаговое руководство](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+Узнайте, как преобразовать файлы markdown в электронные таблицы с помощью Aspose.Cells для Java.
 ### [Как экспортировать Excel в SVG – Полное руководство Java](./how-to-export-excel-to-svg-complete-java-guide/)
 Узнайте, как экспортировать файлы Excel в формат SVG с помощью Aspose.Cells для Java. Пошаговое руководство с примером кода.
 ### [Загрузка JSON-файла в Java – Полное руководство по конвертации JSON в Excel](./load-json-file-java-full-guide-to-convert-json-to-excel/)
@@ -198,6 +200,9 @@
 Узнайте, как экспортировать лист Excel в презентацию PowerPoint с использованием Aspose.Cells для Java.
 ### [Как конвертировать JSON в Excel и заполнять Excel из JSON с помощью Aspose.Cells](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
 Узнайте, как преобразовать данные JSON в файл Excel и заполнить его данными из JSON с использованием Aspose.Cells.
+
+### [Как сохранить рабочую книгу в PDF с точностью чисел в Java](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+Узнайте, как сохранить рабочую книгу в PDF с заданной точностью чисел, используя Aspose.Cells для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

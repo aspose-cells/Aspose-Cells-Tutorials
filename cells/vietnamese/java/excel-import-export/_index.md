@@ -80,12 +80,16 @@ Tìm hiểu cách xuất Excel sang HTML trong Java bằng Aspose.Cells for Java
 Hướng dẫn chi tiết cách xuất dữ liệu sang CSV trong Java, thiết lập chữ số có nghĩa và chỉ định phạm vi xuất.
 ### [Cách tạo PDF từ Workbook – Hướng dẫn Java đầy đủ](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
 Tìm hiểu cách tạo PDF từ Workbook bằng Aspose.Cells for Java. Hướng dẫn chi tiết với mã nguồn để chuyển đổi nhanh chóng và chính xác.
+### [Cách lưu workbook dưới dạng PDF với độ chính xác số trong Java](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+Tìm hiểu cách lưu workbook dưới dạng PDF trong Java với độ chính xác số cao bằng Aspose.Cells. Hướng dẫn chi tiết với mã nguồn.
 ### [Chuyển đổi XLSX sang PPTX – Hướng dẫn toàn diện xuất các hình dạng có thể chỉnh sửa](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
 Tìm hiểu cách chuyển đổi tệp XLSX sang PPTX và xuất các hình dạng có thể chỉnh sửa bằng Aspose.Cells cho Java.
 ### [Nhúng phông chữ HTML – Excel sang HTML với việc nhúng phông chữ đầy đủ](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
 Hướng dẫn chi tiết cách xuất Excel sang HTML và nhúng toàn bộ phông chữ để đảm bảo hiển thị chính xác trên mọi trình duyệt.
 ### [Chuyển đổi Markdown sang Excel – Hướng dẫn toàn diện sử dụng Aspose.Cells](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
 Tìm hiểu cách chuyển đổi tệp Markdown sang Excel bằng Aspose.Cells trong hướng dẫn chi tiết này.
+### [Chuyển đổi Markdown sang Bảng tính trong Java – Hướng dẫn chi tiết](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp Markdown sang bảng tính trong Java bằng Aspose.Cells.
 ### [Cách xuất Excel sang SVG – Hướng dẫn Java đầy đủ](./how-to-export-excel-to-svg-complete-java-guide/)
 Tìm hiểu cách xuất dữ liệu Excel sang định dạng SVG trong Java bằng Aspose.Cells. Hướng dẫn chi tiết với mã nguồn để chuyển đổi mượt mà.
 ### [Tải tệp JSON Java – Hướng dẫn đầy đủ chuyển đổi JSON sang Excel](./load-json-file-java-full-guide-to-convert-json-to-excel/)

@@ -113,6 +113,9 @@
 ### [在 Java 中设置数值导出精度：设置有效数字](./set-numeric-export-precision-in-java-set-significant-digits/)
 学习如何使用 Aspose.Cells for Java 设置数值导出时的有效数字，以控制导出精度。
 
+### [在 Java 中将工作簿保存为 PDF 并设置数值精度](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+学习如何使用 Aspose.Cells for Java 将工作簿导出为 PDF，同时设置数值的有效数字，实现精确的文档输出。
+
 ### [将 XLSX 导出为 CSV – 完整 Java 指南](./export-xlsx-as-csv-complete-java-guide/)
 学习如何使用 Aspose.Cells for Java 将 XLSX 文件导出为 CSV，提供完整的代码示例和分步指南。
 
@@ -190,6 +193,8 @@
 学习如何使用 Aspose.Cells for Java 将 Excel 工作表导出为 PowerPoint 演示文稿。
 ### [如何使用 Aspose.Cells 将 JSON 转换为 Excel 并从 JSON 填充 Excel](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
 学习如何使用 Aspose.Cells for Java 将 JSON 数据转换为 Excel，并将 JSON 内容填充到 Excel 工作表中。
+### [将 Markdown 转换为电子表格 – Java 分步指南](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+学习如何使用 Aspose.Cells for Java 将 Markdown 文件转换为 Excel 电子表格，完整代码示例助您快速上手。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

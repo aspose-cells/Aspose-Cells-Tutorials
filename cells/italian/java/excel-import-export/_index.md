@@ -51,6 +51,8 @@ Scopri come convertire file Excel in PDF usando Aspose.Cells per Java. Guida det
 Scopri come convertire file Excel in PDF/A utilizzando Aspose.Cells per Java. Guida dettagliata con esempi di codice passo‑passo.
 ### [Come esportare Excel in PowerPoint con Java](./how-to-export-excel-to-powerpoint-with-java/)
 Scopri come esportare file Excel in PowerPoint utilizzando Aspose.Cells per Java. Guida passo passo con esempi di codice.
+### [Come salvare una cartella di lavoro come PDF con precisione numerica in Java](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+Scopri come salvare un workbook come PDF mantenendo la precisione numerica dei dati con Aspose.Cells per Java.
 ### [Esportazione da Excel a XML Java](./export-excel-to-xml-java/)
 Scopri come esportare Excel in XML in Java con Aspose.Cells per Java. Guida passo passo con codice sorgente per una conversione dati fluida.
 ### [Importazione dati da Excel](./data-import-from-excel/)
@@ -176,6 +178,8 @@ Scopri come esportare un foglio di lavoro in CSV mantenendo la precisione dei da
 Scopri come salvare una cartella di lavoro Excel in formato CSV con Aspose.Cells per Java, seguendo una guida dettagliata passo passo.
 ### [Come esportare un foglio Excel in PowerPoint con Aspose.Cells in Java](./how-to-export-excel-sheet-to-powerpoint-with-aspose-cells-in/)
 Scopri come convertire un foglio di lavoro Excel in una presentazione PowerPoint usando Aspose.Cells per Java.
+### [Convertire markdown in foglio di calcolo in Java – guida passo‑passo](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+Scopri come trasformare file Markdown in fogli di calcolo con Aspose.Cells per Java, passo passo con esempi di codice.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

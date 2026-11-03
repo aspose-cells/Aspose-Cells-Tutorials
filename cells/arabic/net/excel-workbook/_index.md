@@ -91,6 +91,8 @@
 | [إنشاء ورقة رئيسية في C# – دليل Aspose.Cells الكامل](./create-master-sheet-in-c-complete-aspose-cells-guide/) | تعلم كيفية إنشاء ورقة رئيسية في ملف Excel باستخدام C# مع Aspose.Cells خطوة بخطوة. |  
 | [إنشاء مصنف Excel في C# – دليل برمجة كامل](./create-excel-workbook-in-c-complete-programming-guide/) | دليل شامل لإنشاء مصنف Excel باستخدام C# مع أمثلة برمجية خطوة بخطوة. |
 | [إنشاء مصنف Excel C# – دليل كامل مع وظيفة التوسيع](./create-excel-workbook-c-full-guide-with-expand-function/) |تعلم كيفية إنشاء مصنف Excel باستخدام C# مع تمكين وظيفة التوسيع خطوة بخطوة. |  
+| [إنشاء مصنف Excel وإضافة تاريخ إلى ورقة العمل في C#](./create-excel-workbook-and-add-date-to-worksheet-in-c/) |تعلم كيفية إنشاء مصنف Excel وإضافة تاريخ إلى ورقة العمل باستخدام C# و Aspose.Cells خطوة بخطوة. |
+|  |  
 
 
 

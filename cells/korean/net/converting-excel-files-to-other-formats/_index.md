@@ -81,11 +81,10 @@ Aspose.Cells for .NET을 사용하여 C# 코드로 Excel 차트를 편집 가능
 Aspose.Cells for .NET을 사용하여 Excel 데이터를 PowerPoint 프레젠테이션으로 변환하는 방법을 단계별로 안내합니다.
 
 Aspose.Cells를 사용하여 Excel에서 인쇄 영역을 설정하고 이를 PowerPoint 프레젠테이션으로 내보내는 방법을 단계별로 안내합니다.
-### [Excel에서 PowerPoint 만들기 – 전체 C# 자동화 가이드](./create-ppt-from-excel-full-c-automation-guide/)
-Aspose.Cells for .NET을 사용하여 Excel 데이터를 PPTX 프레젠테이션으로 변환하는 전체 C# 자동화 가이드를 확인하세요.
-
 ### [C#로 Excel을 PowerPoint로 변환 – 완전 가이드](./convert-excel-to-powerpoint-with-c-complete-guide/)
 Aspose.Cells for .NET을 이용해 C# 코드로 Excel 데이터를 PowerPoint 슬라이드로 변환하는 전체 과정을 단계별로 안내합니다.
+### [Excel을 PowerPoint로 내보내는 방법 – 완전한 C# 가이드](./how-to-export-excel-to-powerpoint-complete-c-guide/)
+Aspose.Cells for .NET을 사용하여 Excel 데이터를 PowerPoint 프레젠테이션으로 변환하는 전체 C# 단계별 가이드입니다.
 ### [Excel을 PowerPoint로 내보내는 방법 – 단계별 가이드](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
 Aspose.Cells를 사용하여 Excel 데이터를 PowerPoint 프레젠테이션으로 변환하는 단계별 방법을 안내합니다.
 ### [피벗 테이블 복사 및 Aspose.Cells로 Excel을 PPTX로 내보내기](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
@@ -112,25 +111,26 @@ Aspose.Cells를 사용하여 Excel 파일을 TXT 형식으로 내보내는 방�
 
 ### [C#에서 XLSX를 CSV로 변환 – 완전 단계별 가이드](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
 
-
-
-
 ### [C#에서 셀을 래핑하고 Excel을 PowerPoint로 변환하는 방법](./how-to-wrap-cells-and-convert-excel-to-powerpoint-in-c/)
 Aspose.Cells를 사용하여 C#에서 셀을 래핑하고 Excel 데이터를 PowerPoint 프레젠테이션으로 변환하는 단계별 가이드를 제공합니다.
 
-
-
-
 ### [새 워크북 만들기 – 전체 정밀도로 Excel을 TXT로 내보내기](./create-new-workbook-export-excel-to-txt-with-full-precision/)
 Aspose.Cells for .NET을 사용하여 새 워크북을 만들고, 전체 정밀도로 Excel 데이터를 TXT 파일로 내보내는 방법을 단계별로 안내합니다.
-
 ### [Excel에서 PPT 만들기 – 전체 C# 자동화 가이드](./create-ppt-from-excel-full-c-automation-guide/)
+Aspose.Cells for .NET을 사용하여 Excel 데이터를 PPTX 프레젠테이션으로 변환하는 전체 C# 자동화 가이드를 확인하세요.
+
+### [Excel을 텍스트 파일로 저장 – Excel을 TXT로 내보내는 완전 C# 가이드](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
+Aspose.Cells를 사용하여 .NET에서 Excel을 텍스트 파일(TXT)로 내보내는 방법을 단계별로 안내합니다.
+
+### [C#에서 Aspose.Cells를 사용하여 Excel을 TXT로 저장하는 방법](./how-to-save-excel-as-txt-using-aspose-cells-in-c/)
+Aspose.Cells for .NET을 활용해 C# 코드로 Excel 워크북을 TXT 파일로 저장하는 단계별 가이드를 제공합니다.
+
+### [Excel에서 PowerPoint 만들기 – 전체 C# 자동화 가이드](./create-ppt-from-excel-full-c-automation-guide/)
 Aspose.Cells for .NET을 사용하여 Excel 데이터를 PPTX 프레젠테이션으로 변환하는 전체 C# 자동화 가이드를 확인하세요.
 
 ### [Excel을 txt로 저장 – 유효숫자를 포함한 숫자 내보내기 완전 C# 가이드](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 Aspose.Cells를 사용해 Excel 데이터를 txt 파일로 저장하고, 유효숫자를 유지한 채 숫자를 내보내는 방법을 단계별로 안내합니다.
-### [.NET에서 Excel을 텍스트 파일로 저장 – Excel을 TXT로 내보내는 완전 C# 가이드](./save-excel-as-text-complete-c-guide-to-export-excel-to-txt/)
-Aspose.Cells를 사용하여 .NET에서 Excel을 텍스트 파일(TXT)로 내보내는 방법을 단계별로 안내합니다.
+
 ### [Aspose.Cells로 Excel을 텍스트로 저장하는 단계별 가이드](./how-to-save-excel-as-text-with-aspose-cells-step-by-step-gui/)
 Aspose.Cells를 사용하여 Excel 파일을 텍스트 형식으로 저장하는 방법을 단계별로 안내합니다.
 

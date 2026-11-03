@@ -97,6 +97,8 @@ Apprenez à copier une plage de cellules d'un classeur à un autre en Java avec 
 Apprenez à créer une nouvelle feuille de calcul et à copier une plage de cellules Excel à l'aide d'Aspose.Cells pour Java.
 ### [Créer une plage nommée et détecter les noms en double dans Excel](./create-a-named-range-and-detect-duplicate-name-in-excel/)
 Apprenez à créer une plage nommée dans Excel et à détecter les noms en double à l'aide d'Aspose.Cells pour Java.
+### [Comment utiliser la fonction d'expansion dans le traitement Excel Java](./how-to-use-expand-function-in-java-excel-processing/)
+Apprenez à appliquer la fonction d'expansion pour manipuler efficacement les données Excel avec Aspose.Cells pour Java.
 
 ## Ressources supplémentaires
 

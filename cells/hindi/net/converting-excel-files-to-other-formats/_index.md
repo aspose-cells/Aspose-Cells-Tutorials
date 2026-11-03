@@ -82,13 +82,16 @@ Aspose.Cells का उपयोग करके Pivot तालिका को
 
 ### [.NET में आउटपुट HTML में HTML क्रॉसटाइप को प्रोग्रामेटिक रूप से निर्दिष्ट करना](./specifying-html-crosstype-in-output-html/)
 .NET के लिए Aspose.Cells में HTML CrossType निर्दिष्ट करना सीखें। Excel फ़ाइलों को सटीकता के साथ HTML में बदलने के लिए हमारे चरण-दर-स्टेप ट्यूटोरियल का पालन करें।
-### [.NET में प्रोग्रामेटिक रूप से Excel को Word में बदलें – C# के साथ पूर्ण गाइड](./convert-excel-to-word-complete-guide-with-c/)
-Aspose.Cells for .NET का उपयोग करके C# में Excel फ़ाइल को Word दस्तावेज़ में बदलने की पूरी प्रक्रिया सीखें।
-
 ### [Excel को PowerPoint में निर्यात – पूर्ण C# गाइड](./export-excel-to-powerpoint-complete-c-guide/)
 Aspose.Cells for .NET का उपयोग करके Excel फ़ाइल को PowerPoint प्रस्तुति में निर्यात करने की पूरी C# गाइड।
 ### [.NET में प्रोग्रामेटिक रूप से Excel से PowerPoint बनाना – चरण‑दर‑चरण C# गाइड](./create-powerpoint-from-excel-step-by-step-c-guide/)
 Aspose.Cells for .NET का उपयोग करके Excel डेटा से PowerPoint प्रस्तुति बनाने की प्रक्रिया सीखें। चरण‑दर‑चरण कोड उदाहरण।
+### [Excel को PowerPoint में निर्यात करने की पूरी C# गाइड](./how-to-export-excel-to-powerpoint-complete-c-guide/)
+Aspose.Cells for .NET का उपयोग करके Excel डेटा को PowerPoint स्लाइड्स में बदलने की चरण‑दर‑चरण मार्गदर्शन।
+### [.NET में प्रोग्रामेटिक रूप से Excel को Word में बदलें – C# के साथ पूर्ण गाइड](./convert-excel-to-word-complete-guide-with-c/)
+Aspose.Cells for .NET का उपयोग करके C# में Excel फ़ाइल को Word दस्तावेज़ में बदलने की पूरी प्रक्रिया सीखें।
+
+
 ### [.NET में प्रोग्रामेटिक रूप से Excel को PowerPoint में बदलना](./convert-excel-to-powerpoint-step-by-step-c-guide/)
 Aspose.Cells का उपयोग करके .NET में Excel फ़ाइलों को PowerPoint (PPTX) में बदलने के लिए चरण‑दर‑चरण मार्गदर्शिका।
 
@@ -131,6 +134,8 @@ Aspose.Cells का उपयोग करके .NET में Excel डेट�
 
 ### [Excel को txt के रूप में सहेजें – महत्वपूर्ण अंकों के साथ संख्याएँ निर्यात करने के लिए पूर्ण C# गाइड](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 Aspose.Cells का उपयोग करके .NET में Excel फ़ाइल को txt फ़ॉर्मेट में सहेजें और महत्वपूर्ण अंकों के साथ संख्याओं को निर्यात करने की प्रक्रिया सीखें।
+### [C# में Aspose.Cells का उपयोग करके Excel को TXT के रूप में सहेजें](./how-to-save-excel-as-txt-using-aspose-cells-in-c/)
+Aspose.Cells का उपयोग करके .NET में Excel फ़ाइल को TXT फ़ॉर्मेट में सहेजने की पूरी चरण‑दर‑चरण गाइड।
 ### [Excel से Word बनाएं – त्वरित C# गाइड](./create-word-from-excel-quick-c-guide/)
 Aspose.Cells for .NET का उपयोग करके Excel डेटा से Word दस्तावेज़ जल्दी बनाना सीखें। C# कोड उदाहरण सहित।
 ### [.NET में प्रोग्रामेटिक रूप से Excel को टैब‑डिलिमिटेड टेक्स्ट में निर्यात करना](./how-to-export-excel-tab-delimited-text-guide/)

@@ -39,8 +39,10 @@ Aspose.Cells สำหรับ Java ช่วยให้คุณสามา�
 เรียนรู้วิธีคัดลอก Pivot Table ใน Java ด้วย Aspose.Cells เพื่อการทำซ้ำและการจัดการข้อมูลอย่างมีประสิทธิภาพ
 ### [การปรับแต่งสไตล์ตารางสรุปข้อมูล](./customizing-pivot-table-styles/)
 เรียนรู้วิธีปรับแต่งรูปแบบตารางสรุปข้อมูลใน Aspose.Cells สำหรับ Java API สร้างตารางสรุปข้อมูลที่น่าสนใจได้อย่างง่ายดาย
+
 ### [คัดลอกตารางสรุปข้อมูลใน Java – เก็บไว้, ส่งออกเป็น PPTX](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
 ### [วิธีคัดลอกตารางสรุปข้อมูลใน Java – คู่มือ Aspose.Cells ฉบับสมบูรณ์](./how-to-copy-pivot-table-in-java-complete-aspose-cells-guide/)
+### [วิธีคัดลอกตารางสรุปข้อมูลระหว่างแผ่นงานใน Java](./how-to-copy-a-pivot-table-between-worksheets-in-java/)
 ### [สร้าง PNG จาก Pivot ใน Java – คู่มือเต็มขั้นตอน](./create-png-from-pivot-in-java-full-step-by-step-guide/)
 เรียนรู้วิธีแปลง Pivot Table เป็นไฟล์ PNG ใน Java ด้วย Aspose.Cells อย่างละเอียดและครบถ้วน
 ### [คัดลอกตารางสรุปข้อมูล Excel – คู่มือขั้นตอนโดยใช้ Java](./copy-pivot-table-excel-step-by-step-guide-using-java/)
@@ -73,6 +75,9 @@ Aspose.Cells สำหรับ Java ช่วยให้คุณสามา�
 เรียนรู้วิธีคัดลอก Pivot Table และช่วงข้อมูลไปยังเวิร์กบุ๊กอื่นโดยใช้ Aspose.Cells สำหรับ Java
 ### [วิธีคัดลอกตารางสรุปข้อมูลใน Java ด้วย Aspose.Cells](./how-to-copy-a-pivot-table-in-java-using-aspose-cells/)
 เรียนรู้วิธีคัดลอกตารางสรุปข้อมูลใน Java ด้วย Aspose.Cells เพื่อใช้ซ้ำหรือส่งออกเป็นไฟล์อื่น
+
+### [วิธีคัดลอกตารางสรุปข้อมูลระหว่างเวิร์กบุ๊ก Excel ใน Java](./how-to-copy-pivot-tables-between-excel-workbooks-in-java/)
+เรียนรู้วิธีคัดลอก Pivot Table จากไฟล์ Excel หนึ่งไปยังอีกไฟล์หนึ่งโดยใช้ Aspose.Cells สำหรับ Java
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

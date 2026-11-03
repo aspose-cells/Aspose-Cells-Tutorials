@@ -97,6 +97,9 @@ Dowiedz się, jak kopiować zakresy komórek pomiędzy różnymi skoroszytami Ex
 ### [Utwórz nazwany zakres i wykryj duplikat nazwy w Excelu](./create-a-named-range-and-detect-duplicate-name-in-excel/)
 Dowiedz się, jak utworzyć nazwany zakres i wykrywać duplikaty nazw w plikach Excel przy użyciu Aspose.Cells dla Java.
 
+### [Jak używać funkcji expand w przetwarzaniu Excela w Javie](./how-to-use-expand-function-in-java-excel-processing/)
+Dowiedz się, jak wykorzystać funkcję expand w Aspose.Cells for Java do dynamicznego rozszerzania zakresów w arkuszach Excel.
+
 ## Dodatkowe zasoby
 
 - [Dokumentacja Aspose.Cells dla Java](https://docs.aspose.com/cells/java/)

@@ -142,6 +142,8 @@
 Μάθετε πώς να μετατρέψετε ένα βιβλίο εργασίας Excel σε παρουσίαση PowerPoint με C# και Aspose.Cells.
 ### [Πώς να ενσωματώσετε γραμματοσειρές σε SVG κατά τη μετατροπή αρχείων Excel σε SVG και PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
 Μάθετε πώς να ενσωματώσετε γραμματοσειρές σε αρχεία SVG κατά τη μετατροπή Excel σε SVG ή PowerPoint με Aspose.Cells για .NET.
+### [Πώς να αποθηκεύσετε το Excel ως TXT χρησιμοποιώντας Aspose.Cells σε C#](./how-to-save-excel-as-txt-using-aspose-cells-in-c/)
+Μάθετε πώς να αποθηκεύσετε ένα βιβλίο εργασίας Excel ως αρχείο TXT χρησιμοποιώντας Aspose.Cells σε C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

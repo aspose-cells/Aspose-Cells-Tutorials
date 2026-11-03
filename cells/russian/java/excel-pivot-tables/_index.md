@@ -89,6 +89,9 @@ Aspose.Cells для Java позволяет вам автоматизирова�
 Узнайте, как скопировать сводную таблицу в другую книгу с помощью Aspose.Cells.
 ### [Как скопировать сводную таблицу в Java с помощью Aspose.Cells](./how-to-copy-a-pivot-table-in-java-using-aspose-cells/)
 Узнайте, как скопировать сводную таблицу в Aspose.Cells для Java, сохранив её свойства и экспортировать при необходимости.
+### [Как копировать сводные таблицы между рабочими книгами Excel в Java](./how-to-copy-pivot-tables-between-excel-workbooks-in-java/)
+Узнайте, как копировать сводные таблицы между книгами Excel с помощью Aspose.Cells для Java.
+### [Как скопировать сводную таблицу между листами в Java](./how-to-copy-a-pivot-table-between-worksheets-in-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

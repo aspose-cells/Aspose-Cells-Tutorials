@@ -82,6 +82,8 @@ Pelajari cara menerapkan validasi data impor Excel menggunakan Aspose.Cells untu
 Pelajari cara mengekspor Excel ke HTML di Java menggunakan Aspose.Cells untuk Java. Ikuti panduan langkah demi langkah ini dengan kode sumber untuk mengonversi file Excel Anda ke HTML dengan mudah.
 ### [Cara Membuat PDF dari Workbook – Panduan Java Lengkap](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
 Pelajari cara mengonversi workbook Excel menjadi file PDF menggunakan Aspose.Cells untuk Java dengan contoh kode lengkap.
+### [Cara menyimpan workbook sebagai PDF dengan presisi numerik di Java](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+Pelajari cara menyimpan workbook Excel sebagai PDF dengan mengatur presisi angka menggunakan Aspose.Cells untuk Java.
 ### [Mengonversi JSON ke XLSX dengan Aspose.Cells Java – Panduan Lengkap](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
 Pelajari cara mengonversi file JSON menjadi XLSX menggunakan Aspose.Cells untuk Java dengan panduan langkah demi langkah lengkap.
 ### [Mengonversi XLSX ke PPTX – Panduan Lengkap untuk Mengekspor Bentuk yang Dapat Diedit](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
@@ -89,7 +91,9 @@ Pelajari cara mengonversi file XLSX menjadi PPTX dan mengekspor bentuk yang dapa
 ### [Sematkan Font HTML – Excel ke HTML dengan Penyematan Font Penuh](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
 Pelajari cara mengekspor workbook Excel ke HTML dengan menyematkan semua font menggunakan Aspose.Cells untuk Java.
 ### [Mengonversi Markdown ke Excel – Panduan Lengkap Menggunakan Aspose.Cells](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
-Pelajari cara mengonversi file Markdown menjadi workbook Excel dengan Aspose.Cells dalam panduan langkah demi langkah lengkap.
+Pelajari cara mengkonversi file Markdown menjadi workbook Excel dengan Aspose.Cells dalam panduan langkah demi langkah lengkap.
+### [Mengonversi Markdown ke Spreadsheet di Java – Panduan Langkah demi Langkah](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+Pelajari cara mengonversi file Markdown menjadi spreadsheet menggunakan Aspose.Cells untuk Java dalam panduan langkah demi langkah.
 ### [Memuat File JSON Java – Panduan Lengkap Mengonversi JSON ke Excel](./load-json-file-java-full-guide-to-convert-json-to-excel/)
 Pelajari cara memuat file JSON dan mengonversinya menjadi Excel menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan contoh kode.
 ### [Cara Memuat JSON ke Excel dengan Aspose.Cells untuk Java](./how-to-load-json-into-excel-with-aspose-cells-for-java/)

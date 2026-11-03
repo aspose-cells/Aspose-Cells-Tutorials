@@ -93,6 +93,8 @@ Dowiedz się, jak konwertować pliki Excel do HTML z osadzaniem czcionek przy u�
 Dowiedz się, jak zapisać skoroszyt jako plik XLSX, generując go bezpośrednio z danych JSON przy użyciu Aspose.Cells for Java.
 ### [Ustaw precyzję eksportu liczb w Javie: ustaw znaczące cyfry](./set-numeric-export-precision-in-java-set-significant-digits/)
 Dowiedz się, jak ustawić precyzję eksportu liczb i określić liczbę znaczących cyfr przy użyciu Aspose.Cells for Java.
+### [Jak zapisać skoroszyt jako PDF z precyzją numeryczną w Javie](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+Dowiedz się, jak zapisać skoroszyt Excel jako PDF z określoną precyzją liczb w Javie.
 ### [Eksport XLSX jako CSV – Kompletny przewodnik Java](./export-xlsx-as-csv-complete-java-guide/)
 Dowiedz się, jak w pełni konwertować pliki XLSX do formatu CSV w Javie przy użyciu Aspose.Cells, krok po kroku z przykładowym kodem.
 ### [Konwertowanie Excela do Worda – Kompletny przewodnik Java (2026)](./convert-excel-to-word-complete-java-guide-2026/)
@@ -179,6 +181,8 @@ Dowiedz się, jak wyeksportować arkusz Excel do prezentacji PowerPoint przy uż
 Dowiedz się, jak konwertować pliki JSON do formatu Excel i wypełniać arkusz danymi z JSON przy użyciu Aspose.Cells.
 ### [Zapisz skoroszyt jako CSV przy użyciu Aspose.Cells dla Javy – przewodnik krok po kroku](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
 Dowiedz się, jak zapisać skoroszyt Excel jako plik CSV przy użyciu Aspose.Cells for Java w kilku prostych krokach.
+### [Konwertuj markdown do arkusza kalkulacyjnego w Javie – przewodnik krok po kroku](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+Dowiedz się, jak przekształcić pliki Markdown w arkusze kalkulacyjne w Javie przy użyciu Aspose.Cells – kompletny przewodnik krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

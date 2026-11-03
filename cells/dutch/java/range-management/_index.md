@@ -99,6 +99,8 @@ Leer hoe u Excel-afdrukgebieden kunt automatiseren met Aspose.Cells voor Java. B
 ### [Bereik kopiëren in Java met Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
 
 
+### [Hoe de expand-functie te gebruiken in Java Excel-verwerking](./how-to-use-expand-function-in-java-excel-processing/)
+
 ## Aanvullende bronnen
 
 - [Aspose.Cells voor Java-documentatie](https://docs.aspose.com/cells/java/)

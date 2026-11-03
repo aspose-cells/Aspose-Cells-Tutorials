@@ -96,6 +96,13 @@ Scopri come separare in modo efficiente le celle nei file Excel utilizzando Aspo
 
 ### [Assegnare un nome a una cella in Excel con Java – Guida completa](./assign-name-to-cell-in-excel-using-java-complete-guide/)
 Scopri come assegnare un nome a una cella in Excel usando Aspose.Cells per Java con esempi di codice passo passo.
+
+### [Come utilizzare la funzione expand nell'elaborazione di Excel con Java](./how-to-use-expand-function-in-java-excel-processing/)
+Scopri come usare la funzione expand per gestire dinamicamente i dati in Excel con Aspose.Cells per Java.
+
+## Assegnare un nome a una cella in Excel con Java – Guida completa
+
+Scopri come assegnare un nome a una cella in Excel usando Aspose.Cells per Java con esempi di codice passo passo.
 ### [Copia intervallo tra cartelle di lavoro in Java – guida passo‑passo](./copy-range-between-workbooks-in-java-step-by-step-guide/)
 Scopri come copiare intervalli di celle da una cartella di lavoro all'altra usando Aspose.Cells per Java.
 

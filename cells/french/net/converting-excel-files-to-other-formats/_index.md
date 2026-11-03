@@ -142,8 +142,6 @@ Apprenez à enregistrer un classeur Excel en PPT avec des zones de texte modifia
 Apprenez à enregistrer un classeur Excel au format texte (TXT) avec C# en suivant ce guide complet pas à pas.
 
 ### [Enregistrer Excel en txt – Guide complet C# pour exporter les nombres avec chiffres significatifs](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
-Apprenez à enregistrer un classeur Excel au format texte (TXT) en conservant les chiffres significatifs grâce à Aspose.Cells et C#.
-
 ### [Comment enregistrer Excel en texte avec Aspose.Cells – guide étape par étape](./how-to-save-excel-as-text-with-aspose-cells-step-by-step-gui/)
 Apprenez à enregistrer un classeur Excel au format texte (TXT) avec Aspose.Cells en suivant un guide complet pas à pas.
 
@@ -159,6 +157,8 @@ description : Découvrez comment suivre la progression de la conversion de docu
 Apprenez à suivre la progression de vos conversions TIFF par programmation avec Aspose.Cells pour .NET grâce à notre guide étape par étape. Améliorez vos compétences en gestion documentaire.
 ### [Comment intégrer des polices dans SVG lors de la conversion de fichiers Excel en SVG et PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
 Apprenez à incorporer des polices dans les fichiers SVG générés à partir d'Excel, y compris lors de la conversion vers PowerPoint.
+### [Comment enregistrer Excel au format TXT avec Aspose.Cells en C#](./how-to-save-excel-as-txt-using-aspose-cells-in-c/)
+Apprenez à enregistrer un classeur Excel au format texte (TXT) en utilisant Aspose.Cells avec C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -98,6 +98,9 @@
 ### [Как скопировать диапазон в Java с Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
 Узнайте, как копировать диапазоны в Excel с помощью Aspose.Cells для Java.
 
+### [Как использовать функцию expand в обработке Excel на Java](./how-to-use-expand-function-in-java-excel-processing/)
+Узнайте, как применять функцию expand в Aspose.Cells для Java при работе с Excel, включая примеры кода и практические советы.
+
 ## Дополнительные ресурсы
 
 - [Документация по Aspose.Cells для Java](https://docs.aspose.com/cells/java/)

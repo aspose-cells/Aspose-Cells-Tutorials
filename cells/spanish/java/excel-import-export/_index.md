@@ -59,6 +59,8 @@ Aprenda a exportar datos a formato CSV desde celdas de Excel con Aspose.Cells pa
 Aprenda a convertir archivos de Excel a PDF usando Aspose.Cells para Java. Guía paso a paso con ejemplos de código.
 ### [Convertir Excel a PDF/A con Java – Guía completa paso a paso](./convert-excel-to-pdf-a-with-java-complete-step-by-step-guide/)
 Aprenda a convertir archivos de Excel a PDF/A usando Aspose.Cells para Java. Guía paso a paso con ejemplos de código para una conversión fiable.
+### [Cómo guardar un libro de trabajo como PDF con precisión numérica en Java](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+Aprenda a guardar un libro de Excel como PDF manteniendo la precisión numérica usando Aspose.Cells para Java.
 ### [Exportar Excel a XML Java](./export-excel-to-xml-java/)
 Aprenda a exportar Excel a XML en Java con Aspose.Cells para Java. Guía paso a paso con código fuente para una conversión de datos fluida.
 
@@ -85,6 +87,8 @@ Aprenda a convertir archivos JSON a XLSX usando Aspose.Cells para Java con esta 
 Aprenda a convertir Excel a HTML con todas las fuentes incrustadas usando Aspose.Cells para Java. Guía paso a paso con ejemplos de código.
 ### [Convertir Markdown a Excel – Guía completa usando Aspose.Cells](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
 Aprenda a convertir archivos Markdown a Excel con Aspose.Cells para Java. Guía paso a paso con ejemplos de código.
+### [Convertir markdown a hoja de cálculo en Java – guía paso a paso](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+Aprenda a convertir archivos Markdown a una hoja de cálculo usando Aspose.Cells para Java. Guía paso a paso con ejemplos de código.
 ### [Cargar archivo JSON en Java – Guía completa para convertir JSON a Excel](./load-json-file-java-full-guide-to-convert-json-to-excel/)
 Aprenda a cargar archivos JSON en Java y convertirlos a Excel con Aspose.Cells. Guía paso a paso con código fuente.
 ### [Crear archivo Excel en Java – Guía completa con estilo de filas y exportación a XLSX](./create-excel-file-java-full-guide-with-row-styling-and-xlsx/)

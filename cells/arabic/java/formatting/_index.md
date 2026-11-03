@@ -248,6 +248,8 @@
 ### [كيفية إنشاء مصنف Excel بتنسيق عملة وخط عريض في Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 ### [إنشاء مصنف Excel باستخدام Java وتطبيق تنسيقات أرقام الأعمدة](./create-excel-workbook-java-and-apply-column-number-formats/)
 
+### [كيفية تحديد عدد الأرقام المهمة في Excel باستخدام Java](./how-to-limit-significant-digits-excel-using-java/)
+
 ## موارد إضافية
 
 - [توثيق Aspose.Cells لـ Java](https://docs.aspose.com/cells/java/)

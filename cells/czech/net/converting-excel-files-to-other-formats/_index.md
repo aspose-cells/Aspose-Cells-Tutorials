@@ -128,6 +128,8 @@ Naučte se, jak exportovat čísla s přesnými významnými číslicemi z Excel
 Naučte se, jak uložit sešit Excel jako textový soubor TXT pomocí Aspose.Cells v C#.
 ### [Jak uložit Excel jako text – krok‑za‑krokem průvodce s Aspose.Cells](./how-to-save-excel-as-text-with-aspose-cells-step-by-step-gui/)
 Naučte se, jak pomocí Aspose.Cells v .NET uložit Excel jako textový soubor v podrobném průvodci.
+### [Uložení Excelu jako TXT pomocí Aspose.Cells v C#](./how-to-save-excel-as-txt-using-aspose-cells-in-c/)
+Naučte se, jak pomocí Aspose.Cells v C# uložit soubor Excel jako TXT s podrobným návodem a ukázkami kódu.
 ### [Rychlý průvodce C# – Vytvoření Wordu z Excelu](./create-word-from-excel-quick-c-guide/)
 Naučte se rychle vytvořit dokument Word z Excelu pomocí Aspose.Cells v C#.
 ### [Jak uložit DOCX z Excelu – Kompletní průvodce exportem grafů do Wordu](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)

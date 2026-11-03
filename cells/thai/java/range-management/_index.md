@@ -95,6 +95,8 @@
 ### [สร้างช่วงที่ตั้งชื่อและตรวจจับชื่อซ้ำใน Excel](./create-a-named-range-and-detect-duplicate-name-in-excel/)
 เรียนรู้วิธีสร้างช่วงที่ตั้งชื่อใน Excel และตรวจจับชื่อที่ซ้ำกันด้วย Aspose.Cells สำหรับ Java
 
+### [วิธีใช้ฟังก์ชัน expand ในการประมวลผล Excel ด้วย Java](./how-to-use-expand-function-in-java-excel-processing/)
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสารประกอบ Aspose.Cells สำหรับ Java](https://docs.aspose.com/cells/java/)

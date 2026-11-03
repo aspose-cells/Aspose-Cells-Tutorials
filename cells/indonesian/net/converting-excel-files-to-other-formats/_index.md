@@ -141,6 +141,9 @@ Pelajari cara menyimpan file Excel sebagai PPT dengan kotak teks yang dapat died
 ### [Cara menyimpan buku kerja sebagai CSV dan mengekspor Excel ke TXT dengan format khusus di C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
 Pelajari cara menyimpan buku kerja sebagai CSV dan mengekspor Excel ke TXT dengan format khusus menggunakan C# dan Aspose.Cells.
 
+### [Cara menyimpan Excel sebagai TXT menggunakan Aspose.Cells di C#](./how-to-save-excel-as-txt-using-aspose-cells-in-c/)
+Pelajari cara mengekspor file Excel ke format TXT menggunakan Aspose.Cells dengan C# dalam panduan langkah demi langkah.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

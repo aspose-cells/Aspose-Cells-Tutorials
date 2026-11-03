@@ -42,15 +42,10 @@
 ### [รับตารางแรกจากเวิร์กบุ๊ก Excel ใน C# – คู่มือฉบับสมบูรณ์](./get-first-table-from-excel-workbook-in-c-complete-guide/)
 เรียนรู้วิธีดึงตารางแรกจากไฟล์ Excel ด้วย Aspose.Cells ใน C# อย่างละเอียดและง่ายต่อการทำตาม
 
-
-
-
-
-
-
-
 ### [การลบ Autofilter ใน Excel ด้วย C# – คู่มือขั้นตอนเต็ม](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 เรียนรู้วิธีลบ Autofilter จากไฟล์ Excel ด้วย Aspose.Cells ใน .NET อย่างละเอียดและง่ายดาย
+### [การลบ AutoFilter ใน Excel ด้วย C# – คู่มือขั้นตอนโดยละเอียด](./remove-autofilter-in-excel-with-c-step-by-step-guide/)
+เรียนรู้วิธีลบ AutoFilter จากไฟล์ Excel ด้วย C# อย่างละเอียดตามขั้นตอน
 ### [ล้าง UI ตัวกรองใน Excel ด้วย C# – ลบปุ่ม AutoFilter](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 วิธีซ่อนหรือเอาปุ่ม AutoFilter ออกจากแถบเครื่องมือใน Excel ด้วย Aspose.Cells สำหรับ .NET เพื่อ UI ที่สะอาดตา
 ### [ซ่อนลูกศรตัวกรองใน Excel ด้วย C# – คู่มือฉบับสมบูรณ์](./hide-filter-arrows-excel-with-c-complete-guide/)

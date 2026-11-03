@@ -261,6 +261,9 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java Zahlenformate in Excel anwenden
 ### [Excel-Arbeitsmappe in Java erstellen und Spaltenzahlenformate anwenden](./create-excel-workbook-java-and-apply-column-number-formats/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java eine neue Arbeitsmappe erzeugen und gezielt Zahlenformate für Spalten festlegen.
 
+### [So begrenzen Sie signifikante Stellen in Excel mit Java – Vollständige Anleitung](./how-to-limit-significant-digits-excel-using-java/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java die Anzahl signifikanter Stellen in Excel-Zellen begrenzen und die Datenpräsentation optimieren.
+
 ## Weitere Ressourcen
 
 - [Aspose.Cells für Java-Dokumentation](https://docs.aspose.com/cells/java/)
