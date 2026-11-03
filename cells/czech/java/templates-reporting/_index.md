@@ -68,6 +68,8 @@ Naučte se, jak v Javě pomocí Excel Smart Markers vytvořit kompletní report 
 
 ### [Vytvoření sešitu Excel s inteligentními značkami – průvodce pro Javu](./create-excel-workbook-with-smart-markers-java-guide/)
 Naučte se, jak pomocí Smart Markers v Javě vytvořit Excel sešit s dynamickým obsahem a ukázkami kódu.
+### [Jak vytvořit listy s inteligentními značkami pomocí Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
+Naučte se, jak pomocí Aspose.Cells vytvořit listy s inteligentními značkami pro dynamické sestavy.
 
 ## Další zdroje
 

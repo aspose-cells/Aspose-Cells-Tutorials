@@ -50,6 +50,9 @@ Aprenda a exportar planilhas do Excel para PNG usando Aspose.Cells com um guia c
 ### [Como exportar intervalo do Excel como imagem com C# e Aspose.Cells](./how-to-export-excel-range-as-image-with-c-and-aspose-cells/)
 Aprenda a exportar um intervalo de planilha do Excel como imagem usando C# e Aspose.Cells.
 
+### [Como exportar tabelas dinâmicas como imagens usando Aspose.Cells em C#](./how-to-export-pivot-tables-as-images-using-aspose-cells-in-c/)
+Aprenda a exportar tabelas dinâmicas como imagens no .NET usando Aspose.Cells com este guia passo a passo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

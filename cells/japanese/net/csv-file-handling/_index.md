@@ -46,6 +46,10 @@ Aspose.Cells for .NET を利用し、C# で Excel ワークブックを CSV に�
 
 
 
+### [ExcelブックをCSVにエクスポートする方法 – Aspose.Cells を使用した C# ガイド](./how-to-export-excel-workbook-to-csv-with-aspose-cells-in-c/)
+Aspose.Cells for .NET を使用して、Excel ワークブックを CSV 形式にエクスポートする手順を解説します。
+### [C# で Aspose.Cells を使用して Excel を CSV にエクスポートする方法](./how-to-export-excel-to-csv-in-c-with-aspose-cells/)
+Aspose.Cells for .NET を使用して、C# で Excel を CSV 形式にエクスポートする手順を解説します。
 
 
 

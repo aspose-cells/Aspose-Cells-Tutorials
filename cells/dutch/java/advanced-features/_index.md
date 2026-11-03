@@ -71,6 +71,7 @@ Deze tutorial maakt deel uit van de collectie die verder beneden wordt vermeld.
 ### [VBA‑modules Modificeren in Excel met Aspose.Cells voor Java&#58; Een Uitgebreide Gids](./modify-vba-modules-excel-aspose-cells-java/)
 ### [Slicers Bijwerken in Java‑Excel‑bestanden met Aspose.Cells voor Java](./update-slicers-java-excel-aspose-cells/)
 ### [Datum parseren met locale in Java – Complete stapsgewijze gids](./parse-date-with-locale-in-java-complete-step-by-step-guide/)
+### [Hoe wrapcols te gebruiken in Java – array herschikken in Excel](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
 
 ## Aanvullende Bronnen
 

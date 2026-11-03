@@ -72,6 +72,20 @@ Aprenda a copiar rangos manteniendo la tabla dinámica intacta con Aspose.Cells 
 Aprenda a duplicar tablas dinámicas en Excel usando Java, con instrucciones detalladas y ejemplos de código.
 ### [Imagen de tabla dinámica de Excel: Exportar a PNG con Java](./excel-pivot-table-image-export-to-png-with-java/)
 Aprenda a exportar una tabla dinámica de Excel como imagen PNG usando Aspose.Cells para Java.
+### [Crear nuevo libro y copiar tabla dinámica en Java – Guía completa paso a paso](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
+Aprenda a crear un nuevo libro y copiar una tabla dinámica en Java con Aspose.Cells, siguiendo una guía paso a paso.
+### [Copiar tabla dinámica en Java con Aspose.Cells – Guía completa](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
+Aprenda a copiar tablas dinámicas en Java usando Aspose.Cells, con ejemplos paso a paso para duplicar y reutilizar informes.
+### [Copiar tabla dinámica en Java – guía paso a paso usando Aspose.Cells](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
+Aprenda a copiar tablas dinámicas en Java con Aspose.Cells mediante una guía paso a paso.
+### [Cómo copiar una tabla dinámica en Aspose.Cells – copiar rango a libro de trabajo](./how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook/)
+Aprenda a copiar una tabla dinámica a otro libro de trabajo con Aspose.Cells para Java.
+### [Copiar una tabla dinámica en Java usando Aspose.Cells](./how-to-copy-a-pivot-table-in-java-using-aspose-cells/)
+Aprenda a copiar una tabla dinámica en Java, conservar su formato y exportarla a una presentación PPTX con Aspose.Cells.
+### [Cómo copiar tablas dinámicas entre libros de Excel en Java](./how-to-copy-pivot-tables-between-excel-workbooks-in-java/)
+Aprenda a copiar tablas dinámicas entre libros de Excel en Java usando Aspose.Cells.
+### [Cómo copiar una tabla dinámica entre hojas de cálculo en Java](./how-to-copy-a-pivot-table-between-worksheets-in-java/)
+Aprenda a copiar una tabla dinámica entre hojas de cálculo en Java usando Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

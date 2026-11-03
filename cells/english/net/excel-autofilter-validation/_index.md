@@ -50,6 +50,8 @@ Step-by-step guide to applying AutoFilter in Excel using C# and Aspose.Cells, si
 
 ### [remove autofilter excel in C# – Complete Step‑by‑Step Guide](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Learn how to remove autofilter from Excel using Aspose.Cells in .NET with this comprehensive step-by-step guide.
+### [Remove AutoFilter in Excel with C# – step‑by‑step guide](./remove-autofilter-in-excel-with-c-step-by-step-guide/)
+Learn how to remove AutoFilter from Excel using Aspose.Cells in C# with a clear step‑by‑step guide.
 ### [Clear filter UI in Excel with C# – Remove AutoFilter Button](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 Learn how to hide or remove the AutoFilter button in Excel using Aspose.Cells for .NET with C#.
 ### [hide filter arrows excel with C# – Complete Guide](./hide-filter-arrows-excel-with-c-complete-guide/)
@@ -58,6 +60,8 @@ Learn how to hide filter arrows in Excel using Aspose.Cells with C# in this comp
 Learn how to retrieve the first table from an Excel workbook using Aspose.Cells in C# with this comprehensive guide.
 ### [Add Table to Excel with C# – Clear Autofilter and Save File](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
 Learn how to add a table to Excel with C#, clear any autofilter, and save the file using Aspose.Cells for .NET.
+### [Remove autofilter from Excel in C# – complete guide](./remove-autofilter-from-excel-in-c-complete-guide/)
+Learn how to remove the autofilter from Excel using Aspose.Cells for .NET with C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

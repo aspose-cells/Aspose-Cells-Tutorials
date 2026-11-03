@@ -71,6 +71,9 @@ Scopri come ricaricare e aggiornare i workbook Excel in Java con il motore di ca
 ### [Come forzare il calcolo delle formule in Java con Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
 Scopri come forzare il ricalcolo delle formule in un workbook Excel usando Aspose.Cells per Java.
 
+### [Ricalcolare tutte le formule Excel con Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
+Un tutorial di codice per ricalcolare tutte le formule Excel usando Aspose.Cells per Java
+
 ## Risorse aggiuntive
 - [Documentazione di Aspose.Cells per Java](https://docs.aspose.com/cells/java/)
 - [Riferimento API di Aspose.Cells per Java](https://reference.aspose.com/cells/java/)

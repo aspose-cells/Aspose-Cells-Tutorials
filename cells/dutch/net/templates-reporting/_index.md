@@ -80,6 +80,12 @@ Leer hoe u met C# een Excel‑rapport maakt, van gegevensbinding tot opmaak, met
 ### [Hoe een array uit te breiden in Excel en een sjabloon te vullen](./how-to-expand-array-in-excel-and-populate-a-template)
 Leer hoe u een array uitbreidt in Excel en een sjabloon vult met Aspose.Cells.
 
+### [Dataset converteren naar Excel en een Excel-sjabloon vullen](./convert-dataset-to-excel-and-populate-an-excel-template/)
+Leer hoe u een dataset omzet naar Excel en een sjabloon automatisch vult.
+
+### [Hoe Excel te maken vanuit sjabloon en herhaalde bladen genereren](./how-to-create-excel-from-template-and-generate-repeated-shee)
+Leer hoe u een Excel‑bestand maakt vanuit een sjabloon en automatisch meerdere bladen genereert.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

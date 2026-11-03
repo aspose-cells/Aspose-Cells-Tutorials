@@ -59,6 +59,9 @@ Pelajari cara menyempurnakan presentasi Excel Anda dengan efek refleksi mengguna
 ### [Cara Merender Lembar Excel sebagai Gambar dengan Aspose.Cells untuk Java: Panduan Lengkap](./aspose-cells-java-render-excel-sheets-images/)
 Pelajari cara mengubah data Excel Anda menjadi gambar berkualitas tinggi menggunakan Aspose.Cells untuk Java. Panduan ini mencakup semua langkah mulai dari penyiapan hingga rendering, memastikan visualisasi data yang lancar.
 
+### [Cara Mengekspor Rentang Excel sebagai Gambar di Java dengan Aspose.Cells](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
+Pelajari cara mengekspor rentang sel Excel menjadi gambar menggunakan Aspose.Cells untuk Java dalam beberapa langkah mudah.
+
 ### [Mengatur Latar Belakang Grafis dalam File ODS Menggunakan Aspose.Cells Java: Panduan Langkah demi Langkah](./aspose-cells-java-set-ods-graphic-background/)
 Pelajari cara mengatur latar belakang grafis dalam file ODS menggunakan Aspose.Cells untuk Java. Sempurnakan spreadsheet Anda dengan visual profesional dan tingkatkan daya tariknya.
 
@@ -132,6 +135,8 @@ Tutorial kode untuk Aspose.Words Java
 Pelajari cara menyempurnakan laporan Excel Anda dengan menambahkan gambar latar belakang menggunakan Aspose.Cells Java. Ikuti panduan langkah demi langkah ini untuk penerapan yang lancar.
 
 ### [Cara Membuat PNG dari Rentang di Java dengan Aspose.Cells](./how-to-create-png-from-range-in-java-with-aspose-cells/)
+### [Cara Mengekspor Bentuk dengan ShapeExportOptions di Java](./how-to-export-shape-with-shapeexportoptions-in-java/)
+Pelajari cara mengekspor bentuk dari workbook Excel menggunakan ShapeExportOptions dengan Aspose.Cells untuk Java.
 
 ## Sumber Daya Tambahan
 

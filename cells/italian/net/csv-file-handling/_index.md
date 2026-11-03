@@ -45,6 +45,10 @@ Impara a generare file CSV da un workbook Excel con Aspose.Cells per .NET in C#.
 
 
 
+### [Come esportare un workbook Excel in CSV con Aspose.Cells in C#](./how-to-export-excel-workbook-to-csv-with-aspose-cells-in-c/)
+Impara a esportare un workbook Excel in formato CSV usando Aspose.Cells per .NET in C#.
+### [Come esportare Excel in CSV in C# con Aspose.Cells](./how-to-export-excel-to-csv-in-c-with-aspose-cells/)
+Impara a esportare file Excel in CSV usando Aspose.Cells per .NET in C# passo dopo passo.
 
 
 

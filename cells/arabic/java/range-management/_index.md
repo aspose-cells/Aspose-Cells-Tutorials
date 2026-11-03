@@ -35,6 +35,9 @@
 ### [Aspose.Cells Java: إنشاء وإدارة النطاقات المسماة في ملفات Excel](./aspose-cells-java-manage-named-ranges/)
 تعلّم كيفية إنشاء نطاقات مُسمّاة وإدارتها ومعالجتها باستخدام Aspose.Cells في Java. يُرشدك هذا البرنامج التعليمي خلال إعداد بيئتك وإتقان ميزاتها الرئيسية من خلال أمثلة برمجية.
 
+### [إنشاء نطاق مسمى واكتشاف اسم مكرر في Excel](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+تعلم كيفية إنشاء نطاق مسمى في Excel واكتشاف الأسماء المكررة باستخدام Aspose.Cells لـ Java.
+
 ### [الوصول إلى الحد الأقصى لنطاق العرض في مصنفات Excel باستخدام Aspose.Cells Java](./aspose-cells-java-max-display-range/)
 تعرّف على كيفية الوصول إلى أقصى نطاق عرض لورقة عمل في Excel باستخدام Aspose.Cells لـ Java. أتقن هذه الميزة من خلال دليلنا المفصل.
 
@@ -90,6 +93,10 @@
 ### [نسخ نطاق بين دفاتر العمل في Java – دليل خطوة بخطوة](./copy-range-between-workbooks-in-java-step-by-step-guide/)
 ### [إنشاء ورقة عمل جديدة ونسخ نطاق Excel باستخدام Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
 تعلم كيفية إنشاء ورقة عمل جديدة ونسخ نطاق من خلايا Excel باستخدام مكتبة Aspose.Cells في Java.
+### [كيفية نسخ النطاق في Java باستخدام Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
+تعرّف على كيفية نسخ نطاق من الخلايا في Excel باستخدام Aspose.Cells لجافا خطوة بخطوة.
+
+### [كيفية استخدام وظيفة التوسيع في معالجة Excel باستخدام Java](./how-to-use-expand-function-in-java-excel-processing/)
 
 ## موارد إضافية
 

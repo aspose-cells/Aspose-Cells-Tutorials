@@ -73,6 +73,9 @@ Panduan langkah demi langkah untuk menyegarkan workbook Excel secara programatik
 ### [Cara memaksa perhitungan rumus di Java dengan Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
 Panduan memaksa perhitungan rumus secara langsung dalam workbook menggunakan Aspose.Cells untuk Java.
 
+### [Menghitung Ulang Semua Rumus Excel dengan Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
+Tutorial kode untuk menghitung ulang semua rumus dalam workbook Excel menggunakan Aspose.Cells untuk Java
+
 ## Additional Resources
 - [Dokumentasi Aspose.Cells untuk Java](https://docs.aspose.com/cells/java/)
 - [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)

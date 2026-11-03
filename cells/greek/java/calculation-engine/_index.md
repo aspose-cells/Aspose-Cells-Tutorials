@@ -71,6 +71,9 @@ weight: 22
 ### [Πώς να εξαναγκάσετε τον υπολογισμό τύπων σε Java με Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
 Μάθετε πώς να αναγκάσετε τον υπολογισμό τύπων σε βιβλία εργασίας Excel με Aspose.Cells for Java.
 
+### [Επανυπολογισμός όλων των τύπων Excel με Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
+Μάθετε πώς να επανυπολογίσετε όλους τους τύπους σε ένα βιβλίο εργασίας Excel χρησιμοποιώντας Aspose.Cells for Java.
+
 ## Πρόσθετοι Πόροι
 - [Τεκμηρίωση Aspose.Cells για Java](https://docs.aspose.com/cells/java/)
 - [Αναφορά API Aspose.Cells για Java](https://reference.aspose.com/cells/java/)

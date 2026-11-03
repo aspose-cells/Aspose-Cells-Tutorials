@@ -52,6 +52,8 @@ Naučte se převést soubory Markdown do Excelu pomocí Aspose.Cells v C# pomoc�
 Naučte se převádět soubory DOCX do formátu SVG pomocí Aspose.Words v .NET a zachovat vysokou kvalitu grafiky.
 ### [Vložení písem do HTML – Kompletní průvodce pro vývojáře .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
 Naučte se, jak vložit písma do HTML při převodu Excelu pomocí Aspose.Cells v .NET a zachovat přesné formátování.
+### [Jak převést Excel do SVG pomocí Aspose.Cells – krok za krokem](./how-to-convert-excel-to-svg-with-aspose-cells-step-by-step-g/)
+Naučte se převést soubory Excel do SVG pomocí Aspose.Cells krok za krokem.
 
 
 

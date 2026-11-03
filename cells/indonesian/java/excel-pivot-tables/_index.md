@@ -71,6 +71,20 @@ Pelajari cara menyalin rentang sel sambil menjaga integritas Tabel Pivot menggun
 Pelajari cara menggandakan tabel pivot di Excel menggunakan Aspose.Cells untuk Java dengan panduan lengkap langkah demi langkah.
 ### [Gambar Tabel Pivot Excel: Ekspor ke PNG dengan Java](./excel-pivot-table-image-export-to-png-with-java/)
 Pelajari cara mengekspor gambar Tabel Pivot Excel ke format PNG menggunakan Aspose.Cells untuk Java.
+### [Buat Workbook Baru dan Salin Tabel Pivot di Java – Panduan Langkah‑per‑Langkah Lengkap](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
+Pelajari cara membuat workbook baru dan menyalin tabel pivot menggunakan Aspose.Cells untuk Java dalam panduan langkah demi langkah.
+### [Menyalin Tabel Pivot di Java dengan Aspose.Cells – Panduan Lengkap](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
+Pelajari cara menyalin Tabel Pivot di Java menggunakan Aspose.Cells, termasuk teknik duplikasi dan penyesuaian data secara efisien.
+### [Menyalin tabel pivot di Java – panduan langkah demi langkah menggunakan Aspose.Cells](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
+Pelajari cara menyalin tabel pivot di Java menggunakan Aspose.Cells secara mudah.
+### [Cara menyalin Pivot di Aspose.Cells – menyalin rentang ke workbook](./how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook/)
+Pelajari cara menyalin tabel pivot ke workbook lain menggunakan Aspose.Cells untuk Java.
+### [Menyalin Tabel Pivot di Java menggunakan Aspose.Cells](./how-to-copy-a-pivot-table-in-java-using-aspose-cells/)
+Pelajari cara menyalin Tabel Pivot di Aspose.Cells untuk Java dengan mudah.
+### [Menyalin Tabel Pivot antar Buku Kerja Excel di Java](./how-to-copy-pivot-tables-between-excel-workbooks-in-java/)
+Pelajari cara menyalin Tabel Pivot antar buku kerja Excel menggunakan Aspose.Cells untuk Java.
+### [Cara menyalin tabel pivot antar lembar kerja di Java](./how-to-copy-a-pivot-table-between-worksheets-in-java/)
+Pelajari cara menyalin tabel pivot antara lembar kerja di Aspose.Cells untuk Java dengan contoh kode praktis.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

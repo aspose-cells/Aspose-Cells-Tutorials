@@ -35,6 +35,9 @@ Ismerje meg, hogyan használhatja az Aspose.Cells for Java-t PowerQuery-képlete
 ### [Hogyan távolítsunk el üres sorokat az Excel fájlokból az Aspose.Cells for Java használatával](./delete-blank-rows-aspose-cells-java/)
 Tanuld meg, hogyan törölhetsz hatékonyan üres sorokat az Excel fájlokban az Aspose.Cells for Java segítségével. Kövesd ezt a fejlesztők és adatelemzők számára készült lépésről lépésre szóló útmutatót.
 
+### [Hogyan távolítsuk el az automatikus szűrőt az Excelben az Aspose.Cells Java használatával](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
+Tanuld meg, hogyan távolíthatod el az Excel automatikus szűrőjét programozottan az Aspose.Cells for Java segítségével.
+
 ### [Excel adatkezelés elsajátítása Java nyelven az Aspose.Cells segítségével: Átfogó útmutató](./excel-data-management-java-aspose-cells/)
 Ismerje meg, hogyan kezelheti és manipulálhatja hatékonyan az Excel-adatokat az Aspose.Cells for Java segítségével. Ez az útmutató a munkafüzetek betöltését, a cellák elérését és az adathalmazokon való iterációt tárgyalja.
 

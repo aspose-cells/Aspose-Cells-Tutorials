@@ -80,6 +80,11 @@
 
 ### [Πώς να διαγράψετε την κεφαλίδα πίνακα στο Excel με Java – Πλήρης Οδηγός](./how-to-delete-table-header-in-excel-with-java-full-guide/)
 Μάθετε πώς να αφαιρέσετε την κεφαλίδα πίνακα σε αρχεία Excel χρησιμοποιώντας Aspose.Cells για Java, με βήμα-βήμα παραδείγματα κώδικα.
+### [Αφαίρεση Autofilter από το Excel με Java – Πλήρης Οδηγός](./remove-autofilter-from-excel-with-java-complete-guide/)
+Μάθετε πώς να αφαιρέσετε το Autofilter από αρχεία Excel χρησιμοποιώντας το Aspose.Cells για Java, βήμα-βήμα με παραδείγματα κώδικα.
+
+### [Πώς να χρησιμοποιήσετε το Aspose.Cells: Προσθήκη προσαρμοσμένης ιδιότητας & αποθήκευση XLSB](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+Μάθετε πώς να προσθέσετε προσαρμοσμένη ιδιότητα σε αρχείο XLSB και να το αποθηκεύσετε χρησιμοποιώντας το Aspose.Cells για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

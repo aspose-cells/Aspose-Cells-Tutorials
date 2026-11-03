@@ -49,6 +49,8 @@
 使用 Aspose.Cells for .NET 将工作簿导出为符合 PDF/A‑3b 标准的 PDF 文件，确保长期保存和兼容性。
 ### [使用 Aspose.Cells 将工作簿保存为 PDF – 完整分步指南](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
 通过本完整分步指南，学习如何使用 Aspose.Cells 将 Excel 工作簿保存为高质量的 PDF 文件。
+### [如何在 C# 中使用 Aspose.Cells 将工作簿保存为 PDF](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
+本指南详细演示在 C# 环境下使用 Aspose.Cells 将 Excel 工作簿导出为 PDF，步骤清晰，适合各类开发者。
 ### [如何使用 Aspose.Cells 将 Excel 工作簿保存为 PDF](./how-to-save-pdf-from-an-excel-workbook-with-aspose-cells/)
 通过本完整指南，学习如何使用 Aspose.Cells 将 Excel 工作簿保存为 PDF，步骤清晰，适合所有开发者。
 ### [在 C# 中嵌入字体并将工作簿保存为 PDF](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
@@ -73,6 +75,8 @@
 使用 Aspose.Cells for .NET 的完整指南，帮助您在 C# 中将 Excel 文件高效转换为 PDF。
 ### [使用字体变体选择器保存 PDF – 完整指南](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
 了解如何在保存 PDF 时正确处理字体变体选择器，确保文档显示完整且兼容各种设备。
+### [使用动态数组创建 Excel 工作簿并保存为 PDF](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
+通过本教程，学习如何使用 Aspose.Cells 在 .NET 中创建包含动态数组的 Excel 工作簿并将其保存为 PDF。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

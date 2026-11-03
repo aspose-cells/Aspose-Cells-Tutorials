@@ -80,6 +80,11 @@ Aspose.Cells का उपयोग करके इनवॉइस उत्प
 C# टेम्प्लेट से डेटा को Excel में निर्यात करने की पूरी प्रक्रिया सीखें।
 ### [Excel में एरे को विस्तारित करके टेम्पलेट भरें](./how-to-expand-array-in-excel-and-populate-a-template)
 Excel में एरे को विस्तारित करके टेम्पलेट को स्वचालित रूप से भरने की प्रक्रिया सीखें।
+### [डेटासेट को Excel में परिवर्तित करें और Excel टेम्पलेट को भरें](./convert-dataset-to-excel-and-populate-an-excel-template)
+डेटासेट को Excel फ़ाइल में बदलें और तैयार टेम्पलेट में डेटा भरें।
+
+### [टेम्पलेट से Excel बनाएं और दोहराए जाने वाले शीट्स उत्पन्न करें](./how-to-create-excel-from-template-and-generate-repeated-shee)
+टेम्पलेट का उपयोग करके Excel फ़ाइल बनाना और कई शीट्स को दोहराकर जोड़ना सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

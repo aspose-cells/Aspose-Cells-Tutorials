@@ -37,6 +37,8 @@ Leer hoe u grafieken naar afbeeldingen in .NET kunt converteren met Aspose.Cells
 ### [Werkblad naar afbeeldingconversie in .NET](./worksheet-to-image-conversion/)
 ### [Pivot opslaan als afbeelding in .NET – Stapsgewijze handleiding](./how-to-save-pivot-as-an-image-step-by-step-guide/)
 Leer hoe u een draaitabel in Excel kunt omzetten naar een afbeelding met Aspose.Cells in een eenvoudige stap‑voor‑stap handleiding.
+### [Hoe draaitabellen exporteren als afbeeldingen met Aspose.Cells in C#](./how-to-export-pivot-tables-as-images-using-aspose-cells-in-c/)
+Leer hoe u draaitabellen in Excel exporteert als afbeeldingen met Aspose.Cells in C# via een eenvoudige stap‑voor‑stap handleiding.
 ### [Excel-bereik exporteren als afbeelding – Complete C#-gids](./export-excel-range-as-image-complete-c-guide/)
 Leer hoe u een bereik in Excel exporteert als afbeelding met Aspose.Cells in C#. Volledige stapsgewijze handleiding.
 ### [Hoe een Excel-werkblad opslaan als afbeelding – Complete C#-gids](./how-to-save-excel-sheet-as-image-complete-c-guide/)

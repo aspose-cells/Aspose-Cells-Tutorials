@@ -51,6 +51,8 @@
 了解如何使用 Aspose.Cells for Java 將 Excel 轉換為 PDF/A，提供完整的步驟與原始碼示例，助您輕鬆實作。
 ### [如何使用 Aspose.Cells 將 Excel 匯出為 PowerPoint – 步驟說明指南](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
 了解如何使用 Aspose.Cells 將 Excel 檔案匯出為 PowerPoint 簡報，提供完整的程式碼範例與逐步說明。
+### [如何使用 Aspose.Cells 在 Java 中將 Excel 工作表匯出為 PowerPoint](./how-to-export-excel-sheet-to-powerpoint-with-aspose-cells-in/)
+了解如何使用 Aspose.Cells for Java 將 Excel 工作表匯出為 PowerPoint 簡報，提供完整範例與步驟說明。
 ### [將 Excel 匯出為 XML Java](./export-excel-to-xml-java/)
 了解如何使用 Aspose.Cells for Java 將 Excel 匯出為 Java 中的 XML。具有原始程式碼的逐步指南，可實現無縫資料轉換。
 
@@ -71,6 +73,12 @@
 了解如何使用 Aspose.Cells for Java 將 JSON 資料轉換並匯出為 Excel 檔案，提供完整程式碼範例。
 ### [從 JSON 建立 Excel – 完整 Java 指南與 Aspose.Cells](./create-excel-from-json-full-java-guide-with-aspose-cells/)
 了解如何使用 Aspose.Cells for Java 從 JSON 資料建立 Excel 工作簿，提供完整範例與步驟說明。
+### [使用 Aspose Cells 從 JSON 建立 Excel – 完整 Java 教學](./create-excel-from-json-with-aspose-cells-full-java-guide/)
+了解如何使用 Aspose.Cells for Java 從 JSON 資料生成 Excel 檔案，提供完整步驟與原始程式碼示例。
+### [如何在 Java 中使用 Aspose 智慧標記將 JSON 轉換為 Excel](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
+了解如何使用 Aspose.Cells for Java 的智慧標記功能，將 JSON 資料轉換為 Excel 工作表。
+### [如何使用 Aspose.Cells 將 JSON 轉換為 Excel 並從 JSON 填充 Excel](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
+了解如何使用 Aspose.Cells 將 JSON 資料轉換為 Excel，並將 JSON 內容填入 Excel 工作表的完整步驟。
 ### [Excel 導入資料驗證](./excel-import-data-validation/)
 透過本全面的逐步指南了解如何使用 Aspose.Cells for Java 實作 Excel 匯入資料驗證。確保數據準確性並提升用戶體驗。 
 
@@ -78,8 +86,12 @@
 了解如何使用 Aspose.Cells for Java 將 Excel 匯出為 Java 中的 HTML。按照帶有原始程式碼的逐步指南，您可以毫不費力地將 Excel 文件無縫轉換為 HTML。
 ### [如何使用 Java 匯出 CSV – 設定有效位數與匯出範圍至 CSV](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
 了解如何使用 Aspose.Cells for Java 設定有效位數並選取匯出範圍，將資料匯出為 CSV 檔案。
+### [如何在 Java 中將工作表匯出為 CSV 並保持精度](./how-to-export-worksheet-to-csv-with-precision-in-java/)
+了解如何使用 Aspose.Cells for Java 精確匯出工作表為 CSV，設定有效位數與匯出範圍。
 ### [如何從工作簿建立 PDF – 完整 Java 指南](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
 了解如何使用 Aspose.Cells for Java 將工作簿匯出為 PDF，提供完整的程式碼範例與逐步說明。
+### [如何在 Java 中將工作簿另存為 PDF 並設定數值精度](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
+了解如何使用 Aspose.Cells for Java 在將工作簿匯出為 PDF 時設定數值精度，確保資料呈現正確。
 ### [嵌入字型 HTML – Excel 轉 HTML 完整字型嵌入](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
 了解如何使用 Aspose.Cells for Java 將 Excel 轉換為 HTML 並完整嵌入字型。提供逐步指南與原始程式碼示例。
 ### [將 XLSX 轉換為 PPTX – 完整指南：匯出可編輯形狀](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
@@ -87,7 +99,9 @@
 ### [使用 Aspose.Cells for Java 將 JSON 轉換為 XLSX – 完整指南](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
 了解如何使用 Aspose.Cells for Java 將 JSON 資料轉換為 XLSX 檔案，並提供完整的步驟與原始程式碼示例。
 ### [將 Markdown 轉換為 Excel – 使用 Aspose.Cells 完整指南](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
-了解如何使用 Aspose.Cells for Java 將 Markdown 內容轉換為 Excel 檔案，提供逐步指南與原始程式碼示例。
+了解如何使用 Aspose.Cells for Java 將 Markdown 內容轉換為 Excel 檔案，提供逐步指南與原始碼示例。
+### [將 Markdown 轉換為試算表（Java） – 逐步指南](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
+了解如何使用 Aspose.Cells for Java 將 Markdown 內容轉換為試算表，提供逐步說明與原始碼示例。
 ### [如何將字體嵌入 HTML（自 Excel 工作簿）– Java](./how-to-embed-fonts-in-html-from-excel-workbook-java/)
 了解如何使用 Aspose.Cells for Java 將 Excel 工作簿中的字體嵌入 HTML，提供逐步指南與原始碼示例。
 ### [建立 Excel 檔案（Java） – 完整指南，含列樣式與 XLSX 匯出](./create-excel-file-java-full-guide-with-row-styling-and-xlsx/)
@@ -157,6 +171,26 @@
 了解如何使用 Aspose.Cells for Java 從 Excel 建立 Word 文件，提供完整範例與逐步說明。
 ### [如何在 HTML 中嵌入來自 Excel 的字型 – 完整指南](./how-to-embed-fonts-in-html-from-excel-full-guide/)
 了解如何使用 Aspose.Cells for Java 將 Excel 中的字型嵌入 HTML，確保在網頁上正確顯示字型樣式。
+### [使用 Java 匯出 Excel 為 TXT – 完整逐步指南](./export-excel-to-txt-with-java-complete-step-by-step-guide/)
+了解如何使用 Aspose.Cells for Java 將 Excel 檔案匯出為 TXT 格式，提供完整的步驟與原始碼示例。
+### [如何從 Excel 匯出 PPTX – 完整 Java 指南](./how-to-export-pptx-from-excel-complete-java-guide/)
+了解如何使用 Aspose.Cells for Java 將 Excel 匯出為 PPTX 檔案，完整的 Java 實作指南。
+### [使用 Aspose Cells 將 JSON 插入 Excel – 完整 Java 指南](./insert-json-into-excel-with-aspose-cells-full-java-guide/)
+了解如何使用 Aspose.Cells for Java 將 JSON 資料插入 Excel 工作表。提供逐步指南與原始程式碼示例。
+### [設定自訂儲存格分隔符 – 匯出 Excel 表格為 TXT](./set-custom-cell-separator-export-excel-table-to-txt/)
+了解如何使用 Aspose.Cells for Java 設定自訂儲存格分隔符，將 Excel 表格匯出為 TXT 檔案。提供逐步指南與原始碼示例。
+### [如何將 Excel 匯出至 PowerPoint – 步驟說明指南](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
+了解如何使用 Aspose.Cells for Java 將 Excel 檔案匯出為 PowerPoint 簡報，提供完整的程式碼範例與操作步驟。
+### [在 Java 中匯出選取儲存格至 CSV – 完整指南](./export-selected-cells-to-csv-in-java-complete-guide/)
+了解如何使用 Aspose.Cells for Java 將特定儲存格匯出為 CSV，提供完整步驟與範例程式碼。
+### [如何設定 Excel 列印區域並匯出至 PowerPoint](./how-to-set-print-area-excel-and-export-to-powerpoint/)
+說明如何使用 Aspose.Cells for Java 設定列印區域並將 Excel 匯出為 PowerPoint 簡報。提供逐步指引與原始碼範例。
+### [如何使用 Aspose.Cells 將 Excel 匯出為 TXT 並控制小數精度](./how-to-export-excel-to-txt-with-aspose-cells-and-control-dec/)
+了解如何使用 Aspose.Cells for Java 將 Excel 匯出為 TXT，並設定小數點精度，以確保資料精確呈現。
+### [如何使用 Java 將 Excel 匯出為 PowerPoint](./how-to-export-excel-to-powerpoint-with-java/)
+了解如何使用 Aspose.Cells for Java 將 Excel 工作表匯出為 PowerPoint 簡報，並提供完整範例程式碼。
+### [使用 Aspose.Cells for Java 將工作簿另存為 CSV – 步驟說明](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
+了解如何使用 Aspose.Cells for Java 將 Excel 工作簿匯出為 CSV 檔案，提供完整範例與步驟說明。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

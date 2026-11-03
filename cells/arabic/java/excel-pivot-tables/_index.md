@@ -38,6 +38,8 @@
 ### [تخصيص أنماط الجدول المحوري](./customizing-pivot-table-styles/)
 ### [نسخ جدول محوري في Java – الحفاظ عليه، وتصديره إلى PPTX](./copy-pivot-table-in-java-preserve-it-export-to-pptx/)
 تعلم كيفية نسخ جدول محوري في Java مع الحفاظ على تنسيقه وتصديره إلى ملف PPTX بسهولة باستخدام Aspose.Cells.
+### [كيفية نسخ جدول محوري بين أوراق العمل في Java](./how-to-copy-a-pivot-table-between-worksheets-in-java/)
+تعلم كيفية نسخ جدول محوري بين أوراق العمل في Java باستخدام Aspose.Cells.
 ### [كيفية نسخ جدول محوري في Java – دليل Aspose.Cells الكامل](./how-to-copy-pivot-table-in-java-complete-aspose-cells-guide/)
 ### [إنشاء صورة PNG من جدول محوري في Java – دليل خطوة بخطوة كامل](./create-png-from-pivot-in-java-full-step-by-step-guide/)
 ### [نسخ جدول محوري في Excel – دليل خطوة بخطوة باستخدام Java](./copy-pivot-table-excel-step-by-step-guide-using-java/)
@@ -56,6 +58,13 @@
 ### [كيفية نسخ النطاق والحفاظ على جدول محوري في Java](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
 ### [كيفية تكرار جداول البيانات المحورية في Excel باستخدام Java – دليل خطوة بخطوة](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
 ### [صورة جدول محوري في Excel: التصدير إلى PNG باستخدام Java](./excel-pivot-table-image-export-to-png-with-java/)
+### [إنشاء مصنف جديد ونسخ جدول محوري في Java – دليل خطوة بخطوة كامل](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
+تعلم كيفية إنشاء مصنف جديد ونسخ جدول محوري باستخدام Aspose.Cells لجافا خطوة بخطوة.
+### [نسخ جدول محوري في Java باستخدام Aspose.Cells – دليل كامل](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
+### [نسخ جدول محوري في Java – دليل خطوة بخطوة باستخدام Aspose.Cells](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
+### [كيفية نسخ جدول محوري في Aspose.Cells – نسخ النطاق إلى مصنف](./how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook/)
+### [كيفية نسخ جدول محوري في Java باستخدام Aspose.Cells](./how-to-copy-a-pivot-table-in-java-using-aspose-cells/)
+### [كيفية نسخ جداول المحور بين ملفات Excel في Java](./how-to-copy-pivot-tables-between-excel-workbooks-in-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -48,6 +48,8 @@ Convert DOCX documents to PDF in C# using Aspose.Words with a comprehensive step
 Save your workbook as PDF/A‑3b in C# using Aspose.Cells. Follow our guide for step-by-step instructions to export Excel to PDF/A‑3b.
 ### [Save workbook as pdf with Aspose.Cells – Complete Step‑by‑Step Guide](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
 Learn how to save an Excel workbook as PDF using Aspose.Cells with a comprehensive step‑by‑step guide.
+### [How to save workbook as PDF with Aspose.Cells in C#](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
+Learn how to save an Excel workbook as PDF using Aspose.Cells in C# with a step‑by‑step guide.
 ### [How to save PDF from an Excel workbook with Aspose.Cells](./how-to-save-pdf-from-an-excel-workbook-with-aspose-cells/)
 Learn how to export an Excel workbook to PDF using Aspose.Cells in C# with detailed step‑by‑step instructions.
 ### [How to Embed Fonts in PDF – Save Workbook as PDF in C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
@@ -72,6 +74,8 @@ Learn how to save XLSX files as PDF/A‑1b compliant PDFs in C# with Aspose.Cell
 A comprehensive step-by-step guide to convert Excel files to PDF using C# and Aspose.Cells.
 ### [how to save pdf with font variation selectors – complete guide](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
 Learn how to save PDFs with font variation selectors using Aspose.Cells for .NET in this comprehensive guide.
+### [Create Excel workbook and save as PDF with dynamic arrays](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
+Create an Excel workbook with dynamic arrays and save it as PDF using Aspose.Cells for .NET. Follow the step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -31,6 +31,8 @@ Apprenez à automatiser la création et la gestion de classeurs Excel avec Aspos
 
 ### [Java : créer un fichier Excel, ajouter une propriété personnalisée et l’enregistrer au format XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
 Apprenez à créer un classeur Excel en Java, ajouter une propriété personnalisée et l’enregistrer au format XLSB avec Aspose.Cells.
+### [Générer un fichier Excel Java : guide complet étape par étape](./generate-excel-file-java-complete-step-by-step-guide/)
+Apprenez à créer et enregistrer un fichier Excel en Java avec Aspose.Cells grâce à un guide complet étape par étape.
 
 ### [Aspose.Cells Java : afficher la version et créer un classeur partagé](./aspose-cells-java-display-version-create-shared-workbook/)
 Un tutoriel de code pour Aspose.Words Java
@@ -247,6 +249,8 @@ Apprenez à créer, manipuler et enregistrer des classeurs Excel grâce à la pu
 Apprenez à créer un classeur Excel intégrant le calendrier japonais en Java avec Aspose.Cells, grâce à ce guide complet.
 ### [Créer un classeur Excel en Java – Guide complet étape par étape](./create-excel-workbook-in-java-complete-step-by-step-guide/)
 Apprenez à créer un classeur Excel en Java avec Aspose.Cells, en suivant un guide complet étape par étape.
+### [Créer un nouveau classeur Java – Guide complet](./create-new-workbook-java-complete-guide/)
+Apprenez à créer un nouveau classeur Excel en Java avec Aspose.Cells, en couvrant la configuration, les options d’enregistrement et les meilleures pratiques.
 
 ### [Détecter le format des fichiers cryptés avec Aspose.Cells Java](./detect-encrypted-file-format-aspose-cells-java/)
 Un tutoriel de code pour Aspose.Words Java
@@ -284,7 +288,7 @@ Apprenez à automatiser les tâches Excel en configurant les pages de classeurs 
 ### [Automatisation Excel avec Aspose.Cells Java : création de classeurs et visibilité des colonnes/lignes](./excel-automation-aspose-cells-java-workbook-visibility/)
 Apprenez à automatiser les tâches Excel avec Aspose.Cells pour Java. Créez, modifiez des classeurs et gérez efficacement la visibilité des colonnes et des lignes.
 
-### [Automatisation Excel avec Aspose.Cells : charger, enregistrer et remplacer du texte](./excel-automation-aspose-cells-load-save-text/)
+### [Automatisation Excel : charger, enregistrer et remplacer du texte](./excel-automation-aspose-cells-load-save-text/)
 Un tutoriel de code pour Aspose.Words Java
 
 ### [Automatisation d'Excel avec Aspose.Cells Java : gestion efficace des propriétés du classeur et enregistrement des fichiers](./excel-automation-aspose-cells-manage-properties-save-files/)
@@ -360,6 +364,10 @@ Apprenez à exporter des propriétés personnalisées d'un classeur Excel vers u
 Apprenez à ajouter une propriété personnalisée à un classeur Excel, récupérer sa valeur et enregistrer le fichier au format XLSB avec Aspose.Cells pour Java.
 ### [Comment ajouter une propriété personnalisée dans Excel avec Java – Guide complet](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
 Apprenez à ajouter et gérer des propriétés personnalisées dans un classeur Excel à l'aide d'Aspose.Cells pour Java.
+### [Créer un classeur Excel avec des propriétés personnalisées en Java – guide étape par étape](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+Apprenez à créer un classeur Excel et à définir des propriétés personnalisées en Java avec Aspose.Cells, étape par étape.
+
+### [Créer un classeur Excel Java : gérer les dates d'ère japonaise](./create-excel-workbook-java-handle-japanese-era-dates/)
 
 ### [Exporter Excel au format HTML avec Aspose.Cells Java : guide étape par étape](./export-excel-html-aspose-cells-java/)
 Découvrez comment exporter facilement des fichiers Excel au format HTML avec Aspose.Cells Java. Ce guide explique comment charger des classeurs, personnaliser les fournisseurs de flux et enregistrer facilement des classeurs.
@@ -463,7 +471,24 @@ Apprenez à ouvrir et à gérer les fichiers XLS Excel 95/5.0 sans effort avec A
 ### [Ouvrir des fichiers Excel 97/2003 en Java avec Aspose.Cells : guide complet](./open-excel-97-2003-files-java-aspose-cells/)
 Découvrez comment ouvrir facilement des fichiers Microsoft Excel existants grâce à la puissante bibliothèque Aspose.Cells en Java. Découvrez la configuration, l'utilisation et les applications concrètes.
 
-### [Ouvrir un classeur Excel à partir d'un flux avec Aspose.Cells Java](./open-excel-workbook-stream-aspose-cells-java/)
+### [Comment récupérer les versions de fichiers Excel avec Aspose.Cells pour Java : Guide du développeur](./retrieve-excel-file-versions-aspose-cells-java/)
+Apprenez à récupérer programmatiquement des versions de fichiers Excel avec Aspose.Cells pour Java. Ce guide couvre toutes les étapes, de la configuration à la mise en œuvre, garantissant la compatibilité entre les différents formats Excel.
+
+### [Comment récupérer une propriété personnalisée en Java avec Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)
+Apprenez à obtenir une propriété personnalisée d'un classeur Excel en Java à l'aide d'Aspose.Cells.
+
+### [Comment définir la version d'un document Excel avec Aspose.Cells pour Java](./set-excel-version-aspose-cells-java/)
+Apprenez à définir et gérer les propriétés des documents, comme le contrôle de version, dans les fichiers Excel avec Aspose.Cells pour Java. Suivez ce guide étape par étape pour gérer efficacement vos classeurs.
+
+### [Enregistrer le classeur dans un fichier – Guide complet Java pour copier des plages Excel](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
+Apprenez à enregistrer un classeur dans un fichier et à copier des plages Excel en Java avec Aspose.Cells.
+### [Créer un nouveau classeur en Java – Guide étape par étape](./create-new-workbook-in-java-step-by-step-guide/)
+Apprenez à créer un classeur Excel vierge en Java avec Aspose.Cells, étape par étape, incluant la configuration et l'enregistrement.
+### [Utiliser la fonction Lambda Java pour créer un exemple de classeur Excel](./use-lambda-function-java-to-create-excel-workbook-example/)
+Apprenez à créer un classeur Excel en Java en utilisant les fonctions Lambda avec Aspose.Cells.
+### [Comment enregistrer des fichiers xlsb avec des propriétés personnalisées à l'aide d'Aspose.Cells pour Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Apprenez à enregistrer des fichiers XLSB en définissant des propriétés personnalisées avec Aspose.Cells pour Java.
+### [Comment ouvrir un classeur Excel à partir d'un flux avec Aspose.Cells Java](./open-excel-workbook-stream-aspose-cells-java/)
 Un tutoriel de code pour Aspose.Words Java
 
 ### [Comment ouvrir et récupérer les noms de fichiers XLSX avec Aspose.Cells en Java](./open-retrieve-filenames-excel-aspose-cells-java/)
@@ -491,21 +516,10 @@ Apprenez à convertir des fichiers Excel en PDF avec Aspose.Cells pour Java, ave
 Apprenez à convertir des feuilles Excel en images avec Aspose.Cells pour Java. Maîtrisez les opérations du classeur, optimisez les fonctionnalités de reporting et intégrez facilement des visuels Excel.
 
 ### [Comment convertir des feuilles Excel au format XPS avec Aspose.Cells Java](./render-excel-to-xps-aspose-cells-java/)
-Découvrez comment convertir facilement des fichiers Excel au format XPS avec Aspose.Cells Java. Ce guide couvre l'installation, la configuration et la mise en œuvre étape par étape.
-
-### [Comment récupérer les versions de fichiers Excel avec Aspose.Cells pour Java : Guide du développeur](./retrieve-excel-file-versions-aspose-cells-java/)
-Apprenez à récupérer programmatiquement des versions de fichiers Excel avec Aspose.Cells pour Java. Ce guide couvre toutes les étapes, de la configuration à la mise en œuvre, garantissant la compatibilité entre les différents formats Excel.
+Découvrez comment convertir facilement des fichiers Excel au format XPS avec Aspose.Cells pour Java. Ce guide couvre l'installation, la configuration et la mise en œuvre étape par étape.
 
 ### [Comment enregistrer des fichiers Excel dans différents formats avec Aspose.Cells Java](./save-excel-files-aspose-cells-java/)
 Découvrez comment enregistrer facilement des fichiers Excel dans plusieurs formats avec Aspose.Cells pour Java. Ce guide couvre les formats XLSX, PDF, HTML et bien plus encore.
-
-### [Comment définir la version d'un document Excel avec Aspose.Cells pour Java](./set-excel-version-aspose-cells-java/)
-Apprenez à définir et gérer les propriétés des documents, comme le contrôle de version, dans les fichiers Excel avec Aspose.Cells pour Java. Suivez ce guide étape par étape pour gérer efficacement vos classeurs.
-
-### [Enregistrer le classeur dans un fichier – Guide complet Java pour copier des plages Excel](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
-Apprenez à enregistrer un classeur dans un fichier et à copier des plages Excel en Java avec Aspose.Cells.
-### [Créer un nouveau classeur en Java – Guide étape par étape](./create-new-workbook-in-java-step-by-step-guide/)
-Apprenez à créer un classeur Excel vierge en Java avec Aspose.Cells, étape par étape, incluant la configuration et l'enregistrement.
 
 ## Ressources supplémentaires
 

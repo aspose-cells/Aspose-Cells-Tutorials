@@ -85,7 +85,6 @@ Aspose.Cells for .NET kullanarak koşullu mantık içeren bir Excel dosyasını 
 ### [C#'ta Aspose.Cells ile Dizi Nasıl Genişletilir – Adım Adım Kılavuz](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Aspose.Cells kullanarak C# dilinde dizileri dinamik olarak genişletmeyi adım adım öğrenin.
 ### [C#'ta WRAPCOLS Kullanımı – Dizileri Matrislere Dönüştürme](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
-Bu adım adım kılavuzda Aspose.Cells for .NET kullanarak C#'ta WRAPCOLS fonksiyonuyla dizileri matrislere nasıl dönüştüreceğinizi öğrenin.
 ### [C# ile Excel'de Kotanjant Hesaplama – Tam Kılavuz](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 C# kodu kullanarak Excel'de kotanjant fonksiyonunu nasıl hesaplayacağınızı adım adım öğrenin.
 ### [Excel'de WRAPCOLS Kullanımı – Tam C# Örneği](./how-to-use-wrapcols-in-excel-complete-c-example/)
@@ -100,6 +99,11 @@ C# ile Aspose.Cells kullanarak formül hesaplamasını zorlamak ve lambda ifadel
 Aspose.Cells for .NET kullanarak formüller içeren bir Excel çalışma kitabını baştan sona nasıl oluşturacağınızı adım adım öğrenin.
 ### [C# ile EXPAND Fonksiyonunu Kullanarak Excel Çalışma Kitabı Oluşturma](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
 Bu adım adım kılavuzda Aspose.Cells for .NET kullanarak C# ile EXPAND fonksiyonunu nasıl kullanıp bir Excel çalışma kitabı oluşturacağınızı öğrenin.
+### [C#'ta WRAPCOLS Kullanımı – Excel Dizileri ve Çalışma Kitabı Kaydetme](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
+### [C# ile Dinamik Dizi Formülüyle Excel Çalışma Kitabı Oluşturma](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
+Aspose.Cells for .NET kullanarak C# ile dinamik dizi formülü içeren bir Excel çalışma kitabı oluşturmayı adım adım öğrenin.
+### [C# ile Excel çalışma kitabı oluşturma ve formüller ayarlama](./how-to-create-excel-workbook-in-c-and-set-formulas/)
+Aspose.Cells for .NET kullanarak C# ile bir Excel çalışma kitabı oluşturup formüller eklemeyi öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Преобразование файлов Excel в другие форматы
@@ -41,10 +43,15 @@
 - [Установка области печати в Excel и экспорт в PowerPoint – пошаговое руководство](./set-print-area-in-excel-and-export-to-powerpoint-step-by-ste/)
 
 - [Отслеживание процесса преобразования документа в формат TIFF программным способом в .NET](./tracking-document-conversion-progress-for-tiff/): Отслеживайте и управляйте преобразованиями файлов TIFF — ценным инструментом для создания архивов на основе изображений.
+### [Конвертация Excel в PowerPoint с C# – Полное руководство](./convert-excel-to-powerpoint-with-c-complete-guide/)
+Узнайте, как программно преобразовать файлы Excel в презентации PowerPoint с помощью Aspose.Cells для .NET, следуя пошаговому руководству.
 
 Aspose.Cells для .NET упрощает преобразование документов, позволяя разработчикам автоматизировать процессы и экономить время на преобразованиях в различные форматы.
 
 ## Учебные пособия по конвертации файлов Excel в другие форматы
+### [How to save Excel as TXT using Aspose.Cells in C#](./how-to-save-excel-as-txt-using-aspose-cells-in-c/)
+
+
 ### [Программное преобразование CSV в JSON в .NET](./converting-csv-to-json/)
 Узнайте, как преобразовать CSV в JSON в .NET с помощью Aspose.Cells. Пошаговое руководство по преобразованию данных с простыми для понимания примерами кода.
 
@@ -78,6 +85,8 @@ Aspose.Cells для .NET упрощает преобразование доку�
 Узнайте, как программно преобразовать Excel в презентацию PowerPoint и задать область печати с помощью Aspose.Cells для .NET.
 ### [Создание PowerPoint из Excel – пошаговое руководство C#](./create-powerpoint-from-excel-step-by-step-c-guide/)
 Узнайте, как программно создавать презентации PowerPoint из файлов Excel с помощью Aspose.Cells для .NET на C#.
+### [Как экспортировать Excel в PowerPoint – Полное руководство на C#](./how-to-export-excel-to-powerpoint-complete-c-guide/)
+Узнайте, как программно экспортировать данные из Excel в презентацию PowerPoint с помощью Aspose.Cells для .NET, следуя пошаговым примерам на C#.
 
 ### [Сохранить Excel как текст – пошаговое руководство с Aspose.Cells](./how-to-save-excel-as-text-with-aspose-cells-step-by-step-gui/)
 Узнайте, как программно сохранить книгу Excel в текстовый файл, используя Aspose.Cells, следуя пошаговому руководству.
@@ -100,15 +109,14 @@ Aspose.Cells для .NET упрощает преобразование доку�
 ### [Как создать PowerPoint из Excel с использованием Aspose.Cells](./how-to-create-powerpoint-from-excel-using-aspose-cells/)
 Узнайте, как программно создать презентацию PowerPoint из файла Excel с помощью Aspose.Cells для .NET.
 
+### [Создание PowerPoint из Excel с Aspose.Cells – пошаговое руководство](./create-powerpoint-from-excel-with-aspose-cells-step-by-step/)
+Узнайте, как программно создать презентацию PowerPoint из файла Excel с помощью Aspose.Cells для .NET, следуя пошаговому руководству.
+
 ### [Как обернуть ячейки и преобразовать Excel в PowerPoint на C#](./how-to-wrap-cells-and-convert-excel-to-powerpoint-in-c/)
 Узнайте, как обернуть ячейки и преобразовать файл Excel в презентацию PowerPoint с помощью Aspose.Cells для .NET на C#.
+### [Как сохранить Excel в PowerPoint с помощью C# и Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+Узнайте, как программно сохранить файл Excel в презентацию PowerPoint с помощью Aspose.Cells для .NET.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Сохранение Excel в Docx с C# – Полное пошаговое руководство](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 Узнайте, как программно сохранить файл Excel в формате DOCX с помощью C# и Aspose.Cells для .NET в этом подробном руководстве.
 ### [Создание PPT из Excel – Полное руководство по автоматизации на C#](./create-ppt-from-excel-full-c-automation-guide/)
@@ -135,11 +143,16 @@ Aspose.Cells для .NET упрощает преобразование доку�
 Узнайте, как программно сохранить книгу Excel в текстовый файл TXT с помощью Aspose.Cells для .NET, используя C#.
 ### [Как экспортировать Excel в PowerPoint с C# – Полное руководство](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
 Узнайте, как программно экспортировать файлы Excel в презентацию PowerPoint с помощью Aspose.Cells для .NET, следуя пошаговому руководству.
+### [Как сохранить книгу в формате CSV и экспортировать Excel в TXT с пользовательским форматированием на C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+Узнайте, как сохранить книгу Excel в CSV и экспортировать её в TXT с кастомным форматированием, используя Aspose.Cells для .NET и C#.
+### [Как внедрить шрифты в SVG при конвертации файлов Excel в SVG и PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Узнайте, как встроить шрифты в SVG при преобразовании файлов Excel в SVG и PowerPoint с помощью Aspose.Cells для .NET.
+### [Экспорт Excel в PowerPoint с редактируемыми диаграммами в C#](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Узнайте, как экспортировать листы Excel в презентацию PowerPoint с редактируемыми диаграммами, используя C# и Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

@@ -42,6 +42,9 @@ Aspose.Cells สำหรับ .NET เป็นโปรแกรมที่�
 เรียนรู้วิธีฝังฟอนต์ในไฟล์ PDF ขณะบันทึก Workbook เป็น PDF ด้วย C# โดยใช้ Aspose.Cells
 ### [บันทึกเวิร์กบุ๊กเป็น PDF ด้วย Aspose.Cells – คู่มือขั้นตอนเต็ม](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
 เรียนรู้วิธีบันทึกไฟล์เวิร์กบุ๊ก Excel เป็น PDF อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET ในขั้นตอนที่ชัดเจน
+### [วิธีบันทึกเวิร์กบุ๊กเป็น PDF ด้วย Aspose.Cells ใน C#](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
+เรียนรู้วิธีบันทึกเวิร์กบุ๊ก Excel เป็น PDF ด้วย C# อย่างละเอียดโดยใช้ Aspose.Cells
+
 ### [วิธีบันทึก PDF จากเวิร์กบุ๊ก Excel ด้วย Aspose.Cells](./how-to-save-pdf-from-an-excel-workbook-with-aspose-cells/)
 เรียนรู้วิธีบันทึกไฟล์ PDF จากเวิร์กบุ๊ก Excel ด้วย Aspose.Cells อย่างละเอียดและง่ายดาย
 ### [แปลง DOCX เป็น PDF ใน C# – คู่มือครบถ้วน](./convert-docx-to-pdf-in-c-complete-guide/)
@@ -72,6 +75,8 @@ Aspose.Cells สำหรับ .NET เป็นโปรแกรมที่�
 เรียนรู้ขั้นตอนการแปลงไฟล์ Excel เป็น PDF ด้วย C# อย่างละเอียดด้วย Aspose.Cells
 ### [วิธีบันทึก PDF ด้วยตัวเลือกการเปลี่ยนแปลงฟอนต์ – คู่มือฉบับสมบูรณ์](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
 เรียนรู้วิธีบันทึกไฟล์ PDF พร้อมการเลือกตัวแปรฟอนต์อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET
+### [สร้างเวิร์กบุ๊ก Excel และบันทึกเป็น PDF ด้วยอาร์เรย์ไดนามิก](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
+เรียนรู้วิธีสร้างเวิร์กบุ๊ก Excel และบันทึกเป็น PDF โดยใช้ฟีเจอร์อาร์เรย์ไดนามิกของ Aspose.Cells
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

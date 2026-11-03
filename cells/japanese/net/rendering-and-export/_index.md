@@ -54,6 +54,8 @@ Aspose.Cells for .NET を使って、ブックマーク付きのインタラク�
 この包括的なステップバイステップ ガイドを使用して、Aspose.Cells for .NET のグラフ シートの PDF ブックマークを作成する方法を学習します。
 ### [Aspose.Cells を使用してセル範囲を画像にエクスポートする](./export-range-of-cells-to-image/)
 このステップバイステップガイドを使えば、Aspose.Cells for .NET を使って Excel のセル範囲を画像に簡単にエクスポートできます。レポートやプレゼンテーションの質が向上します。
+### [Excel の印刷範囲を設定して PNG にエクスポートする方法](./how-to-set-print-area-in-excel-and-export-png/)
+Excel の印刷範囲を指定し、PNG 画像としてエクスポートする手順をステップバイステップで解説します。
 ### [Aspose.Cells でオブジェクトの境界を描画する](./get-draw-object-and-bound/)
 弊社の包括的なステップバイステップ ガイドを使用して、Aspose.Cells for .NET を使用して Excel で描画オブジェクトの境界を抽出する方法を学びます。
 ### [Aspose.Cells を使用した Excel から PDF へのレンダリングでエラーを無視する](./ignore-errors-while-rendering/)

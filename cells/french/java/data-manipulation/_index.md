@@ -64,6 +64,8 @@ Apprenez à automatiser les remplacements de texte dans les fichiers Excel grâc
 
 ### [Comment diviser des colonnes en Java avec Aspose.Cells – guide étape par étape](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
 Apprenez à séparer les colonnes d’une feuille Excel en Java à l’aide d’Aspose.Cells grâce à ce guide détaillé.
+### [Comment supprimer le filtre automatique d'Excel avec Aspose.Cells Java](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
+Supprimez le filtre automatique d'une feuille Excel en utilisant Aspose.Cells pour Java.
 
 ## Ressources supplémentaires
 

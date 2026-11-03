@@ -64,6 +64,8 @@ Lär dig hur du automatiserar textersättningar i Excel-filer med hjälp av rege
 
 ### [Hur man delar kolumner i Java med Aspose.Cells – steg‑för‑steg‑guide](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
 Lär dig hur du delar kolumner i Excel med Aspose.Cells för Java i en detaljerad steg‑för‑steg‑guide.
+### [Hur man tar bort autofilter från Excel med Aspose.Cells Java](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
+Lär dig hur du med Aspose.Cells för Java kan ta bort autofilter från ett Excel-ark programatiskt.
 
 ## Ytterligare resurser
 

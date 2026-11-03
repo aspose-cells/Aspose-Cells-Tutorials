@@ -64,6 +64,8 @@
 เรียนรู้วิธีการบันทึกไฟล์ XLS ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างเชิงปฏิบัติและคำถามที่พบบ่อย
 ### [บันทึกไฟล์ XLSX](./save-xlsx-file/)
 ค้นพบวิธีการบันทึกไฟล์ XLSX โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ ปรับปรุงการจัดการ Excel ของคุณได้อย่างง่ายดาย
+### [วิธีทำ tutorial flat OPC ให้เสร็จสมบูรณ์ด้วย Aspose.Cells ใน C#](./how-to-complete-a-flat-opc-tutorial-with-aspose-cells-in-c/)
+เรียนรู้วิธีบันทึกไฟล์ flat OPC ด้วย Aspose.Cells ใน C# อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

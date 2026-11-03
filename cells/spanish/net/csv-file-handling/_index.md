@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Manejo de archivos CSV
@@ -27,7 +29,6 @@ Imagínate que estás organizando una fiesta: necesitas saber cuántos invitados
 
 Para obtener información adicional, no dude en consultar nuestros tutoriales detallados en [abrir archivos CSV](./csv-file-opening-csv-files/) y [utilizando analizadores preferidos](./csv-file-opening-csv-files-with-preferred-parser/)¡Feliz codificación y que tu manejo de CSV sea siempre eficiente!
 
-
 ## Tutoriales de manejo de archivos CSV
 ### [Abrir archivos CSV](./csv-file-opening-csv-files/)
 Aprenda a abrir archivos CSV con Aspose.Cells para .NET con nuestra guía completa paso a paso. Domine la manipulación de datos.
@@ -41,13 +42,11 @@ Aprenda a guardar archivos Excel como CSV en C# con Aspose.Cells, paso a paso, p
 Aprenda a crear un nuevo libro de trabajo y exportarlo a CSV con Aspose.Cells para .NET usando C#. Siga la guía paso a paso.
 ### [Cómo crear CSV desde Excel usando Aspose.Cells en C#](./how-to-create-csv-from-excel-using-aspose-cells-in-c/)
 Aprenda a generar archivos CSV a partir de un libro de Excel con Aspose.Cells para .NET en C#.
+### [Exportar Excel a CSV en C# con Aspose.Cells](./how-to-export-excel-to-csv-in-c-with-aspose-cells/)
+Aprenda a exportar archivos Excel a CSV usando C# y Aspose.Cells, paso a paso y de forma eficiente.
 
-
-
-
-
-
-
+### [Cómo exportar un libro de Excel a CSV con Aspose.Cells en C#](./how-to-export-excel-workbook-to-csv-with-aspose-cells-in-c/)
+Aprenda a exportar un libro de Excel a CSV usando Aspose.Cells para .NET con C# paso a paso.
 
 ### [Exportar tabla a CSV – Guía completa en C# con formatos de número personalizados](./export-table-to-csv-complete-c-guide-with-custom-number-form/)
 Aprenda a exportar tablas a CSV en C# con Aspose.Cells, aplicando formatos de número personalizados para obtener resultados precisos.
@@ -75,6 +74,6 @@ Aprenda a guardar un libro de Excel como CSV aplicando formato personalizado usa
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

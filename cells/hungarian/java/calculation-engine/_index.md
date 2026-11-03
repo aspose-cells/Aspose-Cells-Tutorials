@@ -71,6 +71,9 @@ Tanuld meg, hogyan frissítheted a munkafüzeteket az Aspose.Cells for Java seg�
 ### [Hogyan kényszerítsük a képlet számítását Java-ban az Aspose.Cells használatával](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
 Tanuld meg, hogyan kényszerítheted a képlet számítását Java-ban az Aspose.Cells segítségével.
 
+### [Minden képlet újraszámítása Excelben Java Aspose.Cells használatával](./recalculate-all-formulas-excel-with-java-aspose-cells/)
+Tanulja meg, hogyan számítsa újra az összes képletet egy munkafüzetben az Aspose.Cells for Java segítségével.
+
 ## További források
 - [Aspose.Cells for Java dokumentáció](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells for Java API referencia](https://reference.aspose.com/cells/java/)

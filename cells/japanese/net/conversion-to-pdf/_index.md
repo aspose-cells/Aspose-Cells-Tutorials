@@ -40,7 +40,9 @@ PDF オプションの設定方法をステップバイステップで解説し�
 ### [C# で Excel から PDF を作成する – ステップバイステップ ガイド](./create-pdf-from-excel-in-c-step-by-step-guide/)
 Aspose.Cells を使用して C# で Excel ファイルを PDF に変換する手順を詳しく解説します。
 ### [C# でワークブックを PDF にエクスポートする – 完全ガイド](./export-workbook-to-pdf-complete-c-guide/)
-Aspose.Cells を使用して C# でワークブック全体を PDF にエクスポートする手順を詳しく解説します。
+Aspose.Cells を使用して C# でブック全体を PDF にエクスポートする手順を詳しく解説します。
+### [C# で Aspose.Cells を使用してブックを PDF として保存](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
+Aspose.Cells を利用し、C# で Excel ブックを高品質な PDF にエクスポートする手順をステップバイステップで解説します。
 ### [Excel を PDF に変換する際のフォント埋め込み方法 – 完全ガイド](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
 フォントを埋め込んで、PDF で正確な文字表示を実現する手順を詳しく解説します。
 ### [C# で docx を PDF に変換する完全ガイド](./convert-docx-to-pdf-in-c-complete-guide/)
@@ -70,7 +72,8 @@ Aspose.Cells を使用して、C# で XLSX ファイルを PDF/A‑1b 形式で�
 ### [C#でExcelをPDFに変換する – 完全プログラミングガイド](./convert-excel-to-pdf-in-c-complete-programming-guide/)
 この包括的なガイドでは、C# を使用して Excel ファイルを PDF に変換する手順を詳しく解説します。
 ### [フォントバリエーションセレクタで PDF を保存する完全ガイド](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
-
+### [動的配列で Excel ワークブックを作成し、PDF として保存する](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
+動的配列機能を活用し、Excel ワークブックを作成し、PDF に変換する手順をステップバイステップで解説します。
 ### [Aspose.Cells を使用して Excel ワークブックから PDF を保存する方法](./how-to-save-pdf-from-an-excel-workbook-with-aspose-cells/)
 Aspose.Cells を使い、Excel ワークブックを PDF として保存する手順をステップバイステップで解説します。
 

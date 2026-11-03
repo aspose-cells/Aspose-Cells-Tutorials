@@ -103,6 +103,12 @@ Excel 隨附大量內建函數，可執行各種計算和資料操作。了解�
 本教學說明如何使用 Aspose.Cells for .NET 於 C# 中強制公式計算並運用 Lambda 表達式。
 ### [建立含公式的 Excel 活頁簿 – 完整步驟指南](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
 透過本完整的逐步指南，了解如何使用 Aspose.Cells for .NET 建立含公式的 Excel 活頁簿。
+### [如何使用 C# 在 Excel 中建立帶有動態陣列公式的工作簿](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
+透過本步驟指南學習在 C# 中使用 Aspose.Cells 建立包含動態陣列公式的 Excel 工作簿。
+### [如何在 C# 中使用 WRAPCOLS 於 Excel 陣列與工作簿儲存](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
+本教學說明如何在 C# 使用 WRAPCOLS 重新塑形陣列為矩陣，並將工作簿儲存。
+### [如何在 C# 中建立 Excel 工作簿並設定公式](./how-to-create-excel-workbook-in-c-and-set-formulas/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中建立 Excel 工作簿並設定公式，以自動化資料處理。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

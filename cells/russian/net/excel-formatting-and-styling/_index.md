@@ -80,6 +80,8 @@
 
 ### [Как создать рабочую книгу Excel на C# с пользовательским форматированием и сохранить как XLSX](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
 Создайте рабочую книгу Excel в C# с пользовательским форматированием и сохраните её в формате XLSX с помощью Aspose.Cells.
+### [Создание Excel-файла C# – стилизация ячеек и установка формата валюты](./create-excel-file-c-style-cells-and-set-currency-format/)
+Узнайте, как создать файл Excel в C#, применить стили к ячейкам и задать валютный формат.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
