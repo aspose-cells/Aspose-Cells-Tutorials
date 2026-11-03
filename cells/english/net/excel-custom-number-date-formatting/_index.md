@@ -48,6 +48,8 @@ Learn how to apply number formats in Excel using Aspose.Cells for .NET with this
 Learn how to write datetime values to Excel using Aspose.Cells for .NET in C# with this comprehensive guide.
 ### [Create Excel Workbook in C# – Apply Custom Number Format](./create-excel-workbook-in-c-apply-custom-number-format/)
 Learn how to create an Excel workbook in C# and apply custom number formats using Aspose.Cells for .NET in this concise tutorial.
+### [How to create Excel workbook C# with custom number formatting](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
+Learn how to create an Excel workbook in C# with custom number formatting using Aspose.Cells for .NET.
 ### [How to Parse Date in Excel with C# – Complete Guide](./how-to-parse-date-in-excel-with-c-complete-guide/)
 Learn how to parse dates in Excel using C# and Aspose.Cells for .NET in this comprehensive guide.
 ### [Create Excel Workbook with Custom Format – C# Guide](./create-excel-workbook-with-custom-format-c-guide/)
@@ -62,6 +64,8 @@ Learn how to create an Excel workbook and parse Japanese dates in C# using Aspos
 
 ### [Parse DateTime with Japanese Emperor Reign using Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
 Learn how to parse DateTime values using Japanese Emperor reign formats in Excel with Aspose.Cells for .NET.
+### [How to convert Japanese era date to Gregorian in C#](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+Learn how to convert Japanese era dates to Gregorian calendar in C# using Aspose.Cells.
 
 
 

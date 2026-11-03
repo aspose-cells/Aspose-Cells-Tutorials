@@ -91,6 +91,15 @@ Jadi, mengapa tidak memanfaatkan kesempatan ini untuk meningkatkan keterampilan 
 | [Membuat Buku Kerja Excel di C# – Panduan Pemrograman Lengkap](./create-excel-workbook-in-c-complete-programming-guide/) | Pelajari cara membuat buku kerja Excel menggunakan C# dengan panduan langkah demi langkah lengkap. |
 | [Buat Buku Kerja Excel C# – Panduan Lengkap dengan Fungsi Expand](./create-excel-workbook-c-full-guide-with-expand-function/) | Pelajari cara membuat buku kerja Excel dengan C# secara lengkap, termasuk penggunaan fungsi Expand untuk memperluas data secara dinamis. |
 | [Buat workbook Excel dan tambahkan tanggal ke lembar kerja di C#](./create-excel-workbook-and-add-date-to-worksheet-in-c/) | Pelajari cara membuat workbook Excel dan menambahkan tanggal ke lembar kerja menggunakan C# dengan Aspose.Cells. |
+| [Buat workbook Excel dan simpan ke file di C#](./create-excel-workbook-and-save-it-to-file-in-c/) | Pelajari cara membuat workbook Excel dan menyimpannya ke file menggunakan C# dengan Aspose.Cells dalam panduan langkah demi langkah. |
+
+
+
+
+
+
+
+
 | [Buat Workbook Excel dengan Tabel Bergaya – Panduan Langkah‑demi‑Langkah](./create-excel-workbook-with-styled-table-step-by-step-guide/) | Pelajari cara membuat workbook Excel dengan tabel bergaya menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah. |
 | [Buat Buku Kerja Baru di C# – Tambahkan Rumus dan Simpan File Excel](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Pelajari cara membuat buku kerja baru di C#, menambahkan rumus, dan menyimpan file Excel menggunakan Aspose.Cells. |
 | [Buat Buku Kerja Excel C# – Hasilkan XLSX dari JSON](./create-excel-workbook-c-generate-xlsx-from-json/) | Pelajari cara membuat buku kerja Excel dengan C# dan mengonversi data JSON menjadi file XLSX menggunakan Aspose.Cells. |

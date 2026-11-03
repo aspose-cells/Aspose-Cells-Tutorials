@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel-bestanden converteren naar andere formaten
@@ -87,11 +89,8 @@ Leer hoe u Excel-werkbladen naar PowerPoint-presentaties exporteert met een voll
 ### [XLSX naar CSV converteren in C# – Complete stapsgewijze handleiding](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
 Leer hoe u XLSX-bestanden naar CSV converteert in C# met Aspose.Cells, stap voor stap met voorbeeldcode.
 
-
-
-
-
-
+### [PowerPoint maken vanuit Excel met Aspose.Cells – stap‑voor‑stap gids](./create-powerpoint-from-excel-with-aspose-cells-step-by-step/)
+Leer stap voor stap hoe u met Aspose.Cells voor .NET een PowerPoint-presentatie maakt vanuit een Excel-werkmap.
 
 ### [Excel exporteren naar PowerPoint met bewerkbare grafieken in C#](./export-excel-to-powerpoint-with-editable-charts-in-c/)
 Leer hoe u Excel-gegevens exporteert naar PowerPoint met bewerkbare grafieken via C# en Aspose.Cells.
@@ -241,6 +240,6 @@ Leer hoe u Excel-werkbladen opslaat als TXT-bestanden met Aspose.Cells in C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

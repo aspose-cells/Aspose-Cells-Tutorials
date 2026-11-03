@@ -106,6 +106,7 @@ Så varför inte ta chansen att förbättra dina Excel-kunskaper? Varje handledn
 | [Skapa Excel-arbetsbok med Aspose.Cells – Fullständig guide](./create-excel-workbook-with-aspose-cells-full-guide/) | Lär dig steg för steg hur du skapar en Excel-arbetsbok med Aspose.Cells för .NET i en komplett guide. |  
 | [Skapa Excel-arbetsbok och skriv data i C# – Fullständig steg‑för‑steg‑guide](./create-excel-workbook-and-write-data-in-c-full-step-by-step/) | Lär dig hur du skapar en Excel-arbetsbok och skriver data med C# i en detaljerad steg‑för‑steg‑guide. |
 
+| [Skapa Excel-arbetsbok och spara den till fil i C#](./create-excel-workbook-and-save-it-to-file-in-c/) | Lär dig hur du skapar en Excel-arbetsbok i C# och sparar den till en fil med Aspose.Cells för .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

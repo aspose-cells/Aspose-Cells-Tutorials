@@ -49,6 +49,8 @@
 Μάθετε πώς να αποθηκεύετε ένα βιβλίο εργασίας Excel ως PDF/A‑3b χρησιμοποιώντας C# και Aspose.Cells.
 ### [Αποθήκευση βιβλίου εργασίας σε PDF με Aspose.Cells – Πλήρης Οδηγός Βήμα‑βήμα](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
 Μάθετε πώς να αποθηκεύετε το βιβλίο εργασίας Excel ως PDF με το Aspose.Cells, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα.
+### [Πώς να αποθηκεύσετε βιβλίο εργασίας ως PDF με Aspose.Cells σε C#](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
+Μάθετε πώς να αποθηκεύσετε ένα βιβλίο εργασίας Excel ως PDF χρησιμοποιώντας Aspose.Cells σε C#.
 ### [Πώς να ενσωματώσετε γραμματοσειρές σε PDF – Αποθήκευση βιβλίου εργασίας ως PDF σε C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 Μάθετε πώς να ενσωματώσετε γραμματοσειρές σε PDF κατά την αποθήκευση ενός βιβλίου εργασίας σε C# με το Aspose.Cells.
 ### [Πώς να ενσωματώσετε γραμματοσειρές σε PDF με C# – Πλήρης οδηγός](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)

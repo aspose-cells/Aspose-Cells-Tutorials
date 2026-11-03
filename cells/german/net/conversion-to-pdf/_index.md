@@ -73,6 +73,8 @@ Erfahren Sie, wie Sie Excel-Dateien mit C# und Aspose.Cells vollständig in PDF 
 Erfahren Sie, wie Sie PDFs mit Schriftvariations-Selektoren korrekt speichern und die Darstellung von Glyphen optimieren.
 ### [Excel-Arbeitsmappe erstellen und als PDF mit dynamischen Arrays speichern](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
 Erstellen Sie eine Excel‑Arbeitsmappe mit dynamischen Arrays und speichern Sie sie als PDF – Schritt‑für‑Schritt‑Anleitung.
+### [Arbeitsmappe als PDF mit Aspose.Cells in C# speichern](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells Arbeitsmappen in C# einfach als PDF speichern – Schritt für Schritt Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

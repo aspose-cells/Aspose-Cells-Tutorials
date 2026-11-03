@@ -46,6 +46,8 @@
 تعلم كيفية تحويل ملفات Excel إلى صور PNG بجودة عالية باستخدام Aspose.Cells من خلال دليل شامل خطوة بخطوة.
 ### [كيفية تصدير نطاق Excel كصورة باستخدام C# و Aspose.Cells](./how-to-export-excel-range-as-image-with-c-and-aspose-cells/)
 تعلم كيفية تصدير نطاق محدد من ملف Excel كصورة باستخدام C# ومكتبة Aspose.Cells بسهولة.
+### [كيفية تصدير جداول Pivot كصور باستخدام Aspose.Cells في C#](./how-to-export-pivot-tables-as-images-using-aspose-cells-in-c/)
+تعرف على طريقة تصدير جداول Pivot إلى صور في C# باستخدام Aspose.Cells خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

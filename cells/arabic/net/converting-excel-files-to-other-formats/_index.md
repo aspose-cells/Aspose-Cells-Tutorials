@@ -140,7 +140,6 @@
 تعلم كيفية حفظ ملف Excel كنص (TXT) باستخدام Aspose.Cells خطوة بخطوة مع أمثلة برمجية واضحة.
 ### [حفظ Excel كملف txt – دليل C# كامل لتصدير الأرقام ذات الخانات المهمة](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 تعرف على كيفية حفظ ملفات Excel كملفات txt مع الحفاظ على الأرقام ذات الخانات المهمة باستخدام Aspose.Cells لـ .NET.
-
 ### [كيفية تحويل Excel إلى PNG باستخدام C# – دليل خطوة بخطوة](./how-to-convert-excel-to-png-with-c-step-by-step-guide/)
 تعلم كيفية تحويل ملفات Excel إلى صور PNG باستخدام C# و Aspose.Cells خطوة بخطوة.
 ### [تصدير Excel إلى TXT في C# – دليل برمجي كامل](./export-excel-to-txt-in-c-complete-programming-guide/)
@@ -150,6 +149,7 @@
 ### [كيفية حفظ ملف Excel كـ PowerPoint باستخدام C# و Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
 تعلم كيفية تحويل ملفات Excel إلى عروض PowerPoint برمجيًا باستخدام C# و Aspose.Cells.
 
+### [إنشاء PowerPoint من Excel باستخدام Aspose.Cells – دليل خطوة بخطوة](./create-powerpoint-from-excel-with-aspose-cells-step-by-step/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

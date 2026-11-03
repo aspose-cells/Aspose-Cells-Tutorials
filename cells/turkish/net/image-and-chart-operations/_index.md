@@ -46,6 +46,8 @@ Aspose.Cells kullanarak bir Excel çalışma sayfasını C# ile yüksek kaliteli
 Aspose.Cells kullanarak Excel dosyalarınızı yüksek kaliteli PNG görüntülerine nasıl dönüştüreceğinizi adım adım öğrenin.
 ### [C# ve Aspose.Cells ile Excel aralığını resim olarak dışa aktarma](./how-to-export-excel-range-as-image-with-c-and-aspose-cells/)
 Aspose.Cells kullanarak belirli bir Excel aralığını C# ile yüksek kaliteli bir görüntü olarak dışa aktarmayı öğrenin.
+### [C# ile Aspose.Cells kullanarak Pivot'i Görüntü Olarak Dışa Aktarma](./how-to-export-pivot-tables-as-images-using-aspose-cells-in-c/)
+Aspose.Cells ile C# kullanarak pivot tabloları yüksek kaliteli görüntülere nasıl dışa aktaracağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

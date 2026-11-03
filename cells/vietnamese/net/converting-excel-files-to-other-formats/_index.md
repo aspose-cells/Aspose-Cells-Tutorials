@@ -158,6 +158,8 @@ Tìm hiểu cách lưu sổ làm việc Excel dưới dạng CSV và xuất sang
 
 ### [Cách nhúng phông chữ vào SVG khi chuyển đổi tệp Excel sang SVG và PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
 Hướng dẫn nhúng phông chữ vào tệp SVG khi chuyển đổi Excel sang SVG hoặc PowerPoint bằng Aspose.Cells cho .NET.
+### [Tạo PowerPoint từ Excel với Aspose.Cells – hướng dẫn từng bước](./create-powerpoint-from-excel-with-aspose-cells-step-by-step/)
+Hướng dẫn chi tiết tạo PowerPoint từ Excel bằng Aspose.Cells qua các bước thực hiện.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

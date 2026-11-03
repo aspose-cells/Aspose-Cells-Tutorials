@@ -75,6 +75,8 @@ Aprenda passo a passo como converter arquivos Excel para PDF usando C# com o Asp
 Aprenda a salvar PDFs preservando seletores de variação de fonte usando Aspose.PDF para .NET.
 ### [Criar pasta de trabalho do Excel e salvar como PDF com arrays dinâmicos](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
 Aprenda a criar uma pasta de trabalho do Excel e salvá‑la como PDF usando arrays dinâmicos com Aspose.Cells.
+### [Como salvar pasta de trabalho como PDF com Aspose.Cells em C#](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
+Aprenda a salvar sua pasta de trabalho Excel como PDF usando Aspose.Cells em C#, com instruções passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -46,6 +46,9 @@ Aspose.Cells สำหรับ .NET เป็นโปรแกรมที่�
 ### [บันทึกเวิร์กบุ๊กเป็น PDF ด้วย Aspose.Cells – คู่มือขั้นตอนเต็ม](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
 เรียนรู้วิธีบันทึกไฟล์เวิร์กบุ๊ก Excel เป็น PDF อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET ในขั้นตอนที่ชัดเจน
 
+### [วิธีบันทึกเวิร์กบุ๊กเป็น PDF ด้วย Aspose.Cells ใน C#](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
+เรียนรู้วิธีบันทึกเวิร์กบุ๊ก Excel เป็น PDF ด้วย C# อย่างละเอียดโดยใช้ Aspose.Cells
+
 ### [แปลง DOCX เป็น PDF ใน C# – คู่มือครบถ้วน](./convert-docx-to-pdf-in-c-complete-guide/)
 แปลงไฟล์ DOCX เป็น PDF ใน C# อย่างครบถ้วนด้วย Aspose.Words สำหรับ .NET! ทำตามขั้นตอนง่ายๆ เพื่อผลลัพธ์คุณภาพสูง
 

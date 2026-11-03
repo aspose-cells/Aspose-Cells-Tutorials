@@ -80,7 +80,6 @@ Erfahren Sie in diesem umfassenden Schritt‑für‑Schritt‑Tutorial, wie Sie 
 ### [HTML5‑String programmgesteuert aus einer Zelle in Excel abrufen](./getting-html5-string-from-cell/)
 Erfahren Sie in dieser ausführlichen Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.Cells für .NET programmgesteuert HTML5‑Zeichenfolgen aus Excel‑Zellen abrufen.
 ### [Schriftarten in HTML einbetten – Excel nach HTML exportieren mit C#](./embed-fonts-in-html-export-excel-to-html-with-c/)
-Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.Cells für .NET Schriftarten beim HTML‑Export von Excel in C# einbetten.
 ### [Schriftarten beim Exportieren von Excel nach HTML mit C# einbetten](./how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Schriftarten beim Exportieren von Excel nach HTML in C# einbetten, um ein konsistentes Layout zu gewährleisten.
 ### [Schriftarten in HTML einbetten – Excel‑Arbeitsmappe nach HTML exportieren mit Aspose.Cells](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
@@ -91,6 +90,8 @@ In diesem umfassenden Handbuch erfahren Sie, wie Sie überlagerte Inhalte in Exc
 Entdecken Sie anhand schrittweiser Beispiele, wie Sie mit Aspose.Cells für .NET Tabellenstile in HTML mit Präfixen versehen und so Ihre Excel‑Exporte verbessern.
 ### [HTML‑Speicheroptionen in C# erstellen – Vollständige Anleitung](./create-html-save-options-in-c-full-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET HTML‑Speicheroptionen in C# vollständig konfigurieren und nutzen.
+### [Wie man Schriftarten beim Konvertieren von Excel nach HTML mit Aspose.Cells einbettet](./how-to-embed-fonts-when-converting-excel-to-html-with-aspose/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Schriftarten beim Konvertieren von Excel nach HTML einbetten.
 ### [Überschriften programmgesteuert in Excel drucken](./printing-headings/)
 Drucken Sie Überschriften in Excel ganz einfach mit einer Schritt‑für‑Schritt‑Anleitung mit Aspose.Cells für .NET. Exportieren Sie Ihre Daten übersichtlich in HTML und beeindrucken Sie Ihr Publikum.
 ### [Selbstschließende Tags programmgesteuert in Excel erkennen](./recognizing-self-closing-tags/)

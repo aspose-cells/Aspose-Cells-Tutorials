@@ -47,6 +47,8 @@ Hướng dẫn chi tiết cách chuyển đổi file Excel sang CSV bằng Aspos
 
 
 
+### [Cách xuất Excel sang CSV trong C# với Aspose.Cells](./how-to-export-excel-to-csv-in-c-with-aspose-cells/)
+Hướng dẫn chi tiết cách xuất tệp Excel sang CSV bằng C# sử dụng Aspose.Cells, bao gồm các tùy chọn và ví dụ thực tế.
 
 
 

@@ -47,6 +47,7 @@
 
 ### [كيفية تصدير مصنف Excel إلى CSV باستخدام Aspose.Cells في C#](./how-to-export-excel-workbook-to-csv-with-aspose-cells-in-c/)
 تعلم كيفية تصدير مصنف Excel إلى ملف CSV باستخدام Aspose.Cells في C# بسهولة وفعالية.
+### [كيفية تصدير Excel إلى CSV في C# باستخدام Aspose.Cells](./how-to-export-excel-to-csv-in-c-with-aspose-cells/)
 
 
 

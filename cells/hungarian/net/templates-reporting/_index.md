@@ -55,6 +55,8 @@ Ismerje meg, hogyan hozhat létre munkafüzetet sablonból C#‑ban az Aspose.Ce
 Ismerje meg, hogyan menthet Excel munkafüzetet JSON adatokból az Aspose.Cells .NET segítségével.
 ### [Excel létrehozása sablonból – Lépésről‑lépésre útmutató .NET fejlesztőknek](./create-excel-from-template-step-by-step-guide-for-net-develo/)
 Ismerje meg, hogyan hozhat létre Excel-fájlokat sablonok alapján .NET környezetben, részletes lépésekkel.
+### [Excel létrehozása sablonból és ismétlődő munkalapok generálása](./how-to-create-excel-from-template-and-generate-repeated-shee/)
+Ismerje meg, hogyan hozhat létre Excel-fájlt sablonból, és automatikusan generálhat ismétlődő munkalapokat.
 ### [Populált munkafüzet mentése programozott módon az Aspose.Cells segítségével](./save-populated-workbook-programmatically-with-aspose-cells/)
 Tanulja meg, hogyan menthet programozottan egy adatkitöltött Excel-munkafüzetet az Aspose.Cells használatával.
 ### [Munkafüzet sablon létrehozása Aspose.Cells segítségével – Teljes útmutató](./create-workbook-template-with-aspose-cells-complete-guide/)
@@ -70,6 +72,8 @@ Ismerje meg, hogyan exportálhat adatokat Excelbe C# sablon segítségével lép
 
 ### [Hogyan bővítsünk tömböt Excelben és töltsünk fel egy sablont](./how-to-expand-array-in-excel-and-populate-a-template)
 Tanulja meg, hogyan bővíthet tömböt Excelben és töltheti fel egy sablonba.
+
+### [Adathalmaz konvertálása Excelbe és Excel sablon kitöltése](./convert-dataset-to-excel-and-populate-an-excel-template)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

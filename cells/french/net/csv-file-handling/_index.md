@@ -71,6 +71,8 @@ Apprenez à enregistrer un classeur Excel en CSV tout en maîtrisant le nombre d
 Apprenez à enregistrer un classeur au format CSV en conservant le formatage exact avec Aspose.Cells.
 ### [Enregistrer le classeur au format CSV en C# – Guide complet de programmation](./save-workbook-as-csv-in-c-complete-programming-guide/)
 Apprenez à enregistrer un classeur au format CSV avec Aspose.Cells pour .NET en C#. Guide complet et détaillé.
+### [Comment exporter Excel vers CSV en C# avec Aspose.Cells](./how-to-export-excel-to-csv-in-c-with-aspose-cells/)
+Apprenez à exporter des classeurs Excel au format CSV en C# avec Aspose.Cells, étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

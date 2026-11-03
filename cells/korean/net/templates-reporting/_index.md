@@ -58,6 +58,7 @@ Aspose.Cells Net에 대한 코드 튜토리얼
 
 ### [템플릿에서 Excel 만들기 – .NET 개발자를 위한 단계별 가이드](./create-excel-from-template-step-by-step-guide-for-net-develo/)
 템플릿을 활용해 .NET에서 Excel 파일을 생성하는 방법을 단계별로 안내합니다.
+
 ### [Aspose.Cells를 사용하여 채워진 워크북을 프로그래밍 방식으로 저장하기](./save-populated-workbook-programmatically-with-aspose-cells/)
 Aspose.Cells를 이용해 데이터를 채운 워크북을 프로그래밍 방식으로 저장하는 방법을 단계별로 설명합니다.
 ### [Excel 템플릿 파일 저장 방법 – 단계별 가이드](./how-to-save-excel-template-file-step-by-step-guide/)
@@ -68,6 +69,11 @@ C#를 사용해 Excel 템플릿을 처리하고 시트를 자동으로 이름 �
 C# 템플릿을 활용해 데이터를 Excel 파일로 내보내는 단계별 방법을 안내합니다.
 ### [Excel에서 배열을 확장하고 템플릿을 채우는 방법](./how-to-expand-array-in-excel-and-populate-a-template)
 Excel에서 배열을 확장하고 템플릿에 데이터를 자동으로 채우는 방법을 배웁니다.
+
+### [데이터 세트를 Excel로 변환하고 Excel 템플릿에 채우기](./convert-dataset-to-excel-and-populate-an-excel-template)
+데이터 세트를 Excel 파일로 변환하고 템플릿에 데이터를 채워 자동화하는 방법.
+
+### [템플릿에서 Excel을 생성하고 반복 시트를 만들기](./how-to-create-excel-from-template-and-generate-repeated-shee)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

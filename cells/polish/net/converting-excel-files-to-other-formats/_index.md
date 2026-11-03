@@ -104,6 +104,8 @@ Naucz się śledzić postęp konwersji TIFF programowo, używając Aspose.Cells 
 Dowiedz się, jak programowo wyeksportować dane z pliku Excel do formatu txt w C# przy użyciu Aspose.Cells.
 ### [Jak utworzyć prezentację PowerPoint z Excela przy użyciu Aspose.Cells](./how-to-create-powerpoint-from-excel-using-aspose-cells/)
 Dowiedz się, jak programowo przekształcić arkusz Excel w prezentację PowerPoint przy użyciu Aspose.Cells w C#.
+### [Utworzenie prezentacji PowerPoint z Excela przy użyciu Aspose.Cells – przewodnik krok po kroku](./create-powerpoint-from-excel-with-aspose-cells-step-by-step/)
+Dowiedz się, jak programowo wygenerować prezentację PowerPoint z danych Excela przy użyciu Aspose.Cells w C#.
 
 ### [Zapisz plik Excel jako Docx w C# – Kompletny przewodnik krok po kroku](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 Dowiedz się, jak programowo zapisać plik Excel jako dokument DOCX w C# przy użyciu Aspose.Cells, krok po kroku.

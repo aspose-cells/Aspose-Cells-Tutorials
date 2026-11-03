@@ -46,6 +46,8 @@
 Подробное руководство по экспорту файлов Excel в формат PNG с помощью Aspose.Cells в .NET.
 ### [Как экспортировать диапазон Excel в изображение с C# и Aspose.Cells](./how-to-export-excel-range-as-image-with-c-and-aspose-cells/)
 Узнайте, как экспортировать диапазон ячеек Excel в изображение с помощью C# и библиотеки Aspose.Cells.
+### [Как экспортировать сводные таблицы в виде изображений с помощью Aspose.Cells в C#](./how-to-export-pivot-tables-as-images-using-aspose-cells-in-c/)
+Узнайте, как экспортировать сводные таблицы Excel в изображения в C# с помощью Aspose.Cells, следуя пошаговым инструкциям.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

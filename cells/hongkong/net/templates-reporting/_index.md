@@ -77,6 +77,12 @@ Aspose.Cells Net 代碼教程
 ### [如何在 Excel 中展開陣列並填充範本](./how-to-expand-array-in-excel-and-populate-a-template)
 了解如何在 Excel 中使用陣列展開功能，將資料自動填入範本，快速產生報表。
 
+### [將資料集轉換為 Excel 並填充 Excel 範本](./convert-dataset-to-excel-and-populate-an-excel-template/)
+說明如何將資料集轉換為 Excel，並使用範本自動填充內容，快速生成報表。
+
+### [如何從範本建立 Excel 並產生重複工作表](./how-to-create-excel-from-template-and-generate-repeated-shee)
+說明如何使用 Aspose.Cells 從 Excel 範本建立檔案，並自動產生多個重複的工作表。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

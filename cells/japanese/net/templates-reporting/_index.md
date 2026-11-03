@@ -67,6 +67,11 @@ C# テンプレートでデータを Excel にエクスポートする手順を�
 ### [Excel で配列を拡張し、テンプレートにデータを入力する方法](./how-to-expand-array-in-excel-and-populate-a-template)
 Excel で配列を拡張し、テンプレートにデータを自動的に入力する手順を解説します。
 
+### [データセットを Excel に変換し、Excel テンプレートにデータを入力する](./convert-dataset-to-excel-and-populate-an-excel-template)
+データセットを Excel に変換し、テンプレートにデータを自動的に埋め込む方法を学びます。
+
+### [テンプレートから Excel を作成し、繰り返しシートを生成する方法](./how-to-create-excel-from-template-and-generate-repeated-shee)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

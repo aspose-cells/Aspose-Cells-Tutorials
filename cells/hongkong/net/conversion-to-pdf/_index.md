@@ -74,6 +74,9 @@
 ### [使用動態陣列建立 Excel 工作簿並儲存為 PDF](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
 透過 Aspose.Cells for .NET，使用動態陣列功能建立工作簿，並將其直接匯出為 PDF。
 
+### [如何在 C# 中使用 Aspose.Cells 將活頁簿儲存為 PDF](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
+本教學說明如何在 C# 使用 Aspose.Cells 將 Excel 活頁簿儲存為 PDF，步驟簡單明瞭。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

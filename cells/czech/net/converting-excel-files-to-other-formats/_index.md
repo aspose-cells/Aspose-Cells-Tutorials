@@ -94,6 +94,8 @@ Naučte se, jak nastavit tiskovou oblast v Excelu a exportovat ji do PowerPointu
 Naučte se, jak nastavit tiskovou oblast a exportovat Excel do PowerPointu pomocí Aspose.Cells pro .NET.
 ### [Programový převod XLSX na CSV v C# – Kompletní krok‑za‑krokem průvodce](./convert-xlsx-to-csv-in-c-complete-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Cells v C# převést soubory XLSX do CSV s podrobnými ukázkami kódu a tipy pro optimální výkon.
+### [Vytvoření PowerPointu z Excelu s Aspose.Cells – krok‑za‑krokem průvodce](./create-powerpoint-from-excel-with-aspose-cells-step-by-step/)
+Naučte se, jak pomocí Aspose.Cells v .NET vytvořit prezentaci PowerPoint z dat Excelu v podrobném krok‑za‑krokem průvodci.
 
 
 

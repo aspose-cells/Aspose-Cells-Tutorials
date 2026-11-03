@@ -73,6 +73,8 @@ Aspose.Cells для .NET — это жемчужина, если вы работ
 Узнайте, как правильно сохранять PDF с использованием селекторов вариаций шрифтов в Aspose.PDF для .NET.
 ### [Создать рабочую книгу Excel и сохранить как PDF с динамическими массивами](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
 Узнайте, как с помощью Aspose.Cells создать рабочую книгу Excel, использовать динамические массивы и сохранить её в PDF.
+### [Как сохранить книгу в PDF с Aspose.Cells в C#](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
+Узнайте, как сохранить рабочую книгу Excel в PDF с помощью Aspose.Cells в C# шаг за шагом.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

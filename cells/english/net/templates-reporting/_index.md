@@ -64,6 +64,11 @@ Learn how to process an Excel template and dynamically name worksheets using Asp
 Step-by-step tutorial on generating Excel reports using C# and Aspose.Cells, covering setup, data binding, and saving the workbook.
 ### [How to expand array in Excel and populate a template](./how-to-expand-array-in-excel-and-populate-a-template/)
 Learn how to expand arrays in Excel and populate templates using Aspose.Cells for .NET.
+### [Convert dataset to Excel and populate an Excel template](./convert-dataset-to-excel-and-populate-an-excel-template)
+Learn how to convert a dataset to Excel and fill an Excel template using Aspose.Cells for .NET.
+
+### [How to create Excel from template and generate repeated sheets](./how-to-create-excel-from-template-and-generate-repeated-shee)
+Learn how to generate an Excel workbook from a template and automatically create repeated sheets using Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

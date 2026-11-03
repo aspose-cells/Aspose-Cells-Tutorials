@@ -60,6 +60,10 @@ Impara a creare una cartella di lavoro Excel in C# e a interpretare le date giap
 
 ### [Analizza DateTime con il regno dell'imperatore giapponese usando Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
 Scopri come analizzare valori DateTime basati sul calendario dell'imperatore giapponese con Aspose.Cells per .NET.
+### [Come creare una cartella di lavoro Excel in C# con formattazione numerica personalizzata](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
+Impara a creare una cartella di lavoro Excel in C# applicando formati numerici personalizzati con Aspose.Cells.
+### [Come convertire la data dell'era giapponese in data gregoriana in C#](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+Scopri come trasformare le date dell'era giapponese in formato gregoriano usando Aspose.Cells per .NET in C#.
 
 
 

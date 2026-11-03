@@ -45,6 +45,7 @@ O Aspose.Cells para .NET simplifica as transformações de documentos, permitind
 ## Tutoriais sobre conversão de arquivos do Excel para outros formatos
 ### [Convert Excel to PowerPoint and set print area](./convert-excel-to-powerpoint-and-set-print-area/)
 ### [How to wrap cells and convert Excel to PowerPoint in C#](./how-to-wrap-cells-and-convert-excel-to-powerpoint-in-c/)
+### [Create PowerPoint from Excel with Aspose.Cells – step‑by‑step guide](./create-powerpoint-from-excel-with-aspose-cells-step-by-step/)
 
 
 ### [Convertendo CSV para JSON programaticamente no .NET](./converting-csv-to-json/)

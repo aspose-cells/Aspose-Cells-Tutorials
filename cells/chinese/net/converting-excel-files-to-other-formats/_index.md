@@ -93,6 +93,8 @@
 本指南提供在 C# 中使用 Aspose.Cells 将 XLSX 文件转换为 CSV 的完整步骤和代码示例，帮助您轻松实现数据导出。
 ### [将 Excel 转换为 Word – 使用 C# 的完整指南](./convert-excel-to-word-complete-guide-with-c/)
 本指南详细演示如何使用 Aspose.Cells for .NET 将 Excel 文件转换为 Word 文档，提供完整的 C# 示例代码。
+### [在 .NET 中使用 Aspose.Cells 从 Excel 创建 PowerPoint – 步骤指南](./create-powerpoint-from-excel-with-aspose-cells-step-by-step/)
+本教程提供使用 Aspose.Cells 将 Excel 工作表转换为 PowerPoint 演示文稿的完整步骤和代码示例。
 ### [使用 C# 将 Excel 保存为 Docx – 完整分步指南](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 本指南提供使用 Aspose.Cells for .NET 通过 C# 将 Excel 文件保存为 Docx 的完整分步示例，帮助您轻松生成文档。
 ### [在 .NET 中以编程方式从 Excel 创建 PPT – 完整 C# 自动化指南](./create-ppt-from-excel-full-c-automation-guide/)

@@ -109,6 +109,9 @@ Aspose.Cells для .NET упрощает преобразование доку�
 ### [Как создать PowerPoint из Excel с использованием Aspose.Cells](./how-to-create-powerpoint-from-excel-using-aspose-cells/)
 Узнайте, как программно создать презентацию PowerPoint из файла Excel с помощью Aspose.Cells для .NET.
 
+### [Создание PowerPoint из Excel с Aspose.Cells – пошаговое руководство](./create-powerpoint-from-excel-with-aspose-cells-step-by-step/)
+Узнайте, как программно создать презентацию PowerPoint из файла Excel с помощью Aspose.Cells для .NET, следуя пошаговому руководству.
+
 ### [Как обернуть ячейки и преобразовать Excel в PowerPoint на C#](./how-to-wrap-cells-and-convert-excel-to-powerpoint-in-c/)
 Узнайте, как обернуть ячейки и преобразовать файл Excel в презентацию PowerPoint с помощью Aspose.Cells для .NET на C#.
 ### [Как сохранить Excel в PowerPoint с помощью C# и Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)

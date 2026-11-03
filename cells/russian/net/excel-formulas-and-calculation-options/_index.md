@@ -104,6 +104,12 @@ Excel поставляется с множеством встроенных фу
 
 ### [Как принудительно выполнить расчет формулы и использовать lambda в Excel с C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
 Узнайте, как принудительно пересчитать формулы и применять функции lambda в Excel с помощью C#.
+### [Как использовать WRAPCOLS в C# для массивов Excel и сохранения книги](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
+Узнайте, как применять WRAPCOLS в C# с Aspose.Cells для преобразования массивов и сохранения рабочей книги.
+### [Как создать книгу Excel в C# и задать формулы](./how-to-create-excel-workbook-in-c-and-set-formulas/)
+Узнайте, как создать книгу Excel в C# и задать формулы с помощью Aspose.Cells.
+### [Как создать книгу Excel на C# с динамической формулой массива](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
+Узнайте, как создать книгу Excel в C# с динамической формулой массива, используя Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

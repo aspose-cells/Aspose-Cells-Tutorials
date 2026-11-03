@@ -47,6 +47,8 @@
 
 ### [Экспорт книги Excel в CSV с Aspose.Cells на C#](./how-to-export-excel-workbook-to-csv-with-aspose-cells-in-c/)
 Узнайте, как экспортировать книгу Excel в CSV с помощью Aspose.Cells на C#.
+### [Как экспортировать Excel в CSV на C# с Aspose.Cells](./how-to-export-excel-to-csv-in-c-with-aspose-cells/)
+Узнайте, как экспортировать файлы Excel в CSV с помощью Aspose.Cells для .NET на C#.
 
 
 

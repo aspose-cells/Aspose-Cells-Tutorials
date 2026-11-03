@@ -39,6 +39,8 @@
 Μάθετε πώς να μετατρέπετε αρχεία Excel (XLSX) σε CSV χρησιμοποιώντας το Aspose.Cells για .NET σε C#. Οδηγός βήμα-βήμα.
 ### [Πώς να εξάγετε βιβλίο εργασίας Excel σε CSV με Aspose.Cells σε C#](./how-to-export-excel-workbook-to-csv-with-aspose-cells-in-c/)
 Μάθετε πώς να εξάγετε ένα βιβλίο εργασίας Excel σε αρχείο CSV χρησιμοποιώντας Aspose.Cells για .NET σε C#.
+### [Πώς να εξάγετε Excel σε CSV με C# χρησιμοποιώντας Aspose.Cells](./how-to-export-excel-to-csv-in-c-with-aspose-cells/)
+Μάθετε πώς να εξάγετε αρχεία Excel σε CSV με C# και Aspose.Cells, ακολουθώντας βήμα‑βήμα οδηγίες.
 ### [Δημιουργία νέου βιβλίου εργασίας και εξαγωγή σε CSV – Οδηγός βήμα‑βήμα C#](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 Μάθετε πώς να δημιουργήσετε νέο βιβλίο εργασίας και να το εξάγετε σε CSV με το Aspose.Cells για .NET, ακολουθώντας βήμα‑βήμα οδηγίες C#.
 ### [Πώς να δημιουργήσετε CSV από το Excel χρησιμοποιώντας Aspose.Cells σε C#](./how-to-create-csv-from-excel-using-aspose-cells-in-c/)

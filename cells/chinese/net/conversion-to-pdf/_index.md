@@ -49,6 +49,8 @@
 使用 Aspose.Cells for .NET 将工作簿导出为符合 PDF/A‑3b 标准的 PDF 文件，确保长期保存和兼容性。
 ### [使用 Aspose.Cells 将工作簿保存为 PDF – 完整分步指南](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
 通过本完整分步指南，学习如何使用 Aspose.Cells 将 Excel 工作簿保存为高质量的 PDF 文件。
+### [如何在 C# 中使用 Aspose.Cells 将工作簿保存为 PDF](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
+本指南详细演示在 C# 环境下使用 Aspose.Cells 将 Excel 工作簿导出为 PDF，步骤清晰，适合各类开发者。
 ### [在 C# 中嵌入字体并将工作簿保存为 PDF](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 了解如何在使用 Aspose.Cells for .NET 将工作簿保存为 PDF 时嵌入字体，确保文档在所有设备上保持一致显示。
 ### [使用 C# 将字体嵌入 PDF – 完整指南](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)

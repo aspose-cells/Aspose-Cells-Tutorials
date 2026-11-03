@@ -69,6 +69,7 @@ Aspose.Cells के साथ C# में Excel को HTML में निर
 
 ### [C# के साथ Excel को HTML में निर्यात करते समय फ़ॉन्ट एम्बेड करना](./how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
 C# के साथ Excel को HTML में निर्यात करते समय फ़ॉन्ट एम्बेड करने की विस्तृत गाइड।
+### [Aspose.Cells के साथ Excel को HTML में बदलते समय फ़ॉन्ट एम्बेड करने का तरीका](./how-to-embed-fonts-when-converting-excel-to-html-with-aspose/)
 
 ### [Excel को HTML में निर्यात करते समय अप्रयुक्त शैलियों को हटाना](./excluding-unused-styles/)
 ### [दस्तावेज़ कार्यपुस्तिका और कार्यपत्रक गुणों को HTML में निर्यात करना](./exporting-document-workbook-and-worksheet-properties/)

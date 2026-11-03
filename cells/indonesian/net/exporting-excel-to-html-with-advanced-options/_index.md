@@ -84,6 +84,8 @@ Pelajari cara mengambil string HTML5 dari sel Excel secara terprogram menggunaka
 Pelajari cara menyematkan font dalam output HTML saat mengonversi Excel ke HTML menggunakan Aspose.Cells untuk .NET dengan C# dalam panduan langkah demi langkah.
 ### [Cara Menyematkan Font dalam HTML saat Menyimpan Buku Kerja](./how-to-embed-fonts-in-html-when-saving-a-workbook/)
 Pelajari cara menyematkan font ke dalam HTML saat menyimpan buku kerja menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah.
+### [Cara Menyematkan Font saat Mengonversi Excel ke HTML dengan Aspose.Cells](./how-to-embed-fonts-when-converting-excel-to-html-with-aspose/)
+Pelajari cara menyematkan font ke dalam HTML saat mengonversi file Excel menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah.
 ### [Menyembunyikan Konten yang Dilapisi dengan Cross Hide Right saat Menyimpan ke HTML](./hiding-overlaid-content-with-cross-hide-right/)
 Pelajari cara menyembunyikan konten overlay di Excel saat menyimpan ke HTML menggunakan Aspose.Cells untuk .NET dalam panduan komprehensif ini.
 ### [Menyematkan font dalam HTML – Mengekspor Excel ke HTML dengan C#](./embed-fonts-in-html-export-excel-to-html-with-c/)

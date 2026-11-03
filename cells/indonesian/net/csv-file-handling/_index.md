@@ -37,6 +37,8 @@ Pelajari cara membuka dan mengurai file CSV dengan parser khusus di Aspose.Cells
 Pelajari cara menyimpan workbook Excel sebagai file CSV menggunakan C# dengan Aspose.Cells untuk .NET.
 ### [Cara mengekspor workbook Excel ke CSV dengan Aspose.Cells di C#](./how-to-export-excel-workbook-to-csv-with-aspose-cells-in-c/)
 Pelajari cara mengekspor workbook Excel ke format CSV menggunakan Aspose.Cells untuk .NET dengan contoh kode C#.
+### [Cara mengekspor Excel ke CSV di C# dengan Aspose.Cells](./how-to-export-excel-to-csv-in-c-with-aspose-cells/)
+Pelajari cara mengekspor file Excel ke CSV menggunakan C# dengan Aspose.Cells.
 ### [Simpan Excel sebagai CSV di C# – Panduan Lengkap Mengekspor Xlsx ke CSV](./save-excel-as-csv-in-c-complete-guide-to-export-xlsx-to-csv/)
 Pelajari cara menyimpan file Excel (.xlsx) menjadi CSV menggunakan C# dengan Aspose.Cells, langkah demi langkah untuk ekspor data yang akurat.
 ### [Buat Workbook Baru dan Ekspor ke CSV – Panduan Langkah-demi-Langkah C#](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)

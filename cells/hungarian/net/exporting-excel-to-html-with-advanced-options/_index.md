@@ -114,6 +114,8 @@ Ismerje meg, hogyan exportálhatja az Excel-fájlokat HTML-be úgy, hogy a befag
 
 ### [Hogyan exportáljunk xlsx-et HTML-be fagyasztott panelekkel C#-ban](./how-to-export-xlsx-to-html-with-frozen-panes-in-c/)
 ### [Betűtípusok beágyazása HTML-be – Excel konvertálása HTML-be C#-al](./how-to-embed-fonts-in-html-convert-excel-to-html/)
+### [Betűtípusok beágyazása HTML-be Excel konvertálásakor az Aspose.Cells használatával](./how-to-embed-fonts-when-converting-excel-to-html-with-aspose/)
+Ismerje meg, hogyan ágyazhat be betűtípusokat az Excel HTML-re konvertálásakor az Aspose.Cells használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

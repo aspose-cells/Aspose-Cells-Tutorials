@@ -73,6 +73,8 @@ Leer stap voor stap hoe je Excel-bestanden naar PDF converteert met C# en Aspose
 Leer hoe je PDF's opslaat met fontvariatie-selectors voor nauwkeurige weergave van speciale tekens.
 ### [Excel-werkmap maken en opslaan als PDF met dynamische arrays](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
 Leer hoe u een Excel-werkmap maakt en opslaat als PDF met behulp van dynamische arrays in Aspose.Cells voor .NET.
+### [Hoe een werkmap opslaan als PDF met Aspose.Cells in C#](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
+Leer hoe je een Excel-werkmap opslaat als PDF met Aspose.Cells in C# via een stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -36,7 +36,6 @@ Převádějte excelovské tabulky do PDF snadno s Aspose.Cells pro .NET! Postupu
 Naučte se, jak převést grafy z Excelu do PDF v .NET pomocí Aspose.Cells s tímto podrobným návodem! Ideální pro programátory všech úrovní.
 ### [Jak nastavit možnosti PDF v C# – Export Excel do PDF s plnou kontrolou](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
 Naučte se nastavit všechny možnosti PDF při exportu Excelu do PDF v C# s plnou kontrolou nad výstupem.
-
 ### [Vytvořte PDF z Excelu v C# – krok za krokem](./create-pdf-from-excel-in-c-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.Cells v C# vytvořit PDF z Excel souboru krok po kroku.
 ### [Export sešitu do PDF – kompletní průvodce v C#](./export-workbook-to-pdf-complete-c-guide/)
@@ -49,6 +48,8 @@ Převádějte soubory DOCX do PDF v C# pomocí Aspose.Words – kompletní prův
 Naučte se, jak uložit sešit jako PDF/A‑3b v C# pomocí Aspose.Cells, včetně nastavení kompatibility a zachování metadat.
 ### [Uložení sešitu jako PDF pomocí Aspose.Cells – Kompletní průvodce krok za krokem](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
 Naučte se, jak pomocí Aspose.Cells uložit Excel sešit do PDF pomocí podrobného krok za krokem návodu.
+### [Jak uložit sešit jako PDF pomocí Aspose.Cells v C#](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
+Naučte se, jak pomocí Aspose.Cells v C# uložit Excel sešit jako PDF v několika krocích.
 ### [Jak vložit písma do PDF – Uložit sešit jako PDF v C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 Získejte návod, jak vložit písma do PDF při ukládání sešitu v C# s Aspose.Cells.
 ### [Jak vložit písma do PDF v C# – Kompletní průvodce](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)

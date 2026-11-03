@@ -79,14 +79,14 @@ Temukan cara mendaftarkan dan memanggil fungsi dari add-in di Excel menggunakan 
 Temukan cara menentukan baris maksimum untuk rumus bersama di Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah yang mudah ini.
 ### [Cara Memperluas Array di C# dengan Aspose.Cells – Panduan Langkah‑per‑Langkah](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Pelajari cara memperluas array di C# menggunakan Aspose.Cells dengan panduan langkah demi langkah yang mudah diikuti.
-
 ### [Cara Menghitung Kotangen di Excel dengan C# – Panduan Langkah‑demi‑Langkah](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
 Pelajari cara menghitung fungsi kotangen di Excel menggunakan C# dengan Aspose.Cells melalui panduan langkah demi langkah ini.
-
 ### [C# membuat file Excel – Panduan Langkah-demi-Langkah dengan Logika Kondisional](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 Pelajari cara membuat file Excel menggunakan C# dengan logika kondisional dalam panduan langkah demi langkah ini.
 ### [Cara Menggunakan WRAPCOLS di C# – Mengubah Array menjadi Matriks](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
 Pelajari cara menggunakan fungsi WRAPCOLS di C# dengan Aspose.Cells untuk mengubah array menjadi matriks secara efisien.
+### [Cara Menggunakan WRAPCOLS di C# untuk Array Excel dan Menyimpan Workbook](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
+Pelajari cara menggunakan WRAPCOLS di C# dengan Aspose.Cells untuk mengubah array menjadi matriks dan menyimpan workbook Excel.
 ### [Cara Membuat Array di Excel dengan C# – Panduan Langkah‑per‑Langkah](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 Pelajari cara membuat array di Excel menggunakan C# dengan Aspose.Cells melalui panduan langkah demi langkah yang mudah diikuti.
 ### [Cara Menghitung Kotangen di Excel dengan C# – Panduan Lengkap](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
@@ -103,6 +103,10 @@ Pelajari cara menggunakan fungsi WRAPCOLS dalam Aspose.Cells untuk .NET dengan c
 Panduan lengkap untuk membuat workbook Excel dengan rumus menggunakan Aspose.Cells for .NET, langkah demi langkah.
 ### [Cara membuat buku kerja Excel di C# dengan fungsi EXPAND](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
 Pelajari cara membuat workbook Excel menggunakan fungsi EXPAND di C# dengan panduan langkah demi langkah ini.
+### [Cara Membuat Buku Kerja Excel C# dengan Rumus Array Dinamis](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
+Pelajari cara membuat workbook Excel menggunakan C# dengan rumus array dinamis melalui Aspose.Cells dalam panduan langkah demi langkah.
+### [Cara Membuat Workbook Excel di C# dan Menetapkan Rumus](./how-to-create-excel-workbook-in-c-and-set-formulas/)
+Pelajari cara membuat workbook Excel menggunakan C# dan menetapkan rumus dengan Aspose.Cells dalam panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

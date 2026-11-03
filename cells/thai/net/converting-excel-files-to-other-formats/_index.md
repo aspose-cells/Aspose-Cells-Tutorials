@@ -134,6 +134,9 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 ### [วิธีฝังฟอนต์ใน SVG เมื่อแปลงไฟล์ Excel เป็น SVG และ PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
 เรียนรู้วิธีฝังฟอนต์ในไฟล์ SVG ระหว่างการแปลง Excel เป็น SVG หรือ PowerPoint ด้วย Aspose.Cells
 
+### [สร้าง PowerPoint จาก Excel ด้วย Aspose.Cells – คู่มือขั้นตอนโดยละเอียด](./create-powerpoint-from-excel-with-aspose-cells-step-by-step/)
+เรียนรู้วิธีสร้าง PowerPoint จากข้อมูล Excel ด้วย Aspose.Cells อย่างละเอียดตามขั้นตอน
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

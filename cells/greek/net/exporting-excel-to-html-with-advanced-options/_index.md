@@ -123,6 +123,8 @@
 Μάθετε πώς να εξάγετε το Excel σε HTML χρησιμοποιώντας το Aspose.Cells για .NET με έναν πλήρη οδηγό βήμα‑βήμα.
 ### [Αποθήκευση Excel ως HTML με παγωμένες περιοχές – πλήρης οδηγός C#](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
 Μάθετε πώς να αποθηκεύετε ένα αρχείο Excel ως HTML διατηρώντας τις παγωμένες περιοχές, χρησιμοποιώντας το Aspose.Cells για .NET με C#.
+### [Πώς να ενσωματώσετε γραμματοσειρές όταν μετατρέπετε το Excel σε HTML με το Aspose.Cells](./how-to-embed-fonts-when-converting-excel-to-html-with-aspose/)
+Μάθετε πώς να ενσωματώνετε γραμματοσειρές στο HTML κατά τη μετατροπή αρχείων Excel χρησιμοποιώντας το Aspose.Cells για .NET.
 ### [Πώς να εξάγετε το Excel σε HTML – Πλήρης προγραμματιστικός οδηγός](./how-to-export-excel-to-html-complete-programming-guide/)
 Μάθετε βήμα-βήμα πώς να εξάγετε Excel σε HTML με πλήρη προγραμματιστική προσέγγιση χρησιμοποιώντας Aspose.Cells για .NET.
 ### [Ενσωμάτωση γραμματοσειρών σε HTML – Εξαγωγή βιβλίου εργασίας Excel σε HTML με Aspose.Cells](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)

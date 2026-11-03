@@ -100,6 +100,7 @@ En resumen, Aspose.Cells para .NET abre un mundo de posibilidades para quienes b
 
 
 | [Crear nuevo libro de trabajo en C# – Añadir fórmula y guardar archivo Excel](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Aprenda a crear un libro de Excel en C#, agregar una fórmula y guardar el archivo usando Aspose.Cells para .NET. |
+| [Crear libro de Excel y guardarlo en un archivo en C#](./create-excel-workbook-and-save-it-to-file-in-c/) | Aprenda a crear un libro de Excel y guardarlo en un archivo usando C# y Aspose.Cells paso a paso. |
 | [Crear libro de Excel C# – Guía paso a paso para escribir fechas y guardar como XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Aprenda a crear un libro de Excel en C#, escribir fechas y guardarlo como archivo XLSX usando Aspose.Cells para .NET. |
 | [Crear libro de Excel y agregar fecha a la hoja de cálculo en C#](./create-excel-workbook-and-add-date-to-worksheet-in-c/) | Aprenda a crear un libro de Excel y añadir la fecha a una hoja de cálculo usando C# y Aspose.Cells paso a paso. |
 | [Crear libro de Excel C# – Generar XLSX desde JSON](./create-excel-workbook-c-generate-xlsx-from-json/) | Aprenda a crear un libro de Excel en C# generando un archivo XLSX a partir de datos JSON con Aspose.Cells para .NET. |

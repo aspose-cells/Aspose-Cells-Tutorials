@@ -137,6 +137,8 @@ Aprenda a criar HTML a partir de uma tabela em C# usando Aspose.Cells para .NET 
 Aprenda a exportar planilhas Excel para HTML usando C# com este guia completo passo a passo.
 ### [Salvar Excel como HTML – Guia Completo para Exportar Excel com Formatação](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
 Aprenda a salvar arquivos do Excel como HTML preservando toda a formatação usando Aspose.Cells para .NET neste guia completo.
+### [Como incorporar fontes ao converter Excel para HTML com Aspose.Cells](./how-to-embed-fonts-when-converting-excel-to-html-with-aspose/)
+Aprenda a incorporar fontes ao converter planilhas Excel para HTML usando Aspose.Cells para .NET neste guia passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

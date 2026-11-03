@@ -74,6 +74,8 @@ Lär dig hur du sparar en Excel-arbetsbok som PowerPoint-presentation med C# och
 Lär dig hur du anger HTML CrossType i Aspose.Cells för .NET. Följ vår steg‑för‑steg‑handledning för att konvertera Excel-filer till HTML med precision.
 ### [Hur du exporterar Excel till PowerPoint – Komplett C#-guide](./how-to-export-excel-to-powerpoint-complete-c-guide/)
 Lär dig steg för steg hur du med Aspose.Cells för .NET exporterar Excel-data till PowerPoint-presentationer med C#.
+### [Skapa PowerPoint från Excel med Aspose.Cells – steg‑för‑steg‑guide](./create-powerpoint-from-excel-with-aspose-cells-step-by-step/)
+Lär dig hur du automatiskt skapar PowerPoint-presentationer från Excel med Aspose.Cells i en detaljerad steg‑för‑steg‑guide.
 ### [Läsa siffror programmatiskt i .NET](./reading-numbers-spreadsheet/)
 Lär dig hur du läser Numbers-kalkylblad och konverterar dem till PDF med Aspose.Cells för .NET i den här detaljerade handledningen.
 ### [Spara arbetsboken till Strict Open XML-kalkylbladsformat i .NET](./saving-workbook-to-strict-open-xml-spreadsheet-format/)

@@ -90,6 +90,8 @@ Découvrez comment intégrer des polices dans le HTML lors de l'exportation d'un
 
 ### [Intégrer des polices HTML lors de l'exportation d'Excel – Guide complet C#](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
 Apprenez à incorporer des polices dans le HTML généré lors de l'exportation d'Excel avec Aspose.Cells pour .NET en C#.
+### [Comment intégrer des polices lors de la conversion d'Excel en HTML avec Aspose.Cells](./how-to-embed-fonts-when-converting-excel-to-html-with-aspose/)
+Apprenez à incorporer des polices dans le HTML généré lors de la conversion d'Excel en HTML avec Aspose.Cells pour .NET.
 ### [Récupération d'une chaîne HTML5 à partir d'une cellule dans Excel par programmation](./getting-html5-string-from-cell/)
 Découvrez comment récupérer des chaînes HTML5 à partir de cellules Excel par programmation à l'aide d'Aspose.Cells pour .NET dans ce guide détaillé étape par étape.
 

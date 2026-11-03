@@ -71,6 +71,10 @@ Aspose.Cells kullanarak fatura oluşturmayı, hücre doldurmayı ve dosyayı kay
 ### [C# Şablonu Kullanarak Veriyi Excel'e Aktarma – Adım Adım Kılavuz](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
 C# şablonu kullanarak veriyi Excel'e aktarmayı adım adım öğrenin.
 ### [Excel'de Dizi Genişletme ve Şablon Doldurma](./how-to-expand-array-in-excel-and-populate-a-template)
+### [Veri Kümesini Excel'e Dönüştürme ve Excel Şablonunu Doldurma](./convert-dataset-to-excel-and-populate-an-excel-template)
+Veri kümesini Excel dosyasına dönüştürüp, bir şablona otomatik olarak veri yerleştirerek rapor oluşturmayı öğrenin.
+
+### [Şablondan Excel Oluşturma ve Tekrarlanan Sayfalar Oluşturma](./how-to-create-excel-from-template-and-generate-repeated-shee)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
