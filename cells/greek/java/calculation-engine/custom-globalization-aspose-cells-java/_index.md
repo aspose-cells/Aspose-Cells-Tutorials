@@ -48,9 +48,9 @@ url: /el/java/calculation-engine/custom-globalization-aspose-cells-java/
 weight: 1
 ---
 
-{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
@@ -274,10 +274,10 @@ public void Run() throws Exception {
 - [Aspose Cells Maven Dependency – Manage Excel Data Connections with Aspose.Cells in Java](/cells/java/advanced-features/aspose-cells-java-excel-external-data-connections/)
 
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
