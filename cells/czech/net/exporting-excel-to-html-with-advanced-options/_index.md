@@ -99,6 +99,8 @@ Naučte se, jak exportovat vlastnosti dokumentů, sešitů a listů aplikace Exc
 V tomto podrobném návodu se naučte exportovat konkrétní oblast tisku do HTML z Excelu pomocí Aspose.Cells pro .NET. Optimalizujte prezentaci dat.
 ### [Export podobného stylu ohraničení programově v Excelu](./exporting-similar-border-style/)
 Naučte se, jak programově exportovat podobné styly ohraničení v Excelu pomocí Aspose.Cells pro .NET s tímto jednoduchým podrobným návodem.
+### [Jak použít wrapcols a vložit písma při ukládání Excelu do HTML](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+Naučte se, jak použít wrapcols a vložit písma při ukládání souboru Excel do HTML pomocí Aspose.Cells pro .NET.
 ### [Samostatný export CSS pracovního listu ve výstupním HTML](./exporting-worksheet-css-separately/)
 V tomto komplexním návodu se naučte, jak efektivně exportovat excelové listy do HTML se samostatným CSS pomocí Aspose.Cells pro .NET.
 ### [Získání HTML5 řetězce z buňky v Excelu programově](./getting-html5-string-from-cell/)

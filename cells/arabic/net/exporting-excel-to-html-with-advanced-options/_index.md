@@ -135,6 +135,8 @@
 تعرف على كيفية إنشاء خيارات حفظ HTML في C# باستخدام Aspose.Cells لـ .NET في هذا الدليل المفصل خطوة بخطوة.
 ### [حفظ Excel كـ HTML – دليل كامل لتصدير وتحويل ملفات Excel](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
 اكتشف كيفية حفظ ملفات Excel كـ HTML وتصديرها وتحويلها باستخدام Aspose.Cells لـ .NET في دليل شامل خطوة بخطوة.
+### [كيفية استخدام wrapcols وتضمين الخطوط عند حفظ Excel إلى HTML](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+تعرف على كيفية استخدام wrapcols وتضمين الخطوط عند حفظ ملفات Excel كـ HTML باستخدام Aspose.Cells لـ .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

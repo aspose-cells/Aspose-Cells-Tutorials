@@ -61,6 +61,9 @@
 
 
 ## Экспорт Excel в HTML с расширенными параметрами Учебные пособия
+### [How to use wrapcols and embed fonts saving Excel to HTML](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+
+
 ### [Исключение неиспользуемых стилей при экспорте Excel в HTML](./excluding-unused-styles/)
 Узнайте, как исключить неиспользуемые стили при экспорте Excel в HTML с помощью Aspose.Cells для .NET в этом подробном пошаговом руководстве.
 

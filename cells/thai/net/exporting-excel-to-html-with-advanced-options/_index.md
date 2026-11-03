@@ -138,6 +138,8 @@
 เรียนรู้วิธีส่งออกไฟล์ Excel เป็น HTML พร้อมคงแถบที่ตรึงไว้เพื่อให้ผู้ใช้เห็นส่วนหัวตารางอย่างคงที่
 ### [วิธีฝังฟอนต์ใน HTML เมื่อบันทึกเวิร์กบุ๊ก](./how-to-embed-fonts-in-html-when-saving-a-workbook/)
 เรียนรู้วิธีฝังฟอนต์ใน HTML ขณะบันทึกไฟล์เวิร์กบุ๊กด้วย Aspose.Cells สำหรับ .NET
+### [วิธีใช้ wrapcols และฝังฟอนต์เมื่อบันทึก Excel เป็น HTML](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+เรียนรู้วิธีใช้ wrapcols และฝังฟอนต์ขณะบันทึกไฟล์ Excel เป็น HTML ด้วย Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -45,7 +45,6 @@ C# के साथ Aspose.Cells का उपयोग करके Excel फ�
 ### [C# में वर्कबुक को PDF निर्यात – पूर्ण गाइड](./export-workbook-to-pdf-complete-c-guide/)
 C# में Aspose.Cells के साथ वर्कबुक को PDF में निर्यात करने के लिए पूर्ण चरण‑दर‑चरण गाइड।
 ### [Excel को PDF में बदलते समय फ़ॉन्ट एम्बेड करने की पूरी गाइड](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
-Aspose.Cells के साथ Excel को PDF में बदलते समय फ़ॉन्ट एम्बेड करने के चरण-दर-चरण निर्देश।
 ### [C# में वर्कबुक को PDF/A‑3b में निर्यात करें](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
 C# में Aspose.Cells का उपयोग करके Excel वर्कबुक को PDF/A‑3b फ़ॉर्मेट में निर्यात करने के चरण‑दर‑चरण मार्गदर्शन।
 ### [Aspose.Cells के साथ वर्कबुक को PDF के रूप में सहेजें – पूर्ण चरण‑दर‑चरण गाइड](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
@@ -69,15 +68,16 @@ Excel से PDF रूपांतरण में फ़ॉन्ट एम्
 ### [PDF में फ़ॉन्ट एम्बेड करें – Excel को PDF में निर्यात करने के लिए पूर्ण C# गाइड](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
 PDF को फ़ॉन्ट एम्बेड करने की पूरी प्रक्रिया सीखें, जिससे आपका Excel से निर्यात किया गया PDF सभी फ़ॉन्ट सही दिखाए।
 ### [Excel से PDF निर्यात करने का तरीका – वर्कबुक को PDF के रूप में सहेजने की पूरी गाइड](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
-Aspose.Cells का उपयोग करके Excel वर्कबुक को PDF में बदलने के चरण-दर-चरण निर्देश।
+Aspose.Cells का उपयोग करके Excel वर्कबुक को PDF में बदलने के चरण‑दर‑चरण निर्देश।
 ### [C# में XLSX को PDF/A‑1b के साथ सहेजें – पूर्ण गाइड](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)
 Aspose.Cells का उपयोग करके C# में XLSX फ़ाइल को PDF/A‑1b फ़ॉर्मेट में बदलने के चरण‑दर‑चरण निर्देश।
 ### [C# में Excel को PDF में बदलें – पूर्ण प्रोग्रामिंग गाइड](./convert-excel-to-pdf-in-c-complete-programming-guide/)
-C# में Excel को PDF में बदलने के लिए पूर्ण प्रोग्रामिंग गाइड, चरण-दर-चरण निर्देश और कोड उदाहरण।
+C# में Excel को PDF में बदलने के लिए पूर्ण प्रोग्रामिंग गाइड, चरण‑दर‑चरण निर्देश और कोड उदाहरण।
 ### [फ़ॉन्ट वैरिएशन सिलेक्टर्स के साथ PDF कैसे सहेजें – पूर्ण गाइड](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
-फ़ॉन्ट वैरिएशन सिलेक्टर्स को सपोर्ट करने के लिए PDF को सुरक्षित करने की पूरी प्रक्रिया सीखें।
 ### [डायनामिक एरेज़ के साथ Excel वर्कबुक बनाएं और PDF के रूप में सहेजें](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
 डायनामिक एरेज़ का उपयोग करके Excel वर्कबुक बनाकर उसे PDF में बदलने की चरण‑दर‑चरण गाइड।
+### [Aspose.Cells के साथ Excel वर्कबुक से PDF कैसे सहेजें](./how-to-save-pdf-from-an-excel-workbook-with-aspose-cells/)
+Aspose.Cells का उपयोग करके Excel वर्कबुक को PDF फ़ाइल में सहेजने के चरण‑दर‑चरण निर्देश।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -79,12 +79,16 @@ HTML 导出过程中，一个经常被忽视的方面是自闭合标签的管理
 了解如何使用 Aspose.Cells for .NET 在 HTML 中为表格样式添加前缀，并通过分步示例增强您的 Excel 导出功能。
 ### [在 HTML 中嵌入字体 – 使用 C# 将 Excel 转换为 HTML](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
 通过本分步指南，了解如何使用 Aspose.Cells for .NET 在将 Excel 导出为 HTML 时嵌入自定义字体。
+### [在 HTML 中嵌入字体 – 使用 C# 将 Excel 导出为 HTML](./embed-fonts-in-html-export-excel-to-html-with-c/)
+通过本指南了解如何使用 Aspose.Cells for .NET 在导出为 HTML 时嵌入自定义字体，确保页面显示一致。
 ### [在导出 Excel 为 HTML 时嵌入字体 – 完整 C# 指南](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c/)
 通过本完整的分步指南，了解如何在使用 Aspose.Cells for .NET 将 Excel 导出为 HTML 时嵌入字体。
 ### [在保存工作簿为 HTML 时嵌入字体](./how-to-embed-fonts-in-html-when-saving-a-workbook/)
 了解如何使用 Aspose.Cells for .NET 在将工作簿保存为 HTML 时嵌入自定义字体，以确保页面显示一致。
 ### [使用 Aspose.Cells 将 Excel 转换为 HTML 时嵌入字体](./how-to-embed-fonts-when-converting-excel-to-html-with-aspose/)
 通过本指南了解如何在使用 Aspose.Cells 将 Excel 转换为 HTML 时嵌入自定义字体。
+### [如何在将 Excel 保存为 HTML 时使用 wrapcols 并嵌入字体](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+本教程演示如何使用 wrapcols 选项并在导出为 HTML 时嵌入字体，以获得更好的显示效果。
 ### [在 Excel 中以编程方式打印标题](./printing-headings/)
 使用 Aspose.Cells for .NET，按照分步指南轻松在 Excel 中打印标题。将您的数据整齐地导出为 HTML，让您的受众印象深刻。
 ### [在 Excel 中以编程方式识别自闭合标签](./recognizing-self-closing-tags/)
@@ -95,8 +99,6 @@ HTML 导出过程中，一个经常被忽视的方面是自闭合标签的管理
 本教程展示如何使用 Aspose.Cells for .NET 在导出为 HTML 时保留 Excel 冻结窗格，保持页面布局一致。
 ### [在导出 Excel 为 HTML 时保留冻结窗格](./how-to-export-excel-to-html-while-preserving-frozen-panes/)
 了解如何使用 Aspose.Cells for .NET 在导出为 HTML 时保留 Excel 的冻结窗格，确保页面布局一致。
-### [在 HTML 中嵌入字体 – 使用 C# 将 Excel 导出为 HTML](./embed-fonts-in-html-export-excel-to-html-with-c/)
-通过本指南了解如何使用 Aspose.Cells for .NET 在导出为 HTML 时嵌入自定义字体，确保页面显示一致。
 ### [在 C# 中将 Excel 转换为 HTML – 完整指南](./convert-excel-to-html-in-c-complete-guide/)
 通过本完整指南，学习使用 Aspose.Cells for .NET 在 C# 中将 Excel 文件导出为高质量的 HTML 页面。
 ### [如何将 Excel 导出为 HTML – 完整编程指南](./how-to-export-excel-to-html-complete-programming-guide/)

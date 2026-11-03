@@ -156,6 +156,9 @@ Aprenda a exportar Excel a HTML conservando paneles congelados usando Aspose.Cel
 ### [Cómo incrustar fuentes en HTML al guardar un libro de trabajo](./how-to-embed-fonts-in-html-when-saving-a-workbook/)
 Aprenda a incrustar fuentes en HTML al guardar un libro de Excel usando Aspose.Cells para .NET con esta guía paso a paso.
 
+### [Cómo usar wrapcols e incrustar fuentes al guardar Excel a HTML](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+Aprenda a usar la opción wrapcols e incrustar fuentes al exportar Excel a HTML con Aspose.Cells para .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

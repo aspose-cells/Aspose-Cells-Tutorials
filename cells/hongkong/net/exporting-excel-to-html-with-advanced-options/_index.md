@@ -51,6 +51,9 @@
 
 HTML 匯出中一個經常被忽略的方面是自閉合標籤的管理。 Excel 工作表可能很複雜，包含可能需要特定格式的各種元素，例如影像或空白儲存格。關於以程式設計方式識別自閉合標籤的教學將引導您無縫提取這些元素，確保您的輸出 HTML 乾淨且結構良好。想像簡化您的程式碼並使您的 HTML 更符合 Web 標準 - 聽起來很棒，對吧？ [點此了解詳情](./recognizing-self-closing-tags/).
 
+### [How to use wrapcols and embed fonts saving Excel to HTML](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+
+
 ### [如何在 C# 中匯出 Excel 為 HTML – 保留凍結窗格](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
 了解如何使用 Aspose.Cells for .NET 在匯出 Excel 為 HTML 時保留凍結窗格。
 

@@ -136,6 +136,9 @@ Aspose.Cells for .NET を使用して、Excel ファイルを HTML にエクス�
 ### [Aspose.Cells を使用して Excel を HTML に変換する際のフォント埋め込み方法](./how-to-embed-fonts-when-converting-excel-to-html-with-aspose/)
 このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して Excel を HTML に変換する際にフォントを埋め込む方法を解説します。
 
+### [wrapcols とフォントを埋め込んで Excel を HTML に保存する方法](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+Aspose.Cells for .NET で wrapcols を使用し、フォントを埋め込んで Excel を HTML にエクスポートする手順を解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -132,6 +132,9 @@ Aspose.Cells for .NET을 활용해 C#로 Excel을 HTML로 변환하는 전체 �
 ### [Aspose.Cells를 사용하여 Excel을 HTML로 변환할 때 글꼴을 삽입하는 방법](./how-to-embed-fonts-when-converting-excel-to-html-with-aspose/)
 Aspose.Cells를 활용해 Excel을 HTML로 변환하면서 글꼴을 포함하는 단계별 가이드.
 
+### [Excel을 HTML로 저장할 때 wrapcols 사용 및 글꼴 포함 방법](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+Aspose.Cells for .NET을 사용하여 wrapcols를 적용하고 글꼴을 포함하여 Excel을 HTML로 저장하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -54,7 +54,7 @@
 ### [كيفية تضمين الخطوط في PDF – حفظ المصنف كملف PDF في C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 تعلم كيفية تضمين الخطوط داخل ملفات PDF عند حفظ المصنف باستخدام Aspose.Cells لـ .NET و C# لضمان عرض صحيح.
 ### [كيفية تضمين الخطوط في PDF باستخدام C# – دليل كامل](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
-تعلم كيفية تضمين الخطوط في ملفات PDF باستخدام C# لضمان عرض النصوص بشكل صحيح على جميع الأجهزة.
+تعلم كيفية تضمين الخطوط في PDF باستخدام C# لضمان عرض النصوص بشكل صحيح على جميع الأجهزة.
 ### [كيفية إدراج Unicode في Excel وحفظه كملف PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
 تعلم كيفية إدراج نص Unicode في ملفات Excel وتحويلها إلى PDF بسهولة باستخدام Aspose.Cells.
 ### [كيفية تقريب الأرقام عند تحويل Excel إلى PDF – دليل C# الكامل](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)
@@ -75,6 +75,9 @@
 تعلم كيفية حفظ ملفات PDF مع دعم محددات تنوع الخط خطوة بخطوة باستخدام Aspose.PDF.
 ### [إنشاء دفتر عمل Excel وحفظه كملف PDF باستخدام المصفوفات الديناميكية](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
 تعلم كيفية إنشاء دفتر عمل Excel وحفظه كملف PDF مع دعم المصفوفات الديناميكية باستخدام Aspose.Cells.
+
+### [كيفية حفظ PDF من مصنف Excel باستخدام Aspose.Cells](./how-to-save-pdf-from-an-excel-workbook-with-aspose-cells/)
+تعلم كيفية حفظ ملف PDF من مصنف Excel باستخدام Aspose.Cells خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

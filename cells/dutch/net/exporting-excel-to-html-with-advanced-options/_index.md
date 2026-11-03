@@ -119,6 +119,7 @@ Leer hoe u lettertypen insluit in de HTML-uitvoer bij het converteren van Excel 
 Leer hoe u Excel naar HTML exporteert met een stapsgewijze handleiding voor Aspose.Cells voor .NET.
 ### [Excel opslaan als HTML met bevroren rijen – Complete C#-handleiding](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
 Leer hoe u Excel opslaat als HTML met bevroren rijen met Aspose.Cells voor .NET in deze stapsgewijze C#-handleiding.
+### [Hoe wrapcols te gebruiken en lettertypen in te sluiten bij het opslaan van Excel naar HTML](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -75,6 +75,8 @@ Aspose.Cells для .NET — это жемчужина, если вы работ
 Узнайте, как с помощью Aspose.Cells создать рабочую книгу Excel, использовать динамические массивы и сохранить её в PDF.
 ### [Как сохранить книгу в PDF с Aspose.Cells в C#](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
 Узнайте, как сохранить рабочую книгу Excel в PDF с помощью Aspose.Cells в C# шаг за шагом.
+### [Как сохранить PDF из рабочей книги Excel с помощью Aspose.Cells](./how-to-save-pdf-from-an-excel-workbook-with-aspose-cells/)
+Узнайте, как сохранить рабочую книгу Excel в PDF с помощью Aspose.Cells, используя C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

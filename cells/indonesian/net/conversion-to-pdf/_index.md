@@ -74,6 +74,8 @@ Panduan lengkap mengonversi file Excel ke PDF menggunakan C# dengan Aspose.Cells
 Pelajari cara menyimpan PDF dengan selector variasi font secara tepat menggunakan Aspose.PDF dalam .NET. Ikuti panduan lengkap kami!
 ### [Buat Workbook Excel dan Simpan sebagai PDF dengan Array Dinamis](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
 Pelajari cara membuat workbook Excel dan menyimpannya sebagai PDF menggunakan array dinamis dengan Aspose.Cells untuk .NET.
+### [Cara menyimpan PDF dari workbook Excel dengan Aspose.Cells](./how-to-save-pdf-from-an-excel-workbook-with-aspose-cells/)
+Pelajari cara menyimpan PDF langsung dari workbook Excel menggunakan Aspose.Cells dalam C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

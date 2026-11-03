@@ -60,6 +60,9 @@ táblázatos adatok formázása javíthatja az olvashatóságot és az esztétik
 Végül beszéljünk az apró részletekről, amelyek nagy különbséget jelentenek. Az, hogy a HTML-exportálás során egyetlen lapfül nevét is be lehet állítani, átláthatóbbá teheti a HTML-jelentésekkel interakcióba lépő felhasználókat. Ez az apró módosítás jobb navigációt tesz lehetővé, különösen összetett, több munkalapot tartalmazó jelentések esetén. Végül is ki ne értékelné a kis rendszerezést? [Itt megtudhatja, hogyan egyszerűsítheti a tabok használatát.](./setting-single-sheet-tab-name/).
 
 ## Excel exportálása HTML-be speciális beállításokkal oktatóanyagok
+### [How to use wrapcols and embed fonts saving Excel to HTML](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+
+
 ### [How to export Excel to HTML while preserving frozen panes](./how-to-export-excel-to-html-while-preserving-frozen-panes/)
 
 
