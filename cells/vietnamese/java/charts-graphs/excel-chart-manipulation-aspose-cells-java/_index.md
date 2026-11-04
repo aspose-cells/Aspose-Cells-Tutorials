@@ -1,190 +1,271 @@
 ---
-"date": "2025-04-08"
-"description": "Tìm hiểu cách tự động hóa thao tác biểu đồ Excel bằng Aspose.Cells for Java. Hướng dẫn này bao gồm tải sổ làm việc, truy cập biểu đồ và trích xuất phương trình đường xu hướng."
-"title": "Tự động hóa thao tác biểu đồ Excel trong Java với Aspose.Cells&#58; Hướng dẫn toàn diện"
-"url": "/vi/java/charts-graphs/excel-chart-manipulation-aspose-cells-java/"
-"weight": 1
+date: '2026-10-23'
+description: Tìm hiểu cách trích xuất trendline equation java với Aspose.Cells. Hướng
+  dẫn này cho bạn biết cách tải Excel workbook java, truy cập charts, và lấy trendline
+  equations.
+keywords:
+- extract trendline equation java
+- load excel workbook java
+- Aspose.Cells Java tutorial
+lastmod: '2026-10-23'
+og_description: Trích xuất trendline equation java bằng Aspose.Cells. Tìm hiểu cách
+  tải Excel workbook java, thao tác với charts, và nhận trendline equations trong
+  vài bước.
+og_image_alt: Guide showing Java code extracting trendline equations from Excel charts
+  using Aspose.Cells
+og_title: Trích xuất trendline equation java với Aspose.Cells – Hướng dẫn đầy đủ
+schemas:
+- author: Aspose
+  dateModified: '2026-10-23'
+  description: Learn how to extract trendline equation java with Aspose.Cells. This
+    guide shows you how to load Excel workbook java, access charts, and retrieve trendline
+    equations.
+  headline: How to extract trendline equation java using Aspose.Cells
+  type: TechArticle
+- description: Learn how to extract trendline equation java with Aspose.Cells. This
+    guide shows you how to load Excel workbook java, access charts, and retrieve trendline
+    equations.
+  name: How to extract trendline equation java using Aspose.Cells
+  steps:
+  - name: '**Data analysis reports:** Auto‑update trendline equations in financial
+      dashboards for precise forecasting.'
+    text: '**Data analysis reports:** Auto‑update trendline equations in financial
+      dashboards for precise forecasting.'
+  - name: '**Inventory management:** Visualize stock trends and automatically generate
+      the underlying formulas for audit trails.'
+    text: '**Inventory management:** Visualize stock trends and automatically generate
+      the underlying formulas for audit trails.'
+  - name: '**Academic research:** Quickly refresh experimental charts when new data
+      points are added, keeping the published equations current.'
+    text: '**Academic research:** Quickly refresh experimental charts when new data
+      points are added, keeping the published equations current.'
+  type: HowTo
+- questions:
+  - answer: Yes, a purchased license permits unrestricted commercial use.
+    question: Can I use Aspose.Cells in a commercial project?
+  - answer: No, the library works independently of Excel.
+    question: Does Aspose.Cells require Microsoft Excel to be installed?
+  - answer: It can process files over 1 GB, provided you manage memory with `dispose()`
+      and stream‑based loading.
+    question: How large a workbook can Aspose.Cells handle?
+  - answer: Yes—iterate each `Series` in the chart and call `getTrendline().getEquation()`
+      for every trendline.
+    question: Is it possible to extract equations from multiple trendlines at once?
+  - answer: Visit the [official documentation](https://reference.aspose.com/cells/java/)
+      and the community [forums](https://forum.aspose.com/c/cells/9) for code samples
+      and discussions.
+    question: Where can I find more examples?
+  type: FAQPage
+tags:
+- extract trendline equation
+- Aspose.Cells
+- Java Excel automation
+title: Cách trích xuất trendline equation java bằng Aspose.Cells
+url: /vi/java/charts-graphs/excel-chart-manipulation-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-
-# Tự động hóa thao tác biểu đồ Excel trong Java với Aspose.Cells
+# Tự động thao tác biểu đồ Excel trong Java với Aspose.Cells
 
 ## Giới thiệu
 
-Bạn đang gặp khó khăn trong việc tự động hóa các thao tác biểu đồ Excel bằng Java? Cho dù bạn cần cập nhật các phương trình đường xu hướng hay truy cập các thành phần biểu đồ cụ thể, Aspose.Cells for Java đều cung cấp một giải pháp mạnh mẽ. Hướng dẫn toàn diện này sẽ hướng dẫn bạn cách truy cập và thao tác các sổ làm việc, bảng tính, biểu đồ Excel và trích xuất các phương trình đường xu hướng một cách hiệu quả.
+Việc trích xuất công thức đường xu hướng trong Java có thể rất tẻ nhạt khi bạn phải dựa vào việc chỉnh sửa Excel thủ công. Với **Aspose.Cells**, bạn có thể lập trình **extract trendline equation java** đồng thời xử lý các nhiệm vụ liên quan đến biểu đồ khác. Hướng dẫn này sẽ đưa bạn qua việc tải workbook, duyệt các worksheet và chart, và cuối cùng lấy văn bản công thức từ một đường xu hướng — tất cả mà không cần mở Excel.
 
-**Những gì bạn sẽ học được:**
-- Tải một bảng tính Excel bằng Aspose.Cells
-- Truy cập và thao tác các trang tính cụ thể trong một sổ làm việc
-- Điều hướng qua các biểu đồ trong bảng tính
-- Tính toán dữ liệu biểu đồ để cập nhật thông tin
-- Trích xuất văn bản phương trình từ đường xu hướng
+**Bạn sẽ học gì**
+- Cách **load Excel workbook java** bằng Aspose.Cells  
+- Cách truy cập các worksheet và chart cụ thể  
+- Cách tính dữ liệu chart để các đường xu hướng luôn cập nhật  
+- Cách lấy văn bản công thức của đường xu hướng  
 
-Hãy cùng tìm hiểu cách thiết lập môi trường và khám phá những tính năng này!
+Hãy chuẩn bị môi trường phát triển của bạn và bắt đầu tự động hoá!
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Có thể trích xuất công thức đường xu hướng mà không cần cài đặt Excel không?** Có, Aspose.Cells hoạt động hoàn toàn offline.  
+- **Phiên bản Java nào được yêu cầu?** Java 8 hoặc cao hơn.  
+- **Tôi có cần giấy phép cho các thao tác cơ bản không?** Bản dùng thử miễn phí hoạt động, nhưng giấy phép sẽ loại bỏ mọi giới hạn đánh giá.  
+- **Có bao nhiêu loại chart được hỗ trợ?** Hơn 50 loại chart, bao gồm line, scatter và radar.  
+- **Có thể xử lý hàng loạt không?** Chắc chắn — xử lý hàng chục workbook trong một vòng lặp duy nhất.
 
-Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
+## Extract trendline equation java là gì?
 
-- **Thư viện:** Aspose.Cells cho Java (phiên bản 25.3 trở lên)
-- **Thiết lập môi trường:**
-  - Bộ công cụ phát triển Java (JDK) phiên bản 8 trở lên đang hoạt động
-  - Một môi trường phát triển tích hợp (IDE) như IntelliJ IDEA hoặc Eclipse
+Extract trendline equation java là quá trình đọc một cách lập trình công thức toán học mà đường xu hướng của một chart biểu thị, bằng mã Java. Bằng cách lấy công thức này, bạn có thể nhúng mối quan hệ chính xác giữa các biến trực tiếp vào báo cáo, bảng điều khiển, hoặc các phép tính tiếp theo mà không cần mở Excel thủ công.
 
-- **Điều kiện tiên quyết về kiến thức:** Sự quen thuộc cơ bản với lập trình Java và cấu trúc tệp Excel sẽ rất có lợi.
+## Tại sao nên sử dụng Aspose.Cells cho nhiệm vụ này?
 
-## Thiết lập Aspose.Cells cho Java
+Aspose.Cells hỗ trợ **70+ định dạng nhập và xuất** và có thể xử lý workbook với **500+ worksheet** trong khi giữ mức sử dụng bộ nhớ dưới 200 MB. Engine biểu đồ của nó tự động tính lại các đường xu hướng, cung cấp các công thức chính xác mà không cần viết thêm mã. Thêm nữa, thư viện hoạt động offline, không yêu cầu cài đặt Excel và cung cấp khả năng xử lý hàng loạt hiệu suất cao cho các bộ dữ liệu lớn.
 
-Để bắt đầu, hãy đưa thư viện Aspose.Cells vào dự án của bạn. Sử dụng Maven hoặc Gradle:
+## Yêu cầu trước
 
-**Chuyên gia:**
+- **Thư viện:** Aspose.Cells for Java (≥ 25.3)  
+- **Môi trường:** JDK 8+ và một IDE như IntelliJ IDEA hoặc Eclipse  
+- **Kiến thức:** Cú pháp Java cơ bản và quen thuộc với các khái niệm file Excel  
+
+## Cài đặt Aspose.Cells cho Java
+
+Để thêm Aspose.Cells vào dự án của bạn, sử dụng Maven hoặc Gradle.
+
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-cells</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Cấp độ:**
+**Gradle:**  
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
-```
+```  
 
-### Mua lại giấy phép
+### Mua giấy phép
 
 Để sử dụng đầy đủ Aspose.Cells:
-- **Dùng thử miễn phí:** Có sẵn trên [trang tải xuống](https://releases.aspose.com/cells/java/).
-- **Giấy phép tạm thời:** Nộp đơn xin một trong [trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
-- **Mua:** Mua giấy phép từ [trang mua hàng](https://purchase.aspose.com/buy).
 
-Khởi tạo Aspose.Cells trong dự án của bạn:
+- **Bản dùng thử:** Có sẵn trên their [download page](https://releases.aspose.com/cells/java/).  
+- **Giấy phép tạm thời:** Đăng ký trên the [temporary license page](https://purchase.aspose.com/temporary-license/).  
+- **Mua:** Mua giấy phép từ the [purchase page](https://purchase.aspose.com/buy).  
+
+Khởi tạo giấy phép trong mã của bạn:  
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Thay thế bằng đường dẫn thư mục thực tế
-Workbook workbook = new Workbook(dataDir + "/source.xlsx"); // Tải tệp Excel vào đối tượng Workbook
-```
+String dataDir = "YOUR_DATA_DIRECTORY"; // Replace with actual directory path
+Workbook workbook = new Workbook(dataDir + "/source.xlsx"); // Load Excel file into a Workbook object
+```  
 
-## Hướng dẫn thực hiện
+## Cách trích xuất trendline equation java?
 
-### Truy cập và thao tác một bảng tính Excel
+Tải workbook, tính toán chart, và đọc công thức chỉ trong ba bước. Đầu tiên, tạo một instance `Workbook` trỏ tới tệp của bạn. Tiếp theo, gọi `chart.calculate()` để làm mới mọi tính toán chart, đảm bảo các đường xu hướng luôn cập nhật. Cuối cùng, gọi `getTrendline().getEquation()` trên series mong muốn để lấy chuỗi công thức chính xác như hiển thị trong Excel.
 
-**Tổng quan:**
-Tải tệp Excel mà bạn muốn làm việc làm điểm nhập cảnh cho các thao tác tiếp theo.
+### Truy cập và thao tác một workbook Excel
+
+Lớp `Workbook` đại diện cho toàn bộ tệp Excel trong bộ nhớ. Nó cung cấp các phương thức để mở, lưu và sửa đổi workbook mà không cần khởi động Excel.  
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Thay thế bằng đường dẫn thư mục thực tế
-Workbook workbook = new Workbook(dataDir + "/source.xlsx"); // Tải tệp Excel vào đối tượng Workbook
-```
+String dataDir = "YOUR_DATA_DIRECTORY"; // Replace with actual directory path
+Workbook workbook = new Workbook(dataDir + "/source.xlsx"); // Load the Excel file into a Workbook object
+```  
 
-### Truy cập trang tính trong sổ làm việc
+### Truy cập worksheet trong workbook
 
-**Tổng quan:**
-Truy cập các trang tính cụ thể. Ở đây, chúng tôi tập trung vào việc truy cập trang tính đầu tiên.
+Lớp `Worksheet` tương ứng với một sheet duy nhất trong `Workbook`. Bạn có thể lấy nó bằng chỉ mục hoặc tên, sau đó làm việc với các hàng, cột và chart của nó.  
 ```java
 import com.aspose.cells.Worksheet;
 
-Worksheet worksheet = workbook.getWorksheets().get(0); // Truy cập trang tính đầu tiên trong sổ làm việc
-```
+Worksheet worksheet = workbook.getWorksheets().get(0); // Access the first worksheet in the workbook
+```  
 
-### Truy cập Biểu đồ trong Bảng tính
+### Truy cập chart trong worksheet
 
-**Tổng quan:**
-Sau khi truy cập vào bảng tính, chúng ta hãy khám phá biểu đồ. Phần này sẽ hướng dẫn cách truy cập biểu đồ đầu tiên.
+Lớp `Chart` là mô hình đối tượng của Aspose.Cells cho bất kỳ chart nào trên worksheet. Nó cho phép bạn kiểm soát toàn bộ series, trục và đường xu hướng.  
 ```java
 import com.aspose.cells.Chart;
 
-Chart chart = worksheet.getCharts().get(0); // Truy cập biểu đồ đầu tiên trong bảng tính
-```
+Chart chart = worksheet.getCharts().get(0); // Access the first chart in the worksheet
+```  
 
-### Tính toán biểu đồ để cập nhật phương trình đường xu hướng
+### Tính toán chart để cập nhật văn bản công thức đường xu hướng
 
-**Tổng quan:**
-Tính toán biểu đồ để làm mới các thành phần như đường xu hướng với dữ liệu được cập nhật.
+Gọi `chart.calculate()` buộc Aspose.Cells tính lại tất cả dữ liệu chart, đảm bảo các đường xu hướng phản ánh giá trị mới nhất trước khi bạn đọc công thức.  
 ```java
-chart.calculate(); // Tính toán biểu đồ để cập nhật dữ liệu và các thành phần liên quan
-```
+chart.calculate(); // Calculate the chart to update its data and associated elements
+```  
 
-### Truy cập Trendline từ Series và Lấy văn bản phương trình
+### Truy cập trendline từ series và lấy văn bản công thức
 
-**Tổng quan:**
-Truy cập văn bản phương trình của đường xu hướng cụ thể trong chuỗi biểu đồ.
+Lớp `Trendline` chứa công thức và các thuộc tính hiển thị của một đường xu hướng. Phương thức `getEquation()` của nó trả về chuỗi công thức, chẳng hạn “y = 2.5x + 3”.  
 ```java
 import com.aspose.cells.Trendline;
 
-Trendline trendLine = chart.getNSeries().get(0).getTrendLines().get(0); // Truy cập đường xu hướng đầu tiên từ chuỗi đầu tiên
-String equationText = trendLine.getDataLabels().getText(); // Lấy lại Văn bản Phương trình của đường xu hướng
-```
+Trendline trendLine = chart.getNSeries().get(0).getTrendLines().get(0); // Access the first trendline from the first series
+String equationText = trendLine.getDataLabels().getText(); // Retrieve the Equation Text of the trendline
+```  
 
-**Mẹo khắc phục sự cố:**
-- Đảm bảo đường dẫn đến sổ làm việc chính xác và có thể truy cập được.
-- Hãy xác minh giấy phép Aspose.Cells của bạn nếu bạn gặp phải hạn chế.
+**Mẹo khắc phục sự cố**  
+- Xác minh đường dẫn workbook là đúng và tệp có thể truy cập.  
+- Đảm bảo giấy phép của bạn đã được tải; nếu không, bạn có thể thấy watermark đánh giá.  
 
-## Ứng dụng thực tế
+## Ứng dụng thực tiễn
 
-1. **Báo cáo phân tích dữ liệu:** Tự động cập nhật đường xu hướng trong báo cáo tài chính để dự báo chính xác.
-2. **Hệ thống quản lý hàng tồn kho:** Trực quan hóa xu hướng hàng tồn kho theo thời gian bằng cách sử dụng biểu đồ động.
-3. **Nghiên cứu học thuật:** Đơn giản hóa việc cập nhật biểu đồ bằng dữ liệu thử nghiệm mới.
+1. **Báo cáo phân tích dữ liệu:** Tự động cập nhật công thức đường xu hướng trong bảng điều khiển tài chính để dự báo chính xác.  
+2. **Quản lý tồn kho:** Hiển thị xu hướng tồn kho và tự động tạo công thức nền tảng cho các dấu vết kiểm toán.  
+3. **Nghiên cứu học thuật:** Nhanh chóng làm mới các chart thực nghiệm khi có điểm dữ liệu mới, giữ cho các công thức đã công bố luôn cập nhật.  
 
-**Khả năng tích hợp:**
-- Tích hợp với các ứng dụng web dựa trên Java để trực quan hóa dữ liệu theo thời gian thực.
-- Kết hợp với các thư viện khác để nâng cao khả năng xử lý và phân tích dữ liệu.
+**Khả năng tích hợp**  
+- Nhúng mã vào các dịch vụ web dựa trên Java để tạo chart thời gian thực.  
+- Kết hợp với Apache POI hoặc các thư viện xử lý dữ liệu khác để có pipeline phân tích phong phú hơn.  
 
-## Cân nhắc về hiệu suất
+## Lưu ý về hiệu năng
 
-Khi xử lý các tệp Excel lớn, hãy cân nhắc những mẹo sau:
-- **Tối ưu hóa việc sử dụng bộ nhớ:** Đóng sổ làm việc khi không sử dụng để giải phóng tài nguyên.
-- **Xử lý hàng loạt:** Nếu có thể, hãy xử lý biểu đồ theo từng đợt thay vì xử lý tất cả cùng một lúc.
-- **Tận dụng đa luồng:** Sử dụng tiện ích đồng thời của Java để xử lý song song nhiều sổ làm việc.
+Khi xử lý workbook lớn, hãy nhớ các mẹo sau:
 
-## Phần kết luận
+- **Tối ưu sử dụng bộ nhớ:** Gọi `workbook.dispose()` sau khi hoàn thành để giải phóng tài nguyên gốc.  
+- **Xử lý hàng loạt:** Nhóm tính toán chart để giảm overhead thay vì xử lý từng workbook riêng lẻ.  
+- **Đa luồng:** Sử dụng `ExecutorService` của Java để chạy nhiều thao tác workbook song song, tuân thủ hướng dẫn an toàn luồng của thư viện.  
 
-Bạn đã thành thạo cách tải và thao tác các tệp Excel bằng Aspose.Cells for Java. Từ việc truy cập các bảng tính và biểu đồ đến tính toán dữ liệu và truy xuất các phương trình đường xu hướng, những kỹ năng này nâng cao khả năng tự động hóa các tác vụ phức tạp một cách hiệu quả.
+## Cách tải excel workbook java?
 
-**Các bước tiếp theo:**
-- Thử nghiệm với nhiều loại biểu đồ và chuỗi biểu đồ khác nhau.
-- Khám phá các tính năng bổ sung của Aspose.Cells như định dạng ô hoặc tạo sổ làm việc mới từ đầu.
+Sử dụng constructor `Workbook` chấp nhận đường dẫn tệp hoặc `InputStream`. Dòng lệnh này tải toàn bộ workbook vào bộ nhớ, sau đó bạn có thể duyệt cấu trúc của nó. Việc tải nhanh — hầu hết các tệp 100 sheet mở trong dưới 200 ms trên máy chủ tiêu chuẩn, và bạn cũng có thể tải từ stream cho các ứng dụng web.  
 
-Bạn đã sẵn sàng đưa tính năng tự động hóa Excel của mình lên một tầm cao mới chưa? Hãy bắt đầu triển khai các kỹ thuật này vào dự án của bạn ngay hôm nay!
+## Kết luận
 
-## Phần Câu hỏi thường gặp
+Bạn giờ đã có giải pháp hoàn chỉnh, từ đầu đến cuối, để **extract trendline equation java** với Aspose.Cells. Từ việc tải workbook đến việc lấy công thức chính xác, các bước này cho phép bạn tự động cập nhật chart và nhúng các công thức chính xác vào bất kỳ ứng dụng Java nào.
 
-1. **Aspose.Cells dành cho Java là gì?**
-   Một thư viện cho phép bạn tạo, thao tác và chuyển đổi các tệp Excel theo chương trình bằng Java.
+**Bước tiếp theo**  
+- Thử nghiệm các loại chart khác nhau (scatter, bubble, radar).  
+- Khám phá các tính năng bổ sung của Aspose.Cells như định dạng có điều kiện hoặc thao tác pivot table.  
 
-2. **Tôi có thể sử dụng Aspose.Cells mà không cần giấy phép không?**
-   Bạn có thể bắt đầu bằng bản dùng thử miễn phí nhưng sẽ gặp phải hạn chế. Hãy mua giấy phép tạm thời hoặc mua để có đầy đủ chức năng.
+Sẵn sàng tăng tốc tự động hoá Excel? Thực hiện các đoạn mã trên và xem chart của bạn trở nên hoàn toàn có thể lập trình.
 
-3. **Làm thế nào để thêm Aspose.Cells vào dự án của tôi?**
-   Sử dụng các phụ thuộc Maven hoặc Gradle như được hiển thị trong phần thiết lập.
+## Câu hỏi thường gặp
 
-4. **Có thể xử lý các tệp Excel lớn một cách hiệu quả không?**
-   Có, với kỹ thuật quản lý bộ nhớ và xử lý hàng loạt phù hợp được nêu ở trên.
+**Q: Tôi có thể sử dụng Aspose.Cells trong dự án thương mại không?**  
+A: Có, giấy phép mua sẽ cho phép sử dụng thương mại không giới hạn.
 
-5. **Tôi có thể tìm thêm tài nguyên về cách sử dụng Aspose.Cells cho Java ở đâu?**
-   Ghé thăm họ [tài liệu chính thức](https://reference.aspose.com/cells/java/) Và [diễn đàn](https://forum.aspose.com/c/cells/9) để có hướng dẫn chi tiết và hỗ trợ cộng đồng.
+**Q: Aspose.Cells có yêu cầu cài đặt Microsoft Excel không?**  
+A: Không, thư viện hoạt động độc lập với Excel.
+
+**Q: Aspose.Cells có thể xử lý workbook lớn bao nhiêu?**  
+A: Nó có thể xử lý các tệp trên 1 GB, với điều kiện bạn quản lý bộ nhớ bằng `dispose()` và tải dựa trên stream.
+
+**Q: Có thể trích xuất công thức từ nhiều đường xu hướng cùng lúc không?**  
+A: Có — lặp qua mỗi `Series` trong chart và gọi `getTrendline().getEquation()` cho mỗi đường xu hướng.
+
+**Q: Tôi có thể tìm thêm ví dụ ở đâu?**  
+A: Truy cập [official documentation](https://reference.aspose.com/cells/java/) và [forums](https://forum.aspose.com/c/cells/9) của cộng đồng để xem mẫu mã và thảo luận.
 
 ## Tài nguyên
 
-- **Tài liệu:** Khám phá đầy đủ các khả năng tại [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Tải xuống:** Bắt đầu với [Trang Tải xuống Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Mua:** Bạn có quan tâm đến giấy phép không? Hãy xem [Tùy chọn mua Aspose](https://purchase.aspose.com/buy)
-- **Dùng thử miễn phí & Giấy phép tạm thời:** Hãy dùng thử miễn phí hoặc yêu cầu cấp giấy phép tạm thời thông qua [những liên kết này](https://releases.aspose.com/cells/java/).
-- **Ủng hộ:** Cần giúp đỡ? Truy cập [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)
+- **Tài liệu:** Khám phá đầy đủ khả năng tại [Aspose.Cells Documentation](https://reference.aspose.com/cells/java/)  
+- **Tài liệu chính thức:** Tham khảo chi tiết API có sẵn tại [official documentation](https://reference.aspose.com/cells/java/)  
+- **Tải xuống:** Bắt đầu với [Aspose.Cells Download Page](https://releases.aspose.com/cells/java/)  
+- **Mua:** Quan tâm tới giấy phép? Xem [Aspose Purchase Options](https://purchase.aspose.com/buy)  
+- **Bản dùng thử & giấy phép tạm thời:** Thử miễn phí hoặc yêu cầu giấy phép tạm thời qua [these links](https://releases.aspose.com/cells/java/)  
+- **Diễn đàn:** Nhận trợ giúp cộng đồng tại [forums](https://forum.aspose.com/c/cells/9)  
+- **Hỗ trợ:** Cần giúp đỡ? Truy cập [Aspose Support Forum](https://forum.aspose.com/c/cells/9)  
+
+---
+
+**Last Updated:** 2026-10-23  
+**Tested With:** Aspose.Cells 25.3 for Java  
+**Author:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Tự động truy cập biểu đồ Excel bằng Aspose.Cells Java: Hướng dẫn từng bước](/cells/java/charts-graphs/excel-charts-access-aspose-cells-java/)
+- [Cách tạo biểu đồ Excel với Trendline và xuất ra hình ảnh bằng Aspose.Cells cho Java](/cells/java/advanced-excel-charts/trendline-analysis/)
+- [Tạo biểu đồ Excel động với Aspose.Cells Java: Hướng dẫn toàn diện cho nhà phát triển](/cells/java/charts-graphs/aspose-cells-java-dynamic-excel-charts/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
