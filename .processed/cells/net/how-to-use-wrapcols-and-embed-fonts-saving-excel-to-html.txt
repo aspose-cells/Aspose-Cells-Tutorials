@@ -1,0 +1,7 @@
+Title: How to use wrapcols and embed fonts saving Excel to HTML
+Slug: how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html
+Category: exporting-excel-to-html-with-advanced-options
+ProcessedDate: 2026-10-20T17:50:51.142265
+SourceRepo: AI Search API
+Keywords: how to use wrapcols, embed fonts in html, save excel as html, convert workbook to html, use wrapcols function
+PRNumber: 196

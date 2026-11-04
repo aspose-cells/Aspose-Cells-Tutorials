@@ -66,6 +66,8 @@ Java için Aspose.Cells kullanarak yeni bir çalışma kitabı oluşturup pivot 
 Aspose.Cells for Java kullanarak bir çalışma sayfasını kopyalarken pivot tablolarını korumayı öğrenin.
 ### [Java’da Aspose.Cells kullanarak Pivot Kopyalama](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
 Java’da Aspose.Cells ile pivot tabloyu kolayca çoğaltın ve verileri yeniden kullanın.
+### [Java’da Aspose.Cells ile Pivot Tablo Kopyalama – Adım Adım Rehber](./how-to-copy-pivot-table-in-java-with-aspose-cells-step-by-st/)
+Aspose.Cells for Java kullanarak bir pivot tabloyu adım adım nasıl kopyalayacağınızı öğrenin.
 ### [Java’da aralığı kopyala ve pivot tabloyu koru](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
 Aspose.Cells for Java kullanarak bir aralığı kopyalayıp pivot tabloyu koruyun.
 ### [Java ile Excel'de Pivot Tabloları Nasıl Çoğaltılır – Adım Adım Kılavuz](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
