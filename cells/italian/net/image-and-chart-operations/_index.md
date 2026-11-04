@@ -47,6 +47,9 @@ Scopri come esportare i fogli di calcolo Excel in immagini PNG con Aspose.Cells,
 ### [Come esportare un intervallo Excel come immagine con C# e Aspose.Cells](./how-to-export-excel-range-as-image-with-c-and-aspose-cells/)
 Scopri come esportare un intervallo di celle Excel come immagine in .NET usando Aspose.Cells, passo dopo passo.
 
+### [Come esportare le tabelle pivot come immagini usando Aspose.Cells in C#](./how-to-export-pivot-tables-as-images-using-aspose-cells-in-c/)
+Scopri come esportare le tabelle pivot di Excel come immagini in C# con Aspose.Cells, passo dopo passo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

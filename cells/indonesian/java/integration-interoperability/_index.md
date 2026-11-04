@@ -51,10 +51,10 @@ Pelajari cara menggunakan Aspose.Cells untuk Java guna mengelola ekstensi web Ex
 Pelajari cara mengotomatiskan tugas Excel dengan Aspose.Cells untuk Java, termasuk memuat buku kerja, mengatur opsi globalisasi, menambahkan subtotal, menghitung rumus, dan menyesuaikan kolom secara otomatis.
 
 ### [Menguasai Implementasi Kelas Guru Java dengan Integrasi Aspose.Cells](./master-teacher-class-java-aspose-cells/)
-Pelajari cara mengimplementasikan kelas Guru di Java, mengelola data siswa, dan mengintegrasikan Aspose.Cells untuk penanganan file Excel yang lebih baik.
-
 ### [Mengonversi Excel ke PPTX dengan Java – Panduan Pemrograman Lengkap](./convert-excel-to-pptx-with-java-complete-programming-guide/)
 Pelajari cara mengonversi file Excel menjadi presentasi PPTX menggunakan Aspose.Cells untuk Java dalam panduan pemrograman lengkap.
+### [Cara mengekspor diagram ke DOCX dari Excel menggunakan Aspose.Cells untuk Java](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
+Pelajari cara mengekspor grafik Excel ke file DOCX menggunakan Aspose.Cells untuk Java dalam beberapa langkah mudah.
 
 ### [Cara Mengekspor Diagram dari Excel ke Word – Panduan Java](./how-to-export-charts-from-excel-to-word-java-guide/)
 
@@ -83,6 +83,8 @@ Pelajari cara menggunakan fungsi WRAPCOLS di Java dengan Aspose.Cells untuk meng
 
 ### [Cara menyematkan font saat mengonversi Excel ke PDF dengan Java](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
 Panduan langkah demi langkah untuk menyematkan font dalam PDF yang dihasilkan dari file Excel menggunakan Aspose.Cells untuk Java.
+### [Excel ke PPTX: Panduan Lengkap Java untuk Mengekspor Bentuk yang Dapat Diedit](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
+Panduan langkah demi langkah untuk mengekspor bentuk yang dapat diedit dari Excel ke file PPTX menggunakan Aspose.Cells untuk Java.
 
 ## Sumber Daya Tambahan
 

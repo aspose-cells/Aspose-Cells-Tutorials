@@ -60,6 +60,9 @@ táblázatos adatok formázása javíthatja az olvashatóságot és az esztétik
 Végül beszéljünk az apró részletekről, amelyek nagy különbséget jelentenek. Az, hogy a HTML-exportálás során egyetlen lapfül nevét is be lehet állítani, átláthatóbbá teheti a HTML-jelentésekkel interakcióba lépő felhasználókat. Ez az apró módosítás jobb navigációt tesz lehetővé, különösen összetett, több munkalapot tartalmazó jelentések esetén. Végül is ki ne értékelné a kis rendszerezést? [Itt megtudhatja, hogyan egyszerűsítheti a tabok használatát.](./setting-single-sheet-tab-name/).
 
 ## Excel exportálása HTML-be speciális beállításokkal oktatóanyagok
+### [How to use wrapcols and embed fonts saving Excel to HTML](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+
+
 ### [How to export Excel to HTML while preserving frozen panes](./how-to-export-excel-to-html-while-preserving-frozen-panes/)
 
 
@@ -110,6 +113,12 @@ Egyszerűen beállíthat egyetlen lapfül nevét HTML exportálás során az Asp
 ### [Excel mentése HTML-ként – Teljes útmutató az Excel formázott exportálásához](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
 ### [Excel exportálása HTML-be – Teljes útmutató a befagyasztott panelek megőrzéséhez](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
 Ismerje meg, hogyan exportálhatja az Excel-fájlokat HTML-be úgy, hogy a befagyasztott panelek megmaradjanak, lépésről lépésre útmutatóval.
+### [Betűtípusok beágyazása HTML-be munkafüzet mentésekor](./how-to-embed-fonts-in-html-when-saving-a-workbook/)
+
+### [Hogyan exportáljunk xlsx-et HTML-be fagyasztott panelekkel C#-ban](./how-to-export-xlsx-to-html-with-frozen-panes-in-c/)
+### [Betűtípusok beágyazása HTML-be – Excel konvertálása HTML-be C#-al](./how-to-embed-fonts-in-html-convert-excel-to-html/)
+### [Betűtípusok beágyazása HTML-be Excel konvertálásakor az Aspose.Cells használatával](./how-to-embed-fonts-when-converting-excel-to-html-with-aspose/)
+Ismerje meg, hogyan ágyazhat be betűtípusokat az Excel HTML-re konvertálásakor az Aspose.Cells használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

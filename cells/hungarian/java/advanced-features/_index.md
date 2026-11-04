@@ -112,6 +112,8 @@ Learn to automate slicer updates in Excel files with Aspose.Cells for Java. Foll
 
 ### [Dátum elemzése helyi beállítással Java‑ban – Teljes lépésről‑lépésre útmutató](./parse-date-with-locale-in-java-complete-step-by-step-guide/)
 Tanulja meg, hogyan lehet Java‑ban helyi beállítással dátumot helyesen értelmezni lépésről‑lépésre.
+### [Wrapcols használata Java-ban – tömb átalakítása Excelben](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
+Tanulja meg, hogyan alakíthatja át a tömböket Excelben a wrapcols funkcióval Java és Aspose.Cells segítségével.
 
 ## Additional Resources
 

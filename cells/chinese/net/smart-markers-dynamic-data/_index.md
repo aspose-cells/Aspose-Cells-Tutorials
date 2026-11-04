@@ -98,6 +98,8 @@ Aspose.Cells 智能标记器还支持匿名类型，无需预定义结构即可�
 ### [在 Aspose.Cells 中使用标记实现 Excel 动态工作表命名](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
 学习如何使用 Aspose.Cells 的智能标记在生成的 Excel 文件中动态命名工作表，实现报表自动化。
 
+### [在 C# 中为 JSON 数组配置 SmartMarkerOptions ArrayAsSingle](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
+了解如何在 C# 使用 Aspose.Cells 的 SmartMarkerOptions 将 JSON 数组视为单个数组进行填充。
 ### [如何在 C# 中使用 SmartMarker 生成 Excel 报告 – 完整指南](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
 ### [在 Aspose.Cells 中使用智能标记创建动态工作表](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 ### [在 Aspose.Cells 中使用智能标记编写模板 – 步骤指南](./how-to-write-template-with-smart-markers-step-by-step-guide/)
@@ -137,6 +139,7 @@ Aspose.Cells 智能标记器还支持匿名类型，无需预定义结构即可�
 本指南详细讲解在 C# 中使用 Aspose.Cells 导出 Excel 文件的完整步骤，帮助开发者快速生成高质量报表。
 ### [在 Aspose.Cells 中使用 SmartMarker 填充模板以重复 Excel 数据](./repeat-data-in-excel-populate-template-with-smartmarker/)
 学习如何使用 Aspose.Cells SmartMarker 在模板中重复插入数据，实现批量生成 Excel 报表。
+### [使用 Aspose.Cells 智能标记从 JSON 创建 Excel](./create-excel-from-json-with-aspose-cells-smart-marker/)
 ### [如何自动命名工作表 – 在 C# 中生成多个工作表](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 ### [自动化发票生成 – 动态工作表命名与重复（C#）](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
 学习如何使用 Aspose.Cells for .NET 在 C# 中自动生成发票，动态命名工作表并实现重复数据填充。

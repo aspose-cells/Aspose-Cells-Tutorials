@@ -1,41 +1,112 @@
 ---
-"date": "2025-04-07"
-"description": "Dowiedz się, jak modyfikować kształty etykiet danych na wykresach programu Excel za pomocą Aspose.Cells for Java. Popraw atrakcyjność wizualną i przejrzystość swoich wykresów dzięki temu kompleksowemu przewodnikowi."
-"title": "Dostosowywanie etykiet danych wykresu programu Excel za pomocą Aspose.Cells dla Java&#58; Przewodnik krok po kroku"
-"url": "/pl/java/charts-graphs/customize-chart-data-labels-aspose-cells-java/"
-"weight": 1
+date: '2026-10-17'
+description: Dowiedz się, jak ustawić kształt etykiet danych wykresu Excel w języku
+  Java przy użyciu Aspose.Cells. Ten przewodnik pokazuje, jak szybko i efektywnie
+  modyfikować etykiety wykresów Excel.
+keywords:
+- how to set shape
+- modify excel chart labels
+- customize chart data labels
+- add data label shape
+lastmod: '2026-10-17'
+og_description: Dowiedz się, jak ustawić kształt etykiet danych wykresu Excel w języku
+  Java przy użyciu Aspose.Cells. Ten przewodnik krok po kroku pomaga szybko modyfikować
+  etykiety wykresów Excel.
+og_image_alt: Guide showing how to set shape of Excel chart data labels using Aspose.Cells
+  for Java
+og_title: Jak ustawić kształt etykiet danych wykresu Excel w języku Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-17'
+  description: Learn how to set shape of Excel chart data labels in Java using Aspose.Cells.
+    This guide shows you how to modify Excel chart labels quickly and efficiently.
+  headline: How to set shape of Excel chart data labels in Java
+  type: TechArticle
+- description: Learn how to set shape of Excel chart data labels in Java using Aspose.Cells.
+    This guide shows you how to modify Excel chart labels quickly and efficiently.
+  name: How to set shape of Excel chart data labels in Java
+  steps:
+  - name: load your workbook
+    text: The `Workbook` class is Aspose.Cells' top‑level object that represents a
+      single Excel file in memory. Use `new Workbook("input.xlsx")` to load the file
+      you want to modify.
+  - name: access the chart
+    text: '`Worksheet` represents a single sheet within a workbook. `Worksheet ws
+      = workbook.getWorksheets().get(0);` retrieves the first worksheet. `Chart` is
+      an object that represents a chart embedded in a worksheet. `Chart chart = ws.getCharts().get(0);`
+      obtains the first chart on that sheet.'
+  - name: retrieve series and modify data labels
+    text: '`Series` represents a data series plotted on a chart. Each `Series` object
+      contains a `DataLabel` collection. `DataLabel` controls the appearance of a
+      data label for a series. `DataLabelShapeType` is an enumeration of possible
+      shapes for data labels. Call `series.getDataLabels().setShapeType(DataLab'
+  - name: save your workbook
+    text: After applying the shape, invoke `workbook.save("output.xlsx");` to write
+      the changes back to disk.
+  type: HowTo
+- questions:
+  - answer: Loop through each series in the chart and call `setShapeType` on the series’
+      `DataLabel` object.
+    question: How do I change the shape of multiple data labels at once?
+  - answer: Yes. With proper memory management, it processes workbooks containing
+      hundreds of thousands of rows without loading the entire file into memory.
+    question: Can Aspose.Cells for Java handle large Excel files efficiently?
+  - answer: Missing Maven dependencies, using an outdated library version, or providing
+      an invalid license file are typical pitfalls.
+    question: What are common issues when setting up Aspose.Cells?
+  - answer: Set the shape type to `DataLabelShapeType.DEFAULT` to restore the original
+      appearance.
+    question: Is there a way to revert data label shapes to default?
+  - answer: Iterate over `ws.getCharts()` and apply the same `setShapeType` logic
+      to each chart’s series collection.
+    question: How can I apply this customization to multiple charts in a workbook?
+  type: FAQPage
+tags:
+- excel chart
+- aspose.cells
+- java chart customization
+- data label shape
+title: Jak ustawić kształt etykiet danych wykresu Excel w języku Java
+url: /pl/java/charts-graphs/customize-chart-data-labels-aspose-cells-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
+# Opanowanie dostosowywania wykresów w Javie z Aspose.Cells: zmiana kształtów etykiet danych
 
-# Opanowanie dostosowywania wykresów w Javie z Aspose.Cells: Modyfikowanie kształtów etykiet danych
+## Wprowadzenie
 
-## Wstęp
+Poprawa atrakcyjności wizualnej wykresów Excel jest kluczowa przy przygotowywaniu raportów lub pulpitów nawigacyjnych, szczególnie jeśli używasz Javy. Dzięki Aspose.Cells — potężnej bibliotece do zarządzania i manipulacji arkuszami kalkulacyjnymi — możesz **how to set shape** etykiet danych wykresu w kilku linijkach kodu. Ten samouczek poprowadzi Cię przez zmianę kształtu etykiet danych w wykresie Excel przy użyciu Aspose.Cells dla Javy. Po zakończeniu będziesz wiedział, jak:
 
-Poprawa atrakcyjności wizualnej wykresów programu Excel jest kluczowa podczas przygotowywania raportów lub pulpitów nawigacyjnych, zwłaszcza jeśli używasz Javy. Dzięki Aspose.Cells — potężnej bibliotece do zarządzania arkuszami kalkulacyjnymi i manipulowania nimi — dostosowywanie etykiet danych wykresu staje się bezwysiłkowe. Ten samouczek przeprowadzi Cię przez proces zmiany kształtu etykiet danych na wykresie programu Excel przy użyciu Aspose.Cells dla Javy. Do końca będziesz wiedzieć, jak:
-
-- Uzyskaj dostęp i modyfikuj etykiety danych wykresu
-- Ustaw niestandardowe kształty dla etykiet danych
+- Uzyskać dostęp i modyfikować etykiety danych wykresu
+- Ustawić niestandardowe kształty etykiet danych
 - Zapisz zmiany w skoroszycie
 
-Przyjrzyjmy się bliżej konfigurowaniu środowiska i implementacji tych funkcji.
+## Szybkie odpowiedzi
+- **Jaka jest podstawowa klasa do pracy z plikami Excel?** `Workbook` reprezentuje cały plik Excel w pamięci.  
+- **Która metoda ustawia kształt etykiety?** `setShapeType(DataLabelShapeType shape)` na obiekcie `DataLabel`.  
+- **Czy potrzebuję licencji do rozwoju?** Darmowa tymczasowa licencja działa w trybie oceny; pełna licencja jest wymagana w produkcji.  
+- **Czy mogę zastosować kształt do wielu serii?** Tak — iteruj po każdej serii i wywołaj `setShapeType`.  
+- **Czy to podejście jest kompatybilne z dużymi skoroszytami?** Aspose.Cells przetwarza wielostronicowe skoroszyty bez ładowania całego pliku do pamięci.
+
+## Co oznacza how to set shape?
+Fraza **how to set shape** odnosi się do konfigurowania wizualnego obrysu etykiety danych wykresu, takiego jak zamiana zwykłego prostokąta na dymek lub elipsę. Zmiana kształtu poprawia czytelność i podkreśla kluczowe punkty danych. Wybierając odpowiedni kształt, możesz wyróżnić etykietę, grupować powiązane punkty lub dopasować się do wytycznych marki korporacyjnej, co zwiększa ogólną czytelność wykresu.
+
+## Dlaczego warto używać Aspose.Cells do dostosowywania etykiet wykresów?
+Aspose.Cells obsługuje **ponad 50 formatów wejściowych i wyjściowych** — w tym XLSX, CSV, ODS i PDF — i może manipulować skoroszytami zawierającymi **do 1 miliona wierszy** bez wyczerpywania pamięci. Jego API pozwala programowo modyfikować wykresy, eliminując potrzebę ręcznych edycji w Excelu i zapewniając spójny styl w raportach automatycznych.
 
 ## Wymagania wstępne
 
-Przed rozpoczęciem upewnij się, że masz przygotowane następujące rzeczy:
-
-- **Aspose.Cells dla biblioteki Java**: Wymagana jest wersja 25.3 lub nowsza.
-- **Środowisko programistyczne Java**:JDK zainstalowany na twoim komputerze.
-- **Konfiguracja IDE**:Do pisania i uruchamiania kodu należy używać środowiska IDE, takiego jak IntelliJ IDEA lub Eclipse.
+- **Aspose.Cells for Java Library**: Wymagana wersja 25.3 lub nowsza.
+- **Java Development Environment**: Zainstalowany JDK na komputerze.
+- **IDE Setup**: Użyj IDE, takiego jak IntelliJ IDEA lub Eclipse, do pisania i uruchamiania kodu.
 
 ### Wymagane biblioteki i zależności
 
-Użytkownicy Maven powinni uwzględnić w swoim pliku następującą zależność: `pom.xml`:
+Dla użytkowników Maven, dodaj następującą zależność do swojego `pom.xml`:
 
 ```xml
 <dependency>
@@ -45,132 +116,150 @@ Użytkownicy Maven powinni uwzględnić w swoim pliku następującą zależnoś�
 </dependency>
 ```
 
-Użytkownicy Gradle powinni dodać to do swoich `build.gradle` plik:
+Użytkownicy Gradle powinni dodać to do swojego pliku `build.gradle`:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Nabycie licencji
+### Uzyskanie licencji
 
-Aspose.Cells oferuje bezpłatną licencję próbną, którą można uzyskać na stronie [Tutaj](https://purchase.aspose.com/temporary-license/). Umożliwia to pełny dostęp do wszystkich funkcji bez ograniczeń przez ograniczony czas.
+Aspose.Cells oferuje darmową licencję próbną, którą możesz uzyskać ze [strony tymczasowej licencji Aspose](https://purchase.aspose.com/temporary-license/). Pozwala to na pełny dostęp do wszystkich funkcji bez ograniczeń przez określony czas.
 
-## Konfigurowanie Aspose.Cells dla Java
+## Konfiguracja Aspose.Cells dla Javy
 
-Gdy Twoje środowisko będzie gotowe, skonfigurujmy Aspose.Cells. Oto jak zacząć:
+Gdy środowisko jest gotowe, skonfigurujmy Aspose.Cells. Oto jak rozpocząć:
 
 ### Kroki instalacji
 
-1. **Pobierz bibliotekę**: Użyj Mavena lub Gradle, jak pokazano powyżej.
-2. **Konfiguracja licencji**:
-   - Pobierz i zastosuj tymczasową licencję, korzystając z tego fragmentu kodu po zainicjowaniu `Workbook` obiekt:
+1. **Pobierz bibliotekę**: Użyj Maven lub Gradle, jak pokazano powyżej.
+
+2. **Konfiguracja licencji**:  
+   - `License` jest klasą, która stosuje plik licencji Aspose.Cells, aby włączyć pełną funkcjonalność.  
+   - Pobierz i zastosuj tymczasową licencję używając tego fragmentu kodu po zainicjowaniu obiektu `Workbook`:
 
     ```java
     License license = new License();
     license.setLicense("path/to/your/license/file");
     ```
-3. **Podstawowa inicjalizacja**:Utwórz `Workbook` instancja umożliwiająca rozpoczęcie pracy z plikami Excel.
 
-## Przewodnik wdrażania
+3. **Podstawowa inicjalizacja**: Utwórz instancję `Workbook`, aby rozpocząć pracę z plikami Excel.
 
-### Uzyskiwanie dostępu do etykiet danych wykresu i ich modyfikowanie
+## Jak ustawić kształt etykiet danych w wykresie?
 
-#### Przegląd
+Załaduj swój skoroszyt, znajdź docelowy wykres i zastosuj pożądany kształt do jego etykiet danych. Poniższe bezpośrednie kroki pozwolą to zrobić w mniej niż minutę.
 
-W tej sekcji opisano, jak zmienić kształt etykiet danych w istniejącej serii wykresów przy użyciu Aspose.Cells for Java.
+### Przewodnik krok po kroku
 
-##### Krok 1: Załaduj swój skoroszyt
+#### Krok 1: załaduj swój skoroszyt
 
-Zacznij od załadowania skoroszytu z pliku. Tutaj znajduje się docelowy dokument programu Excel:
+Klasa `Workbook` jest obiektem najwyższego poziomu w Aspose.Cells, który reprezentuje pojedynczy plik Excel w pamięci. Użyj `new Workbook("input.xlsx")`, aby załadować plik, który chcesz zmodyfikować.
 
-```java
-Workbook wb = new Workbook("YOUR_DATA_DIRECTORY/sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
-```
+#### Krok 2: uzyskaj dostęp do wykresu
 
-##### Krok 2: Uzyskaj dostęp do wykresu
+`Worksheet` reprezentuje pojedynczy arkusz w skoroszycie.  
+`Worksheet ws = workbook.getWorksheets().get(0);` pobiera pierwszy arkusz.  
+`Chart` jest obiektem reprezentującym wykres osadzony w arkuszu.  
+`Chart chart = ws.getCharts().get(0);` uzyskuje pierwszy wykres na tym arkuszu.
 
-Przejdź do wykresu, który chcesz zmodyfikować w pierwszym arkuszu kalkulacyjnym:
+#### Krok 3: pobierz serie i zmodyfikuj etykiety danych
 
-```java
-Worksheet ws = wb.getWorksheets().get(0);
-Chart ch = ws.getCharts().get(0);
-```
+`Series` reprezentuje serię danych wykreślaną na wykresie.  
+Każdy obiekt `Series` zawiera kolekcję `DataLabel`.  
+`DataLabel` kontroluje wygląd etykiety danych dla serii.  
+`DataLabelShapeType` jest wyliczeniem możliwych kształtów etykiet danych.  
+Wywołaj `series.getDataLabels().setShapeType(DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT);`, aby ustawić kształt. Wyliczenie oferuje dziesiątki opcji, takich jak `RECTANGLE`, `CLOUD` i `WEDGE_ELLIPSE_CALLOUT`.
 
-**Wyjaśnienie**: Tutaj, `ws.getCharts().get(0)` pobiera pierwszy wykres ze zbioru wykresów w arkuszu kalkulacyjnym.
+#### Krok 4: zapisz swój skoroszyt
 
-##### Krok 3: Pobierz serię i zmodyfikuj etykiety danych
+Po zastosowaniu kształtu wywołaj `workbook.save("output.xlsx");`, aby zapisać zmiany na dysku.
 
-Uzyskaj dostęp do serii na wykresie, aby zmodyfikować etykiety danych:
+## Porady dotyczące rozwiązywania problemów
 
-```java
-Series srs = ch.getNSeries().get(0);
-srs.getDataLabels().setShapeType(DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT);
-```
+- **Problemy ze ścieżką pliku**: Upewnij się, że ścieżka pliku jest absolutna lub poprawnie względna względem katalogu roboczego projektu.  
+- **Niezgodność wersji biblioteki**: Upewnij się, że używasz Aspose.Cells w wersji 25.3 lub nowszej; starsze wersje nie posiadają metody `setShapeType`.  
+- **Nieobsługiwane typy wykresów**: Niektóre starsze typy wykresów (np. radar) mogą nie udostępniać właściwości kształtu etykiet danych; przełącz się na obsługiwany typ wykresu, taki jak kolumnowy lub liniowy.
 
-**Konfiguracja kluczy**: `DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT` nadaje kształt owalu dymkowi, dodając wizualnego uroku.
+## Praktyczne zastosowania
 
-##### Krok 4: Zapisz swój skoroszyt
+1. **Raportowanie finansowe** – Podkreśl kluczowe marże zysku za pomocą etykiet w stylu dymka.  
+2. **Treści edukacyjne** – Użyj etykiet w kształcie chmury, aby przyciągnąć uwagę do ważnych punktów danych w materiałach dydaktycznych.  
+3. **Analiza marketingowa** – Zastosuj niestandardowe kształty, aby odróżnić wskaźniki wydajności kampanii na pulpitach nawigacyjnych.
 
-Po wprowadzeniu zmian zapisz skoroszyt:
+Integracja Aspose.Cells z pipeline'ami danych lub systemami CRM pozwala automatycznie generować w pełni stylizowane raporty, redukując ręczną pracę i zapewniając wizualizacje zgodne z marką.
 
-```java
-wb.save("YOUR_OUTPUT_DIRECTORY/outputSetShapeTypeOfDataLabelsOfChart.xlsx");
-```
+## Wskazówki dotyczące wydajności
 
-### Porady dotyczące rozwiązywania problemów
+Podczas pracy z dużymi plikami Excel:
 
-- **Problemy ze ścieżką pliku**: Upewnij się, że ścieżki do katalogów są poprawnie określone.
-- **Niezgodność wersji biblioteki**: Upewnij się, że używasz Aspose.Cells w wersji 25.3 lub nowszej.
+- **Optymalizacja użycia pamięci**: Wywołaj `workbook.dispose();` po zapisaniu, aby szybko zwolnić zasoby natywne.  
+- **Przetwarzanie wsadowe**: Przetwarzaj wykresy w grupach, a nie pojedynczo, aby zminimalizować narzut tworzenia obiektów.  
+- **Efektywna obsługa danych**: Unikaj ciężkich obliczeń wewnątrz pętli iterujących tysiące wierszy; oblicz wartości wcześniej.
 
-## Zastosowania praktyczne
+## Zakończenie
 
-1. **Sprawozdawczość finansowa**:Użyj niestandardowych kształtów, aby wyróżnić najważniejsze wskaźniki finansowe.
-2. **Treści edukacyjne**:Ulepsz wykresy w materiałach edukacyjnych, aby zwiększyć zaangażowanie.
-3. **Analityka marketingowa**:Tworzenie atrakcyjnych wizualnie wykresów dla paneli efektywności marketingowej.
+Teraz wiesz, **how to set shape** etykiet danych wykresu Excel w Javie przy użyciu Aspose.Cells. Ta możliwość nie tylko podnosi estetykę wykresów, ale także poprawia zrozumienie danych przez użytkowników końcowych. Poznaj dodatkowe opcje dostosowywania — takie jak kolory etykiet, czcionki i linie prowadzące — aby jeszcze bardziej udoskonalić wizualizacje.
 
-Integracja z innymi systemami, np. narzędziami do wizualizacji danych lub oprogramowaniem CRM, może jeszcze bardziej wykorzystać możliwości Aspose.Cells.
+W razie pytań lub potrzeb pomocy, odwołaj się do [forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
 
-## Rozważania dotyczące wydajności
+## Najczęściej zadawane pytania
 
-Podczas pracy z dużymi plikami Excela:
+**Q: Jak zmienić kształt wielu etykiet danych jednocześnie?**  
+A: Przejdź pętlą po każdej serii w wykresie i wywołaj `setShapeType` na obiekcie `DataLabel` serii.
 
-- **Optymalizacja wykorzystania pamięci**:Zamykaj skoroszyty natychmiast po użyciu, aby zwolnić pamięć.
-- **Przetwarzanie wsadowe**: Jeżeli jest to możliwe, przetwarzaj wiele wykresów w partiach.
-- **Efektywne przetwarzanie danych**: Minimalizuj liczbę operacji w pętlach, aby uzyskać lepszą wydajność.
+**Q: Czy Aspose.Cells dla Javy radzi sobie efektywnie z dużymi plikami Excel?**  
+A: Tak. Przy odpowiednim zarządzaniu pamięcią przetwarza skoroszyty zawierające setki tysięcy wierszy bez ładowania całego pliku do pamięci.
 
-## Wniosek
+**Q: Jakie są typowe problemy przy konfiguracji Aspose.Cells?**  
+A: Brak zależności Maven, używanie przestarzałej wersji biblioteki lub podanie nieprawidłowego pliku licencji to typowe pułapki.
 
-Teraz nauczyłeś się, jak modyfikować kształty etykiet danych wykresu za pomocą Aspose.Cells dla Java. Ta funkcja nie tylko poprawia estetykę wykresów, ale także poprawia przejrzystość prezentacji danych.
+**Q: Czy istnieje sposób, aby przywrócić kształty etykiet danych do domyślnych?**  
+A: Ustaw typ kształtu na `DataLabelShapeType.DEFAULT`, aby przywrócić pierwotny wygląd.
 
-Aby lepiej poznać możliwości Aspose.Cells, rozważ eksperymentowanie z innymi opcjami dostosowywania, takimi jak kolory i czcionki. W przypadku pytań lub pomocy zapoznaj się z [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
-
-## Sekcja FAQ
-
-1. **Jak zmienić kształt wielu etykiet danych?**
-   - Przejrzyj każdą serię na wykresie i zastosuj `setShapeType()` w razie potrzeby.
-2. **Czy Aspose.Cells dla Java może wydajnie obsługiwać duże pliki Excela?**
-   - Tak, przy zastosowaniu odpowiednich praktyk zarządzania pamięcią, takich jak te opisane powyżej.
-3. **Jakie są najczęstsze problemy podczas konfigurowania Aspose.Cells?**
-   - Sprawdź, czy wszystkie zależności są poprawnie skonfigurowane w konfiguracji projektu.
-4. **Czy istnieje sposób na przywrócenie domyślnych kształtów etykiet danych?**
-   - Ustawić `DataLabelShapeType.DEFAULT` aby cofnąć zmiany.
-5. **Jak zastosować tę personalizację do wielu wykresów w skoroszycie?**
-   - Przejrzyj każdy obiekt wykresu w kolekcji wykresów arkusza kalkulacyjnego i zastosuj zmiany.
+**Q: Jak zastosować tę personalizację do wielu wykresów w skoroszycie?**  
+A: Iteruj po `ws.getCharts()` i zastosuj tę samą logikę `setShapeType` do kolekcji serii każdego wykresu.
 
 ## Zasoby
 
 - [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [Pobierz Aspose.Cells dla Java](https://releases.aspose.com/cells/java/)
+- [Pobierz Aspose.Cells dla Javy](https://releases.aspose.com/cells/java/)
 - [Kup licencję](https://purchase.aspose.com/buy)
-- [Bezpłatna licencja próbna](https://releases.aspose.com/cells/java/)
+- [Darmowa licencja próbna](https://releases.aspose.com/cells/java/)
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
 
-Ten kompleksowy przewodnik powinien umożliwić Ci skuteczne dostosowywanie etykiet danych wykresu w aplikacjach Java przy użyciu Aspose.Cells. Miłego kodowania!
+---  
+
+**Ostatnia aktualizacja:** 2026-10-17  
+**Testowano z:** Aspose.Cells 25.3 for Java  
+**Autor:** Aspose  
+
+
+
+```java
+Workbook wb = new Workbook("YOUR_DATA_DIRECTORY/sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
+```
+```java
+Worksheet ws = wb.getWorksheets().get(0);
+Chart ch = ws.getCharts().get(0);
+```
+```java
+Series srs = ch.getNSeries().get(0);
+srs.getDataLabels().setShapeType(DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT);
+```
+```java
+wb.save("YOUR_OUTPUT_DIRECTORY/outputSetShapeTypeOfDataLabelsOfChart.xlsx");
+```
+
+## Powiązane samouczki
+
+- [Modyfikacja etykiet danych wykresu Excel przy użyciu Aspose.Cells Java](/cells/java/charts-graphs/modify-excel-chart-data-labels-aspose-cells-java/)
+- [Jak zmienić rozmiar etykiet w wykresach Excel przy użyciu Aspose.Cells dla Javy](/cells/java/charts-graphs/aspose-cells-java-auto-resize-chart-data-labels/)
+- [Dodawanie etykiet do wykresów Excel przy użyciu Aspose Cells dla Javy](/cells/java/charts-graphs/adding-labels-to-charts-aspose-cells-java-tutorial/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

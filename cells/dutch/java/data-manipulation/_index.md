@@ -66,6 +66,8 @@ Leer hoe u tekstvervangingen in Excel-bestanden kunt automatiseren met behulp va
 Leer hoe u kolommen in Excel-sheets kunt splitsen met Aspose.Cells voor Java, stap voor stap met voorbeeldcode.
 
 
+### [Hoe u autofilter uit Excel verwijdert met Aspose.Cells Java](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
+Leer hoe u met Aspose.Cells voor Java een autofilter uit een Excel-werkblad kunt verwijderen.
 
 ## Aanvullende bronnen
 

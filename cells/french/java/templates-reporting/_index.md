@@ -67,6 +67,8 @@ Apprenez à créer des rapports Excel dynamiques en utilisant les Smart Markers 
 
 ### [Créer un classeur Excel avec Smart Markers – Guide Java](./create-excel-workbook-with-smart-markers-java-guide/)
 Apprenez à créer un classeur Excel en utilisant les Smart Markers avec Java, avec des exemples de code complets.
+### [Comment créer des marqueurs intelligents de feuilles de calcul avec Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
+Apprenez à créer des marqueurs intelligents dans les feuilles de calcul avec Aspose.Cells pour automatiser vos rapports.
 
 ## Ressources supplémentaires
 

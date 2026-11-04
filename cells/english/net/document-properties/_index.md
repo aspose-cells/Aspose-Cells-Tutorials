@@ -8,7 +8,9 @@ url: /net/document-properties/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Document Properties
@@ -37,6 +39,9 @@ Learn how to add document properties in Excel using Aspose.Cells for .NET with t
 Learn how to create an Excel workbook, add custom properties, and save it as XLSB using Aspose.Cells for .NET.
 ### [How to Save XLSB with Custom Properties in C# – Step‑by‑Step Guide](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
 Learn how to save XLSB files with custom properties in Excel using Aspose.Cells for .NET with this step-by-step guide.
+### [How to add custom properties to an Excel workbook](./how-to-add-custom-properties-to-an-excel-workbook/)
+Learn how to add custom properties to an Excel workbook using Aspose.Cells for .NET.
+
 ### [How to Save XLSB – Add Custom Property in C#](./how-to-save-xlsb-add-custom-property-in-c/)
 Learn how to save XLSB files and add a custom property in C# using Aspose.Cells for .NET with this step-by-step guide.
 ### [How to Save XLSB with a Custom Property – Step‑by‑Step C# Guide](./how-to-save-xlsb-with-a-custom-property-step-by-step-c-guide/)
@@ -54,16 +59,9 @@ Learn how to save workbooks as XLSB and add custom document properties using Asp
 ### [How to manage Excel custom properties in C# – a step-by-step tutorial](./how-to-manage-excel-custom-properties-in-c-a-step-by-step-tu/)
 Learn how to manage Excel custom properties in C# using Aspose.Cells for .NET with this step-by-step guide.
 
-
-
-
-
-
-
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

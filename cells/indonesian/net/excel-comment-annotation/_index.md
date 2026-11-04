@@ -48,6 +48,8 @@ Pelajari cara menambahkan komentar ke file Excel menggunakan C# dengan Aspose.Ce
 
 ### [Masukkan komentar ke Excel dengan C# – panduan langkah demi langkah](./insert-comment-into-excel-with-c-step-by-step-guide/)
 Pelajari cara menambahkan komentar ke file Excel menggunakan C# dengan panduan langkah demi langkah menggunakan Aspose.Cells.
+### [Cara menambahkan komentar ke Excel menggunakan Smart Markers Aspose.Cells](./how-to-add-comment-to-excel-using-aspose-cells-smart-markers/)
+Pelajari cara menambahkan komentar ke file Excel secara otomatis dengan Smart Markers menggunakan Aspose.Cells untuk .NET.
 
 
 

@@ -64,6 +64,10 @@ Excel में PowerQuery सूत्रों तक पहुँचने �
 
 ### [जावा में Aspose.Cells के साथ कॉलम विभाजित कैसे करें – चरण‑दर‑चरण गाइड](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
 जावा में Aspose.Cells का उपयोग करके Excel कॉलम को विभाजित करने की प्रक्रिया सीखें।
+### [Aspose.Cells Java के साथ Excel से ऑटोफ़िल्टर हटाना](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
+Aspose.Cells Java का उपयोग करके Excel शीट से ऑटोफ़िल्टर हटाने का तरीका सीखें। यह गाइड सेटअप, कोड उदाहरण और सर्वोत्तम प्रथाओं को कवर करता है।
+
+
 
 ## अतिरिक्त संसाधन
 

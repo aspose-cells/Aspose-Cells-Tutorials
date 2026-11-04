@@ -110,6 +110,8 @@ Cập Nhật Slicer trong Tệp Excel Java sử dụng Aspose.Cells cho Java
 
 ### [Phân tích ngày với Locale trong Java – Hướng Dẫn Chi Tiết Từng Bước](./parse-date-with-locale-in-java-complete-step-by-step-guide/)
 Hướng dẫn chi tiết cách phân tích ngày theo Locale trong Java, bao gồm các ví dụ thực tế và lưu ý quan trọng.
+### [Cách Sử Dụng wrapcols trong Java – Định Hình Lại Mảng trong Excel](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
+Hướng dẫn sử dụng wrapcols trong Aspose.Cells cho Java để tái cấu trúc mảng dữ liệu trong Excel
 
 ## Additional Resources
 

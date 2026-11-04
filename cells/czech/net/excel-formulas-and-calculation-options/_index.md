@@ -87,7 +87,6 @@ Naučte se, jak v C# pomocí Aspose.Cells přepočítat všechny vzorce v sešit
 ### [Jak rozšířit pole v C# pomocí Aspose.Cells – krok za krokem](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Naučte se, jak pomocí Aspose.Cells rozšířit pole v C# a efektivně pracovat s dynamickými daty v Excelu.
 ### [Jak použít WRAPCOLS v C# – Přetvořit pole na matice](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
-Naučte se, jak v C# pomocí WRAPCOLS převést pole na matici v Aspose.Cells pro .NET.
 ### [Jak vypočítat kotangens v Excelu pomocí C# – Kompletní průvodce](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 Naučte se, jak pomocí Aspose.Cells pro .NET a C# vypočítat funkci kotangens v Excelu v podrobném průvodci.
 ### [Jak použít WRAPCOLS v Excelu – kompletní příklad v C#](./how-to-use-wrapcols-in-excel-complete-c-example/)
@@ -105,6 +104,13 @@ Naučte se vynutit výpočet vzorce a využít lambda výrazy v Excelu pomocí C
 Naučte se, jak pomocí Aspose.Cells pro .NET vytvořit sešit Excel s kompletními vzorci v podrobném krok za krokem návodu.
 ### [Jak vytvořit Excel sešit v C# s funkcí EXPAND](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
 Naučte se pomocí Aspose.Cells pro .NET vytvořit sešit Excel v C# a využít funkci EXPAND pro rozšíření dat.
+### [Jak použít WRAPCOLS v C# pro pole v Excelu a uložení sešitu](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
+Naučte se pomocí Aspose.Cells v C# použít funkci WRAPCOLS pro práci s poli a uložit sešit v Excelu.
+### [Jak vytvořit Excel sešit v C# s dynamickým polem vzorce](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
+Naučte se, jak pomocí Aspose.Cells pro .NET v C# vytvořit sešit s dynamickým polem vzorce.
+
+### [Jak vytvořit Excel sešit v C# a nastavit vzorce](./how-to-create-excel-workbook-in-c-and-set-formulas/)
+Naučte se, jak pomocí Aspose.Cells pro .NET v C# vytvořit Excel sešit a nastavit v něm vzorce.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

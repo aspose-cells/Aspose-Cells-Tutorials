@@ -49,8 +49,13 @@ Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF bằng
 Hướng dẫn cách lưu workbook Excel thành PDF/A‑3b bằng C# với Aspose.Cells.
 ### [Lưu sổ làm việc dưới dạng PDF với Aspose.Cells – Hướng dẫn chi tiết từng bước](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
 Hướng dẫn lưu sổ làm việc Excel thành PDF bằng Aspose.Cells, chi tiết từng bước, phù hợp cho mọi lập trình viên.
+### [Cách lưu workbook dưới dạng PDF với Aspose.Cells trong C#](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
+Hướng dẫn chi tiết cách lưu workbook Excel thành PDF bằng Aspose.Cells trong C#.
+### [Cách lưu PDF từ workbook Excel bằng Aspose.Cells](./how-to-save-pdf-from-an-excel-workbook-with-aspose-cells/)
+Hướng dẫn chi tiết cách lưu workbook Excel thành tệp PDF bằng Aspose.Cells trong C#.
+
 ### [Cách nhúng phông chữ vào PDF – Lưu Workbook dưới dạng PDF trong C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
-Hướng dẫn nhúng phông chữ vào tệp PDF khi lưu workbook bằng Aspose.Cells trong C# để đảm bảo hiển thị đúng ký tự.
+Hướng dẫn nhúng phông chữ vào PDF khi lưu workbook bằng Aspose.Cells trong C# để đảm bảo hiển thị đúng ký tự.
 ### [Cách nhúng phông chữ vào PDF bằng C# – Hướng dẫn đầy đủ](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
 Hướng dẫn chi tiết cách nhúng phông chữ vào tệp PDF bằng C# với Aspose.Cells, đảm bảo hiển thị đúng trên mọi thiết bị.
 ### [Cách chèn Unicode trong Excel và lưu dưới dạng PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
@@ -71,6 +76,8 @@ Hướng dẫn chi tiết cách lưu tệp XLSX thành PDF trong C# với chuẩ
 Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang PDF bằng C# với Aspose.Cells, bao gồm mọi bước cần thiết.
 ### [Cách lưu PDF với bộ chọn biến thể phông chữ – hướng dẫn đầy đủ](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
 Hướng dẫn chi tiết cách lưu tệp PDF giữ nguyên các bộ chọn biến thể phông chữ, đảm bảo hiển thị chính xác trên mọi thiết bị.
+### [Tạo workbook Excel và lưu dưới dạng PDF với mảng động](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
+Hướng dẫn tạo workbook Excel, sử dụng mảng động và lưu thành PDF bằng Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

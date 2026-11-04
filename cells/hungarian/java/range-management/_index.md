@@ -35,6 +35,8 @@ Tanuld meg, hogyan konvertálhatsz enumerált értékeket karakterláncokká az 
 ### [Aspose.Cells Java: Elnevezett tartományok létrehozása és kezelése Excel-fájlokban](./aspose-cells-java-manage-named-ranges/)
 Tanuld meg, hogyan hozhatsz létre, kezelhetsz és manipulálhatsz elnevezett tartományokat az Aspose.Cells for Java használatával. Ez az oktatóanyag végigvezet a környezeted beállításán és a főbb funkciók elsajátításán kódpéldákkal.
 
+### [Elnevezett tartomány létrehozása és duplikált név észlelése Excelben](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+
 ### [Hozzáférés a maximális megjelenítési tartományhoz az Excel-munkafüzetekben az Aspose.Cells Java használatával](./aspose-cells-java-max-display-range/)
 Ismerd meg, hogyan érheted el egy munkalap maximális megjelenítési tartományát az Excelben az Aspose.Cells for Java használatával. Sajátítsd el ezt a funkciót lépésről lépésre bemutató útmutatónkkal.
 
@@ -91,6 +93,10 @@ Ismerd meg, hogyan másolhatod programozottan a munkalap-tartományokat Java-ban
 Tanuld meg, hogyan másolhatsz cellatartományokat egy munkafüzetből a másikba Java és Aspose.Cells használatával.
 ### [Új munkalap létrehozása és Excel-tartomány másolása Aspose.Cells segítségével](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
 Ismerd meg, hogyan hozhatsz létre új munkalapot és másolhatsz tartományt az Aspose.Cells Java könyvtárral.
+### [Hogyan másolhatunk tartományt Java-ban az Aspose.Cells használatával](./how-to-copy-range-in-java-with-aspose-cells/)
+
+### [Hogyan használjuk az expand függvényt Java Excel feldolgozásban](./how-to-use-expand-function-in-java-excel-processing/)
+Ismerd meg, hogyan alkalmazhatod az expand függvényt az Excel-fájlok Java‑ban történő feldolgozásához az Aspose.Cells segítségével.
 
 ## További források
 

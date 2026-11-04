@@ -63,6 +63,8 @@
 学习如何使用 Aspose.Cells for Java 在 Excel 中设置数字格式，包括自定义格式、日期和时间格式的示例。
 ### [使用 Aspose.Cells for Java 在 Excel 中设置自定义数字格式：完整指南](./set-custom-number-format-in-excel-with-java-complete-guide/)
 了解如何使用 Aspose.Cells for Java 在 Excel 中创建和应用自定义数字格式，提升数据展示的专业性和可读性。
+### [在 Java 中应用 Excel 数字格式 – 完整 Aspose.Cells 指南](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+学习如何使用 Aspose.Cells for Java 在 Excel 中应用数字格式，提供完整代码示例和最佳实践。
 
 ### [掌握 Excel 中的数据呈现：使用 Aspose.Cells for Java 设置数字和自定义日期格式](./aspose-cells-java-data-formatting-excel/)
 了解如何使用 Aspose.Cells for Java 应用数字格式和自定义日期样式，增强 Excel 电子表格中的数据呈现。
@@ -229,7 +231,7 @@ Aspose.Words Java 代码教程
 ### [使用 Aspose.Cells for Java 高效修改 Excel 中的命名样式](./modify-named-styles-excel-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 自动修改 Excel 电子表格中的样式，从而节省时间并确保一致性。
 
-### [使用 Aspose.Cells for Java 掌握 Excel 工作表与合并单元格的优化](./optimize-excel-sheets-merged-cells-aspose-cells-java/)
+### [使用 Aspose.Cells for Java 探索 Excel 工作表与合并单元格的优化](./optimize-excel-sheets-merged-cells-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 合并单元格来优化您的 Excel 工作表。本指南涵盖了工作簿的操作、样式设置以及高效的保存。
 
 ### [使用 Aspose.Cells Java 在 Excel 单元格中旋转文本：完整指南](./rotate-text-excel-cells-aspose-cells-java/)
@@ -247,7 +249,16 @@ Aspose.Words Java 代码教程
 ### [使用 Java 动态格式创建 Excel 工作簿：完整指南](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 了解如何使用 Aspose.Cells for Java 在 Java 中创建具备动态格式的 Excel 工作簿，提供完整步骤、代码示例和最佳实践。
 ### [在将 DataTable 转换为 Excel 时应用样式 – 完整 Java 指南](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
-学习如何使用 Aspose.Cells for Java 将 DataTable 导出为 Excel 并在转换过程中应用自定义单元格样式，提升报表外观。
+### [使用 Aspose.Cells for Java 创建样式化 Excel 工作簿 – 完整指南](./create-styled-excel-workbook-in-java-complete-guide/)
+学习如何使用 Aspose.Cells for Java 在 Java 中创建并应用样式到 Excel 工作簿，涵盖工作簿初始化、样式设置和保存。
+
+### [如何在 Aspose.Cells 中使用 WRAPCOLS – 完整 Java 示例](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+本教程演示如何在 Aspose.Cells for Java 中使用 WRAPCOLS 方法实现列自动换行，并提供完整可运行的示例代码。
+### [如何在 Java 中创建带有货币格式和粗体字体的 Excel 工作簿](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+学习使用 Aspose.Cells for Java 在 Excel 工作簿中应用货币格式并设置粗体字体的步骤和代码示例。
+### [使用 Java 创建 Excel 工作簿并应用列数字格式](./create-excel-workbook-java-and-apply-column-number-formats/)
+学习如何使用 Aspose.Cells for Java 创建 Excel 工作簿并为列设置数字格式。
+### [如何使用 Java 限制 Excel 中的有效数字](./how-to-limit-significant-digits-excel-using-java/)
 
 ## 其他资源
 

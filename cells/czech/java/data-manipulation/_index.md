@@ -63,6 +63,8 @@ Naučte se, jak efektivně naplnit excelové listy vnořenými daty pomocí Aspo
 Naučte se, jak automatizovat nahrazování textu v souborech Excelu pomocí regulárních výrazů s Aspose.Cells pro Javu. Tato podrobná příručka zahrnuje inicializaci, konfiguraci a praktické aplikace.
 
 ### [Jak rozdělit sloupce v Javě pomocí Aspose.Cells – krok za krokem](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
+### [Jak odstranit automatický filtr z Excelu pomocí Aspose.Cells pro Javu](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
+Naučte se, jak pomocí Aspose.Cells pro Javu odstranit automatický filtr z listu Excelu.
 
 ## Další zdroje
 

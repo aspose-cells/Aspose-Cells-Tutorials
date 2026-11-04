@@ -1,0 +1,7 @@
+Title: Create PowerPoint from Excel with Aspose.Cells – step‑by‑step guide
+Slug: create-powerpoint-from-excel-with-aspose-cells-step-by-step
+Category: converting-excel-files-to-other-formats
+ProcessedDate: 2026-10-01T11:50:29.583767
+SourceRepo: AI Search API
+Keywords: create powerpoint from excel, export excel to powerpoint, convert excel to pptx, convert xlsx to pptx, generate powerpoint from excel
+PRNumber: 174

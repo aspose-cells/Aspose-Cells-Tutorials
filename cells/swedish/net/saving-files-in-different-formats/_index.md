@@ -64,6 +64,8 @@ Lär dig hur du enkelt konverterar Excel-arbetsböcker till CSV-format med Aspos
 Lär dig hur du enkelt sparar XLS-filer med Aspose.Cells för .NET. Steg-för-steg-guide med praktiska exempel och vanliga frågor.
 ### [Spara XLSX-fil](./save-xlsx-file/)
 Upptäck hur du sparar XLSX-filer med Aspose.Cells för .NET med den här steg-för-steg-guiden. Effektivisera din Excel-hantering utan ansträngning.
+### [Hur man slutför en flat OPC-handledning med Aspose.Cells i C#](./how-to-complete-a-flat-opc-tutorial-with-aspose-cells-in-c/)
+Steg‑för‑steg‑guide för att slutföra en flat OPC‑tutorial med Aspose.Cells i C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

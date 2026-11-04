@@ -37,6 +37,8 @@
 ### [Μετατροπή φύλλου εργασίας σε εικόνα σε .NET](./worksheet-to-image-conversion/)
 ### [Πώς να αποθηκεύσετε ένα Pivot ως εικόνα – Οδηγός βήμα‑βήμα](./how-to-save-pivot-as-an-image-step-by-step-guide/)
 Μάθετε πώς να αποθηκεύσετε πίνακες Pivot ως εικόνες σε .NET με το Aspose.Cells, ακολουθώντας έναν απλό οδηγό βήμα‑βήμα.
+### [Πώς να εξάγετε πίνακες Pivot ως εικόνες χρησιμοποιώντας το Aspose.Cells σε C#](./how-to-export-pivot-tables-as-images-using-aspose-cells-in-c/)
+Μάθετε πώς να εξάγετε πίνακες Pivot ως εικόνες σε C# με το Aspose.Cells, ακολουθώντας έναν απλό οδηγό βήμα‑βήμα.
 ### [Εξαγωγή περιοχής Excel ως εικόνα – Πλήρης οδηγός C#](./export-excel-range-as-image-complete-c-guide/)
 Μάθετε πώς να εξάγετε μια περιοχή Excel ως εικόνα σε C# χρησιμοποιώντας το Aspose.Cells, βήμα-βήμα οδηγός.
 ### [Πώς να αποθηκεύσετε φύλλο Excel ως εικόνα – Πλήρης οδηγός C#](./how-to-save-excel-sheet-as-image-complete-c-guide/)

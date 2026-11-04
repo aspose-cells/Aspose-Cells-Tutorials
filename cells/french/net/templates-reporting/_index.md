@@ -71,6 +71,12 @@ Apprenez à exporter des données vers un fichier Excel en utilisant un modèle 
 ### [Comment étendre un tableau dans Excel et le remplir à partir d'un modèle](./how-to-expand-array-in-excel-and-populate-a-template)
 Apprenez à étendre un tableau dans Excel et à le remplir à partir d'un modèle à l'aide d'Aspose.Cells pour .NET.
 
+### [Convertir un jeu de données en Excel et remplir un modèle Excel](./convert-dataset-to-excel-and-populate-an-excel-template/)
+Apprenez à convertir un jeu de données en fichier Excel et à le remplir à l'aide d'un modèle Excel avec Aspose.Cells pour .NET.
+
+### [Comment créer un Excel à partir d'un modèle et générer des feuilles répétées](./how-to-create-excel-from-template-and-generate-repeated-shee)
+Apprenez à créer un classeur Excel à partir d'un modèle et à générer automatiquement des feuilles répétées.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

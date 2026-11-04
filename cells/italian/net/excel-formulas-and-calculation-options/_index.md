@@ -76,7 +76,8 @@ Sfrutta il potenziale di Excel con Aspose.Cells per .NET. Scopri passo dopo pass
 ### [Elaborazione dei dati tramite la funzione Array in Excel](./processing-data-using-array-function/)
 Sfrutta la potenza di Excel con Aspose.Cells per .NET. Impara a elaborare i dati utilizzando le funzioni array in questo tutorial dettagliato.
 ### [Come utilizzare WRAPCOLS in C# – Rimodellare gli array in matrici](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
-Scopri come usare la funzione WRAPCOLS in C# per trasformare array in matrici con Aspose.Cells per .NET, passo passo.
+### [Come utilizzare WRAPCOLS in C# per gli array di Excel e il salvataggio della cartella di lavoro](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
+Impara a usare WRAPCOLS in C# per trasformare array in matrici Excel e salvare la cartella di lavoro con Aspose.Cells.
 ### [Elaborazione dei dati tramite funzioni integrate in Excel](./processing-data-using-built-in-functions/)
 Scopri come elaborare i dati utilizzando le funzioni integrate in Excel con Aspose.Cells per .NET. Segui un tutorial passo passo per una facile automazione.
 
@@ -112,6 +113,10 @@ Scopri come usare WRAPCOLS per gestire colonne multiple in Excel con Aspose.Cell
 ### [Come forzare il calcolo delle formule e utilizzare lambda in Excel con C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
 Scopri come forzare il calcolo delle formule e sfruttare le funzioni lambda in Excel usando C# con Aspose.Cells.
 ### [Crea cartella di lavoro Excel con formule – Guida completa passo‑passo](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+
+### [Come creare una cartella di lavoro Excel C# con una formula di array dinamica](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
+
+### [Come creare una cartella di lavoro Excel in C# e impostare le formule](./how-to-create-excel-workbook-in-c-and-set-formulas/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

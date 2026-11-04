@@ -61,6 +61,8 @@ Lär dig hur du konverterar JSON-arrayer till Excel-filer med Aspose.Cells för 
 Lär dig hur du konverterar ett Excel‑arbetsblad till en DataTable i C# med en komplett guide.
 ### [Importera JSON till Excel med Aspose.Cells – Komplett programmeringsguide](./import-json-to-excel-with-aspose-cells-complete-programming/)
 Lär dig hur du importerar JSON-data till Excel med Aspose.Cells i en komplett programmeringsguide.
+### [Konvertera JSON till XLSX i C# – komplett steg‑för‑steg‑guide](./convert-json-to-xlsx-in-c-complete-step-by-step-guide/)
+Lär dig hur du omvandlar JSON-data till XLSX-filer i C# med en detaljerad steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

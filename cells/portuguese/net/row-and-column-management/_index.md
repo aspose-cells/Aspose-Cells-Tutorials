@@ -72,6 +72,8 @@ Aprenda a excluir completamente uma linha em um arquivo Excel usando C# com Aspo
 Aprenda a excluir linhas mantendo a primeira linha intacta como cabeçalho usando Aspose.Cells para .NET.
 ### [Excluir várias linhas em Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Aprenda a excluir várias linhas no Excel usando o Aspose.Cells para .NET. Este guia passo a passo detalhado aborda pré-requisitos, exemplos de codificação e perguntas frequentes para desenvolvedores.
+### [Excluir linhas de tabela do Excel – guia completo em C#](./delete-rows-from-excel-table-complete-c-guide/)
+Aprenda a excluir linhas de uma tabela do Excel usando Aspose.Cells para .NET com um guia passo a passo em C#.
 ### [Inserir uma coluna no Aspose.Cells .NET](./insert-column-aspose-cells/)
 Aprenda a inserir uma coluna no Excel usando o Aspose.Cells para .NET. Siga nosso guia passo a passo simples para adicionar uma nova coluna sem complicações. Perfeito para desenvolvedores .NET.
 ### [Inserir uma linha no Aspose.Cells .NET](./insert-row-aspose-cells/)
@@ -86,6 +88,17 @@ Aprenda a carregar um arquivo Excel em C# e excluir linhas, incluindo a remoçã
 Aprenda a gerar linhas dinamicamente no Excel repetindo itens usando C# com Aspose.Cells.
 ### [Como inserir linhas no GridJs – Adicionar várias linhas ao grid de forma eficiente](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 Aprenda a inserir múltiplas linhas no GridJs de forma eficiente com este guia passo a passo.
+### [Excluir linhas de tabela do Excel usando C#](./how-to-delete-rows-from-excel-table-using-c/)
+Aprenda a excluir linhas de uma tabela do Excel usando C# e Aspose.Cells com instruções passo a passo.
+
+
+
+
+### [Criar pasta de trabalho Excel C# e transpor coluna para linha](./create-excel-workbook-c-and-transpose-column-to-row/)
+Aprenda a criar uma pasta de trabalho Excel em C# e transpor dados de coluna para linha usando Aspose.Cells.
+
+
+
 
 ### [Excluir linhas de tabela do Excel com C# – Guia passo a passo](./delete-rows-excel-table-with-c-step-by-step-guide/)
 Aprenda a excluir linhas de uma tabela do Excel usando C# e Aspose.Cells, com instruções passo a passo e exemplos práticos.

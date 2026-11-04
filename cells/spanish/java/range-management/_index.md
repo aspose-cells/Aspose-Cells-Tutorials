@@ -55,6 +55,8 @@ Aprenda a automatizar la copia de varias columnas en una hoja de cálculo de Exc
 
 ### [Copiar rango de hoja de cálculo programáticamente – Guía completa de Java](./programmatically-copy-worksheet-range-complete-java-guide/)
 Aprenda a copiar rangos de hojas de cálculo de forma programática usando Aspose.Cells para Java.
+### [Cómo copiar un rango en Java con Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
+Aprenda a copiar rangos de celdas en Excel usando Aspose.Cells para Java, con ejemplos de código paso a paso.
 
 ### [Crear un rango de unión en Excel con Aspose.Cells Java: una guía completa](./create-union-range-excel-aspose-cells-java/)
 Aprenda a utilizar Aspose.Cells para Java para crear rangos de unión en Excel, mejorando la presentación y la legibilidad de los datos.
@@ -70,6 +72,8 @@ Un tutorial de código para Aspose.Words Java
 
 ### [Asignar nombre a una celda en Excel con Java – Guía completa](./assign-name-to-cell-in-excel-using-java-complete-guide/)
 Aprenda a asignar nombres a celdas en Excel usando Aspose.Cells para Java, con ejemplos de código y mejores prácticas.
+### [Crear un rango con nombre y detectar nombre duplicado en Excel](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Aprenda a crear rangos con nombre y detectar nombres duplicados en archivos Excel usando Aspose.Cells para Java.
 
 ### [Automatizar las áreas de impresión de Excel con Aspose.Cells para Java: guía paso a paso](./excel-print-areas-automation-aspose-cells-java-guide/)
 Aprenda a automatizar las áreas de impresión de Excel con Aspose.Cells para Java. Domine la manipulación de libros de trabajo y agilice sus informes eficientemente.
@@ -94,6 +98,8 @@ Aprenda a separar celdas de Excel de forma eficiente con Aspose.Cells para Java.
 
 ### [Crear una nueva hoja de cálculo y copiar un rango de Excel con Aspose.Cells](./create-new-worksheet-and-copy-excel-range-with-aspose-cells/)
 Aprenda a crear una hoja de cálculo nueva y copiar rangos de Excel usando Aspose.Cells para Java.
+### [Cómo usar la función expand en el procesamiento de Excel con Java](./how-to-use-expand-function-in-java-excel-processing/)
+Aprenda a usar la función expand en Aspose.Cells para Java y procesar rangos de Excel dinámicamente.
 
 ## Recursos adicionales
 

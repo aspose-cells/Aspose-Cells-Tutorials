@@ -46,6 +46,8 @@
 
 ### [使用 Aspose.Cells (Java) 创建主从工作簿](./create-master-detail-workbook-with-aspose-cells-java/)
 学习如何使用 Aspose.Cells for Java 构建主从结构的工作簿，实现层次化数据展示和报表生成。
+### [使用 Aspose.Cells 创建工作表智能标记](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
+学习如何使用 Aspose.Cells 为工作表创建智能标记，实现动态报表生成。
 
 ### [使用智能标记生成工作表的完整 Java 指南](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
 本指南详细演示如何在 Aspose.Cells for Java 中使用智能标记生成多个工作表，实现动态报表自动化。

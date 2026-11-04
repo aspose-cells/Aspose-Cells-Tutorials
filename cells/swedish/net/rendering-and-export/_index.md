@@ -68,6 +68,8 @@ Lär dig rendera sekventiella sidor i Excel med Aspose.Cells för .NET. Den här
 Lär dig hur du exporterar en pivottabell till PNG med Aspose.Cells för .NET i C# med vår steg‑för‑steg‑guide.
 ### [Skapa PNG-pivotbild i C# – Fullständig steg‑för‑steg‑guide](./create-png-pivot-image-in-c-full-step-by-step-guide/)
 Lär dig hur du skapar en PNG-bild av en pivottabell i C# med Aspose.Cells för .NET i en detaljerad steg‑för‑steg‑guide.
+### [Hur man anger utskriftsområde i Excel och exporterar PNG](./how-to-set-print-area-in-excel-and-export-png/)
+Lär dig hur du ställer in utskriftsområdet i Excel och exporterar det som PNG-bild med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

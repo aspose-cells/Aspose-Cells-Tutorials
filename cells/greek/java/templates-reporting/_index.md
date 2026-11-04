@@ -51,6 +51,8 @@
 
 ### [Πώς να γεμίσετε πρότυπο Excel με δεδομένα χρησιμοποιώντας το Aspose.Cells](./how-to-populate-excel-template-with-data-using-aspose-cells/)
 Μάθετε πώς να γεμίσετε ένα πρότυπο Excel με δεδομένα χρησιμοποιώντας το Aspose.Cells σε Java.
+### [Πώς να δημιουργήσετε smart markers σε φύλλα εργασίας με το Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
+Μάθετε πώς να χρησιμοποιήσετε smart markers για τη δημιουργία και τον αυτοματισμό φύλλων εργασίας στο Aspose.Cells για Java.
 
 ### [Πώς να δημιουργήσετε φύλλα εργασίας με Smart Markers – Πλήρης οδηγός Java](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
 Μάθετε πώς να δημιουργείτε φύλλα εργασίας χρησιμοποιώντας Smart Markers σε πλήρη οδηγό Java, με παραδείγματα κώδικα.

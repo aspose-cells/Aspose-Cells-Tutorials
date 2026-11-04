@@ -1,0 +1,7 @@
+Title: How to export pivot tables as images using Aspose.Cells in C#
+Slug: how-to-export-pivot-tables-as-images-using-aspose-cells-in-c
+Category: image-and-chart-operations
+ProcessedDate: 2026-10-01T11:50:05.201225
+SourceRepo: AI Search API
+Keywords: how to export pivot, export pivot table image, save pivot as image
+PRNumber: 174

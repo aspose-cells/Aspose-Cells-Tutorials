@@ -68,6 +68,8 @@ Leer hoe u met Smart Markers een Excel-sjabloon kunt vullen met gegevens via Asp
 Leer hoe u detailbladen genereert met slimme markeringen in Aspose.Cells voor Java.
 ### [Hoe een Excel-sjabloon te vullen met gegevens met Aspose.Cells](./how-to-populate-excel-template-with-data-using-aspose-cells/)
 Leer hoe u een Excel-sjabloon automatisch kunt vullen met gegevens via Aspose.Cells in Java.
+### [Hoe werkbladen met slimme markeringen maken met Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
+Leer hoe u met Aspose.Cells slimme markeringen kunt gebruiken om werkbladen automatisch te vullen en rapporten te genereren.
 
 ## Aanvullende bronnen
 

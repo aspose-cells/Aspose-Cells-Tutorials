@@ -54,6 +54,8 @@ Temukan cara mengontrol sumber daya eksternal dalam konversi Excel ke PDF menggu
 Pelajari cara membuat penanda PDF untuk lembar bagan di Aspose.Cells untuk .NET dengan panduan langkah demi langkah yang komprehensif.
 ### [Ekspor Rentang Sel ke Gambar dengan Aspose.Cells](./export-range-of-cells-to-image/)
 Ekspor rentang sel Excel ke gambar dengan mudah menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Tingkatkan pelaporan dan presentasi Anda.
+### [Cara mengatur area cetak di Excel dan mengekspor PNG](./how-to-set-print-area-in-excel-and-export-png/)
+Pelajari cara menentukan area cetak di Excel dan mengekspor sebagai gambar PNG menggunakan Aspose.Cells for .NET.
 ### [Dapatkan Batas Objek Gambar dengan Aspose.Cells](./get-draw-object-and-bound/)
 Temukan cara mengekstrak batas objek gambar di Excel menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah kami yang komprehensif.
 ### [Buat Gambar PNG Pivot di C# – Panduan Langkah-demi-Langkah Lengkap](./create-png-pivot-image-in-c-full-step-by-step-guide/)

@@ -46,6 +46,8 @@ Aspose.Cells का उपयोग करके C# में Excel शीट �
 Excel फ़ाइल को PNG इमेज में बदलने की पूरी प्रक्रिया सीखें, कोड उदाहरण और सर्वोत्तम प्रथाओं के साथ।
 ### [C# और Aspose.Cells के साथ एक्सेल रेंज को इमेज के रूप में निर्यात करना](./how-to-export-excel-range-as-image-with-c-and-aspose-cells/)
 Aspose.Cells का उपयोग करके C# में Excel रेंज को इमेज फ़ाइल में निर्यात करने की प्रक्रिया सीखें।
+### [C# में पिवट टेबल को इमेज के रूप में निर्यात करना – चरण-दर-चरण गाइड](./how-to-export-pivot-tables-as-images-using-aspose-cells-in-c/)
+Aspose.Cells का उपयोग करके C# में पिवट टेबल को इमेज में बदलने की पूरी प्रक्रिया सीखें। आसान चरणों में उच्च-गुणवत्ता वाली छवियां बनाएं।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

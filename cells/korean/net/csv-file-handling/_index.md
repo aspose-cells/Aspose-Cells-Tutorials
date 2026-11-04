@@ -37,6 +37,8 @@ Aspose.Cells for .NET에서 사용자 지정 파서를 사용하여 CSV 파일�
 Aspose.Cells for .NET을 사용해 C#에서 Excel 워크북을 CSV 파일로 내보내는 방법을 단계별로 안내합니다.
 ### [C#에서 Excel을 CSV로 저장 – Xlsx를 CSV로 내보내는 완전 가이드](./save-excel-as-csv-in-c-complete-guide-to-export-xlsx-to-csv/)
 Aspose.Cells for .NET을 사용하여 C#에서 Excel 파일을 CSV 형식으로 변환하고 저장하는 방법을 단계별로 안내합니다.
+### [C#에서 Aspose.Cells를 사용하여 Excel을 CSV로 내보내는 방법](./how-to-export-excel-to-csv-in-c-with-aspose-cells/)
+Aspose.Cells for .NET을 사용해 C#에서 Excel 파일을 CSV 형식으로 내보내는 과정을 단계별로 안내합니다.
 ### [새 워크북 생성 및 CSV 내보내기 – 단계별 C# 가이드](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 Aspose.Cells for .NET을 사용해 새 워크북을 만들고, 데이터를 CSV 파일로 내보내는 방법을 단계별로 안내합니다.
 ### [C#에서 Aspose.Cells를 사용해 Excel을 CSV로 만들기](./how-to-create-csv-from-excel-using-aspose-cells-in-c/)
@@ -45,6 +47,8 @@ Aspose.Cells for .NET을 사용하여 C#에서 Excel 파일을 CSV 형식으로 
 
 
 
+### [C#에서 Excel 워크북을 CSV로 내보내기 – Aspose.Cells 활용](./how-to-export-excel-workbook-to-csv-with-aspose-cells-in-c/)
+Aspose.Cells for .NET을 사용해 C#에서 Excel 워크북을 CSV 파일로 내보내는 방법을 단계별로 안내합니다.
 
 
 
@@ -67,6 +71,10 @@ Aspose.Cells for .NET을 활용해 C#로 Excel 데이터를 CSV 파일로 내보
 Aspose.Cells for .NET을 사용해 워크북을 CSV 파일로 저장하고, 숫자 자리수를 제어하는 방법을 단계별로 안내합니다.
 ### [Aspose.Cells를 사용하여 정확한 형식으로 워크북을 CSV로 저장하는 방법](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
 Aspose.Cells for .NET을 이용해 워크북을 CSV로 저장하면서 정확한 서식과 데이터를 유지하는 방법을 단계별로 안내합니다.
+
+### [C#에서 사용자 지정 서식으로 워크북을 CSV로 저장하는 방법](./how-to-save-workbook-as-csv-with-custom-formatting-in-c/)
+Aspose.Cells for .NET을 사용해 C#에서 사용자 지정 서식으로 워크북을 CSV 파일로 저장하는 방법을 단계별로 안내합니다.
+
 ### [C#에서 워크북을 CSV로 저장하기 – 완전 프로그래밍 가이드](./save-workbook-as-csv-in-c-complete-programming-guide/)
 Aspose.Cells for .NET을 사용하여 C#에서 워크북을 CSV 파일로 저장하는 전체 단계별 가이드.
 

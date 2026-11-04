@@ -71,6 +71,9 @@ Aprende a recargar y actualizar libros de Excel en tiempo de ejecución con Aspo
 ### [Cómo forzar el cálculo de fórmulas en Java con Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
 Aprende a forzar la recalculación de fórmulas en libros de trabajo usando Aspose.Cells para Java.
 
+### [Recalcular todas las fórmulas de Excel con Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
+Aprende a volver a calcular todas las fórmulas de un libro de Excel usando Aspose.Cells para Java.
+
 ## Recursos adicionales
 - [Documentación de Aspose.Cells para Java](https://docs.aspose.com/cells/java/)
 - [Referencia de API de Aspose.Cells para Java](https://reference.aspose.com/cells/java/)

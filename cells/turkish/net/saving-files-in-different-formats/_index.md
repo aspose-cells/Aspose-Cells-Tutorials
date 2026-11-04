@@ -42,6 +42,8 @@ Belirli formatlar hakkında daha fazla bilgi edinmek için aşağıdaki gibi ayr
 - Benzer şekilde, .NET uygulamalarıyla çalışmayı düşünüyorsanız ve yapılandırılmış bir XML gösterimine ihtiyacınız varsa, bu konudaki eğitimimiz [dosyaları SpreadsheetML formatında kaydetme](./save-file-in-spreadsheetml-format/) başvuracağınız kaynaktır.
 
 ## Dosyaları Farklı Formatlarda Kaydetme Eğitimleri
+### [Aspose.Cells ile C#'ta Düz OPC Öğreticisini Tamamlamak](./how-to-complete-a-flat-opc-tutorial-with-aspose-cells-in-c/)
+Aspose.Cells kullanarak C# ile düz OPC dosyalarını nasıl tamamlayacağınızı öğrenin.
 ### [Excel Dosyasını 97-2003 Formatında Kaydet](./save-excel-file-in-97-2003-format/)
 Aspose.Cells for .NET kullanarak Excel dosyalarını 97-2003 formatında nasıl kaydedeceğinizi öğrenin. Pratik bilgiler ve adım adım rehberlik alın.
 ### [Excel Dosyasını 2007 xlsb Formatında Kaydet](./save-excel-file-in-2007-xlsb-format/)
