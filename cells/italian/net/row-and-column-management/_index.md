@@ -115,6 +115,8 @@ Scopri come utilizzare WRAPCOLS per creare un layout a due colonne in C# con Asp
 Scopri come inserire rapidamente più righe in una tabella GridJs con pochi passaggi di codice.
 ### [Come utilizzare wrapcols in C# – Guida completa con Excel WRAPROWS e ricalcolo delle formule](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Scopri come usare wrapcols in C# con Excel WRAPROWS e ricalcolare le formule in modo semplice e dettagliato.
+### [Come utilizzare WRAPCOLS in C# e salvare la cartella di lavoro come XLSX](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
+Scopri come usare WRAPCOLS in C# e salvare il workbook in formato XLSX con Aspose.Cells.
 ### [Spostare le celle verso l'alto in Excel con C# – Guida completa](./shift-cells-up-in-excel-with-c-complete-guide/)
 Scopri come spostare le celle verso l'alto in Excel usando C# e Aspose.Cells con questa guida passo passo.
 ### [Come eliminare righe in Excel con C# – proteggere l'intestazione della tabella](./how-to-delete-rows-in-excel-with-c-protect-table-header/)

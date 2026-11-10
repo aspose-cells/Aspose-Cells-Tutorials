@@ -43,6 +43,8 @@ Pelajari cara membuat workbook dengan latar belakang biru muda dan mengimpor dat
 Pelajari cara mengekspor data JSON ke file Excel menggunakan C# dan Aspose.Cells dalam panduan pemrograman lengkap ini.
 ### [Impor Data dengan Pemformatan ke Excel menggunakan C#](./import-data-with-formatting-into-excel-using-c/)
 Pelajari cara mengimpor data ke Excel dengan pemformatan menggunakan C# dan Aspose.Cells untuk .NET.
+### [Cara mengimpor DataTable ke lembar kerja Excel menggunakan C#](./how-to-import-datatable-into-an-excel-worksheet-using-c/)
+Pelajari cara mengimpor DataTable ke worksheet Excel menggunakan C# dengan Aspose.Cells dalam panduan langkah demi langkah.
 ### [Buat Workbook Excel dari JSON – Panduan Langkah demi Langkah](./create-excel-workbook-from-json-step-by-step-guide/)
 Pelajari cara membuat workbook Excel dari data JSON menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah yang mudah diikuti.
 ### [Ekspor Excel ke DataTable di C# – Panduan Langkah demi Langkah](./export-excel-to-datatable-in-c-step-by-step-guide/)

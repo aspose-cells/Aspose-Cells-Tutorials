@@ -54,6 +54,8 @@ Zjistěte, jak ovládat externí zdroje při převodu z Excelu do PDF pomocí As
 Naučte se, jak vytvářet záložky PDF pro grafy v Aspose.Cells pro .NET s tímto komplexním podrobným návodem.
 ### [Export rozsahu buněk do obrázku pomocí Aspose.Cells](./export-range-of-cells-to-image/)
 Snadno exportujte oblasti buněk z Excelu do obrázků pomocí Aspose.Cells pro .NET s tímto podrobným návodem. Vylepšete své reporty a prezentace.
+### [Nastavte oblast tisku a exportujte list Excelu do PNG v C#](./set-print-area-and-export-excel-sheet-to-png-in-c/)
+Naučte se nastavit oblast tisku a exportovat list Excelu jako PNG pomocí Aspose.Cells pro .NET v C#.
 ### [Získejte hranice objektů Draw pomocí Aspose.Cells](./get-draw-object-and-bound/)
 Zjistěte, jak extrahovat hranice objektů kreslení v Excelu pomocí Aspose.Cells pro .NET s naším komplexním podrobným návodem.
 ### [Ignorování chyb při vykreslování Excelu do PDF pomocí Aspose.Cells](./ignore-errors-while-rendering/)

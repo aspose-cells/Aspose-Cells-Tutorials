@@ -40,6 +40,8 @@ Aprenda a remover o AutoFiltro de planilhas Excel usando Aspose.Cells para .NET 
 Aprenda a extrair a primeira tabela de um arquivo Excel usando Aspose.Cells para .NET em C# com este guia completo.
 ### [Como usar o AutoFilter na automação de Excel em C# – Guia completo passo a passo](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
 Aprenda a aplicar o AutoFilter em planilhas Excel usando C# com Aspose.Cells, seguindo um guia detalhado passo a passo.
+### [Como desativar o AutoFiltro no Excel com C# – guia completo](./how-to-disable-autofilter-in-excel-with-c-complete-guide/)
+Aprenda a desativar o AutoFiltro em planilhas Excel usando Aspose.Cells para .NET com este guia completo em C#.
 
 
 

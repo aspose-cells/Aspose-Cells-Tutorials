@@ -159,6 +159,8 @@ Découvrez comment conserver les volets figés lors de l’exportation d’Excel
 
 ### [Comment utiliser wrapcols et intégrer des polices lors de l'enregistrement d'Excel en HTML](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
 Apprenez à utiliser l'option wrapcols et à intégrer des polices lors de l'enregistrement d'un classeur Excel en HTML avec Aspose.Cells pour .NET.
+### [Comment intégrer des polices HTML lors de la conversion d'un XLSX en HTML avec Aspose.Cells](./how-to-embed-fonts-html-when-you-convert-an-xlsx-to-html-wit/)
+Apprenez à intégrer des polices dans le HTML lors de la conversion d’un fichier XLSX en HTML avec Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -187,6 +187,12 @@
 تعلم كيفية إنشاء ملف Excel باستخدام العلامات الذكية برمجيًا في Aspose.Cells للـ .NET.
 ### [إنشاء Excel من JSON باستخدام العلامة الذكية Aspose.Cells](./create-excel-from-json-with-aspose-cells-smart-marker/)
 
+### [كيفية إنشاء مصنف Excel برمجيًا باستخدام C#](./how-to-create-excel-workbook-programmatically-with-c/)
+
+### [كيفية إنشاء مصنف Excel باستخدام العلامات الذكية لتقرير Excel ديناميكي](./how-to-create-excel-workbook-with-smart-markers-for-a-dynami/)
+
+### [توسيع العلامات الذكية لورقة العمل في C# لقوالب Excel](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

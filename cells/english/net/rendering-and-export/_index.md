@@ -70,6 +70,8 @@ Learn how to export a pivot table to PNG using Aspose.Cells for .NET with C#. Fo
 Learn how to generate a PNG image of an Excel pivot table using Aspose.Cells for .NET in C# with this comprehensive step‑by‑step guide.
 ### [How to set print area in Excel and export PNG](./how-to-set-print-area-in-excel-and-export-png/)
 Learn how to define a print area in Excel and export it as a PNG image using Aspose.Cells for .NET.
+### [Set print area and export Excel sheet to PNG in C#](./set-print-area-and-export-excel-sheet-to-png-in-c/)
+Learn how to define a print area and export an Excel worksheet as a PNG image using Aspose.Cells for .NET in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

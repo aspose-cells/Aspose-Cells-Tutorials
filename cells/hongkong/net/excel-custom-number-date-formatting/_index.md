@@ -97,6 +97,12 @@
 ### [C# 中的日本曆轉換 – 完整指南](./japanese-calendar-conversion-in-c-full-guide/)
 本教學說明如何在 C# 中使用 Aspose.Cells 進行日本曆（和曆）與公曆之間的相互轉換。
 
+### [如何在 C# 中套用 Excel 自訂數字格式](./how-to-apply-a-custom-number-format-excel-in-c/)
+本教學說明如何在 C# 使用 Aspose.Cells 為 Excel 套用自訂數字格式。
+
+### [如何在 C# 中使用日本曆法 CultureInfo 寫入日期至 Excel](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
+本教學說明如何在 C# 使用日本曆法 CultureInfo 將日期寫入 Excel。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

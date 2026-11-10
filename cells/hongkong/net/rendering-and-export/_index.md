@@ -54,6 +54,8 @@ Aspose.Cells 的突出特點之一是能夠新增 PDF 書籤，直接從 Excel �
 透過本全面的逐步指南了解如何在 Aspose.Cells for .NET 中為圖表工作表建立 PDF 書籤。
 ### [使用 Aspose.Cells 將儲存格範圍匯出到影像](./export-range-of-cells-to-image/)
 請依照本逐步指南，使用 Aspose.Cells for .NET 輕鬆地將 Excel 儲存格範圍匯出為影像。改進您的報告和簡報。
+### [在 C# 中設定列印區域並匯出 Excel 工作表為 PNG](./set-print-area-and-export-excel-sheet-to-png-in-c/)
+本教學說明如何在 C# 使用 Aspose.Cells 設定列印區域，並將 Excel 工作表匯出為 PNG 圖像。
 ### [使用 Aspose.Cells 取得繪製物件邊界](./get-draw-object-and-bound/)
 透過我們全面的逐步指南，了解如何使用 Aspose.Cells for .NET 在 Excel 中提取繪製物件邊界。
 ### [使用 Aspose.Cells 忽略 Excel 到 PDF 渲染中的錯誤](./ignore-errors-while-rendering/)

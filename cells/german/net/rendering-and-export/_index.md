@@ -70,6 +70,8 @@ Erfahren Sie, wie Sie Pivot-Tabellen mit Aspose.Cells für .NET in PNG-Bilder ex
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Pivot‑Diagramm als PNG‑Bild in C# generieren – detaillierte Schritt‑für‑Schritt‑Anleitung.
 ### [Druckbereich in Excel festlegen und als PNG exportieren](./how-to-set-print-area-in-excel-and-export-png/)
 Erfahren Sie, wie Sie in Aspose.Cells für .NET den Druckbereich definieren und das Ergebnis als PNG-Bild exportieren.
+### [Druckbereich festlegen und Excel‑Blatt nach PNG in C# exportieren](./set-print-area-and-export-excel-sheet-to-png-in-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET den Druckbereich festlegen und ein Excel‑Blatt als PNG‑Bild in C# exportieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

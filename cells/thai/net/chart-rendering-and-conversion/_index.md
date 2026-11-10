@@ -49,6 +49,7 @@
 ### [ส่งออกแผนภูมิ Excel ไปยัง PowerPoint ด้วย C# – คู่มือ Aspose.Cells ฉบับสมบูรณ์](./export-excel-chart-to-powerpoint-with-c-complete-aspose-cell/)
 เรียนรู้วิธีส่งออกแผนภูมิ Excel ไปยัง PowerPoint ด้วย C# โดยใช้ Aspose.Cells อย่างละเอียดในคู่มือขั้นตอนเดียว
 ### [วิธีเพิ่มแผนภูมิลงใน Word ด้วย Aspose – ฝังแผนภูมิ Excel](./how-to-add-chart-to-word-with-aspose-embed-excel-chart/)
+### [วิธีส่งออกแผนภูมิ Excel ไปยัง PowerPoint ด้วย C#](./how-to-export-excel-charts-to-powerpoint-using-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

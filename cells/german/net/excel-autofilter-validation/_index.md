@@ -42,6 +42,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells die erste Tabelle einer Excel-Arbeitsmapp
 Erfahren Sie, wie Sie mit Aspose.Cells AutoFilter in C# automatisiert einsetzen – detaillierte Schritt‑für‑Schritt‑Anleitung.
 ### [Entfernen des Autofilters in Excel mit C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie den Autofilter in Excel mithilfe von C# und Aspose.Cells vollständig entfernen – klar und detailliert erklärt.
+### [Wie man den Autofilter in Excel mit C# deaktiviert – vollständige Anleitung](./how-to-disable-autofilter-in-excel-with-c-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.Cells den Autofilter in Excel per C# vollständig deaktivieren.
 ### [Wie man den Autofilter aus Excel-Tabellen mit C# entfernt](./how-to-remove-autofilter-from-excel-tables-using-c/)
 ### [Entfernen des AutoFilters in Excel mit C# – Schritt‑für‑Schritt‑Anleitung](./remove-autofilter-in-excel-with-c-step-by-step-guide/)
 Erfahren Sie, wie Sie den AutoFilter in Excel mit C# Schritt für Schritt entfernen.

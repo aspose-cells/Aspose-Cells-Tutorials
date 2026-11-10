@@ -66,9 +66,10 @@ Lernen Sie, wie Sie mit Smart Markers eine Excel‑Vorlage befüllen und Daten a
 Kopieren Sie Stile und Formate ganz einfach aus einer Vorlagendatei in Ihre generierte Excel‑Ausgabe. Dieses umfassende Tutorial führt Sie Schritt für Schritt durch den Prozess.
 ### [Verwenden Sie dynamische Formeln in Smart Markers Aspose.Cells](./dynamic-formulas-smart-markers/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET dynamische Formeln in Smart Markers verwenden und so Ihren Excel‑Berichterstellungsprozess verbessern.
-### [Dynamische Arbeitsblätter mit Smart Markers in Aspose.Cells erstellen](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
+### [Dynamische Arbeitsblätter mit Smart Markern in Aspose.Cells erstellen](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 Erfahren Sie, wie Sie mit Smart Markern dynamische Arbeitsblätter generieren, die sich automatisch an unterschiedliche Datenmengen anpassen.
-
+### [Arbeitsblatt erweitern mit Smart Markern in C# für Excel‑Vorlagen](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
+Erfahren Sie, wie Sie mit Smart Markern in Aspose.Cells Arbeitsblätter dynamisch erweitern und Excel‑Vorlagen in C# anpassen.
 ### [Bewerten Sie IsBlank mit Smart Markers in Aspose.Cells](./evaluate-isblank-smart-markers/)
 Erweitern Sie Ihre Excel-Dateien mit intelligenten Markierungen, um leere Werte mit Aspose.Cells für .NET effizient auszuwerten. Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie das geht.
 ### [Gruppieren Sie Daten mit Smart Markers in Aspose.Cells .NET](./group-data-smart-markers/)
@@ -113,13 +114,13 @@ Erfahren Sie, wie Sie JSON‑Daten mithilfe von SmartMarker in C# in Excel‑XLS
 Erfahren Sie, wie Sie in C# Excel‑Arbeitsmappen erstellen und Arrays effizient in Zellen einfügen.
 
 ### [Excel‑Datenzusammenführung in C# – Vollständige Smart Marker Anleitung](./excel-data-merging-in-c-complete-smart-marker-guide/)
-Erfahren Sie, wie Sie mit Aspose.Cells Daten aus mehreren Quellen zusammenführen und mithilfe von Smart Markers dynamische Excel‑Berichte erstellen.
+Erfahren Sie, wie Sie mit Aspose.Cells Daten aus mehreren Quellen zusammenführen und mithilfe von Smart Markern dynamische Excel‑Berichte erstellen.
 
 ### [Excel‑Vorlage mit Smart Markers in C# erstellen – Vollständige Anleitung](./create-excel-template-with-smart-markers-in-c-complete-guide/)
 Erfahren Sie, wie Sie in C# mit Aspose.Cells eine Excel‑Vorlage erstellen und Smart Markers einsetzen, um dynamische Berichte zu generieren.
 
 ### [Bedingten Zellwert mit Aspose.Cells Smart Marker erstellen](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
-Lernen Sie, wie Sie mithilfe von Smart Markers in Aspose.Cells bedingte Zellwerte festlegen, um dynamische Berichte zu steuern.
+Lernen Sie, wie Sie mithilfe von Smart Markern in Aspose.Cells bedingte Zellwerte festlegen, um dynamische Berichte zu steuern.
 
 ### [Wie man Marker in Aspose.Cells für dynamische Blattnamen in Excel verwenden](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
 
@@ -239,6 +240,11 @@ Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers eine Master‑Detail‑Arbe
 Erfahren Sie, wie Sie mit Smart Markers Vorlagen automatisch befüllen und Master‑Detail‑Berichte in Excel erstellen.
 ### [Wie man Arbeitsblätter wiederholt – Komplettanleitung für Excel-Automatisierung](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 Erfahren Sie, wie Sie Arbeitsblätter in Excel automatisch duplizieren und wiederholen, um Berichte effizient zu automatisieren.
+### [Excel‑Arbeitsmappe programmgesteuert mit C# erstellen](./how-to-create-excel-workbook-programmatically-with-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel‑Arbeitsmappen programmgesteuert erstellen und Daten dynamisch einfügen.
+
+### [Wie man eine Excel-Arbeitsmappe mit Smart Markern für einen dynamischen Excel-Bericht erstellt](./how-to-create-excel-workbook-with-smart-markers-for-a-dynami/)
+Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers eine Excel‑Arbeitsmappe für dynamische Berichte programmatisch erstellen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

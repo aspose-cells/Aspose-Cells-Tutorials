@@ -70,6 +70,8 @@ Dowiedz się, jak utworzyć zakres odniesienia tabeli przestawnej i wyeksportowa
 Dowiedz się, jak wyeksportować tabelę przestawną z Excela do pliku PNG w C# przy użyciu Aspose.Cells – prosty przewodnik krok po kroku.
 ### [Jak ustawić obszar wydruku w Excelu i wyeksportować PNG](./how-to-set-print-area-in-excel-and-export-png/)
 Dowiedz się, jak ustawić obszar wydruku w Excelu i wyeksportować go jako PNG przy użyciu Aspose.Cells dla .NET.
+### [Ustaw obszar wydruku i wyeksportuj arkusz Excela do PNG w C#](./set-print-area-and-export-excel-sheet-to-png-in-c/)
+Dowiedz się, jak ustawić obszar wydruku i wyeksportować arkusz Excela jako plik PNG przy użyciu Aspose.Cells w C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

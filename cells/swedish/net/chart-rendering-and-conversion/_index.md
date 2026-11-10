@@ -50,6 +50,8 @@ Lär dig hur du exporterar diagram som PNG och konverterar Excel-filer till HTML
 Lär dig hur du exporterar Excel-diagram till PowerPoint med C# med en komplett Aspose.Cells-guide.
 ### [Hur du lägger till diagram i Word med Aspose – bädda in Excel-diagram](./how-to-add-chart-to-word-with-aspose-embed-excel-chart/)
 Lär dig hur du bäddar in ett Excel-diagram i ett Word-dokument med Aspose.Cells för .NET.
+### [Exportera Excel-diagram till PowerPoint med C#](./how-to-export-excel-charts-to-powerpoint-using-c/)
+Lär dig hur du exporterar Excel-diagram till PowerPoint med C# i en steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -80,6 +80,8 @@ Aprenda como exportar planilhas do Excel para HTML de forma eficaz com CSS separ
 Aprenda a incorporar fontes ao exportar planilhas do Excel para HTML usando C# com Aspose.Cells para .NET.
 ### [Como incorporar fontes ao exportar Excel para HTML com C#](./how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
 Aprenda a incorporar fontes ao exportar planilhas Excel para HTML usando C# com Aspose.Cells.
+### [Como incorporar fontes HTML ao converter um XLSX para HTML com Aspose.Cells](./how-to-embed-fonts-html-when-you-convert-an-xlsx-to-html-wit/)
+Aprenda a incorporar fontes ao converter arquivos XLSX para HTML usando Aspose.Cells, garantindo que o texto mantenha sua aparência original.
 ### [Obtendo string HTML5 de uma célula no Excel programaticamente](./getting-html5-string-from-cell/)
 Aprenda como recuperar strings HTML5 de células do Excel programaticamente usando o Aspose.Cells para .NET neste guia detalhado passo a passo.
 ### [Ocultando conteúdo sobreposto com Cross Hide Right ao salvar em HTML](./hiding-overlaid-content-with-cross-hide-right/)
@@ -103,7 +105,6 @@ Aprenda a salvar arquivos do Excel como HTML usando C# com o Aspose.Cells para .
 ### [Incorporar fontes HTML ao exportar Excel – Guia completo em C#](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
 Aprenda a incorporar fontes ao exportar planilhas Excel para HTML usando Aspose.Cells para .NET com um guia completo em C#.
 ### [Como Exportar Excel para HTML – Preservar Painéis Congelados em C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
-Aprenda a exportar planilhas Excel para HTML preservando painéis congelados usando Aspose.Cells para .NET em C#.
 ### [Como exportar xlsx para html com painéis congelados em C#](./how-to-export-xlsx-to-html-with-frozen-panes-in-c/)
 Aprenda a exportar arquivos xlsx para HTML mantendo os painéis congelados com Aspose.Cells para .NET em C#.
 ### [Como incorporar fontes em HTML – Converter Excel para HTML com C#](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)

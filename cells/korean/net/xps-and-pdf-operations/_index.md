@@ -52,6 +52,7 @@ Aspose.Cells for .NET을 사용해 C#에서 Excel 워크북을 XPS 파일로 저
 Aspose.Cells for .NET을 사용해 C#에서 Excel 파일을 XPS 형식으로 변환하는 전체 과정을 단계별로 안내합니다.
 ### [Excel을 XPS로 변환할 때 글꼴 활성화 방법 – 완전 가이드](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
 Excel 파일을 XPS로 변환하면서 필요한 글꼴을 올바르게 적용하는 단계별 방법을 안내합니다.
+### [Aspose.Cells를 사용하여 C#에서 Excel을 XPS로 변환하는 방법](./how-to-convert-excel-to-xps-in-c-using-aspose-cells/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

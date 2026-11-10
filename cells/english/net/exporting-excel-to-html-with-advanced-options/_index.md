@@ -117,6 +117,7 @@ Learn how to embed fonts in HTML when saving a workbook using Aspose.Cells for .
 Learn how to save Excel files as HTML using C# with Aspose.Cells for .NET in this comprehensive step‑by‑step guide.
 ### [embed fonts html when exporting Excel – Complete C# guide](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
 Learn how to embed fonts in HTML when exporting Excel using Aspose.Cells for .NET with a complete C# guide.
+### [How to embed fonts html when you convert an XLSX to HTML with Aspose.Cells](./how-to-embed-fonts-html-when-you-convert-an-xlsx-to-html-wit/)
 ### [How to Export Excel to HTML – Preserve Frozen Panes in C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
 Learn how to preserve frozen panes when exporting Excel to HTML using Aspose.Cells for .NET with C# in this step‑by‑step guide.
 ### [How to Export Excel to HTML while preserving frozen panes](./how-to-export-excel-to-html-while-preserving-frozen-panes/)

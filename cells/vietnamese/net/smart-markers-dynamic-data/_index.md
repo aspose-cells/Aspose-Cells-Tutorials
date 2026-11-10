@@ -155,7 +155,6 @@ Hướng dẫn chi tiết cách phân tích JSON lồng nhau và tạo payload J
 Hướng dẫn cách tạo báo cáo master-detail bằng C# và tự động điền dữ liệu vào mẫu Excel sử dụng SmartMarker.
 ### [Cách tạo danh sách báo cáo Excel với Aspose.Cells Smart Markers](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
 Hướng dẫn chi tiết cách tạo danh sách báo cáo Excel bằng Smart Markers trong Aspose.Cells cho .NET.
-
 ### [Tạo Bảng Excel Động – Hướng Dẫn Smart Marker](./create-dynamic-excel-table-smart-marker-guide/)
 Khám phá cách tạo bảng Excel động bằng Smart Markers trong Aspose.Cells, giúp báo cáo linh hoạt và tự động cập nhật dữ liệu.
 
@@ -166,10 +165,9 @@ Hướng dẫn cách sử dụng Markers trong Aspose.Cells để đặt tên c�
 Hướng dẫn sử dụng Smart Marker để tạo giá trị ô dựa trên điều kiện, tăng tính linh hoạt cho báo cáo Excel.
 ### [Áp dụng SmartMarker vào Worksheet trong C# – Hướng dẫn đầy đủ](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
 Hướng dẫn chi tiết cách sử dụng SmartMarker để áp dụng vào Worksheet trong C#, tạo báo cáo Excel động một cách dễ dàng.
-### [Tạo Excel bằng cách lập trình sử dụng Aspose.Cells Smart Markers](./create-excel-programmatically-using-aspose-cells-smart-marke/)
-Khám phá cách tự động tạo tệp Excel bằng Smart Markers trong Aspose.Cells cho .NET.
+### [Tạo workbook Excel bằng lập trình sử dụng Smart Markers](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+### [Cách tạo workbook Excel với smart markers cho báo cáo Excel động](./how-to-create-excel-workbook-with-smart-markers-for-a-dynami/)
 ### [Aspose Cells Smart Markers: Tạo Excel từ Model trong C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
-Hướng dẫn cách sử dụng Smart Markers để tạo tệp Excel trực tiếp từ Model trong C# với Aspose.Cells.
 ### [Tạo nhiều trang tính với SmartMarker – Hướng dẫn C# đầy đủ](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
 ### [Xuất dữ liệu ra Excel – Hướng dẫn đầy đủ để điền mẫu Excel bằng Smart Markers](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
 ### [Smart Marker dạng phạm vi để xử lý dữ liệu lồng nhau trong C# – Hướng dẫn đầy đủ](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
@@ -183,9 +181,9 @@ Hướng dẫn tạo workbook master‑detail bằng Smart Marker trong Aspose.C
 ### [Hướng dẫn master‑detail Excel – điền mẫu với Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)
 Hướng dẫn chi tiết cách tạo báo cáo master‑detail trong Excel bằng Smart Markers, tự động điền dữ liệu vào mẫu.
 ### [Cách Lặp Lại Các Trang Tính – Hướng Dẫn Toàn Diện cho Tự Động Hóa Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
-Hướng dẫn chi tiết cách lặp lại các trang tính trong Excel bằng Aspose.Cells, giúp tự động hoá quy trình tạo báo cáo.
 ### [Tạo Excel từ JSON với Aspose.Cells Smart Marker](./create-excel-from-json-with-aspose-cells-smart-marker/)
 
+### [Mở rộng worksheet Smart Markers trong C# cho mẫu Excel](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

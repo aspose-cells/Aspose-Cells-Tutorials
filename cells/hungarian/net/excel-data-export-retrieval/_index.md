@@ -56,6 +56,9 @@ Tanuld meg, hogyan hozhatsz létre Excel munkalapot DataTable-ból C#‑ban az A
 ### [Excel tábla exportálása – Teljes lépésről lépésre útmutató](./how-to-export-excel-table-complete-step-by-step-guide/)
 Ismerd meg, hogyan exportálhatsz Excel táblákat az Aspose.Cells for .NET segítségével egy részletes, lépésről lépésre útmutatóban.
 
+### [Egyéni ExportTableOptions az ExportAsString használatakor Excelhez](./custom-exporttableoptions-when-exportasstrin-for-excel/)
+Ismerd meg, hogyan állíthatod be az egyéni ExportTableOptions-t az ExportAsString metódus használatakor Excel fájlok exportálásához.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

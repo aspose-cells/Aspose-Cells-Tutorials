@@ -54,6 +54,8 @@ Dowiedz się, jak wyeksportować wykresy z Excela jako pliki PNG i konwertować 
 Eksportuj wykresy Excela do PowerPoint przy użyciu C# i Aspose.Cells, zgodnie z naszym przewodnikiem.
 ### [Jak dodać wykres do Worda przy użyciu Aspose – osadź wykres Excel](./how-to-add-chart-to-word-with-aspose-embed-excel-chart/)
 Dowiedz się, jak osadzić wykres Excel w dokumencie Word przy pomocy Aspose.Cells w C#.
+### [Jak wyeksportować wykresy Excel do PowerPoint przy użyciu C#](./how-to-export-excel-charts-to-powerpoint-using-c/)
+Dowiedz się, jak wyeksportować wykresy z Excela do PowerPoint przy użyciu C# i Aspose.Cells, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

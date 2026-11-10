@@ -69,6 +69,7 @@ Aspose.Cells की सबसे बेहतरीन विशेषताओ�
 C# के लिए Aspose.Cells का उपयोग करके PNG पिवट इमेज बनाने की पूरी चरण‑दर‑चरण मार्गदर्शिका।
 ### [Excel में प्रिंट एरिया सेट करें और PNG निर्यात करें](./how-to-set-print-area-in-excel-and-export-png/)
 Excel में प्रिंट एरिया निर्धारित करके उसे PNG फ़ॉर्मेट में निर्यात करने की चरण-दर-चरण प्रक्रिया सीखें।
+### [C# में प्रिंट एरिया सेट करें और Excel शीट को PNG में निर्यात करें](./set-print-area-and-export-excel-sheet-to-png-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

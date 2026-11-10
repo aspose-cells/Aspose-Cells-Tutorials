@@ -56,6 +56,9 @@ Aspose.Cells for .NET を使用して、C# の DataTable から Excel シート�
 ### [Excelテーブルのエクスポート方法 – 完全ステップバイステップガイド](./how-to-export-excel-table-complete-step-by-step-guide/)
 この完全ステップバイステップガイドでは、Aspose.Cells for .NET を使用して Excel テーブルをエクスポートする方法を詳しく解説します。
 
+### [ExportAsString 時のカスタム ExportTableOptions](./custom-exporttableoptions-when-exportasstrin-for-excel/)
+Aspose.Cells for .NET を使用し、ExportAsString 時にカスタム ExportTableOptions を設定する方法を解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

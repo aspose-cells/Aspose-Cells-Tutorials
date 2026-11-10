@@ -38,6 +38,8 @@ Learn how to write Unicode characters in Excel using C# with Aspose.Cells. Follo
 Learn how to convert DOCX files to XPS using Aspose.Words for .NET with clear code examples and step‑by‑step instructions.
 ### [convert excel to xps with C# - Complete Guide](./convert-excel-to-xps-with-c-complete-guide/)
 Learn how to convert Excel files to XPS using C# with Aspose.Cells for .NET in a complete step-by-step guide.
+### [How to convert Excel to XPS in C# using Aspose.Cells](./how-to-convert-excel-to-xps-in-c-using-aspose-cells/)
+Learn how to convert Excel workbooks to XPS in C# using Aspose.Cells with step‑by‑step code examples.
 ### [Convert Excel to XPS in C# and load Excel file](./convert-excel-to-xps-in-c-and-load-excel-file/)
 Learn how to convert an Excel workbook to XPS in C# while loading the Excel file using Aspose.Cells for .NET.
 ### [Create New Excel Workbook – Unicode & XPS Export Guide](./create-new-excel-workbook-unicode-xps-export-guide/)

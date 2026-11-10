@@ -40,6 +40,10 @@
 
 ### [แปลง Excel เป็น XPS ด้วย C# - คู่มือเต็ม](./convert-excel-to-xps-with-c-complete-guide/)
 เรียนรู้วิธีแปลงไฟล์ Excel เป็น XPS ด้วย C# อย่างละเอียด พร้อมตัวอย่างโค้ดครบถ้วน
+
+### [วิธีแปลง Excel เป็น XPS ด้วย C# โดยใช้ Aspose.Cells](./how-to-convert-excel-to-xps-in-c-using-aspose-cells/)
+เรียนรู้ขั้นตอนการแปลงไฟล์ Excel เป็น XPS ด้วย C# ผ่าน Aspose.Cells อย่างละเอียด
+
 ### [แปลง Excel เป็น XPS ด้วย C# และโหลดไฟล์ Excel](./convert-excel-to-xps-in-c-and-load-excel-file/)
 เรียนรู้วิธีแปลงไฟล์ Excel เป็น XPS ด้วย C# พร้อมขั้นตอนการโหลดไฟล์ Excel ก่อนแปลง
 

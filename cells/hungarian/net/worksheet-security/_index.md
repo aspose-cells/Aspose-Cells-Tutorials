@@ -42,7 +42,7 @@ Volt már dolgod azokkal a bosszantó cellákkal, amik egyszerűen nem maradnak 
 ### [A felhasználók szerkeszthetik a munkalap tartományait az Aspose.Cells használatával](./allow-edit-ranges/)
 Tanulja meg, hogyan hozhat létre szerkeszthető tartományokat Excel-munkafüzetekben az Aspose.Cells for .NET segítségével, lehetővé téve bizonyos cellák szerkeszthetőségét, miközben a többit munkalapvédelemmel védi.
 ### [Cellák és tartományok védelme a munkalapban az Aspose.Cells használatával](./protect-cells-and-ranges/)
-Ismerje meg, hogyan védheti meg a cellákat és tartományokat egy Excel-munkafüzetben az Aspose.Cells for .NET használatával. Kövesse ezt a lépésenkénti útmutatót a táblázatai biztonságossá tételéhez.
+Ismerje meg, hogyan védheti meg a cellákat és tartományokat egy Excel-munkafüzetben az Aspose.Cells for .NET használatával. Kövesse ezt a lépésről lépésre útmutatót a táblázatai biztonságossá tételéhez.
 ### [Védje a teljes munkalapot jelszóval az Aspose.Cells használatával](./protect-worksheet-password/)
 Ebben az átfogó, lépésről lépésre haladó útmutatóban megtudhatja, hogyan védheti jelszavas védelemmel Excel-munkafüzeteit az Aspose.Cells for .NET használatával.
 ### [Oszlopok védelme a munkalapban az Aspose.Cells használatával](./protect-columns/)
@@ -62,7 +62,7 @@ Nyisd meg a jelszóval védett Excel-táblázatokat az Aspose.Cells útmutatónk
 ### [Egyszerűen védett munkalap védelmének feloldása az Aspose.Cells használatával](./unprotect-simply-protected/)
 Az Aspose.Cells for .NET segítségével könnyedén jelszó nélkül oldhatod fel az Excel-munkafüzetek védelmét. Tanuld meg a beállítást, a kódlépéseket, és mentsd el zökkenőmentesen a kimenetet.
 ### [Védett lap eltávolítása az Aspose.Cells használatával](./unprotect-protect-sheet/)
-Ismerje meg, hogyan védheti és oldhatja fel az Excel-táblázatok védelmét .NET-ben az Aspose.Cells használatával. Kövesse ezt a lépésenkénti útmutatót a munkalapjai védelméhez.
+Ismerje meg, hogyan védheti és oldhatja fel az Excel-táblázatok védelmét .NET-ben az Aspose.Cells használatával. Kövesse ezt a lépésről lépésre útmutatót a munkalapjai védelméhez.
 ### [Egyszerű munkalap védelmének feloldása az Aspose.Cells használatával](./unprotect-simple-sheet/)
 Tanuld meg, hogyan oldhatod fel könnyedén az Excel-táblázatok védelmét az Aspose.Cells for .NET használatával ezzel a lépésről lépésre szóló útmutatóval.
 ### [Speciális védelmi beállítások implementálása a munkalapon az Aspose.Cells használatával](./implement-advanced-protection-settings/)
@@ -72,10 +72,13 @@ Ismerje meg, hogyan valósíthat meg speciális védelmi beállításokat az Exc
 ### [Cellák zárolása a munkalapban az Aspose.Cells használatával](./lock-cells/)
 Tanuld meg, hogyan zárolhatsz cellákat az Excelben az Aspose.Cells for .NET használatával ebből a lépésről lépésre szóló útmutatóból. Védd adataidat részletes kódpéldákkal és egyszerű utasításokkal.
 ### [Szerző megadása írásvédett munkafüzet esetén az Aspose.Cells használatával](./specify-author-write-protect-workbook/)
-Ebben a lépésenkénti útmutatóban megtudhatja, hogyan adhat meg szerzőt írásvédelemmel ellátott Excel-munkafüzetben az Aspose.Cells for .NET használatával.
+Ebben a lépésről lépésre útmutatóban megtudhatja, hogyan adhat meg szerzőt írásvédelemmel ellátott Excel-munkafüzetben az Aspose.Cells for .NET használatával.
 
 ### [Jelszó hozzáadása az Excelhez – Teljes lapvédelem útmutató](./add-password-to-excel-complete-sheet-protection-guide/)
 Ismerje meg, hogyan adhat jelszót egy Excel munkalaphoz az Aspose.Cells for .NET használatával, biztosítva a teljes lap védelmét.
+
+### [Hogyan zárolja az Excel fejlécsorát az Aspose.Cells használatával C#-ban](./how-to-lock-excel-header-row-with-aspose-cells-in-c/)
+Ismerje meg, hogyan zárolhatja az Excel fejlécsorát az Aspose.Cells for .NET segítségével C# nyelven.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

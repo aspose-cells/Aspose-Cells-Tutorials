@@ -58,6 +58,9 @@
 ### [ลบ AutoFilter จาก Excel ด้วย C# – คู่มือฉบับสมบูรณ์](./remove-autofilter-from-excel-in-c-complete-guide/)
 วิธีลบ AutoFilter จาก Excel ด้วย C# อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
 
+### [วิธีปิด AutoFilter ใน Excel ด้วย C# – คู่มือฉบับสมบูรณ์](./how-to-disable-autofilter-in-excel-with-c-complete-guide/)
+เรียนรู้วิธีปิดการทำงานของ AutoFilter ในไฟล์ Excel ด้วย Aspose.Cells และ C# อย่างละเอียดและง่ายดาย
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

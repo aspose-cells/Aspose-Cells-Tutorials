@@ -120,6 +120,9 @@ Ismerje meg, hogyan exportálhatja az Excel-fájlokat HTML-be úgy, hogy a befag
 ### [Betűtípusok beágyazása HTML-be Excel konvertálásakor az Aspose.Cells használatával](./how-to-embed-fonts-when-converting-excel-to-html-with-aspose/)
 Ismerje meg, hogyan ágyazhat be betűtípusokat az Excel HTML-re konvertálásakor az Aspose.Cells használatával.
 
+### [Hogyan ágyazzunk be betűtípusokat HTML-be, amikor egy XLSX-et konvertálunk HTML-re az Aspose.Cells segítségével](./how-to-embed-fonts-html-when-you-convert-an-xlsx-to-html-wit/)
+Ismerje meg, hogyan ágyazhat be betűtípusokat az Excel XLSX HTML exportálásakor az Aspose.Cells .NET könyvtárral.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

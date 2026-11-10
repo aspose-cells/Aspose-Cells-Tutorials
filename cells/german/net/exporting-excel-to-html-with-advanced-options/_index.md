@@ -80,10 +80,15 @@ Erfahren Sie in diesem umfassenden Schritt‑für‑Schritt‑Tutorial, wie Sie 
 ### [HTML5‑String programmgesteuert aus einer Zelle in Excel abrufen](./getting-html5-string-from-cell/)
 Erfahren Sie in dieser ausführlichen Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.Cells für .NET programmgesteuert HTML5‑Zeichenfolgen aus Excel‑Zellen abrufen.
 ### [Schriftarten in HTML einbetten – Excel nach HTML exportieren mit C#](./embed-fonts-in-html-export-excel-to-html-with-c/)
+Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.Cells für .NET Schriftarten beim HTML‑Export von Excel in C# einbetten.
+### [Schriftarten in HTML einbetten, wenn Sie ein XLSX in HTML konvertieren mit Aspose.Cells](./how-to-embed-fonts-html-when-you-convert-an-xlsx-to-html-wit/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Schriftarten beim Konvertieren einer XLSX-Datei in HTML einbetten.
 ### [Schriftarten beim Exportieren von Excel nach HTML mit C# einbetten](./how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Schriftarten beim Exportieren von Excel nach HTML in C# einbetten, um ein konsistentes Layout zu gewährleisten.
 ### [Schriftarten in HTML einbetten – Excel‑Arbeitsmappe nach HTML exportieren mit Aspose.Cells](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Schriftarten in die HTML‑Ausgabe einbetten und ein konsistentes Layout sicherstellen.
+### [Überlagerten Inhalt mit Cross Hide Right beim Speichern im HTML‑Format ausblenden](./hiding-overlaid-content-with-cross-hide-right/)
+In diesem umfassenden Handbuch erfahren Sie, wie Sie überlagerte Inhalte in Excel beim Speichern im HTML‑Format mit Aspose.Cells für .NET ausblenden.
 ### [Wie man wrapcols verwendet und Schriftarten beim Speichern von Excel nach HTML einbettet](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
 Erfahren Sie, wie Sie wrapcols nutzen und Schriftarten beim Exportieren von Excel nach HTML mit Aspose.Cells für .NET einbetten.
 ### [HTML‑Speicheroptionen als Präfix für Tabellenelemente](./prefixing-table-elements-styles/)

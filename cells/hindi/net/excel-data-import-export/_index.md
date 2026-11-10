@@ -46,6 +46,9 @@
 ### [C# में Excel को DataTable में निर्यात करने का तरीका – चरण‑दर‑चरण गाइड](./how-to-export-excel-to-a-datatable-in-c-step-by-step-guide/)
 .NET के लिए Aspose.Cells का उपयोग करके Excel को DataTable में निर्यात करना सीखें।
 
+### [C# में DataTable को Excel वर्कशीट में आयात करें](./how-to-import-datatable-into-an-excel-worksheet-using-c/)
+.NET के लिए Aspose.Cells का उपयोग करके C# में DataTable को Excel वर्कशीट में आयात करना सीखें।
+
 ### [वर्कबुक बनाना – हल्का नीला पृष्ठभूमि, डेटा आयात](./how-to-create-workbook-light-blue-background-data-import/)
 Aspose.Cells का उपयोग करके हल्के नीले पृष्ठभूमि के साथ वर्कबुक बनाना और डेटा आयात करना सीखें।
 ### [C# के साथ JSON को Excel में निर्यात करें: पूर्ण प्रोग्रामिंग गाइड](./export-json-to-excel-with-c-complete-programming-guide/)

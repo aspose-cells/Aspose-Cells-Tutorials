@@ -62,6 +62,8 @@ Leer hoe u een tabel toevoegt, de autofilter wist en het bestand opslaat met Asp
 Leer hoe u met Aspose.Cells in .NET een autofilter uit Excel‑tabellen verwijdert met C#.
 ### [Verwijder autofilter uit Excel in C# – volledige gids](./remove-autofilter-from-excel-in-c-complete-guide/)
 Leer hoe u de autofilter in Excel verwijdert met C# en Aspose.Cells in deze volledige gids.
+### [Hoe u autofilter in Excel uitschakelt met C# – volledige gids](./how-to-disable-autofilter-in-excel-with-c-complete-guide/)
+Leer hoe u met Aspose.Cells in .NET een autofilter in een Excel‑werkblad uitschakelt, stap voor stap uitgelegd.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

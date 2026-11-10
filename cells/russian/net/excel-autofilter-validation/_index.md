@@ -42,6 +42,10 @@
 Узнайте, как реализовать автофильтр в Excel с помощью C# и Aspose.Cells, следуя полному пошаговому руководству.
 ### [Удаление автофильтра в Excel на C# – Полное пошаговое руководство](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Узнайте, как полностью удалить автофильтр из Excel с помощью Aspose.Cells в C# в этом подробном пошаговом руководстве.
+
+### [Как отключить автофильтр в Excel с C# – полное руководство](./how-to-disable-autofilter-in-excel-with-c-complete-guide/)
+Узнайте, как отключить автофильтр в Excel с помощью Aspose.Cells в C# в полном руководстве.
+
 ### [Как удалить автофильтр из таблиц Excel с помощью C#](./how-to-remove-autofilter-from-excel-tables-using-c/)
 Узнайте, как удалить автофильтр из таблиц Excel с помощью Aspose.Cells в .NET, следуя нашему полному руководству на C#.
 ### [Удалить автофильтр в Excel с C# – пошаговое руководство](./remove-autofilter-in-excel-with-c-step-by-step-guide/)

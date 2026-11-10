@@ -40,6 +40,8 @@ Tanuld meg, hogyan konvertálhatsz Excel-diagramokat PDF-be az Aspose.Cells for 
 Hozz létre egy PDF-et az Excel-diagramoddal az Aspose.Cells for .NET használatával. Tanuld meg, hogyan kell ezt tenni ebből a lépésről lépésre szóló útmutatóból.
 ### [Diagram exportálása PowerPointba C#‑val – Teljes lépésről‑lépésre útmutató](./export-chart-to-powerpoint-with-c-complete-step-by-step-guid/)
 Tanulja meg, hogyan exportálhat diagramot PowerPointba C#‑ban az Aspose.Cells for .NET segítségével, lépésről‑lépésre útmutatóval.
+### [Excel-diagramok exportálása PowerPointba C#‑val – Teljes lépésről‑lépésre útmutató](./how-to-export-excel-charts-to-powerpoint-using-c/)
+Tanulja meg, hogyan exportálhat Excel-diagramokat PowerPointba C#‑ban az Aspose.Cells for .NET segítségével, részletes lépésről‑lépésre útmutatóval.
 ### [Diagramok exportálása a Wordből – Teljes C# útmutató](./how-to-export-charts-from-word-complete-c-guide/)
 ### [Hogyan adjon hozzá diagramot Word-hez Aspose-szal – Excel-diagram beágyazása](./how-to-add-chart-to-word-with-aspose-embed-excel-chart/)
 Tanulja meg, hogyan ágyazhat be Excel-diagramot Word dokumentumba az Aspose.Cells for .NET segítségével.

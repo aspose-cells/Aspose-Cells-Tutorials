@@ -63,6 +63,8 @@ Scopri come trasformare un foglio di lavoro Excel in un DataTable C# usando Aspo
 Scopri come importare file JSON in Excel usando Aspose.Cells per .NET con una guida completa passo passo.
 ### [Converti JSON in XLSX in C# – guida completa passo‑passo](./convert-json-to-xlsx-in-c-complete-step-by-step-guide/)
 Scopri come trasformare file JSON in fogli di calcolo XLSX usando C# e Aspose.Cells per .NET in questa guida dettagliata.
+### [Come importare DataTable in un foglio di lavoro Excel con C#](./how-to-import-datatable-into-an-excel-worksheet-using-c/)
+Scopri come importare un DataTable in un foglio Excel utilizzando Aspose.Cells per .NET con C# in questa guida passo‑passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,6 +56,9 @@
 ### [วิธีส่งออกตาราง Excel – คู่มือขั้นตอนเต็มรูปแบบ](./how-to-export-excel-table-complete-step-by-step-guide/)
 เรียนรู้วิธีส่งออกตาราง Excel อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET ผ่านขั้นตอนที่ชัดเจนและครบถ้วน
 
+### [กำหนดค่า ExportTableOptions แบบกำหนดเองเมื่อ ExportAsString สำหรับ Excel](./custom-exporttableoptions-when-exportasstrin-for-excel/)
+เรียนรู้วิธีใช้ ExportTableOptions แบบกำหนดเองกับเมธอด ExportAsString เพื่อส่งออกข้อมูล Excel อย่างแม่นยำ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

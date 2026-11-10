@@ -35,7 +35,7 @@ Lär dig hur du ställer in tiden för PDF-skapande i .NET med Aspose.Cells. Fö
 ### [Hur man skriver Unicode i Excel med C# – Komplett steg‑för‑steg‑guide](./how-to-write-unicode-in-excel-with-c-complete-step-by-step-g/)
 Lär dig hur du skriver Unicode‑tecken i Excel med C# genom en komplett steg‑för‑steg‑guide med kodexempel.
 ### [Konvertera docx till xps i C# – Komplett guide](./convert-docx-to-xps-in-c-complete-guide/)
-Lär dig hur du konverterar DOCX-filer till XPS med C# och Aspose.Words i en komplett steg-för-steg-guide.
+Lär dig hur du konverterar DOCX-filer till XPS med C# och Aspose.Words i en komplett steg‑för‑steg-guide.
 ### [Konvertera Excel till XPS med C# - Komplett guide](./convert-excel-to-xps-with-c-complete-guide/)
 Lär dig hur du konverterar Excel-filer till XPS med C# i en komplett steg‑för‑steg‑guide.
 ### [Konvertera Excel till XPS i C# och ladda Excel-fil](./convert-excel-to-xps-in-c-and-load-excel-file/)
@@ -50,6 +50,8 @@ Lär dig hur du bäddar in teckensnitt i PDF-filer med Aspose.Cells i C#, steg f
 Lär dig hur du sparar en arbetsbok som XPS i C# med Aspose.Cells. Följ vår steg‑för‑steg‑guide med kodexempel.
 ### [Konvertera Excel till XPS i C# – Komplett steg‑för‑steg‑guide](./convert-excel-to-xps-in-c-complete-step-by-step-guide/)
 Lär dig hur du konverterar Excel-filer till XPS med C# och Aspose.Cells genom en komplett steg‑för‑steg‑guide.
+### [Hur man konverterar Excel till XPS i C# med Aspose.Cells](./how-to-convert-excel-to-xps-in-c-using-aspose-cells/)
+Lär dig steg‑för‑steg hur du konverterar Excel‑filer till XPS med C# och Aspose.Cells.
 ### [Hur du aktiverar teckensnitt vid konvertering av Excel till XPS – Komplett guide](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
 Lär dig hur du aktiverar teckensnitt vid konvertering av Excel-filer till XPS med Aspose.Cells i en steg-för-steg-guide.
 

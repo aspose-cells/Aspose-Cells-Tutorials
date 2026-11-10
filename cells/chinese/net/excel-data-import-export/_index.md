@@ -63,6 +63,8 @@
 本教程详细演示如何使用 Aspose.Cells for .NET 将 JSON 数据导入 Excel，实现完整的编程操作。
 ### [将 JSON 转换为 XLSX（C#） – 完整分步指南](./convert-json-to-xlsx-in-c-complete-step-by-step-guide/)
 本教程详细演示如何使用 Aspose.Cells for .NET 将 JSON 数据转换为 XLSX 文件，步骤完整。
+### [在 C# 中将 DataTable 导入 Excel 工作表 – 步骤指南](./how-to-import-datatable-into-an-excel-worksheet-using-c/)
+学习如何使用 Aspose.Cells for .NET 在 C# 中将 DataTable 导入 Excel 工作表，完整的步骤演示。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

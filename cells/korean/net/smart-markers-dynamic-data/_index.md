@@ -88,24 +88,11 @@ Aspose.Cells를 사용하여 단계별 가이드에 따라 스마트 마커를 �
 Aspose.Cells 스마트 마커에서 중첩 범위 옵션을 활성화하여 복잡한 데이터 구조를 효율적으로 처리하는 방법을 단계별로 안내합니다.
 ### [스마트 마커 Aspose.Cells를 사용하여 변수 배열 구현](./variable-array-smart-markers/)
 Aspose.Cells의 강력한 기능을 활용하세요. 스마트 마커를 사용하여 변수 배열을 구현하고 Excel 보고서를 원활하게 생성하는 방법을 단계별로 알아보세요.
+### [스마트 마커를 사용하여 동적 Excel 보고서를 위한 Excel 워크북 만들기](./how-to-create-excel-workbook-with-smart-markers-for-a-dynami/)
 ### [C#로 Excel 워크북 만들기 – 셀에 배열 삽입 완전 가이드](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
 C#에서 Aspose.Cells를 사용해 셀에 배열 데이터를 삽입하고 동적 워크북을 만드는 방법을 단계별로 안내합니다.
 ### [C#에서 Excel 데이터 병합 – 완전 스마트 마커 가이드](./excel-data-merging-in-c-complete-smart-marker-guide/)
 ### [C#에서 스마트 마커를 사용하여 Excel 템플릿 만들기 – 완전 가이드](./create-excel-template-with-smart-markers-in-c-complete-guide/)
-### [스마트 마커를 사용하여 Excel로 데이터 내보내기 – 전체 C# 가이드](./export-data-to-excel-with-smart-marker-full-c-guide/)
-스마트 마커를 활용해 C#에서 데이터를 Excel 파일로 내보내는 전체 가이드를 단계별로 안내합니다.
-### [스마트 마커를 사용하여 Excel로 데이터 내보내기 – 전체 C# 가이드](./export-data-to-excel-with-smart-marker-full-c-guide/)
-스마트 마커를 활용해 C#에서 데이터를 Excel 파일로 내보내는 전체 가이드를 단계별로 안내합니다.
-### [스마트 마커를 사용하여 Excel로 데이터 내보내기 – 전체 C# 가이드](./export-data-to-excel-with-smart-marker-full-c-guide/)
-스마트 마커를 활용해 C#에서 데이터를 Excel 파일로 내보내는 전체 가이드를 단계별로 안내합니다.
-### [스마트 마커를 사용하여 Excel로 데이터 내보내기 – 전체 C# 가이드](./export-data-to-excel-with-smart-marker-full-c-guide/)
-스마트 마커를 활용해 C#에서 데이터를 Excel 파일로 내보내는 전체 가이드를 단계별로 안내합니다.
-### [스마트 마커를 사용하여 Excel로 데이터 내보내기 – 전체 C# 가이드](./export-data-to-excel-with-smart-marker-full-c-guide/)
-스마트 마커를 활용해 C#에서 데이터를 Excel 파일로 내보내는 전체 가이드를 단계별로 안내합니다.
-### [스마트 마커를 사용하여 Excel로 데이터 내보내기 – 전체 C# 가이드](./export-data-to-excel-with-smart-marker-full-c-guide/)
-스마트 마커를 활용해 C#에서 데이터를 Excel 파일로 내보내는 전체 가이드를 단계별로 안내합니다.
-### [스마트 마커를 사용하여 Excel로 데이터 내보내기 – 전체 C# 가이드](./export-data-to-excel-with-smart-marker-full-c-guide/)
-스마트 마커를 활용해 C#에서 데이터를 Excel 파일로 내보내는 전체 가이드를 단계별로 안내합니다.
 ### [스마트 마커를 사용하여 Excel로 데이터 내보내기 – 전체 C# 가이드](./export-data-to-excel-with-smart-marker-full-c-guide/)
 스마트 마커를 활용해 C#에서 데이터를 Excel 파일로 내보내는 전체 가이드를 단계별로 안내합니다.
 ### [스마트 마커를 사용하여 Excel로 데이터 내보내기 – 전체 C# 가이드](./export-data-to-excel-with-smart-marker-full-c-guide/)
@@ -153,6 +140,9 @@ Aspose.Cells를 사용하여 데이터에 따라 Excel 시트 이름을 자동�
 
 ## [C#에서 스마트 마커 컬렉션 만들기 – 완전 가이드](./create-smart-marker-collection-in-c-complete-guide/)
 C#을 사용하여 스마트 마커 컬렉션을 완전하게 구현하는 방법을 단계별로 안내합니다.
+### [C#로 Excel 워크북을 프로그래밍 방식으로 만들기](./how-to-create-excel-workbook-programmatically-with-c/)
+C#를 사용해 Aspose.Cells로 Excel 워크북을 프로그래밍 방식으로 생성하는 방법을 단계별로 안내합니다.
+### [C#로 Excel 템플릿에서 워크시트 스마트 마커 확장](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
 ### [Aspose.Cells 스마트 마커를 사용하여 JSON에서 Excel 만들기](./create-excel-from-json-with-aspose-cells-smart-marker/)
 JSON 데이터를 활용해 스마트 마커로 Excel 파일을 생성하는 방법을 단계별로 안내합니다.
 ### [C#에서 JSON 배열을 위한 SmartMarkerOptions ArrayAsSingle 구성](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)

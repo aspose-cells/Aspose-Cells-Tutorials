@@ -133,7 +133,7 @@ Aprenda a crear y configurar opciones de guardado HTML en C# usando Aspose.Cells
 ### [Cómo incrustar fuentes al convertir Excel a HTML con Aspose.Cells](./how-to-embed-fonts-when-converting-excel-to-html-with-aspose/)
 Aprenda a incrustar fuentes al convertir archivos de Excel a HTML usando Aspose.Cells con esta guía paso a paso.
 ### [Guardar Excel como HTML – Guía completa para exportar y convertir archivos de Excel](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
-Aprenda a guardar archivos de Excel como HTML y convertirlos usando Aspose.Cells para .NET en esta guía paso a paso.
+Aprenda a guardar archivos de Excel como HTML y convertirlos usando Aspose.Cells para .NET en una guía paso a paso.
 ### [Incrustar fuentes en HTML – Exportar libro de Excel a HTML con Aspose.Cells](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
 Aprenda a incrustar fuentes en el HTML al exportar libros de Excel usando Aspose.Cells para .NET en esta guía paso a paso.
 ### [Convertir Excel a HTML – Guía completa usando Aspose.Cells](./convert-excel-to-html-complete-guide-using-aspose-cells/)
@@ -145,7 +145,7 @@ Aprenda a guardar archivos de Excel como HTML con una guía completa y ejemplos 
 Aprenda a generar HTML a partir de una tabla en C# usando Aspose.Cells para .NET con esta guía paso a paso.
 
 ### [Cómo incrustar fuentes al exportar Excel a HTML – Guía completa en C#](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
-Aprenda a incrustar fuentes al exportar Excel a HTML con Aspose.Cells para .NET usando C# en esta guía completa paso a paso.
+Aprenda a incrustar fuentes al exportar Excel a HTML con Aspose.Cells para .NET usando C# en una guía completa paso a paso.
 
 ### [Cómo incrustar fuentes al exportar Excel a HTML con C#](./how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
 Aprenda a incrustar fuentes en el HTML generado al exportar Excel usando Aspose.Cells para .NET con C# paso a paso.
@@ -158,6 +158,9 @@ Aprenda a incrustar fuentes en HTML al guardar un libro de Excel usando Aspose.C
 
 ### [Cómo usar wrapcols e incrustar fuentes al guardar Excel a HTML](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
 Aprenda a usar la opción wrapcols e incrustar fuentes al exportar Excel a HTML con Aspose.Cells para .NET.
+
+### [Cómo incrustar fuentes en HTML al convertir un XLSX a HTML con Aspose.Cells](./how-to-embed-fonts-html-when-you-convert-an-xlsx-to-html-wit/)
+Aprenda a incrustar fuentes en el HTML generado al convertir archivos XLSX a HTML usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

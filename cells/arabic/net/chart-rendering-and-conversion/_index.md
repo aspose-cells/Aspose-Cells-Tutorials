@@ -48,6 +48,8 @@
 تعلم كيفية تصدير مخططات Excel إلى عروض PowerPoint باستخدام C# مع Aspose.Cells خطوة بخطوة.
 ### [كيفية إضافة مخطط إلى Word باستخدام Aspose – تضمين مخطط Excel](./how-to-add-chart-to-word-with-aspose-embed-excel-chart/)
 تعلم كيفية إضافة مخطط Excel إلى مستند Word باستخدام Aspose.Cells خطوة بخطوة.
+### [تصدير مخططات Excel إلى PowerPoint باستخدام C#](./how-to-export-excel-charts-to-powerpoint-using-c/)
+تعلم كيفية تصدير مخططات Excel إلى PowerPoint باستخدام C# مع Aspose.Cells خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

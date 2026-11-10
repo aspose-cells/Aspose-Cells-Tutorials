@@ -105,11 +105,12 @@ Apprenez à charger un fichier Excel en C# et à supprimer des lignes, y compris
 Apprenez à insérer des lignes dans Excel avec C# grâce à ce guide détaillé, étape par étape.
 ### [Comment utiliser WRAPCOLS : créer une mise en page à deux colonnes en C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 Apprenez à utiliser la fonction WRAPCOLS pour générer automatiquement une disposition à deux colonnes dans vos feuilles Excel avec Aspose.Cells pour .NET.
-
 ### [Comment insérer des lignes dans GridJs – Ajouter plusieurs lignes rapidement](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Apprenez à insérer rapidement plusieurs lignes dans GridJs avec ce guide étape par étape.
 ### [Comment utiliser wrapcols en C# – Guide complet avec Excel WRAPROWS et recalcul des formules](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Découvrez comment appliquer wrapcols et wraprows dans Excel avec Aspose.Cells, et recalculer les formules efficacement.
+### [Comment utiliser WRAPCOLS en C# et enregistrer le classeur au format XLSX](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
+Apprenez à appliquer WRAPCOLS en C# et à enregistrer votre classeur Excel au format XLSX avec Aspose.Cells.
 ### [Déplacer les cellules vers le haut dans Excel avec C# – Guide complet](./shift-cells-up-in-excel-with-c-complete-guide/)
 Découvrez comment déplacer les cellules vers le haut dans Excel avec C# grâce à notre guide complet, étape par étape.
 

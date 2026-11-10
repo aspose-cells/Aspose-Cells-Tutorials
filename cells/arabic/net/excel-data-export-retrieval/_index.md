@@ -53,6 +53,8 @@
 ### [كيفية تصدير جدول Excel – دليل خطوة بخطوة كامل](./how-to-export-excel-table-complete-step-by-step-guide/)
 تعلم كيفية تصدير جدول Excel إلى ملف باستخدام Aspose.Cells لـ .NET في هذا الدليل الشامل خطوة بخطوة، مناسب لجميع المستويات.
 
+### [تخصيص ExportTableOptions عند ExportAsString لـ Excel](./custom-exporttableoptions-when-exportasstrin-for-excel/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

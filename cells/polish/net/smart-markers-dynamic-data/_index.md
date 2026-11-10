@@ -79,6 +79,8 @@ Dowiedz się, jak używać anonimowych typów z inteligentnymi znacznikami w Asp
 Odkryj moc Aspose.Cells dla .NET i dowiedz się, jak bez wysiłku stosować atrybuty stylu kopiowania w Excel Smart Markers. Ten kompleksowy samouczek zawiera instrukcje krok po kroku.
 ### [Tworzenie dynamicznych arkuszy przy użyciu inteligentnych znaczników w Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 Dowiedz się, jak generować dynamiczne arkusze kalkulacyjne przy użyciu Smart Markers w Aspose.Cells.
+### [Rozszerz arkusz inteligentnych znaczników w C# dla szablonów Excel](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
+Dowiedz się, jak rozszerzyć arkusz przy użyciu inteligentnych znaczników w C# dla szablonów Excel, aby dynamicznie generować raporty.
 ### [Użyj parametru formuły w polu inteligentnego znacznika Aspose.Cells](./formula-parameter-smart-marker/)
 Naucz się używać parametrów formuły w inteligentnych znacznikach za pomocą Aspose.Cells dla .NET. Twórz dynamiczne arkusze kalkulacyjne z łatwością.
 ### [Utwórz warunkową wartość komórki przy użyciu inteligentnego znacznika Aspose.Cells](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
@@ -155,6 +157,9 @@ Dowiedz się, jak stworzyć obiekt danych głównych i automatycznie generować 
 ### [Zastosowanie SmartMarker w arkuszu w C# – Kompletny przewodnik](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
 Dowiedz się, jak zastosować SmartMarker w arkuszu Excel przy użyciu C#, krok po kroku, aby generować dynamiczne raporty.
 ### [Tworzenie pliku Excel programowo przy użyciu Aspose.Cells Smart Markers](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+### [Jak programowo utworzyć skoroszyt Excel w C#](./how-to-create-excel-workbook-programmatically-with-c/)
+Dowiedz się, jak w C# programowo tworzyć skoroszyt Excel przy użyciu Aspose.Cells, krok po kroku.
+
 ### [Generowanie wielu arkuszy przy użyciu SmartMarker – Kompletny przewodnik C#](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
 Dowiedz się, jak generować wiele arkuszy w Excelu przy użyciu SmartMarker w C#, krok po kroku, aby tworzyć dynamiczne raporty.
 ### [Aspose Cells Smart Markers: Generowanie Excela z modelu w C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
@@ -176,6 +181,8 @@ Dowiedz się, jak przy pomocy Smart Markers w Aspose.Cells stworzyć skoroszyt M
 ### [Przewodnik Master‑Detail w Excelu – wypełnianie szablonów za pomocą Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)
 Dowiedz się, jak używać Smart Markers do wypełniania szablonów Excel danymi w scenariuszu Master‑Detail.
 ### [Jak powielać arkusze – Kompletny przewodnik po automatyzacji Excela](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+
+### [Jak utworzyć skoroszyt Excel przy użyciu inteligentnych znaczników dla dynamicznego raportu Excel](./how-to-create-excel-workbook-with-smart-markers-for-a-dynami/)
 
 ### [Konwertuj JSON do XLSX w C# przy użyciu SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
 

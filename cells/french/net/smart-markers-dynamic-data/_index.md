@@ -116,13 +116,9 @@ Apprenez à créer un classeur Excel en utilisant les Smart Markers via du code 
 ### [Configurer SmartMarkerOptions ArrayAsSingle en C# pour les tableaux JSON](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
 
 Apprenez à convertir des fichiers JSON en Excel en C# avec un guide détaillé, étape par étape, pour créer des rapports dynamiques.
-
 ### [Convertir JSON en XLSX en C# avec SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
-
 Convertissez des données JSON en fichiers XLSX en C# avec SmartMarker grâce à un guide complet et simple.
-
 ### [Comment générer un rapport Excel en fusionnant un modèle Excel avec des Smart Markers](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
-
 Apprenez à créer un rapport Excel dynamique en combinant un modèle avec des Smart Markers, étape par étape.
 ### [Marqueur intelligent de plage pour traiter les données imbriquées en C# – Guide complet](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
 Apprenez à utiliser le marqueur intelligent de plage pour gérer des données imbriquées en C# avec Aspose.Cells, guide complet pas à pas.
@@ -149,6 +145,12 @@ Apprenez à générer une liste de rapports Excel en utilisant les Smart Markers
 ### [Créer un classeur maître-détail avec des marqueurs intelligents Aspose.Cells](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
 ### [Guide maître-détail Excel – remplir les modèles avec les marqueurs intelligents](./master-detail-excel-guide-populate-templates-with-smart-mark/)
 ### [Comment répéter les feuilles de calcul – Guide complet pour l'automatisation Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+### [Créer un classeur Excel programmatique avec C#](./how-to-create-excel-workbook-programmatically-with-c/)
+Apprenez à générer un classeur Excel via du code C# en utilisant Aspose.Cells, étape par étape.
+### [Comment créer un classeur Excel avec des marqueurs intelligents pour un rapport Excel dynamique](./how-to-create-excel-workbook-with-smart-markers-for-a-dynami/)
+Apprenez à créer un classeur Excel dynamique en utilisant les marqueurs intelligents d'Aspose.Cells.
+### [Étendre les marqueurs intelligents de feuille de calcul en C# pour les modèles Excel](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
+Apprenez à étendre les marqueurs intelligents sur plusieurs feuilles de calcul en C# pour générer dynamiquement des modèles Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -120,6 +120,8 @@ Dowiedz się, jak usuwać wiersze w Excelu w C# zachowując nagłówek tabeli.
 ### [Usuwanie wierszy z tabeli Excel – kompletny przewodnik C#](./delete-rows-from-excel-table-complete-c-guide/)
 ### [Utwórz skoroszyt Excel w C# i transponuj kolumnę do wiersza](./create-excel-workbook-c-and-transpose-column-to-row/)
 Dowiedz się, jak w C# utworzyć nowy skoroszyt Excel i zamienić kolumnę w wiersz przy użyciu Aspose.Cells.
+### [Jak używać WRAPCOLS w C# i zapisać skoroszyt jako XLSX](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
+Dowiedz się, jak zastosować metodę WRAPCOLS w C# i zapisać plik jako XLSX przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

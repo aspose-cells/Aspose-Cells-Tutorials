@@ -43,6 +43,9 @@ Ett annat användbart tips handlar om att exportera liknande kantlinjer programm
 
 Och låt oss inte glömma kraften i CSS. Att förstå hur man exporterar CSS för kalkylblad separat i HTML-utdata kan bokstavligen förändra hur dina data uppfattas. Den här funktionen ger dig fullständig kontroll över din design utan att det kommer i konflikt med Excel-formateringen. Så du kan skapa visuellt tilltalande webbsidor som fortfarande är laserfokuserade på dina data. Vill du fördjupa dig i detta? [Utforska mer här](./exporting-worksheet-css-separately/).
 
+### [How to embed fonts html when you convert an XLSX to HTML with Aspose.Cells](./how-to-embed-fonts-html-when-you-convert-an-xlsx-to-html-wit/)
+
+
 ### [Bädda in teckensnitt i HTML – Konvertera Excel till HTML med C#](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
 Lär dig hur du bäddar in teckensnitt i HTML när du konverterar Excel till HTML med C# med Aspose.Cells för .NET i den här steg-för-steg-guiden.
 

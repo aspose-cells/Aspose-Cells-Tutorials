@@ -29,14 +29,13 @@ Next up is another common challenge: inserting DataTable rows into Excel without
 
 ## Excel Data Import and Export Tutorials
 ### [Import Data to Excel with Custom DB Num Pattern Formatting](./import-data-to-worksheet-in-excel-with-specified-db-num-custom-pattern-formatting/)
-Learn how to import data into Excel with custom DB Num formatting using Aspose.Cells for .NET in this easy-to-follow tutorial.
+Learn how to import data into Excel with custom DB Num formatting using Aspose.Cells for .NET in a easy-to-follow tutorial.
 ### [Shift First Row Down When Inserting DataTable Rows in Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Learn to insert DataTable rows in Excel without shifting the first row down using Aspose.Cells for .NET. Step-by-step guide for effortless automation.
 ### [Generate Excel from JSON in C# – Step‑by‑Step Guide](./generate-excel-from-json-in-c-step-by-step-guide/)
 Learn how to generate Excel files from JSON data using Aspose.Cells for .NET in a clear, step‑by‑step tutorial.
 ### [How to Export Excel to a DataTable in C# – Step‑by‑Step Guide](./how-to-export-excel-to-a-datatable-in-c-step-by-step-guide/)
 Learn how to export Excel data to a DataTable in C# using Aspose.Cells for .NET in a clear, step‑by‑step tutorial.
-
 ### [How to Create Workbook – Light Blue Background, Data Import](./how-to-create-workbook-light-blue-background-data-import/)
 Learn how to create a workbook with a light blue background and import data using Aspose.Cells for .NET.
 ### [Export JSON to Excel with C#: Complete Programming Guide](./export-json-to-excel-with-c-complete-programming-guide/)
@@ -65,6 +64,8 @@ Learn how to convert an Excel worksheet to a DataTable using Aspose.Cells for .N
 Learn how to import JSON data into Excel using Aspose.Cells for .NET in a comprehensive programming guide.
 ### [Convert JSON to XLSX in C# – complete step‑by‑step guide](./convert-json-to-xlsx-in-c-complete-step-by-step-guide/)
 Learn how to convert JSON data to XLSX files in C# using Aspose.Cells for .NET in a complete step-by-step guide.
+### [How to import DataTable into an Excel worksheet using C#](./how-to-import-datatable-into-an-excel-worksheet-using-c/)
+Learn how to import a DataTable into an Excel worksheet using C# and Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

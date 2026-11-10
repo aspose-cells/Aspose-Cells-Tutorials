@@ -43,6 +43,9 @@ Dalším užitečným tipem je programově exportovat podobné styly ohraničen�
 
 A nezapomínejme na sílu CSS. Pochopení toho, jak exportovat CSS pracovního listu samostatně ve výstupním HTML, může doslova změnit způsob, jakým jsou vaše data vnímána. Tato funkce vám dává úplnou kontrolu nad vaším designem, aniž by došlo ke konfliktu s formátováním Excelu. Můžete si tak vytvořit vizuálně přitažlivé webové stránky, které jsou stále zaměřené na vaše data. Chcete se do toho ponořit hlouběji? [Prozkoumejte více zde](./exporting-worksheet-css-separately/).
 
+### [How to embed fonts html when you convert an XLSX to HTML with Aspose.Cells](./how-to-embed-fonts-html-when-you-convert-an-xlsx-to-html-wit/)
+
+
 ### [Vložení fontů do HTML při exportu Excelu – Kompletní průvodce C#](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
 Naučte se, jak vložit fonty do HTML při exportu Excelu pomocí Aspose.Cells pro .NET v kompletním průvodci C#.
 ### [Jak vložit písma do HTML – převod Excelu do HTML pomocí C#](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
