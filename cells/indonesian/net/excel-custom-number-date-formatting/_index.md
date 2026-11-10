@@ -60,6 +60,10 @@ Pelajari cara membuat workbook Excel dan mengurai tanggal era Jepang menggunakan
 
 ### [Parse DateTime dengan Reign Kaisar Jepang menggunakan Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
 Pelajari cara mengurai nilai DateTime yang menggunakan era kaisar Jepang di Excel dengan Aspose.Cells untuk .NET.
+### [Cara Membuat Workbook Excel C# dengan Pemformatan Angka Kustom](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
+Panduan langkah demi langkah untuk membuat workbook Excel di C# dan menerapkan format angka kustom menggunakan Aspose.Cells.
+### [Cara Mengonversi Tanggal Era Jepang ke Gregorian di C#](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+Pelajari cara mengonversi tanggal era Jepang menjadi tanggal Gregorian menggunakan C# dan Aspose.Cells dalam panduan langkah demi langkah.
 
 
 

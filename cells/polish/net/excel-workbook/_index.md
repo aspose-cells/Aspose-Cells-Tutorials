@@ -103,10 +103,6 @@ Więc dlaczego nie skorzystać z tej szansy na rozwinięcie swoich umiejętnośc
 
 
 
-
-
-
-
 | [Utwórz skoroszyt programu Excel w C# – przewodnik krok po kroku](./create-excel-workbook-c-step-by-step-guide/) | Dowiedz się, jak programowo utworzyć nowy skoroszyt Excel w C# przy użyciu Aspose.Cells dla .NET, krok po kroku. |  
 | [Utwórz nowy skoroszyt – konwertuj Markdown do Excela w C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Dowiedz się, jak utworzyć nowy skoroszyt i przekonwertować plik Markdown do formatu Excel przy użyciu Aspose.Cells w C#. |  
 | [Utwórz nowy skoroszyt w C# – Dodaj formułę i zapisz plik Excel](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Dowiedz się, jak w C# utworzyć nowy skoroszyt, dodać formułę i zapisać plik Excel przy użyciu Aspose.Cells dla .NET. |  
@@ -120,6 +116,8 @@ Więc dlaczego nie skorzystać z tej szansy na rozwinięcie swoich umiejętnośc
 | [Jak utworzyć skoroszyt w C# – zapisać wartość i sformatować liczbę](./how-to-create-workbook-in-c-write-value-format-number/) | Dowiedz się, jak w C# utworzyć skoroszyt, wpisać wartość i sformatować liczbę przy użyciu Aspose.Cells dla .NET. |
 | [Utwórz skoroszyt programu Excel przy użyciu Aspose.Cells – pełny przewodnik](./create-excel-workbook-with-aspose-cells-full-guide/) | Kompletny przewodnik krok po kroku, jak utworzyć skoroszyt Excel przy użyciu biblioteki Aspose.Cells w .NET. |
 | [Utwórz skoroszyt programu Excel i zapisz dane w C# – Pełny przewodnik krok po kroku](./create-excel-workbook-and-write-data-in-c-full-step-by-step/) | Dowiedz się, jak w C# utworzyć nowy skoroszyt Excel i zapisać w nim dane, korzystając z Aspose.Cells dla .NET w pełnym przewodniku krok po kroku. |  
+| [Utwórz skoroszyt programu Excel i dodaj datę do arkusza w C#](./create-excel-workbook-and-add-date-to-worksheet-in-c/) | Dowiedz się, jak w C# utworzyć skoroszyt Excel i dodać do niego bieżącą datę przy użyciu Aspose.Cells. |
+| [Utwórz skoroszyt programu Excel i zapisz go do pliku w C#](./create-excel-workbook-and-save-it-to-file-in-c/) | Dowiedz się, jak w C# utworzyć skoroszyt programu Excel i zapisać go do pliku przy użyciu Aspose.Cells dla .NET, krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

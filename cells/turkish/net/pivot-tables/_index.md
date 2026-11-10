@@ -25,6 +25,8 @@ Aspose.Cells for .NET kullanarak, hesaplanmış alanlar ekleyerek, veri toplama 
 
 {{< tutorial-card link="./how-to-move-pivot-table-to-another-sheet-in-c-using-aspose-c/" title="C#'ta Aspose.Cells ile Pivot Tabloyu Başka Sayfaya Taşıma" imgSrc="./how-to-move-pivot-table-to-another-sheet-in-c-using-aspose-c/images/thumb.png" >}}
 
+{{< tutorial-card link="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/" title="Pivot tabloyu yeni çalışma kitabına kopyala, şekli PowerPoint'e aktar" imgSrc="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

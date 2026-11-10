@@ -1,0 +1,7 @@
+Title: How to create Excel workbook and split data with WRAPCOLS in C#
+Slug: how-to-create-excel-workbook-and-split-data-with-wrapcols-in
+Category: excel-formulas-and-calculation-options
+ProcessedDate: 2026-10-10T23:57:35.801918
+SourceRepo: AI Search API
+Keywords: create excel workbook, excel formula split data, use wrapcols function, how to use wrapcols, split array columns
+PRNumber: 188

@@ -64,6 +64,8 @@ Aspose.Cells for Java에서 정규식을 사용하여 Excel 파일의 텍스트 
 
 ### [Aspose.Cells를 사용한 Java에서 열 분할 방법 – 단계별 가이드](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
 Aspose.Cells for Java를 활용하여 Excel에서 열을 분할하는 방법을 단계별로 안내합니다.
+### [Aspose.Cells Java를 사용하여 Excel에서 자동 필터 제거하기](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
+Aspose.Cells for Java를 사용해 Excel에서 자동 필터를 제거하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

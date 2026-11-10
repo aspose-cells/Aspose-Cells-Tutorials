@@ -37,6 +37,8 @@ Leer hoe u documenteigenschappen toevoegt in Excel met Aspose.Cells voor .NET me
 Leer hoe u een Excel-werkmap maakt, aangepaste eigenschappen toevoegt en deze opslaat als XLSB met Aspose.Cells voor .NET.
 ### [Hoe XLSB op te slaan met aangepaste eigenschappen in C# – Stapsgewijze handleiding](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
 Leer hoe u een XLSB-bestand opslaat met aangepaste documenteigenschappen in C# met onze stap‑voor‑stap handleiding.
+### [Hoe aangepaste eigenschappen toe te voegen aan een Excel-werkmap](./how-to-add-custom-properties-to-an-excel-workbook/)
+Leer hoe u aangepaste eigenschappen toevoegt aan een Excel-werkmap met Aspose.Cells voor .NET.
 
 
 

@@ -90,7 +90,8 @@ Tak proč nevyužít této příležitosti a nezlepšit si své dovednosti v Exc
 | [Vytvořit sešit Excel v C# – Kompletní průvodce používáním EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | Naučte se, jak pomocí Aspose.Cells pro .NET v C# vytvořit sešit Excel a využít funkci EXPAND pro dynamické rozšíření dat. |  
 | [Vytvořit Excel sešit v C# – Kompletní průvodce s Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | Naučte se, jak pomocí Aspose.Cells v C# vytvořit kompletní Excel sešit od začátku až po finální úpravy. |  
 | [Vytvořit Excel sešit v C# – Kompletní programovací průvodce](./create-excel-workbook-in-c-complete-programming-guide/) | Naučte se, jak vytvořit Excel sešit v C# pomocí Aspose.Cells pro .NET v tomto podrobném průvodci. |  
-| [Vytvořit Excel sešit v C# – Kompletní průvodce s funkcí Expand](./create-excel-workbook-c-full-guide-with-expand-function/) | Kompletní návod, jak vytvořit sešit Excel v C# s využitím funkce Expand. |  
+| [Vytvořit Excel sešit v C# – Kompletní průvodce s funkcí Expand](./create-excel-workbook-c-full-guide-with-expand-function/) | Kompletní návod, jak vytvořit sešit Excel v C# s využitím funkce Expand. |
+| [Vytvořit excelový sešit a uložit jej do souboru v C#](./create-excel-workbook-and-save-it-to-file-in-c/) | Naučte se, jak pomocí Aspose.Cells pro .NET v C# vytvořit sešit Excel a uložit jej do souboru. |
 
 
 
@@ -108,18 +109,19 @@ Tak proč nevyužít této příležitosti a nezlepšit si své dovednosti v Exc
 
 
 
-| [Vytvořit nový sešit v C# – přidat vzorec a uložit soubor Excel](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Naučte se, jak vytvořit nový sešit, přidat vzorec a uložit soubor Excel pomocí Aspose.Cells pro .NET v C#. |  
-| [Vytvořit Excel sešit C# – Generovat XLSX z JSON](./create-excel-workbook-c-generate-xlsx-from-json/) | Naučte se, jak pomocí Aspose.Cells v C# vytvořit soubor XLSX přímo z JSON dat. |  
-| [Vytvořit Excel sešit C# – krok za krokem průvodce zápisem dat a uložením jako XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Naučte se, jak v C# pomocí Aspose.Cells vytvořit sešit, zapisovat data a uložit jej jako soubor XLSX. |  
-| [Vytvořit sešit Excel v C# – krok za krokem](./create-excel-workbook-in-c-step-by-step-guide/) | Naučte se, jak vytvořit sešit Excel v C# pomocí Aspose.Cells pro .NET v podrobném průvodci krok za krokem. |  
-| [Vytvořit Excel sešit C# – krok za krokem průvodce](./create-excel-workbook-c-step-by-step-guide/) | Naučte se, jak v C# vytvořit nový sešit Excel pomocí Aspose.Cells krok za krokem. |  
-| [Vytvořit nový sešit v C# – krok za krokem](./create-new-workbook-in-c-step-by-step-guide/) | Naučte se, jak vytvořit nový sešit v C# pomocí Aspose.Cells pro .NET s podrobným návodem krok za krokem. |  
-| [Vytvořit nový sešit Excel v C# – krok za krokem](./create-new-excel-workbook-in-c-step-by-step-guide/) | Naučte se, jak vytvořit nový sešit Excel v C# pomocí Aspose.Cells pro .NET s podrobným návodem krok za krokem. |  
-| [Jak vytvořit sešit v C# – krok za krokem](./how-to-create-workbook-in-c-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Cells pro .NET v C# vytvořit nový sešit Excel od základů s podrobnými ukázkami kódu. |  
-| [Vytvořit soubor Excel programově v C# – krok za krokem](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Cells pro .NET v C# programově vytvořit soubor Excel od začátku. |  
-| [Vytvořit nový sešit – převést Markdown do Excelu v C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Naučte se, jak vytvořit nový sešit a převést soubor Markdown do formátu Excel pomocí Aspose.Cells pro .NET v C#. |  
+| [Vytvořit nový sešit v C# – přidat vzorec a uložit soubor Excel](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Naučte se, jak vytvořit nový sešit, přidat vzorec a uložit soubor Excel pomocí Aspose.Cells pro .NET v C#. |
+| [Vytvořit Excel sešit C# – Generovat XLSX z JSON](./create-excel-workbook-c-generate-xlsx-from-json/) | Naučte se, jak pomocí Aspose.Cells v C# vytvořit soubor XLSX přímo z JSON dat. |
+| [Vytvořit Excel sešit C# – krok za krokem průvodce zápisem dat a uložením jako XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Naučte se, jak v C# pomocí Aspose.Cells vytvořit sešit, zapisovat data a uložit jej jako soubor XLSX. |
+| [Vytvořit sešit Excel v C# – krok za krokem](./create-excel-workbook-in-c-step-by-step-guide/) | Naučte se, jak vytvořit sešit Excel v C# pomocí Aspose.Cells pro .NET v podrobném průvodci krok za krokem. |
+| [Vytvořit Excel sešit C# – krok za krokem průvodce](./create-excel-workbook-c-step-by-step-guide/) | Naučte se, jak v C# vytvořit nový sešit Excel pomocí Aspose.Cells krok za krokem. |
+| [Vytvořit nový sešit v C# – krok za krokem](./create-new-workbook-in-c-step-by-step-guide/) | Naučte se, jak vytvořit nový sešit v C# pomocí Aspose.Cells pro .NET s podrobným návodem krok za krokem. |
+| [Vytvořit nový sešit Excel v C# – krok za krokem](./create-new-excel-workbook-in-c-step-by-step-guide/) | Naučte se, jak vytvořit nový sešit Excel v C# pomocí Aspose.Cells pro .NET s podrobným návodem krok za krokem. |
+| [Jak vytvořit sešit v C# – krok za krokem](./how-to-create-workbook-in-c-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Cells pro .NET v C# vytvořit nový sešit Excel od základů s podrobnými ukázkami kódu. |
+| [Vytvořit soubor Excel programově v C# – krok za krokem](./create-excel-file-programmatically-with-c-step-by-step-guide/) | Naučte se, jak pomocí Aspose.Cells pro .NET v C# programově vytvořit soubor Excel od začátku. |
+| [Vytvořit nový sešit – převést Markdown do Excelu v C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | Naučte se, jak vytvořit nový sešit a převést soubor Markdown do formátu Excel pomocí Aspose.Cells pro .NET v C#. |
 | [Jak vytvořit sešit v C# – Zapsat hodnotu a formátovat číslo](./how-to-create-workbook-in-c-write-value-format-number/) | Naučte se vytvořit nový sešit v C#, zapsat hodnotu a nastavit formát čísla pomocí Aspose.Cells pro .NET. |
-| [Vytvořit sešit aplikace Excel pomocí Aspose.Cells – Kompletní průvodce](./create-excel-workbook-with-aspose-cells-full-guide/) | Kompletní návod, jak pomocí Aspose.Cells pro .NET vytvořit nový sešit aplikace Excel s podrobnými ukázkami kódu. |  
+| [Vytvořit sešit aplikace Excel pomocí Aspose.Cells – Kompletní průvodce](./create-excel-workbook-with-aspose-cells-full-guide/) | Kompletní návod, jak pomocí Aspose.Cells pro .NET vytvořit nový sešit aplikace Excel s podrobnými ukázkami kódu. |
+| [Vytvořit sešit Excel a přidat datum do listu v C#](./create-excel-workbook-and-add-date-to-worksheet-in-c/) | Naučte se vytvořit nový sešit Excel a přidat aktuální datum do listu pomocí Aspose.Cells pro .NET v C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

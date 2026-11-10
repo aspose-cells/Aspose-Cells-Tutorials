@@ -101,6 +101,9 @@ Dowiedz się, jak wydajnie pobierać unikalne identyfikatory arkusza kalkulacyjn
 ### [Ustaw nazwę pojedynczej karty arkusza w HTML za pomocą Aspose.Cells Java](./set-single-sheet-tab-name-html-aspose-cells-java/)
 Samouczek dotyczący kodu dla Aspose.Words Java
 
+### [Jak generować dynamiczne nazwy arkuszy w Excelu przy użyciu Javy](./how-to-generate-dynamic-sheet-names-in-excel-with-java/)
+Dowiedz się, jak programowo tworzyć dynamiczne nazwy arkuszy w plikach Excel przy użyciu Aspose.Cells dla Javy.
+
 ### [Odkryj wiersze i kolumny w programie Excel za pomocą Aspose.Cells Java: przewodnik krok po kroku](./unhide-rows-columns-excel-aspose-cells-java/)
 Dowiedz się, jak bez wysiłku odkrywać wiersze i kolumny w plikach Excela za pomocą Aspose.Cells for Java. Zautomatyzuj zarządzanie danymi dzięki temu kompleksowemu przewodnikowi.
 
@@ -110,6 +113,10 @@ Dowiedz się, jak dynamicznie nadawać nazwy arkuszom w Excelu przy użyciu Smar
 Dowiedz się, jak programowo tworzyć wiele arkuszy w pliku Excel przy użyciu szablonów w Aspose.Cells for Java.
 ### [Jak wyczyścić filtr automatyczny w programie Excel przy użyciu Aspose.Cells (Java)](./how-to-clear-autofilter-in-excel-with-aspose-cells-java/)
 Dowiedz się, jak usunąć filtr automatyczny z arkusza Excel przy użyciu Aspose.Cells for Java.
+### [Tworzenie arkuszy kalkulacyjnych z listy przy użyciu Aspose.Cells Java – pełny przewodnik](./create-worksheets-from-list-with-aspose-cells-java-full-guid/)
+Dowiedz się, jak programowo tworzyć wiele arkuszy w Excelu z listy danych przy użyciu Aspose.Cells for Java.
+### [Zamrażanie pierwszych dwóch wierszy w Excelu w Javie – kompletny przewodnik](./freeze-first-two-rows-in-excel-with-java-complete-guide/)
+Dowiedz się, jak zamrozić pierwsze dwa wiersze w pliku Excel przy użyciu Aspose.Cells for Java, aby ułatwić przeglądanie danych.
 
 ## Dodatkowe zasoby
 

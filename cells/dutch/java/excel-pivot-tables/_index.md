@@ -46,6 +46,8 @@ Leer hoe u een bereik kopieert zonder de gekoppelde draaitabel te verliezen met 
 Leer hoe u draaitabelstijlen kunt aanpassen in Aspose.Cells voor Java API. Maak eenvoudig visueel aantrekkelijke draaitabellen.
 ### [Hoe draaitabel te kopiëren in Java – Complete Aspose.Cells-gids](./how-to-copy-pivot-table-in-java-complete-aspose-cells-guide/)
 Leer hoe u een draaitabel in Java kopieert met Aspose.Cells. Volledige gids voor eenvoudige duplicatie en bewerking van draaitabellen.
+### [Hoe een draaitabel tussen werkbladen te kopiëren in Java](./how-to-copy-a-pivot-table-between-worksheets-in-java/)
+Leer hoe u een draaitabel tussen verschillende werkbladen in Java kopieert met Aspose.Cells.
 ### [PNG maken vanuit draaitabel in Java – Volledige stapsgewijze handleiding](./create-png-from-pivot-in-java-full-step-by-step-guide/)
 Leer hoe u met Aspose.Cells voor Java een PNG-afbeelding van een draaitabel genereert, stap voor stap met voorbeeldcode.
 ### [Kopieer draaitabel in Excel – Stapsgewijze handleiding met Java](./copy-pivot-table-excel-step-by-step-guide-using-java/)
@@ -64,12 +66,26 @@ Leer hoe u een draaitabel van het ene werkboek naar het andere kopieert met Aspo
 Leer hoe u in Java een nieuw werkboek maakt en een bestaande draaitabel kopieert met Aspose.Cells.
 ### [Hoe een werkblad te dupliceren en draaitabellen te behouden in Java](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
 Leer hoe u een werkblad dupliceert zonder draaitabellen te verliezen met Aspose.Cells voor Java.
+### [Hoe een Excel-werkblad te dupliceren en draaitabellen intact te houden in Java](./how-to-duplicate-an-excel-sheet-and-keep-pivot-tables-intact/)
+Leer hoe u een Excel-werkblad dupliceert en alle draaitabellen intact behoudt met Aspose.Cells voor Java.
 ### [Hoe een draaitabel dupliceren in Java met Aspose.Cells](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
-Leer hoe u een bestaande draaitabel dupliceert met Aspose.Cells voor Java.
+Leer hoe u een bestaande draaitabel dupliceert met Aspose.Cells voor Java, inclusief codevoorbeelden.
 ### [Hoe draaitabellen te dupliceren in Excel met Java – stapsgewijze handleiding](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
 Leer hoe u draaitabellen in Excel dupliceert met Aspose.Cells voor Java, stap voor stap met voorbeeldcode.
 ### [Excel-draaitabelafbeelding: Exporteren naar PNG met Java](./excel-pivot-table-image-export-to-png-with-java/)
 Leer hoe u een draaitabel als PNG-afbeelding exporteert met Aspose.Cells voor Java.
+### [Nieuw werkboek maken en draaitabel kopiëren in Java – volledige stapsgewijze handleiding](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
+Leer hoe u een nieuw werkboek maakt en een bestaande draaitabel kopieert met Aspose.Cells voor Java.
+### [Kopieer draaitabel in Java met Aspose.Cells – Complete gids](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
+Leer hoe u een draaitabel in Java kunt kopiëren met Aspose.Cells, inclusief codevoorbeelden en best practices.
+### [Kopieer draaitabel in Java – stapsgewijze handleiding met Aspose.Cells](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
+Leer hoe u een draaitabel in Java kunt kopiëren met Aspose.Cells, stap voor stap uitgelegd.
+### [Hoe een draaitabel te kopiëren in Aspose.Cells – bereik naar werkmap kopiëren](./how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook/)
+### [Hoe een draaitabel te kopiëren in Java met Aspose.Cells](./how-to-copy-a-pivot-table-in-java-using-aspose-cells/)
+Leer hoe u een bestaande draaitabel dupliceert met Aspose.Cells voor Java voor snelle rapportage.
+### [Hoe draaitabellen tussen Excel-werkboeken te kopiëren in Java](./how-to-copy-pivot-tables-between-excel-workbooks-in-java/)
+### [Kopieer draaitabel in Java – Stapsgewijze handleiding met Aspose.Cells](./how-to-copy-pivot-table-in-java-with-aspose-cells-step-by-st/)
+Leer hoe u een bestaande draaitabel kunt dupliceren met Aspose.Cells voor Java, stap voor stap met voorbeeldcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

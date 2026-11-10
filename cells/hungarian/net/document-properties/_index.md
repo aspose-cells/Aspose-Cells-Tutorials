@@ -37,6 +37,8 @@ Tanulja meg, hogyan adhat hozzá dokumentumtulajdonságokat az Excelben az Aspos
 Ismerje meg, hogyan hozhat létre Excel munkafüzetet, adhat hozzá egyéni tulajdonságokat, és mentheti XLSB formátumban az Aspose.Cells for .NET segítségével.
 ### [Hogyan mentse el az XLSB fájlt egyéni tulajdonságokkal C#‑ban – Lépésről lépésre útmutató](./how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
 Tanulja meg, hogyan menthet XLSB fájlt egyedi dokumentumtulajdonságokkal C#‑ban, részletes, lépésről‑lépésre útmutatóval.
+### [Hogyan adjon hozzá egyéni tulajdonságokat egy Excel munkafüzethez](./how-to-add-custom-properties-to-an-excel-workbook/)
+Ismerje meg, hogyan adhat hozzá egyéni tulajdonságokat egy Excel munkafüzethez az Aspose.Cells for .NET segítségével.
 
 
 

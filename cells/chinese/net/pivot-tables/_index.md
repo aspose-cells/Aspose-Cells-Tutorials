@@ -23,7 +23,7 @@
 
 {{< tutorial-card link="./how-to-copy-pivot-table-in-c-complete-programming-guide/" title="如何在 C# 中复制数据透视表 – 完整编程指南" imgSrc="./how-to-copy-pivot-table-in-c-complete-programming-guide/images/thumb.png" >}}
 
-{{< tutorial-card link="./how-to-move-pivot-table-to-another-sheet-in-c-using-aspose-c/" title="如何在 C# 中使用 Aspose.Cells 将数据透视表移动到另一工作表" imgSrc="./how-to-move-pivot-table-to-another-sheet-in-c-using-aspose-c/images/thumb.png" >}}
+{{< tutorial-card link="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/" title="复制数据透视表到新工作簿并将形状导出到 PowerPoint" imgSrc="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

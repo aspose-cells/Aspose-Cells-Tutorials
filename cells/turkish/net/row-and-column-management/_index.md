@@ -74,6 +74,8 @@ C# kullanarak Excel'de satırları silerken tablo başlığını korumayı adım
 Aspose.Cells for .NET kullanarak Excel'de birden fazla satırı silmeyi öğrenin. Bu ayrıntılı, adım adım kılavuz, geliştiriciler için ön koşulları, kodlama örneklerini ve SSS'leri kapsar.
 ### [Aspose.Cells ile Satırları Sil – Excel'de Başlık Satırını Korumak](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 Aspose.Cells for .NET kullanarak Excel'de başlık satırını koruyarak satırları nasıl sileceğinizi adım adım öğrenin.
+### [Excel Tablosundan Satırları Sil – Tam C# Rehberi](./delete-rows-from-excel-table-complete-c-guide/)
+Excel tablosundan satırları silmek için tam C# rehberi. Adım adım kod örnekleri ve en iyi uygulamalar.
 ### [Aspose.Cells .NET'te Bir Sütun Ekleme](./insert-column-aspose-cells/)
 Aspose.Cells for .NET kullanarak Excel'e bir sütun eklemeyi öğrenin. Yeni bir sütunu sorunsuz bir şekilde eklemek için basit, adım adım kılavuzumuzu izleyin. .NET geliştiricileri için mükemmel.
 ### [Aspose.Cells .NET'te Bir Satır Ekleme](./insert-row-aspose-cells/)
@@ -88,6 +90,16 @@ Aspose.Cells for .NET kullanarak C# ile Excel dosyasında satırları silmeyi ve
 Aspose.Cells for .NET kullanarak C# ile Excel'de öğeleri tekrarlayarak dinamik satırlar oluşturmayı adım adım öğrenin.
 ### [GridJs'de Satır Ekleme – Çoklu Satırları Verimli Şekilde Ekleyin](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 GridJs kullanarak birden fazla satırı verimli bir şekilde eklemeyi adım adım öğrenin.
+
+
+
+
+### [C# ile Excel çalışma kitabı oluşturma ve sütunu satıra dönüştürme](./create-excel-workbook-c-and-transpose-column-to-row/)
+Aspose.Cells for .NET kullanarak bir Excel çalışma kitabı oluşturmayı ve bir sütunu satıra dönüştürmeyi adım adım öğrenin.
+
+
+
+
 ### [C# ile Excel Tablosundan Satır Silme – Adım Adım Kılavuz](./delete-rows-excel-table-with-c-step-by-step-guide/)
 Aspose.Cells for .NET kullanarak C# ile Excel tablosundan satırları nasıl sileceğinizi adım adım öğrenin.
 ### [WRAPCOLS Kullanımı: C#'ta İki Sütunlu Düzen Oluşturma](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
@@ -103,6 +115,9 @@ Aspose.Cells for .NET ile C# içinde WRAPCOLS kullanarak çalışma kitabını X
 ### [C# ile Excel'de Hücreleri Yukarı Kaydırma – Tam Kılavuz](./shift-cells-up-in-excel-with-c-complete-guide/)
 Aspose.Cells for .NET kullanarak Excel'de hücreleri yukarı kaydırmayı adım adım öğrenin. Veri düzenleme işlemlerinizi kolaylaştırın.
 ### [Aspose.Cells kullanarak Excel tablosunda başlığı koruyarak satırları silme](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
+Aspose.Cells for .NET ile Excel tablosundaki satırları silerken başlık satırını korumanın adım adım rehberi.
+### [C# ile Excel Tablosundan Satır Silme – Adım Adım Kılavuz](./how-to-delete-rows-from-excel-table-using-c/)
+Aspose.Cells for .NET kullanarak C# ile bir Excel tablosundan satırları nasıl sileceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

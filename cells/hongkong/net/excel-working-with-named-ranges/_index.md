@@ -36,6 +36,8 @@ Excel 中的命名範圍就像是小小的能量袋。透過為儲存格或儲�
 透過使用 Aspose.Cells for .NET 的簡單指南存取命名範圍，釋放 Excel 的強大功能。非常適合數據管理。
 ### [在 Excel 中存取特定的命名範圍](./access-specific-named-range/)
 透過這個全面的、循序漸進的教學和範例程式碼，了解如何使用 Aspose.Cells for .NET 存取 Excel 中的特定命名範圍。
+### [使用 C# 在 Excel 中定義命名範圍 – 建立工作簿](./define-named-range-in-excel-with-c-create-workbook/)
+透過 C# 建立工作簿並定義命名範圍的步驟說明，快速上手 Aspose.Cells for .NET。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

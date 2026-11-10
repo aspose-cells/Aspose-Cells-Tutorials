@@ -23,7 +23,7 @@
 
 {{< tutorial-card link="./how-to-copy-pivot-table-in-c-complete-programming-guide/" title="Как скопировать сводную таблицу в C# – Полное руководство по программированию" imgSrc="./how-to-copy-pivot-table-in-c-complete-programming-guide/images/thumb.png" >}}
 
-{{< tutorial-card link="./how-to-move-pivot-table-to-another-sheet-in-c-using-aspose-c/" title="Как переместить сводную таблицу на другой лист в C# с помощью Aspose.Cells" imgSrc="./how-to-move-pivot-table-to-another-sheet-in-c-using-aspose-c/images/thumb.png" >}}
+{{< tutorial-card link="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/" title="Копировать сводную таблицу в новую книгу и экспортировать форму в PowerPoint" imgSrc="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

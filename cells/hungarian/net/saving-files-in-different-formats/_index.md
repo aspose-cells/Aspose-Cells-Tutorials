@@ -20,7 +20,7 @@
 Szóval, hogyan őrizheted meg hatékonyan az Excel-adataidat? Itt ragyog az Aspose.Cells. Az olyan formátumokat bemutató oktatóanyagoknak köszönhetően, mint az .xls, .xlsx, .xlsb és még a PDF is, gyorsan elsajátíthatod a fájlok mentését a kívánt módon. Minden oktatóanyag a világosságot és a praktikumot hangsúlyozza, és olyan betekintést nyújt, amelyet azonnal alkalmazhatsz a projektjeidben. Tudtad, hogy a 97-2003 formátumban történő mentés néha szükséges lehet a régebbi rendszerekkel való kompatibilitáshoz? Mindezt és még sok mást is áttekintünk!
 
 ## Gyorslinkek az oktatóanyagokhoz
-Válogatott oktatóanyag-készletünk segítségével könnyen megtalálhatja, amire szüksége van. Ha például egy régebbi, 97-2003-as formátumban szeretne Excel-fájlt menteni, tekintse meg könnyen érthető útmutatónkat a következőről: [Excel fájlok mentése 97-2003 formátumban](./save-excel-file-in-97-2003-format/)Tele van gyakorlati tippekkel! Továbbá, ha kíváncsi vagy a fájlok PDF formátumban történő exportálására, nézd meg az oktatóanyagunkat.
+Válogatott oktatóanyag-készletünk segítségével könnyen megtalálhatja, amire szüksége van. Ha például egy régebbi, 97-2003-as formátumban szeretne Excel-fájlt menteni, tekintse meg könnyen érthető útmutatónkat a következőről: [Excel fájlok mentése 97-2003 formátumban](./save-excel-file-in-97-2003-format/)Tele van gyakorlati tippekkel! Továbbá, ha kíváncsi vagy a fájlok PDF formátumban történő exportálására, nézd meg oktatóanyagunkat.
 
 Minden egyes oktatóanyag célja nemcsak a tájékoztatás, hanem a lekötött érdeklődés felkeltése is. Megértjük, hogy a műszaki témákba való belemerülés néha unalmasnak tűnhet. Ezért olyan társalgási stílust alkalmazunk, amely leköti a figyelmedet, mintha csak egy barátságos beszélgetést folytatnál egy tech-hozzáértő haverral.
 
@@ -64,6 +64,7 @@ Ebben az átfogó, lépésről lépésre haladó útmutatóban, amely .NET fejle
 Tanuld meg, hogyan menthetsz egyszerűen XLS fájlokat az Aspose.Cells for .NET segítségével. Lépésről lépésre útmutató gyakorlati példákkal és gyakran ismételt kérdésekkel.
 ### [XLSX fájl mentése](./save-xlsx-file/)
 Fedezze fel, hogyan menthet XLSX fájlokat az Aspose.Cells for .NET segítségével ezzel a lépésről lépésre szóló útmutatóval. Egyszerűsítse Excel-kezelését könnyedén.
+### [Hogyan fejezzük be a lapos OPC oktatóanyagot az Aspose.Cells használatával C#-ban](./how-to-complete-a-flat-opc-tutorial-with-aspose-cells-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

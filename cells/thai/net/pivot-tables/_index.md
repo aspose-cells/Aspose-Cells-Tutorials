@@ -23,7 +23,7 @@
 
 {{< tutorial-card link="./how-to-copy-pivot-table-in-c-complete-programming-guide/" title="วิธีคัดลอก Pivot Table ใน C# – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์" imgSrc="./how-to-copy-pivot-table-in-c-complete-programming-guide/images/thumb.png" >}}
 
-{{< tutorial-card link="./how-to-move-pivot-table-to-another-sheet-in-c-using-aspose-c/" title="วิธีย้าย Pivot Table ไปยังแผ่นงานอื่นใน C# ด้วย Aspose.Cells" imgSrc="./how-to-move-pivot-table-to-another-sheet-in-c-using-aspose-c/images/thumb.png" >}}
+{{< tutorial-card link="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/" title="คัดลอก Pivot Table ไปยังเวิร์กบุ๊กใหม่และส่งออก Shape ไปยัง PowerPoint" imgSrc="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

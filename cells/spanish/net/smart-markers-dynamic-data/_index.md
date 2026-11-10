@@ -56,6 +56,8 @@ La flexibilidad de las Listas Genéricas permite a los desarrolladores gestionar
 ## Marcadores inteligentes en Aspose.Cells: tutoriales para datos dinámicos
 ### [Crear hojas de cálculo dinámicas con marcadores inteligentes en Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 Aprenda a generar hojas de cálculo dinámicas con marcadores inteligentes en Aspose.Cells para .NET, facilitando la organización y actualización de datos.
+### [Crear libro de Excel programáticamente usando Smart Markers](./create-excel-workbook-programmatically-using-smart-markers/)
+Aprenda a crear un libro de Excel mediante Smart Markers de forma programática con Aspose.Cells para .NET.
 
 ### [Expandir hoja de cálculo con marcadores inteligentes en C# para plantillas de Excel](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
 Aprenda a expandir hojas de cálculo mediante marcadores inteligentes en C# para plantillas de Excel.
@@ -101,6 +103,9 @@ Descubra el poder de Aspose.Cells para .NET y aprenda a aplicar fácilmente atri
 
 ### [Usar el parámetro de fórmula en el campo de marcador inteligente Aspose.Cells](./formula-parameter-smart-marker/)
 Aprenda a usar parámetros de fórmula en marcadores inteligentes con Aspose.Cells para .NET. Cree hojas de cálculo dinámicas fácilmente.
+
+### [Configurar SmartMarkerOptions ArrayAsSingle en C# para matrices JSON](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
+Aprenda a configurar la opción ArrayAsSingle de SmartMarkerOptions en C# para manejar matrices JSON al generar informes de Excel.
 
 ### [Usar lista genérica en marcadores inteligentes Aspose.Cells](./generic-list-smart-markers/)
 Domine Aspose.Cells para .NET con listas genéricas y marcadores inteligentes para crear fácilmente informes dinámicos de Excel. Guía sencilla para desarrolladores.
@@ -169,6 +174,8 @@ Aprenda paso a paso a exportar archivos Excel en C# usando Aspose.Cells, cubrien
 Aprenda a repetir datos en una plantilla de Excel usando SmartMarker para generar informes dinámicos.
 ### [Importar JSON a Excel en C# – guía paso a paso](./import-json-to-excel-in-c-step-by-step-guide/)
 Aprenda a importar datos JSON a un archivo Excel usando C# y Aspose.Cells paso a paso.
+### [Crear Excel a partir de JSON con Marcador Inteligente de Aspose.Cells](./create-excel-from-json-with-aspose-cells-smart-marker/)
+Aprenda a generar archivos Excel desde datos JSON usando Marcadores Inteligentes de Aspose.Cells en .NET.
 ### [Cómo nombrar hojas automáticamente – Generar múltiples hojas en C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 Aprenda a crear y nombrar varias hojas de cálculo de forma automática en C# usando Aspose.Cells.
 ### [Automatizar la generación de facturas – Nomenclatura dinámica de hojas de cálculo y repetición en C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)

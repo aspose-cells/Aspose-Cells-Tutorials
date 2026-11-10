@@ -42,6 +42,8 @@ Buat PDF dengan bagan Excel Anda menggunakan Aspose.Cells for .NET. Pelajari car
 ### [Cara Mengekspor Bagan Excel ke PowerPoint menggunakan C#](./how-to-export-excel-charts-to-powerpoint-using-c/)
 ### [Cara Mengekspor Bagan dari Word – Panduan Lengkap C#](./how-to-export-charts-from-word-complete-c-guide/)
 Pelajari cara mengekspor bagan dari dokumen Word ke format lain menggunakan Aspose.Words for .NET dengan contoh kode C# lengkap.
+### [Cara menambahkan bagan ke Word dengan Aspose – menyematkan bagan Excel](./how-to-add-chart-to-word-with-aspose-embed-excel-chart/)
+Pelajari cara menyisipkan bagan Excel ke dokumen Word menggunakan Aspose.Words for .NET dengan contoh kode lengkap.
 ### [Cara Mengekspor Bagan – Panduan Lengkap PowerPoint C#](./how-to-export-charts-complete-powerpoint-c-guide/)
 Pelajari cara mengekspor bagan Excel ke PowerPoint menggunakan C# dengan contoh lengkap dan langkah-langkah mudah.
 ### [Ekspor Bagan sebagai PNG – Panduan Lengkap Mengonversi Excel ke HTML dengan Aspose.Cells](./export-chart-as-png-complete-guide-to-convert-excel-to-html/)

@@ -35,8 +35,12 @@ Leer hoe u CSV-bestanden opent met Aspose.Cells voor .NET met onze uitgebreide s
 Leer hoe je CSV-bestanden opent en parseert met aangepaste parsers in Aspose.Cells voor .NET. Verwerk tekst en datums moeiteloos. Perfect voor ontwikkelaars.
 ### [Werkmap opslaan als CSV in C# – Exporteer Excel naar CSV](./save-workbook-as-csv-in-c-export-excel-to-csv/)
 Leer hoe u een werkmap opslaat als CSV in C# met Aspose.Cells voor .NET, zodat u Excel-bestanden eenvoudig kunt exporteren.
+### [Hoe een Excel-werkmap te exporteren naar CSV met Aspose.Cells in C#](./how-to-export-excel-workbook-to-csv-with-aspose-cells-in-c/)
+Leer hoe u een Excel-werkmap exporteert naar CSV met Aspose.Cells in C#, stap‑voor‑stap handleiding.
 ### [Excel opslaan als CSV in C# – Complete gids voor exporteren van Xlsx naar CSV](./save-excel-as-csv-in-c-complete-guide-to-export-xlsx-to-csv/)
 Leer hoe u Excel-bestanden opslaat als CSV met Aspose.Cells voor .NET, stap voor stap handleiding voor export van Xlsx naar CSV.
+### [Excel exporteren naar CSV in C# met Aspose.Cells](./how-to-export-excel-to-csv-in-c-with-aspose-cells/)
+Leer hoe u Excel-bestanden exporteert naar CSV in C# met Aspose.Cells, stap‑voor‑stap handleiding.
 ### [Nieuwe werkmap maken en exporteren naar CSV – Stap‑voor‑stap C#‑gids](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 Leer hoe u met Aspose.Cells een nieuwe werkmap maakt en deze exporteert naar CSV met een gedetailleerde C#‑stap‑voor‑stap handleiding.
 ### [Hoe CSV maken vanuit Excel met Aspose.Cells in C#](./how-to-create-csv-from-excel-using-aspose-cells-in-c/)
@@ -67,6 +71,8 @@ Leer stap voor stap hoe u CSV-bestanden exporteert vanuit Excel met C# en Aspose
 Leer hoe u een werkmap opslaat als CSV, met controle over het aantal decimalen en nauwkeurige gegevensexport.
 ### [Hoe een werkmap opslaan als CSV met precieze opmaak met Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
 Leer hoe u een werkmap opslaat als CSV met exacte opmaak in Aspose.Cells.
+### [Hoe een werkmap opslaan als CSV met aangepaste opmaak in C#](./how-to-save-workbook-as-csv-with-custom-formatting-in-c/)
+Leer hoe u een werkmap opslaat als CSV met aangepaste opmaak in C# met Aspose.Cells.
 ### [Werkmap opslaan als CSV in C# – Complete programmeergids](./save-workbook-as-csv-in-c-complete-programming-guide/)
 Leer hoe u een werkmap opslaat als CSV-bestand met C# en Aspose.Cells voor .NET, stap‑voor‑stap.
 

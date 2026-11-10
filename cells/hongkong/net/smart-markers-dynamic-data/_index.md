@@ -87,14 +87,8 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 ### [在 Aspose.Cells 智慧標記中啟用巢狀範圍選項](./enable-nested-range-option-in-aspose-cells-smartmarker/)
 ### [使用智慧標記 Aspose.Cells 實現變數數組](./variable-array-smart-markers/)
 釋放 Aspose.Cells 的強大功能。了解如何使用智慧標記逐步實現變數數組，以無縫產生 Excel 報表。
-### [如何使用 SmartMarker 在 C# 中生成 Excel 報告 – 完整指南](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
-使用 Aspose.Cells for .NET SmartMarker，在 C# 中完整生成 Excel 報告的全程指南。
-### [在 Aspose.Cells 中使用智慧標記建立動態工作表](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
-了解如何使用智慧標記在 Aspose.Cells 中動態建立工作表，以自動生成多頁報表。
 ### [在 Aspose.Cells 中使用智慧標記建立動態工作表](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
 說明如何在 C# 中使用智慧標記擴展工作表，以支援 Excel 範本的動態資料填充。
-### [如何使用智慧標記編寫範本 – 步驟說明指南](./how-to-write-template-with-smart-markers-step-by-step-guide/)
-本教學逐步說明如何建立和編寫包含智慧標記的 Excel 範本，以自動化報表產生。
 ### [如何在 JSON 中使用 SmartMarker 替換變數 – 完整指南](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 ### [在 C# 中使用 SmartMarker 將 JSON 轉換為 XLSX](./convert-json-to-xlsx-in-c-using-smartmarker/)
 說明如何使用 Aspose.Cells SmartMarker 在 C# 程式中將 JSON 資料轉換為 XLSX 檔案，步驟完整示範。
@@ -118,12 +112,10 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 了解如何使用 Aspose.Cells SmartMarker 在 Excel 工作表之間建立連結，實現跨表資料同步的完整步驟指南。
 ### [使用 C# 將 JSON 轉換為 Excel 的逐步指南](./convert-json-to-excel-with-c-step-by-step-guide/)
 ### [使用 Aspose.Cells SmartMarkerProcessor 從 XLSX 建立工作簿](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
-
+### [在 C# 中為 JSON 陣列設定 SmartMarkerOptions ArrayAsSingle](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
+說明如何在 C# 中使用 SmartMarkerOptions 的 ArrayAsSingle 設定，以正確處理 JSON 陣列資料。
 ### [使用智慧標記程式化建立 Excel 工作簿](./create-excel-workbook-programmatically-using-smart-markers/)
 ### [使用 C# 程式化建立 Excel 工作簿](./how-to-create-excel-workbook-programmatically-with-c/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 
 
 
@@ -150,7 +142,7 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 
 ### [將資料匯出至 Excel：在 C# 中使用陣列填充範本](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
 了解如何使用 Aspose.Cells for .NET，在 C# 中將陣列資料匯入 Excel 範本，快速產生動態報表。
-
+### [使用 Aspose.Cells 智慧標記從 JSON 建立 Excel](./create-excel-from-json-with-aspose-cells-smart-marker/)
 ### [如何自動命名工作表 – 在 C# 中產生多個工作表](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 
 ### [自動化發票產生 – 動態工作表命名與重複（C#）](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
@@ -235,6 +227,8 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 
 ### [如何重複工作表 – Excel 自動化完整指南](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 學習使用 Aspose.Cells 在 Excel 中重複工作表，以自動化報表生成並提升效率。
+### [如何使用智慧標記建立 Excel 工作簿以產生動態 Excel 報告](./how-to-create-excel-workbook-with-smart-markers-for-a-dynami/)
+說明如何使用 Aspose.Cells Smart Markers 在 .NET 中建立 Excel 工作簿，生成動態報告的完整步驟。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -242,6 +236,3 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-### [如何使用智慧標記建立 Excel 工作簿以產生動態 Excel 報告](./how-to-create-excel-workbook-with-smart-markers-for-a-dynami/)
-說明如何使用 Aspose.Cells Smart Markers 在 .NET 中建立 Excel 工作簿，生成動態報告的完整步驟。

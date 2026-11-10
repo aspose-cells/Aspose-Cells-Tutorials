@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 行と列の管理
@@ -82,26 +84,17 @@ Aspose.Cells for .NET を使用して、Excel に複数行を挿入する方法�
 ### [C# で wrapcols を使用する方法 – Excel WRAPROWS と数式の再計算を含む完全ガイド](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Aspose.Cells for .NET を使用して、C# で wrapcols を活用し、Excel の WRAPROWS と数式の再計算を行う方法をステップバイステップで解説します。
 
-### [WRAPCOLS の使い方: C# で 2 列レイアウトを作成する](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
-WRAPCOLS 機能を利用して、C# で Excel シートに 2 列のレイアウトを簡単に作成する手順を解説します。
 
 ### [C# で WRAPCOLS を使用し、ワークブックを XLSX として保存する方法](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
 
-### [Aspose.Cells for .NET を使用して Excel のセルを上にシフトする – 完全ガイド](./shift-cells-up-in-excel-with-c-complete-guide/)
-Aspose.Cells for .NET を使用して、Excel のセルを上方向にシフトする方法をステップバイステップで解説します。簡単にデータを再配置できます。
 
 ### [GridJsで行を挿入する – 複数行を効率的に追加](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 GridJsを使用して、複数の行を効率的にグリッドに追加する手順をステップバイステップで解説します。
 
 ### [Excel でアイテムを繰り返す – C# による動的行生成](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 C# で動的に行を生成し、Excel のアイテムを繰り返し入力する方法をステップバイステップで解説します。
-
-
-
-
-
-
-
+### [Aspose.Cells for .NET を使用して C# で Excel ワークブックを作成し、列を行に転置する](./create-excel-workbook-c-and-transpose-column-to-row/)
+C# を使って Excel ワークブックを作成し、列データを行に転置する手順をステップバイステップで解説します。
 
 ### [C# で Excel ファイルを読み込む – 行の削除と特定行の除去方法](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Aspose.Cells for .NET を使用して、Excel ファイルから行を削除し、特定の行だけを除去する手順を解説します。
@@ -111,6 +104,8 @@ Aspose.Cells for .NET と C# を使用して、Excel ファイルから特定の
 C# と Aspose.Cells for .NET を使って、Excel テーブルから行を削除する手順を詳しく解説します。
 ### [ヘッダーを保持しながら Excel テーブルの行を削除するための Aspose.Cells の使用方法](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
 ヘッダー行を保持したまま、Excel テーブルから特定の行を削除する手順をステップバイステップで解説します。
+### [C# を使用して Excel テーブルから行を削除する方法](./how-to-delete-rows-from-excel-table-using-c/)
+Aspose.Cells for .NET を使用して、Excel テーブル内の行を削除する手順をステップバイステップで解説します。
 ### [C# を使用して Excel に行を挿入する – ステップバイステップ ガイド](./insert-rows-in-excel-with-c-step-by-step-guide/)
 Aspose.Cells for .NET を使用し、C# で Excel に行を挿入する方法をステップバイステップで解説します。
 ### [WRAPCOLS の使い方: C# で 2 列レイアウトを作成する](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
@@ -119,10 +114,11 @@ WRAPCOLS 機能を利用して、C# で Excel シートに 2 列のレイアウ�
 GridJs を使用して、複数の行を素早く追加する方法をステップバイステップで解説します。
 ### [Aspose.Cells for .NET を使用して Excel のセルを上にシフトする – 完全ガイド](./shift-cells-up-in-excel-with-c-complete-guide/)
 Aspose.Cells for .NET を使用して、Excel のセルを上方向にシフトする方法をステップバイステップで解説します。簡単にデータを再配置できます。
+### [Excel テーブルから行を削除する – 完全 C# ガイド](./delete-rows-from-excel-table-complete-c-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

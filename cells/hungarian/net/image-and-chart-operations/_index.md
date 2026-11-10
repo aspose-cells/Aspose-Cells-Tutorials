@@ -46,6 +46,8 @@ Tanuld meg, hogyan mentheted el az Excel munkalapokat képként C#-ban az Aspose
 Ismerd meg, hogyan mentheted el az Excel munkafüzeteket PNG képként az Aspose.Cells segítségével, részletes lépésekkel.
 ### [Hogyan exportálja az Excel-tartományt képként C# és Aspose.Cells használatával](./how-to-export-excel-range-as-image-with-c-and-aspose-cells/)
 Tanulja meg, hogyan menthet egy Excel-tartományt képként C#-ban az Aspose.Cells segítségével.
+### [Hogyan exportálja a Pivot táblákat képként az Aspose.Cells segítségével C#-ban](./how-to-export-pivot-tables-as-images-using-aspose-cells-in-c/)
+Tanuld meg, hogyan exportálhatja a Pivot táblákat képekké C#-ban az Aspose.Cells használatával, részletes lépésekkel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -62,8 +62,10 @@
 ## การส่งออก Excel ไปยัง HTML ด้วยตัวเลือกขั้นสูง บทช่วยสอน
 ### [ฝังฟอนต์ใน HTML – ส่งออก Excel ไปยัง HTML ด้วย C#](./embed-fonts-in-html-export-excel-to-html-with-c/)
 เรียนรู้วิธีฝังฟอนต์ใน HTML ขณะส่งออก Excel เป็น HTML ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือทีละขั้นตอนนี้
-### [วิธีฝังฟอนต์ใน HTML – คู่มือ C# ฉบับสมบูรณ์](./how-to-embed-fonts-in-html-complete-c-guide/)
+### [วิธีฝังฟอนต์เมื่อส่งออก Excel ไปยัง HTML ด้วย C#](./how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
 เรียนรู้วิธีฝังฟอนต์ใน HTML ขณะส่งออก Excel ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET
+### [วิธีฝังฟอนต์เมื่อแปลง Excel เป็น HTML ด้วย Aspose.Cells](./how-to-embed-fonts-when-converting-excel-to-html-with-aspose/)
+เรียนรู้วิธีฝังฟอนต์ในไฟล์ HTML ขณะแปลง Excel ด้วย Aspose.Cells อย่างละเอียด
 ### [วิธีฝังฟอนต์ใน HTML เมื่อคุณแปลงไฟล์ XLSX เป็น HTML ด้วย Aspose.Cells](./how-to-embed-fonts-html-when-you-convert-an-xlsx-to-html-wit/)
 เรียนรู้วิธีฝังฟอนต์ใน HTML ขณะแปลงไฟล์ XLSX เป็น HTML ด้วย Aspose.Cells สำหรับ .NET ในคู่มือทีละขั้นตอน
 ### [การแยกสไตล์ที่ไม่ได้ใช้ขณะส่งออก Excel ไปยัง HTML](./excluding-unused-styles/)
@@ -104,7 +106,11 @@
 เรียนรู้วิธีส่งออกไฟล์ Excel ไปเป็น HTML โดยคงแผ่นที่ตรึงไว้ในขณะแปลงด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด
 ### [วิธีฝังฟอนต์ใน HTML – คู่มือฉบับสมบูรณ์](./how-to-embed-fonts-from-excel-complete-guide/)
 เรียนรู้วิธีฝังฟอนต์ใน HTML จาก Excel อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
-### [วิธีส่งออก Excel ไปยัง HTML – คำแนะนำทีละขั้นตอน](./how-to-export-excel-to-html-step-by-step-guide/)
+### [วิธีส่งออกไฟล์ xlsx ไปเป็น HTML พร้อมแผ่นที่ตรึงไว้ใน C#](./how-to-export-xlsx-to-html-with-frozen-panes-in-c/)
+เรียนรู้วิธีส่งออกไฟล์ xlsx ไปเป็น HTML พร้อมคงแผ่นที่ตรึงไว้ใน C# โดยใช้ Aspose.Cells สำหรับ .NET อย่างละเอียด
+### [วิธีฝังฟอนต์ใน HTML จาก Excel – คู่มือฉบับสมบูรณ์](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
+เรียนรู้วิธีฝังฟอนต์จากไฟล์ Excel ลงใน HTML อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET เพื่อให้หน้าเว็บแสดงผลแบบเดียวกัน
+### [วิธีส่งออก Excel ไปยัง HTML – คู่มือแบบขั้นตอนต่อขั้นตอน](./how-to-export-excel-to-html-step-by-step-guide/)
 เรียนรู้วิธีส่งออกไฟล์ Excel ไปยัง HTML อย่างละเอียดด้วยขั้นตอนที่ชัดเจนโดยใช้ Aspose.Cells สำหรับ .NET
 ### [บันทึก Excel เป็น HTML พร้อมแถบคงที่ – คู่มือ C# ฉบับสมบูรณ์](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
 เรียนรู้วิธีบันทึกไฟล์ Excel เป็น HTML พร้อมแถบคงที่โดยใช้ Aspose.Cells สำหรับ .NET ด้วยตัวอย่างโค้ด C# อย่างละเอียด
@@ -132,6 +138,10 @@
 เรียนรู้วิธีบันทึกไฟล์ Excel เป็น HTML พร้อมการจัดรูปแบบอย่างสมบูรณ์ด้วย Aspose.Cells สำหรับ .NET ในคู่มือขั้นตอนโดยละเอียด
 ### [ส่งออก Excel ไปยัง HTML – คู่มือฉบับสมบูรณ์สำหรับการคงแถบที่ตรึงไว้](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
 เรียนรู้วิธีส่งออกไฟล์ Excel เป็น HTML พร้อมคงแถบที่ตรึงไว้เพื่อให้ผู้ใช้เห็นส่วนหัวตารางอย่างคงที่
+### [วิธีฝังฟอนต์ใน HTML เมื่อบันทึกเวิร์กบุ๊ก](./how-to-embed-fonts-in-html-when-saving-a-workbook/)
+เรียนรู้วิธีฝังฟอนต์ใน HTML ขณะบันทึกไฟล์เวิร์กบุ๊กด้วย Aspose.Cells สำหรับ .NET
+### [วิธีใช้ wrapcols และฝังฟอนต์เมื่อบันทึก Excel เป็น HTML](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+เรียนรู้วิธีใช้ wrapcols และฝังฟอนต์ขณะบันทึกไฟล์ Excel เป็น HTML ด้วย Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

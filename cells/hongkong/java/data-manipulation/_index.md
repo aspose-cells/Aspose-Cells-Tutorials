@@ -64,6 +64,8 @@
 
 ### [如何在 Java 中使用 Aspose.Cells 分割欄位：逐步指南](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
 了解如何使用 Aspose.Cells for Java 在 Excel 中分割欄位，提供逐步範例與最佳實踐。
+### [如何使用 Aspose.Cells Java 從 Excel 中移除自動篩選](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
+了解如何使用 Aspose.Cells for Java 移除 Excel 工作表中的自動篩選功能，提升資料清理效率。
 
 ## 其他資源
 

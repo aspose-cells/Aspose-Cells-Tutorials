@@ -48,6 +48,7 @@ Scopri come automatizzare la generazione dinamica di report Excel con Aspose.Cel
 Impara a generare una cartella di lavoro master‑detail in Excel usando Aspose.Cells per Java, con esempi di codice passo passo.
 ### [Creare fogli di dettaglio in Java con i SmartMarkers di Aspose.Cells](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
 Scopri come generare fogli di dettaglio dinamici usando SmartMarkers di Aspose.Cells per Java, semplificando la creazione di report complessi.
+### [Come creare smart markers per fogli di lavoro con Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
 
 ### [Come generare fogli di lavoro con Smart Markers – Guida completa Java](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
 Scopri come creare fogli di lavoro dinamici usando Smart Markers con Aspose.Cells per Java, con esempi di codice completi.

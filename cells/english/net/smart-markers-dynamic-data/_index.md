@@ -8,7 +8,9 @@ url: /net/smart-markers-dynamic-data/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Smart Markers in Aspose.Cells for Dynamic Data
@@ -127,12 +129,8 @@ Learn how to create an Excel template using Smart Markers in C# with step‑by�
 ### [Convert JSON to XLSX in C# using SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
 ### [Create Workbook from XLSX with Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
 
-
-
-
-
-
-
+### [Configure SmartMarkerOptions ArrayAsSingle in C# for JSON arrays](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
+Configure SmartMarkerOptions to treat JSON arrays as a single entity in C# with Aspose.Cells.
 
 ### [repeat data in excel – Populate template with SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
 Learn how to repeat rows of data in an Excel template using SmartMarker to populate dynamic content efficiently.
@@ -149,6 +147,8 @@ Learn how to automatically name Excel worksheets during generation using Aspose.
 Learn how to populate an Excel template from an array using Aspose.Cells in C#, enabling fast and dynamic report generation.
 ### [How to Export Excel – Complete Guide for C# Developers](./how-to-export-excel-complete-guide-for-c-developers/)
 ### [Import json to excel in C# – step‑by‑step guide](./import-json-to-excel-in-c-step-by-step-guide/)
+### [Create Excel from JSON with Aspose.Cells Smart Marker](./create-excel-from-json-with-aspose-cells-smart-marker/)
+Learn how to generate Excel files from JSON data using Aspose.Cells Smart Markers in .NET.
 ### [How to Name Sheets Automatically – Generate Multiple Sheets in C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 ### [Automate Invoice Generation – Dynamic Worksheet Naming & Repeating in C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
 Learn how to automatically generate invoices with dynamic worksheet names and repeat sections using Aspose.Cells for .NET in C#.
@@ -179,6 +179,6 @@ Learn how to generate a list‑style Excel report using Aspose.Cells smart marke
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

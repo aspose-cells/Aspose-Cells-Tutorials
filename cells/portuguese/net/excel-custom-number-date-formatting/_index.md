@@ -40,6 +40,8 @@ Aprenda como aplicar formatos numéricos personalizados no Excel usando C# com o
 Aprenda a formatar números com separadores de milhar em C# usando o Aspose.Cells, com exemplos completos passo a passo.
 ### [Formatar data ISO a partir do Excel – Guia completo em C#](./format-date-iso-from-excel-complete-c-guide/)
 Aprenda a converter datas do Excel para o formato ISO usando C# com o Aspose.Cells, passo a passo.
+### [Aplicar Formato Numérico Personalizado na Exportação de Planilha C# – Guia Passo a Passo](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+Aprenda a aplicar formatos numéricos personalizados ao exportar planilhas em C# usando Aspose.Cells, com instruções detalhadas passo a passo.
 ### [Aplicar Formato Numérico Personalizado na Exportação de Planilha C# – Guia Passo a Passo](./apply-custom-number-format-in-c-spreadsheet-export-step-s/)
 Aprenda a aplicar formatos numéricos personalizados ao exportar planilhas em C# usando Aspose.Cells, com instruções detalhadas passo a passo.
 ### [Escrever date e hora no Excel – Guia completo para desenvolvedores C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
@@ -59,6 +61,10 @@ Aprenda a aplicar formatos numéricos personalizados em planilhas Excel usando C
 
 ### [Analisar DateTime com o reinado do imperador japonês usando Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
 Aprenda a analisar valores de data e hora que incluem o reinado do imperador japonês usando Aspose.Cells em .NET.
+### [Como converter data da era japonesa para o calendário gregoriano em C#](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+Aprenda a converter datas da era japonesa para o calendário gregoriano usando C# e Aspose.Cells.
+### [Como criar pasta de trabalho Excel em C# com formatação numérica personalizada](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
+Aprenda a criar uma pasta de trabalho Excel em C# aplicando formatação numérica personalizada usando Aspose.Cells.
 
 
 

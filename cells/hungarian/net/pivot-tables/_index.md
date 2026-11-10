@@ -23,7 +23,7 @@ Az Aspose.Cells for .NET használatával teljes mértékben testreszabhatja a pi
 
 {{< tutorial-card link="./how-to-copy-pivot-table-in-c-complete-programming-guide/" title="Hogyan másoljuk a pivot táblát C#‑ban – Teljes programozási útmutató" imgSrc="./how-to-copy-pivot-table-in-c-complete-programming-guide/images/thumb.png" >}}
 
-{{< tutorial-card link="./how-to-move-pivot-table-to-another-sheet-in-c-using-aspose-c/" title="Pivot tábla áthelyezése másik munkalapra C#‑ban az Aspose.Cells használatával" imgSrc="./how-to-move-pivot-table-to-another-sheet-in-c-using-aspose-c/images/thumb.png" >}}
+{{< tutorial-card link="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/" title="Pivot tábla másolása új munkafüzetbe, alakzat exportálása PowerPointba" imgSrc="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -79,6 +79,8 @@ Tanulja meg, hogyan formázhatja az Excel oszlopokat C#‑ban DataTable importá
 
 ### [Excel munkafüzet létrehozása C#‑ban egyedi formázással és mentése XLSX‑ként](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
 Ismerje meg, hogyan hozhat létre Excel munkafüzetet C#‑ban egyedi formázással, majd mentheti XLSX formátumban az Aspose.Cells segítségével.
+### [Excel fájl létrehozása C#-ban – cellák formázása és pénznemformátum beállítása](./create-excel-file-c-style-cells-and-set-currency-format/)
+Tanuld meg, hogyan hozhatsz létre Excel fájlt C#-ban, formázhatsz cellákat és beállíthatod a pénznemformátumot az Aspose.Cells for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

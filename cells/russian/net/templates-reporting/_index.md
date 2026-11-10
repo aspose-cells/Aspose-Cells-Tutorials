@@ -79,6 +79,9 @@ Aspose.Cells for .NET предоставляет мощные инструмен
 
 ### [Как расширить массив в Excel и заполнить шаблон](./how-to-expand-array-in-excel-and-populate-a-template/)
 Узнайте, как расширять массивы в Excel и автоматически заполнять шаблоны с помощью Aspose.Cells.
+### [Преобразование набора данных в Excel и заполнение шаблона Excel](./convert-dataset-to-excel-and-populate-an-excel-template/)
+Узнайте, как преобразовать набор данных в Excel и заполнить шаблон Excel с помощью Aspose.Cells.
+### [Как создать Excel из шаблона и генерировать повторяющиеся листы](./how-to-create-excel-from-template-and-generate-repeated-shee/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

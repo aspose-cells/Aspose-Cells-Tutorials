@@ -75,6 +75,12 @@
 ### [Πώς να επεκτείνετε έναν πίνακα στο Excel και να συμπληρώσετε ένα πρότυπο](./how-to-expand-array-in-excel-and-populate-a-template)
 Μάθετε πώς να επεκτείνετε έναν πίνακα στο Excel και να γεμίσετε ένα πρότυπο χρησιμοποιώντας Aspose.Cells για .NET.
 
+### [Μετατροπή συνόλου δεδομένων σε Excel και συμπλήρωση προτύπου Excel](./convert-dataset-to-excel-and-populate-an-excel-template)
+Μάθετε πώς να μετατρέψετε ένα σύνολο δεδομένων σε αρχείο Excel και να το γεμίσετε σε πρότυπο Excel χρησιμοποιώντας Aspose.Cells για .NET.
+
+### [Πώς να δημιουργήσετε Excel από πρότυπο και να δημιουργήσετε επαναλαμβανόμενα φύλλα](./how-to-create-excel-from-template-and-generate-repeated-shee)
+Μάθετε πώς να δημιουργήσετε αρχείο Excel από πρότυπο και να παράγετε επαναλαμβανόμενα φύλλα.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

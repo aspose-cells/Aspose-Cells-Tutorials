@@ -112,12 +112,24 @@ C# ve Aspose.Cells SmartMarker kullanarak JSON verilerini XLSX dosyasına dönü
 
 ### [SmartMarkers kullanarak Excel çalışma kitabını programlı olarak oluşturma](./create-excel-workbook-programmatically-using-smart-markers/)
 SmartMarker kullanarak bir Excel dosyasında birden çok sayfa oluşturmayı adım adım öğrenin.
+### [SmartMarker ile JSON'da Değişkenleri Değiştirme – Tam Kılavuz](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+
 ### [Akıllı İşaretleyicilerle Dinamik Excel Raporu İçin Excel Çalışma Kitabı Oluşturma](./how-to-create-excel-workbook-with-smart-markers-for-a-dynami/)
 Akıllı İşaretleyicilerle dinamik raporlar için Excel çalışma kitabı oluşturmayı öğrenin.
 
 ### [C# ile Excel Çalışma Kitabını Programlı Olarak Oluşturma](./how-to-create-excel-workbook-programmatically-with-c/)
 C# ve Aspose.Cells kullanarak bir Excel çalışma kitabını programlı olarak oluşturmayı adım adım öğrenin.
 
+### [Aspose.Cells'de Akıllı İşaretleyicilerle Dinamik Çalışma Sayfaları Oluşturun](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
+Aspose.Cells for .NET kullanarak akıllı işaretleyicilerle dinamik çalışma sayfaları oluşturmayı adım adım öğrenin.
+### [C#'ta JSON dizileri için SmartMarkerOptions ArrayAsSingle'ı yapılandırma](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
+C# kullanarak JSON dizi verilerini işlemek için SmartMarkerOptions'ın ArrayAsSingle özelliğini nasıl ayarlayacağınızı öğrenin.
+### [Akıllı İşaretleyicilerle Şablon Yazma – Adım Adım Kılavuz](./how-to-write-template-with-smart-markers-step-by-step-guide/)
+Akıllı İşaretleyicilerle şablon oluşturmayı öğrenin ve adım adım örneklerle Excel raporlarınızı özelleştirin.
+
+### [C# ile Excel Raporu Oluşturma – SmartMarker Kullanarak Tam Kılavuz](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
+SmartMarker ile C# kullanarak dinamik Excel raporları oluşturmayı adım adım öğrenin.
+### [Excel Çalışma Kitabı Oluşturma C# – Hücrelere Dizi Ekleme Tam Kılavuzu](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
 ### [C# ile Excel Veri Birleştirme – Tam Smart Marker Kılavuzu](./excel-data-merging-in-c-complete-smart-marker-guide/)
 C# kullanarak Excel dosyalarında veri birleştirme işlemlerini Smart Marker ile adım adım öğrenin.
 ### [C# ile Smart Markers Kullanarak Excel Şablonu Oluşturma – Tam Kılavuz](./create-excel-template-with-smart-markers-in-c-complete-guide/)
@@ -180,7 +192,8 @@ Aspose.Cells Akıllı İşaretleyicileri kullanarak master-detail ilişkili bir 
 ### [Master-Detail Excel Kılavuzu – Şablonları Akıllı İşaretleyicilerle Doldurma](./master-detail-excel-guide-populate-templates-with-smart-mark/)
 Smart Markers kullanarak şablonları doldurup master-detail ilişkili Excel raporları oluşturmayı öğrenin.
 ### [Çalışma Sayfalarını Tekrarlama – Excel Otomasyonu için Tam Kılavuz](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
-
+### [Aspose.Cells Akıllı İşaretleyicisi ile JSON'dan Excel Oluşturun](./create-excel-from-json-with-aspose-cells-smart-marker/)
+JSON verilerini kullanarak dinamik Excel raporları oluşturmayı öğrenin. Aspose.Cells Smart Marker ile hızlı ve kolay bir şekilde Excel dosyaları üretin.
 ### [Excel Şablonları için C#'ta Çalışma Sayfası Akıllı İşaretleyicilerini Genişletme](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

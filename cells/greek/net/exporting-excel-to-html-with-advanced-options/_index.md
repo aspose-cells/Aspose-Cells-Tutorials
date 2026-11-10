@@ -93,12 +93,18 @@
 Ορίστε εύκολα ένα όνομα καρτέλας σε ένα φύλλο κατά την εξαγωγή HTML χρησιμοποιώντας το Aspose.Cells για .NET. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα που περιλαμβάνονται.
 ### [Δημιουργία επιλογών αποθήκευσης HTML σε C# – Πλήρης οδηγός](./create-html-save-options-in-c-full-guide/)
 Μάθετε πώς να ρυθμίσετε τις επιλογές αποθήκευσης HTML στο Aspose.Cells για .NET χρησιμοποιώντας C# σε αυτόν τον πλήρη οδηγό.
+### [Πώς να χρησιμοποιήσετε wrapcols και να ενσωματώσετε γραμματοσειρές κατά την αποθήκευση του Excel σε HTML](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+Μάθετε πώς να χρησιμοποιήσετε την επιλογή wrapcols και να ενσωματώσετε γραμματοσειρές κατά την εξαγωγή Excel σε HTML με Aspose.Cells για .NET.
 ### [Αποθήκευση Excel ως HTML – Πλήρης Οδηγός για Εξαγωγή και Μετατροπή Αρχείων Excel](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
 Μάθετε πώς να αποθηκεύετε αρχεία Excel ως HTML χρησιμοποιώντας το Aspose.Cells για .NET σε αυτόν τον πλήρη οδηγό βήμα προς βήμα.
 ### [Ενσωμάτωση γραμματοσειρών σε HTML – Εξαγωγή Excel σε HTML με C#](./embed-fonts-in-html-export-excel-to-html-with-c/)
 Μάθετε πώς να ενσωματώνετε γραμματοσειρές στο HTML κατά την εξαγωγή Excel σε HTML με C# χρησιμοποιώντας το Aspose.Cells.
 ### [Πώς να ενσωματώσετε γραμματοσειρές σε HTML – Πλήρης οδηγός C#](./how-to-embed-fonts-in-html-complete-c-guide/)
 Μάθετε πώς να ενσωματώνετε γραμματοσειρές σε HTML χρησιμοποιώντας το Aspose.Cells για .NET με έναν πλήρη οδηγό C# βήμα προς βήμα.
+### [Πώς να Ενσωματώσετε Γραμματοσειρές σε HTML από το Excel – Πλήρης Οδηγός](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
+Μάθετε πώς να ενσωματώσετε γραμματοσειρές στο HTML εξάγοντας από το Excel με το Aspose.Cells για .NET σε αυτόν τον ολοκληρωμένο οδηγό.
+### [Πώς να ενσωματώσετε γραμματοσειρές σε HTML κατά την αποθήκευση ενός βιβλίου εργασίας](./how-to-embed-fonts-in-html-when-saving-a-workbook/)
+Μάθετε πώς να ενσωματώσετε γραμματοσειρές σε HTML κατά την αποθήκευση ενός βιβλίου εργασίας με το Aspose.Cells για .NET.
 ### [Πώς να ενσωματώσετε γραμματοσειρές HTML όταν μετατρέπετε ένα XLSX σε HTML με Aspose.Cells](./how-to-embed-fonts-html-when-you-convert-an-xlsx-to-html-wit/)
 ### [Αποθήκευση Excel ως HTML – Πλήρης Οδηγός C#](./save-excel-as-html-complete-c-guide/)
 Μάθετε πώς να αποθηκεύετε αρχεία Excel ως HTML χρησιμοποιώντας C# και Aspose.Cells για .NET σε πλήρη βήμα‑βήμα οδηγό.
@@ -108,12 +114,16 @@
 Μάθετε πώς να διατηρήσετε τις παγωμένες περιοχές κατά την εξαγωγή του Excel σε HTML χρησιμοποιώντας το Aspose.Cells για .NET σε αυτόν τον οδηγό βήμα προς βήμα.
 ### [Πώς να εξάγετε το Excel σε HTML – Διατήρηση παγωμένων περιοχών](./how-to-export-excel-to-html-while-preserving-frozen-panes/)
 Μάθετε πώς να εξάγετε το Excel σε HTML διατηρώντας τις παγωμένες περιοχές με το Aspose.Cells για .NET.
+### [Πώς να εξάγετε xlsx σε HTML – Διατήρηση παγωμένων περιοχών σε C#](./how-to-export-xlsx-to-html-with-frozen-panes-in-c/)
+Μάθετε πώς να εξάγετε αρχεία xlsx σε HTML διατηρώντας τις παγωμένες περιοχές, χρησιμοποιώντας Aspose.Cells για .NET με C#.
 ### [Πώς να ενσωματώσετε γραμματοσειρές σε HTML – Μετατροπή Excel σε HTML με C#](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
 Μάθετε πώς να ενσωματώνετε γραμματοσειρές στο HTML κατά την εξαγωγή Excel σε HTML χρησιμοποιώντας Aspose.Cells για .NET με C#.
 ### [Πώς να εξάγετε το Excel σε HTML – Οδηγός βήμα‑βήμα](./how-to-export-excel-to-html-step-by-step-guide/)
 Μάθετε πώς να εξάγετε το Excel σε HTML χρησιμοποιώντας το Aspose.Cells για .NET με έναν πλήρη οδηγό βήμα‑βήμα.
 ### [Αποθήκευση Excel ως HTML με παγωμένες περιοχές – πλήρης οδηγός C#](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
 Μάθετε πώς να αποθηκεύετε ένα αρχείο Excel ως HTML διατηρώντας τις παγωμένες περιοχές, χρησιμοποιώντας το Aspose.Cells για .NET με C#.
+### [Πώς να ενσωματώσετε γραμματοσειρές όταν μετατρέπετε το Excel σε HTML με το Aspose.Cells](./how-to-embed-fonts-when-converting-excel-to-html-with-aspose/)
+Μάθετε πώς να ενσωματώνετε γραμματοσειρές στο HTML κατά τη μετατροπή αρχείων Excel χρησιμοποιώντας το Aspose.Cells για .NET.
 ### [Πώς να εξάγετε το Excel σε HTML – Πλήρης προγραμματιστικός οδηγός](./how-to-export-excel-to-html-complete-programming-guide/)
 Μάθετε βήμα-βήμα πώς να εξάγετε Excel σε HTML με πλήρη προγραμματιστική προσέγγιση χρησιμοποιώντας Aspose.Cells για .NET.
 ### [Ενσωμάτωση γραμματοσειρών σε HTML – Εξαγωγή βιβλίου εργασίας Excel σε HTML με Aspose.Cells](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
@@ -124,6 +134,8 @@
 Μάθετε πώς να αποθηκεύετε αρχεία Excel σε HTML με πλήρη οδηγίες και παραδείγματα κώδικα χρησιμοποιώντας Aspose.Cells για .NET.
 ### [Πώς να ενσωματώσετε γραμματοσειρές κατά την εξαγωγή Excel σε HTML – Πλήρης οδηγός C#](./how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
 Μάθετε πώς να ενσωματώνετε γραμματοσειρές στο HTML εξαγόμενο από Excel χρησιμοποιώντας Aspose.Cells για .NET σε αυτόν τον πλήρη οδηγό C#.
+### [Μετατροπή Excel σε HTML – Πλήρης Οδηγός](./convert-excel-to-html-in-c-complete-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία Excel σε HTML βήμα-βήμα με το Aspose.Cells για .NET.
 ### [Αποθήκευση Excel ως HTML – Πλήρης Οδηγός για Εξαγωγή Excel με Μορφοποίηση](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
 Μάθετε πώς να αποθηκεύετε αρχεία Excel ως HTML διατηρώντας τη μορφοποίηση, βήμα‑βήμα με το Aspose.Cells για .NET.
 ### [Εξαγωγή Excel σε HTML – Πλήρης Οδηγός για Διατήρηση Παγωμένων Πλαισίων](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)

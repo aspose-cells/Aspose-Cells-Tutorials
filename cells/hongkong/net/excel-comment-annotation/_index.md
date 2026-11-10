@@ -71,6 +71,9 @@
 ### [使用 C# 在 Excel 中插入註解 – 逐步指南](./insert-comment-into-excel-with-c-step-by-step-guide/)
 了解如何使用 C# 透過 Aspose.Cells 在 Excel 中插入註解的完整步驟。
 
+### [如何使用 Aspose.Cells 智慧標記在 Excel 中新增註解](./how-to-add-comment-to-excel-using-aspose-cells-smart-markers/)
+了解如何透過 Aspose.Cells 智慧標記在 Excel 中自動新增註解，以提升工作表的互動性。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

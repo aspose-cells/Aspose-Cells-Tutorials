@@ -50,14 +50,17 @@ Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet C#-ban, és alkalmazhatsz
 Ismerd meg, hogyan lehet C#-ban dátumokat beolvasni és konvertálni Excel fájlokban az Aspose.Cells segítségével.
 ### [Excel munkafüzet létrehozása egyéni formátummal – C# útmutató](./create-excel-workbook-with-custom-format-c-guide/)
 Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet egyedi formátummal C#-ban az Aspose.Cells segítségével.
+### [Japán korszak dátumának átalakítása gregoriánra C#-ban](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+Tanuld meg, hogyan konvertálhatod a japán korszak dátumát gregoriánra C#-ban az Aspose.Cells segítségével.
 ### [Japán korszak dátumának feldolgozása C#-ban az Aspose.Cells segítségével – Teljes útmutató](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
-Tanulja meg, hogyan értelmezze a japán era dátumokat C#-ban az Aspose.Cells használatával, részletes lépésről-lépésre útmutató.
 ### [Hogyan hozzunk létre Excel munkafüzetet és dolgozzunk fel japán dátumokat C#-ban](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
 Tanulja meg, hogyan hozhat létre Excel munkafüzetet és dolgozhat fel japán dátumokat C#-ban az Aspose.Cells segítségével.
 
 
 
 
+### [Excel munkafüzet létrehozása C#-ban egyéni számformátummal](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
+Tanuld meg, hogyan hozhatsz létre Excel munkafüzetet C#-ban egyéni számformátumok alkalmazásával az Aspose.Cells segítségével.
 
 
 

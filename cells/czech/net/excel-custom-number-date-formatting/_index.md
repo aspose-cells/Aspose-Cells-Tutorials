@@ -60,6 +60,10 @@ Naučte se, jak pomocí Aspose.Cells v C# vytvořit Excel sešit a rozparsovat j
 
 ### [Parsování DateTime s japonským císařským obdobím pomocí Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
 Naučte se, jak pomocí Aspose.Cells zpracovat datum a čas podle japonského císařského kalendáře v C#.
+### [Jak vytvořit Excel sešit v C# s vlastním číselným formátováním](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
+Kompletní průvodce vytvořením Excel sešitu v C# a aplikací vlastního číselného formátu pomocí Aspose.Cells.
+### [Jak převést japonské datum v éře na gregoriánské v C#](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+Naučte se, jak pomocí Aspose.Cells v C# převést japonské datum v éře na gregoriánský formát.
 
 
 

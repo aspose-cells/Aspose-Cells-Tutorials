@@ -105,6 +105,8 @@
 
 
 
+### [使用 Aspose.Cells for .NET 创建 Excel 工作簿并转置列到行](./create-excel-workbook-c-and-transpose-column-to-row/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中创建 Excel 工作簿并将列转置为行，实现数据重排。
 
 
 
@@ -113,6 +115,7 @@
 了解如何在 C# 中使用 Aspose.Cells 加载 Excel 并删除指定的行或批量行，提供完整代码示例。
 ### [使用 Aspose.Cells for .NET 删除 Excel 表格中的行 – 分步指南](./delete-rows-excel-table-with-c-step-by-step-guide/)
 通过本分步指南，学习如何使用 Aspose.Cells for .NET 在 C# 中删除 Excel 表格中的多行，实现高效数据清理。
+### [使用 C# 删除 Excel 表格中的行](./how-to-delete-rows-from-excel-table-using-c/)
 ### [使用 C# 在 Excel 中插入行 – 分步指南](./insert-rows-in-excel-with-c-step-by-step-guide/)
 ### [使用 WRAPCOLS：在 C# 中创建两列布局](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 了解如何在 C# 中使用 Aspose.Cells 的 WRAPCOLS 功能创建两列布局，提供完整代码示例和步骤说明。
@@ -126,6 +129,8 @@
 
 ### [使用 C# 在 Excel 中向上移动单元格 – 完整指南](./shift-cells-up-in-excel-with-c-complete-guide/)
 了解如何使用 Aspose.Cells for .NET 在 Excel 中向上移动单元格的完整步骤。
+### [从 Excel 表中删除行 – 完整 C# 指南](./delete-rows-from-excel-table-complete-c-guide/)
+学习如何使用 Aspose.Cells for .NET 在 C# 中从 Excel 表中删除行的完整步骤指南。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

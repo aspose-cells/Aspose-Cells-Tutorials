@@ -50,6 +50,9 @@ Apprenez à exporter un graphique Excel vers une présentation PowerPoint en C# 
 ### [Comment exporter des graphiques Excel vers PowerPoint avec C#](./how-to-export-excel-charts-to-powerpoint-using-c/)
 Apprenez à exporter des graphiques Excel vers PowerPoint en C# avec Aspose.Cells, étape par étape.
 
+### [Comment ajouter un graphique à Word avec Aspose – intégrer un graphique Excel](./how-to-add-chart-to-word-with-aspose-embed-excel-chart/)
+Apprenez à insérer un graphique Excel dans un document Word en utilisant Aspose, avec un guide pas à pas et du code exemple.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

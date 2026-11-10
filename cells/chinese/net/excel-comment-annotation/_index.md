@@ -47,6 +47,8 @@
 
 
 ### [在 Excel 中插入注释（C#）– 步骤指南](./insert-comment-into-excel-with-c-step-by-step-guide/)
+### [如何使用 Aspose.Cells 智能标记向 Excel 添加注释](./how-to-add-comment-to-excel-using-aspose-cells-smart-markers/)
+了解如何使用 Aspose.Cells 的智能标记在 Excel 中添加注释并填充内容。
 
 
 

@@ -73,7 +73,8 @@ Odblokuj potencjał programu Excel dzięki Aspose.Cells dla .NET. Dowiedz się k
 Odblokuj moc programu Excel dzięki Aspose.Cells dla .NET. Naucz się przetwarzać dane za pomocą funkcji tablicowych w tym szczegółowym samouczku.
 ### [Jak utworzyć tablicę w Excelu przy użyciu C# – przewodnik krok po kroku](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
 Dowiedz się, jak tworzyć tablice w Excelu przy użyciu C# i Aspose.Cells dla .NET, krok po kroku.
-
+### [Jak utworzyć skoroszyt Excel w C# z dynamiczną formułą tablicową](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
+Krok po kroku pokażemy, jak w C# stworzyć skoroszyt Excel wykorzystujący dynamiczną formułę tablicową przy użyciu Aspose.Cells.
 ### [Przetwarzanie danych za pomocą wbudowanych funkcji w programie Excel](./processing-data-using-built-in-functions/)
 Dowiedz się, jak przetwarzać dane za pomocą wbudowanych funkcji w programie Excel z Aspose.Cells dla .NET. Postępuj zgodnie z samouczkiem krok po kroku, aby uzyskać łatą automatyzację.
 ### [Przetwarzanie danych za pomocą R1C1 w programie Excel](./processing-data-using-r1c1/)
@@ -86,9 +87,10 @@ Dowiedz się, jak określić maksymalną liczbę wierszy dla współdzielonych f
 Dowiedz się, jak używać funkcji WRAPCOLS w C# do przekształcania jednowymiarowych tablic w macierze przy pomocy Aspose.Cells.
 ### [Jak utworzyć skoroszyt Excel i podzielić dane przy użyciu WRAPCOLS w C#](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
 Dowiedz się, jak w C# utworzyć skoroszyt Excel i podzielić dane na kolumny przy użyciu funkcji WRAPCOLS w Aspose.Cells.
+### [Jak używać WRAPCOLS w C# dla tablic Excel i zapisywania skoroszytu](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
+Dowiedz się, jak używać WRAPCOLS w C# do przekształcania tablic i zapisywania skoroszytu Excel przy pomocy Aspose.Cells.
 ### [Jak rozszerzyć tablicę w C# przy użyciu Aspose.Cells – przewodnik krok po kroku](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Dowiedz się, jak w prosty sposób rozszerzyć tablicę w C# przy użyciu Aspose.Cells, korzystając z naszego szczegółowego przewodnika krok po kroku.
-
 ### [c# tworzenie pliku Excel – przewodnik krok po kroku z logiką warunkową](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
 Dowiedz się, jak w C# tworzyć plik Excel krok po kroku, wykorzystując logikę warunkową przy pomocy Aspose.Cells dla .NET.
 ### [Jak obliczyć cotangens w Excelu przy użyciu C# – Kompletny przewodnik](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
@@ -103,6 +105,8 @@ Dowiedz się, jak programowo utworzyć skoroszyt Excel z formułami, korzystają
 
 ### [Jak utworzyć skoroszyt Excel w C# z funkcją EXPAND](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
 Dowiedz się, jak przy użyciu Aspose.Cells dla .NET w C# utworzyć skoroszyt Excel wykorzystując funkcję EXPAND w prostym przewodniku krok po kroku.
+### [Jak utworzyć skoroszyt Excel w C# i ustawić formuły](./how-to-create-excel-workbook-in-c-and-set-formulas/)
+Krok po kroku pokażemy, jak w C# przy użyciu Aspose.Cells stworzyć skoroszyt Excel i dodać do niego formuły.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

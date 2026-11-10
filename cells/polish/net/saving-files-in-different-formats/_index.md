@@ -64,6 +64,8 @@ Dowiedz się, jak bez wysiłku konwertować skoroszyty programu Excel do formatu
 Dowiedz się, jak łatwo zapisywać pliki XLS za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku z praktycznymi przykładami i często zadawanymi pytaniami.
 ### [Zapisz plik XLSX](./save-xlsx-file/)
 Dowiedz się, jak zapisywać pliki XLSX za pomocą Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Usprawnij zarządzanie programem Excel bez wysiłku.
+### [Jak ukończyć samouczek płaskiego OPC przy użyciu Aspose.Cells w C#](./how-to-complete-a-flat-opc-tutorial-with-aspose-cells-in-c/)
+Dowiedz się, jak krok po kroku zakończyć samouczek płaskiego OPC przy użyciu Aspose.Cells w języku C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

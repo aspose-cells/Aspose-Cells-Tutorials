@@ -43,6 +43,8 @@ Tanulja meg, hogyan exportálhat diagramot PowerPointba C#‑ban az Aspose.Cells
 ### [Excel-diagramok exportálása PowerPointba C#‑val – Teljes lépésről‑lépésre útmutató](./how-to-export-excel-charts-to-powerpoint-using-c/)
 Tanulja meg, hogyan exportálhat Excel-diagramokat PowerPointba C#‑ban az Aspose.Cells for .NET segítségével, részletes lépésről‑lépésre útmutatóval.
 ### [Diagramok exportálása a Wordből – Teljes C# útmutató](./how-to-export-charts-from-word-complete-c-guide/)
+### [Hogyan adjon hozzá diagramot Word-hez Aspose-szal – Excel-diagram beágyazása](./how-to-add-chart-to-word-with-aspose-embed-excel-chart/)
+Tanulja meg, hogyan ágyazhat be Excel-diagramot Word dokumentumba az Aspose.Cells for .NET segítségével.
 ### [Diagramok exportálása – Teljes PowerPoint C# útmutató](./how-to-export-charts-complete-powerpoint-c-guide/)
 Ismerje meg, hogyan exportálhatja a diagramokat PowerPointba C#-ban az Aspose.Cells segítségével, lépésről lépésre útmutatóval.
 ### [Diagram exportálása PNG formátumban – Teljes útmutató az Excel HTML-re konvertálásához az Aspose.Cells segítségével](./export-chart-as-png-complete-guide-to-convert-excel-to-html/)

@@ -89,6 +89,11 @@ Naučte se, jak pomocí šablony C# exportovat data do Excelu krok za krokem.
 Naučte se, jak pomocí C# vytvořit Excel report od načtení dat po formátování a uložení, krok po kroku.
 ### [Jak rozšířit pole v Excelu a naplnit šablonu](./how-to-expand-array-in-excel-and-populate-a-template/)
 Naučte se, jak rozšířit pole v Excelu a pomocí Aspose.Cells naplnit šablonu daty.
+### [Převod datové sady do Excelu a naplnění šablony Excel](./convert-dataset-to-excel-and-populate-an-excel-template)
+Naučte se převést datovou sadu do Excelu a naplnit šablonu pomocí Aspose.Cells pro .NET.
+
+### [Jak vytvořit Excel ze šablony a generovat opakující se listy](./how-to-create-excel-from-template-and-generate-repeated-shee)
+Naučte se, jak pomocí Aspose.Cells vytvořit Excel ze šablony a generovat opakující se listy.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

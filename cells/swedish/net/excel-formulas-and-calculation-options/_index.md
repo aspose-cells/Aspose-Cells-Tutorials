@@ -74,6 +74,8 @@ Lås upp kraften i Excel med Aspose.Cells för .NET. Lär dig bearbeta data med 
 Lär dig hur du med WRAPCOLS-funktionen i C# omvandlar en-dimensionella arrayer till tvådimensionella matriser med Aspose.Cells för .NET.
 ### [Applicera arrayformel i Excel i C# – Komplett guide](./apply-array-formula-excel-in-c-complete-guide/)
 Lär dig steg för steg hur du använder en arrayformel i Excel med Aspose.Cells för .NET i C# i vår kompletta guide.
+### [Hur man använder WRAPCOLS i C# för Excel-arrayer och sparar arbetsboken](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
+Lär dig hur du använder WRAPCOLS-funktionen i C# för att omvandla arrayer och spara arbetsboken med Aspose.Cells för .NET.
 ### [Bearbeta data med hjälp av inbyggda funktioner i Excel](./processing-data-using-built-in-functions/)
 Upptäck hur du bearbetar data med hjälp av inbyggda funktioner i Excel med Aspose.Cells för .NET. Följ en steg-för-steg-handledning för enkel automatisering.
 ### [Bearbeta data med R1C1 i Excel](./processing-data-using-r1c1/)
@@ -104,6 +106,10 @@ Lär dig hur du tvingar formelberäkning och använder lambda-funktioner i Excel
 Lär dig hur du skapar en Excel-arbetsbok med formler med Aspose.Cells för .NET i en fullständig steg‑för‑steg‑guide.
 ### [Hur man skapar Excel-arbetsbok i C# med EXPAND-funktionen](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
 Lär dig hur du skapar en Excel-arbetsbok i C# med EXPAND‑funktionen med Aspose.Cells för .NET.
+### [Hur du skapar en Excel-arbetsbok i C# med en dynamisk arrayformel](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
+Lär dig att skapa en Excel-arbetsbok i C# med en dynamisk arrayformel steg för steg.
+### [Skapa Excel-arbetsbok i C# och ange formler](./how-to-create-excel-workbook-in-c-and-set-formulas/)
+Lär dig att skapa en Excel-arbetsbok i C# och sätta formler med Aspose.Cells för .NET i denna steg-för-steg-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

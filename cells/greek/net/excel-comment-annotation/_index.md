@@ -46,6 +46,7 @@
 
 
 
+### [Πώς να προσθέσετε σχόλιο σε Excel χρησιμοποιώντας τα Aspose.Cells smart markers](./how-to-add-comment-to-excel-using-aspose-cells-smart-markers/)
 
 
 
@@ -63,6 +64,8 @@
 Μάθετε πώς να προσθέτετε σχόλιο σε κελί με C# και Aspose.Cells για .NET, δημιουργώντας Excel από δεδομένα.
 ### [Εισαγωγή σχολίου Excel με C# – Πλήρης οδηγός SmartMarker](./insert-excel-comment-with-c-complete-smartmarker-guide/)
 Μάθετε πώς να εισάγετε σχόλια στο Excel χρησιμοποιώντας C# και SmartMarker με το Aspose.Cells για .NET.
+### [Πώς να εισάγετε σχόλιο στο Excel χρησιμοποιώντας το Aspose.Cells](./how-to-insert-comment-in-excel-using-aspose-cells/)
+Μάθετε πώς να προσθέσετε σχόλιο σε ένα φύλλο Excel με το Aspose.Cells για .NET, βήμα-βήμα οδηγίες.
 ### [Πώς να εισάγετε σχόλιο στο Excel χρησιμοποιώντας το Aspose.Cells](./how-to-insert-excel-comment-using-aspose-cells/)
 Μάθετε πώς να προσθέσετε σχόλιο σε ένα φύλλο Excel με το Aspose.Cells για .NET, βήμα-βήμα οδηγίες.
 ### [Εισαγωγή σχολίου στο Excel με C# – οδηγός βήμα‑βήμα](./insert-comment-into-excel-with-c-step-by-step-guide/)

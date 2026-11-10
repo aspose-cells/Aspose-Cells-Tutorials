@@ -67,6 +67,11 @@ Aspose.Cells Net 代码教程
 ### [如何在 Excel 中展开数组并填充模板](./how-to-expand-array-in-excel-and-populate-a-template)
 学习如何在 Excel 中展开数组并将数据填充到模板，实现动态报表生成。
 
+### [将数据集转换为 Excel 并填充 Excel 模板](./convert-dataset-to-excel-and-populate-an-excel-template/)
+
+### [如何从模板创建 Excel 并生成重复工作表](./how-to-create-excel-from-template-and-generate-repeated-shee)
+学习如何使用模板创建 Excel 并生成多个重复的工作表。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

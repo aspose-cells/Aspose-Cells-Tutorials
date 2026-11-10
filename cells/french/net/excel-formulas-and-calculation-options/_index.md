@@ -103,6 +103,12 @@ Apprenez à utiliser la fonction WRAPCOLS avec Aspose.Cells pour .NET afin d'aut
 Découvrez comment créer un classeur Excel contenant des formules à l'aide d'Aspose.Cells pour .NET, avec un guide complet étape par étape.
 ### [Comment créer un classeur Excel en C# avec la fonction EXPAND](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
 Apprenez à créer un classeur Excel en C# en utilisant la fonction EXPAND avec Aspose.Cells, guide étape par étape.
+### [Comment utiliser WRAPCOLS en C# pour les tableaux Excel et l’enregistrement du classeur](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
+Apprenez à appliquer WRAPCOLS en C# pour transformer des tableaux Excel et enregistrer le classeur avec Aspose.Cells.
+### [Comment créer un classeur Excel en C# et définir des formules](./how-to-create-excel-workbook-in-c-and-set-formulas/)
+Apprenez à créer un classeur Excel en C# et à y ajouter des formules avec Aspose.Cells, étape par étape.
+### [Comment créer un classeur Excel C# avec une formule de tableau dynamique](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
+Apprenez à créer un classeur Excel en C# avec une formule de tableau dynamique grâce à Aspose.Cells pour .NET, étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

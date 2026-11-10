@@ -23,7 +23,7 @@ Grâce à Aspose.Cells pour .NET, vous pouvez entièrement personnaliser vos tab
 
 {{< tutorial-card link="./how-to-copy-pivot-table-in-c-complete-programming-guide/" title="Comment copier un tableau croisé dynamique en C# – Guide complet de programmation" imgSrc="./how-to-copy-pivot-table-in-c-complete-programming-guide/images/thumb.png" >}}
 
-{{< tutorial-card link="./how-to-move-pivot-table-to-another-sheet-in-c-using-aspose-c/" title="Comment déplacer un tableau croisé dynamique vers une autre feuille en C# avec Aspose.Cells" imgSrc="./how-to-move-pivot-table-to-another-sheet-in-c-using-aspose-c/images/thumb.png" >}}
+{{< tutorial-card link="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/" title="Copier le tableau croisé dynamique dans un nouveau classeur, exporter la forme vers PowerPoint" imgSrc="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

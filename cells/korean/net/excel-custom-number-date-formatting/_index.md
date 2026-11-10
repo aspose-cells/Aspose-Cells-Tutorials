@@ -51,13 +51,15 @@ Aspose.Cells for .NET을 사용하여 C#에서 Excel 워크북을 생성하고 �
 Aspose.Cells for .NET을 사용하여 C#에서 사용자 지정 서식이 적용된 Excel 워크북을 만드는 방법을 단계별로 안내합니다.
 ### [Aspose.Cells를 사용한 C#에서 일본 연호 날짜 구문 분석 – 전체 가이드](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 ### [Aspose.Cells를 사용해 일본 황제 연호로 DateTime 파싱](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
+### [C#에서 일본 연호 날짜를 그레고리안 날짜로 변환하는 방법](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+### [C#에서 셀 사용자 지정 서식 설정 – Excel에서 날짜 쓰기 및 읽기 완전 가이드](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
+Aspose.Cells for .NET을 사용하여 Excel 셀에 사용자 지정 날짜 서식을 적용하고 읽는 방법을 단계별로 안내합니다.
+### [C#에서 사용자 지정 숫자 서식으로 Excel 워크북 만들기](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
 
 ### [C#에서 Excel 워크북을 만들고 일본 날짜를 구문 분석하는 방법](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
 
 ### [C#에서 일본 달력 CultureInfo를 사용하여 Excel에 날짜 쓰는 방법](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
 Aspose.Cells for .NET을 활용해 C#에서 일본 달력 CultureInfo를 적용하여 Excel에 날짜를 정확히 기록하는 방법을 단계별로 안내합니다.
-
-### [C#에서 셀 사용자 지정 서식 설정 – Excel에서 날짜 쓰기 및 읽기 완전 가이드](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 
 ### [C#에서 문자열을 DateTime으로 변환 – Excel에서 날짜 쓰기 및 읽기](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 Aspose.Cells for .NET을 사용해 문자열을 DateTime으로 변환하고 Excel에 날짜를 쓰고 읽는 방법을 단계별로 안내합니다.

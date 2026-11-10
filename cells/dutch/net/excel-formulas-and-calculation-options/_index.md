@@ -75,6 +75,8 @@ Benut het potentieel van Excel met Aspose.Cells voor .NET. Leer stap voor stap h
 Ontgrendel de kracht van Excel met Aspose.Cells voor .NET. Leer gegevens verwerken met matrixfuncties in deze gedetailleerde tutorial.
 ### [Hoe WRAPCOLS in C# te gebruiken – Arrays omvormen tot matrices](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
 Leer hoe u WRAPCOLS in C# toepast om arrays om te vormen tot matrices met Aspose.Cells voor .NET.
+### [Hoe WRAPCOLS in C# te gebruiken voor Excel-arrays en werkmapopslag](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
+Leer hoe u WRAPCOLS in C# gebruikt om Excel-arrays te manipuleren en de werkmap op te slaan met Aspose.Cells voor .NET.
 ### [Gegevens verwerken met ingebouwde functies in Excel](./processing-data-using-built-in-functions/)
 Ontdek hoe u gegevens kunt verwerken met behulp van ingebouwde functies in Excel met Aspose.Cells voor .NET. Volg een stapsgewijze handleiding voor eenvoudige automatisering.
 ### [Gegevens verwerken met R1C1 in Excel](./processing-data-using-r1c1/)
@@ -107,6 +109,10 @@ Leer hoe u WRAPCOLS gebruikt in C# voor geavanceerde Excel-automatisering met As
 Leer hoe je met Aspose.Cells voor .NET formules geforceerd berekent en lambda‑functies toepast in Excel via C#.
 ### [Hoe een Excel-werkmap te maken in C# met de EXPAND-functie](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
 Leer hoe je met Aspose.Cells voor .NET een Excel-werkmap maakt in C# met de EXPAND-functie in deze stapsgewijze tutorial.
+### [Hoe een Excel-werkmap maken met C# en een dynamische array‑formule](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
+Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap maakt in C# met een dynamische array‑formule.
+### [Hoe een Excel-werkmap te maken in C# en formules in te stellen](./how-to-create-excel-workbook-in-c-and-set-formulas/)
+Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap maakt in C# en formules instelt via een stapsgewijze handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

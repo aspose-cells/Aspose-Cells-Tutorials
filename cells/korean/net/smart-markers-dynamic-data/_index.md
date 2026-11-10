@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells의 동적 데이터를 위한 스마트 마커
@@ -130,17 +132,21 @@ Aspose.Cells를 사용하여 워크시트를 반복 복제하고 자동화된 Ex
 
 ### [Smart Markers를 사용하여 Excel 워크북을 프로그래밍 방식으로 만들기](./create-excel-workbook-programmatically-using-smart-markers/)
 
+## [Excel 시트 자동 이름 지정 – 시트를 손쉽게 생성하는 방법](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
+Aspose.Cells를 사용하여 데이터에 따라 Excel 시트 이름을 자동으로 지정하고, 여러 시트를 빠르게 생성하는 방법을 단계별로 안내합니다.
+
+## [스마트 마커로 워크북 만들기 – Aspose.Cells 가이드](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
+스마트 마커를 사용하여 워크북을 생성하는 방법을 단계별로 안내합니다. Aspose.Cells를 활용해 동적 Excel 보고서를 손쉽게 만들 수 있습니다.
+
+## [C#에서 스마트 마커 컬렉션 만들기 – 완전 가이드](./create-smart-marker-collection-in-c-complete-guide/)
+C#을 사용하여 스마트 마커 컬렉션을 완전하게 구현하는 방법을 단계별로 안내합니다.
 ### [C#로 Excel 워크북을 프로그래밍 방식으로 만들기](./how-to-create-excel-workbook-programmatically-with-c/)
 C#를 사용해 Aspose.Cells로 Excel 워크북을 프로그래밍 방식으로 생성하는 방법을 단계별로 안내합니다.
-
 ### [C#로 Excel 템플릿에서 워크시트 스마트 마커 확장](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
+### [Aspose.Cells 스마트 마커를 사용하여 JSON에서 Excel 만들기](./create-excel-from-json-with-aspose-cells-smart-marker/)
+JSON 데이터를 활용해 스마트 마커로 Excel 파일을 생성하는 방법을 단계별로 안내합니다.
+### [C#에서 JSON 배열을 위한 SmartMarkerOptions ArrayAsSingle 구성](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ## [Excel 시트 자동 이름 지정 – 시트를 손쉽게 생성하는 방법](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
 Aspose.Cells를 사용하여 데이터에 따라 Excel 시트 이름을 자동으로 지정하고, 여러 시트를 빠르게 생성하는 방법을 단계별로 안내합니다.
 
@@ -174,5 +180,4 @@ C#에서 SmartMarker를 사용해 마스터‑디테일 보고서를 만들고 E
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

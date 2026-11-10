@@ -91,10 +91,7 @@ Alors pourquoi ne pas saisir cette occasion d'améliorer vos compétences Excel�
 | [Créer un classeur Excel C# – Guide complet avec Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | Apprenez à créer un classeur Excel en C# avec Aspose.Cells grâce à ce guide complet étape par étape. |
 | [Créer un classeur Excel en C# – Guide complet de programmation](./create-excel-workbook-in-c-complete-programming-guide/) | Apprenez à créer un classeur Excel en C# avec Aspose.Cells pour .NET grâce à ce guide complet étape par étape. |  
 | [Créer un classeur Excel C# – Guide complet avec fonction d'extension](./create-excel-workbook-c-full-guide-with-expand-function/) | Apprenez à créer un classeur Excel en C# avec la fonction d'extension, étape par étape, grâce à Aspose.Cells pour .NET. |  
-
-
-
-
+| [Créer un classeur Excel et l'enregistrer dans un fichier en C#](./create-excel-workbook-and-save-it-to-file-in-c/) | Apprenez à créer un classeur Excel et à l'enregistrer dans un fichier en C# avec Aspose.Cells pour .NET. |
 
 
 
@@ -104,15 +101,12 @@ Alors pourquoi ne pas saisir cette occasion d'améliorer vos compétences Excel�
 
 
 
-
-
-
-
 | [Créer un nouveau classeur en C# – Guide étape par étape](./create-new-workbook-in-c-step-by-step-guide/) | Apprenez à créer un nouveau classeur Excel en C# avec Aspose.Cells pour .NET grâce à ce guide détaillé étape par étape. |  
 | [Créer un nouveau classeur Excel en C# – Guide étape par étape](./create-new-excel-workbook-in-c-step-by-step-guide/) | Apprenez à créer un nouveau classeur Excel en C# avec Aspose.Cells pour .NET grâce à ce guide détaillé étape par étape. |
 | [Créer un nouveau classeur en C# – Ajouter une formule et enregistrer le fichier Excel](./create-new-workbook-in-c-add-formula-and-save-excel-file/) | Apprenez à créer un nouveau classeur, ajouter une formule et enregistrer le fichier Excel avec Aspose.Cells pour .NET. |
 | [Créer un classeur Excel C# – Générer un XLSX à partir de JSON](./create-excel-workbook-c-generate-xlsx-from-json/) | Apprenez à créer un classeur Excel en C# et à générer un fichier XLSX à partir de données JSON avec Aspose.Cells pour .NET. |  
-| [Créer un classeur Excel C# – Guide étape par étape pour écrire des dates et enregistrer en XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Apprenez à créer un classeur Excel en C#, écrire des dates et le sauvegarder au format XLSX avec Aspose.Cells pour .NET. |  
+| [Créer un classeur Excel C# – Guide étape par étape pour écrire des dates et enregistrer en XLSX](./create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/) | Apprenez à créer un classeur Excel en C#, écrire des dates et le sauvegarder au format XLSX avec Aspose.Cells pour .NET. |
+| [Créer un classeur Excel et ajouter une date à la feuille de calcul en C#](./create-excel-workbook-and-add-date-to-worksheet-in-c/) | Apprenez à créer un classeur Excel et à insérer une date dans une feuille de calcul avec Aspose.Cells pour .NET en C#. |
 | [Créer un classeur Excel en C# – Guide étape par étape](./create-excel-workbook-in-c-step-by-step-guide/) | Apprenez à créer un classeur Excel en C# avec Aspose.Cells pour .NET grâce à ce guide détaillé étape par étape. |
 | [Créer un classeur Excel C# – Guide étape par étape](./create-excel-workbook-c-step-by-step-guide/) | Apprenez à créer un classeur Excel en C# avec Aspose.Cells pour .NET grâce à ce guide détaillé étape par étape. |
 | [Comment créer un classeur en C# – Guide étape par étape](./how-to-create-workbook-in-c-step-by-step-guide/) | Apprenez à créer un classeur en C# avec Aspose.Cells pour .NET grâce à ce guide détaillé étape par étape. |

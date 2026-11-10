@@ -70,6 +70,10 @@
 เรียนรู้วิธีขยายอาร์เรย์ในไฟล์ Excel ด้วย Java อย่างละเอียด พร้อมตัวอย่างโค้ดต้นฉบับ
 ### [วิธีลบส่วนหัวของตารางใน Excel ด้วย Java – คู่มือเต็ม](./how-to-delete-table-header-in-excel-with-java-full-guide/)
 เรียนรู้วิธีลบส่วนหัวของตารางในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดต้นฉบับ
+### [ลบ Autofilter จาก Excel ด้วย Java – คู่มือฉบับสมบูรณ์](./remove-autofilter-from-excel-with-java-complete-guide/)
+เรียนรู้วิธีลบ Autofilter จากไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดต้นฉบับ
+### [วิธีใช้ Aspose.Cells: เพิ่มคุณสมบัติที่กำหนดเองและบันทึกเป็น XLSB](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
+เรียนรู้วิธีเพิ่มคุณสมบัติที่กำหนดเองให้ไฟล์ Excel แล้วบันทึกเป็นรูปแบบ XLSB ด้วย Aspose.Cells สำหรับ Java
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -93,15 +93,17 @@ Aspose.Cells for .NET を使用して、Excel ファイルの列幅をプログ�
 Aspose.Cells for .NET を使用すると、HTML エクスポート時に単一のシートのタブ名を簡単に設定できます。コード例を含むステップバイステップのガイドです。
 ### [HTML にフォントを埋め込む方法 – 完全 C# ガイド](./how-to-embed-fonts-in-html-complete-c-guide/)
 Aspose.Cells for .NET を使用して、HTML にフォントを埋め込み、表示を正確に保つ手順をステップバイステップで解説します。
+### [ワークブックを保存するときにHTMLにフォントを埋め込む方法](./how-to-embed-fonts-in-html-when-saving-a-workbook/)
+Aspose.Cells for .NET を使用して、ワークブックを保存する際に HTML にフォントを埋め込む手順を解説します。
 ### [Excel を HTML に保存 – 完全 C# ガイド](./save-excel-as-html-complete-c-guide/)
-Aspose.Cells for .NET を使用し、C# で Excel を HTML に完全に保存する手順を詳しく解説します。
+Aspose.Cells for .NET を使用し、フリーズペインを保持したまま Excel を HTML にエクスポートする完全な C# 手順を解説します。
 ### [Excel を HTML にエクスポートする際に凍結ペインを保持する方法（C#）](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
-Aspose.Cells for .NET を使用し、C# で Excel を HTML にエクスポートする際に凍結ペインを保持する方法をステップバイステップで解説します。
-
 ### [凍結ペインを保持しながら Excel を HTML にエクスポートする方法](./how-to-export-excel-to-html-while-preserving-frozen-panes/)
 Aspose.Cells for .NET を使用して、凍結ペインを保持したまま Excel を HTML にエクスポートする手順を解説します。
 
 ### [Excel を HTML にエクスポートする際にフォントを埋め込む – 完全 C# ガイド](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
+### [C# で凍結ペイン付きの xlsx を HTML にエクスポートする方法](./how-to-export-xlsx-to-html-with-frozen-panes-in-c/)
+Aspose.Cells for .NET を使用して、C# で凍結ペインを保持したまま xlsx ファイルを HTML に変換する手順を解説します。
 Aspose.Cells for .NET を使用して、Excel を HTML にエクスポートする際にフォントを埋め込む方法をステップバイステップで解説します。
 ### [HTML にフォントを埋め込む – C# で Excel を HTML に変換する](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
 Aspose.Cells for .NET を使用し、C# で Excel を HTML に変換する際にフォントを埋め込む手順をステップバイステップで解説します。
@@ -129,6 +131,17 @@ Aspose.Cells for .NET を使用して、C# で Excel テーブルを HTML に変
 Aspose.Cells for .NET を使用して、Excel を書式を保持したまま HTML にエクスポートする完全な手順を解説します。
 ### [Excel を HTML にエクスポートする – フリーズペインを保持する完全ガイド](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
 Aspose.Cells for .NET を使用して、Excel のフリーズペインを保持しながら HTML にエクスポートする方法を詳しく解説したステップバイステップ ガイドです。
+### [Excel を HTML にエクスポートする方法 – 完全プログラミングガイド](./how-to-export-excel-to-html-complete-programming-guide/)
+Aspose.Cells for .NET を使用して、Excel を HTML にエクスポートする完全なプログラミング手順を解説します。
+### [C# で HTML 保存オプションを作成する – 完全ガイド](./create-html-save-options-in-c-full-guide/)
+Aspose.Cells for .NET を使用し、C# で HTML 保存オプションを設定する方法をステップバイステップで解説します。
+### [Excel を HTML に保存する – エクスポートと変換の完全ガイド](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
+Aspose.Cells for .NET を使用して、Excel ファイルを HTML にエクスポートし、変換する手順を詳細に解説します。
+### [Aspose.Cells を使用して Excel を HTML に変換する際のフォント埋め込み方法](./how-to-embed-fonts-when-converting-excel-to-html-with-aspose/)
+このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して Excel を HTML に変換する際にフォントを埋め込む方法を解説します。
+
+### [wrapcols とフォントを埋め込んで Excel を HTML に保存する方法](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+Aspose.Cells for .NET で wrapcols を使用し、フォントを埋め込んで Excel を HTML にエクスポートする手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

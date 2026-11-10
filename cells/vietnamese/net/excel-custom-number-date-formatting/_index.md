@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Định dạng ngày tháng và số tùy chỉnh trong Excel
@@ -46,6 +48,8 @@ Hướng dẫn chi tiết cách áp dụng định dạng số tùy chỉnh khi 
 Hướng dẫn chi tiết cách ghi giá trị ngày và giờ vào tệp Excel bằng Aspose.Cells cho C#.
 ### [Tạo Workbook Excel trong C# – Áp dụng Định dạng Số Tùy chỉnh](./create-excel-workbook-in-c-apply-custom-number-format/)
 Tìm hiểu cách tạo workbook Excel trong C# và áp dụng định dạng số tùy chỉnh bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
+### [Cách tạo workbook Excel C# với định dạng số tùy chỉnh](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
+Hướng dẫn chi tiết cách tạo workbook Excel trong C# và áp dụng định dạng số tùy chỉnh bằng Aspose.Cells.
 ### [Cách phân tích ngày trong Excel với C# – Hướng dẫn đầy đủ](./how-to-parse-date-in-excel-with-c-complete-guide/)
 Tìm hiểu cách phân tích ngày trong Excel bằng C# và Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
 ### [Tạo workbook Excel với định dạng tùy chỉnh – Hướng dẫn C#](./create-excel-workbook-with-custom-format-c-guide/)
@@ -56,27 +60,15 @@ Hướng dẫn chi tiết cách phân tích ngày theo niên đại Nhật Bản
 Hướng dẫn tạo workbook Excel và xử lý ngày theo lịch Nhật Bản bằng C# với Aspose.Cells.
 ### [Phân tích DateTime với Niên hiệu Hoàng đế Nhật Bản bằng Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
 Hướng dẫn cách phân tích và xử lý DateTime dựa trên niên hiệu Hoàng đế Nhật Bản trong Excel bằng Aspose.Cells cho .NET.
+### [Cách chuyển đổi ngày theo niên đại Nhật Bản sang Dương lịch trong C#](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+Hướng dẫn chi tiết cách chuyển đổi ngày theo niên đại Nhật Bản sang Dương lịch trong C# bằng Aspose.Cells.
 ### [Cách áp dụng định dạng số tùy chỉnh trong Excel bằng C#](./how-to-apply-a-custom-number-format-excel-in-c/)
 Hướng dẫn chi tiết cách áp dụng định dạng số tùy chỉnh trong Excel bằng C# với Aspose.Cells.
 ### [Cách sử dụng CultureInfo lịch Nhật trong C# để ghi ngày vào Excel](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
 Hướng dẫn chi tiết cách sử dụng CultureInfo lịch Nhật trong C# để ghi ngày vào tệp Excel bằng Aspose.Cells.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Đặt Định dạng Tùy chỉnh cho Ô trong C# – Hướng dẫn Toàn diện về Ghi & Đọc Ngày trong Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 Khám phá cách thiết lập định dạng tùy chỉnh cho ô và đọc/ghi ngày tháng trong Excel bằng Aspose.Cells cho .NET.
-
-
-
-
-
-
-
 
 ### [Chuyển đổi chuỗi thành DateTime trong C# – Ghi và Đọc ngày trong Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 Hướng dẫn cách chuyển đổi chuỗi thành DateTime và thao tác ghi, đọc ngày trong Excel bằng Aspose.Cells cho .NET.
@@ -100,6 +92,6 @@ Tìm hiểu cách chuyển đổi ngày theo lịch Nhật trong C# bằng Aspos
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

@@ -36,6 +36,8 @@ Excel 시트에 여러 개의 명명된 범위가 분산되어 있고, 처리를
 Aspose.Cells for .NET을 활용한 간편한 가이드를 통해 명명된 범위에 접근하여 Excel의 강력한 기능을 활용하세요. 데이터 관리에 안성맞춤입니다.
 ### [Excel에서 특정 명명된 범위에 액세스](./access-specific-named-range/)
 이 포괄적인 단계별 튜토리얼과 샘플 코드를 통해 Aspose.Cells for .NET을 사용하여 Excel에서 특정 명명된 범위에 액세스하는 방법을 알아보세요.
+### [C#를 사용하여 Excel에서 명명된 범위 정의 – 워크북 만들기](./define-named-range-in-excel-with-c-create-workbook/)
+C# 코드로 워크북을 생성하고 명명된 범위를 정의하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

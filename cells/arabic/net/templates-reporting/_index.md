@@ -71,6 +71,10 @@
 
 ### [كيفية توسيع المصفوفة في Excel وتعبئة قالب](./how-to-expand-array-in-excel-and-populate-a-template/)
 تعلم كيفية توسيع المصفوفة في Excel وتعبئة القالب باستخدام Aspose.Cells للـ .NET.
+### [تحويل مجموعة البيانات إلى Excel وتعبئة قالب Excel](./convert-dataset-to-excel-and-populate-an-excel-template)
+تعلم كيفية تحويل بياناتك إلى ملف Excel وتعبئتها في قالب باستخدام Aspose.Cells لـ .NET.
+
+### [كيفية إنشاء ملف Excel من قالب وإنشاء أوراق متكررة](./how-to-create-excel-from-template-and-generate-repeated-shee)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
