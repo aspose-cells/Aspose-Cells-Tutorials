@@ -98,6 +98,8 @@ Aspose.Cells for Java を利用して、既存のピボットテーブルをコ�
 Aspose.Cells を使用して、ピボットテーブルの範囲を別のワークブックにコピーする方法を学びます。
 ### [JavaでExcelブック間のピボットテーブルをコピーする方法](./how-to-copy-pivot-tables-between-excel-workbooks-in-java/)
 Aspose.Cells for Java を使用して、Excel ブック間でピボットテーブルをコピーし、書式やデータを保持する方法を学びます。
+### [JavaでExcelシートを複製し、ピボットテーブルを保持する方法](./how-to-duplicate-an-excel-sheet-and-keep-pivot-tables-intact/)
+Aspose.Cells for Java を使用して、Excel シートをコピーし、ピボットテーブルと書式をそのまま保持する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

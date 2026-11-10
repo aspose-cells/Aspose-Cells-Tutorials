@@ -88,6 +88,8 @@ Erfahren Sie, wie Sie Pivot-Tabellen in Java mit Aspose.Cells kopieren und in Ih
 Erfahren Sie, wie Sie Pivot-Tabellen zwischen Excel-Arbeitsmappen mit Aspose.Cells für Java kopieren.
 ### [Wie man eine Pivot-Tabelle zwischen Arbeitsblättern in Java kopiert](./how-to-copy-a-pivot-table-between-worksheets-in-java/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Pivot-Tabellen zwischen Arbeitsblättern kopieren und nahtlos einbinden.
+### [Wie man ein Excel-Arbeitsblatt dupliziert und Pivot-Tabellen intakt behält in Java](./how-to-duplicate-an-excel-sheet-and-keep-pivot-tables-intact/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java ein Excel-Arbeitsblatt duplizieren und dabei Pivot-Tabellen unverändert erhalten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
