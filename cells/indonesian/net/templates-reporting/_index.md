@@ -69,6 +69,9 @@ Pelajari cara memproses template Excel dan memberi nama sheet secara otomatis me
 ### [Cara mengekspor data ke Excel menggunakan templat C# – panduan langkah demi langkah](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
 Pelajari cara mengekspor data ke file Excel menggunakan templat C# dengan Aspose.Cells, langkah demi langkah.
 ### [Cara memperluas array di Excel dan mengisi template](./how-to-expand-array-in-excel-and-populate-a-template)
+### [Mengonversi dataset ke Excel dan mengisi template Excel](./convert-dataset-to-excel-and-populate-an-excel-template)
+
+### [Cara membuat Excel dari templat dan menghasilkan lembar berulang](./how-to-create-excel-from-template-and-generate-repeated-shee)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

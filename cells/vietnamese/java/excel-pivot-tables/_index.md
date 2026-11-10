@@ -46,6 +46,8 @@ Tìm hiểu cách tùy chỉnh kiểu bảng trục trong Aspose.Cells cho Java 
 Hướng dẫn sao chép Bảng Pivot trong Java, giữ nguyên dữ liệu và xuất ra file PPTX.
 ### [Cách sao chép bảng Pivot trong Java – Hướng dẫn đầy đủ Aspose.Cells](./how-to-copy-pivot-table-in-java-complete-aspose-cells-guide/)
 Hướng dẫn sao chép Pivot Table trong Aspose.Cells for Java, giúp bạn tái sử dụng và chia sẻ báo cáo một cách nhanh chóng và hiệu quả.
+### [Cách sao chép bảng Pivot giữa các trang tính trong Java](./how-to-copy-a-pivot-table-between-worksheets-in-java/)
+Hướng dẫn chi tiết cách sao chép bảng Pivot từ một worksheet sang worksheet khác trong Java bằng Aspose.Cells.
 ### [Tạo PNG từ Pivot trong Java – Hướng dẫn chi tiết từng bước](./create-png-from-pivot-in-java-full-step-by-step-guide/)
 Hướng dẫn chi tiết cách xuất Pivot Table thành ảnh PNG trong Java bằng Aspose.Cells.
 ### [Sao chép Bảng Pivot Excel – Hướng dẫn từng bước bằng Java](./copy-pivot-table-excel-step-by-step-guide-using-java/)
@@ -57,7 +59,7 @@ Tìm hiểu cách sao chép vùng dữ liệu và Bảng Pivot trong Java bằng
 ### [Cách xuất Bảng Pivot thành PNG – Hướng dẫn Java chi tiết](./how-to-export-pivot-table-as-png-complete-java-guide/)
 Tìm hiểu cách xuất Bảng Pivot dưới dạng PNG trong Java bằng Aspose.Cells để tạo báo cáo hình ảnh.
 ### [Cách sao chép bảng Pivot trong Java bằng Aspose.Cells](./how-to-copy-pivot-table-in-java-using-aspose-cells/)
-Hướng dẫn sao chép Pivot Table trong Java bằng Aspose.Cells để tái sử dụng và chia sẻ báo cáo nhanh chóng.
+### [Cách sao chép bảng Pivot trong Java bằng Aspose.Cells – hướng dẫn chi tiết từng bước](./how-to-copy-pivot-table-in-java-with-aspose-cells-step-by-st/)
 ### [Sao chép Bảng Pivot giữa các Workbook – Hướng dẫn Java từng bước](./copy-pivot-table-between-workbooks-step-by-step-java-guide/)
 Hướng dẫn chi tiết cách sao chép Bảng Pivot từ một workbook sang workbook khác bằng Aspose.Cells for Java.
 ### [Tạo Workbook mới trong Java – Hướng dẫn đầy đủ sao chép Bảng Pivot](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
@@ -71,6 +73,18 @@ Hướng dẫn sao chép vùng dữ liệu và giữ nguyên bảng Pivot trong 
 Hướng dẫn chi tiết cách sao chép bảng Pivot trong Excel bằng Java, giúp bạn nhân bản và tái sử dụng báo cáo một cách dễ dàng.
 ### [Xuất hình ảnh bảng Pivot Excel sang PNG bằng Java](./excel-pivot-table-image-export-to-png-with-java/)
 Hướng dẫn xuất bảng Pivot Excel thành hình ảnh PNG bằng Aspose.Cells for Java, giúp chia sẻ và hiển thị dữ liệu dễ dàng.
+### [Tạo Workbook mới và sao chép Pivot Table trong Java – Hướng dẫn chi tiết từng bước](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
+Hướng dẫn chi tiết cách tạo workbook mới và sao chép Pivot Table bằng Aspose.Cells for Java.
+### [Sao chép Bảng Pivot trong Java với Aspose.Cells – Hướng dẫn đầy đủ](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
+Hướng dẫn chi tiết cách sao chép Bảng Pivot trong Java bằng Aspose.Cells, giúp bạn nhân bản và tái sử dụng báo cáo một cách nhanh chóng.
+### [Sao chép bảng Pivot trong Java – hướng dẫn từng bước sử dụng Aspose.Cells](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
+Hướng dẫn chi tiết cách sao chép bảng Pivot trong Java bằng Aspose.Cells, giúp tái sử dụng và cập nhật dữ liệu nhanh chóng.
+### [Cách sao chép Pivot trong Aspose.Cells – sao chép phạm vi vào workbook](./how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook/)
+Hướng dẫn sao chép Pivot Table sang workbook khác bằng Aspose.Cells.
+### [Sao chép Bảng Pivot trong Java bằng Aspose.Cells](./how-to-copy-a-pivot-table-in-java-using-aspose-cells/)
+Hướng dẫn chi tiết cách sao chép Bảng Pivot trong Java sử dụng Aspose.Cells.
+### [Cách sao chép bảng Pivot giữa các workbook Excel trong Java](./how-to-copy-pivot-tables-between-excel-workbooks-in-java/)
+Hướng dẫn sao chép bảng Pivot giữa các workbook Excel bằng Java.
 ### [Cách sao chép một sheet Excel và giữ nguyên các bảng Pivot trong Java](./how-to-duplicate-an-excel-sheet-and-keep-pivot-tables-intact/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

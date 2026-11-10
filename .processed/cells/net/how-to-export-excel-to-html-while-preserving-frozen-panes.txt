@@ -1,0 +1,7 @@
+Title: How to export Excel to HTML while preserving frozen panes
+Slug: how-to-export-excel-to-html-while-preserving-frozen-panes
+Category: exporting-excel-to-html-with-advanced-options
+ProcessedDate: 2026-10-10T23:57:46.026163
+SourceRepo: AI Search API
+Keywords: export excel to html, convert excel to html, save workbook as html, preserve freeze panes
+PRNumber: 188

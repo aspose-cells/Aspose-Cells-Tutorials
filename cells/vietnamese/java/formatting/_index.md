@@ -41,6 +41,9 @@ Tìm hiểu cách nâng cao biểu đồ Excel của bạn bằng cách áp dụ
 ### [Tự động điều chỉnh cột Excel trong Java bằng Aspose.Cells](./aspose-cells-java-auto-fit-excel-columns-guide/)
 Tìm hiểu cách tự động điều chỉnh độ rộng cột trong Excel bằng Aspose.Cells for Java. Hướng dẫn này bao gồm tải sổ làm việc, tự động điều chỉnh cột và lưu tệp hiệu quả.
 
+### [Cách sử dụng WRAPCOLS trong Aspose.Cells – Ví dụ Java đầy đủ](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
+Hướng dẫn chi tiết cách áp dụng thuộc tính WRAPCOLS trong Aspose.Cells for Java để tự động điều chỉnh độ rộng cột dựa trên nội dung ô.
+
 ### [Tự động điều chỉnh các hàng trong Excel bằng Aspose.Cells cho Java: Hướng dẫn toàn diện](./aspose-cells-java-auto-fit-rows-excel/)
 Tìm hiểu cách sử dụng Aspose.Cells for Java để tự động điều chỉnh chiều cao hàng trong sổ làm việc Excel, đảm bảo dữ liệu được trình bày gọn gàng và dễ đọc.
 
@@ -63,6 +66,8 @@ Tìm hiểu cách xử lý định dạng số tùy chỉnh trong sổ làm vi�
 Tìm hiểu cách thiết lập và tùy chỉnh định dạng số trong tệp Excel bằng Aspose.Cells cho Java, kèm ví dụ mã và mẹo tối ưu.
 ### [Đặt Định dạng Số Tùy chỉnh trong Excel bằng Java – Hướng dẫn đầy đủ](./set-custom-number-format-in-excel-with-java-complete-guide/)
 Tìm hiểu cách thiết lập định dạng số tùy chỉnh cho ô Excel bằng Aspose.Cells cho Java, bao gồm các ví dụ mã và hướng dẫn chi tiết.
+### [Áp dụng Định dạng Số trong Excel bằng Java – Hướng dẫn đầy đủ Aspose.Cells](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
+Tìm hiểu cách áp dụng định dạng số trong tệp Excel bằng Aspose.Cells cho Java. Hướng dẫn chi tiết từng bước, ví dụ mã và mẹo tối ưu.
 
 ### [Làm chủ trình bày dữ liệu trong Excel: Định dạng số và ngày tùy chỉnh với Aspose.Cells cho Java](./aspose-cells-java-data-formatting-excel/)
 Tìm hiểu cách áp dụng định dạng số và kiểu ngày tùy chỉnh bằng Aspose.Cells cho Java, cải thiện khả năng trình bày dữ liệu trong bảng tính Excel.
@@ -200,7 +205,7 @@ Tìm hiểu cách hợp nhất và định dạng ô trong Excel bằng Aspose.C
 Làm chủ việc ngắt dòng văn bản trong các ô Excel với Aspose.Cells for Java. Tìm hiểu cách thiết lập, triển khai các kiểu ngắt dòng văn bản và tối ưu hóa cách trình bày ô.
 
 ### [Làm chủ hướng văn bản trong ô Excel với Aspose.Cells cho Java: Hướng dẫn toàn diện](./mastering-aspose-cells-java-text-direction/)
-Tìm hiểu cách thiết lập hướng văn bản trong ô Excel bằng Aspose.Cells for Java. Hướng dẫn này bao gồm cách tạo sổ làm việc, thiết lập giá trị ô và lưu tệp.
+Tìm hiểu cách thiết lập hướng văn bản trong ô Excel bằng Aspose.Cells cho Java. Hướng dẫn này bao gồm cách tạo sổ làm việc, thiết lập giá trị ô và lưu tệp.
 
 ### [Tạo và định dạng sổ làm việc chính trong Java bằng Aspose.Cells](./mastering-aspose-cells-java-workbook-creation-styling/)
 Tìm hiểu cách tạo và định dạng sổ làm việc Excel theo chương trình với Aspose.Cells for Java. Tự động hóa trình bày dữ liệu của bạn một cách dễ dàng.
@@ -248,6 +253,15 @@ Làm chủ kiểu dáng ô Excel và thêm siêu liên kết vào ứng dụng J
 Hướng dẫn chi tiết cách tạo sổ làm việc Excel và áp dụng định dạng động bằng Aspose.Cells cho Java.
 ### [Cách áp dụng kiểu khi chuyển DataTable sang Excel – Hướng dẫn đầy đủ Java](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 Tìm hiểu cách áp dụng các kiểu định dạng khi chuyển đổi DataTable sang tệp Excel bằng Aspose.Cells cho Java.
+### [Tạo Workbook Excel có Định dạng trong Java – Hướng dẫn đầy đủ](./create-styled-excel-workbook-in-java-complete-guide/)
+Hướng dẫn chi tiết cách tạo và áp dụng các kiểu định dạng cho Workbook Excel bằng Aspose.Cells for Java, bao gồm ví dụ mã và mẹo tối ưu.
+### [Cách tạo workbook Excel với định dạng tiền tệ và phông chữ đậm trong Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+Hướng dẫn tạo sổ làm việc Excel, áp dụng định dạng tiền tệ và phông chữ đậm bằng Aspose.Cells cho Java.
+### [Tạo sổ làm việc Excel bằng Java và áp dụng định dạng số cho cột](./create-excel-workbook-java-and-apply-column-number-formats/)
+Hướng dẫn tạo sổ làm việc Excel và áp dụng định dạng số cho cột bằng Aspose.Cells cho Java.
+
+### [Cách giới hạn chữ số có nghĩa trong Excel bằng Java](./how-to-limit-significant-digits-excel-using-java/)
+Hướng dẫn cách thiết lập giới hạn chữ số có nghĩa trong ô Excel bằng Aspose.Cells cho Java.
 
 ## Tài nguyên bổ sung
 

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 行列管理
@@ -76,6 +78,8 @@
 了解如何在保留表格標題的情況下，使用 Aspose.Cells for .NET 刪除 Excel 工作表中的多行。
 ### [如何使用 Aspose.Cells 刪除 Excel 表格中的行，同時保留標題列](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
 了解如何在保留標題列的情況下，使用 Aspose.Cells for .NET 刪除 Excel 表格中的資料行。
+### [從 Excel 表格中刪除行 – 完整 C# 教學](./delete-rows-from-excel-table-complete-c-guide/)
+本完整 C# 教學說明如何在 Excel 表格中刪除指定的行，包含程式碼範例與注意事項。
 ### [在 Aspose.Cells .NET 中插入列](./insert-column-aspose-cells/)
 了解如何使用 Aspose.Cells for .NET 在 Excel 中插入列。按照我們簡單的分步指南無縫添加新列。非常適合 .NET 開發人員。
 ### [在 Aspose.Cells .NET 中插入一行](./insert-row-aspose-cells/)
@@ -90,15 +94,13 @@
 了解如何使用 Aspose.Cells for .NET 在 C# 中載入 Excel 檔案，並刪除或移除特定的行。
 ### [如何在 GridJs 中插入行 – 高效新增多行](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 
-
-
-
-
-
-
+### [使用 C# 建立 Excel 工作簿並將欄位轉置為列](./create-excel-workbook-c-and-transpose-column-to-row/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中建立 Excel 工作簿，並將欄位資料轉置為列。
 
 ### [在 Aspose.Cells .NET 中使用 C# 刪除 Excel 表格的行](./delete-rows-excel-table-with-c-step-by-step-guide/)
 了解如何使用 C# 及 Aspose.Cells for .NET 在 Excel 表格中刪除行的完整步驟說明。
+### [使用 C# 刪除 Excel 表格中的行](./how-to-delete-rows-from-excel-table-using-c/)
+了解如何使用 C# 及 Aspose.Cells for .NET 從 Excel 表格中刪除多行資料的步驟說明。
 ### [使用 C# 在 Excel 中插入行 – 逐步指南](./insert-rows-in-excel-with-c-step-by-step-guide/)
 了解如何使用 C# 在 Excel 中插入多行的完整步驟，快速提升資料處理效率。
 ### [如何使用 WRAPCOLS：在 C# 中建立雙欄佈局](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
@@ -113,6 +115,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

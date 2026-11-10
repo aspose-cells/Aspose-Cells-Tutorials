@@ -80,6 +80,8 @@ Transformeer de tekstrichting in Excel met Aspose.Cells voor .NET. Volg onze sta
 Leer hoe je lange tekst in Excel-cellen kunt omzetten met Aspose.Cells voor .NET in deze gebruiksvriendelijke handleiding. Transformeer je spreadsheets moeiteloos.
 ### [Hoe een Excel-werkmap maken in C# met aangepaste opmaak en opslaan als XLSX](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
 Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap in C# maakt, aangepaste opmaak toepast en opslaat als XLSX-bestand.
+### [Excel-bestand maken in C# – cellen opmaken en valuta-indeling instellen](./create-excel-file-c-style-cells-and-set-currency-format/)
+Leer hoe u met Aspose.Cells voor .NET een Excel-bestand maakt in C#, cellen opmaakt en een valuta-opmaak toepast.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

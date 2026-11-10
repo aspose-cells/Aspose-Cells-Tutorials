@@ -91,6 +91,9 @@ weight: 18
 
 ### [जावा में लोकेल के साथ तिथि पार्स करें – पूर्ण चरण‑दर‑चरण गाइड](./parse-date-with-locale-in-java-complete-step-by-step-guide/)
 
+### [Java में wrapcols का उपयोग कैसे करें – Excel में एरे को पुनः आकार दें](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
+Java में wrapcols का उपयोग करके Excel में एरे को पुनः आकार देना सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.Cells for Java दस्तावेज़ीकरण](https://docs.aspose.com/cells/java/)

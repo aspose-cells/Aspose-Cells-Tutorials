@@ -23,6 +23,8 @@
 
 {{< tutorial-card link="./how-to-copy-pivot-table-in-c-complete-programming-guide/" title="Πώς να αντιγράψετε έναν Πίνακα Pivot σε C# – Πλήρης Οδηγός Προγραμματισμού" imgSrc="./how-to-copy-pivot-table-in-c-complete-programming-guide/images/thumb.png" >}}
 
+{{< tutorial-card link="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/" title="Αντιγραφή πίνακα Pivot σε νέο βιβλίο εργασίας, εξαγωγή σχήματος σε PowerPoint" imgSrc="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

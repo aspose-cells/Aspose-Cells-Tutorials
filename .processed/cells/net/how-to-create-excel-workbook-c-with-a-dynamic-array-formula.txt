@@ -1,0 +1,7 @@
+Title: How to create Excel workbook C# with a dynamic array formula
+Slug: how-to-create-excel-workbook-c-with-a-dynamic-array-formula
+Category: excel-formulas-and-calculation-options
+ProcessedDate: 2026-10-01T11:49:56.044082
+SourceRepo: AI Search API
+Keywords: create excel workbook c#, dynamic array formula example, write excel formula c#
+PRNumber: 174

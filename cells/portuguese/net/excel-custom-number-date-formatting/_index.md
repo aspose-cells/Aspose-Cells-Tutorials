@@ -60,6 +60,10 @@ Aprenda a aplicar formatos numéricos em planilhas Excel usando Aspose.Cells par
 
 ### [Analisar DateTime com o reinado do imperador japonês usando Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
 Aprenda a analisar valores de data e hora que incluem o reinado do imperador japonês usando Aspose.Cells em .NET.
+### [Como converter data da era japonesa para o calendário gregoriano em C#](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+Aprenda a converter datas da era japonesa para o calendário gregoriano usando C# e Aspose.Cells.
+### [Como criar pasta de trabalho Excel em C# com formatação numérica personalizada](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
+Aprenda a criar uma pasta de trabalho Excel em C# aplicando formatação numérica personalizada usando Aspose.Cells.
 
 
 

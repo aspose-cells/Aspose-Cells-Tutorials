@@ -110,6 +110,9 @@ A code tutorial for Aspose.Words Java
 ### [แยกวิเคราะห์วันที่ด้วย Locale ใน Java – คู่มือขั้นตอน‑โดย‑ขั้นตอนเต็มรูปแบบ](./parse-date-with-locale-in-java-complete-step-by-step-guide/)
 เรียนรู้วิธีแปลงสตริงวันที่ตาม Locale ใน Java ด้วย DateTimeFormatter อย่างละเอียดในคู่มือขั้นตอน‑โดย‑ขั้นตอน
 
+### [วิธีใช้ wrapcols ใน Java – ปรับรูปร่างอาร์เรย์ใน Excel](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
+เรียนรู้วิธีใช้เมธอด wrapcols ของ Aspose.Cells for Java เพื่อปรับรูปร่างอาร์เรย์ใน Excel อย่างมีประสิทธิภาพ
+
 ## Additional Resources
 
 - [เอกสาร Aspose.Cells for Java](https://docs.aspose.com/cells/java/)

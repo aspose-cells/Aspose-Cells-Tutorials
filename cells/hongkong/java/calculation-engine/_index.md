@@ -69,6 +69,9 @@ Aspose.Words Java 的程式碼教學
 ### [如何在 Java 中使用 Aspose.Cells 強制公式計算](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
 說明如何使用 Aspose.Cells for Java 強制重新計算公式。
 
+### [使用 Java Aspose.Cells 重新計算所有 Excel 公式](./recalculate-all-formulas-excel-with-java-aspose-cells/)
+示範如何使用 Aspose.Cells for Java 重新計算工作簿中的所有公式。
+
 ## 其他資源
 - [Aspose.Cells for Java 文件](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells for Java API 參考](https://reference.aspose.com/cells/java/)

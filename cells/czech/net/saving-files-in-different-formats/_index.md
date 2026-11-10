@@ -64,6 +64,8 @@ Naučte se, jak snadno převést sešity aplikace Excel do formátu CSV pomocí 
 Naučte se, jak snadno ukládat soubory XLS pomocí Aspose.Cells pro .NET. Podrobný návod s praktickými příklady a často kladenými dotazy.
 ### [Uložit soubor XLSX](./save-xlsx-file/)
 Zjistěte, jak ukládat soubory XLSX pomocí Aspose.Cells pro .NET s tímto podrobným návodem. Zjednodušte si správu Excelu bez námahy.
+### [Jak dokončit tutoriál flat OPC pomocí Aspose.Cells v C#](./how-to-complete-a-flat-opc-tutorial-with-aspose-cells-in-c/)
+Naučte se, jak dokončit flat OPC tutoriál pomocí Aspose.Cells v C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

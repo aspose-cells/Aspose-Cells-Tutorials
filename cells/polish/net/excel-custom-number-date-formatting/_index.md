@@ -40,6 +40,8 @@ Poznaj pełny przewodnik po tworzeniu i stosowaniu niestandardowych formatów li
 Dowiedz się, jak formatować liczby z separatorem w C# przy użyciu Aspose.Cells, krok po kroku.
 ### [Formatowanie daty ISO z Excela – Kompletny przewodnik C#](./format-date-iso-from-excel-complete-c-guide/)
 Dowiedz się, jak konwertować daty w formacie ISO w Excelu przy użyciu Aspose.Cells i C#, krok po kroku.
+### [Zastosuj niestandardowy format liczbowy w eksporcie arkusza C# – przewodnik krok po kroku](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+Dowiedz się, jak zastosować niestandardowy format liczbowy podczas eksportu arkusza w C# przy użyciu Aspose.Cells for .NET.
 ### [Zastosuj niestandardowy format liczbowy w eksporcie arkusza C# – przewodnik krok po kroku](./apply-custom-number-format-in-c-spreadsheet-export-step-s/)
 Dowiedz się, jak zastosować niestandardowy format liczbowy podczas eksportu arkusza w C# przy użyciu Aspose.Cells for .NET.
 ### [Zapis daty i czasu do Excela – Kompletny przewodnik dla programistów C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
@@ -52,6 +54,10 @@ Dowiedz się, jak parsować daty w Excelu przy użyciu C# i Aspose.Cells, krok p
 Dowiedz się, jak w C# utworzyć skoroszyt Excel i zastosować niestandardowe formatowanie komórek przy użyciu Aspose.Cells.
 ### [Parsowanie daty japońskiej ery w C# przy użyciu Aspose.Cells – pełny przewodnik](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Dowiedz się, jak w C# parsować daty w japońskim formacie ery przy użyciu Aspose.Cells, krok po kroku.
+### [Jak utworzyć skoroszyt Excel w C# z niestandardowym formatowaniem liczb](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
+Dowiedz się, jak w C# utworzyć skoroszyt Excel i zastosować własne formaty liczb przy użyciu Aspose.Cells.
+### [Jak przekonwertować datę w erze japońskiej na kalendarz gregoriański w C#](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+Dowiedz się, jak przekształcić daty w japońskiej erze na daty gregoriańskie w C# przy użyciu Aspose.Cells.
 
 
 

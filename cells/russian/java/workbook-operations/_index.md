@@ -29,6 +29,9 @@
 ### [Aspose.Cells Java: создание и сохранение рабочих книг Excel — пошаговое руководство](./aspose-cells-java-create-save-excel-workbooks/)
 Узнайте, как автоматизировать создание и управление книгами Excel с помощью Aspose.Cells для Java. В этом руководстве рассматривается создание экземпляров, сохранение и настройка свойств страницы.
 
+### [Генерация файла Excel Java – Полное пошаговое руководство](./generate-excel-file-java-complete-step-by-step-guide/)
+Узнайте, как генерировать файлы Excel в Java с помощью Aspose.Cells, следуя полному пошаговому руководству.
+
 ### [Aspose.Cells Java: отображение версии и создание общей рабочей книги](./aspose-cells-java-display-version-create-shared-workbook/)
 Учебник по коду для Aspose.Words Java
 
@@ -224,8 +227,11 @@
 ### [Создание рабочей книги Excel в Java — Полное пошаговое руководство](./create-excel-workbook-java-complete-step-by-step-guide/)
 Узнайте, как создать рабочую книгу Excel с нуля в Java, используя Aspose.Cells, с полными примерами кода и пошаговыми инструкциями.
 
+### [Создание рабочей книги Excel в Java: обработка дат японской эры](./create-excel-workbook-java-handle-japanese-era-dates/)
+Узнайте, как создавать рабочие книги Excel в Java с поддержкой дат японской эры.
+
 ### [Как создавать и объединять книги Excel с помощью Aspose.Cells для Java | Полное руководство](./create-merge-excel-workbooks-aspose-cells-java/)
-Узнайте, как эффективно создавать и объединять книги Excel с помощью Aspose.Cells для Java с помощью этого всеобъемлющего руководства. Оптимизируйте операции с книгами сегодня.
+Узнайте, как эффективно создавать и объединять книги Excel с помощью Aspose.Cells для Java. Оптимизируйте операции с книгами сегодня.
 
 ### [Руководство по созданию и сохранению рабочих книг Excel с использованием Aspose.Cells в Java](./create-save-excel-workbook-aspose-cells-java/)
 Узнайте, как создавать, изменять и сохранять книги Excel с помощью мощной библиотеки Aspose.Cells для Java. Это пошаговое руководство охватывает все, от настройки до внедрения.
@@ -487,6 +493,9 @@
 ### [Как сохранить файлы Excel в различных форматах с помощью Aspose.Cells Java](./save-excel-files-aspose-cells-java/)
 Узнайте, как легко сохранять файлы Excel в нескольких форматах с помощью Aspose.Cells для Java. Это руководство охватывает XLSX, PDF, HTML и многое другое.
 
+### [Как сохранить файлы xlsb с пользовательскими свойствами с помощью Aspose.Cells для Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+Узнайте, как сохранять файлы xlsb с пользовательскими свойствами, используя Aspose.Cells для Java.
+
 ### [Как установить версию документа Excel с помощью Aspose.Cells для Java](./set-excel-version-aspose-cells-java/)
 Узнайте, как устанавливать и управлять свойствами документа, такими как управление версиями в файлах Excel, с помощью Aspose.Cells для Java. Следуйте этому пошаговому руководству для эффективных операций с рабочей книгой.
 
@@ -502,6 +511,13 @@
 Узнайте, как создать новую рабочую книгу и скопировать диапазон из другой книги с помощью Aspose.Cells для Java.
 ### [Java: создание файла Excel, добавление пользовательского свойства и сохранение в формате XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
 Узнайте, как создать файл Excel в Java, добавить пользовательское свойство и сохранить его в формате XLSB с помощью Aspose.Cells.
+### [Создание новой рабочей книги Java — полное руководство](./create-new-workbook-java-complete-guide/)
+Узнайте, как создать новую рабочую книгу в Java с помощью Aspose.Cells, включая настройку, сохранение и лучшие практики.
+
+### [Использование Lambda-функции Java для создания примера рабочей книги Excel](./use-lambda-function-java-to-create-excel-workbook-example/)
+### [Создание рабочей книги Excel с пользовательскими свойствами в Java — пошаговое руководство](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+### [Как получить пользовательское свойство Java с помощью Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)
+Узнайте, как получить пользовательское свойство из книги Excel с помощью Aspose.Cells для Java.
 
 ## Дополнительные ресурсы
 

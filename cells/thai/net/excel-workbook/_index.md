@@ -91,13 +91,7 @@ Power Query เป็นเครื่องมือสำคัญในก�
 - [สร้างสมุดงาน Excel ด้วย C# – คู่มือเต็มสำหรับการใช้ EXPAND](./create-excel-workbook-with-c-complete-guide-to-using-expand/) | เรียนรู้วิธีสร้างสมุดงาน Excel ด้วย C# และใช้ฟีเจอร์ EXPAND อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET  
 - [สร้างสมุดงาน Excel ด้วย C# – คู่มือฉบับสมบูรณ์กับ Aspose.Cells](./create-excel-workbook-c-complete-guide-with-aspose-cells/) | เรียนรู้วิธีสร้างสมุดงาน Excel ด้วย C# อย่างละเอียดโดยใช้ Aspose.Cells สำหรับ .NET พร้อมตัวอย่างโค้ดครบถ้วน  
 - [สร้างสมุดงาน Excel ด้วย C# – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./create-excel-workbook-in-c-complete-programming-guide/) | เรียนรู้วิธีสร้างสมุดงาน Excel ด้วย C# อย่างละเอียดโดยใช้ Aspose.Cells สำหรับ .NET  
-
-
-
-
-
-
-
+- [สร้างสมุดงาน Excel และบันทึกลงไฟล์ใน C#](./create-excel-workbook-and-save-it-to-file-in-c/) | เรียนรู้วิธีสร้างสมุดงาน Excel และบันทึกเป็นไฟล์โดยใช้ C# กับ Aspose.Cells  
 
 - [สร้างสมุดงานใหม่ – แปลง Markdown เป็น Excel ด้วย C#](./create-new-workbook-convert-markdown-to-excel-in-c/) | เรียนรู้วิธีสร้างสมุดงานใหม่และแปลงไฟล์ Markdown เป็น Excel ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET  
 | [สร้างสมุดงาน Excel ด้วย C# – สร้างไฟล์ XLSX จาก JSON](./create-excel-workbook-c-generate-xlsx-from-json/) | เรียนรู้วิธีสร้างไฟล์ Excel (XLSX) จากข้อมูล JSON ด้วย C# และ Aspose.Cells สำหรับ .NET ผ่านขั้นตอนที่ชัดเจน |
@@ -106,7 +100,8 @@ Power Query เป็นเครื่องมือสำคัญในก�
 - [สร้างสมุดงาน Excel ด้วย C# – คู่มือขั้นตอนโดยละเอียด](./create-excel-workbook-in-c-step-by-step-guide/) | เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# อย่างละเอียดโดยใช้ Aspose.Cells สำหรับ .NET  
 - [วิธีสร้างสมุดงานใน C# – คู่มือทีละขั้นตอน](./how-to-create-workbook-in-c-step-by-step-guide/) | เรียนรู้วิธีสร้างสมุดงาน Excel ด้วย C# อย่างละเอียดด้วยขั้นตอนง่ายๆ  
 - [สร้างไฟล์ Excel ด้วยโปรแกรม C# – คู่มือทีละขั้นตอน](./create-excel-file-programmatically-with-c-step-by-step-guide/) | เรียนรู้วิธีสร้างไฟล์ Excel อย่างเป็นโปรแกรมด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET ผ่านคู่มือทีละขั้นตอน  
-- [สร้างสมุดงานใน C# – เขียนค่าและจัดรูปแบบตัวเลข](./how-to-create-workbook-in-c-write-value-format-number/) | เรียนรู้วิธีสร้างสมุดงานใน C# พร้อมเขียนค่าและจัดรูปแบบตัวเลขด้วย Aspose.Cells สำหรับ .NET
+- [สร้างสมุดงานใน C# – เขียนค่าและจัดรูปแบบตัวเลข](./how-to-create-workbook-in-c-write-value-format-number/) | เรียนรู้วิธีสร้างสมุดงานใน C# พร้อมเขียนค่าและจัดรูปแบบตัวเลขด้วย Aspose.Cells สำหรับ .NET  
+- [สร้างสมุดงาน Excel และเพิ่มวันที่ลงในแผ่นงานด้วย C#](./create-excel-workbook-and-add-date-to-worksheet-in-c/) | เรียนรู้วิธีสร้างสมุดงาน Excel และเพิ่มวันที่ลงในแผ่นงานโดยใช้ C# กับ Aspose.Cells สำหรับ .NET  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -59,6 +59,9 @@ Aspose.Cells for Java を使って、Excel プレゼンテーションに反射�
 ### [Aspose.Cells for Java で Excel シートを画像としてレンダリングする方法: 包括的なガイド](./aspose-cells-java-render-excel-sheets-images/)
 Aspose.Cells for Javaを使ってExcelデータを高品質な画像に変換する方法を学びましょう。このガイドでは、セットアップからレンダリングまでのすべての手順を網羅し、シームレスなデータ可視化を実現します。
 
+### [Aspose.Cells を使用して Java で Excel の範囲を画像としてエクスポートする方法](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
+Aspose.Cells for Java を使い、指定したセル範囲を高品質な画像に変換してエクスポートする手順を解説します。
+
 ### [Aspose.Cells Java を使用して ODS ファイルにグラフィック背景を設定する: ステップバイステップ ガイド](./aspose-cells-java-set-ods-graphic-background/)
 Aspose.Cells for Javaを使用してODSファイルにグラフィック背景を設定する方法を学びましょう。プロフェッショナルなビジュアルでスプレッドシートを強化し、魅力を高めましょう。
 
@@ -70,6 +73,9 @@ Aspose.Cells for Java を使って、ワークブックの操作とシート間�
 
 ### [Aspose.Cells for Java で Excel の SmartArt グラフィック更新を自動化する: 包括的なガイド](./automate-updating-smartart-excel-aspose-cells-java/)
 Aspose.Cells for Javaを使用して、ExcelのSmartArtグラフィックの更新を自動化する方法を学びましょう。このステップバイステップのチュートリアルで、ワークフローを効率化し、生産性を向上させましょう。
+
+### [Aspose.Cells for Java を使用して ShapeExportOptions で図形をエクスポートする方法](./how-to-export-shape-with-shapeexportoptions-in-java/)
+Aspose.Cells for Java の ShapeExportOptions を活用し、Excel の図形を画像としてエクスポートする手順を解説します。
 
 ### [Aspose.Cells を使用して Java で SmartArt をグループ図形に変換する: 包括的なガイド](./convert-smartart-group-shapes-java/)
 Aspose.Cells for Javaを使用して、Excelファイル内のSmartArtグラフィックをグループ図形に変換する方法を学びます。このガイドでは、設定、コード例、そして実践的な応用例を紹介します。

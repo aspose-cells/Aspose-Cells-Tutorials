@@ -101,6 +101,12 @@ Aprenda a aplicar fórmulas de matriz no Excel usando C# e Aspose.Cells com este
 Aprenda a usar a função WRAPCOLS no Aspose.Cells para .NET em C# e automatizar planilhas Excel de forma eficiente.
 ### [Como criar uma pasta de trabalho Excel em C# com a função EXPAND – Guia Passo a Passo](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
 Aprenda a criar uma pasta de trabalho Excel em C# usando a função EXPAND do Aspose.Cells, passo a passo.
+### [Como usar WRAPCOLS em C# para arrays do Excel e salvar a pasta de trabalho](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
+Aprenda a utilizar a função WRAPCOLS em C# para transformar arrays em matrizes e salvar a pasta de trabalho Excel com Aspose.Cells.
+### [Como criar uma pasta de trabalho Excel em C# e definir fórmulas](./how-to-create-excel-workbook-in-c-and-set-formulas/)
+Aprenda a criar uma pasta de trabalho Excel em C# e aplicar fórmulas usando Aspose.Cells passo a passo.
+### [Como criar uma pasta de trabalho Excel em C# com uma fórmula de matriz dinâmica](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
+Aprenda a criar uma pasta de trabalho Excel em C# usando fórmulas de matriz dinâmica com Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

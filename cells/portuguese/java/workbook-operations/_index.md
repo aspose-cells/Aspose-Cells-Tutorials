@@ -129,11 +129,10 @@ Aprenda a automatizar a manipulação de pastas de trabalho do Excel usando o As
 
 ### [Dominando Aspose.Cells Java: Gerenciamento Eficiente de Pastas de Trabalho em Memória](./aspose-cells-java-workbook-memory-management/)
 Aprenda a criar, salvar e cargar pastas de trabalho do Excel usando o Aspose.Cells para Java diretamente da memória. Simplifique seus fluxos de trabalho com tamanhos de papel personalizados e conversões para PDF.
-### [Gerenciamento de metadados de pasta de trabalho principal em Java com Aspose.Cells](./aspose-cells-java-workbook-metadata-management/)
-Aprenda a gerenciar com eficiência os metadados da pasta de trabalho do Excel usando o Aspose.Cells para Java. Este tutorial aborda como carregar, modificar e salvar propriedades personalizadas de documentos sem complicações.
-
 ### [Como adicionar propriedade personalizada no Excel (Java) – Recuperar valor e salvar como XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
 Aprenda a adicionar uma propriedade personalizada a uma pasta de trabalho Excel usando Aspose.Cells para Java, recuperar seu valor e salvar como XLSB.
+### [Gerenciamento de metadados de pasta de trabalho principal em Java com Aspose.Cells](./aspose-cells-java-workbook-metadata-management/)
+Aprenda a gerenciar com eficiência os metadados da pasta de trabalho do Excel usando o Aspose.Cells para Java. Este tutorial aborda como carregar, modificar e salvar propriedades personalizadas de documentos sem complicações.
 
 ### [Master Workbook Styling e exportação de HTML em Java com Aspose.Cells](./aspose-cells-java-workbook-styling-html-export/)
 Aprenda a estilizar pastas de trabalho do Excel e exportá-las como HTML usando o Aspose.Cells para Java. Este guia aborda recuperação de versões, técnicas de estilização e exportação com CSS.
@@ -206,7 +205,7 @@ Aprenda a usar o Aspose.Cells para Java para criar e acessar planilhas do Excel,
 Um tutorial de código para Aspose.Words Java
 
 ### [Crie e personalize pastas de trabalho do Excel usando Aspose.Cells Java: um guia passo a passo](./create-customize-excel-workbooks-aspose-cells-java/)
-Aprenda a automatizar a criação e a personalização de pastas de trabalho do Excel com o Aspose.Cells para Java. Aumente a produtividade dominando as operações da pasta de trabalho.
+Aprenda a automatizar a criação e a personalização de pastas de trabalho do Excel com o Aspose.Cells Java. Aumente a produtividade dominando as operações da pasta de trabalho.
 
 ### [Como criar e mesclar pastas de trabalho do Excel usando Aspose.Cells para Java | Guia completo](./create-merge-excel-workbooks-aspose-cells-java/)
 Aprenda a criar e mesclar pastas de trabalho do Excel com eficiência usando o Aspose.Cells para Java com este guia completo. Simplifique suas operações com pastas de trabalho hoje mesmo.
@@ -255,8 +254,6 @@ Aprenda a automatizar tarefas do Excel usando o Aspose.Cells para Java. Este gui
 Domine a automação do Excel com o Aspose.Cells para Java carregando pastas de trabalho e recuperando resultados de tabelas de consulta. Aumente a produtividade no processamento de dados, relatórios e integração.
 
 ### [Automação do Excel: Configurar páginas de pasta de trabalho e planilha com Aspose.Cells Java](./excel-automation-aspose-cells-java-workbook-setup/)
-Aprenda a automatizar tarefas do Excel configurando páginas de pastas de trabalho e planilhas usando o Aspose.Cells para Java. Simplifique seus fluxos de trabalho de processamento de dados com eficiência.
-
 ### [Automação do Excel com Aspose.Cells Java: Criação de Pasta de Trabalho e Visibilidade de Colunas/Linhas](./excel-automation-aspose-cells-java-workbook-visibility/)
 Aprenda a automatizar tarefas do Excel criando e modificando pastas de trabalho e controlando a visibilidade de colunas/linhas com eficiência.
 
@@ -282,7 +279,7 @@ Aprenda a converter facilmente pastas de trabalho do Excel em HTML usando o Aspo
 Aprenda a converter planilhas do Excel em imagens de alta qualidade usando Java com Aspose.Cells. Este guia completo aborda instalação, configuração e aplicações práticas.
 
 ### [Domine o gerenciamento de planilhas e pastas de trabalho do Excel usando Aspose.Cells para Java | Aplicando efeitos de brilho a formas](./excel-management-aspose-cells-java-glow-effects/)
-Aprenda a gerenciar pastas de trabalho do Excel em Java com o Aspose.Cells, incluindo a aplicação de efeitos de brilho a formas. Aprimore sua visualização de dados e automatize as manipulações de pastas de trabalho sem esforço.
+Aprenda a gerenciar pastas de trabalho do Excel em Java com o Aspose.Cells, incluindo a aplicação de efeitos de brilho a formas. Aprimore sua visualização de dados e automatize as manipulções de pastas de trabalho sem esforço.
 
 ### [Carregar e iterar linhas do Excel com Aspose.Cells em Java: um guia completo](./excel-manipulation-aspose-cells-java/)
 Aprenda a carregar e iterar com eficiência linhas em um arquivo Excel usando o Aspose.Cells para Java, perfeito para análise de dados e tarefas de automação.
@@ -331,6 +328,10 @@ Aprenda a exportar propriedades personalizadas de uma pasta de trabalho do Excel
 
 ### [Como adicionar propriedade personalizada no Excel usando Java – Guia completo](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
 Aprenda a adicionar propriedades personalizadas a arquivos do Excel usando Aspose.Cells para Java, incluindo configuração, salvamento e exemplos de código.
+
+### [Como salvar arquivos xlsb com propriedades personalizadas usando Aspose.Cells para Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+### [Como obter propriedade personalizada java usando Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)
+Aprenda a recuperar propriedades personalizadas de um documento Excel usando Aspose.Cells para Java.
 
 ### [Exportar Excel para HTML usando Aspose.Cells Java: um guia passo a passo](./export-excel-html-aspose-cells-java/)
 Aprenda a exportar arquivos do Excel para HTML com facilidade usando o Aspose.Cells para Java. Este guia aborda como carregar pastas de trabalho, provedores de fluxo personalizados e salvar pastas de trabalho com facilidade.
@@ -441,7 +442,7 @@ Um tutorial de código para Aspose.Words Java
 Aprenda a lidar eficientemente com arquivos Excel com o Aspose.Cells para Java, abrindo arquivos XLSX e recuperando nomes de arquivos. Simplifique suas operações com planilhas hoje mesmo.
 
 ### [Como abrir arquivos TSV usando Aspose.Cells para Java (guia passo a passo)](./open-tsv-files-aspose-cells-java/)
-Aprenda a abrir e manipular arquivos TSV em Java usando Aspose.Cells com este guia abrangente, abrangendo configuração, implementação e aplicações práticas.
+Aprenda a abrir e manipular arquivos TSV em Java usando Aspose.Cells com este guia abrangente, abrangindo configuração, implementação e aplicações práticas.
 
 ### [Como evitar a exportação de planilhas ocultas no Aspose.Cells Java: um guia completo](./prevent-export-hidden-worksheets-aspose-cells-java/)
 Aprenda a configurar o Aspose.Cells para Java para ignorar planilhas ocultas durante a exportação, garantindo saídas de dados limpas e concisas.
@@ -475,6 +476,43 @@ Aprenda a definir e gerenciar propriedades de documentos, como controle de vers�
 
 ### [Java: criar arquivo Excel, adicionar propriedade personalizada e salvar como XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
 Aprenda a criar um arquivo Excel, definir propriedades personalizadas e salvá‑lo no formato XLSB usando Aspose.Cells para Java.
+### [Criar Nova Pasta de Trabalho Java – Guia Completo](./create-new-workbook-java-complete-guide/)
+Aprenda a criar uma nova pasta de trabalho do Excel usando Aspose.Cells para Java com este guia completo passo a passo.
+
+### [Usar Função Lambda Java para Criar um Exemplo de Pasta de Trabalho do Excel](./use-lambda-function-java-to-create-excel-workbook-example/)
+Aprenda a usar funções lambda em Java para criar e manipular uma pasta de trabalho do Excel com Aspose.Cells.
+
+### [Como carregar e salvar o Excel como Markdown usando Aspose.Cells para Java](./aspose-cells-java-excel-to-markdown/)
+Aprenda a converter arquivos do Excel para o formato Markdown com eficiência usando o Aspose.Cells para Java. Este guia aborda configuração, carregamento, salvamento e aplicações práticas.
+
+### [Converter Excel para PDF com Aspose.Cells Java](./aspose-cells-java-excel-to-pdf-conversion/)
+Um tutorial de código para Aspose.Words Java
+
+### [Aspose.Cells Java: Guia completo para converter pastas de trabalho do Excel em PDF](./aspose-cells-java-excel-to-pdf-conversion-guide/)
+Aprenda a converter planilhas do Excel para PDF com eficiência usando o Aspose.Cells para Java. Este guia aborda a configuração, os cálculos de fórmulas e as etapas de conversão.
+
+### [Converter Excel para XPS usando Aspose.Cells para Java: um guia passo a passo](./aspose-cells-java-excel-to-xps-conversion/)
+Aprenda a converter arquivos do Excel para o formato XPS usando o Aspose.Cells para Java. Este guia aborda dicas de configuração, implementação e desempenho.
+
+### [Dominando as operações da pasta de trabalho do Excel com Aspose.Cells Java: um guia completo para desenvolvedores](./aspose-cells-java-excel-workbook-creation/)
+Aprenda a gerenciar e automatizar com eficiência as operações de pastas de trabalho do Excel em Java usando o Aspose.Cells. Este guia aborda a criação, a configuração e o salvamento de pastas de trabalho de forma integrada.
+
+### [Dominando o Aspose.Cells Java: Gerenciamento de pastas de trabalho do Excel](./aspose-cells-java-excel-workbook-management/)
+Um tutorial de código para Aspose.Words Java
+
+### [Domine o Aspose.Cells Java para gerenciamento de pastas de trabalho do Excel: guia completo](./aspose-cells-java-excel-workbook-manipulation/)
+Aprenda a gerenciar pastas de trabalho do Excel com facilidade usando o Aspose.Cells para Java. Crie, modifique e salve arquivos do Excel com eficiência.
+
+### [Domine o Aspose.Cells para Java: automatize operações de pastas de trabalho do Excel em seus aplicativos Java](./aspose-cells-java-excel-workbooks/)
+Aprenda a automatizar a criação, o gerenciamento e a formatação de pastas de trabalho do Excel usando o Aspose.Cells para Java. Este guia aborda tudo, desde a configuração do seu ambiente até o salvamento eficiente de pastas de trabalho.
+
+### [Gerar Arquivo Excel Java – Guia Completo Passo a Passo](./generate-excel-file-java-complete-step-by-step-guide/)
+Aprenda a gerar arquivos Excel em Java usando Aspose.Cells com um guia passo a passo completo.
+### [Criar pasta de trabalho do Excel com propriedades personalizadas em Java – guia passo a passo](./create-excel-workbook-with-custom-properties-in-java-step-by/)
+Aprenda a criar uma pasta de trabalho do Excel com propriedades personalizadas usando Aspose.Cells para Java.
+
+### [Criar pasta de trabalho do Excel java: lidar com datas de era japonesa](./create-excel-workbook-java-handle-japanese-era-dates/)
+Aprenda a criar pastas de trabalho do Excel em Java que suportam datas de era japonesa.
 
 ## Recursos adicionais
 

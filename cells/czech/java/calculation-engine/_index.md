@@ -70,6 +70,9 @@ Naučte se, jak pomocí Aspose.Cells v Javě obnovit a znovu načíst Excel seš
 ### [Jak vynutit výpočet vzorce v Javě pomocí Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
 Naučte se, jak vynutit okamžitý výpočet vzorců v sešitech pomocí Aspose.Cells pro Javu.
 
+### [Přepočítat všechny vzorce v Excelu pomocí Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
+Naučte se přepočítat všechny vzorce v Excelu pomocí Aspose.Cells pro Javu.
+
 ## Další zdroje
 - [Dokumentace Aspose.Cells pro Java](https://docs.aspose.com/cells/java/)
 - [API reference Aspose.Cells pro Java](https://reference.aspose.com/cells/java/)

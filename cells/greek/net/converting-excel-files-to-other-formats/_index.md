@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Μετατροπή αρχείων Excel σε άλλες μορφές
@@ -38,7 +40,6 @@
 - [Παρακολούθηση της προόδου μετατροπής εγγράφων για TIFF μέσω προγραμματισμού σε .NET](./tracking-document-conversion-progress-for-tiff/)Παρακολούθηση και διαχείριση μετατροών αρχείων TIFF, ένα πολύτιμο εργαλείο για τη δημιουργία αρχείων που βασίζονται σε εικόνες.
 - [Πώς να τυλίξετε κελιά και να μετατρέψετε το Excel σε PowerPoint με C#](./how-to-wrap-cells-and-convert-excel-to-powerpoint-in-c/)Μάθετε πώς να τυλίξετε κελιά σε Excel και να τα μετατρέψετε σε παρουσίαση PowerPoint χρησιμοποιώντας C# και Aspose.Cells.
 
-
 Το Aspose.Cells για .NET απλοποιεί τους μετασχηματισμούς εγγράφων, επιτρέποντας στους προγραμματιστές να αυτοματοποιούν τις διαδικασίες και να εξοικονομούν χρόνο σε μετατροπές σε διάφορες μορφές.
 
 ## Μετατροπή αρχείων Excel σε άλλες μορφές - Εκπαιδευτικά βίντεο
@@ -59,9 +60,10 @@
 ### [Πώς να τυλίξετε κελιά και να μετατρέψετε το Excel σε PowerPoint με C#](./how-to-wrap-cells-and-convert-excel-to-powerpoint-in-c/)
 Μάθετε πώς να τυλίξετε κελιά σε Excel και να τα μετατρέψετε σε παρουσίαση PowerPoint χρησιμοποιώντας C# και Aspose.Cells.
 ### [Εξαγωγή Excel σε PowerPoint – Πλήρης Οδηγός C#](./export-excel-to-powerpoint-complete-c-guide/)
-Μάθετε πώς να εξάγετε φύλλα Excel σε παρουσιάσεις PowerPoint με C# και Aspose.Cells σε αναλυτικό βήμα‑βήμα οδηγό.
 ### [Δημιουργία PowerPoint από Excel – Οδηγός βήμα‑βήμα C#](./create-powerpoint-from-excel-step-by-step-c-guide/)
 ### [Μετατροπή Excel σε PowerPoint με C# – Πλήρης Οδηγός](./convert-excel-to-powerpoint-with-c-complete-guide/)
+### [Δημιουργία PowerPoint από Excel – Πλήρης Οδηγός βήμα‑βήμα C#](./create-powerpoint-from-excel-complete-c-guide/)
+Μάθετε πώς να δημιουργήσετε παρουσίαση PowerPoint από φύλλο Excel χρησιμοποιώντας C# και Aspose.Cells σε αυτόν τον πλήρη οδηγό βήμα‑βήμα.
 Μάθετε πώς να μετατρέψετε αρχεία Excel σε παρουσιάσεις PowerPoint (PPTX) με C# και Aspose.Cells σε έναν πλήρη οδηγό βήμα προς βήμα.
 ### [Πώς να Εξάγετε το Excel σε PowerPoint – Πλήρης Οδηγός C#](./how-to-export-excel-to-powerpoint-complete-c-guide/)
 Μάθετε πώς να μετατρέψετε ένα φύλλο Excel σε παρουσίαση PowerPoint χρησιμοποιώντας C# και Aspose.Cells σε βήμα-βήμα οδηγό.
@@ -72,6 +74,8 @@
 ### [Δημιουργία PowerPoint από Excel – Πλήρης C# Εκπαιδευτικό Σεμινάριο](./create-powerpoint-from-excel-complete-c-tutorial/)
 Μάθετε πώς να δημιουργήσετε παρουσίαση PowerPoint από φύλλο Excel χρησιμοποιώντας C# και Aspose.Cells σε αυτό το πλήρες βήμα-βήμα σεμινάριο.
 Μάθετε πώς να δημιουργήσετε παρουσίαση PowerPoint από αρχείο Excel χρησιμοποιώντας το Aspose.Cells για .NET σε αυτόν τον οδηγό βήμα‑βήμα.
+### [Εξαγωγή Excel σε PowerPoint με επεξεργάσιμα διαγράμματα σε C#](./export-excel-to-powerpoint-with-editable-charts-in-c/)
+Μάθετε πώς να εξάγετε φύλλα Excel σε PowerPoint με διαγράμματα που μπορείτε να επεξεργαστείτε, χρησιμοποιώντας C# και Aspose.Cells.
 ### [Καθορισμός HTML CrossType σε HTML εξόδου μέσω προγραμματισμού στο .NET](./specifying-html-crosstype-in-output-html/)
 Μάθετε πώς να καθορίζετε HTML CrossType στο Aspose.Cells για .NET. Ακολουθήστε τον αναλυτικό οδηγό μας για να μετατρέψετε αρχεία Excel σε HTML με ακρίβεια.
 ### [Ανάγνωση υπολογιστικού φύλλου αριθμών μέσω προγραμματισμού σε .NET](./reading-numbers-spreadsheet/)
@@ -91,14 +95,11 @@
 ### [Μετατροπή Excel σε Word – Πλήρης Οδηγός με C#](./convert-excel-to-word-complete-guide-with-c/)
 Μάθετε πώς να μετατρέψετε αρχεία Excel σε Word χρησιμοποιώντας C# και Aspose.Cells σε πλήρη οδηγό βήμα‑βήμα.
 
-
-
+### [Δημιουργία PowerPoint από Excel με Aspose.Cells – βήμα‑βήμα οδηγός](./create-powerpoint-from-excel-with-aspose-cells-step-by-step/)
+Μάθετε πώς να δημιουργήσετε παρουσίαση PowerPoint από αρχείο Excel χρησιμοποιώντας Aspose.Cells σε βήμα‑βήμα οδηγό.
 
 ### [Δημιουργία PowerPoint από Excel χρησιμοποιώντας Aspose.Cells](./how-to-create-powerpoint-from-excel-using-aspose-cells/)
 Μάθετε πώς να δημιουργήσετε παρουσίαση PowerPoint από αρχείο Excel χρησιμοποιώντας το Aspose.Cells για .NET.
-
-
-
 
 Μάθετε πώς να δημιουργήσετε παρουσίαση PowerPoint από αρχείο Excel χρησιμοποιώντας το Aspose.Cells για .NET σε αυτόν τον οδηγό βήμα‑βήμα.
 ### [Πώς να εξάγετε το Excel σε PowerPoint με C# – Πλήρης Οδηγός](./how-to-export-excel-to-powerpoint-with-c-complete-guide/)
@@ -123,6 +124,8 @@
 Μάθετε πώς να αποθηκεύετε ένα βιβλίο εργασίας Excel ως αρχείο κειμένου TXT χρησιμοποιώντας C# και Aspose.Cells.
 ### [Πώς να αποθηκεύσετε το Excel ως κείμενο με Aspose.Cells – βήμα‑βήμα οδηγός](./how-to-save-excel-as-text-with-aspose-cells-step-by-step-gui/)
 Μάθετε πώς να αποθηκεύσετε ένα βιβλίο εργασίας Excel ως αρχείο κειμένου χρησιμοποιώντας Aspose.Cells, βήμα‑βήμα με παραδείγματα C#.
+### [Πώς να αποθηκεύσετε βιβλίο εργασίας ως CSV και να εξάγετε το Excel σε TXT με προσαρμοσμένη μορφοποίηση σε C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+Μάθετε πώς να αποθηκεύσετε ένα βιβλίο εργασίας ως CSV και να εξάγετε δεδομένα σε αρχείο TXT με προσαρμοσμένη μορφοποίηση χρησιμοποιώντας C# και Aspose.Cells.
 ### [Δημιουργία Word από Excel – Γρήγορος Οδηγός C#](./create-word-from-excel-quick-c-guide/)
 Μάθετε πώς να δημιουργήσετε έγγραφο Word από αρχείο Excel χρησιμοποιώντας C# και Aspose.Cells σε αυτόν τον σύντομο οδηγό.
 ### [Πώς να εξάγετε το Excel – Οδηγός κειμένου Tab‑Delimited](./how-to-export-excel-tab-delimited-text-guide/)
@@ -135,10 +138,16 @@
 Μάθετε πώς να εξάγετε αρχεία Excel σε μορφή txt χρησιμοποιώντας C# με αναλυτικό οδηγό βήμα προς βήμα.
 ### [Εξαγωγή Excel σε PowerPoint με Aspose.Cells – πλήρης οδηγός προγραμματισμού](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
 Μάθετε πώς να εξάγετε ένα αρχείο Excel σε παρουσίαση PowerPoint χρησιμοποιώντας το Aspose.Cells σε πλήρη βήμα-βήμα οδηγό.
+### [Πώς να αποθηκεύσετε το Excel ως PowerPoint χρησιμοποιώντας C# και Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+Μάθετε πώς να μετατρέψετε ένα βιβλίο εργασίας Excel σε παρουσίαση PowerPoint με C# και Aspose.Cells.
+### [Πώς να ενσωματώσετε γραμματοσειρές σε SVG κατά τη μετατροπή αρχείων Excel σε SVG και PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Μάθετε πώς να ενσωματώσετε γραμματοσειρές σε αρχεία SVG κατά τη μετατροπή Excel σε SVG ή PowerPoint με Aspose.Cells για .NET.
+### [Πώς να αποθηκεύσετε το Excel ως TXT χρησιμοποιώντας Aspose.Cells σε C#](./how-to-save-excel-as-txt-using-aspose-cells-in-c/)
+Μάθετε πώς να αποθηκεύσετε ένα βιβλίο εργασίας Excel ως αρχείο TXT χρησιμοποιώντας Aspose.Cells σε C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

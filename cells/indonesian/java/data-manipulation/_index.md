@@ -65,6 +65,8 @@ Pelajari cara mengotomatiskan penggantian teks dalam file Excel menggunakan rege
 ### [Cara Membagi Kolom di Java dengan Aspose.Cells – panduan langkah demi langkah](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
 Pelajari cara membagi kolom dalam file Excel menggunakan Aspose.Cells untuk Java dengan panduan langkah demi langkah.
 
+### [Cara menghapus autofilter dari Excel dengan Aspose.Cells Java](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
+Pelajari cara menghapus autofilter dari file Excel menggunakan Aspose.Cells untuk Java.
 
 ## Sumber Daya Tambahan
 

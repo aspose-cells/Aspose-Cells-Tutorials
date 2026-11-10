@@ -64,6 +64,8 @@ Leer hoe u eenvoudig XLS-bestanden kunt opslaan met Aspose.Cells voor .NET. Incl
 Ontdek hoe u XLSX-bestanden kunt opslaan met Aspose.Cells voor .NET met deze stapsgewijze handleiding. Stroomlijn uw Excel-beheer moeiteloos.
 ### [Hoe XLSB op te slaan in C# – Stapsgewijze handleiding](./how-to-save-xlsb-in-c-step-by-step-guide/)
 Leer hoe u XLSB-bestanden in C# opslaat met Aspose.Cells voor .NET. Volg de stapsgewijze instructies voor eenvoudige implementatie.
+### [Hoe een flat OPC-tutorial te voltooien met Aspose.Cells in C#](./how-to-complete-a-flat-opc-tutorial-with-aspose-cells-in-c/)
+Leer hoe u een flat OPC-bestand maakt en opslaat met Aspose.Cells in C# via een duidelijke stap‑voor‑stap gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

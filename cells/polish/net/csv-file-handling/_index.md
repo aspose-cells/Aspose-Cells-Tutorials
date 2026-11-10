@@ -35,8 +35,12 @@ Dowiedz się, jak otwierać pliki CSV za pomocą Aspose.Cells dla .NET dzięki n
 Dowiedz się, jak otwierać i analizować pliki CSV za pomocą niestandardowych parserów w Aspose.Cells dla .NET. Bezproblemowo obsługuj tekst i daty. Idealne dla programistów.
 ### [Zapisz skoroszyt jako CSV w C# – Eksportuj Excel do CSV](./save-workbook-as-csv-in-c-export-excel-to-csv/)
 Dowiedz się, jak zapisać skoroszyt jako plik CSV w C# przy użyciu Aspose.Cells dla .NET. Szybki i prosty eksport danych z Excela.
+### [Jak wyeksportować skoroszyt Excel do CSV przy użyciu Aspose.Cells w C#](./how-to-export-excel-workbook-to-csv-with-aspose-cells-in-c/)
+Dowiedz się, jak w C# wyeksportować skoroszyt Excel do formatu CSV przy użyciu Aspose.Cells, krok po kroku.
 ### [Zapisz Excel jako CSV w C# – Kompletny przewodnik eksportu Xlsx do CSV](./save-excel-as-csv-in-c-complete-guide-to-export-xlsx-to-csv/)
 Dowiedz się, jak w C# zapisać plik Excel (XLSX) jako CSV, korzystając z Aspose.Cells, krok po kroku.
+### [Jak wyeksportować Excel do CSV w C# przy użyciu Aspose.Cells](./how-to-export-excel-to-csv-in-c-with-aspose-cells/)
+Dowiedz się, jak w C# wyeksportować plik Excel do formatu CSV przy użyciu biblioteki Aspose.Cells.
 ### [Utwórz nowy skoroszyt i wyeksportuj do CSV – Przewodnik krok po kroku w C#](./create-new-workbook-and-export-to-csv-step-by-step-c-guide/)
 Dowiedz się, jak w C# utworzyć nowy skoroszyt i wyeksportować go do formatu CSV przy użyciu Aspose.Cells.
 ### [Jak utworzyć plik CSV z Excela przy użyciu Aspose.Cells w C#](./how-to-create-csv-from-excel-using-aspose-cells-in-c/)
@@ -67,6 +71,8 @@ Dowiedz się, jak przy użyciu Aspose.Cells dla .NET wyeksportować dane z Excel
 Dowiedz się, jak zapisać skoroszyt jako plik CSV, kontrolując liczbę cyfr po przecinku i zachowując formatowanie danych.
 ### [Jak zapisać skoroszyt jako CSV z precyzyjnym formatowaniem przy użyciu Aspose.Cells](./how-to-save-workbook-as-csv-with-precise-formatting-using-as/)
 Dowiedz się, jak zapisać skoroszyt jako plik CSV zachowując dokładne formatowanie danych przy użyciu Aspose.Cells.
+### [Jak zapisać skoroszyt jako CSV z własnym formatowaniem w C#](./how-to-save-workbook-as-csv-with-custom-formatting-in-c/)
+Dowiedz się, jak w C# zapisać skoroszyt jako CSV, zachowując własne formatowanie danych, krok po kroku.
 ### [Zapisz skoroszyt jako CSV w C# – Kompletny przewodnik programistyczny](./save-workbook-as-csv-in-c-complete-programming-guide/)
 Dowiedz się, jak zapisać skoroszyt jako plik CSV w C# przy użyciu Aspose.Cells dla .NET – kompletny przewodnik programistyczny.
 

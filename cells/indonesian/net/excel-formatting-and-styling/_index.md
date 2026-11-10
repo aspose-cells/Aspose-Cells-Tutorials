@@ -81,6 +81,7 @@ Pelajari cara membuat gaya sel di C# dengan Aspose.Cells, menerapkan gaya pada s
 Pelajari cara menata kolom di Excel menggunakan Aspose.Cells for .NET dengan mengimpor DataTable dalam tutorial langkah demi langkah ini.
 ### [Cara membuat workbook Excel C# dengan pemformatan khusus dan menyimpan sebagai XLSX](./how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
 Pelajari cara membuat workbook Excel menggunakan C# dengan pemformatan khusus dan menyimpannya sebagai file XLSX.
+### [Buat file Excel C# – gaya sel dan atur format mata uang](./create-excel-file-c-style-cells-and-set-currency-format/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

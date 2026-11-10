@@ -64,6 +64,8 @@
 
 ### [Как разделить столбцы в Java с помощью Aspose.Cells – пошаговое руководство](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
 Узнайте, как с помощью Aspose.Cells для Java разбить столбцы в Excel на отдельные части, используя пошаговые инструкции.
+### [Как удалить автофильтр из Excel с помощью Aspose.Cells Java](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
+Узнайте, как удалить автофильтр из файлов Excel с помощью Aspose.Cells для Java.
 
 ## Дополнительные ресурсы
 

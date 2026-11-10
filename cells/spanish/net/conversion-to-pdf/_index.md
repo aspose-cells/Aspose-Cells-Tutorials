@@ -36,9 +36,10 @@ Convierte fácilmente hojas de cálculo de Excel a PDF con Aspose.Cells para .NE
 Aprende a convertir gráficos de Excel a PDF en .NET usando Aspose.Cells con esta guía paso a paso. Ideal para programadores de todos los niveles.
 ### [Cómo establecer opciones PDF en C# – Exportar Excel a PDF con control total](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
 Aprende a configurar opciones PDF en C# para exportar Excel a PDF con control total usando Aspose.Cells.
-
 ### [Crear PDF desde Excel en C# – Guía paso a paso](./create-pdf-from-excel-in-c-step-by-step-guide/)
 Aprende a generar archivos PDF a partir de Excel en C# con Aspose.Cells siguiendo esta guía paso a paso.
+### [Crear libro de Excel y guardarlo como PDF con matrices dinámicas](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
+Aprende a crear un libro de Excel y guardarlo como PDF utilizando matrices dinámicas con Aspose.Cells para .NET.
 ### [Exportar libro de trabajo a PDF – Guía completa en C#](./export-workbook-to-pdf-complete-c-guide/)
 Aprende a exportar un libro de Excel a PDF usando Aspose.Cells en C# con esta guía completa paso a paso.
 ### [Cómo incrustar fuentes al convertir Excel a PDF – Guía completa](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
@@ -49,6 +50,10 @@ Aprende a convertir documentos DOCX a PDF en C# usando Aspose.Words con esta gu�
 Aprende a guardar un libro de Excel como PDF/A‑3b usando Aspose.Cells en C#. Sigue los pasos para una exportación segura y compatible.
 ### [Guardar libro de trabajo como PDF con Aspose.Cells – Guía completa paso a paso](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
 Aprende a guardar un libro de Excel como PDF usando Aspose.Cells con instrucciones detalladas y ejemplos claros.
+### [Cómo guardar un libro de trabajo como PDF con Aspose.Cells en C#](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
+Aprende a guardar un libro de Excel como PDF usando Aspose.Cells en C# con esta guía paso a paso.
+### [Cómo guardar PDF desde un libro de Excel con Aspose.Cells](./how-to-save-pdf-from-an-excel-workbook-with-aspose-cells/)
+Aprende a guardar un libro de Excel como PDF usando Aspose.Cells en C# paso a paso.
 ### [Cómo incrustar fuentes en PDF – Guardar libro de trabajo como PDF en C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 Aprende a incrustar fuentes al guardar un libro de Excel como PDF en C# usando Aspose.Cells.
 ### [Cómo incrustar fuentes en PDF con C# – Guía completa](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)

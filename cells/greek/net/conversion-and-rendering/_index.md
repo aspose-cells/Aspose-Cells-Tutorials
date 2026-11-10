@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Μετατροπή και Απόδοση
@@ -59,15 +61,12 @@
 
 ### [Δημιουργία εικόνας από Excel – Εξαγωγή Pivot σε PNG σε C#](./create-image-from-excel-export-pivot-to-png-in-c/)
 Μάθετε πώς να εξάγετε πίνακες Pivot από Excel ως εικόνες PNG χρησιμοποιώντας Aspose.Cells σε C#.
+
 ### [Πώς να φορτώσετε Markdown και να το μετατρέψετε σε Excel – Οδηγός βήμα προς βήμα](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
 Μάθετε πώς να φορτώσετε αρχεία Markdown και να τα μετατρέψετε σε φύλλα Excel χρησιμοποιώντας το Aspose.Cells σε .NET.
 
-
-
-
-
-
-
+### [Πώς να μετατρέψετε το Excel σε SVG με το Aspose.Cells – βήμα‑βήμα οδηγός](./how-to-convert-excel-to-svg-with-aspose-cells-step-by-step-g/)
+Μάθετε πώς να μετατρέψετε αρχεία Excel σε SVG με το Aspose.Cells, ακολουθώντας έναν πλήρη βήμα‑βήμα οδηγό.
 
 ### [Excel φύλλο σε PNG – Εξαγωγή πίνακα Pivot ως PNG σε C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 Μάθετε πώς να εξάγετε έναν πίνακα Pivot από Excel ως εικόνα PNG χρησιμοποιώντας C# και Aspose.Cells.
@@ -94,6 +93,6 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

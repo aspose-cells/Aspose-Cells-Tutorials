@@ -36,7 +36,6 @@
 Μάθετε πώς να μετατρέπετε γραφήματα Excel σε PDF σε .NET χρησιμοποιώντας το Aspose.Cells με αυτόν τον οδηγό βήμα προς βήμα! Ιδανικό για προγραμματιστές όλων των επιπέδων.
 ### [Πώς να Ορίσετε Επιλογές PDF σε C# – Εξαγωγή Excel σε PDF με Πλήρη Έλεγχο](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
 Μάθετε πώς να ρυθμίσετε πλήρως τις επιλογές PDF κατά την εξαγωγή Excel σε PDF χρησιμοποιώντας C#.
-
 ### [Δημιουργία PDF από Excel σε C# – Οδηγός βήμα προς βήμα](./create-pdf-from-excel-in-c-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε PDF από αρχεία Excel χρησιμοποιώντας C# με το Aspose.Cells, ακολουθώντας έναν πλήρη βήμα‑βήμα οδηγό.
 ### [Εξαγωγή βιβλίου εργασίας σε PDF – Πλήρης οδηγός C#](./export-workbook-to-pdf-complete-c-guide/)
@@ -49,6 +48,8 @@
 Μάθετε πώς να αποθηκεύετε ένα βιβλίο εργασίας Excel ως PDF/A‑3b χρησιμοποιώντας C# και Aspose.Cells.
 ### [Αποθήκευση βιβλίου εργασίας σε PDF με Aspose.Cells – Πλήρης Οδηγός Βήμα‑βήμα](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
 Μάθετε πώς να αποθηκεύετε το βιβλίο εργασίας Excel ως PDF με το Aspose.Cells, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα.
+### [Πώς να αποθηκεύσετε βιβλίο εργασίας ως PDF με Aspose.Cells σε C#](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
+Μάθετε πώς να αποθηκεύσετε ένα βιβλίο εργασίας Excel ως PDF χρησιμοποιώντας Aspose.Cells σε C#.
 ### [Πώς να ενσωματώσετε γραμματοσειρές σε PDF – Αποθήκευση βιβλίου εργασίας ως PDF σε C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 Μάθετε πώς να ενσωματώσετε γραμματοσειρές σε PDF κατά την αποθήκευση ενός βιβλίου εργασίας σε C# με το Aspose.Cells.
 ### [Πώς να ενσωματώσετε γραμματοσειρές σε PDF με C# – Πλήρης οδηγός](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
@@ -71,6 +72,10 @@
 Αναλυτικός οδηγός για τη μετατροπή αρχείων Excel σε PDF χρησιμοποιώντας C# και Aspose.Cells.
 ### [πώς να αποθηκεύσετε PDF με επιλογείς παραλλαγής γραμματοσειράς – πλήρης οδηγός](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
 Μάθετε πώς να αποθηκεύσετε PDF διατηρώντας επιλογείς παραλλαγής γραμματοσειράς με αυτόν τον πλήρη οδηγό.
+### [Δημιουργία βιβλίου εργασίας Excel και αποθήκευση ως PDF με δυναμικούς πίνακες](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
+Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel και να το αποθηκεύσετε ως PDF χρησιμοποιώντας δυναμικούς πίνακες.
+### [Πώς να αποθηκεύσετε PDF από βιβλίο εργασίας Excel με Aspose.Cells](./how-to-save-pdf-from-an-excel-workbook-with-aspose-cells/)
+Μάθετε πώς να αποθηκεύσετε ένα βιβλίο εργασίας Excel ως PDF χρησιμοποιώντας Aspose.Cells σε C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
