@@ -51,6 +51,8 @@ Vannak gyakran használt egyéni függvényeid vagy bővítményeid? Nos, az Asp
 Megosztott képletekkel való munka során fontos megérteni, hogyan lehet hatékonyan kezelni a sorkorlátokat. Ez segíthet megőrizni az átláthatóságot, miközben biztosítja, hogy a teljesítmény ne romoljon. Oktatóanyagunkban [A megosztott képlet maximális sorainak megadása Excelben](./specifying-maximum-rows-of-shared-formula/)betekintést nyújt abba, hogyan adhatja meg ezeket a korlátokat, ezáltal megelőzve a lehetséges lassulásokat vagy hibákat nagy adathalmazokban. Ugye nem szeretné, ha az Excel dugóként élne, ugye? A dolgok rendszerezése biztosítja az adatok zökkenőmentes áramlását.
 
 ### [Hogyan számítsuk ki a kotangenset Excelben C#‑val – Lépésről lépésre útmutató](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guide/)
+### [Hogyan számítsuk ki a kotangenset Excelben C#‑val – Lépésről lépésre útmutató](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
+Ismerd meg, hogyan számítható ki a kotangens függvény Excelben C#‑ban, részletes, lépésről‑lépésre útmutatóval.
 ### [Cellák hozzáadása a Microsoft Excel képletfigyelő ablakához](./adding-cells-to-microsoft-excel-formula-watch-window/)
 ### [Képletek kiszámítása Excelben programozottan](./calculating-formulas/)
 ### [Képletek programozott kiszámítása Excelben](./calculating-formulas-once/)
@@ -81,6 +83,12 @@ Ismerje meg, hogyan hozhat létre teljesen funkcionális Excel munkafüzetet ké
 
 ### [Hogyan hozzunk létre Excel munkafüzetet C#‑ban az EXPAND függvénnyel – Lépésről lépésre útmutató](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
 Ismerje meg, hogyan használhatja az EXPAND függvényt Excel munkafüzet létrehozásához C#‑ban az Aspose.Cells for .NET segítségével.
+### [Hogyan használjuk a WRAPCOLS-t C#-ban Excel tömbök és munkafüzet mentéséhez](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
+
+### [Hogyan hozzunk létre Excel munkafüzetet C#‑ban dinamikus tömbképlettel](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
+Ismerje meg, hogyan hozhat létre Excel munkafüzetet C#‑ban dinamikus tömbképletekkel az Aspose.Cells for .NET segítségével.
+
+### [Hogyan hozzunk létre Excel munkafüzetet C#‑ban és állítsunk be képleteket](./how-to-create-excel-workbook-in-c-and-set-formulas/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

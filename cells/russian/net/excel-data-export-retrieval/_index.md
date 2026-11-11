@@ -56,6 +56,9 @@
 ### [Как экспортировать таблицу Excel – Полное пошаговое руководство](./how-to-export-excel-table-complete-step-by-step-guide/)
 Узнайте, как экспортировать таблицу Excel с помощью Aspose.Cells для .NET в этом полном пошаговом руководстве, подходящем для всех уровней.
 
+### [Пользовательские ExportTableOptions при ExportAsStrin для Excel](./custom-exporttableoptions-when-exportasstrin-for-excel/)
+Узнайте, как использовать пользовательские ExportTableOptions при экспорте Excel в строку с помощью Aspose.Cells для .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

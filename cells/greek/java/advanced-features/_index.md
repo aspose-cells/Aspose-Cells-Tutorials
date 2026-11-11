@@ -110,6 +110,8 @@ weight: 18
 
 ### [Ανάλυση Ημερομηνίας με Locale στην Java – Πλήρης Οδηγός Βήμα‑Βήμα](./parse-date-with-locale-in-java-complete-step-by-step-guide/)
 Μάθετε πώς να αναλύετε ημερομηνίες χρησιμοποιώντας Locale στην Java με παραδείγματα κώδικα και βέλτιστες πρακτικές.
+### [Πώς να χρησιμοποιήσετε το wrapcols σε Java – Ανασχηματισμός Πίνακα στο Excel](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
+Μάθετε πώς να χρησιμοποιήσετε τη μέθοδο wrapcols σε Java για να ανασχηματίσετε πίνακες δεδομένων σε Excel με Aspose.Cells.
 
 ## Πρόσθετοι Πόροι
 

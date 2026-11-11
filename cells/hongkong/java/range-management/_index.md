@@ -37,6 +37,8 @@
 
 ### [使用 Java 為 Excel 儲存格指派名稱 – 完整指南](./assign-name-to-cell-in-excel-using-java-complete-guide/)
 了解如何使用 Aspose.Cells for Java 為 Excel 儲存格指派名稱，並在程式中存取與管理該名稱。
+### [在 Excel 中建立命名範圍並偵測重複名稱](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+了解如何使用 Aspose.Cells for Java 在 Excel 中建立命名範圍並檢測重複的名稱。
 
 ### [使用 Aspose.Cells Java 存取 Excel 工作簿中的最大顯示範圍](./aspose-cells-java-max-display-range/)
 了解如何使用 Aspose.Cells for Java 存取 Excel 中工作表的最大顯示範圍。透過我們的逐步指南掌握此功能。
@@ -77,6 +79,9 @@ Aspose.Words Java 程式碼教程
 ### [使用 Aspose.Cells Java 高效率複製 Excel 中的單列](./excel-single-column-copying-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 自動執行跨多列複製單列的過程。輕鬆簡化您的資料處理任務。
 
+### [如何使用 Aspose.Cells for Java 複製範圍](./how-to-copy-range-in-java-with-aspose-cells/)
+了解如何使用 Aspose.Cells for Java 複製 Excel 工作表中的儲存格範圍，包含程式碼範例與最佳實踐。
+
 ### [使用 Aspose.Cells for Java 將自訂物件匯入合併的 Excel 儲存格：綜合指南](./import-custom-objects-merged-cells-java-aspose-cells/)
 了解如何使用 Aspose.Cells for Java 將自訂物件有效地匯入 Excel 中的合併儲存格。透過本綜合指南掌握資料處理。
 
@@ -93,6 +98,9 @@ Aspose.Words Java 程式碼教程
 了解如何使用 Aspose.Cells for Java 程式化地複製工作表中的特定範圍，提供完整的範例與最佳實踐。
 ### [在 Java 中跨工作簿複製範圍 – 步驟指南](./copy-range-between-workbooks-in-java-step-by-step-guide/)
 了解如何使用 Aspose.Cells for Java 在不同工作簿之間複製儲存格範圍，提供完整程式碼範例與操作步驟。
+
+### [如何在 Java Excel 處理中使用展開功能](./how-to-use-expand-function-in-java-excel-processing/)
+了解如何在 Java 中使用 Aspose.Cells 的展開功能處理 Excel 工作表。
 
 ## 其他資源
 

@@ -48,6 +48,8 @@ Naučte se, jak pomocí Aspose.Cells pro .NET přidat komentář do Excelu v C# 
 
 ### [Vložení komentáře do Excelu pomocí C# – krok za krokem](./insert-comment-into-excel-with-c-step-by-step-guide/)
 Naučte se krok za krokem, jak vložit komentář do Excelu pomocí C# s Aspose.Cells pro .NET.
+### [Jak přidat komentář do Excelu pomocí Aspose.Cells Smart Markerů](./how-to-add-comment-to-excel-using-aspose-cells-smart-markers/)
+Naučte se, jak pomocí Aspose.Cells pro .NET přidat komentář do Excelu pomocí Smart Markerů.
 
 
 
@@ -67,6 +69,9 @@ Naučte se přidávat komentář do buňky v C# a generovat Excel soubor z dat p
 Naučte se, jak pomocí Aspose.Cells a SmartMarker vložit komentář do Excelu v C#. Kompletní průvodce krok za krokem.
 ### [Jak vložit komentář v Excelu pomocí Aspose.Cells](./how-to-insert-comment-in-excel-using-aspose-cells/)
 Naučte se, jak vložit komentář do buňky v Excelu pomocí Aspose.Cells pro .NET.
+
+### [Jak vložit komentář v Excelu pomocí Aspose.Cells Smart Markerů](./how-to-insert-excel-comment-using-aspose-cells-smart-markers/)
+Naučte se, jak pomocí Aspose.Cells Smart Markerů vložit komentář do Excelu v C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

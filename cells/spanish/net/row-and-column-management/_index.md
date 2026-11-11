@@ -70,14 +70,14 @@ Aprenda a eliminar una fila en Excel con Aspose.Cells para .NET. Esta guía paso
 Aprenda a eliminar una fila completa de un archivo Excel usando C# con Aspose.Cells para .NET. Guía paso a paso.
 ### [Eliminar filas usando Aspose.Cells para .NET – Proteger la fila de encabezado en Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 Aprenda a eliminar filas en Excel mientras protege la fila de encabezado con Aspose.Cells para .NET.
-
 ### [Cómo usar Aspose.Cells para eliminar filas en una tabla de Excel manteniendo el encabezado](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
 Aprenda a eliminar filas de una tabla de Excel con Aspose.Cells sin afectar la fila de encabezado.
-
 ### [Eliminar varias filas en Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Aprenda a eliminar varias filas en Excel con Aspose.Cells para .NET. Esta guía detallada, paso a paso, cubre los prerrequisitos, ejemplos de código y preguntas frecuentes para desarrolladores.
 ### [Cargar archivo Excel C# – Cómo eliminar filas y quitar filas específicas](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Aprenda a cargar un archivo Excel en C# y eliminar filas específicas paso a paso con Aspose.Cells.
+### [Eliminar filas de una tabla de Excel – guía completa en C# con Aspose.Cells](./delete-rows-from-excel-table-complete-c-guide/)
+Aprenda a eliminar filas de una tabla de Excel usando Aspose.Cells para .NET con una guía paso a paso en C#.
 ### [Insertar una columna en Aspose.Cells .NET](./insert-column-aspose-cells/)
 Aprenda a insertar una columna en Excel con Aspose.Cells para .NET. Siga nuestra sencilla guía paso a paso para agregar una nueva columna sin problemas. Ideal para desarrolladores .NET.
 ### [Insertar una fila en Aspose.Cells .NET](./insert-row-aspose-cells/)
@@ -86,10 +86,14 @@ Aprenda a insertar una fila en Excel con Aspose.Cells para .NET con esta guía p
 Aprenda a insertar una fila con formato en Excel con Aspose.Cells para .NET. Siga nuestra guía paso a paso para una implementación sencilla.
 ### [Insertar varias filas en Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
 Aprenda a insertar varias filas en Excel con Aspose.Cells para .NET. Siga nuestro tutorial detallado para una manipulación de datos fluida.
+### [Crear libro de Excel C# y transponer columna a fila](./create-excel-workbook-c-and-transpose-column-to-row/)
+Aprenda a crear un libro de Excel en C# y a transponer datos de una columna a una fila usando Aspose.Cells.
 ### [Cómo repetir elementos en Excel – Generación dinámica de filas con C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Aprenda a generar filas dinámicamente en Excel repitiendo elementos usando C# con Aspose.Cells.
 ### [Cómo insertar filas en GridJs – Añadir varias filas a la cuadrícula de forma eficiente](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 Aprenda a insertar múltiples filas en GridJs de manera eficiente con este tutorial paso a paso.
+### [Cómo eliminar filas de una tabla de Excel usando C#](./how-to-delete-rows-from-excel-table-using-c/)
+Aprenda a eliminar filas de una tabla de Excel con C# y Aspose.Cells paso a paso.
 
 
 
@@ -108,6 +112,8 @@ Aprenda a crear un diseño de dos columnas en Excel usando WRAPCOLS con Aspose.C
 Descubra una guía paso a paso para insertar varias filas en GridJs de forma rápida y sencilla.
 ### [Cómo usar wrapcols en C# – Guía completa con Excel WRAPROWS y recalcular fórmulas](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Aprenda a aplicar wrapcols y wraprows en Excel con C#, y a recalcular fórmulas automáticamente paso a paso.
+### [Cómo usar WRAPCOLS en C# y guardar el libro de trabajo como XLSX](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
+Aprenda a usar WRAPCOLS en C# y guardar el libro de trabajo como archivo XLSX con Aspose.Cells paso a paso.
 ### [Desplazar celdas hacia arriba en Excel con C# – Guía completa](./shift-cells-up-in-excel-with-c-complete-guide/)
 Aprenda a mover celdas hacia arriba en Excel usando C# con Aspose.Cells, paso a paso y ejemplos claros.
 ### [Cómo eliminar filas en Excel con C# – proteger encabezado de tabla](./how-to-delete-rows-in-excel-with-c-protect-table-header/)

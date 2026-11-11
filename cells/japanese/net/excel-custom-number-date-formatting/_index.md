@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel のカスタム数値と日付の書式設定
@@ -41,6 +43,10 @@
 ### [Excel から ISO 日付をフォーマット – 完全 C# ガイド](./format-date-iso-from-excel-complete-c-guide/)
 ### [C# スプレッドシートエクスポートでカスタム数値書式を適用する – ステップバイステップガイド](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
 このチュートリアルでは、Aspose.Cells for .NET を使用して、C# でスプレッドシートをエクスポートする際にカスタム数値書式を適用する方法を学びます。
+
+### [C#でExcelのカスタム数値書式を適用する方法](./how-to-apply-a-custom-number-format-excel-in-c/)
+Aspose.Cells for .NET を使用して、C# で Excel にカスタム数値書式を適用する手順を解説します。
+
 ### [C# 開発者向け Excel への日時書き込み完全ガイド](./write-datetime-to-excel-complete-guide-for-c-developers/)
 Aspose.Cells for .NET を使用して、C# で Excel に日時データを書き込む方法をステップバイステップで解説します。
 ### [C# で Excel ワークブックを作成 – カスタム数値書式を適用](./create-excel-workbook-in-c-apply-custom-number-format/)
@@ -48,14 +54,15 @@ Aspose.Cells for .NET を使用して、C# で Excel ワークブックを作成
 ### [C# で Excel の日付を解析する方法 – 完全ガイド](./how-to-parse-date-in-excel-with-c-complete-guide/)
 ### [日本の元号で DateTime を解析する – Aspose.Cells を使用](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
 Aspose.Cells を利用して、日本の元号を考慮した DateTime の解析方法をステップバイステップで解説します。
+### [カスタム書式で Excel ワークブックを作成 – C# ガイド](./create-excel-workbook-with-custom-format-c-guide/)
+Aspose.Cells for .NET を使用し、C# でカスタム書式を設定した Excel ワークブックを作成する方法を学びます。
+### [C# で和暦日付を解析する – Aspose.Cells 完全ガイド](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+Aspose.Cells を利用して C# で和暦日付を正しく解析し、Excel に適用する方法をステップバイステップで解説します。
+### [C# で和暦日付をグレゴリオ暦に変換する方法](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+### [C# でカスタム数値書式を使用した Excel ワークブックの作成](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+### [C#で日本のカレンダー CultureInfo を使用して Excel に日付を書き込む方法](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
+このチュートリアルでは、Aspose.Cells for .NET と C# の CultureInfo を使用して、日本の元号カレンダーで日付を書き込む方法を解説します。
 ### [C# でセルのカスタム書式を設定 – Excel の日付の書き込みと読み取りの完全ガイド](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 Aspose.Cells for .NET を使用して、C# でセルのカスタム書式を設定し、Excel の日付を書き込み・読み取りする方法を学びます。
 ### [C# で文字列を DateTime に変換 – Excel で日付を書き込み・読み取り](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
@@ -82,6 +89,6 @@ C#を使用して和暦と西暦の相互変換方法をステップバイステ
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

@@ -73,6 +73,8 @@ Scopri come implementare impostazioni avanzate di protezione del foglio di lavor
 Scopri come implementare impostazioni di protezione avanzate in Excel utilizzando Aspose.Cells per .NET. Controlla chi può modificare i tuoi file in modo efficace.
 ### [Blocca le celle nel foglio di lavoro utilizzando Aspose.Cells](./lock-cells/)
 Scopri come bloccare le celle in Excel utilizzando Aspose.Cells per .NET con questa guida dettagliata. Proteggi i tuoi dati con esempi di codice dettagliati e istruzioni semplici.
+### [Come bloccare la riga di intestazione di Excel con Aspose.Cells in C#](./how-to-lock-excel-header-row-with-aspose-cells-in-c/)
+Scopri come bloccare la riga di intestazione in un foglio Excel usando Aspose.Cells per .NET con C#.
 ### [Specificare l'autore durante la protezione in scrittura della cartella di lavoro tramite Aspose.Cells](./specify-author-write-protect-workbook/)
 In questa esercitazione dettagliata scoprirai come specificare un autore durante la protezione in scrittura di una cartella di lavoro di Excel utilizzando Aspose.Cells per .NET.
 

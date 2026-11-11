@@ -110,6 +110,8 @@ Impara ad automatizzare gli aggiornamenti dei slicer nei file Excel con Aspose.C
 
 ### [Analizza la data con locale in Java – Guida completa passo‑passo](./parse-date-with-locale-in-java-complete-step-by-step-guide/)
 Scopri come analizzare stringhe di data in Java usando il locale corretto, con esempi dettagliati e best practice.
+### [Come usare wrapcols in Java – rimodellare l'array in Excel](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
+Scopri come utilizzare il metodo wrapcols in Aspose.Cells per Java per rimodellare array in un foglio Excel.
 
 ## Risorse aggiuntive
 

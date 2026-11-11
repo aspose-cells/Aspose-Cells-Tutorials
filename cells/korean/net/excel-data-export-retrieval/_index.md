@@ -56,6 +56,9 @@ Aspose.Cells for .NET을 사용해 셀 범위를 테이블로 내보내는 전�
 ### [Excel 테이블 내보내기 – 완전 단계별 가이드](./how-to-export-excel-table-complete-step-by-step-guide/)
 이 튜토리얼에서는 Aspose.Cells for .NET을 사용하여 Excel 테이블을 내보내는 전체 과정을 단계별로 안내합니다.
 
+### [Excel에서 ExportAsString 사용 시 사용자 지정 ExportTableOptions](./custom-exporttableoptions-when-exportasstrin-for-excel/)
+Aspose.Cells for .NET에서 ExportAsString 메서드를 사용할 때 ExportTableOptions를 사용자 지정하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

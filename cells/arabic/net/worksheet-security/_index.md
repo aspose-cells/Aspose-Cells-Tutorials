@@ -71,6 +71,8 @@
 تعرّف على كيفية تطبيق إعدادات الحماية المتقدمة في Excel باستخدام Aspose.Cells لـ .NET. تحكّم في من يمكنه تعديل ملفاتك بفعالية.
 ### [قفل الخلايا في ورقة العمل باستخدام Aspose.Cells](./lock-cells/)
 تعرّف على كيفية قفل الخلايا في Excel باستخدام Aspose.Cells لـ .NET من خلال هذا الدليل المفصل. احمِ بياناتك بأمثلة برمجية مفصلة وتعليمات سهلة.
+### [كيفية قفل صف رأس Excel باستخدام Aspose.Cells في C#](./how-to-lock-excel-header-row-with-aspose-cells-in-c/)
+تعلم كيفية قفل صف العنوان في ورقة Excel لمنع التعديل باستخدام Aspose.Cells مع C# خطوة بخطوة.
 ### [تحديد المؤلف أثناء حماية المصنف من الكتابة باستخدام Aspose.Cells](./specify-author-write-protect-workbook/)
 تعرف على كيفية تحديد مؤلف أثناء حماية مصنف Excel باستخدام Aspose.Cells لـ .NET في هذا البرنامج التعليمي خطوة بخطوة.
 ### [إضافة كلمة مرور إلى Excel – دليل شامل لحماية الورقة](./add-password-to-excel-complete-sheet-protection-guide/)

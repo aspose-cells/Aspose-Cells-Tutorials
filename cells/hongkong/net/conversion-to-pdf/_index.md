@@ -69,8 +69,15 @@
 了解如何使用 Aspose.Cells for .NET 在 C# 中將 XLSX 檔案轉換為符合 PDF/A‑1b 標準的 PDF，步驟完整說明。
 ### [在 C# 中將 Excel 轉換為 PDF – 完整程式指南](./convert-excel-to-pdf-in-c-complete-programming-guide/)
 本完整指南示範如何使用 Aspose.Cells for .NET 在 C# 中將 Excel 檔案轉換為高品質 PDF，步驟清晰易懂。
+### [如何使用 Aspose.Cells 從 Excel 活頁簿儲存 PDF](./how-to-save-pdf-from-an-excel-workbook-with-aspose-cells/)
+本教學示範如何使用 Aspose.Cells 將 Excel 活頁簿直接儲存為 PDF，步驟簡單明瞭。
 ### [如何使用字型變體選擇器儲存 PDF – 完整指南](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
 本完整指南說明如何在 PDF 中正確保存字體變體選擇器，確保文字顯示正確。
+### [使用動態陣列建立 Excel 工作簿並儲存為 PDF](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
+透過 Aspose.Cells for .NET，使用動態陣列功能建立工作簿，並將其直接匯出為 PDF。
+
+### [如何在 C# 中使用 Aspose.Cells 將活頁簿儲存為 PDF](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
+本教學說明如何在 C# 使用 Aspose.Cells 將 Excel 活頁簿儲存為 PDF，步驟簡單明瞭。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

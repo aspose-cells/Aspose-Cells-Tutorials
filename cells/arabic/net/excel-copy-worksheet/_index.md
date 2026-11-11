@@ -46,6 +46,7 @@
 | [كيفية نسخ ورقة عمل في C# باستخدام Aspose.Cells – دليل كامل](./how-to-copy-worksheet-in-c-with-aspose-cells-complete-guide/) | دليل شامل يوضح خطوة بخطوة كيفية نسخ ورقة عمل في C# باستخدام مكتبة Aspose.Cells. |  
 | [نسخ دفتر عمل في C# – تصدير جدول إلى ورقة عمل أخرى](./copy-workbook-in-c-export-table-to-another-worksheet/) | تعلم كيفية نسخ دفتر عمل كامل وتصدير جدول إلى ورقة عمل أخرى باستخدام Aspose.Cells لـ .NET. |
 | [إنشاء أوراق تفاصيل مكررة في Excel باستخدام C#](./create-duplicated-detail-sheets-in-excel-using-c/) | تعلم كيفية إنشاء أوراق تفاصيل مكررة في Excel باستخدام C# مع Aspose.Cells. |
+| [نسخ ورقة عمل مع Pivot في C# باستخدام Aspose.Cells](./copy-worksheet-with-pivot-in-c-using-aspose-cells/) | تعلم كيفية نسخ ورقة عمل تحتوي على Pivot باستخدام Aspose.Cells في C# خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

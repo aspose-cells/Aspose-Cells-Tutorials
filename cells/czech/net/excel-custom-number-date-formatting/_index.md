@@ -60,6 +60,10 @@ Naučte se, jak pomocí Aspose.Cells v C# vytvořit Excel sešit a rozparsovat j
 
 ### [Parsování DateTime s japonským císařským obdobím pomocí Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
 Naučte se, jak pomocí Aspose.Cells zpracovat datum a čas podle japonského císařského kalendáře v C#.
+### [Jak vytvořit Excel sešit v C# s vlastním číselným formátováním](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
+Kompletní průvodce vytvořením Excel sešitu v C# a aplikací vlastního číselného formátu pomocí Aspose.Cells.
+### [Jak převést japonské datum v éře na gregoriánské v C#](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+Naučte se, jak pomocí Aspose.Cells v C# převést japonské datum v éře na gregoriánský formát.
 
 
 
@@ -92,6 +96,10 @@ Naučte se, jak pomocí Aspose.Cells nastavit číselný formát v Excelu v C#.
 Naučte se, jak pomocí Aspose.Cells v C# formátovat datumové sloupce a exportovat DataTable do Excelu.
 ### [Konverze japonského kalendáře v C# – Kompletní průvodce](./japanese-calendar-conversion-in-c-full-guide/)
 Kompletní průvodce konverzí japonského kalendáře v C# pomocí Aspose.Cells.
+### [Jak aplikovat vlastní číselný formát v Excelu v C#](./how-to-apply-a-custom-number-format-excel-in-c/)
+Naučte se, jak pomocí Aspose.Cells v C# aplikovat vlastní číselný formát v Excelu.
+### [Jak použít japonský kalendář CultureInfo v C# k zápisu dat do Excelu](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
+Naučte se, jak pomocí Aspose.Cells v C# zapisovat data do Excelu s využitím japonského kalendáře CultureInfo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

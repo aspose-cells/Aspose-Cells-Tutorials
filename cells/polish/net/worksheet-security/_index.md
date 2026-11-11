@@ -74,6 +74,8 @@ tym kompleksowym przewodniku krok po kroku dowiesz się, jak wdrożyć zaawansow
 Dowiedz się, jak wdrożyć zaawansowane ustawienia ochrony w programie Excel przy użyciu Aspose.Cells dla .NET. Kontroluj, kto może skutecznie edytować Twoje pliki.
 ### [Blokowanie komórek w arkuszu kalkulacyjnym za pomocą Aspose.Cells](./lock-cells/)
 Dowiedz się, jak blokować komórki w programie Excel za pomocą Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Chroń swoje dane dzięki szczegółowym przykładom kodu i łatwym instrukcjom.
+### [Jak zablokować wiersz nagłówka w Excelu przy użyciu Aspose.Cells w C#](./how-to-lock-excel-header-row-with-aspose-cells-in-c/)
+Dowiedz się, jak przy pomocy Aspose.Cells w C# zablokować wiersz nagłówka w arkuszu Excel, aby chronić go przed edycją.
 ### [Określ autora podczas ochrony skoroszytu przed zapisem za pomocą Aspose.Cells](./specify-author-write-protect-workbook/)
 W tym samouczku krok po kroku dowiesz się, jak określić autora podczas ochrony skoroszytu programu Excel przed zapisem przy użyciu Aspose.Cells dla platformy .NET.
 

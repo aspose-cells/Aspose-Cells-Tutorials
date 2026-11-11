@@ -56,6 +56,9 @@
 ### [Πώς να εξάγετε πίνακα Excel – Πλήρης οδηγός βήμα προς βήμα](./how-to-export-excel-table-complete-step-by-step-guide/)
 Μάθετε πώς να εξάγετε πίνακες Excel εύκολα με το Aspose.Cells για .NET, ακολουθώντας έναν πλήρη βήμα‑βήμα οδηγό.
 
+### [Προσαρμοσμένες ExportTableOptions κατά την ExportAsStrin για Excel](./custom-exporttableoptions-when-exportasstrin-for-excel/)
+Μάθετε πώς να χρησιμοποιήσετε τις προσαρμοσμένες ExportTableOptions κατά την εξαγωγή σε συμβολοσειρά για Excel.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

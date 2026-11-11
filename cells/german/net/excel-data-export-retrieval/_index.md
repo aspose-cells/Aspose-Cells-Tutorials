@@ -37,10 +37,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Daten per C# exportieren 
 ### [Arbeitsblattbereich in C# exportieren – Vollständiger Programmierleitfaden](./export-worksheet-range-in-c-complete-programming-guide/)
 Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET einen Arbeitsblattbereich in C# exportieren.
 
-
-
-
-
+### [Benutzerdefinierte ExportTableOptions beim ExportAsString für Excel](./custom-exporttableoptions-when-exportasstrin-for-excel/)
+Erfahren Sie, wie Sie mit Aspose.Cells benutzerdefinierte ExportTableOptions beim Exportieren von Excel als Zeichenfolge verwenden.
 
 
 

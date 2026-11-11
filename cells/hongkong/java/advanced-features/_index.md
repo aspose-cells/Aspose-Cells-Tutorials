@@ -109,6 +109,8 @@ A code tutorial for Aspose.Words Java
 
 ### [在 Java 中使用區域設定解析日期 – 完整步驟指南](./parse-date-with-locale-in-java-complete-step-by-step-guide/)
 學習如何在 Java 中使用 Locale 解析日期，包含格式化、語系設定與完整範例。
+### [如何在 Java 中使用 wrapcols 重新排列 Excel 陣列](./how-to-use-wrapcols-in-java-reshape-array-in-excel/)
+學習如何在 Java 中使用 wrapcols 重新排列 Excel 陣列。
 
 ## 其他資源
 

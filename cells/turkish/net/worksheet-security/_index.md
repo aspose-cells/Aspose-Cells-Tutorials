@@ -38,6 +38,9 @@ Ama bekleyin, ya bir sayfanın kilitli kısımlarına erişmeniz gerekirse? Soru
 
 Hiç yerinde durmayan o sinir bozucu hücrelerle uğraştınız mı? Yalnız değilsiniz! Birçok Excel kullanıcısı bu sorunla karşı karşıyadır ve bu yüzden hücreleri kilitlemek çok değerli bir beceridir. Ayrıntılı eğitimimiz ile [Çalışma Sayfasındaki Hücreleri Kilitle](./lock-cells/), istenmeyen düzenlemeleri önleyerek verilerinizi güçlendirmenin kolay yöntemlerini keşfedeceksiniz. Bunu, elektronik tablonuzun belirli bölümlerine "Rahatsız Etmeyin" işareti koymak gibi düşünün. Formülleri ve önemli girdileri koruyabilecek ve böylece yanlışlıkla değişiklik yapma korkusu olmadan daha özgürce çalışabileceksiniz. 
 
+### [Aspose.Cells ile C#'ta Excel başlık satırını kilitleme](./how-to-lock-excel-header-row-with-aspose-cells-in-c/)
+Aspose.Cells for .NET kullanarak C# ile Excel dosyanızdaki başlık satırını nasıl kilitleyeceğinizi öğrenin.
+
 ## Çalışma Sayfası Güvenlik Eğitimleri
 ### [Kullanıcıların Aspose.Cells kullanarak Çalışma Sayfasındaki Aralıkları Düzenlemesine İzin Ver](./allow-edit-ranges/)
 Aspose.Cells for .NET kullanarak Excel çalışma sayfalarında düzenlenebilir aralıklar oluşturmayı öğrenin; böylece belirli hücrelerin düzenlenebilir olmasına izin verirken geri kalanını çalışma sayfası korumasıyla güvence altına alın.
@@ -56,7 +59,7 @@ Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak bir Excel çalışma 
 ### [Aspose.Cells'i kullanarak tüm çalışma sayfasını koruyun](./protect-worksheet/)
 Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasını parola ile nasıl koruyacağınızı öğrenin. Verilerinizi kolaylıkla güvence altına almak için adım adım eğitim.
 ### [Aspose.Cells kullanarak Çalışma Sayfasındaki Satırları Koruyun](./protect-rows/)
-Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasındaki satırları nasıl koruyacağınızı öğrenin. Verilerinizi satır düzeyinde korumayla güvence altına alın ve yanlışlıkla yapılan değişiklikleri önleyin.
+Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasındaki satırları nasıl koruyacağınızı öğrenin. Verilerinizi satır düzeyinde korumayla güvenceye alın ve yanlışlıkla yapılan değişiklikleri önleyin.
 ### [Aspose.Cells kullanarak Parola Korumalı Çalışma Sayfasının Korumasını Kaldırın](./unprotect-password-worksheet/)
 Aspose.Cells rehberimizle parola korumalı Excel sayfalarınızın kilidini açın! C# kullanarak zahmetsizce erişimi yeniden sağlamak için kolay adımlar. 
 ### [Aspose.Cells kullanarak Basitçe Korunan Çalışma Sayfasının Korumasını Kaldırın](./unprotect-simply-protected/)

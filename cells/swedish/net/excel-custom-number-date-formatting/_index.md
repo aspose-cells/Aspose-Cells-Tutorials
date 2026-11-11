@@ -46,10 +46,14 @@ Lär dig hur du tolkar datum och tid med japansk kejsarperiod i Excel med Aspose
 Lär dig hur du använder Aspose.Cells för .NET för att applicera anpassade talformat vid export av kalkylblad i C# med tydliga exempel.
 ### [Hur du tillämpar talformat i Excel med Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
 Lär dig hur du applicerar anpassade talformat i Excel med Aspose.Cells för .NET i denna steg‑för‑steg‑guide.
+### [Hur du tillämpar ett anpassat talformat i Excel i C#](./how-to-apply-a-custom-number-format-excel-in-c/)
+Lär dig hur du använder Aspose.Cells för .NET för att applicera anpassade talformat i Excel med C# i denna steg‑för‑steg‑guide.
 ### [Skriv datum och tid till Excel – Komplett guide för C#-utvecklare](./write-datetime-to-excel-complete-guide-for-c-developers/)
 Lär dig hur du skriver datum och tid till Excel med Aspose.Cells för .NET i en komplett guide för C#-utvecklare.
 ### [Skapa Excel-arbetsbok i C# – Använd anpassat talformat](./create-excel-workbook-in-c-apply-custom-number-format/)
 Lär dig hur du skapar en Excel-arbetsbok i C# och tillämpar ett anpassat talformat med Aspose.Cells för .NET.
+### [Skapa Excel-arbetsbok i C# med anpassat talformat](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
+Lär dig hur du skapar en Excel-arbetsbok i C# med anpassade talformat med Aspose.Cells.
 ### [Hur du parsar datum i Excel med C# – Komplett guide](./how-to-parse-date-in-excel-with-c-complete-guide/)
 Lär dig hur du parsar datum i Excel med C# i den här kompletta guiden.
 ### [Skapa Excel-arbetsbok med anpassat format – C#-guide](./create-excel-workbook-with-custom-format-c-guide/)
@@ -62,6 +66,8 @@ Lär dig hur du skapar en Excel-arbetsbok och tolkar japanska datum i C# med Asp
 
 
 
+### [Hur du konverterar japanskt era-datum till gregorianskt i C#](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+Lär dig hur du konverterar japanska era-datum till gregorianska datum i C# med Aspose.Cells.
 
 
 
@@ -86,6 +92,8 @@ Lär dig hur du anger datumformat i Excel med C# i en detaljerad steg‑för‑s
 Lär dig hur du ställer in datumformat i Excel med C# och Aspose.Cells för .NET i den här omfattande importformateringsguiden.
 ### [Skapa Excel-arbetsbok med japanska kalenderdatum – Fullständig guide](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
 Lär dig hur du skapar en Excel-arbetsbok med japanska kalenderdatum med Aspose.Cells för .NET i den här kompletta guiden.
+### [Hur du använder japansk kalender CultureInfo i C# för att skriva datum till Excel](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
+Lär dig hur du använder japansk kalender CultureInfo i C# för att skriva datum till Excel med Aspose.Cells.
 ### [Skapa Excel-arbetsbok C# – Begränsa signifikanta siffror i Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
 Lär dig hur du skapar en Excel-arbetsbok i C# och begränsar antalet signifikanta siffror med Aspose.Cells för .NET.
 ### [Formatera datumkolumn i Excel – Komplett C#-guide för att exportera DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)

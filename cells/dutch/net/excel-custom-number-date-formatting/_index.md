@@ -30,6 +30,9 @@ Laten we het nu hebben over gegevensimport. Het verplaatsen van gegevens naar Ex
 Deze tutorial leert je hoe je je datasets kunt importeren en tegelijkertijd de integriteit van formulevelden kunt behouden. Stel je voor: je hebt financiële prognoses in een CSV-bestand en je moet dit importeren in Excel zonder die belangrijke formules te verliezen. We laten je zien hoe je dat doet met duidelijke voorbeelden en best practices die ervoor zorgen dat je data intact en bruikbaar overkomt. [Lees verder](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 
 ## Zelfstudies voor aangepaste getal- en datumopmaak in Excel
+### [How to convert Japanese era date to Gregorian in C#](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+
+
 ### [Controleren of een celwaarde een specifiek aangepast getalformaat heeft](./check-if-a-cell-value-is-in-a-specific-custom-number-format/)
 Leer hoe u Excel-celwaarden controleert aan de hand van aangepaste getalnotaties met Aspose.Cells voor .NET met deze stapsgewijze zelfstudie.
 ### [Formulevelden specificeren bij het importeren van gegevens naar een Excel-blad](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
@@ -52,6 +55,8 @@ Leer hoe u met Aspose.Cells voor .NET datumwaarden in Excel kunt parseren met C#
 Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap maakt met aangepaste opmaak in C#.
 ### [Japanse jaartijd datum parseren in C# met Aspose.Cells – Volledige gids](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Leer hoe u met Aspose.Cells Japanse jaartijddatums in C# kunt parseren en correct kunt weergeven in Excel.
+### [Hoe een Excel-werkmap maken in C# met aangepaste getalopmaak](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
+Leer hoe u met Aspose.Cells een Excel-werkmap maakt in C# en aangepaste getalopmaak toepast.
 
 ### [Hoe een Excel-werkmap te maken en Japanse datums te parseren in C#](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
 Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap maakt en Japanse datums parseert in C#.
@@ -83,11 +88,15 @@ Leer hoe u met Aspose.Cells voor .NET het datumformaat in Excel instelt via C# m
 Leer hoe u met Aspose.Cells voor .NET de datumopmaak in Excel instelt tijdens een volledige import.
 ### [Excel-werkmap maken met Japanse kalenderdatums – Volledige gids](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
 Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap maakt met Japanse kalenderdatums in een volledige stap‑voor‑stap gids.
+### [Hoe u de Japanse kalender CultureInfo in C# gebruikt om datums naar Excel te schrijven](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
+Leer hoe u met Aspose.Cells de Japanse kalender CultureInfo toepast om datums naar Excel te schrijven in C#.
 ### [Excel-werkmap maken C# – Beperk significante cijfers in Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
 Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap maakt en het aantal significante cijfers beperkt.
 
 ### [Hoe een getalopmaak toe te passen in Excel met Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
 Leer hoe u met Aspose.Cells een aangepast getalformaat in Excel toepast via C#.
+### [Hoe een aangepast getalformaat in Excel toe te passen in C#](./how-to-apply-a-custom-number-format-excel-in-c/)
+Leer hoe u met Aspose.Cells een aangepast getalformaat in Excel toepast met C#.
 ### [Datumkolom opmaken in Excel – Complete C#-gids voor het exporteren van DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
 Leer hoe u met Aspose.Cells een datumkolom in Excel opmaakt en een DataTable exporteert via C#.
 ### [Japanse kalenderconversie in C# – volledige gids](./japanese-calendar-conversion-in-c-full-guide/)

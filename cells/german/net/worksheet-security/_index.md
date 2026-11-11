@@ -75,6 +75,8 @@ Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Zellen in Excel m
 Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie beim Schreibschutz einer Excel-Arbeitsmappe mit Aspose.Cells für .NET einen Autor angeben.
 ### [Passwort zu Excel hinzufügen – Vollständiger Leitfaden zum Blattschutz](./add-password-to-excel-complete-sheet-protection-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Passwort hinzufügen, um ein Excel-Arbeitsblatt vollständig zu schützen.
+### [Excel-Headerzeile mit Aspose.Cells in C# sperren](./how-to-lock-excel-header-row-with-aspose-cells-in-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET die Kopfzeile eines Excel‑Blatts in C# sperren, um sie vor Änderungen zu schützen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

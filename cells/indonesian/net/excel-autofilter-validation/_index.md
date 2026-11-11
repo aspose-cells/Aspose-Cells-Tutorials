@@ -52,12 +52,18 @@ Panduan lengkap langkah demi langkah menggunakan AutoFilter dalam otomatisasi Ex
 
 ### [Menghapus Autofilter Excel di C# – Panduan Lengkap Langkah demi Langkah](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Panduan lengkap untuk menghapus autofilter pada file Excel menggunakan Aspose.Cells di C# dengan contoh kode langkah demi langkah.
+### [Hapus AutoFilter di Excel dengan C# – Panduan Langkah demi Langkah](./remove-autofilter-in-excel-with-c-step-by-step-guide/)
+Pelajari cara menghapus AutoFilter di Excel menggunakan Aspose.Cells dengan C# dalam panduan langkah demi langkah.
+### [Cara menonaktifkan AutoFilter di Excel dengan C# – Panduan Lengkap](./how-to-disable-autofilter-in-excel-with-c-complete-guide/)
+Panduan lengkap untuk menonaktifkan AutoFilter di Excel menggunakan C# dengan contoh kode praktis.
 ### [Bersihkan UI Filter di Excel dengan C# – Hapus Tombol AutoFilter](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 Pelajari cara menghilangkan tombol AutoFilter di Excel menggunakan Aspose.Cells dengan C# untuk tampilan yang lebih bersih.
 ### [Sembunyikan Panah Filter di Excel dengan C# – Panduan Lengkap](./hide-filter-arrows-excel-with-c-complete-guide/)
 Pelajari cara menyembunyikan panah filter di Excel menggunakan C# dengan Aspose.Cells dalam panduan lengkap ini.
 ### [Menambahkan Tabel ke Excel dengan C# – Hapus Autofilter dan Simpan File](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
 Pelajari cara menambahkan tabel ke Excel, menghapus autofilter, dan menyimpan file menggunakan Aspose.Cells for .NET.
+### [Hapus autofilter dari Excel di C# – panduan lengkap](./remove-autofilter-from-excel-in-c-complete-guide/)
+Pelajari cara menghapus autofilter di Excel menggunakan Aspose.Cells dengan C# dalam panduan lengkap ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

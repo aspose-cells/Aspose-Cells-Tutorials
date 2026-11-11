@@ -52,6 +52,8 @@ Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang XPS trong C# v�
 Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang XPS bằng C# với Aspose.Cells, kèm ví dụ mã thực tế.
 ### [Cách bật phông chữ khi chuyển đổi Excel sang XPS – Hướng dẫn đầy đủ](./how-to-enable-fonts-when-converting-excel-to-xps-complete-gu/)
 Hướng dẫn chi tiết cách bật phông chữ trong quá trình chuyển đổi tệp Excel sang XPS bằng Aspose.Cells cho .NET.
+### [Cách chuyển đổi Excel sang XPS trong C# bằng Aspose.Cells](./how-to-convert-excel-to-xps-in-c-using-aspose-cells/)
+Hướng dẫn chi tiết cách chuyển đổi tệp Excel sang XPS bằng C# sử dụng Aspose.Cells, kèm ví dụ mã thực tế.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

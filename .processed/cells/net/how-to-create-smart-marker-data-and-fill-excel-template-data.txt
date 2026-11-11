@@ -1,0 +1,7 @@
+Title: How to create smart marker data and fill Excel template data
+Slug: how-to-create-smart-marker-data-and-fill-excel-template-data
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-10-10T23:57:33.745312
+SourceRepo: AI Search API
+Keywords: create smart marker data, fill excel template data, use aspose.cells smart markers
+PRNumber: 188

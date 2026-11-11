@@ -56,6 +56,9 @@ Naučte se, jak pomocí Aspose.Cells pro .NET vytvořit Excel soubor z objektu D
 ### [Jak exportovat tabulku Excel – kompletní průvodce krok za krokem](./how-to-export-excel-table-complete-step-by-step-guide/)
 Naučte se exportovat tabulky Excel pomocí Aspose.Cells pro .NET v podrobném průvodci s praktickými ukázkami.
 
+### [Vlastní ExportTableOptions při ExportAsString pro Excel](./custom-exporttableoptions-when-exportasstrin-for-excel/)
+Naučte se, jak použít vlastní ExportTableOptions při exportu jako řetězec v Excelu pomocí Aspose.Cells pro .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

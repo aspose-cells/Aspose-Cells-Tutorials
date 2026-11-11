@@ -32,6 +32,8 @@ Następne jest kolejne typowe wyzwanie: wstawianie wierszy DataTable do programu
 W tym łatwym do zrozumienia samouczku dowiesz się, jak importować dane do programu Excel z niestandardowym formatowaniem DB Num przy użyciu Aspose.Cells dla platformy .NET.
 ### [Przesuń pierwszy wiersz w dół podczas wstawiania wierszy tabeli danych w programie Excel](./shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/)
 Naucz się wstawiać wiersze DataTable w programie Excel bez przesuwania pierwszego wiersza w dół za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku dla bezproblemowej automatyzacji.
+### [Jak zaimportować DataTable do arkusza Excel przy użyciu C#](./how-to-import-datatable-into-an-excel-worksheet-using-c/)
+Dowiedz się, jak w prosty sposób zaimportować obiekt DataTable do arkusza Excel przy użyciu Aspose.Cells w C#.
 ### [Generuj Excel z JSON w C# – przewodnik krok po kroku](./generate-excel-from-json-in-c-step-by-step-guide/)
 Dowiedz się, jak w prosty sposób wygenerować plik Excel z danych JSON przy użyciu Aspose.Cells w C#.
 ### [Eksportuj Excel do DataTable w C# – przewodnik krok po kroku](./how-to-export-excel-to-a-datatable-in-c-step-by-step-guide/)
@@ -61,6 +63,8 @@ Dowiedz się, jak przekształcić tablicę JSON w plik Excel przy użyciu Aspose
 Dowiedz się, jak przekształcić arkusz Excel w obiekt DataTable w C# przy użyciu Aspose.Cells dla .NET.
 ### [Import JSON do Excela przy użyciu Aspose.Cells – Kompletny przewodnik programistyczny](./import-json-to-excel-with-aspose-cells-complete-programming/)
 Dowiedz się, jak zaimportować pliki JSON do Excela przy użyciu Aspose.Cells w pełnym przewodniku programistycznym.
+### [Konwertuj JSON do XLSX w C# – kompletny przewodnik krok po kroku](./convert-json-to-xlsx-in-c-complete-step-by-step-guide/)
+Dowiedz się, jak przekształcić plik JSON w arkusz XLSX w C# przy użyciu Aspose.Cells, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

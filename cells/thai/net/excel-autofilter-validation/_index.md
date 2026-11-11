@@ -42,15 +42,10 @@
 ### [รับตารางแรกจากเวิร์กบุ๊ก Excel ใน C# – คู่มือฉบับสมบูรณ์](./get-first-table-from-excel-workbook-in-c-complete-guide/)
 เรียนรู้วิธีดึงตารางแรกจากไฟล์ Excel ด้วย Aspose.Cells ใน C# อย่างละเอียดและง่ายต่อการทำตาม
 
-
-
-
-
-
-
-
 ### [การลบ Autofilter ใน Excel ด้วย C# – คู่มือขั้นตอนเต็ม](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 เรียนรู้วิธีลบ Autofilter จากไฟล์ Excel ด้วย Aspose.Cells ใน .NET อย่างละเอียดและง่ายดาย
+### [การลบ AutoFilter ใน Excel ด้วย C# – คู่มือขั้นตอนโดยละเอียด](./remove-autofilter-in-excel-with-c-step-by-step-guide/)
+เรียนรู้วิธีลบ AutoFilter จากไฟล์ Excel ด้วย C# อย่างละเอียดตามขั้นตอน
 ### [ล้าง UI ตัวกรองใน Excel ด้วย C# – ลบปุ่ม AutoFilter](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 วิธีซ่อนหรือเอาปุ่ม AutoFilter ออกจากแถบเครื่องมือใน Excel ด้วย Aspose.Cells สำหรับ .NET เพื่อ UI ที่สะอาดตา
 ### [ซ่อนลูกศรตัวกรองใน Excel ด้วย C# – คู่มือฉบับสมบูรณ์](./hide-filter-arrows-excel-with-c-complete-guide/)
@@ -60,6 +55,11 @@
 
 ### [วิธีลบ Autofilter จากตาราง Excel ด้วย C#](./how-to-remove-autofilter-from-excel-tables-using-c/)
 เรียนรู้วิธีลบ Autofilter จากตาราง Excel อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET ด้วยคู่มือ C# ที่ครบถ้วน
+### [ลบ AutoFilter จาก Excel ด้วย C# – คู่มือฉบับสมบูรณ์](./remove-autofilter-from-excel-in-c-complete-guide/)
+วิธีลบ AutoFilter จาก Excel ด้วย C# อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET
+
+### [วิธีปิด AutoFilter ใน Excel ด้วย C# – คู่มือฉบับสมบูรณ์](./how-to-disable-autofilter-in-excel-with-c-complete-guide/)
+เรียนรู้วิธีปิดการทำงานของ AutoFilter ในไฟล์ Excel ด้วย Aspose.Cells และ C# อย่างละเอียดและง่ายดาย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

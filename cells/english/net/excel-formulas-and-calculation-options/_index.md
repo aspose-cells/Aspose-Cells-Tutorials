@@ -75,9 +75,10 @@ Unlock Excel's potential with Aspose.Cells for .NET. Learn step-by-step how to p
 ### [Processing Data Using Array Function in Excel](./processing-data-using-array-function/)
 Unlock the power of Excel with Aspose.Cells for .NET. Learn to process data using array functions in this detailed tutorial.
 ### [How to Use WRAPCOLS in C# – Reshape Arrays to Matrices](./how-to-use-wrapcols-in-c-reshape-arrays-to-matrices/)
-Learn to reshape arrays into matrices using WRAPCOLS in C# with Aspose.Cells for .NET in this step-by-step guide.
 ### [How to create Excel workbook and split data with WRAPCOLS in C#](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
 Learn how to create an Excel workbook and split its data using the WRAPCOLS function in C# with Aspose.Cells.
+### [How to Use WRAPCOLS in C# for Excel Arrays and Workbook Saving](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
+Learn how to use WRAPCOLS in C# to reshape Excel arrays and save the workbook with Aspose.Cells for .NET.
 ### [Processing Data Using Built-In Functions in Excel](./processing-data-using-built-in-functions/)
 Discover how to process data using built-in functions in Excel with Aspose.Cells for .NET. Follow a step-by-step tutorial for easy automation.
 ### [Processing Data Using R1C1 in Excel](./processing-data-using-r1c1/)
@@ -95,7 +96,6 @@ Step-by-step guide to calculate cotangent in Excel using C# with Aspose.Cells fo
 ### [How to Expand Array in C# with Aspose.Cells – Step‑by‑Step Guide](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Learn how to expand an array in C# using Aspose.Cells with this step‑by‑step guide.
 ### [How to Create Array in Excel with C# – Step‑by‑Step Guide](./how-to-create-array-in-excel-with-c-step-by-step-guide/)
-Learn how to create an array in Excel using C# with Aspose.Cells for .NET in this step-by-step guide.
 ### [How to Calculate Cotangent in Excel with C# – Complete Guide](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 Learn how to calculate cotangent in Excel using C# with Aspose.Cells for .NET in this comprehensive guide.
 ### [Apply Array Formula Excel in C# – Complete Guide](./apply-array-formula-excel-in-c-complete-guide/)
@@ -104,6 +104,11 @@ Learn how to apply array formulas in Excel using C# with Aspose.Cells for .NET i
 Master the WRAPCOLS function in C# with Aspose.Cells for .NET. Follow this complete guide for efficient Excel automation.
 ### [How to create Excel workbook in C# with the EXPAND function](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
 Learn to generate an Excel workbook in C# using the EXPAND function with Aspose.Cells for .NET in this step‑by‑step guide.
+### [How to create Excel workbook C# with a dynamic array formula](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
+Learn how to generate an Excel workbook in C# using a dynamic array formula with Aspose.Cells for .NET.
+
+### [How to create Excel workbook in C# and set formulas](./how-to-create-excel-workbook-in-c-and-set-formulas/)
+Learn how to generate an Excel workbook in C# and apply formulas using Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

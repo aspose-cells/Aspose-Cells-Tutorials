@@ -75,6 +75,8 @@
 透過本逐步指南了解如何使用 Aspose.Cells for .NET 鎖定 Excel 中的儲存格。使用詳細的程式碼範例和簡單的說明保護您的資料。
 ### [使用 Aspose.Cells 寫入保護工作簿時指定作者](./specify-author-write-protect-workbook/)
 在本逐步教學中學習如何使用 Aspose.Cells for .NET 在寫入保護 Excel 工作簿時指定作者。
+### [使用 Aspose.Cells 在 C# 中鎖定 Excel 標題列](./how-to-lock-excel-header-row-with-aspose-cells-in-c/)
+了解如何使用 Aspose.Cells for .NET 在 C# 程式碼中鎖定 Excel 工作表的標題列，防止未授權編輯。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -51,11 +51,16 @@
 
 HTML 匯出中一個經常被忽略的方面是自閉合標籤的管理。 Excel 工作表可能很複雜，包含可能需要特定格式的各種元素，例如影像或空白儲存格。關於以程式設計方式識別自閉合標籤的教學將引導您無縫提取這些元素，確保您的輸出 HTML 乾淨且結構良好。想像簡化您的程式碼並使您的 HTML 更符合 Web 標準 - 聽起來很棒，對吧？ [點此了解詳情](./recognizing-self-closing-tags/).
 
+### [How to use wrapcols and embed fonts saving Excel to HTML](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+
+
 ### [如何在 C# 中匯出 Excel 為 HTML – 保留凍結窗格](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
 了解如何使用 Aspose.Cells for .NET 在匯出 Excel 為 HTML 時保留凍結窗格。
 
-## 有效率地為表格元素樣式加上前綴
+### [如何在 C# 中將 xlsx 匯出為 HTML 並保留凍結窗格](./how-to-export-xlsx-to-html-with-frozen-panes-in-c/)
+了解如何使用 Aspose.Cells for .NET 在匯出 xlsx 為 HTML 時保留凍結窗格。
 
+### [有效率地為表格元素樣式加上前綴](./prefixing-table-elements-styles/)
 將表格資料進行樣式化可以增強可讀性和美感。使用 Aspose.Cells，您可以了解如何使用 HTML 儲存選項為表格元素樣式新增前綴。此功能可讓您引入自訂樣式或配置，以提高匯出的 HTML 的整體顯示品質。想想看—您可以創建與您的品牌個性產生共鳴的視覺上有凝聚力的報告。有興趣像專業人士一樣進行造型嗎？ [查看本指南](./prefixing-table-elements-styles/).
 
 ## 設定單頁選項卡名稱
@@ -78,8 +83,6 @@ HTML 匯出中一個經常被忽略的方面是自閉合標籤的管理。 Excel
 透過本詳細的逐步指南，了解如何使用 Aspose.Cells for .NET 以程式設計方式從 Excel 儲存格中擷取 HTML5 字串。
 ### [儲存為 HTML 時使用「隱藏右側十字」功能隱藏疊加內容](./hiding-overlaid-content-with-cross-hide-right/)
 在本綜合指南中了解如何使用 Aspose.Cells for .NET 將 Excel 儲存為 HTML 時隱藏覆蓋內容。
-### [使用 HTML 儲存選項為表格元素樣式新增前綴](./prefixing-table-elements-styles/)
-了解如何使用 Aspose.Cells for .NET 在 HTML 中為表格樣式新增前綴，並透過逐步範例增強您的 Excel 匯出功能。
 ### [在 Excel 中以程式設計方式列印標題](./printing-headings/)
 使用 Aspose.Cells for .NET 依照逐步指南輕鬆在 Excel 中列印標題。將您的資料整齊地匯出為 HTML 並給您的觀眾留下深刻印象。
 ### [在 Excel 中以程式設計方式識別自閉合標籤](./recognizing-self-closing-tags/)
@@ -94,14 +97,21 @@ HTML 匯出中一個經常被忽略的方面是自閉合標籤的管理。 Excel
 使用 Aspose.Cells for .NET 在 HTML 匯出期間輕鬆設定單一工作表標籤名稱。包含程式碼範例的分步指南。
 ### [如何在 HTML 中嵌入字型 – 完整 C# 指南](./how-to-embed-fonts-in-html-complete-c-guide/)
 透過本完整 C# 教學，了解如何在 HTML 匯出時嵌入字型，確保文字顯示一致且跨平台兼容。
+### [在儲存工作簿時將字型嵌入 HTML](./how-to-embed-fonts-in-html-when-saving-a-workbook/)
+了解如何在儲存工作簿為 HTML 時嵌入字型，以確保文字顯示一致且跨平台兼容。
 ### [將 Excel 儲存為 HTML – 完整 C# 指南](./save-excel-as-html-complete-c-guide/)
-透過本完整的 C# 教學，了解如何使用 Aspose.Cells for .NET 將 Excel 檔案匯出為 HTML。
 ### [在匯出 Excel 為 HTML 時嵌入字型 – 完整 C# 指南](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-guide/)
 透過本完整的逐步指南了解如何使用 Aspose.Cells for .NET 在匯出為 HTML 時保留凍結窗格，提升報表可讀性。
 ### [在匯出 Excel 為 HTML 時嵌入字型 – C#](./how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
 ### [在匯出 Excel 為 HTML 時嵌入字型 – 完整 C# 教學](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
 ### [在 HTML 中嵌入字型 – 使用 C# 將 Excel 轉換為 HTML](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
 了解如何使用 Aspose.Cells for .NET 在匯出 HTML 時嵌入字型，確保文字在所有瀏覽器中正確顯示。
+### [在匯出 Excel 為 HTML 時嵌入字型 – 完整 C# 教學](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
+了解如何使用 Aspose.Cells for .NET 在匯出 Excel 為 HTML 時嵌入字型，提供完整的 C# 程式碼範例與步驟說明。
+### [在 HTML 中嵌入字型 – 使用 C# 將 Excel 轉換為 HTML](./embed-fonts-in-html-convert-excel-to-html-with-c/)
+了解如何使用 Aspose.Cells for .NET 在 HTML 匯出時嵌入字型，確保文字在瀏覽器中正確顯示。
+### [如何在將 Excel 轉換為 HTML 時嵌入字型 – Aspose.Cells](./how-to-embed-fonts-when-converting-excel-to-html-with-aspose/)
+了解如何在使用 Aspose.Cells 將 Excel 轉換為 HTML 時嵌入字型，確保在瀏覽器中正確顯示文字。
 ### [如何將字型嵌入 HTML（從 Excel）完整指南](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
 了解使用 Aspose.Cells for .NET 在將 Excel 匯出為 HTML 時嵌入字型的完整步驟，確保在瀏覽器中正確顯示字體。
 ### [如何將 Excel 匯出為 HTML – 步驟說明指南](./how-to-export-excel-to-html-step-by-step-guide/)
@@ -132,6 +142,10 @@ HTML 匯出中一個經常被忽略的方面是自閉合標籤的管理。 Excel
 ### [將 Excel 儲存為 HTML – 完整指南：匯出具格式的 Excel](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
 本完整指南說明如何使用 Aspose.Cells for .NET 將 Excel 匯出為保留格式的 HTML，涵蓋所有關鍵設定與範例。
 ### [將 Excel 匯出為 HTML – 完整指南：保留凍結窗格](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
+本完整指南說明如何使用 Aspose.Cells for .NET 在匯出為 HTML 時保留凍結窗格，提升報表可讀性。
+
+### [將 XLSX 轉換為 HTML 時嵌入字型](./how-to-embed-fonts-html-when-you-convert-an-xlsx-to-html-wit/)
+了解如何使用 Aspose.Cells 在將 XLSX 轉換為 HTML 時嵌入字型，以確保文字顯示一致。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

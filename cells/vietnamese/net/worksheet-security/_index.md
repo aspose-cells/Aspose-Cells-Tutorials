@@ -73,6 +73,8 @@ Tìm hiểu cách triển khai các thiết lập bảo vệ bảng tính nâng 
 Tìm hiểu cách triển khai cài đặt bảo vệ nâng cao trong Excel bằng Aspose.Cells cho .NET. Kiểm soát ai có thể chỉnh sửa tệp của bạn một cách hiệu quả.
 ### [Khóa ô trong bảng tính bằng Aspose.Cells](./lock-cells/)
 Tìm hiểu cách khóa ô trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Bảo vệ dữ liệu của bạn bằng các ví dụ mã chi tiết và hướng dẫn dễ dàng.
+### [Cách khóa hàng tiêu đề Excel bằng Aspose.Cells trong C#](./how-to-lock-excel-header-row-with-aspose-cells-in-c/)
+Hướng dẫn cách khóa hàng tiêu đề trong bảng tính Excel bằng Aspose.Cells cho .NET sử dụng C#.
 ### [Chỉ định Tác giả khi Viết Bảo vệ Sổ làm việc bằng Aspose.Cells](./specify-author-write-protect-workbook/)
 Tìm hiểu cách chỉ định tác giả khi viết bảo vệ sổ làm việc Excel bằng Aspose.Cells cho .NET trong hướng dẫn từng bước này.
 

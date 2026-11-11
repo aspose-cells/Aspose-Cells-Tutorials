@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การจัดการแถวและคอลัมน์
@@ -54,6 +56,8 @@
 ### [สร้างแถวสรุปทางขวาด้วย Aspose.Cells สำหรับ .NET](./summary-row-right/)
 เรียนรู้วิธีสร้างแถวสรุปทางด้านขวาใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อรับคำแนะนำที่ชัดเจน
 ### [ยกเลิกการจัดกลุ่มแถวและคอลัมน์ใน Excelด้วย Aspose.Cells](./ungrouping-rows-and-columns/)
+### [สร้างไฟล์ Excel ด้วย C# และแปลงคอลัมน์เป็นแถว](./create-excel-workbook-c-and-transpose-column-to-row/)
+คำแนะนำทีละขั้นตอนในการสร้างไฟล์ Excel ด้วย C# และแปลงข้อมูลจากคอลัมน์เป็นแถวโดยใช้ Aspose.Cells
 เรียนรู้วิธีแยกกลุ่มแถวและคอลัมน์ใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือฉบับสมบูรณ์นี้ ทำให้การจัดการข้อมูลใน Excel ของคุณง่ายขึ้น
 ### [ซ่อนหลายแถวและหลายคอลัมน์ใน Aspose.Cells .NET](./hide-multiple-rows-columns-aspose-cells/)
 เรียนรู้วิธีซ่อนหลายแถวและหลายคอลัมน์ใน Excel ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อการจัดการ Excel ได้อย่างราบรื่น
@@ -87,7 +91,10 @@
 เรียนรู้วิธีลบแถวในตาราง Excel โดยคงหัวตารางด้วย Aspose.Cells สำหรับ .NET
 ### [วิธีทำซ้ำรายการใน Excel – การสร้างแถวแบบไดนามิกด้วย C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 เรียนรู้วิธีสร้างแถวใหม่โดยอัตโนมัติใน Excel เพื่อทำซ้ำรายการโดยใช้ C# และ Aspose.Cells
-### [วิธีแทรกแถวใน GridJs – เพิ่มหลายแถวใน Grid อย่างมีประสิทธิภาพ](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
+### [วิธีลบแถวจากตาราง Excel ด้วย C#](./how-to-delete-rows-from-excel-table-using-c/)
+
+เรียนรู้วิธีลบแถวในตาราง Excel ด้วย C# อย่างละเอียดตามขั้นตอน
+### [วิธีแทรกแถวใน GridJs – เพิ่มหลายแถวอย่างมีประสิทธิภาพ](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 เรียนรู้วิธีแทรกหลายแถวใน GridJs อย่างมีประสิทธิภาพด้วยขั้นตอนที่เข้าใจง่ายสำหรับนักพัฒนา
 ### [ลบแถวในตาราง Excel ด้วย C# – คู่มือขั้นตอนโดยละเอียด](./delete-rows-excel-table-with-c-step-by-step-guide/)
 เรียนรู้วิธีลบแถวในตาราง Excel ด้วย C# อย่างละเอียดตามขั้นตอน
@@ -95,16 +102,22 @@
 เรียนรู้วิธีแทรกแถวในไฟล์ Excel ด้วย C# ผ่านคำแนะนำทีละขั้นตอนจาก Aspose.Cells สำหรับ .NET
 ### [วิธีใช้ WRAPCOLS: สร้างเค้าโครงสองคอลัมน์ใน C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 เรียนรู้วิธีใช้ WRAPCOLS เพื่อสร้างเค้าโครงสองคอลัมน์ใน C# ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด
+### [วิธีใช้ WRAPCOLS: สร้างเค้าโครงสองคอลัมน์ใน C#](./how-to-use-wrapcols-in-c/)
+เรียนรู้วิธีใช้ WRAPCOLS เพื่อสร้างเค้าโครงสองคอลัมน์ใน C# ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด
 ### [วิธีแทรกแถวใน GridJs – เพิ่มหลายแถวอย่างรวดเร็ว](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 เรียนรู้วิธีเพิ่มหลายแถวใน GridJs อย่างรวดเร็วด้วยขั้นตอนง่าย ๆ สำหรับนักพัฒนา
 ### [วิธีใช้ wrapcols ใน C# – คู่มือเต็มกับ Excel WRAPROWS & การคำนวณสูตรใหม่](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 เรียนรู้วิธีใช้ wrapcols ใน C# พร้อม WRAPROWS และการคำนวณสูตรใหม่ใน Excel อย่างละเอียด
 ### [เลื่อนเซลล์ขึ้นใน Excel ด้วย C# – คู่มือฉบับสมบูรณ์](./shift-cells-up-in-excel-with-c-complete-guide/)
 เรียนรู้วิธีเลื่อนเซลล์ขึ้นในไฟล์ Excel ด้วย C# อย่างละเอียด ด้วยขั้นตอนและโค้ดตัวอย่างที่เข้าใจง่าย
+### [ลบแถวจากตาราง Excel – คู่มือ C# ฉบับสมบูรณ์](./delete-rows-from-excel-table-complete-c-guide/)
+เรียนรู้วิธีลบแถวจากตาราง Excel อย่างละเอียดด้วย C# และ Aspose.Cells
+### [วิธีใช้ WRAPCOLS ใน C# และบันทึกเวิร์กบุ๊กเป็น XLSX](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
+เรียนรู้วิธีใช้ WRAPCOLS ใน C# และบันทึกเวิร์กบุ๊กเป็นไฟล์ XLSX ด้วย Aspose.Cells อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

@@ -56,6 +56,8 @@ Aprenda a generar imágenes PNG de tablas dinámicas en C# con Aspose.Cells paso
 Aprenda a crear marcadores PDF para hojas de gráficos en Aspose.Cells para .NET con esta completa guía paso a paso.
 ### [Exportar rango de celdas a imagen con Aspose.Cells](./export-range-of-cells-to-image/)
 Exporte fácilmente rangos de celdas de Excel a imágenes con Aspose.Cells para .NET con esta guía paso a paso. Mejore sus informes y presentaciones.
+### [Establecer área de impresión y exportar hoja de Excel a PNG en C#](./set-print-area-and-export-excel-sheet-to-png-in-c/)
+Aprenda a establecer el área de impresión y exportar una hoja de Excel como PNG usando Aspose.Cells para .NET en C#.
 ### [Obtener límites de objetos de dibujo con Aspose.Cells](./get-draw-object-and-bound/)
 Descubra cómo extraer límites de objetos de dibujo en Excel usando Aspose.Cells para .NET con nuestra completa guía paso a paso.
 ### [Ignorar errores al convertir archivos de Excel a PDF con Aspose.Cells](./ignore-errors-while-rendering/)
@@ -68,6 +70,8 @@ Aprenda a renderizar páginas secuenciales en Excel con Aspose.Cells para .NET. 
 Aprenda a crear un rango de referencia para una tabla dinámica y exportar su imagen como PNG usando Aspose.Cells para .NET.
 ### [Cómo exportar una tabla dinámica a PNG en C# – Guía paso a paso](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
 Aprenda a exportar una tabla dinámica de Excel a PNG usando Aspose.Cells para .NET con esta guía paso a paso.
+### [Cómo establecer el área de impresión en Excel y exportar PNG](./how-to-set-print-area-in-excel-and-export-png/)
+Aprenda a definir el área de impresión en Excel y exportarla como PNG usando Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -72,6 +72,8 @@
 ### [Удаление нескольких строк в Word – Полное руководство по удалению строк таблицы](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
 Узнайте, как удалить несколько строк из таблицы Word с помощью Aspose.Words для .NET, следуя пошаговым инструкциям.
 
+### [Как удалить строки из таблицы Excel и изменить её имя в C#](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
+Узнайте, как удалять строки из таблицы Excel и менять её название с помощью Aspose.Cells для .NET в C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

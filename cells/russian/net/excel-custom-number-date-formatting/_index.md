@@ -45,7 +45,9 @@
 ### [Запись даты и времени в Excel – Полное руководство для разработчиков C#](./write-datetime-to-excel-complete-guide-for-c-developers/)
 Узнайте, как записывать даты и время в файлы Excel с помощью Aspose.Cells для .NET в этом полном руководстве.
 ### [Создайте книгу Excel в C# – примените пользовательский числовой формат](./create-excel-workbook-in-c-apply-custom-number-format/)
-Узнайте, как создать книгу Excel в C# и применить пользовательский числовой формат с помощью Aspose.Cells для .NET в этом руководстве.
+Узнайте, как применить пользовательский числовой формат при экспорте таблиц в C# с помощью Aspose.Cells для .NET в этом пошаговом руководстве.
+### [Создать книгу Excel в C# с пользовательским числовым форматом](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
+Узнайте, как создать книгу Excel в C# и применить пользовательский числовой формат с помощью Aspose.Cells.
 ### [Как разобрать дату в Excel с помощью C# – Полное руководство](./how-to-parse-date-in-excel-with-c-complete-guide/)
 Узнайте, как правильно парсить даты в Excel с помощью C# используя Aspose.Cells для .NET в этом полном руководстве.
 ### [Создание рабочей книги Excel с пользовательским форматом – руководство C#](./create-excel-workbook-with-custom-format-c-guide/)
@@ -60,6 +62,8 @@
 
 ### [Разбор DateTime с японской императорской эпохой с помощью Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
 Узнайте, как распарсить даты и время, учитывая японские императорские эпохи, используя Aspose.Cells для .NET.
+### [Как преобразовать дату японской эры в григорианскую в C#](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+Узнайте, как с помощью Aspose.Cells преобразовать даты японской эры в григорианский календарь в C#.
 
 
 
@@ -84,6 +88,8 @@
 Узнайте, как установить формат даты в Excel с помощью Aspose.Cells для .NET в этом полном руководстве по импортному форматированию.
 ### [Создание книги Excel с датами японского календаря – Полное руководство](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
 Узнайте, как создать книгу Excel с датами японского календаря, используя Aspose.Cells для .NET, в этом полном руководстве.
+### [Как использовать CultureInfo японского календаря в C# для записи дат в Excel](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
+Узнайте, как использовать CultureInfo японского календаря в C# для записи дат в Excel с помощью Aspose.Cells.
 ### [Создание рабочей книги Excel C# – Ограничение значимых цифр в Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
 Узнайте, как создать рабочую книгу Excel в C# и ограничить количество значимых цифр в ячейках с помощью Aspose.Cells для .NET.
 ### [Как применить числовой формат в Excel с Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
@@ -92,6 +98,8 @@
 Узнайте, как экспортировать DataTable в Excel с правильным форматом столбца даты с помощью Aspose.Cells для .NET в этом полном руководстве.
 ### [Конвертация японского календаря в C# – Полное руководство](./japanese-calendar-conversion-in-c-full-guide/)
 Узнайте, как выполнять конвертацию японского календаря в C# с помощью Aspose.Cells для .NET в этом полном руководстве.
+### [Как применить пользовательский числовой формат в Excel на C#](./how-to-apply-a-custom-number-format-excel-in-c/)
+Узнайте, как применить пользовательский числовой формат в Excel с помощью Aspose.Cells для .NET на C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

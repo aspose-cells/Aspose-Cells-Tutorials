@@ -39,6 +39,10 @@ Hướng dẫn cách xuất dữ liệu từ file Excel sang DataTable bằng C#
 
 ### [Cách tạo Workbook – Nền màu xanh nhạt, Nhập dữ liệu](./how-to-create-workbook-light-blue-background-data-import/)
 Tìm hiểu cách tạo một workbook với nền màu xanh nhạt và nhập dữ liệu bằng Aspose.Cells cho .NET.
+
+### [Cách nhập DataTable vào worksheet Excel bằng C#](./how-to-import-datatable-into-an-excel-worksheet-using-c/)
+Hướng dẫn chi tiết cách nhập DataTable vào một worksheet Excel bằng C# sử dụng Aspose.Cells.
+
 ### [Xuất JSON sang Excel bằng C#: Hướng dẫn lập trình hoàn chỉnh](./export-json-to-excel-with-c-complete-programming-guide/)
 Hướng dẫn chi tiết cách chuyển đổi dữ liệu JSON sang tệp Excel bằng C# và Aspose.Cells, bao gồm các bước thực hiện đầy đủ.
 ### [Nhập dữ liệu có định dạng vào Excel bằng C#](./import-data-with-formatting-into-excel-using-c/)
@@ -61,6 +65,8 @@ Tìm hiểu cách chuyển đổi dữ liệu JSON thành file Excel bằng Aspo
 Hướng dẫn chi tiết cách chuyển Worksheet thành DataTable trong C# bằng Aspose.Cells cho .NET.
 ### [Nhập JSON vào Excel với Aspose.Cells – Hướng dẫn lập trình hoàn chỉnh](./import-json-to-excel-with-aspose-cells-complete-programming/)
 Hướng dẫn chi tiết cách nhập dữ liệu JSON vào tệp Excel bằng Aspose.Cells cho .NET.
+### [Chuyển đổi JSON sang XLSX trong C# – hướng dẫn chi tiết từng bước](./convert-json-to-xlsx-in-c-complete-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi dữ liệu JSON thành file XLSX bằng C# và Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

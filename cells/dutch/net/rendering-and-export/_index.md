@@ -54,6 +54,8 @@ Ontdek hoe u externe bronnen kunt beheren bij de conversie van Excel naar PDF me
 Leer hoe u PDF-bladwijzers voor grafiekbladen maakt in Aspose.Cells voor .NET met deze uitgebreide stapsgewijze handleiding.
 ### [Cellenbereik exporteren naar afbeelding met Aspose.Cells](./export-range-of-cells-to-image/)
 Exporteer Excel-celbereiken eenvoudig naar afbeeldingen met Aspose.Cells voor .NET met deze stapsgewijze handleiding. Verbeter uw rapportages en presentaties.
+### [Afdrukgebied instellen en Excel-werkblad exporteren naar PNG in C#](./set-print-area-and-export-excel-sheet-to-png-in-c/)
+Leer hoe u een afdrukgebied instelt en een Excel-werkblad exporteert naar PNG met C# en Aspose.Cells.
 ### [Hoe pivot exporteren naar PNG in C# – Stapsgewijze handleiding](./how-to-export-pivot-to-png-in-c-step-by-step-guide/)
 Leer hoe u een draaitabel in Excel exporteert naar een PNG-afbeelding met C# en Aspose.Cells in deze stapsgewijze handleiding.
 ### [Teken objectgrenzen met Aspose.Cells](./get-draw-object-and-bound/)
@@ -68,6 +70,8 @@ Leer hoe u opeenvolgende pagina's in Excel kunt renderen met Aspose.Cells voor .
 Leer hoe u een referentiegebied voor een draaitabel maakt en deze als PNG-afbeelding exporteert met Aspose.Cells voor .NET.
 ### [PNG-pivotafbeelding maken in C# – volledige stap‑voor‑stap handleiding](./create-png-pivot-image-in-c-full-step-by-step-guide/)
 Leer hoe u met Aspose.Cells een PNG‑afbeelding van een draaitabel genereert in C# met een gedetailleerde stap‑voor‑stap handleiding.
+### [Printgebied instellen in Excel en exporteren naar PNG](./how-to-set-print-area-in-excel-and-export-png/)
+Leer hoe u een printgebied in Excel definieert en deze als PNG-afbeelding exporteert met Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

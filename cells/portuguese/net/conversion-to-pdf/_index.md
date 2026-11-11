@@ -55,6 +55,8 @@ Aprenda a converter documentos DOCX para PDF usando C# com o Aspose.Words, passo
 Aprenda a salvar uma pasta de trabalho do Excel como PDF/A‑3b usando C# com Aspose.Cells.
 ### [Salvar pasta de trabalho como PDF com Aspose.Cells – Guia completo passo a passo](./save-workbook-as-pdf-with-aspose-cells-complete-step-by-step/)
 Aprenda a salvar sua pasta de trabalho Excel como PDF usando Aspose.Cells com instruções detalhadas passo a passo.
+### [Como salvar PDF a partir de uma pasta de trabalho Excel com Aspose.Cells](./how-to-save-pdf-from-an-excel-workbook-with-aspose-cells/)
+Aprenda a salvar PDFs a partir de uma pasta de trabalho Excel usando Aspose.Cells em C# com este tutorial passo a passo.
 ### [Como incorporar fontes em PDF – Salvar a pasta de trabalho como PDF em C#](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 Aprenda a incorporar fontes ao gerar PDFs com Aspose.Cells, garantindo que o texto seja exibido corretamente em qualquer dispositivo.
 ### [Como incorporar fontes em PDF com C# – Guia completo](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
@@ -73,6 +75,10 @@ Aprenda a salvar arquivos XLSX como PDF/A‑1b em C# usando Aspose.Cells, garant
 Aprenda passo a passo como converter arquivos Excel para PDF usando C# com o Aspose.Cells. Guia completo para desenvolvedores.
 ### [Como salvar PDF com seletores de variação de fonte – guia completo](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
 Aprenda a salvar PDFs preservando seletores de variação de fonte usando Aspose.PDF para .NET.
+### [Criar pasta de trabalho do Excel e salvar como PDF com arrays dinâmicos](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
+Aprenda a criar uma pasta de trabalho do Excel e salvá‑la como PDF usando arrays dinâmicos com Aspose.Cells.
+### [Como salvar pasta de trabalho como PDF com Aspose.Cells em C#](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
+Aprenda a salvar sua pasta de trabalho Excel como PDF usando Aspose.Cells em C#, com instruções passo a passo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

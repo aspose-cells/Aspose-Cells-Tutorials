@@ -64,6 +64,8 @@ Tìm hiểu cách tự động thay thế văn bản trong tệp Excel bằng re
 
 ### [Cách tách cột trong Java với Aspose.Cells – hướng dẫn từng bước](./how-to-split-columns-in-java-with-aspose-cells-step-by-step/)
 Hướng dẫn chi tiết cách tách các cột trong tệp Excel bằng Aspose.Cells cho Java, bao gồm các ví dụ thực tế và các bước thực hiện.
+### [Cách xóa autofilter khỏi Excel bằng Aspose.Cells Java](./how-to-remove-autofilter-from-excel-with-aspose-cells-java/)
+Hướng dẫn cách loại bỏ bộ lọc tự động trong tệp Excel bằng Aspose.Cells cho Java.
 
 ## Tài nguyên bổ sung
 

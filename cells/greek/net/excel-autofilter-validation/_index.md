@@ -43,21 +43,22 @@
 ### [Πώς να χρησιμοποιήσετε το AutoFilter σε αυτοματοποίηση Excel με C# – Πλήρης οδηγός βήμα‑βήμα](./how-to-use-autofilter-in-c-excel-automation-full-step-by-ste/)
 Μάθετε πώς να εφαρμόσετε το AutoFilter σε αρχεία Excel χρησιμοποιώντας C# και Aspose.Cells, βήμα‑βήμα, για αποτελεσματική διαχείριση δεδομένων.
 
-
-
-
-
-
-
-
 ### [Αφαίρεση αυτόματου φίλτρου Excel σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Μάθετε πώς να αφαιρέσετε το αυτόματο φίλτρο από ένα αρχείο Excel χρησιμοποιώντας το Aspose.Cells σε .NET με λεπτομερή οδηγό βήμα‑βήμα.
+
+### [Απενεργοποίηση AutoFilter στο Excel με C# – Πλήρης Οδηγός](./how-to-disable-autofilter-in-excel-with-c-complete-guide/)
+Μάθετε πώς να απενεργοποιήσετε το AutoFilter σε αρχεία Excel χρησιμοποιώντας Aspose.Cells για .NET με C#.
+
 ### [Καθαρό UI φίλτρου στο Excel με C# – Αφαίρεση του κουμπιού AutoFilter](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 Μάθετε πώς να αφαιρέσετε το κουμπί AutoFilter και να βελτιώσετε το UI του φίλτρου στο Excel με C# και Aspose.Cells.
 ### [Απόκρυψη βελών φίλτρου στο Excel με C# – Πλήρης Οδηγός](./hide-filter-arrows-excel-with-c-complete-guide/)
 Μάθετε πώς να κρύψετε τα βέλη φίλτρου στο Excel χρησιμοποιώντας C# και Aspose.Cells, βελτιώνοντας την εμφάνιση των φύλλων σας.
 ### [Προσθήκη Πίνακα στο Excel με C# – Καθαρισμός Autofilter και Αποθήκευση Αρχείου](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
 Μάθετε πώς να προσθέσετε πίνακα στο Excel, να καθαρίσετε το Autofilter και να αποθηκεύσετε το αρχείο χρησιμοποιώντας Aspose.Cells για .NET.
+### [Αφαίρεση autofilter από το Excel σε C# – πλήρης οδηγός](./remove-autofilter-from-excel-in-c-complete-guide/)
+Μάθετε πώς να αφαιρέσετε το AutoFilter από το Excel χρησιμοποιώντας C# και Aspose.Cells με αυτόν τον ολοκληρωμένο οδηγό.
+### [Αφαίρεση Αυτόματου Φίλτρου στο Excel με C# – βήμα‑βήμα οδηγός](./remove-autofilter-in-excel-with-c-step-by-step-guide/)
+Μάθετε πώς να αφαιρέσετε το αυτόματο φίλτρο από το Excel βήμα‑βήμα, χρησιμοποιώντας Aspose.Cells σε .NET με C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

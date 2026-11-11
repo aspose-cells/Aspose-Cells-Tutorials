@@ -66,6 +66,8 @@ Aspose.Cells for .NET을 사용하여 Excel 파일을 PDF로 손쉽게 저장하
 Aspose.Cells for .NET을 사용하여 XLS 파일을 쉽게 저장하는 방법을 알아보세요. 실제 예제와 FAQ가 포함된 단계별 가이드가 제공됩니다.
 ### [XLSX 파일 저장](./save-xlsx-file/)
 이 단계별 가이드를 통해 Aspose.Cells for .NET을 사용하여 XLSX 파일을 저장하는 방법을 알아보세요. Excel 관리를 더욱 간편하게 만들어 보세요.
+### [C#에서 Aspose.Cells로 플랫 OPC 튜토리얼 완료하기](./how-to-complete-a-flat-opc-tutorial-with-aspose-cells-in-c/)
+Aspose.Cells for .NET을 사용하여 C#에서 플랫 OPC 파일을 완성하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

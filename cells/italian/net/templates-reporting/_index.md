@@ -78,6 +78,11 @@ Scopri come creare un report Excel in C# passo dopo passo, dalla configurazione 
 ### [Come espandere un array in Excel e popolare un modello](./how-to-expand-array-in-excel-and-populate-a-template)
 Scopri come espandere un array in Excel e popolare un modello usando Aspose.Cells per .NET.
 
+### [Converti dataset in Excel e popola un modello Excel](./convert-dataset-to-excel-and-populate-an-excel-template/)
+Scopri come trasformare un dataset in un file Excel e riempire un modello Excel usando Aspose.Cells per .NET.
+
+### [Come creare Excel da modello e generare fogli ripetuti](./how-to-create-excel-from-template-and-generate-repeated-shee)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -36,7 +36,6 @@
 تعلم كيفية إنشاء ملف Excel من بيانات JSON باستخدام C# و Aspose.Cells خطوة بخطوة.
 ### [كيفية تصدير Excel إلى DataTable في C# – دليل خطوة بخطوة](./how-to-export-excel-to-a-datatable-in-c-step-by-step-guide/)
 تعلم كيفية تصدير ملف Excel إلى DataTable باستخدام C# و Aspose.Cells خطوة بخطوة.
-
 ### [كيفية إنشاء مصنف – خلفية زرقاء فاتحة، استيراد البيانات](./how-to-create-workbook-light-blue-background-data-import/)
 تعلم كيفية إنشاء مصنف بخلفية زرقاء فاتحة واستيراد البيانات باستخدام Aspose.Cells لـ .NET.
 ### [تصدير JSON إلى Excel باستخدام C#: دليل برمجة كامل](./export-json-to-excel-with-c-complete-programming-guide/)
@@ -53,6 +52,8 @@
 تعلم كيفية إنشاء مصنف Excel باستخدام C# وإدراج بيانات JSON ثم حفظه بصيغة XLSX باستخدام Aspose.Cells.
 ### [إنشاء مصنف Excel C# – تطبيق تنسيق العملة واستيراد DataTable](./create-excel-workbook-c-apply-currency-format-and-import-dat/)
 تعلم كيفية إنشاء مصنف Excel باستخدام C# وتطبيق تنسيق العملة على الخلايا واستيراد بيانات DataTable باستخدام Aspose.Cells.
+### [كيفية استيراد DataTable إلى ورقة عمل Excel باستخدام C#](./how-to-import-datatable-into-an-excel-worksheet-using-c/)
+تعلم خطوة بخطوة كيفية استيراد كائن DataTable إلى ورقة Excel باستخدام C# و Aspose.Cells.
 ### [إنشاء مصنف جديد في C# – تحويل Markdown إلى Excel بسرعة](./create-new-workbook-in-c-convert-markdown-to-excel-fast/)
 تعلم كيفية إنشاء مصنف Excel جديد في C# وتحويل ملفات Markdown إلى Excel بسرعة باستخدام Aspose.Cells for .NET.
 ### [بيانات JSON إلى Excel – دليل كامل لتحويل مصفوفة JSON إلى Excel](./json-data-to-excel-full-guide-to-convert-json-array-excel/)
@@ -61,6 +62,8 @@
 تعلم كيفية تحويل ورقة عمل Excel إلى كائن DataTable باستخدام Aspose.Cells لـ .NET في دليل برمجة شامل.
 ### [استيراد JSON إلى Excel باستخدام Aspose.Cells – دليل برمجة كامل](./import-json-to-excel-with-aspose-cells-complete-programming/)
 تعرف على كيفية استيراد بيانات JSON إلى Excel باستخدام Aspose.Cells لـ .NET في هذا الدليل البرمجي الشامل.
+### [تحويل JSON إلى XLSX في C# – دليل خطوة بخطوة كامل](./convert-json-to-xlsx-in-c-complete-step-by-step-guide/)
+تعلم كيفية تحويل ملفات JSON إلى ملفات XLSX باستخدام Aspose.Cells لـ .NET في دليل شامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

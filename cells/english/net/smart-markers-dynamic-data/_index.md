@@ -8,7 +8,9 @@ url: /net/smart-markers-dynamic-data/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Smart Markers in Aspose.Cells for Dynamic Data
@@ -98,7 +100,7 @@ Unlock the power of Aspose.Cells. Learn how to implement variable arrays with Sm
 ### [Create Dynamic Worksheets with Smart Markers in Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 Learn how to generate dynamic worksheets using Smart Markers in Aspose.Cells for .NET, enabling flexible data-driven Excel reports.
 ### [Create Excel workbook programmatically using Smart Markers](./create-excel-workbook-programmatically-using-smart-markers/)
-Learn how to programmatically create an Excel workbook using Smart Markers in Aspose.Cells for .NET.
+### [How to create Excel workbook programmatically with C#](./how-to-create-excel-workbook-programmatically-with-c/)
 ### [How to Write Template with Smart Markers – Step‑by‑Step Guide](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 Unlock the power of Aspose.Cells with this step-by-step tutorial on using the HTML property in smart markers for .NET applications.
 ### [How to generate Excel report by merging an Excel template with Smart Markers](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
@@ -127,12 +129,8 @@ Learn how to create an Excel template using Smart Markers in C# with step‑by�
 ### [Convert JSON to XLSX in C# using SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
 ### [Create Workbook from XLSX with Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
 
-
-
-
-
-
-
+### [Configure SmartMarkerOptions ArrayAsSingle in C# for JSON arrays](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
+Configure SmartMarkerOptions to treat JSON arrays as a single entity in C# with Aspose.Cells.
 
 ### [repeat data in excel – Populate template with SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
 Learn how to repeat rows of data in an Excel template using SmartMarker to populate dynamic content efficiently.
@@ -149,6 +147,8 @@ Learn how to automatically name Excel worksheets during generation using Aspose.
 Learn how to populate an Excel template from an array using Aspose.Cells in C#, enabling fast and dynamic report generation.
 ### [How to Export Excel – Complete Guide for C# Developers](./how-to-export-excel-complete-guide-for-c-developers/)
 ### [Import json to excel in C# – step‑by‑step guide](./import-json-to-excel-in-c-step-by-step-guide/)
+### [Create Excel from JSON with Aspose.Cells Smart Marker](./create-excel-from-json-with-aspose-cells-smart-marker/)
+Learn how to generate Excel files from JSON data using Aspose.Cells Smart Markers in .NET.
 ### [How to Name Sheets Automatically – Generate Multiple Sheets in C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 ### [Automate Invoice Generation – Dynamic Worksheet Naming & Repeating in C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
 Learn how to automatically generate invoices with dynamic worksheet names and repeat sections using Aspose.Cells for .NET in C#.
@@ -171,11 +171,14 @@ Learn how to load an Excel template in C# and quickly generate multiple sheets u
 Learn how to generate a list‑style Excel report using Aspose.Cells smart markers in .NET.
 ### [Create Master Detail Workbook with Aspose.Cells Smart Marker](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
 ### [master detail excel guide – populate templates with Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)
-Unlock the power of Aspose.Cells for .NET to populate templates with Smart Markers for master‑detail Excel reports.
+
+### [How to create excel workbook with smart markers for a dynamic excel report](./how-to-create-excel-workbook-with-smart-markers-for-a-dynami/)
+
+### [Expand worksheet smart markers in C# for Excel templates](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

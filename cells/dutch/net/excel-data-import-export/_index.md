@@ -47,6 +47,10 @@ Leer hoe u gegevens met opmaak in Excel importeert met C# via Aspose.Cells voor 
 Leer hoe u met Aspose.Cells voor .NET een Excel-werkmap maakt vanuit JSON-gegevens in een eenvoudige stap‑voor‑stap gids.
 ### [Export Excel naar DataTable in C# – Stapsgewijze gids](./export-excel-to-datatable-in-c-step-by-step-guide/)
 Leer hoe u een Excel-werkblad exporteert naar een DataTable met C# en Aspose.Cells voor .NET.
+
+### [Hoe DataTable importeren in een Excel-werkblad met C#](./how-to-import-datatable-into-an-excel-worksheet-using-c/)
+Leer hoe u een DataTable in een Excel-werkblad importeert met C# via Aspose.Cells voor .NET.
+
 ### [Hoe gegevens binden in C# – Maak Excel-werkmap](./how-to-bind-data-in-c-create-excel-workbook/)
 Leer hoe u met Aspose.Cells voor .NET data bindt in C# en een Excel-werkmap maakt.
 ### [Excel-werkmap maken in C# – JSON invoegen en opslaan als XLSX](./create-excel-workbook-c-insert-json-and-save-as-xlsx/)
@@ -61,6 +65,8 @@ Leer hoe u JSON-arraygegevens eenvoudig naar Excel converteert met Aspose.Cells 
 Leer hoe u een werkblad in C# omzet naar een DataTable met Aspose.Cells voor .NET, stap voor stap uitgelegd.
 ### [JSON importeren naar Excel met Aspose.Cells – Complete programmeergids](./import-json-to-excel-with-aspose-cells-complete-programming/)
 Leer stap voor stap hoe u JSON-gegevens naar Excel importeert met Aspose.Cells voor .NET.
+### [JSON naar XLSX converteren in C# – volledige stapsgewijze handleiding](./convert-json-to-xlsx-in-c-complete-step-by-step-guide/)
+Leer hoe u JSON-gegevens omzet naar een XLSX‑bestand in C# met een gedetailleerde, stap‑voor‑stap handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

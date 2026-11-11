@@ -74,6 +74,12 @@ Lär dig hur du med en C#‑mall exporterar data till Excel i en tydlig steg‑f
 ### [Hur du expanderar en array i Excel och fyller i en mall](./how-to-expand-array-in-excel-and-populate-a-template)
 Lär dig hur du expanderar en array i Excel och använder den för att fylla i en mall med Aspose.Cells.
 
+### [Konvertera dataset till Excel och fyll i en Excel-mall](./convert-dataset-to-excel-and-populate-an-excel-template)
+Lär dig hur du konverterar data till Excel och använder en mall för att fylla i data programatiskt.
+
+### [Skapa Excel från mall och generera upprepade blad](./how-to-create-excel-from-template-and-generate-repeated-shee)
+Lär dig hur du använder en Excel‑mall för att skapa arbetsböcker och automatiskt lägga till upprepade blad med Aspose.Cells för .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

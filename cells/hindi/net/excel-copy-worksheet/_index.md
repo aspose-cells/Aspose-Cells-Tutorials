@@ -46,6 +46,7 @@ Aspose.Cells for .NET एक्सेल फाइलों में हेर�
 | [C# में Aspose.Cells के साथ वर्कशीट कॉपी करने का पूर्ण गाइड](./how-to-copy-worksheet-in-c-with-aspose-cells-complete-guide/) | इस विस्तृत गाइड में .NET के लिए Aspose.Cells का उपयोग करके C# में वर्कशीट कॉपी करने के चरण‑दर‑चरण कोड उदाहरण देखें। |  
 | [C# में वर्कबुक कॉपी करें – तालिका को दूसरे कार्यपत्रक में निर्यात करें](./copy-workbook-in-c-export-table-to-another-worksheet/) | C# में Aspose.Cells का उपयोग करके एक वर्कबुक से तालिका को दूसरे कार्यपत्रक में निर्यात करने का चरण-दर-चरण मार्गदर्शिका। |  
 | [C# का उपयोग करके Excel में डुप्लिकेट डिटेल शीट्स बनाएं](./create-duplicated-detail-sheets-in-excel-using-c/) | C# का उपयोग करके Excel में डुप्लिकेट डिटेल शीट्स बनाना सीखें। |  
+| [C# में पिवट के साथ वर्कशीट कॉपी करें Aspose.Cells का उपयोग करके](./copy-worksheet-with-pivot-in-c-using-aspose-cells/) | Aspose.Cells का उपयोग करके C# में पिवट टेबल सहित वर्कशीट कॉपी करने का चरण-दर-चरण मार्गदर्शिका। |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

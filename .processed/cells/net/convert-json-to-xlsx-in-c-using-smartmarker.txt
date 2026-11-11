@@ -1,0 +1,7 @@
+Title: Convert JSON to XLSX in C# using SmartMarker
+Slug: convert-json-to-xlsx-in-c-using-smartmarker
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-10-10T23:57:19.537237
+SourceRepo: AI Search API
+Keywords: convert json to xlsx, how to import json into excel, populate excel from json, create excel workbook c#, import json into worksheet
+PRNumber: 188

@@ -60,6 +60,10 @@ Pelajari cara membuat workbook Excel dan mengurai tanggal era Jepang menggunakan
 
 ### [Parse DateTime dengan Reign Kaisar Jepang menggunakan Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
 Pelajari cara mengurai nilai DateTime yang menggunakan era kaisar Jepang di Excel dengan Aspose.Cells untuk .NET.
+### [Cara Membuat Workbook Excel C# dengan Pemformatan Angka Kustom](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
+Panduan langkah demi langkah untuk membuat workbook Excel di C# dan menerapkan format angka kustom menggunakan Aspose.Cells.
+### [Cara Mengonversi Tanggal Era Jepang ke Gregorian di C#](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+Pelajari cara mengonversi tanggal era Jepang menjadi tanggal Gregorian menggunakan C# dan Aspose.Cells dalam panduan langkah demi langkah.
 
 
 
@@ -84,11 +88,16 @@ Pelajari cara mengatur format tanggal di Excel menggunakan C# dengan panduan lan
 Pelajari cara mengatur format tanggal di Excel menggunakan C# dengan panduan lengkap format impor pada Aspose.Cells untuk .NET.
 ### [Buat Workbook Excel dengan Tanggal Kalender Jepang – Panduan Lengkap](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
 Pelajari cara membuat workbook Excel dengan tanggal kalender Jepang menggunakan Aspose.Cells untuk .NET dalam panduan lengkap ini.
+### [Cara menggunakan CultureInfo kalender Jepang di C# untuk menulis tanggal ke Excel](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
+Pelajari cara menulis tanggal ke Excel menggunakan CultureInfo kalender Jepang di C# dengan Aspose.Cells.
 ### [Buat Workbook Excel C# – Batasi Digit Signifikan Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
 Pelajari cara membuat workbook Excel dengan C# dan membatasi jumlah digit signifikan menggunakan Aspose.Cells.
 
 ### [Cara menerapkan format angka Excel dengan Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
 Pelajari cara menerapkan format angka di Excel menggunakan Aspose.Cells dalam tutorial langkah demi langkah ini.
+
+### [Cara menerapkan format angka kustom di Excel dengan C#](./how-to-apply-a-custom-number-format-excel-in-c/)
+Panduan langkah demi langkah untuk menerapkan format angka kustom pada file Excel menggunakan C# dan Aspose.Cells.
 
 
 

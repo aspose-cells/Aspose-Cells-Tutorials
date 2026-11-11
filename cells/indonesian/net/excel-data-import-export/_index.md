@@ -43,6 +43,8 @@ Pelajari cara membuat workbook dengan latar belakang biru muda dan mengimpor dat
 Pelajari cara mengekspor data JSON ke file Excel menggunakan C# dan Aspose.Cells dalam panduan pemrograman lengkap ini.
 ### [Impor Data dengan Pemformatan ke Excel menggunakan C#](./import-data-with-formatting-into-excel-using-c/)
 Pelajari cara mengimpor data ke Excel dengan pemformatan menggunakan C# dan Aspose.Cells untuk .NET.
+### [Cara mengimpor DataTable ke lembar kerja Excel menggunakan C#](./how-to-import-datatable-into-an-excel-worksheet-using-c/)
+Pelajari cara mengimpor DataTable ke worksheet Excel menggunakan C# dengan Aspose.Cells dalam panduan langkah demi langkah.
 ### [Buat Workbook Excel dari JSON – Panduan Langkah demi Langkah](./create-excel-workbook-from-json-step-by-step-guide/)
 Pelajari cara membuat workbook Excel dari data JSON menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah yang mudah diikuti.
 ### [Ekspor Excel ke DataTable di C# – Panduan Langkah demi Langkah](./export-excel-to-datatable-in-c-step-by-step-guide/)
@@ -61,6 +63,8 @@ Pelajari cara mengonversi data JSON menjadi file Excel secara lengkap dengan Asp
 Pelajari cara mengonversi worksheet Excel menjadi DataTable menggunakan Aspose.Cells untuk .NET dalam panduan pemrograman lengkap.
 ### [Impor JSON ke Excel dengan Aspose.Cells – Panduan Pemrograman Lengkap](./import-json-to-excel-with-aspose-cells-complete-programming/)
 Pelajari cara mengimpor data JSON ke file Excel menggunakan Aspose.Cells dengan contoh kode lengkap.
+### [Mengonversi JSON ke XLSX di C# – panduan lengkap langkah demi langkah](./convert-json-to-xlsx-in-c-complete-step-by-step-guide/)
+Pelajari cara mengonversi file JSON menjadi XLSX menggunakan Aspose.Cells untuk .NET dengan contoh kode lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

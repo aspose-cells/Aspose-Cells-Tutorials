@@ -51,6 +51,8 @@
 
 ### [แทรกความคิดเห็นใน Excel ด้วย C# – คู่มือทีละขั้นตอน](./insert-comment-into-excel-with-c-step-by-step-guide/)
 คำแนะนำทีละขั้นตอนในการแทรกความคิดเห็นในไฟล์ Excel ด้วย C# โดยใช้ Aspose.Cells
+### [วิธีเพิ่มความคิดเห็นใน Excel โดยใช้ Smart Markers ของ Aspose.Cells](./how-to-add-comment-to-excel-using-aspose-cells-smart-markers/)
+เรียนรู้วิธีเพิ่มความคิดเห็นในไฟล์ Excel ด้วย Smart Markers ของ Aspose.Cells อย่างง่ายและรวดเร็ว
 
 
 
@@ -68,6 +70,8 @@
 เรียนรู้วิธีแทรกความคิดเห็นใน Excel ด้วย C# ผ่าน SmartMarker ของ Aspose.Cells .NET เพื่อเพิ่มประสิทธิภาพให้สเปรดชีตของคุณ
 ### [วิธีแทรกความคิดเห็นใน Excel ด้วย Aspose.Cells](./how-to-insert-comment-in-excel-using-aspose-cells/)
 เรียนรู้วิธีแทรกความคิดเห็นในไฟล์ Excel ด้วย Aspose.Cells สำหรับ .NET อย่างง่ายดายและรวดเร็ว
+### [วิธีแทรกความคิดเห็นใน Excel โดยใช้ Aspose.Cells Smart Markers](./how-to-insert-excel-comment-using-aspose-cells-smart-markers/)
+เรียนรู้วิธีแทรกคอมเมนต์ในไฟล์ Excel ด้วย Smart Markers ของ Aspose.Cells อย่างง่าย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -87,6 +87,7 @@ C# 코드를 사용해 Excel에서 항목을 반복하고 동적으로 행을 �
 
 
 
+### [C#로 Excel 워크북 만들기 및 열을 행으로 전치](./create-excel-workbook-c-and-transpose-column-to-row/)
 
 
 
@@ -94,7 +95,9 @@ C# 코드를 사용해 Excel에서 항목을 반복하고 동적으로 행을 �
 ### [Excel 파일 로드 C# – 행 삭제 및 특정 행 제거 방법](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Aspose.Cells for .NET을 사용하여 Excel 파일을 로드하고 행을 삭제하거나 특정 행을 제거하는 단계별 가이드를 확인하세요.
 ### [C#를 사용한 Excel 테이블 행 삭제 – 단계별 가이드](./delete-rows-excel-table-with-c-step-by-step-guide/)
-C#와 Aspose.Cells for .NET을 이용해 Excel 테이블에서 행을 삭제하는 방법을 단계별로 안내합니다.
+C#와 Aspose.Cells for .NET을 사용해 Excel 테이블에서 행을 삭제하는 방법을 단계별로 안내합니다.
+### [C#를 사용하여 Excel 테이블에서 행 삭제하는 방법](./how-to-delete-rows-from-excel-table-using-c/)
+C#와 Aspose.Cells for .NET을 이용해 Excel 테이블에서 행을 삭제하는 단계별 가이드를 확인하세요.
 ### [C#를 사용하여 Excel에 행 삽입 – 단계별 가이드](./insert-rows-in-excel-with-c-step-by-step-guide/)
 Aspose.Cells for .NET을 사용하여 C#로 Excel에 행을 삽입하는 방법을 단계별로 안내합니다.
 ### [C#에서 WRAPCOLS 사용 방법: 두 열 레이아웃 만들기](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
@@ -103,12 +106,16 @@ Aspose.Cells for .NET을 사용하여 C#에서 WRAPCOLS를 활용해 두 열 레
 GridJs를 사용하여 그리드에 여러 행을 빠르게 삽입하는 단계별 가이드를 확인해 보세요.
 ### [C#에서 wrapcols 사용 방법 – Excel WRAPROWS 및 수식 재계산 전체 가이드](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 C#에서 wrapcols와 wraprows를 활용하고 수식을 재계산하는 방법을 단계별로 안내합니다.
+### [C#에서 WRAPCOLS 사용 및 워크북을 XLSX로 저장하는 방법](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
+C#와 Aspose.Cells를 사용해 WRAPCOLS를 적용하고 워크북을 XLSX 형식으로 저장하는 단계별 가이드입니다.
 ### [C#를 사용하여 Excel에서 셀을 위로 이동하기 – 완전 가이드](./shift-cells-up-in-excel-with-c-complete-guide/)
 Aspose.Cells for .NET을 사용하여 Excel에서 셀을 위로 이동하는 방법을 단계별로 안내합니다.
 ### [한 워크시트에서 다른 워크시트로 행 복사 – 완전 C# 가이드](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
 Aspose.Cells for .NET을 사용하여 한 워크시트에서 다른 워크시트로 행을 복사하는 단계별 C# 가이드를 확인하세요.
 ### [C#로 Excel에서 행 삭제 – 테이블 헤더 보호](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
 C#를 사용해 Excel에서 테이블 헤더를 보호하면서 행을 삭제하는 방법을 단계별로 안내합니다.
+### [Excel 테이블에서 행 삭제 – 완전한 C# 가이드](./delete-rows-from-excel-table-complete-c-guide/)
+Excel 테이블에서 행을 삭제하는 방법을 단계별로 안내합니다. C# 코드 예제로 손쉽게 구현하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

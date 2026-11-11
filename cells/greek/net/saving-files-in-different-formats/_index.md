@@ -64,6 +64,8 @@
 Μάθετε πώς να αποθηκεύετε εύκολα αρχεία XLS χρησιμοποιώντας το Aspose.Cells για .NET. Οδηγός βήμα προς βήμα με πρακτικά παραδείγματα και συχνές ερωτήσεις.
 ### [Αποθήκευση αρχείου XLSX](./save-xlsx-file/)
 Ανακαλύψτε πώς να αποθηκεύετε αρχεία XLSX χρησιμοποιώντας το Aspose.Cells για .NET με αυτόν τον αναλυτικό οδηγό. Βελτιστοποιήστε τη διαχείριση του Excel χωρίς κόπο.
+### [Πώς να ολοκληρώσετε ένα flat OPC σεμινάριο με Aspose.Cells σε C#](./how-to-complete-a-flat-opc-tutorial-with-aspose-cells-in-c/)
+Μάθετε πώς να ολοκληρώσετε ένα flat OPC tutorial χρησιμοποιώντας Aspose.Cells με C# βήμα‑βήμα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

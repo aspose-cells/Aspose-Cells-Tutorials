@@ -93,6 +93,12 @@ Dowiedz się, jak skutecznie rozdzielić komórki w plikach Excela za pomocą As
 Dowiedz się, jak przypisać nazwę do pojedynczej komórki w Excelu przy użyciu Aspose.Cells for Java, krok po kroku.
 ### [Kopiowanie zakresu między skoroszytami w Javie – przewodnik krok po kroku](./copy-range-between-workbooks-in-java-step-by-step-guide/)
 Dowiedz się, jak kopiować zakresy komórek pomiędzy różnymi skoroszytami Excel w Javie przy użyciu Aspose.Cells.
+### [Jak skopiować zakres w Javie przy użyciu Aspose.Cells](./how-to-copy-range-in-java-with-aspose-cells/)
+### [Utwórz nazwany zakres i wykryj duplikat nazwy w Excelu](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+Dowiedz się, jak utworzyć nazwany zakres i wykrywać duplikaty nazw w plikach Excel przy użyciu Aspose.Cells dla Java.
+
+### [Jak używać funkcji expand w przetwarzaniu Excela w Javie](./how-to-use-expand-function-in-java-excel-processing/)
+Dowiedz się, jak wykorzystać funkcję expand w Aspose.Cells for Java do dynamicznego rozszerzania zakresów w arkuszach Excel.
 
 ## Dodatkowe zasoby
 

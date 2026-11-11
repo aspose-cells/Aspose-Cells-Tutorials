@@ -67,11 +67,12 @@ Son olarak, büyük fark yaratan küçük ayrıntılardan bahsedelim. HTML dış
 
 ### [Excel'i HTML'ye Aktar – Dondurulmuş Satırları C#'ta Koru](./export-excel-to-html-preserve-frozen-rows-in-c/)
 Aspose.Cells for .NET kullanarak Excel dosyalarındaki dondurulmuş satırları koruyarak HTML'ye nasıl dışa aktaracağınızı öğrenin.
-
 ### [Excel'i Dışa Aktarırken HTML'ye Yazı Tipi Gömme – Tam Kılavuz](./how-to-embed-fonts-in-html-when-exporting-excel-complete-gui/)
 Aspose.Cells for .NET kullanarak Excel'i HTML'ye aktarırken yazı tiplerini nasıl gömeceğinizi adım adım öğrenin.
 
-## Gelişmiş Seçeneklerle Excel'i HTML'ye Aktarma Eğitimleri
+### [Excel'i Dışa Aktarırken HTML'ye Yazı Tipi Gömme – Tam Kılavuz](./how-to-embed-fonts-in-html-when-exporting-excel-to-html-complete-gui/)
+Aspose.Cells for .NET kullanarak Excel'i HTML'ye aktarırken yazı tiplerini nasıl gömeceğinizi adım adım öğrenin.
+
 ### [Excel'i HTML'e Aktarırken Kullanılmayan Stilleri Hariç Tutma](./excluding-unused-styles/)
 Bu ayrıntılı adım adım kılavuzda, Aspose.Cells for .NET kullanarak Excel'i HTML'ye aktarırken kullanılmayan stilleri nasıl hariç tutacağınızı öğrenin.
 ### [Excel'i HTML Olarak Kaydet – Kod Örnekleriyle Tam Kılavuz](./save-excel-as-html-complete-guide-with-code-samples/)
@@ -92,46 +93,79 @@ Bu ayrıntılı, adım adım kılavuzda, Aspose.Cells for .NET kullanarak Excel 
 Bu kapsamlı kılavuzda, .NET için Aspose.Cells'i kullanarak Excel'de HTML'e kaydederken üst üste binen içeriğin nasıl gizleneceğini öğrenin.
 ### [Html Kaydetme Seçenekleriyle Tablo Elemanları Stillerini Önekleme](./prefixing-table-elements-styles/)
 Aspose.Cells for .NET'i kullanarak HTML'deki tablo stillerine önek eklemeyi ve Excel dışa aktarımlarınızı adım adım örneklerle geliştirmeyi öğrenin.
+
+### [Excel'i HTML'ye Kaydederken wrapcols Kullanımı ve Yazı Tiplerini Gömme](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+Aspose.Cells for .NET ile Excel dosyalarını HTML'ye kaydederken wrapcols ayarını ve yazı tipi gömmeyi nasıl uygulayacağınızı öğrenin.
+
 ### [Excel'de Başlıkları Programatik Olarak Yazdırma](./printing-headings/)
 Aspose.Cells for .NET'i kullanarak adım adım bir kılavuzla Excel'de başlıkları kolayca yazdırın. Verilerinizi düzgün bir şekilde HTML'ye aktarın ve izleyicilerinizi etkileyin.
+
 ### [Excel'de Programatik Olarak Kendini Kapatan Etiketleri Tanıma](./recognizing-self-closing-tags/)
 Aspose.Cells for .NET'i içeren adım adım kılavuzumuzla Excel'deki kendi kendini kapatan etiketlerin potansiyelini ortaya çıkarın.
+
 ### [Excel'de Ölçeklenebilir Sütun Genişliğini Programlı Olarak Ayarlama](./setting-scalable-column-width/)
 Excel dosyalarında ölçeklenebilir sütun genişliklerini programlı olarak ayarlamak için Aspose.Cells for .NET'i nasıl kullanacağınızı öğrenin. Verimli veri sunumu için mükemmeldir.
+
 ### [HTML'de Yazı Tipi Gömme – Tam C# Kılavuzu](./how-to-embed-fonts-in-html-complete-c-guide/)
 Aspose.Cells for .NET ile HTML çıktısına yazı tiplerini gömerek tutarlı görünüm elde edin.
+### [Çalışma Kitabını Kaydederken HTML'ye Yazı Tipi Gömme](./how-to-embed-fonts-in-html-when-saving-a-workbook/)
+Aspose.Cells for .NET kullanarak bir çalışma kitabını HTML'ye kaydederken yazı tiplerini nasıl gömeceğinizi adım adım öğrenin.
+### [Aspose.Cells ile Excel'i HTML'ye Dönüştürürken Yazı Tiplerini Gömme](./how-to-embed-fonts-when-converting-excel-to-html-with-aspose/)
+Aspose.Cells for .NET kullanarak Excel'i HTML'ye dönüştürürken yazı tiplerini nasıl gömeceğinizi adım adım öğrenin.
+
 ### [Excel'i HTML Olarak Kaydet – Tam C# Kılavuzu](./save-excel-as-html-complete-c-guide/)
 Aspose.Cells for .NET ile C# kullanarak Excel dosyalarını HTML'ye kaydetmeyi ayrıntılı olarak öğrenin.
+
 ### [HTML Dışa Aktarmada Tek Sayfa Sekme Adı Ayarlama](./setting-single-sheet-tab-name/)
 Aspose.Cells for .NET kullanarak HTML dışa aktarma sırasında tek bir sayfa sekmesi adını kolayca ayarlayın. Kod örnekleri içeren adım adım kılavuz.
+
 ### [HTML'ye Yazı Tipi Gömme – Aspose.Cells ile Excel Çalışma Kitabını HTML'ye Dışa Aktarma](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
+
 ### [Excel'i HTML'ye Dönüştürme – Aspose.Cells Kullanarak Tam Kılavuz](./convert-excel-to-html-complete-guide-using-aspose-cells/)
+
 ### [C# ile Excel'i HTML'ye Aktarırken Yazı Tiplerini Gömme](./embed-fonts-in-html-export-excel-to-html-with-c/)
+
 ### [C# ile Excel'i HTML'ye Dönüştürme – Tam Kılavuz](./convert-excel-to-html-in-c-complete-guide/)
+
 ### [Excel'i HTML'ye Yazı Tiplerini Gömme – Tam C# Rehberi](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
 Aspose.Cells for .NET kullanarak Excel'i HTML'ye dışa aktarırken yazı tiplerini nasıl gömeceğinizi adım adım öğrenin.
+
 ### [Excel'i HTML'ye Dışa Aktarma – Dondurulmuş Panelleri Korumak (C#)](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
 Aspose.Cells for .NET kullanarak dondurulmuş panelleri koruyarak Excel'i HTML'ye nasıl dışa aktaracağınızı öğrenin.
+
 ### [Excel'i HTML'ye Dışa Aktarırken Donmuş Bölmeleri Korumak](./how-to-export-excel-to-html-while-preserving-frozen-panes/)
 Aspose.Cells for .NET ile Excel dosyasını HTML'ye dışa aktarırken donmuş bölmeleri korumayı adım adım öğrenin.
+
 ### [HTML'ye Yazı Tipi Gömme – Excel'i C# ile HTML'ye Dönüştürme](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
 Aspose.Cells for .NET ile Excel'den HTML'ye dönüştürürken yazı tiplerini nasıl gömeceğinizi adım adım öğrenin.
 ### [Excel'i HTML'ye Aktarmak – Adım Adım Kılavuz](./how-to-export-excel-to-html-step-by-step-guide/)
 Aspose.Cells for .NET kullanarak Excel dosyalarını HTML'ye nasıl dışa aktaracağınızı adım adım öğrenin.
+
 ### [Donmuş Bölmelerle Excel'i HTML'e Kaydetme – Tam C# Kılavuzu](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
 Aspose.Cells for .NET kullanarak Excel dosyalarında donmuş bölmeleri koruyarak HTML'ye nasıl kaydedileceğini adım adım öğrenin.
+
 ### [Excel'i HTML'ye Aktarma – Tam Programlama Kılavuzu](./how-to-export-excel-to-html-complete-programming-guide/)
 Aspose.Cells for .NET kullanarak Excel dosyalarını HTML'ye tamamen programlayarak dışa aktarmayı adım adım öğrenin.
+
 ### [C#'ta HTML Kaydetme Seçenekleri Oluşturma – Tam Kılavuz](./create-html-save-options-in-c-full-guide/)
 Aspose.Cells for .NET kullanarak C# içinde HTML kaydetme seçeneklerini nasıl oluşturacağınızı adım adım öğrenin.
+
 ### [Excel'i HTML Olarak Kaydet – Excel Dosyalarını Dışa Aktarma ve Dönüştürme Tam Kılavuzu](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
 Aspose.Cells for .NET kullanarak Excel dosyalarını HTML'ye dışa aktarma ve dönüştürme sürecini adım adım öğrenin.
+
 ### [Excel'i HTML'ye dışa aktarırken yazı tiplerini gömmek – Tam C# Kılavuzu](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
 Aspose.Cells for .NET kullanarak Excel'i HTML'ye dışa aktarırken yazı tiplerini nasıl gömeceğinizi adım adım öğrenin.
+
 ### [C#'ta Tablo'dan HTML Oluşturma – Tam Kılavuz](./create-html-from-table-in-c-complete-guide/)
+
 ### [C# ile Excel'i HTML'ye Dışa Aktarma – Tam Programlama Kılavuzu](./export-excel-to-html-with-c-complete-programming-guide/)
+
 ### [Excel'i HTML Olarak Kaydet – Biçimlendirmeli Excel Dışa Aktarma Tam Kılavuzu](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
 Aspose.Cells for .NET ile Excel dosyalarını biçimlendirmeyi koruyarak HTML'ye nasıl kaydedeceğinizi adım adım öğrenin.
+### [C# ile dondurulmuş bölmelerle xlsx'yi HTML'ye dışa aktarma](./how-to-export-xlsx-to-html-with-frozen-panes-in-c/)
+Aspose.Cells for .NET kullanarak xlsx dosyalarını dondurulmuş bölmelerle HTML'ye dışa aktarmayı öğrenin.
+### [XLSX'i HTML'ye Dönüştürürken Yazı Tiplerini Gömme – Aspose.Cells ile](./how-to-embed-fonts-html-when-you-convert-an-xlsx-to-html-wit/)
+Aspose.Cells for .NET kullanarak XLSX dosyasını HTML'ye dönüştürürken yazı tiplerini nasıl gömeceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

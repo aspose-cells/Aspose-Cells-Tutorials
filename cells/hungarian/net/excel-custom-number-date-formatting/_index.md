@@ -50,14 +50,17 @@ Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet C#-ban, és alkalmazhatsz
 Ismerd meg, hogyan lehet C#-ban dátumokat beolvasni és konvertálni Excel fájlokban az Aspose.Cells segítségével.
 ### [Excel munkafüzet létrehozása egyéni formátummal – C# útmutató](./create-excel-workbook-with-custom-format-c-guide/)
 Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet egyedi formátummal C#-ban az Aspose.Cells segítségével.
+### [Japán korszak dátumának átalakítása gregoriánra C#-ban](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
+Tanuld meg, hogyan konvertálhatod a japán korszak dátumát gregoriánra C#-ban az Aspose.Cells segítségével.
 ### [Japán korszak dátumának feldolgozása C#-ban az Aspose.Cells segítségével – Teljes útmutató](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
-Tanulja meg, hogyan értelmezze a japán era dátumokat C#-ban az Aspose.Cells használatával, részletes lépésről-lépésre útmutató.
 ### [Hogyan hozzunk létre Excel munkafüzetet és dolgozzunk fel japán dátumokat C#-ban](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
 Tanulja meg, hogyan hozhat létre Excel munkafüzetet és dolgozhat fel japán dátumokat C#-ban az Aspose.Cells segítségével.
 
 
 
 
+### [Excel munkafüzet létrehozása C#-ban egyéni számformátummal](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
+Tanuld meg, hogyan hozhatsz létre Excel munkafüzetet C#-ban egyéni számformátumok alkalmazásával az Aspose.Cells segítségével.
 
 
 
@@ -93,6 +96,12 @@ Ismerd meg, hogyan formázhatod a dátumoszlopokat Excelben C#-ban a DataTable e
 Ismerd meg, hogyan konvertálhatod a japán naptárat C#-ban az Aspose.Cells segítségével.
 ### [Dátum és idő elemzése japán császári uralkodás alapján az Aspose.Cells használatával](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
 Tanulja meg, hogyan értelmezhet japán császári uralkodás szerinti dátumokat az Aspose.Cells .NET könyvtárral.
+
+### [Egyéni számformátum alkalmazása Excelben C#-ban](./how-to-apply-a-custom-number-format-excel-in-c/)
+Tanuld meg, hogyan alkalmazz egyéni számformátumot Excel fájlokban C#-ban az Aspose.Cells segítségével.
+
+### [Hogyan használjuk a japán naptár CultureInfo-t C#-ban dátumok írásához Excelben](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
+Tanuld meg, hogyan írj dátumokat Excelbe a japán naptár CultureInfo használatával C#-ban az Aspose.Cells segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

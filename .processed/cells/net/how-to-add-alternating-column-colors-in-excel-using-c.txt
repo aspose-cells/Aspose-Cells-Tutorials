@@ -1,0 +1,7 @@
+Title: How to add alternating column colors in Excel using C#
+Slug: how-to-add-alternating-column-colors-in-excel-using-c
+Category: excel-colors-and-background-settings
+ProcessedDate: 2026-10-01T11:49:33.170720
+SourceRepo: AI Search API
+Keywords: alternating column colors excel, set cell background color c#, create excel file from datatable c#, import datatable to excel
+PRNumber: 174

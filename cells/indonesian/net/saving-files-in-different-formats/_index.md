@@ -64,6 +64,8 @@ Pelajari cara mudah mengonversi buku kerja Excel ke format CSV dengan Aspose.Cel
 Pelajari cara menyimpan file XLS dengan mudah menggunakan Aspose.Cells for .NET. Panduan langkah demi langkah dengan contoh praktis dan FAQ disertakan.
 ### [Simpan File XLSX](./save-xlsx-file/)
 Temukan cara menyimpan file XLSX menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah ini. Sederhanakan pengelolaan Excel Anda dengan mudah.
+### [Cara Menyelesaikan Tutorial Flat OPC dengan Aspose.Cells di C#](./how-to-complete-a-flat-opc-tutorial-with-aspose-cells-in-c/)
+Pelajari cara menyelesaikan tutorial Flat OPC menggunakan Aspose.Cells di C# dengan langkah‑langkah praktis.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

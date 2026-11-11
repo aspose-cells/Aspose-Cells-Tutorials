@@ -73,6 +73,8 @@ Lär dig implementera avancerade inställningar för kalkylbladsskydd i Excel me
 Lär dig hur du implementerar avancerade skyddsinställningar i Excel med Aspose.Cells för .NET. Kontrollera vem som kan redigera dina filer effektivt.
 ### [Lås celler i kalkylblad med hjälp av Aspose.Cells](./lock-cells/)
 Lär dig hur du låser celler i Excel med Aspose.Cells för .NET med den här steg-för-steg-guiden. Skydda dina data med detaljerade kodexempel och enkla instruktioner.
+### [Låsa rubrikraden i Excel med Aspose.Cells i C#](./how-to-lock-excel-header-row-with-aspose-cells-in-c/)
+Lär dig hur du låser rubrikraden i ett Excel-ark med Aspose.Cells för .NET i C# för att skydda dina kolumnrubriker.
 ### [Ange författare vid skrivskydd av arbetsbok med Aspose.Cells](./specify-author-write-protect-workbook/)
 Lär dig hur du anger en författare när du skrivskyddar en Excel-arbetsbok med Aspose.Cells för .NET i den här steg-för-steg-handledningen.
 

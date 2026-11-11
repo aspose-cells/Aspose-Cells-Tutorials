@@ -52,12 +52,19 @@ Poznaj szczegółowy przewodnik, jak zastosować AutoFilter w automatyzacji Exce
 
 ### [Usuwanie autofiltra w Excelu w C# – Kompletny przewodnik krok po kroku](./remove-autofilter-excel-in-c-complete-step-by-step-guide/)
 Dowiedz się, jak usunąć autofiltr w Excelu przy użyciu Aspose.Cells w .NET, krok po kroku, aby usprawnić zarządzanie danymi.
+### [Usuwanie AutoFiltra w Excelu w C# – przewodnik krok po kroku](./remove-autofilter-in-excel-with-c-step-by-step-guide/)
+Dowiedz się, jak usunąć AutoFilter w Excelu przy użyciu Aspose.Cells w C# – szczegółowy przewodnik krok po kroku.
+### [Jak wyłączyć autofilter w Excelu w C# – kompletny przewodnik](./how-to-disable-autofilter-in-excel-with-c-complete-guide/)
+Dowiedz się, jak wyłączyć autofilter w Excelu przy użyciu Aspose.Cells w C# w prosty sposób.
+
 ### [Czysty interfejs filtrów w Excelu w C# – Usuń przycisk AutoFilter](./clear-filter-ui-in-excel-with-c-remove-autofilter-button/)
 Dowiedz się, jak ukryć przycisk AutoFilter w Excelu przy użyciu Aspose.Cells i C#, aby uzyskać czystszy interfejs użytkownika.
 ### [Ukryj strzałki filtrów w Excelu w C# – Kompletny przewodnik](./hide-filter-arrows-excel-with-c-complete-guide/)
 Dowiedz się, jak ukrywać strzałki filtrów w arkuszach Excel przy użyciu Aspose.Cells w C#, aby uzyskać czystszy wygląd i lepszą kontrolę nad danymi.
 ### [Dodaj tabelę do Excela w C# – wyczyść autofilter i zapisz plik](./add-table-to-excel-with-c-clear-autofilter-and-save-file/)
 Dowiedz się, jak dodać tabelę do pliku Excel w C#, wyczyścić autofilter i zapisać zmiany przy użyciu Aspose.Cells.
+### [Usuwanie autofiltrowania z Excela w C# – kompletny przewodnik](./remove-autofilter-from-excel-in-c-complete-guide/)
+Dowiedz się, jak usunąć przycisk AutoFilter w Excelu przy użyciu Aspose.Cells i C#, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

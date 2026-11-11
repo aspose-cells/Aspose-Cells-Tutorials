@@ -89,16 +89,10 @@ Excelスキルを向上させるチャンスをぜひ活用してください。
 | [C# でマスターシートを作成する – 完全 Aspose.Cells ガイド](./create-master-sheet-in-c-complete-aspose-cells-guide/) ステップバイステップのガイドで、Aspose.Cells for .NET を使用して C# でマスターシートを作成する方法を学びます。 |  
 | [C# で Excel ワークブックを作成する – Aspose.Cells 完全ガイド](./create-excel-workbook-c-complete-guide-with-aspose-cells/) Aspose.Cells for .NET を使用し、C# で Excel ワークブックを作成する手順をステップバイステップで解説します。 |  
 | [C# で Excel ワークブックを作成する – 完全プログラミングガイド](./create-excel-workbook-in-c-complete-programming-guide/) Aspose.Cells for .NET を使用して C# で Excel ワークブックを作成する手順をステップバイステップで解説します。 |  
-| [C#でExcelワークブックを作成 – 展開機能付きフルガイド](./create-excel-workbook-c-full-guide-with-expand-function/) Aspose.Cells for .NET を使用して、C# で展開機能を持つ Excel ワークブックを作成する手順をステップバイステップで解説します。 |
-
-
-
-
-
-
-
-
-| [スタイル付きテーブルで Excel ワークブックを作成する – ステップバイステップ ガイド](./create-excel-workbook-with-styled-table-step-by-step-guide/) このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して、スタイル付きテーブルを含む Excel ワークブックの作成方法を学びます。 |  
+| [C#でExcelワークブックを作成 – 展開機能付きフルガイド](./create-excel-workbook-c-full-guide-with-expand-function/) Aspose.Cells for .NET を使用して、C# で展開機能を持つ Excel ワークブックを作成する手順をステップバイステップで解説します。 |  
+| [スタイル付きテーブルで Excel ワークブックを作成する – ステップバイステップ ガイド](./create-excel-workbook-with-styled-table-step-by-step-guide/) このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して、スタイル付きテーブルを含む Excel ワークブックの作成方法を学びます。 |   |
+|   |   |
+| [C# で Excel ワークブックを作成し、ファイルに保存する](./create-excel-workbook-and-save-it-to-file-in-c/) このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して C# で Excel ワークブックを作成し、ファイルに保存する方法を学びます。 |  
 
 
 
@@ -117,6 +111,7 @@ Excelスキルを向上させるチャンスをぜひ活用してください。
 | [C# でワークブックを作成する方法 – 値の書き込みと数値の書式設定](./how-to-create-workbook-in-c-write-value-format-number/) Aspose.Cells for .NET を使用して C# で新しいワークブックを作成し、セルに値を書き込み、数値の書式を設定する手順を解説します。 |
 | [Aspose.Cells で Excel ワークブックを作成する - 完全ガイド](./create-excel-workbook-with-aspose-cells-full-guide/) Aspose.Cells for .NET を使用して、最初から Excel ワークブックを作成する手順をステップバイステップで解説します。 |  
 | [C#でExcelワークブックを作成しデータを書き込む – 完全ステップバイステップガイド](./create-excel-workbook-and-write-data-in-c-full-step-by-step/) Aspose.Cells for .NET を使用して、C# で新しい Excel ワークブックを作成し、データを書き込む方法を段階的に解説します。 |  
+| [C# で Excel ワークブックを作成し、ワークシートに日付を追加する](./create-excel-workbook-and-add-date-to-worksheet-in-c/) C# を使用して Excel ワークブックを作成し、シートに日付を書き込む方法をステップバイステップで解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
