@@ -60,6 +60,8 @@ Pelajari cara mengekspor Tabel Pivot menjadi file PNG menggunakan Aspose.Cells u
 Pelajari cara menyalin Tabel Pivot di Java menggunakan Aspose.Cells untuk mempercepat duplikasi data dalam laporan.
 ### [Buat Workbook Baru di Java – Panduan Lengkap Menyalin Tabel Pivot](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
 Pelajari cara membuat workbook baru di Java dan menyalin Tabel Pivot menggunakan Aspose.Cells untuk otomatisasi data.
+### [Cara menyalin tabel pivot ke workbook baru di Java](./how-to-copy-pivot-table-to-a-new-workbook-in-java/)
+Pelajari cara menyalin Tabel Pivot ke workbook baru menggunakan Aspose.Cells untuk Java dengan contoh kode lengkap.
 ### [Cara menggandakan lembar kerja dan mempertahankan tabel pivot di Java](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
 ### [Cara menggandakan lembar kerja Excel dan mempertahankan tabel pivot tetap utuh di Java](./how-to-duplicate-an-excel-sheet-and-keep-pivot-tables-intact/)
 Pelajari cara menggandakan lembar kerja Excel sambil menjaga integritas tabel pivot menggunakan Aspose.Cells untuk Java.
@@ -70,7 +72,6 @@ Pelajari cara menyalin rentang sel sambil menjaga integritas Tabel Pivot menggun
 ### [Cara menggandakan tabel pivot di Excel dengan Java – panduan langkah demi langkah](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
 Pelajari cara menggandakan tabel pivot di Excel menggunakan Aspose.Cells untuk Java dengan panduan lengkap langkah demi langkah.
 ### [Gambar Tabel Pivot Excel: Ekspor ke PNG dengan Java](./excel-pivot-table-image-export-to-png-with-java/)
-Pelajari cara mengekspor gambar Tabel Pivot Excel ke format PNG menggunakan Aspose.Cells untuk Java.
 ### [Buat Workbook Baru dan Salin Tabel Pivot di Java – Panduan Langkah‑per‑Langkah Lengkap](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
 Pelajari cara membuat workbook baru dan menyalin tabel pivot menggunakan Aspose.Cells untuk Java dalam panduan langkah demi langkah.
 ### [Menyalin Tabel Pivot di Java dengan Aspose.Cells – Panduan Lengkap](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)

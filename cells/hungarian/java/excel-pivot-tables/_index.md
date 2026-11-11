@@ -100,6 +100,9 @@ Tanuld meg, hogyan másolhatod át a pivot táblákat egyik munkalapról a mási
 ### [Hogyan duplikáljunk egy Excel munkalapot, és megőrizzük a kimutatástáblákat Java-ban](./how-to-duplicate-an-excel-sheet-and-keep-pivot-tables-intact/)
 Tanuld meg, hogyan duplikálhat egy Excel munkalapot a pivot táblákkal együtt Java-ban az Aspose.Cells segítségével.
 
+### [Hogyan másoljuk a pivot táblát egy új munkafüzetbe Java-ban](./how-to-copy-pivot-table-to-a-new-workbook-in-java/)
+Tanuld meg, hogyan másolhatod a pivot táblát egy új munkafüzetbe Java és Aspose.Cells segítségével.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

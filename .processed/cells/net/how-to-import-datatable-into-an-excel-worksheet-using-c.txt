@@ -1,0 +1,7 @@
+Title: How to import DataTable into an Excel worksheet using C#
+Slug: how-to-import-datatable-into-an-excel-worksheet-using-c
+Category: excel-data-import-export
+ProcessedDate: 2026-10-26T23:34:28.006603
+SourceRepo: AI Search API
+Keywords: how to import datatable
+PRNumber: 200

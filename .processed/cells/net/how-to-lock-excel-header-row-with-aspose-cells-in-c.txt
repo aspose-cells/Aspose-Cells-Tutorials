@@ -1,0 +1,7 @@
+Title: How to lock Excel header row with Aspose.Cells in C#
+Slug: how-to-lock-excel-header-row-with-aspose-cells-in-c
+Category: worksheet-security
+ProcessedDate: 2026-10-26T23:34:30.594657
+SourceRepo: AI Search API
+Keywords: lock excel header row, how to lock header, save protected workbook, protect table header, protect header row
+PRNumber: 200

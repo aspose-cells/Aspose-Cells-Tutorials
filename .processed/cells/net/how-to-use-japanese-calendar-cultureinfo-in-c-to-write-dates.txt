@@ -1,0 +1,7 @@
+Title: How to use Japanese calendar CultureInfo in C# to write dates to Excel
+Slug: how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates
+Category: excel-custom-number-date-formatting
+ProcessedDate: 2026-10-26T23:34:38.468538
+SourceRepo: AI Search API
+Keywords: use japanese calendar cultureinfo
+PRNumber: 200

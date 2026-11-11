@@ -1,0 +1,7 @@
+Title: Expand worksheet smart markers in C# for Excel templates
+Slug: expand-worksheet-smart-markers-in-c-for-excel-templates
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-10-26T23:34:57.081524
+SourceRepo: AI Search API
+Keywords: expand worksheet smart markers, loop sheets excel, fill excel template c#
+PRNumber: 200

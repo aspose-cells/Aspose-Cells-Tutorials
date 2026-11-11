@@ -1,0 +1,7 @@
+Title: Set print area and export Excel sheet to PNG in C#
+Slug: set-print-area-and-export-excel-sheet-to-png-in-c
+Category: rendering-and-export
+ProcessedDate: 2026-10-26T23:34:41.047379
+SourceRepo: AI Search API
+Keywords: set print area, excel sheet to png, how to export png, export excel image, image export options
+PRNumber: 200

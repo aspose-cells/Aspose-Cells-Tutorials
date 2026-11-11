@@ -1,0 +1,7 @@
+Title: How to use WRAPCOLS in C# and save workbook as XLSX
+Slug: how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx
+Category: row-and-column-management
+ProcessedDate: 2026-10-26T23:34:46.508398
+SourceRepo: AI Search API
+Keywords: how to use wrapcols, split range into rows, excel wrapcols example, save workbook as xlsx, create excel workbook programmatically
+PRNumber: 200

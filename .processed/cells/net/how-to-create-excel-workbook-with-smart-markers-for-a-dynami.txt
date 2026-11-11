@@ -1,0 +1,7 @@
+Title: How to create excel workbook with smart markers for a dynamic excel report
+Slug: how-to-create-excel-workbook-with-smart-markers-for-a-dynami
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-10-26T23:34:54.441012
+SourceRepo: AI Search API
+Keywords: create excel workbook, insert data into excel, dynamic excel report
+PRNumber: 200

@@ -1,0 +1,8 @@
+Title: Custom ExportTableOptions when ExportAsStrin for Excel
+Slug: custom-exporttableoptions-when-exportasstrin-for-excel
+Category: excel-data-export-retrieval
+ProcessedDate: 2026-10-26T23:34:35.828922
+SourceRepo: AI Search API
+Keywords: |
+| **Custom ExportTableOptions when ExportAsStrin, how to export excel as string
+PRNumber: 200

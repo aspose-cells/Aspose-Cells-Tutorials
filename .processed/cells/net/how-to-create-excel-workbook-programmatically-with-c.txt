@@ -1,0 +1,7 @@
+Title: How to create Excel workbook programmatically with C#
+Slug: how-to-create-excel-workbook-programmatically-with-c
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-10-26T23:34:25.364015
+SourceRepo: AI Search API
+Keywords: create excel workbook programmatically
+PRNumber: 200

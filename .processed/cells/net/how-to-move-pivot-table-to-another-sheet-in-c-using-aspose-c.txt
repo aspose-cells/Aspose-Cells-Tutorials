@@ -1,0 +1,7 @@
+Title: How to move pivot table to another sheet in C# using Aspose.Cells
+Slug: how-to-move-pivot-table-to-another-sheet-in-c-using-aspose-c
+Category: pivot-tables
+ProcessedDate: 2026-10-26T23:34:16.957077
+SourceRepo: AI Search API
+Keywords: move pivot table to another sheet, load excel workbook c#
+PRNumber: 200
