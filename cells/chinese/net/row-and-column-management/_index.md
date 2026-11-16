@@ -119,10 +119,12 @@
 ### [使用 C# 在 Excel 中插入行 – 分步指南](./insert-rows-in-excel-with-c-step-by-step-guide/)
 ### [使用 WRAPCOLS：在 C# 中创建两列布局](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 了解如何在 C# 中使用 Aspose.Cells 的 WRAPCOLS 功能创建两列布局，提供完整代码示例和步骤说明。
+
+### [使用 WRAPCOLS 在 C# 中将行拆分为列](./how-to-use-wrapcols-to-split-a-row-into-columns-in-c/)
+了解如何使用 Aspose.Cells 的 WRAPCOLS 功能在 C# 中将单行数据拆分为多列。
+
 ### [如何在 GridJs 中插入行 – 快速添加多行](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 本教程提供在 GridJs 表格中一次性插入多行的分步指南，帮助您高效扩展数据。
-### [在 C# 中使用 wrapcols – 完整指南，包含 Excel WRAPROWS 与重新计算公式](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
-通过本完整指南，深入了解在 C# 中使用 WRAPCOLS、WRAPROWS 以及公式重新计算的高级技巧。
 
 ### [在 C# 中使用 WRAPCOLS 并将工作簿保存为 XLSX](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
 了解如何在 C# 中使用 WRAPCOLS 创建列布局并将工作簿保存为 XLSX 的完整步骤。

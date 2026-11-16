@@ -50,6 +50,9 @@ Aspose.Cells for .NET에서 재귀 옵션을 사용하여 Excel 계산 시간을
 ### [Excel 워크북 만들기 – WRAPCOLS를 사용하여 배열을 행렬로 변환](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
 WRAPCOLS 함수를 활용해 배열 데이터를 행렬 형태로 변환하고 Excel 워크북에 저장하는 방법을 단계별로 안내합니다.
 
+### [Aspose.Cells를 사용하여 Excel에서 배열 확장하기](./how-to-expand-array-in-excel-with-aspose-cells)
+Aspose.Cells를 활용해 Excel에서 배열을 확장하는 방법을 단계별로 안내합니다.
+
 ### [C#에서 강제 수식 계산 – Excel 자동화 완전 가이드](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
 C#에서 강제 수식 계산을 수행하고 Excel 자동화를 완전하게 구현하는 방법을 단계별로 안내합니다.
 

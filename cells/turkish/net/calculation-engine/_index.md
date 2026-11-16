@@ -52,6 +52,9 @@ WRAPCOLS işleviyle bir dizi verisini matrise dönüştürerek Excel çalışma 
 ### [C#'ta Formülleri Değerlendirme – Tam Aspose.Cells Kılavuzu](./how-to-evaluate-formulas-in-c-complete-aspose-cells-guide/)
 C# ile Aspose.Cells kullanarak Excel formüllerini nasıl değerlendireceğinizi adım adım öğrenin.
 
+### [Aspose.Cells ile Excel'de Diziyi Genişletme](./how-to-expand-array-in-excel-with-aspose-cells)
+Aspose.Cells kullanarak Excel'de bir diziyi nasıl genişleteceğinizi adım adım öğrenin.
+
 ## Faydalar
 
 - **Gelişmiş Formül Desteği**: Excel'in yerleşik formül yeteneklerini özel uygulamalarla genişletin

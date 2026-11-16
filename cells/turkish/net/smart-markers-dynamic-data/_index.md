@@ -193,7 +193,9 @@ Aspose.Cells Akıllı İşaretleyicileri kullanarak master-detail ilişkili bir 
 Smart Markers kullanarak şablonları doldurup master-detail ilişkili Excel raporları oluşturmayı öğrenin.
 ### [Çalışma Sayfalarını Tekrarlama – Excel Otomasyonu için Tam Kılavuz](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 ### [Aspose.Cells Akıllı İşaretleyicisi ile JSON'dan Excel Oluşturun](./create-excel-from-json-with-aspose-cells-smart-marker/)
-JSON verilerini kullanarak dinamik Excel raporları oluşturmayı öğrenin. Aspose.Cells Smart Marker ile hızlı ve kolay bir şekilde Excel dosyaları üretin.
+
+### [C# ile SmartMarker kullanarak JSON'dan Excel Oluşturma](./create-excel-from-json-with-smartmarker-in-c/)
+
 ### [Excel Şablonları için C#'ta Çalışma Sayfası Akıllı İşaretleyicilerini Genişletme](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

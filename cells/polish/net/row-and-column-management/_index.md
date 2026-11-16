@@ -101,13 +101,8 @@ Naucz się wstawiać wiersz z formatowaniem w programie Excel za pomocą Aspose.
 Naucz się wstawiać wiele wierszy w programie Excel za pomocą Aspose.Cells dla .NET. Skorzystaj z naszego szczegółowego samouczka, aby płynnie manipulować danymi.
 ### [Jak używać WRAPCOLS: Utwórz układ dwukolumnowy w C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 Dowiedz się, jak zastosować metodę WRAPCOLS w Aspose.Cells, aby w prosty sposób stworzyć układ dwukolumnowy w C#.
-### [Usuwanie wierszy w tabeli Excel przy użyciu C# – przewodnik krok po kroku](./delete-rows-excel-table-with-c-step-by-step-guide/)
-### [Jak usunąć wiersze z tabeli Excel przy użyciu C#](./how-to-delete-rows-from-excel-table-using-c/)
-Dowiedz się, jak w C# usuwać wiersze z tabeli Excel przy użyciu Aspose.Cells, krok po kroku.
-### [Jak wstawić wiersze w GridJs – dodaj wiele wierszy szybko](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
-Poznaj, jak przy użyciu GridJs wstawić wiele wierszy jednocześnie, aby przyspieszyć manipulację danymi w tabelach.
-### [Jak wstawiać wiersze w GridJs – Efektywne dodawanie wielu wierszy do siatki](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
-Dowiedz się, jak efektywnie dodać wiele wierszy do siatki w GridJs, krok po kroku, z przykładami kodu.
+### [Jak używać WRAPCOLS, aby podzielić wiersz na kolumny w C#](./how-to-use-wrapcols-to-split-a-row-into-columns-in-c/)
+Dowiedz się, jak przy użyciu metody WRAPCOLS podzielić pojedynczy wiersz na wiele kolumn w Excelu przy pomocy C# i Aspose.Cells.
 ### [Jak używać wrapcols w C# – Pełny przewodnik z Excel WRAPROWS i przeliczaniem formuł](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Dowiedz się, jak używać metody wrapcols w C#, wraz z funkcją WRAPROWS i przeliczaniem formuł w Excelu.
 ### [Jak usunąć cały wiersz w pliku Excel przy użyciu C#](./how-to-delete-entire-row-in-an-excel-file-using-c/)

@@ -49,10 +49,15 @@
 
 ### [إجبار حساب الصيغة في C# – دليل شامل لأتمتة Excel](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
 تعلم كيفية إجبار حساب الصيغ في C# لتسريع أتمتة Excel باستخدام Aspose.Cells.
+
 ### [إنشاء مصنف Excel – تحويل مصفوفة إلى مصفوفة باستخدام WRAPCOLS](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
 تعلم كيفية إنشاء مصنف Excel وتحويل مصفوفة إلى مصفوفة باستخدام الدالة WRAPCOLS في Aspose.Cells.
+
 ### [كيفية تقييم الصيغ في C# – دليل Aspose.Cells الكامل](./how-to-evaluate-formulas-in-c-complete-aspose-cells-guide/)
 تعرّف على كيفية تقييم الصيغ في C# باستخدام Aspose.Cells من خلال دليل شامل يوضح الخطوات والأمثلة العملية.
+
+### [كيفية توسيع المصفوفة في Excel باستخدام Aspose.Cells](./how-to-expand-array-in-excel-with-aspose-cells)
+تعلم كيفية توسيع المصفوفة في Excel باستخدام Aspose.Cells مع أمثلة عملية.
 
 ## فوائد
 

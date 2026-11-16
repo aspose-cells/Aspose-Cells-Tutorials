@@ -90,6 +90,8 @@ Dowiedz się, jak programowo eksportować pliki Excel do prezentacji PowerPoint 
 Dowiedz się, jak programowo wyeksportować arkusz Excel do prezentacji PowerPoint przy użyciu Aspose.Cells dla .NET w pełnym przewodniku krok po kroku.
 ### [Jak zapisać Excel jako PowerPoint przy użyciu C# i Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
 Dowiedz się, jak programowo przekształcić arkusz Excel w prezentację PowerPoint przy użyciu C# i biblioteki Aspose.Cells.
+### [Jak zapisać Excel jako PowerPoint przy użyciu Aspose.Cells w C#](./how-to-save-excel-as-powerpoint-with-aspose-cells-in-c/)
+Dowiedz się, jak programowo zapisać arkusz Excel jako prezentację PowerPoint przy użyciu Aspose.Cells w C#.
 ### [Określanie HTML CrossType w wyjściowym HTML programowo w .NET](./specifying-html-crosstype-in-output-html/)
 Dowiedz się, jak określić HTML CrossType w Aspose.Cells dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby precyzyjnie przekonwertować pliki Excel na HTML.
 ### [Odczyt arkusza kalkulacyjnego liczb programowo w .NET](./reading-numbers-spreadsheet/)
@@ -134,7 +136,7 @@ Dowiedz się, jak programowo konwertować arkusze Excel na prezentacje PowerPoin
 ### [Utworzenie dokumentu Word z Excela – szybki przewodnik C#](./create-word-from-excel-quick-c-guide/)
 Dowiedz się, jak szybko wygenerować plik Word z danych Excela w C# przy użyciu Aspose.Cells.
 ### [Jak zapisać DOCX z Excela – Kompletny przewodnik eksportu wykresów do Worda](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)
-Dowiedz się, jak programowo zapisać plik Excel jako DOCX i wyeksportować wykresy do dokumentu Word przy użyciu Aspose.Cells.
+Dowiedz się, jak programowo zapisać plik Excel jako DOCX i wyeksportować wykresy do dokumentu Word przy użyciem Aspose.Cells.
 ### [Eksportuj Excel do PowerPoint z edytowalnymi wykresami w C#](./export-excel-to-powerpoint-with-editable-charts-in-c/)
 Dowiedz się, jak wyeksportować arkusz Excel do PowerPoint z wykresami, które można edytować, używając Aspose.Cells w C#.
 ### [Jak osadzić czcionki w SVG przy konwertowaniu plików Excel do SVG i PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)

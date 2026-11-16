@@ -32,7 +32,7 @@ Unsere umfassenden Tutorials decken alles ab, von der Grundkonfiguration bis zur
 ### [Ändern Sie das Excel-Datumssystem mit Aspose.Cells .NET auf 1904](./change-excel-date-system-aspose-cells-net)
 Erfahren Sie, wie Sie mit Aspose.Cells .NET das Standarddatumssystem von Excel mühelos von 1899 auf 1904 umstellen. Diese Anleitung bietet Schritt-für-Schritt-Anleitungen und Codebeispiele für eine nahtlose Integration.
 
-### [Implementieren Sie eine benutzerdefinierte Berechnungs-Engine mit Aspose.Cells für .NET | Excel-Formelerweiterung](./custom-calculation-engine-aspose-cells-net)
+### [Implementieren Sie eine benutzerdefinierte Berechnung-Engine mit Aspose.Cells für .NET | Excel-Formelerweiterung](./custom-calculation-engine-aspose-cells-net)
 Erfahren Sie, wie Sie mit Aspose.Cells eine benutzerdefinierte Berechnungs-Engine in Ihren .NET-Anwendungen implementieren und verwenden, und so die Formelfunktionen von Excel über die Standardfunktionen hinaus erweitern.
 
 ### [Implementieren eines benutzerdefinierten Berechnungsmonitors in Aspose.Cells .NET für die Excel-Formelsteuerung](./custom-calculation-monitor-aspose-cells-dotnet)
@@ -49,8 +49,13 @@ Erfahren Sie, wie Sie Excel-Berechnungszeiten mithilfe rekursiver Optionen in As
 
 ### [Formelberechnung in C# erzwingen – Komplettleitfaden zur Excel-Automatisierung](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
 Erfahren Sie, wie Sie in C# die Berechnung von Excel-Formeln zwangsweise ausführen, um stets aktuelle Ergebnisse zu erhalten.
+
 ### [Excel-Arbeitsmappe erstellen – Array in Matrix mit WRAPCOLS konvertieren](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
 Erfahren Sie, wie Sie mit Aspose.Cells ein Excel-Arbeitsbuch erstellen und ein eindimensionales Array mithilfe von WRAPCOLS in eine Matrix umwandeln.
+
+### [Wie man ein Array in Excel mit Aspose.Cells erweitert](./how-to-expand-array-in-excel-with-aspose-cells)
+Erfahren Sie, wie Sie mit Aspose.Cells ein Array in Excel erweitern und Daten effizient verarbeiten.
+
 ### [Formeln in C# auswerten – Vollständiger Aspose.Cells Leitfaden](./how-to-evaluate-formulas-in-c-complete-aspose-cells-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells in C# Excel-Formeln vollständig auswerten, inklusive Codebeispielen und Best Practices.
 

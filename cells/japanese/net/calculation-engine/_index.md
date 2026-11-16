@@ -54,6 +54,9 @@ WRAPCOLS 関数を利用して、配列データを行列形式に変換し、Ex
 ### [C# で数式を評価する方法 – 完全な Aspose.Cells ガイド](./how-to-evaluate-formulas-in-c-complete-aspose-cells-guide/)
 C# で Aspose.Cells を使用して Excel の数式を評価する手順とコード例を詳しく解説します。
 
+### [Aspose.Cells を使用して Excel で配列を拡張する方法](./how-to-expand-array-in-excel-with-aspose-cells/)
+Aspose.Cells を使って Excel の配列を拡張し、データ範囲を動的に増やす手順とサンプルコードを紹介します。
+
 ## 利点
 
 - **強化された数式サポート**Excel の組み込み数式機能をカスタム実装で拡張します

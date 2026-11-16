@@ -52,6 +52,9 @@ Naučte se, jak vynutit výpočet vzorců v C# pomocí Aspose.Cells a plně auto
 ### [Vytvořte Excel sešit – Převod pole na matici pomocí WRAPCOLS](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
 Naučte se, jak pomocí funkce WRAPCOLS převést jednorozměrné pole na matici při vytváření Excel sešitu s Aspose.Cells.
 
+### [Jak rozšířit pole v Excelu pomocí Aspose.Cells](./how-to-expand-array-in-excel-with-aspose-cells)
+Naučte se, jak pomocí Aspose.Cells rozšířit jednorozměrné pole na matici v Excelu a efektivně pracovat s daty.
+
 ## Výhody
 
 - **Vylepšená podpora receptur**Rozšiřte vestavěné možnosti vzorců v Excelu o vlastní implementace

@@ -41,7 +41,7 @@
 
 ## 刪除不需要的數據
 
-讓我們面對現實，並不是每條數據都能隨著時間的推移而保持相關性。清理 Excel 檔案時，請了解如何刪除列和行可以簡化您的操作。我們的指南提供了細緻的步驟 [刪除行](./delete-row-aspose-cells/).
+讓我們面對現實，並不是每條數據都能隨著時間的推移而保持相關性。清理 Excel 檔案時，請了解如何刪除列和行可以簡化您的操作。我們的指南提供了細緻的步驟 [刪除行](./delete-row-aspose-cells/)。
 
 ## 列和列管理教程
 ### [使用 Aspose.Cells for .NET 複製列](./copying-columns/)
@@ -106,7 +106,9 @@
 ### [如何使用 WRAPCOLS：在 C# 中建立雙欄佈局](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 了解如何在 C# 中使用 Aspose.Cells 的 WRAPCOLS 功能，快速建立雙欄佈局的步驟說明。
 ### [如何在 C# 中使用 WRAPCOLS 並將工作簿儲存為 XLSX](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
-了解如何在 C# 使用 WRAPCOLS 功能後，將工作簿儲存為 XLSX 檔案的完整步驟。
+了解如何在 C# 使用 WRAPCOLS 功能後，將工作簿儲存為 XLSX 檔案的完整步驟說明。
+
+### [如何在 C# 中使用 WRAPCOLS 將行拆分為列](./how-to-use-wrapcols-to-split-a-row-into-columns-in-c/)
 
 ### [如何在 GridJs 中插入行 – 快速新增多行](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 了解如何使用 GridJs 快速插入多行，提升表格資料處理效率。

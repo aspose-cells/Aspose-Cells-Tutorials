@@ -50,6 +50,9 @@ Tìm hiểu cách tối ưu hóa thời gian tính toán Excel bằng các tùy 
 ### [Cách tính Workbook trong C# – Hướng dẫn sắp xếp và công thức](./how-to-calculate-workbook-in-c-sort-formula-guide/)
 Hướng dẫn chi tiết cách tính toán workbook trong C# sử dụng Aspose.Cells, bao gồm sắp xếp dữ liệu và áp dụng công thức.
 
+### [Cách mở rộng mảng trong Excel bằng Aspose.Cells](./how-to-expand-array-in-excel-with-aspose-cells)
+Hướng dẫn cách mở rộng mảng trong Excel bằng Aspose.Cells, kèm ví dụ mã và hướng dẫn chi tiết.
+
 ## Những lợi ích
 
 - **Hỗ trợ công thức nâng cao**: Mở rộng khả năng công thức tích hợp của Excel với các triển khai tùy chỉnh

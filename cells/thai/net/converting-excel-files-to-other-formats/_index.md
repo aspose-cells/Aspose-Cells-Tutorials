@@ -70,13 +70,15 @@ Aspose.Cells สำหรับ .NET ทำให้การแปลงเอ�
 ### [วิธีส่งออก Excel ไปยัง PowerPoint – คู่มือ C# ฉบับสมบูรณ์](./how-to-export-excel-to-powerpoint-complete-c-guide/)
 เรียนรู้วิธีส่งออกไฟล์ Excel เป็น PowerPoint ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือขั้นตอนเต็มรูปแบบ
 ### [ส่งออก Excel ไปยัง PowerPoint ด้วย Aspose.Cells – คู่มือการเขียนโปรแกรมแบบครบถ้วน](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
-เรียนรู้วิธีส่งออกไฟล์ Excel เป็น PowerPoint อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET ในคู่มือขั้นตอนเต็ม
+เรียนรู้วิธีส่งออกไฟล์ Excel เป็น PowerPoint อย่างละเอียดด้วย Aspose.Cells สำหรับ .NET ในคู่มือขั้นตอนเต็มรูปแบบ
 ### [คัดลอก Pivot Table และส่งออก Excel ไปเป็น PPTX ด้วย Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
 เรียนรู้วิธีคัดลอก Pivot Table จาก Excel และส่งออกเป็นไฟล์ PowerPoint (PPTX) ด้วย Aspose.Cells สำหรับ .NET
 ### [การส่งออก Excel ไปยัง PowerPoint – คู่มือครบถ้วน](./how-to-export-excel-to-powerpoint-complete-guide/)
 เรียนรู้วิธีส่งออกไฟล์ Excel เป็นงานนำเสนอ PowerPoint ด้วย Aspose.Cells สำหรับ .NET ผ่านขั้นตอนที่ละเอียดและตัวอย่างโค้ดที่เข้าใจง่าย
 ### [วิธีบันทึก Excel เป็น PowerPoint ด้วย C# และ Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
 เรียนรู้วิธีแปลงไฟล์ Excel เป็น PowerPoint ด้วย C# โดยใช้ Aspose.Cells อย่างง่ายดาย
+### [วิธีบันทึก Excel เป็น PowerPoint ด้วย Aspose.Cells ใน C#](./how-to-save-excel-as-powerpoint-with-aspose-cells-in-c/)
+เรียนรู้วิธีบันทึกไฟล์ Excel เป็น PowerPoint ด้วย Aspose.Cells ใน C# อย่างละเอียด
 ### [การระบุ HTML CrossType ในโปรแกรมเอาท์พุต HTML ใน .NET](./specifying-html-crosstype-in-output-html/)
 เรียนรู้วิธีระบุ HTML CrossType ใน Aspose.Cells สำหรับ .NET ปฏิบัตตามบทช่วยสอนทีละขั้นตอนของเราเพื่อแปลงไฟล์ Excel เป็น HTML อย่างแม่นยำ
 ### [การอ่านสเปรดชีตตัวเลขโดยโปรแกรมใน .NET](./reading-numbers-spreadsheet/)

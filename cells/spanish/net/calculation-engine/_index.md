@@ -57,6 +57,9 @@ Aprenda a crear un libro de Excel y convertir un array en una matriz usando la f
 ### [Cómo evaluar fórmulas en C# – Guía completa de Aspose.Cells](./how-to-evaluate-formulas-in-c-complete-aspose-cells-guide/)
 Aprenda a evaluar fórmulas de Excel en C# usando Aspose.Cells, con ejemplos paso a paso y mejores prácticas para un rendimiento óptimo.
 
+### [Cómo expandir una matriz en Excel con Aspose.Cells](./how-to-expand-array-in-excel-with-aspose-cells)
+Aprenda a expandir una matriz en Excel usando Aspose.Cells, con ejemplos de código paso a paso.
+
 ## Beneficios
 
 - **Compatibilidad con fórmulas mejorada**:Amplíe las capacidades de fórmulas integradas de Excel con implementaciones personalizadas

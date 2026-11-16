@@ -91,23 +91,17 @@ Aspose.Cells for .NET kullanarak C# ile Excel'de öğeleri tekrarlayarak dinamik
 ### [GridJs'de Satır Ekleme – Çoklu Satırları Verimli Şekilde Ekleyin](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 GridJs kullanarak birden fazla satırı verimli bir şekilde eklemeyi adım adım öğrenin.
 
-
-
-
 ### [C# ile Excel çalışma kitabı oluşturma ve sütunu satıra dönüştürme](./create-excel-workbook-c-and-transpose-column-to-row/)
 Aspose.Cells for .NET kullanarak bir Excel çalışma kitabı oluşturmayı ve bir sütunu satıra dönüştürmeyi adım adım öğrenin.
-
-
-
 
 ### [C# ile Excel Tablosundan Satır Silme – Adım Adım Kılavuz](./delete-rows-excel-table-with-c-step-by-step-guide/)
 Aspose.Cells for .NET kullanarak C# ile Excel tablosundan satırları nasıl sileceğinizi adım adım öğrenin.
 ### [WRAPCOLS Kullanımı: C#'ta İki Sütunlu Düzen Oluşturma](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 Aspose.Cells for .NET ile WRAPCOLS özelliğini kullanarak iki sütunlu bir düzen nasıl oluşturulur, adım adım öğrenin.
+### [WRAPCOLS Kullanımı: C#'ta Bir Satırı Sütunlara Bölme](./how-to-use-wrapcols-to-split-a-row-into-columns-in-c/)
+Aspose.Cells for .NET ile WRAPCOLS kullanarak bir satırı birden çok sütuna bölmeyi adım adım öğrenin.
 ### [C# ile Excel'e Satır Ekleme – Adım Adım Kılavuz](./insert-rows-in-excel-with-c-step-by-step-guide/)
 C# ve Aspose.Cells for .NET kullanarak Excel dosyalarına satır eklemeyi adım adım öğrenin.
-### [GridJs'de Satır Ekleme – Birden Fazla Satırı Hızlıca Ekleyin](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
-GridJs kullanarak Excel benzeri tablolarınıza birden fazla satırı hızlı ve kolay bir şekilde eklemeyi öğrenin.
 ### [C#'ta wrapcols Kullanımı – Excel WRAPROWS ve Formülleri Yeniden Hesaplama ile Tam Kılavuz](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 C# ile wrapcols özelliğini kullanarak satırları kaydırma, wraprows ve formül yeniden hesaplamayı adım adım öğrenin.
 ### [WRAPCOLS Kullanımı: C#'ta Çalışma Kitabını XLSX Olarak Kaydetme](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)

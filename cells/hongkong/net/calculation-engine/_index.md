@@ -52,6 +52,8 @@ Aspose.Cells for .NET 提供了一個強大的計算引擎，讓開發人員可�
 ### [建立 Excel 工作簿 – 使用 WRAPCOLS 將陣列轉換為矩陣](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
 了解如何在 Aspose.Cells .NET 中建立工作簿，並使用 WRAPCOLS 函數將一維陣列轉換為矩陣格式。
 
+### [如何在 Excel 中使用 Aspose.Cells 展開陣列](./how-to-expand-array-in-excel-with-aspose-cells)
+
 ## 好處
 
 - **增強公式支持**：透過自訂實現擴展 Excel 的內建公式功能

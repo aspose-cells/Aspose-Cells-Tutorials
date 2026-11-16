@@ -55,6 +55,9 @@ Learn how to force formula recalculation in C# using Aspose.Cells, ensuring up-t
 ### [Create Excel Workbook – Convert Array to Matrix with WRAPCOLS](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
 Learn how to create an Excel workbook and convert a one‑dimensional array into a matrix using the WRAPCOLS function with Aspose.Cells .NET.
 
+### [How to expand array in Excel with Aspose.Cells](./how-to-expand-array-in-excel-with-aspose-cells)
+Learn how to expand arrays in Excel worksheets using Aspose.Cells for .NET.
+
 ## Benefits
 
 - **Enhanced Formula Support**: Extend Excel's built-in formula capabilities with custom implementations

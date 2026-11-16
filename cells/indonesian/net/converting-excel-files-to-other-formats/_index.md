@@ -69,7 +69,7 @@ Pelajari cara membuat presentasi PowerPoint dari file Excel secara terprogram me
 ### [Mengonversi Excel ke PowerPoint dan Menetapkan Area Cetak](./convert-excel-to-powerpoint-and-set-print-area/)
 Pelajari cara mengonversi file Excel ke PowerPoint dan menentukan area cetak secara terprogram menggunakan Aspose.Cells untuk .NET.
 ### [Buat PowerPoint dari Excel – Panduan Otomatisasi C# Lengkap](./create-new-workbook-export-excel-to-txt-with-full-precision/)
-Pelajari cara membuat presentasi PPT dari file Excel secara terprogram menggunakan Aspose.Cells untuk .NET dengan contoh kode C# lengkap.
+Pelajari cara membuat presentasi PPT dari file Excel secara terprogram menggunakan Aspose.Cells for .NET dengan contoh kode C# lengkap.
 
 ### [Cara menyimpan Excel sebagai teks dengan Aspose.Cells – panduan langkah demi langkah](./how-to-save-excel-as-text-with-aspose-cells-step-by-step-gui/)
 Pelajari cara menyimpan file Excel sebagai teks menggunakan Aspose.Cells dengan panduan langkah demi langkah yang mudah diikuti.
@@ -138,10 +138,12 @@ Pelajari cara menyalin tabel pivot dan mengekspor file Excel ke format PPTX meng
 
 ### [Cara menyimpan Excel sebagai PPT dengan kotak teks yang dapat diedit di C#](./how-to-save-excel-as-ppt-with-editable-text-boxes-in-c/)
 Pelajari cara menyimpan file Excel sebagai PPT dengan kotak teks yang dapat diedit menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah.
+### [Cara menyimpan Excel sebagai PowerPoint dengan Aspose.Cells di C#](./how-to-save-excel-as-powerpoint-with-aspose-cells-in-c/)
+Pelajari cara menyimpan file Excel sebagai presentasi PowerPoint menggunakan Aspose.Cells di C# dalam panduan langkah demi langkah.
 ### [Cara menyimpan buku kerja sebagai CSV dan mengekspor Excel ke TXT dengan format khusus di C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
 Pelajari cara menyimpan buku kerja sebagai CSV dan mengekspor Excel ke TXT dengan format khusus menggunakan C# dan Aspose.Cells.
 
-### [Cara menyimpan Excel sebagai TXT menggunakan Aspose.Cells di C#](./how-to-save-excel-as-txt-using-aspose-cells-in-c/)
+### [Cara menyimpan Excel sebagai txt menggunakan Aspose.Cells di C#](./how-to-save-excel-as-txt-using-aspose-cells-in-c/)
 Pelajari cara mengekspor file Excel ke format TXT menggunakan Aspose.Cells dengan C# dalam panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -104,16 +104,12 @@
 เรียนรู้วิธีใช้ WRAPCOLS เพื่อสร้างเค้าโครงสองคอลัมน์ใน C# ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด
 ### [วิธีใช้ WRAPCOLS: สร้างเค้าโครงสองคอลัมน์ใน C#](./how-to-use-wrapcols-in-c/)
 เรียนรู้วิธีใช้ WRAPCOLS เพื่อสร้างเค้าโครงสองคอลัมน์ใน C# ด้วย Aspose.Cells สำหรับ .NET อย่างละเอียด
-### [วิธีแทรกแถวใน GridJs – เพิ่มหลายแถวอย่างรวดเร็ว](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
-เรียนรู้วิธีเพิ่มหลายแถวใน GridJs อย่างรวดเร็วด้วยขั้นตอนง่าย ๆ สำหรับนักพัฒนา
 ### [วิธีใช้ wrapcols ใน C# – คู่มือเต็มกับ Excel WRAPROWS & การคำนวณสูตรใหม่](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 เรียนรู้วิธีใช้ wrapcols ใน C# พร้อม WRAPROWS และการคำนวณสูตรใหม่ใน Excel อย่างละเอียด
-### [เลื่อนเซลล์ขึ้นใน Excel ด้วย C# – คู่มือฉบับสมบูรณ์](./shift-cells-up-in-excel-with-c-complete-guide/)
-เรียนรู้วิธีเลื่อนเซลล์ขึ้นในไฟล์ Excel ด้วย C# อย่างละเอียด ด้วยขั้นตอนและโค้ดตัวอย่างที่เข้าใจง่าย
-### [ลบแถวจากตาราง Excel – คู่มือ C# ฉบับสมบูรณ์](./delete-rows-from-excel-table-complete-c-guide/)
-เรียนรู้วิธีลบแถวจากตาราง Excel อย่างละเอียดด้วย C# และ Aspose.Cells
 ### [วิธีใช้ WRAPCOLS ใน C# และบันทึกเวิร์กบุ๊กเป็น XLSX](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
-เรียนรู้วิธีใช้ WRAPCOLS ใน C# และบันทึกเวิร์กบุ๊กเป็นไฟล์ XLSX ด้วย Aspose.Cells อย่างละเอียด
+เรียนรู้วิธีใช้ WRAPCOLS ใน C# เพื่อบันทึกเวิร์กบุ๊กเป็นไฟล์ XLSX อย่างละเอียด
+### [วิธีใช้ WRAPCOLS เพื่อแยกแถวเป็นคอลัมน์ใน C#](./how-to-use-wrapcols-to-split-a-row-into-columns-in-c/)
+เรียนรู้วิธีใช้ WRAPCOLS เพื่อแยกแถวเป็นคอลัมน์ใน C# อย่างละเอียดด้วยตัวอย่างโค้ด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

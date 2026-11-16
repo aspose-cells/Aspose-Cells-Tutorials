@@ -118,6 +118,8 @@
 Узнайте, как сдвинуть ячейки вверх в Excel с помощью C# и Aspose.Cells, следуя пошаговому руководству.
 ### [Удаление строк из таблицы Excel – полное руководство C#](./delete-rows-from-excel-table-complete-c-guide/)
 Подробное руководство по удалению строк из таблицы Excel с помощью Aspose.Cells для .NET на C#.
+### [Как использовать WRAPCOLS для разделения строки на столбцы в C#](./how-to-use-wrapcols-to-split-a-row-into-columns-in-c/)
+Узнайте, как с помощью свойства WRAPCOLS разбить одну строку на несколько столбцов в Excel, используя C# и Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

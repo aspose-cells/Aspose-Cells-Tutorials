@@ -49,6 +49,9 @@ Czy wiesz, że możesz włączyć zawartość HTML bezpośrednio do arkuszy Exce
 ## Oceń IsBlank za pomocą inteligentnych znaczników
 Zarządzanie pustymi wartościami w zestawach danych może być uciążliwe, ale Aspose.Cells upraszcza to dzięki swojej możliwości oceny pustych wartości za pomocą inteligentnych znaczników. Ta funkcja umożliwia łatwe sprawdzanie pustych komórek i odpowiednie dostosowywanie logiki raportowania. Dzięki tej możliwości raporty mogą automatycznie obsługiwać sytuacje, w których może brakować danych, zapewniając odbiorcom jasne i dokładne informacje. Dowiedz się, jak skutecznie wdrożyć tę funkcję w swoich raportach. [Przeczytaj więcej](./evaluate-isblank-smart-markers/)
 
+### [Create Excel from JSON with SmartMarker in C#](./create-excel-from-json-with-smartmarker-in-c/)
+
+
 ### [Jak ocenić formułę za pomocą inteligentnych znaczników – Kompletny przewodnik](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
 Dowiedz się, jak ocenić formuły w Excelu przy użyciu inteligentnych znaczników w Aspose.Cells, aby automatycznie obsługiwać warunki i wyniki.
 

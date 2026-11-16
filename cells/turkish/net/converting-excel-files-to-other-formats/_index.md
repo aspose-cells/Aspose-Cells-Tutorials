@@ -66,10 +66,13 @@ Aspose.Cells for .NET kullanarak Excel dosyalarından PowerPoint sunumları olu�
 ### [Pivot tabloyu kopyala ve Excel'i PPTX'e Aspose.Cells ile dışa aktar](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
 Aspose.Cells kullanarak pivot tabloyu kopyalayıp Excel dosyasını PPTX sunumuna nasıl dışa aktaracağınızı adım adım öğrenin.
 ### [Excel'i PowerPoint'e Dışa Aktarma – Tam C# Kılavuzu](./how-to-export-excel-to-powerpoint-complete-c-guide/)
+Aspose.Cells for .NET kullanarak Excel dosyasını PowerPoint sunumuna nasıl dönüştüreceğinizi adım adım öğrenin.
 ### [Aspose.Cells ile Excel'i PowerPoint'e Dışa Aktarma – tam programlama rehberi](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
 Aspose.Cells kullanarak Excel dosyalarını PowerPoint sunumlarına dönüştürmek için adım adım kod örnekleri ve açıklamalar.
 ### [C# ve Aspose.Cells ile Excel'i PowerPoint Olarak Kaydetme](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
-Aspose.Cells for .NET kullanarak Excel verilerini PowerPoint sunumuna dönüştürmeyi adım adım öğrenin.
+Aspose.Cells for .NET kullanarak Excel dosyasını PowerPoint sunumuna nasıl dönüştüreceğinizi adım adım öğrenin.
+### [C# ile Aspose.Cells kullanarak Excel'i PowerPoint olarak kaydetme](./how-to-save-excel-as-powerpoint-with-aspose-cells-in-c/)
+Aspose.Cells for .NET kullanarak C# ile Excel dosyasını PowerPoint sunumuna kaydetmeyi adım adım öğrenin.
 ### [.NET'te Çıktı HTML'de HTML CrossType'ı Programatik Olarak Belirleme](./specifying-html-crosstype-in-output-html/)
 ### [Excel'i Düzenlenebilir Grafiklerle PowerPoint'e C# ile Dışa Aktarma](./export-excel-to-powerpoint-with-editable-charts-in-c/)
 Aspose.Cells for .NET ile Excel dosyalarını düzenlenebilir grafiklerle PowerPoint sunumuna nasıl dışa aktaracağınızı adım adım öğrenin.

@@ -57,6 +57,9 @@ Lär dig hur du skapar en Excel-arbetsbok och omvandlar en array till en matris 
 ### [Hur man utvärderar formler i C# – Komplett Aspose.Cells-guide](./how-to-evaluate-formulas-in-c-complete-aspose-cells-guide/)
 Lär dig hur du utvärderar Excel-formler i C# med en komplett guide för Aspose.Cells.
 
+### [Hur man expanderar en array i Excel med Aspose.Cells](./how-to-expand-array-in-excel-with-aspose-cells)
+Lär dig hur du utökar en array i Excel med Aspose.Cells för att hantera dynamiska dataområden.
+
 ## Fördelar
 
 - **Förbättrat formelstöd**Utöka Excels inbyggda formelfunktioner med anpassade implementeringar

@@ -80,7 +80,7 @@ Groepeer moeiteloos gegevens met slimme markeringen in Aspose.Cells voor .NET. V
 Ontdek hoe je afbeeldingen invoegt met behulp van afbeeldingsmarkeringen in Aspose.Cells voor .NET met onze stapsgewijze handleiding! Verbeter je Excel-rapporten effectief met visuele elementen.
 ### [Hoe werkbladen te herhalen – Complete gids voor Excel-automatisering](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 Leer stap voor stap hoe u werkbladen kunt dupliceren met Aspose.Cells voor .NET om Excel-automatisering te vereenvoudigen.
-### [Gebruik anonieme typen met slimme markers Aspose.Cells](./use-anonymous-types-smart-markers/)
+### [Gebruik anonieme typen met slimme markeringen Aspose.Cells](./use-anonymous-types-smart-markers/)
 Leer hoe u anonieme typen met slimme markeringen in Aspose.Cells kunt gebruiken voor het dynamisch genereren van Excel-rapporten in .NET. Volg onze eenvoudige handleiding.
 ### [Stijlkenmerk kopiëren toepassen in slimme markeringen van Aspose.Cells](./copy-style-attribute-smart-markers/)
 Ontdek de kracht van Aspose.Cells voor .NET en leer hoe u moeiteloos kopieerstijlkenmerken toepast in Excel Smart Markers. Deze uitgebreide tutorial bevat stapsgewijze instructies.
@@ -181,8 +181,10 @@ Leer hoe u een Excel-sjabloon laadt en met Aspose.Cells in C# snel meerdere werk
 Leer hoe u een master‑detail werkmap maakt met Smart Markers in Aspose.Cells voor .NET.
 ### [Master‑detail Excel‑gids – sjablonen invullen met Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)
 Leer hoe u master‑detail Excel‑sjablonen kunt vullen met Smart Markers voor dynamische rapporten.
-### [Excel maken vanuit JSON met Aspose.Cells Smart Marker](./create-excel-from-json-with-aspose-cells-smart-marker/)
+### [Excel maken vanuit JSON met Aspose.Cells Smart Marker](./create-excel-from-json-with-smart-marker/)
 Leer hoe u met Aspose.Cells Smart Markers Excel-bestanden genereert uit JSON-gegevens in een paar eenvoudige stappen.
+### [Excel maken vanuit JSON met SmartMarker in C#](./create-excel-from-json-with-smartmarker-in-c/)
+Leer hoe u met SmartMarker JSON-gegevens omzet naar een Excel-bestand in C#.
 ### [Werkblad uitbreiden met slimme markeringen in C# voor Excel-sjablonen](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

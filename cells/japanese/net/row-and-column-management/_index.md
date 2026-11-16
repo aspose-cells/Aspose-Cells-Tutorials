@@ -116,6 +116,9 @@ GridJs を使用して、複数の行を素早く追加する方法をステッ�
 Aspose.Cells for .NET を使用して、Excel のセルを上方向にシフトする方法をステップバイステップで解説します。簡単にデータを再配置できます。
 ### [Excel テーブルから行を削除する – 完全 C# ガイド](./delete-rows-from-excel-table-complete-c-guide/)
 
+### [C# で WRAPCOLS を使用して行を列に分割する方法](./how-to-use-wrapcols-to-split-a-row-into-columns-in-c/)
+WRAPCOLS 機能を活用し、C# で行データを複数列に分割する手順をステップバイステップで解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

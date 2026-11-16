@@ -179,6 +179,9 @@ Aspose.Cells 智能标记器还支持匿名类型，无需预定义结构即可�
 
 ### [在 C# 中展开工作表智能标记以用于 Excel 模板](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
 
+### [使用 SmartMarker 在 C# 中从 JSON 创建 Excel](./create-excel-from-json-with-smartmarker-in-c/)
+学习如何使用 Aspose.Cells SmartMarker 在 C# 中将 JSON 数据转换为 Excel 文件，实现自动化报表生成。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -70,10 +70,8 @@ Tìm hiểu cách xóa một cột trong tệp Excel bằng Aspose.Cells cho .NE
 Tìm hiểu cách xóa một hàng trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước này bao gồm các điều kiện tiên quyết, nhập mã và hướng dẫn chi tiết để thao tác dữ liệu liền mạch.
 ### [Cách xóa toàn bộ hàng trong tệp Excel bằng C#](./how-to-delete-entire-row-in-an-excel-file-using-c/)
 Hướng dẫn chi tiết cách xóa toàn bộ một hàng trong tệp Excel bằng C#.
-
 ### [Tải tệp Excel C# – Cách xóa hàng và loại bỏ các hàng cụ thể](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Hướng dẫn chi tiết cách tải tệp Excel bằng C# và xóa các hàng không mong muốn, bao gồm việc loại bỏ các hàng cụ thể.
-
 ### [Xóa nhiều hàng trong Aspose.Cells .NET](./delete-multiple-rows-aspose-cells/)
 Học cách xóa nhiều hàng trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn chi tiết từng bước này bao gồm các điều kiện tiên quyết, ví dụ mã hóa và câu hỏi thường gặp dành cho nhà phát triển.
 ### [Cách xóa hàng trong Excel bằng C# – bảo vệ tiêu đề bảng](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
@@ -92,28 +90,25 @@ Học cách chèn nhiều hàng trong Excel bằng Aspose.Cells cho .NET. Làm t
 Tìm hiểu cách chèn nhiều hàng vào GridJs một cách hiệu quả với hướng dẫn chi tiết từng bước.
 ### [Cách chèn hàng trong GridJs – Thêm nhiều hàng vào lưới một cách hiệu quả](./how-to-insert-rows-in-gridjs-add-multiple-rows-efficien/)
 Tìm hiểu cách chèn nhiều hàng vào GridJs một cách hiệu quả với hướng dẫn chi tiết từng bước.
-
 ### [Aspose Cells Xóa hàng – Bảo vệ hàng tiêu đề trong Excel](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 Hướng dẫn cách xóa các hàng trong Excel bằng Aspose.Cells trong khi bảo vệ hàng tiêu đề không bị xóa.
 ### [Xóa hàng trong bảng Excel bằng Aspose.Cells – Giữ lại hàng tiêu đề](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
 Hướng dẫn chi tiết cách xóa các hàng trong bảng Excel bằng Aspose.Cells mà vẫn giữ lại hàng tiêu đề.
-
 ### [Cách lặp lại các mục trong Excel – Tạo hàng động với C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 Hướng dẫn chi tiết cách tự động tạo các hàng lặp lại dữ liệu trong Excel bằng C# và Aspose.Cells.
-
 ### [Tạo workbook Excel C# và chuyển cột thành hàng](./create-excel-workbook-c-and-transpose-column-to-row/)
 Hướng dẫn tạo workbook Excel bằng C# và chuyển dữ liệu từ cột sang hàng một cách dễ dàng.
-
 ### [Chèn các hàng trong Excel bằng C# – Hướng dẫn từng bước](./insert-rows-in-excel-with-c-step-by-step-guide/)
 Hướng dẫn chi tiết cách chèn các hàng vào tệp Excel bằng C# và Aspose.Cells cho .NET, giúp bạn thao tác dữ liệu nhanh chóng.
 ### [Cách chèn hàng trong GridJs – Thêm nhiều hàng nhanh chóng](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Tìm hiểu cách chèn nhiều hàng nhanh chóng trong GridJs với hướng dẫn chi tiết từng bước.
-
 ### [Cách sử dụng WRAPCOLS: Tạo bố cục hai cột trong C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
-Hướng dẫn chi tiết cách dùng WRAPCOLS để tạo bố cục hai cột trong Excel bằng C#.
+Hướng dẫn chi tiết cách dùng wrapcols để tạo bố cục hai cột trong Excel bằng C#.
 ### [Cách sử dụng wrapcols trong C# – Hướng dẫn đầy đủ với Excel WRAPROWS & Tính lại công thức](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Hướng dẫn chi tiết cách dùng wrapcols trong C#, kết hợp với Excel WRAPROWS và cách tính lại công thức một cách hiệu quả.
 ### [Cách sử dụng WRAPCOLS trong C# và lưu workbook dưới dạng XLSX](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
+### [Cách sử dụng WRAPCOLS để tách một hàng thành các cột trong C#](./how-to-use-wrapcols-to-split-a-row-into-columns-in-c/)
+Hướng dẫn chi tiết cách dùng WRAPCOLS để chia một hàng thành nhiều cột trong Excel bằng C#.
 ### [Di chuyển ô lên trong Excel bằng C# – Hướng dẫn đầy đủ](./shift-cells-up-in-excel-with-c-complete-guide/)
 Hướng dẫn chi tiết cách dịch chuyển ô lên trong Excel bằng C#, bao gồm các bước thực hiện và ví dụ mã nguồn.
 ### [Xóa các hàng trong bảng Excel – hướng dẫn C# đầy đủ](./delete-rows-from-excel-table-complete-c-guide/)

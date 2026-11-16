@@ -50,6 +50,8 @@ Ismerje meg, hogyan optimalizálhatja az Excel számítási idejét rekurzív op
 ### [Képletkényszerítő számítás C#-ban – Teljes útmutató az Excel automatizáláshoz](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
 Ismerje meg, hogyan kényszerítheti a képlet újraszámítását C#-ban az Aspose.Cells segítségével, és automatizálhatja az Excel-fájlok feldolgozását.
 
+### [Hogyan bővítsük a tömböt Excelben az Aspose.Cells segítségével](./how-to-expand-array-in-excel-with-aspose-cells)
+
 ## Előnyök
 
 - **Továbbfejlesztett formulatámogatás**: Az Excel beépített képletfunkcióinak bővítése egyéni megvalósításokkal

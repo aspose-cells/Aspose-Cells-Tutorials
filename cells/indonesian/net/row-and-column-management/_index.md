@@ -48,7 +48,7 @@ Mari kita hadapi kenyataan, tidak semua bagian data tetap relevan dari waktu ke 
 Temukan panduan langkah demi langkah untuk menyalin kolom di Excel menggunakan Aspose.Cells untuk .NET. Sederhanakan tugas data Anda dengan instruksi yang jelas.
 ### [Salin Baris menggunakan Aspose.Cells untuk .NET](./copying-rows/)
 Pelajari cara menyalin baris dalam file Excel secara efisien menggunakan Aspose.Cells for .NET. Panduan langkah demi langkah ini menyederhanakan penyalinan baris untuk kebutuhan manajemen data Anda.
-### [Menyalin Baris dari Satu Lembar Kerja ke Lembar Kerja Lain – Panduan Lengkap C#](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
+### [Menyalin Baris dari Satu Lembar Kerja ke Lembar Kerja Lain – Panduan Lengkap C#](./copy-rows-from-one-worksheet-to-an-other-complete-c-guide/)
 Panduan lengkap langkah demi langkah untuk menyalin baris antar lembar kerja di Excel menggunakan Aspose.Cells untuk .NET dengan C#.
 ### [Kelompokkan Baris dan Kolom di Excel dengan Aspose.Cells](./grouping-rows-and-columns/)
 Pelajari cara mengelompokkan baris dan kolom di Excel menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah ini.
@@ -86,35 +86,10 @@ Pelajari cara menambahkan beberapa baris secara efisien ke GridJs dengan contoh 
 Pelajari cara menggunakan wrapcols di C#, menggabungkan Excel WRAPROWS, dan menghitung ulang rumus secara otomatis dalam panduan lengkap ini.
 ### [Cara Menggunakan WRAPCOLS di C# dan Menyimpan Workbook sebagai XLSX](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
 Panduan langkah demi langkah menggunakan WRAPCOLS di C# untuk mengatur kolom dan menyimpan file sebagai XLSX dengan Aspose.Cells.
-### [Menyisipkan Kolom di Aspose.Cells .NET](./insert-column-aspose-cells/)
-Pelajari cara menyisipkan kolom di Excel menggunakan Aspose.Cells untuk .NET. Ikuti panduan langkah demi langkah kami yang mudah untuk menambahkan kolom baru dengan mudah. Sempurna untuk pengembang .NET.
-### [Menyisipkan Baris di Aspose.Cells .NET](./insert-row-aspose-cells/)
-Pelajari cara menyisipkan baris di Excel menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Tingkatkan keterampilan manipulasi data Anda dengan mudah.
-### [Sisipkan Baris dengan Pemformatan di Aspose.Cells .NET](./insert-row-formatting-aspose-cells/)
-Pelajari cara menyisipkan baris dengan format di Excel menggunakan Aspose.Cells for .NET. Ikuti panduan langkah demi langkah kami untuk penerapan yang mudah.
-### [Sisipkan Beberapa Baris di Aspose.Cells .NET](./insert-multiple-rows-aspose-cells/)
-Pelajari cara menyisipkan beberapa baris di Excel menggunakan Aspose.Cells for .NET. Ikuti tutorial terperinci kami untuk manipulasi data yang lancar.
-### [Geser Sel ke Atas di Excel dengan C# – Panduan Lengkap](./shift-cells-up-in-excel-with-c-complete-guide/)
-Panduan lengkap untuk menggeser sel ke atas di Excel menggunakan C#, langkah demi langkah untuk memanipulasi data dengan mudah.
-### [Muat File Excel C# – Cara Menghapus Baris dan Menghapus Baris Tertentu](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
-Pelajari cara memuat file Excel dengan C# dan menghapus baris tertentu menggunakan Aspose.Cells.
-### [Buat Workbook Excel C# dan Transpose Kolom ke Baris](./create-excel-workbook-c-and-transpose-column-to-row/)
-Pelajari cara membuat workbook Excel dengan C# dan mentranspose data dari kolom ke baris menggunakan Aspose.Cells.
-### [Cara Mengulang Item di Excel – Pembuatan Baris Dinamis dengan C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
-Pelajari cara menghasilkan baris secara dinamis di Excel dengan mengulang item menggunakan C# dan Aspose.Cells.
-### [Cara menghapus baris dari tabel Excel menggunakan C#](./how-to-delete-rows-from-excel-table-using-c/)
-Panduan langkah demi langkah menghapus baris dalam tabel Excel menggunakan C# dan Aspose.Cells.
-### [Cara Menyisipkan Baris di GridJs – Menambahkan Beberapa Baris ke Grid dengan Efisien](./how-to-insert-rows-in-gridjs-add-multiple-rows-efficien/)
-Pelajari cara menambahkan beberapa baris secara efisien ke GridJs dengan contoh kode praktis.
-
-### [Hapus Baris Tabel Excel dengan C# – Panduan Langkah demi Langkah](./delete-rows-excel-table-with-c-step-by-step-guide/)
-Pelajari cara menghapus baris dalam tabel Excel menggunakan C# dan Aspose.Cells, panduan langkah demi langkah yang mudah diikuti.
-
-### [Menyisipkan baris di Excel dengan C# – Panduan langkah demi langkah](./insert-rows-in-excel-with-c-step-by-step-guide/)
-Pelajari cara menyisipkan baris di Excel menggunakan C# dengan panduan langkah demi langkah yang jelas dan mudah diikuti.
 ### [Cara Menggunakan WRAPCOLS: Membuat Tata Letak Dua Kolom di C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 Pelajari cara menggunakan metode WRAPCOLS untuk membuat tata letak dua kolom dalam file Excel menggunakan C# dengan contoh kode lengkap.
-
+### [Cara Menggunakan WRAPCOLS untuk Memisahkan Baris Menjadi Kolom di C#](./how-to-use-wrapcols-to-split-a-row-into-columns-in-c/)
+Panduan langkah demi langkah menggunakan WRAPCOLS untuk membagi satu baris menjadi beberapa kolom di Excel dengan C#.
 ### [Cara Menyisipkan Baris di GridJs – Tambahkan Beberapa Baris dengan Cepat](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Pelajari cara menambahkan beberapa baris sekaligus di GridJs dengan cepat melalui contoh kode praktis.
 
