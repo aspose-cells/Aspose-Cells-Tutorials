@@ -88,6 +88,8 @@ Tìm hiểu cách nhúng phông chữ khi chuyển đổi tệp Excel sang PDF b
 Hướng dẫn chi tiết cách chuyển dữ liệu Excel sang PowerPoint (pptx) và xuất các hình dạng có thể chỉnh sửa bằng Aspose.Cells cho Java.
 ### [Cách xuất biểu đồ sang docx từ Excel bằng Aspose.Cells cho Java](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
 Hướng dẫn chi tiết cách xuất biểu đồ Excel sang tài liệu Word (docx) bằng Aspose.Cells cho Java.
+### [Cách xuất hình dạng từ Excel sang PowerPoint bằng Java](./how-to-export-shape-from-excel-to-powerpoint-using-java/)
+Hướng dẫn chi tiết cách xuất các hình dạng từ tệp Excel sang bản trình chiếu PowerPoint bằng Aspose.Cells cho Java.
 
 ## Tài nguyên bổ sung
 

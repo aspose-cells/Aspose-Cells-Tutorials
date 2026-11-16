@@ -36,6 +36,9 @@ Scopri come creare una cartella di lavoro Excel con calendario giapponese usando
 ### [Salva nuova cartella di lavoro in Java – Copia intervallo tra cartelle di lavoro (Tutorial)](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
 Scopri come creare una nuova cartella di lavoro, copiare un intervallo da un'altra cartella e salvarla usando Aspose.Cells per Java.
 
+### [Come copiare celle tra cartelle di lavoro Excel in Java](./how-to-copy-cells-between-excel-workbooks-in-java/)
+Scopri come copiare celle da una cartella di lavoro Excel a un'altra utilizzando Aspose.Cells per Java.
+
 ### [Aspose.Cells Java: visualizza la versione e crea una cartella di lavoro condivisa](./aspose-cells-java-display-version-create-shared-workbook/)
 Un tutorial sul codice per Aspose.Words Java
 
@@ -355,7 +358,7 @@ Scopri come automatizzare l'elaborazione dei file Excel utilizzando Aspose.Cells
 ### [Manipolazione efficiente delle cartelle di lavoro di Excel in Java utilizzando Aspose.Cells](./excel-workbook-manipulation-java-aspose-cells/)
 Scopri come utilizzare Aspose.Cells per Java per creare, modificare e migliorare in modo efficiente le cartelle di lavoro di Excel con facilità. Padroneggia le operazioni delle cartelle di lavoro, dalla configurazione alle manipolazioni avanzate.
 
-### [Padroneggia la gestione dei file XLSB di Excel in Java con Aspose.Cells: carica e modifica le connessioni DB](./excel-xlsb-management-aspose-cells-java/)
+### [Padroneggiare la gestione dei file XLSB di Excel in Java con Aspose.Cells: carica e modifica le connessioni DB](./excel-xlsb-management-aspose-cells-java/)
 Scopri come gestire i file XLSB di Excel utilizzando Aspose.Cells per Java. Questo tutorial illustra come caricare, modificare le connessioni al database e salvare le modifiche in modo efficiente.
 
 ### [Come esportare proprietà Excel personalizzate in PDF utilizzando Aspose.Cells per Java](./export-excel-custom-properties-pdf-aspose-cells-java/)

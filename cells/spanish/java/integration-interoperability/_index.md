@@ -89,6 +89,9 @@ Aprenda a incrustar fuentes al convertir archivos Excel a PDF usando Aspose.Cell
 ### [Excel a PPTX: Guía completa de Java para exportar formas editables](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
 Aprenda a exportar formas editables de Excel a archivos PPTX con Aspose.Cells para Java, paso a paso.
 
+### [Cómo exportar una forma de Excel a PowerPoint usando Java](./how-to-export-shape-from-excel-to-powerpoint-using-java/)
+Aprenda a exportar formas de Excel a presentaciones PowerPoint usando Aspose.Cells para Java, con ejemplos paso a paso.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.Cells para Java](https://docs.aspose.com/cells/java/)

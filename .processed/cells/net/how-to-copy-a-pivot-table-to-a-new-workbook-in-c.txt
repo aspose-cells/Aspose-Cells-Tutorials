@@ -1,0 +1,7 @@
+Title: How to copy a pivot table to a new workbook in C#
+Slug: how-to-copy-a-pivot-table-to-a-new-workbook-in-c
+Category: pivot-tables
+ProcessedDate: 2026-11-16T08:54:40.157248
+SourceRepo: AI Search API
+Keywords: how to copy pivot table, copy range to new workbook, load excel workbook c#
+PRNumber: 206

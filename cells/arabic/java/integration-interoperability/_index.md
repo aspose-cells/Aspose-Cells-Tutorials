@@ -85,6 +85,9 @@
 ### [كيفية تصدير المخطط إلى ملف docx من Excel باستخدام Aspose.Cells لـ Java](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
 تعلم كيفية تصدير المخططات من ملفات Excel إلى مستندات Word (docx) باستخدام Aspose.Cells لـ Java.
 
+### [كيفية تصدير الشكل من Excel إلى PowerPoint باستخدام Java](./how-to-export-shape-from-excel-to-powerpoint-using-java/)
+دليل خطوة بخطوة لتصدير الأشكال من ملفات Excel إلى عروض PowerPoint باستخدام Aspose.Cells لـ Java.
+
 ## موارد إضافية
 
 - [توثيق Aspose.Cells لـ Java](https://docs.aspose.com/cells/java/)

@@ -26,7 +26,7 @@ Unsere Tutorials zu Arbeitsmappenoperationen bieten umfassende Anleitungen für 
 
 ## Verfügbare Tutorials
 
-### [Aspose.Cells Java: Erstellen und Speichern von Excel-Arbeitsmappen – Eine Schritt-für-Schritt-Anleitung](./aspose-cells-java-create-save-excel-workbooks/)
+### [Aspose.Cells Java: Erstellen und Speichern von Excel-Arbeitsmappen – Eine Schritt‑für‑Schritt‑Anleitung](./aspose-cells-java-create-save-excel-workbooks/)
 Erfahren Sie, wie Sie die Erstellung und Verwaltung von Excel-Arbeitsmappen mit Aspose.Cells für Java automatisieren. Diese Anleitung behandelt das Instanziieren, Speichern und Festlegen von Seiteneinrichtungseigenschaften.
 
 ### [Excel-Arbeitsmappe in Java erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-excel-workbook-in-java-complete-step-by-step-guide/)
@@ -51,7 +51,7 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java Excel-Dateien von Grund auf ers
 Ein Code-Tutorial für Aspose.Words Java
 
 ### [Erstellen und Exportieren von Excel in HTML mit Aspose.Cells Java | Arbeitsmappen-Betriebshandbuch](./aspose-cells-java-excel-html-export/)
-Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Excel-Arbeitsmappe von Grund auf neu erstellen, mit Daten füllen und als HTML-Datei exportieren. Diese Schritt-für-Schritt-Anleitung erklärt alles, was Sie brauchen.
+Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Excel-Arbeitsmappe von Grund auf neu erstellen, mit Daten füllen und als HTML-Datei exportieren. Diese Schritt‑für‑Schritt‑Anleitung erklärt alles, was Sie brauchen.
 
 ### [Aspose.Cells Java-Handbuch: Excel-Arbeitsmappenmanipulation meistern](./aspose-cells-java-excel-manipulation-guide/)
 Erfahren Sie, wie Sie Excel-Arbeitsmappen in Java mit Aspose.Cells bearbeiten. Diese Anleitung behandelt die Initialisierung von Arbeitsmappen, das Hinzufügen von Arbeitsblättern und Bildern, das Festlegen von Bildpositionen und das effiziente Speichern von Dateien.
@@ -65,7 +65,7 @@ Ein Code-Tutorial für Aspose.Words Java
 ### [Aspose.Cells Java: Umfassende Anleitung zum Konvertieren von Excel-Arbeitsmappen in PDF](./aspose-cells-java-excel-to-pdf-conversion-guide/)
 Erfahren Sie, wie Sie Excel-Arbeitsmappen mit Aspose.Cells für Java effizient in PDF konvertieren. Diese Anleitung behandelt die Einrichtung, Formelberechnungen und Konvertierungsschritte.
 
-### [Konvertieren Sie Excel in XPS mit Aspose.Cells für Java: Eine Schritt-für-Schritt-Anleitung](./aspose-cells-java-excel-to-xps-conversion/)
+### [Konvertieren Sie Excel in XPS mit Aspose.Cells für Java: Eine Schritt‑für‑Schritt‑Anleitung](./aspose-cells-java-excel-to-xps-conversion/)
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java in das XPS-Format konvertieren. Diese Anleitung enthält Tipps zur Einrichtung, Implementierung und Leistung.
 
 ### [Excel-Arbeitsmappenoperationen mit Aspose.Cells Java meistern: Ein umfassender Leitfaden für Entwickler](./aspose-cells-java-excel-workbook-creation/)
@@ -86,7 +86,7 @@ Ein Code-Tutorial für Aspose.Words Java
 ### [Exportieren Sie Excel nach HTML und behalten Sie dabei die Rahmenstile bei, indem Sie Aspose.Cells für Java verwenden.](./aspose-cells-java-export-excel-html-border-styles/)
 Erfahren Sie, wie Sie Excel-Dateien mit einheitlichen Rahmenstilen mithilfe von Aspose.Cells für Java in HTML exportieren. Folgen Sie dieser Anleitung, um erweiterte Speicheroptionen zu konfigurieren und zu implementieren.
 
-### [Exportieren Sie Excel nach XPS mit Aspose.Cells für Java: Eine Schritt-für-Schritt-Anleitung](./aspose-cells-java-export-excel-xps/)
+### [Exportieren Sie Excel nach XPS mit Aspose.Cells für Java: Eine Schritt‑für‑Schritt‑Anleitung](./aspose-cells-java-export-excel-xps/)
 Erfahren Sie, wie Sie Excel-Dateien mit Aspose.Cells für Java effizient ins XPS-Format exportieren. Diese umfassende Anleitung behandelt das Laden, Festlegen von Optionen und Rendern von Arbeitsmappen.
 
 ### [Verwalten von Schriftartersetzungswarnungen in Aspose.Cells für Java: Eine vollständige Anleitung](./aspose-cells-java-font-substitution-warnings-guide/)
@@ -135,13 +135,13 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java Excel-Arbeitsmappen verwalten, 
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Excel-Dateien mit einem Warnrückruf laden und so eine reibungslose Verarbeitung komplexer Arbeitsmappen gewährleisten.
 
 ### [Verwalten von Arbeitsmappenversionen und Ladeoptionen in Aspose.Cells für Java: Ein umfassender Leitfaden](./aspose-cells-java-manage-workbook-versions-load-options/)
-Erfahren Sie, wie Sie Excel-Arbeitsmappenversionen und Ladeoptionen mit Aspose.Cells für Java verwalten. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um Ihre Datenverarbeitungsfähigkeiten anhand praktischer Beispiele zu verbessern.
+Erfahren Sie, wie Sie Excel-Arbeitsmappenversionen und Ladeoptionen mit Aspose.Cells für Java verwalten. Folgen Sie dieser Schritt‑für‑Schritt‑Anleitung, um Ihre Datenverarbeitungsfähigkeiten anhand praktischer Beispiele zu verbessern.
 
 ### [Master Aspose.Cells Java für ODS-Dateien: Ein umfassender Leitfaden für Arbeitsmappenoperationen](./aspose-cells-java-ods-files-manipulation/)
 Erfahren Sie, wie Sie die Aspose.Cells-Bibliothek in Java zur Verarbeitung und Bearbeitung von OpenDocument-Tabellen (ODS) verwenden. Diese Anleitung behandelt die Einrichtung, das Laden von Arbeitsblättern, das Extrahieren von Hintergrundeinstellungen und das Speichern von Bildern.
 
 ### [So öffnen Sie FODS-Dateien mit Aspose.Cells für Java: Eine umfassende Anleitung](./aspose-cells-java-open-fods-files/)
-Erfahren Sie, wie Sie FODS-Dateien in Java mit Aspose.Cells öffnen und bearbeiten. Diese Anleitung umfasst die Einrichtung, Schritt-für-Schritt-Anleitungen und Best Practices.
+Erfahren Sie, wie Sie FODS-Dateien in Java mit Aspose.Cells öffnen und bearbeiten. Diese Anleitung umfasst die Einrichtung, Schritt‑für‑Schritt‑Anleitungen und Best Practices.
 
 ### [Aspose.Cells für Java: Versions- und Excel-Grenzen prüfen (XLS/XLSX)](./aspose-cells-java-version-max-rows-columns/)
 Erfahren Sie, wie Sie Aspose.Cells auf die Java-Version prüfen und die maximale Zeilen-/Spaltenanzahl in XLS/XLSX-Formaten bestimmen. Meistern Sie Arbeitsmappenoperationen mit Maven/Gradle-Setup.
@@ -233,7 +233,7 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java Excel-Tabellen erstellen und da
 ### [Erstellen Sie Arbeitsmappen mit Aspose.Cells Java](./create-configure-workbooks-aspose-cells-java/)
 Ein Code-Tutorial für Aspose.Words Java
 
-### [Erstellen und Anpassen von Excel-Arbeitsmappen mit Aspose.Cells Java: Eine Schritt-für-Schritt-Anleitung](./create-customize-excel-workbooks-aspose-cells-java/)
+### [Erstellen und Anpassen von Excel-Arbeitsmappen mit Aspose.Cells Java: Eine Schritt‑für‑Schritt‑Anleitung](./create-customize-excel-workbooks-aspose-cells-java/)
 Erfahren Sie, wie Sie die Erstellung und Anpassung von Excel-Arbeitsmappen mit Aspose.Cells Java automatisieren. Steigern Sie Ihre Produktivität durch die Beherrschung von Arbeitsmappenoperationen.
 
 ### [Arbeitsmappe mit japanischem Kalender erstellen – Vollständiges Java-Tutorial](./create-workbook-japanese-calendar-complete-java-tutorial/)
@@ -444,7 +444,7 @@ Mastern Sie XML‑Arbeitsmappenteile mit Aspose.Cells für Java. Erfahren Sie, w
 ### [Aspose.Cells für Java meistern: Text effizient aus Excel‑Arbeitsmappen laden und extrahieren](./mastering-aspose-cells-excel-load-extract-text/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java effizient Text aus Excel‑Arbeitsmappen laden, abrufen und extrahieren. Diese Anleitung deckt alles ab, von der Einrichtung bis zu erweiterten Funktionen.
 
-### [Aspose.Cells für Java: Umfassender Leitfaden zur Excel-Arbeitsmappenmanipulation](./mastering-aspose-cells-java-excel-manipulation/)
+### [Aspose.Cells für Java: Umfassender Leitfaden zur Excel‑Arbeitsmappenmanipulation](./mastering-aspose-cells-java-excel-manipulation/)
 Meistern Sie Aspose.Cells für Java mit diesem Schritt‑für‑Schritt‑Tutorial zur Bearbeitung von Excel‑Arbeitsmappen. Erfahren Sie, wie Sie Lizenzen anwenden und Arbeitsmappen effizient erstellen und bearbeiten.
 
 ### [CSV‑Verarbeitung in Java mit Aspose.Cells meistern: Ein umfassender Leitfaden](./mastering-csv-handling-aspose-cells-java/)
@@ -513,6 +513,9 @@ Erfahren Sie, wie Sie benutzerdefinierte Eigenschaften zu Excel-Dateien mit Aspo
 ### [So speichern Sie XLSB-Dateien mit benutzerdefinierten Eigenschaften – Aspose.Cells für Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
 Erfahren Sie, wie Sie XLSB-Dateien mit benutzerdefinierten Dokumenteigenschaften speichern, indem Sie Aspose.Cells für Java nutzen.
 ### [Wie man benutzerdefinierte Eigenschaften in Java mit Aspose.Cells abruft](./how-to-get-custom-property-java-using-aspose-cells/)
+
+### [Wie man Zellen zwischen Excel-Arbeitsmappen in Java kopiert](./how-to-copy-cells-between-excel-workbooks-in-java/)
+Erfahren Sie, wie Sie Zellen zwischen Excel-Arbeitsmappen in Java mit Aspose.Cells kopieren.
 
 ## Weitere Ressourcen
 

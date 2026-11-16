@@ -65,13 +65,16 @@ Naučte se, jak efektivně spravovat a automatizovat operace se sešity aplikace
 Výukový program pro Aspose.Words v Javě
 
 ### [Zvládněte Aspose.Cells v Javě pro správu sešitů v Excelu: Komplexní průvodce](./aspose-cells-java-excel-workbook-manipulation/)
-Naučte se snadno spravovat sešity aplikace Excel pomocí Aspose.Cells pro Javu. Efektivně vytvářejte, upravujte a ukládejte soubory aplikace Excel.
+Naučte se snadno spravovat sešity aplikace Excel pomocí Aspose.Cells pro Javu. Efektivně vytvářejte, upravujte a ukládáte soubory aplikace Excel.
 
 ### [Zvládněte Aspose.Cells pro Javu: Automatizujte operace se sešitem Excelu ve vašich aplikacích Java](./aspose-cells-java-excel-workbooks/)
 Naučte se, jak automatizovat vytváření, správu a formátování sešitů aplikace Excel pomocí nástroje Aspose.Cells pro Javu. Tato příručka zahrnuje vše od nastavení prostředí až po efektivní ukládání sešitů.
 
 ### [Uložení nového sešitu v Javě – Kopírování rozsahu mezi sešity](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
 Naučte se, jak vytvořit nový sešit a zkopírovat rozsah buněk mezi sešity pomocí Aspose.Cells pro Javu.
+
+### [Jak kopírovat buňky mezi sešity Excelu v Javě](./how-to-copy-cells-between-excel-workbooks-in-java/)
+Naučte se, jak kopírovat buňky mezi sešity Excelu v Javě pomocí Aspose.Cells.
 
 ### [Export excelových listů do HTML pomocí Aspose.Cells](./aspose-cells-java-export-excel-html/)
 Výukový program pro Aspose.Words v Javě
@@ -179,7 +182,7 @@ Naučte se, jak převést sešity aplikace Excel do PDF souborů kompatibilních
 Naučte se, jak převádět excelové listy do vysoce kvalitních obrázků TIFF pomocí Aspose.Cells pro Javu. Tato příručka se zabývá načítáním sešitů, konfigurací možností obrázků a efektivním vykreslováním listů.
 
 ### [Převod excelových tabulek na obrázky pomocí Aspose.Cells v Javě: Kompletní průvodce](./convert-excel-sheets-to-images-aspose-cells-java/)
-Naučte se, jak snadno převést excelovské listy do vysoce kvalitních obrázků pomocí Aspose.Cells pro Javu. Ideální pro prezentace, reporty a webové integrace.
+Naučte se, jak snadno převést excelové listy do vysoce kvalitních obrázků pomocí Aspose.Cells pro Javu. Ideální pro prezentace, reporty a webové integrace.
 
 ### [Převod Excelu do textu pomocí Aspose.Cells pro Javu: Komplexní průvodce](./convert-excel-text-aspose-cells-java/)
 Naučte se, jak bez problémů převádět excelové listy na text pomocí Aspose.Cells pro Javu. Tato příručka se zabývá instalací, konfigurací a praktickými aplikacemi.
@@ -206,7 +209,7 @@ Naučte se, jak převést excelovské listy do vysoce kvalitních obrázků PNG 
 Naučte se, jak bezproblémově převést sešity aplikace Excel do škálovatelných souborů SVG s tímto podrobným návodem k používání Aspose.Cells pro Javu, který je ideální pro webové aplikace a prezentace.
 
 ### [Komplexní průvodce: Převod Excelu do TIFF pomocí Aspose.Cells v Javě](./convert-excel-to-tiff-aspose-cells-java/)
-Naučte se, jak efektivně převádět soubory Excelu do obrázků TIFF pomocí Aspose.Cells pro Javu. Tato příručka se zabývá nastavením, procesem převodu a zpětnými voláními průběhu.
+Naučte se, jak efektivně převádět soubory aplikace Excel do obrázků TIFF pomocí Aspose.Cells pro Javu. Tato příručka se zabývá nastavením, procesem převodu a zpětnými voláními průběhu.
 
 ### [Převod Excelu do formátu XPS pomocí Aspose.Cells pro Javu: Podrobný návod](./convert-excel-to-xps-aspose-cells-java/)
 Naučte se, jak převést soubory aplikace Excel do formátu XPS s pevným rozvržením pomocí nástroje Aspose.Cells pro Javu. Tato příručka se zabývá snadným načítáním, konfigurací a vykreslováním.
@@ -293,7 +296,7 @@ Naučte se, jak automatizovat správu souborů v Excelu pomocí Aspose.Cells pro
 Naučte se, jak efektivně operovat s Excelovými soubory pomocí Aspose.Cells v Javě, včetně načítání sešitů a jejich ukládání s vlastními oddělovači. Zlepšete si své dovednosti v oblasti správy dat.
 
 ### [Zvládněte operace s Excelem v Javě pomocí Aspose.Cells: Komplexní průvodce](./excel-file-operations-java-aspose-cells-guide/)
-Naučte se bez námahy spravovat a analyzovat soubory Excelu v Javě pomocí Aspose.Cells. Tato příručka se zabývá načítáním sešitů, přístupem k pojmenovaným oblastem a dalšími činnostmi.
+Naučte se, bez námahy spravovat a analyzovat soubory Excelu v Javě pomocí Aspose.Cells. Tato příručka se zabývá načítáním sešitů, přístupem k pojmenovaným oblastem a dalšími činnostmi.
 
 ### [Konverze Excelu do HTML pomocí Aspose.Cells v Javě: Zvládněte techniku CrossHideRight](./excel-html-conversion-aspose-cells-java-crosshide-right/)
 Naučte se, jak převádět soubory Excelu do HTML pomocí Aspose.Cells pro Javu s využitím metody CrossHideRight pro efektivní zpracování překrývajícího se obsahu.
@@ -353,7 +356,7 @@ Naučte se, jak spravovat soubory Excel XLSB pomocí Aspose.Cells pro Javu. Tent
 Naučte se, jak exportovat vlastní vlastnosti z excelového sešitu do PDF pomocí Aspose.Cells pro Javu. Zjednodušte si správu dat s tímto podrobným návodem.
 
 ### [Export z Excelu do HTML pomocí Aspose.Cells v Javě: Podrobný návod](./export-excel-html-aspose-cells-java/)
-Naučte se, jak bez problémů exportovat soubory Excelu jako HTML pomocí Aspose.Cells pro Javu. Tato příručka se zabývá načítáním sešitů, vlastními poskytovateli streamů a snadným ukládáním sešitů.
+Naučte se, jak bez problémů exportovat soubory Excel jako HTML pomocí Aspose.Cells pro Javu. Tato příručka se zabývá načítáním sešitů, vlastními poskytovateli streamů a snadným ukládáním sešitů.
 
 ### [Export Excelu do HTML pomocí IStreamProvider a Aspose.Cells pro Javu: Komplexní průvodce](./export-excel-html-streamprovider-aspose-cells-java/)
 Naučte se, jak efektivně exportovat soubory Excelu do HTML v Javě pomocí rozhraní IStreamProvider s Aspose.Cells. Tato příručka se zabývá nastavením, konfigurací a praktickými aplikacemi.

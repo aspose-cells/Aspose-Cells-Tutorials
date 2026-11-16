@@ -1,0 +1,7 @@
+Title: How to expand array in Excel with Aspose.Cells
+Slug: how-to-expand-array-in-excel-with-aspose-cells
+Category: calculation-engine
+ProcessedDate: 2026-11-16T08:54:53.211194
+SourceRepo: AI Search API
+Keywords: how to expand array, create excel workbook, how to use lambda, dynamic array functions, write excel file
+PRNumber: 206

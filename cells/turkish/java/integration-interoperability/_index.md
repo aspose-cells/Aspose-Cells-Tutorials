@@ -80,6 +80,8 @@ Aspose.Cells for Java kullanarak Excel dosyalarını PowerPoint sunumlarına nas
 Java ve Aspose.Cells kullanarak Excel dosyalarını PDF'ye çevirirken özel yazı tiplerini nasıl gömeceğinizi öğrenin.
 ### [Excel'den PPTX'e: Düzenlenebilir Şekilleri Dışa Aktarmak İçin Tam Java Kılavuzu](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
 Aspose.Cells for Java kullanarak Excel dosyalarındaki şekilleri PPTX sunumlarına düzenlenebilir olarak dışa aktarmayı öğrenin.
+### [Java ile Excel'den Şekli PowerPoint'e Dışa Aktarma](./how-to-export-shape-from-excel-to-powerpoint-using-java/)
+
 ### [Aspose.Cells for Java ile Excel'den DOCX'e Grafik Dışa Aktarma](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
 Aspose.Cells for Java kullanarak Excel dosyasındaki grafiği DOCX belgesine nasıl aktaracağınızı adım adım öğrenin.
 

@@ -88,6 +88,8 @@ Naučte se, jak vložit písma při převodu Excelu do PDF pomocí Aspose.Cells 
 Naučte se, jak pomocí Aspose.Cells pro Javu převést Excel do PPTX a exportovat upravitelné tvary.
 ### [Jak exportovat graf do DOCX z Excelu pomocí Aspose.Cells pro Javu](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
 Naučte se exportovat grafy z Excelu do souboru DOCX pomocí Aspose.Cells pro Javu.
+### [Jak exportovat tvar z Excelu do PowerPointu pomocí Javy](./how-to-export-shape-from-excel-to-powerpoint-using-java/)
+Naučte se pomocí Aspose.Cells a Aspose.Slides v Javě exportovat tvary z Excelu do prezentací PowerPoint.
 
 ## Další zdroje
 

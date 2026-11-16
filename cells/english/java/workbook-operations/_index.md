@@ -90,7 +90,7 @@ Learn how to use Aspose.Cells for Java to load Excel workbooks and extract font 
 Learn how to use Aspose.Cells for Java to load Excel workbooks and identify worksheet types. Master workbook operations with this comprehensive guide.
 
 ### [Master Aspose.Cells for Java&#58; Load and Modify Excel Workbooks Efficiently](./aspose-cells-java-load-modify-excel/)
-Learn how to efficiently load, access, and modify Excel workbooks using Aspose.Cells for Java. Perfect for automating reports or integrating Excel functionalities in your Java applications.
+Learn how to efficiently load, access, and modify Excel workbooks using Aspose.Cells for Java. Perfect for automating reports or integrating Excel functionalities in your applications.
 
 ### [Master Excel Workbooks with Aspose.Cells for Java&#58; Load, Modify, and Save Efficiently!](./aspose-cells-java-load-modify-excel-workbooks/)
 Learn to efficiently load, access, and modify Excel workbooks in Java using Aspose.Cells for Java. Streamline your data processing tasks seamlessly.
@@ -214,6 +214,9 @@ Learn how to convert XLSB files to macro-enabled XLSM workbooks using Aspose.Cel
 
 ### [Create & Access Excel Sheets, Add PDF Bookmarks Using Aspose.Cells for Java](./create-access-excel-sheets-add-pdf-bookmarks-aspose-cells-java/)
 Learn how to use Aspose.Cells for Java to create and access Excel sheets, add bookmarks in PDFs, and streamline your document navigation.
+
+### [How to copy cells between Excel workbooks in Java](./how-to-copy-cells-between-excel-workbooks-in-java/)
+Learn how to copy cells from one Excel workbook to another using Aspose.Cells for Java with step-by-step code examples.
 
 ### [Create Workbooks with Aspose.Cells Java](./create-configure-workbooks-aspose-cells-java/)
 A code tutorial for Aspose.Words Java
@@ -392,7 +395,7 @@ Master workbook data import using Aspose.Cells for Java. Learn how to set up, op
 ### [Java Excel Workbook Manipulation using Aspose.Cells&#58; A Comprehensive Guide](./java-aspose-cells-workbook-manipulation/)
 Master workbook manipulation in Java with Aspose.Cells. Learn to access, modify, and save Excel files seamlessly.
 
-### [Master Java File Handling with Aspose.Cells&#58; Read, Write & Process Data Efficiently](./java-file-handling-aspose-cells-read-write-process/)
+### [Java File Handling with Aspose.Cells&#58; Read, Write & Process Data Efficiently](./java-file-handling-aspose-cells-read-write-process/)
 Learn to manage file operations in Java using Aspose.Cells. This guide covers reading, writing, and processing data files efficiently.
 
 ### [Java Workbook AutoRecovery&#58; Managing Excel Files with Aspose.Cells](./java-workbook-autorecovery-aspose-cells/)

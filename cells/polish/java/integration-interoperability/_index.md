@@ -89,6 +89,9 @@ Dowiedz się, jak eksportować edytowalne kształty z Excela do prezentacji PPTX
 ### [Jak wyeksportować wykres do docx z Excela przy użyciu Aspose.Cells dla Javy](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
 Dowiedz się, jak wyeksportować wykres z arkusza Excel do dokumentu Word (docx) przy użyciu Aspose.Cells for Java.
 
+### [Jak wyeksportować kształt z Excela do PowerPoint przy użyciu Javy](./how-to-export-shape-from-excel-to-powerpoint-using-java/)
+Dowiedz się, jak wyeksportować kształt z Excela do prezentacji PowerPoint przy użyciu Aspose.Cells i Javy.
+
 ## Dodatkowe zasoby
 
 - [Dokumentacja Aspose.Cells dla Java](https://docs.aspose.com/cells/java/)
