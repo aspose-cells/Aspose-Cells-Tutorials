@@ -154,6 +154,9 @@ Ismerd meg, hogyan hozhatsz létre intelligens jelölőgyűjteményt C#-ban, lé
 Ismerje meg, hogyan hozhat létre és nevezhet el több munkalapot automatikusan C#-ban az Aspose.Cells segítségével.
 ### [Excel létrehozása JSON-ból az Aspose.Cells Smart Markerrel](./create-excel-from-json-with-aspose-cells-smart-marker/)
 
+### [Excel létrehozása JSON-ból SmartMarkerrel C#-ban](./create-excel-from-json-with-smartmarker-in-c/)
+Ismerje meg, hogyan konvertálhat JSON adatot Excel-be SmartMarkerrel C#-ban, lépésről‑lépésre útmutatóval.
+
 ### [Mesteradat-objektum létrehozása – Lépésről‑lépésre útmutató a részletes lap generálásához](./create-master-data-object-step-by-step-guide-to-generate-det/)
 
 ### [Számlagenerálás automatizálása – Dinamikus munkalap elnevezés és ismétlés C#-ban](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
@@ -179,10 +182,10 @@ Ismerje meg, hogyan hozhat létre Excel-fájlokat modelladatokból C#-ban az Asp
 ### [Több munkalap generálása SmartMarkerrel – Teljes C# útmutató](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
 
 ### [JSON konvertálása XLSX-be C#-ban SmartMarker használatával](./convert-json-to-xlsx-in-c-using-smartmarker/)
-Ismerje meg, hogyan konvertálhat JSON adatot XLSX fájlba C#-ban SmartMarkerrel, lépésről lépésre útmutatóval.
+Ismerje meg, hogyan konvertálhat JSON adatot XLSX fájlba C#-ban SmartMarkerrel, lépésről‑lépésre útmutatóval.
 ### [Excel sablon betöltése C#-ban – Gyorsan több lap létrehozása](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
 ### [Tartományos intelligens jelölő a beágyazott adatok feldolgozásához C#-ban – Teljes útmutató](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
-Ismerd meg, hogyan használhatod a tartományos Smart Markert beágyazott adatok C#-ban történő feldolgozásához, lépésről lépésre útmutatóval.
+Ismerd meg, hogyan használhatod a tartományos Smart Markert beágyazott adatok C#-ban történő feldolgozásához, lépésről‑lépésre útmutatóval.
 ### [JSON importálása Excel-be C#‑ban – lépésről‑lépésre útmutató](./import-json-to-excel-in-c-step-by-step-guide/)
 Ismerje meg, hogyan importálhat JSON adatokat Excel-fájlba C#‑ban lépésről‑lépésre.
 ### [Excel jelentéslista létrehozása Aspose.Cells intelligens jelölőkkel](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)

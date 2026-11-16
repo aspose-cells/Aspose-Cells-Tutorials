@@ -25,6 +25,8 @@ Dengan menggunakan Aspose.Cells for .NET, Anda dapat sepenuhnya menyesuaikan tab
 
 {{< tutorial-card link="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/" title="Salin tabel pivot ke buku kerja baru, ekspor bentuk ke PowerPoint" imgSrc="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-copy-a-pivot-table-to-a-new-workbook-in-c/" title="Cara menyalin tabel pivot ke buku kerja baru di C#" imgSrc="./how-to-copy-a-pivot-table-to-a-new-workbook-in-c/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

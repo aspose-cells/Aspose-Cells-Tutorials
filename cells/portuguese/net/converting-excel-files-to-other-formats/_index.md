@@ -73,7 +73,7 @@ Aprenda a criar apresentações PowerPoint a partir de arquivos Excel usando Asp
 ### [Convertendo Excel para PowerPoint – Guia Completo em C#](./convert-excel-to-powerpoint-with-c-complete-guide/)
 Aprenda a converter planilhas do Excel em apresentações PowerPoint usando C# e Aspose.Cells para .NET neste guia completo passo a passo.
 ### [Como Exportar Excel para PowerPoint – Guia Completo em C#](./how-to-export-excel-to-powerpoint-complete-c-guide/)
-Aprenda a exportar planilhas do Excel para apresentações PowerPoint usando C# e Aspose.Cells neste guia completo.
+Aprenda a exportar planilhas do Excel para apresentações PowerPoint usando C# e Aspose.Cells neste guia completo passo a passo.
 ### [Como exportar Excel para PowerPoint – Guia completo](./how-to-export-excel-to-powerpoint-complete-guide/)
 Aprenda a exportar planilhas do Excel para apresentações PowerPoint programaticamente usando Aspose.Cells para .NET neste guia completo.
 ### [Como salvar Excel como PowerPoint usando C# e Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
@@ -151,6 +151,9 @@ Aprenda a exportar planilhas do Excel para apresentações PowerPoint programati
 Aprenda a copiar uma tabela dinâmica de uma planilha Excel e exportá‑la como apresentação PPTX usando Aspose.Cells para .NET.
 ### [Como incorporar fontes em SVG ao converter arquivos Excel para SVG e PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
 Aprenda a incorporar fontes ao gerar arquivos SVG a partir de planilhas Excel e ao converter para PowerPoint usando Aspose.Cells.
+
+### [Como salvar Excel como PowerPoint com Aspose.Cells em C#](./how-to-save-excel-as-powerpoint-with-aspose-cells-in-c/)
+Aprenda a salvar arquivos Excel como apresentações PowerPoint usando Aspose.Cells em C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

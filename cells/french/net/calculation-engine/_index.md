@@ -52,8 +52,12 @@ Apprenez à calculer un classeur en C#, en triant les données et en appliquant 
 
 ### [Forcer le calcul des formules en C# – Guide complet d'automatisation Excel](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
 Apprenez à forcer le recalcul des formules en C# pour automatiser efficacement les classeurs Excel avec Aspose.Cells.
+
 ### [Créer un classeur Excel – Convertir un tableau en matrice avec WRAPCOLS](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
 Apprenez à créer un classeur Excel et à transformer un tableau en matrice à l'aide de la fonction WRAPCOLS d'Aspose.Cells pour .NET.
+
+### [Comment étendre un tableau dans Excel avec Aspose.Cells](./how-to-expand-array-in-excel-with-aspose-cells)
+Apprenez à étendre un tableau dans Excel en utilisant les fonctionnalités d'Aspose.Cells.
 
 ## Avantages
 

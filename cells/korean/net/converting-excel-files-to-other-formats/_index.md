@@ -126,7 +126,7 @@ Aspose.Cells를 사용하여 .NET에서 Excel을 텍스트 파일(TXT)로 내보
 Aspose.Cells for .NET을 활용해 C# 코드로 Excel 워크북을 TXT 파일로 저장하는 단계별 가이드를 제공합니다.
 
 ### [Excel에서 PowerPoint 만들기 – 전체 C# 자동화 가이드](./create-ppt-from-excel-full-c-automation-guide/)
-Aspose.Cells for .NET을 사용하여 Excel 데이터를 PPTX 프레젠테이션으로 변환하는 전체 C# 자동화 가이드를 확인하세요.
+Aspose.Cells for .NET을 사용하여 Excel 데이터를 PPTX 프레젠테이션으로 변환하는 전체 C# 자동화 가이드를 확인합니다.
 
 ### [Excel을 txt로 저장 – 유효숫자를 포함한 숫자 내보내기 완전 C# 가이드](./save-excel-as-txt-complete-c-guide-to-export-numbers-with-si/)
 Aspose.Cells를 사용해 Excel 데이터를 txt 파일로 저장하고, 유효숫자를 유지한 채 숫자를 내보내는 방법을 단계별로 안내합니다.
@@ -153,8 +153,13 @@ Aspose.Cells for .NET을 사용하여 Excel 데이터를 PowerPoint 프레젠테
 
 Aspose.Cells for .NET을 사용하여 Excel 파일을 PowerPoint 프레젠테이션으로 변환하는 방법을 단계별로 안내합니다.
 
-### [C#에서 편집 가능한 텍스트 상자를 포함한 PPT로 Excel 저장하는 방법](./how-to-save-excel-as-ppt-with-editable-text-boxes-in-c/)
-Aspose.Cells for .NET을 사용하여 Excel 파일을 편집 가능한 텍스트 상자가 포함된 PPT 파일로 저장하는 단계별 가이드입니다.
+### [C#와 Aspose.Cells를 사용하여 Excel을 PowerPoint로 저장하는 방법](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+### [C#에서 Aspose.Cells를 사용하여 Excel을 PowerPoint로 저장하는 방법](./how-to-save-excel-as-powerpoint-with-aspose-cells-in-c/)
+
+Aspose.Cells for .NET을 활용해 C# 코드로 Excel 파일을 PowerPoint 프레젠테이션으로 저장하는 단계별 가이드입니다.
+
+### [Excel 파일을 SVG 및 PowerPoint로 변환할 때 SVG에 글꼴 삽입하는 방법](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
+Excel을 SVG 또는 PowerPoint로 변환할 때 글꼴을 포함시키는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

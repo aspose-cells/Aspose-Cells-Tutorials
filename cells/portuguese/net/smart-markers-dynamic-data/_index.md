@@ -67,7 +67,7 @@ Copie facilmente estilos e formatos de um arquivo de modelo para a saída gerada
 ### [Use fórmulas dinâmicas em marcadores inteligentes Aspose.Cells](./dynamic-formulas-smart-markers/)
 Aprenda a usar fórmulas dinâmicas em Marcadores Inteligentes com o Aspose.Cells para .NET, aprimorando seu processo de geração de relatórios do Excel.
 ### [Avalie IsBlank com marcadores inteligentes em Aspose.Cells](./evaluate-isblank-smart-markers/)
-Aprimore seus arquivos do Excel com marcadores inteligentes para avaliar valores em branco com eficiência usando o Aspose.Cells para .NET. Aprenda como neste guia passo a passo.
+Aprimore seus arquivos do Excel com marcadores inteligentes para avaliar valores em branco com eficiência usando Aspose.Cells para .NET. Aprenda como neste guia passo a passo.
 ### [Agrupar dados com marcadores inteligentes no Aspose.Cells .NET](./group-data-smart-markers/)
 Agrupe dados facilmente com marcadores inteligentes no Aspose.Cells para .NET. Siga nosso guia completo para obter instruções passo a passo.
 ### [Inserir imagens com marcadores de imagem em Aspose.Cells](./insert-images-smart-markers/)
@@ -133,6 +133,10 @@ Aprenda a converter arquivos JSON para XLSX usando SmartMarker em C#, passo a pa
 Aprenda a gerar uma nova pasta de trabalho a partir de um arquivo XLSX usando o SmartMarkerProcessor do Aspose.Cells.
 ### [Expandir marcadores inteligentes de planilha em C# para modelos Excel](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
 Aprenda a expandir marcadores inteligentes em planilhas usando C# para gerar relatórios a partir de modelos Excel.
+### [Criar Excel a partir de JSON com Marcador Inteligente Aspose.Cells](./create-excel-from-json-with-aspose-cells-smart-marker/)
+Aprenda a gerar arquivos Excel a partir de dados JSON usando Marcadores Inteligentes do Aspose.Cells em .NET.
+### [Criar Excel a partir de JSON com SmartMarker em C#](./create-excel-from-json-with-smartmarker-in-c/)
+Aprenda a gerar arquivos Excel a partir de JSON usando SmartMarker em C#, passo a passo.
 
 ### [Nomear automaticamente planilhas do Excel – Forma fácil de gerar planilhas](./auto-name-excel-sheets-easy-way-to-generate-sheets/)
 Aprenda a nomear automaticamente as planilhas do Excel ao gerar relatórios, simplificando a organização e economizando tempo.

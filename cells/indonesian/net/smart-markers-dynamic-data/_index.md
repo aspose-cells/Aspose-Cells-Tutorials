@@ -196,6 +196,8 @@ Pelajari cara mengimpor data JSON ke file Excel menggunakan C# dengan Aspose.Cel
 ### [Mengonfigurasi SmartMarkerOptions ArrayAsSingle di C# untuk array JSON](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
 ### [Perluas smart markers lembar kerja di C# untuk templat Excel](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
 
+### [Buat Excel dari JSON dengan SmartMarker di C#](./create-excel-from-json-with-smartmarker-in-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

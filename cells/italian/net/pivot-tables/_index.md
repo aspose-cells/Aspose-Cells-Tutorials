@@ -25,6 +25,8 @@ Utilizzando Aspose.Cells per .NET, è possibile personalizzare completamente le 
 
 {{< tutorial-card link="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/" title="Copia la tabella pivot in una nuova cartella di lavoro, esporta la forma in PowerPoint" imgSrc="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-copy-a-pivot-table-to-a-new-workbook-in-c/" title="Come copiare una tabella pivot in una nuova cartella di lavoro in C#" imgSrc="./how-to-copy-a-pivot-table-to-a-new-workbook-in-c/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

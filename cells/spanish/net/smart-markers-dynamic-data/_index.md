@@ -127,6 +127,9 @@ Aprenda a usar marcadores de rango para procesar datos anidados en C# con Aspose
 ### [Convertir JSON a XLSX en C# usando SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
 Aprenda a convertir archivos JSON a XLSX en C# utilizando SmartMarker de Aspose.Cells, paso a paso.
 
+### [Crear Excel desde JSON con SmartMarker en C#](./create-excel-from-json-with-smartmarker-in-c/)
+Aprenda a generar archivos Excel a partir de datos JSON usando SmartMarker en C# con Aspose.Cells.
+
 ### [Cómo enlazar hojas en Excel con SmartMarker – Guía paso a paso](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
 
 ### [Crear libro de trabajo a partir de XLSX con Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)

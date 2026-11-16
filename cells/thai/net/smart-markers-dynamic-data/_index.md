@@ -122,13 +122,6 @@
 ### [สร้างสมุดงานจากไฟล์ XLSX ด้วย Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
 เรียนรู้วิธีใช้ SmartMarkerProcessor เพื่อสร้างสมุดงานจากไฟล์ XLSX อย่างง่ายดายใน Aspose.Cells
 
-
-
-
-
-
-
-
 ### [วิธีสร้าง Workbook ด้วย Smart Markers – Output High Low](./how-to-create-workbook-with-smart-markers-output-high-low/)
 เรียนรู้วิธีใช้ Smart Markers เพื่อสร้าง Workbook ที่แสดงค่าต่ำสุดและสูงสุดอย่างอัตโนมัติ
 
@@ -189,8 +182,9 @@
 ### [สร้างสมุดงาน Master Detail ด้วย Aspose.Cells Smart Marker](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
 
 ### [คู่มือ Master Detail Excel – เติมเทมเพลตด้วย Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)
-### [สร้างไฟล์ Excel จาก JSON ด้วย Aspose.Cells Smart Marker](./create-excel-from-json-with-aspose-cells-smart-marker/)
-เรียนรู้วิธีสร้างไฟล์ Excel จากข้อมูล JSON โดยใช้ Smart Marker ของ Aspose.Cells อย่างง่ายดาย
+### [สร้างไฟล์ Excel จาก JSON ด้วย Aspose.Cells Smart Marker](./create-excel-from-json-with-smart-marker/)
+
+### [สร้าง Excel จาก JSON ด้วย SmartMarker ใน C#](./create-excel-from-json-with-smartmarker-in-c/)
 
 ### [ขยาย Worksheet Smart Markers ใน C# สำหรับเทมเพลต Excel](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
 

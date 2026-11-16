@@ -52,7 +52,7 @@
 ### [Μετατροπή αρχείου Excel σε Markdown μέσω προγραμματισμού σε .NET](./converting-excel-file-to-markdown/)
 Μάθετε πώς να μετατρέψετε αρχεία Excel σε μορφή Markdown χρησιμοποιώντας το Aspose.Cells για .NET σε αυτόν τον λεπτομερή οδηγό βήμα προς βήμα. Αυξήστε την παραγωγικότητα με εύκολη μετατροπή αρχείων.
 ### [Μετατροπή αρχείου Excel σε PDF (A-1a) μέσω προγραμματισμού σε .NET](./converting-excel-file-to-pdf-a-1a/)
-Μάθετε πώς να μετατρέπετε αρχεία Excel σε PDF/A-1a για αρχειοθετικούς σκοπούς χρησιμοποιώντας το Aspose.Cells για .NET. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα που περιλαμβάνονται.
+Μάθετε πώς να μετατρέψετε αρχεία Excel σε PDF/A-1a για αρχειοθετικούς σκοπούς χρησιμοποιώντας το Aspose.Cells για .NET. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα που περιλαμβάνονται.
 ### [Μετατροπή JSON σε CSV μέσω προγραμματισμού σε .NET](./converting-json-to-csv/)
 Μάθετε πώς να μετατρέψετε JSON σε CSV μέσω προγραμματισμού σε .NET χρησιμοποιώντας το Aspose.Cells. Ακολουθήστε τον αναλυτικό οδηγό μας για να διασφαλίσετε τον απρόσκοπτο μετασχηματισμό δεδομένων.
 ### [Μετατροπή αρχείου Excel σε PPTX μέσω προγραμματισμού σε .NET](./converting-excel-file-to-pptx/)
@@ -72,7 +72,7 @@
 ### [Αντιγραφή πίνακα Pivot και εξαγωγή Excel σε PPTX με Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
 Μάθετε πώς να αντιγράψετε έναν πίνακα Pivot και να εξάγετε το αρχείο Excel σε παρουσίαση PowerPoint (PPTX) χρησιμοποιώντας το Aspose.Cells για .NET.
 ### [Δημιουργία PowerPoint από Excel – Πλήρης C# Εκπαιδευτικό Σεμινάριο](./create-powerpoint-from-excel-complete-c-tutorial/)
-Μάθετε πώς να δημιουργήσετε παρουσίαση PowerPoint από φύλλο Excel χρησιμοποιώντας C# και Aspose.Cells σε αυτό το πλήρες βήμα-βήμα σεμινάριο.
+Μάθετε πώς να δημιουργήσετε παρουσίαση PowerPoint από φύλλο Excel χρησιμοποιώντας C# και Aspose.Cells σε αυτό το πλήρες βήμα‑βήμα σεμινάριο.
 Μάθετε πώς να δημιουργήσετε παρουσίαση PowerPoint από αρχείο Excel χρησιμοποιώντας το Aspose.Cells για .NET σε αυτόν τον οδηγό βήμα‑βήμα.
 ### [Εξαγωγή Excel σε PowerPoint με επεξεργάσιμα διαγράμματα σε C#](./export-excel-to-powerpoint-with-editable-charts-in-c/)
 Μάθετε πώς να εξάγετε φύλλα Excel σε PowerPoint με διαγράμματα που μπορείτε να επεξεργαστείτε, χρησιμοποιώντας C# και Aspose.Cells.
@@ -106,6 +106,8 @@
 Μάθετε πώς να μετατρέψετε φύλλα Excel σε παρουσιάσεις PowerPoint (PPTX) με C# και Aspose.Cells σε έναν πλήρη οδηγό βήμα προς βήμα.
 ### [Πώς να αποθηκεύσετε το Excel ως PPT με επεξεργάσιμα πλαίσια κειμένου σε C#](./how-to-save-excel-as-ppt-with-editable-text-boxes-in-c/)
 Μάθετε πώς να αποθηκεύσετε ένα βιβλίο εργασίας Excel ως παρουσίαση PowerPoint με επεξεργάσιμα πλαίσια κειμένου χρησιμοποιώντας C# και Aspose.Cells.
+### [Πώς να αποθηκεύσετε το Excel ως PowerPoint με Aspose.Cells σε C#](./how-to-save-excel-as-powerpoint-with-aspose-cells-in-c/)
+Μάθετε πώς να αποθηκεύσετε ένα βιβλίο εργασίας Excel ως παρουσίαση PowerPoint χρησιμοποιώντας Aspose.Cells σε C#.
 ### [Αποθήκευση Excel ως Docx με C# – Πλήρης Οδηγός Βήμα‑βήμα](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 Μάθετε πώς να αποθηκεύετε ένα βιβλίο εργασίας Excel σε μορφή Docx χρησιμοποιώντας C# και Aspose.Cells, με πλήρη βήμα‑βήμα οδηγίες.
 ### [Δημιουργία PPT από Excel – Πλήρης Οδηγός Αυτοματοποίησης C#](./create-ppt-from-excel-full-c-automation-guide/)
@@ -124,7 +126,7 @@
 Μάθετε πώς να αποθηκεύετε ένα βιβλίο εργασίας Excel ως αρχείο κειμένου TXT χρησιμοποιώντας C# και Aspose.Cells.
 ### [Πώς να αποθηκεύσετε το Excel ως κείμενο με Aspose.Cells – βήμα‑βήμα οδηγός](./how-to-save-excel-as-text-with-aspose-cells-step-by-step-gui/)
 Μάθετε πώς να αποθηκεύσετε ένα βιβλίο εργασίας Excel ως αρχείο κειμένου χρησιμοποιώντας Aspose.Cells, βήμα‑βήμα με παραδείγματα C#.
-### [Πώς να αποθηκεύσετε βιβλίο εργασίας ως CSV και να εξάγετε το Excel σε TXT με προσαρμοσμένη μορφοποίηση σε C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+### [Πώς να αποθηκεύσετε βιβλίο εργασίας ως CSV και να εξάγετε το Excel σε TXT με προσαρμοσμένη μορφοποίηση σε C#](./how-to-save-workbook-as-csv-and-extract-excel-to-txt-with-cus/)
 Μάθετε πώς να αποθηκεύσετε ένα βιβλίο εργασίας ως CSV και να εξάγετε δεδομένα σε αρχείο TXT με προσαρμοσμένη μορφοποίηση χρησιμοποιώντας C# και Aspose.Cells.
 ### [Δημιουργία Word από Excel – Γρήγορος Οδηγός C#](./create-word-from-excel-quick-c-guide/)
 Μάθετε πώς να δημιουργήσετε έγγραφο Word από αρχείο Excel χρησιμοποιώντας C# και Aspose.Cells σε αυτόν τον σύντομο οδηγό.

@@ -25,6 +25,8 @@
 
 {{< tutorial-card link="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/" title="將資料透視表複製到新活頁簿，將圖形匯出至 PowerPoint" imgSrc="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-copy-a-pivot-table-to-a-new-workbook-in-c/" title="如何在 C# 中將資料透視表複製到新活頁簿" imgSrc="./how-to-copy-a-pivot-table-to-a-new-workbook-in-c/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

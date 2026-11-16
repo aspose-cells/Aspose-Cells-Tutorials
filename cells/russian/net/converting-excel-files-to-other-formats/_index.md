@@ -80,14 +80,12 @@ Aspose.Cells для .NET упрощает преобразование доку�
 Узнайте, как экспортировать файлы Excel в PowerPoint с помощью Aspose.Cells для .NET, следуя полному руководству на C#.
 ### [Копировать сводную таблицу и экспортировать Excel в PPTX с Aspose.Cells](./copy-pivot-table-and-export-excel-to-pptx-with-aspose-cells/)
 Узнайте, как копировать сводную таблицу и экспортировать файл Excel в презентацию PowerPoint (PPTX) с помощью Aspose.Cells для .NET.
-Узнайте, как программно создать презентацию PowerPoint из файла Excel с помощью Aspose.Cells для .NET в этом пошаговом руководстве.
 ### [Конвертация Excel в PowerPoint и установка области печати](./convert-excel-to-powerpoint-and-set-print-area/)
 Узнайте, как программно преобразовать Excel в презентацию PowerPoint и задать область печати с помощью Aspose.Cells для .NET.
 ### [Создание PowerPoint из Excel – пошаговое руководство C#](./create-powerpoint-from-excel-step-by-step-c-guide/)
 Узнайте, как программно создавать презентации PowerPoint из файлов Excel с помощью Aspose.Cells для .NET на C#.
 ### [Как экспортировать Excel в PowerPoint – Полное руководство на C#](./how-to-export-excel-to-powerpoint-complete-c-guide/)
 Узнайте, как программно экспортировать данные из Excel в презентацию PowerPoint с помощью Aspose.Cells для .NET, следуя пошаговым примерам на C#.
-
 ### [Сохранить Excel как текст – пошаговое руководство с Aspose.Cells](./how-to-save-excel-as-text-with-aspose-cells-step-by-step-gui/)
 Узнайте, как программно сохранить книгу Excel в текстовый файл, используя Aspose.Cells, следуя пошаговому руководству.
 ### [Как экспортировать Excel в PowerPoint – Полное руководство](./how-to-export-excel-to-powerpoint-complete-guide/)
@@ -108,22 +106,20 @@ Aspose.Cells для .NET упрощает преобразование доку�
 Узнайте, как экспортировать файлы Excel в презентацию PowerPoint с помощью Aspose.Cells для .NET в полном пошаговом руководстве.
 ### [Как создать PowerPoint из Excel с использованием Aspose.Cells](./how-to-create-powerpoint-from-excel-using-aspose-cells/)
 Узнайте, как программно создать презентацию PowerPoint из файла Excel с помощью Aspose.Cells для .NET.
-
 ### [Создание PowerPoint из Excel с Aspose.Cells – пошаговое руководство](./create-powerpoint-from-excel-with-aspose-cells-step-by-step/)
 Узнайте, как программно создать презентацию PowerPoint из файла Excel с помощью Aspose.Cells для .NET, следуя пошаговому руководству.
-
 ### [Как обернуть ячейки и преобразовать Excel в PowerPoint на C#](./how-to-wrap-cells-and-convert-excel-to-powerpoint-in-c/)
 Узнайте, как обернуть ячейки и преобразовать файл Excel в презентацию PowerPoint с помощью Aspose.Cells для .NET на C#.
 ### [Как сохранить Excel в PowerPoint с помощью C# и Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
 Узнайте, как программно сохранить файл Excel в презентацию PowerPoint с помощью Aspose.Cells для .NET.
-
+### [Как сохранить Excel в PowerPoint с Aspose.Cells в C#](./how-to-save-excel-as-powerpoint-with-aspose-cells-in-c/)
+Узнайте, как программно сохранить файл Excel в презентацию PowerPoint с помощью Aspose.Cells для .NET.
 ### [Сохранение Excel в Docx с C# – Полное пошаговое руководство](./save-excel-as-docx-with-c-complete-step-by-step-guide/)
 Узнайте, как программно сохранить файл Excel в формате DOCX с помощью C# и Aspose.Cells для .NET в этом подробном руководстве.
 ### [Создание PPT из Excel – Полное руководство по автоматизации на C#](./create-ppt-from-excel-full-c-automation-guide/)
 Узнайте, как программно создавать презентации PowerPoint из файлов Excel с помощью полного руководства по автоматизации на C#.
 ### [Создание новой книги – Экспорт Excel в TXT с полной точностью](./create-new-workbook-export-excel-to-txt-with-full-precision/)
 Узнайте, как создать новую книгу и экспортировать данные Excel в формат TXT с полной точностью, используя Aspose.Cells для .NET.
-
 ### [Создание Word из Excel – Быстрое руководство C#](./create-word-from-excel-quick-c-guide/)
 Узнайте, как быстро создать документ Word из файла Excel с помощью Aspose.Cells и C#.
 ### [Как сохранить DOCX из Excel – Полное руководство по экспорту диаграмм в Word](./how-to-save-docx-from-excel-complete-guide-to-export-charts/)

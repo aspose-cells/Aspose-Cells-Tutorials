@@ -89,30 +89,16 @@ Naučte se, jak pomocí C# a Aspose.Cells dynamicky generovat řádky a opakovat
 ### [Jak vložit řádky v GridJs – Přidat více řádků do mřížky efektivně](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)
 Naučte se efektivně přidávat více řádků do GridJs pomocí podrobného návodu.
 
-
-
-
 ### [Vytvořte Excel sešit v C# a transponujte sloupec na řádek](./create-excel-workbook-c-and-transpose-column-to-row/)
-
-
-
 
 ### [Vložení řádků v Excelu pomocí C# – krok‑za‑krokem průvodce](./insert-rows-in-excel-with-c-step-by-step-guide/)
 Podrobný návod, jak pomocí C# a Aspose.Cells vložit řádky do Excelu krok za krokem.
-### [Jak použít WRAPCOLS: Vytvořte dvousloupcové rozvržení v C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
-Naučte se, jak pomocí metody WRAPCOLS vytvořit dvousloupcové rozvržení v Excelu pomocí C# a Aspose.Cells.
-### [Odstranění řádků v Excel tabulce pomocí C# – krok za krokem](./delete-rows-excel-table-with-c-step-by-step-guide/)
-Podrobný návod, jak pomocí Aspose.Cells pro .NET s C# smazat řádky v tabulce Excel.
-### [Jak vložit řádky v GridJs – rychlé přidání více řádků](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
-Naučte se rychle přidávat více řádků v GridJs pomocí jednoduchých kroků a ukázek kódu.
-### [Jak používat WrapCols v C# – Kompletní průvodce s Excel WrapRows a přepočítáním vzorců](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
-Objevte podrobný návod, jak použít WrapCols a WrapRows v Excelu pomocí Aspose.Cells pro .NET a přepočítat vzorce.
 ### [Jak použít WRAPCOLS: Vytvořte dvousloupcové rozvržení v C#](./how-to-use-wrapcols-in-c/)
-Objevte podrobný návod, jak použít WrapCols a WrapRows v Excelu pomocí Aspose.Cells pro .NET a přepočítat vzorce.
-
+Naučte se, jak pomocí metody WRAPCOLS vytvořit dvousloupcové rozvržení v Excelu pomocí C# a Aspose.Cells.
+### [Jak použít WRAPCOLS k rozdělení řádku do sloupců v C#](./how-to-use-wrapcols-to-split-a-row-into-columns-in-c/)
+Naučte se, jak pomocí WRAPCOLS v Aspose.Cells rozdělit řádek na jednotlivé sloupce v C#.
 ### [Jak použít WRAPCOLS v C# a uložit sešit jako XLSX](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
 Naučte se pomocí Aspose.Cells v C# použít metodu WRAPCOLS a uložit sešit ve formátu XLSX.
-
 ### [Posunutí buněk nahoru v Excelu pomocí C# – Kompletní průvodce](./shift-cells-up-in-excel-with-c-complete-guide/)
 Naučte se, jak pomocí Aspose.Cells pro .NET posunout buňky nahoru v Excelu pomocí C#. Podrobný krok‑za‑krokem návod.
 ### [Kopírování řádků z jednoho listu do druhého – kompletní průvodce C#](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)

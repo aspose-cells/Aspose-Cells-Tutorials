@@ -167,7 +167,7 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 
 ### [Εφαρμογή SmartMarker σε φύλλο εργασίας σε C# – Πλήρης Οδηγός](./apply-smartmarker-to-worksheet-in-c-complete-guide/)
 
-### [Δημιουργία Excel προγραμματιστικά με χρήση Smart Markers του Aspose.Cells](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+### [Δημιουργία Excel προγραμματισμένα με χρήση Smart Markers του Aspose.Cells](./create-excel-programmatically-using-aspose-cells-smart-marke/)
 
 ### [Δημιουργία πολλαπλών φύλλων με SmartMarker – Πλήρης οδηγός C#](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
 
@@ -193,6 +193,9 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 
 ### [Πώς να Επαναλάβετε Φύλλα Εργασίας – Πλήρης Οδηγός για Αυτοματοποίηση Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 ### [Δημιουργία Excel από JSON με Aspose.Cells Smart Marker](./create-excel-from-json-with-aspose-cells-smart-marker/)
+
+### [Δημιουργία Excel από JSON με SmartMarker σε C#](./create-excel-from-json-with-smartmarker-in-c/)
+Μάθετε πώς να μετατρέψετε δεδομένα JSON σε αρχείο Excel χρησιμοποιώντας SmartMarker σε C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

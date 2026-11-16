@@ -101,6 +101,7 @@ Odemkněte sílu Aspose.Cells. Naučte se krok za krokem implementovat proměnn�
 Naučte se, jak aplikovat SmartMarker na konkrétní list v Excelu pomocí C# a vytvořit tak dynamické reporty.
 
 ### [Vytvoření Excelu programově pomocí Aspose.Cells Smart Markers](./create-excel-programmatically-using-aspose-cells-smart-marke/)
+
 ### [Jak vytvořit Excel sešit s inteligentními značkami pro dynamický report v Excelu](./how-to-create-excel-workbook-with-smart-markers-for-a-dynami/)
 
 ### [Převod JSON do Excelu pomocí C# – krok za krokem](./convert-json-to-excel-with-c-step-by-step-guide/)
@@ -108,40 +109,10 @@ Naučte se, jak pomocí Aspose.Cells v C# převést data ve formátu JSON do sou
 
 ### [Převod JSON do XLSX v C# pomocí SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
 
-### [Vytvoření sešitu z XLSX pomocí Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
-Naučte se, jak pomocí SmartMarkerProcessor vytvořit nový sešit z existujícího souboru XLSX v Aspose.Cells pro .NET.
+### [Vytvořit Excel z JSON pomocí SmartMarker v C#](./create-excel-from-json-with-smartmarker-in-c/)
+Naučte se pomocí Aspose.Cells a SmartMarker v C# vytvořit Excel soubor přímo z JSON dat.
 
-### [Vyplnění šablony Excel – Naplnění dat v Excelu pomocí SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
-
-### [Export dat do Excelu pomocí Smart Marker – Kompletní průvodce v C#](./export-data-to-excel-with-smart-marker-full-c-guide/)
-
-### [Vytvoření dynamické tabulky v Excelu – průvodce Smart Marker](./create-dynamic-excel-table-smart-marker-guide/)
-Naučte se pomocí Smart Markerů v Aspose.Cells vytvořit dynamickou tabulku v Excelu, která se automaticky přizpůsobí měnícím se datům.
-
-### [Jak používat značky v Aspose.Cells pro dynamické pojmenování listů v Excelu](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
-
-### [Vytvoření podmíněné hodnoty buňky pomocí Aspose.Cells Smart Marker](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
-
-### [Jak načíst šablonu a vytvořit Excel report pomocí SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
-Naučte se načíst šablonu a pomocí SmartMarker v Aspose.Cells pro .NET vygenerovat Excel report.
-
-### [Jak nahradit proměnné v JSON pomocí SmartMarker – Kompletní průvodce](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
-Naučte se, jak pomocí SmartMarker nahradit proměnné v JSON souborech a generovat dynamické výstupy v Excelu.
-
-### [Vytvoření dynamických pracovních listů s inteligentními značkami v Aspose.Cells](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
-
-### [Jak vygenerovat Excel report v C# – Kompletní průvodce pomocí SmartMarker](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
-Kompletní návod, jak pomocí Aspose.Cells SmartMarker v C# vytvořit dynamické Excel reporty od nastavení až po export.
-### [Vytvoření Excel sešitu v C# – Kompletní průvodce vkládáním polí do buněk](./create-excel-workbook-c-full-guide-to-inserting-arrays-into/)
-### [Vytvoření šablony Excel s inteligentními značkami v C# – Kompletní průvodce](./create-excel-template-with-smart-markers-in-c-complete-guide/)
-### [Sloučení dat v Excelu v C# – Kompletní průvodce Smart Markery](./excel-data-merging-in-c-complete-smart-marker-guide/)
-
-
-
-
-
-
-
+### [Vytvoření Excelu programově pomocí Aspose.Cells Smart Markers](./create-excel-programmatically-using-aspose-cells-smart-marke/)
 
 ### [Vytvoření kolekce inteligentních značek – kompletní průvodce v C#](./create-smart-marker-collection-complete-c-guide/)
 Kompletní návod v C#, jak vytvořit kolekci inteligentních značek pro generování dynamických Excelových sestav pomocí Aspose.Cells.

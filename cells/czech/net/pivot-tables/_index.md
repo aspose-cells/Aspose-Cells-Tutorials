@@ -25,6 +25,8 @@ Pomocí Aspose.Cells pro .NET si můžete plně přizpůsobit kontingenční tab
 
 {{< tutorial-card link="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/" title="Zkopírujte kontingenční tabulku do nového sešitu, exportujte tvar do PowerPointu" imgSrc="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-copy-a-pivot-table-to-a-new-workbook-in-c/" title="Jak zkopírovat kontingenční tabulku do nového sešitu v C#" imgSrc="./how-to-copy-a-pivot-table-to-a-new-workbook-in-c/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

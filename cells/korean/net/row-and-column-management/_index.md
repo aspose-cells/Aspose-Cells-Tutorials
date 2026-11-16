@@ -107,15 +107,9 @@ GridJs를 사용하여 그리드에 여러 행을 빠르게 삽입하는 단계�
 ### [C#에서 wrapcols 사용 방법 – Excel WRAPROWS 및 수식 재계산 전체 가이드](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 C#에서 wrapcols와 wraprows를 활용하고 수식을 재계산하는 방법을 단계별로 안내합니다.
 ### [C#에서 WRAPCOLS 사용 및 워크북을 XLSX로 저장하는 방법](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
-C#와 Aspose.Cells를 사용해 WRAPCOLS를 적용하고 워크북을 XLSX 형식으로 저장하는 단계별 가이드입니다.
-### [C#를 사용하여 Excel에서 셀을 위로 이동하기 – 완전 가이드](./shift-cells-up-in-excel-with-c-complete-guide/)
-Aspose.Cells for .NET을 사용하여 Excel에서 셀을 위로 이동하는 방법을 단계별로 안내합니다.
-### [한 워크시트에서 다른 워크시트로 행 복사 – 완전 C# 가이드](./copy-rows-from-one-worksheet-to-another-complete-c-guide/)
-Aspose.Cells for .NET을 사용하여 한 워크시트에서 다른 워크시트로 행을 복사하는 단계별 C# 가이드를 확인하세요.
-### [C#로 Excel에서 행 삭제 – 테이블 헤더 보호](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
-C#를 사용해 Excel에서 테이블 헤더를 보호하면서 행을 삭제하는 방법을 단계별로 안내합니다.
-### [Excel 테이블에서 행 삭제 – 완전한 C# 가이드](./delete-rows-from-excel-table-complete-c-guide/)
-Excel 테이블에서 행을 삭제하는 방법을 단계별로 안내합니다. C# 코드 예제로 손쉽게 구현하세요.
+C#와 Aspose.Cells를 사용해 WRAPCOLS를 적용하고 워크북을 XLSX 형식으로 저장하는 단계별 가이드를 확인하세요.
+### [C#에서 WRAPCOLS를 사용하여 행을 열로 분할하는 방법](./how-to-use-wrapcols-to-split-a-row-into-columns-in-c/)
+C#와 Aspose.Cells를 사용해 WRAPCOLS로 행을 여러 열로 나누는 단계별 가이드를 확인하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

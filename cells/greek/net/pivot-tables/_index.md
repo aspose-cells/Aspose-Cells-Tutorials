@@ -25,6 +25,8 @@
 
 {{< tutorial-card link="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/" title="Αντιγραφή πίνακα Pivot σε νέο βιβλίο εργασίας, εξαγωγή σχήματος σε PowerPoint" imgSrc="./copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-copy-a-pivot-table-to-a-new-workbook-in-c/" title="Πώς να αντιγράψετε έναν Πίνακα Pivot σε νέο βιβλίο εργασίας σε C#" imgSrc="./how-to-copy-a-pivot-table-to-a-new-workbook-in-c/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

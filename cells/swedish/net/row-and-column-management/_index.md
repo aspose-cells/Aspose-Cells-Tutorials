@@ -109,7 +109,9 @@ Lär dig hur du flyttar celler uppåt i ett Excel-ark med C# genom en steg-för-
 ### [Ta bort rader från Excel-tabell – komplett C#-guide](./delete-rows-from-excel-table-complete-c-guide/)
 Lär dig hur du tar bort rader från en Excel-tabell med en komplett C#-guide i Aspose.Cells för .NET.
 ### [Hur man använder WRAPCOLS i C# och sparar arbetsboken som XLSX](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
-Lär dig hur du använder WRAPCOLS i C# och sparar arbetsboken i XLSX-format med Aspose.Cells.
+Lär dig hur du använder wrapcols i C# och sparar arbetsboken i XLSX-format med Aspose.Cells.
+### [Hur man använder WRAPCOLS för att dela en rad i kolumner i C#](./how-to-use-wrapcols-to-split-a-row-into-columns-in-c/)
+Lär dig hur du med WRAPCOLS delar en rad i flera kolumner i Excel med C# – steg‑för‑steg‑instruktioner.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

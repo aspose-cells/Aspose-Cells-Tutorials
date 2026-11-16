@@ -108,12 +108,12 @@ Aprenda a eliminar filas de una tabla de Excel usando C# con Aspose.Cells, sigui
 Aprenda a insertar filas en Excel usando C# con Aspose.Cells para .NET mediante una guía paso a paso.
 ### [Cómo usar WRAPCOLS: crear un diseño de dos columnas en C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 Aprenda a crear un diseño de dos columnas en Excel usando WRAPCOLS con Aspose.Cells para .NET.
-### [Cómo insertar filas en GridJs – Añadir varias filas rápidamente](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
-Descubra una guía paso a paso para insertar varias filas en GridJs de forma rápida y sencilla.
 ### [Cómo usar wrapcols en C# – Guía completa con Excel WRAPROWS y recalcular fórmulas](./how-to-use-wrapcols-in-c-full-guide-with-excel-wraprows-reca/)
 Aprenda a aplicar wrapcols y wraprows en Excel con C#, y a recalcular fórmulas automáticamente paso a paso.
 ### [Cómo usar WRAPCOLS en C# y guardar el libro de trabajo como XLSX](./how-to-use-wrapcols-in-c-and-save-workbook-as-xlsx/)
 Aprenda a usar WRAPCOLS en C# y guardar el libro de trabajo como archivo XLSX con Aspose.Cells paso a paso.
+### [Cómo usar WRAPCOLS para dividir una fila en columnas en C#](./how-to-use-wrapcols-to-split-a-row-into-columns-in-c/)
+Aprenda a dividir una fila en varias columnas usando WRAPCOLS en C# con Aspose.Cells paso a paso.
 ### [Desplazar celdas hacia arriba en Excel con C# – Guía completa](./shift-cells-up-in-excel-with-c-complete-guide/)
 Aprenda a mover celdas hacia arriba en Excel usando C# con Aspose.Cells, paso a paso y ejemplos claros.
 ### [Cómo eliminar filas en Excel con C# – proteger encabezado de tabla](./how-to-delete-rows-in-excel-with-c-protect-table-header/)

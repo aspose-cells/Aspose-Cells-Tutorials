@@ -88,7 +88,7 @@ Maîtrisez Aspose.Cells pour .NET avec des listes génériques et des marqueurs 
 ### [Utiliser la propriété HTML dans les marqueurs intelligents Aspose.Cells .NET](./html-property-smart-markers/)
 Libérez la puissance d'Aspose.Cells avec ce didacticiel étape par étape sur l'utilisation de la propriété HTML dans les marqueurs intelligents pour les applications .NET.
 ### [Gérer les objets imbriqués avec des marqueurs intelligents Aspose.Cells](./nested-objects-smart-markers/)
-Libérez le potentiel des rapports Excel avec Aspose.Cells en gérant les objets imbriqués sans effort à l'aide de marqueurs intelligents dans un guide étape par étape.
+Libérez le potentiel des rapports Excel avec Aspose.Cells en gérant des objets imbriqués sans effort à l'aide de marqueurs intelligents dans un guide étape par étape.
 ### [Activer l'option de plage imbriquée dans les marqueurs intelligents Aspose.Cells](./enable-nested-range-option-in-aspose-cells-smartmarker/)
 Apprenez à activer l'option de plage imbriquée pour gérer des collections de données hiérarchiques dans vos rapports Excel avec les Smart Markers.
 ### [Implémenter un tableau de variables avec des marqueurs intelligents Aspose.Cells](./variable-array-smart-markers/)
@@ -128,6 +128,8 @@ Apprenez à charger un modèle Excel en C# et à générer rapidement plusieurs 
 Importez des données JSON dans un classeur Excel en C# avec Aspose.Cells, suivez le guide pas à pas.
 ### [Créer un fichier Excel à partir de JSON avec le marqueur intelligent Aspose.Cells](./create-excel-from-json-with-aspose-cells-smart-marker/)
 Apprenez à générer un classeur Excel à partir de données JSON en utilisant les Smart Markers d'Aspose.Cells pour .NET.
+### [Créer un fichier Excel à partir de JSON avec SmartMarker en C#](./create-excel-from-json-with-smartmarker-in-c/)
+Apprenez à générer un classeur Excel à partir de données JSON en utilisant SmartMarker avec C#.
 ### [Comment nommer automatiquement les feuilles – Générer plusieurs feuilles en C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 ### [Automatiser la génération de factures – Nommage dynamique des feuilles de calcul et répétition en C#](./automate-invoice-generation-dynamic-worksheet-naming-repeati/)
 Apprenez à automatiser la création de factures avec Aspose.Cells, en nommant dynamiquement les feuilles et en les répétant via C#.

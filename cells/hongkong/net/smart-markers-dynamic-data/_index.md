@@ -92,6 +92,9 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 ### [如何在 JSON 中使用 SmartMarker 替換變數 – 完整指南](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 ### [在 C# 中使用 SmartMarker 將 JSON 轉換為 XLSX](./convert-json-to-xlsx-in-c-using-smartmarker/)
 說明如何使用 Aspose.Cells SmartMarker 在 C# 程式中將 JSON 資料轉換為 XLSX 檔案，步驟完整示範。
+### [使用 SmartMarker 在 C# 中從 JSON 建立 Excel](./create-excel-from-json-with-smartmarker-in-c/)
+使用 Aspose.Cells SmartMarker 在 C# 中將 JSON 資料轉換為 Excel 檔案的完整步驟指南。
+### [使用 C# 將 JSON 轉換為 Excel 的逐步指南](./convert-json-to-excel-with-c-step-by-step-guide/)
 ### [如何載入範本並使用智慧標記建立 Excel 報表](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 學習在 .NET 中使用 Aspose.Cells 載入 Excel 範本，並透過智慧標記填充資料，快速產生動態報表。
 ### [在 Aspose.Cells 中使用標記進行動態工作表命名](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
@@ -161,7 +164,7 @@ Aspose.Cells Smart Markers 還支援匿名類型，無需預先定義結構即�
 學習如何使用 C# 解析巢狀 JSON 並建立 JSON 載荷，以在應用程式中傳遞資料。
 
 ### [如何使用 SmartMarker 在 C# 中生成 Excel 報告 – 完整指南](./how-to-generate-excel-report-in-c-full-guide-using-smartmark/)
-使用 Aspose.Cells for .NET SmartMarker，在 C# 中完整生成 Excel 報告的全程指南。
+使用 Aspose.Cells SmartMarker，在 C# 中完整生成 Excel 報告的全程指南。
 
 ### [在 Aspose.Cells 中使用智慧標記建立動態工作表](./create-dynamic-worksheets-with-smart-markers-in-aspose-cells/)
 了解如何使用智慧標記在 Aspose.Cells 中動態建立工作表，以自動生成多頁報表。

@@ -102,15 +102,15 @@ Lär dig hur du genererar en Excel‑rapport i C# med SmartMarker, inklusive mal
 ### [Hur du ersätter variabler i JSON med SmartMarker – Komplett guide](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 Lär dig hur du använder SmartMarker för att dynamiskt ersätta variabler i JSON när du skapar Excel-rapporter.
 ### [Hur du laddar en mall och skapar en Excel-rapport med SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
-Lär dig hur du laddar en mall och genererar en Excel-rapport med SmartMarker i Aspose.Cells för .NET.
+Lär dig hur du laddar en mall och genererar en Excel‑rapport med SmartMarker i Aspose.Cells för .NET.
 ### [Hur du genererar Excel-rapport genom att slå samman en Excel-mall med Smart Markers](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
-Lär dig hur du kombinerar en Excel-mall med Smart Markers för att generera dynamiska rapporter.
+Lär dig hur du kombinerar en Excel‑mall med Smart Markers för att generera dynamiska rapporter.
 ### [Skapa dynamisk Excel-tabell – Smart Markör-guide](./create-dynamic-excel-table-smart-marker-guide/)
 Lär dig hur du med Smart Markers skapar dynamiska Excel-tabeller som automatiskt anpassar sig till varierande datamängder.
 ### [Hur man använder markörer i Aspose.Cells för dynamisk bladnamngivning i Excel](./how-to-use-markers-in-aspose-cells-for-dynamic-sheet-naming/)
 ### [Skapa villkorligt cellvärde med Aspose.Cells Smart Marker](./create-conditional-cell-value-with-aspose-cells-smart-marker/)
 ### [Populera Excel-mall – Fyll Excel-data via SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
-Lär dig hur du använder SmartMarker för att fylla i data i en Excel-mall och generera dynamiska rapporter.
+Lär dig hur du använder SmartMarker för att fylla i data i en Excel‑mall och generera dynamiska rapporter.
 ### [Exportera data till Excel med Smart Marker – Fullständig C#-guide](./export-data-to-excel-with-smart-marker-full-c-guide/)
 Lär dig steg för steg hur du exporterar data till Excel med Smart Marker i C#.
 ### [Skapa arbetsbok från XLSX med Aspose.Cells SmartMarkerProcessor](./create-workbook-from-xlsx-with-aspose-cells-smartmarkerproce/)
@@ -121,7 +121,8 @@ Lär dig steg för steg hur du exporterar data till Excel med Smart Marker i C#.
 
 
 ### [Skapa Excel-arbetsbok programatiskt med Smart Markers i Aspose.Cells](./create-excel-workbook-programmatically-using-smart-markers/)
-Lär dig hur du programatiskt skapar en Excel-arbetsbok med Smart Markers i Aspose.Cells för .NET.
+### [Skapa Excel från JSON med Aspose.Cells Smart Marker](./create-excel-from-json-with-smart-marker/)
+### [Skapa Excel från JSON med SmartMarker i C#](./create-excel-from-json-with-smartmarker-in-c/)
 ### [Konfigurera SmartMarkerOptions ArrayAsSingle i C# för JSON-arrayer](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
 
 Lär dig hur du programatiskt skapar en Excel‑arbetsbok med Smart Markers i Aspose.Cells för .NET.
@@ -157,7 +158,7 @@ Lär dig steg för steg hur du exporterar Excel-filer med Aspose.Cells i C#-appl
 ### [Importera JSON till Excel i C# – steg‑för‑steg‑guide](./import-json-to-excel-in-c-step-by-step-guide/)
 
 Lär dig hur du importerar JSON-data till Excel med Aspose.Cells i C# steg för steg.
-### [Skapa Excel från JSON med Aspose.Cells Smart Marker](./create-excel-from-json-with-aspose-cells-smart-marker/)
+### [Skapa Excel från JSON med Aspose.Cells Smart Marker](./create-excel-from-json-with-smart-marker/)
 ### [Hur du namnger blad automatiskt – Generera flera blad i C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
 
 ### [Skapa Master Data-objekt – Steg‑för‑steg‑guide för att generera detaljblad](./create-master-data-object-step-by-step-guide-to-generate-det/)
@@ -203,7 +204,7 @@ Lär dig hur du genererar en arbetsbok som visar hög- och lågvärden med Smart
 Lär dig hur du använder range‑smart‑markörer för att hantera komplexa, nästlade datastrukturer i C# med Aspose.Cells i en steg‑för‑steg‑guide.
 ### [Ladda Excel-mall i C# – Generera flera blad snabbt](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
 
-Lär dig hur du laddar en Excel-mall i C# och snabbt skapar flera kalkylblad med Aspose.Cells.
+Lär dig hur du laddar en Excel‑mall i C# och snabbt skapar flera kalkylblad med Aspose.Cells.
 ### [Hur du skapar en Excel-rapportlista med Aspose.Cells smarta markörer](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
 
 ### [Skapa master‑detail‑arbetsbok med Aspose.Cells Smart Marker](./create-master-detail-workbook-with-aspose-cells-smart-marker/)

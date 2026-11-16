@@ -64,12 +64,15 @@ Lär dig hur du ställer in utskriftsområde i Excel och exporterar till PowerPo
 ### [Konvertera Excel till PowerPoint och ange utskriftsområde](./convert-excel-to-powerpoint-and-set-print-area/)
 Lär dig hur du konverterar en Excel-fil till en PowerPoint-presentation och ställer in utskriftsområdet med Aspose.Cells för .NET.
 ### [Skapa PowerPoint från Excel – Steg‑för‑steg C#‑guide](./create-powerpoint-from-excel-step-by-step-c-guide/)
+Lär dig hur du skapar en PowerPoint-presentation från en Excel-arbetsbok steg för steg med Aspose.Cells för .NET.
 ### [Exportera Excel till PowerPoint med Aspose.Cells – komplett programmeringsguide](./export-excel-to-powerpoint-with-aspose-cells-complete-progra/)
 Lär dig hur du exporterar en Excel-arbetsbok till en PowerPoint-presentation med Aspose.Cells i .NET med steg‑för‑steg‑kodexempel.
 ### [Exportera Excel till PowerPoint – Komplett guide](./how-to-export-excel-to-powerpoint-complete-guide/)
-Lär dig steg-för-steg hur du exporterar Excel-data till PowerPoint-presentationer med Aspose.Cells för .NET.
+Lär dig steg-för-steg hur du med Aspose.Cells för .NET exporterar Excel-data till PowerPoint-presentationer med C#.
 ### [Spara Excel som PowerPoint med C# och Aspose.Cells](./how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
-Lär dig hur du sparar en Excel-arbetsbok som PowerPoint-presentation med C# och Aspose.Cells i .NET.
+Lär dig hur du sparar en Excel-arbetsbok som en PowerPoint-presentation med C# och Aspose.Cells i .NET.
+### [Spara Excel som PowerPoint med Aspose.Cells i C#](./how-to-save-excel-as-powerpoint-with-aspose-cells-in-c/)
+Lär dig hur du sparar en Excel-arbetsbok som en PowerPoint-presentation med Aspose.Cells i C#.
 ### [Ange HTML CrossType i utdata-HTML programmatiskt i .NET](./specifying-html-crosstype-in-output-html/)
 Lär dig hur du anger HTML CrossType i Aspose.Cells för .NET. Följ vår steg‑för‑steg‑handledning för att konvertera Excel-filer till HTML med precision.
 ### [Hur du exporterar Excel till PowerPoint – Komplett C#-guide](./how-to-export-excel-to-powerpoint-complete-c-guide/)
@@ -120,7 +123,7 @@ Lär dig hur du sparar en Excel-arbetsbok som textfil (TXT) med en komplett C#-g
 ### [Skapa Word från Excel – Snabb C#‑guide](./create-word-from-excel-quick-c-guide/)
 Lär dig hur du snabbt skapar ett Word‑dokument från en Excel‑fil med C# och Aspose.Cells i en kort guide.
 ### [Skapa PowerPoint från Excel – Komplett C#-handledning](./create-powerpoint-from-excel-complete-c-tutorial/)
-Lär dig hur du skapar en PowerPoint-presentation från en Excel-fil med C# och Aspose.Cells i en komplett steg-för-steg‑guide.
+Lär dig hur du skapar en PowerPoint-presentation från en Excel-fil med C# och Aspose.Cells i en komplett steg‑för‑steg‑guide.
 
 ### [Exportera Excel till PowerPoint – Steg‑för‑steg‑guide](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
 Lär dig hur du exporterar en Excel-arbetsbok till en PowerPoint-presentation med Aspose.Cells för .NET i en detaljerad steg‑för‑steg‑guide.
@@ -128,7 +131,7 @@ Lär dig hur du exporterar en Excel-arbetsbok till en PowerPoint-presentation me
 Lär dig hur du exporterar Excel-data till tab‑avgränsad text med Aspose.Cells för .NET i denna steg‑för‑steg‑guide.
 ### [Hur du omsluter celler och konverterar Excel till PowerPoint i C#](./how-to-wrap-cells-and-convert-excel-to-powerpoint-in-c/)
 Lär dig hur du omsluter celler och konverterar en Excel-arbetsbok till en PowerPoint-presentation med C# och Aspose.Cells.
-### [Hur du sparar arbetsbok som CSV och exporterar Excel till TXT med anpassad formatering i C#](./how-to-save-workbook-as-csv-and-export-excel-to-txt-with-cus/)
+### [Hur du sparar arbetsbok som CSV och exporterar Excel till TXT med anpassad formatering i C#](./how-to-save-workbook-as-csv-and-extract-excel-to-txt-with-cus/)
 Lär dig spara en arbetsbok som CSV och exportera Excel till TXT med anpassad formatering i C# med Aspose.Cells.
 
 ### [Hur man bäddar in typsnitt i SVG när man konverterar Excel-filer till SVG och PowerPoint](./how-to-embed-fonts-in-svg-when-converting-excel-files-to-svg/)
