@@ -1,0 +1,7 @@
+Title: How to copy cells between Excel workbooks in Java
+Slug: how-to-copy-cells-between-excel-workbooks-in-java
+Category: workbook-operations
+ProcessedDate: 2026-11-16T09:37:23.707386
+SourceRepo: AI Search API
+Keywords: how to copy cells, copy range between workbooks, copy pivot table workbook, save workbook file, load excel workbook java
+PRNumber: 207
