@@ -1,0 +1,7 @@
+Title: How to use WRAPCOLS to split a row into columns in C#
+Slug: how-to-use-wrapcols-to-split-a-row-into-columns-in-c
+Category: row-and-column-management
+ProcessedDate: 2026-11-16T08:54:50.227692
+SourceRepo: AI Search API
+Keywords: how to use wrapcols, split row into columns, automate excel workbook, excel formula calculation, save excel file c#
+PRNumber: 206
