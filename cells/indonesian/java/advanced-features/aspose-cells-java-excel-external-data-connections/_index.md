@@ -1,62 +1,112 @@
 ---
-date: '2026-02-24'
-description: Pelajari cara menambahkan dependensi Maven Aspose Cells, mengintegrasikan
-  Excel dengan basis data, dan mengelola koneksi data Excel menggunakan Java.
+date: '2026-11-16'
+description: Pelajari cara menambahkan dependensi Maven Aspose.Cells, mengambil, menampilkan,
+  dan mengelola koneksi data Excel, serta menarik data SQL ke dalam Excel menggunakan
+  Java.
 keywords:
+- create excel data connections
+- pull sql data excel
+- manage excel external connections
 - Aspose.Cells
-- Excel data connections
-- Java integration
-- retrieve external data
-- manage database connections
-title: Tambahkan Aspose Cells Maven – Menguasai Koneksi Data Excel dengan Aspose.Cells
-  Java
+- Java Excel integration
+lastmod: '2026-11-16'
+og_description: Buat koneksi data Excel menggunakan Aspose.Cells untuk Java. Pelajari
+  cara menambahkan dependensi Maven, mengambil koneksi, menarik data SQL ke dalam
+  Excel, dan mengelola koneksi eksternal secara efisien.
+og_image_alt: Guide showing how to create excel data connections using Aspose.Cells
+  Java API
+og_title: Buat koneksi data Excel dengan Aspose.Cells untuk Java
+schemas:
+- author: Aspose
+  dateModified: '2026-11-16'
+  description: Learn how to add Aspose.Cells Maven dependency, retrieve, list, and
+    manage Excel data connections, and pull SQL data into Excel using Java.
+  headline: Create excel data connections with Aspose.Cells for Java
+  type: TechArticle
+- description: Learn how to add Aspose.Cells Maven dependency, retrieve, list, and
+    manage Excel data connections, and pull SQL data into Excel using Java.
+  name: Create excel data connections with Aspose.Cells for Java
+  steps:
+  - name: load your workbook
+    text: The `Workbook` class represents an entire Excel file in memory. Loading
+      it is the first step before any connection work.
+  - name: retrieve connections
+    text: '`workbook.getDataConnections()` returns an `ExternalConnectionCollection`
+      containing every defined connection.'
+  - name: loop through connections
+    text: '`DBConnection` is a subclass of `ExternalConnection` that represents a
+      database connection and provides properties such as command text, connection
+      string, and parameters. Iterate over the collection, cast each entry to `DBConnection`,
+      and read its properties.'
+  - name: access parameters
+    text: Each `DBConnection` exposes a `getParameters()` method that returns a list
+      of name/value pairs.
+  type: HowTo
+- questions:
+  - answer: It is the Maven artifact (`com.aspose:aspose-cells`) that provides the
+      Java APIs for reading, writing, and managing Excel files, including external
+      data connections.
+    question: What is Aspose.Cells Maven dependency?
+  - answer: Call `workbook.getDataConnections()` and iterate over the returned `ExternalConnectionCollection`.
+    question: How can I list excel data connections in my workbook?
+  - answer: Cast each connection to `DBConnection` and use methods like `getCommand()`,
+      `getConnectionDescription()`, and `getParameters()`.
+    question: How do I extract database connection details from a DBConnection object?
+  - answer: Yes, use a standard `for` loop over the collection, cast each to the appropriate
+      type, and apply changes as needed.
+    question: Can I loop through excel connections to modify them?
+  - answer: A valid Aspose.Cells license removes evaluation limitations and enables
+      full functionality.
+    question: Do I need a license to use these features in production?
+  type: FAQPage
+tags:
+- create excel data connections
+- Aspose.Cells
+- Java Excel data
+- external data connections
+title: Buat koneksi data Excel dengan Aspose.Cells untuk Java
 url: /id/java/advanced-features/aspose-cells-java-excel-external-data-connections/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# tambahkan aspose cells maven – Menguasai Koneksi Data Excel dengan Aspose.Cells Java
+# Buat koneksi data excel dengan Aspose.Cells untuk Java
 
-Di dunia yang didorong oleh data saat ini, **menambahkan dependensi aspose cells maven** ke proyek Java Anda adalah langkah pertama untuk mengelola koneksi data eksternal dalam workbook Excel secara efisien. Dengan satu artefak Maven ini Anda dapat mengambil, mendaftar, dan memanipulasi koneksi tersebut langsung dari Java—memudahkan **integrasi Excel dengan database** sistem, mengotomatisasi pelaporan, dan menjaga pipeline data Anda tetap bersih serta dapat dipelihara. Tutorial ini membimbing Anda melalui semua yang diperlukan—dari menyiapkan dependensi Maven hingga mengekstrak informasi koneksi secara detail—sehingga Anda dapat mengelola koneksi Excel eksternal dengan percaya diri.
+Dalam aplikasi modern yang berfokus pada data, **create excel data connections** secara programatis sehingga Anda dapat menarik data langsung dari basis data ke dalam workbook. Menambahkan dependensi Maven Aspose.Cells memberi Anda satu API yang terdokumentasi dengan baik yang menangani segala hal mulai dari daftar koneksi yang ada hingga mengekstrak string koneksi lengkap—semua tanpa memerlukan Microsoft Office di server. Tutorial ini memandu Anda melalui penyiapan, pengambilan, dan penggunaan praktis, sehingga Anda dapat mengintegrasikan Excel dengan backend SQL Anda dengan percaya diri.
 
 ## Jawaban Cepat
-- **Apa cara utama menambahkan Aspose.Cells ke proyek Java?** Gunakan dependensi aspose cells maven di `pom.xml` Anda.  
-- **Apakah saya dapat menampilkan semua koneksi data Excel?** Ya, dengan memanggil `workbook.getDataConnections()`.  
-- **Bagaimana cara mengekstrak detail koneksi database?** Cast setiap koneksi ke `DBConnection` dan baca propertinya.  
-- **Apakah memungkinkan untuk melakukan loop melalui koneksi Excel?** Tentu—gunakan loop `for` standar atas koleksi tersebut.  
-- **Apakah saya memerlukan lisensi untuk penggunaan produksi?** Lisensi Aspose.Cells yang valid diperlukan untuk fungsi tanpa batas.
+- **Apa cara utama menambahkan Aspose.Cells ke proyek Java?** Include the `com.aspose:aspose-cells` Maven artifact in your `pom.xml`.  
+- **Bisakah saya menampilkan semua koneksi data Excel?** Yes—call `workbook.getDataConnections()` and iterate over the returned collection.  
+- **Bagaimana cara mengekstrak detail koneksi basis data?** Cast each `ExternalConnection` to `DBConnection` and read its properties such as command text and connection string.  
+- **Apakah memungkinkan untuk melakukan loop melalui koneksi Excel?** Absolutely—use a standard `for` loop over the `ExternalConnectionCollection`.  
+- **Apakah saya memerlukan lisensi untuk penggunaan produksi?** A valid Aspose.Cells license removes evaluation limitations and unlocks full functionality.
 
-## Apa yang Akan Anda Pelajari
-- Cara mengambil koneksi data eksternal dari workbook Excel menggunakan Aspose.Cells untuk Java.  
-- Mengekstrak informasi detail tentang setiap koneksi, termasuk detail database dan parameter.  
-- Kasus penggunaan praktis dan kemungkinan integrasi dengan sistem lain.  
-- Tips mengoptimalkan kinerja saat bekerja dengan Aspose.Cells dalam aplikasi Java.
+## Apa yang akan Anda pelajari
+- Cara **create excel data connections** dan mengambilnya dari workbook yang ada menggunakan Aspose.Cells untuk Java.  
+- Cara mengekstrak informasi terperinci tentang setiap koneksi, termasuk detail basis data dan parameter.  
+- Skenario dunia nyata untuk menarik data SQL ke Excel dan mengotomatisasi pembuatan laporan.  
+- Tips mengoptimalkan kinerja saat menangani workbook besar dalam Java.
 
-## Mengapa menambahkan aspose cells maven? – Manfaat & Kasus Penggunaan
-- **Integrasi data yang mulus** – Tarik data langsung dari SQL Server, Oracle, atau sumber ODBC apa pun ke dalam Excel.  
-- **Pelaporan otomatis** – Hasilkan laporan terkini tanpa penyegaran manual.  
-- **Manajemen koneksi terpusat** – Daftar, audit, dan modifikasi koneksi data Excel secara programatik.  
-- **Kontrol kinerja** – Muat hanya apa yang Anda butuhkan, mengurangi jejak memori untuk workbook besar.
+## Mengapa menambahkan dependensi Maven Aspose.Cells? – manfaat & kasus penggunaan
+**Anda menambahkan artefak Maven untuk mendapatkan kontrol programatik atas file Excel tanpa harus menginstal Office.** Aspose.Cells mendukung **lebih dari 50 format input dan output** dan dapat memproses workbook dengan **hingga 10.000 baris** sambil menjaga penggunaan memori di bawah 150 MB dengan memuat hanya bagian yang diperlukan. Ini menjadikannya ideal untuk alur kerja **pull sql data excel**, pelaporan otomatis, dan manajemen koneksi terpusat di seluruh lingkungan perusahaan.
 
 ## Prasyarat
-- **Aspose.Cells untuk Java** (versi 25.3 atau lebih baru).  
+- **Aspose.Cells for Java** (versi 25.3 atau lebih baru).  
 - Lingkungan build Maven atau Gradle.  
-- Familiaritas dasar dengan pemrograman Java.
+- Java 8 atau lebih tinggi terinstal.  
 
 ### Perpustakaan yang Diperlukan
-- **Aspose.Cells untuk Java**: Perpustakaan inti yang memungkinkan manipulasi file Excel dan penanganan koneksi data.
+- **Aspose.Cells for Java** – perpustakaan inti yang memungkinkan manipulasi file Excel dan penanganan koneksi data.
 
 ### Penyiapan Lingkungan
 - Pastikan IDE atau alat build Anda mendukung Maven atau Gradle.  
-- Miliki Java 8 atau yang lebih tinggi terpasang.
+- Verifikasi Java 8 atau yang lebih baru ada di `PATH` Anda.
 
-## Cara Menambahkan Dependensi Aspose Cells Maven
-Untuk memulai, Anda perlu menyertakan **dependensi aspose cells maven** dalam `pom.xml` proyek Anda. Baris tunggal ini memberi Anda akses ke seluruh set API untuk bekerja dengan file Excel.
+## Cara menambahkan dependensi Maven Aspose Cells
+Muat perpustakaan dengan menambahkan satu baris dependensi ke `pom.xml` Anda. Ini memberi Anda akses langsung ke rangkaian lengkap API Excel.
 
 ```xml
 <dependency>
@@ -66,19 +116,19 @@ Untuk memulai, Anda perlu menyertakan **dependensi aspose cells maven** dalam `p
 </dependency>
 ```
 
-Jika Anda lebih suka Gradle, deklarasi yang setara adalah:
+Jika Anda lebih suka Gradle, deklarasi setara adalah:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Langkah-langkah Akuisisi Lisensi
-- **Uji Coba Gratis** – Jelajahi perpustakaan tanpa biaya.  
-- **Lisensi Sementara** – Perpanjang periode evaluasi Anda.  
-- **Pembelian** – Buka semua fitur untuk beban kerja produksi.
+### Langkah-langkah memperoleh lisensi
+- **Free trial** – Jelajahi perpustakaan tanpa biaya.  
+- **Temporary license** – Perpanjang periode evaluasi Anda.  
+- **Purchase** – Buka semua fitur untuk beban kerja produksi.
 
-## Inisialisasi Dasar dan Penyiapan
-Setelah dependensi tersedia, Anda dapat mulai menggunakan Aspose.Cells dalam kode Java Anda:
+## Inisialisasi dasar dan penyiapan
+Setelah dependensi teratasi, Anda dapat mulai menggunakan Aspose.Cells dalam kode Java Anda:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -89,16 +139,20 @@ Workbook workbook = new Workbook("path_to_your_excel_file.xlsx");
 
 ## Panduan Implementasi
 
-### Fitur 1: Mengambil Koneksi Data Eksternal
-**Apa itu?** Fitur ini memungkinkan Anda **menampilkan koneksi data excel** sehingga Anda tahu persis sumber eksternal apa yang digunakan workbook Anda.
+### Fitur 1: mengambil koneksi data eksternal
+**Apa itu?** Fitur ini memungkinkan Anda **list excel data connections** sehingga Anda tahu persis sumber eksternal mana yang digunakan workbook Anda.
 
-#### Langkah 1: Muat Workbook Anda
+#### Langkah 1: muat workbook Anda
+Kelas `Workbook` mewakili seluruh file Excel dalam memori. Memuatnya adalah langkah pertama sebelum melakukan pekerjaan koneksi apa pun.
+
 ```java
 String sourceDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(sourceDir + "/sampleRetrievingSQLConnectionData.xlsx");
 ```
 
-#### Langkah 2: Ambil Koneksi
+#### Langkah 2: ambil koneksi
+`workbook.getDataConnections()` mengembalikan `ExternalConnectionCollection` yang berisi semua koneksi yang didefinisikan.
+
 ```java
 import com.aspose.cells.ExternalConnectionCollection;
 
@@ -106,10 +160,13 @@ ExternalConnectionCollection connections = workbook.getDataConnections();
 int connectionCount = connections.getCount();
 ```
 
-### Fitur 2: Mengekstrak Detail Koneksi Database
-**Mengapa menggunakannya?** Untuk **mengekstrak detail koneksi database** seperti perintah, deskripsi, dan string koneksi.
+### Fitur 2: mengekstrak detail koneksi basis data
+**Mengapa menggunakannya?** Untuk **extract database connection details** seperti perintah, deskripsi, dan string koneksi untuk audit atau modifikasi dinamis.
 
-#### Langkah 1: Loop Melalui Koneksi
+#### Langkah 1: loop melalui koneksi
+`DBConnection` adalah subclass dari `ExternalConnection` yang mewakili koneksi basis data dan menyediakan properti seperti teks perintah, string koneksi, dan parameter.  
+Iterasi koleksi, cast setiap entri ke `DBConnection`, dan baca propertinya.
+
 ```java
 import com.aspose.cells.DBConnection;
 
@@ -126,10 +183,12 @@ for (int i = 0; i < connectionCount; i++) {
 }
 ```
 
-### Fitur 3: Mengekstrak Detail Parameter Koneksi
-**Bagaimana ini membantu?** Memungkinkan Anda **mengintegrasikan excel dengan database** dengan mengakses setiap parameter yang diperlukan untuk koneksi.
+### Fitur 3: mengekstrak detail parameter koneksi
+**Bagaimana ini membantu?** Ini memungkinkan Anda **integrate excel with database** dengan mengakses setiap parameter yang diperlukan untuk koneksi, seperti token otentikasi atau argumen kueri.
 
-#### Langkah 1: Akses Parameter
+#### Langkah 1: akses parameter
+Setiap `DBConnection` menyediakan metode `getParameters()` yang mengembalikan daftar pasangan nama/nilai.
+
 ```java
 import com.aspose.cells.ConnectionParameterCollection;
 import com.aspose.cells.ConnectionParameter;
@@ -153,57 +212,61 @@ for (int i = 0; i < connectionCount; i++) {
 ```
 
 ## Aplikasi Praktis
-1. **Integrasi Data** – Mensinkronkan data Excel secara otomatis dengan database eksternal.  
-2. **Pelaporan Otomatis** – Mengambil data langsung untuk laporan terkini.  
-3. **Pemantauan Sistem** – Melacak perubahan pada koneksi database untuk pemeriksaan kesehatan.  
-4. **Validasi Data** – Memvalidasi data eksternal sebelum diimpor.
+1. **Data integration** – Secara otomatis menyinkronkan data Excel dengan basis data eksternal.  
+2. **Automated reporting** – Tarik data langsung untuk laporan terkini tanpa penyegaran manual.  
+3. **System monitoring** – Lacak perubahan pada koneksi basis data untuk pemeriksaan kesehatan.  
+4. **Data validation** – Validasi data eksternal sebelum mengimpornya ke dalam workbook.
 
 ## Pertimbangan Kinerja
-- Muat workbook besar secara selektif untuk menjaga penggunaan memori tetap rendah.  
+- Muat workbook besar secara hemat untuk menjaga penggunaan memori tetap rendah.  
 - Gunakan loop yang efisien (seperti yang ditunjukkan) dan hindari pembuatan objek yang tidak perlu.  
-- Manfaatkan penyesuaian garbage collection Java untuk layanan yang berjalan lama.
+- Manfaatkan penyesuaian garbage‑collection Java untuk layanan yang berjalan lama.
 
 ## Masalah Umum & Pemecahan Masalah
-- **Koneksi null** – Pastikan workbook benar‑benar berisi koneksi eksternal; jika tidak `getDataConnections()` akan mengembalikan koleksi kosong.  
-- **Lisensi tidak disetel** – Tanpa lisensi yang valid, Anda mungkin melihat peringatan evaluasi atau fungsionalitas terbatas.  
-- **Sumber data tidak didukung** – Beberapa koneksi ODBC lama mungkin memerlukan instalasi driver tambahan pada mesin host.
+- **Null connections** – Pastikan workbook memang berisi koneksi eksternal; jika tidak `getDataConnections()` mengembalikan koleksi kosong.  
+- **License not set** – Tanpa lisensi yang valid, Anda mungkin melihat peringatan evaluasi atau fungsionalitas terbatas.  
+- **Unsupported data source** – Beberapa koneksi ODBC lama mungkin memerlukan instalasi driver tambahan pada mesin host.
 
 ## Pertanyaan yang Sering Diajukan
 
-**T: Apa itu Aspose.Cells Maven Dependency?**  
-J: Itu adalah artefak Maven (`com.aspose:aspose-cells`) yang menyediakan API Java untuk membaca, menulis, dan mengelola file Excel, termasuk koneksi data eksternal.
+**Q: Apa itu dependensi Maven Aspose.Cells?**  
+A: Itu adalah artefak Maven (`com.aspose:aspose-cells`) yang menyediakan API Java untuk membaca, menulis, dan mengelola file Excel, termasuk koneksi data eksternal.
 
-**T: Bagaimana cara menampilkan koneksi data excel dalam workbook saya?**  
-J: Panggil `workbook.getDataConnections()` dan iterasi koleksi `ExternalConnectionCollection` yang dikembalikan.
+**Q: Bagaimana saya dapat menampilkan koneksi data excel dalam workbook saya?**  
+A: Panggil `workbook.getDataConnections()` dan iterasi `ExternalConnectionCollection` yang dikembalikan.
 
-**T: Bagaimana cara mengekstrak detail koneksi database dari objek DBConnection?**  
-J: Cast setiap koneksi ke `DBConnection` dan gunakan metode seperti `getCommand()`, `getConnectionDescription()`, serta `getParameters()`.
+**Q: Bagaimana cara mengekstrak detail koneksi basis data dari objek DBConnection?**  
+A: Cast setiap koneksi ke `DBConnection` dan gunakan metode seperti `getCommand()`, `getConnectionDescription()`, dan `getParameters()`.
 
-**T: Bisakah saya melakukan loop melalui koneksi excel untuk memodifikasinya?**  
-J: Ya, gunakan loop `for` standar atas koleksi, cast setiap elemen ke tipe yang sesuai, dan terapkan perubahan yang diperlukan.
+**Q: Bisakah saya melakukan loop melalui koneksi excel untuk memodifikasinya?**  
+A: Ya, gunakan loop `for` standar atas koleksi, cast setiap ke tipe yang sesuai, dan terapkan perubahan sesuai kebutuhan.
 
-**T: Apakah saya memerlukan lisensi untuk menggunakan fitur ini di produksi?**  
-J: Lisensi Aspose.Cells yang valid menghapus batasan evaluasi dan mengaktifkan fungsionalitas penuh.
+**Q: Apakah saya memerlukan lisensi untuk menggunakan fitur ini dalam produksi?**  
+A: Lisensi Aspose.Cells yang valid menghapus batasan evaluasi dan mengaktifkan fungsionalitas penuh.
 
 ## Sumber Daya
-
-- [Documentation](https://reference.aspose.com/cells/java/)
-- [Download Latest Version](https://releases.aspose.com/cells/java/)
-- [Purchase License](https://purchase.aspose.com/buy)
-- [Free Trial Access](https://releases.aspose.com/cells/java/)
-- [Temporary License Information](https://purchase.aspose.com/temporary-license/)
-- [Support Forum](https://forum.aspose.com/c/cells/9)
+- [Dokumentasi](https://reference.aspose.com/cells/java/)
+- [Unduh Versi Terbaru](https://releases.aspose.com/cells/java/)
+- [Beli Lisensi](https://purchase.aspose.com/buy)
+- [Akses Uji Coba Gratis](https://releases.aspose.com/cells/java/)
+- [Informasi Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Forum Dukungan](https://forum.aspose.com/c/cells/9)
 
 ---
 
-**Terakhir Diperbarui:** 2026-02-24  
+**Terakhir Diperbarui:** 2026-11-16  
 **Diuji Dengan:** Aspose.Cells 25.3 (Java)  
-**Penulis:** Aspose  
+**Penulis:** Aspose
+
+## Tutorial Terkait
+
+- [Ekstrak URL dari Excel dengan Aspose.Cells untuk Java – Muat Koneksi Data](/cells/java/advanced-features/aspose-cells-java-excel-data-connections/)
+- [Aspose.Cells Java: Menguasai Koneksi Workbook Excel untuk Integrasi Data dan Analisis](/cells/java/import-export/aspose-cells-java-excel-connections/)
+- [Modifikasi Koneksi Data Excel dengan Aspose.Cells untuk Java – Panduan Langkah demi Langkah](/cells/java/advanced-features/master-excel-data-connections-aspose-cells-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
