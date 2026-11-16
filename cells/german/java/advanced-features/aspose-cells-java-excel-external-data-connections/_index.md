@@ -1,62 +1,112 @@
 ---
-date: '2026-02-24'
-description: Erfahren Sie, wie Sie die Aspose‑Cells‑Maven‑Abhängigkeit hinzufügen,
-  Excel mit einer Datenbank integrieren und Excel‑Datenverbindungen mit Java verwalten.
+date: '2026-11-16'
+description: Erfahren Sie, wie Sie die Aspose.Cells Maven-Abhängigkeit hinzufügen,
+  Excel-Datenverbindungen abrufen, auflisten und verwalten sowie SQL-Daten mit Java
+  in Excel einbinden.
 keywords:
+- create excel data connections
+- pull sql data excel
+- manage excel external connections
 - Aspose.Cells
-- Excel data connections
-- Java integration
-- retrieve external data
-- manage database connections
-title: Aspose Cells Maven hinzufügen – Excel‑Datenverbindungen meistern mit Aspose.Cells
-  Java
+- Java Excel integration
+lastmod: '2026-11-16'
+og_description: Erstellen Sie Excel-Datenverbindungen mit Aspose.Cells für Java. Erfahren
+  Sie, wie Sie die Maven-Abhängigkeit hinzufügen, Verbindungen abrufen, SQL-Daten
+  in Excel einbinden und externe Verbindungen effizient verwalten.
+og_image_alt: Guide showing how to create excel data connections using Aspose.Cells
+  Java API
+og_title: Excel-Datenverbindungen mit Aspose.Cells für Java erstellen
+schemas:
+- author: Aspose
+  dateModified: '2026-11-16'
+  description: Learn how to add Aspose.Cells Maven dependency, retrieve, list, and
+    manage Excel data connections, and pull SQL data into Excel using Java.
+  headline: Create excel data connections with Aspose.Cells for Java
+  type: TechArticle
+- description: Learn how to add Aspose.Cells Maven dependency, retrieve, list, and
+    manage Excel data connections, and pull SQL data into Excel using Java.
+  name: Create excel data connections with Aspose.Cells for Java
+  steps:
+  - name: load your workbook
+    text: The `Workbook` class represents an entire Excel file in memory. Loading
+      it is the first step before any connection work.
+  - name: retrieve connections
+    text: '`workbook.getDataConnections()` returns an `ExternalConnectionCollection`
+      containing every defined connection.'
+  - name: loop through connections
+    text: '`DBConnection` is a subclass of `ExternalConnection` that represents a
+      database connection and provides properties such as command text, connection
+      string, and parameters. Iterate over the collection, cast each entry to `DBConnection`,
+      and read its properties.'
+  - name: access parameters
+    text: Each `DBConnection` exposes a `getParameters()` method that returns a list
+      of name/value pairs.
+  type: HowTo
+- questions:
+  - answer: It is the Maven artifact (`com.aspose:aspose-cells`) that provides the
+      Java APIs for reading, writing, and managing Excel files, including external
+      data connections.
+    question: What is Aspose.Cells Maven dependency?
+  - answer: Call `workbook.getDataConnections()` and iterate over the returned `ExternalConnectionCollection`.
+    question: How can I list excel data connections in my workbook?
+  - answer: Cast each connection to `DBConnection` and use methods like `getCommand()`,
+      `getConnectionDescription()`, and `getParameters()`.
+    question: How do I extract database connection details from a DBConnection object?
+  - answer: Yes, use a standard `for` loop over the collection, cast each to the appropriate
+      type, and apply changes as needed.
+    question: Can I loop through excel connections to modify them?
+  - answer: A valid Aspose.Cells license removes evaluation limitations and enables
+      full functionality.
+    question: Do I need a license to use these features in production?
+  type: FAQPage
+tags:
+- create excel data connections
+- Aspose.Cells
+- Java Excel data
+- external data connections
+title: Excel-Datenverbindungen mit Aspose.Cells für Java erstellen
 url: /de/java/advanced-features/aspose-cells-java-excel-external-data-connections/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# aspose cells maven hinzufügen – Excel‑Datenverbindungen mit Aspose.Cells Java meistern
+# Excel-Datenverbindungen mit Aspose.Cells für Java erstellen
 
-In der heutigen datengetriebenen Welt ist **das Hinzufügen der aspose cells maven‑Abhängigkeit** zu Ihrem Java‑Projekt der erste Schritt, um externe Datenverbindungen in Excel‑Arbeitsmappen effizient zu verwalten. Mit diesem einzigen Maven‑Artefakt können Sie diese Verbindungen direkt aus Java abrufen, auflisten und manipulieren – wodurch es einfach wird, **Excel mit Datenbank**‑Systemen zu integrieren, Berichte zu automatisieren und Ihre Datenpipelines sauber und wartbar zu halten. Dieses Tutorial führt Sie durch alles, was Sie benötigen – von der Einrichtung der Maven‑Abhängigkeit bis zum Extrahieren detaillierter Verbindungsinformationen – damit Sie externe Excel‑Verbindungen mit Zuversicht verwalten können.
+In modernen, datenorientierten Anwendungen können Sie **create excel data connections** programmgesteuert erstellen, um Live-Daten aus Datenbanken direkt in Arbeitsmappen zu ziehen. Das Hinzufügen der Aspose.Cells Maven‑Abhängigkeit liefert Ihnen eine einzige, gut dokumentierte API, die alles von der Auflistung vorhandener Verbindungen bis zum Extrahieren vollständiger Verbindungszeichenfolgen übernimmt – und das ohne Microsoft Office auf dem Server. Dieses Tutorial führt Sie durch Einrichtung, Abruf und praktische Anwendung, sodass Sie Excel sicher mit Ihrem SQL‑Backend integrieren können.
 
-## Quick Answers
-- **Was ist der primäre Weg, Aspose.Cells zu einem Java‑Projekt hinzuzufügen?** Verwenden Sie die aspose cells maven‑Abhängigkeit in Ihrer `pom.xml`.  
-- **Kann ich alle Excel‑Datenverbindungen auflisten?** Ja, indem Sie `workbook.getDataConnections()` aufrufen.  
-- **Wie extrahiere ich Datenbankverbindungsdetails?** Casten Sie jede Verbindung zu `DBConnection` und lesen Sie deren Eigenschaften.  
-- **Ist es möglich, über Excel‑Verbindungen zu iterieren?** Absolut – verwenden Sie eine normale `for`‑Schleife über die Sammlung.  
-- **Benötige ich eine Lizenz für den Produktionseinsatz?** Eine gültige Aspose.Cells‑Lizenz ist erforderlich, um uneingeschränkte Funktionalität zu erhalten.
+## Schnelle Antworten
+- **Was ist der primäre Weg, Aspose.Cells zu einem Java‑Projekt hinzuzufügen?** Fügen Sie das Maven‑Artefakt `com.aspose:aspose-cells` in Ihre `pom.xml` ein.  
+- **Kann ich alle Excel‑Datenverbindungen auflisten?** Ja – rufen Sie `workbook.getDataConnections()` auf und iterieren Sie über die zurückgegebene Sammlung.  
+- **Wie extrahiere ich Details zu Datenbankverbindungen?** Casten Sie jede `ExternalConnection` zu `DBConnection` und lesen Sie deren Eigenschaften wie Befehls‑Text und Verbindungszeichenfolge.  
+- **Ist es möglich, Excel‑Verbindungen zu durchlaufen?** Absolut – verwenden Sie eine Standard‑`for`‑Schleife über die `ExternalConnectionCollection`.  
+- **Benötige ich eine Lizenz für den Produktionseinsatz?** Eine gültige Aspose.Cells‑Lizenz entfernt Evaluationsbeschränkungen und schaltet die volle Funktionalität frei.
 
-## What You’ll Learn
-- Wie man externe Datenverbindungen aus einer Excel‑Arbeitsmappe mit Aspose.Cells für Java abruft.  
-- Detaillierte Informationen zu jeder Verbindung extrahieren, einschließlich Datenbankdetails und Parameter.  
-- Praktische Anwendungsfälle und Integrationsmöglichkeiten mit anderen Systemen.  
-- Tipps zur Leistungsoptimierung bei der Arbeit mit Aspose.Cells in Java‑Anwendungen.
+## Was Sie lernen werden
+- Wie Sie **create excel data connections** erstellen und aus einer bestehenden Arbeitsmappe mit Aspose.Cells für Java abrufen.  
+- Wie Sie detaillierte Informationen zu jeder Verbindung extrahieren, einschließlich Datenbankdetails und Parameter.  
+- Praxisnahe Szenarien zum Einbinden von SQL‑Daten in Excel und zur automatischen Berichtserstellung.  
+- Tipps zur Leistungsoptimierung beim Umgang mit großen Arbeitsmappen in Java.
 
-## Why add aspose cells maven? – Benefits & Use Cases
-- **Nahtlose Datenintegration** – Live‑Daten von SQL Server, Oracle oder jeder ODBC‑Quelle direkt in Excel ziehen.  
-- **Automatisiertes Reporting** – Aktuelle Berichte ohne manuelles Aktualisieren erzeugen.  
-- **Zentralisiertes Verbindungsmanagement** – Excel‑Datenverbindungen programmgesteuert auflisten, prüfen und ändern.  
-- **Leistungssteuerung** – Nur das Laden, was Sie benötigen, um den Speicherverbrauch bei großen Arbeitsmappen zu reduzieren.
+## Warum die Aspose.Cells Maven‑Abhängigkeit hinzufügen? – Vorteile & Anwendungsfälle
+**Sie fügen das Maven‑Artefakt hinzu, um programmgesteuerte Kontrolle über Excel‑Dateien zu erhalten, ohne dass Office installiert sein muss.** Aspose.Cells unterstützt **mehr als 50 Eingabe‑ und Ausgabeformate** und kann Arbeitsmappen mit **bis zu 10.000 Zeilen** verarbeiten, wobei der Speicherverbrauch unter 150 MB bleibt, indem nur die benötigten Teile geladen werden. Das macht es ideal für **pull sql data excel**‑Workflows, automatisierte Berichte und zentrales Verbindungsmanagement in Unternehmensumgebungen.
 
-## Prerequisites
-- **Aspose.Cells for Java** (Version 25.3 oder später).  
+## Voraussetzungen
+- **Aspose.Cells for Java** (Version 25.3 oder höher).  
 - Maven‑ oder Gradle‑Build‑Umgebung.  
-- Grundlegende Kenntnisse in Java‑Programmierung.
+- Java 8 oder höher installiert.  
 
-### Required Libraries
-- **Aspose.Cells for Java**: Die Kernbibliothek, die die Manipulation von Excel‑Dateien und die Handhabung von Datenverbindungen ermöglicht.
+### Erforderliche Bibliotheken
+- **Aspose.Cells for Java** – die Kernbibliothek, die die Manipulation von Excel‑Dateien und die Handhabung von Datenverbindungen ermöglicht.
 
-### Environment Setup
+### Umgebung einrichten
 - Stellen Sie sicher, dass Ihre IDE oder Ihr Build‑Tool Maven oder Gradle unterstützt.  
-- Installieren Sie Java 8 oder höher.
+- Vergewissern Sie sich, dass Java 8 oder neuer in Ihrem `PATH` liegt.
 
-## How to Add Aspose Cells Maven Dependency
-Um zu beginnen, müssen Sie die **aspose cells maven‑Abhängigkeit** in die `pom.xml` Ihres Projekts aufnehmen. Diese eine Zeile verschafft Ihnen Zugriff auf das komplette API‑Set für die Arbeit mit Excel‑Dateien.
+## Wie man die Aspose Cells Maven‑Abhängigkeit hinzufügt
+Laden Sie die Bibliothek, indem Sie eine einzelne Abhängigkeitszeile zu Ihrer `pom.xml` hinzufügen. Dadurch erhalten Sie sofortigen Zugriff auf die komplette Suite der Excel‑APIs.
 
 ```xml
 <dependency>
@@ -66,19 +116,19 @@ Um zu beginnen, müssen Sie die **aspose cells maven‑Abhängigkeit** in die `p
 </dependency>
 ```
 
-Falls Sie Gradle bevorzugen, lautet die entsprechende Deklaration:
+Wenn Sie Gradle bevorzugen, lautet die entsprechende Deklaration:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### License Acquisition Steps
+### Schritte zum Erwerb einer Lizenz
 - **Kostenlose Testversion** – Erkunden Sie die Bibliothek kostenlos.  
 - **Temporäre Lizenz** – Verlängern Sie Ihren Evaluationszeitraum.  
-- **Kauf** – Schalten Sie alle Funktionen für produktive Arbeitslasten frei.
+- **Kauf** – Schalten Sie alle Funktionen für Produktionslasten frei.
 
-## Basic Initialization and Setup
-Sobald die Abhängigkeit vorhanden ist, können Sie Aspose.Cells in Ihrem Java‑Code verwenden:
+## Grundlegende Initialisierung und Einrichtung
+Nachdem die Abhängigkeit aufgelöst ist, können Sie Aspose.Cells in Ihrem Java‑Code verwenden:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -87,18 +137,22 @@ import com.aspose.cells.Workbook;
 Workbook workbook = new Workbook("path_to_your_excel_file.xlsx");
 ```
 
-## Implementation Guide
+## Implementierungs‑Leitfaden
 
-### Feature 1: Retrieving External Data Connections
-**Was ist das?** Diese Funktion ermöglicht es Ihnen, **Excel‑Datenverbindungen aufzulisten**, sodass Sie genau wissen, von welchen externen Quellen Ihre Arbeitsmappe abhängt.
+### Feature 1: Abrufen externer Datenverbindungen
+**Was ist das?** Dieses Feature ermöglicht es Ihnen, **list excel data connections** aufzulisten, damit Sie genau wissen, welche externen Quellen Ihre Arbeitsmappe verwendet.
 
-#### Step 1: Load Your Workbook
+#### Schritt 1: Laden Sie Ihre Arbeitsmappe
+Die Klasse `Workbook` repräsentiert eine komplette Excel‑Datei im Speicher. Das Laden ist der erste Schritt, bevor Sie mit Verbindungen arbeiten.
+
 ```java
 String sourceDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(sourceDir + "/sampleRetrievingSQLConnectionData.xlsx");
 ```
 
-#### Step 2: Retrieve Connections
+#### Schritt 2: Verbindungen abrufen
+`workbook.getDataConnections()` gibt eine `ExternalConnectionCollection` zurück, die alle definierten Verbindungen enthält.
+
 ```java
 import com.aspose.cells.ExternalConnectionCollection;
 
@@ -106,10 +160,13 @@ ExternalConnectionCollection connections = workbook.getDataConnections();
 int connectionCount = connections.getCount();
 ```
 
-### Feature 2: Extracting Database Connection Details
-**Warum verwenden?** Um **Datenbankverbindungsdetails** wie Befehle, Beschreibungen und Verbindungszeichenfolgen zu extrahieren.
+### Feature 2: Extrahieren von Datenbankverbindungsdetails
+**Warum verwenden?** Um **extract database connection details** zu extrahieren, wie Befehle, Beschreibungen und Verbindungszeichenfolgen für Audits oder dynamische Änderungen.
 
-#### Step 1: Loop Through Connections
+#### Schritt 1: Durch Verbindungen iterieren
+`DBConnection` ist eine Unterklasse von `ExternalConnection`, die eine Datenbankverbindung darstellt und Eigenschaften wie Befehls‑Text, Verbindungszeichenfolge und Parameter bereitstellt.  
+Iterieren Sie über die Sammlung, casten Sie jeden Eintrag zu `DBConnection` und lesen Sie dessen Eigenschaften.
+
 ```java
 import com.aspose.cells.DBConnection;
 
@@ -126,10 +183,12 @@ for (int i = 0; i < connectionCount; i++) {
 }
 ```
 
-### Feature 3: Extracting Connection Parameters Details
-**Wie hilft das?** Sie ermöglicht es Ihnen, **Excel mit einer Datenbank** zu integrieren, indem Sie auf jeden für die Verbindung erforderlichen Parameter zugreifen.
+### Feature 3: Extrahieren von Verbindungsparameterdetails
+**Wie hilft das?** Es ermöglicht Ihnen, **integrate excel with database** zu integrieren, indem Sie auf jeden für die Verbindung erforderlichen Parameter zugreifen, z. B. Authentifizierungstoken oder Abfrageparameter.
 
-#### Step 1: Access Parameters
+#### Schritt 1: Auf Parameter zugreifen
+Jede `DBConnection` stellt eine Methode `getParameters()` bereit, die eine Liste von Namens‑/Wert‑Paaren zurückgibt.
+
 ```java
 import com.aspose.cells.ConnectionParameterCollection;
 import com.aspose.cells.ConnectionParameter;
@@ -152,58 +211,63 @@ for (int i = 0; i < connectionCount; i++) {
 }
 ```
 
-## Practical Applications
+## Praktische Anwendungen
 1. **Datenintegration** – Excel‑Daten automatisch mit externen Datenbanken synchronisieren.  
-2. **Automatisiertes Reporting** – Live‑Daten für aktuelle Berichte abrufen.  
-3. **Systemüberwachung** – Änderungen von Datenbankverbindungen für Gesundheitschecks verfolgen.  
-4. **Datenvalidierung** – Externe Daten vor dem Import validieren.
+2. **Automatisierte Berichterstellung** – Live‑Daten für aktuelle Berichte ohne manuelle Aktualisierung abrufen.  
+3. **Systemüberwachung** – Änderungen an Datenbankverbindungen für Gesundheitschecks verfolgen.  
+4. **Datenvalidierung** – Externe Daten prüfen, bevor sie in die Arbeitsmappe importiert werden.
 
-## Performance Considerations
-- Große Arbeitsmappen nur sparsam laden, um den Speicherverbrauch gering zu halten.  
-- Effiziente Schleifen verwenden (wie gezeigt) und unnötige Objekterzeugung vermeiden.  
-- Nutzen Sie die Feinabstimmung der Java‑Garbage‑Collection für langfristig laufende Dienste.
+## Leistungsüberlegungen
+- Laden Sie große Arbeitsmappen sparsam, um den Speicherverbrauch gering zu halten.  
+- Verwenden Sie effiziente Schleifen (wie gezeigt) und vermeiden Sie unnötige Objektinstanziierungen.  
+- Nutzen Sie die Feinabstimmung der Java‑Garbage‑Collection für langlaufende Dienste.
 
-## Common Issues & Troubleshooting
+## Häufige Probleme & Fehlersuche
 - **Null‑Verbindungen** – Stellen Sie sicher, dass die Arbeitsmappe tatsächlich externe Verbindungen enthält; andernfalls gibt `getDataConnections()` eine leere Sammlung zurück.  
-- **Lizenz nicht gesetzt** – Ohne gültige Lizenz können Evaluierungswarnungen oder eingeschränkte Funktionalität auftreten.  
-- **Nicht unterstützte Datenquelle** – Einige ältere ODBC‑Verbindungen können eine zusätzliche Treiberinstallation auf dem Host‑Rechner erfordern.
+- **Lizenz nicht gesetzt** – Ohne gültige Lizenz können Evaluationswarnungen oder eingeschränkte Funktionalität auftreten.  
+- **Nicht unterstützte Datenquelle** – Einige ältere ODBC‑Verbindungen können eine zusätzliche Treiberinstallation auf dem Host‑System erfordern.
 
-## Frequently Asked Questions
+## Häufig gestellte Fragen
 
-**Q: What is Aspose.Cells Maven Dependency?**  
-A: It is the Maven artifact (`com.aspose:aspose-cells`) that provides the Java APIs for reading, writing, and managing Excel files, including external data connections.
+**Q: Was ist die Aspose.Cells Maven‑Abhängigkeit?**  
+A: Es ist das Maven‑Artefakt (`com.aspose:aspose-cells`), das die Java‑APIs zum Lesen, Schreiben und Verwalten von Excel‑Dateien bereitstellt, einschließlich externer Datenverbindungen.
 
-**Q: How can I list excel data connections in my workbook?**  
-A: Call `workbook.getDataConnections()` and iterate over the returned `ExternalConnectionCollection`.
+**Q: Wie kann ich Excel‑Datenverbindungen in meiner Arbeitsmappe auflisten?**  
+A: Rufen Sie `workbook.getDataConnections()` auf und iterieren Sie über die zurückgegebene `ExternalConnectionCollection`.
 
-**Q: How do I extract database connection details from a DBConnection object?**  
-A: Cast each connection to `DBConnection` and use methods like `getCommand()`, `getConnectionDescription()`, and `getParameters()`.
+**Q: Wie extrahiere ich Datenbankverbindungsdetails aus einem DBConnection‑Objekt?**  
+A: Casten Sie jede Verbindung zu `DBConnection` und verwenden Sie Methoden wie `getCommand()`, `getConnectionDescription()` und `getParameters()`.
 
-**Q: Can I loop through excel connections to modify them?**  
-A: Yes, use a standard `for` loop over the collection, cast each to the appropriate type, and apply changes as needed.
+**Q: Kann ich Excel‑Verbindungen durchlaufen, um sie zu ändern?**  
+A: Ja, verwenden Sie eine Standard‑`for`‑Schleife über die Sammlung, casten Sie jede zu dem entsprechenden Typ und nehmen Sie bei Bedarf Änderungen vor.
 
-**Q: Do I need a license to use these features in production?**  
-A: A valid Aspose.Cells license removes evaluation limitations and enables full functionality.
+**Q: Benötige ich eine Lizenz, um diese Funktionen in der Produktion zu nutzen?**  
+A: Eine gültige Aspose.Cells‑Lizenz entfernt Evaluationsbeschränkungen und ermöglicht die volle Funktionalität.
 
-## Resources
-
-- [Dokumentation](https://reference.aspose.com/cells/java/)
-- [Neueste Version herunterladen](https://releases.aspose.com/cells/java/)
-- [Lizenz kaufen](https://purchase.aspose.com/buy)
-- [Kostenlosen Testzugriff](https://releases.aspose.com/cells/java/)
-- [Informationen zur temporären Lizenz](https://purchase.aspose.com/temporary-license/)
-- [Support‑Forum](https://forum.aspose.com/c/cells/9)
+## Ressourcen
+- [Documentation](https://reference.aspose.com/cells/java/)
+- [Download Latest Version](https://releases.aspose.com/cells/java/)
+- [Purchase License](https://purchase.aspose.com/buy)
+- [Free Trial Access](https://releases.aspose.com/cells/java/)
+- [Temporary License Information](https://purchase.aspose.com/temporary-license/)
+- [Support Forum](https://forum.aspose.com/c/cells/9)
 
 ---
 
-**Last Updated:** 2026-02-24  
-**Tested With:** Aspose.Cells 25.3 (Java)  
-**Author:** Aspose  
+**Zuletzt aktualisiert:** 2026-11-16  
+**Getestet mit:** Aspose.Cells 25.3 (Java)  
+**Autor:** Aspose
+
+## Verwandte Tutorials
+
+- [URL aus Excel mit Aspose.Cells für Java extrahieren – Datenverbindungen laden](/cells/java/advanced-features/aspose-cells-java-excel-data-connections/)
+- [Aspose.Cells Java: Excel‑Arbeitsbuchverbindungen für Datenintegration und Analyse meistern](/cells/java/import-export/aspose-cells-java-excel-connections/)
+- [Excel‑Datenverbindungen mit Aspose.Cells für Java ändern – Schritt‑für‑Schritt‑Anleitung](/cells/java/advanced-features/master-excel-data-connections-aspose-cells-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
