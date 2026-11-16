@@ -1,0 +1,7 @@
+Title: Create Excel from JSON with SmartMarker in C#
+Slug: create-excel-from-json-with-smartmarker-in-c
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-11-16T08:54:47.578182
+SourceRepo: AI Search API
+Keywords: create excel from json, convert json to excel, embed json in excel, save workbook xlsx
+PRNumber: 206
