@@ -206,9 +206,9 @@ Experiment with different print areas, scaling options, and PowerPoint themes to
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Save Excel as PowerPoint using C# and Aspose.Cells]({{< relref "../how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/_index.md" >}})
-- [Save PPTX from Excel – Complete Guide to Export Excel Sheet PowerPoint]({{< relref "../../../java/integration-interoperability/how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/_index.md" >}})
-- [Convert Excel to PowerPoint – Full Step‑by‑Step Guide]({{< relref "../../../java/integration-interoperability/convert-excel-to-powerpoint-full-step-by-step-guide/_index.md" >}})
+- [Save Excel as PowerPoint using C# and Aspose.Cells](/cells/english/net/converting-excel-files-to-other-formats/how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
+- [Save PPTX from Excel – Complete Guide to Export Excel Sheet PowerPoint](/cells/english/java/integration-interoperability/how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+- [Convert Excel to PowerPoint – Full Step‑by‑Step Guide](/cells/english/java/integration-interoperability/convert-excel-to-powerpoint-full-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

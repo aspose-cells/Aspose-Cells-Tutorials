@@ -264,9 +264,9 @@ Feel free to experiment with different ranges, add custom styling, or embed the 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Create New Workbook in C# – Copy Pivot Table]({{< relref "create-new-workbook-in-c-copy-pivot-table/_index.md" >}})
-- [How to copy pivot table in Excel with C# and Aspose.Cells]({{< relref "how-to-copy-pivot-table-in-excel-with-c-and-aspose-cells/_index.md" >}})
-- [Copy pivot table to new workbook, export shape to PowerPoint]({{< relref "copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/_index.md" >}})
+- [Create New Workbook in C# – Copy Pivot Table](/cells/english/net/pivot-tables/create-new-workbook-in-c-copy-pivot-table/)
+- [How to copy pivot table in Excel with C# and Aspose.Cells](/cells/english/net/pivot-tables/how-to-copy-pivot-table-in-excel-with-c-and-aspose-cells/)
+- [Copy pivot table to new workbook, export shape to PowerPoint](/cells/english/net/pivot-tables/copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
