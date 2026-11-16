@@ -1,0 +1,7 @@
+Title: How to export shape from Excel to PowerPoint using Java
+Slug: how-to-export-shape-from-excel-to-powerpoint-using-java
+Category: integration-interoperability
+ProcessedDate: 2026-11-16T09:37:26.704757
+SourceRepo: AI Search API
+Keywords: how to export shape, convert excel chart, shape to powerpoint, save shape pptx, export shape from excel
+PRNumber: 207
