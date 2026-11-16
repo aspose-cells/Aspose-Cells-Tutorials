@@ -88,6 +88,8 @@
 ### [Как экспортировать диаграмму в docx из Excel с помощью Aspose.Cells для Java](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
 Узнайте, как экспортировать диаграмму из книги Excel в документ Word (docx) с помощью Aspose.Cells для Java.
 
+### [Как экспортировать фигуру из Excel в PowerPoint с помощью Java](./how-to-export-shape-from-excel-to-powerpoint-using-java/)
+
 ## Дополнительные ресурсы
 
 - [Документация по Aspose.Cells для Java](https://docs.aspose.com/cells/java/)

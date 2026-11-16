@@ -496,7 +496,7 @@ Aspose.Words Java 代码教程
 学习如何在 Java 中使用 Aspose.Cells 完整创建并保存 Excel 工作簿的每一步。
 ### [如何使用 Aspose.Cells for Java 获取 Java 自定义属性](./how-to-get-custom-property-java-using-aspose-cells/)
 
-### [在 Java 中将工作簿保存为 XLSX – 完整编程指南](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
+### [在 Java 中将工作簿保存为 XLSX – 完整编程指南用于复制 Excel 区域](./save-workbook-as-xlsx-in-java-complete-programming-guide/)
 学习如何使用 Aspose.Cells for Java 将工作簿保存为 XLSX 格式，提供完整代码示例和最佳实践。
 
 ### [创建 Excel 工作簿 Java – 完整分步指南](./create-excel-workbook-java-complete-step-by-step-guide/)
@@ -523,7 +523,9 @@ Aspose.Words Java 代码教程
 学习如何在 Java 中创建带有自定义属性的 Excel 工作簿。
 
 ### [创建 Excel 工作簿 Java：处理日本纪元日期](./create-excel-workbook-java-handle-japanese-era-dates/)
-学习如何在 Java 中创建 Excel 工作簿并正确处理日本纪元日期。
+
+### [如何在 Java 中复制 Excel 工作簿之间的单元格](./how-to-copy-cells-between-excel-workbooks-in-java/)
+学习如何使用 Aspose.Cells for Java 在工作簿之间复制单元格，包括加载、选择范围和保存。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -95,7 +95,7 @@ Apprenez à utiliser Aspose.Cells pour Java pour charger des classeurs Excel et 
 Apprenez à utiliser Aspose.Cells pour Java pour charger des classeurs Excel et identifier les types de feuilles de calcul. Maîtrisez les opérations des classeurs grâce à ce guide complet.
 
 ### [Maîtrisez Aspose.Cells pour Java : chargez et modifiez efficacement des classeurs Excel](./aspose-cells-java-load-modify-excel/)
-Apprenez à charger, accéder et modifier efficacement des classeurs Excel avec Aspose.Cells pour Java. Idéal pour automatiser les rapports ou intégrer des fonctionnalités Excel à vos applications Java.
+Apprenez à charger, accéder et modifier efficacement des classeurs Excel avec Aspose.Cells pour Java. Idéal pour automatiser les rapports ou intégrer des fonctionnalités Excel à vos applications.
 
 ### [Maîtrisez les classeurs Excel avec Aspose.Cells pour Java : chargez, modifiez et enregistrez efficacement !](./aspose-cells-java-load-modify-excel-workbooks/)
 Apprenez à charger, accéder et modifier efficacement des classeurs Excel en Java avec Aspose.Cells. Simplifiez vos tâches de traitement de données en toute simplicité.
@@ -234,6 +234,9 @@ Apprenez à créer, manipuler et enregistrer des classeurs Excel grâce à la pu
 
 ### [Enregistrer un nouveau classeur en Java – Copier une plage entre classeurs – Tutoriel](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
 Apprenez à créer un nouveau classeur, copier une plage de cellules depuis un autre classeur et l’enregistrer avec Aspose.Cells pour Java.
+
+### [Comment copier des cellules entre classeurs Excel en Java](./how-to-copy-cells-between-excel-workbooks-in-java/)
+Apprenez à copier des cellules d’un classeur Excel à un autre en Java avec Aspose.Cells, incluant le chargement, la sélection et l’enregistrement.
 
 ### [Créer et enregistrer des fichiers ODS avec Aspose.Cells pour Java : Guide du développeur](./create-save-ods-files-aspose-cells-java/)
 Apprenez à créer et enregistrer facilement des fichiers ODS avec Aspose.Cells pour Java. Ce guide couvre toutes les étapes, de la configuration à l'enregistrement avec les options de schéma.

@@ -87,6 +87,9 @@ Lär dig hur du använder WRAPCOLS-funktionen i Aspose.Cells för Java för att 
 ### [Excel till PPTX: Komplett Java-guide för att exportera redigerbara former](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
 Lär dig hur du med Aspose.Cells för Java exporterar redigerbara former från Excel till PowerPoint-presentationer.
 
+### [Hur man exporterar form från Excel till PowerPoint med Java](./how-to-export-shape-from-excel-to-powerpoint-using-java/)
+Lär dig hur du med Aspose.Cells för Java exporterar former från Excel till PowerPoint med komplett kodexempel.
+
 ## Ytterligare resurser
 
 - [Aspose.Cells för Java-dokumentation](https://docs.aspose.com/cells/java/)

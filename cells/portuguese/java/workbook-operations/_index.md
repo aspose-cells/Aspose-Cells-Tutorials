@@ -34,6 +34,9 @@ Aprenda a criar uma nova pasta de trabalho do Excel em Java usando Aspose.Cells,
 ### [Salvar Nova Pasta de Trabalho em Java – Tutorial de Copiar Intervalo Entre Pastas de Trabalho](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
 Aprenda a criar uma nova pasta de trabalho e copiar intervalos de outra usando Aspose.Cells para Java.
 
+### [Como copiar células entre pastas de trabalho do Excel em Java](./how-to-copy-cells-between-excel-workbooks-in-java/)
+Aprenda a copiar células de uma pasta de trabalho do Excel para outra usando Aspose.Cells para Java.
+
 ### [Aspose.Cells Java: Exibir versão e criar pasta de trabalho compartilhada](./aspose-cells-java-display-version-create-shared-workbook/)
 Um tutorial de código para Aspose.Words Java
 

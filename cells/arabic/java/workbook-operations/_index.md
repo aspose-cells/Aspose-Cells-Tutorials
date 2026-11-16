@@ -221,7 +221,6 @@
 ### [إنشاء مصنفات Excel وتخصيصها باستخدام Aspose.Cells Java: دليل خطوة بخطوة](./create-customize-excel-workbooks-aspose-cells-java/)
 تعلّم كيفية أتمتة إنشاء وتخصيص مصنفات Excel باستخدام Aspose.Cells لجافا. عزّز إنتاجيتك بإتقان عمليات المصنفات.
 
-
 ### [إنشاء ملفات ODS وحفظها باستخدام Aspose.Cells لـ Java: دليل المطور](./create-save-ods-files-aspose-cells-java/)
 تعرّف على كيفية إنشاء ملفات ODS وحفظها بسهولة باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل كل شيء، من الإعداد إلى الحفظ باستخدام خيارات المخطط.
 
@@ -230,6 +229,7 @@
 
 ### [كيفية إنشاء مصنف Excel وحفظه بصيغة SVG باستخدام Aspose.Cells لـ Java](./create-save-workbook-svg-aspose-cells-java/)
 تعرّف على كيفية أتمتة إنشاء مصنفات Excel وتصديرها كملفات SVG باستخدام Aspose.Cells لجافا. اتبع هذا الدليل خطوة بخطوة لتكامل سلس.
+
 ### [إنشاء مصنفات Excel ودمجها باستخدام Aspose.Cells لجافا | دليل شامل](./create-merge-excel-workbooks-aspose-cells-java/)
 تعرّف على كيفية إنشاء مصنفات Excel ودمجها بكفاءة باستخدام Aspose.Cells لـ Java مع هذا الدليل الشامل. بسّط عمليات مصنفاتك اليوم.
 
@@ -262,15 +262,6 @@
 
 ### [أتمتة Excel باستخدام Aspose.Cells Java: تحميل البيانات والبحث عنها في المصنفات](./excel-automation-aspose-cells-java-load-find-data/)
 تعرّف على كيفية أتمتة مهام Excel باستخدام Aspose.Cells لـ Java. يتناول هذا الدليل تحميل المصنفات والبحث عن البيانات بكفاءة.
-
-### [أتمتة Excel: تحميل المصنفات وجداول الاستعلام باستخدام Aspose.Cells Java لإدارة البيانات بكفاءة](./excel-automation-aspose-cells-java-workbook-query-tables/)
-أتقن أتمتة Excel باستخدام Aspose.Cells لجافا من خلال تحميل مصنفات العمل واسترجاع نتائج جداول الاستعلام. عزز الإنتاجية في معالجة البيانات وإعداد التقارير والتكامل.
-
-### [أتمتة Excel: تكوين صفحات المصنف وأوراق العمل باستخدام Aspose.Cells Java](./excel-automation-aspose-cells-java-workbook-setup/)
-تعرّف على كيفية أتمتة مهام Excel من خلال تهيئة صفحات المصنفات وأوراق العمل باستخدام Aspose.Cells لـ Java. بسّط سير عمل معالجة البيانات بكفاءة.
-
-### [أتمتة Excel باستخدام Aspose.Cells Java: إنشاء مصنف رئيسي ورؤية الأعمدة/الصفوف](./excel-automation-aspose-cells-java-workbook-visibility/)
-تعرّف على كيفية أتمتة مهام Excel باستخدام Aspose.Cells لجافا. أنشئ المصنفات وعدّلها، وتحكّم في رؤية الأعمدة والصفوف بكفاءة.
 
 ### [أتمتة Excel، تحميل، حفظ، استبدال النص](./excel-automation-aspose-cells-load-save-text/)
 برنامج تعليمي لبرمجة Aspose.Words في Java
@@ -344,7 +335,7 @@
 ### **[كيفية الحصول على خاصية مخصصة في Java باستخدام Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)**
 
 ### [تصدير Excel إلى HTML باستخدام Aspose.Cells Java: دليل خطوة بخطوة](./export-excel-html-aspose-cells-java/)
-تعرّف على كيفية تصدير ملفات Excel بصيغة HTML بسلاسة باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل تحميل المصنفات، وموفري التدفقات المخصصة، وحفظ المصنفات بسهولة.
+تعرّف على كيفية تصدير ملفات Excel بصيفة HTML بسلاسة باستخدام Aspose.Cells لـ Java. يغطي هذا الدليل تحميل المصنفات، وموفري التدفقات المخصصة، وحفظ المصنفات بسهولة.
 
 ### [تصدير Excel إلى HTML باستخدام IStreamProvider و Aspose.Cells لـ Java: دليل شامل](./export-excel-html-streamprovider-aspose-cells-java/)
 تعرّف على كيفية تصدير ملفات Excel بكفاءة إلى HTML في Java باستخدام واجهة IStreamProvider مع Aspose.Cells. يغطي هذا الدليل الإعداد والتكوين والتطبيقات العملية.
@@ -504,6 +495,8 @@
 
 ### [إنشاء مصنف Excel باستخدام Java: التعامل مع تواريخ العصور اليابانية](./create-excel-workbook-java-handle-japanese-era-dates/)
 ### [كيفية حفظ ملفات xlsb بخصائص مخصصة باستخدام Aspose.Cells لـ Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
+
+### [كيفية نسخ الخلايا بين مصنفات Excel في Java](./how-to-copy-cells-between-excel-workbooks-in-java/)
 
 ## موارد إضافية
 

@@ -119,6 +119,9 @@ Leer hoe u Excel-taken in Java kunt automatiseren met Aspose.Cells. Deze handlei
 ### [Save Workbook to File – Complete Java Guide for Copying Excel Ranges](./save-workbook-to-file-complete-java-guide-for-copying-excel/)
 Leer hoe u een werkmap opslaat naar een bestand en Excel-bereiken kopieert met Aspose.Cells voor Java.
 
+### [Hoe cellen tussen Excel-werkmappen in Java te kopiëren](./how-to-copy-cells-between-excel-workbooks-in-java/)
+Leer hoe u cellen van de ene Excel-werkmap naar een andere kunt kopiëren met Aspose.Cells voor Java.
+
 ### [Beheer van werkmappen in Java: Excel-papierformaat laden en controleren met Aspose.Cells](./aspose-cells-java-load-workbook-paper-size/)
 Leer hoe u Aspose.Cells voor Java kunt gebruiken om Excel-werkmappen te beheren door bestanden te laden, toegang te krijgen tot werkbladen en de instellingen voor het papierformaat te controleren.
 
@@ -226,8 +229,10 @@ Een codetutorial voor Aspose.Words Java
 
 ### [Nieuwe werkmap maken in Java – Stapsgewijze handleiding](./create-new-workbook-in-java-step-by-step-guide/)
 Leer hoe u een nieuwe Excel-werkmap maakt in Java met Aspose.Cells, inclusief codevoorbeelden en opslaan.
+
 ### [Excel-werkmap maken in Java – Complete stap‑voor‑stap handleiding](./create-excel-workbook-in-java-complete-step-by-step-guide/)
 Leer hoe u een Excel-werkmap maakt in Java met een volledige stap‑voor‑stap handleiding.
+
 ### [Excel-werkmap maken met aangepaste eigenschappen in Java – stapsgewijze handleiding](./create-excel-workbook-with-custom-properties-in-java-step-by/)
 Leer hoe u een Excel-werkmap maakt en aangepaste eigenschappen instelt met Aspose.Cells voor Java.
 
@@ -245,6 +250,7 @@ Leer hoe u Excel-werkmappen kunt maken, bewerken en opslaan met de krachtige Asp
 
 ### [Excel-werkmap maken in Java - Complete stapsgewijze handleiding](./create-excel-workbook-java-complete-step-by-step-guide/)
 Leer hoe u een Excel-werkmap maakt en opslaat met Aspose.Cells voor Java via een volledige stap‑voor‑stap handleiding.
+
 ### [Nieuwe werkmap maken in Java – Complete gids](./create-new-workbook-java-complete-guide/)
 Leer hoe u een nieuwe werkmap maakt in Java met Aspose.Cells, inclusief stap‑voor‑stap codevoorbeelden en opslagopties.
 
@@ -361,10 +367,13 @@ Leer hoe u aangepaste eigenschappen van een Excel-werkmap naar een PDF exporteer
 
 ### [Hoe aangepaste eigenschap toevoegen in Excel (Java) – Waarde ophalen en opslaan als XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
 Leer hoe u een aangepaste eigenschap toevoegt aan een Excel-werkmap, de waarde ophaalt en opslaat als XLSB met Aspose.Cells voor Java.
+
 ### [Hoe een aangepaste eigenschap toevoegen in Excel met Java – Complete gids](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
 Leer hoe u aangepaste documenteigenschappen toevoegt aan een Excel-werkmap met Aspose.Cells voor Java.
+
 ### [Hoe xlsb-bestanden met aangepaste eigenschappen opslaan met Aspose.Cells voor Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
 Leer hoe u xlsb-bestanden kunt opslaan met aangepaste documenteigenschappen met Aspose.Cells voor Java.
+
 ### [Hoe aangepaste eigenschap opvragen in Java met Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)
 Leer hoe u aangepaste eigenschappen van een Excel-werkmap kunt ophalen met Aspose.Cells voor Java.
 
@@ -519,7 +528,7 @@ Leer hoe u een nieuwe werkmap opslaat en een bereik tussen werkmappen kopieert m
 ### [Excel-bestand genereren Java – Complete stapsgewijze handleiding](./generate-excel-file-java-complete-step-by-step-guide/)
 Leer hoe u met Aspose.Cells voor Java een Excel-bestand van nul af aan maakt met volledige codevoorbeelden en best practices.
 ### [Excel-werkmap maken in Java: Japanse jaartijdperken verwerken](./create-excel-workbook-java-handle-japanese-era-dates/)
-Leer hoe u Japanse jaartijdperken correct verwerkt bij het maken van Excel-werkboeken met Aspose.Cells voor Java.
+Leer hoe u Japanse jaartijdperken correct verwerkt bij het maken van Excel-werkmappen met Aspose.Cells voor Java.
 
 ## Aanvullende bronnen
 

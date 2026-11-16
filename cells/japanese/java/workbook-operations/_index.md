@@ -342,7 +342,7 @@ Aspose.Cells for Javaを使ってExcelファイルをHTMLに変換する方法�
 ### [Aspose.Cells Java を使用して Excel をツールヒント付きの HTML に変換する: 包括的なガイド](./excel-to-html-conversion-with-tooltips-aspose-cells-java/)
 Aspose.Cells for Java を使用して、Excel スプレッドシートをツールヒント付きのインタラクティブな HTML ページに変換する方法を学びます。Web 上でのデータのアクセシビリティとプレゼンテーションを強化します。
 
-### [JavaでAspose.Cellsを使用してExcelからPDFへの変換を自動化する](./excel-to-pdf-automation-aspose-cells-java/)
+### [JavaでAspose.Cellsを使用してExcelをPDFへの変換を自動化する](./excel-to-pdf-automation-aspose-cells-java/)
 セットアップと実装の手順を含め、Aspose.Cells for Java を使用して Excel ファイルを PDF に自動的に変換する方法を学習します。
 
 ### [総合ガイド：JavaでAspose.Cellsを使用してExcelからPDFに変換する](./excel-to-pdf-conversion-aspose-cells-java/)
@@ -526,14 +526,8 @@ Aspose.Cells for Java を使用して、Excel のカスタム プロパティを
 ### [Aspose.Cells Java を使用して Excel を HTML にエクスポートする: ステップバイステップ ガイド](./export-excel-html-aspose-cells-java/)
 Aspose.Cells for Java を使用して、Excel ファイルを HTML としてシームレスにエクスポートする方法を学びます。このガイドでは、ワークブックの読み込み、カスタム ストリーム プロバイダー、そしてワークブックの簡単な保存方法について説明します。
 
-## 追加リソース
-
-- [Aspose.Cells for Java ドキュメント](https://docs.aspose.com/cells/java/)
-- [Aspose.Cells for Java API リファレンス](https://reference.aspose.com/cells/java/)
-- [Aspose.Cells for Javaをダウンロード](https://releases.aspose.com/cells/java/)
-- [無料サポート](https://forum.aspose.com/)
-- [一時ライセンス](https://purchase.aspose.com/temporary-license/)
-
+### [Javaでセルをコピーする方法（Excel ワークブック間）](./how-to-copy-cells-between-excel-workbooks-in-java/)
+Javaでセルをコピーする方法（Excel ワークブック間）
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

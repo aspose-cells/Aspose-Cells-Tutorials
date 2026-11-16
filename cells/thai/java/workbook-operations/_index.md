@@ -285,7 +285,7 @@
 เรียนรู้วิธีดำเนินการกับไฟล์ Excel อย่างมีประสิทธิภาพด้วย Aspose.Cells Java รวมถึงการโหลดและบันทึกเวิร์กบุ๊กด้วยตัวคั่นแบบกำหนดเอง พัฒนาทักษะการจัดการข้อมูลของคุณ
 
 ### [เรียนรู้การใช้งาน Excel อย่างเชี่ยวชาญในภาษา Java โดยใช้ Aspose.Cells: คู่มือฉบับสมบูรณ์](./excel-file-operations-java-aspose-cells-guide/)
-เรียนรู้การจัดการและวิเคราะห์ไฟล์ Excel ได้อย่างง่ายดายใน Java ด้วย Aspose.Cells คู่มือนี้ครอบคลุมถึงการโหลดเวิร์กบุ๊ก การเข้าถึงช่วงที่มีชื่อและอื่นๆ อีกมากมาย
+เรียนรู้การจัดการและวิเคราะห์ไฟล์ Excel ได้อย่างง่ายดใน Java ด้วย Aspose.Cells คู่มือนี้ครอบคลุมถึงการโหลดเวิร์กบุ๊ก การเข้าถึงช่วงที่มีชื่อและอื่นๆ อีกมากมาย
 
 ### [การแปลง Excel เป็น HTML โดยใช้ Aspose.Cells Java: เรียนรู้เทคนิค CrossHideRight](./excel-html-conversion-aspose-cells-java-crosshide-right/)
 เรียนรู้วิธีการแปลงไฟล์ Excel เป็น HTML ด้วย Aspose.Cells สำหรับ Java โดยใช้เมธอด CrossHideRight เพื่อจัดการเนื้อหาที่ซ้อนทับอย่างมีประสิทธิภาพ
@@ -509,7 +509,10 @@
 ### [วิธีเพิ่มคุณสมบัติที่กำหนดเองใน Excel (Java) – ดึงค่าและบันทึกเป็น XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
 เรียนรู้วิธีเพิ่มคุณสมบัติที่กำหนดเองในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java ดึงค่าและบันทึกเป็นไฟล์ XLSB
 ### [บันทึกสมุดงานใหม่ใน Java – คำแนะนำการคัดลอกช่วงระหว่างสมุดงาน](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
-เรียนรู้วิธีบันทึกสมุดงานใหม่ใน Java และคัดลอกช่วงข้อมูลระหว่างสมุดงานด้วย Aspose.Cells
+
+### [วิธีคัดลอกเซลล์ระหว่างสมุดงาน Excel ใน Java](./how-to-copy-cells-between-excel-workbooks-in-java/)
+เรียนรู้วิธีคัดลอกเซลล์จากสมุดงานหนึ่งไปยังอีกสมุดงานหนึ่งโดยใช้ Aspose.Cells สำหรับ Java
+
 ### [Java สร้างไฟล์ Excel, เพิ่มคุณสมบัติแบบกำหนดเองและบันทึกเป็น XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
 เรียนรู้วิธีสร้างไฟล์ Excel, เพิ่มคุณสมบัติแบบกำหนดเองและบันทึกเป็นรูปแบบ XLSB ด้วย Aspose.Cells สำหรับ Java
 ### [ใช้ Lambda Function Java เพื่อสร้างตัวอย่างเวิร์กบุ๊ก Excel](./use-lambda-function-java-to-create-excel-workbook-example/)

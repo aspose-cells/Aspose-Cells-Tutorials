@@ -101,6 +101,9 @@ Tìm hiểu cách tải sổ làm việc Excel hiệu quả bằng Aspose.Cells 
 ### [Cách tải và lưu Excel dưới dạng CSV bằng Aspose.Cells cho Java: Hướng dẫn toàn diện](./aspose-cells-java-load-save-excel-csv/)
 Tìm hiểu cách chuyển đổi hiệu quả các tệp Excel sang định dạng CSV bằng Aspose.Cells for Java. Hướng dẫn này bao gồm tải, cấu hình và lưu sổ làm việc với các bước chi tiết.
 
+### [Cách sao chép ô giữa các sổ làm việc Excel trong Java](./how-to-copy-cells-between-excel-workbooks-in-java/)
+Hướng dẫn cách sao chép ô từ sổ làm việc này sang sổ làm việc khác bằng Aspose.Cells cho Java.
+
 ### [Làm chủ Aspose.Cells cho Java: Tải và lưu tệp Excel hiệu quả](./aspose-cells-java-load-save-excel-files/)
 Tìm hiểu cách tải, thao tác và lưu tệp Excel hiệu quả bằng Aspose.Cells cho Java với hướng dẫn toàn diện này.
 
@@ -232,7 +235,7 @@ Hướng dẫn cách truy cập và lấy giá trị thuộc tính tùy chỉnh 
 Tìm hiểu cách định dạng sổ làm việc Excel và xuất chúng dưới dạng HTML bằng Aspose.Cells for Java. Hướng dẫn này bao gồm cách truy xuất phiên bản, kỹ thuật định dạng và xuất bằng CSS.
 
 ### [Chuyển đổi Apple Numbers sang PDF bằng Aspose.Cells cho Java: Hướng dẫn toàn diện](./convert-apple-numbers-pdf-aspose-cells-java/)
-Tìm hiểu cách chuyển đổi bảng tính Apple Numbers thành PDF bằng Aspose.Cells for Java. Hướng dẫn này bao gồm thiết lập, triển khai và các biện pháp thực hành tốt nhất.
+Tìm hiểu cách chuyển đổi bảng tính Apple Numbers thành PDF bằng Aspose.Cells cho Java. Hướng dẫn này bao gồm thiết lập, triển khai và các biện pháp thực hành tốt nhất.
 
 ### [Cách chuyển đổi tệp Excel thành tệp PDF có thể truy cập được trong Java bằng Aspose.Cells](./convert-excel-accessible-pdf-java-aspose-cells/)
 Tìm hiểu cách chuyển đổi tệp Excel thành tệp PDF có thể truy cập bằng Java và Aspose.Cells, đảm bảo tuân thủ các tiêu chuẩn về khả năng truy cập.
@@ -376,7 +379,7 @@ Tìm hiểu cách quản lý sổ làm việc Excel trong Java với Aspose.Cell
 Tìm hiểu cách tải và lặp lại hiệu quả các hàng trong tệp Excel bằng Aspose.Cells for Java, hoàn hảo cho các tác vụ phân tích dữ liệu và tự động hóa.
 
 ### [Làm chủ thao tác Excel với Aspose.Cells cho Java: Hướng dẫn thao tác sổ làm việc và định dạng ô](./excel-manipulation-aspose-cells-java-tutorial/)
-Tìm hiểu cách lập trình tạo, thao tác và định dạng sổ làm việc Excel bằng Aspose.Cells for Java. Hướng dẫn toàn diện này bao gồm khởi tạo sổ làm việc, truy cập bảng tính và định dạng ô.
+Tìm hiểu cách lập trình tạo, thao tác và định dạng sổ làm việc Excel bằng Aspose.Cells cho Java. Hướng dẫn toàn diện này bao gồm khởi tạo sổ làm việc, truy cập bảng tính và định dạng ô.
 
 ### [Làm chủ thao tác Excel trong Java bằng Aspose.Cells: Hướng dẫn toàn diện về các thao tác trên sổ làm việc](./excel-manipulation-java-aspose-cells-guide/)
 Tìm hiểu cách tự động hóa và sắp xếp hợp lý các tác vụ Excel của bạn bằng Aspose.Cells for Java. Hướng dẫn này bao gồm cách tạo sổ làm việc, định dạng ô và lưu sổ làm việc hiệu quả.

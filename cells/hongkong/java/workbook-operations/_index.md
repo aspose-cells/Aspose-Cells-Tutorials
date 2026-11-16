@@ -519,6 +519,9 @@ Aspose.Words Java 程式碼教程
 ### [如何使用 Aspose.Cells for Java 取得自訂屬性（Java）](./how-to-get-custom-property-java-using-aspose-cells/)
 了解如何使用 Aspose.Cells for Java 取得 Excel 工作簿的自訂屬性並在程式中存取它們。
 
+### [如何在 Java 中於 Excel 工作簿之間複製儲存格](./how-to-copy-cells-between-excel-workbooks-in-java/)
+了解如何使用 Aspose.Cells for Java 在不同 Excel 工作簿之間複製儲存格，包含載入、複製與儲存步驟。
+
 ## 其他資源
 
 - [Aspose.Cells for Java文檔](https://docs.aspose.com/cells/java/)

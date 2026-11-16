@@ -26,6 +26,9 @@ Nasze samouczki dotyczące operacji skoroszytu zapewniają kompleksowe wskazówk
 
 ## Dostępne samouczki
 
+### [How to copy cells between Excel workbooks in Java](./how-to-copy-cells-between-excel-workbooks-in-java/)
+
+
 ### [Aspose.Cells Java: Tworzenie i zapisywanie skoroszytów programu Excel — przewodnik krok po kroku](./aspose-cells-java-create-save-excel-workbooks/)
 Dowiedz się, jak zautomatyzować tworzenie i zarządzanie skoroszytami programu Excel przy użyciu Aspose.Cells for Java. Ten przewodnik obejmuje tworzenie instancji, zapisywanie i ustawianie właściwości konfiguracji strony.
 

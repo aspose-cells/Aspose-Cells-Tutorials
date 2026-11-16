@@ -58,8 +58,11 @@ Erfahren Sie, wie Sie die WRAPCOLS-Funktion in Aspose.Cells für Java einsetzen,
 ### [Diagramme von Excel nach PowerPoint exportieren – Vollständige Java-Anleitung](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
 Erfahren Sie, wie Sie Diagramme aus Excel in PowerPoint exportieren und dabei Aspose.Cells für Java nutzen, inklusive Codebeispielen.
 
+### [Wie man Formen von Excel nach PowerPoint exportiert – Vollständige Java-Anleitung](./how-to-export-shape-from-excel-to-powerpoint-using-java/)
+Erfahren Sie, wie Sie Formen aus Excel-Arbeitsblättern in PowerPoint-Präsentationen mit Aspose.Cells für Java exportieren.
+
 ### [Wie man Diagramme von Excel nach Word exportiert – Java-Anleitung](./how-to-export-charts-from-excel-to-word-java-guide/)
-Erfahren Sie, wie Sie Diagramme aus Excel mit Aspose.Cells für Java nach Word exportieren, inkl. Codebeispielen und Schritt‑für‑Schritt‑Anleitung.
+Erfahren Sie, wie Sie Diagramme aus Excel mit Aspose.Cells für Java nach Word exportieren, inkl. Code‑Beispielen und Schritt‑für‑Schritt‑Anleitung.
 ### [PowerPoint aus Excel erstellen – Vollständiger Java-Leitfaden](./create-powerpoint-from-excel-full-java-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Excel-Daten in PowerPoint-Präsentationen umwandeln und automatisieren.
 
@@ -82,7 +85,7 @@ Erfahren Sie, wie Sie die WRAPCOLS-Funktion in Aspose.Cells für Java nutzen, um
 ### [Wie man Schriftarten beim Konvertieren von Excel zu PDF mit Java einbettet](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
 Erfahren Sie, wie Sie beim Konvertieren von Excel-Tabellen zu PDF mit Aspose.Cells für Java Schriftarten einbetten, um einheitliches Layout sicherzustellen.
 ### [Excel zu PPTX: Vollständiger Java-Leitfaden zum Export bearbeitbarer Formen](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
-Erfahren Sie, wie Sie Excel-Inhalte in bearbeitbare PowerPoint-Folien exportieren, inklusive Formen, mit Aspose.Cells für Java.
+Erfahren Sie, wie Sie Excel-Inhalte in bearbeitbare PowerPoint‑Folien exportieren, inklusive Formen, mit Aspose.Cells für Java.
 ### [Diagramm aus Excel in DOCX exportieren mit Aspose.Cells für Java](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
 Erfahren Sie, wie Sie Diagramme aus Excel-Arbeitsblättern in DOCX-Dokumente exportieren, indem Sie Aspose.Cells für Java nutzen.
 

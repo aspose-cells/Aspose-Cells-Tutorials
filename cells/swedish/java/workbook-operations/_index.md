@@ -37,6 +37,9 @@ Lär dig hur du använder en Lambda-funktion i Java för att programatiskt skapa
 ### [Skapa ny arbetsbok i Java – En komplett guide](./create-new-workbook-java-complete-guide/)
 Lär dig hur du skapar en ny Excel-arbetsbok från grunden med Aspose.Cells för Java, inklusive konfiguration och sparalternativ.
 
+### [Hur man kopierar celler mellan Excel-arbetsböcker i Java](./how-to-copy-cells-between-excel-workbooks-in-java/)
+Lär dig hur du kopierar celler mellan Excel-arbetsböcker med Aspose.Cells för Java.
+
 ### [Skapa Excel-arbetsbok Java: hantera japanska era-datum](./create-excel-workbook-java-handle-japanese-era-dates/)
 Lär dig hur du skapar en Excel-arbetsbok i Java och hanterar datum i japanska eraformat med Aspose.Cells.
 
@@ -77,7 +80,7 @@ Lär dig hur du automatiserar skapande, hantering och formatering av Excel-arbet
 En kodhandledning för Aspose.Words Java
 
 ### [Exportera Excel till HTML Bevara kantstilar med Aspose.Cells för Java](./aspose-cells-java-export-excel-html-border-styles/)
-Lär dig hur du exporterar Excel-filer med konsekventa kantlinjer till HTML med hjälp av Aspose.Cells för Java. Följ den här guiden för att konfigurera och implementera avancerade sparalternativ.
+Lär dig hur du exporterar Excel-filer med konsekventa kantlinjer till HTML med Aspose.Cells för Java. Följ den här guiden för att konfigurera och implementera avancerade sparalternativ.
 
 ### [Exportera Excel till XPS med Aspose.Cells för Java: En steg-för-steg-guide](./aspose-cells-java-export-excel-xps/)
 Lär dig hur du effektivt exporterar Excel-filer till XPS-format med Aspose.Cells för Java. Den här omfattande guiden täcker inläsning, inställningsalternativ och rendering av arbetsböcker.
@@ -478,7 +481,7 @@ Lär dig hur du sömlöst läser multikodade CSV-filer och konverterar dem till 
 ### [Konvertera Excel till PNG, TIFF och PDF i Java med Aspose.Cells](./render-excel-as-png-tiff-pdf-aspose-cells-java/)
 Lär dig hur du konverterar Excel-filer till bilder (PNG, TIFF) eller PDF-filer med Aspose.Cells för Java. Följ den här steg-för-steg-guiden för att förbättra rapportdelning.
 
-### [Konvertera effektivt Excel till PDF med anpassade datumformat med hjälp av Aspose.Cells för Java](./render-excel-custom-date-formats-pdf-aspose-cells-java/)
+### [Konvertera effektivt Excel till PDF med anpassade datumformat med hjälp av Aspose.Cells för Java](./render-excel-custom-date-forms-pdf-aspose-cells-java/)
 Bemästra konvertering av Excel-filer till PDF-filer samtidigt som du bevarar anpassade datumformat med Aspose.Cells för Java. Lär dig tips om installation, implementering och prestanda.
 
 ### [Rendera Excel till PDF med felhantering med Aspose.Cells för Java: En omfattande guide](./render-excel-pdf-aspose-cells-java-error-handling/)

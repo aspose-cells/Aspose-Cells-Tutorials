@@ -341,7 +341,7 @@
 ### [Эффективная обработка книг Excel на Java с использованием Aspose.Cells](./excel-workbook-manipulation-java-aspose-cells/)
 Узнайте, как использовать Aspose.Cells для Java для эффективного создания, изменения и улучшения рабочих книг Excel с легкостью. Освойте операции с рабочими книгами от настройки до расширенных манипуляций.
 
-### [Освойте управление файлами Excel XLSB в Java с помощью Aspose.Cells: загрузка и изменение подключений к БД](./excel-xlsb-management-aspose-cells-java/)
+### [Освоите управление файлами Excel XLSB в Java с помощью Aspose.Cells: загрузка и изменение подключений к БД](./excel-xlsb-management-aspose-cells-java/)
 Узнайте, как управлять файлами Excel XLSB с помощью Aspose.Cells для Java. В этом руководстве рассматривается загрузка, изменение подключений к базе данных и эффективное сохранение изменений.
 
 ### [Создание рабочей книги XLSB программно — Полное руководство Java](./create-xlsb-workbook-programmatically-full-java-guide/)
@@ -511,13 +511,9 @@
 Узнайте, как создать новую рабочую книгу и скопировать диапазон из другой книги с помощью Aspose.Cells для Java.
 ### [Java: создание файла Excel, добавление пользовательского свойства и сохранение в формате XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
 Узнайте, как создать файл Excel в Java, добавить пользовательское свойство и сохранить его в формате XLSB с помощью Aspose.Cells.
-### [Создание новой рабочей книги Java — полное руководство](./create-new-workbook-java-complete-guide/)
-Узнайте, как создать новую рабочую книгу в Java с помощью Aspose.Cells, включая настройку, сохранение и лучшие практики.
 
-### [Использование Lambda-функции Java для создания примера рабочей книги Excel](./use-lambda-function-java-to-create-excel-workbook-example/)
-### [Создание рабочей книги Excel с пользовательскими свойствами в Java — пошаговое руководство](./create-excel-workbook-with-custom-properties-in-java-step-by/)
-### [Как получить пользовательское свойство Java с помощью Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)
-Узнайте, как получить пользовательское свойство из книги Excel с помощью Aspose.Cells для Java.
+### [Как копировать ячейки между рабочими книгами Excel в Java](./how-to-copy-cells-between-excel-workbooks-in-java/)
+Узнайте, как копировать ячейки между рабочими книгами Excel в Java с помощью Aspose.Cells.
 
 ## Дополнительные ресурсы
 

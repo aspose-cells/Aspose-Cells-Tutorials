@@ -78,6 +78,8 @@
 เรียนรู้วิธีใช้ฟังก์ชัน WRAPCOLS ใน Java เพื่อจัดการสูตรอาร์เรย์ใน Excel อย่างเต็มที่ พร้อมตัวอย่างโค้ดและแนวทางปฏิบัติ
 ### [วิธีคัดลอกช่วงจาก Excel และส่งออกเป็น PowerPoint ด้วย Java](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
 เรียนรู้วิธีคัดลอกช่วงข้อมูลจากไฟล์ Excel แล้วส่งออกเป็นสไลด์ PowerPoint ด้วย Aspose.Cells และ Aspose.Slides สำหรับ Java
+### [วิธีส่งออกรูปทรงจาก Excel ไปยัง PowerPoint ด้วย Java](./how-to-export-shape-from-excel-to-powerpoint-using-java/)
+เรียนรู้วิธีส่งออกรูปทรงจากไฟล์ Excel ไปยังสไลด์ PowerPoint ด้วย Aspose.Cells สำหรับ Java
 ### [วิธีบันทึก PPTX จาก Excel – คู่มือครบถ้วนสำหรับการส่งออกแผ่นงาน Excel ไปเป็น PowerPoint](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
 เรียนรู้วิธีบันทึกไฟล์ PPTX จาก Excel ด้วย Aspose.Cells สำหรับ Java พร้อมขั้นตอนและตัวอย่างโค้ดที่สมบูรณ์
 
