@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-11-16
-description: How to copy pivot table from one Excel file to a new workbook using C#.
-  Learn to load workbook, copy range, and preserve pivot tables.
+description: Learn how to copy a pivot table from one Excel file to a new workbook in C# using Aspose.Cells. Load the workbook, copy the range, and preserve the pivot table.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
@@ -15,54 +14,35 @@ keywords:
 - Excel automation C#
 language: en
 lastmod: 2026-11-16
-og_description: How to copy pivot table from an existing workbook to a new workbook
-  using C#. Follow this complete guide to load Excel workbook, copy range, and keep
-  the pivot intact.
+og_description: How to copy pivot table from an existing workbook to a new workbook using C#. Follow this complete guide to load Excel workbook, copy range, and keep the pivot intact.
 og_image_alt: how to copy pivot table example in C#
 og_title: How to copy a pivot table to a new workbook in C# – step‑by‑step guide
 schemas:
 - author: Aspose
   dateModified: '2026-11-16'
-  description: How to copy pivot table from one Excel file to a new workbook using
-    C#. Learn to load workbook, copy range, and preserve pivot tables.
+  description: How to copy pivot table from one Excel file to a new workbook using C#. Learn to load workbook, copy range, and preserve pivot tables.
   headline: How to copy a pivot table to a new workbook in C#
   type: TechArticle
-- description: How to copy pivot table from one Excel file to a new workbook using
-    C#. Learn to load workbook, copy range, and preserve pivot tables.
+- description: How to copy pivot table from one Excel file to a new workbook using C#. Learn to load workbook, copy range, and preserve pivot tables.
   name: How to copy a pivot table to a new workbook in C#
   steps:
   - name: Expected output
-    text: 'Running the program produces `CopyWithPivot.xlsx`. Opening the file in
-      Excel shows:'
+    text: 'Running the program produces `CopyWithPivot.xlsx`. Opening the file in Excel shows:'
   - name: Copying multiple pivot tables
-    text: If your source sheet contains several pivots, expand the `CellArea` to cover
-      the union of all ranges, or repeat the copy step for each distinct area.
+    text: If your source sheet contains several pivots, expand the `CellArea` to cover the union of all ranges, or repeat the copy step for each distinct area.
   - name: Preserving styles and conditional formatting
-    text: '`CopyRows` copies cell styles automatically. If you need to preserve workbook‑wide
-      named styles or custom number formats, call `destWorkbook.Worksheets[0].CopyStyle`
-      before saving.'
+    text: '`CopyRows` copies cell styles automatically. If you need to preserve workbook‑wide named styles or custom number formats, call `destWorkbook.Worksheets[0].CopyStyle` before saving.'
   - name: Working with large workbooks
-    text: For files larger than 100 MB, consider using `Workbook.LoadOptions` with
-      the `MemorySetting` set to `MemorySetting.MemoryPreference` to reduce memory
-      pressure.
+    text: For files larger than 100 MB, consider using `Workbook.LoadOptions` with the `MemorySetting` set to `MemorySetting.MemoryPreference` to reduce memory pressure.
   - name: Next steps
-    text: '* Explore **Aspose.Cells** features such as refreshing pivots programmatically.
-      * Combine this approach with **ExcelPackage** (EPPlus) if you need an open‑source
-      alternative. * Automate copying across multiple sheets by looping through `srcWorkbook.Worksheets`.'
+    text: '* Explore **Aspose.Cells** features such as refreshing pivots programmatically. * Combine this approach with **ExcelPackage** (EPPlus) if you need an open‑source alternative. * Automate copying across multiple sheets by looping through `srcWorkbook.Worksheets`.'
   type: HowTo
 - questions:
-  - answer: Aspose.Cells can read macro‑enabled files (`.xlsm`), but the macro code
-      isn’t copied. The pivot table itself is preserved because it’s part of the worksheet
-      XML.
+  - answer: Aspose.Cells can read macro‑enabled files (`.xlsm`), but the macro code isn’t copied. The pivot table itself is preserved because it’s part of the worksheet XML.
     question: Does this work with macros or VBA‑enabled workbooks?
-  - answer: The copy operation includes the cached data only. If the destination workbook
-      needs to refresh from the original source, you’ll have to re‑configure the data
-      connection manually.
+  - answer: The copy operation includes the cached data only. If the destination workbook needs to refresh from the original source, you’ll have to re‑configure the data connection manually.
     question: What if the pivot uses an external data source?
-  - answer: 'No. A pivot table needs its cache. The most reliable way is to copy the
-      rows that contain the cache, as demonstrated. You can later hide those rows
-      if you don’t want them visible. ## Conclusion You now know **how to copy pivot
-      table** from one Excel file to another using C#. The tutorial covered **l'
+  - answer: 'No. A pivot table needs its cache. The most reliable way is to copy the rows that contain the cache, as demonstrated. You can later hide those rows if you don’t want them visible. ## Conclusion You now know **how to copy pivot table** from one Excel file to another using C#. The tutorial covered **l'
     question: Can I copy the pivot without the underlying data rows?
   type: FAQPage
 tags:
@@ -70,7 +50,7 @@ tags:
 - Excel
 - Aspose.Cells
 - Automation
-title: How to copy a pivot table to a new workbook in C#
+title: Copy a Pivot Table to a New Workbook in C# using Aspose.Cells
 url: /net/pivot-tables/how-to-copy-a-pivot-table-to-a-new-workbook-in-c/
 ---
 
@@ -279,14 +259,14 @@ You now know **how to copy pivot table** from one Excel file to another using C#
 Feel free to experiment with different ranges, add custom styling, or embed the logic in a larger data‑processing service. Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Create New Workbook in C# – Copy Pivot Table](/cells/english/net/pivot-tables/create-new-workbook-in-c-copy-pivot-table/)
-- [How to copy pivot table in Excel with C# and Aspose.Cells](/cells/english/net/pivot-tables/how-to-copy-pivot-table-in-excel-with-c-and-aspose-cells/)
-- [Copy pivot table to new workbook, export shape to PowerPoint](/cells/english/net/pivot-tables/copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/)
+- [Create New Workbook in C# – Copy Pivot Table]({{< relref "create-new-workbook-in-c-copy-pivot-table/_index.md" >}})
+- [How to copy pivot table in Excel with C# and Aspose.Cells]({{< relref "how-to-copy-pivot-table-in-excel-with-c-and-aspose-cells/_index.md" >}})
+- [Copy pivot table to new workbook, export shape to PowerPoint]({{< relref "copy-pivot-table-to-new-workbook-export-shape-to-powerpoint/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-11-16
-description: Learn how to use WRAPCOLS in C# to split a row into columns, automate
-  an Excel workbook, calculate formulas, and save the Excel file.
+description: Learn how to use Aspose.Cells WRAPCOLS in C# to split a row into columns, automate an Excel workbook, calculate formulas, and save the Excel file.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
@@ -47,7 +46,7 @@ tags:
 - Excel automation
 - C#
 - Aspose.Cells
-title: How to use WRAPCOLS to split a row into columns in C#
+title: How to use Aspose.Cells WRAPCOLS to split a row into columns in C#
 url: /net/row-and-column-management/how-to-use-wrapcols-to-split-a-row-into-columns-in-c/
 ---
 
@@ -238,7 +237,7 @@ You now know **how to use WRAPCOLS** in C# to **split row into columns**, fully 
 Feel free to experiment with different source ranges and column counts—adjust the formula, re‑run the calculation, and watch the workbook update instantly. Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.

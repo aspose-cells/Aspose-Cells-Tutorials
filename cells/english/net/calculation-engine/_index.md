@@ -1,6 +1,6 @@
 ---
-title: Excel Calculation Engine for .NET
-description: Optimize Excel formula calculations in .NET applications using Aspose.Cells' powerful calculation engine with custom options and performance tuning.
+title: Use Aspose.Cells Excel Calculation Engine for .NET
+description: Leverage Aspose.Cells to optimize Excel formula calculations in .NET applications with custom options and performance tuning.
 weight: 22
 url: "/net/calculation-engine/"
 ---
@@ -25,37 +25,49 @@ Aspose.Cells for .NET offers a robust calculation engine that allows developers 
 - **Circular Reference Detection**: Identify and resolve circular dependencies in formulas
 - **Performance Optimization**: Fine-tune calculation settings for large workbooks
 
+```csharp
+// Example: Configure calculation options
+var workbook = new Aspose.Cells.Workbook("sample.xlsx");
+var settings = workbook.Settings;
+settings.CalcMode = Aspose.Cells.CalculationMode.Automatic;
+settings.EnableIterativeCalculation = true;
+settings.IterationCount = 100;
+settings.IterationPrecision = 0.001;
+workbook.CalculateFormula();
+```
+
 ## Tutorials
 
 Our comprehensive tutorials cover everything from basic configuration to advanced customization of the calculation engine:
 
-### [Change Excel Date System to 1904 using Aspose.Cells .NET](./change-excel-date-system-aspose-cells-net)
+### [Change Excel Date System to 1904 using Aspose.Cells .NET]({{< relref "./change-excel-date-system-aspose-cells-net" >}})
 Learn how to switch Excel's default date system from 1899 to 1904 effortlessly with Aspose.Cells .NET. This guide provides step-by-step instructions and code examples for seamless integration.
 
-### [Implement a Custom Calculation Engine Using Aspose.Cells for .NET | Excel Formula Enhancement](./custom-calculation-engine-aspose-cells-net)
+### [Implement a Custom Calculation Engine Using Aspose.Cells for .NET | Excel Formula Enhancement]({{< relref "./custom-calculation-engine-aspose-cells-net" >}})
 Learn how to implement and use a custom calculation engine with Aspose.Cells in your .NET applications, enhancing Excel formula capabilities beyond standard functionalities.
 
-### [Implementing a Custom Calculation Monitor in Aspose.Cells .NET for Excel Formula Control](./custom-calculation-monitor-aspose-cells-dotnet)
+### [Implementing a Custom Calculation Monitor in Aspose.Cells .NET for Excel Formula Control]({{< relref "./custom-calculation-monitor-aspose-cells-dotnet" >}})
 Learn how to create and use a custom calculation monitor class with Aspose.Cells .NET to control specific Excel formula calculations, optimizing performance.
 
-### [Detect Circular References in Excel Using Aspose.Cells for .NET&#58; A Comprehensive Guide](./detect-circular-references-excel-aspose-cells-net)
+### [Detect circular references in excel using Aspose.Cells for .NET: a comprehensive guide]({{< relref "./detect-circular-references-excel-aspose-cells-net" >}})
 Learn how to detect circular references in Excel files with Aspose.Cells for .NET. This guide covers setup, implementation, and practical applications.
 
-### [How to Implement a Custom Calculation Engine in .NET Using Aspose.Cells](./implement-custom-calculation-engine-aspose-cells-net)
+### [How to Implement a Custom Calculation Engine in .NET Using Aspose.Cells]({{< relref "./implement-custom-calculation-engine-aspose-cells-net" >}})
 Learn how to create and integrate custom calculation engines in your .NET applications using Aspose.Cells. This guide covers setup, implementation, and practical use cases.
 
-### [Optimize Excel Calculation Time with Recursive Options in Aspose.Cells for .NET](./optimize-calculation-time-recursive-aspose-cells-net)
+### [Optimize Excel Calculation Time with Recursive Options in Aspose.Cells for .NET]({{< relref "./optimize-calculation-time-recursive-aspose-cells-net" >}})
 Learn how to optimize Excel calculation times using recursive options in Aspose.Cells for .NET. This guide covers setup, performance tips, and practical applications.
 
-### [How to Calculate Workbook in C# – Sort & Formula Guide](./how-to-calculate-workbook-in-c-sort-formula-guide/)
+### [How to Calculate Workbook in C# – Sort & Formula Guide]({{< relref "./how-to-calculate-workbook-in-c-sort-formula-guide/" >}})
 Learn how to calculate an entire workbook in C#, including sorting data and applying formulas efficiently with Aspose.Cells .NET.
 
-### [Force Formula Calculation in C# – Complete Guide to Excel Automation](./force-formula-calculation-in-c-complete-guide-to-excel-autom/)
+### [Force formula calculation in C# – complete guide to excel automation]({{< relref "./force-formula-calculation-in-c-complete-guide-to-excel-autom/" >}})
 Learn how to force formula recalculation in C# using Aspose.Cells, ensuring up-to-date results in Excel automation projects.
-### [Create Excel Workbook – Convert Array to Matrix with WRAPCOLS](./create-excel-workbook-convert-array-to-matrix-with-wrapcols/)
+
+### [Create excel workbook – convert array to matrix with wRAPCOLS]({{< relref "./create-excel-workbook-convert-array-to-matrix-with-wrapcols/" >}})
 Learn how to create an Excel workbook and convert a one‑dimensional array into a matrix using the WRAPCOLS function with Aspose.Cells .NET.
 
-### [How to expand array in Excel with Aspose.Cells](./how-to-expand-array-in-excel-with-aspose-cells)
+### [How to expand array in Excel with Aspose.Cells]({{< relref "./how-to-expand-array-in-excel-with-aspose-cells" >}})
 Learn how to expand arrays in Excel worksheets using Aspose.Cells for .NET.
 
 ## Benefits

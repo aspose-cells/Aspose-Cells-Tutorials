@@ -1,9 +1,7 @@
 ---
 category: general
 date: 2026-11-16
-description: Learn how to save Excel as PowerPoint and convert Excel to PowerPoint
-  programmatically. This step‑by‑step guide also covers export Excel to PPTX and saving
-  a workbook as PPTX.
+description: Programmatically convert an Excel workbook to a PowerPoint presentation with Aspose.Cells for .NET. This guide shows how to export Excel data to PPTX, preserving editable shapes and text.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
@@ -35,7 +33,7 @@ tags:
 - Aspose.Cells
 - C#
 - Export
-title: How to save Excel as PowerPoint with Aspose.Cells in C#
+title: Programmatically save Excel as PowerPoint using Aspose.Cells API in C#
 url: /net/converting-excel-files-to-other-formats/how-to-save-excel-as-powerpoint-with-aspose-cells-in-c/
 ---
 
@@ -58,7 +56,7 @@ Before you start, make sure you have:
 * Visual Studio 2022 (or any C# IDE)
 * An Excel workbook that contains the data and shapes you want to export
 
-## Step 1: Install Aspose.Cells
+## Step 1: install Aspose.Cells
 
 Add the Aspose.Cells NuGet package to your project:
 
@@ -204,15 +202,13 @@ Experiment with different print areas, scaling options, and PowerPoint themes to
 
 *Happy coding! If this guide helped you **convert Excel to PowerPoint**, feel free to share it with teammates or open an issue on the Aspose.Cells GitHub repository for further assistance.*
 
+## What should you learn next?
 
-## What Should You Learn Next?
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [How to save Excel as PowerPoint using C# and Aspose.Cells](/cells/english/net/converting-excel-files-to-other-formats/how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/)
-- [How to Save PPTX from Excel – Complete Guide to Export Excel Sheet PowerPoint](/cells/english/java/integration-interoperability/how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
-- [Convert Excel to PowerPoint – Full Step‑by‑Step Guide](/cells/english/java/integration-interoperability/convert-excel-to-powerpoint-full-step-by-step-guide/)
+- [Save Excel as PowerPoint using C# and Aspose.Cells]({{< relref "../how-to-save-excel-as-powerpoint-using-c-and-aspose-cells/_index.md" >}})
+- [Save PPTX from Excel – Complete Guide to Export Excel Sheet PowerPoint]({{< relref "../../../java/integration-interoperability/how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/_index.md" >}})
+- [Convert Excel to PowerPoint – Full Step‑by‑Step Guide]({{< relref "../../../java/integration-interoperability/convert-excel-to-powerpoint-full-step-by-step-guide/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
