@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-11-19
-description: How to embed fonts while exporting Excel to PDF using C#. Learn to save
-  workbook as PDF with embedded fonts for reliable document sharing.
+description: How to embed fonts while exporting Excel to PDF using Aspose.Cells and C#. Learn to save workbook as PDF with embedded fonts for reliable document sharing.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
@@ -14,20 +13,17 @@ keywords:
 - pdf export embedded fonts
 language: en
 lastmod: 2026-11-19
-og_description: How to embed fonts while exporting Excel to PDF using C#. This guide
-  shows you how to save workbook as PDF with embedded fonts for consistent rendering.
+og_description: How to embed fonts while exporting Excel to PDF using Aspose.Cells and C#. This guide shows you how to save workbook as PDF with embedded fonts for consistent rendering.
 og_image_alt: Screenshot illustrating how to embed fonts during Excel to PDF export
-og_title: How to embed fonts when exporting Excel to PDF with C#
+og_title: How to embed fonts when exporting Excel to PDF with Aspose.Cells for C#
 schemas:
 - author: Aspose
   dateModified: '2026-11-19'
-  description: How to embed fonts while exporting Excel to PDF using C#. Learn to
-    save workbook as PDF with embedded fonts for reliable document sharing.
-  headline: How to embed fonts when exporting Excel to PDF with C#
+  description: How to embed fonts while exporting Excel to PDF using Aspose.Cells and C#. Learn to save workbook as PDF with embedded fonts for reliable document sharing.
+  headline: How to embed fonts when exporting Excel to PDF with Aspose.Cells for C#
   type: TechArticle
-- description: How to embed fonts while exporting Excel to PDF using C#. Learn to
-    save workbook as PDF with embedded fonts for reliable document sharing.
-  name: How to embed fonts when exporting Excel to PDF with C#
+- description: How to embed fonts while exporting Excel to PDF using Aspose.Cells and C#. Learn to save workbook as PDF with embedded fonts for reliable document sharing.
+  name: How to embed fonts when exporting Excel to PDF with Aspose.Cells for C#
   steps:
   - name: Install the Aspose.Cells NuGet package
     text: 'Open a terminal in your project folder and run:'
@@ -56,7 +52,7 @@ tags:
 - Aspose.Cells
 - PDF
 - Excel automation
-title: How to embed fonts when exporting Excel to PDF with C#
+title: How to embed fonts when exporting Excel to PDF with Aspose.Cells for C#
 url: /net/conversion-to-pdf/how-to-embed-fonts-when-exporting-excel-to-pdf-with-c/
 ---
 
@@ -64,7 +60,7 @@ url: /net/conversion-to-pdf/how-to-embed-fonts-when-exporting-excel-to-pdf-with-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to embed fonts when exporting Excel to PDF with C#
+# How to embed fonts when exporting Excel to PDF with Aspose.Cells for C#
 
 If you need to **how to embed fonts** while exporting an Excel workbook to PDF, this guide shows the complete process. You’ll learn to **export Excel to PDF** with fonts embedded so the resulting file displays correctly on any device.
 
@@ -184,14 +180,13 @@ These enhancements build on the same foundation you just created.
 You now know **how to embed fonts** when you **export Excel to PDF** using C#. By configuring `PdfSaveOptions.EmbedStandardFonts` and saving the workbook with `Save`, you achieve a reliable **save workbook as pdf** operation that preserves typography across all viewers. Apply the checklist, avoid the listed pitfalls, and explore the suggested next steps to automate PDF generation in your own applications.
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [How to Embed Fonts When Converting Excel to PDF – Complete Guide](/cells/english/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
-- [How to embed fonts when converting Excel to PDF – Step‑by‑Step Guide](/cells/english/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
-- [How to Export PDF from Excel – Complete Guide to Save Workbook as PDF](/cells/english/net/conversion-to-pdf/how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
+- [How to Embed Fonts When Converting Excel to PDF – Complete Guide]([{{< relref "cells/english/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui.md" >}}])
+- [How to embed fonts when converting Excel to PDF – Step‑by‑Step Guide]([{{< relref "cells/english/net/conversion-to-pdf/how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step.md" >}}])
+- [How to Export PDF from Excel – Complete Guide to Save Workbook as PDF]([{{< relref "cells/english/net/conversion-to-pdf/how-to-export-pdf-from-excel-complete-guide-to-save-workbook.md" >}}])
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

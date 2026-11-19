@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-11-19
-description: How to use wrapcols in C# to wrap data in Excel and calculate Excel formulas
-  quickly.
+description: Learn how to use Aspose.Cells WRAPCOLS in C# to wrap data in Excel and calculate formulas quickly.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
@@ -14,24 +13,21 @@ keywords:
 - load excel workbook c#
 language: en
 lastmod: 2026-11-19
-og_description: How to use wrapcols in C# to wrap data in Excel. Learn to calculate
-  Excel formulas and save the workbook programmatically.
-og_image_alt: Screenshot showing wrapped data in an Excel worksheet after applying
-  WRAPCOLS
-og_title: How to use wrapcols in C# – wrap data in Excel
+og_description: Learn how to use Aspose.Cells WRAPCOLS in C# to wrap data in Excel. Calculate Excel formulas and save the workbook programmatically.
+og_image_alt: Screenshot showing wrapped data in an Excel worksheet after applying WRAPCOLS
+og_title: Use Aspose.Cells WRAPCOLS in C# – wrap data in Excel
 schemas:
 - author: Aspose
   dateModified: '2026-11-19'
-  description: How to use wrapcols in C# to wrap data in Excel and calculate Excel
-    formulas quickly.
-  headline: How to use wrapcols in C# to wrap data in Excel
+  description: Learn how to use Aspose.Cells WRAPCOLS in C# to wrap data in Excel and calculate formulas quickly.
+  headline: Use Aspose.Cells WRAPCOLS in C# to wrap data in Excel
   type: TechArticle
 tags:
 - Excel
 - C#
 - Aspose.Cells
 - Data Wrapping
-title: How to use wrapcols in C# to wrap data in Excel
+title: Use Aspose.Cells WRAPCOLS in C# to wrap data in Excel
 url: /net/formatting-rows-and-columns-in-excel/how-to-use-wrapcols-in-c-to-wrap-data-in-excel/
 ---
 
@@ -197,7 +193,7 @@ Feel free to experiment with different source ranges, column counts, and output 
 *Image: ![Screenshot of wrapped data in Excel](/images/wrapcols-example.png){.align-center alt="Screenshot showing wrapped data in an Excel worksheet after applying WRAPCOLS"}*
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.

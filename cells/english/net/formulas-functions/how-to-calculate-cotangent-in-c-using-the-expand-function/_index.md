@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-11-19
-description: Learn how to calculate cotangent in C# by adding formulas to cells, using
-  the EXPAND function, and evaluating all formulas with Aspose.Cells.
+description: Learn how to calculate cotangent in C# by adding formulas to cells, using the EXPAND function, and evaluating all formulas programmatically.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
@@ -14,27 +13,24 @@ keywords:
 - use expand function
 language: en
 lastmod: 2026-11-19
-og_description: How to calculate cotangent in C#? This tutorial shows you how to add
-  a formula to a cell, use the EXPAND function, and evaluate all formulas with Aspose.Cells.
+og_description: How to calculate cotangent in C#? This tutorial shows you how to add a formula to a cell, use the EXPAND function, and evaluate all formulas with Aspose.Cells.
 og_image_alt: C# code snippet adding Excel formulas with Aspose.Cells
 og_title: How to calculate cotangent in C# with EXPAND – step‑by‑step guide
 schemas:
 - author: Aspose
   dateModified: '2026-11-19'
-  description: Learn how to calculate cotangent in C# by adding formulas to cells,
-    using the EXPAND function, and evaluating all formulas with Aspose.Cells.
+  description: Learn how to calculate cotangent in C# by adding formulas to cells, using the EXPAND function, and evaluating all formulas with Aspose.Cells.
   headline: How to calculate cotangent in C# using the EXPAND function
   type: TechArticle
-- description: Learn how to calculate cotangent in C# by adding formulas to cells,
-    using the EXPAND function, and evaluating all formulas with Aspose.Cells.
+- description: Learn how to calculate cotangent in C# by adding formulas to cells, using the EXPAND function, and evaluating all formulas with Aspose.Cells.
   name: How to calculate cotangent in C# using the EXPAND function
   steps:
   - name: Creates a workbook and accesses the first worksheet.
     text: Creates a workbook and accesses the first worksheet.
   - name: Writes an `EXPAND` formula that turns a single value into a 5‑row array.
     text: Writes an `EXPAND` formula that turns a single value into a 5‑row array.
-  - name: Writes a `COT` formula that **how to calculate cotangent** of π/4.
-    text: Writes a `COT` formula that **how to calculate cotangent** of π/4.
+  - name: Writes a `COT` formula that calculates cotangent of π/4.
+    text: Writes a `COT` formula that calculates cotangent of π/4.
   - name: Forces the engine to **evaluate all formulas** so the values are stored
       in the file.
     text: Forces the engine to **evaluate all formulas** so the values are stored
@@ -61,7 +57,7 @@ tags:
 - C#
 - Excel automation
 - formulas
-title: How to calculate cotangent in C# using the EXPAND function
+title: Calculate cotangent in C# using dynamic array formulas
 url: /net/formulas-functions/how-to-calculate-cotangent-in-c-using-the-expand-function/
 ---
 
@@ -235,14 +231,14 @@ Next steps you might explore:
 Feel free to experiment with other mathematical functions (`SIN`, `COS`, `TAN`, `COT`) and combine them with `EXPAND` to build powerful spreadsheet‑driven calculators directly from C#. Happy
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Calculate Cotangent in Excel with C# – Step‑by‑Step Guide](/cells/english/net/excel-formulas-and-calculation-options/how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
-- [How to Evaluate Formulas in C# – Complete Aspose.Cells Guide](/cells/english/net/calculation-engine/how-to-evaluate-formulas-in-c-complete-aspose-cells-guide/)
-- [How to Expand Array in C# with Aspose.Cells – Step‑by‑Step Guide](/cells/english/net/excel-formulas-and-calculation-options/how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
+- [How to Calculate Cotangent in Excel with C# – Step‑by‑Step Guide]({{< relref "cells/english/net/excel-formulas-and-calculation-options/how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid.md" >}})
+- [How to Evaluate Formulas in C# – Complete Aspose.Cells Guide]({{< relref "cells/english/net/calculation-engine/how-to-evaluate-formulas-in-c-complete-aspose-cells-guide.md" >}})
+- [How to Expand Array in C# with Aspose.Cells – Step‑by‑Step Guide]({{< relref "cells/english/net/excel-formulas-and-calculation-options/how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

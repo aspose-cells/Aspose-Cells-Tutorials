@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-11-19
-description: How to repeat worksheet while populating Excel with array data. Learn
-  to generate multiple worksheets and populate worksheet from list in a few steps.
+description: Learn how to duplicate worksheets based on data collections and fill them with values in a few steps.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
@@ -13,39 +12,32 @@ keywords:
 - populate worksheet from list
 language: en
 lastmod: 2026-11-19
-og_description: How to repeat worksheet using SmartMarkerProcessor. Follow this guide
-  to populate Excel with array data, generate multiple worksheets, and populate worksheet
-  from list.
+og_description: Learn how to duplicate worksheets based on data collections and fill them with values.
 og_image_alt: Screenshot showing repeated worksheets in an Excel workbook after processing
-og_title: How to repeat worksheet in Excel – step‑by‑step guide
+og_title: Repeat worksheets – step‑by‑step guide
 schemas:
 - author: GroupDocs
   dateModified: '2026-11-19'
-  description: How to repeat worksheet while populating Excel with array data. Learn
-    to generate multiple worksheets and populate worksheet from list in a few steps.
-  headline: How to repeat worksheet in Excel with SmartMarkerProcessor
+  description: Learn how to duplicate worksheets based on data collections and fill them with values in a few steps.
+  headline: Repeat worksheets using markers in a spreadsheet
   type: TechArticle
-- description: How to repeat worksheet while populating Excel with array data. Learn
-    to generate multiple worksheets and populate worksheet from list in a few steps.
-  name: How to repeat worksheet in Excel with SmartMarkerProcessor
+- description: Learn how to duplicate worksheets based on data collections and fill them with values in a few steps.
+  name: Repeat worksheets using markers in a spreadsheet
   steps:
   - name: Expected output
     text: 'When you open the resulting workbook, you should see:'
   - name: Empty or null arrays
-    text: 'If `Dept` is null or empty, the processor will not create any additional
-      worksheets. To avoid a completely blank workbook, you can add a guard:'
+    text: 'If `Dept` is null or empty, the processor will not create any additional worksheets. To avoid a completely blank workbook, you can add a guard:'
   - name: Custom worksheet names
-    text: 'The default naming scheme may not suit every reporting requirement. After
-      processing, rename each sheet using a loop:'
+    text: 'The default naming scheme may not suit every reporting requirement. After processing, rename each sheet using a loop:'
   - name: Populating additional columns
-    text: 'If you need to **populate excel with array** values beyond a single marker,
-      extend the data object:'
+    text: 'If you need to **populate excel with array** values beyond a single marker, extend the data object:'
   type: HowTo
 tags:
 - Excel automation
 - SmartMarkerProcessor
 - .NET
-title: How to repeat worksheet in Excel with SmartMarkerProcessor
+title: Repeat worksheets using markers in a spreadsheet
 url: /net/smart-markers-dynamic-data/how-to-repeat-worksheet-in-excel-with-smartmarkerprocessor/
 ---
 
@@ -53,9 +45,9 @@ url: /net/smart-markers-dynamic-data/how-to-repeat-worksheet-in-excel-with-smart
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to repeat worksheet in Excel with SmartMarkerProcessor
+# Repeat worksheets using markers in a spreadsheet
 
-If you need to **how to repeat worksheet** when generating Excel reports, this guide shows you a complete, runnable solution. By the end of the tutorial you’ll be able to **populate Excel with array** data, **generate multiple worksheets**, and **populate worksheet from list** using the SmartMarkerProcessor library.
+If you need to **repeat worksheets** when generating Excel reports, this guide shows you a complete, runnable solution. By the end of the tutorial you’ll be able to **populate Excel with array** data, **generate multiple worksheets**, and **populate worksheet from list** using the SmartMarkerProcessor library.
 
 Repeating a worksheet is a common requirement when each department, region, or time period needs its own tab. The example below demonstrates the exact steps, explains why each setting matters, and covers edge cases such as empty lists or custom naming.
 
@@ -79,7 +71,7 @@ The processor orchestrates the marker replacement and worksheet duplication. Ins
 SmartMarkerProcessor processor = new SmartMarkerProcessor();
 ```
 
-Creating the processor early lets you configure global options before any data is applied. This is the foundation for **how to repeat worksheet** correctly.
+Creating the processor early lets you configure global options before any data is applied. This is the foundation for **repeat worksheets** correctly.
 
 ## Step 2: Enable worksheet repetition
 
@@ -234,7 +226,7 @@ class Program
 **Explanation of key sections**
 
 - **Processor creation** – establishes the engine that will interpret markers.
-- **RepeatWorksheet option** – activates the core feature that answers *how to repeat worksheet*.
+- **RepeatWorksheet option** – activates the core feature that answers *how to repeat worksheets*.
 - **Data source** – uses an array (`new[]`) to satisfy **populate excel with array**.
 - **Template loading** – demonstrates a common way to obtain a worksheet object.
 - **Processing** – performs the duplication and data insertion in one call.
@@ -251,7 +243,7 @@ Running this program produces `Result.xlsx` with three department‑specific tab
 
 ## Conclusion
 
-You now know **how to repeat worksheet** in Excel using SmartMarkerProcessor, how to **populate excel with array** data, how to **generate multiple worksheets**, and how to **populate worksheet from list** efficiently. The complete example ties all concepts together, and the optional renaming step lets you produce clean, user‑friendly tab names.
+You now know **how to repeat worksheets** in Excel using SmartMarkerProcessor, how to **populate excel with array** data, how to **generate multiple worksheets**, and how to **populate worksheet from list** efficiently. The complete example ties all concepts together, and the optional renaming step lets you produce clean, user‑friendly tab names.
 
 Next, you might explore:
 
@@ -261,15 +253,13 @@ Next, you might explore:
 
 Feel free to adapt the code to your own reporting scenarios, and enjoy automating Excel workbooks with confidence!
 
+## What should you learn next?
 
-## What Should You Learn Next?
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [How to Repeat Worksheets – Complete Guide for Excel Automation](/cells/english/net/smart-markers-dynamic-data/how-to-repeat-worksheets-complete-guide-for-excel-automation/)
-- [Create Worksheet Per Item – How to Repeat Worksheet in C#](/cells/english/net/worksheet-operations/create-worksheet-per-item-how-to-repeat-worksheet-in-c/)
-- [How to expand array in Excel and populate a template](/cells/english/net/templates-reporting/how-to-expand-array-in-excel-and-populate-a-template/)
+- [How to Repeat Worksheets – Complete Guide for Excel Automation]({{< relref "cells/english/net/smart-markers-dynamic-data/how-to-repeat-worksheets-complete-guide-for-excel-automation" >}})
+- [Create Worksheet Per Item – How to Repeat Worksheet in C#]({{< relref "cells/english/net/worksheet-operations/create-worksheet-per-item-how-to-repeat-worksheet-in-c" >}})
+- [How to expand array in Excel and populate a template]({{< relref "cells/english/net/templates-reporting/how-to-expand-array-in-excel-and-populate-a-template" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

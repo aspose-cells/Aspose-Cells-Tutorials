@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-11-19
-description: Evaluate Excel formula dynamically by using variables to create a flexible
-  sum range. Learn how to automate sum formula in minutes.
+description: Learn how to dynamically evaluate a spreadsheet formula using variables to create a flexible sum range and automate calculations in minutes.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
@@ -49,7 +48,7 @@ tags:
 - Excel
 - C#
 - MacroProcessor
-title: Evaluate Excel formula with a dynamic sum range using variables
+title: How to evaluate Excel formula with a dynamic sum range using variables
 url: /net/excel-formulas-and-calculation-options/evaluate-excel-formula-with-a-dynamic-sum-range-using-variab/
 ---
 
@@ -228,14 +227,14 @@ Feel free to experiment:
 * Change `StartRow` and `EndRow` to
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Generate Excel File Java – Excel SUM Formula Guide](/cells/english/java/basic-excel-functions/excel-sum-formula-guide/)
-- [How to create Excel workbook C# with a dynamic array formula](/cells/english/net/excel-formulas-and-calculation-options/how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
-- [Create Excel Workbook with EXPAND Formula – Complete Guide](/cells/english/net/formulas-functions/create-excel-workbook-with-expand-formula-complete-guide/)
+- [Generate Excel File Java – Excel SUM Formula Guide]({{< relref "/cells/english/java/basic-excel-functions/excel-sum-formula-guide/" >}})
+- [How to create Excel workbook C# with a dynamic array formula]({{< relref "/cells/english/net/excel-formulas-and-calculation-options/how-to-create-excel-workbook-c-with-a-dynamic-array-formula/" >}})
+- [Create Excel Workbook with EXPAND Formula – Complete Guide]({{< relref "/cells/english/net/formulas-functions/create-excel-workbook-with-expand-formula-complete-guide/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

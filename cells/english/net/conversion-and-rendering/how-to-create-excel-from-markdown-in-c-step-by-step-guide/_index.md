@@ -1,9 +1,7 @@
 ---
 category: general
 date: 2026-11-19
-description: Learn how to create Excel from Markdown in C#. This tutorial shows you
-  how to read a markdown file, convert markdown to Excel, and save as an Excel file
-  using Aspose.Cells.
+description: Learn how to use Aspose.Cells ImportFromMarkdown API to create Excel from Markdown in C#. This tutorial shows you how to read a markdown file, convert markdown to Excel, and save the workbook as an Excel file.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
@@ -15,8 +13,7 @@ keywords:
 - save as excel file
 language: en
 lastmod: 2026-11-19
-og_description: Create Excel from Markdown in C#. Follow this complete guide to read
-  a markdown file, convert markdown to Excel, and save as an Excel file with Aspose.Cells.
+og_description: Create Excel from Markdown in C#. Follow this complete guide to read a markdown file, convert markdown to Excel, and save as an Excel file with Aspose.Cells.
 og_image_alt: C# code snippet that creates an Excel workbook from a Markdown file
 og_title: Create Excel from Markdown in C# – step‑by‑step guide
 schemas:
@@ -48,7 +45,7 @@ tags:
 - Markdown
 - C#
 - Aspose.Cells
-title: How to create Excel from Markdown in C# – step‑by‑step guide
+title: How to use Aspose.Cells ImportFromMarkdown to create Excel from Markdown in C# – step‑by‑step guide
 url: /net/conversion-and-rendering/how-to-create-excel-from-markdown-in-c-step-by-step-guide/
 ---
 
@@ -297,14 +294,14 @@ You now know how to **create Excel from markdown** in C# using Aspose.Cells. The
 Feel free to experiment with custom worksheets, conditional formatting, or even exporting to other formats (CSV, PDF) using the same `Workbook` instance. Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Convert markdown to Excel – Complete C# Guide](/cells/english/net/conversion-and-rendering/convert-markdown-to-excel-complete-c-guide/)
-- [How to Load Markdown into Excel – Complete C# Guide](/cells/english/net/conversion-and-rendering/how-to-load-markdown-into-excel-complete-c-guide/)
-- [How to Load Markdown into Excel – Import Markdown File with Aspose.Cells](/cells/english/net/data-loading-and-parsing/how-to-load-markdown-into-excel-import-markdown-file-with-as/)
+- [Convert markdown to Excel – Complete C# Guide]({{< relref "convert-markdown-to-excel-complete-c-guide/_index.md" >}})
+- [How to Load Markdown into Excel – Complete C# Guide]({{< relref "how-to-load-markdown-into-excel-complete-c-guide/_index.md" >}})
+- [How to Load Markdown into Excel – Import Markdown File with Aspose.Cells]({{< relref "../data-loading-and-parsing/how-to-load-markdown-into-excel-import-markdown-file-with-as/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

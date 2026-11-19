@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-11-19
-description: Learn how to copy range using CopyOptions in Aspose.Cells, preserving
-  formatting and pivot tables while copying an Excel range with formatting.
+description: Learn how to duplicate a cell range with full formatting and pivot tables preserved.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
@@ -14,12 +13,9 @@ keywords:
 - Excel automation C#
 language: en
 lastmod: 2026-11-19
-og_description: Copy range using CopyOptions in Aspose.Cells lets you duplicate Excel
-  data with full formatting and pivot tables preserved, enabling reliable workbook
-  manipulation.
-og_image_alt: Screenshot of C# code that copies an Excel range using Aspose.Cells
-  CopyOptions
-og_title: Copy range using CopyOptions in Aspose.Cells – step‑by‑step guide
+og_description: Duplicate a cell range with full formatting and pivot tables preserved, enabling reliable workbook manipulation.
+og_image_alt: Screenshot of C# code that copies an Excel range using Aspose.Cells CopyOptions
+og_title: Duplicate a cell range while preserving formatting and pivot tables – step‑by‑step guide
 schemas:
 - author: Aspose
   dateModified: '2026-11-19'
@@ -53,7 +49,7 @@ tags:
 - Aspose.Cells
 - C#
 - Excel automation
-title: How to copy range using CopyOptions in Aspose.Cells
+title: How to duplicate a cell range while preserving formatting and pivot tables
 url: /net/range-management/how-to-copy-range-using-copyoptions-in-aspose-cells/
 ---
 
@@ -260,7 +256,7 @@ Next steps you might explore:
 Feel free to experiment with different source/destination coordinates, and share your results in the comments!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.

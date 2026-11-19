@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-11-19
-description: Set cell number format in C# and learn how to apply Excel date format
-  for Japanese era dates, enabling reliable C# Excel date conversion.
+description: Learn to format Excel cells and convert Japanese era dates in C# without relying on product‑specific terminology.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
@@ -16,8 +15,8 @@ language: en
 lastmod: 2026-11-19
 og_description: Set cell number format in C# and apply Excel date format to Japanese
   era dates. Follow this complete guide for accurate C# Excel date conversion.
-og_image_alt: Screenshot showing a C# code editor with set cell number format applied
-  to an Excel cell
+og_image_alt: Screenshot showing a C# code editor with set cell number format
+  applied to an Excel cell
 og_title: Set cell number format and convert Japanese dates in C# – step‑by‑step guide
 schemas:
 - author: Aspose
@@ -55,7 +54,7 @@ tags:
 - Excel
 - Aspose.Cells
 - Date conversion
-title: Set cell number format and convert Japanese dates in C#
+title: How to set cell number format and convert Japanese dates in C# using Aspose.Cells
 url: /net/excel-custom-number-date-formatting/set-cell-number-format-and-convert-japanese-dates-in-c/
 ---
 
@@ -235,14 +234,14 @@ You now know how to **set cell number format** in C# using Aspose.Cells, how to 
 * Explore other built‑in format IDs
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [set excel date format in C# – Complete Step‑by‑Step Guide](/cells/english/net/excel-custom-number-date-formatting/set-excel-date-format-in-c-complete-step-by-step-guide/)
-- [How to apply number format excel with Aspose.Cells](/cells/english/net/excel-custom-number-date-formatting/how-to-apply-number-format-excel-with-aspose-cells/)
-- [How to apply a custom number format excel in C#](/cells/english/net/excel-custom-number-date-formatting/how-to-apply-a-custom-number-format-excel-in-c/)
+- [set excel date format in C# – Complete Step‑by‑Step Guide]({{< relref "/cells/english/net/excel-custom-number-date-formatting/set-excel-date-format-in-c-complete-step-by-step-guide/" >}})
+- [How to apply number format excel with Aspose.Cells]({{< relref "/cells/english/net/excel-custom-number-date-formatting/how-to-apply-number-format-excel-with-aspose-cells/" >}})
+- [How to apply a custom number format excel in C#]({{< relref "/cells/english/net/excel-custom-number-date-formatting/how-to-apply-a-custom-number-format-excel-in-c/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

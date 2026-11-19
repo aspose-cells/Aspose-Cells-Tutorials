@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-11-19
-description: Learn how to delete table from Excel in C#. This tutorial also shows
-  how to read Excel file C# and load Excel workbook C# with a complete code example.
+description: Learn how to modify a spreadsheet's table structure using C#. This tutorial also shows how to read a spreadsheet file and load a workbook with a complete code example.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
@@ -23,13 +22,13 @@ schemas:
   dateModified: '2026-11-19'
   description: Learn how to delete table from Excel in C#. This tutorial also shows
     how to read Excel file C# and load Excel workbook C# with a complete code example.
-  headline: How to delete table from Excel using C# – step‑by‑step guide
+  headline: Managing spreadsheet tables with C# – step‑by‑step guide
   type: TechArticle
 tags:
 - C#
 - Excel automation
 - Aspose.Cells
-title: How to delete table from Excel using C# – step‑by‑step guide
+title: Managing spreadsheet tables with C# – step‑by‑step guide
 url: /net/tables-and-lists/how-to-delete-table-from-excel-using-c-step-by-step-guide/
 ---
 
@@ -237,14 +236,14 @@ You have learned how to **delete table from Excel** using C#. The guide covered 
 Feel free to experiment with multiple tables, different worksheets, or alternative libraries such as EPPlus if you prefer an open‑source solution. Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Read Excel File C# – How to Load Excel Workbook C# Efficiently](/cells/english/net/loading-and-saving-excel-files-with-options/read-excel-file-c-how-to-load-excel-workbook-c-efficiently/)
-- [How to delete rows from an Excel table and change its name in C#](/cells/english/net/tables-and-lists/how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
-- [How to Rename Table in Excel with C# – Step‑by‑Step Guide](/cells/english/net/tables-and-lists/how-to-rename-table-in-excel-with-c-step-by-step-guide/)
+- [Read Excel File C# – How to Load Excel Workbook C# Efficiently]({{< relref "../loading-and-saving-excel-files-with-options/read-excel-file-c-how-to-load-excel-workbook-c-efficiently/_index.md" >}})
+- [How to delete rows from an Excel table and change its name in C#]({{< relref "../tables-and-lists/how-to-delete-rows-from-an-excel-table-and-change-its-name-i/_index.md" >}})
+- [How to Rename Table in Excel with C# – Step‑by‑Step Guide]({{< relref "../tables-and-lists/how-to-rename-table-in-excel-with-c-step-by-step-guide/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

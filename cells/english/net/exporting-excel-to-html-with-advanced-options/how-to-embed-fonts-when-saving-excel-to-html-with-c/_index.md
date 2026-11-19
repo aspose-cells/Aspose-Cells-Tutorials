@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-11-19
-description: How to embed fonts when saving Excel to HTML using C#. Export Excel to
-  HTML with embedded fonts for consistent rendering across browsers.
+description: How to embed fonts when saving Excel to HTML using Aspose.Cells for C#. Export Excel to HTML with embedded fonts for consistent rendering across browsers.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
@@ -66,7 +65,7 @@ tags:
 - C#
 - Aspose.Cells
 - HTML export
-title: How to embed fonts when saving Excel to HTML with C#
+title: How to embed fonts when saving Excel to HTML with Aspose.Cells for C#
 url: /net/exporting-excel-to-html-with-advanced-options/how-to-embed-fonts-when-saving-excel-to-html-with-c/
 ---
 
@@ -271,14 +270,14 @@ You now know **how to embed fonts when saving Excel to HTML** using C#. By confi
 Feel free to experiment with different fonts, larger worksheets, or multi‑sheet workbooks. The same `EmbedFonts` flag works across all supported output formats, giving you consistent control over font embedding wherever you need it. Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to embed fonts when exporting Excel to HTML with C#](/cells/english/net/exporting-excel-to-html-with-advanced-options/how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
-- [How to embed fonts when exporting Excel to HTML – Complete C# Guide](/cells/english/net/exporting-excel-to-html-with-advanced-options/how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
-- [How to use wrapcols and embed fonts saving Excel to HTML](/cells/english/net/exporting-excel-to-html-with-advanced-options/how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
+- [How to embed fonts when exporting Excel to HTML with C#]({{< relref "cells/english/net/exporting-excel-to-html-with-advanced-options/how-to-embed-fonts-when-exporting-excel-to-html-with-c/" >}})
+- [How to embed fonts when exporting Excel to HTML – Complete C# Guide]({{< relref "cells/english/net/exporting-excel-to-html-with-advanced-options/how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/" >}})
+- [How to use wrapcols and embed fonts saving Excel to HTML]({{< relref "cells/english/net/exporting-excel-to-html-with-advanced-options/how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
