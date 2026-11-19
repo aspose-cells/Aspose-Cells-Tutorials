@@ -76,6 +76,8 @@
 
 ### [كيفية إنشاء ملف Excel من قالب وإنشاء أوراق متكررة](./how-to-create-excel-from-template-and-generate-repeated-shee)
 
+### [كيفية إنشاء ملف Excel من قالب باستخدام C# و Aspose.Cells](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

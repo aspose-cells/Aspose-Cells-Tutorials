@@ -170,6 +170,8 @@ Voor een robuuste implementatie van de formule:
 Wanneer u deze formulemogelijkheden onder de knie krijgt met Aspose.Cells voor .NET, kunt u geavanceerde berekeningsengines in uw spreadsheets maken die nauwkeurige, dynamische resultaten leveren zonder dat u Excel hoeft te installeren.
 ### [Hoe cotangens te berekenen in Excel met C# – Werkmap maken, EXPAND gebruiken en opslaan](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
 Leer hoe u met Aspose.Cells cotangens berekent, een werkmap maakt, de EXPAND-functie toepast en het bestand opslaat via C#.
+### [Hoe cotangens te berekenen in C# met de EXPAND-functie](./how-to-calculate-cotangent-in-c-using-the-expand-function)
+Leer hoe u cotangens berekent in Excel met C# en de EXPAND-functie via Aspose.Cells.
 ### [Arrayformule schrijven in C# – Complete programmeergids](./write-array-formula-in-c-complete-programming-guide/)
 Leer hoe u met Aspose.Cells voor .NET arrayformules in C# kunt schrijven en toepassen in Excel-werkbladen.
 

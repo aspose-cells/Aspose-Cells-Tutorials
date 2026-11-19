@@ -37,6 +37,8 @@ Learn how to apply formatting to an Excel row programmatically using Aspose.Cell
 Learn how to create an Excel workbook, wrap columns, and save it as XLSX using Aspose.Cells for .NET.
 ### [How to Format Excel Columns in C# – Complete Guide](./how-to-format-excel-columns-in-c-complete-guide/)
 Learn how to format Excel columns in C# with Aspose.Cells for .NET. This complete guide walks you through setting styles, widths, and more.
+### [How to use wrapcols in C# to wrap data in Excel](./how-to-use-wrapcols-in-c-to-wrap-data-in-excel/)
+Learn how to use wrapcols in C# to wrap data in Excel using Aspose.Cells for .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

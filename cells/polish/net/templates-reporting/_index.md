@@ -62,6 +62,9 @@ Dowiedz się, jak tworzyć plik Excel z szablonu, wstawiać dane i obrazy oraz z
 ### [Utwórz szablon skoroszytu z Aspose.Cells – Kompletny przewodnik](./create-workbook-template-with-aspose-cells-complete-guide/)
 Dowiedz się, jak krok po kroku stworzyć szablon skoroszytu w Aspose.Cells, aby automatyzować generowanie raportów Excel.
 
+### [Jak wygenerować Excel z szablonu przy użyciu C# i Aspose.Cells](./how-to-generate-excel-from-template-with-c-and-aspose-cells/)
+Dowiedz się, jak programowo tworzyć pliki Excel z szablonu przy użyciu C# i biblioteki Aspose.Cells.
+
 ### [Jak zapisać plik szablonu Excela – przewodnik krok po kroku](./how-to-save-excel-template-file-step-by-step-guide/)
 Dowiedz się, jak w kilku prostych krokach zapisać szablon Excela przy użyciu Aspose.Cells dla .NET.
 

@@ -70,6 +70,9 @@ Learn how to convert a dataset to Excel and fill an Excel template using Aspose.
 ### [How to create Excel from template and generate repeated sheets](./how-to-create-excel-from-template-and-generate-repeated-shee)
 Learn how to generate an Excel workbook from a template and automatically create repeated sheets using Aspose.Cells for .NET.
 
+### [How to generate Excel from template with C# and Aspose.Cells](./how-to-generate-excel-from-template-with-c-and-aspose-cells/)
+Learn how to generate an Excel file from a template using C# and Aspose.Cells with clear step‑by‑step code examples.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

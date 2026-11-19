@@ -64,6 +64,8 @@ Learn how to round numbers during Excel to PDF conversion using Aspose.Cells for
 Learn how to save Word documents as PDF using Aspose.Words for .NET with a complete C# guide.
 ### [How to embed fonts when converting Excel to PDF – Step‑by‑Step Guide](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
 Learn how to embed fonts during Excel to PDF conversion with Aspose.Cells for .NET to ensure text displays correctly.
+### [How to embed fonts when exporting Excel to PDF with C#](./how-to-embed-fonts-when-exporting-excel-to-pdf-with-c/)
+Learn how to embed fonts while exporting Excel to PDF using Aspose.Cells in C# for accurate text rendering.
 ### [Embed Fonts in PDF – Complete C# Guide to Export Excel to PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
 Learn how to embed fonts when exporting Excel to PDF using Aspose.Cells in C#. Ensure text appears correctly across devices.
 ### [How to Export PDF from Excel – Complete Guide to Save Workbook as PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)

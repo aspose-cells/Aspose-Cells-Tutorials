@@ -52,12 +52,12 @@ Megosztott képletekkel való munka során fontos megérteni, hogyan lehet haté
 
 ### [Hogyan számítsuk ki a kotangenset Excelben C#‑val – Lépésről lépésre útmutató](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guide/)
 ### [Hogyan számítsuk ki a kotangenset Excelben C#‑val – Lépésről lépésre útmutató](./how-to-calculate-cotangent-in-excel-with-c-step-by-step-guid/)
-Ismerd meg, hogyan számítható ki a kotangens függvény Excelben C#‑ban, részletes, lépésről‑lépésre útmutatóval.
 ### [Cellák hozzáadása a Microsoft Excel képletfigyelő ablakához](./adding-cells-to-microsoft-excel-formula-watch-window/)
 ### [Képletek kiszámítása Excelben programozottan](./calculating-formulas/)
 ### [Képletek programozott kiszámítása Excelben](./calculating-formulas-once/)
 ### [Körhivatkozások észlelése Excelben programozottan](./detecting-circular-reference/)
 ### [Közvetlen számítási képlet Excelben programozottan](./direct-calculation-formula/)
+### [Excel képlet kiértékelése dinamikus összegzési tartománnyal változók használatával](./evaluate-excel-formula-with-a-dynamic-sum-range-using-variab/)
 ### [Hogyan számítsuk ki a kotangenset Excelben C#-val – Teljes útmutató](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 ### [Munkafüzet képletszámításának megszakítása vagy visszavonása](./interrupt-or-cancel-formula-calculation-of-workbook/)
 ### [Adatfeldolgozás bővítményfüggvények használatával Excelben](./processing-data-using-add-in-function/)
@@ -77,7 +77,7 @@ Ismerd meg, hogyan számítható ki a kotangens függvény Excelben C#‑ban, r�
 ### [Hogyan használjuk a WRAPCOLS‑t – Teljes útmutató C# Excel automatizáláshoz](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
 Ismerje meg a WRAPCOLS függvény használatát C#‑ban az Aspose.Cells for .NET segítségével, lépésről lépésre útmutató.
 ### [Hogyan kényszerítsük a képletszámítást és használjuk a lambda kifejezést Excelben C#-val](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
-Ismerje meg, hogyan kényszerítheti a képletszámítást és használhatja a lambda függvényeket Excelben C#-ban.
+Ismerje meg, hogyan kényszerítheti a képletszámítást és használhatja a lambda függvényeket Excelben C#‑ban.
 ### [Excel munkafüzet létrehozása képletekkel – Teljes lépésről‑lépésre útmutató](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
 Ismerje meg, hogyan hozhat létre teljesen funkcionális Excel munkafüzetet képletekkel lépésről‑lépésre az Aspose.Cells for .NET segítségével.
 

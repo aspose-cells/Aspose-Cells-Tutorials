@@ -55,7 +55,7 @@ C# में Aspose.Cells का उपयोग करके वर्कबु
 
 ### [PDF में फ़ॉन्ट एम्बेड करना – C# में वर्कबुक को PDF के रूप में सहेजें](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 ### [C# के साथ PDF में फ़ॉन्ट एम्बेड करने की पूरी गाइड](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
-C# में Aspose.Cells का उपयोग करके PDF में फ़ॉन्ट एम्बेड करने के चरण-दर-चरण निर्देश।
+C# में Aspose.Cells का उपयोग करके PDF में फ़ॉन्ट एम्बेड करने के चरण‑दर‑चरण निर्देश।
 
 ### [Excel में यूनिकोड डालें और PDF के रूप में सहेजें](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
 Excel में यूनिकोड टेक्स्ट जोड़ें और Aspose.Cells के साथ उसे PDF में बदलें। आसान चरण‑दर‑चरण मार्गदर्शिका।
@@ -77,7 +77,10 @@ C# में Excel को PDF में बदलने के लिए पू�
 ### [डायनामिक एरेज़ के साथ Excel वर्कबुक बनाएं और PDF के रूप में सहेजें](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)
 डायनामिक एरेज़ का उपयोग करके Excel वर्कबुक बनाकर उसे PDF में बदलने की चरण‑दर‑चरण गाइड।
 ### [Aspose.Cells के साथ Excel वर्कबुक से PDF कैसे सहेजें](./how-to-save-pdf-from-an-excel-workbook-with-aspose-cells/)
-Aspose.Cells का उपयोग करके Excel वर्कबुक को PDF फ़ाइल में सहेजने के चरण‑दर‑चरण निर्देश।
+Aspose.Cells का उपयोग करके Excel वर्कबुक को PDF फ़ाइल में सहेजने के चरण‑दर‑शरण निर्देश।
+
+### [C# के साथ Excel को PDF में निर्यात करते समय फ़ॉन्ट एम्बेड करना कैसे करें](./how-to-embed-fonts-when-exporting-excel-to-pdf-with-c/)
+C# में Aspose.Cells का उपयोग करके Excel को PDF में निर्यात करते समय फ़ॉन्ट एम्बेड करने के चरण‑दर‑स्टेप निर्देश।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

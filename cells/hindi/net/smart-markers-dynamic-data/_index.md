@@ -26,6 +26,8 @@
 ## इमेज मार्कर के साथ इमेज डालें
 विज़ुअल रिपोर्ट में जान डाल देते हैं! Aspose.Cells के साथ, आप इमेज मार्कर का उपयोग करके अपनी एक्सेल फ़ाइलों में इमेज डाल सकते हैं। जानें कि अपने एक्सेल सेल में सीधे विज़ुअल को कैसे एकीकृत करें, जिससे आपके दर्शकों को प्रभावित करने वाली अधिक जानकारीपूर्ण, आकर्षक रिपोर्ट बने। [और पढ़ें](./insert-images-smart-markers/)
 
+### [C# के साथ Excel में स्मार्ट मार्कर प्लेसहोल्डर डालें](./insert-smart-marker-placeholder-in-excel-with-c/)
+
 ## स्मार्ट मार्कर में डायनामिक फ़ार्मुलों का उपयोग करें
 सूत्र गणनाओं को स्वचालित कर सकते हैं, जिससे डेटा हैंडलिंग आसान हो जाती है। Aspose.Cells के साथ, आप स्मार्ट मार्कर में गतिशील सूत्रों का उपयोग कर सकते हैं, जिससे नए डेटा के जोड़े जाने पर गणनाएँ अपने आप अपडेट हो जाती हैं। यह सुविधा ऐसी रिपोर्ट बनाने में मदद करती है जो बदलते डेटा के साथ सहजता से अनुकूलित होती हैं, समय की बचत करती हैं और सटीकता में सुधार करती हैं। [और पढ़ें](./dynamic-formulas-smart-markers/)
 
@@ -78,7 +80,7 @@ Aspose.Cells स्मार्ट मार्कर अनाम प्रक�
 
 ### [स्मार्ट मार्करों में जेनेरिक सूची का उपयोग करें Aspose.Cells](./generic-list-smart-markers/)
 
-### [स्मार्ट मार्कर Aspose.Cells .NET में HTML प्रॉपर्टी का उपयोग करें](./html-property-smart-markers/)
+### [Aspose.Cells स्मार्ट मार्कर में HTML प्रॉपर्टी का उपयोग करें](./html-property-smart-markers/)
 
 ### [स्मार्ट मार्करों के साथ नेस्टेड ऑब्जेक्ट्स को संभालें Aspose.Cells](./nested-objects-smart-markers/)
 
@@ -161,7 +163,7 @@ C# में नेस्टेड JSON को पार्स करके JSON
 
 ### [स्मार्ट मार्कर के साथ वर्कबुक बनाना – आउटपुट हाई लो](./how-to-create-workbook-with-smart-markers-output-high-low/)
 
-### [C# में मास्टर‑डिटेल रिपोर्ट बनाएं – स्मार्टमार्कर के साथ Excel टेम्पलेट भरें](./create-master-detail-report-in-c-populate-excel-template-wit/)
+### [C# में मास्टर‑डिटेल रिपोर्ट बनाएं – स्मार्टमार्कर के साथ Excel टेम्प्लेट भरें](./create-master-detail-report-in-c-populate-excel-template-wit/)
 
 ### [Aspose.Cells स्मार्ट मार्कर के साथ एक्सेल रिपोर्ट सूची कैसे बनाएं](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
 
@@ -183,6 +185,8 @@ C# में नेस्टेड JSON को पार्स करके JSON
 ### [मास्टर‑डिटेल एक्सेल गाइड – स्मार्ट मार्कर्स के साथ टेम्प्लेट्स भरें](./master-detail-excel-guide-populate-templates-with-smart-mark/)
 
 ### [वर्कशीट्स को दोहराने का तरीका – एक्सेल ऑटोमेशन के लिए पूर्ण गाइड](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+
+### [SmartMarkerProcessor के साथ Excel में वर्कशीट दोहराने का तरीका](./how-to-repeat-worksheet-in-excel-with-smartmarkerprocessor/)
 
 ### [C# में Excel टेम्प्लेट्स के लिए वर्कशीट स्मार्ट मार्कर का विस्तार करें](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
 

@@ -83,6 +83,8 @@
 
 ### [Πώς να υπολογίσετε την κοτάνγγεντ στο Excel με C# – Δημιουργία βιβλίου εργασίας, χρήση EXPAND και αποθήκευση](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
 
+### [Πώς να υπολογίσετε την κοτάνγγεντ σε C# χρησιμοποιώντας τη λειτουργία EXPAND](./how-to-calculate-cotangent-in-c-using-the-expand-function)
+
 ### [Πώς να χρησιμοποιήσετε Lambda σε C# με τύπους Excel – Πλήρης οδηγός](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
 ### [Δημιουργία βιβλίου εργασίας Excel C# – Οδηγός Lambda, SEQUENCE & EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 Μάθετε πώς να δημιουργήσετε βιβλία εργασίας Excel σε C# χρησιμοποιώντας τις συναρτήσεις Lambda, SEQUENCE και EXPAND του Aspose.Cells.

@@ -34,7 +34,7 @@ Em um contexto semelhante, temos tutoriais que o guiam pela conversão de uma ta
 Por fim, não se esqueça dos comentários! Eles são como post-its para suas tabelas, ajudando você a manter o controle de anotações ou lembretes importantes. Nosso tutorial sobre [Definir comentário de tabela ou lista no Excel](./setting-comment-of-table-or-list/) mostrará como anotar seus dados, adicionando outra camada de organização às suas planilhas. 
 
 ## Ler e escrever tabela com fonte de dados de consulta
-Um dos recursos mais poderosos do Aspose.Cells para .NET é a capacidade de ler e escrever tabelas com fontes de dados de consulta facilmente. Imagine extrair dados diretamente do seu banco de dados para suas planilhas do Excel sem entrada manual — parece prático, certo? Nosso tutorial, [Ler e escrever tabela com fonte de dados de consulta](./reading-and-writing-table-with-query-data-source/), orienta você nesse processo com instruções claras e objetivas. Você aprenderá como se conectar às suas fontes de dados, recuperar informações e apresentá-las de forma elegante no Excel.
+Um dos recursos mais poderosos do Aspose.Cells para .NET é a capacidade de ler e escrever tabelas com fontes de dados de consulta facilmente. Imagine extrair dados diretamente do seu banco de dados para suas planilhas do Excel sem entrada manual — parece prático, certo? Nosso tutorial, [Ler e escrever tabela com fonte de dados de consulta](./reading-and-writing-table-with-query-data-source/), orienta você nesse processo com instruções claras e objetivas. Você aprenderá como se conectar às suas fontes de dados, recuperar informações e apresentá‑las de forma elegante no Excel.
 
 ## Tutoriais de Tabelas e Listas
 ### [Crie um objeto de lista no Excel usando Aspose.Cells](./creating-list-object/)
@@ -68,6 +68,8 @@ Aprenda a renomear tabelas no Excel usando C# com Aspose.Cells de forma simples 
 Aprenda a excluir múltiplas linhas de tabelas no Word usando Aspose.Words para .NET com este guia passo a passo.
 ### [Como excluir linhas de uma tabela do Excel e alterar seu nome em C#](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
 Aprenda a excluir linhas de tabelas do Excel e renomeá‑las usando Aspose.Cells para .NET em C#.
+### [Como excluir tabela do Excel usando C# – guia passo a passo](./how-to-delete-table-from-excel-using-c-step-by-step-guide/)
+Aprenda a excluir uma tabela do Excel usando C# com Aspose.Cells neste guia passo a passo fácil.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

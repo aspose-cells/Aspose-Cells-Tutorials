@@ -54,7 +54,9 @@ Erfahren Sie, wie Sie Excel‑Diagramme mit Aspose.Cells und C# nach PowerPoint 
 
 ### [Diagramm als PNG exportieren – Vollständige Anleitung zum Konvertieren von Excel nach HTML mit Aspose.Cells](./export-chart-as-png-complete-guide-to-convert-excel-to-html/)
 Erfahren Sie, wie Sie Diagramme aus Excel als PNG exportieren und in HTML umwandeln können, Schritt für Schritt mit Aspose.Cells.
-### [Excel-Diagramm nach PowerPoint exportieren mit C# – vollständige Aspose.Cells-Anleitung](./export-excel-chart-to-powerpoint-with-c-complete-aspose-cell/)
+### [Wie man ein Excel‑Diagramm als PNG‑Bild mit C# exportiert](./how-to-export-excel-chart-as-a-png-image-with-c/)
+Erfahren Sie, wie Sie Excel‑Diagramme mithilfe von Aspose.Cells und C# als PNG‑Bilder exportieren.
+### [Excel‑Diagramm nach PowerPoint exportieren mit C# – vollständige Aspose.Cells-Anleitung](./export-excel-chart-to-powerpoint-with-c-complete-aspose-cell/)
 Erfahren Sie, wie Sie Excel‑Diagramme mit Aspose.Cells in PowerPoint‑Präsentationen exportieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

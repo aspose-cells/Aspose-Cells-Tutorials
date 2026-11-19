@@ -115,6 +115,9 @@ Excel 内置了大量函数，可用于执行各种计算和数据操作。了�
 ### [在 C# 中使用 WRAPCOLS 处理 Excel 数组并保存工作簿](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
 使用 Aspose.Cells for .NET 在 C# 中通过 WRAPCOLS 将数组转换为矩阵并保存工作簿的分步指南。
 
+### [使用变量评估具有动态求和范围的 Excel 公式](./evaluate-excel-formula-with-a-dynamic-sum-range-using-variab/)
+通过 Aspose.Cells for .NET 使用变量动态设置求和范围并评估 Excel 公式的分步指南。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

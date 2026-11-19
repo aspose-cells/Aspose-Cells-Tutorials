@@ -102,11 +102,15 @@ Tìm hiểu cách nhúng phông chữ vào HTML từ Excel bằng Aspose.Cells c
 ### [Cách nhúng phông chữ vào HTML khi lưu workbook](./how-to-embed-fonts-in-html-when-saving-a-workbook/)
 Hướng dẫn chi tiết cách nhúng phông chữ vào HTML khi lưu workbook bằng Aspose.Cells cho .NET.
 ### [Cách xuất Excel sang HTML – Hướng dẫn từng bước](./how-to-export-excel-to-html-step-by-step-guide/)
-Hướng dẫn chi tiết các bước để xuất tệp Excel sang HTML bằng Aspose.Cells cho .NET, phù hợp cho người mới bắt đầu.
+Tìm hiểu các bước để xuất tệp Excel sang HTML bằng Aspose.Cells cho .NET, phù hợp cho người mới bắt đầu.
+### [Cách chuyển đổi Excel sang HTML với định dạng đầy đủ trong C#](./how-to-convert-excel-to-html-with-full-formatting-in-c/)
+Tìm hiểu cách chuyển đổi tệp Excel sang HTML giữ nguyên toàn bộ định dạng bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết bằng C#.
 ### [Nhúng phông chữ trong HTML – Xuất Excel sang HTML bằng C#](./embed-fonts-in-html-export-excel-to-html-with-c/)
-Tìm hiểu cách nhúng phông chữ trong HTML khi xuất Excel sang HTML bằng C# với Aspose.Cells cho .NET trong hướng dẫn chi tiết.
+Tìm hiểu cách nhúng phông chữ trong HTML khi xuất Excel sang HTML bằng C# với Aspose.Cells cho .NET.
 ### [Cách nhúng phông chữ khi chuyển đổi Excel sang HTML với Aspose.Cells](./how-to-embed-fonts-when-converting-excel-to-html-with-aspose/)
 Hướng dẫn chi tiết cách nhúng phông chữ vào HTML khi chuyển đổi tệp Excel bằng Aspose.Cells cho .NET.
+### [Cách nhúng phông chữ khi lưu Excel thành HTML bằng C#](./how-to-embed-fonts-when-saving-excel-to-html-with-c/)
+Tìm hiểu cách nhúng phông chữ vào HTML khi lưu tệp Excel bằng C# với Aspose.Cells cho .NET.
 ### [Chuyển đổi Excel sang HTML trong C# – Hướng dẫn toàn diện](./convert-excel-to-html-in-c-complete-guide/)
 Tìm hiểu cách chuyển đổi tệp Excel sang HTML bằng C# với Aspose.Cells cho .NET trong hướng dẫn chi tiết từng bước.
 ### [Tạo tùy chọn lưu HTML trong C# – Hướng dẫn đầy đủ](./create-html-save-options-in-c-full-guide/)

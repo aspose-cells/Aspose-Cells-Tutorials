@@ -60,6 +60,9 @@ Naučte se, jak pomocí Aspose.Words pro .NET smazat řádky v tabulce Word pomo
 ### [Smazání řádků z Excel tabulky a změna jejího názvu v C#](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
 Naučte se, jak smazat řádky z Excel tabulky a změnit její název v C# pomocí Aspose.Cells.
 
+### [Jak smazat tabulku v Excelu pomocí C# – krok za krokem](./how-to-delete-table-from-excel-using-c-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Cells v C# smazat tabulku v Excelu v podrobném průvodci krok za krokem.
+
 
 
 

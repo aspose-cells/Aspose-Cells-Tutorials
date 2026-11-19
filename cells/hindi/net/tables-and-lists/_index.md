@@ -73,6 +73,8 @@ C# में Word तालिका से पंक्तियों को �
 ### [C# में Excel तालिका से पंक्तियों को हटाएँ और उसका नाम बदलें](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
 C# कोड के साथ Excel तालिका से पंक्तियों को हटाएँ और तालिका का नाम बदलें।
 
+### [C# का उपयोग करके Excel से तालिका हटाएँ – चरण‑दर‑चरण गाइड](./how-to-delete-table-from-excel-using-c-step-by-step-guide/)
+
 ### [Aspose.Cells में तालिका हेडर हटाएँ – पूर्ण गाइड](./remove-table-header-in-aspose-cells-complete-guide/)
 Aspose.Cells का उपयोग करके Excel तालिका के हेडर को हटाने की पूरी प्रक्रिया सीखें। सरल चरणों में डेटा को साफ़ करें।
 ### [C# के साथ Excel में तालिका का नाम बदलें – चरण‑दर‑चरण गाइड](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)

@@ -34,6 +34,8 @@ Este tutorial te capacitará para importar tus conjuntos de datos manteniendo la
 Aprenda a comparar valores de celdas de Excel con formatos numéricos personalizados usando Aspose.Cells para .NET con este tutorial paso a paso.
 ### [Especificar campos de fórmula al importar datos a una hoja de Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Aprenda a importar datos a hojas de Excel con campos de fórmula específicos usando Aspose.Cells para .NET en este tutorial detallado.
+### [Establecer formato de moneda al importar datos a Excel usando C#](./set-currency-format-while-importing-data-into-excel-using-c/)
+Aprenda a aplicar formato de moneda al importar datos a Excel usando Aspose.Cells para .NET con C# paso a paso.
 ### [Crear libro de Excel con formato personalizado – Guía C#](./create-excel-workbook-with-custom-format-c-guide/)
 Aprenda a crear un libro de Excel con formatos personalizados usando Aspose.Cells para .NET en C# paso a paso.
 ### [Analizar fecha de era japonesa en C# con Aspose.Cells – Guía completa](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
@@ -59,24 +61,14 @@ Aprenda a analizar y convertir fechas en hojas de Excel usando C# y Aspose.Cells
 ### [Cómo convertir una fecha de era japonesa a gregoriano en C#](./how-to-convert-japanese-era-date-to-gregorian-in-c/)
 Aprenda a convertir fechas de la era japonesa al calendario gregoriano en C# usando Aspose.Cells.
 
-
-
-
 ### [Analizar DateTime con el reinado del emperador japonés usando Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
 Aprenda a analizar valores DateTime que incluyen el reinado del emperador japonés en Excel con Aspose.Cells para .NET.
-
-
-
 
 ### [Establecer formato personalizado de celda en C# – Guía completa para escribir y leer fechas en Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 Aprenda a aplicar y leer formatos de fecha personalizados en celdas de Excel usando Aspose.Cells para .NET con ejemplos claros.
 
-
-
-
-
-
-
+### [Establecer formato de número de celda y convertir fechas japonesas en C#](./set-cell-number-format-and-convert-japanese-dates-in-c/)
+Aprenda a establecer el formato numérico de una celda y convertir fechas japonesas en C# usando Aspose.Cells paso a paso.
 
 ### [Convertir cadena a DateTime en C# – Escribir y leer fechas en Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 Aprenda a convertir cadenas a DateTime y a escribir/leer fechas en Excel con Aspose.Cells para .NET.

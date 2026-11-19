@@ -112,6 +112,9 @@
 ### [使用 EXPAND 公式创建 Excel 工作簿 – 完整指南](./create-excel-workbook-with-expand-formula-complete-guide/)
 学习如何使用 Aspose.Cells for .NET 在工作簿中创建并使用 EXPAND 公式，实现动态数组自动扩展。
 
+### [如何在 C# 中使用 EXPAND 函数计算余切](./how-to-calculate-cotangent-in-c-using-the-expand-function/)
+使用 Aspose.Cells for .NET 通过 EXPAND 函数在 C# 中计算余切并生成工作簿。
+
 ## 了解 Excel 公式类型
 
 Excel 公式有多种形式，每种形式都具有 Aspose.Cells 可以管理的独特特性：

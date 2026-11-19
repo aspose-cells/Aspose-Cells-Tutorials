@@ -111,6 +111,8 @@ Aprenda a actualizar mediante programación fórmulas de Power Query en libros d
 Aprenda a aplicar expresiones Lambda en C# para crear y calcular fórmulas de Excel mediante Aspose.Cells, mejorando la flexibilidad y el rendimiento.
 ### [Cómo calcular la cotangente en Excel con C# – Crear libro de trabajo, usar EXPAND y guardar](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
 Aprenda a calcular la cotangente en Excel usando C#, crear un libro, aplicar la función EXPAND y guardar el archivo.
+### [Cómo calcular la cotangente en C# usando la función EXPAND](./how-to-calculate-cotangent-in-c-using-the-expand-function)
+Aprenda a calcular la cotangente en Excel usando C# y la función EXPAND con Aspose.Cells para .NET.
 ### [Cómo usar SEQUENCE en C# – Crear libro de Excel](./how-to-use-sequence-in-c-create-excel-workbook/)
 Aprenda a generar secuencias dinámicas en Excel usando la función SEQUENCE con Aspose.Cells para .NET en C#.
 

@@ -74,6 +74,10 @@
 
 ### [Как удалить строки из таблицы Excel и изменить её имя в C#](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
 Узнайте, как удалять строки из таблицы Excel и менять её название с помощью Aspose.Cells для .NET в C#.
+
+### [Как удалить таблицу из Excel с помощью C# – пошаговое руководство](./how-to-delete-table-from-excel-using-c-step-by-step-guide/)
+Узнайте, как удалить таблицу из Excel с помощью Aspose.Cells для .NET, следуя пошаговому руководству на C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

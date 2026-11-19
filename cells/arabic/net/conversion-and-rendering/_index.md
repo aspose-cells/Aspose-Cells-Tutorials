@@ -43,6 +43,8 @@
 تعلم كيفية إنشاء صورة PNG من جدول Pivot في Excel باستخدام Aspose.Cells وC# خطوة بخطوة.
 ### [كيفية تحميل ملف Markdown وتحويله إلى Excel – دليل خطوة بخطوة](./how-to-load-markdown-and-convert-it-to-excel-step-by-step-gu/)
 تعلم كيفية قراءة ملفات Markdown وتحويل محتواها إلى جدول Excel باستخدام Aspose.Cells خطوة بخطوة.
+### [كيفية إنشاء Excel من Markdown في C# – دليل خطوة بخطوة](./how-to-create-excel-from-markdown-in-c-step-by-step-guide/)
+تعلم كيفية إنشاء ملف Excel من محتوى Markdown باستخدام C# و Aspose.Cells خطوة بخطوة.
 ### [حفظ ملف docx كـ txt – تحويل Word إلى txt بسهولة باستخدام Aspose.Words](./save-docx-as-txt-convert-word-to-txt-easily-with-aspose-word/)
 تعلم كيفية تحويل مستندات Word إلى ملفات نصية بصيغة txt بسهولة باستخدام Aspose.Words في .NET.
 ### [كيفية تحميل Markdown إلى Excel – دليل C# كامل](./how-to-load-markdown-into-excel-complete-c-guide/)

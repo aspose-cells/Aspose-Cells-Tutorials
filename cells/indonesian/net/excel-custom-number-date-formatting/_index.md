@@ -71,12 +71,8 @@ Pelajari cara mengonversi tanggal era Jepang menjadi tanggal Gregorian menggunak
 ### [Set Format Kustom Sel di C# – Panduan Lengkap Menulis & Membaca Tanggal di Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 Pelajari cara mengatur format kustom sel di C# serta menulis dan membaca tanggal di Excel dengan panduan lengkap ini.
 
-
-
-
-
-
-
+### [Atur format nomor sel dan konversi tanggal Jepang di C#](./set-cell-number-format-and-convert-japanese-dates-in-c/)
+Pelajari cara mengatur format nomor sel dan mengonversi tanggal era Jepang di C# menggunakan Aspose.Cells.
 
 ### [Mengonversi String ke DateTime di C# – Menulis & Membaca Tanggal di Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 Pelajari cara mengonversi string menjadi DateTime dan menulis serta membaca tanggal di Excel menggunakan Aspose.Cells untuk .NET.
@@ -99,16 +95,13 @@ Pelajari cara menerapkan format angka di Excel menggunakan Aspose.Cells dalam tu
 ### [Cara menerapkan format angka kustom di Excel dengan C#](./how-to-apply-a-custom-number-format-excel-in-c/)
 Panduan langkah demi langkah untuk menerapkan format angka kustom pada file Excel menggunakan C# dan Aspose.Cells.
 
-
-
-
-
-
-
 ### [Format Kolom Tanggal Excel – Panduan Lengkap C# untuk Mengekspor DataTable](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
 Pelajari cara memformat kolom tanggal di Excel dan mengekspor DataTable menggunakan C# dengan panduan langkah demi langkah ini.
 ### [Konversi Kalender Jepang di C# – Panduan Lengkap](./japanese-calendar-conversion-in-c-full-guide/)
 Pelajari cara mengonversi kalender Jepang di C# dengan panduan lengkap ini.
+
+### [Atur format mata uang saat mengimpor data ke Excel menggunakan C#](./set-currency-format-while-importing-data-into-excel-using-c/)
+Pelajari cara mengatur format mata uang saat mengimpor data ke file Excel menggunakan C# dengan Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

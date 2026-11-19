@@ -60,17 +60,12 @@ Leer hoe u rijen uit een Word-tabel verwijdert met Aspose.Words voor .NET in C# 
 ### [Rijen verwijderen uit een Excel-tabel en de naam wijzigen in C#](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
 Leer hoe u rijen uit een Excel‑tabel verwijdert en de tabelnaam aanpast met Aspose.Cells voor .NET in C#.
 
-
-
-
-
-
-
-
 ### [Hoe een tabel hernoemen in Excel met C# – Stapsgewijze handleiding](./how-to-rename-table-in-excel-with-c-step-by-step-guide/)
 Leer hoe u een tabel in Excel hernoemt met C# in een eenvoudige stap‑voor‑stap gids.
 ### [Verwijder tabelkop in Aspose.Cells – Complete gids](./remove-table-header-in-aspose-cells-complete-guide/)
 Leer hoe u met Aspose.Cells de tabelkop uit een Excel-werkblad verwijdert in een volledige stap‑voor‑stap gids.
+### [Hoe een tabel uit Excel te verwijderen met C# – Stapsgewijze handleiding](./how-to-delete-table-from-excel-using-c-step-by-step-guide/)
+Leer stap voor stap hoe u een tabel uit een Excel‑werkblad verwijdert met Aspose.Cells voor .NET in C#.
 ### [Meerdere rijen verwijderen in Word – Complete gids voor het verwijderen van tabelrijen](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
 Leer hoe u meerdere rijen uit een Word-tabel verwijdert met Aspose.Words voor .NET in een eenvoudige stapsgewijze handleiding.
 

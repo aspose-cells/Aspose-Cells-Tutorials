@@ -76,6 +76,9 @@ Veri kümesini Excel dosyasına dönüştürüp, bir şablona otomatik olarak ve
 
 ### [Şablondan Excel Oluşturma ve Tekrarlanan Sayfalar Oluşturma](./how-to-create-excel-from-template-and-generate-repeated-shee)
 
+### [C# ve Aspose.Cells ile Şablondan Excel Oluşturma](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
+C# ve Aspose.Cells kullanarak bir Excel şablonundan dinamik raporlar oluşturmayı öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -62,7 +62,7 @@ Leer hoe u rijen en kolommen in Excel kunt verbergen met Aspose.Cells voor .NET.
 Leer hoe u automatisch kolommen in Excel kunt aanpassen met Aspose.Cells voor .NET. Deze handleiding behandelt de installatie, code-implementatie in C# en praktische toepassingen om ervoor te zorgen dat uw gegevens optimaal worden weergegeven zonder handmatige aanpassing van de kolombreedte.
 
 ### [Meerdere kolommen kopiëren in Excel met Aspose.Cells .NET: een uitgebreide handleiding](./copy-multiple-columns-excel-aspose-cells-net-guide)
-Leer hoe u efficiënt meerdere kolommen in Excel kunt kopiëren met Aspose.Cells voor .NET met deze gedetailleerde handleiding. Verbeter uw gegevensbeheertaken en verbeter uw productiviteit door middel van programmatische kolomduplicatie.
+Leer hoe u efficiënt meerdere kolommen in Excel kunt kopiëren met Aspose.Cells .NET met deze gedetailleerde handleiding. Verbeter uw gegevensbeheertaken en verbeter uw productiviteit door middel van programmatische kolomduplicatie.
 
 ### [Benoemde bereiken kopiëren in C# met Aspose.Cells: een stapsgewijze handleiding](./copy-named-ranges-csharp-aspose-cells-guide)
 Leer hoe u efficiënt benoemde bereiken in Excel-bestanden kunt kopiëren met Aspose.Cells voor .NET met deze uitgebreide handleiding. Beheers bereikbeheer en verbeter uw vaardigheden in datamanipulatie door benoemde bereiken te dupliceren met hun waarden en opmaak.
@@ -126,6 +126,10 @@ Leer hoe u gesplitste deelvensters uit Excel-werkmappen verwijdert met Aspose.Ce
 
 ### [Rijen en kolommen zichtbaar maken in Excel met Aspose.Cells voor .NET - Een uitgebreide handleiding](./unhide-rows-columns-aspose-cells-net)
 Leer hoe u rijen en kolommen in Excel efficiënt zichtbaar kunt maken met Aspose.Cells voor .NET. Deze handleiding behandelt alles, van het instellen van uw omgeving tot het optimaliseren van de prestaties bij het weergeven van verborgen inhoud.
+
+### [Hoe bereik kopiëren met CopyOptions in Aspose.Cells](./how-to-copy-range-using-copyoptions-in-aspose-cells/)
+
+ Leer hoe u een bereik kunt kopiëren met behulp van CopyOptions in Aspose.Cells voor .NET.
 
 ## Geavanceerde technieken voor bereikbeheer
 

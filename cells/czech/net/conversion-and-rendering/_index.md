@@ -83,6 +83,8 @@ Naučte se, jak pomocí Aspose.Words převést DOCX do HTML a zachovat všechny 
 Naučte se, jak vložit písma z dokumentu DOCX do HTML pomocí Aspose.Words v .NET v tomto podrobném průvodci.
 ### [Jak převést JSON do Excel v C# s jednou buňkou oddělenou čárkou](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
 Naučte se převést JSON do Excel v C# pomocí jedné buňky s čárkou oddělených hodnot.
+### [Jak vytvořit Excel z Markdownu v C# – krok‑za‑krokem průvodce](./how-to-create-excel-from-markdown-in-c-step-by-step-guide/)
+Naučte se pomocí Aspose.Cells v C# převést soubor Markdown na sešit Excel v podrobném krok‑za‑krokem návodu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

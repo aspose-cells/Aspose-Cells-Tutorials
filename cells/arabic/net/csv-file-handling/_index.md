@@ -29,6 +29,9 @@
 
 
 ## دروس تعليمية حول التعامل مع ملفات CSV
+### [How to save workbook as CSV in C# – step‑by‑step guide](./how-to-save-workbook-as-csv-in-c-step-by-step-guide/)
+
+
 ### [فتح ملفات CSV](./csv-file-opening-csv-files/)
 تعرّف على كيفية فتح ملفات CSV باستخدام Aspose.Cells لـ .NET من خلال دليلنا الشامل خطوة بخطوة. إتقان معالجة البيانات.
 ### [فتح ملفات CSV باستخدام المحلل المفضل](./csv-file-opening-csv-files-with-preferred-parser/)

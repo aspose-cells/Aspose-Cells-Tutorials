@@ -76,6 +76,9 @@ Learn how to manage merged cells in Excel with Aspose.Cells for .NET. This guide
 ### [Copy Data in Excel Using Aspose.Cells for .NET&#58; A Step-by-Step Guide](./excel-aspose-cells-dotnet-copy-range-data)
 Learn how to efficiently copy data between ranges in Excel using Aspose.Cells for .NET. Master data manipulation without altering source formatting, with options for values-only copying or including formulas and styles.
 
+### [How to copy range using CopyOptions in Aspose.Cells](./how-to-copy-range-using-copyoptions-in-aspose-cells)
+Learn how to copy a range with custom CopyOptions in Aspose.Cells for .NET, preserving formatting, formulas, and more.
+
 ### [Excel Automation with Aspose.Cells&#58; Create & Merge Ranges](./excel-automation-aspose-cells-create-merge-ranges)
 Discover how to create and merge ranges programmatically with Aspose.Cells for .NET. This tutorial demonstrates how to define ranges and combine cells efficiently for better data presentation in your Excel documents.
 

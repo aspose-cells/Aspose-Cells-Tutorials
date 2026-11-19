@@ -56,6 +56,8 @@ Apprenez à enregistrer un classeur Excel en PDF avec Aspose.Cells en C# grâce 
 Apprenez à incorporer les polices dans un PDF lors de l’enregistrement d’un classeur en C# avec Aspose.Cells.
 ### [Comment intégrer des polices dans un PDF avec C# – Guide complet](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
 Apprenez à intégrer les polices dans vos PDF avec C# pour garantir un rendu correct sur tous les appareils.
+### [Comment intégrer des polices lors de l'exportation d'Excel en PDF avec C#](./how-to-embed-fonts-when-exporting-excel-to-pdf-with-c/)
+Apprenez à intégrer les polices lors de l'exportation d'un classeur Excel en PDF avec C# grâce à Aspose.Cells.
 ### [Comment insérer Unicode dans Excel et enregistrer en PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
 Apprenez à insérer des caractères Unicode dans vos feuilles Excel et à les convertir en PDF avec Aspose.Cells pour .NET.
 ### [Comment arrondir les nombres lors de la conversion d'Excel en PDF – Guide complet C#](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)

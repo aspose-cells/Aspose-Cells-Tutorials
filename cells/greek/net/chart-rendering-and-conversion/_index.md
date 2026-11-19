@@ -55,6 +55,8 @@
 ### [Εξαγωγή γραφήματος ως PNG – Πλήρης οδηγός για μετατροπή Excel σε HTML με Aspose.Cells](./export-chart-as-png-complete-guide-to-convert-excel-to-html/)
 Μάθετε πώς να εξάγετε γραφήματα Excel ως PNG και να τα ενσωματώσετε σε HTML χρησιμοποιώντας το Aspose.Cells.
 ### [Πώς να προσθέσετε γράφημα στο Word με Aspose – ενσωμάτωση γραφήματος Excel](./how-to-add-chart-to-word-with-aspose-embed-excel-chart/)
+### [Πώς να εξάγετε γράφημα Excel ως εικόνα PNG με C#](./how-to-export-excel-chart-as-a-png-image-with-c/)
+Μάθετε πώς να εξάγετε γραφήματα Excel ως εικόνες PNG χρησιμοποιώντας C# και Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

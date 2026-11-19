@@ -52,6 +52,8 @@ Aspose.Cells for .NET kullanarak Excel grafiğini PowerPoint sunumuna aktarmayı
 Aspose kullanarak C# ile Excel grafiğini Word belgesine gömerek nasıl ekleyeceğinizi adım adım öğrenin.
 ### [C# ile Excel grafiğini PowerPoint'e dışa aktar](./how-to-export-excel-charts-to-powerpoint-using-c/)
 Aspose.Cells for .NET kullanarak C# ile Excel grafiğinizi PowerPoint sunumuna nasıl aktaracağınızı adım adım öğrenin.
+### [C# ile Excel grafiğini PNG olarak dışa aktar](./how-to-export-excel-chart-as-a-png-image-with-c/)
+Aspose.Cells for .NET kullanarak C# ile Excel grafiğinizi PNG görüntüsü olarak dışa aktarmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

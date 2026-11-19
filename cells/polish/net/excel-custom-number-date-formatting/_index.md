@@ -73,9 +73,11 @@ Dowiedz się, jak w Aspose.Cells dla .NET utworzyć nowy skoroszyt i przekształ
 ### [Jak utworzyć skoroszyt Excel i parsować japońskie daty w C#](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
 Dowiedz się, jak w Aspose.Cells dla .NET utworzyć skoroszyt Excel i parsować japońskie daty w C# krok po kroku.
 ### [Ustaw format daty w Excelu w C# – Kompletny przewodnik krok po kroku](./set-excel-date-format-in-c-complete-step-by-step-guide/)
-Dowiedz się, jak ustawić format daty w arkuszach Excel przy użyciu Aspose.Cells dla .NET w języku C#, krok po kroku.
+Dowiedz się, jak w C# przy użyciu Aspose.Cells sformatować kolumnę dat i wyeksportować DataTable do pliku Excel.
 ### [Ustaw format daty w Excelu przy użyciu C# – Kompletny przewodnik formatowania importu](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
 Dowiedz się, jak ustawić format daty w Excelu przy użyciu C# i Aspose.Cells dla .NET, obejmując pełne formatowanie importu.
+### [Ustaw format liczbowy komórki i konwertuj japońskie daty w C#](./set-cell-number-format-and-convert-japanese-dates-in-c/)
+Dowiedz się, jak ustawić format liczbowy komórki i przetworzyć japońskie daty w Excelu przy użyciu Aspose.Cells w C#.
 ### [Utwórz skoroszyt Excel z datami kalendarza japońskiego – pełny przewodnik](./create-excel-workbook-with-japanese-calendar-dates-full-guid/)
 Dowiedz się, jak przy użyciu Aspose.Cells tworzyć skoroszyty Excel z datami w kalendarzu japońskim, krok po kroku w pełnym przewodniku.
 ### [Utwórz skoroszyt Excel w C# – Ogranicz znaczące cyfry w Excel](./create-excel-workbook-c-limit-significant-digits-excel/)
@@ -90,6 +92,8 @@ Kompletny przewodnik, jak w C# konwertować daty z kalendarza japońskiego przy 
 Dowiedz się, jak wykorzystać CultureInfo japońskiego kalendarza w C# do zapisywania dat w plikach Excel przy użyciu Aspose.Cells.
 ### [Jak zastosować niestandardowy format liczbowy w Excelu w C#](./how-to-apply-a-custom-number-format-excel-in-c/)
 Dowiedz się, jak zastosować własny format liczbowy w Excelu przy użyciu Aspose.Cells w C# – krok po kroku.
+### [Ustaw format waluty podczas importowania danych do Excela przy użyciu C#](./set-currency-format-while-importing-data-into-excel-using-c/)
+Dowiedz się, jak zastosować format waluty przy importowaniu danych do arkusza Excel przy pomocy Aspose.Cells i C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

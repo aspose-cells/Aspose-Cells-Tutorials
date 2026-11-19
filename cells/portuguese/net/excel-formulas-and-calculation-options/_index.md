@@ -107,6 +107,8 @@ Aprenda a utilizar a função WRAPCOLS em C# para transformar arrays em matrizes
 Aprenda a criar uma pasta de trabalho Excel em C# e aplicar fórmulas usando Aspose.Cells passo a passo.
 ### [Como criar uma pasta de trabalho Excel em C# com uma fórmula de matriz dinâmica](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
 Aprenda a criar uma pasta de trabalho Excel em C# usando fórmulas de matriz dinâmica com Aspose.Cells.
+### [Avaliar fórmula do Excel com intervalo de soma dinâmico usando variáveis](./evaluate-excel-formula-with-a-dynamic-sum-range-using-variab/)
+Aprenda a avaliar fórmulas do Excel com intervalos de soma dinâmicos usando variáveis no Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

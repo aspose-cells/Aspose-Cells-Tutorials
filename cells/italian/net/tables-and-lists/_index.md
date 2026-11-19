@@ -59,6 +59,8 @@ Scopri come rinominare una tabella in Excel usando Aspose.Cells per .NET con C#.
 Elimina righe da una tabella Word con Aspose.Words per .NET usando C#. Guida completa passo passo.
 ### [Come eliminare righe da una tabella Excel e cambiarne il nome in C#](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
 Scopri come rimuovere righe da una tabella Excel e rinominarla usando Aspose.Cells per .NET con C# passo passo.
+### [Come eliminare una tabella da Excel usando C# – guida passo‑passo](./how-to-delete-table-from-excel-using-c-step-by-step-guide/)
+Scopri come rimuovere una tabella da un foglio Excel con Aspose.Cells per .NET usando C# in pochi semplici passaggi.
 
 
 

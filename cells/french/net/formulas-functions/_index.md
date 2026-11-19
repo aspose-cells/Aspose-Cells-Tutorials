@@ -113,6 +113,9 @@ Apprenez à calculer la cotangente dans Excel en C#, créer un classeur, utilise
 
 ### [Comment utiliser SEQUENCE en C# – Créer un classeur Excel](./how-to-use-sequence-in-c-create-excel-workbook/)
 
+### [Comment calculer la cotangente en C# avec la fonction EXPAND](./how-to-calculate-cotangent-in-c-using-the-expand-function)
+Apprenez à calculer la cotangente dans Excel en C# en utilisant la fonction EXPAND et à enregistrer le classeur.
+
 ## Comprendre les types de formules Excel
 
 Les formules Excel se présentent sous différentes formes, chacune avec des caractéristiques uniques qu'Aspose.Cells peut gérer :

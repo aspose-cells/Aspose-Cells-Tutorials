@@ -57,6 +57,9 @@ Aspose.Cells Smart Markers также поддерживает анонимны�
 ### [Как повторять листы — Полное руководство по автоматизации Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 Узнайте, как автоматически дублировать листы в Excel с помощью Aspose.Cells, ускоряя процесс создания отчетов и шаблонов.
 
+### [Как повторять лист в Excel с помощью SmartMarkerProcessor](./how-to-repeat-worksheet-in-excel-with-smartmarkerprocessor/)
+Узнайте, как повторять листы в Excel с помощью SmartMarkerProcessor в Aspose.Cells для .NET.
+
 ### [Объединение данных Excel в C# – Полное руководство по Smart Markers](./excel-data-merging-in-c-complete-smart-marker-guide/)
 Узнайте, как объединять данные из нескольких источников в Excel с помощью Smart Markers в Aspose.Cells для .NET.
 
@@ -89,6 +92,8 @@ Aspose.Cells Smart Markers также поддерживает анонимны�
 
 ### [Вставка изображений с помощью маркеров изображений в Aspose.Cells](./insert-images-smart-markers/)
 Узнайте, как вставлять изображения с помощью маркеров изображений в Aspose.Cells для .NET с помощью нашего пошагового руководства! Эффективно дополняйте свои отчеты Excel визуальными элементами.
+
+### [Вставить заполнитель смарт‑маркера в Excel с C#](./insert-smart-marker-placeholder-in-excel-with-c/)
 
 ### [Используйте анонимные типы с интеллектуальными маркерами Aspose.Cells](./use-anonymous-types-smart-markers/)
 Узнайте, как использовать анонимные типы с интеллектуальными маркерами в Aspose.Cells для динамической генерации отчетов Excel в .NET. Следуйте нашему простому руководству.

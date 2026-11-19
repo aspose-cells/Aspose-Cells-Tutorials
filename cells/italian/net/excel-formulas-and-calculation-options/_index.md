@@ -118,6 +118,9 @@ Scopri come forzare il calcolo delle formule e sfruttare le funzioni lambda in E
 
 ### [Come creare una cartella di lavoro Excel in C# e impostare le formule](./how-to-create-excel-workbook-in-c-and-set-formulas/)
 
+### [Valutare una formula Excel con un intervallo di somma dinamico usando variabili](./evaluate-excel-formula-with-a-dynamic-sum-range-using-variab/)
+Scopri come valutare una formula Excel con un intervallo di somma dinamico basato su variabili usando Aspose.Cells per .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

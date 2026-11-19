@@ -60,7 +60,7 @@ HTML 내보내기에서 자주 간과되는 측면 중 하나는 자동으로 �
 
 ## 단일 시트 탭 이름 설정
 
-마지막으로, 큰 차이를 만들어내는 작은 세부 사항들에 대해 이야기해 보겠습니다. HTML 내보내기 중에 단일 시트 탭 이름을 설정할 수 있으면 HTML 보고서와 상호 작용하는 사용자에게 명확성을 제공할 수 있습니다. 이 작은 조정 덕분에 특히 여러 시트가 포함된 복잡한 보고서를 다룰 때 탐색이 더욱 편리해집니다. 어쨌든, 작은 정리를 마다할 사람이 있을까요? [여기에서 탭을 간소화하는 방법을 알아보세요](./setting-single-sheet-tab-name/).
+마지막으로, 큰 차이를 만들어내는 작은 세부 사항들에 대해 이야기해 보겠습니다. HTML 내보내기 중에 단일 시트 탭 이름을 설정할 수 있으면 HTML 보고서와 상호작용하는 사용자에게 명확성을 제공할 수 있습니다. 이 작은 조정 덕분에 특히 여러 시트가 포함된 복잡한 보고서를 다룰 때 탐색이 더욱 편리해집니다. 어쨌든, 작은 정리를 마다할 사람이 있을까요? [여기에서 탭을 간소화하는 방법을 알아보세요](./setting-single-sheet-tab-name/).
 
 ## 고급 옵션을 사용하여 Excel을 HTML로 내보내기 튜토리얼
 ### [Excel을 HTML로 내보내는 동안 사용하지 않는 스타일 제외](./excluding-unused-styles/)
@@ -74,6 +74,8 @@ HTML 내보내기에서 자주 간과되는 측면 중 하나는 자동으로 �
 Aspose.Cells for .NET을 사용하여 Excel을 HTML로 내보낼 때 글꼴을 포함시키는 방법을 단계별로 안내합니다.
 ### [C#로 Excel을 HTML로 내보낼 때 글꼴 포함하기](./how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
 Aspose.Cells for .NET을 사용하여 C#으로 Excel을 HTML로 내보낼 때 글꼴을 포함하는 방법을 단계별로 안내합니다.
+### [C#로 Excel을 HTML로 저장할 때 글꼴 포함하기](./how-to-embed-fonts-when-saving-excel-to-html-with-c/)
+Aspose.Cells for .NET을 사용하여 C#으로 Excel을 HTML로 저장하면서 글꼴을 포함하는 방법을 단계별로 안내합니다.
 ### [Excel에서 프로그래밍 방식으로 셀에서 HTML5 문자열 가져오기](./getting-html5-string-from-cell/)
 
 ### [HTML 저장 옵션을 사용하여 Cross Hide Right로 오버레이된 콘텐츠 숨기기](./hiding-overlaid-content-with-cross-hide-right/)
@@ -130,7 +132,8 @@ Aspose.Cells를 활용해 Excel을 HTML로 변환하면서 글꼴을 포함하�
 Aspose.Cells for .NET을 사용하여 wrapcols를 적용하고 글꼴을 포함하여 Excel을 HTML로 저장하는 방법을 단계별로 안내합니다.
 
 ### [XLSX를 HTML로 변환할 때 글꼴을 HTML에 포함하는 방법](./how-to-embed-fonts-html-when-you-convert-an-xlsx-to-html-wit/)
-Aspose.Cells for .NET을 사용하여 XLSX를 HTML로 변환할 때 글꼴을 포함하는 방법을 단계별로 안내합니다.
+
+### [C#에서 전체 서식을 유지하며 Excel을 HTML로 변환하는 방법](./how-to-convert-excel-to-html-with-full-formatting-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -34,6 +34,8 @@
 透過本逐步教學學習如何使用 Aspose.Cells for .NET 根據自訂數字格式檢查 Excel 儲存格值。
 ### [將資料匯入 Excel 工作表時指定公式字段](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 在本詳細教學中了解如何使用 Aspose.Cells for .NET 將資料匯入具有指定公式欄位的 Excel 工作表。
+### [在匯入資料至 Excel 時設定貨幣格式 – C#](./set-currency-format-while-importing-data-into-excel-using-c/)
+說明如何在使用 Aspose.Cells for .NET 匯入資料時套用貨幣格式，確保金額顯示正確。
 ### [C# 中的 Excel 自訂數字格式 – 完整指南](./custom-number-format-excel-in-c-complete-guide/)
 本完整指南說明如何在 C# 使用 Aspose.Cells 為 Excel 應用自訂數字格式，涵蓋範例與最佳實踐。
 ### [在 C# 中使用分隔符格式化數字 – 完整 Aspose.Cells 指南](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
@@ -102,6 +104,9 @@
 
 ### [如何在 C# 中使用日本曆法 CultureInfo 寫入日期至 Excel](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
 本教學說明如何在 C# 使用日本曆法 CultureInfo 將日期寫入 Excel。
+
+### [在 C# 中設定儲存格數字格式並轉換日本日期](./set-cell-number-format-and-convert-japanese-dates-in-c/)
+說明如何在 C# 使用 Aspose.Cells 設定儲存格的數字格式，並將日本日期轉換為公曆。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

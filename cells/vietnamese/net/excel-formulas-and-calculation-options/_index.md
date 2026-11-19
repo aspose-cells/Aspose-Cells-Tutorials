@@ -111,6 +111,8 @@ Khám phá cách dùng hàm WRAPCOLS trong C# để chuyển đổi mảng thàn
 ### [Cách tạo workbook Excel trong C# và đặt công thức](./how-to-create-excel-workbook-in-c-and-set-formulas/)
 Hướng dẫn tạo workbook Excel trong C# và thiết lập công thức bằng Aspose.Cells một cách chi tiết.
 
+### [Đánh giá công thức Excel với phạm vi tổng động bằng biến](./evaluate-excel-formula-with-a-dynamic-sum-range-using-variab/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

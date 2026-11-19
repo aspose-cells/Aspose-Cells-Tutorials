@@ -84,6 +84,8 @@ Aspose.Words kullanarak DOCX dosyalarını tam yazı tipi desteğiyle HTML'ye d�
 Aspose.Words ile DOCX dosyalarındaki yazı tiplerini HTML çıktısına gömerek doğru görüntülenmesini sağlayın.
 ### [C#'ta Tek Virgül Ayrılmış Hücre ile JSON'u Excel'e Dönüştürme](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
 C# kullanarak tek virgül ayrılmış hücredeki JSON verisini Excel dosyasına dönüştürmeyi öğrenin.
+### [C#'ta Markdown'dan Excel Oluşturma – adım adım kılavuz](./how-to-create-excel-from-markdown-in-c-step-by-step-guide/)
+C# ve Aspose.Cells kullanarak Markdown dosyasını Excel çalışma kitabına dönüştürmeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

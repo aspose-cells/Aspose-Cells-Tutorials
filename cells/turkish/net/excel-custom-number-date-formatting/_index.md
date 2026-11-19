@@ -38,6 +38,8 @@ Aspose.Cells kullanarak Excel'de sayı biçimini nasıl uygulayacağınızı ad�
 C# ile Excel'de özel sayı biçimi uygulamayı öğrenin.
 ### [Excel Sayfasına Veri Aktarırken Formül Alanlarını Belirleyin](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Bu detaylı eğitimde, Aspose.Cells for .NET kullanarak belirtilen formül alanlarına sahip Excel sayfalarına veri aktarmayı öğrenin.
+### [C# kullanarak Excel'e veri içe aktarırken para birimi biçimini ayarlama](./set-currency-format-while-importing-data-into-excel-using-c/)
+C# ile veri içe aktarırken Excel hücrelerine para birimi biçimini uygulamayı öğrenin.
 ### [C# ile Excel'de Tarih Biçimini Ayarlama – Tam İçe Aktarma Biçimlendirme Kılavuzu](./set-date-format-in-excel-with-c-full-import-formatting-guide/)
 Bu kapsamlı rehberde, C# kullanarak Excel'e veri içe aktarırken tarih biçimini nasıl ayarlayacağınızı öğrenin.
 
@@ -84,7 +86,7 @@ Aspose.Cells kullanarak Japon imparatorluk dönemi takvimine göre DateTime değ
 
 
 ### [C#'ta Hücre Özel Biçimini Ayarlama – Excel'de Tarih Yazma ve Okuma İçin Tam Kılavuz](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
-Bu kapsamlı rehberde, C# ile Aspose.Cells kullanarak Excel hücrelerine özel tarih biçimi uygulamayı ve tarihleri okuma‑yazma işlemlerini öğrenin.
+### [C#'ta Hücre Sayı Biçimini Ayarlama ve Japon Tarihlerini Dönüştürme](./set-cell-number-format-and-convert-japanese-dates-in-c/)
 
 
 
@@ -94,17 +96,11 @@ Bu kapsamlı rehberde, C# ile Aspose.Cells kullanarak Excel hücrelerine özel t
 
 
 ### [C#'ta Dizeyi DateTime'ye Dönüştürme – Excel'de Tarih Yazma ve Okuma](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
-Bu eğitimde, Aspose.Cells for .NET kullanarak C#'ta dizeyi DateTime'e dönüştürüp Excel'de tarihleri nasıl yazıp okuyacağınızı öğrenin.
 ### [C#'ta çalışma kitabı oluşturma ve dizeyi tarihe dönüştürme](./how-to-create-workbook-and-convert-string-to-date-in-c/)
-Aspose.Cells for .NET kullanarak C# dilinde bir çalışma kitabı oluşturmayı ve metin biçimindeki tarihleri gerçek tarih nesnelerine dönüştürmeyi öğrenin.
 ### [C#'ta Excel tarih formatını ayarlama – Tam Adım Adım Kılavuz](./set-excel-date-format-in-c-complete-step-by-step-guide/)
-Bu kapsamlı rehberde, Aspose.Cells for .NET kullanarak C# ile Excel tarih formatını nasıl ayarlayacağınızı adım adım öğrenin.
 ### [Excel Çalışma Kitabı Oluştur C# – Önemli Basamakları Sınırlama](./create-excel-workbook-c-limit-significant-digits-excel/)
-Aspose.Cells for .NET kullanarak C# ile Excel çalışma kitabı oluşturup, sayısal değerlerin önemli basamaklarını nasıl sınırlayacağınızı öğrenin.
 ### [Excel'de Tarih Sütununu Biçimlendirme – DataTable'ı Dışa Aktarmak için Tam C# Kılavuzu](./format-date-column-excel-complete-c-guide-to-export-datatabl/)
-Bu kapsamlı eğitimde, Aspose.Cells for .NET kullanarak DataTable'ı Excel'e dışa aktarırken tarih sütunlarını nasıl biçimlendireceğinizi öğrenin.
 ### [C#'ta Japon Takvim Dönüşümü – Tam Kılavuz](./japanese-calendar-conversion-in-c-full-guide/)
-Aspose.Cells for .NET kullanarak C# ile Japon takvimine dönüştürme ve tarih işlemlerini nasıl yapacağınızı öğrenin.
 ### [C#'ta Japon takvim CultureInfo kullanarak tarihleri Excel'e yazma](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

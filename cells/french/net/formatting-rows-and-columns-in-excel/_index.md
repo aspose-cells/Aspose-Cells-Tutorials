@@ -37,6 +37,8 @@ Apprenez à appliquer la mise en forme à une ligne Excel par programmation avec
 Apprenez à créer un classeur Excel, à appliquer le retour à la ligne des colonnes et à l’enregistrer au format XLSX avec Aspose.Cells pour .NET.
 ### [Comment formater les colonnes Excel en C# – Guide complet](./how-to-format-excel-columns-in-c-complete-guide/)
 Apprenez à formater les colonnes Excel en C# avec Aspose.Cells pour .NET grâce à ce guide complet, étape par étape.
+### [Comment utiliser wrapcols en C# pour envelopper les données dans Excel](./how-to-use-wrapcols-in-c-to-wrap-data-in-excel/)
+Apprenez à utiliser wrapcols en C# pour envelopper les données dans Excel avec Aspose.Cells pour .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

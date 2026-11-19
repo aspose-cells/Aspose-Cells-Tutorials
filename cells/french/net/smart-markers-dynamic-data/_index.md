@@ -114,7 +114,6 @@ Apprenez à générer un classeur Excel à partir d'un fichier XLSX en utilisant
 ### [Créer un classeur Excel programmatique avec les Smart Markers](./create-excel-workbook-programmatically-using-smart-markers/)
 Apprenez à créer un classeur Excel en utilisant les Smart Markers via du code C#.
 ### [Configurer SmartMarkerOptions ArrayAsSingle en C# pour les tableaux JSON](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
-
 Apprenez à convertir des fichiers JSON en Excel en C# avec un guide détaillé, étape par étape, pour créer des rapports dynamiques.
 ### [Convertir JSON en XLSX en C# avec SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
 Convertissez des données JSON en fichiers XLSX en C# avec SmartMarker grâce à un guide complet et simple.
@@ -153,6 +152,9 @@ Apprenez à générer un classeur Excel via du code C# en utilisant Aspose.Cells
 Apprenez à créer un classeur Excel dynamique en utilisant les marqueurs intelligents d'Aspose.Cells.
 ### [Étendre les marqueurs intelligents de feuille de calcul en C# pour les modèles Excel](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
 Apprenez à étendre les marqueurs intelligents sur plusieurs feuilles de calcul en C# pour générer dynamiquement des modèles Excel.
+### [Insérer un espace réservé de marqueur intelligent dans Excel avec C#](./insert-smart-marker-placeholder-in-excel-with-c/)
+Apprenez à insérer un espace réservé de marqueur intelligent dans un classeur Excel en utilisant C# avec Aspose.Cells.
+### [Comment répéter une feuille de calcul dans Excel avec SmartMarkerProcessor](./how-to-repeat-worksheet-in-excel-with-smartmarkerprocessor/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -72,6 +72,8 @@ Ebben a részletes, lépésről lépésre szóló útmutatóban megtudhatja, hog
 Ismerd meg, hogyan exportálhatsz Excel dokumentumok, munkafüzetek és munkalapok tulajdonságait HTML-be az Aspose.Cells for .NET használatával. Egyszerű, lépésről lépésre útmutató mellékelve.
 ### [Excel mentése HTML-ként – Teljes útmutató kódmintákkal](./save-excel-as-html-complete-guide-with-code-samples/)
 Részletes útmutató az Excel HTML-be mentéséhez, kódmintákkal és lépésről‑lépésre magyarázattal.
+### [Hogyan konvertáljunk Excel-t HTML-be teljes formázással C#-ban](./how-to-convert-excel-to-html-with-full-formatting-in-c/)
+Részletes útmutató az Excel teljes formázású HTML-re konvertálásához C#-ban az Aspose.Cells for .NET használatával.
 ### [Nyomtatási terület HTML-be exportálása Excelben programozottan](./exporting-print-area/)
 Tanuld meg, hogyan exportálhatsz egy adott nyomtatási területet HTML-be Excelből az Aspose.Cells for .NET használatával ebben a részletes útmutatóban. Optimalizáld az adatprezentációdat.
 ### [Hasonló szegélystílusok programozott exportálása Excelben](./exporting-similar-border-style/)
@@ -94,22 +96,23 @@ Tanuld meg, hogyan használhatod az Aspose.Cells for .NET-et skálázható oszlo
 Egyszerűen beállíthat egyetlen lapfül nevét HTML exportálás során az Aspose.Cells for .NET használatával. Lépésről lépésre útmutató kódpéldákkal.
 ### [Betűtípusok beágyazása HTML-be – Teljes C# útmutató](./how-to-embed-fonts-in-html-complete-c-guide/)
 ### [Betűtípusok beágyazása HTML-be Excel exportálásakor – Teljes C# útmutató](./how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
-### [Excel mentése HTML-ként – Teljes C# útmutató](./save-excel-as-html-complete-c-guide/)
-### [Excel exportálása HTML-be – Rögzített panelek megőrzése C#-ban](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
-### [Betűtípusok beágyazása HTML-be Excel exportálásakor – Teljes C# útmutató](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
-### [Betűtípusok beágyazása HTML-be – Excel konvertálása HTML-be C#-al](./how-to-embed-fonts-in-html-convert-excel-to-html-with-c/)
-### [Betűtípusok beágyazása HTML-be Excelből – Teljes útmutató](./how-to-embed-fonts-in-html-from-excel-complete-guide/)
+### [Betűtípusok beágyazása HTML-be – Teljes C# útmutató](./how-to-embed-fonts-in-html-complete-c-guide/)
+### [Betűtípusok beágyazása HTML-be Excel mentésekor C#-ban](./how-to-embed-fonts-when-saving-excel-to-html-with-c/)
+### [Betűtípusok beágyazása HTML-be – Excel konvertálása HTML-be C#-al](./how-to-embed-fonts-in-html-convert-excel-to-html/)
+### [Betűtípusok beágyazása HTML-be – Excel munkafüzet exportálása HTML-be az Aspose.Cells segítségével](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
+### [Betűtípusok beágyazása HTML-be munkafüzet mentésekor](./how-to-embed-fonts-in-html-when-saving-a-workbook/)
+### [Betűtípusok beágyazása HTML-be Excel konvertálásakor az Aspose.Cells használatával](./how-to-embed-fonts-when-converting-excel-to-html-with-aspose/)
+### [HTML mentési beállítások létrehozása C#-ban – Teljes útmutató](./create-html-save-options-in-c-full-guide/)
+### [Excel mentése HTML-ként – Teljes útmutató az Excel fájlok exportálásához és konvertálásához](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
+### [Betűtípusok beágyazása HTML-be – Excel munkafüzet exportálása HTML-be az Aspose.Cells segítségével](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
+### [HTML létrehozása táblázatból C#-ban – Teljes útmutató](./create-html-from-table-in-c-complete-guide/)
+### [Betűtípusok beágyazása Excel HTML-be exportálásakor – Teljes C# útmutató](./how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
 ### [Excel exportálása HTML-be – Lépésről‑lépésre útmutató](./how-to-export-excel-to-html-step-by-step-guide/)
 ### [Excel mentése HTML-be fagyasztott ablaktörlőkkel – Teljes C# útmutató](./save-excel-as-html-with-frozen-panes-complete-c-guide/)
 ### [Betűtípusok beágyazása HTML-be – Excel exportálása HTML-be C#-al](./embed-fonts-in-html-export-excel-to-html-with-c/)
 ### [Excel konvertálása HTML-re C#-ban – Teljes útmutató](./convert-excel-to-html-in-c-complete-guide/)
 ### [Excel exportálása HTML-be – Teljes programozási útmutató](./how-to-export-excel-to-html-complete-programming-guide/)
 ### [HTML mentési beállítások létrehozása C#-ban – Teljes útmutató](./create-html-save-options-in-c-full-guide/)
-### [Excel mentése HTML-ként – Teljes útmutató az Excel fájlok exportálásához és konvertálásához](./save-excel-as-html-full-guide-to-exporting-and-converting-ex/)
-### [Betűtípusok beágyazása HTML-be – Excel munkafüzet exportálása HTML-be az Aspose.Cells segítségével](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
-### [HTML létrehozása táblázatból C#-ban – Teljes útmutató](./create-html-from-table-in-c-complete-guide/)
-### [Betűtípusok beágyazása Excel HTML-be exportálásakor – Teljes C# útmutató](./how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
-### [Excel exportálása HTML-be C#-ban – Teljes programozási útmutató](./export-excel-to-html-with-c-complete-programming-guide/)
 ### [Excel mentése HTML-ként – Teljes útmutató az Excel formázott exportálásához](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
 ### [Excel exportálása HTML-be – Teljes útmutató a befagyasztott panelek megőrzéséhez](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
 Ismerje meg, hogyan exportálhatja az Excel-fájlokat HTML-be úgy, hogy a befagyasztott panelek megmaradjanak, lépésről lépésre útmutatóval.

@@ -43,7 +43,7 @@ Lär dig exportera diagram från Excel till PowerPoint med C# i en komplett steg
 ### [Exportera diagram från Word – Komplett C#-guide](./how-to-export-charts-from-word-complete-c-guide/)
 Lär dig hur du exporterar diagram från Word till olika format med Aspose.Words för .NET i en komplett C#-guide.
 ### [Hur du exporterar diagram – Komplett PowerPoint C#-guide](./how-to-export-charts-complete-powerpoint-c-guide/)
-Lär dig exportera Excel-diagram till PowerPoint med C# i en komplett steg-för-steg-guide.
+Lär dig exportera Excel-diagram till PowerPoint med C# i en komplett steg-för-steg‑guide.
 ### [Exportera diagram som PNG – Komplett guide för att konvertera Excel till HTML med Aspose.Cells](./export-chart-as-png-complete-guide-to-convert-excel-to-html/)
 Lär dig hur du exporterar diagram som PNG och konverterar Excel-filer till HTML med Aspose.Cells.
 ### [Exportera Excel-diagram till PowerPoint med C# – komplett Aspose.Cells-guide](./export-excel-chart-to-powerpoint-with-c-complete-aspose-cell/)
@@ -52,6 +52,8 @@ Lär dig hur du exporterar Excel-diagram till PowerPoint med C# med en komplett 
 Lär dig hur du bäddar in ett Excel-diagram i ett Word-dokument med Aspose.Cells för .NET.
 ### [Exportera Excel-diagram till PowerPoint med C#](./how-to-export-excel-charts-to-powerpoint-using-c/)
 Lär dig hur du exporterar Excel-diagram till PowerPoint med C# i en steg‑för‑steg‑guide.
+### [Exportera Excel-diagram som PNG‑bild med C#](./how-to-export-excel-chart-as-a-png-image-with-c/)
+Lär dig hur du exporterar ett Excel-diagram som en PNG‑bild med C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

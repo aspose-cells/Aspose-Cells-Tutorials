@@ -75,6 +75,8 @@ Aprenda a salvar uma pasta de trabalho como CSV aplicando formatação personali
 Aprenda a salvar uma pasta de trabalho como CSV usando C# com um guia completo passo a passo.
 ### [Como exportar Excel para CSV em C# com Aspose.Cells](./how-to-export-excel-to-csv-in-c-with-aspose-cells/)
 Aprenda a exportar planilhas Excel para CSV usando C# e Aspose.Cells com um guia passo a passo.
+### [Salvar Pasta de Trabalho como CSV em C# – Guia passo a passo](./how-to-save-workbook-as-csv-in-c-step-by-step-guide/)
+Aprenda a salvar uma pasta de trabalho como CSV usando C# com um guia passo a passo detalhado.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -37,6 +37,8 @@ Aspose.Cells for .NET kullanarak Excel satırına biçimlendirmeyi programatik o
 Aspose.Cells for .NET kullanarak bir Excel çalışma kitabı oluşturun, sütunları kaydırın ve XLSX formatında kaydedin.
 ### [C# ile Excel Sütunlarını Biçimlendirme – Tam Kılavuz](./how-to-format-excel-columns-in-c-complete-guide/)
 Aspose.Cells for .NET kullanarak C# ile Excel sütunlarını biçimlendirmeyi adım adım öğrenin. Profesyonel raporlar için gerekli tüm ayarlar.
+### [C# ile wrapcols kullanarak Excel'de verileri kaydırma](./how-to-use-wrapcols-in-c-to-wrap-data-in-excel/)
+Aspose.Cells for .NET ile C# kullanarak wrapcols fonksiyonunu nasıl uygulayacağınızı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

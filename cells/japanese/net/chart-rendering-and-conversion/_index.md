@@ -50,6 +50,8 @@ Aspose.Cells を使って Excel のチャートを PNG 画像としてエクス�
 ### [Aspose を使用して Word にチャートを追加する – Excel チャートを埋め込む](./how-to-add-chart-to-word-with-aspose-embed-excel-chart/)
 Aspose.Cells を使い、C# で Excel のチャートを Word 文書に埋め込む手順をステップバイステップで解説します。
 ### [C# を使用して Excel のチャートを PowerPoint にエクスポートする方法](./how-to-export-excel-charts-to-powerpoint-using-c/)
+### [C# で Excel のチャートを PNG 画像としてエクスポートする方法](./how-to-export-excel-chart-as-a-png-image-with-c/)
+Aspose.Cells を使用して、C# で Excel のチャートを PNG 画像にエクスポートする手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

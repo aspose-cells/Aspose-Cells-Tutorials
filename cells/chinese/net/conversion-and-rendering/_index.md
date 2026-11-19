@@ -87,7 +87,9 @@
 本指南详细说明如何使用 Aspose.Words 将 DOCX 文档中的字体嵌入到生成的 HTML 中，确保跨平台显示一致。
 
 ### [如何在 C# 中将 JSON 转换为 Excel（单个逗号分隔单元格）](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
-学习如何使用 Aspose.Cells for .NET 将 JSON 数据转换为 Excel，单元格以逗号分隔。
+
+### [如何在 C# 中从 Markdown 创建 Excel – 步骤指南](./how-to-create-excel-from-markdown-in-c-step-by-step-guide/)
+本指南逐步演示如何使用 C# 将 Markdown 内容转换为 Excel 工作簿，实现数据迁移和报告自动化。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

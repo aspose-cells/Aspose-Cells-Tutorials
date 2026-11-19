@@ -52,6 +52,7 @@ Learn how to extract and export charts from Word documents using Aspose.Words fo
 Learn how to export Excel charts to PowerPoint using C#, with step-by-step code examples and customization options.
 ### [Export Chart as PNG – Complete Guide to Convert Excel to HTML with Aspose.Cells](./export-chart-as-png-complete-guide-to-convert-excel-to-html/)
 Learn how to export Excel charts as PNG images and convert workbooks to HTML using Aspose.Cells for .NET.
+### [How to export Excel chart as a PNG image with C#](./how-to-export-excel-chart-as-a-png-image-with-c/)
 ### [Export Excel chart to PowerPoint with C# – complete Aspose.Cells guide](./export-excel-chart-to-powerpoint-with-c-complete-aspose-cell/)
 Learn how to export Excel charts to PowerPoint using C# with Aspose.Cells in this comprehensive step-by-step guide.
 ### [How to add chart to Word with Aspose – embed Excel chart](./how-to-add-chart-to-word-with-aspose-embed-excel-chart/)

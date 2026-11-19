@@ -114,6 +114,9 @@ Scopri come generare sequenze di dati in Excel usando la funzione SEQUENCE con C
 ### [Come calcolare la cotangente in Excel con C# – Creare una cartella di lavoro, utilizzare EXPAND e salvare](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
 Impara a calcolare la cotangente in Excel usando C#, creando una cartella di lavoro, applicando la funzione EXPAND e salvando il file.
 
+### [Come calcolare la cotangente in C# usando la funzione EXPAND](./how-to-calculate-cotangent-in-c-using-the-expand-function/)
+Scopri come calcolare la cotangente in C# con Aspose.Cells usando la funzione EXPAND per risultati dinamici.
+
 ### [Creare una cartella di lavoro Excel C# – Guida a Lambda, SEQUENCE e EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)
 Scopri come creare cartelle di lavoro Excel in C# sfruttando le funzioni Lambda, SEQUENCE ed EXPAND di Aspose.Cells per .NET.
 

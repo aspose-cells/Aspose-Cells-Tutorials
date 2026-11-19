@@ -37,6 +37,8 @@ Lär dig hur du formaterar en Excel-rad programmatiskt med Aspose.Cells för .NE
 Lär dig hur du skapar en Excel-arbetsbok, wrappar kolumner och sparar den som XLSX med Aspose.Cells för .NET.
 ### [Hur man formaterar Excel-kolumner i C# – Komplett guide](./how-to-format-excel-columns-in-c-complete-guide/)
 Lär dig steg-för-steg hur du formaterar kolumner i Excel med C# och Aspose.Cells för .NET för att förbättra dina kalkylblad.
+### [Hur man använder wrapcols i C# för att radbryta data i Excel](./how-to-use-wrapcols-in-c-to-wrap-data-in-excel/)
+Lär dig hur du använder wrapcols-funktionen i C# för att automatiskt radbryta cellinnehåll i Excel med Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

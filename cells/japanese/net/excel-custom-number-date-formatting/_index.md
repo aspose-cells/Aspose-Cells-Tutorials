@@ -36,6 +36,8 @@
 このステップバイステップのチュートリアルでは、Aspose.Cells for .NET を使用して、Excel セルの値をカスタム数値形式と照合する方法を学習します。
 ### [Excelシートにデータをインポートするときに数式フィールドを指定する](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 この詳細なチュートリアルでは、Aspose.Cells for .NET を使用して、指定された数式フィールドを持つ Excel シートにデータをインポートする方法を学習します。
+### [C# を使用してデータをインポートする際の通貨書式設定](./set-currency-format-while-importing-data-into-excel-using-c/)
+Aspose.Cells for .NET を利用し、C# で Excel にデータをインポートする際に通貨書式を適用する方法を解説します。
 ### [C#でExcelのカスタム数値書式 完全ガイド](./custom-number-format-excel-in-c-complete-guide/)
 この包括的なガイドでは、Aspose.Cells for .NET を使用して、C#でExcelのカスタム数値書式を設定する方法を学びます。
 ### [C# で区切り文字付きの数値をフォーマットする – 完全 Aspose.Cells ガイド](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
@@ -85,6 +87,9 @@ Aspose.Cells を使用して、Excel のセルに数値書式を設定する手�
 このチュートリアルでは、C#を使用してDataTableからExcelへデータをエクスポートし、日付列を適切にフォーマットする方法をステップバイステップで解説します。
 ### [C#で和暦変換 – 完全ガイド](./japanese-calendar-conversion-in-c-full-guide/)
 C#を使用して和暦と西暦の相互変換方法をステップバイステップで解説します。
+
+### [C# でセルの数値書式を設定し日本の日付を変換する](./set-cell-number-format-and-convert-japanese-dates-in-c/)
+Aspose.Cells for .NET を使用し、C# でセルの数値書式を設定し、日本の和暦日付を変換する方法を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

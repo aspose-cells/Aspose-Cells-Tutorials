@@ -124,6 +124,9 @@ Pelajari cara menghapus panel terpisah dari buku kerja Excel menggunakan Aspose.
 ### [Memunculkan Baris & Kolom di Excel Menggunakan Aspose.Cells untuk .NET - Panduan Lengkap](./unhide-rows-columns-aspose-cells-net)
 Pelajari cara menampilkan baris dan kolom secara efisien di Excel menggunakan Aspose.Cells for .NET. Panduan ini mencakup semuanya, mulai dari menyiapkan lingkungan hingga mengoptimalkan kinerja saat menampilkan konten tersembunyi.
 
+### [Cara menyalin rentang menggunakan CopyOptions di Aspose.Cells](./how-to-copy-range-using-copyoptions-in-aspose-cells)
+Pelajari cara menyalin rentang sel dengan opsi penyalinan khusus menggunakan Aspose.Cells untuk .NET.
+
 ## Teknik Pengelolaan Jangkauan Lanjutan
 
 Saat bekerja dengan rentang di Excel, Anda dapat meningkatkan efisiensi dan keterbacaan kode secara signifikan dengan menggunakan operasi rentang Aspose.Cells alih-alih manipulasi sel per sel. Berikut ini beberapa teknik lanjutan untuk manajemen rentang:

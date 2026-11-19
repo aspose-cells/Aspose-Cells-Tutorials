@@ -36,6 +36,8 @@ Hướng dẫn này sẽ trang bị cho bạn các kỹ năng để nhập tập
 Tìm hiểu cách kiểm tra giá trị ô Excel theo định dạng số tùy chỉnh bằng Aspose.Cells cho .NET với hướng dẫn từng bước này.
 ### [Chỉ định các trường công thức khi nhập dữ liệu vào bảng tính Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Tìm hiểu cách nhập dữ liệu vào các trang tính Excel có trường công thức được chỉ định bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
+### [Đặt định dạng tiền tệ khi nhập dữ liệu vào Excel bằng C#](./set-currency-format-while-importing-data-into-excel-using-c/)
+Hướng dẫn cách thiết lập định dạng tiền tệ khi nhập dữ liệu vào bảng tính Excel bằng C# với Aspose.Cells.
 ### [Định dạng số tùy chỉnh Excel trong C# – Hướng dẫn toàn diện](./custom-number-format-excel-in-c-complete-guide/)
 Tìm hiểu cách áp dụng định dạng số tùy chỉnh trong Excel bằng C# với Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
 ### [Định dạng số có dấu phân cách trong C# – Hướng dẫn đầy đủ Aspose.Cells](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
@@ -88,6 +90,9 @@ Hướng dẫn chi tiết cách áp dụng định dạng số trong Excel bằn
 Hướng dẫn chi tiết cách định dạng cột ngày trong Excel khi xuất DataTable bằng C# với Aspose.Cells.
 ### [Chuyển đổi Lịch Nhật trong C# – Hướng dẫn đầy đủ](./japanese-calendar-conversion-in-c-full-guide/)
 Tìm hiểu cách chuyển đổi ngày theo lịch Nhật trong C# bằng Aspose.Cells với hướng dẫn chi tiết từng bước.
+
+### [Đặt định dạng số cho ô và chuyển đổi ngày Nhật trong C#](./set-cell-number-format-and-convert-japanese-dates-in-c/)
+Hướng dẫn cách đặt định dạng số cho ô và chuyển đổi ngày theo lịch Nhật Bản trong Excel bằng C# với Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

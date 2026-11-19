@@ -58,6 +58,8 @@ Pelajari cara mengubah nama tabel di Excel menggunakan Aspose.Cells for .NET den
 Pelajari cara menghapus baris dalam tabel Word menggunakan Aspose.Words for .NET dengan contoh lengkap dalam C#.
 ### [Cara menghapus baris dari tabel Excel dan mengubah namanya di C#](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
 
+### [Cara menghapus tabel dari Excel menggunakan C# – Panduan Langkah demi Langkah](./how-to-delete-table-from-excel-using-c-step-by-step-guide/)
+
 
 
 

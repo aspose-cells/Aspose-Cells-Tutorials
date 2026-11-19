@@ -76,6 +76,9 @@ Xóa nhiều hàng trong bảng Word một cách nhanh chóng với Aspose.Words
 ### [Cách xóa các hàng trong bảng Excel và đổi tên bảng trong C#](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
 Hướng dẫn chi tiết cách xóa hàng và đổi tên bảng trong Excel bằng Aspose.Cells cho .NET.
 
+### [Cách xóa bảng trong Excel bằng C# – hướng dẫn từng bước](./how-to-delete-table-from-excel-using-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách xóa bảng trong Excel bằng Aspose.Cells cho .NET, giúp bạn quản lý dữ liệu hiệu quả.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

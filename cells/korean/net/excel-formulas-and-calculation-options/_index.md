@@ -111,6 +111,8 @@ Aspose.Cells for .NET을 사용하여 C#로 Excel 수식을 강제로 계산하�
 Aspose.Cells for .NET을 사용하여 수식이 포함된 Excel 워크북을 처음부터 완전하게 만드는 방법을 단계별로 안내합니다.
 ### [C#에서 EXPAND 함수를 사용하여 Excel 워크북 만들기](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
 Aspose.Cells for .NET을 사용하여 C#에서 EXPAND 함수를 활용해 Excel 워크북을 만드는 방법을 단계별로 안내합니다.
+### [변수를 사용하여 동적 합 범위로 Excel 수식 평가하기](./evaluate-excel-formula-with-a-dynamic-sum-range-using-variab/)
+Aspose.Cells for .NET을 사용하여 변수를 활용해 동적 합 범위가 적용된 Excel 수식을 평가하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

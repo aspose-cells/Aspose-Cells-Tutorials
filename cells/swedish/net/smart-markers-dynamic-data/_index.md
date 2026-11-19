@@ -69,6 +69,8 @@ Förbättra dina Excel-filer med smarta markörer för att effektivt utvärdera 
 Gruppera data enkelt med smarta markörer i Aspose.Cells för .NET. Följ vår omfattande guide för steg-för-steg-instruktioner.
 ### [Infoga bilder med bildmarkörer i Aspose.Cells](./insert-images-smart-markers/)
 Upptäck hur du infogar bilder med hjälp av bildmarkörer i Aspose.Cells för .NET med vår steg-för-steg-guide! Förbättra dina Excel-rapporter effektivt med visuella element.
+### [Infoga smart markörplats i Excel med C#](./insert-smart-marker-placeholder-in-excel-with-c/)
+Lär dig hur du infogar en smart markörplats i ett Excel‑ark med C#.
 ### [Använd anonyma typer med smarta markörer Aspose.Cells](./use-anonymous-types-smart-markers/)
 Lär dig hur du använder anonyma typer med smarta markörer i Aspose.Cells för dynamisk Excel-rapportgenerering i .NET. Följ vår enkla guide.
 ### [Använd kopieringsstilattribut i Aspose.Cells smarta markörer](./copy-style-attribute-smart-markers/)
@@ -150,7 +152,7 @@ Lär dig steg för steg hur du bygger en komplett smart markörsamling i C# med 
 ### [Upprepa data i Excel – Fyll i mall med SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
 
 Lär dig hur du använder SmartMarker för att upprepa data och fylla i en Excel-mall automatiskt.
-### [Hur man exporterar Excel – Komplett guide för C#-utvecklare](./how-to-export-excel-complete-guide-for-c-developers/)
+### [Hur du exporterar Excel – Komplett guide för C#-utvecklare](./how-to-export-excel-complete-guide-for-c-developers/)
 
 Lär dig steg för steg hur du exporterar Excel-filer med Aspose.Cells i C#-applikationer.
 ### [Exportera data till Excel: Fyll i en mall från en array i C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
@@ -210,6 +212,10 @@ Lär dig hur du laddar en Excel‑mall i C# och snabbt skapar flera kalkylblad m
 ### [Skapa master‑detail‑arbetsbok med Aspose.Cells Smart Marker](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
 
 ### [Master‑detail‑Excel‑guide – fyll i mallar med Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+
+### [Hur man upprepar kalkylblad i Excel med SmartMarkerProcessor](./how-to-repeat-worksheet-in-excel-with-smartmarkerprocessor/)
+
+Lär dig hur du använder SmartMarkerProcessor för att duplicera kalkylblad i en Excel‑fil automatiskt.
 
 ### [Hur man upprepar kalkylblad – Komplett guide för Excel-automatisering](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 

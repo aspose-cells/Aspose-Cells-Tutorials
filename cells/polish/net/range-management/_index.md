@@ -49,6 +49,9 @@ Dowiedz się, jak uzyskać dostęp i manipulować maksymalnym zakresem wyświetl
 ### [Jak skopiować pojedynczą kolumnę w programie Excel za pomocą języka C# i Aspose.Cells .NET](./aspose-cells-net-copy-column-excel-using-csharp)
 Dowiedz się, jak skutecznie kopiować pojedynczą kolumnę do wielu kolumn w pliku Excela za pomocą języka C#. Ten przewodnik obejmuje konfigurowanie Aspose.Cells dla .NET, programowe ładowanie plików Excela i automatyzowanie zadań duplikacji kolumn.
 
+### [Jak skopiować zakres przy użyciu CopyOptions w Aspose.Cells](./how-to-copy-range-using-copyoptions-in-aspose-cells)
+Dowiedz się, jak kopiować zakresy w Excelu przy użyciu opcji CopyOptions w Aspose.Cells dla .NET.
+
 ### [Kopiowanie wierszy programu Excel za pomocą Aspose.Cells dla .NET Guide](./aspose-cells-net-copy-excel-rows-guide)
 Opanuj techniki kopiowania wierszy programu Excel za pomocą Aspose.Cells dla .NET. Ten samouczek przedstawia różne podejścia do duplikowania wierszy z odpowiednim formatowaniem, formułami i danymi, zachowując jednocześnie integralność dokumentów programu Excel.
 
@@ -104,7 +107,7 @@ Dowiedz się, jak skutecznie identyfikować i zarządzać komórkami w nazwanych
 Opanuj implementację nieciągłych zakresów w programie Excel przy użyciu Aspose.Cells dla .NET. Ten samouczek pokazuje, jak pracować z wieloma oddzielnymi zakresami jako pojedynczą jednostką do zaawansowanego przetwarzania danych.
 
 ### [Tworzenie i zarządzanie zakresami dozwolonych edycji w programie Excel przy użyciu Aspose.Cells .NET](./manage-allow-edit-ranges-aspose-cells-net)
-Dowiedz się, jak tworzyć i zarządzać opcją „Zezwalaj na edycję zakresów” w programie Excel za pomocą Aspose.Cells dla platformy .NET. Udoskonal swoje przepływy pracy w programie Excel dzięki temu kompleksowemu samouczkowi dotyczącemu chronionych zakresów z określonymi uprawnieniami do edycji.
+Dowiedz się, jak tworzyć i zarządzać opcją „Zezwalaj na edycję zakresów” w programie Excel za pomocą Aspose.Cells dla platformy .NET. Udoskonal swoje przepływy pracy w programie Excel dzięki temu kompleksowemu samouczkowi dotyczcemu chronionych zakresów z określonymi uprawnieniami do edycji.
 
 ### [Efektywne tworzenie i zarządzanie zakresami programu Excel za pomocą Aspose.Cells dla platformy .NET](./manage-excel-ranges-aspose-cells-net)
 Dowiedz się, jak efektywnie tworzyć, nazywać i zarządzać zakresami w programie Excel za pomocą pakietu Aspose.Cells dla platformy .NET. Usprawnij swój przepływ pracy dzięki zautomatyzowanym zadaniom programu Excel w języku C#, definiując i manipulując logicznymi grupami komórek.

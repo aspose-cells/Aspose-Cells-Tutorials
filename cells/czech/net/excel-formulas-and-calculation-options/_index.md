@@ -112,6 +112,9 @@ Naučte se, jak pomocí Aspose.Cells pro .NET v C# vytvořit sešit s dynamický
 ### [Jak vytvořit Excel sešit v C# a nastavit vzorce](./how-to-create-excel-workbook-in-c-and-set-formulas/)
 Naučte se, jak pomocí Aspose.Cells pro .NET v C# vytvořit Excel sešit a nastavit v něm vzorce.
 
+### [Vyhodnocení Excelového vzorce s dynamickým rozsahem součtu pomocí proměnných](./evaluate-excel-formula-with-a-dynamic-sum-range-using-variab/)
+Ukazuje, jak pomocí Aspose.Cells pro .NET vyhodnotit vzorec s dynamickým rozsahem součtu pomocí proměnných.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

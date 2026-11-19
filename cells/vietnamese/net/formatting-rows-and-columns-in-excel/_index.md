@@ -37,6 +37,8 @@ Tìm hiểu cách áp dụng định dạng cho một hàng Excel theo chương 
 Hướng dẫn tạo workbook Excel, gói các cột để hiển thị nội dung đầy đủ và lưu file dưới định dạng XLSX bằng Aspose.Cells cho .NET.
 ### [Cách Định Dạng Cột Excel trong C# – Hướng Dẫn Toàn Diện](./how-to-format-excel-columns-in-c-complete-guide/)
 Tìm hiểu cách định dạng các cột trong Excel bằng C# với Aspose.Cells cho .NET. Hướng dẫn chi tiết, từng bước, giúp bạn nhanh chóng áp dụng.
+### [Cách sử dụng wrapcols trong C# để gói dữ liệu trong Excel](./how-to-use-wrapcols-in-c-to-wrap-data-in-excel/)
+Hướng dẫn sử dụng wrapcols trong C# để tự động gói nội dung ô trong Excel bằng Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

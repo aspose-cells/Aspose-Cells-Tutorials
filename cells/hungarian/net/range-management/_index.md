@@ -76,6 +76,9 @@ Ismerje meg, hogyan kezelheti az egyesített cellákat Excelben az Aspose.Cells 
 ### [Adatok másolása Excelben az Aspose.Cells for .NET használatával: lépésről lépésre útmutató](./excel-aspose-cells-dotnet-copy-range-data)
 Ismerje meg, hogyan másolhat hatékonyan adatokat tartományok között Excelben az Aspose.Cells for .NET használatával. Mesterszintű adatkezelés a forrásformázás módosítása nélkül, csak értékek másolásának, illetve képletek és stílusok beillesztésének lehetőségeivel.
 
+### [Tartomány másolása CopyOptions használatával az Aspose.Cells-ben](./how-to-copy-range-using-copyoptions-in-aspose-cells)
+Ismerje meg, hogyan másolhat tartományokat a CopyOptions beállításával az Aspose.Cells for .NET segítségével.
+
 ### [Excel automatizálás az Aspose.Cells segítségével: Tartományok létrehozása és egyesítése](./excel-automation-aspose-cells-create-merge-ranges)
 Ismerje meg, hogyan hozhat létre és egyesíthet tartományokat programozottan az Aspose.Cells for .NET segítségével. Ez az oktatóanyag bemutatja, hogyan definiálhat tartományokat és kombinálhat cellákat hatékonyan az Excel-dokumentumokban való jobb adatmegjelenítés érdekében.
 

@@ -36,6 +36,8 @@
 Μάθετε πώς να ελέγχετε τις τιμές κελιών του Excel σε σχέση με τις προσαρμοσμένες μορφές αριθμών χρησιμοποιώντας το Aspose.Cells για .NET με αυτό το βήμα προς βήμα σεμινάριο.
 ### [Καθορισμός πεδίων τύπου κατά την εισαγωγή δεδομένων σε φύλλο Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Μάθετε πώς να εισάγετε δεδομένα σε φύλλα Excel με καθορισμένα πεδία τύπων χρησιμοποιώντας το Aspose.Cells για .NET σε αυτό το λεπτομερές σεμινario.
+### [Ορισμός μορφής νομίσματος κατά την εισαγωγή δεδομένων στο Excel με C#](./set-currency-format-while-importing-data-into-excel-using-c/)
+Μάθετε πώς να ορίσετε μορφή νομίσματος κατά την εισαγωγή δεδομένων σε φύλλα Excel χρησιμοποιώντας Aspose.Cells για .NET με C#.
 ### [Πλήρης οδηγός προσαρμοσμένης μορφής αριθμού Excel σε C#](./custom-number-format-excel-in-c-complete-guide/)
 Μάθετε πώς να δημιουργείτε και να εφαρμόζετε προσαρμοσμένες μορφές αριθμών στο Excel χρησιμοποιώντας C# με το Aspose.Cells.
 ### [Μορφοποίηση αριθμού με διαχωριστικό σε C# – Πλήρης οδηγός Aspose.Cells](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
@@ -72,10 +74,8 @@
 Μάθετε πώς να εφαρμόζετε προσαρμοσμένες μορφές αριθμού στο Excel με C# χρησιμοποιώντας Aspose.Cells.
 ### [Πώς να χρησιμοποιήσετε το CultureInfo του ιαπωνικού ημερολογίου σε C# για να γράψετε ημερομηνίες στο Excel](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
 Μάθετε πώς να γράψετε ημερομηνίες στο Excel χρησιμοποιώντας το CultureInfo του ιαπωνικού ημερολογίου σε C#.
-
 ### [Ορισμός προσαρμοσμένης μορφής κελιού σε C# – Πλήρης οδηγός για εγγραφή & ανάγνωση ημερομηνιών στο Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 Μάθετε πώς να ορίζετε προσαρμοσμένες μορφές κελιών και να διαχειρίζεστε ημερομηνίες στο Excel με Aspose.Cells για .NET.
-
 ### [Μετατροπή συμβολοσειράς σε DateTime σε C# – Εγγραφή & Ανάγνωση ημερομηνιών σε Excel](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 Μάθετε πώς να μετατρέπετε συμβολοσειρές σε DateTime και να γράφετε/διαβάζετε ημερομηνίες σε αρχεία Excel με Aspose.Cells για .NET.
 ### [Πώς να δημιουργήσετε βιβλίο εργασίας και να μετατρέψετε συμβολοσειρά σε ημερομηνία σε C#](./how-to-create-workbook-and-convert-string-to-date-in-c/)
@@ -84,6 +84,8 @@
 Μάθετε πώς να ορίσετε τη μορφή ημερομηνίας σε αρχεία Excel χρησιμοποιώντας C# και Aspose.Cells, με αναλυτικά βήματα.
 ### [Ανάλυση DateTime με Ιαπωνική Ηγεμονία Αυτοκράτορα χρησιμοποιώντας Aspose.Cells](./parse-datetime-with-japanese-emperor-reign-using-aspose-cell/)
 Μάθετε πώς να αναλύετε τιμές DateTime με βάση την ιαπωνική αυτοκρατορική ηγεμονία χρησιμοποιώντας Aspose.Cells.
+### [Ορισμός μορφής αριθμού κελιού και μετατροπή ιαπωνικών ημερομηνιών σε C#](./set-cell-number-format-and-convert-japanese-dates-in-c/)
+Μάθετε πώς να ορίσετε μορφή αριθμού κελιού και να μετατρέψετε ιαπωνικές ημερομηνίες σε Excel χρησιμοποιώντας Aspose.Cells για .NET σε C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

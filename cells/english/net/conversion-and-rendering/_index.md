@@ -50,7 +50,7 @@ Learn how to import Markdown content into Excel using C# with Aspose.Cells, enab
 ### [Excel worksheet to PNG – Complete C# Guide for Saving Excel as Image](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
 Learn how to convert Excel worksheets to PNG images using Aspose.Cells in C#, with a complete step-by-step guide.
 ### [Convert Markdown to Excel with C# – Step‑by‑Step Guide](./convert-markdown-to-excel-with-c-step-by-step-guide/)
-Learn how to transform Markdown files into Excel spreadsheets using Aspose.Cells in C# with a detailed step-by-step tutorial.
+Learn how to transform Markdown files into Excel spreadsheets using Aspose.Cells in C# with a detailed step‑by‑step tutorial.
 ### [Convert docx to svg – Full Guide for Saving Word as SVG](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
 Learn how to convert Word DOCX files to SVG format using Aspose.Words for .NET in this comprehensive step-by-step guide.
 ### [embed fonts in html – Complete Guide for .NET Developers](./embed-fonts-in-html-complete-guide-for-net-developers/)
@@ -86,6 +86,9 @@ Learn how to embed fonts when converting DOCX to HTML using Aspose.Words for .NE
 Learn how to embed fonts from a DOCX into HTML using Aspose.Words for .NET, ensuring accurate rendering across browsers.
 ### [How to convert JSON to Excel in C# with a single comma‑separated cell](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
 Learn how to transform JSON data into an Excel file in C#, handling a single comma‑separated cell efficiently.
+
+### [How to create Excel from Markdown in C# – step‑by‑step guide](./how-to-create-excel-from-markdown-in-c-step-by-step-guide/)
+Learn how to create Excel files from Markdown using Aspose.Cells for .NET in C#, with a detailed step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

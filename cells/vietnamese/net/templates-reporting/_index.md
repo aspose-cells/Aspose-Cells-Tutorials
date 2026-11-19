@@ -84,6 +84,9 @@ Hướng dẫn cách chuyển dữ liệu từ bộ dữ liệu sang tệp Excel
 ### [Cách tạo Excel từ mẫu và tạo các sheet lặp lại](./how-to-create-excel-from-template-and-generate-repeated-shee)
 Hướng dẫn tạo tệp Excel từ mẫu và tự động tạo các sheet lặp lại.
 
+### [Cách tạo Excel từ mẫu bằng C# và Aspose.Cells](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
+Hướng dẫn chi tiết cách tạo tệp Excel từ mẫu sử dụng C# và Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -33,6 +33,9 @@ Tentu saja, mari terus jelajahi kemungkinan-kemungkinan hebat dengan Aspose.Cell
 ## Perhitungan Langsung Rumus  
 Pernahkah Anda menghadapi momen di mana Anda memerlukan rumus tertentu yang dihitung tanpa harus melalui seluruh lembar? Fitur Rumus Perhitungan Langsung di Aspose.Cells untuk .NET memungkinkan Anda menargetkan rumus tertentu untuk perhitungan secara langsung, sehingga menghemat waktu dan tenaga Anda. Ini seperti memiliki jalan pintas di kota yang sibuk; ini akan membawa Anda ke tujuan Anda lebih cepat. Panduan langkah demi langkah kami tentang [Rumus Perhitungan Langsung di Excel Secara Terprogram](./direct-calculation-formula/) menunjukkan betapa mudahnya menerapkan fitur ini dalam proyek Anda.
 
+### [Mengevaluasi rumus Excel dengan rentang penjumlahan dinamis menggunakan variabel](./evaluate-excel-formula-with-a-dynamic-sum-range-using-variab/)
+Pelajari cara mengevaluasi rumus Excel dengan rentang SUM yang dinamis menggunakan variabel dalam Aspose.Cells untuk .NET.
+
 ## Mengganggu Perhitungan Rumus  
 Terkadang, perhitungan dapat memakan waktu lebih lama dari yang diharapkan, terutama dengan kumpulan data yang besar. Bagaimana jika Anda ingin menghentikan perhitungan ini untuk menghemat waktu atau memeriksa ulang data Anda? Aspose.Cells for .NET telah menyediakannya untuk Anda. Pelajari lebih lanjut tentang fungsi ini dengan panduan kami yang mudah diikuti di [Menghentikan atau Membatalkan Perhitungan Rumus Buku Kerja](./interrupt-or-cancel-formula-calculation-of-workbook/)Hal ini memungkinkan Anda memiliki kontrol yang lebih baik atas operasi spreadsheet Anda tanpa merasa terkungkung.
 

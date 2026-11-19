@@ -37,6 +37,8 @@ Ismerd meg, hogyan alkalmazhatsz formázást egy Excel sorra programozottan az A
 Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet, tördelheted az oszlopokat és mentheted XLSX formátumban az Aspose.Cells for .NET segítségével.
 ### [Excel oszlopok formázása C#-ban – Teljes útmutató](./how-to-format-excel-columns-in-c-complete-guide/)
 Ismerd meg, hogyan formázhatod az Excel oszlopokat C#-ban az Aspose.Cells for .NET segítségével ebben a részletes, lépésről lépésre útmutatóban.
+### [Hogyan használjuk a wrapcols-ot C#-ban az adatok Excelben történő tördeléséhez](./how-to-use-wrapcols-in-c-to-wrap-data-in-excel/)
+Ismerd meg, hogyan használhatod a wrapcols funkciót C#-ban az Excel adatok tördeléséhez.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -34,6 +34,8 @@ This tutorial will equip you with the skills to import your datasets while maint
 Learn how to check Excel cell values against custom number formats using Aspose.Cells for .NET with this step-by-step tutorial.
 ### [Specify Formula Fields When Importing Data to Excel Sheet](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 Learn how to import data into Excel sheets with specified formula fields using Aspose.Cells for .NET in this detailed tutorial.
+### [Set currency format while importing data into Excel using C#](./set-currency-format-while-importing-data-into-excel-using-c/)
+Learn how to set currency format while importing data into Excel using C# with Aspose.Cells for .NET.
 ### [Custom Number Format Excel in C# – Complete Guide](./custom-number-format-excel-in-c-complete-guide/)
 Learn how to apply custom number formats in Excel using C# with Aspose.Cells for .NET in this comprehensive guide.
 ### [Format Number with Separator in C# – Complete Aspose.Cells Guide](./format-number-with-separator-in-c-complete-aspose-cells-guid/)
@@ -75,7 +77,8 @@ Learn how to convert Japanese era dates to Gregorian calendar in C# using Aspose
 ### [Set Cell Custom Format in C# – Complete Guide to Writing & Reading Dates in Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 Learn how to set custom date formats in Excel cells using Aspose.Cells for .NET, covering both writing and reading dates in C#.
 
-
+### [Set cell number format and convert Japanese dates in C#](./set-cell-number-format-and-convert-japanese-dates-in-c/)
+Learn how to set cell number formats and convert Japanese dates in Excel using C# with Aspose.Cells for .NET.
 
 
 
@@ -99,7 +102,6 @@ Learn how to format date columns and export a DataTable to Excel using Aspose.Ce
 ### [Japanese Calendar Conversion in C# – Full Guide](./japanese-calendar-conversion-in-c-full-guide/)
 Learn how to convert Japanese calendar dates in C# using Aspose.Cells for .NET in this comprehensive full guide.
 ### [How to use Japanese calendar CultureInfo in C# to write dates to Excel](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
-Learn how to use Japanese calendar CultureInfo in C# to write dates to Excel with Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

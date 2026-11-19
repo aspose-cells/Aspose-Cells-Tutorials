@@ -151,7 +151,7 @@ Lär dig steg för steg hur du genererar HTML från en Excel‑tabell med C# och
 ### [Exportera Excel till HTML med C# – Komplett programmeringsguide](./export-excel-to-html-with-c-complete-programming-guide/)
 Lär dig hur du exporterar Excel till HTML med C# i en komplett guide med Aspose.Cells för .NET.
 ### [Spara Excel som HTML – Komplett guide för att exportera Excel med formatering](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
-Lär dig hur du sparar Excel som HTML med full formatering med Aspose.Cells för .NET i denna detaljerade steg-för-steg-guide.
+Lär dig hur du sparar Excel som HTML med full formatering med Aspose.Cells för .NET i denna detaljerade steg-för-steg-guiden.
 ### [Exportera Excel till HTML – Komplett guide för att bevara frysta rutor](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
 Lär dig hur du bevarar frysta rutor när du exporterar Excel till HTML med Aspose.Cells för .NET i en steg-för-steg-guide.
 ### [Bädda in teckensnitt i HTML när du sparar en arbetsbok](./how-to-embed-fonts-in-html-when-saving-a-workbook/)
@@ -159,6 +159,11 @@ Lär dig hur du bäddar in teckensnitt i HTML när du sparar en arbetsbok med As
 
 ### [Hur man använder wrapcols och bäddar in teckensnitt när man sparar Excel till HTML](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
 Lär dig hur du använder wrapcols‑alternativet och bäddar in teckensnitt vid sparande av Excel till HTML med Aspose.Cells för .NET.
+
+### [Bädda in teckensnitt när du sparar Excel till HTML med C#](./how-to-embed-fonts-when-saving-excel-to-html-with-c/)
+Lär dig hur du bäddar in teckensnitt när du sparar en Excel-fil som HTML med C# och Aspose.Cells för .NET.
+
+### [Hur man konverterar Excel till HTML med full formatering i C#](./how-to-convert-excel-to-html-with-full-formatting-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

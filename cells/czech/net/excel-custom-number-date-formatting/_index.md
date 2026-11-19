@@ -100,6 +100,10 @@ Kompletní průvodce konverzí japonského kalendáře v C# pomocí Aspose.Cells
 Naučte se, jak pomocí Aspose.Cells v C# aplikovat vlastní číselný formát v Excelu.
 ### [Jak použít japonský kalendář CultureInfo v C# k zápisu dat do Excelu](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
 Naučte se, jak pomocí Aspose.Cells v C# zapisovat data do Excelu s využitím japonského kalendáře CultureInfo.
+### [Nastavte formát měny při importu dat do Excelu pomocí C#](./set-currency-format-while-importing-data-into-excel-using-c/)
+Naučte se, jak při importu dat do Excelu nastavit formát měny pomocí Aspose.Cells v C#.
+### [Nastavte formát čísla buňky a převádějte japonská data v C#](./set-cell-number-format-and-convert-japanese-dates-in-c/)
+Naučte se, jak nastavit formát čísla buňky a převádět japonská data v C# pomocí Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

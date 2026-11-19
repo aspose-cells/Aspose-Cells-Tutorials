@@ -29,6 +29,9 @@
 
 이 튜토리얼은 수식 필드의 무결성을 유지하면서 데이터 세트를 가져오는 방법을 알려드립니다. 예를 들어, 재무 예측 데이터가 CSV 파일로 저장되어 있고, 중요한 수식은 그대로 유지하면서 Excel로 가져와야 하는 상황을 상상해 보세요. 데이터를 손상 없이 사용할 수 있도록 명확한 예시와 모범 사례를 통해 이러한 작업을 수행하는 방법을 보여드립니다. [더 읽어보세요](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 
+### [C#를 사용해 데이터를 Excel에 가져올 때 통화 서식 지정](./set-currency-format-while-importing-data-into-excel-using-c/)
+C#를 사용해 데이터를 Excel에 가져올 때 통화 서식을 적용하는 방법을 단계별로 안내합니다.
+
 ## Excel 사용자 지정 숫자 및 날짜 서식 지정 자습서
 ### [셀 값이 특정 사용자 지정 숫자 형식인지 확인](./check-if-a-cell-value-is-in-a-specific-custom-number-format/)
 이 단계별 튜토리얼을 통해 Aspose.Cells for .NET을 사용하여 Excel 셀 값을 사용자 지정 숫자 형식에 따라 확인하는 방법을 알아보세요.
@@ -60,6 +63,8 @@ Aspose.Cells for .NET을 사용하여 Excel 셀에 사용자 지정 날짜 서�
 
 ### [C#에서 일본 달력 CultureInfo를 사용하여 Excel에 날짜 쓰는 방법](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
 Aspose.Cells for .NET을 활용해 C#에서 일본 달력 CultureInfo를 적용하여 Excel에 날짜를 정확히 기록하는 방법을 단계별로 안내합니다.
+
+### [C#에서 셀 번호 형식 설정 및 일본 날짜 변환](./set-cell-number-format-and-convert-japanese-dates-in-c/)
 
 ### [C#에서 문자열을 DateTime으로 변환 – Excel에서 날짜 쓰기 및 읽기](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 Aspose.Cells for .NET을 사용해 문자열을 DateTime으로 변환하고 Excel에 날짜를 쓰고 읽는 방법을 단계별로 안내합니다.

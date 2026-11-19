@@ -124,6 +124,9 @@ Tìm hiểu cách xóa các ngăn chia tách khỏi sổ làm việc Excel bằn
 ### [Bỏ ẩn hàng và cột trong Excel bằng Aspose.Cells cho .NET - Hướng dẫn toàn diện](./unhide-rows-columns-aspose-cells-net)
 Tìm hiểu cách bỏ ẩn hàng và cột trong Excel hiệu quả bằng Aspose.Cells for .NET. Hướng dẫn này bao gồm mọi thứ từ thiết lập môi trường của bạn đến tối ưu hóa hiệu suất khi hiển thị nội dung ẩn.
 
+### [Cách sao chép phạm vi bằng CopyOptions trong Aspose.Cells](./how-to-copy-range-using-copyoptions-in-aspose-cells)
+Hướng dẫn chi tiết cách sao chép một phạm vi trong Excel bằng tùy chọn CopyOptions của Aspose.Cells cho .NET.
+
 ## Kỹ thuật quản lý phạm vi tiên tiến
 
 Khi làm việc với các phạm vi trong Excel, bạn có thể cải thiện đáng kể hiệu quả và khả năng đọc mã của mình bằng cách sử dụng các thao tác phạm vi của Aspose.Cells thay vì thao tác từng ô. Sau đây là một số kỹ thuật nâng cao để quản lý phạm vi:

@@ -184,10 +184,13 @@ Dowiedz się, jak przy pomocy Smart Markers w Aspose.Cells stworzyć skoroszyt M
 ### [Przewodnik Master‑Detail w Excelu – wypełnianie szablonów za pomocą Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)
 Dowiedz się, jak używać Smart Markers do wypełniania szablonów Excel danymi w scenariuszu Master‑Detail.
 ### [Jak powielać arkusze – Kompletny przewodnik po automatyzacji Excela](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+Dowiedz się, jak przy użyciu SmartMarker łączyć arkusze w Excelu, tworząc spójne raporty. Przewodnik krok po kroku dla .NET.
 
-### [Jak utworzyć skoroszyt Excel przy użyciu inteligentnych znaczników dla dynamicznego raportu Excel](./how-to-create-excel-workbook-with-smart-markers-for-a-dynami/)
+### [Jak powielać arkusz w Excelu przy użyciu SmartMarkerProcessor](./how-to-repeat-worksheet-in-excel-with-smartmarkerprocessor/)
+Dowiedz się, jak powielać arkusz w Excelu przy użyciu SmartMarkerProcessor, aby automatycznie generować wiele arkuszy w raporcie.
 
-### [Konwertuj JSON do XLSX w C# przy użyciu SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
+### [Utwórz skoroszyt Excel programowo przy użyciu inteligentnych znaczników](./create-excel-workbook-programmatically-using-smart-markers/)
+### [Konfiguracja opcji SmartMarkerOptions ArrayAsSingle w C# dla tablic JSON](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

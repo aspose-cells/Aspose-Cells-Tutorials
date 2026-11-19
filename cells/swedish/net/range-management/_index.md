@@ -115,6 +115,9 @@ Automatisera datainmatning i cellområden med Aspose.Cells .NET. Den här guiden
 ### [Union av intervall i Excel med Aspose.Cells för .NET: En omfattande guide](./master-union-ranges-aspose-cells-net)
 Lär dig hur du effektivt slår samman och formaterar områden i Excel med Aspose.Cells för .NET. Den här guiden behandlar installation, implementering och praktiska tillämpningar för att arbeta med flera områden som en enda enhet.
 
+### [Kopiera område med CopyOptions i Aspose.Cells](./how-to-copy-range-using-copyoptions-in-aspose-cells)
+Lär dig hur du kopierar ett cellintervall med hjälp av CopyOptions i Aspose.Cells för .NET, inklusive bevarande av format och formler.
+
 ### [Bemästra rad- och kolumnklistring i .NET med Aspose.Cells för Excel-datahantering](./mastering-row-column-pasting-aspose-cells-net)
 Lär dig att effektivt hantera Excel-data i dina .NET-applikationer med hjälp av Aspose.Cells. Den här handledningen behandlar tekniker för att klistra in rader och kolumner, optimera prestanda och verkliga tillämpningar för att överföra data mellan olika delar av kalkylblad.
 

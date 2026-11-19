@@ -59,7 +59,7 @@ Naučte se, jak skrýt řádky a sloupce v Excelu pomocí Aspose.Cells pro .NET.
 Naučte se, jak automaticky přizpůsobit sloupce v Excelu pomocí Aspose.Cells pro .NET. Tato příručka se zabývá nastavením, implementací kódu v jazyce C# a praktickými aplikacemi pro zajištění optimálního zobrazení dat bez ručního upravování šířky sloupců.
 
 ### [Kopírování více sloupců v Excelu pomocí Aspose.Cells .NET: Komplexní průvodce](./copy-multiple-columns-excel-aspose-cells-net-guide)
-Naučte se v tomto podrobném průvodci, jak efektivně kopírovat více sloupců v Excelu pomocí Aspose.Cells pro .NET. Vylepšete své úkoly správy dat a zvyšte produktivitu pomocí programové duplikace sloupců.
+Naučte se v tomto podrobném průvodci, jak efektivně kopírovat více sloupců v Excelu pomocí Aspose.Cells pro .NET. Vylepšete své úkoly správy dat a zvyšte produktivitu pomocí programní duplikace sloupců.
 
 ### [Kopírování pojmenovaných oblastí v C# pomocí Aspose.Cells: Podrobný návod](./copy-named-ranges-csharp-aspose-cells-guide)
 Naučte se, jak efektivně kopírovat pojmenované oblasti v souborech Excelu pomocí Aspose.Cells pro .NET s tímto komplexním průvodcem. Zvládněte správu oblastí a vylepšete si dovednosti v manipulaci s daty duplikováním pojmenovaných oblastí s jejich hodnotami a formátováním.
@@ -124,43 +124,8 @@ Naučte se, jak odstranit rozdělené panely z excelových sešitů pomocí Aspo
 ### [Zobrazení řádků a sloupců v Excelu pomocí Aspose.Cells pro .NET - Komplexní průvodce](./unhide-rows-columns-aspose-cells-net)
 Naučte se, jak efektivně zobrazit skryté řádky a sloupce v Excelu pomocí Aspose.Cells pro .NET. Tato příručka pokrývá vše od nastavení prostředí až po optimalizaci výkonu při odhalování skrytého obsahu.
 
-## Pokročilé techniky správy střelnice
-
-Při práci s rozsahy v Excelu můžete výrazně zlepšit efektivitu a čitelnost kódu používáním operací s rozsahy Aspose.Cells namísto manipulace s jednotlivými buňkami. Zde je několik pokročilých technik pro správu rozsahů:
-
-### Pojmenované rozsahy
-
-Pojmenované rozsahy usnadňují čtení a údržbu kódu:
-
-- **Vytváření pojmenovaných rozsahů**Definujte logické skupiny buněk se smysluplnými názvy
-- **Přístup k pojmenovaným rozsahům**Odkazujte na buňky pomocí obchodních názvů, nikoli souřadnic.
-- **Vymezení pojmenovaných rozsahů**Vytvoření pojmenovaných oblastí na úrovni listu nebo sešitu
-
-### Kopírování a přesouvání rozsahu
-
-Efektivní duplikace nebo přesun dat:
-
-- **Kopírování s formátováním**Zachovat styly, ohraničení a písma
-- **Úprava vzorce**Automaticky aktualizovat relativní reference při kopírování
-- **Selektivní kopírování**Zkopírujte pouze hodnoty, vzorce nebo styly podle potřeby
-
-### Sjednocené rozsahy a nesouvislé výběry
-
-Práce se složitými výběry rozsahu:
-
-- **Kombinování více rozsahů**Aplikujte operace na několik nesousedních oblastí
-- **Detekce křižovatek**Identifikujte, kde se rozsahy překrývají
-- **Zpracování více oblastí**Zacházejte s nespojitými skupinami buněk jako s jednou entitou
-
-### Řízení viditelnosti v dosahu
-
-Spravujte, co uživatelé mohou vidět:
-
-- **Operace skrytí/odkrytí**Programově ovládat viditelnost řádků a sloupců
-- **Seskupení a osnova**Vytvořte v pracovních listech skládací sekce
-- **Povolit úpravy rozsahů**Definování specifických upravitelných oblastí v chráněných pracovních listech
-
-Zvládnutím těchto pokročilých technik správy rozsahů můžete vytvářet efektivnější automatizační řešení pro Excel, která pracují s logickými skupinami dat, nikoli s jednotlivými buňkami, čímž se snižuje složitost kódu a zlepšuje výkon.
+### [Jak zkopírovat oblast pomocí CopyOptions v Aspose.Cells | Podrobný návod](./how-to-copy-range-using-copyoptions-in-aspose-cells)
+Naučte se, jak pomocí třídy CopyOptions efektivně kopírovat oblasti buněk v Excelu s Aspose.Cells pro .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

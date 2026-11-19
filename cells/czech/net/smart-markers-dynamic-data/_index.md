@@ -154,6 +154,11 @@ Naučte se pomocí SmartMarker v Aspose.Cells generovat více listů v Excelu po
 ### [Jak vytvořit Excel sešit programově pomocí C#](./how-to-create-excel-workbook-programmatically-with-c/)
 Naučte se, jak pomocí Aspose.Cells v C# programově vytvořit Excel sešit a naplnit jej daty.
 
+### [Vložení zástupce inteligentní značky do Excelu pomocí C#](./insert-smart-marker-placeholder-in-excel-with-c/)
+
+### [Jak opakovat list v Excelu pomocí SmartMarkerProcessor](./how-to-repeat-worksheet-in-excel-with-smartmarkerprocessor/)
+Naučte se, jak pomocí SmartMarkerProcessor opakovat listy v Excelu a automatizovat generování reportů.
+
 ## Načtení šablony Excel v C# – rychlé generování více listů
 Naučte se načíst Excel šablonu v C# a během okamžiku vytvořit více listů s dynamickými daty.
 ### [Import JSON do Excelu v C# – krok za krokem](./import-json-to-excel-in-c-step-by-step-guide/)

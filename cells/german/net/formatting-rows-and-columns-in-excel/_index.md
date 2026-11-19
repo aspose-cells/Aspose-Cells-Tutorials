@@ -37,6 +37,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET programmgesteuert Formatierunge
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe erstellen, Spalten umbrechen und die Datei als XLSX speichern.
 ### [Wie man Excel-Spalten in C# formatiert – Komplettanleitung](./how-to-format-excel-columns-in-c-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Spalten in C# vollständig formatieren – von Zahlenformaten bis zu Stiloptionen.
+### [Wie man wrapcols in C# verwendet, um Daten in Excel zu umbrechen](./how-to-use-wrapcols-in-c-to-wrap-data-in-excel/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET wrapcols einsetzen, um Daten in Excel-Zellen automatisch umzubrechen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

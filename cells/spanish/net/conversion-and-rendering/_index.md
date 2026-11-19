@@ -51,7 +51,7 @@ Aprenda a cargar archivos Markdown y transformarlos en hojas de cálculo Excel u
 ### [Hoja de cálculo de Excel a PNG – Guía completa en C# para guardar Excel como imagen](./excel-worksheet-to-png-complete-c-guide-for-saving-excel-as/)
 Aprenda a convertir hojas de cálculo de Excel a imágenes PNG usando Aspose.Cells y C#, paso a paso.
 ### [Convertir Markdown a Excel con C# – Guía paso a paso](./convert-markdown-to-excel-with-c-step-by-step-guide/)
-Aprenda a transformar archivos Markdown en hojas de cálculo Excel usando Aspose.Cells y C#, con instrucciones detalladas paso a paso.
+Aprenda a transformar archivos Markdown en hojas de cálculo Excel usando Aspose.Cells en .NET, paso a paso.
 ### [Convertir docx a SVG – Guía completa para guardar Word como SVG](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
 Aprenda a convertir documentos Word (docx) a SVG con Aspose.Words para .NET mediante esta guía paso a paso.
 ### [Incrustar fuentes en HTML – Guía completa para desarrolladores .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
@@ -69,6 +69,8 @@ Aprenda a exportar una tabla dinámica de Excel a una imagen PNG usando Aspose.C
 
 ### [Crear nuevo libro de trabajo en C# – Importar Markdown a Excel](./create-new-workbook-in-c-import-markdown-to-excel/)
 Aprenda a crear un nuevo libro de trabajo en C# e importar contenido Markdown a Excel usando Aspose.Cells.
+### [Cómo crear Excel a partir de Markdown en C# – guía paso a paso](./how-to-create-excel-from-markdown-in-c-step-by-step-guide/)
+Aprenda a generar archivos Excel desde Markdown usando Aspose.Cells en C# con esta guía paso a paso.
 ### [Convertir markdown a Excel – Guía completa en C#](./convert-markdown-to-excel-complete-c-guide/)
 Aprenda a convertir archivos markdown a Excel usando Aspose.Cells con C# paso a paso.
 ### [Exportar Excel a PNG con Aspose.Cells – Guía completa paso a paso](./export-excel-to-png-with-aspose-cells-complete-step-by-step/)
@@ -84,6 +86,7 @@ Aprenda a convertir documentos DOCX a HTML manteniendo todas las fuentes incrust
 ### [Cómo incrustar fuentes en HTML desde un DOCX – Guía completa](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
 Aprenda a incrustar fuentes en documentos HTML generados a partir de archivos DOCX usando Aspose.Words para .NET, paso a paso.
 ### [Cómo convertir JSON a Excel en C# con una sola celda separada por comas](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
+
 Aprenda a transformar datos JSON en una hoja de Excel en C#, usando una única celda con valores separados por comas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}

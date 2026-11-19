@@ -41,7 +41,7 @@ Ismerd meg, hogyan hozhatsz létre PDF-et Excel fájlokból C#‑ban az Aspose.C
 ### [Munkafüzet exportálása PDF-be – Teljes C# útmutató](./export-workbook-to-pdf-complete-c-guide/)
 Ismerd meg, hogyan exportálhatod a munkafüzetet PDF-be C#‑ban az Aspose.Cells segítségével, részletes útmutatóval.
 ### [Betűtípusok beágyazása Excel PDF konvertálásakor – Teljes útmutató](./how-to-embed-fonts-when-converting-excel-to-pdf-complete-gui/)
-Ismerd meg, hogyan ágyazhatod be a betűtípusokat Excel PDF konvertálás során az Aspose.Cells segítségével, a teljes útmutatóban.
+Ismerd meg, hogyan ágyazhatod be a betűtípusokat Excel PDF-be konvertálás során az Aspose.Cells segítségével, a teljes útmutatóban.
 ### [DOCX konvertálása PDF-be C#-ban – Teljes útmutató](./convert-docx-to-pdf-in-c-complete-guide/)
 Tanulja meg, hogyan konvertálhat DOCX fájlokat PDF-be C#-ban az Aspose.Words segítségével, lépésről lépésre útmutatóval.
 ### [Munkafüzet mentése PDF-ként C#-ban – Excel exportálása PDF/A‑3b](./save-workbook-as-pdf-in-c-export-excel-to-pdf-a-3b/)
@@ -63,13 +63,9 @@ Tanulja meg, hogyan menthet Word dokumentumokat PDF formátumba C#-ban az Aspose
 ### [Hogyan ágyazz be betűtípusokat Excel PDF-be konvertálásakor – Lépésről‑lépésre útmutató](./how-to-embed-fonts-when-converting-excel-to-pdf-step-by-step/)
 Ismerd meg, hogyan ágyazhatod be a betűtípusokat Excel-fájlok PDF-be konvertálásakor az Aspose.Cells segítségével.
 ### [Betűtípusok beágyazása PDF-be – Teljes C# útmutató az Excel PDF-be exportálásához](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
-Tanulja meg, hogyan ágyazhat be betűtípusokat PDF-be C#-ban az Aspose.Cells segítségével, hogy az Excel exportok megőrizzék a formázást.
-### [Hogyan exportáljunk PDF-et Excelből – Teljes útmutató a munkafüzet PDF-be mentéshez](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
-Ismerje meg, hogyan menthet Excel munkafüzetet PDF-be az Aspose.Cells segítségével, lépésről lépésre útmutatóval.
-### [XLSX mentése PDF-be C#-ban – Teljes útmutató PDF/A‑1b‑vel](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)
-Ismerd meg, hogyan mentheted el az XLSX fájlokat PDF/A‑1b formátumban C#-ban az Aspose.Cells segítségével.
-### [Excel konvertálása PDF-be C#-ban – teljes programozási útmutató](./convert-excel-to-pdf-in-c-complete-programming-guide/)
-Részletes útmutató az Excel fájlok C#-ban PDF-be konvertálásához az Aspose.Cells segítségével.
+Tanulja meg, hogyan ágyazhat be betűtípusokat PDF-be C#-ban az Aspose.Cells segítségével, a részletes lépésekkel.
+### [Betűtípusok beágyazása Excel PDF-be exportálásakor C#-ban](./how-to-embed-fonts-when-exporting-excel-to-pdf-with-c/)
+Ismerd meg, hogyan ágyazhatod be a betűtípusokat Excel PDF-be exportálásakor C#-ban az Aspose.Cells segítségével.
 ### [PDF mentése betűvariációs szelektorokkal – teljes útmutató](./how-to-save-pdf-with-font-variation-selectors-complete-guide/)
 Ismerd meg, hogyan menthetsz PDF-et betűvariációs szelektorokkal az Aspose.PDF segítségével, lépésről lépésre útmutató.
 ### [Excel munkafüzet létrehozása és PDF‑ként mentése dinamikus tömbökkel](./create-excel-workbook-and-save-as-pdf-with-dynamic-arrays/)

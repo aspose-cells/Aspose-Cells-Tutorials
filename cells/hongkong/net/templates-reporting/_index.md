@@ -83,6 +83,9 @@ Aspose.Cells Net 代碼教程
 ### [如何從範本建立 Excel 並產生重複工作表](./how-to-create-excel-from-template-and-generate-repeated-shee)
 說明如何使用 Aspose.Cells 從 Excel 範本建立檔案，並自動產生多個重複的工作表。
 
+### [如何使用 C# 與 Aspose.Cells 從範本產生 Excel](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
+說明如何使用 C# 及 Aspose.Cells 從 Excel 範本自動產生檔案。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

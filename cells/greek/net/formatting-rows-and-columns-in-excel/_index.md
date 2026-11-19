@@ -37,6 +37,8 @@
 Μάθετε πώς να δημιουργήσετε ένα βιβλίο εργασίας Excel, να τυλίξετε τις στήλες και να το αποθηκεύσετε ως αρχείο XLSX χρησιμοποιώντας Aspose.Cells για .NET.
 ### [Πώς να μορφοποιήσετε στήλες Excel σε C# – Πλήρης οδηγός](./how-to-format-excel-columns-in-c-complete-guide/)
 Μάθετε πώς να μορφοποιήσετε στήλες Excel χρησιμοποιώντας C# και Aspose.Cells για .NET με αυτόν τον ολοκληρωμένο οδηγό βήμα προς βήμα.
+### [Πώς να χρησιμοποιήσετε το wrapcols σε C# για να τυλίξετε δεδομένα στο Excel](./how-to-use-wrapcols-in-c-to-wrap-data-in-excel/)
+Μάθετε πώς να χρησιμοποιήσετε τη μέθοδο wrapcols σε C# για να τυλίξετε δεδομένα σε φύλλο Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

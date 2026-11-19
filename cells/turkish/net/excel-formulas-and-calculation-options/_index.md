@@ -103,7 +103,7 @@ Bu adım adım kılavuzda Aspose.Cells for .NET kullanarak C# ile EXPAND fonksiy
 ### [C# ile Dinamik Dizi Formülüyle Excel Çalışma Kitabı Oluşturma](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
 Aspose.Cells for .NET kullanarak C# ile dinamik dizi formülü içeren bir Excel çalışma kitabı oluşturmayı adım adım öğrenin.
 ### [C# ile Excel çalışma kitabı oluşturma ve formüller ayarlama](./how-to-create-excel-workbook-in-c-and-set-formulas/)
-Aspose.Cells for .NET kullanarak C# ile bir Excel çalışma kitabı oluşturup formüller eklemeyi öğrenin.
+### [Değişkenler Kullanarak Dinamik Toplam Aralığıyla Excel Formülünü Değerlendirme](./evaluate-excel-formula-with-a-dynamic-sum-range-using-variab/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

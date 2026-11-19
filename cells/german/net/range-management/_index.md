@@ -20,7 +20,7 @@ Excel-Bereiche sind Zellsammlungen, die die Grundlage für die Datenorganisation
 
 Diese Tutorialsammlung deckt alle Aspekte der Bereichsverwaltung ab, vom Zugriff auf benannte Bereiche über die Bearbeitung mehrerer Zeilen und Spalten, die Implementierung von Vereinigungsbereichen, das Kopieren von Daten zwischen Bereichen und die Handhabung zusammengeführter Zellen. Egal, ob Sie Berichtsanwendungen, Datenanalysetools oder Dokumentgenerierungssysteme entwickeln – diese Tutorials unterstützen Sie bei der Implementierung effizienter bereichsbasierter Operationen in Ihren .NET-Anwendungen.
 
-Durch die Beherrschung der Bereichsverwaltung mit Aspose.Cells können Sie effizienteren, wartungsfreundlicheren Code erstellen, der Daten in logischen Gruppen statt Zelle für Zelle verarbeitet, wodurch sowohl die Leistung als auch die Lesbarkeit verbessert werden.
+Durch die Beherrschung der Bereichsverwaltung mit Aspose.Cells können Sie effizienteren, wartungsfreundlicheren Code erstellen, der Daten in logischen Gruppen statt Zelle für Zelle verarbeitet, wodurch sowohl die Leistung als auch die Lesbarkeit verbessert wird.
 
 ## Wichtige Funktionen zur Bereichsverwaltung
 
@@ -126,6 +126,10 @@ Erfahren Sie, wie Sie geteilte Bereiche aus Excel-Arbeitsmappen mit Aspose.Cells
 
 ### [Zeilen und Spalten in Excel mit Aspose.Cells für .NET einblenden – Eine umfassende Anleitung](./unhide-rows-columns-aspose-cells-net)
 Erfahren Sie, wie Sie Zeilen und Spalten in Excel mit Aspose.Cells für .NET effizient sichtbar machen. Diese Anleitung behandelt alles von der Einrichtung Ihrer Umgebung bis zur Leistungsoptimierung beim Anzeigen versteckter Inhalte.
+
+### [Wie man einen Bereich mit CopyOptions in Aspose.Cells kopiert](./how-to-copy-range-using-copyoptions-in-aspose-cells/)
+
+Erfahren Sie, wie Sie mit Aspose.Cells und CopyOptions Bereiche effizient kopieren.
 
 ## Erweiterte Range-Management-Techniken
 

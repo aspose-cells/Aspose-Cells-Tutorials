@@ -37,6 +37,8 @@ Aspose.Cells for .NET を使用して、Excel の行にプログラムで書式�
 Aspose.Cells for .NET を使用して、列のテキストを折り返し設定し、Excel ワークブックを作成して XLSX 形式で保存する方法を学びます。
 ### [C# で Excel の列をフォーマットする完全ガイド](./how-to-format-excel-columns-in-c-complete-guide/)
 Aspose.Cells for .NET を使用して、C# で Excel の列書式設定を行う手順を詳しく解説します。
+### [C# で wrapcols を使用して Excel のデータを折り返す方法](./how-to-use-wrapcols-in-c-to-wrap-data-in-excel/)
+Aspose.Cells for .NET を使用し、C# で wrapcols 機能を活用して Excel のセルデータを自動的に折り返す手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

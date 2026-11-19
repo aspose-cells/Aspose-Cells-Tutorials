@@ -37,6 +37,8 @@
 เรียนรู้วิธีสร้างไฟล์ Excel, ตั้งค่าการพับคอลัมน์และบันทึกเป็นไฟล์ XLSX ด้วย Aspose.Cells สำหรับ .NET
 ### [วิธีจัดรูปแบบคอลัมน์ Excel ใน C# – คู่มือฉบับสมบูรณ์](./how-to-format-excel-columns-in-c-complete-guide/)
 เรียนรู้วิธีจัดรูปแบบคอลัมน์ Excel ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET ผ่านคู่มือฉบับสมบูรณ์
+### [วิธีใช้ wrapcols ใน C# เพื่อห่อข้อมูลใน Excel](./how-to-use-wrapcols-in-c-to-wrap-data-in-excel/)
+เรียนรู้วิธีใช้ wrapcols ใน C# เพื่อห่อข้อมูลใน Excel ด้วย Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -52,13 +52,15 @@ Lär dig hur du anger kommentarer för tabeller i Excel med Aspose.Cells för .N
 ### [Skapa Excel-tabell i C# – Steg‑för‑steg‑guide](./create-excel-table-in-c-step-by-step-guide/)
 Lär dig skapa en Excel‑tabell i C# med en detaljerad steg‑för‑steg‑guide med Aspose.Cells för .NET.
 ### [Skapa tabell från område i C# – Komplett Aspose.Cells-handledning](./create-table-from-range-in-c-complete-aspose-cells-tutorial/)
-Lär dig skapa en Excel-tabell från ett område i C# med Aspose.Cells i denna kompletta steg‑för‑steg‑guide.
+Lär dig skapa en Excel‑tabell från ett område i C# med Aspose.Cells i denna kompletta steg‑för‑steg‑guide.
 ### [Hur du byter namn på en tabell i C# – Fullständig guide](./how-to-rename-table-in-c-full-guide/)
 Lär dig hur du byter namn på en Excel‑tabell med Aspose.Cells för .NET i C# med vår steg‑för‑steg‑guide.
 ### [Ta bort rader i Word-tabell – Komplett C#-guide](./delete-rows-word-table-complete-c-guide/)
 Lär dig hur du tar bort rader i en Word-tabell med Aspose.Words för .NET i en komplett C#-guide.
 ### [Hur man tar bort rader från en Excel-tabell och ändrar dess namn i C#](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
 Lär dig ta bort rader i en Excel-tabell och byta namn på den med Aspose.Cells för .NET i C#.
+### [Hur du tar bort en tabell i Excel med C# – steg‑för‑steg‑guide](./how-to-delete-table-from-excel-using-c-step-by-step-guide/)
+Lär dig hur du tar bort en tabell i Excel med C# i denna detaljerade steg‑för‑steg‑guide.
 
 
 

@@ -136,8 +136,13 @@
 
 ### [Встраивание шрифтов в HTML – экспорт Excel в HTML с C#](./embed-fonts-in-html-export-excel-to-html-with-c/)
 Узнайте, как встраивать шрифты в HTML при экспорте Excel в HTML с помощью Aspose.Cells для .NET и C#.
+
+### [Как внедрить шрифты при сохранении Excel в HTML с C#](./how-to-embed-fonts-when-saving-excel-to-html-with-c/)
+Узнайте, как программно внедрять шрифты в HTML при сохранении файлов Excel с помощью C# и Aspose.Cells.
+
 ### [Как внедрить шрифты при конвертации Excel в HTML с Aspose.Cells](./how-to-embed-fonts-when-converting-excel-to-html-with-aspose/)
-Узнайте, как программно внедрять шрифты в HTML при конвертации Excel с помощью Aspose.Cells для .NET.
+Узнайте, как внедрить шрифты в HTML при конвертации Excel с помощью Aspose.Cells для .NET.
+
 ### [Конвертировать Excel в HTML на C# – Полное руководство](./convert-excel-to-html-in-c-complete-guide/)
 Узнайте, как полностью конвертировать файлы Excel в HTML с помощью C# и Aspose.Cells для .NET в этом подробном руководстве.
 
@@ -161,10 +166,15 @@
 
 ### [Как внедрить шрифты при экспорте Excel в HTML – Полное руководство C#](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-g/)
 Узнайте, как внедрять шрифты при экспорте Excel в HTML с помощью Aspose.Cells для .NET в полном руководстве на C#.
+
 ### [Сохранить Excel как HTML – Полное руководство по экспорту Excel с форматированием](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
 Узнайте, как сохранить файл Excel в HTML с полным сохранением форматирования, используя Aspose.Cells для .NET, в этом подробном руководстве.
+
 ### [Экспорт Excel в HTML – Полное руководство по сохранению замороженных областей](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
 Узнайте, как сохранить замороженные области листа при экспорте Excel в HTML с помощью Aspose.Cells для .NET.
+
+### [Как конвертировать Excel в HTML с полным форматированием на C#](./how-to-convert-excel-to-html-with-full-formatting-in-c/)
+Узнайте, как полностью конвертировать Excel в HTML с сохранением форматирования, используя Aspose.Cells для .NET на C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -37,6 +37,8 @@ Scopri come applicare la formattazione a una riga di Excel a livello di codice u
 Scopri come creare una cartella di lavoro Excel, avvolgere le colonne e salvarla in formato XLSX usando Aspose.Cells per .NET.
 ### [Come formattare le colonne di Excel in C# – Guida completa](./how-to-format-excel-columns-in-c-complete-guide/)
 Scopri come formattare le colonne di Excel in C# utilizzando Aspose.Cells per .NET con questa guida completa passo passo.
+### [Come utilizzare wrapcols in C# per avvolgere i dati in Excel](./how-to-use-wrapcols-in-c-to-wrap-data-in-excel/)
+Scopri come usare il metodo wrapcols in C# per avvolgere i dati nelle celle di Excel con Aspose.Cells per .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

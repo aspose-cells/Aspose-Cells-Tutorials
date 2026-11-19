@@ -217,6 +217,12 @@ Aprenda a generar libros de Excel maestro‑detalle rellenando plantillas median
 ### [Cómo repetir hojas de cálculo – Guía completa para la automatización de Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 Aprenda a duplicar hojas de cálculo automáticamente con Aspose.Cells, optimizando la generación de informes en Excel.
 
+### [Insertar marcador inteligente de posición en Excel con C#](./insert-smart-marker-placeholder-in-excel-with-c/)
+Aprenda a insertar un marcador inteligente de posición en una hoja de Excel usando C# y Aspose.Cells.
+
+### [Cómo repetir una hoja de cálculo en Excel con SmartMarkerProcessor](./how-to-repeat-worksheet-in-excel-with-smartmarkerprocessor/)
+Aprenda a generar múltiples copias de una hoja de cálculo usando SmartMarkerProcessor para automatizar informes en Excel.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
