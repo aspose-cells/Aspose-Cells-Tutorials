@@ -1,0 +1,7 @@
+Title: How to repeat worksheet in Excel with SmartMarkerProcessor
+Slug: how-to-repeat-worksheet-in-excel-with-smartmarkerprocessor
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-11-19T12:21:08.678330
+SourceRepo: AI Search API
+Keywords: how to repeat worksheet, populate excel with array, generate multiple worksheets, populate worksheet from list
+PRNumber: 209
