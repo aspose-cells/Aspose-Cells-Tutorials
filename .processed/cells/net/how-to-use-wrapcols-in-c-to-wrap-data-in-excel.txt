@@ -1,0 +1,7 @@
+Title: How to use wrapcols in C# to wrap data in Excel
+Slug: how-to-use-wrapcols-in-c-to-wrap-data-in-excel
+Category: formatting-rows-and-columns-in-excel
+ProcessedDate: 2026-11-19T12:21:00.138077
+SourceRepo: AI Search API
+Keywords: how to use wrapcols, calculate excel formulas, wrap data in excel, save excel file c#, load excel workbook c#
+PRNumber: 209
