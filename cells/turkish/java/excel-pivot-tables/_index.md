@@ -90,6 +90,8 @@ Java’da Excel çalışma kitapları arasında pivot tablolarını kopyalamayı
 Aspose.Cells for Java kullanarak bir pivot tabloyu bir çalışma sayfasından diğerine nasıl kopyalayacağınızı öğrenin.
 ### [Java’da Pivot Tablosunu Yeni Çalışma Kitabına Kopyalama](./how-to-copy-pivot-table-to-a-new-workbook-in-java/)
 Aspose.Cells for Java kullanarak bir pivot tabloyu yeni bir çalışma kitabına nasıl kopyalayacağınızı öğrenin.
+### [Java’da Aspose.Cells ile Pivot Tablosunu Kopyalama](./how-to-copy-pivot-table-in-java-with-aspose-cells/)
+Aspose.Cells for Java kullanarak bir pivot tabloyu kopyalamayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

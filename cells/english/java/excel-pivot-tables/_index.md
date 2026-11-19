@@ -75,35 +75,52 @@ Learn how to copy a range and duplicate a Pivot Table in Java using Aspose.Cells
 Learn how to export Excel Pivot Tables as PNG images using Aspose.Cells for Java, with step-by-step code examples.
 ### [How to copy pivot table in Java using Aspose.Cells](./how-to-copy-pivot-table-in-java-using-aspose-cells/)
 Learn how to duplicate a Pivot Table programmatically using Aspose.Cells for Java.
+
 ### [How to copy pivot table in Java with Aspose.Cells – step‑by‑step guide](./how-to-copy-pivot-table-in-java-with-aspose-cells-step-by-st/)
 Learn how to copy a Pivot Table in Java with Aspose.Cells using a detailed step‑by‑step guide.
+
+### [How to copy pivot table in Java with Aspose.Cells](./how-to-copy-pivot-table-in-java-with-aspose-cells/)
+Learn how to copy a Pivot Table in Java using Aspose.Cells, preserving formatting and data efficiently.
+
 ### [Copy Pivot Table Between Workbooks – Step‑by‑Step Java Guide](./copy-pivot-table-between-workbooks-step-by-step-java-guide/)
 Learn how to copy a Pivot Table from one workbook to another using Aspose.Cells for Java, preserving data and formatting effortlessly.
+
 ### [How to copy pivot table to a new workbook in Java](./how-to-copy-pivot-table-to-a-new-workbook-in-java/)
 Learn how to copy a Pivot Table to a new workbook using Aspose.Cells for Java.
+
 ### [Create New Workbook in Java – Full Guide to Copy Pivot Table](./create-new-workbook-in-java-full-guide-to-copy-pivot-table/)
 Learn how to create a new workbook and copy Pivot Tables in Java using Aspose.Cells, with step-by-step code examples.
+
 ### [How to duplicate worksheet and preserve pivot tables in Java](./how-to-duplicate-worksheet-and-preserve-pivot-tables-in-java/)
 Learn how to duplicate a worksheet while preserving its Pivot Tables using Aspose.Cells for Java.
 
 ### [How to duplicate pivot in Java using Aspose.Cells](./how-to-duplicate-pivot-in-java-using-aspose-cells/)
 Learn how to duplicate a Pivot Table in Java using Aspose.Cells, preserving formatting and data.
+
 ### [How to copy range and preserve a pivot table in Java](./how-to-copy-range-and-preserve-a-pivot-table-in-java/)
 Learn how to copy a range while preserving its Pivot Table in Java using Aspose.Cells.
+
 ### [How to duplicate pivot tables in Excel with Java – step‑by‑step guide](./how-to-duplicate-pivot-tables-in-excel-with-java-step-by-ste/)
 Learn how to duplicate pivot tables in Excel using Java and Aspose.Cells with a detailed step‑by‑step guide.
+
 ### [Create New Workbook and Copy Pivot Table in Java – Full Step‑by‑Step Guide](./create-new-workbook-and-copy-pivot-table-in-java-full-step-b/)
 Learn how to create a new workbook and copy a pivot table using Aspose.Cells for Java in a full step‑by‑step guide.
+
 ### [Copy Pivot Table in Java with Aspose.Cells – Complete Guide](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
 Learn how to copy Pivot Tables in Java with Aspose.Cells, including code examples for duplicating and modifying pivot data efficiently.
+
 ### [Copy pivot table in Java – step‑by‑step guide using Aspose.Cells](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
 Learn how to copy a Pivot Table in Java using Aspose.Cells with a step‑by‑step guide.
+
 ### [How to copy pivot in Aspose.Cells – copy range to workbook](./how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook/)
 Learn how to copy a Pivot Table range to another workbook using Aspose.Cells for Java.
+
 ### [How to copy a pivot table in Java using Aspose.Cells](./how-to-copy-a-pivot-table-in-java-using-aspose-cells/)
 Learn how to copy a pivot table in Java using Aspose.Cells, preserving formatting and enabling further processing.
+
 ### [How to copy pivot tables between Excel workbooks in Java](./how-to-copy-pivot-tables-between-excel-workbooks-in-java/)
 Learn how to copy Pivot Tables from one Excel workbook to another using Aspose.Cells for Java.
+
 ### [How to duplicate an Excel sheet and keep pivot tables intact in Java](./how-to-duplicate-an-excel-sheet-and-keep-pivot-tables-intact/)
 Learn how to duplicate an Excel sheet while preserving its Pivot Tables using Aspose.Cells for Java.
 
