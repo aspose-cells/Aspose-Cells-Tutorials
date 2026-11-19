@@ -1,0 +1,7 @@
+Title: How to create Excel from Markdown in C# – step‑by‑step guide
+Slug: how-to-create-excel-from-markdown-in-c-step-by-step-guide
+Category: conversion-and-rendering
+ProcessedDate: 2026-11-19T12:21:22.843929
+SourceRepo: AI Search API
+Keywords: create excel from markdown, convert markdown to excel, read markdown file, export markdown to excel, save as excel file
+PRNumber: 209
