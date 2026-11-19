@@ -1,0 +1,7 @@
+Title: Insert smart marker placeholder in Excel with C#
+Slug: insert-smart-marker-placeholder-in-excel-with-c
+Category: smart-markers-dynamic-data
+ProcessedDate: 2026-11-19T12:20:57.588100
+SourceRepo: AI Search API
+Keywords: insert smart marker placeholder
+PRNumber: 209
