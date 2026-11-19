@@ -1,0 +1,7 @@
+Title: How to delete table from Excel using C# – step‑by‑step guide
+Slug: how-to-delete-table-from-excel-using-c-step-by-step-guide
+Category: tables-and-lists
+ProcessedDate: 2026-11-19T12:20:46.590207
+SourceRepo: AI Search API
+Keywords: delete table from excel, read excel file c#, how to remove table excel, load excel workbook c#, how to delete excel table
+PRNumber: 209
