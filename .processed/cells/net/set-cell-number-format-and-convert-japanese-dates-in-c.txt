@@ -1,0 +1,7 @@
+Title: Set cell number format and convert Japanese dates in C#
+Slug: set-cell-number-format-and-convert-japanese-dates-in-c
+Category: excel-custom-number-date-formatting
+ProcessedDate: 2026-11-19T12:20:52.194133
+SourceRepo: AI Search API
+Keywords: set cell number format, apply excel date format, c# excel date conversion
+PRNumber: 209
