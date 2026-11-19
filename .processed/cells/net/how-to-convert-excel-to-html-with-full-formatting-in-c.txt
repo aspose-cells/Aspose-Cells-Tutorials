@@ -1,0 +1,7 @@
+Title: How to convert Excel to HTML with full formatting in C#
+Slug: how-to-convert-excel-to-html-with-full-formatting-in-c
+Category: exporting-excel-to-html-with-advanced-options
+ProcessedDate: 2026-11-19T12:21:17.480235
+SourceRepo: AI Search API
+Keywords: convert excel to html, save workbook as html, export excel to html with formatting, export xlsx as html
+PRNumber: 209
