@@ -29,6 +29,9 @@ Nu ska vi prata om dataimport. Att flytta data till Excel kan ibland kännas som
 
 Den här handledningen ger dig färdigheterna att importera dina dataset samtidigt som du bibehåller integriteten hos formelfälten. Tänk dig detta: du har ekonomiska prognoser i en CSV-fil och du behöver importera den till Excel utan att förlora de viktiga formlerna. Vi visar dig hur du gör just det med tydliga exempel och bästa praxis som säkerställer att dina data levereras intakta och användbara. [Läs mer](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 
+### [Ställ in valutformat vid import av data till Excel med C#](./set-currency-format-while-importing-data-into-excel-using-c/)
+Lär dig hur du anger valutformat när du importerar data till Excel med C# och Aspose.Cells.
+
 ## Handledningar för anpassad tal- och datumformatering i Excel
 ### [Kontrollera om ett cellvärde har ett specifikt anpassat talformat](./check-if-a-cell-value-is-in-a-specific-custom-number-format/)
 Lär dig hur du kontrollerar Excel-cellvärden mot anpassade talformat med Aspose.Cells för .NET med den här steg-för-steg-handledningen.
@@ -74,6 +77,8 @@ Lär dig hur du konverterar japanska era-datum till gregorianska datum i C# med 
 
 ### [Ange cellens anpassade format i C# – Komplett guide för att skriva & läsa datum i Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 Lär dig hur du ställer in anpassade datumformat i Excel-celler med C# och både skriver och läser datum korrekt.
+### [Ställ in cellens talformat och konvertera japanska datum i C#](./set-cell-number-format-and-convert-japanese-dates-in-c/)
+Lär dig hur du anger talformat för celler och konverterar japanska datum i C# med Aspose.Cells.
 
 
 

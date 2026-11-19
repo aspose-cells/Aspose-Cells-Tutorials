@@ -36,7 +36,6 @@
 通过本分步指南，学习如何在 .NET 中使用 Aspose.Cells 将 Excel 图表转换为 PDF！适合所有级别的程序员。
 ### [如何在 C# 中设置 PDF 选项 – 完全控制导出 Excel 为 PDF](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
 了解如何在 C# 使用 Aspose.Cells 设置 PDF 选项，实现对导出 Excel 为 PDF 的完整控制。
-
 ### [使用 C# 从 Excel 创建 PDF – 分步指南](./create-pdf-from-excel-in-c-step-by-step-guide/)
 通过本教程，使用 Aspose.Cells for .NET 在 C# 中将 Excel 文件转换为 PDF，步骤清晰，适合所有开发者。
 ### [导出工作簿为 PDF – 完整 C# 指南](./export-workbook-to-pdf-complete-c-guide/)
@@ -51,7 +50,7 @@
 通过本完整分步指南，学习如何使用 Aspose.Cells 将 Excel 工作簿保存为高质量的 PDF 文件。
 ### [如何在 C# 中使用 Aspose.Cells 将工作簿保存为 PDF](./how-to-save-workbook-as-pdf-with-aspose-cells-in-c/)
 本指南详细演示在 C# 环境下使用 Aspose.Cells 将 Excel 工作簿导出为 PDF，步骤清晰，适合各类开发者。
-### [如何使用 Aspose.Cells 将 Excel 工作簿保存为 PDF](./how-to-save-pdf-from-an-excel-workbook-with-aspose-cells/)
+### [如何使用 Aspose.Cells 将工作簿保存为 PDF](./how-to-save-pdf-from-an-excel-workbook-with-aspose-cells/)
 通过本完整指南，学习如何使用 Aspose.Cells 将 Excel 工作簿保存为 PDF，步骤清晰，适合所有开发者。
 ### [在 C# 中嵌入字体并将工作簿保存为 PDF](./how-to-embed-fonts-in-pdf-save-workbook-as-pdf-in-c/)
 了解如何在使用 Aspose.Cells for .NET 将工作簿保存为 PDF 时嵌入字体，确保文档在所有设备上保持一致显示。
@@ -67,6 +66,8 @@
 使用 Aspose.Cells for .NET 学习如何在转换为 PDF 时嵌入字体，确保文档在任何设备上保持一致的外观。
 ### [在 PDF 中嵌入字体 – 完整的 C# 指南将 Excel 导出为 PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
 通过本完整 C# 指南，学习如何在导出 Excel 为 PDF 时嵌入字体，确保文档在任何设备上保持一致显示。
+### [在 C# 中导出 Excel 为 PDF 时嵌入字体](./how-to-embed-fonts-when-exporting-excel-to-pdf-with-c/)
+学习如何在使用 Aspose.Cells 将 Excel 导出为 PDF 时嵌入自定义字体，确保文档在所有设备上保持一致显示。
 ### [如何从 Excel 导出 PDF – 完整指南：将工作簿保存为 PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
 本指南详细演示如何使用 Aspose.Cells 将 Excel 工作簿导出为 PDF，实现高质量保存。
 ### [在 C# 中将 XLSX 保存为 PDF – 完整指南（PDF/A‑1b）](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)

@@ -65,6 +65,9 @@ Aspose.Cells for .NET을 활용해 Excel 테이블에서 헤더 행을 손쉽게
 Aspose.Words for .NET을 사용하여 Word 문서에서 표의 여러 행을 효율적으로 삭제하는 방법을 단계별로 안내합니다.
 ### [C#에서 Excel 테이블의 행을 삭제하고 이름을 변경하는 방법](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
 
+### [C#를 사용하여 Excel에서 테이블 삭제 – 단계별 가이드](./how-to-delete-table-from-excel-using-c-step-by-step-guide/)
+C# 코드를 사용해 Excel 워크시트에서 테이블을 완전히 삭제하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

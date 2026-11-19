@@ -80,6 +80,9 @@ Lär dig hur du konverterar data till Excel och använder en mall för att fylla
 ### [Skapa Excel från mall och generera upprepade blad](./how-to-create-excel-from-template-and-generate-repeated-shee)
 Lär dig hur du använder en Excel‑mall för att skapa arbetsböcker och automatiskt lägga till upprepade blad med Aspose.Cells för .NET.
 
+### [Hur man genererar Excel från mall med C# och Aspose.Cells](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
+Lär dig steg för steg hur du skapar Excel-filer från en mall med C# och Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -91,6 +91,9 @@ Apprenez à intégrer des polices dans vos pages HTML à partir de documents DOC
 ### [Comment convertir JSON en Excel en C# avec une seule cellule séparée par des virgules](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
 Apprenez à transformer des données JSON en classeur Excel en C# en utilisant une seule cellule contenant des valeurs séparées par des virgules.
 
+### [Comment créer un fichier Excel à partir de Markdown en C# – guide étape par étape](./how-to-create-excel-from-markdown-in-c-step-by-step-guide/)
+Apprenez à créer un classeur Excel à partir de fichiers Markdown en C# grâce à un guide complet pas à pas.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -37,6 +37,8 @@ Aspose.Cells for .NET을 사용하여 Excel 행에 프로그래밍 방식으로 
 Aspose.Cells for .NET을 사용하여 Excel 워크북을 만들고, 열을 자동 줄바꿈한 뒤 XLSX 형식으로 저장하는 방법을 단계별로 안내합니다.
 ### [C#에서 Excel 열 서식 지정 방법 – 완전 가이드](./how-to-format-excel-columns-in-c-complete-guide/)
 Aspose.Cells for .NET을 사용하여 C#에서 Excel 열을 서식 지정하는 전체 가이드를 확인하세요. 단계별 예제로 쉽게 따라 할 수 있습니다.
+### [C#에서 wrapcols를 사용하여 Excel 데이터 줄바꿈하기](./how-to-use-wrapcols-in-c-to-wrap-data-in-excel/)
+C#의 wrapcols 기능을 활용해 Excel 셀 데이터를 자동으로 줄바꿈하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

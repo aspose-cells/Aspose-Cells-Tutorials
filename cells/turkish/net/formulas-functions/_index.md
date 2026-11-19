@@ -117,6 +117,9 @@ C# ile Aspose.Cells kullanarak WRAPCOLS işleviyle bir dizi verisini Excel'de ma
 
 ### [EXPAND Formülü ile Excel Çalışma Kitabı Oluşturma – Tam Kılavuz](./create-excel-workbook-with-expand-formula-complete-guide/)
 
+### [C#'ta EXPAND Fonksiyonunu Kullanarak Kotanjant Hesaplama – Tam Kılavuz](./how-to-calculate-cotangent-in-c-using-the-expand-function)
+C# ve Aspose.Cells ile EXPAND fonksiyonunu kullanarak kotanjant değerlerini nasıl hesaplayacağınızı adım adım öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

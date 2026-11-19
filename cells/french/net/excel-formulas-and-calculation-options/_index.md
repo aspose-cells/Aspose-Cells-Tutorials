@@ -57,6 +57,8 @@ Découvrez comment ajouter des cellules à la fenêtre de suivi des formules d'E
 Automatisez vos tâches Excel avec Aspose.Cells pour .NET. Apprenez à calculer des formules par programmation dans ce tutoriel complet.
 ### [Calculer des formules une fois par programmation dans Excel](./calculating-formulas-once/)
 Apprenez à calculer des formules Excel par programmation avec Aspose.Cells pour .NET grâce à ce tutoriel pas à pas. Améliorez vos compétences en automatisation Excel.
+### [Évaluer une formule Excel avec une plage de somme dynamique à l'aide de variables](./evaluate-excel-formula-with-a-dynamic-sum-range-using-variab/)
+Apprenez à évaluer une formule Excel dont la plage de somme est dynamique grâce à des variables, avec Aspose.Cells pour .NET.
 ### [Détection de référence circulaire dans Excel par programmation](./detecting-circular-reference/)
 Détectez facilement les références circulaires dans Excel grâce à Aspose.Cells pour .NET. Suivez notre guide étape par étape pour garantir des calculs précis dans vos feuilles de calcul.
 ### [Formule de calcul direct dans Excel par programmation](./direct-calculation-formula/)

@@ -124,6 +124,8 @@ Apprenez à supprimer les volets fractionnés de vos classeurs Excel avec Aspose
 ### [Afficher les lignes et les colonnes dans Excel avec Aspose.Cells pour .NET : guide complet](./unhide-rows-columns-aspose-cells-net)
 Découvrez comment afficher efficacement des lignes et des colonnes masquées dans Excel grâce à Aspose.Cells pour .NET. Ce guide couvre tous les aspects, de la configuration de votre environnement à l'optimisation des performances lors de la révélation de contenu masqué.
 
+### [Comment copier une plage en utilisant CopyOptions dans Aspose.Cells](./how-to-copy-range-using-copyoptions-in-aspose-cells)
+
 ## Techniques avancées de gestion des pâturages
 
 Lorsque vous travaillez avec des plages dans Excel, vous pouvez améliorer considérablement l'efficacité et la lisibilité de votre code en utilisant les opérations de plage d'Aspose.Cells plutôt que la manipulation cellule par cellule. Voici quelques techniques avancées de gestion des plages :

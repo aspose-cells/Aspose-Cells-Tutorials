@@ -54,15 +54,10 @@ Aprenda a transformar arquivos Markdown em planilhas Excel usando C# e Aspose.Ce
 Aprenda a converter documentos Word (.docx) em SVG usando Aspose.Words para .NET com este guia passo a passo.
 ### [Incorporar fontes em HTML – Guia completo para desenvolvedores .NET](./embed-fonts-in-html-complete-guide-for-net-developers/)
 Aprenda a incorporar fontes em documentos HTML usando Aspose.Cells para .NET, garantindo renderização correta em todos os navegadores.
-
 ### [Como converter JSON para Excel em C# com uma única célula separada por vírgulas](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
 Aprenda a transformar JSON em planilha Excel em C# usando uma única célula separada por vírgulas com Aspose.Cells.
-
-
-
 ### [Planilha Excel para PNG – Exportar uma Tabela Dinâmica como PNG em C#](./excel-sheet-to-png-export-a-pivot-table-as-png-in-c/)
 Aprenda a exportar uma Tabela Dinâmica do Excel como imagem PNG usando Aspose.Cells para .NET em C#.
-
 ### [Criar nova pasta de trabalho em C# – Importar Markdown para Excel](./create-new-workbook-in-c-import-markdown-to-excel/)
 Aprenda a criar uma nova pasta de trabalho e importar conteúdo Markdown para Excel usando Aspose.Cells em C#.
 ### [Converter markdown para Excel – Guia completo em C#](./convert-markdown-to-excel-complete-c-guide/)
@@ -79,6 +74,8 @@ Aprenda a extrair e salvar imagens PNG de tabelas dinâmicas do Excel usando Asp
 Aprenda a converter documentos DOCX para HTML preservando todas as fontes, garantindo que o layout fique fiel ao original.
 ### [Como incorporar fontes em HTML a partir de um DOCX – Guia completo](./how-to-embed-fonts-in-html-from-a-docx-complete-guide/)
 Aprenda a incorporar fontes de documentos DOCX em páginas HTML usando Aspose.Words, garantindo renderização correta em navegadores.
+### [Como criar Excel a partir de Markdown em C# – guia passo a passo](./how-to-create-excel-from-markdown-in-c-step-by-step-guide/)
+Aprenda a gerar arquivos Excel a partir de conteúdo Markdown usando C# e Aspose.Cells, com instruções detalhadas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

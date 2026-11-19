@@ -37,6 +37,8 @@
 Узнайте, как создать рабочую книгу Excel, обернуть столбцы и сохранить её в формате XLSX с помощью Aspose.Cells для .NET.
 ### [Как форматировать столбцы Excel в C# – Полное руководство](./how-to-format-excel-columns-in-c-complete-guide/)
 Узнайте, как форматировать столбцы Excel в C# с помощью Aspose.Cells для .NET в полном пошаговом руководстве.
+### [Как использовать wrapcols в C# для переноса данных в Excel](./how-to-use-wrapcols-in-c-to-wrap-data-in-excel/)
+Узнайте, как использовать wrapcols в C# для переноса данных в Excel с помощью Aspose.Cells для .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

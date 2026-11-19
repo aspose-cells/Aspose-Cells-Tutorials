@@ -52,6 +52,8 @@
 本教程演示如何使用 Aspose 将 Excel 图表嵌入到 Word 文档中，提供完整的 C# 示例代码。
 ### [使用 C# 将 Excel 图表导出到 PowerPoint](./how-to-export-excel-charts-to-powerpoint-using-c/)
 通过本指南，学习在 C# 中使用 Aspose.Cells 将 Excel 图表导出为 PowerPoint，包含详细示例代码。
+### [使用 C# 将 Excel 图表导出为 PNG 图像](./how-to-export-excel-chart-as-a-png-image-with-c/)
+本教程展示如何使用 Aspose.Cells for .NET 将 Excel 图表导出为 PNG 图像，提供完整代码示例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

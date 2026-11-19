@@ -82,9 +82,11 @@ Erfahren Sie in dieser ausführlichen Schritt‑für‑Schritt‑Anleitung, wie 
 ### [Schriftarten in HTML einbetten – Excel nach HTML exportieren mit C#](./embed-fonts-in-html-export-excel-to-html-with-c/)
 Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.Cells für .NET Schriftarten beim HTML‑Export von Excel in C# einbetten.
 ### [Schriftarten in HTML einbetten, wenn Sie ein XLSX in HTML konvertieren mit Aspose.Cells](./how-to-embed-fonts-html-when-you-convert-an-xlsx-to-html-wit/)
-Erfahren Sie, wie Sie mit Aspose.Cells für .NET Schriftarten beim Konvertieren einer XLSX-Datei in HTML einbetten.
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Schriftarten beim Konvertieren einer XLSX‑Datei in HTML einbetten.
 ### [Schriftarten beim Exportieren von Excel nach HTML mit C# einbetten](./how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Schriftarten beim Exportieren von Excel nach HTML in C# einbetten, um ein konsistentes Layout zu gewährleisten.
+### [Schriftarten beim Speichern von Excel nach HTML mit C# einbetten](./how-to-embed-fonts-when-saving-excel-to-html-with-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Schriftarten beim Speichern von Excel nach HTML in C# einbetten, um ein konsistentes Layout zu gewährleisten.
 ### [Schriftarten in HTML einbetten – Excel‑Arbeitsmappe nach HTML exportieren mit Aspose.Cells](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Schriftarten in die HTML‑Ausgabe einbetten und ein konsistentes Layout sicherstellen.
 ### [Überlagerten Inhalt mit Cross Hide Right beim Speichern im HTML‑Format ausblenden](./hiding-overlaid-content-with-cross-hide-right/)
@@ -138,6 +140,8 @@ Erfahren Sie in dieser umfassenden Schritt‑für‑Schritt‑Anleitung, wie Sie
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel‑Dateien vollständig mit Formatierung nach HTML exportieren.
 ### [Exportieren von Excel nach HTML – Vollständige Anleitung zum Beibehalten eingefrorener Bereiche](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET beim Export nach HTML eingefrorene Bereiche beibehalten und die Benutzerfreundlichkeit Ihrer Berichte steigern.
+### [Excel nach HTML mit voller Formatierung in C# konvertieren](./how-to-convert-excel-to-html-with-full-formatting-in-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel‑Dateien vollständig formatiert nach HTML in C# konvertieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

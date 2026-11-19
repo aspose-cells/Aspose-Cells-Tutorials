@@ -33,6 +33,9 @@ Una de las maneras más sencillas y efectivas de supervisar sus fórmulas de Exc
 ## Cálculo directo de fórmulas  
 ¿Alguna vez has tenido que calcular una fórmula específica sin tener que revisar toda la hoja? La función de cálculo directo de fórmulas de Aspose.Cells para .NET te permite calcular fórmulas específicas directamente, ahorrándote tiempo y energía. Es como un atajo en una ciudad ajetreada; te lleva a tu destino más rápido. Nuestra guía paso a paso sobre... [Fórmula de cálculo directo en Excel mediante programación](./direct-calculation-formula/) Le muestra lo fácil que es implementar esta función en sus proyectos.
 
+### [Evaluar fórmula de Excel con un rango de suma dinámico usando variables](./evaluate-excel-formula-with-a-dynamic-sum-range-using-variab/)
+Aprenda a evaluar una fórmula de Excel con un rango de suma dinámico mediante variables usando Aspose.Cells para .NET.
+
 ### [Cómo forzar el cálculo de fórmulas y usar lambda en Excel con C#](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
 Aprenda a forzar el cálculo de fórmulas y utilizar funciones lambda en Excel mediante C# con Aspose.Cells.
 

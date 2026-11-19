@@ -51,6 +51,8 @@ C# का उपयोग करके Aspose.Cells के साथ Excel च�
 ### [Aspose के साथ Word में चार्ट जोड़ें – Excel चार्ट एम्बेड करें](./how-to-add-chart-to-word-with-aspose-embed-excel-chart/)
 Aspose का उपयोग करके .NET में Excel चार्ट को Word दस्तावेज़ में एम्बेड करने के चरण‑दर‑चरण मार्गदर्शक।
 ### [C# का उपयोग करके Excel चार्ट को PowerPoint में निर्यात करें](./how-to-export-excel-charts-to-powerpoint-using-c/)
+### [C# के साथ Excel चार्ट को PNG इमेज के रूप में निर्यात करें](./how-to-export-excel-chart-as-a-png-image-with-c/)
+C# के साथ Excel चार्ट को PNG इमेज के रूप में निर्यात करने के चरण‑दर‑चरण गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

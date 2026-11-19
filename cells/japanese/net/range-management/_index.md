@@ -124,6 +124,9 @@ Aspose.Cells for .NET を使用して、Excel ブックから分割されたペ�
 ### [Aspose.Cells for .NET を使用して Excel の行と列を再表示する - 総合ガイド](./unhide-rows-columns-aspose-cells-net)
 Aspose.Cells for .NET を使用して、Excel の行と列を効率的に再表示する方法を学習します。このガイドでは、環境設定から非表示コンテンツを表示する際のパフォーマンスの最適化まで、あらゆる内容を網羅しています。
 
+### [Aspose.Cells for .NET で CopyOptions を使用して範囲をコピーする方法](./how-to-copy-range-using-copyoptions-in-aspose-cells)
+Aspose.Cells for .NET で CopyOptions を使用して、Excel の範囲をコピーする方法を学びます。コピー時のオプション設定やコード例を紹介します。
+
 ## 高度な放牧地管理技術
 
 Excelで範囲を操作する際、セル単位の操作ではなくAspose.Cellsの範囲操作を使用することで、コードの効率と可読性を大幅に向上させることができます。以下に、範囲管理の高度なテクニックをいくつかご紹介します。

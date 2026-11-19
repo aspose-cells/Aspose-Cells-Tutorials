@@ -124,6 +124,9 @@ Aprenda a remover painéis divididos de pastas de trabalho do Excel usando o Asp
 ### [Exiba linhas e colunas no Excel usando Aspose.Cells para .NET - Um guia completo](./unhide-rows-columns-aspose-cells-net)
 Aprenda a exibir linhas e colunas com eficiência no Excel usando o Aspose.Cells para .NET. Este guia aborda tudo, desde a configuração do seu ambiente até a otimização do desempenho ao revelar conteúdo oculto.
 
+### [Como copiar intervalo usando CopyOptions no Aspose.Cells](./how-to-copy-range-using-copyoptions-in-aspose-cells)
+Aprenda a copiar intervalos no Excel usando a classe CopyOptions do Aspose.Cells para .NET, controlando valores, fórmulas e estilos.
+
 ## Técnicas avançadas de manejo de alcance
 
 Ao trabalhar com intervalos no Excel, você pode melhorar significativamente a eficiência e a legibilidade do seu código usando as operações de intervalo do Aspose.Cells em vez da manipulação célula a célula. Aqui estão algumas técnicas avançadas para gerenciamento de intervalos:

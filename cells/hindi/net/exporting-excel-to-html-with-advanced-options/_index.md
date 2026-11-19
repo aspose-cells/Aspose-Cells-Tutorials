@@ -117,7 +117,7 @@ Excel को HTML में निर्यात करते समय फ़�
 ### [HTML में फ़ॉन्ट एम्बेड करना – Aspose.Cells के साथ Excel वर्कबुक को HTML में निर्यात करना](./embed-fonts-in-html-export-excel-workbook-to-html-with-aspos/)
 
 ### [Excel को HTML में परिवर्तित करना – Aspose.Cells के साथ पूर्ण गाइड](./convert-excel-to-html-complete-guide-using-aspose-cells/)
-Aspose.Cells का उपयोग करके Excel को HTML में परिवर्तित करने की पूरी गाइड, चरण-दर-चरण उदाहरणों के साथ।
+Aspose.Cells का उपयोग करके Excel को HTML में परिवर्तित करने की पूरी गाइड, चरण-दर-स्टेप उदाहरणों के साथ।
 ### [Excel को HTML के रूप में सहेजें – कोड नमूनों के साथ पूर्ण गाइड](./save-excel-as-html-complete-guide-with-code-samples/)
 .NET के लिए Aspose.Cells का उपयोग करके Excel को HTML में सहेजने की पूरी प्रक्रिया और कोड उदाहरण देखें।
 ### [C# में टेबल से HTML बनाना – पूर्ण गाइड](./create-html-from-table-in-c-complete-guide/)
@@ -128,6 +128,11 @@ Aspose.Cells का उपयोग करके Excel को HTML में प
 
 ### [WrapCols का उपयोग और फ़ॉन्ट एम्बेड करके Excel को HTML में सहेजना](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
 WrapCols सेटिंग और फ़ॉन्ट एम्बेड करके Excel को HTML में निर्यात करने की विस्तृत गाइड।
+
+### [C# के साथ Excel को HTML में सहेजते समय फ़ॉन्ट एम्बेड करना](./how-to-embed-fonts-when-saving-excel-to-html-with-c/)
+C# में Excel को HTML में सहेजते समय फ़ॉन्ट एम्बेड करने की विस्तृत गाइड।
+
+### [C# में पूर्ण फ़ॉर्मेटिंग के साथ Excel को HTML में परिवर्तित करने का तरीका](./how-to-convert-excel-to-html-with-full-formatting-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -24,6 +24,7 @@ Een van de eenvoudigste, maar toch effectieve manieren om je Excel-formules in d
 
 ## Formules programmatisch berekenen  
 Heb je er ooit over nagedacht hoe gaaf het zou zijn om je Excel-berekeningen te automatiseren? Nou, met Aspose.Cells voor .NET kan deze droom werkelijkheid worden! Stel je voor dat je gegevens voor berekeningen verstuurt terwijl je van je koffie nipt; dat is het mooie van het automatiseren van Excel-taken. Onze tutorial over [Formules in Excel programmatisch berekenen](./calculating-formulas/) Maakt je wegwijs in de eenvoudige technieken die je automatisering naar een hoger niveau kunnen tillen. Het gaat niet alleen om tijd besparen; het gaat om slimmer werken, niet harder!
+### [Excel-formule evalueren met een dynamisch sombereik met variabelen](./evaluate-excel-formula-with-a-dynamic-sum-range-using-variab/) Leer hoe je een Excel-formule kunt evalueren met een dynamisch sombereik door variabelen te gebruiken via Aspose.Cells voor .NET.
 
 ### [Excel-werkmap maken met formules – volledige stapsgewijze handleiding](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
 Leer hoe u een Excel-werkmap met formules maakt met Aspose.Cells voor .NET in deze uitgebreide stapsgewijze tutorial.

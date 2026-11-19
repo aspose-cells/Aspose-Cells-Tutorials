@@ -84,6 +84,8 @@ Hướng dẫn chi tiết cách nhúng phông chữ khi chuyển đổi tài li�
 Hướng dẫn chi tiết cách nhúng phông chữ từ tài liệu DOCX vào trang HTML để bảo đảm hiển thị đúng trên mọi trình duyệt.
 ### [Cách chuyển đổi JSON sang Excel trong C# với một ô chứa dữ liệu phân tách bằng dấu phẩy](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
 Hướng dẫn chi tiết cách chuyển đổi dữ liệu JSON thành file Excel trong C# với một ô duy nhất chứa các giá trị được ngăn cách bằng dấu phẩy.
+### [Cách tạo Excel từ Markdown trong C# – hướng dẫn từng bước](./how-to-create-excel-from-markdown-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo tệp Excel từ nội dung Markdown bằng C# và Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

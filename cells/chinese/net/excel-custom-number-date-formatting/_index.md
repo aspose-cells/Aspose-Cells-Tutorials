@@ -34,6 +34,8 @@
 通过本分步教程学习如何使用 Aspose.Cells for .NET 根据自定义数字格式检查 Excel 单元格值。
 ### [将数据导入 Excel 工作表时指定公式字段](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 在本详细教程中了解如何使用 Aspose.Cells for .NET 将数据导入具有指定公式字段的 Excel 工作表。
+### [在 C# 中导入数据到 Excel 时设置货币格式](./set-currency-format-while-importing-data-into-excel-using-c/)
+本教程演示如何在使用 C# 导入数据到 Excel 时设置货币格式。
 ### [在 C# 中创建 Excel 工作簿 – 应用自定义数字格式](./create-excel-workbook-in-c-apply-custom-number-format/)
 本教程演示如何使用 Aspose.Cells for .NET 在 C# 中创建工作簿并应用自定义数字格式，以满足特定显示需求。
 
@@ -70,12 +72,8 @@
 ### [在 C# 中设置单元格自定义格式 – Excel 日期写入与读取完整指南](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 本指南详细演示如何在 Aspose.Cells for .NET 中使用 C# 设置单元格自定义格式，并实现 Excel 日期的写入和读取。
 
-
-
-
-
-
-
+### [在 C# 中设置单元格数字格式并转换日本日期](./set-cell-number-format-and-convert-japanese-dates-in-c/)
+本教程演示如何在 C# 使用 Aspose.Cells 设置单元格数字格式并将日本日期转换为公历。
 
 ### [在 C# 中将字符串转换为 DateTime – 在 Excel 中写入和读取日期](./convert-string-to-datetime-in-c-write-read-dates-in-excel/)
 本教程演示如何使用 Aspose.Cells for .NET 将字符串转换为 DateTime，并在 Excel 中写入和读取日期。

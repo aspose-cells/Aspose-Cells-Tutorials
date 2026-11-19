@@ -107,7 +107,7 @@ Aspose.Cells for .NET kullanarak Excel'de bitişik olmayan aralıkların uygulan
 Aspose.Cells for .NET ile Excel'de 'Düzenleme Aralıklarına İzin Ver' özelliğini nasıl oluşturacağınızı ve yöneteceğinizi öğrenin. Belirli düzenleme izinlerine sahip korumalı aralıklar hakkındaki bu kapsamlı eğitimle Excel iş akışlarınızı geliştirin.
 
 ### [Aspose.Cells for .NET ile Excel Aralıklarını Verimli Şekilde Oluşturun ve Yönetin](./manage-excel-ranges-aspose-cells-net)
-Aspose.Cells for .NET kullanarak Excel aralıklarını etkili bir şekilde nasıl oluşturacağınızı, adlandıracağınızı ve yöneteceğinizi öğrenin. Mantıksal hücre gruplarını tanımlayıp düzenleyerek C# dilinde otomatik Excel görevleriyle iş akışınızı kolaylaştırın.
+Aspose.Cells for .NET kullanarak Excel aralıklarını etkili bir şekilde nasıl oluşturacağınızı, adlandıracağınızı ve yöneteceğinizi öğrenin. Mantıksal hücre gruplarını tanımlıp düzenleyerek C# dilinde otomatik Excel görevleriyle iş akışınızı kolaylaştırın.
 
 ### [Excel'de Verimli Veri Girişi: Hücre Aralığı Girişi için Aspose.Cells .NET'te Uzmanlaşma](./master-aspose-cells-net-data-input-cell-ranges)
 Aspose.Cells .NET kullanarak hücre aralıklarına veri girişini otomatikleştirin. Bu kılavuz, Excel belgelerini programatik olarak doldururken üretkenliği artırmak için kurulumu, veri girişi tekniklerini ve adlandırılmış aralık oluşturmayı kapsar.
@@ -122,45 +122,8 @@ Aspose.Cells kullanarak .NET uygulamalarınızda Excel verilerini verimli bir ş
 Aspose.Cells for .NET kullanarak Excel çalışma kitaplarından bölünmüş bölmeleri nasıl kaldıracağınızı öğrenin. Çalışma sayfası görünümlerini ve dondurulmuş bölmeleri program aracılığıyla yönetmek için bu adım adım C# kılavuzuyla elektronik tablolarınızı kolaylaştırın.
 
 ### [.NET için Aspose.Cells'i Kullanarak Excel'de Satırları ve Sütunları Gösterme - Kapsamlı Bir Kılavuz](./unhide-rows-columns-aspose-cells-net)
-Aspose.Cells for .NET kullanarak Excel'de satırları ve sütunları etkili bir şekilde nasıl gizleyeceğinizi öğrenin. Bu kılavuz, ortamınızı kurmaktan gizli içeriği ortaya çıkarırken performansı optimize etmeye kadar her şeyi kapsar.
 
-## Gelişmiş Menzil Yönetim Teknikleri
-
-Excel'de aralıklarla çalışırken, hücre hücre manipülasyon yerine Aspose.Cells' aralık işlemlerini kullanarak kod verimliliğinizi ve okunabilirliğinizi önemli ölçüde artırabilirsiniz. Aralık yönetimi için bazı gelişmiş teknikler şunlardır:
-
-### Adlandırılmış Aralıklar
-
-Adlandırılmış aralıklar kodunuzun daha okunabilir ve sürdürülebilir olmasını sağlar:
-
-- **Adlandırılmış Aralıklar Oluşturma**: Anlamlı isimlere sahip mantıksal hücre grupları tanımlayın
-- **Adlandırılmış Aralıklara Erişim**Koordinatlar yerine işletme dostu adlara göre hücrelere başvurun
-- **Adlandırılmış Aralıkların Kapsamı**: Sayfa düzeyinde veya çalışma kitabı düzeyinde adlandırılmış aralıklar oluşturun
-
-### Aralık Kopyalama ve Taşıma
-
-Verileri etkili bir şekilde çoğaltın veya taşıyın:
-
-- **Biçimlendirme ile Kopyalama**: Stilleri, kenarlıkları ve yazı tiplerini koru
-- **Formül Ayarlaması**: Kopyalama sırasında bağıl referansları otomatik olarak güncelle
-- **Seçici Kopyalama**: Gerektiğinde yalnızca değerleri, formülleri veya stilleri kopyalayın
-
-### Birlik Aralıkları ve Bitişik Olmayan Seçimler
-
-Karmaşık aralık seçimleriyle çalışın:
-
-- **Birden Fazla Aralığı Birleştirme**: İşlemleri birkaç bitişik olmayan alana uygulayın
-- **Kavşak Algılama**: Aralıkların nerede çakıştığını belirleyin
-- **Çok Alanlı İşleme**: Kesintili hücre gruplarını tek bir varlık olarak ele alın
-
-### Menzil Görüş Kontrolü
-
-Kullanıcıların neleri görebileceğini yönetin:
-
-- **Gizle/Gizleme İşlemlerini Göster**: Satır ve sütun görünürlüğünü programatik olarak kontrol edin
-- **Grup ve Anahat**Çalışma sayfalarınızda daraltılabilir bölümler oluşturun
-- **Düzenleme Aralıklarına İzin Ver**: Korunan çalışma sayfalarında belirli düzenlenebilir alanları tanımlayın
-
-Bu gelişmiş aralık yönetimi tekniklerine hakim olarak, tek tek hücreler yerine mantıksal veri gruplarıyla çalışan, kod karmaşıklığını azaltan ve performansı artıran daha verimli Excel otomasyon çözümleri oluşturabilirsiniz.
+### [CopyOptions Kullanarak Aspose.Cells'ta Aralığı Kopyalama](./how-to-copy-range-using-copyoptions-in-aspose-cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -90,6 +90,7 @@ C# का उपयोग करके Excel में फ़ॉर्मूल�
 इस विस्तृत गाइड में .NET के लिए Aspose.Cells का उपयोग करके फ़ॉर्मूले सहित Excel वर्कबुक बनाने के सभी चरण सीखें।
 ### [C# के साथ डायनामिक एरे फ़ॉर्मूला वाला Excel वर्कबुक बनाना](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
 ### [C# में Excel वर्कबुक बनाना और फ़ॉर्मूले सेट करना](./how-to-create-excel-workbook-in-c-and-set-formulas/)
+### [चर का उपयोग करके गतिशील योग सीमा के साथ Excel फ़ॉर्मूला का मूल्यांकन](./evaluate-excel-formula-with-a-dynamic-sum-range-using-variab/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

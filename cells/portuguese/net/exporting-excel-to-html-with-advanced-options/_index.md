@@ -70,8 +70,10 @@ Aprenda como excluir estilos não utilizados ao exportar do Excel para HTML usan
 Aprenda a exportar propriedades de documentos, pastas de trabalho e planilhas do Excel para HTML usando o Aspose.Cells para .NET. Guia passo a passo fácil incluído.
 ### [Exportando a área de impressão para HTML no Excel programaticamente](./exporting-print-area/)
 Aprenda a exportar uma área de impressão específica do Excel para HTML usando o Aspose.Cells para .NET neste guia detalhado. Otimize sua apresentação de dados.
-### [Exportando Excel para HTML – Guia Completo para Preservar Painéis Congelados](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
+### [Exportar Excel para HTML – Guia Completo para Preservar Painéis Congelados](./export-excel-to-html-complete-guide-for-preserving-frozen-pa/)
 Aprenda a exportar planilhas do Excel para HTML preservando painéis congelados, garantindo que áreas fixas permaneçam visíveis no navegador.
+### [Como converter Excel para HTML com formatação completa em C#](./how-to-convert-excel-to-html-with-full-formatting-in-c/)
+Aprenda a converter planilhas Excel para HTML preservando toda a formatação usando C# e Aspose.Cells.
 ### [Exportando Estilo de Borda Semelhante Programaticamente no Excel](./exporting-similar-border-style/)
 Aprenda como exportar estilos de borda semelhantes no Excel programaticamente usando o Aspose.Cells para .NET com este guia passo a passo fácil.
 ### [Exportando CSS da planilha separadamente em HTML de saída](./exporting-worksheet-css-separately/)
@@ -80,6 +82,8 @@ Aprenda como exportar planilhas do Excel para HTML de forma eficaz com CSS separ
 Aprenda a incorporar fontes ao exportar planilhas do Excel para HTML usando C# com Aspose.Cells para .NET.
 ### [Como incorporar fontes ao exportar Excel para HTML com C#](./how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
 Aprenda a incorporar fontes ao exportar planilhas Excel para HTML usando C# com Aspose.Cells.
+### [Como incorporar fontes ao salvar Excel para HTML com C#](./how-to-embed-fonts-when-saving-excel-to-html-with-c/)
+Aprenda a incorporar fontes ao salvar planilhas do Excel para HTML usando C# com Aspose.Cells para .NET.
 ### [Como incorporar fontes HTML ao converter um XLSX para HTML com Aspose.Cells](./how-to-embed-fonts-html-when-you-convert-an-xlsx-to-html-wit/)
 Aprenda a incorporar fontes ao converter arquivos XLSX para HTML usando Aspose.Cells, garantindo que o texto mantenha sua aparência original.
 ### [Obtendo string HTML5 de uma célula no Excel programaticamente](./getting-html5-string-from-cell/)
@@ -102,7 +106,7 @@ Aprenda a incorporar fontes em HTML programaticamente usando Aspose.Cells para .
 Aprenda a incorporar fontes em HTML ao salvar uma pasta de trabalho usando Aspose.Cells para .NET.
 ### [Salvar Excel como HTML – Guia Completo em C#](./save-excel-as-html-complete-c-guide/)
 Aprenda a salvar arquivos do Excel como HTML usando C# com o Aspose.Cells para .NET neste guia completo passo a passo.
-### [Incorporar fontes HTML ao exportar Excel – Guia completo em C#](./embed-fonts-html-when-exporting-excel-complete-c-guide/)
+### [Incorporar fontes HTML ao exportar Excel – Guia completo em C#](./embed-fonts-html-when-export-excel-complete-c-guide/)
 Aprenda a incorporar fontes ao exportar planilhas Excel para HTML usando Aspose.Cells para .NET com um guia completo em C#.
 ### [Como Exportar Excel para HTML – Preservar Painéis Congelados em C#](./how-to-export-excel-to-html-preserve-frozen-panes-in-c/)
 ### [Como exportar xlsx para html com painéis congelados em C#](./how-to-export-xlsx-to-html-with-frozen-panes-in-c/)

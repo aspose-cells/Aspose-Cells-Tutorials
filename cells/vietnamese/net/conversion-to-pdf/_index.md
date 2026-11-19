@@ -68,6 +68,8 @@ Hướng dẫn chi tiết cách lưu tài liệu Word thành PDF bằng C# và A
 Hướng dẫn nhúng phông chữ vào tài liệu PDF khi chuyển đổi từ Excel bằng Aspose.Cells, đảm bảo hiển thị đúng trên mọi thiết bị.
 ### [Nhúng phông chữ trong PDF – Hướng dẫn C# đầy đủ để xuất Excel sang PDF](./embed-fonts-in-pdf-complete-c-guide-to-export-excel-to-pdf/)
 Hướng dẫn chi tiết cách nhúng phông chữ vào PDF khi xuất tệp Excel bằng C# và Aspose.Cells.
+### [Cách nhúng phông chữ khi xuất Excel sang PDF bằng C#](./how-to-embed-fonts-when-exporting-excel-to-pdf-with-c/)
+Hướng dẫn chi tiết cách nhúng phông chữ vào PDF khi xuất tệp Excel bằng C# với Aspose.Cells, đảm bảo hiển thị đúng ký tự.
 ### [Cách xuất PDF từ Excel – Hướng dẫn đầy đủ để lưu Workbook dưới dạng PDF](./how-to-export-pdf-from-excel-complete-guide-to-save-workbook/)
 Hướng dẫn chi tiết cách lưu workbook Excel thành file PDF bằng Aspose.Cells cho .NET, dễ dàng và nhanh chóng.
 ### [Lưu XLSX thành PDF trong C# – Hướng dẫn đầy đủ với PDF/A‑1b](./save-xlsx-as-pdf-in-c-complete-guide-with-pdf-a-1b/)

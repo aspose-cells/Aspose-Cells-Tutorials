@@ -87,7 +87,7 @@ Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.
 ### [Wie man den Kotangens in Excel mit C# berechnet – Komplettanleitung](./how-to-calculate-cotangent-in-excel-with-c-complete-guide/)
 Entdecken Sie, wie Sie den Kotangens in Excel mithilfe von C# und Aspose.Cells berechnen. Schritt‑für‑Schritt‑Anleitung.
 ### [Wie man WRAPCOLS in Excel verwendet – Komplettes C#-Beispiel](./how-to-use-wrapcols-in-excel-complete-c-example/)
-Erfahren Sie, wie Sie mit Aspose.Cells für .NET die WRAPCOLS-Funktion in Excel nutzen, anhand eines vollständigen C#-Beispiels.
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET die WRAPCOLS‑Funktion in Excel nutzen, anhand eines vollständigen C#‑Beispiels.
 ### [Array-Formel in Excel mit C# anwenden – Komplettanleitung](./apply-array-formula-excel-in-c-complete-guide/)
 Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.Cells für .NET Array-Formeln in Excel mittels C# anwenden.
 ### [Wie man ein Excel‑Arbeitsbuch erstellt und Daten mit WRAPCOLS in C# aufteilt](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
@@ -97,12 +97,14 @@ Entdecken Sie, wie Sie mit Aspose.Cells für .NET die WRAPCOLS‑Funktion in C# 
 ### [Formelberechnung erzwingen und Lambda in Excel mit C# verwenden](./how-to-force-formula-calculation-and-use-lambda-in-excel-wit/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET die Berechnung von Formeln erzwingen und Lambda‑Funktionen in C# nutzen.
 ### [Excel-Arbeitsmappe mit Formeln erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
-Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe erstellen und Formeln vollständig Schritt für Schritt hinzufügen.
-### [Wie man ein Excel-Arbeitsbuch in C# mit der EXPAND-Funktion erstellt](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel‑Arbeitsmappe erstellen und Formeln vollständig Schritt für Schritt hinzufügen.
+### [Wie man ein Excel‑Arbeitsbuch in C# mit der EXPAND-Funktion erstellt](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
 ### [Wie man WRAPCOLS in C# für Excel‑Arrays und das Speichern von Arbeitsmappen verwendet](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
 Erfahren Sie, wie Sie mit WRAPCOLS in C# Excel‑Arrays umformen und Arbeitsmappen speichern.
 ### [Wie man ein Excel‑Arbeitsbuch in C# erstellt und Formeln festlegt](./how-to-create-excel-workbook-in-c-and-set-formulas/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Excel‑Arbeitsbuch in C# erstellen und Formeln programmgesteuert festlegen.
+### [Excel-Formel mit dynamischem Summenbereich unter Verwendung von Variablen auswerten](./evaluate-excel-formula-with-a-dynamic-sum-range-using-variab/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel‑Formel dynamisch auswerten, indem Sie den Summenbereich über Variablen steuern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

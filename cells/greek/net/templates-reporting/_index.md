@@ -81,6 +81,9 @@
 ### [Πώς να δημιουργήσετε Excel από πρότυπο και να δημιουργήσετε επαναλαμβανόμενα φύλλα](./how-to-create-excel-from-template-and-generate-repeated-shee)
 Μάθετε πώς να δημιουργήσετε αρχείο Excel από πρότυπο και να παράγετε επαναλαμβανόμενα φύλλα.
 
+### [Πώς να δημιουργήσετε Excel από πρότυπο με C# και Aspose.Cells](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
+Μάθετε πώς να δημιουργήσετε αρχείο Excel από πρότυπο χρησιμοποιώντας C# και Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

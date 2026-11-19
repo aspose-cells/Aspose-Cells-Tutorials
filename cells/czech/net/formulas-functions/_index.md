@@ -107,6 +107,9 @@ Naučte se, jak programově aktualizovat vzorce Power Query v sešitech Excelu p
 ### [Vytvořte sešit Excel s funkcí EXPAND – Kompletní průvodce](./create-excel-workbook-with-expand-formula-complete-guide/)
 Naučte se, jak pomocí Aspose.Cells vytvořit sešit Excel a použít funkci EXPAND pro dynamické rozšíření dat.
 
+### [Jak vypočítat kotangens v C# pomocí funkce EXPAND](./how-to-calculate-cotangent-in-c-using-the-expand-function/)
+Naučte se, jak v C# pomocí Aspose.Cells vypočítat kotangens a použít funkci EXPAND v Excelu.
+
 ## Pochopení typů vzorců v Excelu
 
 ### [Vytvoření Excel sešitu v C# – průvodce Lambda, SEQUENCE a EXPAND](./create-excel-workbook-c-lambda-sequence-expand-guide/)

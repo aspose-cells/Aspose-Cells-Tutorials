@@ -67,12 +67,18 @@ Apprenez à convertir les dates d'ère japonaise en dates grégoriennes en C# av
 ### [Comment créer un classeur Excel et analyser les dates japonaises en C#](./how-to-create-excel-workbook-and-parse-japanese-dates-in-c/)
 Apprenez à créer un classeur Excel et à analyser les dates du calendrier japonais en C# avec Aspose.Cells.
 
+### [Définir le format numérique d'une cellule et convertir les dates japonaises en C#](./set-cell-number-format-and-convert-japanese-dates-in-c/)
+Apprenez à définir le format numérique d'une cellule et à convertir des dates du calendrier japonais en C# avec Aspose.Cells.
 
 
 
 
 
 
+
+
+### [Définir le format monétaire lors de l'importation de données dans Excel avec C#](./set-currency-format-while-importing-data-into-excel-using-c/)
+Apprenez à appliquer un format monétaire aux données importées dans Excel en C# avec Aspose.Cells.
 
 ### [Définir le format personnalisé d'une cellule en C# – Guide complet pour écrire et lire des dates dans Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 Apprenez à appliquer et lire des formats de date personnalisés dans Excel avec Aspose.Cells pour .NET en C#.

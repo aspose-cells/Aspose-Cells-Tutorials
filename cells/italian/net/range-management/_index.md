@@ -124,6 +124,9 @@ Scopri come rimuovere i riquadri divisi dalle cartelle di lavoro di Excel utiliz
 ### [Scopri righe e colonne in Excel usando Aspose.Cells per .NET - Una guida completa](./unhide-rows-columns-aspose-cells-net)
 Scopri come visualizzare in modo efficiente righe e colonne nascoste in Excel utilizzando Aspose.Cells per .NET. Questa guida copre tutti gli aspetti, dalla configurazione dell'ambiente all'ottimizzazione delle prestazioni nella visualizzazione di contenuti nascosti.
 
+### [Come copiare un intervallo usando CopyOptions in Aspose.Cells | Guida passo passo](./how-to-copy-range-using-copyoptions-in-aspose-cells)
+Scopri come copiare un intervallo di celle in Excel con Aspose.Cells per .NET usando l'oggetto CopyOptions per controllare valori, formattazione e formule.
+
 ## Tecniche avanzate di gestione del range
 
 Quando si lavora con gli intervalli in Excel, è possibile migliorare significativamente l'efficienza e la leggibilità del codice utilizzando le operazioni di intervallo di Aspose.Cells anziché la manipolazione cella per cella. Ecco alcune tecniche avanzate per la gestione degli intervalli:

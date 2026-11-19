@@ -73,6 +73,8 @@ Dowiedz się, jak zmienić nazwę tabeli w Excelu przy użyciu Aspose.Cells dla 
 Dowiedz się, jak usunąć wiele wierszy z tabeli w dokumencie Word przy użyciu Aspose.Words dla .NET.
 ### [Usuwanie wierszy z tabeli Excel i zmiana jej nazwy w C#](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
 Dowiedz się, jak usuwać wiersze i zmieniać nazwę tabeli w Excelu przy użyciu Aspose.Cells dla .NET w C#.
+### [Jak usunąć tabelę z Excela przy użyciu C# – przewodnik krok po kroku](./how-to-delete-table-from-excel-using-c-step-by-step-guide/)
+Dowiedz się, jak usunąć tabelę w Excelu przy użyciu Aspose.Cells dla .NET w C# w prostym przewodniku krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

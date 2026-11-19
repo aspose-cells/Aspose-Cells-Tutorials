@@ -76,6 +76,9 @@ Aprenda a administrar celdas combinadas en Excel con Aspose.Cells para .NET. Est
 ### [Copiar datos en Excel con Aspose.Cells para .NET: guía paso a paso](./excel-aspose-cells-dotnet-copy-range-data)
 Aprenda a copiar datos entre rangos de Excel de forma eficiente con Aspose.Cells para .NET. Domine la manipulación de datos sin modificar el formato de origen, con opciones para copiar solo valores o incluir fórmulas y estilos.
 
+### [Cómo copiar un rango usando CopyOptions en Aspose.Cells](./how-to-copy-range-using-copyoptions-in-aspose-cells)
+Aprenda a copiar rangos en Excel utilizando la clase CopyOptions de Aspose.Cells para .NET.
+
 ### [Automatización de Excel con Aspose.Cells: Crear y combinar rangos](./excel-automation-aspose-cells-create-merge-ranges)
 Descubra cómo crear y combinar rangos mediante programación con Aspose.Cells para .NET. Este tutorial muestra cómo definir rangos y combinar celdas eficientemente para una mejor presentación de datos en sus documentos de Excel.
 

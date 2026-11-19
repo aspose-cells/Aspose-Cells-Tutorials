@@ -53,6 +53,8 @@ Aspose.Cells для .NET — это жемчужина, если вы работ
 Узнайте, как встроить шрифты в PDF при сохранении рабочей книги в C# с помощью Aspose.Cells.
 ### [Как встроить шрифты в PDF с помощью C# – Полное руководство](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
 Узнайте, как встроить шрифты в PDF‑файлы с помощью C# и Aspose.Cells, чтобы обеспечить корректное отображение текста на всех устройствах.
+### [Как встроить шрифты при экспорте Excel в PDF с C#](./how-to-embed-fonts-when-exporting-excel-to-pdf-with-c/)
+Узнайте, как правильно встраивать шрифты в PDF при экспорте Excel с помощью C# и Aspose.Cells.
 ### [Как вставить Unicode в Excel и сохранить как PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
 Узнайте, как вставить Unicode‑символы в Excel и преобразовать файл в PDF с помощью Aspose.Cells для .NET.
 ### [Как округлять числа при конвертации Excel в PDF – Полное руководство C#](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)

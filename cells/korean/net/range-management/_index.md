@@ -76,6 +76,9 @@ Aspose.Cells for .NET을 사용하여 Excel에서 병합된 셀을 관리하는 
 ### [Aspose.Cells for .NET을 사용하여 Excel에서 데이터 복사: 단계별 가이드](./excel-aspose-cells-dotnet-copy-range-data)
 Aspose.Cells for .NET을 사용하여 Excel에서 범위 간에 데이터를 효율적으로 복사하는 방법을 알아보세요. 값만 복사하거나 수식 및 스타일을 포함하는 옵션을 사용하여 원본 서식을 변경하지 않고도 데이터를 완벽하게 조작할 수 있습니다.
 
+### [Aspose.Cells에서 CopyOptions를 사용하여 범위 복사하는 방법 | 단계별 가이드](./how-to-copy-range-using-copyoptions-in-aspose-cells)
+Aspose.Cells for .NET에서 CopyOptions를 활용해 특정 범위를 복사하는 방법을 단계별로 안내합니다.
+
 ### [Aspose.Cells를 사용한 Excel 자동화: 범위 만들기 및 병합](./excel-automation-aspose-cells-create-merge-ranges)
 Aspose.Cells for .NET을 사용하여 프로그래밍 방식으로 범위를 만들고 병합하는 방법을 알아보세요. 이 튜토리얼에서는 Excel 문서에서 데이터를 더 효과적으로 표현하기 위해 범위를 정의하고 셀을 효율적으로 결합하는 방법을 보여줍니다.
 
@@ -126,7 +129,7 @@ Aspose.Cells for .NET을 사용하여 Excel에서 행과 열을 효율적으로 
 
 ## 고급 범위 관리 기술
 
-Excel에서 범위 작업을 할 때 셀 단위 조작 대신 Aspose.Cells의 범위 연산을 사용하면 코드 효율성과 가독성을 크게 향상시킬 수 있습니다. 범위 관리를 위한 몇 가지 고급 기술은 다음과 같습니다.
+Excel에서 범위 작업을 할 때 셀 단위 조작 대신 Aspose.Cells의 범위 연산을 사용하면 코드 효율성과 가독성을 크게 향상시킬 수 있습니다. 범위 관리를 위한 몇몇 고급 기술은 다음과 같습니다.
 
 ### 명명된 범위
 

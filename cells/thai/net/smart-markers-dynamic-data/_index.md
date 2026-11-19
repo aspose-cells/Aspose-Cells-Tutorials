@@ -144,49 +144,89 @@
 เรียนรู้วิธีทำซ้ำข้อมูลใน Excel โดยใช้ SmartMarker เพื่อเติมเทมเพลตอย่างอัตโนมัติและสร้างรายงานที่ปรับขนาดได้
 ### [วิธีส่งออก Excel – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา C#](./how-to-export-excel-complete-guide-for-c-developers/)
 เรียนรู้วิธีส่งออกไฟล์ Excel ด้วย Aspose.Cells สำหรับ C# อย่างละเอียดและครบถ้วน
-### [ส่งออกข้อมูลไปยัง Excel: เติมเทมเพลตจากอาร์เรย์ใน C#](./export-data-to-excel-populate-a-template-from-an-array-in-c/)
-เรียนรู้วิธีส่งออกข้อมูลจาก .NET ไปยังไฟล์ Excel ด้วย SmartMarker อย่างครบถ้วน
-### [วิธีตั้งชื่อแผ่นงานอัตโนมัติ – สร้างหลายแผ่นงานใน C#](./how-to-name-sheets-automatically-generate-multiple-sheets-in/)
-เรียนรู้วิธีตั้งชื่อแผ่นงาน Excel อย่างอัตโนมัติและสร้างหลายแผ่นงานใน C# ด้วย Aspose.Cells
-### [สร้างอ็อบเจ็กต์ข้อมูลหลัก – คู่มือขั้นตอนการสร้างแผ่นรายละเอียด](./create-master-data-object-step-by-step-guide-to-generate-det/)
-เรียนรู้วิธีสร้างอ็อบเจ็กต์ข้อมูลหลักและสร้างแผ่นรายละเอียดอย่างเป็นขั้นตอนด้วย Aspose.Cells สำหรับ .NET
-### [สร้างเทมเพลตส่วนลดใน C# – คู่มือขั้นตอนโดยละเอียด](./create-discount-template-in-c-step-by-step-guide/)
-เรียนรู้วิธีสร้างเทมเพลตส่วนลดใน C# ด้วย Aspose.Cells .NET อย่างละเอียด
-### [วิธีสร้างลำดับชั้นด้วย SmartMarker – คู่มือขั้นตอนโดยละเอียด](./how-to-create-hierarchy-with-smartmarker-step-by-step-guide/)
-เรียนรู้วิธีสร้างลำดับชั้นข้อมูลใน Excel ด้วย SmartMarker อย่างละเอียด
-### [แยก JSON ซ้อนกัน C# – สร้าง JSON Payload C#](./parse-nested-json-c-create-json-payload-c/)
-เรียนรู้วิธีแยก JSON ซ้อนกันและสร้าง payload JSON ด้วย C# อย่างง่ายดาย
-### [สร้างรายงานมาสเตอร์‑ดีเทลใน C# – เติมข้อมูลเทมเพลต Excel ด้วย SmartMarker](./create-master-detail-report-in-c-populate-excel-template-wit/)
-เรียนรู้วิธีสร้างรายงานมาสเตอร์‑ดีเทลโดยใช้ SmartMarker เพื่อเติมข้อมูลลงในเทมเพลต Excel ด้วย C# อย่างง่ายดาย
-### [Aspose Cells Smart Markers: สร้างไฟล์ Excel จาก Model ด้วย C#](./aspose-cells-smart-markers-generate-excel-from-model-in-c/)
-เรียนรู้วิธีใช้ Smart Markers ใน Aspose.Cells เพื่อสร้างไฟล์ Excel จากโมเดล C# อย่างง่ายและรวดเร็ว
-### [สร้างหลายชีตด้วย SmartMarker – คู่มือ C# ฉบับสมบูรณ์](./generate-multiple-sheets-with-smartmarker-complete-c-guide/)
-เรียนรู้วิธีสร้างหลายชีตใน Excel ด้วย SmartMarker อย่างครบถ้วนใน C#
-### [ส่งออกข้อมูลไปยัง Excel – คู่มือเต็มสำหรับนักพัฒนา C#](./how-to-export-excel-complete-guide-for-c-developers/)
+### [ทำซ้ำข้อมูลใน Excel – เติมเทมเพลตด้วย SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+เรียนรู้วิธีทำซ้ำข้อมูลใน Excel โดยใช้ SmartMarker เพื่อเติมเทมเพลตอย่างอัตโนมัติและสร้างรายงานที่ปรับขนาดได้
+### [วิธีส่งออก Excel – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา C#](./how-to-export-excel-complete-guide-for-c-developers/)
 เรียนรู้วิธีส่งออกไฟล์ Excel ด้วย Aspose.Cells สำหรับ C# อย่างละเอียดและครบถ้วน
-### [วิธีสร้างข้อมูล Smart Marker และเติมข้อมูลเทมเพลต Excel](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
-เรียนรู้วิธีสร้างข้อมูล Smart Marker และเติมข้อมูลลงในเทมเพลต Excel อย่างง่ายดายด้วย Aspose.Cells
-### [วิธีสร้างสมุดงาน Excel ด้วย Smart Markers สำหรับรายงาน Excel แบบไดนามิก](./how-to-create-excel-workbook-with-smart-markers-for-a-dynami/)
-เรียนรู้วิธีใช้ Smart Markers เพื่อสร้างสมุดงาน Excel ที่ปรับเปลี่ยนตามข้อมูลแบบไดนามิกอย่างง่ายดาย
-### [วิธีสร้างรายงาน Excel โดยการรวมเทมเพลต Excel กับ Smart Markers](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
-### [โหลดเทมเพลต Excel ด้วย C# – สร้างหลายชีตอย่างรวดเร็ว](./load-excel-template-in-c-generate-multiple-sheets-quickly/)
-เรียนรู้วิธีโหลดเทมเพลต Excel ด้วย C# และสร้างหลายชีตอย่างรวดเร็วด้วย Aspose.Cells
-### [Range Smart Marker เพื่อประมวลผลข้อมูลซ้อนกันใน C# – คู่มือฉบับสมบูรณ์](./range-smart-marker-to-process-nested-data-in-c-full-guide/)
-เรียนรู้วิธีใช้ Range Smart Marker ใน Aspose.Cells เพื่อจัดการข้อมูลที่ซ้อนกันใน C# อย่างละเอียดและครบถ้วน
-### [นำเข้า JSON ไปยัง Excel ด้วย C# – คู่มือขั้นตอนโดยละเอียด](./import-json-to-excel-in-c-step-by-step-guide/)
-เรียนรู้วิธีนำเข้าไฟล์ JSON ไปยังสเปรดชีต Excel ด้วย C# อย่างละเอียดและง่ายดาย
-### [วิธีสร้างรายการรายงาน Excel ด้วย Aspose.Cells Smart Markers](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
-### [วิธีทำซ้ำเวิร์กชีต – คู่มือครบถ้วนสำหรับการอัตโนมัติ Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
-เรียนรู้วิธีทำซ้ำเวิร์กชีตใน Excel อย่างอัตโนมัติด้วย Aspose.Cells เพื่อสร้างรายงานหลายชีตได้อย่างง่ายดาย
+### [ทำซ้ำข้อมูลใน Excel – เติมเทมเพลตด้วย SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+เรียนรู้วิธีทำซ้ำข้อมูลใน Excel โดยใช้ SmartMarker เพื่อเติมเทมเพลตอย่างอัตโนมัติและสร้างรายงานที่ปรับขนาดได้
+### [วิธีส่งออก Excel – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา C#](./how-to-export-excel-complete-guide-for-c-developers/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ด้วย Aspose.Cells สำหรับ C# อย่างละเอียดและครบถ้วน
+### [ทำซ้ำข้อมูลใน Excel – เติมเทมเพลตด้วย SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+เรียนรู้วิธีทำซ้ำข้อมูลใน Excel โดยใช้ SmartMarker เพื่อเติมเทมเพลตอย่างอัตโนมัติและสร้างรายงานที่ปรับขนาดได้
+### [วิธีส่งออก Excel – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา C#](./how-to-export-excel-complete-guide-for-c-developers/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ด้วย Aspose.Cells สำหรับ C# อย่างละเอียดและครบถ้วน
+### [ทำซ้ำข้อมูลใน Excel – เติมเทมเพลตด้วย SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+เรียนรู้วิธีทำซ้ำข้อมูลใน Excel โดยใช้ SmartMarker เพื่อเติมเทมเพลตอย่างอัตโนมัติและสร้างรายงานที่ปรับขนาดได้
+### [วิธีส่งออก Excel – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา C#](./how-to-export-excel-complete-guide-for-c-developers/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ด้วย Aspose.Cells สำหรับ C# อย่างละเอียดและครบถ้วน
+### [ทำซ้ำข้อมูลใน Excel – เติมเทมเพลตด้วย SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+เรียนรู้วิธีทำซ้ำข้อมูลใน Excel โดยใช้ SmartMarker เพื่อเติมเทมเพลตอย่างอัตโนมัติและสร้างรายงานที่ปรับขนาดได้
+### [วิธีส่งออก Excel – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา C#](./how-to-export-excel-complete-guide-for-c-developers/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ด้วย Aspose.Cells สำหรับ C# อย่างละเอียดและครบถ้วน
+### [ทำซ้ำข้อมูลใน Excel – เติมเทมเพลตด้วย SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+เรียนรู้วิธีทำซ้ำข้อมูลใน Excel โดยใช้ SmartMarker เพื่อเติมเทมเพลตอย่างอัตโนมัติและสร้างรายงานที่ปรับขนาดได้
+### [วิธีส่งออก Excel – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา C#](./how-to-export-excel-complete-guide-for-c-developers/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ด้วย Aspose.Cells สำหรับ C# อย่างละเอียดและครบถ้วน
+### [ทำซ้ำข้อมูลใน Excel – เติมเทมเพลตด้วย SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+เรียนรู้วิธีทำซ้ำข้อมูลใน Excel โดยใช้ SmartMarker เพื่อเติมเทมเพลตอย่างอัตโนมัติและสร้างรายงานที่ปรับขนาดได้
+### [วิธีส่งออก Excel – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา C#](./how-to-export-excel-complete-guide-for-c-developers/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ด้วย Aspose.Cells สำหรับ C# อย่างละเอียดและครบถ้วน
+### [ทำซ้ำข้อมูลใน Excel – เติมเทมเพลตด้วย SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+เรียนรู้วิธีทำซ้ำข้อมูลใน Excel โดยใช้ SmartMarker เพื่อเติมเทมเพลตอย่างอัตโนมัติและสร้างรายงานที่ปรับขนาดได้
+### [วิธีส่งออก Excel – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา C#](./how-to-export-excel-complete-guide-for-c-developers/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ด้วย Aspose.Cells สำหรับ C# อย่างละเอียดและครบถ้วน
+### [ทำซ้ำข้อมูลใน Excel – เติมเทมเพลตด้วย SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+เรียนรู้วิธีทำซ้ำข้อมูลใน Excel โดยใช้ SmartMarker เพื่อเติมเทมเพลตอย่างอัตโนมัติและสร้างรายงานที่ปรับขนาดได้
+### [วิธีส่งออก Excel – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา C#](./how-to-export-excel-complete-guide-for-c-developers/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ด้วย Aspose.Cells สำหรับ C# อย่างละเอียดและครบถ้วน
+### [ทำซ้ำข้อมูลใน Excel – เติมเทมเพลตด้วย SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+เรียนรู้วิธีทำซ้ำข้อมูลใน Excel โดยใช้ SmartMarker เพื่อเติมเทมเพลตอย่างอัตโนมัติและสร้างรายงานที่ปรับขนาดได้
+### [วิธีส่งออก Excel – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา C#](./how-to-export-excel-complete-guide-for-c-developers/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ด้วย Aspose.Cells สำหรับ C# อย่างละเอียดและครบถ้วน
+### [ทำซ้ำข้อมูลใน Excel – เติมเทมเพลตด้วย SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+เรียนรู้วิธีทำซ้ำข้อมูลใน Excel โดยใช้ SmartMarker เพื่อเติมเทมเพลตอย่างอัตโนมัติและสร้างรายงานที่ปรับขนาดได้
+### [วิธีส่งออก Excel – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา C#](./how-to-export-excel-complete-guide-for-c-developers/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ด้วย Aspose.Cells สำหรับ C# อย่างละเอียดและครบถ้วน
+### [ทำซ้ำข้อมูลใน Excel – เติมเทมเพลตด้วย SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+เรียนรู้วิธีทำซ้ำข้อมูลใน Excel โดยใช้ SmartMarker เพื่อเติมเทมเพลตอย่างอัตโนมัติและสร้างรายงานที่ปรับขนาดได้
+### [วิธีส่งออก Excel – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา C#](./how-to-export-excel-complete-guide-for-c-developers/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ด้วย Aspose.Cells สำหรับ C# อย่างละเอียดและครบถ้วน
+### [ทำซ้ำข้อมูลใน Excel – เติมเทมเพลตด้วย SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+เรียนรู้วิธีทำซ้ำข้อมูลใน Excel โดยใช้ SmartMarker เพื่อเติมเทมเพลตอย่างอัตโนมัติและสร้างรายงานที่ปรับขนาดได้
+### [วิธีส่งออก Excel – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา C#](./how-to-export-excel-complete-guide-for-c-developers/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ด้วย Aspose.Cells สำหรับ C# อย่างละเอียดและครบถ้วน
+### [ทำซ้ำข้อมูลใน Excel – เติมเทมเพลตด้วย SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+เรียนรู้วิธีทำซ้ำข้อมูลใน Excel โดยใช้ SmartMarker เพื่อเติมเทมเพลตอย่างอัตโนมัติและสร้างรายงานที่ปรับขนาดได้
+### [วิธีส่งออก Excel – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา C#](./how-to-export-excel-complete-guide-for-c-developers/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ด้วย Aspose.Cells สำหรับ C# อย่างละเอียดและครบถ้วน
+### [ทำซ้ำข้อมูลใน Excel – เติมเทมเพลตด้วย SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+เรียนรู้วิธีทำซ้ำข้อมูลใน Excel โดยใช้ SmartMarker เพื่อเติมเทมเพลตอย่างอัตโนมัติและสร้างรายงานที่ปรับขนาดได้
+### [วิธีส่งออก Excel – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา C#](./how-to-export-excel-complete-guide-for-c-developers/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ด้วย Aspose.Cells สำหรับ C# อย่างละเอียดและครบถ้วน
+### [ทำซ้ำข้อมูลใน Excel – เติมเทมเพลตด้วย SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+เรียนรู้วิธีทำซ้ำข้อมูลใน Excel โดยใช้ SmartMarker เพื่อเติมเทมเพลตอย่างอัตโนมัติและสร้างรายงานที่ปรับขนาดได้
+### [วิธีส่งออก Excel – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา C#](./how-to-export-excel-complete-guide-for-c-developers/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ด้วย Aspose.Cells สำหรับ C# อย่างละเอียดและครบถ้วน
+### [ทำซ้ำข้อมูลใน Excel – เติมเทมเพลตด้วย SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+เรียนรู้วิธีทำซ้ำข้อมูลใน Excel โดยใช้ SmartMarker เพื่อเติมเทมเพลตอย่างอัตโนมัติและสร้างรายงานที่ปรับขนาดได้
+### [วิธีส่งออก Excel – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา C#](./how-to-export-excel-complete-guide-for-c-developers/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ด้วย Aspose.Cells สำหรับ C# อย่างละเอียดและครบถ้วน
+### [ทำซ้ำข้อมูลใน Excel – เติมเทมเพลตด้วย SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+เรียนรู้วิธีทำซ้ำข้อมูลใน Excel โดยใช้ SmartMarker เพื่อเติมเทมเพลตอย่างอัตโนมัติและสร้างรายงานที่ปรับขนาดได้
+### [วิธีส่งออก Excel – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา C#](./how-to-export-excel-complete-guide-for-c-developers/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ด้วย Aspose.Cells สำหรับ C# อย่างละเอียดและครบถ้วน
+### [ทำซ้ำข้อมูลใน Excel – เติมเทมเพลตด้วย SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+เรียนรู้วิธีทำซ้ำข้อมูลใน Excel โดยใช้ SmartMarker เพื่อเติมเทมเพลตอย่างอัตโนมัติและสร้างรายงานที่ปรับขนาดได้
+### [วิธีส่งออก Excel – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา C#](./how-to-export-excel-complete-guide-for-c-developers/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ด้วย Aspose.Cells สำหรับ C# อย่างละเอียดและครบถ้วน
+### [ทำซ้ำข้อมูลใน Excel – เติมเทมเพลตด้วย SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
+เรียนรู้วิธีทำซ้ำข้อมูลใน Excel โดยใช้ SmartMarker เพื่อเติมเทมเพลตอย่างอัตโนมัติและสร้างรายงานที่ปรับขนาดได้
+### [วิธีส่งออก Excel – คู่มือฉบับสมบูรณ์สำหรับนักพัฒนา C#](./how-to-export-excel-complete-guide-for-c-developers/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ด้วย Aspose.Cells สำหรับ C# อย่างละเอียดและครบถ้วน
 
-### [สร้างสมุดงาน Master Detail ด้วย Aspose.Cells Smart Marker](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
-
-### [คู่มือ Master Detail Excel – เติมเทมเพลตด้วย Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)
-### [สร้างไฟล์ Excel จาก JSON ด้วย Aspose.Cells Smart Marker](./create-excel-from-json-with-smart-marker/)
-
-### [สร้าง Excel จาก JSON ด้วย SmartMarker ใน C#](./create-excel-from-json-with-smartmarker-in-c/)
-
-### [ขยาย Worksheet Smart Markers ใน C# สำหรับเทมเพลต Excel](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
+### [วิธีทำซ้ำ Worksheet ใน Excel ด้วย SmartMarkerProcessor](./how-to-repeat-worksheet-in-excel-with-smartmarkerprocessor/)
+เรียนรู้วิธีทำซ้ำ Worksheet ใน Excel โดยใช้ SmartMarkerProcessor เพื่อสร้างรายงานหลายชีตโดยอัตโนมัติ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

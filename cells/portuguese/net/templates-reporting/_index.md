@@ -77,6 +77,9 @@ Aprenda a converter um conjunto de dados em planilha Excel e preenchê‑la usan
 ### [Como criar Excel a partir de modelo e gerar planilhas repetidas](./how-to-create-excel-from-template-and-generate-repeated-shee)
 Aprenda a gerar planilhas Excel a partir de um modelo e criar múltiplas abas repetidas programaticamente usando Aspose.Cells para .NET.
 
+### [Como gerar Excel a partir de modelo com C# e Aspose.Cells](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
+Aprenda a gerar arquivos Excel a partir de modelos usando C# e Aspose.Cells de forma programática.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

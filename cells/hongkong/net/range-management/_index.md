@@ -76,6 +76,9 @@ Excel 範圍是儲存格的集合，構成了電子表格中資料組織和操�
 ### [使用 Aspose.Cells for .NET 在 Excel 中複製資料：逐步指南](./excel-aspose-cells-dotnet-copy-range-data)
 了解如何使用 Aspose.Cells for .NET 在 Excel 中有效地在範圍之間複製資料。掌握資料操作而不改變來源格式，具有僅複製值或包含公式和樣式的選項。
 
+### [如何使用 CopyOptions 在 Aspose.Cells 中複製範圍](./how-to-copy-range-using-copyoptions-in-aspose-cells)
+了解如何在 Aspose.Cells for .NET 中使用 CopyOptions 參數高效複製儲存格範圍，包括值、公式與樣式的控制。
+
 ### [使用 Aspose.Cells 實現 Excel 自動化：建立和合併範圍](./excel-automation-aspose-cells-create-merge-ranges)
 了解如何使用 Aspose.Cells for .NET 以程式設計方式建立和合併範圍。本教學課程示範如何定義範圍並有效地組合儲存格以便在 Excel 文件中更好地呈現資料。
 

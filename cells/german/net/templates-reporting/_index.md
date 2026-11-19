@@ -70,6 +70,9 @@ Erfahren Sie, wie Sie mit einer C#‑Vorlage Daten nach Excel exportieren und de
 ### [Excel aus Vorlage erstellen und wiederholte Arbeitsblätter generieren](./how-to-create-excel-from-template-and-generate-repeated-shee)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien aus Vorlagen erstellen und automatisch wiederholte Arbeitsblätter hinzufügen.
 
+### [Excel aus Vorlage mit C# und Aspose.Cells generieren](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
+Erfahren Sie, wie Sie mit C# und Aspose.Cells Excel-Dateien aus Vorlagen generieren und Daten automatisch einbinden.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

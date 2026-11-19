@@ -110,6 +110,7 @@ Excel поставляется с множеством встроенных фу
 Узнайте, как создать книгу Excel в C# и задать формулы с помощью Aspose.Cells.
 ### [Как создать книгу Excel на C# с динамической формулой массива](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
 Узнайте, как создать книгу Excel в C# с динамической формулой массива, используя Aspose.Cells.
+### [Оценка формулы Excel с динамичным диапазоном суммы с использованием переменных](./evaluate-excel-formula-with-a-dynamic-sum-range-using-variab/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

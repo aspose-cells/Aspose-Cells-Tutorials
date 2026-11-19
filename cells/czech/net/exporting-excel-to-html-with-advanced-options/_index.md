@@ -129,6 +129,8 @@ Snadné nastavení názvu záložky jednoho listu během exportu HTML pomocí As
 Naučte se, jak pomocí Aspose.Cells pro .NET v C# vložit písma do HTML v tomto podrobném průvodci.
 ### [Jak vložit písma do HTML při ukládání sešitu](./how-to-embed-fonts-in-html-when-saving-a-workbook/)
 Naučte se, jak při ukládání sešitu do HTML vložit písma pomocí Aspose.Cells pro .NET.
+### [Jak vložit písma při ukládání Excelu do HTML pomocí C#](./how-to-embed-fonts-when-saving-excel-to-html-with-c/)
+Naučte se, jak pomocí Aspose.Cells pro .NET vložit písma do HTML při ukládání souboru Excel pomocí C#.
 ### [Uložení Excelu jako HTML – Kompletní průvodce C#](./save-excel-as-html-complete-c-guide/)
 Naučte se, jak pomocí Aspose.Cells pro .NET uložit soubor Excel jako HTML v kompletním průvodci pro C#.
 
@@ -164,6 +166,9 @@ Naučte se, jak uložit Excel jako HTML s kompletním průvodcem exportu včetn�
 Naučte se, jak zachovat zmrazené oblasti při exportu Excelu do HTML pomocí Aspose.Cells pro .NET.
 ### [Jak exportovat xlsx do HTML se zmraženými panely v C#](./how-to-export-xlsx-to-html-with-frozen-panes-in-c/)
 Naučte se, jak exportovat soubor xlsx do HTML se zmraženými panely pomocí Aspose.Cells pro .NET v C#.
+
+### [Jak převést Excel do HTML s úplným formátováním v C#](./how-to-convert-excel-to-html-with-full-formatting-in-c/)
+Naučte se, jak pomocí Aspose.Cells pro .NET převést soubor Excel do HTML se zachováním veškerého formátování v C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

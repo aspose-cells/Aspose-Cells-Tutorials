@@ -63,6 +63,26 @@ Ontdek de kracht van Aspose.Cells voor .NET om aangepaste labels en slimme marke
 Leer hoe u een Excel-sjabloon laadt en met SmartMarker een dynamisch rapport genereert.
 ### [Hoe een Excel-rapport te genereren door een Excel-sjabloon te combineren met Smart Markers](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
 Leer hoe u met Smart Markers een Excel-sjabloon samenvoegt om dynamische rapporten te maken.
+### [Hoe een Excel-rapport te genereren door een Excel-sjabloon te combineren met Smart Markers](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
+Leer hoe u met Smart Markers een Excel-sjabloon samenvoegt om dynamische rapporten te maken.
+### [Hoe een Excel-rapport te genereren door een Excel-sjabloon te combineren met Smart Markers](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
+Leer hoe u met Smart Markers een Excel-sjabloon samenvoegt om dynamische rapporten te maken.
+### [Hoe een Excel-rapport te genereren door een Excel-sjabloon te combineren met Smart Markers](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
+Leer hoe u met Smart Markers een Excel-sjabloon samenvoegt om dynamische rapporten te maken.
+### [Hoe een Excel-rapport te genereren door een Excel-sjabloon te combineren met Smart Markers](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
+Leer hoe u met Smart Markers een Excel-sjabloon samenvoegt om dynamische rapporten te maken.
+### [Hoe een Excel-rapport te genereren door een Excel-sjabloon te combineren met Smart Markers](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
+Leer hoe u met Smart Markers een Excel-sjabloon samenvoegt om dynamische rapporten te maken.
+### [Hoe een Excel-rapport te genereren door een Excel-sjabloon te combineren met Smart Markers](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
+Leer hoe u met Smart Markers een Excel-sjabloon samenvoegt om dynamische rapporten te maken.
+### [Hoe een Excel-rapport te genereren door een Excel-sjabloon te combineren met Smart Markers](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
+Leer hoe u met Smart Markers een Excel-sjabloon samenvoegt om dynamische rapporten te maken.
+### [Hoe een Excel-rapport te genereren door een Excel-sjabloon te combineren met Smart Markers](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
+Leer hoe u met Smart Markers een Excel-sjabloon samenvoegt om dynamische rapporten te maken.
+### [Hoe een Excel-rapport te genereren door een Excel-sjabloon te combineren met Smart Markers](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
+Leer hoe u met Smart Markers een Excel-sjabloin samenvoegt om dynamische rapporten te maken.
+### [Hoe een Excel-rapport te genereren door een Excel-sjabloon te combineren met Smart Markers](./how-to-generate-excel-report-by-merging-an-excel-template-wi/)
+Leer hoe u met Smart Markers een Excel-sjabloon samenvoegt om dynamische rapporten te maken.
 ### [Gegevens automatisch invoegen in bladen in Aspose.Cells](./auto-populate-data-smart-markers/)
 Ontdek hoe u automatisch gegevens in meerdere werkbladen in Excel kunt invullen met behulp van de Aspose.Cells voor .NET-bibliotheek. Leer het stapsgewijze proces om uw gegevensbeheertaken te stroomlijnen.
 ### [Excel-sjabloon vullen – Gegevens invullen via SmartMarker](./populate-excel-template-fill-excel-data-via-smartmarker/)
@@ -78,6 +98,8 @@ Verbeter uw Excel-bestanden met slimme markeringen om lege waarden efficiënt te
 Groepeer moeiteloos gegevens met slimme markeringen in Aspose.Cells voor .NET. Volg onze uitgebreide handleiding voor stapsgewijze instructies.
 ### [Afbeeldingen met afbeeldingsmarkeringen invoegen in Aspose.Cells](./insert-images-smart-markers/)
 Ontdek hoe je afbeeldingen invoegt met behulp van afbeeldingsmarkeringen in Aspose.Cells voor .NET met onze stapsgewijze handleiding! Verbeter je Excel-rapporten effectief met visuele elementen.
+### [Hoe werkbladen herhalen in Excel met SmartMarkerProcessor](./how-to-repeat-worksheet-in-excel-with-smartmarkerprocessor/)
+Leer hoe u met SmartMarkerProcessor werkbladen automatisch kunt dupliceren voor dynamische Excel-rapporten.
 ### [Hoe werkbladen te herhalen – Complete gids voor Excel-automatisering](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 Leer stap voor stap hoe u werkbladen kunt dupliceren met Aspose.Cells voor .NET om Excel-automatisering te vereenvoudigen.
 ### [Gebruik anonieme typen met slimme markeringen Aspose.Cells](./use-anonymous-types-smart-markers/)
@@ -86,7 +108,7 @@ Leer hoe u anonieme typen met slimme markeringen in Aspose.Cells kunt gebruiken 
 Ontdek de kracht van Aspose.Cells voor .NET en leer hoe u moeiteloos kopieerstijlkenmerken toepast in Excel Smart Markers. Deze uitgebreide tutorial bevat stapsgewijze instructies.
 ### [Formuleparameter gebruiken in Smart Marker-veld Aspose.Cells](./formula-parameter-smart-marker/)
 Leer formuleparameters gebruiken in slimme markers met Aspose.Cells voor .NET. Maak eenvoudig dynamische spreadsheets.
-### [Generieke lijst gebruiken in slimme markers Aspose.Cells](./generic-list-smart-markers/)
+### [Generieke lijst gebruiken in slimme markeringen Aspose.Cells](./generic-list-smart-markers/)
 Beheers Aspose.Cells voor .NET met generieke lijsten en slimme markeringen om moeiteloos dynamische Excel-rapporten te maken. Eenvoudige handleiding voor ontwikkelaars.
 ### [HTML-eigenschap gebruiken in slimme markeringen Aspose.Cells .NET](./html-property-smart-markers/)
 Ontdek de kracht van Aspose.Cells met deze stapsgewijze zelfstudie over het gebruik van de HTML-eigenschap in slimme markeringen voor .NET-toepassingen.
@@ -185,6 +207,8 @@ Leer hoe u master‑detail Excel‑sjablonen kunt vullen met Smart Markers voor 
 Leer hoe u met Aspose.Cells Smart Markers Excel-bestanden genereert uit JSON-gegevens in een paar eenvoudige stappen.
 ### [Excel maken vanuit JSON met SmartMarker in C#](./create-excel-from-json-with-smartmarker-in-c/)
 Leer hoe u met SmartMarker JSON-gegevens omzet naar een Excel-bestand in C#.
+### [Smart marker-plaatshouder invoegen in Excel met C#](./insert-smart-marker-placeholder-in-excel-with-c/)
+Leer hoe u een placeholder voor een Smart Marker in een Excel-werkblad kunt plaatsen met C#.
 ### [Werkblad uitbreiden met slimme markeringen in C# voor Excel-sjablonen](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

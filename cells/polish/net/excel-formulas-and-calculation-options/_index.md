@@ -87,8 +87,8 @@ Dowiedz się, jak określić maksymalną liczbę wierszy dla współdzielonych f
 Dowiedz się, jak używać funkcji WRAPCOLS w C# do przekształcania jednowymiarowych tablic w macierze przy pomocy Aspose.Cells.
 ### [Jak utworzyć skoroszyt Excel i podzielić dane przy użyciu WRAPCOLS w C#](./how-to-create-excel-workbook-and-split-data-with-wrapcols-in/)
 Dowiedz się, jak w C# utworzyć skoroszyt Excel i podzielić dane na kolumny przy użyciu funkcji WRAPCOLS w Aspose.Cells.
-### [Jak używać WRAPCOLS w C# dla tablic Excel i zapisywania skoroszytu](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
-Dowiedz się, jak używać WRAPCOLS w C# do przekształcania tablic i zapisywania skoroszytu Excel przy pomocy Aspose.Cells.
+### [Jak używać WRAPCOLS w C# dla tablic Excel i zapisywania skorzytu](./how-to-use-wrapcols-in-c-for-excel-arrays-and-workbook-savin/)
+Dowiedz się, jak używać WRAPCOLS w C# do przekształcania tablic i zapisywania skorzytu Excel przy pomocy Aspose.Cells.
 ### [Jak rozszerzyć tablicę w C# przy użyciu Aspose.Cells – przewodnik krok po kroku](./how-to-expand-array-in-c-with-aspose-cells-step-by-step-guid/)
 Dowiedz się, jak w prosty sposób rozszerzyć tablicę w C# przy użyciu Aspose.Cells, korzystając z naszego szczegółowego przewodnika krok po kroku.
 ### [c# tworzenie pliku Excel – przewodnik krok po kroku z logiką warunkową](./c-create-excel-file-step-by-step-guide-with-conditional-logi/)
@@ -100,13 +100,15 @@ Dowiedz się, jak obliczyć cotangens w Excelu przy użyciu Aspose.Cells i C#. K
 Dowiedz się, jak zastosować formułę tablicową w Excelu przy użyciu Aspose.Cells w C#, krok po kroku, w pełnym przewodniku.
 ### [Jak używać WRAPCOLS – Kompletny przewodnik po automatyzacji Excela w C#](./how-to-use-wrapcols-complete-guide-for-c-excel-automation/)
 Dowiedz się, jak wykorzystać funkcję WRAPCOLS w Aspose.Cells dla .NET, aby automatyzować Excel w C# w prosty i efektywny sposób.
-### [Utwórz skoroszyt programu Excel z formułami – Pełny przewodnik krok po kroku](./create-excel-workbook-with-formulas-full-step-by-step-guide/)
+### [Utwórz skorzy...]
 Dowiedz się, jak programowo utworzyć skoroszyt Excel z formułami, korzystając z Aspose.Cells dla .NET – kompletny przewodnik krok po kroku.
 
-### [Jak utworzyć skoroszyt Excel w C# z funkcją EXPAND](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
+### [Jak utworzyć skorzy...]
 Dowiedz się, jak przy użyciu Aspose.Cells dla .NET w C# utworzyć skoroszyt Excel wykorzystując funkcję EXPAND w prostym przewodniku krok po kroku.
-### [Jak utworzyć skoroszyt Excel w C# i ustawić formuły](./how-to-create-excel-workbook-in-c-and-set-formulas/)
+### [Jak utworzyć skorzy...]
 Krok po kroku pokażemy, jak w C# przy użyciu Aspose.Cells stworzyć skoroszyt Excel i dodać do niego formuły.
+### [Ewaluacja formuły Excel z dynamicznym zakresem sumy przy użyciu zmiennych](./evaluate-excel-formula-with-a-dynamic-sum-range-using-variab/)
+Dowiedz się, jak programowo ocenić formułę sumującą zakres określany zmiennymi w Aspose.Cells dla .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

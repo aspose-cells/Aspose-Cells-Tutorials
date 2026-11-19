@@ -40,7 +40,7 @@ Aprenda como aplicar formatos numéricos personalizados no Excel usando C# com o
 Aprenda a formatar números com separadores de milhar em C# usando o Aspose.Cells, com exemplos completos passo a passo.
 ### [Formatar data ISO a partir do Excel – Guia completo em C#](./format-date-iso-from-excel-complete-c-guide/)
 Aprenda a converter datas do Excel para o formato ISO usando C# com o Aspose.Cells, passo a passo.
-### [Aplicar Formato Numérico Personalizado na Exportação de Planilha C# – Guia Passo a Passo](./apply-custom-number-format-in-c-spreadsheet-export-step-by-s/)
+### [Aplicar Formato Numérico Personalizado na Exportação de Planilha C# – Guia Passo a Passo](./apply-custom-number-format-in-c-spreadsheet-export-step-a-s/)
 Aprenda a aplicar formatos numéricos personalizados ao exportar planilhas em C# usando Aspose.Cells, com instruções detalhadas passo a passo.
 ### [Aplicar Formato Numérico Personalizado na Exportação de Planilha C# – Guia Passo a Passo](./apply-custom-number-format-in-c-spreadsheet-export-step-s/)
 Aprenda a aplicar formatos numéricos personalizados ao exportar planilhas em C# usando Aspose.Cells, com instruções detalhadas passo a passo.
@@ -52,7 +52,7 @@ Aprenda a criar uma pasta de trabalho Excel em C# e aplicar formatos numéricos 
 Aprenda a analisar datas em planilhas do Excel usando C# com o Aspose.Cells neste tutorial completo.
 ### [Criar pasta de trabalho do Excel com formato personalizado – Guia C#](./create-excel-workbook-with-custom-format-c-guide/)
 Aprenda a criar uma pasta de trabalho do Excel com formatação personalizada usando Aspose.Cells para .NET em C#.
-### [Analisar data da era japonesa em C# com Aspose.Cells – Guia completo](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+### [Analisar date da era japonesa em C# com Aspose.Cells – Guia completo](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 Aprenda a analisar datas da era japonesa em C# usando Aspose.Cells neste guia completo.
 ### [Como aplicar formato numérico no Excel com Aspose.Cells](./how-to-apply-number-format-excel-with-aspose-cells/)
 Aprenda a aplicar formatos numéricos em planilhas Excel usando Aspose.Cells para .NET neste tutorial passo a passo.
@@ -65,9 +65,6 @@ Aprenda a analisar valores de data e hora que incluem o reinado do imperador jap
 Aprenda a converter datas da era japonesa para o calendário gregoriano usando C# e Aspose.Cells.
 ### [Como criar pasta de trabalho Excel em C# com formatação numérica personalizada](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
 Aprenda a criar uma pasta de trabalho Excel em C# aplicando formatação numérica personalizada usando Aspose.Cells.
-
-
-
 
 ### [Definir Formato Personalizado de Célula em C# – Guia Completo para Gravar e Ler Datas no Excel](./set-cell-custom-format-in-c-complete-guide-to-writing-readin/)
 Aprenda a definir formatos personalizados de células e a gravar e ler datas no Excel usando C# com Aspose.Cells.
@@ -100,6 +97,12 @@ Aprenda a formatar colunas de data ao exportar um DataTable para Excel usando C#
 Aprenda a converter datas do calendário japonês usando C# e Aspose.Cells, passo a passo.
 ### [Como usar CultureInfo do calendário japonês em C# para gravar datas no Excel](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
 Aprenda a gravar datas no Excel usando CultureInfo do calendário japonês em C# com Aspose.Cells.
+
+### [Definir formato de número da célula e converter datas japonesas em C#](./set-cell-number-format-and-convert-japanese-dates-in-c/)
+Aprenda a definir o formato numérico de células e converter datas japonesas em C# usando Aspose.Cells.
+
+### [Definir formato de moeda ao importar dados para o Excel usando C#](./set-currency-format-while-importing-data-into-excel-using-c/)
+Aprenda a definir o formato de moeda ao importar dados para planilhas Excel usando C# com Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -37,6 +37,8 @@
 .NET के लिए Aspose.Cells का उपयोग करके Excel वर्कबुक बनाएं, कॉलम रैप करें और फ़ाइल को XLSX रूप में सहेजें।
 ### [C# में Excel कॉलम को फ़ॉर्मेट करने का तरीका – पूर्ण गाइड](./how-to-format-excel-columns-in-c-complete-guide/)
 C# और Aspose.Cells का उपयोग करके Excel कॉलम को फ़ॉर्मेट करने की पूरी प्रक्रिया सीखें।
+### [C# में wrapcols का उपयोग करके Excel में डेटा को रैप करना](./how-to-use-wrapcols-in-c-to-wrap-data-in-excel/)
+.NET के लिए Aspose.Cells का उपयोग करके C# में wrapcols के साथ Excel डेटा को रैप करने की प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

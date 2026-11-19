@@ -31,10 +31,12 @@ Teď, když vaše sloupce vypadají ostře, nezapomínejme na řádky! Formátov
 ## Formátování řádků a sloupců v Excelu – tutoriály
 ### [Úprava nastavení formátu sloupce](./customizing-a-column/)
 Naučte se, jak přizpůsobit formát sloupce v Excelu pomocí Aspose.Cells pro .NET v tomto podrobném návodu. Ideální pro vývojáře, kteří automatizují úlohy v Excelu.
-### [Programové použití formátování na řádek v Excelu](./applying-formatting-to-an-excel-row/)
+### [Programové použití formátu na řádek v Excelu](./applying-formatting-to-an-excel-row/)
 Naučte se, jak programově použít formátování řádku v Excelu pomocí Aspose.Cells pro .NET. Tato podrobná příručka krok za krokem zahrnuje vše od zarovnání až po ohraničení.
 ### [Jak formátovat sloupce v Excelu v C# – Kompletní průvodce](./how-to-format-excel-columns-in-c-complete-guide/)
 Naučte se, jak pomocí Aspose.Cells pro .NET v C# kompletně nastavit formátování sloupců v Excelu.
+### [Jak použít wrapcols v C# k zalomení dat v Excelu](./how-to-use-wrapcols-in-c-to-wrap-data-in-excel/)
+Naučte se, jak pomocí metody wrapcols v C# automaticky zalomit text v buňkách Excelu pomocí Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

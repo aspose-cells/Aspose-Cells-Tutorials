@@ -79,6 +79,9 @@
 ### [كيفية حفظ PDF من مصنف Excel باستخدام Aspose.Cells](./how-to-save-pdf-from-an-excel-workbook-with-aspose-cells/)
 تعلم كيفية حفظ ملف PDF من مصنف Excel باستخدام Aspose.Cells خطوة بخطوة.
 
+### [كيفية تضمين الخطوط عند تصدير Excel إلى PDF باستخدام C#](./how-to-embed-fonts-when-exporting-excel-to-pdf-with-c/)
+تعلم كيفية تضمين الخطوط في ملفات PDF عند تصدير جداول Excel باستخدام C# مع Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

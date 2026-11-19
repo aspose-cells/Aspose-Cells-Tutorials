@@ -91,8 +91,12 @@ Aspose.Cells for .NET を特集したステップバイステップ ガイドを
 Aspose.Cells for .NET を使用して、Excel ファイルの列幅をプログラムで調整する方法を学びます。効率的なデータプレゼンテーションに最適です。
 ### [HTMLエクスポートで単一シートのタブ名を設定する](./setting-single-sheet-tab-name/)
 Aspose.Cells for .NET を使用すると、HTML エクスポート時に単一のシートのタブ名を簡単に設定できます。コード例を含むステップバイステップのガイドです。
-### [HTML にフォントを埋め込む方法 – 完全 C# ガイド](./how-to-embed-fonts-in-html-complete-c-guide/)
+### [HTML にフォントを埋め込む – 完全 C# ガイド](./how-to-embed-fonts-in-html-complete-c-guide/)
 Aspose.Cells for .NET を使用して、HTML にフォントを埋め込み、表示を正確に保つ手順をステップバイステップで解説します。
+
+### [C# で Excel を HTML に保存する際にフォントを埋め込む方法](./how-to-embed-fonts-when-saving-excel-to-html-with-c/)
+Aspose.Cells for .NET を使用し、C# で Excel を HTML に保存する際にフォントを埋め込む手順をステップバイステップで解説します。
+
 ### [ワークブックを保存するときにHTMLにフォントを埋め込む方法](./how-to-embed-fonts-in-html-when-saving-a-workbook/)
 Aspose.Cells for .NET を使用して、ワークブックを保存する際に HTML にフォントを埋め込む手順を解説します。
 ### [Excel を HTML に保存 – 完全 C# ガイド](./save-excel-as-html-complete-c-guide/)
@@ -142,6 +146,9 @@ Aspose.Cells for .NET を使用して、Excel ファイルを HTML にエクス�
 
 ### [wrapcols とフォントを埋め込んで Excel を HTML に保存する方法](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
 Aspose.Cells for .NET で wrapcols を使用し、フォントを埋め込んで Excel を HTML にエクスポートする手順を解説します。
+
+### [C# で完全な書式設定で Excel を HTML に変換する方法](./how-to-convert-excel-to-html-with-full-formatting-in-c/)
+Aspose.Cells for .NET を使用して、C# で Excel を完全な書式設定付きで HTML に変換する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

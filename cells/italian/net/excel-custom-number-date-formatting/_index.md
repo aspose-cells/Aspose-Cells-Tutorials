@@ -34,6 +34,8 @@ Questo tutorial ti fornirà le competenze necessarie per importare i tuoi set di
 Scopri come confrontare i valori delle celle di Excel con formati numerici personalizzati utilizzando Aspose.Cells per .NET con questo tutorial passo passo.
 ### [Specificare i campi formula durante l'importazione di dati in un foglio Excel](./specify-formula-fields-while-importing-data-to-worksheet-in-excel/)
 In questo tutorial dettagliato scoprirai come importare dati in fogli Excel con campi formula specificati utilizzando Aspose.Cells per .NET.
+### [Imposta il formato valuta durante l'importazione dei dati in Excel con C#](./set-currency-format-while-importing-data-into-excel-using-c/)
+Scopri come applicare il formato valuta ai dati importati in Excel usando Aspose.Cells per .NET con C#.
 ### [Formato numerico personalizzato in Excel con C# – Guida completa](./custom-number-format-excel-in-c-complete-guide/)
 Impara a creare e applicare formati numerici personalizzati in Excel con C# usando Aspose.Cells, con esempi pratici e consigli utili.
 ### [Formattare i numeri con separatore in C# – Guida completa Aspose.Cells](./format-number-with-separator-in-c-complete-aspose-c-cells-guid/)
@@ -101,6 +103,8 @@ Scopri come applicare formati numerici personalizzati a fogli Excel usando C# e 
 Impara a formattare le colonne data in Excel e a esportare un DataTable usando C# con Aspose.Cells.
 ### [Conversione del calendario giapponese in C# – Guida completa](./japanese-calendar-conversion-in-c-full-guide/)
 Scopri come convertire date del calendario giapponese in C# usando Aspose.Cells, con esempi pratici e guida passo passo.
+### [Imposta il formato numerico della cella e converti le date giapponesi in C#](./set-cell-number-format-and-convert-japanese-dates-in-c/)
+Scopri come impostare il formato numerico delle celle e convertire le date giapponesi in Excel usando Aspose.Cells per .NET con C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

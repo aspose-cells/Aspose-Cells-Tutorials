@@ -40,6 +40,9 @@ Aprenda a formatar colunas do Excel em C# usando Aspose.Cells para .NET com este
 ### [Criar Pasta de Trabalho Excel – Envolver Colunas e Salvar como XLSX](./create-excel-workbook-wrap-columns-and-save-as-xlsx/)
 Aprenda a criar uma pasta de trabalho Excel, envolver colunas automaticamente e salvar o arquivo como XLSX usando Aspose.Cells para .NET.
 
+### [Como usar wrapcols em C# para envolver dados no Excel](./how-to-use-wrapcols-in-c-to-wrap-data-in-excel/)
+Aprenda a usar o método wrapcols em C# para envolver automaticamente o conteúdo das células no Excel com Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

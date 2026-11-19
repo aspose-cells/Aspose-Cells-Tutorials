@@ -83,6 +83,8 @@ Aspose.Cells for .NET предоставляет мощные инструмен
 Узнайте, как преобразовать набор данных в Excel и заполнить шаблон Excel с помощью Aspose.Cells.
 ### [Как создать Excel из шаблона и генерировать повторяющиеся листы](./how-to-create-excel-from-template-and-generate-repeated-shee/)
 
+### [Как создать Excel из шаблона с C# и Aspose.Cells](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

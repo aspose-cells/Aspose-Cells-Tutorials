@@ -105,8 +105,9 @@ Master the WRAPCOLS function in C# with Aspose.Cells for .NET. Follow this compl
 ### [How to create Excel workbook in C# with the EXPAND function](./how-to-create-excel-workbook-in-c-with-the-expand-function/)
 Learn to generate an Excel workbook in C# using the EXPAND function with Aspose.Cells for .NET in this step‑by‑step guide.
 ### [How to create Excel workbook C# with a dynamic array formula](./how-to-create-excel-workbook-c-with-a-dynamic-array-formula/)
-Learn how to generate an Excel workbook in C# using a dynamic array formula with Aspose.Cells for .NET.
-
+Explore how to generate an Excel workbook in C# using a dynamic array formula with Aspose.Cells for .NET. Step-by-step tutorial and examples included.
+### [Evaluate Excel formula with a dynamic sum range using variables](./evaluate-excel-formula-with-a-dynamic-sum-range-using-variab/)
+Learn how to evaluate an Excel formula with a dynamic sum range using variables in Aspose.Cells for .NET.
 ### [How to create Excel workbook in C# and set formulas](./how-to-create-excel-workbook-in-c-and-set-formulas/)
 Learn how to generate an Excel workbook in C# and apply formulas using Aspose.Cells for .NET.
 

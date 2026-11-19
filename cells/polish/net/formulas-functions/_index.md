@@ -104,6 +104,9 @@ Dowiedz się, jak programowo aktualizować formuły Power Query w skoroszytach p
 
 ### [Jak używać wyrażeń lambda w C# z formułami Excela – kompletny przewodnik](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
 Poznaj, jak wykorzystać wyrażenia lambda w C# do dynamicznego generowania i obliczania formuł Excela przy użyciu Aspose.Cells.
+### [Jak obliczyć cotangens w C# przy użyciu funkcji EXPAND](./how-to-calculate-cotangent-in-c-using-the-expand-function/)
+Dowiedz się, jak obliczyć cotangens w Excelu przy użyciu funkcji EXPAND w C#.
+
 ### [Jak obliczyć cotangens w Excelu przy użyciu C# – Utwórz skoroszyt, użyj EXPAND i zapisz](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
 ### [Jak używać WRAPCOLS w C# – przekształcanie tablicy w macierz w Excelu](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
 Dowiedz się, jak przy pomocy funkcji WRAPCOLS w C# przekształcić jednowymiarową tablicę w macierz w arkuszu Excel przy użyciu Aspose.Cells.
@@ -141,7 +144,7 @@ Formuły tablicowe wykonują obliczenia na wielu wartościach jednocześnie:
 
 Te formuły wykorzystują nazwane zakresy lub zdefiniowane nazwy:
 
-- **Odniesienia do nazwanych zakresów**:Używanie zdefiniowanych nazw, takich jak `=SUM(SalesData)`
+- **Odwołania do nazwanych zakresów**:Używanie zdefiniowanych nazw, takich jak `=SUM(SalesData)`
 - **Odwołania strukturalne**:Odwołania do tabel, takie jak `=SUM(Table1[Amount])`
 - **Dynamiczne zakresy nazwane**:Formuły, które automatycznie dostosowują się do rozmiaru danych
 

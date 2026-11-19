@@ -124,6 +124,9 @@ Excel 区域是单元格的集合，构成了电子表格中数据组织和操�
 ### [使用 Aspose.Cells for .NET 在 Excel 中取消隐藏行和列 - 综合指南](./unhide-rows-columns-aspose-cells-net)
 了解如何使用 Aspose.Cells for .NET 在 Excel 中高效地取消隐藏行和列。本指南涵盖从设置环境到优化显示隐藏内容时的性能等所有内容。
 
+### [如何使用 CopyOptions 复制范围（Aspose.Cells）](./how-to-copy-range-using-copyoptions-in-aspose-cells)
+了解如何使用 Aspose.Cells 的 CopyOptions 复制单元格范围。
+
 ## 先进的靶场管理技术
 
 在 Excel 中处理范围时，使用 Aspose.Cells 的范围操作（而非逐个单元格操作）可以显著提高代码效率和可读性。以下是一些范围管理的高级技巧：

@@ -67,6 +67,8 @@ Enfin, parlons des petits détails qui font toute la différence. La possibilit�
 ## Tutoriels sur l'exportation d'Excel vers HTML avec les options avancées
 ### [Enregistrer Excel en HTML – Guide complet pour exporter Excel avec mise en forme](./save-excel-as-html-complete-guide-to-export-excel-with-forma/)
 Découvrez comment enregistrer un classeur Excel en HTML tout en conservant la mise en forme avec Aspose.Cells pour .NET dans ce guide complet.
+### [Comment convertir Excel en HTML avec une mise en forme complète en C#](./how-to-convert-excel-to-html-with-full-formatting-in-c/)
+Apprenez à convertir un classeur Excel en HTML avec une mise en forme complète en C# grâce à Aspose.Cells pour .NET.
 ### [Exclusion des styles inutilisés lors de l'exportation d'Excel vers HTML](./excluding-unused-styles/)
 Découvrez comment exclure les styles inutilisés lors de l’exportation d’Excel vers HTML à l’aide d’Aspose.Cells pour .NET dans ce guide détaillé étape par étape.
 ### [Enregistrer Excel en HTML – Guide complet avec exemples de code](./save-excel-as-html-complete-guide-with-code-samples/)
@@ -161,6 +163,15 @@ Découvrez comment conserver les volets figés lors de l’exportation d’Excel
 Apprenez à utiliser l'option wrapcols et à intégrer des polices lors de l'enregistrement d'un classeur Excel en HTML avec Aspose.Cells pour .NET.
 ### [Comment intégrer des polices HTML lors de la conversion d'un XLSX en HTML avec Aspose.Cells](./how-to-embed-fonts-html-when-you-convert-an-xlsx-to-html-wit/)
 Apprenez à intégrer des polices dans le HTML lors de la conversion d’un fichier XLSX en HTML avec Aspose.Cells.
+
+### [Comment intégrer des polices lors de l'exportation d'Excel vers HTML – Guide complet C#](./how-to-embed-fonts-when-exporting-excel-to-html-complete-c-guide/)
+Découvrez comment intégrer des polices lors de l'exportation d'Excel vers HTML avec Aspose.Cells pour .NET, guide complet en C# étape par étape.
+
+### [Comment intégrer des polices lors de l'exportation d'Excel vers HTML avec C#](./how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
+Apprenez à intégrer des polices lors de l'exportation d'Excel vers HTML avec C# en utilisant Aspose.Cells pour .NET.
+
+### [Comment intégrer des polices lors de l'enregistrement d'Excel en HTML avec C#](./how-to-embed-fonts-when-saving-excel-to-html-with-c/)
+Apprenez à intégrer des polices lors de l'enregistrement d'un classeur Excel en HTML avec C# en utilisant Aspose.Cells pour .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

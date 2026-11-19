@@ -73,6 +73,7 @@ Erfahren Sie, wie Sie eine Arbeitsmappe mit Aspose.Cells als CSV speichern und d
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Arbeitsmappen als CSV speichern und dabei benutzerdefinierte Formatierungen anwenden.
 ### [Arbeitsmappe als CSV in C# speichern – Vollständiger Programmierleitfaden](./save-workbook-as-csv-in-c-complete-programming-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Arbeitsmappen vollständig als CSV-Dateien speichern – Schritt für Schritt Anleitung.
+### [Arbeitsmappe als CSV in C# speichern – Schritt‑für‑Schritt‑Leitfaden](./how-to-save-workbook-as-csv-in-c-step-by-step-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -103,6 +103,12 @@ Tanuld meg, hogyan alkalmazz egyéni számformátumot Excel fájlokban C#-ban az
 ### [Hogyan használjuk a japán naptár CultureInfo-t C#-ban dátumok írásához Excelben](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
 Tanuld meg, hogyan írj dátumokat Excelbe a japán naptár CultureInfo használatával C#-ban az Aspose.Cells segítségével.
 
+### [Pénznemformátum beállítása adat importálásakor Excelbe C#-ban](./set-currency-format-while-importing-data-into-excel-using-c/)
+Tanuld meg, hogyan állíthat be pénznemformátumot az Excel-be importált adatoknál C#-ban az Aspose.Cells segítségével.
+
+### [Cellaszám formátum beállítása és japán dátumok konvertálása C#-ban](./set-cell-number-format-and-convert-japanese-dates-in-c/)
+Tanuld meg, hogyan állíthatsz be számformátumot a cellákban, és konvertálhatod a japán dátumokat C#-ban az Aspose.Cells segítségével.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

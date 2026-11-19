@@ -29,6 +29,9 @@ Hãy nghĩ về việc tổ chức một bữa tiệc—bạn cần biết có b
 
 
 ## Hướng dẫn xử lý tệp CSV
+### [How to save workbook as CSV in C# – step‑by‑step guide](./how-to-save-workbook-as-csv-in-c-step-by-step-guide/)
+
+
 ### [Mở tệp CSV](./csv-file-opening-csv-files/)
 Tìm hiểu cách mở tệp CSV bằng Aspose.Cells cho .NET với hướng dẫn từng bước toàn diện của chúng tôi. Làm chủ thao tác dữ liệu.
 ### [Mở tệp CSV bằng Preferred Parser](./csv-file-opening-csv-files-with-preferred-parser/)

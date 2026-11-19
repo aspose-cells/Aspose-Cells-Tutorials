@@ -129,9 +129,11 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 
 ### [Πώς να δημιουργήσετε βιβλίο εργασίας με Έξυπνους Δείκτες – Οδηγός Aspose.Cells](./how-to-create-workbook-with-smart-markers-aspose-cells-guide/)
 
-### [Δημιουργία συλλογής έξυπνων δεικτών – Πλήρης οδηγός C#](./create-smart-marker-collection-complete-c-guide/)
+### [Πώς να επαναλάβετε φύλλο εργασίας στο Excel με SmartMarkerProcessor](./how-to-repeat-worksheet-in-excel-with-smartmarkerprocessor/)
 
-### [Δημιουργία συλλογής έξυπνων δεικτών σε C# – Πλήρης οδηγός](./create-smart-marker-collection-in-c-complete-guide/)
+### [Δημιουργία βιβλίου εργασίας με Έξυπνους Δείκτες – Πλήρης οδηγός C#](./create-smart-marker-collection-complete-c-guide/)
+
+### [Δημιουργία βιβλίου εργασίας με Έξυπνους Δείκτες σε C# – Πλήρης οδηγός](./create-smart-marker-collection-in-c-complete-guide/)
 
 ### [Επανάληψη δεδομένων στο Excel – Συμπλήρωση προτύπου με SmartMarker](./repeat-data-in-excel-populate-template-with-smartmarker/)
 
@@ -196,6 +198,8 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 
 ### [Δημιουργία Excel από JSON με SmartMarker σε C#](./create-excel-from-json-with-smartmarker-in-c/)
 Μάθετε πώς να μετατρέψετε δεδομένα JSON σε αρχείο Excel χρησιμοποιώντας SmartMarker σε C#.
+
+### [Εισαγωγή placeholder έξυπνου δείκτη σε Excel με C#](./insert-smart-marker-placeholder-in-excel-with-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

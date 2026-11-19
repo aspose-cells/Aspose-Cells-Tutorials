@@ -39,6 +39,9 @@ Aprenda a dar formato a columnas de Excel usando Aspose.Cells para .NET en C#, p
 ### [Crear libro de Excel – Ajustar columnas y guardar como XLSX](./create-excel-workbook-wrap-columns-and-save-as-xlsx/)
 Aprenda a crear un libro de Excel, envolver columnas y guardarlo como archivo XLSX usando Aspose.Cells para .NET.
 
+### [Cómo usar wrapcols en C# para envolver datos en Excel](./how-to-use-wrapcols-in-c-to-wrap-data-in-excel/)
+Aprenda a usar la función wrapcols en C# para ajustar y envolver datos en hojas de Excel con Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

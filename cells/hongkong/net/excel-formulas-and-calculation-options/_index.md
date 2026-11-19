@@ -109,6 +109,8 @@ Excel 隨附大量內建函數，可執行各種計算和資料操作。了解�
 本教學說明如何在 C# 使用 WRAPCOLS 重新塑形陣列為矩陣，並將工作簿儲存。
 ### [如何在 C# 中建立 Excel 工作簿並設定公式](./how-to-create-excel-workbook-in-c-and-set-formulas/)
 了解如何使用 Aspose.Cells for .NET 在 C# 中建立 Excel 工作簿並設定公式，以自動化資料處理。
+### [使用變數評估具有動態求和範圍的 Excel 公式](./evaluate-excel-formula-with-a-dynamic-sum-range-using-variab/)
+透過本指南了解如何使用變數在 Excel 中動態設定求和範圍並評估公式。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

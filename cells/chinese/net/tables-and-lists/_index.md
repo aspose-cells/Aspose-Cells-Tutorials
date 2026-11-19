@@ -76,6 +76,9 @@ Aspose.Cells for .NET 最强大的功能之一就是能够轻松读取和写入�
 
 ### [如何在 C# 中删除 Excel 表格行并更改其名称](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
 
+### [使用 C# 从 Excel 中删除表格 – 步骤指南](./how-to-delete-table-from-excel-using-c-step-by-step-guide/)
+通过本分步指南，学习如何使用 C# 从 Excel 中删除表格，实现高效的数据管理。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

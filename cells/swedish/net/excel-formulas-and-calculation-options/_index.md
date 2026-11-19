@@ -60,6 +60,8 @@ Lär dig hur du lägger till celler i Excels formelövervakningsfönster med Asp
 Automatisera dina Excel-uppgifter med Aspose.Cells för .NET. Lär dig beräkna formler programmatiskt i den här omfattande handledningen.
 ### [Beräkna formler en gång programmatiskt i Excel](./calculating-formulas-once/)
 Lär dig hur du beräknar Excel-formler programmatiskt med Aspose.Cells för .NET i den här steg-för-steg-handledningen. Förbättra dina kunskaper inom Excel-automatisering.
+### [Utvärdera Excel-formel med ett dynamiskt sumområde med variabler](./evaluate-excel-formula-with-a-dynamic-sum-range-using-variab/)
+Lär dig hur du beräknar en Excel-formel där summaintervallet bestäms dynamiskt med variabler i Aspose.Cells för .NET.
 ### [Programmatiskt identifiera cirkulär referens i Excel](./detecting-circular-reference/)
 Identifiera enkelt cirkulära referenser i Excel med Aspose.Cells för .NET. Följ vår steg-för-steg-guide för att säkerställa korrekta beräkningar i dina kalkylblad.
 ### [Direkt beräkningsformel i Excel programmatiskt](./direct-calculation-formula/)

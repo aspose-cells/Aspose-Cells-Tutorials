@@ -86,6 +86,9 @@ Excel में एरे को विस्तारित करके टे
 ### [टेम्पलेट से Excel बनाएं और दोहराए जाने वाले शीट्स उत्पन्न करें](./how-to-create-excel-from-template-and-generate-repeated-shee)
 टेम्पलेट का उपयोग करके Excel फ़ाइल बनाना और कई शीट्स को दोहराकर जोड़ना सीखें।
 
+### [C# और Aspose.Cells के साथ टेम्पलेट से Excel उत्पन्न करें](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
+C# में Aspose.Cells का उपयोग करके टेम्पलेट से Excel फ़ाइल बनाने की चरण‑दर‑चरण प्रक्रिया सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

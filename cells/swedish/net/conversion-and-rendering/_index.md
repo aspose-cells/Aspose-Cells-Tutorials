@@ -83,6 +83,8 @@ Lär dig hur du konverterar DOCX till HTML och bäddar in alla teckensnitt för 
 Lär dig hur du bäddar in teckensnitt från ett DOCX-dokument i HTML med Aspose.Words för .NET i en steg-för-steg-guide.
 ### [Hur man konverterar JSON till Excel i C# med en enda kommaseparerad cell](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
 Lär dig hur du med C# konverterar JSON till ett Excel-ark med en enda kommaseparerad cell.
+### [Hur du skapar Excel från Markdown i C# – steg‑för‑steg‑guide](./how-to-create-excel-from-markdown-in-c-step-by-step-guide/)
+Lär dig hur du med C# skapar en Excel-arbetsbok från Markdown-filer i en detaljerad steg‑för‑steg‑guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

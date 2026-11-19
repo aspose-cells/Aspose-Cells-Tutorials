@@ -108,6 +108,8 @@
 تعلم تطبيق دالة WRAPCOLS في C# لتحويل المصفوفات إلى مصفوفات ثنائية الأبعاد وحفظ المصنف باستخدام Aspose.Cells.
 ### [كيفية إنشاء مصنف Excel في C# وتعيين الصيغ](./how-to-create-excel-workbook-in-c-and-set-formulas/)
 تعلم خطوة بخطوة إنشاء مصنف Excel في C# وتعيين الصيغ باستخدام Aspose.Cells.
+### [تقييم صيغة Excel بنطاق جمع ديناميكي باستخدام المتغيرات](./evaluate-excel-formula-with-a-dynamic-sum-range-using-variab/)
+تعلم كيفية تقييم صيغة Excel باستخدام نطاق جمع متغيّر يتم تحديده عبر المتغيرات في Aspose.Cells لـ .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

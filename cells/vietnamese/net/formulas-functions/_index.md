@@ -105,6 +105,9 @@ Tìm hiểu cách chỉ định ngôn ngữ cho tệp Excel của bạn bằng A
 
 ### [Cách tính Cotangent trong Excel bằng C# – Tạo Workbook, Sử dụng EXPAND và Lưu](./how-to-calculate-cotangent-in-excel-with-c-create-workbook-u/)
 
+### [Cách tính Cotangent trong C# bằng hàm EXPAND](./how-to-calculate-cotangent-in-c-using-the-expand-function)
+Hướng dẫn tính giá trị cotangent trong Excel bằng C# sử dụng hàm EXPAND của Aspose.Cells.
+
 ### [Cách sử dụng Lambda trong C# với công thức Excel – Hướng dẫn toàn diện](./how-to-use-lambda-in-c-with-excel-formulas-complete-guide/)
 ### [Cách sử dụng WRAPCOLS trong C# – Tạo Workbook Excel với các hàm Wrap](./how-to-use-wrapcols-in-c-create-excel-workbook-with-wrap-fun/)
 

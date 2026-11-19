@@ -198,6 +198,10 @@ Smart Markers kullanarak şablonları doldurup master-detail ilişkili Excel rap
 
 ### [Excel Şablonları için C#'ta Çalışma Sayfası Akıllı İşaretleyicilerini Genişletme](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
 
+### [C# ile Excel'de Akıllı İşaretçi Yer Tutucusu Ekleme](./insert-smart-marker-placeholder-in-excel-with-c/)
+
+### [SmartMarkerProcessor ile Excel'de Çalışma Sayfasını Tekrarlama](./how-to-repeat-worksheet-in-excel-with-smartmarkerprocessor/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

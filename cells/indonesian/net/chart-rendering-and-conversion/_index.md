@@ -50,6 +50,8 @@ Pelajari cara mengekspor bagan Excel ke PowerPoint menggunakan C# dengan contoh 
 Pelajari cara mengekspor bagan Excel menjadi file PNG dan mengonversinya ke HTML menggunakan Aspose.Cells dalam panduan langkah demi langkah.
 ### [Ekspor Bagan Excel ke PowerPoint dengan C# – panduan lengkap Aspose.Cells](./export-excel-chart-to-powerpoint-with-c-complete-aspose-cell/)
 Pelajari cara mengekspor bagan Excel ke presentasi PowerPoint menggunakan C# dengan Aspose.Cells secara lengkap.
+### [Cara mengekspor bagan Excel sebagai gambar PNG dengan C#](./how-to-export-excel-chart-as-a-png-image-with-c/)
+Pelajari cara mengekspor bagan Excel menjadi file PNG menggunakan C# dengan Aspose.Cells dalam panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

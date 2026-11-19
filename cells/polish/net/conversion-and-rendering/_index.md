@@ -86,6 +86,9 @@ Dowiedz się, jak w prosty sposób osadzić czcionki z dokumentu DOCX w HTML, ab
 ### [Jak przekonwertować JSON do Excela w C# przy użyciu jednej komórki z przecinkami](./how-to-convert-json-to-excel-in-c-with-a-single-comma-separa/)
 Dowiedz się, jak w C# zamienić dane JSON w arkusz Excel, wykorzystując jedną komórkę z wartościami oddzielonymi przecinkami.
 
+### [Jak utworzyć Excel z Markdown w C# – przewodnik krok po kroku](./how-to-create-excel-from-markdown-in-c-step-by-step-guide/)
+Dowiedz się, jak w C# przekształcić plik Markdown w arkusz Excel przy użyciu Aspose.Cells, krok po kroku.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

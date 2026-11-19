@@ -50,6 +50,8 @@ Leer hoe u Markdown-bestanden kunt importeren en weergeven in Excel met Aspose.C
 Leer hoe u met Aspose.Cells een Excel-werkblad als PNG-afbeelding opslaat via een volledige C#-handleiding.
 ### [Markdown naar Excel converteren met C# – Stapsgewijze handleiding](./convert-markdown-to-excel-with-c-step-by-step-guide/)
 Leer hoe u met Aspose.Cells en C# Markdown-bestanden naar Excel converteert in een stapsgewijze handleiding.
+### [Hoe een Excel-bestand maken vanuit Markdown in C# – stapsgewijze handleiding](./how-to-create-excel-from-markdown-in-c-step-by-step-guide/)
+Leer hoe u met Aspose.Cells een Excel-bestand maakt vanuit een Markdown-bestand in C# via een volledige stapsgewijze handleiding.
 ### [Docx naar SVG converteren – Volledige gids voor het opslaan van Word als SVG](./convert-docx-to-svg-full-guide-for-saving-word-as-svg/)
 Leer hoe u Word-documenten naar SVG converteert met Aspose.Words voor .NET in deze stapsgewijze volledige gids.
 ### [Lettertypen insluiten in HTML – Volledige gids voor .NET-ontwikkelaars](./embed-fonts-in-html-complete-guide-for-net-developers/)

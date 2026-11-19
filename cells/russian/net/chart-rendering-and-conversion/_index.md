@@ -52,6 +52,8 @@
 Узнайте, как вставить диаграмму Excel в документ Word с помощью Aspose.Cells.
 ### [Экспорт диаграмм Excel в PowerPoint с C#](./how-to-export-excel-charts-to-powerpoint-using-c/)
 Узнайте, как экспортировать диаграммы Excel в презентацию PowerPoint с помощью C# и Aspose.Cells.
+### [Как экспортировать диаграмму Excel как PNG‑изображение с C#](./how-to-export-excel-chart-as-a-png-image-with-c/)
+Узнайте, как экспортировать диаграмму Excel в PNG‑изображение с помощью C# и Aspose.Cells, следуя пошаговому руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

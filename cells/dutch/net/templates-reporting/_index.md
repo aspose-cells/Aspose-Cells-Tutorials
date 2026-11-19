@@ -86,6 +86,9 @@ Leer hoe u een dataset omzet naar Excel en een sjabloon automatisch vult.
 ### [Hoe Excel te maken vanuit sjabloon en herhaalde bladen genereren](./how-to-create-excel-from-template-and-generate-repeated-shee)
 Leer hoe u een Excel‑bestand maakt vanuit een sjabloon en automatisch meerdere bladen genereert.
 
+### [Hoe Excel te genereren vanuit sjabloon met C# en Aspose.Cells](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
+Leer hoe u met C# en Aspose.Cells een Excel‑bestand maakt op basis van een sjabloon, inclusief gegevensbinding en opslaan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

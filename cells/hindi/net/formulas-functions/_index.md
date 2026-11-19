@@ -114,6 +114,8 @@ C# में Aspose.Cells का उपयोग करके Excel में �
 
 ### [C# में एरे फ़ॉर्मूला लिखें – पूर्ण प्रोग्रामिंग गाइड](./write-array-formula-in-c-complete-programming-guide/)
 
+### [EXPAND फ़ंक्शन का उपयोग करके C# में कोटैन्जेंट कैसे गणना करें](./how-to-calculate-cotangent-in-c-using-the-expand-function)
+
 ## एक्सेल फॉर्मूला प्रकारों को समझना
 
 एक्सेल सूत्र विभिन्न रूपों में आते हैं, जिनमें से प्रत्येक में अद्वितीय विशेषताएं होती हैं जिन्हें Aspose.Cells प्रबंधित कर सकता है:
@@ -172,7 +174,7 @@ C# में Aspose.Cells का उपयोग करके Excel में �
 4. **प्रलेखन**: जटिल सूत्र संरचनाओं का स्पष्ट दस्तावेज़ीकरण बनाए रखें
 
 .NET के लिए Aspose.Cells के साथ इन सूत्र क्षमताओं में महारत हासिल करके, आप अपनी स्प्रेडशीट में परिष्कृत गणना इंजन बना सकते हैं जो Excel स्थापना की आवश्यकता के बिना सटीक, गतिशील परिणाम प्रदान करते हैं।
-### [C# में WRAPCOLS का उपयोग कैसे करें – Excel में एक एरे को मैट्रिक्स में पुनः आकार दें](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
+### [C# में WRAPCOLS का उपयोग कैसे करें – एरे को मैट्रिक्स में पुनः आकार दें](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

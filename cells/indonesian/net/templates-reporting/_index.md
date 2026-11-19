@@ -73,6 +73,8 @@ Pelajari cara mengekspor data ke file Excel menggunakan templat C# dengan Aspose
 
 ### [Cara membuat Excel dari templat dan menghasilkan lembar berulang](./how-to-create-excel-from-template-and-generate-repeated-shee)
 
+### [Cara menghasilkan Excel dari template dengan C# dan Aspose.Cells](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -60,6 +60,8 @@ Aspose.Cells for .NET を使用して Excel の数式ウォッチウィンドウ
 Aspose.Cells for .NET で Excel タスクを自動化しましょう。この包括的なチュートリアルで、プログラムによる数式の計算方法を学びましょう。
 ### [Excelで数式をプログラム的に一度だけ計算する](./calculating-formulas-once/)
 このステップバイステップのチュートリアルでは、Aspose.Cells for .NET を使用して Excel の数式をプログラムで計算する方法を学びます。Excel の自動化スキルを向上させましょう。
+### [変数を使用した動的な合計範囲で Excel の数式を評価する](./evaluate-excel-formula-with-a-dynamic-sum-range-using-variab/)
+変数で合計範囲を動的に設定し、Excel の数式を評価する方法をステップバイステップで解説します。
 ### [Excel で循環参照をプログラム的に検出する](./detecting-circular-reference/)
 Aspose.Cells for .NETを使えば、Excelの循環参照を簡単に検出できます。ステップバイステップのガイドに従って、スプレッドシートで正確な計算を実行しましょう。
 ### [Excelでプログラム的に直接計算する式](./direct-calculation-formula/)

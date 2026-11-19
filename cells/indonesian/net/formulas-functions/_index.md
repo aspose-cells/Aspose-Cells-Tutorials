@@ -111,6 +111,8 @@ Pelajari cara menghitung nilai kotangen di Excel menggunakan C#, membuat workboo
 ### [Cara Menggunakan WRAPCOLS di C# – Mengubah Array Menjadi Matriks di Excel](./how-to-use-wrapcols-in-c-reshape-an-array-to-a-matrix-in-exc/)
 Pelajari cara menggunakan fungsi WRAPCOLS di C# untuk mengubah data array menjadi matriks dalam lembar kerja Excel dengan Aspose.Cells.
 
+### [Cara Menghitung Kotangen di C# menggunakan fungsi EXPAND](./how-to-calculate-cotangent-in-c-using-the-expand-function)
+
 ### [Memperbarui Rumus Excel Power Query dengan Aspose.Cells .NET](./update-power-query-formulas-aspose-cells-net)
 Pelajari cara memperbarui rumus Power Query secara terprogram di buku kerja Excel menggunakan Aspose.Cells untuk .NET. Kelola sumber data utama untuk pelaporan dinamis.
 

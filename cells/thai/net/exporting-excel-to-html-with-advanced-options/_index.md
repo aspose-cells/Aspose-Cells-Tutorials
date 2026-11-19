@@ -64,8 +64,10 @@
 เรียนรู้วิธีฝังฟอนต์ใน HTML ขณะส่งออก Excel เป็น HTML ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือทีละขั้นตอนนี้
 ### [วิธีฝังฟอนต์เมื่อส่งออก Excel ไปยัง HTML ด้วย C#](./how-to-embed-fonts-when-exporting-excel-to-html-with-c/)
 เรียนรู้วิธีฝังฟอนต์ใน HTML ขณะส่งออก Excel ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET
+### [วิธีฝังฟอนต์เมื่อบันทึก Excel ไปยัง HTML ด้วย C#](./how-to-embed-fonts-when-saving-excel-to-html-with-c/)
+เรียนรู้วิธีฝังฟอนต์ในไฟล์ HTML ขณะบันทึก Excel เป็น HTML ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET
 ### [วิธีฝังฟอนต์เมื่อแปลง Excel เป็น HTML ด้วย Aspose.Cells](./how-to-embed-fonts-when-converting-excel-to-html-with-aspose/)
-เรียนรู้วิธีฝังฟอนต์ในไฟล์ HTML ขณะแปลง Excel ด้วย Aspose.Cells อย่างละเอียด
+เรียนรู้วิธีฝังฟอนต์ใน HTML ขณะแปลง Excel ด้วย Aspose.Cells อย่างละเอียด
 ### [วิธีฝังฟอนต์ใน HTML เมื่อคุณแปลงไฟล์ XLSX เป็น HTML ด้วย Aspose.Cells](./how-to-embed-fonts-html-when-you-convert-an-xlsx-to-html-wit/)
 เรียนรู้วิธีฝังฟอนต์ใน HTML ขณะแปลงไฟล์ XLSX เป็น HTML ด้วย Aspose.Cells สำหรับ .NET ในคู่มือทีละขั้นตอน
 ### [การแยกสไตล์ที่ไม่ได้ใช้ขณะส่งออก Excel ไปยัง HTML](./excluding-unused-styles/)
@@ -142,6 +144,8 @@
 เรียนรู้วิธีฝังฟอนต์ใน HTML ขณะบันทึกไฟล์เวิร์กบุ๊กด้วย Aspose.Cells สำหรับ .NET
 ### [วิธีใช้ wrapcols และฝังฟอนต์เมื่อบันทึก Excel เป็น HTML](./how-to-use-wrapcols-and-embed-fonts-saving-excel-to-html/)
 เรียนรู้วิธีใช้ wrapcols และฝังฟอนต์ขณะบันทึกไฟล์ Excel เป็น HTML ด้วย Aspose.Cells สำหรับ .NET
+
+### [วิธีแปลง Excel เป็น HTML พร้อมการจัดรูปแบบเต็มใน C#](./how-to-convert-excel-to-html-with-full-formatting-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -73,6 +73,8 @@ Aspose.Cells for .NET 最強大的功能之一是它能夠輕鬆讀取和寫入�
 本指南說明如何使用 Aspose.Words for .NET 在 Word 文件中一次刪除多個表格列，步驟簡明易懂。
 ### [如何在 C# 中刪除 Excel 表格的列並更改其名稱](./how-to-delete-rows-from-an-excel-table-and-change-its-name-i/)
 本完整指南說明如何使用 Aspose.Cells for .NET 在 C# 中刪除 Excel 表格的列並重新命名表格。
+### [使用 C# 刪除 Excel 表格 – 步驟指南](./how-to-delete-table-from-excel-using-c-step-by-step-guide/)
+透過本詳細步驟，學會使用 Aspose.Cells for .NET 與 C# 從 Excel 中刪除表格。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -35,6 +35,8 @@
 تعرّف على كيفية تطبيق التنسيق على صف في Excel برمجيًا باستخدام Aspose.Cells لـ .NET. يغطي هذا الدليل المفصل خطوة بخطوة كل شيء، من المحاذاة إلى الحدود.
 ### [كيفية تنسيق أعمدة Excel في C# – دليل شامل](./how-to-format-excel-columns-in-c-complete-guide/)
 تعرّف على كيفية تنسيق أعمدة Excel باستخدام C# مع Aspose.Cells لـ .NET في هذا الدليل الشامل.
+### [كيفية استخدام wrapcols في C# لتغليف البيانات في Excel](./how-to-use-wrapcols-in-c-to-wrap-data-in-excel/)
+تعرف على كيفية استخدام خاصية wrapcols في C# لتغليف البيانات داخل خلايا Excel باستخدام Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

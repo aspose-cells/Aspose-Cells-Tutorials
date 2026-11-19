@@ -83,6 +83,9 @@ Scopri come trasformare un dataset in un file Excel e riempire un modello Excel 
 
 ### [Come creare Excel da modello e generare fogli ripetuti](./how-to-create-excel-from-template-and-generate-repeated-shee)
 
+### [Come generare Excel da modello con C# e Aspose.Cells](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
+Scopri come creare file Excel da un modello predefinito usando C# e Aspose.Cells, passo dopo passo.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

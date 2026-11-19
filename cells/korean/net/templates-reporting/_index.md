@@ -75,6 +75,9 @@ Excel에서 배열을 확장하고 템플릿에 데이터를 자동으로 채우
 
 ### [템플릿에서 Excel을 생성하고 반복 시트를 만들기](./how-to-create-excel-from-template-and-generate-repeated-shee)
 
+### [C#와 Aspose.Cells를 사용하여 템플릿에서 Excel 생성하는 방법](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
+C#와 Aspose.Cells를 활용해 템플릿 기반 Excel 파일을 손쉽게 생성하는 단계별 가이드.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

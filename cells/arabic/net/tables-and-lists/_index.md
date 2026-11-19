@@ -72,6 +72,8 @@
 تعلم كيفية تغيير اسم جدول Excel باستخدام C# خطوة بخطوة مع Aspose.Cells.
 ### [حذف عدة صفوف في Word – دليل كامل لإزالة صفوف الجدول](./delete-multiple-rows-word-complete-guide-to-removing-table-r/)
 تعلم كيفية حذف صفوف متعددة من جدول Word باستخدام Aspose.Words للـ .NET خطوة بخطوة.
+### [كيفية حذف جدول من Excel باستخدام C# – دليل خطوة بخطوة](./how-to-delete-table-from-excel-using-c-step-by-step-guide/)
+تعلم خطوة بخطوة كيفية حذف جدول من ملف Excel باستخدام C# مع Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

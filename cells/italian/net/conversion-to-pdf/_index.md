@@ -36,7 +36,6 @@ Converti facilmente i fogli di calcolo Excel in PDF con Aspose.Cells per .NET! S
 Scopri come convertire grafici Excel in PDF in .NET usando Aspose.Cells con questa guida passo passo! Perfetta per programmatori di tutti i livelli.
 ### [Come impostare le opzioni PDF in C# – Esporta Excel in PDF con pieno controllo](./how-to-set-pdf-options-in-c-export-excel-to-pdf-with-full-co/)
 Impara a configurare le opzioni PDF in C# per esportare file Excel in PDF con controllo completo su layout e qualità.
-
 ### [Crea PDF da Excel in C# – Guida passo‑passo](./create-pdf-from-excel-in-c-step-by-step-guide/)
 Crea PDF da file Excel in C# con Aspose.Cells seguendo questa guida dettagliata passo passo.
 ### [Esporta cartella di lavoro in PDF – Guida completa C#](./export-workbook-to-pdf-complete-c-guide/)
@@ -53,6 +52,8 @@ Impara a salvare una cartella di lavoro Excel in PDF con Aspose.Cells, seguendo 
 Impara a incorporare i caratteri nei PDF salvando la cartella di lavoro con Aspose.Cells in C#.
 ### [Come incorporare i font in PDF con C# – Guida completa](./how-to-embed-fonts-in-pdf-with-c-complete-guide/)
 Impara a incorporare i font nei PDF usando C# con Aspose.Cells per garantire la corretta visualizzazione del testo su tutti i dispositivi.
+### [Come incorporare i font durante l'esportazione di Excel in PDF con C#](./how-to-embed-fonts-when-exporting-excel-to-pdf-with-c/)
+Scopri come incorporare i caratteri nei PDF esportati da Excel usando C# con Aspose.Cells.
 ### [Come inserire Unicode in Excel e salvare come PDF](./how-to-insert-unicode-in-excel-and-save-as-pdf/)
 Scopri come inserire caratteri Unicode in Excel e convertirli in PDF con Aspose.Cells per .NET.
 ### [Come arrotondare i numeri durante la conversione di Excel in PDF – Guida completa C#](./how-to-round-numbers-when-converting-excel-to-pdf-complete-c/)

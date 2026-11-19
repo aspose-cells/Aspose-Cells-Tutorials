@@ -113,7 +113,7 @@ Ismerje meg, hogyan konfigurálhatja a SmartMarkerOptions ArrayAsSingle beállí
 Ismerje meg, hogyan helyettesítheti a változókat JSON-ban SmartMarkerrel, hogy dinamikus adatkitöltést érjen el.
 
 ### [Excel sablon feltöltése – Adatok kitöltése SmartMarkerrel](./populate-excel-template-fill-excel-data-via-smartmarker/)
-Ismerje meg, hogyan tölthet fel egy Excel sablont adatokal SmartMarker használatával lépésről lépésre útmutatóval.
+Ismerje meg, hogyan tölthet fel egy Excel sablont adatokal SmartMarker használatával lépésről‑lépésre útmutatóval.
 
 ### [Smart marker adatok létrehozása és Excel sablon kitöltése](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
 Ismerje meg, hogyan hozhat létre Smart Marker adatot, és töltheti fel az Excel sablont adatokkal.
@@ -194,6 +194,7 @@ Ismerje meg, hogyan hozhat létre Excel jelentéslistát Aspose.Cells intelligen
 ### [Mester‑Detail Excel útmutató – sablonok feltöltése Smart Markerekkel](./master-detail-excel-guide-populate-templates-with-smart-mark/)
 ### [Munkalapok ismétlése – Teljes útmutató az Excel automatizáláshoz](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 Ismerje meg, hogyan ismételhet munkalapokat automatikusan az Aspose.Cells segítségével, hogy hatékonyan generáljon több hasonló Excel-állományt.
+### [Munkalap ismétlése Excelben SmartMarkerProcessorrel](./how-to-repeat-worksheet-in-excel-with-smartmarkerprocessor/)
 
 ### [Excel munkafüzet létrehozása programozott módon Smart Markerekkel](./create-excel-workbook-programmatically-using-smart-markers/)
 
@@ -202,6 +203,8 @@ Ismerje meg, hogyan ismételhet munkalapokat automatikusan az Aspose.Cells segí
 ### [Hogyan hozzunk létre Excel munkafüzetet intelligens jelölőkkel egy dinamikus Excel jelentéshez](./how-to-create-excel-workbook-with-smart-markers-for-a-dynami/)
 
 ### [Munkalap kiterjesztése intelligens jelölőkkel C#-ban Excel sablonokhoz](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
+
+### [Smart marker helyőrző beszúrása Excelben C#-val](./insert-smart-marker-placeholder-in-excel-with-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

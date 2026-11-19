@@ -50,7 +50,7 @@ C# में Aspose.Cells का उपयोग करके Excel में da
 C# का उपयोग करके Excel में तिथियों को पार्स करने की पूरी प्रक्रिया सीखें, कोड उदाहरण और सर्वोत्तम प्रथाओं के साथ।
 ### [कस्टम फ़ॉर्मेट के साथ Excel वर्कबुक बनाएं – C# गाइड](./create-excel-workbook-with-custom-format-c-guide/)
 इस गाइड में .NET के लिए Aspose.Cells का उपयोग करके कस्टम फ़ॉर्मेट के साथ Excel वर्कबुक बनाने के चरण देखें।
-### [C# में Aspose.Cells के साथ जापानी युग तिथि को पार्स करें – पूर्ण गाइड](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
+### [C# के साथ Excel में जापानी युग तिथि को पार्स करें – पूर्ण गाइड](./parse-japanese-era-date-in-c-with-aspose-cells-full-guide/)
 इस ट्यूटोरियल में सीखें कि .NET के लिए Aspose.Cells का उपयोग करके जापानी युग तिथि को C# में कैसे पार्स करें।
 ### [C# में कस्टम नंबर फ़ॉर्मेटिंग के साथ Excel वर्कबुक बनाएं](./how-to-create-excel-workbook-c-with-custom-number-formatting/)
 C# में कस्टम नंबर फ़ॉर्मेटिंग के साथ Excel वर्कबुक बनाने की विस्तृत गाइड।
@@ -97,6 +97,9 @@ C# का उपयोग करके Excel में तिथि स्वर
 C# के साथ Aspose.Cells का उपयोग करके Excel में कस्टम नंबर फ़ॉर्मेट लागू करने की पूरी गाइड।
 ### [C# में जापानी कैलेंडर CultureInfo का उपयोग करके Excel में तिथियां लिखना](./how-to-use-japanese-calendar-cultureinfo-in-c-to-write-dates/)
 C# और Aspose.Cells के साथ जापानी कैलेंडर CultureInfo का उपयोग करके Excel में तिथियां लिखने की पूरी प्रक्रिया सीखें।
+### [C# का उपयोग करके Excel में डेटा आयात करते समय मुद्रा फ़ॉर्मेट सेट करें](./set-currency-format-while-importing-data-into-excel-using-c/)
+
+### [C# में सेल नंबर फ़ॉर्मेट सेट करें और जापानी तिथियों को परिवर्तित करें](./set-cell-number-format-and-convert-japanese-dates-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

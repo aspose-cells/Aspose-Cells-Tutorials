@@ -75,7 +75,7 @@ Erweitern Sie Ihre Excel-Dateien mit intelligenten Markierungen, um leere Werte 
 ### [Gruppieren Sie Daten mit Smart Markers in Aspose.Cells .NET](./group-data-smart-markers/)
 Gruppieren Sie Daten mühelos mit intelligenten Markierungen in Aspose.Cells für .NET. Folgen Sie unserer umfassenden Anleitung für Schritt‑für‑Schritt‑Anleitungen.
 ### [Bilder mit Bildmarkierungen in Aspose.Cells einfügen](./insert-images-smart-markers/)
-Entdecken Sie mit unserer Schritt‑für‑Schritt‑Anleitung, wie Sie Bilder mithilfe von Bildmarkierungen in Aspose.Cells für .NET einfügen! Optimieren Sie Ihre Excel-Berichte effektiv mit visuellen Elementen.
+Entdecken Sie mit unserer Schritt‑für‑Schritt‑Anleitung, wie Sie Bilder mithilfe von Bildmarkierungen in Aspose.Cells für .NET einfügen! Optimieren Sie Ihre Excel‑Berichte effektiv mit visuellen Elementen.
 ### [Dynamische Excel-Tabelle erstellen – Smart Marker‑Leitfaden](./create-dynamic-excel-table-smart-marker-guide/)
 Erfahren Sie, wie Sie mit Smart Markers in Aspose.Cells dynamische Excel‑Tabellen erstellen und Daten automatisch einfügen.
 
@@ -202,15 +202,6 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Daten aus mehreren Quellen zusa
 ### [Exportieren von Daten nach Excel – Vollständige Anleitung zum Befüllen einer Excel‑Vorlage mit Smart Markern](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
 Erfahren Sie, wie Sie mit Aspose.Cells für .NET Daten aus mehreren Quellen zusammenführen und mithilfe von Smart Markern dynamische Excel‑Berichte erstellen.
 
-### [Exportieren von Daten nach Excel – Vollständige Anleitung zum Befüllen einer Excel‑Vorlage mit Smart Markern](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
-Erfahren Sie, wie Sie mit Aspose.Cells für .NET Daten aus mehreren Quellen zusammenführen und mithilfe von Smart Markern dynamische Excel‑Berichte erstellen.
-
-### [Exportieren von Daten nach Excel – Vollständige Anleitung zum Befüllen einer Excel‑Vorlage mit Smart Markern](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
-Erfahren Sie, wie Sie mit Aspose.Cells für .NET Daten aus mehreren Quellen zusammenführen und mithilfe von Smart Markern dynamische Excel‑Berichte erstellen.
-
-### [Exportieren von Daten nach Excel – Vollständige Anleitung zum Befüllen einer Excel‑Vorlage mit Smart Markern](./export-data-to-excel-complete-guide-to-populate-excel-templa/)
-Erfahren Sie, wie Sie mit Aspose.Cells für .NET Daten aus mehreren Quellen zusammenführen und mithilfe von Smart Markern dynamische Excel‑Berichte erstellen.
-
 ### [Wie man Smart Marker-Daten erstellt und Excel-Vorlagendaten füllt](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
 Erfahren Sie, wie Sie Smart Marker-Daten erzeugen und damit Excel‑Vorlagen automatisch befüllen.
 
@@ -221,20 +212,16 @@ Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers Excel‑Dateien aus Modelle
 ### [Formel mit Smart Markers auswerten – Komplettanleitung](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
 ### [JSON nach Excel in C# importieren – Schritt‑für‑Schritt‑Anleitung](./import-json-to-excel-in-c-step-by-step-guide/)
 ### [Wie man eine Excel-Berichtsliste mit Aspose.Cells Smart Markers erstellt](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
-Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers eine Liste von Excel-Berichten automatisch generieren.
+Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers eine Liste von Excel‑Berichten automatisch generieren.
 ### [Master‑Detail‑Arbeitsmappe mit Aspose.Cells Smart Marker erstellen](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
 Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers eine Master‑Detail‑Arbeitsmappe erstellen, um hierarchische Daten automatisch zu füllen.
 ### [Master‑Detail‑Excel‑Leitfaden – Vorlagen mit Smart Markers füllen](./master-detail-excel-guide-populate-templates-with-smart-mark/)
 Erfahren Sie, wie Sie mit Smart Markers Vorlagen automatisch befüllen und Master‑Detail‑Berichte in Excel erstellen.
 ### [Wie man Arbeitsblätter wiederholt – Komplettanleitung für Excel-Automatisierung](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 Erfahren Sie, wie Sie Arbeitsblätter in Excel automatisch duplizieren und wiederholen, um Berichte effizient zu automatisieren.
-### [Excel‑Arbeitsmappe programmgesteuert mit C# erstellen](./how-to-create-excel-workbook-programmatically-with-c/)
-Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel‑Arbeitsmappen programmgesteuert erstellen und Daten dynamisch einfügen.
 
-### [Wie man eine Excel-Arbeitsmappe mit Smart Markern für einen dynamischen Excel-Bericht erstellt](./how-to-create-excel-workbook-with-smart-markers-for-a-dynami/)
-Erfahren Sie, wie Sie mit Aspose.Cells Smart Markers eine Excel‑Arbeitsmappe für dynamische Berichte programmatisch erstellen.
-
-### [Excel aus JSON mit SmartMarker in C# erstellen](./create-excel-from-json-with-smartmarker-in-c/)
+### [Wie man ein Arbeitsblatt in Excel mit SmartMarkerProcessor wiederholt](./how-to-repeat-worksheet-in-excel-with-smartmarkerprocessor/)
+Erfahren Sie, wie Sie mit dem SmartMarkerProcessor von Aspose.Cells Arbeitsblätter in Excel programmgesteuert duplizieren und wiederholen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
