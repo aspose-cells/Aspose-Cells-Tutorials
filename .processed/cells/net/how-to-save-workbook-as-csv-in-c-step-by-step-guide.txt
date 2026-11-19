@@ -1,0 +1,7 @@
+Title: How to save workbook as CSV in C# – step‑by‑step guide
+Slug: how-to-save-workbook-as-csv-in-c-step-by-step-guide
+Category: csv-file-handling
+ProcessedDate: 2026-11-19T12:20:49.179450
+SourceRepo: AI Search API
+Keywords: save workbook as csv, convert excel to csv, export excel to csv, export spreadsheet to csv, how to convert xlsx to csv
+PRNumber: 209
