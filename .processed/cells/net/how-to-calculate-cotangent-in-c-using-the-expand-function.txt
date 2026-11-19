@@ -1,0 +1,7 @@
+Title: How to calculate cotangent in C# using the EXPAND function
+Slug: how-to-calculate-cotangent-in-c-using-the-expand-function
+Category: formulas-functions
+ProcessedDate: 2026-11-19T12:21:12.013950
+SourceRepo: AI Search API
+Keywords: how to calculate cotangent, how to use expand, add formula to cell, evaluate all formulas, use expand function
+PRNumber: 209

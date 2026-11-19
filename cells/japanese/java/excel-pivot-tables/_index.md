@@ -58,6 +58,9 @@ Aspose.Cells を使用して Java でピボットテーブルをコピーし、�
 ### [Javaでピボットテーブルをコピーする方法 – 完全 Aspose.Cells ガイド](./how-to-copy-pivot-table-in-java-complete-aspose-cells-guide/)
 Aspose.Cells for Java を使用して、ピボットテーブルをコピーする手順とベストプラクティスを学びます。
 
+### [Javaで Aspose.Cells を使用してピボットテーブルをコピーする方法](./how-to-copy-pivot-table-in-java-with-aspose-cells/)
+Aspose.Cells を使い、Java でピボットテーブルをコピーし、データと書式を保持する手順を解説します。
+
 ### [JavaでAspose.Cellsを使用してピボットテーブルをコピーする方法 – ステップバイステップガイド](./how-to-copy-pivot-table-in-java-with-aspose-cells-step-by-st/)
 Aspose.Cells for Java を使い、ピボットテーブルをコピーする手順を詳細に解説します。
 

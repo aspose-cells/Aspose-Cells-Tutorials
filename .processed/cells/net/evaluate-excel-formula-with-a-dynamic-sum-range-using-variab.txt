@@ -1,0 +1,7 @@
+Title: Evaluate Excel formula with a dynamic sum range using variables
+Slug: evaluate-excel-formula-with-a-dynamic-sum-range-using-variab
+Category: excel-formulas-and-calculation-options
+ProcessedDate: 2026-11-19T12:21:20.173516
+SourceRepo: AI Search API
+Keywords: evaluate excel formula, dynamic sum range, automate sum formula, use variables formula, create dynamic range sum
+PRNumber: 209

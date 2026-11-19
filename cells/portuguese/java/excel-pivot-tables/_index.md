@@ -100,6 +100,10 @@ Aprenda a exportar a imagem de uma tabela dinâmica do Excel para PNG usando Asp
 Aprenda a criar uma nova pasta de trabalho e copiar tabelas dinâmicas usando Aspose.Cells para Java, com instruções detalhadas passo a passo.
 ### [Copiar Tabela Dinâmica em Java com Aspose.Cells – Guia Completo](./copy-pivot-table-in-java-with-aspose-cells-complete-guide/)
 Aprenda a copiar tabelas dinâmicas programaticamente usando Aspose.Cells para Java, com exemplos completos e passo a passo.
+
+### [Como copiar tabela dinâmica em Java com Aspose.Cells](./how-to-copy-pivot-table-in-java-with-aspose-cells/)
+Aprenda a copiar tabelas dinâmicas usando Aspose.Cells para Java, com instruções claras e exemplos de código.
+
 ### [Copiar tabela dinâmica em Java – guia passo a passo usando Aspose.Cells](./copy-pivot-table-in-java-step-by-step-guide-using-aspose-cel/)
 Aprenda a copiar tabelas dinâmicas no Aspose.Cells para Java com um guia detalhado passo a passo.
 ### [Como copiar tabela dinâmica no Aspose.Cells – copiar intervalo para a pasta de trabalho](./how-to-copy-pivot-in-aspose-cells-copy-range-to-workbook/)

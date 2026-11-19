@@ -1,0 +1,7 @@
+Title: Set currency format while importing data into Excel using C#
+Slug: set-currency-format-while-importing-data-into-excel-using-c
+Category: excel-custom-number-date-formatting
+ProcessedDate: 2026-11-19T12:20:44.004028
+SourceRepo: AI Search API
+Keywords: set currency format, how to set number format, assign number format, excel worksheet import, style excel columns
+PRNumber: 209

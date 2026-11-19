@@ -1,0 +1,7 @@
+Title: How to embed fonts when exporting Excel to PDF with C#
+Slug: how-to-embed-fonts-when-exporting-excel-to-pdf-with-c
+Category: conversion-to-pdf
+ProcessedDate: 2026-11-19T12:21:14.714961
+SourceRepo: AI Search API
+Keywords: how to embed fonts, export excel to pdf, save workbook as pdf, save excel as pdf, pdf export embedded fonts
+PRNumber: 209
