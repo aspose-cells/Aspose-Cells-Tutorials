@@ -150,7 +150,7 @@ Naucz się automatyzować stylizację w programie Excel za pomocą Aspose.Cells 
 Dowiedz się, jak wyodrębnić i zarządzać motywami z skoroszytów programu Excel przy użyciu Aspose.Cells for Java. Ten przewodnik obejmuje konfigurację, przykłady kodu i najlepsze praktyki.
 
 ### [Inicjalizacja skoroszytu programu Excel i stylizacja komórek za pomocą Aspose.Cells Java: kompleksowy przewodnik](./excel-workbook-initialization-cell-styling-aspose-cells-java/)
-Opanuj inicjowanie i stylizowanie skoroszytów programu Excel za pomocą Aspose.Cells dla języka Java. Ten przewodnik obejmuje konfigurację skoroszytu, modyfikację komórek i techniki stylizowania.
+Opanuj inicjowanie i stylizowanie skoroszytów programu Excel za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje konfigurację skoroszytu, modyfikację komórek i techniki stylizowania.
 
 ### [Opanuj stylizację skoroszytu w programie Excel z Aspose.Cells Java: kompleksowy przewodnik dla programistów](./excel-workbook-styling-aspose-cells-java/)
 Dowiedz się, jak usprawnić stylizację skoroszytu programu Excel i manipulację danymi za pomocą Aspose.Cells Java. Ten przewodnik obejmuje inicjalizację, techniki stylizacji i wydajne przetwarzanie danych.
@@ -263,15 +263,10 @@ Dowiedz się, jak programowo tworzyć skoroszyty Excel w Javie i stosować forma
 ### [Jak ograniczyć znaczące cyfry w programie Excel przy użyciu Javy — kompletny przewodnik](./how-to-limit-significant-digits-excel-using-java/)
 Dowiedz się, jak ograniczyć liczbę znaczących cyfr w komórkach Excela przy użyciu Aspose.Cells for Java.
 
-## Dodatkowe zasoby
+### [Jak zastosować niestandardowy format liczbowy w programie Excel przy użyciu Javy](./how-to-apply-a-custom-number-format-in-excel-with-java/)
+Dowiedz się, jak programowo ustawiać własne formaty liczb w arkuszach Excel przy użyciu Aspose.Cells for Java.
 
-- [Dokumentacja Aspose.Cells dla Java](https://docs.aspose.com/cells/java/)
-- [Aspose.Cells dla API Java Referencja](https://reference.aspose.com/cells/java/)
-- [Pobierz Aspose.Cells dla Java](https://releases.aspose.com/cells/java/)
-- [Bezpłatne wsparcie](https://forum.aspose.com/)
-- [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
-
-### [Jak utworzyć skoroszyt Excela z formatem waluty i pogrubioną czcionką w Javie](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+### [Jak utworzyć skorzyt Excela z formatem waluty i pogrubioną czcionką w Javie](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

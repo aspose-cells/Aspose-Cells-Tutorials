@@ -63,6 +63,9 @@ Ismerje meg, hogyan kezelheti az egyéni számformátumokat Java munkafüzetekbe
 ### [Egyéni számformátum beállítása Excelben Java-val – Teljes útmutató](./set-custom-number-format-in-excel-with-java-complete-guide/)
 Ismerd meg, hogyan állíthatsz be egyéni számformátumokat Excel-fájlokban Java segítségével, részletes kódpéldákkal és tippekkel.
 
+### [Egyéni számformátum alkalmazása Excelben Java-val](./how-to-apply-a-custom-number-format-in-excel-with-java/)
+Ismerd meg, hogyan állíthatsz be egyéni számformátumot Excel-fájlokban Java segítségével.
+
 ### [Adatmegjelenítés elsajátítása Excelben: Szám- és dátumformázás az Aspose.Cells for Java segítségével](./aspose-cells-java-data-formatting-excel/)
 Ismerje meg, hogyan alkalmazhat számformátumokat és egyéni dátumstílusokat az Aspose.Cells for Java használatával, javítva az adatok megjelenítését az Excel-táblázatokban.
 
@@ -85,7 +88,7 @@ Tanuld meg, hogyan lehet programozottan kinyerni és elemezni a ragyogás effekt
 Tanuld meg, hogyan állíthatod be az oszlopszélességet pixelben az Aspose.Cells for Java segítségével. Ez az útmutató bemutatja a telepítést, a kódpéldákat és a gyakorlati alkalmazásokat.
 
 ### [Betűméret beállítása Excelben az Aspose.Cells Java használatával - Átfogó útmutató](./aspose-cells-java-set-font-size-excel/)
-Tanuld meg, hogyan állíthatsz be betűméretet Excel fájlokban az Aspose.Cells for Java használatával ebben a lépésről lépésre szóló útmutatóban. Fejleszd dokumentumformázási készségeidet még ma!
+Tanuld meg, hogyan állíthatsz be betűméretet Excel fájlokban az Aspose.Cells for Java segítségével ebben a lépésről lépésre szóló útmutatóban. Fejleszd dokumentumformázási készségeidet még ma!
 
 ### [Aspose.Cells elsajátítása Java-ban: Haladó Excel stílus- és betűtípuskezelési útmutató](./aspose-cells-java-style-font-management/)
 Ismerje meg, hogyan kezelheti a stílusokat és betűtípusokat Excel-fájlokban az Aspose.Cells for Java segítségével. Ez az útmutató a munkafüzetek beállítását, a stílusok létrehozását és a betűtípusok testreszabását tárgyalja.
@@ -211,7 +214,7 @@ Ismerd meg, hogyan formázhatod az Excel cellákat az Aspose.Cells for Java seg�
 Tanuld meg, hogyan sajátíthatod el az adatformázást Java nyelven az Aspose.Cells segítségével. Ez az útmutató a beállítást, az egyéni stílusokat, a feltételes formázást és egyebeket tárgyalja.
 
 ### [Hogyan állítsuk be az Excel sormagasságait az Aspose.Cells használatával Java-ban - Teljes útmutató](./mastering-excel-row-heights-aspose-cells-java/)
-Tanuld meg, hogyan állíthatod be könnyedén az Excel sormagasságait az Aspose.Cells for Java segítségével. Ez az átfogó útmutató mindent lefed a könyvtár beállításától a gyakorlati megoldások megvalósításáig.
+Tanuld meg, hogyan állíthatod be könnyen az Excel sormagasságait az Aspose.Cells for Java segítségével. Ez az átfogó útmutató mindent lefed a könyvtár beállításától a gyakorlati megoldások megvalósításáig.
 
 ### [Árnyékeffektusok alkalmazása Java-ban az Aspose.Cells használatával: Teljes útmutató](./mastering-shadow-effects-java-aspose-cells/)
 Tanuld meg, hogyan alkalmazhatsz árnyékeffektusokat Excel-alakzatokra az Aspose.Cells for Java segítségével. Dobd fel táblázataidat professzionális vizuális stílusokkal.

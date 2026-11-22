@@ -28,6 +28,7 @@
 
 ### [How to get custom property java using Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)
 
+### [How to set locale in a Java workbook using Aspose.Cells](./how-to-set-locale-in-a-java-workbook-using-aspose-cells/)
 
 ### [Aspose.Cells Java: สร้างและบันทึกเวิร์กบุ๊ก Excel - คำแนะนำทีละขั้นตอน](./aspose-cells-java-create-save-excel-workbooks/)
 เรียนรู้วิธีการสร้างและจัดการเวิร์กบุ๊ก Excel โดยอัตโนมัติโดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการสร้างอินสแตนซ์ การบันทึก และการตั้งค่าคุณสมบัติการตั้งค่าหน้า
@@ -348,7 +349,7 @@
 เรียนรู้วิธีการส่งออกคุณสมบัติที่กำหนดจากเวิร์กบุ๊ก Excel ไปยัง PDF ...
 
 ### [วิธีเพิ่มคุณสมบัติที่กำหนดเองใน Excel ด้วย Java – คู่มือฉบับสมบูรณ์](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
-เรียนรู้วิธีเพิ่มคุณสมบัติที่กำหนดเองในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java พร้อมขั้นตอนและตัวอย่างโค้ด
+เรียนรู้วิธีเพิ่มคุณสมบัติที่กำหนดในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java พร้อมขั้นตอนและตัวอย่างโค้ด
 
 ### [การส่งออก Excel เป็น HTML โดยใช้ Aspose.Cells Java: คำแนะนำทีละขั้นตอน](./export-excel-html-aspose-cells-java/)
 เรียนรู้วิธีการส่งออกไฟล์ Excel เป็น HTML ได้อย่างราบรื่นโดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการโหลดเวิร์กบุ๊ก ผู้ให้บริการสตรีมแบบกำหนดเองและการบันทึกเวิร์กบุ๊กอย่างง่ายดาย
@@ -370,7 +371,7 @@
 ### [วิธีการส่งออกแผ่นงาน Excel ไปยัง PNG โดยใช้ Aspose.Cells Java](./export-excel-to-png-aspose-cells-java/)
 เรียนรู้วิธีการส่งออกเวิร์กชีต Excel เป็นรูปภาพ PNG ได้อย่างราบรื่นด้วย Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อปรับปรุงเวิร์กโฟลว์การแบ่งปันข้อมูลและการรายงานของคุณ
 
-### [วิธีการส่งออกแผ่นงาน Excel ไปยัง PNG โดยใช้ Aspose.Cells Java](./export-excel-to-ppng-aspose-cells-java/)
+### [วิธีการส่งออกแผ่นงาน Excel ไปถึง PNG โดยใช้ Aspose.Cells Java](./export-excel-to-ppng-aspose-cells-java/)
 เรียนรู้วิธีการส่งออกเวิร์กชีต Excel เป็นรูปภาพ PNG ได้อย่างราบรื่นด้วย Aspose.Cells สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อปรับปรุงเวิร์กโฟลว์การแบ่งปันข้อมูลและการรายงานของคุณ
 
 ### [สร้าง PDF ที่ปลอดภัยจาก Excel โดยใช้ Aspose.Cells Java: คู่มือที่ครอบคลุม](./generate-secure-pdfs-excel-aspose-cells-java/)

@@ -78,9 +78,11 @@ Aspose.Cells for Java kullanarak yeni bir Excel çalışma kitabı oluşturun, �
 Java ve Aspose.Cells ile Excel'de dizi genişletmeyi adım adım öğrenin.
 
 ### [Java ile Excel'de Otomatik Filtreyi Kaldırma – Tam Kılavuz](./remove-autofilter-from-excel-with-java-complete-guide/)
-Java ve Aspose.Cells kullanarak Excel dosyalarındaki otomatik filtreyi nasıl kaldıracağınızı adım adım öğrenin.
+### [Java ile Excel'de Tablo Otomatik Filtreyi Kaldırma – Tam Kılavuz](./how-to-remove-autofilter-from-table-in-excel-using-java/)
 ### [Aspose.Cells Nasıl Kullanılır: Özel Özellik Ekle ve XLSB Olarak Kaydet](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
-Aspose.Cells ile bir özel özellik ekleyip dosyayı XLSB formatında kaydetmeyi adım adım öğrenin.
+
+### [Java ile Akıllı İşaretçiler Kullanarak Listeden Sayfa Oluşturma](./how-to-create-sheets-from-list-in-java-using-smart-markers/)
+Java ve Aspose.Cells ile Akıllı İşaretçiler sayesinde bir listeden birden çok sayfa oluşturmayı öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

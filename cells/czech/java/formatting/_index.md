@@ -65,6 +65,9 @@ Naučte se, jak používat číselné formáty a vlastní styly data pomocí Asp
 ### [Aplikace číselného formátu v Excelu v Javě – Kompletní průvodce Aspose.Cells](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
 Naučte se, jak aplikovat číselné formáty v Excelu pomocí Aspose.Cells pro Javu. Průvodce obsahuje podrobné kroky a ukázky kódu.
 
+### [Jak aplikovat vlastní číselný formát v Excelu pomocí Aspose.Cells pro Javu](./how-to-apply-a-custom-number-format-in-excel-with-java/)
+Naučte se, jak nastavit vlastní číselné formáty v souborech Excel pomocí Aspose.Cells pro Javu.
+
 ### [Jak vytvořit a formátovat buňky v Excelu pomocí Aspose.Cells pro Javu: Podrobný návod](./aspose-cells-java-excel-automation-guide/)
 Naučte se, jak snadno automatizovat a formátovat soubory Excelu pomocí Aspose.Cells pro Javu. Tato příručka se zabývá vytvářením sešitů, formátováním buněk a technikami ukládání.
 

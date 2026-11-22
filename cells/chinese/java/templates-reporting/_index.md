@@ -52,6 +52,9 @@
 ### [使用智能标记生成工作表的完整 Java 指南](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
 本指南详细演示如何在 Aspose.Cells for Java 中使用智能标记生成多个工作表，实现动态报表自动化。
 
+### [如何在 Java 中使用 SmartMarkerProcessor 生成工作表](./how-to-generate-worksheets-in-java-using-smartmarkerprocesso/)
+学习如何使用 SmartMarkerProcessor 在 Java 中自动生成多个工作表，实现动态报表。
+
 ### [Aspose Cells 智能标记：加载 Excel 模板并从模板生成 Excel](./aspose-cells-smart-markers-load-excel-template-generate-exce/)
 ### [创建工作簿 SmartMarker – 填充 Excel 工作簿](./create-workbook-smartmarker-populate-excel-workbook/)
 学习如何使用 SmartMarker 在 Excel 工作簿中填充数据，实现自动化报表生成。
@@ -69,6 +72,9 @@
 
 ### [使用智能标记创建 Excel 工作簿 – Java 指南](./create-excel-workbook-with-smart-markers-java-guide/)
 学习如何使用 Aspose.Cells for Java 的智能标记功能创建 Excel 工作簿，实现高效的数据绑定和报表生成。
+
+### [如何使用 Java 将工作簿保存为 PDF 并嵌入字体](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
+学习如何使用 Aspose.Cells for Java 将 Excel 工作簿导出为 PDF 并嵌入所需字体，确保文档跨平台一致显示。
 
 ## 其他资源
 

@@ -72,8 +72,11 @@ Learn how to delete table headers in Excel files using Aspose.Cells for Java wit
 Step‑by‑step guide to expand arrays in Excel using Aspose.Cells for Java, with code examples.
 ### [Remove Autofilter from Excel with Java – Complete Guide](./remove-autofilter-from-excel-with-java-complete-guide/)
 Remove Autofilter from Excel using Aspose.Cells for Java. Step-by-step guide with source code examples.
+### [How to remove autofilter from table in Excel using Java](./how-to-remove-autofilter-from-table-in-excel-using-java/)
+Learn how to programmatically remove Autofilter from an Excel table using Aspose.Cells for Java with step‑by‑step code examples.
 ### [How to Use Aspose.Cells: Add Custom Property & Save XLSB](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
 Learn how to add custom properties to a workbook and save it as XLSB using Aspose.Cells for Java.
+### [How to create sheets from list in Java using Smart Markers](./how-to-create-sheets-from-list-in-java-using-smart-markers/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

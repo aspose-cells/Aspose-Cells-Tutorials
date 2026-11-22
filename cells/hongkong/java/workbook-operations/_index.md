@@ -271,7 +271,7 @@ Aspose.Words Java 程式碼教程
 ### [使用 Aspose.Cells Java 實現 Excel 自動化：輕鬆建立和修改工作簿](./excel-automation-aspose-cells-java-create-modify-workbooks/)
 了解如何使用 Aspose.Cells for Java 自動執行 Excel 任務。本教學介紹如何輕鬆建立、修改和儲存工作簿。
 
-### [使用 Aspose.Cells 實現 Excel 自動化：使用 Java 即時建立和操作工作簿](./excel-automation-aspose-cells-java-instant-workbook-creation/)
+### [使用 Aspose.Cells 在 Java 中實作主工作簿樣式和 HTML 匯出](./excel-automation-aspose-cells-java-instant-workbook-creation/)
 了解如何使用 Aspose.Cells for Java 自動執行 Excel 任務。有效率地建立、修改和保存工作簿，同時增強您的工作流程。
 
 ### [使用 Aspose.Cells Java 實現 Excel 自動化：在工作簿中載入和尋找數據](./excel-automation-aspose-cells-java-load-find-data/)
@@ -521,6 +521,8 @@ Aspose.Words Java 程式碼教程
 
 ### [如何在 Java 中於 Excel 工作簿之間複製儲存格](./how-to-copy-cells-between-excel-workbooks-in-java/)
 了解如何使用 Aspose.Cells for Java 在不同 Excel 工作簿之間複製儲存格，包含載入、複製與儲存步驟。
+
+### [如何在 Java 工作簿中使用 Aspose.Cells 設定區域設定](./how-to-set-locale-in-a-java-workbook-using-aspose-cells/)
 
 ## 其他資源
 

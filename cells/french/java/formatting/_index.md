@@ -73,6 +73,9 @@ Apprenez à appliquer des formats numériques et des styles de date personnalis�
 ### [Appliquer le format de nombre dans Excel avec Aspose.Cells pour Java – Guide complet](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
 Apprenez à appliquer des formats numériques aux cellules Excel en Java avec Aspose.Cells grâce à ce guide complet.
 
+### [Comment appliquer un format de nombre personnalisé dans Excel avec Java – Guide complet](./how-to-apply-a-custom-number-format-in-excel-with-java/)
+Apprenez à appliquer un format de nombre personnalisé dans Excel avec Java en utilisant Aspose.Cells.
+
 ### [Comment créer et formater des cellules Excel avec Aspose.Cells pour Java : guide étape par étape](./aspose-cells-java-excel-automation-guide/)
 Apprenez à automatiser et à formater facilement des fichiers Excel avec Aspose.Cells pour Java. Ce guide couvre la création de classeurs, le formatage des cellules et les techniques d'enregistrement.
 

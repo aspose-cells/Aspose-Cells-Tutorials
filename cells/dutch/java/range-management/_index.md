@@ -101,6 +101,12 @@ Leer hoe u Excel-afdrukgebieden kunt automatiseren met Aspose.Cells voor Java. B
 
 ### [Hoe de expand-functie te gebruiken in Java Excel-verwerking](./how-to-use-expand-function-in-java-excel-processing/)
 
+### [Hoe een bereik uit te breiden in Excel met Java](./how-to-expand-range-in-excel-with-java/)
+Leer hoe je een bereik in Excel kunt uitbreiden met Aspose.Cells voor Java.
+
+### [Hoe wrapcols te gebruiken in Java met Aspose.Cells](./how-to-use-wrapcols-in-java-with-aspose-cells/)
+Leer hoe u de wrapcols-functie in Java met Aspose.Cells kunt toepassen om kolomtekst automatisch te laten afbreken.
+
 ## Aanvullende bronnen
 
 - [Aspose.Cells voor Java-documentatie](https://docs.aspose.com/cells/java/)

@@ -135,7 +135,9 @@ Aspose.Cells Java ile arka plan görüntüleri ekleyerek Excel raporlarınızı 
 ### [Java'da ShapeExportOptions ile Şekli Dışa Aktarma](./how-to-export-shape-with-shapeexportoptions-in-java/)
 Java için Aspose.Cells kullanarak ShapeExportOptions ile bir şekli nasıl dışa aktaracağınızı öğrenin.
 ### [Aspose.Cells Java Kullanarak Excel Aralığını Görüntü Olarak Dışa Aktarma (Adım Adım Kılavuz)](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
-Aspose.Cells for Java kullanarak bir Excel aralığını resim dosyası olarak dışa aktarmayı öğrenin. Adım adım kod örnekleriyle raporlarınıza görsel veri ekleyin.
+
+### [Java ile Excel'i Görüntü Olarak Dışa Aktarma – Kapsamlı Kılavuz](./export-excel-as-image-with-java-complete-guide/)
+Java ve Aspose.Cells kullanarak Excel dosyalarını yüksek kaliteli resimlere nasıl dönüştüreceğinizi adım adım öğrenin.
 
 ## Ek Kaynaklar
 

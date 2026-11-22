@@ -55,15 +55,17 @@ Java와 Aspose.Cells를 이용해 Excel 워크시트에서 자동 필터를 비�
 Aspose.Cells for Java를 사용해 코드를 통해 Excel 파일을 생성하고 저장하는 방법을 단계별로 안내합니다.
 ### [Java를 사용하여 Excel 자동 필터 끄기 – 전체 가이드](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
 Java와 Aspose.Cells를 활용해 Excel에서 자동 필터를 해제하는 방법을 단계별로 안내합니다.
-### [Java를 사용하여 Excel에서 자동 필터 끄는 방법 – 완전 가이드](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+### [Java를 사용하여 Excel 자동 필터 끄는 방법 – 완전 가이드](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
 ### [Java로 수직 배열 Excel 만들기 – 전체 단계별 가이드](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
 ### [Java에서 Expand 사용 방법 – 전체 Excel 가이드](./how-to-use-expand-in-java-complete-excel-guide/)
 ### [Java를 사용한 Excel 자동 필터 해제 방법 – 완전 가이드](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
 Aspose.Cells for Java를 사용하여 Excel 자동 필터를 해제하는 방법을 단계별로 안내합니다.
+### [Java를 사용하여 Excel 테이블에서 자동 필터 제거](./how-to-remove-autofilter-from-table-in-excel-using-java/)
 ### [Java를 사용한 Excel 테이블 헤더 삭제 – 전체 가이드](./how-to-delete-table-header-in-excel-with-java-full-guide/)
 Aspose.Cells for Java를 사용하여 Excel 테이블 헤더를 삭제하는 방법을 단계별로 안내합니다.
 ### [Aspose.Cells 사용 방법: 사용자 정의 속성 추가 및 XLSB 저장](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
 Aspose.Cells를 사용해 사용자 정의 속성을 추가하고 XLSB 형식으로 저장하는 방법을 단계별로 안내합니다.
+### [Java에서 스마트 마커를 사용해 목록으로 시트 만들기](./how-to-create-sheets-from-list-in-java-using-smart-markers/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

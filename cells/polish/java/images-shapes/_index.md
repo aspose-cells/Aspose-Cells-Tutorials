@@ -59,6 +59,8 @@ Dowiedz się, jak ulepszyć swoje prezentacje w programie Excel za pomocą efekt
 ### [Jak renderować arkusze Excela jako obrazy za pomocą Aspose.Cells dla Java: kompleksowy przewodnik](./aspose-cells-java-render-excel-sheets-images/)
 Dowiedz się, jak przekształcić dane Excela w wysokiej jakości obrazy za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje wszystkie kroki od konfiguracji do renderowania, zapewniając bezproblemową wizualizację danych.
 
+### [Eksportuj Excel jako obraz w Javie – kompletny przewodnik](./export-excel-as-image-with-java-complete-guide/)
+
 ### [Jak utworzyć PNG z zakresu w Javie przy użyciu Aspose.Cells](./how-to-create-png-from-range-in-java-with-aspose-cells/)
 Dowiedz się, jak wygenerować obraz PNG z określonego zakresu komórek w Excelu przy użyciu Aspose.Cells dla Javy.
 

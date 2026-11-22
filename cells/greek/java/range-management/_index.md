@@ -96,6 +96,15 @@
 Μάθετε πώς να δημιουργήσετε ονομασμένη περιοχή και να εντοπίσετε διπλότυπα ονόματα χρησιμοποιώντας Aspose.Cells για Java.
 ### [Πώς να χρησιμοποιήσετε τη λειτουργία expand στην επεξεργασία Excel με Java](./how-to-use-expand-function-in-java-excel-processing/)
 
+Μάθετε πώς να εφαρμόζετε τη μέθοδο expand για αυτόματη επέκταση περιοχών σε αρχεία Excel χρησιμοποιώντας το Aspose.Cells για Java.
+
+### [Πώς να επεκτείνετε το εύρος στο Excel με Java](./how-to-expand-range-in-excel-with-java/)
+
+Μάθετε πώς να επεκτείνετε εύρος κελιών στο Excel χρησιμοποιώντας το Aspose.Cells για Java.
+
+### [Πώς να χρησιμοποιήσετε τη λειτουργία wrapcols στη Java με το Aspose.Cells](./how-to-use-wrapcols-in-java-with-aspose-cells/)
+Μάθετε πώς να εφαρμόζετε τη μέθοδο wrapcols για αυτόματη αναδίπλωση στηλών σε αρχεία Excel χρησιμοποιώντας το Aspose.Cells για Java.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.Cells για τεκμηρίωση Java](https://docs.aspose.com/cells/java/)

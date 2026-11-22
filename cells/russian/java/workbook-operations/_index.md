@@ -515,6 +515,9 @@
 ### [Как копировать ячейки между рабочими книгами Excel в Java](./how-to-copy-cells-between-excel-workbooks-in-java/)
 Узнайте, как копировать ячейки между рабочими книгами Excel в Java с помощью Aspose.Cells.
 
+### [Как установить локаль в рабочей книге Java с помощью Aspose.Cells](./how-to-set-locale-in-a-java-workbook-using-aspose-cells/)
+Узнайте, как задать локаль рабочей книги в Java с помощью Aspose.Cells для корректного отображения региональных данных.
+
 ## Дополнительные ресурсы
 
 - [Документация по Aspose.Cells для Java](https://docs.aspose.com/cells/java/)

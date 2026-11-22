@@ -458,7 +458,7 @@
 أتقن تحويل ملفات Excel إلى PDF مع الحفاظ على تنسيقات التاريخ المخصصة باستخدام Aspose.Cells لـ Java. تعرّف على نصائح الإعداد والتنفيذ والأداء.
 
 ### [تحويل Excel إلى PDF مع معالجة الأخطاء باستخدام Aspose.Cells لـ Java: دليل شامل](./render-excel-pdf-aspose-cells-java-error-handling/)
-تعرّف على كيفية تحويل ملفات Excel إلى PDF باستخدام Aspose.Cells لجافا، مع استراتيجيات فعّالة لمعالجة الأخطاء. مثالي لمعالجة البيانات دفعةً واحدة وإعداد تقارير عنها.
+تعرّف على كيفية تحويل ملفات Excel إلى ملفات PDF باستخدام Aspose.Cells لجافا، مع استراتيجيات فعّالة لمعالجة الأخطاء. مثالي لمعالجة البيانات دفعةً واحدة وإعداد تقارير عنها.
 
 ### [كيفية عرض جداول بيانات Excel كصور باستخدام Aspose.Cells لـ Java (عمليات المصنف)](./render-excel-sheets-images-aspose-cells-java/)
 تعلّم كيفية تحويل جداول بيانات Excel إلى صور باستخدام Aspose.Cells لـ Java. أتقن عمليات المصنفات، وحسّن وظائف التقارير، ودمج مرئيات Excel بسلاسة.
@@ -497,6 +497,9 @@
 ### [كيفية حفظ ملفات xlsb بخصائص مخصصة باستخدام Aspose.Cells لـ Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
 
 ### [كيفية نسخ الخلايا بين مصنفات Excel في Java](./how-to-copy-cells-between-excel-workbooks-in-java/)
+
+### [كيفية تعيين الإعداد الإقليمي في مصنف Java باستخدام Aspose.Cells](./how-to-set-locale-in-a-java-workbook-using-aspose-cells/)
+تعرف على كيفية تعيين الإعداد الإقليمي للمصنف في Java لضمان تنسيق الأرقام والتواريخ وفقًا للمنطقة باستخدام Aspose.Cells.
 
 ## موارد إضافية
 

@@ -96,9 +96,17 @@ Naučte se, jak efektivně spravovat a manipulovat s datovými oblastmi v Excelu
 Naučte se, jak efektivně rozdělit buňky v souborech Excelu pomocí Aspose.Cells pro Javu. Tato příručka se zabývá nastavením, detekcí a rozdělováním sloučených buněk s příklady kódu.
 
 ### [Kopírování rozsahu mezi sešity v Javě – průvodce krok za krokem](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+
 ### [Vytvoření pojmenovaného rozsahu a detekce duplicitního názvu v Excelu](./create-a-named-range-and-detect-duplicate-name-in-excel/)
+
 ### [Jak použít funkci expand v Javě pro zpracování Excelu](./how-to-use-expand-function-in-java-excel-processing/)
 Naučte se, jak využít funkci expand v Aspose.Cells pro Javu k rozšíření oblastí a dynamickému přizpůsobení dat v Excelu.
+
+### [Jak rozšířit rozsah v Excelu pomocí Javy](./how-to-expand-range-in-excel-with-java/)
+Naučte se, jak pomocí Aspose.Cells v Javě rozšířit oblast buněk v Excelu a dynamicky přizpůsobit data.
+
+### [Jak použít wrapcols v Javě s Aspose.Cells](./how-to-use-wrapcols-in-java-with-aspose-cells/)
+Naučte se, jak použít wrapcols v Aspose.Cells pro Javu k automatickému zalamování textu v buňkách.
 
 ## Další zdroje
 

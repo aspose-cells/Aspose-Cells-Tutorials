@@ -146,7 +146,7 @@ Naučte se, jak zkontrolovat verzi Javy v Aspose.Cells a určit maximální poč
 Zvládněte správu sešitů efektivním kombinováním souborů aplikace Excel pomocí Aspose.Cells pro Javu. Naučte se podrobné techniky integrace a optimalizace.
 
 ### [Správa hlavních sešitů v Aspose.Cells pro Javu: Efektivní správa verzí a formátů Excelu](./aspose-cells-java-workbook-management-guide/)
-Naučte se spravovat verze a formáty sešitů aplikace Excel pomocí nástroje Aspose.Cells pro Javu. Načtěte informace o verzi, nakonfigurujte kompatibilitu s Open XML a další.
+Naučte se, jak spravovat verze a formáty sešitů aplikace Excel pomocí nástroje Aspose.Cells pro Javu. Načtěte informace o verzi, nakonfigurujte kompatibilitu s Open XML a další.
 
 ### [Zvládnutí manipulace s Excelovými sešity v Javě pomocí Aspose.Cells](./aspose-cells-java-workbook-manipulation/)
 Naučte se automatizovat úlohy v Excelu pomocí Aspose.Cells pro Javu. Tento tutoriál se zabývá efektivním nastavováním, načítáním, vytvářením, kopírováním a ukládáním sešitů.
@@ -521,6 +521,9 @@ Naučte se, jak pomocí Aspose.Cells v Javě vytvořit a uložit soubor Excel kr
 Naučte se, jak v Javě pomocí Aspose.Cells pracovat s japonskými daty er v Excelových sešitech.
 ### [Jak získat vlastní vlastnost v Javě pomocí Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)
 Naučte se, jak získat vlastní vlastnost v souboru Excel pomocí Aspose.Cells pro Javu.
+
+### [Jak nastavit locale v sešitu Java pomocí Aspose.Cells](./how-to-set-locale-in-a-java-workbook-using-aspose-cells/)
+Naučte se, jak nastavit jazykové prostředí (locale) pro sešit v Javě pomocí Aspose.Cells.
 
 ## Další zdroje
 

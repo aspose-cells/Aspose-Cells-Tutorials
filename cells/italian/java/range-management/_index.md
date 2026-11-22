@@ -100,6 +100,12 @@ Scopri come assegnare un nome a una cella in Excel usando Aspose.Cells per Java 
 ### [Come utilizzare la funzione expand nell'elaborazione di Excel con Java](./how-to-use-expand-function-in-java-excel-processing/)
 Scopri come usare la funzione expand per gestire dinamicamente i dati in Excel con Aspose.Cells per Java.
 
+### [Come espandere l'intervallo in Excel con Java](./how-to-expand-range-in-excel-with-java/)
+Scopri come utilizzare la funzione expand per gestire dinamicamente gli intervalli in Excel con Aspose.Cells per Java.
+
+### [Come utilizzare wrapcols in Java con Aspose.Cells](./how-to-use-wrapcols-in-java-with-aspose-cells/)
+Scopri come utilizzare la funzione wrapcols in Aspose.Cells per Java per gestire la larghezza delle colonne in modo dinamico.
+
 ## Assegnare un nome a una cella in Excel con Java – Guida completa
 
 Scopri come assegnare un nome a una cella in Excel usando Aspose.Cells per Java con esempi di codice passo passo.

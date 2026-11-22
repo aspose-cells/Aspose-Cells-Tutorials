@@ -55,6 +55,9 @@ Aprenda a usar o Aspose.Cells para Java para converter tabelas HTML em arquivos 
 ### [Copie colunas do Excel com eficiência usando Aspose.Cells para Java: um guia completo](./copy-excel-columns-aspose-cells-java/)
 Aprenda a automatizar a cópia de colunas no Excel com o Aspose.Cells para Java. Simplifique seu fluxo de trabalho e aumente a produtividade com este guia fácil de seguir.
 
+### [Como usar wrapcols em Java com Aspose.Cells](./how-to-use-wrapcols-in-java-with-aspose-cells/)
+Aprenda a usar a propriedade wrapcols no Aspose.Cells para Java e formatar texto em células automaticamente.
+
 ### [Como copiar várias colunas no Excel usando Aspose.Cells Java: um guia completo](./copy-multiple-columns-excel-aspose-cells-java/)
 Aprenda a automatizar a cópia de várias colunas em uma planilha do Excel usando o Aspose.Cells para Java. Este guia aborda configuração, implementação e solução de problemas.
 
@@ -100,6 +103,8 @@ Aprenda a copiar intervalos de planilhas no Excel programaticamente usando Aspos
 Aprenda a criar uma planilha nova e copiar intervalos de dados no Excel usando Aspose.Cells para Java.
 
 ### [Como usar a função expand no processamento de Excel em Java](./how-to-use-expand-function-in-java-excel-processing/)
+
+### [Como expandir intervalo no Excel com Java](./how-to-expand-range-in-excel-with-java/)
 
 ## Recursos adicionais
 

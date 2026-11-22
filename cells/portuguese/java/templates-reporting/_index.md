@@ -70,6 +70,12 @@ Aprenda passo a passo a gerar relatórios usando Marcadores Inteligentes no Exce
 ### [Criar Pasta de Trabalho Excel com Marcadores Inteligentes – Guia Java](./create-excel-workbook-with-smart-markers-java-guide/)
 Aprenda a gerar uma pasta de trabalho Excel usando Marcadores Inteligentes com Aspose.Cells para Java, com exemplos passo a passo.
 
+### [Como gerar planilhas em Java usando SmartMarkerProcessor](./how-to-generate-worksheets-in-java-using-smartmarkerprocesso/)
+Aprenda a gerar planilhas Excel em Java usando a classe SmartMarkerProcessor do Aspose.Cells.
+
+### [Como salvar pasta de trabalho como PDF e incorporar fontes usando Java](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
+Aprenda a salvar uma pasta de trabalho Excel como PDF e incorporar fontes embutidas usando Aspose.Cells para Java.
+
 ## Recursos adicionais
 
 - [Documentação do Aspose.Cells para Java](https://docs.aspose.com/cells/java/)

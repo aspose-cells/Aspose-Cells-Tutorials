@@ -59,6 +59,9 @@ Leer hoe u uw Excel-presentaties kunt verbeteren met reflectie-effecten met Aspo
 ### [Excel-sheets als afbeeldingen weergeven met Aspose.Cells voor Java: een uitgebreide handleiding](./aspose-cells-java-render-excel-sheets-images/)
 Leer hoe u uw Excel-gegevens kunt omzetten in hoogwaardige afbeeldingen met Aspose.Cells voor Java. Deze handleiding behandelt alle stappen, van installatie tot rendering, voor een naadloze datavisualisatie.
 
+### [Excel exporteren als afbeelding met Java: een volledige handleiding](./export-excel-as-image-with-java-complete-guide/)
+Leer hoe u Excel-werkbladen kunt exporteren naar afbeeldingen met Java en Aspose.Cells, inclusief stap‑voor‑stap codevoorbeelden.
+
 ### [Hoe PNG te maken vanuit een bereik in Java met Aspose.Cells](./how-to-create-png-from-range-in-java-with-aspose-cells/)
 Leer hoe u met Aspose.Cells voor Java een PNG-afbeelding genereert vanuit een opgegeven celbereik in een Excel-werkblad.
 
@@ -108,7 +111,7 @@ Leer hoe u dynamisch gekoppelde afbeeldingen in Excel-bestanden kunt invoegen me
 Leer hoe u afbeeldingen naadloos kunt integreren in uw Excel-rapporten met behulp van Java en Aspose.Cells. Deze handleiding behandelt alles van het lezen van afbeeldingsbestanden tot het maken van dynamische werkmappen.
 
 ### [Masterwerkboek en vormmanipulatie in Java met Aspose.Cells voor Java](./master-workbook-shape-manipulation-aspose-cells-java/)
-Leer Excel-taken automatiseren en werkmappen en vormen bewerken met Aspose.Cells voor Java. Deze handleiding behandelt het maken van werkboeken, het toevoegen van vormen en het ophalen van verbindingspunten.
+Leer Excel-taken automatiseren en werkboeken en vormen bewerken met Aspose.Cells voor Java. Deze handleiding behandelt het maken van werkboeken, het toevoegen van vormen en het ophalen van verbindingspunten.
 
 ### [Excel Draw-objectgebeurtenisafhandeling met Aspose.Cells in Java: een uitgebreide handleiding](./mastering-draw-object-event-handling-excel-aspose-cells-java/)
 Leer hoe je objectgebeurtenissen in Excel kunt afhandelen met Aspose.Cells voor Java. Leer vormen bewerken en werkmappen naar PDF converteren.

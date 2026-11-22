@@ -297,7 +297,7 @@ Learn how to automate Excel tasks using Aspose.Cells for Java. Create, modify wo
 A code tutorial for Aspose.Words Java
 
 ### [Excel Automation with Aspose.Cells Java&#58; Managing Workbook Properties and Saving Files Efficiently](./excel-automation-aspose-cells-manage-properties-save-files/)
-Learn how to automate Excel file management using Aspose.Cells for Java. Manage document properties, set languages, and save files in various formats.
+Learn how to automate Excel file management using Aspose.Cells for Java. Manage document properties, set languages, and save files in various formats efficiently.
 
 ### [Master Excel File Operations in Java Using Aspose.Cells](./excel-file-operations-aspose-cells-java/)
 Learn how to perform efficient Excel file operations with Aspose.Cells Java, including loading workbooks and saving them with custom separators. Enhance your data management skills.
@@ -525,14 +525,8 @@ Learn how to set and manage document properties like versioning in Excel files u
 ### [How to Get Custom Property Java Using Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)
 Learn how to retrieve custom document properties from Excel workbooks using Aspose.Cells for Java.
 
-## Additional Resources
-
-- [Aspose.Cells for Java Documentation](https://docs.aspose.com/cells/java/)
-- [Aspose.Cells for Java API Reference](https://reference.aspose.com/cells/java/)
-- [Download Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
-- [Free Support](https://forum.aspose.com/)
-- [Temporary License](https://purchase.aspose.com/temporary-license/)
-
+### [How to set locale in a Java workbook using Aspose.Cells](./how-to-set-locale-in-a-java-workbook-using-aspose-cells/)
+Learn how to set the locale of a workbook to control language-specific formatting using Aspose.Cells for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

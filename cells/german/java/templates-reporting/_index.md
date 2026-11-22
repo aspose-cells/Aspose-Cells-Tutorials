@@ -71,6 +71,11 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Excel-Arbeitsmappe mithilf
 ### [Wie man Arbeitsblätter mit Smart Markern in Aspose.Cells erstellt](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Smart Markers in Arbeitsblättern einsetzen, um dynamische Berichte zu erstellen.
 
+### [Wie man Arbeitsblätter in Java mit SmartMarkerProcessor generiert](./how-to-generate-worksheets-in-java-using-smartmarkerprocesso/)
+
+### [Wie man ein Arbeitsbuch als PDF speichert und Schriftarten einbettet mit Java](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java ein Arbeitsbuch als PDF speichern und dabei Schriftarten einbetten, um die Darstellung zu sichern.
+
 ## Weitere Ressourcen
 
 - [Aspose.Cells für Java-Dokumentation](https://docs.aspose.com/cells/java/)

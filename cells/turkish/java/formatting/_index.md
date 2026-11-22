@@ -198,7 +198,7 @@ Java için Aspose.Cells'i kullanarak Excel hücrelerinde metin yönünün nasıl
 Aspose.Cells for Java ile Excel çalışma kitaplarını programatik olarak nasıl oluşturacağınızı ve biçimlendireceğinizi öğrenin. Veri sunumunuzu kolaylıkla otomatikleştirin.
 
 ### [Java'da Aspose.Cells ile Excel Hücre Stilini Ustalaştırın: Kapsamlı Bir Kılavuz](./mastering-built-in-styles-aspose-cells-java-guide/)
-Aspose.Cells for Java kullanarak yerleşik stilleri uygulama kılavuzuyla Excel raporlarınızın görsel çekiciliğini artırın. Elektronik tablo sunumunu geliştirmek isteyen geliştiriciler için mükemmeldir.
+Aspose.Cells for Java kullanarak yerleşik stilleri uygulama kılavuzu ile Excel raporlarınızın görsel çekiciliğini artırın. Elektronik tablo sunumunu geliştirmek isteyen geliştiriciler için mükemmeldir.
 
 ### [Java'da Aspose.Cells ile Excel Hücre Stilini Ustalaştırın: Kapsamlı Bir Kılavuz](./mastering-cell-styling-aspose-cells-java/)
 Java için Aspose.Cells kullanarak Excel hücrelerini nasıl biçimlendireceğinizi öğrenin. Bu kılavuz, çalışma kitabı oluşturma, hücre biçimlendirme ve dosyaları ayrıntılı kod örnekleriyle kaydetme konularını kapsar.
@@ -259,6 +259,8 @@ Aspose.Cells for Java kullanarak para birimi formatı ve kalın yazı tipi uygul
 ### [Java için Aspose.Cells Kullanarak Excel Çalışma Kitabı Oluşturma ve Sütun Sayı Biçimlerini Uygulama](./create-excel-workbook-java-and-apply-column-number-formats/)
 Java için Aspose.Cells Kullanarak Excel Çalışma Kitabı Oluşturma ve Sütun Sayı Biçimlerini Uygulama
 ### [Java için Aspose.Cells Kullanarak Excel'de Anlamlı Basamakları Sınırlama](./how-to-limit-significant-digits-excel-using-java/)
+
+### [Java ile Excel'de Özel Sayı Biçimi Nasıl Uygulanır](./how-to-apply-a-custom-number-format-in-excel-with-java/)
 
 ## Ek Kaynaklar
 

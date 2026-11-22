@@ -32,6 +32,9 @@ Leer hoe u uw Excel-rapporten kunt verbeteren met pijlpunten met Aspose.Cells vo
 ### [Dynamische Excel-rapporten maken en PDF-bladwijzers configureren met Aspose.Cells Java](./aspose-cells-java-dynamic-excel-reports-pdf-bookmarks/)
 Leer hoe u dynamische Excel-rapporten maakt, werkbladen beheert en PDF-bladwijzers configureert met Aspose.Cells voor Java. Leer efficiënte technieken voor gegevensbeheer.
 
+### [Hoe een werkmap als PDF op te slaan en lettertypen in te sluiten met Java](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
+Leer hoe u met Aspose.Cells voor Java een Excel-werkmap als PDF opslaat en ingesloten lettertypen behoudt voor consistente weergave.
+
 ### [Aspose.Cells Java-zelfstudie: SmartMarkers implementeren met de Person-klasse voor dynamische Excel-rapporten](./aspose-cells-java-smartmarkers-person-class/)
 Leer hoe u Aspose.Cells in Java kunt gebruiken om SmartMarkers te implementeren en dynamische datarapportage te automatiseren met een Person-klasse. Stapsgewijze handleiding om uw Excel-automatisering te stroomlijnen.
 
@@ -70,6 +73,9 @@ Leer hoe u detailbladen genereert met slimme markeringen in Aspose.Cells voor Ja
 Leer hoe u een Excel-sjabloon automatisch kunt vullen met gegevens via Aspose.Cells in Java.
 ### [Hoe werkbladen met slimme markeringen maken met Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
 Leer hoe u met Aspose.Cells slimme markeringen kunt gebruiken om werkbladen automatisch te vullen en rapporten te genereren.
+
+### [Hoe werkbladen te genereren in Java met SmartMarkerProcessor](./how-to-generate-worksheets-in-java-using-smartmarkerprocesso/)
+Leer hoe u met SmartMarkerProcessor dynamisch werkbladen genereert in Java met Aspose.Cells.
 
 ## Aanvullende bronnen
 

@@ -75,14 +75,14 @@ Panduan lengkap untuk mengekspor diagram Excel ke PowerPoint menggunakan Aspose.
 ### [Mengonversi Excel ke PowerPoint – Panduan Lengkap Langkah demi Langkah](./convert-excel-to-powerpoint-full-step-by-step-guide/)
 Pelajari cara mengonversi file Excel menjadi presentasi PowerPoint menggunakan Aspose.Cells untuk Java dalam panduan langkah demi langkah yang lengkap.
 
-### [Cara menyimpan Excel sebagai DOCX dengan Aspose.Cells di C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
-Pelajari cara mengonversi file Excel menjadi dokumen Word (DOCX) menggunakan Aspose.Cells dalam bahasa C#.
-
-### [Cara menyalin rentang dari Excel dan mengekspornya ke PowerPoint menggunakan Java](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
-Pelajari cara menyalin rentang data dari file Excel dan mengekspornya ke presentasi PowerPoint menggunakan Aspose.Cells dan Aspose.Slides untuk Java.
+### [Mengonversi Excel ke PowerPoint di Java – panduan langkah demi langkah](./convert-excel-to-powerpoint-in-java-step-by-step-guide/)
+Panduan langkah demi langkah untuk mengonversi file Excel menjadi presentasi PowerPoint menggunakan Aspose.Cells untuk Java.
 
 ### [Mengonversi Excel ke PowerPoint dengan Aspose.Cells di Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
 Pelajari cara mengonversi file Excel menjadi presentasi PowerPoint menggunakan Aspose.Cells untuk Java.
+
+### [Cara mengonversi Excel ke PowerPoint dengan Aspose.Cells untuk Java](./how-to-convert-excel-to-powerpoint-with-aspose-cells-for-jav/)
+Panduan lengkap untuk mengonversi file Excel menjadi presentasi PowerPoint menggunakan Aspose.Cells untuk Java.
 
 ### [Panduan lengkap cara menyimpan file PPTX dari Excel, mengekspor lembar kerja Excel ke PowerPoint dengan Aspose.Cells untuk Java](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
 Panduan lengkap cara menyimpan file PPTX dari Excel, mengekspor lembar kerja Excel ke PowerPoint dengan Aspose.Cells untuk Java.
@@ -98,6 +98,9 @@ Panduan langkah demi langkah untuk mengekspor bentuk yang dapat diedit dari Exce
 
 ### [Cara Mengekspor Bentuk dari Excel ke PowerPoint menggunakan Java](./how-to-export-shape-from-excel-to-powerpoint-using-java/)
 Panduan langkah demi langkah untuk mengekspor bentuk Excel ke presentasi PowerPoint menggunakan Aspose.Cells untuk Java.
+
+### [Menyimpan Excel sebagai DOCX dengan Aspose.Cells di Java](./save-excel-as-docx-with-aspose-cells-in-java/)
+Pelajari cara menyimpan file Excel sebagai dokumen DOCX menggunakan Aspose.Cells untuk Java dalam beberapa langkah mudah.
 
 ## Sumber Daya Tambahan
 

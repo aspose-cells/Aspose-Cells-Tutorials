@@ -70,6 +70,12 @@ Dowiedz się, jak tworzyć skoroszyty Excel przy użyciu inteligentnych znacznik
 ### [Jak tworzyć inteligentne znaczniki arkuszy w Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
 Dowiedz się, jak używać inteligentnych znaczników do automatyzacji tworzenia arkuszy w Aspose.Cells dla Java.
 
+### [Jak generować arkusze w Javie przy użyciu SmartMarkerProcessor](./how-to-generate-worksheets-in-java-using-smartmarkerprocesso/)
+Dowiedz się, jak generować arkusze w Javie przy użyciu SmartMarkerProcessor.
+
+### [Jak zapisać skoroszyt jako PDF i osadzić czcionki przy użyciu Javy](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
+Dowiedz się, jak zapisać skoroszyt jako PDF i osadzić czcionki przy użyciu Aspose.Cells dla Java.
+
 ## Dodatkowe zasoby
 
 - [Dokumentacja Aspose.Cells dla Java](https://docs.aspose.com/cells/java/)

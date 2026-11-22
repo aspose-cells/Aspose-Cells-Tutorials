@@ -524,6 +524,8 @@ Découvrez comment convertir facilement des fichiers Excel au format XPS avec As
 ### [Comment enregistrer des fichiers Excel dans différents formats avec Aspose.Cells Java](./save-excel-files-aspose-cells-java/)
 Découvrez comment enregistrer facilement des fichiers Excel dans plusieurs formats avec Aspose.Cells pour Java. Ce guide couvre les formats XLSX, PDF, HTML et bien plus encore.
 
+### [Comment définir la locale dans un classeur Java avec Aspose.Cells](./how-to-set-locale-in-a-java-workbook-using-aspose-cells/)
+
 ## Ressources supplémentaires
 
 - [Documentation d'Aspose.Cells pour Java](https://docs.aspose.com/cells/java/)

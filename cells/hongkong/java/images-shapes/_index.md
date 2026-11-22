@@ -139,6 +139,9 @@ Aspose.Words Java 程式碼教程
 ### [如何在 Java 中使用 ShapeExportOptions 匯出形狀](./how-to-export-shape-with-shapeexportoptions-in-java/)
 了解如何使用 Aspose.Cells for Java 的 ShapeExportOptions 將形狀匯出為圖像或其他格式。
 
+### [使用 Aspose.Cells Java 將 Excel 匯出為影像 – 完整指南](./export-excel-as-image-with-java-complete-guide/)
+了解如何使用 Aspose.Cells for Java 將整個 Excel 工作表或指定範圍匯出為高品質影像的完整步驟與程式碼示例。
+
 ## 其他資源
 
 - [Aspose.Cells for Java文檔](https://docs.aspose.com/cells/java/)

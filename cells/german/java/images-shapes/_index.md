@@ -59,6 +59,9 @@ Erfahren Sie, wie Sie Ihre Excel-Präsentationen mit Aspose.Cells für Java mit 
 ### [So rendern Sie Excel-Tabellen als Bilder mit Aspose.Cells für Java: Eine umfassende Anleitung](./aspose-cells-java-render-excel-sheets-images/)
 Erfahren Sie, wie Sie Ihre Excel-Daten mit Aspose.Cells für Java in hochwertige Bilder umwandeln. Diese Anleitung deckt alle Schritte von der Einrichtung bis zum Rendering ab und gewährleistet so eine nahtlose Datenvisualisierung.
 
+### [Exportieren von Excel als Bild mit Java – vollständige Anleitung](./export-excel-as-image-with-java-complete-guide/)
+Erfahren Sie, wie Sie Excel-Arbeitsblätter mithilfe von Java in Bilddateien konvertieren und speichern.
+
 ### [Wie Sie einen Excel‑Bereich in Java mit Aspose.Cells als Bild exportieren](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java einen ausgewählten Excel‑Bereich in ein Bild konvertieren und speichern.
 

@@ -101,6 +101,12 @@ Aspose.Words Java 代码教程
 ### [在 Excel 中创建命名范围并检测重复名称](./create-a-named-range-and-detect-duplicate-name-in-excel/)
 学习如何在 Excel 中使用 Aspose.Cells for Java 创建命名范围，并检测是否存在重复的名称。
 
+### [如何在 Java 中使用 wrapcols 与 Aspose.Cells](./how-to-use-wrapcols-in-java-with-aspose-cells/)
+学习如何在 Java 中使用 Aspose.Cells 的 wrapcols 功能，实现列宽自动换行。
+
+### [如何在 Excel 中使用 Java 扩展范围](./how-to-expand-range-in-excel-with-java/)
+学习如何使用 Aspose.Cells for Java 在 Excel 中扩展数据范围，实现更高效的处理。
+
 ## 其他资源
 
 - [Aspose.Cells for Java文档](https://docs.aspose.com/cells/java/)

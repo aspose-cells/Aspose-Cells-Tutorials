@@ -281,7 +281,7 @@ Lär dig hur du automatiserar Excel-uppgifter med Aspose.Cells för Java. Den h�
 Bemästra Excel-automation med Aspose.Cells för Java genom att läsa in arbetsböcker och hämta resultat från frågetabeller. Öka produktiviteten inom databearbetning, rapportering och integration.
 
 ### [Excel-automation: Konfigurera arbetsboks- och kalkylbladssidor med Aspose.Cells Java](./excel-automation-aspose-cells-java-workbook-setup/)
-Lär dig hur du automatiserar Excel-uppgifter genom att konfigurera arbetsboks- och kalkylbladssidor med Aspose.Cells för Java. Effektivisera dina databehandlingsarbetsflöden.
+Lär dig hur du automatiserar Excel-uppgifter genom att konfigurera arbetsboks- och kalkylbladssidor med Aspose.Cells Java. Effektivisera dina databehandlingsarbetsflöden.
 
 ### [Excel-automation med Aspose.Cells Java: Skapa huvudarbetsbok och synlighet av kolumner/rader](./excel-automation-aspose-cells-java-workbook-visibility/)
 Lär dig hur du automatiserar Excel-uppgifter med Aspose.Cells för Java. Skapa, modifiera arbetsböcker och kontrollera kolumn-/radsynlighet effektivt.
@@ -518,6 +518,8 @@ Lär dig hur du lägger till anpassade egenskaper i Excel-filer med Aspose.Cells
 ### [Hur man sparar xlsb-filer med anpassade egenskaper med Aspose.Cells för Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
 Lär dig hur du sparar XLSB-filer med anpassade egenskaper med Aspose.Cells för Java.
 ### [Hur du hämtar anpassad egenskap i Java med Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)
+
+### [Hur man ställer in lokal i en Java-arbetsbok med Aspose.Cells](./how-to-set-locale-in-a-java-workbook-using-aspose-cells/)
 
 ## Ytterligare resurser
 

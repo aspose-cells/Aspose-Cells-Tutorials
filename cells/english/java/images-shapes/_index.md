@@ -140,6 +140,9 @@ Learn how to enhance your Excel reports by adding background images with Aspose.
 ### [How to export Excel range as image in Java with Aspose.Cells](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
 Learn how to export a specific range of an Excel worksheet as an image using Aspose.Cells for Java.
 
+### [Export Excel as image with Java – complete guide](./export-excel-as-image-with-java-complete-guide/)
+Learn how to export entire Excel workbooks as high‑quality images using Aspose.Cells for Java with step‑by‑step code examples.
+
 ## Additional Resources
 
 - [Aspose.Cells for Java Documentation](https://docs.aspose.com/cells/java/)

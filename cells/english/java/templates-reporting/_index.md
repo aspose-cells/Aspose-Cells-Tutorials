@@ -71,6 +71,12 @@ Learn how to generate detailed sheets using smart markers in Aspose.Cells for Ja
 ### [How to populate Excel template with data using Aspose.Cells](./how-to-populate-excel-template-with-data-using-aspose-cells/)
 Learn how to fill an Excel template with data programmatically using Aspose.Cells for Java.
 
+### [How to generate worksheets in Java using SmartMarkerProcessor](./how-to-generate-worksheets-in-java-using-smartmarkerprocesso/)
+Learn how to generate worksheets in Java using SmartMarkerProcessor with Aspose.Cells.
+
+### [How to save workbook as PDF and embed fonts using Java](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
+Learn how to convert an Excel workbook to PDF and embed fonts using Aspose.Cells for Java.
+
 ## Additional Resources
 
 - [Aspose.Cells for Java Documentation](https://docs.aspose.com/cells/java/)

@@ -100,6 +100,12 @@ Dowiedz się, jak utworzyć nazwany zakres i wykrywać duplikaty nazw w plikach 
 ### [Jak używać funkcji expand w przetwarzaniu Excela w Javie](./how-to-use-expand-function-in-java-excel-processing/)
 Dowiedz się, jak wykorzystać funkcję expand w Aspose.Cells for Java do dynamicznego rozszerzania zakresów w arkuszach Excel.
 
+### [Jak używać wrapcols w Javie z Aspose.Cells](./how-to-use-wrapcols-in-java-with-aspose-cells/)
+Dowiedz się, jak wykorzystać funkcję wrapcols w Aspose.Cells for Java do automatycznego zawijania tekstu w komórkach.
+
+### [Jak rozszerzyć zakres w Excelu przy użyciu Javy](./how-to-expand-range-in-excel-with-java/)
+Dowiedz się, jak używać funkcji expand w Aspose.Cells for Java, aby dynamicznie rozszerzać zakresy w arkuszach Excel.
+
 ## Dodatkowe zasoby
 
 - [Dokumentacja Aspose.Cells dla Java](https://docs.aspose.com/cells/java/)

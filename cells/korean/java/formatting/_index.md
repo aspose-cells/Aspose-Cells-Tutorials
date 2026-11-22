@@ -210,7 +210,7 @@ Aspose.Cells를 사용하여 Java에서 사용자 지정 DBNum 서식을 구현�
 
 Aspose.Cells for Java를 사용하여 Excel에서 소수점과 천 단위 구분 기호를 사용자 지정하는 방법을 알아보고 다양한 로캘에서 데이터 명확성을 보장합니다.
 
-### [Aspose.Cells for Java를 사용하여 Excel에서 셀을 병합하고 스타일을 지정하는 방법: 완전한 가이드](./master-merging-styling-cells-aspose-cells-java/)
+### [Aspose.Cells for Java를 사용하여 Excel 셀을 병합하고 스타일을 지정하는 방법: 완전한 가이드](./master-merging-styling-cells-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel에서 셀을 병합하고 스타일을 지정하는 방법을 알아보세요. 이 가이드는 병합, 스타일 지정, 행 자동 맞춤 및 실제 적용 방법을 다룹니다.
 
 ### [Aspose.Cells for Java를 사용하여 Excel 셀의 텍스트를 줄바꿈하는 방법: 완전한 가이드](./master-text-wrapping-excel-cells-aspose-cells-java/)
@@ -271,12 +271,14 @@ Aspose.Cells for Java를 사용하여 스타일이 적용된 Excel 통합 문서
 ### [Aspose.Cells에서 WRAPCOLS 사용 방법 – 완전한 Java 예제](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 Aspose.Cells Java 라이브러리를 사용하여 WRAPCOLS 옵션을 적용하고 텍스트 자동 줄바꿈을 구현하는 방법을 단계별로 안내합니다.
 ### [Java에서 Excel에 숫자 서식 적용 – 완전 Aspose.Cells 가이드](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
-Aspose.Cells for Java를 사용하여 Excel 셀에 숫자 서식을 적용하는 방법을 단계별로 안내합니다.
+
 ### [Java에서 통화 형식 및 굵은 글꼴로 Excel 통합 문서 만들기](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
-### [Java로 Excel 워크북을 생성하고 열 번호 서식을 적용하는 방법](./create-excel-workbook-java-and-apply-column-number-formats/)
+
+### [Java로 Excel 워크북을 생성하고 열 번호 서식을 적용하는 방법](./create-excel-workbook-java-and-apply-column-number-forms/)
 
 ### [Java를 사용하여 Excel에서 유효 숫자 자리수 제한하는 방법](./how-to-limit-significant-digits-excel-using-java/)
-Java와 Aspose.Cells를 사용해 Excel 셀의 유효숫자 자리수를 제한하는 방법을 단계별로 안내합니다.
+
+### [Java를 사용하여 Excel에서 사용자 지정 숫자 형식 적용하는 방법](./how-to-apply-a-custom-number-format-in-excel-with-java/)
 
 ## 추가 자료
 

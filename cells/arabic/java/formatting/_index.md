@@ -64,6 +64,9 @@
 
 ### [تطبيق تنسيق الأرقام في Excel باستخدام Java – دليل كامل Aspose.Cells](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
 
+### [كيفية تطبيق تنسيق رقم مخصص في Excel باستخدام Java](./how-to-apply-a-custom-number-format-in-excel-with-java/)
+تعرّف على كيفية تطبيق تنسيق رقم مخصص في ملفات Excel باستخدام Aspose.Cells لجافا مع أمثلة برمجية عملية.
+
 ### [كيفية إنشاء وتنسيق خلايا Excel باستخدام Aspose.Cells لـ Java: دليل خطوة بخطوة](./aspose-cells-java-excel-automation-guide/)
 تعلّم كيفية أتمتة ملفات Excel وتنسيقها بسهولة باستخدام Aspose.Cells لجافا. يغطي هذا الدليل إنشاء المصنفات، وتنسيق الخلايا، وتقنيات الحفظ.
 

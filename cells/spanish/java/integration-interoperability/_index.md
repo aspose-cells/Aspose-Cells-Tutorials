@@ -57,8 +57,14 @@ Aprenda a implementar una clase Teacher en Java, administrar datos de estudiante
 Aprenda a convertir archivos Excel a presentaciones PPTX usando Aspose.Cells para Java con ejemplos de código completos.
 ### [Convertir Excel a PowerPoint – Guía completa paso a paso](./convert-excel-to-powerpoint-full-step-by-step-guide/)
 Aprenda a convertir archivos Excel a presentaciones PowerPoint usando Aspose.Cells y Aspose.Slides para Java, con ejemplos paso a paso.
+
+### [Convertir Excel a PowerPoint en Java – guía paso a paso](./convert-excel-to-powerpoint-in-java-step-by-step-guide/)
+Aprenda a convertir archivos Excel a presentaciones PowerPoint usando Aspose.Cells para Java, con ejemplos paso a paso.
+
 ### [Cómo guardar Excel como DOCX con Aspose.Cells en C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
 Aprenda a convertir archivos Excel a formato DOCX usando Aspose.Cells en C# con ejemplos paso a paso.
+### [Guardar Excel como DOCX con Aspose.Cells en Java](./save-excel-as-docx-with-aspose-cells-in-java/)
+Aprenda a guardar archivos Excel como documentos DOCX usando Aspose.Cells para Java, con ejemplos de código paso a paso.
 ### [Convertir Excel a PowerPoint con Aspose.Cells en Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
 Aprenda a convertir archivos Excel a presentaciones PowerPoint usando Aspose.Cells para Java, con ejemplos de código paso a paso.
 ### [Cómo exportar un gráfico a DOCX desde Excel usando Aspose.Cells para Java](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
@@ -91,6 +97,8 @@ Aprenda a exportar formas editables de Excel a archivos PPTX con Aspose.Cells pa
 
 ### [Cómo exportar una forma de Excel a PowerPoint usando Java](./how-to-export-shape-from-excel-to-powerpoint-using-java/)
 Aprenda a exportar formas de Excel a presentaciones PowerPoint usando Aspose.Cells para Java, con ejemplos paso a paso.
+
+### [Cómo convertir Excel a PowerPoint con Aspose.Cells para Java](./how-to-convert-excel-to-powerpoint-with-aspose-cells-for-jav/)
 
 ## Recursos adicionales
 

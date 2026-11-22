@@ -72,8 +72,16 @@ Aspose.Cells と Aspose.Slides を使用して、Excel データを PowerPoint �
 Excel のチャートを PowerPoint にエクスポートする方法を学び、コード実装とベストプラクティスを解説します。
 ### [Excel を PowerPoint に変換 – 完全ステップバイステップ ガイド](./convert-excel-to-powerpoint-full-step-by-step-guide/)
 Aspose.Cells for Java を使用して Excel ファイルを PowerPoint プレゼンテーションに変換する方法をステップバイステップで学びます。
+
+### [Java で Excel を PowerPoint に変換 – ステップバイステップ ガイド](./convert-excel-to-powerpoint-in-java-step-by-step-guide/)
+Java と Aspose.Cells を使用して、Excel ファイルを PowerPoint プレゼンテーションに変換する手順を詳しく解説します。
+
 ### [Aspose.Cells を使用して C# で Excel を DOCX に保存する方法](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
 Aspose.Cells for C# を使用して、Excel ファイルを DOCX 形式に変換して保存する方法を学びます。
+
+### [Java で Aspose.Cells を使用して Excel を DOCX に保存する方法](./save-excel-as-docx-with-aspose-cells-in-java/)
+Aspose.Cells for Java を使用して、Excel ファイルを DOCX 形式に変換して保存する方法を学びます。
+
 ### [Aspose.Cells を使用して Java で Excel を PowerPoint に変換する](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
 Aspose.Cells for Java を利用し、Excel ファイルを PowerPoint プレゼンテーションに変換する手順とコード例を解説します。
 ### [Excel から PPTX を保存する方法 – Excel シートを PowerPoint にエクスポートする完全ガイド](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
@@ -92,6 +100,9 @@ Java と Aspose.Cells を使い、Excel のシェイプを PowerPoint にエク�
 
 ### [Aspose.Cells for Java を使用して Excel からチャートを DOCX にエクスポートする方法](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
 Aspose.Cells for Java を使い、Excel のチャートを Word の DOCX ファイルにエクスポートする手順を解説します。
+
+### [Aspose.Cells for Java を使用して Excel を PowerPoint に変換する方法](./how-to-convert-excel-to-powerpoint-with-aspose-cells-for-jav/)
+Aspose.Cells for Java を使用して、Excel ファイルを PowerPoint プレゼンテーションに変換する手順とコード例を紹介します。
 
 ## 追加リソース
 

@@ -26,6 +26,9 @@ Aprenda a crear documentos de Excel con estilo profesional con nuestros tutorial
 
 ## Tutoriales disponibles
 
+### [How to apply a custom number format in Excel with Java](./how-to-apply-a-custom-number-format-in-excel-with-java/)
+
+
 ### [Cómo agregar texto enriquecido con HTML en Excel con Aspose.Cells para Java: una guía completa](./add-html-rich-text-excel-aspose-cells-java/)
 Aprenda a mejorar sus hojas de cálculo de Excel con texto enriquecido con HTML usando Aspose.Cells para Java. Esta guía ofrece instrucciones paso a paso, aplicaciones prácticas y consejos de rendimiento.
 

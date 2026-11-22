@@ -86,6 +86,12 @@ Aspose.Cells for Java を使用して、Excel シートからオートフィル�
 ### [Aspose.Cells の使用方法: カスタム プロパティを追加して XLSB として保存](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
 Aspose.Cells を使用してカスタム プロパティを追加し、XLSB 形式で保存する手順を解説します。
 
+### [JavaでExcelのテーブルからオートフィルタを削除する方法](./how-to-remove-autofilter-from-table-in-excel-using-java/)
+Aspose.Cells for Java を使い、Excel テーブルのオートフィルタをプログラムで削除する手順をステップバイステップで解説します。
+
+### [Smart Markers を利用した Java でのリストからシート作成方法](./how-to-create-sheets-from-list-in-java-using-smart-markers/)
+Smart Markers を利用して、Java のリストデータから複数シートを自動生成する方法を解説します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

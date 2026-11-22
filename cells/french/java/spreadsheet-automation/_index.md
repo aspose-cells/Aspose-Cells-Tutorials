@@ -53,6 +53,7 @@ Apprenez l'automatisation des classeurs Excel en Java avec Aspose.Cells : crée
 Découvrez comment automatiser la création et la personnalisation de graphiques Excel avec Aspose.Cells pour Java, avec des exemples de code source. Simplifiez vos tâches de création de graphiques. 
 ### [Supprimer le filtre automatique d'Excel avec Java – Guide complet](./remove-autofilter-from-excel-with-java-complete-guide/)
 Apprenez à retirer le filtre automatique d'un classeur Excel en Java grâce à un guide complet avec exemples de code.
+### [Comment supprimer le filtre automatique d'un tableau dans Excel avec Java](./how-to-remove-autofilter-from-table-in-excel-using-java/)
 ### [Automatisation Excel avec Java](./excel-automation-with-java/)
 Apprenez à automatiser les tâches Excel en Java avec des exemples de code source utilisant Aspose.Cells, une bibliothèque puissante pour la manipulation d'Excel.
 
@@ -83,6 +84,9 @@ Apprenez à supprimer l'en-tête d'un tableau Excel en Java avec Aspose.Cells, g
 Apprenez à étendre des tableaux Excel en Java avec Aspose.Cells grâce à un guide détaillé et des exemples de code.
 ### [Comment utiliser Aspose.Cells : ajouter une propriété personnalisée et enregistrer au format XLSB](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
 Apprenez à ajouter une propriété personnalisée à un classeur Excel et à l’enregistrer au format XLSB avec Aspose.Cells pour Java.
+
+### [Comment créer des feuilles à partir d'une liste en Java avec Smart Markers](./how-to-create-sheets-from-list-in-java-using-smart-markers/)
+Apprenez à générer plusieurs feuilles Excel à partir d'une liste d'objets Java en utilisant les Smart Markers d'Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

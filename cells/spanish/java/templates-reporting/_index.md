@@ -70,6 +70,11 @@ Aprenda a usar Smart Markers de Aspose.Cells para rellenar plantillas de Excel c
 ### [Cómo rellenar una plantilla de Excel con datos usando Aspose.Cells](./how-to-populate-excel-template-with-data-using-aspose-cells/)
 Aprenda a rellenar una plantilla de Excel con datos mediante Aspose.Cells para Java.
 
+### [Cómo generar hojas de cálculo en Java usando SmartMarkerProcessor](./how-to-generate-worksheets-in-java-using-smartmarkerprocesso/)
+Aprenda a generar hojas de cálculo en Java mediante SmartMarkerProcessor de Aspose.Cells.
+
+### [Cómo guardar un libro de trabajo como PDF e incrustar fuentes usando Java](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.Cells para Java](https://docs.aspose.com/cells/java/)

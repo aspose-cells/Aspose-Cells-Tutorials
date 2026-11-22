@@ -70,6 +70,10 @@ Smart Markers 機能を活用し、Java で Excel ワークブックを自動生
 ### [Aspose.Cells を使用したワークシート スマートマーカーの作成方法](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
 Aspose.Cells のスマートマーカーを活用して、ワークシートを効率的に作成する手順を学びます。
 
+### [SmartMarkerProcessor を使用して Java でワークシートを生成する方法](./how-to-generate-worksheets-in-java-using-smartmarkerprocesso/)
+
+### [Java を使用してブックを PDF として保存し、フォントを埋め込む方法](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
+
 ## 追加リソース
 
 - [Aspose.Cells for Java ドキュメント](https://docs.aspose.com/cells/java/)

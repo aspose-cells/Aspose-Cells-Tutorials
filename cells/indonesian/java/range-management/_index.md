@@ -100,6 +100,10 @@ Pelajari cara menyalin rentang sel antara buku kerja Excel menggunakan Aspose.Ce
 Pelajari cara menyalin rentang sel di Excel menggunakan Aspose.Cells untuk Java dengan contoh kode praktis.
 ### [Cara Menggunakan Fungsi Expand dalam Pemrosesan Excel Java](./how-to-use-expand-function-in-java-excel-processing/)
 Pelajari cara menggunakan fungsi expand di Aspose.Cells untuk Java dalam memproses file Excel secara efisien.
+### [Cara memperluas rentang di Excel dengan Java](./how-to-expand-range-in-excel-with-java/)
+Pelajari cara memperluas rentang sel di Excel menggunakan Aspose.Cells untuk Java.
+### [Cara menggunakan wrapcols di Java dengan Aspose.Cells](./how-to-use-wrapcols-in-java-with-aspose-cells/)
+Pelajari cara menggunakan fungsi wrapcols di Aspose.Cells untuk Java dalam memproses dan memformat sel Excel.
 
 ## Sumber Daya Tambahan
 

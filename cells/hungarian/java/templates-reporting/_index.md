@@ -67,9 +67,15 @@ Tanulja meg, hogyan töltheti fel az Excel-sablont adatokkal, és hozhat létre 
 ### [Aspose Cells Smart Markerek – Excel-sablon feltöltése](./aspose-cells-smart-markers-populate-excel-template/)
 Tanulja meg, hogyan használhatja a Smart Markereket az Excel-sablon adatfeltöltéséhez az Aspose.Cells for Java segítségével.
 ### [Részletes munkalapok létrehozása Java-val az Aspose.Cells intelligens jelölőkkel](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
-Tanuld meg, hogyan hozhat létre részletes munkalapokat intelligens jelölőkkel Java-ban.
+Tanuld meg, hogyan hozhass részletes munkalapokat intelligens jelölőkkel Java-ban.
 ### [Hogyan hozzunk létre munkalapok SmartMarker-eket az Aspose.Cells használatával](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
 Ismerje meg, hogyan használhatja a SmartMarker-eket munkalapok automatizálásához az Aspose.Cells for Java-ban.
+
+### [Hogyan generáljunk munkalapokat Java-ban a SmartMarkerProcessor használatával](./how-to-generate-worksheets-in-java-using-smartmarkerprocesso/)
+Tanulja meg, hogyan hozhat létre munkalapokat Java-ban a SmartMarkerProcessor segítségével.
+
+### [Munkafüzet mentése PDF-be és betűkészletek beágyazása Java-val](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
+Tanulja meg, hogyan menthet munkafüzetet PDF formátumba, és ágyazhatja be a betűkészleteket Java-val az Aspose.Cells használatával.
 
 ## További források
 

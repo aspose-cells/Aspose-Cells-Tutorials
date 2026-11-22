@@ -70,6 +70,10 @@ Lär dig hur du använder Smart Markers för att automatiskt skapa Excel-arbetsb
 ### [Hur du skapar smarta markörer i kalkylblad med Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
 Lär dig hur du använder smarta markörer för att skapa kalkylblad automatiskt med Aspose.Cells för Java.
 
+### [Hur du genererar arbetsblad i Java med SmartMarkerProcessor](./how-to-generate-worksheets-in-java-using-smartmarkerprocesso/)
+
+### [Spara arbetsbok som PDF och bädda in teckensnitt med Java](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
+
 ## Ytterligare resurser
 
 - [Aspose.Cells för Java-dokumentation](https://docs.aspose.com/cells/java/)

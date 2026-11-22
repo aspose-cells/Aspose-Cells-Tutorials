@@ -517,6 +517,9 @@ Aprenda a criar uma pasta de trabalho do Excel com propriedades personalizadas u
 ### [Criar pasta de trabalho do Excel java: lidar com datas de era japonesa](./create-excel-workbook-java-handle-japanese-era-dates/)
 Aprenda a criar pastas de trabalho do Excel em Java que suportam datas de era japonesa.
 
+### [Como definir local em uma pasta de trabalho Java usando Aspose.Cells](./how-to-set-locale-in-a-java-workbook-using-aspose-cells/)
+Aprenda a definir a localidade de uma pasta de trabalho Java com Aspose.Cells para garantir formatação correta de datas e números.
+
 ## Recursos adicionais
 
 - [Documentação do Aspose.Cells para Java](https://docs.aspose.com/cells/java/)

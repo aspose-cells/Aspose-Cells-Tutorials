@@ -52,6 +52,9 @@ Hướng dẫn chi tiết cách sử dụng Aspose.Cells để đưa dữ liệu
 ### [Cách tạo các bảng tính với Smart Markers – Hướng dẫn Java đầy đủ](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
 Tìm hiểu cách tạo các bảng tính bằng Smart Markers trong Aspose.Cells for Java, bao gồm các bước chi tiết và ví dụ thực tế.
 
+### [Cách tạo các worksheet trong Java bằng SmartMarkerProcessor](./how-to-generate-worksheets-in-java-using-smartmarkerprocesso/)
+Hướng dẫn chi tiết cách sử dụng SmartMarkerProcessor để tạo các worksheet trong Java.
+
 ### [Aspose Cells Smart Markers: Tải mẫu Excel và tạo Excel từ mẫu](./aspose-cells-smart-markers-load-excel-template-generate-exce/)
 Tìm hiểu cách sử dụng Smart Markers để tải mẫu Excel và tạo tệp Excel mới dựa trên dữ liệu.
 
@@ -71,6 +74,8 @@ Tìm hiểu cách tạo báo cáo bằng Smart Markers trong Excel sử dụng J
 Tìm hiểu cách tạo sổ làm việc Excel bằng Smart Markers trong Java, bao gồm các ví dụ và hướng dẫn chi tiết.
 ### [Cách tạo smart markers cho worksheets bằng Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
 Hướng dẫn tạo smart markers cho các worksheet bằng Aspose.Cells.
+
+### [Cách lưu workbook dưới dạng PDF và nhúng phông chữ bằng Java](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
 
 ## Tài nguyên bổ sung
 

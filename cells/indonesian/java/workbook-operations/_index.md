@@ -231,7 +231,7 @@ Panduan lengkap membuat buku kerja Excel di Java menggunakan Aspose.Cells, denga
 Panduan langkah demi langkah untuk membuat buku kerja Excel baru menggunakan Aspose.Cells untuk Java.
 
 ### [Cara Menambahkan Properti Kustom di Excel (Java) – Mengambil Nilai & Menyimpan sebagai XLSB](./how-to-add-custom-property-in-excel-java-retrieve-value-save/)
-Pelajari cara menambahkan properti kustom ke file Excel menggunakan Aspose.Cells untuk Java, mengambil nilainya, dan menyimpan sebagai file XLSB.
+Pelajari cara menambahkan properti kustom ke file Excel menggunakan Aspose.Cells untuk Java, mengambil nilainya, dan menyimpannya sebagai file XLSB.
 ### [Simpan Buku Kerja Baru di Java – Tutorial Menyalin Rentang Antara Buku Kerja](./save-new-workbook-in-java-copy-range-between-workbooks-tutor/)
 Pelajari cara menyimpan buku kerja baru di Java serta menyalin rentang data antar buku kerja menggunakan Aspose.Cells.
 ### [Cara menyalin sel antar buku kerja Excel di Java](./how-to-copy-cells-between-excel-workbooks-in-java/)
@@ -251,7 +251,7 @@ Pelajari cara menghasilkan file Excel menggunakan Java dengan panduan langkah de
 Pelajari cara membuat buku kerja Excel dengan Java yang mendukung tanggal era Jepang menggunakan Aspose.Cells.
 ### [Cara menyimpan file xlsb dengan properti khusus menggunakan Aspose.Cells untuk Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
 ### [Cara Mendapatkan Properti Kustom Java Menggunakan Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)
-Pelajari cara mengambil properti kustom dari buku kerja Excel menggunakan Aspose.Cells untuk Java.
+### [Cara mengatur locale pada buku kerja Java menggunakan Aspose.Cells](./how-to-set-locale-in-a-java-workbook-using-aspose-cells/)
 
 ## Sumber Daya Tambahan
 

@@ -62,6 +62,9 @@ Naučte se, jak transformovat data z Excelu do vysoce kvalitních obrázků pomo
 ### [Jak exportovat oblast Excelu jako obrázek v Javě pomocí Aspose.Cells](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
 Naučte se, jak pomocí Aspose.Cells v Javě exportovat vybranou oblast listu Excelu jako obrázek.
 
+### [Exportovat Excel jako obrázek v Javě – kompletní průvodce](./export-excel-as-image-with-java-complete-guide/)
+Naučte se, jak pomocí Aspose.Cells v Javě exportovat celý sešit Excelu jako vysoce kvalitní obrázek.
+
 ### [Nastavení grafického pozadí v souborech ODS pomocí Aspose.Cells v Javě: Podrobný návod](./aspose-cells-java-set-ods-graphic-background/)
 Naučte se, jak nastavit grafické pozadí v souborech ODS pomocí Aspose.Cells pro Javu. Vylepšete své tabulky profesionálními vizuály a zvyšte jejich atraktivitu.
 
