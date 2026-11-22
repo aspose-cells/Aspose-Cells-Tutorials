@@ -1,0 +1,7 @@
+Title: Export Excel as image with Java – complete guide
+Slug: export-excel-as-image-with-java-complete-guide
+Category: images-shapes
+ProcessedDate: 2026-11-22T19:21:51.407018
+SourceRepo: AI Search API
+Keywords: export excel as image, add picture to worksheet, export excel sheet to png, save excel as png file, save workbook as image
+PRNumber: 212
