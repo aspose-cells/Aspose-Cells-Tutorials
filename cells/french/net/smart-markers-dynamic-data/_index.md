@@ -156,6 +156,9 @@ Apprenez à étendre les marqueurs intelligents sur plusieurs feuilles de calcul
 Apprenez à insérer un espace réservé de marqueur intelligent dans un classeur Excel en utilisant C# avec Aspose.Cells.
 ### [Comment répéter une feuille de calcul dans Excel avec SmartMarkerProcessor](./how-to-repeat-worksheet-in-excel-with-smartmarkerprocessor/)
 
+### [Comment créer un fichier Excel à partir de données JSON avec Aspose.Cells et Smart Marker](./how-to-create-excel-from-json-data-with-aspose-cells-and-sma/)
+Apprenez à convertir des données JSON en classeur Excel en utilisant Aspose.Cells et les Smart Markers, étape par étape.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

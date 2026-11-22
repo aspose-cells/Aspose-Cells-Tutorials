@@ -64,6 +64,8 @@ Leer hoe u een plat OPC‑bestand maakt met C# met behulp van Aspose.Cells voor 
 Leer hoe u een werkmap opslaat als XLSX en Excel-bestanden genereert met data met Aspose.Cells voor .NET.
 ### [Hoe een werkmap op te slaan in C# – Complete programmeergids](./how-to-save-workbook-in-c-complete-programming-guide/)
 Leer stap voor stap hoe u een werkmap opslaat in C# met Aspose.Cells, inclusief alle opties en best practices.
+### [Hoe een xlsb-bestand te maken met aangepaste werkblad-eigenschappen in C#](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
+Leer hoe u een xlsb-bestand maakt en werkblad-eigenschappen instelt via C# met Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

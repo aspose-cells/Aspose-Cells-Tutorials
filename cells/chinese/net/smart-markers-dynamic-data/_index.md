@@ -185,6 +185,9 @@ Aspose.Cells 智能标记器还支持匿名类型，无需预定义结构即可�
 ### [使用 C# 在 Excel 中插入智能标记占位符](./insert-smart-marker-placeholder-in-excel-with-c/)
 了解如何使用 C# 在 Excel 文件中插入智能标记占位符，以实现动态数据填充。
 
+### [使用 SmartMarkerProcessor 在 Excel 中重复工作表](./how-to-repeat-worksheet-in-excel-with-smartmarkerprocessor/)
+学习使用 SmartMarkerProcessor 在 Excel 中重复工作表，实现高效的报表自动化。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -325,3 +328,6 @@ Aspose.Cells 智能标记器还支持匿名类型，无需预定义结构即可�
 
 ### [使用 SmartMarkerProcessor 在 Excel 中重复工作表](./how-to-repeat-worksheet-in-excel-with-smartmarkerprocessor/)
 学习使用 SmartMarkerProcessor 在 Excel 中重复工作表，实现高效的报表自动化。
+
+### [如何使用 Aspose.Cells 和 Smart Marker 从 JSON 数据创建 Excel](./how-to-create-excel-from-json-data-with-aspose-cells-and-sma/)
+学习使用 Aspose.Cells 的 Smart Marker 将 JSON 数据转换为 Excel 文件，实现自动化报表生成。

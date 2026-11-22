@@ -51,6 +51,7 @@ Zarządzanie pustymi wartościami w zestawach danych może być uciążliwe, ale
 
 ### [Create Excel from JSON with SmartMarker in C#](./create-excel-from-json-with-smartmarker-in-c/)
 
+### [Jak utworzyć plik Excel z danych JSON przy użyciu Aspose.Cells i Smart Marker](./how-to-create-excel-from-json-data-with-aspose-cells-and-sma/)
 
 ### [Jak ocenić formułę za pomocą inteligentnych znaczników – Kompletny przewodnik](./how-to-evaluate-formula-with-smart-markers-complete-guide/)
 Dowiedz się, jak ocenić formuły w Excelu przy użyciu inteligentnych znaczników w Aspose.Cells, aby automatycznie obsługiwać warunki i wyniki.

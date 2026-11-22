@@ -62,6 +62,8 @@ Apprenez à créer un fichier OPC plat en C# avec Aspose.Cells, étape par étap
 Découvrez comment enregistrer un classeur au format XLSX et générer des fichiers Excel contenant des données avec Aspose.Cells pour .NET.
 ### [Comment enregistrer un classeur en C# – Guide complet de programmation](./how-to-save-workbook-in-c-complete-programming-guide/)
 Apprenez à enregistrer un classeur Excel en C# avec Aspose.Cells, étape par étape, en couvrant toutes les options de sauvegarde.
+### [Comment créer un fichier xlsb avec des propriétés de feuille de calcul personnalisées en C#](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
+Apprenez à créer un fichier XLSB avec des propriétés de feuille personnalisées en C# grâce à Aspose.Cells, guide étape par étape.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

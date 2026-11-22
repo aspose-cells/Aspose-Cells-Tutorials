@@ -80,6 +80,9 @@ Aprenda a gerar planilhas Excel a partir de um modelo e criar múltiplas abas re
 ### [Como gerar Excel a partir de modelo com C# e Aspose.Cells](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
 Aprenda a gerar arquivos Excel a partir de modelos usando C# e Aspose.Cells de forma programática.
 
+### [Como preencher modelo Excel e gerar várias planilhas com Aspose.Cells](./how-to-populate-excel-template-and-generate-multiple-sheets)
+Aprenda a popular um modelo Excel e gerar múltiplas planilhas programaticamente usando Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

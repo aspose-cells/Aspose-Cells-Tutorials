@@ -198,7 +198,8 @@ Master Aspose.Cells για .NET με Γενικές Λίστες και Έξυπ
 
 ### [Δημιουργία Excel από JSON με SmartMarker σε C#](./create-excel-from-json-with-smartmarker-in-c/)
 Μάθετε πώς να μετατρέψετε δεδομένα JSON σε αρχείο Excel χρησιμοποιώντας SmartMarker σε C#.
-
+### [Πώς να δημιουργήσετε Excel από δεδομένα JSON με Aspose.Cells και Smart Marker](./how-to-create-excel-from-json-data-with-aspose-cells-and-sma/)
+Μάθετε πώς να δημιουργήσετε αρχείο Excel από δεδομένα JSON χρησιμοποιώντας Aspose.Cells και Smart Marker σε C#.
 ### [Εισαγωγή placeholder έξυπνου δείκτη σε Excel με C#](./insert-smart-marker-placeholder-in-excel-with-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}

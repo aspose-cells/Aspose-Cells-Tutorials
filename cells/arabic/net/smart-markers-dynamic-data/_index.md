@@ -66,6 +66,8 @@
 
 ### [تحويل JSON إلى Excel باستخدام C# – دليل خطوة بخطوة](./convert-json-to-excel-with-c-step-by-step-guide/)
 
+### [كيفية إنشاء Excel من بيانات JSON باستخدام Aspose.Cells و Smart Marker](./how-to-create-excel-from-json-data-with-aspose-cells-and-sma/)
+
 ### [كيفية ربط الأوراق في Excel باستخدام SmartMarker – دليل خطوة بخطوة](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
 
 ### [إضافة تسميات مخصصة باستخدام علامات ذكية في Aspose.Cells](./add-custom-labels-smart-markers/)

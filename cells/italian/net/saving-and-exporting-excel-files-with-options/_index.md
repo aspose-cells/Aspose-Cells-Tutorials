@@ -64,6 +64,8 @@ Scopri come generare un file OPC flat usando C# con Aspose.Cells, passo passo, p
 Impara a salvare una cartella di lavoro in formato XLSX usando Aspose.Cells per .NET, con dati personalizzati passo passo.
 ### [Come salvare una cartella di lavoro in C# – Guida completa di programmazione](./how-to-save-workbook-in-c-complete-programming-guide/)
 Scopri come salvare una cartella di lavoro in C# con Aspose.Cells per .NET, passo dopo passo, con esempi di codice completi.
+### [Come creare un file xlsb con proprietà personalizzate del foglio di lavoro in C#](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
+Scopri come generare un file xlsb impostando proprietà personalizzate per i fogli di lavoro usando Aspose.Cells per .NET in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

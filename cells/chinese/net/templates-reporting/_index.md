@@ -75,6 +75,8 @@ Aspose.Cells Net 代码教程
 ### [使用 C# 和 Aspose.Cells 从模板生成 Excel](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
 学习如何使用 C# 和 Aspose.Cells 从模板生成 Excel 文件，实现自动化报表。
 
+### [使用 Aspose.Cells 填充 Excel 模板并生成多个工作表](./how-to-populate-excel-template-and-generate-multiple-sheets)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

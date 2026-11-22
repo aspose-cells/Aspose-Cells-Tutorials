@@ -87,6 +87,9 @@ Hướng dẫn tạo tệp Excel từ mẫu và tự động tạo các sheet l�
 ### [Cách tạo Excel từ mẫu bằng C# và Aspose.Cells](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
 Hướng dẫn chi tiết cách tạo tệp Excel từ mẫu sử dụng C# và Aspose.Cells.
 
+### [Cách điền dữ liệu vào mẫu Excel và tạo nhiều sheet với Aspose.Cells](./how-to-populate-excel-template-and-generate-multiple-sheets)
+Hướng dẫn chi tiết cách tự động điền dữ liệu vào mẫu Excel và tạo nhiều sheet bằng Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

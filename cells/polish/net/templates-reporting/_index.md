@@ -86,6 +86,9 @@ Dowiedz się, jak programowo tworzyć pliki Excel z szablonu i generować powtar
 ### [Konwertuj zestaw danych do Excela i wypełnij szablon Excela](./convert-dataset-to-excel-and-populate-an-excel-template)
 Dowiedz się, jak przekształcić zestaw danych w plik Excel i wypełnić szablon Excela przy użyciu Aspose.Cells dla .NET.
 
+### [Jak wypełnić szablon Excela i wygenerować wiele arkuszy przy użyciu Aspose.Cells](./how-to-populate-excel-template-and-generate-multiple-sheets)
+Dowiedz się, jak programowo wypełnić szablon Excela i generować wiele arkuszy przy użyciu Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

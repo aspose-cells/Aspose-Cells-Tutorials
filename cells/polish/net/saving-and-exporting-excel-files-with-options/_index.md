@@ -64,6 +64,8 @@ Dowiedz się, jak w C# utworzyć płaski plik OPC przy użyciu Aspose.Cells, kro
 Dowiedz się, jak w .NET zapisać skoroszyt jako plik XLSX, generując pełny arkusz Excel z danymi przy użyciu Aspose.Cells.
 ### [Jak zapisać skoroszyt w C# – Kompletny przewodnik programistyczny](./how-to-save-workbook-in-c-complete-programming-guide/)
 Dowiedz się, jak zapisać skoroszyt przy użyciu Aspose.Cells w C#, krok po kroku, z pełnym przykładem kodu.
+### [Jak utworzyć plik xlsb z niestandardowymi właściwościami arkusza w C#](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
+Dowiedz się, jak w C# utworzyć plik xlsb z własnymi właściwościami arkusza przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

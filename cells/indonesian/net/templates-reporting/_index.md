@@ -75,6 +75,9 @@ Pelajari cara mengekspor data ke file Excel menggunakan templat C# dengan Aspose
 
 ### [Cara menghasilkan Excel dari template dengan C# dan Aspose.Cells](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
 
+### [Cara mengisi template Excel dan menghasilkan beberapa lembar dengan Aspose.Cells](./how-to-populate-excel-template-and-generate-multiple-sheets)
+Pelajari cara mengisi template Excel dan secara otomatis membuat beberapa lembar kerja menggunakan Aspose.Cells dengan C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

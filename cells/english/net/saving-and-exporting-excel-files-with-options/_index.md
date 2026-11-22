@@ -38,6 +38,8 @@ Empty rows and columns can clutter your exports, especially when dealing with CS
 Learn how to easily export comments while saving Excel files to HTML using Aspose.Cells for .NET. Follow this step-by-step guide to preserve annotations.
 ### [Getting Warnings while Loading Excel File in .NET](./getting-warnings-while-loading-excel-file/)
 Learn how to handle warnings while loading Excel files in .NET using Aspose.Cells with our easy step-by-step guide.
+### [How to create xlsb file with custom worksheet properties in C#](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
+Learn how to create an XLSB file with custom worksheet properties in C# using Aspose.Cells for .NET.
 ### [Specifying Document Version of Excel File Programmatically in .NET](./specifying-document-version-of-excel-file/)
 Learn how to specify document properties like version, author, and title in an Excel file programmatically using Aspose.Cells for .NET with step-by-step instructions.
 ### [Trimming Leading Blank Rows and Columns while Exporting](./trimming-leading-blank-rows-and-columns/)

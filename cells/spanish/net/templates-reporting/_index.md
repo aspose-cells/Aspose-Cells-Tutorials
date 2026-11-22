@@ -82,6 +82,9 @@ Aprenda a convertir un conjunto de datos a Excel y a rellenar una plantilla de E
 ### [Cómo crear Excel a partir de una plantilla y generar hojas repetidas](./how-to-create-excel-from-template-and-generate-repeated-shee)
 Aprenda a crear archivos Excel a partir de una plantilla y generar hojas repetidas automáticamente.
 
+### [Cómo poblar una plantilla de Excel y generar múltiples hojas con Aspose.Cells](./how-to-populate-excel-template-and-generate-multiple-sheets)
+Aprenda a rellenar una plantilla de Excel y crear varias hojas automáticamente usando Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

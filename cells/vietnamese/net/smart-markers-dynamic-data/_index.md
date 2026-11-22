@@ -114,6 +114,7 @@ Mở khóa sức mạnh của Aspose.Cells. Tìm hiểu cách triển khai mản
 ### [Cách Lặp Lại Các Trang Tính – Hướng Dẫn Toàn Diện cho Tự Động Hóa Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 ### [Tạo Excel từ JSON với Aspose.Cells Smart Marker](./create-excel-from-json-with-aspose-cells-smart-marker/)
 ### [Tạo Excel từ JSON với SmartMarker trong C#](./create-excel-from-json-with-smartmarker-in-c/)
+### [Cách tạo Excel từ dữ liệu JSON với Aspose.Cells và Smart Marker](./how-to-create-excel-from-json-data-with-aspose-cells-and-sma/)
 ### [Mở rộng worksheet Smart Markers trong C# cho mẫu Excel](./expand-worksheet-smart-markers-in-c-for-excel-templates/)
 
 ### [Chèn placeholder smart marker vào Excel bằng C#](./insert-smart-marker-placeholder-in-excel-with-c/)

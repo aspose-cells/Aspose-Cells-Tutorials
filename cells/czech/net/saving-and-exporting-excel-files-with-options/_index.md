@@ -46,14 +46,6 @@ Zjednodušte export CSV oříznutím úvodních prázdných řádků a sloupců 
 Naučte se, jak uložit sešit pomocí Aspose.Cells v C# s podrobným návodem pro kompletní automatizaci Excelu.
 ### [Jak použít FlatOpcSaveOptions v C# – Kompletní průvodce](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
 Naučte se, jak využít FlatOpcSaveOptions pro ukládání souborů s možností Flat OPC v C# pomocí Aspose.Cells pro .NET.
-
-
-
-
-
-
-
-
 ### [Jak uložit sešit v C# – Kompletní průvodce odstraňováním filtrů a exportem Excelu](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
 Naučte se, jak uložit sešit, vymazat filtry a exportovat Excel pomocí Aspose.Cells pro .NET.
 ### [Uložení sešitu Excel z JSON – kompletní průvodce v C#](./save-excel-workbook-from-json-complete-c-guide/)
@@ -64,6 +56,7 @@ Kompletní návod, jak pomocí C# vytvořit plochý OPC soubor pro Excel, včetn
 Kompletní návod, jak uložit sešit jako soubor XLSX a generovat Excel s daty pomocí Aspose.Cells pro .NET.
 ### [Jak uložit sešit v C# – kompletní programovací průvodce](./how-to-save-workbook-in-c-complete-programming-guide/)
 Kompletní návod, jak v C# uložit sešit pomocí Aspose.Cells, včetně nastavení formátů, možností a příkladů kódu.
+### [Jak vytvořit soubor xlsb s vlastními vlastnostmi listu v C#](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

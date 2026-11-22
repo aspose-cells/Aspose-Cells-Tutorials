@@ -43,6 +43,8 @@ Aspose.Cells Akıllı İşaretleyicileri ayrıca anonim türleri destekleyerek �
 
 ### [How to create excel report list with Aspose.Cells smart markers](./how-to-create-excel-report-list-with-aspose-cells-smart-mark/)
 
+### [Aspose.Cells ve Smart Marker ile JSON verilerinden Excel Oluşturma](./how-to-create-excel-from-json-data-with-aspose-cells-and-sma/)
+Aspose.Cells ve Smart Marker kullanarak JSON verilerini Excel dosyasına dönüştürmeyi adım adım öğrenin.
 
 ## Akıllı İşaretleyicilerde HTML Özelliğini Kullanın
 HTML içeriğini doğrudan Excel sayfalarınıza ekleyebileceğinizi biliyor muydunuz? Aspose.Cells ile HTML özelliği, biçimlendirilmiş metinleri, bağlantıları ve görüntüleri doğrudan Akıllı İşaretleyicilerinizin içine yerleştirmenize olanak tanır. Bu işlevsellik, yalnızca veri içermeyen, aynı zamanda görsel olarak da çekici olan raporlar oluşturmak için mükemmeldir. Kaynaklara köprüler eklemek veya metni renkler ve yazı tipleriyle biçimlendirmek istiyorsanız, bu eğitim sizi süreçte yönlendirecektir. [Devamını oku](./html-property-smart-markers/)
@@ -73,7 +75,7 @@ Aspose.Cells for .NET'te akıllı işaretleyicilerle verileri zahmetsizce grupla
 Aspose.Cells for .NET'te resim işaretleyicilerini kullanarak resim eklemeyi adım adım kılavuzumuzla keşfedin! Excel raporlarınızı görsellerle etkili bir şekilde geliştirin.
 ### [Akıllı İşaretleyicilerle Anonim Türleri Kullanın Aspose.Cells](./use-anonymous-types-smart-markers/)
 .NET'te dinamik Excel rapor üretimi için Aspose.Cells'de akıllı işaretçilerle anonim türlerin nasıl kullanılacağını öğrenin. Kolay kılavuzumuzu takip edin.
-### [Aspose.Cells Akıllı İşaretleyicilerinde Kopyalama Stili Özniteliğini Uygula](./copy-style-attribute-smart-markers/)
+### [Akıllı İşaretleyicilerde Kopyalama Stili Özniteliğini Uygula](./copy-style-attribute-smart-markers/)
 ### [Akıllı İşaretleyici Alanında Formül Parametresini Kullanın Aspose.Cells](./formula-parameter-smart-marker/)
 Aspose.Cells for .NET ile akıllı işaretçilerde formül parametrelerini kullanmayı öğrenin. Kolayca dinamik elektronik tablolar oluşturun.
 ### [Akıllı İşaretleyicilerde Genel Listeyi Kullanın Aspose.Cells](./generic-list-smart-markers/)

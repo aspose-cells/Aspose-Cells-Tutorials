@@ -104,6 +104,9 @@ Learn how to generate an Excel workbook from a template and automatically create
 ### [How to generate Excel from template with C# and Aspose.Cells](./how-to-generate-excel-from-template-with-c-and-aspose-cells/)
 Learn how to generate an Excel file from a template using C# and Aspose.Cells with clear step‑by‑step code examples.
 
+### [How to populate Excel template and generate multiple sheets with Aspose.Cells](./how-to-populate-excel-template-and-generate-multiple-sheets)
+Learn how to fill an Excel template and automatically generate multiple worksheets using Aspose.Cells for .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

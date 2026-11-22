@@ -177,7 +177,12 @@ C#에서 SmartMarker를 사용해 마스터‑디테일 보고서를 만들고 E
 ### [C#에서 SmartMarker를 사용해 JSON으로 Excel 만들기](./create-excel-from-json-with-smartmarker-in-c/)
 C#와 Aspose.Cells SmartMarker를 사용해 JSON 데이터를 Excel 파일로 변환하는 방법을 단계별로 안내합니다.
 
-### [C#에서 스마트 마커 자리 표시자를 Excel에 삽입하기](./insert-smart-marker-placeholder-in-excel-with-c/)
+### [Aspose.Cells와 Smart Marker를 사용하여 JSON 데이터에서 Excel 만들기](./how-to-create-excel-from-json-data-with-aspose-cells-and-sma/)
+Aspose.Cells와 Smart Marker를 활용해 JSON 데이터를 Excel 파일로 변환하는 단계별 가이드.
+
+### 새 튜토리얼 추가
+### [C#에서 SmartMarker를 사용해 JSON으로 Excel 만들기](./create-excel-from-json-with-smartmarker-in-c/)
+C#와 Aspose.Cells SmartMarker를 사용해 JSON 데이터를 Excel 파일로 변환하는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

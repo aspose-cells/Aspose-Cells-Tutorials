@@ -65,6 +65,9 @@ Aspose.Cells for .NET 為開發人員提供了強大的工具來管理 .NET 應�
 ### [如何在 C# 中儲存工作簿 – 完整程式設計指南](./how-to-save-workbook-in-c-complete-programming-guide/)
 本完整指南說明如何使用 Aspose.Cells for .NET 在 C# 中儲存工作簿，涵蓋所有關鍵步驟與選項設定。
 
+### [如何在 C# 中建立具有自訂工作表屬性的 xlsb 檔案](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
+了解如何在 C# 使用 Aspose.Cells 建立 xlsb 檔案，並自訂工作表屬性。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

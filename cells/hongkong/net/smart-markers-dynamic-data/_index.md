@@ -26,6 +26,9 @@
 ## 插入帶有圖像標記的圖像
 視覺效果為報告增添了活力！使用 Aspose.Cells，您可以使用圖像標記將圖像插入到 Excel 檔案中。了解如何將視覺效果直接整合到 Excel 單元格中，從而創建更具資訊量、更具視覺吸引力的報告，給受眾留下深刻印象。 [閱讀更多](./insert-images-smart-markers/)
 
+### [How to create Excel from JSON data with Aspose.Cells and Smart Marker](./how-to-create-excel-from-json-data-with-aspose-cells-and-sma/)
+
+
 ### [在 Excel 中使用 C# 插入智慧標記佔位符](./insert-smart-marker-placeholder-in-excel-with-c/)
 說明如何在 C# 中使用 Aspose.Cells Smart Markers 在 Excel 中插入佔位符，以便後續資料填充。
 

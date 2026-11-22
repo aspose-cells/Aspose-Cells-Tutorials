@@ -97,6 +97,9 @@ Naučte se, jak pomocí Aspose.Cells vytvořit Excel ze šablony a generovat opa
 
 ### [Jak generovat Excel ze šablony pomocí C# a Aspose.Cells](./how-to-generate-excel-from-template-with-c-and-aspose-cells/)
 
+### [Jak naplnit šablonu Excel a vygenerovat více listů pomocí Aspose.Cells](./how-to-populate-excel-template-and-generate-multiple-sheets)
+Naučte se, jak naplnit Excel šablonu a automaticky vytvořit více listů pomocí Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
