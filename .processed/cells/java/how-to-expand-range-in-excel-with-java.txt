@@ -1,0 +1,7 @@
+Title: How to expand range in Excel with Java
+Slug: how-to-expand-range-in-excel-with-java
+Category: range-management
+ProcessedDate: 2026-11-22T19:22:12.065652
+SourceRepo: AI Search API
+Keywords: how to expand range, automate excel calculations, read excel file java, use expand function, how to use expand
+PRNumber: 212
