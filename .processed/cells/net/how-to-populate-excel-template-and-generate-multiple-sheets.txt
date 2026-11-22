@@ -1,0 +1,7 @@
+Title: How to populate Excel template and generate multiple sheets with Aspose.Cells
+Slug: how-to-populate-excel-template-and-generate-multiple-sheets
+Category: templates-reporting
+ProcessedDate: 2026-11-22T17:17:06.204136
+SourceRepo: AI Search API
+Keywords: populate excel template, generate multiple sheets, save aspose workbook, generate master detail report
+PRNumber: 211
