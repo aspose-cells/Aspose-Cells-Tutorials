@@ -1,0 +1,7 @@
+Title: Convert Excel to PowerPoint in Java – step‑by‑step guide
+Slug: convert-excel-to-powerpoint-in-java-step-by-step-guide
+Category: integration-interoperability
+ProcessedDate: 2026-11-22T19:22:04.402148
+SourceRepo: AI Search API
+Keywords: convert excel to powerpoint, create powerpoint from excel file, convert excel workbook to pptx slides, java convert .xlsx to .pptx
+PRNumber: 212
