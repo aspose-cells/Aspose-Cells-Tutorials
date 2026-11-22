@@ -1,0 +1,7 @@
+Title: How to use wrapcols in Java with Aspose.Cells
+Slug: how-to-use-wrapcols-in-java-with-aspose-cells
+Category: range-management
+ProcessedDate: 2026-11-22T19:21:56.446870
+SourceRepo: AI Search API
+Keywords: how to use wrapcols, convert range to columns, wrap columns excel function
+PRNumber: 212
