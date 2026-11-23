@@ -34,6 +34,9 @@ Personalizar metadados de documentos, como versão, autor ou título, é essenci
 Linhas e colunas vazias podem desorganizar suas exportações, especialmente ao lidar com arquivos CSV. [Aparando linhas e colunas em branco iniciais durante a exportação](./trimming-leading-blank-rows-and-columns/) Este tutorial permite que você limpe seus dados eliminando espaços em branco desnecessários no início de linhas e colunas. Este tutorial é perfeito para desenvolvedores que desejam criar arquivos concisos e organizados, prontos para análise ou apresentação. Uma saída limpa e refinada não só tem aparência profissional, como também facilita muito o processamento de dados.
 
 ## Tutoriais sobre como salvar e exportar arquivos do Excel com opções
+### [How to create xlsb file with custom worksheet properties in C#](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
+
+
 ### [Exportando comentários ao salvar arquivo Excel em HTML](./exporting-comments/)
 Aprenda a exportar comentários facilmente enquanto salva arquivos do Excel em HTML usando o Aspose.Cells para .NET. Siga este guia passo a passo para preservar anotações.
 ### [Recebendo avisos ao carregar arquivo Excel no .NET](./getting-warnings-while-loading-excel-file/)

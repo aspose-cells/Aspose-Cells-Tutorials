@@ -71,7 +71,7 @@ Scopri come creare fatture Excel automatizzate con Aspose.Cells, includendo dati
 Scopri come elaborare un modello Excel e rinominare automaticamente i fogli usando C# con Aspose.Cells.
 
 ### [Come esportare dati in Excel usando un modello C# – guida passo‑passo](./how-to-export-data-to-excel-using-a-c-template-step-by-step)
-Scopri come esportare dati in Excel da un modello C# con Aspose.Cells, seguendo una procedura dettagliata passo‑passo.
+Scopri come esportare dati in Excel da un modello C# con Aspose.Cells, seguendo una procedura dettagliata passo‑step.
 ### [Genera report Excel con C# – Guida passo‑passo](./generate-excel-report-with-c-step-by-step-guide/)
 Scopri come creare un report Excel in C# passo dopo passo, dalla configurazione dei dati alla generazione del file finale.
 
@@ -85,6 +85,9 @@ Scopri come trasformare un dataset in un file Excel e riempire un modello Excel 
 
 ### [Come generare Excel da modello con C# e Aspose.Cells](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
 Scopri come creare file Excel da un modello predefinito usando C# e Aspose.Cells, passo dopo passo.
+
+### [Come popolare un modello Excel e generare più fogli con Aspose.Cells](./how-to-populate-excel-template-and-generate-multiple-sheets/)
+Scopri come popolare un modello Excel e creare più fogli automaticamente usando Aspose.Cells per .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

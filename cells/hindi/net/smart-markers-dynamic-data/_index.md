@@ -94,9 +94,7 @@ Aspose.Cells स्मार्ट मार्कर अनाम प्रक�
 
 ### [C# में SmartMarker के साथ JSON से Excel बनाएं](./create-excel-from-json-with-smartmarker-in-c/)
 
-### [C# के साथ प्रोग्रामेटिक रूप से Excel वर्कबुक बनाएं](./how-to-create-excel-workbook-programmatically-with-c/)
-
-### [स्मार्ट मार्कर डेटा बनाकर एक्सेल टेम्प्लेट डेटा भरना कैसे करें](./how-to-create-smart-marker-data-and-fill-excel-template-data/)
+### [Aspose.Cells में स्मार्ट मार्कर के साथ JSON डेटा से Excel बनाएं](./how-to-create-excel-from-json-data-with-aspose-cells-and-sma/)
 
 ### [C# में SmartMarker का उपयोग करके JSON को XLSX में बदलें](./convert-json-to-xlsx-in-c-using-smartmarker/)
 
@@ -182,7 +180,7 @@ C# में नेस्टेड JSON को पार्स करके JSON
 
 ### [Aspose.Cells स्मार्ट मार्कर के साथ मास्टर‑डिटेल वर्कबुक बनाएं](./create-master-detail-workbook-with-aspose-cells-smart-marker/)
 
-### [मास्टर‑डिटेल एक्सेल गाइड – स्मार्ट मार्कर्स के साथ टेम्प्लेट्स भरें](./master-detail-excel-guide-populate-templates-with-smart-mark/)
+### [मास्टर‑डिटेल एक्सेल गाइड – स्मार्ट मार्कर्स के साथ टेम्पलेट्स भरें](./master-detail-excel-guide-populate-templates-with-smart-mark/)
 
 ### [वर्कशीट्स को दोहराने का तरीका – एक्सेल ऑटोमेशन के लिए पूर्ण गाइड](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 

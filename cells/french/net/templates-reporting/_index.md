@@ -80,6 +80,9 @@ Apprenez à convertir un jeu de données en fichier Excel et à le remplir à l'
 ### [Comment créer un Excel à partir d'un modèle et générer des feuilles répétées](./how-to-create-excel-from-template-and-generate-repeated-shee)
 Apprenez à créer un classeur Excel à partir d'un modèle et à générer automatiquement des feuilles répétées.
 
+### [Comment remplir un modèle Excel et générer plusieurs feuilles avec Aspose.Cells](./how-to-populate-excel-template-and-generate-multiple-sheets)
+Apprenez à remplir un modèle Excel et à créer plusieurs feuilles automatiquement avec Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

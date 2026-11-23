@@ -84,6 +84,9 @@ Tanulja meg, hogyan bővíthet tömböt Excelben és töltheti fel egy sablonba.
 
 ### [Adathalmaz konvertálása Excelbe és Excel sablon kitöltése](./convert-dataset-to-excel-and-populate-an-excel-template)
 
+### [Hogyan töltsünk fel Excel sablont és generáljunk több munkalapot az Aspose.Cells segítségével](./how-to-populate-excel-template-and-generate-multiple-sheets)
+Ismerje meg, hogyan tölthet fel adatokat egy Excel sablonba, és automatikusan generálhat több munkalapot az Aspose.Cells használatával.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

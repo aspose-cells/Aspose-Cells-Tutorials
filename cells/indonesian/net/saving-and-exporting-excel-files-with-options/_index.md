@@ -63,6 +63,8 @@ Pelajari cara membuat file OPC datar menggunakan C# dengan panduan lengkap langk
 Pelajari cara menyimpan workbook sebagai file XLSX dengan data lengkap menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah.
 ### [Cara Menyimpan Workbook di C# – Panduan Pemrograman Lengkap](./how-to-save-workbook-in-c-complete-programming-guide/)
 Pelajari cara menyimpan workbook menggunakan C# dengan panduan pemrograman lengkap menggunakan Aspose.Cells untuk .NET.
+### [Cara membuat file xlsb dengan properti lembar kerja khusus di C#](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
+Pelajari cara membuat file xlsb dengan properti lembar kerja khusus menggunakan Aspose.Cells untuk .NET dalam C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

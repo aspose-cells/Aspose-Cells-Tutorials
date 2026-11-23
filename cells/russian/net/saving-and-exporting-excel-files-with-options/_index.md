@@ -64,6 +64,8 @@ Aspose.Cells for .NET предоставляет разработчикам мо
 Узнайте, как сохранить рабочую книгу в формате XLSX, генерируя Excel с данными, используя Aspose.Cells для .NET.
 ### [Как сохранить рабочую книгу в C# – Полное руководство по программированию](./how-to-save-workbook-in-c-complete-programming-guide/)
 Узнайте, как сохранить рабочую книгу в C# с помощью Aspose.Cells для .NET, следуя полному пошаговому руководству.
+### [Как создать файл xlsb с пользовательскими свойствами листа в C#](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
+Узнайте, как создать файл xlsb с пользовательскими свойствами листа в C# с помощью Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

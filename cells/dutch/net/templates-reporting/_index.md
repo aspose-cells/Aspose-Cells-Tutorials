@@ -62,7 +62,7 @@ Leer hoe u een ingevuld werkboek programmeerbaar opslaat met Aspose.Cells in .NE
 ### [Werkboek-sjabloon maken met Aspose.Cells – Complete gids](./create-workbook-template-with-aspose-cells-complete-guide/)
 Leer hoe u met Aspose.Cells een herbruikbaar werkboek-sjabloon maakt en automatisch gegevens invoegt voor efficiënte rapportage.
 ### [Hoe een Excel-sjabloonbestand op te slaan – Stapsgewijze handleiding](./how-to-save-excel-template-file-step-by-step-guide/)
-Leer hoe u een Excel-sjabloonbestand opslaat met Aspose.Cells .NET, inclusief bestandsindeling, padinstellingen en voorbeeldcode.
+Leer hoe u een Excel‑sjabloonbestand opslaat met Aspose.Cells .NET, inclusief bestandsindeling, padinstellingen en voorbeeldcode.
 
 ### [Hoe Excel te gebruiken voor mailmerge – Complete C#-gids](./how-to-use-excel-for-mail-merge-complete-c-guide/)
 Leer stap voor stap hoe u Excel kunt inzetten voor mailmerge met C#, inclusief voorbeeldcode en configuratie.
@@ -88,6 +88,9 @@ Leer hoe u een Excel‑bestand maakt vanuit een sjabloon en automatisch meerdere
 
 ### [Hoe Excel te genereren vanuit sjabloon met C# en Aspose.Cells](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
 Leer hoe u met C# en Aspose.Cells een Excel‑bestand maakt op basis van een sjabloon, inclusief gegevensbinding en opslaan.
+
+### [Hoe een Excel‑sjabloon te vullen en meerdere bladen te genereren met Aspose.Cells](./how-to-populate-excel-template-and-generate-multiple-sheets)
+Leer hoe u een Excel‑sjabloon vult en automatisch meerdere werkbladen maakt met Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

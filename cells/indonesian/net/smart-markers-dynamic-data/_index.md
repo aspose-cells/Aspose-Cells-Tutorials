@@ -182,7 +182,7 @@ Az általános listák rugalmassága lehetővé teszi a fejlesztők számára, h
 
 ### [Panduan master detail Excel – mengisi templat dengan Smart Markers](./master-detail-excel-guide-populate-templates-with-smart-mark/)
 
-### [Cara Mengulang Lembar Kerja – Panduan Lengkap untuk Otomatisasi Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
+### [Cara mengulang Lembar Kerja – Panduan Lengkap untuk Otomatisasi Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 
 ### [Mengonfigurasi SmartMarkerOptions ArrayAsSingle di C# untuk array JSON](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
 
@@ -193,6 +193,8 @@ Az általános listák rugalmassága lehetővé teszi a fejlesztők számára, h
 ### [Menyisipkan placeholder smart marker di Excel dengan C#](./insert-smart-marker-placeholder-in-excel-with-c/)
 
 ### [Cara mengulang lembar kerja di Excel dengan SmartMarkerProcessor](./how-to-repeat-worksheet-in-excel-with-smartmarkerprocessor/)
+
+### [Cara membuat Excel dari data JSON dengan Aspose.Cells dan Smart Marker](./how-to-create-excel-from-json-data-with-aspose-cells-and-sma/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

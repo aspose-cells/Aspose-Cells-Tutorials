@@ -84,6 +84,9 @@
 ### [Πώς να δημιουργήσετε Excel από πρότυπο με C# και Aspose.Cells](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
 Μάθετε πώς να δημιουργήσετε αρχείο Excel από πρότυπο χρησιμοποιώντας C# και Aspose.Cells.
 
+### [Πώς να γεμίσετε πρότυπο Excel και να δημιουργήσετε πολλαπλά φύλλα με το Aspose.Cells](./how-to-populate-excel-template-and-generate-multiple-sheets)
+Μάθετε πώς να γεμίσετε ένα πρότυπο Excel και να δημιουργήσετε πολλαπλά φύλλα αυτόματα με το Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

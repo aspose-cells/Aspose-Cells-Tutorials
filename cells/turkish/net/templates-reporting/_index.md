@@ -79,6 +79,9 @@ Veri kümesini Excel dosyasına dönüştürüp, bir şablona otomatik olarak ve
 ### [C# ve Aspose.Cells ile Şablondan Excel Oluşturma](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
 C# ve Aspose.Cells kullanarak bir Excel şablonundan dinamik raporlar oluşturmayı öğrenin.
 
+### [Aspose.Cells ile Excel şablonunu doldurup birden fazla sayfa oluşturma](./how-to-populate-excel-template-and-generate-multiple-sheets)
+Aspose.Cells kullanarak bir Excel şablonunu doldurup, veriyle birden çok sayfa otomatik olarak oluşturmayı öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

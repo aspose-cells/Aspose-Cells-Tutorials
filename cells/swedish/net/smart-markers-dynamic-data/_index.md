@@ -125,13 +125,9 @@ Lär dig steg för steg hur du exporterar data till Excel med Smart Marker i C#.
 ### [Skapa Excel-arbetsbok programatiskt med Smart Markers i Aspose.Cells](./create-excel-workbook-programmatically-using-smart-markers/)
 ### [Skapa Excel från JSON med Aspose.Cells Smart Marker](./create-excel-from-json-with-smart-marker/)
 ### [Skapa Excel från JSON med SmartMarker i C#](./create-excel-from-json-with-smartmarker-in-c/)
-### [Konfigurera SmartMarkerOptions ArrayAsSingle i C# för JSON-arrayer](./configure-smartmarkeroptions-arrayassingle-in-c-for-json-arr/)
-
-Lär dig hur du programatiskt skapar en Excel‑arbetsbok med Smart Markers i Aspose.Cells för .NET.
-
-### [Hur man skapar Excel-arbetsbok med smarta markörer för en dynamisk Excel-rapport](./how-to-create-excel-workbook-with-smart-markers-for-a-dynami/)
-
-Lär dig skapa en Excel‑arbetsbok med smarta markörer för dynamiska rapporter i Aspose.Cells för .NET.
+### [Konvertera JSON till XLSX i C# med SmartMarker](./convert-json-to-xlsx-in-c-using-smartmarker/)
+### [Hur du skapar Excel från JSON-data med Aspose.Cells och Smart Marker](./how-to-create-excel-from-json-data-with-aspose-cells-and-sma/)
+Lär dig hur du genererar en Excel-fil från JSON-data med Smart Marker i Aspose.Cells.
 
 ### [Skapa Excel-arbetsbok programatiskt med C#](./how-to-create-excel-workbook-programmatically-with-c/)
 

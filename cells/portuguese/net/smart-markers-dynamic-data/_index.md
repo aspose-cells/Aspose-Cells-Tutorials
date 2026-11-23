@@ -163,6 +163,9 @@ Aprenda a criar e gerenciar coleções de marcadores inteligentes no Aspose.Cell
 ### [Como Repetir Planilhas – Guia Completo para Automação do Excel](./how-to-repeat-worksheets-complete-guide-for-excel-automation/)
 ### [Analisar JSON Aninhado C# – Criar Payload JSON C#](./parse-nested-json-c-create-json-payload-c/)
 
+### [Como criar Excel a partir de dados JSON com Aspose.Cells e Smart Marker](./how-to-create-excel-from-json-data-with-aspose-cells-and-sma/)
+Aprenda a gerar arquivos Excel a partir de dados JSON usando Aspose.Cells e Smart Marker em .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

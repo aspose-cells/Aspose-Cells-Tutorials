@@ -73,6 +73,9 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dateien aus Vorlagen erst
 ### [Excel aus Vorlage mit C# und Aspose.Cells generieren](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
 Erfahren Sie, wie Sie mit C# und Aspose.Cells Excel-Dateien aus Vorlagen generieren und Daten automatisch einbinden.
 
+### [Wie man Excel-Vorlage befüllt und mehrere Arbeitsblätter mit Aspose.Cells generiert](./how-to-populate-excel-template-and-generate-multiple-sheets)
+Erfahren Sie, wie Sie mit Aspose.Cells Excel-Vorlagen befüllen und automatisch mehrere Arbeitsblätter erzeugen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

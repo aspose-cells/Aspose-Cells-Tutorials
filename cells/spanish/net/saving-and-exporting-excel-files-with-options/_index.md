@@ -46,6 +46,9 @@ Optimice sus exportaciones CSV eliminando las filas y columnas vacías iniciales
 Aprenda a guardar libros de Excel programáticamente en C# con una guía paso a paso para automatizar procesos completos.
 ### [Cómo usar FlatOpcSaveOptions en C# – Guía completa](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
 
+### [Cómo crear un archivo xlsb con propiedades personalizadas de hoja de cálculo en C#](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
+Aprenda a generar archivos xlsb y establecer propiedades personalizadas de hoja de cálculo usando Aspose.Cells para .NET en C#.
+
 
 
 

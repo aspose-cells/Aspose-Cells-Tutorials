@@ -28,7 +28,9 @@
 
 ### [Создать Excel из JSON с помощью Aspose.Cells Smart Marker](./create-excel-from-json-with-aspose-cells-smart-marker/)
 
-### [Создать Excel из JSON с помощью SmartMarker в C#](./create-excel-from-json-with-smartmarker-in-c/)
+### [Создать Excel из JSON с помощью SmartMarker в C#](./create-excel-with-smartmarker-in-c/)
+
+### [Как создать Excel из JSON‑данных с помощью Aspose.Cells и Smart Marker](./how-to-create-excel-from-json-data-with-aspose-cells-and-sma/)
 
 ## Используйте динамические формулы в умных маркерах
 Формулы могут автоматизировать вычисления, делая обработку данных легкой. С Aspose.Cells вы можете использовать динамические формулы в Smart Markers, позволяя вычислениям автоматически обновляться по мере добавления новых данных. Эта функция помогает создавать отчеты, которые легко адаптируются к изменяющимся данным, экономя время и повышая точность. [Читать далее](./dynamic-formulas-smart-markers/)
@@ -131,7 +133,7 @@ Aspose.Cells Smart Markers также поддерживает анонимны�
 
 ### [Как написать шаблон с интеллектуальными маркерами – пошаговое руководство](./how-to-write-template-with-smart-markers-step-by-step-guide/)
 
-### [Как заменять переменные в JSON с помощью SmartMarker – Полное руководство](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
+### [Как повторять переменные в JSON с помощью SmartMarker – Полное руководство](./how-to-substitute-variables-in-json-with-smartmarker-complet/)
 
 ### [Как загрузить шаблон и создать отчет Excel с помощью SmartMarker](./how-to-load-template-and-create-excel-report-with-smartmarke/)
 

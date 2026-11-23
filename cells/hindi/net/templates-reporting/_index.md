@@ -73,13 +73,16 @@ Excel टेम्पलेट को प्रोसेस करके शी�
 
 ### [Excel का उपयोग करके मेल मर्ज कैसे करें – पूर्ण C# गाइड](./how-to-use-excel-for-mail-merge-complete-c-guide/)
 C# में Aspose.Cells के साथ Excel का उपयोग करके मेल मर्ज कैसे लागू करें, इस पूर्ण गाइड में सीखें।
+
 ### [Aspose.Cells के साथ इनवॉइस कैसे जनरेट करें – पूर्ण प्रोग्रामिंग गाइड](./how-to-generate-invoice-with-aspose-cells-complete-programmi/)
 Aspose.Cells का उपयोग करके इनवॉइस उत्पन्न करने की पूरी प्रक्रिया, कोड उदाहरण और चरण-दर-चरण मार्गदर्शन।
 
 ### [C# टेम्प्लेट का उपयोग करके डेटा को Excel में निर्यात करने का चरण‑दर‑चरण गाइड](./how-to-export-data-to-excel-using-a-c-template-step-by-step/)
 C# टेम्प्लेट से डेटा को Excel में निर्यात करने की पूरी प्रक्रिया सीखें।
+
 ### [Excel में एरे को विस्तारित करके टेम्पलेट भरें](./how-to-expand-array-in-excel-and-populate-a-template)
 Excel में एरे को विस्तारित करके टेम्पलेट को स्वचालित रूप से भरने की प्रक्रिया सीखें।
+
 ### [डेटासेट को Excel में परिवर्तित करें और Excel टेम्पलेट को भरें](./convert-dataset-to-excel-and-populate-an-excel-template)
 डेटासेट को Excel फ़ाइल में बदलें और तैयार टेम्पलेट में डेटा भरें।
 
@@ -88,6 +91,9 @@ Excel में एरे को विस्तारित करके टे
 
 ### [C# और Aspose.Cells के साथ टेम्पलेट से Excel उत्पन्न करें](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
 C# में Aspose.Cells का उपयोग करके टेम्पलेट से Excel फ़ाइल बनाने की चरण‑दर‑चरण प्रक्रिया सीखें।
+
+### [Aspose.Cells के साथ Excel टेम्पलेट भरें और कई शीट्स उत्पन्न करें](./how-to-populate-excel-template-and-generate-multiple-sheets)
+Aspose.Cells का उपयोग करके Excel टेम्पलेट को डेटा से भरें और स्वचालित रूप से कई शीट्स बनाएं।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

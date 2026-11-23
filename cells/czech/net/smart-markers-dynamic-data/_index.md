@@ -80,7 +80,10 @@ Zjistěte, jak vkládat obrázky pomocí značek obrázků v Aspose.Cells pro .N
 ### [Jak propojit listy v Excelu pomocí SmartMarker – krok za krokem](./how-to-link-sheets-in-excel-with-smartmarker-step-by-step-gu/)
 Naučte se pomocí SmartMarker v Aspose.Cells propojit různé listy v Excelu a vytvořit propojené reporty krok po kroku.
 
-### [Vytvořte Excel z JSON pomocí Aspose.Cells Smart Marker](./create-excel-from-json-with-aspose-cells-smart-marker/)
+### [Vytvořte Excel z JSON pomocí Aspose.Cells Smart Marker](./create-excel-from-json-with-aspose-cells-smart-mark/)
+
+### [Jak vytvořit Excel z JSON dat pomocí Aspose.Cells a Smart Marker](./how-to-create-excel-from-json-data-with-aspose-cells-and-sma/)
+
 ### [Použití anonymních typů s inteligentními značkami Aspose.Cells](./use-anonymous-types-smart-markers/)
 Naučte se, jak používat anonymní typy s inteligentními značkami v Aspose.Cells pro dynamické generování sestav v Excelu v .NET. Postupujte podle našeho jednoduchého návodu.
 ### [Použití atributu stylu kopírování v inteligentních značkách Aspose.Cells](./copy-style-attribute-smart-markers/)

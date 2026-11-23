@@ -55,7 +55,7 @@ C# में Aspose.Cells के साथ FlatOpcSaveOptions का उपय�
 
 
 ### [C# में वर्कबुक को सहेजना – फ़िल्टर हटाने और Excel निर्यात करने की पूर्ण गाइड](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)
-Aspose.Cells for .NET का उपयोग करके फ़िल्टर हटाते हुए वर्कबुक सहेजने और Excel निर्यात करने के चरण-दर-चरण निर्देश।
+Aspose.Cells for .NET का उपयोग करके फ़िल्टर हटाते हुए वर्कबुक सहेजने और Excel निर्यात करने के चरण-दर-स्टेप निर्देश।
 ### [JSON से Excel वर्कबुक सहेजना – पूर्ण C# गाइड](./save-excel-workbook-from-json-complete-c-guide/)
 Aspose.Cells for .NET का उपयोग करके JSON डेटा से Excel वर्कबुक बनाने और सहेजने की पूरी प्रक्रिया सीखें।
 ### [C# के साथ फ्लैट OPC फ़ाइल बनाना – पूर्ण गाइड](./create-flat-opc-file-with-c-complete-guide/)
@@ -64,6 +64,8 @@ C# में Aspose.Cells का उपयोग करके फ्लैट OP
 डेटा के साथ Excel फ़ाइल बनाने के लिए वर्कबुक को XLSX फ़ॉर्मेट में सहेजने की पूरी प्रक्रिया सीखें।
 ### [C# में वर्कबुक को सहेजने का तरीका – पूर्ण प्रोग्रामिंग गाइड](./how-to-save-workbook-in-c-complete-programming-guide/)
 Aspose.Cells for .NET के साथ C# में वर्कबुक को सहेजने की पूरी प्रक्रिया इस गाइड में विस्तृत रूप से समझी गई है।
+### [C# में कस्टम वर्कशीट प्रॉपर्टीज़ के साथ xlsb फ़ाइल बनाना](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
+C# में Aspose.Cells का उपयोग करके कस्टम वर्कशीट प्रॉपर्टीज़ के साथ xlsb फ़ाइल बनाने का तरीका सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -85,6 +85,9 @@ Aspose.Cells for .NET предоставляет мощные инструмен
 
 ### [Как создать Excel из шаблона с C# и Aspose.Cells](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
 
+### [Как заполнить шаблон Excel и создать несколько листов с Aspose.Cells](./how-to-populate-excel-template-and-generate-multiple-sheets)
+Узнайте, как программно заполнять шаблон Excel и генерировать несколько листов с помощью Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

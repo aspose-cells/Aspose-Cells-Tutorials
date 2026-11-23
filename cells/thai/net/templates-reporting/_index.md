@@ -85,6 +85,9 @@ Aspose.Cells สำหรับ .NET มอบเครื่องมืออ�
 
 ### [วิธีสร้างไฟล์ Excel จากเทมเพลตและสร้างชีตซ้ำ](./how-to-create-excel-from-template-and-generate-repeated-shee)
 
+### [วิธีเติมข้อมูลในเทมเพลต Excel และสร้างหลายชีตด้วย Aspose.Cells](./how-to-populate-excel-template-and-generate-multiple-sheets)
+เรียนรู้วิธีเติมข้อมูลในเทมเพลต Excel และสร้างชีตหลายแผ่นโดยอัตโนมัติด้วย Aspose.Cells
+
 ### [วิธีสร้าง Excel จากเทมเพลตด้วย C# และ Aspose.Cells](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
 เรียนรู้วิธีสร้างไฟล์ Excel จากเทมเพลตโดยใช้ C# และ Aspose.Cells อย่างละเอียด
 

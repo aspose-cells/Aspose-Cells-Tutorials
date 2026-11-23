@@ -74,6 +74,8 @@ Excel で配列を拡張し、テンプレートにデータを自動的に入�
 
 ### [C# と Aspose.Cells を使用してテンプレートから Excel を生成する方法](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
 
+### [Aspose.Cells を使用して Excel テンプレートにデータを入力し、複数シートを生成する方法](./how-to-populate-excel-template-and-generate-multiple-sheets)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

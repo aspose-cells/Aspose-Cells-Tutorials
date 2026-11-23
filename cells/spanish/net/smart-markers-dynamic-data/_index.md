@@ -223,6 +223,9 @@ Aprenda a insertar un marcador inteligente de posición en una hoja de Excel usa
 ### [Cómo repetir una hoja de cálculo en Excel con SmartMarkerProcessor](./how-to-repeat-worksheet-in-excel-with-smartmarkerprocessor/)
 Aprenda a generar múltiples copias de una hoja de cálculo usando SmartMarkerProcessor para automatizar informes en Excel.
 
+### [Cómo crear Excel a partir de datos JSON con Aspose.Cells y Smart Marker](./how-to-create-excel-from-json-data-with-aspose-cells-and-sma/)
+Aprenda a generar archivos Excel a partir de datos JSON usando Aspose.Cells y Smart Marker en .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

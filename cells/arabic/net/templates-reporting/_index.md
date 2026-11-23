@@ -78,6 +78,8 @@
 
 ### [كيفية إنشاء ملف Excel من قالب باستخدام C# و Aspose.Cells](./how-to-generate-excel-from-template-with-c-and-aspose-cells)
 
+### [كيفية تعبئة قالب Excel وإنشاء أوراق متعددة باستخدام Aspose.Cells](./how-to-populate-excel-template-and-generate-multiple-sheets)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
