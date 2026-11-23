@@ -1,0 +1,7 @@
+Title: How to create sheets from list in Java using Smart Markers
+Slug: how-to-create-sheets-from-list-in-java-using-smart-markers
+Category: spreadsheet-automation
+ProcessedDate: 2026-11-22T19:22:09.463865
+SourceRepo: AI Search API
+Keywords: create sheets from list, how to repeat sheet, automate sheet creation, generate multiple sheets, populate excel workbook
+PRNumber: 212

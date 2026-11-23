@@ -1,0 +1,7 @@
+Title: How to export Excel as text with tab‑delimited output
+Slug: how-to-export-excel-as-text-with-tab-delimited-output
+Category: excel-import-export
+ProcessedDate: 2026-11-22T19:21:46.384059
+SourceRepo: AI Search API
+Keywords: export excel as text, quote all fields, create tab-delimited file, save spreadsheet text, export spreadsheet tab-delimited
+PRNumber: 212

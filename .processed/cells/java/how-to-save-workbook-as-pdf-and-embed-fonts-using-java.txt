@@ -1,0 +1,7 @@
+Title: How to save workbook as PDF and embed fonts using Java
+Slug: how-to-save-workbook-as-pdf-and-embed-fonts-using-java
+Category: templates-reporting
+ProcessedDate: 2026-11-22T19:22:14.639085
+SourceRepo: AI Search API
+Keywords: save workbook as pdf, how to embed fonts in pdf, convert excel workbook to pdf, embed fonts when exporting pdf, how to save workbook as pdf
+PRNumber: 212

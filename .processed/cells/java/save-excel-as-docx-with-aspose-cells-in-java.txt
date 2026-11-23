@@ -1,0 +1,7 @@
+Title: Save Excel as DOCX with Aspose.Cells in Java
+Slug: save-excel-as-docx-with-aspose-cells-in-java
+Category: integration-interoperability
+ProcessedDate: 2026-11-22T19:21:53.913025
+SourceRepo: AI Search API
+Keywords: save excel as docx, convert excel to word, convert excel workbook to word document, how to convert xlsx to docx, convert spreadsheet to word format
+PRNumber: 212

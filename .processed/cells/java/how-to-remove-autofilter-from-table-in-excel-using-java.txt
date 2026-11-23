@@ -1,0 +1,7 @@
+Title: How to remove autofilter from table in Excel using Java
+Slug: how-to-remove-autofilter-from-table-in-excel-using-java
+Category: spreadsheet-automation
+ProcessedDate: 2026-11-22T19:21:36.305698
+SourceRepo: AI Search API
+Keywords: remove autofilter from table, disable autofilter in excel, load excel workbook java, how to hide autofilter in excel
+PRNumber: 212
