@@ -30,7 +30,7 @@ tags:
 - Aspose.Cells
 - C#
 - Excel automation
-title: How to create Excel from JSON data with Aspose.Cells and Smart Marker
+title: Smart Marker integration for JSON data in .NET
 url: /net/smart-markers-dynamic-data/how-to-create-excel-from-json-data-with-aspose-cells-and-sma/
 ---
 
@@ -38,7 +38,7 @@ url: /net/smart-markers-dynamic-data/how-to-create-excel-from-json-data-with-asp
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to create Excel from JSON data with Aspose.Cells and Smart Marker
+# Using Smart Marker to embed JSON data in a .NET workbook
 
 If you need to **create Excel from JSON data** in a .NET application, this tutorial shows you a complete, production‑ready solution. You’ll see how to embed a JSON array into a single cell, use the **Smart Marker** feature of **Aspose.Cells**, and generate a final workbook without manual cell‑by‑cell coding.
 
@@ -204,15 +204,13 @@ From here you can:
 
 Happy coding, and enjoy turning JSON into polished Excel workbooks!
 
+## What should you learn next?
 
-## What Should You Learn Next?
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [Import JSON Data into Excel Using Aspose.Cells Java: A Comprehensive Guide](/cells/english/java/import-export/import-json-data-excel-aspose-cells-java/)
-- [Aspose Cells GridJs tutorial – Export Excel data to JSON with lazy loading](/cells/english/python/import-and-export/aspose-cells-gridjs-tutorial-export-excel-data-to-json-with/)
-- [Crear Excel a partir de JSON con Smart Marker de Aspose.Cells](/cells/spanish/net/smart-markers-dynamic-data/create-excel-from-json-with-aspose-cells-smart-marker/)
+- [Import JSON Data into Excel Using Aspose.Cells Java: A Comprehensive Guide]({{< relref "cells/english/java/import-export/import-json-data-excel-aspose-cells-java/_index.md" >}})
+- [Aspose Cells GridJs tutorial – Export Excel data to JSON with lazy loading]({{< relref "cells/english/python/import-and-export/aspose-cells-gridjs-tutorial-export-excel-data-to-json-with/_index.md" >}})
+- [Crear Excel a partir de JSON con Smart Marker de Aspose.Cells]({{< relref "cells/spanish/net/smart-markers-dynamic-data/create-excel-from-json-with-aspose-cells-smart-marker/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

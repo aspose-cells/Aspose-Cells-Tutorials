@@ -50,7 +50,7 @@ tags:
 - Aspose.Cells
 - C#
 - Excel automation
-title: How to create xlsb file with custom worksheet properties in C#
+title: Create an XLSB file with custom worksheet properties using Aspose.Cells in C#
 url: /net/saving-and-exporting-excel-files-with-options/how-to-create-xlsb-file-with-custom-worksheet-properties-in/
 ---
 
@@ -176,15 +176,13 @@ These extensions let you build robust Excel automation pipelines that leverage t
 
 *You have learned how to create an *.xlsb* workbook in C#, add custom worksheet properties, and save the file using Aspose.Cells. Apply the patterns above to your own data‑driven reports, dashboards, or data‑exchange services.*
 
+## What should you learn next?
 
-## What Should You Learn Next?
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [Create Excel Workbook C# – Add Custom Property & Save XLSB](/cells/english/net/document-properties/create-excel-workbook-c-add-custom-property-save-xlsb/)
-- [How to Save XLSB and Add Custom Document Properties in C#](/cells/english/net/document-properties/how-to-save-xlsb-and-add-custom-document-properties-in-c/)
-- [How to Save XLSB with Custom Properties in C# – Step‑by‑Step Guide](/cells/english/net/document-properties/how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/)
+- [Create Excel Workbook C# – Add Custom Property & Save XLSB]({{< relref "/cells/english/net/document-properties/create-excel-workbook-c-add-custom-property-save-xlsb/" >}})
+- [How to Save XLSB and Add Custom Document Properties in C#]({{< relref "/cells/english/net/document-properties/how-to-save-xlsb-and-add-custom-document-properties-in-c/" >}})
+- [How to Save XLSB with Custom Properties in C# – Step‑by‑Step Guide]({{< relref "/cells/english/net/document-properties/how-to-save-xlsb-with-custom-properties-in-c-step-by-step-gu/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
