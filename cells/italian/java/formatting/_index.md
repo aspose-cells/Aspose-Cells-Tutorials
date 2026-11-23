@@ -261,6 +261,9 @@ Scopri come creare una cartella di lavoro Excel con Aspose.Cells per Java e impo
 
 ### [Come limitare le cifre significative in Excel usando Java](./how-to-limit-significant-digits-excel-using-java/)
 
+### [Come applicare un formato numerico personalizzato in Excel con Java](./how-to-apply-a-custom-number-format-in-excel-with-java/)
+Scopri come definire e applicare formati numerici personalizzati ai fogli Excel usando Aspose.Cells per Java, con esempi di codice.
+
 ## Risorse aggiuntive
 
 - [Documentazione di Aspose.Cells per Java](https://docs.aspose.com/cells/java/)

@@ -136,6 +136,8 @@
 ### [كيفية تصدير الشكل باستخدام ShapeExportOptions في Java](./how-to-export-shape-with-shapeexportoptions-in-java/)
 ### [كيفية تصدير نطاق Excel كصورة في Java باستخدام Aspose.Cells](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
 
+### [تصدير Excel كصورة باستخدام Java – دليل شامل](./export-excel-as-image-with-java-complete-guide/)
+
 ## موارد إضافية
 
 - [توثيق Aspose.Cells لـ Java](https://docs.aspose.com/cells/java/)

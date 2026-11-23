@@ -72,8 +72,12 @@ Aprenda a eliminar programáticamente el encabezado de una tabla en Excel usando
 Aprenda a expandir matrices en Excel usando Aspose.Cells para Java con ejemplos de código paso a paso.
 ### [Eliminar autofiltro de Excel con Java – Guía completa](./remove-autofilter-from-excel-with-java-complete-guide/)
 Aprenda a eliminar el autofiltro de archivos Excel usando Aspose.Cells para Java con ejemplos de código paso a paso.
+### [Cómo eliminar el autofiltro de una tabla en Excel usando Java](./how-to-remove-autofilter-from-table-in-excel-using-java/)
+Aprenda a eliminar el autofiltro de una tabla en Excel mediante código Java con Aspose.Cells.
 ### [Cómo usar Aspose.Cells: agregar una propiedad personalizada y guardar XLSB](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
 Aprenda a añadir propiedades personalizadas a un libro y guardarlo en formato XLSB usando Aspose.Cells para Java.
+### [Cómo crear hojas a partir de una lista en Java usando Smart Markers](./how-to-create-sheets-from-list-in-java-using-smart-markers/)
+Aprenda a generar hojas de cálculo a partir de listas en Java con Smart Markers usando Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

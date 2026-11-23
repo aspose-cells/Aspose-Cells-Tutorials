@@ -41,6 +41,8 @@
 ### [Создание книги мастер‑деталь с Aspose.Cells (Java)](./create-master-detail-workbook-with-aspose-cells-java/)
 Узнайте, как создать книгу Excel с иерархией мастер‑деталь, используя Aspose.Cells для Java, включая привязку данных и генерацию отчетов.
 
+### [Как генерировать листы в Java с помощью SmartMarkerProcessor](./how-to-generate-worksheets-in-java-using-smartmarkerprocesso/)
+
 ### [Как генерировать листы Excel с помощью Smart Markers – Полное руководство Java](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
 Подробное руководство по созданию листов Excel с использованием Smart Markers в Aspose.Cells для Java, включая примеры кода и лучшие практики.
 
@@ -61,6 +63,8 @@
 Узнайте, как создавать рабочие книги Excel с помощью интеллектуальных маркеров в Java, используя Aspose.Cells, с подробными примерами кода.
 ### [Как создать листы с интеллектуальными маркерами в Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
 Узнайте, как использовать интеллектуальные маркеры для автоматизации создания листов Excel с помощью Aspose.Cells.
+
+### [Как сохранить книгу в PDF и встроить шрифты с помощью Java](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
 
 ## Дополнительные ресурсы
 

@@ -120,7 +120,7 @@ Leer hoe u Excel-taken in Java kunt automatiseren met Aspose.Cells. Deze handlei
 Leer hoe u een werkmap opslaat naar een bestand en Excel-bereiken kopieert met Aspose.Cells voor Java.
 
 ### [Hoe cellen tussen Excel-werkmappen in Java te kopiëren](./how-to-copy-cells-between-excel-workbooks-in-java/)
-Leer hoe u cellen van de ene Excel-werkmap naar een andere kunt kopiëren met Aspose.Cells voor Java.
+Leer hoe u cellen van de ene Excel-werkmap naar de andere kunt kopiëren met Aspose.Cells voor Java.
 
 ### [Beheer van werkmappen in Java: Excel-papierformaat laden en controleren met Aspose.Cells](./aspose-cells-java-load-workbook-paper-size/)
 Leer hoe u Aspose.Cells voor Java kunt gebruiken om Excel-werkmappen te beheren door bestanden te laden, toegang te krijgen tot werkbladen en de instellingen voor het papierformaat te controleren.
@@ -529,6 +529,8 @@ Leer hoe u een nieuwe werkmap opslaat en een bereik tussen werkmappen kopieert m
 Leer hoe u met Aspose.Cells voor Java een Excel-bestand van nul af aan maakt met volledige codevoorbeelden en best practices.
 ### [Excel-werkmap maken in Java: Japanse jaartijdperken verwerken](./create-excel-workbook-java-handle-japanese-era-dates/)
 Leer hoe u Japanse jaartijdperken correct verwerkt bij het maken van Excel-werkmappen met Aspose.Cells voor Java.
+
+### [Hoe de locale instellen in een Java-werkmap met Aspose.Cells](./how-to-set-locale-in-a-java-workbook-using-aspose-cells/)
 
 ## Aanvullende bronnen
 

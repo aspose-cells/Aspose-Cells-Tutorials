@@ -78,6 +78,9 @@
 学习如何使用 Aspose.Cells for Java 在 Excel 中展开数组，实现动态数据填充和自动化处理。
 ### [使用 Java 从 Excel 中删除自动筛选 – 完整指南](./remove-autofilter-from-excel-with-java-complete-guide/)
 学习如何使用 Aspose.Cells for Java 完整地删除 Excel 工作表中的自动筛选功能，并提供示例代码。
+### [如何使用 Java 从 Excel 表格中删除自动筛选](./how-to-remove-autofilter-from-table-in-excel-using-java/)
+
+### [如何在 Java 中使用智能标记从列表创建工作表](./how-to-create-sheets-from-list-in-java-using-smart-markers/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

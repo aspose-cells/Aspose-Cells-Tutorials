@@ -98,6 +98,9 @@
 ### [Как экспортировать диапазон Excel в изображение с помощью Aspose.Cells для Java](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
 Узнайте, как экспортировать выбранный диапазон листа Excel в изображение с помощью Aspose.Cells для Java.
 
+### [Экспорт Excel в изображение с Java – полное руководство](./export-excel-as-image-with-java-complete-guide/)
+Узнайте, как экспортировать листы Excel в изображения с помощью Aspose.Cells для Java, включая настройку параметров и примеры кода.
+
 ### [Как извлекать изображения из Excel с помощью Aspose.Cells Java: полное руководство для разработчиков](./extract-images-excel-aspose-cells-java-guide/)
 Узнайте, как извлекать изображения из файлов Excel с помощью Aspose.Cells в Java с помощью этого подробного руководства для разработчиков. Включает настройку, примеры кода и советы по оптимизации.
 

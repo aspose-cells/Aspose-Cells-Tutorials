@@ -55,6 +55,9 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java HTML-Tabellen in gut strukturie
 ### [Excel-Spalten effizient kopieren mit Aspose.Cells für Java: Eine umfassende Anleitung](./copy-excel-columns-aspose-cells-java/)
 Erfahren Sie, wie Sie das Kopieren von Spalten in Excel mit Aspose.Cells für Java automatisieren. Optimieren Sie Ihren Workflow und steigern Sie Ihre Produktivität mit dieser leicht verständlichen Anleitung.
 
+### [Wie Sie wrapcols in Java mit Aspose.Cells verwenden](./how-to-use-wrapcols-in-java-with-aspose-cells/)
+Erfahren Sie, wie Sie die wrapcols-Funktion in Aspose.Cells für Java nutzen, um Spalteninhalte automatisch zu umbrechen.
+
 ### [So kopieren Sie mehrere Spalten in Excel mit Aspose.Cells Java: Eine vollständige Anleitung](./copy-multiple-columns-excel-aspose-cells-java/)
 Erfahren Sie, wie Sie das Kopieren mehrerer Spalten in einem Excel-Arbeitsblatt mit Aspose.Cells für Java automatisieren. Diese Anleitung behandelt Einrichtung, Implementierung und Fehlerbehebung.
 
@@ -99,6 +102,9 @@ Erfahren Sie, wie Sie Zellen in Excel-Dateien mit Aspose.Cells für Java effizie
 Erfahren Sie, wie Sie mit Aspose.Cells für Java Zellbereiche effizient kopieren und in Excel-Tabellen einfügen.
 ### [Wie man die Expand-Funktion in Java-Excel-Verarbeitung verwendet](./how-to-use-expand-function-in-java-excel-processing/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java die Expand-Funktion nutzen, um Daten in Excel effizient zu erweitern.
+
+### [Wie Sie den Bereich in Excel mit Java erweitern](./how-to-expand-range-in-excel-with-java/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java einen Zellbereich in Excel erweitern und Daten dynamisch hinzufügen.
 
 ## Weitere Ressourcen
 

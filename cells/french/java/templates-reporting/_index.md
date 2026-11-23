@@ -70,6 +70,11 @@ Apprenez à créer un classeur Excel en utilisant les Smart Markers avec Java, a
 ### [Comment créer des marqueurs intelligents de feuilles de calcul avec Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
 Apprenez à créer des marqueurs intelligents dans les feuilles de calcul avec Aspose.Cells pour automatiser vos rapports.
 
+### [Comment générer des feuilles de calcul en Java à l'aide de SmartMarkerProcessor](./how-to-generate-worksheets-in-java-using-smartmarkerprocesso/)
+
+### [Comment enregistrer un classeur au format PDF et incorporer les polices avec Java](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
+Apprenez à convertir un classeur Excel en PDF tout en intégrant les polices pour garantir un rendu fidèle, grâce à Aspose.Cells pour Java.
+
 ## Ressources supplémentaires
 
 - [Documentation d'Aspose.Cells pour Java](https://docs.aspose.com/cells/java/)

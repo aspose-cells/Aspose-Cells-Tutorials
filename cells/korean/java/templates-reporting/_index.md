@@ -32,6 +32,9 @@ Aspose.Cells for Java를 사용하여 Excel 보고서에 화살표를 추가하�
 ### [Aspose.Cells Java를 사용하여 동적 Excel 보고서 만들기 및 PDF 책갈피 구성](./aspose-cells-java-dynamic-excel-reports-pdf-bookmarks/)
 Aspose.Cells for Java를 사용하여 동적 Excel 보고서를 만들고, 워크시트를 관리하고, PDF 북마크를 구성하는 방법을 알아보세요. 효율적인 데이터 관리 기법을 익혀보세요.
 
+### [Java를 사용해 워크북을 PDF로 저장하고 글꼴을 포함하는 방법](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
+Aspose.Cells for Java를 이용해 워크북을 PDF로 변환하고, 모든 글꼴을 포함시켜 정확한 레이아웃을 보장하는 방법을 안내합니다.
+
 ### [Aspose.Cells Java 튜토리얼: Person 클래스를 사용하여 동적 Excel 보고서를 위한 SmartMarker 구현](./aspose-cells-java-smartmarkers-person-class/)
 Java에서 Aspose.Cells를 사용하여 SmartMarkers를 구현하고 Person 클래스를 사용하여 동적 데이터 보고를 자동화하는 방법을 알아보세요. Excel 자동화를 간소화하는 단계별 가이드입니다.
 
@@ -42,10 +45,14 @@ Aspose.Cells for Java를 사용하여 Excel 작업을 자동화하는 방법을 
 Aspose.Cells for Java를 활용하여 명명된 범위와 복잡한 수식을 포함하는 동적 Excel 보고서를 만드는 방법을 알아보세요. 데이터 관리 작업을 효율적으로 개선하세요.
 
 ### [Aspose.Cells Java 및 스마트 마커를 사용하여 동적 Excel 보고서 만들기](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
-Aspose.Cells for Java를 사용하여 스마트 마커를 사용하여 동적 Excel 보고서 생성을 자동화하는 방법을 알아보세요. 보고 프로세스를 효율적으로 간소화하세요.
+Aspose.Cells for Java를 사용하여 스마트 마커를 사용하여 동적 Excel 보고서 생성을 자동화하는 방법을 안내합니다. 보고 프로세스를 효율적으로 간소화하세요.
 
 ### [스마트 마커로 워크시트 생성하기 – 전체 Java 가이드](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
 스마트 마커를 활용해 Java에서 동적으로 워크시트를 생성하고 데이터를 바인딩하는 방법을 단계별로 안내합니다.
+
+### [SmartMarkerProcessor를 사용하여 Java에서 워크시트 생성하기](./how-to-generate-worksheets-in-java-using-smartmarkerprocesso/)
+SmartMarkerProcessor를 활용해 Java에서 동적으로 워크시트를 생성하고 데이터를 바인딩하는 방법을 단계별로 안내합니다.
+
 ### [워크북 SmartMarker 만들기 – Excel 워크북 채우기](./create-workbook-smartmarker-populate-excel-workbook/)
 Aspose.Cells for Java를 사용하여 SmartMarker로 워크북을 만들고 데이터를 채워 Excel 파일을 생성하는 방법을 배웁니다.
 ### [데이터로 Excel 템플릿 채우기 – 템플릿에서 Excel 보고서 만들기](./populate-excel-template-with-data-create-excel-report-from-t/)

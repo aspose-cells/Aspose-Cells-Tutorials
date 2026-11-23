@@ -133,9 +133,14 @@ Découvrez comment améliorer vos rapports Excel en ajoutant des images d'arriè
 
 ### [Comment créer un PNG à partir d'une plage en Java avec Aspose.Cells](./how-to-create-png-from-range-in-java-with-aspose-cells/)
 Apprenez à générer une image PNG à partir d'une plage de cellules Excel en Java avec Aspose.Cells.
+
 ### [Comment exporter une forme avec ShapeExportOptions en Java](./how-to-export-shape-with-shapeexportoptions-in-java/)
 Apprenez à exporter des formes d'un classeur Excel en utilisant ShapeExportOptions avec Aspose.Cells pour Java.
+
 ### [Comment exporter une plage Excel en image en Java avec Aspose.Cells](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
+
+### [Exporter Excel en image avec Java : guide complet](./export-excel-as-image-with-java-complete-guide/)
+Apprenez à convertir vos classeurs Excel en images en Java avec Aspose.Cells, incluant configuration, exemples de code et meilleures pratiques.
 
 ## Ressources supplémentaires
 

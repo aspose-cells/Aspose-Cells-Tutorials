@@ -138,6 +138,8 @@ Tìm hiểu cách cải thiện báo cáo Excel của bạn bằng cách thêm h
 ### [Cách xuất phạm vi Excel dưới dạng hình ảnh trong Java với Aspose.Cells](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
 Hướng dẫn chi tiết cách xuất một vùng dữ liệu trong tệp Excel thành hình ảnh sử dụng Aspose.Cells cho Java.
 
+### [Xuất Excel dưới dạng hình ảnh với Java – hướng dẫn toàn diện](./export-excel-as-image-with-java-complete-guide/)
+
 ## Tài nguyên bổ sung
 
 - [Tài liệu Aspose.Cells cho Java](https://docs.aspose.com/cells/java/)

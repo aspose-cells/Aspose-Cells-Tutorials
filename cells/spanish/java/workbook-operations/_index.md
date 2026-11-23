@@ -28,6 +28,8 @@ Nuestros tutoriales de operaciones con libros de trabajo ofrecen una guía compl
 
 ### [How to save xlsb files with custom properties using Aspose.Cells for Java](./how-to-save-xlsb-files-with-custom-properties-using-aspose-c/)
 
+### [Cómo establecer la configuración regional en un libro de trabajo Java usando Aspose.Cells](./how-to-set-locale-in-a-java-workbook-using-aspose-cells/)
+Aprenda a establecer la configuración regional de un libro de Excel en Java con Aspose.Cells.
 
 ### [Aspose.Cells Java: Crear y guardar libros de Excel: guía paso a paso](./aspose-cells-java-create-save-excel-workbooks/)
 Aprenda a automatizar la creación y gestión de libros de Excel con Aspose.Cells para Java. Esta guía explica cómo instanciar, guardar y configurar las propiedades de configuración de página.

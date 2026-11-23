@@ -54,9 +54,9 @@
 เรียนรู้วิธีปิดการทำงาน Autofilter ในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดขั้นตอนโดยละเอียด
 ### [สร้างไฟล์ Excel ด้วยโปรแกรมใน Java – คู่มือขั้นตอนโดยละเอียด](./create-excel-programmatically-in-java-step-by-step-guide/)
 เรียนรู้วิธีสร้างไฟล์ Excel อย่างเป็นโปรแกรมใน Java ด้วย Aspose.Cells พร้อมตัวอย่างโค้ดขั้นตอนโดยละเอียด
-### [วิธีปิด Auto Filter ใน Excel ด้วย Java – คู่มือเต็ม](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
+### [วิธีปิด Auto Filter ใน Excel ด้วย Java – คู่มือเต็ม](./how-to-turn-off-auto-filter-in-excel-full-guide/)
 เรียนรู้วิธีปิดการกรองอัตโนมัติในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดเต็มขั้นตอน
-### [วิธีปิด AutoFilter ใน Excel ด้วย Java – คู่มือเต็ม](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+### [วิธีปิด AutoFilter ใน Excel ด้วย Java – คู่มือเต็ม](./how-to-turn-off-autofilter-in-excel-complete-guide/)
 เรียนรู้วิธีปิด AutoFilter ในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดและขั้นตอนที่ชัดเจน
 ### [สร้างอาร์เรย์แนวตั้งใน Excel ด้วย Java – คู่มือเต็มขั้นตอน](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
 เรียนรู้วิธีสร้างอาร์เรย์แนวตั้งในไฟล์ Excelด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดเต็มขั้นตอน
@@ -72,8 +72,12 @@
 เรียนรู้วิธีลบส่วนหัวของตารางในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดต้นฉบับ
 ### [ลบ Autofilter จาก Excel ด้วย Java – คู่มือฉบับสมบูรณ์](./remove-autofilter-from-excel-with-java-complete-guide/)
 เรียนรู้วิธีลบ Autofilter จากไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดต้นฉบับ
+### [วิธีลบ Autofilter จากตารางใน Excel ด้วย Java](./how-to-remove-autofilter-from-table-in-excel-using-java/)
+เรียนรู้วิธีลบ Autofilter จากตารางในไฟล์ Excel ด้วย Java โดยใช้ Aspose.Cells พร้อมตัวอย่างโค้ดขั้นตอน
 ### [วิธีใช้ Aspose.Cells: เพิ่มคุณสมบัติที่กำหนดเองและบันทึกเป็น XLSB](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
 เรียนรู้วิธีเพิ่มคุณสมบัติที่กำหนดเองให้ไฟล์ Excel แล้วบันทึกเป็นรูปแบบ XLSB ด้วย Aspose.Cells สำหรับ Java
+### [วิธีสร้างแผ่นงานจากรายการใน Java ด้วย Smart Markers](./how-to-create-sheets-from-list-in-java-using-smart-markers/)
+เรียนรู้วิธีสร้างแผ่นงานหลายแผ่นจากรายการข้อมูลใน Java โดยใช้ Smart Markers ของ Aspose.Cells
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

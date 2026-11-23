@@ -102,6 +102,12 @@ Hướng dẫn cách tạo một trang tính mới và sao chép phạm vi dữ 
 ### [Cách sử dụng hàm expand trong xử lý Excel bằng Java](./how-to-use-expand-function-in-java-excel-processing/)
 Khám phá cách áp dụng hàm expand để mở rộng dữ liệu trong tệp Excel bằng Aspose.Cells cho Java.
 
+### [Cách mở rộng phạm vi trong Excel bằng Java](./how-to-expand-range-in-excel-with-java/)
+Hướng dẫn cách mở rộng một phạm vi ô trong Excel bằng Aspose.Cells cho Java, bao gồm ví dụ mã và các lưu ý thực tiễn.
+
+### [Cách sử dụng wrapcols trong Java với Aspose.Cells](./how-to-use-wrapcols-in-java-with-aspose-cells/)
+Hướng dẫn cách sử dụng phương thức wrapcols trong Aspose.Cells for Java để xử lý dữ liệu ô hiệu quả.
+
 ## Tài nguyên bổ sung
 
 - [Tài liệu Aspose.Cells cho Java](https://docs.aspose.com/cells/java/)

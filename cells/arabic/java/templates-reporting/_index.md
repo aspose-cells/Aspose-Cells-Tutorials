@@ -61,6 +61,11 @@
 ### [كيفية إنشاء علامات ذكية لأوراق العمل باستخدام Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
 تعلم كيفية إنشاء علامات ذكية في أوراق العمل باستخدام Aspose.Cells لجافا لتوليد تقارير Excel ديناميكية.
 
+### [كيفية إنشاء أوراق العمل في Java باستخدام SmartMarkerProcessor](./how-to-generate-worksheets-in-java-using-smartmarkerprocesso/)
+تعلم كيفية إنشاء أوراق عمل باستخدام SmartMarkerProcessor في Java.
+
+### [كيفية حفظ المصنف كملف PDF وتضمين الخطوط باستخدام Java](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
+
 ## موارد إضافية
 
 - [توثيق Aspose.Cells لـ Java](https://docs.aspose.com/cells/java/)

@@ -102,6 +102,12 @@ Aspose.Words Java 程式碼教程
 ### [如何在 Java Excel 處理中使用展開功能](./how-to-use-expand-function-in-java-excel-processing/)
 了解如何在 Java 中使用 Aspose.Cells 的展開功能處理 Excel 工作表。
 
+### [如何在 Java 中使用 wrapcols 與 Aspose.Cells](./how-to-use-wrapcols-in-java-with-aspose-cells/)
+了解如何在 Java 中使用 Aspose.Cells 的 wrapcols 功能自動換列。
+
+### [如何在 Excel 中使用 Java 展開範圍](./how-to-expand-range-in-excel-with-java/)
+了解如何使用 Aspose.Cells for Java 在 Excel 中展開儲存格範圍，以便處理動態資料區塊。
+
 ## 其他資源
 
 - [Aspose.Cells for Java文檔](https://docs.aspose.com/cells/java/)

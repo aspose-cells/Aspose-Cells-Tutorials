@@ -53,7 +53,7 @@ Scopri come integrare in modo efficiente i dati in Excel per ottenere informazio
 ### [Disabilita Autofilter in Excel con Java – Guida passo‑passo](./disable-autofilter-in-excel-with-java-step-by-step-guide/)
 Scopri come disabilitare l'Autofilter in Excel usando Aspose.Cells per Java con esempi di codice passo‑passo.
 ### [Crea Excel programmaticamente in Java – Guida passo‑passo](./create-excel-programmatically-in-java-step-by-step-guide/)
-Impara a generare file Excel da zero in Java con Aspose.Cells, seguendo una guida dettagliata passo‑passo con esempi di codice.
+Impara a generare file Excel da zero in Java con Aspose.Cells, seguendo una guida dettagliata passo‑step con esempi di codice.
 ### [Come disattivare il filtro automatico in Excel con Java – Guida completa](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
 Scopri come disattivare il filtro automatico in Excel usando Aspose.Cells per Java, con esempi di codice passo passo.
 ### [Come disattivare AutoFilter in Excel con Java – Guida completa](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
@@ -68,11 +68,15 @@ Impara a creare un nuovo workbook con Aspose.Cells, aggiungere una proprietà pe
 ### [Come eliminare l'intestazione della tabella in Excel con Java – Guida completa](./how-to-delete-table-header-in-excel-with-java-full-guide/)
 Impara a rimuovere l'intestazione di una tabella Excel usando Aspose.Cells per Java, con esempi di codice passo passo.
 ### [Espandere un array in Excel con Java – Guida passo‑passo](./expand-array-in-excel-with-java-step-by-step-guide/)
-Scopri come espandere un array in Excel usando Aspose.Cells per Java, con esempi di codice passo‑passo per gestire dati dinamici.
+Scopri come espandere un array in Excel usando Aspose.Cells per Java, con esempi di codice passo‑step per gestire dati dinamici.
 ### [Rimuovere l'autofiltro da Excel con Java – Guida completa](./remove-autofilter-from-excel-with-java-complete-guide/)
 Scopri come rimuovere l'autofiltro da fogli Excel usando Aspose.Cells per Java, con esempi di codice passo passo.
+### [Come rimuovere l'autofiltro da una tabella in Excel usando Java](./how-to-remove-autofilter-from-table-in-excel-using-java/)
+Scopri come rimuovere l'autofiltro da una tabella Excel usando Aspose.Cells per Java, con esempi di codice passo passo.
 ### [Come utilizzare Aspose.Cells: aggiungere proprietà personalizzate e salvare XLSB](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
 Scopri come aggiungere proprietà personalizzate a un file Excel e salvarlo in formato XLSB usando Aspose.Cells per Java.
+### [Come creare fogli da un elenco in Java usando Smart Markers](./how-to-create-sheets-from-list-in-java-using-smart-markers/)
+Scopri come generare più fogli Excel da una lista di oggetti Java usando Smart Markers di Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

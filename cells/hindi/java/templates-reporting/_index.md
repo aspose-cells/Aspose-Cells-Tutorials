@@ -32,6 +32,8 @@
 ### [Aspose.Cells Java के साथ डायनामिक एक्सेल रिपोर्ट बनाना और PDF बुकमार्क कॉन्फ़िगर करना](./aspose-cells-java-dynamic-excel-reports-pdf-bookmarks/)
 Aspose.Cells for Java का उपयोग करके गतिशील Excel रिपोर्ट बनाना, वर्कशीट प्रबंधित करना और PDF बुकमार्क कॉन्फ़िगर करना सीखें। कुशल डेटा प्रबंधन तकनीकों में महारत हासिल करें।
 
+### [जावा का उपयोग करके वर्कबुक को PDF के रूप में सहेजें और फ़ॉन्ट एम्बेड करें](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
+
 ### [Aspose.Cells जावा ट्यूटोरियल: डायनेमिक एक्सेल रिपोर्ट के लिए पर्सन क्लास के साथ स्मार्टमार्कर्स को लागू करना](./aspose-cells-java-smartmarkers-person-class/)
 स्मार्टमार्कर्स को लागू करने और पर्सन क्लास का उपयोग करके गतिशील डेटा रिपोर्टिंग को स्वचालित करने के लिए जावा में Aspose.Cells का उपयोग करना सीखें। अपने एक्सेल ऑटोमेशन को कारगर बनाने के लिए चरण-दर-चरण मार्गदर्शिका।
 
@@ -54,22 +56,26 @@ Aspose.Cells के स्मार्ट मार्कर्स का उप
 Smart Markers के साथ वर्कशीट उत्पन्न करने की पूरी जावा गाइड, चरण‑दर‑चरण उदाहरणों के साथ।
 
 ### [Aspose Cells स्मार्ट मार्कर्स: एक्सेल टेम्प्लेट लोड करें और टेम्प्लेट से एक्सेल जनरेट करें](./aspose-cells-smart-markers-load-excel-template-generate-exce/)
+
 Aspose Cells स्मार्ट मार्कर्स का उपयोग करके एक्सेल टेम्प्लेट लोड करें और डेटा से नई एक्सेल फ़ाइल बनाएं।
 
 ### [वर्कबुक स्मार्टमार्कर बनाएं – एक्सेल वर्कबुक को भरें](./create-workbook-smartmarker-populate-excel-workbook/)
 Aspose.Cells for Java का उपयोग करके वर्कबुक स्मार्टमार्कर बनाकर एक्सेल वर्कबुक में डेटा भरने की प्रक्रिया सीखें।
-### [डेटा के साथ Excel टेम्पलेट भरें – टेम्पलेट से Excel रिपोर्ट बनाएं](./populate-excel-template-with-data-create-excel-report-from-t/)
-Excel टेम्पलेट में डेटा भरकर टेम्पलेट से स्वचालित रूप से रिपोर्ट जनरेट करने की प्रक्रिया सीखें।
+### [डेटा के साथ Excel टेम्पलेट भरें – टेम्प्लेट से Excel रिपोर्ट बनाएं](./populate-excel-template-with-data-create-excel-report-from-t/)
+Excel टेम्पलेट में डेटा भरकर टेम्प्लेट से स्वचालित रूप से रिपोर्ट जनरेट करने की प्रक्रिया सीखें।
 
-### [Aspose Cells स्मार्ट मार्कर्स – Excel टेम्पलेट भरें](./aspose-cells-smart-markers-populate-excel-template/)
-स्मार्ट मार्कर्स का उपयोग करके Excel टेम्पलेट में डेटा भरें और रिपोर्ट जनरेट करें।
+### [Aspose Cells स्मार्ट मार्कर्स – Excel टेम्प्लेट भरें](./aspose-cells-smart-markers-populate-excel-template/)
+स्मार्ट मार्कर्स का उपयोग करके Excel टेम्प्लेट में डेटा भरें और रिपोर्ट जनरेट करें।
 ### [Excel स्मार्ट मार्कर्स के साथ रिपोर्ट कैसे जनरेट करें – पूर्ण जावा गाइड](./how-to-generate-report-with-excel-smart-markers-full-java-gu/)
+
 Excel स्मार्ट मार्कर्स का उपयोग करके जावा में रिपोर्ट बनाने की पूरी गाइड।
 
 ### [स्मार्ट मार्कर्स के साथ Excel वर्कबुक बनाना – जावा गाइड](./create-excel-workbook-with-smart-markers-java-guide/)
 स्मार्ट मार्कर्स का उपयोग करके जावा में Excel वर्कबुक बनाने की पूरी गाइड। चरण-दर-चरण कोड उदाहरण।
 ### [Aspose.Cells के साथ वर्कशीट्स स्मार्ट मार्कर्स कैसे बनाएं](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
 Aspose.Cells का उपयोग करके वर्कशीट्स में स्मार्ट मार्कर्स बनाने की चरण-दर-चरण प्रक्रिया सीखें।
+
+### [SmartMarkerProcessor का उपयोग करके जावा में वर्कशीट्स कैसे जनरेट करें](./how-to-generate-worksheets-in-java-using-smartmarkerprocesso/)
 
 ## अतिरिक्त संसाधन
 

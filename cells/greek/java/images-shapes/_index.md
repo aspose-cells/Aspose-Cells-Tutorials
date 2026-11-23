@@ -135,6 +135,8 @@
 ### [Πώς να δημιουργήσετε PNG από περιοχή σε Java με το Aspose.Cells](./how-to-create-png-from-range-in-java-with-aspose-cells/)
 ### [Πώς να εξάγετε σχήμα με ShapeExportOptions σε Java](./how-to-export-shape-with-shapeexportoptions-in-java/)
 
+### [Εξαγωγή Excel ως εικόνα με Java – πλήρης οδηγός](./export-excel-as-image-with-java-complete-guide/)
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.Cells για τεκμηρίωση Java](https://docs.aspose.com/cells/java/)

@@ -65,6 +65,10 @@
 
 ### [สร้างเวิร์กบุ๊ก Excel ด้วย Smart Markers – คู่มือ Java](./create-excel-workbook-with-smart-markers-java-guide/)
 
+### [วิธีสร้างแผ่นงานใน Java ด้วย SmartMarkerProcessor](./how-to-generate-worksheets-in-java-using-smartmarkerprocesso/)
+
+### [วิธีบันทึกเวิร์กบุ๊กเป็น PDF และฝังฟอนต์โดยใช้ Java](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสารประกอบ Aspose.Cells สำหรับ Java](https://docs.aspose.com/cells/java/)

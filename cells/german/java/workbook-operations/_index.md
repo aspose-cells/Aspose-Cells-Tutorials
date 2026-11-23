@@ -14,7 +14,7 @@
 
 # Tutorials zu Excel-Arbeitsmappenoperationen mit Aspose.Cells für Java
 
-Unsere Tutorials zu Arbeitsmappenoperationen bieten umfassende Anleitungen für die programmgesteuerte Verarbeitung von Excel-Dateien in Java. Folgen Sie diesen Schritt-für-Schritt-Anleitungen, um zu lernen, wie Sie neue Arbeitsmappen erstellen, vorhandene Dateien aus verschiedenen Quellen öffnen, in verschiedenen Formaten speichern und zwischen gängigen Tabellenkalkulationstypen konvertieren. Diese praktischen Tutorials enthalten vollständige Codebeispiele für die Dateikonvertierung, die Verwaltung von Arbeitsmappeneigenschaften und Optimierungstechniken zum Erstellen robuster Excel-Verarbeitungsanwendungen in Java.
+Unsere Tutorials zu Arbeitsmappenoperationen bieten umfassende Anleitungen für die programmgesteuerte Verarbeitung von Excel-Dateien in Java. Folgen Sie diesen Schritt‑für‑Schritt‑Anleitungen, um zu lernen, wie Sie neue Arbeitsmappen erstellen, vorhandene Dateien aus verschiedenen Quellen öffnen, in verschiedenen Formaten speichern und zwischen gängigen Tabellenkalkulationstypen konvertieren. Diese praktischen Tutorials enthalten vollständige Codebeispiele für die Dateikonvertierung, die Verwaltung von Arbeitsmappeneigenschaften und Optimierungstechniken zum Erstellen robuster Excel-Verarbeitungsanwendungen in Java.
 
 ## Was Sie lernen werden
 
@@ -516,6 +516,9 @@ Erfahren Sie, wie Sie XLSB-Dateien mit benutzerdefinierten Dokumenteigenschaften
 
 ### [Wie man Zellen zwischen Excel-Arbeitsmappen in Java kopiert](./how-to-copy-cells-between-excel-workbooks-in-java/)
 Erfahren Sie, wie Sie Zellen zwischen Excel-Arbeitsmappen in Java mit Aspose.Cells kopieren.
+
+### [Wie man das Gebietsschema in einem Java-Arbeitsbuch mit Aspose.Cells festlegt](./how-to-set-locale-in-a-java-workbook-using-aspose-cells/)
+Erfahren Sie, wie Sie das Gebietsschema für ein Java-Arbeitsbuch mit Aspose.Cells festlegen.
 
 ## Weitere Ressourcen
 

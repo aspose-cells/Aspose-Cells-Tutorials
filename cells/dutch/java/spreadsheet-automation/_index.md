@@ -58,13 +58,16 @@ Leer hoe u gegevens efficiënt kunt integreren in Excel voor betere inzichten en
 Leer hoe u het autofilter in Excel kunt uitschakelen met Aspose.Cells voor Java, inclusief voorbeeldcode.
 ### [Hoe AutoFilter in Excel uit te schakelen met Java – Volledige gids](./how-to-turn-off-auto-filter-in-excel-with-java-full-guide/)
 Leer hoe u AutoFilter in Excel kunt uitschakelen met Aspose.Cells voor Java, inclusief voorbeeldcode en stapsgewijze instructies.
-### [AutoFilter uitschakelen in Excel met Java – Complete gids](./how-to-turn-off-autofilter-in-excel-with-java-complete-guide/)
+### [AutoFilter uitschakelen in Excel met Java – Complete gids](./how-to-turn-off-autofilter-in-excel-complete-guide/)
 Leer hoe u AutoFilter in Excel-programma's kunt uitschakelen met Aspose.Cells voor Java, inclusief voorbeeldcode en stapsgewijze uitleg.
 ### [Maak verticale array Excel met Java – Volledige stapsgewijze gids](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
 ### [Hoe Expand te gebruiken in Java – Complete Excel-gids](./how-to-use-expand-in-java-complete-excel-guide/)
 Leer hoe u de Expand-functie in Excel kunt toepassen met Aspose.Cells voor Java, inclusief voorbeeldcode en stapsgewijze uitleg.
 ### [AutoFilter wissen in Excel met Java – Complete gids](./how-to-clear-autofilter-in-excel-using-java-complete-guide/)
 Leer hoe u AutoFilter in Excel kunt verwijderen met Aspose.Cells voor Java, inclusief voorbeeldcode.
+
+### [Hoe autofilter uit een tabel in Excel te verwijderen met Java](./how-to-remove-autofilter-from-table-in-excel-using-java/)
+Leer hoe u met Aspose.Cells voor Java een autofilter uit een Excel-tabel verwijdert, inclusief voorbeeldcode.
 
 ### [Nieuwe werkmap maken met Aspose – aangepaste eigenschap toevoegen aan Excel en opslaan als XLSB](./create-new-workbook-aspose-add-custom-property-excel-and-sav/)
 Leer hoe u een nieuwe Excel-werkmap maakt, een aangepaste eigenschap toevoegt en opslaat als XLSB met Aspose.Cells voor Java.
@@ -74,6 +77,8 @@ Leer hoe u met Aspose.Cells voor Java tabelkoppen uit Excel-werkbladen kunt verw
 Leer hoe u arrays in Excel kunt uitbreiden met Java, met voorbeeldcode en stapsgewijze uitleg.
 ### [Hoe Aspose.Cells te gebruiken: aangepaste eigenschap toevoegen en XLSB opslaan](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
 Leer hoe u met Aspose.Cells een aangepaste eigenschap toevoegt aan een spreadsheet en deze opslaat als XLSB-bestand, inclusief voorbeeldcode.
+### [Hoe maak je bladen vanuit een lijst in Java met Smart Markers](./how-to-create-sheets-from-list-in-java-using-smart-markers/)
+Leer hoe u met Aspose.Cells voor Java en Smart Markers automatisch bladen kunt maken vanuit een lijst, inclusief voorbeeldcode.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

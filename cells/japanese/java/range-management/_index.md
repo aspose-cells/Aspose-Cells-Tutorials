@@ -102,6 +102,11 @@ Aspose.Cells for Java を使用して、Excel に名前付き範囲を作成し�
 ### [Java Excel 処理で expand 関数を使用する方法](./how-to-use-expand-function-in-java-excel-processing/)
 expand 関数を活用して、セル範囲の拡張やデータ抽出を効率化する手順を解説します。
 
+### [Java を使用して Excel の範囲を拡張する方法](./how-to-expand-range-in-excel-with-java/)
+Excel のセル範囲を拡張する手順とコード例を紹介し、データ処理を効率化します。
+
+### [Aspose.Cells を使用した Java で wrapcols の使い方](./how-to-use-wrapcols-in-java-with-aspose-cells/)
+
 ## 追加リソース
 
 - [Aspose.Cells for Java ドキュメント](https://docs.aspose.com/cells/java/)

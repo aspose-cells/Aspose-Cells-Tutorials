@@ -61,6 +61,10 @@ Aprenda a lidar com formatos numéricos personalizados em pastas de trabalho Jav
 
 ### [Definir formato de número personalizado no Excel usando Aspose.Cells para Java – Guia completo](./set-custom-number-format-in-excel-with-java-complete-guide/)
 Aprenda a definir formatos de número personalizados em planilhas Excel usando Aspose.Cells para Java, com exemplos de código passo a passo.
+
+### **[Como aplicar um formato de número personalizado no Excel usando Aspose.Cells para Java](./how-to-apply-a-custom-number-format-in-excel-with-java/)**
+Aprenda a aplicar um formato de número personalizado em células do Excel usando Aspose.Cells para Java, com exemplos de código claros.
+
 ### [Como aplicar formato de número no Excel usando Aspose.Cells para Java – Guia completo](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
 Aprenda a aplicar formatos numéricos personalizados em células do Excel usando Aspose.Cells para Java, com exemplos de código passo a passo.
 

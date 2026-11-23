@@ -1,0 +1,7 @@
+Title: How to create xlsb file with custom worksheet properties in C#
+Slug: how-to-create-xlsb-file-with-custom-worksheet-properties-in
+Category: saving-and-exporting-excel-files-with-options
+ProcessedDate: 2026-11-22T17:17:03.689482
+SourceRepo: AI Search API
+Keywords: create xlsb file, how to add properties, excel worksheet custom properties, custom worksheet properties, save workbook as xlsb
+PRNumber: 211

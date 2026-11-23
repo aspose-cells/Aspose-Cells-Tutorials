@@ -138,6 +138,9 @@ Java용 Aspose.Cells를 사용하여 ShapeExportOptions로 도형을 이미지 �
 ### [Aspose.Cells를 사용하여 Java에서 Excel 범위를 이미지로 내보내는 방법](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
 Aspose.Cells for Java를 사용해 Excel 워크시트의 특정 범위를 이미지 파일로 내보내는 방법을 단계별로 안내합니다.
 
+### [Java를 사용하여 Excel을 이미지로 내보내는 완전 가이드](./export-excel-as-image-with-java-complete-guide/)
+Aspose.Cells for Java를 활용해 Excel 워크시트를 고품질 이미지 파일로 변환하는 단계별 방법을 안내합니다.
+
 ## 추가 자료
 
 - [Java용 Aspose.Cells 문서](https://docs.aspose.com/cells/java/)

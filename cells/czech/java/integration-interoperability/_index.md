@@ -65,13 +65,19 @@ Naučte se, jak v Javě použít funkci WRAPCOLS pro práci s maticovými vzorci
 Naučte se, jak pomocí Aspose.Cells a Aspose.Slides v Javě převést data z Excelu do prezentace PowerPoint s kompletním příkladem kódu.
 
 ### [Převod Excelu do PowerPointu – Kompletní průvodce v Javě](./convert-excel-to-powerpoint-complete-java-guide/)
-Naučte se, jak v Javě pomocí Aspose.Cells a Aspose.Slides převést data z Excelu do prezentace PowerPoint s kompletním příkladem kódu.
+Naučte se v Javě pomocí Aspose.Cells a Aspose.Slides převést data z Excelu do prezentace PowerPoint s kompletním příkladem kódu.
+
+### [Jak převést Excel do PowerPointu pomocí Aspose.Cells pro Javu](./how-to-convert-excel-to-powerpoint-with-aspose-cells-for-jav/)
+Naučte se převádět soubory Excel do prezentací PowerPoint pomocí Aspose.Cells v Javě s podrobnými ukázkami kódu.
+
 ### [Jak exportovat grafy z Excelu do PowerPointu – Kompletní průvodce v Javě](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
 Naučte se, jak pomocí Aspose.Cells pro Javu exportovat grafy z Excelu do PowerPointu a automatizovat tvorbu prezentací.
 ### [Převod Excelu do PowerPointu – Kompletní průvodce krok za krokem](./convert-excel-to-powerpoint-full-step-by-step-guide/)
 Naučte se převádět soubory Excel do prezentací PowerPoint pomocí Aspose.Cells pro Javu s podrobnými ukázkami kódu.
 ### [Jak uložit Excel jako DOCX pomocí Aspose.Cells v C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
 Naučte se, jak převést soubor Excel do formátu DOCX pomocí Aspose.Cells v jazyce C#.
+### [Jak uložit Excel jako DOCX pomocí Aspose.Cells v Javě](./save-excel-as-docx-with-aspose-cells-in-java/)
+Naučte se, jak uložit soubor Excel jako DOCX pomocí Aspose.Cells v Javě.
 ### [Jak zkopírovat oblast z Excelu a exportovat ji do PowerPointu pomocí Javy](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
 Naučte se, jak pomocí Aspose.Cells a Aspose.Slides v Javě zkopírovat oblast buněk z Excelu a vložit ji do prezentace PowerPoint.
 ### [Převod Excelu do PowerPointu pomocí Aspose.Cells v Javě](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
@@ -86,6 +92,10 @@ Naučte se, jak pomocí funkce WRAPCOLS v Aspose.Cells pro Javu převádět jedn
 Naučte se, jak vložit písma při převodu Excelu do PDF pomocí Aspose.Cells pro Javu.
 ### [Excel do PPTX: Kompletní průvodce v Javě pro export upravitelných tvarů](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
 Naučte se, jak pomocí Aspose.Cells pro Javu převést Excel do PPTX a exportovat upravitelné tvary.
+
+### [Převod Excelu do PowerPointu v Javě – krok za krokem](./convert-excel-to-powerpoint-in-java-step-by-step-guide/)
+Naučte se krok za krokem převádět soubory Excel do PowerPointu v Javě pomocí Aspose.Cells.
+
 ### [Jak exportovat graf do DOCX z Excelu pomocí Aspose.Cells pro Javu](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
 Naučte se exportovat grafy z Excelu do souboru DOCX pomocí Aspose.Cells pro Javu.
 ### [Jak exportovat tvar z Excelu do PowerPointu pomocí Javy](./how-to-export-shape-from-excel-to-powerpoint-using-java/)

@@ -128,15 +128,14 @@ Pelajari cara menyesuaikan spasi karakter dalam bentuk Excel menggunakan Aspose.
 ### [Hapus Whitespace dan Render Lembar Excel sebagai Gambar Menggunakan Aspose.Cells untuk Java](./remove-whitespace-render-excel-as-images-aspose-cells-java/)
 Pelajari cara menghapus spasi kosong dari lembar Excel dan menyajikannya sebagai gambar menggunakan Aspose.Cells untuk Java. Sederhanakan lembar kerja Anda dengan presentasi profesional.
 
-### [Memutar Teks dalam Bentuk Excel Menggunakan Aspose.Cells Java](./rotate-text-excel-shapes-aspose-cells-java/)
-Tutorial kode untuk Aspose.Words Java
-
 ### [Mengatur Gambar Latar Belakang di Excel Menggunakan Aspose.Cells Java (Panduan Langkah demi Langkah)](./set-background-picture-excel-aspose-cells-java/)
 Pelajari cara menyempurnakan laporan Excel Anda dengan menambahkan gambar latar belakang menggunakan Aspose.Cells Java. Ikuti panduan langkah demi langkah ini untuk penerapan yang lancar.
 
 ### [Cara Membuat PNG dari Rentang di Java dengan Aspose.Cells](./how-to-create-png-from-range-in-java-with-aspose-cells/)
 ### [Cara Mengekspor Bentuk dengan ShapeExportOptions di Java](./how-to-export-shape-with-shapeexportoptions-in-java/)
 Pelajari cara mengekspor bentuk dari workbook Excel menggunakan ShapeExportOptions dengan Aspose.Cells untuk Java.
+
+### [Ekspor Excel sebagai gambar dengan Java – panduan lengkap](./export-excel-as-image-with-java-complete-guide/)
 
 ## Sumber Daya Tambahan
 

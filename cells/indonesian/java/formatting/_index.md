@@ -26,6 +26,9 @@ Pelajari cara membuat dokumen Excel bergaya profesional dengan tutorial format J
 
 ## Tutorial yang Tersedia
 
+### [How to apply a custom number format in Excel with Java](./how-to-apply-a-custom-number-format-in-excel-with-java/)
+
+
 ### [Cara Menambahkan Teks Kaya HTML di Excel Menggunakan Aspose.Cells untuk Java: Panduan Lengkap](./add-html-rich-text-excel-aspose-cells-java/)
 Pelajari cara menyempurnakan lembar kerja Excel Anda dengan teks kaya HTML menggunakan Aspose.Cells untuk Java. Panduan ini menyediakan petunjuk langkah demi langkah, aplikasi praktis, dan kiat performa.
 

@@ -98,6 +98,10 @@ Ismerd meg, hogyan hozhatsz létre új munkalapot és másolhatsz tartományt az
 ### [Hogyan használjuk az expand függvényt Java Excel feldolgozásban](./how-to-use-expand-function-in-java-excel-processing/)
 Ismerd meg, hogyan alkalmazhatod az expand függvényt az Excel-fájlok Java‑ban történő feldolgozásához az Aspose.Cells segítségével.
 
+### [Hogyan használjuk a wrapcols-t Java-ban az Aspose.Cells segítségével](./how-to-use-wrapcols-in-java-with-aspose-cells/)
+
+### [Hogyan bővítsük a tartományt Excelben Java-val](./how-to-expand-range-in-excel-with-java/)
+
 ## További források
 
 - [Aspose.Cells Java-dokumentációhoz](https://docs.aspose.com/cells/java/)

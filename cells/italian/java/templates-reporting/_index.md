@@ -32,6 +32,9 @@ Scopri come migliorare i tuoi report Excel con le frecce utilizzando Aspose.Cell
 ### [Creazione di report Excel dinamici e configurazione di segnalibri PDF con Aspose.Cells Java](./aspose-cells-java-dynamic-excel-reports-pdf-bookmarks/)
 Scopri come creare report Excel dinamici, gestire fogli di lavoro e configurare segnalibri PDF utilizzando Aspose.Cells per Java. Padroneggia tecniche efficienti di gestione dei dati.
 
+### [Come salvare una cartella di lavoro come PDF e incorporare i font usando Java](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
+Scopri come convertire una cartella di lavoro Excel in PDF e incorporare i font per garantire la corretta visualizzazione con Aspose.Cells per Java.
+
 ### [Tutorial Java su Aspose.Cells: implementazione di SmartMarkers con la classe Person per report Excel dinamici](./aspose-cells-java-smartmarkers-person-class/)
 Scopri come utilizzare Aspose.Cells in Java per implementare SmartMarker e automatizzare la creazione di report di dati dinamici utilizzando una classe Person. Guida passo passo per semplificare l'automazione di Excel.
 
@@ -52,6 +55,9 @@ Scopri come generare fogli di dettaglio dinamici usando SmartMarkers di Aspose.C
 
 ### [Come generare fogli di lavoro con Smart Markers – Guida completa Java](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
 Scopri come creare fogli di lavoro dinamici usando Smart Markers con Aspose.Cells per Java, con esempi di codice completi.
+
+### [Come generare fogli di lavoro in Java usando SmartMarkerProcessor](./how-to-generate-worksheets-in-java-using-smartmarkerprocesso/)
+Impara a generare fogli di lavoro in Java con SmartMarkerProcessor di Aspose.Cells, includendo esempi di codice passo passo.
 
 ### [Aspose Cells Smart Markers: Carica modello Excel e genera Excel dal modello](./aspose-cells-smart-markers-load-excel-template-generate-exce/)
 Scopri come caricare un modello Excel e generare un nuovo file Excel usando Smart Markers con Aspose.Cells per Java.

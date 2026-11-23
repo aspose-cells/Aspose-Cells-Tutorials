@@ -53,6 +53,9 @@
 ### [使用 Aspose.Cells for Java 將 Excel 轉換為 PowerPoint](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
 了解如何使用 Aspose.Cells for Java 將 Excel 工作表轉換為 PowerPoint 簡報，包含程式碼範例與步驟說明。
 
+### [使用 Aspose.Cells for Java 將 Excel 轉換為 PowerPoint 的方法](./how-to-convert-excel-to-powerpoint-with-aspose-cells-for-jav/)
+說明如何使用 Aspose.Cells for Java 將 Excel 檔案轉換為 PowerPoint 簡報，提供完整程式碼範例與步驟說明。
+
 ### [透過 Aspose.Cells 整合掌握 Java 教師課程的實施](./master-teacher-class-java-aspose-cells/)
 了解如何在 Java 中實作教師類別、管理學生資料以及整合 Aspose.Cells 以增強 Excel 檔案處理。
 
@@ -77,8 +80,16 @@
 
 ### [將 Excel 轉換為 PowerPoint – 完整逐步指南](./convert-excel-to-powerpoint-full-step-by-step-guide/)
 了解如何使用 Aspose.Cells for Java 將 Excel 檔案轉換為 PowerPoint 簡報，提供完整的步驟說明與範例程式碼。
+
+### [在 Java 中將 Excel 轉換為 PowerPoint – 逐步指南](./convert-excel-to-powerpoint-in-java-step-by-step-guide/)
+說明如何在 Java 中使用 Aspose.Cells 將 Excel 工作表逐步轉換為 PowerPoint 簡報，提供完整程式碼範例。
+
 ### [使用 Aspose.Cells for C# 將 Excel 另存為 DOCX](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
 了解如何使用 Aspose.Cells for C# 將 Excel 檔案另存為 DOCX 文件。
+
+### [使用 Aspose.Cells for Java 將 Excel 另存為 DOCX](./save-excel-as-docx-with-aspose-cells-in-java/)
+了解如何使用 Aspose.Cells for Java 將 Excel 檔案另存為 DOCX 文件，包含程式碼範例與步驟說明。
+
 ### [如何使用 Java 從 Excel 複製範圍並匯出至 PowerPoint](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
 說明如何使用 Aspose.Cells for Java 複製 Excel 範圍，並透過 Aspose.Slides for Java 匯出為 PowerPoint 簡報。
 ### [如何從 Excel 儲存 PPTX – 完整導出 Excel 工作表至 PowerPoint 指南](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)

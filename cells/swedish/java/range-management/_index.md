@@ -102,6 +102,12 @@ Lär dig hur du skapar ett nytt kalkylblad och kopierar ett cellområde i Excel 
 ### [Hur man använder expand‑funktionen i Java Excel‑bearbetning](./how-to-use-expand-function-in-java-excel-processing/)
 Lär dig hur du använder expand‑funktionen för att bearbeta Excel-filer i Java med Aspose.Cells.
 
+### [Hur man använder wrapcols i Java med Aspose.Cells](./how-to-use-wrapcols-in-java-with-aspose-cells/)
+Lär dig hur du använder wrapcols-funktionen i Java med Aspose.Cells för att hantera kolumnbrytning i Excel.
+
+### [Hur man expanderar ett område i Excel med Java](./how-to-expand-range-in-excel-with-java/)
+Lär dig hur du expanderar ett cellområde i Excel med Aspose.Cells för Java för dynamisk datahantering.
+
 ## Ytterligare resurser
 
 - [Aspose.Cells för Java-dokumentation](https://docs.aspose.com/cells/java/)

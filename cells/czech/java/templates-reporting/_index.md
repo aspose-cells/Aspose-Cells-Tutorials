@@ -52,14 +52,14 @@ Naučte se, jak pomocí Aspose.Cells pro Javu vytvořit sešit s hlavní a podro
 ### [Vytvoření detailních listů v Javě s Aspose.Cells smart markery](./create-detail-sheets-in-java-with-aspose-cells-smart-markers/)
 Naučte se generovat detailní listy v Excelu pomocí smart markerů v Aspose.Cells pro Javu.
 
-### [Aspose Cells Smart Markery: Načtení šablony Excel a generování Excelu ze šablony](./aspose-cells-smart-markers-load-excel-template-generate-exce/)
+### [Aspose Cells Smart Markers: Načtení šablony Excel a generování Excelu ze šablony](./aspose-cells-smart-markers-load-excel-template-generate-exce/)
 Naučte se načíst Excel šablonu a pomocí Smart Markerů vygenerovat nový Excel soubor přímo ze šablony.
 ### [Vytvoření SmartMarkeru sešitu – Naplnění Excel sešitu](./create-workbook-smartmarker-populate-excel-workbook/)
 Naučte se, jak pomocí SmartMarkeru vytvořit a naplnit Excel sešit programově v Aspose.Cells pro Javu.
 ### [Naplnění šablony Excel daty – Vytvoření reportu Excel ze šablony](./populate-excel-template-with-data-create-excel-report-from-t/)
 Naučte se, jak naplnit šablonu Excel daty a vytvořit report pomocí Aspose.Cells pro Javu.
 
-### [Aspose.Cells Smart Markery – Naplnění šablony Excel](./aspose-cells-smart-markers-populate-excel-template/)
+### [Aspose.Cells Smart Markers – Naplnění šablony Excel](./aspose-cells-smart-markers-populate-excel-template/)
 Naučte se, jak pomocí Smart Markerů naplnit Excel šablonu daty a vytvořit report v Aspose.Cells pro Javu.
 ### [Jak naplnit Excel šablonu daty pomocí Aspose.Cells](./how-to-populate-excel-template-with-data-using-aspose-cells/)
 Naučte se, jak pomocí Aspose.Cells naplnit Excel šablonu daty z vaší aplikace.
@@ -70,6 +70,11 @@ Naučte se, jak v Javě pomocí Excel Smart Markers vytvořit kompletní report 
 Naučte se, jak pomocí Smart Markers v Javě vytvořit Excel sešit s dynamickým obsahem a ukázkami kódu.
 ### [Jak vytvořit listy s inteligentními značkami pomocí Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
 Naučte se, jak pomocí Aspose.Cells vytvořit listy s inteligentními značkami pro dynamické sestavy.
+
+### [Jak generovat listy v Javě pomocí SmartMarkerProcessor](./how-to-generate-worksheets-in-java-using-smartmarkerprocesso/)
+
+### [Jak uložit sešit jako PDF a vložit písma v Javě](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
+Naučte se, jak pomocí Aspose.Cells pro Javu uložit Excel sešit jako PDF a vložit písma pro správné zobrazení.
 
 ## Další zdroje
 

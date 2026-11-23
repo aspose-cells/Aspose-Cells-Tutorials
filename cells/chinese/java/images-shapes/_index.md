@@ -139,6 +139,8 @@ Aspose.Words Java 代码教程
 
 ### [如何使用 Aspose.Cells Java 从范围创建 PNG](./how-to-create-png-from-range-in-java-with-aspose-cells/)
 
+### [使用 Java 将 Excel 导出为图像 – 完整指南](./export-excel-as-image-with-java-complete-guide/)
+
 ## 其他资源
 
 - [Aspose.Cells for Java文档](https://docs.aspose.com/cells/java/)

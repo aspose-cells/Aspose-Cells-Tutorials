@@ -59,8 +59,12 @@ Ismerd meg, hogyan teheted teljessé Excel-prezentációidat tükröződéseffek
 ### [Excel-táblázatok képként való renderelése az Aspose.Cells segítségével Java-ban: Átfogó útmutató](./aspose-cells-java-render-excel-sheets-images/)
 Ismerd meg, hogyan alakíthatod át Excel-adataidat kiváló minőségű képekké az Aspose.Cells for Java segítségével. Ez az útmutató a beállítástól a renderelésig minden lépést lefed, biztosítva a zökkenőmentes adatvizualizációt.
 
+### [Excel exportálása képként Java-val: átfogó útmutató](./export-excel-as-image-with-java-complete-guide/)
+Ismerje meg, hogyan exportálhatja az egész Excel-munkafüzetet képként Java és Aspose.Cells segítségével.
+
 ### [Hogyan hozzunk létre PNG-t tartományból Java-ban az Aspose.Cells használatával](./how-to-create-png-from-range-in-java-with-aspose-cells/)
 Ismerd meg, hogyan hozhatsz létre PNG képet egy Excel-tartományból az Aspose.Cells for Java segítségével.
+
 ### [Excel tartomány exportálása képként Java-ban az Aspose.Cells használatával](./how-to-export-excel-range-as-image-in-java-with-aspose-cells/)
 Ismerd meg, hogyan exportálhatsz egy Excel-tartományt képként Java környezetben az Aspose.Cells könyvtár segítségével.
 

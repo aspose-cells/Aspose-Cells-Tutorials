@@ -68,10 +68,19 @@ Java kullanarak Excel dosyalarındaki grafikleri PowerPoint sunumlarına nasıl 
 Aspose.Cells for Java kullanarak Excel dosyalarını PowerPoint sunumlarına dönüştürmeyi adım adım öğrenin.
 ### [C#'ta Aspose.Cells ile Excel'i DOCX olarak kaydetme](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
 Aspose.Cells for C# kullanarak Excel dosyalarını DOCX formatına dönüştürmeyi adım adım öğrenin.
+### [Aspose.Cells ile Java'da Excel'i DOCX olarak kaydetme](./save-excel-as-docx-with-aspose-cells-in-java/)
+Aspose.Cells for Java kullanarak Excel dosyalarını DOCX formatına dönüştürmeyi adım adım öğrenin.
 ### [Java ile Excel'den aralığı kopyalayıp PowerPoint'e dışa aktarma](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
 Java ve Aspose.Cells kullanarak bir Excel aralığını kopyalayıp PowerPoint sunumuna eklemeyi öğrenin.
 ### [Aspose.Cells ile Java'da Excel'i PowerPoint'e Dönüştürme](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
 Aspose.Cells for Java kullanarak Excel dosyalarını PowerPoint sunumlarına nasıl dönüştüreceğinizi adım adım öğrenin.
+
+### [Aspose.Cells for Java ile Excel'i PowerPoint'e Dönüştürme](./how-to-convert-excel-to-powerpoint-with-aspose-cells-for-jav/)
+Aspose.Cells for Java kullanarak Excel dosyalarını PowerPoint sunumlarına dönüştürmenin adımlarını öğrenin.
+
+### [Java'da Excel'i PowerPoint'e Dönüştür – Adım Adım Kılavuz](./convert-excel-to-powerpoint-in-java-step-by-step-guide/)
+Java ve Aspose.Cells kullanarak Excel dosyalarını PowerPoint sunumlarına adım adım nasıl dönüştüreceğinizi öğrenin.
+
 ### [Excel'den PPTX Kaydetme – Excel Sayfasını PowerPoint'e Aktarma Tam Kılavuz](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
 
 ### [Java'da WRAPCOLS Kullanımı – Matris Dönüştürme İçin Tam Kılavuz](./how-to-use-wrapcols-in-java-complete-guide-for-matrix-conver/)
@@ -83,7 +92,6 @@ Aspose.Cells for Java kullanarak Excel dosyalarındaki şekilleri PPTX sunumlar�
 ### [Java ile Excel'den Şekli PowerPoint'e Dışa Aktarma](./how-to-export-shape-from-excel-to-powerpoint-using-java/)
 
 ### [Aspose.Cells for Java ile Excel'den DOCX'e Grafik Dışa Aktarma](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
-Aspose.Cells for Java kullanarak Excel dosyasındaki grafiği DOCX belgesine nasıl aktaracağınızı adım adım öğrenin.
 
 ## Ek Kaynaklar
 

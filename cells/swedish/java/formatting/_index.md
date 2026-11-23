@@ -73,6 +73,9 @@ Lär dig hur du använder talformat och anpassade datumformat med Aspose.Cells f
 ### [Ställ in talformat i Excel med Java – En komplett guide](./set-number-format-excel-in-java-complete-guide/)
 Lär dig hur du ställer in talformat i Excel-filer med Aspose.Cells för Java. Den här guiden visar steg-för-steg‑instruktioner och kodexempel.
 
+### [Hur man tillämpar ett anpassat talformat i Excel med Java](./how-to-apply-a-custom-number-format-in-excel-with-java/)
+Lär dig hur du tillämpar ett anpassat talformat i Excel med Aspose.Cells för Java.
+
 ### [Hur man skapar och formaterar Excel-celler med Aspose.Cells för Java: En steg-för-steg-guide](./aspose-cells-java-excel-automation-guide/)
 Lär dig hur du enkelt automatiserar och formaterar Excel-filer med Aspose.Cells för Java. Den här guiden behandlar skapande av arbetsböcker, cellformatering och sparningstekniker.
 

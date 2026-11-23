@@ -92,6 +92,9 @@ Aprenda a usar o Aspose.Cells para Java para ajustar margens de formas e alinham
 ### [Exportar barras de dados do Excel como imagens com Aspose.Cells Java](./export-excel-data-bars-images-aspose-cells-java/)
 Um tutorial de código para Aspose.Words Java
 
+### [Exportar Excel como imagem com Java – guia completo](./export-excel-as-image-with-java-complete-guide/)
+Aprenda a converter planilhas do Excel em imagens usando Aspose.Cells para Java, com código completo e instruções passo a passo.
+
 ### [Como extrair imagens do Excel usando Aspose.Cells Java: um guia completo para desenvolvedores](./extract-images-excel-aspose-cells-java-guide/)
 Aprenda a extrair imagens de arquivos do Excel usando Aspose.Cells em Java com este guia detalhado para desenvolvedores. Inclui configuração, exemplos de código e dicas de otimização.
 

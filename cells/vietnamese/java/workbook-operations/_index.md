@@ -175,7 +175,7 @@ Hướng dẫn chi tiết cách tạo sổ làm việc XLSB trong Java bằng As
 Hướng dẫn cách lưu sổ làm việc mới và sao chép một vùng dữ liệu giữa các sổ làm việc trong Java bằng Aspose.Cells.
 ### [Java tạo tệp Excel, thêm thuộc tính tùy chỉnh và lưu dưới dạng XLSB](./java-create-excel-file-add-custom-property-and-save-as-xlsb/)
 Hướng dẫn tạo tệp Excel, thêm thuộc tính tùy chỉnh và lưu dưới dạng XLSB bằng Aspose.Cells cho Java.
-### [Cách Thêm Thuộc Tính Tùy Chỉnh trong Excel bằng Java – Hướng Dẫn Toàn Diện](./how-to-add-custom-property-in-excel-using-java-complete-guid/)
+### [Cách Thêm Thuộc Tính Tùy Chỉnh trong Excel bằng Java – Hướng Dẫn Toàn Diện](./how-to-add-custom-property-in-excel-using-aspose-cells/)
 Tìm hiểu cách thêm thuộc tính tùy chỉnh vào tệp Excel bằng Aspose.Cells for Java. Hướng dẫn này bao gồm thiết lập, lưu và sử dụng thuộc tính.
 ### [Tạo Sổ làm việc Mới Java – Hướng dẫn toàn diện](./create-new-workbook-java-complete-guide/)
 Tìm hiểu cách tạo sổ làm việc mới trong Java bằng Aspose.Cells. Hướng dẫn toàn diện này bao gồm các bước thiết lập, tạo và lưu workbook.
@@ -403,7 +403,7 @@ Tìm hiểu cách xuất các bảng tính Excel dưới dạng hình ảnh PNG 
 ### [Tạo PDF an toàn từ Excel bằng Aspose.Cells Java: Hướng dẫn toàn diện](./generate-secure-pdfs-excel-aspose-cells-java/)
 Tìm hiểu cách tạo PDF an toàn từ tệp Excel bằng Aspose.Cells for Java. Hướng dẫn này bao gồm thiết lập mật khẩu, quyền và tối ưu hóa hiệu suất.
 ### [Cách tạo dấu trang PDF trong Java bằng Aspose.Cells: Hướng dẫn toàn diện](./guide-create-pdf-bookmarks-java-aspose-cells/)
-Tìm hiểu cách tạo và quản lý dấu trang PDF bằng Aspose.Cells for Java. Hướng dẫn này bao gồm tải sổ làm việc, cấu hình dấu trang và xuất dưới dạng PDF.
+Tìm hiểu cách tạo và quản lý dấu trang PDF bằng Aspose.Cells cho Java. Hướng dẫn này bao gồm tải sổ làm việc, cấu hình dấu trang và xuất dưới dạng PDF.
 ### [Hướng dẫn nhập dữ liệu sổ làm việc trong Java với Aspose.Cells: Các phương pháp và kỹ thuật tốt nhất](./java-aspose-cells-workbook-data-import-guide/)
 Nhập dữ liệu sổ làm việc chính bằng Aspose.Cells cho Java. Tìm hiểu cách thiết lập, tối ưu hóa hiệu suất và xử lý hiệu quả các cấu trúc dữ liệu phức tạp.
 ### [Thao tác sổ làm việc Java Excel bằng Aspose.Cells: Hướng dẫn toàn diện](./java-aspose-cells-workbook-manipulation/)
@@ -423,7 +423,7 @@ Tìm hiểu cách tự động hóa các tác vụ Excel bằng Aspose.Cells for
 ### [Làm chủ Aspose.Cells cho Java: Kỹ thuật thao tác sổ làm việc Excel hiệu quả](./master-aspose-cells-java-excel-manipulation/)
 Tìm hiểu cách tạo, sửa đổi và lưu sổ làm việc Excel hiệu quả bằng Aspose.Cells for Java. Hoàn hảo để tự động hóa báo cáo và xử lý dữ liệu.
 ### [Chuyển đổi CSV sang JSON hiệu quả bằng Aspose.Cells Java](./master-csv-to-json-conversion-aspose-cells-java/)
-Nắm vững nghệ thuật chuyển đổi tệp CSV sang định dạng JSON một cách dễ dàng với Aspose.Cells for Java, nâng cao khả năng xử lý và tích hợp dữ liệu của bạn.
+Nắm vững nghệ thuật chuyển đổi tệp CSV sang định dạng JSON một cách dễ dàng với Aspose.Cells cho Java, nâng cao khả năng xử lý và tích hợp dữ liệu của bạn.
 ### [Làm chủ thao tác tệp Excel bằng Aspose.Cells cho Java | Hướng dẫn thao tác sổ làm việc](./master-excel-manipulation-aspose-cells-java/)
 Tìm hiểu cách thao tác hiệu quả các tệp Excel bằng Aspose.Cells for Java. Hướng dẫn này bao gồm thiết lập, thao tác sổ làm việc và các biện pháp thực hành tốt nhất.
 ### [Làm chủ thao tác Excel trong Java: Quản lý hình dạng và điều khiển ActiveX với Aspose.Cells](./master-excel-manipulation-java-aspose-cells/)
@@ -476,6 +476,9 @@ Tìm hiểu cách dễ dàng chuyển đổi tệp Excel sang định dạng XPS
 Tìm hiểu cách lập trình để lấy các phiên bản tệp Excel bằng Aspose.Cells for Java. Hướng dẫn này bao gồm tất cả các bước từ thiết lập đến triển khai, đảm bảo khả năng tương thích trên các định dạng Excel khác nhau.
 ### [Cách lưu tệp Excel ở nhiều định dạng khác nhau bằng Aspose.Cells Java](./save-excel-files-aspose-cells-java/)
 Tìm hiểu cách lưu tệp Excel ở nhiều định dạng một cách liền mạch với Aspose.Cells for Java. Hướng dẫn này bao gồm XLSX, PDF, HTML và nhiều định dạng khác.
+
+### [Cách thiết lập locale trong workbook Java bằng Aspose.Cells](./how-to-set-locale-in-a-java-workbook-using-aspose-cells/)
+Tìm hiểu cách đặt ngôn ngữ và khu vực cho workbook Java bằng Aspose.Cells để xử lý định dạng ngày, số và văn bản phù hợp.
 
 ## Tài nguyên bổ sung
 

@@ -101,7 +101,7 @@ Scopri come utilizzare Aspose.Cells per Java per caricare cartelle di lavoro di 
 ### [Master Aspose.Cells per Java: carica e modifica in modo efficiente le cartelle di lavoro di Excel](./aspose-cells-java-load-modify-excel/)
 Scopri come caricare, accedere e modificare in modo efficiente le cartelle di lavoro di Excel utilizzando Aspose.Cells per Java. Perfetto per automatizzare i report o integrare le funzionalità di Excel nelle tue applicazioni Java.
 
-### [Padroneggia le cartelle di lavoro di Excel con Aspose.Cells per Java: carica, modifica e salva in modo efficiente!](./aspose-cells-java-load-modify-excel-workbooks/)
+### [Padroneggiare le cartelle di lavoro di Excel con Aspose.Cells per Java: carica, modifica e salva in modo efficiente!](./aspose-cells-java-load-modify-excel-workbooks/)
 Impara a caricare, accedere e modificare in modo efficiente le cartelle di lavoro di Excel in Java utilizzando Aspose.Cells. Semplifica le tue attività di elaborazione dati in modo fluido.
 
 ### [Caricamento efficiente delle cartelle di lavoro in Aspose.Cells Java: padroneggiare le opzioni di caricamento personalizzate](./aspose-cells-java-load-options-efficiency/)
@@ -295,7 +295,7 @@ Scopri come automatizzare le attività di Excel configurando le pagine di cartel
 ### [Automazione di Excel con Aspose.Cells Java: creazione di cartelle di lavoro principali e visibilità di colonne/righe](./excel-automation-aspose-cells-java-workbook-visibility/)
 Scopri come automatizzare le attività di Excel utilizzando Aspose.Cells per Java. Crea, modifica cartelle di lavoro e controlla la visibilità di colonne/righe in modo efficiente.
 
-### [Automazione di Excel con Aspose.Cells: carica, salva, sostituisci testo](./excel-automation-aspose-cells-load-save-text/)
+### [Automazione di Excel: carica, salva, sostituisci testo](./excel-automation-aspose-cells-load-save-text/)
 Un tutorial sul codice per Aspose.Words Java
 
 ### [Automazione di Excel con Aspose.Cells Java: gestione efficiente delle proprietà della cartella di lavoro e salvataggio dei file](./excel-automation-aspose-cells-manage-properties-save-files/)
@@ -405,7 +405,7 @@ Importazione di dati da cartelle di lavoro master utilizzando Aspose.Cells per J
 ### [Manipolazione di cartelle di lavoro Java Excel con Aspose.Cells: una guida completa](./java-aspose-cells-workbook-manipulation/)
 Padroneggia la manipolazione delle cartelle di lavoro in Java con Aspose.Cells. Impara ad accedere, modificare e salvare file Excel senza problemi.
 
-### [Padroneggia la gestione dei file Java con Aspose.Cells: leggi, scrivi ed elabora i dati in modo efficiente](./java-file-handling-aspose-cells-read-write-process/)
+### [Padroneggiare la gestione dei file Java con Aspose.Cells: leggi, scrivi ed elabora i dati in modo efficiente](./java-file-handling-aspose-cells-read-write-process/)
 Impara a gestire le operazioni sui file in Java utilizzando Aspose.Cells. Questa guida illustra come leggere, scrivere ed elaborare file di dati in modo efficiente.
 
 ### [Ripristino automatico della cartella di lavoro Java: gestione dei file Excel con Aspose.Cells](./java-workbook-autorecovery-aspose-cells/)
@@ -441,7 +441,7 @@ Padroneggia la gestione delle cartelle di lavoro di Excel in Java con questa gui
 ### [Padroneggiare la manipolazione delle cartelle di lavoro di Excel in Java con Aspose.Cells: una guida completa](./master-excel-workbook-manipulation-aspose-cells-java/)
 Scopri come manipolare le cartelle di lavoro di Excel in Java utilizzando Aspose.Cells. Questa guida illustra come creare, rinominare i fogli di lavoro e salvare le modifiche in modo efficiente.
 
-### [Padroneggia le cartelle di lavoro di Excel in Java con Aspose.Cells](./master-excel-workbooks-java-aspose-cells/)
+### [Padroneggiare le cartelle di lavoro di Excel in Java con Aspose.Cells](./master-excel-workbooks-java-aspose-cells/)
 Un tutorial sul codice per Aspose.Words Java
 
 ### [Creazione e stile di cartelle di lavoro principali con Aspose.Cells per Java | Guida completa](./master-workbook-creation-aspose-cells-java/)
@@ -523,6 +523,9 @@ Scopri come usare le funzioni Lambda in Java per creare programmaticamente una c
 Scopri come salvare una cartella di lavoro su file e copiare intervalli Excel con Aspose.Cells per Java in questa guida completa.
 ### [Come ottenere una proprietà personalizzata in Java usando Aspose.Cells](./how-to-get-custom-property-java-using-aspose-cells/)
 Scopri come recuperare una proprietà personalizzata da una cartella di lavoro Excel con Aspose.Cells per Java.
+
+### [Come impostare la localizzazione in una cartella di lavoro Java con Aspose.Cells](./how-to-set-locale-in-a-java-workbook-using-aspose-cells/)
+Scopri come impostare la localizzazione per una cartella di lavoro Excel in Java con Aspose.Cells.
 
 ## Risorse aggiuntive
 

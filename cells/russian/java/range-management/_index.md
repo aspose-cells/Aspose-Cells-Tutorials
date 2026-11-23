@@ -101,6 +101,12 @@
 ### [Как использовать функцию expand в обработке Excel на Java](./how-to-use-expand-function-in-java-excel-processing/)
 Узнайте, как применять функцию expand в Aspose.Cells для Java при работе с Excel, включая примеры кода и практические советы.
 
+### [Как расширить диапазон в Excel с помощью Java](./how-to-expand-range-in-excel-with-java/)
+Узнайте, как расширить диапазон в Excel с помощью Aspose.Cells для Java, используя примеры кода и практические рекомендации.
+
+### [Как использовать wrapcols в Java с Aspose.Cells](./how-to-use-wrapcols-in-java-with-aspose-cells/)
+Узнайте, как применять wrapcols в Aspose.Cells для Java при работе с Excel.
+
 ## Дополнительные ресурсы
 
 - [Документация по Aspose.Cells для Java](https://docs.aspose.com/cells/java/)

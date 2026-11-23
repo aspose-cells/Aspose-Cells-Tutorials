@@ -35,7 +35,7 @@ Learn how to convert enum values to strings with Aspose.Cells for Java and displ
 ### [Aspose.Cells Java&#58; Create and Manage Named Ranges in Excel Files](./aspose-cells-java-manage-named-ranges/)
 Learn how to create, manage, and manipulate named ranges using Aspose.Cells for Java. This tutorial guides you through setting up your environment and mastering key features with code examples.
 
-### [Assign Name to Cell in Excel Using Java – Complete Guide](./assign-name-to-cell-in-excel-using-java-complete-guide/)
+### [Assign Name to Cell in Excel Using Java – Complete Guide](./assign-name-to-cell-in-excel-complete-guide/)
 Learn how to assign a custom name to a single cell in Excel using Aspose.Cells for Java with step-by-step code examples.
 ### [Create a named range and detect duplicate name in Excel](./create-a-named-range-and-detect-duplicate-name-in-excel/)
 Detect and handle duplicate named ranges in Excel using Aspose.Cells for Java.
@@ -51,6 +51,9 @@ Learn how to efficiently unmerge cells in Excel using Aspose.Cells for Java with
 
 ### [How to use expand function in Java Excel processing](./how-to-use-expand-function-in-java-excel-processing/)
 Learn how to apply the expand function in Aspose.Cells for Java to dynamically adjust ranges and process Excel data efficiently.
+
+### [How to expand range in Excel with Java](./how-to-expand-range-in-excel-with-java/)
+Learn how to expand a cell range programmatically using Aspose.Cells for Java to simplify data manipulation.
 
 ### [AutoFit Rows & Columns in Excel with Aspose.Cells for Java](./auto-fit-excel-aspose-cells-java/)
 Learn how to use Aspose.Cells for Java to convert HTML tables into well-structured Excel files, including auto-fitting rows and columns.
@@ -99,7 +102,8 @@ Learn how to efficiently manage and manipulate data ranges in Excel using Aspose
 ### [Unmerge Excel Cells in Java Using Aspose.Cells&#58; A Step-by-Step Guide](./unmerge-excel-cells-aspose-cells-java-guide/)
 Learn how to efficiently unmerge cells in Excel files using Aspose.Cells for Java. This guide covers setup, detection, and unmerging of merged cells with code examples.
 
-
+### [How to use wrapcols in Java with Aspose.Cells](./how-to-use-wrapcols-in-java-with-aspose-cells/)
+Learn how to use wrapcols in Java with Aspose.Cells.
 
 ## Additional Resources
 

@@ -32,6 +32,9 @@
 ### [使用 Aspose.Cells Java 建立動態 Excel 報告並配置 PDF 書籤](./aspose-cells-java-dynamic-excel-reports-pdf-bookmarks/)
 了解如何使用 Aspose.Cells for Java 建立動態 Excel 報表、管理工作表和設定 PDF 書籤。掌握高效率的資料管理技術。
 
+### [如何使用 Java 將工作簿另存為 PDF 並嵌入字型](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
+說明如何使用 Aspose.Cells for Java 將 Excel 工作簿保存為 PDF 並嵌入字型，確保跨平台顯示一致。
+
 ### [Aspose.Cells Java教學：使用Person類別實作動態Excel報表的SmartMarkers](./aspose-cells-java-smartmarkers-person-class/)
 了解如何使用 Java 中的 Aspose.Cells 實作 SmartMarkers 並使用 Person 類別自動執行動態資料報告。逐步指南，簡化您的 Excel 自動化。
 
@@ -70,6 +73,9 @@
 了解如何使用 Aspose.Cells for Java 的智慧標記功能建立 Excel 工作簿，實現自動化報表生成。
 ### [如何使用 Aspose.Cells 建立工作表智慧標記](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
 了解如何在 Aspose.Cells 中使用智慧標記建立和管理工作表，以自動化資料填充。
+
+### [如何在 Java 中使用 SmartMarkerProcessor 產生工作表](./how-to-generate-worksheets-in-java-using-smartmarkerprocesso/)
+說明如何使用 SmartMarkerProcessor 在 Java 中產生工作表。
 
 ## 其他資源
 

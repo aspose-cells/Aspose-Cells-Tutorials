@@ -97,6 +97,11 @@
 
 ### [วิธีใช้ฟังก์ชัน expand ในการประมวลผล Excel ด้วย Java](./how-to-use-expand-function-in-java-excel-processing/)
 
+### [วิธีใช้ wrapcols ใน Java กับ Aspose.Cells](./how-to-use-wrapcols-in-java-with-aspose-cells/)
+
+### [วิธีขยายช่วงใน Excel ด้วย Java](./how-to-expand-range-in-excel-with-java/)
+เรียนรู้วิธีขยายช่วงใน Excel ด้วย Java อย่างง่ายและมีประสิทธิภาพ
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสารประกอบ Aspose.Cells สำหรับ Java](https://docs.aspose.com/cells/java/)

@@ -77,6 +77,8 @@ Apprenez à convertir des fichiers XLSX en CSV avec Aspose.Cells pour Java grâc
 
 ### [Créer un Excel à partir de JSON – Guide complet Java avec Aspose.Cells](./create-excel-from-json-full-java-guide-with-aspose-cells/)
 Apprenez à générer un classeur Excel à partir de données JSON en Java avec Aspose.Cells, guide complet pas à pas.
+### [Comment créer un classeur Excel en Java avec des données JSON](./how-to-create-excel-workbook-in-java-with-json-data/)
+Apprenez à créer un classeur Excel à partir de données JSON en Java avec Aspose.Cells, guide complet étape par étape.
 ### [Comment utiliser les Smart Markers d'Aspose pour convertir JSON en Excel en Java](./how-to-use-aspose-smart-markers-to-convert-json-to-excel-in/)
 Apprenez à convertir des données JSON en fichiers Excel en Java à l'aide des Smart Markers d'Aspose.
 ### [Comment convertir JSON en Excel et remplir Excel à partir de JSON avec Aspose.Cells](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
@@ -91,7 +93,8 @@ Apprenez à convertir des fichiers XLSX en PPTX et à exporter des formes édita
 ### [Convertir JSON en XLSX avec Aspose.Cells Java – Guide complet](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
 Apprenez à convertir des fichiers JSON en classeurs XLSX avec Aspose.Cells pour Java grâce à ce guide complet étape par étape.
 ### [Incorporer les polices HTML – Excel vers HTML avec intégration complète des polices](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
-Apprenez à exporter des classeurs Excel en HTML en incorporant toutes les polices pour garantir un rendu fidèle.
+Apprenez à convertir des fichiers Excel en HTML avec intégration de polices...
+
 ### [Convertir le Markdown en Excel – Guide complet avec Aspose.Cells](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
 Apprenez à transformer des fichiers Markdown en classeurs Excel avec Aspose.Cells grâce à ce guide complet étape par étape.
 ### [Convertir le Markdown en feuille de calcul Java – guide étape par étape](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
@@ -100,6 +103,10 @@ Apprenez à transformer des fichiers Markdown en classeurs Excel avec Aspose.Cel
 Apprenez à intégrer des polices dans un fichier HTML à partir d'un classeur Excel avec Aspose.Cells pour Java. Guide étape par étape avec exemples de code.
 ### [Comment exporter Excel en SVG – Guide complet Java](./how-to-export-excel-to-svg-complete-java-guide/)
 Apprenez à convertir un classeur Excel en fichier SVG avec Aspose.Cells pour Java. Guide complet avec exemples de code.
+### [Comment exporter Excel en SVG – Guide Java étape par étape](./how-to-export-excel-to-svg-step-by-step-java-guide/)
+Apprenez à exporter des fichiers Excel au format SVG avec Aspose.Cells pour Java. Guide complet avec code source étape par étape.
+### [Comment créer un SVG à partir d'Excel avec Java – guide étape par étape](./how-to-create-svg-from-excel-with-java-step-by-step-guide/)
+Apprenez à créer un fichier SVG depuis un classeur Excel avec Aspose.Cells pour Java. Guide complet pas à pas avec exemples de code.
 ### [Chargement d'un fichier JSON Java – Guide complet pour convertir JSON en Excel](./load-json-file-java-full-guide-to-convert-json-to-excel/)
 Apprenez à charger un fichier JSON en Java et à le convertir en Excel avec Aspose.Cells. Guide complet avec exemples de code.
 ### [Comment charger un fichier JSON dans Excel avec Aspose.Cells pour Java](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
@@ -132,6 +139,11 @@ Découvrez comment intégrer des polices dans des fichiers SVG à partir d'Excel
 Découvrez comment intégrer des polices dans HTML lors de la conversion d’un classeur Excel en HTML et l’enregistrement du classeur.
 ### [Comment intégrer des polices lors de la conversion d'Excel en HTML – Guide complet](./how-to-embed-fonts-when-converting-excel-to-html-complete-gu/)
 Apprenez à intégrer des polices lors de la conversion de fichiers Excel en HTML avec Aspose.Cells pour Java. Guide complet étape par étape.
+### [Comment intégrer des polices dans HTML à partir d'un classeur Excel – Guide complet](./how-to-embed-fonts-in-html-from-excel-full-guide/)
+Apprenez à intégrer des polices dans les fichiers HTML générés à partir d'Excel avec Aspose.Cells pour Java, guide complet pas à pas.
+### [Comment intégrer des polices lors de l’enregistrement d’Excel en HTML – guide complet](./how-to-embed-fonts-when-saving-excel-as-html-complete-guide/)
+Apprenez à intégrer des polices lors de l’enregistrement d’un classeur Excel au format HTML avec Aspose.Cells pour Java, guide complet pas à pas.
+
 ### [Convertir Excel en PPTX : guide complet Java](./convert-excel-to-pptx-complete-java-guide/)
 Apprenez à convertir des fichiers Excel en présentations PPTX avec Aspose.Slides pour Java grâce à un guide complet et du code source étape par étape.
 ### [Convertir Excel en PDF/A avec Java – Guide complet étape par étape](./convert-excel-to-pdf-a-with-java-complete-step-by-step-guide/)
@@ -145,7 +157,7 @@ Apprenez à générer un fichier FlatOPC depuis un classeur Excel avec Aspose.Ce
 Apprenez à convertir des données JSON en fichiers Excel avec Aspose.Cells pour Java grâce à ce guide complet étape par étape.
 ### [Convertir xlsx en PowerPoint avec Java – guide complet](./convert-xlsx-to-powerpoint-with-java-complete-guide/)
 Apprenez à transformer des fichiers Excel (.xlsx) en présentations PowerPoint en Java avec Aspose.Slides, étape par étape.
-### [Créer un fichier Excel à partir de JSON et convertir JSON en cellule Excel avec Aspose.Cells](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
+### [Créer un fichier Excel à partir de JSON et convertir JSON à cellule Excel avec Aspose.Cells](./create-excel-from-json-and-convert-json-to-excel-cell-with-a/)
 Apprenez à créer un classeur Excel à partir de données JSON et à convertir des valeurs JSON en cellules Excel avec Aspose.Cells.
 ### [Importer des objets personnalisés dans Excel avec Aspose.Cells – Guide Java](./import-custom-objects-into-excel-with-aspose-cells-java-guid/)
 Apprenez à importer des objets personnalisés dans Excel en Java avec Aspose.Cells grâce à ce guide détaillé étape par étape.
@@ -167,6 +179,10 @@ Apprenez à appliquer un formatage personnalisé lors de l'importation d'un Data
 Apprenez à enregistrer un classeur Excel au format CSV avec Aspose.Cells pour Java grâce à un guide détaillé pas à pas.
 ### [Inclure l'exportation de formules en Java – Convertir les cellules Excel en texte](./include-formulas-export-in-java-convert-excel-cells-to-text/)
 Apprenez à exporter les formules en texte avec Aspose.Cells pour Java, convertissant les cellules Excel en texte.
+### [Comment enregistrer un classeur au format CSV avec un format numérique précis en Java](./how-to-save-workbook-as-csv-with-precise-numeric-formatting/)
+Apprenez à enregistrer un classeur Excel au format CSV en conservant un format numérique précis avec Aspose.Cells pour Java.
+### [Enregistrer le classeur au format CSV – Guide complet Java pour exporter Excel en CSV](./save-workbook-as-csv-complete-java-guide-to-export-excel-to/)
+Apprenez à enregistrer un classeur Excel au format CSV avec Aspose.Cells pour Java grâce à un guide détaillé pas à pas.
 ### [Créer un document Word à partir d'Excel – Guide complet d'exportation XLSX](./create-word-from-excel-complete-guide-to-exporting-xlsx/)
 Apprenez à créer un fichier Word à partir d'un classeur Excel en exportant le format XLSX avec Aspose.Cells pour Java.
 ### [Comment intégrer des polices dans HTML à partir d'Excel – Guide complet](./how-to-embed-fonts-in-html-from-excel-full-guide/)
@@ -189,6 +205,9 @@ Apprenez à définir la zone d'impression d'un classeur Excel et à l'exporter v
 Apprenez à exporter une feuille Excel au format CSV avec une précision élevée en Java grâce à Aspose.Cells.
 ### [Enregistrer un classeur au format CSV avec Aspose.Cells pour Java – guide étape par étape](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
 Apprenez à enregistrer un classeur Excel au format CSV avec Aspose.Cells pour Java grâce à ce guide détaillé pas à pas.
+
+### [Comment exporter Excel en texte avec une sortie à délimitation par tabulation](./how-to-export-excel-as-text-with-tab-delimited-output/)
+Apprenez à exporter un classeur Excel au format texte avec des séparateurs de tabulation en Java grâce à Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

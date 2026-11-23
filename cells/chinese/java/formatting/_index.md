@@ -256,9 +256,11 @@ Aspose.Words Java 代码教程
 本教程演示如何在 Aspose.Cells for Java 中使用 WRAPCOLS 方法实现列自动换行，并提供完整可运行的示例代码。
 ### [如何在 Java 中创建带有货币格式和粗体字体的 Excel 工作簿](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 学习使用 Aspose.Cells for Java 在 Excel 工作簿中应用货币格式并设置粗体字体的步骤和代码示例。
-### [使用 Java 创建 Excel 工作簿并应用列数字格式](./create-excel-workbook-java-and-apply-column-number-formats/)
+### [使用 Java 创建 Excel 工作簿并应用列数字格式](./create-excel-workbook-java-and-apply-column-number-forms/)
 学习如何使用 Aspose.Cells for Java 创建 Excel 工作簿并为列设置数字格式。
 ### [如何使用 Java 限制 Excel 中的有效数字](./how-to-limit-significant-digits-excel-using-java/)
+
+### [如何使用 Java 在 Excel 中应用自定义数字格式](./how-to-apply-a-custom-number-format-in-excel-with-java/)
 
 ## 其他资源
 

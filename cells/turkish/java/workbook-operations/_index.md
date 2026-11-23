@@ -516,7 +516,9 @@ Aspose.Cells for Java kullanarak Excel dosyalarından özel özellikleri nasıl 
 Java için Aspose.Cells'i kullanarak Excel dosyalarını PDF'ye nasıl dönüştüreceğinizi öğrenin, sağlam hata işleme stratejileriyle. Toplu işleme ve veri raporlaması için idealdir.
 
 ### [Java'da hücreleri çalışma kitapları arasında kopyalama](./how-to-copy-cells-between-excel-workbooks-in-java/)
-Java ve Aspose.Cells kullanarak bir çalışma kitabından diğerine hücreleri kopyalamayı adım adım öğrenin.
+
+### [Aspose.Cells ile Java çalışma kitabında yerel ayarı nasıl ayarlarsınız](./how-to-set-locale-in-a-java-workbook-using-aspose-cells/)
+Aspose.Cells for Java kullanarak çalışma kitabının yerel ayarını (locale) nasıl belirleyeceğinizi öğrenin.
 
 ## Ek Kaynaklar
 

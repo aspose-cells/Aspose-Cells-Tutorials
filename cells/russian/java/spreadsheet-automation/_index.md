@@ -78,10 +78,18 @@
 
 ### [Как удалить заголовок таблицы в Excel с Java – Полное руководство](./how-to-delete-table-header-in-excel-with-java-full-guide/)
 Узнайте, как программно удалить заголовок таблицы в Excel с помощью Aspose.Cells для Java, с подробными примерами кода.
+
 ### [Удаление автофильтра из Excel с помощью Java – Полное руководство](./remove-autofilter-from-excel-with-java-complete-guide/)
 Узнайте, как удалить автофильтр из файлов Excel с помощью Aspose.Cells для Java, используя пошаговые примеры кода.
+
+### [Как удалить автофильтр из таблицы в Excel с помощью Java](./how-to-remove-autofilter-from-table-in-excel-using-java/)
+Узнайте, как удалить автофильтр из таблицы Excel с помощью Java, используя Aspose.Cells.
+
 ### [Как использовать Aspose.Cells: добавить пользовательское свойство и сохранить XLSB](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
 Узнайте, как добавить пользовательское свойство в файл XLSB и сохранить его с помощью Aspose.Cells для Java.
+
+### [Как создать листы из списка в Java с помощью Smart Markers](./how-to-create-sheets-from-list-in-java-using-smart-markers/)
+Узнайте, как создавать листы из списка в Java с помощью Smart Markers в Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

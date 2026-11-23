@@ -44,6 +44,9 @@ Aspose.Cells for Java를 사용하여 Excel에서 워크시트의 최대 표시 
 ### [Aspose.Cells for Java를 사용하여 Excel에서 셀 범위를 선택하는 방법(2023 가이드)](./aspose-cells-java-select-cell-ranges-excel/)
 Aspose.Cells for Java를 사용하여 Excel에서 셀 범위를 선택하는 방법을 익혀보세요. 이 가이드에서는 설정, 코드 예제, 그리고 성능 팁을 다룹니다.
 
+### [Aspose.Cells와 Java에서 wrapcols 사용 방법](./how-to-use-wrapcols-in-java-with-aspose-cells/)
+Aspose.Cells for Java에서 wrapcols 기능을 활용하여 Excel 셀 텍스트 래핑을 제어하는 방법을 단계별로 안내합니다.
+
 ### [Aspose.Cells for Java를 사용하여 Excel에서 셀 병합을 해제하는 방법: 단계별 가이드](./aspose-cells-java-unmerging-excel-cells-guide/)
 이 포괄적인 가이드를 통해 Aspose.Cells for Java를 사용하여 Excel에서 셀 병합을 효율적으로 해제하는 방법을 알아보세요. 데이터 준비 및 보고서 생성에 이상적입니다.
 
@@ -51,7 +54,7 @@ Aspose.Cells for Java를 사용하여 Excel에서 셀 범위를 선택하는 방
 Aspose.Cells for Java를 사용하여 HTML 표를 행과 열 자동 맞춤을 포함한 잘 구성된 Excel 파일로 변환하는 방법을 알아보세요.
 
 ### [Aspose.Cells for Java를 사용하여 Excel 열을 효율적으로 복사하기: 포괄적인 가이드](./copy-excel-columns-aspose-cells-java/)
-Aspose.Cells for Java를 사용하여 Excel에서 열 복사를 자동화하는 방법을 알아보세요. 따라 하기 쉬운 가이드로 워크플로를 간소화하고 생산성을 높여 보세요.
+Aspose.Cells for Java를 사용하여 Excel에서 열 복사를 자동화하는 방법을 따라 하기 쉬운 가이드로 워크플로를 간소화하고 생산성을 높여 보세요.
 
 ### [Aspose.Cells Java를 사용하여 Excel에서 여러 열을 복사하는 방법: 완전한 가이드](./copy-multiple-columns-excel-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 워크시트 내 여러 열을 자동으로 복사하는 방법을 알아보세요. 이 가이드는 설정, 구현 및 문제 해결에 대해 다룹니다.
@@ -92,15 +95,19 @@ Aspose.Words Java에 대한 코드 튜토리얼
 Aspose.Cells for Java를 사용하여 Excel에서 데이터 범위를 효율적으로 관리하고 조작하는 방법을 알아보세요. 보고서 자동화 및 데이터 기반 애플리케이션 구축에 이상적입니다.
 
 ### [Aspose.Cells를 사용하여 Java에서 Excel 셀 병합 해제: 단계별 가이드](./unmerge-excel-cells-aspose-cells-java-guide/)
-Aspose.Cells for Java를 사용하여 Excel 파일에서 셀 병합을 효율적으로 해제하는 방법을 알아보세요. 이 가이드에서는 코드 예제를 통해 병합된 셀의 설정, 감지 및 병합 해제 방법을 다룹니다.
+Aspose.Cells for Java를 사용하여 Excel 파일에서 셀 병합을 효율적으로 해제하는 방법을 안내합니다. 이 가이드에서는 코드 예제를 통해 병합된 셀의 설정, 감지 및 병합 해제 방법을 다룹니다.
 
 ### [Java를 사용하여 Excel 셀에 이름 지정 – 완전 가이드](./assign-name-to-cell-in-excel-using-java-complete-guide/)
 Java와 Aspose.Cells를 활용해 Excel 셀에 이름을 지정하고 관리하는 방법을 단계별로 안내합니다.
+
 ### [Java에서 워크북 간 범위 복사 – 단계별 가이드](./copy-range-between-workbooks-in-java-step-by-step-guide/)
 Java용 Aspose.Cells를 활용해 서로 다른 워크북 간에 셀 범위를 복사하는 방법을 단계별로 안내합니다.
 
 ### [Java Excel 처리에서 expand 함수 사용 방법](./how-to-use-expand-function-in-java-excel-processing/)
 Aspose.Cells for Java를 사용하여 Excel에서 expand 함수를 활용하는 방법을 단계별로 안내합니다.
+
+### [Java를 사용하여 Excel에서 범위 확장하는 방법](./how-to-expand-range-in-excel-with-java/)
+Java를 사용하여 Excel에서 범위를 확장하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

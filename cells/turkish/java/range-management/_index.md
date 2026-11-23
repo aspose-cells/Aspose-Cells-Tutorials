@@ -55,6 +55,8 @@ Aspose.Cells for Java kullanarak bir Excel çalışma sayfasındaki birden fazla
 
 ### [Aspose.Cells ile Java'da Aralığı Kopyalama](./how-to-copy-range-in-java-with-aspose-cells/)
 
+### [Java'da Aspose.Cells ile wrapcols Nasıl Kullanılır](./how-to-use-wrapcols-in-java-with-aspose-cells/)
+
 ### [Aspose.Cells Java kullanarak Excel'de Birlik Aralığı Oluşturma: Kapsamlı Bir Kılavuz](./create-union-range-excel-aspose-cells-java/)
 Excel'de birleşik aralıklar oluşturmak, veri sunumunu ve okunabilirliği geliştirmek için Aspose.Cells for Java'yı nasıl kullanacağınızı öğrenin.
 
@@ -91,11 +93,16 @@ Aspose.Cells for Java kullanarak Excel dosyalarındaki hücreleri etkin bir şek
 ### [Java Kullanarak Excel'de Hücreye İsim Atama – Tam Kılavuz](./assign-name-to-cell-in-excel-using-java-complete-guide/)
 
 ### [Programlı Olarak Çalışma Sayfası Aralığını Kopyalama – Tam Java Kılavuzu](./programmatically-copy-worksheet-range-complete-java-guide/)
+
 ### [Java’da Çalışma Kitapları Arasında Aralık Kopyalama – Adım Adım Kılavuz](./copy-range-between-workbooks-in-java-step-by-step-guide/)
+
 ### [Excel'de Adlandırılmış Bir Aralık Oluşturun ve Yinelenen İsimleri Tespit Edin](./create-a-named-range-and-detect-duplicate-name-in-excel/)
 Aspose.Cells for Java kullanarak Excel'de adlandırılmış bir aralık oluşturmayı ve aynı isimdeki mevcut aralıkları tespit etmeyi öğrenin.
 
 ### [Java Excel İşleminde Genişletme Fonksiyonunu Nasıl Kullanılır](./how-to-use-expand-function-in-java-excel-processing/)
+
+### [Java ile Excel'de Aralığı Genişletme](./how-to-expand-range-in-excel-with-java/)
+Aspose.Cells for Java kullanarak Excel'de bir hücre aralığını nasıl genişleteceğinizi adım adım öğrenin.
 
 ## Ek Kaynaklar
 

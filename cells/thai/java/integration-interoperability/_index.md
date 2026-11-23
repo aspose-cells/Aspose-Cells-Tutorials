@@ -59,15 +59,17 @@
 เรียนรู้ขั้นตอนการส่งออกแผนภูมิจากไฟล์ Excel ไปยัง PowerPoint ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดครบถ้วน
 ### [แปลง Excel เป็น PowerPoint – คู่มือเต็มขั้นตอน](./convert-excel-to-powerpoint-full-step-by-step-guide/)
 เรียนรู้วิธีแปลงไฟล์ Excel ไปเป็น PowerPoint อย่างละเอียดด้วยขั้นตอนครบถ้วนโดยใช้ Aspose.Cells สำหรับ Java
-### [วิธีบันทึก Excel เป็น DOCX ด้วย Aspose.Cells ใน C#](./how-to-save-excel-as-docx-with-aspose-cells-in-c/)
-เรียนรู้วิธีบันทึกไฟล์ Excel เป็น DOCX ด้วย Aspose.Cells ใน C# อย่างง่ายดาย
+### [แปลง Excel เป็น PowerPoint ด้วย Java – คู่มือแบบขั้นตอนต่อขั้นตอน](./convert-excel-to-powerpoint-in-java-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ Excel ไปเป็นสไลด์ PowerPoint อย่างละเอียดด้วย Aspose.Cells สำหรับ Java
+### [วิธีบันทึก PPTX จาก Excel – คู่มือครบถ้วนสำหรับการส่งออกแผ่นงาน Excel ไปเป็น PowerPoint](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
+เรียนรู้วิธีบันทึกไฟล์ PPTX จาก Excel ด้วย Aspose.Cells สำหรับ Java พร้อมขั้นตอนและตัวอย่างโค้ดที่สมบูรณ์
+
 ### [แปลง Excel เป็น PowerPoint ด้วย Aspose.Cells ใน Java](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
 เรียนรู้วิธีแปลงไฟล์ Excel ไปเป็น PowerPoint ด้วย Aspose.Cells สำหรับ Java อย่างง่ายดาย
+### [วิธีแปลง Excel เป็น PowerPoint ด้วย Aspose.Cells สำหรับ Java](./how-to-convert-excel-to-powerpoint-with-aspose-cells-for-jav/)
+เรียนรู้วิธีแปลงไฟล์ Excel ไปเป็นสไลด์ PowerPoint ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดครบถ้วน
 ### [Excel ไปยัง PPTX: คู่มือ Java ฉบับสมบูรณ์สำหรับการส่งออกรูปร่างที่แก้ไขได้](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
 เรียนรู้วิธีส่งออกรูปร่างจาก Excel ไปยังไฟล์ PPTX ที่สามารถแก้ไขได้โดยใช้ Aspose.Cells สำหรับ Java
-### [วิธีส่งออกแผนภูมิจาก Excel ไปยัง DOCX ด้วย Aspose.Cells สำหรับ Java](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
-เรียนรู้วิธีส่งออกแผนภูมิจากไฟล์ Excel ไปยังไฟล์ DOCX ด้วย Aspose.Cells สำหรับ Java
-
 ### [แปลง Excel ไปเป็น PowerPoint – คู่มือเต็มสำหรับ Java](./convert-excel-to-powerpoint-complete-java-guide/)
 เรียนรู้วิธีแปลงไฟล์ Excel ไปเป็นงานนำเสนอ PowerPoint อย่างเต็มรูปแบบด้วย Aspose.Cells สำหรับ Java
 

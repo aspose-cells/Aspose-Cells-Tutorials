@@ -79,12 +79,18 @@
 Μάθετε πώς να επεκτείνετε πίνακες σε αρχεία Excel χρησιμοποιώντας Aspose.Cells για Java, με παραδείγματα κώδικα βήμα‑βήμα.
 
 ### [Πώς να διαγράψετε την κεφαλίδα πίνακα στο Excel με Java – Πλήρης Οδηγός](./how-to-delete-table-header-in-excel-with-java-full-guide/)
-Μάθετε πώς να αφαιρέσετε την κεφαλίδα πίνακα σε αρχεία Excel χρησιμοποιώντας Aspose.Cells για Java, με βήμα-βήμα παραδείγματα κώδικα.
+Μάθετε πώς να αφαιρέσετε την κεφαλίδα πίνακα σε αρχεία Excel χρησιμοποιώντας Aspose.Cells για Java, με βήμα‑βήμα παραδείγματα κώδικα.
 ### [Αφαίρεση Autofilter από το Excel με Java – Πλήρης Οδηγός](./remove-autofilter-from-excel-with-java-complete-guide/)
-Μάθετε πώς να αφαιρέσετε το Autofilter από αρχεία Excel χρησιμοποιώντας το Aspose.Cells για Java, βήμα-βήμα με παραδείγματα κώδικα.
+Μάθετε πώς να αφαιρέσετε το Autofilter σε αρχεία Excel χρησιμοποιώντας Aspose.Cells για Java, βήμα‑βήμα με παραδείγματα κώδικα.
 
+### [Πώς να αφαιρέσετε το Autofilter από πίνακα στο Excel χρησιμοποιώντας Java](./how-to-remove-autofilter-from-table-in-excel-using-java/)
+Μάθετε πώς να αφαιρέσετε το Autofilter από πίνακα σε αρχεία Excel με Aspose.Cells για Java, βήμα‑βήμα με παραδείγματα κώδικα.
+
+### [Δημιουργία κατακόρυφου πίνακα Excel με Java – Πλήρης οδηγός βήμα‑βήμα](./create-vertical-array-excel-with-java-full-step-by-step-guid/)
+Μάθετε πώς να δημιουργήσετε κατακόρυφο πίνακα Excel με Java, χρησιμοποιώντας Aspose.Cells, με πλήρη βήμα‑βήμα οδηγίες και παραδείγματα κώδικα.
 ### [Πώς να χρησιμοποιήσετε το Aspose.Cells: Προσθήκη προσαρμοσμένης ιδιότητας & αποθήκευση XLSB](./how-to-use-aspose-cells-add-custom-property-save-xlsb/)
-Μάθετε πώς να προσθέσετε προσαρμοσμένη ιδιότητα σε αρχείο XLSB και να το αποθηκεύσετε χρησιμοποιώντας το Aspose.Cells για Java.
+
+### [Πώς να δημιουργήσετε φύλλα από λίστα σε Java χρησιμοποιώντας Smart Markers](./how-to-create-sheets-from-list-in-java-using-smart-markers/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

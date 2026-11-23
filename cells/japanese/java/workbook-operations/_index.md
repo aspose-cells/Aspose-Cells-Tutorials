@@ -527,7 +527,8 @@ Aspose.Cells for Java を使用して、Excel のカスタム プロパティを
 Aspose.Cells for Java を使用して、Excel ファイルを HTML としてシームレスにエクスポートする方法を学びます。このガイドでは、ワークブックの読み込み、カスタム ストリーム プロバイダー、そしてワークブックの簡単な保存方法について説明します。
 
 ### [Javaでセルをコピーする方法（Excel ワークブック間）](./how-to-copy-cells-between-excel-workbooks-in-java/)
-Javaでセルをコピーする方法（Excel ワークブック間）
+
+### [Aspose.Cells を使用した Java ワークブックでロケールを設定する方法](./how-to-set-locale-in-a-java-workbook-using-aspose-cells/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
