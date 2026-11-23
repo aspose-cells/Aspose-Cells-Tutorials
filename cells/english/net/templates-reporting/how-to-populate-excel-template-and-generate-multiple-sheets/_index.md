@@ -45,7 +45,7 @@ tags:
 - Aspose.Cells
 - C#
 - Excel automation
-title: How to populate an Excel template and generate multiple sheets with Aspose.Cells in C#
+title: How to use Aspose.Cells to populate an Excel template and generate multiple sheets in C#
 url: /net/templates-reporting/how-to-populate-excel-template-and-generate-multiple-sheets/
 ---
 
@@ -53,7 +53,7 @@ url: /net/templates-reporting/how-to-populate-excel-template-and-generate-multip
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to populate an Excel template and generate multiple sheets with Aspose.Cells in C#
+# How to use Aspose.Cells to populate an Excel template and generate multiple sheets in C#
 
 If you need to **populate Excel template** with dynamic data, this guide shows you a complete, ready‑to‑run solution. Using Aspose.Cells’ Smart Marker engine you can **generate multiple sheets**, save the **Aspose workbook**, and produce a full **master‑detail report** without manual copying or VBA macros.
 

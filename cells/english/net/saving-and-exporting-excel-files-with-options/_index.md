@@ -1,6 +1,6 @@
 ---
-title: Saving and Exporting Excel Files with Options using Aspose.Cells
-linktitle: Saving and Exporting Excel Files with Options using Aspose.Cells
+title: Learn to Save and Export Excel Files with Options using Aspose.Cells
+linktitle: Learn to Save and Export Excel Files with Options using Aspose.Cells
 second_title: Aspose.Cells .NET Excel Processing API
 description: Explore detailed Aspose.Cells for .NET tutorials on saving and exporting Excel files. Learn how to handle comments, document properties, warnings, and data trimming.
 weight: 36
@@ -48,7 +48,7 @@ Empty rows and columns can clutter your exports, especially when dealing with CS
 Learn how to easily export comments while saving Excel files to HTML using Aspose.Cells for .NET. Follow this step‑by‑step guide to preserve annotations.
 ### {{< relref "getting-warnings-while-loading-excel-file" >}}
 Learn how to handle warnings while loading Excel files in .NET using Aspose.Cells with our easy step‑by‑step guide.
-### {{< relref "how-to-create-xlsb-file-with-custom-worksheet-properties-in" >}}
+### {{< relref "how-to-create-xlsb-file-with-custom-worksheet-properties-in-c" >}}
 Learn how to create an XLSB file with custom worksheet properties in C# using Aspose.Cells for .NET.
 ### {{< relref "specifying-document-version-of-excel-file" >}}
 Learn how to specify document properties like version, author, and title in an Excel file programmatically using Aspose.Cells for .NET with step‑by‑step instructions.

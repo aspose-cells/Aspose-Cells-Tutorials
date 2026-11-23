@@ -19,7 +19,7 @@ og_description: Create xlsb file in C# using Aspose.Cells. This tutorial shows h
   storage.
 og_image_alt: Screenshot of an Excel workbook saved as .xlsb with custom worksheet
   properties displayed in the file explorer
-og_title: Create xlsb file with custom properties – C# guide
+og_title: How to create an XLSB file with custom worksheet properties – C# guide
 schemas:
 - author: Aspose
   dateModified: '2026-11-22'
@@ -50,7 +50,7 @@ tags:
 - Aspose.Cells
 - C#
 - Excel automation
-title: Create an XLSB file with custom worksheet properties using Aspose.Cells in C#
+title: How to create an XLSB file with custom worksheet properties using Aspose.Cells in C#
 url: /net/saving-and-exporting-excel-files-with-options/how-to-create-xlsb-file-with-custom-worksheet-properties-in/
 ---
 
@@ -129,7 +129,7 @@ If you prefer to control the format explicitly, use the `SaveOptions` object:
 
 ```csharp
 // Alternative: specify the save format with SaveOptions
-var options = new XlsbSaveOptions(SaveFormat.Xlsb);
+var options = new XlsbSaveOptions();
 workbook.Save("CustomPropsExplicit.xlsb", options);
 ```
 

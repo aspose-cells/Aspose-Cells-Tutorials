@@ -30,7 +30,7 @@ tags:
 - Aspose.Cells
 - C#
 - Excel automation
-title: Smart Marker integration for JSON data in .NET
+title: Create Excel from JSON data using Aspose.Cells Smart Marker in .NET
 url: /net/smart-markers-dynamic-data/how-to-create-excel-from-json-data-with-aspose-cells-and-sma/
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Automate Excel Template Creation & Report Generation with Aspose.Cells for .NET"
+title: "Create and Automate Excel Templates & Report Generation with Aspose.Cells for .NET"
 description: "Build and create dynamic Excel reports using templates, smart markers, and data binding with Aspose.Cells for .NET. Automate document generation efficiently."
 weight: 23
 url: "/net/templates-reporting/"
@@ -98,7 +98,7 @@ Learn how to expand arrays in Excel and populate templates using Aspose.Cells fo
 ### [Convert dataset to Excel and populate an Excel template]({{< relref "convert-dataset-to-excel-and-populate-an-excel-template" >}})
 Learn how to convert a dataset to Excel and fill an Excel template using Aspose.Cells for .NET.
 
-### [How to create Excel from template and generate repeated sheets]({{< relref "how-to-create-excel-from-template-and-generate-repeated-shee" >}})
+### [How to create Excel from template and generate repeated sheets]({{< relref "how-to-create-excel-from-template-and-generate-repeated-sheets" >}})
 Learn how to generate an Excel workbook from a template and automatically create repeated sheets using Aspose.Cells for .NET.
 
 ### [How to generate Excel from template with C# and Aspose.Cells]({{< relref "how-to-generate-excel-from-template-with-c-and-aspose-cells" >}})
