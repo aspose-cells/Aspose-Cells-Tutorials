@@ -1,0 +1,7 @@
+Title: How to create multiple sheets in an Excel file using C#
+Slug: how-to-create-multiple-sheets-in-an-excel-file-using-c
+Category: worksheet-management
+ProcessedDate: 2026-11-25T23:08:04.405487
+SourceRepo: AI Search API
+Keywords: create multiple sheets, create excel file c#, duplicate sheet names, save workbook xlsx
+PRNumber: 215
