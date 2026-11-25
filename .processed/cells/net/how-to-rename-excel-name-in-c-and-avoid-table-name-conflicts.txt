@@ -1,0 +1,7 @@
+Title: How to rename Excel name in C# and avoid table name conflicts
+Slug: how-to-rename-excel-name-in-c-and-avoid-table-name-conflicts
+Category: excel-advanced-named-ranges
+ProcessedDate: 2026-11-25T23:08:10.106985
+SourceRepo: AI Search API
+Keywords: how to rename excel name, create excel workbook c#, excel table name conflict
+PRNumber: 215
