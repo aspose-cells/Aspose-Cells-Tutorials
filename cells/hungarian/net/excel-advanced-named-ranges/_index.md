@@ -44,6 +44,8 @@ Tanulja meg, hogyan menthet Excel munkafüzetet és adhat hozzá elnevezett tart
 Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet C#-ban, elnevezett tartományt adsz hozzá és táblanevet állítasz be az Aspose.Cells for .NET segítségével.
 ### [Táblázat nevének hozzárendelése és névütközések elkerülése](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
 Ismerd meg, hogyan adhatod meg a táblázat nevét, és kerüld el a névütközéseket az Aspose.Cells for .NET használatával.
+### [Hogyan nevezd át az Excel nevet C#-ban és kerüld el a táblanevek ütközéseit](./how-to-rename-excel-name-in-c-and-avoid-table-name-conflicts/)
+Tanulja meg, hogyan módosíthatja az Excel nevet C#-ban, miközben elkerüli a táblanevek ütközését az Aspose.Cells for .NET használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

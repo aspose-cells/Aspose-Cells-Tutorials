@@ -133,6 +133,8 @@
 了解如何使用 Aspose.Cells for .NET 在 Excel 中向上移动单元格的完整步骤。
 ### [从 Excel 表中删除行 – 完整 C# 指南](./delete-rows-from-excel-table-complete-c-guide/)
 学习如何使用 Aspose.Cells for .NET 在 C# 中从 Excel 表中删除行的完整步骤指南。
+### [使用 C# 从 Excel 表中删除行](./how-to-delete-rows-from-excel-table-with-c/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中删除 Excel 表中的行，提供详细步骤和示例。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

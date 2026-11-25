@@ -154,6 +154,9 @@
 
 ### [如何使用 SmartMarkerProcessor – 在 Excel 中重新命名現有工作表](./how-to-use-smartmarkerprocessor-rename-existing-sheet-in-exc/)
 
+### [如何使用 C# 在 Excel 檔案中建立多個工作表](./how-to-create-multiple-sheets-in-an-excel-file-using-c/)
+了解如何使用 Aspose.Cells for .NET 以 C# 程式碼在單一 Excel 檔案中一次建立多張工作表的步驟與範例。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

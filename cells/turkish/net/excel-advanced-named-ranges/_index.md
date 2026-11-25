@@ -44,6 +44,8 @@ Aspose.Cells for .NET kullanarak bir Excel dosyasını kaydedin ve adlandırılm
 C# ve Aspose.Cells for .NET kullanarak yeni bir Excel dosyası oluşturun, adlandırılmış aralık ekleyin ve tablo adını ayarlayın.
 ### [Excel Tablosuna Ad Verme ve Ad Çakışmalarını Önleme](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
 Aspose.Cells for .NET kullanarak Excel tablosuna ad atama ve olası ad çakışmalarını önleme yöntemlerini öğrenin.
+### [C# ile Excel adını yeniden adlandırma ve tablo adı çakışmalarını önleme](./how-to-rename-excel-name-in-c-and-avoid-table-name-conflicts/)
+Aspose.Cells for .NET ile Excel adını yeniden adlandırın ve tablo adı çakışmalarını önleyin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

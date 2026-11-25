@@ -44,6 +44,8 @@ Aprenda a salvar uma pasta de trabalho do Excel e criar intervalos nomeados usan
 Aprenda a criar uma pasta de trabalho Excel em C#, adicionar intervalos nomeados e definir nomes de tabelas usando Aspose.Cells para .NET.
 ### [Atribuir nome à tabela Excel e evitar conflitos de nomenclatura](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
 Aprenda a atribuir nomes às tabelas do Excel e prevenir conflitos de nomenclatura usando Aspose.Cells para .NET.
+### [Como renomear nome do Excel em C# e evitar conflitos de nomes de tabela](./how-to-rename-excel-name-in-c-and-avoid-table-name-conflicts/)
+Aprenda a renomear nomes no Excel usando C# e prevenir conflitos de nomenclatura de tabelas com Aspose.Cells para .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

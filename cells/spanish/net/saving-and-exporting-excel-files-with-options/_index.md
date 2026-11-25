@@ -49,6 +49,9 @@ Aprenda a guardar libros de Excel programáticamente en C# con una guía paso a 
 ### [Cómo crear un archivo xlsb con propiedades personalizadas de hoja de cálculo en C#](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
 Aprenda a generar archivos xlsb y establecer propiedades personalizadas de hoja de cálculo usando Aspose.Cells para .NET en C#.
 
+### [Crear libro de Excel en C# y guardarlo como XLSB](./create-excel-workbook-c-and-save-as-xlsb/)
+Aprenda a crear y guardar libros de Excel en formato XLSB usando Aspose.Cells para .NET con C#.
+
 
 
 

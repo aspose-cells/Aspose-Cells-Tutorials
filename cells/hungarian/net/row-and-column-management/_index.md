@@ -78,9 +78,11 @@ Ismerje meg, hogyan törölhet sorokat egy Excel táblázatból C#-ban az Aspose
 Tanuld meg, hogyan törölhetsz több sort Excelben az Aspose.Cells for .NET segítségével. Ez a részletes, lépésről lépésre haladó útmutató tartalmazza az előfeltételeket, a kódolási példákat és a fejlesztőknek szóló GYIK-et.
 ### [Aspose Cells sorok törlése – Fejléc sor védelme Excelben](./aspose-cells-delete-rows-protect-header-row-in-excel/)
 Ismerje meg, hogyan törölhet sorokat úgy, hogy a fejléc sort megőrizze az Excel-fájlban az Aspose.Cells for .NET használatával.
-### [Sorok törlése Excel táblázatból C#‑val – Lépésről lépésre útmutató](./delete-rows-excel-table-with-c-step-by-step-guide/)
+### [Sorok törlése Excel táblázatból C#‑val – Lépésről‑lépésre útmutató](./delete-rows-excel-table-with-c-step-by-step-guide/)
 Ismerje meg, hogyan törölhet több sort egy Excel‑táblázatból C#‑ban az Aspose.Cells segítségével.
 ### [Hogyan töröljünk sorokat egy Excel táblázatból C#‑val](./how-to-delete-rows-from-excel-table-using-c/)
+Ismerje meg, hogyan törölhet sorokat egy Excel‑táblázatból C#‑ban az Aspose.Cells segítségével.
+### [Hogyan töröljünk sorokat egy Excel táblázatból C#‑val](./how-to-delete-rows-from-excel-table-with-c/)
 Ismerje meg, hogyan törölhet sorokat egy Excel‑táblázatból C#‑ban az Aspose.Cells segítségével.
 ### [Sorok beszúrása Excelben C#‑val – Lépésről‑lépésre útmutató](./insert-rows-in-excel-with-c-step-by-step-guide/)
 Fedezze fel a lépésről lépésre útmutatót a sorok Excelbe való beszúrásához C#‑ban az Aspose.Cells for .NET segítségével.

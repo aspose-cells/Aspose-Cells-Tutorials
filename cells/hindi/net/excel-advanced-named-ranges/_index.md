@@ -44,6 +44,8 @@
 Aspose.Cells for .NET का उपयोग करके C# में नई Excel वर्कबुक बनाएं, नामित रेंज जोड़ें और टेबल का नाम सेट करें।
 ### [Excel तालिका को नाम दें और नामकरण टकराव से बचें](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
 Aspose.Cells for .NET का उपयोग करके Excel तालिका को नामित करने और नामकरण टकराव को रोकने के चरण‑दर‑चरण गाइड।
+### [C# में Excel नाम को पुनः नामित करें और टेबल नाम टकराव से बचें](./how-to-rename-excel-name-in-c-and-avoid-table-name-conflicts/)
+C# में Aspose.Cells का उपयोग करके Excel नाम बदलें और टेबल नाम टकराव से बचें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -64,6 +64,8 @@ Découvrez comment enregistrer un classeur au format XLSX et générer des fichi
 Apprenez à enregistrer un classeur Excel en C# avec Aspose.Cells, étape par étape, en couvrant toutes les options de sauvegarde.
 ### [Comment créer un fichier xlsb avec des propriétés de feuille de calcul personnalisées en C#](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
 Apprenez à créer un fichier XLSB avec des propriétés de feuille personnalisées en C# grâce à Aspose.Cells, guide étape par étape.
+### [Créer un classeur Excel en C# et l’enregistrer au format XLSB](./create-excel-workbook-c-and-save-as-xlsb/)
+Apprenez à créer un classeur Excel en C# et à le sauvegarder au format XLSB avec Aspose.Cells pour .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

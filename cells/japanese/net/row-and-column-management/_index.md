@@ -101,13 +101,11 @@ Aspose.Cells for .NET を使用して、Excel ファイルから行を削除し�
 ### [C# を使用して Excel ファイルの行全体を削除する方法](./how-to-delete-entire-row-in-an-excel-file-using-c/)
 Aspose.Cells for .NET と C# を使用して、Excel ファイルから特定の行全体を削除する手順をステップバイステップで解説します。
 ### [C# を使用して Excel テーブルの行を削除する](./delete-rows-excel-table-with-c-step-by-step-guide/)
-C# と Aspose.Cells for .NET を使って、Excel テーブルから行を削除する手順を詳しく解説します。
-### [ヘッダーを保持しながら Excel テーブルの行を削除するための Aspose.Cells の使用方法](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
-ヘッダー行を保持したまま、Excel テーブルから特定の行を削除する手順をステップバイステップで解説します。
-### [C# を使用して Excel テーブルから行を削除する方法](./how-to-delete-rows-from-excel-table-using-c/)
-Aspose.Cells for .NET を使用して、Excel テーブル内の行を削除する手順をステップバイステップで解説します。
-### [C# を使用して Excel に行を挿入する – ステップバイステップ ガイド](./insert-rows-in-excel-with-c-step-by-step-guide/)
-Aspose.Cells for .NET を使用し、C# で Excel に行を挿入する方法をステップバイステップで解説します。
+Aspose.Cells for .NET を使って、C# で Excel テーブルから行を削除する方法をステップバイステップで解説します。
+
+### [C# で Excel テーブルの行を削除する方法](./how-to-delete-rows-from-excel-table-with-c/)
+Aspose.Cells for .NET を使用し、C# で Excel テーブル内の行を削除する手順を解説します。
+
 ### [WRAPCOLS の使い方: C# で 2 列レイアウトを作成する](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 WRAPCOLS 機能を利用して、C# で Excel シートに 2 列のレイアウトを簡単に作成する手順を解説します。
 ### [GridJs で行を挿入する – 複数行を素早く追加](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)

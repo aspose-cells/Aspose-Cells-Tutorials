@@ -66,6 +66,9 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Arbeitsmappen als XLSX speicher
 Erfahren Sie Schritt für Schritt, wie Sie mit Aspose.Cells für .NET ein Excel-Arbeitsbuch in C# speichern und alle Optionen nutzen.
 ### [Wie man eine xlsb-Datei mit benutzerdefinierten Arbeitsblatt-Eigenschaften in C# erstellt](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
 
+### [Excel-Arbeitsmappe in C# erstellen und als XLSB speichern](./create-excel-workbook-c-and-save-as-xlsb/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET eine Excel-Arbeitsmappe in C# erstellen und im XLSB-Format speichern.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

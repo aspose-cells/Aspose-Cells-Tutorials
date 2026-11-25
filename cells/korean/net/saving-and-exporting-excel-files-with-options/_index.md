@@ -67,6 +67,9 @@ Aspose.Cells for .NET을 사용하여 데이터를 포함한 Excel 파일을 XLS
 Aspose.Cells for .NET을 활용해 C#에서 워크북을 저장하는 전체 프로그래밍 가이드를 제공합니다.
 ### [C#에서 사용자 정의 워크시트 속성으로 xlsb 파일 만들기](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
 
+### [C#에서 Excel 워크북 만들기 및 XLSB로 저장](./create-excel-workbook-c-and-save-as-xlsb/)
+C#을 사용하여 Excel 워크북을 만들고 XLSB 형식으로 저장하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

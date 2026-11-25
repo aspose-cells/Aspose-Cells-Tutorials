@@ -63,6 +63,8 @@
 تعرف على كيفية حفظ دفتر العمل كملف XLSX وإنشاء ملفات Excel مليئة بالبيانات باستخدام Aspose.Cells لـ .NET.
 ### [كيفية حفظ دفتر العمل في C# – دليل برمجة كامل](./how-to-save-workbook-in-c-complete-programming-guide/)
 ### [كيفية إنشاء ملف xlsb بخصائص ورقة عمل مخصصة في C#](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
+### [إنشاء مصنف Excel باستخدام C# وحفظه كملف XLSB](./create-excel-workbook-c-and-save-as-xlsb/)
+تعلم كيفية إنشاء مصنف Excel باستخدام C# وحفظه بصيغة XLSB باستخدام Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

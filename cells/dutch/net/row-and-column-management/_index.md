@@ -103,8 +103,6 @@ Leer hoe u meerdere rijen efficiënt kunt toevoegen aan een GridJs‑grid met ee
 
 ### [Rijen uit Excel-tabel verwijderen met C# – Stapsgewijze handleiding](./delete-rows-excel-table-with-c-step-by-step-guide/)
 Leer hoe u rijen uit een Excel‑tabel verwijdert met C# in een duidelijke, stap‑voor‑stap handleiding.
-### [Rijen invoegen in Excel met C# – Stapsgewijze handleiding](./insert-rows-in-excel-with-c-step-by-step-guide/)
-Leer hoe u rijen in een Excel‑bestand invoegt met C# en Aspose.Cells via een duidelijke, stap‑voor‑stap handleiding.
 ### [Hoe WRAPCOLS te gebruiken: Een tweekolomsindeling maken in C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)
 Leer hoe u met WRAPCOLS een tweekolomsindeling maakt in Excel via C# met Aspose.Cells.
 ### [Hoe WRAPCOLS te gebruiken om een rij in kolommen te splitsen in C#](./how-to-use-wrapcols-to-split-a-row-into-columns-in-c/)
@@ -121,6 +119,8 @@ Leer hoe u WRAPCOLS in C# toepast en de werkmap opslaat als XLSX met Aspose.Cell
 Leer hoe u met C# cellen in een Excel-werkblad omhoog verschuift met Aspose.Cells, stap voor stap uitgelegd.
 ### [Hoe rijen uit Excel-tabel verwijderen met C#](./how-to-delete-rows-from-excel-table-using-c/)
 Leer hoe u rijen uit een Excel‑tabel verwijdert met C# via een stapsgewijze handleiding.
+### [Hoe rijen uit Excel-tabel verwijderen met C#](./how-to-delete-rows-from-excel-table-with-c/)
+Leer hoe u rijen uit een Excel‑tabel verwijdert met Aspose.Cells via C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

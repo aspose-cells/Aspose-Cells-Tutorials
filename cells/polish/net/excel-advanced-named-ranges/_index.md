@@ -44,6 +44,8 @@ Dowiedz się, jak utworzyć skoroszyt Excel, dodać tabele i zdefiniować reguł
 Dowiedz się, jak zapisać skoroszyt Excel i dodać zakres nazwany przy użyciu Aspose.Cells w pełnym przewodniku C#.
 ### [Utwórz skoroszyt Excel w C# – Dodaj zakres nazwany i ustaw nazwę tabeli](./create-excel-workbook-in-c-add-named-range-set-table-name/)
 Dowiedz się, jak w C# utworzyć nowy skoroszyt Excel, dodać zakres nazwany oraz ustawić nazwę tabeli przy użyciu Aspose.Cells.
+### [Jak zmienić nazwę w Excelu w C# i uniknąć konfliktów nazw tabel](./how-to-rename-excel-name-in-c-and-avoid-table-name-conflicts/)
+Dowiedz się, jak w C# zmienić nazwę w Excelu i uniknąć konfliktów nazw tabel przy użyciu Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

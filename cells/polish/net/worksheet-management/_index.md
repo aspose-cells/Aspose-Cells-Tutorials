@@ -1,5 +1,5 @@
 ---
-"description": "Opanuj zarządzanie arkuszami kalkulacyjnymi programu Excel za pomocą Aspose.Cells for .NET dzięki kompleksowym samouczkom obejmującym tworzenie, manipulowanie i techniki organizacji arkuszy."
+"description": "Opanuj zarządzanie arkuszami kalkulacyjnymi programu Excel za pomocą Aspose.Cells for .NET dzięki kompleksowym samouczkom obejmującymi tworzenie, manipulowanie i techniki organizacji arkuszy."
 "linktitle": "Zarządzanie arkuszami kalkulacyjnymi"
 "second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
 "title": "Zarządzanie arkuszami kalkulacyjnymi za pomocą Aspose.Cells dla .NET"
@@ -58,6 +58,9 @@ Naucz się dodawać arkusze kalkulacyjne w pliku Excel za pomocą Aspose.Cells d
 
 ### [Dodawanie arkuszy kalkulacyjnych do istniejącego pliku Excel za pomocą Aspose.Cells](./add-worksheets-to-existing-excel-file/)
 Dowiedz się, jak dodawać arkusze kalkulacyjne do istniejącego pliku Excel w Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Idealne do dynamicznego zarządzania danymi i wydajnego rozszerzania organizacji arkuszy kalkulacyjnych.
+
+### [Jak utworzyć wiele arkuszy w pliku Excel przy użyciu C#](./how-to-create-multiple-sheets-in-an-excel-file-using-c/)
+Dowiedz się, jak programowo tworzyć wiele arkuszy w pliku Excel przy użyciu C# i Aspose.Cells dla .NET.
 
 ### [Usuwanie arkuszy roboczych według indeksu za pomocą Aspose.Cells](./remove-worksheets-by-index/)
 Samouczek krok po kroku dotyczący usuwania arkuszy kalkulacyjnych według indeksu za pomocą Aspose.Cells dla .NET. Z łatwością usprawnij zarządzanie dokumentami Excela, programowo usuwając niechciane arkusze na podstawie ich położenia.

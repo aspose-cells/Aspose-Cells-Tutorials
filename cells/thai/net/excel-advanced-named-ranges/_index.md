@@ -44,6 +44,8 @@
 เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# เพิ่มช่วงที่มีชื่อและตั้งชื่อตารางโดยใช้ Aspose.Cells สำหรับ .NET
 ### [กำหนดชื่อให้ตาราง Excel และหลีกเลี่ยงความขัดแย้งของชื่อ](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
 เรียนรู้วิธีตั้งชื่อให้ตาราง Excel อย่างปลอดภัยและป้องกันการชนกันของชื่อใน Aspose.Cells สำหรับ .NET
+### [วิธีเปลี่ยนชื่อ Excel ใน C# และหลีกเลี่ยงความขัดแย้งของชื่อตาราง](./how-to-rename-excel-name-in-c-and-avoid-table-name-conflicts/)
+เรียนรู้วิธีเปลี่ยนชื่อช่วงใน Excel ด้วย C# พร้อมหลีกเลี่ยงการชนกันของชื่อตารางใน Aspose.Cells สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

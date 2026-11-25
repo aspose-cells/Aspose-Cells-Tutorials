@@ -44,6 +44,8 @@ Pelajari cara menyimpan workbook Excel dan menambahkan rentang bernama menggunak
 Pelajari cara membuat workbook Excel di C# dengan menambahkan rentang bernama dan mengatur nama tabel menggunakan Aspose.Cells for .NET.
 ### [Berikan Nama pada Tabel Excel dan Hindari Konflik Penamaan](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
 Pelajari cara menetapkan nama pada tabel Excel serta menghindari konflik penamaan dengan tutorial langkah demi langkah.
+### [Cara mengganti nama Excel di C# dan menghindari konflik nama tabel](./how-to-rename-excel-name-in-c-and-avoid-table-name-conflicts/)
+Pelajari cara mengganti nama rentang atau nama Excel di C# serta menghindari konflik penamaan tabel dengan contoh kode praktis.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -152,6 +152,9 @@ Naučte se, jak nastavit barvy záložek listu v Excelu pomocí Aspose.Cells pro
 ### [Jak rozdělit panely pracovního listu v Excelu pomocí Aspose.Cells .NET pro vylepšenou analýzu dat](./split-worksheet-panes-excel-aspose-cells-dotnet)
 Naučte se, jak pomocí Aspose.Cells pro .NET rozdělit panely pracovních listů v Excelu, což vylepší navigaci v datech a efektivitu analýzy pro lepší vizualizaci velkých datových sad.
 
+### [Jak vytvořit více listů v souboru Excel pomocí C#](./how-to-create-multiple-sheets-in-an-excel-file-using-c/)
+Naučte se, jak pomocí Aspose.Cells pro .NET v C# vytvořit v Excelu více pracovních listů najednou.
+
 ### [Jak použít SmartMarkerProcessor – Přejmenovat existující list v Excelu](./how-to-use-smartmarkerprocessor-rename-existing-sheet-in-exc/)
 Naučte se, jak pomocí SmartMarkerProcessor přejmenovat existující list v Excelu pomocí Aspose.Cells pro .NET.
 

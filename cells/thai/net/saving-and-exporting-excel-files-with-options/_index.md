@@ -64,6 +64,8 @@ Aspose.Cells สำหรับ .NET มอบเครื่องมืออ�
 ### [วิธีบันทึกเวิร์กบุ๊กใน C# – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./how-to-save-workbook-in-c-complete-programming-guide/)
 เรียนรู้วิธีบันทึกเวิร์กบุ๊กด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือการเขียนโปรแกรมฉบับสมบูรณ์
 ### [วิธีสร้างไฟล์ xlsb พร้อมคุณสมบัติกระดานงานที่กำหนดเองใน C#](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
+### [สร้างเวิร์กบุ๊ก Excel ด้วย C# และบันทึกเป็น XLSB](./create-excel-workbook-c-and-save-as-xlsb/)
+เรียนรู้วิธีสร้างไฟล์ Excel ด้วย C# และบันทึกเป็นรูปแบบ XLSB อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

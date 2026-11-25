@@ -36,6 +36,9 @@ Linhas e colunas vazias podem desorganizar suas exportações, especialmente ao 
 ## Tutoriais sobre como salvar e exportar arquivos do Excel com opções
 ### [How to create xlsb file with custom worksheet properties in C#](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
 
+### [Criar pasta de trabalho Excel em C# e salvar como XLSB](./create-excel-workbook-c-and-save-as-xlsb/)
+
+Aprenda a criar uma pasta de trabalho Excel em C# e salvá‑la como arquivo XLSB usando Aspose.Cells para .NET.
 
 ### [Exportando comentários ao salvar arquivo Excel em HTML](./exporting-comments/)
 Aprenda a exportar comentários facilmente enquanto salva arquivos do Excel em HTML usando o Aspose.Cells para .NET. Siga este guia passo a passo para preservar anotações.
@@ -46,13 +49,6 @@ Aprenda a especificar propriedades de documento como versão, autor e título em
 ### [Aparando linhas e colunas em branco iniciais durante a exportação](./trimming-leading-blank-rows-and-columns/)
 Simplifique suas exportações de CSV removendo linhas e colunas em branco iniciais com o Aspose.Cells para .NET. Dados limpos estão a apenas alguns passos de distância.
 ### [Como salvar a pasta de trabalho em C# – Guia completo de automação do Excel](./how-to-save-workbook-in-c-complete-excel-automation-guide/)
-### [Como usar FlatOpcSaveOptions em C# – Guia completo](./how-to-use-flatopcsaveoptions-in-c-complete-guide/)
-
-
-
-
-
-
 
 
 ### [Como salvar a pasta de trabalho em C# – Guia completo para limpar filtros e exportar Excel](./how-to-save-workbook-in-c-complete-guide-to-clearing-filters/)

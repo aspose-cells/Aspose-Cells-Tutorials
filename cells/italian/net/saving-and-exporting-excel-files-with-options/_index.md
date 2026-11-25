@@ -66,6 +66,8 @@ Impara a salvare una cartella di lavoro in formato XLSX usando Aspose.Cells per 
 Scopri come salvare una cartella di lavoro in C# con Aspose.Cells per .NET, passo dopo passo, con esempi di codice completi.
 ### [Come creare un file xlsb con proprietà personalizzate del foglio di lavoro in C#](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
 Scopri come generare un file xlsb impostando proprietà personalizzate per i fogli di lavoro usando Aspose.Cells per .NET in C#.
+### [Creare una cartella di lavoro Excel in C# e salvarla come XLSB](./create-excel-workbook-c-and-save-as-xlsb/)
+Scopri come creare una cartella di lavoro Excel in C# e salvarla nel formato XLSB con Aspose.Cells per .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

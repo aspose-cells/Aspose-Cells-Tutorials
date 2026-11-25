@@ -86,6 +86,9 @@ Apprenez à copier efficacement des feuilles de calcul entre des classeurs Excel
 ### [Comment copier des lignes dans Excel avec Aspose.Cells pour .NET : Guide AC#](./copy-rows-excel-aspose-cells-net-guide)
 Apprenez à automatiser la copie de lignes dans des feuilles de calcul Excel avec Aspose.Cells pour .NET grâce à ce guide C# complet. Améliorez la gestion de vos données et votre productivité grâce à des techniques efficaces de duplication de lignes.
 
+### [Comment créer plusieurs feuilles dans un fichier Excel à l'aide de C#](./how-to-create-multiple-sheets-in-an-excel-file-using-c/)
+Apprenez à créer plusieurs feuilles de calcul dans un même classeur Excel en utilisant C# et Aspose.Cells pour .NET, avec des exemples de code et des bonnes pratiques.
+
 ### [Copier des feuilles dans un classeur avec Aspose.Cells pour .NET - Guide étape par étape](./copy-sheets-within-workbook-aspose-cells-net)
 Apprenez à copier efficacement des feuilles dans un classeur avec Aspose.Cells pour .NET. Optimisez l'automatisation de vos travaux Excel grâce à ce guide complet pour dupliquer des feuilles de calcul tout en conservant les formats et les données.
 
@@ -147,7 +150,7 @@ Apprenez à gérer et supprimer des feuilles de calcul Excel par nom avec Aspose
 Découvrez comment définir un nom d'onglet personnalisé lors de l'exportation d'une feuille Excel au format HTML avec Aspose.Cells pour .NET. Idéal pour les rapports Web et le partage de données, il offre une navigation utilisateur optimisée.
 
 ### [Définir les couleurs des onglets de la feuille de calcul dans Excel avec Aspose.Cells .NET - Guide complet](./set-worksheet-tab-colors-aspose-cells-net)
-Apprenez à définir les couleurs des onglets des feuilles de calcul dans Excel avec Aspose.Cells pour .NET. Ce guide couvre tous les aspects, de l'ouverture des fichiers à l'enregistrement des modifications, en passant par l'amélioration de l'organisation de vos feuilles de calcul et la navigation visuelle.
+Apprenez à définir les couleurs des onglets des feuilles de calcul dans Excel avec Aspose.Cells .NET. Ce guide couvre tous les aspects, de l'ouverture des fichiers à l'enregistrement des modifications, en passant par l'amélioration de l'organisation de vos feuilles de calcul et la navigation visuelle.
 
 ### [Comment diviser les volets d'une feuille de calcul dans Excel à l'aide d'Aspose.Cells .NET pour une analyse de données améliorée](./split-worksheet-panes-excel-aspose-cells-dotnet)
 Découvrez comment utiliser Aspose.Cells pour .NET pour diviser les volets des feuilles de calcul dans Excel, améliorant ainsi la navigation des données et l’efficacité de l’analyse pour une meilleure visualisation des grands ensembles de données.

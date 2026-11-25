@@ -123,6 +123,8 @@ Scopri come spostare le celle verso l'alto in Excel usando C# e Aspose.Cells con
 ### [Come eliminare righe in Excel con C# – proteggere l'intestazione della tabella](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
 Scopri come eliminare righe in Excel con C# mantenendo intatta l'intestazione della tabella.
 
+### [Come eliminare righe da una tabella Excel con C#](./how-to-delete-rows-from-excel-table-with-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

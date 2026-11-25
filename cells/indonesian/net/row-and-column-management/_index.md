@@ -92,6 +92,8 @@ Pelajari cara menggunakan metode WRAPCOLS untuk membuat tata letak dua kolom dal
 Panduan langkah demi langkah menggunakan WRAPCOLS untuk membagi satu baris menjadi beberapa kolom di Excel dengan C#.
 ### [Cara Menyisipkan Baris di GridJs – Tambahkan Beberapa Baris dengan Cepat](./how-to-insert-rows-in-gridjs-add-multiple-rows-quickly/)
 Pelajari cara menambahkan beberapa baris sekaligus di GridJs dengan cepat melalui contoh kode praktis.
+### [Cara menghapus baris dari tabel Excel dengan C#](./how-to-delete-rows-from-excel-table-with-c/)
+Panduan langkah demi langkah untuk menghapus baris dari tabel Excel menggunakan C# dengan Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

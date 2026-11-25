@@ -44,6 +44,8 @@
 本教程演示如何使用 Aspose.Cells for .NET 在 C# 中创建工作簿、添加命名范围并设置表名称。
 ### [为 Excel 表格分配名称并避免命名冲突](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
 本教程演示如何为 Excel 表格分配唯一名称，避免命名冲突。
+### [如何在 C# 中重命名 Excel 名称并避免表格名称冲突](./how-to-rename-excel-name-in-c-and-avoid-table-name-conflicts/)
+本教程展示如何在 C# 使用 Aspose.Cells 重命名 Excel 名称并防止表格名称冲突。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

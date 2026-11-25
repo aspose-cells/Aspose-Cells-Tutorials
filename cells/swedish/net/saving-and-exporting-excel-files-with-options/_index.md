@@ -66,6 +66,8 @@ Lär dig steg för steg hur du sparar en arbetsbok som XLSX och genererar Excel-
 Lär dig steg för steg hur du sparar en arbetsbok i C# med Aspose.Cells för .NET i en komplett programmeringsguide.
 ### [Hur man skapar xlsb-fil med anpassade arbetsblads‑egenskaper i C#](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
 Lär dig hur du skapar en xlsb-fil med anpassade arbetsblads‑egenskaper i C# med Aspose.Cells för .NET.
+### [Skapa Excel-arbetsbok i C# och spara som XLSB](./create-excel-workbook-c-and-save-as-xlsb/)
+Lär dig hur du skapar en Excel-arbetsbok i C# och sparar den som XLSB med Aspose.Cells för .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
