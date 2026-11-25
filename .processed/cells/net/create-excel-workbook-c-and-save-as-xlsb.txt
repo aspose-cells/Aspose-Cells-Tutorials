@@ -1,0 +1,7 @@
+Title: Create Excel workbook C# and save as XLSB
+Slug: create-excel-workbook-c-and-save-as-xlsb
+Category: saving-and-exporting-excel-files-with-options
+ProcessedDate: 2026-11-25T23:08:01.194360
+SourceRepo: AI Search API
+Keywords: create excel workbook c#, save workbook as xlsb, set worksheet custom property
+PRNumber: 215
