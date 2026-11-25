@@ -49,10 +49,8 @@ url: /fr/java/calculation-engine/master-aspose-cells-java-interrupt-formula-calc
 weight: 1
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Maîtriser Aspose.Cells Java : comment interrompre le calcul des formules dans les classeurs Excel
@@ -213,10 +211,9 @@ Dans ce tutoriel, vous avez appris comment **interrupt excel calculation java** 
 - [Maîtriser les opérations des classeurs Excel avec Aspose.Cells Java : guide complet pour les développeurs](/cells/java/workbook-operations/aspose-cells-java-excel-workbook-creation/)
 
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
