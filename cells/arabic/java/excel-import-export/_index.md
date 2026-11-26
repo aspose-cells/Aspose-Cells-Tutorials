@@ -62,6 +62,8 @@
 تعرّف على كيفية تصدير ملفات Excel إلى HTML في Java باستخدام Aspose.Cells لـ Java. اتبع هذا الدليل خطوة بخطوة مع الكود المصدري لتحويل ملفات Excel إلى HTML بسهولة ويسر.
 ### [تحويل XLSX إلى PPTX – دليل كامل لتصدير الأشكال القابلة للتعديل](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
 اكتشف طريقة تحويل ملفات XLSX إلى PPTX وتصدير الأشكال القابلة للتعديل خطوة بخطوة باستخدام Aspose.Cells لجافا.
+### [كيفية تصدير إكسل إلى PPTX مع أشكال قابلة للتعديل](./how-to-export-excel-to-pptx-with-editable-shapes/)
+تعلم كيفية تصدير ملفات Excel إلى PPTX مع الحفاظ على الأشكال القابلة للتعديل باستخدام Aspose.Cells لجافا.
 ### [تحويل JSON إلى XLSX باستخدام Aspose.Cells Java – دليل كامل](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
 تعرف على كيفية تحويل ملفات JSON إلى XLSX باستخدام Aspose.Cells لجافا خطوة بخطوة مع أمثلة الكود.
 ### [تضمين الخطوط في HTML – Excel إلى HTML مع تضمين كامل للخطوط](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
@@ -74,8 +76,12 @@
 تعلم كيفية إنشاء ملف Excel في Java مع تنسيق الصفوف وتصديره بصيغة XLSX خطوة بخطوة باستخدام Aspose.Cells.
 ### [كيفية تصدير إكسل إلى SVG – دليل Java كامل](./how-to-export-excel-to-svg-complete-java-guide/)
 تعرف على طريقة تصدير ملفات Excel إلى صيغة SVG باستخدام Aspose.Cells لجافا مع أمثلة شاملة خطوة بخطوة.
-### [كيفية تضمين الخطوط في HTML من مصنف Excel – Java](./how-to-embed-fonts-in-html-from-excel-workbook-java/)
-تعرف على طريقة تضمين الخطوط في ملفات HTML المستخرجة من مصنف Excel باستخدام Aspose.Cells لجافا.
+### [كيفية إنشاء SVG من Excel باستخدام Java – دليل خطوة بخطوة](./how-to-create-svg-from-excel-with-java-step-by-step-guide/)
+تعرّف على كيفية إنشاء ملفات SVG من مصنفات Excel باستخدام Aspose.Cells لجافا خطوة بخطوة مع أمثلة الكود.
+### [كيفية تضمين الخطوط عند تحويل Excel إلى SVG](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
+تعرف على طريقة تضمين الخطوط في ملفات SVG المستخرجة من Excel باستخدام Aspose.Cells لجافا خطوة بخطوة.
+### [كيفية تصدير إكسل إلى SVG باستخدام Aspose.Cells في جافا](./how-to-export-excel-to-svg-using-aspose-cells-in-java/)
+تعرف على طريقة تصدير ملفات إكسل إلى صيغة SVG باستخدام Aspose.Cells لجافا خطوة بخطوة مع أمثلة الكود.
 ### [دليل Flat OPC Aspose: تحميل مصنف Excel في Java](./flat-opc-tutorial-aspose-load-excel-workbook-in-java/)
 تعرّف على كيفية تحميل مصنف Excel باستخدام Aspose.Cells في Java عبر دليل Flat OPC خطوة بخطوة.
 ### [حفظ المصنف كملف XLSX – إنشاء XLSX من JSON](./save-workbook-as-xlsx-generate-xlsx-from-json/)

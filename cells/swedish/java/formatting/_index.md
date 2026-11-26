@@ -259,6 +259,10 @@ Bemästra formateringen av Excel-celler och hur du lägger till hyperlänkar i d
 
 ### [Aspose Cells datumformat: Hur du ställer in anpassat datumformat i Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
 Lär dig hur du använder Aspose.Cells för Java för att definiera och tillämpa anpassade datumformat i Excel-filer.
+
+### [Hur man skapar Excel-arbetsbok med japanska era-datum i Java](./how-to-create-excel-workbook-with-japanese-era-dates-in-java/)
+Lär dig hur du skapar en Excel-arbetsbok som använder japanska era-datum med Aspose.Cells för Java.
+
 ### [Hur man använder WRAPCOLS i Aspose.Cells – Komplett Java-exempel](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 Lär dig hur du använder WRAPCOLS-funktionen i Aspose.Cells för Java för att automatiskt anpassa kolumnbredd baserat på cellinnehåll.
 ### [Hur man skapar Excel-arbetsbok med valutaformat och fet stil i Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)

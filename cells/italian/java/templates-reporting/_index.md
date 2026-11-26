@@ -76,6 +76,9 @@ Scopri come utilizzare Smart Markers in Excel con Java per creare report dinamic
 ### [Creare cartella di lavoro Excel con Smart Markers – Guida Java](./create-excel-workbook-with-smart-markers-java-guide/)
 Scopri come creare una cartella di lavoro Excel con Smart Markers in Java, con esempi passo passo.
 
+### [Come creare una cartella di lavoro Excel in Java con i marcatori Aspose.Cells](./how-to-create-excel-workbook-java-with-aspose-cells-markers/)
+Impara a generare una cartella di lavoro Excel in Java utilizzando i marcatori di Aspose.Cells per automatizzare il reporting.
+
 ## Risorse aggiuntive
 
 - [Documentazione di Aspose.Cells per Java](https://docs.aspose.com/cells/java/)

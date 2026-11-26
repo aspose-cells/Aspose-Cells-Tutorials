@@ -93,24 +93,12 @@ Leer hoe u een Excel-werkmap maakt in Java met JSON-gegevens met Aspose.Cells.
 Leer hoe u een Excel-bestand maakt in Java, rijen stijlt en exporteert naar XLSX met Aspose.Cells.
 ### [Hoe Excel exporteren naar SVG – Complete Java-gids](./how-to-export-excel-to-svg-complete-java-guide/)
 Leer hoe u Excel-bestanden exporteert naar SVG met Aspose.Cells voor Java in deze volledige gids.
-### [Lettertypen insluiten in HTML vanuit Excel-werkmap – Java](./how-to-embed-fonts-in-html-from-excel-workbook-java/)
-Leer hoe u lettertypen insluit in HTML vanuit een Excel-werkmap met Aspose.Cells voor Java. Stapsgewijze handleiding met voorbeeldcode.
-### [Flat OPC-tutorial Aspose: Laad Excel-werkmap in Java](./flat-opc-tutorial-aspose-load-excel-workbook-in-java/)
-Leer hoe u een Excel-werkmap laadt met de Flat OPC-functie van Aspose.Cells voor Java in deze stapsgewijze handleiding.
-### [Werkmap opslaan als XLSX – Genereer XLSX vanuit JSON](./save-workbook-as-xlsx-generate-xlsx-from-json/)
-Leer hoe u een werkmap opslaat als XLSX en een XLSX-bestand genereert vanuit JSON met Aspose.Cells voor Java.
-### [Numerieke exportprecisie instellen in Java: significante cijfers instellen](./set-numeric-export-precision-in-java-set-significant-digits/)
-Leer hoe u de numerieke exportprecisie in Excel kunt aanpassen door het aantal significante cijfers in te stellen met Aspose.Cells voor Java.
-### [Hoe een werkmap opslaan als CSV met precieze numerieke opmaak in Java](./how-to-save-workbook-as-csv-with-precise-numeric-formatting/)
-Leer hoe u een werkmap opslaat als CSV met nauwkeurige numerieke opmaak met Aspose.Cells voor Java.
-### [XLSX exporteren als CSV – Complete Java-gids](./export-xlsx-as-csv-complete-java-guide/)
-Leer hoe u XLSX-bestanden naar CSV converteert met Aspose.Cells voor Java in deze volledige stapsgewijze gids.
-### [Excel converteren naar Word – Complete Java-gids (2026)](./convert-excel-to-word-complete-java-guide-2026/)
-Leer hoe u Excel-bestanden naar Word converteert met Aspose.Cells voor Java in deze volledige gids.
+
+### [Hoe Excel exporteren naar SVG met Aspose.Cells in Java](./how-to-export-excel-to-svg-using-aspose-cells-in-java/)
+Leer hoe u Excel naar SVG exporteert met Aspose.Cells voor Java.
+
 ### [Lettertypen insluiten bij Excel-naar-SVG-conversie](./how-to-embed-fonts-in-excel-to-svg-conversion/)
 Leer hoe u lettertypen embedt bij het converteren van Excel-bestanden naar SVG met Aspose.Cells voor Java.
-### [Excel-bestand converteren naar HTML – Complete gids met lettertype insluiten](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
-Leer hoe u Excel-bestanden naar HTML converteert en lettertypen insluit met Aspose.Cells voor Java in deze volledige gids.
 ### [Excel exporteren naar HTML – Complete gids met bevroren rijen](./export-excel-to-html-complete-guide-with-frozen-panes/)
 Leer hoe u Excel-werkbladen naar HTML exporteert en bevroren rijen behoudt met Aspose.Cells voor Java in deze volledige gids.
 ### [Lettertypen insluiten in HTML – Converteer Excel naar HTML & Sla werkmap op](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
@@ -129,7 +117,7 @@ Leer hoe u Excel naar HTML exporteert in Java met een volledige stap‑voor‑st
 Leer hoe u een lijst importeert naar Excel en kolommen opmaakt met Aspose.Cells voor Java.
 ### [Hoe Excel te exporteren naar TXT met beperkte significante cijfers in Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
 Leer hoe u Excel-gegevens exporteert naar TXT met een beperkt aantal significante cijfers met Aspose.Cells voor Java.
-### [Hoe Excel exporteren naar PowerPoint met Aspose.Cells – stapsgewijze handleiding](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
+### [Hoe Excel exporteren naar PowerPoint met Aspose.Cells – stapsgewijze handleiding](./how-to-export-excel-to-powerpoint-step-by-step-guide/)
 Leer hoe u Excel-werkbladen naar PowerPoint presenteert met Aspose.Cells in een stap‑voor‑stap handleiding.
 ### [JSON exporteren naar Excel met Aspose.Cells in Java](./export-json-to-excel-with-aspose-cells-in-java/)
 Leer hoe u JSON-gegevens naar Excel exporteert met Aspose.Cells voor Java in een stapsgewijze handleiding.
@@ -168,18 +156,14 @@ Leer hoe u Excel-werkbladen naar TXT exporteert met Aspose.Cells en de decimale 
 ### [Excel exporteren naar PowerPoint met Java](./how-to-export-excel-to-powerpoint-with-java/)
 Leer hoe u Excel-bestanden naar PowerPoint exporteert met Aspose.Cells voor Java. Volg de stapsgewijze handleiding met voorbeeldcode.
 
-### [Hoe Excel-werkblad exporteren naar PowerPoint met Aspose.Cells in Java](./how-to-export-excel-sheet-to-powerpoint-with-aspose-cells-in/)
+### [Hoe een Excel-werkblad exporteren naar PowerPoint met Aspose.Cells in Java](./how-to-export-excel-sheet-to-powerpoint-with-aspose-cells-in/)
 Leer hoe u een Excel-werkblad exporteert naar PowerPoint met Aspose.Cells voor Java in een stap‑voor‑stap handleiding.
 
-### [Hoe JSON naar Excel converteren en Excel vullen vanuit JSON met Aspose.Cells](./how-to-convert-json-to-excel-and-populate-excel-from-json-us/)
-Leer hoe u JSON-gegevens converteert naar een Excel-werkmap en deze vult met Aspose.Cells voor Java.
+### [Hoe Excel exporteren naar PPTX met bewerkbare vormen](./how-to-export-excel-to-pptx-with-editable-shapes/)
+Leer hoe u met Aspose.Cells voor Java Excel-werkbladen exporteert naar PPTX met bewerkbare vormen.
 
-### [Werkmap opslaan als CSV met Aspose.Cells voor Java – stapsgewijze handleiding](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
-Leer hoe u een werkmap opslaat als CSV met Aspose.Cells voor Java in een stapsgewijze handleiding.
-### [Markdown naar spreadsheet converteren in Java – stapsgewijze gids](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
-Leer hoe u Markdown-bestanden omzet naar een spreadsheet in Java met Aspose.Cells voor Java in deze stapsgewijze gids.
-### [Hoe een werkmap opslaan als PDF met numerieke precisie in Java](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
-Leer hoe u een werkmap opslaat als PDF met nauwkeurige numerieke precisie met Aspose.Cells voor Java.
+### [Hoe een werkmap opslaan als CSV met precieze numerieke opmaak in Java](./how-to-save-workbook-as-csv-with-precise-numeric-formatting/)
+Leer hoe u een werkmap opslaat als CSV met nauwkeurige numerieke opmaak met Aspose.Cells voor Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

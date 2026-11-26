@@ -101,6 +101,9 @@ Naučte se exportovat grafy z Excelu do souboru DOCX pomocí Aspose.Cells pro Ja
 ### [Jak exportovat tvar z Excelu do PowerPointu pomocí Javy](./how-to-export-shape-from-excel-to-powerpoint-using-java/)
 Naučte se pomocí Aspose.Cells a Aspose.Slides v Javě exportovat tvary z Excelu do prezentací PowerPoint.
 
+### [Jak povolit GridJS v Java Excel workflow a poskytovat soubory pro web](./how-to-enable-gridjs-in-a-java-excel-workflow-and-serve-file/)
+Naučte se, jak v Java workflow s Aspose.Cells integrovat GridJS a servírovat Excel soubory jako webové aplikace.
+
 ## Další zdroje
 
 - [Dokumentace k Aspose.Cells pro Javu](https://docs.aspose.com/cells/java/)

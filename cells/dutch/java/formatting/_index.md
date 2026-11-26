@@ -266,6 +266,9 @@ Leer hoe u een Excel-werkmap maakt en kolomnummerformaten toepast met Aspose.Cel
 ### [Hoe u significante cijfers in Excel beperkt met Java](./how-to-limit-significant-digits-excel-using-java/)
 Leer hoe u met Aspose.Cells voor Java het aantal significante cijfers in Excel-werkbladen kunt beperken.
 
+### [Hoe maak je een Excel-werkmap met Japanse era-datums in Java](./how-to-create-excel-workbook-with-japanese-era-dates-in-java/)
+Leer hoe u een Excel-werkmap maakt met Japanse era-datums met Aspose.Cells voor Java.
+
 ## Aanvullende bronnen
 
 - [Aspose.Cells voor Java-documentatie](https://docs.aspose.com/cells/java/)

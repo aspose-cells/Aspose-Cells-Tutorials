@@ -55,6 +55,7 @@ Java で Teacher クラスを実装し、生徒データを管理し、Aspose.Ce
 
 ### [Java で Excel を PPTX に変換 – 完全プログラミングガイド](./convert-excel-to-pptx-with-java-complete-programming-guide/)
 Java と Aspose.Cells を使用して、Excel ファイルを PowerPoint プレゼンテーション (PPTX) に変換する方法をステップバイステップで解説します。
+
 ### [Java を使用して Excel の範囲をコピーし、PowerPoint にエクスポートする方法](./how-to-copy-range-from-excel-and-export-it-to-powerpoint-usi/)
 Java と Aspose.Cells を使って Excel のセル範囲を取得し、PowerPoint スライドにエクスポートする手順を解説します。
 
@@ -63,13 +64,16 @@ Java と Aspose.Cells を使用して、Excel のチャートを Word 文書に�
 
 ### [Java で WRAPCOLS を使用する方法 – Excel 配列数式の完全ガイド](./how-to-use-wrapcols-in-java-complete-guide-to-excel-array-fo/)
 Java と Aspose.Cells を使って WRAPCOLS 関数を活用し、Excel の配列数式を実装する手順を詳しく解説します。
+
 ### [Excel から PowerPoint を作成 – 完全 Java ガイド](./create-powerpoint-from-excel-full-java-guide/)
 Excel データを使用して PowerPoint プレゼンテーションを作成する方法を、Aspose.Cells と Aspose.Slides を組み合わせた完全な Java ガイドで学びます。
 
 ### [Excel を PowerPoint に変換 – 完全 Java ガイド](./convert-excel-to-powerpoint-complete-java-guide/)
 Aspose.Cells と Aspose.Slides を使用して、Excel データを PowerPoint スライドに変換する手順を完全に解説します。
+
 ### [Excel から PowerPoint へチャートをエクスポートする方法 – 完全な Java ガイド](./how-to-export-charts-from-excel-to-powerpoint-full-java-guid/)
 Excel のチャートを PowerPoint にエクスポートする方法を学び、コード実装とベストプラクティスを解説します。
+
 ### [Excel を PowerPoint に変換 – 完全ステップバイステップ ガイド](./convert-excel-to-powerpoint-full-step-by-step-guide/)
 Aspose.Cells for Java を使用して Excel ファイルを PowerPoint プレゼンテーションに変換する方法をステップバイステップで学びます。
 
@@ -84,6 +88,7 @@ Aspose.Cells for Java を使用して、Excel ファイルを DOCX 形式に変�
 
 ### [Aspose.Cells を使用して Java で Excel を PowerPoint に変換する](./convert-excel-to-powerpoint-with-aspose-cells-in-java/)
 Aspose.Cells for Java を利用し、Excel ファイルを PowerPoint プレゼンテーションに変換する手順とコード例を解説します。
+
 ### [Excel から PPTX を保存する方法 – Excel シートを PowerPoint にエクスポートする完全ガイド](./how-to-save-pptx-from-excel-complete-guide-to-export-excel-s/)
 Aspose.Cells for Java を使用して、Excel のシートを PowerPoint の PPTX ファイルとしてエクスポートし、保存する手順を解説します。
 
@@ -92,6 +97,7 @@ WRAPCOLS 関数を使って行列変換を実装する手順とコード例を�
 
 ### [Java で Excel を PDF に変換する際のフォント埋め込み方法](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
 Aspose.Cells for Java を使用して、Excel ファイルを PDF に変換する際にフォントを埋め込む手順とコード例を解説します。
+
 ### [Excel から PPTX へ: 編集可能なシェイプをエクスポートする完全 Java ガイド](./excel-to-pptx-complete-java-guide-to-export-editable-shapes/)
 Excel のシートから PowerPoint のスライドへ、編集可能なシェイプをエクスポートする方法をステップバイステップで解説します。
 
@@ -103,6 +109,9 @@ Aspose.Cells for Java を使い、Excel のチャートを Word の DOCX ファ�
 
 ### [Aspose.Cells for Java を使用して Excel を PowerPoint に変換する方法](./how-to-convert-excel-to-powerpoint-with-aspose-cells-for-jav/)
 Aspose.Cells for Java を使用して、Excel ファイルを PowerPoint プレゼンテーションに変換する手順とコード例を紹介します。
+
+### [Java Excel ワークフローで GridJS を有効にし、Web 用にファイルを提供する方法](./how-to-enable-gridjs-in-a-java-excel-workflow-and-serve-file/)
+Java と Aspose.Cells を使用した Excel ワークフローに GridJS を組み込み、Web でファイルを配信する手順を解説します。
 
 ## 追加リソース
 

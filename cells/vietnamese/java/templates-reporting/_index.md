@@ -77,6 +77,9 @@ Hướng dẫn tạo smart markers cho các worksheet bằng Aspose.Cells.
 
 ### [Cách lưu workbook dưới dạng PDF và nhúng phông chữ bằng Java](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
 
+### [Cách tạo workbook Excel bằng Java với Aspose.Cells markers](./how-to-create-excel-workbook-java-with-aspose-cells-markers/)
+Hướng dẫn chi tiết cách tạo workbook Excel trong Java bằng các marker của Aspose.Cells.
+
 ## Tài nguyên bổ sung
 
 - [Tài liệu Aspose.Cells cho Java](https://docs.aspose.com/cells/java/)

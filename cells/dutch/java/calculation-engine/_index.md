@@ -74,6 +74,9 @@ Een code‑tutorial die laat zien hoe u de berekening van formules handmatig kun
 ### [Alle formules opnieuw berekenen in Excel met Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
 Leer hoe u alle formules in een Excel‑werkboek opnieuw kunt berekenen met Aspose.Cells voor Java.
 
+### [Forceer volledige berekening en laad Excel-werkmap dynamisch](./force-full-calculation-and-load-excel-workbook-dynamically/)
+Leer hoe u een volledige berekening dwingt en een Excel-werkmap dynamisch laadt met Aspose.Cells voor Java.
+
 ## Aanvullende bronnen
 - [Aspose.Cells voor Java-documentatie](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells voor Java API‑referentie](https://reference.aspose.com/cells/java/)

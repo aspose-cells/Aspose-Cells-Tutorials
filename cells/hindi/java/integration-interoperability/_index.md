@@ -97,6 +97,9 @@ Aspose.Cells for Java का उपयोग करके Excel फ़ाइल�
 
 ### [जावा में Excel को PowerPoint में बदलें – चरण‑दर‑चरण गाइड](./convert-excel-to-powerpoint-in-java-step-by-step-guide/)
 
+### [जावा Excel वर्कफ़्लो में GridJS को सक्षम करने और वेब के लिए फ़ाइलें सर्व करने का तरीका](./how-to-enable-gridjs-in-a-java-excel-workflow-and-serve-file/)
+जावा में Aspose.Cells के साथ GridJS को एकीकृत करके Excel फ़ाइलों को वेब पर प्रदर्शित करने की चरण‑दर‑स्टेप प्रक्रिया।
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.Cells for Java दस्तावेज़ीकरण](https://docs.aspose.com/cells/java/)

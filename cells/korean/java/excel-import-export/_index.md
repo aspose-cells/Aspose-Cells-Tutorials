@@ -66,6 +66,8 @@ Aspose.Cells for Java를 사용하여 Java에서 Excel을 HTML로 내보내는 �
 ### [Java로 CSV 내보내기 – 유효숫자 설정 및 내보내기 범위 지정](./how-to-export-csv-with-java-set-significant-digits-export-ra/)
 ### [XLSX를 PPTX로 변환 – 편집 가능한 도형 내보내기 완전 가이드](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
 Aspose.Cells for Java를 사용해 XLSX 파일을 PPTX로 변환하고 편집 가능한 도형을 내보내는 방법을 단계별로 안내합니다.
+### [편집 가능한 도형으로 Excel을 PPTX로 내보내는 방법](./how-to-export-excel-to-pptx-with-editable-shapes/)
+Aspose.Cells for Java를 사용하여 Excel 파일을 편집 가능한 도형이 포함된 PPTX 프레젠테이션으로 내보내는 방법을 단계별로 안내합니다.
 ### [전체 폰트 포함 Excel을 HTML로 내보내기](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
 Aspose.Cells for Java를 사용하여 Excel 파일을 HTML로 변환하면서 모든 폰트를 완전히 포함하는 방법을 단계별로 안내합니다.
 ### [Markdown을 Excel로 변환 – Aspose.Cells 사용 전체 가이드](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
@@ -73,13 +75,10 @@ Aspose.Cells를 활용해 Markdown 파일을 Excel 형식으로 변환하는 방
 ### [Java에서 마크다운을 스프레드시트로 변환 – 단계별 가이드](./convert-markdown-to-spreadsheet-in-java-step-by-step-guide/)
 Aspose.Cells for Java를 사용하여 마크다운 파일을 스프레드시트 형식으로 변환하는 방법을 단계별로 안내합니다.
 ### [Excel을 SVG로 내보내기 – 완전한 Java 가이드](./how-to-export-excel-to-svg-complete-java-guide/)
-Aspose.Cells for Java를 사용해 Excel 파일을 SVG로 변환하는 방법을 단계별로 안내합니다.
 ### [Excel을 SVG로 내보내는 방법 – 단계별 Java 가이드](./how-to-export-excel-to-svg-step-by-step-java-guide/)
-Aspose.Cells for Java를 사용하여 Excel 파일을 SVG 형식으로 변환하는 방법을 단계별로 안내합니다.
 ### [Excel에서 SVG 만들기 – 단계별 Java 가이드](./how-to-create-svg-from-excel-with-java-step-by-step-guide/)
-Aspose.Cells for Java를 사용해 Excel 파일을 SVG 형식으로 변환하는 방법을 단계별로 안내합니다.
+### [Aspose.Cells를 사용한 Java Excel을 SVG로 내보내는 방법](./how-to-export-excel-to-svg-using-aspose-cells-in-java/)
 ### [JSON 파일 로드 Java – JSON을 Excel로 변환하는 전체 가이드](./load-json-file-java-full-guide-to-convert-json-to-excel/)
-Aspose.Cells for Java를 사용하여 JSON 파일을 로드하고 Excel로 변환하는 방법을 단계별로 안내합니다.
 ### [Aspose.Cells for Java로 JSON을 Excel에 로드하는 방법](./how-to-load-json-into-excel-with-aspose-cells-for-java/)
 
 ### [Java로 Excel 파일 만들기 – 행 스타일링 및 XLSX 내보내기 전체 가이드](./create-excel-file-java-full-guide-with-row-styling-and-xlsx/)

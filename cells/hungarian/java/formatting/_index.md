@@ -130,7 +130,7 @@ Tanuld meg, hogyan módosíthatod hatékonyan a betűszínt Excel fájlokban az 
 Tanuld meg, hogyan konvertálhatsz színátmenetes kitöltésű Excel-fájlokat HTML-be az Aspose.Cells Java könyvtár segítségével, biztosítva a vizuálisan vonzó webes prezentációkat.
 
 ### [Excel/ODS fájlok létrehozása és formázása az Aspose.Cells segítségével Java-ban: Átfogó útmutató](./create-style-excel-ods-aspose-cells-java/)
-Tanuld meg, hogyan hozhatsz létre, formázhass és kezelhetsz Excel és ODS fájlokat programozottan az Aspose.Cells for Java segítségével. Takaríts meg időt és csökkentsd a hibákat a táblázatkezelési feladataidban.
+Tanuld meg, hogyan hozhj létre, formázhass és kezelhetsz Excel és ODS fájlokat programozottan az Aspose.Cells for Java segítségével. Takaríts meg időt és csökkentsd a hibákat a táblázatkezelési feladataidban.
 
 ### [Egyéni betűtípusok implementálása az Aspose.Cells-ben Java-ban: Átfogó útmutató a munkafüzetek konzisztens megjelenítéséhez](./custom-fonts-aspose-cells-java-guide/)
 Ismerje meg, hogyan biztosíthatja az Excel-munkafüzetek egységes megjelenítését egyéni betűtípusokkal az Aspose.Cells for Java használatával. Ez az útmutató a beállítást, a konfigurációt és a gyakorlati alkalmazásokat ismerteti.
@@ -249,27 +249,21 @@ Ismerje meg, hogyan alkalmazhat stílusokat a DataTable Excel-be konvertálásak
 
 ### [Aspose.Cells dátumformátum: Egyéni dátumformátum beállítása Java-ban](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
 Tanuld meg, hogyan állíthatsz be egyedi dátumformátumot Excel-fájlokban az Aspose.Cells for Java használatával.
+
+### [Hogyan hozzunk létre Excel munkafüzetet japán korszak dátumokkal Java-ban](./how-to-create-excel-workbook-with-japanese-era-dates-in-java/)
+Ismerje meg, hogyan hozhat létre Excel munkafüzetet, amely japán korszak dátumokat jelenít meg Java és Aspose.Cells segítségével.
+
 ### [Betűtípus félkövér beállítása Java Excel exportálásban – Teljes útmutató](./set-font-bold-in-java-excel-export-complete-guide/)
 Ismerd meg, hogyan állíthatod be a betűtípust félkövérre Excel-exportáláskor Java-ban, részletes kódpéldákkal és tippekkel.
+
 ### [Hogyan használjuk a WRAPCOLS-t az Aspose.Cells-ben – Teljes Java példa](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 Ismerd meg, hogyan alkalmazhatod a WRAPCOLS funkciót az Aspose.Cells Java könyvtárban a cellák szövegének automatikus tördeléséhez.
+
 ### [Számformátum alkalmazása Excelben Java-ban – Teljes Aspose.Cells útmutató](./apply-number-format-excel-in-java-complete-aspose-cells-guid/)
 ### [Excel munkafüzet létrehozása pénznemformátummal és félkövér betűtípussal Java-ban](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
-Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet pénznemformátummal és félkövér betűtípussal Java-ban az Aspose.Cells segítségével.
-### [Excel munkafüzet létrehozása Java-ban és oszlopszám formátumok alkalmazása](./create-excel-workbook-java-and-apply-column-number-formats/)
-Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet Java-ban és alkalmazhatsz oszlopszám formátumokat.
+Ismerd meg, hogyan hozhatsz létre Excel munkafüzetet pénülönfű... (truncated) 
 
-### [Hogyan korlátozzuk a jelentős számjegyeket Excelben Java használatával](./how-to-limit-significant-digits-excel-using-java/)
-Ismerje meg, hogyan korlátozhatja a számjegyek számát Excel-fájlokban Java-val az Aspose.Cells segítségével.
-
-## További források
-
-- [Aspose.Cells Java-dokumentációhoz](https://docs.aspose.com/cells/java/)
-- [Aspose.Cells Java API-referenciához](https://reference.aspose.com/cells/java/)
-- [Aspose.Cells letöltése Java-hoz](https://releases.aspose.com/cells/java/)
-- [Ingyenes támogatás](https://forum.aspose.com/)
-- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
-
+...
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

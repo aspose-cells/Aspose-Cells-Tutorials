@@ -78,7 +78,8 @@
 Μάθετε πώς να δημιουργήσετε φύλλα εργασίας σε Java με τη χρήση SmartMarkerProcessor του Aspose.Cells.
 
 ### [Πώς να αποθηκεύσετε βιβλίο εργασίας ως PDF και να ενσωματώσετε γραμματοσειρές χρησιμοποιώντας Java](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
-Μάθετε πώς να αποθηκεύσετε ένα βιβλίο εργασίας ως PDF και να ενσωματώσετε τις γραμματοσειρές για σωστή εμφάνιση, χρησιμοποιώντας Aspose.Cells για Java.
+
+### [Πώς να δημιουργήσετε βιβλίο εργασίας Excel Java με δείκτες Aspose.Cells](./how-to-create-excel-workbook-java-with-aspose-cells-markers/)
 
 ## Πρόσθετοι Πόροι
 

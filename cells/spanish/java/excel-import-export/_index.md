@@ -29,6 +29,9 @@ Nuestros completos tutoriales te guiarán a través del complejo proceso de impo
 Al dominar la importación y exportación de Excel con Aspose.Cells para Java, adquirirá valiosas habilidades. Ya sea que necesite importar datos para análisis, generar informes o automatizar el intercambio de datos, estos tutoriales le brindarán los conocimientos necesarios para sobresalir en la gestión de datos. ¡Sumérjase en nuestros tutoriales y empiece hoy mismo a dominar la importación y exportación de Excel con Aspose.Cells para Java!
 
 ## Tutoriales de importación y exportación de Excel
+### [How to export Excel to PPTX with editable shapes](./how-to-export-excel-to-pptx-with-editable-shapes/)
+
+
 ### [Importación masiva de datos de Excel](./bulk-data-import-excel/)
 Aprenda a importar datos en masa desde Excel con la API de Aspose.Cells para Java. Optimice el procesamiento de datos con esta guía paso a paso.
 
@@ -125,6 +128,8 @@ Aprenda a incrustar fuentes en archivos HTML a partir de Excel usando Aspose.Cel
 Aprenda a incrustar fuentes al guardar archivos de Excel como HTML usando Aspose.Cells para Java. Guía paso a paso con ejemplos de código.
 ### [Cómo exportar PPTX desde Excel – Guía completa en Java](./how-to-export-pptx-from-excel-complete-java-guide/)
 Aprenda a exportar presentaciones PPTX desde Excel usando Aspose.Cells para Java. Guía paso a paso con ejemplos de código.
+### [Cómo exportar Excel a SVG usando Aspose.Cells en Java](./how-to-export-excel-to-svg-using-aspose-cells-in-java/)
+Aprenda a convertir hojas de cálculo Excel a formato SVG con Aspose.Cells para Java. Guía paso a paso con ejemplos de código.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

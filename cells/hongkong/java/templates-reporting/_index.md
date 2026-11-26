@@ -50,6 +50,9 @@
 ### [使用 Aspose.Cells (Java) 建立主從工作簿](./create-master-detail-workbook-with-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 建立主從結構的工作簿，以實現分層資料報告。
 
+### [如何使用 Aspose.Cells 標記在 Java 中建立 Excel 工作簿](./how-to-create-excel-workbook-java-with-aspose-cells-markers/)
+說明如何使用 Aspose.Cells 標記在 Java 中建立 Excel 工作簿。
+
 ### [如何使用智慧標記產生工作表 – 完整 Java 指南](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
 了解如何使用 Aspose.Cells for Java 的智慧標記產生工作表，提供完整的 Java 實作指南。
 

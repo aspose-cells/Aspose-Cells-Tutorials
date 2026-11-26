@@ -66,6 +66,9 @@
 ### [แปลง XLSX เป็น PPTX – คู่มือครบถ้วนสำหรับการส่งออกรูปทรงที่แก้ไขได้](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
 เรียนรู้วิธีแปลงไฟล์ XLSX เป็น PPTX พร้อมส่งออกรูปทรงที่แก้ไขได้โดยใช้ Aspose.Cells สำหรับ Java
 
+### [วิธีส่งออก Excel ไปยัง PPTX พร้อมรูปทรงที่แก้ไขได้](./how-to-export-excel-to-pptx-with-editable-shapes/)
+เรียนรู้วิธีส่งออกไฟล์ Excel ไปยัง PPTX พร้อมรูปทรงที่แก้ไขได้ด้วย Aspose.Cells สำหรับ Java อย่างละเอียด
+
 ### [แปลง JSON เป็น XLSX ด้วย Aspose.Cells Java – คู่มือเต็ม](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
 เรียนรู้วิธีแปลงข้อมูล JSON เป็นไฟล์ XLSX ด้วย Aspose.Cells สำหรับ Java ผ่านคู่มือขั้นตอนพร้อมตัวอย่างโค้ด
 
@@ -98,7 +101,8 @@
 เรียนรู้วิธีแปลงไฟล์ Excel เป็น SVG ด้วย Java อย่างละเอียดตามขั้นตอน
 ### [วิธีฝังฟอนต์ใน SVG จาก Excel – คู่มือ Java ฉบับเต็ม](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
 เรียนรู้วิธีฝังฟอนต์ลงในไฟล์ SVG จาก Excel ด้วย Aspose.Cells สำหรับ Java ผ่านขั้นตอนเต็มรูปแบบ
-
+### [วิธีส่งออก Excel เป็น SVG ด้วย Aspose.Cells ใน Java](./how-to-export-excel-to-svg-using-aspose-cells-in-java/)
+เรียนรู้วิธีส่งออกไฟล์ Excel เป็น SVG ด้วย Aspose.Cells สำหรับ Java ด้วยขั้นตอนและโค้ดตัวอย่างที่ชัดเจน
 ### [แปลงไฟล์ Excel เป็น HTML – คู่มือฉบับสมบูรณ์พร้อมการฝังฟอนต์](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
 เรียนรู้วิธีแปลงไฟล์ Excel เป็น HTML พร้อมฝังฟอนต์โดยใช้ Aspose.Cells สำหรับ Java ด้วยคำแนะนำทีละขั้นตอนและโค้ดตัวอย่าง
 
@@ -135,7 +139,7 @@
 เรียนรู้วิธีส่งออกไฟล์ Excel เป็น HTML พร้อมการตรึงแผ่นงานด้วย Aspose.Cells สำหรับ Java
 ### [วิธีฝังฟอนต์เมื่อแปลง Excel เป็น HTML – คู่มือฉบับสมบูรณ์](./how-to-embed-fonts-when-converting-excel-to-html-complete-gu/)
 เรียนรู้วิธีฝังฟอนต์ในไฟล์ HTML ที่แปลงจาก Excel ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดและขั้นตอนครบถ้วน
-### [แปลง Excel เป็น PPTX: คู่มือ Java ฉบับสมบูรณ์](./convert-excel-to-pptx-complete-java-guide/)
+### [แปลง Excel เป็น PPTX – คู่มือ Java ฉบับสมบูรณ์](./convert-excel-to-pptx-complete-java-guide/)
 เรียนรู้วิธีแปลงไฟล์ Excel เป็นสไลด์ PPTX ด้วย Aspose.Cells สำหรับ Java พร้อมตัวอย่างโค้ดและขั้นตอนละเอียด
 ### [แปลง Excel เป็น PDF/A ด้วย Java – คู่มือขั้นตอนครบถ้วน](./convert-excel-to-pdf-a-with-java-complete-step-by-step-guide/)
 เรียนรู้วิธีแปลงไฟล์ Excel เป็น PDF/A ด้วย Java อย่างละเอียด พร้อมตัวอย่างโค้ดและขั้นตอนครบถ้วน

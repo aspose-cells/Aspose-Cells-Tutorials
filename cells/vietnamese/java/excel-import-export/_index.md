@@ -83,7 +83,10 @@ Tìm hiểu cách tạo PDF từ Workbook bằng Aspose.Cells for Java. Hướng
 ### [Cách lưu workbook dưới dạng PDF với độ chính xác số trong Java](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
 Tìm hiểu cách lưu workbook dưới dạng PDF trong Java với độ chính xác số cao bằng Aspose.Cells. Hướng dẫn chi tiết với mã nguồn.
 ### [Chuyển đổi XLSX sang PPTX – Hướng dẫn toàn diện xuất các hình dạng có thể chỉnh sửa](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
-Tìm hiểu cách chuyển đổi tệp XLSX sang PPTX và xuất các hình dạng có thể chỉnh sửa bằng Aspose.Cells cho Java.
+
+### [Cách xuất Excel sang PPTX với các hình dạng có thể chỉnh sửa](./how-to-export-excel-to-pptx-with-editable-shapes/)
+Hướng dẫn chi tiết cách xuất tệp Excel sang PPTX với các hình dạng có thể chỉnh sửa bằng Aspose.Cells cho Java.
+
 ### [Nhúng phông chữ HTML – Excel sang HTML với việc nhúng phông chữ đầy đủ](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
 Hướng dẫn chi tiết cách xuất Excel sang HTML và nhúng toàn bộ phông chữ để đảm bảo hiển thị chính xác trên mọi trình duyệt.
 ### [Chuyển đổi Markdown sang Excel – Hướng dẫn toàn diện sử dụng Aspose.Cells](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
@@ -98,10 +101,12 @@ Tìm hiểu cách xuất dữ liệu Excel sang định dạng SVG trong Java b�
 Hướng dẫn chi tiết cách tạo SVG từ workbook Excel bằng Aspose.Cells for Java, kèm ví dụ mã nguồn thực tế.
 ### [Cách nhúng phông chữ trong chuyển đổi Excel sang SVG](./how-to-embed-fonts-in-excel-to-svg-conversion/)
 Hướng dẫn chi tiết cách nhúng phông chữ vào tệp SVG khi chuyển đổi từ Excel bằng Aspose.Cells for Java.
-### [Cách nhúng phông chữ vào SVG từ Excel – Hướng dẫn Java đầy đủ](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
+### [Cách nhúng phông chữ vào SVG từ Excel – hướng dẫn Java đầy đủ](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
 Hướng dẫn chi tiết cách nhúng phông chữ vào tệp SVG khi chuyển đổi từ Excel bằng Aspose.Cells for Java.
 ### [Nhúng phông chữ vào SVG khi xuất Excel sang SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
 Hướng dẫn cách nhúng phông chữ vào tệp SVG khi xuất workbook Excel sang SVG bằng Aspose.Cells for Java.
+### [Cách xuất Excel sang SVG bằng Aspose.Cells trong Java](./how-to-export-excel-to-svg-using-aspose-cells-in-java/)
+Hướng dẫn chi tiết cách xuất dữ liệu Excel sang định dạng SVG bằng Aspose.Cells cho Java, kèm ví dụ mã nguồn thực tế.
 ### [Xuất Excel sang HTML – Hướng dẫn đầy đủ với các ô cố định](./export-excel-to-html-complete-guide-with-frozen-panes/)
 Tìm hiểu cách xuất tệp Excel sang HTML với các ô cố định bằng Aspose.Cells for Java. Hướng dẫn chi tiết kèm mã nguồn.
 ### [Tạo Excel từ JSON – Hướng dẫn chi tiết từng bước](./create-excel-from-json-full-step-by-step-guide/)

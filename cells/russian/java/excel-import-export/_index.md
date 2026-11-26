@@ -29,6 +29,9 @@
 Освоив искусство импорта и экспорта Excel с помощью Aspose.Cells для Java, вы вооружитесь ценным набором навыков. Независимо от того, нужно ли вам импортировать данные для анализа, создавать отчеты или автоматизировать обмен данными, эти руководства снабдят вас знаниями, которые позволят вам преуспеть в ваших начинаниях по обработке данных. Погрузитесь в наши руководства и начните осваивать импорт и экспорт Excel с помощью Aspose.Cells для Java уже сегодня!
 
 ## Учебники по импорту и экспорту Excel
+### [How to export Excel to PPTX with editable shapes](./how-to-export-excel-to-pptx-with-editable-shapes/)
+
+
 ### [Массовый импорт данных Excel](./bulk-data-import-excel/)
 Узнайте, как выполнить массовый импорт данных из Excel с помощью API Aspose.Cells для Java. Оптимизируйте обработку данных с помощью этого пошагового руководства.
 
@@ -114,6 +117,11 @@
 Узнайте, как экспортировать файлы Excel в формат SVG с помощью Aspose.Cells для Java в этом пошаговом руководстве.
 ### [Как создать SVG из Excel с помощью Java – пошаговое руководство](./how-to-create-svg-from-excel-with-java-step-by-step-guide/)
 Узнайте, как создать SVG из Excel с помощью Java, следуя пошаговому руководству с примером кода.
+### [Как экспортировать Excel в SVG – Пошаговое руководство на Java](./how-to-export-excel-to-svg-step-by-step-java-guide/)
+Узнайте, как экспортировать файлы Excel в формат SVG с помощью Aspose.Cells для Java в этом пошаговом руководстве.
+### [Как экспортировать Excel в SVG с помощью Aspose.Cells в Java](./how-to-export-excel-to-svg-using-aspose-cells-in-java/)
+Узнайте, как экспортировать файлы Excel в формат SVG с помощью Aspose.Cells для Java. Пошаговое руководство с примером кода.
+
 ### [Загрузка JSON-файла в Java – Полное руководство по конвертации JSON в Excel](./load-json-file-java-full-guide-to-convert-json-to-excel/)
 Узнайте, как загрузить JSON в Java и преобразовать его в Excel с помощью Aspose.Cells, следуя пошаговым инструкциям.
 ### [Как загрузить JSON в Excel с Aspose.Cells для Java](./how-to-load-json-into-excel-with-aspose-cells-for-java/)

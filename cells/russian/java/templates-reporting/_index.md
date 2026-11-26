@@ -64,6 +64,8 @@
 ### [Как создать листы с интеллектуальными маркерами в Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
 Узнайте, как использовать интеллектуальные маркеры для автоматизации создания листов Excel с помощью Aspose.Cells.
 
+### [Как создать книгу Excel Java с маркерами Aspose.Cells](./how-to-create-excel-workbook-java-with-aspose-cells-markers/)
+
 ### [Как сохранить книгу в PDF и встроить шрифты с помощью Java](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
 
 ## Дополнительные ресурсы

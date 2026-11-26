@@ -69,6 +69,8 @@
 
 ### [วิธีบันทึกเวิร์กบุ๊กเป็น PDF และฝังฟอนต์โดยใช้ Java](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
 
+### [วิธีสร้างเวิร์กบุ๊ก Excel ด้วย Java และ Aspose.Cells markers](./how-to-create-excel-workbook-java-with-aspose-cells-markers/)
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสารประกอบ Aspose.Cells สำหรับ Java](https://docs.aspose.com/cells/java/)

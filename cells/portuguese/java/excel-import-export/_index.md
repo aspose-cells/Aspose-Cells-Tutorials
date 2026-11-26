@@ -60,6 +60,8 @@ Aprenda a salvar uma pasta de trabalho como PDF definindo a precisão numérica 
 Aprenda a converter arquivos Excel para PDF usando Aspose.Cells para Java. Guia passo a passo com exemplos de código para conversão perfeita.
 ### [Como exportar Excel para PowerPoint com Aspose.Cells – guia passo a passo](./how-to-export-excel-to-powerpoint-with-aspose-cells-step-by/)
 Aprenda a converter planilhas Excel em apresentações PowerPoint usando Aspose.Cells para Java, com exemplos de código passo a passo.
+### [Como exportar Excel para PPTX com formas editáveis](./how-to-export-excel-to-pptx-with-editable-shapes/)
+Aprenda a exportar planilhas Excel para arquivos PPTX preservando formas editáveis usando Aspose.Cells para Java.
 ### [Exportar Excel para XML Java](./export-excel-to-xml-java/)
 Aprenda a exportar Excel para XML em Java com o Aspose.Cells para Java. Guia passo a passo com código‑fonte para conversão de dados perfeita.
 ### [Importação de dados do Excel](./data-import-from-excel/)
@@ -93,98 +95,12 @@ Aprenda a converter arquivos Markdown em planilhas Excel usando Aspose.Cells. Gu
 Aprenda a converter arquivos Markdown em planilhas usando Aspose.Cells para Java com este guia passo a passo.
 ### [Como incorporar fontes em HTML a partir de uma pasta de trabalho – Java](./how-to-embed-fonts-in-html-from-excel-workbook-java/)
 Aprenda a incorporar fontes em HTML a partir de uma pasta de trabalho Excel usando Aspose.Cells para Java. Guia passo a passo com código‑fonte.
-### [Como incorporar fontes ao salvar Excel como HTML – guia completo](./how-to-embed-fonts-when-saving-excel-as-html-complete-guide/)
-Aprenda a incorporar fontes ao salvar arquivos Excel como HTML usando Aspose.Cells para Java. Guia completo passo a passo com código‑fonte.
 ### [Como incorporar fontes em HTML – Converter Excel para HTML e Salvar a Pasta de Trabalho](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
 Aprenda a incorporar fontes ao converter arquivos Excel para HTML e salvar a pasta de trabalho usando Aspose.Cells para Java.
 ### [Como incorporar fontes em SVG a partir do Excel – Guia Completo Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
 Aprenda a incorporar fontes em arquivos SVG gerados a partir de planilhas Excel usando Aspose.Cells para Java. Guia passo a passo com exemplos.
-### [Como incorporar fontes em SVG a partir do Excel – Guia Completo Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
-Aprenda a incorporar fontes em arquivos SVG gerados a partir de planilhas Excel usando Aspose.Cells para Java. Guia passo a passo com exemplos.
-### [Como incorporar fontes em HTML a partir de uma pasta de trabalho – Java](./how-to-embed-fonts-in-html-from-excel-workbook-java/)
-Aprenda a incorporar fontes em HTML a partir de uma pasta de trabalho Excel usando Aspose.Cells para Java. Guia passo a passo com código‑fonte.
-### [Como incorporar fontes em HTML – Converter Excel para HTML e Salvar a Pasta de Trabalho](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
-Aprenda a incorporar fontes ao converter arquivos Excel para HTML e salvar a pasta de trabalho usando Aspose.Cells para Java.
-### [Como incorporar fontes em SVG a partir do Excel – Guia Completo Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
-Aprenda a incorporar fontes em arquivos SVG gerados a partir de planilhas Excel usando Aspose.Cells para Java. Guia passo a passo com exemplos.
-### [Como incorporar fontes em SVG a partir do Excel – Guia Completo Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
-Aprenda a incorporar fontes em arquivos SVG gerados a partir de planilhas Excel usando Aspose.Cells para Java. Guia passo a passo com exemplos.
-### [Como incorporar fontes em HTML a partir de uma pasta de trabalho – Java](./how-to-embed-fonts-in-html-from-excel-workbook-java/)
-Aprenda a incorporar fontes em HTML a partir de uma pasta de trabalho Excel usando Aspose.Cells para Java. Guia passo a passo com código‑fonte.
-### [Como incorporar fontes em HTML – Converter Excel para HTML e Salvar a Pasta de Trabalho](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
-Aprenda a incorporar fontes ao converter arquivos Excel para HTML e salvar a pasta de trabalho usando Aspose.Cells para Java.
-### [Como incorporar fontes em SVG a partir do Excel – Guia Completo Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
-Aprenda a incorporar fontes em arquivos SVG gerados a partir de planilhas Excel usando Aspose.Cells para Java. Guia passo a passo com exemplos.
-### [Como incorporar fontes em SVG a partir do Excel – Guia Completo Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
-Aprenda a incorporar fontes em arquivos SVG gerados a partir de planilhas Excel usando Aspose.Cells para Java. Guia passo a passo com exemplos.
-### [Como incorporar fontes em HTML a partir de uma pasta de trabalho – Java](./how-to-embed-fonts-in-html-from-excel-workbook-java/)
-Aprenda a incorporar fontes em HTML a partir de uma pasta de trabalho Excel usando Aspose.Cells para Java. Guia passo a passo com código‑fonte.
-### [Como incorporar fontes em HTML – Converter Excel para HTML e Salvar a Pasta de Trabalho](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
-Aprenda a incorporar fontes ao converter arquivos Excel para HTML e salvar a pasta de trabalho usando Aspose.Cells para Java.
-### [Como incorporar fontes em SVG a partir do Excel – Guia Completo Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
-Aprenda a incorporar fontes em arquivos SVG gerados a partir de planilhas Excel usando Aspose.Cells para Java. Guia passo a passo com exemplos.
-### [Como incorporar fontes em SVG a partir do Excel – Guia Completo Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
-Aprenda a incorporar fontes em arquivos SVG gerados a partir de planilhas Excel usando Aspose.Cells para Java. Guia passo a passo com exemplos.
-### [Como incorporar fontes em HTML a partir de uma pasta de trabalho – Java](./how-to-embed-fonts-in-html-from-excel-workbook-java/)
-Aprenda a incorporar fontes em HTML a partir de uma pasta de trabalho Excel usando Aspose.Cells para Java. Guia passo a passo com código‑fonte.
-### [Como incorporar fontes em HTML – Converter Excel para HTML e Salvar a Pasta de Trabalho](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
-Aprenda a incorporar fontes ao converter arquivos Excel para HTML e salvar a pasta de trabalho usando Aspose.Cells para Java.
-### [Como incorporar fontes em SVG a partir do Excel – Guia Completo Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
-Aprenda a incorporar fontes em arquivos SVG gerados a partir de planilhas Excel usando Aspose.Cells para Java. Guia passo a passo com exemplos.
-### [Como incorporar fontes em SVG a partir do Excel – Guia Completo Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
-Aprenda a incorporar fontes em arquivos SVG gerados a partir de planilhas Excel usando Aspose.Cells para Java. Guia passo a passo com exemplos.
-### [Como incorporar fontes em HTML a partir de uma pasta de trabalho – Java](./how-to-embed-fonts-in-html-from-excel-workbook-java/)
-Aprenda a incorporar fontes em HTML a partir de uma pasta de trabalho Excel usando Aspose.Cells para Java. Guia passo a passo com código‑fonte.
-### [Como incorporar fontes em HTML – Converter Excel para HTML e Salvar a Pasta de Trabalho](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
-Aprenda a incorporar fontes ao converter arquivos Excel para HTML e salvar a pasta de trabalho usando Aspose.Cells para Java.
-### [Como incorporar fontes em SVG a partir do Excel – Guia Completo Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
-Aprenda a incorporar fontes em arquivos SVG gerados a partir de planilhas Excel usando Aspose.Cells para Java. Guia passo a passo com exemplos.
-### [Como incorporar fontes em SVG a partir do Excel – Guia Completo Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
-Aprenda a incorporar fontes em arquivos SVG gerados a partir de planilhas Excel usando Aspose.Cells para Java. Guia passo a passo com exemplos.
-### [Como incorporar fontes em HTML a partir de uma pasta de trabalho – Java](./how-to-embed-fonts-in-html-from-excel-workbook-java/)
-Aprenda a incorporar fontes em HTML a partir de uma pasta de trabalho Excel usando Aspose.Cells para Java. Guia passo a passo com código‑fonte.
-### [Como incorporar fontes em HTML – Converter Excel para HTML e Salvar a Pasta de Trabalho](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
-Aprenda a incorporar fontes ao converter arquivos Excel para HTML e salvar a pasta de trabalho usando Aspose.Cells para Java.
-### [Como incorporar fontes em SVG a partir do Excel – Guia Completo Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
-Aprenda a incorporar fontes em arquivos SVG gerados a partir de planilhas Excel usando Aspose.Cells para Java. Guia passo a passo com exemplos.
-### [Como incorporar fontes em SVG a partir do Excel – Guia Completo Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
-Aprenda a incorporar fontes em arquivos SVG gerados a partir de planilhas Excel usando Aspose.Cells para Java. Guia passo a passo com exemplos.
-### [Como incorporar fontes em HTML a partir de uma pasta de trabalho – Java](./how-to-embed-fonts-in-html-from-excel-workbook-java/)
-Aprenda a incorporar fontes em HTML a partir de uma pasta de trabalho Excel usando Aspose.Cells para Java. Guia passo a passo com código‑fonte.
-### [Como incorporar fontes em HTML – Converter Excel para HTML e Salvar a Pasta de Trabalho](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
-Aprenda a incorporar fontes ao converter arquivos Excel para HTML e salvar a pasta de trabalho usando Aspose.Cells para Java.
-### [Como incorporar fontes em SVG a partir do Excel – Guia Completo Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
-Aprenda a incorporar fontes em arquivos SVG gerados a partir de planilhas Excel usando Aspose.Cells para Java. Guia passo a passo com exemplos.
-### [Como incorporar fontes em SVG a partir do Excel – Guia Completo Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
-Aprenda a incorporar fontes em arquivos SVG gerados a partir de planilhas Excel usando Aspose.Cells para Java. Guia passo a passo com exemplos.
-### [Como incorporar fontes em HTML a partir de uma pasta de trabalho – Java](./how-to-embed-fonts-in-html-from-excel-workbook-java/)
-Aprenda a incorporar fontes em HTML a partir de uma pasta de trabalho Excel usando Aspose.Cells para Java. Guia passo a passo com código‑fonte.
-### [Como incorporar fontes em HTML – Converter Excel para HTML e Salvar a Pasta de Trabalho](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
-Aprenda a incorporar fontes ao converter arquivos Excel para HTML e salvar a pasta de trabalho usando Aspose.Cells para Java.
-### [Como incorporar fontes em SVG a partir do Excel – Guia Completo Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
-Aprenda a incorporar fontes em arquivos SVG gerados a partir de planilhas Excel usando Aspose.Cells para Java. Guia passo a passo com exemplos.
-### [Como incorporar fontes em SVG a partir do Excel – Guia Completo Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
-Aprenda a incorporar fontes em arquivos SVG gerados a partir de planilhas Excel usando Aspose.Cells para Java. Guia passo a passo com exemplos.
-### [Como incorporar fontes em HTML a partir de uma pasta de trabalho – Java](./how-to-embed-fonts-in-html-from-excel-workbook-java/)
-Aprenda a incorporar fontes em HTML a partir de uma pasta de trabalho Excel usando Aspose.Cells para Java. Guia passo a passo com código‑fonte.
-### [Como incorporar fontes em HTML – Converter Excel para HTML e Salvar a Pasta de Trabalho](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
-Aprenda a incorporar fontes ao converter arquivos Excel para HTML e salvar a pasta de trabalho usando Aspose.Cells para Java.
-### [Como incorporar fontes em SVG a partir do Excel – Guia Completo Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
-Aprenda a incorporar fontes em arquivos SVG gerados a partir de planilhas Excel usando Aspose.Cells para Java. Guia passo a passo com exemplos.
-### [Como incorporar fontes em SVG a partir do Excel – Guia Completo Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
-Aprenda a incorporar fontes em arquivos SVG gerados a partir de planilhas Excel usando Aspose.Cells para Java. Guia passo a passo com exemplos.
-### [Como incorporar fontes em HTML a partir de uma pasta de trabalho – Java](./how-to-embed-fonts-in-html-from-excel-workbook-java/)
-Aprenda a incorporar fontes em HTML a partir de uma pasta de trabalho Excel usando Aspose.Cells para Java. Guia passo a passo com código‑fonte.
-### [Como incorporar fontes em HTML – Converter Excel para HTML e Salvar a Pasta de Trabalho](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
-Aprenda a incorporar fontes ao converter arquivos Excel para HTML e salvar a pasta de trabalho usando Aspose.Cells para Java.
-### [Como incorporar fontes em SVG a partir do Excel – Guia Completo Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
-Aprenda a incorporar fontes em arquivos SVG gerados a partir de planilhas Excel usando Aspose.Cells para Java. Guia passo a passo com exemplos.
-### [Como incorporar fontes em SVG a partir do Excel – Guia Completo Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
-Aprenda a incorporar fontes em arquivos SVG gerados a partir de planilhas Excel usando Aspose.Cells para Java. Guia passo a passo com exemplos.
-### [Como incorporar fontes em HTML a partir de uma pasta de trabalho – Java](./how-to-embed-fonts-in-html-from-excel-workbook-java/)
-Aprenda a incorporar fontes em HTML a partir de uma pasta de trabalho Excel usando Aspose.Cells para Java. Guia passo a passo com código‑fonte.
-### [Como incorporar fontes em HTML – Converter Excel para HTML e Salvar a Pasta de Trabalho](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
-Aprenda a incorporar fontes ao converter arquivos Excel para HTML e salvar a pasta de trabalho usando Aspose.Cells para Java.
+### [Como exportar Excel para SVG usando Aspose.Cells em Java](./how-to-export-excel-to-svg-using-aspose-cells-in-java/)
+Aprenda a exportar planilhas Excel para arquivos SVG usando Aspose.Cells em Java, com exemplos de código passo a passo.
 ### [Como incorporar fontes em SVG a partir do Excel – Guia Completo Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
 Aprenda a incorporar fontes em arquivos SVG gerados a partir de planilhas Excel usando Aspose.Cells para Java. Guia passo a passo com exemplos.
 ### [Como incorporar fontes em SVG a partir do Excel – Guia Completo Java](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)

@@ -71,6 +71,8 @@ Naučte se, jak nastavit vlastní číselné formáty v souborech Excel pomocí 
 ### [Jak vytvořit a formátovat buňky v Excelu pomocí Aspose.Cells pro Javu: Podrobný návod](./aspose-cells-java-excel-automation-guide/)
 Naučte se, jak snadno automatizovat a formátovat soubory Excelu pomocí Aspose.Cells pro Javu. Tato příručka se zabývá vytvářením sešitů, formátováním buněk a technikami ukládání.
 
+### [Jak vytvořit Excel sešit s japonskými daty éry v Javě](./how-to-create-excel-workbook-with-japanese-era-dates-in-java/)
+
 ### [Optimalizace HTML mezer a automatické přizpůsobení sloupců v Excelu pomocí Aspose.Cells pro Javu](./aspose-cells-java-optimize-html-spaces-auto-fit-columns/)
 Naučte se, jak odstranit nadbytečné mezery z HTML a automaticky přizpůsobit sloupce v Excelu pomocí Aspose.Cells pro Javu. Vylepšete prezentaci dat pomocí efektivního formátování.
 

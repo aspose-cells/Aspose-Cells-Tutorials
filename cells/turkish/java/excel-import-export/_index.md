@@ -87,9 +87,11 @@ Java ve Aspose.Cells ile satır stilini uygulayarak Excel dosyası oluşturmayı
 ### [Excel'i Dışa Aktarma: CSV Dönüştürme Adım‑Adım Kılavuzu](./how-to-export-excel-step-by-step-guide-to-csv-conversion/)
 Java için Aspose.Cells kullanarak Excel dosyalarını CSV formatına nasıl dönüştüreceğinizi öğrenin. Kaynak kodlu adım adım kılavuz.
 ### [Excel'i SVG'ye Aktarma – Tam Java Kılavuzu](./how-to-export-excel-to-svg-complete-java-guide/)
-Aspose.Cells for Java kullanarak Excel dosyalarını SVG formatına nasıl aktaracağınızı adım adım öğrenin. Kaynak kodlu adım adım tam rehber.
+Aspose.Cells for Java kullanarak Excel dosyalarını SVG formatına nasıl aktaracağınızı adım adım öğrenin. Kaynak kodlu tam rehber.
 ### [Excel'i SVG'ye Aktarma – Adım Adım Java Rehberi](./how-to-export-excel-to-svg-step-by-step-java-guide/)
 Aspose.Cells for Java kullanarak Excel dosyalarını SVG formatına nasıl dışa aktaracağınızı adım adım öğrenin. Pratik örneklerle süreci basitleştirin.
+### [Aspose.Cells ile Java'da Excel'i SVG'ye Dışa Aktarma](./how-to-export-excel-to-svg-using-aspose-cells-in-java/)
+Aspose.Cells for Java kullanarak Excel dosyasını SVG formatına dışa aktarmanın adımlarını öğrenin.
 ### [Java ile Excel'den SVG Oluşturma – Adım Adım Rehber](./how-to-create-svg-from-excel-with-java-step-by-step-guide/)
 Aspose.Cells for Java kullanarak Excel dosyasından SVG oluşturmayı adım adım öğrenin.
 ### [Excel Çalışma Kitabından HTML'ye Yazı Tipi Gömme – Java](./how-to-embed-fonts-in-html-from-excel-workbook-java/)
@@ -127,7 +129,7 @@ Aspose.Cells for Java ile Excel dosyalarını TSV formatına nasıl kaydedeceği
 Aspose.Cells for Java kullanarak Excel dosyasından SVG'ye yazı tiplerini nasıl gömeceğinizi adım adım öğrenin.
 ### [HTML'de Yazı Tiplerini Göm – Excel'i HTML'ye Dönüştür ve Çalışma Kitabını Kaydet](./embed-fonts-in-html-convert-excel-to-html-save-workbook/)
 Aspose.Cells for Java kullanarak Excel dosyalarını HTML'ye dönüştürürken yazı tiplerini gömün ve çalışma kitabını kaydedin.
-### [Excel'i PPTX'e Dönüştürme: Tam Java Rehberi](./convert-excel-to-pptx-complete-java-guide/)
+### [Excel'i PPTX'e Dönüştür – Tam Java Rehberi](./convert-excel-to-pptx-complete-java-guide/)
 Aspose.Cells for Java kullanarak Excel dosyalarını PPTX sunumlarına nasıl dönüştüreceğinizi adım adım öğrenin.
 ### [Excel'i PDF/A'ya Java ile Dönüştürme – Tam Adım Adım Rehber](./convert-excel-to-pdf-a-with-java-complete-step-by-step-guide/)
 Aspose.Cells for Java kullanarak Excel dosyalarını PDF/A formatına nasıl dönüştüreceğinizi adım adım öğrenin. Kaynak kodlu kapsamlı rehber.
@@ -197,6 +199,8 @@ Aspose.Cells for Java kullanarak bir Excel sayfasını PowerPoint sunumuna nası
 Aspose.Cells for Java kullanarak JSON verilerini Excel dosyasına dönüştürün ve hücreye yerleştirin.
 ### [Aspose.Cells for Java ile Çalışma Kitabını CSV Olarak Kaydet – adım adım rehber](./save-workbook-as-csv-using-aspose-cells-for-java-step-by-ste/)
 Aspose.Cells for Java kullanarak bir çalışma kitabını CSV formatına nasıl kaydedeceğinizi adım adım öğrenin.
+### [Excel'i Düzenlenebilir Şekillerle PPTX'e Dışa Aktarma – Tam Kılavuz](./how-to-export-excel-to-pptx-with-editable-shapes/)
+Aspose.Cells for Java kullanarak Excel dosyalarını düzenlenebilir şekillerle PPTX formatına nasıl dışa aktaracağınızı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

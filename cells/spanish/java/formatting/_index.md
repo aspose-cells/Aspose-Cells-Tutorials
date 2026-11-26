@@ -239,7 +239,7 @@ Aprenda a rotar texto en celdas de Excel con Aspose.Cells para Java. Mejore la l
 Aprenda a configurar el factor de zoom en hojas de cálculo de Excel con Aspose.Cells para Java. Mejore sus funciones de presentación y revisión de datos mediante programación.
 
 ### [Cómo ordenar datos de Excel por color de columna con Aspose.Cells Java: una guía completa](./sort-excel-data-by-column-color-aspose-cells-java/)
-Aprenda a ordenar eficientemente datos de Excel por color de columna con Aspose.Cells para Java. Esta guía cubre los prerrequisitos, los pasos de implementación y las aplicaciones prácticas.
+Aprenda a ordenar eficientemente datos de Excel por color de columna con Aspose.Cells Java. Esta guía cubre los prerrequisitos, los pasos de implementación y las aplicaciones prácticas.
 
 ### [Cómo aplicar estilo a celdas de Excel y agregar hipervínculos con Aspose.Cells para Java](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Domine la aplicación de estilos a celdas de Excel y la adición de hipervínculos en sus aplicaciones Java con Aspose.Cells. Siga esta guía completa para una integración y un formato perfectos.
@@ -253,13 +253,19 @@ Aprenda a aplicar estilos a los datos de un DataTable al exportarlos a Excel usa
 
 ### [Formato de fecha de Aspose Cells: cómo establecer un formato de fecha personalizado en Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
 Aprenda a establecer formatos de fecha personalizados en Excel usando Aspose.Cells para Java. Esta guía paso a paso muestra cómo definir y aplicar patrones de fecha.
+
+### [Cómo crear un libro de Excel con fechas de era japonesa en Java](./how-to-create-excel-workbook-with-japanese-era-dates-in-java/)
+Aprenda a crear libros de Excel que usan fechas del calendario japonés (eras) con Aspose.Cells para Java.
+
 ### [Cómo establecer la fuente en negrita en la exportación de Excel con Java: guía completa](./set-font-bold-in-java-excel-export-complete-guide/)
 Aprenda a aplicar negrita a fuentes al exportar archivos Excel con Aspose.Cells para Java, mejorando la legibilidad y el estilo de sus documentos.
+
 ### [Crear libro de Excel con estilo en Java – Guía completa](./create-styled-excel-workbook-in-java-complete-guide/)
 Aprenda a crear libros de Excel con estilo profesional usando Aspose.Cells para Java. Esta guía paso a paso incluye ejemplos de código completos.
 
 ### [Cómo usar WRAPCOLS en Aspose.Cells – Ejemplo completo en Java](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 Aprenda a aplicar la función WRAPCOLS en Aspose.Cells con Java para dividir texto en columnas automáticamente.
+
 ### [Cómo crear un libro de Excel con formato de moneda y fuente en negrita en Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 Aprenda a crear libros de Excel con formato de moneda y texto en negrita usando Aspose.Cells para Java.
 

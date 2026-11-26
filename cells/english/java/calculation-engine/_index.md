@@ -69,6 +69,8 @@ Learn how to programmatically refresh Excel workbooks using Aspose.Cells for Jav
 Learn how to programmatically trigger formula recalculation in Aspose.Cells for Java.
 ### [Recalculate all formulas excel with Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
 Learn how to force a full workbook recalculation of all formulas using Aspose.Cells for Java.
+### [Force full calculation and load Excel workbook dynamically](./force-full-calculation-and-load-excel-workbook-dynamically/)
+Learn how to force a full workbook calculation while dynamically loading Excel files using Aspose.Cells for Java.
 
 ## Additional Resources
 - [Aspose.Cells for Java Documentation](https://docs.aspose.com/cells/java/)

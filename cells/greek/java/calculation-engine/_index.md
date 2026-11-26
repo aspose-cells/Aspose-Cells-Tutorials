@@ -74,6 +74,9 @@ weight: 22
 ### [Επανυπολογισμός όλων των τύπων Excel με Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
 Μάθετε πώς να επανυπολογίσετε όλους τους τύπους σε ένα βιβλίο εργασίας Excel χρησιμοποιώντας Aspose.Cells for Java.
 
+### [Εξαναγκάστε πλήρη υπολογισμό και φορτώστε δυναμικά βιβλίο εργασίας Excel](./force-full-calculation-and-load-excel-workbook-dynamically/)
+Μάθετε πώς να εξαναγκάσετε πλήρη υπολογισμό και να φορτώσετε βιβλία εργασίας Excel δυναμικά με Aspose.Cells for Java.
+
 ## Πρόσθετοι Πόροι
 - [Τεκμηρίωση Aspose.Cells για Java](https://docs.aspose.com/cells/java/)
 - [Αναφορά API Aspose.Cells για Java](https://reference.aspose.com/cells/java/)

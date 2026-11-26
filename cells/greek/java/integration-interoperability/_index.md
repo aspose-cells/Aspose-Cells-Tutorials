@@ -91,6 +91,9 @@
 ### [Μετατροπή Excel σε PowerPoint με Java – οδηγός βήμα‑βήμα](./convert-excel-to-powerpoint-in-java-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε αρχεία Excel σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Cells για Java, βήμα‑βήμα.
 
+### [Πώς να ενεργοποιήσετε το GridJS σε ροή εργασίας Excel Java και να σερβίρετε αρχεία για το web](./how-to-enable-gridjs-in-a-java-excel-workflow-and-serve-file/)
+Μάθετε πώς να ενσωματώσετε το GridJS σε μια ροή εργασίας Excel με Java και να σερβίρετε τα αρχεία στο web.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.Cells για τεκμηρίωση Java](https://docs.aspose.com/cells/java/)

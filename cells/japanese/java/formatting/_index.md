@@ -219,7 +219,7 @@ Aspose.Cells for Java を使用して、Excel の図形に影効果を適用す�
 Aspose.Cells for Java を使用して、Excel ファイルにカスタムスタイルをプログラムで作成し、適用する方法を学びます。読みやすさを向上させ、データ管理ワークフローにシームレスに統合できます。
 
 ### [Aspose.Cells for Java を使用して Excel でセルを結合し、スタイルを適用する - 完全ガイド](./merge-cells-apply-styles-aspose-cells-java/)
-Aspose.Cells for Javaを使用して、Excelシートのセルを結合し、カスタムスタイルを適用する方法を学びましょう。このガイドでは、設定から複数の形式でのファイル保存まで、すべてを網羅しています。
+Aspose.Cells for Javaを使用して、Excelシートのセルを結合し、カスタムスタイルを適用する方法を学びましょう。このガイドでは、設定から�数の形式でのファイル保存まで、すべてを網羅しています。
 
 ### [Aspose.Cells for Java を使用して Excel の名前付きスタイルを効率的に変更する](./modify-named-styles-excel-aspose-cells-java/)
 Aspose.Cells for Java を使用して Excel スプレッドシートのスタイル変更を自動化し、時間を節約して一貫性を確保する方法を学習します。
@@ -261,8 +261,11 @@ Aspose.Cells for Java を使い、Excel ワークブックを作成し、特定�
 ### [Java を使用して Excel の有効数字を制限する方法](./how-to-limit-significant-digits-excel-using-java/)
 Java を使用して Excel の有効数字を制限する方法を学びます。
 
-### [Java で Excel のカスタム数値書式を適用する方法 – 完全ガイド](./how-to-apply-a-custom-number-format-in-excel-with-java/)
+### [Java で Excel のカスタム数値形式を適用する方法 – 完全ガイド](./how-to-apply-a-custom-number-format-in-excel-with-java/)
 Java と Aspose.Cells を使用して、Excel のセルにカスタム数値書式を設定する手順とコード例を解説します。
+
+### [Java を使用して和暦日付の Excel ワークブックを作成する方法](./how-to-create-excel-workbook-with-japanese-era-dates-in-java/)
+Java と Aspose.Cells を利用して、和暦形式の日付を含む Excel ワークブックを作成する手順を解説します。
 
 ## 追加リソース
 

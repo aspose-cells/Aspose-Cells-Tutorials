@@ -102,6 +102,9 @@ Apprenez à exporter un graphique Excel vers un document Word (docx) en utilisan
 ### [Comment convertir Excel en PowerPoint avec Aspose.Cells pour Java](./how-to-convert-excel-to-powerpoint-with-aspose-cells-for-jav/)
 Apprenez à convertir des classeurs Excel en présentations PowerPoint en Java à l'aide d'Aspose.Cells.
 
+### [Comment activer GridJS dans un workflow Excel Java et servir les fichiers pour le web](./how-to-enable-gridjs-in-a-java-excel-workflow-and-serve-file/)
+Apprenez à intégrer GridJS dans un processus Excel Java et à publier les fichiers sur le web.
+
 ## Ressources supplémentaires
 
 - [Documentation d'Aspose.Cells pour Java](https://docs.aspose.com/cells/java/)

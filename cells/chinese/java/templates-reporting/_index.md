@@ -76,6 +76,9 @@
 ### [如何使用 Java 将工作簿保存为 PDF 并嵌入字体](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
 学习如何使用 Aspose.Cells for Java 将 Excel 工作簿导出为 PDF 并嵌入所需字体，确保文档跨平台一致显示。
 
+### [使用 Aspose.Cells 标记在 Java 中创建 Excel 工作簿](./how-to-create-excel-workbook-java-with-aspose-cells-markers/)
+学习如何使用 Aspose.Cells 标记在 Java 中创建并填充 Excel 工作簿，实现自动化报表生成。
+
 ## 其他资源
 
 - [Aspose.Cells for Java文档](https://docs.aspose.com/cells/java/)

@@ -93,6 +93,9 @@ Aspose.Cells for Java kullanarak Excel dosyalarındaki şekilleri PPTX sunumlar�
 
 ### [Aspose.Cells for Java ile Excel'den DOCX'e Grafik Dışa Aktarma](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
 
+### [Java Excel iş akışında GridJS'yi etkinleştirme ve dosyaları web için sunma](./how-to-enable-gridjs-in-a-java-excel-workflow-and-serve-file/)
+Java ve Aspose.Cells kullanarak GridJS'yi entegre edip, Excel dosyalarını web üzerinden sunmayı öğrenin.
+
 ## Ek Kaynaklar
 
 - [Java için Aspose.Cells Belgeleri](https://docs.aspose.com/cells/java/)

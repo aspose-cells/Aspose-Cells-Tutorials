@@ -39,7 +39,7 @@ Fedezd fel az Excel adatexportálási metódusainak lehetőségeit az Aspose.Cel
 ### [CSV exportálás Java kódhoz](./csv-export-java-code/)
 Tanuld meg, hogyan exportálhatsz adatokat CSV formátumba az Aspose.Cells for Java használatával. Lépésről lépésre útmutató forráskóddal a zökkenőmentes CSV exportáláshoz.
 ### [Excel exportálása: Lépésről lépésre útmutató CSV konverzióhoz](./how-to-export-excel-step-by-step-guide-to-csv-conversion/)
-Tanuld meg, hogyan exportálhatsz Excel-fájlokat CSV formátumba az Aspose.Cells for Java segítségével, részletes lépésről lépésre útmutatóval.
+Tanuld meg, hogyan exportálj Excel-fájlokat CSV formátumba az Aspose.Cells for Java segítségével, részletes lépésről lépésre útmutatóval.
 ### [Hogyan exportáljunk CSV-t Excel cellákból – Teljes útmutató](./how-to-export-csv-from-excel-cells-complete-guide/)
 Tanuld meg, hogyan exportálj CSV fájlokat Excel cellákból az Aspose.Cells for Java segítségével, lépésről lépésre útmutatóval.
 ### [Kijelölt cellák exportálása CSV-be Java-ban – teljes útmutató](./export-selected-cells-to-csv-in-java-complete-guide/)
@@ -65,8 +65,9 @@ Tanuld meg, hogyan valósíthatsz meg Excel import adatellenőrzést az Aspose.C
 ### [Excel exportálása HTML Java-ba](./export-excel-to-html-java/)
 Tanuld meg, hogyan exportálhatsz Excelt HTML-be Java nyelven az Aspose.Cells for Java segítségével. Kövesd ezt a lépésről lépésre szóló útmutatót a forráskóddal, hogy zökkenőmentesen konvertálhasd Excel-fájljaidat HTML-be.
 ### [XLSX konvertálása PPTX-be – Teljes útmutató a szerkeszthető alakzatok exportálásához](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
-Ismerd meg, hogyan konvertálhatod az XLSX fájlokat PPTX formátumba, és exportálhatod a szerkeszthető alakzatokat az Aspose.Cells for Java segítségével.
 
+### [Excel exportálása PPTX-be – Szerkeszthető alakzatok](./how-to-export-excel-to-pptx-with-editable-shapes/)
+Tanuld meg, hogyan exportálj Excel-fájlokat PPTX formátumba szerkeszthető alakzatokkal Java-ban.
 ### [JSON konvertálása XLSX-be az Aspose.Cells Java segítségével – Teljes útmutató](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
 Ismerd meg, hogyan konvertálhatsz JSON adatokat XLSX formátumba az Aspose.Cells for Java használatával, lépésről lépésre útmutatóval.
 
@@ -88,13 +89,13 @@ Ismerd meg, hogyan hozhatsz létre Excel fájlokat Java-ban, alkalmazhatsz sorst
 ### [Excel exportálása SVG-be – Teljes Java útmutató](./how-to-export-excel-to-svg-complete-java-guide/)
 Tanuld meg, hogyan exportálj Excel-fájlokat SVG formátumba Java-ban az Aspose.Cells for Java segítségével. Lépésről lépésre útmutató.
 ### [Betűtípusok beágyazása SVG-be Excelből – Teljes Java útmutató](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
-Tanuld meg, hogyan ágyazz be betűtípusokat az Excelből generált SVG fájlokba Java-val, lépésről‑lépésre útmutatóval.
+Tanuld meg, hogyan ágyazz be betűtípusokat az Excelből generált SVG fájlokba Java-val, lépésről‑lépésről útmutatóval.
 ### [Excel exportálása SVG-be – Lépésről lépésre Java útmutató](./how-to-export-excel-to-svg-step-by-step-java-guide/)
-Ismerd meg, hogyan exportálj Excel-fájlokat SVG formátumba Java-val, részletes kódmintákkal és gyakorlati példákkal.
-
+Ismerd meg, hogyan exportálj Excel-fájlokat SVG formátumba Java-val az Aspose.Cells segítségével, részletes kódmintákkal és gyakorlati példákkal.
+### [Hogyan exportáljunk Excel-t SVG-be az Aspose.Cells használatával Java-ban](./how-to-export-excel-to-svg-using-aspose-cells-in-java/)
+Tanuld meg, hogyan exportálj Excel-fájlokat SVG formátumba az Aspose.Cells for Java segítségével Java-ban.
 ### [Hogyan hozzunk létre SVG-t Excelből Java-val – lépésről lépésre útmutató](./how-to-create-svg-from-excel-with-java-step-by-step-guide/)
-Tanuld meg, hogyan hozhatsz létre SVG fájlokat Excelből Java-val, részletes lépésről‑lépésre útmutatóval.
-
+Tanuld meg, hogyan hozhatsz létre SVG fájlokat Excelből Java-val, részletes lépésről‑lépésről útmutatóval.
 ### [Betűtípusok beágyazása HTML-be – Excel konvertálása HTML-re és munkafüzet mentése](./how-to-embed-fonts-when-converting-excel-to-html-complete-gu/)
 Ismerd meg, hogyan ágyazhatod be a betűtípusokat Excel fájlok HTML-re konvertálása során az Aspose.Cells for Java használatával.
 ### [FlatOPC fájl létrehozása Excel munkafüzetből – Lépésről lépésre útmutató](./create-flatopc-file-from-excel-workbook-step-by-step-guide/)
@@ -133,7 +134,7 @@ Tanuld meg, hogyan hozhatsz létre Word-dokumentumot Excel adatokból, és expor
 ### [Betűtípusok beágyazása HTML-be – Teljes útmutató](./how-to-embed-fonts-in-html-from-excel-full-guide/)
 Tanuld meg, hogyan ágyazhatsz be betűtípusokat HTML-be Excel fájlokból az Aspose.Cells for Java segítségével, lépésről lépésre útmutatóval.
 ### [Hogyan exportáljunk PPTX-et Excelből – Teljes Java útmutató](./how-to-export-pptx-from-excel-complete-java-guide/)
-Tanuld meg, hogyan exportálhatsz PPTX fájlokat Excelből az Aspose.Cells for Java segítségével. Lépésről lépésre útmutató forráskóddal.
+Tanuld meg, hogyan exportálj PPTX fájlokat Excelből az Aspose.Cells for Java segítségével. Lépésről lépésre útmutató forráskóddal.
 ### [JSON beszúrása Excelbe az Aspose Cells segítségével – Teljes Java útmutató](./insert-json-into-excel-with-aspose-cells-full-java-guide/)
 Tanuld meg, hogyan szúrj be JSON adatokat Excel munkafüzetbe az Aspose.Cells Java API-val lépésről lépésre.
 ### [Excel exportálása TXT-be Java-val – Teljes lépésről lépésre útmutató](./export-excel-to-txt-with-java-complete-step-by-step-guide/)

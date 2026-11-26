@@ -72,6 +72,9 @@ Aspose.Words Java 的程式碼教學
 ### [使用 Java Aspose.Cells 重新計算所有 Excel 公式](./recalculate-all-formulas-excel-with-java-aspose-cells/)
 示範如何使用 Aspose.Cells for Java 重新計算工作簿中的所有公式。
 
+### [強制完整計算並動態載入 Excel 活頁簿](./force-full-calculation-and-load-excel-workbook-dynamically/)
+示範如何強制完整計算並動態載入 Excel 活頁簿。
+
 ## 其他資源
 - [Aspose.Cells for Java 文件](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells for Java API 參考](https://reference.aspose.com/cells/java/)

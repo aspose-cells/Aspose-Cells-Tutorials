@@ -266,6 +266,8 @@ Pelajari cara membuat buku kerja Excel dengan Java dan menerapkan format angka p
 
 ### [Cara Membatasi Digit Signifikan di Excel Menggunakan Java](./how-to-limit-significant-digits-excel-using-java/)
 
+### [Cara membuat buku kerja Excel dengan tanggal era Jepang di Java](./how-to-create-excel-workbook-with-japanese-era-dates-in-java/)
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.Cells untuk Java](https://docs.aspose.com/cells/java/)

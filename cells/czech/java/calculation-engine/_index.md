@@ -73,6 +73,9 @@ Naučte se, jak vynutit okamžitý výpočet vzorců v sešitech pomocí Aspose.
 ### [Přepočítat všechny vzorce v Excelu pomocí Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
 Naučte se přepočítat všechny vzorce v Excelu pomocí Aspose.Cells pro Javu.
 
+### [Vynutit úplný výpočet a dynamicky načíst sešit Excel](./force-full-calculation-and-load-excel-workbook-dynamically/)
+Naučte se, jak vynutit kompletní přepočet všech vzorců a dynamicky načíst sešit Excel pomocí Aspose.Cells pro Javu.
+
 ## Další zdroje
 - [Dokumentace Aspose.Cells pro Java](https://docs.aspose.com/cells/java/)
 - [API reference Aspose.Cells pro Java](https://reference.aspose.com/cells/java/)

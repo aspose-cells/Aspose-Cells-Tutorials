@@ -95,9 +95,11 @@
 ### [嵌入字型 HTML – Excel 轉 HTML 完整字型嵌入](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
 了解如何使用 Aspose.Cells for Java 將 Excel 轉換為 HTML 並完整嵌入字型。提供逐步指南與原始碼示例。
 ### [如何在將 Excel 儲存為 HTML 時嵌入字型 – 完整指南](./how-to-embed-fonts-when-saving-excel-as-html-complete-guide/)
-了解如何使用 Aspose.Cells for Java 在將 Excel 儲存為 HTML 時嵌入字型，提供完整步驟與原始碼示例。
+了解如何使用 Aspose.Cells for Java 在將 Excel 轉換為 HTML 時嵌入字型，提供完整步驟與原始碼示例。
 ### [將 XLSX 轉換為 PPTX – 完整指南：匯出可編輯形狀](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
 了解如何使用 Aspose.Cells for Java 將 Excel 工作表轉換為 PowerPoint，並匯出可編輯的圖形與形狀。
+### [如何將 Excel 匯出為 PPTX 並保留可編輯形狀](./how-to-export-excel-to-pptx-with-editable-shapes/)
+了解如何使用 Aspose.Cells for Java 將 Excel 匯出為 PPTX，並保留可編輯的形狀與圖形。
 ### [使用 Aspose.Cells for Java 將 JSON 轉換為 XLSX – 完整指南](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
 了解如何使用 Aspose.Cells for Java 將 JSON 資料轉換為 XLSX 檔案，並提供完整的步驟與原始程式碼示例。
 ### [將 Markdown 轉換為 Excel – 使用 Aspose.Cells 完整指南](./convert-markdown-to-excel-complete-guide-using-aspose-cells/)
@@ -112,6 +114,8 @@
 了解如何使用 Aspose.Cells for Java 將 Excel 工作表匯出為 SVG 格式，提供完整步驟與原始程式碼示例。
 ### [如何使用 Java 從 Excel 建立 SVG – 逐步指南](./how-to-create-svg-from-excel-with-java-step-by-step-guide/)
 說明如何使用 Aspose.Cells for Java 及 Java 程式碼，將 Excel 工作表轉換為 SVG，提供完整步驟與範例。
+### [如何使用 Aspose.Cells 在 Java 中將 Excel 匯出為 SVG](./how-to-export-excel-to-svg-using-aspose-cells-in-java/)
+說明如何使用 Aspose.Cells for Java 將 Excel 匯出為 SVG，提供完整步驟與範例程式碼。
 ### [Flat OPC 教學 Aspose：在 Java 中載入 Excel 工作簿](./flat-opc-tutorial-aspose-load-excel-workbook-in-java/)
 了解如何使用 Aspose.Cells for Java 透過 Flat OPC 方式在 Java 中載入 Excel 工作簿，提供完整範例與步驟說明。
 ### [將 Excel 檔案轉換為 HTML – 完整指南（含字型嵌入）](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)
@@ -148,7 +152,7 @@
 ### [如何在 Java 中將工作簿另存為 PDF 並設定數值精度](./how-to-save-workbook-as-pdf-with-numeric-precision-in-java/)
 了解如何使用 Aspose.Cells for Java 在將工作簿匯出為 PDF 時設定數值精度，確保資料呈現正確。
 ### [嵌入字型 HTML – Excel 轉 HTML 完整字型嵌入](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
-了解如何使用 Aspose.Cells for Java 將 Excel 轉換為 HTML 並完整嵌入字型，提供逐步指南與原始程式碼示例。
+了解如何使用 Aspose.Cells for Java 將 Excel 轉換為 HTML 並完整嵌入字型，提供逐步指南與原始碼示例。
 ### [將 XLSX 轉換為 PPTX – 完整指南：匯出可編輯形狀](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
 了解如何使用 Aspose.Cells for Java 將 Excel 工作表轉換為 PowerPoint，並匯出可編輯的圖形與形狀。
 ### [使用 Aspose.Cells for Java 將 JSON 轉換為 XLSX – 完整指南](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
@@ -165,6 +169,8 @@
 了解如何使用 Aspose.Cells for Java 將 Excel 工作表匯出為 SVG 格式，提供完整步驟與原始程式碼示例。
 ### [如何使用 Java 從 Excel 建立 SVG – 逐步指南](./how-to-create-svg-from-excel-with-java-step-by-step-guide/)
 說明如何使用 Aspose.Cells for Java 及 Java 程式碼，將 Excel 工作表轉換為 SVG，提供完整步驟與範例。
+### [如何使用 Aspose.Cells 在 Java 中將 Excel 匯出為 SVG](./how-to-export-excel-to-svg-using-aspose-cells-in-java/)
+說明如何使用 Aspose.Cells for Java 將 Excel 匯出為 SVG，提供完整步驟與範例程式碼。
 ### [Flat OPC 教學 Aspose：在 Java 中載入 Excel 工作簿](./flat-opc-tutorial-aspose-load-excel-workbook-in-java/)
 了解如何使用 Aspose.Cells for Java 透過 Flat OPC 方式在 Java 中載入 Excel 工作簿，提供完整範例與步驟說明。
 ### [將 Excel 檔案轉換為 HTML – 完整指南（含字型嵌入）](./convert-excel-file-to-html-complete-guide-with-font-embeddin/)

@@ -71,6 +71,9 @@ weight: 22
 ### [คำนวณสูตรทั้งหมดใน Excel ด้วย Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
 เรียนรู้วิธีรีคัลคูลเลตสูตรทั้งหมดในไฟล์ Excel ด้วย Aspose.Cells for Java
 
+### [บังคับการคำนวณเต็มรูปแบบและโหลดเวิร์กบุ๊ก Excel อย่างไดนามิก](./force-full-calculation-and-load-excel-workbook-dynamically/)
+บังคับให้คำนวณทั้งหมดและโหลดไฟล์ Excel อย่างไดนามิกใน Java ด้วย Aspose.Cells
+
 ## แหล่งข้อมูลเพิ่มเติม
 - [Aspose.Cells for Java Documentation](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells for Java API Reference](https://reference.aspose.com/cells/java/)

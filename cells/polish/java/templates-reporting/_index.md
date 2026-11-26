@@ -76,6 +76,9 @@ Dowiedz się, jak generować arkusze w Javie przy użyciu SmartMarkerProcessor.
 ### [Jak zapisać skoroszyt jako PDF i osadzić czcionki przy użyciu Javy](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
 Dowiedz się, jak zapisać skoroszyt jako PDF i osadzić czcionki przy użyciu Aspose.Cells dla Java.
 
+### [Jak utworzyć skoroszyt Excel w Javie przy użyciu znaczników Aspose.Cells](./how-to-create-excel-workbook-java-with-aspose-cells-markers/)
+Poznaj krok po kroku, jak generować skoroszyt Excel w Javie, wykorzystując znaczniki Aspose.Cells do automatyzacji danych.
+
 ## Dodatkowe zasoby
 
 - [Dokumentacja Aspose.Cells dla Java](https://docs.aspose.com/cells/java/)

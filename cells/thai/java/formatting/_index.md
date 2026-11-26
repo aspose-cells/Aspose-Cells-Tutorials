@@ -256,12 +256,19 @@
 
 ### [Aspose Cells รูปแบบวันที่: วิธีตั้งค่ารูปแบบวันที่แบบกำหนดเองใน Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
 เรียนรู้วิธีตั้งค่ารูปแบบวันที่แบบกำหนดเองใน Excel ด้วย Aspose.Cells สำหรับ Java อย่างละเอียด
+
+### [วิธีสร้างสมุดงาน Excel ด้วยวันที่ตามยุคญี่ปุ่นใน Java](./how-to-create-excel-workbook-with-japanese-era-dates-in-java/)
+เรียนรู้วิธีสร้างสมุดงาน Excel ที่แสดงวันที่ตามระบบยุคญี่ปุ่นโดยใช้ Aspose.Cells สำหรับ Java
+
 ### [ตั้งค่าฟอนต์หนาในการส่งออก Excel ด้วย Java – คู่มือฉบับสมบูรณ์](./set-font-bold-in-java-excel-export-complete-guide/)
 เรียนรู้วิธีตั้งค่าฟอนต์ให้เป็นตัวหนาในไฟล์ Excel ที่ส่งออกด้วย Java โดยใช้ Aspose.Cells คู่มือนี้แสดงขั้นตอนและโค้ดตัวอย่าง
+
 ### [วิธีใช้ WRAPCOLS ใน Aspose.Cells – ตัวอย่าง Java ฉบับสมบูรณ์](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 เรียนรู้วิธีใช้ฟังก์ชัน WRAPCOLS ใน Aspose.Cells สำหรับ Java เพื่อจัดรูปแบบเซลล์อัตโนมัติ พร้อมตัวอย่างโค้ดที่ทำตามได้ง่าย
+
 ### [วิธีสร้างสมุดงาน Excel ด้วยรูปแบบสกุลเงินและตัวหนาใน Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 เรียนรู้วิธีสร้างไฟล์ Excel พร้อมรูปแบบสกุลเงินและตัวอักษรหนาโดยใช้ Aspose.Cells สำหรับ Java
+
 ### [สร้างสมุดงาน Excel ด้วย Java และกำหนดรูปแบบตัวเลขของคอลัมน์](./create-excel-workbook-java-and-apply-column-number-formats/)
 เรียนรู้วิธีสร้างไฟล์ Excel ด้วย Java และกำหนดรูปแบบตัวเลขของคอลัมน์โดยใช้ Aspose.Cells
 

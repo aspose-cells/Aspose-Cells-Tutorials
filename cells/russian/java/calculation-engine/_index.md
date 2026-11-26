@@ -74,6 +74,9 @@ weight: 22
 ### [Пересчитать все формулы Excel с помощью Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
 Кодовый учебник
 
+### [Принудительный полный расчёт и динамическая загрузка рабочей книги Excel](./force-full-calculation-and-load-excel-workbook-dynamically/)
+Кодовый учебник
+
 ## Дополнительные ресурсы
 - [Документация Aspose.Cells for Java](https://docs.aspose.com/cells/java/)
 - [Справочник API Aspose.Cells for Java](https://reference.aspose.com/cells/java/)

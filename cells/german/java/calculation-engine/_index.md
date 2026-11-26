@@ -68,6 +68,9 @@ Erfahren Sie, wie Sie die Berechnung von Formeln in Aspose.Cells für Java manue
 ### [Alle Formeln in Excel mit Java Aspose.Cells neu berechnen](./recalculate-all-formulas-excel-with-java-aspose-cells/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java alle Formeln in einer Excel‑Arbeitsmappe neu berechnen.
 
+### [Vollständige Berechnung erzwingen und Excel‑Arbeitsmappe dynamisch laden](./force-full-calculation-and-load-excel-workbook-dynamically/)
+Ein Code‑Tutorial, das zeigt, wie man die komplette Berechnung auslöst und Arbeitsmappen dynamisch lädt.
+
 ## Zusätzliche Ressourcen
 - [Aspose.Cells für Java Dokumentation](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells für Java API‑Referenz](https://reference.aspose.com/cells/java/)
