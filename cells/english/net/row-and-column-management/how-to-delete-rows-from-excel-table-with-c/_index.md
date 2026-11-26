@@ -50,7 +50,7 @@ tags:
 - C#
 - Aspose.Cells
 - data manipulation
-title: How to delete rows from Excel table with C#
+title: How to delete rows from an Excel table using Aspose.Cells in C#
 url: /net/row-and-column-management/how-to-delete-rows-from-excel-table-with-c/
 ---
 
@@ -58,7 +58,7 @@ url: /net/row-and-column-management/how-to-delete-rows-from-excel-table-with-c/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to delete rows from Excel table with C#
+# How to delete rows from an Excel table using Aspose.Cells in C#
 
 If you need to delete rows from Excel table using C#, this guide shows you exactly how to do it. You will also see how to delete multiple rows from Excel sheet without affecting other data.
 
@@ -221,14 +221,13 @@ You now know how to delete rows from Excel table safely and how to delete multip
 Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [how to delete rows in Excel with C# – protect table header](/cells/english/net/row-and-column-management/how-to-delete-rows-in-excel-with-c-protect-table-header/)
-- [How to use Aspose.Cells to delete rows in an Excel table while keeping the](/cells/english/net/row-and-column-management/how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
-- [Load Excel File C# – How to Delete Rows and Remove Specific Rows](/cells/english/net/row-and-column-management/load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
+{{< relref "cells/english/net/row-and-column-management/how-to-delete-rows-in-excel-with-c-protect-table-header.md" >}}
+{{< relref "cells/english/net/row-and-column-management/how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi.md" >}}
+{{< relref "cells/english/net/row-and-column-management/load-excel-file-c-how-to-delete-rows-and-remove-specific-row.md" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,6 +1,6 @@
 ---
-title: Manage Rows and Columns with Aspose.Cells for .NET
-linktitle: Manage Rows and Columns with Aspose.Cells for .NET
+title: Copy, Hide, Insert, and Manage Rows and Columns Using Aspose.Cells API for .NET
+linktitle: Copy, Hide, Insert, and Manage Rows and Columns Using Aspose.Cells API for .NET
 second_title: Aspose.Cells .NET Excel Processing API
 description: Learn how to manage rows and columns using Aspose.Cells for .NET with our comprehensive tutorials, empowering you to enhance Excel skills effortlessly. 
 weight: 22

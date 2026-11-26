@@ -47,7 +47,7 @@ tags:
 - Excel
 - Aspose.Cells
 - Automation
-title: How to create multiple sheets in an Excel file using C#
+title: Create multiple sheets in an Excel file using Aspose.Cells for C#
 url: /net/worksheet-management/how-to-create-multiple-sheets-in-an-excel-file-using-c/
 ---
 
@@ -218,7 +218,7 @@ Run `dotnet run` from the project folder. After execution, open the generated fi
 
 | Situation | Recommended approach |
 |-----------|----------------------|
-| **Very large data sets** ( > 10 000 rows) | Use `WorkbookSettings.MemorySetting = MemorySetting.MemoryPreference;` to reduce memory pressure. |
+| **Very large data sets** ( > 10 000 rows) | Use `Workbook.Settings.MemorySetting = MemorySetting.MemoryPreference;` to reduce memory pressure. |
 | **Custom sheet naming rules** | Pre‑process the `Detail` column to replace illegal characters (`/ \ ? * [ ] :`) before calling `Process`. |
 | **Need truly unique names** | Set `workbook.Settings.CheckDuplicateSheetNames = true;` and provide a fallback naming scheme (e.g., append a GUID). |
 | **Generating PDFs instead of XLSX** | After saving, call `workbook.Save("output.pdf", SaveFormat.Pdf);` – Aspose.Cells can export directly to PDF. |
@@ -241,14 +241,14 @@ You now know how to **create multiple sheets** in an Excel workbook using C#, ho
 Feel free to experiment with different data sources (JSON, XML, or a database) and adapt the smart marker syntax to suit your reporting needs. Happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Create Excel Workbook C# – Step‑by‑Step Guide to Write Dates & Save as XLSX](/cells/english/net/excel-workbook/create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/)
-- [Create New Workbook in C# – Add Formula and Save Excel File](/cells/english/net/excel-workbook/create-new-workbook-in-c-add-formula-and-save-excel-file/)
-- [Create excel workbook and save it to file in C#](/cells/english/net/excel-workbook/create-excel-workbook-and-save-it-to-file-in-c/)
+- [Create Excel Workbook C# – Step‑by‑Step Guide to Write Dates & Save as XLSX]({{< relref "/cells/english/net/excel-workbook/create-excel-workbook-c-step-by-step-guide-to-write-dates-sa/" >}})
+- [Create New Workbook in C# – Add Formula and Save Excel File]({{< relref "/cells/english/net/excel-workbook/create-new-workbook-in-c-add-formula-and-save-excel-file/" >}})
+- [Create excel workbook and save it to file in C#]({{< relref "/cells/english/net/excel-workbook/create-excel-workbook-and-save-it-to-file-in-c/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -46,7 +46,7 @@ tags:
 - csharp
 - xlsb
 - custom-properties
-title: Create Excel workbook C# and save as XLSB
+title: Create an Excel workbook with Aspose.Cells in C# and save as XLSB
 url: /net/saving-and-exporting-excel-files-with-options/create-excel-workbook-c-and-save-as-xlsb/
 ---
 
@@ -54,7 +54,7 @@ url: /net/saving-and-exporting-excel-files-with-options/create-excel-workbook-c-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create Excel workbook C# and save as XLSB
+# Create an Excel workbook with Aspose.Cells in C# and save as XLSB
 
 If you need to **create Excel workbook C#** for a reporting routine, you probably also want the file to keep extra metadata such as the report owner. This tutorial shows you how to **set worksheet custom property** and then **save workbook as XLSB** in a single, reproducible workflow.
 
@@ -214,15 +214,13 @@ Next, you might explore:
 
 Feel free to experiment with different property names, multiple worksheets, or large data sets. The same three‑step pattern scales from a simple one‑sheet file to enterprise‑level reporting solutions. Happy coding!
 
+## What should you learn next?
 
-## What Should You Learn Next?
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [Create Excel Workbook C# – Add Custom Property & Save XLSB](/cells/english/net/document-properties/create-excel-workbook-c-add-custom-property-save-xlsb/)
-- [Create Excel Workbook – Add Custom Properties and Save as XLSB](/cells/english/net/document-properties/create-excel-workbook-add-custom-properties-and-save-as-xlsb/)
-- [How to create Excel workbook C# with custom formatting and save as XLSX](/cells/english/net/excel-formatting-and-styling/how-to-create-excel-workbook-c-with-custom-formatting-and-sa/)
+- [Create Excel Workbook C# – Add Custom Property & Save XLSB]({{< relref "/cells/english/net/document-properties/create-excel-workbook-c-add-custom-property-save-xlsb/" >}})
+- [Create Excel Workbook – Add Custom Properties and Save as XLSB]({{< relref "/cells/english/net/document-properties/create-excel-workbook-add-custom-properties-and-save-as-xlsb/" >}})
+- [How to create Excel workbook C# with custom formatting and save as XLSX]({{< relref "/cells/english/net/excel-formatting-and-styling/how-to-create-excel-workbook-c-with-custom-formatting-and-sa/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
