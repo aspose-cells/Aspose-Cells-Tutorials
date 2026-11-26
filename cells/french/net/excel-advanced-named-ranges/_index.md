@@ -44,6 +44,8 @@ Apprenez à enregistrer un classeur Excel et à créer une plage nommée avec As
 Apprenez à créer un classeur Excel en C#, ajouter une plage nommée et définir le nom d’un tableau avec Aspose.Cells.
 ### [Attribuer un nom à un tableau Excel et éviter les conflits de nommage](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
 Apprenez à nommer un tableau Excel et à prévenir les conflits de nommage avec Aspose.Cells pour .NET, étape par étape.
+### [Comment renommer un nom Excel en C# et éviter les conflits de nom de tableau](./how-to-rename-excel-name-in-c-and-avoid-table-name-conflicts/)
+Apprenez à renommer un nom Excel en C# tout en évitant les conflits de nommage de tableau avec Aspose.Cells pour .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

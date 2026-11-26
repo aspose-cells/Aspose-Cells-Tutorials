@@ -59,6 +59,9 @@ Learn to add worksheets in an Excel file with Aspose.Cells for .NET. This compre
 ### [Add Worksheets to Existing Excel File using Aspose.Cells](./add-worksheets-to-existing-excel-file/)
 Learn how to add worksheets to an existing Excel file in Aspose.Cells for .NET with this step-by-step guide. Perfect for dynamic data management and expanding your spreadsheet organization efficiently.
 
+### [How to create multiple sheets in an Excel file using C#](./how-to-create-multiple-sheets-in-an-excel-file-using-c/)
+Learn how to create multiple worksheets in an Excel file programmatically using Aspose.Cells for .NET with C#.
+
 ### [Remove Worksheets by Index using Aspose.Cells](./remove-worksheets-by-index/)
 Step-by-step tutorial on removing worksheets by index with Aspose.Cells for .NET. Streamline your Excel document management with ease by programmatically deleting unwanted sheets using their position.
 

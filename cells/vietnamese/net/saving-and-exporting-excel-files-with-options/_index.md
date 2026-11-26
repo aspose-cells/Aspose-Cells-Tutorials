@@ -63,7 +63,7 @@ Hướng dẫn chi tiết cách lưu workbook thành tệp XLSX, tạo file Exce
 ### [Cách Lưu Workbook trong C# – Hướng Dẫn Lập Trình Toàn Diện](./how-to-save-workbook-in-c-complete-programming-guide/)
 Tìm hiểu cách lưu workbook trong C# bằng Aspose.Cells cho .NET qua hướng dẫn lập trình chi tiết và đầy đủ.
 ### [Cách tạo tệp xlsb với thuộc tính trang tính tùy chỉnh trong C#](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
-Hướng dẫn chi tiết cách tạo tệp xlsb và thiết lập các thuộc tính trang tính tùy chỉnh bằng C# với Aspose.Cells.
+### [Tạo workbook Excel C# và lưu dưới dạng XLSB](./create-excel-workbook-c-and-save-as-xlsb/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

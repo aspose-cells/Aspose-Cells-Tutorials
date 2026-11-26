@@ -155,6 +155,9 @@ Scopri come utilizzare Aspose.Cells per .NET per suddividere i riquadri del fogl
 ### [Come utilizzare SmartMarkerProcessor – Rinomina un foglio esistente in Excel](./how-to-use-smartmarkerprocessor-rename-existing-sheet-in-exc/)
 Scopri come usare SmartMarkerProcessor per rinominare un foglio esistente in un file Excel con Aspose.Cells per .NET.
 
+### [Come creare più fogli in un file Excel utilizzando C#](./how-to-create-multiple-sheets-in-an-excel-file-using-c/)
+Scopri come generare più fogli di lavoro in un file Excel tramite codice C# con Aspose.Cells per .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

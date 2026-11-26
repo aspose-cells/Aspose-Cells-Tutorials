@@ -95,12 +95,8 @@ Aprenda a insertar múltiples filas en GridJs de manera eficiente con este tutor
 ### [Cómo eliminar filas de una tabla de Excel usando C#](./how-to-delete-rows-from-excel-table-using-c/)
 Aprenda a eliminar filas de una tabla de Excel con C# y Aspose.Cells paso a paso.
 
-
-
-
-
-
-
+### [Cómo eliminar filas de una tabla de Excel con C#](./how-to-delete-rows-from-excel-table-with-c/)
+Aprenda a eliminar filas de una tabla de Excel usando C# y Aspose.Cells paso a paso.
 
 ### [Eliminar filas de tabla de Excel con C# – Guía paso a paso](./delete-rows-excel-table-with-c-step-by-step-guide/)
 Aprenda a eliminar filas de una tabla de Excel usando C# con Aspose.Cells, siguiendo una guía paso a paso.

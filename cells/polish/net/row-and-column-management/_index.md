@@ -87,6 +87,9 @@ Dowiedz się, jak usuwać wiersze w Excelu, zachowując wiersz nagłówka, przy 
 Naucz się usuwać wiele wierszy w programie Excel za pomocą Aspose.Cells dla .NET. Ten szczegółowy przewodnik krok po kroku obejmuje wymagania wstępne, przykłady kodowania i często zadawane pytania dla programistów.
 ### [Ładowanie pliku Excel w C# – Jak usuwać wiersze i usuwać konkretne wiersze](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Dowiedz się, jak w C# załadować plik Excel oraz usuwać wybrane wiersze przy użyciu Aspose.Cells.
+### [Jak usunąć wiersze z tabeli Excel przy użyciu C#](./how-to-delete-rows-from-excel-table-with-c/)
+Dowiedz się, jak usunąć wiersze z tabeli Excel w C# przy użyciu Aspose.Cells.
+
 ### [Wstawianie kolumny w Aspose.Cells .NET](./insert-column-aspose-cells/)
 Dowiedz się, jak wstawić kolumnę w programie Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym prostym przewodnikiem krok po kroku, aby bezproblemowo dodać nową kolumnę. Idealne dla programistów .NET.
 

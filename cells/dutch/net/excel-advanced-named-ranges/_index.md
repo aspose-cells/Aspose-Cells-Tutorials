@@ -29,7 +29,7 @@ Stel je dit eens voor: je hebt een verkooprapport met verschillende regio's gema
 
 De volgende stap is een van de meest visueel aantrekkelijke en praktische bewerkingen: het samenvoegen van cellen in een benoemd bereik. Wilt u uw spreadsheets overzichtelijker maken? Door cellen samen te voegen, kunt u kopteksten maken die meerdere kolommen of rijen beslaan, waardoor uw rapport er overzichtelijk en professioneel uitziet. Met Aspose.Cells voor .NET is het samenvoegen van cellen kinderspel. 
 
-Het mooie van deze functionaliteit schuilt in het gebruiksgemak. Je kunt cellen programmatisch samenvoegen, wat betekent dat je opmaak geautomatiseerd kan worden. Stel je voor dat je wekelijkse rapporten maakt waarbij de koptekst elke keer automatisch wordt samengevoegd. Met Aspose kost deze taak slechts een paar klikken en regels code. Benieuwd hoe je dit doet? Bekijk onze handleiding over [Cellen samenvoegen in een benoemd bereik](./merge-cells-in-named-range/).
+Het mooie van deze functionaliteit schuilt in het gebruiksgemak. Je kunt cellen programmatisch samenvoegen, wat betekent dat je opmaak geautomatiseerd kan worden. Stel je voor dat je wekelijkse rapporten maakt waarbij de koptekst elke keer automatisch wordt gesmolten. Met Aspose kost deze taak slechts een paar klikken en regels code. Benieuwd hoe je dit doet? Bekijk onze handleiding over [Cellen samenvoegen in een benoemd bereik](./merge-cells-in-named-range/).
 
 ## Geavanceerde bewerkingen met benoemde bereiken in Excel-zelfstudies
 ### [Cellen in een benoemd bereik identificeren in Excel](./identify-cells-in-named-range/)
@@ -44,6 +44,8 @@ Leer hoe u een Excel-werkmap opslaat en een benoemd bereik toevoegt met een voll
 Leer hoe u een Excel-werkmap maakt in C#, een benoemd bereik toevoegt en een tabelnaam instelt met Aspose.Cells voor .NET.
 ### [Naam toewijzen aan Excel-tabel en naamconflicten voorkomen](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
 Leer hoe u een naam aan een Excel-tabel toewijst en conflicten met bestaande namen voorkomt met Aspose.Cells voor .NET.
+### [Hoe een Excel-naam te hernoemen in C# en tabelnaamconflicten te voorkomen](./how-to-rename-excel-name-in-c-and-avoid-table-name-conflicts/)
+Leer hoe u een Excel-naam wijzigt in C# en conflicten met tabelnamen voorkomt met Aspose.Cells voor .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

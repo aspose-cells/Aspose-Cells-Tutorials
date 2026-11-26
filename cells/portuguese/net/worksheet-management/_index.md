@@ -59,6 +59,9 @@ Aprenda a adicionar planilhas em um arquivo Excel com o Aspose.Cells para .NET. 
 ### [Adicionar planilhas a um arquivo Excel existente usando Aspose.Cells](./add-worksheets-to-existing-excel-file/)
 Aprenda a adicionar planilhas a um arquivo Excel existente no Aspose.Cells para .NET com este guia passo a passo. Perfeito para gerenciamento dinâmico de dados e expansão eficiente da organização de suas planilhas.
 
+### [Como criar várias planilhas em um arquivo Excel usando C#](./how-to-create-multiple-sheets-in-an-excel-file-using-c/)
+Aprenda a criar múltiplas planilhas em um único arquivo Excel programaticamente usando C# e Aspose.Cells para .NET.
+
 ### [Remover planilhas por índice usando Aspose.Cells](./remove-worksheets-by-index/)
 Tutorial passo a passo sobre como remover planilhas por índice com o Aspose.Cells para .NET. Simplifique o gerenciamento de documentos do Excel excluindo planilhas indesejadas programaticamente usando a posição delas.
 

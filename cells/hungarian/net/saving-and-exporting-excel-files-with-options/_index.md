@@ -64,6 +64,8 @@ Ismerje meg, hogyan hozhat létre lapos OPC fájlt C#-ban az Aspose.Cells segít
 ### [Munkafüzet mentése XLSX formátumban – Teljes útmutató Excel adatgeneráláshoz](./save-workbook-as-xlsx-complete-guide-to-generate-excel-with/)
 ### [Hogyan mentse a munkafüzetet C#-ban – Teljes programozási útmutató](./how-to-save-workbook-in-c-complete-programming-guide/)
 Ismerje meg, hogyan menthet egy munkafüzetet C#-ban az Aspose.Cells for .NET segítségével lépésről lépésre útmutatóval.
+### [Excel munkafüzet létrehozása C#-ban és mentése XLSB formátumban](./create-excel-workbook-c-and-save-as-xlsb/)
+Ismerje meg, hogyan hozhat létre Excel munkafüzetet C#-ban, és mentheti azt XLSB formátumban az Aspose.Cells for .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

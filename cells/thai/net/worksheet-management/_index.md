@@ -155,6 +155,9 @@
 ### [วิธีการแยกแผงเวิร์กชีตใน Excel โดยใช้ Aspose.Cells .NET สำหรับการวิเคราะห์ข้อมูลขั้นสูง](./split-worksheet-panes-excel-aspose-cells-dotnet)
 เรียนรู้วิธีการใช้ Aspose.Cells สำหรับ .NET เพื่อแยกแผงเวิร์กชีตใน Excel เพื่อปรับปรุงการนำทางข้อมูลและประสิทธิภาพในการวิเคราะห์เพื่อให้แสดงภาพชุดข้อมูลขนาดใหญ่ได้ดีขึ้น
 
+### [วิธีสร้างหลายแผ่นงานในไฟล์ Excel ด้วย C#](./how-to-create-multiple-sheets-in-an-excel-file-using-c/)
+เรียนรู้วิธีสร้างหลายแผ่นงานในไฟล์ Excel ด้วย C# โดยใช้ Aspose.Cells สำหรับ .NET อย่างง่ายและรวดเร็ว
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -47,6 +47,9 @@ Sırada, hem yeni hem de mevcut Excel dosyalarına çalışma sayfaları eklemek
 Bazen, belirli çalışma sayfalarının artık gerekli olmadığını görebilirsiniz. İster büyük bir projeden sonra temizlik yapıyor olun, ister sadece verilerinizi yeniden düzenliyor olun, çalışma sayfalarını adlarına veya dizinlerine göre nasıl kaldıracağınızı bilmek size bir ton zaman kazandırabilir. İhtiyacınız olmayanları kolayca ortadan kaldırabileceğiniz halde neden sayısız sayfayı karıştırıyorsunuz? [çalışma sayfalarını dizine göre kaldırma](./remove-worksheets-by-index/) ve ismen [Burada](./remove-worksheets-by-name/) Excel dosyalarınızı optimize etmeyi kolaylaştırın.
 
 ## Çalışma Sayfası Yönetimi Eğitimleri
+### [Aspose.Cells kullanarak C# ile bir Excel dosasında birden fazla sayfa oluşturma](./how-to-create-multiple-sheets-in-an-excel-file-using-c/)
+Aspose.Cells for .NET ile C# kullanarak bir Excel dosyasına birden fazla çalışma sayfası eklemeyi adım adım öğrenin.
+
 ### [Aspose.Cells kullanarak Çalışma Sayfalarına Adına Göre Erişim](./access-worksheets-by-name/)
 Aspose.Cells for .NET kullanarak çalışma sayfalarına adlarına göre nasıl erişeceğinizi öğrenin. Microsoft Excel'e ihtiyaç duymadan uygulamalarınızda çalışma sayfası verilerini verimli bir şekilde almak ve görüntülemek için adım adım kılavuzumuzu izleyin.
 

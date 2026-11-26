@@ -65,7 +65,9 @@ Leer hoe u een werkmap opslaat als XLSX en Excel-bestanden genereert met data me
 ### [Hoe een werkmap op te slaan in C# – Complete programmeergids](./how-to-save-workbook-in-c-complete-programming-guide/)
 Leer stap voor stap hoe u een werkmap opslaat in C# met Aspose.Cells, inclusief alle opties en best practices.
 ### [Hoe een xlsb-bestand te maken met aangepaste werkblad-eigenschappen in C#](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
-Leer hoe u een xlsb-bestand maakt en werkblad-eigenschappen instelt via C# met Aspose.Cells.
+Leer hoe u een xlsb-bestand maakt en werkblad-eigenschappen instelt via C# met Aspose.Cells voor .NET.
+### [Maak Excel-werkmap C# en sla op als XLSB](./create-excel-workbook-c-and-save-as-xlsb/)
+Leer stap voor stap hoe u een Excel-werkmap maakt en opslaat als XLSB-bestand met C# en Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -44,6 +44,8 @@ Aspose.Cells for .NET を使用して、Excel ワークブックを保存し、�
 Aspose.Cells for .NET を使用して、C# でワークブックを作成し、名前付き範囲とテーブル名を設定する手順を解説します。
 ### [Excel テーブルに名前を付けて命名競合を回避する](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
 このチュートリアルでは、Aspose.Cells for .NET を使用して、Excel テーブルに名前を付け、命名競合を防ぐ方法をステップバイステップで解説します。
+### [C# で Excel の名前を変更し、テーブル名の競合を回避する方法](./how-to-rename-excel-name-in-c-and-avoid-table-name-conflicts/)
+Aspose.Cells for .NET を使用して、C# で Excel の名前をリネームし、テーブル名の競合を防ぐ手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -66,6 +66,8 @@ C# में Aspose.Cells का उपयोग करके फ्लैट OP
 Aspose.Cells for .NET के साथ C# में वर्कबुक को सहेजने की पूरी प्रक्रिया इस गाइड में विस्तृत रूप से समझी गई है।
 ### [C# में कस्टम वर्कशीट प्रॉपर्टीज़ के साथ xlsb फ़ाइल बनाना](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
 C# में Aspose.Cells का उपयोग करके कस्टम वर्कशीट प्रॉपर्टीज़ के साथ xlsb फ़ाइल बनाने का तरीका सीखें।
+### [C# में Excel वर्कबुक बनाएं और XLSB के रूप में सहेजें](./create-excel-workbook-c-and-save-as-xlsb/)
+C# और Aspose.Cells का उपयोग करके Excel वर्कबुक बनाकर उसे XLSB फ़ॉर्मेट में सहेजने की पूरी प्रक्रिया सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

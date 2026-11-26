@@ -155,6 +155,9 @@ Aprenda a configurar los colores de las pestañas de las hojas de cálculo en Ex
 ### [Cómo dividir paneles de hojas de cálculo en Excel con Aspose.Cells .NET para un mejor análisis de datos](./split-worksheet-panes-excel-aspose-cells-dotnet)
 Aprenda a utilizar Aspose.Cells para .NET para dividir paneles de hojas de cálculo en Excel, mejorando la navegación de datos y la eficiencia del análisis para una mejor visualización de grandes conjuntos de datos.
 
+### [Cómo crear varias hojas en un archivo de Excel usando C#](./how-to-create-multiple-sheets-in-an-excel-file-using-c/)
+Aprenda a crear varias hojas en un archivo de Excel mediante Aspose.Cells para .NET usando C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -155,6 +155,9 @@ Erfahren Sie, wie Sie mit Aspose.Cells für .NET Arbeitsblattbereiche in Excel a
 ### [Wie man SmartMarkerProcessor verwendet – Vorhandenes Blatt in Excel umbenennen](./how-to-use-smartmarkerprocessor-rename-existing-sheet-in-exc/)
 Erfahren Sie, wie Sie mit SmartMarkerProcessor ein bestehendes Arbeitsblatt in Excel umbenennen und dabei die API optimal nutzen.
 
+### [Erstellen mehrerer Arbeitsblätter in einer Excel-Datei mit C#](./how-to-create-multiple-sheets-in-an-excel-file-using-c/)
+Erfahren Sie, wie Sie mit Aspose.Cells für .NET mehrere Arbeitsblätter in einer Excel-Datei programmgesteuert erstellen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -152,6 +152,9 @@
 ### [Как разделить области листа в Excel с помощью Aspose.Cells .NET для расширенного анализа данных](./split-worksheet-panes-excel-aspose-cells-dotnet)
 Узнайте, как использовать Aspose.Cells для .NET для разделения панелей листов в Excel, что улучшает навигацию по данным и эффективность анализа для лучшей визуализации больших наборов данных.
 
+### [Как создать несколько листов в файле Excel с помощью C#](./how-to-create-multiple-sheets-in-an-excel-file-using-c/)
+Узнайте, как программно создавать несколько листов в файле Excel с помощью Aspose.Cells для .NET и C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

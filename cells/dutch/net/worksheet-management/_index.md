@@ -117,7 +117,7 @@ Leer hoe u werkbladen efficiënt kunt kopiëren en verplaatsen binnen en tussen 
 Leer hoe u met Aspose.Cells voor .NET efficiënt rijhoogten kunt kopiëren tussen werkbladbereiken. Zo zorgt u voor een uniforme opmaak in al uw Excel-bestanden en behoudt u een consistente weergave van uw documenten.
 
 ### [Rijen invoegen en vullen in Excel met Aspose.Cells .NET: een uitgebreide handleiding](./excel-row-insertion-aspose-cells-dotnet)
-Leer hoe u efficiënt rijen in Excel kunt invoegen en vullen met Aspose.Cells voor .NET. Hiermee verbetert u uw vaardigheden op het gebied van gegevensmanipulatie voor dynamisch spreadsheetbeheer en rapportagetoepassingen.
+Leer hoe u efficiënt rijen in Excel kunt invoegen en vullen met Aspose.Cells .NET. Hiermee verbetert u uw vaardigheden op het gebied van gegevensmanipulatie voor dynamisch spreadsheetbeheer en rapportagetoepassingen.
 
 ### [Excel-werkbladbeheer in .NET met Aspose.Cells: een uitgebreide handleiding](./excel-worksheet-management-aspose-cells-net)
 Leer hoe u Excel-werkbladen efficiënt kunt beheren met Aspose.Cells voor .NET. Leer hoe u Excel-bestanden in uw applicaties kunt openen, openen, verplaatsen en opslaan zonder afhankelijk te zijn van Microsoft Excel.
@@ -129,7 +129,7 @@ Leer hoe u tabbladen in Excel efficiënt kunt verbergen of weergeven met Aspose.
 Leer hoe u Aspose.Cells voor .NET gebruikt om veilige, geldige Excel-sheetnamen te creëren. Leer afkappings- en tekenvervangingstechnieken met praktische codevoorbeelden om naamgevingsfouten in uw applicaties te voorkomen.
 
 ### [Een kolom invoegen in Excel met Aspose.Cells .NET: een uitgebreide handleiding](./insert-column-aspose-cells-net)
-Leer hoe u efficiënt kolommen in Excel-bestanden invoegt met Aspose.Cells voor .NET met deze stapsgewijze handleiding. Verbeter vandaag nog uw vaardigheden in spreadsheetbeheer door programmatisch kolommen in te voegen.
+Leer hoe u efficiënt kolommen in Excel-bestanden invoegt met Aspose.Cells .NET met deze stapsgewijze handleiding. Verbeter vandaag nog uw vaardigheden in spreadsheetbeheer door programmatisch kolommen in te voegen.
 
 ### [Specifieke werkbladen laden met Aspose.Cells voor .NET - Een complete handleiding](./load-specific-sheets-aspose-cells-net)
 Leer hoe u efficiënt specifieke werkbladen uit Excel-bestanden laadt met Aspose.Cells voor .NET. Ideaal voor data-analyse en rapportagetaken waarvoor slechts bepaalde werkbladen nodig zijn, en waarmee u het geheugengebruik kunt optimaliseren.
@@ -138,7 +138,7 @@ Leer hoe u efficiënt specifieke werkbladen uit Excel-bestanden laadt met Aspose
 Leer hoe u op efficiënte wijze alleen zichtbare bladen in Excel kunt laden met Aspose.Cells voor .NET. Hiermee verbetert u de prestaties en optimaliseert u uw .NET-toepassingen door alleen de benodigde gegevens te verwerken.
 
 ### [Excel-bladen samenvoegen en hernoemen met Aspose.Cells voor .NET: een stapsgewijze handleiding](./merge-rename-excel-sheets-aspose-cells-net)
-Leer hoe u meerdere Excel-bestanden samenvoegt tot één bestand en werkbladen opeenvolgend hernoemt met Aspose.Cells voor .NET. Verbeter uw productiviteit en stroomlijn uw workflows met deze uitgebreide handleiding voor het consolideren van werkmappen.
+Leer hoe u meerdere Excel-bestanden samenvoegt tot één bestand en werkbladen opeenvolgend hernoemt met Aspose.Cells voor .NET. Verbeter uw productiviteit en stroomlijn uw workflows met deze uitgebreide handleiding voor het consolideren van werkbladen.
 
 ### [Werkbladen samenvoegen in Excel met Aspose.Cells voor .NET: een uitgebreide handleiding](./merge-spreadsheets-with-aspose-cells-net)
 Leer hoe u meerdere werkbladen samenvoegt tot één werkblad met Aspose.Cells voor .NET. Hiermee stroomlijnt u gegevensbeheer en automatiseert u Excel-taken op efficiënte wijze voor geconsolideerde rapportage en gegevensanalyse.
@@ -150,10 +150,13 @@ Leer hoe u Excel-werkbladen op naam kunt beheren en verwijderen met Aspose.Cells
 Leer hoe u een aangepaste tabbladnaam instelt bij het exporteren van een enkel Excel-bestand naar HTML met Aspose.Cells voor .NET. Perfect voor webrapportage en gegevensuitwisseling met verbeterde gebruikersnavigatie.
 
 ### [Werkbladtabkleuren instellen in Excel met Aspose.Cells .NET - Een uitgebreide handleiding](./set-worksheet-tab-colors-aspose-cells-net)
-Leer hoe u werkbladtabkleuren instelt in Excel met Aspose.Cells voor .NET. Deze handleiding behandelt alles, van het openen van bestanden tot het opslaan van wijzigingen, en het verbeteren van de organisatie en visuele navigatie van uw spreadsheet.
+Leer hoe u werkbladtabkleuren instelt in Excel met Aspose.Cells .NET. Deze handleiding behandelt alles, van het openen van bestanden tot het opslaan van wijzigingen, en het verbeteren van de organisatie en visuele navigatie van uw spreadsheet.
 
 ### [Werkbladvensters in Excel splitsen met Aspose.Cells .NET voor verbeterde gegevensanalyse](./split-worksheet-panes-excel-aspose-cells-dotnet)
 Leer hoe u Aspose.Cells voor .NET kunt gebruiken om werkbladvensters in Excel te splitsen. Zo verbetert u de gegevensnavigatie en analyse-efficiëntie en kunt u grote datasets beter visualiseren.
+
+### [Meerdere werkbladen maken in een Excel-bestand met C#](./how-to-create-multiple-sheets-in-an-excel-file-using-c/)
+Leer hoe u met Aspose.Cells voor .NET meerdere werkbladen in één Excel-bestand kunt aanmaken via C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

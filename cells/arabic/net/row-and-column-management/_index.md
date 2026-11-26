@@ -98,6 +98,9 @@
 تعلم كيفية حذف الصفوف من جدول Excel باستخدام C# خطوة بخطوة مع Aspose.Cells.
 ### [حذف الصفوف في جدول Excel باستخدام C#](./how-to-delete-rows-from-excel-table-using-c/)
 تعلم كيفية حذف الصفوف من جدول Excel باستخدام C# مع Aspose.Cells.
+### [كيفية حذف الصفوف من جدول Excel باستخدام C#](./how-to-delete-rows-from-excel-table-with-c/)
+دليل خطوة بخطوة لحذف الصفوف من جدول Excel باستخدام C#.
+
 ### [إدراج صفوف في Excel باستخدام C# – دليل خطوة بخطوة](./insert-rows-in-excel-with-c-step-by-step-guide/)
 اكتشف دليلًا خطوة بخطوة لإدراج صفوف في Excel باستخدام C# مع Aspose.Cells لتسهيل معالجة البيانات.
 ### [كيفية استخدام WRAPCOLS: إنشاء تخطيط بعمودين في C#](./how-to-use-wrapcols-create-a-two-column-layout-in-c/)

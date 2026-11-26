@@ -59,6 +59,9 @@ Aspose.Cells for .NET을 사용하여 Excel 파일에 워크시트를 추가하�
 ### [Aspose.Cells를 사용하여 기존 Excel 파일에 워크시트 추가](./add-worksheets-to-existing-excel-file/)
 Aspose.Cells for .NET에서 기존 Excel 파일에 워크시트를 추가하는 방법을 단계별 가이드를 통해 알아보세요. 동적 데이터 관리 및 스프레드시트 구성의 효율적인 확장에 적합합니다.
 
+### [C#를 사용하여 Excel 파일에 여러 시트 만들기](./how-to-create-multiple-sheets-in-an-excel-file-using-c/)
+Aspose.Cells for .NET을 활용해 C# 코드로 Excel 파일에 다수의 워크시트를 프로그래밍 방식으로 추가하는 단계별 가이드입니다.
+
 ### [Aspose.Cells를 사용하여 인덱스로 워크시트 제거](./remove-worksheets-by-index/)
 Aspose.Cells for .NET을 사용하여 인덱스별로 워크시트를 제거하는 단계별 튜토리얼입니다. 원치 않는 시트를 위치를 기반으로 프로그래밍 방식으로 삭제하여 Excel 문서 관리를 간편하게 하세요.
 

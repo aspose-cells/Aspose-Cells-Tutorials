@@ -44,6 +44,8 @@
 تعلم كيفية إنشاء مصنف Excel في C# وإضافة نطاق مسمى وتحديد اسم جدول باستخدام Aspose.Cells.
 ### [تعيين اسم لجدول Excel وتجنب تعارضات الأسماء](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
 تعلم كيفية تعيين اسم لجدول Excel وتجنب تعارضات الأسماء باستخدام Aspose.Cells لـ .NET.
+### [كيفية إعادة تسمية اسم Excel في C# وتجنب تعارضات أسماء الجداول](./how-to-rename-excel-name-in-c-and-avoid-table-name-conflicts/)
+تعلم طريقة إعادة تسمية أسماء Excel في C# وتفادي تعارضات أسماء الجداول باستخدام Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

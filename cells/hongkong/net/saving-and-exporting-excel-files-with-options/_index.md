@@ -68,6 +68,9 @@ Aspose.Cells for .NET 為開發人員提供了強大的工具來管理 .NET 應�
 ### [如何在 C# 中建立具有自訂工作表屬性的 xlsb 檔案](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
 了解如何在 C# 使用 Aspose.Cells 建立 xlsb 檔案，並自訂工作表屬性。
 
+### [在 C# 中建立 Excel 工作簿並儲存為 XLSB](./create-excel-workbook-c-and-save-as-xlsb/)
+了解如何使用 Aspose.Cells for .NET 在 C# 中建立 Excel 工作簿並儲存為 XLSB 檔案。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -105,8 +105,9 @@ Naučte se, jak pomocí Aspose.Cells pro .NET posunout buňky nahoru v Excelu po
 Objevte podrobný průvodce, jak pomocí Aspose.Cells pro .NET v C# kopírovat řádky z jednoho listu do druhého.
 ### [Jak odstranit řádky v Excelu pomocí C# – chránit záhlaví tabulky](./how-to-delete-rows-in-excel-with-c-protect-table-header/)
 Naučte se, jak pomocí Aspose.Cells pro .NET smazat řádky a zároveň zachovat záhlaví tabulky.
-
 ### [Jak pomocí Aspose.Cells smazat řádky v tabulce Excel a zachovat hlavičku](./how-to-use-aspose-cells-to-delete-rows-in-an-excel-table-whi/)
+### [Jak smazat řádky z tabulky Excel pomocí C#](./how-to-delete-rows-from-excel-table-with-c/)
+Naučte se pomocí Aspose.Cells v C# odstranit řádky z Excel tabulky s jednoduchým kódem.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -44,6 +44,8 @@
 Узнайте, как создать книгу Excel в C#, добавить именованный диапазон и задать имя таблицы с помощью Aspose.Cells для .NET.
 ### [Назначить имя таблице Excel и избежать конфликтов имен](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
 Узнайте, как присвоить имя таблице Excel и предотвратить конфликты имен с помощью Aspose.Cells для .NET.
+### [Как переименовать имя Excel в C# и избежать конфликтов имен таблиц](./how-to-rename-excel-name-in-c-and-avoid-table-name-conflicts/)
+Узнайте, как переименовать именованный диапазон в Excel с помощью C# и предотвратить конфликты имен таблиц.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

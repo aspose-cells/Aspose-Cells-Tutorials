@@ -44,6 +44,8 @@ Impara a salvare una cartella di lavoro Excel e creare un intervallo denominato 
 Impara a creare una cartella di lavoro Excel in C#, aggiungere un intervallo denominato e impostare il nome della tabella con Aspose.Cells per .NET.
 ### [Assegna un nome alla tabella Excel ed evita conflitti di denominazione](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
 Scopri come assegnare un nome unico alle tabelle Excel e gestire i conflitti di denominazione con Aspose.Cells per .NET.
+### [Come rinominare un nome Excel in C# ed evitare conflitti di denominazione della tabella](./how-to-rename-excel-name-in-c-and-avoid-table-name-conflicts/)
+Impara a rinominare un nome Excel in C# e a gestire i conflitti di denominazione delle tabelle con Aspose.Cells per .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -44,6 +44,8 @@ Hướng dẫn chi tiết cách lưu workbook Excel và thêm phạm vi được
 Hướng dẫn tạo workbook Excel bằng C#, thêm phạm vi được đặt tên và đặt tên cho bảng trong Aspose.Cells cho .NET.
 ### [Gán tên cho bảng Excel và tránh xung đột tên](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
 Hướng dẫn cách gán tên cho bảng Excel và ngăn ngừa xung đột tên bằng Aspose.Cells cho .NET.
+### [Cách đổi tên Excel trong C# và tránh xung đột tên bảng](./how-to-rename-excel-name-in-c-and-avoid-table-name-conflicts/)
+Hướng dẫn chi tiết cách đổi tên phạm vi trong Excel bằng C# và ngăn ngừa xung đột tên bảng với Aspose.Cells cho .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

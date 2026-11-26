@@ -64,7 +64,7 @@ Aspose.Cells for .NET を使用して、C# でフラット OPC ファイルを�
 ### [C# でワークブックを保存する方法 – 完全プログラミングガイド](./how-to-save-workbook-in-c-complete-programming-guide/)
 Aspose.Cells for .NET を使用して、C# でワークブックを保存する手順をステップバイステップで解説します。
 ### [C# でカスタム ワークシート プロパティを持つ xlsb ファイルを作成する方法](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
-C# でカスタム ワークシート プロパティを設定した xlsb ファイルを作成する手順を解説します。
+### [C# で Excel ワークブックを作成し XLSB として保存する方法](./create-excel-workbook-c-and-save-as-xlsb/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -154,6 +154,9 @@ Ismerje meg, hogyan használható az Aspose.Cells for .NET az Excel munkalappane
 
 ### [Cara Menggunakan SmartMarkerProcessor – Mengganti Nama Lembar yang Ada di Excel](./how-to-use-smartmarkerprocessor-rename-existing-sheet-in-exc/)
 
+### [Cara membuat beberapa lembar dalam file Excel menggunakan C#](./how-to-create-multiple-sheets-in-an-excel-file-using-c/)
+Pelajari cara membuat banyak lembar kerja dalam satu file Excel menggunakan bahasa C# dengan Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

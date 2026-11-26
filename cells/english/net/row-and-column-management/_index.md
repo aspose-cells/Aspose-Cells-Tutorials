@@ -1,6 +1,6 @@
 ---
-title: Manage Rows and Columns with Aspose.Cells for .NET
-linktitle: Manage Rows and Columns with Aspose.Cells for .NET
+title: Copy, Hide, Insert, and Manage Rows and Columns Using Aspose.Cells API for .NET
+linktitle: Copy, Hide, Insert, and Manage Rows and Columns Using Aspose.Cells API for .NET
 second_title: Aspose.Cells .NET Excel Processing API
 description: Learn how to manage rows and columns using Aspose.Cells for .NET with our comprehensive tutorials, empowering you to enhance Excel skills effortlessly. 
 weight: 22
@@ -91,6 +91,10 @@ Learn how to delete rows from an Excel table while preserving the header using A
 Learn to delete multiple rows in Excel using Aspose.Cells for .NET. This detailed, step-by-step guide covers prerequisites, coding examples, and FAQs for developers.
 ### [Delete rows from Excel table – complete C# guide](./delete-rows-from-excel-table-complete-c-guide/)
 Learn how to delete rows from an Excel table using Aspose.Cells for .NET with a complete C# guide.
+### [How to delete rows from Excel table using C#](./how-to-delete-rows-from-excel-table-using-c/)
+Learn how to delete rows from an Excel table using C# and Aspose.Cells for .NET with a clear step‑by‑step guide.
+### [How to delete rows from Excel table with C#](./how-to-delete-rows-from-excel-table-with-c/)
+Learn how to delete rows from an Excel table using C# and Aspose.Cells for .NET with a concise step‑by‑step tutorial.
 ### [Insert a Column in Aspose.Cells for .NET](./insert-column-aspose-cells/)
 Learn how to insert a column in Excel using Aspose.Cells for .NET. Follow our simple, step-by-step guide to add a new column seamlessly. Perfect for .NET developers.
 ### [Insert a Row in Aspose.Cells for .NET](./insert-row-aspose-cells/)
@@ -110,7 +114,7 @@ Learn how to create an Excel workbook in C# and transpose a column into a row us
 ### [Load excel file C# – how to delete rows and remove specific rows](./load-excel-file-c-how-to-delete-rows-and-remove-specific-row/)
 Learn how to load an Excel file in C# and delete rows, including removing specific rows, using Aspose.Cells for .NET.
 ### [Delete rows excel table with C# – step‑by‑Step guide](./delete-rows-excel-table-with-c-step-by-step-guide/)
-Learn how to delete rows from an Excel table using C# and Aspose.Cells with a clear, step‑by‑step guide.
+Learn how to delete rows from an Excel table using C# and Aspose.Cells with a clear step‑by‑step guide.
 ### [How to delete rows from Excel table using C#](./how-to-delete-rows-from-excel-table-using-c/)
 Learn how to delete rows from an Excel table using C# and Aspose.Cells for .NET with a clear step‑by‑step guide.
 ### [Insert rows in Excel with C# – Step‑by‑step guide](./insert-rows-in-excel-with-c-step-by-step-guide/)

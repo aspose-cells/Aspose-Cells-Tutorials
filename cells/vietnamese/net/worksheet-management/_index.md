@@ -114,7 +114,7 @@ Tìm hiểu cách sao chép và di chuyển hiệu quả các trang tính trong 
 Tìm hiểu cách sao chép hiệu quả chiều cao hàng giữa các phạm vi trang tính bằng Aspose.Cells cho .NET, đảm bảo định dạng thống nhất trên các tệp Excel của bạn và duy trì giao diện tài liệu nhất quán.
 
 ### [Cách chèn và điền hàng trong Excel bằng Aspose.Cells .NET: Hướng dẫn toàn diện](./excel-row-insertion-aspose-cells-dotnet)
-Tìm hiểu cách chèn và điền hàng hiệu quả trong Excel bằng Aspose.Cells cho .NET, nâng cao kỹ năng xử lý dữ liệu của bạn cho các ứng dụng quản lý bảng tính và báo cáo động.
+Tìm hiểu cách chèn và điền hàng hiệu quả trong Excel bằng Aspose.Cells .NET, nâng cao kỹ năng xử lý dữ liệu của bạn cho các ứng dụng quản lý bảng tính và báo cáo động.
 
 ### [Quản lý bảng tính Excel trong .NET với Aspose.Cells: Hướng dẫn toàn diện](./excel-worksheet-management-aspose-cells-net)
 Tìm hiểu cách quản lý bảng tính Excel hiệu quả bằng Aspose.Cells cho .NET. Làm chủ việc mở, truy cập, di chuyển và lưu các tệp Excel trong ứng dụng của bạn mà không cần phụ thuộc vào Microsoft Excel.
@@ -130,6 +130,9 @@ Tìm hiểu cách chèn cột hiệu quả vào tệp Excel bằng Aspose.Cells 
 
 ### [Cách tải các trang tính cụ thể bằng Aspose.Cells cho .NET - Hướng dẫn đầy đủ](./load-specific-sheets-aspose-cells-net)
 Tìm hiểu cách tải hiệu quả các trang tính cụ thể từ các tệp Excel bằng Aspose.Cells cho .NET. Hoàn hảo cho các tác vụ phân tích dữ liệu và báo cáo chỉ yêu cầu một số trang tính nhất định, tối ưu hóa việc sử dụng bộ nhớ.
+
+### [Cách tạo nhiều trang tính trong tệp Excel bằng C#](./how-to-create-multiple-sheets-in-an-excel-file-using-c/)
+Hướng dẫn cách tạo nhiều trang tính trong một tệp Excel bằng C# sử dụng Aspose.Cells, giúp tự động hoá và quản lý dữ liệu hiệu quả.
 
 ### [Chỉ tải các trang tính có thể nhìn thấy trong Excel bằng Aspose.Cells cho .NET: Hướng dẫn toàn diện](./load-visible-excel-sheets-aspose-cells-dotnet)
 Tìm hiểu cách tải hiệu quả các trang tính có thể nhìn thấy trong Excel bằng Aspose.Cells cho .NET, nâng cao hiệu suất và tối ưu hóa các ứng dụng .NET của bạn bằng cách chỉ xử lý dữ liệu cần thiết.

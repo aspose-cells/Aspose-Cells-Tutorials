@@ -44,6 +44,8 @@ Aprenda a guardar un libro de Excel y crear rangos con nombre usando Aspose.Cell
 Cree un libro de Excel en C# añadiendo un rango con nombre y estableciendo el nombre de la tabla usando Aspose.Cells para .NET.
 ### [Asignar nombre a tabla de Excel y evitar conflictos de nombres](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
 Aprenda a asignar un nombre a una tabla de Excel y evitar conflictos de nombres usando Aspose.Cells para .NET en este tutorial paso a paso.
+### [Cómo renombrar nombre de Excel en C# y evitar conflictos de nombres de tabla](./how-to-rename-excel-name-in-c-and-avoid-table-name-conflicts/)
+Aprenda a renombrar nombres en Excel con C# y prevenir conflictos con nombres de tablas usando Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

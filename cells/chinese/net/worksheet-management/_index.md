@@ -154,6 +154,8 @@
 
 ### [如何使用 SmartMarkerProcessor – 在 Excel 中重命名现有工作表](./how-to-use-smartmarkerprocessor-rename-existing-sheet-in-exc/)
 
+### [使用 C# 在 Excel 文件中创建多个工作表](./how-to-create-multiple-sheets-in-an-excel-file-using-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

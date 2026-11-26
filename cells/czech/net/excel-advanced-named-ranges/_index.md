@@ -44,6 +44,8 @@ Kompletní návod, jak pomocí Aspose.Cells pro .NET uložit sešit Excel a vytv
 Naučte se vytvořit sešit Excel v C# s pojmenovaným rozsahem a nastavením názvu tabulky pomocí Aspose.Cells pro .NET.
 ### [Přiřaďte název tabulce Excel a vyhněte se konfliktům názvů](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
 Naučte se, jak přiřadit název tabulce v Excelu a předejít konfliktům názvů pomocí Aspose.Cells pro .NET.
+### [Jak přejmenovat název v Excelu v C# a vyhnout se konfliktům názvů tabulek](./how-to-rename-excel-name-in-c-and-avoid-table-name-conflicts/)
+Kompletní návod, jak v C# přejmenovat pojmenovaný rozsah v Excelu a zabránit konfliktům názvů tabulek pomocí Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

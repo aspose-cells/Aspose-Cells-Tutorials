@@ -59,6 +59,9 @@ Lär dig lägga till kalkylblad i en Excel-fil med Aspose.Cells för .NET. Den h
 ### [Lägg till kalkylblad till befintlig Excel-fil med hjälp av Aspose.Cells](./add-worksheets-to-existing-excel-file/)
 Lär dig hur du lägger till kalkylblad i en befintlig Excel-fil i Aspose.Cells för .NET med den här steg-för-steg-guiden. Perfekt för dynamisk datahantering och för att effektivt utöka din kalkylbladsorganisation.
 
+### [Skapa flera kalkylblad i en Excel-fil med C#](./how-to-create-multiple-sheets-in-an-excel-file-using-c/)
+Lär dig hur du programatiskt skapar flera kalkylblad i en Excel-fil med Aspose.Cells för .NET och C#.
+
 ### [Ta bort kalkylblad efter index med hjälp av Aspose.Cells](./remove-worksheets-by-index/)
 Steg-för-steg-handledning om hur du tar bort kalkylblad efter index med Aspose.Cells för .NET. Effektivisera din Excel-dokumenthantering enkelt genom att programmatiskt ta bort oönskade ark med hjälp av deras position.
 

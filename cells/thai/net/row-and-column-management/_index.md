@@ -91,7 +91,7 @@
 เรียนรู้วิธีลบแถวในตาราง Excel โดยคงหัวตารางด้วย Aspose.Cells สำหรับ .NET
 ### [วิธีทำซ้ำรายการใน Excel – การสร้างแถวแบบไดนามิกด้วย C#](./how-to-repeat-items-in-excel-dynamic-row-generation-with-c/)
 เรียนรู้วิธีสร้างแถวใหม่โดยอัตโนมัติใน Excel เพื่อทำซ้ำรายการโดยใช้ C# และ Aspose.Cells
-### [วิธีลบแถวจากตาราง Excel ด้วย C#](./how-to-delete-rows-from-excel-table-using-c/)
+### [วิธีลบแถวจากตาราง Excel ด้วย C#](./how-to-delete-rows-from-excel-table-with-c/)
 
 เรียนรู้วิธีลบแถวในตาราง Excel ด้วย C# อย่างละเอียดตามขั้นตอน
 ### [วิธีแทรกแถวใน GridJs – เพิ่มหลายแถวอย่างมีประสิทธิภาพ](./how-to-insert-rows-in-gridjs-add-multiple-rows-grid-efficien/)

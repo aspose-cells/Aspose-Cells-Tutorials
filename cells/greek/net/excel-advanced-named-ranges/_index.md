@@ -43,7 +43,9 @@
 ### [Δημιουργία βιβλίου εργασίας Excel σε C# – Προσθήκη ονομασμένης περιοχής & ορισμός ονόματος πίνακα](./create-excel-workbook-in-c-add-named-range-set-table-name/)
 Δημιουργήστε βιβλίο εργασίας Excel σε C# με Aspose.Cells, προσθέστε ονομασμένη περιοχή και ορίστε όνομα πίνακα σε βήμα‑βήμα βίντεο.
 ### [Ανάθεση ονόματος σε πίνακα Excel και αποφυγή συγκρούσεων ονομάτων](./assign-name-to-excel-table-and-avoid-naming-conflicts/)
-Μάθετε πώς να ονομάζετε πίνακες Excel και να αποτρέπετε συγκρούσεις ονομάτων με το Aspose.Cells για .NET.
+Μάθετε πώς να ονομάζετε πίνακες Excel και να αποτρέψετε συγκρούσεις ονομάτων με το Aspose.Cells για .NET.
+### [Μετονομασία ονόματος Excel σε C# και αποφυγή συγκρούσεων ονομάτων πίνακα](./how-to-rename-excel-name-in-c-and-avoid-table-name-conflicts/)
+Μάθετε πώς να μετονομάσετε ένα όνομα Excel σε C# και να αποφύγετε συγκρούσεις ονομάτων πίνακα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -65,6 +65,8 @@ Pelajari cara menyimpan workbook sebagai file XLSX dengan data lengkap menggunak
 Pelajari cara menyimpan workbook menggunakan C# dengan panduan pemrograman lengkap menggunakan Aspose.Cells untuk .NET.
 ### [Cara membuat file xlsb dengan properti lembar kerja khusus di C#](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
 Pelajari cara membuat file xlsb dengan properti lembar kerja khusus menggunakan Aspose.Cells untuk .NET dalam C#.
+### [Buat Workbook Excel C# dan Simpan sebagai XLSB](./create-excel-workbook-c-and-save-as-xlsb/)
+Pelajari cara membuat workbook Excel menggunakan C# dan menyimpannya dalam format XLSB dengan Aspose.Cells untuk .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

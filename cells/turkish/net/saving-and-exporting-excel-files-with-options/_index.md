@@ -57,6 +57,8 @@ Aspose.Cells for .NET kullanarak çalışma kitabını XLSX olarak kaydetmeyi ve
 ### [C# ile Çalışma Kitabını Kaydetme – Tam Programlama Kılavuzu](./how-to-save-workbook-in-c-complete-programming-guide/)
 Aspose.Cells for .NET kullanarak C# ile çalışma kitabını nasıl kaydedeceğinizi adım adım öğrenin.
 ### [C#'ta Özel Çalışma Sayfası Özellikleriyle xlsb Dosyası Oluşturma](./how-to-create-xlsb-file-with-custom-worksheet-properties-in/)
+### [C#'ta Excel Çalışma Kitabı Oluşturma ve XLSB Olarak Kaydetme](./create-excel-workbook-c-and-save-as-xlsb/)
+Aspose.Cells for .NET ile C# içinde Excel çalışma kitabı oluşturup, XLSB formatında kaydetmeyi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
