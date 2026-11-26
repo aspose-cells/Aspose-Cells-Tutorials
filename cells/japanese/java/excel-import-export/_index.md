@@ -90,6 +90,9 @@ Aspose.Cells for Java を使用して、Flat OPC 形式の Excel ブックをロ
 ### [XLSX を PPTX に変換 – 編集可能なシェイプをエクスポートする完全ガイド](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
 Aspose.Cells for Java を使用して、XLSX ファイルを PPTX に変換し、編集可能なシェイプをエクスポートする方法を学びましょう。
 
+### [Excel を PPTX にエクスポートする方法 – 編集可能なシェイプを含む](./how-to-export-excel-to-pptx-with-editable-shapes/)
+Aspose.Cells for Java を使用して、Excel ファイルを編集可能なシェイプを保持したまま PPTX にエクスポートする手順をステップバイステップで解説します。
+
 ### [Aspose.Cells JavaでJSONをXLSXに変換する完全ガイド](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
 Aspose.Cells for Java を使用して、JSON データを XLSX ファイルに変換する方法を学びましょう。ステップバイステップのコード例で解説します。
 
@@ -149,11 +152,12 @@ Aspose.Cells for Java を使用して、Excel から生成した SVG にフォ�
 Aspose.Cells for Java を使用して、Excel から生成した SVG にフォントを埋め込む手順をステップバイステップで解説します。
 ### [Excel から SVG へのフォント埋め込み方法 – 完全 Java ガイド](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
 Aspose.Cells for Java を使用して、Excel から生成した SVG にフォントを埋め込む手順をステップバイステップで解説します。
-### [Excel から SVG へのフォント埋め込み方法 – 完全 Java ガイド](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
-Aspose.Cells for Java を使用して、Excel から生成した SVG にフォントを埋め込む手順をステップバイステップで解説します。
 
 ### [JavaでExcelからSVGを作成する – ステップバイステップガイド](./how-to-create-svg-from-excel-with-java-step-by-step-guide/)
 Aspose.Cells for Java を使用して、Excel ファイルから SVG を生成する手順を詳しく解説します。実用的なコード例で学びましょう。
+
+### [Aspose.Cells を使用して Excel を SVG にエクスポートする方法（Java）](./how-to-export-excel-to-svg-using-aspose-cells-in-java/)
+Aspose.Cells for Java を使い、Excel ファイルを SVG 形式にエクスポートする手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

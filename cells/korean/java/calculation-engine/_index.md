@@ -67,6 +67,9 @@ Aspose.Cells Java에서 수식을 강제로 계산하는 방법을 배웁니다.
 ### [Java Aspose.Cells를 사용하여 Excel의 모든 수식 재계산하기](./recalculate-all-formulas-excel-with-java-aspose-cells/)
 Java와 Aspose.Cells를 활용해 워크북의 모든 수식을 한 번에 재계산하는 방법을 안내합니다.
 
+### [전체 계산 강제 실행 및 Excel 워크북 동적 로드](./force-full-calculation-and-load-excel-workbook-dynamically/)
+전체 계산을 강제로 수행하고 Excel 워크북을 동적으로 로드하는 방법을 안내합니다.
+
 ## 추가 리소스
 - [Aspose.Cells for Java 문서](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells for Java API 레퍼런스](https://reference.aspose.com/cells/java/)

@@ -256,17 +256,22 @@ Làm chủ kiểu dáng ô Excel và thêm siêu liên kết vào ứng dụng J
 
 ### [Tạo sổ làm việc Excel với Định dạng Động trong Java – Hướng dẫn đầy đủ](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 Hướng dẫn chi tiết cách tạo sổ làm việc Excel và áp dụng định dạng động bằng Aspose.Cells cho Java.
+
 ### [Cách áp dụng kiểu khi chuyển DataTable sang Excel – Hướng dẫn đầy đủ Java](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 Tìm hiểu cách áp dụng các kiểu định dạng khi chuyển đổi DataTable sang tệp Excel bằng Aspose.Cells cho Java.
+
 ### [Tạo Workbook Excel có Định dạng trong Java – Hướng dẫn đầy đủ](./create-styled-excel-workbook-in-java-complete-guide/)
 Hướng dẫn chi tiết cách tạo và áp dụng các kiểu định dạng cho Workbook Excel bằng Aspose.Cells for Java, bao gồm ví dụ mã và mẹo tối ưu.
+
 ### [Cách tạo workbook Excel với định dạng tiền tệ và phông chữ đậm trong Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 Hướng dẫn tạo sổ làm việc Excel, áp dụng định dạng tiền tệ và phông chữ đậm bằng Aspose.Cells cho Java.
+
 ### [Tạo sổ làm việc Excel bằng Java và áp dụng định dạng số cho cột](./create-excel-workbook-java-and-apply-column-number-formats/)
 Hướng dẫn tạo sổ làm việc Excel và áp dụng định dạng số cho cột bằng Aspose.Cells cho Java.
 
 ### [Cách giới hạn chữ số có nghĩa trong Excel bằng Java](./how-to-limit-significant-digits-excel-using-java/)
-Hướng dẫn cách thiết lập giới hạn chữ số có nghĩa trong ô Excel bằng Aspose.Cells cho Java.
+
+### [Cách tạo sổ làm việc Excel với ngày theo thời đại Nhật Bản trong Java](./how-to-create-excel-workbook-with-japanese-era-dates-in-java/)
 
 ## Tài nguyên bổ sung
 

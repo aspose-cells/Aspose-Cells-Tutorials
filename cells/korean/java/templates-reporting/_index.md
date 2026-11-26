@@ -78,6 +78,9 @@ Aspose.Cells for Java와 Excel 스마트 마커를 사용해 보고서를 자동
 ### [스마트 마커를 사용하여 Excel 워크북 만들기 – Java 가이드](./create-excel-workbook-with-smart-markers-java-guide/)
 Aspose.Cells for Java를 활용해 스마트 마커로 Excel 워크북을 생성하고 자동화하는 방법을 단계별로 안내합니다.
 
+### [Aspose.Cells 마커를 사용하여 Java에서 Excel 워크북 만들기](./how-to-create-excel-workbook-java-with-aspose-cells-markers/)
+Aspose.Cells 마커를 활용해 Java에서 Excel 워크북을 생성하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 - [Java용 Aspose.Cells 문서](https://docs.aspose.com/cells/java/)

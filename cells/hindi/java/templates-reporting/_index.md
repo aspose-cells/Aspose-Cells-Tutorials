@@ -77,6 +77,8 @@ Aspose.Cells का उपयोग करके वर्कशीट्स म
 
 ### [SmartMarkerProcessor का उपयोग करके जावा में वर्कशीट्स कैसे जनरेट करें](./how-to-generate-worksheets-in-java-using-smartmarkerprocesso/)
 
+### [Aspose.Cells मार्कर्स के साथ जावा में Excel वर्कबुक बनाना](./how-to-create-excel-workbook-java-with-aspose-cells-markers/)
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.Cells for Java दस्तावेज़ीकरण](https://docs.aspose.com/cells/java/)

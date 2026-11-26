@@ -55,6 +55,9 @@ Leer stap voor stap hoe u met Smart Markers in Aspose.Cells voor Java volledige 
 ### [Maak een Excel-werkmap met Smart Markers – Java-gids](./create-excel-workbook-with-smart-markers-java-guide/)
 Leer stap voor stap hoe u een Excel-werkmap maakt met Smart Markers in Aspose.Cells voor Java, inclusief codevoorbeelden.
 
+### [Hoe een Excel-werkmap te maken in Java met Aspose.Cells-markeringen](./how-to-create-excel-workbook-java-with-aspose-cells-markers/)
+Leer stap voor stap hoe u een Excel-werkmap maakt met markers in Aspose.Cells voor Java.
+
 ### [Hoe werkbladen te genereren met Smart Markers – volledige Java-gids](./how-to-generate-worksheets-with-smart-markers-full-java-guid/)
 Leer hoe u met Smart Markers dynamisch werkbladen genereert in Java met Aspose.Cells.
 

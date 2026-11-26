@@ -98,6 +98,9 @@ Leer hoe u Excel‑bestanden omzet naar PowerPoint‑presentaties met Aspose.Cel
 ### [Excel naar PowerPoint converteren in Java – stapsgewijze handleiding](./convert-excel-to-powerpoint-in-java-step-by-step-guide/)
 Leer hoe u Excel‑bestanden stap‑voor‑stap converteert naar PowerPoint‑presentaties met Aspose.Cells voor Java.
 
+### [Hoe GridJS in een Java Excel-werkstroom in te schakelen en bestanden voor het web te serveren](./how-to-enable-gridjs-in-a-java-excel-workflow-and-serve-file/)
+Leer hoe u GridJS integreert in een Java Excel-werkstroom en de gegenereerde bestanden via een webserver beschikbaar maakt.
+
 ## Aanvullende bronnen
 
 - [Aspose.Cells voor Java-documentatie](https://docs.aspose.com/cells/java/)

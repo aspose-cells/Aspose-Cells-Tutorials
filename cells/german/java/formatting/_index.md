@@ -64,10 +64,16 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java Zahlenformate und benutzerdefin
 
 ### [Aspose Cells Datumsformat: So setzen Sie ein benutzerdefiniertes Datumsformat in Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java benutzerdefinierte Datumsformate in Excel festlegen und formatieren.
+
+### [So erstellen Sie ein Excel-Arbeitsbuch mit japanischen Ära-Daten in Java](./how-to-create-excel-workbook-with-japanese-era-dates-in-java/)
+Erfahren Sie, wie Sie mit Aspose.Cells für Java ein Excel-Arbeitsbuch erstellen, das japanische Ära-Daten korrekt darstellt.
+
 ### [Benutzerdefiniertes Zahlenformat in Excel mit Java festlegen – Vollständige Anleitung](./set-custom-number-format-in-excel-with-java-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java benutzerdefinierte Zahlenformate in Excel festlegen und anwenden.
+
 ### [Wie man ein benutzerdefiniertes Zahlenformat in Excel mit Java anwendet](./how-to-apply-a-custom-number-format-in-excel-with-java/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java ein benutzerdefiniertes Zahlenformat in Excel festlegen und anwenden.
+
 ### [So erstellen Sie eine Excel-Arbeitsmappe mit Währungsformat und fetter Schrift in Java](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java eine Excel-Arbeitsmappe erstellen, das Währungsformat anwenden und die Schrift fett formatieren.
 

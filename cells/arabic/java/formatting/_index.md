@@ -253,6 +253,8 @@
 
 ### [كيفية تحديد عدد الأرقام المهمة في Excel باستخدام Java](./how-to-limit-significant-digits-excel-using-java/)
 
+### [كيفية إنشاء مصنف Excel بتواريخ العصور اليابانية في Java](./how-to-create-excel-workbook-with-japanese-era-dates-in-java/)
+
 ## موارد إضافية
 
 - [توثيق Aspose.Cells لـ Java](https://docs.aspose.com/cells/java/)

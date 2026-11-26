@@ -74,6 +74,9 @@ Apprenez à forcer le recalcul des formules dans les classeurs Excel avec Aspose
 ### [Recalculer toutes les formules Excel avec Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
 Apprenez à recalculer toutes les formules d’un classeur Excel en Java avec Aspose.Cells.
 
+### [Forcer le calcul complet et charger dynamiquement le classeur Excel](./force-full-calculation-and-load-excel-workbook-dynamically/)
+Apprenez à forcer le calcul complet et à charger dynamiquement un classeur Excel avec Aspose.Cells for Java.
+
 ## Ressources supplémentaires
 - [Documentation Aspose.Cells for Java](https://docs.aspose.com/cells/java/)
 - [Référence API Aspose.Cells for Java](https://reference.aspose.com/cells/java/)

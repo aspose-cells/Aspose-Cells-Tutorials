@@ -107,6 +107,9 @@ Lär dig hur du med Aspose.Cells för Java exporterar redigerbara former från E
 ### [Hur man exporterar form från Excel till PowerPoint med Java](./how-to-export-shape-from-excel-to-powerpoint-using-java/)
 Lär dig hur du med Aspose.Cells för Java exporterar former från Excel till PowerPoint med komplett kodexempel.
 
+### [Hur du aktiverar GridJS i ett Java Excel‑arbetsflöde och levererar filer för webben](./how-to-enable-gridjs-in-a-java-excel-workflow-and-serve-file/)
+Lär dig hur du integrerar GridJS i ett Java‑Excel‑arbetsflöde och serverar filer via webben.
+
 ## Ytterligare resurser
 
 - [Aspose.Cells för Java-dokumentation](https://docs.aspose.com/cells/java/)

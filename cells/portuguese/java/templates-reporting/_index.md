@@ -76,6 +76,9 @@ Aprenda a gerar planilhas Excel em Java usando a classe SmartMarkerProcessor do 
 ### [Como salvar pasta de trabalho como PDF e incorporar fontes usando Java](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
 Aprenda a salvar uma pasta de trabalho Excel como PDF e incorporar fontes embutidas usando Aspose.Cells para Java.
 
+### [Como criar pasta de trabalho Excel Java com marcadores Aspose.Cells](./how-to-create-excel-workbook-java-with-aspose-cells-markers/)
+Aprenda a gerar uma pasta de trabalho Excel usando marcadores Aspose.Cells em Java.
+
 ## Recursos adicionais
 
 - [Documentação do Aspose.Cells para Java](https://docs.aspose.com/cells/java/)

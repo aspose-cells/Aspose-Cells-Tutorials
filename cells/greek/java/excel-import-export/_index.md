@@ -74,7 +74,8 @@
 ### [Πώς να δημιουργήσετε PDF από ένα βιβλίο εργασίας – Πλήρης οδηγός Java](./how-to-create-pdf-from-a-workbook-complete-java-guide/)
 Μάθετε πώς να μετατρέψετε ένα βιβλίο εργασίας Excel σε PDF χρησιμοποιώντας το Aspose.Cells για Java με πλήρη οδηγό βήμα προς βήμα.
 ### [Μετατροπή XLSX σε PPTX – Πλήρης Οδηγός για Εξαγωγή Επεξεργάσιμων Σχημάτων](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
-Μάθετε πώς να μετατρέψετε αρχεία XLSX σε PPTX και να εξάγετε επεξεργάσιμα σχήματα με το Aspose.Cells για Java.
+### [Πώς να εξάγετε Excel σε PPTX με επεξεργάσιμα σχήματα](./how-to-export-excel-to-pptx-with-editable-shapes/)
+Μάθετε πώς να μετατρέψετε φύλλα Excel σε αρχεία PPTX με επεξεργάσιμα σχήματα χρησιμοποιώντας Aspose.Cells για Java.
 ### [Ενσωμάτωση γραμματοσειρών HTML – Excel σε HTML με πλήρη ενσωμάτωση](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
 Μάθετε πώς να εξάγετε αρχεία Excel σε HTML με πλήρη ενσωμάτωση γραμματοσειρών, διασφαλίζοντας σωστή εμφάνιση σε όλα τα προγράμματα περιήγησης.
 ### [Πώς να ενσωματώσετε γραμματοσειρές σε HTML από το Excel – Πλήρης Οδηγός](./how-to-embed-fonts-in-html-from-excel-full-guide/)
@@ -111,6 +112,8 @@
 Μάθετε πώς να εξάγετε Excel σε HTML με Java, ακολουθώντας έναν πλήρη βήμα‑βήμα οδηγό.
 ### [Ενσωμάτωση γραμματοσειρών σε SVG κατά την εξαγωγή Excel σε SVG](./embed-fonts-in-svg-while-exporting-excel-to-svg/)
 Μάθετε πώς να ενσωματώσετε γραμματοσειρές σε αρχεία SVG κατά την εξαγωγή Excel χρησιμοποιώντας το Aspose.Cells για Java.
+### [Πώς να εξάγετε Excel σε SVG χρησιμοποιώντας Aspose.Cells σε Java](./how-to-export-excel-to-svg-using-aspose-cells-in-java/)
+Μάθετε πώς να εξάγετε αρχεία Excel σε μορφή SVG χρησιμοποιώντας το Aspose.Cells για Java, με παραδείγματα κώδικα βήμα‑βήμα.
 ### [Πώς να εισάγετε λίστα στο Excel και να μορφοποιήσετε στήλες σε Java](./how-to-import-list-to-excel-and-style-columns-in-java/)
 ### [Πώς να εξάγετε Excel σε TXT με περιορισμένα σημαντικά ψηφία χρησιμοποιώντας Java](./how-to-export-excel-to-txt-with-limited-significant-digits-u/)
 Μάθετε πώς να ρυθμίσετε τα σημαντικά ψηφία και να εξάγετε συγκεκριμένο εύρος κελιών σε αρχείο CSV χρησιμοποιώντας το Aspose.Cells για Java.
@@ -125,9 +128,7 @@
 ### [Πώς να ενσωματώσετε γραμματοσειρές σε HTML από το Excel – Πλήρης Οδηγός](./how-to-embed-fonts-in-html-from-excel-full-guide/)
 Μάθετε πώς να ενσωματώσετε γραμματοσειρές σε αρχεία HTML εξάγοντας τα από Excel με το Aspose.Cells για Java.
 ### [Δημιουργία Excel από JSON – Πλήρης Οδηγός Java με Aspose.Cells](./create-excel-from-json-full-java-guide-with-aspose-cells/)
-Μάθετε πώς να δημιουργήσετε αρχεία Excel από JSON χρησιμοποιώντας το Aspose.Cells για Java. Οδηγός βήμα προς βήμα με πηγαίο κώδικα.
-### [Αποθήκευση βιβλίου εργασίας ως XLSX με Smart Marker – Εξαγωγή παραγγελιών σε Excel](./save-workbook-as-xlsx-with-smart-marker-export-orders-to-exc/)
-
+Μάθετε πώς να δημιουργήσετε αρχεία Excel από δεδομένα JSON χρησιμοποιώντας το Aspose.Cells για Java. Οδηγός βήμα προς βήμα με πηγαίο κώδικα.
 ### [Αποθήκευση βιβλίου εργασίας ως CSV – Πλήρης οδηγός Java για εξαγωγή Excel σε CSV](./save-workbook-as-csv-complete-java-guide-to-export-excel/)
 Μάθετε πώς να αποθηκεύσετε ένα βιβλίο εργασίας Excel ως CSV με το Aspose.Cells για Java. Οδηγός βήμα‑βήμα με παραδείγματα κώδικα.
 

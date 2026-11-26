@@ -105,6 +105,8 @@ Java와 Aspose.Cells를 사용해 Excel 파일을 PDF로 변환하면서 필요�
 ### [Aspose.Cells for Java를 사용해 Excel에서 차트를 DOCX 파일로 내보내는 방법](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
 Aspose.Cells for Java를 활용해 Excel 차트를 DOCX 문서로 내보내는 단계별 가이드를 확인하세요.
 
+### [Java Excel 워크플로에서 GridJS를 활성화하고 웹에 파일 제공하는 방법](./how-to-enable-gridjs-in-a-java-excel-workflow-and-serve-file/)
+
 ## 추가 자료
 
 - [Java용 Aspose.Cells 문서](https://docs.aspose.com/cells/java/)

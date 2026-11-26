@@ -100,7 +100,7 @@ Scopri come formattare i fogli Excel e aggiungere pulsanti di opzione interattiv
 Scopri come applicare la formattazione in apice alle celle di Excel utilizzando Aspose.Cells per Java. Segui questa guida passo passo per migliorare i tuoi documenti Excel con notazioni scientifiche e altro ancora.
 
 ### [Padroneggiare gli effetti di testo e le ombre in Excel usando Aspose.Cells Java: una guida completa](./aspose-cells-java-text-effects-shadows-excel/)
-Scopri come aggiungere ombreggiature con effetti di testo a forme e caselle di testo in Excel utilizzando Aspose.Cells per Java. Arricchisci i tuoi fogli di calcolo con elementi visivi dinamici.
+Scopri come aggiungere ombreggiature con effetti testo a forme e caselle di testo in Excel utilizzando Aspose.Cells per Java. Arricchisci i tuoi fogli di calcolo con elementi visivi dinamici.
 
 ### [Aspose.Cells Java: aggiorna le impostazioni del testo avanzato e dei caratteri nelle celle di Excel](./aspose-cells-java-update-rich-text-fonts/)
 Scopri come aggiornare in modo efficace le celle di testo avanzato e le impostazioni dei caratteri utilizzando Aspose.Cells per Java. Migliora la gestione dei file Excel con tecniche di formattazione precise.
@@ -248,8 +248,13 @@ Scopri come convertire una DataTable in Excel applicando stili personalizzati co
 
 ### [Formato data Aspose Cells: Come impostare un formato data personalizzato in Java](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
 Scopri come impostare formati data personalizzati nei fogli Excel con Aspose.Cells per Java, con esempi di codice chiari e pratici.
+
+### [Come creare una cartella di lavoro Excel con date dell'era giapponese in Java](./how-to-create-excel-workbook-with-japanese-era-dates-in-java/)
+Scopri come impostare le date dell'era giapponese nei fogli Excel usando Aspose.Cells per Java, con esempi di codice passo passo.
+
 ### [Impostare il carattere in grassetto nell'esportazione Excel Java – Guida completa](./set-font-bold-in-java-excel-export-complete-guide/)
 Scopri come impostare il grassetto del carattere nei file Excel esportati con Java usando Aspose.Cells, con esempi di codice passo passo.
+
 ### [Creare una cartella di lavoro Excel con stile in Java – Guida completa](./create-styled-excel-workbook-in-java-complete-guide/)
 Scopri come creare una cartella di lavoro Excel con stili professionali usando Aspose.Cells per Java. Questa guida passo passo include esempi di codice.
 

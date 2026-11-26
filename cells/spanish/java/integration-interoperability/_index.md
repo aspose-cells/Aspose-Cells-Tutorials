@@ -100,6 +100,9 @@ Aprenda a exportar formas de Excel a presentaciones PowerPoint usando Aspose.Cel
 
 ### [Cómo convertir Excel a PowerPoint con Aspose.Cells para Java](./how-to-convert-excel-to-powerpoint-with-aspose-cells-for-jav/)
 
+### [Cómo habilitar GridJS en un flujo de trabajo de Excel con Java y servir archivos para la web](./how-to-enable-gridjs-in-a-java-excel-workflow-and-serve-file/)
+Aprenda a integrar GridJS en un flujo de trabajo de Excel con Java y servir los archivos resultantes a través de la web.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.Cells para Java](https://docs.aspose.com/cells/java/)

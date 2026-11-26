@@ -76,6 +76,8 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java Smart Markers in Arbeitsblätte
 ### [Wie man ein Arbeitsbuch als PDF speichert und Schriftarten einbettet mit Java](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java ein Arbeitsbuch als PDF speichern und dabei Schriftarten einbetten, um die Darstellung zu sichern.
 
+### [Wie man ein Excel-Arbeitsbuch in Java mit Aspose.Cells-Markern erstellt](./how-to-create-excel-workbook-java-with-aspose-cells-markers/)
+
 ## Weitere Ressourcen
 
 - [Aspose.Cells für Java-Dokumentation](https://docs.aspose.com/cells/java/)

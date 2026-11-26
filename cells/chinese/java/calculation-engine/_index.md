@@ -59,6 +59,9 @@ Aspose.Words Java 的代码教程
 ### [如何在 Java 中使用 Aspose.Cells 强制公式计算](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
 演示如何使用 Aspose.Cells 在 Java 环境下强制重新计算工作簿中的公式。
 
+### [强制完整计算并动态加载 Excel 工作簿](./force-full-calculation-and-load-excel-workbook-dynamically/)
+演示如何在 Java 中强制完整计算并动态加载工作簿。
+
 ### [使用 Aspose.Cells Java&#58; 优化 Excel 计算——掌握计算链以实现高效工作簿处理](./optimize-excel-aspose-cells-java-calculation-chains/)
 了解如何通过实现计算链、有效计算公式并更新单元格值，使用 Aspose.Cells for Java 提升 Excel 性能。
 ### [在 Java 中打开 XLSX 文件 – 完整指南：加载工作簿并重新计算公式](./open-xlsx-file-in-java-complete-guide-to-load-workbook-recal/)

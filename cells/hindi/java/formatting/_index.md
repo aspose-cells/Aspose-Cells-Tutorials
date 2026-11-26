@@ -161,7 +161,7 @@ Excel कार्यपुस्तिकाएँ बनाने और उ�
 ### [जावा के लिए Aspose.Cells का उपयोग करके Excel टिप्पणी स्वरूपण में महारत हासिल करें](./format-excel-comments-aspose-cells-java/)
 Java के लिए Aspose.Cells का उपयोग करके आसानी से Excel टिप्पणियों को फ़ॉर्मेट करना सीखें। प्रोग्रामेटिक रूप से टिप्पणियाँ जोड़कर और उन्हें स्टाइल करके अपनी स्प्रेडशीट को बेहतर बनाएँ।
 
-### [जावा के लिए Aspose.Cells के साथ Excel तालिका स्वरूपण में महारत हासिल करें](./format-excel-tables-aspose-cells-java/)
+### [जावा के साथ Aspose.Cells के साथ Excel तालिका स्वरूपण में महारत हासिल करें](./format-excel-tables-aspose-cells-java/)
 Java के लिए Aspose.Cells का उपयोग करके Excel तालिकाओं को फ़ॉर्मेट और स्वचालित करना सीखें। आज ही अपने डेटा प्रस्तुति कौशल को बढ़ाएँ।
 
 ### [जावा के लिए Aspose.Cells का उपयोग करके Excel में शून्य मान छिपाएँ: एक संपूर्ण गाइड](./hide-zero-values-excel-aspose-cells-java/)
@@ -223,6 +223,8 @@ Aspose.Cells for Java में WRAPCOLS फ़ंक्शन का उपय�
 
 ### [जावा के साथ Excel में कस्टम नंबर फ़ॉर्मेट कैसे लागू करें](./how-to-apply-a-custom-number-format-in-excel-with-java/)
 जावा के लिए Aspose.Cells का उपयोग करके Excel में कस्टम नंबर फ़ॉर्मेट लागू करने की चरण-दर-चरण गाइड।
+
+### [जावा में जापानी युग तिथियों के साथ Excel वर्कबुक कैसे बनाएं](./how-to-create-excel-workbook-with-japanese-era-dates-in-java/)
 
 ## अतिरिक्त संसाधन
 

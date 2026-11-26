@@ -95,6 +95,8 @@ Hướng dẫn chi tiết cách xuất biểu đồ Excel sang tài liệu Word 
 ### [Cách xuất hình dạng từ Excel sang PowerPoint bằng Java](./how-to-export-shape-from-excel-to-powerpoint-using-java/)
 Hướng dẫn chi tiết cách xuất các hình dạng từ tệp Excel sang bản trình chiếu PowerPoint bằng Aspose.Cells cho Java.
 
+### [Cách bật GridJS trong quy trình Excel Java và phục vụ tệp cho web](./how-to-enable-gridjs-in-a-java-excel-workflow-and-serve-file/)
+
 ## Tài nguyên bổ sung
 
 - [Tài liệu Aspose.Cells cho Java](https://docs.aspose.com/cells/java/)

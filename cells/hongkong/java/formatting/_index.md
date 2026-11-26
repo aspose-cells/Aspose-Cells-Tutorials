@@ -98,7 +98,7 @@
 ### [Aspose.Cells Java：更新 Excel 儲存格中的豐富文字和字體設置](./aspose-cells-java-update-rich-text-fonts/)
 了解如何使用 Aspose.Cells for Java 有效更新富文本單元格和字體設定。使用精確的格式化技術增強您的 Excel 檔案管理。
 
-### [使用 Aspose.Cells for Java 掌握工作簿和樣式管理](./aspose-cells-java-workbook-style-management/)
+### [使用 Aspose.Cells for Java 探索工作簿和樣式管理](./aspose-cells-java-workbook-style-management/)
 Aspose.Words Java 程式碼教程
 
 ### [如何使用 Aspose.Cells for Java 在 Excel 中設定數字格式 – 完整指南](./set-number-format-excel-in-java-complete-guide/)
@@ -203,7 +203,7 @@ Aspose.Words Java 程式碼教程
 ### [使用 Aspose.Cells 在 Java 中建立和設計工作簿](./mastering-aspose-cells-java-workbook-creation-styling/)
 了解如何使用 Aspose.Cells for Java 以程式設計方式建立和設定 Excel 工作簿的樣式。輕鬆實現數據呈現自動化。
 
-### [掌握 Aspose.Cells for Java 中的內建樣式：綜合指南](./mastering-built-in-styles-aspose-cells-java-guide/)
+### [掌握 Aspose.Cells Java 中的內建樣式：綜合指南](./mastering-built-in-styles-aspose-cells-java-guide/)
 依照本指南使用 Aspose.Cells for Java 應用內建樣式，增強 Excel 報表的視覺吸引力。非常適合希望改善電子表格演示的開發人員。
 
 ### [使用 Aspose.Cells 掌握 Java 中的 Excel 儲存格樣式：綜合指南](./mastering-cell-styling-aspose-cells-java/)
@@ -244,22 +244,30 @@ Aspose.Words Java 程式碼教程
 
 ### [在 Java 中建立具動態格式化的 Excel 工作簿 – 完整指南](./create-excel-workbook-with-dynamic-formatting-in-java-full-g/)
 了解如何使用 Aspose.Cells for Java 在 Java 中建立 Excel 工作簿，並套用動態格式化以提升資料呈現效果。
+
 ### [將 DataTable 轉換為 Excel 時套用樣式 – 完整 Java 教學](./how-to-apply-styles-when-converting-datatable-to-excel-full/)
 
 ### [Aspose Cells 日期格式：如何在 Java 中設定自訂日期格式](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
+
 ### [在 Java Excel 匯出中設定字體粗體：完整指南](./set-font-bold-in-java-excel-export-complete-guide/)
 了解如何使用 Aspose.Cells for Java 在 Java Excel 匯出時將字體設定為粗體。本指南提供逐步說明、程式碼範例與最佳實踐。
 
 ### [在 Excel 中使用 Java 設定自訂數字格式 – 完整指南](./set-custom-number-format-in-excel-with-java-complete-guide/)
 了解如何使用 Aspose.Cells for Java 在 Excel 中設定自訂數字格式，提供逐步說明與程式碼範例。
+
 ### [在 Java 中建立樣式化 Excel 工作簿 – 完整指南](./create-styled-excel-workbook-in-java-complete-guide/)
 
 ### [如何在 Aspose.Cells 中使用 WRAPCOLS – 完整 Java 示例](./how-to-use-wrapcols-in-aspose-cells-complete-java-example/)
 了解如何在 Aspose.Cells for Java 中使用 WRAPCOLS 方法自動換列，並透過完整範例掌握其應用技巧。
+
 ### [如何在 Java 中建立 Excel 工作簿，並套用貨幣格式與粗體字體](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
+
 ### [使用 Aspose.Cells for Java 建立 Excel 工作簿並套用欄位數字格式](./create-excel-workbook-java-and-apply-column-number-formats/)
-了解如何使用 Aspose.Cells for Java 建立 Excel 工作簿，並為欄位設定數字格式，以提升資料呈現效果。
+
 ### [如何在 Excel 中使用 Java 限制有效位數](./how-to-limit-significant-digits-excel-using-java/)
+
+### [如何在 Java 中建立帶有日本年號日期的 Excel 工作簿](./how-to-create-excel-workbook-with-japanese-era-dates-in-java/)
+了解如何使用 Aspose.Cells for Java 在 Excel 工作簿中使用日本年號日期格式，包含程式碼範例與步驟說明。
 
 ## 其他資源
 

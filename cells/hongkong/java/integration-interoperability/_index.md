@@ -105,6 +105,9 @@
 ### [如何使用 Aspose.Cells for Java 從 Excel 匯出圖表至 DOCX](./how-to-export-chart-to-docx-from-excel-using-aspose-cells-fo/)
 了解如何利用 Aspose.Cells for Java 將 Excel 中的圖表匯出為 DOCX 文件，提供實作步驟與範例代碼。
 
+### [如何在 Java Excel 工作流程中啟用 GridJS 並為 Web 提供檔案](./how-to-enable-gridjs-in-a-java-excel-workflow-and-serve-file/)
+了解如何在 Java Excel 工作流程中啟用 GridJS 並將檔案提供給 Web。
+
 ## 其他資源
 
 - [Aspose.Cells for Java文檔](https://docs.aspose.com/cells/java/)

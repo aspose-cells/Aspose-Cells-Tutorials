@@ -71,6 +71,9 @@ Aspose.Cells for Java kullanarak çalışma sayfalarında akıllı işaretleyici
 
 ### [Java kullanarak çalışma kitabını PDF olarak kaydetme ve yazı tiplerini gömmek](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
 
+### [Aspose.Cells İşaretçileriyle Java’da Excel Çalışma Kitabı Oluşturma](./how-to-create-excel-workbook-java-with-aspose-cells-markers/)
+Aspose.Cells işaretçileri kullanarak Java’da dinamik bir Excel çalışma kitabı oluşturmayı öğrenin.
+
 ## Ek Kaynaklar
 
 - [Java için Aspose.Cells Belgeleri](https://docs.aspose.com/cells/java/)

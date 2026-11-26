@@ -102,6 +102,9 @@ Panduan langkah demi langkah untuk mengekspor bentuk Excel ke presentasi PowerPo
 ### [Menyimpan Excel sebagai DOCX dengan Aspose.Cells di Java](./save-excel-as-docx-with-aspose-cells-in-java/)
 Pelajari cara menyimpan file Excel sebagai dokumen DOCX menggunakan Aspose.Cells untuk Java dalam beberapa langkah mudah.
 
+### [Cara mengaktifkan GridJS dalam alur kerja Excel Java dan menyajikan file untuk web](./how-to-enable-gridjs-in-a-java-excel-workflow-and-serve-file/)
+Pelajari cara mengaktifkan GridJS dalam alur kerja Excel Java dan menyajikan file untuk web.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.Cells untuk Java](https://docs.aspose.com/cells/java/)

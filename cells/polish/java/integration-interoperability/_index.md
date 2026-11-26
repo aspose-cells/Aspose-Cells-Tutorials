@@ -100,6 +100,9 @@ Dowiedz się, jak wyeksportować kształt z Excela do prezentacji PowerPoint prz
 ### [Jak przekonwertować Excel do PowerPoint przy użyciu Aspose.Cells dla Javy](./how-to-convert-excel-to-powerpoint-with-aspose-cells-for-jav/)
 Dowiedz się, jak przekonwertować pliki Excel do formatu PowerPoint przy użyciu Aspose.Cells dla Javy.
 
+### [Jak włączyć GridJS w przepływie pracy Excel w Javie i udostępniać pliki w sieci](./how-to-enable-gridjs-in-a-java-excel-workflow-and-serve-file/)
+Dowiedz się, jak zintegrować GridJS z Aspose.Cells w Javie, aby wyświetlać arkusze Excel w przeglądarce.
+
 ## Dodatkowe zasoby
 
 - [Dokumentacja Aspose.Cells dla Java](https://docs.aspose.com/cells/java/)

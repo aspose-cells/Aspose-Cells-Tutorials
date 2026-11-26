@@ -268,6 +268,8 @@ Dowiedz się, jak programowo ustawiać własne formaty liczb w arkuszach Excel p
 
 ### [Jak utworzyć skorzyt Excela z formatem waluty i pogrubioną czcionką w Javie](./how-to-create-excel-workbook-with-currency-format-and-bold-f/)
 
+### [Jak utworzyć skoroszyt Excela z datami japońskich er w Javie](./how-to-create-excel-workbook-with-japanese-era-dates-in-java/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

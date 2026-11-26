@@ -44,6 +44,9 @@ Apprenez à automatiser l'ajustement de la largeur des colonnes dans Excel avec 
 ### [Créer un classeur Excel en Java et appliquer des formats numériques aux colonnes](./create-excel-workbook-java-and-apply-column-number-formats/)
 Apprenez à créer un classeur Excel avec Aspose.Cells pour Java et à appliquer des formats de nombre aux colonnes.
 
+### [Comment créer un classeur Excel avec des dates d'ère japonaise en Java](./how-to-create-excel-workbook-with-japanese-era-dates-in-java/)
+Apprenez à créer un classeur Excel affichant les dates selon le calendrier japonais avec Aspose.Cells pour Java.
+
 ### [Ajustement automatique des lignes dans Excel avec Aspose.Cells pour Java : guide complet](./aspose-cells-java-auto-fit-rows-excel/)
 Apprenez à utiliser Aspose.Cells pour Java pour ajuster automatiquement la hauteur des lignes dans les classeurs Excel, garantissant ainsi une présentation des données soignée et lisible.
 

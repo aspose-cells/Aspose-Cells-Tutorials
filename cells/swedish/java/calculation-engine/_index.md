@@ -73,6 +73,9 @@ En kodhandledning för Aspose.Cells Java
 ### [Hur du tvingar formelberäkning i Java med Aspose.Cells](./how-to-force-formula-calculation-in-java-with-aspose-cells/)
 En kodhandledning för Aspose.Cells Java
 
+### [Tvinga full beräkning och ladda Excel-arbetsbok dynamiskt](./force-full-calculation-and-load-excel-workbook-dynamically/)
+Lär dig hur du tvingar en fullständig beräkning och dynamiskt laddar en Excel-arbetsbok med Aspose.Cells för Java.
+
 ## Ytterligare resurser
 - [Aspose.Cells för Java-dokumentation](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells för Java API‑referens](https://reference.aspose.com/cells/java/)

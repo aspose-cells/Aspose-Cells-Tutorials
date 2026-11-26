@@ -90,7 +90,9 @@
 ### [将 Excel 导出为 HTML Java](./export-excel-to-html-java/)
 学习如何使用 Aspose.Cells for Java 将 Excel 文件导出为 HTML。按照本指南（包含源代码）一步步操作，轻松将 Excel 文件无缝转换为 HTML。
 ### [将 XLSX 转换为 PPTX – 导出可编辑形状的完整指南](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
-学习如何使用 Aspose.Cells for Java 将 XLSX 文件转换为 PPTX，并导出可编辑的形状，实现跨文档的图形保留。
+学习如何使用 Aspose.Cells for Java 将 XLSX 文件转换为 PPTX，并导出可编辑形状，实现跨文档的图形保留。
+### [将 Excel 导出为 PPTX 并保留可编辑形状](./how-to-export-excel-to-pptx-with-editable-shapes/)
+学习使用 Aspose.Cells for Java 将 Excel 导出为 PPTX，并保留可编辑的形状，便于后续编辑。
 ### [使用 Aspose.Cells Java 将 JSON 转换为 XLSX（完整指南）](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
 学习如何使用 Aspose.Cells for Java 将 JSON 数据转换为 XLSX 文件。包含完整示例代码，帮助您实现无缝转换。
 ### [嵌入字体 HTML – 将 Excel 转换为 HTML 并完整嵌入字体](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
@@ -111,8 +113,12 @@
 
 ### [如何在 Excel 中将字体嵌入 SVG – 完整 Java 指南](./how-to-embed-fonts-in-svg-from-excel-complete-java-guide/)
 学习使用 Aspose.Cells for Java 将 Excel 中的字体嵌入 SVG，提供完整代码示例，实现高质量矢量图输出。
+
 ### [如何在 Excel 转 SVG 转换中嵌入字体](./how-to-embed-fonts-in-svg-while-exporting-excel-to-svg/)
 学习如何在使用 Aspose.Cells for Java 将 Excel 导出为 SVG 时嵌入字体，确保图形显示完整。
+
+### [使用 Aspose.Cells 在 Java 中将 Excel 导出为 SVG](./how-to-export-excel-to-svg-using-aspose-cells-in-java/)
+学习如何使用 Aspose.Cells for Java 将 Excel 导出为 SVG，提供完整代码示例，帮助实现矢量图转换。
 
 ### [使用 Java 将工作表精确导出为 CSV](./how-to-export-worksheet-to-csv-with-precision-in-java/)
 学习如何使用 Aspose.Cells for Java 将工作表导出为 CSV，并设置有效数字以确保精度。
@@ -154,7 +160,7 @@
 ### [将 Excel 导出为 HTML Java](./export-excel-to-html-java/)
 学习如何使用 Aspose.Cells for Java 将 Excel 文件导出为 HTML。按照本指南（包含源代码）一步步操作，轻松将 Excel 文件无缝转换为 HTML。
 ### [将 XLSX 转换为 PPTX – 导出可编辑形状的完整指南](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
-学习如何使用 Aspose.Cells for Java 将 XLSX 文件转换为 PPTX，并导出可编辑的形状，实现跨文档的图形保留。
+学习如何使用 Aspose.Cells for Java 将 XLSX 文件转换为 PPTX，并导出可编辑形状，实现跨文档的图形保留。
 ### [使用 Aspose.Cells Java 将 JSON 转换为 XLSX（完整指南）](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
 学习如何使用 Aspose.Cells for Java 将 JSON 数据转换为 XLSX 文件。包含完整示例代码，帮助您实现无缝转换。
 ### [嵌入字体 HTML – 将 Excel 转换为 HTML 并完整嵌入字体](./embed-fonts-html-excel-to-html-with-full-font-embedding/)
@@ -216,7 +222,7 @@
 ### [将 Excel 导出为 HTML Java](./export-excel-to-html-java/)
 学习如何使用 Aspose.Cells for Java 将 Excel 文件导出为 HTML。按照本指南（包含源代码）一步步操作，轻松将 Excel 文件无缝转换为 HTML。
 ### [将 XLSX 转换为 PPTX – 导出可编辑形状的完整指南](./convert-xlsx-to-pptx-complete-guide-to-export-editable-shape/)
-学习如何使用 Aspose.Cells for Java 将 XLSX 文件转换为 PPTX，并导出可编辑的形状，实现跨文档的图形保留。
+学习如何使用 Aspose.Cells for Java 将 XLSX 文件转换为 PPTX，并导出可编辑形状，实现跨文档的图形保留。
 ### [使用 Aspose.Cells Java 将 JSON 转换为 XLSX（完整指南）](./convert-json-to-xlsx-with-aspose-cells-java-full-guide/)
 学习如何使用 Aspose.Cells for Java 将 JSON 数据转换为 XLSX 文件。包含完整示例代码，帮助您实现无缝转换。
 ### [嵌入字体 HTML – 将 Excel 转换为 HTML 并完整嵌入字体](./embed-fonts-html-excel-to-html-with-full-font-embedding/)

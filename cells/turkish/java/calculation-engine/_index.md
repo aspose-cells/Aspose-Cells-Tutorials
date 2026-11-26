@@ -74,6 +74,9 @@ Aspose.Cells kullanarak formül hesaplamasını manuel olarak tetiklemeyi öğre
 ### [Java Aspose.Cells ile Tüm Formülleri Yeniden Hesaplama](./recalculate-all-formulas-excel-with-java-aspose-cells/)
 Java Aspose.Cells kullanarak Excel dosyalarındaki tüm formülleri nasıl yeniden hesaplayacağınızı öğrenin.
 
+### [Tam Hesaplamayı Zorla ve Excel Çalışma Kitabını Dinamik Olarak Yükle](./force-full-calculation-and-load-excel-workbook-dynamically/)
+Excel çalışma kitabını dinamik olarak yükleyip tam hesaplamayı zorlayarak sonuçları anında alın.
+
 ## Ek Kaynaklar
 - [Aspose.Cells for Java Documentation](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells for Java API Reference](https://reference.aspose.com/cells/java/)

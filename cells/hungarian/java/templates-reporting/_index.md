@@ -77,6 +77,9 @@ Tanulja meg, hogyan hozhat létre munkalapokat Java-ban a SmartMarkerProcessor s
 ### [Munkafüzet mentése PDF-be és betűkészletek beágyazása Java-val](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
 Tanulja meg, hogyan menthet munkafüzetet PDF formátumba, és ágyazhatja be a betűkészleteket Java-val az Aspose.Cells használatával.
 
+### [Excel munkafüzet létrehozása Java-val Aspose.Cells jelölőkkel](./how-to-create-excel-workbook-java-with-aspose-cells-markers/)
+Tanulja meg, hogyan hozhat létre Excel munkafüzetet Java-ban Aspose.Cells jelölőkkel.
+
 ## További források
 
 - [Aspose.Cells Java-dokumentációhoz](https://docs.aspose.com/cells/java/)

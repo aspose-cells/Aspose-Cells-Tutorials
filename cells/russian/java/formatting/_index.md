@@ -106,7 +106,7 @@
 ### [Мастер текстовых эффектов теней в Excel с помощью Aspose.Cells Java: подробное руководство](./aspose-cells-java-text-effects-shadows-excel/)
 Узнайте, как добавлять текстовые эффекты теней к фигурам и текстовым полям в Excel с помощью Aspose.Cells for Java. Улучшите свои электронные таблицы с помощью динамических визуальных элементов.
 
-### [Aspose.Cells Java: обновление форматированного текста и настроек шрифта в ячейках Excel](./aspose-cells-java-update-rich-text-fonts/)
+### [Aspose.Cells Java: обновление форматированного текста и настроек шрифта в ячках Excel](./aspose-cells-java-update-rich-text-fonts/)
 Узнайте, как эффективно обновлять ячейки форматированного текста и настройки шрифтов с помощью Aspose.Cells for Java. Улучшите управление файлами Excel с помощью точных методов форматирования.
 
 ### [Мастер управления рабочими книгами и стилями с Aspose.Cells для Java](./aspose-cells-java-workbook-style-management/)
@@ -264,6 +264,9 @@
 
 ### [Как ограничить количество значащих цифр в Excel с помощью Java](./how-to-limit-significant-digits-excel-using-java/)
 Узнайте, как задать ограничение на количество значащих цифр в ячейках Excel, используя Aspose.Cells для Java.
+
+### [Как создать книгу Excel с датами японской эры в Java](./how-to-create-excel-workbook-with-japanese-era-dates-in-java/)
+Узнайте, как создавать книги Excel с датами в японском календаре, используя Aspose.Cells для Java.
 
 ## Дополнительные ресурсы
 

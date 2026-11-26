@@ -100,6 +100,9 @@
 ### [使用 Aspose.Cells for Java 将 Excel 转换为 PowerPoint 的方法](./how-to-convert-excel-to-powerpoint-with-aspose-cells-for-jav/)
 学习如何使用 Aspose.Cells for Java 将 Excel 工作簿转换为 PowerPoint 演示文稿，提供完整代码示例和最佳实践。
 
+### [在 Java Excel 工作流中启用 GridJS 并在 Web 上提供文件](./how-to-enable-gridjs-in-a-java-excel-workflow-and-serve-file/)
+学习如何在 Java Excel 工作流中集成 GridJS，并将生成的文件通过 Web 服务器提供给用户。
+
 ## 其他资源
 
 - [Aspose.Cells for Java文档](https://docs.aspose.com/cells/java/)

@@ -74,6 +74,9 @@ Aspose.Cells のスマートマーカーを活用して、ワークシートを�
 
 ### [Java を使用してブックを PDF として保存し、フォントを埋め込む方法](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
 
+### [Aspose.Cells マーカーで Java による Excel ワークブックの作成方法](./how-to-create-excel-workbook-java-with-aspose-cells-markers/)
+Aspose.Cells のマーカー機能を利用して、Java で Excel ワークブックを自動的に作成する手順を解説します。
+
 ## 追加リソース
 
 - [Aspose.Cells for Java ドキュメント](https://docs.aspose.com/cells/java/)

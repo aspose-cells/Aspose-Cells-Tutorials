@@ -75,6 +75,8 @@ Apprenez à créer des marqueurs intelligents dans les feuilles de calcul avec A
 ### [Comment enregistrer un classeur au format PDF et incorporer les polices avec Java](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
 Apprenez à convertir un classeur Excel en PDF tout en intégrant les polices pour garantir un rendu fidèle, grâce à Aspose.Cells pour Java.
 
+### [Comment créer un classeur Excel Java avec les marqueurs Aspose.Cells](./how-to-create-excel-workbook-java-with-aspose-cells-markers/)
+
 ## Ressources supplémentaires
 
 - [Documentation d'Aspose.Cells pour Java](https://docs.aspose.com/cells/java/)

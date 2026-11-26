@@ -74,7 +74,8 @@ Pelajari cara menghasilkan laporan Excel menggunakan Smart Markers dengan contoh
 Pelajari cara membuat workbook Excel menggunakan Smart Markers dengan contoh kode Java lengkap dalam panduan langkah demi langkah ini.
 
 ### [Cara menyimpan workbook sebagai PDF dan menyematkan font menggunakan Java](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
-Pelajari cara menyimpan workbook Excel sebagai PDF dengan menyematkan font menggunakan Aspose.Cells untuk Java.
+
+### [Cara Membuat Workbook Excel Java dengan Penanda Aspose.Cells](./how-to-create-excel-workbook-java-with-aspose-cells-markers/)
 
 ## Sumber Daya Tambahan
 

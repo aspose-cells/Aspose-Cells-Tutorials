@@ -76,6 +76,8 @@ Naučte se, jak pomocí Aspose.Cells vytvořit listy s inteligentními značkami
 ### [Jak uložit sešit jako PDF a vložit písma v Javě](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
 Naučte se, jak pomocí Aspose.Cells pro Javu uložit Excel sešit jako PDF a vložit písma pro správné zobrazení.
 
+### [Jak vytvořit Excel sešit v Javě s Aspose.Cells značkami](./how-to-create-excel-workbook-java-with-aspose-cells-markers/)
+
 ## Další zdroje
 
 - [Dokumentace k Aspose.Cells pro Javu](https://docs.aspose.com/cells/java/)

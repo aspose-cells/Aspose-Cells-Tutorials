@@ -67,6 +67,8 @@ Aprenda a melhorar o desempenho do Excel com Aspose.Cells para Java implementand
 Aprenda a abrir arquivos XLSX, carregar a pasta de trabalho e recalcular todas as fórmulas usando Aspose.Cells para Java.
 ### [Fórmulas de Matriz Dinâmica em Java: Crie Pasta de Trabalho Excel e Calcule Todas as Fórmulas](./dynamic-array-formulas-in-java-create-excel-workbook-and-cal/)
 Aprenda a criar uma pasta de trabalho Excel em Java e calcular todas as fórmulas de matriz dinâmica usando Aspose.Cells.
+### [Forçar cálculo completo e carregar a pasta de trabalho Excel dinamicamente](./force-full-calculation-and-load-excel-workbook-dynamically/)
+Aprenda a forçar o cálculo total e carregar dinamicamente uma pasta de trabalho Excel usando Aspose.Cells para Java.
 
 ## Recursos adicionais
 

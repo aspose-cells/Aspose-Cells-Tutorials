@@ -73,6 +73,9 @@ weight: 22
 ### [إعادة حساب جميع صيغ Excel باستخدام Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
 دروس شفرة لإعادة حساب جميع الصيغ في ملفات Excel باستخدام Aspose.Cells للـ Java
 
+### [فرض حساب كامل وتحميل دفتر عمل Excel ديناميكياً](./force-full-calculation-and-load-excel-workbook-dynamically/)
+دروس توضح كيفية إجبار محرك الحساب على تنفيذ حساب كامل وتحميل المصنف ديناميكياً في Java
+
 ## موارد إضافية
 - [توثيق Aspose.Cells للـ Java](https://docs.aspose.com/cells/java/)
 - [مرجع API لـ Aspose.Cells للـ Java](https://reference.aspose.com/cells/java/)

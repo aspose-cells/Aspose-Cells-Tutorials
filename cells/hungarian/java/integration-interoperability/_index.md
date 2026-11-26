@@ -64,6 +64,8 @@ Ismerje meg, hogyan hozhat létre PowerPoint prezentációt Excel adatokból az 
 
 ### [Excel mentése DOCX formátumba Aspose.Cells használatával Java-ban](./save-excel-as-docx-with-aspose-cells-in-java/)
 
+### [Hogyan engedélyezzük a GridJS-t egy Java Excel munkafolyamatban, és kiszolgáljuk a fájlokat a weben](./how-to-enable-gridjs-in-a-java-excel-workflow-and-serve-file/)
+
 ## További források
 
 - [Aspose.Cells Java-dokumentációhoz](https://docs.aspose.com/cells/java/)

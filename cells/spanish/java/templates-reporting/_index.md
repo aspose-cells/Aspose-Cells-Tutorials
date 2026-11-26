@@ -75,6 +75,9 @@ Aprenda a generar hojas de cálculo en Java mediante SmartMarkerProcessor de Asp
 
 ### [Cómo guardar un libro de trabajo como PDF e incrustar fuentes usando Java](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
 
+### [Cómo crear un libro de Excel con Java y marcadores de Aspose.Cells](./how-to-create-excel-workbook-java-with-aspose-cells-markers/)
+Aprenda a crear libros de Excel en Java utilizando marcadores de Aspose.Cells para generar informes dinámicos.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.Cells para Java](https://docs.aspose.com/cells/java/)

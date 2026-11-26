@@ -72,6 +72,9 @@
 ### [Aspose Cells 日期格式：如何在 Java 中设置自定义日期格式](./aspose-cells-date-format-how-to-set-custom-date-format-in-ja/)
 学习如何使用 Aspose.Cells for Java 在 Excel 中自定义日期格式，包括设置模式、应用于单元格以及保存工作簿的完整步骤。
 
+### [如何使用 Aspose.Cells for Java 在 Excel 工作簿中创建日本纪元日期](./how-to-create-excel-workbook-with-japanese-era-dates-in-java/)
+了解如何在 Java 中使用 Aspose.Cells 创建包含日本纪元日期的 Excel 工作簿，包括设置和保存步骤。
+
 ### [如何使用 Aspose.Cells for Java 创建和格式化 Excel 单元格：分步指南](./aspose-cells-java-excel-automation-guide/)
 学习如何使用 Aspose.Cells for Java 轻松实现 Excel 文件的自动化和格式化。本指南涵盖工作簿创建、单元格格式化和保存技巧。
 

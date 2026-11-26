@@ -74,6 +74,9 @@ Samouczek kodu dla Aspose.Cells Java
 ### [Ponowne obliczanie wszystkich formuł Excel w Javie Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
 Samouczek kodu pokazujący, jak przeliczyć wszystkie formuły w skoroszycie.
 
+### [Wymuś pełne obliczenia i dynamicznie załaduj skoroszyt Excel](./force-full-calculation-and-load-excel-workbook-dynamically/)
+Jak wymusić pełne przeliczenie i dynamicznie wczytać skoroszyt Excel przy użyciu Aspose.Cells Java.
+
 ## Dodatkowe zasoby
 - [Dokumentacja Aspose.Cells for Java](https://docs.aspose.com/cells/java/)
 - [Referencja API Aspose.Cells for Java](https://reference.aspose.com/cells/java/)

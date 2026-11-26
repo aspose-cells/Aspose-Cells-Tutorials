@@ -102,6 +102,9 @@ Learn how to export Excel charts to DOCX documents using Aspose.Cells for Java.
 ### [How to convert Excel to PowerPoint with Aspose.Cells for Java](./how-to-convert-excel-to-powerpoint-with-aspose-cells-for-jav/)
 Learn how to convert Excel workbooks to PowerPoint presentations using Aspose.Cells for Java, with step-by-step code examples.
 
+### [How to enable GridJS in a Java Excel workflow and serve files for the web](./how-to-enable-gridjs-in-a-java-excel-workflow-and-serve-file/)
+Learn how to integrate GridJS into a Java Excel workflow and serve the generated files via a web interface.
+
 ## Additional Resources
 
 - [Aspose.Cells for Java Documentation](https://docs.aspose.com/cells/java/)

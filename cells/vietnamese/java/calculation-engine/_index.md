@@ -70,7 +70,10 @@ Hướng dẫn cách làm mới dữ liệu workbook Excel trong Java với Aspo
 Hướng dẫn buộc tính toán lại công thức trong workbook bằng Aspose.Cells cho Java.
 
 ### [Tính lại tất cả công thức Excel bằng Java Aspose.Cells](./recalculate-all-formulas-excel-with-java-aspose-cells/)
-Hướng dẫn cách tính lại toàn bộ công thức trong workbook Excel bằng Aspose.Cells cho Java
+Hướng dẫn cách tính lại toàn bộ công thức trong workbook Excel bằng Aspose.Cells cho Java.
+
+### [Buộc tính toán đầy đủ và tải workbook Excel một cách động](./force-full-calculation-and-load-excel-workbook-dynamically/)
+Hướng dẫn cách buộc tính toán toàn bộ và tải workbook Excel một cách động trong Java
 
 ## Tài nguyên bổ sung
 - [Tài liệu Aspose.Cells cho Java](https://docs.aspose.com/cells/java/)

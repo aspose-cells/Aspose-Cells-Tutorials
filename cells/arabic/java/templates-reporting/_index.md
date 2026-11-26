@@ -66,6 +66,8 @@
 
 ### [كيفية حفظ المصنف كملف PDF وتضمين الخطوط باستخدام Java](./how-to-save-workbook-as-pdf-and-embed-fonts-using-java/)
 
+### [كيفية إنشاء مصنف Excel باستخدام علامات Aspose.Cells في Java](./how-to-create-excel-workbook-java-with-aspose-cells-markers/)
+
 ## موارد إضافية
 
 - [توثيق Aspose.Cells لـ Java](https://docs.aspose.com/cells/java/)

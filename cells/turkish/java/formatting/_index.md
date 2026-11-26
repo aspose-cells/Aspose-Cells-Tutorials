@@ -262,6 +262,9 @@ Java için Aspose.Cells Kullanarak Excel Çalışma Kitabı Oluşturma ve Sütun
 
 ### [Java ile Excel'de Özel Sayı Biçimi Nasıl Uygulanır](./how-to-apply-a-custom-number-format-in-excel-with-java/)
 
+### [Java ile Japon era tarihleriyle Excel çalışma kitabı oluşturma](./how-to-create-excel-workbook-with-japanese-era-dates-in-java/)
+Java için Aspose.Cells kullanarak Japon era tarih formatıyla Excel çalışma kitabı oluşturmayı öğrenin.
+
 ## Ek Kaynaklar
 
 - [Java için Aspose.Cells Belgeleri](https://docs.aspose.com/cells/java/)

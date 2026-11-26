@@ -51,6 +51,10 @@ Step-by-step guide to generate Excel reports using Smart Markers in Aspose.Cells
 
 ### [Create Excel Workbook with Smart Markers – Java Guide](./create-excel-workbook-with-smart-markers-java-guide/)
 Step-by-step guide to creating Excel workbooks using Smart Markers in Aspose.Cells for Java, covering setup, data binding, and advanced features.
+
+### [How to create Excel workbook Java with Aspose.Cells markers](./how-to-create-excel-workbook-java-with-aspose-cells-markers/)
+Learn how to create an Excel workbook in Java using Aspose.Cells markers for dynamic data population.
+
 ### [How to create worksheets smart markers with Aspose.Cells](./how-to-create-worksheets-smart-markers-with-aspose-cells/)
 
 ### [Aspose Cells Smart Markers: Load Excel Template & Generate Excel from Template](./aspose-cells-smart-markers-load-excel-template-generate-exce/)

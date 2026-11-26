@@ -96,6 +96,9 @@ Erfahren Sie, wie Sie Diagramme aus Excel-Arbeitsblättern in DOCX-Dokumente exp
 
 ### [Excel als DOCX mit Aspose.Cells in Java speichern](./save-excel-as-docx-with-aspose-cells-in-java/)
 
+### [So aktivieren Sie GridJS in einem Java-Excel-Workflow und stellen Dateien für das Web bereit](./how-to-enable-gridjs-in-a-java-excel-workflow-and-serve-file/)
+Erfahren Sie, wie Sie GridJS in einem Java-Excel-Workflow integrieren und die erzeugten Dateien über das Web bereitstellen.
+
 ## Weitere Ressourcen
 
 - [Aspose.Cells für Java-Dokumentation](https://docs.aspose.com/cells/java/)

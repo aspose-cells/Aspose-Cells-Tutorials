@@ -91,6 +91,9 @@
 ### [วิธีฝังฟอนต์เมื่อแปลง Excel เป็น PDF ด้วย Java](./how-to-embed-fonts-when-converting-excel-to-pdf-with-java/)
 เรียนรู้วิธีฝังฟอนต์ในไฟล์ PDF ระหว่างการแปลง Excel ด้วย Aspose.Cells สำหรับ Java เพื่อให้เอกสารแสดงผลอย่างถูกต้อง
 
+### [วิธีเปิดใช้งาน GridJS ในเวิร์กโฟลว์ Excel ด้วย Java และให้บริการไฟล์บนเว็บ](./how-to-enable-gridjs-in-a-java-excel-workflow-and-serve-file/)
+เรียนรู้วิธีรวม GridJS กับ Aspose.Cells ใน Java เพื่อแสดงตารางบนเว็บและให้บริการไฟล์ Excel
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [เอกสารประกอบ Aspose.Cells สำหรับ Java](https://docs.aspose.com/cells/java/)

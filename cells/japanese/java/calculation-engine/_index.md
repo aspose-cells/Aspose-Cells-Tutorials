@@ -72,6 +72,9 @@ Aspose.Cells の計算エンジンで数式計算を強制的に実行する方�
 ### [Java Aspose.Cells で Excel のすべての数式を再計算](./recalculate-all-formulas-excel-with-java-aspose-cells/)
 Aspose.Cells for Java を使用して、ワークブック内のすべての数式を一括で再計算する方法を解説します。
 
+### [フル計算を強制し、Excel ワークブックを動的にロードする](./force-full-calculation-and-load-excel-workbook-dynamically/)
+Aspose.Cells の計算エンジンでフル再計算を実行し、ワークブックを動的に読み込む方法を解説します。
+
 ## 追加リソース
 - [Aspose.Cells for Java ドキュメント](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells for Java API リファレンス](https://reference.aspose.com/cells/java/)
